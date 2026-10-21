@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" viewBox="0 0 460 340" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the elevator car lifted at constant speed</title>
+<desc id="desc">A vertical +y axis points up, with the origin at the car’s starting position and a tick at 40.0 m. The car rises 40.0 m: the displacement d points along +y. Forces on the car: cable tension T along +y, weight w = mg and friction f along −y. The speed is constant, so a = 0.</desc>
+<rect width="460" height="340" fill="#ffffff"/>
+<line x1="70" y1="325" x2="70" y2="44" stroke="#555555" stroke-width="1.6"/>
+<polygon points="70,34 74.4,45 65.6,45" fill="#555555"/>
+<text x="70" y="21.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="86" y="20.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="65" y1="240" x2="75" y2="240" stroke="#555555" stroke-width="1.6"/>
+<text x="60" y="244.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="65" y1="80" x2="75" y2="80" stroke="#555555" stroke-width="1.6"/>
+<text x="60" y="84.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">40.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="152" y1="40" x2="152" y2="300" stroke="#8d6e63" stroke-width="1.5"/>
+<line x1="248" y1="40" x2="248" y2="300" stroke="#8d6e63" stroke-width="1.5"/>
+<line x1="76" y1="80" x2="160" y2="80" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<polygon points="165,105 235,105 235,55 165,55" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="200" y="88.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">after</tspan></text>
+<polygon points="165,265 235,265 235,215 165,215" fill="#d6e4f0" stroke="#1f3a5f" stroke-width="2"/>
+<text x="200" y="248.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">car</tspan></text>
+<line x1="200" y1="215" x2="200" y2="171.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="200,160 205.04,172.6 194.96,172.6" fill="#b03a2e"/>
+<text x="212" y="173.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<line x1="186" y1="265" x2="186" y2="301.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="186,313 180.96,300.4 191.04,300.4" fill="#b03a2e"/>
+<text x="178" y="311.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mg</tspan></text>
+<line x1="216" y1="265" x2="216" y2="281.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="216,293 210.96,280.4 221.04,280.4" fill="#b03a2e"/>
+<text x="226" y="295.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<line x1="300" y1="240" x2="300" y2="91.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="300,80 305.04,92.6 294.96,92.6" fill="#1f77c8"/>
+<text x="310" y="165.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = 40.0 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="340" y="45.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#6a3d9a" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="340" y="64.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">constant</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">speed</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

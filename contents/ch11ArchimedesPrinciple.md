@@ -44,14 +44,14 @@ The buoyant force is the net upward force on any object in any fluid.
 
 :::
 
-![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](../resources/Figure_11_07_02.jpg 'Pressure due to the weight of a fluid increases with depth since ( P=h\\rho g ) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force ( F_{B} ). (Horizontal forces cancel.)')
+![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](/resources/Figure_11_07_02.svg 'Pressure due to the weight of a fluid increases with depth since ( P=h\\rho g ) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force ( F_{B} ). (Horizontal forces cancel.)')
 {: #Figure2}
 
 Just how great is this buoyant force? To answer this question, think about what
 happens when a submerged object is removed from a fluid, as
 in [[Figure 3]](#Figure3).
 
-![An object immersed in a fluid rises if its buoyant force is greater than its weight and sinks if its buoyant force is less than its weight. By Archimedes’ principle the buoyant force equals the weight of the fluid displaced.](../resources/Figure_11_07_03.jpg '(a) An object submerged in a fluid experiences a buoyant force ( F_{B} ). If ( F_{B} ) is greater than the weight of the object, the object will rise. If ( F_{B} ) is less than the weight of the object, the object will sink. (b) If the object is removed, it is replaced by fluid having weight ( w_\\text{fl} ). Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, ( F_B= w_\\text{fl} ) ,a statement of Archimedes’ principle.')
+![An object immersed in a fluid rises if its buoyant force is greater than its weight and sinks if its buoyant force is less than its weight. By Archimedes’ principle the buoyant force equals the weight of the fluid displaced.](/resources/Figure_11_07_03.svg '(a) An object submerged in a fluid experiences a buoyant force ( F_{B} ). If ( F_{B} ) is greater than the weight of the object, the object will rise. If ( F_{B} ) is less than the weight of the object, the object will sink. (b) If the object is removed, it is replaced by fluid having weight ( w_\\text{fl} ). Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, ( F_B= w_\\text{fl} ) ,a statement of Archimedes’ principle.')
 {: #Figure3}
 
 The space it occupied is filled by fluid having a weight $${w}_{\text{fl}} $$ .
@@ -111,14 +111,14 @@ shape of a boat, and it will float. Because of its shape, the boat displaces
 more water than the lump and experiences a greater buoyant force. The same is
 true of steel ships.
 
-::: example
+::: example {"class":"example","id":"steel-boat"}
 
 <div class="title">
 Calculating buoyant force: dependency on shape
 </div>
 
-(a) Calculate the buoyant force on 10 000 metric tons  $$\left( 1.00 \times 10^{7}  \text{kg}\right) $$
- of solid steel completely submerged in water, and compare this with the steel’s weight. (b) What is the maximum buoyant force that water could exert on this same steel if it were shaped into a boat that could displace  $$ 1.00 \times 10^{5}  {\text{m}}^{3} $$
+(a) Calculate the buoyant force on 10 000 metric tons  <!-- physics: eq-0 -->$$\left( 1.00 \times 10^{7}  \text{kg}\right) $$
+ of solid steel completely submerged in water, and compare this with the steel’s weight. (b) What is the maximum buoyant force that water could exert on this same steel if it were shaped into a boat that could displace  <!-- physics: eq-1 -->$$ 1.00 \times 10^{5}  {\text{m}}^{3} $$
  of water?
 
 **Strategy for (a)**
@@ -135,6 +135,7 @@ First, we use the definition of density $$\rho =\frac{m}{V} $$ to find the
 steel’s volume, and then we substitute values for mass and density. This gives
 
 <div class="equation" >
+ <!-- physics: eq-3 -->
  $${V}_{\text{st}}=\frac{ {m}_{\text{st}}}{ {\rho }_{\text{st}}}=\frac{ 1.00 \times 10^{7}  \text{kg}}{ 7.8 \times 10^{3}  {\text{kg/m}}^{3}}= 1.28 \times 10^{3}  {\text{m}}^{3}. $$
 </div>
 
@@ -142,6 +143,7 @@ Because the steel is completely submerged, this is also the volume of water disp
  We can now find the mass of water displaced from the relationship between its volume and density, both of which are known. This gives
 
 <div class="equation" >
+ <!-- physics: eq-5 -->
  $$\begin{array}{lll}{m}_{w}& =& {\rho }_{w}{V}_{w}=\left( 1.000 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 1.28 \times 10^{3}  {m}^{3}\right)\\ & =&  1.28 \times 10^{6}  \text{kg} \text{.} \end{array} $$
 </div>
 
@@ -149,10 +151,11 @@ By Archimedes’ principle, the weight of water displaced is  $${m}_{\text{w}}g 
  so the buoyant force is
 
 <div class="equation" >
+ <!-- physics: eq-7 -->
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.28 \times 10^{6}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  1.3 \times 10^{7}  \text{N} \text{.} \end{array} $$
 </div>
 
-The steel’s weight is  $${m}_{\text{s}}g= 9.80 \times 10^{7}  \text{N} $$ ,
+The steel’s weight is  <!-- physics: eq-8 -->$${m}_{\text{s}}g= 9.80 \times 10^{7}  \text{N} $$ ,
  which is much greater than the buoyant force, so the steel will remain submerged. Note that the buoyant force is rounded to two digits because the density of steel is given to only two digits.
 
 **Strategy for (b)**
@@ -172,6 +175,7 @@ volume, both of which are known. That is,
 The maximum buoyant force is the weight of this much water, or
 
 <div class="equation" >
+ <!-- physics: eq-10 -->
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.00 \times 10^{8}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  9.80 \times 10^{8}  \text{N} \text{.} \end{array} $$
 </div>
 
@@ -263,16 +267,16 @@ Specific gravity is the ratio of the density of an object to a fluid (usually wa
 
 :::
 
-![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](../resources/Figure_11_07_05.jpg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
+![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](/resources/Figure_11_07_05.svg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
 {: #Figure5}
 
-::: example
+::: example {"class":"example","id":"floating-woman"}
 
 <div class="title">
 Calculating Average Density: Floating Woman
 </div>
 
-Suppose a 60.0-kg woman floats in freshwater with  $$97.0\% $$
+Suppose a 60.0-kg woman floats in freshwater with  <!-- physics: eq-0 -->$$97.0\% $$
  of her volume submerged when her lungs are full of air. What is her average density?
 
 **Strategy**
@@ -296,6 +300,7 @@ We know both the fraction submerged and the density of water, and so we can calc
 Entering the known values into the expression for her density, we obtain
 
 <div class="equation" >
+ <!-- physics: eq-3 -->
  $${\overline{\rho }}_{\text{person}}= 0.970\cdot \left(10^{3}\frac{\text{kg}}{ {\text{m}}^{3}}\right)=970\frac{\text{kg}}{ {\text{m}}^{3}}. $$
 </div>
 
@@ -350,13 +355,13 @@ or
 
 The next example illustrates the use of this technique.
 
-::: example
+::: example {"class":"example","id":"coin-density"}
 
 <div class="title">
 Calculating Density: Is the Coin Authentic?
 </div>
 
-The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[Figure 7]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  $$ 1.000 {\text{g/cm}}^{3} $$
+The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[Figure 7]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  <!-- physics: eq-0 -->$$ 1.000 {\text{g/cm}}^{3} $$
  and that effects caused by the wire suspending the coin are negligible.
 
 **Strategy**
@@ -376,6 +381,7 @@ the coin, since it is completely submerged. We can now find the density of the
 coin using the definition of density:
 
 <div class="equation" >
+ <!-- physics: eq-8 -->
  $${\rho }_{\text{c}}=\frac{ {m}_{\text{c}}}{ {V}_{c}}=\frac{8.630 \text{g}}{0.830\text{cm}^{3}}= 10.4 {\text{g/cm}}^{3}. $$
 </div>
 
@@ -455,7 +461,7 @@ $$ F = P \times A = \rho g h A $$
 For a plug with area 20 cm² at 30 cm depth:
 $$ F = (1000 \text{ kg/m}^3)(9.8 \text{ m/s}^2)(0.30 \text{ m})(0.002 \text{ m}^2) \approx 6 \text{ N} $$
 
-Archimedes' principle concerns the buoyant force on a *submerged object*, which equals the weight of displaced fluid. The plug displaces very little water (it mostly fills the drain hole), so its buoyant force is small. The significant force is the hydrostatic pressure acting on the plug's surface.
+Archimedes' principle describes an object *completely surrounded* by fluid. The buoyant force is the difference between the upward pressure force on its bottom and the downward pressure force on its top. The plug is not surrounded: its underside faces the air-filled drain pipe, at roughly atmospheric pressure, not water at the bathtub's floor pressure. With no water underneath to push up, nothing balances the water's downward push on the top, so the full $$ \rho g h A $$ acts on the plug. Archimedes' principle simply does not apply to an object sealed against the bottom with its underside dry.
 
 **Discussion:**
 Archimedes' principle and hydrostatic pressure are related but distinct concepts. The buoyant force results from the *difference* in pressure on top and bottom of an object. For the plug, water pushes mainly on one side (top), with air at atmospheric pressure below. This pressure difference, not buoyancy, explains why pulling the plug is harder when the tub is full.
@@ -486,7 +492,7 @@ $$ F_B = (P_{\text{bottom}} - P_{\text{top}}) \times A = \rho g h A = \rho g V $
 This pressure difference exists because fluid pressure increases with depth due to gravity ($$ P = \rho g h $$). In orbit or free-fall:
 - The spacecraft and everything in it are accelerating equally toward Earth
 - Effective gravity inside is zero ($$ g_{\text{effective}} = 0 $$)
-- Pressure no longer varies with position: $$ P = \rho (0) h = 0 $$
+- Pressure no longer varies with position: $$ \Delta P = \rho g_{\text{effective}} \Delta h = \rho (0) \Delta h = 0 $$. The fluid can still have a nonzero pressure (the air in the station is at about 1 atm), but that pressure is the same everywhere, so it pushes equally on all sides of an object.
 - No pressure difference means no buoyant force: $$ F_B = \rho (0) V = 0 $$
 
 **Discussion:**
@@ -571,11 +577,11 @@ This demonstrates that buoyancy is an internal force within the water-marble sys
 
 ### Problem Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="floating-ice">
 
 ::: problem
 
-What fraction of ice is submerged when it floats in freshwater, given the density of water at 0ºC is very close to  $$1000 \text{kg}{\text{/m}}^{3} $$ ?
+What fraction of ice is submerged when it floats in freshwater, given the density of water at 0ºC is very close to  <!-- physics: eq-0 -->$$1000 \text{kg}{\text{/m}}^{3} $$ ?
 
 :::
 
@@ -585,9 +591,10 @@ What fraction of ice is submerged when it floats in freshwater, given the densit
 Use the relationship for floating objects: fraction submerged = $$ \rho_{\text{object}} / \rho_{\text{fluid}} $$.
 
 **Solution:**
-From Table 1, the density of ice at 0°C is $$ \rho_{\text{ice}} = 0.917 \times 10^{3} \text{ kg/m}^3 = 917 \text{ kg/m}^3 $$.
+From Table 1, the density of ice at 0°C is <!-- physics: eq-2 -->$$ \rho_{\text{ice}} = 0.917 \times 10^{3} \text{ kg/m}^3 = 917 \text{ kg/m}^3 $$.
 
 For a floating object:
+<!-- physics: eq-3 -->
 $$ \text{fraction submerged} = \frac{\rho_{\text{ice}}}{\rho_{\text{water}}} = \frac{917 \text{ kg/m}^3}{1000 \text{ kg/m}^3} = 0.917 = 91.7\% $$
 
 **Discussion:**
@@ -822,24 +829,26 @@ Since the fish density is less than saltwater density, the buoyant force exceeds
 
 *Step 1: Calculate the fish's volume*
 
-$$ V = \frac{m}{\rho_{\text{fish}}} = \frac{85.0 \text{ kg}}{1015 \text{ kg/m}^3} = 0.0837 \text{ m}^3 $$
+$$ V = \frac{m}{\rho_{\text{fish}}} = \frac{85.0 \text{ kg}}{1015 \text{ kg/m}^3} = 0.08374 \text{ m}^3 $$ (keeping a guard digit)
 
 *Step 2: Calculate the buoyant force*
 
 Using saltwater density $$ \rho_{\text{saltwater}} = 1025 \text{ kg/m}^3 $$:
 
-$$ F_B = \rho_{\text{saltwater}} V g = (1025 \text{ kg/m}^3)(0.0837 \text{ m}^3)(9.80 \text{ m/s}^2) = 841 \text{ N} $$
+$$ F_B = \rho_{\text{saltwater}} V g = (1025 \text{ kg/m}^3)(0.08374 \text{ m}^3)(9.80 \text{ m/s}^2) = 841.2 \text{ N} $$
 
 *Step 3: Calculate the fish's weight*
 
-$$ W = mg = (85.0 \text{ kg})(9.80 \text{ m/s}^2) = 833 \text{ N} $$
+$$ W = mg = (85.0 \text{ kg})(9.80 \text{ m/s}^2) = 833.0 \text{ N} $$
 
 *Step 4: Find the required downward force*
 
-$$ F_{\text{down}} = F_B - W = 841 \text{ N} - 833 \text{ N} = 8.21 \text{ N} $$
+$$ F_{\text{down}} = F_B - W = 841.2 \text{ N} - 833.0 \text{ N} = 8.2 \text{ N} $$
+
+Because this is a small difference between two nearly equal numbers, it is better computed directly: $$ F_{\text{down}} = \left(\frac{\rho_{\text{saltwater}}}{\rho_{\text{fish}}} - 1\right) mg = \left(\frac{1025}{1015} - 1\right)(833.0 \text{ N}) = 8.21 \text{ N} $$
 
 **Discussion:**
-The grouper must exert a downward force of approximately **8.2 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.
+The grouper must exert a downward force of approximately **8.21 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.
 
 :::
 
@@ -879,7 +888,7 @@ $$ m_{\text{He}} = (0.179 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3) = 3.5
 $$ W_{\text{He}} = (3.58 \times 10^{-4} \text{ kg})(9.80 \text{ m/s}^2) = 0.00351 \text{ N} $$
 
 Net upward force:
-$$ F_{\text{net}} = F_B - W_{\text{rubber}} - W_{\text{He}} = 0.0253 - 0.0147 - 0.00351 = 0.00709 \text{ N} $$
+$$ F_{\text{net}} = F_B - W_{\text{rubber}} - W_{\text{He}} = 0.0253 \text{ N} - 0.0147 \text{ N} - 0.00351 \text{ N} = 0.00709 \text{ N} $$
 
 $$ F_{\text{net}} \approx 7.1 \times 10^{-3} \text{ N} $$ (upward)
 
@@ -992,7 +1001,7 @@ $$ \frac{F_B}{W} = \frac{\rho_{\text{fluid}} V g}{\rho_{\text{iron}} V g} = \fra
 
 Using $$ \rho_{\text{saltwater}} = 1025 \text{ kg/m}^3 $$ and $$ \rho_{\text{iron}} = 7870 \text{ kg/m}^3 $$:
 
-$$ \frac{F_B}{W} = \frac{1025}{7870} = 0.130 = 13.0\% $$
+$$ \frac{F_B}{W} = \frac{1025 \text{ kg/m}^3}{7870 \text{ kg/m}^3} = 0.130 = 13.0\% $$
 
 **Discussion:**
 Approximately **13%** of the iron anchor's weight is supported by the buoyant force when submerged in saltwater. This means the anchor has an "apparent weight" of about 87% of its true weight when underwater. While this doesn't make the anchor float (since 13% < 100%), it does explain why heavy objects feel lighter when submerged—divers can lift anchors and other heavy equipment underwater more easily than in air.
@@ -1025,10 +1034,10 @@ For an ingot of mass $$ m $$ and density $$ \rho $$:
 - Apparent mass loss in water: $$ \Delta m = \rho_{\text{water}} V = \rho_{\text{water}} (m/\rho) = m(\rho_{\text{water}}/\rho) $$
 
 For gold:
-$$ \Delta m_{\text{Au}} = m \frac{1000}{19,320} = 0.0517598m $$
+$$ \Delta m_{\text{Au}} = m \frac{1000 \text{ kg/m}^3}{19,320 \text{ kg/m}^3} = 0.0517598m $$
 
 For tungsten:
-$$ \Delta m_{\text{W}} = m \frac{1000}{19,300} = 0.0518135m $$
+$$ \Delta m_{\text{W}} = m \frac{1000 \text{ kg/m}^3}{19,300 \text{ kg/m}^3} = 0.0518135m $$
 
 The apparent mass losses differ by:
 $$ \Delta m_{\text{W}} - \Delta m_{\text{Au}} = 0.0518135m - 0.0517598m = 5.37 \times 10^{-5} m $$
@@ -1136,7 +1145,7 @@ $$ V_{\text{empty}} = \frac{75.0 \text{ kg}}{(1000 \text{ kg/m}^3)(0.970)} = 0.0
 $$ V_{\text{full}} = \frac{75.0 \text{ kg}}{(1000 \text{ kg/m}^3)(0.950)} = 0.07895 \text{ m}^3 $$
 
 *Lung capacity:*
-$$ V_{\text{lungs}} = V_{\text{full}} - V_{\text{empty}} = 0.07895 - 0.07732 = 0.00163 \text{ m}^3 $$
+$$ V_{\text{lungs}} = V_{\text{full}} - V_{\text{empty}} = 0.07895 \text{ m}^3 - 0.07732 \text{ m}^3 = 0.00163 \text{ m}^3 $$
 
 $$ V_{\text{lungs}} = 1.63 \text{ L} $$
 

@@ -1,3 +1,19 @@
 {
-    "claudeStats.showNotifications": true
+  "claudeStats.showNotifications": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/_site": true,
+    "**/pdf-output": true,
+    "**/node_modules": true,
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "**/_site": true,
+    "**/pdf-output": true,
+    "**/node_modules": true,
+    "**/.link-cache.json": true,
+    "**/assets/js/mathjax": true
+  }
 }

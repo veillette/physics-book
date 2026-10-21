@@ -87,8 +87,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verify physics calculations
-        run: python check_math.py
+      - name: Test the physics checker
+        run: python -B -m unittest tests/test_check_math.py
+
+      - name: Scan equations and report coverage
+        run: python -B scripts/check_math.py
+
+      - name: Verify source-bound physics cases
+        run: python -B scripts/check_math.py --no-scan --strict --check-coverage
 
   link-check:
     name: Link Check

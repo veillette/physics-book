@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" role="img" aria-labelledby="title desc">
+<title id="title">Four charges on a horizontal square supporting a fifth charge above</title>
+<desc id="desc">Four equal charges q on the corners of a horizontal square of side d, drawn in perspective, with dashed sides and diagonals. A fifth charge Q sits directly above the center of the square at a height d.</desc>
+<rect width="560" height="400" fill="#ffffff"/>
+<line x1="60" y1="350" x2="360" y2="350" stroke="#222222" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="360" y1="350" x2="500" y2="220" stroke="#222222" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="500" y1="220" x2="200" y2="220" stroke="#222222" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="200" y1="220" x2="60" y2="350" stroke="#222222" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="60" y1="350" x2="500" y2="220" stroke="#222222" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="360" y1="350" x2="200" y2="220" stroke="#222222" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="280" y1="285" x2="280" y2="85" stroke="#222222" stroke-width="1.6"/>
+<circle cx="60" cy="350" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<circle cx="360" cy="350" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<circle cx="500" cy="220" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<circle cx="200" cy="220" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<circle cx="280" cy="85" r="14" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="300" y="86.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<text x="64" y="390.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<text x="364" y="390.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<text x="524" y="232.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<text x="196" y="202.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<text x="210" y="388.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<text x="452" y="299.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<text x="296" y="193.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+</svg>

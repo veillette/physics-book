@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570" role="img" aria-labelledby="title desc">
+<title id="title">World total energy supply, 2015–2025</title>
+<desc id="desc">A line chart of reported annual total energy supply, using physical energy content accounting throughout. Supply rises from 523.80 EJ in 2015 to 600.31 EJ in 2025, with a decline from 556.63 EJ in 2019 to 532.75 EJ in 2020. All points are historical estimates; no forecasts are shown.</desc>
+<rect width="1000" height="570" fill="#ffffff"/>
+<text x="30" y="39.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">World</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">total</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">supply</tspan><tspan font-style="normal">, 2015–2025</tspan></text>
+<text x="30" y="71.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Reported</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">annual</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">supply</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">EJ</tspan><tspan font-style="normal">) • </tspan><tspan font-style="normal">Physical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">content</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">throughout</tspan></text>
+<polygon points="85,455 85,172.95 165.5,170.25 246,164.76 326.5,157.21 407,155.28 487.5,168.13 568,153.46 648.5,148.84 729,143.14 809.5,136.13 890,131.76 890,455" fill="#e2eff5"/>
+<line x1="85" y1="455" x2="890" y2="455" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="401.15" x2="890" y2="401.15" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="347.31" x2="890" y2="347.31" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="293.46" x2="890" y2="293.46" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="239.62" x2="890" y2="239.62" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="185.77" x2="890" y2="185.77" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="131.92" x2="890" y2="131.92" stroke="#dddddd" stroke-width="1"/>
+<line x1="85" y1="455" x2="890" y2="455" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="455" x2="85" y2="105" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="455" x2="85" y2="460" stroke="#333333" stroke-width="1.2"/>
+<text x="85" y="477.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2015</tspan></text>
+<line x1="246" y1="455" x2="246" y2="460" stroke="#333333" stroke-width="1.2"/>
+<text x="246" y="477.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2017</tspan></text>
+<line x1="407" y1="455" x2="407" y2="460" stroke="#333333" stroke-width="1.2"/>
+<text x="407" y="477.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2019</tspan></text>
+<line x1="568" y1="455" x2="568" y2="460" stroke="#333333" stroke-width="1.2"/>
+<text x="568" y="477.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2021</tspan></text>
+<line x1="729" y1="455" x2="729" y2="460" stroke="#333333" stroke-width="1.2"/>
+<text x="729" y="477.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2023</tspan></text>
+<line x1="890" y1="455" x2="890" y2="460" stroke="#333333" stroke-width="1.2"/>
+<text x="890" y="477.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2025</tspan></text>
+<line x1="80" y1="455" x2="85" y2="455" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="460.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="80" y1="401.15" x2="85" y2="401.15" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="407.1" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<line x1="80" y1="347.31" x2="85" y2="347.31" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="353.26" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">200</tspan></text>
+<line x1="80" y1="293.46" x2="85" y2="293.46" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="299.41" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">300</tspan></text>
+<line x1="80" y1="239.62" x2="85" y2="239.62" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="245.57" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">400</tspan></text>
+<line x1="80" y1="185.77" x2="85" y2="185.77" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="191.72" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">500</tspan></text>
+<line x1="80" y1="131.92" x2="85" y2="131.92" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="137.87" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">600</tspan></text>
+<text x="487.5" y="499.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Year</tspan></text>
+<path d="M 85 172.95 L 165.5 170.25 L 246 164.76 L 326.5 157.21 L 407 155.28 L 487.5 168.13 L 568 153.46 L 648.5 148.84 L 729 143.14 L 809.5 136.13 L 890 131.76" fill="none" stroke="#1976ad" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="85" cy="172.95" r="4.5" fill="#1976ad"/>
+<circle cx="165.5" cy="170.25" r="4.5" fill="#1976ad"/>
+<circle cx="246" cy="164.76" r="4.5" fill="#1976ad"/>
+<circle cx="326.5" cy="157.21" r="4.5" fill="#1976ad"/>
+<circle cx="407" cy="155.28" r="4.5" fill="#1976ad"/>
+<circle cx="487.5" cy="168.13" r="4.5" fill="#1976ad"/>
+<circle cx="568" cy="153.46" r="4.5" fill="#1976ad"/>
+<circle cx="648.5" cy="148.84" r="4.5" fill="#1976ad"/>
+<circle cx="729" cy="143.14" r="4.5" fill="#1976ad"/>
+<circle cx="809.5" cy="136.13" r="4.5" fill="#1976ad"/>
+<circle cx="890" cy="131.76" r="4.5" fill="#1976ad"/>
+<text x="97.08" y="154.73" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">523.80 </tspan><tspan font-style="normal">EJ</tspan></text>
+<text x="881.95" y="122.42" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">600.31 </tspan><tspan font-style="normal">EJ</tspan></text>
+<text x="487.5" y="227.07" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">2020 </tspan><tspan font-style="normal">decline</tspan></text>
+<line x1="487.5" y1="207.31" x2="487.5" y2="177.69" stroke="#666666" stroke-width="1.2"/>
+<text x="30" y="530.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Source</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">Energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Institute</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">Statistical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Review</tspan><tspan font-style="normal"> 2026, </tspan><tspan font-style="normal">p</tspan><tspan font-style="normal">. 23.</tspan></text>
+<text x="30" y="555.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Historical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">estimates</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">including</tspan><tspan font-style="normal"> 2025; </tspan><tspan font-style="normal">no</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">projections</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Earlier</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">years</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">use</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">revised</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">method</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

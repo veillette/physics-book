@@ -356,7 +356,7 @@ $$D = \frac{m\lambda}{\sin \theta} = \frac{(1)(600 \times 10^{-9} \text{ m})}{\s
 </div>
 
 <div class="equation">
-$$D = \frac{600 \times 10^{-9}}{0.8660} = 6.93 \times 10^{-7} \text{ m} = 693 \text{ nm}$$
+$$D = \frac{600 \times 10^{-9} \text{ m}}{0.8660} = 6.93 \times 10^{-7} \text{ m} = 693 \text{ nm}$$
 </div>
 
 **(b) Wavelength with first minimum at 62.0°:**
@@ -368,7 +368,7 @@ $$\lambda = D \sin \theta = (6.93 \times 10^{-7} \text{ m}) \sin 62.0°$$
 </div>
 
 <div class="equation">
-$$\lambda = (6.93 \times 10^{-7})(0.8829) = 6.12 \times 10^{-7} \text{ m} = 612 \text{ nm}$$
+$$\lambda = (6.93 \times 10^{-7} \text{ m})(0.8829) = 6.12 \times 10^{-7} \text{ m} = 612 \text{ nm}$$
 </div>
 
 **Discussion**
@@ -468,7 +468,7 @@ $$\lambda = \frac{D \sin \theta}{m} = \frac{(1.00 \times 10^{-6} \text{ m}) \sin
 </div>
 
 <div class="equation">
-$$\lambda = (1.00 \times 10^{-6})(0.6000) = 6.00 \times 10^{-7} \text{ m} = 600 \text{ nm}$$
+$$\lambda = (1.00 \times 10^{-6} \text{ m})(0.6000) = 6.00 \times 10^{-7} \text{ m} = 600 \text{ nm}$$
 </div>
 
 **Discussion**
@@ -603,7 +603,7 @@ $$D = \frac{m\lambda}{\sin \theta} = \frac{3 \times 633 \times 10^{-9} \text{ m}
 </div>
 
 <div class="equation">
-$$D = \frac{1899 \times 10^{-9}}{0.9962} = 1.91 \times 10^{-6} \text{ m} = 1.91 \text{ μm}$$
+$$D = \frac{1899 \times 10^{-9} \text{ m}}{0.9962} = 1.91 \times 10^{-6} \text{ m} = 1.91 \text{ μm}$$
 </div>
 
 **Step 6:** Check reasonableness: For (a), the small angle makes sense because D >> λ. For (b), the smaller slit width creates more spreading.

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="535" viewBox="0 0 700 535" role="img" aria-labelledby="title desc">
+<title id="title">A pencil balanced on its tip is in unstable equilibrium</title>
+<desc id="desc">A perfectly vertical pencil balances on its tip. The weight and normal force are collinear and the torque is zero, but a small tilt makes the pencil fall.</desc>
+<rect width="700" height="535" fill="#ffffff"/>
+<rect x="95" y="405" width="355" height="16" fill="#ded8e6"/>
+<polygon points="242,95 308,95 308,320 275,405 242,320" fill="#e6c884" stroke="#947647" stroke-width="2"/>
+<polygon points="263,375 287,375 275,405" fill="#444444"/>
+<line x1="263" y1="320" x2="263" y2="95" stroke="#c9a354" stroke-width="2"/>
+<line x1="275" y1="260" x2="275" y2="405" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5"/>
+<g id="weight">
+<line x1="275" y1="260" x2="275" y2="326.2" stroke="#d52350" stroke-width="4"/>
+<polygon points="275,340 269.08,325.2 280.92,325.2" fill="#d52350"/>
+</g>
+<circle cx="275" cy="260" r="5" fill="#222222"/>
+<text x="306" y="262" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CG</tspan></text>
+<text x="299" y="326.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<g id="normal">
+<line x1="275" y1="485" x2="275" y2="418.8" stroke="#d52350" stroke-width="4"/>
+<polygon points="275,405 280.92,419.8 269.08,419.8" fill="#d52350"/>
+</g>
+<text x="304" y="466.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<circle cx="275" cy="405" r="5" fill="#222222"/>
+<text x="113" y="370" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pivot</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">point</tspan></text>
+<path d="M 160 378 Q 208.05 431.75 268.5 407.6" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="266.64" y1="408.34" x2="270.91" y2="406.63" stroke="#333333" stroke-width="1.2"/>
+<polygon points="275,405 270.79,409.01 269.18,405" fill="#333333"/>
+<text x="285" y="49.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">τ</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="560" y="127.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan></text>
+<text x="560" y="154.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">diagram</tspan></text>
+<line x1="555" y1="266" x2="555" y2="201.4" stroke="#333333" stroke-width="2"/>
+<polygon points="555,192 559.16,202.4 550.84,202.4" fill="#333333"/>
+<line x1="555" y1="266" x2="555" y2="330.6" stroke="#333333" stroke-width="2"/>
+<polygon points="555,340 550.84,329.6 559.16,329.6" fill="#333333"/>
+<circle cx="555" cy="266" r="5" fill="#d52350"/>
+<text x="582" y="219.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="582" y="329.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+</svg>

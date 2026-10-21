@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="210" viewBox="0 0 440 210" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the long jump as a projectile</title>
+<desc id="desc">Axes with +x horizontal in the direction of the jump and +y up, origin at the takeoff point. Assumed: takeoff speed v_0 = 9.5 m/s at 45° above +x, landing at the same height, at unknown maximum range R. The acceleration is a_y = −9.80 m/s², a_x = 0.</desc>
+<rect width="440" height="210" fill="#ffffff"/>
+<line x1="20" y1="160" x2="356" y2="160" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="26" y1="160" x2="18" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="40" y1="160" x2="32" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="54" y1="160" x2="46" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="68" y1="160" x2="60" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="82" y1="160" x2="74" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="96" y1="160" x2="88" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="110" y1="160" x2="102" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="124" y1="160" x2="116" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="138" y1="160" x2="130" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="152" y1="160" x2="144" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="166" y1="160" x2="158" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="180" y1="160" x2="172" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="194" y1="160" x2="186" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="208" y1="160" x2="200" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="222" y1="160" x2="214" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="236" y1="160" x2="228" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="250" y1="160" x2="242" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="264" y1="160" x2="256" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="278" y1="160" x2="270" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="292" y1="160" x2="284" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="306" y1="160" x2="298" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="320" y1="160" x2="312" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="334" y1="160" x2="326" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="348" y1="160" x2="340" y2="169" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="20" y1="160" x2="50" y2="160" stroke="#555555" stroke-width="1.6"/>
+<line x1="50" y1="160" x2="370" y2="160" stroke="#555555" stroke-width="1.6"/>
+<polygon points="380,160 369,164.4 369,155.6" fill="#555555"/>
+<line x1="50" y1="190" x2="50" y2="160" stroke="#555555" stroke-width="1.6"/>
+<line x1="50" y1="160" x2="50" y2="50" stroke="#555555" stroke-width="1.6"/>
+<polygon points="50,40 54.4,51 45.6,51" fill="#555555"/>
+<text x="388" y="165.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="50" y="33.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="66" y="32.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<text x="42" y="178.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<polyline points="50,160 54.61,155.47 59.21,151.1 63.82,146.88 68.42,142.81 73.03,138.89 77.63,135.13 82.24,131.52 86.84,128.07 91.45,124.77 96.05,121.62 100.66,118.63 105.26,115.79 109.87,113.1 114.47,110.57 119.08,108.19 123.68,105.97 128.29,103.89 132.89,101.97 137.5,100.21 142.1,98.6 146.71,97.14 151.31,95.83 155.92,94.68 160.52,93.68 165.13,92.84 169.73,92.15 174.34,91.61 178.95,91.23 183.55,91 188.16,90.92 192.76,91 197.37,91.23 201.97,91.61 206.58,92.15 211.18,92.84 215.79,93.68 220.39,94.68 225,95.83 229.6,97.14 234.21,98.6 238.81,100.21 243.42,101.97 248.02,103.89 252.63,105.96 257.23,108.19 261.84,110.57 266.44,113.1 271.05,115.79 275.65,118.63 280.26,121.62 284.86,124.77 289.47,128.07 294.08,131.52 298.68,135.13 303.29,138.89 307.89,142.8 312.5,146.87 317.1,151.09 321.71,155.47 326.31,160" fill="none" stroke="#7f8c8d" stroke-width="1.8" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="50" y1="160" x2="84.22" y2="125.78" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="92.43,117.57 87.08,130.05 79.95,122.92" fill="#3f8a1e"/>
+<text x="132.43" y="149.17" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">0</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 9.5 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="50" y1="160" x2="120" y2="160" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 84 160 A 34 34 0 0 0 74.04 135.96" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="96.19" y="146.12" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">45°</tspan></text>
+<circle cx="326.3" cy="160" r="5" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="332.3" y="149.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="410" y1="30" x2="410" y2="58.4" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="410,70 404.96,57.4 415.04,57.4" fill="#6a3d9a"/>
+<text x="402" y="49.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">y</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = −9.80 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">2</tspan></tspan><tspan dy="6">​</tspan></text>
+<text x="402" y="69.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">x</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+</svg>

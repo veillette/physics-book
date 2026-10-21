@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="440" viewBox="0 0 620 440" role="img" aria-labelledby="title desc">
+<title id="title">Minimum height of a full-length mirror</title>
+<desc id="desc">A person 1.80 meters tall stands in front of a flat wall mirror. The ray from the toes reflects into the eye from a point at half the eye height, and the ray from the top of the head reflects from a point halfway between the eye and the top of the head. The mirror needs to extend only between these two points, 0.90 meters, half the person’s height, whatever the distance from the mirror.</desc>
+<rect width="620" height="440" fill="#ffffff"/>
+<line x1="40" y1="400" x2="600" y2="400" stroke="#222222" stroke-width="2"/>
+<circle cx="150" cy="63.4" r="23.4" fill="none" stroke="#222222" stroke-width="2"/>
+<line x1="150" y1="86.8" x2="150" y2="220" stroke="#222222" stroke-width="2.5"/>
+<line x1="150" y1="220" x2="128.4" y2="400" stroke="#222222" stroke-width="2.5"/>
+<line x1="150" y1="220" x2="171.6" y2="400" stroke="#222222" stroke-width="2.5"/>
+<line x1="150" y1="108.4" x2="193.2" y2="212.8" stroke="#222222" stroke-width="2.5"/>
+<line x1="150" y1="108.4" x2="114" y2="212.8" stroke="#222222" stroke-width="2.5"/>
+<circle cx="510" cy="63.4" r="23.4" fill="none" stroke="#9e9e9e" stroke-width="2"/>
+<line x1="510" y1="86.8" x2="510" y2="220" stroke="#9e9e9e" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="510" y1="220" x2="488.4" y2="400" stroke="#9e9e9e" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="510" y1="220" x2="531.6" y2="400" stroke="#9e9e9e" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="510" y1="108.4" x2="553.2" y2="212.8" stroke="#9e9e9e" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="510" y1="108.4" x2="474" y2="212.8" stroke="#9e9e9e" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="154" cy="60" r="3.5" fill="#1f77c8"/>
+<line x1="330" y1="230" x2="330" y2="50" stroke="#1f77c8" stroke-width="7"/>
+<line x1="330" y1="400" x2="330" y2="0" stroke="#1f77c8" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="160" y1="400" x2="330" y2="230" stroke="#c62828" stroke-width="2.2"/>
+<line x1="240.76" y1="319.24" x2="244.86" y2="315.14" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="249.24,310.76 246.19,317.88 242.12,313.81" fill="#c62828"/>
+<line x1="330" y1="230" x2="154" y2="60" stroke="#c62828" stroke-width="2.2"/>
+<line x1="246.32" y1="149.17" x2="242.14" y2="145.14" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="237.68,140.83 244.86,143.76 240.86,147.91" fill="#c62828"/>
+<line x1="150" y1="40" x2="330" y2="50" stroke="#ef7d22" stroke-width="2.2"/>
+<line x1="234.01" y1="44.67" x2="239.8" y2="44.99" stroke="#ef7d22" stroke-width="2.2"/>
+<polygon points="245.99,45.33 238.64,47.81 238.96,42.06" fill="#ef7d22"/>
+<line x1="330" y1="50" x2="154" y2="60" stroke="#ef7d22" stroke-width="2.2"/>
+<line x1="247.99" y1="54.66" x2="242.2" y2="54.99" stroke="#ef7d22" stroke-width="2.2"/>
+<polygon points="236.01,55.34 243.03,52.06 243.36,57.81" fill="#ef7d22"/>
+<line x1="330" y1="230" x2="500" y2="400" stroke="#c62828" stroke-width="1.3" stroke-dasharray="6 4"/>
+<line x1="330" y1="50" x2="510" y2="40" stroke="#ef7d22" stroke-width="1.3" stroke-dasharray="6 4"/>
+<text x="342" y="144.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">mirror</tspan><tspan font-style="normal"> 0.90 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="342" y="238.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.85 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="342" y="50.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.75 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="134" y="64.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">eyes</tspan><tspan font-style="normal"> 1.70 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="134" y="38.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.80 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="510" y="24.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#757575" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">image</tspan></text>
+</svg>

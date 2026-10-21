@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">Seeing the back of your head with two mirrors</title>
+<desc id="desc">Top view of a person standing between two flat mirrors, one behind the head and one held in front. Light from the back of the head reflects from the rear mirror, travels forward past the head to the front mirror, and reflects back into the eyes, so the person sees an image of the back of their head.</desc>
+<rect width="600" height="420" fill="#ffffff"/>
+<circle cx="260" cy="290" r="40" fill="#f3d2b5" stroke="#222222" stroke-width="2"/>
+<polygon points="298,282 312,290 298,298" fill="#f3d2b5" stroke="#222222" stroke-width="1.5"/>
+<text x="260" y="354.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">head</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">facing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">right</tspan><tspan font-style="normal">)</tspan></text>
+<circle cx="288" cy="264" r="4" fill="#1f77c8"/>
+<line x1="120" y1="90" x2="120" y2="390" stroke="#1f77c8" stroke-width="6"/>
+<text x="110" y="104.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rear</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">mirror</tspan></text>
+<line x1="495.28" y1="124.73" x2="444.72" y2="50.27" stroke="#1f77c8" stroke-width="6"/>
+<text x="430" y="62.05" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">hand</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">mirror</tspan></text>
+<line x1="220" y1="290" x2="120" y2="245" stroke="#c62828" stroke-width="2.2"/>
+<line x1="175.47" y1="269.96" x2="170.18" y2="267.58" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="164.53,265.04 172.28,265.37 169.91,270.62" fill="#c62828"/>
+<line x1="120" y1="245" x2="470" y2="87.5" stroke="#c62828" stroke-width="2.2"/>
+<line x1="289.53" y1="168.71" x2="294.82" y2="166.33" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="300.47,163.79 295.09,169.37 292.72,164.12" fill="#c62828"/>
+<line x1="470" y1="87.5" x2="288" y2="264" stroke="#c62828" stroke-width="2.2"/>
+<line x1="383.31" y1="171.57" x2="379.14" y2="175.61" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="374.69,179.93 377.86,172.85 381.87,176.98" fill="#c62828"/>
+<circle cx="220" cy="290" r="4" fill="#c62828"/>
+<text x="214" y="316.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">back</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">head</tspan></text>
+<text x="298" y="258.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">eye</tspan></text>
+<text x="580" y="405.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Top</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan></text>
+</svg>

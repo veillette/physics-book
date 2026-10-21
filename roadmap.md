@@ -18,7 +18,7 @@ full migration record.
 ## Project Layout
 
 ```
-physics-book2/
+physics-book/
 ├── contents/              # Textbook markdown (280+ sections)
 ├── _includes/             # Nunjucks layouts and partials
 │   └── layouts/default.njk
@@ -39,16 +39,12 @@ physics-book2/
 
 ```bash
 npm install          # Install dependencies
-npm run serve        # Dev server at http://localhost:4000/physics-book2/
+npm run serve        # Dev server at http://localhost:4000/physics-book/
 npm run build        # Production build → _site/
 npm run clean        # Remove _site/
 ```
 
-After building, generate the client-side search index:
-
-```bash
-npm run generate:search-index
-```
+Every build regenerates `summary.json` and `_site/search_index.json`, including local development and Vercel. Search result paths are relative to the deployment root.
 
 ## URL & Path Prefix Behavior
 
@@ -59,14 +55,14 @@ Output paths follow a stable contract:
 - `sw.njk` → `/sw.js`
 - `index.njk` → `/index.html`
 
-**GitHub Pages** serves the site under `/physics-book2/`. The build adds that prefix to
+**GitHub Pages** serves the site under `/physics-book/`. The build adds that prefix to
 single-slash root-relative `href` and `src` attributes in HTML output.
 
 **Vercel** serves at the domain root. When the `VERCEL` environment variable is set,
 `eleventy.config.js` builds with no path prefix.
 
 Use **root-relative links** in content (e.g. `/contents/ch2Kinematics.md`). Do not
-hand-write the `/physics-book2` prefix or use legacy Liquid constructs like
+hand-write the `/physics-book` prefix or use legacy Liquid constructs like
 `{{ site.baseurl }}`.
 
 ## Markdown Pipeline
@@ -123,5 +119,5 @@ as a downloadable archive.
 
 - [`README.md`](./README.md) — project overview and getting started
 - [`CONTRIBUTE.md`](./CONTRIBUTE.md) — contribution guidelines
-- [`claude.md`](./claude.md) — detailed project context for developers
+- [`AGENTS.md`](./AGENTS.md) — detailed project context for developers
 - [`doc/SEARCH.md`](./doc/SEARCH.md) — client-side search feature

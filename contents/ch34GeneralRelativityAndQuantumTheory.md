@@ -355,11 +355,11 @@ $$ R_S = \frac{2GM}{c^2} $$
 
 Substituting values:
 <div class="equation">
-$$ R_S = \frac{2 \times (6.67 \times 10^{-11}) \times (5.97 \times 10^{24})}{(3.00 \times 10^8)^2} $$
+$$ R_S = \frac{2 \times (6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2) \times (5.97 \times 10^{24} \text{ kg})}{(3.00 \times 10^8 \text{ m/s})^2} $$
 </div>
 
 <div class="equation">
-$$ R_S = \frac{7.96 \times 10^{14}}{9.00 \times 10^{16}} = 8.84 \times 10^{-3} \text{ m} = 8.84 \text{ mm} $$
+$$ R_S = \frac{7.96 \times 10^{14} \text{ m}^3/\text{s}^2}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 8.84 \times 10^{-3} \text{ m} = 8.84 \text{ mm} $$
 </div>
 
 The Schwarzschild radius of an Earth-mass black hole is approximately **8.8 mm** (or about **0.9 cm**).
@@ -436,11 +436,11 @@ $$ M = 4.0 \times 10^6 \times 2.0 \times 10^{30} \text{ kg} = 8.0 \times 10^{36}
 
 Calculate the Schwarzschild radius:
 <div class="equation">
-$$ R_S = \frac{2GM}{c^2} = \frac{2 \times (6.67 \times 10^{-11}) \times (8.0 \times 10^{36})}{(3.00 \times 10^8)^2} $$
+$$ R_S = \frac{2GM}{c^2} = \frac{2 \times (6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2) \times (8.0 \times 10^{36} \text{ kg})}{(3.00 \times 10^8 \text{ m/s})^2} $$
 </div>
 
 <div class="equation">
-$$ R_S = \frac{1.067 \times 10^{27}}{9.00 \times 10^{16}} = 1.19 \times 10^{10} \text{ m} $$
+$$ R_S = \frac{1.067 \times 10^{27} \text{ m}^3/\text{s}^2}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 1.19 \times 10^{10} \text{ m} $$
 </div>
 
 (b) Converting to kilometers:

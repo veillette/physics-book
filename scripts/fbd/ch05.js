@@ -331,13 +331,22 @@ export default {
     d.guide(-200, -150, -200, 150);
     d.note(-192, 140, 'cliff', { size: 13, anchor: 'start' });
     d.axes({ xLen: 180, yLen: 140, xNeg: 170, yNeg: 140 });
-    d.force(121, 128, 'T');
-    d.force(15, 120, 'F_{leg}', { labelOpts: { dy: 4 } });
-    d.component(0, 116, 'N', { labelOpts: { dy: -36 } });
-    d.component(90, 31, 'f', { from: [116, 0], labelOpts: { dy: -4 } });
-    d.force(270, 127, 'w');
+    const w = 127;
+    const ropeAngle = (31 * Math.PI) / 180;
+    const legAngle = (15 * Math.PI) / 180;
+    const tension = w / (Math.cos(ropeAngle) + Math.sin(ropeAngle) * Math.tan(legAngle));
+    d.force(121, tension, 'T');
+    const leg = d.force(15, (tension * Math.sin(ropeAngle)) / Math.cos(legAngle), 'F_{leg}', {
+      labelOpts: { at: [95, 48], anchor: 'start' },
+    });
+    d.component(0, leg[0], 'N', { labelOpts: { at: [35, -28] } });
+    d.component(90, leg[1], 'f', {
+      from: [leg[0], 0],
+      labelOpts: { at: [82, 6], anchor: 'start' },
+    });
+    d.force(270, w, 'w');
     d.arc(90, 121, 70, '31°', { labelR: 88, size: 15 });
-    d.arc(0, 15, 80, '15°', { labelR: 96, size: 15 });
+    d.arc(0, 15, 50, '15°', { labelR: 65, size: 15, dx: 4, dy: -20 });
     d.accel(0, 0, { at: [110, 110] });
     d.objectLabel('climber', { dx: -12, dy: -30, anchor: 'end' });
     return d.render();
@@ -434,6 +443,26 @@ export default {
     d.accel(0, 0, { at: [-70, 95] });
     d.text(0, -128, 'F_s is about 1/11 of w', { size: 15, vshift: 6 });
     d.objectLabel('bacterium', { dx: -10, dy: -26, anchor: 'end' });
+    return d.render();
+  },
+
+  // 5.1 Conceptual Question 1 — normal force and kinetic friction
+  fbd_05_01_q01: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of a crate pushed across a floor',
+      desc: 'Free-body diagram with +x to the right and +y up: push F to the right, kinetic friction f = μk N to the left, normal force N up perpendicular to the floor, and weight w down. N and w are equal in length because there is no vertical acceleration.',
+      width: 380,
+      height: 300,
+      cx: 180,
+      cy: 150,
+    });
+    d.axes({ xLen: 160, yLen: 115, xNeg: 150, yNeg: 115 });
+    d.force(90, 85, 'N');
+    d.force(270, 85, 'w');
+    d.force(0, 120, 'F');
+    d.force(180, 75, 'f');
+    d.text(-140, -60, 'f = μ_k N', { size: 18, vshift: 6, anchor: 'start' });
+    d.objectLabel('crate', { dx: 10, dy: -22 });
     return d.render();
   },
 };

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="700" viewBox="0 0 560 700" role="img" aria-labelledby="title desc">
+<title id="title">Charged objects attract neutral objects by polarizing them</title>
+<desc id="desc">(a) A positive rod near a neutral insulator: each molecule shifts slightly, with its negative side toward the rod. (b) A negative rod near the insulator: each molecule turns its positive side toward the rod. In both cases the nearer, unlike charges are attracted more strongly than the farther, like charges are repelled, so the insulator is attracted. (c) A negative rod near a neutral conductor: free electrons are pushed to the far side, leaving positive charge on the near side, and the conductor is attracted.</desc>
+<rect width="560" height="700" fill="#ffffff"/>
+<rect x="300" y="40" width="220" height="170" fill="#8ea9d1" stroke="#5b7aa5" stroke-width="1.2"/>
+<rect x="30" y="103" width="230" height="44" rx="22" fill="#a9c8e6" stroke="#55606b" stroke-width="1.2"/>
+<text x="53" y="127.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="99" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="145" y="127.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="191" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="237" y="127.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="355" cy="75" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="346" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="364" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="355" cy="125" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="346" y="132" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="364" y="132" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="355" cy="175" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="346" y="182" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="364" y="182" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="465" cy="75" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="456" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="474" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="465" cy="125" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="456" y="132" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="474" y="132" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="465" cy="175" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="456" y="182" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="474" y="182" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="545" y="243.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="300" y="260" width="220" height="170" fill="#8ea9d1" stroke="#5b7aa5" stroke-width="1.2"/>
+<rect x="30" y="323" width="230" height="44" rx="22" fill="#c98a6b" stroke="#55606b" stroke-width="1.2"/>
+<text x="53" y="347.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="99" y="359.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="145" y="347.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="191" y="359.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="237" y="347.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="355" cy="295" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="346" y="302" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="364" y="302" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="355" cy="345" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="346" y="352" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="364" y="352" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="355" cy="395" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="346" y="402" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="364" y="402" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="465" cy="295" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="456" y="302" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="474" y="302" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="465" cy="345" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="456" y="352" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="474" y="352" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="465" cy="395" r="22" fill="#e8ebef" stroke="#555555" stroke-width="1.2"/>
+<text x="456" y="402" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="474" y="402" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="545" y="463.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="300" y="480" width="220" height="170" fill="#8ea9d1" stroke="#5b7aa5" stroke-width="1.2"/>
+<rect x="30" y="543" width="230" height="44" rx="22" fill="#e0b85a" stroke="#55606b" stroke-width="1.2"/>
+<text x="53" y="567.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="99" y="579.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="145" y="567.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="191" y="579.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="237" y="567.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="328" y="524.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="492" y="524.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="328" y="574.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="492" y="574.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="328" y="624.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="492" y="624.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="545" y="683.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

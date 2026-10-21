@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 5
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* Describe the use of heat engines in heat pumps and refrigerators.
-* Demonstrate how a heat pump works to warm an interior space.
-* Explain the differences between heat pumps and refrigerators.
-* Calculate a heat pump’s coefficient of performance.
+- Describe the use of heat engines in heat pumps and refrigerators.
+- Demonstrate how a heat pump works to warm an interior space.
+- Explain the differences between heat pumps and refrigerators.
+- Calculate a heat pump’s coefficient of performance.
 
 :::
 
@@ -33,7 +34,7 @@ the environment. (Actually, a heat pump can be used both to heat and cool a
 space. It is essentially an air conditioner and a heating unit all in one. In
 this section we will concentrate on its heating mode.)
 
-![Part a of the figure shows a heat pump, drawn as a circle. Work W, indicated by a bold orange arrow, is put in to the pump to transfer heat Q sub c, indicated by a bold orange arrow, out of a cold temperature reservoir T sub c, drawn as a blue rectangle, and pumps heat Q sub h, indicated by a larger bold orange arrow, into high temperature reservoir T sub h. Part b of the figure shows a P V diagram for a Carnot cycle. The pressure P is along the Y axis and the volume V is along the X axis. The graph shows a complete cycle A D C B A. The path begins at point A, then it drops sharply down and slightly to the right until point D. This is marked as an adiabatic expansion. Then the curve drops down more gradually, still to the right, from point D to point C. This is marked as an isotherm at temperature T sub c, during which heat Q sub c enters the system. The curve then rises from point C to point B along the direction opposite to that of A D. This is an adiabatic compression. The last part of the curve rises up from point B back to A. This is marked as an isotherm at temperature T sub h, during which heat Q sub h leaves the system. The path D C is lower than path B A. Heat entering and leaving the system is indicated by bold orange arrows, with Q sub h larger than Q sub c.](../resources/Figure_15_05_01.jpg "Heat pumps, air conditioners, and refrigerators are heat engines operated backward. The one shown here is based on a Carnot (reversible) engine. (a) Schematic diagram showing heat transfer from a cold reservoir to a warm reservoir with a heat pump. The directions of \( W \) , \( Q_{h} \), and \( Q_{c} \) are opposite what they would be in a heat engine. (b) \( PV \) diagram for a Carnot cycle similar to that in [Figure 3](#Figure3) but reversed, following path ADCBA. The area inside the loop is negative, meaning there is a net work input. There is heat transfer \( Q_{c} \) into the system from a cold reservoir along path DC, and heat transfer \( Q_{h} \) out of the system into a hot reservoir along path BA.")
+![Part a of the figure shows a heat pump, drawn as a circle. Work W, indicated by a bold orange arrow, is put in to the pump to transfer heat Q sub c, indicated by a bold orange arrow, out of a cold temperature reservoir T sub c, drawn as a blue rectangle, and pumps heat Q sub h, indicated by a larger bold orange arrow, into high temperature reservoir T sub h. Part b of the figure shows a P V diagram for a Carnot cycle. The pressure P is along the Y axis and the volume V is along the X axis. The graph shows a complete cycle A D C B A. The path begins at point A, then it drops sharply down and slightly to the right until point D. This is marked as an adiabatic expansion. Then the curve drops down more gradually, still to the right, from point D to point C. This is marked as an isotherm at temperature T sub c, during which heat Q sub c enters the system. The curve then rises from point C to point B along the direction opposite to that of A D. This is an adiabatic compression. The last part of the curve rises up from point B back to A. This is marked as an isotherm at temperature T sub h, during which heat Q sub h leaves the system. The path D C is lower than path B A. Heat entering and leaving the system is indicated by bold orange arrows, with Q sub h larger than Q sub c.](../resources/Figure_15_05_01.jpg 'Heat pumps, air conditioners, and refrigerators are heat engines operated backward. The one shown here is based on a Carnot (reversible) engine. (a) Schematic diagram showing heat transfer from a cold reservoir to a warm reservoir with a heat pump. The directions of ( W ) , ( Q_{h} ), and ( Q_{c} ) are opposite what they would be in a heat engine. (b) ( PV ) diagram for a Carnot cycle similar to that in [Figure 3](#Figure3) but reversed, following path ADCBA. The area inside the loop is negative, meaning there is a net work input. There is heat transfer ( Q_{c} ) into the system from a cold reservoir along path DC, and heat transfer ( Q_{h} ) out of the system into a hot reservoir along path BA.')
 {: #Figure2}
 
 ### Heat Pumps
@@ -53,7 +54,7 @@ in [[Figure 3]](#Figure3). A working fluid such as a non-CFC refrigerant is
 used. In the outdoor coils (the evaporator), heat transfer $${Q}_{\text{c}} $$
 occurs to the working fluid from the cold outdoor air, turning it into a gas.
 
-![The diagram shows a diagram of a heat pump. There are four components connected by pipes. They are a condenser (1), an expansion valve (2), an evaporator (3), and a compressor (4), connected in that order. The evaporator coils are outside; all of the other components are inside. Heat Q sub c is absorbed from the outside air at the evaporator, and heat Q sub h is emitted inside from the condenser.](../resources/Figure_15_05_02.jpg "A simple heat pump has four basic components: (1)&#xA0;condenser, (2)&#xA0;expansion valve, (3)&#xA0;evaporator, and (4)&#xA0;compressor. In the heating mode, heat transfer \( Q_{c} \) occurs to the working fluid in the evaporator (3) from the colder outdoor air, turning it into a gas. The electrically driven compressor (4) increases the temperature and pressure of the gas and forces it into the condenser coils (1) inside the heated space. Because the temperature of the gas is higher than the temperature in the room, heat transfer from the gas to the room occurs as the gas condenses to a liquid. The working fluid is then cooled as it flows back through an expansion valve (2) to the outdoor evaporator coils.")
+![The diagram shows a diagram of a heat pump. There are four components connected by pipes. They are a condenser (1), an expansion valve (2), an evaporator (3), and a compressor (4), connected in that order. The evaporator coils are outside; all of the other components are inside. Heat Q sub c is absorbed from the outside air at the evaporator, and heat Q sub h is emitted inside from the condenser.](../resources/Figure_15_05_02.jpg 'A simple heat pump has four basic components: (1) condenser, (2) expansion valve, (3) evaporator, and (4) compressor. In the heating mode, heat transfer ( Q_{c} ) occurs to the working fluid in the evaporator (3) from the colder outdoor air, turning it into a gas. The electrically driven compressor (4) increases the temperature and pressure of the gas and forces it into the condenser coils (1) inside the heated space. Because the temperature of the gas is higher than the temperature in the room, heat transfer from the gas to the room occurs as the gas condenses to a liquid. The working fluid is then cooled as it flows back through an expansion valve (2) to the outdoor evaporator coils.')
 {: #Figure3}
 
 The electrically driven compressor (work input $$W $$ )
@@ -92,7 +93,7 @@ they do **not** benefit the operation of a heat pump—instead, they reduce the
 work input by converting part of it to heat transfer back into the cold
 reservoir before it gets into the heat pump.
 
-![A diagram of a heat pump (shown as a circle). Work W, indicated by a large, wavy orange arrow, is the total work put into the pump. Part of this work is done against friction and is lost in the form of frictional heat, Q sub f, to the cold reservoir. The portion of work that is used by the heat pump is represented by W prime. The pump transfers heat Q sub h, indicated by a large orange arrow, into the hot reservoir, a tan-colored rectangle, at temperature T sub h. Frictional heat Q sub f, indicated by a wavy orange arrow, is transferred to the cold reservoir, a blue rectangle at temperature T sub c. Heat Q sub c, indicated by a smaller wavy orange arrow, is transferred into the pump from the cold reservoir. Heat Q sub h is formed from a combination of W prime and Q sub c.](../resources/Figure_15_05_03.jpg "When a real heat engine is run backward, some of the intended work input \( W \) goes into heat transfer before it gets into the heat engine, thereby reducing its coefficient of performance \( \text{COP}_\text{hp} \). In this figure, \(W^\prime \) represents the portion of \(W\) that goes into the heat pump, while the remainder of \(W \) is lost in the form of frictional heat \( Q_f \) to the cold reservoir. If all of \( W \) had gone into the heat pump, then \( Q_{h} \) would have been greater. The best heat pump uses adiabatic and isothermal processes, since, in theory, there would be no dissipative processes to reduce the heat transfer to the hot reservoir.")
+![A diagram of a heat pump (shown as a circle). Work W, indicated by a large, wavy orange arrow, is the total work put into the pump. Part of this work is done against friction and is lost in the form of frictional heat, Q sub f, to the cold reservoir. The portion of work that is used by the heat pump is represented by W prime. The pump transfers heat Q sub h, indicated by a large orange arrow, into the hot reservoir, a tan-colored rectangle, at temperature T sub h. Frictional heat Q sub f, indicated by a wavy orange arrow, is transferred to the cold reservoir, a blue rectangle at temperature T sub c. Heat Q sub c, indicated by a smaller wavy orange arrow, is transferred into the pump from the cold reservoir. Heat Q sub h is formed from a combination of W prime and Q sub c.](../resources/Figure_15_05_03.jpg 'When a real heat engine is run backward, some of the intended work input ( W ) goes into heat transfer before it gets into the heat engine, thereby reducing its coefficient of performance ( \\text{COP}_\\text{hp} ). In this figure, (W^\\prime ) represents the portion of (W) that goes into the heat pump, while the remainder of (W ) is lost in the form of frictional heat ( Q_f ) to the cold reservoir. If all of ( W ) had gone into the heat pump, then ( Q_{h} ) would have been greater. The best heat pump uses adiabatic and isothermal processes, since, in theory, there would be no dissipative processes to reduce the heat transfer to the hot reservoir.')
 {: #Figure4}
 
 ::: example
@@ -101,9 +102,9 @@ reservoir before it gets into the heat pump.
 The Best COP<sub>hp</sub> of a Heat Pump for Home Use
 </div>
 
-A heat pump used to warm a home must employ a cycle that produces a working fluid at temperatures greater than typical indoor temperature so that heat transfer to the inside can take place. Similarly, it must produce a working fluid at temperatures that are colder than the outdoor temperature so that heat transfer occurs from outside. Its hot and cold reservoir temperatures therefore cannot be too close, placing a limit on its  $${\text{COP}}_{\text{hp}} $$ .
- (See [[Figure 2]](#Figure2).) What is the best coefficient of performance possible for such a heat pump, if it has a hot reservoir temperature of  $$ 45.0\text{ºC} $$
- and a cold reservoir temperature of  $$- 15.0\text{ºC} $$ ?
+A heat pump used to warm a home must employ a cycle that produces a working fluid at temperatures greater than typical indoor temperature so that heat transfer to the inside can take place. Similarly, it must produce a working fluid at temperatures that are colder than the outdoor temperature so that heat transfer occurs from outside. Its hot and cold reservoir temperatures therefore cannot be too close, placing a limit on its $${\text{COP}}_{\text{hp}} $$ .
+(See [[Figure 2]](#Figure2).) What is the best coefficient of performance possible for such a heat pump, if it has a hot reservoir temperature of $$ 45.0\text{ºC} $$
+and a cold reservoir temperature of $$- 15.0\text{ºC} $$ ?
 
 **Strategy**
 
@@ -119,9 +120,9 @@ Carnot efficiency in terms of absolute temperature is given by \:
  $${\text{Eff}}_{\text{C}}=1-\frac{ {T}_{\text{c}}}{ {T}_{\text{h}}}\text{.} $$
 </div>
 
-The temperatures in kelvins are  $${T}_{\text{h}}=318 \text{K} $$
- and  $${T}_{\text{c}}=258 \text{K} $$ ,
- so that
+The temperatures in kelvins are $${T}_{\text{h}}=318 \text{K} $$
+and $${T}_{\text{c}}=258 \text{K} $$ ,
+so that
 
 <div class="equation" >
  $${\text{Eff}}_{\text{C}}=1-\frac{258 \text{K}}{318 \text{K}}= 0.1887 \text{.} $$
@@ -153,7 +154,7 @@ transfer by an electric room heater as it does for that produced by this heat
 pump. This is not a violation of conservation of energy. Cold ambient air
 provides 4.3 J per 1 J of work from the electrical outlet.
 
-![The figure shows a schematic diagram of a heat pump. The hot and cold reservoirs are shown as two rectangular boxes attached to a vertical rectangular wall. The hot reservoir is at temperature T sub c equals negative fifteen degrees Celsius and the hot reservoir is at a temperature T sub h equals forty five degrees Celsius. Work W is shown to enter from an electrical outlet. Heat Q sub c is shown to enter the cold reservoir at an outside air temperature of negative five degrees Celsius and Q sub h is shown to leave the hot reservoir at an inside air temperature of twenty degrees Celsius.](../resources/Figure_15_05_04.jpg "Heat transfer from the outside to the inside, along with work done to run the pump, takes place in the heat pump of the example above. Note that the cold temperature produced by the heat pump is lower than the outside temperature, so that heat transfer into the working fluid occurs. The pump&#x2019;s compressor produces a temperature greater than the indoor temperature in order for heat transfer into the house to occur. ")
+![The figure shows a schematic diagram of a heat pump. The hot and cold reservoirs are shown as two rectangular boxes attached to a vertical rectangular wall. The hot reservoir is at temperature T sub c equals negative fifteen degrees Celsius and the hot reservoir is at a temperature T sub h equals forty five degrees Celsius. Work W is shown to enter from an electrical outlet. Heat Q sub c is shown to enter the cold reservoir at an outside air temperature of negative five degrees Celsius and Q sub h is shown to leave the hot reservoir at an inside air temperature of twenty degrees Celsius.](../resources/Figure_15_05_04.jpg 'Heat transfer from the outside to the inside, along with work done to run the pump, takes place in the heat pump of the example above. Note that the cold temperature produced by the heat pump is lower than the outside temperature, so that heat transfer into the working fluid occurs. The pump’s compressor produces a temperature greater than the indoor temperature in order for heat transfer into the house to occur. ')
 {: #Figure5}
 
 :::
@@ -171,10 +172,10 @@ temperatures are mild, electricity is relatively cheap, and other fuels are
 relatively expensive. Also, since they can cool as well as heat a space, they
 have advantages where cooling in summer months is also desired. Thus some of the
 best locations for heat pumps are in warm summer climates with cool
-winters. [[Figure 6]](#Figure6) shows a heat pump, called a “*reverse cycle”* or
+winters. [[Figure 6]](#Figure6) shows a heat pump, called a “_reverse cycle”_ or
 “split-system cooler” in some countries.
 
-![A residential heat pump.](../resources/Figure_15_05_05.jpg "In hot weather, heat transfer occurs from air inside the room to air outside, cooling the room. In cool weather, heat transfer occurs from air outside to air inside, warming the room. This switching is achieved by reversing the direction of flow of the working fluid.")
+![A residential heat pump.](../resources/Figure_15_05_05.jpg 'In hot weather, heat transfer occurs from air inside the room to air outside, cooling the room. In cool weather, heat transfer occurs from air outside to air inside, warming the room. This switching is achieved by reversing the direction of flow of the working fluid.')
 {: #Figure6}
 
 ### Air Conditioners and Refrigerators
@@ -185,7 +186,7 @@ cold to hot, and this is expensive. The quality of air conditioners and
 refrigerators is judged by how much heat transfer $${Q}_{\text{c}} $$ occurs
 from a cold environment compared with how much work input $$W $$ is required.
 What is considered the benefit in a heat pump is considered waste heat in a
-refrigerator. We thus define the **coefficient of performance**  $$\left( \text{COP}_{\text{ref}} \right) $$ of an air conditioner or refrigerator to be
+refrigerator. We thus define the **coefficient of performance** $$\left( \text{COP}_{\text{ref}} \right) $$ of an air conditioner or refrigerator to be
 
 <div class="equation">
  $${\text{COP}}_{\text{ref}}=\frac{ {Q}_{\text{c}}}{W}\text{.} $$
@@ -209,7 +210,7 @@ temperature differences are smaller, but they are less than those for Carnot
 engines operating between the same two temperatures.
 
 A type of $$\text{COP} $$ rating system called the “energy efficiency rating” (
-$$\text{EER} $$ )   has been developed. This rating is an example where non-SI
+$$\text{EER} $$ ) has been developed. This rating is an example where non-SI
 units are still used and relevant to consumers. To make it easier for the
 consumer, Australia, Canada, New Zealand, and the U.S. use an Energy Star Rating
 out of 5 stars—the more stars, the more energy efficient the appliance.
@@ -237,26 +238,47 @@ input in joules, and $${t}_{2} $$ is time in seconds.
 Problem-Solving Strategies for Thermodynamics
 </div>
 
-1.   **Examine the situation to determine whether heat, work, or internal energy are involved*.* Look for any system where the primary methods of transferring energy are heat and work. Heat engines, heat pumps, refrigerators, and air conditioners are examples of such systems.
-2.   **Identify the system of interest and draw a labeled diagram of the system showing energy flow.**
-3.   **Identify exactly what needs to be determined in the problem (identify the unknowns)*.* A written list is useful. Maximum efficiency means a Carnot engine is involved. Efficiency is not the same as the coefficient of performance.
-4.   **Make a list of what is given or can be inferred from the problem as stated (identify the knowns)*.* Be sure to distinguish heat transfer into a system from heat transfer out of the system, as well as work input from work output. In many situations, it is useful to determine the type of process, such as isothermal or adiabatic.
-5.   **Solve the appropriate equation for the quantity to be determined (the unknown).**
-6.   **Substitute the known quantities along with their units into the appropriate equation and obtain numerical solutions complete with units.**
-7.   **Check the answer to see if it is reasonable: Does it make sense?** For example, efficiency is always less than 1, whereas coefficients of performance are greater than 1.
+1.  _*Examine the situation to determine whether heat, work, or internal energy are involved*._ Look for any system where the primary methods of transferring energy are heat and work. Heat engines, heat pumps, refrigerators, and air conditioners are examples of such systems.
+2.  **Identify the system of interest and draw a labeled diagram of the system showing energy flow.**
+3.  **Identify exactly what needs to be determined in the problem (identify the unknowns)_._ A written list is useful. Maximum efficiency means a Carnot engine is involved. Efficiency is not the same as the coefficient of performance.
+4.  **Make a list of what is given or can be inferred from the problem as stated (identify the knowns)_._ Be sure to distinguish heat transfer into a system from heat transfer out of the system, as well as work input from work output. In many situations, it is useful to determine the type of process, such as isothermal or adiabatic.
+5.  **Solve the appropriate equation for the quantity to be determined (the unknown).**
+6.  **Substitute the known quantities along with their units into the appropriate equation and obtain numerical solutions complete with units.**
+7.  **Check the answer to see if it is reasonable: Does it make sense?** For example, efficiency is always less than 1, whereas coefficients of performance are greater than 1.
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Refrigerator and Heat Pump
+</div>
+
+Run the Carnot cycle backwards. The same device refrigerates or heats a space, and the coefficient of performance is set by the two reservoir temperatures.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CarnotHeatEngine/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Reversed Carnot cycle
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
-* An artifact of the second law of thermodynamics is the ability to heat an
+- An artifact of the second law of thermodynamics is the ability to heat an
   interior space using a heat pump. Heat pumps compress cold ambient air and, in
   so doing, heat it to room temperature without violation of conservation
   principles.
-* To calculate the heat pump’s coefficient of performance, use the equation
+- To calculate the heat pump’s coefficient of performance, use the equation
   $${\text{COP}}_{\text{hp}}=\frac{ {Q}_{\text{h}}}{W} $$ .
 
-* A refrigerator is a heat pump; it takes warm ambient air and expands it to
+- A refrigerator is a heat pump; it takes warm ambient air and expands it to
   chill it.
 
 ### Conceptual Questions
@@ -266,6 +288,22 @@ Problem-Solving Strategies for Thermodynamics
 ::: problem
 
 Explain why heat pumps do not work as well in very cold climates as they do in milder ones. Is the same true of refrigerators?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the temperature lift and the available heat source in each device.
+
+**Solution**
+
+For an ideal heat pump, $$\mathrm{COP}_h=T_h/(T_h-T_c)$$. Holding the indoor temperature fixed while lowering the outdoor temperature increases the required lift and lowers COP; real units can also lose capacity and require defrosting. A refrigerator follows $$\mathrm{COP}_c=T_c/(T_h-T_c)$$, so it works less efficiently if its contents must be colder or the surrounding room becomes hotter.
+
+**Discussion**
+
+A refrigerator in a suitably cooler environment generally benefits from a smaller lift, rather than suffering simply because the weather is cold. Both devices perform best when their operating temperature difference is small; cold outdoor air chiefly penalizes a heat pump heating a warm building.
 
 :::
 
@@ -279,15 +317,47 @@ In some Northern European nations, homes are being built without heating systems
 
 :::
 
+::: solution
+
+**Strategy**
+
+Account for heat storage and heat gains other than current occupant metabolism.
+
+**Solution**
+
+An exceptionally well-insulated house loses stored thermal energy slowly. Its walls, floors, furnishings, and water can remain warm after residents leave. Sunlight through windows, appliances, and neighboring spaces may also supply energy. For an assumed thermal capacity of $$10\text{ MJ/K}$$ and net loss of $$100\text{ W}$$ over $$8\text{ h}$$, the cooling is $$\Delta T=[(100\text{ J/s})(28800\text{ s})]/(10\times10^6\text{ J/K})=0.29\text{ K}$$.
+
+**Discussion**
+
+Without continuing gains, any house eventually cools toward its surroundings. Thermal storage and small heat loss, possibly supplemented by sunlight or appliances, explain why it can stay warm while residents are away.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Why do refrigerators, air conditioners, and heat pumps operate most cost-effectively for cycles with a small difference between  $${T}_{\text{h}} $$
- and  $${T}_{\text{c}} $$ ?
- (Note that the temperatures of the cycle employed are crucial to its  $$\text{COP} $$ .)
+Why do refrigerators, air conditioners, and heat pumps operate most cost-effectively for cycles with a small difference between $${T}_{\text{h}} $$
+and $${T}_{\text{c}} $$ ?
+(Note that the temperatures of the cycle employed are crucial to its $$\text{COP} $$ .)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the ideal coefficients of performance as upper bounds.
+
+**Solution**
+
+For refrigeration, $$\mathrm{COP}_c=T_c/(T_h-T_c)$$, and for heating, $$\mathrm{COP}_h=T_h/(T_h-T_c)$$. A smaller temperature lift generally raises COP and reduces electrical work for a given heat transfer. For assumed reservoirs at $$280\text{ K}$$ and $$300\text{ K}$$, the ideal refrigerator COP is $$14$$; raising the hot side to $$320\text{ K}$$ lowers it to $$7$$.
+
+**Discussion**
+
+Real COP values are lower, but the temperature-lift dependence remains. These devices are more economical at small operating temperature differences because less work is required to move the same amount of heat.
 
 :::
 
@@ -301,6 +371,22 @@ Grocery store managers contend that there is **less** total energy consumption i
 
 :::
 
+::: solution
+
+**Strategy**
+
+Include refrigeration, building cooling, and heat discharged by display cases in the same energy balance.
+
+**Solution**
+
+A cooler store reduces heat leakage into refrigerated cases and lowers their condensing temperature if they reject heat to store air, which can reduce compressor electricity. Against that saving, maintaining a lower room temperature increases heat entering from outdoors and usually increases air-conditioning work. If cases reject heat indoors, the building cooling system must also remove their rejected heat and compressor work; outdoor condensers change that accounting.
+
+**Discussion**
+
+The result depends on insulation, outdoor conditions, equipment COP, and where heat is rejected. A lower store temperature may reduce refrigerator consumption, but it does not by itself establish lower total summer energy use.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -308,6 +394,22 @@ Grocery store managers contend that there is **less** total energy consumption i
 ::: problem
 
 Can you cool a kitchen by leaving the refrigerator door open?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Take the entire refrigerator and kitchen as the system.
+
+**Solution**
+
+The refrigerator removes $$Q_c$$ from its cold compartment and rejects $$Q_h=Q_c+W$$ into the kitchen. With its door open, the compartment draws heat from the same kitchen, so the net heat added to the kitchen is $$Q_h-Q_c=W>0$$. For an assumed $$150\text{ W}$$ electrical input, the room ultimately gains about $$150\text{ W}$$ while the compressor runs.
+
+**Discussion**
+
+Local cold air does not imply net room cooling. An open refrigerator warms the kitchen overall unless its hot-side heat is exhausted outside the room.
 
 :::
 
@@ -319,8 +421,8 @@ Can you cool a kitchen by leaving the refrigerator door open?
 
 ::: problem
 
-What is the coefficient of performance of an ideal heat pump that has heat transfer from a cold temperature of  $$- 25.0\text{ºC} $$
- to a hot temperature of  $$ 40.0\text{ºC} $$ ?
+What is the coefficient of performance of an ideal heat pump that has heat transfer from a cold temperature of $$- 25.0\text{ºC} $$
+to a hot temperature of $$ 40.0\text{ºC} $$ ?
 
 :::
 
@@ -333,6 +435,7 @@ An ideal heat pump operates on a Carnot cycle. The coefficient of performance fo
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = -25.0\text{°C} = 248 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 40.0\text{°C} = 313 \text{ K} $$
 
@@ -362,9 +465,9 @@ A COP of 4.82 means that for every joule of work input, the heat pump delivers 4
 
 ::: problem
 
-Suppose you have an ideal refrigerator that cools an environment at  $$- 20.0\text{ºC} $$
- and has heat transfer to another environment at  $$ 50.0\text{ºC} $$ .
- What is its coefficient of performance?
+Suppose you have an ideal refrigerator that cools an environment at $$- 20.0\text{ºC} $$
+and has heat transfer to another environment at $$ 50.0\text{ºC} $$ .
+What is its coefficient of performance?
 
 :::
 
@@ -377,6 +480,7 @@ An ideal refrigerator operates on a Carnot cycle run in reverse. The coefficient
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = -20.0\text{°C} = 253 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 50.0\text{°C} = 323 \text{ K} $$
 
@@ -406,8 +510,8 @@ A COP of 3.61 means that for every joule of work input, the refrigerator removes
 
 ::: problem
 
-What is the best coefficient of performance possible for a hypothetical refrigerator that could make liquid nitrogen at  $$-200\text{ºC} $$
- and has heat transfer to the environment at  $$ 35.0\text{ºC} $$ ?
+What is the best coefficient of performance possible for a hypothetical refrigerator that could make liquid nitrogen at $$-200\text{ºC} $$
+and has heat transfer to the environment at $$ 35.0\text{ºC} $$ ?
 
 :::
 
@@ -420,6 +524,7 @@ The best possible refrigerator operates on a Carnot cycle. For a Carnot refriger
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = -200\text{°C} = 73 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 35.0\text{°C} = 308 \text{ K} $$
 
@@ -449,9 +554,9 @@ A COP of only 0.311 is quite low, meaning this refrigerator requires about 3.2 j
 
 ::: problem
 
-In a very mild winter climate, a heat pump has heat transfer from an environment at  $$ 5.00\text{ºC} $$
- to one at  $$ 35.0\text{ºC} $$ .
- What is the best possible coefficient of performance for these temperatures? Explicitly show how you follow the steps
+In a very mild winter climate, a heat pump has heat transfer from an environment at $$ 5.00\text{ºC} $$
+to one at $$ 35.0\text{ºC} $$ .
+What is the best possible coefficient of performance for these temperatures? Explicitly show how you follow the steps
 in the [Problem-Solving Strategies for Thermodynamics](#Note1).
 
 :::
@@ -479,6 +584,7 @@ Following the Problem-Solving Strategies for Thermodynamics:
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = 5.00\text{°C} = 278 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 35.0\text{°C} = 308 \text{ K} $$
 
@@ -508,12 +614,12 @@ This remarkably high COP of 10.3 means that the heat pump delivers 10.3 joules o
 
 ::: problem
 
-(a) What is the best coefficient of performance for a heat pump that has a hot reservoir temperature of  $$ 50.0\text{ºC} $$
- and a cold reservoir temperature of  $$-20.0\text{ºC} $$ ?
- (b) How much heat transfer occurs into the warm environment if  $$ 3.60 \times 10^{7}  \text{J} $$
- of work ( $$ 10.0\text{kW}\cdot \text{h} $$ )
-is put into it? (c) If the cost of this work input is  $$10.0 \text{cents/kW}\cdot \text{h} $$ ,
- how does its cost compare with the direct heat transfer achieved by burning natural gas at a cost of 85.0 cents per therm. (A therm is a common unit of energy for natural gas and equals  $$ 1.055 \times 10^{8}  \text{J} $$ .)
+(a) What is the best coefficient of performance for a heat pump that has a hot reservoir temperature of $$ 50.0\text{ºC} $$
+and a cold reservoir temperature of $$-20.0\text{ºC} $$ ?
+(b) How much heat transfer occurs into the warm environment if $$ 3.60 \times 10^{7}  \text{J} $$
+of work ( $$ 10.0\text{kW}\cdot \text{h} $$ )
+is put into it? (c) If the cost of this work input is $$10.0 \text{cents/kW}\cdot \text{h} $$ ,
+how does its cost compare with the direct heat transfer achieved by burning natural gas at a cost of 85.0 cents per therm. (A therm is a common unit of energy for natural gas and equals $$ 1.055 \times 10^{8}  \text{J} $$ .)
 
 :::
 
@@ -526,21 +632,22 @@ For part (a), we use the Carnot heat pump formula: $$ \text{COP}_{\text{hp}} = \
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = -20.0\text{°C} = 253 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 50.0\text{°C} = 323 \text{ K} $$
 - Work input: $$ W = 3.60 \times 10^{7} \text{ J} = 10.0 \text{ kWh} $$
 - Electricity cost: \$0.10 per kWh
 - Natural gas cost: \$0.85 per therm, where 1 therm = $$ 1.055 \times 10^{8} \text{ J} $$
 
-__(a)__ Best coefficient of performance:
+**(a)** Best coefficient of performance:
 
 <div class="equation">
  $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} = \frac{323 \text{ K}}{323 \text{ K} - 253 \text{ K}} = \frac{323}{70} = 4.61 $$
 </div>
 
-__The best COP is 4.61.__
+**The best COP is 4.61.**
 
-__(b)__ Heat transfer to warm environment:
+**(b)** Heat transfer to warm environment:
 
 <div class="equation">
  $$ Q_h = \text{COP}_{\text{hp}} \times W = 4.61 \times 3.60 \times 10^{7} \text{ J} $$
@@ -553,21 +660,23 @@ __(b)__ Heat transfer to warm environment:
 Converting to kilocalories (1 kcal = 4186 J):
 
 <div class="equation">
- $$ Q_h = \frac{1.66 \times 10^{8}}{4186} = 3.97 \times 10^{4} \text{ kcal} $$
+ $$ Q_h = \frac{1.66 \times 10^{8} \text{ J}}{4186 \text{ J/kcal}} = 3.97 \times 10^{4} \text{ kcal} $$
 </div>
 
-__The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.__
+**The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.**
 
-__(c)__ Cost comparison:
+**(c)** Cost comparison:
 
-__Heat pump cost:__
-- Cost = 10.0 kWh × \$0.10/kWh = __\$1.00__
+**Heat pump cost:**
 
-__Natural gas cost__ for same heat output:
+- Cost = 10.0 kWh × \$0.10/kWh = **\$1.00**
+
+**Natural gas cost** for same heat output:
+
 - Number of therms needed: $$ \frac{1.66 \times 10^{8} \text{ J}}{1.055 \times 10^{8} \text{ J/therm}} = 1.57 \text{ therms} $$
-- Cost = 1.57 therms × \$0.85/therm = __\$1.34__
+- Cost = 1.57 therms × \$0.85/therm = **\$1.34**
 
-__The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).__
+**The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).**
 
 **Discussion**
 
@@ -585,10 +694,10 @@ Part (c): Despite electricity typically being more expensive per joule than natu
 
 ::: problem
 
-(a) What is the best coefficient of performance for a refrigerator that cools an environment at  $$- 30.0\text{ºC} $$
- and has heat transfer to another environment at  $$ 45.0\text{ºC} $$ ?
- (b) How much work in joules must be done for a heat transfer of 4186 kJ from the cold environment? (c) What is the cost of doing this if the work costs 10.0 cents per  $$ 3.60 \times 10^{6}  \text{J} $$
- (a kilowatt-hour)? (d) How many kJ of heat transfer occurs into the warm environment? (e) Discuss what type of refrigerator might operate between these temperatures.
+(a) What is the best coefficient of performance for a refrigerator that cools an environment at $$- 30.0\text{ºC} $$
+and has heat transfer to another environment at $$ 45.0\text{ºC} $$ ?
+(b) How much work in joules must be done for a heat transfer of 4186 kJ from the cold environment? (c) What is the cost of doing this if the work costs 10.0 cents per $$ 3.60 \times 10^{6}  \text{J} $$
+(a kilowatt-hour)? (d) How many kJ of heat transfer occurs into the warm environment? (e) Discuss what type of refrigerator might operate between these temperatures.
 
 :::
 
@@ -601,19 +710,20 @@ For part (a), we use the Carnot COP formula for a refrigerator: $$ \text{COP}_{\
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = -30.0\text{°C} = 243 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 45.0\text{°C} = 318 \text{ K} $$
 - Heat transfer from cold environment: $$ Q_c = 4186 \text{ kJ} = 4.186 \times 10^6 \text{ J} $$
 
-__(a)__ Best coefficient of performance:
+**(a)** Best coefficient of performance:
 
 <div class="equation">
  $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} = \frac{243 \text{ K}}{318 \text{ K} - 243 \text{ K}} = \frac{243}{75} = 3.24 $$
 </div>
 
-__The best coefficient of performance is 3.24.__
+**The best coefficient of performance is 3.24.**
 
-__(b)__ Work required:
+**(b)** Work required:
 
 From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
 
@@ -621,9 +731,9 @@ From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
  $$ W = \frac{Q_c}{\text{COP}_{\text{ref}}} = \frac{4.186 \times 10^6 \text{ J}}{3.24} = 1.29 \times 10^6 \text{ J} $$
 </div>
 
-__The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.__
+**The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.**
 
-__(c)__ Cost of operation:
+**(c)** Cost of operation:
 
 Cost per kWh: $$ \$0.10 \text{ per } 3.60 \times 10^6 \text{ J} $$
 
@@ -637,9 +747,9 @@ Number of kWh used:
  $$ \text{Cost} = (0.358 \text{ kWh})(\$0.10/\text{kWh}) = \$0.0358 \approx \$0.036 $$
 </div>
 
-__The cost is 3.6 cents.__
+**The cost is 3.6 cents.**
 
-__(d)__ Heat transfer to warm environment:
+**(d)** Heat transfer to warm environment:
 
 Using energy conservation:
 
@@ -647,13 +757,14 @@ Using energy conservation:
  $$ Q_h = Q_c + W = 4186 \text{ kJ} + 1290 \text{ kJ} = 5476 \text{ kJ} $$
 </div>
 
-__The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.__
+**The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.**
 
-__(e)__ This refrigerator operates at −30.0 °C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
-- __Commercial freezers__ for long-term food storage
-- __Laboratory freezers__ for preserving biological samples
-- __Industrial cold storage__ facilities
-- __Pharmaceutical storage__ requiring very low temperatures
+**(e)** This refrigerator operates at −30.0 °C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
+
+- **Commercial freezers** for long-term food storage
+- **Laboratory freezers** for preserving biological samples
+- **Industrial cold storage** facilities
+- **Pharmaceutical storage** requiring very low temperatures
 
 This is not a household refrigerator (which typically operates around −18 °C to −20 °C in the freezer compartment) but rather a specialized deep-freeze unit.
 
@@ -669,8 +780,8 @@ The COP of 3.24 is reasonable for this large temperature difference of 75 K. Rea
 
 ::: problem
 
-Suppose you want to operate an ideal refrigerator with a cold temperature of  $$- 10.0\text{ºC} $$ ,
- and you would like it to have a coefficient of performance of 7.00. What is the hot reservoir temperature for such a refrigerator?
+Suppose you want to operate an ideal refrigerator with a cold temperature of $$- 10.0\text{ºC} $$ ,
+and you would like it to have a coefficient of performance of 7.00. What is the hot reservoir temperature for such a refrigerator?
 
 :::
 
@@ -683,6 +794,7 @@ For an ideal (Carnot) refrigerator, the coefficient of performance is $$ \text{C
 **Solution**
 
 Given values:
+
 - Cold reservoir temperature: $$ T_c = -10.0\text{°C} = 263 \text{ K} $$
 - Desired coefficient of performance: $$ \text{COP}_{\text{ref}} = 7.00 $$
 
@@ -717,16 +829,16 @@ Substituting values:
 </div>
 
 <div class="equation">
- $$ T_h = 263 \times 1.143 = 300.6 \text{ K} $$
+ $$ T_h = 263 \text{ K} \times 1.143 = 300.6 \text{ K} $$
 </div>
 
 Converting to Celsius:
 
 <div class="equation">
- $$ T_h = 300.6 - 273 = 27.6\text{°C} $$
+ $$ T_h = 300.6 \text{ K} = (300.6 - 273)\text{ °C} = 27.6\text{°C} $$
 </div>
 
-__The hot reservoir temperature must be 27.6 °C or 301 K.__
+**The hot reservoir temperature must be 27.6 °C or 301 K.**
 
 **Discussion**
 
@@ -740,8 +852,8 @@ A COP of 7.00 is quite high, which requires a small temperature difference betwe
 
 ::: problem
 
-An ideal heat pump is being considered for use in heating an environment with a temperature of  $$ 22.0\text{ºC} $$ .
- What is the cold reservoir temperature if the pump is to have a coefficient of performance of 12.0?
+An ideal heat pump is being considered for use in heating an environment with a temperature of $$ 22.0\text{ºC} $$ .
+What is the cold reservoir temperature if the pump is to have a coefficient of performance of 12.0?
 
 :::
 
@@ -754,6 +866,7 @@ For an ideal (Carnot) heat pump, the coefficient of performance is $$ \text{COP}
 **Solution**
 
 Given values:
+
 - Hot reservoir temperature: $$ T_h = 22.0\text{°C} = 295 \text{ K} $$
 - Coefficient of performance: $$ \text{COP}_{\text{hp}} = 12.0 $$
 
@@ -793,7 +906,7 @@ Converting to Celsius:
  $$ T_c = 270 \text{ K} - 273 = -3.0\text{°C} $$
 </div>
 
-__The cold reservoir temperature must be −3.0 °C or 270 K.__
+**The cold reservoir temperature must be −3.0 °C or 270 K.**
 
 **Discussion**
 
@@ -807,10 +920,10 @@ A COP of 12.0 is quite high, which requires a small temperature difference betwe
 
 ::: problem
 
-A 4-ton air conditioner removes  $$ 5.06 \times 10^{7}  \text{J} $$
- (48 000 British thermal units) from a cold environment in 1.00 h. (a) What energy input in joules is necessary to do this if the air conditioner has an energy efficiency rating ( $$\text{EER} $$ )
-of 12.0? (b) What is the cost of doing this if the work costs 10.0 cents per  $$ 3.60 \times 10^{6}  \text{J} $$
- (one kilowatt-hour)? (c) Discuss whether this cost seems realistic. Note that the energy efficiency rating ( $$\text{EER} $$ )
+A 4-ton air conditioner removes $$ 5.06 \times 10^{7}  \text{J} $$
+(48 000 British thermal units) from a cold environment in 1.00 h. (a) What energy input in joules is necessary to do this if the air conditioner has an energy efficiency rating ( $$\text{EER} $$ )
+of 12.0? (b) What is the cost of doing this if the work costs 10.0 cents per $$ 3.60 \times 10^{6}  \text{J} $$
+(one kilowatt-hour)? (c) Discuss whether this cost seems realistic. Note that the energy efficiency rating ( $$\text{EER} $$ )
 of an air conditioner or refrigerator is defined to be the number of British thermal units of heat transfer from a cold environment per hour divided by the watts of power input.
 
 :::
@@ -824,11 +937,12 @@ For part (a), we use the EER definition to find the power input, then multiply b
 **Solution**
 
 Given values:
+
 - Heat removed: $$ Q_c = 5.06 \times 10^{7} \text{ J} = 48{,}000 \text{ BTU} $$ in 1.00 hour
 - Energy efficiency rating: $$ \text{EER} = 12.0 $$
 - Electricity cost: \$0.10 per kWh = \$0.10 per $$ 3.60 \times 10^{6} \text{ J} $$
 
-__(a)__ Energy input required:
+**(a)** Energy input required:
 
 The EER is defined as:
 
@@ -850,9 +964,9 @@ Energy input over 1.00 hour:
 
 Alternatively, in kWh: $$ W = 4.00 \text{ kW} \times 1.00 \text{ hr} = 4.00 \text{ kWh} $$
 
-__The energy input is $$ 1.44 \times 10^{7} \text{ J} $$ or 4.00 kWh.__
+**The energy input is $$ 1.44 \times 10^{7} \text{ J} $$ or 4.00 kWh.**
 
-__(b)__ Cost of operation:
+**(b)** Cost of operation:
 
 <div class="equation">
  $$ \text{Cost} = \frac{1.44 \times 10^{7} \text{ J}}{3.60 \times 10^{6} \text{ J/kWh}} \times \$0.10/\text{kWh} $$
@@ -862,9 +976,9 @@ __(b)__ Cost of operation:
  $$ \text{Cost} = 4.00 \text{ kWh} \times \$0.10/\text{kWh} = \$0.40 $$
 </div>
 
-__The cost is 40 cents per hour.__
+**The cost is 40 cents per hour.**
 
-__(c)__ Is this cost realistic?
+**(c)** Is this cost realistic?
 
 If the air conditioner runs continuously for 24 hours:
 
@@ -892,7 +1006,7 @@ Part (c): The calculated \$9.60 daily cost for continuous operation is realistic
 
 ::: problem
 
-Show that the coefficients of performance of refrigerators and heat pumps are related by  $${\text{COP}}_{\text{ref}}={\text{COP}}_{\text{hp}}-1 $$.
+Show that the coefficients of performance of refrigerators and heat pumps are related by $${\text{COP}}_{\text{ref}}={\text{COP}}_{\text{hp}}-1 $$.
 
 Start with the definitions of the $$\text{COP} $$ s and the conservation of
 energy relationship between $${Q}_{\text{h}} $$ , $${Q}_{\text{c}} $$ , and $$W $$ .
@@ -968,6 +1082,7 @@ For example, if a heat pump has $$ \text{COP}_{\text{hp}} = 5 $$, when operated 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 heat pump

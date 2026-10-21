@@ -110,7 +110,7 @@ problem-solving skills. Furthermore, physics has retained the most basic aspects
 of science, so it is used by all of the sciences, and the study of physics makes
 other sciences easier to understand.
 
-![A microwave oven is shown with some food on the nonmetal plate inside it.](../resources/Figure_01_01_03.jpg 'The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (credit: MoneyBlogNewz)')
+![A white General Electric turntable microwave oven, seen from the front, with a mesh window and a control panel.](../resources/Figure_01_01_03.jpg 'The laws of physics help us understand how common appliances work. For example, the laws of physics can help explain how microwave ovens heat up food, and they also help us understand why it is dangerous to place metal objects in a microwave oven. (Photo: Famartin. <a href="https://commons.wikimedia.org/wiki/File:2021-06-18_12_31_32_The_exterior_of_a_General_Electric_Turntable_Microwave_Oven_Model_JES738WH_001_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Cropped, resized, and compressed for this book.)')
 {: #Figure3}
 
 ![M R I scan of a brain with specific tumors.](../resources/Figure_01_01_04.jpg 'These two applications of physics have more in common than meets the eye. Microwave ovens use electromagnetic waves to heat food. Magnetic resonance imaging (MRI) also uses electromagnetic waves to yield an image of the brain, from which the exact location of tumors can be determined. (credit: Rashmi Chawla, Daniel Smith, and Paul E. Marik)')
@@ -400,6 +400,20 @@ Models are particularly useful in relativity and quantum mechanics, where condit
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Recall the definitions of model, theory, and law in this section.
+
+**Solution**
+
+A **model** is a representation of something that is too difficult (or impossible) to observe or display directly, such as something very small, very large, or very fast. Examples are the planetary model of the atom, in which electrons orbit a nucleus about $$ 10^{-10} \m $$ across, or a picture of spacetime curving around a star. A model is justified by experimental evidence, but it is only accurate under limited conditions and is used to help us visualize and think about a system.
+
+A model is a simplified representation of an object or phenomenon that cannot be observed or displayed directly, used to help us visualize and understand it and justified by experimental tests.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -407,6 +421,20 @@ Models are particularly useful in relativity and quantum mechanics, where condit
 :::: problem
 
 How does a model differ from a theory?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the definitions of model and theory.
+
+**Solution**
+
+A **model** is a *representation* (often a mental picture or analogy) of something we cannot observe directly, and it may be accurate only under limited conditions. A **theory** is an *explanation* of patterns in nature that is supported by scientific evidence and verified many times by different groups of researchers. A theory makes testable predictions. A model may be part of a theory; the planetary model of the atom, for example, is a picture used within atomic theory. A theory is broader and has been tested much more thoroughly than a model.
+
+A model is a representation used to visualize something that cannot be observed directly, whereas a theory is a broad, repeatedly tested explanation of patterns in nature that makes predictions.
 
 ::::
 
@@ -420,6 +448,20 @@ If two different theories describe experimental observations equally well, can o
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Consider what makes a scientific theory valid: its agreement with experiment.
+
+**Solution**
+
+The validity of a theory is judged by how well it agrees with experimental observations. If two theories, using accepted logic, describe all available observations equally well, experiment gives no basis for preferring one over the other, so neither can be called more valid. Scientists might still prefer the simpler one (by Occam's razor) or the one that is easier to use, but that is a practical choice, not a statement about validity. The two theories may make different predictions in situations that have not been tested yet, and a new experiment in such a situation can then show one to be more valid.
+
+No, if two theories describe the experimental observations equally well, neither can be said to be more valid, until a new experiment distinguishes between them.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -427,6 +469,20 @@ If two different theories describe experimental observations equally well, can o
 :::: problem
 
 What determines the validity of a theory?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Recall how the scientific method tests theories.
+
+**Solution**
+
+A theory is valid only to the extent that it agrees with experimental observations. A theory must make predictions that can be tested, and it gains validity as those predictions are confirmed by repeated, reproducible experiments by different researchers. A single well-verified experiment that contradicts the theory shows that the theory is wrong or is valid only under limited conditions. For example, Newton's laws agree with experiment for speeds much less than the speed of light, $$ 3.00 \times 10^{8} \ms $$, but fail near it, so their validity is limited to slower speeds.
+
+The validity of a theory is determined by how well its testable predictions agree with reproducible experimental observations.
 
 ::::
 
@@ -440,6 +496,20 @@ Certain criteria must be satisfied if a measurement or observation is to be beli
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Compare what is at stake when a result agrees with, or contradicts, well-established ideas.
+
+**Solution**
+
+No. An unexpected result must meet stricter criteria. A result that agrees with a well-established theory is consistent with a large body of earlier evidence, so it is reasonable to accept it after ordinary checks. A result that contradicts a well-tested theory would overturn many earlier observations, so it requires extraordinary evidence: careful checks for systematic errors, small uncertainties, and independent repetition by other groups using different equipment. For example, in 2011 an experiment appeared to show neutrinos traveling faster than $$ 3.00 \times 10^{8} \ms $$. The result was examined very critically and was eventually traced to a loose fiber-optic cable in the timing system.
+
+No, the criteria are not as strict for an expected result; an unexpected result that contradicts established theory must be checked and reproduced much more rigorously before it is believed.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -447,6 +517,20 @@ Certain criteria must be satisfied if a measurement or observation is to be beli
 :::: problem
 
 Can the validity of a model be limited, or must it be universally valid? How does this compare to the required validity of a theory or a law?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the range of conditions over which models, theories, and laws are expected to hold.
+
+**Solution**
+
+The validity of a model can be limited. A model is a simplified representation and is often useful only under certain conditions; the planetary model of the atom, for example, helps us picture the atom but fails to explain many of its properties. Theories and laws are held to a higher standard: they are expected to agree with all experiments within their range of validity, and laws, which describe patterns in nature concisely, are very broadly applicable. Even so, theories and laws can also have limited validity. Newton's laws are accurate only for objects much larger than atoms moving at speeds much less than the speed of light, $$ 3.00 \times 10^{8} \ms $$.
+
+The validity of a model can be limited to certain conditions, whereas theories and especially laws are expected to be valid in a much wider range of situations, although they too can have limits, such as the limits of classical physics.
 
 ::::
 
@@ -460,6 +544,26 @@ Classical physics is a good approximation to modern physics under certain circum
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Classical physics fails when objects move very fast (relativity is needed), when they are very small (quantum mechanics is needed), or when gravity is extremely strong. State the conditions under which none of these apply.
+
+**Solution**
+
+![A chart of object size (10^-15 m to 10^5 m) versus speed as a fraction of the speed of light (10^-8 to 1), both on logarithmic scales. Large, slow objects lie in the region of classical physics; objects near the speed of light need relativity; objects smaller than about 10^-8 m need quantum mechanics; small, fast objects need relativistic quantum mechanics. A car at 30 m/s and a satellite at 7500 m/s lie well inside the classical region.](../resources/concept_01_01_q07.svg){: .sketch}
+
+Classical physics (Newton's laws, classical electromagnetism, and thermodynamics) is an excellent approximation when:
+
+- objects move at speeds much less than the speed of light, $$ c = 3.00 \times 10^{8} \ms $$ (less than about $$ 1\% $$ of $$ c $$, or $$ 3 \times 10^{6} \ms $$);
+- objects are much larger than atoms and molecules (much larger than about $$ 10^{-9} \m $$);
+- gravitational fields are not extremely strong, such as those near a black hole.
+
+Classical physics is a good approximation for objects moving at speeds much less than the speed of light ($$ 3.00 \times 10^{8} \ms $$), for objects much larger than atoms and molecules, and for gravitational fields that are not extremely strong.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -470,6 +574,20 @@ When is it **necessary** to use relativistic quantum mechanics?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Use the chart in the answer to the previous question: relativistic quantum mechanics covers the region where both relativity and quantum mechanics are needed.
+
+**Solution**
+
+Quantum mechanics is needed for very small objects, of atomic size (about $$ 10^{-10} \m $$) or smaller. Relativity is needed for very high speeds, approaching the speed of light, $$ 3.00 \times 10^{8} \ms $$. Relativistic quantum mechanics is necessary when **both** conditions hold at once, as for electrons and protons in particle accelerators, particles in cosmic rays, and the interactions of subatomic particles and nuclei at high energies.
+
+It is necessary to use relativistic quantum mechanics when objects are both very small (atomic size, about $$ 10^{-10} \m $$, or smaller) and moving at speeds close to the speed of light.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -477,6 +595,26 @@ When is it **necessary** to use relativistic quantum mechanics?
 :::: problem
 
 Can classical physics be used to accurately describe a satellite moving at a speed of 7500 m/s? Explain why or why not.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the satellite's speed with the speed of light, and its size with the size of an atom (see the chart in the answer to Question 7).
+
+**Solution**
+
+The satellite's speed is a tiny fraction of the speed of light:
+
+<div class="equation">
+$$ \frac{v}{c} = \frac{7500 \ms}{3.00 \times 10^{8} \ms} = 2.5 \times 10^{-5} $$
+</div>
+
+Relativistic corrections are of order $$ (v/c)^{2}/2 \approx 3 \times 10^{-10} $$, far too small to matter for describing the orbit. The satellite is also many meters across, enormously larger than an atom, so quantum effects are negligible. The satellite therefore lies well inside the classical region. (Only extremely precise measurements, such as the atomic clocks of GPS satellites, need tiny relativistic corrections.)
+
+Yes, classical physics accurately describes a satellite moving at $$ 7500 \ms $$, because that speed is only $$ 2.5 \times 10^{-5} $$ of the speed of light and the satellite is far larger than an atom.
 
 ::::
 

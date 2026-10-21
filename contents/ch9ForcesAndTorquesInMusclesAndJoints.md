@@ -99,7 +99,7 @@ $$ \left(6.50 \kg \right)\left(9.80\mss \right)=63.7 \N $$,
 so that the ratio of the force exerted by the biceps to the total weight is
 
 <div class="equation">
- $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}= \frac{470}{63.7}=7.38. $$ 
+ $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}= \frac{470 \N}{63.7 \N}=7.38. $$ 
 </div>
 
 **Discussion**
@@ -364,26 +364,21 @@ Why are the forces exerted on the outside world by the limbs of our bodies usual
 
 **Strategy**
 
-We analyze the lever systems in the body, noting that muscles attach close to joints while external forces are applied far from joints.
+Treat a limb as a lever, using the forearm of Figure 1. Compare the lever arm of the muscle with the lever arm of the load at the hand, and apply the second condition for equilibrium about the joint.
 
 **Solution**
 
-The forces exerted on the outside world are smaller than muscle forces because **muscles attach very close to joints**, giving most body lever systems a mechanical advantage much less than 1.
+Most muscles attach to bones **very close to the joint**, while we exert forces on the outside world with our hands and feet, **far from the joint**. In the forearm of Figure 1, the biceps attaches $$ 4.00 \text{ cm} $$ from the elbow, while the hand is $$ 38.0 \text{ cm} $$ from it. Taking torques about the elbow (and ignoring the forearm's own weight),
 
-From the lever equation: $$ F_{\text{out}} \cdot l_{\text{out}} = F_{\text{muscle}} \cdot l_{\text{muscle}} $$
+<div class="equation">
+$$ F_{\text{muscle}}(4.00 \text{ cm}) = F_{\text{hand}}(38.0 \text{ cm}) \quad \Rightarrow \quad F_{\text{muscle}} = 9.5F_{\text{hand}} $$
+</div>
 
-Since $$ l_{\text{muscle}} << l_{\text{out}} $$, we have $$ F_{\text{muscle}} >> F_{\text{out}} $$.
+The mechanical advantage is $$ (4.00 \text{ cm})/(38.0 \text{ cm}) = 0.105 $$. Including the forearm's own weight, the example in this section found that the biceps must pull with $$ 470 \N $$ to hold a $$ 4.00 \kg $$ ball, 7.38 times the $$ 63.7 \N $$ total weight supported.
 
-For example, in the forearm ([Figure 1](#Figure1)):
+This arrangement trades force for speed and range: when the biceps shortens by $$ 1.0 \text{ cm} $$, the hand moves about $$ 9.5 \text{ cm} $$, so the hand moves fast and far.
 
-- Biceps attaches 4.0 cm from the elbow
-- Hand is 38 cm from the elbow
-- MA = 4.0/38 = 0.105
-- This means the biceps must exert about 9.5 times the force delivered by the hand
-
-**Discussion**
-
-This arrangement trades force for speed and range of motion. A small muscle contraction produces large, fast movements at the extremities—essential for activities requiring dexterity and quick responses.
+The forces our limbs exert on the outside world are much smaller than the forces exerted by our muscles because muscles attach very close to the joints while loads are applied far from them, so the limbs are levers with small mechanical advantages (about $$ 0.105 $$ for the forearm, where the biceps pulls with $$ 470 \N $$ to hold a $$ 39.2 \N $$ ball).
 
 :::
 
@@ -401,30 +396,21 @@ Explain why the forces in our joints are several times larger than the forces we
 
 **Strategy**
 
-We apply force equilibrium to analyze joint forces, recognizing that joints must balance both muscle forces and external loads.
+Apply the first condition for equilibrium (zero net force) to the forearm of Figure 1. Take $$ +y $$ upward. Use the values found in this section: the biceps pulls up with $$ F_{B} = 470 \N $$, while the forearm and ball weigh $$ 63.7 \N $$ in total.
 
 **Solution**
 
-Joint forces are large because **joints must counterbalance the large muscle forces** that arise from the MA < 1 lever systems.
+Forces on the forearm in the $$ y $$ direction:
 
-From force equilibrium in the forearm example:
-$$ F_{\text{biceps}} = F_{\text{joint}} + W_{\text{load}} $$
+<div class="equation">
+$$ F_{B} - F_{E} - w_{\text{total}} = 0 \quad \Rightarrow \quad F_{E} = F_{B} - w_{\text{total}} = 470 \N - 63.7 \N = 407 \N $$
+</div>
 
-Since $$ F_{\text{biceps}} >> W_{\text{load}} $$, the joint force must be:
-$$ F_{\text{joint}} = F_{\text{biceps}} - W_{\text{load}} $$
+The upper arm pushes **down** on the forearm at the elbow with $$ 407 \N $$, 6.38 times the weight supported. Because the muscle has a small lever arm, it must pull very hard, and the joint must push back almost as hard to keep the net force zero. The joint force is large because it balances the large muscle force, not just the load.
 
-**Can joint forces exceed muscle forces?** Yes! This happens when the geometry causes muscle forces and external loads to have components in the same direction relative to the joint.
+**Can joint forces exceed muscle forces?** Yes. In the forearm the joint force is slightly less than the muscle force, because the muscle force and the load point in opposite directions. When the muscle force and the load have components in the **same** direction along the bone, those components add in the joint. When a person lifts a box with a bent back (Figure 4), the back muscles pull with $$ F_{B} = 4200 \N $$, but the vertebrae must push with $$ F_{V} = 4660 \N $$, 5.59 times the $$ 833 \N $$ weight supported and more than the muscle force.
 
-In the back-lifting example ([Figure 4](#Figure4)):
-
-- Back muscle force: $$ F_B = 4200 \N $$
-- Vertebral force: $$ F_V = 4660 \N $$ (larger!)
-
-This occurs because both the muscle force and load components add when resolved onto the spine's axis.
-
-**Discussion**
-
-This explains the prevalence of joint problems (arthritis, disc damage). The forces are enormous—often 5-10 times body weight in the spine during improper lifting.
+Joint forces are several times larger than the forces we exert on the outside world because the joint must balance the large muscle force as well as the load ($$ 470 \N - 63.7 \N = 407 \N $$ at the elbow), and they can exceed the muscle forces when the muscle and the load push in the same direction along the bone, as in the spine, where $$ F_{V} = 4660 \N $$ exceeds $$ F_{B} = 4200 \N $$.
 
 :::
 
@@ -442,27 +428,19 @@ Certain types of dinosaurs were bipedal (walked on two legs). What is a good rea
 
 **Strategy**
 
-We apply the principle that for stable balance, the center of gravity must be positioned over the base of support (the feet for a bipedal creature).
+To stand balanced on two legs, the center of gravity (cg) of the whole animal must be above its feet, so that the net torque of gravity about the feet is zero. Ask what a long, heavy neck does to the cg and how a tail can compensate.
 
 **Solution**
 
-Bipedal dinosaurs with long necks needed long tails to **maintain their center of gravity over their feet**.
+Take the hips, above the feet, as the pivot. A long neck and head extended forward put a large weight far in front of the hips, producing a forward torque. Without something behind the hips, the cg would lie in front of the feet and the animal would tip forward. A long, heavy tail extending backward puts weight far behind the hips, producing an opposing torque. For balance,
 
-The physics:
+<div class="equation">
+$$ m_{\text{front}}\,g\,d_{\text{front}} = m_{\text{tail}}\,g\,d_{\text{tail}} $$
+</div>
 
-1. A long neck extending forward moves the creature's center of gravity (cg) forward
-2. Without compensation, the cg would be in front of the feet, causing the dinosaur to tip forward
-3. A long, heavy tail extending backward shifts the cg back toward the feet
-4. The tail acts as a counterbalance, keeping the overall cg positioned above the base of support
+For example, if the neck and head have a mass of $$ 1000 \kg $$ with their cg $$ 4.0 \m $$ in front of the hips, they produce a torque of $$ (1000 \kg)(9.80 \mss)(4.0 \m) = 3.9 \times 10^{4} \N \cdot \m $$. A $$ 800 \kg $$ tail with its cg $$ 5.0 \m $$ behind the hips produces $$ (800 \kg)(9.80 \mss)(5.0 \m) = 3.9 \times 10^{4} \N \cdot \m $$ the other way, balancing it. The tail acts as a counterweight, like the long pole of a tightrope walker. It also helps the animal shift its cg quickly while running and turning.
 
-Mathematically, for torque balance about the hips:
-$$ m_{\text{neck}} \cdot d_{\text{neck}} \approx m_{\text{tail}} \cdot d_{\text{tail}} $$
-
-where $$ d $$ represents the horizontal distance of each mass from the hip pivot.
-
-**Discussion**
-
-This is the same principle humans use when carrying heavy loads—we lean **forward** to counter the backward shift of the cg caused by a backpack, and **backward** to counter a load carried in front. Bipedal dinosaurs like T. rex, with their massive heads, had correspondingly massive, muscular tails. This counterbalancing also allowed dynamic stability during running and turning.
+Long-necked bipedal dinosaurs needed long tails as counterweights: the tail's torque about the hips (for example, $$ 3.9 \times 10^{4} \N \cdot \m $$) balanced the forward torque of the long neck and head, keeping the center of gravity over the feet so the animal did not tip forward.
 
 :::
 
@@ -480,27 +458,19 @@ Swimmers and athletes during competition need to go through certain postures at 
 
 **Strategy**
 
-We analyze the starting posture in terms of equilibrium, center of gravity position, and the ability to generate rapid acceleration.
+Compare the stability of a starting position with what is needed to accelerate quickly. A body tips when its center of gravity (cg) moves beyond its base of support, and to accelerate forward the feet must push backward on the ground (or the blocks) while the body leans forward.
 
 **Solution**
 
-Athletic starting postures are designed to place the body in a state of **unstable equilibrium** that can be converted to maximum acceleration with minimal delay.
+The starting postures are chosen so that the athlete is **barely stable**, ready to move at once:
 
-Key physics principles at work:
+1. **The cg is placed at the front edge of the base of support.** A sprinter in the blocks puts much of the weight on the hands, with the cg just behind them. When the hands lift at the gun, the cg is already in front of the feet, so the body starts falling forward and can be driven forward immediately. A swimmer on the block curls the toes over the front edge, with the cg near the edge, ready to tip into the dive.
+2. **The legs are bent and pushing against something solid.** The blocks or the edge of the starting platform let the legs push backward with large forces. By Newton's third law, the blocks push the athlete forward. For an illustrative $$70\kg$$ sprinter, assume an average forward horizontal reaction of $$600\N$$ for $$0.40\s$$, with negligible horizontal drag. The horizontal impulse is $$(600\N)(0.40\s)=240\N\cdot\s$$, giving horizontal speed $$(240\kg\cdot\ms)/(70\kg)=3.43\ms\approx3.4\ms$$ from rest. The average horizontal force is not the peak force or the resultant of horizontal and vertical contact forces.
+3. **The leaning body directs the force forward.** Because the body leans, the force from the ground can point mostly forward through the cg instead of producing a torque that would rotate the athlete upright too early.
 
-1. **Center of gravity positioning:** The athlete's cg is positioned at the forward edge of the base of support (often over the toes or starting blocks). This creates unstable equilibrium—the slightest forward movement initiates the start.
+Starts matter because in a short race even $$ 0.1 \s $$ is decisive. At $$ 10 \ms $$, a $$ 0.1 \s $$ delay costs $$ (10 \ms)(0.1 \s) = 1 \m $$.
 
-2. **Torque generation:** A crouched position with low cg allows the legs to push against the ground at an optimal angle, generating maximum horizontal force while the body "falls" forward.
-
-3. **Pre-tension in muscles:** The starting posture pre-loads muscles, allowing faster force generation through the stretch-shortening cycle.
-
-4. **Minimizing reaction time:** The unstable position means the athlete doesn't need to shift their cg before accelerating—they can immediately begin forward motion.
-
-For swimmers, the dive angle and entry position also minimize water resistance and maximize the distance covered in the streamlined underwater phase.
-
-**Discussion**
-
-A false start penalty exists because an athlete in this optimized unstable position might anticipate the start signal. The physics of the starting posture provides a significant competitive advantage—fractions of a second gained at the start can determine the outcome of a race.
+Starting postures place the athlete's center of gravity at the edge of the base of support with bent legs braced against blocks or the platform edge, so the athlete is barely in balance and can immediately tip forward and push off with large forces (for example, $$240\N\cdot\s$$ of horizontal impulse, giving about $$3.4\ms$$ to a $$70\kg$$ sprinter), which matters because a $$ 0.1 \s $$ delay can cost about $$ 1 \m $$.
 
 :::
 
@@ -518,29 +488,25 @@ If the maximum force the biceps muscle can exert is 1000 N, can we pick up an ob
 
 **Strategy**
 
-We apply the mechanical advantage analysis of the forearm system, recognizing that the biceps attaches close to the elbow while the load is held at the hand.
+Use the forearm of Figure 1. The biceps attaches $$ 4.00 \text{ cm} $$ from the elbow and the hand is $$ 38.0 \text{ cm} $$ from it. Apply the second condition for equilibrium about the elbow to find the largest load the hand can hold with a biceps force of $$ 1000 \N $$.
 
 **Solution**
 
-**No**, we cannot pick up a 1000 N object if the biceps can only exert 1000 N.
+Take torques about the elbow, ignoring the forearm's own weight for the moment:
 
-From [Figure 1](#Figure1), the forearm's mechanical advantage is approximately:
+<div class="equation">
+$$ F_{B}(0.0400 \m) = w_{\text{load}}(0.380 \m) \quad \Rightarrow \quad w_{\text{load}} = (1000 \N)\frac{0.0400 \m}{0.380 \m} = 105 \N $$
+</div>
 
-$$ \text{MA} = \frac{l_{\text{biceps}}}{l_{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
+So the biceps can hold at most about $$ 105 \N $$ (a mass of about $$ 10.7 \kg $$) in the hand, and even less once the forearm's own weight is included. To hold a $$ 1000 \N $$ object at the hand, the biceps would need
 
-This means:
-$$ F_{\text{output}} = \text{MA} \times F_{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
+<div class="equation">
+$$ F_{B} = (1000 \N)\frac{0.380 \m}{0.0400 \m} = 9500 \N $$
+</div>
 
-A biceps force of 1000 N can only lift about **105 N** (approximately 10.7 kg) at the hand!
+far beyond its $$ 1000 \N $$ maximum.
 
-To lift 1000 N at the hand, we would need:
-$$ F_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
-
-The biceps would need to exert nearly 9500 N—far more than its maximum capacity.
-
-**Discussion**
-
-This illustrates why we can lift heavier objects by holding them close to our body (shorter lever arm for the load) or using two hands (distributing the load between multiple muscle systems). It also explains why athletes who lift very heavy weights use techniques that optimize mechanical advantage.
+No, we cannot pick up a $$ 1000 \N $$ object with the hand if the biceps can exert at most $$ 1000 \N $$, because the biceps' lever arm is only $$ 4.00 \text{ cm} $$ compared with $$ 38.0 \text{ cm} $$ for the hand, so it can hold only about $$ 105 \N $$, and lifting $$ 1000 \N $$ would require about $$ 9500 \N $$.
 
 :::
 
@@ -558,34 +524,31 @@ Suppose the biceps muscle was attached through tendons to the upper arm close to
 
 **Strategy**
 
-We compare the mechanical advantage and kinematic properties of the hypothetical wrist attachment versus the actual elbow attachment.
+Draw both attachment points and use the perpendicular distance to the muscle’s line of action, rather than the insertion distance alone.
 
 **Solution**
 
-**Advantages of wrist attachment:**
+The question changes **both** ends of the connection, so a wrist insertion does not by itself establish a large mechanical advantage. Consider a horizontal forearm with the elbow at the origin, $$+x$$ toward the wrist, and $$+y$$ up the upper arm. Put the upper attachment at $$(0,a)$$ and the forearm attachment at $$(b,0)$$. The straight tendon pulls from the forearm toward the upper attachment, making angle $$\phi$$ with the forearm; its perpendicular lever arm is
 
-1. **Greater mechanical advantage:** If the biceps attached at the wrist (say, 35 cm from elbow), the MA would be:
-   $$ \text{MA} = \frac{35}{38} \approx 0.92 $$
+$$r_\perp=b\sin\phi=\frac{ab}{\sqrt{a^2+b^2}}.$$
 
-   This is nearly 9 times better than the actual MA of ~0.105. The muscle would need to exert much less force to lift the same load.
+![Elbow at the origin, an upper-arm attachment a above it, and a forearm attachment b toward the wrist; the oblique tendon’s perpendicular moment arm is shorter than its insertion distance b.](../resources/concept_09_06_q06.svg)
 
-2. **Reduced joint forces:** Lower muscle forces mean lower forces in the elbow joint, reducing wear and tear.
+For **illustrative, not anatomical**, values $$a=0.0400\m$$, $$b=0.350\m$$, and hand distance $$R=0.380\m$$,
 
-3. **Larger loads for the same muscle force:** The muscle force needed to lift or hold a given load would be much smaller. (Whether this saves metabolic energy is a separate physiological question; mechanical advantage alone does not determine metabolic cost.)
+$$r_\perp=\frac{(0.0400\m)(0.350\m)}{\sqrt{(0.0400\m)^2+(0.350\m)^2}}=0.03974\m,$$
 
-**Disadvantages of wrist attachment:**
+$$\mathrm{MA}=\frac{r_\perp}{R}=0.1046,\qquad
+F_m=\frac{(39.2\N)(0.380\m)}{0.03974\m}\approx375\N$$
 
-1. **Much slower movement and smaller range per contraction:** When the muscle contracts a small distance $$ \Delta l $$, the hand would move only slightly farther. With the actual attachment, a 1 cm muscle contraction produces about 9.5 cm of hand movement, so the same contraction speed produces a much faster hand.
+to balance a $$39.2\N$$ hand load, neglecting forearm weight. The long insertion distance does **not** give a $$0.350\m$$ moment arm or a $$42.6\N$$ muscle force, because the tendon pulls nearly along the forearm. The moment arm cannot exceed the small upper-attachment distance $$a$$ in this geometry.
 
-2. **Reduced range of motion:** The forearm couldn't bend as far because the muscle would reach its minimum length with less angular rotation.
+**Possible advantage:** if a redesigned attachment genuinely increased $$r_\perp$$, less muscle force would be needed for the same load. But placing the proximal attachment close to the elbow can prevent that advantage, so the geometry given does not guarantee greater strength or lower joint forces.
 
-3. **Control resolution is not the drawback:** If the muscle can control its length to some fixed resolution, the wrist attachment would actually make hand movements *finer*, because each small muscle contraction would produce a proportionally small hand movement. The cost is speed and range, not precision.
+**Motion and structural costs:** instantaneous hand travel per unit shortening is approximately $$R/r_\perp$$ for this planar configuration. Here it is $$0.380\m/0.03974\m=9.56$$, not 1.09. A larger true moment arm would trade this speed and motion range for force. A long connection spanning the forearm also needs room and can impose large along-bone compressive loads; its range and leverage vary with elbow angle.
 
-4. **Structural problems:** Long tendons running the length of the forearm would be vulnerable to injury and would interfere with wrist and hand function.
+The hypothetical attachment offers a force advantage only if it increases the perpendicular muscle moment arm; with the upper attachment close to the elbow, the tendon can pull nearly along the forearm, so moving the insertion to the wrist alone does not guarantee stronger lifting, smaller joint forces, or the previously claimed loss of motion range.
 
-**Discussion**
-
-The actual attachment trades force for speed and range of motion: the biceps must exert a large force, but the hand moves quickly and far. Keep these quantities distinct—force, speed, displacement, and control resolution are different properties. Tools can shift the tradeoff in either direction: levers and pulleys can multiply force, and other levers and wheels (such as a bicycle's gears or a baseball bat) can multiply speed.
 
 :::
 
@@ -603,36 +566,25 @@ Explain one of the reasons why pregnant women often suffer from back strain late
 
 **Strategy**
 
-We analyze how pregnancy shifts the center of gravity and requires postural compensation that loads the back muscles.
+Use the posture diagram of Figure 2: to stay balanced, the center of gravity (cg) must stay over the feet. Find how the extra mass in front changes the posture, and the torque the back muscles must then supply about the lower spine.
 
 **Solution**
 
-Pregnant women suffer from back strain because **the growing fetus shifts the center of gravity forward**, requiring the back muscles to exert large forces to maintain balance.
+Late in pregnancy, several kilograms of baby, uterus, and fluid sit in front of the spine, moving the cg forward. To keep the cg over the feet, a pregnant woman leans backward (her lower back curves more). Even so, the mass in front exerts a forward, bending torque about the lower spine that the back muscles must balance. Take the pivot at the lower spine. Say $$ 10 \kg $$ of added mass has its center about $$ 0.20 \m $$ in front of the spine:
 
-The physics:
+<div class="equation">
+$$ \tau = r_{\perp}w = (0.20 \m)(10 \kg)(9.80 \mss) = 19.6 \N \cdot \m $$
+</div>
 
-1. As pregnancy progresses, the uterus and fetus grow, adding mass to the front of the torso
-2. This shifts the body's center of gravity forward
-3. To keep the cg over the feet (necessary for balance), women must lean backward
-4. This creates a clockwise torque about the hips that must be countered by the back muscles
+The back muscles act only about $$ 0.050 \m $$ behind the pivot, so to balance this torque they need an extra force of
 
-From the posture diagram ([Figure 2](#Figure2)(b)):
-$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d_{\text{forward}} $$
+<div class="equation">
+$$ F = \frac{19.6 \N \cdot \m}{0.050 \m} = 392 \N $$
+</div>
 
-This torque must be balanced by:
-$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r_{\text{back}} $$
+about four times the added weight, held for hours each day for months. This tires the back muscles and adds to the compressive force on the lumbar discs. In addition, pregnancy hormones loosen the ligaments, so the muscles carry more of the load.
 
-Since $$ r_{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F_{\text{back}} $$ must be very large.
-
-Additional factors:
-
-- Hormonal changes loosen ligaments, reducing spinal stability
-- The added weight increases the load on all spinal structures
-- The posture change is maintained for months, causing muscle fatigue
-
-**Discussion**
-
-This is an example of the body's postural adjustments described in [Figure 3](#Figure3). Similar to carrying a heavy backpack (which requires leaning forward), pregnancy requires leaning backward. The difference is that the load cannot be set down, leading to chronic strain. Proper exercise, supportive footwear, and good body mechanics can help manage this strain.
+Pregnant women often suffer back strain because the mass in front of the spine shifts the center of gravity forward and makes them lean back, so the back muscles, with their short lever arm, must exert large extra forces (about $$ 392 \N $$ for $$ 10 \kg $$ held $$ 0.20 \m $$ in front of the spine) for long periods to keep the body in equilibrium.
 
 :::
 
@@ -655,6 +607,12 @@ stated in the text.
 
 We use the first condition for equilibrium (net force equals zero) to find the force at the elbow joint. The vertical forces acting on the forearm are the biceps force (upward), the elbow joint force (downward), and the weights of the forearm and book (both downward). Since we know the biceps force from the example, we can solve for the elbow joint force.
 
+**Free-body diagram**
+
+![The forearm pivots at the elbow (the origin). +x points from the elbow toward the hand and +y up, and counterclockwise torques are positive. The biceps pulls up with F_B = 470 N, 4.00 cm from the elbow; the forearm’s weight w_a = 24.5 N acts down at 16.0 cm and the book’s weight w_b = 39.2 N at 38.0 cm; the elbow joint pushes down on the forearm with F_E.](../resources/sketch_09_06_p01.svg){: .sketch}
+
+Take $$ +x $$ from the elbow toward the hand, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the elbow. The biceps force points along $$ +y $$, while $$ F_{\text{E}} $$, $$ w_{\text{a}} $$, and $$ w_{\text{b}} $$ point along $$ -y $$, so $$ \sum F_y = F_{\text{B}} - F_{\text{E}} - w_{\text{a}} - w_{\text{b}} = 0 $$.
+
 **Solution**
 
 From [Figure 1](#Figure1) and Example 1:
@@ -676,7 +634,7 @@ $$ F_{\text{E}} = F_{\text{B}} - w_{\text{a}} - w_{\text{b}} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{E}} = 470 \N - 24.5 \N - 39.2 \N = 406.3 \N \approx 407 \N $$
+$$ F_{\text{E}} = 470.4 \N - 24.5 \N - 39.2 \N = 406.7 \N \approx 407 \N $$ (using the unrounded biceps force, 470.4 N)
 </div>
 
 Alternatively, using the torque method shown in the original solution:
@@ -726,14 +684,20 @@ Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figu
 
 The two muscles pull on the Achilles tendon at equal angles of 20° from the vertical (from the figure). Each muscle exerts a force of 200 N. We need to find the vector sum of these two forces, which requires adding their components.
 
+**Vector diagram**
+
+![Axes with +x to the right and +y up (along the leg). Each muscle pulls on the tendon with 200 N, one at 20° to the left of +y and one at 20° to the right of +y. Their x-components, −68.4 N and +68.4 N, cancel; their y-components add along +y.](../resources/sketch_09_06_p02.svg){: .sketch}
+
+Take $$ +x $$ to the right and $$ +y $$ upward along the leg. The two 200-N forces lie 20° on either side of $$ +y $$, so their $$ x $$-components have opposite signs and cancel, while their $$ y $$-components are both positive.
+
 **Solution**
 
 From [Figure 5](#Figure5), each muscle exerts 200 N at an angle of 20° from vertical.
 
 For the left muscle (force at -20° from vertical):
 
-- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
-- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
+- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200 \N)(0.940) = 188 \N $$
+- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200 \N)(0.342) = -68.4 \N $$ (leftward)
 
 For the right muscle (force at +20° from vertical):
 
@@ -743,17 +707,17 @@ For the right muscle (force at +20° from vertical):
 Adding the components:
 
 <div class="equation">
-$$ F_x = F_{x,L} + F_{x,R} = -68.4 + 68.4 = 0 \N $$
+$$ F_x = F_{x,L} + F_{x,R} = -68.4 \N + 68.4 \N = 0 \N $$
 </div>
 
 <div class="equation">
-$$ F_y = F_{y,L} + F_{y,R} = 188 + 188 = 376 \N $$
+$$ F_y = F_{y,L} + F_{y,R} = 188 \N + 188 \N = 376 \N $$
 </div>
 
 The horizontal components cancel due to symmetry. The total force is:
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 + (376)^2} = 376 \N $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 \N^2 + (376 \N)^2} = 376 \N $$
 </div>
 
 The total force is **376 N** directed vertically **upward** (the muscles pull up on the tendon, as shown in Figure 5).
@@ -783,6 +747,12 @@ The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by 
 
 The kneecap acts as a pulley that changes the direction of the tendon force. The quadriceps exerts a tension force of 1250 N at 55° above horizontal, and this same tension continues through the kneecap at 75° below horizontal. The kneecap must exert a force on the femur to maintain equilibrium. We use vector addition to find the net force the kneecap exerts on the femur.
 
+**Vector diagram**
+
+![Axes with +x to the right and +y up. Both tendon forces on the kneecap have magnitude 1250 N and point to the left (−x side): T_1 toward the quadriceps at 55° above the −x axis, and T_2 toward the lower leg at 75° below the −x axis. Their resultant F points 10° below −x (190° from +x).](../resources/sketch_09_06_p03.svg){: .sketch}
+
+Take $$ +x $$ to the right and $$ +y $$ upward, as in the figure. Both tendon forces on the kneecap point to the left: $$ \vb{T}_1 $$ at 55° above the $$ -x $$ axis and $$ \vb{T}_2 $$ at 75° below it, so both $$ x $$-components are negative and their $$ y $$-components have opposite signs.
+
 **Solution**
 
 From [Figure 6](#Figure6), take $$ +x $$ to the right and $$ +y $$ upward. Both tendon forces on the kneecap point to the **left**, away from the knee's front:
@@ -792,19 +762,19 @@ From [Figure 6](#Figure6), take $$ +x $$ to the right and $$ +y $$ upward. Both 
 For $$ \vb{T}_1 $$:
 
 <div class="equation">
-$$ T_{1x} = -(1250 \N)\cos{55°} = -(1250)(0.574) = -717 \N, \quad T_{1y} = (1250 \N)\sin{55°} = (1250)(0.819) = +1024 \N $$
+$$ T_{1x} = -(1250 \N)\cos{55°} = -(1250 \N)(0.574) = -717 \N, \quad T_{1y} = (1250 \N)\sin{55°} = (1250 \N)(0.819) = +1024 \N $$
 </div>
 
 For $$ \vb{T}_2 $$:
 
 <div class="equation">
-$$ T_{2x} = -(1250 \N)\cos{75°} = -(1250)(0.259) = -324 \N, \quad T_{2y} = -(1250 \N)\sin{75°} = -(1250)(0.966) = -1207 \N $$
+$$ T_{2x} = -(1250 \N)\cos{75°} = -(1250 \N)(0.259) = -324 \N, \quad T_{2y} = -(1250 \N)\sin{75°} = -(1250 \N)(0.966) = -1207 \N $$
 </div>
 
 The resultant tendon force on the kneecap:
 
 <div class="equation">
-$$ F_x = T_{1x} + T_{2x} = -717 + (-324) = -1041 \N, \quad F_y = T_{1y} + T_{2y} = 1024 + (-1207) = -183 \N $$
+$$ F_x = T_{1x} + T_{2x} = -717 \N + (-324 \N) = -1041 \N, \quad F_y = T_{1y} + T_{2y} = 1024 \N + (-1207 \N) = -183 \N $$
 </div>
 
 **Forces on each body.** The kneecap is in equilibrium, so the femur pushes on the kneecap with the force that balances the tendons, $$ (+1041, +183) \N $$. By Newton's third law, the kneecap pushes on the femur with the opposite force, which has the **same direction as the tendon resultant**:
@@ -816,13 +786,13 @@ $$ \vb{F}_{\text{kneecap on femur}} = (-1041 \N, -183 \N) $$
 The magnitude of this force:
 
 <div class="equation">
-$$ F = \sqrt{(-1041)^2 + (-183)^2} = \sqrt{1083681 + 33489} = \sqrt{1117170} = 1057 \N \approx 1.06 \times 10^{3} \N $$
+$$ F = \sqrt{(-1041 \N)^2 + (-183 \N)^2} = \sqrt{1083681 \N^2 + 33489 \N^2} = \sqrt{1117170 \N^2} = 1057 \N \approx 1.06 \times 10^{3} \N $$
 </div>
 
 The direction: both components are negative, so the force lies in the third quadrant:
 
 <div class="equation">
-$$ \theta = 180° + \tan^{-1}\left(\frac{183}{1041}\right) = 180° + 10.0° = 190° \text{ (ccw from positive } x\text{-axis)} $$
+$$ \theta = 180° + \tan^{-1}\left(\frac{183 \N}{1041 \N}\right) = 180° + 10.0° = 190° \text{ (ccw from positive } x\text{-axis)} $$
 </div>
 
 that is, 10° below the negative x-axis, pressing the kneecap back and slightly down into the femur.
@@ -853,6 +823,18 @@ in [Applications of Statics, Including Problem-Solving Strategies](./ch9Applicat
 :::
 
 ::: solution
+
+**Strategy**
+
+Choose the lower leg as the system and take torques about the knee so the unknown joint reaction has zero lever arm.
+
+**Free-body diagram**
+
+![The lower leg is a vertical lever pivoting at the knee (the origin). +x points to the right and +y up, and counterclockwise torques are positive. The muscle force F_M pulls along −x at r′⊥ = 2.0 cm above the pivot (counterclockwise torque); the machine’s tension T = 98 N pulls along −x at r⊥ = 35 cm below the pivot (clockwise torque).](../resources/sketch_09_06_p04.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the knee. Both forces point along $$ -x $$: $$ F_{\text{M}} $$ acts 2.0 cm above the pivot (counterclockwise, positive) and $$ T $$ acts 35 cm below it (clockwise, negative), so $$ F_{\text{M}} r'_{\perp} - T r_{\perp} = 0 $$.
+
+**Solution**
 
 **Following the Problem-Solving Strategy for Static Equilibrium:**
 
@@ -894,6 +876,8 @@ The quadriceps must exert about **1700 N**, about 17.5 times the 98 N load.
 
 This large force ratio reflects the poor mechanical advantage of the quadriceps muscle system. The muscle acts very close to the knee (2.0 cm lever arm), while the load is at the ankle (35 cm lever arm). This is typical of skeletal muscle systems—they trade force for speed and range of motion. This exercise is effective precisely because it requires such large muscle forces, promoting muscle strengthening.
 
+The quadriceps must exert approximately $$1.7\times10^3\N$$ to lift the attached mass at constant speed in the stated lever model.
+
 :::
 
 </div>
@@ -921,17 +905,23 @@ head in place.")
 
 Three forces act on the head: the weight (50 N downward), the muscle force (60 N at 33° below the horizontal, as shown in the figure), and the vertebral force $$ \vb{F}_{\text{V}} $$. All three act through the center of mass, so there is no net torque; we only need the first condition for equilibrium. We break all forces into components and solve for the magnitude and direction of $$ \vb{F}_{\text{V}} $$.
 
+**Vector diagram**
+
+![Axes with +x to the right (toward the face) and +y up. All three forces act through the center of mass: the weight W = 50 N along −y; the muscle force F_M = 60 N at 33° below +x; and the unknown vertebral force F_V, up and to the left at an unknown angle θ above the −x axis.](../resources/sketch_09_06_p05.svg){: .sketch}
+
+Take $$ +x $$ to the right (toward the face) and $$ +y $$ upward. The weight points along $$ -y $$ and the muscle force has components $$ (+F_{\text{M}}\cos{33^\circ}, -F_{\text{M}}\sin{33^\circ}) $$, so $$ \vb{F}_{\text{V}} $$ must have a negative $$ x $$-component and a positive $$ y $$-component.
+
 **Solution**
 
-Take positive $$x$$ to the right (toward the neck in Figure 8) and positive $$y$$ upward.
+Take positive $$x$$ to the right (toward the face in Figure 8) and positive $$y$$ upward.
 
 From [Figure 8](#Figure8):
 - Weight: $$ W = 50 \N $$ (downward)
 - Muscle force: $$ F_{\text{M}} = 60 \N $$ at $$ 33^\circ $$ below the horizontal, pulling to the right and down
 
 Components of the muscle force:
-- $$ F_{\text{M},x} = 60\cos{33^\circ} = 50.3 \N $$
-- $$ F_{\text{M},y} = -60\sin{33^\circ} = -32.7 \N $$
+- $$ F_{\text{M},x} = 60 \N\cos{33^\circ} = 50.3 \N $$
+- $$ F_{\text{M},y} = -60 \N\sin{33^\circ} = -32.7 \N $$
 
 For equilibrium, $$ \sum F_x = 0 $$ and $$ \sum F_y = 0 $$:
 
@@ -946,13 +936,13 @@ $$ F_{\text{V},y} = -F_{\text{M},y} - W_y = 32.7 \N + 50 \N = 82.7 \N $$
 Magnitude:
 
 <div class="equation">
-$$ F_{\text{V}} = \sqrt{(50.3)^2 + (82.7)^2} = 96.8 \N \approx 97 \N $$
+$$ F_{\text{V}} = \sqrt{(50.3 \N)^2 + (82.7 \N)^2} = 96.8 \N \approx 97 \N $$
 </div>
 
 Direction, measured from the horizontal (the vertebral force points up and to the left, as in the figure):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{82.7}{50.3}\right) = 58.7^\circ \approx 59^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{82.7 \N}{50.3 \N}\right) = 58.7^\circ \approx 59^\circ $$
 </div>
 
 **Discussion**
@@ -984,6 +974,12 @@ and the forearm is in a downward position.
 **Strategy**
 
 Keep the same idealization as [Figure 1](#Figure1): the biceps force remains **vertical**. When the forearm rotates to 120° between forearm and upper arm (30° below horizontal), the perpendicular lever arms of the vertical biceps force and of the vertically downward weights all acquire the same $$ \cos{30°} $$ factor about the elbow. Those factors cancel in the torque balance, so the required biceps force is unchanged from the 90° case.
+
+**Free-body diagram**
+
+![The forearm pivots at the elbow (the origin) and points 30° below the horizontal. +x points to the right and +y up, and counterclockwise torques are positive. As in Figure 1, the biceps force F_B is vertical (up, 4.00 cm along the forearm) and the weights w_a (at 16.0 cm) and w_b (at 38.0 cm) are vertical (down). The perpendicular lever arm of each vertical force is its distance along the forearm times cos 30°.](../resources/sketch_09_06_p06.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the elbow. Every force is vertical, so each perpendicular lever arm is the horizontal distance from the elbow, that is, the distance along the forearm times $$ \cos{30^\circ} $$.
 
 **Solution**
 
@@ -1042,6 +1038,12 @@ Even when the head is held erect, as in [Figure 9](#Figure9), its center of mass
 
 The head is in equilibrium under three forces: its weight (50 N), the muscle force at the back of the neck, and the force from the atlanto-occipital joint (pivot). We use the second condition for equilibrium (net torque = 0) with the pivot as the reference point to find the muscle force in part (a), then use the first condition for equilibrium (net force = 0) to find the joint force in part (b).
 
+**Free-body diagram**
+
+![Torques are taken about the atlanto-occipital joint (the origin), with the face to the right. +x points toward the face and +y up, and counterclockwise torques are positive. The weight W = 50 N acts down 2.5 cm in front of the pivot (clockwise torque); the neck muscles pull down with F_m 5.0 cm behind it (counterclockwise torque); the joint pushes up with F_J at the pivot.](../resources/sketch_09_06_p07.svg){: .sketch}
+
+Take $$ +x $$ toward the face, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the joint. The weight (down, 2.5 cm in front) gives a clockwise (negative) torque and the muscle force (down, 5.0 cm behind) a counterclockwise (positive) one; vertically, $$ F_J - W - F_m = 0 $$.
+
 **Solution for (a)**
 
 From [Figure 9](#Figure9):
@@ -1049,7 +1051,7 @@ From [Figure 9](#Figure9):
 - Muscle force: $$ F_m $$ at $$ r_m = 5.0 \text{ cm} = 0.050 \m $$ behind pivot
 - Joint force: $$ F_J $$ at the pivot (zero lever arm)
 
-Taking torques about the pivot (clockwise positive):
+Taking torques about the pivot, with counterclockwise positive as in the sketch, the weight's torque is clockwise (negative). Its magnitude is
 
 <div class="equation">
 $$ \tau_{\text{weight}} = W \times r_w = (50 \N)(0.025 \m) = 1.25 \text{ N·m} \text{ (clockwise)} $$
@@ -1061,7 +1063,7 @@ The muscle must provide a counterclockwise torque. Since the muscle force is sho
 $$ \tau_{\text{muscle}} = F_m \times r_m = F_m (0.050 \m) \text{ (counterclockwise)} $$
 </div>
 
-For equilibrium:
+For equilibrium, the net torque is zero, $$ +F_m r_m - W r_w = 0 $$, so the two magnitudes are equal:
 
 <div class="equation">
 $$ \tau_{\text{muscle}} = \tau_{\text{weight}} $$
@@ -1123,6 +1125,12 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 **Strategy**
 
 The man stands on one foot, so the normal force from the ground equals his full weight. We use the lever system shown in the figure, with the ball of the foot (where the toes touch the ground) providing the normal force, the ankle joint as the pivot, and the Achilles tendon pulling upward at the back. For part (a), we use torque equilibrium to find the Achilles tendon force. For part (b), we use force equilibrium to find the ankle joint force.
+
+**Free-body diagram**
+
+![Torques are taken about the ankle pivot (the origin), with the toes to the right. +x points toward the toes and +y up, and counterclockwise torques are positive. The Achilles tendon pulls up with F_A, 4.0 cm behind the pivot (clockwise torque); the floor pushes up on the ball of the foot with N = 735 N, 12 cm in front of it (counterclockwise torque); the pivot force F_P on the foot points down.](../resources/sketch_09_06_p08.svg){: .sketch}
+
+Take $$ +x $$ toward the toes, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the ankle. The floor's push $$ N $$ (up, 12 cm in front) gives a positive torque and the Achilles force $$ F_A $$ (up, 4.0 cm behind) a negative one; vertically, $$ F_A + N - F_P = 0 $$.
 
 **Solution for (a)**
 
@@ -1187,6 +1195,12 @@ A father lifts his child as shown in [Figure 11](#Figure11). What force should t
 **Strategy**
 
 We apply the conditions for equilibrium (constant speed means equilibrium). The knee is the pivot point. We must account for the torques from the child's weight, the leg's weight, and the quadriceps muscle force.
+
+**Free-body diagram**
+
+![The lower leg pivots at the knee (the origin). +x points from the knee toward the foot and +y up, and counterclockwise torques are positive. The quadriceps force F_Q acts 2.0 cm from the knee (perpendicular lever arm) and gives a counterclockwise torque; the leg’s weight w_leg = 39.2 N acts down at 20.0 cm and the child’s weight w_child = 98 N at 38.0 cm (clockwise torques).](../resources/sketch_09_06_p09.svg){: .sketch}
+
+Take $$ +x $$ from the knee toward the foot, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the knee. The quadriceps force gives a positive torque with its 2.0-cm perpendicular lever arm; the two weights, acting down at 20.0 cm and 38.0 cm, give negative torques.
 
 **Solution**
 
@@ -1254,6 +1268,12 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 
 The masseter muscle attaches relatively far from the jaw joint compared with most muscles. We use torque equilibrium about the jaw joint to find the force on the bullet in part (a), and force equilibrium to find the joint force in part (b).
 
+**Free-body diagram**
+
+![The jaw pivots at the jaw joint (the origin), with the teeth to the right. +x points toward the teeth and +y up, and counterclockwise torques are positive. The masseter pulls up with F_M = 200 N, 2.9 cm from the joint (counterclockwise torque); the bullet pushes down on the teeth with F_T, 5.0 cm from the joint (clockwise torque); the joint pushes down with F_J.](../resources/sketch_09_06_p10.svg){: .sketch}
+
+Take $$ +x $$ from the jaw joint toward the teeth, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the joint. The masseter's upward pull at 2.9 cm gives a positive torque and the bullet's downward push on the teeth at 5.0 cm a negative one; vertically, $$ F_M - F_T - F_J = 0 $$.
+
 **Solution for (a)**
 
 From [Figure 12](#Figure12):
@@ -1287,7 +1307,7 @@ $$ F_J = F_M - F_T = 200 \N - 116 \N = 84 \N $$
 
 **Discussion**
 
-The mechanical advantage of this system is $$ r_M/r_c = 2.9/5.0 = 0.58 $$, so the 200 N muscle force produces a 116 N bite force. That is much better than most skeletal muscle systems, whose mechanical advantage is often below 0.1. The masseter is one of the strongest muscles in the body relative to its size. The joint force of 84 N is less than the muscle force, which is unusual—in most body lever systems, the joint force exceeds the muscle force. This more favorable geometry reduces stress on the jaw joint (TMJ), though TMJ disorders are still common from chronic clenching. The example of biting a bullet during surgery (before anesthesia) demonstrates that even with pain, humans can generate substantial bite forces through the masseter muscles.
+The mechanical advantage of this system is $$ r_M/r_c = \frac{2.9 \text{cm}}{5.0 \text{cm}} = 0.58 $$, so the 200 N muscle force produces a 116 N bite force. That is much better than most skeletal muscle systems, whose mechanical advantage is often below 0.1. The masseter is one of the strongest muscles in the body relative to its size. The joint force of 84 N is less than the muscle force, which is unusual—in most body lever systems, the joint force exceeds the muscle force. This more favorable geometry reduces stress on the jaw joint (TMJ), though TMJ disorders are still common from chronic clenching. The example of biting a bullet during surgery (before anesthesia) demonstrates that even with pain, humans can generate substantial bite forces through the masseter muscles.
 
 **Answer**
 
@@ -1417,6 +1437,12 @@ In part (a), the rope must stretch only 6.53 cm to replace the 4.0-kg book, demo
 
 For part (a), we treat the woman's body as a rigid lever with the toes as the pivot point. Using torque equilibrium, we find the force on her hands. For part (b), we analyze one arm as a lever system with the elbow as pivot to find the triceps force. For part (c), we calculate work done against gravity. For part (d), we find power from work and time.
 
+**Free-body diagram**
+
+![The body is a rigid lever pivoting at the toes (the origin). +x points from the feet toward the head and +y up, and counterclockwise torques are positive. Her weight W = 490 N acts down 0.90 m from the toes (clockwise torque); the floor pushes up on the two hands with a total of 2F_hand, 1.50 m from the toes (counterclockwise torque).](../resources/sketch_09_06_p12.svg){: .sketch}
+
+For part (a), take $$ +x $$ from the toes toward the head, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the toes. The floor's upward push on both hands, $$ 2F_{\text{hand}} $$ at 1.50 m, gives a positive torque and the weight at 0.90 m a negative one.
+
 **Solution for (a)**
 
 From [Figure 13](#Figure13):
@@ -1466,7 +1492,7 @@ The triceps force is **1680 N**, which is **3.4 times her weight**.
 Work done equals the change in gravitational potential energy:
 
 <div class="equation">
-$$ W_{\text{done}} = mgh = \frac{490 \N}{9.80 \mss} \times 9.80 \mss \times 0.240 \m = (490 \N)(0.240 \m) = 118 \text{ J} $$
+$$ W_{\text{done}} = mgh = \frac{490 \N}{9.80 \mss} \times 9.80 \mss \times 0.240 \m = (490 \N)(0.240 \m) = 117.6 \text{ J} \approx 118 \text{ J} $$
 </div>
 
 **Solution for (d)**
@@ -1474,16 +1500,16 @@ $$ W_{\text{done}} = mgh = \frac{490 \N}{9.80 \mss} \times 9.80 \mss \times 0.24
 For 25 pushups in 60 seconds:
 
 <div class="equation">
-$$ \text{Total work} = 25 \times 118 \text{ J} = 2950 \text{ J} $$
+$$ \text{Total work} = 25 \times 117.6 \text{ J} = 2940 \text{ J} $$
 </div>
 
 <div class="equation">
-$$ P = \frac{\text{Work}}{\text{time}} = \frac{2950 \text{ J}}{60 \s} = 49.2 \W \approx 49.0 \W $$
+$$ P = \frac{\text{Work}}{\text{time}} = \frac{2940 \text{ J}}{60 \s} = 49.0 \text{W} $$
 </div>
 
 **Discussion**
 
-The pushup is an excellent exercise that demonstrates several biomechanical principles. Part (a) shows that each hand supports only 30% of body weight due to the lever advantage—the center of gravity is closer to the feet than to the hands. However, part (b) reveals the cost: the triceps must exert 3.4 times body weight (over 1600 N!) because of the poor mechanical advantage at the elbow. This extreme muscle force explains why pushups are so effective for building upper body strength. The work calculation in part (c) accounts only for raising the center of mass, not the total metabolic energy expended, which would be several times higher due to muscle inefficiency. The power output of 49 W is modest but sustained over many repetitions makes pushups an effective exercise.
+The pushup is an excellent exercise that demonstrates several biomechanical principles. Part (a) shows that the two hands together support 60% of body weight (30% each), because the center of gravity is closer to the hands (0.60 m) than to the feet (0.90 m); the feet support the remaining 40%. However, part (b) reveals the cost: the triceps must exert 3.4 times body weight (over 1600 N!) because of the poor mechanical advantage at the elbow. This extreme muscle force explains why pushups are so effective for building upper body strength. The work calculation in part (c) accounts only for raising the center of mass, not the total metabolic energy expended, which would be several times higher due to muscle inefficiency. The power output of 49 W is modest but sustained over many repetitions makes pushups an effective exercise.
 
 **Answer**
 
@@ -1515,6 +1541,12 @@ You have just planted a sturdy 2-m-tall palm tree in your front lawn for your mo
 **Strategy**
 
 For part (a), we use the impulse-momentum theorem to find the force from the ball. For part (b), we apply torque equilibrium about the pivot point (base of tree) to find the force the roots must provide. Part (c) requires practical application of statics principles.
+
+**Free-body diagram**
+
+![The tree pivots about its base at ground level (the origin). +x points in the direction the ball was moving and +y up, and counterclockwise torques are positive. The ball pushes the top of the tree along +x with F_ball = 250 N, 2.0 m above the base (clockwise torque); the soil pushes the root tip along +x with F_root, 0.20 m below the base (counterclockwise torque).](../resources/sketch_09_06_p13.svg){: .sketch}
+
+Take $$ +x $$ in the direction the ball was moving, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the base of the trunk. The ball's push along $$ +x $$ at the top, 2.0 m up, gives a clockwise (negative) torque. The soil's push on the root tip, 0.20 m below the base, must also point along $$ +x $$ to give the balancing counterclockwise (positive) torque.
 
 **Solution for (a)**
 
@@ -1604,6 +1636,12 @@ center of mass over the pivot. The first child has a mass of 30.0 kg and sits
 **Strategy**
 
 We use torque equilibrium about the pivot to find where the second child must sit. Since the seesaw is uniform with its center of mass at the pivot, the seesaw's weight creates no torque. We then examine whether the calculated position is physically possible given the length of the seesaw.
+
+**Free-body diagram**
+
+![The 3.00-m seesaw pivots at its center (the origin), so each side is 1.50 m long. +x points to the right and +y up, and counterclockwise torques are positive. The 30.0-kg child sits 1.40 m to the left of the pivot (counterclockwise torque); the 18.0-kg child would have to sit r_2 to the right (clockwise torque), beyond the 1.50-m end of the board.](../resources/sketch_09_06_p14.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the center of the seesaw and the 30.0-kg child on the left. Then $$ m_1 g r_1 - m_2 g r_2 = 0 $$, and the sketch shows the answer $$ r_2 $$ landing past the 1.50-m end of the board.
 
 **Solution for (a)**
 
@@ -1700,7 +1738,7 @@ A subject lies on her back with her relaxed arm extended horizontally to the sid
 
 **Solution**
 
-*Check the shoulder force.* The totals are $$ 26.7 + 7.6 = 34.3 \N $$ and $$ 24.5 + 9.8 = 34.3 \N $$. Moving the scale changes how the load is shared but not the total, consistent with $$ S = 0 $$. (Had the totals differed, the shoulder would be carrying part of the weight, and only $$ mgx $$ could be found from the scales.)
+*Check the shoulder force.* The totals are $$ 26.7 \N + 7.6 \N = 34.3 \N $$ and $$ 24.5 \N + 9.8 \N = 34.3 \N $$. Moving the scale changes how the load is shared but not the total, consistent with $$ S = 0 $$. (Had the totals differed, the shoulder would be carrying part of the weight, and only $$ mgx $$ could be found from the scales.)
 
 *Mass:*
 
@@ -1714,7 +1752,7 @@ $$ m = \frac{R_1 + R_2}{g} = \frac{34.3 \N}{9.80 \mss} = 3.50 \kg $$
 $$ x = \frac{R_1 d_1 + R_2 d_2}{R_1 + R_2} = \frac{(26.7 \N)(0.200 \m) + (7.6 \N)(0.650 \m)}{34.3 \N} = 0.300 \m $$
 </div>
 
-The second configuration gives $$ x = [(24.5)(0.200) + (9.8)(0.550)]/34.3 = 0.300 \m $$ as well.
+The second configuration gives $$ x = \frac{(24.5 \N)(0.200 \m) + (9.8 \N)(0.550 \m)}{34.3 \N} = 0.300 \m $$ as well.
 
 **Discussion**
 

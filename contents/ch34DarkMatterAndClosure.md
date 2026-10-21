@@ -283,11 +283,11 @@ $$ V = \frac{M_{\text{Sun}}}{\rho_{c}} = \frac{2.0 \times 10^{30} \text{ kg}}{10
 
 (b) For a sphere, $$ V = \frac{4}{3}\pi r^3 $$, so:
 <div class="equation">
-$$ r^3 = \frac{3V}{4\pi} = \frac{3 \times 2.0 \times 10^{56}}{4\pi} = \frac{6.0 \times 10^{56}}{12.566} = 4.77 \times 10^{55} \text{ m}^3 $$
+$$ r^3 = \frac{3V}{4\pi} = \frac{3 \times 2.0 \times 10^{56} \text{ m}^3}{4\pi} = \frac{6.0 \times 10^{56} \text{ m}^3}{12.566} = 4.77 \times 10^{55} \text{ m}^3 $$
 </div>
 
 <div class="equation">
-$$ r = (4.77 \times 10^{55})^{1/3} = 3.63 \times 10^{18} \text{ m} $$
+$$ r = (4.77 \times 10^{55} \text{ m}^3)^{1/3} = 3.63 \times 10^{18} \text{ m} $$
 </div>
 
 Converting to light years (using $$ 1 \text{ ly} = 9.46 \times 10^{15} \text{ m} $$):
@@ -305,11 +305,11 @@ $$ V = \frac{2.0 \times 10^{30} \text{ kg}}{5 \times 10^{-28} \text{ kg/m}^3} = 
 </div>
 
 <div class="equation">
-$$ r^3 = \frac{3 \times 4.0 \times 10^{57}}{4\pi} = 9.55 \times 10^{56} \text{ m}^3 $$
+$$ r^3 = \frac{3 \times 4.0 \times 10^{57} \text{ m}^3}{4\pi} = 9.55 \times 10^{56} \text{ m}^3 $$
 </div>
 
 <div class="equation">
-$$ r = (9.55 \times 10^{56})^{1/3} = 9.85 \times 10^{18} \text{ m} $$
+$$ r = (9.55 \times 10^{56} \text{ m}^3)^{1/3} = 9.85 \times 10^{18} \text{ m} $$
 </div>
 
 Converting to light years:

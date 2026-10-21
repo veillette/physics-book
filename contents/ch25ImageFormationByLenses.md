@@ -642,7 +642,7 @@ This must be inverted to find  $${d}_{\text{i}} $$
 Or
 
 <div class="equation" >
- $${d}_{\text{i}}=\frac{\left( 7.5\right)\left(-10\right)}{\left( 7.5-\left(-10\right)\right)}=-75/ 17.5=-4.29 \text{cm}\text{.} $$
+ $${d}_{\text{i}}=\frac{\left( 7.5 \text{ cm}\right)\left(-10 \text{ cm}\right)}{ 7.5 \text{ cm}-\left(-10 \text{ cm}\right)}=\left(-75 \text{ cm}^2\right)/\left( 17.5 \text{ cm}\right)=-4.29 \text{cm}\text{.} $$
 </div>
 
 Now the magnification equation can be used to find the magnification  $$m $$ ,
@@ -824,6 +824,32 @@ It can be argued that a flat piece of glass, such as in a window, is like a lens
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the thin-lens equation, $$ \frac{1}{d_{\text{o}}} + \frac{1}{d_{\text{i}}} = \frac{1}{f} $$, and let $$ f \to \infty $$, so that $$ 1/f \to 0 $$. Then find the magnification $$ m = -d_{\text{i}}/d_{\text{o}} $$. Use an object $$ 2.00 \m $$ from the window.
+
+**Solution**
+
+With $$ 1/f = 0 $$,
+
+<div class="equation">
+$$ \frac{1}{d_{\text{o}}} + \frac{1}{d_{\text{i}}} = 0 \quad \Rightarrow \quad d_{\text{i}} = -d_{\text{o}} = -2.00 \m $$
+</div>
+
+and
+
+<div class="equation">
+$$ m = -\frac{d_{\text{i}}}{d_{\text{o}}} = -\frac{-2.00 \m}{2.00 \m} = +1.00 $$
+</div>
+
+The negative image distance means the image is virtual and on the same side of the glass as the object, $$ 2.00 \m $$ from the glass: exactly where the object is. The image is upright and the same size. This is why we see objects through a window just as they are. (A real pane of thickness $$ t $$ shifts the image very slightly, by about $$ t(1 - 1/n) $$, or $$ 1.4 \text{ mm} $$ for $$ 4\text{-mm} $$ glass with $$ n = 1.52 $$, which is unnoticeable.)
+
+A flat piece of glass forms a virtual, upright, same-size image at the location of the object itself, since with $$ 1/f = 0 $$ the thin-lens equation gives $$ d_{\text{i}} = -d_{\text{o}} $$ (for example, $$ d_{\text{i}} = -2.00 \m $$ for an object $$ 2.00 \m $$ away) and $$ m = +1 $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -831,6 +857,28 @@ It can be argued that a flat piece of glass, such as in a window, is like a lens
 ::: problem
 
 You can often see a reflection when looking at a sheet of glass, particularly if it is darker on the other side. Explain why you can often see a double image in such circumstances.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A sheet of glass has two surfaces, front and back, and each reflects part of the light. The fraction reflected at each surface, at normal incidence, is $$ R = [(n - 1)/(n + 1)]^2 $$. Each surface acts as a flat mirror and forms its own image. Use $$ n = 1.52 $$ and a sheet $$ 5.00 \text{ mm} $$ thick.
+
+**Solution**
+
+![Light from an object reflects from both the front and back surfaces of a sheet of glass. The two reflected rays leave parallel to each other but slightly offset, so the eye sees two images, one from each surface, the second slightly behind and displaced from the first.](../resources/concept_25_06_q02.svg)
+
+Each surface reflects
+
+<div class="equation">
+$$ R = \left( \frac{1.52 - 1.00}{1.52 + 1.00} \right)^2 = \left( \frac{0.52}{2.52} \right)^2 = 0.0426 $$
+</div>
+
+or about 4% of the light. The front surface forms a virtual image behind it, as a flat mirror does. Light that enters the glass reflects from the back surface and refracts out through the front, forming a second image a little farther behind the glass and, viewed at an angle, slightly displaced sideways (by roughly the glass thickness, a few millimeters). Both images are faint, about 4% as bright as the object, so they are visible only when little light comes through the glass from the other side, for example at night, looking out from a lighted room. Thick panes and double-glazed windows, with four surfaces, show the effect clearly.
+
+You can see a double image because the front and back surfaces of the glass each reflect about 4% of the light and each acts as a flat mirror, forming two faint images slightly offset from each other; they are visible only when the other side is dark, because otherwise the much brighter light transmitted through the glass swamps them.
 
 :::
 
@@ -844,6 +892,28 @@ When you focus a camera, you adjust the distance of the lens from the film. If t
 
 :::
 
+::: solution
+
+**Strategy**
+
+For a thin lens of fixed focal length, the image distance depends on the object distance: $$ \frac{1}{d_{\text{i}}} = \frac{1}{f} - \frac{1}{d_{\text{o}}} $$. The film (or sensor) must be at $$ d_{\text{i}} $$ for a sharp image. Compare a distant object with a near one for a lens with $$ f = 50.0 \text{ mm} $$.
+
+**Solution**
+
+For a very distant object, $$ d_{\text{o}} \to \infty $$, so $$ d_{\text{i}} = f = 50.0 \text{ mm} $$.
+
+For an object at $$ d_{\text{o}} = 1.00 \m = 1000 \text{ mm} $$:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{50.0 \text{ mm}} - \frac{1}{1000 \text{ mm}} = 0.0190 \text{ mm}^{-1} \quad \Rightarrow \quad d_{\text{i}} = 52.6 \text{ mm} $$
+</div>
+
+For an object at $$ 0.300 \m $$, $$ d_{\text{i}} = 60.0 \text{ mm} $$. The lens must be $$ 2.6 \text{ mm} $$ farther from the film to focus on an object $$ 1.00 \m $$ away than on a distant one, and $$ 10.0 \text{ mm} $$ farther for $$ 0.300 \m $$. At a single fixed distance, only objects at one particular distance would be sharp; the others would be blurred.
+
+The camera lens cannot be a fixed distance from the film for both near and distant objects because the image distance depends on the object distance through $$ 1/d_{\text{i}} = 1/f - 1/d_{\text{o}} $$; for a $$ 50.0\text{-mm} $$ lens, a distant object focuses $$ 50.0 \text{ mm} $$ behind the lens but an object $$ 1.00 \m $$ away focuses at $$ 52.6 \text{ mm} $$, so the lens must be moved to keep each in focus.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -854,6 +924,32 @@ A thin lens has two focal points, one on either side, at equal distances from it
 
 :::
 
+::: solution
+
+**Strategy**
+
+For a thin lens, the lensmaker's equation is $$ \frac{1}{f} = (n - 1)\left( \frac{1}{R_1} - \frac{1}{R_2} \right) $$. Reversing the lens swaps the surfaces and changes the signs of both radii ($$ R_1 \to -R_2 $$, $$ R_2 \to -R_1 $$), which leaves $$ 1/f $$ unchanged. Compare this prediction with what you see through eyeglasses, and compare their thickness with their focal length. Take a $$ -2.00\text{-D} $$ lens, $$ 3.0 \text{ mm} $$ thick.
+
+**Solution**
+
+Reversing the lens:
+
+<div class="equation">
+$$ \frac{1}{f'} = (n - 1)\left( \frac{1}{-R_2} - \frac{1}{-R_1} \right) = (n - 1)\left( \frac{1}{R_1} - \frac{1}{R_2} \right) = \frac{1}{f} $$
+</div>
+
+Looking through eyeglasses either way, objects look about equally magnified (or reduced) and the lenses seem equally strong, consistent with this. The focal length of a $$ -2.00\text{-D} $$ lens is
+
+<div class="equation">
+$$ f = \frac{1}{P} = \frac{1}{-2.00 \text{ D}} = -0.500 \m $$
+</div>
+
+and its thickness, $$ 3.0 \text{ mm} $$, is less than 1% of that, so the thin-lens approximation is very good. Close inspection does show small differences: eyeglass lenses are meniscus-shaped (curved like a contact lens, with one surface concave and one convex) and are designed for light passing from the object to the eye, so looked through backward, the edges of the field show more distortion and color fringing. Strong lenses, which are thicker, show bigger differences.
+
+Eyeglasses behave almost the same looked through either way, so they act very nearly like thin lenses, which is reasonable because their thickness (a few millimeters) is tiny compared with their focal length (for example, $$ 0.500 \m $$ for a $$ -2.00\text{-D} $$ lens); small differences in distortion near the edges show that their curved, meniscus shape makes them not perfectly ideal thin lenses.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -861,6 +957,30 @@ A thin lens has two focal points, one on either side, at equal distances from it
 ::: problem
 
 Will the focal length of a lens change when it is submerged in water? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A lens refracts light because its index differs from that of its surroundings. In a medium of index $$ n_{\text{m}} $$, the lensmaker's equation becomes $$ \frac{1}{f} = \left( \frac{n}{n_{\text{m}}} - 1 \right)\left( \frac{1}{R_1} - \frac{1}{R_2} \right) $$. Compare a glass lens ($$ n = 1.52 $$) in air and in water ($$ n_{\text{m}} = 1.333 $$) when its focal length in air is $$ 10.0 \text{ cm} $$.
+
+**Solution**
+
+The curvature factor is the same in both media, so
+
+<div class="equation">
+$$ \frac{f_{\text{water}}}{f_{\text{air}}} = \frac{n - 1}{n/n_{\text{m}} - 1} = \frac{1.52 - 1}{1.52/1.333 - 1} = \frac{0.520}{0.140} = 3.71 $$
+</div>
+
+<div class="equation">
+$$ f_{\text{water}} = (3.71)(10.0 \text{ cm}) = 37.1 \text{ cm} $$
+</div>
+
+The light bends less at each surface because the change in index is smaller. This is also why your vision is blurry underwater: the cornea, with $$ n = 1.376 $$, nearly matches water and loses most of its focusing power.
+
+Yes, the focal length changes, becoming longer, because the lens bends light only as much as its index differs from its surroundings, and water's index is much closer to glass's than air's is; a glass lens with $$ f = 10.0 \text{ cm} $$ in air has $$ f = 37.1 \text{ cm} $$ in water.
 
 :::
 
@@ -1038,11 +1158,11 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{3.50 \text{ cm}} - \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = 0.2857 - 0.0133 = 0.2724 \text{ cm}^{-1}$$
+$$\frac{1}{d_i} = 0.2857 \text{ cm}^{-1} - 0.0133 \text{ cm}^{-1} = 0.2724 \text{ cm}^{-1}$$
 </div>
 
 <div class="equation">
-$$d_i = \frac{1}{0.2724} = 3.67 \text{ cm} = 36.7 \text{ mm}$$
+$$d_i = \frac{1}{0.2724 \text{ cm}^{-1}} = 3.67 \text{ cm} = 36.7 \text{ mm}$$
 </div>
 
 **Step 7:** This is reasonable—the film must be slightly farther from the lens than the focal length when photographing an object at finite distance. The image distance (36.7 mm) is only slightly more than the focal length (35.0 mm), which makes sense for an object relatively far away.
@@ -1133,7 +1253,7 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{50.0 \text{ mm}} - \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = 0.0200 - 0.000333 = 0.01967 \text{ mm}^{-1}$$
+$$\frac{1}{d_i} = 0.0200 \text{ mm}^{-1} - 0.000333 \text{ mm}^{-1} = 0.01967 \text{ mm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1207,7 +1327,7 @@ $$\frac{1}{d_o} = \frac{1}{f} - \frac{1}{d_i} = \frac{1}{50.0 \text{ mm}} - \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{d_o} = 0.0200 - 0.0196 = 0.000392 \text{ mm}^{-1}$$
+$$\frac{1}{d_o} = 0.0200 \text{ mm}^{-1} - 0.0196 \text{ mm}^{-1} = 0.000392 \text{ mm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1279,7 +1399,7 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{-25.0 \text{ cm}} - \fr
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = -0.0400 - 0.0400 = -0.0800 \text{ cm}^{-1}$$
+$$\frac{1}{d_i} = -0.0400 \text{ cm}^{-1} - 0.0400 \text{ cm}^{-1} = -0.0800 \text{ cm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1344,7 +1464,7 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{200 \text{ mm}} - \frac
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = 0.00500 - 0.0000001 = 0.0049999 \text{ mm}^{-1}$$
+$$\frac{1}{d_i} = 0.00500 \text{ mm}^{-1} - 0.0000001 \text{ mm}^{-1} = 0.0049999 \text{ mm}^{-1}$$
 </div>
 
 <div class="equation">

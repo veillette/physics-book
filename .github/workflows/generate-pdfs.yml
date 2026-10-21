@@ -65,12 +65,7 @@ jobs:
         uses: ./.github/actions/generate-chapter-pdfs
         with:
           max-concurrency: "4"
-
-      - name: Generate complete book PDF (not yet implemented)
-        run: npm run generate:pdf -- --book
-        continue-on-error: true
-        # Note: This step currently fails but is kept for future implementation
-        # The --book option exists but needs integration with parallel processing
+          complete-book: "true"
 
       - name: Calculate generation time
         id: gen_time

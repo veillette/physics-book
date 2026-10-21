@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" role="img" aria-labelledby="title desc">
+<title id="title">A circuit that cannot be reduced to series and parallel combinations</title>
+<desc id="desc">Three branches between two junctions on the left and right. The top branch has emf1 with internal resistance r1, joined to the left junction through R2. The middle branch is the single resistor R1. The bottom branch has emf2 with internal resistance r2, joined to the right junction through R3.</desc>
+<rect width="480" height="560" fill="#ffffff"/>
+<polyline points="110,80 380,80 380,500 110,500 110,80" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="110,300 380,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="110" cy="300" r="4.5" fill="#7b1145"/>
+<circle cx="380" cy="300" r="4.5" fill="#7b1145"/>
+<line x1="175" y1="80" x2="195" y2="80" stroke="#ffffff" stroke-width="7"/>
+<line x1="160" y1="80" x2="178.5" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="191.5" y1="80" x2="210" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="178.5" y1="64" x2="178.5" y2="96" stroke="#c62828" stroke-width="5"/>
+<line x1="191.5" y1="48" x2="191.5" y2="112" stroke="#c62828" stroke-width="3"/>
+<text x="185" y="131.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="272" y1="80" x2="328" y2="80" stroke="#ffffff" stroke-width="7"/>
+<line x1="255" y1="80" x2="272" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="328" y1="80" x2="345" y2="80" stroke="#222222" stroke-width="2"/>
+<polyline points="272,80 276.67,91 286,69 295.33,91 304.67,69 314,91 323.33,69 328,80" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="300" y="119.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="110" y1="162" x2="110" y2="218" stroke="#ffffff" stroke-width="7"/>
+<line x1="110" y1="140" x2="110" y2="162" stroke="#222222" stroke-width="2"/>
+<line x1="110" y1="218" x2="110" y2="240" stroke="#222222" stroke-width="2"/>
+<polyline points="110,162 99,166.67 121,176 99,185.33 121,194.67 99,204 121,213.33 110,218" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="90" y="197.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="217" y1="300" x2="273" y2="300" stroke="#ffffff" stroke-width="7"/>
+<line x1="200" y1="300" x2="217" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="273" y1="300" x2="290" y2="300" stroke="#222222" stroke-width="2"/>
+<polyline points="217,300 221.67,311 231,289 240.33,311 249.67,289 259,311 268.33,289 273,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="245" y="339.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="380" y1="377" x2="380" y2="433" stroke="#ffffff" stroke-width="7"/>
+<line x1="380" y1="360" x2="380" y2="377" stroke="#222222" stroke-width="2"/>
+<line x1="380" y1="433" x2="380" y2="450" stroke="#222222" stroke-width="2"/>
+<polyline points="380,377 369,381.67 391,391 369,400.33 391,409.67 369,419 391,428.33 380,433" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="400" y="412.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="175" y1="500" x2="195" y2="500" stroke="#ffffff" stroke-width="7"/>
+<line x1="160" y1="500" x2="178.5" y2="500" stroke="#222222" stroke-width="2"/>
+<line x1="191.5" y1="500" x2="210" y2="500" stroke="#222222" stroke-width="2"/>
+<line x1="178.5" y1="484" x2="178.5" y2="516" stroke="#c62828" stroke-width="5"/>
+<line x1="191.5" y1="468" x2="191.5" y2="532" stroke="#c62828" stroke-width="3"/>
+<text x="185" y="551.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="272" y1="500" x2="328" y2="500" stroke="#ffffff" stroke-width="7"/>
+<line x1="255" y1="500" x2="272" y2="500" stroke="#222222" stroke-width="2"/>
+<line x1="328" y1="500" x2="345" y2="500" stroke="#222222" stroke-width="2"/>
+<polyline points="272,500 276.67,511 286,489 295.33,511 304.67,489 314,511 323.33,489 328,500" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="300" y="539.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</svg>

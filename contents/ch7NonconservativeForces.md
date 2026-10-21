@@ -29,7 +29,7 @@ Furthermore, even if the thermal energy is retained or captured, it cannot be
 fully converted back to work, so it is lost or not recoverable in that sense as
 well.
 
-![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](../resources/Figure_07_05_01.jpg 'The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ')
+![(a) A drawing of a happy face is erased diagonally from a point A to a point B. (b) A drawing of a happy face is erased in the shape of the letter u, but starting from the same point A and ending at the same point B.](/resources/Figure_07_05_01.svg 'The amount of the happy face erased depends on the path taken by the eraser between points A and B, as does the work done against friction. Less work is done and less of the face is erased for the path in (a) than for the path in (b). The force here is friction, and most of the work goes into thermal energy that subsequently leaves the system (the happy face plus the eraser). The energy expended cannot be fully recovered. ')
 {: #Figure1}
 
 ### How Nonconservative Forces Affect Mechanical Energy
@@ -185,7 +185,7 @@ a $$ 5.00^\circ $$ incline upward with a surface similar to that in the baseball
 player slides with the same initial speed, and the frictional force is still 450
 N. Determine how far he slides.
 
-![A baseball player slides on an inclined slope represented by a right triangle. The angle of the slope is represented by the angle between the base and the hypotenuse, which is equal to five degrees, and the height h of the perpendicular side of the triangle is equal to d sin 5 degrees. The length of the hypotenuse is d.](../resources/Figure_07_05_05.jpg 'The same baseball player slides to a stop on a 5.00 degrees slope.')
+![A baseball player slides on an inclined slope represented by a right triangle. The angle of the slope is represented by the angle between the base and the hypotenuse, which is equal to five degrees, and the height h of the perpendicular side of the triangle is equal to d sin 5 degrees. The length of the hypotenuse is d.](/resources/Figure_07_05_05.svg 'The same baseball player slides to a stop on a 5.00 degrees slope.')
 {: #Figure5 height="150"}
 
 **Strategy**
@@ -344,6 +344,12 @@ assuming a straight-line path as shown in the figure.)
 
 Use the work-energy theorem including friction. The initial kinetic energy is converted to gravitational potential energy plus thermal energy (work done against friction). First find the distance traveled along the incline using trigonometry, then apply energy conservation.
 
+**Sketch and coordinate system**
+
+![A slope rises at 35° to a height of 2.50 m. A vertical +y axis (up) has y = 0 at the bottom and 2.50 m at the top. A tilted +x axis points up the slope, the direction of motion. The skier starts at the bottom with v_i = 12.0 m/s and travels d = 4.36 m along the slope; kinetic friction f points down the slope (−x). The final speed v_f at the top is unknown.](../resources/sketch_07_05_p01.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the bottom of the rise, so the skier gains $$ mgh $$ with $$ h = +2.50\m $$. Along the slope take $$ +x $$ up the incline, the direction of motion: the displacement is $$ d = +4.36\m $$ and kinetic friction points along $$ -x $$, so $$ W_f = -f_k d $$ is negative.
+
 **Solution**
 
 **Given:**
@@ -355,7 +361,7 @@ Use the work-energy theorem including friction. The initial kinetic energy is co
 
 **Step 1: Find the distance traveled along the incline**
 <div class="equation">
-$$ d = \frac{h}{\sin\theta} = \frac{2.50\text{ m}}{\sin(35°)} = \frac{2.50}{0.574} = 4.36\text{ m} $$
+$$ d = \frac{h}{\sin\theta} = \frac{2.50\text{ m}}{\sin(35°)} = \frac{2.50 \m}{0.574} = 4.36\text{ m} $$
 </div>
 
 **Step 2: Calculate the friction force**
@@ -364,7 +370,7 @@ The normal force on an incline: $$ N = mg\cos\theta $$
 
 Friction force:
 <div class="equation">
-$$ f_k = \mu_{k} N = \mu_{k} mg\cos\theta = (0.0800)(60.0)(9.80)\cos(35°) = (0.0800)(60.0)(9.80)(0.819) = 38.5\text{ N} $$
+$$ f_k = \mu_{k} N = \mu_{k} mg\cos\theta = (0.0800)(60.0 \kg)(9.80 \mss)\cos(35°) = (0.0800)(60.0 \kg)(9.80 \mss)(0.819) = 38.5\text{ N} $$
 </div>
 
 **Step 3: Calculate work done by friction**
@@ -383,16 +389,16 @@ $$ \frac{1}{2}mv_{f}^2 = \frac{1}{2}mv_{i}^2 + W_f - mgh $$
 </div>
 
 Calculate each term:
-- Initial KE: $$ \frac{1}{2}(60.0)(12.0)^2 = 4320\text{ J} $$
+- Initial KE: $$ \frac{1}{2}(60.0 \kg)(12.0 \ms)^2 = 4320\text{ J} $$
 - Work by friction: $$ -168\text{ J} $$
-- Potential energy gained: $$ (60.0)(9.80)(2.50) = 1470\text{ J} $$
+- Potential energy gained: $$ (60.0 \kg)(9.80 \mss)(2.50 \m) = 1470\text{ J} $$
 
 <div class="equation">
-$$ \frac{1}{2}mv_{f}^2 = 4320 - 168 - 1470 = 2682\text{ J} $$
+$$ \frac{1}{2}mv_{f}^2 = 4320 \J - 168 \J - 1470 \J = 2682\text{ J} $$
 </div>
 
 <div class="equation">
-$$ v_f = \sqrt{\frac{2(2682)}{60.0}} = \sqrt{89.4} = 9.46\ms $$
+$$ v_f = \sqrt{\frac{2(2682 \J)}{60.0 \kg}} = \sqrt{89.4 \mmss} = 9.46\ms $$
 </div>
 
 **Discussion**
@@ -432,17 +438,23 @@ For part (b), the difference between the initial kinetic energy and final potent
 
 For part (c), we use the work-energy theorem including friction over the distance traveled along the slope.
 
+**Sketch and coordinate system**
+
+![A hill rises at 2.5° (drawn steeper for clarity). A vertical +y axis (up) has y = 0 at the starting point. A tilted +x axis points up the hill, the direction of motion. The car starts with v_i = 110 km/h = 30.6 m/s and coasts until it stops (v = 0) at height h: 47.6 m without friction (a), 22.0 m in reality (b), after d = 504 m along the slope. Friction f points down the slope (−x).](../resources/sketch_07_05_p02.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the starting point, so the car rises to $$ h = +22.0\m $$ (or $$ 47.6\m $$ without friction). Along the slope take $$ +x $$ up the hill, the direction of motion. Friction points along $$ -x $$, opposite to the displacement $$ d $$, so it removes mechanical energy as thermal energy.
+
 **Solution for (a)**
 
-First, convert speed: $$ v = 110\text{ km/h} = 110 \times \frac{1000}{3600}\ms = 30.6\ms $$
+First, convert speed: $$ v = 110\text{ km/h} = 110 \times \frac{1000}{3600}\ms = 30.56\ms $$ (we keep a guard digit, since $$v$$ is squared below)
 
 Using energy conservation:
 
 <div class="equation">
 $$ \begin{array}{lll}
 \frac{1}{2}mv^{2} &=& mgh\\
-h &=& \frac{v^{2}}{2g} = \frac{(30.6\ms)^{2}}{2(9.80\mss)}\\
-h &=& \frac{936.36}{19.6}\m = 47.8\m
+h &=& \frac{v^{2}}{2g} = \frac{(30.56\ms)^{2}}{2(9.80\mss)}\\
+h &=& \frac{933.6\mmss}{19.6\mss} = 47.6\m
 \end{array} $$
 
 </div>
@@ -452,7 +464,7 @@ h &=& \frac{936.36}{19.6}\m = 47.8\m
 The initial kinetic energy is:
 
 <div class="equation">
- $$ \KE_{i} = \frac{1}{2}(750\kg)(30.6\ms)^{2} = 3.51 \times 10^{5}\J $$
+ $$ \KE_{i} = \frac{1}{2}(750\kg)(30.56\ms)^{2} = 3.50 \times 10^{5}\J $$
 </div>
 
 The final potential energy is:
@@ -464,7 +476,7 @@ The final potential energy is:
 The thermal energy generated by friction is:
 
 <div class="equation">
- $$ E_{\text{thermal}} = \KE_{i} - \PE_{f} = 3.51 \times 10^{5}\J - 1.62 \times 10^{5}\J = 1.89 \times 10^{5}\J \approx 1.9 \times 10^{5}\J $$
+ $$ E_{\text{thermal}} = \KE_{i} - \PE_{f} = 3.501 \times 10^{5}\J - 1.617 \times 10^{5}\J = 1.88 \times 10^{5}\J \approx 1.9 \times 10^{5}\J $$
 </div>
 
 **Solution for (c)**
@@ -472,7 +484,7 @@ The thermal energy generated by friction is:
 The distance along the slope is:
 
 <div class="equation">
- $$ d = \frac{h}{\sin{\theta}} = \frac{22.0\m}{\sin{2.5^\circ}} = \frac{22.0}{0.0436}\m = 504\m $$
+ $$ d = \frac{h}{\sin{\theta}} = \frac{22.0\m}{\sin{2.5^\circ}} = \frac{22.0\m}{0.0436} = 504\m $$
 </div>
 
 The work done by friction equals the thermal energy:
@@ -480,28 +492,28 @@ The work done by friction equals the thermal energy:
 <div class="equation">
 $$ \begin{array}{lll}
 W_{f} &=& fd\\
-f &=& \frac{E_{\text{thermal}}}{d} = \frac{1.89 \times 10^{5}\J}{504\m}\\
-f &=& 375\N \approx 3.8 \times 10^{2}\N
+f &=& \frac{E_{\text{thermal}}}{d} = \frac{1.884 \times 10^{5}\J}{504\m}\\
+f &=& 374\N \approx 3.7 \times 10^{2}\N
 \end{array} $$
 </div>
 
 **Discussion**
 
-Part (a) reveals that without friction, the car could coast up to 47.8 m—roughly the height of a 15-story building. This is a surprisingly large height, demonstrating the significant amount of energy contained in a moving car. At 110 km/h (about 68 mph), typical highway speed, the car possesses $$ 3.51 \times 10^5 $$ J of kinetic energy.
+Part (a) reveals that without friction, the car could coast up to 47.6 m—roughly the height of a 15-story building. This is a surprisingly large height, demonstrating the significant amount of energy contained in a moving car. At 110 km/h (about 68 mph), typical highway speed, the car possesses $$ 3.51 \times 10^5 $$ J of kinetic energy.
 
 In part (b), we see that friction dissipates $$ 1.9 \times 10^5 $$ J, which is 54% of the car's initial kinetic energy. This means friction removes more than half the car's energy, reducing the maximum coasting height from 47.8 m to only 22.0 m—less than half the frictionless height. This substantial energy loss illustrates why cars cannot coast very far uphill with the engine off, and why fuel efficiency is so important in hilly terrain.
 
-Part (c) shows the friction force is about 380 N (approximately 85 pounds). This might seem modest for a 750-kg car, but it acts over a long distance of 504 m. The shallow $$ 2.5\text{ °} $$ slope means the car travels a horizontal distance of nearly 500 m while climbing 22 m vertically. The work done by friction, $$ W_f = fd = (380\text{ N})(504\text{ m}) = 1.9 \times 10^5\text{ J} $$, accumulates to a substantial amount over this distance.
+Part (c) shows the friction force is about 370 N (approximately 84 pounds). This might seem modest for a 750-kg car, but it acts over a long distance of 504 m. The shallow $$ 2.5\text{ °} $$ slope means the car travels a horizontal distance of nearly 500 m while climbing 22 m vertically. The work done by friction, $$ W_f = fd = (380\text{ N})(504\text{ m}) = 1.9 \times 10^5\text{ J} $$, accumulates to a substantial amount over this distance.
 
 Comparing parts (a) and (b) demonstrates that friction is a major factor in real-world motion. Engineers must account for these losses when designing vehicles, which is why modern cars use low-friction tires, aerodynamic shapes, and efficient drivetrains to minimize energy waste.
 
 **Answer**
 
-(a) Without friction, the car could coast to a height of **47.8 m**.
+(a) Without friction, the car could coast to a height of **47.6 m**.
 
 (b) The thermal energy generated by friction is **$$ 1.9 \times 10^{5} $$ J**.
 
-(c) The average force of friction is **$$ 3.8 \times 10^{2} $$ N** (or 380 N).
+(c) The average force of friction is **$$ 3.7 \times 10^{2} $$ N** (or 370 N).
 
 ::::
 

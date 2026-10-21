@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the lineman</title>
+<desc id="desc">Free-body diagram of the lineman alone, with +x forward (toward the opponent) and +y up: the opponent pushes him backward with force P, the ground pushes his feet forward with static friction f, which is longer than P; the normal force N points up and the weight w points down. The net force and acceleration point forward.</desc>
+<rect width="480" height="320" fill="#ffffff"/>
+<line x1="30" y1="150" x2="346" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="355,150 345,154.2 345,145.8" fill="#555555"/>
+<line x1="190" y1="265" x2="190" y2="44" stroke="#555555" stroke-width="1.5"/><polygon points="190,35 194.2,45 185.8,45" fill="#555555"/>
+<line x1="190" y1="150" x2="190" y2="81" stroke="#b03a2e" stroke-width="3.5"/><polygon points="190,70 195.04,82 184.96,82" fill="#b03a2e"/>
+<line x1="190" y1="150" x2="190" y2="219" stroke="#b03a2e" stroke-width="3.5"/><polygon points="190,230 184.96,218 195.04,218" fill="#b03a2e"/>
+<line x1="190" y1="150" x2="309" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="320,150 308,155.04 308,144.96" fill="#b03a2e"/>
+<line x1="190" y1="150" x2="106" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="95,150 107,144.96 107,155.04" fill="#b03a2e"/>
+<line x1="230" y1="65" x2="264" y2="65" stroke="#1e8449" stroke-width="3"/><polygon points="275,65 263,70.04 263,59.96" fill="#1e8449"/>
+<circle cx="190" cy="150" r="6" fill="#1f3a5f"/>
+<text x="180" y="172" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">lineman</text>
+<text x="361" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="start" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">forward</tspan><tspan font-style="normal">)</tspan></text>
+<text x="190" y="25" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="202" y="89" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="202" y="225" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="306" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="109" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<text x="261" y="53" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="10" y="290" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#444444" text-anchor="start">P: push of the opponent on the lineman</text>
+<text x="10" y="308" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#444444" text-anchor="start">f: static friction of the ground on his feet</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+<title id="title">R2 and R3 in parallel, in series with R1</title>
+<desc id="desc">A 12.0 V source on the left drives current I through R1 = 1.00 ohm on the top wire. The current then splits into I2 through R2 = 6.00 ohms and I3 through R3 = 13.0 ohms, which are in parallel on the right. The voltage V1 across R1 and the voltage Vp = V − V1 across the parallel pair are unknown.</desc>
+<rect width="720" height="340" fill="#ffffff"/>
+<polyline points="110,90 470,90 470,300 110,300 110,90" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="310,90 310,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="310" cy="90" r="4.5" fill="#7b1145"/>
+<circle cx="310" cy="300" r="4.5" fill="#7b1145"/>
+<line x1="110" y1="205" x2="110" y2="185" stroke="#ffffff" stroke-width="7"/>
+<line x1="110" y1="220" x2="110" y2="201.5" stroke="#222222" stroke-width="2"/>
+<line x1="110" y1="188.5" x2="110" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="94" y1="201.5" x2="126" y2="201.5" stroke="#c62828" stroke-width="5"/>
+<line x1="78" y1="188.5" x2="142" y2="188.5" stroke="#c62828" stroke-width="3"/>
+<text x="88" y="166.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="84" y="201.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12.0 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="187" y1="90" x2="243" y2="90" stroke="#ffffff" stroke-width="7"/>
+<line x1="170" y1="90" x2="187" y2="90" stroke="#222222" stroke-width="2"/>
+<line x1="243" y1="90" x2="260" y2="90" stroke="#222222" stroke-width="2"/>
+<polyline points="187,90 191.67,101 201,79 210.33,101 219.67,79 229,101 238.33,79 243,90" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="215" y="127.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="215" y="70.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.00 </tspan><tspan font-style="normal">Ω</tspan></text>
+<text x="215" y="42.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="310" y1="167" x2="310" y2="223" stroke="#ffffff" stroke-width="7"/>
+<line x1="310" y1="150" x2="310" y2="167" stroke="#222222" stroke-width="2"/>
+<line x1="310" y1="223" x2="310" y2="240" stroke="#222222" stroke-width="2"/>
+<polyline points="310,167 299,171.67 321,181 299,190.33 321,199.67 299,209 321,218.33 310,223" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="292" y="187.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="292" y="212.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6.00 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="470" y1="167" x2="470" y2="223" stroke="#ffffff" stroke-width="7"/>
+<line x1="470" y1="150" x2="470" y2="167" stroke="#222222" stroke-width="2"/>
+<line x1="470" y1="223" x2="470" y2="240" stroke="#222222" stroke-width="2"/>
+<polyline points="470,167 459,171.67 481,181 459,190.33 481,199.67 459,209 481,218.33 470,223" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="488" y="187.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="488" y="212.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">13.0 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="132" y1="280" x2="132" y2="247" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="132,236 136.8,248 127.2,248" fill="#1f77c8"/>
+<text x="142" y="268.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="330" y1="160" x2="330" y2="203" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="330,214 325.2,202 334.8,202" fill="#1f77c8"/>
+<text x="340" y="192.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="450" y1="160" x2="450" y2="203" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="450,214 445.2,202 454.8,202" fill="#1f77c8"/>
+<text x="440" y="192.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">3</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<path d="M 552 90 Q 564 90 564 102 L 564 183 Q 564 195 576 195 Q 564 195 564 207 L 564 288 Q 564 300 552 300" fill="none" stroke="#333333" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="582" y="201.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">p</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">V</tspan><tspan font-style="normal"> − </tspan><tspan font-style="italic">V</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+</svg>

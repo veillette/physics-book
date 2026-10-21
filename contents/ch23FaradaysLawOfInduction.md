@@ -241,6 +241,26 @@ A person who works with large magnets sometimes places her head inside a strong 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Turning the head in a strong field changes the orientation of conducting loops in the head relative to the field, changing the flux through them. By Faraday's law, $$ \text{emf} = \Delta\Phi/\Delta t $$, so a quick turn induces emfs and currents in the conducting fluids of the head. Estimate for $$ B = 2.00 \text{ T} $$, an effective loop area of $$ 2.0 \times 10^{-2} \ \text{m}^2 $$, and a $$ 90^\circ $$ turn in $$ 0.300 \s $$.
+
+**Solution**
+
+The flux changes from $$ BA $$ to nearly zero, so
+
+<div class="equation">
+$$ \text{emf} \approx \frac{BA}{\Delta t} = \frac{(2.00 \text{ T})(2.0 \times 10^{-2} \ \text{m}^2)}{0.300 \s} = 0.13 \text{ V} $$
+</div>
+
+This drives small currents through the conducting fluids of the head, in particular the fluid of the inner ear's balance organs (the semicircular canals). The currents stimulate or disturb the vestibular nerves, which normally signal head rotation, so the brain receives a confusing signal and the person feels dizzy. Turning slowly makes $$ \Delta t $$ larger and the emf smaller, which is why the effect appears only with quick motions.
+
+The dizziness is associated with induction because quickly turning the head in a strong field rapidly changes the magnetic flux through it, inducing emfs (about $$ 0.1 \text{ V} $$ in this estimate) and currents in the conducting fluids of the head, which disturb the balance organs of the inner ear.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -248,6 +268,28 @@ A person who works with large magnets sometimes places her head inside a strong 
 ::: problem
 
 A particle accelerator sends high-velocity charged particles down an evacuated pipe. Explain how a coil of wire wrapped around the pipe could detect the passage of individual particles. Sketch a graph of the voltage output of the coil as a single particle passes through it.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A moving charged particle is a tiny current, and its magnetic field forms circles around its path. To catch this field, wind the coil as a ring around the pipe, a toroid, so that the circular field lines pass through each of its turns. As the particle approaches, passes, and recedes, the flux through the turns rises and then falls, and Faraday's law, $$ \text{emf} = -N\,\Delta\Phi/\Delta t $$, gives a voltage pulse.
+
+**Solution**
+
+![Top: the magnetic flux through the coil versus time, a symmetric peak centered on the instant the particle passes through the coil. Bottom: the induced voltage versus time, a positive pulse while the flux is rising and an equal negative pulse while it is falling, crossing zero at the instant the particle passes.](../resources/concept_23_02_q02.svg)
+
+The field at the coil is strongest when the particle is in the plane of the coil. Before that, the flux is increasing, and the emf has one sign; after it, the flux is decreasing, and the emf has the opposite sign. At the instant the particle passes the coil, the flux is at its maximum and momentarily not changing, so the emf is zero. The output is therefore a pair of pulses of opposite sign, with a zero crossing at the moment of passage. A positive and a negative particle give opposite pulse patterns, and a faster particle gives a shorter, taller pulse. For a coil of radius $$ r = 5.0 \text{ cm} $$ and a particle moving at $$ v = 2.0 \times 10^{8} \ms $$, the pulse lasts about
+
+<div class="equation">
+$$ \Delta t \approx \frac{2r}{v} = \frac{2(0.050 \m)}{2.0 \times 10^{8} \ms} = 5.0 \times 10^{-10} \s $$
+</div>
+
+The signal from one particle is very small, so such detectors are most often used for bunches of many particles.
+
+A coil wound around the pipe detects a particle because the particle's circular magnetic field passes through the coil's turns, and as the particle approaches and then recedes, the changing flux induces an emf; the voltage output is a positive pulse followed by an equal negative pulse (or the reverse), passing through zero at the instant the particle goes through the coil, and lasting about $$ 2r/v $$ (about $$ 0.5 \text{ ns} $$ here).
 
 :::
 
@@ -528,7 +570,7 @@ $$\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = B(0) - B(0.250) = -
 The magnitude of induced emf is:
 
 <div class="equation">
-$$|\text{emf}| = N\left|\frac{\Delta\Phi}{\Delta t}\right| = 50\left|\frac{-0.375 \text{ Wb}}{0.100 \text{ s}}\right| = 50(3.75) = 188 \text{ V}$$
+$$|\text{emf}| = N\left|\frac{\Delta\Phi}{\Delta t}\right| = 50\left|\frac{-0.375 \text{ Wb}}{0.100 \text{ s}}\right| = 50(3.75 \text{ Wb/s}) = 188 \text{ V}$$
 </div>
 
 For direction: The flux into the page is decreasing. By Lenz's law, the induced current must create a field into the page to oppose this decrease. By RHR-2, a clockwise current (viewed from above) creates a field into the page.
@@ -570,19 +612,19 @@ $$r = \frac{d}{2} = \frac{0.0220 \text{ m}}{2} = 0.0110 \text{ m}$$
 The ring's area is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.0110)^2 = 3.80 \times 10^{-4} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.0110 \text{ m})^2 = 3.80 \times 10^{-4} \text{ m}^2$$
 </div>
 
 The change in magnetic flux is:
 
 <div class="equation">
-$$\Delta\Phi = B_{\text{final}}A - B_{\text{initial}}A = (2.00)(3.80 \times 10^{-4}) - 0 = 7.60 \times 10^{-4} \text{ Wb}$$
+$$\Delta\Phi = B_{\text{final}}A - B_{\text{initial}}A = (2.00 \text{ T})(3.80 \times 10^{-4} \text{ m}^2) - 0 = 7.60 \times 10^{-4} \text{ Wb}$$
 </div>
 
 The magnitude of induced emf is:
 
 <div class="equation">
-$$|\text{emf}| = \frac{\Delta\Phi}{\Delta t} = \frac{7.60 \times 10^{-4}}{0.250} = 3.04 \times 10^{-3} \text{ V} = 3.04 \text{ mV}$$
+$$|\text{emf}| = \frac{\Delta\Phi}{\Delta t} = \frac{7.60 \times 10^{-4} \text{ Wb}}{0.250 \text{ s}} = 3.04 \times 10^{-3} \text{ V} = 3.04 \text{ mV}$$
 </div>
 
 **Solution for (b)**
@@ -592,19 +634,19 @@ To estimate heating, we need to know the ring's resistance. For a gold wedding r
 The induced current during the 0.250 s interval is:
 
 <div class="equation">
-$$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3}}{1.00 \times 10^{-3}} = 3.04 \text{ A}$$
+$$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3} \text{ V}}{1.00 \times 10^{-3} \text{ Ω}} = 3.04 \text{ A}$$
 </div>
 
 The energy dissipated as heat is:
 
 <div class="equation">
-$$Q = I^2 R t = (3.04)^2(1.00 \times 10^{-3})(0.250) = 2.31 \times 10^{-3} \text{ J} = 2.31 \text{ mJ}$$
+$$Q = I^2 R t = (3.04 \text{ A})^2(1.00 \times 10^{-3} \text{ Ω})(0.250 \text{ s}) = 2.31 \times 10^{-3} \text{ J} = 2.31 \text{ mJ}$$
 </div>
 
 This is a very small amount of energy. To put it in perspective, the specific heat of gold is about 129 J/(kg·°C). For a typical 5-gram ring:
 
 <div class="equation">
-$$\Delta T = \frac{Q}{mc} = \frac{2.31 \times 10^{-3}}{(0.005)(129)} \approx 0.0036 \text{ °C}$$
+$$\Delta T = \frac{Q}{mc} = \frac{2.31 \times 10^{-3} \text{ J}}{(0.005 \text{ kg})(129 \text{ J/(kg·°C)})} \approx 0.0036 \text{ °C}$$
 </div>
 
 This temperature rise is negligible and would not be noticeable.
@@ -654,17 +696,17 @@ $$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3} \text{ V}}{0.0100 \Omega}
 **Solution for (b)**
 
 <div class="equation">
-$$P = I^2 R = (0.304)^2(0.0100) = 9.24 \times 10^{-4} \text{ W} = 0.924 \text{ mW}$$
+$$P = I^2 R = (0.304 \text{ A})^2(0.0100 \text{ Ω}) = 9.24 \times 10^{-4} \text{ W} = 0.924 \text{ mW}$$
 </div>
 
-Alternatively: $$P = \frac{\text{emf}^2}{R} = \frac{(3.04 \times 10^{-3})^2}{0.0100} = 9.24 \times 10^{-4} \text{ W}$$
+Alternatively: $$P = \frac{\text{emf}^2}{R} = \frac{(3.04 \times 10^{-3} \text{ V})^2}{0.0100 \text{ Ω}} = 9.24 \times 10^{-4} \text{ W}$$
 
 **Solution for (c)**
 
-The radius is $$r = d/2 = 0.0220/2 = 0.0110 \text{ m}$$:
+The radius is $$r = d/2 = (0.0220 \text{ m})/2 = 0.0110 \text{ m}$$:
 
 <div class="equation">
-$$B = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7})(0.304)}{2(0.0110)} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
+$$B = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(0.304 \text{ A})}{2(0.0110 \text{ m})} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
 </div>
 
 **Solution for (d)**
@@ -709,13 +751,13 @@ $$r = \frac{d}{2} = \frac{0.200 \text{ m}}{2} = 0.100 \text{ m}$$
 The coil area is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.100)^2 = 0.0314 \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.100 \text{ m})^2 = 0.0314 \text{ m}^2$$
 </div>
 
 The initial flux (perpendicular orientation):
 
 <div class="equation">
-$$\Phi_{i} = BA = (5.00 \times 10^{-5})(0.0314) = 1.57 \times 10^{-6} \text{ Wb}$$
+$$\Phi_{i} = BA = (5.00 \times 10^{-5} \text{ T})(0.0314 \text{ m}^2) = 1.57 \times 10^{-6} \text{ Wb}$$
 </div>
 
 The final flux (parallel orientation):
@@ -727,17 +769,17 @@ $$\Phi_{f} = 0$$
 The change in flux:
 
 <div class="equation">
-$$\Delta\Phi = \Phi_{f} - \Phi_{i} = 0 - 1.57 \times 10^{-6} = -1.57 \times 10^{-6} \text{ Wb}$$
+$$\Delta\Phi = \Phi_{f} - \Phi_{i} = 0 \text{ Wb} - 1.57 \times 10^{-6} \text{ Wb} = -1.57 \times 10^{-6} \text{ Wb}$$
 </div>
 
 The magnitude of average induced emf:
 
 <div class="equation">
-$$|\text{emf}| = N\frac{|\Delta\Phi|}{\Delta t} = 1000 \times \frac{1.57 \times 10^{-6}}{10.0 \times 10^{-3}}$$
+$$|\text{emf}| = N\frac{|\Delta\Phi|}{\Delta t} = 1000 \times \frac{1.57 \times 10^{-6} \text{ Wb}}{10.0 \times 10^{-3} \text{ s}}$$
 </div>
 
 <div class="equation">
-$$|\text{emf}| = 1000 \times 1.57 \times 10^{-4} = 0.157 \text{ V}$$
+$$|\text{emf}| = 1000 \times 1.57 \times 10^{-4} \text{ Wb/s} = 0.157 \text{ V}$$
 </div>
 
 **Discussion**
@@ -771,7 +813,7 @@ When rotated one-fourth revolution from perpendicular to parallel, $$\Delta(BA\c
 The area of the coil is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.250)^2 = 0.196 \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.250 \text{ m})^2 = 0.196 \text{ m}^2$$
 </div>
 
 From Faraday's law:
@@ -787,7 +829,7 @@ $$B = \frac{\text{emf} \cdot \Delta t}{NA}$$
 </div>
 
 <div class="equation">
-$$B = \frac{(10000 \text{ V})(4.17 \times 10^{-3} \text{ s})}{(500)(0.196 \text{ m}^2)} = \frac{41.7}{98.0} = 0.425 \text{ T}$$
+$$B = \frac{(10000 \text{ V})(4.17 \times 10^{-3} \text{ s})}{(500)(0.196 \text{ m}^2)} = \frac{41.7 \text{ V·s}}{98.0 \text{ m}^2} = 0.425 \text{ T}$$
 </div>
 
 **Discussion**
@@ -887,13 +929,13 @@ consequences.
 
 **(a)** The loop is in a vertical plane containing the lightning channel, as in Figure 4(b). Since its 1.00-m diameter is small compared with its 50.0-m distance from the channel, approximate the field as uniform across it:
 
-$$B=\frac{\mu_0I}{2\pi r}=\frac{(2.00\times10^{-7})(2.00\times10^6)}{50.0}=8.00\times10^{-3}\ \text{T}.$$
+$$B=\frac{\mu_0I}{2\pi r}=\frac{(2.00\times10^{-7}\ \text{T}\cdot\text{m/A})(2.00\times10^6\ \text{A})}{50.0\ \text{m}}=8.00\times10^{-3}\ \text{T}.$$
 
-$$A=\pi(0.500)^2=0.7854\ \text{m}^2,\qquad |\Delta\Phi|=BA=6.28\times10^{-3}\ \text{Wb}.$$
+$$A=\pi(0.500\ \text{m})^2=0.7854\ \text{m}^2,\qquad |\Delta\Phi|=BA=6.28\times10^{-3}\ \text{Wb}.$$
 
 The magnitude of the average induced emf while the current falls to zero is
 
-$$|\overline{\mathcal E}|=\frac{|\Delta\Phi|}{\Delta t}=\frac{6.28\times10^{-3}}{25.0\times10^{-6}}=251\ \text{V}.$$
+$$|\overline{\mathcal E}|=\frac{|\Delta\Phi|}{\Delta t}=\frac{6.28\times10^{-3}\ \text{Wb}}{25.0\times10^{-6}\ \text{s}}=251\ \text{V}.$$
 
 **(b)** A 251-V transient can disturb or damage electronics connected to a conducting loop. The resulting current and deposited energy depend on the loop's resistance, inductance, and connected devices, as well as the pulse duration. The voltage alone does not establish whether a fuse trips or an air gap breaks down.
 

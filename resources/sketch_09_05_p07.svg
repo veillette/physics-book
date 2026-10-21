@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="340" viewBox="0 0 620 340" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams for the four-segment pulley pulled upward</title>
+<desc id="desc">Two free-body diagrams with +y up. Lower block (engine and its pulleys): four rope segments pull up, each with tension T, and the weight W = 1196 N (engine plus pulleys) pulls down. Whole system (engine, pulleys, and rope): the ceiling pushes up with F_ceiling, your upward pull T acts along +y, and W pulls down.</desc>
+<rect width="620" height="340" fill="#ffffff"/>
+<line x1="40" y1="300" x2="40" y2="259" stroke="#555555" stroke-width="1.5"/>
+<polygon points="40,250 44,260 36,260" fill="#555555"/>
+<text x="40" y="239.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="54" y="238.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<text x="70" y="30.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">engine</tspan><tspan font-style="normal"> + </tspan><tspan font-style="normal">pulleys</tspan></text>
+<line x1="146" y1="170" x2="146" y2="91.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="146,80 151.04,92.6 140.96,92.6" fill="#b03a2e"/>
+<line x1="162" y1="170" x2="162" y2="91.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="162,80 167.04,92.6 156.96,92.6" fill="#b03a2e"/>
+<line x1="178" y1="170" x2="178" y2="91.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="178,80 183.04,92.6 172.96,92.6" fill="#b03a2e"/>
+<line x1="194" y1="170" x2="194" y2="91.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="194,80 199.04,92.6 188.96,92.6" fill="#b03a2e"/>
+<text x="210" y="95.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan><tspan font-style="italic">T</tspan></text>
+<line x1="170" y1="170" x2="170" y2="268.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="170,280 164.96,267.4 175.04,267.4" fill="#b03a2e"/>
+<text x="180" y="279.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> = 1196 </tspan><tspan font-style="normal">N</tspan></text>
+<circle cx="170" cy="170" r="6" fill="#1f3a5f"/>
+<line x1="330" y1="20" x2="330" y2="320" stroke="#cccccc" stroke-width="1"/>
+<text x="350" y="30.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">whole</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">system</tspan></text>
+<line x1="462" y1="170" x2="462" y2="81.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="462,70 467.04,82.6 456.96,82.6" fill="#b03a2e"/>
+<text x="454" y="79.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">ceiling</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="478" y1="170" x2="478" y2="151.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="478,140 483.04,152.6 472.96,152.6" fill="#b03a2e"/>
+<text x="486" y="145.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="486" y="162.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">your</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pull</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="470" y1="170" x2="470" y2="268.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="470,280 464.96,267.4 475.04,267.4" fill="#b03a2e"/>
+<text x="480" y="279.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan></text>
+<circle cx="470" cy="170" r="6" fill="#1f3a5f"/>
+</svg>

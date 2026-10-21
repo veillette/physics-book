@@ -276,6 +276,20 @@ When you take off in a jet aircraft, there is a sensation of being pushed back i
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Identify the forces on you during takeoff, in the ground's frame of reference.
+
+**Solution**
+
+No force pushes you backward. As the plane accelerates forward, your body, by inertia, tends to keep its original velocity. The seat must push **forward** on your back to accelerate you with the plane. For a $$ 70 \text{ kg} $$ passenger and an acceleration of $$ 3.0 \mss $$, that push is $$ (70 \text{ kg})(3.0 \mss) = 210 \N $$ forward. By Newton's third law your back pushes backward on the seat with $$ 210 \N $$, and the seat cushion compresses, which you feel as being "pushed back." Relative to the accelerating plane you seem to move backward, but relative to the ground you are moving forward and speeding up. In whiplash, the car seat pushes the body forward while the unsupported head lags behind until the neck pulls it forward.
+
+There is no backward force on you; the seat pushes you forward to accelerate you (with about $$ 210 \N $$ for a $$ 70 \text{ kg} $$ person at $$ 3.0 \mss $$), and because of your inertia you lag behind the plane and press back into the seat.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -285,6 +299,22 @@ When you take off in a jet aircraft, there is a sensation of being pushed back i
 A device used since the 1940s to measure the kick or recoil of the body due
 to heart beats is the “ballistocardiograph.” What physics principle(s) are involved here to measure
 the force of cardiac contraction? How might we construct such a device?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Apply Newton's third law to the heart and the blood it pumps.
+
+**Solution**
+
+When the heart contracts, it pushes blood toward the head through the aorta. By **Newton's third law**, the blood pushes back on the heart, and therefore on the body, with an equal and opposite force, so the body recoils toward the feet (and moves back as the blood decelerates). By **Newton's second law**, the size of the recoil force can be found from the mass and acceleration of the body ($$ F = ma $$). The force is of the order of $$ 1 \N $$. Accelerating about $$ 0.07 \text{ kg} $$ of blood to roughly $$ 1 \ms $$ in about $$ 0.1 \s $$ requires $$ (0.07 \text{ kg})(1 \ms)/(0.1 \s) \approx 0.7 \N $$.
+
+To build a ballistocardiograph, the patient lies on a very light platform or bed that can slide or swing with almost no friction (for example, suspended by long wires or floating on an air cushion), so that the small recoil forces produce measurable motion. Sensors (displacement or acceleration sensors) record the head-to-foot motion of the platform with each heartbeat.
+
+The ballistocardiograph uses Newton's third law (the blood pushes back on the body as the heart pushes it) and Newton's second law (the recoil force equals mass times acceleration), and it can be built by placing the patient on a nearly frictionless suspended platform whose tiny motions are recorded by sensitive motion sensors.
 
 ::::
 
@@ -298,6 +328,20 @@ Describe a situation in which one system exerts a force on another and, as a con
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Choose an everyday interaction and identify the force pair.
+
+**Solution**
+
+A swimmer pushes off the wall of a pool with her feet, exerting a force of, say, $$ 200 \N $$ on the wall. By Newton's third law, the wall pushes back on her feet with $$ 200 \N $$ in the opposite direction, which is what launches her across the pool. Newton's third law describes the equal and opposite pair of forces, and Newton's second law then determines her acceleration: for a $$ 60 \text{ kg} $$ swimmer, $$ a = (200 \N)/(60 \text{ kg}) = 3.3 \mss $$, ignoring the water's drag. (The wall, attached to the Earth, has an enormous mass and does not noticeably accelerate.)
+
+A swimmer pushing off a pool wall with $$ 200 \N $$ is pushed back by the wall with $$ 200 \N $$ in the opposite direction; Newton's third law describes the force pair, and Newton's second law describes the swimmer's resulting acceleration.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -305,6 +349,20 @@ Describe a situation in which one system exerts a force on another and, as a con
 :::: problem
 
 Why does an ordinary rifle recoil (kick backward) when fired? The barrel of a recoilless rifle is open at both ends. Describe how Newton’s third law applies when one is fired. Can you safely stand close behind one when it is fired?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Apply Newton's third law to the expanding gases, the bullet, and the rifle.
+
+**Solution**
+
+In an ordinary rifle, the expanding gases push the bullet forward, and the bullet and gases push back on the rifle with an equal and opposite force, which drives the rifle back into the shooter's shoulder. In a recoilless rifle the barrel is open at the back. The rifle pushes a large mass of propellant gas out of the rear at high speed while it pushes the projectile out of the front. The backward-moving gas pushes forward on the rifle, which balances the backward force from the projectile, so the net force on the rifle is nearly zero. It is **not safe** to stand behind a recoilless rifle: the "back-blast" of hot, high-speed gas can cause serious injury or death many meters behind it.
+
+An ordinary rifle recoils because the bullet and gases it pushes forward push back on it with an equal and opposite force; a recoilless rifle also ejects gas out the open rear so that the forward reaction of that gas cancels the recoil, which makes it very dangerous to stand behind it.
 
 ::::
 
@@ -318,6 +376,28 @@ An American football lineman reasons that it is senseless to try to out-push the
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Choose the lineman alone as the system and draw his free-body diagram, with $$ +x $$ forward (toward the opponent).
+
+**Solution**
+
+![Free-body diagram of the lineman, with +x forward and +y up: the opponent pushes him backward with force P, the ground pushes his feet forward with static friction f, which is longer than P; the normal force N points up and the weight w points down. The acceleration points forward.](../resources/fbd_04_04_q05.svg){: .fbd}
+
+The third-law pair (his push on the opponent and the opponent's push $$ P $$ on him) act on **different** objects, so they do not cancel in the force sum for either object separately. The lineman's acceleration depends on all the external forces on him, including the forward static friction $$ f $$ that the ground exerts on his feet as he drives backward against it. Newton's second law for the lineman is
+
+<div class="equation">
+$$ F_{\text{net},x} = f - P = ma $$
+</div>
+
+If he is strong enough to push back on the ground harder than the opponent pushes on him ($$ f > P $$), the net force on him is forward. For a $$ 120 \text{ kg} $$ lineman with $$ f = 1000 \N $$ and $$ P = 800 \N $$, $$ a = (200 \N)/(120 \text{ kg}) = 1.7 \mss $$ forward, and he drives the opponent backward.
+
+He can out-push the opposition because his motion depends on the net external force on him, which is forward when the friction force from the ground on his feet is larger than the opponent's push (for example, $$ 1000 \N - 800 \N = 200 \N $$ forward).
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -325,6 +405,20 @@ An American football lineman reasons that it is senseless to try to out-push the
 :::: problem
 
 Newton’s third law of motion tells us that forces always occur in pairs of equal and opposite magnitude. Explain how the choice of the “system of interest” affects whether one such pair of forces cancels.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+The two forces of a third-law pair act on two different objects. Ask whether each object is inside or outside the system.
+
+**Solution**
+
+If **both** objects are inside the system, both forces of the pair are internal, and they cancel when we add the forces on the system. If **only one** object is in the system, only one force of the pair acts on the system; it is an external force and does not cancel. For example, a person pushes a $$ 20 \text{ kg} $$ box with $$ 50 \N $$, and the box pushes back with $$ 50 \N $$. With the system "person + box," the two forces cancel. With the system "box," only the $$ 50 \N $$ push on the box counts, and it can accelerate the box.
+
+A third-law pair cancels only if the chosen system includes both of the interacting objects; if the system contains only one of them, only one force of the pair acts on it, and it does not cancel.
 
 ::::
 

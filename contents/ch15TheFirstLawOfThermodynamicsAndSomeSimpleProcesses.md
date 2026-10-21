@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 2
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* Describe the processes of a simple heat engine.
-* Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic.
-* Calculate total work done in a cyclical thermodynamic process.
+- Describe the processes of a simple heat engine.
+- Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic.
+- Calculate total work done in a cyclical thermodynamic process.
 
 :::
 
@@ -74,8 +75,8 @@ Note that if $$\Delta V $$ is positive, then $$W $$ is positive, meaning that
 work is done _by_ the gas on the outside world.
 
 (Note that the pressure involved in this work that we’ve called $$P $$ is the
-pressure of the gas *inside* the tank. If we call the pressure outside the tank
-$${P}_{\text{ext}} $$ , an expanding gas would be working *against* the external
+pressure of the gas _inside_ the tank. If we call the pressure outside the tank
+$${P}_{\text{ext}} $$ , an expanding gas would be working _against_ the external
 pressure; the work done would therefore be $$W=-{P}_{\text{ext}}\Delta V $$
 (isobaric process). Many texts use this definition of work, and not the
 definition based on internal pressure, as the basis of the First Law of
@@ -92,13 +93,13 @@ case, some of the energy associated with pressure becomes work.
 
 diagram ) for an isobaric process. You can see in the figure that the work done
 is the area under the graph. This property of $$PV $$ diagrams is very useful
-and broadly applicable: *the work done on or by a system in going from one state
-to another equals the area under the curve on a $$PV $$ diagram*.
+and broadly applicable: _the work done on or by a system in going from one state
+to another equals the area under the curve on a $$PV $$ diagram_.
 
-![The graph of pressure verses volume is shown for a constant pressure. The pressure P is along the Y axis and the volume is along the X axis. The graph is a straight line parallel to the X axis for a value of pressure P. Two points are marked on the graph at either end of the line as A and B. A is the starting point of the graph and B is the end point of graph. There is an arrow pointing from A to B. The term isobaric is written on the graph. For a length of graph equal to delta V the area of the graph is shown as a shaded area given by P times delta V which is equal to work W.](../resources/Figure_15_02_05.jpg "A graph of pressure versus volume for a constant-pressure, or isobaric, process, such as the one shown in [Figure 4](#Figure4). The area under the curve equals the work done by the gas, since \( W=P \Delta V \) .")
+![The graph of pressure verses volume is shown for a constant pressure. The pressure P is along the Y axis and the volume is along the X axis. The graph is a straight line parallel to the X axis for a value of pressure P. Two points are marked on the graph at either end of the line as A and B. A is the starting point of the graph and B is the end point of graph. There is an arrow pointing from A to B. The term isobaric is written on the graph. For a length of graph equal to delta V the area of the graph is shown as a shaded area given by P times delta V which is equal to work W.](../resources/Figure_15_02_05.jpg 'A graph of pressure versus volume for a constant-pressure, or isobaric, process, such as the one shown in [Figure 4](#Figure4). The area under the curve equals the work done by the gas, since ( W=P \\Delta V ) .')
 {: #Figure5}
 
-![The diagram in part a shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve is a smooth falling curve from the highest point A to the lowest point B. The curve is segmented into small vertical rectangular sections of equal width. One of the sections is marked as width of delta V sub one along the X axis. The pressure P sub one average multiplied by delta V sub one gives the work done for that strip of the graph. Part b of the figure shows a similar graph for the reverse path. The curve now slopes upward from point A to point B. An equation in the top right of the graph reads W sub in equals the opposite of W sub out for the same path.](../resources/Figure_15_02_06.jpg "(a) A \( PV \) diagram in which pressure varies as well as volume. The work done for each interval is its average pressure times the change in volume, or the area under the curve over that interval. Thus the total area under the curve equals the total work done. (b) Work must be done on the system to follow the reverse path. This is interpreted as a negative area under the curve.")
+![The diagram in part a shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve is a smooth falling curve from the highest point A to the lowest point B. The curve is segmented into small vertical rectangular sections of equal width. One of the sections is marked as width of delta V sub one along the X axis. The pressure P sub one average multiplied by delta V sub one gives the work done for that strip of the graph. Part b of the figure shows a similar graph for the reverse path. The curve now slopes upward from point A to point B. An equation in the top right of the graph reads W sub in equals the opposite of W sub out for the same path.](../resources/Figure_15_02_06.jpg '(a) A ( PV ) diagram in which pressure varies as well as volume. The work done for each interval is its average pressure times the change in volume, or the area under the curve over that interval. Thus the total area under the curve equals the total work done. (b) Work must be done on the system to follow the reverse path. This is interpreted as a negative area under the curve.')
 {: #Figure6}
 
 We can see where this leads by considering [[Figure 6]](#Figure6)(a), which
@@ -111,8 +112,8 @@ the total area under the curve. If the path is reversed, as
 in [[Figure 6]](#Figure6)(b), then work is done on the system. The area under
 the curve in that case is negative, because $$\Delta V $$ is negative.
 
-$$PV $$ diagrams clearly illustrate that *the work done depends on the path
-taken and not just the endpoints*. This path dependence is seen
+$$PV $$ diagrams clearly illustrate that _the work done depends on the path
+taken and not just the endpoints_. This path dependence is seen
 in [[Figure 7]](#Figure7)(a), where more work is done in going from A to C by
 the path via point B than by the path via point D. The vertical paths, where
 volume is constant, are called **isochoric** processes. Since volume is
@@ -126,7 +127,7 @@ illustrates for a general cyclical process. Note that the loop must be traversed
 in the clockwise direction for work to be positive—that is, for there to be a
 net work output.
 
-![Part a of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve has a rectangular shape. The curve is labeled A B C D. The paths A B and D C represent isobaric processes as shown by lines pointing toward the right, and A D and B C represent isochoric processes, as shown by lines pointing vertically downward. W sub A B C is shown greater than W sub A D C. The area below the curve A B C D, filling the rectangle A B C D, and the area immediately below path D C are also shaded. Part b of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve has a rectangular shape and is labeled A B C D. The paths A B and C D represent isobaric processes; A B is a line pointing to the right, and C D is a line pointing to the left. The paths B C and D A represent isochoric processes; B C points vertically downward, and D A points vertically upward. The length of the graph along A B is marked as delta V equals five hundred centimeters cubed. The line A B on the graph is shown to have a pressure P sub A B equals one point five multiplied by ten to the power six Newtons per meter square. The line D on the graph is shown to have a pressure P sub C D equals one point two multiplied by ten to the power five Newtons per meter squared. The total work is marked as W sub tot equals W sub out plus W sub in. Part c of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The graph is a closed loop in the form of an ellipse with the arrow pointing in clockwise direction. The shaded area inside the ellipse represents the work done.](../resources/Figure_15_02_07.jpg "(a) The work done in going from A to C depends on path. The work is greater for the path ABC than for the path ADC, because the former is at higher pressure. In both cases, the work done is the area under the path. This area is greater for path ABC. (b) The total work done in the cyclical process ABCDA is the area inside the loop, since the negative area below CD subtracts out, leaving just the area inside the rectangle. (The values given for the pressures and the change in volume are intended for use in the example below.)  (c) The area inside any closed loop is the work done in the cyclical process. If the loop is traversed in a clockwise direction, \( W \) is positive&#x2014;it is work done on the outside environment. If the loop is traveled in a counter-clockwise direction, \( W \) is negative&#x2014;it is work that is done to the system.")
+![Part a of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve has a rectangular shape. The curve is labeled A B C D. The paths A B and D C represent isobaric processes as shown by lines pointing toward the right, and A D and B C represent isochoric processes, as shown by lines pointing vertically downward. W sub A B C is shown greater than W sub A D C. The area below the curve A B C D, filling the rectangle A B C D, and the area immediately below path D C are also shaded. Part b of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve has a rectangular shape and is labeled A B C D. The paths A B and C D represent isobaric processes; A B is a line pointing to the right, and C D is a line pointing to the left. The paths B C and D A represent isochoric processes; B C points vertically downward, and D A points vertically upward. The length of the graph along A B is marked as delta V equals five hundred centimeters cubed. The line A B on the graph is shown to have a pressure P sub A B equals one point five multiplied by ten to the power six Newtons per meter square. The line D on the graph is shown to have a pressure P sub C D equals one point two multiplied by ten to the power five Newtons per meter squared. The total work is marked as W sub tot equals W sub out plus W sub in. Part c of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The graph is a closed loop in the form of an ellipse with the arrow pointing in clockwise direction. The shaded area inside the ellipse represents the work done.](../resources/Figure_15_02_07.jpg '(a) The work done in going from A to C depends on path. The work is greater for the path ABC than for the path ADC, because the former is at higher pressure. In both cases, the work done is the area under the path. This area is greater for path ABC. (b) The total work done in the cyclical process ABCDA is the area inside the loop, since the negative area below CD subtracts out, leaving just the area inside the rectangle. (The values given for the pressures and the change in volume are intended for use in the example below.)  (c) The area inside any closed loop is the work done in the cyclical process. If the loop is traversed in a clockwise direction, ( W ) is positive—it is work done on the outside environment. If the loop is traveled in a counter-clockwise direction, ( W ) is negative—it is work that is done to the system.')
 {: #Figure7}
 
 ::: example
@@ -135,8 +136,8 @@ net work output.
 Total Work Done in a Cyclical Process Equals the Area Inside the Closed Loop on a *PV* Diagram
 </div>
 
-Calculate the total work done in the cyclical process ABCDA shown in [[Figure 5]](#Figure5)(b) by the following two methods to verify that work equals the area inside the closed loop on the  $$PV $$
- diagram. (Take the data in the figure to be precise to three significant figures.) (a) Calculate the work done along each segment of the path and add these values to get the total work. (b) Calculate the area inside the rectangle ABCDA.
+Calculate the total work done in the cyclical process ABCDA shown in [[Figure 5]](#Figure5)(b) by the following two methods to verify that work equals the area inside the closed loop on the $$PV $$
+diagram. (Take the data in the figure to be precise to three significant figures.) (a) Calculate the work done along each segment of the path and add these values to get the total work. (b) Calculate the area inside the rectangle ABCDA.
 
 **Strategy**
 
@@ -152,18 +153,18 @@ The work along path AB is
  $$\begin{array}{lll}{W}_{\text{AB}}& =& {P}_{\text{AB}}\Delta {V}_{\text{AB}}\\ & =& \left( 1.50 \times 10^{6}  {\text{N/m}}^{2}\right)\left( 5.00 \times 10^{-4} {\text{m}}^{3}\right)=750 \text{J} \text{.} \end{array} $$
 </div>
 
-Since the path BC is isochoric,  $$\Delta {V}_{\text{BC}}=0 $$ ,
- and so  $${W}_{\text{BC}}=0 $$ .
- The work along path CD is negative, since  $$\Delta {V}_{\text{CD}} $$
- is negative (the volume decreases). The work is
+Since the path BC is isochoric, $$\Delta {V}_{\text{BC}}=0 $$ ,
+and so $${W}_{\text{BC}}=0 $$ .
+The work along path CD is negative, since $$\Delta {V}_{\text{CD}} $$
+is negative (the volume decreases). The work is
 
 <div class="equation">
  $$\begin{array}{lll}{W}_{\text{CD}}& =& {P}_{\text{CD}}\Delta {V}_{\text{CD}}\\ & =& \left( 2.00 \times 10^{5}  {\text{N/m}}^{2}\right)\left( - 5.00 \times 10^{-4} {\text{m}}^{3}\right) = -100 \text{J}\text{.}\end{array} $$
 </div>
 
-Again, since the path DA is isochoric,  $$\Delta {V}_{\text{DA}}=0 $$ ,
- and so  $${W}_{\text{DA}}=0 $$ .
- Now the total work is
+Again, since the path DA is isochoric, $$\Delta {V}_{\text{DA}}=0 $$ ,
+and so $${W}_{\text{DA}}=0 $$ .
+Now the total work is
 
 <div class="equation">
  $$\begin{array}{lll}W& =& {W}_{\text{AB}}+{W}_{\text{BC}}+{W}_{\text{CD}}+{W}_{\text{DA}}\\ & =& 750 \text{J}+0+\left(-100\text{J}\right)+0=650 \text{J} \text{.} \end{array} $$
@@ -210,18 +211,18 @@ average kinetic energy of an atom in such a gas is given by
  $$\frac{1}{2}m{\overline{v}}^{2}=\frac{3}{2}k_{B}T\text{.} $$
 </div>
 
-The kinetic energy of the atoms in a monatomic ideal gas is its only form of internal energy, and so its total internal energy  $$U $$
- is
+The kinetic energy of the atoms in a monatomic ideal gas is its only form of internal energy, and so its total internal energy $$U $$
+is
 
 <div class="equation">
  $$U=N\frac{1}{2}m{\overline{v}}^{2}=\frac{3}{2}Nk_{B}T,\text{ (monatomic ideal gas),} $$
 </div>
 
-where  $$N $$
- is the number of atoms in the gas. This relationship means that the internal energy of an ideal monatomic gas is constant during an isothermal process—that is,  $$\Delta U=0 $$ .
- If the internal energy does not change, then the net heat transfer into the gas must equal the net work done by the gas. That is, because  $$\Delta U=Q-W=0 $$
- here,  $$Q=W $$ .
- We must have just enough heat transfer to replace the work done. An isothermal process is inherently slow, because heat transfer occurs continuously to keep the gas temperature constant at all times and must be allowed to spread through the gas so that there are no hot or cold regions.
+where $$N $$
+is the number of atoms in the gas. This relationship means that the internal energy of an ideal monatomic gas is constant during an isothermal process—that is, $$\Delta U=0 $$ .
+If the internal energy does not change, then the net heat transfer into the gas must equal the net work done by the gas. That is, because $$\Delta U=Q-W=0 $$
+here, $$Q=W $$ .
+We must have just enough heat transfer to replace the work done. An isothermal process is inherently slow, because heat transfer occurs continuously to keep the gas temperature constant at all times and must be allowed to spread through the gas so that there are no hot or cold regions.
 
 Also shown in [[Figure 8]](#Figure8)(a) is a curve AC for an **adiabatic**
 process, defined to be one in which there is no heat transfer—that is, $$Q=0 $$
@@ -234,10 +235,10 @@ process, since work is done at the expense of internal energy:
  $$U=\frac{3}{2}Nk_{B}T\text{.} $$
 </div>
 
-(You might have noted that a gas released into atmospheric pressure from a pressurized cylinder is substantially colder than the gas in the cylinder.) In fact, because  $$Q=0, \Delta U=-W $$
- for an adiabatic process. Lower temperature results in lower pressure along the way, so that curve AC is lower than curve AB, and less work is done. If the path ABCA could be followed by cooling the gas from B to C at constant volume (isochorically), [[Figure 6]](#Figure6)(b), there would be a net work output.
+(You might have noted that a gas released into atmospheric pressure from a pressurized cylinder is substantially colder than the gas in the cylinder.) In fact, because $$Q=0, \Delta U=-W $$
+for an adiabatic process. Lower temperature results in lower pressure along the way, so that curve AC is lower than curve AB, and less work is done. If the path ABCA could be followed by cooling the gas from B to C at constant volume (isochorically), [[Figure 6]](#Figure6)(b), there would be a net work output.
 
-![Part a of the figure shows a graph for pressure versus volume. The pressure is along the y axis and the volume is along the x axis. There are two curves. The first curve begins at point A and falls smoothly downward to point B. The graph is shown for an isothermal process. The second curve also begins at point A but falls below the first curve and ends at point C vertically below point B. This graph is shown for an adiabatic process. A line joins point B and C to meet on the X axis. Also a line is drawn from point A to meet the X axis. The area under both the curves is shaded. The graph in figure b is similar to the graph in figure a. Only the directions of the curves are changed. The graph begins from A and moves downward to point B. Then from point B the curve drops vertically downward to C. From point C the graph has a smooth rise back to point A. All directions represented using arrows.](../resources/Figure_15_02_08.jpg "(a) The upper curve is an isothermal process \( \Delta T =0 \), whereas the lower curve is an adiabatic process (\( Q=0 \) ). Both start from the same point A, but the isothermal process does more work than the adiabatic because heat transfer into the gas takes place to keep its temperature constant. This keeps the pressure higher all along the isothermal path than along the adiabatic path, producing more work. The adiabatic path thus ends up with a lower pressure and temperature at point C, even though the final volume is the same as for the isothermal process. (b) The cycle ABCA produces a net work output.")
+![Part a of the figure shows a graph for pressure versus volume. The pressure is along the y axis and the volume is along the x axis. There are two curves. The first curve begins at point A and falls smoothly downward to point B. The graph is shown for an isothermal process. The second curve also begins at point A but falls below the first curve and ends at point C vertically below point B. This graph is shown for an adiabatic process. A line joins point B and C to meet on the X axis. Also a line is drawn from point A to meet the X axis. The area under both the curves is shaded. The graph in figure b is similar to the graph in figure a. Only the directions of the curves are changed. The graph begins from A and moves downward to point B. Then from point B the curve drops vertically downward to C. From point C the graph has a smooth rise back to point A. All directions represented using arrows.](../resources/Figure_15_02_08.jpg '(a) The upper curve is an isothermal process ( \\Delta T =0 ), whereas the lower curve is an adiabatic process (( Q=0 ) ). Both start from the same point A, but the isothermal process does more work than the adiabatic because heat transfer into the gas takes place to keep its temperature constant. This keeps the pressure higher all along the isothermal path than along the adiabatic path, producing more work. The adiabatic path thus ends up with a lower pressure and temperature at point C, even though the final volume is the same as for the isothermal process. (b) The cycle ABCA produces a net work output.')
 {: #Figure8}
 
 :::
@@ -304,20 +305,20 @@ Watch different types of molecules form a solid, liquid, or gas. Add or remove h
 
 ### Section Summary
 
-* One of the important implications of the first law of thermodynamics is that
+- One of the important implications of the first law of thermodynamics is that
   machines can be harnessed to do work that humans previously did by hand or by
   external energy supplies such as running water or the heat of the Sun. A
   machine that uses heat transfer to do work is known as a heat engine.
-* There are several simple processes, used by heat engines, that flow from the
+- There are several simple processes, used by heat engines, that flow from the
   first law of thermodynamics. Among them are the isobaric, isochoric,
   isothermal and adiabatic processes.
-* These processes differ from one another based on how they affect pressure,
+- These processes differ from one another based on how they affect pressure,
   volume, temperature, and heat transfer.
-* If the work done is performed on the outside environment, work (
-  $$W $$ )   will be a positive value. If the work done is done to the heat
+- If the work done is performed on the outside environment, work (
+  $$W $$ ) will be a positive value. If the work done is done to the heat
   engine system, work (
-  $$W $$ )   will be a negative value.
-* Some thermodynamic processes, including isothermal and adiabatic processes,
+  $$W $$ ) will be a negative value.
+- Some thermodynamic processes, including isothermal and adiabatic processes,
   are reversible in theory; that is, both the thermodynamic system and the
   environment can be returned to their initial states. However, because of loss
   of energy owing to the second law of thermodynamics, complete reversibility
@@ -333,6 +334,22 @@ A great deal of effort, time, and money has been spent in the quest for the so-c
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply the first law over one complete cycle, then distinguish energy conservation from the second law.
+
+**Solution**
+
+A cyclic machine returns to its initial internal energy, so $$\Delta U=0$$ and $$W_{\text{net}}=Q_{\text{net}}$$ unless other energy inputs are included. Producing more work than all supplied energy violates the first law. Converting heat from a single reservoir completely into cyclic work would conserve energy but violate the second law. An ideal frictionless object might continue moving without producing work, which is different from indefinitely supplying useful work.
+
+**Discussion**
+
+A machine can operate indefinitely only while receiving energy from an external source or, in an ideal lossless motion, delivering no net work. A perpetual source of useful work without a corresponding energy supply cannot be constructed consistently with thermodynamics.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -341,8 +358,24 @@ A great deal of effort, time, and money has been spent in the quest for the so-c
 
 One method of converting heat transfer into doing work is for heat transfer into a gas to take place, which expands, doing work on a piston, as shown in the figure below. (a) Is the heat transfer converted directly to work in an isobaric process, or does it go through another form first? Explain your answer. (b) What about in an isothermal process? (c) What about in an adiabatic process (where heat transfer occurred prior to the adiabatic process)?
 
-![Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.](../resources/Figure_15_02_09.jpg " ")
+![Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.](../resources/Figure_15_02_09.jpg ' ')
 {: #Figure9}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use $$Q=\Delta U+W$$, treating the gas as ideal and the expansion as piston work.
+
+**Solution**
+
+(a) During isobaric heating and expansion, the gas warms, so some input increases microscopic internal energy and some becomes work: $$Q=nC_P\Delta T$$, $$\Delta U=nC_V\Delta T$$, and $$W=nR\Delta T$$. These transfers occur simultaneously; a separate heat-then-work sequence is unnecessary. (b) In isothermal ideal-gas expansion, $$\Delta U=0$$, so the net heat input equals the work output, $$Q=W$$. (c) In adiabatic expansion, $$Q=0$$ and $$W=-\Delta U$$: previously supplied internal energy provides the work.
+
+**Discussion**
+
+Molecular motion mediates the force on the piston in every case. Isobaric heating both raises internal energy and produces work, isothermal heating has no net internal-energy accumulation, and adiabatic expansion produces work by lowering internal energy.
 
 :::
 
@@ -356,14 +389,46 @@ Would the previous question make any sense for an isochoric process? Explain you
 
 :::
 
+::: solution
+
+**Strategy**
+
+Evaluate boundary work when volume cannot change.
+
+**Solution**
+
+In an isochoric process, $$W=\int P\,dV=0$$ because $$dV=0$$. Heating a gas in a rigid container increases its internal energy and, for an ideal gas, its temperature and pressure, but the wall or piston does not move. The gas can exert a force without doing displacement work.
+
+**Discussion**
+
+The heat-to-piston-work question therefore has no nonzero work output in an isochoric process: the heat input changes internal energy rather than producing expansion work.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-We ordinarily say that  $$\Delta U=0 $$
- for an isothermal process. Does this assume no phase change takes place? Explain your answer.
+We ordinarily say that $$\Delta U=0 $$
+for an isothermal process. Does this assume no phase change takes place? Explain your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Ask whether internal energy depends only on temperature for the chosen substance and process.
+
+**Solution**
+
+For a fixed amount of ideal gas, internal energy depends only on temperature, so an isothermal process has $$\Delta U=0$$. During a phase change, energy can change molecular interactions while temperature remains constant; melting ice at its melting point is an example. Even without a phase change, a real substance’s internal energy can depend on volume as well as temperature.
+
+**Discussion**
+
+Absence of phase change is therefore part of the usual simple ideal-gas interpretation, but it alone is not sufficient for every material. Isothermal implies zero internal-energy change for an ideal gas, not universally for all systems.
 
 :::
 
@@ -377,17 +442,49 @@ The temperature of a rapidly expanding gas decreases. Explain why in terms of th
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the expansion time with the time required for heat to enter.
+
+**Solution**
+
+When a gas rapidly expands against an external pressure, it does positive work while too little heat enters to replace that energy. Approximately $$Q=0$$, so $$\Delta U=-W<0$$. For an ideal gas, lower internal energy means lower temperature. As an assumed example, $$20\text{ J}$$ of work with negligible heat input gives $$\Delta U=-20\text{ J}$$.
+
+**Discussion**
+
+Rapid expansion alone does not guarantee cooling: ideal-gas free expansion into vacuum does no work and has no temperature change. The cooling described occurs when a nearly adiabatic gas expends internal energy doing expansion work.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Which cyclical process represented by the two closed loops, ABCFA and ABDEA, on the  $$PV $$
- diagram in the figure below produces the greatest *net* work? Is that process also the one with the smallest work input required to return it to point A? Explain your responses.
+Which cyclical process represented by the two closed loops, ABCFA and ABDEA, on the $$PV $$
+diagram in the figure below produces the greatest _net_ work? Is that process also the one with the smallest work input required to return it to point A? Explain your responses.
 
-![The figure shows a graph of pressure versus volume. The pressure is along the Y axis and the volume is plotted along the X axis. The graph consists of a rectangle, A B C F, superimposed on a slightly larger rectangle, A B D E. The lines A B, C F, and D E are parallel to the X axis and lines B C D and A F E are parallel to the Y axis.](../resources/Figure_15_02_10.jpg "The two cyclical processes shown on this \( PV \) diagram start with and return the system to the conditions at point A, but they follow different paths and produce different amounts of work.")
+![The figure shows a graph of pressure versus volume. The pressure is along the Y axis and the volume is plotted along the X axis. The graph consists of a rectangle, A B C F, superimposed on a slightly larger rectangle, A B D E. The lines A B, C F, and D E are parallel to the X axis and lines B C D and A F E are parallel to the Y axis.](../resources/Figure_15_02_10.jpg 'The two cyclical processes shown on this ( PV ) diagram start with and return the system to the conditions at point A, but they follow different paths and produce different amounts of work.')
 {: #Figure10}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the enclosed areas and the pressures on the two return strokes.
+
+**Solution**
+
+Both clockwise cycles have the same high-pressure expansion from A to B. Cycle ABDEA returns along the lower-pressure line DE, while ABCFA returns along CF. Thus ABDEA encloses the larger area and produces more net work, $$W_{\text{net}}=(P_{AB}-P_{\text{return}})(V_B-V_A)$$. Its compression work input is also smaller because $$W_{\text{in}}=P_{\text{return}}(V_B-V_A)$$. The vertical strokes do no volume work.
+
+**Discussion**
+
+The lower return pressure both enlarges the loop area and reduces the work needed to compress the gas. ABDEA therefore gives the greater net work and requires the smaller work input on the return stroke.
 
 :::
 
@@ -401,6 +498,22 @@ A real process may be nearly adiabatic if it occurs over a very short time. How 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Estimate heat transfer as a rate acting over a time interval.
+
+**Solution**
+
+Heat exchange through a boundary takes time. If the transfer rate remains bounded, the exchanged energy is approximately $$Q=\dot Q\Delta t$$, so a sufficiently short process can have negligible heat transfer compared with its work or internal-energy change. For an assumed $$10\text{ W}$$ heat leak over $$0.010\text{ s}$$, only $$Q=(10\text{ J/s})(0.010\text{ s})=0.10\text{ J}$$ crosses the boundary.
+
+**Discussion**
+
+A short process can still have friction or turbulence. Short duration helps make it adiabatic by limiting heat exchange, but does not make it reversible.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -408,6 +521,22 @@ A real process may be nearly adiabatic if it occurs over a very short time. How 
 ::: problem
 
 It is unlikely that a process can be isothermal unless it is a very slow process. Explain why. Is the same true for isobaric and isochoric processes? Explain your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the time for thermal equilibration with the constraints that hold pressure or volume fixed.
+
+**Solution**
+
+Gas expansion tends to cool the gas and compression tends to warm it. A slow process usually allows enough heat exchange with a reservoir to keep temperature nearly constant throughout. Constant volume, however, can be imposed by a rigid container even during rapid heating. Approximately constant pressure can be maintained by a freely moving loaded piston or an open connection, provided pressure has time to equilibrate mechanically; that can occur much faster than thermal equilibration.
+
+**Discussion**
+
+Fast isothermal processes are possible with exceptionally effective heat exchange, so slowness is not a logical requirement. Isothermal operation usually needs thermal-equilibration time, whereas isochoric and isobaric constraints do not generally require equally slow processes.
 
 :::
 
@@ -419,9 +548,9 @@ It is unlikely that a process can be isothermal unless it is a very slow process
 
 ::: problem
 
-A car tire contains  $$ 0.0380{m}^{3} $$
- of air at a pressure of  $$ 2.20 \times 10^{5}  {\text{N/m}}^{2} $$
- (about 32 psi). How much more internal energy does this gas have than the same volume has at zero gauge pressure (which is equivalent to normal atmospheric pressure)?
+A car tire contains $$ 0.0380{m}^{3} $$
+of air at a pressure of $$ 2.20 \times 10^{5}  {\text{N/m}}^{2} $$
+(about 32 psi). How much more internal energy does this gas have than the same volume has at zero gauge pressure (which is equivalent to normal atmospheric pressure)?
 
 :::
 
@@ -434,6 +563,7 @@ To find the difference in internal energy, we use the relationship for ideal gas
 **Solution**
 
 Given values:
+
 - Volume of air: $$V = 0.0380 \text{ m}^{3}$$
 - Gauge pressure: $$P_{\text{gauge}} = 2.20 \times 10^{5} \text{ N/m}^{2}$$
 
@@ -450,7 +580,7 @@ Substituting the known values:
 </div>
 
 <div class="equation">
- $$\Delta U = 2.5 \times 8.36 \times 10^{3} \text{ J}$$
+ $$\Delta U = 2.5 \times (8.36 \times 10^{3} \text{ J})$$
 </div>
 
 <div class="equation">
@@ -484,6 +614,7 @@ This problem is similar to the tire problem. For helium (a monatomic gas with 3 
 **Solution**
 
 Given values:
+
 - Gauge pressure: $$P_{\text{gauge}} = 0.200 \text{ atm} = 0.200 \times 1.013 \times 10^{5} \text{ Pa} = 2.026 \times 10^{4} \text{ Pa}$$
 - Volume: $$V = 10.0 \text{ L} = 10.0 \times 10^{-3} \text{ m}^{3} = 0.0100 \text{ m}^{3}$$
 
@@ -517,9 +648,9 @@ The helium in the balloon contains about 304 J more internal energy than it woul
 
 ::: problem
 
-Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge pressure of  $$ 1.75 \times 10^{6}  {\text{N/m}}^{2} $$
- (about 250 psi) to a piston with a 0.200-m radius. (a) By calculating  $$P\Delta V $$ ,
- find the work done by the steam when the piston moves 0.800 m. Note that this is the net work output, since gauge pressure is used. (b) Now find the amount of work by calculating the force exerted times the distance traveled. Is the answer the same as in part (a)?
+Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge pressure of $$ 1.75 \times 10^{6}  {\text{N/m}}^{2} $$
+(about 250 psi) to a piston with a 0.200-m radius. (a) By calculating $$P\Delta V $$ ,
+find the work done by the steam when the piston moves 0.800 m. Note that this is the net work output, since gauge pressure is used. (b) Now find the amount of work by calculating the force exerted times the distance traveled. Is the answer the same as in part (a)?
 
 :::
 
@@ -532,6 +663,7 @@ For part (a), work done by expanding steam is $$W = P\Delta V$$, where $$\Delta 
 **Solution**
 
 Given values:
+
 - Gauge pressure: $$P = 1.75 \times 10^{6} \text{ N/m}^{2}$$
 - Piston radius: $$r = 0.200 \text{ m}$$
 - Distance moved: $$d = 0.800 \text{ m}$$
@@ -547,7 +679,7 @@ Given values:
 </div>
 
 <div class="equation">
- $$\Delta V = \pi (0.0400)(0.800) = 0.1005 \text{ m}^{3}$$
+ $$\Delta V = \pi (0.0400 \text{ m}^{2})(0.800 \text{ m}) = 0.1005 \text{ m}^{3}$$
 </div>
 
 Work done using $$W = P\Delta V$$:
@@ -571,7 +703,7 @@ Work done using $$W = P\Delta V$$:
 </div>
 
 <div class="equation">
- $$F = (1.75 \times 10^{6})(0.1257) = 2.20 \times 10^{5} \text{ N}$$
+ $$F = (1.75 \times 10^{6} \text{ N/m}^{2})(0.1257 \text{ m}^{2}) = 2.20 \times 10^{5} \text{ N}$$
 </div>
 
 Work done using $$W = Fd$$:
@@ -598,8 +730,8 @@ Both calculation methods yield 176 kJ of work, confirming the equivalence of $$W
 
 ::: problem
 
-A hand-driven tire pump has a piston with a 2.50-cm diameter and a maximum stroke of 30.0 cm. (a) How much work do you do in one stroke if the average gauge pressure is  $$ 2.40 \times 10^{5}  {\text{N/m}}^{2} $$
- (about 35 psi)? (b) What average force do you exert on the piston, neglecting friction and gravitational force?
+A hand-driven tire pump has a piston with a 2.50-cm diameter and a maximum stroke of 30.0 cm. (a) How much work do you do in one stroke if the average gauge pressure is $$ 2.40 \times 10^{5}  {\text{N/m}}^{2} $$
+(about 35 psi)? (b) What average force do you exert on the piston, neglecting friction and gravitational force?
 
 :::
 
@@ -612,6 +744,7 @@ For part (a), work done is $$W = P\Delta V = P \times \pi r^{2} \times d$$, wher
 **Solution**
 
 Given values:
+
 - Piston diameter: $$D = 2.50 \text{ cm} = 0.0250 \text{ m}$$
 - Piston radius: $$r = 0.0125 \text{ m}$$
 - Stroke length: $$d = 30.0 \text{ cm} = 0.300 \text{ m}$$
@@ -620,25 +753,25 @@ Given values:
 **(a)** Calculate volume change:
 
 <div class="equation">
- $$\Delta V = \pi r^{2} d = \pi(0.0125)^{2}(0.300) = 1.47 \times 10^{-4} \text{ m}^{3}$$
+ $$\Delta V = \pi r^{2} d = \pi(0.0125 \text{ m})^{2}(0.300 \text{ m}) = 1.47 \times 10^{-4} \text{ m}^{3}$$
 </div>
 
 Work done:
 
 <div class="equation">
- $$W = P\Delta V = (2.40 \times 10^{5})(1.47 \times 10^{-4}) = 35.3 \text{ J}$$
+ $$W = P\Delta V = (2.40 \times 10^{5} \text{ N/m}^{2})(1.47 \times 10^{-4} \text{ m}^{3}) = 35.3 \text{ J}$$
 </div>
 
 **(b)** Average force:
 
 <div class="equation">
- $$F = PA = P\pi r^{2} = (2.40 \times 10^{5})\pi(0.0125)^{2} = 118 \text{ N}$$
+ $$F = PA = P\pi r^{2} = (2.40 \times 10^{5} \text{ N/m}^{2})\pi(0.0125 \text{ m})^{2} = 118 \text{ N}$$
 </div>
 
 Alternatively, from $$W = Fd$$:
 
 <div class="equation">
- $$F = \frac{W}{d} = \frac{35.3}{0.300} = 118 \text{ N}$$
+ $$F = \frac{W}{d} = \frac{35.3 \text{ J}}{0.300 \text{ m}} = 118 \text{ N}$$
 </div>
 
 **Discussion**
@@ -655,7 +788,7 @@ You do 35.3 J of work per stroke and exert an average force of 118 N (about 26.5
 
 Calculate the net work output of a heat engine following path ABCDA in the figure below.
 
-![A graph is shown of pressure versus volume, with pressure on the Y axis and volume on the X axis. A trapezoid connects four points on the graph, A, B, C, and D. A is at y equals 2 point 6 times 10 to the six newtons per meter squared and x equals 1 point zero times ten to the minus three meters cubed. A downward sloping line connects A to B. B is at y equals 2 point zero, x equals four. A vertical line connects B to C. C is at y equals zero point 6, x equals 4. A line connects C to D. D is at y equals one point zero, x equals one point zero. A vertical line connects D to A. A diagonal line also connects D and B.](../resources/Figure_15_02_11.jpg " ")
+![A graph is shown of pressure versus volume, with pressure on the Y axis and volume on the X axis. A trapezoid connects four points on the graph, A, B, C, and D. A is at y equals 2 point 6 times 10 to the six newtons per meter squared and x equals 1 point zero times ten to the minus three meters cubed. A downward sloping line connects A to B. B is at y equals 2 point zero, x equals four. A vertical line connects B to C. C is at y equals zero point 6, x equals 4. A line connects C to D. D is at y equals one point zero, x equals one point zero. A vertical line connects D to A. A diagonal line also connects D and B.](../resources/Figure_15_02_11.jpg ' ')
 {: #Figure11}
 
 :::
@@ -664,9 +797,9 @@ Calculate the net work output of a heat engine following path ABCDA in the figur
 
 The enclosed quadrilateral is a trapezoid with parallel vertical sides AD and BC. Their pressure spans are 1.6 MPa and 1.4 MPa, respectively, separated by a volume change of 3.0 L. The clockwise cycle produces positive work:
 
-$$W=\frac{1.6+1.4}{2}\times10^6(3.0\times10^{-3})=4.5\times10^3\ \text{J}.$$
+$$W=\left(\frac{1.6+1.4}{2}\times10^6\ \text{Pa}\right)(3.0\times10^{-3}\ \text{m}^3)=4.5\times10^3\ \text{J}.$$
 
-Equivalently, $$W_{AB}=\tfrac12(2.6+2.0)\times10^6(0.003)=6.9\ \text{kJ}$$ and $$W_{CD}=\tfrac12(0.6+1.0)\times10^6(-0.003)=-2.4\ \text{kJ}$$. The constant-volume legs do no work, so the net output is **4.5 kJ**.
+Equivalently, $$W_{AB}=\left(\tfrac12(2.6+2.0)\times10^6\ \text{Pa}\right)(0.003\ \text{m}^3)=6.9\ \text{kJ}$$ and $$W_{CD}=\left(\tfrac12(0.6+1.0)\times10^6\ \text{Pa}\right)(-0.003\ \text{m}^3)=-2.4\ \text{kJ}$$. The constant-volume legs do no work, so the net output is **4.5 kJ**.
 
 :::
 </div>
@@ -690,7 +823,7 @@ Identify the gas as the system and compute the signed area enclosed by its clock
 
 Triangle ABD has a vertical side $$AD=(2.6-1.0)\times10^6\ \text{Pa}$$ and perpendicular width $$\Delta V=(4.0-1.0)\times10^{-3}\ \text{m}^3$$. Thus
 
-$$W=\frac12(1.6\times10^6)(3.0\times10^{-3})=2.4\times10^3\ \text{J}.$$
+$$W=\frac12(1.6\times10^6\ \text{Pa})(3.0\times10^{-3}\ \text{m}^3)=2.4\times10^3\ \text{J}.$$
 
 As a check, expansion AB does $$6.9\ \text{kJ}$$ of work and compression BD does $$-4.5\ \text{kJ}$$; DA is at constant volume and does no work.
 
@@ -722,6 +855,7 @@ We check the claim against the first law of thermodynamics for a cyclic process.
 **Solution**
 
 Given claim:
+
 - Work done: $$W = 4.00 \text{ kJ}$$
 - Heat input: $$Q_{in} = 24.0 \text{ kJ}$$
 - Heat output: $$Q_{out} = 16.0 \text{ kJ}$$
@@ -735,7 +869,7 @@ For a complete cycle, $$\Delta U = 0$$, so:
 Calculate net heat:
 
 <div class="equation">
- $$Q_{net} = 24.0 - 16.0 = 8.00 \text{ kJ}$$
+ $$Q_{net} = 24.0 \text{ kJ} - 16.0 \text{ kJ} = 8.00 \text{ kJ}$$
 </div>
 
 But the claim states $$W = 4.00 \text{ kJ}$$.
@@ -751,6 +885,7 @@ The claim is impossible because it violates the first law of thermodynamics (con
 With 24.0 kJ in and 16.0 kJ out, the net heat is 8.00 kJ, which must equal the work done if energy is conserved. Claiming only 4.00 kJ of work was done leaves 4.00 kJ of energy unaccounted for—it neither increased internal energy (since $$\Delta U = 0$$ for a cycle) nor left the system as work or heat. This would mean energy disappeared, violating conservation of energy.
 
 Possible explanations for such a false claim:
+
 1. Measurement error in work, heat input, or heat output
 2. The cycle is incomplete (system hasn't returned to initial state)
 3. There's additional heat loss not accounted for (should be $$Q_{out} = 20.0 \text{ kJ}$$, not 16.0 kJ)
@@ -766,9 +901,9 @@ Real heat engines must obey $$W = Q_{in} - Q_{out}$$. This is why no engine can 
 
 ::: problem
 
-(a) A cyclical heat engine, operating between temperatures of  $$450 \text{ºC} $$
- and  $$150 \text{ºC} $$
- produces 4.00 MJ of work on a heat transfer of 5.00 MJ into the engine. How much heat transfer occurs to the environment? (b) What is unreasonable about the engine? (c) Which premise is unreasonable?
+(a) A cyclical heat engine, operating between temperatures of $$450 \text{ºC} $$
+and $$150 \text{ºC} $$
+produces 4.00 MJ of work on a heat transfer of 5.00 MJ into the engine. How much heat transfer occurs to the environment? (b) What is unreasonable about the engine? (c) Which premise is unreasonable?
 
 :::
 
@@ -781,6 +916,7 @@ For part (a), we use energy conservation for a cyclic process: $$W = Q_{in} - Q_
 **Solution**
 
 Given values:
+
 - Heat input: $$Q_{in} = 5.00 \text{ MJ}$$
 - Work output: $$W = 4.00 \text{ MJ}$$
 - Hot reservoir: $$T_H = 450°\text{C} = 723 \text{ K}$$
@@ -789,14 +925,14 @@ Given values:
 **(a)** Heat transfer to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 5.00 - 4.00 = 1.00 \text{ MJ}$$
+ $$Q_{out} = Q_{in} - W = 5.00 \text{ MJ} - 4.00 \text{ MJ} = 1.00 \text{ MJ}$$
 </div>
 
 **(b)** Check the efficiency:
 
 Actual efficiency:
 <div class="equation">
- $$\eta_{actual} = \frac{W}{Q_{in}} = \frac{4.00}{5.00} = 0.800 = 80.0\%$$
+ $$\eta_{actual} = \frac{W}{Q_{in}} = \frac{4.00 \text{ MJ}}{5.00 \text{ MJ}} = 0.800 = 80.0\%$$
 </div>
 
 Maximum possible (Carnot) efficiency:
@@ -809,7 +945,7 @@ The actual efficiency (80.0%) exceeds the Carnot efficiency (41.5%), which is im
 **(c)** The unreasonable premise is most likely the work output of 4.00 MJ. Given 5.00 MJ input between these temperatures, the maximum possible work is:
 
 <div class="equation">
- $$W_{max} = \eta_{Carnot} \times Q_{in} = 0.415 \times 5.00 = 2.08 \text{ MJ}$$
+ $$W_{max} = \eta_{Carnot} \times Q_{in} = 0.415 \times 5.00 \text{ MJ} = 2.08 \text{ MJ}$$
 </div>
 
 The claimed 4.00 MJ exceeds this theoretical maximum.
@@ -821,6 +957,7 @@ Part (a): If we accept the given numbers, energy conservation requires 1.00 MJ o
 Part (b): The engine claims 80% efficiency, but the Carnot limit for these temperatures is only 41.5%. This violates the second law of thermodynamics. Real engines are always less efficient than Carnot engines; typical efficiencies might be 25-35% for these temperatures.
 
 Part (c): The unreasonable value is the work output (4.00 MJ). With 5.00 MJ input at 41.5% maximum efficiency, the most work possible is about 2.08 MJ, with 2.92 MJ necessarily rejected as waste heat. The claimed 4.00 MJ of work would require either:
+
 - Higher heat input (about 9.64 MJ at Carnot efficiency)
 - A larger temperature difference between reservoirs
 - Violation of the second law (impossible)
@@ -844,6 +981,26 @@ efficiency with the actual efficiency of car engines.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose effective reservoir temperatures and calculate a Carnot upper bound, then compare with an explicitly assumed real efficiency.
+
+**Solution**
+
+Illustrative givens: take an effective hot reservoir at $$T_h=1800\text{ K}$$, a cold reservoir at $$T_c=350\text{ K}$$, and an actual gasoline-engine efficiency of $$0.25$$ for comparison. The maximum cyclic heat-engine efficiency between these reservoirs is
+
+$$\eta_{\max}=1-\frac{T_c}{T_h}=1-\frac{350\text{ K}}{1800\text{ K}}=0.806=80.6\%.$$
+
+For an assumed $$100\text{ kJ}$$ heat input, the ideal maximum output is $$W_{\max}=(0.806)(100\text{ kJ})=80.6\text{ kJ}$$, whereas the assumed real engine supplies $$W=(0.25)(100\text{ kJ})=25\text{ kJ}$$.
+
+**Discussion**
+
+The bound lies between zero and one and exceeds the illustrative real efficiency, as required. The temperatures are effective assumptions; actual combustion cycles do not exchange all heat with two fixed-temperature reservoirs. Friction, finite-rate combustion and heat transfer, exhaust losses, and pumping reduce useful output. For these chosen temperatures, the Carnot maximum is **$$80.6\%$$**, compared with an assumed **$$25\%$$** actual efficiency.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -862,11 +1019,36 @@ and typical fuel economy.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a trip and count only the vehicle’s net kinetic and gravitational energy gain as the requested useful output.
+
+**Solution**
+
+Assume a loaded car of $$m=1500\text{ kg}$$ climbs $$h=1000\text{ m}$$ over $$50.0\text{ km}$$, starts from rest, and ends at $$20.0\text{ m/s}$$. Assume fuel consumption $$8.0\text{ L}/(100\text{ km})$$ and gasoline energy $$34\text{ MJ/L}$$. Fuel used is
+
+$$V_f=(50.0\text{ km})\frac{8.0\text{ L}}{100\text{ km}}=4.0\text{ L},\qquad E_f=(4.0\text{ L})(34\text{ MJ/L})=136\text{ MJ}.$$
+
+The net mechanical energy gained is
+
+$$\Delta E=\frac12(1500\text{ kg})(20.0\text{ m/s})^2+(1500\text{ kg})(9.80\text{ m/s}^2)(1000\text{ m})=0.300\text{ MJ}+14.7\text{ MJ}=15.0\text{ MJ}.$$
+
+Thus $$\eta_{\text{trip}}=\Delta E/E_f=(15.0\text{ MJ})/(136\text{ MJ})=0.110\approx11\%$$.
+
+**Discussion**
+
+For comparison, an assumed 25% engine efficiency would deliver $$34\text{ MJ}$$ of shaft work from this fuel, leaving $$19\text{ MJ}$$ beyond the retained mechanical gain for drag, rolling resistance, drivetrain losses, and accessories. That scale is plausible over the chosen distance. The trip efficiency is **about $$11\%$$**, smaller than the assumed engine efficiency because much of the engine’s output is spent overcoming resistance rather than retained as kinetic or potential energy.
+
+:::
+
 </div>
 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 heat engine

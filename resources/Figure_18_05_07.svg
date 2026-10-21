@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380" role="img" aria-labelledby="title desc">
+<title id="title">An electric field extending over three regions</title>
+<desc id="desc">Five field lines run from left to right through regions I, II and III. In region I they are straight, parallel and closely spaced. In region II two of the lines end at points, which are negative charges. The middle line continues straight. In region III the top and bottom lines curve away from the middle, so the lines are farther apart and the field is weaker.</desc>
+<rect width="520" height="380" fill="#ffffff"/>
+<path d="M 20 110 L 160 110 C 250 110 330 86 470 24" fill="none" stroke="#1f77c8" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="50" y1="110" x2="66" y2="110" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="80,110 65,116 65,104" fill="#1f77c8"/>
+<line x1="458" y1="30" x2="466.89" y2="25.55" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="478,20 468.4,30.8 463.6,21.2" fill="#1f77c8"/>
+<line x1="20" y1="150" x2="204" y2="150" stroke="#1f77c8" stroke-width="2.5"/>
+<line x1="50" y1="150" x2="66" y2="150" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="80,150 65,156 65,144" fill="#1f77c8"/>
+<circle cx="210" cy="150" r="6" fill="#222222"/>
+<line x1="20" y1="190" x2="500" y2="190" stroke="#1f77c8" stroke-width="2.5"/>
+<line x1="50" y1="190" x2="66" y2="190" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="80,190 65,196 65,184" fill="#1f77c8"/>
+<line x1="300" y1="190" x2="316" y2="190" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="330,190 315,196 315,184" fill="#1f77c8"/>
+<line x1="20" y1="230" x2="204" y2="230" stroke="#1f77c8" stroke-width="2.5"/>
+<line x1="50" y1="230" x2="66" y2="230" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="80,230 65,236 65,224" fill="#1f77c8"/>
+<circle cx="210" cy="230" r="6" fill="#222222"/>
+<path d="M 20 270 L 160 270 C 250 270 330 294 470 356" fill="none" stroke="#1f77c8" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="50" y1="270" x2="66" y2="270" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="80,270 65,276 65,264" fill="#1f77c8"/>
+<line x1="458" y1="350" x2="466.89" y2="354.45" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="478,360 463.6,358.8 468.4,349.2" fill="#1f77c8"/>
+<text x="70" y="369.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">I</tspan></text>
+<text x="210" y="369.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">II</tspan></text>
+<text x="380" y="369.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">III</tspan></text>
+</svg>

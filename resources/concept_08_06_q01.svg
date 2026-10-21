@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
+<title id="title">Elastic scattering from a massive cube and a massive sphere</title>
+<desc id="desc">Two panels. (a) A massive cube, turned as in Figure 3, whose struck face is tilted 30 degrees above the incoming horizontal path. Two incoming paths with different impact parameters b both reflect from the flat face with equal angles of incidence and reflection, so both leave at the same angle θ1 = 60 degrees: for a flat face θ1 does not depend on b. (b) A massive sphere of radius R. The normal at the point of impact depends on b: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120 degrees, b = 0.87R leaves at 60 degrees, and a grazing hit (b near R) is barely deflected. For the sphere θ1 = 180° − 2 arcsin(b/R).</desc>
+<rect width="720" height="380" fill="#ffffff"/>
+<text x="20" y="31.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">massive</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cube</tspan></text>
+<polygon points="213.04,316.96 316.96,256.96 256.96,153.04 153.04,213.04" fill="#cfe3ea" stroke="#222222" stroke-width="1.5"/>
+<line x1="30" y1="201.04" x2="173.82" y2="201.04" stroke="#5e9e1e" stroke-width="2.5"/>
+<line x1="30" y1="201.04" x2="80" y2="201.04" stroke="#5e9e1e" stroke-width="2.5"/>
+<polygon points="90,201.04 79,205.44 79,196.64" fill="#5e9e1e"/>
+<line x1="173.82" y1="201.04" x2="238.82" y2="88.46" stroke="#c62828" stroke-width="2.5"/>
+<line x1="223.82" y1="114.44" x2="238.82" y2="88.46" stroke="#c62828" stroke-width="2.5"/>
+<polygon points="243.82,79.79 242.13,91.52 234.51,87.12" fill="#c62828"/>
+<line x1="30" y1="174.04" x2="220.59" y2="174.04" stroke="#5e9e1e" stroke-width="2.5"/>
+<line x1="30" y1="174.04" x2="80" y2="174.04" stroke="#5e9e1e" stroke-width="2.5"/>
+<polygon points="90,174.04 79,178.44 79,169.64" fill="#5e9e1e"/>
+<line x1="220.59" y1="174.04" x2="285.59" y2="61.46" stroke="#c62828" stroke-width="2.5"/>
+<line x1="270.59" y1="87.44" x2="285.59" y2="61.46" stroke="#c62828" stroke-width="2.5"/>
+<polygon points="290.59,52.79 288.9,64.52 281.28,60.12" fill="#c62828"/>
+<line x1="30" y1="254.61" x2="177.04" y2="254.61" stroke="#5e9e1e" stroke-width="2.5"/>
+<line x1="30" y1="254.61" x2="80" y2="254.61" stroke="#5e9e1e" stroke-width="2.5"/>
+<polygon points="90,254.61 79,259.01 79,250.21" fill="#5e9e1e"/>
+<line x1="177.04" y1="254.61" x2="142.04" y2="315.23" stroke="#c62828" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="173.82" y1="201.04" x2="293.82" y2="201.04" stroke="#666666" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 243.82 201.04 A 70 70 0 0 0 208.82 140.42" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="231.82" y="136.64" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">1</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<text x="200" y="337.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">face</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">any</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">b</tspan><tspan font-style="normal">: </tspan><tspan font-style="italic">θ</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">1</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 2</tspan><tspan font-style="italic">α</tspan><tspan font-style="normal"> = 60°</tspan></text>
+<text x="200" y="360.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">α</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">angle</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">struck</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">face</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">to</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">incoming</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">path</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="380" y1="20" x2="380" y2="360" stroke="#cccccc" stroke-width="1"/>
+<text x="400" y="31.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">massive</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sphere</tspan></text>
+<circle cx="590" cy="220" r="70" fill="#cfe3ea" stroke="#222222" stroke-width="1.5"/>
+<circle cx="590" cy="220" r="3" fill="#222222"/>
+<line x1="400" y1="224" x2="520" y2="224" stroke="#5e9e1e" stroke-width="2.5"/>
+<line x1="400" y1="224" x2="430" y2="224" stroke="#5e9e1e" stroke-width="2.5"/>
+<polygon points="440,224 429,228.4 429,219.6" fill="#5e9e1e"/>
+<line x1="520" y1="216" x2="400" y2="216" stroke="#c62828" stroke-width="2.5"/>
+<line x1="430" y1="216" x2="410" y2="216" stroke="#c62828" stroke-width="2.5"/>
+<polygon points="400,216 411,211.6 411,220.4" fill="#c62828"/>
+<text x="384" y="210.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">180°</tspan></text>
+<line x1="400" y1="185" x2="529.38" y2="185" stroke="#5e9e1e" stroke-width="2.5"/>
+<line x1="400" y1="185" x2="430" y2="185" stroke="#5e9e1e" stroke-width="2.5"/>
+<polygon points="440,185 429,189.4 429,180.6" fill="#5e9e1e"/>
+<line x1="529.38" y1="185" x2="481.88" y2="102.73" stroke="#c62828" stroke-width="2.5"/>
+<line x1="496.88" y1="128.71" x2="486.88" y2="111.39" stroke="#c62828" stroke-width="2.5"/>
+<polygon points="481.88,102.73 491.19,110.05 483.57,114.45" fill="#c62828"/>
+<text x="473.88" y="93.77" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">120°</tspan></text>
+<line x1="400" y1="159.1" x2="555.49" y2="159.1" stroke="#5e9e1e" stroke-width="2.5"/>
+<line x1="400" y1="159.1" x2="430" y2="159.1" stroke="#5e9e1e" stroke-width="2.5"/>
+<polygon points="440,159.1 429,163.5 429,154.7" fill="#5e9e1e"/>
+<line x1="555.49" y1="159.1" x2="604.3" y2="77.6" stroke="#c62828" stroke-width="2.5"/>
+<line x1="588.88" y1="103.34" x2="599.16" y2="86.18" stroke="#c62828" stroke-width="2.5"/>
+<polygon points="604.3,77.6 602.42,89.3 594.87,84.77" fill="#c62828"/>
+<text x="612.52" y="68.77" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+<text x="560" y="335.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">1</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 180° − 2 </tspan><tspan font-style="normal">arcsin</tspan><tspan font-style="normal">(</tspan><tspan font-style="italic">b</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">R</tspan><tspan font-style="normal">)</tspan></text>
+<text x="560" y="358.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">b</tspan><tspan font-style="normal"> = 0, </tspan><tspan font-style="normal">R</tspan><tspan font-style="normal">/2, 0.87</tspan><tspan font-style="normal">R</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">shown</tspan></text>
+</svg>

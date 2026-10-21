@@ -184,7 +184,7 @@ Finding the Speed of a Roller Coaster from its Height
 (a) What is the final speed of the roller coaster shown in [Figure 4](#Figure4) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
 (b) What is its final speed (again assuming negligible friction) if its initial speed is 5.00 m/s?
 
-![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_07_03_04.jpg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \) is converted to \( \Delta \KE \) .")
+![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_07_03_04.svg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \) is converted to \( \Delta \KE \) .")
 {: #Figure4 height="200"}
 
 **Strategy**
@@ -324,6 +324,34 @@ In [Example 2](#example2), we calculated the final speed of a roller coaster tha
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply conservation of mechanical energy, $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$, with no friction. Note that kinetic energy depends only on speed, not on direction, and that the change in gravitational potential energy depends only on the change in height.
+
+**Solution**
+
+Measure heights from the final point, with $$ +y $$ upward, so the start is at $$ h = 20.0 \m $$ and the end is at $$ 0 \m $$. With negligible friction, mechanical energy is conserved:
+
+<div class="equation">
+$$ \tfrac{1}{2}mv_{0}^{2} + mgh = \tfrac{1}{2}mv^{2} + 0 \quad \Rightarrow \quad v = \sqrt{v_{0}^{2} + 2gh} $$
+</div>
+
+The initial kinetic energy $$ \tfrac{1}{2}mv_{0}^{2} $$ is the **same** whether the $$ 5.00 \ms $$ is uphill or downhill, because kinetic energy depends on $$ v_{0}^{2} $$, not on direction.
+
+When the coaster coasts uphill, its kinetic energy turns into gravitational potential energy until it stops, about $$ (5.00 \ms)^2/[2(9.80 \mss)] = 1.28 \m $$ above the start. Rolling back down, it regains all of that energy. By the time it passes its starting point again, it is moving downhill at $$ 5.00 \ms $$, exactly the situation of the original example. It then descends the $$ 20.0 \m $$ to the end:
+
+<div class="equation">
+$$ v = \sqrt{(5.00 \ms)^2 + 2(9.80 \mss)(20.0 \m)} = \sqrt{25.0 \mmss + 392 \mmss} = 20.4 \ms $$
+</div>
+
+Only the starting and ending heights matter, because gravity is a conservative force: the energy stored going up is returned completely coming down.
+
+The final speed is still $$ 20.4 \ms $$ because, with no friction, the mechanical energy is conserved: the initial kinetic energy is the same for $$ 5.00 \ms $$ uphill or downhill, the extra climb stores energy that is fully returned on the way back down, and the net drop of $$ 20.0 \m $$ is the same in both cases.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -331,6 +359,29 @@ In [Example 2](#example2), we calculated the final speed of a roller coaster tha
 ::: problem
 
 Does the work you do on a book when you lift it onto a shelf depend on the path taken? On the time taken? On the height of the shelf? On the mass of the book?
+
+:::
+
+::: solution
+
+**Strategy**
+
+When you lift the book slowly (with no change in kinetic energy), the work you do equals the increase in its gravitational potential energy, $$ W = mgh $$. Check which quantities appear in that expression.
+
+**Solution**
+
+Take $$ +y $$ upward and lift a $$ 1.5 \kg $$ book from the floor onto a shelf $$ 2.0 \m $$ high, starting and ending at rest. The work you do is
+
+<div class="equation">
+$$ W = \Delta\PE_{g} = mgh = (1.5 \kg)(9.80 \mss)(2.0 \m) = 29 \J $$
+</div>
+
+- **Path:** No. Gravity is a conservative force, so the change in potential energy, and thus your work, depends only on the change in height. Lifting straight up or along a winding path both take $$ 29 \J $$ (neglecting any friction).
+- **Time:** No. Time does not appear in $$ mgh $$. Lifting the book in $$ 1 \s $$ or in $$ 10 \s $$ takes the same $$ 29 \J $$, although the power differs ($$ 29 \text{ W} $$ compared with $$ 2.9 \text{ W} $$).
+- **Height:** Yes. The work is proportional to $$ h $$. A shelf $$ 1.0 \m $$ high requires half as much, $$ 15 \J $$.
+- **Mass:** Yes. The work is proportional to $$ m $$. A $$ 3.0 \kg $$ book requires twice as much, $$ 59 \J $$.
+
+The work you do lifting a book onto a shelf, $$ W = mgh $$ ($$ 29 \J $$ for a $$ 1.5 \kg $$ book and a $$ 2.0 \m $$ shelf), does not depend on the path or on the time taken, but it is proportional to the height of the shelf and to the mass of the book.
 
 :::
 
@@ -385,7 +436,7 @@ $$E_{bomb} = 9 \times 4.18 \times 10^{15}\text{ J} = 3.76 \times 10^{16}\text{ J
 
 Ratio:
 <div class="equation">
-$$\frac{\PE_{g}}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52$$
+$$\frac{\PE_{g}}{E_{bomb}} = \frac{1.96 \times 10^{16} \J}{3.76 \times 10^{16} \J} = 0.52$$
 </div>
 
 **Discussion**
@@ -567,6 +618,12 @@ A 100-g toy car is propelled by a compressed spring that starts it moving. The c
 
 Use conservation of mechanical energy for a frictionless surface. The initial kinetic energy plus initial gravitational potential energy equals the final kinetic energy plus final gravitational potential energy. Since the car goes up, it gains gravitational potential energy and loses kinetic energy.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the car’s starting level and a tick at 0.180 m. The car starts with v_0 = 2.00 m/s and coasts up the frictionless track to a point 0.180 m higher, where its speed v_f is unknown.](../resources/sketch_07_03_p05.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the car's starting level, so $$ h_0 = 0 $$ and the final height is $$ h = +0.180\m $$; the potential energy $$ mgh $$ increases as the car climbs.
+
 **Solution**
 
 **Given:**
@@ -599,7 +656,7 @@ $$v_f = \sqrt{v_0^2 - 2gh} = \sqrt{(2.00\ms)^2 - 2(9.80\mss)(0.180\m)}$$
 </div>
 
 <div class="equation">
-$$v_f = \sqrt{4.00 - 3.528} = \sqrt{0.472} = 0.687\ms$$
+$$v_f = \sqrt{4.00 \mmss - 3.528 \mmss} = \sqrt{0.472 \mmss} = 0.687\ms$$
 </div>
 
 **Discussion**
@@ -633,6 +690,12 @@ slope neglecting friction:
 
 We use conservation of energy: $$\KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}}$$. The height descended is $$h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m$$. For the time, we use kinematics with constant acceleration $$a = g\sin{\theta}$$ down the slope.
 
+**Sketch and coordinate system**
+
+![A frictionless 30° slope descends to the right. A vertical +y axis (up) measures height, with y = 0 at the bottom and 35.0 m at the start. A tilted +x axis points down the slope, the direction of motion. The skier travels d = 70.0 m along +x, starting with v_0 = 0 in part (a) or 2.50 m/s in part (b); the final speed v and time t are unknown. The acceleration a = g sin 30° points along +x.](../resources/sketch_07_03_p06.svg){: .sketch}
+
+Measure heights along $$ +y $$ (upward) from the bottom of the run, so the skier starts at $$ h = +35.0\m $$ and ends at $$ 0 $$. For the time, take $$ +x $$ down the slope: the velocity and the acceleration $$ a = g\sin{30^\circ} = +4.90\mss $$ both point along $$ +x $$.
+
 **Solution for (a)**
 
 Starting from rest ($$v_{0} = 0$$):
@@ -660,7 +723,7 @@ $$\begin{array}{lll}
 \frac{1}{2}mv_{0}^{2} + mgh &=& \frac{1}{2}mv^{2}\\
 v &=& \sqrt{v_{0}^{2} + 2gh}\\
 v &=& \sqrt{(2.50\ms)^{2} + 2(9.80\mss)(35.0\m)}\\
-v &=& \sqrt{6.25 + 686}\text{ m/s} = \sqrt{692.25}\text{ m/s}\\
+v &=& \sqrt{6.25\mmss + 686\mmss} = \sqrt{692.25\mmss}\\
 v &=& 26.3\ms
 \end{array}$$
 </div>

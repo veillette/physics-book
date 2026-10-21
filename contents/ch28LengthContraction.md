@@ -268,6 +268,27 @@ Answer
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Length Contraction
+</div>
+
+Watch a rod shorten along its direction of motion, and try to fit a moving ladder into a barn. Length perpendicular to the motion does not change.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/SpecialRelativity/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Length contraction
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Summary
 
 - Two inertial observers agree on the magnitude of their mutual relative velocity.
@@ -496,7 +517,7 @@ related when $$\text{γ} = 30.00 $$.
 
 **Strategy**
 
-First convert 100 yd to meters: $$100 \text{ yd} = 100 \times 0.9144 \text{ m} = 91.44$$ m. The proper length is $$L_0 = 100$$ m, and the contracted length is $$L = 91.44$$ m. Use $$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$ to find the required velocity.
+First convert 100 yd to meters: $$100 \text{ yd} = 100 \times 0.9144 \text{ m} = 91.44\,\text{m}$$ m. The proper length is $$L_0 = 100$$ m, and the contracted length is $$L = 91.44$$ m. Use $$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$ to find the required velocity.
 
 **Solution**
 

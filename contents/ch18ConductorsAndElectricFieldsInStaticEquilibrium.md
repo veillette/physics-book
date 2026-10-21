@@ -4,15 +4,16 @@ layout: page
 sectionNumber: 7
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* List the three properties of a conductor in electrostatic equilibrium.
-* Explain the effect of an electric field on free charges in a conductor.
-* Explain why no electric field may exist inside a conductor.
-* Describe the electric field surrounding Earth.
-* Explain what happens to an electric field applied to an irregular conductor.
-* Describe how a lightning rod works.
-* Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car.
+- List the three properties of a conductor in electrostatic equilibrium.
+- Explain the effect of an electric field on free charges in a conductor.
+- Explain why no electric field may exist inside a conductor.
+- Describe the electric field surrounding Earth.
+- Explain what happens to an electric field applied to an irregular conductor.
+- Describe how a lightning rod works.
+- Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car.
 
 :::
 
@@ -29,7 +30,7 @@ can be either positive or negative and are, in fact, negative in metals. The
 motion of a positive charge is equivalent to the motion of a negative charge in
 the opposite direction.
 
-![In part a, an electric field E exists at some angle with the horizontal applied on a conductor. One component of this field E parallel is along x axis represented by a vector arrow and other E perpendicular, is along y axis represented by a vector arrow. Charge inside the conductor moves along x axis so the force acting on it is F parallel, which is equal to q multiplied by E parallel. In part b, a charge is shown inside the conductor and electric field is represented by a vector arrow pointing upward starting from the surface of the conductor.](../resources/Figure_18_07_02.jpg 'When an electric field ( E ) is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( E_{\\parallel } ) exerts a force ( F_{\\parallel } ) on the free charge ( q ) , which moves the charge until ( F_{\\parallel}=0 ). (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.')
+![(a) An electric field E at a conductor’s surface, drawn with its component E⊥ perpendicular to the surface and E∥ parallel to it. The parallel component exerts a force F∥ = qE∥ on a free charge q at the surface, moving it along the surface. (b) In static equilibrium the charges have moved until the field is perpendicular to the surface, so there is no parallel force.](../resources/Figure_18_07_02.svg 'When an electric field ( E ) is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component ( E_{\\parallel } ) exerts a force ( F_{\\parallel } ) on the free charge ( q ) , which moves the charge until ( F_{\\parallel}=0 ). (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.')
 {: #Figure1}
 
 A conductor placed in an **electric field** will be **polarized**
@@ -37,7 +38,7 @@ A conductor placed in an **electric field** will be **polarized**
 originally uniform electric field. The field becomes stronger near the conductor
 but entirely disappears inside it.
 
-![A spherical conductor is placed in the external electric field. The field lines are shown running from left to right. The field lines enter and leave the conductor at right angles. Negative charges accumulate on the left surface of the conductor and positive charges accumulate on the right surface of the conductor.](../resources/Figure_18_07_03.jpg 'This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.')
+![Computed field lines around a neutral conducting sphere placed in a field that points to the right and was uniform before the sphere was there. Free charges in the sphere move until the field lines meet its surface at right angles: lines end on negative charge induced on the left side and start again on positive charge induced on the right side. There is no field inside the sphere, and far away the field is uniform again.](../resources/Figure_18_07_03.svg 'This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.')
 {: #Figure2}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -48,7 +49,7 @@ Misconception Alert: Electric Field inside a Conductor
 
 Excess charges placed on a spherical conductor repel and move until they are evenly distributed, as shown in [[Figure 3]](#Figure3). Excess charge is forced to the surface until the field inside the conductor is zero. Outside the conductor, the field is exactly the same as if the conductor were replaced by a point charge at its center equal to the excess charge.
 
-![A positively charged sphere is shown and positive charges are distributed all over the surface. Electric field lines emanate from the sphere in the space shown by the vector arrow pointing outward.](../resources/Figure_18_07_04.jpg 'The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.')
+![Excess positive charges spread uniformly over the surface of a conducting sphere. The field lines leave the surface at right angles and point radially outward, like the field of a point charge at the center. There is no field inside.](../resources/Figure_18_07_04.svg 'The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.')
 {: #Figure3}
 
 :::
@@ -59,9 +60,9 @@ Excess charges placed on a spherical conductor repel and move until they are eve
 Properties of a Conductor in Electrostatic Equilibrium
 </div>
 
-1.   The electric field is zero inside a conductor.
-2.   Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
-3.   Any excess charge resides entirely on the surface or surfaces of a conductor.
+1.  The electric field is zero inside a conductor.
+2.  Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
+3.  Any excess charge resides entirely on the surface or surfaces of a conductor.
 
 :::
 
@@ -78,7 +79,7 @@ lines that are uniformly spaced (hence uniform in strength) and perpendicular to
 the surfaces (hence uniform in direction, since the plates are flat). The edge
 effects are less important when the plates are close together.
 
-![Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.](../resources/Figure_18_07_05.jpg 'Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).')
+![An upper metal plate with positive charge and a lower plate with an equal negative charge. Between them the field lines are straight, evenly spaced and point down from the positive plate to the negative plate, so the field is uniform; near the ends the lines bow outward.](../resources/Figure_18_07_05.svg 'Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).')
 {: #Figure4}
 
 ### Earth’s Electric Field
@@ -126,7 +127,7 @@ field, as seen in [[Figure 6]](#Figure6) (c). Since the field lines must be
 perpendicular to the surface, more of them are concentrated on the most curved
 parts.
 
-![In part a, a conductor is shown with the unsymmetrical shape. The identical pair of charges at opposite ends on the conductor have similar components of forces represented by arrows. In part b, the unsymmetrical object has positive charge on its surface. The electric field lines are shown emerging perpendicular from the surface of the conductor represented by vector arrow. In part c, the field lines in and around the conductor running from left to right is shown. The left surface of the conductor has negative charge and the right surface has positive charge. The field lines enter and leave the conductor at right angles.](../resources/Figure_18_07_07.jpg 'Excess charge on a nonuniform conductor becomes most concentrated at the location of greatest curvature. (a) The forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surface are different. It is ( F_{\\parallel } ) that moves the charges apart once they have reached the surface. (b) ( F_{\\parallel } ) is smallest at the more pointed end, the charges are left closer together, producing the electric field shown. (c) An uncharged conductor in an originally uniform electric field is polarized, with the most concentrated charge at its most pointed end.')
+![(a) On an egg-shaped conductor, identical pairs of charges at the blunt left end and the sharp right end repel with equal forces F, but the component F∥ parallel to the surface is larger at the blunt end, so charges are pushed away from it and toward the sharper end. (b) Computed charge marks and field lines of the charged conductor: the charge, and the field, are densest at the sharply curved right end. (c) Computed field lines of the neutral conductor in an originally uniform field: the induced charge, and the field just outside, are greatest at the sharply curved end.](../resources/Figure_18_07_07.svg 'Excess charge on a nonuniform conductor becomes most concentrated at the location of greatest curvature. (a) The forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surface are different. It is ( F_{\\parallel } ) that moves the charges apart once they have reached the surface. (b) ( F_{\\parallel } ) is smallest at the more pointed end, the charges are left closer together, producing the electric field shown. (c) An uncharged conductor in an originally uniform electric field is polarized, with the most concentrated charge at its most pointed end.')
 {: #Figure6}
 
 ### Applications of Conductors
@@ -160,7 +161,7 @@ the car and the inside is unaffected, provided you remain totally inside. This
 is also true if an active (“hot”) electrical wire was broken (in a storm or an
 accident) and fell on your car.
 
-![A cone shaped positively charged conductor is shown where most of the positive charges are accumulated at the tip. The field lines represented by arrows emerge at right angles from the surface of the conductor in outward direction. The density of field lines is greater at the tip of the cone than at other surfaces.](../resources/Figure_18_07_08.jpg 'A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.')
+![A tall, cone-shaped positively charged conductor. Most of the excess charge is crowded at the sharp tip, and the field lines there are densely packed, fanning out from the point, so the field is very strong at the tip. Along the broad lower part a few charges are spread out and a few field lines leave the surface at right angles, so the field there is weak.](../resources/Figure_18_07_08.svg 'A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.')
 {: #Figure7}
 
 ![In part a, a lightning rod is shown on the roof of a house. In part b, a person is touching the metal sphere of the Van De Graaff and his hair is standing up.](../resources/Figure_18_07_09.jpg '(a) A lightning rod is pointed to facilitate the transfer of charge. (credit: Romaine, Wikimedia Commons) (b) This Van de Graaff generator has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated. The mutual repulsion of like charges is evident in the person’s hair while touching the metal sphere. (credit: Jon ‘ShakataGaNai’ Davis/Wikimedia Commons).')
@@ -191,8 +192,24 @@ accident) and fell on your car.
 
 Is the object in [[Figure 9]](#Figure9) a conductor or an insulator? Justify your answer.
 
-![External field lines entering the object from one end and emerging from another are shown by lines.](../resources/Figure_18_07_11.jpg ' ')
+![An irregularly shaped object in an external electric field. The field lines enter the object at one end, continue through it, and leave at the other end; they do not meet its surface at right angles.](../resources/Figure_18_07_11.svg ' ')
 {: #Figure9}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the electrostatic boundary conditions for a conductor.
+
+**Solution**
+
+An equilibrium conductor has zero field in its material, and its external field is perpendicular to its surface. In Figure 9, field lines enter and leave the object at oblique angles and pass through its interior. Mobile charge in a conductor would redistribute until those tangential and interior fields vanished.
+
+**Discussion**
+
+Under the section’s static-equilibrium assumption, the illustrated object must be an insulator, since it supports a nonzero interior field and oblique surface field.
 
 :::
 
@@ -206,6 +223,22 @@ If the electric field lines in the figure above were perpendicular to the object
 
 :::
 
+::: solution
+
+**Strategy**
+
+Decide whether one necessary boundary condition is sufficient to identify a material.
+
+**Solution**
+
+Perpendicular external field is necessary at the surface of a conductor in electrostatic equilibrium, but an insulator can also have this field geometry. For example, a spherically symmetric charged insulating sphere has radial field, perpendicular to its spherical surface, even though charges cannot move freely through it.
+
+**Discussion**
+
+One must also establish charge mobility and the appropriate zero interior field. Perpendicular field lines alone therefore do not prove that the object is a conductor.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -213,6 +246,22 @@ If the electric field lines in the figure above were perpendicular to the object
 ::: problem
 
 The discussion of the electric field between two parallel conducting plates, in this module states that edge effects are less important if the plates are close together. What does close mean? That is, is the actual plate separation crucial, or is the ratio of plate separation to plate area crucial?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare plate separation with the plates’ lateral dimensions.
+
+**Solution**
+
+For plates with characteristic width $$L$$ and separation $$d$$, edge effects are small over most of the area when $$d/L\ll1$$. For square plates of area $$A$$, this becomes $$d/\sqrt A\ll1$$, rather than the dimensionful ratio $$d/A$$. Assumed square plates $$0.10\text{ m}$$ wide and $$0.001\text{ m}$$ apart have $$d/L=0.01$$.
+
+**Discussion**
+
+The field still bends near the edges. “Close” means that separation is small compared with the plate width or other lateral dimensions, not that the separation alone has a particular absolute value.
 
 :::
 
@@ -226,6 +275,22 @@ Would the self-created electric field at the end of a pointed conductor, such as
 
 :::
 
+::: solution
+
+**Strategy**
+
+Follow the direction of the local field and of forces on positive ions and electrons.
+
+**Solution**
+
+A positively charged sharp tip produces a strong outward field: positive air ions are repelled outward and electrons are attracted inward, reducing the tip’s positive charge. A negative tip has the reverse field and loses negative charge through outward-moving negative carriers or inward-moving positive ions. For a neutral conductor, an external field polarizes it, concentrating one sign at each end; an outward field at a particular tip can likewise carry positive charge outward, and an inward field can carry negative charge outward.
+
+**Discussion**
+
+A solid metal generally retains its positive lattice ions; charge transfer occurs through electrons and ionized air. The sign removed is determined by the local field direction, so a similarly directed external field can remove the same sign from an initially neutral pointed conductor.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -233,6 +298,22 @@ Would the self-created electric field at the end of a pointed conductor, such as
 ::: problem
 
 Why is a golfer with a metal club over her shoulder vulnerable to lightning in an open fairway? Would she be any safer under a tree?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider both height and electric-field concentration at a pointed conducting object.
+
+**Solution**
+
+In an open fairway the golfer and raised club form a relatively high, narrow feature. Charge concentrates near the club’s tip, enhancing the local field and favoring discharge as a lightning channel approaches. A tree is also a likely strike point, and a strike can reach a nearby person by side flash or through the ground.
+
+**Discussion**
+
+A metal club does not attract lightning from an unlimited distance, and shelter under a tree is unsafe; see the [National Weather Service lightning guidance](https://www.weather.gov/mqt/lightningtips). The golfer is vulnerable in the open and should seek a substantial enclosed building or enclosed metal-topped vehicle rather than stand under a tree.
 
 :::
 
@@ -246,6 +327,22 @@ Can the belt of a Van de Graaff accelerator be a conductor? Explain.
 
 :::
 
+::: solution
+
+**Strategy**
+
+The belt must transport charge between regions at very different potentials.
+
+**Solution**
+
+A Van de Graaff belt picks up charge near one roller, carries it to the high-voltage terminal, and gives it up there. If a continuous conducting belt connected those regions, charge could flow along it and leak back, tending to equalize their potentials instead of building up the terminal voltage.
+
+**Discussion**
+
+The rollers and charge-collecting combs can be conductors, but the charge-carrying belt must be sufficiently insulating to maintain the charge separation.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -253,6 +350,22 @@ Can the belt of a Van de Graaff accelerator be a conductor? Explain.
 ::: problem
 
 Are you relatively safe from lightning inside an automobile? Give two reasons.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the redistribution of charge and current on a continuous metal enclosure.
+
+**Solution**
+
+An enclosed metal-topped automobile provides a conducting shell that largely shields the passenger compartment from external electric fields. If struck, much of the lightning current travels through the metal body around the occupants and then to ground, rather than through their bodies. Stay inside with windows closed and avoid contact with conducting parts connected to the exterior.
+
+**Discussion**
+
+The tires are not the main protection, and a convertible or open vehicle lacks the same enclosure; see the [National Weather Service explanation of lightning and cars](https://www.weather.gov/safety/lightning-cars). A closed metal-topped car is relatively safe because of electric shielding and the current path through its metal shell.
 
 :::
 
@@ -266,27 +379,75 @@ Discuss pros and cons of a lightning rod being grounded versus simply being atta
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the available path for lightning current after a strike.
+
+**Solution**
+
+A properly grounded lightning rod is connected by a designed low-impedance conductor to an earth termination, giving strike current a path that limits passage through the building. A rod merely attached to a building can receive a strike without providing a controlled path to ground; current may then arc through structural materials and start a fire. A grounded system requires suitable installation and maintenance.
+
+**Discussion**
+
+The rod does not guarantee prevention of a strike. Grounding is the essential advantage because it provides a planned current path; an ungrounded rod attached to a building offers no comparable protection.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Using the symmetry of the arrangement, show that the net Coulomb force on the charge  $$q $$  at the center of the square below ([[Figure 10]](#Figure10)) is zero if the charges on the four corners are exactly equal.
+Using the symmetry of the arrangement, show that the net Coulomb force on the charge $$q $$ at the center of the square below ([[Figure 10]](#Figure10)) is zero if the charges on the four corners are exactly equal.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Pair each corner with the diagonally opposite corner.
+
+**Solution**
+
+All four corners are the same distance from the center. Equal corner charges therefore exert equal-magnitude forces on the central charge. The forces from $$q_a$$ and $$q_d$$ are opposite and cancel; the same is true for $$q_b$$ and $$q_c$$. Thus $$\vec F_a+\vec F_d=0$$ and $$\vec F_b+\vec F_c=0$$.
+
+**Discussion**
+
+This cancellation holds whether the central charge is positive or negative. The net Coulomb force on the central charge is zero because both diagonal force pairs cancel.
 
 :::
 
 </div>
 
-![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg 'Four point charges ( q_{a} ), ( q_{b} ), ( q_{c} ), and ( q_{d} ) lie on the corners of a square and ( q ) is located at its center.')
+![Point charges qa at the top left, qb at the top right, qc at the bottom left and qd at the bottom right corners of a square, with a charge q at its center.](../resources/Figure_18_07_12.svg 'Four point charges ( q_{a} ), ( q_{b} ), ( q_{c} ), and ( q_{d} ) lie on the corners of a square and ( q ) is located at its center.')
 {: #Figure10}
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 10]](#Figure10) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which  $${q}_{a}={q}_{d} $$
- and  $${q}_{b}={q}_{c} $$
+(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 10]](#Figure10) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which $${q}_{a}={q}_{d} $$
+and $${q}_{b}={q}_{c} $$
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply superposition to diagonally opposite charges at equal distances.
+
+**Solution**
+
+(a) With four equal charges, each corner’s electric field at the center is equal and opposite to that from the opposite corner, so the total is zero. (b) The same cancellation works independently for each diagonal: $$q_a=q_d$$ gives $$\vec E_a+\vec E_d=0$$, and $$q_b=q_c$$ gives $$\vec E_b+\vec E_c=0$$. The two diagonal pairs need not have the same magnitude or sign.
+
+**Discussion**
+
+The field cancellation does not depend on the central test charge. The center has zero electric field whenever the charges at opposite ends of each diagonal are equal.
 
 :::
 
@@ -296,11 +457,27 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 
 ::: problem
 
-(a) What is the direction of the total Coulomb force on  $$q $$
- in [[Figure 10]](#Figure10) if  $$q $$
- is negative,  $${q}_{a}={q}_{c} $$
- and both are negative, and  $${q}_{b}={q}_{c} $$
- and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
+(a) What is the direction of the total Coulomb force on $$q $$
+in [[Figure 10]](#Figure10) if $$q $$
+is negative, $${q}_{a}={q}_{c} $$
+and both are negative, and $${q}_{b}={q}_{d} $$
+and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the corrected signs: both left-hand charges are negative, and both right-hand charges are positive.
+
+**Solution**
+
+(a) The negative central charge is repelled to the right by the negative left-hand pair and attracted to the right by the positive right-hand pair. Within each vertical pair, the upward and downward force components cancel. The total force is therefore horizontally rightward. (b) The electric field points opposite the force on a negative test charge, so it is horizontally leftward.
+
+**Discussion**
+
+The equality $$q_b=q_d$$ ensures cancellation of the right pair’s vertical components; their magnitude need not equal the left pair’s. The central negative charge feels a rightward force, while the electric field at the center points left.
 
 :::
 
@@ -310,9 +487,25 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 
 ::: problem
 
-Considering [[Figure 10]](#Figure10), suppose that  $${q}_{a}={q}_{d} $$
- and  $${q}_{b}={q}_{c} $$ .
- First show that  $$q $$  is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of  $$q $$  from the center of the square.
+Considering [[Figure 10]](#Figure10), suppose that $${q}_{a}={q}_{d} $$
+and $${q}_{b}={q}_{c} $$ .
+First show that $$q $$ is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of $$q $$ from the center of the square.
+
+:::
+
+::: solution
+
+**Strategy**
+
+First cancel opposite diagonal pairs, then examine small displacements rather than only the central force.
+
+**Solution**
+
+At the center, $$q_a=q_d$$ and $$q_b=q_c$$ make both diagonal field pairs cancel, giving $$\vec F=0$$. For an illustrative case with all four corner charges positive and the central charge positive, a small displacement within the square produces a restoring force. A displacement perpendicular to the square instead gives a force away from the plane, so that equilibrium is unstable in three dimensions. Reversing the central charge reverses these stability directions. Unequal diagonal pairs can also give different stability along different directions within the plane.
+
+**Discussion**
+
+For fixed electrostatic sources in a charge-free neighborhood, the potential obeys Laplace’s equation and cannot have a strict local minimum or maximum there. Thus the center is an equilibrium, but it cannot be a fully stable three-dimensional electrostatic trap for a nonzero test charge; the restoring or destabilizing directions depend on the charge signs and magnitudes.
 
 :::
 
@@ -322,8 +515,24 @@ Considering [[Figure 10]](#Figure10), suppose that  $${q}_{a}={q}_{d} $$
 
 ::: problem
 
-If  $${q}_{a}=0 $$
- in [[Figure 10]](#Figure10), under what conditions will there be no net Coulomb force on  $$q $$ ?
+If $${q}_{a}=0 $$
+in [[Figure 10]](#Figure10), under what conditions will there be no net Coulomb force on $$q $$ ?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Set the two in-plane field components at the center to zero.
+
+**Solution**
+
+Choose the center as the origin with corners $$a=(-s,s)$$, $$b=(s,s)$$, $$c=(-s,-s)$$, and $$d=(s,-s)$$. Their equal distances give $$E_x\propto q_a-q_b+q_c-q_d$$ and $$E_y\propto-q_a-q_b+q_c+q_d$$. With $$q_a=0$$, requiring both components to vanish yields $$q_d=0$$ and $$q_b=q_c$$.
+
+**Discussion**
+
+These conditions apply to a nonzero central charge with no other fields; a neutral central object has zero point-charge force trivially. There is no net Coulomb force on a nonzero central charge when $$q_d=0$$ and the remaining diagonal pair satisfies $$q_b=q_c$$.
 
 :::
 
@@ -337,6 +546,22 @@ In regions of low humidity, one develops a special “grip” when opening car d
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare localized fields and current density at a fingertip with those over a broad contact.
+
+**Solution**
+
+A charged hand induces opposite charge on the nearby metal. A fingertip’s small radius concentrates the field and favors a spark across the last air gap. Approaching with a broader part of the hand reduces this concentration, and a broad contact spreads the transient discharge current over more skin, reducing its local intensity and discomfort.
+
+**Discussion**
+
+The total charge to be discharged is not eliminated by changing the grip. A broad contact makes a static discharge less localized and often less painful than a fingertip spark.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -344,6 +569,22 @@ In regions of low humidity, one develops a special “grip” when opening car d
 ::: problem
 
 Tollbooth stations on roadways and bridges usually have a piece of wire stuck in the pavement before them that will touch a car as it approaches. Why is this done?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider charge accumulated on a car isolated by its tires.
+
+**Solution**
+
+A grounded wire that actually contacts the car’s conducting body provides a path for excess static charge to flow to Earth. This reduces the potential difference between the car and the tollbooth attendant or equipment before a person touches the vehicle.
+
+**Discussion**
+
+The explanation assumes the wire is grounded and makes conducting contact; contact only with insulating rubber would not reliably discharge the body. Such a wire is used to drain static charge and reduce sparks at the booth.
 
 :::
 
@@ -358,6 +599,22 @@ the consequences if they simply walks away?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Trace possible conductive paths from the person to ground.
+
+**Solution**
+
+To retain charge while standing on the ground, the person needs sufficiently insulating, dry footwear; wet or conductive soles let charge leak away. A suitable conducting connection to ground discharges the person by allowing electrons to enter or leave until the potential difference is removed. If the person simply walks away while insulated, the charge can remain and may produce a later spark on approaching a conductor; shoe–floor contact can also add or remove charge.
+
+**Discussion**
+
+Charge retention depends on footwear, moisture, and surrounding leakage paths. Arbitrary shoes do not ensure insulation, and walking away does not by itself guarantee discharge.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -368,7 +625,7 @@ the consequences if they simply walks away?
 
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 11]](#Figure11) given the field was originally uniform and parallel to the object's long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_18_07_13.jpg ' ')
+![A oblong-shaped conductor.](/resources/Figure_18_07_13.svg ' ')
 {: #Figure11}
 
 :::
@@ -397,6 +654,8 @@ The sketch should show the following features:
 
 Yes, the resulting field is indeed small near the long sides of the object. This is because the surface there is relatively flat with a large radius of curvature, so charges spread out more uniformly and are less concentrated.
 
+![Computed field lines around a neutral, rounded oblong conductor placed in a field that was uniform and pointing to the right. Far away the lines are straight and evenly spaced. Near the conductor they bend so that they meet its surface at right angles: lines crowd into the left end, where negative charge is induced, and crowd out of the right end, where positive charge is induced. Along the long flat sides the lines are sparse and few charges sit there, so the field near the sides is small. There is no field inside the conductor.](../resources/concept_18_07_p01.svg)
+
 **Discussion**
 
 The behavior illustrated in this problem demonstrates key principles of conductors in electrostatic equilibrium. The field concentration at the pointed ends occurs because the electrostatic repulsion between like charges is less effective at moving them apart on highly curved surfaces. The parallel component of the force between charges is smaller on the pointed ends compared to the flat sides, so charges remain more concentrated there.
@@ -413,7 +672,7 @@ This concentration of charge and field at sharp points has practical application
 
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 12]](#Figure12) given the field was originally uniform and parallel to the object's long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_18_07_14.jpg ' ')
+![A oblong-shaped conductor.](/resources/Figure_18_07_14.svg ' ')
 {: #Figure12}
 
 :::
@@ -442,6 +701,8 @@ The sketch should include these key features:
 
 Yes, the resulting field is small near the long sides of the object. The flatter surfaces have lower charge concentration and therefore produce weaker fields. The field magnitude is inversely related to the radius of curvature of the surface.
 
+![Computed field lines around a neutral, lens-shaped conductor with pointed ends, placed in a field that was uniform and pointing to the right. The lines meet the surface at right angles. They are concentrated very strongly at the two sharp tips, where the induced charge is most dense: negative at the left tip, positive at the right tip. Along the broad curved sides the lines are sparse, so the field there is small. There is no field inside the conductor.](../resources/concept_18_07_p02.svg)
+
 **Discussion**
 
 This problem reinforces the relationship between surface curvature and field strength for conductors in electrostatic equilibrium. The dramatic difference between field strength at pointed ends versus flat sides explains many practical phenomena. For instance, St. Elmo's fire (a corona discharge) occurs at the pointed masts and rigging of ships but not on the flat deck because the field exceeds the breakdown threshold only at the sharp points.
@@ -458,7 +719,7 @@ The weak field near flat surfaces is why parallel plate capacitors have uniform 
 
 Sketch the electric field between the two conducting plates shown in [[Figure 13]](#Figure13), given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.
 
-![Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.](../resources/Figure_18_07_15.jpg ' ')
+![Two flat conducting plates seen edge on. The top plate tilts upward to the right; the bottom plate is nearly horizontal. They are closest together at the left end and farthest apart at the right.](../resources/Figure_18_07_15.svg ' ')
 {: #Figure13}
 
 :::
@@ -474,9 +735,9 @@ For two conducting plates with opposite charges, the electric field lines must b
 The sketch should show the following features:
 
 1. **Charge distribution on the plates**:
-   - On the **positive (top) plate**: Draw + symbols distributed along the inner surface (facing the negative plate). The charge density should be relatively uniform in the central region but may be higher near the edges.
-   - On the **negative (bottom) plate**: Draw − symbols distributed along the inner surface (facing the positive plate). Similar distribution pattern.
-   - Both plates should have most charge on the inner surfaces, with little to no charge on the outer surfaces.
+   - On the **positive (top) plate**: Draw + symbols mainly along the inner surface (facing the negative plate). Because the gap is not uniform, neither is the charge: the + symbols are most crowded at the narrow end, where the plates are closest, thin out toward the wide end, and bunch up again at the sharp corners.
+   - On the **negative (bottom) plate**: Draw − symbols along its inner surface with the same pattern, densest at the narrow end.
+   - Most of the charge is on the inner surfaces. Some sits on the outer surfaces, especially near the edges, where the fringe field lines begin and end.
 
 2. **Field lines in the central region**:
    - Draw field lines starting perpendicular to the positive plate and ending perpendicular to the negative plate.
@@ -493,6 +754,8 @@ The sketch should show the following features:
    - Most field lines connect the positive plate to the negative plate, perpendicular to both surfaces.
    - The varying separation between plates creates a non-uniform field—stronger where plates are closer.
    - Field lines should never cross each other.
+
+![Computed field lines between two conducting plates that are closest together at the left and spread apart toward the right. The top plate is positive and the bottom plate negative. Field lines leave the top plate at right angles and arrive at the bottom plate at right angles, curving between them. The lines are most crowded, and the field strongest, where the plates are closest. Positive charge sits mainly on the lower face of the top plate and negative charge on the upper face of the bottom plate, with the greatest density at the narrow left end and at the corners; little charge is on the outer faces. Fringe lines bulge outward beyond the open right end and around the edges.](../resources/concept_18_07_p03.svg)
 
 **Discussion**
 
@@ -512,7 +775,7 @@ The edge effects shown here are similar to those in all finite conductor configu
 
 Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 14]](#Figure14) noting its nonuniform charge distribution.
 
-![A positively charged rod with a concentration of positive charges near the top and a few in the middle.](../resources/Figure_18_07_16.jpg 'A charged insulating rod such as might be used in a classroom demonstration.')
+![A diagonal insulating rod marked with plus signs. Most of the positive charge is crowded near its upper-right end, a few charges are in the middle, and one is at the lower-left end.](../resources/Figure_18_07_16.svg 'A charged insulating rod such as might be used in a classroom demonstration.')
 {: #Figure14}
 
 :::
@@ -529,13 +792,13 @@ The sketch should illustrate the following:
 
 1. **Field lines from the top region** (high charge concentration):
    - Draw many field lines radiating outward from the top of the rod where charge is most concentrated.
-   - Lines should emerge perpendicular to the surface and spread out radially.
+   - Lines leave the surface at the angle given by superposing the fields of all the charges; they need **not** be perpendicular to the surface. That rule holds only for a conductor in equilibrium, whose surface is an equipotential. Far from the rod, the lines spread out radially.
    - The high density of field lines in this region indicates a strong electric field near the heavily charged top.
    - Lines should spread out as they get farther from the rod, indicating field strength decreasing with distance.
 
 2. **Field lines from the middle region** (moderate charge):
    - Draw fewer field lines emerging from the middle portions of the rod where there are fewer charges.
-   - These lines also radiate outward but are less numerous.
+   - These lines are less numerous. Because the strong charge concentration at the top also pushes on this region, the lines here tilt away from the top (downward and outward) instead of leaving perpendicular to the rod; the field has a component along the rod's surface.
    - The lower density of lines indicates a weaker field in this region.
 
 3. **Field lines from lower regions** (minimal or no charge):
@@ -549,7 +812,9 @@ The sketch should illustrate the following:
    - Lines curve smoothly and spread apart as they move away from the rod.
 
 5. **Contrast with a conductor**:
-   - Note that unlike a conductor, where field lines would be perpendicular to the surface everywhere and the charge would redistribute uniformly on the outer surface, this insulator has field lines emerging mainly where charge exists, and the non-uniform distribution is permanent.
+   - On a conductor, the charge would redistribute until the surface became an equipotential. Field lines would then meet the surface perpendicularly everywhere, and the charge would still be nonuniform: it would concentrate where the surface curves most sharply, such as the rounded ends. On this insulator the charge stays where it was placed, so the field lines emerge mainly where charge exists, can meet the surface at an angle, and the nonuniform distribution is permanent.
+
+![Computed field lines of a diagonal insulating rod whose positive charges are crowded near its upper-right end, with a few in the middle and one at the lower-left end. Lines start on the charges and run outward. They are dense around the heavily charged upper end and sparse elsewhere. Lines leaving the middle and lower parts of the rod do not leave at right angles: they are pushed away from the crowded upper end and tilt downward along the rod. Far from the rod the lines spread out radially, as from a single positive charge.](../resources/concept_18_07_p04.svg)
 
 **Discussion**
 
@@ -567,10 +832,10 @@ The field line pattern directly reflects the charge distribution: more lines whe
 
 ::: problem
 
-What is the force on the charge located at  $$x=8.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(a) given that  $$q=1.00 \text{μC} $$ ?
+What is the force on the charge located at $$x=8.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(a) given that $$q=1.00 \text{μC} $$ ?
 
-![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_18_07_17.jpg '(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.')
+![(a) Charges +q at 3.00 cm, −2q at 8.00 cm and +q at 11.0 cm along the x axis. (b) Charges −2q at 1.00 cm, +q at 5.00 cm, +3q at 8.00 cm and −q at 14.0 cm.](../resources/Figure_18_07_17.svg '(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.')
 {: #Figure15}
 
 :::
@@ -584,6 +849,7 @@ The charge at $$x = 8.00$$ cm has charge $$-2q$$. It experiences forces from the
 **Solution**
 
 Given:
+
 - $$q = 1.00 \text{ μC} = 1.00 \times 10^{-6} \text{ C}$$
 - Charge at $$x = 8.00$$ cm: $$q_2 = -2q = -2.00 \times 10^{-6} \text{ C}$$
 - Charge at $$x = 3.00$$ cm: $$q_1 = +q = +1.00 \times 10^{-6} \text{ C}$$
@@ -592,36 +858,36 @@ Given:
 
 **Force from charge at** $$x = 3.00$$ **cm:**
 
-Distance: $$r_1 = 8.00 - 3.00 = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+Distance: $$r_1 = 8.00 \text{ cm} - 3.00 \text{ cm} = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 
 <div class="equation">
  $$F_1 = k\frac{|q||2q|}{r_1^2} = k\frac{2q^2}{r_1^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = \frac{(8.99 \times 10^9)(2)(1.00 \times 10^{-6})^2}{(0.0500)^2}$$
+ $$F_1 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2)(1.00 \times 10^{-6} \text{ C})^2}{(0.0500 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = \frac{(8.99 \times 10^9)(2.00 \times 10^{-12})}{2.50 \times 10^{-3}} = \frac{17.98 \times 10^{-3}}{2.50 \times 10^{-3}} = 7.19 \text{ N}$$
+ $$F_1 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-12} \text{ C}^2)}{2.50 \times 10^{-3} \text{ m}^2} = \frac{17.98 \times 10^{-3} \text{ N·m}^2}{2.50 \times 10^{-3} \text{ m}^2} = 7.19 \text{ N}$$
 </div>
 
 Direction: Since the charges have opposite signs ($$+q$$ and $$-2q$$), the force is attractive, pulling the $$-2q$$ charge toward $$x = 3.00$$ cm. This is in the **negative x-direction** (to the left).
 
 **Force from charge at** $$x = 11.0$$ **cm:**
 
-Distance: $$r_2 = 11.0 - 8.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_2 = 11.0 \text{ cm} - 8.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
  $$F_2 = k\frac{|q||2q|}{r_2^2} = k\frac{2q^2}{r_2^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = \frac{(8.99 \times 10^9)(2)(1.00 \times 10^{-6})^2}{(0.0300)^2}$$
+ $$F_2 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2)(1.00 \times 10^{-6} \text{ C})^2}{(0.0300 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = \frac{(8.99 \times 10^9)(2.00 \times 10^{-12})}{9.00 \times 10^{-4}} = \frac{17.98 \times 10^{-3}}{9.00 \times 10^{-4}} = 20.0 \text{ N}$$
+ $$F_2 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-12} \text{ C}^2)}{9.00 \times 10^{-4} \text{ m}^2} = \frac{17.98 \times 10^{-3} \text{ N·m}^2}{9.00 \times 10^{-4} \text{ m}^2} = 20.0 \text{ N}$$
 </div>
 
 Direction: Since the charges have opposite signs ($$+q$$ and $$-2q$$), the force is attractive, pulling the $$-2q$$ charge toward $$x = 11.0$$ cm. This is in the **positive x-direction** (to the right).
@@ -631,7 +897,7 @@ Direction: Since the charges have opposite signs ($$+q$$ and $$-2q$$), the force
 Taking rightward (positive x-direction) as positive:
 
 <div class="equation">
- $$F_{\text{net}} = F_2 - F_1 = 20.0 - 7.19 = 12.8 \text{ N}$$
+ $$F_{\text{net}} = F_2 - F_1 = 20.0 \text{ N} - 7.19 \text{ N} = 12.8 \text{ N}$$
 </div>
 
 The net force on the charge at $$x = 8.00$$ cm is **12.8 N in the positive x-direction** (to the right).
@@ -650,10 +916,10 @@ The net force of 12.8 N to the right means the $$-2q$$ charge would accelerate t
 
 ::: problem
 
-(a) Find the total electric field at  $$x=1.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(b) given that  $$q=5.00 \text{nC} $$ .
- (b) Find the total electric field at  $$x=11.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
+(a) Find the total electric field at $$x=1.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(b) given that $$q=5.00 \text{nC} $$ .
+(b) Find the total electric field at $$x=11.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
 
 :::
 
@@ -661,11 +927,12 @@ The net force of 12.8 N to the right means the $$-2q$$ charge would accelerate t
 
 **Strategy**
 
-For part (a), we note that $$x = 1.00$$ cm is the exact location of the $$-2q$$ charge, so the electric field is undefined (infinite) at that point. For part (b), we calculate the electric field at $$x = 11.00$$ cm by summing the vector contributions from all four charges using $$E = k\frac{q}{r^2}$$, with the direction determined by whether each charge is positive (field points away) or negative (field points toward). For part (c), we apply conservation of charge to determine the final configuration.
+For part (a), we note that $$x = 1.00$$ cm is the exact location of the $$-2q$$ charge. The total field is undefined there, so we report the field produced at that point by the _other three_ charges, which is the field that acts on the $$-2q$$ charge. For part (b), we calculate the electric field at $$x = 11.00$$ cm by summing the vector contributions from all four charges using $$E = k\frac{q}{r^2}$$, with the direction determined by whether each charge is positive (field points away) or negative (field points toward). For part (c), we apply conservation of charge to determine the final configuration.
 
 **Solution**
 
 From [[Figure 15]](#Figure15)(b), the charges are:
+
 - At $$x = 1.00$$ cm: $$-2q = -10.0 \text{ nC}$$
 - At $$x = 5.00$$ cm: $$+q = +5.00 \text{ nC}$$
 - At $$x = 8.00$$ cm: $$+3q = +15.0 \text{ nC}$$
@@ -675,44 +942,66 @@ From [[Figure 15]](#Figure15)(b), the charges are:
 
 The point $$x = 1.00$$ cm is the exact location of the $$-2q$$ charge. The electric field of a point charge is undefined at the location of the charge itself (it approaches infinity as $$r \to 0$$).
 
+The field of the $$-2q$$ charge itself grows without limit as we approach it, and it points in opposite directions on the two sides (toward the charge from either side). So the _total_ field has no value at $$x = 1.00$$ cm. It is neither $$+\infty$$ nor $$-\infty$$; it is undefined.
+
+What is well defined is the field from the other three charges at this point, the field that exerts a force on the $$-2q$$ charge. Taking rightward as positive:
+
 <div class="equation">
- $$E_{x=1.00\text{ cm}} = -\infty$$
+ $$E_{+q} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-9} \text{ C})}{(0.0400 \text{ m})^2} = -2.81 \times 10^4 \text{ N/C}$$
 </div>
 
-The negative infinity indicates the field diverges in the negative direction at this location.
+(leftward, away from the positive charge at 5.00 cm)
+
+<div class="equation">
+ $$E_{+3q} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(15.0 \times 10^{-9} \text{ C})}{(0.0700 \text{ m})^2} = -2.75 \times 10^4 \text{ N/C}$$
+</div>
+
+(leftward, away from the positive charge at 8.00 cm)
+
+<div class="equation">
+ $$E_{-q} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-9} \text{ C})}{(0.130 \text{ m})^2} = +2.66 \times 10^3 \text{ N/C}$$
+</div>
+
+(rightward, toward the negative charge at 14.0 cm)
+
+<div class="equation">
+ $$E_{\text{others}} = -2.81 \times 10^4 \text{ N/C} - 2.75 \times 10^4 \text{ N/C} + 0.27 \times 10^4 \text{ N/C} = -5.30 \times 10^4 \text{ N/C}$$
+</div>
+
+The field at $$x = 1.00$$ cm due to the other charges is $$5.30 \times 10^4$$ N/C to the left.
 
 **(b) Electric field at** $$x = 11.00$$ **cm:**
 
 Calculate the field contribution from each charge. Taking rightward (positive x-direction) as positive:
 
 **From** $$-2q$$ **at** $$x = 1.00$$ **cm:**
-Distance: $$r_1 = 11.00 - 1.00 = 10.00 \text{ cm} = 0.1000 \text{ m}$$
+Distance: $$r_1 = 11.00 \text{ cm} - 1.00 \text{ cm} = 10.00 \text{ cm} = 0.1000 \text{ m}$$
 
 <div class="equation">
- $$E_1 = -k\frac{2q}{r_1^2} = -\frac{(8.99 \times 10^9)(2)(5.00 \times 10^{-9})}{(0.1000)^2} = -\frac{8.99 \times 10}{0.01} = -8.99 \times 10^3 \text{ N/C}$$
+ $$E_1 = -k\frac{2q}{r_1^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2)(5.00 \times 10^{-9} \text{ C})}{(0.1000 \text{ m})^2} = -\frac{8.99 \times 10 \text{ N·m}^2/\text{C}}{0.01 \text{ m}^2} = -8.99 \times 10^3 \text{ N/C}$$
 </div>
 
 (Negative because the field points toward the negative charge, i.e., leftward)
 
 **From** $$+q$$ **at** $$x = 5.00$$ **cm:**
-Distance: $$r_2 = 11.00 - 5.00 = 6.00 \text{ cm} = 0.0600 \text{ m}$$
+Distance: $$r_2 = 11.00 \text{ cm} - 5.00 \text{ cm} = 6.00 \text{ cm} = 0.0600 \text{ m}$$
 
 <div class="equation">
- $$E_2 = +k\frac{q}{r_2^2} = +\frac{(8.99 \times 10^9)(5.00 \times 10^{-9})}{(0.0600)^2} = +\frac{44.95}{0.0036} = +1.25 \times 10^4 \text{ N/C}$$
+ $$E_2 = +k\frac{q}{r_2^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-9} \text{ C})}{(0.0600 \text{ m})^2} = +\frac{44.95 \text{ N·m}^2/\text{C}}{0.0036 \text{ m}^2} = +1.25 \times 10^4 \text{ N/C}$$
 </div>
 
 **From** $$+3q$$ **at** $$x = 8.00$$ **cm:**
-Distance: $$r_3 = 11.00 - 8.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_3 = 11.00 \text{ cm} - 8.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
- $$E_3 = +k\frac{3q}{r_3^2} = +\frac{(8.99 \times 10^9)(3)(5.00 \times 10^{-9})}{(0.0300)^2} = +\frac{134.85}{0.0009} = +1.50 \times 10^5 \text{ N/C}$$
+ $$E_3 = +k\frac{3q}{r_3^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(3)(5.00 \times 10^{-9} \text{ C})}{(0.0300 \text{ m})^2} = +\frac{134.85 \text{ N·m}^2/\text{C}}{0.0009 \text{ m}^2} = +1.50 \times 10^5 \text{ N/C}$$
 </div>
 
 **From** $$-q$$ **at** $$x = 14.0$$ **cm:**
-Distance: $$r_4 = 14.0 - 11.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_4 = 14.0 \text{ cm} - 11.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
- $$E_4 = +k\frac{q}{r_4^2} = +\frac{(8.99 \times 10^9)(5.00 \times 10^{-9})}{(0.0300)^2} = +\frac{44.95}{0.0009} = +5.00 \times 10^4 \text{ N/C}$$
+ $$E_4 = +k\frac{q}{r_4^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-9} \text{ C})}{(0.0300 \text{ m})^2} = +\frac{44.95 \text{ N·m}^2/\text{C}}{0.0009 \text{ m}^2} = +5.00 \times 10^4 \text{ N/C}$$
 </div>
 
 (Positive because the field points toward the negative charge, i.e., rightward)
@@ -724,11 +1013,11 @@ Distance: $$r_4 = 14.0 - 11.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 </div>
 
 <div class="equation">
- $$E_{\text{total}} = -8.99 \times 10^3 + 1.25 \times 10^4 + 1.50 \times 10^5 + 5.00 \times 10^4$$
+ $$E_{\text{total}} = -8.99 \times 10^3 \text{ N/C} + 1.25 \times 10^4 \text{ N/C} + 1.50 \times 10^5 \text{ N/C} + 5.00 \times 10^4 \text{ N/C}$$
 </div>
 
 <div class="equation">
- $$E_{\text{total}} = -0.90 \times 10^4 + 1.25 \times 10^4 + 15.0 \times 10^4 + 5.00 \times 10^4 = 20.4 \times 10^4 \text{ N/C}$$
+ $$E_{\text{total}} = -0.90 \times 10^4 \text{ N/C} + 1.25 \times 10^4 \text{ N/C} + 15.0 \times 10^4 \text{ N/C} + 5.00 \times 10^4 \text{ N/C} = 20.4 \times 10^4 \text{ N/C}$$
 </div>
 
 <div class="equation">
@@ -745,11 +1034,11 @@ By conservation of charge, the total charge is:
  $$Q_{\text{total}} = -2q + q + 3q - q = +q = +5.00 \text{ nC}$$
 </div>
 
-When the charges are allowed to move and friction brings them to rest, they will eventually combine into a single charge. The final configuration will be **one charge of** $$+q$$ **(or +5.00 nC)**.
+Opposite charges attract, so the charged objects drift together. If we assume they are small conducting objects that touch, share charge, and stick together, they end up as a single object, and charge conservation fixes its charge. The final configuration will be **one charge of** $$+q$$ **(or +5.00 nC)**. Charge conservation alone does not guarantee a single object; it only fixes the total. The single-charge result also relies on the assumption that objects which touch merge and share their charge.
 
 **Discussion**
 
-Part (a): The electric field is undefined at the location of a point charge because it diverges as $$1/r^2$$ as we approach the charge. This mathematical singularity reminds us that the point charge model is an idealization; real charges have finite extent.
+Part (a): The total electric field is undefined at the location of a point charge because the charge's own field diverges as $$1/r^2$$ and points in opposite directions on either side. The field from the other charges, $$5.30 \times 10^4$$ N/C to the left, is the physically useful quantity: multiplied by the charge, it gives the force on the $$-2q$$ charge. This mathematical singularity reminds us that the point charge model is an idealization; real charges have finite extent.
 
 Part (b): The dominant contribution to the field at $$x = 11.00$$ cm comes from the $$+3q$$ charge at $$x = 8.00$$ cm, which contributes about $$1.5 \times 10^5$$ N/C. This is because it's both relatively large (3q) and close (3.00 cm away). The field from the distant $$-2q$$ charge is much weaker despite its larger magnitude, illustrating the strong distance dependence ($$1/r^2$$) of the electric field.
 
@@ -763,10 +1052,10 @@ Part (c): When conductors carrying different charges are brought into contact, c
 
 ::: problem
 
-(a) Find the electric field at  $$x=5.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(a), given that  $$q=1.00 \text{μC} $$ .
- (b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for  $$-2q $$
- alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of *x* , the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)
+(a) Find the electric field at $$x=5.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(a), given that $$q=1.00 \text{μC} $$ .
+(b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for $$-2q $$
+alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of _x_ , the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)
 
 :::
 
@@ -776,7 +1065,7 @@ Take rightward as positive. In Figure 15(a), the charges are $$+q$$ at 3.00 cm, 
 
 **(a)** At 5.00 cm,
 
-$$E=kq\left[\frac1{(0.0200)^2}+\frac2{(0.0300)^2}-\frac1{(0.0600)^2}\right]=4.00\times10^7\ \text{N/C},$$
+$$E=kq\left[\frac1{(0.0200\ \text{m})^2}+\frac2{(0.0300\ \text{m})^2}-\frac1{(0.0600\ \text{m})^2}\right]=4.00\times10^7\ \text{N/C},$$
 
 directed rightward.
 
@@ -799,9 +1088,9 @@ with all distances in centimeters. Numerical solution gives **30.6 cm**. Substit
 
 ::: problem
 
-(a) Find the total Coulomb force on a charge of 2.00 nC located at  $$x=4.00 \text{cm} $$
- in [[Figure 15]](#Figure15) (b), given that  $$q=1.00 \text{μC} $$ .
- (b) Find the *x*-position at which the electric field is zero in [[Figure 15]](#Figure15) (b).
+(a) Find the total Coulomb force on a charge of 2.00 nC located at $$x=4.00 \text{cm} $$
+in [[Figure 15]](#Figure15) (b), given that $$q=1.00 \text{μC} $$ .
+(b) Find the _x_-position at which the electric field is zero in [[Figure 15]](#Figure15) (b).
 
 :::
 
@@ -809,11 +1098,12 @@ with all distances in centimeters. Numerical solution gives **30.6 cm**. Substit
 
 **Strategy**
 
-For part (a), we calculate the force on a test charge (2.00 nC) at $$x = 4.00$$ cm due to all four charges in Figure 15(b) using Coulomb's law $$F = k\frac{|q_1||q_2|}{r^2}$$, with appropriate signs for direction, then sum vectorially. For part (b), we find where the electric field from all four charges sums to zero, which requires solving an equation where contributions from positive and negative charges balance.
+For part (a), we calculate the force on a test charge (2.00 nC) at $$x = 4.00$$ cm due to all four charges in Figure 15(b) using Coulomb's law $$F = k\frac{|q_1||q_2|}{r^2}$$, with appropriate signs for direction, then sum vectorially. For part (b), we find where the electric field from all four charges sums to zero, checking each of the five intervals separated by the charges, because the direction of each contribution depends on which side of the charge we are on.
 
 **Solution**
 
 From [[Figure 15]](#Figure15)(b), the charges are:
+
 - At $$x = 1.00$$ cm: $$-2q = -2.00 \text{ μC}$$
 - At $$x = 5.00$$ cm: $$+q = +1.00 \text{ μC}$$
 - At $$x = 8.00$$ cm: $$+3q = +3.00 \text{ μC}$$
@@ -826,53 +1116,53 @@ Test charge: $$q_{\text{test}} = 2.00 \text{ nC} = 2.00 \times 10^{-9} \text{ C}
 Taking rightward (positive x-direction) as positive:
 
 **From** $$-2q$$ **at** $$x = 1.00$$ **cm:**
-Distance: $$r_1 = 4.00 - 1.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_1 = 4.00 \text{ cm} - 1.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
- $$F_1 = -k\frac{(2 \times 10^{-6})(2.00 \times 10^{-9})}{(0.0300)^2} = -\frac{(8.99 \times 10^9)(4.00 \times 10^{-15})}{9.00 \times 10^{-4}}$$
+ $$F_1 = -k\frac{(2 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.0300 \text{ m})^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(4.00 \times 10^{-15} \text{ C}^2)}{9.00 \times 10^{-4} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = -\frac{35.96 \times 10^{-6}}{9.00 \times 10^{-4}} = -0.0400 \text{ N}$$
+ $$F_1 = -\frac{35.96 \times 10^{-6} \text{ N·m}^2}{9.00 \times 10^{-4} \text{ m}^2} = -0.0400 \text{ N}$$
 </div>
 
 (Negative: attractive force pulls leftward)
 
 **From** $$+q$$ **at** $$x = 5.00$$ **cm:**
-Distance: $$r_2 = 5.00 - 4.00 = 1.00 \text{ cm} = 0.0100 \text{ m}$$
+Distance: $$r_2 = 5.00 \text{ cm} - 4.00 \text{ cm} = 1.00 \text{ cm} = 0.0100 \text{ m}$$
 
 <div class="equation">
- $$F_2 = -k\frac{(1.00 \times 10^{-6})(2.00 \times 10^{-9})}{(0.0100)^2} = -\frac{(8.99 \times 10^9)(2.00 \times 10^{-15})}{1.00 \times 10^{-4}}$$
+ $$F_2 = -k\frac{(1.00 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.0100 \text{ m})^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-15} \text{ C}^2)}{1.00 \times 10^{-4} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = -\frac{17.98 \times 10^{-6}}{1.00 \times 10^{-4}} = -0.1798 \text{ N}$$
+ $$F_2 = -\frac{17.98 \times 10^{-6} \text{ N·m}^2}{1.00 \times 10^{-4} \text{ m}^2} = -0.1798 \text{ N}$$
 </div>
 
 (Negative: the $$+q$$ charge is to the right, so its repulsive force pushes leftward)
 
 **From** $$+3q$$ **at** $$x = 8.00$$ **cm:**
-Distance: $$r_3 = 8.00 - 4.00 = 4.00 \text{ cm} = 0.0400 \text{ m}$$
+Distance: $$r_3 = 8.00 \text{ cm} - 4.00 \text{ cm} = 4.00 \text{ cm} = 0.0400 \text{ m}$$
 
 <div class="equation">
- $$F_3 = -k\frac{(3.00 \times 10^{-6})(2.00 \times 10^{-9})}{(0.0400)^2} = -\frac{(8.99 \times 10^9)(6.00 \times 10^{-15})}{1.60 \times 10^{-3}}$$
+ $$F_3 = -k\frac{(3.00 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.0400 \text{ m})^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(6.00 \times 10^{-15} \text{ C}^2)}{1.60 \times 10^{-3} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_3 = -\frac{53.94 \times 10^{-6}}{1.60 \times 10^{-3}} = -0.0337 \text{ N}$$
+ $$F_3 = -\frac{53.94 \times 10^{-6} \text{ N·m}^2}{1.60 \times 10^{-3} \text{ m}^2} = -0.0337 \text{ N}$$
 </div>
 
 (Negative: the $$+3q$$ charge is to the right, so its repulsive force pushes leftward)
 
 **From** $$-q$$ **at** $$x = 14.0$$ **cm:**
-Distance: $$r_4 = 14.0 - 4.00 = 10.0 \text{ cm} = 0.100 \text{ m}$$
+Distance: $$r_4 = 14.0 \text{ cm} - 4.00 \text{ cm} = 10.0 \text{ cm} = 0.100 \text{ m}$$
 
 <div class="equation">
- $$F_4 = +k\frac{(1.00 \times 10^{-6})(2.00 \times 10^{-9})}{(0.100)^2} = +\frac{(8.99 \times 10^9)(2.00 \times 10^{-15})}{1.00 \times 10^{-2}}$$
+ $$F_4 = +k\frac{(1.00 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.100 \text{ m})^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-15} \text{ C}^2)}{1.00 \times 10^{-2} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_4 = +\frac{17.98 \times 10^{-6}}{1.00 \times 10^{-2}} = +0.001798 \text{ N}$$
+ $$F_4 = +\frac{17.98 \times 10^{-6} \text{ N·m}^2}{1.00 \times 10^{-2} \text{ m}^2} = +0.001798 \text{ N}$$
 </div>
 
 (Positive: attractive force pulls rightward)
@@ -884,38 +1174,56 @@ Distance: $$r_4 = 14.0 - 4.00 = 10.0 \text{ cm} = 0.100 \text{ m}$$
 </div>
 
 <div class="equation">
- $$F_{\text{total}} = -0.0400 - 0.1798 - 0.0337 + 0.0018 = -0.252 \text{ N}$$
+ $$F_{\text{total}} = -0.0400 \text{ N} - 0.1798 \text{ N} - 0.0337 \text{ N} + 0.0018 \text{ N} = -0.252 \text{ N}$$
 </div>
 
 The total force is **0.252 N to the left** (in the negative x-direction).
 
 **(b) Position where electric field is zero:**
 
-The electric field will be zero where contributions from all charges cancel. This must be in a region where charges on opposite sides can balance. Let's try between $$x = 5.00$$ cm and $$x = 8.00$$ cm, where the $$+q$$ (left) and $$+3q$$ (right) might balance with contributions from $$-2q$$ (farther left) and $$-q$$ (far right).
-
-Let $$x$$ be the position where $$E = 0$$. Taking rightward as positive:
+The four charges divide the x-axis into five intervals, and in each one the direction of each charge's field is different. We write the net field as a signed sum that is valid everywhere:
 
 <div class="equation">
- $$-k\frac{2q}{(x-1.00)^2} + k\frac{q}{(x-5.00)^2} - k\frac{3q}{(8.00-x)^2} + k\frac{q}{(14.0-x)^2} = 0$$
+ $$\frac{E(x)}{kq} = \sum_i c_i\,\frac{x-a_i}{|x-a_i|^{3}}$$
 </div>
+
+with positions $$a_i$$ in centimeters and charge multiples $$(a_i, c_i) = (1, -2),\ (5, +1),\ (8, +3),\ (14, -1)$$. Each term has magnitude $$|c_i|/(x-a_i)^2$$ and points away from a positive charge or toward a negative one. Setting $$E = 0$$ gives a rational equation in each interval (polynomial after clearing denominators), which we solve numerically interval by interval.
+
+**Interval** $$1 < x < 5$$ **cm:** Just right of $$x = 1$$ cm the field points left (toward the $$-2q$$ charge), and just left of $$x = 5$$ cm it also points left (away from $$+q$$). It stays leftward across the interval, so there is no zero.
+
+**Interval** $$5 < x < 8$$ **cm:** Just right of $$+q$$ the field points right; just left of $$+3q$$ it points left. The field changes sign, so there is a zero:
 
 <div class="equation">
- $$-\frac{2}{(x-1.00)^2} + \frac{1}{(x-5.00)^2} - \frac{3}{(8.00-x)^2} + \frac{1}{(14.0-x)^2} = 0$$
+ $$-\frac{2}{(x-1.00)^2} + \frac{1}{(x-5.00)^2} - \frac{3}{(8.00-x)^2} + \frac{1}{(14.0-x)^2} = 0 \quad\Rightarrow\quad x = 6.07 \text{ cm}$$
 </div>
 
-This transcendental equation requires numerical solution. Testing $$x = 6.07$$ cm:
+Check at $$x = 6.07$$ cm: $$ -0.0778 \text{ cm}^{-2} + 0.873 \text{ cm}^{-2} - 0.805 \text{ cm}^{-2} + 0.0159 \text{ cm}^{-2} = 0.006 \text{ cm}^{-2}$$, which is small compared with the individual terms; the unrounded root is 6.0725 cm.
 
-$$-\frac{2}{(5.07)^2} + \frac{1}{(1.07)^2} - \frac{3}{(1.93)^2} + \frac{1}{(7.93)^2}$$
+**Interval** $$8 < x < 14$$ **cm:** The field points right near both ends (away from $$+3q$$ and toward $$-q$$) and stays rightward, so there is no zero.
 
-$$= -0.0778 + 0.873 - 0.805 + 0.0159 \approx 0.006 \approx 0$$
+**Interval** $$x < 1$$ **cm:** All four charges are to the right, so the $$-2q$$ and $$-q$$ fields point right and the $$+q$$ and $$+3q$$ fields point left:
 
-The electric field is zero at $$x = 6.07$$ cm.
+<div class="equation">
+ $$\frac{2}{(1.00-x)^2} - \frac{1}{(5.00-x)^2} - \frac{3}{(8.00-x)^2} + \frac{1}{(14.0-x)^2} = 0 \quad\Rightarrow\quad x = -19.7 \text{ cm}$$
+</div>
+
+Check at $$x = -19.69$$ cm: $$0.00467 - 0.00164 - 0.00391 + 0.00088 \approx 0$$.
+
+**Interval** $$x > 14$$ **cm:** All four charges are to the left:
+
+<div class="equation">
+ $$-\frac{2}{(x-1.00)^2} + \frac{1}{(x-5.00)^2} + \frac{3}{(x-8.00)^2} - \frac{1}{(x-14.0)^2} = 0 \quad\Rightarrow\quad x = 23.1 \text{ cm}$$
+</div>
+
+Check at $$x = 23.06$$ cm: $$-0.00411 + 0.00307 + 0.01323 - 0.01218 \approx 0$$.
+
+The electric field is zero at **three** points: $$x = -19.7$$ cm, $$x = 6.07$$ cm, and $$x = 23.1$$ cm. (It also goes to zero infinitely far away.)
 
 **Discussion**
 
 Part (a): The force of 0.252 N to the left on the 2.00 nC test charge is substantial for such a small charge. The dominant contribution comes from the nearby $$+q$$ charge at $$x = 5.00$$ cm (only 1.00 cm away), which repels the test charge strongly leftward. The $$+3q$$ charge at 8.00 cm also repels leftward, while the attractive forces from the negative charges are weaker due to greater distances. The net leftward force demonstrates that proximity matters more than charge magnitude when forces scale as $$1/r^2$$.
 
-Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$+3q$$ charges but closer to the smaller $$+q$$ charge. This makes sense: at this position, the repulsive fields from both positive charges point in opposite directions (the $$+q$$ pushes rightward, the $$+3q$$ pushes leftward). Being closer to the smaller charge allows it to balance the larger $$+3q$$. The contributions from the more distant $$-2q$$ and $$-q$$ charges fine-tune this balance. Finding such zero-field points is important in applications like particle traps and beam focusing systems.
+Part (b): The zero at $$x = 6.07$$ cm lies between the $$+q$$ and $$+3q$$ charges but closer to the smaller $$+q$$ charge, so that its stronger nearby field can balance the larger but more distant $$+3q$$. The two outside zeros exist because the net charge is $$+q$$ while the nearest charge on each outer end is negative. Far away the field must look like that of $$+q$$ and point outward, but close to the end charges it points inward, toward $$-2q$$ on the left or $$-q$$ on the right. Somewhere in between, on each side, the field must pass through zero. Checking every interval separately, rather than guessing one region, is what reveals all three points.
 
 :::
 
@@ -925,12 +1233,12 @@ Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$
 
 ::: problem
 
-Using the symmetry of the arrangement, determine the direction of the force on  $$q $$
- in the figure below, given that  $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
- and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
- (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0 cm on a side and  $$q=2.00 \text{μC} $$.
+Using the symmetry of the arrangement, determine the direction of the force on $$q $$
+in the figure below, given that $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
+and $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
+(b) Calculate the magnitude of the force on the charge $$q $$ , given that the square is 10.0 cm on a side and $$q=2.00 \text{μC} $$.
 
-![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg ' ')
+![Point charges qa at the top left, qb at the top right, qc at the bottom left and qd at the bottom right corners of a square, with a charge q at its center.](../resources/Figure_18_07_12.svg ' ')
 {: #Figure16}
 
 :::
@@ -944,6 +1252,7 @@ The charge $$q$$ is at the center of a square with charges at the corners. We us
 **Solution**
 
 Given:
+
 - $$q_a = q_b = +7.50 \text{ μC}$$ (top corners)
 - $$q_c = q_d = -7.50 \text{ μC}$$ (bottom corners)
 - $$q = 2.00 \text{ μC}$$ (at center)
@@ -952,6 +1261,7 @@ Given:
 **(a) Direction of force using symmetry:**
 
 The arrangement has two-fold symmetry about both horizontal and vertical axes through the center. Consider the forces:
+
 - $$q_a$$ (top-left, positive) and $$q_b$$ (top-right, positive) both repel $$q$$ (positive). Their forces point away from the top, with horizontal components canceling and vertical components adding downward.
 - $$q_c$$ (bottom-left, negative) and $$q_d$$ (bottom-right, negative) both attract $$q$$ (positive). Their forces point toward the bottom, with horizontal components canceling and vertical components adding downward.
 
@@ -963,26 +1273,26 @@ By symmetry, all horizontal components cancel, and vertical components from all 
 
 Distance from center to each corner:
 <div class="equation">
- $$r = \frac{s}{\sqrt{2}} = \frac{0.100}{\sqrt{2}} = 0.0707 \text{ m}$$
+ $$r = \frac{s}{\sqrt{2}} = \frac{0.100 \text{ m}}{\sqrt{2}} = 0.0707 \text{ m}$$
 </div>
 
 Force magnitude from each corner charge:
 <div class="equation">
- $$F_{\text{corner}} = k\frac{|q_{\text{corner}}||q|}{r^2} = \frac{(8.99 \times 10^9)(7.50 \times 10^{-6})(2.00 \times 10^{-6})}{(0.0707)^2}$$
+ $$F_{\text{corner}} = k\frac{|q_{\text{corner}}||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(7.50 \times 10^{-6} \text{ C})(2.00 \times 10^{-6} \text{ C})}{(0.0707 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_{\text{corner}} = \frac{(8.99 \times 10^9)(15.0 \times 10^{-12})}{5.00 \times 10^{-3}} = \frac{134.85 \times 10^{-3}}{5.00 \times 10^{-3}} = 27.0 \text{ N}$$
+ $$F_{\text{corner}} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(15.0 \times 10^{-12} \text{ C}^2)}{5.00 \times 10^{-3} \text{ m}^2} = \frac{134.85 \times 10^{-3} \text{ N·m}^2}{5.00 \times 10^{-3} \text{ m}^2} = 27.0 \text{ N}$$
 </div>
 
 Each force makes a 45° angle with the vertical. The vertical component from each:
 <div class="equation">
- $$F_y = F_{\text{corner}} \cos(45°) = 27.0 \times \frac{1}{\sqrt{2}} = 19.1 \text{ N}$$
+ $$F_y = F_{\text{corner}} \cos(45°) = (27.0 \text{ N}) \times \frac{1}{\sqrt{2}} = 19.1 \text{ N}$$
 </div>
 
 All four charges contribute vertical components in the same direction (downward):
 <div class="equation">
- $$F_{\text{total}} = 4 \times F_y = 4 \times 19.1 = 76.4 \text{ N}$$
+ $$F_{\text{total}} = 4 \times F_y = 4 \times 19.1 \text{ N} = 76.4 \text{ N}$$
 </div>
 
 The magnitude of the force on $$q$$ is **76.4 N downward**.
@@ -1001,10 +1311,10 @@ Part (b): The force of 76.4 N is substantial for microcoulomb-scale charges sepa
 
 ::: problem
 
-(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 16]](#Figure16), given that  $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
- and  $${q}_{c}={q}_{d}=+1.00 \text{μC} $$ .
- (b) Calculate the magnitude of the electric field at the location of  $$q $$ ,
- given that the square is 5.00 cm on a side.
+(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 16]](#Figure16), given that $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
+and $${q}_{c}={q}_{d}=+1.00 \text{μC} $$ .
+(b) Calculate the magnitude of the electric field at the location of $$q $$ ,
+given that the square is 5.00 cm on a side.
 
 :::
 
@@ -1025,9 +1335,9 @@ Use the exact geometric distance before rounding.
 
 ::: problem
 
-Find the electric field at the location of  $${q}_{a} $$
- in [[Figure 16]](#Figure16) given that  $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
-  $$q=-1.00 \text{nC} $$ ,  and the square is 20.0 cm on a side.
+Find the electric field at the location of $${q}_{a} $$
+in [[Figure 16]](#Figure16) given that $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
+$$q=-1.00 \text{nC} $$ , and the square is 20.0 cm on a side.
 
 :::
 
@@ -1040,75 +1350,70 @@ The electric field at $$q_a$$ is due to the other three corner charges ($$q_b$$,
 **Solution**
 
 Given:
+
 - $$q_b = q_c = q_d = +2.00 \text{ nC} = 2.00 \times 10^{-9} \text{ C}$$
 - $$q = -1.00 \text{ nC} = -1.00 \times 10^{-9} \text{ C}$$
 - Square side length: $$s = 20.0 \text{ cm} = 0.200 \text{ m}$$
 
-Place $$q_a$$ at the origin. Assuming standard orientation:
+In Figure 16, $$q_a$$ is at the upper-left corner, $$q_b$$ at the upper-right, $$q_c$$ at the lower-left, and $$q_d$$ at the lower-right. Place $$q_a$$ at the origin, with $$+x$$ to the right and $$+y$$ upward, as in the figure:
+
 - $$q_a$$ at (0, 0)
-- $$q_b$$ at (0.200, 0) — distance $$s = 0.200$$ m along x-axis
-- $$q_c$$ at (0.200, 0.200) — distance $$s\sqrt{2} = 0.283$$ m diagonally
-- $$q_d$$ at (0, 0.200) — distance $$s = 0.200$$ m along y-axis
-- $$q$$ at center (0.100, 0.100) — distance $$\frac{s}{\sqrt{2}} = 0.141$$ m
+- $$q_b$$ at (0.200 m, 0), a distance $$s = 0.200$$ m to the right
+- $$q_c$$ at (0, −0.200 m), a distance $$s = 0.200$$ m below
+- $$q_d$$ at (0.200 m, −0.200 m), a distance $$s\sqrt{2} = 0.283$$ m diagonally
+- $$q$$ at the center (0.100 m, −0.100 m), a distance $$\frac{s}{\sqrt{2}} = 0.141$$ m
 
-**From** $$q_b$$ **at** $$(0.200, 0)$$:
-<div class="equation">
- $$E_b = k\frac{q_b}{s^2} = \frac{(8.99 \times 10^9)(2.00 \times 10^{-9})}{(0.200)^2} = \frac{17.98}{0.04} = 450 \text{ N/C}$$
-</div>
+**From** $$q_b$$ **at** $$(0.200 \text{ m}, 0)$$:
+$$E_b = k\frac{q_b}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-9} \text{ C})}{(0.200 \text{ m})^2} = \frac{17.98 \text{ N·m}^2/\text{C}}{0.0400 \text{ m}^2} = 450 \text{ N/C}$$
 
-Direction: Pointing away from $$q_b$$ toward $$q_a$$, i.e., $$-\hat{x}$$ direction.
-$$\vec{E}_b = -450\hat{x}$$ N/C
+Direction: away from the positive $$q_b$$, toward the left.
+$$\vec{E}_b = (-450 \text{ N/C})\hat{x}$$
 
-**From** $$q_d$$ **at** $$(0, 0.200)$$:
-<div class="equation">
- $$E_d = k\frac{q_d}{s^2} = 450 \text{ N/C}$$
-</div>
+**From** $$q_c$$ **at** $$(0, -0.200 \text{ m})$$:
+$$E_c = k\frac{q_c}{s^2} = 450 \text{ N/C}$$
 
-Direction: Pointing away from $$q_d$$ toward $$q_a$$, i.e., $$-\hat{y}$$ direction.
-$$\vec{E}_d = -450\hat{y}$$ N/C
+Direction: away from the positive $$q_c$$, which is directly below, so upward.
+$$\vec{E}_c = (+450 \text{ N/C})\hat{y}$$
 
-**From** $$q_c$$ **at** $$(0.200, 0.200)$$:
-<div class="equation">
- $$E_c = k\frac{q_c}{(s\sqrt{2})^2} = k\frac{q_c}{2s^2} = \frac{450}{2} = 225 \text{ N/C}$$
-</div>
+**From** $$q_d$$ **at** $$(0.200 \text{ m}, -0.200 \text{ m})$$:
+$$E_d = k\frac{q_d}{(s\sqrt{2})^2} = k\frac{q_d}{2s^2} = \frac{450 \text{ N/C}}{2} = 225 \text{ N/C}$$
 
-Direction: Pointing away from $$q_c$$ toward $$q_a$$, i.e., along $$(-\hat{x} - \hat{y})/\sqrt{2}$$.
-$$\vec{E}_c = 225 \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = -159\hat{x} - 159\hat{y}$$ N/C
+Direction: away from $$q_d$$, toward the upper left, along $$(-\hat{x} + \hat{y})/\sqrt{2}$$.
+$$\vec{E}_d = (225 \text{ N/C}) \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = (-159 \text{ N/C})\hat{x} + (159 \text{ N/C})\hat{y}$$
 
-**From** $$q$$ **at center** $$(0.100, 0.100)$$:
-<div class="equation">
- $$E_q = k\frac{|q|}{(s/\sqrt{2})^2} = k\frac{|q|}{s^2/2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-9})}{0.02} = 450 \text{ N/C}$$
-</div>
+**From** $$q$$ **at the center** $$(0.100 \text{ m}, -0.100 \text{ m})$$:
+$$E_q = k\frac{|q|}{(s/\sqrt{2})^2} = k\frac{|q|}{s^2/2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-9} \text{ C})}{0.0200 \text{ m}^2} = 450 \text{ N/C}$$
 
-Direction: Pointing toward $$q$$ (negative charge), i.e., along $$(\hat{x} + \hat{y})/\sqrt{2}$$.
-$$\vec{E}_q = 450 \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = 318\hat{x} + 318\hat{y}$$ N/C
+Direction: toward the negative charge $$q$$, that is, toward the lower right, along $$(\hat{x} - \hat{y})/\sqrt{2}$$.
+$$\vec{E}_q = (450 \text{ N/C}) \times \frac{\hat{x} - \hat{y}}{\sqrt{2}} = (318 \text{ N/C})\hat{x} - (318 \text{ N/C})\hat{y}$$
 
 **Total electric field:**
+
 <div class="equation">
- $$\vec{E}_{\text{total}} = \vec{E}_b + \vec{E}_d + \vec{E}_c + \vec{E}_q$$
+ $$\vec{E}_{\text{total}} = \vec{E}_b + \vec{E}_c + \vec{E}_d + \vec{E}_q$$
 </div>
 
 <div class="equation">
- $$\vec{E}_{\text{total}} = (-450 - 159 + 318)\hat{x} + (-450 - 159 + 318)\hat{y}$$
+ $$\vec{E}_{\text{total}} = (-450 \text{ N/C} - 159 \text{ N/C} + 318 \text{ N/C})\hat{x} + (450 \text{ N/C} + 159 \text{ N/C} - 318 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$\vec{E}_{\text{total}} = -291\hat{x} - 291\hat{y} \text{ N/C}$$
+ $$\vec{E}_{\text{total}} = (-291 \text{ N/C})\hat{x} + (291 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$|\vec{E}_{\text{total}}| = \sqrt{291^2 + 291^2} = 291\sqrt{2} = 412 \text{ N/C}$$
+ $$|\vec{E}_{\text{total}}| = \sqrt{(291 \text{ N/C})^2 + (291 \text{ N/C})^2} = (291 \text{ N/C})\sqrt{2} = 412 \text{ N/C}$$
 </div>
 
-Direction: 45° below the negative x-axis (toward the third quadrant).
+Direction: 45° above the negative x-axis, pointing up and to the left, away from the center of the square.
 
-The electric field at the location of $$q_a$$ is **412 N/C directed at 225° from the positive x-axis** (or equivalently, toward the bottom-left at 45°).
+The electric field at the location of $$q_a$$ is **412 N/C directed at 135° from the positive x-axis** (toward the upper left, along the diagonal pointing away from the square's center).
 
 **Discussion**
 
-The field at $$q_a$$ results from four contributions. The three positive charges on the other corners all repel (field points away from them toward $$q_a$$), while the negative central charge attracts (field points toward it, away from $$q_a$$). The symmetry of the problem—with $$q_b = q_d$$ at equal distances along perpendicular edges, and $$q_c$$ diagonally opposite—creates balanced contributions in x and y directions.
+The field at $$q_a$$ results from four contributions. The three positive corner charges all repel, so their fields at $$q_a$$ point away from them, outward from the square. The negative central charge attracts, so its field points toward the center. By symmetry, $$q_b$$ and $$q_c$$ are at equal distances along perpendicular edges and $$q_d$$ and $$q$$ lie on the diagonal through $$q_a$$, so the net field must lie along that diagonal.
 
-The negative central charge significantly affects the result: without it, the field would be much stronger and directed purely toward the bottom-left. The central charge partially cancels the contributions from the corner charges. This demonstrates the principle of superposition: the total field is the vector sum of all individual contributions, and strategic placement of charges can be used to engineer desired field patterns at specific locations.
+The negative central charge significantly affects the result. Without it, the field would be $$(609 \text{ N/C})\sqrt{2} = 861\,\text{A}^{-1}\cdot\text{m}\cdot\text{kg}\cdot\text{s}^{-3}$$ N/C, pointing outward along the same diagonal. The central charge cancels about half of this, but not enough to reverse the direction. This demonstrates superposition: the total field is the vector sum of all individual contributions.
 
 :::
 
@@ -1118,13 +1423,13 @@ The negative central charge significantly affects the result: without it, the fi
 
 ::: problem
 
-Find the total Coulomb force on the charge  $$q $$
- in [[Figure 16]](#Figure16), given that  $$q=1.00 \text{μC} $$ ,
-  $${q}_{a}=2.00 \text{μC} $$ ,
-  $${q}_{b}=-3.00 \text{μC} $$ ,
-  $${q}_{c}=-4.00 \text{μC} $$ ,
- and  $${q}_{d}=+1.00 \text{μC} $$ .
- The square is 50.0 cm on a side.
+Find the total Coulomb force on the charge $$q $$
+in [[Figure 16]](#Figure16), given that $$q=1.00 \text{μC} $$ ,
+$${q}_{a}=2.00 \text{μC} $$ ,
+$${q}_{b}=-3.00 \text{μC} $$ ,
+$${q}_{c}=-4.00 \text{μC} $$ ,
+and $${q}_{d}=+1.00 \text{μC} $$ .
+The square is 50.0 cm on a side.
 
 :::
 
@@ -1137,6 +1442,7 @@ The central charge $$q$$ experiences forces from all four corner charges. We cal
 **Solution**
 
 Given:
+
 - $$q = 1.00 \text{ μC} = 1.00 \times 10^{-6} \text{ C}$$ (at center)
 - $$q_a = 2.00 \text{ μC}$$ (top-left)
 - $$q_b = -3.00 \text{ μC}$$ (top-right)
@@ -1146,44 +1452,44 @@ Given:
 
 Distance from center to each corner:
 <div class="equation">
- $$r = \frac{s}{\sqrt{2}} = \frac{0.500}{\sqrt{2}} = 0.354 \text{ m}$$
+ $$r = \frac{s}{\sqrt{2}} = \frac{0.500 \text{ m}}{\sqrt{2}} = 0.354 \text{ m}$$
 </div>
 
 **Force from** $$q_a = 2.00 \text{ μC}$$ **(top-left):**
 <div class="equation">
- $$F_a = k\frac{|q_a||q|}{r^2} = \frac{(8.99 \times 10^9)(2.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2}$$
+ $$F_a = k\frac{|q_a||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_a = \frac{17.98 \times 10^{-3}}{0.125} = 0.144 \text{ N}$$
+ $$F_a = \frac{17.98 \times 10^{-3} \text{ N·m}^2}{0.125 \text{ m}^2} = 0.144 \text{ N}$$
 </div>
 
 Direction: Repulsive (both positive), pointing away from top-left, at 45° below the horizontal (toward bottom-right).
-$$\vec{F}_a = 0.144 \times \frac{\hat{x} - \hat{y}}{\sqrt{2}} = 0.102\hat{x} - 0.102\hat{y}$$ N
+$$\vec{F}_a = (0.144 \text{ N}) \times \frac{\hat{x} - \hat{y}}{\sqrt{2}} = (0.102 \text{ N})\hat{x} - (0.102 \text{ N})\hat{y}$$
 
 **Force from** $$q_b = -3.00 \text{ μC}$$ **(top-right):**
 <div class="equation">
- $$F_b = k\frac{|q_b||q|}{r^2} = \frac{(8.99 \times 10^9)(3.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2} = 0.216 \text{ N}$$
+ $$F_b = k\frac{|q_b||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(3.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2} = 0.216 \text{ N}$$
 </div>
 
 Direction: Attractive (opposite signs), pointing toward top-right, at 45° above the horizontal (toward top-right).
-$$\vec{F}_b = 0.216 \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = 0.153\hat{x} + 0.153\hat{y}$$ N
+$$\vec{F}_b = (0.216 \text{ N}) \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = (0.153 \text{ N})\hat{x} + (0.153 \text{ N})\hat{y}$$
 
 **Force from** $$q_c = -4.00 \text{ μC}$$ **(bottom-left):**
 <div class="equation">
- $$F_c = k\frac{|q_c||q|}{r^2} = \frac{(8.99 \times 10^9)(4.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2} = 0.288 \text{ N}$$
+ $$F_c = k\frac{|q_c||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(4.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2} = 0.288 \text{ N}$$
 </div>
 
 Direction: Attractive (opposite signs), pointing toward bottom-left, at 45° below the horizontal.
-$$\vec{F}_c = 0.288 \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = -0.204\hat{x} - 0.204\hat{y}$$ N
+$$\vec{F}_c = (0.288 \text{ N}) \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = (-0.204 \text{ N})\hat{x} - (0.204 \text{ N})\hat{y}$$
 
 **Force from** $$q_d = +1.00 \text{ μC}$$ **(bottom-right):**
 <div class="equation">
- $$F_d = k\frac{|q_d||q|}{r^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2} = 0.0719 \text{ N}$$
+ $$F_d = k\frac{|q_d||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2} = 0.0719 \text{ N}$$
 </div>
 
 Direction: Repulsive (both positive), pointing away from bottom-right, at 45° above the horizontal (toward top-left).
-$$\vec{F}_d = 0.0719 \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = -0.0508\hat{x} + 0.0508\hat{y}$$ N
+$$\vec{F}_d = (0.0719 \text{ N}) \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = (-0.0508 \text{ N})\hat{x} + (0.0508 \text{ N})\hat{y}$$
 
 **Total force:**
 <div class="equation">
@@ -1191,11 +1497,11 @@ $$\vec{F}_d = 0.0719 \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = -0.0508\hat{x}
 </div>
 
 <div class="equation">
- $$F_x = 0.102 + 0.153 - 0.204 - 0.051 = 0.000 \text{ N}$$
+ $$F_x = 0.102 \text{ N} + 0.153 \text{ N} - 0.204 \text{ N} - 0.051 \text{ N} = 0.000 \text{ N}$$
 </div>
 
 <div class="equation">
- $$F_y = -0.102 + 0.153 - 0.204 + 0.051 = -0.102 \text{ N}$$
+ $$F_y = -0.102 \text{ N} + 0.153 \text{ N} - 0.204 \text{ N} + 0.051 \text{ N} = -0.102 \text{ N}$$
 </div>
 
 The x-components cancel, so the net force points straight down.
@@ -1216,13 +1522,13 @@ The relatively small magnitude (0.102 N) despite large charges (up to 4.00 μC) 
 
 ::: problem
 
-(a) Find the electric field at the location of  $${q}_{a} $$
- in [[Figure 17]](#Figure17), given that  $${q}_{\text{b}}=+10.00 \mu \text{C} $$
- and  $${q}_{\text{c}}= -5.00 \mu \text{C} $$ .
- (b) What is the force on  $${q}_{a} $$ ,
- given that  $${q}_{\text{a}}=+1.50 \text{nC} $$ ?
+(a) Find the electric field at the location of $${q}_{a} $$
+in [[Figure 17]](#Figure17), given that $${q}_{\text{b}}=+10.00 \mu \text{C} $$
+and $${q}_{\text{c}}= -5.00 \mu \text{C} $$ .
+(b) What is the force on $${q}_{a} $$ ,
+given that $${q}_{\text{a}}=+1.50 \text{nC} $$ ?
 
-![Three point charges located at the corners of an equilateral triangle.](../resources/Figure_18_07_18.jpg 'Point charges located at the corners of an equilateral triangle 25.0 cm on a side.')
+![Point charges qa at the top corner, qb at the lower right corner and qc at the lower left corner of an equilateral triangle 25.0 cm on a side.](../resources/Figure_18_07_18.svg 'Point charges located at the corners of an equilateral triangle 25.0 cm on a side.')
 {: #Figure17}
 
 :::
@@ -1236,6 +1542,7 @@ The charges are at the corners of an equilateral triangle with side length 25.0 
 **Solution**
 
 Given:
+
 - $$q_b = +10.00 \text{ μC} = 1.00 \times 10^{-5} \text{ C}$$
 - $$q_c = -5.00 \text{ μC} = -5.00 \times 10^{-6} \text{ C}$$
 - $$q_a = +1.50 \text{ nC} = 1.50 \times 10^{-9} \text{ C}$$
@@ -1247,42 +1554,42 @@ Set up coordinates with $$q_a$$ at the origin, $$q_b$$ along the positive x-axis
 
 **Field from** $$q_b$$:
 <div class="equation">
- $$E_b = k\frac{|q_b|}{s^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-5})}{(0.250)^2} = \frac{8.99 \times 10^4}{0.0625} = 1.44 \times 10^6 \text{ N/C}$$
+ $$E_b = k\frac{|q_b|}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-5} \text{ C})}{(0.250 \text{ m})^2} = \frac{8.99 \times 10^4 \text{ N·m}^2/\text{C}}{0.0625 \text{ m}^2} = 1.44 \times 10^6 \text{ N/C}$$
 </div>
 
 Direction: Away from $$q_b$$ (positive charge), pointing in $$-\hat{x}$$ direction.
-$$\vec{E}_b = -1.44 \times 10^6\hat{x}$$ N/C
+$$\vec{E}_b = (-1.44 \times 10^6 \text{ N/C})\hat{x}$$
 
 **Field from** $$q_c$$:
 <div class="equation">
- $$E_c = k\frac{|q_c|}{s^2} = \frac{(8.99 \times 10^9)(5.00 \times 10^{-6})}{(0.250)^2} = \frac{4.495 \times 10^4}{0.0625} = 7.19 \times 10^5 \text{ N/C}$$
+ $$E_c = k\frac{|q_c|}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-6} \text{ C})}{(0.250 \text{ m})^2} = \frac{4.495 \times 10^4 \text{ N·m}^2/\text{C}}{0.0625 \text{ m}^2} = 7.19 \times 10^5 \text{ N/C}$$
 </div>
 
 Direction: Toward $$q_c$$ (negative charge), pointing at 60° from x-axis: $$\hat{r} = 0.5\hat{x} + 0.866\hat{y}$$.
-$$\vec{E}_c = 7.19 \times 10^5(0.5\hat{x} + 0.866\hat{y}) = (3.60 \times 10^5)\hat{x} + (6.22 \times 10^5)\hat{y}$$ N/C
+$$\vec{E}_c = (7.19 \times 10^5 \text{ N/C})(0.5\hat{x} + 0.866\hat{y}) = (3.60 \times 10^5 \text{ N/C})\hat{x} + (6.22 \times 10^5 \text{ N/C})\hat{y}$$
 
 **Total field:**
 <div class="equation">
- $$\vec{E}_{\text{total}} = \vec{E}_b + \vec{E}_c = (-1.44 \times 10^6 + 3.60 \times 10^5)\hat{x} + (6.22 \times 10^5)\hat{y}$$
+ $$\vec{E}_{\text{total}} = \vec{E}_b + \vec{E}_c = (-1.44 \times 10^6 \text{ N/C} + 3.60 \times 10^5 \text{ N/C})\hat{x} + (6.22 \times 10^5 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$\vec{E}_{\text{total}} = (-1.08 \times 10^6)\hat{x} + (6.22 \times 10^5)\hat{y} \text{ N/C}$$
+ $$\vec{E}_{\text{total}} = (-1.08 \times 10^6 \text{ N/C})\hat{x} + (6.22 \times 10^5 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$|\vec{E}| = \sqrt{(-1.08 \times 10^6)^2 + (6.22 \times 10^5)^2} = \sqrt{1.17 \times 10^{12} + 3.87 \times 10^{11}} = 1.25 \times 10^6 \text{ N/C}$$
+ $$|\vec{E}| = \sqrt{(-1.08 \times 10^6 \text{ N/C})^2 + (6.22 \times 10^5 \text{ N/C})^2} = \sqrt{1.17 \times 10^{12} (\text{N/C})^2 + 3.87 \times 10^{11} (\text{N/C})^2} = 1.25 \times 10^6 \text{ N/C}$$
 </div>
 
 <div class="equation">
- $$\theta = \tan^{-1}\left(\frac{6.22 \times 10^5}{-1.08 \times 10^6}\right) = \tan^{-1}(-0.576) = 150°$$
+ $$\theta = \tan^{-1}\left(\frac{6.22 \times 10^5 \text{ N/C}}{-1.08 \times 10^6 \text{ N/C}}\right) = \tan^{-1}(-0.576) = 150°$$
 </div>
 
 The electric field at $$q_a$$ is **1.25 × 10⁶ N/C at 150° from the positive x-axis** (pointing up and to the left).
 
 **(b) Force on** $$q_a$$:
 <div class="equation">
- $$\vec{F} = q_a\vec{E} = (1.50 \times 10^{-9})(1.25 \times 10^6) = 1.88 \times 10^{-3} \text{ N}$$
+ $$\vec{F} = q_a\vec{E} = (1.50 \times 10^{-9} \text{ C})(1.25 \times 10^6 \text{ N/C}) = 1.88 \times 10^{-3} \text{ N}$$
 </div>
 
 The force on $$q_a$$ is **1.88 × 10⁻³ N (or 1.88 mN) at 150° from the positive x-axis**, in the same direction as the electric field.
@@ -1301,11 +1608,11 @@ Part (b): The force on the positive $$q_a$$ is in the same direction as the elec
 
 ::: problem
 
-(a) Find the electric field at the center of the triangular configuration of charges in [[Figure 17]](#Figure17), given that  $${q}_{a}=+2.50 \text{nC} $$ ,
-  $${q}_{b}=-8.00 \text{nC} $$ ,
- and  $${q}_{c}=+1.50 \text{nC} $$ .
- (b) Is there any combination of charges, other than  $${q}_{a}={q}_{b}={q}_{c} $$ ,
- that will produce a zero strength electric field at the center of the triangular configuration?
+(a) Find the electric field at the center of the triangular configuration of charges in [[Figure 17]](#Figure17), given that $${q}_{a}=+2.50 \text{nC} $$ ,
+$${q}_{b}=-8.00 \text{nC} $$ ,
+and $${q}_{c}=+1.50 \text{nC} $$ .
+(b) Is there any combination of charges, other than $${q}_{a}={q}_{b}={q}_{c} $$ ,
+that will produce a zero strength electric field at the center of the triangular configuration?
 
 :::
 
@@ -1313,9 +1620,9 @@ Part (b): The force on the positive $$q_a$$ is in the same direction as the elec
 
 **(a)** Take the center as the origin, with $$q_a$$ above it and $$q_b$$ to the lower right. The common vertex distance is $$r=s/\sqrt3$$, with $$s=0.250\ \text{m}$$. Adding the fields using the unrounded value of $$r$$ gives
 
-$$E_x=\frac{k}{r^2}\left[(8.00+1.50)\times10^{-9}\cos30^\circ\right]=3.55\times10^3\ \text{N/C},$$
+$$E_x=\frac{k}{r^2}\left[(8.00+1.50)\times10^{-9}\ \text{C}\cos30^\circ\right]=3.55\times10^3\ \text{N/C},$$
 
-$$E_y=\frac{k}{r^2}\left[(-2.50-4.00+0.750)\times10^{-9}\right]=-2.48\times10^3\ \text{N/C}.$$
+$$E_y=\frac{k}{r^2}\left[(-2.50-4.00+0.750)\times10^{-9}\ \text{C}\right]=-2.48\times10^3\ \text{N/C}.$$
 
 Thus $$E=4.33\times10^3\ \text{N/C}$$, directed **35.0° below the horizontal toward the right**.
 
@@ -1327,6 +1634,7 @@ Thus $$E=4.33\times10^3\ \text{N/C}$$, directed **35.0° below the horizontal to
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 conductor

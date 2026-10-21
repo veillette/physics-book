@@ -521,6 +521,25 @@ When you start the engine of your car with the transmission in neutral, you noti
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Apply angular-momentum conservation briefly to the engine and the rest of the car, then include external torques from the ground.
+
+**Solution**
+
+Take positive rotation to be the engine’s spin direction about its shaft. When the engine speeds up, it gains angular momentum; the mounts exert an opposite reaction torque on the body. During a short startup interval with negligible external angular impulse,
+
+$$\Delta L_{\text{engine}}+\Delta L_{\text{body}}\approx0.$$
+
+For example, if an assumed engine inertia $$0.20\kg\cdot\mm$$ gains $$100\rads$$, $$\Delta L_{\text{engine}}=(0.20\kg\cdot\mm)(100\rads)=20\kg\cdot\mm/\s$$ and the body initially gains approximately $$-20\kg\cdot\mm/\s$$. Suspension forces and the road then provide external torques that limit and damp the rocking. The car is not rotationally isolated for seconds merely because the transmission is in neutral; neutral disconnects the drive, not the mounts or ground.
+
+The car initially rocks opposite the engine’s spin because the engine and body exchange angular momentum, but the car’s angular momentum is not conserved over longer times because the suspension and ground exert external torques.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -531,6 +550,29 @@ Suppose a child walks from the outer edge of a rotating merry-go round to the in
 
 ![In figure A, there is a merry go round. A child is jumping radially outward. In figure B, a child is jumping backward to the direction of motion of merry go round. In figure C, a child is jumping from it to hang from the branch of the tree. In figure D, a child is jumping from the merry go round tangentially to its circumference.](../resources/Figure_10_05_07.jpg 'A child may jump off a merry-go-round in a variety of directions.')
 {: #Figure5}
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Take the platform and child together as the system about the vertical axle.
+
+**Solution**
+
+Assume negligible external torque at the axle. The child and platform share angular speed $$\omega$$ while the child moves inward, and
+
+$$L=(I_p+mr^2)\omega=\text{constant}.$$
+
+Moving inward reduces the total moment of inertia, so angular speed increases. For illustrative $$I_p=100\kg\cdot\mm$$, $$m=25\kg$$, and $$\omega_i=1.0\rads$$, moving from $$r_i=2.0\m$$ to $$r_f=1.0\m$$ changes inertia from $$200\kg\cdot\mm$$ to $$125\kg\cdot\mm$$. Thus
+
+$$\omega_f=\frac{200\kg\cdot\mm}{125\kg\cdot\mm}(1.0\rads)=1.6\rads.$$
+
+The child does work while moving inward; the increase in rotational kinetic energy does not require an external torque. This question concerns inward walking, rather than the separate jumping-off cases shown in the accompanying figure.
+
+The merry-go-round’s angular velocity increases as the child moves inward because the combined moment of inertia decreases while total angular momentum about the axle is conserved.
 
 :::
 
@@ -549,6 +591,29 @@ or remain the same if:
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Separate angular-momentum exchange during push-off from forces acting on the child after contact ends.
+
+**Solution**
+
+Assume negligible axle torque and choose the initial rotation positive. Let the platform have inertia $$I_p$$, with a pointlike child of mass $$m$$ initially at radius $$r$$. Initial angular momentum is $$(I_p+mr^2)\omega_i$$.
+
+**(a) Radial jump:** If the push-off adds only radial velocity relative to the platform, it supplies no tangential angular impulse. The child retains tangential velocity $$r\omega_i$$, so $$I_p\omega_f=I_p\omega_i$$. The platform’s speed is unchanged.
+
+**(b) Jumping backward to land motionless relative to Earth:** The child must cancel the initial tangential velocity during push-off. The platform receives the opposite impulse and speeds up: $$\omega_f=(I_p+mr^2)\omega_i/I_p$$, if the child leaves with zero angular momentum.
+
+**(c) Jumping vertically to grab a branch:** A purely vertical push gives no angular impulse about the vertical axle, so the platform speed is unchanged at separation. The tree later removes the airborne child’s angular momentum; that external impulse does not return to the platform. Holding both branch and platform simultaneously would be a different case. If “straight up” instead means zero tangential ground velocity already at separation, achieving that requires a backward impulse during push-off and gives the increase in case (b); the unchanged-speed result assumes a purely vertical push relative to the platform.
+
+**(d) Forward tangential jump:** The child gains tangential angular momentum from the platform, so the platform slows. For $$I_p=100\kg\cdot\mm$$, $$m=25\kg$$, $$r=2.0\m$$, and $$\omega_i=1.0\rads$$, the initial total is $$200\kg\cdot\mm/\s$$. Cases (a,c) leave the platform at $$1.0\rads$$, case (b) gives $$2.0\rads$$, and a child leaving with tangential speed $$3.0\ms$$ carries $$(25\kg)(2.0\m)(3.0\ms)=150\kg\cdot\mm/\s$$, leaving the platform at $$0.50\rads$$.
+
+The platform’s angular speed is unchanged for a purely radial or vertical push-off, increases when the child pushes backward to remove the child’s ground-frame tangential motion, and decreases when the child pushes forward tangentially.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -556,6 +621,27 @@ or remain the same if:
 ::: problem
 
 Helicopters have a small propeller on their tail to keep them from rotating in the opposite direction of their main lifting blades. Explain in terms of Newton’s third law why the helicopter body rotates in the opposite direction to the blades.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Identify the torque pair between the engine-driven rotor and the helicopter body.
+
+**Solution**
+
+The engine exerts torque on the main rotor to spin it and overcome aerodynamic drag. By Newton’s third law, the rotor and drivetrain exert an equal opposite torque on the fuselage. Without a balancing torque, the body accelerates in the opposite rotational direction.
+
+For illustrative main-rotor reaction torque $$\tau=2000\N\cdot\m$$, a tail rotor acting $$5.0\m$$ from the main axis needs a sideways thrust of magnitude
+
+$$F=\frac{\tau}{r}=\frac{2000\N\cdot\m}{5.0\m}=400\N$$
+
+to balance it. Its orientation must produce the opposite yaw torque. At steady flight the air exerts torques on the rotors, so the helicopter alone is not an isolated angular-momentum system; Newton’s torque balance still applies.
+
+The helicopter body tends to rotate opposite the main blades because it receives the equal-and-opposite reaction torque, and the tail rotor supplies a balancing yaw torque.
 
 :::
 
@@ -569,6 +655,25 @@ Whenever a helicopter has two sets of lifting blades, they rotate in opposite di
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Add the reaction torques and angular momenta of the two oppositely turning rotors.
+
+**Solution**
+
+Oppositely rotating lifting rotors can produce opposite reaction torques on the body. If one rotor requires $$+1500\N\cdot\m$$ of drive torque and the other requires $$-1500\N\cdot\m$$, their combined reaction torque is
+
+$$\tau_{\text{body}}=-1500\N\cdot\m+1500\N\cdot\m=0\N\cdot\m.$$
+
+Their spin angular momenta can also largely cancel when the inertias and speeds are appropriately matched, reducing the net gyroscopic coupling. Cancellation is not guaranteed merely by opposite directions: the torque magnitudes must balance. Differential rotor torque provides yaw control in such arrangements.
+
+Counter-rotating lifting rotors are useful because their reaction torques can balance, preventing unwanted fuselage rotation without a separate tail rotor, and their angular momenta can largely cancel as well.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -576,6 +681,23 @@ Whenever a helicopter has two sets of lifting blades, they rotate in opposite di
 ::: problem
 
 Describe how work is done by a skater pulling in her arms during a spin. In particular, identify the force she exerts on each arm to pull it in and the distance each moves, noting that a component of the force is in the direction moved. Why is angular momentum not increased by this action?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Distinguish internal work from external angular impulse about the spin axis.
+
+**Solution**
+
+The skater exerts inward forces on her arms as their centers of mass move inward. The inward force component and inward displacement have the same direction, so the muscles do positive work, transferring chemical energy into mechanical energy. For example, an assumed average inward force $$40\N$$ on each arm through $$0.30\m$$ gives total work $$W=2(40\N)(0.30\m)=24\J$$.
+
+These are internal forces for the whole skater. Their radial components have zero torque about the spin axis, and other internal torque pairs cancel. With negligible external torque, $$L=I\omega$$ stays constant while $$I$$ decreases. The speed and rotational kinetic energy increase: $$K=L^2/(2I)$$. Thus energy can increase without increasing angular momentum; the energy comes from the skater’s muscles, not from an external angular impulse.
+
+Pulling the arms inward does positive work because force has a component along their inward displacement, increasing rotational kinetic energy, while angular momentum stays constant because no net external torque is added.
 
 :::
 
@@ -589,6 +711,27 @@ When there is a global heating trend on Earth, the atmosphere expands and the le
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Model expansion as a redistribution of mass farther from Earth’s rotation axis, with negligible external torque during the comparison.
+
+**Solution**
+
+Mass at perpendicular distance $$r_\perp$$ contributes $$r_\perp^2\,dm$$ to Earth’s total moment of inertia. In the simplified expansion described, this increases $$I$$. Approximate conservation of $$L=I\omega$$ then requires a smaller $$\omega$$, so the rotation period $$T=2\pi/\omega$$ increases.
+
+Since $$T=2\pi I/L$$ at fixed $$L$$, a small change gives $$\Delta T/T=\Delta I/I$$. For an illustrative fractional inertia increase of $$10^{-9}$$,
+
+$$\Delta T=(86400\s)(10^{-9})=8.64\times10^{-5}\s.$$
+
+This number demonstrates the proportionality, not a prediction for warming. Actual day-length changes also depend on atmospheric winds, oceans, ice, land, and external torques; thermal expansion alone does not specify their net effect.
+
+In the simplified expansion model, mass moves farther from the spin axis, increasing Earth’s moment of inertia and slightly lengthening the day as angular momentum remains approximately constant.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -596,6 +739,27 @@ When there is a global heating trend on Earth, the atmosphere expands and the le
 ::: problem
 
 Nearly all conventional piston engines have flywheels on them to smooth out engine vibrations caused by the thrust of individual piston firings. Why does the flywheel have this effect?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Use the flywheel’s moment of inertia to compare angular-speed changes for the same torque pulse.
+
+**Solution**
+
+Individual piston power strokes deliver fluctuating torque. For a fixed angular impulse,
+
+$$\Delta L=\tau_{\text{net,ave}}\Delta t=I\Delta\omega,$$
+
+so a larger $$I$$ gives a smaller $$\Delta\omega$$. For example, a net torque pulse of $$20\N\cdot\m$$ lasting $$0.010\s$$ gives angular impulse $$0.20\N\cdot\m\cdot\s$$. A $$0.020\kg\cdot\mm$$ rotor changes speed by $$10\rads$$, while adding a flywheel to make $$I=0.20\kg\cdot\mm$$ reduces the change to $$1.0\rads$$.
+
+The flywheel stores extra rotational energy during stronger parts of the cycle and returns it while the engine drives through weaker parts. It smooths speed and transmitted torque variations; it does not eliminate all vibration or create energy.
+
+A flywheel smooths the engine’s rotation because its large moment of inertia reduces the angular-speed change from each firing impulse and stores energy between power strokes.
 
 :::
 
@@ -609,6 +773,27 @@ Jet turbines spin rapidly. They are designed to fly apart if something makes the
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Account for the rotor fragments’ angular momentum about the original shaft axis in the idealized failure described.
+
+**Solution**
+
+A rotating rotor has angular momentum $$L=I\omega$$. If it breaks apart without a large external angular impulse, its pieces retain their instantaneous tangential velocities. They therefore carry angular momentum away even when they no longer rotate together as one rigid rotor.
+
+For example, a $$0.10\kg$$ fragment initially at radius $$0.20\m$$ moving tangentially at $$100\ms$$ carries
+
+$$L_z=mrv=(0.10\kg)(0.20\m)(100\ms)=2.0\kg\cdot\mm/\s.$$
+
+On an ideal straight trajectory after release, its perpendicular distance from the shaft’s axis remains the corresponding impact parameter, so its angular momentum about that axis stays constant. A rotor arrested by its mount instead transfers angular impulse to the mount and wing. In a real failure, debris striking a casing also transfers angular momentum; breakup by itself does not guarantee zero impulse to the wing.
+
+In the idealized breakup, the fragments carry away the rotor’s angular momentum in their tangential motion instead of transferring it all to the wing through a sudden stop at the mount.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -618,6 +803,27 @@ Jet turbines spin rapidly. They are designed to fly apart if something makes the
 An astronaut tightens a bolt on a satellite in orbit. He rotates in a direction opposite to that of the bolt,
 and the satellite rotates in the same direction as the bolt. Explain why. If a handhold is available on the satellite,
 can this counter-rotation be prevented? Explain your answer.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Track internal torque pairs for astronaut, bolt, and satellite, and distinguish relative rotation from rotation of the combined system.
+
+**Solution**
+
+Choose positive rotation as the bolt’s tightening direction. The astronaut torques the bolt positively and receives the opposite torque. The turning bolt pushes through its threads on the satellite in the tightening sense, so the satellite tends to rotate with the bolt while the astronaut counter-rotates. With negligible external torque,
+
+$$L_{\text{astronaut}}+L_{\text{satellite}}+L_{\text{bolt}}=\text{constant}.$$
+
+For example, an assumed $$1.0\N\cdot\m$$ torque acting for $$0.50\s$$ gives the astronaut angular impulse $$-0.50\kg\cdot\mm/\s$$, balanced by the other parts’ gain.
+
+A handhold lets the astronaut exert an opposing torque on the satellite while turning the bolt. The resulting force couple can prevent the astronaut’s rotation **relative to the satellite**. It does not let an isolated combined system gain total angular momentum: any angular momentum temporarily stored in the turning bolt requires a compensating change elsewhere, and all external torques must still be accounted for.
+
+The astronaut counter-rotates because tightening applies equal-and-opposite internal torques, and a handhold can prevent relative counter-rotation by closing the torque path through the satellite without violating total angular-momentum conservation.
 
 :::
 
@@ -634,6 +840,23 @@ Competitive divers pull their limbs in and curl up their bodies when they do fli
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+After takeoff, treat the diver as a system with negligible external torque about the center of mass.
+
+**Solution**
+
+Gravity acts through the center of mass and has zero torque about it in a uniform field. Neglecting air torques, $$L=I\omega$$ is therefore conserved during flight. Tucking brings mass closer to the rotation axis and reduces $$I$$, increasing $$\omega$$. Extending the limbs increases $$I$$ and decreases $$\omega$$.
+
+For an illustrative $$L=24\kg\cdot\mm/\s$$, an extended inertia $$I_e=12\kg\cdot\mm$$ gives $$\omega_e=(24\kg\cdot\mm/\s)/(12\kg\cdot\mm)=2.0\rads$$. Tucking to $$I_t=4.0\kg\cdot\mm$$ gives $$\omega_t=6.0\rads$$; extending again returns the angular speed to $$2.0\rads$$. The muscles change rotational kinetic energy while moving the limbs, but do not add total angular momentum.
+
+Tucking increases the diver’s angular velocity and extending decreases it, while angular momentum about the center of mass remains approximately constant until external torques become significant.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -641,6 +864,29 @@ Competitive divers pull their limbs in and curl up their bodies when they do fli
 ::: problem
 
 Draw a free body diagram to show how a diver gains angular momentum when leaving the diving board.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Draw only external forces and take their moments about the diver’s center of mass during contact.
+
+**Solution**
+
+Choose the center of mass as origin, $$+x$$ toward the board’s end, and $$+y$$ upward. Weight $$mg$$ acts at the center of mass. The board’s upward contact force $$N$$ acts at the feet; if its line of action is displaced horizontally from the center of mass by $$d$$, it exerts a torque $$\tau_z=dN$$. Choose counterclockwise as positive for the pictured force and offset.
+
+![Free-body diagram with weight at the diver’s center of mass, upward board force at feet to its right, a horizontal lever arm d, and a positive counterclockwise torque.](../resources/concept_10_05_q12.svg){: .fbd}
+
+For assumed $$d=0.10\m$$ and average $$N=900\N$$ over $$0.20\s$$, $$\tau_z=(0.10\m)(900\N)=90\N\cdot\m$$ and
+
+$$\Delta L_z=\tau_z\Delta t=(90\N\cdot\m)(0.20\s)=18\kg\cdot\mm/\s.$$
+
+The diver’s posture and contact force determine the actual sign and magnitude. A force directed exactly through the center of mass would give no such torque. After separation, the board force vanishes, leaving approximately zero external torque about the center of mass.
+
+The diver gains angular momentum while the board’s contact force has a nonzero lever arm about the center of mass, producing an external torque during push-off.
 
 :::
 
@@ -655,6 +901,25 @@ In terms of angular momentum, what is the advantage of giving a football or a ri
 ![View down the barrel of a cannon showing rifling grooves that cause projectiles to spin](../resources/Figure_10_05_06.jpg 'The image shows a view down the barrel of a cannon, emphasizing its rifling. Rifling in the barrel of a canon causes the projectile to spin just as is the case for rifles (hence the name for the grooves in the barrel). (credit: Elsie esq., Flickr)
   ')
 {: #Figure7}
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Relate the change in spin-axis direction to an external angular impulse.
+
+**Solution**
+
+Spin gives a projectile angular momentum approximately along its long axis. Aerodynamic torques must change that angular momentum to change its direction. For a small transverse angular impulse,
+
+$$\Delta\theta\approx\frac{|\Delta\vb L_\perp|}{L},\qquad \Delta\vb L_\perp=\int\vb\tau_\perp\,dt.$$
+
+For an illustrative $$L=0.20\kg\cdot\mm/\s$$ and transverse impulse $$0.0020\N\cdot\m\cdot\s$$, $$\Delta\theta\approx0.010\text{ rad}=0.57°$$. A smaller spin angular momentum would permit a larger change under the same impulse. Spin therefore helps maintain orientation and reduces tumbling, although torques can still produce precession or other attitude changes. Spin does not remove gravity, drag, or all aerodynamic instability.
+
+Spinning a football or bullet helps preserve its orientation because a given transverse aerodynamic angular impulse changes the direction of a larger spin angular momentum by a smaller angle.
 
 :::
 
@@ -707,7 +972,7 @@ $$ L_{\text{spin}} = 7.07 \times 10^{33} \kg \cdot \mms $$
 The ratio is:
 
 <div class="equation">
-$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.674 \times 10^{40}}{7.07 \times 10^{33}} = 3.78 \times 10^6 $$
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.674 \times 10^{40} \text{kg}\cdot\text{m}^2/\text{s}}{7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s}} = 3.78 \times 10^6 $$
 </div>
 
 The magnitude of Earth's orbital angular momentum is about 3.78 million times that of its rotational angular momentum. (We compare magnitudes, since the two angular momenta point along different axes: Earth's spin axis is tilted about 23° from its orbital axis.)
@@ -775,18 +1040,18 @@ $$ L_{\text{orbit}} = Mvr = (7.35 \times 10^{22} \kg)(1022 \text{ m/s})(3.84 \ti
 
 Moon's radius R = 1.74 × 10⁶ m. The Moon rotates once per orbit (27.3 days) to keep one face toward Earth.
 
-Moment of inertia (sphere): $$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.87 \times 10^{34} \kg \cdot \mm $$
+Moment of inertia (sphere): $$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.90 \times 10^{34} \kg \cdot \mm $$
 
 Rotational angular momentum:
 
 <div class="equation">
-$$ L_{\text{spin}} = I\omega = (8.87 \times 10^{34} \kg \cdot \mm)(2.66 \times 10^{-6} \text{ rad/s}) = 2.36 \times 10^{29} \kg \cdot \mms $$
+$$ L_{\text{spin}} = I\omega = (8.90 \times 10^{34} \kg \cdot \mm)(2.66 \times 10^{-6} \text{ rad/s}) = 2.37 \times 10^{29} \kg \cdot \mms $$
 </div>
 
 The ratio:
 
 <div class="equation">
-$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34}}{2.36 \times 10^{29}} = 1.22 \times 10^5 $$
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s}}{2.37 \times 10^{29} \text{kg}\cdot\text{m}^2/\text{s}} = 1.22 \times 10^5 $$
 </div>
 
 **(c)** The orbital angular momentum is about 122,000 times larger than the rotational angular momentum. This is consistent with tidal locking. Tidal forces from Earth exerted torques on the Moon's rotation, gradually slowing it until the rotational period matched the orbital period. The much smaller rotational angular momentum compared to orbital angular momentum meant the Moon's rotation was relatively easy for Earth's tidal forces to alter, while the orbital angular momentum remained largely unchanged.
@@ -799,7 +1064,7 @@ The vast difference between the Moon's orbital and rotational angular momenta il
 
 (a) The Moon's orbital angular momentum is **2.89 × 10³⁴ kg·m²/s**.
 
-(b) This is about **122,000 times larger** than the Moon's rotational angular momentum (2.36 × 10²⁹ kg·m²/s).
+(b) This is about **122,000 times larger** than the Moon's rotational angular momentum (2.37 × 10²⁹ kg·m²/s).
 
 (c) Yes, these values are consistent with tidal locking. The much smaller rotational angular momentum was more easily altered by Earth's tidal torques, while the dominant orbital angular momentum remained essentially constant.
 
@@ -884,7 +1149,7 @@ $$ L = I\omega_{0} = (194.4 \kg \cdot \mm)(3.14 \text{ rad/s}) = 611 \kg \cdot \
 Final moment of inertia (merry-go-round + child at edge):
 
 <div class="equation">
-$$ I' = I + m_{\text{child}}R^2 = 194.4 + (22.0 \kg)(1.80 \m)^2 = 194.4 + 71.3 = 265.7 \kg \cdot \mm $$
+$$ I' = I + m_{\text{child}}R^2 = 194.4 \text{kg}\cdot\text{m}^2 + (22.0 \kg)(1.80 \m)^2 = 194.4 \text{kg}\cdot\text{m}^2 + 71.3 \text{kg}\cdot\text{m}^2 = 265.7 \kg \cdot \mm $$
 </div>
 
 Using conservation of angular momentum:
@@ -934,7 +1199,7 @@ $$ I = \frac{1}{2}MR^{2} + (m_1 + m_2 + m_3)R^2 $$
 </div>
 
 <div class="equation">
-$$ I = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 + 28.0 + 33.0 \kg)(1.60 \m)^2 $$
+$$ I = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 \kg + 28.0 \kg + 33.0 \kg)(1.60 \m)^2 $$
 </div>
 
 <div class="equation">
@@ -950,7 +1215,7 @@ $$ \omega_{0} = 20.0 \text{ rpm} $$
 Final moment of inertia (one child at center contributes negligibly):
 
 <div class="equation">
-$$ I' = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 + 33.0 \kg)(1.60 \m)^2 $$
+$$ I' = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 \kg + 33.0 \kg)(1.60 \m)^2 $$
 </div>
 
 <div class="equation">
@@ -1021,7 +1286,7 @@ $$ L = L' \Rightarrow I\omega = I'\omega' $$
 Convert the new angular velocity:
 
 <div class="equation">
-$$ \omega' = 1.25 \text{ rev/s} \times 2\pi = 7.85 \text{ rad/s} $$
+$$ \omega' = 1.25 \text{ rev/s} \times \frac{2\pi\text{rad}}{1\text{rev}} = 7.85 \text{ rad/s} $$
 </div>
 
 Solving for I':
@@ -1033,22 +1298,22 @@ $$ I' = \frac{I\omega}{\omega'} = \frac{(0.400 \kg \cdot \mm)(37.7 \text{ rad/s}
 **(c)** The change in angular velocity:
 
 <div class="equation">
-$$ \omega_{f} = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
+$$ \omega_{f} = 3.00 \text{ rev/s} \times \frac{2\pi\text{rad}}{1\text{rev}} = 18.8 \text{ rad/s} $$
 </div>
 
 Change in angular momentum:
 
 <div class="equation">
-$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(18.8 - 37.7) \text{ rad/s} = -7.56 \kg \cdot \mms $$
+$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(6.00\pi\rads - 12.0\pi\rads) = -7.54 \kg \cdot \mms $$
 </div>
 
 Average torque:
 
 <div class="equation">
-$$ \tau = \frac{\Delta L}{\Delta t} = \frac{-7.56 \kg \cdot \mms}{15.0 \s} = -0.504 \N \cdot \m $$
+$$ \tau = \frac{\Delta L}{\Delta t} = \frac{-7.54 \kg \cdot \mms}{15.0 \s} = -0.503 \N \cdot \m $$
 </div>
 
-The magnitude is 0.504 N·m.
+The magnitude is 0.503 N·m.
 
 **Discussion**
 
@@ -1064,7 +1329,7 @@ The magnitude is 0.504 N·m.
 
 (b) The moment of inertia when slowed to 1.25 rev/s is **1.92 kg·m²**.
 
-(c) The average torque from friction is **−0.504 N·m** (magnitude 0.504 N·m).
+(c) The average torque from friction is **−0.503 N·m** (magnitude 0.503 N·m).
 
 :::
 
@@ -1098,30 +1363,30 @@ Use $$ M_E = 5.97 \times 10^{24} \kg $$, $$ R_E = 6.37 \times 10^{6} \m $$, $$ M
 $$ I_E = \frac{2}{5}M_E R_E^2 = 9.69 \times 10^{37} \kg \cdot \mm, \quad \omega_E = \frac{2\pi}{86\,164 \s} = 7.29 \times 10^{-5} \text{ rad/s}, \quad L_E = 7.07 \times 10^{33} \kg \cdot \mms $$
 </div>
 
-Moon's orbit and spin, with $$ \omega_{\text{orb}} = 2\pi/(27.3 \times 86\,400 \s) = 2.66 \times 10^{-6} $$ rad/s:
+Moon's orbit and spin, with $$ \omega_{\text{orb}} = 2\pi/(27.3 \times 86\,400 \s) = 2.66 \times 10^{-6} \rads $$ rad/s:
 <div class="equation">
-$$ L_{\text{orb}} = M_M r^2\omega_{\text{orb}} = (7.35 \times 10^{22})(3.84 \times 10^{8})^2(2.66 \times 10^{-6}) = 2.89 \times 10^{34} \kg \cdot \mms $$
+$$ L_{\text{orb}} = M_M r^2\omega_{\text{orb}} = (7.35 \times 10^{22} \kg)(3.84 \times 10^{8} \m)^2(2.66 \times 10^{-6} \rads) = 2.89 \times 10^{34} \kg \cdot \mms $$
 </div>
 
 <div class="equation">
-$$ L_{M,\text{spin}} = \frac{2}{5}M_M R_M^2\,\omega_{\text{orb}} = (8.90 \times 10^{34})(2.66 \times 10^{-6}) = 2.37 \times 10^{29} \kg \cdot \mms $$
+$$ L_{M,\text{spin}} = \frac{2}{5}M_M R_M^2\,\omega_{\text{orb}} = (8.90 \times 10^{34} \text{kg}\cdot\text{m}^2)(2.66 \times 10^{-6} \rads) = 2.37 \times 10^{29} \kg \cdot \mms $$
 </div>
 
 Total (all three point in nearly the same direction):
 <div class="equation">
-$$ L_{\text{total}} \approx 7.07 \times 10^{33} + 2.89 \times 10^{34} + 2.4 \times 10^{29} = 3.59 \times 10^{34} \kg \cdot \mms $$
+$$ L_{\text{total}} \approx 7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s} + 2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s} + 2.4 \times 10^{29} \text{kg}\cdot\text{m}^2/\text{s} = 3.59 \times 10^{34} \kg \cdot \mms $$
 </div>
 
-**(b)** A 1.7-ms increase in Earth's 86 164-s rotation period decreases its angular velocity by $$ \Delta\omega_E = \omega_E\,\Delta T/T = (7.29 \times 10^{-5})(1.7 \times 10^{-3})/86\,164 = 1.44 \times 10^{-12} $$ rad/s, so Earth loses
+**(b)** A 1.7-ms increase in Earth's 86 164-s rotation period decreases its angular velocity by $$ \Delta\omega_E = \omega_E\,\Delta T/T = \frac{(7.29 \times 10^{-5} \rads)(1.7 \times 10^{-3} \s)}{86\,164 \s} = 1.44 \times 10^{-12} \rads $$ rad/s, so Earth loses
 
 <div class="equation">
-$$ \Delta L_E = I_E\,\Delta\omega_E = (9.69 \times 10^{37})(1.44 \times 10^{-12}) = 1.39 \times 10^{26} \kg \cdot \mms $$
+$$ \Delta L_E = I_E\,\Delta\omega_E = (9.69 \times 10^{37} \text{kg}\cdot\text{m}^2)(1.44 \times 10^{-12} \rads) = 1.39 \times 10^{26} \kg \cdot \mms $$
 </div>
 
 per century. The Moon's spin angular momentum is so small that its change can be neglected, so the orbit gains this amount:
 
 <div class="equation">
-$$ \Delta r = 2r\frac{\Delta L_{\text{orb}}}{L_{\text{orb}}} = 2(3.84 \times 10^{8} \m)\frac{1.39 \times 10^{26}}{2.89 \times 10^{34}} = 3.7 \m \text{ per century} $$
+$$ \Delta r = 2r\frac{\Delta L_{\text{orb}}}{L_{\text{orb}}} = 2(3.84 \times 10^{8} \m)\frac{1.39 \times 10^{26} \text{kg}\cdot\text{m}^2/\text{s}}{2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s}} = 3.7 \m \text{ per century} $$
 </div>
 
 **Discussion**

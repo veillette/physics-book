@@ -110,6 +110,27 @@ physics as well as on the other disciplines they relate to.
 ![The picture shows what looks like a flowing orangish liquid into which some milk has been mixed. The main features are two eddies or vortices: a larger one that is a darker orange than the background and the other, smaller one, that is more milky than the background.](../resources/Figure_34_05_02.jpg 'The Great Red Spot on Jupiter is an example of self-organization in a complex and chaotic system. Smaller vortices in Jupiter’s atmosphere behave chaotically, but the triple-Earth-size spot is self-organized and stable for at least hundreds of years. (credit: NASA)')
 {: #Figure2}
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Double Pendulum
+</div>
+
+Release a double pendulum twice from nearly the same start. The two motions diverge. That sensitive dependence is the signature of chaos.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/OscillationsAndChaos/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Double pendulum
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Complexity is an emerging field, rooted primarily in physics, that considers

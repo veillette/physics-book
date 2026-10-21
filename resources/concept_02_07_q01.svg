@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">A rock thrown straight up: velocity and acceleration</title>
+<desc id="desc">Three snapshots of a rock thrown straight up, with +y up. On the way up at height h the velocity points up; at the top the velocity is zero; on the way down at the same height h the velocity points down with the same length as on the way up. At all three snapshots the acceleration arrow points down with the same length: a = −g = −9.80 m/s².</desc>
+<rect width="600" height="420" fill="#ffffff"/>
+<line x1="20" y1="360" x2="580" y2="360" stroke="#222222" stroke-width="2"/>
+<line x1="26" y1="360" x2="18" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="40" y1="360" x2="32" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="54" y1="360" x2="46" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="68" y1="360" x2="60" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="82" y1="360" x2="74" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="96" y1="360" x2="88" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="110" y1="360" x2="102" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="124" y1="360" x2="116" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="138" y1="360" x2="130" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="152" y1="360" x2="144" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="166" y1="360" x2="158" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="180" y1="360" x2="172" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="194" y1="360" x2="186" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="208" y1="360" x2="200" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="222" y1="360" x2="214" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="236" y1="360" x2="228" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="250" y1="360" x2="242" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="264" y1="360" x2="256" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="278" y1="360" x2="270" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="292" y1="360" x2="284" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="306" y1="360" x2="298" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="320" y1="360" x2="312" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="334" y1="360" x2="326" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="348" y1="360" x2="340" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="362" y1="360" x2="354" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="376" y1="360" x2="368" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="390" y1="360" x2="382" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="404" y1="360" x2="396" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="418" y1="360" x2="410" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="432" y1="360" x2="424" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="446" y1="360" x2="438" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="460" y1="360" x2="452" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="474" y1="360" x2="466" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="488" y1="360" x2="480" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="502" y1="360" x2="494" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="516" y1="360" x2="508" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="530" y1="360" x2="522" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="544" y1="360" x2="536" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="558" y1="360" x2="550" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="572" y1="360" x2="564" y2="369" stroke="#666666" stroke-width="1"/>
+<line x1="90" y1="250" x2="560" y2="250" stroke="#666666" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="560" y="240.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">height</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">h</tspan></text>
+<line x1="50" y1="355" x2="50" y2="69" stroke="#333333" stroke-width="1.5"/>
+<polygon points="50,60 54,70 46,70" fill="#333333"/>
+<text x="50" y="51.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<circle cx="170" cy="250" r="9" fill="#e0a030" stroke="#222222" stroke-width="1.2"/>
+<line x1="148" y1="250" x2="148" y2="172" stroke="#5e9e1e" stroke-width="3.5"/>
+<polygon points="148,160 153.2,173 142.8,173" fill="#5e9e1e"/>
+<line x1="192" y1="250" x2="192" y2="298" stroke="#6a3d9a" stroke-width="3.5"/>
+<polygon points="192,310 186.8,297 197.2,297" fill="#6a3d9a"/>
+<text x="170" y="396" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">on</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">way</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+<text x="140" y="205.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#5e9e1e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> &gt; 0</tspan></text>
+<circle cx="330" cy="100" r="9" fill="#e0a030" stroke="#222222" stroke-width="1.2"/>
+<line x1="352" y1="100" x2="352" y2="148" stroke="#6a3d9a" stroke-width="3.5"/>
+<polygon points="352,160 346.8,147 357.2,147" fill="#6a3d9a"/>
+<text x="330" y="396" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">top</tspan></text>
+<text x="330" y="75.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = 0</tspan></text>
+<circle cx="490" cy="250" r="9" fill="#e0a030" stroke="#222222" stroke-width="1.2"/>
+<line x1="468" y1="250" x2="468" y2="328" stroke="#5e9e1e" stroke-width="3.5"/>
+<polygon points="468,340 462.8,327 473.2,327" fill="#5e9e1e"/>
+<line x1="512" y1="250" x2="512" y2="298" stroke="#6a3d9a" stroke-width="3.5"/>
+<polygon points="512,310 506.8,297 517.2,297" fill="#6a3d9a"/>
+<text x="490" y="396" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">on</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">way</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan></text>
+<text x="460" y="315.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#5e9e1e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> &lt; 0</tspan></text>
+<text x="200" y="295.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="italic">g</tspan></text>
+<text x="360" y="145.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="italic">g</tspan></text>
+<text x="520" y="295.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="italic">g</tspan></text>
+<text x="300" y="24.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">a</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="normal">g</tspan><tspan font-style="normal"> = −9.80 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">every</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">instant</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">including</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">top</tspan></text>
+</svg>

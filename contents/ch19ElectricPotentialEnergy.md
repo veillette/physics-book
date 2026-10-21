@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 1
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* Define electric potential and electric potential energy.
-* Describe the relationship between potential difference and electrical potential energy.
-* Explain electron volt and its usage in submicroscopic process.
-* Determine electric potential energy given potential difference and amount of charge.
+- Define electric potential and electric potential energy.
+- Describe the relationship between potential difference and electrical potential energy.
+- Explain electron volt and its usage in submicroscopic process.
+- Determine electric potential energy given potential difference and amount of charge.
 
 :::
 
@@ -48,12 +49,12 @@ a charge to the other point.
 Potential Energy
 </div>
 
- $$W=-\Delta \text{PE} $$ .
- For example, work  $$W $$
- done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative  $$\Delta \text{PE}. $$
- There must be a minus sign in front of  $$\Delta \text{PE} $$
- to make  $$W $$
- positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.
+$$W=-\Delta \text{PE} $$ .
+For example, work $$W $$
+done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative $$\Delta \text{PE}. $$
+There must be a minus sign in front of $$\Delta \text{PE} $$
+to make $$W $$
+positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.
 
 :::
 
@@ -110,8 +111,8 @@ are joules per coulomb, given the name volt (V) after Alessandro Volta.
 Potential Difference
 </div>
 
-The potential difference between points A and B,  $${V}_{B}-{V}_{A} $$ ,
- is defined to be the change in potential energy of a charge $$ q $$ moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.
+The potential difference between points A and B, $${V}_{B}-{V}_{A} $$ ,
+is defined to be the change in potential energy of a charge $$ q $$ moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.
 
 <div class="equation" >
  $$1 \text{V} = 1 \frac{\text{J}}{\text{C}} $$
@@ -184,7 +185,7 @@ For the motorcycle battery, $$q=5000 \text{C} $$ and $$\Delta V=12.0 \text{V} $$
  $$\begin{array}{lll}\Delta \text{PE}_{\text{cycle}}& =& \left(5000 \text{C}\right)\left(12.0 \text{V}\right)\\ & =& \left(5000 \text{C}\right)\left(12.0 \text{J/C}\right)\\ & =&  6.00 \times 10^{4}  \text{J} \text{.} \end{array} $$
 </div>
 
-Similarly, for the car battery,  $$q=60 000 \text{C} $$  and
+Similarly, for the car battery, $$q=60 000 \text{C} $$ and
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta \text{PE}_{\text{car}}& =& \left(60 000 \text{C}\right)\left(12.0 \text{V}\right)\\ & =&  7.20 \times 10^{5}  \text{J} \text{.} \end{array} $$
@@ -212,7 +213,7 @@ charge $$q $$ is negative, so that $$\Delta \text{PE}=q\Delta V $$ is negative,
 meaning the potential energy of the battery has decreased when $$q $$ has moved
 from A to B.
 
-![A headlight is connected to a 12 V battery. Negative charges move from the negative terminal of the battery to the positive terminal, resulting in a current flow and making the headlight glow. However, the positive terminal is at a greater potential than the negative terminal.](../resources/Figure_19_01_02.jpg "A battery moves negative charge from its negative terminal through a headlight to its positive terminal. Appropriate combinations of chemicals in the battery separate charges so that the negative terminal has an excess of negative charge, which is repelled by it and attracted to the excess positive charge on the other terminal. In terms of potential, the positive terminal is at a higher voltage than the negative. Inside the battery, both positive and negative charges move.")
+![A headlight is connected to a 12 V battery. Negative charges move from the negative terminal of the battery to the positive terminal, resulting in a current flow and making the headlight glow. However, the positive terminal is at a greater potential than the negative terminal.](../resources/Figure_19_01_02.jpg 'A battery moves negative charge from its negative terminal through a headlight to its positive terminal. Appropriate combinations of chemicals in the battery separate charges so that the negative terminal has an excess of negative charge, which is repelled by it and attracted to the excess positive charge on the other terminal. In terms of potential, the positive terminal is at a higher voltage than the negative. Inside the battery, both positive and negative charges move.')
 {: #Figure2}
 
 ::: example {"id":"Example2","class":"example"}
@@ -240,15 +241,15 @@ To find the charge $$ q $$ moved, we solve the equation $$\Delta \text{PE}=q\Del
  $$q=\frac{\Delta \text{PE}}{\Delta V}\text{.} $$
 </div>
 
-Entering the values for  $$\Delta \text{PE} $$
- and  $$\Delta V $$ ,  we get
+Entering the values for $$\Delta \text{PE} $$
+and $$\Delta V $$ , we get
 
 <div class="equation" >
  $$q=\frac{-30.0 \text{J}}{+12.0 \text{V}}=\frac{-30.0 \text{J}}{+12.0 \text{J/C}}= -2.50 C. $$
 </div>
 
-The number of electrons  $${\text{n}}_{\text{e}} $$
- is the total charge divided by the charge per electron. That is,
+The number of electrons $${\text{n}}_{\text{e}} $$
+is the total charge divided by the charge per electron. That is,
 
 <div class="equation" >
  $${\text{n}}_{\text{e}}=\frac{-2.50\text{C}}{-1.60 \times 10^{-19} {\text{C/e}}^{-}}= 1.56 \times 10^{19}  \text{electrons} \text{.}  $$
@@ -281,7 +282,7 @@ given kinetic energy that is later converted to another form—light in the
 television tube, for example. (Note that downhill for the electron is uphill for
 a positive charge.) Since energy is related to voltage by $$\Delta \text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
 
-![In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.](../resources/Figure_19_01_03.jpg "A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.")
+![Two vertical metal plates. Plate A on the left is negative and plate B on the right is positive, with a small hole in its middle. The electric field lines run straight from B to A, pointing left, and bow outward at the top and bottom ends. An electron e⁻ starts next to plate A, is accelerated to the right through the hole in B, and leaves with kinetic energy KE = qV.](../resources/Figure_19_01_03.svg 'A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.')
 {: #Figure3}
 
 On the submicroscopic scale, it is more convenient to define an energy unit
@@ -388,14 +389,14 @@ Entering the forms identified above, we obtain
  $$qV=\frac{ mv^{2}}{2}\text{.} $$
 </div>
 
-We solve this for  $$v $$
-*\:*
+We solve this for $$v $$
+_\:_
 
 <div class="equation" >
  $$v=\sqrt{\frac{2qV}{m}}\text{.} $$
 </div>
 
-Entering values for  $$q, V\text{, and } m $$  gives
+Entering values for $$q, V\text{, and } m $$ gives
 
 <div class="equation" >
  $$\begin{array}{lll}v& =& \sqrt{\frac{2\left(-1.60 \times 10^{-19} \text{C}\right)\left(-100 \text{J/C}\right)}{9.11 \times 10^{-31} \text{kg}}}\\ v& =& 5.93 \times 10^{6} \text{m/s} \text{.} \end{array} $$ 
@@ -449,6 +450,22 @@ Voltage is the common word for potential difference. Which term is more descript
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare what each term says about the measured quantity.
+
+**Solution**
+
+“Potential difference” explicitly identifies a difference between two electric potentials, $$\Delta V=V_B-V_A$$. It also emphasizes that the measurement is relative and corresponds to potential-energy change per unit charge. “Voltage” is a convenient synonym but does not state these features as directly.
+
+**Discussion**
+
+Both terms describe the same physical quantity, but potential difference is more descriptive because it names the difference of electric potential between two points.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -456,6 +473,22 @@ Voltage is the common word for potential difference. Which term is more descript
 ::: problem
 
 If the voltage between two points is zero, can a test charge be moved between them with zero net work being done? Can this necessarily be done without exerting a force? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish zero total work along a path from zero force at every point.
+
+**Solution**
+
+For electrostatic forces, $$W_{\text{electric}}=-q\Delta V$$. Thus zero potential difference means zero net electric work, and a quasistatic move can also have zero net external work. The force need not vanish along the path: moving around a circle centered on a point charge requires balancing a radial electric force, even though the displacement is everywhere perpendicular to it.
+
+**Discussion**
+
+Alternatively, positive and negative work on different parts of a path can cancel. Zero voltage therefore permits zero net work between the endpoints, but does not guarantee motion without an applied force.
 
 :::
 
@@ -469,6 +502,22 @@ What is the relationship between voltage and energy? More precisely, what is the
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use electric potential as energy per unit charge.
+
+**Solution**
+
+A charge $$q$$ moved through a potential difference $$\Delta V$$ changes electric potential energy by $$\Delta U=q\Delta V$$. For an assumed $$+2.0\text{ C}$$ charge moved to a potential $$3.0\text{ V}$$ higher, $$\Delta U=(2.0\text{ C})(3.0\text{ J/C})=6.0\text{ J}$$. A negative charge has the opposite energy change for the same move.
+
+**Discussion**
+
+Potential difference belongs to the source field; the corresponding energy change also depends on the moved charge. Electric potential-energy change equals charge times potential difference.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -476,6 +525,22 @@ What is the relationship between voltage and energy? More precisely, what is the
 ::: problem
 
 Voltages are always measured between two points. Why?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider the freedom to choose the zero of potential.
+
+**Solution**
+
+Adding the same constant to all potentials leaves the electric field and all electric forces unchanged. A voltmeter compares its two terminals and measures $$V_B-V_A$$, which is unaffected by that arbitrary constant. A quoted potential “at a point” implicitly uses a second reference such as ground or infinity.
+
+**Discussion**
+
+Voltages are measured between two points because only potential differences determine the electrical energy transferred per unit charge.
 
 :::
 
@@ -489,6 +554,26 @@ How are units of volts and electron volts related? How do they differ?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish a unit of energy per charge from a unit of energy.
+
+**Solution**
+
+A volt is $$1\text{ V}=1\text{ J/C}$$. An electron volt is the energy magnitude associated with one elementary charge crossing one volt:
+
+$$1\text{ eV}=(1.602\times10^{-19}\text{ C})(1\text{ V})=1.602\times10^{-19}\text{ J}.$$
+
+For example, an electron accelerated from rest through a suitable $$10\text{ V}$$ potential difference gains $$10\text{ eV}$$ of kinetic energy.
+
+**Discussion**
+
+The sign of the energy change depends on the charge and direction of travel. Volts measure potential difference, whereas electron volts measure energy.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -497,7 +582,7 @@ How are units of volts and electron volts related? How do they differ?
 
 ::: problem
 
-Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be  $$ 1.67 \times 10^{-27} \text{kg}\text{.} $$
+Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be $$ 1.67 \times 10^{-27} \text{kg}\text{.} $$
 
 :::
 
@@ -526,6 +611,7 @@ Since both particles have the same charge magnitude $$q$$ and are accelerated th
 $$\frac{v_e}{v_{\text{H}^-}} = \frac{\sqrt{\frac{2qV}{m_e}}}{\sqrt{\frac{2qV}{m_{\text{H}^-}}}} = \sqrt{\frac{m_{\text{H}^-}}{m_e}}$$
 
 Substituting the known masses:
+
 - $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
 - $$m_{\text{H}^-} = 1.67 \times 10^{-27} \text{ kg}$$
 
@@ -557,12 +643,13 @@ The electrons start at rest and are accelerated through a potential difference o
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Accelerating voltage: $$V = 40 \text{ kV} = 40,000 \text{ V}$$
 - Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
 - Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
 
-*Unknown:* Maximum speed $$v$$
+_Unknown:_ Maximum speed $$v$$
 
 The kinetic energy gained equals the work done by the electric field:
 
@@ -596,8 +683,8 @@ This calculated speed is about 40% of the speed of light ($$c = 3.0 \times 10^8$
 
 ::: problem
 
-A bare helium nucleus has two positive charges and a mass of  $$ 6.64 \times 10^{-27} \text{kg}\text{.} $$
- (a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?
+A bare helium nucleus has two positive charges and a mass of $$ 6.64 \times 10^{-27} \text{kg}\text{.} $$
+(a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?
 
 :::
 
@@ -609,7 +696,8 @@ A bare helium nucleus (alpha particle) has two protons and two neutrons, with a 
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Mass of helium nucleus: $$m = 6.64 \times 10^{-27} \text{ kg}$$
 - Speed of light: $$c = 3.00 \times 10^{8} \text{ m/s}$$
 - Velocity: $$v = 0.0200c = 0.0200 \times 3.00 \times 10^{8} \text{ m/s} = 6.00 \times 10^{6} \text{ m/s}$$
@@ -675,12 +763,13 @@ This problem connects electrostatics with thermodynamics. When a singly charged 
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Accelerating voltage: $$V = 13.0 \text{ V}$$
 - Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
 - Boltzmann constant: $$k_B = 1.38 \times 10^{-23} \text{ J/K}$$
 
-*Unknown:* Temperature $$T$$
+_Unknown:_ Temperature $$T$$
 
 The kinetic energy gained by the ion:
 
@@ -735,12 +824,13 @@ This is the inverse of the previous problem. We know the temperature and need to
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Temperature: $$T = 1.5 \times 10^{7} \text{ °C} = 1.5 \times 10^{7} \text{ K}$$ (the difference between Celsius and Kelvin is negligible at this scale)
 - Boltzmann constant: $$k_B = 1.38 \times 10^{-23} \text{ J/K}$$
 - Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
 
-*Unknown:* Voltage $$V$$
+_Unknown:_ Voltage $$V$$
 
 The average kinetic energy at temperature $$T$$:
 
@@ -790,7 +880,8 @@ Power is the rate of energy transfer, defined as $$P = E/t$$. For part (a), we'l
 
 **(a) Average power output:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Energy dissipated: $$E = 400 \text{ J}$$
 - Time interval: $$t = 10.0 \text{ ms} = 10.0 \times 10^{-3} \text{ s} = 0.0100 \text{ s}$$
 
@@ -846,7 +937,8 @@ This problem connects electrical energy to thermal energy and phase changes. For
 
 **(a) Energy dissipated:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$q = 20.0 \text{ C}$$
 - Potential difference: $$V = 1.00 \times 10^{2} \text{ MV} = 1.00 \times 10^{8} \text{ V}$$
 
@@ -854,10 +946,11 @@ $$E = qV = (20.0 \text{ C})(1.00 \times 10^{8} \text{ V}) = 2.00 \times 10^{9} \
 
 **(b) Mass of water heated and boiled:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Specific heat of water: $$c = 4186 \text{ J/(kg·°C)}$$
 - Heat of vaporization of water: $$L_v = 2.26 \times 10^{6} \text{ J/kg}$$
-- Temperature change: $$\Delta T = 100°\text{C} - 15°\text{C} = 85°\text{C}$$
+- Temperature change: <!-- physics-scan: temperature=interval -->$$\Delta T = 100°\text{C} - 15°\text{C} = 85°\text{C}$$
 - Available energy: $$E = 2.00 \times 10^{9} \text{ J}$$
 
 The total energy required per kilogram of water:
@@ -922,12 +1015,13 @@ This problem integrates thermodynamics with electrostatics. First, we calculate 
 
 **(a) Charge moved by the battery:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Voltage: $$V = 12.0 \text{ V}$$
 - Mass of glass: $$m_g = 50.0 \text{ g} = 0.0500 \text{ kg}$$
 - Mass of formula: $$m_f = 250 \text{ g} = 0.250 \text{ kg}$$
 - Mass of aluminum: $$m_a = 200 \text{ g} = 0.200 \text{ kg}$$
-- Temperature change: $$\Delta T = 90.0°\text{C} - 20.0°\text{C} = 70.0°\text{C}$$
+- Temperature change: <!-- physics-scan: temperature=interval -->$$\Delta T = 90.0°\text{C} - 20.0°\text{C} = 70.0°\text{C}$$
 - Specific heats: $$c_g = 840 \text{ J/(kg·°C)}$$, $$c_f = c_{\text{water}} = 4186 \text{ J/(kg·°C)}$$, $$c_a = 900 \text{ J/(kg·°C)}$$
 
 Calculate the heat required for each material:
@@ -940,7 +1034,7 @@ $$Q_a = m_a c_a \Delta T = (0.200 \text{ kg})(900 \text{ J/(kg·°C)})(70.0°\te
 
 Total thermal energy:
 
-$$Q_{\text{total}} = Q_g + Q_f + Q_a = 2940 + 73,255 + 12,600 = 88,795 \text{ J}$$
+$$Q_{\text{total}} = Q_g + Q_f + Q_a = 2940 \text{ J} + 73,255 \text{ J} + 12,600 \text{ J} = 88,795 \text{ J}$$
 
 Using the energy-voltage relationship $$E = qV$$:
 
@@ -993,7 +1087,8 @@ This problem requires calculating the total energy needed for three phases of th
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Voltage: $$V = 12.0 \text{ V}$$
 - Mass: $$m = 750 \text{ kg}$$
 - Final speed: $$v = 25.0 \text{ m/s}$$
@@ -1026,7 +1121,7 @@ $$E_3 = Fd = (500 \text{ N})(90,000 \text{ m}) = 45,000,000 \text{ J}$$
 
 **Total energy:**
 
-$$E_{\text{total}} = E_1 + E_2 + E_3 = 234,375 + 1,470,000 + 45,000,000$$
+$$E_{\text{total}} = E_1 + E_2 + E_3 = 234,375 \text{ J} + 1,470,000 \text{ J} + 45,000,000 \text{ J}$$
 
 $$E_{\text{total}} = 46,704,375 \text{ J} \approx 4.67 \times 10^{7} \text{ J}$$
 
@@ -1071,7 +1166,8 @@ This problem connects nuclear physics with thermodynamics. For part (a), we'll u
 
 **(a) Potential energy of two nuclei:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Separation: $$r = 1.00 \times 10^{-12} \text{ m}$$
 - Charge of each nucleus: $$q = e = 1.60 \times 10^{-19} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -1080,7 +1176,7 @@ First, find the electric potential at distance $$r$$ from one nucleus:
 
 $$V = \frac{kq}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})}{1.00 \times 10^{-12} \text{ m}}$$
 
-$$V = \frac{1.44 \times 10^{-9} \text{ J/C}}{1.00 \times 10^{-12}} = 1.44 \times 10^{3} \text{ V} = 1.44 \text{ kV}$$
+$$V = \frac{1.44 \times 10^{-9} \text{ V·m}}{1.00 \times 10^{-12} \text{ m}} = 1.44 \times 10^{3} \text{ V} = 1.44 \text{ kV}$$
 
 The potential energy is the voltage times the charge of the second nucleus:
 
@@ -1090,7 +1186,7 @@ $$\text{PE} = 2.30 \times 10^{-16} \text{ J}$$
 
 This can also be written as:
 
-$$\text{PE} = \frac{kq^{2}}{r} = \frac{(8.99 \times 10^{9})(1.60 \times 10^{-19})^2}{1.00 \times 10^{-12}} = 2.30 \times 10^{-16} \text{ J}$$
+$$\text{PE} = \frac{kq^{2}}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{1.00 \times 10^{-12} \text{ m}} = 2.30 \times 10^{-16} \text{ J}$$
 
 Or in electron volts: $$\text{PE} = 1.44 \text{ keV}$$
 
@@ -1138,7 +1234,8 @@ This is an "Unreasonable Results" problem, where we perform the calculation and 
 
 **(a) Voltage calculation:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Diameter: $$d = 10.0 \text{ cm}$$, so radius $$r = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 - Charge: $$Q = 8.00 \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -1157,7 +1254,7 @@ This voltage of 1.44 trillion volts (1.44 TV) is absurdly high and physically im
 
 2. **Comparison to real systems:** The highest voltages achieved in laboratory settings are around 10–25 MV (megavolts), using specialized Van de Graaff generators. This calculated voltage is about 100,000 times higher.
 
-3. **Energy considerations:** The energy stored would be $$E = \frac{1}{2}QV = 5.8 \times 10^{12}$$ J, equivalent to about 1.4 kilotons of TNT—a small nuclear weapon.
+3. **Energy considerations:** The energy stored would be $$E = \frac{1}{2}QV = 5.8 \times 10^{12} \text{ J}$$, equivalent to about 1.4 kilotons of TNT—a small nuclear weapon.
 
 **(c) Which assumptions are responsible:**
 
@@ -1169,7 +1266,7 @@ The unreasonable assumption is the charge value of 8.00 C. One coulomb is an eno
 
 The maximum charge that can be placed on a sphere is limited by the breakdown field of the surrounding medium. For a 10 cm diameter sphere in air:
 
-$$Q_{\text{max}} = \frac{E_{\text{breakdown}} \cdot r^2}{k} = \frac{(3 \times 10^6)(0.05)^2}{8.99 \times 10^9} \approx 8 \times 10^{-7} \text{ C}$$
+$$Q_{\text{max}} = \frac{E_{\text{breakdown}} \cdot r^2}{k} = \frac{(3 \times 10^6 \text{ V/m})(0.05 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} \approx 8 \times 10^{-7} \text{ C}$$
 
 This is about 10 million times less than the assumed 8.00 C.
 
@@ -1209,13 +1306,14 @@ ratings in ampere-hours as energy in joules.
 This is an open-ended problem designed to help you practice applying the concepts of electric potential energy and voltage to a real-world situation. Here's a framework to guide your approach:
 
 **Step 1: Research Typical Values**
+
 - Smartphone battery voltages are typically 3.7 V (lithium-ion nominal voltage)
 - Battery capacities range from about 2000 mAh to 5000 mAh for modern smartphones
 - Typical smartphone power consumption is 1–3 W during active use
 
 **Step 2: Formulate Your Problem**
 
-*Example problem:* A smartphone has a 3.7 V lithium-ion battery rated at 3000 mAh.
+_Example problem:_ A smartphone has a 3.7 V lithium-ion battery rated at 3000 mAh.
 (a) How much energy can this battery deliver?
 (b) How much charge does this represent?
 (c) If the phone consumes an average of 2.0 W, how long will the battery last?
@@ -1223,6 +1321,7 @@ This is an open-ended problem designed to help you practice applying the concept
 **Step 3: Apply Relevant Equations**
 
 Key relationships to use:
+
 - $$E = qV$$ (energy = charge × voltage)
 - Battery capacity in amp-hours: $$q = I \times t$$, so 1 Ah = 3600 C
 - Power: $$P = E/t = IV$$
@@ -1232,17 +1331,18 @@ Key relationships to use:
 For the example problem above:
 
 (a) Energy: Convert 3000 mAh to coulombs:
-$$q = 3000 \text{ mAh} = 3.0 \text{ Ah} = 3.0 \times 3600 \text{ C} = 10,800 \text{ C}$$
+$$q = 3000 \text{ mAh} = 3.0 \text{ Ah} = (3.0 \text{ Ah})(3600 \text{ C/Ah}) = 10,800 \text{ C}$$
 
 $$E = qV = (10,800 \text{ C})(3.7 \text{ V}) = 39,960 \text{ J} \approx 40 \text{ kJ}$$
 
-Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = 11.1 \times 3600 \text{ J} = 40 \text{ kJ}$$
+Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = (11.1 \text{ Wh})(3600 \text{ J/Wh}) = 40 \text{ kJ}$$
 
 (b) Charge: 10,800 C (as calculated above)
 
 (c) Battery life: $$t = E/P = 39,960 \text{ J} / 2.0 \text{ W} = 20,000 \text{ s} = 5.5 \text{ hours}$$
 
 **Discussion Points to Consider:**
+
 - How does this compare to your own phone's battery life?
 - What happens to the energy—where does it go?
 - Why do manufacturers rate batteries in amp-hours rather than joules?
@@ -1254,6 +1354,7 @@ Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = 11.1 \t
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 electric potential

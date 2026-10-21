@@ -23,10 +23,10 @@ is pointed, as illustrated in [Figure 2](#Figure2). The plane is moving straight
 ahead relative to the air, but the movement of the air mass relative to the
 ground carries it sideways.
 
-![A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.](../resources/Figure_03_05_01.jpg 'A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.')
+![A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.](/resources/Figure_03_05_01.svg 'A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.')
 {: #Figure1}
 
-![An airplane is trying to fly straight north with velocity v sub p. Due to wind velocity v sub w in south west direction making an angle theta with the horizontal axis, the plane’s total velocity is thirty eight point 0 meters per seconds oriented twenty degrees west of north.](../resources/Figure_03_05_02.jpg 'An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).')
+![A northbound airplane drifts west. Its northward air velocity v sub p plus the southwest wind velocity v sub w gives its ground velocity v sub total, directed twenty degrees west of north. The vectors form a head-to-tail triangle.](/resources/Figure_03_05_02.svg 'An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).')
 {: #Figure2}
 
 In each of these situations, an object has a **velocity**
@@ -72,7 +72,7 @@ system:
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
 </div>
 
-![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03.jpg 'The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .')
+![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03.svg 'The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .')
 {: #Figure3}
 
 These equations are valid for any vectors and are adapted specifically for
@@ -96,7 +96,7 @@ Fill a bathtub half-full of water. Take a toy boat or some other object that flo
 Adding Velocities: A Boat on a River
 </div>
 
-![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #Figure4}
+![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](/resources/Figure_03_05_09.svg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #Figure4}
 
 Refer to [Figure 4](#Figure4), which shows a boat trying to go straight across the
 river. Let us calculate the magnitude and direction of the boat’s velocity
@@ -150,7 +150,7 @@ yielding
 The direction of the total velocity $$ \theta $$ is given by:
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(0.750/1.20\right). $$
+ $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(\frac{0.750 \ms}{1.20 \ms}\right). $$
 </div>
 
 This equation gives
@@ -178,7 +178,7 @@ Calculating Velocity: Wind Velocity Causes an Airplane to Drift
 Calculate the wind velocity for the situation shown in [Figure 5](#Figure5). The plane is known to be moving at 45.0 m/s due north relative to the air mass, while its velocity relative to the
 ground (its total velocity) is 38.0 m/s in a direction $$20.0^\circ $$ west of north.
 
-![An airplane is trying to fly north with velocity v p equal to forty five meters per second at angle of one hundred and ten degrees but due to wind velocity v w in south west direction making an angle theta with the horizontal axis it reaches a position in north west direction with resultant velocity v total equal to thirty eight meters per second and the direction is twenty degrees west of north.](../resources/Figure_03_05_04.jpg 'An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?')
+![An airplane flies due north at 45.0 meters per second relative to the air. Its ground velocity is 38.0 meters per second at twenty degrees west of north, or 110 degrees counterclockwise from east. A southwest wind vector joins the tip of the air-velocity vector to the tip of the ground-velocity vector.](/resources/Figure_03_05_04.svg 'An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?')
 {: #Figure5}
 
 **Strategy**
@@ -260,7 +260,7 @@ so that
 The direction is:
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{\text{w}y}/v_{\text{w}x}\right)={\tan}^{-1}\left(-9.29/-13.0\right) $$
+ $$ \theta ={\tan}^{-1}\left(v_{\text{w}y}/v_{\text{w}x}\right)={\tan}^{-1}\left(\frac{-9.29 \ms}{-13.0 \ms}\right) $$
 </div>
 
 giving
@@ -411,7 +411,7 @@ yielding
 The direction is given by:
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(-5.42/260 \right) $$
+ $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(\frac{-5.42 \ms}{260 \ms}\right) $$
 </div>
 
 so that
@@ -510,6 +510,23 @@ What frame or frames of reference do you instinctively use when driving a car? W
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+State velocity relative to the observer or surroundings that matter for the activity.
+
+**Solution**
+
+When driving, one usually judges motion relative to the road and nearby cars. A car moving at $$20\ms$$ relative to the road overtakes another moving the same way at $$15\ms$$ with relative speed $$20\ms-15\ms=5\ms$$.
+
+Inside an airplane, the cabin is the natural frame for walking or observing other passengers. A seated passenger has velocity $$0\ms$$ relative to the aircraft but, if it moves east at $$230\ms$$ relative to Earth, the passenger also moves east at $$230\ms$$ relative to Earth. Pilots additionally distinguish velocity relative to the air from velocity relative to the ground because wind connects the two.
+
+Drivers usually use the road and other vehicles as reference frames, while airline passengers usually use the cabin and pilots also use air-relative and ground-relative frames.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -518,6 +535,25 @@ What frame or frames of reference do you instinctively use when driving a car? W
 
 A basketball player dribbling down the court usually keeps his eyes fixed on
 the players around him. He is moving fast. Why doesn’t he need to keep his eyes on the ball?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Compare the ball’s horizontal motion in the player’s moving frame and in the court frame.
+
+**Solution**
+
+If a player runs at nearly constant velocity and gives the ball the same horizontal velocity, the ball keeps that component while it is airborne. Gravity changes its vertical velocity, not its horizontal velocity, when drag is negligible. For an illustrative running speed $$v=4.0\ms$$ and airborne time $$0.50\s$$, both travel
+
+$$\Delta x=(4.0\ms)(0.50\s)=2.0\m$$
+
+along the court. In the player’s frame the ball’s horizontal velocity is approximately $$4.0\ms-4.0\ms=0\ms$$, so it mainly bounces vertically near the hand. Floor contact and changes in running speed require control and practice; the argument does not imply that the ball automatically follows an accelerating player.
+
+The player need not continuously track the ball because, during approximately steady running and controlled dribbling, the ball shares the player’s horizontal motion and moves mainly up and down relative to the player.
 
 ::::
 
@@ -534,6 +570,27 @@ occur? How would the motion of the ball appear to the person who threw it?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Add the backward velocity relative to the truck to the truck’s forward velocity relative to the road.
+
+**Solution**
+
+Choose $$+x$$ along the truck’s motion and $$+y$$ upward, treating the truck as moving at constant speed and neglecting drag. Then
+
+$$v_{x,\text{ball/ground}}=v_{x,\text{ball/truck}}+v_{x,\text{truck/ground}}.$$
+
+For example, if the truck moves at $$+10\ms$$ and the ball is thrown horizontally at $$-10\ms$$ relative to it, the ground-frame horizontal velocity is $$-10\ms+10\ms=0\ms$$. A roadside observer sees a vertical fall. The thrower sees the ball move backward while accelerating downward, along a parabola if its initial vertical velocity is zero. A larger or smaller backward throwing speed would make the ball move horizontally backward or forward in the ground frame.
+
+![A backward throw matching the truck’s speed makes the ball’s horizontal ground velocity zero, although it moves backward relative to the truck.](../resources/concept_03_05_q03.svg)
+
+The ball can fall straight down in the ground frame if its backward horizontal speed relative to the truck equals the truck’s forward ground speed, while the thrower sees it travel backward and downward.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -543,6 +600,27 @@ occur? How would the motion of the ball appear to the person who threw it?
 The hat of a jogger running at constant velocity falls off the back of
 his head. Draw a sketch showing the path of the hat in the jogger’s
 frame of reference. Draw its path as viewed by a stationary observer.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Use a constant-velocity jogger frame and assume the hat loses contact without a horizontal impulse.
+
+**Solution**
+
+Choose $$+x$$ along the jogger’s motion and $$+y$$ upward. Neglect drag. Relative to the jogger, the hat starts with zero horizontal velocity and falls vertically from its release point. In the ground frame it retains the jogger’s horizontal speed and follows a parabola:
+
+$$x=x_0+ut,\qquad y=h-\tfrac12gt^2.$$
+
+For assumed $$u=3.0\ms$$ and $$h=1.8\m$$, the fall time is $$t=\sqrt{2(1.8\m)/(9.80\mss)}=0.61\s$$ and the horizontal ground displacement is approximately $$(3.0\ms)(0.61\s)=1.8\m$$. A real hat that is blown backward by air need not keep pace; that is an additional force, not a change of reference frame.
+
+![Left: the hat falls vertically relative to the constant-speed jogger. Right: it retains forward speed and follows a parabola relative to the ground.](../resources/concept_03_05_q04.svg)
+
+With no horizontal impulse or air resistance, the hat falls straight down in the jogger’s frame and follows a forward parabola in the stationary observer’s frame.
 
 ::::
 
@@ -557,6 +635,30 @@ ground directly below the end of the truck. What is the direction of
 its velocity relative to the truck just before it hits? Is this the
 same as the direction of its velocity relative to ground just before
 it hits? Explain your answers.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Use velocity addition for a clod released from a truck moving at constant velocity, with negligible drag.
+
+**Solution**
+
+Choose $$+x$$ along the truck’s motion and $$+y$$ upward. The clod initially shares the truck’s horizontal velocity and keeps it during its fall, explaining why it lands below the moving truck’s rear end. Relative to the truck it has no horizontal velocity and points straight down just before impact.
+
+For an example, take $$v_{x,\text{truck/ground}}=10\ms$$ and a fall lasting $$0.50\s$$. Then $$v_y=-(9.80\mss)(0.50\s)=-4.90\ms$$, so
+
+$$\vb v_{\text{clod/truck}}=(0\ms,-4.90\ms),\qquad
+\vb v_{\text{clod/ground}}=(10\ms,-4.90\ms).$$
+
+The ground-frame direction is $$\tan^{-1}(4.90/10)=26°$$ below forward horizontal, rather than straight down.
+
+![Adding the truck’s forward ground velocity to the clod’s downward truck-relative velocity gives a forward-and-downward ground velocity.](../resources/concept_03_05_q05.svg)
+
+The clod’s velocity is vertically downward relative to a constant-speed truck but forward and downward relative to the ground, so the directions are different.
 
 ::::
 
@@ -584,11 +686,17 @@ relative to the Earth. What was his average velocity relative to the air?
 
 For part (a), use velocity and time to find displacement. For part (b), subtract the air's velocity relative to the Earth from the plane's velocity relative to the Earth; because the wind points opposite to the motion, this adds the headwind's magnitude. For part (c), use the air velocity and time to find displacement relative to air.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The aircraft’s velocity relative to the Earth, v p/E = 3.53 m/s, points 45° south of east; the wind’s velocity relative to the Earth, v a/E = 2.00 m/s, points the opposite way, 45° north of west. Along the line of motion (dashed), the positive direction is the direction of travel, 45° south of east.](../resources/sketch_03_05_p01.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. Because the headwind is exactly opposite to the motion, both velocities lie on one line, so part (b) can be done in one dimension with the positive direction along the motion ($$ 45^\circ $$ south of east): $$ v_{\text{plane/Earth}} = +3.53 \ms $$ and $$ v_{\text{air/Earth}} = -2.00 \ms $$.
+
 **Solution**
 
 **Given:**
 
-- Time: $$ t = 169 \text{ min} = 169 \times 60 = 10140 \s $$
+- Time: $$ t = 169 \text{ min} = 169 \text{ min} \times \frac{60 \s}{1 \text{ min}} = 10140 \s $$
 - Velocity relative to Earth: $$ v_{ground} = 3.53 \ms $$ at $$ 45° $$ south of east
 - Headwind: $$ v_{wind} = 2.00 \ms $$ (opposite to motion, so 45° north of west)
 
@@ -667,6 +775,12 @@ total round-trip time compared to what it would be with no wind.
 
 The seagull's velocity relative to the Earth is its velocity relative to the air minus the wind velocity (when flying into the wind). Use distance and time to find the ground velocity, then solve for wind velocity.
 
+**Sketch and coordinate system**
+
+![A +x axis points in the direction the seagull first flies, into the wind. The gull’s velocity relative to the air is +9.00 m/s; the wind’s velocity relative to the Earth is negative (it blows toward −x) with unknown magnitude; the gull’s velocity relative to the Earth is +5.00 m/s (6.00 km in 20.0 min). On the return trip the gull flies toward −x, with the wind.](../resources/sketch_03_05_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the gull first flies (into the wind). Then the gull's velocity relative to the air is $$ +9.00 \ms $$, relative to the Earth $$ +5.00 \ms $$, and the wind's velocity is negative; the solution works with its magnitude, $$ v_{\text{wind}} $$. On the way back the gull flies toward $$ -x $$, but the wind keeps the same velocity, $$ -4.00 \ms $$. Its return ground velocity is therefore $$ -9.00 \ms - 4.00 \ms = -13.0 \ms $$; below we use the speed, $$ 13.0 \ms $$, to find the travel time.
+
 **Solution**
 
 **(a) Wind velocity:**
@@ -729,6 +843,12 @@ line, who will win the race, assuming they run at constant velocity?
 
 For part (a), find the relative velocity by subtracting velocities (both in same direction). For part (b), calculate the time each runner takes to reach the finish line. For part (c), determine how far the loser still has to go when the winner finishes.
 
+**Sketch and coordinate system**
+
+![A +x axis points toward the finish line, with the origin at the second runner. The front runner is at x = 45.0 m and the finish line at x = 295 m (250 m beyond the front runner). Velocities: second runner +4.20 m/s, front runner +3.50 m/s.](../resources/sketch_03_05_p03.svg){: .sketch}
+
+Take $$ +x $$ toward the finish line, with the origin at the second runner. Then both velocities are positive, the front runner starts at $$ x = 45.0 \m $$, and the finish line is at $$ x = 295 \m $$.
+
 **Solution**
 
 **Given:**
@@ -772,47 +892,10 @@ Since $$ t_2 < t_1 $$, the **second runner wins**.
 
 **(c) Distance ahead at finish:**
 
-When the second runner finishes (at $$ t = 70.2 \s $$), the front runner has traveled:
+When the second runner finishes, the elapsed time is $$ t_2 = 295\m/(4.20\ms) $$. In that time the front runner covers $$ v_1t_2 $$. Retaining the unrounded time, the distance still to go is
 
 <div class="equation">
-$$ d_1 = v_1 \times t_2 = (3.50 \ms)(70.2 \s) = 246 \m $$
-</div>
-
-Distance remaining for front runner:
-
-<div class="equation">
-$$ d_{remaining} = 250 - 246 = 4.0 \m $$
-</div>
-
-Alternatively, using relative velocity:
-Time to close the 45.0 m gap:
-
-<div class="equation">
-$$ t_{catch} = \frac{45.0 \m}{0.70 \ms} = 64.3 \s $$
-</div>
-
-After catching up, the second runner still has:
-
-<div class="equation">
-$$ d = 250 - (3.50)(64.3) = 250 - 225 = 25 \m $$ to go
-</div>
-
-Time to cover this distance:
-
-<div class="equation">
-$$ t_{final} = \frac{25 \m}{4.20 \ms} = 5.95 \s $$
-</div>
-
-During this time, the front runner covers:
-
-<div class="equation">
-$$ d_1 = (3.50)(5.95) = 20.8 \m $$
-</div>
-
-Gap at finish:
-
-<div class="equation">
-$$ 25.0 - 20.8 = 4.2 \m \approx 4.17 \m $$
+$$ d_{\text{remaining}} = 250\m-(3.50\ms)\left(\frac{295\m}{4.20\ms}\right) \approx 4.17\m. $$
 </div>
 
 **Discussion**
@@ -853,11 +936,17 @@ travels 144 m horizontally while falling 1.50 m in the frame of reference of the
 
 Calculate the time it takes the coin to fall 1.50 m, then use that time and the horizontal velocity (plane's velocity) to find the horizontal distance.
 
+**Sketch and coordinate system**
+
+![Earth frame: axes with +x in the airplane’s direction of motion and +y up, origin where the coin is released. The coin starts with the airplane’s horizontal velocity, v₀x = +260 m/s, and v₀y = 0; it falls 1.50 m to the floor (y = −1.50 m) while moving an unknown horizontal distance x. The acceleration is a y = −9.80 m/s², a x = 0. The vertical scale is greatly exaggerated.](../resources/sketch_03_05_p04.svg){: .sketch}
+
+In the Earth's frame, take $$ +x $$ in the airplane's direction of motion and $$ +y $$ up, with the origin at the release point. The coin starts with the plane's velocity, $$ v_{0x} = +260 \ms $$, and $$ v_{0y} = 0 $$; the floor is $$ 1.50 \m $$ below the origin.
+
 **Solution**
 
 1. Find the time to fall 1.50 m using free-fall equation (starting from rest vertically):
 <div class="equation">
-$$ y = \frac{1}{2}gt^{2} \Rightarrow t = \sqrt{\frac{2y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
+$$ \Delta y = -\frac{1}{2}gt^{2}, \quad \Delta y = -1.50 \m, \quad t = \sqrt{\frac{-2\Delta y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
 </div>
 
 2. Calculate horizontal distance using the plane's velocity:
@@ -894,6 +983,12 @@ is the initial velocity of the ball
 
 The ball's velocity relative to the quarterback equals the ball's velocity relative to the ground minus the quarterback's velocity relative to the ground. First find the ball's initial speed relative to the ground using projectile motion, then apply vector subtraction.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal downfield and +y up (fixed to the ground). The quarterback’s velocity relative to the ground is v Q/G = −2.00 m/s (backward). The ball’s velocity relative to the ground, v b/G, is 15.2 m/s at 25.0° above +x. The ball’s velocity relative to the quarterback is v b/Q = v b/G − v Q/G, drawn as v b/G followed by +2.00 m/s; its magnitude and angle are unknown.](../resources/sketch_03_05_p05.svg){: .sketch}
+
+Take $$ +x $$ downfield and $$ +y $$ up, with axes fixed to the ground. The quarterback moves backward, so $$ v_{\text{QB}} = -2.00 \ms $$ along $$ x $$; the ball's velocity relative to him is $$ \vec{v}_{\text{ball,QB}} = \vec{v}_{\text{ball,ground}} - \vec{v}_{\text{QB,ground}} $$.
+
 **Solution**
 
 **Given:**
@@ -915,13 +1010,13 @@ $$ v_{0,ground} = \sqrt{\frac{Rg}{\sin 2\theta_g}} = \sqrt{\frac{(18.0 \m)(9.80 
 Horizontal component:
 
 <div class="equation">
-$$ v_{0x,g} = v_{0,ground} \cos(25.0°) = 15.17 \times 0.9063 = 13.75 \ms $$
+$$ v_{0x,g} = v_{0,ground} \cos(25.0°) = 15.17 \ms \times 0.9063 = 13.75 \ms $$
 </div>
 
 Vertical component:
 
 <div class="equation">
-$$ v_{0y,g} = v_{0,ground} \sin(25.0°) = 15.17 \times 0.4226 = 6.413 \ms $$
+$$ v_{0y,g} = v_{0,ground} \sin(25.0°) = 15.17 \ms \times 0.4226 = 6.413 \ms $$
 </div>
 
 **Step 3: Find velocity relative to quarterback**
@@ -937,7 +1032,7 @@ $$ \vec{v}_{ball,QB} = \vec{v}_{ball,ground} - \vec{v}_{QB,ground} $$
 Horizontal component:
 
 <div class="equation">
-$$ v_{x,QB} = v_{0x,g} - v_{QB} = 13.75 - (-2.00) = 13.75 + 2.00 = 15.75 \ms $$
+$$ v_{x,QB} = v_{0x,g} - v_{QB} = 13.75 \ms - (-2.00 \ms) = 13.75 \ms + 2.00 \ms = 15.75 \ms $$
 </div>
 
 Vertical component (unchanged):
@@ -951,13 +1046,13 @@ $$ v_{y,QB} = v_{0y,g} = 6.413 \ms $$
 Magnitude:
 
 <div class="equation">
-$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(15.75)^2 + (6.413)^2} = \sqrt{248.2 + 41.1} = \sqrt{289.3} = 17.0 \ms $$
+$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(15.75 \ms)^2 + (6.413 \ms)^2} = \sqrt{248.2 \mmss + 41.1 \mmss} = \sqrt{289.3 \mmss} = 17.0 \ms $$
 </div>
 
 Direction:
 
 <div class="equation">
-$$ \theta_{QB} = \tan^{-1}\left(\frac{v_{y,QB}}{v_{x,QB}}\right) = \tan^{-1}\left(\frac{6.413}{15.75}\right) = \tan^{-1}(0.4071) = 22.2° $$
+$$ \theta_{QB} = \tan^{-1}\left(\frac{v_{y,QB}}{v_{x,QB}}\right) = \tan^{-1}\left(\frac{6.413 \ms}{15.75 \ms}\right) = \tan^{-1}(0.4071) = 22.2° $$
 </div>
 
 **Discussion**
@@ -998,6 +1093,12 @@ A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s 
 
 The ship's velocity relative to Earth is the vector sum of its velocity relative to water and the water's velocity (current) relative to Earth. Break both velocities into components, add them, then find the magnitude and direction of the resultant.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The ship’s velocity relative to the water, v s/w = 7.00 m/s, points north (+y). The current, v w/E = 1.50 m/s at 40.0° north of east, is drawn from its tip. Their sum is the ship’s velocity relative to the Earth, v s/E, unknown.](../resources/sketch_03_05_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The velocity relative to the Earth is the head-to-tail sum $$ \vec{v}_{\text{s/E}} = \vec{v}_{\text{s/w}} + \vec{v}_{\text{w/E}} $$, and both the current's components are positive.
+
 **Solution**
 
 **Given:**
@@ -1022,11 +1123,11 @@ $$ v_{ship,y} = 7.00 \ms $$
 **Step 3: Find components of current velocity**
 
 <div class="equation">
-$$ v_{current,x} = 1.50 \cos(40.0°) = 1.50 \times 0.766 = 1.15 \ms $$
+$$ v_{current,x} = 1.50 \ms \cos(40.0°) = 1.50 \ms \times 0.766 = 1.15 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{current,y} = 1.50 \sin(40.0°) = 1.50 \times 0.643 = 0.965 \ms $$
+$$ v_{current,y} = 1.50 \ms \sin(40.0°) = 1.50 \ms \times 0.643 = 0.965 \ms $$
 </div>
 
 **Step 4: Add velocity components**
@@ -1034,11 +1135,11 @@ $$ v_{current,y} = 1.50 \sin(40.0°) = 1.50 \times 0.643 = 0.965 \ms $$
 The ship's velocity relative to Earth:
 
 <div class="equation">
-$$ v_{Earth,x} = v_{ship,x} + v_{current,x} = 0 + 1.15 = 1.15 \ms $$
+$$ v_{Earth,x} = v_{ship,x} + v_{current,x} = 0 \ms + 1.15 \ms = 1.15 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{Earth,y} = v_{ship,y} + v_{current,y} = 7.00 + 0.965 = 7.97 \ms $$
+$$ v_{Earth,y} = v_{ship,y} + v_{current,y} = 7.00 \ms + 0.965 \ms = 7.97 \ms $$
 </div>
 
 **Step 5: Find magnitude and direction**
@@ -1046,13 +1147,13 @@ $$ v_{Earth,y} = v_{ship,y} + v_{current,y} = 7.00 + 0.965 = 7.97 \ms $$
 Magnitude:
 
 <div class="equation">
-$$ v_{Earth} = \sqrt{v_{Earth,x}^2 + v_{Earth,y}^2} = \sqrt{(1.15)^2 + (7.97)^2} = \sqrt{1.32 + 63.5} = \sqrt{64.8} = 8.05 \ms $$
+$$ v_{Earth} = \sqrt{v_{Earth,x}^2 + v_{Earth,y}^2} = \sqrt{(1.15 \ms)^2 + (7.97 \ms)^2} = \sqrt{1.32 \mmss + 63.5 \mmss} = \sqrt{64.8 \mmss} = 8.05 \ms $$
 </div>
 
 Direction (angle from north toward east):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_{Earth,x}}{v_{Earth,y}}\right) = \tan^{-1}\left(\frac{1.15}{7.97}\right) = \tan^{-1}(0.144) = 8.21° $$
+$$ \theta = \tan^{-1}\left(\frac{v_{Earth,x}}{v_{Earth,y}}\right) = \tan^{-1}\left(\frac{1.15 \ms}{7.97 \ms}\right) = \tan^{-1}(0.144) = 8.21° $$
 </div>
 
 **Discussion**
@@ -1088,6 +1189,12 @@ effect of the wind on the plane's path.
 
 The plane's velocity relative to Earth equals its velocity relative to air (airspeed) plus the wind velocity. Break both into components, add, then find magnitude and direction.
 
+**Sketch and coordinate system**
+
+![This solution uses +x pointing WEST and +y pointing SOUTH, origin at the airplane. The airplane’s velocity relative to the air, v p/a = 260 m/s, points 5.0° south of west (just below +x). The wind, v a/E = 35.0 m/s at 15° south of east, has a negative x-component and a positive y-component. Their sum is v p/E, unknown.](../resources/sketch_03_05_p07.svg){: .sketch}
+
+This solution uses a less common but perfectly valid choice: $$ +x $$ points **west** and $$ +y $$ points **south**, because the airplane moves mostly west and slightly south. With these axes the airplane's components are positive, and the eastward part of the wind is a *negative* $$ x $$-component.
+
 **Solution**
 
 **Given:**
@@ -1104,11 +1211,11 @@ Let west be positive x-axis and south be positive y-axis.
 **Step 2: Components of plane's velocity relative to air**
 
 <div class="equation">
-$$ v_{plane,x} = 260 \cos(5.0°) = 260 \times 0.996 = 259 \ms $$ (west)
+$$ v_{plane,x} = 260 \ms \cos(5.0°) = 260 \ms \times 0.996 = 259 \ms $$ (west)
 </div>
 
 <div class="equation">
-$$ v_{plane,y} = 260 \sin(5.0°) = 260 \times 0.0872 = 22.7 \ms $$ (south)
+$$ v_{plane,y} = 260 \ms \sin(5.0°) = 260 \ms \times 0.0872 = 22.7 \ms $$ (south)
 </div>
 
 **Step 3: Components of wind velocity**
@@ -1116,21 +1223,21 @@ $$ v_{plane,y} = 260 \sin(5.0°) = 260 \times 0.0872 = 22.7 \ms $$ (south)
 Wind is 15° south of east, which is 15° south of the negative x-direction (or 180° - 15° = 165° from west toward south):
 
 <div class="equation">
-$$ v_{wind,x} = -35.0 \cos(15°) = -35.0 \times 0.966 = -33.8 \ms $$ (east, or negative west)
+$$ v_{wind,x} = -35.0 \ms \cos(15°) = -35.0 \ms \times 0.966 = -33.8 \ms $$ (east, or negative west)
 </div>
 
 <div class="equation">
-$$ v_{wind,y} = 35.0 \sin(15°) = 35.0 \times 0.259 = 9.07 \ms $$ (south)
+$$ v_{wind,y} = 35.0 \ms \sin(15°) = 35.0 \ms \times 0.259 = 9.07 \ms $$ (south)
 </div>
 
 **Step 4: Add components**
 
 <div class="equation">
-$$ v_{Earth,x} = v_{plane,x} + v_{wind,x} = 259 + (-33.8) = 225 \ms $$ (west)
+$$ v_{Earth,x} = v_{plane,x} + v_{wind,x} = 259 \ms + (-33.8 \ms) = 225 \ms $$ (west)
 </div>
 
 <div class="equation">
-$$ v_{Earth,y} = v_{plane,y} + v_{wind,y} = 22.7 + 9.07 = 31.8 \ms $$ (south)
+$$ v_{Earth,y} = v_{plane,y} + v_{wind,y} = 22.7 \ms + 9.07 \ms = 31.8 \ms $$ (south)
 </div>
 
 **Step 5: Find magnitude and direction**
@@ -1138,13 +1245,13 @@ $$ v_{Earth,y} = v_{plane,y} + v_{wind,y} = 22.7 + 9.07 = 31.8 \ms $$ (south)
 Magnitude:
 
 <div class="equation">
-$$ v_{Earth} = \sqrt{(225)^2 + (31.8)^2} = \sqrt{50625 + 1011} = \sqrt{51636} = 227 \ms \approx 230 \ms $$
+$$ v_{Earth} = \sqrt{(225 \ms)^2 + (31.8 \ms)^2} = \sqrt{50625 \mmss + 1011 \mmss} = \sqrt{51636 \mmss} = 227 \ms \approx 230 \ms $$
 </div>
 
 Direction:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{31.8}{225}\right) = \tan^{-1}(0.141) = 8.03° \approx 8.0° $$ south of west
+$$ \theta = \tan^{-1}\left(\frac{31.8 \ms}{225 \ms}\right) = \tan^{-1}(0.141) = 8.03° \approx 8.0° $$ south of west
 </div>
 
 **(b) Discussion of consistency:**
@@ -1186,6 +1293,12 @@ travel in order to have a velocity straight north relative to the Earth, assumin
 
 To travel straight north relative to Earth, the ship must aim at an angle that compensates for the eastward component of the current. The ship's velocity relative to water and the current velocity must add vectorially to produce a resultant pointing due north.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The ship’s velocity relative to the water, v s/w = 7.00 m/s, points at unknown angle θ west of north. The current, v w/E = 1.50 m/s at 40.0° north of east, is drawn from its tip. The sum, v s/E, must point due north (+y), so its x-component is zero.](../resources/sketch_03_05_p08.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The condition \"straight north relative to the Earth\" becomes the equation $$ v_{\text{Earth},x} = 0 $$, which fixes the ship's heading angle $$ \theta $$ west of north.
+
 **Solution**
 
 **Given:**
@@ -1213,13 +1326,13 @@ The ship must have a westward component to cancel the current's eastward push.
 Using the Pythagorean theorem:
 
 <div class="equation">
-$$ v_{ship,y} = \sqrt{v_{ship,water}^2 - v_{ship,x}^2} = \sqrt{(7.00)^2 - (1.15)^2} = \sqrt{49.0 - 1.32} = \sqrt{47.7} = 6.91 \ms $$
+$$ v_{ship,y} = \sqrt{v_{ship,water}^2 - v_{ship,x}^2} = \sqrt{(7.00 \ms)^2 - (1.15 \ms)^2} = \sqrt{49.0 \mmss - 1.32 \mmss} = \sqrt{47.7 \mmss} = 6.91 \ms $$
 </div>
 
 The angle west of north is:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_{ship,x}}{v_{ship,y}}\right) = \tan^{-1}\left(\frac{1.15}{6.91}\right) = \tan^{-1}(0.166) = 9.44° $$
+$$ \theta = \tan^{-1}\left(\frac{v_{ship,x}}{v_{ship,y}}\right) = \tan^{-1}\left(\frac{1.15 \ms}{6.91 \ms}\right) = \tan^{-1}(0.166) = 9.44° $$
 </div>
 
 **(b) Speed relative to Earth:**
@@ -1227,7 +1340,7 @@ $$ \theta = \tan^{-1}\left(\frac{v_{ship,x}}{v_{ship,y}}\right) = \tan^{-1}\left
 Since the ship travels due north:
 
 <div class="equation">
-$$ v_{Earth} = v_{Earth,y} = v_{ship,y} + v_{current,y} = 6.91 + 0.965 = 7.87 \ms $$
+$$ v_{Earth} = v_{Earth,y} = v_{ship,y} + v_{current,y} = 6.91 \ms + 0.965 \ms = 7.87 \ms $$
 </div>
 
 **Discussion**
@@ -1265,6 +1378,12 @@ speed relative to the air mass?
 
 This is a relative velocity problem in two dimensions. The airplane's velocity relative to Earth equals the airplane's velocity relative to air plus the air's (wind's) velocity relative to Earth. We need to set up vector equations and solve for the unknowns.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The airplane’s velocity relative to the air, v p/a, points 5.00° south of west, magnitude unknown. The wind, v a/E = 45.0 m/s at 20.0° south of east, is drawn from its tip. Their sum, the airplane’s velocity relative to the Earth v p/E, points 45.0° south of west, magnitude unknown.](../resources/sketch_03_05_p09.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. Both unknown speeds are magnitudes; their directions are known, so each velocity's components carry signs set by those directions (west and south negative).
+
 **Solution**
 
 **Given:**
@@ -1276,11 +1395,11 @@ Let's set up a coordinate system with east as +x and north as +y.
 
 **Wind velocity components:**
 <div class="equation">
-$$ v_{wind,x} = 45.0 \cos(20°) = 45.0(0.940) = 42.3 \ms $$ (east)
+$$ v_{wind,x} = 45.0 \ms \cos(20°) = 45.0 \ms(0.940) = 42.3 \ms $$ (east)
 </div>
 
 <div class="equation">
-$$ v_{wind,y} = -45.0 \sin(20°) = -45.0(0.342) = -15.4 \ms $$ (south)
+$$ v_{wind,y} = -45.0 \ms \sin(20°) = -45.0 \ms(0.342) = -15.4 \ms $$ (south)
 </div>
 
 **Vector equation:**
@@ -1311,41 +1430,41 @@ $$ v_{p/E,y} = -v_{p/E} \sin(45.0°) = -0.707 v_{p/E} $$
 
 **Setting up equations from vector addition:**
 
-x-component: $$ -0.707 v_{p/E} = -0.996 v_{p/a} + 42.3 $$
+x-component: $$ -0.707 v_{p/E} = -0.996 v_{p/a} + 42.3 \ms $$
 
-y-component: $$ -0.707 v_{p/E} = -0.0872 v_{p/a} - 15.4 $$
+y-component: $$ -0.707 v_{p/E} = -0.0872 v_{p/a} - 15.4 \ms $$
 
 Since both left sides are equal:
 <div class="equation">
-$$ -0.996 v_{p/a} + 42.3 = -0.0872 v_{p/a} - 15.4 $$
+$$ -0.996 v_{p/a} + 42.3 \ms = -0.0872 v_{p/a} - 15.4 \ms $$
 </div>
 
 <div class="equation">
-$$ -0.996 v_{p/a} + 0.0872 v_{p/a} = -15.4 - 42.3 $$
+$$ -0.996 v_{p/a} + 0.0872 v_{p/a} = -15.4 \ms - 42.3 \ms $$
 </div>
 
 <div class="equation">
-$$ -0.909 v_{p/a} = -57.7 $$
+$$ -0.909 v_{p/a} = -57.7 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{p/a} = \frac{57.7}{0.909} = 63.5 \ms $$
+$$ v_{p/a} = \frac{57.7 \ms}{0.909} = 63.5 \ms $$
 </div>
 
 **(b) Airplane's speed relative to Earth:**
 
 Substituting back:
 <div class="equation">
-$$ -0.707 v_{p/E} = -0.0872(63.5) - 15.4 = -5.54 - 15.4 = -20.9 $$
+$$ -0.707 v_{p/E} = -0.0872(63.5 \ms) - 15.4 \ms = -5.54 \ms - 15.4 \ms = -20.9 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{p/E} = \frac{20.9}{0.707} = 29.6 \ms $$
+$$ v_{p/E} = \frac{20.9 \ms}{0.707} = 29.6 \ms $$
 </div>
 
 **Discussion**
 
-The airplane must fly at 63.5 m/s relative to the air mass (its airspeed) to achieve a ground track of 45° south of west. Due to the jet stream blowing from the west-southwest, the airplane's ground speed (29.6 m/s) is much less than its airspeed. This illustrates how headwinds can significantly reduce an aircraft's speed over the ground, leading to longer flight times when flying into the wind.
+The airplane must fly at 63.5 m/s relative to the air mass (its airspeed) to achieve a ground track of 45° south of west. Due to the jet stream blowing from 20° north of west (approximately west-northwest), the airplane's ground speed (29.6 m/s) is much less than its airspeed. This illustrates how headwinds can significantly reduce an aircraft's speed over the ground, leading to longer flight times when flying into the wind.
 
 **Answer**
 
@@ -1373,6 +1492,12 @@ A sandal is dropped from the top of a 15.0-m-high mast on a ship moving at 1.75 
 **Strategy**
 
 This is analogous to Example 3 (coin dropped in airplane). Relative to the ship, the sandal has no horizontal velocity and falls straight down. Relative to shore, it has both horizontal (ship's velocity) and vertical (falling) components.
+
+**Sketch and coordinate system**
+
+![Two side views with +x horizontal in the ship’s direction of motion (south) and +y up, origin on the deck at the foot of the mast; the sandal starts at y₀ = 15.0 m. (a) Ship frame: v₀ = 0 and the sandal falls straight down to the deck. (b) Shore frame: the sandal starts with the ship’s velocity, v₀x = +1.75 m/s, and follows a parabola, landing at the foot of the mast, which has moved forward with the ship. In both, a y = −9.80 m/s².](../resources/sketch_03_05_p10.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the ship's direction of motion (south) and $$ +y $$ up, with the origin on the deck at the foot of the mast. In both frames the sandal falls $$ 15.0 \m $$ with $$ a_y = -9.80 \mss $$; only $$ v_{0x} $$ differs ($$ 0 $$ relative to the ship, $$ +1.75 \ms $$ relative to the shore). The solution reports the magnitude of the downward $$ v_y $$.
 
 **Solution**
 
@@ -1409,13 +1534,13 @@ The horizontal component equals the ship's velocity: $$ v_x = 1.75 \ms $$ (south
 Magnitude:
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(1.75)^2 + (17.1)^2} = \sqrt{3.06 + 292} = \sqrt{295} = 17.2 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(1.75 \ms)^2 + (17.1 \ms)^2} = \sqrt{3.06 \mmss + 292 \mmss} = \sqrt{295 \mmss} = 17.2 \ms $$
 </div>
 
 Direction below horizontal (south):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{17.1}{1.75}\right) = \tan^{-1}(9.77) = 84.1° $$
+$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{17.1 \ms}{1.75 \ms}\right) = \tan^{-1}(9.77) = 84.1° $$
 </div>
 
 The velocity is **17.2 m/s** at **84.1° below the horizontal** (or 5.9° from vertical).
@@ -1426,14 +1551,14 @@ Both observers see the sandal hit the deck at the base of the mast:
 
 - **Observer on ship:** Sees the sandal fall straight down from the top of the mast, traveling 15.0 m vertically in time:
   <div class="equation">
-  $$ t = \sqrt{\frac{2h}{g}} = \sqrt{\frac{2(15.0)}{9.80}} = 1.75 \s $$
+  $$ t = \sqrt{\frac{2h}{g}} = \sqrt{\frac{2(15.0 \m)}{9.80 \mss}} = 1.75 \s $$
   </div>
 
   During this time, horizontal displacement relative to ship = 0
 
 - **Observer on shore:** Sees the sandal move:
   - Vertically: 15.0 m (same as ship observer)
-  - Horizontally: $$ d = v_{ship} \times t = (1.75)(1.75) = 3.06 \m $$ south
+  - Horizontally: $$ d = v_{ship} \times t = (1.75 \ms)(1.75 \s) = 3.06 \m $$ south
 
   But the ship (and therefore the base of the mast) also moves 3.06 m south during this time, so the sandal still lands at the base of the mast.
 
@@ -1473,6 +1598,12 @@ $$ \vec{v}_{wind/water} = \vec{v}_{wind/Earth} - \vec{v}_{water/Earth} $$
 
 We'll break each velocity into components, subtract, then find the magnitude and direction.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The wind relative to the Earth, v a/E = 4.50 m/s at 50.0° south of west (230° from +x), is followed by the negative of the water’s velocity, −v w/E (2.20 m/s at 30.0° east of north, reversed). Their sum is the wind relative to the water, v a/w = v a/E − v w/E, unknown.](../resources/sketch_03_05_p11.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The wind relative to the water is $$ \vec{v}_{\text{wind/Earth}} + (-\vec{v}_{\text{water/Earth}}) $$: reverse the water's velocity and add it head to tail.
+
 **Solution**
 
 **Given:**
@@ -1483,41 +1614,41 @@ Set up coordinates with east as +x and north as +y.
 
 **Ocean current (water) components:**
 <div class="equation">
-$$ v_{water,x} = 2.20 \sin(30.0°) = 2.20(0.500) = 1.10 \ms $$ (east)
+$$ v_{water,x} = 2.20 \ms \sin(30.0°) = 2.20 \ms(0.500) = 1.10 \ms $$ (east)
 </div>
 
 <div class="equation">
-$$ v_{water,y} = 2.20 \cos(30.0°) = 2.20(0.866) = 1.90 \ms $$ (north)
+$$ v_{water,y} = 2.20 \ms \cos(30.0°) = 2.20 \ms(0.866) = 1.90 \ms $$ (north)
 </div>
 
 **Wind velocity relative to Earth components:**
 
 50.0° south of west means 180° + 50° = 230° from east (or in the third quadrant).
 <div class="equation">
-$$ v_{wind,x} = -4.50 \cos(50.0°) = -4.50(0.643) = -2.89 \ms $$ (west)
+$$ v_{wind,x} = -4.50 \ms \cos(50.0°) = -4.50 \ms(0.643) = -2.89 \ms $$ (west)
 </div>
 
 <div class="equation">
-$$ v_{wind,y} = -4.50 \sin(50.0°) = -4.50(0.766) = -3.45 \ms $$ (south)
+$$ v_{wind,y} = -4.50 \ms \sin(50.0°) = -4.50 \ms(0.766) = -3.45 \ms $$ (south)
 </div>
 
 **Wind velocity relative to water:**
 <div class="equation">
-$$ v_{wind/water,x} = v_{wind,x} - v_{water,x} = -2.89 - 1.10 = -3.99 \ms $$
+$$ v_{wind/water,x} = v_{wind,x} - v_{water,x} = -2.89 \ms - 1.10 \ms = -3.99 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{wind/water,y} = v_{wind,y} - v_{water,y} = -3.45 - 1.90 = -5.35 \ms $$
+$$ v_{wind/water,y} = v_{wind,y} - v_{water,y} = -3.45 \ms - 1.90 \ms = -5.35 \ms $$
 </div>
 
 **Magnitude:**
 <div class="equation">
-$$ v_{wind/water} = \sqrt{(-3.99)^2 + (-5.35)^2} = \sqrt{15.9 + 28.6} = \sqrt{44.5} = 6.67 \ms \approx 6.68 \ms $$
+$$ v_{wind/water} = \sqrt{(-3.99 \ms)^2 + (-5.35 \ms)^2} = \sqrt{15.9 \mmss + 28.6 \mmss} = \sqrt{44.5 \mmss} = 6.67 \ms \approx 6.68 \ms $$
 </div>
 
 **Direction:**
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{|v_{wind/water,y}|}{|v_{wind/water,x}|}\right) = \tan^{-1}\left(\frac{5.35}{3.99}\right) = \tan^{-1}(1.34) = 53.3° $$
+$$ \theta = \tan^{-1}\left(\frac{|v_{wind/water,y}|}{|v_{wind/water,x}|}\right) = \tan^{-1}\left(\frac{5.35 \ms}{3.99 \ms}\right) = \tan^{-1}(1.34) = 53.3° $$
 </div>
 
 Since both components are negative (southwest quadrant), the direction is 53.3° south of west.
@@ -1573,17 +1704,17 @@ Subtract Galaxy 2's velocity from each galaxy:
 $$ v_{rel} = v_{galaxy} - v_2 $$
 </div>
 
-- Galaxy 1: $$ v_{1,rel} = -4500 - (-2200) = -2300 \text{ km/s} $$
-- Milky Way: $$ v_{MW,rel} = 0 - (-2200) = 2200 \text{ km/s} $$
-- Galaxy 4: $$ v_{4,rel} = 2830 - (-2200) = 5030 \text{ km/s} $$
-- Galaxy 5: $$ v_{5,rel} = 6700 - (-2200) = 8900 \text{ km/s} $$
+- Galaxy 1: $$ v_{1,rel} = -4500 \text{ km/s} - (-2200 \text{ km/s}) = -2300 \text{ km/s} $$
+- Milky Way: $$ v_{MW,rel} = 0 \text{ km/s} - (-2200 \text{ km/s}) = 2200 \text{ km/s} $$
+- Galaxy 4: $$ v_{4,rel} = 2830 \text{ km/s} - (-2200 \text{ km/s}) = 5030 \text{ km/s} $$
+- Galaxy 5: $$ v_{5,rel} = 6700 \text{ km/s} - (-2200 \text{ km/s}) = 8900 \text{ km/s} $$
 
 Distances from Galaxy 2:
 
-- Galaxy 1: $$ 300 - 150 = 150 \text{ Mly} $$ (to the left)
+- Galaxy 1: $$ 300 \text{Mly} - 150 \text{Mly} = 150 \text{ Mly} $$ (to the left)
 - Milky Way: $$ 150 \text{ Mly} $$ (to the right)
-- Galaxy 4: $$ 150 + 190 = 340 \text{ Mly} $$ (to the right)
-- Galaxy 5: $$ 150 + 450 = 600 \text{ Mly} $$ (to the right)
+- Galaxy 4: $$ 150 \text{Mly} + 190 \text{Mly} = 340 \text{ Mly} $$ (to the right)
+- Galaxy 5: $$ 150 \text{Mly} + 450 \text{Mly} = 600 \text{ Mly} $$ (to the right)
 
 **(b) Velocities relative to Galaxy 5:**
 
@@ -1593,17 +1724,17 @@ Subtract Galaxy 5's velocity from each galaxy:
 $$ v_{rel} = v_{galaxy} - v_5 $$
 </div>
 
-- Galaxy 1: $$ v_{1,rel} = -4500 - 6700 = -11200 \text{ km/s} $$
-- Galaxy 2: $$ v_{2,rel} = -2200 - 6700 = -8900 \text{ km/s} $$
-- Milky Way: $$ v_{MW,rel} = 0 - 6700 = -6700 \text{ km/s} $$
-- Galaxy 4: $$ v_{4,rel} = 2830 - 6700 = -3870 \text{ km/s} $$
+- Galaxy 1: $$ v_{1,rel} = -4500 \text{ km/s} - 6700 \text{ km/s} = -11200 \text{ km/s} $$
+- Galaxy 2: $$ v_{2,rel} = -2200 \text{ km/s} - 6700 \text{ km/s} = -8900 \text{ km/s} $$
+- Milky Way: $$ v_{MW,rel} = 0 \text{ km/s} - 6700 \text{ km/s} = -6700 \text{ km/s} $$
+- Galaxy 4: $$ v_{4,rel} = 2830 \text{ km/s} - 6700 \text{ km/s} = -3870 \text{ km/s} $$
 
 Distances from Galaxy 5:
 
-- Galaxy 1: $$ 300 + 450 = 750 \text{ Mly} $$ (to the left)
-- Galaxy 2: $$ 150 + 450 = 600 \text{ Mly} $$ (to the left)
+- Galaxy 1: $$ 300 \text{Mly} + 450 \text{Mly} = 750 \text{ Mly} $$ (to the left)
+- Galaxy 2: $$ 150 \text{Mly} + 450 \text{Mly} = 600 \text{ Mly} $$ (to the left)
 - Milky Way: $$ 450 \text{ Mly} $$ (to the left)
-- Galaxy 4: $$ 450 - 190 = 260 \text{ Mly} $$ (to the left)
+- Galaxy 4: $$ 450 \text{Mly} - 190 \text{Mly} = 260 \text{ Mly} $$ (to the left)
 
 **Discussion**
 
@@ -1693,7 +1824,7 @@ $$ H_5 = \frac{6700 \text{ km/s}}{450 \text{ Mly}} = 14.9 \frac{\text{km/s}}{\te
 
 Average Hubble constant:
 <div class="equation">
-$$ H_{average} = \frac{15.0 + 14.7 + 14.9 + 14.9}{4} = \frac{59.5}{4} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
+$$ H_{average} = \frac{15.0 \frac{\text{km/s}}{\text{Mly}} + 14.7 \frac{\text{km/s}}{\text{Mly}} + 14.9 \frac{\text{km/s}}{\text{Mly}} + 14.9 \frac{\text{km/s}}{\text{Mly}}}{4} = \frac{59.5 \frac{\text{km/s}}{\text{Mly}}}{4} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
 </div>
 
 **(b) Time since the Big Bang:**
@@ -1705,7 +1836,7 @@ $$ t = \frac{1}{H} = \frac{1}{14.9 \text{ km/s per Mly}} $$
 
 First, convert units. One million light years (Mly) in km:
 <div class="equation">
-$$ 1 \text{ Mly} = 10^6 \text{ ly} \times (3.00 \times 10^8 \text{ m/s}) \times (3.156 \times 10^7 \text{ s/year}) $$
+$$ 1 \text{ Mly} = (10^6 \text{ years}) \times (3.00 \times 10^8 \text{ m/s}) \times (3.156 \times 10^7 \text{ s/year}) $$
 </div>
 
 <div class="equation">
@@ -1726,9 +1857,9 @@ $$ t = \frac{6.36 \times 10^{17} \text{ s}}{3.156 \times 10^{7} \text{ s/year}} 
 
 The Hubble constant is remarkably consistent across different galaxies, supporting Hubble's discovery that the universe is expanding uniformly. The value of about 15 km/s per Mly means that for every million light years of distance, galaxies recede 15 km/s faster.
 
-The estimated age of 20.2 billion years is called the Hubble time. However, this is an overestimate because it assumes the expansion rate has been constant since the Big Bang. In reality, gravity slowed the expansion in the early universe, while dark energy has been accelerating it more recently. Current best estimates for the age of the universe are about 13.8 billion years.
+The estimated 20.2 billion years is the **Hubble time**, found by assuming that the galaxies have moved at constant velocities. It is a rough extrapolation, not a precise age of the universe.
 
-The Hubble constant is more commonly expressed in modern units as about 70 km/s per megaparsec (Mpc), where 1 Mpc ≈ 3.26 Mly.
+Using $$ 1 \text{ Mpc} \approx 3.26 \text{ Mly} $$, the value from this figure is $$ 14.9 \times 3.26 \approx 48.6 \text{ km/s per Mpc} $$. These illustrative data and the constant-velocity assumption limit the estimate.
 
 **Answer**
 
@@ -1753,6 +1884,12 @@ An athlete crosses a 25-m-wide river by swimming perpendicular to the water curr
 **Strategy**
 
 The swimmer moves perpendicular to the current relative to the water. Use the time to cross and the downstream displacement to find the current speed. Then use vector addition to find the swimmer's speed relative to the ground.
+
+**Sketch and coordinate system**
+
+![Axes with +x downstream (along the current) and +y straight across the river, origin at the starting point on one bank. The far bank is at y = 25 m; the swimmer lands at x = 40 m. Velocities: swimmer relative to the water v s/w = 0.5 m/s along +y; current v w/G along +x, unknown; swimmer relative to the ground v s/G = v s/w + v w/G, unknown.](../resources/sketch_03_05_p14.svg){: .sketch}
+
+Take $$ +x $$ downstream (along the current) and $$ +y $$ straight across, with the origin at the starting point. The swimmer's velocity relative to the water is along $$ +y $$, the current is along $$ +x $$, and the far bank is at $$ y = 25 \m $$.
 
 **Solution**
 
@@ -1788,13 +1925,13 @@ The swimmer's velocity has two perpendicular components:
 Magnitude:
 
 <div class="equation">
-$$ v_{ground} = \sqrt{v_{\perp}^2 + v_{\parallel}^2} = \sqrt{(0.5)^2 + (0.8)^2} = \sqrt{0.25 + 0.64} = \sqrt{0.89} = 0.94 \ms $$
+$$ v_{ground} = \sqrt{v_{\perp}^2 + v_{\parallel}^2} = \sqrt{(0.5 \ms)^2 + (0.8 \ms)^2} = \sqrt{0.25 \mmss + 0.64 \mmss} = \sqrt{0.89 \mmss} = 0.94 \ms $$
 </div>
 
 Direction:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_{\parallel}}{v_{\perp}}\right) = \tan^{-1}\left(\frac{0.8}{0.5}\right) = \tan^{-1}(1.6) = 58° $$
+$$ \theta = \tan^{-1}\left(\frac{v_{\parallel}}{v_{\perp}}\right) = \tan^{-1}\left(\frac{0.8 \ms}{0.5 \ms}\right) = \tan^{-1}(1.6) = 58° $$
 </div>
 
 This angle is measured from the perpendicular to the shore (or 32° from the shoreline).
@@ -1833,6 +1970,12 @@ Stream a few hundred kilometers off the east coast of the United States.)
 
 The ship's velocity relative to Earth equals its velocity relative to water plus the water's velocity (Gulf Stream) relative to Earth. We can rearrange to find the Gulf Stream velocity: $$ \vb{v}_{\text{stream}} = \vb{v}_{\text{Earth}} - \vb{v}_{\text{water}} $$. Break both known velocities into components, subtract, then find magnitude and direction.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The ship’s velocity relative to the water, v s/w = 4.00 m/s at 25.0° west of north, is followed by the stream’s velocity v w/E (unknown) to reach the ship’s velocity relative to the Earth, v s/E = 4.80 m/s at 5.00° west of north.](../resources/sketch_03_05_p15.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. Both of the ship's velocities point west of north, so their $$ x $$-components are negative; the stream's velocity is the difference $$ \vb{v}_{\text{ship/Earth}} - \vb{v}_{\text{ship/water}} $$.
+
 **Solution**
 
 **Given:**
@@ -1847,21 +1990,21 @@ Let north be the positive y-axis and east be the positive x-axis.
 **Step 2: Components of ship's velocity relative to water**
 
 <div class="equation">
-$$ v_{\text{ship/water},x} = -4.00 \sin(25.0°) = -4.00 \times 0.423 = -1.69 \ms $$ (west)
+$$ v_{\text{ship/water},x} = -4.00 \ms \sin(25.0°) = -4.00 \ms \times 0.423 = -1.69 \ms $$ (west)
 </div>
 
 <div class="equation">
-$$ v_{\text{ship/water},y} = 4.00 \cos(25.0°) = 4.00 \times 0.906 = 3.63 \ms $$ (north)
+$$ v_{\text{ship/water},y} = 4.00 \ms \cos(25.0°) = 4.00 \ms \times 0.906 = 3.63 \ms $$ (north)
 </div>
 
 **Step 3: Components of ship's velocity relative to Earth**
 
 <div class="equation">
-$$ v_{\text{ship/Earth},x} = -4.80 \sin(5.00°) = -4.80 \times 0.0872 = -0.419 \ms $$ (west)
+$$ v_{\text{ship/Earth},x} = -4.80 \ms \sin(5.00°) = -4.80 \ms \times 0.0872 = -0.419 \ms $$ (west)
 </div>
 
 <div class="equation">
-$$ v_{\text{ship/Earth},y} = 4.80 \cos(5.00°) = 4.80 \times 0.996 = 4.78 \ms $$ (north)
+$$ v_{\text{ship/Earth},y} = 4.80 \ms \cos(5.00°) = 4.80 \ms \times 0.996 = 4.78 \ms $$ (north)
 </div>
 
 **Step 4: Find Gulf Stream velocity components**
@@ -1869,11 +2012,11 @@ $$ v_{\text{ship/Earth},y} = 4.80 \cos(5.00°) = 4.80 \times 0.996 = 4.78 \ms $$
 Since $$ \vb{v}_{\text{ship/Earth}} = \vb{v}_{\text{ship/water}} + \vb{v}_{\text{stream}} $$, we have:
 
 <div class="equation">
-$$ v_{\text{stream},x} = v_{\text{ship/Earth},x} - v_{\text{ship/water},x} = -0.419 - (-1.69) = 1.27 \ms $$ (east)
+$$ v_{\text{stream},x} = v_{\text{ship/Earth},x} - v_{\text{ship/water},x} = -0.419 \ms - (-1.69 \ms) = 1.27 \ms $$ (east)
 </div>
 
 <div class="equation">
-$$ v_{\text{stream},y} = v_{\text{ship/Earth},y} - v_{\text{ship/water},y} = 4.78 - 3.63 = 1.15 \ms $$ (north)
+$$ v_{\text{stream},y} = v_{\text{ship/Earth},y} - v_{\text{ship/water},y} = 4.78 \ms - 3.63 \ms = 1.15 \ms $$ (north)
 </div>
 
 **Step 5: Find magnitude and direction**
@@ -1881,13 +2024,13 @@ $$ v_{\text{stream},y} = v_{\text{ship/Earth},y} - v_{\text{ship/water},y} = 4.7
 Magnitude:
 
 <div class="equation">
-$$ v_{\text{stream}} = \sqrt{(1.27)^2 + (1.15)^2} = \sqrt{1.61 + 1.32} = \sqrt{2.93} = 1.71 \ms \approx 1.72 \ms $$
+$$ v_{\text{stream}} = \sqrt{(1.27 \ms)^2 + (1.15 \ms)^2} = \sqrt{1.61 \mmss + 1.32 \mmss} = \sqrt{2.93 \mmss} = 1.71 \ms \approx 1.72 \ms $$
 </div>
 
 Direction (measured from east toward north):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_{\text{stream},y}}{v_{\text{stream},x}}\right) = \tan^{-1}\left(\frac{1.15}{1.27}\right) = \tan^{-1}(0.906) = 42.2° \approx 42.3° $$ north of east
+$$ \theta = \tan^{-1}\left(\frac{v_{\text{stream},y}}{v_{\text{stream},x}}\right) = \tan^{-1}\left(\frac{1.15 \ms}{1.27 \ms}\right) = \tan^{-1}(0.906) = 42.2° \approx 42.3° $$ north of east
 </div>
 
 **Discussion**
@@ -1922,6 +2065,12 @@ reference) to hit the center of the goal?
 
 The puck must reach the goal, which is perpendicular to the player's path. The puck's velocity relative to the ice equals the puck's velocity relative to the player plus the player's velocity. Set up a coordinate system and use vector addition to find the required angle.
 
+**Sketch and coordinate system**
+
+![Axes with +x toward the goal (east) and +y along the player’s motion (north). The player’s velocity relative to the ice is v P/I = 8.00 m/s along +y. The puck’s velocity relative to the player, v p/P = 29.0 m/s at unknown angle θ from the player’s direction (+y), plus v P/I must give a puck velocity relative to the ice, v p/I, along +x, toward the goal.](../resources/sketch_03_05_p16.svg){: .sketch}
+
+Take $$ +y $$ along the player's motion (\"north\") and $$ +x $$ toward the goal (\"east\"), with $$ \theta $$ measured from $$ +y $$. The puck must move along $$ +x $$ relative to the ice, so its $$ y $$-component relative to the ice must be zero.
+
 **Solution**
 
 **Given:**
@@ -1946,7 +2095,7 @@ $$ \vec{v}_{puck,ice} = \vec{v}_{puck,player} + \vec{v}_{player} $$
 Let the puck's velocity relative to player make angle $$ \theta $$ measured from the player's direction of motion (north, positive y-axis). In this coordinate system:
 
 <div class="equation">
-$$ \vec{v}_{puck,player} = (29.0 \sin\theta, 29.0 \cos\theta) $$
+$$ \vec{v}_{puck,player} = (29.0 \ms \sin\theta, 29.0 \ms \cos\theta) $$
 </div>
 
 **Step 3: Apply vector addition**
@@ -1954,13 +2103,13 @@ $$ \vec{v}_{puck,player} = (29.0 \sin\theta, 29.0 \cos\theta) $$
 x-component (east):
 
 <div class="equation">
-$$ v_{puck,x} = 29.0 \sin\theta + 0 = 29.0 \sin\theta $$
+$$ v_{puck,x} = 29.0 \ms \sin\theta + 0 = 29.0 \ms \sin\theta $$
 </div>
 
 y-component (north):
 
 <div class="equation">
-$$ 0 = 29.0 \cos\theta + 8.00 $$
+$$ 0 = 29.0 \ms \cos\theta + 8.00 \ms $$
 </div>
 
 **Step 4: Solve for angle**
@@ -1968,11 +2117,11 @@ $$ 0 = 29.0 \cos\theta + 8.00 $$
 From the y-component equation:
 
 <div class="equation">
-$$ 29.0 \cos\theta = -8.00 $$
+$$ 29.0 \ms \cos\theta = -8.00 \ms $$
 </div>
 
 <div class="equation">
-$$ \cos\theta = -\frac{8.00}{29.0} = -0.276 $$
+$$ \cos\theta = -\frac{8.00 \ms}{29.0 \ms} = -0.276 $$
 </div>
 
 <div class="equation">
@@ -2020,6 +2169,12 @@ Explain your answer.
 
 Use kinematic equations to find the launch velocity needed for the supplies to reach the given height. Then analyze whether this result is reasonable.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the launch point on the Earth’s surface. Launch: y₀ = 0, v₀ unknown (upward). Top: y = 36 000 km = 3.6 × 10⁷ m, v = 0. The model assumes constant a = −9.80 m/s².](../resources/sketch_03_05_p17.svg){: .sketch}
+
+Neglect Earth's rotation and measure velocities in a frame centered on Earth that does not rotate. Take $$ +y $$ up, with the origin at the launch point. Then $$ v = 0 $$ at $$ y = h = 3.6 \times 10^{7} \m $$ and $$ a = -9.80 \mss $$, assuming (unreasonably, as the problem asks you to notice) that $$ g $$ stays constant all the way up.
+
 **Solution**
 
 **(a) Required launch velocity:**
@@ -2054,7 +2209,7 @@ This velocity is **extremely high**:
 
 Yes, there's a **major problem**. When the supplies reach maximum height (36,000 km):
 
-- The supplies will have **zero velocity** relative to Earth's surface
+- The supplies will have **zero velocity** in this nonrotating frame at the top of their straight-up path
 - The astronauts are in **orbit** at this altitude, moving at orbital velocity
 
 Orbital velocity at this altitude:
@@ -2132,6 +2287,12 @@ in 1.50 h.
 
 Calculate the ground velocity from distance and time. Then find the wind velocity using vector subtraction. Analyze whether the results are reasonable.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The airplane’s velocity relative to the air, v p/a = 280 m/s, points east. Its velocity relative to the ground, v p/G = 3000 km / 1.50 h, points 5° south of east. The wind v a/G = v p/G − v p/a, drawn from the tip of v p/a to the tip of v p/G, is unknown.](../resources/sketch_03_05_p18.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The wind is the difference $$ \vec{v}_{\text{ground}} - \vec{v}_{\text{plane}} $$, the vector from the tip of the airspeed vector to the tip of the ground-velocity vector.
+
 **Solution**
 
 **(a) Velocity relative to the ground:**
@@ -2171,61 +2332,39 @@ Plane (due east):
 
 Ground (5° south of east):
 
-- $$ v_{ground,x} = 556 \cos(5°) = 556 \times 0.996 = 554 \ms $$ (east)
-- $$ v_{ground,y} = -556 \sin(5°) = -556 \times 0.0872 = -48.5 \ms $$ (south)
+- $$ v_{ground,x} = 556 \ms \cos(5°) = 556 \ms \times 0.996 = 554 \ms $$ (east)
+- $$ v_{ground,y} = -556 \ms \sin(5°) = -556 \ms \times 0.0872 = -48.5 \ms $$ (south)
 
 Wind:
 
-- $$ v_{wind,x} = v_{ground,x} - v_{plane,x} = 554 - 280 = 274 \ms $$ (east)
-- $$ v_{wind,y} = v_{ground,y} - v_{plane,y} = -48.5 - 0 = -48.5 \ms $$ (south)
+- $$ v_{wind,x} = v_{ground,x} - v_{plane,x} = 554 \ms - 280 \ms = 274 \ms $$ (east)
+- $$ v_{wind,y} = v_{ground,y} - v_{plane,y} = -48.5 \ms - 0 \ms = -48.5 \ms $$ (south)
 
 Magnitude:
 
 <div class="equation">
-$$ v_{wind} = \sqrt{(274)^2 + (-48.5)^2} = \sqrt{75{,}076 + 2{,}352} = \sqrt{77{,}428} = 278 \ms $$
+$$ v_{wind} = \sqrt{(274 \ms)^2 + (-48.5 \ms)^2} = \sqrt{75{,}076 \mmss + 2{,}352 \mmss} = \sqrt{77{,}428 \mmss} = 278 \ms $$
 </div>
 
 Direction:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{48.5}{274}\right) = \tan^{-1}(0.177) = 10.0° \text{ south of east} $$
+$$ \theta = \tan^{-1}\left(\frac{48.5 \ms}{274 \ms}\right) = \tan^{-1}(0.177) = 10.0° \text{ south of east} $$
 </div>
 
 **(c) What is unreasonable about these velocities?**
 
-Both velocities are **extremely unreasonable** for the stated scenario:
+The ground speed of 556 m/s can be reconciled with the given airspeed of 280 m/s only by a wind of about 278 m/s (1000 km/h). Such a tailwind is unreasonable for an ordinary commercial flight.
 
-**Ground velocity (556 m/s = 2000 km/h):**
-
-- This ground speed follows from flying 3000 km in 1.50 h and is far above typical commercial cruise speeds (about 800–900 km/h)
-- Aerodynamic drag and shock behavior depend on **speed relative to the air**, not ground speed. The given **airspeed of 280 m/s** (about Mach 0.82 at sea level) is already near transonic speeds for a commercial jet
-- A very strong tailwind can make ground speed exceed the local speed of sound even when airspeed stays subsonic; the problem here is not that ground speed above sound is forbidden, but that the **required tailwind** is impossibly large
-
-**Wind velocity (278 m/s = 1000 km/h):**
-
-- This is equivalent to approximately **Mach 0.82**
-- The strongest jet streams are typically 200-300 km/h (56-83 m/s)
-- Hurricane winds rarely exceed 85 m/s (300 km/h)
-- A 1000 km/h wind would be catastrophic and is meteorologically impossible on Earth
-- Such wind speeds don't exist in Earth's atmosphere under normal conditions
+Aerodynamic effects depend on speed relative to the air. A tailwind increases ground speed without increasing airspeed, so a high ground speed alone does not imply supersonic flight.
 
 **(d) Which premise is unreasonable?**
 
-The **unreasonable premise** is the combination of:
-
-1. **The distance traveled (3000 km) in the time given (1.50 h)**
-
-This implies a ground speed of 2000 km/h, which is impossible for a commercial airplane. Possible scenarios that would be reasonable:
-
-- Reduce the distance to ~1200-1350 km for 1.50 h
-- Increase the time to ~3.5-4.0 h for 3000 km
-- Use a supersonic military jet instead of a commercial airplane
-
-The stated **airspeed of 280 m/s** (1008 km/h) is high for a typical commercial airliner (though not impossible in a strong tailwind scenario) and is already in a Mach-sensitive regime relative to the air.
+The combination of traveling 3000 km in 1.50 h and an airspeed of 280 m/s requires the unreasonable wind found above. A longer travel time or a shorter distance would make the scenario more realistic.
 
 **Discussion**
 
-This problem demonstrates the importance of checking whether calculated results make physical sense. The vector addition is correct, but the implied **278 m/s tailwind** is far beyond anything observed in Earth's atmosphere, and the distance–time data demand a ground speed no commercial flight could sustain. Mach number should be judged from airspeed, not ground speed alone.
+The vector addition is consistent, but the required wind makes the scenario unrealistic. This illustrates how a correct calculation can reveal a problem with the starting assumptions.
 
 **Answer**
 
@@ -2233,7 +2372,7 @@ This problem demonstrates the importance of checking whether calculated results 
 
 (b) The tailwind velocity is **278 m/s** (1000 km/h) at **10° south of east**
 
-(c) Both velocities are unreasonably high for this scenario. The required tailwind is many times stronger than the strongest jet streams ever recorded; the airspeed of 280 m/s is already transonic relative to the air.
+(c) The ground speed requires an unreasonably large tailwind of about 278 m/s. Ground speed alone does not determine whether flight is supersonic.
 
 (d) The unreasonable premise is the distance-time relationship (3000 km in 1.50 h) combined with the extreme tailwind needed to reconcile it with the given airspeed—not a prohibition on ground speed exceeding the speed of sound when a tailwind is present.
 

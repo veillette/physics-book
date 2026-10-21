@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="300" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+<title id="title">Two batteries connected positive terminal to positive terminal</title>
+<desc id="desc">A loop with two sources whose positive terminals are both at the top: emf1 = 12.0 V with internal resistance r1 = 1.0 ohm on the left, and emf2 = 18.0 V with internal resistance r2 = 0.5 ohm on the right.</desc>
+<rect width="520" height="300" fill="#ffffff"/>
+<polyline points="170,50 350,50 350,260 170,260 170,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="170" y1="110" x2="170" y2="90" stroke="#ffffff" stroke-width="7"/>
+<line x1="170" y1="125" x2="170" y2="106.5" stroke="#222222" stroke-width="2"/>
+<line x1="170" y1="93.5" x2="170" y2="75" stroke="#222222" stroke-width="2"/>
+<line x1="154" y1="106.5" x2="186" y2="106.5" stroke="#c62828" stroke-width="5"/>
+<line x1="138" y1="93.5" x2="202" y2="93.5" stroke="#c62828" stroke-width="3"/>
+<text x="194" y="70.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="142" y="106.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 12.0 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="170" y1="169.5" x2="170" y2="225.5" stroke="#ffffff" stroke-width="7"/>
+<line x1="170" y1="160" x2="170" y2="169.5" stroke="#222222" stroke-width="2"/>
+<line x1="170" y1="225.5" x2="170" y2="235" stroke="#222222" stroke-width="2"/>
+<polyline points="170,169.5 159,174.17 181,183.5 159,192.83 181,202.17 159,211.5 181,220.83 170,225.5" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="150" y="204.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 1.0 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="350" y1="110" x2="350" y2="90" stroke="#ffffff" stroke-width="7"/>
+<line x1="350" y1="125" x2="350" y2="106.5" stroke="#222222" stroke-width="2"/>
+<line x1="350" y1="93.5" x2="350" y2="75" stroke="#222222" stroke-width="2"/>
+<line x1="334" y1="106.5" x2="366" y2="106.5" stroke="#c62828" stroke-width="5"/>
+<line x1="318" y1="93.5" x2="382" y2="93.5" stroke="#c62828" stroke-width="3"/>
+<text x="326" y="70.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="378" y="106.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 18.0 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="350" y1="169.5" x2="350" y2="225.5" stroke="#ffffff" stroke-width="7"/>
+<line x1="350" y1="160" x2="350" y2="169.5" stroke="#222222" stroke-width="2"/>
+<line x1="350" y1="225.5" x2="350" y2="235" stroke="#222222" stroke-width="2"/>
+<polyline points="350,169.5 339,174.17 361,183.5 339,192.83 361,202.17 339,211.5 361,220.83 350,225.5" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="370" y="204.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 0.5 </tspan><tspan font-style="normal">Ω</tspan></text>
+</svg>

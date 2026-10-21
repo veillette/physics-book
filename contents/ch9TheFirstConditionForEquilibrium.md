@@ -52,11 +52,11 @@ stick experiences accelerated rotation. Therefore, we know that the point at
 which a force is applied is another factor in determining whether or not
 equilibrium is achieved. This will be explored further in the next section.
 
-![A hockey stick is shown. At the middle point of the stick, two red colored force vectors are shown one pointing to the right and the other to the left. The line of action of the two forces is the same. The top of the figure is labeled as net force F is equal to zero. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](../resources/Figure_09_01_03.jpg 'An ice hockey stick lying flat on ice with two equal and opposite horizontal forces applied to it. Friction is negligible, and the gravitational force is balanced by the support of the ice (a normal force). Thus, \( \text{net }F=0 \) . Equilibrium is achieved, which is static equilibrium in this case.
+![A hockey stick is shown. At the middle point of the stick, two red colored force vectors are shown one pointing to the right and the other to the left. The line of action of the two forces is the same. The top of the figure is labeled as net force F is equal to zero. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](/resources/Figure_09_01_03.svg 'An ice hockey stick lying flat on ice with two equal and opposite horizontal forces applied to it. Friction is negligible, and the gravitational force is balanced by the support of the ice (a normal force). Thus, \( \text{net }F=0 \) . Equilibrium is achieved, which is static equilibrium in this case.
       ')
 {: #Figure3}
 
-![A hockey stick is shown. The two force vectors acting on the hockey stick are shown, one pointing to the right and the other to the left. The lines of action of the two forces are different. Each vector is labeled as F. At the top and the bottom of the stick there are two circular arrows, showing the clockwise direction of the rotation. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](../resources/Figure_09_01_04.jpg 'The same forces are applied at other points and the stick rotates—in fact, it experiences an accelerated rotation. Here \( \text{net }F=0 \) but the system is not at equilibrium. Hence, the \( \text{net }F=0 \) is a necessary—but not sufficient—condition for achieving equilibrium.')
+![A hockey stick is shown. The two force vectors acting on the hockey stick are shown, one pointing to the right and the other to the left. The lines of action of the two forces are different. Each vector is labeled as F. At the top and the bottom of the stick there are two circular arrows, showing the clockwise direction of the rotation. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.](/resources/Figure_09_01_04.svg 'The same forces are applied at other points and the stick rotates—in fact, it experiences an accelerated rotation. Here \( \text{net }F=0 \) but the system is not at equilibrium. Hence, the \( \text{net }F=0 \) is a necessary—but not sufficient—condition for achieving equilibrium.')
 {: #Figure4}
 
 :::: note {"class":"note","data-label":"PhET Exploration"}
@@ -101,25 +101,27 @@ What can you say about the velocity of a moving body that is in dynamic equilibr
 
 **Strategy**
 
-To address this question, we apply the definition of dynamic equilibrium: a state where the net external force is zero while the object is in motion. This means the object must have constant velocity (both constant speed and constant direction).
+Dynamic equilibrium means the net external force is zero while the body moves. Use Newton's second law to find what that says about the velocity, then draw the free-body diagram of a car cruising on a level road. Choose $$ +x $$ in the direction of motion and $$ +y $$ straight up, so every force lies along an axis.
 
 **Solution**
 
-A body in dynamic equilibrium has a **constant velocity**—that is, it moves at a constant speed in a straight line. Since the net external force is zero ($$ \text{net}\vb{F}=0 $$), by Newton's second law, the acceleration is also zero. With zero acceleration, the velocity cannot change in either magnitude or direction.
+If $$ \text{net}\,\vb{F} = 0 $$, then by Newton's second law $$ \vb{a} = \text{net}\,\vb{F}/m = 0 $$. The velocity cannot change in magnitude or in direction, so a body in dynamic equilibrium moves in a **straight line at constant speed**.
 
-A sketch of such a body would show:
+![Free-body diagram of a car moving to the right at constant velocity on a level road, with +x in the direction of motion and +y up: the road pushes the drive wheels forward with F along +x, air resistance and rolling friction f point backward along −x with the same length, normal force N up and weight w down have equal lengths. The net force is zero, so a = 0 and the velocity v stays constant.](../resources/fbd_09_01_q01.svg){: .fbd}
 
-- An object (such as a car or box) moving in one direction
-- All forces acting on it balanced (equal in magnitude, opposite in direction)
-- For example, a car moving at constant velocity on a level road:
-  - Weight ($$ \vb{W} $$) pointing downward
-  - Normal force ($$ \vb{N} $$) pointing upward, equal in magnitude to the weight
-  - Applied force ($$ \vb{F}_{\text{app}} $$) pointing in the direction of motion
-  - Friction/air resistance ($$ \vb{f} $$) pointing opposite to motion, equal in magnitude to the applied force
+For a $$ 1200 \kg $$ car cruising at a constant $$ 25 \ms $$:
 
-**Discussion**
+<div class="equation">
+$$ y: \quad N - w = 0 \quad \Rightarrow \quad N = mg = (1200 \kg)(9.80 \mss) = 1.18 \times 10^{4} \N $$
+</div>
 
-The key insight is that equilibrium does not mean the object is at rest—it means the object has zero acceleration. Dynamic equilibrium is common in everyday situations: a plane flying at constant cruising speed, a car on cruise control on a flat highway, or a skydiver who has reached terminal velocity. In all these cases, forces are present but perfectly balanced.
+<div class="equation">
+$$ x: \quad F - f = 0 \quad \Rightarrow \quad F = f $$
+</div>
+
+If air resistance and rolling friction add up to $$ f = 500 \N $$, the road must push the drive wheels forward with exactly $$ F = 500 \N $$. Forces act on the car, and some are large, but each one is balanced by an equal and opposite force.
+
+A body in dynamic equilibrium has a constant velocity, moving in a straight line at constant speed, because the net external force on it is zero; for a car cruising at $$ 25 \ms $$, the forward push of the road ($$ 500 \N $$) balances air resistance and friction, and the normal force ($$ 1.18 \times 10^{4} \N $$) balances the weight.
 
 ::::
 
@@ -137,29 +139,22 @@ Under what conditions can a rotating body be in equilibrium? Give an example.
 
 **Strategy**
 
-We need to consider both conditions for equilibrium: the first condition (net force equals zero) and the second condition (net torque equals zero). For a rotating body, equilibrium means no angular acceleration, not necessarily zero rotation.
+Equilibrium requires both conditions: zero net force (no linear acceleration) and zero net torque (no angular acceleration). A rotating body can satisfy both if it spins at a constant rate about a fixed axis.
 
 **Solution**
 
-A rotating body can be in equilibrium if:
+A rotating body is in equilibrium when:
 
-1. **The net external force is zero** ($$ \text{net}\vb{F}=0 $$), ensuring no linear acceleration
-2. **The net external torque is zero** ($$ \text{net}\tau=0 $$), ensuring no angular acceleration
+1. the **net external force is zero**, $$ \text{net}\,\vb{F} = 0 $$, so its center of mass does not accelerate, and
+2. the **net external torque is zero**, $$ \text{net}\,\tau = 0 $$, so its angular velocity does not change.
 
-Under these conditions, the body rotates at a **constant angular velocity**—constant rotational speed about a fixed axis.
+It then rotates at a **constant angular velocity** about a fixed axis. Rotation does not prevent equilibrium; only changes in rotation do.
 
-**Example:** A ceiling fan running at constant speed is in rotational equilibrium. The motor provides a torque that exactly balances the resistive torque from air friction. The blades rotate at constant angular velocity because the net torque is zero. Similarly, the normal force from the ceiling mount balances the weight of the fan, satisfying the first condition.
+**Example: a ceiling fan running at a steady speed.** Suppose the fan turns at a constant $$ 200 \text{ rev/min} = 20.9 \rads $$. The motor exerts a torque that exactly balances the opposing torque of air resistance on the blades, say $$ 0.50 \N \cdot \m $$ each way, so the net torque is $$ 0.50 \N \cdot \m - 0.50 \N \cdot \m = 0 \N \cdot \m $$. The mounting pulls up on the $$ 6.0 \kg $$ fan with $$ (6.0 \kg)(9.80 \mss) = 58.8 \N $$, balancing its weight, so the net force is zero as well. (Strictly, each blade element accelerates toward the axis, but for the fan as a whole the center of mass stays put and the angular velocity stays constant.)
 
-Other examples include:
+A spinning top that is precessing is not an example: gravity exerts a nonzero torque on it, and its angular momentum keeps changing direction.
 
-- A merry-go-round spinning at constant speed (after reaching steady state)
-- Earth rotating on its axis at a nearly constant rate (this satisfies the second condition only approximately, and Earth's center of mass still accelerates around the Sun, so it is not in full equilibrium)
-
-A steadily precessing top is **not** an example: its angular momentum keeps changing direction because gravity exerts a nonzero torque on it.
-
-**Discussion**
-
-This is analogous to dynamic equilibrium for linear motion. Just as a car moving at constant velocity has zero net force, a body rotating at constant angular velocity has zero net torque. The body is not accelerating (linearly or rotationally), even though it is definitely in motion. This concept is crucial in designing rotating machinery, where engineers must ensure that torques balance to prevent unwanted acceleration or deceleration.
+A rotating body is in equilibrium when the net external force and the net external torque on it are both zero, so it turns at a constant angular velocity, as a ceiling fan does when the motor's torque balances the air's opposing torque (for example, $$ 0.50 \N \cdot \m $$ each) and its mounting supports its weight.
 
 ::::
 

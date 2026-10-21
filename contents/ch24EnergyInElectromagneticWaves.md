@@ -230,7 +230,7 @@ Calculate the intensity:
 </div>
 
 <div class="equation">
- $$I=\frac{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)(15{,}625)}{2}=\frac{41.44}{2}=20.7 \text{ W/m}^{2}$$
+ $$I=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)(15{,}625 \text{ V}^{2}/\text{m}^{2})}{2}=\frac{41.44 \text{ W/m}^{2}}{2}=20.7 \text{ W/m}^{2}$$
 </div>
 
 <div class="title">
@@ -281,7 +281,7 @@ Calculate the intensity:
 </div>
 
 <div class="equation">
- $$I=\frac{\left(3.00 \times 10^{8}\right)\left(1.60 \times 10^{-17}\right)}{2\left(1.257 \times 10^{-6}\right)}=\frac{4.80 \times 10^{-9}}{2.513 \times 10^{-6}}=1.91 \times 10^{-3} \text{ W/m}^{2}$$
+ $$I=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(1.60 \times 10^{-17} \text{ T}^{2}\right)}{2\left(1.257 \times 10^{-6} \text{ T}\cdot\text{m/A}\right)}=\frac{4.80 \times 10^{-9} \text{ T}^{2}\cdot\text{m/s}}{2.513 \times 10^{-6} \text{ T}\cdot\text{m/A}}=1.91 \times 10^{-3} \text{ W/m}^{2}$$
 </div>
 
 <div class="title">
@@ -325,7 +325,7 @@ Solution
 - Diameter: $$d=1.00 \text{ mm}$$, so radius $$r=0.500 \text{ mm}=0.500 \times 10^{-3} \text{ m}$$
 
 <div class="equation">
- $$I=\frac{P}{A}=\frac{P}{\pi r^{2}}=\frac{0.250 \times 10^{-3} \text{ W}}{\pi \left(0.500 \times 10^{-3} \text{ m}\right)^{2}}=\frac{0.250 \times 10^{-3}}{\pi \times 0.250 \times 10^{-6}}=318 \text{ W/m}^{2}$$
+ $$I=\frac{P}{A}=\frac{P}{\pi r^{2}}=\frac{0.250 \times 10^{-3} \text{ W}}{\pi \left(0.500 \times 10^{-3} \text{ m}\right)^{2}}=\frac{0.250 \times 10^{-3} \text{ W}}{\pi \times 0.250 \times 10^{-6} \text{ m}^{2}}=318 \text{ W/m}^{2}$$
 </div>
 
 **(b)** From $$I=\frac{cB_{0}^{2}}{2\mu_{0}}$$, solve for $$B_{0}$$:
@@ -335,7 +335,7 @@ Solution
 </div>
 
 <div class="equation">
- $$B_{0}=\sqrt{\frac{8.00 \times 10^{-4}}{3.00 \times 10^{8}}}=\sqrt{2.67 \times 10^{-12}}=1.63 \times 10^{-6} \text{ T}$$
+ $$B_{0}=\sqrt{\frac{8.00 \times 10^{-4} \text{ T}^{2}\cdot\text{m/s}}{3.00 \times 10^{8} \text{ m/s}}}=\sqrt{2.67 \times 10^{-12} \text{ T}^{2}}=1.63 \times 10^{-6} \text{ T}$$
 </div>
 
 **(c)** Using $$E_{0}=cB_{0}$$:
@@ -376,11 +376,11 @@ An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions.
 
 **(a)** Half the power spreads over a hemisphere, as the hint specifies:
 
-$$I=\frac{P/2}{2\pi r^2}=\frac{P}{4\pi r^2}=\frac{5.00\times10^4}{4\pi(3.00\times10^4)^2}=4.42\times10^{-6}\ \text{W/m}^2.$$
+$$I=\frac{P/2}{2\pi r^2}=\frac{P}{4\pi r^2}=\frac{5.00\times10^4\ \text{W}}{4\pi(3.00\times10^4\ \text{m})^2}=4.42\times10^{-6}\ \text{W/m}^2.$$
 
 **(b)** For the peak electric field,
 
-$$E_0=\sqrt{\frac{2I}{c\epsilon_0}}=\sqrt{\frac{2(4.42\times10^{-6})}{(3.00\times10^8)(8.85\times10^{-12})}}=5.77\times10^{-2}\ \text{V/m}.$$
+$$E_0=\sqrt{\frac{2I}{c\epsilon_0}}=\sqrt{\frac{2(4.42\times10^{-6}\ \text{W/m}^2)}{(3.00\times10^8\ \text{m/s})(8.85\times10^{-12}\ \text{C}^2/(\text{N}\cdot\text{m}^2))}}=5.77\times10^{-2}\ \text{V/m}.$$
 
 Thus the intensity is **4.42 µW/m²** and the maximum field is **57.7 mV/m**. The assumed ground absorption removes the downward half of the power; it does not concentrate all transmitter power into the upper hemisphere.
 
@@ -415,7 +415,7 @@ Solution
 From $$I=\frac{P}{4\pi r^{2}}$$, solve for $$r$$:
 
 <div class="equation">
- $$r=\sqrt{\frac{P}{4\pi I}}=\sqrt{\frac{10.0 \text{ W}}{4\pi \left(1.00 \text{ W/m}^{2}\right)}}=\sqrt{\frac{10.0}{12.566}}=\sqrt{0.796}=0.892 \text{ m}=89.2 \text{ cm}$$
+ $$r=\sqrt{\frac{P}{4\pi I}}=\sqrt{\frac{10.0 \text{ W}}{4\pi \left(1.00 \text{ W/m}^{2}\right)}}=\sqrt{\frac{10.0 \text{ W}}{12.566 \text{ W/m}^{2}}}=\sqrt{0.796 \text{ m}^{2}}=0.892 \text{ m}=89.2 \text{ cm}$$
 </div>
 
 **(b)** From $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}$$:
@@ -425,7 +425,7 @@ From $$I=\frac{P}{4\pi r^{2}}$$, solve for $$r$$:
 </div>
 
 <div class="equation">
- $$E_{0}=\sqrt{\frac{2.00}{2.655 \times 10^{-3}}}=\sqrt{753.3}=27.4 \text{ V/m}$$
+ $$E_{0}=\sqrt{\frac{2.00 \text{ W/m}^{2}}{2.655 \times 10^{-3} \text{ C}^{2}/(\text{N}\cdot\text{m}\cdot\text{s})}}=\sqrt{753.3 \text{ V}^{2}/\text{m}^{2}}=27.4 \text{ V/m}$$
 </div>
 
 <div class="title">
@@ -476,17 +476,17 @@ Solution
 **(a)** Given: $$E_{0}=7.50 \text{ }\mu\text{V/m}=7.50 \times 10^{-6} \text{ V/m}$$
 
 <div class="equation">
- $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}=\frac{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)\left(7.50 \times 10^{-6}\right)^{2}}{2}$$
+ $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)\left(7.50 \times 10^{-6} \text{ V/m}\right)^{2}}{2}$$
 </div>
 
 <div class="equation">
- $$I=\frac{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)\left(5.625 \times 10^{-11}\right)}{2}=\frac{1.493 \times 10^{-13}}{2}=7.47 \times 10^{-14} \text{ W/m}^{2}$$
+ $$I=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)\left(5.625 \times 10^{-11} \text{ V}^{2}/\text{m}^{2}\right)}{2}=\frac{1.493 \times 10^{-13} \text{ W/m}^{2}}{2}=7.47 \times 10^{-14} \text{ W/m}^{2}$$
 </div>
 
 **(b)** Dish diameter = 2.50 m, so radius $$r=1.25 \text{ m}$$
 
 <div class="equation">
- $$A=\pi r^{2}=\pi \left(1.25\right)^{2}=4.91 \text{ m}^{2}$$
+ $$A=\pi r^{2}=\pi \left(1.25 \text{ m}\right)^{2}=4.91 \text{ m}^{2}$$
 </div>
 
 <div class="equation">
@@ -498,7 +498,7 @@ Solution
 From $$I=\frac{P_{\text{satellite}}}{A_{\text{broadcast}}}$$:
 
 <div class="equation">
- $$P_{\text{satellite}}=IA_{\text{broadcast}}=\left(7.47 \times 10^{-14} \text{ W/m}^{2}\right)\left(1.50 \times 10^{13} \text{ m}^{2}\right)=1.12 \text{ kW}$$
+ $$P_{\text{satellite}}=IA_{\text{broadcast}}=\left(7.47 \times 10^{-14} \text{ W/m}^{2}\right)\left(1.50 \times 10^{13} \text{ m}^{2}\right)=1.12 \text{ W}$$
 </div>
 
 <div class="title">
@@ -507,7 +507,7 @@ Discussion
 
 The intensity of $$7.47 \times 10^{-14}$$ W/m² is incredibly weak—about 10 trillion times weaker than sunlight! Yet satellite dishes can receive clear TV signals at this intensity because: (1) the large dish area (4.91 m²) collects enough power (367 femtowatts) for detection, (2) the receiver is tuned to resonate at the specific broadcast frequency, amplifying the signal, and (3) modern low-noise amplifiers can detect extraordinarily weak signals.
 
-The satellite's transmitted power of 1.12 kW seems modest for broadcasting over such a large area ($$1.50 \times 10^{13}$$ m², roughly the area of North America). This is possible because: (1) satellites use directional antennas that focus power toward Earth rather than radiating uniformly in all directions, (2) the signal is digital and error-correcting codes allow recovery of information even from weak, noisy signals, and (3) geosynchronous satellites at 36,000 km altitude have a clear line-of-sight to ground receivers with minimal atmospheric absorption.
+The satellite's transmitted power of only 1.12 W is remarkably small for broadcasting over such a large area ($$1.50 \times 10^{13}$$ m², roughly the area of North America). Real satellite transponders radiate tens to hundreds of watts per channel, because a signal received at exactly this intensity would leave no margin for noise, rain fade, or smaller home dishes. That so little power suffices in principle is possible because: (1) satellites use directional antennas that focus power toward Earth rather than radiating uniformly in all directions, (2) the signal is digital and error-correcting codes allow recovery of information even from weak, noisy signals, and (3) geosynchronous satellites at 36,000 km altitude have a clear line-of-sight to ground receivers with minimal atmospheric absorption.
 
 This problem beautifully illustrates how modern communications can work with incredibly weak signals through clever engineering—sensitive receivers, large collecting areas, frequency tuning, and signal processing.
 
@@ -515,7 +515,7 @@ This problem beautifully illustrates how modern communications can work with inc
 Final Answer
 </div>
 
-(a) The intensity is $$7.47 \times 10^{-14}$$ W/m². (b) The power received is $$3.67 \times 10^{-13}$$ W or 367 femtowatts. (c) The satellite radiates 1.12 kW.
+(a) The intensity is $$7.47 \times 10^{-14}$$ W/m². (b) The power received is $$3.67 \times 10^{-13}$$ W or 367 femtowatts. (c) The satellite radiates 1.12 W.
 
 :::
 
@@ -552,11 +552,11 @@ Solution
 **(b)** Calculate intensity:
 
 <div class="equation">
- $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}=\frac{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)\left(1.00 \times 10^{11}\right)^{2}}{2}$$
+ $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)\left(1.00 \times 10^{11} \text{ V/m}\right)^{2}}{2}$$
 </div>
 
 <div class="equation">
- $$I=\frac{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)\left(1.00 \times 10^{22}\right)}{2}=\frac{2.655 \times 10^{19}}{2}=1.33 \times 10^{19} \text{ W/m}^{2}$$
+ $$I=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)\left(1.00 \times 10^{22} \text{ V}^{2}/\text{m}^{2}\right)}{2}=\frac{2.655 \times 10^{19} \text{ W/m}^{2}}{2}=1.33 \times 10^{19} \text{ W/m}^{2}$$
 </div>
 
 **(c)** Given:
@@ -818,11 +818,11 @@ From the resonant frequency formula $$f=\frac{1}{2\pi\sqrt{LC}}$$, solve for $$L
 </div>
 
 <div class="equation">
- $$L=\frac{1}{4\pi^{2}\left(9.09 \times 10^{7}\right)^{2}\left(5.00 \times 10^{-12}\right)}$$
+ $$L=\frac{1}{4\pi^{2}\left(9.09 \times 10^{7} \text{ Hz}\right)^{2}\left(5.00 \times 10^{-12} \text{ F}\right)}$$
 </div>
 
 <div class="equation">
- $$L=\frac{1}{4\pi^{2} \times 8.26 \times 10^{15} \times 5.00 \times 10^{-12}}=\frac{1}{1.632 \times 10^{6}}=6.13 \times 10^{-7} \text{ H}=613 \text{ nH}$$
+ $$L=\frac{1}{4\pi^{2} \times \left(8.26 \times 10^{15} \text{ s}^{-2}\right) \times \left(5.00 \times 10^{-12} \text{ F}\right)}=\frac{1}{1.632 \times 10^{6} \text{ F/s}^{2}}=6.13 \times 10^{-7} \text{ H}=613 \text{ nH}$$
 </div>
 
 <div class="title">
@@ -910,19 +910,19 @@ Solving for vehicle speed $$v$$:
 </div>
 
 <div class="equation">
- $$v=\frac{4.50 \times 10^{10}}{3.00 \times 10^{9}}=15.0 \text{ m/s}$$
+ $$v=\frac{4.50 \times 10^{10} \text{ m/s}^{2}}{3.00 \times 10^{9} \text{ Hz}}=15.0 \text{ m/s}$$
 </div>
 
 Convert to more familiar units:
 
 <div class="equation">
- $$v=15.0 \text{ m/s} \times \frac{3600 \text{ s}}{1000 \text{ m}} \times \frac{1 \text{ km}}{1} = 54.0 \text{ km/h}$$
+ $$v=15.0 \text{ m/s} \times \frac{3600 \text{ s}}{1 \text{ h}} \times \frac{1 \text{ km}}{1000 \text{ m}} = 54.0 \text{ km/h}$$
 </div>
 
 Or in miles per hour:
 
 <div class="equation">
- $$v=15.0 \text{ m/s} \times \frac{3600 \text{ s}}{1609 \text{ m}} = 33.6 \text{ mph}$$
+ $$v=15.0 \text{ m/s} \times \frac{3600 \text{ s}}{1 \text{ h}} \times \frac{1 \text{ mi}}{1609 \text{ m}} = 33.6 \text{ mi/h}$$
 </div>
 
 <div class="title">
@@ -1030,7 +1030,7 @@ Power absorbed:
 **(b)** Given diameter $$d=20.0 \text{ cm}=0.200 \text{ m}$$, radius $$r=0.100 \text{ m}$$:
 
 <div class="equation">
- $$A=\pi r^{2}=\pi\left(0.100\right)^{2}=0.0314 \text{ m}^{2}$$
+ $$A=\pi r^{2}=\pi\left(0.100 \text{ m}\right)^{2}=0.0314 \text{ m}^{2}$$
 </div>
 
 <div class="equation">
@@ -1040,11 +1040,11 @@ Power absorbed:
 **(c)** From $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}$$:
 
 <div class="equation">
- $$E_{0}=\sqrt{\frac{2I}{c\epsilon_{0}}}=\sqrt{\frac{2\left(1.80 \times 10^{4}\right)}{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)}}$$
+ $$E_{0}=\sqrt{\frac{2I}{c\epsilon_{0}}}=\sqrt{\frac{2\left(1.80 \times 10^{4} \text{ W/m}^{2}\right)}{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)}}$$
 </div>
 
 <div class="equation">
- $$E_{0}=\sqrt{\frac{3.60 \times 10^{4}}{2.655 \times 10^{-3}}}=\sqrt{1.356 \times 10^{7}}=3.68 \times 10^{3} \text{ V/m}=3.68 \text{ kV/m}$$
+ $$E_{0}=\sqrt{\frac{3.60 \times 10^{4} \text{ W/m}^{2}}{2.655 \times 10^{-3} \text{ C}^{2}/(\text{N}\cdot\text{m}\cdot\text{s})}}=\sqrt{1.356 \times 10^{7} \text{ V}^{2}/\text{m}^{2}}=3.68 \times 10^{3} \text{ V/m}=3.68 \text{ kV/m}$$
 </div>
 
 **(d)** Using $$B_{0}=\frac{E_{0}}{c}$$:
@@ -1135,17 +1135,17 @@ Solution
 Calculate intensity:
 
 <div class="equation">
- $$I=\frac{cB_{0}^{2}}{2\mu_{0}}=\frac{\left(3.00 \times 10^{8}\right)\left(1.00 \times 10^{-12}\right)^{2}}{2\left(4\pi \times 10^{-7}\right)}$$
+ $$I=\frac{cB_{0}^{2}}{2\mu_{0}}=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(1.00 \times 10^{-12} \text{ T}\right)^{2}}{2\left(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}\right)}$$
 </div>
 
 <div class="equation">
- $$I=\frac{\left(3.00 \times 10^{8}\right)\left(1.00 \times 10^{-24}\right)}{2.513 \times 10^{-6}}=\frac{3.00 \times 10^{-16}}{2.513 \times 10^{-6}}=1.19 \times 10^{-10} \text{ W/m}^{2}$$
+ $$I=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(1.00 \times 10^{-24} \text{ T}^{2}\right)}{2.513 \times 10^{-6} \text{ T}\cdot\text{m/A}}=\frac{3.00 \times 10^{-16} \text{ T}^{2}\cdot\text{m/s}}{2.513 \times 10^{-6} \text{ T}\cdot\text{m/A}}=1.19 \times 10^{-10} \text{ W/m}^{2}$$
 </div>
 
 Calculate coil area and power:
 
 <div class="equation">
- $$A=\pi r^{2}=\pi\left(0.150\right)^{2}=0.0707 \text{ m}^{2}$$
+ $$A=\pi r^{2}=\pi\left(0.150 \text{ m}\right)^{2}=0.0707 \text{ m}^{2}$$
 </div>
 
 <div class="equation">
@@ -1175,7 +1175,7 @@ Given $$f=100 \text{ MHz}=1.00 \times 10^{8} \text{ Hz}$$:
 </div>
 
 <div class="equation">
- $$\mathcal{E}_{\text{avg}}=4 \times 200 \times 1.00 \times 10^{-12} \times 0.0707 \times 1.00 \times 10^{8}=5.66 \times 10^{-3} \text{ V}=5.66 \text{ mV}$$
+ $$\mathcal{E}_{\text{avg}}=4 \times 200 \times \left(1.00 \times 10^{-12} \text{ T}\right) \times \left(0.0707 \text{ m}^{2}\right) \times \left(1.00 \times 10^{8} \text{ Hz}\right)=5.66 \times 10^{-3} \text{ V}=5.66 \text{ mV}$$
 </div>
 
 **(c)** From $$f=\frac{1}{2\pi\sqrt{LC}}$$, solve for $$C$$:
@@ -1187,11 +1187,11 @@ Given $$f=100 \text{ MHz}=1.00 \times 10^{8} \text{ Hz}$$:
 Given $$L=2.50 \text{ }\mu\text{H}=2.50 \times 10^{-6} \text{ H}$$:
 
 <div class="equation">
- $$C=\frac{1}{4\pi^{2}\left(1.00 \times 10^{8}\right)^{2}\left(2.50 \times 10^{-6}\right)}$$
+ $$C=\frac{1}{4\pi^{2}\left(1.00 \times 10^{8} \text{ Hz}\right)^{2}\left(2.50 \times 10^{-6} \text{ H}\right)}$$
 </div>
 
 <div class="equation">
- $$C=\frac{1}{4\pi^{2} \times 1.00 \times 10^{16} \times 2.50 \times 10^{-6}}=\frac{1}{9.87 \times 10^{11}}=1.01 \times 10^{-12} \text{ F}=1.01 \text{ pF}$$
+ $$C=\frac{1}{4\pi^{2} \times \left(1.00 \times 10^{16} \text{ s}^{-2}\right) \times \left(2.50 \times 10^{-6} \text{ H}\right)}=\frac{1}{9.87 \times 10^{11} \text{ H/s}^{2}}=1.01 \times 10^{-12} \text{ F}=1.01 \text{ pF}$$
 </div>
 
 <div class="title">
@@ -1387,11 +1387,11 @@ From the resonance formula $$f=\frac{1}{2\pi\sqrt{LC}}$$, solve for $$C$$:
 </div>
 
 <div class="equation">
- $$C=\frac{1}{4\pi^{2}\left(3.00 \times 10^{8}\right)^{2}\left(2.00\right)}$$
+ $$C=\frac{1}{4\pi^{2}\left(3.00 \times 10^{8} \text{ Hz}\right)^{2}\left(2.00 \text{ H}\right)}$$
 </div>
 
 <div class="equation">
- $$C=\frac{1}{4\pi^{2} \times 9.00 \times 10^{16} \times 2.00}=\frac{1}{7.10 \times 10^{18}}=1.41 \times 10^{-19} \text{ F}$$
+ $$C=\frac{1}{4\pi^{2} \times \left(9.00 \times 10^{16} \text{ s}^{-2}\right) \times \left(2.00 \text{ H}\right)}=\frac{1}{7.10 \times 10^{18} \text{ H/s}^{2}}=1.41 \times 10^{-19} \text{ F}$$
 </div>
 
 **(b)** This capacitance is unreasonably small. At $$1.41 \times 10^{-19}$$ F (0.141 attofarads), it's far smaller than any practical capacitor. For comparison:
@@ -1407,7 +1407,7 @@ At 300 MHz, practical inductors are in the nanohenry (nH) to microhenry (μH) ra
 - For a 1-m wavelength (300 MHz) with a reasonable capacitance of, say, 1 pF:
 
 <div class="equation">
- $$L=\frac{1}{4\pi^{2}f^{2}C}=\frac{1}{4\pi^{2}\left(3.00 \times 10^{8}\right)^{2}\left(1.00 \times 10^{-12}\right)}=2.81 \times 10^{-7} \text{ H}=281 \text{ nH}$$
+ $$L=\frac{1}{4\pi^{2}f^{2}C}=\frac{1}{4\pi^{2}\left(3.00 \times 10^{8} \text{ Hz}\right)^{2}\left(1.00 \times 10^{-12} \text{ F}\right)}=2.81 \times 10^{-7} \text{ H}=281 \text{ nH}$$
 </div>
 
 A 2.00-H inductor at 300 MHz would have enormous inductive reactance ($$X_L=2\pi fL=3.77 \times 10^{9}$$ Ω or 3.77 GΩ), making it impractical. Additionally, the large physical size and parasitic capacitance of a 2-H inductor would prevent it from operating effectively at such high frequencies.
@@ -1505,7 +1505,7 @@ Example Solution
 Given: $$B_{0}=0.50 \text{ }\mu\text{T}=5.0 \times 10^{-7} \text{ T}$$
 
 <div class="equation">
- $$I=\frac{cB_{0}^{2}}{2\mu_{0}}=\frac{\left(3.00 \times 10^{8}\right)\left(5.0 \times 10^{-7}\right)^{2}}{2\left(4\pi \times 10^{-7}\right)}=\frac{7.5 \times 10^{-5}}{2.513 \times 10^{-6}}=29.8 \text{ W/m}^{2}$$
+ $$I=\frac{cB_{0}^{2}}{2\mu_{0}}=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(5.0 \times 10^{-7} \text{ T}\right)^{2}}{2\left(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}\right)}=\frac{7.5 \times 10^{-5} \text{ T}^{2}\cdot\text{m/s}}{2.513 \times 10^{-6} \text{ T}\cdot\text{m/A}}=29.8 \text{ W/m}^{2}$$
 </div>
 
 **Part 2: Radiated Power from 500-m Section**
@@ -1513,7 +1513,7 @@ Given: $$B_{0}=0.50 \text{ }\mu\text{T}=5.0 \times 10^{-7} \text{ T}$$
 If we model the radiation as spreading cylindrically from the line, over a cylindrical surface at radius $$r=50 \text{ m}$$:
 
 <div class="equation">
- $$A=2\pi rL=2\pi(50)(500)=1.57 \times 10^{5} \text{ m}^{2}$$
+ $$A=2\pi rL=2\pi(50 \text{ m})(500 \text{ m})=1.57 \times 10^{5} \text{ m}^{2}$$
 </div>
 
 <div class="equation">
@@ -1525,7 +1525,7 @@ If we model the radiation as spreading cylindrically from the line, over a cylin
 For a long straight wire, the magnetic field at distance $$r$$ is $$B=\frac{\mu_{0}I}{2\pi r}$$. Solving for current:
 
 <div class="equation">
- $$I=\frac{2\pi rB}{\mu_{0}}=\frac{2\pi(50)\left(5.0 \times 10^{-7}\right)}{4\pi \times 10^{-7}}=\frac{1.57 \times 10^{-4}}{1.257 \times 10^{-6}}=125 \text{ A}$$
+ $$I=\frac{2\pi rB}{\mu_{0}}=\frac{2\pi(50 \text{ m})\left(5.0 \times 10^{-7} \text{ T}\right)}{\left(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A}\right)}=\frac{1.57 \times 10^{-4} \text{ T}\cdot\text{m}}{1.257 \times 10^{-6} \text{ T}\cdot\text{m/A}}=125 \text{ A}$$
 </div>
 
 **Part 4: Transmitted Power**
@@ -1533,7 +1533,7 @@ For a long straight wire, the magnetic field at distance $$r$$ is $$B=\frac{\mu_
 For a three-phase line at 500 kV with 125 A per phase:
 
 <div class="equation">
- $$P_{\text{trans}}=\sqrt{3}VI\cos\phi \approx \sqrt{3}(500{,}000)(125)(0.95)=103 \text{ MW}$$
+ $$P_{\text{trans}}=\sqrt{3}VI\cos\phi \approx \sqrt{3}(500{,}000 \text{ V})(125 \text{ A})(0.95)=1.03 \times 10^{8} \text{ W}=103 \text{ MW}$$
 </div>
 
 (assuming power factor $$\cos\phi=0.95$$)
@@ -1618,7 +1618,7 @@ Given:
 Dish diameter $$d=45 \text{ cm}=0.45 \text{ m}$$, radius $$r=0.225 \text{ m}$$:
 
 <div class="equation">
- $$A_{\text{dish}}=\pi r^{2}=\pi(0.225)^{2}=0.159 \text{ m}^{2}$$
+ $$A_{\text{dish}}=\pi r^{2}=\pi(0.225 \text{ m})^{2}=0.159 \text{ m}^{2}$$
 </div>
 
 <div class="equation">
@@ -1630,11 +1630,11 @@ Dish diameter $$d=45 \text{ cm}=0.45 \text{ m}$$, radius $$r=0.225 \text{ m}$$:
 From $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}$$:
 
 <div class="equation">
- $$E_{0}=\sqrt{\frac{2I}{c\epsilon_{0}}}=\sqrt{\frac{2\left(1.0 \times 10^{-11}\right)}{\left(3.00 \times 10^{8}\right)\left(8.85 \times 10^{-12}\right)}}$$
+ $$E_{0}=\sqrt{\frac{2I}{c\epsilon_{0}}}=\sqrt{\frac{2\left(1.0 \times 10^{-11} \text{ W/m}^{2}\right)}{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)}}$$
 </div>
 
 <div class="equation">
- $$E_{0}=\sqrt{\frac{2.0 \times 10^{-11}}{2.655 \times 10^{-3}}}=\sqrt{7.53 \times 10^{-9}}=8.68 \times 10^{-5} \text{ V/m}=86.8 \text{ }\mu\text{V/m}$$
+ $$E_{0}=\sqrt{\frac{2.0 \times 10^{-11} \text{ W/m}^{2}}{2.655 \times 10^{-3} \text{ C}^{2}/(\text{N}\cdot\text{m}\cdot\text{s})}}=\sqrt{7.53 \times 10^{-9} \text{ V}^{2}/\text{m}^{2}}=8.68 \times 10^{-5} \text{ V/m}=86.8 \text{ }\mu\text{V/m}$$
 </div>
 
 **Part 4: Maximum Magnetic Field Strength**

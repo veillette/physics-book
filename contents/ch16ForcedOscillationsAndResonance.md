@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 8
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Observe resonance of a paddle ball on a string.
-* Observe amplitude of a damped harmonic oscillator.
+- Observe resonance of a paddle ball on a string.
+- Observe amplitude of a damped harmonic oscillator.
 
 :::
 
@@ -42,7 +43,7 @@ higher than the resonant or natural frequency, the amplitude of the oscillations
 becomes smaller, until the oscillations nearly disappear and your finger simply
 moves up and down with little effect on the ball.
 
-![The given figure shows three pictures of a horizontal viewed single finger containing a string, suspended downward vertically, being tied to a paddle ball at its downward end. In the first figure the ball is stretching up and down very slowly having less displacement, the displacement shown in the figures as faded shades of the ball and is depicted as 2X. Whereas in the second figure the movement of the ball is highest, while in the third the movement is least. In all the three figures the ball is at its equilibrium with respect to its movement. The frequency, f, for the first figure is very low, for the second figure as f not, while for the third figure it is highest.](../resources/Figure_16_08_02.jpg 'The paddle ball on its rubber band moves in response to the finger supporting it. If the finger moves with the natural frequency ( f_{0} ) of the ball on the rubber band, then a resonance is achieved, and the amplitude of the ball’s oscillations increases dramatically. At higher and lower driving frequencies, energy is transferred to the ball less efficiently, and it responds with lower-amplitude oscillations. ')
+![A finger moves up and down, holding a rubber band from which a ball hangs. Driven at a low frequency or at a high frequency, the ball oscillates with a small amplitude, swinging through 2X. Driven at the natural frequency f0 of the ball on the rubber band, the ball oscillates with a much larger amplitude: resonance.](../resources/Figure_16_08_02.svg 'The paddle ball on its rubber band moves in response to the finger supporting it. If the finger moves with the natural frequency ( f_{0} ) of the ball on the rubber band, then a resonance is achieved, and the amplitude of the ball’s oscillations increases dramatically. At higher and lower driving frequencies, energy is transferred to the ball less efficiently, and it responds with lower-amplitude oscillations. ')
 {: #Figure2}
 
 [[Figure 3]](#Figure3) shows a graph of the amplitude of a damped harmonic
@@ -53,7 +54,7 @@ force equals the natural frequency of the harmonic oscillator. The highest peak,
 or greatest response, is for the least amount of damping, because less energy is
 removed by the damping force.
 
-![The given graph is of amplitude, X, along y axis versus driving frequency f, along x axis. There are three points on the x axis as f not divided by two, f not, three multiply f not divided by two. There are three curves along the x axis, in a one crest oscillation way, which are one over each other in correspondence. The curves start at a point just over the origin point and ends up at a same level along the x axis on the far right. The crests of the three curves are exactly over the f not point. The uppermost crest shows the small damping, whereas the middle one shows the medium damping, and the last one below shows the heavy damping.](../resources/Figure_16_08_03.jpg 'Amplitude of a harmonic oscillator as a function of the frequency of the driving force. The curves represent the same oscillator with the same natural frequency but with different amounts of damping. Resonance occurs when the driving frequency equals the natural frequency, and the greatest response is for the least amount of damping. The narrowest response is also for the least damping. ')
+![Amplitude X of the same oscillator, with natural frequency f0, as a function of the driving frequency f, for small, medium and heavy damping. Each curve peaks at resonance, when the driving frequency is close to f0. The less the damping, the taller and narrower the peak; double arrows show each curve’s width at half its height.](../resources/Figure_16_08_03.svg 'Amplitude of a harmonic oscillator as a function of the frequency of the driving force. The curves represent the same oscillator with the same natural frequency but with different amounts of damping. Resonance occurs when the driving frequency equals the natural frequency, and the greatest response is for the least amount of damping. The narrowest response is also for the least damping. ')
 {: #Figure3}
 
 It is interesting that the widths of the resonance curves shown
@@ -114,6 +115,48 @@ The performer must be singing a note that corresponds to the natural frequency o
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Driven Oscillator
+</div>
+
+Drive a mass on a spring and sweep the driving frequency. The amplitude is largest when the drive matches the natural frequency.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/Resonance/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Driven oscillator
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Phase of a Driven Oscillator
+</div>
+
+Watch the lag between the driver and the mass. Below resonance they move together. Above resonance the mass lags by about half a cycle.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/Resonance/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Phase of a driven oscillator
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - A system’s natural frequency is the frequency at which the system will
@@ -131,6 +174,22 @@ The performer must be singing a note that corresponds to the natural frequency o
 ::: problem
 
 Why are soldiers in general ordered to “route step” (walk out of step) across a bridge?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare synchronized footfalls with periodic forcing near a natural frequency.
+
+**Solution**
+
+If soldiers march in step, many footfalls apply force with the same timing. A strong periodic driving component close to a bridge’s natural frequency can transfer energy coherently and build up vibration through resonance. Walking out of step spreads the timing of the loads and reduces the coherent periodic force.
+
+**Discussion**
+
+Damping and bridge design also control the response. Soldiers use route step to reduce synchronized forcing that could excite a dangerous bridge resonance.
 
 :::
 
@@ -163,7 +222,7 @@ The kinetic energy of the car at equilibrium is:
 Substituting the given values:
 
 <div class="equation">
- $$E = \frac{1}{2}(1200)(0.800)^2 = \frac{1}{2}(1200)(0.640)$$
+ $$E = \frac{1}{2}(1200 \text{ kg})(0.800 \text{ m/s})^2 = \frac{1}{2}(1200 \text{ kg})(0.640 \text{ (m/s)}^2)$$
 </div>
 
 <div class="equation">
@@ -186,8 +245,8 @@ The shock absorbers must dissipate 384 J of energy to completely damp the bounce
 
 ::: problem
 
-If a car has a suspension system with a force constant of  $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
- how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
+If a car has a suspension system with a force constant of $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
+how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
 
 :::
 
@@ -202,11 +261,11 @@ The oscillation starts with maximum displacement, so all the energy is initially
 The initial energy stored in the suspension is:
 
 <div class="equation">
- $$E = \frac{1}{2}kx^{2} = \frac{1}{2}(5.00 \times 10^4)(0.0750)^2$$
+ $$E = \frac{1}{2}kx^{2} = \frac{1}{2}(5.00 \times 10^4 \text{ N/m})(0.0750 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$E = \frac{1}{2}(5.00 \times 10^4)(5.625 \times 10^{-3}) = 141 \text{ J}$$
+ $$E = \frac{1}{2}(5.00 \times 10^4 \text{ N/m})(5.625 \times 10^{-3} \text{ m}^2) = 141 \text{ J}$$
 </div>
 
 **Discussion**
@@ -264,10 +323,11 @@ For part (a), when the object hangs motionless, the spring force balances the we
 </div>
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}(40.0)(0.01513) = 0.303 \text{ J} \approx 0.300 \text{ J}$$
+ $$PE_{el} = \frac{1}{2}(40.0 \text{ N/m})(0.01513 \text{ m}^2) = 0.303 \text{ J} \approx 0.300 \text{ J}$$
 </div>
 
 Comparing energies:
+
 - Gravitational PE lost: 0.600 J
 - Elastic PE stored: 0.300 J
 - Energy unaccounted for: 0.300 J
@@ -294,9 +354,9 @@ In a real scenario where the mass is simply released, it would initially oversho
 
 ::: problem
 
-Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction  $${\mu }_{\text{s}}=0.100 $$ .
- (a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is  $${\mu }_{\text{k}}=0.0850 $$ ,
- what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
+Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction $${\mu }_{\text{s}}=0.100 $$ .
+(a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is $${\mu }_{\text{k}}=0.0850 $$ ,
+what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
 
 :::
 
@@ -304,7 +364,7 @@ Suppose you have a 0.750-kg object on a horizontal surface connected to a spring
 
 **(a)** At the threshold of motion,
 
-$$x_s=\frac{\mu_smg}{k}=\frac{(0.100)(0.750)(9.80)}{150}=4.90\ \text{mm}.$$
+$$x_s=\frac{\mu_smg}{k}=\frac{(0.100)(0.750\ \text{kg})(9.80\ \text{m/s}^2)}{150\ \text{N/m}}=4.90\ \text{mm}.$$
 
 **(b)** Starting from $$X=2x_s=9.80\ \text{mm}$$, the block initially moves left. During that motion the kinetic-friction force points right, shifting the oscillator's equilibrium to
 
@@ -327,9 +387,9 @@ Some elastic energy remains in the spring. Assuming that all initial elastic ene
 
 ::: problem
 
-Engineering Application: A suspension bridge oscillates with an effective force constant of  $$ 1.00 \times 10^{8}  \text{N/m} $$ .
- (a) How much energy is needed to make it oscillate with an amplitude of 0.100 m? (b) If soldiers march across the bridge with a cadence equal to the bridge’s natural frequency and impart  $$ 1.00 \times 10^{4}  \text{J} $$
- of energy each second, how long does it take for the bridge’s oscillations to go from 0.100 m to 0.500 m amplitude?
+Engineering Application: A suspension bridge oscillates with an effective force constant of $$ 1.00 \times 10^{8}  \text{N/m} $$ .
+(a) How much energy is needed to make it oscillate with an amplitude of 0.100 m? (b) If soldiers march across the bridge with a cadence equal to the bridge’s natural frequency and impart $$ 1.00 \times 10^{4}  \text{J} $$
+of energy each second, how long does it take for the bridge’s oscillations to go from 0.100 m to 0.500 m amplitude?
 
 :::
 
@@ -344,33 +404,33 @@ For part (a), the energy in a harmonic oscillator at maximum displacement is pur
 (a) Energy needed for 0.100 m amplitude:
 
 <div class="equation">
- $$E_1 = \frac{1}{2}kx_{1}^2 = \frac{1}{2}(1.00 \times 10^8)(0.100)^2$$
+ $$E_1 = \frac{1}{2}kx_{1}^2 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.100 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$E_1 = \frac{1}{2}(1.00 \times 10^8)(0.0100) = 5.00 \times 10^5 \text{ J}$$
+ $$E_1 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.0100 \text{ m}^2) = 5.00 \times 10^5 \text{ J}$$
 </div>
 
 (b) Energy at 0.500 m amplitude:
 
 <div class="equation">
- $$E_2 = \frac{1}{2}kx_{2}^2 = \frac{1}{2}(1.00 \times 10^8)(0.500)^2$$
+ $$E_2 = \frac{1}{2}kx_{2}^2 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.500 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$E_2 = \frac{1}{2}(1.00 \times 10^8)(0.250) = 1.25 \times 10^7 \text{ J}$$
+ $$E_2 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.250 \text{ m}^2) = 1.25 \times 10^7 \text{ J}$$
 </div>
 
 Additional energy needed:
 
 <div class="equation">
- $$\Delta E = E_2 - E_1 = 1.25 \times 10^7 - 5.00 \times 10^5 = 1.20 \times 10^7 \text{ J}$$
+ $$\Delta E = E_2 - E_1 = 1.25 \times 10^7 \text{ J} - 5.00 \times 10^5 \text{ J} = 1.20 \times 10^7 \text{ J}$$
 </div>
 
 Time to add this energy at a rate of $$1.00 \times 10^4$$ J/s:
 
 <div class="equation">
- $$t = \frac{\Delta E}{P} = \frac{1.20 \times 10^7}{1.00 \times 10^4} = 1.20 \times 10^3 \text{ s}$$
+ $$t = \frac{\Delta E}{P} = \frac{1.20 \times 10^7 \text{ J}}{1.00 \times 10^4 \text{ J/s}} = 1.20 \times 10^3 \text{ s}$$
 </div>
 
 **Discussion**
@@ -390,6 +450,7 @@ Part (a) shows that even a 10 cm oscillation of a massive bridge requires 500,00
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 natural frequency

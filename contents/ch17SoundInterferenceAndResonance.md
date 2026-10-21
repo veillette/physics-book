@@ -69,16 +69,16 @@ tuning fork exactly half a cycle later, and it interferes constructively with
 the continuing sound produced by the tuning fork. The incoming and reflected
 sounds form a standing wave in the tube as shown.
 
-![The right side shows a vibrating tuning fork with right arm of fork moving right and left arm moving left. The left side shows a cone of resonance waves moving across a tube from the open end to the closed end. The tip of the cone is at the open end of the tube.](../resources/Figure_17_05_03.jpg 'Resonance of air in a tube closed at one end, caused by a tuning fork. A disturbance moves down the tube.')
+![A tuning fork stands at the open right end of a tube closed at its left end. Its tines spread apart, and the disturbance it creates, shaded, moves to the left down the tube.](../resources/Figure_17_05_03.svg 'Resonance of air in a tube closed at one end, caused by a tuning fork. A disturbance moves down the tube.')
 {: #Figure3}
 
-![The right side shows a vibrating tuning fork. The left side shows a cone of resonance waves reflected at the closed end of the tube. The tip of the cone is at the closed end of the tube, and the mouth of the cone is moving toward the open end of the tube.](../resources/Figure_17_05_04.jpg 'Resonance of air in a tube closed at one end, caused by a tuning fork. The disturbance reflects from the closed end of the tube.')
+![The disturbance reaches the closed left end of the tube and reflects, moving back to the right toward the tuning fork at the open end.](../resources/Figure_17_05_04.svg 'Resonance of air in a tube closed at one end, caused by a tuning fork. The disturbance reflects from the closed end of the tube.')
 {: #Figure4}
 
-![The left side shows a cone of resonance waves reflected at the closed end of the tube. The mouth of the cone has reached the open end of the tube  The right side shows a vibrating tuning fork with its left arm of fork moving rightward and its right arm moving leftward.](../resources/Figure_17_05_05.jpg 'Resonance of air in a tube closed at one end, caused by a tuning fork. If the length of the tube ( L ) is just right, the disturbance gets back to the tuning fork half a cycle later and interferes constructively with the continuing sound from the tuning fork. This interference forms a standing wave, and the air column resonates.')
+![The reflected disturbance reaches the open end just as the tuning fork’s tines move together, half a cycle after it was sent. If the tube’s length L is just right, it interferes constructively with the continuing sound from the fork, a standing wave forms, and the air column resonates.](../resources/Figure_17_05_05.svg 'Resonance of air in a tube closed at one end, caused by a tuning fork. If the length of the tube ( L ) is just right, the disturbance gets back to the tuning fork half a cycle later and interferes constructively with the continuing sound from the tuning fork. This interference forms a standing wave, and the air column resonates.')
 {: #Figure5}
 
-![The right side shows a vibrating tuning fork with its right arm moving rightward and left arm moving leftward. The left side shows a cone of resonance waves reflected at the closed end of the tube. The curve side of the cone has reached the tuning fork. The length of the tube is given to be equal to lambda divided by four.](../resources/Figure_17_05_06.jpg 'Resonance of air in a tube closed at one end, caused by a tuning fork. A graph of air displacement along the length of the tube shows none at the closed end, where the motion is constrained, and a maximum at the open end. This standing wave has one-fourth of its wavelength in the tube, so that ( \\lambda =4L ).')
+![Four tubes of length L closed at the left end, each with no air displacement at the closed end and the most at the open end. Fundamental: a quarter wavelength fits, λ1 = 4L, f1 = v/4L. First overtone: three quarters of a wavelength, λ2 = 4L/3, f2 = 3v/4L. Second overtone: λ3 = 4L/5, f3 = 5v/4L. Third overtone: λ4 = 4L/7, f4 = 7v/4L.](../resources/Figure_17_05_06.svg 'Resonance of air in a tube closed at one end, caused by a tuning fork. A graph of air displacement along the length of the tube shows none at the closed end, where the motion is constrained, and a maximum at the open end. This standing wave has one-fourth of its wavelength in the tube, so that ( \\lambda =4L ).')
 {: #Figure6}
 
 The standing wave formed in the tube has its maximum air displacement (an **antinode**) at the open end, where motion is unconstrained, and no
@@ -89,7 +89,7 @@ be produced by a vibration introduced at or near the closed end of the tube, as
 shown in [[Figure 7]](#Figure7). It is best to consider this a natural vibration
 of the air column independently of how it is induced.
 
-![A cone of resonance waves reflected at the closed end of the tube is shown. A tuning fork is shown to vibrate at a small opening above the closed end of the tube. The length of the tube L is given to be equal to lambda divided by four.](../resources/Figure_17_05_07.jpg 'The same standing wave is created in the tube by a vibration introduced near its closed end. ')
+![Top: a tube of length L, closed at its left end, with its air in the fundamental mode: no displacement at the closed end and the most at the open end. The tube holds a quarter of a wavelength, λ/4; the rest of the wave, dashed, continues beyond the open end. Below: the same tube with a vibrating tuning fork held over a small hole near its closed end produces the same standing wave, again a quarter wavelength in the tube.](../resources/Figure_17_05_07.svg 'The same standing wave is created in the tube by a vibration introduced near its closed end. ')
 {: #Figure7}
 
 Given that maximum air displacements are possible at the open end and none at
@@ -104,10 +104,10 @@ are integral multiples of the fundamental, and they are collectively called **ha
 second harmonic, and so on. [[Figure 9]](#Figure9) shows the fundamental and the
 first three overtones (the first four harmonics) in a tube closed at one end.
 
-![A cone of resonance waves reflected at the closed end of the tube is shown as a wave. There is three-fourth of the wave inside the tube and one-fourth outside shown as dotted curve. The length of the tube is given as three-fourth times lambda prime.](../resources/Figure_17_05_08.jpg 'Another resonance for a tube closed at one end. This has maximum air displacements at the open end, and none at the closed end. The wavelength is shorter, with three-fourths \(\lambda^\prime\) equaling the length of the tube, so that ( \\lambda^\\prime =4L/3 ) . This higher-frequency vibration is the first overtone.')
+![A tube of length L closed at its left end, with its air in the first overtone: no displacement at the closed end, a node a third of the way from the open end, and the most displacement at the open end. Three quarters of a wavelength fit in the tube, (3/4)λ′ = L, so λ′ = 4L/3; the dashed curve continues the wave beyond the open end.](../resources/Figure_17_05_08.svg 'Another resonance for a tube closed at one end. This has maximum air displacements at the open end, and none at the closed end. The wavelength is shorter, with three-fourths \(\lambda^\prime\) equaling the length of the tube, so that ( \\lambda^\\prime =4L/3 ) . This higher-frequency vibration is the first overtone.')
 {: #Figure8}
 
-![There are four tubes, each of which is closed at one end. Each tube has resonance waves reflected at the closed end. In the first tube, marked Fundamental, the wavelength is long and only one-fourth of the wave is inside the tube, with the maximum air displacement at the open end. In the second tube, marked First overtone, the wavelength is slightly shorter and three-fourths of the wave is inside the tube, with the maximum air displacement at the open end. In the third tube, marked Second overtone, the wavelength is still shorter and one and one-fourth of the wave is inside the tube, with the maximum air displacement at the open end. In the fourth tube, marked Third overtone, the wavelength is shorter than the others, and one and three-fourths of the wave is inside the tube, with the maximum air displacement at the open end.](../resources/Figure_17_05_09.jpg 'The fundamental and three lowest overtones for a tube closed at one end. All have maximum air displacements at the open end and none at the closed end.')
+![Four tubes of length L closed at the left end, each with no air displacement at the closed end and the most at the open end. Fundamental: a quarter wavelength fits, λ1 = 4L, f1 = v/4L. First overtone: three quarters of a wavelength, λ2 = 4L/3, f2 = 3v/4L. Second overtone: λ3 = 4L/5, f3 = 5v/4L. Third overtone: λ4 = 4L/7, f4 = 7v/4L.](../resources/Figure_17_05_09.svg 'The fundamental and three lowest overtones for a tube closed at one end. All have maximum air displacements at the open end and none at the closed end.')
 {: #Figure9}
 
 The fundamental and overtones can be present simultaneously in a variety of
@@ -245,7 +245,7 @@ analyzed in a very similar fashion to those for tubes closed at one end. The air
 columns in tubes open at both ends have maximum air displacements at both ends,
 as illustrated in [[Figure 11]](#Figure11). Standing waves form as shown.
 
-![The resonant frequency waves in a tube open at both ends are shown. There are a set of four images. The first image shows a tube of length L marked fundamental having half a wave. The maxima of the vibrations are on both the open ends of the tube. The second image shows a tube of length L marked first over tone having a full wave. The maxima of the vibrations are on both the open ends of the tube. The third image shows a tube of length L marked second over tone having a full wave and a half. The maxima of the vibrations are on both the open ends of the tube. The fourth image shows a tube of length L marked third over tone having two full waves. The maxima of the vibrations are on both the open ends of the tube.](../resources/Figure_17_05_11.jpg 'The resonant frequencies of a tube open at both ends are shown, including the fundamental and the first three overtones. In all cases the maximum air displacements occur at both ends of the tube, giving it different natural frequencies than a tube closed at one end.')
+![Four tubes of length L open at both ends, each with its air displacement largest at both ends. Fundamental: half a wavelength fits, λ1 = 2L and f1 = v/2L. First overtone: λ2 = L, f2 = v/L. Second overtone: λ3 = 2L/3, f3 = 3v/2L. Third overtone: λ4 = L/2, f4 = 2v/L.](../resources/Figure_17_05_11.svg 'The resonant frequencies of a tube open at both ends are shown, including the fundamental and the first three overtones. In all cases the maximum air displacements occur at both ends of the tube, giving it different natural frequencies than a tube closed at one end.')
 {: #Figure11}
 
 Based on the fact that a tube open at both ends has maximum air displacements at
@@ -355,6 +355,69 @@ Explore sound waves by adjusting the frequency and amplitude. Compare the wave d
 </div>
 
 :::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Reflection at an Open or Closed End
+</div>
+
+Send a pulse down a pipe. A closed end holds the air still and reflects the displacement pulse inverted. An open end is a pressure node and reflects it upright.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Reflection at a pipe end
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Displacement and Pressure
+</div>
+
+Compare the displacement of the air with the pressure variation in the same wave. A pressure node sits where the displacement is largest.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Displacement and pressure phase
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Standing Waves in a Pipe
+</div>
+
+Drive an open pipe and a stopped pipe. The open pipe supports every harmonic. The stopped pipe supports only the odd ones.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Harmonics of open and stopped pipes
+</figcaption>
+</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -888,7 +951,7 @@ What length should an oboe have to produce a fundamental frequency of 110 Hz on 
 
 Using the specified open-tube frequency relation,
 
-$$f_1=\frac{v}{2L},\qquad L=\frac{v}{2f_1}=\frac{343}{2(110)}=1.56\ \text{m}.$$
+$$f_1=\frac{v}{2L},\qquad L=\frac{v}{2f_1}=\frac{343\ \text{m/s}}{2(110\ \text{Hz})}=1.56\ \text{m}.$$
 
 This is the effective acoustic length required by the idealized model. A real oboe has a reed at its narrow end and a conical bore. Its resonance series resembles that of an open cylindrical tube; replacing it with a cylindrical tube closed at one end would give the wrong harmonic structure. See [UNSW's explanation of double-reed acoustics](https://phys.unsw.edu.au/jw/double-reed-acoustics.html).
 
@@ -1043,7 +1106,7 @@ The physical reason for this change is that the speed of sound increases with te
 We can verify the reasonableness of the frequency change using the ratio:
 
 <div class="equation">
- $$\frac{f_2}{f_1} = \frac{v_{w,2}}{v_{w,1}} = \frac{346}{342} = 1.012$$
+ $$\frac{f_2}{f_1} = \frac{v_{w,2}}{v_{w,1}} = \frac{346\text{ m/s}}{342\text{ m/s}} = 1.012$$
 </div>
 
 So $$f_2 = 1.012 \times 256\text{ Hz} = 259\text{ Hz}$$ ✓
@@ -1285,15 +1348,15 @@ A crude approximation of voice production is to consider the breathing passages 
 
 **(a)** Approximate the tract as a tube closed at one end. At 37.0 °C,
 
-$$v_{\text{air}}=(331)\sqrt{310.15/273.15}=352.7\ \text{m/s},$$
+$$v_{\text{air}}=(331\ \text{m/s})\sqrt{310.15/273.15}=352.7\ \text{m/s},$$
 
-$$f_{1,\text{air}}=\frac{v_{\text{air}}}{4L}=\frac{352.7}{4(0.240)}=367\ \text{Hz}.$$
+$$f_{1,\text{air}}=\frac{v_{\text{air}}}{4L}=\frac{352.7\ \text{m/s}}{4(0.240\ \text{m})}=367\ \text{Hz}.$$
 
 **(b)** Using the tabulated helium speed of 965 m/s at 0 °C and the same square-root temperature dependence,
 
-$$v_{\text{He}}=(965)\sqrt{310.15/273.15}=1028\ \text{m/s},$$
+$$v_{\text{He}}=(965\ \text{m/s})\sqrt{310.15/273.15}=1028\ \text{m/s},$$
 
-$$f_{1,\text{He}}=\frac{1028}{4(0.240)}=1.07\ \text{kHz}.$$
+$$f_{1,\text{He}}=\frac{1028\ \text{m/s}}{4(0.240\ \text{m})}=1.07\ \text{kHz}.$$
 
 These are resonances of the simplified vocal tract. Changing the gas shifts these resonances (formants), rather than directly multiplying the vocal-fold vibration frequency.
 
@@ -1357,7 +1420,7 @@ Solving for $$T$$:
 Convert to Celsius:
 
 <div class="equation">
- $$T = 295\text{ K} - 273 = 22°\text{C}$$
+ $$T = 295\text{ K} - 273\text{ K} = 22°\text{C}$$
 </div>
 
 **(b) Finding the length for the first overtone:**
@@ -1421,13 +1484,13 @@ Use $$v=343\ \text{m/s}$$ and the conventional audible range 20–20,000 Hz. Ret
 
 **(a)** For a tube closed at one end,
 
-$$f_n=n\frac{v}{4L}=n\frac{343}{7.20}\ \text{Hz},\qquad n=1,3,5,\ldots,419.$$
+$$f_n=n\frac{v}{4L}=n\frac{343\ \text{m/s}}{7.20\ \text{m}}\ \text{Hz},\qquad n=1,3,5,\ldots,419.$$
 
 There are **210** audible resonances, from 47.6 Hz through 19,961 Hz.
 
 **(b)** For a tube open at both ends,
 
-$$f_n=n\frac{v}{2L}=n\frac{343}{3.60}\ \text{Hz},\qquad n=1,2,3,\ldots,209.$$
+$$f_n=n\frac{v}{2L}=n\frac{343\ \text{m/s}}{3.60\ \text{m}}\ \text{Hz},\qquad n=1,2,3,\ldots,209.$$
 
 There are **209** audible resonances, from 95.3 Hz through 19,913 Hz. The 210th is 20,008 Hz and exceeds 20 kHz. A harmonic index must be rounded down to the allowed integer, rather than to the nearest integer.
 

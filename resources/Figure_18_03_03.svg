@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="340" viewBox="0 0 320 340" role="img" aria-labelledby="title desc">
+<title id="title">Charge separation in a water molecule</title>
+<desc id="desc">The outer electron cloud of a neutral water molecule, shaded, is concentrated around the oxygen atom. The oxygen carries a net charge −2q and each hydrogen a net charge +q; the two O–H bonds make an angle of 104°. Water is therefore a polar molecule.</desc>
+<rect width="320" height="340" fill="#ffffff"/>
+<defs><radialGradient id="cloud18"><stop offset="0" stop-color="#1f8f8a" stop-opacity="0.85"/><stop offset="1" stop-color="#1f8f8a" stop-opacity="0.15"/></radialGradient></defs>
+<path d="M 45 170 C 50 80 144.6444549091941 27.258870871294192 194.6444549091941 51.25887087129419 C 244.6444549091941 77.25887087129419 214.6444549091941 127.25887087129419 160 160 C 170 170 170 170 160 180 C 214.6444549091941 212.7411291287058 244.6444549091941 262.7411291287058 194.6444549091941 288.7411291287058 C 144.6444549091941 312.7411291287058 50 260 45 170 Z" fill="url(#cloud18)"/>
+<line x1="120" y1="170" x2="184.64" y2="87.26" stroke="#222222" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="120" y1="170" x2="184.64" y2="252.74" stroke="#222222" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M 140.93 196.79 A 34 34 0 0 0 140.93 143.21" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="162" y="177" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">104°</tspan></text>
+<circle cx="120" cy="170" r="6" fill="#222222"/>
+<circle cx="184.64" cy="87.26" r="6" fill="#222222"/>
+<circle cx="184.64" cy="252.74" r="6" fill="#222222"/>
+<text x="116" y="153.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">O</tspan></text>
+<text x="106" y="181.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−2</tspan><tspan font-style="italic">q</tspan></text>
+<text x="198.64" y="94.96" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">q</tspan></text>
+<text x="180.64" y="70.96" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan></text>
+<text x="198.64" y="260.44" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">q</tspan></text>
+<text x="180.64" y="286.44" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan></text>
+</svg>

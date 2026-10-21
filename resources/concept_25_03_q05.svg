@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440" role="img" aria-labelledby="title desc">
+<title id="title">Apparent depth of an object under water</title>
+<desc id="desc">A stone on the bottom of a pond, 2.00 meters deep. Two rays from the stone bend away from the perpendicular as they leave the water and enter an observer’s eye. Traced straight back, the rays appear to come from a point 1.50 meters below the surface, so the stone appears shallower than it is.</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<rect x="20" y="170" width="520" height="250" fill="#d6ebf5"/>
+<line x1="20" y1="170" x2="540" y2="170" stroke="#1f77c8" stroke-width="2"/>
+<rect x="20" y="398" width="520" height="22" fill="#c8b38a"/>
+<circle cx="200" cy="390" r="9" fill="#7f7f7f" stroke="#222222" stroke-width="1"/>
+<line x1="200" y1="390" x2="223.12" y2="170" stroke="#c62828" stroke-width="2.2"/>
+<line x1="210.93" y1="285.97" x2="211.54" y2="280.2" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="212.19,274.03 214.3,281.49 208.57,280.89" fill="#c62828"/>
+<line x1="223.12" y1="170" x2="242.63" y2="31.37" stroke="#c62828" stroke-width="2.2"/>
+<line x1="232.04" y1="106.62" x2="232.85" y2="100.88" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="233.71,94.74 235.56,102.27 229.86,101.47" fill="#c62828"/>
+<line x1="200" y1="390" x2="242.76" y2="170" stroke="#c62828" stroke-width="2.2"/>
+<line x1="220.24" y1="285.89" x2="221.34" y2="280.2" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="222.53,274.11 223.98,281.73 218.33,280.63" fill="#c62828"/>
+<line x1="242.76" y1="170" x2="278.37" y2="34.6" stroke="#c62828" stroke-width="2.2"/>
+<line x1="259.04" y1="108.1" x2="260.52" y2="102.5" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="262.09,96.5 263.05,104.2 257.48,102.73" fill="#c62828"/>
+<line x1="223.12" y1="170" x2="200.52" y2="330.61" stroke="#c62828" stroke-width="1.4" stroke-dasharray="6 4"/>
+<line x1="242.76" y1="170" x2="200.52" y2="330.61" stroke="#c62828" stroke-width="1.4" stroke-dasharray="6 4"/>
+<circle cx="200.52" cy="330.61" r="9" fill="#bdbdbd" stroke="#222222" stroke-width="1"/>
+<text x="184.52" y="335.51" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">apparent</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">position</tspan></text>
+<text x="184" y="392.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">stone</tspan></text>
+<g transform="translate(268.37 22.6) rotate(90)"><path d="M -14 0 Q 0 -11 14 0 Q 0 11 -14 0 Z" fill="#ffffff" stroke="#222222" stroke-width="1.5"/><circle cx="4" cy="0" r="4.5" fill="#1f77c8"/></g>
+<line x1="470" y1="178" x2="470" y2="382" stroke="#222222" stroke-width="1.4"/>
+<polygon points="470,390 466.4,381 473.6,381" fill="#222222"/>
+<polygon points="470,170 473.6,179 466.4,179" fill="#222222"/>
+<text x="478" y="284.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = 2.00 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="420" y1="178" x2="420" y2="322.61" stroke="#666666" stroke-width="1.4"/>
+<polygon points="420,330.61 416.4,321.61 423.6,321.61" fill="#666666"/>
+<polygon points="420,170 423.6,179 416.4,179" fill="#666666"/>
+<text x="412" y="255.2" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">app</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> = 1.50 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="30" y="160.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">air</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 1.00</tspan></text>
+<text x="30" y="192.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">water</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 1.333</tspan></text>
+</svg>

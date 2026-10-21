@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="330" viewBox="0 0 620 330" role="img" aria-labelledby="title desc">
+<title id="title">An ammeter built from a galvanometer and a shunt resistance</title>
+<desc id="desc">Current I_tot enters on the left and divides. A small current I_G passes through the galvanometer G and its internal resistance r on the upper branch; most of the current, I, passes through the small shunt resistance R on the lower branch. The currents rejoin as I_tot on the right.</desc>
+<rect width="620" height="330" fill="#ffffff"/>
+<polyline points="150,60 470,60 470,270 150,270 150,60" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="30,165 150,165" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="470,165 590,165" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="202" y1="60" x2="258" y2="60" stroke="#ffffff" stroke-width="7"/>
+<line x1="190" y1="60" x2="202" y2="60" stroke="#222222" stroke-width="2"/>
+<line x1="258" y1="60" x2="270" y2="60" stroke="#222222" stroke-width="2"/>
+<polyline points="202,60 206.67,71 216,49 225.33,71 234.67,49 244,71 253.33,49 258,60" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="230" y="39.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<line x1="312" y1="60" x2="368" y2="60" stroke="#ffffff" stroke-width="7"/>
+<line x1="300" y1="60" x2="312" y2="60" stroke="#222222" stroke-width="2"/>
+<line x1="368" y1="60" x2="380" y2="60" stroke="#222222" stroke-width="2"/>
+<circle cx="340" cy="60" r="28" fill="#f3d9a4" stroke="#222222" stroke-width="2"/>
+<text x="340" y="66.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">G</tspan></text>
+<line x1="282" y1="270" x2="338" y2="270" stroke="#ffffff" stroke-width="7"/>
+<line x1="270" y1="270" x2="282" y2="270" stroke="#222222" stroke-width="2"/>
+<line x1="338" y1="270" x2="350" y2="270" stroke="#222222" stroke-width="2"/>
+<polyline points="282,270 286.67,281 296,259 305.33,281 314.67,259 324,281 333.33,259 338,270" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="310" y="307.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<path d="M 40 155 L 152 155 Q 166 155 166 141 L 166 114 Q 166 100 180 100 L 440 100 Q 454 100 454 114 L 454 141 Q 454 155 468 155 L 570 155" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="566" y1="155" x2="572.6" y2="155" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="580,155 571.6,158.36 571.6,151.64" fill="#1f77c8"/>
+<path d="M 166 175 L 166 222 Q 166 236 180 236 L 440 236 Q 454 236 454 222 L 454 185" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="454" y1="189" x2="454" y2="182.4" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="454,175 457.36,183.4 450.64,183.4" fill="#1f77c8"/>
+<line x1="290" y1="100" x2="316" y2="100" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="330,100 315,106 315,94" fill="#1f77c8"/>
+<line x1="290" y1="236" x2="316" y2="236" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="330,236 315,242 315,230" fill="#1f77c8"/>
+<text x="60" y="134.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="540" y="134.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="190" y="137.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">G</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="430" y="137.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">G</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="190" y="215.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<text x="430" y="215.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+</svg>

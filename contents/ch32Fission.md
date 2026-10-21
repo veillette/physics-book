@@ -461,9 +461,9 @@ this reaction.
 
 **(a)** Using the supplied masses and $$m_n=1.008665\text{ u}$$, $$m({}^{235}\text{U})=235.043930\text{ u}$$,
 
-$$m_i=1.008665+235.043930=236.052595\text{ u},$$
+$$m_i=1.008665 \text{ u} + 235.043930 \text{ u}=236.052595\text{ u},$$
 
-$$m_f=91.926269+141.916361+2(1.008665)=235.859960\text{ u}.$$
+$$m_f=91.926269\text{ u}+141.916361\text{ u}+2(1.008665\text{ u})=235.859960\text{ u}.$$
 
 Therefore $$\Delta m=0.192635\text{ u}$$ and
 
@@ -565,9 +565,9 @@ $$Q=[238.050784+1.008665-239.054289](931.5)\text{ MeV}=4.81\text{ MeV}.$$
 
 For beta-minus decay, neutral atomic masses already account for the electron masses, so $$Q=(M_i-M_f)c^2$$ without an extra electron-mass subtraction:
 
-$$ {}^{239}\text{U}\to{}^{239}\text{Np}+\beta^-+\bar\nu_e,\qquad Q=(239.054289-239.052932)(931.5)=1.264\text{ MeV},$$
+$$ {}^{239}\text{U}\to{}^{239}\text{Np}+\beta^-+\bar\nu_e,\qquad Q=(239.054289\text{ u}-239.052932\text{ u})(931.5\text{ MeV/u})=1.264\text{ MeV},$$
 
-$$ {}^{239}\text{Np}\to{}^{239}\text{Pu}+\beta^-+\bar\nu_e,\qquad Q=(239.052932-239.052157)(931.5)=0.722\text{ MeV}.$$
+$$ {}^{239}\text{Np}\to{}^{239}\text{Pu}+\beta^-+\bar\nu_e,\qquad Q=(239.052932\text{ u}-239.052157\text{ u})(931.5\text{ MeV/u})=0.722\text{ MeV}.$$
 
 The beta-decay energy is shared among the electron, antineutrino, and recoiling daughter.
 

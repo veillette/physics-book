@@ -622,7 +622,7 @@ $$\text{NA} = n \sin \alpha$$
 
 where $$n$$ is the refractive index of the medium and $$\alpha$$ is the half-angle of the acceptance cone.
 
-- **Air medium**: $$n = 1.00$$, maximum achievable $$\text{NA} \approx 0.95$$
+- **Air medium**: $$n = 1.00$$, maximum achievable $$\text{NA} \approx 0.95\,\text{A}\cdot\text{m}\cdot\text{kg}\cdot\text{s}^{-2}$$
 - **Oil immersion**: $$n \approx 1.51$$, maximum achievable $$\text{NA} \approx 1.4$$
 
 The oil's higher refractive index allows the NA to exceed 1.0, which is impossible with air. This represents approximately a **50% increase** in numerical aperture.
@@ -1060,17 +1060,17 @@ Using the thin lens equation:
 </div>
 
 <div class="equation">
- $$\frac{1}{0.500} = \frac{1}{d_o}\left(1 + \frac{1}{400}\right) = \frac{1}{d_o}\left(\frac{401}{400}\right)$$
+ $$\frac{1}{0.500 \text{ cm}} = \frac{1}{d_o}\left(1 + \frac{1}{400}\right) = \frac{1}{d_o}\left(\frac{401}{400}\right)$$
 </div>
 
 <div class="equation">
- $$d_o = \frac{401}{400} \times 0.500 = 0.501 \text{ cm}$$
+ $$d_o = \frac{401}{400} \times 0.500 \text{ cm} = 0.501 \text{ cm}$$
 </div>
 
 The image distance:
 
 <div class="equation">
- $$d_i = 400 \times 0.501 = 200.4 \text{ cm}$$
+ $$d_i = 400 \times 0.501 \text{ cm} = 200.4 \text{ cm}$$
 </div>
 
 **(b)** The image formed by the objective is the object for the eyepiece. For the eyepiece to magnify it by a further 4.00 with an upright virtual image, its linear magnification is
@@ -1225,7 +1225,7 @@ Given values:
 </div>
 
 <div class="equation">
- $$\frac{1}{d_i} = 3.333 - 3.279 = 0.0546 \text{ cm}^{-1}$$
+ $$\frac{1}{d_i} = 3.333 \text{ cm}^{-1} - 3.279 \text{ cm}^{-1} = 0.0546 \text{ cm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1241,7 +1241,7 @@ Given values:
 **(c)** Eyepiece object distance:
 
 <div class="equation">
- $$d'_o = L - d_i = 20.0 - 18.3 = 1.7 \text{ cm}$$
+ $$d'_o = L - d_i = 20.0 \text{ cm} - 18.3 \text{ cm} = 1.7 \text{ cm}$$
 </div>
 
 Find the eyepiece's image position:
@@ -1251,7 +1251,7 @@ Find the eyepiece's image position:
 </div>
 
 <div class="equation">
- $$\frac{1}{d'_i} = 0.500 - 0.588 = -0.088 \text{ cm}^{-1}$$
+ $$\frac{1}{d'_i} = 0.500 \text{ cm}^{-1} - 0.588 \text{ cm}^{-1} = -0.088 \text{ cm}^{-1}$$
 </div>
 
 <div class="equation">

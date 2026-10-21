@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 11
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Calculate the intensity and the power of rays and waves.
+- Calculate the intensity and the power of rays and waves.
 
 :::
 
@@ -65,7 +66,7 @@ later chapter.
 Calculating intensity and power: How much energy is in a ray of sunlight?
 </div>
 
-The average intensity of sunlight on Earth’s surface is about  $$700 {\text{W/m}}^{2} $$.
+The average intensity of sunlight on Earth’s surface is about $$700 {\text{W/m}}^{2} $$.
 
 (a) Calculate the amount of energy that falls on a solar collector having an
 area of $$ 0.500 {\text{m}}^{2} $$ in $$ 4.00 \text{h} $$.
@@ -159,8 +160,8 @@ concentrated sunlight could even start a fire.
 Determine the combined intensity of two waves: Perfect constructive interference
 </div>
 
-If two identical waves, each having an intensity of  $$ 1.00 {\text{W/m}}^{2} $$ ,
- interfere perfectly constructively, what is the intensity of the resulting wave?
+If two identical waves, each having an intensity of $$ 1.00 {\text{W/m}}^{2} $$ ,
+interfere perfectly constructively, what is the intensity of the resulting wave?
 
 **Strategy**
 
@@ -251,6 +252,22 @@ Two identical waves undergo pure constructive interference. Is the resultant int
 
 :::
 
+::: solution
+
+**Strategy**
+
+Add amplitudes first, then use intensity’s dependence on amplitude squared.
+
+**Solution**
+
+At a location of pure constructive interference, two identical coherent waves with amplitude $$A$$ give resultant amplitude $$2A$$. Since $$I\propto A^2$$, the intensity is $$I_{\text{resultant}}=(2A/A)^2I=4I$$, not $$2I$$. For an illustrative individual intensity $$1.0\text{ W/m}^2$$, the constructive-interference intensity is $$4.0\text{ W/m}^2$$.
+
+**Discussion**
+
+This does not create energy: the full interference pattern and source interactions must be included, and enhanced intensity can be balanced by reduced intensity elsewhere. Two identical waves in pure constructive interference give four times one wave’s local intensity.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -258,6 +275,22 @@ Two identical waves undergo pure constructive interference. Is the resultant int
 ::: problem
 
 Circular water waves decrease in amplitude as they move away from where a rock is dropped. Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Spread approximately conserved wave power over an expanding circumference.
+
+**Solution**
+
+As circular ripples move outward, the same wave power is distributed over a circumference $$2\pi r$$. In an ideal nondissipative region of constant depth and wave speed, energy transport per unit crest length therefore scales as $$1/r$$. Since that transport is proportional to amplitude squared, $$A\propto1/\sqrt r$$; increasing radius by a factor of four halves the amplitude.
+
+**Discussion**
+
+Viscosity and other losses reduce amplitude further in real water. Circular ripples weaken primarily because their energy spreads over a progressively larger wavefront, with dissipation adding further decay.
 
 :::
 
@@ -298,13 +331,13 @@ Convert dimensions to meters:
 Calculate the area of the rectangular head:
 
 <div class="equation">
- $$A = (0.0300)(0.0500) = 1.50 \times 10^{-3} \text{ m}^2$$
+ $$A = (0.0300 \text{ m})(0.0500 \text{ m}) = 1.50 \times 10^{-3} \text{ m}^2$$
 </div>
 
 Calculate power output:
 
 <div class="equation">
- $$P = IA = (1.50 \times 10^2)(1.50 \times 10^{-3})$$
+ $$P = IA = (1.50 \times 10^2 \text{ W/m}^2)(1.50 \times 10^{-3} \text{ m}^2)$$
 </div>
 
 <div class="equation">
@@ -327,8 +360,8 @@ The power output of 0.225 W (or 225 mW) is typical for medical ultrasound imagin
 
 ::: problem
 
-The low-frequency speaker of a stereo set has a surface area of  $$ 0.05 {\text{m}}^{2} $$
- and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity  $$ 0.1 {\text{W/m}}^{2} $$ ?
+The low-frequency speaker of a stereo set has a surface area of $$ 0.05 {\text{m}}^{2} $$
+and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity $$ 0.1 {\text{W/m}}^{2} $$ ?
 
 :::
 
@@ -343,7 +376,7 @@ For the first part, intensity is power per unit area. For the second part, if so
 Intensity at the speaker surface:
 
 <div class="equation">
- $$I = \frac{P}{A} = \frac{1.0}{0.05} = 20 \text{ W/m}^2$$
+ $$I = \frac{P}{A} = \frac{1.0 \text{ W}}{0.05 \text{ m}^2} = 20 \text{ W/m}^2$$
 </div>
 
 For uniform spherical radiation, at distance $$r$$:
@@ -355,7 +388,7 @@ For uniform spherical radiation, at distance $$r$$:
 Solving for $$r$$ when $$I = 0.1 \text{ W/m}^2$$:
 
 <div class="equation">
- $$r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{1.0}{4\pi(0.1)}} = \sqrt{\frac{1.0}{1.257}} = \sqrt{0.796} = 0.89 \text{ m}$$
+ $$r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{1.0 \text{ W}}{4\pi(0.1 \text{ W/m}^2)}} = \sqrt{\frac{1.0 \text{ W}}{1.257 \text{ W/m}^2}} = \sqrt{0.796 \text{ m}^2} = 0.89 \text{ m}$$
 </div>
 
 **Discussion**
@@ -451,7 +484,7 @@ Convert area to m²:
 Calculate intensity:
 
 <div class="equation">
- $$I = \frac{P}{A} = \frac{6.50}{0.0100} = 650 \text{ W/m}^2$$
+ $$I = \frac{P}{A} = \frac{6.50 \text{ W}}{0.0100 \text{ m}^2} = 650 \text{ W/m}^2$$
 </div>
 
 **Discussion**
@@ -492,12 +525,13 @@ From $$I = \frac{E}{At}$$, we solve for $$t$$:
 </div>
 
 Substitute the known values:
+
 - $$E = 1.8 \times 10^9$$ J
 - $$I = 1.30$$ kW/m² = $$1.30 \times 10^3$$ W/m²
 - $$A = 1.00$$ m²
 
 <div class="equation">
- $$t = \frac{1.8 \times 10^9}{(1.30 \times 10^3)(1.00)} = \frac{1.8 \times 10^9}{1.30 \times 10^3}$$
+ $$t = \frac{1.8 \times 10^9 \text{ J}}{(1.30 \times 10^3 \text{ W/m}^2)(1.00 \text{ m}^2)} = \frac{1.8 \times 10^9 \text{ J}}{1.30 \times 10^3 \text{ W}}$$
 </div>
 
 <div class="equation">
@@ -507,7 +541,7 @@ Substitute the known values:
 Convert to days (1 day = 86,400 s):
 
 <div class="equation">
- $$t = \frac{1.38 \times 10^6}{86,400} = 16.0 \text{ days}$$
+ $$t = \frac{1.38 \times 10^6 \text{ s}}{86,400 \text{ s/day}} = 16.0 \text{ days}$$
 </div>
 
 **Discussion**
@@ -551,6 +585,7 @@ where $$h$$ is the wave height. Taking the ratio:
 </div>
 
 Substitute the values:
+
 - $$P_1 = 10.0$$ kW (when $$h_1 = 1.20$$ m)
 - $$h_2 = 0.600$$ m
 
@@ -559,7 +594,7 @@ Substitute the values:
 </div>
 
 <div class="equation">
- $$P_2 = \frac{1}{4}P_1 = \frac{1}{4}(10.0) = 2.50 \text{ kW}$$
+ $$P_2 = \frac{1}{4}P_1 = \frac{1}{4}(10.0 \text{ kW}) = 2.50 \text{ kW}$$
 </div>
 
 **Discussion**
@@ -606,7 +641,7 @@ For part (a), the electrical power output equals the incident solar power times 
 Solving for area:
 
 <div class="equation">
- $$A = \frac{P_{\text{out}}}{\eta I} = \frac{100}{(0.100)(700)} = \frac{100}{70} = 1.43 \text{ m}^2$$
+ $$A = \frac{P_{\text{out}}}{\eta I} = \frac{100 \text{ W}}{(0.100)(700 \text{ W/m}^2)} = \frac{100 \text{ W}}{70 \text{ W/m}^2} = 1.43 \text{ m}^2$$
 </div>
 
 (b) Energy produced per day:
@@ -618,13 +653,13 @@ Solving for area:
 Energy produced in two years (730 days):
 
 <div class="equation">
- $$E_{\text{total}} = 1.00 \times 730 = 730 \text{ kWh}$$
+ $$E_{\text{total}} = (1.00 \text{ kWh/day})(730 \text{ days}) = 730 \text{ kWh}$$
 </div>
 
 Revenue at 9.00 ¢/kWh:
 
 <div class="equation">
- $$\text{Revenue} = 730 \times 0.0900 = \$65.70$$
+ $$\text{Revenue} = (730 \text{ kWh})(0.0900 \text{ \$/kWh}) = \$65.70$$
 </div>
 
 **Discussion**
@@ -645,8 +680,8 @@ An array area of 1.43 m² (about 1.2 m × 1.2 m) is quite modest and could fit o
 
 ::: problem
 
-A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally  $$2.00 \times 10^{-5} {\text{W/m}}^{2}, $$
- but is turned up until the amplitude increases by 30.0%, what is the new intensity?
+A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally $$2.00 \times 10^{-5} {\text{W/m}}^{2}, $$
+but is turned up until the amplitude increases by 30.0%, what is the new intensity?
 
 :::
 
@@ -673,7 +708,7 @@ The intensity is proportional to amplitude squared:
 Calculate the new intensity:
 
 <div class="equation">
- $$I_2 = 1.69 \times I_1 = 1.69 \times (2.00 \times 10^{-5})$$
+ $$I_2 = 1.69 \times I_1 = 1.69 \times (2.00 \times 10^{-5} \text{ W/m}^2)$$
 </div>
 
 <div class="equation">
@@ -718,25 +753,25 @@ For part (a), if 90% is absorbed and deposits 500 J, the total incident energy i
 (a) Total incident energy:
 
 <div class="equation">
- $$E_{\text{incident}} = \frac{E_{\text{absorbed}}}{0.90} = \frac{500}{0.90} = 556 \text{ J}$$
+ $$E_{\text{incident}} = \frac{E_{\text{absorbed}}}{0.90} = \frac{500 \text{ J}}{0.90} = 556 \text{ J}$$
 </div>
 
 Power of the laser beam:
 
 <div class="equation">
- $$P = \frac{E_{\text{incident}}}{t} = \frac{556}{4.00} = 139 \text{ W}$$
+ $$P = \frac{E_{\text{incident}}}{t} = \frac{556 \text{ J}}{4.00 \text{ s}} = 139 \text{ W}$$
 </div>
 
 Area of the circular spot (diameter = 2.00 mm = 0.00200 m):
 
 <div class="equation">
- $$A = \pi r^2 = \pi(0.00100)^2 = 3.14 \times 10^{-6} \text{ m}^2$$
+ $$A = \pi r^2 = \pi(0.00100 \text{ m})^2 = 3.14 \times 10^{-6} \text{ m}^2$$
 </div>
 
 Intensity:
 
 <div class="equation">
- $$I = \frac{P}{A} = \frac{139}{3.14 \times 10^{-6}} = 4.43 \times 10^7 \text{ W/m}^2$$
+ $$I = \frac{P}{A} = \frac{139 \text{ W}}{3.14 \times 10^{-6} \text{ m}^2} = 4.43 \times 10^7 \text{ W/m}^2$$
 </div>
 
 (b) **Discussion**: This intensity is approximately:
@@ -766,6 +801,7 @@ This illustrates why medical lasers require extreme safety precautions, protecti
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 intensity

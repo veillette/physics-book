@@ -99,6 +99,24 @@ Using the law of reflection, explain how powder takes the shine off of a personâ
 
 :::
 
+::: solution
+
+**Strategy**
+
+The law of reflection, $$ \theta_{\text{r}} = \theta_{\text{i}} $$, holds at every point of a surface, measured from the local perpendicular. Compare a smooth surface, where the perpendiculars are all parallel, with a rough one, where they point in many directions.
+
+**Solution**
+
+![Left: light reflecting from smooth, oily skin; all the surface perpendiculars are parallel, so parallel incoming rays leave parallel and the reflection is a concentrated glare. Right: light reflecting from a layer of powder grains; the perpendiculars point in many directions, so the reflected rays are scattered in all directions and no shine is seen.](../resources/concept_25_02_q01.svg)
+
+Skin coated with a thin layer of oil is smooth on the scale of the wavelength of light (about $$ 500 \text{ nm} $$). Parallel rays from a lamp all strike surfaces with parallel perpendiculars, so they all leave in the same direction. If light arrives at $$ 30^\circ $$ to the perpendicular, it all leaves at $$ 30^\circ $$ on the other side, and an observer in that direction sees a bright spot of glare: the nose looks "shiny."
+
+Powder covers the skin with tiny grains, typically $$ 1 $$ to $$ 10 \ \mu\text{m} $$ across, much larger than the wavelength, and oriented at random. Each ray still obeys $$ \theta_{\text{r}} = \theta_{\text{i}} $$, but relative to the perpendicular of the grain it strikes. A ray hitting a grain tilted $$ 20^\circ $$ is deflected by $$ 40^\circ $$ more than one hitting a flat region, so the reflected light is spread out in all directions. No single direction receives a concentrated reflection, so the shine disappears and the skin looks matte.
+
+Powder takes the shine off a nose because its randomly oriented grains make the surface rough, so although every ray obeys the law of reflection at the grain it strikes, the reflected rays leave in all directions rather than in one concentrated beam; this optical effect is called diffuse reflection (as opposed to the specular reflection from smooth, oily skin).
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

@@ -238,6 +238,23 @@ The direction of the electric field shown in each part of [[Figure 1]](#Figure1)
 
 :::
 
+::: solution
+
+**Strategy**
+
+The direction of $$ \vb{E} $$ at a point is the direction of the force $$ \vb{F} = q\vb{E} $$ on a positive test charge $$ q $$ placed there. By Coulomb's law, the test charge is repelled by positive charge on the antenna and attracted to negative charge. Consider a test charge beside the middle of the antenna in each part of [[Figure 1]](#Figure1).
+
+**Solution**
+
+- **(a) $$ t = 0 $$:** the bottom of the antenna is positive and the top is negative. A positive test charge beside the antenna is pushed away from the bottom, which has an upward component, and pulled toward the top, also upward. The horizontal components of these forces partly cancel, and the vertical components add, so $$ \vb{F} $$, and hence $$ \vb{E} = \vb{F}/q $$, points **up**, as shown.
+- **(b) $$ t = T/4 $$:** the charges have flowed back and the antenna is momentarily neutral, so there is no new field next to it. The upward field created earlier has moved outward at speed $$ c $$, which is why the field drawn at the antenna is zero and the upward arrows appear farther out.
+- **(c) $$ t = T/2 $$:** the top is now positive and the bottom negative, so the test charge is pushed down from the top and pulled down toward the bottom: $$ \vb{E} $$ points **down** at the antenna, while the earlier upward field has moved still farther out.
+- **(d) $$ t = T $$:** the charge distribution is the same as at $$ t = 0 $$, so the field at the antenna again points up. One full wavelength, $$ \lambda = cT $$, has been emitted; at $$ 100 \text{ MHz} $$, $$ T = 1.00 \times 10^{-8} \s $$ and $$ \lambda = (3.00 \times 10^{8} \ms)(1.00 \times 10^{-8} \s) = 3.00 \m $$.
+
+The field directions are justified because $$ \vb{E} $$ is the direction of the Coulomb force on a positive test charge, which is repelled by the positive end of the antenna and attracted to the negative end, so the field beside the antenna points from its positive end toward its negative end (up at $$ t = 0 $$ and $$ t = T $$, down at $$ t = T/2 $$, and zero at $$ t = T/4 $$ when the antenna is neutral), while the fields produced earlier travel outward at speed $$ c $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -248,6 +265,20 @@ Is the direction of the magnetic field shown in [[Figure 2]](#Figure2) (a) consi
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply RHR-2: point the thumb of the right hand along the current; the fingers curl in the direction of the magnetic field around the wire. In [[Figure 2]](#Figure2)(a), the current $$ I $$ is upward.
+
+**Solution**
+
+With the thumb pointing up, the fingers curl **counterclockwise as seen from above**. On the side of the antenna nearest the viewer, the field therefore points to the right, which is what the arrows on the circles in [[Figure 2]](#Figure2)(a) show. In vector form, with $$ +y $$ up, $$ +x $$ to the right, and $$ +z $$ toward the viewer, the field at a point on the near side is along $$ \hat{y} \times \hat{z} = +\hat{x} $$. For a current of $$ 1.00 \text{ A} $$, the field $$ 0.100 \m $$ from the antenna has magnitude $$ B = \mu_0I/(2\pi r) = (4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(1.00 \text{ A})/[2\pi(0.100 \m)] = 2.00 \times 10^{-6} \text{ T} $$.
+
+Yes, the magnetic field in [[Figure 2]](#Figure2)(a) is consistent with RHR-2, since an upward current produces field lines that circle the antenna counterclockwise as seen from above, pointing to the right on the side facing the viewer.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -255,6 +286,20 @@ Is the direction of the magnetic field shown in [[Figure 2]](#Figure2) (a) consi
 ::: problem
 
 Why is the direction of the current shown in each part of [[Figure 2]](#Figure2) opposite to the electric field produced by the wire’s charge separation?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The field produced by the charge separation points from the positive end of the antenna to the negative end. Ask which way the current must flow to build up that separation, and compare with the field.
+
+**Solution**
+
+In [[Figure 2]](#Figure2)(a), the current flows **up**, carrying positive charge to the top of the antenna and away from the bottom. That is exactly why the top has become positive and the bottom negative. The field of this charge separation points from the top down, **opposite** to the current. The AC generator is doing the same thing as a battery charging a capacitor: it pushes charge "uphill," against the electric field of the charges that have already accumulated, and the work it does is what supplies the energy radiated by the antenna. For example, moving $$ 1.0 \times 10^{-9} \text{ C} $$ through a potential difference of $$ 10 \text{ V} $$ between the ends takes $$ W = qV = (1.0 \times 10^{-9} \text{ C})(10 \text{ V}) = 1.0 \times 10^{-8} \J $$ of work per cycle from the generator. If the current flowed along the field, the charge separation would be decreasing instead of building up.
+
+The current is opposite to the electric field because the current is what creates the charge separation: it carries positive charge toward the end that becomes positive, so the field of the separated charges (pointing from positive to negative) opposes the current, and the generator must do work against that field, as in charging a capacitor.
 
 :::
 
@@ -271,6 +316,26 @@ In which situation shown in [[Figure 4]](#Figure4) will the electromagnetic wave
 
 :::
 
+::: solution
+
+**Strategy**
+
+A wire carries current along its length, so a wave induces current only through the component of its electric field parallel to the wire, which pushes charges along the wire. Compare the orientation of $$ \vb{E} $$ with the vertical wire in each part of [[Figure 4]](#Figure4). Take a wave with $$ E_0 = 0.100 \text{ V/m} $$ and a $$ 1.00\text{-m} $$ wire.
+
+**Solution**
+
+In **(a)**, $$ \vb{E} $$ oscillates vertically, along the wire. It pushes the free electrons up and down the wire, producing an oscillating current, with a maximum emf of about
+
+<div class="equation">
+$$ \text{emf} \approx E_0l = (0.100 \text{ V/m})(1.00 \m) = 0.100 \text{ V} $$
+</div>
+
+In **(b)**, $$ \vb{E} $$ oscillates horizontally, perpendicular to the wire. It can push charges only across the wire's tiny diameter, so it induces almost no current along it. (The magnetic field in (b) is vertical, parallel to the wire, and exerts no force along the wire either.)
+
+The wave in situation (a) will be more successful in inducing a current, because its electric field is parallel to the wire and drives charges along it (an emf of about $$ 0.1 \text{ V} $$ in this example), whereas in (b) the electric field is perpendicular to the wire and can move charges only across it.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -284,6 +349,26 @@ In which situation shown in [[Figure 5]](#Figure5) will the electromagnetic wave
 
 :::
 
+::: solution
+
+**Strategy**
+
+The emf around a loop comes from the changing magnetic flux through it, $$ \text{emf} = \Delta\Phi/\Delta t $$, which is largest when $$ \vb{B} $$ is perpendicular to the plane of the loop. In [[Figure 5]](#Figure5), the loop stands vertically with its plane containing the direction of propagation. Find in which case $$ \vb{B} $$ is perpendicular to that plane. Take $$ B_0 = 3.33 \times 10^{-10} \text{ T} $$ (the field for $$ E_0 = 0.100 \text{ V/m} $$), a loop area of $$ 0.0100 \ \text{m}^2 $$, and $$ f = 1.00 \text{ MHz} $$.
+
+**Solution**
+
+In **(a)**, $$ \vb{B} $$ oscillates horizontally and perpendicular to the direction of propagation, so it passes straight through the vertical loop. The flux oscillates between $$ \pm B_0A $$, and its maximum rate of change gives a peak emf of
+
+<div class="equation">
+$$ \text{emf}_0 = 2\pi fB_0A = 2\pi(1.00 \times 10^{6} \text{ Hz})(3.33 \times 10^{-10} \text{ T})(0.0100 \ \text{m}^2) = 2.09 \times 10^{-5} \text{ V} $$
+</div>
+
+In **(b)**, $$ \vb{B} $$ oscillates vertically, which lies in the plane of the loop, so no field lines pass through it, the flux stays zero, and no emf is induced.
+
+The wave in situation (a) will be more successful in inducing a current in the loop, because its magnetic field is perpendicular to the plane of the loop, so the flux through the loop changes and induces an emf, whereas in (b) the magnetic field lies in the plane of the loop and produces no flux.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -291,6 +376,22 @@ In which situation shown in [[Figure 5]](#Figure5) will the electromagnetic wave
 ::: problem
 
 Should the straight wire antenna of a radio be vertical or horizontal to best receive radio waves broadcast by a vertical transmitter antenna? How should a loop antenna be aligned to best receive the signals? (Note that the direction of the loop that produces the best reception can be used to determine the location of the source. It is used for that purpose in tracking tagged animals in nature studies, for example.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+A vertical transmitting antenna radiates waves whose electric field is vertical, and whose magnetic field is horizontal and perpendicular to the direction of travel. A straight receiving wire needs $$ \vb{E} $$ along it; a loop needs $$ \vb{B} $$ perpendicular to its plane.
+
+**Solution**
+
+**Straight wire:** it should be **vertical**, parallel to the transmitter, so that the vertical $$ \vb{E} $$ drives current along it. A horizontal wire would receive almost nothing.
+
+**Loop:** the horizontal $$ \vb{B} $$ is perpendicular to the line from the transmitter, so the loop should stand **vertically with its plane pointing toward the transmitter** (the line to the station lies in the plane of the loop). Then $$ \vb{B} $$ passes through the loop and the flux changes most. If the loop is turned $$ 90^\circ $$ to face the transmitter, $$ \vb{B} $$ lies in the plane of the loop, the flux is zero, and the signal disappears. In general, the emf is proportional to $$ \cos\theta $$, where $$ \theta $$ is the angle between the loop's plane and the direction to the source; at $$ \theta = 60^\circ $$ the signal is half its maximum. The sharp null is easier to locate than the broad maximum, so rotating a loop to find the null gives the direction to the source (along the loop's axis, in one of two opposite directions).
+
+A straight-wire antenna should be vertical, like the transmitter, so that the wave's vertical electric field drives current along it, and a loop antenna should be vertical with its plane edge-on toward the transmitter, so that the wave's horizontal magnetic field passes perpendicularly through it; rotating the loop to find where reception vanishes then reveals the direction of the source.
 
 :::
 
@@ -304,6 +405,26 @@ Under what conditions might wires in a DC circuit emit electromagnetic waves?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Electromagnetic waves are produced by accelerating charges, that is, by currents that change with time. A steady direct current produces constant electric and magnetic fields, which do not radiate. Look for situations in a DC circuit in which the current changes.
+
+**Solution**
+
+A DC circuit emits electromagnetic waves whenever its current changes rapidly:
+
+- when a switch is closed or opened, especially if it sparks;
+- when a motor's brushes make and break contact with its commutator, or a relay clicks;
+- in circuits whose loads fluctuate, such as digital electronics switching millions of times per second.
+
+The radiation contains the frequencies at which the current changes. A current that switches on in $$ 1.00 \ \mu\text{s} $$ radiates strongly at frequencies around $$ 1/(1.00 \times 10^{-6} \s) = 1.00 \text{ MHz} $$, with a wavelength $$ \lambda = c/f = (3.00 \times 10^{8} \ms)/(1.00 \times 10^{6} \text{ Hz}) = 300 \m $$, in the AM radio band, which is why a car's ignition or a sparking switch causes static on an AM radio.
+
+Wires in a DC circuit emit electromagnetic waves when the current in them changes quickly, as when a switch is opened or closed, contacts spark, a motor's brushes switch, or a load fluctuates, because changing currents mean accelerating charges; a perfectly steady current does not radiate.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -311,6 +432,28 @@ Under what conditions might wires in a DC circuit emit electromagnetic waves?
 ::: problem
 
 Give an example of interference of electromagnetic waves.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Interference occurs when two or more waves of the same frequency overlap: they add constructively where they are in phase (path difference $$ m\lambda $$) and destructively where they are half a cycle out of phase. Look for everyday situations in which electromagnetic waves arrive by two paths or from two sources.
+
+**Solution**
+
+**Microwave oven:** waves reflecting back and forth between the metal walls interfere, forming a standing wave with "hot spots" (antinodes) and "cold spots" (nodes). For the oven's frequency of $$ 2.45 \text{ GHz} $$,
+
+<div class="equation">
+$$ \lambda = \frac{c}{f} = \frac{3.00 \times 10^{8} \ms}{2.45 \times 10^{9} \text{ Hz}} = 0.122 \m $$
+</div>
+
+so the hot spots are $$ \lambda/2 = 6.1 \text{ cm} $$ apart. This is why ovens have a turntable; with the turntable removed, melted spots on a chocolate bar show the pattern.
+
+Other examples: FM reception fades in and out as a car moves, because waves reflected from buildings interfere with waves arriving directly; the colors of soap bubbles and oil films come from the interference of light reflected from the front and back surfaces of the film; and two broadcast antennas produce the pattern of [[Figure 6]](#Figure6).
+
+One example is the pattern of hot and cold spots in a microwave oven, where waves reflected from the walls interfere to form a standing wave with antinodes $$ \lambda/2 = 6.1 \text{ cm} $$ apart for $$ 2.45\text{-GHz} $$ microwaves; others are fading FM reception and the colors of soap bubbles.
 
 :::
 
@@ -327,6 +470,28 @@ Give an example of interference of electromagnetic waves.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Two speakers driven by the same signal create a pattern of loud and quiet directions: constructive interference where the path difference is $$ m\lambda $$, and destructive where it is $$ (m + \frac{1}{2})\lambda $$. Apply the same reasoning to two antennas. Take an AM station at $$ 1.00 \text{ MHz} $$ with its two antennas half a wavelength apart.
+
+**Solution**
+
+The wavelength and the antenna spacing are
+
+<div class="equation">
+$$ \lambda = \frac{c}{f} = \frac{3.00 \times 10^{8} \ms}{1.00 \times 10^{6} \text{ Hz}} = 300 \m, \qquad d = \frac{\lambda}{2} = 150 \m $$
+</div>
+
+Along the perpendicular bisector of the line joining the antennas, the paths are equal, so the waves arrive in phase and interfere constructively. Along the line through the two antennas, the path difference is $$ d = \lambda/2 $$, so the waves cancel. The pattern in [[Figure 6]](#Figure6) is the same as that of sound from two speakers; only the kind of wave and its wavelength are different (sound at $$ 1000 \text{ Hz} $$ has $$ \lambda = (343 \ms)/(1000 \text{ Hz}) = 0.343 \m $$).
+
+Yes, this can be used to make a directional antenna. By choosing the spacing and the relative phase of the antennas, a station can send most of its power in the directions where the waves interfere constructively, toward its audience, and suppress the directions where they cancel, for example to avoid interfering with another station on the same frequency. Many AM stations use such arrays, especially at night.
+
+The interference pattern of two antennas is analogous to that of two speakers because in both cases waves from two coherent sources add constructively where their path difference is a whole number of wavelengths and cancel where it is an odd number of half-wavelengths; yes, by adjusting the spacing and phase of the antennas (for example, $$ 150 \m $$ apart for a $$ 300\text{-m} $$ wavelength), the system can broadcast preferentially in the directions of constructive interference.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -334,6 +499,28 @@ Give an example of interference of electromagnetic waves.
 ::: problem
 
 Can an antenna be any length? Explain your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+An antenna works best when the charges in it oscillate in resonance with the wave. A straight antenna resonates when its length is half a wavelength (or a quarter wavelength above a conducting ground plane), so that the charges can slosh from end to end in step with the field. Compare lengths for FM and AM broadcasts, at $$ 100 \text{ MHz} $$ and $$ 1.00 \text{ MHz} $$.
+
+**Solution**
+
+<div class="equation">
+$$ \lambda_{\text{FM}} = \frac{3.00 \times 10^{8} \ms}{1.00 \times 10^{8} \text{ Hz}} = 3.00 \m, \qquad \frac{\lambda_{\text{FM}}}{2} = 1.50 \m, \qquad \frac{\lambda_{\text{FM}}}{4} = 0.750 \m $$
+</div>
+
+<div class="equation">
+$$ \lambda_{\text{AM}} = \frac{3.00 \times 10^{8} \ms}{1.00 \times 10^{6} \text{ Hz}} = 300 \m, \qquad \frac{\lambda_{\text{AM}}}{4} = 75.0 \m $$
+</div>
+
+An antenna of any length will pick up *some* signal, and a strong station can be received with a short wire, but an antenna much shorter than a quarter wavelength is inefficient. A car's FM antenna, about $$ 0.75 \m $$ long, is a quarter-wave antenna. A resonant AM antenna would be a $$ 75\text{-m} $$ tower, which is why AM transmitters use tall towers, while AM receivers use small coils wound on ferrite rods and electronic tuning to make up for their poor match.
+
+An antenna can be any length in the sense that it will receive some signal, but it works most efficiently when its length is matched to the wavelength, typically $$ \lambda/2 $$ or $$ \lambda/4 $$ (for example, $$ 0.750 \m $$ for $$ 100\text{-MHz} $$ FM), because the charges in it then oscillate in resonance with the wave.
 
 :::
 

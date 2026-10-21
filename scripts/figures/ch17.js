@@ -1,0 +1,873 @@
+/**
+ * Chapter 17: sound waves from a string and a tuning fork, the Mach cone,
+ * resonance in closed and open tubes, the equal-loudness curves, audiograms,
+ * and the middle-ear lever.
+ *
+ * Air pressure is drawn as shading: darker bands are compressions (solid
+ * lines at their centers) and paler bands rarefactions (dashed lines). The
+ * shading comes from the pressure of a wave sent out by the source, so the
+ * bands sit where the wave would put them. Tube resonances shade the air by
+ * its displacement amplitude, |sin| from a closed end or |cos| from an open
+ * one, inside the ± envelope. The equal-loudness curves are digitized from
+ * the original figure (scripts/figures/data/equal-loudness.json) so that the
+ * section's worked readings still hold.
+ */
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { COLORS, Plot, Svg, rad } from './svg.js';
+
+const LOUDNESS = JSON.parse(
+  fs.readFileSync(fileURLToPath(new URL('./data/equal-loudness.json', import.meta.url)), 'utf8')
+).curves;
+
+const AIR_HI = [120, 146, 205];
+const AIR_LO = [232, 240, 226];
+const TUBE = '#efd9a4';
+const TUBE_EDGE = '#c99a2e';
+const AIR_DISP = [64, 140, 110];
+const ENVELOPE = '#1aa6b7';
+const FORK = '#9a9da3';
+const FORK_EDGE = '#5f6369';
+const CLAMP = '#e2b27c';
+const CURVE = '#8b1a2b';
+
+let gradientId = 0;
+
+function lab(svg, x, y, s, o = {}) {
+  svg.text(x, y, s, { size: 22, ...o });
+}
+
+function note(svg, x, y, s, o = {}) {
+  svg.text(x, y, s, { size: 18, math: false, ...o });
+}
+
+const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+const rgb = c => `rgb(${c.join(',')})`;
+
+/**
+ * Horizontal gradient whose color at fraction u of its width is `shade(u)`
+ * (0 pale, 1 dark). Returns the url() for a fill.
+ */
+function gradient(svg, shade, { lo = AIR_LO, hi = AIR_HI, n = 160, x1 = 0, x2 = 1 } = {}) {
+  gradientId += 1;
+  const id = `g17_${gradientId}`;
+  const stops = [];
+  for (let k = 0; k <= n; k += 1) {
+    const u = k / n;
+    stops.push(
+      `<stop offset="${(u * 100).toFixed(2)}%" stop-color="${rgb(mix(lo, hi, Math.max(0, Math.min(1, shade(u)))))}"/>`
+    );
+  }
+  svg.add(
+    `<defs><linearGradient id="${id}" x1="${x1}" y1="0" x2="${x2}" y2="0">${stops.join('')}</linearGradient></defs>`
+  );
+  return `url(#${id})`;
+}
+
+/** Radial gradient: shade(u) at fraction u of radius r about (cx, cy). */
+function radial(svg, cx, cy, r, shade, { n = 160 } = {}) {
+  gradientId += 1;
+  const id = `g17_${gradientId}`;
+  const stops = [];
+  for (let k = 0; k <= n; k += 1) {
+    const u = k / n;
+    stops.push(
+      `<stop offset="${(u * 100).toFixed(2)}%" stop-color="${rgb(mix(AIR_LO, AIR_HI, Math.max(0, Math.min(1, shade(u)))))}"/>`
+    );
+  }
+  svg.add(
+    `<defs><radialGradient id="${id}" gradientUnits="userSpaceOnUse" cx="${cx}" cy="${cy}" r="${r}">${stops.join('')}</radialGradient></defs>`
+  );
+  return `url(#${id})`;
+}
+
+/** Double-headed dimension arrow with end ticks and a label above it. */
+function dim(svg, x1, x2, y, label, { size = 20, below = false } = {}) {
+  svg.arrow(x1 + 1, y, x2 - 1, y, { color: COLORS.black, width: 1.4, head: 10, start: true });
+  for (const x of [x1, x2]) svg.line(x, y - 9, x, y + 9, { color: COLORS.black, width: 1.3 });
+  lab(svg, (x1 + x2) / 2, below ? y + 22 : y - 16, label, { size });
+}
+
+/** A tuning fork standing upright, with tines `gap` apart, base of the tines at y. */
+function fork(svg, cx, y, { gap = 26, tine = 120, w = 18, stem = 150, spread = 0 } = {}) {
+  const l = cx - gap / 2 - w - spread;
+  const r = cx + gap / 2 + spread;
+  svg.path(
+    `M ${l} ${y - tine} L ${l + w} ${y - tine} L ${l + w + spread} ${y} Q ${cx} ${y + 16} ${r - spread} ${y} L ${r} ${y - tine} L ${r + w} ${y - tine} L ${r + w - spread * 0.2} ${y + 6} Q ${cx} ${y + 50} ${l + spread * 0.2} ${y + 6} Z`,
+    { color: FORK_EDGE, width: 1.5, fill: FORK }
+  );
+  svg.rect(cx - 9, y + 18, 18, stem, { fill: FORK, stroke: FORK_EDGE, width: 1.5, rx: 8 });
+  svg.path(`M ${cx - 9} ${y + 22} Q ${cx} ${y + 34} ${cx + 9} ${y + 22}`, {
+    color: FORK,
+    width: 6,
+  });
+}
+
+/** A short wide clamp holding the string. */
+function clamp(svg, cx, cy) {
+  svg.rect(cx - 50, cy - 16, 100, 32, { fill: CLAMP, stroke: '#b06d3a', width: 1.5, rx: 3 });
+}
+
+/**
+ * Sound from a vibrating string at x = xs, vertical between yTop and yBot.
+ * `p(d, side)` is the pressure (−1 … 1) a distance d from the string on the
+ * side (+1 right, −1 left), or null beyond the wave's front.
+ */
+function stringField(svg, xs, yTop, yBot, x0, x1, p, { lineAt = [] } = {}) {
+  const W = x1 - x0;
+  // Undisturbed air is pale; compressions shade darker, rarefactions paler still.
+  const shade = u => {
+    const x = x0 + u * W;
+    const d = Math.abs(x - xs);
+    const v = p(d, x >= xs ? 1 : -1);
+    if (v === null) return 0.22;
+    return v > 0 ? 0.22 + 0.68 * v : 0.22 + 0.22 * v;
+  };
+  const fill = gradient(svg, shade, { n: 220 });
+  // The pressure region bows outward, like the original's wedge of air.
+  const bow = 26;
+  svg.path(
+    `M ${x0} ${yTop - bow} Q ${xs} ${yTop + bow} ${x1} ${yTop - bow} L ${x1} ${yBot + bow} Q ${xs} ${yBot - bow} ${x0} ${yBot + bow} Z`,
+    { color: 'none', width: 0, fill }
+  );
+  for (const [x, kind] of lineAt) {
+    svg.path(
+      `M ${x} ${yTop - 6} Q ${x + (x > xs ? 1 : -1) * 18} ${(yTop + yBot) / 2} ${x} ${yBot + 6}`,
+      {
+        color: kind === 'c' ? '#5d6fb3' : '#6a3d9a',
+        width: kind === 'c' ? 2.4 : 2.2,
+        dash: kind === 'c' ? undefined : '8 6',
+      }
+    );
+  }
+}
+
+/** Pressure of a wave the string started at t = 0, at time t (periods), wavelength lam (px). */
+const fromString = (t, lam) => (d, side) => {
+  const tau = t - d / lam;
+  if (tau < 0) return null;
+  return side * Math.sin(2 * Math.PI * tau);
+};
+
+/** Centers of the compressions ('c') and rarefactions ('r') of `fromString`. */
+function bands(xs, t, lam, x0, x1) {
+  const out = [];
+  for (const side of [1, -1]) {
+    for (let k = -4; k < 12; k += 0.5) {
+      // side·sin(2π(t − d/λ)) = ±1 where t − d/λ = 1/4 + k/2.
+      const tau = 0.25 + k;
+      const d = (t - tau) * lam;
+      if (d < 4 || tau < 0) continue;
+      const x = xs + side * d;
+      if (x < x0 + 6 || x > x1 - 6) continue;
+      const kind = side * Math.sin(2 * Math.PI * tau) > 0 ? 'c' : 'r';
+      out.push([x, kind]);
+    }
+  }
+  return out;
+}
+
+/** The vibrating string, bowed by `bend` pixels at its middle. */
+function bowedString(svg, xs, yTop, yBot, bend, { width = 3 } = {}) {
+  svg.path(`M ${xs} ${yTop} Q ${xs + 2 * bend} ${(yTop + yBot) / 2} ${xs} ${yBot}`, {
+    color: COLORS.black,
+    width,
+  });
+}
+
+/** Tube with its closed end at the left (x0) and open end at the right. */
+function tube(svg, x0, x1, yc, h, { fill = TUBE, closedLeft = true } = {}) {
+  svg.rect(x0, yc - h / 2, x1 - x0, h, { fill, stroke: TUBE_EDGE, width: 1.5 });
+  if (closedLeft) svg.ellipse(x0, yc, 10, h / 2, { fill: '#e3c47a', stroke: TUBE_EDGE, width: 2 });
+}
+
+/**
+ * Air-displacement standing wave in a tube from x0 to x1: `amp(u)` is the
+ * displacement amplitude (0 … 1) at fraction u along it. Shades the air and
+ * draws the ± envelope.
+ */
+function tubeMode(svg, x0, x1, yc, h, amp, { closedLeft = true } = {}) {
+  const fill = gradient(svg, u => amp(u), { lo: [244, 232, 200], hi: AIR_DISP, n: 200 });
+  svg.rect(x0, yc - h / 2, x1 - x0, h, { fill, stroke: TUBE_EDGE, width: 1.5 });
+  const top = [];
+  const bot = [];
+  for (let k = 0; k <= 200; k += 1) {
+    const u = k / 200;
+    const x = x0 + u * (x1 - x0);
+    top.push([x, yc - (h / 2) * 0.92 * amp(u)]);
+    bot.push([x, yc + (h / 2) * 0.92 * amp(u)]);
+  }
+  svg.polyline(top, { color: ENVELOPE, width: 2.2 });
+  svg.polyline(bot, { color: ENVELOPE, width: 2.2 });
+  if (closedLeft) svg.line(x0, yc - h / 2, x0, yc + h / 2, { color: TUBE_EDGE, width: 4 });
+}
+
+/** Frequency axis position for the log scale of the loudness graphs. */
+const logPlot = (svg, box, yRange) =>
+  new Plot(svg, {
+    ...box,
+    xRange: [Math.log10(20), Math.log10(20000)],
+    yRange,
+  });
+
+function loudnessCurve(g, level, opts) {
+  g.series(
+    LOUDNESS[String(level)].map(([f, L]) => [Math.log10(f), L]),
+    { smooth: true, ...opts }
+  );
+}
+
+/** Audiogram: hearing threshold (dB, increasing downward) versus frequency. */
+function audiogram(svg, box, right, left, { bone, legend = false } = {}) {
+  const freqs = [250, 500, 1000, 2000, 4000, 8000];
+  const g = new Plot(svg, { ...box, xRange: [0, 8250], yRange: [65, -12] });
+  for (let f = 250; f <= 8000; f += 250) {
+    svg.line(g.X(f), g.Y(-12), g.X(f), g.Y(65), { color: '#bbbbbb', width: f % 1000 ? 0.7 : 1.1 });
+  }
+  for (let d = -10; d <= 60; d += 5) {
+    svg.line(g.X(0), g.Y(d), g.X(8250), g.Y(d), { color: '#bbbbbb', width: d % 20 ? 0.7 : 1.1 });
+  }
+  svg.rect(g.X(0), g.Y(-12), g.w, g.h, { stroke: COLORS.black, width: 1.2 });
+  for (const d of [-10, 0, 20, 40, 60])
+    note(svg, g.X(0) - 8, g.Y(d), String(d), { anchor: 'end', size: 16 });
+  for (const f of freqs)
+    note(svg, g.X(f), g.Y(65) + (f === 500 ? 38 : 18), String(f), { size: 16 });
+  note(svg, g.X(4125), g.Y(65) + 62, 'Frequency f (Hz)', { size: 17 });
+  svg.text(g.X(0) - 52, g.Y(26), 'Hearing threshold level (dB)', {
+    size: 16,
+    math: false,
+    rotate: -90,
+  });
+  const R = freqs.map((f, i) => g.P(f, right[i]));
+  const L = freqs.map((f, i) => g.P(f, left[i]));
+  svg.polyline(L, { color: '#e98b6a', width: 2.5 });
+  svg.polyline(R, { color: '#2aa0b5', width: 2.5 });
+  for (const [x, y] of L)
+    svg.polygon(
+      [
+        [x, y - 8],
+        [x + 8, y],
+        [x, y + 8],
+        [x - 8, y],
+      ],
+      { fill: '#8b1a2b', stroke: '#4a0d17', width: 1 }
+    );
+  for (const [x, y] of R) svg.circle(x, y, 6.5, { fill: '#2aa0b5', stroke: '#14606c', width: 1 });
+  if (bone) {
+    freqs.forEach((f, i) => {
+      note(svg, g.X(f) - 14, g.Y(bone[0][i]), '[', { size: 17 });
+      note(svg, g.X(f) + 14, g.Y(bone[1][i]), ']', { size: 17 });
+    });
+  }
+  if (legend) {
+    const lx = g.X(500);
+    const ly = g.Y(bone ? 36 : 38);
+    svg.circle(lx, ly, 6.5, { fill: '#2aa0b5', stroke: '#14606c', width: 1 });
+    note(svg, lx + 16, ly, '= right ear', { anchor: 'start', size: 17 });
+    svg.polygon(
+      [
+        [lx, ly + 20],
+        [lx + 8, ly + 28],
+        [lx, ly + 36],
+        [lx - 8, ly + 28],
+      ],
+      { fill: '#8b1a2b' }
+    );
+    note(svg, lx + 16, ly + 28, '= left ear', { anchor: 'start', size: 17 });
+    if (bone) note(svg, lx - 10, ly + 56, '[ ] = bone conduction', { anchor: 'start', size: 17 });
+  }
+}
+
+export default {
+  // 17.1 Fig. 2 — a string moving right compresses the air ahead of it
+  Figure_17_01_02: () => {
+    const svg = new Svg({
+      width: 640,
+      height: 400,
+      title: 'A vibrating string compressing the air in front of it',
+      desc: 'A string held between two clamps bows to the right as it moves right. It squeezes the air just ahead of it into a compression, a darker band whose center is the solid line, and leaves a rarefaction, a paler band with a dashed center, behind it on the left.',
+    });
+    const xs = 300;
+    const p = fromString(0.25, 300);
+    stringField(svg, xs, 50, 350, 20, 600, p, {
+      lineAt: [
+        [xs + 70, 'c'],
+        [xs - 70, 'r'],
+      ],
+    });
+    bowedString(svg, xs, 52, 348, 18);
+    svg.arrow(xs + 22, 200, xs + 90, 200, { color: COLORS.black, width: 2, head: 14 });
+    clamp(svg, xs, 40);
+    clamp(svg, xs, 360);
+    note(svg, xs - 150, 120, 'Rarefaction', { size: 24 });
+    svg.leader(xs - 180, 136, xs - 76, 200, { bend: 0.3, width: 1.5 });
+    note(svg, xs + 200, 360, 'Compression', { size: 24 });
+    svg.leader(xs + 200, 340, xs + 76, 270, { bend: -0.3, width: 1.5 });
+    note(svg, xs + 160, 90, 'String', { size: 24 });
+    svg.leader(xs + 130, 100, xs + 30, 150, { bend: 0.3, width: 1.5 });
+    return svg.render();
+  },
+
+  // 17.1 Fig. 3 — moving left, it sends out a second compression
+  Figure_17_01_03: () => {
+    const svg = new Svg({
+      width: 640,
+      height: 400,
+      title: 'The string moving left starts a second compression and rarefaction',
+      desc: 'Half a cycle later the string bows to the left as it moves left. It now compresses the air on its left and leaves a rarefaction on its right, while the first compression and rarefaction, shown by the solid and dashed lines farther out, have moved away from the string to the right.',
+    });
+    const xs = 300;
+    const t = 0.75;
+    const lam = 300;
+    stringField(svg, xs, 50, 350, 20, 600, fromString(t, lam), {
+      lineAt: bands(xs, t, lam, 20, 600),
+    });
+    bowedString(svg, xs, 52, 348, -18);
+    svg.arrow(xs - 22, 200, xs - 90, 200, { color: COLORS.black, width: 2, head: 14 });
+    clamp(svg, xs, 40);
+    clamp(svg, xs, 360);
+    return svg.render();
+  },
+
+  // 17.1 Fig. 4 — after many vibrations, a train of compressions
+  Figure_17_01_04: () => {
+    const svg = new Svg({
+      width: 660,
+      height: 600,
+      title: 'A sound wave of compressions and rarefactions moving out from a string',
+      desc: 'After many vibrations, the string, shown at several positions as it swings left and right, has sent out a series of compressions (darker bands, solid lines) and rarefactions (paler bands, dashed lines) on both sides. Below, a graph of gauge pressure P_gauge versus distance x from the string is a sine wave: positive at compressions, negative at rarefactions, and only slightly different from atmospheric pressure for ordinary sounds.',
+    });
+    const xs = 330;
+    const t = 2.15;
+    const lam = 180;
+    stringField(svg, xs, 50, 330, 20, 640, fromString(t, lam), {
+      lineAt: bands(xs, t, lam, 20, 640),
+    });
+    for (const b of [-22, -12, 0, 12, 22]) bowedString(svg, xs, 52, 328, b, { width: 1.8 });
+    svg.arrow(xs - 4, 190, xs - 40, 190, { color: COLORS.black, width: 1.8, head: 11 });
+    svg.arrow(xs + 4, 190, xs + 40, 190, { color: COLORS.black, width: 1.8, head: 11 });
+    clamp(svg, xs, 40);
+    clamp(svg, xs, 340);
+    const g = new Plot(svg, {
+      x: xs,
+      y: 420,
+      w: 300,
+      h: 140,
+      xRange: [0, 300],
+      yRange: [-1.2, 1.2],
+    });
+    g.axes({ arrows: true, xAxisAt: 0 });
+    const p = fromString(t, lam);
+    g.fn(x => p(x, 1) ?? 0, 0, Math.min(300, t * lam), { color: COLORS.black, width: 2.5, n: 300 });
+    lab(svg, g.X(0) - 8, g.Y(1), '+', { anchor: 'end' });
+    lab(svg, g.X(0) - 8, g.Y(0), '0', { anchor: 'end' });
+    lab(svg, g.X(0) - 8, g.Y(-1), '−', { anchor: 'end' });
+    lab(svg, g.X(300) + 18, g.Y(0) + 4, 'x', { anchor: 'start' });
+    lab(svg, g.X(0), g.Y(1.2) - 24, 'P_{gauge}');
+    return svg.render();
+  },
+
+  // 17.2 Fig. 2 — sound from a tuning fork
+  Figure_17_02_02: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 420,
+      title: 'A sound wave from a tuning fork',
+      desc: 'A tuning fork vibrating at frequency f sends out sound to both sides as curved bands of compression (solid arcs) and rarefaction (dashed arcs). The wave travels outward at speed v_w on each side, and the distance between neighboring compressions is the wavelength λ.',
+    });
+    const c = [380, 200];
+    const lam = 52;
+    const R = 270;
+    const fill = radial(svg, ...c, R, u => {
+      const d = u * R;
+      return d < 20 ? 0.4 : 0.42 + 0.45 * Math.cos((2 * Math.PI * (d - 20)) / lam);
+    });
+    for (const s of [-1, 1]) {
+      const a = rad(36);
+      const pts = [
+        c,
+        [c[0] + s * R * Math.cos(a), c[1] - R * Math.sin(a)],
+        [c[0] + s * R * Math.cos(a), c[1] + R * Math.sin(a)],
+      ];
+      svg.add(
+        `<path d="M ${c[0]} ${c[1]} L ${pts[1][0]} ${pts[1][1]} A ${R} ${R} 0 0 ${s > 0 ? 1 : 0} ${pts[2][0]} ${pts[2][1]} Z" fill="${fill}"/>`
+      );
+      for (let k = 0; k < 5; k += 1) {
+        for (const [off, dash] of [
+          [0, undefined],
+          [0.5, '6 5'],
+        ]) {
+          const r = 20 + (k + off) * lam + 6;
+          if (r > R - 4) continue;
+          const t0 = s > 0 ? -36 : 144;
+          svg.arc(...c, r, t0, t0 + 72, { color: dash ? '#6a3d9a' : '#5d6fb3', width: 2, dash });
+        }
+      }
+      svg.arrow(c[0] + s * (R + 10), c[1], c[0] + s * (R + 80), c[1], {
+        color: COLORS.green,
+        width: 4,
+        head: 16,
+      });
+      lab(svg, c[0] + s * (R + 46), c[1] - 22, 'v_w');
+    }
+    fork(svg, c[0], c[1] + 50, { gap: 16, tine: 110, w: 14, stem: 90 });
+    lab(svg, c[0] + 40, c[1] - 10, 'f', { anchor: 'start' });
+    const r1 = 20 + 2 * lam + 6;
+    dim(svg, c[0] + r1, c[0] + r1 + lam, c[1] - 40, 'λ');
+    return svg.render();
+  },
+
+  // 17.4 Fig. 5 — the Mach cone of a supersonic source
+  Figure_17_04_05: () => {
+    const svg = new Svg({
+      width: 700,
+      height: 460,
+      title: 'Sound waves from a source moving faster than sound',
+      desc: 'A source moving to the right at speed v_s greater than the speed of sound v_w emitted a sound wave at each of the numbered positions 1 to 6. Each wave is a circle centered on the point where it was emitted, and the source has moved ahead of all of them. The circles all touch two straight lines that meet at the source; along these lines, actually a cone in three dimensions, the waves interfere constructively to form a shock wave. The cone’s angle is θ, with sin(θ/2) = v_w/v_s, so a faster source makes a narrower cone.',
+    });
+    const ratio = 1.6;
+    const y = 230;
+    const S = [640, y];
+    const step = 52;
+    const half = Math.asin(1 / ratio);
+    for (let i = 1; i <= 6; i += 1) {
+      const x = S[0] - (7 - i) * step;
+      // Emitted (S − x)/v_s ago, so its radius is v_w times that.
+      const R = (S[0] - x) / ratio;
+      svg.circle(x, y, R, { fill: 'none', stroke: '#7b4fa6', width: 2 });
+      svg.circle(x, y, 6, { fill: COLORS.black });
+      lab(svg, x, y + 24, String(i), { size: 20, math: false });
+      const a = Math.PI / 2 + half;
+      lab(svg, x + (R + 14) * Math.cos(a), y - (R + 14) * Math.sin(a), String(i), {
+        size: 18,
+        math: false,
+      });
+    }
+    const len = (S[0] - 30) / Math.cos(half);
+    for (const s of [1, -1]) {
+      svg.line(S[0], y, S[0] - len * Math.cos(half), y - s * len * Math.sin(half), {
+        color: COLORS.maroon,
+        width: 3,
+      });
+    }
+    svg.line(30, y, S[0], y, { color: COLORS.black, width: 1.2 });
+    svg.arrow(S[0] - 4, y, S[0] + 30, y, { color: COLORS.green, width: 5, head: 18 });
+    lab(svg, S[0] - 6, y + 44, 'v_s > v_w', { anchor: 'start' });
+    const ar = 560;
+    svg.arc(...S, ar, 180 - (half * 180) / Math.PI, 180 + (half * 180) / Math.PI, {
+      color: COLORS.black,
+      width: 1.8,
+    });
+    lab(svg, S[0] - ar + 22, y - 40, 'θ', { anchor: 'start' });
+    svg.circle(...S, 6, { fill: COLORS.black });
+    return svg.render();
+  },
+
+  // 17.5 Figs. 3–5 — a pulse from a tuning fork going down a closed tube and back
+  Figure_17_05_03: () =>
+    pulseInTube({
+      direction: -1,
+      tip: 0.98,
+      spread: 1,
+      title: 'A disturbance from a tuning fork moving down a tube closed at one end',
+      desc: 'A tuning fork stands at the open right end of a tube closed at its left end. Its tines spread apart, and the disturbance it creates, shaded, moves to the left down the tube.',
+    }),
+  Figure_17_05_04: () =>
+    pulseInTube({
+      direction: 1,
+      tip: 0.02,
+      spread: 0,
+      title: 'The disturbance reflecting from the closed end of the tube',
+      desc: 'The disturbance reaches the closed left end of the tube and reflects, moving back to the right toward the tuning fork at the open end.',
+    }),
+  Figure_17_05_05: () =>
+    pulseInTube({
+      direction: 1,
+      tip: 0.02,
+      reach: 0.98,
+      spread: -1,
+      title: 'The reflected disturbance returning to the tuning fork',
+      desc: 'The reflected disturbance reaches the open end just as the tuning fork’s tines move together, half a cycle after it was sent. If the tube’s length L is just right, it interferes constructively with the continuing sound from the fork, a standing wave forms, and the air column resonates.',
+    }),
+
+  // 17.5 Fig. 6 — the fundamental of a closed tube
+  Figure_17_05_06: () => closedTubeSeries(),
+
+  // 17.5 Fig. 9 — the same four modes, repeated with the overtones discussion
+  Figure_17_05_09: () => closedTubeSeries(),
+
+  // 17.5 Fig. 7 — the same standing wave, driven near the closed end
+  Figure_17_05_07: () => {
+    const svg = new Svg({
+      width: 820,
+      height: 500,
+      title: 'The same standing wave driven near the closed end of the tube',
+      desc: 'Top: a tube of length L, closed at its left end, with its air in the fundamental mode: no displacement at the closed end and the most at the open end. The tube holds a quarter of a wavelength, λ/4; the rest of the wave, dashed, continues beyond the open end. Below: the same tube with a vibrating tuning fork held over a small hole near its closed end produces the same standing wave, again a quarter wavelength in the tube.',
+    });
+    const L = 220;
+    const x0 = 30;
+    tubeMode(svg, x0, x0 + L, 90, 80, u => Math.sin((Math.PI / 2) * u));
+    const pts = [];
+    const pts2 = [];
+    for (let k = 0; k <= 120; k += 1) {
+      const u = 1 + (3 * k) / 120;
+      const x = x0 + u * L;
+      pts.push([x, 90 - 37 * Math.sin((Math.PI / 2) * u)]);
+      pts2.push([x, 90 + 37 * Math.sin((Math.PI / 2) * u)]);
+    }
+    svg.polyline(pts, { color: ENVELOPE, width: 2, dash: '7 6' });
+    svg.polyline(pts2, { color: ENVELOPE, width: 2, dash: '7 6' });
+    dim(svg, x0, x0 + L, 30, 'L');
+    dim(svg, x0, x0 + L, 158, 'λ/4', { below: true });
+    // Fork over a hole near the closed end, and the bigger tube.
+    const bx = 290;
+    const BL = 420;
+    tubeMode(svg, bx, bx + BL, 380, 170, u => Math.sin((Math.PI / 2) * u));
+    svg.rect(bx + 30, 284, 34, 14, { fill: TUBE, stroke: TUBE_EDGE, width: 1.2 });
+    svg.path(
+      'M 330 216 L 470 216 Q 500 216 500 232 L 640 232 Q 652 232 652 240 Q 652 248 640 248 L 500 248 Q 500 264 470 264 L 330 264 L 330 252 L 470 252 Q 482 252 482 240 Q 482 228 470 228 L 330 228 Z',
+      {
+        color: FORK_EDGE,
+        width: 1.5,
+        fill: FORK,
+      }
+    );
+    for (const yy of [210, 270])
+      svg.arrow(350, yy - 18, 350, yy + 18, {
+        color: COLORS.black,
+        width: 1.6,
+        head: 10,
+        start: true,
+      });
+    dim(svg, bx, bx + BL, 490, 'λ/4');
+    return svg.render();
+  },
+
+  // 17.5 Fig. 8 — the first overtone of a closed tube
+  Figure_17_05_08: () => {
+    const svg = new Svg({
+      width: 640,
+      height: 380,
+      title: 'The first overtone of a tube closed at one end',
+      desc: 'A tube of length L closed at its left end, with its air in the first overtone: no displacement at the closed end, a node a third of the way from the open end, and the most displacement at the open end. Three quarters of a wavelength fit in the tube, (3/4)λ′ = L, so λ′ = 4L/3; the dashed curve continues the wave beyond the open end.',
+    });
+    const x0 = 40;
+    const L = 450;
+    tubeMode(svg, x0, x0 + L, 190, 150, u => Math.abs(Math.sin(((3 * Math.PI) / 2) * u)));
+    const pts = [];
+    const pts2 = [];
+    for (let k = 0; k <= 40; k += 1) {
+      const u = 1 + (1 / 3) * (k / 40);
+      const x = x0 + u * L;
+      pts.push([x, 190 - 69 * Math.abs(Math.sin(((3 * Math.PI) / 2) * u))]);
+      pts2.push([x, 190 + 69 * Math.abs(Math.sin(((3 * Math.PI) / 2) * u))]);
+    }
+    svg.polyline(pts, { color: ENVELOPE, width: 2.4, dash: '8 6' });
+    svg.polyline(pts2, { color: ENVELOPE, width: 2.4, dash: '8 6' });
+    for (const x of [x0, x0 + L]) svg.line(x, 30, x, 350, { color: COLORS.black, width: 1.6 });
+    dim(svg, x0, x0 + L, 60, 'L', { size: 28 });
+    dim(svg, x0, x0 + L, 320, '¾λ′', { size: 28, below: true });
+    return svg.render();
+  },
+
+  // 17.5 Fig. 11 — modes of a tube open at both ends
+  Figure_17_05_11: () => {
+    const svg = new Svg({
+      width: 1160,
+      height: 300,
+      title: 'Resonances of a tube open at both ends',
+      desc: 'Four tubes of length L open at both ends, each with its air displacement largest at both ends. Fundamental: half a wavelength fits, λ1 = 2L and f1 = v/2L. First overtone: λ2 = L, f2 = v/L. Second overtone: λ3 = 2L/3, f3 = 3v/2L. Third overtone: λ4 = L/2, f4 = 2v/L.',
+    });
+    const W = 250;
+    const modes = [
+      ['Fundamental', 'λ_1 = 2L', 'f_1 = v/2L', '½λ_1'],
+      ['First overtone', 'λ_2 = L', 'f_2 = v/L', 'λ_2'],
+      ['Second overtone', 'λ_3 = 2L/3', 'f_3 = 3v/2L', 'λ_3'],
+      ['Third overtone', 'λ_4 = L/2', 'f_4 = 2v/L', 'λ_4'],
+    ];
+    modes.forEach(([name, lam, f, seg], i) => {
+      const n = i + 1;
+      const x0 = 20 + i * (W + 40);
+      tubeMode(svg, x0, x0 + W, 110, 70, u => Math.abs(Math.cos(n * Math.PI * u)), {
+        closedLeft: false,
+      });
+      dim(svg, x0, x0 + W, 50, 'L');
+      const one = W / (n === 1 ? 1 : n / 2);
+      dim(svg, x0, x0 + Math.min(W, one), 170, seg, { below: true });
+      note(svg, x0 + W / 2, 236, name);
+      lab(svg, x0 + 60, 272, lam, { size: 19 });
+      lab(svg, x0 + 190, 272, f, { size: 19 });
+    });
+    return svg.render();
+  },
+
+  // 17.6 Fig. 2 — equal-loudness curves
+  Figure_17_06_02: () => {
+    const svg = new Svg({
+      width: 960,
+      height: 680,
+      title: 'Equal-loudness curves',
+      desc: 'Sound intensity level in decibels versus frequency on a logarithmic scale from 20 Hz to 20 000 Hz, with thirteen equal-loudness curves from 0 to 120 phons in steps of 10. Every sound on one curve seems equally loud. At 1000 Hz each curve passes through the decibel value equal to its phon number. The curves dip lowest near 3000 to 4000 Hz, where the ear is most sensitive, and rise steeply at low frequencies; the 0-phon curve, the threshold of hearing, is about 37 dB at 100 Hz and about −7 dB near 3500 Hz. The curves flatten out at high loudness.',
+    });
+    const g = logPlot(svg, { x: 100, y: 30, w: 700, h: 540 }, [-12, 132]);
+    const fTicks = [
+      20, 40, 50, 60, 80, 100, 200, 400, 500, 600, 800, 1000, 2000, 4000, 5000, 6000, 8000, 10000,
+      20000,
+    ];
+    for (const f of fTicks)
+      svg.line(g.X(Math.log10(f)), g.Y(-12), g.X(Math.log10(f)), g.Y(132), {
+        color: '#c8c8c8',
+        width: 1,
+        dash: '5 4',
+      });
+    for (let d = -10; d <= 130; d += 10)
+      svg.line(g.X(Math.log10(20)), g.Y(d), g.X(Math.log10(20000)), g.Y(d), {
+        color: '#c8c8c8',
+        width: 1,
+        dash: '5 4',
+      });
+    g.axes({ arrows: true, xAxisAt: -12 });
+    for (const d of [-10, 0, 20, 40, 60, 80, 100, 120])
+      note(svg, g.X(Math.log10(20)) - 10, g.Y(d), d < 0 ? `−${-d}` : String(d), {
+        anchor: 'end',
+        size: 18,
+      });
+    const show = {
+      20: '20',
+      50: '50',
+      100: '100',
+      200: '200',
+      500: '500',
+      1000: '1000',
+      2000: '2000',
+      5000: '5000',
+      10000: '10 000',
+      20000: '20 000',
+    };
+    for (const [f, t] of Object.entries(show))
+      note(svg, g.X(Math.log10(Number(f))), g.Y(-12) + 22, t, { size: 16 });
+    note(svg, g.X(Math.log10(632)), g.Y(-12) + 56, 'Frequency f (Hz)', { size: 19 });
+    svg.text(40, g.Y(60), 'Sound level (dB)', { size: 19, math: false, rotate: -90 });
+    for (let L = 0; L <= 120; L += 10) {
+      loudnessCurve(g, L, { color: CURVE, width: 2.4 });
+      const last = LOUDNESS[String(L)].at(-1);
+      note(svg, g.X(Math.log10(last[0])) + 8, g.Y(last[1]), `${L} phon`, {
+        anchor: 'start',
+        size: 16,
+      });
+    }
+    return svg.render();
+  },
+
+  // 17.6 Fig. 3 — the speech region and hearing-loss thresholds
+  Figure_17_06_03: () => {
+    const svg = new Svg({
+      width: 820,
+      height: 560,
+      title: 'Conversational speech and the 0, 40 and 60 phon curves',
+      desc: 'Intensity level in decibels versus frequency, with the 0-phon curve (the normal threshold of hearing) and the 40- and 60-phon curves from the equal-loudness graph. A shaded band shows where conversational speech lies: from about 200 Hz at 50 to 60 dB down to about 4000 Hz at 35 to 45 dB. All of it is above the 0-phon threshold. Much of it is below the 40-phon curve at the higher frequencies, and nearly all of it is below the 60-phon curve, so a person with a 40-phon loss misses the higher speech frequencies and a person with a 60-phon loss hears almost none of normal speech.',
+    });
+    const g = logPlot(svg, { x: 100, y: 30, w: 640, h: 440 }, [-20, 125]);
+    g.axes({ arrows: true, xAxisAt: -20 });
+    for (const d of [-20, 0, 20, 40, 60, 80, 100, 120]) {
+      svg.line(g.X(Math.log10(20)) - 5, g.Y(d), g.X(Math.log10(20)), g.Y(d), {
+        color: COLORS.black,
+        width: 1.2,
+      });
+      note(svg, g.X(Math.log10(20)) - 10, g.Y(d), d < 0 ? `−${-d}` : String(d), {
+        anchor: 'end',
+        size: 17,
+      });
+    }
+    for (const f of [62.5, 125, 250, 500, 1000, 2000, 4000, 8000, 16000]) {
+      const x = g.X(Math.log10(f));
+      svg.line(x, g.Y(-20), x, g.Y(-20) - 6, { color: COLORS.black, width: 1.2 });
+      note(svg, x, g.Y(-20) + (f === 2000 || f === 8000 ? 40 : 20), String(f), { size: 16 });
+    }
+    note(svg, g.X(Math.log10(632)), g.Y(-20) + 72, 'Frequency f (Hz)', { size: 19 });
+    svg.text(36, g.Y(50), 'Intensity level (dB)', { size: 19, math: false, rotate: -90 });
+    // Speech region, in (log f, dB).
+    const speech = [
+      [200, 58],
+      [300, 61],
+      [500, 60],
+      [800, 56],
+      [1500, 49],
+      [2500, 44],
+      [3800, 42],
+      [4200, 37],
+      [3000, 34],
+      [1500, 37],
+      [800, 44],
+      [400, 51],
+      [220, 54],
+    ].map(([f, d]) => g.P(Math.log10(f), d));
+    svg.polygon(speech, { fill: '#c9cede' });
+    for (const [L, color, at, dy] of [
+      [0, '#5b2a86', 70, -18],
+      [40, '#3f9a2b', 60, 22],
+      [60, '#e0603a', 100, -18],
+    ]) {
+      loudnessCurve(g, L, { color, width: 3 });
+      const P = g.P(Math.log10(at), LOUDNESS[String(L)].find(([f]) => f >= at)[1]);
+      note(svg, P[0] + 10, P[1] + dy, `${L} phon`, { anchor: 'start', size: 18, color });
+    }
+    note(svg, g.X(Math.log10(2500)), 80, 'Conversational', { size: 18 });
+    note(svg, g.X(Math.log10(2500)), 102, 'speech distribution', { size: 18 });
+    svg.leader(g.X(Math.log10(2400)), 114, g.X(Math.log10(1600)), g.Y(45), {
+      bend: 0.3,
+      width: 1.4,
+    });
+    return svg.render();
+  },
+
+  // 17.6 Fig. 4 — three audiograms
+  Figure_17_06_04: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 1180,
+      title: 'Audiograms of three people',
+      desc: 'Hearing threshold level, in decibels relative to the normal threshold and increasing downward, versus frequency from 250 to 8000 Hz, for the right ear (circles) and left ear (diamonds). Top: normal hearing, with both ears within about 5 dB of 0 at every frequency. Middle: a child who suffered hearing loss from a cap gun, with normal thresholds except a sharp dip to about 55 dB at 4000 Hz in both ears. Bottom: presbycusis, age-related hearing loss, with thresholds that worsen steadily with frequency, reaching about 30 to 40 dB at 4000 Hz and 55 to 60 dB at 8000 Hz; brackets show the bone-conduction thresholds.',
+    });
+    audiogram(svg, { x: 110, y: 30, w: 600, h: 260 }, [5, 5, 0, 0, 0, 0], [5, 0, 0, 5, 3, 5], {
+      legend: true,
+    });
+    audiogram(svg, { x: 110, y: 420, w: 600, h: 260 }, [5, 5, 0, 0, 55, 0], [5, 0, 0, 5, 55, 5]);
+    audiogram(
+      svg,
+      { x: 110, y: 810, w: 600, h: 260 },
+      [6, 6, 0, 10, 30, 60],
+      [0, 0, 10, 15, 40, 55],
+      {
+        legend: true,
+        bone: [
+          [2, 6, 8, 18, 38, 54],
+          [5, 0, 2, 12, 31, 54],
+        ],
+      }
+    );
+    return svg.render();
+  },
+
+  // 17.6 Fig. 6 — the middle ear as a lever
+  Figure_17_06_06: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 640,
+      title: 'The middle ear’s lever system',
+      desc: 'Pressure P1 on the eardrum, of area A1, produces a force F1 = P1A1 on the hammer. The hammer, anvil and stirrup act as a lever pivoted at the top and at the joint between the anvil and the stirrup, so the force F2 delivered by the stirrup to the oval window is larger than F1. The oval window’s area A2 is much smaller than the eardrum’s, so the pressure it creates in the inner ear, P2 = F2/A2, is larger than P1: since F2 > F1 and A2 < A1, P2 > P1.',
+    });
+    const P = '#6a3d9a';
+    const F = '#e0245e';
+    svg.rect(250, 22, 140, 26, { fill: '#c3c4c8' });
+    svg.line(250, 48, 390, 48, { color: P, width: 2 });
+    const top = [320, 48];
+    const joint = [320, 285];
+    svg.circle(...top, 6, { fill: COLORS.black });
+    svg.circle(...joint, 6, { fill: COLORS.black });
+    svg.polyline([top, [320, 500], [200, 500]], { color: P, width: 3 });
+    svg.line(...joint, 450, 285, { color: P, width: 3 });
+    svg.line(200, 430, 200, 580, { color: P, width: 3 });
+    svg.line(450, 240, 450, 330, { color: P, width: 3 });
+    svg.arrow(110, 505, 190, 505, { color: P, width: 6, head: 22 });
+    svg.arrow(212, 475, 280, 475, { color: F, width: 5, head: 18 });
+    svg.arrow(330, 300, 440, 300, { color: F, width: 5, head: 18 });
+    svg.arrow(462, 285, 720, 285, { color: P, width: 6, head: 22 });
+    lab(svg, 98, 505, '**P**_1', { anchor: 'end' });
+    lab(svg, 290, 475, '**F**_1', { anchor: 'start' });
+    lab(svg, 370, 330, '**F**_2');
+    lab(svg, 600, 312, '**P**_2');
+    lab(svg, 200, 408, '\\rm{A}_1');
+    lab(svg, 450, 218, '\\rm{A}_2');
+    lab(svg, 200, 620, 'F_1 = P_1A_1');
+    lab(svg, 450, 360, 'P_2 = F_2/A_2');
+    note(svg, 150, 380, 'Eardrum', { size: 22 });
+    svg.leader(150, 394, 196, 440, { bend: 0.3, width: 1.4 });
+    note(svg, 250, 560, 'Hammer', { anchor: 'start', size: 22 });
+    svg.leader(248, 548, 230, 504, { bend: -0.3, width: 1.4 });
+    note(svg, 380, 450, 'Anvil', { anchor: 'start', size: 22 });
+    svg.leader(378, 438, 326, 410, { bend: -0.3, width: 1.4 });
+    note(svg, 340, 196, 'Stirrup', { anchor: 'start', size: 22 });
+    svg.leader(372, 212, 392, 280, { bend: 0.3, width: 1.4 });
+    note(svg, 530, 230, 'Oval window', { anchor: 'start', size: 22 });
+    svg.leader(528, 236, 456, 250, { bend: 0.3, width: 1.4 });
+    note(svg, 160, 170, 'Pivots', { size: 22 });
+    svg.leader(180, 156, 314, 54, { bend: -0.3, width: 1.4 });
+    svg.leader(180, 186, 314, 280, { bend: 0.3, width: 1.4 });
+    lab(svg, 560, 560, 'F_2 > F_1 \\rm{and} A_2 < A_1', { size: 21 });
+    svg.arrow(470, 600, 540, 600, { color: F, width: 3, head: 14 });
+    lab(svg, 552, 600, 'P_2 > P_1', { anchor: 'start', size: 21 });
+    return svg.render();
+  },
+};
+
+/** 17.5 Figs. 3–5: a tuning fork at the open end of a closed tube, with its pulse. */
+function pulseInTube({ direction, tip, reach = 0.55, spread, title, desc }) {
+  const svg = new Svg({ width: 760, height: 360, title, desc });
+  const x0 = 30;
+  const x1 = 470;
+  const yc = 150;
+  const h = 180;
+  tube(svg, x0, x1, yc, h);
+  // The pulse is a wedge from its tip to its front, shaded darker toward the front.
+  const L = x1 - x0;
+  const tipX = x0 + tip * L;
+  const frontX = direction < 0 ? x0 + (tip - 0.62) * L : x0 + reach * L;
+  const fill = gradient(svg, u => (direction < 0 ? 1 - u : u) * 0.9, {
+    lo: [250, 250, 250],
+    hi: [126, 146, 205],
+    n: 60,
+  });
+  const wedge = `M ${tipX} ${yc} Q ${(tipX + frontX) / 2} ${yc - h * 0.4} ${frontX} ${yc - h * 0.42} Q ${frontX - direction * 10} ${yc} ${frontX} ${yc + h * 0.42} Q ${(tipX + frontX) / 2} ${yc + h * 0.4} ${tipX} ${yc} Z`;
+  gradientId += 0;
+  svg.add(`<path d="${wedge}" fill="${fill}" stroke="#7d8cc4" stroke-width="1.2"/>`);
+  if (direction < 0)
+    svg.arrow(x0 + 0.9 * L, yc, x0 + 0.62 * L, yc, { color: COLORS.black, width: 2, head: 15 });
+  else
+    svg.arrow(frontX + 6, yc, frontX + (reach > 0.9 ? 90 : 70), yc, {
+      color: COLORS.black,
+      width: 2,
+      head: 15,
+    });
+  const fx = 640;
+  const fy = 210;
+  fork(svg, fx, fy, { gap: 30, tine: 170, w: 22, stem: 120 });
+  if (spread > 0) {
+    svg.arrow(fx - 34, 70, fx - 140, 70, { color: COLORS.black, width: 2, head: 15 });
+    svg.arrow(fx + 34, 70, fx + 110, 70, { color: COLORS.black, width: 2, head: 15 });
+  } else if (spread < 0) {
+    svg.arrow(fx - 120, 70, fx - 46, 70, { color: COLORS.black, width: 2, head: 15 });
+    svg.arrow(fx + 110, 70, fx + 46, 70, { color: COLORS.black, width: 2, head: 15 });
+  }
+  if (reach > 0.9) dim(svg, x0, x1, 300, 'L', { below: true });
+  return svg.render();
+}
+
+/** 17.5 Figs. 6 and 9: the fundamental and first three overtones of a closed tube. */
+function closedTubeSeries() {
+  const svg = new Svg({
+    width: 1160,
+    height: 300,
+    title: 'Resonances of a tube closed at one end',
+    desc: 'Four tubes of length L closed at the left end, each with no air displacement at the closed end and the most at the open end. Fundamental: a quarter wavelength fits, λ1 = 4L, f1 = v/4L. First overtone: three quarters of a wavelength, λ2 = 4L/3, f2 = 3v/4L. Second overtone: λ3 = 4L/5, f3 = 5v/4L. Third overtone: λ4 = 4L/7, f4 = 7v/4L.',
+  });
+  const W = 250;
+  const modes = [
+    ['Fundamental', 'λ_1 = 4L', 'f_1 = v/4L', '¼λ_1'],
+    ['First overtone', 'λ_2 = 4L/3', 'f_2 = 3v/4L', '¾λ_2'],
+    ['Second overtone', 'λ_3 = 4L/5', 'f_3 = 5v/4L', 'λ_3'],
+    ['Third overtone', 'λ_4 = 4L/7', 'f_4 = 7v/4L', 'λ_4'],
+  ];
+  modes.forEach(([name, lam, f, seg], i) => {
+    const m = 2 * i + 1;
+    const x0 = 20 + i * (W + 40);
+    tubeMode(svg, x0, x0 + W, 110, 70, u => Math.abs(Math.sin(((m * Math.PI) / 2) * u)));
+    dim(svg, x0, x0 + W, 170, 'L', { below: true });
+    const span = i === 0 || i === 1 ? W : (4 * W) / m;
+    dim(svg, x0, x0 + span, 50, seg);
+    note(svg, x0 + W / 2, 236, name);
+    lab(svg, x0 + 60, 272, lam, { size: 19 });
+    lab(svg, x0 + 190, 272, f, { size: 19 });
+  });
+  return svg.render();
+}

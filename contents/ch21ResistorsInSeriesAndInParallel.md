@@ -20,7 +20,7 @@ of resistors are the series and parallel connections illustrated
 in [[Figure 1]](#Figure1). The total resistance of a combination of resistors
 depends on both their individual values and how they are connected.
 
-![In part a of the figure, resistors labeled R sub 1, R sub 2, R sub 3, and R sub 4 are connected in series along one path of a circuit. In part b of the figure, the same resistors are connected along parallel paths of a circuit.](../resources/Figure_21_01_01.jpg '(a) A series connection of resistors. (b) A parallel connection of resistors.')
+![(a) Four resistors, R1 through R4, connected end to end along a single path. (b) The same four resistors connected side by side between two common wires, so each has its own path.](../resources/Figure_21_01_01.svg '(a) A series connection of resistors. (b) A parallel connection of resistors.')
 {: #Figure1}
 
 ### Resistors in Series
@@ -41,7 +41,7 @@ high-resistance rubber-soled shoes. It could be a disadvantage if one of the
 resistances were a faulty high-resistance cord to an appliance that would reduce
 the operating current.)
 
-![Two electrical circuits are compared. The first one has three resistors, R sub one, R sub two, and R sub three, connected in series with a voltage source V to form a closed circuit. The first circuit is equivalent to the second circuit, which has a single resistor R sub s connected to a voltage source V. Both circuits carry a current I, which starts from the positive end of the voltage source and moves in a clockwise direction around the circuit.](../resources/Figure_21_01_02.jpg 'Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).')
+![Left: a voltage source V drives a current I clockwise through R1 on the top, R2 on the right, and R3 on the bottom. Right, after an equals sign: the same source drives the same current I through a single resistance Rs.](../resources/Figure_21_01_02.svg 'Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).')
 {: #Figure2}
 
 To verify that resistances in series do indeed add, let us consider the loss of
@@ -459,7 +459,7 @@ parts are identified as either series or parallel, reduced to their equivalents,
 and further reduced until a single resistance is left. The process is more time
 consuming than difficult.
 
-![The diagram has a set of five circuits. The first circuit has a combination of seven resistors in series and parallel combinations. It has a resistor R sub one in series with a set of three resistors R sub two, R sub three, and R sub four in parallel and connected in series with a combination of resistors R sub five and R sub six, which are parallel. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The second circuit calculates combinations of all parallel resistors in circuit one and replaces them with their equivalent resistance. It has a resistor R sub one in series with R sub p and R sub p prime. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The third circuit takes the combination of the series resistors R sub p and R sub p prime and replaces it with R sub s. It has a resistor R sub one in series with R sub s. A resistor R sub seven is connected in parallel to R sub s and the voltage source. The fourth circuit shows a parallel combination of R sub seven and R sub s are calculated and replaced by R sub p double prime. The circuit now has a series combination voltage source, R sub one and R sub p double prime. The fifth circuit shows the final equivalent of the first circuit. It has a voltage source connecting across a final equivalent resistance R sub s prime.](../resources/Figure_21_01_04.jpg "This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.")
+![Five circuits connected by arrows. First: a source feeds R1, then R7 to the bottom wire, then R2, R3 and R4 in parallel (circled as Rp), then R5 and R6 in parallel (circled as Rp′). Second: Rp and Rp′ replace those groups and are circled together as their series sum Rs. Third: R7 and Rs are circled as their parallel combination Rp″. Fourth: R1 and Rp″ are circled as their series sum Rs′. Fifth: the source drives the single equivalent resistance Rs′.](../resources/Figure_21_01_04.svg "This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.")
 {: #Figure4}
 
 The simplest combination of series and parallel resistance, shown
@@ -485,7 +485,7 @@ Drop, Current, and Power Dissipation: Combining Series and Parallel Circuits
  through  $${R}_{2} $$ .
  (d) What power is dissipated by  $${R}_{2} $$ ?
 
-![Circuit diagram in which a battery of twelve point zero volts is connected to a combination of three resistors. Resistors R sub two and R sub three are connected in parallel to each other, and their combination is connected in series to resistor R sub one. R sub one has a resistance of one point zero zero ohms, R sub two has a resistance of six point zero zero ohms, and R sub three has a resistance of thirteen point zero ohms.](../resources/Figure_21_01_05.jpg "These three resistors are connected to a voltage source so that \( R_{2} \) and \( R_{3} \) are in parallel with one another and that combination is in series with \( R_{1} \) .")
+![A 12.0 V source on the left drives current I through R1 = 1.00 ohm on the top wire. The current then splits into I2 through R2 = 6.00 ohms and I3 through R3 = 13.0 ohms, which are in parallel on the right. The voltage V1 across R1 and the voltage Vp = V − V1 across the parallel pair are unknown.](../resources/Figure_21_01_05.svg "These three resistors are connected to a voltage source so that \( R_{2} \) and \( R_{3} \) are in parallel with one another and that combination is in series with \( R_{1} \) .")
 {: #Figure5}
 
 **Strategy and Solution for (a)**
@@ -686,8 +686,36 @@ Problem-Solving Strategies for Series and Parallel Resistors
 
 A switch has a variable resistance that is nearly zero when closed and extremely large when open, and it is placed in series with the device it controls. Explain the effect the switch in [[Figure 7]](#Figure7) has on current when open and when closed.
 
-![The diagram shows a circuit with a voltage source and internal resistance small r connected in series with a resistance R and a switch.](../resources/Figure_21_01_07.jpg "A switch is ordinarily in series with a resistance and voltage source. Ideally, the switch has nearly zero resistance when closed but has an extremely large resistance when open. (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
+![A source of emf with internal resistance r on the left, a resistance R on the top wire, and an open switch on the right wire, all in one loop.](../resources/Figure_21_01_07.svg "A switch is ordinarily in series with a resistance and voltage source. Ideally, the switch has nearly zero resistance when closed but has an extremely large resistance when open.")
 {: #Figure7}
+
+:::
+
+::: solution
+
+**Strategy**
+
+The switch, the load $$ R $$, and the internal resistance $$ r $$ are in series, so the same current flows through all of them and $$ I = \text{emf}/(r + R + R_{\text{switch}}) $$. Compare this current for a nearly zero and an extremely large switch resistance, using sample values $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.100 \ \Omega $$, and $$ R = 10.0 \ \Omega $$.
+
+**Solution**
+
+With the switch **closed**, take $$ R_{\text{switch}} = 0.001 \ \Omega $$:
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R + R_{\text{switch}}} = \frac{12.0 \text{ V}}{0.100 \ \Omega + 10.0 \ \Omega + 0.001 \ \Omega} = 1.19 \text{ A} $$
+</div>
+
+This is essentially the current that would flow with no switch at all.
+
+With the switch **open**, take $$ R_{\text{switch}} = 1.0 \times 10^{12} \ \Omega $$ (the air gap):
+
+<div class="equation">
+$$ I = \frac{12.0 \text{ V}}{0.100 \ \Omega + 10.0 \ \Omega + 1.0 \times 10^{12} \ \Omega} = 1.2 \times 10^{-11} \text{ A} $$
+</div>
+
+which is zero for all practical purposes.
+
+When closed, the switch adds almost no resistance, so the full current (about $$ 1.19 \text{ A} $$ in this example) flows through the device; when open, its enormous resistance dominates the series sum and reduces the current to essentially zero, turning the device off.
 
 :::
 
@@ -701,6 +729,30 @@ What is the voltage across the open switch in [[Figure 7]](#Figure7)?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply the series rule: the emf equals the sum of the voltage drops $$ Ir + IR + V_{\text{switch}} $$. With the switch open, the current is essentially zero, so find each drop.
+
+**Solution**
+
+With the switch open, $$ I \approx 1.2 \times 10^{-11} \text{ A} $$ (see the previous question, with $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.100 \ \Omega $$, $$ R = 10.0 \ \Omega $$). The drops across the internal resistance and the load are
+
+<div class="equation">
+$$ Ir + IR = (1.2 \times 10^{-11} \text{ A})(10.1 \ \Omega) = 1.2 \times 10^{-10} \text{ V} \approx 0 $$
+</div>
+
+so the loop rule gives
+
+<div class="equation">
+$$ V_{\text{switch}} = \text{emf} - Ir - IR \approx 12.0 \text{ V} - 0 = 12.0 \text{ V} $$
+</div>
+
+The voltage across the open switch equals the emf of the source (for example, the full $$ 12.0 \text{ V} $$ of a $$ 12.0\text{-V} $$ battery), because no current flows and so there is no voltage drop across the internal resistance or the load.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -708,6 +760,26 @@ What is the voltage across the open switch in [[Figure 7]](#Figure7)?
 ::: problem
 
 There is a voltage across an open switch, such as in [[Figure 7]](#Figure7). Why, then, is the power dissipated by the open switch small?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Power dissipated in any element is $$ P = IV $$. Use the open-switch voltage and current from the previous two questions.
+
+**Solution**
+
+The open switch has the full emf across it, $$ V = 12.0 \text{ V} $$, but almost no current, $$ I \approx 1.2 \times 10^{-11} \text{ A} $$:
+
+<div class="equation">
+$$ P = IV = (1.2 \times 10^{-11} \text{ A})(12.0 \text{ V}) = 1.4 \times 10^{-10} \text{ W} $$
+</div>
+
+Equivalently, $$ P = V^2/R_{\text{switch}} = (12.0 \text{ V})^2/(1.0 \times 10^{12} \ \Omega) = 1.4 \times 10^{-10} \text{ W} $$; the huge resistance in the denominator makes the power tiny.
+
+The power dissipated by the open switch is small because, although the full emf appears across it, the current through it is essentially zero, and power is the product $$ P = IV $$ (about $$ 10^{-10} \text{ W} $$ in this example).
 
 :::
 
@@ -721,6 +793,32 @@ Why is the power dissipated by a closed switch, such as in [[Figure 7]](#Figure7
 
 :::
 
+::: solution
+
+**Strategy**
+
+Again use $$ P = IV $$, or $$ P = I^2 R_{\text{switch}} $$ since the current through the series switch is known.
+
+**Solution**
+
+With the switch closed, the full current $$ I = 1.19 \text{ A} $$ flows through it, but its resistance is only about $$ R_{\text{switch}} = 0.001 \ \Omega $$. The voltage across it is
+
+<div class="equation">
+$$ V_{\text{switch}} = IR_{\text{switch}} = (1.19 \text{ A})(0.001 \ \Omega) = 1.2 \times 10^{-3} \text{ V} $$
+</div>
+
+so the power is
+
+<div class="equation">
+$$ P = I^2 R_{\text{switch}} = (1.19 \text{ A})^2(0.001 \ \Omega) = 1.4 \times 10^{-3} \text{ W} $$
+</div>
+
+compared with $$ I^2 R = (1.19 \text{ A})^2(10.0 \ \Omega) = 14.2 \text{ W} $$ delivered to the load.
+
+The power dissipated by a closed switch is small because, although the full current flows through it, its resistance is nearly zero, so the voltage across it is nearly zero and $$ P = IV = I^2 R_{\text{switch}} $$ is tiny (about $$ 1.4 \text{ mW} $$ here, compared with $$ 14.2 \text{ W} $$ in the load).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -729,8 +827,44 @@ Why is the power dissipated by a closed switch, such as in [[Figure 7]](#Figure7
 
 A student in a physics lab mistakenly wired a light bulb, battery, and switch as shown in [[Figure 8]](#Figure8). Explain why the bulb is on when the switch is open, and off when the switch is closed. (Do not try this—it is hard on the battery!)
 
-![This diagram shows a circuit with a voltage source and internal resistance small r. A resistance R and an open switch are connected in parallel to it.](../resources/Figure_21_01_08.jpg "A wiring mistake put this switch in parallel with the device represented by \( R \) . (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
+![A source of emf with internal resistance r on the left. The resistance R and an open switch are connected side by side across the source, so closing the switch would short out R.](../resources/Figure_21_01_08.svg "A wiring mistake put this switch in parallel with the device represented by \( R \) .")
 {: #Figure8}
+
+:::
+
+::: solution
+
+**Strategy**
+
+The switch is now in **parallel** with the bulb $$ R $$. Find the equivalent resistance of the parallel pair with the switch open and closed, then find the current and the voltage across the bulb. Use $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.100 \ \Omega $$, $$ R = 10.0 \ \Omega $$, and a closed-switch resistance of $$ 0.001 \ \Omega $$.
+
+**Solution**
+
+![Two circuit diagrams. Left: switch open, all of the current flows through the bulb, which lights. Right: switch closed, nearly all of the current flows through the switch, which shorts out the bulb, and a large current flows through the battery's internal resistance.](../resources/concept_21_01_q05.svg)
+
+**Switch open:** no current can pass through the switch, so all of the current goes through the bulb, exactly as if the switch were not there:
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R} = \frac{12.0 \text{ V}}{0.100 \ \Omega + 10.0 \ \Omega} = 1.19 \text{ A}, \qquad V_{R} = IR = (1.19 \text{ A})(10.0 \ \Omega) = 11.9 \text{ V} $$
+</div>
+
+The bulb has nearly the full emf across it and is on.
+
+**Switch closed:** the switch and bulb in parallel have
+
+<div class="equation">
+$$ R_{p} = \left( \frac{1}{10.0 \ \Omega} + \frac{1}{0.001 \ \Omega} \right)^{-1} = 1.0 \times 10^{-3} \ \Omega $$
+</div>
+
+The current from the battery and the voltage across the parallel pair are
+
+<div class="equation">
+$$ I = \frac{12.0 \text{ V}}{0.100 \ \Omega + 0.001 \ \Omega} = 119 \text{ A}, \qquad V_{R} = IR_{p} = (119 \text{ A})(1.0 \times 10^{-3} \ \Omega) = 0.12 \text{ V} $$
+</div>
+
+Only $$ 0.12 \text{ V} $$ is across the bulb, so it carries $$ (0.12 \text{ V})/(10.0 \ \Omega) = 0.012 \text{ A} $$ and is dark. Almost the whole emf is lost across the internal resistance, which dissipates $$ I^2 r = (119 \text{ A})^2(0.100 \ \Omega) = 1.4 \times 10^{3} \text{ W} $$; that is why this wiring is hard on the battery.
+
+The bulb is on when the switch is open because all the current must then pass through the bulb (about $$ 11.9 \text{ V} $$ across it in this example), and it is off when the switch is closed because the nearly zero-resistance switch short-circuits the bulb, leaving almost no voltage across it ($$ 0.12 \text{ V} $$ here) while a very large current flows through the battery.
 
 :::
 
@@ -744,6 +878,32 @@ Knowing that the severity of a shock depends on the magnitude of the current thr
 
 :::
 
+::: solution
+
+**Strategy**
+
+The severity of a shock depends on the current through the body. Compare the current through a person of resistance $$ R_{\text{body}} $$ who is in series with the heating element and one who is in parallel with it, connected to $$ 120 \text{ V} $$. Take the heating element to be $$ R_{\text{h}} = 12.0 \ \Omega $$ (a $$ 1200\text{-W} $$ toaster) and the body to be $$ R_{\text{body}} = 1000 \ \Omega $$.
+
+**Solution**
+
+**In series** with the element, the element's resistance adds to the body's and the same current passes through both:
+
+<div class="equation">
+$$ I_{\text{series}} = \frac{V}{R_{\text{h}} + R_{\text{body}}} = \frac{120 \text{ V}}{12.0 \ \Omega + 1000 \ \Omega} = 0.119 \text{ A} $$
+</div>
+
+**In parallel** with the element, the person has the full $$ 120 \text{ V} $$ directly across them, whatever the element does:
+
+<div class="equation">
+$$ I_{\text{parallel}} = \frac{V}{R_{\text{body}}} = \frac{120 \text{ V}}{1000 \ \Omega} = 0.120 \text{ A} $$
+</div>
+
+For a toaster the difference is small because the element's resistance is much less than the body's, but the series current is always the smaller of the two, and the advantage grows when the series resistance is large. For example, in series with a $$ 10.0\text{-k}\Omega $$ resistance the current drops to $$ (120 \text{ V})/(11\,000 \ \Omega) = 0.0109 \text{ A} $$.
+
+You would prefer to be in series with the resistance, because the resistance then adds to your body's resistance and reduces the current through you (to $$ 0.119 \text{ A} $$ rather than $$ 0.120 \text{ A} $$ for a toaster element, and far less for a large resistance), whereas in parallel you receive the full voltage regardless of the other resistance.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -751,6 +911,32 @@ Knowing that the severity of a shock depends on the magnitude of the current thr
 ::: problem
 
 Would your headlights dim when you start your car’s engine if the wires in your automobile were superconductors? (Do not neglect the battery’s internal resistance.) Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The headlights and the starter motor are connected in parallel to the battery. Even with perfect wires, the total current passes through the battery's internal resistance $$ r $$, so the terminal voltage is $$ V = \text{emf} - Ir $$. Compare $$ V $$ with and without the starter current, using $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.0100 \ \Omega $$, headlight current $$ 10 \text{ A} $$, and starter current $$ 200 \text{ A} $$.
+
+**Solution**
+
+Lights only:
+
+<div class="equation">
+$$ V = \text{emf} - Ir = 12.0 \text{ V} - (10 \text{ A})(0.0100 \ \Omega) = 11.9 \text{ V} $$
+</div>
+
+Lights plus starter:
+
+<div class="equation">
+$$ V = 12.0 \text{ V} - (210 \text{ A})(0.0100 \ \Omega) = 9.9 \text{ V} $$
+</div>
+
+The power of the headlights is roughly proportional to $$ V^2 $$, so it falls to about $$ (9.9/11.9)^2 = 0.69 $$ of its original value. Superconducting wires remove only the voltage drop in the wiring, not the drop across the internal resistance inside the battery.
+
+Yes, the headlights would still dim, because the large starter current flows through the battery's internal resistance and lowers the terminal voltage (from about $$ 11.9 \text{ V} $$ to $$ 9.9 \text{ V} $$ in this example), even if the wires have zero resistance.
 
 :::
 
@@ -764,6 +950,32 @@ Some strings of holiday lights are wired in series to save wiring costs. An old 
 
 :::
 
+::: solution
+
+**Strategy**
+
+In a series string, the same current passes through every bulb and the voltage divides among the bulbs. An open bulb breaks the only path; a shorted bulb removes its resistance from the string.
+
+**Solution**
+
+**Old bulbs (fail open):** a burned-out bulb acts like an open switch, so the current in the entire string becomes zero and **all the other bulbs go out**. Normally, the 40 identical bulbs share the voltage equally:
+
+<div class="equation">
+$$ V_{\text{bulb}} = \frac{120 \text{ V}}{40} = 3.00 \text{ V} $$
+</div>
+
+**Newer bulbs (fail shorted):** a burned-out bulb acts like a closed switch, so the current continues and **the others stay lit**. The 120 V is now shared by 39 bulbs:
+
+<div class="equation">
+$$ V_{\text{bulb}} = \frac{120 \text{ V}}{39} = 3.08 \text{ V} $$
+</div>
+
+The total resistance is smaller, so the current and the voltage across each remaining bulb are slightly larger, and the remaining bulbs burn slightly brighter and wear out a little faster.
+
+If an old-style bulb burns out, all the others go out, and each of the 40 bulbs normally operates at $$ 3.00 \text{ V} $$; if a new-style bulb burns out, the others stay lit, and each of the 39 remaining bulbs then operates at $$ 3.08 \text{ V} $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -771,6 +983,34 @@ Some strings of holiday lights are wired in series to save wiring costs. An old 
 ::: problem
 
 If two household lightbulbs rated 60 W and 100 W are connected in series to household power, which will be brighter? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The ratings refer to operation at $$ 120 \text{ V} $$, so find each bulb's resistance from $$ P = V^2/R $$. In series, both bulbs carry the same current, so the power in each is $$ P = I^2 R $$: the larger resistance gets more power.
+
+**Solution**
+
+<div class="equation">
+$$ R_{60} = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{60 \text{ W}} = 240 \ \Omega, \qquad R_{100} = \frac{(120 \text{ V})^2}{100 \text{ W}} = 144 \ \Omega $$
+</div>
+
+In series across $$ 120 \text{ V} $$:
+
+<div class="equation">
+$$ I = \frac{120 \text{ V}}{240 \ \Omega + 144 \ \Omega} = 0.3125 \text{ A} $$
+</div>
+
+<div class="equation">
+$$ P_{60} = I^2 R_{60} = (0.3125 \text{ A})^2(240 \ \Omega) = 23.4 \text{ W}, \qquad P_{100} = (0.3125 \text{ A})^2(144 \ \Omega) = 14.1 \text{ W} $$
+</div>
+
+(The calculation assumes the resistances stay constant; real filaments have lower resistance when cooler, but the conclusion is the same.)
+
+The 60-W bulb will be brighter, because it has the larger resistance ($$ 240 \ \Omega $$ compared with $$ 144 \ \Omega $$), and in series the same current flows through both, so the larger resistance dissipates more power ($$ 23.4 \text{ W} $$ compared with $$ 14.1 \text{ W} $$).
 
 :::
 
@@ -784,6 +1024,26 @@ Suppose you are doing a physics lab that asks you to put a resistor into a circu
 
 :::
 
+::: solution
+
+**Strategy**
+
+A series combination is always larger than its largest resistor, while a parallel combination is always smaller than its smallest resistor. Illustrate with a requested $$ 50 \ \Omega $$ when only $$ 100\text{-}\Omega $$ resistors are available.
+
+**Solution**
+
+Two $$ 100\text{-}\Omega $$ resistors in parallel give
+
+<div class="equation">
+$$ R_{p} = \left( \frac{1}{100 \ \Omega} + \frac{1}{100 \ \Omega} \right)^{-1} = 50.0 \ \Omega $$
+</div>
+
+For other values, combine parallel and series groups. For example, three $$ 100\text{-}\Omega $$ resistors in parallel give $$ 33.3 \ \Omega $$, and two in parallel in series with one more give $$ 150 \ \Omega $$.
+
+You would connect the available resistors in parallel, because the equivalent resistance of a parallel combination is always less than the smallest individual resistance (for example, two $$ 100\text{-}\Omega $$ resistors in parallel give $$ 50.0 \ \Omega $$), adding series and parallel groups as needed to reach the requested value.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -794,6 +1054,32 @@ Before World War II, some radios got power through a “resistance cord” that 
 
 :::
 
+::: solution
+
+**Strategy**
+
+The resistance cord is in series with the radio, so it carries the radio's full current and has part of the supply voltage across it. The power it dissipates is $$ P = IV = I^2 R $$. Take a radio that needs $$ 0.300 \text{ A} $$ at $$ 50.0 \text{ V} $$ from a $$ 120\text{-V} $$ outlet.
+
+**Solution**
+
+The cord must drop the remaining voltage:
+
+<div class="equation">
+$$ V_{\text{cord}} = 120 \text{ V} - 50.0 \text{ V} = 70.0 \text{ V}, \qquad R_{\text{cord}} = \frac{V_{\text{cord}}}{I} = \frac{70.0 \text{ V}}{0.300 \text{ A}} = 233 \ \Omega $$
+</div>
+
+The power converted to thermal energy in the cord is
+
+<div class="equation">
+$$ P_{\text{cord}} = IV_{\text{cord}} = (0.300 \text{ A})(70.0 \text{ V}) = 21.0 \text{ W} $$
+</div>
+
+compared with the $$ (0.300 \text{ A})(50.0 \text{ V}) = 15.0 \text{ W} $$ used by the radio. More than half of the energy taken from the outlet heats the cord and does nothing useful.
+
+Resistance cords become warm and waste energy because they carry the radio's full current while dropping a large share of the supply voltage, so they convert electrical energy to thermal energy at a rate $$ P = IV = I^2R $$ (about $$ 21 \text{ W} $$ in this example, more than the radio itself uses).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -801,6 +1087,26 @@ Before World War II, some radios got power through a “resistance cord” that 
 ::: problem
 
 Some light bulbs have three power settings (not including zero), obtained from multiple filaments that are individually switched and wired in parallel. What is the minimum number of filaments needed for three power settings?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Filaments in parallel each have the full line voltage across them, so each switched-on filament contributes its own fixed power, and the total is the sum of the powers of the filaments that are on. Count the distinct nonzero powers available from $$ n $$ filaments.
+
+**Solution**
+
+With **one** filament there is only one nonzero setting. With **two** filaments of different powers, say $$ 50 \text{ W} $$ and $$ 100 \text{ W} $$ at $$ 120 \text{ V} $$, the possible combinations are
+
+<div class="equation">
+$$ 50 \text{ W}, \qquad 100 \text{ W}, \qquad 50 \text{ W} + 100 \text{ W} = 150 \text{ W} $$
+</div>
+
+which are three different settings (this is how a "50–100–150 W" three-way bulb works). The filaments must have different resistances, $$ R = V^2/P $$: $$ (120 \text{ V})^2/(50 \text{ W}) = 288 \ \Omega $$ and $$ (120 \text{ V})^2/(100 \text{ W}) = 144 \ \Omega $$. Two identical filaments would give only two settings.
+
+The minimum number of filaments is two, provided they have different powers (for example, $$ 50 \text{ W} $$ and $$ 100 \text{ W} $$), because switching on either one alone or both together in parallel gives three different power settings ($$ 50 \text{ W} $$, $$ 100 \text{ W} $$, and $$ 150 \text{ W} $$).
 
 :::
 
@@ -878,21 +1184,21 @@ For resistors in series, the total resistance is the sum of individual resistanc
 Convert all to the same units: $$R_1 = 100 \text{ Ω}$$, $$R_2 = 2500 \text{ Ω}$$, $$R_3 = 4000 \text{ Ω}$$
 
 <div class="equation">
-$$R_s = R_1 + R_2 + R_3 = 100 + 2500 + 4000 = 6600 \text{ Ω} = 6.60 \text{ kΩ}$$
+$$R_s = R_1 + R_2 + R_3 = 100 \text{ Ω} + 2500 \text{ Ω} + 4000 \text{ Ω} = 6600 \text{ Ω} = 6.60 \text{ kΩ}$$
 </div>
 
 **(b)** For parallel connection:
 
 <div class="equation">
-$$\frac{1}{R_p} = \frac{1}{100} + \frac{1}{2500} + \frac{1}{4000}$$
+$$\frac{1}{R_p} = \frac{1}{100 \text{ Ω}} + \frac{1}{2500 \text{ Ω}} + \frac{1}{4000 \text{ Ω}}$$
 </div>
 
 <div class="equation">
-$$\frac{1}{R_p} = 0.0100 + 0.000400 + 0.000250 = 0.01065 \text{ Ω}^{-1}$$
+$$\frac{1}{R_p} = 0.0100 \text{ Ω}^{-1} + 0.000400 \text{ Ω}^{-1} + 0.000250 \text{ Ω}^{-1} = 0.01065 \text{ Ω}^{-1}$$
 </div>
 
 <div class="equation">
-$$R_p = \frac{1}{0.01065} = 93.9 \text{ Ω}$$
+$$R_p = \frac{1}{0.01065 \text{ Ω}^{-1}} = 93.9 \text{ Ω}$$
 </div>
 
 **Discussion**
@@ -927,21 +1233,21 @@ The largest resistance is obtained by connecting all resistors in series (resist
 **Largest resistance (series connection):**
 
 <div class="equation">
-$$R_{\text{max}} = R_1 + R_2 + R_3 = 36.0 + 50.0 + 700 = 786 \text{ Ω}$$
+$$R_{\text{max}} = R_1 + R_2 + R_3 = 36.0 \text{ Ω} + 50.0 \text{ Ω} + 700 \text{ Ω} = 786 \text{ Ω}$$
 </div>
 
 **Smallest resistance (parallel connection):**
 
 <div class="equation">
-$$\frac{1}{R_{\text{min}}} = \frac{1}{36.0} + \frac{1}{50.0} + \frac{1}{700}$$
+$$\frac{1}{R_{\text{min}}} = \frac{1}{36.0 \text{ Ω}} + \frac{1}{50.0 \text{ Ω}} + \frac{1}{700 \text{ Ω}}$$
 </div>
 
 <div class="equation">
-$$\frac{1}{R_{\text{min}}} = 0.02778 + 0.02000 + 0.001429 = 0.04921 \text{ Ω}^{-1}$$
+$$\frac{1}{R_{\text{min}}} = 0.02778 \text{ Ω}^{-1} + 0.02000 \text{ Ω}^{-1} + 0.001429 \text{ Ω}^{-1} = 0.04921 \text{ Ω}^{-1}$$
 </div>
 
 <div class="equation">
-$$R_{\text{min}} = \frac{1}{0.04921} = 20.3 \text{ Ω}$$
+$$R_{\text{min}} = \frac{1}{0.04921 \text{ Ω}^{-1}} = 20.3 \text{ Ω}$$
 </div>
 
 **Discussion**
@@ -989,7 +1295,7 @@ $$I_{\text{lamp}} = \frac{75 \text{ W}}{120 \text{ V}} = 0.625 \text{ A}$$
 
 **(b)** Total current in parallel:
 <div class="equation">
-$$I_{\text{total}} = I_{\text{toaster}} + I_{\text{pan}} + I_{\text{lamp}} = 15.0 + 11.7 + 0.625 = 27.3 \text{ A}$$
+$$I_{\text{total}} = I_{\text{toaster}} + I_{\text{pan}} + I_{\text{lamp}} = 15.0 \text{ A} + 11.7 \text{ A} + 0.625 \text{ A} = 27.3 \text{ A}$$
 </div>
 
 Since 27.3 A > 15 A, **yes, this combination will blow the 15-A fuse**.
@@ -1024,18 +1330,18 @@ First, find the resistance of each device using $$P = V^2/R$$ when operating nor
 
 Headlight resistance:
 <div class="equation">
-$$R_{\text{head}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{30.0 \text{ W}} = \frac{144}{30.0} = 4.80 \text{ Ω}$$
+$$R_{\text{head}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{30.0 \text{ W}} = \frac{144 \text{ V}^2}{30.0 \text{ W}} = 4.80 \text{ Ω}$$
 </div>
 
 Starter resistance:
 <div class="equation">
-$$R_{\text{starter}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{2400 \text{ W}} = \frac{144}{2400} = 0.0600 \text{ Ω}$$
+$$R_{\text{starter}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{2400 \text{ W}} = \frac{144 \text{ V}^2}{2400 \text{ W}} = 0.0600 \text{ Ω}$$
 </div>
 
 **Step 2:** Find total resistance and current in series.
 
 <div class="equation">
-$$R_{\text{total}} = R_{\text{head}} + R_{\text{starter}} = 4.80 + 0.0600 = 4.86 \text{ Ω}$$
+$$R_{\text{total}} = R_{\text{head}} + R_{\text{starter}} = 4.80 \text{ Ω} + 0.0600 \text{ Ω} = 4.86 \text{ Ω}$$
 </div>
 
 <div class="equation">
@@ -1080,7 +1386,7 @@ For series: Find total resistance, then current (same through both), then use $$
 
 Total resistance:
 <div class="equation">
-$$R_s = R_1 + R_2 = 24.0 + 96.0 = 120.0 \text{ Ω}$$
+$$R_s = R_1 + R_2 = 24.0 \text{ Ω} + 96.0 \text{ Ω} = 120.0 \text{ Ω}$$
 </div>
 
 Current (same through both resistors):
@@ -1212,7 +1518,7 @@ Referring to [[Figure 5]](#Figure5): (a) Calculate  $${P}_{3} $$
 
 Figure 5 has $$R_1=1.00\ \Omega$$ in series with the parallel pair $$R_2=6.00\ \Omega$$ and $$R_3=13.0\ \Omega$$, across 12.0 V.
 
-$$R_{\text{eq}}=1.00+\frac{6.00(13.0)}{6.00+13.0}=5.105\ \Omega,\qquad I=\frac{12.0}{R_{\text{eq}}}=2.35\ \text{A}.$$
+$$R_{\text{eq}}=1.00\ \Omega+\frac{(6.00\ \Omega)(13.0\ \Omega)}{6.00\ \Omega+13.0\ \Omega}=5.105\ \Omega,\qquad I=\frac{12.0\ \text{V}}{R_{\text{eq}}}=2.35\ \text{A}.$$
 
 The voltage across the parallel pair is $$V_p=12.0-I(1.00)=9.65\ \text{V}$$.
 
@@ -1224,7 +1530,7 @@ This is between the earlier series result of 4.68 W and parallel result of 11.1 
 
 **(b)**
 
-$$P_{\text{source}}=VI=(12.0)(2.35)=28.2\ \text{W}.$$
+$$P_{\text{source}}=VI=(12.0\ \text{V})(2.35\ \text{A})=28.2\ \text{W}.$$
 
 The individual powers are $$P_1=I^2R_1=5.52\ \text{W}$$, $$P_2=V_p^2/R_2=15.6\ \text{W}$$, and $$P_3=7.16\ \text{W}$$. Their sum agrees with 28.2 W within rounding.
 
@@ -1275,7 +1581,7 @@ $$I_{\text{bulb}} = \frac{V_{\text{bulb}}}{R_{\text{bulb}}} = \frac{114 \text{ V
 
 The motor current is:
 <div class="equation">
-$$I_{\text{motor}} = I_{\text{total}} - I_{\text{bulb}} = 15.0 - 0.594 = 14.4 \text{ A}$$
+$$I_{\text{motor}} = I_{\text{total}} - I_{\text{bulb}} = 15.0 \text{ A} - 0.594 \text{ A} = 14.4 \text{ A}$$
 </div>
 
 Power consumed by the motor:
@@ -1285,10 +1591,10 @@ $$P_{\text{motor}} = I_{\text{motor}} V_{\text{bulb}} = (14.4 \text{ A})(114 \te
 
 Check using total power:
 <div class="equation">
-$$P_{\text{total}} = IV_{\text{source}} - I^2 R_{\text{wire}} = (15.0)(120) - (15.0)^2(0.400) = 1800 - 90 = 1710 \text{ W}$$
+$$P_{\text{total}} = IV_{\text{source}} - I^2 R_{\text{wire}} = (15.0 \text{ A})(120 \text{ V}) - (15.0 \text{ A})^2(0.400 \text{ Ω}) = 1800 \text{ W} - 90 \text{ W} = 1710 \text{ W}$$
 </div>
 
-This equals $$P_{\text{bulb}} + P_{\text{motor}} = 67.7 + 1640 = 1708 \text{ W}$$ to within rounding ✓
+This equals $$P_{\text{bulb}} + P_{\text{motor}} = 67.7 \text{ W} + 1640 \text{ W} = 1708 \text{ W}$$ to within rounding ✓
 
 **Discussion**
 
@@ -1308,7 +1614,7 @@ A 240-kV power transmission line carrying  $$5.00 \times 10^{2}  \text{A} $$
  is hung from grounded metal towers by ceramic insulators, each having a  $$ 1.00 \times 10^{9} -\Omega  $$
  resistance. [[Figure 9]](#Figure9). (a) What is the resistance to ground of 100 of these insulators? (b) Calculate the power dissipated by 100 of them. (c) What fraction of the power carried by the line is this? Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](#Note1).
 
-![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](../resources/Figure_21_01_09.jpg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
+![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](/resources/Figure_21_01_09.svg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
 {: #Figure9}
 
 :::
@@ -1328,13 +1634,13 @@ $$\frac{1}{R_p} = \frac{100}{R} = \frac{100}{1.00 \times 10^{9} \text{ Ω}}$$
 </div>
 
 <div class="equation">
-$$R_p = \frac{1.00 \times 10^{9}}{100} = 1.00 \times 10^{7} \text{ Ω} = 10.0 \text{ MΩ}$$
+$$R_p = \frac{1.00 \times 10^{9} \text{ Ω}}{100} = 1.00 \times 10^{7} \text{ Ω} = 10.0 \text{ MΩ}$$
 </div>
 
 **(b)** Power dissipated by the 100 insulators (using line voltage 240 kV):
 
 <div class="equation">
-$$P = \frac{V^2}{R_p} = \frac{(2.40 \times 10^{5} \text{ V})^2}{1.00 \times 10^{7} \text{ Ω}} = \frac{5.76 \times 10^{10}}{1.00 \times 10^{7}} = 5.76 \times 10^{3} \text{ W} = 5.76 \text{ kW}$$
+$$P = \frac{V^2}{R_p} = \frac{(2.40 \times 10^{5} \text{ V})^2}{1.00 \times 10^{7} \text{ Ω}} = \frac{5.76 \times 10^{10} \text{ V}^2}{1.00 \times 10^{7} \text{ Ω}} = 5.76 \times 10^{3} \text{ W} = 5.76 \text{ kW}$$
 </div>
 
 **(c)** Total power carried by line:
@@ -1411,11 +1717,11 @@ $$\frac{1}{150} = \frac{1}{145} + \frac{1}{R_2}$$
 
 Solve for $$1/R_2$$:
 <div class="equation">
-$$\frac{1}{R_2} = \frac{1}{150} - \frac{1}{145} = \frac{145 - 150}{150 \times 145} = \frac{-5}{21750} = -2.30 \times 10^{-4} \text{ Ω}^{-1}$$
+$$\frac{1}{R_2} = \frac{1}{150 \text{ Ω}} - \frac{1}{145 \text{ Ω}} = \frac{145 \text{ Ω} - 150 \text{ Ω}}{(150 \text{ Ω})(145 \text{ Ω})} = \frac{-5 \text{ Ω}}{21750 \text{ Ω}^2} = -2.30 \times 10^{-4} \text{ Ω}^{-1}$$
 </div>
 
 <div class="equation">
-$$R_2 = \frac{1}{-2.30 \times 10^{-4}} = -4350 \text{ Ω}$$
+$$R_2 = \frac{1}{-2.30 \times 10^{-4} \text{ Ω}^{-1}} = -4350 \text{ Ω}$$
 </div>
 
 **(b)** **This result is unreasonable because resistance cannot be negative.** Resistance is a physical property that represents opposition to current flow and must always be positive (or zero for a perfect conductor).

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="420" viewBox="0 0 680 420" role="img" aria-labelledby="title desc">
+<title id="title">Surface tension as a function of surface area</title>
+<desc id="desc">Surface area versus surface tension. For a detergent and for interstitial fluid the surface tension is the same whatever the area, giving vertical lines; interstitial fluid has the higher surface tension. For lung surfactant the surface tension falls as the area decreases, a sloping line. This keeps small alveoli from collapsing and large ones from over-expanding.</desc>
+<rect width="680" height="420" fill="#ffffff"/>
+<line x1="70" y1="360" x2="623" y2="360" stroke="#222222" stroke-width="2.5"/>
+<polygon points="640,360 622,367.2 622,352.8" fill="#222222"/>
+<line x1="90" y1="380" x2="90" y2="47" stroke="#222222" stroke-width="2.5"/>
+<polygon points="90,30 97.2,48 82.8,48" fill="#222222"/>
+<line x1="240" y1="50" x2="240" y2="360" stroke="#222222" stroke-width="2.5"/>
+<line x1="500" y1="50" x2="500" y2="360" stroke="#222222" stroke-width="2.5"/>
+<line x1="120" y1="290" x2="410" y2="120" stroke="#222222" stroke-width="2.5"/>
+<text x="310" y="167.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" transform="rotate(-30 310 160)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Lung</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Surfactant</tspan></text>
+<text x="260" y="297.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Detergent</tspan></text>
+<text x="520" y="257.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Interstitial</tspan></text>
+<text x="520" y="283.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">fluid</tspan></text>
+<text x="360" y="403.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">SURFACE</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">TENSION</tspan></text>
+<text x="46" y="207.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" transform="rotate(-90 46 200)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">SURFACE</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">AREA</tspan></text>
+</svg>

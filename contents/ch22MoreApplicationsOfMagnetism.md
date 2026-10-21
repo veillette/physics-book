@@ -238,6 +238,30 @@ Measurements of the weak and fluctuating magnetic fields associated with brain a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Each nerve impulse is a tiny current that produces a tiny magnetic field. Compare the net field from $$ N $$ neurons whose currents are aligned (coordinated) with that from $$ N $$ neurons whose currents point in random directions. Aligned fields add directly, giving $$ N B_1 $$; random fields partly cancel, and the net field grows only as $$ \sqrt{N}B_1 $$.
+
+**Solution**
+
+Take $$ N = 1.0 \times 10^{6} $$ neurons, each contributing a field $$ B_1 = 1.0 \times 10^{-19} \text{ T} $$ at the detector.
+
+<div class="equation">
+$$ B_{\text{coordinated}} = NB_1 = (1.0 \times 10^{6})(1.0 \times 10^{-19} \text{ T}) = 1.0 \times 10^{-13} \text{ T} $$
+</div>
+
+<div class="equation">
+$$ B_{\text{random}} = \sqrt{N}B_1 = (1.0 \times 10^{3})(1.0 \times 10^{-19} \text{ T}) = 1.0 \times 10^{-16} \text{ T} $$
+</div>
+
+Measured MEG fields are of order $$ 10^{-13} \text{ T} $$ (about $$ 100 \text{ fT} $$), which is detectable with SQUID magnetometers, whereas the random case gives a field 1000 times smaller, far too weak to detect.
+
+The brain's measurable magnetic fields imply coordinated nerve impulses, because only when many neurons carry currents in the same direction at the same time do their fields add to a detectable value (about $$ 10^{-13} \text{ T} $$); uncoordinated currents point in random directions, and their fields largely cancel.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -245,6 +269,28 @@ Measurements of the weak and fluctuating magnetic fields associated with brain a
 ::: problem
 
 Discuss the possibility that a Hall voltage would be generated on the moving heart of a patient during MRI imaging. Also discuss the same effect on the wires of a pacemaker. (The fact that patients with pacemakers are not given MRIs is significant.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+A Hall-type voltage appears across any conductor moving through a magnetic field: $$ \text{emf} = Bvw $$, where $$ w $$ is the width of conductor perpendicular to both $$ \vb{v} $$ and $$ \vb{B} $$. Blood and heart tissue are conducting salt solutions, and a pacemaker lead is a metal wire. Use an MRI field $$ B = 1.50 \text{ T} $$, blood speed in the aorta $$ v = 0.50 \ms $$, and an aorta width $$ w = 2.5 \text{ cm} $$.
+
+**Solution**
+
+For blood flowing in the aorta,
+
+<div class="equation">
+$$ \text{emf} = Bvw = (1.50 \text{ T})(0.50 \ms)(0.025 \m) = 1.9 \times 10^{-2} \text{ V} = 19 \text{ mV} $$
+</div>
+
+This is larger than the ECG signal of about $$ 1 \text{ mV} $$, so the heart's motion and blood flow in the MRI field produce voltages that distort ECG monitoring during the scan. The voltages are too small to stimulate the heart directly.
+
+A pacemaker's leads are conductors running through the moving heart and the body. Their motion in the strong field and, more importantly, the rapidly switched gradient fields and radio-frequency pulses of the MRI induce voltages and currents in them. These can be mistaken by the pacemaker for heartbeats or can stimulate the heart at the wrong times, and the induced currents can heat the lead tips and burn tissue. The strong field also exerts forces and torques on any ferromagnetic parts and can switch the pacemaker's magnetic reed switch into a fixed-rate mode. These dangers are why patients with pacemakers have traditionally not been given MRIs (newer "MRI-conditional" pacemakers are designed to tolerate them).
+
+A Hall voltage would be generated on the moving heart and in the flowing blood (about $$ 19 \text{ mV} $$ across the aorta in a $$ 1.5\text{-T} $$ field), which is harmless to the patient but distorts ECG readings; in a pacemaker's wires, the induced voltages and currents can interfere with its sensing and pacing and heat the lead tips, which is why pacemaker patients are generally not given MRIs.
 
 :::
 
@@ -258,6 +304,29 @@ A patient in an MRI unit turns his head quickly to one side and experiences mome
 
 :::
 
+::: solution
+
+**Strategy**
+
+Turning the head quickly in the strong field changes the magnetic flux through conducting loops in the head (the fluid-filled inner ear and the conductive tissues of the mouth), inducing emfs by Faraday's law, $$ \text{emf} \approx \Delta\Phi/\Delta t $$. Estimate the emf for $$ B = 3.00 \text{ T} $$, a loop of area $$ A = 1.0 \times 10^{-2} \ \text{m}^2 $$, and a $$ 90^\circ $$ turn in $$ 0.50 \s $$, which changes the flux from $$ BA $$ to zero.
+
+**Solution**
+
+<div class="equation">
+$$ \text{emf} \approx \frac{\Delta\Phi}{\Delta t} = \frac{BA}{\Delta t} = \frac{(3.00 \text{ T})(1.0 \times 10^{-2} \ \text{m}^2)}{0.50 \s} = 6.0 \times 10^{-2} \text{ V} $$
+</div>
+
+An emf of tens of millivolts drives small currents through the body's conducting fluids:
+
+- **Dizziness:** induced currents in the inner ear's balance organs (the vestibular system), and magnetic forces on the ion currents there, disturb the nerve signals that sense head rotation, so the brain receives a false signal of motion.
+- **Strange taste:** induced currents through the tongue stimulate the taste nerves directly (a metallic taste), especially near metal dental fillings, which are good conductors.
+
+The effects are momentary because the emf exists only while the flux is changing.
+
+The dizziness and strange taste are probably caused by electromagnetic induction: turning the head quickly in the strong field changes the magnetic flux through the head, inducing emfs (about $$ 0.06 \text{ V} $$ in this estimate) and currents in the inner ear, which disturb its sense of balance, and in the tongue and around metal fillings, which stimulate the sense of taste.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -265,6 +334,24 @@ A patient in an MRI unit turns his head quickly to one side and experiences mome
 ::: problem
 
 You are told that in a certain region there is either a uniform electric or magnetic field. What measurement or observation could you make to determine the type? (Ignore the Earth’s magnetic field.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+An electric field exerts a force $$ q\vb{E} $$ on any charge, moving or not; a magnetic field exerts a force $$ qvB\sin\theta $$ only on a moving charge, perpendicular to its velocity. Design a test that tells them apart. Use a small object with charge $$ q = 1.0 \times 10^{-8} \text{ C} $$ and fields $$ E = 1.0 \times 10^{4} \text{ N/C} $$ or $$ B = 1.0 \text{ T} $$.
+
+**Solution**
+
+**Test 1: hold a charge at rest.** In the electric field, it feels $$ F = qE = (1.0 \times 10^{-8} \text{ C})(1.0 \times 10^{4} \text{ N/C}) = 1.0 \times 10^{-4} \N $$, which a sensitive balance or a light charged pith ball on a thread would show. In the magnetic field, $$ v = 0 $$ and $$ F = 0 $$.
+
+**Test 2: move a charge (or send a beam of charged particles) in various directions.** In the electric field, the force is the same in magnitude and direction regardless of the velocity. In the magnetic field, the force is perpendicular to the velocity, changes direction when the velocity changes direction, and vanishes for motion along one particular direction (along $$ \vb{B} $$).
+
+A simpler alternative: bring a compass. Its needle aligns with a magnetic field but is not affected by an electric field (as long as it is uncharged).
+
+You could place a charge at rest in the region: if it experiences a force, the field is electric (for example, $$ 10^{-4} \N $$ on a $$ 10\text{-nC} $$ charge in a $$ 10^{4}\text{-N/C} $$ field); if it feels a force only when it moves, and that force is perpendicular to its velocity, the field is magnetic (a compass needle aligning with the field would also identify a magnetic field).
 
 :::
 
@@ -278,6 +365,28 @@ An example of magnetohydrodynamics (MHD) comes from the flow of a river (salty w
 
 :::
 
+::: solution
+
+**Strategy**
+
+The moving salt water carries positive and negative ions through Earth's magnetic field. The vertical component of the field pushes the ions sideways, toward the two banks, until the resulting electric field balances the magnetic force, just as in the Hall effect. The resulting voltage across the river is $$ \text{emf} = B_{\perp}vw $$, where $$ B_{\perp} $$ is the field component perpendicular to both the flow and the line between the banks (the vertical component for a horizontal flow). Use $$ v = 2.00 \ms $$, a width $$ w = 100 \m $$, and $$ B_{\perp} = 4.00 \times 10^{-5} \text{ T} $$.
+
+**Solution**
+
+1. Find the vertical component of Earth's field at the river's location, $$ B_{\perp} = B\sin\phi $$, where $$ \phi $$ is the dip angle; for $$ B = 5.00 \times 10^{-5} \text{ T} $$ and $$ \phi = 53^\circ $$, $$ B_{\perp} = 4.00 \times 10^{-5} \text{ T} $$.
+2. Measure the speed of the current and the width of the river.
+3. Multiply:
+
+<div class="equation">
+$$ \text{emf} = B_{\perp}vw = (4.00 \times 10^{-5} \text{ T})(2.00 \ms)(100 \m) = 8.00 \times 10^{-3} \text{ V} = 8.00 \text{ mV} $$
+</div>
+
+Because the flow is fastest in the middle and slower near the banks and the bottom, a more careful estimate uses the average speed.
+
+You would calculate the potential difference as a Hall (motional) emf, $$ \text{emf} = B_{\perp}vw $$, multiplying the vertical component of Earth's field by the average speed of the water and the width of the river (for example, $$ (4.00 \times 10^{-5} \text{ T})(2.00 \ms)(100 \m) = 8.00 \text{ mV} $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -285,6 +394,27 @@ An example of magnetohydrodynamics (MHD) comes from the flow of a river (salty w
 ::: problem
 
 Draw gravitational field lines between 2 masses, electric field lines between a positive and a negative charge, electric field lines between 2 positive charges and magnetic field lines around a magnet. Qualitatively describe the differences between the fields and the entities responsible for the field lines.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Draw each field using the usual rules: lines are tangent to the field, are dense where the field is strong, never cross, and point in the direction of the force on a test mass, a positive test charge, or a north pole. Then compare the sources: masses, positive and negative charges, and magnetic poles that always come in pairs.
+
+**Solution**
+
+![Four field-line drawings. (a) Gravitational field of two masses: all lines point inward, ending on the masses, and the region between them has a point of zero field. (b) Electric field of a positive and a negative charge: lines start on the positive charge and end on the negative charge, many of them crossing the gap between the two. (c) Electric field of two positive charges: lines start on both charges and point outward, bending away from each other, with a point of zero field midway between them. (d) Magnetic field of a bar magnet: lines leave the north pole, loop around to the south pole outside the magnet, and continue from south to north inside it, forming closed loops.](../resources/concept_22_11_q06.svg)
+
+**Differences**
+
+- **Gravity:** the lines point *into* every mass and never out, because gravity is only attractive and there is only one sign of mass. The pattern of two masses looks like that of two *negative* charges. Its strength is tiny: two $$ 1.00\text{-kg} $$ masses $$ 1.00 \m $$ apart attract with $$ F = Gm^2/r^2 = 6.67 \times 10^{-11} \N $$.
+- **Positive and negative charges:** the lines begin on the positive charge and end on the negative charge. Opposite charges attract, and many lines connect them. Two $$ 1.00\text{-}\mu\text{C} $$ charges $$ 1.00 \m $$ apart attract with $$ F = kq^2/r^2 = 8.99 \times 10^{-3} \N $$, about $$ 10^{8} $$ times the gravitational force above.
+- **Two positive charges:** the lines start on both charges and bend away from each other, with a point of zero field between them, showing repulsion. Gravity never produces this repulsive pattern.
+- **Bar magnet:** the outside pattern resembles the field of a positive and a negative charge, but the lines do not end on the poles; they continue through the magnet from S to N and form **closed loops**. There are no isolated magnetic poles (monopoles); the field is produced by moving charges (currents and electron spins) in the magnet.
+
+Gravitational field lines all end on masses, which only attract; electric field lines begin on positive charges and end on negative charges, which can either attract or repel; and magnetic field lines form closed loops with no beginning or end, because they are produced by moving charges rather than by isolated magnetic poles.
 
 :::
 
@@ -439,7 +569,7 @@ $$B = \mu_{0} n I$$
 
 $$I = \frac{B}{\mu_{0} n} = \frac{1.20 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(400 \text{ m}^{-1})}$$
 
-$$I = \frac{1.20}{5.03 \times 10^{-4}} = 2390 \text{ A}$$
+$$I = \frac{1.20 \text{ T}}{5.03 \times 10^{-4} \text{ T/A}} = 2390 \text{ A}$$
 
 This is an enormous current, which is why MRI machines use superconducting coils and iron cores to enhance the field.
 
@@ -449,7 +579,7 @@ For a circular current loop, the field at the center is:
 
 $$B_p = \frac{\mu_{0} I_p}{2r_p} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1.05 \times 10^{4} \text{ A})}{2(0.650 \times 10^{-15} \text{ m})}$$
 
-$$B_p = \frac{1.32 \times 10^{-2}}{1.30 \times 10^{-15}} = 1.01 \times 10^{13} \text{ T}$$
+$$B_p = \frac{1.32 \times 10^{-2} \text{ T·m}}{1.30 \times 10^{-15} \text{ m}} = 1.01 \times 10^{13} \text{ T}$$
 
 **Discussion**
 
@@ -489,9 +619,9 @@ $$B = \frac{N\mu_{0} I}{2r}$$
 
 $$B = \frac{(250)(4\pi \times 10^{-7} \text{ T·m/A})(30.0 \text{ A})}{2(0.100 \text{ m})}$$
 
-$$B = \frac{(250)(1.257 \times 10^{-6})(30.0)}{0.200}$$
+$$B = \frac{(250)(1.257 \times 10^{-6} \text{ T·m/A})(30.0 \text{ A})}{0.200 \text{ m}}$$
 
-$$B = \frac{9.42 \times 10^{-3}}{0.200} = 4.71 \times 10^{-2} \text{ T}$$
+$$B = \frac{9.42 \times 10^{-3} \text{ T·m}}{0.200 \text{ m}} = 4.71 \times 10^{-2} \text{ T}$$
 
 **Discussion**
 
@@ -529,7 +659,7 @@ For part (a), we use the formula for the magnetic field around a long straight w
 
 $$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{2\pi (0.500 \text{ m})}$$
 
-$$B = \frac{(4 \times 10^{-7})(1200)}{1.00} = 4.80 \times 10^{-4} \text{ T}$$
+$$B = \frac{(4 \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{1.00 \text{ m}} = 4.80 \times 10^{-4} \text{ T}$$
 
 **(b)** When the outgoing and return wires are side by side, they carry equal currents in opposite directions. At any point equidistant from both wires, the magnetic fields point in opposite directions and **cancel completely**:
 
@@ -601,11 +731,11 @@ What current is needed in the solenoid of the preceding problem, with 10 000 tur
 
 The preceding solenoid has $$n=10\,000\ \text{turns/m}$$. The desired field is
 
-$$B=10^4(5.00\times10^{-5})=0.500\ \text{T}.$$
+$$B=(10^4\ \text{A/m})(5.00\times10^{-5}\ \text{T}\cdot\text{m/A})=0.500\ \text{T}.$$
 
 From $$B=\mu_0nI$$,
 
-$$I=\frac{0.500}{(4\pi\times10^{-7})(10^4)}=39.8\ \text{A}.$$
+$$I=\frac{0.500\ \text{T}}{(4\pi\times10^{-7}\ \text{T}\cdot\text{m/A})(10^4\ \text{m}^{-1})}=39.8\ \text{A}.$$
 
 This uses the ideal long-solenoid approximation.
 
@@ -682,7 +812,7 @@ For part (a), we calculate the magnetic field at the center of a current loop us
 
 $$B_{\text{loop}} = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(5.00 \text{ A})}{2(0.100 \text{ m})}$$
 
-$$B_{\text{loop}} = \frac{6.28 \times 10^{-6}}{0.200} = 3.14 \times 10^{-5} \text{ T}$$
+$$B_{\text{loop}} = \frac{6.28 \times 10^{-6} \text{ T·m}}{0.200 \text{ m}} = 3.14 \times 10^{-5} \text{ T}$$
 
 **(b)** The loop's field must be less than 0.0100% of the measured field:
 
@@ -774,7 +904,7 @@ Each wire is $$r=s/\sqrt2=0.1414\ \text{m}$$ from the center of the 0.200-m squa
 
 For each horizontal pair, vertical field components cancel. The horizontal components all point rightward. Each top wire contributes $$1.00\times10^{-5}\ \text{T}$$ rightward and each bottom wire $$5.00\times10^{-6}\ \text{T}$$. Hence
 
-$$B_x=2(1.00\times10^{-5})+2(5.00\times10^{-6})=3.00\times10^{-5}\ \text{T},\qquad B_y=0.$$
+$$B_x=2(1.00\times10^{-5}\ \text{T})+2(5.00\times10^{-6}\ \text{T})=3.00\times10^{-5}\ \text{T},\qquad B_y=0.$$
 
 The field is **3.00 × 10⁻⁵ T toward the right**, parallel to the square's top and bottom sides.
 
@@ -829,7 +959,7 @@ $$I = \frac{P}{V} = \frac{4.50 \times 10^8 \text{ W}}{3.00 \times 10^5 \text{ V}
 
 $$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1500 \text{ A})}{2\pi (20 \text{ m})}$$
 
-$$B = \frac{(4 \times 10^{-7})(1500)}{40} = \frac{6.00 \times 10^{-4}}{40} = 1.50 \times 10^{-5} \text{ T}$$
+$$B = \frac{(4 \times 10^{-7} \text{ T·m/A})(1500 \text{ A})}{40 \text{ m}} = \frac{6.00 \times 10^{-4} \text{ T·m}}{40 \text{ m}} = 1.50 \times 10^{-5} \text{ T}$$
 
 **Discussion**
 
@@ -879,7 +1009,7 @@ This is an integrated concepts problem combining energy conservation (to find th
 **(a)** *Step 1: Find the velocity at the bottom using energy conservation*
 
 $$mgh = \frac{1}{2}mv^{2}$$
-$$v = \sqrt{2gh} = \sqrt{2(9.80)(0.300)} = \sqrt{5.88} = 2.42 \text{ m/s}$$
+$$v = \sqrt{2gh} = \sqrt{2(9.80 \text{ m/s}^2)(0.300 \text{ m})} = \sqrt{5.88 \text{ m}^2/\text{s}^2} = 2.42 \text{ m/s}$$
 
 *Step 2: Calculate the magnetic force*
 
@@ -892,7 +1022,7 @@ $$F = 9.08 \times 10^{-7} \text{ N} \approx 9.09 \times 10^{-7} \text{ N}$$
 *Direction:* Using RHR-1 for a positive charge moving horizontally through a horizontal magnetic field, the force is **upward** (perpendicular to both $\vec{v}$ and $\vec{B}$).
 
 **(b)** *Free-body diagram at the bottom:*
-- Weight: $W = mg = (0.0300)(9.80) = 0.294 \text{ N}$ (downward)
+- Weight: $W = mg = (0.0300 \text{ kg})(9.80 \text{ m/s}^2) = 0.294 \text{ N}$ (downward)
 - Tension: $T$ (upward along the string, but the bob is at the bottom of its swing)
 - Magnetic force: $F_B = 9.09 \times 10^{-7} \text{ N}$ (upward)
 
@@ -942,21 +1072,21 @@ of an electron accelerated through the same potential.
 
 $$eV = \frac{1}{2}m_e v_e^2$$
 
-$$V = \frac{m_e v_e^2}{2e} = \frac{(9.11 \times 10^{-31})(6.00 \times 10^{7})^2}{2(1.60 \times 10^{-19})}$$
+$$V = \frac{m_e v_e^2}{2e} = \frac{(9.11 \times 10^{-31} \text{ kg})(6.00 \times 10^{7} \text{ m/s})^2}{2(1.60 \times 10^{-19} \text{ C})}$$
 
-$$V = \frac{(9.11 \times 10^{-31})(3.60 \times 10^{15})}{3.20 \times 10^{-19}} = \frac{3.28 \times 10^{-15}}{3.20 \times 10^{-19}} = 1.02 \times 10^{4} \text{ V}$$
+$$V = \frac{(9.11 \times 10^{-31} \text{ kg})(3.60 \times 10^{15} \text{ m}^2/\text{s}^2)}{3.20 \times 10^{-19} \text{ C}} = \frac{3.28 \times 10^{-15} \text{ J}}{3.20 \times 10^{-19} \text{ C}} = 1.02 \times 10^{4} \text{ V}$$
 
 **(b)** For the proton accelerated through the same voltage:
 
-$$v_p = \sqrt{\frac{2eV}{m_p}} = \sqrt{\frac{2(1.60 \times 10^{-19})(1.02 \times 10^{4})}{1.67 \times 10^{-27}}}$$
+$$v_p = \sqrt{\frac{2eV}{m_p}} = \sqrt{\frac{2(1.60 \times 10^{-19} \text{ C})(1.02 \times 10^{4} \text{ V})}{1.67 \times 10^{-27} \text{ kg}}}$$
 
-$$v_p = \sqrt{\frac{3.26 \times 10^{-15}}{1.67 \times 10^{-27}}} = \sqrt{1.95 \times 10^{12}} = 1.40 \times 10^{6} \text{ m/s}$$
+$$v_p = \sqrt{\frac{3.26 \times 10^{-15} \text{ J}}{1.67 \times 10^{-27} \text{ kg}}} = \sqrt{1.95 \times 10^{12} \text{ m}^2/\text{s}^2} = 1.40 \times 10^{6} \text{ m/s}$$
 
 Radius of proton path:
-$$r_p = \frac{m_p v_p}{eB} = \frac{(1.67 \times 10^{-27})(1.40 \times 10^{6})}{(1.60 \times 10^{-19})(0.500)} = \frac{2.34 \times 10^{-21}}{8.00 \times 10^{-20}} = 0.0292 \text{ m}$$
+$$r_p = \frac{m_p v_p}{eB} = \frac{(1.67 \times 10^{-27} \text{ kg})(1.40 \times 10^{6} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.500 \text{ T})} = \frac{2.34 \times 10^{-21} \text{ kg·m/s}}{8.00 \times 10^{-20} \text{ C·T}} = 0.0292 \text{ m}$$
 
 Radius of electron path:
-$$r_e = \frac{m_e v_e}{eB} = \frac{(9.11 \times 10^{-31})(6.00 \times 10^{7})}{(1.60 \times 10^{-19})(0.500)} = \frac{5.47 \times 10^{-23}}{8.00 \times 10^{-20}} = 6.83 \times 10^{-4} \text{ m}$$
+$$r_e = \frac{m_e v_e}{eB} = \frac{(9.11 \times 10^{-31} \text{ kg})(6.00 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.500 \text{ T})} = \frac{5.47 \times 10^{-23} \text{ kg·m/s}}{8.00 \times 10^{-20} \text{ C·T}} = 6.83 \times 10^{-4} \text{ m}$$
 
 Ratio:
 $$\frac{r_p}{r_e} = \frac{0.0292}{6.83 \times 10^{-4}} = 42.8$$
@@ -1000,15 +1130,15 @@ For a charged particle in a magnetic field, the radius of the circular path is $
 
 $$KE = \frac{1}{2}m_p v^2$$
 
-$$v = \sqrt{\frac{2 \times KE}{m_p}} = \sqrt{\frac{2(4.00 \times 10^{-12})}{1.67 \times 10^{-27}}}$$
+$$v = \sqrt{\frac{2 \times KE}{m_p}} = \sqrt{\frac{2(4.00 \times 10^{-12} \text{ J})}{1.67 \times 10^{-27} \text{ kg}}}$$
 
-$$v = \sqrt{4.79 \times 10^{15}} = 6.92 \times 10^{7} \text{ m/s}$$
+$$v = \sqrt{4.79 \times 10^{15} \text{ m}^2/\text{s}^2} = 6.92 \times 10^{7} \text{ m/s}$$
 
 *Step 2: Calculate the radius of curvature*
 
 $$r = \frac{m_p v}{qB} = \frac{(1.67 \times 10^{-27} \text{ kg})(6.92 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(1.20 \text{ T})}$$
 
-$$r = \frac{1.16 \times 10^{-19}}{1.92 \times 10^{-19}} = 0.602 \text{ m} = 60.2 \text{ cm}$$
+$$r = \frac{1.16 \times 10^{-19} \text{ kg·m/s}}{1.92 \times 10^{-19} \text{ C·T}} = 0.602 \text{ m} = 60.2 \text{ cm}$$
 
 **Discussion**
 
@@ -1051,7 +1181,7 @@ This is an electromagnetic flow meter. The Hall voltage is $\varepsilon = Bvd$ w
 **(a)** From the Hall voltage formula:
 
 $$\varepsilon = Bvd$$
-$$v = \frac{\varepsilon}{Bd} = \frac{0.0600 \text{ V}}{(0.500 \text{ T})(0.0300 \text{ m})} = \frac{0.0600}{0.0150} = 4.00 \text{ m/s}$$
+$$v = \frac{\varepsilon}{Bd} = \frac{0.0600 \text{ V}}{(0.500 \text{ T})(0.0300 \text{ m})} = \frac{0.0600 \text{ V}}{0.0150 \text{ T·m}} = 4.00 \text{ m/s}$$
 
 The cross-sectional area:
 $$A = \pi r^2 = \pi (0.0150 \text{ m})^2 = 7.07 \times 10^{-4} \text{ m}^2$$
@@ -1064,9 +1194,9 @@ $$Q = 2.83 \times 10^{-3} \text{ m}^3/\text{s} \times \frac{1000 \text{ L}}{1 \t
 
 **(b)** For the same flow rate through the larger pipe:
 
-$$v_2 = \frac{Q}{A_2} = \frac{2.83 \times 10^{-3}}{\pi(0.0500)^2} = \frac{2.83 \times 10^{-3}}{7.85 \times 10^{-3}} = 0.360 \text{ m/s}$$
+$$v_2 = \frac{Q}{A_2} = \frac{2.83 \times 10^{-3} \text{ m}^3/\text{s}}{\pi(0.0500 \text{ m})^2} = \frac{2.83 \times 10^{-3} \text{ m}^3/\text{s}}{7.85 \times 10^{-3} \text{ m}^2} = 0.360 \text{ m/s}$$
 
-$$\varepsilon_{2} = Bv_{2} d_2 = (0.500)(0.360)(0.100) = 0.0180 \text{ V} = 18.0 \text{ mV}$$
+$$\varepsilon_{2} = Bv_{2} d_2 = (0.500 \text{ T})(0.360 \text{ m/s})(0.100 \text{ m}) = 0.0180 \text{ V} = 18.0 \text{ mV}$$
 
 **Discussion**
 
@@ -1164,7 +1294,7 @@ rotation and is stretched by the $$60 ^\circ $$ arc moved?
 - Angular deflection: $\theta = 60° = \pi/3 \text{ rad}$
 
 **(a)** The coil area:
-$$A = \pi r^2 = \pi (0.0150)^2 = 7.07 \times 10^{-4} \text{ m}^2$$
+$$A = \pi r^2 = \pi (0.0150 \text{ m})^2 = 7.07 \times 10^{-4} \text{ m}^2$$
 
 Maximum torque:
 $$\tau_{\text{max}} = NIAB = (50)(5.0 \times 10^{-5})(7.07 \times 10^{-4})(0.500)$$
@@ -1330,7 +1460,7 @@ The cyclotron frequency:
 
 $$f = \frac{qB}{2\pi m} = \frac{(1.60 \times 10^{-19} \text{ C})(1.20 \text{ T})}{2\pi (1.67 \times 10^{-27} \text{ kg})}$$
 
-$$f = \frac{1.92 \times 10^{-19}}{1.05 \times 10^{-26}} = 1.83 \times 10^{7} \text{ Hz} = 18.3 \text{ MHz}$$
+$$f = \frac{1.92 \times 10^{-19} \text{ C·T}}{1.05 \times 10^{-26} \text{ kg}} = 1.83 \times 10^{7} \text{ Hz} = 18.3 \text{ MHz}$$
 
 **Discussion**
 
@@ -1373,19 +1503,19 @@ First calculate the magnetic force on the charged baseball, then find the accele
 
 **(a)** *Step 1: Calculate the magnetic force*
 
-$$F = qvB = (1.00 \times 10^{-7})(40.0)(5.00 \times 10^{-5}) = 2.00 \times 10^{-10} \text{ N}$$
+$$F = qvB = (1.00 \times 10^{-7} \text{ C})(40.0 \text{ m/s})(5.00 \times 10^{-5} \text{ T}) = 2.00 \times 10^{-10} \text{ N}$$
 
 *Step 2: Find the acceleration*
 
-$$a = \frac{F}{m} = \frac{2.00 \times 10^{-10}}{0.140} = 1.43 \times 10^{-9} \text{ m/s}^2$$
+$$a = \frac{F}{m} = \frac{2.00 \times 10^{-10} \text{ N}}{0.140 \text{ kg}} = 1.43 \times 10^{-9} \text{ m/s}^2$$
 
 *Step 3: Find the time of flight*
 
-$$t = \frac{x}{v} = \frac{30.0}{40.0} = 0.750 \text{ s}$$
+$$t = \frac{x}{v} = \frac{30.0 \text{ m}}{40.0 \text{ m/s}} = 0.750 \text{ s}$$
 
 *Step 4: Calculate the deflection*
 
-$$y = \frac{1}{2}at^{2} = \frac{1}{2}(1.43 \times 10^{-9})(0.750)^2 = 4.02 \times 10^{-10} \text{ m}$$
+$$y = \frac{1}{2}at^{2} = \frac{1}{2}(1.43 \times 10^{-9} \text{ m/s}^2)(0.750 \text{ s})^2 = 4.02 \times 10^{-10} \text{ m}$$
 
 **(b)** The deflection is about $4 \times 10^{-10}$ m, or 0.4 nanometers—about the size of a few atoms! This is completely undetectable and utterly useless as a technique for throwing curve balls. **No, this would not work as a secret pitching technique.**
 
@@ -1420,7 +1550,7 @@ Calculate the resistance per meter and the voltage per meter needed.
 
 **(b)**
 
-$$F/L=IB=(20.0)(3.00\times10^{-5})=6.00\times10^{-4}\ \text{N/m}.$$
+$$F/L=IB=(20.0\ \text{A})(3.00\times10^{-5}\ \text{T})=6.00\times10^{-4}\ \text{N/m}.$$
 
 **(c)** Using copper density $$\rho_m=8960\ \text{kg/m}^3$$, weight balance gives
 
@@ -1465,7 +1595,7 @@ Thus $$I_2=(w/L)/B_1=1.73\times10^3\ \text{A}$$.
 
 **(b)** Orient the wires so Earth's horizontal field adds to the lower wire's field at the upper wire:
 
-$$I_{2,\min}=\frac{w/L}{B_1+B_E}=\frac{0.462}{2.67\times10^{-4}+3.00\times10^{-5}}=1.56\times10^3\ \text{A}.$$
+$$I_{2,\min}=\frac{w/L}{B_1+B_E}=\frac{0.462\ \text{N/m}}{2.67\times10^{-4}\ \text{T}+3.00\times10^{-5}\ \text{T}}=1.56\times10^3\ \text{A}.$$
 
 This is about a 10% reduction and is not negligible.
 
@@ -1506,7 +1636,7 @@ $$F = qvB$$
 
 $$q = \frac{F}{vB} = \frac{1.00 \text{ N}}{(35.0 \text{ m/s})(5.00 \times 10^{-5} \text{ T})}$$
 
-$$q = \frac{1.00}{1.75 \times 10^{-3}} = 571 \text{ C}$$
+$$q = \frac{1.00 \text{ N}}{1.75 \times 10^{-3} \text{ T·m/s}} = 571 \text{ C}$$
 
 **(b)** This charge of 571 coulombs is **completely unreasonable**. For comparison:
 - Lightning bolts transfer about 5 C
@@ -1559,9 +1689,9 @@ Use the radius formula for circular motion in a magnetic field: $r = mv/(qB)$. S
 
 $$r = \frac{mv}{qB}$$
 
-$$q = \frac{mv}{rB} = \frac{(6.64 \times 10^{-27})(8.70 \times 10^{5})}{(0.0160)(1.50)}$$
+$$q = \frac{mv}{rB} = \frac{(6.64 \times 10^{-27} \text{ kg})(8.70 \times 10^{5} \text{ m/s})}{(0.0160 \text{ m})(1.50 \text{ T})}$$
 
-$$q = \frac{5.78 \times 10^{-21}}{0.0240} = 2.41 \times 10^{-19} \text{ C}$$
+$$q = \frac{5.78 \times 10^{-21} \text{ kg·m/s}}{0.0240 \text{ T·m}} = 2.41 \times 10^{-19} \text{ C}$$
 
 In units of elementary charges:
 $$\frac{q}{e} = \frac{2.41 \times 10^{-19}}{1.60 \times 10^{-19}} = 1.51$$
@@ -1620,7 +1750,7 @@ $$\varepsilon = BLv$$
 
 $$v = \frac{\varepsilon}{BL} = \frac{120 \text{ V}}{(5.00 \times 10^{-5} \text{ T})(1.00 \text{ m})}$$
 
-$$v = \frac{120}{5.00 \times 10^{-5}} = 2.40 \times 10^{6} \text{ m/s}$$
+$$v = \frac{120 \text{ V}}{5.00 \times 10^{-5} \text{ T·m}} = 2.40 \times 10^{6} \text{ m/s}$$
 
 **(b)** This speed is unreasonable because:
 - It equals $\frac{2.40 \times 10^6}{3.00 \times 10^8} = 0.80\%$ of the speed of light
@@ -1673,7 +1803,7 @@ $$\varepsilon = Bvd$$
 
 $$B = \frac{\varepsilon}{vd} = \frac{0.500 \text{ V}}{(0.300 \text{ m/s})(0.0150 \text{ m})}$$
 
-$$B = \frac{0.500}{4.50 \times 10^{-3}} = 111 \text{ T}$$
+$$B = \frac{0.500 \text{ V}}{4.50 \times 10^{-3} \text{ m}^2/\text{s}} = 111 \text{ T}$$
 
 **(b)** A field of 111 T is **completely unreasonable**:
 - The strongest continuous magnetic field ever produced is about 45 T
@@ -1725,12 +1855,12 @@ Use the straight wire magnetic field formula $B = \mu_0 I/(2\pi r)$ to find the 
 
 $$B = \frac{\mu_{0} I}{2\pi r}$$
 
-$$I = \frac{2\pi r B}{\mu_{0}} = \frac{2\pi (100)(5.00 \times 10^{-5})}{4\pi \times 10^{-7}}$$
+$$I = \frac{2\pi r B}{\mu_{0}} = \frac{2\pi (100 \text{ m})(5.00 \times 10^{-5} \text{ T})}{4\pi \times 10^{-7} \text{ T·m/A}}$$
 
-$$I = \frac{2 \times 100 \times 5.00 \times 10^{-5}}{4 \times 10^{-7}} = \frac{0.0100}{4 \times 10^{-7}} = 25{,}000 \text{ A} = 25.0 \text{ kA}$$
+$$I = \frac{2 (100 \text{ m})(5.00 \times 10^{-5} \text{ T})}{4 \times 10^{-7} \text{ T·m/A}} = \frac{0.0100 \text{ T·m}}{4 \times 10^{-7} \text{ T·m/A}} = 25{,}000 \text{ A} = 25.0 \text{ kA}$$
 
 **(b)** This current is unreasonably high:
-- At 200 kV, this implies power: $P = IV = (25{,}000)(200{,}000) = 5.0 \times 10^9 \text{ W} = 5.0 \text{ GW}$
+- At 200 kV, this implies power: $P = IV = (25{,}000 \text{ A})(200{,}000 \text{ V}) = 5.0 \times 10^9 \text{ W} = 5.0 \text{ GW}$
 - This is about 5 times the output of a large nuclear power plant
 - No single transmission line carries this much power
 - Typical high-voltage lines carry hundreds of MW, not GW
@@ -1778,27 +1908,27 @@ point where they are detected.
 **Solution**
 
 *Known quantities:*
-- Mass of U-238: $m_{238} = 238 \times 1.66 \times 10^{-27} = 3.95 \times 10^{-25} \text{ kg}$
-- Mass of U-235: $m_{235} = 235 \times 1.66 \times 10^{-27} = 3.90 \times 10^{-25} \text{ kg}$
+- Mass of U-238: $m_{238} = 238 \times 1.66 \times 10^{-27} \text{ kg} = 3.95 \times 10^{-25} \text{ kg}$
+- Mass of U-235: $m_{235} = 235 \times 1.66 \times 10^{-27} \text{ kg} = 3.90 \times 10^{-25} \text{ kg}$
 - Velocity: $v = 1.00 \times 10^5 \text{ m/s}$
 - Charge: $q = 1.60 \times 10^{-19} \text{ C}$
 - Desired radius for U-238: $r_{238} = 0.500 \text{ m}$
 
 **(a)** From $r = mv/(qB)$:
 
-$$B = \frac{m_{238}v}{qr_{238}} = \frac{(3.95 \times 10^{-25})(1.00 \times 10^5)}{(1.60 \times 10^{-19})(0.500)}$$
+$$B = \frac{m_{238}v}{qr_{238}} = \frac{(3.95 \times 10^{-25} \text{ kg})(1.00 \times 10^5 \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.500 \text{ m})}$$
 
-$$B = \frac{3.95 \times 10^{-20}}{8.00 \times 10^{-20}} = 0.494 \text{ T}$$
+$$B = \frac{3.95 \times 10^{-20} \text{ kg·m/s}}{8.00 \times 10^{-20} \text{ C·m}} = 0.494 \text{ T}$$
 
 **(b)** Radius for U-235:
 
-$$r_{235} = \frac{m_{235}v}{qB} = \frac{(3.90 \times 10^{-25})(1.00 \times 10^5)}{(1.60 \times 10^{-19})(0.494)}$$
+$$r_{235} = \frac{m_{235}v}{qB} = \frac{(3.90 \times 10^{-25} \text{ kg})(1.00 \times 10^5 \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.494 \text{ T})}$$
 
-$$r_{235} = \frac{3.90 \times 10^{-20}}{7.90 \times 10^{-20}} = 0.494 \text{ m}$$
+$$r_{235} = \frac{3.90 \times 10^{-20} \text{ kg·m/s}}{7.90 \times 10^{-20} \text{ C·T}} = 0.494 \text{ m}$$
 
 **(c)** After a semicircle, the separation is twice the difference in radii:
 
-$$\Delta = 2(r_{238} - r_{235}) = 2(0.500 - 0.494) = 0.012 \text{ m} = 1.2 \text{ cm}$$
+$$\Delta = 2(r_{238} - r_{235}) = 2(0.500 \text{ m} - 0.494 \text{ m}) = 0.012 \text{ m} = 1.2 \text{ cm}$$
 
 **Discussion**
 
@@ -1846,9 +1976,9 @@ coil on the surroundings that could affect detection of the small field.
 
 $$\tau_{\text{max}} = NIAB = NI(\pi r^2)B$$
 
-$$\tau_{\text{max}} = (100)(0.0100)\pi(0.0500)^2(1.00 \times 10^{-6})$$
+$$\tau_{\text{max}} = (100)(0.0100 \text{ A})\pi(0.0500 \text{ m})^2(1.00 \times 10^{-6} \text{ T})$$
 
-$$\tau_{\text{max}} = (1.00)(7.85 \times 10^{-3})(1.00 \times 10^{-6}) = 7.85 \times 10^{-9} \text{ N·m}$$
+$$\tau_{\text{max}} = (1.00 \text{ A})(7.85 \times 10^{-3} \text{ m}^2)(1.00 \times 10^{-6} \text{ T}) = 7.85 \times 10^{-9} \text{ N·m}$$
 
 **(b)** Measurability analysis:
 
@@ -1860,9 +1990,9 @@ This torque of about 8 nN·m is extremely small but detectable with modern instr
 
 **(c)** Coil's self-generated field at center:
 
-$$B_{\text{coil}} = \frac{N\mu_{0} I}{2r} = \frac{(100)(4\pi \times 10^{-7})(0.0100)}{2(0.0500)}$$
+$$B_{\text{coil}} = \frac{N\mu_{0} I}{2r} = \frac{(100)(4\pi \times 10^{-7} \text{ T·m/A})(0.0100 \text{ A})}{2(0.0500 \text{ m})}$$
 
-$$B_{\text{coil}} = \frac{1.26 \times 10^{-6}}{0.100} = 1.26 \times 10^{-5} \text{ T} = 12.6 \text{ μT}$$
+$$B_{\text{coil}} = \frac{1.26 \times 10^{-6} \text{ T·m}}{0.100 \text{ m}} = 1.26 \times 10^{-5} \text{ T} = 12.6 \text{ μT}$$
 
 This is 12.6 times larger than the field being detected! To avoid perturbing the measured field, the magnetometer should:
 - Use the coil only briefly

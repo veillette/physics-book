@@ -284,7 +284,7 @@ Earth as on the Moon?
 
 :::
 
-::: example
+::: example {"class":"example","id":"lawn-mower"}
 
 <div class="title">
 What Acceleration Can a Person Produce when Pushing a Lawn Mower?
@@ -313,6 +313,7 @@ Entering known values gives
 Substituting the units $$ \kg \cdot \mss $$ for N yields
 
 <div class="equation">
+ <!-- physics: eq-7 -->
  $$ a=\frac{51 \kg \cdot \mss }{24 \kg }=2.13 \mss . $$
 </div>
 
@@ -341,7 +342,7 @@ Prior to manned space flights, rocket sleds were used to test aircraft, missile 
 human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by
 several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the
 four-rocket propulsion system shown in [Figure 4](#Figure4). The
-sled’s initial acceleration is $$ 49\mss $$,
+sled’s initial acceleration is <!-- physics: eq-1 -->$$ 49\mss $$,
 the mass of the system is 2100 kg, and the force of friction opposing the motion
 is known to be 650 N.
 
@@ -397,12 +398,14 @@ Substituting known values yields
 So the total thrust is
 
 <div class="equation">
+ <!-- physics: eq-9 -->
  $$ 4T=1.0\times 10^{5}\N , $$
 </div>
 
 and the individual thrusts are
 
 <div class="equation">
+ <!-- physics: eq-10 -->
  $$ T=\frac{1.0\times 10^{5}\N }{4}=2.6\times 10^{4}\N . $$
 </div>
 
@@ -463,6 +466,25 @@ Which statement is correct?
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Use Newton’s second law to distinguish velocity from a change in velocity.
+
+**Solution**
+
+For a constant-mass system, $$\vb F_{\text{net,ext}}=m\vb a$$. Net force produces acceleration, not a requirement that an object already be moving. A glider on an ideal frictionless track can coast at $$2.0\ms$$ with $$F_{\text{net}}=0\N$$. Applying $$+4.0\N$$ to a $$2.0\kg$$ glider instead gives
+
+$$a_x=\frac{4.0\N}{2.0\kg}=2.0\mss,$$
+
+so after $$1.0\s$$ its velocity has changed by $$(2.0\mss)(1.0\s)=2.0\ms$$ in the force direction. A net force can change speed, direction, or both.
+
+Statement (b) is correct: net external force causes a change in motion through acceleration, while motion at constant velocity needs no net external force.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -471,6 +493,25 @@ Which statement is correct?
 
 Why can we neglect forces such as those holding a body together when
 we apply Newton’s second law of motion?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Add the equations of motion for all parts of the selected system.
+
+**Solution**
+
+Forces holding parts of a body together are internal to a system that contains the whole body. For each pair of interacting parts, Newton’s third law gives $$\vb F_{12}=-\vb F_{21}$$, so their contribution to the total force is zero.
+
+For example, two blocks connected by a spring pull on each other with $$+10\N$$ and $$-10\N$$ along a chosen $$x$$ axis; the internal sum is $$10\N-10\N=0\N$$. The spring can change the blocks’ relative motion without accelerating their combined center of mass. Summing all parts gives $$M\vb a_{\text{CM}}=\sum\vb F_{\text{external}}$$.
+
+If only one block is selected, the spring’s force on that block is external and cannot be omitted. Internal forces also matter for stresses, deformation, and motion of individual parts.
+
+We omit internal binding forces from the whole-system center-of-mass equation because they cancel in equal-and-opposite pairs, although they remain important for individual parts and deformation.
 
 :::
 
@@ -485,6 +526,25 @@ must be considered when applying Newton’s second law of motion.
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Classify a force by whether its interacting partner lies inside or outside the chosen boundary.
+
+**Solution**
+
+Suppose a person pushes a $$2.0\kg$$ block with $$6.0\N$$ on a frictionless floor, accelerating an attached $$1.0\kg$$ block. Choose $$+x$$ along the push. For both blocks together, their contact force is internal, so
+
+$$a_x=\frac{6.0\N}{2.0\kg+1.0\kg}=2.0\mss.$$
+
+For the $$1.0\kg$$ block alone, the contact push from the other block is external and equals $$(1.0\kg)(2.0\mss)=2.0\N$$. For the $$2.0\kg$$ block alone, both the person’s push and the opposite contact force must appear: $$6.0\N-2.0\N=(2.0\kg)(2.0\mss)$$. Changing the boundary changes which forces are internal, not the physical acceleration.
+
+The system boundary determines which forces are external and enter its center-of-mass equation; a force can be internal for a combined system and external for one of its parts.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -493,6 +553,25 @@ must be considered when applying Newton’s second law of motion.
 
 Describe a situation in which the net external force on a system is not zero,
 yet its speed remains constant.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Use constant-speed circular motion, where velocity changes direction.
+
+**Solution**
+
+Take a $$1.0\kg$$ puck moving at constant speed $$v=2.0\ms$$ on a circle of radius $$r=1.0\m$$ on a level, frictionless table. A string supplies an inward net horizontal force
+
+$$F_c=\frac{mv^2}{r}=\frac{(1.0\kg)(2.0\ms)^2}{1.0\m}=4.0\N.$$
+
+Choose a local radial axis toward the center. The acceleration is inward, perpendicular to the instantaneous tangential velocity. The perpendicular acceleration changes the velocity’s direction while preserving its magnitude. Weight and the table’s normal force cancel vertically.
+
+Uniform circular motion has constant speed despite a nonzero inward net force, because that force changes the direction of velocity rather than its magnitude.
 
 :::
 
@@ -507,6 +586,25 @@ on it *is* zero. Describe such a situation.
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Choose straight motion at constant velocity with balanced forces.
+
+**Solution**
+
+A car can travel straight at constant $$v_x=20\ms$$ on a level road. If the forward road force is $$500\N$$ and the backward drag plus rolling resistance is $$500\N$$, their horizontal sum is
+
+$$F_{\text{net},x}=500\N-500\N=0\N.$$
+
+Weight and normal force balance vertically. Thus $$\vb a=0\mss$$ and the nonzero velocity remains unchanged. The car may consume fuel to compensate for dissipative forces, but that energy use does not imply a nonzero net force.
+
+A car moving straight at constant nonzero velocity while its driving and resistive forces balance has nonzero velocity and zero net external force.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -515,6 +613,27 @@ on it *is* zero. Describe such a situation.
 
 A rock is thrown straight up. What is the net external force acting
 on the rock when it is at the top of its trajectory?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Draw the forces after the rock has left the hand; zero instantaneous velocity does not eliminate gravity.
+
+**Solution**
+
+Neglect air resistance and choose $$+y$$ upward. At the top, the hand no longer touches the rock, so the only external force is its weight:
+
+$$F_{\text{net},y}=-mg.$$
+
+For an assumed mass $$m=0.50\kg$$, $$F_{\text{net},y}=-(0.50\kg)(9.80\mss)=-4.90\N$$. Consequently $$a_y=F_{\text{net},y}/m=-9.80\mss$$ even though $$v_y=0\ms$$ at that instant.
+
+![Free-body diagram of the rock at the highest point, with +y upward and its only force, weight, downward.](../resources/fbd_04_03_q06.svg){: .fbd}
+
+The net external force at the top is the rock’s weight mg downward, so its acceleration is still downward even though its instantaneous velocity is zero.
 
 :::
 
@@ -532,6 +651,29 @@ different masses, producing different accelerations.
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Vary force and mass separately in a = F_net/m.
+
+**Solution**
+
+**(a)** Use the same $$2.0\kg$$ cart on a frictionless horizontal track. A $$2.0\N$$ net force produces $$a_1=(2.0\N)/(2.0\kg)=1.0\mss$$, whereas $$6.0\N$$ produces $$a_2=(6.0\N)/(2.0\kg)=3.0\mss$$ in the force direction.
+
+**(b)** Apply the same $$6.0\N$$ net force to carts of $$2.0\kg$$ and $$3.0\kg$$. Their accelerations are respectively $$3.0\mss$$ and $$(6.0\N)/(3.0\kg)=2.0\mss$$.
+
+**(c)** Newton’s second law describes both: acceleration is in the direction of net external force, proportional to that force, and inversely proportional to mass. For a constant-mass system,
+
+$$\vb F_{\text{net,ext}}=m\vb a.$$
+
+Only the net force is varied in (a), and only the mass is varied in (b).
+
+Newton’s second law explains both examples: a larger net force gives the same mass a larger acceleration, while the same net force gives a larger mass a smaller acceleration.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -543,6 +685,23 @@ What about internal forces? Explain your answers.
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Distinguish a zero vector sum from the absence of individual forces.
+
+**Solution**
+
+Zero center-of-mass acceleration implies $$\sum\vb F_{\text{external}}=0$$, not that each external force vanishes. A $$2.0\kg$$ book at rest on a level table has weight $$(2.0\kg)(9.80\mss)=19.6\N$$ downward and normal force $$19.6\N$$ upward. With $$+y$$ upward, $$F_{\text{net},y}=19.6\N-19.6\N=0\N$$.
+
+Internal electromagnetic forces hold the book’s molecules together and can support internal stresses. They need not vanish either; they cancel in the total force on the whole system. Even internal motion can occur while a system’s center of mass has zero acceleration.
+
+Zero acceleration requires zero net external force, but balanced external forces and nonzero internal forces may still act.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -551,6 +710,27 @@ What about internal forces? Explain your answers.
 
 If a constant, nonzero force is applied to an object, what can you say about
 the velocity and acceleration of the object?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Specify whether the stated force is the net force and assume constant mass.
+
+**Solution**
+
+If a constant, nonzero force is the **net external force** on a constant mass, then $$\vb a=\vb F_{\text{net}}/m$$ is constant and nonzero. Velocity changes linearly:
+
+$$\vb v=\vb v_0+\frac{\vb F_{\text{net}}}{m}t.$$
+
+For a $$2.0\kg$$ cart with $$F_{\text{net},x}=+4.0\N$$, $$a_x=+2.0\mss$$. If $$v_{0x}=-3.0\ms$$, it initially slows, stops after $$(3.0\ms)/(2.0\mss)=1.5\s$$, then speeds up in $$+x$$. A constant force does not mean constant velocity or necessarily increasing speed at every instant.
+
+If the question refers to only **one applied force**, other forces may balance it; no acceleration can be inferred until the net force is known.
+
+A constant nonzero net force on a constant mass produces constant nonzero acceleration and a linearly changing velocity; one applied force alone is insufficient to determine the motion if other forces also act.
 
 :::
 
@@ -566,17 +746,40 @@ force on the basketball—above horizontal, below horizontal, or still horizonta
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Add the ball’s downward weight to the player’s horizontal push.
+
+**Solution**
+
+Choose $$+x$$ along the push and $$+y$$ upward. During the horizontal push illustrated, neglect air resistance and any other contact component. The forces give
+
+$$\vb F_{\text{net}}=F\hat{\mathbf{x}}-mg\hat{\mathbf{y}}.$$
+
+For illustrative $$m=0.50\kg$$ and $$F=9.80\N$$, the components are $$F_x=+9.80\N$$ and $$F_y=-(0.50\kg)(9.80\mss)=-4.90\N$$. The resultant points at $$\tan^{-1}(4.90/9.80)=26.6°$$ below the horizontal, with magnitude $$\sqrt{(9.80\N)^2+(4.90\N)^2}=11.0\N$$.
+
+![Horizontal applied force and downward weight combine into a net force below the horizontal.](../resources/concept_04_03_q10.svg)
+
+After the hand loses contact, only weight remains in this model, and the net force is vertically downward.
+
+While the shown horizontal push acts, including gravity makes the basketball’s net external force point below the horizontal.
+
+:::
+
 </div>
 
 #### Problem Exercises
 
 **You may assume data taken from illustrations is accurate to three digits.**
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="sprinter">
 
 ::: problem
 
-A 63.0-kg sprinter starts a race with an acceleration of $$ 4.20 \mss $$.
+A 63.0-kg sprinter starts a race with an acceleration of <!-- physics: eq-0 -->$$ 4.20 \mss $$.
 What is the net external force on him?
 
 :::
@@ -595,6 +798,7 @@ Apply Newton's second law directly. Given mass and acceleration, calculate the n
 
 2. Apply Newton's second law:
 <div class="equation">
+<!-- physics: eq-4 -->
 $$ F_{net} = ma = (63.0 \kg)(4.20 \mss) = 265 \N $$
 </div>
 
@@ -667,7 +871,7 @@ The sprinter's time for the 100-m dash would be approximately $$ 9.26 \s $$.
 
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="laundry-cart">
 
 ::: problem
 
@@ -690,6 +894,7 @@ Use Newton's second law to find acceleration when force and mass are given. Rear
 
 2. Rearrange Newton's second law to solve for acceleration:
 <div class="equation">
+<!-- physics: eq-4 -->
 $$ a = \frac{F_{net}}{m} = \frac{60.0 \N}{4.50 \kg} = \frac{60.0 \kg \cdot \mss}{4.50 \kg} = 13.3 \mss $$
 </div>
 
@@ -953,7 +1158,7 @@ Our calculated acceleration (12.0 m/s²) is close to but slightly less than one-
 
 **Discussion**
 
-This problem illustrates an important principle: when both driving and opposing forces are present, reducing the driving force doesn't reduce the acceleration proportionally. The friction force remains constant regardless of thrust, so it has a larger relative impact when thrust is reduced. This is why vehicles need disproportionately more power to achieve higher speeds—resistance forces remain significant throughout.
+When both driving and opposing forces are present, reducing the driving force does not reduce the acceleration in the same proportion. Here the friction force stays constant, so it takes up a larger fraction of the thrust when fewer rockets are burning.
 
 **Answer**
 
@@ -1048,10 +1253,10 @@ The system is the child in the wagon plus the wagon. This is the object whose ac
 
 ![Free-body diagram of the child plus wagon with +x to the right and +y up: F sub 2 to the right, a slightly shorter F sub 1 to the left, a short friction force f to the left, normal force N up, and weight w down. The acceleration points to the right.](../resources/fbd_04_03_p09.svg){: .fbd #Figure7}
 
-We choose $$ +x $$ to the right (the direction of the larger push) and $$ +y $$ upward. The diagram shows:
+We choose $$ +x $$ to the right (the direction of the larger push) and $$ +y $$ upward. Assume the wagon is moving to the right, so friction acts to the left. The diagram shows:
 - $$ F_2 = 90.0 \N $$, along $$ +x $$
 - $$ F_1 = 75.0 \N $$, along $$ -x $$
-- $$ f = 12.0 \N $$ (friction opposes the motion, which is along $$ +x $$ since the net push is rightward), along $$ -x $$
+- $$ f = 12.0 \N $$ (opposing the assumed rightward motion), along $$ -x $$
 - $$ w $$ (weight), along $$ -y $$
 - $$ N $$ (normal force), along $$ +y $$; since there is no vertical acceleration, $$ \sum F_y = N - w = 0 $$
 
@@ -1188,7 +1393,7 @@ For part (a), use Newton's second law to find the horizontal force needed to acc
 
 ![Free-body diagram of the passenger with +x forward (to the right) and +y up: the seat force F sub total points forward and slightly upward at angle theta above +x, with dashed components F sub x along +x and F sub y along +y; the weight w points down. The acceleration points to the right.](../resources/fbd_04_03_p11.svg){: .fbd}
 
-Only two objects touch the passenger: the Earth (weight $$ w $$, along $$ -y $$) and the seat, whose single force $$ F_{\text{total}} $$ we split into components $$ F_x $$ and $$ F_y $$ along the axes shown. The acceleration is along $$ +x $$, so $$ a_x = 49.0 \mss $$ and $$ a_y = 0 $$.
+Two other bodies interact with the passenger: the Earth (weight $$ w $$, along $$ -y $$) and the seat, whose single force $$ F_{\text{total}} $$ we split into components $$ F_x $$ and $$ F_y $$ along the axes shown. The acceleration is along $$ +x $$, so $$ a_x = 49.0 \mss $$ and $$ a_y = 0 $$.
 
 **Solution**
 
@@ -1226,16 +1431,16 @@ So the seat force has components:
 
 Total force magnitude using the Pythagorean theorem:
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(3675)^2 + (735)^2} $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(3675 \N)^2 + (735 \N)^2} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{13{,}505{,}625 + 540{,}225} = \sqrt{14{,}045{,}850} = 3748 \N \approx 3750 \N $$
+$$ F_{\text{total}} = \sqrt{13{,}505{,}625 \N^2 + 540{,}225 \N^2} = \sqrt{14{,}045{,}850 \N^2} = 3748 \N \approx 3750 \N $$
 </div>
 
 Direction above the $$ +x $$ axis (the angle $$ \theta $$ in the diagram):
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{F_y}{F_x}\right) = \tan^{-1}\left(\frac{735}{3675}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{F_y}{F_x}\right) = \tan^{-1}\left(\frac{735 \N}{3675 \N}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
 </div>
 
 **Discussion**
@@ -1311,21 +1516,21 @@ The horizontal component has magnitude $$ |F_x| = 1.51 \times 10^{4} \N $$ (alon
 
 Total force magnitude:
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(1.51 \times 10^{4})^2 + (735)^2} $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(1.51 \times 10^{4} \N)^2 + (735 \N)^2} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} + 5.40 \times 10^{5}} = \sqrt{2.29 \times 10^{8}} = 1.51 \times 10^{4} \N $$
+$$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} \N^2 + 5.40 \times 10^{5} \N^2} = \sqrt{2.29 \times 10^{8} \N^2} = 1.51 \times 10^{4} \N $$
 </div>
 
 Direction above the $$ -x $$ axis (the angle $$ \theta $$ in the diagram):
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{F_y}{|F_x|}\right) = \tan^{-1}\left(\frac{735}{15{,}100}\right) = 2.79^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{F_y}{|F_x|}\right) = \tan^{-1}\left(\frac{735 \N}{15{,}100 \N}\right) = 2.79^\circ $$
 </div>
 
 **Discussion**
 
-During deceleration, the seat and belts push **backward** on the passenger with a horizontal component over 20 times his weight, while also supporting his weight with an upward component. The total force on the passenger is therefore directed **backward and slightly upward**—**2.79° above the backward horizontal**.
+During deceleration, the seat and belts push **backward** on the passenger with a horizontal component over 20 times his weight, while also supporting his weight with an upward component. The contact force from the seat and belt on the passenger is therefore directed **backward and slightly upward**—**2.79° above the backward horizontal**.
 
 **Answer**
 

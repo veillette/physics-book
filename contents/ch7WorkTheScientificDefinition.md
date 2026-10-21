@@ -139,7 +139,7 @@ W&=& 1536 \J =1.54\times 10^{3} \J .
 \end{array}$$
 </div>
 
-Converting the work in joules to kilocalories yields $$W=\left(1536 \J \right)\left(1\text{kcal}/4184 \J \right)=0.367\text{kcal}$$.
+Converting the work in joules to kilocalories yields $$W=\left(1536 \J \right)\left(\frac{1\text{kcal}}{4184 \J} \right)=0.367\text{kcal}$$.
 The ratio of the work done to the daily consumption is
 
 <div class="equation">
@@ -186,6 +186,28 @@ your example? If so, explain how this is accomplished without doing work.
 
 :::
 
+::: solution
+
+**Strategy**
+
+In physics, work is $$ W = Fd\cos\theta $$, so a force does work on an object only if the object moves and the force has a component along the motion. Find an everyday "work" in which the object does not move, then trace where the energy goes.
+
+**Solution**
+
+Holding a $$ 20 \kg $$ box at rest at chest height for $$ 60 \s $$ feels like hard work. Your arms push up on the box with a force equal to its weight, $$ F = (20 \kg)(9.80 \mss) = 196 \N $$, but the box does not move, so $$ d = 0 \m $$ and
+
+<div class="equation">
+$$ W = Fd\cos\theta = (196 \N)(0 \m)\cos 0° = 0 \J $$
+</div>
+
+No work is done on the box, and its energy does not change.
+
+Energy is nevertheless transformed, inside your body. To keep pushing, muscle fibers repeatedly contract and relax, each contraction pulling on other tissue over small distances. That internal work, and the chemistry that powers it, turns chemical energy from food into thermal energy. If your arm muscles use an extra $$ 50 \text{ W} $$ to hold the box, then in $$ 60 \s $$ they convert about $$ (50 \text{ W})(60 \s) = 3000 \J $$ of chemical energy into heat. This is why you get tired and warm. The energy changes form within your body without any work being done on the box.
+
+Holding a $$ 196 \N $$ box motionless feels like work but does no work on the box, since its displacement is zero ($$ W = 0 \J $$); energy is still transformed, because your muscles convert chemical energy into thermal energy (about $$ 3000 \J $$ in a minute) through the internal contractions of their fibers, not through work on the box.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -197,6 +219,32 @@ the force does no work. Explain why it does no work.
 
 :::
 
+::: solution
+
+**Strategy**
+
+A force does no work when it is perpendicular to the displacement, because then $$ \cos\theta = \cos 90° = 0 $$ in $$ W = Fd\cos\theta $$.
+
+**Solution**
+
+You carry a $$ 10 \kg $$ backpack at constant velocity across a level room, a distance of $$ 8.0 \m $$. Take $$ +x $$ in your direction of walking and $$ +y $$ straight up. To hold the pack up, your shoulders push on it with an upward force equal to its weight:
+
+<div class="equation">
+$$ F = mg = (10 \kg)(9.80 \mss) = 98 \N \quad \text{(along } +y\text{)} $$
+</div>
+
+The displacement is $$ 8.0 \m $$ along $$ +x $$. The angle between the force and the displacement is $$ 90° $$, so
+
+<div class="equation">
+$$ W = Fd\cos\theta = (98 \N)(8.0 \m)\cos 90° = 0 \J $$
+</div>
+
+The upward force has no component along the motion, so it neither speeds the pack up nor slows it down, and its kinetic and gravitational potential energies stay the same. Other examples: the normal force on a box sliding across a level floor, and the tension in a string whirling a ball in a horizontal circle.
+
+When you carry a backpack across a level room, your upward $$ 98 \N $$ supporting force and the $$ 8.0 \m $$ horizontal displacement are perpendicular, so the force does no work ($$ W = Fd\cos 90° = 0 \J $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -204,6 +252,30 @@ the force does no work. Explain why it does no work.
 ::: problem
 
 Describe a situation in which a force is exerted for a long time but does no work. Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The time a force acts does not appear in $$ W = Fd\cos\theta $$. Look for a force that acts for a long time but with zero displacement, or always perpendicular to the motion.
+
+**Solution**
+
+**Example 1: a shelf holding a book.** A shelf supports a $$ 2.0 \kg $$ book for a whole year, pushing up with $$ N = (2.0 \kg)(9.80 \mss) = 19.6 \N $$. The book never moves, so $$ d = 0 \m $$ and
+
+<div class="equation">
+$$ W = (19.6 \N)(0 \m) = 0 \J $$
+</div>
+
+no matter how long the force acts.
+
+**Example 2: Earth's gravity on the Moon.** Earth has pulled on the Moon for billions of years with a force of about $$ 2.0 \times 10^{20} \N $$. The Moon's orbit is nearly circular, so this force, directed toward Earth, is always nearly perpendicular to the Moon's velocity, which is along the orbit. In every short stretch of the orbit $$ \theta = 90° $$, so $$ W = Fd\cos 90° = 0 \J $$. The Moon's speed and kinetic energy therefore stay nearly constant.
+
+Work depends on force and displacement, not on time.
+
+A force can act for a long time without doing work if the object does not move, as when a shelf supports a book with $$ 19.6 \N $$ for a year, or if the force stays perpendicular to the motion, as Earth's gravity does on the Moon's nearly circular orbit; in both cases $$ W = Fd\cos\theta = 0 \J $$.
 
 :::
 
@@ -316,6 +388,12 @@ The work done to lift the person climbing stairs is **$$1.84 \times 10^{3}$$ J**
 **Strategy**
 
 At constant speed, the net force is zero. The cable must pull upward with a force equal to the weight of the elevator plus the friction force. For part (a), we calculate the work done by the cable using $$W = Fd$$. For part (b), gravity does negative work since it acts downward while the displacement is upward. For part (c), we sum all work done on the elevator.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the car’s starting position and a tick at 40.0 m. The car rises 40.0 m: the displacement d points along +y. Forces on the car: cable tension T along +y, weight w = mg and friction f along −y. The speed is constant, so a = 0.](../resources/sketch_07_01_p03.svg){: .sketch}
+
+Take $$ +y $$ upward, the direction of motion. The cable tension $$ T $$ points along $$ +y $$, parallel to the displacement ($$ \theta = 0^\circ $$, positive work), while the weight $$ w = mg $$ and friction $$ f $$ point along $$ -y $$, opposite to it ($$ \theta = 180^\circ $$, negative work).
 
 **Solution**
 
@@ -496,6 +574,12 @@ include the work he does on the crate *and* on his body to get up the ramp.
 
 The total work includes: (1) work done pushing the crate with force 500 N through distance 4.00 m, and (2) work done raising his own body mass. The vertical height gained is $$h = d\sin{\theta} = (4.00\m)\sin{20.0^\circ}$$.
 
+**Sketch and coordinate system**
+
+![A ramp rises at 20.0° to the right. +x points up the ramp, the direction of the push and of the motion; a vertical +y axis (up) measures height, with 0 at the bottom of the ramp and 1.37 m at the top. The crate moves d = 4.00 m along +x while the man pushes it with F = 500 N, also along +x. Both the crate and the man rise h = d sin 20.0° = 1.37 m.](../resources/sketch_07_01_p05.svg){: .sketch}
+
+Take $$ +x $$ up the ramp, the direction of the push and of the motion, and measure heights along $$ +y $$ (upward) from the bottom of the ramp. The push $$ F $$ and the displacement $$ d $$ both point along $$ +x $$, so $$ W_{\text{crate}} = +Fd $$; the man and the crate both rise $$ h = d\sin{20.0^\circ} $$ along $$ +y $$.
+
 **Solution**
 
 Work done pushing the crate:
@@ -561,6 +645,12 @@ in [Figure 3](#Figure3)? Assume no friction acts on the wagon.
 
 The work done is given by $$W = Fd\cos{\theta}$$, where $$F = 50.0\N$$ is the magnitude of the pulling force, $$d = 30.0\m$$ is the displacement, and $$\theta = 30.0^\circ$$ is the angle between the force and the horizontal displacement.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of motion and +y up. The pull F = 50.0 N points 30.0° above +x; its x-component F cos 30.0° lies along +x. The displacement d = 30.0 m lies along +x.](../resources/sketch_07_01_p06.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ upward. The displacement lies along $$ +x $$, so only the $$ x $$-component of the pull, $$ F\cos{30.0^\circ} $$, does work; the $$ y $$-component is perpendicular to the motion.
+
 **Solution**
 
 Substituting the known values into the work equation:
@@ -608,6 +698,12 @@ below the horizontal.
 **Strategy**
 
 For constant speed, the net force is zero. The friction force opposes motion ($$\theta = 180^\circ$$), gravity is perpendicular to motion, and the shopper pushes at $$25.0^\circ$$ below horizontal. We use $$W = Fd\cos{\theta}$$ for each force.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of motion and +y up. The shopper’s push F points 25.0° below +x. Friction f = 35.0 N points along −x, the weight w along −y, and the normal force N along +y. The displacement d = 20.0 m lies along +x; the speed is constant.](../resources/sketch_07_01_p07.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ upward. The displacement $$ d $$ and the $$ x $$-component of the push, $$ F\cos{25.0^\circ} $$, point along $$ +x $$, while friction points along $$ -x $$. The weight and the normal force lie along the $$ y $$-axis, perpendicular to the motion, so they do no work.
 
 **Solution for (a)**
 
@@ -702,6 +798,12 @@ coefficient of friction between the sled and the snow is 0.100.
 **Strategy**
 
 First, we need to find the forces acting on the sled. The normal force is $$N = mg\cos{\theta}$$. The friction force is $$f = \mu_{k}N = \mu_{k}mg\cos{\theta}$$. Since the sled moves down the slope at constant speed, the net force is zero. The component of weight down the slope is $$mg\sin{\theta}$$. We can use $$W = Fd\cos{\alpha}$$ for each force, where $$\alpha$$ is the angle between the force and displacement.
+
+**Sketch and coordinate system**
+
+![A 60.0° slope descends to the right. Tilted axes: +x points down the slope, the direction of motion, and +y points perpendicular to the slope, away from it. Forces on the sled: rope tension T and friction f point up the slope (−x), the normal force N along +y, and the weight w straight down, whose component along +x is mg sin 60.0°. The displacement d = 30.0 m points along +x; the speed is constant.](../resources/sketch_07_01_p08.svg){: .sketch}
+
+Use tilted axes: $$ +x $$ down the slope, the direction of motion, and $$ +y $$ perpendicular to the slope. The displacement is $$ d = +30.0\m $$ along $$ +x $$. The weight's component $$ mg\sin{60.0^\circ} $$ points along $$ +x $$ (positive work), the rope tension $$ T $$ and friction $$ f $$ point along $$ -x $$ (negative work), and $$ N $$ along $$ +y $$ does no work. With $$ a = 0 $$, $$ \sum F_x = mg\sin{\theta} - T - f = 0 $$.
 
 **Solution for (a)**
 

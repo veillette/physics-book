@@ -156,7 +156,7 @@ with points for final position and initial position. Displacement 1, shown
 by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, 
 shown by an arrow pointing rightward, equals 2 kilometers. To the right is a 
 pair of x and y axes, showing that east is the positive x direction and west 
-is the negative x direction.](../resources/Figure_02_01_04.jpg 'Displacements 
+is the negative x direction.](../resources/Figure_02_01_04.svg 'Displacements 
 '){: #Figure4}
 
 (a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
@@ -203,6 +203,26 @@ Give an example in which there are clear distinctions among distance traveled, d
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a trip that reverses direction, so that the path length differs from the straight-line change in position.
+
+**Solution**
+
+![A number line in kilometers with east positive. A walker goes from home at x = 0 east to a store at x = 4.0 km, then walks 1.5 km back west to x = 2.5 km. The displacement arrow runs from 0 to 2.5 km.](../resources/concept_02_01_q01.svg){: .sketch}
+
+Take east as $$ +x $$ and home as $$ x = 0 $$. You walk $$ 4.0 \text{ km} $$ east to a store and then $$ 1.5 \text{ km} $$ back west to a friend's house at $$ x = 2.5 \text{ km} $$.
+
+- **Distance traveled:** the total length of the path, $$ 4.0 \text{ km} + 1.5 \text{ km} = 5.5 \text{ km} $$.
+- **Displacement:** the change in position, $$ \Delta x = x_{f} - x_{0} = 2.5 \text{ km} - 0 = +2.5 \text{ km} $$, that is, $$ 2.5 \text{ km} $$ east.
+- **Magnitude of displacement:** $$ 2.5 \text{ km} $$, with no direction.
+
+In this example, the distance traveled is $$ 5.5 \text{ km} $$, the displacement is $$ 2.5 \text{ km} $$ east ($$ +2.5 \text{ km} $$), and the magnitude of the displacement is $$ 2.5 \text{ km} $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -211,6 +231,22 @@ Give an example in which there are clear distinctions among distance traveled, d
 
 Under what circumstances does distance traveled equal magnitude of displacement?
 What is the only case in which magnitude of displacement and displacement are exactly the same?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distance traveled counts every part of the path, while displacement depends only on the start and end points. Displacement is a vector (it has a sign in one dimension), and its magnitude is always positive.
+
+**Solution**
+
+The distance traveled equals the magnitude of the displacement when the object moves along a straight line **without changing direction**. Walking $$ 4.0 \text{ km} $$ east gives a distance of $$ 4.0 \text{ km} $$ and a displacement of magnitude $$ 4.0 \text{ km} $$. Any reversal (as in the previous question) makes the distance larger.
+
+The displacement and its magnitude are the same number only when the displacement is in the **positive** direction (or zero): $$ \Delta x = +4.0 \text{ km} $$ and $$ |\Delta x| = 4.0 \text{ km} $$. A displacement of $$ -4.0 \text{ km} $$ has magnitude $$ 4.0 \text{ km} $$, which differs from the displacement.
+
+The distance traveled equals the magnitude of displacement when the motion is in a straight line in one direction, and the displacement and its magnitude are exactly the same only when the displacement is in the positive direction (or zero).
 
 :::
 
@@ -227,11 +263,25 @@ size, while its displacement is small. Why is this?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the total path length of back-and-forth motion with the net change in position.
+
+**Solution**
+
+A bacterium swims back and forth, frequently reversing direction. Every segment of the path adds to the distance traveled, but forward and backward segments cancel in the displacement. Moving at $$ 50 \,\mu\text{m/s} $$ for $$ 10 \s $$, a bacterium travels a distance of $$ 500 \,\mu\text{m} = 0.50 \text{ mm} $$, which is about 250 times its length of about $$ 2 \,\mu\text{m} $$, yet if it ends up close to where it started, its displacement may be only a few micrometers.
+
+The distance traveled is large because every back-and-forth movement adds to it, while the displacement is small because movements in opposite directions cancel.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
 
-![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 10. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01_05.jpg 'Displacement Paths')
+![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 10. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01_05.svg 'Displacement Paths')
 {: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">

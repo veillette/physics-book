@@ -700,11 +700,11 @@ $$ r = 2 \text{ Mly} = 2 \times 10^6 \text{ ly} \times 9.46 \times 10^{15} \text
 
 Substituting into Newton's law:
 <div class="equation">
-$$ F = \frac{(6.67 \times 10^{-11})(2.0 \times 10^{43})(70)}{(1.892 \times 10^{22})^2} $$
+$$ F = \frac{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(2.0 \times 10^{43} \text{ kg})(70 \text{ kg})}{(1.892 \times 10^{22} \text{ m})^2} $$
 </div>
 
 <div class="equation">
-$$ F = \frac{9.34 \times 10^{34}}{3.58 \times 10^{44}} = 2.6 \times 10^{-10} \text{ N} $$
+$$ F = \frac{9.34 \times 10^{34} \text{ N·m}^2}{3.58 \times 10^{44} \text{ m}^2} = 2.6 \times 10^{-10} \text{ N} $$
 </div>
 
 (b) The person's weight on Earth is:
@@ -846,7 +846,7 @@ $$ E = \frac{hc}{\lambda} $$
 where $$ h = 6.626 \times 10^{-34} \text{ J·s} $$, $$ c = 3.00 \times 10^8 \text{ m/s} $$, and $$ \lambda = 1.1 \text{ mm} = 1.1 \times 10^{-3} \text{ m} $$.
 
 <div class="equation">
-$$ E = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.1 \times 10^{-3}} = 1.81 \times 10^{-22} \text{ J} $$
+$$ E = \frac{(6.626 \times 10^{-34} \text{ J·s})(3.00 \times 10^8 \text{ m/s})}{1.1 \times 10^{-3} \text{ m}} = 1.81 \times 10^{-22} \text{ J} $$
 </div>
 
 Converting to eV (using $$ 1 \text{ eV} = 1.60 \times 10^{-19} \text{ J} $$):
@@ -1007,33 +1007,33 @@ We need to calculate the rotational kinetic energy before and after the collapse
 From the previous problem:
 - Initial radius: $$ R_i = 5.0 \times 10^5 \text{ km} = 5.0 \times 10^8 \text{ m} $$
 - Final radius: $$ R_f = 10.0 \text{ km} = 1.0 \times 10^4 \text{ m} $$
-- Initial angular velocity: $$ \omega_{i} = \frac{1 \text{ rev}}{30.0 \text{ days}} = \frac{2\pi}{30.0 \times 24 \times 3600} = 2.42 \times 10^{-6} \text{ rad/s} $$
-- Final angular velocity: $$ \omega_{f} = 960 \text{ rev/s} = 960 \times 2\pi = 6030 \text{ rad/s} $$
+- Initial angular velocity: $$ \omega_{i} = \frac{1 \text{ rev}}{30.0 \text{ days}} = \frac{2\pi \text{ rad}}{30.0 \times 24 \times 3600 \text{ s}} = 2.42 \times 10^{-6} \text{ rad/s} $$
+- Final angular velocity: $$ \omega_{f} = 960 \text{ rev/s} = 960 \text{ s}^{-1} \times 2\pi \text{ rad} = 6030 \text{ rad/s} $$
 - Mass: $$ M = 1.3 M_{\text{Sun}} = 1.3 \times 2.0 \times 10^{30} \text{ kg} = 2.6 \times 10^{30} \text{ kg} $$
 
 Initial moment of inertia:
 <div class="equation">
-$$ I_i = \frac{2}{5}MR_{i}^2 = \frac{2}{5}(2.6 \times 10^{30})(5.0 \times 10^8)^2 = 2.6 \times 10^{47} \text{ kg·m}^2 $$
+$$ I_i = \frac{2}{5}MR_{i}^2 = \frac{2}{5}(2.6 \times 10^{30} \text{ kg})(5.0 \times 10^8 \text{ m})^2 = 2.6 \times 10^{47} \text{ kg·m}^2 $$
 </div>
 
 Initial rotational kinetic energy:
 <div class="equation">
-$$ KE_{i} = \frac{1}{2}I_i\omega_{i}^2 = \frac{1}{2}(2.6 \times 10^{47})(2.42 \times 10^{-6})^2 = 7.6 \times 10^{35} \text{ J} $$
+$$ KE_{i} = \frac{1}{2}I_i\omega_{i}^2 = \frac{1}{2}(2.6 \times 10^{47} \text{ kg·m}^2)(2.42 \times 10^{-6} \text{ rad/s})^2 = 7.6 \times 10^{35} \text{ J} $$
 </div>
 
 Final moment of inertia:
 <div class="equation">
-$$ I_f = \frac{2}{5}MR_{f}^2 = \frac{2}{5}(2.6 \times 10^{30})(1.0 \times 10^4)^2 = 1.04 \times 10^{38} \text{ kg·m}^2 $$
+$$ I_f = \frac{2}{5}MR_{f}^2 = \frac{2}{5}(2.6 \times 10^{30} \text{ kg})(1.0 \times 10^4 \text{ m})^2 = 1.04 \times 10^{38} \text{ kg·m}^2 $$
 </div>
 
 Final rotational kinetic energy:
 <div class="equation">
-$$ KE_{f} = \frac{1}{2}I_f\omega_{f}^2 = \frac{1}{2}(1.04 \times 10^{38})(6030)^2 = 1.9 \times 10^{45} \text{ J} $$
+$$ KE_{f} = \frac{1}{2}I_f\omega_{f}^2 = \frac{1}{2}(1.04 \times 10^{38} \text{ kg·m}^2)(6030 \text{ rad/s})^2 = 1.9 \times 10^{45} \text{ J} $$
 </div>
 
 Increase in rotational kinetic energy:
 <div class="equation">
-$$ \Delta KE = KE_{f} - KE_{i} = 1.9 \times 10^{45} - 7.6 \times 10^{35} \approx 1.9 \times 10^{45} \text{ J} $$
+$$ \Delta KE = KE_{f} - KE_{i} = 1.9 \times 10^{45} \text{ J} - 7.6 \times 10^{35} \text{ J} \approx 1.9 \times 10^{45} \text{ J} $$
 </div>
 
 (Note that $$ KE_{i} $$ is negligible compared to $$ KE_{f} $$.)
@@ -1147,11 +1147,11 @@ $$ M = \frac{v^2 r}{G} $$
 
 (a) Substituting values (with $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$):
 <div class="equation">
-$$ M = \frac{(2.20 \times 10^5)^2 \times 4.73 \times 10^{20}}{6.67 \times 10^{-11}} $$
+$$ M = \frac{(2.20 \times 10^5 \text{ m/s})^2 \times 4.73 \times 10^{20} \text{ m}}{6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2} $$
 </div>
 
 <div class="equation">
-$$ M = \frac{4.84 \times 10^{10} \times 4.73 \times 10^{20}}{6.67 \times 10^{-11}} = \frac{2.29 \times 10^{31}}{6.67 \times 10^{-11}} = 3.4 \times 10^{41} \text{ kg} $$
+$$ M = \frac{4.84 \times 10^{10} \text{ m}^2/\text{s}^2 \times 4.73 \times 10^{20} \text{ m}}{6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2} = \frac{2.29 \times 10^{31} \text{ m}^3/\text{s}^2}{6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2} = 3.4 \times 10^{41} \text{ kg} $$
 </div>
 
 (b) Converting to solar masses (using $$ M_{\text{Sun}} = 2.0 \times 10^{30} \text{ kg} $$):

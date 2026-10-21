@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 10
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Explain standing waves.
-* Describe the mathematical representation of overtones and beat frequency.
+- Explain standing waves.
+- Describe the mathematical representation of overtones and beat frequency.
 
 :::
 
@@ -43,10 +44,10 @@ interference**. Because the disturbances are in the opposite direction for this
 superposition, the resulting amplitude is zero for pure destructive
 interference—the waves completely cancel.
 
-![The graph shows two identical waves that arrive at the same point exactly in phase. The crests of the two waves are precisely aligned, as are the troughs. The amplitude of each wave being X . It produces pure constructive wave. The disturbances add resulting in a new wave with twice the amplitude of the individual waves that is two X but of same wavelength.](../resources/Figure_16_10_02.jpg 'Pure constructive interference of two identical waves produces one with twice the amplitude, but the same wavelength.')
+![Two identical waves, each of amplitude X, arrive exactly in phase: crest on crest and trough on trough. They add to a resultant with twice the amplitude, 2X, and the same wavelength.](../resources/Figure_16_10_02.svg 'Pure constructive interference of two identical waves produces one with twice the amplitude, but the same wavelength.')
 {: #Figure2}
 
-![The graph shows two identical waves that arrive exactly out of phase. The crests of one wave are aligned with the trough of another wave. Each wave has amplitude equal to X. As the disturbances are in the opposite directions, they cancel out each other, resulting in zero amplitude which is shown as the third figure showing a green straight line, that is, the waves cancel each other producing pure destructive interference.](../resources/Figure_16_10_03.jpg 'Pure destructive interference of two identical waves produces zero amplitude, or complete cancellation.')
+![Two identical waves, each of amplitude X, arrive exactly out of phase: the crests of one line up with the troughs of the other. They cancel completely, and the resultant has zero amplitude.](../resources/Figure_16_10_03.svg 'Pure destructive interference of two identical waves produces zero amplitude, or complete cancellation.')
 {: #Figure3}
 
 While pure constructive and pure destructive interference do occur, they require
@@ -66,7 +67,7 @@ An example of the superposition of two dissimilar waves is shown
 in [[Figure 4]](#Figure4). Here again, the disturbances add and subtract,
 producing a more complicated looking wave.
 
-![The graph shows two non-identical waves with different frequencies and wavelengths. In the first graph only one crest and one trough of the wave are seen. In the second figure five crests are seen in the same length. When they superimpose, the disturbance add and subtract, producing a more complicated looking wave with highly irregular amplitude and wavelength due to combined effect of constructive and destructive interference.](../resources/Figure_16_10_04.jpg 'Superposition of non-identical waves exhibits both constructive and destructive interference.')
+![Wave 1 has a long wavelength and large amplitude; wave 2 has a wavelength one fifth as long and a smaller amplitude. Their sum, the resultant, is an irregular wave: in some places the two add (constructive interference) and in others they partly cancel (destructive interference).](../resources/Figure_16_10_04.svg 'Superposition of non-identical waves exhibits both constructive and destructive interference.')
 {: #Figure4}
 
 ### Standing Waves
@@ -98,7 +99,7 @@ Earth and reflect off denser rocks, constructive interference occurs at certain
 points. Often areas closer to the epicenter are not damaged while areas farther
 away are damaged.
 
-![Standing wave combinations of two waves is shown. At the time t is equal to zero. The waves are in the same phase so the amplitude of the superimposed wave is double that of wave one and two. In the second figure at time t is equal to one fourth of time period T , the waves are in opposite phase so their super imposed figure is a straight line. Again at the time t is equal to half the time period the waves are in the same phase and the process is repeated at t is equal to three fourth of time period and at the end of the time period T.](../resources/Figure_16_10_05.jpg 'Standing wave created by the superposition of two identical waves moving in opposite directions. The oscillations are at fixed locations in space and result from alternately constructive and destructive interference.')
+![Five snapshots at t = 0, T/4, T/2, 3T/4 and T. In each, wave 1 moves left and wave 2 moves right, and the resultant below them is their sum. The resultant oscillates in place: its nodes, marked by vertical lines, never move, and its amplitude swings from twice that of each wave (constructive interference) through zero (destructive interference) and back.](../resources/Figure_16_10_05.svg 'Standing wave created by the superposition of two identical waves moving in opposite directions. The oscillations are at fixed locations in space and result from alternately constructive and destructive interference.')
 {: #Figure5}
 
 Standing waves are also found on the strings of musical instruments and are due
@@ -122,10 +123,10 @@ anyone who has ever observed a string instrument being tuned. We will see in
 later chapters that standing waves are crucial to many resonance phenomena, such
 as in sounding boxes on string instruments.
 
-![The graph shows a wave with wavelength lambda one equal to L, which has two loops. There three nodes and two antinodes in the figure. The length of one loop is L.](../resources/Figure_16_10_06.jpg 'The figure shows a string oscillating at its fundamental frequency.')
+![A string of length L fixed at both ends vibrates in a single loop: nodes at the ends and an antinode in the middle. Its wavelength is λ1 = 2L, twice the string length, shown by the dashed continuation of the wave beyond the right end, and its frequency is f1 = v_w/2L.](../resources/Figure_16_10_06.svg 'The figure shows a string oscillating at its fundamental frequency.')
 {: #Figure6}
 
-![first overtone is shown as the wave length if lambda two is L and there are three nodes and two antinodes in the figure. For first overtone the frequency f two is equal to two times f one.](../resources/Figure_16_10_07.jpg 'First and second harmonic frequencies are shown.')
+![Left: the first overtone, with two loops and a node in the middle; its wavelength is λ2 = L and its frequency f2 = v_w/L = 2f1. Right: the second overtone, with three loops and two interior nodes; λ3 = 2L/3 and f3 = 3v_w/2L = 3f1. Arrows point to the interior nodes.](../resources/Figure_16_10_07.svg 'First and second harmonic frequencies are shown.')
 {: #Figure7}
 
 ### Beats
@@ -141,7 +142,7 @@ noise are both due to alternately constructive and destructive interference as
 the two waves go in and out of phase. [[Figure 8]](#Figure8) illustrates this
 graphically.
 
-![The graph shows the superimposition of two similar but non-identical waves. Beats are produced by alternating destructive and constructive waves with equal amplitude but different frequencies. The resultant wave is the one with rising and falling amplitude over different intervals of time.](../resources/Figure_16_10_08.jpg 'Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.')
+![Two waves of equal amplitude and slightly different frequencies f1 and f2 (wavelengths λ1 and λ2), and their sum. The resultant alternates in time between destructive interference, where the waves are out of phase and it nearly vanishes, and constructive interference, where they are in phase and it has twice the amplitude: its amplitude rises and falls periodically.](../resources/Figure_16_10_08.svg 'Beats are produced by the superposition of two waves of slightly different frequencies but identical amplitudes. The waves alternate in time between constructive interference and destructive interference, giving the resulting wave a time-varying amplitude.')
 {: #Figure8}
 
 The wave resulting from the superposition of two similar-frequency waves has a
@@ -196,10 +197,10 @@ frequency that gets louder and softer (or warbles) at the beat frequency.
 Making Career Connections
 </div>
 
-Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a  $$256 \text{Hz} $$
- frequency and two beats per second are heard, then the other frequency is either  $$254 $$
- or  $$258 \text{Hz} $$ .
- Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.
+Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a $$256 \text{Hz} $$
+frequency and two beats per second are heard, then the other frequency is either $$254 $$
+or $$258 \text{Hz} $$ .
+Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.
 
 :::
 
@@ -281,19 +282,19 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 
 ### Section Summary
 
-* Superposition is the combination of two waves at the same location.
-* Constructive interference occurs when two identical waves are superimposed in
+- Superposition is the combination of two waves at the same location.
+- Constructive interference occurs when two identical waves are superimposed in
   phase.
-* Destructive interference occurs when two identical waves are superimposed
+- Destructive interference occurs when two identical waves are superimposed
   exactly out of phase.
-* A standing wave is one in which two waves superimpose to produce a wave that
+- A standing wave is one in which two waves superimpose to produce a wave that
   varies in amplitude but does not propagate.
-* Nodes are points of no motion in standing waves.
-* An antinode is the location of maximum amplitude of a standing wave.
-* Waves on a string are resonant standing waves with a fundamental frequency and
+- Nodes are points of no motion in standing waves.
+- An antinode is the location of maximum amplitude of a standing wave.
+- Waves on a string are resonant standing waves with a fundamental frequency and
   can occur at higher multiples of the fundamental, called overtones or
   harmonics.
-* Beats occur when waves of similar frequencies $${f}_{1} $$ and $${f}_{2} $$
+- Beats occur when waves of similar frequencies $${f}_{1} $$ and $${f}_{2} $$
   are superimposed. The resulting amplitude oscillates with a beat frequency
   given by
 
@@ -308,6 +309,22 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 ::: problem
 
 Speakers in stereo systems have two color-coded terminals to indicate how to hook up the wires. If the wires are reversed, the speaker moves in a direction opposite that of a properly connected speaker. Explain why it is important to have both speakers connected the same way.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the relative phase of the two speaker diaphragms for the same electrical signal.
+
+**Solution**
+
+With consistent wiring, matching signals make the speakers move in the same direction and emit sound with the intended relative phase. Reversing one speaker reverses its pressure variation, adding a phase difference of $$180^\circ$$. Where the path lengths are similar, common signal components can then interfere destructively, weakening sound, particularly bass whose wavelength is large compared with listener-position differences.
+
+**Discussion**
+
+Room reflections and distinct stereo signals keep cancellation from being perfect everywhere. Both speakers should be connected with the same polarity to preserve the intended phase relationship and avoid unintended cancellation.
 
 :::
 
@@ -388,7 +405,7 @@ This absolute value equation has two solutions:
 </div>
 
 <div class="equation">
- $${f}_{2}=260.00+1.50=261.50 \text{ Hz}$$
+ $${f}_{2}=260.00 \text{ Hz} + 1.50 \text{ Hz}=261.50 \text{ Hz}$$
 </div>
 
 **Case 2:** $${f}_{2}$$ is lower than $${f}_{1}$$:
@@ -398,7 +415,7 @@ This absolute value equation has two solutions:
 </div>
 
 <div class="equation">
- $${f}_{2}=260.00-1.50=258.50 \text{ Hz}$$
+ $${f}_{2}=260.00 \text{ Hz} - 1.50 \text{ Hz}=258.50 \text{ Hz}$$
 </div>
 
 **The other string could have a frequency of either 258.50 Hz or 261.50 Hz.**
@@ -510,7 +527,7 @@ Now we have two equations with two unknowns. Adding them:
 From the first equation:
 
 <div class="equation">
- $${f}_{1}=8200-{f}_{2}=8200-4100.25=4099.75 \text{ Hz}$$
+ $${f}_{1}=8200-{f}_{2}=8200 \text{ Hz} - 4100.25 \text{ Hz}=4099.75 \text{ Hz}$$
 </div>
 
 **The two jet engines have frequencies of 4099.75 Hz and 4100.25 Hz (or 4.10 kHz ± 0.25 Hz).**
@@ -604,6 +621,7 @@ When three frequencies are present simultaneously, beats occur between each pair
 **Solution**
 
 The three frequencies are:
+
 - F: $${f}_{1}=349$$ Hz
 - F-sharp: $${f}_{2}=370$$ Hz
 - G: $${f}_{3}=392$$ Hz
@@ -645,6 +663,7 @@ Musicians and piano tuners can hear these beats clearly when tuning adjacent not
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 antinode

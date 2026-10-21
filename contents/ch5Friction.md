@@ -175,17 +175,20 @@ The equations given earlier include the dependence of friction on materials and
 the normal force. The direction of friction is always opposite that of the relative motion (or
 attempted relative motion) of the surfaces,
 parallel to the surface between objects, and perpendicular to the normal force.
+<!-- physics-scope: crate-friction -->
 For example, if the crate you try to push (with a force parallel to the floor)
 has a mass of 100 kg, then the normal force would be equal to its weight, $$w=mg=\left(100 \kg \right)\left( 9.80\mss \right)=980 \N$$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
-greater than $$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$ to move the crate. Once there is motion, friction is less and the
+greater than <!-- physics: eq-1 -->$$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$ to move the crate. Once there is motion, friction is less and the
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
+<!-- physics: eq-2 -->
 $$f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
 =290\N$$) would keep it moving at a constant speed. If the floor is
 lubricated, both coefficients are considerably less than they would be without
 lubrication. Coefficient of friction is a unit less quantity with a magnitude
 usually between 0 and 1.0. The coefficient of the friction depends on the two
 surfaces that are in contact.
+<!-- /physics-scope -->
 
 :::: note {"class":"note","data-label":""}
 
@@ -248,6 +251,7 @@ in [Figure 3](#Figure3).)
 That is,
 
 <div class="equation">
+ <!-- physics: eq-2 -->
  $$\mag{N}= w_{\perp }=w\cos{ 25^\circ }=mg \cos{ 25^\circ }.$$
 </div>
 
@@ -271,6 +275,7 @@ Solving for $$\mu_{\text{k} }$$ gives
 Substituting known values on the right-hand side of the equation,
 
 <div class="equation">
+ <!-- physics: eq-7 -->
  $$\mu_{\text{k}}=\frac{45.0 \N }{\left(62 \kg \right)\left(9.80 \mss \right)\left(0.906\right)}=0.082.$$
 </div>
 
@@ -346,7 +351,7 @@ area since only high spots touch. When a greater normal force is exerted, the
 actual contact area increases, and it is found that the friction is proportional
 to this area.
 
-![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_05_01_04.jpg 'Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.')
+![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](/resources/Figure_05_01_04.svg 'Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.')
 {: #Figure4}
 
 But the atomic-scale view promises to explain far more than the simpler features
@@ -425,6 +430,36 @@ Define normal force. What is its relationship to friction when friction behaves 
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Start from the definition of the normal force, then draw a free-body diagram of an object sliding on a level floor and connect the normal force to the friction force through the simple friction laws.
+
+**Solution**
+
+The **normal force** is the component of the contact force that a surface exerts on an object **perpendicular** to the surface. It is the surface's push back against an object that presses on it. The surface deforms very slightly, and its stretched molecular bonds push outward.
+
+![Free-body diagram with +x to the right and +y up: push F to the right, kinetic friction f = μk N to the left, normal force N up perpendicular to the floor, and weight w down. N and w are equal in length because there is no vertical acceleration.](../resources/fbd_05_01_q01.svg){: .fbd}
+
+Choose $$ +x $$ in the direction of the push and $$ +y $$ straight up, perpendicular to the floor, so that the normal force lies along an axis. When friction behaves simply, its size is proportional to the normal force:
+
+<div class="equation">
+$$ f_{k} = \mu_{k} N \qquad \text{and} \qquad f_{s} \le \mu_{s} N $$
+</div>
+
+The friction force acts parallel to the surface, while the normal force acts perpendicular to it. The coefficient $$ \mu $$ has no units, so friction is measured in newtons, like the normal force. For a $$ 20.0 \kg $$ crate on a level wooden floor, there is no vertical acceleration, so Newton's second law along $$ y $$ gives
+
+<div class="equation">
+$$ N - w = 0 \quad \Rightarrow \quad N = mg = (20.0 \kg)(9.80 \mss) = 196 \N $$
+</div>
+
+With $$ \mu_{k} = 0.30 $$ for wood on wood, the kinetic friction while it slides is $$ f_{k} = (0.30)(196 \N) = 58.8 \N $$. If you double the normal force, for example by stacking a second identical crate on top, friction doubles to $$ 118 \N $$.
+
+The normal force is the perpendicular push of a surface on an object, and when friction behaves simply the friction force is proportional to it ($$ f_{k} = \mu_{k} N $$, $$ f_{s} \le \mu_{s} N $$) and acts parallel to the surface, so a $$ 196 \N $$ normal force gives $$ 58.8 \N $$ of kinetic friction when $$ \mu_{k} = 0.30 $$.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -432,6 +467,28 @@ Define normal force. What is its relationship to friction when friction behaves 
 :::: problem
 
 The glue on a piece of tape can exert forces. Can these forces be a type of simple friction? Explain, considering especially that tape can stick to vertical walls and even to ceilings.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Simple friction requires the surfaces to be pressed together ($$ N > 0 $$), is proportional to $$ N $$, and acts only parallel to the surface. Check whether the forces from tape glue meet these conditions, especially on a ceiling.
+
+**Solution**
+
+Consider a strip of tape of mass $$ 2.0 \text{ g} $$ stuck to a ceiling. Take $$ +y $$ upward. The forces on the tape are its weight, $$ w = (0.0020 \kg)(9.80 \mss) = 0.020 \N $$ downward, and the force of the glue on the tape. Nothing presses the tape *against* the ceiling, so the normal force is zero. If the glue force were simple friction, its maximum value would be
+
+<div class="equation">
+$$ f_{s,\text{max}} = \mu_{s} N = \mu_{s}(0 \N) = 0 \N $$
+</div>
+
+and the tape would fall. Instead the glue pulls **up** on the tape with $$ 0.020 \N $$ (or more, if you tug on it), perpendicular to the ceiling. That is an attractive, pulling force, something friction can never provide, since friction only acts parallel to a surface.
+
+On a vertical wall the glue supports the tape's weight parallel to the wall. That looks like friction, but it again works with no normal force pressing the tape into the wall. Glue forces are **adhesion**: attractive molecular (electromagnetic) forces between the glue and the surface. They depend on the contact area and the type of material, not on how hard the tape is pressed at the moment.
+
+Tape glue forces are not simple friction, because they hold the tape even when the normal force is zero (on a ceiling the glue must pull up on a $$ 0.020 \N $$ strip with no push against the surface) and they can act perpendicular to the surface; they are adhesive forces between molecules.
 
 ::::
 
@@ -445,6 +502,29 @@ When you learn to drive, you discover that you need to let up slightly on
 the brake pedal as you come to a stop or the car will stop with a jerk.
 Explain this in terms of the relationship between static and kinetic
 friction forces.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Distinguish the brake pads’ friction from the road force that slows the car, and compare the actual stopping force with the maximum static-friction limit.
+
+**Solution**
+
+Choose $$+x$$ forward. With rolling tires, the road exerts a backward force on the braking car. The pads sliding on the discs provide braking torque inside the wheel/brake system; pad friction and tire-road force are related through torques and wheel dynamics, not by simply equating the two forces.
+
+While pads slide, a simple model uses kinetic friction $$f_k=\mu_kN_{\text{pad}}$$. When they stop sliding, the friction is static and satisfies $$|f_s|\le\mu_sN_{\text{pad}}$$. The larger maximum $$\mu_sN_{\text{pad}}$$ means the brakes can hold a stationary disc against a torque that would overcome sliding friction; it does **not** imply that the actual force jumps to that maximum at rest. On level ground with no driving force, no longitudinal net force is needed once the car stops.
+
+For an assumed $$1200\kg$$ car decelerating at $$a_x=-3.0\mss$$, the net braking force is $$F_x=ma_x=(1200\kg)(-3.0\mss)=-3600\N$$. If this deceleration persists until stopping, the acceleration changes abruptly from $$-3.0\mss$$ to $$0\mss$$, producing a jerk and suspension motion. Easing the pedal reduces the braking torque and the road force before the stop, so the acceleration approaches zero smoothly. Real near-zero-speed pad friction and elastic compliance may add a grab, but the coefficient inequality alone does not predict its size.
+
+![Braking-force magnitudes for equal initial speed: a firm pedal gives an abrupt force drop at rest, while an eased pedal tapers the force to zero and stops later; both deliver the same momentum change.](../resources/concept_05_01_q03.svg)
+
+The graph’s idealized examples start at $$12\ms$$: $$3600\N$$ for $$4.0\s$$ gives impulse magnitude $$14400\N\cdot\s$$, as does $$3600\N$$ for $$2.5\s$$ followed by a $$3.0\s$$ linear taper, since $$3600\N[2.5\s+\tfrac12(3.0\s)]=14400\N\cdot\s$$.
+
+Easing the brakes makes the actual deceleration approach zero before rest and reduces the stop jerk; static friction can hold the stopped brakes up to a larger limit than kinetic friction, but that limit does not require a braking-force spike.
+
 
 ::::
 
@@ -463,11 +543,34 @@ than static friction.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Follow the friction force on the chalk through one cycle, using the fact that the maximum static friction $$ \mu_{s} N $$ is larger than the kinetic friction $$ \mu_{k} N $$.
+
+**Solution**
+
+Your hand pushes the chalk along the board, and the chalk tip bends slightly, like a stiff spring. Take $$ +x $$ in the direction your hand moves. The cycle runs as follows:
+
+1. **Stick.** At first the tip does not slide. Static friction from the board holds it, and as your hand keeps moving the tip bends more, so the friction force needed to hold it grows.
+2. **Break loose.** When the needed force reaches the maximum $$ \mu_{s} N $$, the tip breaks free. For example, with $$ N = 2.0 \N $$ and $$ \mu_{s} = 0.60 $$, it breaks loose at $$ f = 1.2 \N $$.
+3. **Slip.** Once sliding, friction drops to the smaller kinetic value. With $$ \mu_{k} = 0.40 $$, that is $$ f_{k} = (0.40)(2.0 \N) = 0.80 \N $$. The bent tip now pushes forward with more force than friction holds back, so the tip springs ahead, releasing its bend, and slows down.
+4. **Stick again.** When the tip's speed relative to the board falls to zero, static friction takes over and the cycle repeats.
+
+![Friction force on the chalk versus time. During each stick phase the static friction grows until it reaches the maximum μs N; the chalk then breaks loose and the friction drops to the smaller kinetic value μk N while it slips. The chalk sticks again and the cycle repeats rapidly, producing a sawtooth pattern.](../resources/concept_05_01_q04.svg)
+
+The cycle can repeat hundreds or thousands of times per second. Each slip gives the board and chalk a small kick, so they vibrate at that rate and we hear a screech. If $$ \mu_{s} $$ and $$ \mu_{k} $$ were equal, the force would not drop when slipping began, the tip would not spring forward, and the motion would be smooth. A skidding tire screeches on pavement in the same way.
+
+The chalk screeches because it repeatedly sticks until static friction reaches its maximum $$ \mu_{s} N $$ (for example, $$ 1.2 \N $$), then slips when friction drops to the smaller kinetic value $$ \mu_{k} N $$ (for example, $$ 0.80 \N $$), and this rapid stick-slip cycle makes the chalk and board vibrate.
+
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="spatula">
 
 :::: problem
 
@@ -480,7 +583,7 @@ spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of ki
 
 **Strategy**
 
-We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is $$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
+We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is <!-- physics: eq-0 -->$$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
 
 **Solution**
 
@@ -496,6 +599,7 @@ $$\mag{N} = \frac{f_{\text{k}}}{\mu_{\text{k}}}$$
 
 3. Substitute the known values:
 <div class="equation">
+<!-- physics: eq-3 -->
 $$\mag{N} = \frac{0.200 \N}{0.04} = 5.00 \N$$
 </div>
 
@@ -602,7 +706,7 @@ The maximum frictional force in the knee joint is $$10.3 \N$$ during normal stan
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="wooden-crate">
 
 :::: problem
 
@@ -616,7 +720,7 @@ Suppose you have a 120-kg wooden crate resting on a wood floor.
 
 **Strategy**
 
-For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, $$\mu_{\s} = 0.5$$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with $$\mu_{\text{k}} = 0.3$$. We use Newton's second law to find the acceleration.
+For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, <!-- physics: eq-0 -->$$\mu_{\s} = 0.5$$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with <!-- physics: eq-1 -->$$\mu_{\text{k}} = 0.3$$. We use Newton's second law to find the acceleration.
 
 **Solution**
 
@@ -635,6 +739,7 @@ $$\mag{N} = mg = (120 \kg)(9.80 \mss) = 1176 \N$$
 
 2. Calculate the maximum static friction force. In diagram (a), $$a = 0$$, so $$\sum F_x = F - f_{\s(\text{max})} = 0$$ and the largest push is $$F = f_{\s(\text{max})}$$:
 <div class="equation">
+<!-- physics: eq-10 -->
 $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.5)(1176 \N) = 588 \N$$
 </div>
 
@@ -652,6 +757,7 @@ $$\sum F_x = F - f_{\text{k}} = 588 \N - 352.8 \N = 235.2 \N$$
 
 3. Calculate the acceleration:
 <div class="equation">
+<!-- physics: eq-18 -->
 $$a_x = \frac{\sum F_x}{m} = \frac{235.2 \N}{120 \kg} = 1.96 \mss$$
 </div>
 
@@ -736,7 +842,7 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{drive}} = (1.0)(9800 \N) = 9800 \
 $$a_{\text{max}} = \frac{9800 \N}{1.00 \times 10^{3} \kg} = 9.80 \mss$$
 </div>
 
-4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = 4.90\text{ m}_{\text{cab}}$$) is less than the force needed to accelerate it at $$9.80 \mss$$ ($$F = 9.80\text{ m}_{\text{cab}}$$).
+4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = m_{\text{cab}}(4.90 \mss)$$) is less than the force needed to accelerate it at $$9.80 \mss$$ ($$F = m_{\text{cab}}(9.80 \mss)$$).
 
 **Discussion**
 
@@ -867,12 +973,12 @@ $$F_{\text{tot}} = \sqrt{F_1^2 + F_2^2} = \sqrt{(26.4 \N)^2 + (18.6 \N)^2}$$
 </div>
 
 <div class="equation">
-$$F_{\text{tot}} = \sqrt{697.0 + 346.0} = \sqrt{1043} = 32.3 \N$$
+$$F_{\text{tot}} = \sqrt{697.0 \N^2 + 346.0 \N^2} = \sqrt{1043 \N^2} = 32.3 \N$$
 </div>
 
-2. Find the direction (angle above the horizontal, measured from $$F_1$$):
+2. Find the direction (in the overhead view, the angle measured from $$F_1$$ toward $$F_2$$):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6}{26.4}\right) = \tan^{-1}(0.704) = 35.1°$$
+$$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6 \N}{26.4 \N}\right) = \tan^{-1}(0.7045) = 35.2°$$
 </div>
 
 (b) Initial acceleration (starting from rest):
@@ -891,7 +997,7 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.04)(637 \N) = 25.5 \N$$
 
 4. Once motion begins, kinetic friction applies:
 <div class="equation">
-$$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.7 \N$$
+$$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.74 \N$$
 </div>
 
 5. Calculate the net force. Choose $$+x$$ along $$\vb{F}_{\text{tot}}$$ and $$+y$$ upward. Friction opposes the motion, so it points along $$-x$$:
@@ -899,12 +1005,12 @@ $$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.7 \N$$
    ![Free-body diagram of the skater with +x along the total push and +y up: F sub tot along +x, kinetic friction f sub k along -x, N up, w down; acceleration along +x.](../resources/fbd_05_01_p07.svg){: .fbd}
 
 <div class="equation">
-$$\sum F_x = F_{\text{tot}} - f_{\text{k}} = 32.3 \N - 12.7 \N = 19.6 \N$$
+$$\sum F_x = F_{\text{tot}} - f_{\text{k}} = 32.29 \N - 12.74 \N = 19.55 \N$$
 </div>
 
 6. Calculate the initial acceleration:
 <div class="equation">
-$$a = \frac{F_{\text{net}}}{m} = \frac{19.6 \N}{65.0 \kg} = 0.302 \mss$$
+$$a = \frac{F_{\text{net}}}{m} = \frac{19.55 \N}{65.0 \kg} = 0.301 \mss$$
 </div>
 
 (c) Acceleration while already moving:
@@ -912,12 +1018,12 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{19.6 \N}{65.0 \kg} = 0.302 \mss$$
 The calculation is identical to part (b) once motion has begun, since kinetic friction applies in both cases:
 
 <div class="equation">
-$$a = 0.302 \mss$$
+$$a = 0.301 \mss$$
 </div>
 
 **Discussion**
 
-The total force on the skater is $$32.3 \N$$ at an angle of $$35.1°$$ above the horizontal (from $$F_1$$). Her acceleration is $$0.302 \mss$$ in both cases (b) and (c) because once she begins moving, kinetic friction determines the friction force regardless of whether she just started or was already moving. The very low coefficient of friction on ice (0.02 kinetic) allows even modest forces to produce noticeable acceleration.
+The total force on the skater is $$32.3 \N$$ at an angle of $$35.2°$$ from $$F_1$$ toward $$F_2$$ (both pushes are horizontal; the figure is an overhead view). Her acceleration is $$0.301 \mss$$ in both cases (b) and (c) because once she begins moving, kinetic friction determines the friction force regardless of whether she just started or was already moving. The very low coefficient of friction on ice (0.02 kinetic) allows even modest forces to produce noticeable acceleration.
 
 ::::
 
@@ -1170,7 +1276,7 @@ $$a = (9.80 \mss)(0.1736 - 0.0985)$$
 </div>
 
 <div class="equation">
-$$a = (9.80 \mss)(0.0751) = 0.736 \mss$$
+$$a = (9.80 \mss)(0.07517) = 0.737 \mss$$
 </div>
 
 (b) Angle for constant velocity (zero acceleration):
@@ -1201,7 +1307,7 @@ $$\theta = \tan^{-1}(0.1) = 5.71°$$
 
 **Discussion**
 
-The skier accelerates at $$0.736 \mss$$ on the $$10.0°$$ slope. To coast at constant velocity, the skier would need a slope of $$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$\tan\theta = \mu_{\text{k}}$$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
+The skier accelerates at $$0.737 \mss$$ on the $$10.0°$$ slope. To coast at constant velocity, the skier would need a slope of $$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$\tan\theta = \mu_{\text{k}}$$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
 
 ::::
 
@@ -1838,7 +1944,7 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{32.3 \N}{45.0 \kg} = 0.718 \mss \approx 0
 
 **Discussion**
 
-The minimum force required to start the block moving is $$51.0 \N$$. Once moving, maintaining this force produces an acceleration of $$0.720 \mss$$. The acceleration is possible because kinetic friction ($$\mu_{\text{k}} = 0.03$$) is less than static friction ($$\mu_{\text{k}} = 0.1$$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
+The minimum force required to start the block moving is $$51.0 \N$$. Once moving, maintaining this force produces an acceleration of $$0.720 \mss$$. The acceleration is possible because kinetic friction ($$\mu_{\text{k}} = 0.03$$) is less than static friction ($$\mu_{\text{s}} = 0.1$$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
 
 ::::
 
@@ -1927,17 +2033,17 @@ $$f_{\text{k}} = \mu_{\text{k}}\mag{N} = (0.03)(421.3 \N) = 12.6 \N$$
 
 3. Calculate the net horizontal force:
 <div class="equation">
-$$\sum F_x = F\cos 25° - f_{\text{k}} = (46.5 \N)(0.9063) - 12.6 \N = 42.1 \N - 12.6 \N = 29.5 \N$$
+$$\sum F_x = F\cos 25° - f_{\text{k}} = (46.49 \N)(0.9063) - 12.64 \N = 42.13 \N - 12.64 \N = 29.49 \N$$ (keeping guard digits from the unrounded pull $$F = 46.49 \N$$)
 </div>
 
 4. Calculate the acceleration:
 <div class="equation">
-$$a = \frac{F_{\text{net}}}{m} = \frac{29.5 \N}{45.0 \kg} = 0.656 \mss$$
+$$a = \frac{F_{\text{net}}}{m} = \frac{29.49 \N}{45.0 \kg} = 0.655 \mss$$
 </div>
 
 **Discussion**
 
-When pulling, the minimum force required is $$46.5 \N$$, and the acceleration once moving is $$0.656 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
+When pulling, the minimum force required is $$46.5 \N$$, and the acceleration once moving is $$0.655 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
 
 ::::
 

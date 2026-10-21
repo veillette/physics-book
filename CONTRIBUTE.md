@@ -59,7 +59,7 @@ To contribute to this project, you'll need:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/physics-book2.git
+   git clone https://github.com/YOUR-USERNAME/physics-book.git
    cd physics-book
    ```
 3. **Install dependencies**:
@@ -72,7 +72,7 @@ To contribute to this project, you'll need:
    ```bash
    npm run serve
    ```
-5. **View the site** at `http://localhost:4000/physics-book2/`
+5. **View the site** at `http://localhost:4000/physics-book/`
 
 ## Contribution Workflow
 
@@ -155,12 +155,12 @@ layout: page
 
 - Store images in the `resources/` directory
 - Use descriptive filenames (e.g., `pendulum-motion-diagram.png`)
-- Reference images with: `![Description](/resources/image.png)` (root-relative; the build adds the `/physics-book2` prefix for GitHub Pages)
+- Reference images with: `![Description](/resources/image.png)` (root-relative; the build adds the `/physics-book` prefix for GitHub Pages)
 - Always provide meaningful alt text for accessibility
 
 #### Links
 
-- **Internal links**: Use root-relative paths like `/contents/ch2Kinematics.md` (the build adds the `/physics-book2` prefix for GitHub Pages; link to the `.md` source — the runtime viewer rewrites it to `.html`)
+- **Internal links**: Use root-relative paths like `/contents/ch2Kinematics.md` (the build adds the `/physics-book` prefix for GitHub Pages; link to the `.md` source — the runtime viewer rewrites it to `.html`)
 - **External links**: Use standard Markdown syntax `[Google](https://www.google.com/)`
 - Test all links before submitting
 
@@ -221,7 +221,7 @@ When adding new content files:
 ### Internal Links
 
 **Use root-relative paths** for internal links and assets. The build adds the
-`/physics-book2` path prefix for GitHub Pages automatically (Vercel builds at the root).
+`/physics-book` path prefix for GitHub Pages automatically (Vercel builds at the root).
 
 - Correct: `/contents/ch2Kinematics.md`
 - Correct: `/resources/image.png`
@@ -272,7 +272,7 @@ Verify all links are valid and not broken.
 ### Math Validation
 
 ```bash
-npm run check-math
+npm run check:math
 ```
 
 Check that all mathematical notation is properly formatted.
@@ -280,7 +280,7 @@ Check that all mathematical notation is properly formatted.
 ### Visual Test
 
 1. Run `npm run serve`
-2. View your changes at `http://localhost:4000/physics-book2/`
+2. View your changes at `http://localhost:4000/physics-book/`
 3. Check:
    - Equations render correctly
    - Images display properly
@@ -366,7 +366,7 @@ This project is an educational resource. We expect all contributors to:
 
 If you have questions about contributing:
 
-1. Check the [claude.md](./claude.md) file for technical details
+1. Check the [AGENTS.md](./AGENTS.md) file for technical details
 2. Review the [README.md](./README.md) for project overview
 3. Look through existing pull requests for examples
 4. Open an issue on GitHub to ask for clarification

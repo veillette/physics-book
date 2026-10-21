@@ -43,17 +43,22 @@ import {
 import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
 import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
 
-/** Multi-char subscript/superscript patterns (style warnings only). */
-const SUBSCRIPT_PATTERN = /([a-zA-Z]{2,})_([a-zA-Z0-9]+)(?![_{])/g;
-const SUPERSCRIPT_PATTERN = /([a-zA-Z]{2,})\^([a-zA-Z0-9]+)(?![\^{])/g;
+/**
+ * Unbraced numeric subscripts/superscripts that LaTeX truncates to their first token:
+ * `x_10` renders as x₁0, `10^-3` as 10⁻3, `x^2.5` as x²·5. Letter runs (`m_ec^2`, `k_BT`)
+ * are deliberately ignored: they are usually tight products that already render correctly.
+ */
+const SCRIPT_BODY = String.raw`(\d{2,}|\d+\.\d+|[+-]\d+(?:\.\d+)?)`;
+const SUBSCRIPT_PATTERN = new RegExp(String.raw`(?<!\\)_` + SCRIPT_BODY, 'g');
+const SUPERSCRIPT_PATTERN = new RegExp(String.raw`(?<!\\)\^` + SCRIPT_BODY, 'g');
 
 /**
- * Wrap bare multi-character subscripts/superscripts in braces.
+ * Wrap bare multi-token numeric subscripts/superscripts in braces.
  * @param {string} s - Math expression inner content (no $$ delimiters)
  * @returns {string}
  */
 export function fixSubSupBraces(s) {
-  return s.replace(SUBSCRIPT_PATTERN, '$1_{$2}').replace(SUPERSCRIPT_PATTERN, '$1^{$2}');
+  return s.replace(SUBSCRIPT_PATTERN, '_{$1}').replace(SUPERSCRIPT_PATTERN, '^{$1}');
 }
 
 /**
@@ -371,17 +376,17 @@ class EquationProcessor {
   }
 
   /**
-   * Warn on multi-character subscripts/superscripts missing braces (inside a math span).
+   * Warn on numeric subscripts/superscripts that need braces (inside a math span).
    */
   checkSubSupStyle(file, line, inner, preview) {
     const patterns = [
       {
         pattern: SUBSCRIPT_PATTERN,
-        message: 'Multi-character subscript without braces (use _{...})',
+        message: 'Multi-token numeric subscript without braces (use _{...})',
       },
       {
         pattern: SUPERSCRIPT_PATTERN,
-        message: 'Multi-character superscript without braces (use ^{...})',
+        message: 'Multi-token numeric superscript without braces (use ^{...})',
       },
     ];
 

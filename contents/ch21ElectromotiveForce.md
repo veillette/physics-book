@@ -155,7 +155,7 @@ is given by Ohm’s law to be
  $$I=\frac{\text{emf}}{ {R}_{\text{load}}+r}. $$
 </div>
 
-![This schematic drawing of an electrical circuit shows an e m f, labeled as script E, driving a current through a resistive load R sub load and through the internal resistance r of the voltage source. The current is shown flowing in a clockwise direction from the positive end of the source.](../resources/Figure_21_02_05.jpg 'Schematic of a voltage source and its load ( R_\\text{load} ). Since the internal resistance ( r ) is in series with the load, it can significantly affect the terminal voltage and current delivered to the load.  (Note that the script E stands for emf.)')
+![A source of emf with internal resistance r on the left drives current I clockwise through a load resistance R_load on the right. I = emf/(R_load + r).](../resources/Figure_21_02_05.svg 'Schematic of a voltage source and its load ( R_\\text{load} ). Since the internal resistance ( r ) is in series with the load, it can significantly affect the terminal voltage and current delivered to the load.')
 {: #Figure5}
 
 We see from this expression that the smaller the internal resistance $$r $$ ,
@@ -321,7 +321,7 @@ flows. See [[Figure 10]](#Figure10), for example, which shows a circuit exactly
 analogous to the battery charger discussed above. If two voltage sources in
 series with emfs in the same sense are connected to a load $${R}_{\text{load}} $$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+ {\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}+{R}_{\text{load}}} $$ flows. 
 
-![The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.](../resources/Figure_21_02_10.jpg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to \(I=\frac{\text{emf}_1-\text{emf}_2}{r_1+r_2}\) by the sum of the internal resistances. (Note that each emf is represented by script E in the figure.) A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
+![Two sources of emf, emf1 with internal resistance r1 on the left and emf2 with internal resistance r2 on the right, are joined in a loop with their positive terminals both at the top, so their emfs oppose. The current is I = (emf1 − emf2)/(r1 + r2).](../resources/Figure_21_02_10.svg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to \(I=\frac{\text{emf}_1-\text{emf}_2}{r_1+r_2}\) by the sum of the internal resistances. A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
 {: #Figure10}
 
 ![Part a shows a flashlight glowing when connected to two cells joined in series with the positive end of one cell connected to the negative end of the other. Part b shows the schematic circuit for part a. There is a series combination of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two connected to a load resistor R sub load.](../resources/Figure_21_02_11.jpg 'This schematic represents a flashlight with two cells (voltage sources) and a single bulb (load resistance) in series. The current that flows is \(I=\frac{\text{emf}_1+\text{emf}_2}{r_1+r_2+R_{\text{load}}}\). (Note that each emf is represented by script E in the figure.)')
@@ -348,7 +348,7 @@ individual batteries. For example, some diesel-powered cars use two 12-V
 batteries in parallel; they produce a total emf of 12 V but can deliver the
 larger current needed to start a diesel engine.
 
-![Part a shows parallel combination of two cells of e m f script E and internal resistance r sub one and internal resistance r sub two connected to a load resistor R sub load. Part b shows the combination of e m f of part a. The circuit has a cell of e m f script E with an internal resistance r sub tot and a load resistor R sub load. The resistance r sub tot is less than either r sub one or r sub two.](../resources/Figure_21_02_12.jpg 'Two voltage sources with identical emfs (each labeled by script E) connected in parallel produce the same emf but have a smaller total internal resistance than the individual sources. Parallel combinations are often used to deliver more current. Here \(I=\frac{\text{emf}}{r_{\text{tot}}+R_{\text{load}}}\) flows through the load.')
+![Top: two sources, each with the same emf, with internal resistances r1 and r2, connected in parallel across a load R_load. An arrow points to the equivalent circuit below: a single source of the same emf with a total internal resistance r_tot across R_load, where r_tot is less than r1 or r2.](../resources/Figure_21_02_12.svg 'Two voltage sources with identical emfs connected in parallel produce the same emf but have a smaller total internal resistance than the individual sources. Parallel combinations are often used to deliver more current. Here \(I=\frac{\text{emf}}{r_{\text{tot}}+R_{\text{load}}}\) flows through the load.')
 {: #Figure12}
 
 ### Animals as Electrical Detectors
@@ -449,6 +449,22 @@ Is every emf a potential difference? Is every potential difference an emf? Expla
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the definitions. An emf is the potential difference a source supplies when no current flows, produced by a non-electrostatic process such as a chemical reaction or a changing magnetic flux. A potential difference is the difference in electric potential between any two points, in joules per coulomb.
+
+**Solution**
+
+**Every emf is a potential difference.** Both are measured in volts ($$ 1 \text{ V} = 1 \text{ J/C} $$), and an emf is the potential difference across the terminals of a source when no current flows. A $$ 1.5\text{-V} $$ cell raises each coulomb of charge by $$ 1.5 \text{ J} $$ of potential energy.
+
+**Not every potential difference is an emf.** A potential difference also exists across an ordinary resistor carrying a current: $$ 2.0 \text{ A} $$ through a $$ 6.0\text{-}\Omega $$ resistor gives $$ V = IR = (2.0 \text{ A})(6.0 \ \Omega) = 12 \text{ V} $$. That resistor converts electrical energy into thermal energy; it is not a source and does not supply energy to the charges. Similarly, the potential difference between two charged plates of a capacitor is not an emf.
+
+Every emf is a potential difference, namely the potential difference of a source when no current flows, but not every potential difference is an emf, because potential differences also appear across resistors and other devices (for example, $$ 12 \text{ V} $$ across a $$ 6.0\text{-}\Omega $$ resistor carrying $$ 2.0 \text{ A} $$) that remove energy from the charges rather than supply it.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -459,9 +475,37 @@ Explain which battery is doing the charging and which is being charged in [[Figu
 
 :::
 
+::: solution
+
+**Strategy**
+
+The two positive terminals are connected together, so the batteries oppose each other. The larger emf drives current around the loop; a battery is being charged when current enters its positive terminal. Find the current and the terminal voltages.
+
+**Solution**
+
+Going around the loop, the emfs subtract and the internal resistances add:
+
+<div class="equation">
+$$ I = \frac{\text{emf}_2 - \text{emf}_1}{r_1 + r_2} = \frac{18.0 \text{ V} - 12.0 \text{ V}}{1.0 \ \Omega + 0.5 \ \Omega} = 4.0 \text{ A} $$
 </div>
 
-![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_21_02_14.jpg ' ')
+The current leaves the positive terminal of the 18.0-V battery, flows along the top wire, and **enters the positive terminal of the 12.0-V battery**, forcing current backward through it. The terminal voltages agree, as they must for batteries connected in parallel:
+
+<div class="equation">
+$$ V_1 = \text{emf}_1 + Ir_1 = 12.0 \text{ V} + (4.0 \text{ A})(1.0 \ \Omega) = 16.0 \text{ V} $$
+</div>
+
+<div class="equation">
+$$ V_2 = \text{emf}_2 - Ir_2 = 18.0 \text{ V} - (4.0 \text{ A})(0.5 \ \Omega) = 16.0 \text{ V} $$
+</div>
+
+The 18.0-V battery is doing the charging and the 12.0-V battery is being charged, because the larger emf drives a $$ 4.0\text{-A} $$ current into the positive terminal of the 12.0-V battery, raising that battery's terminal voltage above its emf to $$ 16.0 \text{ V} $$.
+
+:::
+
+</div>
+
+![A loop with two sources whose positive terminals are both at the top: emf1 = 12.0 V with internal resistance r1 = 1.0 ohm on the left, and emf2 = 18.0 V with internal resistance r2 = 0.5 ohm on the right.](../resources/Figure_21_02_14.svg ' ')
 {: #Figure14}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -469,6 +513,28 @@ Explain which battery is doing the charging and which is being charged in [[Figu
 ::: problem
 
 Given a battery, an assortment of resistors, and a variety of voltage and current measuring devices, describe how you would determine the internal resistance of the battery.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The terminal voltage is $$ V = \text{emf} - Ir $$. Measure the emf when (almost) no current flows, then measure $$ V $$ and $$ I $$ with a known load, and solve for $$ r $$.
+
+**Solution**
+
+1. Connect a high-resistance voltmeter alone across the terminals. It draws almost no current, so it reads the emf. Suppose it reads $$ 1.58 \text{ V} $$.
+2. Connect a resistor, for example $$ 2.00 \ \Omega $$, across the battery with an ammeter in series. Measure the current $$ I $$ and the terminal voltage $$ V $$ with the voltmeter across the terminals. Suppose $$ I = 0.700 \text{ A} $$ and $$ V = 1.40 \text{ V} $$.
+3. Solve for the internal resistance:
+
+<div class="equation">
+$$ r = \frac{\text{emf} - V}{I} = \frac{1.58 \text{ V} - 1.40 \text{ V}}{0.700 \text{ A}} = 0.257 \ \Omega $$
+</div>
+
+For a more reliable result, repeat with several load resistors and plot $$ V $$ against $$ I $$; the graph is a straight line whose intercept is the emf and whose slope is $$ -r $$. Choose loads small enough that $$ Ir $$ is a measurable fraction of the emf.
+
+You would determine the internal resistance by measuring the emf with a voltmeter alone, then measuring the terminal voltage $$ V $$ and current $$ I $$ with a known resistor connected, and calculating $$ r = (\text{emf} - V)/I $$ (for example, $$ (1.58 \text{ V} - 1.40 \text{ V})/(0.700 \text{ A}) = 0.257 \ \Omega $$).
 
 :::
 
@@ -482,6 +548,30 @@ Two different 12-V automobile batteries on a store shelf are rated at 600 and 85
 
 :::
 
+::: solution
+
+**Strategy**
+
+The cold cranking rating is the current a battery can supply (at $$ -18 ^\circ \text{C} $$) while keeping its terminal voltage above $$ 7.2 \text{ V} $$. Use $$ V = \text{emf} - Ir $$ to estimate the internal resistance of each battery.
+
+**Solution**
+
+Solving for $$ r $$ with $$ \text{emf} = 12.0 \text{ V} $$ and $$ V = 7.2 \text{ V} $$:
+
+<div class="equation">
+$$ r_{600} = \frac{\text{emf} - V}{I} = \frac{12.0 \text{ V} - 7.2 \text{ V}}{600 \text{ A}} = 8.0 \times 10^{-3} \ \Omega $$
+</div>
+
+<div class="equation">
+$$ r_{850} = \frac{12.0 \text{ V} - 7.2 \text{ V}}{850 \text{ A}} = 5.6 \times 10^{-3} \ \Omega $$
+</div>
+
+For the same allowed voltage drop, a larger current means a smaller internal resistance.
+
+The battery rated at 850 cold cranking amps has the smaller internal resistance (about $$ 5.6 \text{ m}\Omega $$, compared with $$ 8.0 \text{ m}\Omega $$ for the 600-A battery), because it can supply a larger current with the same drop $$ Ir $$ in terminal voltage.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -492,6 +582,28 @@ What are the advantages and disadvantages of connecting batteries in series? In 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Combine $$ N $$ identical batteries, each with emf $$ \text{emf}_1 $$ and internal resistance $$ r_1 $$. In series, emfs and internal resistances add; in parallel, the emf is that of one battery and the internal resistance is $$ r_1/N $$. Illustrate with two $$ 1.5\text{-V} $$ cells, each with $$ r_1 = 0.20 \ \Omega $$.
+
+**Solution**
+
+**Series:** $$ \text{emf} = 2(1.5 \text{ V}) = 3.0 \text{ V} $$ and $$ r = 2(0.20 \ \Omega) = 0.40 \ \Omega $$.
+
+- *Advantage:* a larger emf, so more voltage and power can be delivered to a load that needs it.
+- *Disadvantages:* the internal resistances add, and the same current passes through every cell, so one weak or dead cell limits or blocks the current for the whole string.
+
+**Parallel:** $$ \text{emf} = 1.5 \text{ V} $$ and $$ r = (0.20 \ \Omega)/2 = 0.10 \ \Omega $$.
+
+- *Advantages:* the internal resistance is smaller, so the batteries can supply a larger current with less drop in terminal voltage, and each cell supplies only part of the current, so the combination lasts longer.
+- *Disadvantages:* the voltage is no larger than one battery's, and if the emfs are unequal, the stronger battery drives current backward through the weaker one, wasting energy even with no load (see the previous question about [[Figure 14]](#Figure14)).
+
+Connecting batteries in series increases the emf (for example, to $$ 3.0 \text{ V} $$ for two $$ 1.5\text{-V} $$ cells) but also adds their internal resistances ($$ 0.40 \ \Omega $$), whereas connecting them in parallel keeps the emf the same ($$ 1.5 \text{ V} $$) but lowers the internal resistance ($$ 0.10 \ \Omega $$) so that more current can be supplied; series strings fail if one cell fails, and parallel batteries with unequal emfs drain into each other.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -499,6 +611,36 @@ What are the advantages and disadvantages of connecting batteries in series? In 
 ::: problem
 
 Semitractor trucks use four large 12-V batteries. The starter system requires 24 V, while normal operation of the truck’s other electrical components utilizes 12 V. How could the four batteries be connected to produce 24 V? To produce 12 V? Why is 24 V better than 12 V for starting the truck’s engine (a very heavy load)?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Batteries in series add their emfs; batteries in parallel keep the emf of one battery and reduce the internal resistance. Find arrangements of four 12-V batteries that give 24 V and 12 V, then compare the current and power a heavy load draws at each voltage. Take each battery to have $$ r = 0.0100 \ \Omega $$.
+
+**Solution**
+
+![Two arrangements of four 12-volt batteries. Left, for 24 volts: two pairs of batteries, each pair connected in series, with the two pairs connected in parallel. Right, for 12 volts: all four batteries connected in parallel.](../resources/concept_21_02_q06.svg)
+
+**For 24 V:** connect the batteries in two pairs, each pair in series ($$ 12 \text{ V} + 12 \text{ V} = 24 \text{ V} $$), then connect the two pairs in parallel. The emf is $$ 24 \text{ V} $$, and the internal resistance is
+
+<div class="equation">
+$$ r_{24} = \frac{2(0.0100 \ \Omega)}{2} = 0.0100 \ \Omega $$
+</div>
+
+**For 12 V:** connect all four in parallel. The emf is $$ 12 \text{ V} $$, and $$ r_{12} = (0.0100 \ \Omega)/4 = 0.00250 \ \Omega $$.
+
+**Why 24 V for starting:** the starter must deliver a large power. For a given power, the current is $$ I = P/V $$, so doubling the voltage halves the current. For a $$ 12.0\text{-kW} $$ starter,
+
+<div class="equation">
+$$ I_{24} = \frac{12\,000 \text{ W}}{24 \text{ V}} = 500 \text{ A}, \qquad I_{12} = \frac{12\,000 \text{ W}}{12 \text{ V}} = 1000 \text{ A} $$
+</div>
+
+The power lost in the cables, $$ I^2 R_{\text{wire}} $$, is four times smaller at $$ 24 \text{ V} $$. With $$ R_{\text{wire}} = 0.00200 \ \Omega $$, the loss is $$ (500 \text{ A})^2(0.00200 \ \Omega) = 500 \text{ W} $$ instead of $$ (1000 \text{ A})^2(0.00200 \ \Omega) = 2000 \text{ W} $$, and the starter and cables can be made with thinner wire.
+
+To produce 24 V, connect the batteries in two series pairs and connect the pairs in parallel; to produce 12 V, connect all four in parallel; 24 V is better for starting because the same power is delivered with half the current (for example, $$ 500 \text{ A} $$ instead of $$ 1000 \text{ A} $$ for a $$ 12\text{-kW} $$ starter), which reduces the $$ I^2R $$ losses in the cables and the battery by a factor of four.
 
 :::
 
@@ -611,7 +753,7 @@ Use $$V = \text{emf} - Ir$$ for terminal voltage. Power produced by the cell is 
 
 **(a)** Terminal voltage:
 <div class="equation">
-$$V = \text{emf} - Ir = 1.54 \text{ V} - (2.00 \text{ A})(0.100 \text{ Ω}) = 1.54 - 0.200 = 1.34 \text{ V}$$
+$$V = \text{emf} - Ir = 1.54 \text{ V} - (2.00 \text{ A})(0.100 \text{ Ω}) = 1.54 \text{ V} - 0.200 \text{ V} = 1.34 \text{ V}$$
 </div>
 
 **(b)** Power produced by the cell:
@@ -626,10 +768,10 @@ $$P_{\text{load}} = IV = (2.00 \text{ A})(1.34 \text{ V}) = 2.68 \text{ W}$$
 
 Alternatively, we can calculate the power dissipated internally:
 <div class="equation">
-$$P_{\text{internal}} = I^2 r = (2.00)^2(0.100) = 0.400 \text{ W}$$
+$$P_{\text{internal}} = I^2 r = (2.00 \text{ A})^2(0.100 \text{ Ω}) = 0.400 \text{ W}$$
 </div>
 
-Check: $$P_{\text{load}} + P_{\text{internal}} = 2.68 + 0.40 = 3.08 \text{ W} = P_{\text{cell}}$$ ✓
+Check: $$P_{\text{load}} + P_{\text{internal}} = 2.68 \text{ W} + 0.40 \text{ W} = 3.08 \text{ W} = P_{\text{cell}}$$ ✓
 
 **Discussion**
 
@@ -676,7 +818,7 @@ When a battery is being charged, current flows into it (opposite to discharge di
 
 **(a)** Terminal voltage during charging:
 <div class="equation">
-$$V = \text{emf} + Ir = 12.0 \text{ V} + (10.0 \text{ A})(0.600 \text{ Ω}) = 12.0 + 6.00 = 18.0 \text{ V}$$
+$$V = \text{emf} + Ir = 12.0 \text{ V} + (10.0 \text{ A})(0.600 \text{ Ω}) = 12.0 \text{ V} + 6.00 \text{ V} = 18.0 \text{ V}$$
 </div>
 
 **(b)** The battery charger output voltage must equal the battery's terminal voltage:
@@ -686,7 +828,7 @@ $$V_{\text{charger}} = 18.0 \text{ V}$$
 
 **Discussion**
 
-During charging, the 10.0 A current flows through the internal resistance in the direction that adds to the emf, making the terminal voltage 18.0 V (50% higher than the 12.0-V emf). The charger must provide this higher voltage to overcome both the battery's emf and push current through its internal resistance. The power dissipated internally is $$P = I^2r = (10.0)^2(0.600) = 60.0 \text{ W}$$, which heats the battery during charging—this is why batteries warm up when charging.
+During charging, the 10.0 A current flows through the internal resistance in the direction that adds to the emf, making the terminal voltage 18.0 V (50% higher than the 12.0-V emf). The charger must provide this higher voltage to overcome both the battery's emf and push current through its internal resistance. The power dissipated internally is $$P = I^2r = (10.0 \text{ A})^2(0.600 \text{ Ω}) = 60.0 \text{ W}$$, which heats the battery during charging—this is why batteries warm up when charging.
 
 (a) 18.0 V, (b) 18.0 V.
 
@@ -713,27 +855,27 @@ When charging: $$V = \text{emf} + Ir$$ (current into battery). When discharging:
 
 **(a)** Terminal voltage while charging:
 <div class="equation">
-$$V = \text{emf} + Ir = 12 + (60)(0.050) = 12 + 3.0 = 15 \text{ V}$$
+$$V = \text{emf} + Ir = 12 \text{ V} + (60 \text{ A})(0.050 \text{ Ω}) = 12 \text{ V} + 3.0 \text{ V} = 15 \text{ V}$$
 </div>
 
 **(b)** Rate of thermal energy dissipation:
 <div class="equation">
-$$P_{\text{thermal}} = I^2 r = (60)^2(0.050) = 180 \text{ W}$$
+$$P_{\text{thermal}} = I^2 r = (60 \text{ A})^2(0.050 \text{ Ω}) = 180 \text{ W}$$
 </div>
 
 **(c)** Rate of electrical-to-chemical energy conversion:
 <div class="equation">
-$$P_{\text{chemical}} = I \times \text{emf} = (60)(12) = 720 \text{ W}$$
+$$P_{\text{chemical}} = I \times \text{emf} = (60 \text{ A})(12 \text{ V}) = 720 \text{ W}$$
 </div>
 
-Check: Total input power = $$IV = (60)(15) = 900 \text{ W}$$
-Power balance: $$P_{\text{chemical}} + P_{\text{thermal}} = 720 + 180 = 900 \text{ W}$$ ✓
+Check: Total input power = $$IV = (60 \text{ A})(15 \text{ V}) = 900 \text{ W}$$
+Power balance: $$P_{\text{chemical}} + P_{\text{thermal}} = 720 \text{ W} + 180 \text{ W} = 900 \text{ W}$$ ✓
 
 **(d)** When supplying current (discharging):
 
 Terminal voltage:
 <div class="equation">
-$$V = \text{emf} - Ir = 12 - (60)(0.050) = 12 - 3.0 = 9.0 \text{ V}$$
+$$V = \text{emf} - Ir = 12 \text{ V} - (60 \text{ A})(0.050 \text{ Ω}) = 12 \text{ V} - 3.0 \text{ V} = 9.0 \text{ V}$$
 </div>
 
 Thermal dissipation (same as before):
@@ -796,18 +938,18 @@ Assume the radio uses two cells in series. Calculate total resistance, current, 
 **(a)** Circuit diagram (not drawn here, but would show): Two cells in series connected to the radio (3.20-Ω load resistor).
 
 **(b)** With two NiCad cells:
-- Total emf: $$\text{emf} = 2 \times 1.25 = 2.50 \text{ V}$$
-- Total internal resistance: $$r = 2 \times 0.0400 = 0.0800 \text{ Ω}$$
-- Total resistance: $$R_{\text{tot}} = 3.20 + 0.0800 = 3.28 \text{ Ω}$$
-- Current: $$I = 2.50/3.28 = 0.762 \text{ A}$$
-- Power to radio: $$P = I^2 R = (0.762)^2(3.20) = 1.86 \text{ W}$$
+- Total emf: $$\text{emf} = 2 \times 1.25 \text{ V} = 2.50 \text{ V}$$
+- Total internal resistance: $$r = 2 \times 0.0400 \text{ Ω} = 0.0800 \text{ Ω}$$
+- Total resistance: $$R_{\text{tot}} = 3.20 \text{ Ω} + 0.0800 \text{ Ω} = 3.28 \text{ Ω}$$
+- Current: $$I = (2.50 \text{ V})/(3.28 \text{ Ω}) = 0.762 \text{ A}$$
+- Power to radio: $$P = I^2 R = (0.762 \text{ A})^2(3.20 \text{ Ω}) = 1.86 \text{ W}$$
 
 **(c)** With two alkaline cells:
-- Total emf: $$\text{emf} = 2 \times 1.58 = 3.16 \text{ V}$$
-- Total internal resistance: $$r = 2 \times 0.200 = 0.400 \text{ Ω}$$
-- Total resistance: $$R_{\text{tot}} = 3.20 + 0.400 = 3.60 \text{ Ω}$$
-- Current: $$I = 3.16/3.60 = 0.878 \text{ A}$$
-- Power to radio: $$P = (0.878)^2(3.20) = 2.47 \text{ W}$$
+- Total emf: $$\text{emf} = 2 \times 1.58 \text{ V} = 3.16 \text{ V}$$
+- Total internal resistance: $$r = 2 \times 0.200 \text{ Ω} = 0.400 \text{ Ω}$$
+- Total resistance: $$R_{\text{tot}} = 3.20 \text{ Ω} + 0.400 \text{ Ω} = 3.60 \text{ Ω}$$
+- Current: $$I = (3.16 \text{ V})/(3.60 \text{ Ω}) = 0.878 \text{ A}$$
+- Power to radio: $$P = I^2 R = (0.878 \text{ A})^2(3.20 \text{ Ω}) = 2.47 \text{ W}$$
 
 **(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a larger fraction of the total. As the load resistance decreases from 3.20 Ω, the alkaline advantage shrinks; below about 1.4 Ω, the two NiCad cells deliver more load power. Load power does not increase indefinitely as load resistance decreases. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
 
@@ -869,49 +1011,49 @@ Four cells in series: three identical 1.58-V cells and one 1.53-V cell. Add emfs
 
 **(b)** Total emf:
 <div class="equation">
-$$\text{emf}_{\text{total}} = 3(1.58) + 1.53 = 4.74 + 1.53 = 6.27 \text{ V}$$
+$$\text{emf}_{\text{total}} = 3(1.58 \text{ V}) + 1.53 \text{ V} = 4.74 \text{ V} + 1.53 \text{ V} = 6.27 \text{ V}$$
 </div>
 
 Total internal resistance:
 <div class="equation">
-$$r_{\text{total}} = 3(0.0200) + 0.100 = 0.0600 + 0.100 = 0.160 \text{ Ω}$$
+$$r_{\text{total}} = 3(0.0200 \text{ Ω}) + 0.100 \text{ Ω} = 0.0600 \text{ Ω} + 0.100 \text{ Ω} = 0.160 \text{ Ω}$$
 </div>
 
 Total resistance:
 <div class="equation">
-$$R_{\text{total}} = 10.0 + 0.160 = 10.16 \text{ Ω}$$
+$$R_{\text{total}} = 10.0 \text{ Ω} + 0.160 \text{ Ω} = 10.16 \text{ Ω}$$
 </div>
 
 Current:
 <div class="equation">
-$$I = \frac{6.27}{10.16} = 0.617 \text{ A}$$
+$$I = \frac{6.27 \text{ V}}{10.16 \text{ Ω}} = 0.617 \text{ A}$$
 </div>
 
 **(c)** Power to load:
 <div class="equation">
-$$P = I^2 R_{\text{load}} = (0.617)^2(10.0) = 3.81 \text{ W}$$
+$$P = I^2 R_{\text{load}} = (0.617 \text{ A})^2(10.0 \text{ Ω}) = 3.81 \text{ W}$$
 </div>
 
 **(d)** If power drops to 0.500 W, find new internal resistance of the bad cell. Let $$r_{\text{bad}}$$ be its new resistance.
 
 From $$P = I^2 R_{\text{load}}$$:
 <div class="equation">
-$$I = \sqrt{\frac{P}{R_{\text{load}}}} = \sqrt{\frac{0.500}{10.0}} = 0.224 \text{ A}$$
+$$I = \sqrt{\frac{P}{R_{\text{load}}}} = \sqrt{\frac{0.500 \text{ W}}{10.0 \text{ Ω}}} = 0.224 \text{ A}$$
 </div>
 
 New total resistance:
 <div class="equation">
-$$R_{\text{new}} = \frac{\text{emf}}{I} = \frac{6.27}{0.224} = 28.0 \text{ Ω}$$
+$$R_{\text{new}} = \frac{\text{emf}}{I} = \frac{6.27 \text{ V}}{0.224 \text{ A}} = 28.0 \text{ Ω}$$
 </div>
 
 New internal resistance:
 <div class="equation">
-$$r_{\text{new}} = 28.0 - 10.0 = 18.0 \text{ Ω}$$
+$$r_{\text{new}} = 28.0 \text{ Ω} - 10.0 \text{ Ω} = 18.0 \text{ Ω}$$
 </div>
 
 Bad cell's internal resistance:
 <div class="equation">
-$$r_{\text{bad}} = r_{\text{new}} - 3(0.0200) = 18.0 - 0.0600 = 17.9 \text{ Ω}$$
+$$r_{\text{bad}} = r_{\text{new}} - 3(0.0200 \text{ Ω}) = 18.0 \text{ Ω} - 0.0600 \text{ Ω} = 17.9 \text{ Ω}$$
 </div>
 
 **Discussion**
@@ -962,33 +1104,33 @@ Model as series circuit with emf = 20.0 kV, internal resistance $$r$$, and body 
 
 **(a)** Circuit: 20.0-kV source with internal resistance $$r$$ in series with 10.0-kΩ body resistance.
 
-**(b)** Total resistance: $$R = 2000 + 10000 = 12000 \text{ Ω} = 12.0 \text{ kΩ}$$
+**(b)** Total resistance: $$R = 2000 \text{ Ω} + 10000 \text{ Ω} = 12000 \text{ Ω} = 12.0 \text{ kΩ}$$
 
 Current:
 <div class="equation">
-$$I = \frac{V}{R} = \frac{20000}{12000} = 1.67 \text{ A}$$
+$$I = \frac{V}{R} = \frac{20000 \text{ V}}{12000 \text{ Ω}} = 1.67 \text{ A}$$
 </div>
 
 **(c)** Power in body:
 <div class="equation">
-$$P = I^2 R_{\text{body}} = (1.67)^2(10000) = 27.9 \text{ kW}$$
+$$P = I^2 R_{\text{body}} = (1.67 \text{ A})^2(10000 \text{ Ω}) = 27.9 \text{ kW}$$
 </div>
 
 This is lethal—enough to cause immediate death!
 
 **(d)** For maximum current of 1.00 mA:
 <div class="equation">
-$$R_{\text{total}} = \frac{V}{I} = \frac{20000}{0.00100} = 20.0 \text{ MΩ}$$
+$$R_{\text{total}} = \frac{V}{I} = \frac{20000 \text{ V}}{0.00100 \text{ A}} = 20.0 \text{ MΩ}$$
 </div>
 
 Required internal resistance:
 <div class="equation">
-$$r = R_{\text{total}} - R_{\text{body}} = 20.0 \times 10^{6} - 10.0 \times 10^{3} \approx 20.0 \text{ MΩ}$$
+$$r = R_{\text{total}} - R_{\text{body}} = 20.0 \times 10^{6} \text{ Ω} - 10.0 \times 10^{3} \text{ Ω} \approx 20.0 \text{ MΩ}$$
 </div>
 
 **(e)** Yes, this would severely compromise effectiveness for low-resistance devices. For example, with a 1.00-Ω load:
-- Without modification: $$I = 20000/(2000+1) = 10.0 \text{ A}$$, $$P = 100 \text{ W}$$
-- With 20-MΩ internal resistance: $$I = 20000/(20 \times 10^{6} + 1) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ µW}$$
+- Without modification: $$I = (20000 \text{ V})/(2000 \text{ Ω} + 1 \text{ Ω}) = 10.0 \text{ A}$$, $$P = 100 \text{ W}$$
+- With 20-MΩ internal resistance: $$I = (20000 \text{ V})/(20 \times 10^{6} \text{ Ω} + 1 \text{ Ω}) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ µW}$$
 
 The power delivery drops by a factor of about 100 million! This makes the supply useless for most applications requiring significant power.
 
@@ -1012,6 +1154,40 @@ Electric fish generate current with biological cells called electroplaques, whic
 
 :::
 
+::: solution
+
+**Strategy**
+
+Within each row, the 5000 electroplaques are in series, so their emfs and internal resistances add. The 140 identical rows are in parallel, so the combined emf is that of one row, and the combined internal resistance is that of one row divided by 140. The water is the load in series with this equivalent source.
+
+**Solution**
+
+For one row:
+
+<div class="equation">
+$$ \text{emf}_{\text{row}} = 5000(0.15 \text{ V}) = 750 \text{ V}, \qquad r_{\text{row}} = 5000(0.25 \ \Omega) = 1250 \ \Omega $$
+</div>
+
+For the 140 rows in parallel:
+
+<div class="equation">
+$$ \text{emf} = 750 \text{ V}, \qquad r = \frac{1250 \ \Omega}{140} = 8.93 \ \Omega $$
+</div>
+
+The current through the water is
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R_{\text{water}}} = \frac{750 \text{ V}}{8.93 \ \Omega + 800 \ \Omega} = 0.927 \text{ A} $$
+</div>
+
+**Discussion**
+
+The series arrangement in each row gives the eel its high voltage, while the many parallel rows keep the internal resistance small compared with the $$ 800 \ \Omega $$ of the water, so almost all of the $$ 750 \text{ V} $$ appears across the water. A current of nearly an ampere is enough to stun prey.
+
+The eel can produce a current of $$ 0.927 \text{ A} $$ in the water.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1026,6 +1202,49 @@ b) What power is dissipated inside the battery? (c) At what rate (in
 $$\text{º}\text{C/min} $$ )
 will its temperature increase if its mass is 20.0 kg and it has a specific heat
 of $$ 0.300 \text{kcal/kg}\cdot\text{ºC} $$ , assuming no heat escapes?
+
+:::
+
+::: solution
+
+**Strategy**
+
+While the battery is being charged, the current flows into its positive terminal, so its terminal voltage exceeds its emf: $$ V = \text{emf} + Ir $$. Solve for $$ r $$, find the power $$ I^2 r $$ dissipated inside, and use $$ Q = mc\Delta T $$ for the heating rate, converting kilocalories to joules with $$ 1 \text{ kcal} = 4186 \text{ J} $$.
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ r = \frac{V - \text{emf}}{I} = \frac{16.0 \text{ V} - 12.0 \text{ V}}{10.0 \text{ A}} = 0.400 \ \Omega $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ P = I^2 r = (10.0 \text{ A})^2(0.400 \ \Omega) = 40.0 \text{ W} $$
+</div>
+
+**(c)** In one minute the battery receives
+
+<div class="equation">
+$$ Q = Pt = (40.0 \text{ J/s})(60.0 \s) = 2400 \J = \frac{2400 \J}{4186 \text{ J/kcal}} = 0.573 \text{ kcal} $$
+</div>
+
+so the temperature rises by
+
+<div class="equation">
+<!-- physics-scan: temperature=interval -->
+$$ \Delta T = \frac{Q}{mc} = \frac{0.573 \text{ kcal}}{(20.0 \kg)(0.300 \text{ kcal/kg}\cdot\text{ºC})} = 0.0956 \text{ ºC} $$
+</div>
+
+each minute, a rate of $$ 0.0956 \text{ ºC/min} $$.
+
+**Discussion**
+
+Of the $$ (16.0 \text{ V})(10.0 \text{ A}) = 160 \text{ W} $$ delivered by the charger, $$ 40.0 \text{ W} $$, or 25%, becomes thermal energy in the battery. The temperature rise is slow, about $$ 5.7 \text{ ºC} $$ per hour, so heat loss to the surroundings keeps the battery from overheating in normal charging.
+
+(a) The internal resistance is $$ 0.400 \ \Omega $$. (b) The power dissipated inside the battery is $$ 40.0 \text{ W} $$. (c) The temperature increases at $$ 0.0956 \text{ ºC/min} $$.
 
 :::
 
@@ -1067,6 +1286,44 @@ its internal resistance.
 (a) What is the internal resistance of a 1.54-V dry cell that supplies 1.00 W of
 power to a $$ 15.0-\Omega $$ bulb? (b) What is unreasonable about this result? (
 c) Which assumptions are unreasonable or inconsistent?
+
+:::
+
+::: solution
+
+**Strategy**
+
+From the power delivered to the bulb, $$ P = I^2 R $$, find the current and the terminal voltage $$ V = IR $$. Then solve $$ V = \text{emf} - Ir $$ for the internal resistance.
+
+**Solution**
+
+**(a)** The current through the bulb is
+
+<div class="equation">
+$$ I = \sqrt{\frac{P}{R}} = \sqrt{\frac{1.00 \text{ W}}{15.0 \ \Omega}} = 0.258 \text{ A} $$
+</div>
+
+and the terminal voltage is
+
+<div class="equation">
+$$ V = IR = (0.258 \text{ A})(15.0 \ \Omega) = 3.87 \text{ V} $$
+</div>
+
+The internal resistance is then
+
+<div class="equation">
+$$ r = \frac{\text{emf} - V}{I} = \frac{1.54 \text{ V} - 3.87 \text{ V}}{0.258 \text{ A}} = -9.04 \ \Omega $$
+</div>
+
+**(b)** A resistance cannot be negative. The result would also mean that the terminal voltage, $$ 3.87 \text{ V} $$, is larger than the emf of $$ 1.54 \text{ V} $$, which is impossible for a cell that is supplying current.
+
+**(c)** The assumption that a 1.54-V cell can supply 1.00 W to a $$ 15.0\text{-}\Omega $$ bulb is inconsistent. Even with zero internal resistance, the most power the cell can deliver to this bulb is $$ (1.54 \text{ V})^2/(15.0 \ \Omega) = 0.158 \text{ W} $$.
+
+**Discussion**
+
+Checking the maximum possible power, $$ \text{emf}^2/R $$, first would have revealed the inconsistency. To deliver $$ 1.00 \text{ W} $$ to $$ 15.0 \ \Omega $$ requires at least $$ 3.87 \text{ V} $$, which would take three cells in series.
+
+(a) The calculated internal resistance is $$ -9.04 \ \Omega $$. (b) A negative internal resistance, and a terminal voltage larger than the emf, are impossible. (c) The assumed power of 1.00 W is too large for a 1.54-V cell driving a $$ 15.0\text{-}\Omega $$ bulb; at most $$ 0.158 \text{ W} $$ is possible.
 
 :::
 

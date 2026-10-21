@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.
-* Calculate the electrostatic force between two charged point forces, such as electrons or protons.
-* Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
+- State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.
+- Calculate the electrostatic force between two charged point forces, such as electrons or protons.
+- Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
 
 :::
 
@@ -32,8 +33,8 @@ Coulomb’s Law
  $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}}. $$
 </div>
 
-Coulomb’s law calculates the *magnitude* of the force  $$F $$ between two point charges,  $${q}_{1} $$ and  $${q}_{2} $$, separated by a distance  $$r $$ .
- In SI units, the constant  $$k $$  is equal to
+Coulomb’s law calculates the _magnitude_ of the force $$F $$ between two point charges, $${q}_{1} $$ and $${q}_{2} $$, separated by a distance $$r $$ .
+In SI units, the constant $$k $$ is equal to
 
 <div class="equation" >
  $$k= 8.988 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}\approx  8.99 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}. $$
@@ -50,7 +51,7 @@ precision. For example, it has been shown that the force is inversely
 proportional to distance between two objects squared $$\left(F\propto 1/{r}^{2}\right) $$ to an accuracy of 1 part in $$ 10^{16} $$ . No exceptions
 have ever been found, even at the small distances within the atom.
 
-![In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ](../resources/Figure_18_03_02.jpg 'The magnitude of the electrostatic force ( F ) between point charges ( q_{1} ) and ( q_{2} ) separated by a distance ( r ) is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on ( q_{1} ) is equal in magnitude and opposite in direction to the force it exerts on ( q_{2} ) . (a) Like charges. (b) Unlike charges.')
+![The force between point charges q1 and q2 a distance r apart. (a) Two negative charges repel: F21 on q1 points away from q2, and F12 on q2 points away from q1. (b) A negative q1 and a positive q2 attract: the forces point toward each other. In each case the two forces are equal in magnitude and opposite in direction, as Newton’s third law requires.](../resources/Figure_18_03_02.svg 'The magnitude of the electrostatic force ( F ) between point charges ( q_{1} ) and ( q_{2} ) separated by a distance ( r ) is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on ( q_{1} ) is equal in magnitude and opposite in direction to the force it exerts on ( q_{2} ) . (a) Like charges. (b) Unlike charges.')
 {: #Figure2}
 
 ::: example
@@ -59,8 +60,8 @@ have ever been found, even at the small distances within the atom.
 How Strong is the Coulomb Force Relative to the Gravitational Force?
 </div>
 
-Compare the electrostatic force between an electron and proton separated by  $$ 0.530 \times 10^{-10}  \text{m} $$
- with the gravitational force between them. This distance is their average separation in a hydrogen atom.
+Compare the electrostatic force between an electron and proton separated by $$ 0.530 \times 10^{-10}  \text{m} $$
+with the gravitational force between them. This distance is their average separation in a hydrogen atom.
 
 **Strategy**
 
@@ -88,16 +89,16 @@ Thus the Coulomb force is
  $$F=8.19 \times 10^{-8} \text{N}. $$
 </div>
 
-The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of  $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
+The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
 (verification is left as an end-of-section problem). The magnitude of the gravitational force is given by Newton’s law of gravitation as:
 
 <div class="equation" >
  $${F}_{G}=G\frac{mM}{ {r}^{2}}, $$
 </div>
 
-where  $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $$ .
- Here  $$m $$  and  $$M $$
- represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields
+where $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $$ .
+Here $$m $$ and $$M $$
+represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields
 
 <div class="equation" >
  $${F}_{G}=\left(6.67 \times 10^{-11} \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2}\right)×\frac{\left(9.11 \times 10^{-31} \text{kg}\right)\left(1.67 \times 10^{-27} \text{kg}\right)}{ {\left(0.530 \times 10^{-10} \text{m}\right)}^{2}}=3.61 \times 10^{-47} \text{N} $$
@@ -157,8 +158,24 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\t
 
 [[Figure 3](#Figure3) shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water’s polar character, explain what effect humidity has on removing excess charge from objects.
 
-![A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.](../resources/Figure_18_03_03.jpg 'Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.')
+![The outer electron cloud of a neutral water molecule, shaded, is concentrated around the oxygen atom. The oxygen carries a net charge −2q and each hydrogen a net charge +q; the two O–H bonds make an angle of 104°. Water is therefore a polar molecule.](../resources/Figure_18_03_03.svg 'Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a polar molecule. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.')
 {: #Figure3 height="221"}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Connect water’s polarity with surface adsorption and charge mobility.
+
+**Solution**
+
+Polar water molecules are attracted to charged surfaces. In humid air, adsorbed moisture can form a thin surface film; dissolved ions and contaminants in that film provide a path for charge to leak to the surroundings or ground. Dry insulating surfaces generally retain excess charge much longer.
+
+**Discussion**
+
+Water molecules do not destroy electric charge, and pure water is a relatively poor conductor. Humidity usually removes static charge faster by increasing surface leakage through adsorbed moisture.
 
 :::
 
@@ -172,6 +189,22 @@ Using [[Figure 3]](#Figure3), explain, in terms of Coulomb’s law, why a polar 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the distances of the two ends of the molecular dipole from the source charge.
+
+**Solution**
+
+Near a positive source, water tends to orient its partially negative oxygen end toward the source; near a negative source, its partially positive hydrogen side tends to face the source. In each case, the opposite-sign end is closer. Since the Coulomb force varies as $$1/r^2$$, the nearer attraction exceeds the farther repulsion in the nonuniform field.
+
+**Discussion**
+
+A uniform field can exert a torque without a net force on a dipole. Near an isolated charge, the field is nonuniform, so either sign attracts an appropriately oriented polar water molecule.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -179,6 +212,22 @@ Using [[Figure 3]](#Figure3), explain, in terms of Coulomb’s law, why a polar 
 ::: problem
 
 Given the polar character of water molecules, explain how ions in the air form nucleation centers for rain droplets.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply ion–dipole attraction to water vapor near an ion.
+
+**Solution**
+
+An ion orients nearby water molecules with their oppositely charged ends facing it and attracts them. This stabilizes a small cluster of water molecules, lowering the barrier to forming a droplet compared with homogeneous nucleation under otherwise similar conditions. Additional molecules can then join the cluster if the humidity and temperature favor condensation.
+
+**Discussion**
+
+An ion is a possible nucleation center, not a guarantee of rain in unsaturated air. Its electric field attracts polar water molecules and can help a condensation droplet form.
 
 :::
 
@@ -190,7 +239,7 @@ Given the polar character of water molecules, explain how ions in the air form n
 
 ::: problem
 
-What is the repulsive force between two pith balls that are 8.00 cm apart and have equal charges of  - 30.0 nC?
+What is the repulsive force between two pith balls that are 8.00 cm apart and have equal charges of - 30.0 nC?
 
 :::
 
@@ -223,7 +272,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = \left(8.99 \times 10^9\right) \frac{9.00 \times 10^{-16}}{6.40 \times 10^{-3}} \text{ N}$$
+ $$F = \left(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2\right) \frac{9.00 \times 10^{-16} \text{ C}^2}{6.40 \times 10^{-3} \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -242,9 +291,9 @@ The repulsive force between the two pith balls is 1.26 × 10⁻³ N, or 1.26 mil
 
 ::: problem
 
-(a) How strong is the attractive force between a glass rod with a  $$0.700 \mu \text{C} $$
- charge and a silk cloth with a  $$-0.600 \mu \text{C} $$
- charge, which are 12.0 cm apart, using the approximation that they act like point charges? (b) Discuss how the answer to this problem might be affected if the charges are distributed over some area and do not act like point charges.
+(a) How strong is the attractive force between a glass rod with a $$0.700 \mu \text{C} $$
+charge and a silk cloth with a $$-0.600 \mu \text{C} $$
+charge, which are 12.0 cm apart, using the approximation that they act like point charges? (b) Discuss how the answer to this problem might be affected if the charges are distributed over some area and do not act like point charges.
 
 :::
 
@@ -281,7 +330,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = \left(8.99 \times 10^9\right) \frac{4.20 \times 10^{-13}}{1.44 \times 10^{-2}} \text{ N}$$
+ $$F = \left(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2\right) \frac{4.20 \times 10^{-13} \text{ C}^2}{1.44 \times 10^{-2} \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -463,11 +512,11 @@ Substitute the values:
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{(8.99 \times 10^9)(5.625 \times 10^{-15})}{1.00}} \text{ m}$$
+ $$r = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.625 \times 10^{-15} \text{ C}^2)}{1.00 \text{ N}}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{5.06 \times 10^{-5}} \text{ m}$$
+ $$r = \sqrt{5.06 \times 10^{-5} \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -523,7 +572,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = (8.99 \times 10^9) \frac{1}{1.00 \times 10^6} \text{ N}$$
+ $$F = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{1 \text{ C}^2}{1.00 \times 10^6 \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -544,11 +593,11 @@ In everyday static electricity, charges are typically measured in nanocoulombs (
 
 ::: problem
 
-A test charge of  $$+2 \mu \text{C} $$
- is placed halfway between a charge of  $$+6 \mu \text{C} $$
- and another of  $$+4 \mu \text{C} $$
- separated by 10 cm. (a) What is the magnitude of the force on the test charge? (b) What is the direction of this force (away from or toward the  $$+6 \mu \text{C} $$
- charge)?
+A test charge of $$+2 \mu \text{C} $$
+is placed halfway between a charge of $$+6 \mu \text{C} $$
+and another of $$+4 \mu \text{C} $$
+separated by 10 cm. (a) What is the magnitude of the force on the test charge? (b) What is the direction of this force (away from or toward the $$+6 \mu \text{C} $$
+charge)?
 
 :::
 
@@ -581,21 +630,21 @@ Given values:
 **(a)** Calculate the force from the $$+6 \mu\text{C}$$ charge:
 
 <div class="equation">
- $$F_1 = k\frac{q_1 q_{\text{test}}}{r_1^2} = (8.99 \times 10^9) \frac{(6 \times 10^{-6})(2 \times 10^{-6})}{(5.0 \times 10^{-2})^2}$$
+ $$F_1 = k\frac{q_1 q_{\text{test}}}{r_1^2} = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{(6 \times 10^{-6} \text{ C})(2 \times 10^{-6} \text{ C})}{(5.0 \times 10^{-2} \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = (8.99 \times 10^9) \frac{12 \times 10^{-12}}{2.5 \times 10^{-3}} = 43.2 \text{ N}$$
+ $$F_1 = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{12 \times 10^{-12} \text{ C}^2}{2.5 \times 10^{-3} \text{ m}^2} = 43.2 \text{ N}$$
 </div>
 
 Calculate the force from the $$+4 \mu\text{C}$$ charge:
 
 <div class="equation">
- $$F_2 = k\frac{q_2 q_{\text{test}}}{r_2^2} = (8.99 \times 10^9) \frac{(4 \times 10^{-6})(2 \times 10^{-6})}{(5.0 \times 10^{-2})^2}$$
+ $$F_2 = k\frac{q_2 q_{\text{test}}}{r_2^2} = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{(4 \times 10^{-6} \text{ C})(2 \times 10^{-6} \text{ C})}{(5.0 \times 10^{-2} \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = (8.99 \times 10^9) \frac{8 \times 10^{-12}}{2.5 \times 10^{-3}} = 28.8 \text{ N}$$
+ $$F_2 = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{8 \times 10^{-12} \text{ C}^2}{2.5 \times 10^{-3} \text{ m}^2} = 28.8 \text{ N}$$
 </div>
 
 The forces point in opposite directions. Let's define the direction toward the $$+4 \mu\text{C}$$ charge as positive. Then $$F_1$$ pushes the test charge away from the $$+6 \mu\text{C}$$ charge (positive direction) and $$F_2$$ pushes it away from the $$+4 \mu\text{C}$$ charge (negative direction).
@@ -603,7 +652,7 @@ The forces point in opposite directions. Let's define the direction toward the $
 Net force:
 
 <div class="equation">
- $$F_{\text{net}} = F_1 - F_2 = 43.2 - 28.8 = 14.4 \text{ N}$$
+ $$F_{\text{net}} = F_1 - F_2 = 43.2 \text{ N} - 28.8 \text{ N} = 14.4 \text{ N}$$
 </div>
 
 **(b)** Since $$F_{\text{net}}$$ is positive, the net force is directed away from the $$+6 \mu\text{C}$$ charge (toward the $$+4 \mu\text{C}$$ charge).
@@ -629,6 +678,7 @@ Bare free charges do not remain stationary when close together. To illustrate th
 **Strategy**
 
 We follow the problem-solving strategy for electrostatics:
+
 1. Identify the charges and their separation distance
 2. Calculate the electrostatic force using Coulomb's law
 3. Use Newton's second law ($$F = ma$$) to find the acceleration
@@ -673,11 +723,11 @@ We follow the problem-solving strategy for electrostatics:
 </div>
 
 <div class="equation">
- $$a = \frac{(9.00 \times 10^9)(2.56 \times 10^{-38})}{(1.67 \times 10^{-27})(4.00 \times 10^{-18})}$$
+ $$a = \frac{(9.00 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{(1.67 \times 10^{-27} \text{ kg})(4.00 \times 10^{-18} \text{ m}^2)}$$
 </div>
 
 <div class="equation">
- $$a = \frac{2.304 \times 10^{-28}}{6.68 \times 10^{-45}} = 3.45 \times 10^{16} \text{ m/s}^2$$
+ $$a = \frac{2.304 \times 10^{-28} \text{ N·m}^2}{6.68 \times 10^{-45} \text{ kg·m}^2} = 3.45 \times 10^{16} \text{ m/s}^2$$
 </div>
 
 **Discussion**
@@ -758,8 +808,8 @@ Part (b): Whether the distance increases or decreases by a factor of 3.2, the fo
 
 ::: problem
 
-Suppose you have a total charge  $${q}_{\text{tot}} $$
- that you can split in any manner. Once split, the separation distance is fixed. How do you split the charge to achieve the greatest force?
+Suppose you have a total charge $${q}_{\text{tot}} $$
+that you can split in any manner. Once split, the separation distance is fixed. How do you split the charge to achieve the greatest force?
 
 :::
 
@@ -888,15 +938,15 @@ Substituting values:
 </div>
 
 <div class="equation">
- $$q = (1.00 \times 10^{-2})\sqrt{\frac{9.80 \times 10^{-5}}{8.99 \times 10^9}} \text{ C}$$
+ $$q = (1.00 \times 10^{-2} \text{ m})\sqrt{\frac{9.80 \times 10^{-5} \text{ N}}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}}$$
 </div>
 
 <div class="equation">
- $$q = (1.00 \times 10^{-2})\sqrt{1.09 \times 10^{-14}} \text{ C}$$
+ $$q = (1.00 \times 10^{-2} \text{ m})\sqrt{1.09 \times 10^{-14} \text{ C}^2/\text{m}^2}$$
 </div>
 
 <div class="equation">
- $$q = (1.00 \times 10^{-2})(1.04 \times 10^{-7}) = 1.04 \times 10^{-9} \text{ C}$$
+ $$q = (1.00 \times 10^{-2} \text{ m})(1.04 \times 10^{-7} \text{ C/m}) = 1.04 \times 10^{-9} \text{ C}$$
 </div>
 
 **(b)** The charge is approximately 1.04 nC, which is indeed consistent with typical static electricity. Static charges commonly range from nanocoulombs to microcoulombs. The fact that such a small charge (about 1 nC) can levitate a piece of tape demonstrates the strength of electrostatic forces at small separations.
@@ -928,6 +978,7 @@ For both electrons and protons, we calculate the ratio of electrostatic force to
 **Solution**
 
 Known constants:
+
 - $$k = 8.99 \times 10^9 \text{ N·m}^2/\text{C}^2$$
 - $$G = 6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2$$
 - $$e = 1.60 \times 10^{-19} \text{ C}$$
@@ -941,15 +992,15 @@ Known constants:
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(6.67 \times 10^{-11})(9.11 \times 10^{-31})^2}$$
+ $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(9.11 \times 10^{-31} \text{ kg})^2}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9)(2.56 \times 10^{-38})}{(6.67 \times 10^{-11})(8.30 \times 10^{-61})}$$
+ $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(8.30 \times 10^{-61} \text{ kg}^2)}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28}}{5.54 \times 10^{-71}} = 4.16 \times 10^{42}$$
+ $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28} \text{ N·m}^2}{5.54 \times 10^{-71} \text{ N·m}^2} = 4.16 \times 10^{42}$$
 </div>
 
 **(b)** For two protons:
@@ -959,15 +1010,15 @@ Known constants:
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(6.67 \times 10^{-11})(1.67 \times 10^{-27})^2}$$
+ $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(1.67 \times 10^{-27} \text{ kg})^2}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28}}{(6.67 \times 10^{-11})(2.79 \times 10^{-54})}$$
+ $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28} \text{ N·m}^2}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(2.79 \times 10^{-54} \text{ kg}^2)}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28}}{1.86 \times 10^{-64}} = 1.24 \times 10^{36}$$
+ $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28} \text{ N·m}^2}{1.86 \times 10^{-64} \text{ N·m}^2} = 1.24 \times 10^{36}$$
 </div>
 
 **(c)** The ratio is different because it depends on the mass of the particles ($$\frac{1}{m^2}$$), while the electrostatic force depends on charge (which is the same for electrons and protons). Electrons have much smaller mass than protons ($$m_e \approx \frac{1}{1836} m_p$$), so the gravitational force between electrons is much weaker relative to their electrostatic force. The ratio is inversely proportional to the square of the mass, making the ratio about $$(1836)^2 \approx 3.4 \times 10^6$$ times larger for electrons than for protons.
@@ -1021,25 +1072,26 @@ Solve for $$r$$:
 </div>
 
 Substitute the values:
+
 - $$k = 8.99 \times 10^9 \text{ N·m}^2/\text{C}^2$$
 - $$e = 1.60 \times 10^{-19} \text{ C}$$
 - $$m_p = 1.67 \times 10^{-27} \text{ kg}$$
 - $$g = 9.80 \text{ m/s}^2$$
 
 <div class="equation">
- $$r = \sqrt{\frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(1.67 \times 10^{-27})(9.80)}}$$
+ $$r = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(1.67 \times 10^{-27} \text{ kg})(9.80 \text{ m/s}^2)}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{(8.99 \times 10^9)(2.56 \times 10^{-38})}{1.64 \times 10^{-26}}}$$
+ $$r = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{1.64 \times 10^{-26} \text{ N}}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{2.30 \times 10^{-28}}{1.64 \times 10^{-26}}}$$
+ $$r = \sqrt{\frac{2.30 \times 10^{-28} \text{ N·m}^2}{1.64 \times 10^{-26} \text{ N}}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{1.40 \times 10^{-2}} = 0.118 \text{ m} = 11.8 \text{ cm}$$
+ $$r = \sqrt{1.40 \times 10^{-2} \text{ m}^2} = 0.118 \text{ m} = 11.8 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -1091,7 +1143,7 @@ The electrostatic force must equal the weight:
 </div>
 
 <div class="equation">
- $$q = \sqrt{5.45 \times 10^{-12}} = 2.34 \times 10^{-6} \text{ C}$$
+ $$q = (1.00 \text{ m})\sqrt{5.45 \times 10^{-12} \text{ C}^2/\text{m}^2} = 2.34 \times 10^{-6} \text{ C}$$
 </div>
 
 **Step 3:** Calculate the number of electrons removed.
@@ -1140,8 +1192,8 @@ Even though we're only removing about 14.6 trillion electrons (which sounds like
 
 ::: problem
 
-(a) Two point charges totaling  $$8.00 µ\text{C} $$
- exert a repulsive force of 0.150 N on one another when separated by 0.500 m. What is the charge on each? (b) What is the charge on each if the force is attractive?
+(a) Two point charges totaling $$8.00 µ\text{C} $$
+exert a repulsive force of 0.150 N on one another when separated by 0.500 m. What is the charge on each? (b) What is the charge on each if the force is attractive?
 
 :::
 
@@ -1149,7 +1201,7 @@ Even though we're only removing about 14.6 trillion electrons (which sounds like
 
 The algebraic charge sum is $$S=q_1+q_2=8.00\ \mu\text{C}$$. Coulomb's law gives
 
-$$|q_1q_2|=\frac{Fr^2}{k}=\frac{(0.150)(0.500)^2}{8.99\times10^9}=4.17\times10^{-12}\ \text{C}^2.$$
+$$|q_1q_2|=\frac{Fr^2}{k}=\frac{(0.150\ \text{N})(0.500\ \text{m})^2}{8.99\times10^9\ \text{N·m}^2/\text{C}^2}=4.17\times10^{-12}\ \text{C}^2.$$
 
 **(a)** Repulsion requires a positive product. The charges are the roots of
 
@@ -1170,9 +1222,9 @@ giving **+8.49 µC** and **−0.491 µC**. Their unrounded sum is 8.00 µC and t
 
 ::: problem
 
-Point charges of  $$5.00 µ\text{C} $$
- and  $$-3.00 µ\text{C} $$
- are placed 0.250 m apart. (a) Where can a third charge be placed so that the net force on it is zero? (b) What if both charges are positive?
+Point charges of $$5.00 µ\text{C} $$
+and $$-3.00 µ\text{C} $$
+are placed 0.250 m apart. (a) Where can a third charge be placed so that the net force on it is zero? (b) What if both charges are positive?
 
 :::
 
@@ -1188,7 +1240,7 @@ For the net force on a third charge to be zero, the forces from the two existing
 
 Since the charges have opposite signs, the third charge $$q_3$$ cannot be placed between them (both forces would point in the same direction). The equilibrium point must be beyond the negative charge.
 
-Let $$x$$ be the distance from the negative charge ($$q_2$$) to the test charge, on the side away from $$q_1$$. Then the distance from $$q_1$$ to the test charge is $$d + x = 0.250 + x$$.
+Let $$x$$ be the distance from the negative charge ($$q_2$$) to the test charge, on the side away from $$q_1$$. Then the distance from $$q_1$$ to the test charge is $$d + x = 0.250 \text{ m} + x$$.
 
 For equilibrium:
 
@@ -1197,93 +1249,93 @@ For equilibrium:
 </div>
 
 <div class="equation">
- $$k\frac{\mid q_1 q_3 \mid}{(0.250 + x)^2} = k\frac{\mid q_2 q_3 \mid}{x^2}$$
+ $$k\frac{\mid q_1 q_3 \mid}{(0.250 \text{ m} + x)^2} = k\frac{\mid q_2 q_3 \mid}{x^2}$$
 </div>
 
 <div class="equation">
- $$\frac{5.00}{(0.250 + x)^2} = \frac{3.00}{x^2}$$
+ $$\frac{5.00 \text{ μC}}{(0.250 \text{ m} + x)^2} = \frac{3.00 \text{ μC}}{x^2}$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.250 + x)^2$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.250 \text{ m} + x)^2$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.0625 + 0.500x + x^2)$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.0625 \text{ m}^2 + 0.500 \text{ m}\, x + x^2)$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 0.1875 + 1.50x + 3.00x^2$$
+ $$5.00 \text{ μC}\, x^2 = 0.1875 \text{ μC·m}^2 + 1.50 \text{ μC·m}\, x + 3.00 \text{ μC}\, x^2$$
 </div>
 
 <div class="equation">
- $$2.00 x^2 - 1.50x - 0.1875 = 0$$
+ $$2.00 \text{ μC}\, x^2 - 1.50 \text{ μC·m}\, x - 0.1875 \text{ μC·m}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$x = \frac{1.50 \pm \sqrt{(1.50)^2 + 4(2.00)(0.1875)}}{2(2.00)}$$
+ $$x = \frac{1.50 \text{ μC·m} \pm \sqrt{(1.50 \text{ μC·m})^2 + 4(2.00 \text{ μC})(0.1875 \text{ μC·m}^2)}}{2(2.00 \text{ μC})}$$
 </div>
 
 <div class="equation">
- $$x = \frac{1.50 \pm \sqrt{2.25 + 1.50}}{4.00} = \frac{1.50 \pm \sqrt{3.75}}{4.00}$$
+ $$x = \frac{1.50 \text{ μC·m} \pm \sqrt{2.25 (\text{ μC·m})^2 + 1.50 (\text{ μC·m})^2}}{4.00 \text{ μC}} = \frac{1.50 \text{ μC·m} \pm \sqrt{3.75 (\text{ μC·m})^2}}{4.00 \text{ μC}}$$
 </div>
 
 <div class="equation">
- $$x = \frac{1.50 \pm 1.936}{4.00}$$
+ $$x = \frac{1.50 \text{ μC·m} \pm 1.936 \text{ μC·m}}{4.00 \text{ μC}}$$
 </div>
 
 Taking the positive solution:
 
 <div class="equation">
- $$x = \frac{1.50 + 1.936}{4.00} = 0.859 \text{ m}$$
+ $$x = \frac{1.50 \text{ μC·m} + 1.936 \text{ μC·m}}{4.00 \text{ μC}} = 0.859 \text{ m}$$
 </div>
 
 The third charge should be placed **0.859 m beyond the −3.00 μC charge** on the line connecting the two charges.
 
 **(b)** With both charges positive: $$q_1 = +5.00 \text{ μC}$$ and $$q_2 = +3.00 \text{ μC}$$.
 
-Now the equilibrium point must be between the charges. Let $$x$$ be the distance from the smaller charge ($$q_2 = 3.00 \text{ μC}$$). Then the distance from the larger charge is $$0.250 - x$$.
+Now the equilibrium point must be between the charges. Let $$x$$ be the distance from the smaller charge ($$q_2 = 3.00 \text{ μC}$$). Then the distance from the larger charge is $$0.250 \text{ m} - x$$.
 
 <div class="equation">
- $$\frac{q_1}{(0.250 - x)^2} = \frac{q_2}{x^2}$$
+ $$\frac{q_1}{(0.250 \text{ m} - x)^2} = \frac{q_2}{x^2}$$
 </div>
 
 <div class="equation">
- $$\frac{5.00}{(0.250 - x)^2} = \frac{3.00}{x^2}$$
+ $$\frac{5.00 \text{ μC}}{(0.250 \text{ m} - x)^2} = \frac{3.00 \text{ μC}}{x^2}$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.250 - x)^2$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.250 \text{ m} - x)^2$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.0625 - 0.500x + x^2)$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.0625 \text{ m}^2 - 0.500 \text{ m}\, x + x^2)$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 0.1875 - 1.50x + 3.00x^2$$
+ $$5.00 \text{ μC}\, x^2 = 0.1875 \text{ μC·m}^2 - 1.50 \text{ μC·m}\, x + 3.00 \text{ μC}\, x^2$$
 </div>
 
 <div class="equation">
- $$2.00 x^2 + 1.50x - 0.1875 = 0$$
+ $$2.00 \text{ μC}\, x^2 + 1.50 \text{ μC·m}\, x - 0.1875 \text{ μC·m}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$x = \frac{-1.50 \pm \sqrt{(1.50)^2 + 4(2.00)(0.1875)}}{2(2.00)}$$
+ $$x = \frac{-1.50 \text{ μC·m} \pm \sqrt{(1.50 \text{ μC·m})^2 + 4(2.00 \text{ μC})(0.1875 \text{ μC·m}^2)}}{2(2.00 \text{ μC})}$$
 </div>
 
 <div class="equation">
- $$x = \frac{-1.50 \pm 1.936}{4.00}$$
+ $$x = \frac{-1.50 \text{ μC·m} \pm 1.936 \text{ μC·m}}{4.00 \text{ μC}}$$
 </div>
 
 Taking the positive solution:
 
 <div class="equation">
- $$x = \frac{-1.50 + 1.936}{4.00} = 0.109 \text{ m}$$
+ $$x = \frac{-1.50 \text{ μC·m} + 1.936 \text{ μC·m}}{4.00 \text{ μC}} = 0.109 \text{ m}$$
 </div>
 
 The third charge should be placed **0.109 m from the +3.00 μC charge** (the lesser charge) on the line connecting the two charges.
@@ -1304,9 +1356,9 @@ These problems demonstrate the principle of superposition—the net force is the
 
 ::: problem
 
-Two point charges  $${q}_{1} $$  and  $${q}_{2} $$  are  $$3.00 \text{m} $$
- apart, and their total charge is  $$20 µ\text{C} $$ .
- (a) If the force of repulsion between them is 0.075 N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525 N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
+Two point charges $${q}_{1} $$ and $${q}_{2} $$ are $$3.00 \text{m} $$
+apart, and their total charge is $$20 µ\text{C} $$ .
+(a) If the force of repulsion between them is 0.075 N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525 N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
 
 :::
 
@@ -1319,6 +1371,7 @@ This is similar to Problem 15. We have two equations: $$q_1 + q_2 = 20 \text{ μ
 **Solution**
 
 Given:
+
 - $$r = 3.00 \text{ m}$$
 - Total charge magnitude = $$20 \times 10^{-6} \text{ C}$$
 
@@ -1327,11 +1380,11 @@ Given:
 From Coulomb's law:
 
 <div class="equation">
- $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.075)(3.00)^2}{8.99 \times 10^9}$$
+ $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.075 \text{ N})(3.00 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}$$
 </div>
 
 <div class="equation">
- $$q_1 q_2 = \frac{0.675}{8.99 \times 10^9} = 7.51 \times 10^{-11} \text{ C}^2$$
+ $$q_1 q_2 = \frac{0.675 \text{ N·m}^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = 7.51 \times 10^{-11} \text{ C}^2$$
 </div>
 
 With $$q_1 + q_2 = 20 \times 10^{-6}$$ and $$q_1 q_2 = 7.51 \times 10^{-11}$$:
@@ -1339,29 +1392,29 @@ With $$q_1 + q_2 = 20 \times 10^{-6}$$ and $$q_1 q_2 = 7.51 \times 10^{-11}$$:
 Let $$q_2 = 20 \times 10^{-6} - q_1$$:
 
 <div class="equation">
- $$q_1(20 \times 10^{-6} - q_1) = 7.51 \times 10^{-11}$$
+ $$q_1(20 \times 10^{-6} \text{ C} - q_1) = 7.51 \times 10^{-11} \text{ C}^2$$
 </div>
 
 <div class="equation">
- $$q_1^2 - 20 \times 10^{-6} q_1 + 7.51 \times 10^{-11} = 0$$
+ $$q_1^2 - (20 \times 10^{-6} \text{ C}) q_1 + 7.51 \times 10^{-11} \text{ C}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm \sqrt{(20 \times 10^{-6})^2 - 4(7.51 \times 10^{-11})}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{(20 \times 10^{-6} \text{ C})^2 - 4(7.51 \times 10^{-11} \text{ C}^2)}}{2}$$
 </div>
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm \sqrt{4.00 \times 10^{-10} - 3.00 \times 10^{-10}}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{4.00 \times 10^{-10} \text{ C}^2 - 3.00 \times 10^{-10} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm \sqrt{1.00 \times 10^{-10}}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{1.00 \times 10^{-10} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm 10 \times 10^{-6}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm 10 \times 10^{-6} \text{ C}}{2}$$
 </div>
 
 This gives:
@@ -1375,7 +1428,7 @@ or vice versa.
 **(b)** Attractive force $$F = 0.525 \text{ N}$$ (opposite sign charges)
 
 <div class="equation">
- $$q_1 q_2 = \frac{(0.525)(3.00)^2}{8.99 \times 10^9} = \frac{4.725}{8.99 \times 10^9} = 5.26 \times 10^{-10} \text{ C}^2$$
+ $$q_1 q_2 = \frac{(0.525 \text{ N})(3.00 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = \frac{4.725 \text{ N·m}^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = 5.26 \times 10^{-10} \text{ C}^2$$
 </div>
 
 For opposite signs, if $$q_1$$ is positive and $$q_2$$ is negative, the total charge is $$q_1 - \mid q_2 \mid = 20 \times 10^{-6}$$.
@@ -1383,35 +1436,35 @@ For opposite signs, if $$q_1$$ is positive and $$q_2$$ is negative, the total ch
 Let $$q_1 = x$$ and $$\mid q_2 \mid = x - 20 \times 10^{-6}$$:
 
 <div class="equation">
- $$x(x - 20 \times 10^{-6}) = 5.26 \times 10^{-10}$$
+ $$x(x - 20 \times 10^{-6} \text{ C}) = 5.26 \times 10^{-10} \text{ C}^2$$
 </div>
 
 <div class="equation">
- $$x^2 - 20 \times 10^{-6} x - 5.26 \times 10^{-10} = 0$$
+ $$x^2 - (20 \times 10^{-6} \text{ C}) x - 5.26 \times 10^{-10} \text{ C}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm \sqrt{(20 \times 10^{-6})^2 + 4(5.26 \times 10^{-10})}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{(20 \times 10^{-6} \text{ C})^2 + 4(5.26 \times 10^{-10} \text{ C}^2)}}{2}$$
 </div>
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm \sqrt{4.00 \times 10^{-10} + 2.10 \times 10^{-9}}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{4.00 \times 10^{-10} \text{ C}^2 + 2.10 \times 10^{-9} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm \sqrt{2.50 \times 10^{-9}}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{2.50 \times 10^{-9} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm 50 \times 10^{-6}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm 50 \times 10^{-6} \text{ C}}{2}$$
 </div>
 
 Taking the positive solution:
 
 <div class="equation">
- $$x = \frac{70 \times 10^{-6}}{2} = 35 \text{ μC}$$
+ $$x = \frac{70 \times 10^{-6} \text{ C}}{2} = 35 \text{ μC}$$
 </div>
 
 Therefore: $$q_1 = +35 \text{ μC}$$ and $$q_2 = -15 \text{ μC}$$ (or vice versa).
@@ -1433,6 +1486,7 @@ Notice that the attractive force case requires much larger individual charges th
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 Coulomb’s law

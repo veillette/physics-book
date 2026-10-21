@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 5
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Determine the maximum speed of an oscillating system.
+- Determine the maximum speed of an oscillating system.
 
 :::
 
@@ -57,7 +58,7 @@ kinetic energy is completely converted, and so on. This concept provides extra
 insight here and in later applications of simple harmonic motion, such as
 alternating current circuits.
 
-![Figure a shows a spring on a frictionless surface attached to a bar or wall from the left side, and on the right side of it there’s an object attached to it with mass m, its amplitude is given by X, and x equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. The energy given here for the object is given according to the velocity. In figure b, after the force has been applied, the object moves to the left compressing the spring a bit, and the displaced area of the object from its initial point is shown in sketched dots. F is equal to zero and the V is max in negative direction. The energy given here for the object is given according to the velocity. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative x. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v zero. The energy given here for the object is given according to the velocity. In figure d, the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. F is zero, and the velocity v is maximum. The energy given here for the object is given according to the velocity. In figure e, the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero. The energy given here for the object is given according to the velocity.               ](../resources/Figure_16_05_01.jpg 'The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.')
+![Five stages of a block of mass m on a spring on a frictionless surface. (a) At x = X the block is at rest and all the energy is elastic potential energy, ½kX². (b) At x = 0 the spring force is zero and all the energy is kinetic energy, ½m(−v_max)². (c) At x = −X the block is at rest again and the energy is ½k(−X)². (d) At x = 0 moving the other way, the energy is ½mv_max². (e) Back at x = X, the energy is ½kX² once more. The total energy is the same at every stage.](../resources/Figure_16_05_01.svg 'The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.')
 {: #Figure1 height="350"}
 
 The conservation of energy principle can be used to derive an expression for
@@ -122,8 +123,8 @@ A similar calculation for the simple pendulum produces a similar result, namely:
 Determine the Maximum Speed of an Oscillating System: A Bumpy Road
 </div>
 
-Suppose that a car is 900 kg and has a suspension system that has a force constant  $$k= 6.53 \times 10^{4}  \text{N/m} $$ .
- The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?
+Suppose that a car is 900 kg and has a suspension system that has a force constant $$k= 6.53 \times 10^{4}  \text{N/m} $$ .
+The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?
 
 **Strategy**
 
@@ -157,10 +158,10 @@ starting from its equilibrium position, is given as
  $$y\left(t\right)=a \sin \omega t, $$
 </div>
 
-where  $$a $$
- is the amplitude,  $$\omega  $$  is the angular velocity and  $$t $$
- is the time taken. Substituting  $$\omega =\frac{2\pi }{T} $$ ,
- we have
+where $$a $$
+is the amplitude, $$\omega  $$ is the angular velocity and $$t $$
+is the time taken. Substituting $$\omega =\frac{2\pi }{T} $$ ,
+we have
 
 <div class="equation" >
  $$y\left(t\right)=a \sin\left(\frac{2\pi t}{T}\right). $$
@@ -243,6 +244,22 @@ Explain in terms of energy how dissipative forces such as friction reduce the am
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate oscillator energy to amplitude and track energy lost or supplied each cycle.
+
+**Solution**
+
+For a linear oscillator, $$E=\tfrac12kA^2$$. Friction and drag convert mechanical energy to internal energy, so the amplitude decreases as energy is lost. If energy falls to one quarter of its original value, amplitude falls to one half. A driving mechanism, such as the escapement in a pendulum clock, supplies timed impulses that replace the dissipated energy.
+
+**Discussion**
+
+The driver needs a continuing energy source. Dissipative forces reduce amplitude by removing mechanical energy, while a driver can maintain amplitude by supplying equal energy on average.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -251,7 +268,7 @@ Explain in terms of energy how dissipative forces such as friction reduce the am
 
 ::: problem
 
-The length of nylon rope from which a mountain climber is suspended has a force constant of  $$ 1.40 \times 10^{4}  \text{N/m} $$.
+The length of nylon rope from which a mountain climber is suspended has a force constant of $$ 1.40 \times 10^{4}  \text{N/m} $$.
 
 (a) What is the frequency at which he bounces, given his mass plus and the mass
 of his equipment are 90.0 kg?
@@ -269,7 +286,7 @@ of nylon rope is used.
 
 **(a)** About the suspended equilibrium position,
 
-$$f=\frac1{2\pi}\sqrt{\frac{k}{m}}=\frac1{2\pi}\sqrt{\frac{1.40\times10^4}{90.0}}=1.99\ \text{Hz}.$$
+$$f=\frac1{2\pi}\sqrt{\frac{k}{m}}=\frac1{2\pi}\sqrt{\frac{1.40\times10^4\ \text{N/m}}{90.0\ \text{kg}}}=1.99\ \text{Hz}.$$
 
 **(b)** The climber falls 2.00 m before the rope becomes taut and an additional distance $$x$$ as it stretches. Conservation of energy gives
 
@@ -328,21 +345,21 @@ Solve for $$k$$:
 Substitute the given values:
 
 <div class="equation">
- $$k = \frac{4\pi^{2}(4.00 \times 10^{5})}{(2.00)^2} = \frac{4(9.870)(4.00 \times 10^{5})}{4.00}$$
+ $$k = \frac{4\pi^{2}(4.00 \times 10^{5} \text{ kg})}{(2.00 \text{ s})^2} = \frac{4(9.870)(4.00 \times 10^{5} \text{ kg})}{4.00 \text{ s}^2}$$
 </div>
 
 <div class="equation">
- $$k = 4\pi^{2}(1.00 \times 10^{5}) = 3.95 \times 10^{6} \text{ N/m}$$
+ $$k = 4\pi^{2}(1.00 \times 10^{5} \text{ kg/s}^2) = 3.95 \times 10^{6} \text{ N/m}$$
 </div>
 
 **(b)** The elastic potential energy for a displacement of $$x = 2.00$$ m:
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}kx^{2} = \frac{1}{2}(3.95 \times 10^{6})(2.00)^2$$
+ $$PE_{el} = \frac{1}{2}kx^{2} = \frac{1}{2}(3.95 \times 10^{6} \text{ N/m})(2.00 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}(3.95 \times 10^{6})(4.00) = 7.90 \times 10^{6} \text{ J}$$
+ $$PE_{el} = \frac{1}{2}(3.95 \times 10^{6} \text{ N/m})(4.00 \text{ m}^2) = 7.90 \times 10^{6} \text{ J}$$
 </div>
 
 **Discussion**

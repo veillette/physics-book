@@ -40,7 +40,7 @@ radius of curvature:
 ![The figure shows the back side of a compact disc. There is a scratched part on the upper right side of the C D, about one-fifth size of the whole area, with inner circular dots clearly visible. Two line segments are drawn enclosing the scratched area from the border of the C D to the middle plastic portion. A curved arrow is drawn between the two line segments near this middle portion and angle delta theta written alongside it.](../resources/Figure_06_01_01.jpg 'All points on a CD travel in circular arcs. The pits along a line from the center to the edge all move through the same angle \( \Delta \theta \)')
 {: #Figure1}
 
-![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_06_01_02.jpg 'The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ')
+![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_06_01_02.svg 'The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ')
 {: #Figure2}
 
 The **arc length** $$ \Delta s $$ is the distance traveled along a circular path
@@ -78,7 +78,7 @@ shown in [Table 1](#Table1).
 
 {: #Table1}
 
-![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_06_01_03.jpg 'Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length \( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ')
+![A circle is shown. Two radii of the circle, inclined at an acute angle delta theta, are shown. On one of the radii, two points, one and two are marked. The point one is inside the circle through which an arc between the two radii is shown. The point two is on the circumference of the circle. The two arc lengths are delta s one and delta s two respectively for the two points.](../resources/Figure_06_01_03.svg 'Points 1 and 2 rotate through the same angle \( \Delta \theta \), but point 2 moves through a greater arc length \( \Delta s \) because it is at a greater distance from the center of rotation \( r \) ')
 {: #Figure3}
 
 If $$ \Delta\theta =2\pi $$ rad, then the CD has made one complete revolution,
@@ -207,7 +207,7 @@ Tie an object to the end of a string and swing it around in a horizontal circle 
 
 ::::
 
-![The given figure shows the top view of an old fashioned vinyl record. Two perpendicular line segments are drawn through the center of the circular record, one vertically upward and one horizontal to the right side. Two flies are shown at the end points of the vertical lines near the borders of the record. Two arrows are also drawn perpendicularly rightward through the end points of these vertical lines depicting linear velocities. A curved arrow is also drawn at the center circular part of the record which shows the angular velocity.](../resources/Figure_06_01_05.jpg "As an object moves in a circle, here a fly on the edge of an old-fashioned vinyl record, its instantaneous velocity is always tangent to the circle. The direction of the angular velocity is clockwise in this case. ")
+![The given figure shows the top view of an old fashioned vinyl record. Two perpendicular line segments are drawn through the center of the circular record, one vertically upward and one horizontal to the right side. Two flies are shown at the end points of the vertical lines near the borders of the record. Two arrows are also drawn perpendicularly rightward through the end points of these vertical lines depicting linear velocities. A curved arrow is also drawn at the center circular part of the record which shows the angular velocity.](/resources/Figure_06_01_05.svg "As an object moves in a circle, here a fly on the edge of an old-fashioned vinyl record, its instantaneous velocity is always tangent to the circle. The direction of the angular velocity is clockwise in this case. ")
 {: #Figure5}
 
 :::: note {"class":"note","data-label":"PhET Exploration"}
@@ -265,6 +265,29 @@ units of angular velocity are radians per second (rad/s). Linear velocity $$ v $
 :::: problem
 
 There is an analogy between rotational and linear physical quantities. What rotational quantities are analogous to distance and velocity?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Match each linear quantity with the rotational quantity that plays the same role, and connect them through the radius $$ r $$ of the circular path.
+
+**Solution**
+
+- The **rotation angle** $$ \Delta\theta $$ (in radians) is the rotational analog of **distance** (or displacement) $$ \Delta x $$. The arc length traveled is $$ \Delta s = r\,\Delta\theta $$.
+- The **angular velocity** $$ \omega = \Delta\theta/\Delta t $$ (in rad/s) is the rotational analog of **velocity** $$ v = \Delta x/\Delta t $$. They are related by $$ v = r\omega $$.
+
+For example, a bicycle wheel of radius $$ r = 0.30 \m $$ that turns through one revolution, $$ \Delta\theta = 2\pi \text{ rad} $$, carries a point on its rim a distance
+
+<div class="equation">
+$$ \Delta s = r\,\Delta\theta = (0.30 \m)(2\pi \text{ rad}) = 1.9 \m $$
+</div>
+
+If it turns at $$ \omega = 10 \rads $$, the rim moves at $$ v = r\omega = (0.30 \m)(10 \rads) = 3.0 \ms $$. The radian is a ratio of two lengths (arc length over radius), so it drops out of the units, leaving meters and meters per second.
+
+Rotation angle $$ \theta $$ is the rotational analog of distance and angular velocity $$ \omega $$ is the rotational analog of velocity, related to them by $$ \Delta s = r\,\Delta\theta $$ and $$ v = r\omega $$ (for example, $$ 10 \rads $$ on a $$ 0.30 \m $$ wheel gives $$ 3.0 \ms $$).
 
 ::::
 
@@ -582,7 +605,7 @@ $$ F = \frac{m\Delta v}{\Delta t} = \frac{(0.500\text{ kg})(20.0\text{ m/s} - 0)
 (c) Calculate the maximum range (at 45° launch angle):
 
 <div class="equation">
-$$ R = \frac{v^2\sin(2\theta)}{g} = \frac{(20.0\text{ m/s})^2\sin(90°)}{9.80\text{ m/s}^2} = \frac{400 \times 1}{9.80} = 40.8\text{ m} $$
+$$ R = \frac{v^2\sin(2\theta)}{g} = \frac{(20.0\text{ m/s})^2\sin(90°)}{9.80\text{ m/s}^2} = \frac{400 \mmss \times 1}{9.80 \mss} = 40.8\text{ m} $$
 </div>
 
 **Discussion**
@@ -633,7 +656,7 @@ Horizontal (centripetal) direction: $$ N = mr\omega^2 $$. Vertical direction: $$
 $$ mg \le \mu_s m r\omega^2 \quad \Rightarrow \quad \omega_{\min} = \sqrt{\frac{g}{\mu_s r}} = \sqrt{\frac{9.80 \mss}{(0.600)(2.50 \m)}} = 2.56 \text{ rad/s} $$
 </div>
 
-This is $$ (2.56 \text{ rad/s})(60 \s/\text{min})/(2\pi \text{ rad/rev}) = 24.4 $$ rev/min.
+This is $$ (2.56 \text{ rad/s})(60 \s/\text{min})/(2\pi \text{ rad/rev}) = 24.4 \text{rev/min} $$ rev/min.
 
 **Discussion**
 

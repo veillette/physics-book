@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="150" viewBox="0 0 680 150" role="img" aria-labelledby="title desc">
+<title id="title">A voltmeter built from a galvanometer</title>
+<desc id="desc">A voltmeter V is equivalent to a large resistance R in series with a galvanometer G whose internal resistance is r.</desc>
+<rect width="680" height="150" fill="#ffffff"/>
+<polyline points="20,80 160,80" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="60" y1="80" x2="120" y2="80" stroke="#ffffff" stroke-width="7"/>
+<line x1="50" y1="80" x2="60" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="120" y1="80" x2="130" y2="80" stroke="#222222" stroke-width="2"/>
+<circle cx="90" cy="80" r="30" fill="#d4e8c2" stroke="#222222" stroke-width="2"/>
+<text x="90" y="86.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
+<text x="195" y="91.2" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<polyline points="230,80 660,80" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="287" y1="80" x2="343" y2="80" stroke="#ffffff" stroke-width="7"/>
+<line x1="270" y1="80" x2="287" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="343" y1="80" x2="360" y2="80" stroke="#222222" stroke-width="2"/>
+<polyline points="287,80 291.67,91 301,69 310.33,91 319.67,69 329,91 338.33,69 343,80" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="315" y="53.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<line x1="407" y1="80" x2="463" y2="80" stroke="#ffffff" stroke-width="7"/>
+<line x1="390" y1="80" x2="407" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="463" y1="80" x2="480" y2="80" stroke="#222222" stroke-width="2"/>
+<polyline points="407,80 411.67,91 421,69 430.33,91 439.67,69 449,91 458.33,69 463,80" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="435" y="53.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<line x1="530" y1="80" x2="590" y2="80" stroke="#ffffff" stroke-width="7"/>
+<line x1="520" y1="80" x2="530" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="590" y1="80" x2="600" y2="80" stroke="#222222" stroke-width="2"/>
+<circle cx="560" cy="80" r="30" fill="#f3d9a4" stroke="#222222" stroke-width="2"/>
+<text x="560" y="86.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">G</tspan></text>
+</svg>

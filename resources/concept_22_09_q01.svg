@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="380" viewBox="0 0 620 380" role="img" aria-labelledby="title desc">
+<title id="title">A motor loop as a magnet, viewed from above</title>
+<desc id="desc">Top view of the motor loop between the N pole on the left and the S pole on the right, with the field pointing right. The loop’s current comes up out of the page at its left edge and goes down into the page at its right edge. By the right-hand rule its own field points up the page, so its north face is the back face. The force on the left edge points up the page and the force on the right edge points down the page, turning the loop clockwise until its north face points at the S pole.</desc>
+<rect width="620" height="380" fill="#ffffff"/>
+<text x="12" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Viewed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">above</tspan></text>
+<rect x="20" y="110" width="80" height="170" fill="#e57373" stroke="#222222" stroke-width="1.5"/>
+<text x="60" y="204.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">N</tspan></text>
+<rect x="520" y="110" width="80" height="170" fill="#90a4ae" stroke="#222222" stroke-width="1.5"/>
+<text x="560" y="204.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">S</tspan></text>
+<line x1="110" y1="130" x2="501" y2="130" stroke="#c2185b" stroke-width="1.8"/>
+<polygon points="510,130 500,134 500,126" fill="#c2185b"/>
+<line x1="110" y1="260" x2="501" y2="260" stroke="#c2185b" stroke-width="1.8"/>
+<polygon points="510,260 500,264 500,256" fill="#c2185b"/>
+<text x="495" y="123.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-10.3" dy="-13.12">→</tspan><tspan dx="0.38" dy="13.12">​</tspan></tspan></text>
+<line x1="200" y1="195" x2="420" y2="195" stroke="#b8860b" stroke-width="6"/>
+<circle cx="200" cy="195" r="10" fill="#ffffff" stroke="#1f77c8" stroke-width="1.8"/>
+<circle cx="200" cy="195" r="3" fill="#1f77c8"/>
+<circle cx="420" cy="195" r="10" fill="#ffffff" stroke="#1f77c8" stroke-width="1.8"/>
+<line x1="414" y1="189" x2="426" y2="201" stroke="#1f77c8" stroke-width="1.8"/>
+<line x1="414" y1="201" x2="426" y2="189" stroke="#1f77c8" stroke-width="1.8"/>
+<text x="200" y="227.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">I</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+<text x="420" y="227.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">I</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan></text>
+<line x1="200" y1="181" x2="200" y2="127" stroke="#c62828" stroke-width="3"/>
+<polygon points="200,115 205.2,128 194.8,128" fill="#c62828"/>
+<line x1="420" y1="209" x2="420" y2="263" stroke="#c62828" stroke-width="3"/>
+<polygon points="420,275 414.8,262 425.2,262" fill="#c62828"/>
+<text x="210" y="130.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.92" font-weight="normal" dx="-9.85" dy="-13.12">→</tspan><tspan dx="-0.07" dy="13.12">​</tspan></tspan></text>
+<text x="410" y="272.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.92" font-weight="normal" dx="-9.85" dy="-13.12">→</tspan><tspan dx="-0.07" dy="13.12">​</tspan></tspan></text>
+<line x1="310" y1="189" x2="310" y2="112" stroke="#3f9a2b" stroke-width="3"/>
+<polygon points="310,100 315.2,113 304.8,113" fill="#3f9a2b"/>
+<text x="318" y="95.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3f9a2b" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">loop</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">own</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">field</tspan></text>
+<text x="280" y="181.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">face</tspan></text>
+<text x="280" y="219.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">S</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">face</tspan></text>
+<path d="M 223.96 72.13 A 150 150 0 0 0 169.05 143.7" fill="none" stroke="#6a3d9a" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="209.63" y1="83.53" x2="216.15" y2="78.35" stroke="#6a3d9a" stroke-width="2.2"/>
+<polygon points="223.96,72.13 218.1,82.41 212.63,75.53" fill="#6a3d9a"/>
+<text x="170" y="74.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6a3d9a" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">clockwise</tspan></text>
+<text x="310" y="339.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">The</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">loop</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">face</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">turns</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">toward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">S</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pole</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">unlike</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">poles</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">attract</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

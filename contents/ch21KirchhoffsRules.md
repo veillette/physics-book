@@ -19,7 +19,7 @@ simple or complex. These rules are special cases of the laws of conservation of
 charge and conservation of energy. The rules are known as **Kirchhoff’s rules**,
 after their inventor Gustav Kirchhoff (1824–1887).
 
-![A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.](../resources/Figure_21_03_01.jpg 'This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)')
+![Three branches between two junctions on the left and right. The top branch has emf1 with internal resistance r1, joined to the left junction through R2. The middle branch is the single resistor R1. The bottom branch has emf2 with internal resistance r2, joined to the right junction through R3.](../resources/Figure_21_03_01.svg 'This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it.')
 {: #Figure1}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -56,7 +56,7 @@ Kirchhoff’s rules for circuit analysis are applications of **conservation laws
 
 :::
 
-![This schematic drawing shows a T-junction, with one current I sub one flowing into the T and two currents I sub two and I sub three flowing out of the T junction.](../resources/Figure_21_03_02.jpg 'The junction rule. The diagram shows an example of Kirchhoff’s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that ( I_1=I_2+I_3 ). Here ( I_{1} ) must be 11 A, since ( I_{2} ) is 7 A and ( I_{3} ) is 4 A.')
+![Current I1 = 11 A flows into junction a from the right. Current I2 = 7 A leaves upward and I3 = 4 A leaves downward, so I1 = I2 + I3.](../resources/Figure_21_03_02.svg 'The junction rule. The diagram shows an example of Kirchhoff’s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that ( I_1=I_2+I_3 ). Here ( I_{1} ) must be 11 A, since ( I_{2} ) is 7 A and ( I_{3} ) is 4 A.')
 {: #Figure2}
 
 ### Kirchhoff’s Second Rule
@@ -111,7 +111,7 @@ construct more than one loop. In traversing each loop, one needs to be
 consistent for the sign of the change in potential. (See [[Example 1]](#Example1)
 .)
 
-![This figure shows four situations where current flows through either a resistor or a source, and the calculation of the potential change across each. The first two diagrams show the potential drop across a resistor, with the current flowing from left to right or right to left. The other two diagrams show a potential drop across a voltage source, when the terminals are in one orientation and then another.](../resources/Figure_21_03_04.jpg "Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text. (Note that the script E stands for emf.)")
+![Four elements, each traversed from a to b. A resistor carrying current I from a to b: ΔV = Vb − Va = −IR. A resistor carrying current from b to a: ΔV = +IR. A source with its negative terminal toward a and positive toward b: ΔV = +emf. A source with its positive terminal toward a: ΔV = −emf.](../resources/Figure_21_03_04.svg "Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text.")
 {: #Figure4}
 
 * When a resistor is traversed in the same direction as the current, the change
@@ -135,7 +135,7 @@ Calculating Current: Using Kirchhoff’s Rules
 
 Find the currents flowing in the circuit in [[Figure 5]](#Figure5).
 
-![The diagram shows a complex circuit with two voltage sources E sub one and E sub two and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_05.jpg "This circuit is similar to that in Figure 1, but the resistances and emfs are specified. (Each emf is denoted by script E.) The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
+![Junctions a on the left and e on the right. Top branch from a: up through R2 = 2.5 ohms, then along the top through b, emf1 = 18 V with its positive terminal toward c, c, r1 = 0.5 ohm and d, then down to e. Middle branch: R1 = 6.0 ohms between a and e. Bottom branch from a: down, then along the bottom through h, emf2 = 45 V with its positive terminal toward g, g, r2 = 0.5 ohm and f, then up through R3 = 1.5 ohms to e. Assumed currents: I2 around the top branch from a toward e, I1 through R1 from e toward a, and I3 around the bottom branch from a toward e.](../resources/Figure_21_03_05.svg "This circuit is similar to that in Figure 1, but the resistances and emfs are specified. The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
 {: #Figure5}
 
 **Strategy**
@@ -317,22 +317,68 @@ Can all of the currents going into the junction in [[Figure 6]](#Figure6) be pos
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply the junction rule, which expresses conservation of charge: charge does not pile up at a junction, so the currents into it must add to zero when all three are drawn as entering.
+
+**Solution**
+
+With all three currents defined as entering the junction,
+
+<div class="equation">
+$$ I_1 + I_2 + I_3 = 0 $$
 </div>
 
-![The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.](../resources/Figure_21_03_06.jpg " ")
+If all three were positive, charge would flow into the junction each second and none would leave. For example, $$ 2.0 \text{ A} + 1.0 \text{ A} + 3.0 \text{ A} = 6.0 \text{ A} $$ would mean $$ 6.0 \text{ C} $$ of charge accumulating at the junction every second, which does not happen in a steady circuit. At least one current must be negative, meaning that it actually flows out of the junction; for example, $$ I_1 = 2.0 \text{ A} $$, $$ I_2 = 1.0 \text{ A} $$, and $$ I_3 = -3.0 \text{ A} $$.
+
+No, not all of the currents into the junction can be positive, because conservation of charge requires $$ I_1 + I_2 + I_3 = 0 $$, so at least one of them must be negative, that is, must actually flow out of the junction.
+
+:::
+
+</div>
+
+![A T junction with I1 flowing in from above, I2 flowing in from the left, and I3 flowing in from the right.](../resources/Figure_21_03_06.svg " ")
 {: #Figure6}
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new information gained by applying the junction rule at e? (In the figure, each emf is represented by script E.)
+Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new information gained by applying the junction rule at e?
+
+:::
+
+::: solution
+
+**Strategy**
+
+At a junction, the current entering equals the current leaving. Read the current directions off [[Figure 7]](#Figure7): $$ I_1 $$ enters b from the left, $$ I_2 $$ leaves toward c, and $$ I_3 $$ leaves downward toward g. Then examine junction e, where the same three branches meet.
+
+**Solution**
+
+At junction b:
+
+<div class="equation">
+$$ I_1 = I_2 + I_3 $$
+</div>
+
+At junction e, $$ I_3 $$ arrives from the middle branch and $$ I_2 $$ arrives from the right branch (through $$ r_4 $$ and $$ \text{emf}_4 $$), while $$ I_1 $$ leaves through $$ R_4 $$ toward f:
+
+<div class="equation">
+$$ I_2 + I_3 = I_1 $$
+</div>
+
+This is the same equation. With the currents found in the problems for this figure, $$ I_1 = 0.381 \text{ A} $$, $$ I_2 = -0.814 \text{ A} $$, and $$ I_3 = 1.20 \text{ A} $$, both equations read $$ 0.381 \text{ A} = -0.814 \text{ A} + 1.195 \text{ A} $$. A circuit with two junctions gives only one independent junction equation; the other two equations needed must come from the loop rule.
+
+The junction rule at b gives $$ I_1 = I_2 + I_3 $$, and applying it at e gives no new information, because it yields the same equation, $$ I_2 + I_3 = I_1 $$.
 
 :::
 
 </div>
 
-![The diagram shows a complex circuit with four voltage sources: E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through g. The current in each branch is labeled separately.](../resources/Figure_21_03_07.jpg " ")
+![Corners a (top left), c (top right), d (bottom right) and f (bottom left), with junctions b on the top wire and e on the bottom wire joined by a middle branch. Left branch f to a: emf1 = 18 V with r1 = 0.5 ohm. Top: R1 = 20 ohms from a to b and R3 = 8 ohms from b to c. Middle branch b to e: R2 = 6 ohms, point g, emf2 = 3.0 V and r2 = 0.25 ohm. Right branch c to d: emf3 = 12 V and r3 = 0.5 ohm. Bottom: R4 = 15 ohms from f to e, then emf4 = 24 V and r4 = 0.75 ohm from e to d. Currents I1 flows from a toward b, then splits into I2 toward c and I3 down the middle branch.](../resources/Figure_21_03_07.svg " ")
 {: #Figure7}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -340,6 +386,44 @@ Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new info
 ::: problem
 
 (a) What is the potential difference going from point a to point b in [[Figure 7]](#Figure7)? (b) What is the potential difference going from c to b? (c) From e to g? (d) From e to d?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Follow each path in the stated direction. Crossing a resistor in the direction of its current is a drop of $$ IR $$; crossing it against the current is a rise of $$ IR $$. Crossing an emf from its $$ - $$ terminal (short plate) to its $$ + $$ terminal (long plate) is a rise; the opposite is a drop. In [[Figure 7]](#Figure7), $$ \text{emf}_2 $$ has its positive (long) plate toward e and $$ \text{emf}_4 $$ has its positive plate toward d. The potential difference "from x to y" is $$ V_y - V_x $$. Use $$ I_1 = 0.381 \text{ A} $$, $$ I_2 = -0.814 \text{ A} $$, and $$ I_3 = 1.20 \text{ A} $$ to evaluate each result.
+
+**Solution**
+
+**(a)** From a to b we cross $$ R_1 $$ in the direction of $$ I_1 $$, a drop:
+
+<div class="equation">
+$$ V_b - V_a = -I_1R_1 = -(0.381 \text{ A})(20 \ \Omega) = -7.6 \text{ V} $$
+</div>
+
+**(b)** From c to b we cross $$ R_3 $$ against the direction of $$ I_2 $$, a rise:
+
+<div class="equation">
+$$ V_b - V_c = +I_2R_3 = (-0.814 \text{ A})(8 \ \Omega) = -6.5 \text{ V} $$
+</div>
+
+The result is negative because $$ I_2 $$ actually flows opposite to its arrow.
+
+**(c)** From e to g we cross $$ r_2 $$ against $$ I_3 $$ (a rise of $$ I_3r_2 $$), then cross $$ \text{emf}_2 $$ from its $$ + $$ to its $$ - $$ terminal (a drop of $$ 3.0 \text{ V} $$):
+
+<div class="equation">
+$$ V_g - V_e = I_3r_2 - \text{emf}_2 = (1.20 \text{ A})(0.25 \ \Omega) - 3.0 \text{ V} = -2.7 \text{ V} $$
+</div>
+
+**(d)** From e to d we cross $$ \text{emf}_4 $$ from $$ - $$ to $$ + $$ (a rise of $$ 24 \text{ V} $$), then cross $$ r_4 $$ against $$ I_2 $$, which flows from d toward e (a rise of $$ I_2r_4 $$):
+
+<div class="equation">
+$$ V_d - V_e = \text{emf}_4 + I_2r_4 = 24 \text{ V} + (-0.814 \text{ A})(0.75 \ \Omega) = 23.4 \text{ V} $$
+</div>
+
+The potential differences are (a) $$ V_b - V_a = -I_1R_1 = -7.6 \text{ V} $$, (b) $$ V_b - V_c = I_2R_3 = -6.5 \text{ V} $$, (c) $$ V_g - V_e = I_3r_2 - \text{emf}_2 = -2.7 \text{ V} $$, and (d) $$ V_d - V_e = \text{emf}_4 + I_2r_4 = 23.4 \text{ V} $$.
 
 :::
 
@@ -353,6 +437,43 @@ Apply the loop rule to loop afedcba in [[Figure 7]](#Figure7).
 
 :::
 
+::: solution
+
+**Strategy**
+
+Go around the outer loop a → f → e → d → c → b → a and add every change in potential; the sum must be zero. Use the sign rules from the previous question. $$ I_1 $$ flows up the left branch (from f to a), and $$ I_2 $$ flows down the right branch (from c to d) and back along d → e.
+
+**Solution**
+
+Term by term:
+
+- a → f: through $$ r_1 $$ against $$ I_1 $$: $$ +I_1r_1 $$; through $$ \text{emf}_1 $$ from $$ + $$ to $$ - $$: $$ -18 \text{ V} $$
+- f → e: through $$ R_4 $$ against $$ I_1 $$: $$ +I_1R_4 $$
+- e → d: through $$ \text{emf}_4 $$ from $$ - $$ to $$ + $$: $$ +24 \text{ V} $$; through $$ r_4 $$ against $$ I_2 $$: $$ +I_2r_4 $$
+- d → c: through $$ r_3 $$ against $$ I_2 $$: $$ +I_2r_3 $$; through $$ \text{emf}_3 $$ from $$ + $$ to $$ - $$: $$ -12 \text{ V} $$
+- c → b: through $$ R_3 $$ against $$ I_2 $$: $$ +I_2R_3 $$
+- b → a: through $$ R_1 $$ against $$ I_1 $$: $$ +I_1R_1 $$
+
+The loop rule gives
+
+<div class="equation">
+$$ I_1(r_1 + R_4 + R_1) + I_2(r_4 + r_3 + R_3) - 18 \text{ V} + 24 \text{ V} - 12 \text{ V} = 0 $$
+</div>
+
+<div class="equation">
+$$ I_1(0.5 \ \Omega + 15 \ \Omega + 20 \ \Omega) + I_2(0.75 \ \Omega + 0.5 \ \Omega + 8 \ \Omega) = 6 \text{ V} $$
+</div>
+
+<div class="equation">
+$$ (35.5 \ \Omega)I_1 + (9.25 \ \Omega)I_2 = 6.0 \text{ V} $$
+</div>
+
+Check with the solved currents: $$ (35.5 \ \Omega)(0.381 \text{ A}) + (9.25 \ \Omega)(-0.814 \text{ A}) = 13.5 \text{ V} - 7.5 \text{ V} = 6.0 \text{ V} $$.
+
+The loop rule for loop afedcba gives $$ (35.5 \ \Omega)I_1 + (9.25 \ \Omega)I_2 = 6.0 \text{ V} $$, which is $$ I_1(r_1 + R_4 + R_1) + I_2(r_4 + r_3 + R_3) - \text{emf}_1 + \text{emf}_4 - \text{emf}_3 = 0 $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -360,6 +481,47 @@ Apply the loop rule to loop afedcba in [[Figure 7]](#Figure7).
 ::: problem
 
 Apply the loop rule to loops abgefa and cbgedc in [[Figure 7]](#Figure7).
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the same sign rules as before. In loop abgefa, go a → b → g → e → f → a; in loop cbgedc, go c → b → g → e → d → c. $$ I_3 $$ flows down the middle branch from b through g to e.
+
+**Solution**
+
+**Loop abgefa:**
+
+- a → b: through $$ R_1 $$ with $$ I_1 $$: $$ -I_1R_1 $$
+- b → g: through $$ R_2 $$ with $$ I_3 $$: $$ -I_3R_2 $$
+- g → e: through $$ \text{emf}_2 $$ from $$ - $$ to $$ + $$: $$ +3.0 \text{ V} $$; through $$ r_2 $$ with $$ I_3 $$: $$ -I_3r_2 $$
+- e → f: through $$ R_4 $$ with $$ I_1 $$: $$ -I_1R_4 $$
+- f → a: through $$ \text{emf}_1 $$ from $$ - $$ to $$ + $$: $$ +18 \text{ V} $$; through $$ r_1 $$ with $$ I_1 $$: $$ -I_1r_1 $$
+
+<div class="equation">
+$$ -I_1(R_1 + R_4 + r_1) - I_3(R_2 + r_2) + 3.0 \text{ V} + 18 \text{ V} = 0 \quad \Rightarrow \quad (35.5 \ \Omega)I_1 + (6.25 \ \Omega)I_3 = 21.0 \text{ V} $$
+</div>
+
+Check: $$ (35.5 \ \Omega)(0.381 \text{ A}) + (6.25 \ \Omega)(1.195 \text{ A}) = 13.5 \text{ V} + 7.5 \text{ V} = 21.0 \text{ V} $$.
+
+**Loop cbgedc:**
+
+- c → b: through $$ R_3 $$ against $$ I_2 $$: $$ +I_2R_3 $$
+- b → g → e: as above, $$ -I_3R_2 + 3.0 \text{ V} - I_3r_2 $$
+- e → d: through $$ \text{emf}_4 $$ from $$ - $$ to $$ + $$: $$ +24 \text{ V} $$; through $$ r_4 $$ against $$ I_2 $$: $$ +I_2r_4 $$
+- d → c: through $$ r_3 $$ against $$ I_2 $$: $$ +I_2r_3 $$; through $$ \text{emf}_3 $$ from $$ + $$ to $$ - $$: $$ -12 \text{ V} $$
+
+<div class="equation">
+$$ I_2(R_3 + r_4 + r_3) - I_3(R_2 + r_2) + 3.0 \text{ V} + 24 \text{ V} - 12 \text{ V} = 0 \quad \Rightarrow \quad (6.25 \ \Omega)I_3 - (9.25 \ \Omega)I_2 = 15.0 \text{ V} $$
+</div>
+
+Check: $$ (6.25 \ \Omega)(1.195 \text{ A}) - (9.25 \ \Omega)(-0.814 \text{ A}) = 7.5 \text{ V} + 7.5 \text{ V} = 15.0 \text{ V} $$.
+
+Subtracting the second equation from the first gives the equation for loop afedcba, so only two of the three loop equations are independent.
+
+The loop rule gives $$ (35.5 \ \Omega)I_1 + (6.25 \ \Omega)I_3 = 21.0 \text{ V} $$ for loop abgefa and $$ (6.25 \ \Omega)I_3 - (9.25 \ \Omega)I_2 = 15.0 \text{ V} $$ for loop cbgedc.
 
 :::
 
@@ -496,7 +658,7 @@ Verified: $$+6(4.75) + 2(8.25) - 45 = 0$$.
 
 Apply the junction rule at point a in [[Figure 8]](#Figure8).
 
-![The diagram shows a complex circuit with four voltage sources E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and many junctions. Several points on the diagram are marked with letters a through j. The current in each branch is labeled separately.](../resources/Figure_21_03_08.jpg " ")
+![Junctions a on the left and e on the right are joined by three branches. Top branch, from a up through R1 = 5.0 ohms, along the top through points b, emf1 = 24.0 V, c, r1 = 0.10 ohm and d, then down through R5 = 20 ohms to e. Middle branch from a: emf2 = 48.0 V, point k, r2 = 0.50 ohm, point l and R2 = 40 ohms to e. Bottom branch from a down through R3 = 78 ohms, along the bottom through j, emf3 = 6.0 V, i, r3 = 0.05 ohm and h, then up through g, emf4 = 36.0 V, f and r4 = 0.20 ohm to e. Currents I1 flows up through R1, I2 to the right through the middle branch, and I3 up through R3.](../resources/Figure_21_03_08.svg " ")
 {: #Figure8}
 
 :::
@@ -567,7 +729,7 @@ Use the labeled current directions in Figure 8, read each cell polarity from its
 
 **Solution**
 
-At junction a, $$I_3=I_1+I_2$$. The top branch has resistance $$5.0+0.10+20=25.1\ \Omega$$, the middle branch $$40+0.50=40.5\ \Omega$$, and the bottom branch $$78+0.05+0.20=78.25\ \Omega$$.
+At junction a, $$I_3=I_1+I_2$$. The top branch has resistance $$5.0\ \Omega+0.10\ \Omega+20\ \Omega=25.1\ \Omega$$, the middle branch $$40\ \Omega+0.50\ \Omega=40.5\ \Omega$$, and the bottom branch $$78\ \Omega+0.05\ \Omega+0.20\ \Omega=78.25\ \Omega$$.
 
 Loop akledcba gives
 
@@ -650,7 +812,7 @@ Consider the circuit in [[Figure 9]](#Figure9), and suppose that the emfs are
 unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_{2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
-![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_09.jpg " ")
+![Junctions a on the left and e on the right. Top branch from a: up through R2 = 2.5 ohms, then along the top through b, emf1 = 18 V with its positive terminal toward c, c, r1 = 0.5 ohm and d, then down to e. Middle branch: R1 = 6.0 ohms between a and e. Bottom branch from a: down, then along the bottom through h, emf2 = 45 V with its positive terminal toward g, g, r2 = 0.5 ohm and f, then up through R3 = 1.5 ohms to e. Assumed currents: I2 around the top branch from a toward e, I1 through R1 from e toward a, and I3 around the bottom branch from a toward e.](../resources/Figure_21_03_09.svg " ")
 {: #Figure9}
 
 :::

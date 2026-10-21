@@ -11,7 +11,7 @@ chapterNumber: 1
 
 ::::
 
-![An old rusted double-pan balance is shown with a weighing stone on one pan.](../resources/Figure_01_03_01.jpg 'A double-pan mechanical balance is used to compare different masses. Usually an object with unknown mass is placed in one pan and objects of known mass are placed in the other pan. When the bar that connects the two pans is horizontal, then the masses in both pans are equal. The “known masses” are typically metal cylinders of standard mass such as 1 gram, 10 grams, and 100 grams. (credit: Serge Melki)')
+![A laboratory double-pan balance with two empty pans suspended from an equal-arm beam and a central equilibrium indicator.](/resources/Figure_01_03_01.jpg 'A double-pan laboratory balance compares masses. An object of unknown mass is placed in one pan, and standard masses are added to the other until the equilibrium indicator shows that the balance is level. With equal beam arms and a correctly zeroed balance, the masses in the two pans are equal. Standard masses are often metal cylinders marked in grams. Both pans are empty in this photograph. (Photo: Bartłomiej Bulicz; image adjustments by Jacek Halicki. <a href="https://commons.wikimedia.org/wiki/File:Laboratory_balance01.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>. Resized and compressed for this book.)')
 {: #Figure1}
 
 ![A digital analytical balance.](../resources/Figure_01_03_02.jpg 'Many mechanical balances, such as double-pan balances, have been replaced by digital scales, which can typically measure the mass of an object more precisely. Whereas a mechanical balance may only read the mass of an object to the nearest tenth of a gram, many digital scales can measure the mass of an object up to the nearest thousandth of a gram. (credit: Karel Jakubec)')
@@ -376,10 +376,26 @@ newton, and it is expressed with the symbol N.)
 
 :::: solution {"class":"solution","data-print-placement":"here"}
 
-(a) 37.2 pounds; Because the number of bags is an exact value, it is not considered in the significant figures.
+**Strategy**
 
-(b) 1.4 N; Because the value 55 kg has only two significant figures, the final
-value must also contain two significant figures.
+Treat the number of bags as exact, use the addition rule for the weights, and use the multiplication rule for the force.
+
+**Solution**
+
+**(a)** Two identical bags and one additional bag have total weight
+
+$$w=2(13.5\text{ lb})+10.2\text{ lb}=27.0\text{ lb}+10.2\text{ lb}=37.2\text{ lb}.$$
+
+The exact count 2 does not limit significant figures. Each measured weight is given to the nearest tenth of a pound, so the sum is reported to that decimal place. The total weight of the bags is 37.2 pounds.
+
+**(b)** Newton’s second law gives force magnitude
+
+$$F=ma=(55\kg)(0.0255\mss)=1.4025\kg\cdot\m/\s^2=1.4025\N.$$
+
+The mass has two significant figures and the acceleration has three, so retain two in the final product rather than rounding an intermediate.
+
+The force on the wagon is 1.4 N, reported to two significant figures.
+
 
 ::::
 
@@ -430,6 +446,29 @@ What is the relationship between the accuracy and uncertainty of a measurement?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Separate closeness to the true value from the range of doubt assigned to a measurement.
+
+**Solution**
+
+**Accuracy** describes agreement with the true or accepted value. **Uncertainty** describes the doubt in the reported result, based on the measurement procedure, calibration, resolution, and variability.
+
+Suppose a calibrated reference has length $$25.00\text{ cm}$$. Measurement B is $$24.62\pm0.05\text{ cm}$$, where its small uncertainty reflects repeatability but omits a calibration bias. Its discrepancy is
+
+$$24.62\text{ cm}-25.00\text{ cm}=-0.38\text{ cm},$$
+
+much larger than $$0.05\text{ cm}$$. The reading is precise but biased, so a small repeatability uncertainty does not establish accuracy. A credible *total* uncertainty must also account for calibration and systematic effects. Measurement A, $$25.1\pm0.3\text{ cm}$$, is consistent with the reference within its stated uncertainty.
+
+![Measurement A has a wide uncertainty interval including the accepted 25.00 cm length, while precise measurement B has a narrow interval that misses it.](../resources/concept_01_03_q01.svg)
+
+Smaller, properly evaluated uncertainty permits a more precise claim of agreement with the true value, but a small quoted uncertainty alone does not guarantee accuracy because unaccounted systematic errors can bias the result.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -437,6 +476,27 @@ What is the relationship between the accuracy and uncertainty of a measurement?
 :::: problem
 
 Prescriptions for vision correction are given in units called **diopters** (D). Determine the meaning of that unit. Obtain information (perhaps by calling an optometrist or performing an internet search) on the minimum uncertainty with which corrections in diopters are determined and the accuracy with which corrective lenses can be produced. Discuss the sources of uncertainties in both the prescription and accuracy in the manufacture of lenses.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Look up what a diopter measures, then find typical values for how finely an eye exam states a correction and how closely a finished lens matches that number.
+
+**Solution**
+
+A **diopter** (D) measures lens power: $$ P=1/f $$ when the focal length $$ f $$ is in meters. Thus $$ 1\text{ D}=1\text{ m}^{-1} $$, and a lens with $$ f=0.50\m $$ has power $$ +2.0\text{ D} $$. A greater magnitude of power means a stronger lens.
+
+There is no single minimum uncertainty for all eye exams. For example, a [study of prescription reproducibility](https://pubmed.ncbi.nlm.nih.gov/19319010/) found that spherical-equivalent refractions were within $$ \pm0.25\text{ D} $$ of a benchmark on average 81% of the time and within $$ \pm0.50\text{ D} $$ 97% of the time. These results describe that study, rather than an uncertainty guaranteed for every prescription.
+
+Lens manufacture has a separate tolerance. ANSI Z80.1-2015 specifies a sphere-power tolerance of $$ \pm0.13\text{ D} $$ for single-vision and multifocal lenses with sphere power from $$ -6.50\text{ D} $$ to $$ +6.50\text{ D} $$. Other lens types and powers have different tolerances. A manufacturing tolerance is an allowed departure from the ordered power, not the uncertainty in deciding what correction the eye needs.
+
+Uncertainty in the prescription comes mainly from the patient's answers and from small changes in the eye during the exam. Uncertainty in the lens comes from shaping its surface, small differences in the glass or plastic, and the check of the finished lens.
+
+A diopter is an inverse meter. The uncertainty in determining a prescription and the tolerance in manufacturing the lens are different quantities; both depend on the method and conditions used.
 
 ::::
 
@@ -540,15 +600,15 @@ $$ \delta v = 90 \text{ km/h} \times \frac{5.0\%}{100\%} = 90 \text{ km/h} \time
 
 2. Calculate the range:
 <div class="equation">
-$$ v = 90 \pm 4.5 \text{ km/h} $$
+$$ v = (90 \pm 4.5) \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Minimum: } 90 - 4.5 = 85.5 \text{ km/h} $$
+$$ \text{Minimum: } 90 \text{km/h} - 4.5 \text{km/h} = 85.5 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Maximum: } 90 + 4.5 = 94.5 \text{ km/h} $$
+$$ \text{Maximum: } 90 \text{km/h} + 4.5 \text{km/h} = 94.5 \text{ km/h} $$
 </div>
 
 The exact computed range is 85.5 to 94.5 km/h. Rounding the endpoints outward, so that the stated interval still encloses every possible speed, gives 85 to 95 km/h. (This is an outward-rounding convention, not ordinary rounding of each endpoint.)
@@ -557,11 +617,11 @@ The exact computed range is 85.5 to 94.5 km/h. Rounding the endpoints outward, s
 
 Using 1 km = 0.6214 mi:
 <div class="equation">
-$$ 85.5 \text{ km/h} \times 0.6214 = 53.1 \text{ mi/h} $$
+$$ 85.5 \text{ km/h} \times \frac{0.6214 \text{ mi}}{1 \text{ km}} = 53.1 \text{ mi/h} $$
 </div>
 
 <div class="equation">
-$$ 94.5 \text{ km/h} \times 0.6214 = 58.7 \text{ mi/h} $$
+$$ 94.5 \text{ km/h} \times \frac{0.6214 \text{ mi}}{1 \text{ km}} = 58.7 \text{ mi/h} $$
 </div>
 
 **Discussion**
@@ -831,11 +891,11 @@ $$ \delta v = 60 \text{ km/h} \times \frac{2.2\%}{100\%} = 60 \text{ km/h} \time
 
 2. Calculate the range:
 <div class="equation">
-$$ \text{Minimum: } 60 - 1 = 59 \text{ km/h} $$
+$$ \text{Minimum: } 60 \text{km/h} - 1 \text{km/h} = 59 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
+$$ \text{Maximum: } 60 \text{km/h} + 1 \text{km/h} = 61 \text{ km/h} $$
 </div>
 
 **Discussion**
@@ -903,7 +963,7 @@ This uncertainty level (about 2%) is typical for manual blood pressure measureme
 
 A person measures their heart rate by counting the number of beats in
  $$30 \s  $$. If  $$ 40 \pm 1  $$ beats are counted in
- $$ 30.0 \pm 0.5\s   $$,
+ $$ (30.0 \pm 0.5) \s   $$,
 what is the heart rate and its uncertainty in beats per minute?
 
 ::::
@@ -1057,7 +1117,7 @@ $$ \%\text{unc}_{d} = \frac{\delta d}{d} \times 100\% = \frac{25 \m}{42{,}188 \m
 
 Time = 2 h 30 min 12 s. Convert to seconds:
 <div class="equation">
-$$ t = 2 \times 3600 \s + 30 \times 60 \s + 12 \s = 7200 + 1800 + 12 = 9012 \s $$
+$$ t = 2 \times 3600 \s + 30 \times 60 \s + 12 \s = 7200 \s + 1800 \s + 12 \s = 9012 \s $$
 </div>
 
 With uncertainty δt = 1 s:
@@ -1105,8 +1165,8 @@ The extremely small percent uncertainties (0.06% and 0.01%) reflect the high pre
 
 :::: problem
 
-The sides of a small rectangular box are measured to be  $$ 1.80 \pm 0.01\text{cm}  $$,
- $$ 2.05 \pm 0.02\text{cm} $$,and  $$3.0 \pm 0.1 \text{cm}  $$
+The sides of a small rectangular box are measured to be  $$ (1.80 \pm 0.01) \text{cm}  $$,
+ $$ (2.05 \pm 0.02) \text{cm} $$,and  $$(3.0 \pm 0.1) \text{cm}  $$
 long. Calculate its volume and uncertainty in cubic centimeters.
 
 ::::
@@ -1149,14 +1209,14 @@ $$ \delta V = 11.07 \text{ cm}^{3} \times 0.048 = 0.54 \text{ cm}^{3} \approx 0.
 
 5. Keep guard digits until this step, then round the uncertainty to one significant figure and the volume to the same decimal place:
 <div class="equation">
-$$ V = 11.1 \pm 0.5 \text{ cm}^{3} $$
+$$ V = (11.1 \pm 0.5) \text{ cm}^{3} $$
 </div>
 
 **Discussion**
 
 This problem demonstrates how uncertainties accumulate in multi-dimensional calculations. The third dimension (3.0 ± 0.1 cm) has the largest percent uncertainty (3.3%), which dominates the total uncertainty. The final uncertainty of about 4.8% shows that when multiplying measurements, even small individual uncertainties can combine to produce significant uncertainty in the result. The volume of 11.1 cm³ with ±0.5 cm³ uncertainty means the actual volume could range from about 10.6 to 11.6 cm³. Rounding the percent uncertainty to 5% or the absolute uncertainty up to 1 cm³ before the last step would roughly double this interval, so retain guard digits until the end.
 
-**Answer:** $$ 11.1 \pm 0.5 \text{ cm}^{3} $$
+**Answer:** $$ (11.1 \pm 0.5) \text{ cm}^{3} $$
 
 ::::
 
@@ -1225,7 +1285,7 @@ This problem illustrates how conversion factors have their own uncertainties tha
 :::: problem
 
 The length and width of a rectangular room are measured to be
- $$ 3.955 \pm 0.005\m  $$ and  $$ 3.050 \pm 0.005\m  $$.
+ $$ (3.955 \pm 0.005) \m  $$ and  $$ (3.050 \pm 0.005) \m  $$.
 Calculate the area of the room and its uncertainty in square meters.
 
 ::::
@@ -1264,14 +1324,14 @@ $$ \delta A = 12.063 \mm \times 0.003 = 0.036 \mm \approx 0.04 \mm $$
 
 5. Round the area appropriately:
 <div class="equation">
-$$ A = 12.06 \pm 0.04 \mm $$
+$$ A = (12.06 \pm 0.04) \mm $$
 </div>
 
 **Discussion**
 
 The very small percent uncertainty (0.3%) indicates high-quality measurements, likely made with a precision measuring tape or laser distance meter. The absolute uncertainty of 0.04 m² means the actual area could range from about 12.02 to 12.10 m², which is excellent precision for a room measurement. This level of accuracy would be important for applications like ordering flooring materials where precise quantities are needed.
 
-**Answer:** $$ 12.06 \pm 0.04 \mm $$
+**Answer:** $$ (12.06 \pm 0.04) \mm $$
 
 ::::
 
@@ -1282,7 +1342,7 @@ The very small percent uncertainty (0.3%) indicates high-quality measurements, l
 :::: problem
 
 A car engine moves a piston with a circular cross-section of
- $$ 7.500 \pm 0.002\text{cm}  $$ diameter a distance of  $$ 3.250 \pm 0.001\text{cm}  $$
+ $$ (7.500 \pm 0.002) \text{cm}  $$ diameter a distance of  $$ (3.250 \pm 0.001) \text{cm}  $$
 to compress the gas in the cylinder.
 (a) By what amount is the gas decreased in
 volume in cubic centimeters?

@@ -38,7 +38,7 @@ it is usually not. If the current $$I $$ could be made zero, then $$V=\text{emf}
 , and so emf could be directly measured. However, standard voltmeters need a
 current to operate; thus, another technique is needed.
 
-![The diagram shows equivalence between two circuits. The first circuit has a cell of e m f script E and an internal resistance r connected across a voltmeter. The equivalent circuit on the right shows the same cell of e m f script E and an internal resistance r connected across a series combination of a galvanometer with an internal resistance r sub G and high resistance R. The currents in the two circuits are shown to be equal.](../resources/Figure_21_05_01.jpg "An analog voltmeter attached to a battery draws a small but nonzero current and measures a terminal voltage that differs from the emf of the battery. (Note that the script capital E symbolizes electromotive force, or emf.) Since the internal resistance of the battery is not known precisely, it is not possible to calculate the emf precisely.")
+![Left: a source of emf with internal resistance r connected to a voltmeter V, with current I flowing clockwise. Right, after an equals sign: the same circuit with the voltmeter drawn as a galvanometer G with internal resistance rG in series with a large resistance R, carrying the same current I.](../resources/Figure_21_05_01.svg "An analog voltmeter attached to a battery draws a small but nonzero current and measures a terminal voltage that differs from the emf of the battery. Since the internal resistance of the battery is not known precisely, it is not possible to calculate the emf precisely.")
 {: #Figure1}
 
 A **potentiometer** is a null measurement device for measuring potentials (
@@ -48,8 +48,7 @@ There is a steady drop in potential (an $$IR $$ drop) along the wire, so that a
 variable potential can be obtained by making contact at varying locations along
 the wire.
 
-[[Figure 2]](#Figure2)(b) shows an unknown $${\text{emf}}_{x} $$
-(represented by script $${E}_{x} $$ in the figure) connected in series with a
+[[Figure 2]](#Figure2)(b) shows an unknown $${\text{emf}}_{x} $$ connected in series with a
 galvanometer. Note that $${\text{emf}}_{x} $$ opposes the other voltage source.
 The location of the contact point (see the arrow on the drawing) is adjusted
 until the galvanometer reads zero. When the galvanometer reads zero,
@@ -74,7 +73,7 @@ Solving for $${\text{emf}}_{x} $$ gives
  $${\text{emf}}_{x}={\text{emf}}_{s}\frac{ {R}_{x}}{ {R}_{s}}. $$
 </div>
 
-![Two circuits are shown. The first circuit has a cell of e m f script E and internal resistance r connected in series to a resistor R. The second diagram shows the same circuit with the addition of a galvanometer and unknown voltage source connected with a variable contact that can be adjusted up and down the length of the resistor R.](../resources/Figure_21_05_02.jpg "The potentiometer, a null measurement device. (a) A voltage source connected to a long wire resistor passes a constant current \( I \) through it. (b) An unknown emf (labeled script \( E_x \) in the figure) is connected as shown, and the point of contact along \( R \) is adjusted until the galvanometer reads zero. The segment of wire has a resistance \( R_{x} \) and \( E_{x}=I R_{x}\) , where \( I \) is unaffected by the connection since no current flows through the galvanometer. The unknown emf is thus proportional to the resistance of the wire segment.")
+![(a) A source of emf with internal resistance r passes a constant current I through a long wire resistor R. (b) An unknown emf_x, in series with a galvanometer G and its resistance rG, is connected from the left end of R to a sliding contact. The contact is moved until G reads zero; then emf_x = I R_x, where R_x is the resistance between the left end and the contact.](../resources/Figure_21_05_02.svg "The potentiometer, a null measurement device. (a) A voltage source connected to a long wire resistor passes a constant current \( I \) through it. (b) An unknown emf is connected as shown, and the point of contact along \( R \) is adjusted until the galvanometer reads zero. The segment of wire has a resistance \( R_{x} \) and \( \text{emf}_{x}=I R_{x}\) , where \( I \) is unaffected by the connection since no current flows through the galvanometer. The unknown emf is thus proportional to the resistance of the wire segment.")
 {: #Figure2}
 
 Because a long uniform wire is used for $$R $$ , the ratio of resistances $${R}_{\text{x}}/{R}_{\text{s}} $$ is the same as the ratio of the lengths of wire
@@ -97,7 +96,7 @@ using standard voltmeters and ammeters are shown in [[Figure 3]](#Figure3). Such
 configurations are limited in accuracy, because the meters alter both the
 voltage applied to the resistor and the current that flows through it.
 
-![The diagram shows two circuits. The first one has a cell of e m f script E and internal resistance r connected in series to an ammeter A and a resistor R. The second circuit is the same as the first, but in addition there is a voltmeter connected across the voltage source E.](../resources/Figure_21_05_03.jpg "Two methods for measuring resistance with standard meters. (a) Assuming a known voltage for the source, an ammeter measures current, and resistance is calculated as \( R=V/I \) . (b) Since the terminal voltage \( V \) varies with current, it is better to measure it. \( V \) is most accurately known when \( I \) is small, but \( I \) itself is most accurately known when it is large.")
+![(a) A source of emf with internal resistance r drives current I through an ammeter A and a resistance R; R = V/I is calculated assuming the terminal voltage V is constant. (b) The same circuit with a voltmeter V connected across the source, so the terminal voltage is measured rather than assumed.](../resources/Figure_21_05_03.svg "Two methods for measuring resistance with standard meters. (a) Assuming a known voltage for the source, an ammeter measures current, and resistance is calculated as \( R=V/I \) . (b) Since the terminal voltage \( V \) varies with current, it is better to measure it. \( V \) is most accurately known when \( I \) is small, but \( I \) itself is most accurately known when it is large.")
 {: #Figure3}
 
 The **Wheatstone bridge** is a null measurement device for calculating
@@ -139,7 +138,7 @@ Canceling the currents and solving for R<sub>x</sub> yields
  $${R}_{\text{x}}={R}_{3}\frac{ {R}_{2}}{ {R}_{1}}. $$
 </div>
 
-![This complex circuit diagram shows a galvanometer connected in the center arm of a Wheatstone bridge arrangement. All the other four arms have a resistor. The bridge is connected to a cell of e m f script E and internal resistance r.](../resources/Figure_21_05_04.jpg "The Wheatstone bridge is used to calculate unknown resistances. The variable resistance \( R_{3} \) is adjusted until the galvanometer reads zero with the switch closed. This simplifies the circuit, allowing \( R_{x} \) to be calculated based on the \( IR \) drops as discussed in the text.")
+![Four resistors form a diamond of two paths from point a on the left to point c on the right: variable R3 then Rx along the top through point b, and R1 then R2 along the bottom through point d. A galvanometer G with resistance rG and a switch connects b to d. A source of emf with internal resistance r drives current I into a and out of c. Current I2 flows along the top path and I1 along the bottom path.](../resources/Figure_21_05_04.svg "The Wheatstone bridge is used to calculate unknown resistances. The variable resistance \( R_{3} \) is adjusted until the galvanometer reads zero with the switch closed. This simplifies the circuit, allowing \( R_{x} \) to be calculated based on the \( IR \) drops as discussed in the text.")
 {: #Figure4}
 
 This equation is used to calculate the unknown resistance when current through
@@ -188,6 +187,33 @@ Why can a null measurement be more accurate than one using standard voltmeters a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare what happens to the circuit under test in each kind of measurement. A standard voltmeter or ammeter draws or blocks some current, which changes the quantity being measured. In a null measurement, the circuit is adjusted until the galvanometer reads zero, so no current flows through the measuring device or the unknown at balance.
+
+**Solution**
+
+A voltmeter of resistance $$ R_{\text{V}} $$ across a cell of emf $$ 1.500 \text{ V} $$ and internal resistance $$ 0.50 \ \Omega $$ draws current and reads the terminal voltage. With $$ R_{\text{V}} = 1000 \ \Omega $$:
+
+<div class="equation">
+$$ V = \text{emf}\,\frac{R_{\text{V}}}{r + R_{\text{V}}} = (1.500 \text{ V})\frac{1000 \ \Omega}{1000.5 \ \Omega} = 1.499 \text{ V} $$
+</div>
+
+At potentiometer balance, $$ I = 0 $$ through the cell, so $$ Ir = 0 $$ and the reading is the emf itself, $$ 1.500 \text{ V} $$. The meter's resistance no longer matters, and the result depends only on a ratio, $$ \text{emf}_{x} = \text{emf}_{\text{s}}R_{x}/R_{\text{s}} $$.
+
+The accuracy of a null measurement is still limited by:
+
+- the accuracy with which the standard emf is known;
+- the accuracy of the resistances (or the slide-wire lengths) used in the ratio;
+- the sensitivity of the galvanometer, that is, the smallest current it can detect, which sets how precisely the balance point can be found;
+- small stray effects such as contact resistance, thermal emfs at junctions, and temperature changes of the resistors.
+
+A null measurement can be more accurate because at balance no current flows through the measuring device, so the device does not disturb the circuit and its own resistance does not enter the result; its accuracy is limited by the accuracy of the standard emf and resistances and by how small a current the galvanometer can detect.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -196,6 +222,28 @@ Why can a null measurement be more accurate than one using standard voltmeters a
 
 If a potentiometer is used to measure cell emfs on the order of a few volts, why is it most accurate for the standard  $${\text{emf}}_{\text{s}} $$
  to be the same order of magnitude and the resistances to be in the range of a few ohms?
+
+:::
+
+::: solution
+
+**Strategy**
+
+At balance, $$ \text{emf}_{x} = \text{emf}_{\text{s}}R_{x}/R_{\text{s}} $$. Consider how precisely the ratio can be determined, and how large a galvanometer current a small imbalance produces. Use an unknown of about $$ 1.5 \text{ V} $$ and an imbalance of $$ 1.0 \text{ mV} $$.
+
+**Solution**
+
+**Similar emfs:** if $$ \text{emf}_{\text{s}} $$ is close to $$ \text{emf}_{x} $$, then $$ R_{x} \approx R_{\text{s}} $$ and the two balance points lie close together on the same part of the slide wire. Each length (or resistance) is read with about the same absolute uncertainty, say $$ \pm 1 \text{ mm} $$ on a $$ 1.000\text{-m} $$ slide wire, so the relative uncertainty is smallest when both readings are large. Balance points of $$ 0.900 \m $$ and $$ 0.950 \m $$ are each uncertain by only about $$ (0.001 \m)/(0.9 \m) = 0.1\% $$. With a standard of $$ 0.0150 \text{ V} $$, the standard would balance at only $$ 0.0100 \m $$ ($$ \pm 10\% $$) while a $$ 1.5\text{-V} $$ cell would need $$ 100 $$ times that length, more than the whole wire.
+
+**Small resistances:** at a small imbalance $$ \Delta V $$, the galvanometer current is roughly $$ \Delta V/R_{\text{total}} $$. With resistances of a few ohms, say $$ 5.0 \ \Omega $$ in total,
+
+<div class="equation">
+$$ I_{\text{G}} = \frac{\Delta V}{R_{\text{total}}} = \frac{1.0 \times 10^{-3} \text{ V}}{5.0 \ \Omega} = 2.0 \times 10^{-4} \text{ A} $$
+</div>
+
+which a galvanometer easily detects. With resistances of $$ 5.0 \text{ k}\Omega $$, the same imbalance gives only $$ 2.0 \times 10^{-7} \text{ A} $$, which may go unnoticed, so the balance point could not be found as precisely.
+
+It is most accurate for $$ \text{emf}_{\text{s}} $$ to be of the same order as the unknown emfs because then $$ R_{x}/R_{\text{s}} $$ is near 1 and both resistances can be read with the same small relative uncertainty, and the resistances should be a few ohms so that even a small imbalance produces a galvanometer current large enough to detect (about $$ 0.2 \text{ mA} $$ for a $$ 1\text{-mV} $$ imbalance through $$ 5 \ \Omega $$).
 
 :::
 
@@ -241,7 +289,7 @@ Use the potentiometer ratio formula: $$\text{emf}_x/\text{emf}_s = R_x/R_s$$. Si
 **Solution**
 
 <div class="equation">
-$$\text{emf}_x = \text{emf}_s \frac{R_x}{R_s} = 1.600 \text{ V} \times \frac{1.200}{1.247} = 1.600 \times 0.9623 = 1.54 \text{ V}$$
+$$\text{emf}_x = \text{emf}_s \frac{R_x}{R_s} = 1.600 \text{ V} \times \frac{1.200 \text{ Ω}}{1.247 \text{ Ω}} = 1.600 \text{ V} \times 0.9623 = 1.54 \text{ V}$$
 </div>
 
 **Discussion**
@@ -298,7 +346,7 @@ Use the Wheatstone bridge balance condition: $$R_x = R_3 \times R_2/R_1$$ to sol
 
 From $$R_x = R_3 \frac{R_2}{R_1}$$, solve for $$R_3$$:
 <div class="equation">
-$$R_3 = R_x \frac{R_1}{R_2} = 100 \text{ Ω} \times \frac{50.0}{175} = 100 \times 0.2857 = 28.6 \text{ Ω}$$
+$$R_3 = R_x \frac{R_1}{R_2} = 100 \text{ Ω} \times \frac{50.0 \text{ Ω}}{175 \text{ Ω}} = 100 \text{ Ω} \times 0.2857 = 28.6 \text{ Ω}$$
 </div>
 
 **Discussion**

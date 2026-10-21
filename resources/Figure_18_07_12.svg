@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380" role="img" aria-labelledby="title desc">
+<title id="title">Four point charges on the corners of a square and one at its center</title>
+<desc id="desc">Point charges qa at the top left, qb at the top right, qc at the bottom left and qd at the bottom right corners of a square, with a charge q at its center.</desc>
+<rect width="380" height="380" fill="#ffffff"/>
+<rect x="60" y="60" width="260" height="260" fill="none" stroke="#999999" stroke-width="1.2"/>
+<circle cx="60" cy="60" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="78" y="75.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">a</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<circle cx="320" cy="60" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="338" y="75.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">b</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<circle cx="60" cy="320" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="78" y="335.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">c</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<circle cx="320" cy="320" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="338" y="335.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">d</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<circle cx="190" cy="190" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="208" y="205.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+</svg>

@@ -344,7 +344,7 @@ Describe how amplitude is related to the loudness of a sound.
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-Amplitude is directly proportional to the experience of loudness. As amplitude increases, loudness increases.
+For a sound of a given frequency, a larger amplitude sounds louder, but loudness is not directly proportional to amplitude. Intensity is proportional to the amplitude squared, and the sound intensity level changes by $$ 20 \log_{10}(A_2/A_1) $$ dB, so doubling the amplitude raises the level by about 6 dB. Perceived loudness also depends on frequency and on the level itself.
 
 :::
 
@@ -463,7 +463,7 @@ Given:
 Rearranging the decibel formula:
 
 <div class="equation">
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$$
+$$\beta = (10 \text{ dB})\log_{10}\left(\frac{I}{I_0}\right)$$
 </div>
 
 <div class="equation">
@@ -555,7 +555,7 @@ A sound wave traveling in  $$20ºC $$
 
 Use the pressure-amplitude relation with air density $$\rho=1.20\ \text{kg/m}^3$$ and sound speed $$v=343\ \text{m/s}$$ at 20 °C:
 
-$$I=\frac{(\Delta p)^2}{2\rho v}=\frac{(0.5)^2}{2(1.20)(343)}=\frac{0.25}{823.2}=3.04\times10^{-4}\ \text{W/m}^2.$$
+$$I=\frac{(\Delta p)^2}{2\rho v}=\frac{(0.5\ \text{Pa})^2}{2(1.20\ \text{kg/m}^3)(343\ \text{m/s})}=\frac{0.25\ \text{Pa}^2}{823.2\ \text{kg/(m}^2\cdot\text{s})}=3.04\times10^{-4}\ \text{W/m}^2.$$
 
 Intensity is proportional to the square of pressure amplitude.
 
@@ -585,27 +585,27 @@ Given:
 Using the decibel formula:
 
 <div class="equation">
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$$
+$$\beta = (10 \text{ dB})\log_{10}\left(\frac{I}{I_0}\right)$$
 </div>
 
 Substituting the values:
 
 <div class="equation">
-$$\beta = 10\log_{10}\left(\frac{3.04 \times 10^{-4}}{10^{-12}}\right)$$
+$$\beta = (10 \text{ dB})\log_{10}\left(\frac{3.04 \times 10^{-4}}{10^{-12}}\right)$$
 </div>
 
 <div class="equation">
-$$\beta = 10\log_{10}(3.04 \times 10^{8})$$
+$$\beta = (10 \text{ dB})\log_{10}(3.04 \times 10^{8})$$
 </div>
 
 Using the logarithm property $$\log_{10}(ab) = \log_{10}a + \log_{10}b$$:
 
 <div class="equation">
-$$\beta = 10[\log_{10}(3.04) + \log_{10}(10^{8})]$$
+$$\beta = (10 \text{ dB})[\log_{10}(3.04) + \log_{10}(10^{8})]$$
 </div>
 
 <div class="equation">
-$$\beta = 10[0.483 + 8] = 10(8.483) = 84.8 \text{ dB}$$
+$$\beta = (10 \text{ dB})[0.483 + 8] = (10 \text{ dB})(8.483) = 84.8 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -643,25 +643,25 @@ Given:
 Applying the decibel formula:
 
 <div class="equation">
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$$
+$$\beta = (10 \text{ dB})\log_{10}\left(\frac{I}{I_0}\right)$$
 </div>
 
 <div class="equation">
-$$\beta = 10\log_{10}\left(\frac{4.00 \times 10^{-2}}{10^{-12}}\right)$$
+$$\beta = (10 \text{ dB})\log_{10}\left(\frac{4.00 \times 10^{-2}}{10^{-12}}\right)$$
 </div>
 
 <div class="equation">
-$$\beta = 10\log_{10}(4.00 \times 10^{10})$$
+$$\beta = (10 \text{ dB})\log_{10}(4.00 \times 10^{10})$$
 </div>
 
 Using the logarithm property $$\log_{10}(ab) = \log_{10}a + \log_{10}b$$:
 
 <div class="equation">
-$$\beta = 10[\log_{10}(4.00) + \log_{10}(10^{10})]$$
+$$\beta = (10 \text{ dB})[\log_{10}(4.00) + \log_{10}(10^{10})]$$
 </div>
 
 <div class="equation">
-$$\beta = 10[0.602 + 10] = 10(10.602) = 106 \text{ dB}$$
+$$\beta = (10 \text{ dB})[0.602 + 10] = (10 \text{ dB})(10.602) = 106 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -758,11 +758,11 @@ Given:
 The difference in decibel levels is:
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 10\log_{10}(2)$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right) = (10 \text{ dB})\log_{10}(2)$$
 </div>
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10(0.301) = 3.01 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})(0.301) = 3.01 \text{ dB}$$
 </div>
 
 Therefore:
@@ -780,15 +780,15 @@ Given:
 The difference in decibel levels is:
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 10\log_{10}(0.2)$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right) = (10 \text{ dB})\log_{10}(0.2)$$
 </div>
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10\log_{10}(2 \times 10^{-1}) = 10[\log_{10}(2) + \log_{10}(10^{-1})]$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}(2 \times 10^{-1}) = (10 \text{ dB})[\log_{10}(2) + \log_{10}(10^{-1})]$$
 </div>
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10[0.301 - 1] = 10(-0.699) = -6.99 \text{ dB} \approx -7.0 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})[0.301 - 1] = (10 \text{ dB})(-0.699) = -6.99 \text{ dB} \approx -7.0 \text{ dB}$$
 </div>
 
 Therefore:
@@ -843,11 +843,11 @@ Given:
 Finding the intensity ratio:
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right)$$
 </div>
 
 <div class="equation">
-$$-7.00 = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
+$$-7.00 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right)$$
 </div>
 
 <div class="equation">
@@ -1007,7 +1007,7 @@ Given:
 Rearranging the decibel formula:
 
 <div class="equation">
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$$
+$$\beta = (10 \text{ dB})\log_{10}\left(\frac{I}{I_0}\right)$$
 </div>
 
 <div class="equation">
@@ -1104,22 +1104,22 @@ $$I_{\text{total}} = 10^{3} \times 10^{-8} \text{ W/m}^2 = 10^{-5} \text{ W/m}^2
 **Step 3:** Convert the total intensity to decibels.
 
 <div class="equation">
-$$\beta_{\text{total}} = 10\log_{10}\left(\frac{I_{\text{total}}}{I_0}\right)$$
+$$\beta_{\text{total}} = (10 \text{ dB})\log_{10}\left(\frac{I_{\text{total}}}{I_0}\right)$$
 </div>
 
 <div class="equation">
-$$\beta_{\text{total}} = 10\log_{10}\left(\frac{10^{-5}}{10^{-12}}\right) = 10\log_{10}(10^{7})$$
+$$\beta_{\text{total}} = (10 \text{ dB})\log_{10}\left(\frac{10^{-5}}{10^{-12}}\right) = (10 \text{ dB})\log_{10}(10^{7})$$
 </div>
 
 <div class="equation">
-$$\beta_{\text{total}} = 10 \times 7 = 70.0 \text{ dB}$$
+$$\beta_{\text{total}} = (10 \text{ dB}) \times 7 = 70.0 \text{ dB}$$
 </div>
 
 **Discussion**
 
 The result shows that 1000 flies produce 70 dB, which is 30 dB higher than one fly's 40 dB. This makes sense because:
 - 1000 = $$10^3$$, which means the intensity increases by a factor of 1000
-- A factor of 1000 in intensity corresponds to $$10\log_{10}(1000) = 10 \times 3 = 30$$ dB
+- A factor of 1000 in intensity corresponds to $$(10 \text{ dB})\log_{10}(1000) = (10 \text{ dB}) \times 3 = 30 \text{ dB}$$
 
 This demonstrates an important principle: multiplying the number of identical sound sources by 10 adds 10 dB to the sound level, multiplying by 100 adds 20 dB, and multiplying by 1000 adds 30 dB.
 
@@ -1179,15 +1179,15 @@ $$I_1 = \frac{I_{\text{total}}}{N} = \frac{1 \text{ W/m}^2}{10} = 0.1 \text{ W/m
 **Step 3:** Convert the single-source intensity to decibels.
 
 <div class="equation">
-$$\beta_{1} = 10\log_{10}\left(\frac{I_1}{I_0}\right)$$
+$$\beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_1}{I_0}\right)$$
 </div>
 
 <div class="equation">
-$$\beta_{1} = 10\log_{10}\left(\frac{10^{-1}}{10^{-12}}\right) = 10\log_{10}(10^{11})$$
+$$\beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{10^{-1}}{10^{-12}}\right) = (10 \text{ dB})\log_{10}(10^{11})$$
 </div>
 
 <div class="equation">
-$$\beta_{1} = 10 \times 11 = 110 \text{ dB}$$
+$$\beta_{1} = (10 \text{ dB}) \times 11 = 110 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -1229,11 +1229,11 @@ Given:
 **Step 1:** Find the intensity ratio from the decibel change.
 
 <div class="equation">
-$$\Delta\beta = \beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
+$$\Delta\beta = \beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right)$$
 </div>
 
 <div class="equation">
-$$40.0 = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
+$$40.0 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right)$$
 </div>
 
 <div class="equation">
@@ -1515,15 +1515,15 @@ Without the trumpet, the intensity at the eardrum would be $$I_0$$.
 **Step 4:** Calculate the decibel increase.
 
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{\text{trumpet}}}{I_0}\right) = 10\log_{10}(90)$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_{\text{trumpet}}}{I_0}\right) = (10 \text{ dB})\log_{10}(90)$$
 </div>
 
 <div class="equation">
-$$\Delta\beta = 10\log_{10}(9 \times 10) = 10[\log_{10}(9) + \log_{10}(10)]$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}(9 \times 10) = (10 \text{ dB})[\log_{10}(9) + \log_{10}(10)]$$
 </div>
 
 <div class="equation">
-$$\Delta\beta = 10[0.954 + 1] = 10(1.954) = 19.5 \text{ dB}$$
+$$\Delta\beta = (10 \text{ dB})[0.954 + 1] = (10 \text{ dB})(1.954) = 19.5 \text{ dB}$$
 </div>
 
 **(b) Comment on usefulness**
@@ -1613,15 +1613,15 @@ $$I_{\text{steth}} = \frac{P_{\text{delivered}}}{A_{\text{ear}}} = \frac{600 I_0
 **Step 4:** Calculate the decibel gain.
 
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{\text{steth}}}{I_0}\right) = 10\log_{10}(667)$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_{\text{steth}}}{I_0}\right) = (10 \text{ dB})\log_{10}(667)$$
 </div>
 
 <div class="equation">
-$$\Delta\beta = 10\log_{10}(6.67 \times 10^{2}) = 10[\log_{10}(6.67) + 2]$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}(6.67 \times 10^{2}) = (10 \text{ dB})[\log_{10}(6.67) + 2]$$
 </div>
 
 <div class="equation">
-$$\Delta\beta = 10[0.824 + 2] = 10(2.824) = 28.2 \text{ dB}$$
+$$\Delta\beta = (10 \text{ dB})[0.824 + 2] = (10 \text{ dB})(2.824) = 28.2 \text{ dB}$$
 </div>
 
 **Discussion**

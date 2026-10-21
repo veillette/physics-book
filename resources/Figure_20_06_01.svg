@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="520" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
+<title id="title">A short circuit</title>
+<desc id="desc">(a) A toaster of resistance R is plugged into an AC outlet. Worn insulation lets the two wires of its cord touch, through a small resistance r. (b) The schematic: the AC source drives the low resistance r in parallel with the toaster’s R, so a very large current flows through r and the cord overheats.</desc>
+<rect width="700" height="520" fill="#ffffff"/>
+<rect x="30" y="60" width="110" height="110" rx="10" fill="#ffffff" stroke="#444444" stroke-width="1.6"/>
+<line x1="30" y1="115" x2="39" y2="115" stroke="#222222" stroke-width="2"/>
+<line x1="71" y1="115" x2="80" y2="115" stroke="#222222" stroke-width="2"/>
+<circle cx="55" cy="115" r="16" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<polyline points="45.4,115 46.2,113.55 47,112.2 47.8,111.04 48.6,110.15 49.4,109.59 50.2,109.4 51,109.59 51.8,110.15 52.6,111.04 53.4,112.2 54.2,113.55 55,115 55.8,116.45 56.6,117.8 57.4,118.96 58.2,119.85 59,120.41 59.8,120.6 60.6,120.41 61.4,119.85 62.2,118.96 63,117.8 63.8,116.45 64.6,115" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="95" y="90" width="60" height="50" fill="#cfd1d6" stroke="#777777" stroke-width="1.4"/>
+<rect x="140" y="102" width="22" height="6" fill="#c8a23a"/>
+<rect x="140" y="122" width="22" height="6" fill="#c8a23a"/>
+<rect x="160" y="104" width="380" height="22" rx="4" fill="#c9cbd0" stroke="#888888" stroke-width="1.2"/>
+<line x1="165" y1="111" x2="600" y2="111" stroke="#555555" stroke-width="1.4"/>
+<line x1="165" y1="119" x2="600" y2="119" stroke="#555555" stroke-width="1.4"/>
+<line x1="355" y1="115" x2="366" y2="115" stroke="#222222" stroke-width="2"/>
+<line x1="384" y1="115" x2="395" y2="115" stroke="#222222" stroke-width="2"/>
+<polyline points="366,115 367.5,119 370.5,111 373.5,119 376.5,111 379.5,119 382.5,111 384,115" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="375" y="157.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<rect x="560" y="30" width="120" height="180" rx="22" fill="#c5d1e3" stroke="#6f7f99" stroke-width="2"/>
+<rect x="585" y="50" width="20" height="140" rx="6" fill="#e2c48e" stroke="#9a7a3a" stroke-width="1.2"/>
+<rect x="640" y="50" width="20" height="140" rx="6" fill="#e2c48e" stroke="#9a7a3a" stroke-width="1.2"/>
+<line x1="598" y1="115" x2="605" y2="115" stroke="#222222" stroke-width="2"/>
+<line x1="645" y1="115" x2="652" y2="115" stroke="#222222" stroke-width="2"/>
+<polyline points="605,115 608.33,123 615,107 621.67,123 628.33,107 635,123 641.67,107 645,115" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="625" y="93.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="350" y="237" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<polyline points="200,280 460,280 460,460 200,460 200,280" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="330,280 330,460" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="200" y1="330" x2="200" y2="410" stroke="#ffffff" stroke-width="7"/>
+<line x1="200" y1="330" x2="200" y2="352" stroke="#222222" stroke-width="2"/>
+<line x1="200" y1="388" x2="200" y2="410" stroke="#222222" stroke-width="2"/>
+<circle cx="200" cy="370" r="18" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<polyline points="189.2,370 190.1,368.37 191,366.85 191.9,365.55 192.8,364.54 193.7,363.91 194.6,363.7 195.5,363.91 196.4,364.54 197.3,365.55 198.2,366.85 199.1,368.37 200,370 200.9,371.63 201.8,373.15 202.7,374.45 203.6,375.46 204.5,376.09 205.4,376.3 206.3,376.09 207.2,375.46 208.1,374.45 209,373.15 209.9,371.63 210.8,370" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="330" y1="330" x2="330" y2="410" stroke="#ffffff" stroke-width="7"/>
+<line x1="330" y1="330" x2="330" y2="342" stroke="#222222" stroke-width="2"/>
+<line x1="330" y1="398" x2="330" y2="410" stroke="#222222" stroke-width="2"/>
+<polyline points="330,342 320,346.67 340,356 320,365.33 340,374.67 320,384 340,393.33 330,398" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="460" y1="330" x2="460" y2="410" stroke="#ffffff" stroke-width="7"/>
+<line x1="460" y1="330" x2="460" y2="342" stroke="#222222" stroke-width="2"/>
+<line x1="460" y1="398" x2="460" y2="410" stroke="#222222" stroke-width="2"/>
+<polyline points="460,342 450,346.67 470,356 450,365.33 470,374.67 450,384 470,393.33 460,398" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="348" y="378.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="478" y="378.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="330" y="507" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

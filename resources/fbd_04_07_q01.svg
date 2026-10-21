@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of an astronaut on a scale in free fall</title>
+<desc id="desc">Free-body diagram with +y up: only the weight w points down; the scale force is zero because the scale falls with the astronaut. The acceleration is g downward.</desc>
+<rect width="300" height="300" fill="#ffffff"/>
+<line x1="30" y1="120" x2="251" y2="120" stroke="#555555" stroke-width="1.5"/><polygon points="260,120 250,124.2 250,115.8" fill="#555555"/>
+<line x1="140" y1="270" x2="140" y2="29" stroke="#555555" stroke-width="1.5"/><polygon points="140,20 144.2,30 135.8,30" fill="#555555"/>
+<line x1="140" y1="120" x2="140" y2="209" stroke="#b03a2e" stroke-width="3.5"/><polygon points="140,220 134.96,208 145.04,208" fill="#b03a2e"/>
+<line x1="70" y1="140" x2="70" y2="179" stroke="#1e8449" stroke-width="3"/><polygon points="70,190 64.96,178 75.04,178" fill="#1e8449"/>
+<circle cx="140" cy="120" r="6" fill="#1f3a5f"/>
+<text x="152" y="138" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">astronaut</text>
+<text x="276" y="126" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="140" y="10" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="152" y="215" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mg</tspan></text>
+<text x="82" y="185" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">g</tspan></text>
+<text x="126" y="66" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal" font-size="11.9" dy="5.1">scale</tspan><tspan dy="-5.1"></tspan><tspan font-style="normal"> = 0</tspan></text>
+</svg>

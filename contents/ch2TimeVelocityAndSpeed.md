@@ -173,7 +173,7 @@ for simplicity’s sake, we will model it with no stops or changes in speed. We
 are also assuming that the route between the store and the house is a perfectly
 straight line.)
 
-![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 3 kilometers in the first 0 point 25 hours. It then decreases linearly from 3 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_03_04.jpg 'Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ')
+![Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 3 kilometers in the first 0 point 25 hours. It then decreases linearly from 3 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.](../resources/Figure_02_03_04.svg 'Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. ')
 {: #Figure4}
 
 ::: note {"class":"note","data-label":""}
@@ -259,6 +259,25 @@ Give an example (but not one from the text) of a device used to measure time and
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Choose a physical process with a known rate and count its changes.
+
+**Solution**
+
+An hourglass can measure time by the amount of sand transferred between its bulbs. For an illustrative calibrated hourglass, suppose sand flows at a steady rate of $$2.0\text{ g/s}$$. If $$30\text{ g}$$ has collected in the lower bulb, the elapsed time is
+
+$$\Delta t=\frac{\Delta m}{\dot m}=\frac{30\text{ g}}{2.0\text{ g/s}}=15\s.$$
+
+The increase in sand in the lower bulb, or the corresponding decrease in the upper bulb, indicates elapsed time. Real hourglasses require calibration because flow depends on the grains, aperture, and orientation; the numerical flow rate here is an assumed example.
+
+An hourglass measures time through the calibrated transfer of sand, so the changing amount in either bulb indicates how much time has passed.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -266,6 +285,30 @@ Give an example (but not one from the text) of a device used to measure time and
 ::: problem
 
 There is a distinction between average speed and the magnitude of average velocity. Give an example that illustrates the difference between these two quantities.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Calculate total path length and net displacement separately for a trip with a reversal.
+
+**Solution**
+
+Take east as $$+x$$. A walker travels $$100\m$$ east and then $$100\m$$ west in a total of $$100\s$$. The path length and displacement are
+
+$$d=100\m+100\m=200\m,\qquad \Delta x=100\m-100\m=0\m.$$
+
+Therefore,
+
+$$\text{average speed}=\frac{200\m}{100\s}=2.0\ms,\qquad
+|\overline v|=\left|\frac{0\m}{100\s}\right|=0\ms.$$
+
+The reversal adds to the distance traveled but cancels the displacement.
+
+On this out-and-back trip the average speed is 2.0 m/s while the magnitude of average velocity is zero, because distance accumulates along the path whereas opposite displacements cancel.
 
 :::
 
@@ -279,6 +322,25 @@ Does a car’s odometer measure distance or displacement? Does its speedometer m
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Ask whether each instrument records a path length, a change in position, or a direction.
+
+**Solution**
+
+An odometer adds the lengths of successive parts of the route. Driving $$3.0\text{ km}$$ east and $$3.0\text{ km}$$ west increases its reading by
+
+$$d=3.0\text{ km}+3.0\text{ km}=6.0\text{ km},$$
+
+although the displacement is $$0\text{ km}$$. A speedometer displays the magnitude of instantaneous velocity, such as $$20\ms$$, without specifying east, west, or any other direction. Two cars traveling in opposite directions can have identical speedometer readings and different velocities.
+
+A car’s odometer measures distance traveled, and its speedometer measures instantaneous speed rather than displacement or velocity.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -289,6 +351,25 @@ If you divide the total distance traveled on a car trip (as determined by the od
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Compare distance divided by time with displacement magnitude divided by time.
+
+**Solution**
+
+The odometer supplies total distance $$d$$, so $$d/\Delta t$$ is **average speed**. The magnitude of average velocity is $$|\Delta\vb r|/\Delta t$$. Because the shortest path between endpoints is a straight line,
+
+$$d\ge|\Delta\vb r|.$$
+
+For example, a straight $$60\text{ km}$$ journey completed in $$1.0\text{ h}$$, without reversing direction, gives both quantities as $$60\text{ km/h}$$. A return to the starting point in the same time gives zero average velocity even though the odometer has increased. Stops do not invalidate equality if the motion otherwise follows the same straight direction; both calculations include the stopping time.
+
+Dividing odometer distance by elapsed time gives average speed, which equals the magnitude of average velocity only when the path between the endpoints is straight and has no reversal of direction.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -296,6 +377,29 @@ If you divide the total distance traveled on a car trip (as determined by the od
 ::: problem
 
 How are instantaneous velocity and instantaneous speed related to one another? How do they differ?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Use the definition of speed as the magnitude of the instantaneous velocity vector.
+
+**Solution**
+
+Instantaneous velocity describes the rate and direction of position change. Instantaneous speed is its nonnegative magnitude:
+
+$$\text{speed}=|\vb v|.$$
+
+In one dimension, take east as positive. A cyclist traveling west can have $$v_x=-4.0\ms$$ and speed $$|-4.0\ms|=4.0\ms$$. In two dimensions, a velocity with components $$v_x=3.0\ms$$ and $$v_y=4.0\ms$$ has speed
+
+$$|\vb v|=\sqrt{(3.0\ms)^2+(4.0\ms)^2}=5.0\ms.$$
+
+Changing direction can change velocity without changing speed.
+
+Instantaneous speed is the magnitude of instantaneous velocity, so speed gives only a nonnegative rate of motion while velocity also specifies its direction.
 
 :::
 
@@ -349,7 +453,7 @@ $$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{t} = 0 \text{ m/s} $$
 
 **Discussion**
 
-This problem illustrates the fundamental difference between speed and velocity. Earth travels an enormous distance (9.42 × 10¹¹ m) in one year, moving at approximately 30 km/s relative to the Sun—faster than any human-made vehicle. Yet its average velocity over a complete orbit is zero because it returns to its starting position, making the displacement zero.
+This problem illustrates the fundamental difference between speed and velocity. Earth travels an enormous distance (9.42 × 10¹¹ m) in one year, moving at approximately 30 km/s relative to the Sun. Yet its average velocity over a complete orbit is zero because it returns to its starting position, making the displacement zero.
 
 This distinction is crucial in physics: speed depends only on the distance traveled (a scalar quantity), while velocity depends on displacement (a vector quantity with both magnitude and direction). For any complete orbit or round trip, average velocity is always zero regardless of how fast the object moves, while average speed depends on the total distance covered.
 
@@ -566,7 +670,7 @@ $$ t = 13 \text{ h} + \frac{4 \text{ min}}{60 \text{ min/h}} + \frac{58 \s}{3600
 </div>
 
 <div class="equation">
-$$ t = 13 + 0.06667 + 0.01611 = 13.083 \text{ h} $$
+$$ t = 13 \text{h} + 0.06667 \text{h} + 0.01611 \text{h} = 13.083 \text{ h} $$
 </div>
 
 **Step 2: Calculate average speed in km/h**
@@ -660,6 +764,12 @@ for the entire trip?
 **Strategy**
 
 Average speed uses total distance traveled divided by time. Average velocity uses displacement (straight-line distance with direction) divided by time. For the round trip, the displacement is zero since she returns to her starting point.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at home. The road (dashed) is 12.0 km long; the straight-line displacement Δx (red) from home to the university is 10.3 km at 25.0° south of east, that is, 25.0° below the +x axis. The return trip ends back at the origin, so the round-trip displacement is zero.](../resources/sketch_02_03_p07.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at her home. The displacement $$ \Delta \vb{x} $$ points from home to the university, $$ 25.0^\circ $$ below the $$ +x $$ axis (south of east). The odometer measures the length of the road, not of $$ \Delta \vb{x} $$, which is why distance traveled and displacement differ.
 
 **Solution**
 
@@ -815,7 +925,7 @@ $$ d_{Earth-Moon} = 3.84 \times 10^{8} \m \times \frac{1 \text{ km}}{1000 \m} = 
 
 This result of 384,000 km matches the well-known average Earth-Moon distance quite well. The echo delay of 2.56 seconds was a characteristic feature of lunar communications during the Apollo missions. This delay was noticeable in conversations and required astronauts and mission control to adapt their communication style – they couldn't have natural back-and-forth conversations but had to wait for responses.
 
-The calculation assumes the radio waves travel at the speed of light in vacuum, which is a good approximation since most of the path is through the vacuum of space. This method of using signal travel time to measure distances is fundamental in astronomy and is how we measure distances to planets, spacecraft, and even nearby stars (using radar or laser ranging).
+The calculation assumes the radio waves travel at the speed of light in vacuum, which is a good approximation since most of the path is through the vacuum of space. This method of using signal travel time to measure distances is fundamental in astronomy and is how we measure distances to planets and spacecraft (using radar or laser ranging).
 
 **Answer**
 
@@ -841,6 +951,12 @@ velocity (a) for each of the three intervals and (b) for the entire motion.
 **Strategy**
 
 Average velocity is displacement divided by time. For each interval, we identify the displacement (with sign indicating direction) and time, then calculate the average velocity. For the entire motion, we sum the displacements and times.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points down the field (forward), with the origin where the quarterback starts. Interval 1: Δx₁ = +15.0 m in 2.50 s, ending at x = 15.0 m. Interval 2: pushed backward, Δx₂ = −3.00 m in 1.75 s, ending at x = 12.0 m. Interval 3: Δx₃ = +21.0 m in 5.20 s, ending at x = 33.0 m.](../resources/sketch_02_03_p10.svg){: .sketch}
+
+Take $$ +x $$ down the field (forward), with the origin where the quarterback starts. Forward displacements are then positive and the backward push is negative: $$ \Delta x_1 = +15.0 \m $$, $$ \Delta x_2 = -3.00 \m $$, $$ \Delta x_3 = +21.0 \m $$.
 
 **Solution**
 
@@ -888,7 +1004,7 @@ $$ \overline{v}_{\text{total}} = \frac{\Delta x_{\text{total}}}{\Delta t_{\text{
 
 **Discussion**
 
-The negative velocity in interval 2 indicates backward motion. The average velocity for the entire motion (3.49 m/s) is less than the average of the three interval velocities because the quarterback spent more time in the slower interval 3. The net displacement is 33.0 m forward, which makes sense: he moved forward 15.0 m, then backward 3.00 m (net 12.0 m forward so far), then forward another 21.0 m, giving a total of 33.0 m forward. This speed of 3.49 m/s is reasonable for a quarterback navigating through defenders – it's much slower than his sprint speed but accounts for the backward motion and the time spent breaking tackles.
+The negative velocity in interval 2 indicates backward motion. For the entire trip, divide the total displacement, 33.0 m, by the total time, 9.45 s, to obtain 3.49 m/s forward. This is a time-weighted average of the interval velocities: the intervals have different durations, so simply adding their velocities and dividing by three would not give the trip average.
 
 **Answer**
 

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">Position versus time for a jogger</title>
+<desc id="desc">Position rises from 0 to about 17.6 m at 5 s, falls to about 2.5 m between 10 and 12.5 s, then rises to 25 m at 20 s.</desc>
+<rect width="640" height="420" fill="#ffffff"/>
+<line x1="85" y1="350" x2="600" y2="350" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="350" x2="85" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="350" x2="85" y2="355" stroke="#333333" stroke-width="1.2"/>
+<text x="85" y="371.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="188" y1="350" x2="188" y2="355" stroke="#333333" stroke-width="1.2"/>
+<text x="188" y="371.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="291" y1="350" x2="291" y2="355" stroke="#333333" stroke-width="1.2"/>
+<text x="291" y="371.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<line x1="394" y1="350" x2="394" y2="355" stroke="#333333" stroke-width="1.2"/>
+<text x="394" y="371.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">15</tspan></text>
+<line x1="497" y1="350" x2="497" y2="355" stroke="#333333" stroke-width="1.2"/>
+<text x="497" y="371.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20</tspan></text>
+<line x1="600" y1="350" x2="600" y2="355" stroke="#333333" stroke-width="1.2"/>
+<text x="600" y="371.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25</tspan></text>
+<line x1="80" y1="350" x2="85" y2="350" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="354.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="80" y1="300" x2="85" y2="300" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="304.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="80" y1="250" x2="85" y2="250" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="254.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<line x1="80" y1="200" x2="85" y2="200" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="204.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">15</tspan></text>
+<line x1="80" y1="150" x2="85" y2="150" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="154.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20</tspan></text>
+<line x1="80" y1="100" x2="85" y2="100" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="104.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25</tspan></text>
+<line x1="80" y1="50" x2="85" y2="50" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="54.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30</tspan></text>
+<text x="342.5" y="393.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal">)</tspan></text>
+<text x="40" y="205.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 40 200)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">)</tspan></text>
+<text x="342.5" y="37.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">vs</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Time</tspan></text>
+<path d="M 85 350 C 93.58 333.33 118.65 279.33 136.5 250 C 154.35 220.67 174.27 174 192.12 174 C 209.97 174 226.45 224.83 243.62 250 C 260.79 275.17 278.3 312.5 295.12 325 C 311.94 337.5 328.08 329.17 344.56 325 C 361.04 320.83 368.59 337.5 394 300 C 419.41 262.5 479.83 133.33 497 100" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="85,344 91,350 85,356 79,350" fill="#c0392b"/>
+<polygon points="136.5,244 142.5,250 136.5,256 130.5,250" fill="#c0392b"/>
+<polygon points="192.12,168 198.12,174 192.12,180 186.12,174" fill="#c0392b"/>
+<polygon points="243.62,244 249.62,250 243.62,256 237.62,250" fill="#c0392b"/>
+<polygon points="295.12,319 301.12,325 295.12,331 289.12,325" fill="#c0392b"/>
+<polygon points="344.56,319 350.56,325 344.56,331 338.56,325" fill="#c0392b"/>
+<polygon points="394,294 400,300 394,306 388,300" fill="#c0392b"/>
+<polygon points="497,94 503,100 497,106 491,100" fill="#c0392b"/>
+</svg>

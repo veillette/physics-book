@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="340" viewBox="0 0 700 340" role="img" aria-labelledby="title desc">
+<title id="title">How a mirage forms over a hot road</title>
+<desc id="desc">Light from the sky travels down at a shallow angle toward a hot road. In each lower, hotter layer the index of refraction is smaller, so the ray bends away from the vertical until it travels horizontally, then curves upward into the observer’s eye. The observer sees an image of the sky below the horizon, on the road, which looks like a pool of water.</desc>
+<rect width="700" height="340" fill="#ffffff"/>
+<rect x="20" y="20" width="660" height="155" fill="#e3f2fd"/>
+<rect x="20" y="175" width="660" height="26" fill="#fffdf5"/>
+<rect x="20" y="201" width="660" height="26" fill="#fff6e0"/>
+<rect x="20" y="227" width="660" height="26" fill="#ffedc8"/>
+<rect x="20" y="253" width="660" height="26" fill="#ffe2ad"/>
+<rect x="20" y="280" width="660" height="30" fill="#7d7d7d"/>
+<text x="30" y="302.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="start" xml:space="preserve"><tspan font-style="normal">hot</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">road</tspan></text>
+<text x="200" y="194.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cooler</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">air</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">larger</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">n</tspan></text>
+<text x="30" y="274.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">hot</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">air</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">smaller</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">n</tspan></text>
+<polyline points="30,169 35,172.27 40,175.49 45,178.65 50,181.76 55,184.81 60,187.81 65,190.75 70,193.64 75,196.47 80,199.25 85,201.97 90,204.64 95,207.25 100,209.81 105,212.31 110,214.76 115,217.15 120,219.49 125,221.77 130,224 135,226.17 140,228.29 145,230.35 150,232.36 155,234.31 160,236.21 165,238.05 170,239.84 175,241.57 180,243.25 185,244.87 190,246.44 195,247.95 200,249.41 205,250.81 210,252.16 215,253.45 220,254.69 225,255.87 230,257 235,258.07 240,259.09 245,260.05 250,260.96 255,261.81 260,262.61 265,263.35 270,264.04 275,264.67 280,265.25 285,265.77 290,266.24 295,266.65 300,267.01 305,267.31 310,267.56 315,267.75 320,267.89 325,267.97 330,268 335,267.97 340,267.89 345,267.75 350,267.56 355,267.31 360,267.01 365,266.65 370,266.24 375,265.77 380,265.25 385,264.67 390,264.04 395,263.35 400,262.61 405,261.81 410,260.96 415,260.05 420,259.09 425,258.07 430,257 435,255.87 440,254.69 445,253.45 450,252.16 455,250.81 460,249.41 465,247.95 470,246.44 475,244.87 480,243.25 485,241.57 490,239.84 495,238.05 500,236.21 505,234.31 510,232.36 515,230.35 520,228.29 525,226.17 530,224 535,221.77 540,219.49 545,217.15 550,214.76 555,212.31 560,209.81 565,207.25 570,204.64 575,201.97 580,199.25 585,196.47 590,193.64 595,190.75 600,187.81 605,184.81 610,181.76" fill="none" stroke="#c62828" stroke-width="2.4" stroke-linejoin="round"/>
+<line x1="130" y1="224" x2="136.92" y2="226.93" stroke="#c62828" stroke-width="2.4"/>
+<polygon points="145,230.35 134.48,230.14 137.52,222.94" fill="#c62828"/>
+<line x1="480" y1="243.25" x2="486.94" y2="240.84" stroke="#c62828" stroke-width="2.4"/>
+<polygon points="495,238.05 487.25,244.77 484.75,237.57" fill="#c62828"/>
+<g transform="translate(620 181.76) rotate(-148.37)"><path d="M -14 0 Q 0 -11 14 0 Q 0 11 -14 0 Z" fill="#ffffff" stroke="#222222" stroke-width="1.5"/><circle cx="4" cy="0" r="4.5" fill="#1f77c8"/></g>
+<circle cx="650" cy="174.42" r="7.34" fill="none" stroke="#222222" stroke-width="2"/>
+<line x1="650" y1="181.76" x2="650" y2="223.54" stroke="#222222" stroke-width="2.5"/>
+<line x1="650" y1="223.54" x2="643.22" y2="280" stroke="#222222" stroke-width="2.5"/>
+<line x1="650" y1="223.54" x2="656.78" y2="280" stroke="#222222" stroke-width="2.5"/>
+<line x1="650" y1="188.54" x2="663.55" y2="221.28" stroke="#222222" stroke-width="2.5"/>
+<line x1="650" y1="188.54" x2="638.71" y2="221.28" stroke="#222222" stroke-width="2.5"/>
+<line x1="610" y1="181.76" x2="450.52" y2="280" stroke="#c62828" stroke-width="1.4" stroke-dasharray="6 4"/>
+<ellipse cx="450.52" cy="276" rx="60" ry="6" fill="#9ecae1" stroke="#6baed6" stroke-width="1"/>
+<text x="450.52" y="302.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">image</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sky</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">looks</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">like</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">water</tspan><tspan font-style="normal">)</tspan></text>
+<text x="30" y="157.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">light</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sky</tspan></text>
+</svg>

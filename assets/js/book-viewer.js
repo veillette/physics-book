@@ -240,7 +240,7 @@ function parser() {
     bookBody.appendChild(toggleBtn);
   };
 
-  const renderPdfDownload = async () => {
+  const renderPdfDownload = () => {
     // Remove existing PDF download button
     const existingPdfBtn = bookBody.querySelector('.pdf-download-btn');
     if (existingPdfBtn) {
@@ -268,42 +268,11 @@ function parser() {
       if (chapterMatch) {
         const chapterNum = chapterMatch[1].padStart(2, '0');
 
-        // Load summary.json to determine if this is a chapter intro or section
-        try {
-          const response = await fetch(`${BookConfig.baseHref}/summary.json`);
-          const chapters = await response.json();
-
-          // Find the matching chapter
-          const chapter = chapters.find(c => c.chapterNumber === parseInt(chapterMatch[1]));
-          if (chapter) {
-            // Extract filename from path (remove .html, add .md)
-            const pathParts = currentPath.split('/');
-            const filename = pathParts[pathParts.length - 1].replace('.html', '.md');
-            const fullPath = `contents/${filename}`;
-
-            // Check if this is the chapter intro file
-            if (chapter.chapterFile === fullPath) {
-              // This is a chapter intro - link to complete chapter PDF
-              pdfUrl = `${BookConfig.baseHref}/assets/pdf/chapter-${chapterNum}-complete.pdf`;
-              pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
-            } else {
-              // Check if it's a section
-              const section = chapter.sections.find(s => s.sectionFile === fullPath);
-              if (section) {
-                const sectionNum = String(section.sectionNumber).padStart(2, '0');
-                pdfUrl = `${
-                  BookConfig.baseHref
-                }/assets/pdf/chapter-${chapterNum}-section-${sectionNum}.pdf`;
-                pdfTitle = `Download Section ${section.sectionNumber}: ${section.sectionTitle}`;
-              } else {
-                // Fallback to complete chapter PDF
-                pdfUrl = `${BookConfig.baseHref}/assets/pdf/chapter-${chapterNum}-complete.pdf`;
-                pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
-              }
-            }
-          }
-        } catch (_e) {
-          // Fallback to complete chapter PDF if summary.json fails to load
+        const metadata = bookPage.querySelector('[data-pdf-path]');
+        if (metadata) {
+          pdfUrl = `${BookConfig.baseHref}${metadata.dataset.pdfPath}`;
+          pdfTitle = metadata.dataset.pdfTitle;
+        } else {
           pdfUrl = `${BookConfig.baseHref}/assets/pdf/chapter-${chapterNum}-complete.pdf`;
           pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
         }
@@ -645,8 +614,6 @@ function parser() {
         href = `${window.location.origin}${href}`;
       }
       window.history.pushState(null, null, href);
-      renderNextPrev();
-
       // Need to set the URL *before* <img> tags area created
       // Fetch resources without fixing up their paths
       if (BookConfig.baseHref) {
@@ -672,6 +639,7 @@ function parser() {
       altPage.append(...htmlDivElement.childNodes);
       newPageBeforeRender(altPage, href);
       bookPage.append(altPage);
+      renderNextPrev();
       // Typeset MathJax after content is in DOM (clear previous content)
       typesetMath(altPage, true);
 

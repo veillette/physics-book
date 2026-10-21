@@ -68,7 +68,7 @@ algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
  $$ \text{net}W=I \alpha \theta . $$
 </div>
 
-![The figure shows a circular disc of radius r. A net force F is applied perpendicular to the radius, rotating the disc in an anti-clockwise direction and producing a displacement equal to delta S, in a direction parallel to the direction of the force applied. The angle covered is theta.](../resources/Figure_10_04_02.jpg "The net force on this disk is kept perpendicular to its radius as the force causes the disk to rotate. The net work done is thus \( \text{net} F \cdot \Delta s \). The net work goes into rotational kinetic energy.")
+![The figure shows a circular disc of radius r. A net force F is applied perpendicular to the radius, rotating the disc in an anti-clockwise direction and producing a displacement equal to delta S, in a direction parallel to the direction of the force applied. The angle covered is theta.](/resources/Figure_10_04_02.svg "The net force on this disk is kept perpendicular to its radius as the force causes the disk to rotate. The net work done is thus \( \text{net} F \cdot \Delta s \). The net work goes into rotational kinetic energy.")
 {: #Figure2}
 
 :::: note {"class":"note","data-label":""}
@@ -117,7 +117,7 @@ energy in a vehicle, as seen in [Figure 3](#Figure3).
 ![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_10_04_03.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into \( \KE_{\text{rot}} \). It can also convert translational kinetic energy, when the bus stops, into \( \KE_{\text{rot}} \). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus moving against friction.")
 {: #Figure3}
 
-:::: example
+:::: example {"class":"example","id":"grindstone"}
 
 <div class="title">
 Calculating the Work and Energy for Spinning a Grindstone
@@ -127,7 +127,7 @@ Consider a person who spins a large grindstone by placing her hand on its edge a
 revolution as shown in [Figure 4](#Figure4). In this example,
 we verify that the work done by the torque she exerts equals the change in rotational energy.
 (a) How much work is done if she exerts a force of 200 N through
-a rotation of $$ 1.00 \text{rad}\left(57.3^\circ\right) $$?
+a rotation of <!-- physics: eq-0 -->$$ 1.00 \text{rad}\left(57.3^\circ\right) $$?
 The force is kept perpendicular to the grindstone’s 0.320-m radius at the
 point of application, and the effects of friction are negligible.
 (b) What is the final angular velocity if the grindstone has a mass of 85.0 kg?
@@ -164,6 +164,7 @@ $$ \begin{array}{lll}
 Noting that $$ 1 \N·\m =1 \J $$,
 
 <div class="equation">
+ <!-- physics: eq-10 -->
  $$ \text{net}W=64.0 \J . $$
 </div>
 
@@ -178,7 +179,7 @@ start with the kinematic relationship in the equation
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta. $$
 </div>
 
-Note that $$ \omega_{0}=0 $$ because we start from rest. Taking the square root of the resulting equation
+Note that <!-- physics: initial-omega -->$$ \omega_{0}=0 $$ because we start from rest. Taking the square root of the resulting equation
 gives
 
 <div class="equation">
@@ -201,6 +202,7 @@ The formula for the moment of inertia for a disk is found
 in [Figure 3 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure3) :
 
 <div class="equation">
+ <!-- physics: eq-18 -->
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
 </div>
 
@@ -208,6 +210,7 @@ Substituting the values of torque and moment of inertia into the expression for 
 we obtain
 
 <div class="equation">
+ <!-- physics: eq-20 -->
  $$ \alpha =\frac{64.0 \N \cdot \m }{4.352 \kg \cdot \mm}=14.7 \radss . $$
 </div>
 
@@ -215,7 +218,8 @@ Now, substitute this value and the given value for $$ \theta $$
 into the above expression for $$ \omega $$:
 
 <div class="equation">
- $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}= {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2} =5.42 \rads . $$ 
+ <!-- physics: eq-23 -->
+ $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}= {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2} =5.42 \rads . $$
 </div>
 
 **Solution for (c)**
@@ -276,7 +280,7 @@ Problem-Solving Strategy for Rotational Energy
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"helicopter"}
 
 <div class="title">
 Calculating Helicopter Energies
@@ -307,6 +311,7 @@ We must convert the angular velocity to radians per second and calculate the mom
 is
 
 <div class="equation">
+ <!-- physics: eq-3 -->
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 
@@ -315,12 +320,14 @@ found in [Figure 3 Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMoti
 is four times this moment of inertia, because there are four blades. Thus,
 
 <div class="equation">
+ <!-- physics: eq-5 -->
  $$ I=4\frac{ M\ell^{2}}{3}=4×\frac{ \left(50.0 \kg \right){\left(4.00 \m \right)}^{2}}{3}=1067 \kg \cdot \mm. $$
 </div>
 
 Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic energy gives
 
 <div class="equation">
+<!-- physics: eq-8 -->
 $$ \begin{array}{lll}
 \KE_{\text{rot}}&=& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
 \KE_{\text{rot}}&=& 5.26\times 10^{5} \J
@@ -333,6 +340,7 @@ Translational kinetic energy was defined
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem). Entering the given values of mass and velocity, we obtain
 
 <div class="equation">
+ <!-- physics: eq-9 -->
  $$ \KE_{\text{trans}}=\frac{1}{2}m v^{2}=\left(0.5\right)\left(1000 \kg \right){\left(20.0 \ms \right)}^{2}=2.00\times 10^{5} \J . $$
 </div>
 
@@ -360,6 +368,7 @@ or
 We now solve for $$ h $$ and substitute known values into the resulting equation
 
 <div class="equation">
+ <!-- physics: eq-14 -->
  $$ h=\frac{ \frac{1}{2} I \omega^{2} }{mg}=\frac{5.26\times 10^{5} \J }{\left(1000 \kg \right)\left(9.80\mss \right)}=53.7 \m . $$
 </div>
 
@@ -449,7 +458,7 @@ Locate several cans each containing different types of food. First, predict whic
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"rolling-cylinder"}
 
 <div class="title">
 Calculating the Speed of a Cylinder Rolling Down an Incline
@@ -496,6 +505,7 @@ Solving algebraically, the equation for the final velocity $$ v $$ gives
 Substituting known values into the resulting expression yields
 
 <div class="equation">
+ <!-- physics: eq-13 -->
  $$ v=\sqrt{ \frac{4\left(9.80\mss \right)\left(2.00 \m \right)}{3} }=5.11 \ms . $$
 </div>
 
@@ -570,6 +580,25 @@ Describe the energy transformations involved when a yo-yo is thrown downward and
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Follow gravitational, translational, rotational, and dissipated energy through descent and ascent.
+
+**Solution**
+
+Choose height upward from the lowest point. The initial downward throw supplies translational and usually rotational kinetic energy from the hand’s work. As the yo-yo descends, gravitational potential energy decreases while its translational and rotational kinetic energies grow:
+
+$$K_{\text{trans}}=\tfrac12mv^2,\qquad K_{\text{rot}}=\tfrac12I\omega^2.$$
+
+For an ideal no-slip unwind from a stationary string, $$v=r\omega$$ at the axle. As an energy illustration, $$m=0.10\kg$$ descending $$h=1.0\m$$ releases $$mgh=(0.10\kg)(9.80\mss)(1.0\m)=0.98\J$$, in addition to the energy supplied at launch. Near the bottom, the string and axle interaction redirect the motion so that rotational energy helps the yo-yo climb as the string rewinds. On ascent, kinetic energy becomes gravitational potential energy. Bearing friction, string deformation, and air resistance convert some energy into heat, so without additional hand work it cannot regain more mechanical energy than it started with. The catch converts the remaining kinetic energy into other forms.
+
+The yo-yo converts the hand’s work and lost gravitational potential energy into translational and rotational kinetic energy on descent, then converts kinetic energy back into gravitational potential energy on ascent, with some energy dissipated and the remainder removed at the catch.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -577,6 +606,25 @@ Describe the energy transformations involved when a yo-yo is thrown downward and
 :::: problem
 
 What energy transformations are involved when a dragster engine is revved, its clutch let out rapidly, its tires spun, and it starts to accelerate forward? Describe the source and transformation of energy at each step.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Trace the fuel’s chemical energy through the engine, clutch, wheels, and accelerating vehicle.
+
+**Solution**
+
+Revving the engine converts fuel’s chemical energy into rotational kinetic energy of the crankshaft and flywheel, plus thermal energy and sound. A flywheel of assumed $$I=0.20\kg\cdot\mm$$ at $$\omega=300\rads$$ stores
+
+$$K_{\text{rot}}=\tfrac12(0.20\kg\cdot\mm)(300\rads)^2=9.0\times10^3\J.$$
+
+Releasing the clutch couples the engine to the drivetrain. Some rotational energy is transferred through torque to the wheels, while clutch slip turns some into heat. Continuing fuel combustion supplies more energy. Spinning tires gain rotational kinetic energy; if they slip on the road, kinetic friction dissipates energy in the tires and road. The road’s forward force changes the vehicle’s linear momentum, allowing engine energy to become translational kinetic energy of the car. Under ideal rolling contact, the stationary road is not the energy source; the fuel is. Exhaust, cooling, drivetrain losses, and sound account for the remainder.
+
+Fuel chemical energy first spins the engine and flywheel, then passes through the clutch and drivetrain into wheel rotation and the car’s translation, while clutch slip, tire slip, and engine losses convert part of it into heat and sound.
 
 ::::
 
@@ -590,6 +638,27 @@ The Earth has more rotational kinetic energy now than did the cloud of gas and d
 
 ![The figure shows a closed view of a red planet in the sky, with a sun like object seen at the far right and the planet shown here being surrounded by circles of gas and dust.](../resources/Figure_10_04_07.jpg 'An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)')
 {: #Figure7}
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Combine approximate angular-momentum conservation during contraction with the decrease in gravitational potential energy.
+
+**Solution**
+
+For a contracting, approximately isolated cloud, $$L=I\omega$$ is approximately conserved while $$I$$ decreases. Consequently,
+
+$$K_{\text{rot}}=\frac{L^2}{2I}$$
+
+increases. Conservation of angular momentum alone is not an energy source. Gravitational contraction decreases the cloud’s gravitational potential energy, supplying the increased rotational kinetic energy along with other kinetic energy and heat. Accretion impacts and internal processes also redistribute energy during planet formation.
+
+For a simple illustrative rotor with $$L=10\kg\cdot\mm/\s$$, reducing $$I$$ from $$5.0\kg\cdot\mm$$ to $$1.0\kg\cdot\mm$$ raises rotational kinetic energy from $$L^2/(2I)=10\J$$ to $$50\J$$. The extra $$40\J$$ must come from work or a decrease of another energy store, just as gravitational binding energy supplied the forming Earth’s contraction.
+
+Earth’s increased rotational kinetic energy came from the gravitational potential energy released as its precursor material contracted, while approximate angular-momentum conservation made the contracting material spin faster.
 
 ::::
 
@@ -617,9 +686,9 @@ From the referenced example: merry-go-round mass M = 50.0 kg, radius R = 1.50 m,
 
 **Solution**
 
-**(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^{2} + mr^{2} = 56.25 + 28.13 = 84.38 \kg \cdot \mm $$
+**(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^{2} + mr^{2} = 56.25 \text{kg}\cdot\text{m}^2 + 28.13 \text{kg}\cdot\text{m}^2 = 84.38 \kg \cdot \mm $$
 
-Convert angular velocity: $$ \omega = 20.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 2.09 \text{ rad/s} $$
+Convert angular velocity: $$ \omega = 20.0 \frac{\text{rev}}{\text{min}} \times \frac{2\pi \text{rad}}{1 \text{rev}} \times \frac{1 \text{min}}{60 \s} = 2.09 \text{ rad/s} $$
 
 Rotational kinetic energy:
 
@@ -627,7 +696,7 @@ Rotational kinetic energy:
 $$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(84.38 \kg \cdot \mm)(2.09 \text{ rad/s})^2 = 185 \J $$
 </div>
 
-**(b)** Work done equals the change in kinetic energy: $$ W = \Delta KE = 185 - 0 = 185 \J $$
+**(b)** Work done equals the change in kinetic energy: $$ W = \Delta KE = 185 \J - 0 \J = 185 \J $$
 
 The father pushes at radius R = 1.50 m with force F = 250 N perpendicular to r:
 
@@ -761,7 +830,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{86400 \s} = 7.27 \times 10^{-5} \text{ 
 Rotational kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37})(7.27 \times 10^{-5})^2 = 2.57 \times 10^{29} \J $$
+$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37} \text{kg}\cdot\text{m}^2)(7.27 \times 10^{-5} \rads)^2 = 2.56 \times 10^{29} \J $$
 </div>
 
 **(b)** Earth's orbital kinetic energy:
@@ -771,24 +840,24 @@ Orbital radius: r = 1.50 × 10¹¹ m, orbital period: T = 365.25 days = 3.156 ×
 Orbital velocity:
 
 <div class="equation">
-$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.98 \times 10^4 \text{ m/s} $$
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.99 \times 10^4 \text{ m/s} $$
 </div>
 
 Orbital kinetic energy (translational):
 
 <div class="equation">
-$$ KE_{\text{orbital}} = \frac{1}{2}Mv^{2} = \frac{1}{2}(5.97 \times 10^{24} \kg)(2.98 \times 10^4 \text{ m/s})^2 = 2.65 \times 10^{33} \J $$
+$$ KE_{\text{orbital}} = \frac{1}{2}Mv^{2} = \frac{1}{2}(5.97 \times 10^{24} \kg)(2.986 \times 10^4 \text{ m/s})^2 = 2.66 \times 10^{33} \J $$
 </div>
 
 **Discussion**
 
-Earth's orbital kinetic energy (2.65 × 10³³ J) is about 10,000 times larger than its rotational kinetic energy (2.57 × 10²⁹ J). This makes sense because Earth travels at 30 km/s in its orbit, which is much faster than the surface rotation speed (about 465 m/s at the equator). Both energies are enormous and extremely well conserved over astronomical timescales.
+Earth's orbital kinetic energy (2.66 × 10³³ J) is about 10,000 times larger than its rotational kinetic energy (2.56 × 10²⁹ J). This makes sense because Earth travels at 30 km/s in its orbit, which is much faster than the surface rotation speed (about 465 m/s at the equator). Both energies are enormous and extremely well conserved over astronomical timescales.
 
 **Answer**
 
-(a) Earth's rotational kinetic energy is **2.57 × 10²⁹ J**.
+(a) Earth's rotational kinetic energy is **2.56 × 10²⁹ J**.
 
-(b) Earth's orbital kinetic energy is **2.65 × 10³³ J**, about 10,000 times larger.
+(b) Earth's orbital kinetic energy is **2.66 × 10³³ J**, about 10,000 times larger.
 
 ::::
 
@@ -820,13 +889,13 @@ $$ I = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(12.0 \kg)\left[(0.280 \m)^2 + (
 </div>
 
 <div class="equation">
-$$ I = \frac{1}{2}(12.0 \kg)(0.0784 + 0.1089) \text{ m}^2 = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.1238 \kg \cdot \mm $$
+$$ I = \frac{1}{2}(12.0 \kg)(0.0784\mm + 0.1089\mm) = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.1238 \kg \cdot \mm $$
 </div>
 
 Now calculate the rotational kinetic energy:
 
 <div class="equation">
-$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.1238 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.1238)(14400) \J = 8.09 \times 10^3 \J $$
+$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.1238 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.1238\kg\cdot\mm)(14400\text{ s}^{-2}) = 8.09 \times 10^3 \J $$
 </div>
 
 **Discussion**
@@ -975,7 +1044,7 @@ $$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(1500 \kg)(0.600 \m)^2 = 270 \kg \cdot \mm
 Solving for ω:
 
 <div class="equation">
-$$ \omega^{2} = \frac{2(2.00 \times 10^6 \J)}{0.900(270 \kg \cdot \mm)} = \frac{4.00 \times 10^6}{243} = 16,460 \text{ rad}^2/\text{s}^2 $$
+$$ \omega^{2} = \frac{2(2.00 \times 10^6 \J)}{0.900(270 \kg \cdot \mm)} = \frac{4.00 \times 10^6 \J}{243 \text{kg}\cdot\text{m}^2} = 16,460 \text{ rad}^2/\text{s}^2 $$
 </div>
 
 <div class="equation">
@@ -992,33 +1061,33 @@ $$ \omega = 128 \text{ rad/s} $$
 Initial state: flywheel spinning at 128 rad/s
 
 <div class="equation">
-$$ E_i = \frac{1}{2}I\omega^{2} = \frac{1}{2}(270)(128)^2 = 2.21 \times 10^6 \J $$
+$$ E_i = \frac{1}{2}I\omega^{2} = \frac{1}{2}(270 \text{kg}\cdot\text{m}^2)(128 \rads)^2 = 2.21 \times 10^6 \J $$
 </div>
 
 Final state: bus at speed 3.00 m/s at height h
 
 <div class="equation">
-$$ E_f = \frac{1}{2}Mv_{f}^2 + Mgh = \frac{1}{2}(10000)(3.00)^2 + (10000)(9.80)h $$
+$$ E_f = \frac{1}{2}Mv_{f}^2 + Mgh = \frac{1}{2}(10000 \kg)(3.00 \ms)^2 + (10000 \kg)(9.80 \mss)h $$
 </div>
 
 <div class="equation">
-$$ E_f = 45000 + 98000h \J $$
+$$ E_f = 45000 \J + (98000 \N)h \J $$
 </div>
 
 Accounting for 90% efficiency, the available energy is:
 
 <div class="equation">
-$$ E_{\text{available}} = 0.900(2.21 \times 10^6) = 1.99 \times 10^6 \J $$
+$$ E_{\text{available}} = 0.900(2.21 \times 10^6 \J) = 1.99 \times 10^6 \J $$
 </div>
 
 Setting $$ E_{\text{available}} = E_f $$:
 
 <div class="equation">
-$$ 1.99 \times 10^6 = 45000 + 98000h $$
+$$ 1.99 \times 10^6 \J = 45000 \J + (98000 \N)h $$
 </div>
 
 <div class="equation">
-$$ h = \frac{1.99 \times 10^6 - 45000}{98000} = 19.9 \m $$
+$$ h = \frac{1.99 \times 10^6 \J - 45000 \J}{98000 \N} = 19.9 \m $$
 </div>
 
 **Discussion**
@@ -1070,7 +1139,7 @@ $$ mgh = \frac{5}{6}mv^{2} $$
 Solving for h:
 
 <div class="equation">
-$$ h = \frac{5v^2}{6g} = \frac{5(8.00 \text{ m/s})^2}{6(9.80 \text{ m/s}^2)} = \frac{5(64.0)}{58.8} = 5.44 \m $$
+$$ h = \frac{5v^2}{6g} = \frac{5(8.00 \text{ m/s})^2}{6(9.80 \text{ m/s}^2)} = \frac{5(64.0 \mmss)}{58.8 \mss} = 5.44 \m $$
 </div>
 
 **(b)** If the ball slides without rolling, only translational kinetic energy is present:
@@ -1080,7 +1149,7 @@ $$ mgh = \frac{1}{2}mv^{2} $$
 </div>
 
 <div class="equation">
-$$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{64.0}{19.6} = 3.27 \m $$
+$$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{64.0 \mmss}{19.6 \mss} = 3.27 \m $$
 </div>
 
 **Discussion**
@@ -1139,13 +1208,13 @@ $$ \tau_{\text{weight}} = -mgr = -(10.0 \kg)(9.80 \text{ m/s}^2)(0.280 \m) = -27
 Net torque:
 
 <div class="equation">
-$$ \tau_{\text{net}} = 45.0 - 27.4 = 17.6 \N \cdot \m $$
+$$ \tau_{\text{net}} = 45.0 \text{N}\cdot\text{m} - 27.4 \text{N}\cdot\text{m} = 17.6 \N \cdot \m $$
 </div>
 
 Total moment of inertia (leg plus weight):
 
 <div class="equation">
-$$ I_{\text{total}} = I_{\text{leg}} + mr^{2} = 0.900 + (10.0)(0.280)^2 = 0.900 + 0.784 = 1.684 \kg \cdot \mm $$
+$$ I_{\text{total}} = I_{\text{leg}} + mr^{2} = 0.900 \text{kg}\cdot\text{m}^2 + (10.0 \kg)(0.280 \m)^2 = 0.900 \text{kg}\cdot\text{m}^2 + 0.784 \text{kg}\cdot\text{m}^2 = 1.684 \kg \cdot \mm $$
 </div>
 
 Angular acceleration:
@@ -1230,13 +1299,13 @@ $$ \tau_{\text{weight}} = -mgr = -(2.00 \kg)(9.80 \text{ m/s}^2)(0.240 \m) = -4.
 The net torque is:
 
 <div class="equation">
-$$ \tau_{\text{net}} = 15.0 - 4.70 = 10.3 \N \cdot \m $$
+$$ \tau_{\text{net}} = 15.0 \text{N}\cdot\text{m} - 4.70 \text{N}\cdot\text{m} = 10.3 \N \cdot \m $$
 </div>
 
 The total moment of inertia includes the forearm and the weight:
 
 <div class="equation">
-$$ I_{\text{total}} = I_{\text{arm}} + I_{\text{weight}} = 0.250 \kg \cdot \mm + (2.00 \kg)(0.240 \m)^2 = 0.250 + 0.115 = 0.365 \kg \cdot \mm $$
+$$ I_{\text{total}} = I_{\text{arm}} + I_{\text{weight}} = 0.250 \kg \cdot \mm + (2.00 \kg)(0.240 \m)^2 = 0.250 \text{kg}\cdot\text{m}^2 + 0.115 \text{kg}\cdot\text{m}^2 = 0.365 \kg \cdot \mm $$
 </div>
 
 The angular acceleration is:
@@ -1383,7 +1452,7 @@ $$ I = \frac{R^2(2mgh - mv^{2})}{v^2} = \frac{mR^{2}(2gh - v^2)}{v^2} $$
 Substituting values:
 
 <div class="equation">
-$$ I = \frac{mR^{2}\left[2(9.80)(2.00) - (6.00)^2\right]}{(6.00)^2} = \frac{mR^{2}(39.2 - 36.0)}{36.0} = \frac{3.2mR^{2}}{36.0} = 0.0889 MR^{2} $$
+$$ I = \frac{mR^{2}\left[2(9.80 \mss)(2.00 \m) - (6.00 \ms)^2\right]}{(6.00 \ms)^2} = \frac{mR^{2}(39.2 \mmss - 36.0 \mmss)}{36.0 \mmss} = \frac{(3.2 \mmss)mR^{2}}{36.0 \mmss} = 0.0889 MR^{2} $$
 </div>
 
 To three significant figures, $$ I = 0.0889 MR^{2} $$ (exactly $$ \frac{2}{22.5}MR^2 = \frac{4}{45}MR^{2} $$). Note that $$ 0.0900 MR^2 $$ and $$ \frac{1}{11}MR^2 = 0.0909 MR^2 $$ are different values, not roundings of this result.
@@ -1424,7 +1493,7 @@ We use conservation of energy. The motorcycle has both translational KE and rota
 $$ KE_{\text{trans}} = \frac{1}{2}mv^{2} = \frac{1}{2}(200 \kg)(30.0 \text{ m/s})^2 = 90000 \J $$
 </div>
 
-For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.909 \text{ rad/s} $$
+For the wheels, $$ \omega = v/R = \frac{30.0 \ms}{0.330 \m} = 90.909 \text{ rad/s} $$
 
 Rotational KE for both wheels:
 
@@ -1435,7 +1504,7 @@ $$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^{2} = 2 \times \frac{1}{2}(1.12
 Total initial KE:
 
 <div class="equation">
-$$ KE_{\text{total}} = 90000 + 9288 = 99288 \J $$
+$$ KE_{\text{total}} = 90000 \J + 9288 \J = 99288 \J $$
 </div>
 
 At maximum height (neglecting friction):
@@ -1453,7 +1522,7 @@ $$ PE = mgh = (200 \kg)(9.80 \text{ m/s}^2)(35.0 \m) = 68600 \J $$
 Energy lost to friction:
 
 <div class="equation">
-$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99288 - 68600 = 30688 \J \approx 30.7 \text{ kJ} $$
+$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99288 \J - 68600 \J = 30688 \J \approx 30.7 \text{ kJ} $$
 </div>
 
 **Discussion**
@@ -1552,10 +1621,10 @@ A skater's body (excluding arms) has $$ I_0 = 1.50 \kg \cdot \mm $$. Each arm is
 
 **Solution**
 
-**(a)** Moments of inertia: $$ I_1 = 1.50 + 2(4.00)(0.800)^2 = 6.62 \kg \cdot \mm $$ and $$ I_2 = 1.50 + 2(4.00)(0.200)^2 = 1.82 \kg \cdot \mm $$. Conservation of angular momentum:
+**(a)** Moments of inertia: $$ I_1 = 1.50 \text{kg}\cdot\text{m}^2 + 2(4.00 \kg)(0.800 \m)^2 = 6.62 \kg \cdot \mm $$ and $$ I_2 = 1.50 \text{kg}\cdot\text{m}^2 + 2(4.00 \kg)(0.200 \m)^2 = 1.82 \kg \cdot \mm $$. Conservation of angular momentum:
 
 <div class="equation">
-$$ \omega_2 = \frac{I_1\omega_1}{I_2} = \frac{(6.62)(2.00 \text{ rad/s})}{1.82} = 7.27 \text{ rad/s} $$
+$$ \omega_2 = \frac{I_1\omega_1}{I_2} = \frac{(6.62 \text{kg}\cdot\text{m}^2)(2.00 \text{ rad/s})}{1.82 \text{kg}\cdot\text{m}^2} = 7.27 \text{ rad/s} $$
 </div>
 
 <div class="equation">

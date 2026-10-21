@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="820" viewBox="0 0 560 820" role="img" aria-labelledby="title desc">
+<title id="title">Charging by induction</title>
+<desc id="desc">(a) Two neutral metal spheres on insulating stands touch each other. (b) A positively charged rod brought near the left sphere attracts negative charge to its near side, leaving positive charge on the far side of the right sphere. (c) The spheres are separated while the rod is still near, so the left sphere keeps a negative charge and the right sphere a positive one. (d) After the rod is removed, the spheres keep equal and opposite charges, which gather on the sides facing each other.</desc>
+<rect width="560" height="820" fill="#ffffff"/>
+<rect x="262" y="122" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="235" y="168" width="70" height="12" fill="#3b3f44"/>
+<circle cx="270" cy="80" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="253.9" cy="62.52" r="14.72" fill="#e6e9ee"/>
+<rect x="354" y="122" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="327" y="168" width="70" height="12" fill="#3b3f44"/>
+<circle cx="362" cy="80" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="345.9" cy="62.52" r="14.72" fill="#e6e9ee"/>
+<text x="316" y="203.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="262" y="322" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="235" y="368" width="70" height="12" fill="#3b3f44"/>
+<circle cx="270" cy="280" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="253.9" cy="262.52" r="14.72" fill="#e6e9ee"/>
+<rect x="354" y="322" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="327" y="368" width="70" height="12" fill="#3b3f44"/>
+<circle cx="362" cy="280" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="345.9" cy="262.52" r="14.72" fill="#e6e9ee"/>
+<rect x="40" y="261" width="158" height="30" rx="15" fill="#a9c8e6" stroke="#55606b" stroke-width="1.2"/>
+<text x="55.8" y="278.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="87.4" y="290.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="119" y="278.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="150.6" y="290.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="182.2" y="278.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="238.82" y="271.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="234.35" y="284.09" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="235.07" y="297.81" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="240.88" y="310.26" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="391.12" y="310.26" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="397.21" y="296.58" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="397.21" y="281.62" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="391.12" y="267.94" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="316" y="403.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="262" y="522" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="235" y="568" width="70" height="12" fill="#3b3f44"/>
+<circle cx="270" cy="480" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="253.9" cy="462.52" r="14.72" fill="#e6e9ee"/>
+<rect x="404" y="522" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="377" y="568" width="70" height="12" fill="#3b3f44"/>
+<circle cx="412" cy="480" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="395.9" cy="462.52" r="14.72" fill="#e6e9ee"/>
+<rect x="40" y="461" width="158" height="30" rx="15" fill="#a9c8e6" stroke="#55606b" stroke-width="1.2"/>
+<text x="55.8" y="478.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="87.4" y="490.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="119" y="478.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="150.6" y="490.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="182.2" y="478.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="238.82" y="471.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="234.35" y="484.09" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="235.07" y="497.81" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="240.88" y="510.26" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="441.12" y="510.26" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="447.21" y="496.58" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="447.21" y="481.62" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="441.12" y="467.94" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="341" y="603.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="262" y="722" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="235" y="768" width="70" height="12" fill="#3b3f44"/>
+<circle cx="270" cy="680" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="253.9" cy="662.52" r="14.72" fill="#e6e9ee"/>
+<rect x="404" y="722" width="16" height="46" fill="#9aa0a8" stroke="#5f656c" stroke-width="1"/>
+<rect x="377" y="768" width="70" height="12" fill="#3b3f44"/>
+<circle cx="412" cy="680" r="46" fill="#b9bec6" stroke="#6f757d" stroke-width="1.5"/>
+<circle cx="395.9" cy="662.52" r="14.72" fill="#e6e9ee"/>
+<text x="299.12" y="710.26" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="305.21" y="696.58" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="305.21" y="681.62" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="299.12" y="667.94" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="382.88" y="667.94" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="376.79" y="681.62" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="376.79" y="696.58" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="382.88" y="710.26" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#c62828" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="341" y="803.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="340" viewBox="0 0 540 340" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the rock dropped into the well</title>
+<desc id="desc">A vertical +y axis points down, with the origin at the top of the well where the rock is released. Release: t = 0, y_0 = 0, v_0 = 0. The water is at an unknown depth d. The rock falls for t_fall, then the splash sound travels back up at 332.00 m/s for t_sound; the total is 2.0000 s. The acceleration is a = +9.80 m/s² (downward).</desc>
+<rect width="540" height="340" fill="#ffffff"/>
+<line x1="56" y1="40" x2="56" y2="300" stroke="#555555" stroke-width="1.6"/>
+<polygon points="56,310 51.6,299 60.4,299" fill="#555555"/>
+<text x="56" y="335.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="72" y="334.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">down</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="51" y1="60" x2="61" y2="60" stroke="#555555" stroke-width="1.6"/>
+<text x="47" y="64.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="51" y1="260" x2="61" y2="260" stroke="#555555" stroke-width="1.6"/>
+<text x="47" y="264.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="62" y1="60" x2="140" y2="60" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="150" cy="60" r="7" fill="#1f3a5f"/>
+<text x="220" y="45.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">0</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="220" y="65.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">0</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="220" y="85.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">0</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="220" y="25.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rock</tspan></text>
+<line x1="62" y1="252" x2="140" y2="252" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="150" cy="252" r="7" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="220" y="223.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">splash</tspan><tspan font-style="normal">: </tspan><tspan font-style="italic">y</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">d</tspan></text>
+<text x="220" y="243.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">fall</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">t</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">sound</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 2.0000 </tspan><tspan font-style="normal">s</tspan></text>
+<line x1="470" y1="120" x2="470" y2="163.4" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="470,175 464.96,162.4 475.04,162.4" fill="#6a3d9a"/>
+<text x="470" y="113.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#6a3d9a" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = +9.80 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">2</tspan></tspan><tspan dy="6.4">​</tspan></text>
+<line x1="110" y1="60" x2="110" y2="270" stroke="#8d6e63" stroke-width="2"/>
+<line x1="190" y1="60" x2="190" y2="270" stroke="#8d6e63" stroke-width="2"/>
+<path d="M 110 260 q 4 -4 8 0 q 4 4 8 0 q 4 -4 8 0 q 4 4 8 0 q 4 -4 8 0 q 4 4 8 0 q 4 -4 8 0 q 4 4 8 0 q 4 -4 8 0 q 4 4 8 0" fill="none" stroke="#2e86c1" stroke-width="2" stroke-linejoin="round"/>
+<line x1="200" y1="240" x2="200" y2="98" stroke="#d35400" stroke-width="1.6" stroke-dasharray="5 4"/>
+<polygon points="200,90 203.6,99 196.4,99" fill="#d35400"/>
+<text x="208" y="164.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#d35400" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">sound</tspan><tspan font-style="normal">, 332.00 </tspan><tspan font-style="normal">m/s</tspan></text>
+</svg>

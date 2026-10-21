@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560" role="img" aria-labelledby="title desc">
+<title id="title">The same rotation angle at two radii</title>
+<desc id="desc">Points 1 and 2 lie at radii r1 and r2 on the same radius line. Turning through Δθ, point 1 moves along the arc Δs1 and point 2 along the longer arc Δs2, but Δθ = Δs1/r1 = Δs2/r2.</desc>
+<rect width="560" height="560" fill="#ffffff"/>
+<circle cx="210" cy="340" r="205" fill="none" stroke="#7d3c98" stroke-width="3"/>
+<line x1="210" y1="340" x2="415" y2="340" stroke="#b03a2e" stroke-width="3"/>
+<line x1="210" y1="340" x2="367.04" y2="208.23" stroke="#b03a2e" stroke-width="3"/>
+<path d="M 310 340 A 100 100 0 0 0 286.6 275.72" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 415 340 A 205 205 0 0 0 367.04 208.23" fill="none" stroke="#222222" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="310" cy="340" r="7" fill="#5fd0d8" stroke="#2b8a91" stroke-width="1.5"/>
+<circle cx="415" cy="340" r="7" fill="#5fd0d8" stroke="#2b8a91" stroke-width="1.5"/>
+<text x="260" y="327" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">θ</tspan></text>
+<text x="332" y="301" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="445" y="262" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="324" y="369" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="429" y="369" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="210" y1="346" x2="210" y2="445" stroke="#222222" stroke-width="1.2"/>
+<line x1="210" y1="360" x2="210" y2="360" stroke="#222222" stroke-width="1.2"/>
+<line x1="310" y1="360" x2="310" y2="360" stroke="#222222" stroke-width="1.2"/>
+<line x1="218" y1="360" x2="302" y2="360" stroke="#222222" stroke-width="1.2"/>
+<polygon points="310,360 301,363.6 301,356.4" fill="#222222"/>
+<polygon points="210,360 219,356.4 219,363.6" fill="#222222"/>
+<rect x="246" y="349" width="28" height="24" fill="#ffffff"/>
+<text x="260" y="366.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.32">​</tspan></text>
+<line x1="415" y1="346" x2="415" y2="445" stroke="#222222" stroke-width="1.2"/>
+<line x1="210" y1="430" x2="210" y2="430" stroke="#222222" stroke-width="1.2"/>
+<line x1="415" y1="430" x2="415" y2="430" stroke="#222222" stroke-width="1.2"/>
+<line x1="218" y1="430" x2="407" y2="430" stroke="#222222" stroke-width="1.2"/>
+<polygon points="415,430 406,433.6 406,426.4" fill="#222222"/>
+<polygon points="210,430 219,426.4 219,433.6" fill="#222222"/>
+<rect x="298.5" y="419" width="28" height="24" fill="#ffffff"/>
+<text x="312.5" y="436.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.32">​</tspan></text>
+<text x="460" y="62" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal"> =</tspan></text>
+<text x="490" y="49.6" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<line x1="470" y1="55" x2="510" y2="55" stroke="#222222" stroke-width="1.2"/>
+<text x="490" y="76.4" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="460" y="157" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal"> =</tspan></text>
+<text x="490" y="144.6" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<line x1="470" y1="150" x2="510" y2="150" stroke="#222222" stroke-width="1.2"/>
+<text x="490" y="171.4" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="720" viewBox="0 0 400 720" role="img" aria-labelledby="title desc">
+<title id="title">Field lines in a parallel-plate capacitor</title>
+<desc id="desc">Two vertical plates connected to a battery: the left plate to the positive terminal, carrying charge +Q, and the right plate to the negative terminal, carrying −Q. Evenly spaced field lines start on the positive charges and end on the negative charges, bowing outward at the ends. The field strength E is proportional to Q.</desc>
+<rect width="400" height="720" fill="#ffffff"/>
+<rect x="70" y="50" width="22" height="470" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="290" y="50" width="22" height="470" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<line x1="92" y1="100" x2="290" y2="100" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="100" x2="189" y2="100" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,100 188,107.2 188,92.8" fill="#1f77c8"/>
+<line x1="92" y1="130" x2="290" y2="130" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="130" x2="189" y2="130" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,130 188,137.2 188,122.8" fill="#1f77c8"/>
+<line x1="92" y1="160" x2="290" y2="160" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="160" x2="189" y2="160" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,160 188,167.2 188,152.8" fill="#1f77c8"/>
+<line x1="92" y1="190" x2="290" y2="190" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="190" x2="189" y2="190" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,190 188,197.2 188,182.8" fill="#1f77c8"/>
+<line x1="92" y1="220" x2="290" y2="220" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="220" x2="189" y2="220" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,220 188,227.2 188,212.8" fill="#1f77c8"/>
+<line x1="92" y1="250" x2="290" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="250" x2="189" y2="250" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,250 188,257.2 188,242.8" fill="#1f77c8"/>
+<line x1="92" y1="280" x2="290" y2="280" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="280" x2="189" y2="280" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,280 188,287.2 188,272.8" fill="#1f77c8"/>
+<line x1="92" y1="310" x2="290" y2="310" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="310" x2="189" y2="310" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,310 188,317.2 188,302.8" fill="#1f77c8"/>
+<line x1="92" y1="340" x2="290" y2="340" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="340" x2="189" y2="340" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,340 188,347.2 188,332.8" fill="#1f77c8"/>
+<line x1="92" y1="370" x2="290" y2="370" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="370" x2="189" y2="370" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,370 188,377.2 188,362.8" fill="#1f77c8"/>
+<line x1="92" y1="400" x2="290" y2="400" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="400" x2="189" y2="400" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,400 188,407.2 188,392.8" fill="#1f77c8"/>
+<line x1="92" y1="430" x2="290" y2="430" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="430" x2="189" y2="430" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,430 188,437.2 188,422.8" fill="#1f77c8"/>
+<line x1="92" y1="460" x2="290" y2="460" stroke="#1f77c8" stroke-width="2"/>
+<line x1="176" y1="460" x2="189" y2="460" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,460 188,467.2 188,452.8" fill="#1f77c8"/>
+<path d="M 92 68 C 141.5 68 151.4 42 191 42 S 240.5 68 290 68" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="176" y1="42" x2="189" y2="42" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,42 188,49.2 188,34.8" fill="#1f77c8"/>
+<path d="M 92 506 C 141.5 506 151.4 532 191 532 S 240.5 506 290 506" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="176" y1="532" x2="189" y2="532" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="206,532 188,539.2 188,524.8" fill="#1f77c8"/>
+<text x="81" y="73.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="73.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="105.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="105.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="135.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="135.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="165.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="165.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="195.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="195.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="225.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="225.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="255.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="255.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="285.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="285.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="315.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="315.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="345.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="345.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="375.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="375.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="405.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="405.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="435.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="435.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="465.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="465.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="511.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="301" y="511.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="81" y="35.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">Q</tspan></text>
+<text x="301" y="35.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-style="italic">Q</tspan></text>
+<text x="191" y="563.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">E</tspan><tspan font-style="normal"> ∝ </tspan><tspan font-style="italic">Q</tspan></text>
+<polyline points="81,520 81,650 301,650 301,520" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="180" y1="650" x2="220" y2="650" stroke="#ffffff" stroke-width="7"/>
+<line x1="235" y1="650" x2="207" y2="650" stroke="#222222" stroke-width="2"/>
+<line x1="193" y1="650" x2="165" y2="650" stroke="#222222" stroke-width="2"/>
+<line x1="207" y1="666" x2="207" y2="634" stroke="#c62828" stroke-width="5"/>
+<line x1="193" y1="682" x2="193" y2="618" stroke="#c62828" stroke-width="3"/>
+<text x="160" y="613.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="240" y="613.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="200" y="707" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">battery</tspan></text>
+</svg>

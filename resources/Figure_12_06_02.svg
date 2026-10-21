@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560" role="img" aria-labelledby="title desc">
+<title id="title">Forces on an object falling through a viscous fluid</title>
+<desc id="desc">An oval object of length L and density ρ_obj falls through a fluid of density ρ_fl. Three forces act on it: its weight w downward, the viscous drag F_V upward, and the buoyant force F_B upward. A free-body diagram beside it shows the same three forces; at terminal velocity they balance.</desc>
+<rect width="640" height="560" fill="#ffffff"/>
+<defs><radialGradient id="halo1206"><stop offset="0.55" stop-color="#b8c4e6"/><stop offset="1" stop-color="#ffffff"/></radialGradient></defs><ellipse cx="270" cy="250" rx="260" ry="170" fill="url(#halo1206)"/>
+<path d="M 60 250 C 60 200 250 170 380 175 C 440 178 470 210 470 250 C 470 300 430 330 360 330 C 230 330 60 300 60 250 Z" fill="#f39a6b" stroke="#c0392b" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="73" y1="250" x2="457" y2="250" stroke="#222222" stroke-width="1.8"/>
+<polygon points="468,250 456,254.8 456,245.2" fill="#222222"/>
+<polygon points="62,250 74,245.2 74,254.8" fill="#222222"/>
+<text x="265" y="259.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan></text>
+<text x="400" y="298.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ρ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">obj</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="150" y="348.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ρ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">fl</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="220" y1="230" x2="220" y2="79" stroke="#e0245e" stroke-width="5"/>
+<polygon points="220,60 228,80 212,80" fill="#e0245e"/>
+<text x="200" y="78.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">V</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="380" y1="200" x2="380" y2="149" stroke="#e0245e" stroke-width="5"/>
+<polygon points="380,130 388,150 372,150" fill="#e0245e"/>
+<text x="396" y="138.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">B</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="260" y1="270" x2="260" y2="491" stroke="#e0245e" stroke-width="5"/>
+<polygon points="260,510 252,490 268,490" fill="#e0245e"/>
+<text x="276" y="528.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.88" font-weight="normal" dx="-16.1" dy="-12.48">→</tspan><tspan dx="1.22" dy="12.48">​</tspan></tspan></text>
+<text x="560" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan></text>
+<text x="560" y="63.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">diagram</tspan></text>
+<circle cx="560" cy="250" r="6" fill="#7b1145"/>
+<line x1="560" y1="244" x2="560" y2="103" stroke="#222222" stroke-width="2"/>
+<polygon points="560,91 565.2,104 554.8,104" fill="#222222"/>
+<line x1="550" y1="244" x2="550" y2="191" stroke="#222222" stroke-width="2"/>
+<polygon points="550,181 554.4,192 545.6,192" fill="#222222"/>
+<line x1="560" y1="256" x2="560" y2="460" stroke="#222222" stroke-width="2"/>
+<polygon points="560,472 554.8,459 565.2,459" fill="#222222"/>
+<text x="572" y="167.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">V</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="540" y="221.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">B</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="572" y="387.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-11.44">→</tspan><tspan dx="1.12" dy="11.44">​</tspan></tspan></text>
+</svg>

@@ -597,7 +597,7 @@ $$2tn = \left(m + \frac{1}{2}\right)\lambda$$
 With m = 0:
 
 <div class="equation">
-$$t = \frac{\lambda}{4n} = \frac{680 \text{ nm}}{4(1.33)} = \frac{680}{5.32} = 128 \text{ nm}$$
+$$t = \frac{\lambda}{4n} = \frac{680 \text{ nm}}{4(1.33)} = \frac{680 \text{ nm}}{5.32} = 128 \text{ nm}$$
 </div>
 
 **Discussion**
@@ -699,21 +699,21 @@ $$2tn = m\lambda$$
 Solving for t:
 
 <div class="equation">
-$$t = \frac{m\lambda}{2n} = \frac{m(520 \text{ nm})}{2(1.33)} = \frac{520m}{2.66} = 195m \text{ nm}$$
+$$t = \frac{m\lambda}{2n} = \frac{m(520 \text{ nm})}{2(1.33)} = \frac{520m \text{ nm}}{2.66} = 195m \text{ nm}$$
 </div>
 
 The three smallest non-zero thicknesses are:
 
 <div class="equation">
-$$t_1 = 195(1) = 195 \text{ nm}$$
+$$t_1 = (195 \text{ nm})(1) = 195 \text{ nm}$$
 </div>
 
 <div class="equation">
-$$t_2 = 195(2) = 390 \text{ nm}$$
+$$t_2 = (195 \text{ nm})(2) = 390 \text{ nm}$$
 </div>
 
 <div class="equation">
-$$t_3 = 195(3) = 585 \text{ nm}$$
+$$t_3 = (195 \text{ nm})(3) = 585 \text{ nm}$$
 </div>
 
 **Step 6:** Check reasonableness: These thicknesses are on the order of the wavelength of light, which is typical for thin film interference effects.
@@ -929,11 +929,11 @@ $$x_m = \frac{m\lambda}{2\alpha}$$
 
 The spacing between adjacent dark fringes is:
 <div class="equation">
-$$\Delta x = x_{m+1} - x_m = \frac{\lambda}{2\alpha} = \frac{589 \times 10^{-9}}{2(1.33 \times 10^{-3})}$$
+$$\Delta x = x_{m+1} - x_m = \frac{\lambda}{2\alpha} = \frac{589 \times 10^{-9} \text{ m}}{2(1.33 \times 10^{-3})}$$
 </div>
 
 <div class="equation">
-$$\Delta x = \frac{589 \times 10^{-9}}{2.67 \times 10^{-3}} = 2.21 \times 10^{-4} \text{ m} = 0.221 \text{ mm}$$
+$$\Delta x = \frac{589 \times 10^{-9} \text{ m}}{2.67 \times 10^{-3}} = 2.21 \times 10^{-4} \text{ m} = 0.221 \text{ mm}$$
 </div>
 
 **(b) Effect of glass type:**
@@ -1085,7 +1085,7 @@ $$2tn = \left(m + \frac{1}{2}\right)\lambda$$
 With m = 0:
 
 <div class="equation">
-$$t = \frac{\lambda}{4n} = \frac{0.0400 \text{ m}}{4(1.20)} = \frac{0.0400}{4.80} = 8.33 \times 10^{-3} \text{ m}$$
+$$t = \frac{\lambda}{4n} = \frac{0.0400 \text{ m}}{4(1.20)} = \frac{0.0400 \text{ m}}{4.80} = 8.33 \times 10^{-3} \text{ m}$$
 </div>
 
 <div class="equation">

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600" role="img" aria-labelledby="title desc">
+<title id="title">Gravitational attraction between two masses</title>
+<desc id="desc">Masses m and M, a distance r apart between their centers of mass (CM), attract each other with forces F of equal magnitude pointing toward each other along the line between them.</desc>
+<rect width="700" height="600" fill="#ffffff"/>
+<circle cx="60" cy="520" r="30" fill="none" stroke="#2aa1b3" stroke-width="3"/>
+<circle cx="640" cy="95" r="55" fill="none" stroke="#2aa1b3" stroke-width="3"/>
+<circle cx="60" cy="520" r="7" fill="#5fd0d8" stroke="#2b8a91" stroke-width="1.5"/>
+<circle cx="640" cy="95" r="7" fill="#5fd0d8" stroke="#2b8a91" stroke-width="1.5"/>
+<line x1="60" y1="520" x2="303.6" y2="341.5" stroke="#e0245e" stroke-width="5"/>
+<line x1="205" y1="413.75" x2="263.46" y2="370.91" stroke="#e0245e" stroke-width="5"/>
+<polygon points="280.4,358.5 267.86,378.6 257.45,364.41" fill="#e0245e"/>
+<line x1="640" y1="95" x2="408" y2="265" stroke="#e0245e" stroke-width="5"/>
+<line x1="495" y1="201.25" x2="436.54" y2="244.09" stroke="#e0245e" stroke-width="5"/>
+<polygon points="419.6,256.5 432.14,236.4 442.55,250.59" fill="#e0245e"/>
+<line x1="303.6" y1="341.5" x2="408" y2="265" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="55.06" y1="496.34" x2="618.93" y2="83.16" stroke="#222222" stroke-width="1.4"/>
+<polygon points="627,77.25 620.72,87.31 615.52,80.21" fill="#222222"/>
+<polygon points="47,502.25 53.27,492.2 58.47,499.3" fill="#222222"/>
+<text x="329.19" y="287.51" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="175" y="503.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan></text>
+<text x="560" y="213.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan></text>
+<text x="42" y="478.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<text x="625" y="28.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">M</tspan></text>
+<text x="80" y="594.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CM</tspan></text>
+<path d="M 68 572 Q 43 554 56.91 534.68" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="55.74" y1="536.3" x2="58.43" y2="532.57" stroke="#333333" stroke-width="1.2"/>
+<polygon points="61,529 59.6,534.64 56.09,532.12" fill="#333333"/>
+<text x="650" y="211.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CM</tspan></text>
+<path d="M 642 187 Q 600 146 636.11 109.01" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="634.71" y1="110.44" x2="637.93" y2="107.15" stroke="#333333" stroke-width="1.2"/>
+<polygon points="641,104 638.77,109.37 635.68,106.36" fill="#333333"/>
+</svg>

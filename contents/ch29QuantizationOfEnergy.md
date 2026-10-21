@@ -252,7 +252,7 @@ $$\Delta E = 1.127 \times 10^{-20} \text{ J}$$
 
 Converting to eV:
 
-$$\Delta E = \frac{1.127 \times 10^{-20}}{1.60 \times 10^{-19}} = 0.070 \text{ eV}$$
+$$\Delta E = \frac{1.127 \times 10^{-20} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 0.070 \text{ eV}$$
 
 (b) From $$E = (n + \frac{1}{2})hf$$:
 

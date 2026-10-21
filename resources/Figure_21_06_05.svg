@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="280" viewBox="0 0 520 280" role="img" aria-labelledby="title desc">
+<title id="title">A bleeder resistor across a capacitor</title>
+<desc id="desc">An electronic circuit, drawn as a box, with a capacitor C and a bleeder resistor R_bl connected in parallel across it.</desc>
+<rect width="520" height="280" fill="#ffffff"/>
+<rect x="40" y="30" width="130" height="220" fill="#d6dcef" stroke="#222222" stroke-width="2"/>
+<text x="105" y="147" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Circuit</tspan></text>
+<polyline points="170,50 440,50 440,230 170,230" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="300,50 300,230" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="300" y1="149" x2="300" y2="131" stroke="#ffffff" stroke-width="7"/>
+<line x1="300" y1="165" x2="300" y2="146" stroke="#222222" stroke-width="2"/>
+<line x1="300" y1="134" x2="300" y2="115" stroke="#222222" stroke-width="2"/>
+<line x1="283" y1="146" x2="317" y2="146" stroke="#1b7a4a" stroke-width="4"/>
+<line x1="283" y1="134" x2="317" y2="134" stroke="#1b7a4a" stroke-width="4"/>
+<text x="276" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan></text>
+<line x1="440" y1="108" x2="440" y2="172" stroke="#ffffff" stroke-width="7"/>
+<line x1="440" y1="100" x2="440" y2="108" stroke="#222222" stroke-width="2"/>
+<line x1="440" y1="172" x2="440" y2="180" stroke="#222222" stroke-width="2"/>
+<polyline points="440,108 429,113.33 451,124 429,134.67 451,145.33 429,156 451,166.67 440,172" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="462" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">bl</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</svg>

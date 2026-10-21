@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Explain the origin of Ohm’s law.
-* Calculate voltages, currents, or resistances with Ohm’s law.
-* Explain what an ohmic material is.
-* Describe a simple circuit.
+- Explain the origin of Ohm’s law.
+- Calculate voltages, currents, or resistances with Ohm’s law.
+- Explain what an ohmic material is.
+- Describe a simple circuit.
 
 :::
 
@@ -74,7 +75,7 @@ circuit** has a single voltage source and a single resistor. The wires
 connecting the voltage source to the resistor can be assumed to have negligible
 resistance, or their resistance can be included in $$R $$.
 
-![The figure describes a simple electric circuit with a battery connected to a resistance R. The direction of current is shown to emerge from the positive terminal of a battery of voltage V, pass through the resistor, and enter the negative terminal of the battery. The current I in the circuit is V divided by R, moving in a clockwise direction.](../resources/Figure_20_02_01.jpg 'A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.')
+![A battery of voltage V, shown as two parallel red lines with its positive terminal on top, is connected by wires to a resistor R. Current I flows clockwise, out of the positive terminal, through R and back to the negative terminal.](../resources/Figure_20_02_01.svg 'A simple electric circuit in which a closed path for current to flow is supplied by conductors (usually metal wires) connecting a load to the terminals of a battery, represented by the red parallel lines. The zigzag symbol represents the single resistor and includes any resistance in the connections to the voltage source.')
 {: #Figure1}
 
 ::: example {"id":"Example1","class":"example"}
@@ -95,6 +96,7 @@ resistance.
 Rearranging $$I=V/R $$ and substituting known values gives
 
 <div class="equation" >
+ <!-- physics: eq-2 -->
  $$R=\frac{V}{I}=\frac{12.0 \text{V}}{2.50 \text{A}}=4.80 \text{Ω}\text{.} $$
 </div>
 
@@ -142,7 +144,7 @@ $$\text{PE}=q\Delta V $$ , and the same $$q $$ flows through each. Thus the
 energy supplied by the voltage source and the energy converted by the resistor
 are equal. (See [[Figure 2]](#Figure2).)
 
-![The figure shows a simple electric circuit. A battery is connected to a resistor with resistance R, and a voltmeter is connected across the resistor. The direction of current is shown to emerge from the positive terminal of the battery of voltage V, pass through the resistor, and enter the negative terminal of the battery, in a clockwise direction. The voltage V in the circuit equals I R, which equals 18 volts.](../resources/Figure_20_02_02.jpg 'The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.')
+![A battery drives current I = V/R clockwise through a resistor R. A voltmeter connected across the resistor reads the voltage drop V = IR = 18 V, which equals the battery’s output voltage.](../resources/Figure_20_02_02.svg 'The voltage drop across a resistor in a simple circuit equals the voltage output of the battery.')
 {: #Figure2}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -190,8 +192,24 @@ See how the equation form of Ohm\'s law relates to a simple circuit. Adjust the 
 
 ::: problem
 
-The  $$IR $$
- drop across a resistor means that there is a change in potential or voltage across the resistor. Is there any change in current as it passes through a resistor? Explain.
+The $$IR $$
+drop across a resistor means that there is a change in potential or voltage across the resistor. Is there any change in current as it passes through a resistor? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply steady-state charge conservation to the resistor.
+
+**Solution**
+
+In steady operation, the current entering a resistor equals the current leaving it; otherwise charge would accumulate within it. The voltage falls because charge carriers transfer electrical potential energy to the resistor’s internal energy. The energy transfer rate is $$P=I\Delta V$$, while the rate of charge flow remains unchanged.
+
+**Discussion**
+
+Transient charging can briefly change local currents, but current is not consumed by a steady resistor. The resistor reduces potential energy per unit charge, not the current passing through it.
 
 :::
 
@@ -201,8 +219,24 @@ The  $$IR $$
 
 ::: problem
 
-How is the  $$IR $$
- drop in a resistor similar to the pressure drop in a fluid flowing through a pipe?
+How is the $$IR $$
+drop in a resistor similar to the pressure drop in a fluid flowing through a pipe?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the driving potential, transport rate, and dissipated power in the two systems.
+
+**Solution**
+
+A voltage difference drives charge flow through electrical resistance, $$\Delta V=IR$$. A pressure difference drives volume flow through hydraulic resistance, $$\Delta P=R_{\text{hyd}}\dot{\mathcal V}$$ for laminar flow. Friction dissipates mechanical energy in the pipe, just as collisions dissipate electrical energy in the resistor. The corresponding power losses are $$I\Delta V$$ and $$\dot{\mathcal V}\Delta P$$.
+
+**Discussion**
+
+In steady flow, neither charge nor fluid is used up along the resistive element. An electrical potential drop is analogous to a pressure drop because each supplies the energy per transported quantity that resistance dissipates.
 
 :::
 
@@ -210,11 +244,11 @@ How is the  $$IR $$
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="flashlight">
 
 ::: problem
 
-What current flows through the bulb of a 3.00-V flashlight when its hot resistance is  $$3.60 \text{Ω} $$ ?
+What current flows through the bulb of a 3.00-V flashlight when its hot resistance is <!-- physics: eq-0 -->$$3.60 \text{Ω} $$ ?
 
 :::
 
@@ -229,6 +263,7 @@ Apply Ohm's law directly: $$I = V/R$$. All values are given in standard units.
 Using Ohm's law:
 
 <div class="equation">
+<!-- physics: eq-2 -->
 $$I = \frac{V}{R} = \frac{3.00 \text{ V}}{3.60 \text{ Ω}} = 0.833 \text{ A}$$
 </div>
 
@@ -316,8 +351,8 @@ The effective resistance of the car's starter motor is $$7.33 \times 10^{-2}$$ �
 
 ::: problem
 
-How many volts are supplied to operate an indicator light on a DVD player that has a resistance of  $$140 \Omega  $$ ,
- given that 25.0 mA passes through it?
+How many volts are supplied to operate an indicator light on a DVD player that has a resistance of $$140 \Omega  $$ ,
+given that 25.0 mA passes through it?
 
 :::
 
@@ -355,9 +390,9 @@ A voltage of 3.50 V is supplied to operate the DVD player's indicator light.
 
 ::: problem
 
-(a) Find the voltage drop in an extension cord having a  $$0.0600\text{-}\Omega  $$
- resistance and through which 5.00 A is flowing. (b) A cheaper cord utilizes thinner wire and has a resistance of  $$0.300 \Omega  $$ .
- What is the voltage drop in it when 5.00 A flows? (c) Why is the voltage to whatever appliance is being used reduced by this amount? What is the effect on the appliance?
+(a) Find the voltage drop in an extension cord having a $$0.0600\text{-}\Omega  $$
+resistance and through which 5.00 A is flowing. (b) A cheaper cord utilizes thinner wire and has a resistance of $$0.300 \Omega  $$ .
+What is the voltage drop in it when 5.00 A flows? (c) Why is the voltage to whatever appliance is being used reduced by this amount? What is the effect on the appliance?
 
 :::
 
@@ -394,10 +429,12 @@ The voltage available to the appliance is:
 </div>
 
 For a 120 V source:
-- Good cord: $$V_{\text{appliance}} = 120 - 0.3 = 119.7 \text{ V}$$ (99.8% of source)
-- Cheap cord: $$V_{\text{appliance}} = 120 - 1.5 = 118.5 \text{ V}$$ (98.8% of source)
+
+- Good cord: $$V_{\text{appliance}} = 120 \text{ V} - 0.3 \text{ V} = 119.7 \text{ V}$$ (99.8% of source)
+- Cheap cord: $$V_{\text{appliance}} = 120 \text{ V} - 1.5 \text{ V} = 118.5 \text{ V}$$ (98.8% of source)
 
 The appliance power is $$P = V^2/R$$ (for constant appliance resistance), so:
+
 - Cheap cord reduces available power by approximately $$\left(\frac{118.5}{119.7}\right)^2 = 0.980$$ or 2% less power
 
 **Discussion**
@@ -430,8 +467,8 @@ The effect is amplified at higher currents. At 10 A, the cheap cord would drop 3
 
 ::: problem
 
-A power transmission line is hung from metal towers with glass insulators having a resistance of  $$ 1.00 \times 10^{9}  \Omega . $$
- What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)
+A power transmission line is hung from metal towers with glass insulators having a resistance of $$ 1.00 \times 10^{9}  \Omega . $$
+What current flows through the insulator if the voltage is 200 kV? (Some high-voltage lines are DC.)
 
 :::
 
@@ -468,6 +505,7 @@ A current of 0.200 mA (or $$2.00 \times 10^{-4}$$ A) flows through the insulator
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 Ohm’s law

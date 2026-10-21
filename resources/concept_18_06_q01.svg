@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 640 460" role="img" aria-labelledby="title desc">
+<title id="title">Electric field in a thin charged cell membrane</title>
+<desc id="desc">A spherical cell cross section has negative charge on the inner membrane surface and positive charge on the outer surface. Electric field arrows point radially inward only within the thin membrane; the cytoplasm and exterior are labeled zero field in the equal-and-opposite-total-charge thin-membrane model.</desc>
+<rect width="640" height="460" fill="#ffffff"/>
+<circle cx="300" cy="225" r="155" fill="#fff4dd" stroke="#c62828" stroke-width="1.5"/>
+<circle cx="300" cy="225" r="125" fill="#eef7ff" stroke="#1f77c8" stroke-width="1.5"/>
+<text x="464" y="231.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="415" y="231.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="451" y1="225" x2="435" y2="225" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="429,225 436,222.2 436,227.8" fill="#c62828"/>
+<text x="451.52" y="294.06" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="406.25" y="275.31" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="439.51" y1="282.79" x2="424.72" y2="276.66" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="419.18,274.37 426.72,274.46 424.58,279.63" fill="#c62828"/>
+<text x="415.97" y="347.27" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="381.32" y="312.62" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="406.77" y1="331.77" x2="395.46" y2="320.46" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="391.22,316.22 398.15,319.19 394.19,323.15" fill="#c62828"/>
+<text x="362.76" y="382.82" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="344.01" y="337.55" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="357.79" y1="364.51" x2="351.66" y2="349.72" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="349.37,344.18 354.63,349.58 349.46,351.72" fill="#c62828"/>
+<text x="300" y="395.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="300" y="346.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="300" y1="376" x2="300" y2="360" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="300,354 302.8,361 297.2,361" fill="#c62828"/>
+<text x="237.24" y="382.82" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="255.99" y="337.55" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="242.21" y1="364.51" x2="248.34" y2="349.72" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="250.63,344.18 250.54,351.72 245.37,349.58" fill="#c62828"/>
+<text x="184.03" y="347.27" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="218.68" y="312.62" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="193.23" y1="331.77" x2="204.54" y2="320.46" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="208.78,316.22 205.81,323.15 201.85,319.19" fill="#c62828"/>
+<text x="148.48" y="294.06" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="193.75" y="275.31" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="160.49" y1="282.79" x2="175.28" y2="276.66" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="180.82,274.37 175.42,279.63 173.28,274.46" fill="#c62828"/>
+<text x="136" y="231.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="185" y="231.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="149" y1="225" x2="165" y2="225" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="171,225 164,227.8 164,222.2" fill="#c62828"/>
+<text x="148.48" y="168.54" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="193.75" y="187.29" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="160.49" y1="167.21" x2="175.28" y2="173.34" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="180.82,175.63 173.28,175.54 175.42,170.37" fill="#c62828"/>
+<text x="184.03" y="115.33" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="218.68" y="149.98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="193.23" y1="118.23" x2="204.54" y2="129.54" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="208.78,133.78 201.85,130.81 205.81,126.85" fill="#c62828"/>
+<text x="237.24" y="79.78" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="255.99" y="125.05" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="242.21" y1="85.49" x2="248.34" y2="100.28" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="250.63,105.82 245.37,100.42 250.54,98.28" fill="#c62828"/>
+<text x="300" y="67.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="300" y="116.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="300" y1="74" x2="300" y2="90" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="300,96 297.2,89 302.8,89" fill="#c62828"/>
+<text x="362.76" y="79.78" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="344.01" y="125.05" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="357.79" y1="85.49" x2="351.66" y2="100.28" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="349.37,105.82 349.46,98.28 354.63,100.42" fill="#c62828"/>
+<text x="415.97" y="115.33" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="381.32" y="149.98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="406.77" y1="118.23" x2="395.46" y2="129.54" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="391.22,133.78 394.19,126.85 398.15,130.81" fill="#c62828"/>
+<text x="451.52" y="168.54" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="406.25" y="187.29" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="439.51" y1="167.21" x2="424.72" y2="173.34" stroke="#c62828" stroke-width="1.8"/>
+<polygon points="419.18,175.63 424.58,170.37 426.72,175.54" fill="#c62828"/>
+<text x="300" y="218.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Cell</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">interior</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">E</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="300" y="245.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cytoplasm</tspan></text>
+<text x="526" y="101.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Exterior</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">E</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="320" y="30.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Thin</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">membrane</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">outer</tspan><tspan font-style="normal"> +</tspan><tspan font-style="normal">σ</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">inner</tspan><tspan font-style="normal"> −</tspan><tspan font-style="normal">σ</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">field</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">points</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">inward</tspan></text>
+<text x="320" y="419.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">σ</tspan><tspan font-style="normal"> = 2.5 × 10⁻⁶ </tspan><tspan font-style="normal">C</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">²; </tspan><tspan font-style="normal">equal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">opposite</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">total</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">charges</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">assumed</tspan></text>
+<text x="320" y="444.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Membrane</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">thickness</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">exaggerated</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">for</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">visibility</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

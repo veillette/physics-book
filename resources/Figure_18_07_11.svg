@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" role="img" aria-labelledby="title desc">
+<title id="title">Field lines passing through an object</title>
+<desc id="desc">An irregularly shaped object in an external electric field. The field lines enter the object at one end, continue through it, and leave at the other end; they do not meet its surface at right angles.</desc>
+<rect width="440" height="300" fill="#ffffff"/>
+<path d="M 160 120 C 170 90 220 92 250 100 C 285 108 290 140 280 170 C 272 196 240 200 210 192 C 175 186 150 170 160 120 Z" fill="#f6c9b8" stroke="#c0392b" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 20 60 C 140 50 300 50 420 70" fill="none" stroke="#1f77c8" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 20 110 C 100 110 140 118 180 122 C 230 128 280 112 420 120" fill="none" stroke="#1f77c8" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 20 150 C 100 150 150 148 200 150 C 250 152 290 156 420 160" fill="none" stroke="#1f77c8" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 20 190 C 110 192 160 176 220 172 C 270 168 320 190 420 196" fill="none" stroke="#1f77c8" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 20 250 C 160 270 300 250 420 230" fill="none" stroke="#1f77c8" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="70" y1="57" x2="79" y2="57" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="90,57 78,61.8 78,52.2" fill="#1f77c8"/>
+<line x1="70" y1="111" x2="79" y2="111" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="90,111 78,115.8 78,106.2" fill="#1f77c8"/>
+<line x1="70" y1="150" x2="79" y2="150" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="90,150 78,154.8 78,145.2" fill="#1f77c8"/>
+<line x1="70" y1="192" x2="79" y2="192" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="90,192 78,196.8 78,187.2" fill="#1f77c8"/>
+<line x1="70" y1="256" x2="79" y2="256" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="90,256 78,260.8 78,251.2" fill="#1f77c8"/>
+<line x1="360" y1="65" x2="369" y2="65.45" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="380,66 367.76,70.2 368.24,60.6" fill="#1f77c8"/>
+<line x1="360" y1="118" x2="369" y2="118.45" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="380,119 367.76,123.2 368.24,113.6" fill="#1f77c8"/>
+<line x1="360" y1="158" x2="369" y2="158.45" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="380,159 367.76,163.2 368.24,153.6" fill="#1f77c8"/>
+<line x1="360" y1="192" x2="369" y2="192.45" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="380,193 367.76,197.2 368.24,187.6" fill="#1f77c8"/>
+<line x1="360" y1="238" x2="369" y2="237.1" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="380,236 368.48,242 367.52,232.4" fill="#1f77c8"/>
+</svg>

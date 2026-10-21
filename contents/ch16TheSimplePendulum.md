@@ -4,13 +4,14 @@ layout: page
 sectionNumber: 4
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Measure acceleration due to gravity.
+- Measure acceleration due to gravity.
 
 :::
 
-![In the figure, a horizontal bar is drawn. A perpendicular dotted line from the middle of the bar, depicting the equilibrium of pendulum, is drawn downward. A string of length L is tied to the bar at the equilibrium point. A circular bob of mass m is tied to the end of the string which is at a distance s from the equilibrium. The string is at an angle of theta with the equilibrium at the bar. A red arrow showing the time T of the oscillation of the mob is shown along the string line toward the bar. An arrow from the bob toward the equilibrium shows its restoring force asm g sine theta. A perpendicular arrow from the bob toward the ground depicts its mass as W equals to mg, and this arrow is at an angle theta with downward direction of string.](../resources/Figure_16_04_01.jpg 'A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch appreciably. The linear displacement from equilibrium is ( s ) , the length of the arc. Also shown are the forces on the bob, which result in a net force of ( -mg \\sin \\theta ) toward the equilibrium position—that is, a restoring force.')
+![A pendulum bob of mass m hangs from a string of length L, displaced by angle θ from the vertical dashed equilibrium line; s is the arc length from equilibrium. The tension T acts along the string toward the pivot and the weight w = mg acts straight down. The component of the weight perpendicular to the string, −mg sin θ, points along the arc toward equilibrium: it is the restoring force.](../resources/Figure_16_04_01.svg 'A simple pendulum has a small-diameter bob and a string that has a very small mass but is strong enough not to stretch appreciably. The linear displacement from equilibrium is ( s ) , the length of the arc. Also shown are the forces on the bob, which result in a net force of ( -mg \\sin \\theta ) toward the equilibrium position—that is, a restoring force.')
 {: #Figure1}
 
 Pendulums are in common usage. Some have crucial uses, such as in clocks; some
@@ -119,7 +120,7 @@ that the angle of deflection is less than $$15 ^\circ $$.
 
 2. Substitute known values into the new equation:
    <div class="equation" >
-   $$g={4\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}. $$ 
+   $$g={4\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}. $$
 
    </div>
 
@@ -144,8 +145,8 @@ below about $$0.5 ^\circ $$.
 Making Career Connections
 </div>
 
-Knowing  $$g $$
- can be important in geological exploration; for example, a map of  $$g $$  over large geographical regions aids the study of plate tectonics and helps in the search for oil fields and large mineral deposits.
+Knowing $$g $$
+can be important in geological exploration; for example, a map of $$g $$ over large geographical regions aids the study of plate tectonics and helps in the search for oil fields and large mineral deposits.
 
 :::
 
@@ -155,10 +156,10 @@ Knowing  $$g $$
 Take Home Experiment: Determining  $$g $$
 </div>
 
-Use a simple pendulum to determine the acceleration due to gravity  $$g $$
- in your own locale. Cut a piece of a string or dental floss so that it is about 1 m long. Attach a small object of high density to the end of the string (for example, a metal nut or a car key). Starting at an angle of less than  $$10 ^\circ $$ ,
- allow the pendulum to swing and measure the pendulum’s period for 10 oscillations using a stopwatch. Calculate  $$g $$ .
- How accurate is this measurement? How might it be improved?
+Use a simple pendulum to determine the acceleration due to gravity $$g $$
+in your own locale. Cut a piece of a string or dental floss so that it is about 1 m long. Attach a small object of high density to the end of the string (for example, a metal nut or a car key). Starting at an angle of less than $$10 ^\circ $$ ,
+allow the pendulum to swing and measure the pendulum’s period for 10 oscillations using a stopwatch. Calculate $$g $$ .
+How accurate is this measurement? How might it be improved?
 
 :::
 
@@ -169,9 +170,9 @@ Check Your Understanding
 
 ::: problem
 
-An engineer builds two simple pendula. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a mass of  $$10 \text{kg} $$ .
- Pendulum 2 has a bob with a mass of  $$100 \text{kg} $$ .
- Describe how the motion of the pendula will differ if the bobs are both displaced by  $$12 ^\circ $$.
+An engineer builds two simple pendula. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a mass of $$10 \text{kg} $$ .
+Pendulum 2 has a bob with a mass of $$100 \text{kg} $$ .
+Describe how the motion of the pendula will differ if the bobs are both displaced by $$12 ^\circ $$.
 
 :::
 
@@ -189,8 +190,8 @@ The movement of the pendula will not differ at all because the mass of the bob h
 PhET Explorations: Pendulum Lab
 </div>
 
-Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, and the amplitude of the swing. It’s easy to measure the period using the photogate timer. You can vary friction and the strength of gravity. Use the pendulum to find the value of  $$g $$
- on planet X. Notice the anharmonic behavior at large amplitude.
+Play with one or two pendulums and discover how the period of a simple pendulum depends on the length of the string, the mass of the pendulum bob, and the amplitude of the swing. It’s easy to measure the period using the photogate timer. You can vary friction and the strength of gravity. Use the pendulum to find the value of $$g $$
+on planet X. Notice the anharmonic behavior at large amplitude.
 {: class="newline"}
 
 <div class="media"  data-alt="pendulums">
@@ -219,6 +220,22 @@ gravity.
 ::: problem
 
 Pendulum clocks are made to run at the correct rate by adjusting the pendulum’s length. Suppose you move from one city to another where the acceleration due to gravity is slightly greater, taking your pendulum clock with you, will you have to lengthen or shorten the pendulum to keep the correct time, other factors remaining constant? Explain your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Hold the small-angle pendulum period fixed while changing gravity.
+
+**Solution**
+
+The period is $$T=2\pi\sqrt{L/g}$$. To keep $$T$$ unchanged, the ratio $$L/g$$ must remain constant, giving $$L_{\text{new}}/L_{\text{old}}=g_{\text{new}}/g_{\text{old}}$$. For an illustrative 0.10% increase in gravity, the pendulum must be lengthened by 0.10%.
+
+**Discussion**
+
+Without adjustment, greater gravity shortens the period and makes the clock run fast. The pendulum should be lengthened to restore the correct timekeeping rate.
 
 :::
 
@@ -261,7 +278,7 @@ Solving for $$L$$:
 Substituting the known values $$g = 9.80 \text{ m/s}^2$$ and $$T = 0.500 \text{ s}$$:
 
 <div class="equation">
- $$L = \frac{(9.80)(0.500)^2}{4\pi^{2}} = \frac{(9.80)(0.250)}{39.48} = \frac{2.45}{39.48} = 0.0621 \text{ m}$$
+ $$L = \frac{(9.80 \text{ m/s}^2)(0.500 \text{ s})^2}{4\pi^{2}} = \frac{(9.80 \text{ m/s}^2)(0.250 \text{ s}^2)}{39.48} = \frac{2.45 \text{ m}}{39.48} = 0.0621 \text{ m}$$
 </div>
 
 Converting to centimeters: $$L = 6.21 \text{ cm}$$
@@ -307,7 +324,7 @@ Squaring both sides of $$T = 2\pi\sqrt{\frac{L}{g}}$$:
 Solving for $$L$$:
 
 <div class="equation">
- $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80)(1.00)^2}{4\pi^{2}} = \frac{9.80}{39.48} = 0.248 \text{ m}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80 \text{ m/s}^2)(1.00 \text{ s})^2}{4\pi^{2}} = \frac{9.80 \text{ m}}{39.48} = 0.248 \text{ m}$$
 </div>
 
 **Discussion**
@@ -343,11 +360,11 @@ We can directly use the period formula $$T = 2\pi\sqrt{\frac{L}{g}}$$ with the g
 **Solution**
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{1.00}{9.80}}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{1.00 \text{ m}}{9.80 \text{ m/s}^2}}$$
 </div>
 
 <div class="equation">
- $$T = 2\pi\sqrt{0.102} = 2\pi(0.319) = 2.01 \text{ s}$$
+ $$T = 2\pi\sqrt{0.102 \text{ s}^2} = 2\pi(0.319 \text{ s}) = 2.01 \text{ s}$$
 </div>
 
 **Discussion**
@@ -383,7 +400,7 @@ The time for one complete swing is the period. We use $$T = 2\pi\sqrt{\frac{L}{g
 **Solution**
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{4.00}{9.80}} = 2\pi\sqrt{0.408} = 2\pi(0.639) = 4.01 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{4.00 \text{ m}}{9.80 \text{ m/s}^2}} = 2\pi\sqrt{0.408 \text{ s}^2} = 2\pi(0.639 \text{ s}) = 4.01 \text{ s}$$
 </div>
 
 **Discussion**
@@ -425,13 +442,13 @@ Convert length to meters: $$L = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 Calculate the period:
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.0500}{9.80}} = 2\pi\sqrt{0.00510} = 2\pi(0.0714) = 0.449 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.0500 \text{ m}}{9.80 \text{ m/s}^2}} = 2\pi\sqrt{0.00510 \text{ s}^2} = 2\pi(0.0714 \text{ s}) = 0.449 \text{ s}$$
 </div>
 
 Calculate the frequency:
 
 <div class="equation">
- $$f = \frac{1}{T} = \frac{1}{0.449} = 2.23 \text{ Hz}$$
+ $$f = \frac{1}{T} = \frac{1}{0.449 \text{ s}} = 2.23 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -473,13 +490,13 @@ Convert length to meters: $$L = 10.0 \text{ cm} = 0.100 \text{ m}$$
 Calculate the period:
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.100}{9.80}} = 2\pi\sqrt{0.0102} = 2\pi(0.101) = 0.635 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.100 \text{ m}}{9.80 \text{ m/s}^2}} = 2\pi\sqrt{0.0102 \text{ s}^2} = 2\pi(0.101 \text{ s}) = 0.635 \text{ s}$$
 </div>
 
 Calculate the frequency:
 
 <div class="equation">
- $$f = \frac{1}{T} = \frac{1}{0.635} = 1.57 \text{ Hz}$$
+ $$f = \frac{1}{T} = \frac{1}{0.635 \text{ s}} = 1.57 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -504,9 +521,9 @@ The 10-cm length is reasonable for a small bird toy or cage swing. The rapid 1.5
 
 ::: problem
 
-(a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is  $$9.79 {\text{m/s}}^{2} $$
- is moved to a location where the acceleration due to gravity is  $$9.82 {\text{m/s}}^{2} $$ .
- What is its new period? (b) Explain why so many digits are needed in the value for the period, based on the relation between the period and the acceleration due to gravity.
+(a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is $$9.79 {\text{m/s}}^{2} $$
+is moved to a location where the acceleration due to gravity is $$9.82 {\text{m/s}}^{2} $$ .
+What is its new period? (b) Explain why so many digits are needed in the value for the period, based on the relation between the period and the acceleration due to gravity.
 
 :::
 
@@ -531,6 +548,7 @@ Solving for $$T_2$$:
 </div>
 
 Substituting the given values:
+
 - $$T_1=3.00000$$ s
 - $$g_1=9.79$$ m/s²
 - $$g_2=9.82$$ m/s²
@@ -540,11 +558,11 @@ Substituting the given values:
 </div>
 
 <div class="equation">
- $$T_2=(3.00000)\sqrt{0.996945}$$
+ $$T_2=(3.00000 \text{ s})\sqrt{0.996945}$$
 </div>
 
 <div class="equation">
- $$T_2=(3.00000)(0.998469)=2.99541 \text{ s}$$
+ $$T_2=(3.00000 \text{ s})(0.998469)=2.99541 \text{ s}$$
 </div>
 
 **The new period is 2.99541 s.**
@@ -570,7 +588,7 @@ The fractional change in period is:
 Change in period:
 
 <div class="equation">
- $$\Delta T=(3.00000)(-0.001533)=-0.00460 \text{ s}$$
+ $$\Delta T=(3.00000 \text{ s})(-0.001533)=-0.00460 \text{ s}$$
 </div>
 
 **Discussion**
@@ -582,6 +600,7 @@ Part (b): The precision requirement stems from the square root relationship. Whe
 This problem illustrates why precision pendulum clocks are sensitive to location. A pendulum clock calibrated at sea level ($$g \approx 9.81$$ m/s²) would run slow if moved to high altitude (lower $$g$$) or fast if moved to a location with higher $$g$$ (like near the poles or in a valley). Historical timekeepers had to account for this when using pendulum clocks for navigation or scientific measurements.
 
 The small difference in $$g$$ (9.82 vs. 9.79 m/s²) might arise from:
+
 - Different latitudes (gravity is stronger at poles than equator)
 - Different elevations (gravity decreases with altitude)
 - Local geological variations (dense rock formations increase $$g$$)
@@ -596,8 +615,8 @@ This high precision requirement is why atomic clocks, which don't depend on grav
 
 ::: problem
 
-A pendulum with a period of 2.00000 s in one location  $$\left(g=9.80 {\text{m/s}}^{2}\right) $$
- is moved to a new location where the period is now 1.99796 s. What is the acceleration due to gravity at its new location?
+A pendulum with a period of 2.00000 s in one location $$\left(g=9.80 {\text{m/s}}^{2}\right) $$
+is moved to a new location where the period is now 1.99796 s. What is the acceleration due to gravity at its new location?
 
 :::
 
@@ -612,13 +631,13 @@ Since the length of the pendulum doesn't change, we can use the relationship bet
 First, find the length using the original location data:
 
 <div class="equation">
- $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80)(2.00000)^2}{4\pi^{2}} = \frac{39.2}{39.478} = 0.9930 \text{ m}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80 \text{ m/s}^2)(2.00000 \text{ s})^2}{4\pi^{2}} = \frac{39.2 \text{ m}}{39.478} = 0.9930 \text{ m}$$
 </div>
 
 Now use this length with the new period to find $$g_{\text{new}}$$:
 
 <div class="equation">
- $$g_{\text{new}} = \frac{4\pi^{2} L}{T_{\text{new}}^2} = \frac{4\pi^{2}(0.9930)}{(1.99796)^2} = \frac{39.198}{3.9918} = 9.82 \text{ m/s}^2$$
+ $$g_{\text{new}} = \frac{4\pi^{2} L}{T_{\text{new}}^2} = \frac{4\pi^{2}(0.9930 \text{ m})}{(1.99796 \text{ s})^2} = \frac{39.198 \text{ m}}{3.9918 \text{ s}^2} = 9.82 \text{ m/s}^2$$
 </div>
 
 Alternatively, using the ratio method:
@@ -628,7 +647,7 @@ Alternatively, using the ratio method:
 </div>
 
 <div class="equation">
- $$g_2 = g_1\left(\frac{T_1}{T_2}\right)^2 = 9.80\left(\frac{2.00000}{1.99796}\right)^2 = 9.80(1.00204) = 9.82 \text{ m/s}^2$$
+ $$g_2 = g_1\left(\frac{T_1}{T_2}\right)^2 = (9.80 \text{ m/s}^2)\left(\frac{2.00000}{1.99796}\right)^2 = (9.80 \text{ m/s}^2)(1.00204) = 9.82 \text{ m/s}^2$$
 </div>
 
 **Discussion**
@@ -636,6 +655,7 @@ Alternatively, using the ratio method:
 The new location has a slightly higher acceleration due to gravity (9.82 m/s² vs. 9.80 m/s²), an increase of about 0.2%. This small change in $$g$$ causes a correspondingly small decrease in period (from 2.00000 s to 1.99796 s, a decrease of 0.102%). The relationship is inverse: stronger gravity pulls the pendulum back more forcefully, causing faster oscillations and a shorter period.
 
 This problem demonstrates that pendulums can serve as precision gravimeters (instruments for measuring $$g$$). The high precision in the period measurement (5 decimal places) allows us to detect very small variations in gravitational acceleration. Such variations occur due to:
+
 - **Latitude**: $$g$$ is about 0.5% stronger at the poles than at the equator due to Earth's rotation and oblate shape
 - **Altitude**: $$g$$ decreases by about 0.03% per kilometer of elevation
 - **Local geology**: Dense rock formations or mineral deposits can increase $$g$$ locally by small amounts
@@ -698,6 +718,7 @@ Part (a) reveals a counterintuitive result: doubling the length doesn't double t
 Part (b) shows that a 5.00% decrease in length produces only a 2.50% decrease in period (to 97.5% of the original). Notice that the fractional change in period is half the fractional change in length—this follows from the square root: if $$T \propto \sqrt{L}$$, then $$\frac{\Delta T}{T} \approx \frac{1}{2}\frac{\Delta L}{L}$$ for small changes. This means pendulums are somewhat forgiving of small length variations, which is advantageous for clock design.
 
 The square root relationship has practical implications:
+
 - **For clocks**: Small thermal expansion of the pendulum rod (which might change $$L$$ by 0.1%) affects timing by only half that amount (0.05%), though this is still significant for precision timekeeping
 - **For adjustments**: To speed up a pendulum clock, you must shorten the pendulum, but the effect is muted by the square root
 - **For scaling**: You can't simply scale a pendulum design up or down linearly—a pendulum 4 times longer has a period only 2 times longer
@@ -718,7 +739,7 @@ These results are consistent with the fundamental pendulum equation and demonstr
 
 ::: problem
 
-Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is  $$1.63 {\text{m/s}}^{2} $$.
+Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is $$1.63 {\text{m/s}}^{2} $$.
 
 :::
 
@@ -766,8 +787,8 @@ This demonstrates a fundamental limitation of pendulum clocks: they're only accu
 
 ::: problem
 
-At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is  $$1.63 {\text{m/s}}^{2} $$ ,
- if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock's hour hand to make one revolution on the Moon.
+At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is $$1.63 {\text{m/s}}^{2} $$ ,
+if it keeps time accurately on Earth? That is, find the time (in hours) it takes the clock's hour hand to make one revolution on the Moon.
 
 :::
 
@@ -827,9 +848,9 @@ Since $$T\propto\sqrt L$$, the elapsed time indicated by the clock is
 
 $$t_{\text{clock}}=\frac{24.00\ \text{h}}{\sqrt{L_{\text{new}}/L_{\text{old}}}}.$$
 
-If the length increases by 1.000%, $$t_{\text{clock}}=24/\sqrt{1.01000}=23.88089\ \text{h}$$. Starting at noon, the clock reads **11:52.85 AM** the next day (about 11:52:51).
+If the length increases by 1.000%, $$t_{\text{clock}}=24\ \text{h}/\sqrt{1.01000}=23.88089\ \text{h}$$. Starting at noon, the clock reads **11:52.85 AM** the next day (about 11:52:51).
 
-If the length decreases by 1.000%, $$t_{\text{clock}}=24/\sqrt{0.99000}=24.12091\ \text{h}$$. It reads **12:07.25 PM** (about 12:07:15).
+If the length decreases by 1.000%, $$t_{\text{clock}}=24\ \text{h}/\sqrt{0.99000}=24.12091\ \text{h}$$. It reads **12:07.25 PM** (about 12:07:15).
 
 Retaining digits before converting hours to minutes avoids a significant rounding error in the clock reading.
 
@@ -908,6 +929,7 @@ Length must increase by 0.0116%
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 simple pendulum

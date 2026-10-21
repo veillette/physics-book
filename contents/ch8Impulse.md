@@ -182,7 +182,7 @@ bouncing off the floor. The area under the curve has units of momentum and is
 equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_{2} $$. That area is equal to the area inside the rectangle bounded by $$ F_{\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus, the impulses and their 
 effects are the same for both the actual and effective forces.
 
-![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01.jpg 'A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.')
+![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at half the maximum value of F actual and it extends from t sub 1 to t sub 2, so the rectangle under it has the same area as the region under F actual.](../resources/Figure_08_02_01.svg 'A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.')
 {: #Figure1}
 
 ::: note {"class":"note","data-label":""}
@@ -240,6 +240,38 @@ floor for a day care center.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compute the fixed momentum change, distinguish net impulse from the floor’s impulse, and compare two assumed stopping durations.
+
+**Solution**
+
+Use a point-mass model with only gravity and floor contact during the brief stop, choosing $$+y$$ upward. An assumed $$3.0\kg$$ mass arriving at $$-3.0\ms$$ and stopping has
+
+$$\Delta p_y=(3.0\kg)[0\ms-(-3.0\ms)]=9.0\kg\cdot\ms.$$
+
+This is the **net-force** impulse. If $$N_{\text{ave}}$$ is the floor force, gravity also acts, so
+
+$$(N_{\text{ave}}-mg)\Delta t=\Delta p_y,\qquad N_{\text{ave}}=\frac{\Delta p_y}{\Delta t}+mg.$$
+
+For illustrative stopping times:
+
+- **Hard tile, $$0.0020\s$$:** $$F_{\text{net,ave}}=(9.0\N\cdot\s)/(0.0020\s)=4500\N$$ and $$N_{\text{ave}}=4500\N+(3.0\kg)(9.80\mss)=4529\N$$, approximately $$4.5\text{ kN}$$.
+- **Compliant landing, $$0.020\s$$:** $$F_{\text{net,ave}}=450\N$$ and $$N_{\text{ave}}=450\N+29.4\N=479\N$$, approximately $$0.48\text{ kN}$$.
+
+The **floor-force** impulses differ because gravity acts for different durations: $$N_{\text{ave}}\Delta t=\Delta p_y+mg\Delta t$$ gives $$9.059\N\cdot\s$$ and $$9.588\N\cdot\s$$. The net impulses are both $$9.0\N\cdot\s$$.
+
+![Net upward force versus time: equal-area half-sine pulses deliver the same 9.0 N·s momentum change, with a narrower higher pulse for tile and a broader lower pulse for a compliant landing.](../resources/concept_08_02_q01.svg)
+
+For the symmetric net-force pulses pictured, the average velocity during stopping is $$-1.5\ms$$, so the longer stop involves $$|\Delta y|=(1.5\ms)(0.020\s)=0.030\m$$ of total displacement. This 3 cm includes all compliance in the landing model, not necessarily carpet compression alone. The times illustrate why suitable padding helps; they are not measured specifications for every carpet or child.
+
+Padding reduces collision forces by spreading a given momentum change over more time and stopping displacement; in this example the average floor force falls from about 4.5 kN to 0.48 kN, while the net impulse stays 9.0 N·s.
+
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -248,6 +280,25 @@ floor for a day care center.
 
 While jumping on a trampoline, sometimes you land on your back and other
 times on your feet. In which case can you reach a greater height and why?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The trampoline launches you by storing energy as it stretches. Compare what your body does on landing on your feet and on your back, using energy and the forces you can exert. Take $$ +y $$ upward.
+
+**Solution**
+
+You can reach a greater height when you land on your **feet**. Two effects combine:
+
+1. **You can add energy.** Landing on your feet, you can push down with your legs while the bed is stretched, doing extra work on the trampoline, and straighten your legs as it springs back. The trampoline then stores and returns more energy than you brought in. A $$ 60 \kg $$ jumper whose legs push with an extra $$ 600 \N $$ over the $$ 0.50 \m $$ the bed stretches adds $$ (600 \N)(0.50 \m) = 300 \J $$, enough to rise an extra $$ (300 \J)/[(60 \kg)(9.80 \mss)] = 0.51 \m $$.
+2. **You lose less energy.** Landing on your back, the body is soft and flops, so it deforms and absorbs energy as heat instead of storing it in the springs, and you cannot push. Your legs, held stiff at the right moment, transfer energy to the bed much more effectively.
+
+In terms of impulse: the upward impulse from the bed, $$ F_{\text{ave}}\Delta t $$, determines your takeoff momentum. With your feet, your legs let you increase the force over the contact time, so the upward impulse and the takeoff speed are larger.
+
+You can reach a greater height when you land on your feet, because your legs can push down on the stretched bed to add energy (for example, $$ 300 \J $$, or about $$ 0.5 \m $$ of extra height for a $$ 60 \kg $$ jumper) and increase the upward impulse, while landing on your back you cannot push and your soft body absorbs some of the energy.
 
 :::
 
@@ -262,6 +313,27 @@ times on your feet. In which case can you reach a greater height and why?
 Tennis racquets have “sweet spots.” If the ball hits a sweet spot then the
 player's arm is not jarred as much as it would be otherwise. Explain why this is
 the case.
+
+:::
+
+::: solution
+
+**Strategy**
+
+When the ball hits the racquet, it gives the racquet an impulse. Ask when this impulse makes the handle jerk and when it does not, considering both the racquet's translation and its rotation.
+
+**Solution**
+
+The ball delivers a large impulse to the racquet. For a $$ 0.058 \kg $$ ball arriving at $$ 30 \ms $$ and leaving at $$ 30 \ms $$ the other way, it is $$ (0.058 \kg)(60 \ms) = 3.5 \kg \cdot \ms $$, delivered in about $$ 0.005 \s $$, for an average force of about $$ (3.5 \kg \cdot \ms)/(0.005 \s) = 700 \N $$.
+
+This impulse tends to do two things to a racquet free to move:
+
+1. push the whole racquet backward (translation of its center of mass), and
+2. spin it about its center of mass, which moves the handle **forward**.
+
+For an impact at one particular point, the **sweet spot** (the center of percussion), these two motions cancel at the hand. The backward motion of the center of mass and the forward motion from rotation are equal at the grip, so the handle does not jerk, and the hand feels almost no impulse. For impacts closer to or farther from the hand, one effect wins, and the handle is jolted forward or backward, sending a sharp force of up to hundreds of newtons into the arm. (A second sweet spot reduces vibration: hitting at a node of the frame's main vibration excites little of it.)
+
+The arm is not jarred when the ball hits the sweet spot because, at that point, the impulse's tendency to push the racquet backward and its tendency to rotate the handle forward cancel at the hand, so the handle receives almost none of the roughly $$ 3.5 \kg \cdot \ms $$ impulse (an average force near $$ 700 \N $$).
 
 :::
 
@@ -328,6 +400,12 @@ mass of the passenger is 70 kg.
 **Strategy**
 
 We apply the impulse-momentum theorem. The passenger has initial momentum from moving with the car and must be brought to rest. The seat belt provides the force over the collision time to change the passenger's momentum.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the car was moving. The passenger starts with v_i = +10 m/s; the seat belt pushes on him along −x. After Δt = 0.26 s he is at rest, v_f = 0.](../resources/sketch_08_02_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car was moving. The passenger's velocity goes from $$ +10\ms $$ to $$ 0 $$, so $$ \Delta p $$ is negative, and the seat-belt force on him points along $$ -x $$.
 
 **Solution**
 
@@ -518,6 +596,12 @@ between the car and floor.
 **Strategy**
 
 For part (a), impulse is force times time. For part (b), we apply the impulse-momentum theorem, noting that the force from the wall opposes the car's motion.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points toward the rail, the bumper car’s initial direction of motion. Before: v_i = +2.80 m/s. During the 0.200-s contact the rail pushes on the car with F = 4000 N along −x. After: the velocity v_f is unknown (it turns out negative, away from the rail).](../resources/sketch_08_02_p05.svg){: .sketch}
+
+Take $$ +x $$ toward the rail, the car's initial direction of motion. Then $$ v_i = +2.80\ms $$, and the rail pushes the car along $$ -x $$, so the impulse is $$ J = -800\kg\cdot\ms $$. A negative $$ v_f $$ means the car moves away from the rail.
 
 **Solution**
 
@@ -824,7 +908,7 @@ The average force exerted on the pier is $$ 4.69 \times 10^{5} \N $$ (about 105,
 
 **Discussion**
 
-Despite the relatively slow speed of 0.750 m/s (about 1.5 mph—walking pace), the ship's enormous mass results in a force of nearly half a million newtons! The 16-second stopping time helps reduce this force—if the ship stopped more abruptly (say, in 1 second), the force would be 16 times larger (7.5 million N). This illustrates why docking procedures are so careful and why tugboats are essential for maneuvering large vessels.
+Despite the relatively slow speed of 0.750 m/s (about 1.68 mph—a slow walking pace), the ship's enormous mass results in a force of nearly half a million newtons! The 16-second stopping time helps reduce this force—if the ship stopped more abruptly (say, in 1 second), the force would be 16 times larger (7.5 million N). This illustrates why docking procedures are so careful and why tugboats are essential for maneuvering large vessels.
 
 :::
 
@@ -846,6 +930,12 @@ for $$ 5.50\times 10^{-2}\s $$.
 **Strategy**
 
 We apply the impulse-momentum theorem. The backward force produces a negative impulse that changes the player's momentum. We calculate the impulse and use it to find the change in velocity.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the player’s initial direction of motion, toward the goalpost. Before: v_i = +8.00 m/s. During the collision the post pushes back on him with F = 1.76 × 10⁴ N along −x for 5.50 × 10⁻² s. After: the velocity v_f is unknown.](../resources/sketch_08_02_p10.svg){: .sketch}
+
+Take $$ +x $$ in the player's initial direction of motion, toward the goalpost. Then $$ v_i = +8.00\ms $$ and the backward force from the post is along $$ -x $$, so the impulse $$ J $$ is negative. A negative $$ v_f $$ means the player bounces back.
 
 **Solution**
 
@@ -869,7 +959,7 @@ The final speed of the rugby player is 0.80 m/s, moving backward (away from the 
 
 **Discussion**
 
-The player not only stops but bounces back at 0.80 m/s. The impulse of 968 kg·m/s is larger than the initial momentum of 880 kg·m/s, causing the reversal. The padded goalpost extends the collision time to 55 ms, limiting the force to about 17,600 N—still a substantial 16 times body weight, but survivable due to the padding. Without padding, the collision time would be much shorter and the force could cause serious injury.
+The player not only stops but bounces back at 0.80 m/s. The impulse of 968 kg·m/s is larger than the initial momentum of 880 kg·m/s, causing the reversal. The padded goalpost extends the collision time to 55 ms, limiting the force to about 17,600 N—still a substantial 16 times body weight. This average force alone does not tell us whether the impact is survivable; that depends on how the force is distributed over the body and on its peak value. Without padding, the collision time would be much shorter and the force could cause serious injury.
 
 :::
 
@@ -891,6 +981,12 @@ momentum is reduced to zero.
 **Strategy**
 
 This is a continuous flow problem. We use the rate form of Newton's second law: $$ F = \frac{\Delta p}{\Delta t} = \frac{\Delta m}{\Delta t} \times \Delta v $$. The mass flow rate and velocity change give us the force directly.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points from the hose toward the wall. The water arrives with v_i = +42.0 m/s at 50.0 kg/s and is stopped (v_f = 0). The wall pushes on the water along −x; by Newton’s third law the water pushes on the wall along +x.](../resources/sketch_08_02_p11.svg){: .sketch}
+
+Take $$ +x $$ from the hose toward the wall. Each bit of water goes from $$ v_i = +42.0\ms $$ to $$ v_f = 0 $$, so $$ \Delta v $$ is negative and the wall pushes the water along $$ -x $$. By Newton's third law, the water pushes the wall along $$ +x $$, away from the hose.
 
 **Solution**
 
@@ -1034,6 +1130,12 @@ impulse delivered by the wall?
 
 The impulse equals the change in momentum: $$ \vb{J} = \Delta \vb{p} = \vb{p}_f - \vb{p}_i $$. We need to find the x and y components of momentum before and after the collision, then calculate the change.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the wall and +y up. The ball arrives with v_i = 10 m/s at 60° above +x and leaves with v_f = 10 m/s at 60° above −x. The y-components are equal; the x-component reverses from +5.00 m/s to −5.00 m/s, so the impulse J from the wall points along −x.](../resources/sketch_08_02_p14.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the wall and $$ +y $$ upward, as the problem does. The ball arrives moving up and toward the wall and leaves moving up and away from it, so $$ v_y $$ is unchanged while $$ v_x $$ changes from $$ +5.00\ms $$ to $$ -5.00\ms $$. The impulse from the wall therefore points along $$ -x $$.
+
 **Solution**
 
 Convert mass to kg: $$ m = 55 \text{ g} = 0.055 \kg $$
@@ -1052,13 +1154,13 @@ $$ v_{fy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
 
 Calculate the change in momentum components:
 
-$$ \Delta p_x = m(v_{fx} - v_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
+$$ \Delta p_x = m(v_{fx} - v_{ix}) = (0.055 \kg)(-5.00\ms - 5.00\ms) = -0.55 \kg \cdot \ms $$
 
-$$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
+$$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66\ms - 8.66\ms) = 0 $$
 
 Find the magnitude of the impulse:
 
-$$ J = |\Delta \vb{p}| = \sqrt{(\Delta p_x)^2 + (\Delta p_y)^2} = \sqrt{(-0.55)^2 + 0^2} = 0.55 \kg \cdot \ms $$
+$$ J = |\Delta \vb{p}| = \sqrt{(\Delta p_x)^2 + (\Delta p_y)^2} = \sqrt{(-0.55 \text{kg}\cdot\text{m/s})^2 + 0^2} = 0.55 \kg \cdot \ms $$
 
 The impulse delivered by the wall is 0.55 kg·m/s in the $$ -x $$ direction (perpendicular to the wall, away from the ball's initial approach).
 
@@ -1106,7 +1208,7 @@ The mass of the tennis ball is 60.0 g.
 
 **Discussion**
 
-This result is consistent with official tennis ball specifications, which require balls to have a mass between 56.0 and 59.4 grams. Our calculated value of 60.0 g is very close to this range. The short contact time of 5 ms, combined with the 540 N force, produces an impulse sufficient to accelerate this light ball to serve speeds of 45 m/s (162 km/h or about 100 mph)—a respectable recreational serve.
+Official tennis ball specifications require a mass between 56.0 and 59.4 grams, so our calculated 60.0 g lies just above that range: a reasonable value, given the rounded force and contact time, but not within the specification. The short contact time of 5 ms, combined with the 540 N force, produces an impulse sufficient to accelerate this light ball to serve speeds of 45 m/s (162 km/h or about 100 mph)—a respectable recreational serve.
 
 :::
 
@@ -1128,6 +1230,12 @@ direction)?
 **Strategy**
 
 We need to find the ball's velocity just before impact (using free fall kinematics), then calculate the change in momentum vector from just before to just after the kick.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the kick and +y up. Just before the kick the ball moves straight down at v_i = 4.43 m/s (after falling 1.00 m from rest), so v_iy is negative. Just after, it moves at v_f = 18 m/s at 55° above +x. The impulse J from the foot, of unknown size, points up and forward at an unknown angle θ.](../resources/sketch_08_02_p16.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of the kick and $$ +y $$ upward. Just before the kick the ball falls straight down, so $$ v_{iy} = -4.43\ms $$ and $$ v_{ix} = 0 $$. Just after, both components of $$ \vb{v}_f $$ are positive, so both components of the impulse are positive.
 
 **Solution**
 
@@ -1151,17 +1259,17 @@ $$ p_{fy} = m v_f \sin 55^\circ = (0.075 \kg)(18 \ms)(0.819) = 1.11 \kg \cdot \m
 
 Calculate the impulse components:
 
-$$ J_x = p_{fx} - p_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
+$$ J_x = p_{fx} - p_{ix} = 0.775 \text{kg}\cdot\text{m/s} - 0 = 0.775 \kg \cdot \ms $$
 
-$$ J_y = p_{fy} - p_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
+$$ J_y = p_{fy} - p_{iy} = 1.11 \text{kg}\cdot\text{m/s} - (-0.332 \text{kg}\cdot\text{m/s}) = 1.44 \kg \cdot \ms $$
 
 Find the magnitude and direction:
 
-$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.775)^2 + (1.44)^2} = 1.64 \kg \cdot \ms $$
+$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.7743 \text{kg}\cdot\text{m/s})^2 + (1.4379 \text{kg}\cdot\text{m/s})^2} = 1.63 \kg \cdot \ms $$ (using the unrounded components)
 
-$$ \theta = \tan^{-1}\left(\frac{J_y}{J_x}\right) = \tan^{-1}\left(\frac{1.44}{0.775}\right) = 61.7^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{J_y}{J_x}\right) = \tan^{-1}\left(\frac{1.44 \text{kg}\cdot\text{m/s}}{0.775 \text{kg}\cdot\text{m/s}}\right) = 61.7^\circ $$
 
-The impulse delivered by the foot is 1.64 kg·m/s at 61.7° above the horizontal.
+The impulse delivered by the foot is 1.63 kg·m/s at 61.7° above the horizontal.
 
 **Discussion**
 

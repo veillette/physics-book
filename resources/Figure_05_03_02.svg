@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="650" viewBox="0 0 780 650" role="img" aria-labelledby="title desc">
+<title id="title">Equal loads stretch three strings by different amounts</title>
+<desc id="desc">Strings of the same initial length L₀ support equal weights. Thin nylon stretches most, thicker nylon stretches less, and steel stretches least. The shaded extensions are below a common initial-length reference line. Upward support forces and downward weights have equal magnitude.</desc>
+<rect width="780" height="650" fill="#ffffff"/>
+<rect x="50" y="85" width="680" height="45" fill="#cbd7e4" stroke="#698199" stroke-width="1.5"/>
+<line x1="90" y1="395" x2="700" y2="395" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5"/>
+<text x="190" y="39" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Thin</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">nylon</tspan></text>
+<rect x="186" y="130" width="8" height="265" fill="#c7a43b" stroke="#222222" stroke-width="1"/>
+<rect x="186" y="395" width="8" height="55" fill="#dce5ee" stroke="#222222" stroke-width="1"/>
+<line x1="190" y1="450" x2="190" y2="468" stroke="#333333" stroke-width="1.5"/>
+<circle cx="190" cy="475" r="7" fill="none" stroke="#222222" stroke-width="1.5"/>
+<rect x="156" y="482" width="68" height="55" fill="#b8adb7" stroke="#776d75" stroke-width="1.5"/>
+<line x1="190" y1="130" x2="190" y2="72.7" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="190,60 195.48,73.7 184.52,73.7" fill="#d52350"/>
+<text x="211" y="80.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<line x1="190" y1="537" x2="190" y2="594.3" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="190,607 184.52,593.3 195.48,593.3" fill="#d52350"/>
+<text x="211" y="586.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="410" y="39" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Thicker</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">nylon</tspan></text>
+<rect x="402" y="130" width="16" height="265" fill="#c7a43b" stroke="#222222" stroke-width="1"/>
+<rect x="402" y="395" width="16" height="28" fill="#dce5ee" stroke="#222222" stroke-width="1"/>
+<line x1="410" y1="423" x2="410" y2="441" stroke="#333333" stroke-width="1.5"/>
+<circle cx="410" cy="448" r="7" fill="none" stroke="#222222" stroke-width="1.5"/>
+<rect x="376" y="455" width="68" height="55" fill="#b8adb7" stroke="#776d75" stroke-width="1.5"/>
+<line x1="410" y1="130" x2="410" y2="72.7" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="410,60 415.48,73.7 404.52,73.7" fill="#d52350"/>
+<text x="431" y="80.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<line x1="410" y1="510" x2="410" y2="567.3" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="410,580 404.52,566.3 415.48,566.3" fill="#d52350"/>
+<text x="431" y="559.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="630" y="39" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Steel</tspan></text>
+<rect x="626" y="130" width="8" height="265" fill="#78828b" stroke="#222222" stroke-width="1"/>
+<rect x="626" y="395" width="8" height="7" fill="#dce5ee" stroke="#222222" stroke-width="1"/>
+<line x1="630" y1="402" x2="630" y2="420" stroke="#333333" stroke-width="1.5"/>
+<circle cx="630" cy="427" r="7" fill="none" stroke="#222222" stroke-width="1.5"/>
+<rect x="596" y="434" width="68" height="55" fill="#b8adb7" stroke="#776d75" stroke-width="1.5"/>
+<line x1="630" y1="130" x2="630" y2="72.7" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="630,60 635.48,73.7 624.52,73.7" fill="#d52350"/>
+<text x="651" y="80.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<line x1="630" y1="489" x2="630" y2="546.3" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="630,559 624.52,545.3 635.48,545.3" fill="#d52350"/>
+<text x="651" y="538.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<line x1="104" y1="130" x2="126" y2="130" stroke="#222222" stroke-width="1.5"/>
+<line x1="104" y1="395" x2="126" y2="395" stroke="#222222" stroke-width="1.5"/>
+<line x1="115" y1="142" x2="115" y2="383" stroke="#222222" stroke-width="1.5"/>
+<polygon points="115,394 110.2,382 119.8,382" fill="#222222"/>
+<polygon points="115,131 119.8,143 110.2,143" fill="#222222"/>
+<text x="115" y="270.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="104" y1="395" x2="126" y2="395" stroke="#222222" stroke-width="1.5"/>
+<line x1="104" y1="450" x2="126" y2="450" stroke="#222222" stroke-width="1.5"/>
+<line x1="115" y1="407" x2="115" y2="438" stroke="#222222" stroke-width="1.5"/>
+<polygon points="115,449 110.2,437 119.8,437" fill="#222222"/>
+<polygon points="115,396 119.8,408 110.2,408" fill="#222222"/>
+<text x="115" y="430.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">L</tspan></text>
+</svg>

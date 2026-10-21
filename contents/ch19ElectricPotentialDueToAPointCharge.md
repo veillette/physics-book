@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* Explain point charges and express the equation for electric potential of a point charge.
-* Distinguish between electric potential and electric field.
-* Determine the electric potential of a point charge given charge and distance.
+- Explain point charges and express the equation for electric potential of a point charge.
+- Distinguish between electric potential and electric field.
+- Determine the electric potential of a point charge given charge and distance.
 
 :::
 
@@ -33,7 +34,7 @@ where _k_ is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·} {\text{
 Electric Potential  $$V $$ of a Point Charge
 </div>
 
-The electric potential  $$V $$  of a point charge is given by
+The electric potential $$V $$ of a point charge is given by
 
 <div class="equation" >
  $$V=\frac{kQ}{r} \left(\text{Point Charge}\right). $$
@@ -63,10 +64,10 @@ $$\vb{E} $$ is closely associated with force, a vector.
 What Voltage Is Produced by a Small Charge on a Metal Sphere?
 </div>
 
-Charges in static electricity are typically in the nanocoulomb  $$\left(\text{nC}\right) $$
- to microcoulomb  $$\left(\text{µC}\right) $$
- range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a  $$-3.00 \text{nC} $$
- static charge?
+Charges in static electricity are typically in the nanocoulomb $$\left(\text{nC}\right) $$
+to microcoulomb $$\left(\text{µC}\right) $$
+range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a $$-3.00 \text{nC} $$
+static charge?
 
 **Strategy**
 
@@ -158,6 +159,22 @@ In what region of space is the potential due to a uniformly charged sphere the s
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use spherical symmetry outside the sphere and compare the interior fields.
+
+**Solution**
+
+For a spherically symmetric sphere of radius $$R$$ and total charge $$Q$$, choosing zero at infinity gives $$V=kQ/r$$ for $$r\ge R$$, identical to a point charge at its center. Inside a uniformly charged solid insulating sphere, $$V=kQ(3-r^2/R^2)/(2R)$$, which remains finite. Inside a charged conducting sphere or spherical shell, $$V=kQ/R$$ is constant.
+
+**Discussion**
+
+The word “sphere” can mean a solid charge distribution or a charged surface, but both have the point-charge potential outside and a different, finite potential inside.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -165,6 +182,22 @@ In what region of space is the potential due to a uniformly charged sphere the s
 ::: problem
 
 Can the potential of a non-uniformly charged sphere be the same as that of a point charge? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish nonuniform radial density from a nonspherical charge pattern.
+
+**Solution**
+
+Yes. A sphere can have charge density that varies with radius while remaining spherically symmetric. Its external potential is still $$V=kQ/r$$, because the external field depends only on its total enclosed charge. Its interior potential generally differs from a point charge. A charge distribution that varies with angle is not generally equivalent to a central point charge outside, because additional multipole terms can remain.
+
+**Discussion**
+
+Nonuniform charge density therefore can give the same external potential as a point charge when spherical symmetry is preserved; nonuniformity alone does not decide the answer.
 
 :::
 
@@ -188,7 +221,8 @@ For a uniformly charged sphere, the electric potential at or outside its surface
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Diameter: $$d = 0.500 \text{ cm}$$, so radius $$r = 0.250 \text{ cm} = 2.50 \times 10^{-3} \text{ m}$$
 - Charge: $$Q = 40.0 \text{ pC} = 40.0 \times 10^{-12} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -213,8 +247,8 @@ This is a modest voltage that is easily achieved in static electricity demonstra
 
 ::: problem
 
-What is the potential  $$ 0.530 \times 10^{-10} \text{m} $$
- from a proton (the average distance between the proton and electron in a hydrogen atom)?
+What is the potential $$ 0.530 \times 10^{-10} \text{m} $$
+from a proton (the average distance between the proton and electron in a hydrogen atom)?
 
 :::
 
@@ -226,7 +260,8 @@ Use the point charge potential formula $$V = kQ/r$$ with the proton charge and t
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Distance: $$r = 0.530 \times 10^{-10} \text{ m} = 5.30 \times 10^{-11} \text{ m}$$ (Bohr radius)
 - Proton charge: $$Q = +e = 1.60 \times 10^{-19} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -263,7 +298,8 @@ Use the point charge potential formula $$V = kQ/r$$ and solve for distance $$r$$
 
 **(a) Distance calculation:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$Q = 1.00 \text{ C}$$
 - Potential: $$V = 5.00 \text{ MV} = 5.00 \times 10^{6} \text{ V}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -272,25 +308,35 @@ Solving $$V = kQ/r$$ for $$r$$:
 
 $$r = \frac{kQ}{V} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \text{ C})}{5.00 \times 10^{6} \text{ V}}$$
 
-$$r = \frac{8.99 \times 10^{9} \text{ m}}{5.00 \times 10^{6}} = 1.80 \times 10^{3} \text{ m} = 1.80 \text{ km}$$
+$$r = \frac{8.99 \times 10^{9} \text{ V·m}}{5.00 \times 10^{6} \text{ V}} = 1.80 \times 10^{3} \text{ m} = 1.80 \text{ km}$$
 
 **(b) Practical implications:**
 
-A sphere of radius 1.80 km would be about 3.6 km (over 2 miles) in diameter! This is larger than many cities. The implications are:
+Even 1.80 km from the center of the sphere, the potential is still 5.00 MV, and it is higher everywhere closer in, including on the sphere's own surface if the sphere is smaller than 1.80 km. What actually limits the charge an isolated object can hold is the electric field at its surface. If that field exceeds the breakdown strength of the surrounding air, about $$E_{\text{max}} = 3 \times 10^{6} \text{ V/m}$$, the air conducts and the charge leaks away. For a sphere of radius $$R$$, the surface field is $$E = kQ/R^2$$, so holding $$Q = 1.00 \text{ C}$$ requires
 
-1. **One coulomb is an enormous charge:** To maintain even a modest potential (5 MV is achievable in laboratories), you would need an impossibly large sphere.
+<div class="equation">
+$$R \geq \sqrt{\frac{kQ}{E_{\text{max}}}} = \sqrt{\frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \text{ C})}{3 \times 10^{6} \text{ V/m}}} = 54.7 \text{ m}$$
+</div>
 
-2. **Charge limitations:** Real objects can only hold microcoulombs or less. A Van de Graaff generator, one of the highest-voltage laboratory devices, might hold microcoulombs on a meter-scale sphere.
+The surface of such a sphere would be at a potential of
 
-3. **Breakdown limitations:** Even if you could build such a sphere, the electric field near its surface would be $$E = V/r = 5 \times 10^6/1800 \approx 2800$$ V/m, which is very weak. However, storing 1 C would require starting at an impossibly small sphere that would immediately discharge.
+<div class="equation">
+$$V = \frac{kQ}{R} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \text{ C})}{54.7 \text{ m}} = 1.64 \times 10^{8} \text{ V} = 164 \text{ MV}$$
+</div>
+
+The implications are:
+
+1. **One coulomb is an enormous static charge:** Isolating it in air is not forbidden by physics, but it would require a conducting sphere more than 100 m across. At that minimum size its potential would be about 164 MV; a larger sphere would have a lower potential and a weaker surface field, but would be larger still. Either way, it is far beyond any laboratory device.
+
+2. **Typical laboratory charges are much smaller:** By the same breakdown limit, a Van de Graaff sphere of radius 0.20 m can hold at most about $$(3 \times 10^{6} \text{ V/m})(0.20 \text{ m})^2/(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2) \approx 13 \text{ μC}$$, and in practice usually holds less. Since the maximum charge grows as $$R^2$$, large charges need very large objects.
 
 **Discussion**
 
-This problem illustrates why the coulomb is such a large unit of charge for electrostatics. Lightning, which involves millions of volts, transfers only about 20-350 coulombs total (in pulses), and this causes massive destruction. One coulomb of isolated, static charge is essentially impossible to achieve.
+This problem illustrates why the coulomb is such a large unit of charge for electrostatics. A lightning stroke transfers tens of coulombs, but that charge is spread through a thundercloud kilometers across, not stored on a compact object. The practical limit on stored charge is set by the size of the object and the breakdown strength of the surrounding medium.
 
 **(a) The distance is 1.80 km from the center of the sphere.**
 
-**(b) Isolating 1.00 C of charge is impractical because it would require a sphere nearly 2 km in radius just to limit the potential to 5 MV. One coulomb is a vastly larger charge than can realistically be accumulated in static electricity situations.**
+**(b) Isolating 1.00 C is impractical: the potential is still 5.00 MV at 1.80 km, and to keep the surface field below the breakdown strength of air the charged sphere would need a radius of at least about 55 m, at which size its surface potential would be about 164 MV. Typical laboratory static charges, such as those on a Van de Graaff sphere, are microcoulombs to tens of microcoulombs.**
 
 :::
 
@@ -300,8 +346,8 @@ This problem illustrates why the coulomb is such a large unit of charge for elec
 
 ::: problem
 
-How far from a  $$1.00 \text{µC} $$
- point charge will the potential be 100 V? At what distance will it be  $$ 2.00 \times 10^{2}  \text{V}$$ ?
+How far from a $$1.00 \text{µC} $$
+point charge will the potential be 100 V? At what distance will it be $$ 2.00 \times 10^{2}  \text{V}$$ ?
 
 :::
 
@@ -313,7 +359,8 @@ Use $$V = kQ/r$$ and solve for $$r$$ at each potential value.
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$Q = 1.00 \text{ µC} = 1.00 \times 10^{-6} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
 
@@ -323,11 +370,11 @@ $$r = \frac{kQ}{V}$$
 
 **For V = 100 V:**
 
-$$r = \frac{(8.99 \times 10^{9})(1.00 \times 10^{-6})}{100} = \frac{8990}{100} = 89.9 \text{ m}$$
+$$r = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C})}{100 \text{ V}} = \frac{8990 \text{ V·m}}{100 \text{ V}} = 89.9 \text{ m}$$
 
 **For V = 200 V:**
 
-$$r = \frac{(8.99 \times 10^{9})(1.00 \times 10^{-6})}{200} = \frac{8990}{200} = 45.0 \text{ m}$$
+$$r = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C})}{200 \text{ V}} = \frac{8990 \text{ V·m}}{200 \text{ V}} = 45.0 \text{ m}$$
 
 **Discussion**
 
@@ -343,8 +390,8 @@ Notice that doubling the potential halves the distance. This inverse relationshi
 
 ::: problem
 
-What are the sign and magnitude of a point charge that produces a potential of  $$-2.00 \text{V} $$
- at a distance of 1.00 mm?
+What are the sign and magnitude of a point charge that produces a potential of $$-2.00 \text{V} $$
+at a distance of 1.00 mm?
 
 :::
 
@@ -356,7 +403,8 @@ The negative potential indicates a negative charge. Use $$V = kQ/r$$ and solve f
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Potential: $$V = -2.00 \text{ V}$$
 - Distance: $$r = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -377,8 +425,8 @@ The charge is negative (as expected from the negative potential) and very small�
 
 ::: problem
 
-If the potential due to a point charge is  $$ 5.00 \times 10^{2}  \text{V} $$
- at a distance of 15.0 m, what are the sign and magnitude of the charge?
+If the potential due to a point charge is $$ 5.00 \times 10^{2}  \text{V} $$
+at a distance of 15.0 m, what are the sign and magnitude of the charge?
 
 :::
 
@@ -390,12 +438,13 @@ Use $$V = kQ/r$$ and solve for $$Q$$. The positive potential indicates a positiv
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Potential: $$V = 500 \text{ V}$$
 - Distance: $$r = 15.0 \text{ m}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
 
-$$Q = \frac{Vr}{k} = \frac{(500 \text{ V})(15.0 \text{ m})}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = \frac{7500}{8.99 \times 10^{9}} = 8.34 \times 10^{-7} \text{ C}$$
+$$Q = \frac{Vr}{k} = \frac{(500 \text{ V})(15.0 \text{ m})}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = \frac{7500 \text{ V·m}}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = 8.34 \times 10^{-7} \text{ C}$$
 
 $$Q = +0.834 \text{ µC}$$
 
@@ -413,8 +462,8 @@ The charge is positive (matching the positive potential) and is about 0.83 micro
 
 ::: problem
 
-In nuclear fission, a nucleus splits roughly in half. (a) What is the potential  $$ 2.00 \times 10^{-14} \text{m} $$
- from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?
+In nuclear fission, a nucleus splits roughly in half. (a) What is the potential $$ 2.00 \times 10^{-14} \text{m} $$
+from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?
 
 :::
 
@@ -426,7 +475,8 @@ The fission fragment with 46 protons has a charge of $$+46e$$. Use $$V = kQ/r$$ 
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Number of protons: $$Z = 46$$
 - Charge of fragment: $$Q = 46e = 46(1.60 \times 10^{-19} \text{ C}) = 7.36 \times 10^{-18} \text{ C}$$
 - Distance: $$r = 2.00 \times 10^{-14} \text{ m}$$
@@ -434,9 +484,9 @@ The fission fragment with 46 protons has a charge of $$+46e$$. Use $$V = kQ/r$$ 
 
 **(a) Electric potential:**
 
-$$V = \frac{kQ}{r} = \frac{(8.99 \times 10^{9})(7.36 \times 10^{-18})}{2.00 \times 10^{-14}}$$
+$$V = \frac{kQ}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(7.36 \times 10^{-18} \text{ C})}{2.00 \times 10^{-14} \text{ m}}$$
 
-$$V = \frac{6.62 \times 10^{-8}}{2.00 \times 10^{-14}} = 3.31 \times 10^{6} \text{ V} = 3.31 \text{ MV}$$
+$$V = \frac{6.62 \times 10^{-8} \text{ V·m}}{2.00 \times 10^{-14} \text{ m}} = 3.31 \times 10^{6} \text{ V} = 3.31 \text{ MV}$$
 
 **(b) Potential energy:**
 
@@ -470,11 +520,11 @@ A research Van de Graaff generator has a 2.00-m-diameter metal sphere with a cha
 
 **(a)** The sphere has radius $$R=1.00\ \text{m}$$, so
 
-$$V_s=\frac{kQ}{R}=\frac{(8.99\times10^9)(5.00\times10^{-3})}{1.00}=4.50\times10^7\ \text{V}=45.0\ \text{MV}.$$
+$$V_s=\frac{kQ}{R}=\frac{(8.99\times10^9\ \text{N·m}^2/\text{C}^2)(5.00\times10^{-3}\ \text{C})}{1.00\ \text{m}}=4.50\times10^7\ \text{V}=45.0\ \text{MV}.$$
 
 **(b)**
 
-$$r=\frac{kQ}{V}=\frac{(8.99\times10^9)(5.00\times10^{-3})}{1.00\times10^6}=45.0\ \text{m}.$$
+$$r=\frac{kQ}{V}=\frac{(8.99\times10^9\ \text{N·m}^2/\text{C}^2)(5.00\times10^{-3}\ \text{C})}{1.00\times10^6\ \text{V}}=45.0\ \text{m}.$$
 
 **(c)** Released from rest near the surface, the $$\mathrm{O}^{3+}$$ ion gains kinetic energy as its electric potential energy decreases:
 
@@ -503,15 +553,17 @@ For part (a), use $$V = kQ/r$$ to find the charge on the sphere. For part (b), u
 
 **(a) Charge on the sphere:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Diameter: $$d = 0.200 \text{ m}$$, radius $$r = 0.100 \text{ m}$$
 - Potential: $$V = 25.0 \text{ kV} = 2.50 \times 10^{4} \text{ V}$$
 
-$$Q = \frac{Vr}{k} = \frac{(2.50 \times 10^{4})(0.100)}{8.99 \times 10^{9}} = 2.78 \times 10^{-7} \text{ C}$$
+$$Q = \frac{Vr}{k} = \frac{(2.50 \times 10^{4} \text{ V})(0.100 \text{ m})}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = 2.78 \times 10^{-7} \text{ C}$$
 
 **(b) Charge on paint droplet:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Mass of droplet: $$m = 0.100 \text{ mg} = 1.00 \times 10^{-7} \text{ kg}$$
 - Final speed: $$v = 10.0 \text{ m/s}$$
 
@@ -519,7 +571,7 @@ The droplet starts at the sphere's potential and ends at ground (0 V). Using ene
 
 $$q \cdot V = \frac{1}{2}mv^{2}$$
 
-$$q = \frac{mv^{2}}{2V} = \frac{(1.00 \times 10^{-7})(10.0)^2}{2(2.50 \times 10^{4})} = \frac{1.00 \times 10^{-5}}{5.00 \times 10^{4}} = 2.00 \times 10^{-10} \text{ C}$$
+$$q = \frac{mv^{2}}{2V} = \frac{(1.00 \times 10^{-7} \text{ kg})(10.0 \text{ m/s})^2}{2(2.50 \times 10^{4} \text{ V})} = \frac{1.00 \times 10^{-5} \text{ J}}{5.00 \times 10^{4} \text{ V}} = 2.00 \times 10^{-10} \text{ C}$$
 
 **Discussion**
 
@@ -549,7 +601,8 @@ This is Rutherford's famous gold foil experiment. At the distance of closest app
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Alpha particle charge: $$q_\alpha = 2e = 3.20 \times 10^{-19} \text{ C}$$
 - Gold nucleus charge: $$Q_{Au} = 79e = 1.264 \times 10^{-17} \text{ C}$$
 - Initial kinetic energy: $$\text{KE} = 5.00 \text{ MeV} = 5.00 \times 10^{6} \text{ eV} = 8.00 \times 10^{-13} \text{ J}$$
@@ -558,9 +611,9 @@ At closest approach:
 
 $$\text{KE} = \frac{kq_\alpha Q_{Au}}{r_{\text{min}}}$$
 
-$$r_{\text{min}} = \frac{kq_\alpha Q_{Au}}{\text{KE}} = \frac{(8.99 \times 10^{9})(3.20 \times 10^{-19})(1.264 \times 10^{-17})}{8.00 \times 10^{-13}}$$
+$$r_{\text{min}} = \frac{kq_\alpha Q_{Au}}{\text{KE}} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(3.20 \times 10^{-19} \text{ C})(1.264 \times 10^{-17} \text{ C})}{8.00 \times 10^{-13} \text{ J}}$$
 
-$$r_{\text{min}} = \frac{3.64 \times 10^{-26}}{8.00 \times 10^{-13}} = 4.55 \times 10^{-14} \text{ m} = 45.5 \text{ fm}$$
+$$r_{\text{min}} = \frac{3.64 \times 10^{-26} \text{ J·m}}{8.00 \times 10^{-13} \text{ J}} = 4.55 \times 10^{-14} \text{ m} = 45.5 \text{ fm}$$
 
 **Discussion**
 
@@ -576,8 +629,8 @@ This distance (about 45 femtometers) is larger than the gold nucleus radius (~7 
 
 ::: problem
 
-(a) What is the potential between two points situated 10 cm and 20 cm from a  $$ 3.0 µC $$
- point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?
+(a) What is the potential between two points situated 10 cm and 20 cm from a $$ 3.0 µC $$
+point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?
 
 :::
 
@@ -591,28 +644,29 @@ The potential difference between two points is $$\Delta V = V_1 - V_2 = kQ(1/r_1
 
 **(a) Potential difference:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$Q = 3.0 \text{ µC} = 3.0 \times 10^{-6} \text{ C}$$
 - $$r_1 = 10 \text{ cm} = 0.10 \text{ m}$$
 - $$r_2 = 20 \text{ cm} = 0.20 \text{ m}$$
 
-$$\Delta V = kQ\left(\frac{1}{r_1} - \frac{1}{r_2}\right) = (8.99 \times 10^{9})(3.0 \times 10^{-6})\left(\frac{1}{0.10} - \frac{1}{0.20}\right)$$
+$$\Delta V = kQ\left(\frac{1}{r_1} - \frac{1}{r_2}\right) = (8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(3.0 \times 10^{-6} \text{ C})\left(\frac{1}{0.10 \text{ m}} - \frac{1}{0.20 \text{ m}}\right)$$
 
-$$\Delta V = (2.70 \times 10^{4})(10 - 5) = (2.70 \times 10^{4})(5) = 1.35 \times 10^{5} \text{ V} = 135 \text{ kV}$$
+$$\Delta V = (2.70 \times 10^{4} \text{ V·m})(10 \text{ m}^{-1} - 5 \text{ m}^{-1}) = (2.70 \times 10^{4} \text{ V·m})(5 \text{ m}^{-1}) = 1.35 \times 10^{5} \text{ V} = 135 \text{ kV}$$
 
 **(b) New location for doubled potential difference:**
 
-We want $$\Delta V' = 2 \times 135 = 270 \text{ kV}$$
+We want $$\Delta V' = 2 \times 135 \text{ kV} = 270 \text{ kV}$$
 
-$$270 \times 10^{3} = (8.99 \times 10^{9})(3.0 \times 10^{-6})\left(\frac{1}{0.10} - \frac{1}{r_2'}\right)$$
+$$270 \times 10^{3} \text{ V} = (8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(3.0 \times 10^{-6} \text{ C})\left(\frac{1}{0.10 \text{ m}} - \frac{1}{r_2'}\right)$$
 
-$$270 \times 10^{3} = (2.70 \times 10^{4})\left(10 - \frac{1}{r_2'}\right)$$
+$$270 \times 10^{3} \text{ V} = (2.70 \times 10^{4} \text{ V·m})\left(10 \text{ m}^{-1} - \frac{1}{r_2'}\right)$$
 
-$$10 = 10 - \frac{1}{r_2'}$$
+$$10 \text{ m}^{-1} = 10 \text{ m}^{-1} - \frac{1}{r_2'}$$
 
 This gives $$\frac{1}{r_2'} = 0$$, meaning $$r_2' \rightarrow \infty$$. Check: with the outer point at infinity,
 
-$$\Delta V = (2.70 \times 10^{4})(10 - 0) = 270 \text{ kV}$$ ✓
+$$\Delta V = (2.70 \times 10^{4} \text{ V·m})(10 \text{ m}^{-1} - 0) = 270 \text{ kV}$$ ✓
 
 **Discussion**
 
@@ -651,7 +705,8 @@ This is an "Unreasonable Results" problem. We'll perform the classical (non-rela
 
 **(a) Classical calculation of electron speed:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Voltage: $$V = 25.0 \text{ MV} = 2.50 \times 10^{7} \text{ V}$$
 - Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
 - Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
@@ -660,9 +715,9 @@ Using energy conservation (classical):
 
 $$\frac{1}{2}m_e v^2 = eV$$
 
-$$v = \sqrt{\frac{2eV}{m_e}} = \sqrt{\frac{2(1.60 \times 10^{-19})(2.50 \times 10^{7})}{9.11 \times 10^{-31}}}$$
+$$v = \sqrt{\frac{2eV}{m_e}} = \sqrt{\frac{2(1.60 \times 10^{-19} \text{ C})(2.50 \times 10^{7} \text{ V})}{9.11 \times 10^{-31} \text{ kg}}}$$
 
-$$v = \sqrt{\frac{8.00 \times 10^{-12}}{9.11 \times 10^{-31}}} = \sqrt{8.78 \times 10^{18}} = 2.96 \times 10^{9} \text{ m/s}$$
+$$v = \sqrt{\frac{8.00 \times 10^{-12} \text{ J}}{9.11 \times 10^{-31} \text{ kg}}} = \sqrt{8.78 \times 10^{18} \text{ m}^2/\text{s}^2} = 2.96 \times 10^{9} \text{ m/s}$$
 
 **(b) What is unreasonable:**
 
@@ -671,10 +726,12 @@ This calculated velocity is about **10 times the speed of light** ($$c = 3.00 \t
 **(c) Which assumptions are responsible:**
 
 The unreasonable assumption is using **classical (Newtonian) mechanics** for a highly relativistic situation. Classical mechanics assumes:
+
 - Kinetic energy = $$\frac{1}{2}mv^{2}$$
 - Mass is constant
 
 For electrons accelerated through 25 MV, the kinetic energy (25 MeV) is about 50 times the electron's rest mass energy (0.511 MeV). At such high energies, relativistic effects dominate:
+
 - The electron's mass effectively increases
 - The kinetic energy formula becomes $$KE = (\gamma - 1)m_0c^2$$
 - The actual speed approaches but never reaches $$c$$

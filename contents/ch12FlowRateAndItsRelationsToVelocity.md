@@ -23,7 +23,7 @@ In symbols, this can be written as
 
 where $$V $$ is the volume and $$t $$ is the elapsed time.
 
-![The figure shows a fluid flowing through a cylindrical pipe open at both ends. A portion of the cylindrical pipe with the fluid is shaded for a length d. The velocity of the fluid in the shaded region is shown by v toward the right. The cross sections of the shaded cylinder are marked as A. This cylinder of fluid flows past a point P on the cylindrical pipe. The velocity v is equal to d over t.](../resources/Figure_12_01_01.jpg 'Flow rate is the volume of fluid per unit time flowing past a point through the area (A) . Here the shaded cylinder of fluid flows past point (P)  in a uniform pipe in time (t) . The volume of the cylinder is  (Ad)  and the average velocity is  ( \\bar{v}=d/t ) so that the flow rate is  ( Q=Ad/t=A\\bar{v} ) .)')
+![The figure shows a fluid flowing through a cylindrical pipe open at both ends. A portion of the cylindrical pipe with the fluid is shaded for a length d. The velocity of the fluid in the shaded region is shown by v toward the right. The cross sections of the shaded cylinder are marked as A. This cylinder of fluid flows past a point P on the cylindrical pipe. The velocity v is equal to d over t.](/resources/Figure_12_01_01.svg 'Flow rate is the volume of fluid per unit time flowing past a point through the area (A) . Here the shaded cylinder of fluid flows past point (P)  in a uniform pipe in time (t) . The volume of the cylinder is  (Ad)  and the average velocity is  ( \\bar{v}=d/t ) so that the flow rate is  ( Q=Ad/t=A\\bar{v} ) .)')
 {: #Figure1}
 
 The SI unit for flow rate is $${\text{m}}^{3}\text{/s} $$ , but a number of
@@ -120,7 +120,7 @@ leaves the other end of the reservoir. In other words, speed increases when
 cross-sectional area decreases, and speed decreases when cross-sectional area
 increases.
 
-![The figure shows a cylindrical tube broad at the left and narrow at the right. The fluid is shown to flow through the cylindrical tube toward right along the axis of the tube. A shaded area is marked on the broader cylinder on the left. A cross section is marked on it as A one. A point one is marked on this cross section. The velocity of the fluid through the shaded area on narrow tube is marked by v one as an arrow toward right. Another shaded area is marked on the narrow cylindrical on the right. The shaded area on narrow tube is longer than the one on broader tube to show that when a tube narrows, the same volume occupies a greater length. A cross section is marked on the narrow cylindrical tube as A two. A point two is marked on this cross section. The velocity of fluid through the shaded area on narrow tube is marked v two toward right. The arrow depicting v two is longer than for v one showing v two to be greater in value than v one.](../resources/Figure_12_01_02.jpg 'When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed will decrease when the tube widens. (Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)')
+![The figure shows a cylindrical tube broad at the left and narrow at the right. The fluid is shown to flow through the cylindrical tube toward right along the axis of the tube. A shaded area is marked on the broader cylinder on the left. A cross section is marked on it as A one. A point one is marked on this cross section. The velocity of the fluid through the shaded area on narrow tube is marked by v one as an arrow toward right. Another shaded area is marked on the narrow cylindrical on the right. The shaded area on narrow tube is longer than the one on broader tube to show that when a tube narrows, the same volume occupies a greater length. A cross section is marked on the narrow cylindrical tube as A two. A point two is marked on this cross section. The velocity of fluid through the shaded area on narrow tube is marked v two toward right. The arrow depicting v two is longer than for v one showing v two to be greater in value than v one.](/resources/Figure_12_01_02.svg 'When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed will decrease when the tube widens. (Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)')
 {: #Figure2}
 
 Since liquids are essentially incompressible, the equation of continuity is
@@ -600,7 +600,7 @@ Solving for the velocity ratio:
 $$\frac{v_2}{v_1} = \frac{A_1}{A_{\text{total}}} = \frac{1.00 \text{ cm}^2}{7.20 \text{ cm}^2} = 0.139$$
 
 The reduction factor is:
-$$\frac{v_1}{v_2} = \frac{7.20}{1.00} = 7.20$$
+$$\frac{v_1}{v_2} = \frac{7.20 \text{ cm}^2}{1.00 \text{ cm}^2} = 7.20$$
 
 **Discussion**
 
@@ -980,7 +980,7 @@ $$Q = A_1 v_1 = (2.54 \text{ cm}^2)(50.0 \text{ cm/s}) = 127 \text{ cm}^3/\text{
 **(b)** Find the velocity after falling 0.200 m using kinematics:
 $$v_2^2 = v_1^2 + 2gh$$
 $$v_2^2 = (0.500 \text{ m/s})^2 + 2(9.80 \text{ m/s}^2)(0.200 \text{ m})$$
-$$v_2^2 = 0.250 + 3.92 = 4.17 \text{ m}^2/\text{s}^2$$
+$$v_2^2 = 0.250 \text{ m}^2/\text{s}^2 + 3.92 \text{ m}^2/\text{s}^2 = 4.17 \text{ m}^2/\text{s}^2$$
 $$v_2 = 2.04 \text{ m/s}$$
 
 Apply continuity to find the new area:
@@ -1014,9 +1014,9 @@ about the premises?
 
 ::: solution
 
-**(a)** The cross-sectional area is $$A=(10.0)(2.00)=20.0\ \text{m}^2$$, so
+**(a)** The cross-sectional area is $$A=(10.0\ \text{m})(2.00\ \text{m})=20.0\ \text{m}^2$$, so
 
-$$v=\frac{Q}{A}=\frac{100\,000}{20.0}=5.00\times10^3\ \text{m/s}.$$
+$$v=\frac{Q}{A}=\frac{100\,000\ \text{m}^3/\text{s}}{20.0\ \text{m}^2}=5.00\times10^3\ \text{m/s}.$$
 
 **(b)** This speed is supersonic in both air and water. The corresponding dynamic pressure scale is $$\tfrac12\rho v^2\approx1.25\times10^{10}\ \text{Pa}$$, far beyond what could drive an ordinary stream.
 

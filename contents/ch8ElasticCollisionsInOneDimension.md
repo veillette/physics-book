@@ -55,7 +55,7 @@ the system.
 
 ::::
 
-![The system of interest contains a smaller mass m sub1 and a larger mass m sub2 moving on a frictionless surface. M sub 2 moves with velocity V sub 2 and momentum p sub 2 and m sub 1 moves behind m sub 2, with velocity V sub 1 and momentum p sub 1 toward the right direction. P 1 plus P 2 equals p total. The net force is zero. After collision m sub 1 moves toward the left with velocity V sub 1 while m sub 2 moves toward the right with velocity V sub 2 on the same frictionless surface. The momentum of m sub 1 becomes p 1 prime and m 2 becomes p 2 prime now. P 1 prime plus p 2 prime equals p total.](../resources/Figure_08_04_01.jpg 'An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.')
+![The system of interest contains a smaller mass m sub1 and a larger mass m sub2 moving on a frictionless surface. M sub 2 moves with velocity V sub 2 and momentum p sub 2 and m sub 1 moves behind m sub 2, with velocity V sub 1 and momentum p sub 1 toward the right direction. P 1 plus P 2 equals p total. The net force is zero. After collision m sub 1 moves toward the left with velocity V sub 1 while m sub 2 moves toward the right with velocity V sub 2 on the same frictionless surface. The momentum of m sub 1 becomes p 1 prime and m 2 becomes p 2 prime now. P 1 prime plus p 2 prime equals p total.](../resources/Figure_08_04_01.svg 'An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.')
 {: #Figure1}
 
 Now, to solve problems involving one-dimensional elastic collisions between two
@@ -84,7 +84,7 @@ energies before the collision equals the sum after the collision. Thus,
 expresses the equation for conservation of internal kinetic energy in a
 one-dimensional collision.
 
-:::: example
+:::: example {"class":"example","id":"elastic-collision"}
 
 <div class="title">
 Calculating Velocities Following an Elastic Collision
@@ -93,6 +93,7 @@ Calculating Velocities Following an Elastic Collision
 Calculate the velocities of two objects following an elastic collision, given that
 
 <div class="equation">
+ <!-- physics: eq-0 -->
  $$ m_{1}=0.500 \kg , m_{2}=3.50 \kg , v_{1}=4.00 \ms, \text{ and } v_{2}=0. $$
 </div>
 
@@ -147,6 +148,7 @@ this example, they are
 and
 
 <div class="equation">
+ <!-- physics: eq-14 -->
  $$ v^{\prime}_{1}=-3.00 \ms . $$
 </div>
 
@@ -157,12 +159,13 @@ value of $$ v^{\prime}_{1} $$ is used to find the velocity of the second object
 after the collision, we get
 
 <div class="equation">
- $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right)=\frac{0.500 \kg }{3.50 \kg }\left[4.00-\left(-3.00\right)\right] \ms $$
+ $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right)=\frac{0.500 \kg }{3.50 \kg }\left[4.00\ms-\left(-3.00\ms\right)\right] $$
 </div>
 
 or
 
 <div class="equation">
+ <!-- physics: eq-18 -->
  $$ v^{\prime}_{2}=1.00 \ms . $$
 </div>
 
@@ -228,6 +231,32 @@ What is an elastic collision?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+State the definition, then check it with a one-dimensional example in which both momentum and kinetic energy are conserved.
+
+**Solution**
+
+An **elastic collision** is one in which the **internal kinetic energy is conserved**: the total kinetic energy of the objects is the same after the collision as before. Momentum is also conserved, as in any collision of an isolated system. No kinetic energy is converted into thermal energy, sound, or permanent deformation.
+
+For example, a $$ 1.0 \kg $$ cart moving at $$ +2.0 \ms $$ hits an identical cart at rest, with frictionless magnetic bumpers. Take $$ +x $$ in the direction of the first cart's motion. Afterward the first cart stops and the second moves at $$ +2.0 \ms $$:
+
+<div class="equation">
+$$ p: \quad (1.0 \kg)(2.0 \ms) = (1.0 \kg)(0 \ms) + (1.0 \kg)(2.0 \ms) = 2.0 \kg \cdot \ms $$
+</div>
+
+<div class="equation">
+$$ \KE: \quad \tfrac{1}{2}(1.0 \kg)(2.0 \ms)^2 = 2.0 \J \text{ before and after} $$
+</div>
+
+Collisions of billiard balls, steel ball bearings, and air-track carts with spring or magnetic bumpers are nearly elastic. Collisions between atoms and molecules in a gas are often perfectly elastic.
+
+An elastic collision is one in which the total internal kinetic energy is conserved, along with momentum (for example, $$ 2.0 \J $$ and $$ 2.0 \kg \cdot \ms $$ before and after two identical carts collide and exchange velocities).
+
+::::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -245,6 +274,12 @@ Two identical objects (such as billiard balls) have a one-dimensional collision 
 **Strategy**
 
 We need to verify that the total momentum before equals the total momentum after, and that the total kinetic energy before equals the total kinetic energy after.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction object 1 moves. Before: object 1 (mass m) moves at +v and object 2 (mass m) is at rest. After: object 1 is at rest and object 2 moves at +v.](../resources/sketch_08_04_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction object 1 moves. Before the collision, $$ v_1 = +v $$ and $$ v_2 = 0 $$; after it, $$ v'_1 = 0 $$ and $$ v'_2 = +v $$.
 
 **Solution**
 
@@ -301,6 +336,12 @@ elastically rather than dock, what is their final relative velocity?
 
 In an elastic collision, both momentum and kinetic energy are conserved. A fundamental property of elastic collisions is that the relative velocity of approach equals the relative velocity of separation (but in the opposite direction).
 
+**Sketch and coordinate system**
+
+![Frame in which satellite 2 is at rest before the collision. A horizontal +x axis points in the direction satellite 1 approaches. Before: satellite 1 (4.00 × 10³ kg) moves at v_1 = +0.250 m/s and satellite 2 (7.50 × 10³ kg) is at rest. After: the velocities v′_1 and v′_2 are unknown; their difference is the final relative velocity.](../resources/sketch_08_04_p02.svg){: .sketch}
+
+Work in the frame where satellite 2 is initially at rest, and take $$ +x $$ in the direction satellite 1 approaches, so $$ v_1 = +0.250\ms $$ and $$ v_2 = 0 $$. The final relative velocity is $$ v'_2 - v'_1 $$.
+
 **Solution**
 
 For any elastic collision, the relative velocity of approach equals the relative velocity of separation:
@@ -350,6 +391,12 @@ A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck 
 **Strategy**
 
 For an elastic collision with one object initially at rest, we use the equations derived from conservation of momentum and kinetic energy. For a small mass bouncing off a much larger stationary mass, the small mass rebounds with nearly the same speed while the large mass gains a small velocity.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the puck’s initial direction, toward the goalie. Before: the puck (0.150 kg) moves at v_1 = +35.0 m/s and the goalie (70.0 kg) is at rest. After the elastic collision the puck rebounds (v′_1 negative) and the goalie moves along +x; both velocities are unknown.](../resources/sketch_08_04_p03.svg){: .sketch}
+
+Take $$ +x $$ in the puck's initial direction, toward the goalie, so $$ v_1 = +35.0\ms $$ and $$ v_2 = 0 $$. A negative $$ v'_1 $$ means the puck rebounds back toward the shooter, and a positive $$ v'_2 $$ means the goalie moves the way the puck was going.
 
 **Solution**
 

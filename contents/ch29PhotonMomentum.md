@@ -128,7 +128,7 @@ The electron has kinetic energy, which is classically given by
 Thus,
 
 <div class="equation" >
- $${\text{KE}}_{e}=\frac{1}{2}\left( 9.11 \times 10^{-3} \text{kg}\right) {\left(1455 \text{m/s} \right)}^{2}=9.64 \times 10^{-25} \text{J}. $$
+ $${\text{KE}}_{e}=\frac{1}{2}\left( 9.11 \times 10^{-31} \text{kg}\right) {\left(1455 \text{m/s} \right)}^{2}=9.64 \times 10^{-25} \text{J}. $$
 </div>
 
 Converting this to eV by multiplying by  $$\left(1 \text{eV}\right)/\left( 1.602 \times 10^{-19} \text{J}\right) $$

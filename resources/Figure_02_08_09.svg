@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="545" height="410" viewBox="0 0 545 410" role="img" aria-labelledby="title desc">
+<title id="title">Position versus time with points a through e</title>
+<desc id="desc">Position versus time with points a through e</desc>
+<rect width="545" height="410" fill="#ffffff"/>
+<line x1="70" y1="340" x2="510" y2="340" stroke="#333333" stroke-width="1.5"/>
+<polygon points="519,340 509,344 509,336" fill="#333333"/>
+<line x1="70" y1="340" x2="70" y2="25" stroke="#333333" stroke-width="1.5"/>
+<polygon points="70,16 74,26 66,26" fill="#333333"/>
+<text x="287.5" y="379.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">t</tspan></text>
+<text x="42" y="190.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 42 185)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">x</tspan></text>
+<path d="M 97.07 312.1 C 101.58 296.94 111.24 248.72 124.13 221.17 C 137.02 193.61 153.46 166.92 174.4 146.77 C 195.34 126.62 220.64 110.77 249.8 100.27 C 278.96 89.76 314.89 83.73 349.37 83.73 C 383.84 83.73 438.78 92.34 456.67 94.07" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="97.07" cy="312.1" r="6" fill="#c0392b"/>
+<circle cx="124.13" cy="221.17" r="6" fill="#c0392b"/>
+<circle cx="174.4" cy="146.77" r="6" fill="#c0392b"/>
+<circle cx="249.8" cy="100.27" r="6" fill="#c0392b"/>
+<circle cx="349.37" cy="83.73" r="6" fill="#c0392b"/>
+<circle cx="456.67" cy="94.07" r="6" fill="#c0392b"/>
+<text x="118.13" y="207.47" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">a</tspan></text>
+<text x="174.4" y="135.07" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">b</tspan></text>
+<text x="249.8" y="88.57" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">c</tspan></text>
+<text x="349.37" y="72.03" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">d</tspan></text>
+<text x="456.67" y="82.37" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">e</tspan></text>
+</svg>

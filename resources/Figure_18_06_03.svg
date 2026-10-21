@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="170" viewBox="0 0 560 170" role="img" aria-labelledby="title desc">
+<title id="title">A hydrogen bond between two water molecules</title>
+<desc id="desc">Two water molecules. The oxygen of the left molecule carries a partial negative charge δ−, and a hydrogen of the right molecule carries a partial positive charge δ+. The attraction between them, a hydrogen bond, is shown as a dashed line.</desc>
+<rect width="560" height="170" fill="#ffffff"/>
+<text x="60" y="61.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan></text>
+<text x="150" y="111.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">O</tspan></text>
+<text x="60" y="161.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan></text>
+<line x1="78" y1="62" x2="132" y2="90" stroke="#222222" stroke-width="2.5"/>
+<line x1="78" y1="138" x2="132" y2="112" stroke="#222222" stroke-width="2.5"/>
+<line x1="176" y1="100" x2="320" y2="100" stroke="#222222" stroke-width="2.5" stroke-dasharray="10 7"/>
+<text x="340" y="111.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan></text>
+<line x1="362" y1="100" x2="420" y2="100" stroke="#222222" stroke-width="2.5"/>
+<text x="440" y="111.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">O</tspan></text>
+<line x1="460" y1="114" x2="500" y2="146" stroke="#222222" stroke-width="2.5"/>
+<text x="516" y="165.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan></text>
+<text x="172" y="67.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">δ</tspan><tspan font-size="18.2" dy="-10.4"><tspan font-style="normal">−</tspan></tspan><tspan dy="10.4">​</tspan></text>
+<text x="344" y="67.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">δ</tspan><tspan font-size="18.2" dy="-10.4"><tspan font-style="normal">+</tspan></tspan><tspan dy="10.4">​</tspan></text>
+</svg>

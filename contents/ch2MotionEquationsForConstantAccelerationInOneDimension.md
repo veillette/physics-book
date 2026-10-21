@@ -123,7 +123,7 @@ taking his initial position to be zero?
 
 Draw a sketch.
 
-![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_02.jpg)
+![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_02.svg)
 {: #Figure2}
 
 The final position $$ x $$ is given by the equation
@@ -160,7 +160,7 @@ When graphed, linear functions look like straight lines with a constant slope.)
 On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
 
-![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.jpg 'There is a linear relationship between displacement and average velocity. For a given time ( t) , an object moving twice as fast as another object will move twice as far as the other object.')
+![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.svg 'There is a linear relationship between displacement and average velocity. For a given time ( t) , an object moving twice as fast as another object will move twice as far as the other object.')
 {: #Figure3}
 
 ::: note {"class":"note","data-label":""}
@@ -203,7 +203,7 @@ An airplane lands with an initial velocity of 70.0 m/s and then decelerates at $
 Draw a sketch. We draw the acceleration vector in the direction opposite the
 velocity vector because the plane is decelerating.
 
-![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_04.jpg)
+![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_04.svg)
 {: #Figure4}
 
 **Solution**
@@ -316,7 +316,7 @@ does it travel in this time?
 
 Draw a sketch.
 
-![Acceleration vector arrow pointing toward the right in the positive x direction, labeled a equals twenty-six point 0 meters per second squared. x position graph with initial position at the left end of the graph. The right end of the graph is labeled x equals question mark.](../resources/Figure_02_05_08.jpg)
+![Acceleration vector arrow pointing toward the right in the positive x direction, labeled a equals twenty-six point 0 meters per second squared. x position graph with initial position at the left end of the graph. The right end of the graph is labeled x equals question mark.](../resources/Figure_02_05_08.svg)
 {: #Figure8}
 
 We are asked to find displacement, which is $$ x $$ if we take $$ x_{0} $$ to be
@@ -409,7 +409,7 @@ using information about time.
 
 Draw a sketch.
 
-![Acceleration vector arrow pointing toward the right, labeled twenty-six point zero meters per second squared. Initial velocity equals 0. Final velocity equals question mark.](../resources/Figure_02_05_09.jpg)
+![Acceleration vector arrow pointing toward the right, labeled twenty-six point zero meters per second squared. Initial velocity equals 0. Final velocity equals question mark.](../resources/Figure_02_05_09.svg)
 {: #Figure9}
 
 The equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$ is ideally suited to
@@ -512,7 +512,7 @@ the brake.
 
 Draw a sketch.
 
-![Initial velocity equals thirty meters per second. Final velocity equals 0. Acceleration dry equals negative 7 point zero zero meters per second squared. Acceleration wet equals negative 5 point zero zero meters per second squared.](../resources/Figure_02_05_10.jpg)
+![Initial velocity equals thirty meters per second. Final velocity equals 0. Acceleration dry equals negative 7 point zero zero meters per second squared. Acceleration wet equals negative 5 point zero zero meters per second squared.](../resources/Figure_02_05_10.svg)
 {: #Figure10}
 
 In order to determine which equations are best to use, we need to list all of
@@ -625,7 +625,7 @@ how long does it take to travel the 200 m up the ramp?
 
 Draw a sketch.
 
-![A line segment with ends labeled x subs zero equals zero and x = two hundred. Above the line segment, the equation t equals question mark indicates that time is unknown. Three vectors, all pointing in the direction of x equals 200, represent the other knowns and unknowns. They are labeled v sub zero equals ten point zero meters per second, v equals question mark, and a equals two point zero zero meters per second squared.](../resources/Figure_02_05_12.jpg)
+![A line segment with ends labeled x subs zero equals zero and x = two hundred. Above the line segment, the equation t equals question mark indicates that time is unknown. Three vectors, all pointing in the direction of x equals 200, represent the other knowns and unknowns. They are labeled v sub zero equals ten point zero meters per second, v equals question mark, and a equals two point zero zero meters per second squared.](../resources/Figure_02_05_12.svg)
 {: #Figure12}
 
 We are asked to solve for the time $$ t $$. As before, we identify the known
@@ -646,19 +646,17 @@ it will be easier to plug in the knowns first.
  $$ 200 \m =0 \m +\left(10.0 \ms \right)t+\frac{1}{2}\left(2.00 \mss \right){t}^{2} $$
 </div>
 
-4\. Simplify the equation. The units of meters (m) cancel because they are in each term.
-We can get the units of seconds (s) to cancel by taking $$ t=t\s $$, where $$ t $$
-is the magnitude of time and s is the unit. Doing so leaves
+4\. Divide every term by $$ 1.00 \mss $$ to make the coefficient of $$ t^2 $$ equal to one, carrying the units through the division:
 
 <div class="equation">
- $$ 200 =10 t+ t^{2}. $$
+ $$ 200 \text{s}^2 =10 \s t+ t^{2}. $$
 </div>
 
 5\. Use the quadratic formula to solve for $$ t $$.
 (a) Rearrange the equation to get 0 on one side of the equation.
 
 <div class="equation">
- $$ t^{2}+10 t-200 =0 $$
+ $$ t^{2}+10 \s t-200 \text{s}^2 =0 $$
 </div>
 
 This is a quadratic equation of the form
@@ -667,7 +665,7 @@ This is a quadratic equation of the form
  $$ a t^{2} + b t +c=0, $$
 </div>
 
-where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
+where the constants are $$a=1.00$$, $$b=10.0 \s$$,  and $$c=-200 \s^2$$.
 
 (b) Its solutions are given by the quadratic formula:
 
@@ -678,10 +676,10 @@ where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
 This yields two solutions for $$ t $$, which are
 
 <div class="equation">
- $$t=10.0 \text{ and } - 20.0 . $$
+ $$t=10.0 \s \text{ and } - 20.0 \s . $$
 </div>
 
-In this case, then, the time is $$ t=t $$ in seconds, or
+The two roots retain units of seconds:
 
 <div class="equation">
  $$ t=10.0\s \text{ and }-20.0\s . $$
@@ -818,6 +816,12 @@ time for this period.
 
 The sprinter starts from rest and accelerates at a constant rate. For part (a), we use the kinematic equation $$ v = v_0 + at $$ to find the velocity after 2.40 s. For part (b), we sketch a position-time graph, which should be parabolic for constant acceleration starting from rest.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points down the track in the direction the sprinter runs, with the origin at the starting blocks. Start: t = 0, x₀ = 0, v₀ = 0. After 2.40 s: v unknown. The acceleration a = +4.50 m/s² points in +x.](../resources/sketch_02_05_p01.svg){: .sketch}
+
+Take $$ +x $$ down the track in the direction the sprinter runs, with the origin and $$ t = 0 $$ at the blocks. Then $$ x_0 = 0 $$, $$ v_0 = 0 $$, and $$ a = +4.50 \mss $$.
+
 **Solution**
 
 **(a) Speed after 2.40 s:**
@@ -834,7 +838,7 @@ $$ v = v_0 + at $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v = 0 + (4.50)(2.40) = 10.8 \ms $$
+$$ v = 0 + (4.50 \mss)(2.40 \s) = 10.8 \ms $$
 </div>
 
 **(b) Position-time graph:**
@@ -842,12 +846,12 @@ $$ v = 0 + (4.50)(2.40) = 10.8 \ms $$
 The position as a function of time for constant acceleration starting from rest is given by:
 
 <div class="equation">
-$$ x = \frac{1}{2}at^{2} = \frac{1}{2}(4.50)t^2 = 2.25t^2 $$
+$$ x = \frac{1}{2}at^{2} = \frac{1}{2}(4.50 \mss)t^2 = (2.25 \mss)t^2 $$
 </div>
 
 This is a parabolic function, as shown in the graph below. The position increases quadratically with time, and the slope of the graph (which represents velocity) increases linearly with time.
 
-![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_13.jpg)
+![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_13.svg)
 {: #Figure13}
 
 **Discussion**
@@ -882,6 +886,12 @@ the initial velocity of the ball?
 
 The ball decelerates from its initial velocity to rest (final velocity = 0) in a very short time. We use the kinematic equation $$ v = v_0 + at $$ to find the initial velocity. The deceleration (negative acceleration) and time are given.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the ball travels, with the origin where the ball first touches the mitt. At contact: t = 0, v₀ unknown and positive. Stopped: t = 1.85 ms, v = 0. The acceleration points in −x, against the motion: a = −2.10 × 10⁴ m/s².](../resources/sketch_02_05_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the ball travels, with $$ t = 0 $$ when it first touches the mitt. The ball is moving in $$ +x $$ but slowing down, so its acceleration points in $$ -x $$: $$ a = -2.10 \times 10^{4} \mss $$. The final velocity is $$ v = 0 $$.
+
 **Solution**
 
 1. Identify the known values:
@@ -896,11 +906,11 @@ $$ v = v_0 + at $$
 
 3. Solve for initial velocity $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0 + (-2.10 \times 10^{4})(1.85 \times 10^{-3}) $$
+$$ 0 = v_0 + (-2.10 \times 10^{4} \mss)(1.85 \times 10^{-3} \s) $$
 </div>
 
 <div class="equation">
-$$ v_0 = 2.10 \times 10^{4} \times 1.85 \times 10^{-3} $$
+$$ v_0 = 2.10 \times 10^{4} \mss \times 1.85 \times 10^{-3} \s $$
 </div>
 
 <div class="equation">
@@ -940,6 +950,12 @@ What is its muzzle velocity (that is, its final velocity)?
 **Strategy**
 
 Use the kinematic equation relating final velocity, initial velocity, acceleration, and time. The bullet starts from rest in the firing chamber.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points along the barrel toward the muzzle, with the origin at the firing chamber. Start: t = 0, v₀ = 0. At the muzzle: t = 8.10 × 10⁻⁴ s, v unknown. The acceleration a = +6.20 × 10⁵ m/s² points in +x.](../resources/sketch_02_05_p03.svg){: .sketch}
+
+Take $$ +x $$ along the barrel toward the muzzle, with the origin and $$ t = 0 $$ at the firing chamber. Then $$ v_0 = 0 $$ and $$ a = +6.20 \times 10^{5} \mss $$.
 
 **Solution**
 
@@ -988,6 +1004,12 @@ What is its emergency deceleration in $$ \mss $$
 
 This problem involves three different scenarios of acceleration and deceleration for a train. For parts (a) and (b), we know the initial and final velocities and the acceleration, so we can use $$ v = v_0 + at $$ to find time. For part (c), we know the velocities and time, so we can use the same equation to solve for acceleration. Remember to convert km/h to m/s first.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the train travels, with the origin where it starts. Start: v₀ = 0. At top speed: v₁ = +80.0 km/h = +22.2 m/s. Stopped: v₂ = 0. Speeding up, a = +1.35 m/s² points in +x. Braking, the acceleration points in −x: a = −1.65 m/s² normally (part b), or unknown when the stop takes 8.30 s (part c).](../resources/sketch_02_05_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction the train travels. Its velocity is positive throughout, so speeding up means $$ a > 0 $$ (part a: $$ a = +1.35 \mss $$) and slowing down means $$ a < 0 $$ (part b: $$ a = -1.65 \mss $$; part c: the unknown $$ a $$ will come out negative).
+
 **Solution**
 
 **(a) Time to reach top speed:**
@@ -1009,7 +1031,7 @@ $$ v = v_0 + at $$
 
 4. Solve for time:
 <div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{22.2 - 0}{1.35} = 16.4 \s \approx 16.5 \s $$
+$$ t = \frac{v - v_0}{a} = \frac{(80.0/3.6)\ms}{1.35\mss} \approx 16.5\s $$
 </div>
 
 **(b) Time to come to a stop:**
@@ -1021,7 +1043,7 @@ $$ t = \frac{v - v_0}{a} = \frac{22.2 - 0}{1.35} = 16.4 \s \approx 16.5 \s $$
 
 2. Use the same equation:
 <div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{0 - 22.2}{-1.65} = \frac{-22.2}{-1.65} = 13.5 \s $$
+$$ t = \frac{v - v_0}{a} = \frac{0 - 22.2 \ms}{-1.65 \mss} = \frac{-22.2 \ms}{-1.65 \mss} = 13.5 \s $$
 </div>
 
 **(c) Emergency deceleration:**
@@ -1033,14 +1055,14 @@ $$ t = \frac{v - v_0}{a} = \frac{0 - 22.2}{-1.65} = \frac{-22.2}{-1.65} = 13.5 \
 
 2. Solve for acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{0 - 22.2}{8.30} = -2.67 \mss \approx -2.68 \mss $$
+$$ a = \frac{v - v_0}{t} = \frac{0-(80.0/3.6)\ms}{8.30\s} \approx -2.68\mss $$
 </div>
 
 The negative sign indicates deceleration.
 
 **Discussion**
 
-The train takes about 16.5 seconds to accelerate to its top speed and 13.5 seconds to decelerate normally - the deceleration is faster because the braking rate ($$ 1.65 \mss $$) is greater than the acceleration rate ($$ 1.35 \mss $$). In emergency situations, the train can decelerate even more rapidly at $$ 2.68 \mss $$, which is about 62% faster than normal braking. This emergency deceleration stops the train in only 8.30 seconds compared to 13.5 seconds for normal braking - significantly reducing stopping distance in critical situations. These accelerations are all relatively gentle (well under 1g), ensuring passenger comfort and safety.
+The train takes about 16.5 seconds to accelerate to its top speed and 13.5 seconds to decelerate normally - the deceleration is faster because the braking rate ($$ 1.65 \mss $$) is greater than the acceleration rate ($$ 1.35 \mss $$). In emergency situations, the train can decelerate even more rapidly at $$ 2.68 \mss $$, which is about 62% faster than normal braking. This emergency deceleration stops the train in only 8.30 seconds compared to 13.5 seconds for normal braking - significantly reducing stopping distance in critical situations. All three acceleration magnitudes are less than $$ g $$; the emergency deceleration is larger than the normal braking deceleration.
 
 **Answer**
 
@@ -1081,6 +1103,10 @@ This problem involves constant acceleration from rest. We need to use kinematic 
 
 **(a) Sketch:**
 
+![A horizontal +x axis points in the direction the car travels, with the origin where the car starts from rest. Start: t = 0, x₀ = 0, v₀ = 0. After 12.0 s: x and v unknown. The acceleration a = +2.40 m/s² points in +x.](../resources/sketch_02_05_p05.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car travels, with the origin and $$ t = 0 $$ where it starts from rest. Every known is then positive or zero: $$ x_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +2.40 \mss $$.
+
 A car starts from rest (initial position $$x_0 = 0$$, initial velocity $$v_0 = 0$$) and accelerates in the positive direction with acceleration vector $$a = 2.40 \mss$$ for time $$t = 12.0 \s$$.
 
 **(b) Knowns:**
@@ -1117,7 +1143,7 @@ $$ x = \frac{1}{2}(2.40 \mss)(12.0 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ x = \frac{1}{2}(2.40)(144) \m = (1.20)(144) \m = 173 \m $$
+$$ x = \frac{1}{2}(2.40 \mss)(144 \s^2) = (1.20 \mss)(144 \s^2) = 173 \m $$
 </div>
 
 **Units check:** $$ \mss \times \s^2 = \m $$ ✓
@@ -1193,6 +1219,12 @@ At the end of a race, a runner decelerates from a velocity of 9.00 m/s at a rate
 
 The runner decelerates at a constant rate. For part (a), we use the kinematic equation that relates displacement, initial velocity, time, and acceleration. For part (b), we use $$ v = v_0 + at $$ to find her velocity after 5.00 s. For part (c), we evaluate whether the results are physically realistic by checking when the runner would actually stop.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the runner is moving, with the origin where she starts to slow down. Start: t = 0, x₀ = 0, v₀ = +9.00 m/s. After 5.00 s: x and v unknown. The acceleration points in −x: a = −2.00 m/s².](../resources/sketch_02_05_p06.svg){: .sketch}
+
+Take $$ +x $$ in the direction the runner is moving, with the origin and $$ t = 0 $$ where she begins to slow down. Then $$ v_0 = +9.00 \ms $$, and because she is slowing down, the acceleration points in $$ -x $$: $$ a = -2.00 \mss $$.
+
 **Solution**
 
 **(a) Displacement during the 5.00 s (constant-acceleration model):**
@@ -1209,11 +1241,11 @@ $$ x = v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ x = (9.00)(5.00) + \frac{1}{2}(-2.00)(5.00)^2 $$
+$$ x = (9.00 \ms)(5.00 \s) + \frac{1}{2}(-2.00 \mss)(5.00 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ x = 45.0 + \frac{1}{2}(-2.00)(25.0) = 45.0 - 25.0 = 20.0 \m $$
+$$ x = 45.0 \m + \frac{1}{2}(-2.00 \mss)(25.0 \text{s}^2) = 45.0 \m - 25.0 \m = 20.0 \m $$
 </div>
 
 This is a **displacement**. In this mathematical model the runner moves forward 20.25 m in the first 4.50 s, then back 0.25 m in the last 0.50 s, so the total **distance** covered is 20.5 m.
@@ -1227,7 +1259,7 @@ $$ v = v_0 + at $$
 
 2. Substitute the known values:
 <div class="equation">
-$$ v = 9.00 + (-2.00)(5.00) = 9.00 - 10.0 = -1.00 \ms $$
+$$ v = 9.00 \ms + (-2.00 \mss)(5.00 \s) = 9.00 \ms - 10.0 \ms = -1.00 \ms $$
 </div>
 
 **(c) Evaluation of the result:**
@@ -1235,7 +1267,7 @@ $$ v = 9.00 + (-2.00)(5.00) = 9.00 - 10.0 = -1.00 \ms $$
 The negative velocity in part (b) indicates a problem. Let's check when the runner actually stops:
 
 <div class="equation">
-$$ t_{\text{stop}} = \frac{v - v_0}{a} = \frac{0 - 9.00}{-2.00} = 4.50 \s $$
+$$ t_{\text{stop}} = \frac{v - v_0}{a} = \frac{0 - 9.00 \ms}{-2.00 \mss} = 4.50 \s $$
 </div>
 
 The runner stops after 4.50 s, not 5.00 s. At 5.00 s, the calculation gives a velocity of -1.00 m/s, which would mean running backwards.
@@ -1245,7 +1277,7 @@ The runner stops after 4.50 s, not 5.00 s. At 5.00 s, the calculation gives a ve
 This problem illustrates an important limitation of kinematic equations: they assume the acceleration stays constant for the whole interval, and nothing in the equations knows that a braking runner stops. A constant acceleration that reverses an object's motion is perfectly possible in general (a ball thrown upward does exactly this), but braking only slows the runner; it does not push her backward. In the more realistic model, she decelerates for 4.50 s and comes to rest after traveling:
 
 <div class="equation">
-$$ x_{\text{actual}} = v_0 t_{\text{stop}} + \frac{1}{2}at_{\text{stop}}^2 = (9.00)(4.50) + \frac{1}{2}(-2.00)(4.50)^2 = 40.5 - 20.25 = 20.25 \m $$
+$$ x_{\text{actual}} = v_0 t_{\text{stop}} + \frac{1}{2}at_{\text{stop}}^2 = (9.00 \ms)(4.50 \s) + \frac{1}{2}(-2.00 \mss)(4.50 \s)^2 = 40.5 \m - 20.25 \m = 20.25 \m $$
 </div>
 
 After stopping at $$ t = 4.50 \s $$, she remains at rest. So while the constant-acceleration model predicts a displacement of 20.0 m (distance 20.5 m) and $$ v = -1.00 \ms $$, the braking model gives a distance and displacement of 20.25 m and a final velocity of zero.
@@ -1289,6 +1321,10 @@ Blood is accelerated over a known distance from rest to a known final velocity. 
 **Solution**
 
 **(a) Sketch:**
+
+![A +x axis points in the direction the blood flows, with the origin where the blood starts from rest. Start: t = 0, x₀ = 0, v₀ = 0. After moving 1.80 cm: x = 1.80 cm, v = +30.0 cm/s, t unknown. The acceleration points in +x.](../resources/sketch_02_05_p07.svg){: .sketch}
+
+Take $$ +x $$ in the direction the blood flows, with the origin and $$ t = 0 $$ where it starts from rest. Then $$ x_0 = 0 $$, $$ v_0 = 0 $$, $$ x = 1.80 \text{ cm} $$, and $$ v = +30.0 \text{ cm/s} $$.
 
 Blood starts at rest ($$v_0 = 0$$) in the left ventricle and is accelerated in the positive direction to a final velocity $$v = 30.0$$ cm/s over a distance of $$x - x_0 = 1.80$$ cm.
 
@@ -1386,6 +1422,12 @@ puck accelerates.
 
 The puck accelerates from one velocity to another in a known time. We need to find the distance over which this acceleration occurs. We can use the equation relating distance, initial velocity, final velocity, and time, which is $$ x = \frac{v_0 + v}{2}t $$ (average velocity times time), or we can first find acceleration and then use another equation.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the puck moves, with the origin where the stick starts to accelerate it. Start: t = 0, x₀ = 0, v₀ = +8.00 m/s. End of the shot: t = 3.33 × 10⁻² s, v = +40.0 m/s, x unknown.](../resources/sketch_02_05_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction the puck moves, with the origin and $$ t = 0 $$ where the stick starts the shot. Both velocities are then positive: $$ v_0 = +8.00 \ms $$ and $$ v = +40.0 \ms $$.
+
 **Solution**
 
 1. Identify the known values:
@@ -1402,11 +1444,11 @@ This equation works because the average velocity during constant acceleration is
 
 3. Substitute the known values:
 <div class="equation">
-$$ x = \frac{8.00 + 40.0}{2} \times (3.33 \times 10^{-2}) $$
+$$ x = \frac{8.00 \ms + 40.0 \ms}{2} \times (3.33 \times 10^{-2} \s) $$
 </div>
 
 <div class="equation">
-$$ x = \frac{48.0}{2} \times (3.33 \times 10^{-2}) = 24.0 \times 0.0333 $$
+$$ x = \frac{48.0 \ms}{2} \times (3.33 \times 10^{-2} \s) = 24.0 \ms \times 0.0333 \s $$
 </div>
 
 <div class="equation">
@@ -1418,7 +1460,7 @@ $$ x = 0.799 \m $$
 The puck accelerates over a distance of about 80 cm (roughly 31 inches), which is reasonable for a hockey slap shot where the stick blade maintains contact with the puck during the entire shooting motion. The puck's velocity increases from 8.00 m/s to 40.0 m/s - a fivefold increase in speed! This represents an acceleration of:
 
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{40.0 - 8.00}{0.0333} = 961 \mss $$
+$$ a = \frac{v - v_0}{t} = \frac{40.0 \ms - 8.00 \ms}{0.0333 \s} = 961 \mss $$
 </div>
 
 This is about 98 times gravitational acceleration (98g), which demonstrates the enormous forces involved in a professional slap shot. The final speed of 40.0 m/s (144 km/h or 89 mph) is typical for a powerful slap shot in hockey.
@@ -1447,6 +1489,12 @@ A powerful motorcycle can accelerate from rest to 26.8 m/s (96.5 km/h, or about 
 
 Use the definition of average acceleration for part (a), then use a kinematic equation with the calculated acceleration to find distance in part (b).
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the motorcycle travels, with the origin where it starts from rest. Start: t = 0, x₀ = 0, v₀ = 0. After 3.90 s: v = +26.8 m/s, x unknown. The acceleration, unknown, points in +x.](../resources/sketch_02_05_p09.svg){: .sketch}
+
+Take $$ +x $$ in the direction the motorcycle travels, with the origin and $$ t = 0 $$ where it starts from rest, so $$ x_0 = 0 $$, $$ v_0 = 0 $$, and $$ v = +26.8 \ms $$.
+
 **Solution**
 
 **(a) Average acceleration:**
@@ -1470,7 +1518,7 @@ $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} = 0 + 0 + \frac{1}{2}(6.87 \mss)(3.90 \s)
 </div>
 
 <div class="equation">
-$$ x = \frac{1}{2}(6.87)(15.21) \m = 52.3 \m $$
+$$ x = \frac{1}{2}(6.87 \mss)(15.21 \s^2) = 52.3 \m $$
 </div>
 
 **Discussion**
@@ -1505,13 +1553,19 @@ how long will it take to come to a stop from this velocity?
 
 This problem involves two phases: acceleration and deceleration of a freight train. For part (a), we use $$ v = v_0 + at $$ to find the final velocity after acceleration. For part (b), we use the same equation to find the time to decelerate from this velocity to rest. For part (c), we calculate distances using appropriate kinematic equations. Remember to convert 8.00 minutes to seconds.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the train travels, with the origin where it starts to speed up. Start: t = 0, v₀ = +4.00 m/s. After 480 s: v₁ unknown. Stopped: v₂ = 0 at an unknown time. Speeding up, a₁ = +0.0500 m/s² points in +x; braking, a₂ = −0.550 m/s² points in −x.](../resources/sketch_02_05_p10.svg){: .sketch}
+
+Take $$ +x $$ in the direction the train travels, with the origin where it starts to speed up. The velocity stays positive, so speeding up gives $$ a_1 = +0.0500 \mss $$ and braking gives $$ a_2 = -0.550 \mss $$.
+
 **Solution**
 
 **(a) Final velocity after acceleration:**
 
 1. Convert time to seconds:
 <div class="equation">
-$$ t = 8.00 \text{ min} = 8.00 \times 60 = 480 \s $$
+$$ t = 8.00 \text{ min} = 8.00 \text{ min} \times \frac{60 \s}{1 \text{ min}} = 480 \s $$
 </div>
 
 2. Identify the known values:
@@ -1526,7 +1580,7 @@ $$ v = v_0 + at $$
 
 4. Substitute the known values:
 <div class="equation">
-$$ v = 4.00 + (0.0500)(480) = 4.00 + 24.0 = 28.0 \ms $$
+$$ v = 4.00 \ms + (0.0500 \mss)(480 \s) = 4.00 \ms + 24.0 \ms = 28.0 \ms $$
 </div>
 
 **(b) Time to decelerate to rest:**
@@ -1538,7 +1592,7 @@ $$ v = 4.00 + (0.0500)(480) = 4.00 + 24.0 = 28.0 \ms $$
 
 2. Solve for time:
 <div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{0 - 28.0}{-0.550} = \frac{-28.0}{-0.550} = 50.9 \s $$
+$$ t = \frac{v - v_0}{a} = \frac{0 - 28.0 \ms}{-0.550 \mss} = \frac{-28.0 \ms}{-0.550 \mss} = 50.9 \s $$
 </div>
 
 **(c) Distances traveled:**
@@ -1550,11 +1604,11 @@ $$ x_{\text{accel}} = v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ x_{\text{accel}} = (4.00)(480) + \frac{1}{2}(0.0500)(480)^2 $$
+$$ x_{\text{accel}} = (4.00 \ms)(480 \s) + \frac{1}{2}(0.0500 \mss)(480 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ x_{\text{accel}} = 1920 + \frac{1}{2}(0.0500)(230400) = 1920 + 5760 = 7680 \m = 7.68 \text{ km} $$
+$$ x_{\text{accel}} = 1920 \m + \frac{1}{2}(0.0500 \mss)(230400 \text{s}^2) = 1920 \m + 5760 \m = 7680 \m = 7.68 \text{ km} $$
 </div>
 
 **Distance during deceleration (50.9 s):**
@@ -1564,11 +1618,11 @@ $$ x_{\text{decel}} = v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ x_{\text{decel}} = (28.0)(50.9) + \frac{1}{2}(-0.550)(50.9)^2 $$
+$$ x_{\text{decel}} = (28.0 \ms)(50.9 \s) + \frac{1}{2}(-0.550 \mss)(50.9 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ x_{\text{decel}} = 1425.2 + \frac{1}{2}(-0.550)(2590.81) = 1425.2 - 712.5 = 712.7 \m \approx 713 \m $$
+$$ x_{\text{decel}} = 1425.2 \m + \frac{1}{2}(-0.550 \mss)(2590.81 \text{s}^2) = 1425.2 \m - 712.5 \m = 712.7 \m \approx 713 \m $$
 </div>
 
 **Discussion**
@@ -1602,6 +1656,12 @@ A fireworks shell is accelerated from rest to a velocity of 65.0 m/s over a dist
 **Strategy**
 
 A fireworks shell is accelerated from rest to a known final velocity over a known distance. For part (a), we need to find time, and for part (b), we need to find acceleration. We can use kinematic equations that relate these quantities.
+
+**Sketch and coordinate system**
+
+![A +x axis points along the launch tube in the direction the shell moves, with the origin where the shell starts from rest. Start: t = 0, x₀ = 0, v₀ = 0. At the end of the tube: x = 0.250 m, v = +65.0 m/s, t unknown. The acceleration, unknown, points in +x.](../resources/sketch_02_05_p11.svg){: .sketch}
+
+Take $$ +x $$ along the launch tube in the direction the shell moves, with the origin and $$ t = 0 $$ where it starts from rest. Then $$ x_0 = 0 $$, $$ x = 0.250 \m $$, $$ v_0 = 0 $$, and $$ v = +65.0 \ms $$.
 
 **Solution**
 
@@ -1703,6 +1763,12 @@ travel before becoming airborne?
 
 The swan starts from rest and accelerates uniformly at the given average rate. We know $$ v_0 = 0 $$, $$ v = 6.00 \ms $$, and $$ a = 0.350 \mss $$, so we can find the distance from $$ v^2 = v_0^2 + 2ax $$ and the time from $$ v = v_0 + at $$.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the swan runs across the water, with the origin where it starts from rest. Start: t = 0, x₀ = 0, v₀ = 0. Takeoff: v = +6.00 m/s, x and t unknown. The acceleration a = +0.350 m/s² points in +x.](../resources/sketch_02_05_p12.svg){: .sketch}
+
+Take $$ +x $$ in the direction the swan runs, with the origin and $$ t = 0 $$ where it starts from rest. Then $$ v_0 = 0 $$, $$ v = +6.00 \ms $$, and $$ a = +0.350 \mss $$, so $$ x $$ in $$ v^2 = v_0^2 + 2ax $$ is the distance traveled.
+
 **Solution**
 
 **(a)** Solve $$ v^2 = v_0^2 + 2ax $$ for $$ x $$:
@@ -1719,7 +1785,7 @@ $$ t = \frac{v - v_0}{a} = \frac{6.00 \ms - 0}{0.350 \mss} = 17.142857 \s = 17.1
 
 **Discussion**
 
-As a check, the average velocity is $$ (0 + 6.00)/2 = 3.00 \ms $$, and $$ (3.00 \ms)(17.14 \s) = 51.4 \m $$, in agreement with part (a). A run of about 50 m across the water is consistent with the long takeoff runs that large swans need.
+As a check, the average velocity is $$ (0 + 6.00 \ms)/2 = 3.00 \ms $$, and $$ (3.00 \ms)(17.14 \s) = 51.4 \m $$, in agreement with part (a). A run of about 50 m across the water is consistent with the long takeoff runs that large swans need.
 
 **Answer**
 
@@ -1754,6 +1820,12 @@ the brain's deceleration, expressed in multiples of $$ g $$ ?
 **Strategy**
 
 The woodpecker's head decelerates from a known initial velocity to rest over a known distance. We can use the kinematic equation $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find the deceleration, then use $$ v = v_0 + at $$ to find the stopping time. For part (c), we repeat the acceleration calculation with a different stopping distance.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points toward the tree, in the direction the head moves, with the origin where the beak first touches the bark. At contact: t = 0, x₀ = 0, v₀ = +0.600 m/s. The head stops at x = 2.00 mm; the brain stops at x = 4.50 mm. The acceleration points in −x, away from the tree.](../resources/sketch_02_05_p13.svg){: .sketch}
+
+Take $$ +x $$ toward the tree, the direction the head moves, with the origin where the beak first touches the bark. Then $$ v_0 = +0.600 \ms $$, the stopping positions are $$ x_{\text{head}} = 2.00 \text{ mm} $$ and $$ x_{\text{brain}} = 4.50 \text{ mm} $$, and the accelerations come out negative because they point away from the tree, against the motion.
 
 **Solution**
 
@@ -1835,13 +1907,7 @@ The brain experiences a deceleration of $$ 40.0 \mss $$ or $$ 4.08g $$.
 
 **Discussion**
 
-These results reveal the remarkable biomechanical engineering of the woodpecker's anatomy. The head decelerates at 9.18g—nearly 10 times the acceleration due to gravity! This would cause severe brain injury in most animals.
-
-However, the tendon-like attachments allow the brain to decelerate over a distance 2.25 times greater than the head (4.50 mm vs. 2.00 mm). This reduces the brain's deceleration to 4.08g—less than half the head's deceleration. While still substantial, this is within a survivable range, especially with the woodpecker's other adaptations (compact brain, minimal cerebrospinal fluid, specialized skull structure).
-
-The stopping time of 6.67 ms is extremely brief—less than one-hundredth of a second. Woodpeckers can peck 15-20 times per second, so this rapid deceleration is essential for their feeding and territorial behaviors.
-
-For comparison, race car drivers experience decelerations up to about 5-6g during crashes (with safety equipment), and fighter pilots can experience 9g during high-performance maneuvers. The woodpecker's head exceeds this regularly, highlighting the extraordinary evolutionary adaptation.
+In the model given in the question, the brain stops over a distance 2.25 times as large as the head's stopping distance. Its deceleration is therefore smaller by the same factor: $$ 9.18/2.25 = 4.08 $$ times $$ g $$. This illustrates how increasing the stopping distance reduces deceleration for a fixed initial speed. The calculation alone does not determine injury risk.
 
 **Answer**
 
@@ -1872,6 +1938,12 @@ a full stop after compressing the padding and his body 0.350 m.
 
 The football player decelerates from a known velocity to rest over a known distance. For part (a), we use the kinematic equation $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find the deceleration. For part (b), we use $$ v = v_0 + at $$ to find the collision time. The padding helps extend the stopping distance, reducing the deceleration and impact force.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the player runs, toward the goalpost, with the origin where he first touches the padding. At contact: t = 0, x₀ = 0, v₀ = +7.50 m/s. Stopped: x = 0.350 m, v = 0. The acceleration points in −x.](../resources/sketch_02_05_p14.svg){: .sketch}
+
+Take $$ +x $$ in the direction the player runs, toward the goalpost, with the origin where he first touches the padding. Then $$ v_0 = +7.50 \ms $$, $$ x - x_0 = +0.350 \m $$, and $$ v = 0 $$; a negative $$ a $$ means the acceleration points back, away from the post.
+
 **Solution**
 
 **(a) Deceleration:**
@@ -1893,7 +1965,7 @@ $$ a = \frac{v^2 - v_0^2}{2(x - x_0)} $$
 
 4. Substitute the known values:
 <div class="equation">
-$$ a = \frac{0 - (7.50)^2}{2(0.350)} = \frac{-56.25}{0.700} = -80.4 \mss $$
+$$ a = \frac{0 - (7.50 \ms)^2}{2(0.350 \m)} = \frac{-56.25 \mmss}{0.700 \m} = -80.4 \mss $$
 </div>
 
 The negative sign indicates deceleration.
@@ -1907,20 +1979,12 @@ $$ v = v_0 + at $$
 
 2. Solve for time:
 <div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{0 - 7.50}{-80.4} = \frac{-7.50}{-80.4} = 0.0933 \s = 9.33 \times 10^{-2} \s $$
+$$ t = \frac{v - v_0}{a} = \frac{0 - 7.50 \ms}{-80.4 \mss} = \frac{-7.50 \ms}{-80.4 \mss} = 0.0933 \s = 9.33 \times 10^{-2} \s $$
 </div>
 
 **Discussion**
 
-The player experiences a deceleration of $$ 80.4 \mss $$, which is:
-
-<div class="equation">
-$$ \frac{80.4}{9.80} = 8.2g $$
-</div>
-
-This is about 8.2 times gravitational acceleration - a very significant force! However, this is survivable thanks to the padding on the goalpost and the player's own protective equipment. The padding allows the player to decelerate over 0.350 m (about 14 inches) rather than stopping nearly instantly against a rigid surface. Without padding, the stopping distance might be only a few centimeters, resulting in decelerations of 50-100g or more - enough to cause serious injury.
-
-The collision lasts about 93 milliseconds (less than one-tenth of a second), which is too fast for the player to react but slow enough (thanks to the padding) to reduce peak forces. This demonstrates the importance of proper safety equipment and padding in contact sports.
+The deceleration magnitude is about $$ 8.2g $$. The padding increases the stopping distance, reducing the deceleration compared with a shorter stop at the same initial speed. The constant-acceleration model estimates a collision duration of about 0.093 s; it does not describe how the force varies during the actual impact.
 
 **Answer**
 
@@ -1952,13 +2016,19 @@ his deceleration? Assume that the trees and snow stopped him over a distance of 
 
 The pilot decelerates from a known impact velocity to rest over a known stopping distance. We can use the kinematic equation $$ v^2 = v_0^2 + 2a(x - x_0) $$ to find the deceleration. This equation is ideal because it relates velocities, acceleration, and distance without requiring time information.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, in the direction of motion, with the origin where the airman first hits the trees. At impact: y₀ = 0, v₀ = +54 m/s (downward). Stopped: y = 3.0 m, v = 0. The acceleration, unknown, points up (−y).](../resources/sketch_02_05_p15.svg){: .sketch}
+
+Take $$ +y $$ downward, the direction of motion, with the origin where the airman first hits the trees. Then $$ v_0 = +54 \ms $$, $$ y - y_0 = +3.0 \m $$, and $$ v = 0 $$. A negative $$ a $$ therefore means an upward acceleration, opposite to the motion.
+
 **Solution**
 
 **Knowns:**
 
-- Initial velocity (impact speed): $$ v_0 = 54 \ms $$ (or 123 mph)
+- Initial velocity (at impact): $$ v_0 = +54 \ms $$ (downward; about 123 mph)
 - Final velocity: $$ v = 0 $$ (comes to rest)
-- Stopping distance: $$ x - x_0 = 3.0 \m $$
+- Stopping displacement: $$ y - y_0 = +3.0 \m $$ (downward)
 
 **Unknown:** Acceleration $$ a $$
 
@@ -1967,7 +2037,7 @@ The pilot decelerates from a known impact velocity to rest over a known stopping
 Use the kinematic equation:
 
 <div class="equation">
-$$ v^2 = v_0^2 + 2a(x - x_0) $$
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
 </div>
 
 **Solving:**
@@ -1975,7 +2045,7 @@ $$ v^2 = v_0^2 + 2a(x - x_0) $$
 Rearrange to solve for $$ a $$:
 
 <div class="equation">
-$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} $$
+$$ a = \frac{v^2 - v_0^2}{2(y - y_0)} $$
 </div>
 
 Substitute the known values:
@@ -1998,28 +2068,7 @@ The pilot experienced a deceleration of approximately 50g.
 
 **Discussion**
 
-A deceleration of 486 m/s² (about 50g) is extraordinary and would normally be fatal. For comparison:
-
-- Modern fighter pilots can withstand up to about 9g with special suits
-- Race car drivers in severe crashes experience 20-40g (often with serious injuries)
-- The human body can survive very brief exposures to high g-forces if properly oriented
-
-The survival of these airmen is remarkable and can be attributed to several factors:
-
-1. **Gradual deceleration**: The 3.0 m stopping distance, provided by tree branches and snow, distributed the impact force over a much longer distance than hitting hard ground (which might provide only 0.1-0.2 m of deceleration).
-
-2. **Body orientation**: If the pilot landed feet-first or in a horizontal position, the forces would be distributed more favorably than head-first impact.
-
-3. **Sequential impacts**: Tree branches would have provided multiple smaller impacts rather than one catastrophic stop, further distributing the deceleration.
-
-4. **Duration**: We can calculate the stopping time using $$ v = v_0 + at $$:
-<div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{0 - 54 \ms}{-486 \mss} = 0.11 \s $$
-</div>
-
-The deceleration lasted about 0.11 seconds—long enough to be survivable, though still extremely dangerous.
-
-Without the trees and snow, stopping over just 0.1 m would produce a deceleration of about 14,600 m/s² (1490g)—absolutely unsurvivable. The 3.0 m stopping distance reduced the deceleration by a factor of 30, making survival possible, though still requiring extraordinary luck.
+The estimated deceleration is about $$ 50g $$. For a fixed impact speed, the constant-acceleration model gives a deceleration inversely proportional to stopping distance. Stopping over 3.0 m rather than 0.10 m reduces this estimate by a factor of 30. This explains why branches and snow can lessen an impact, although the calculation alone cannot predict whether a person survives.
 
 **Answer**
 
@@ -2047,6 +2096,12 @@ compare its deceleration with that of the airman in the previous problem.
 
 This problem has two parts. For part (a), the squirrel falls freely under gravity from a known height - we use free fall equations to find the velocity just before impact. For part (b), the squirrel decelerates from this velocity to rest over a very short distance (2.0 cm) by bending its limbs - we use kinematic equations to find this deceleration and compare it to the airman's deceleration from the previous problem.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the branch the squirrel falls from. Start: y₀ = 0, v₀ = 0. Just before landing: y₁ = 3.0 m, v₁ unknown and positive (downward), while a = +9.80 m/s² (downward). It then stops 2.0 cm lower, at y₂ = 3.0 m + 0.020 m, with v₂ = 0, while the acceleration, unknown, points up (−y).](../resources/sketch_02_05_p16.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the branch. During the fall $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the squirrel lands at $$ y = 3.0 \m $$. During the stop, $$ y - y_0 = +0.020 \m $$ (it moves 2.0 cm farther down), $$ v $$ drops to zero, and the acceleration comes out negative, meaning it points up.
+
 **Solution**
 
 **(a) Velocity just before hitting the ground:**
@@ -2063,11 +2118,11 @@ $$ v^2 = v_0^2 + 2gy $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(9.80)(3.0) = 58.8 \mmss $$
+$$ v^2 = 0 + 2(9.80 \mss)(3.0 \m) = 58.8 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{58.8} = 7.67 \ms \approx 7.7 \ms $$
+$$ v = \sqrt{58.8 \mmss} = 7.67 \ms \approx 7.7 \ms $$
 </div>
 
 **(b) Deceleration upon landing:**
@@ -2075,28 +2130,28 @@ $$ v = \sqrt{58.8} = 7.67 \ms \approx 7.7 \ms $$
 1. Identify the known values:
    - Initial velocity: $$ v_0 = 7.7 \ms $$ (from part a)
    - Final velocity: $$ v = 0 $$ (comes to rest)
-   - Stopping distance: $$ x - x_0 = 2.0 \text{ cm} = 0.020 \m $$
+   - Stopping displacement: $$ y - y_0 = +2.0 \text{ cm} = +0.020 \m $$ (downward)
 
 2. Use the kinematic equation:
 <div class="equation">
-$$ v^2 = v_0^2 + 2a(x - x_0) $$
+$$ v^2 = v_0^2 + 2a(y - y_0) $$
 </div>
 
 3. Solve for acceleration:
 <div class="equation">
-$$ a = \frac{v^2 - v_0^2}{2(x - x_0)} = \frac{0 - (7.7)^2}{2(0.020)} = \frac{-59.29}{0.040} = -1482 \mss \approx -1.5 \times 10^{3} \mss $$
+$$ a = \frac{v^2 - v_0^2}{2(y - y_0)} = \frac{0 - (7.7 \ms)^2}{2(0.020 \m)} = \frac{-59.29 \mmss}{0.040 \m} = -1482 \mss \approx -1.5 \times 10^{3} \mss $$
 </div>
 
 4. Compare to the airman's deceleration from the previous problem ($$ -486 \mss $$):
 <div class="equation">
-$$ \frac{1482}{486} \approx 3.0 $$
+$$ \frac{1482 \mss}{486 \mss} \approx 3.0 $$
 </div>
 
 The squirrel's deceleration is about 3 times greater than the airman's!
 
 5. Express in multiples of g:
 <div class="equation">
-$$ \frac{1482}{9.80} \approx 151g $$
+$$ \frac{1482 \mss}{9.80 \mss} \approx 151 $$
 </div>
 
 **Discussion**
@@ -2142,6 +2197,12 @@ the station?
 
 The train decelerates at a constant rate as it passes through the station. We need to track the motion of both the nose and the end of the train. For parts (a) and (b), we analyze the nose traveling 210 m through the station. For parts (c) and (d), we analyze the end of the train, which must travel 210 m + 130 m = 340 m (the station length plus the train length) before it clears the station.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the train travels, with the origin at the entrance of the 210-m station. At t = 0 the nose is at x₀ = 0 with v₀ = +22.0 m/s, and the 130-m train trails behind it. The nose leaves the station at x = 210 m; the end of the train leaves when the nose is at x = 340 m. The acceleration points in −x: a = −0.150 m/s².](../resources/sketch_02_05_p17.svg){: .sketch}
+
+Take $$ +x $$ in the direction the train travels, with the origin at the station entrance and $$ t = 0 $$ when the nose enters. Then $$ v_0 = +22.0 \ms $$ and $$ a = -0.150 \mss $$. The nose leaves the station at $$ x = 210 \m $$; the end of the train, 130 m behind the nose, leaves when the nose reaches $$ x = 340 \m $$.
+
 **Solution**
 
 **Knowns:**
@@ -2162,35 +2223,35 @@ The nose travels a distance of 210 m. We know $$ v_0 $$, $$ a $$, and $$ x - x_0
 Taking $$ x_0 = 0 $$:
 
 <div class="equation">
-$$ 210 = 22.0 t + \frac{1}{2}(-0.150)t^2 $$
+$$ 210 \m = 22.0 \ms t + \frac{1}{2}(-0.150 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 210 = 22.0 t - 0.0750 t^2 $$
+$$ 210 \m = 22.0 \ms t - 0.0750 \mss t^2 $$
 </div>
 
 Rearrange to standard quadratic form:
 
 <div class="equation">
-$$ 0.0750 t^2 - 22.0 t + 210 = 0 $$
+$$ 0.0750 \mss t^2 - 22.0 \ms t + 210 \m = 0 $$
 </div>
 
-Using the quadratic formula with $$ a = 0.0750 $$, $$ b = -22.0 $$, $$ c = 210 $$:
+Using the quadratic formula with $$ a = 0.0750 \mss $$, $$ b = -22.0 \ms $$, $$ c = 210 \m $$:
 
 <div class="equation">
-$$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{22.0 \pm \sqrt{(-22.0)^2 - 4(0.0750)(210)}}{2(0.0750)} $$
+$$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{22.0 \ms \pm \sqrt{(-22.0 \ms)^2 - 4(0.0750 \mss)(210 \m)}}{2(0.0750 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{22.0 \pm \sqrt{484 - 63.0}}{0.150} = \frac{22.0 \pm \sqrt{421}}{0.150} = \frac{22.0 \pm 20.518}{0.150} $$
+$$ t = \frac{22.0 \ms \pm \sqrt{484 \mmss - 63.0 \mmss}}{0.150 \mss} = \frac{22.0 \ms \pm \sqrt{421 \mmss}}{0.150 \mss} = \frac{22.0 \ms \pm 20.518 \ms}{0.150 \mss} $$
 </div>
 
 This gives two solutions:
 
-- $$ t_1 = \frac{22.0 + 20.518}{0.150} = \frac{42.518}{0.150} = 283 \s $$
-- $$ t_2 = \frac{22.0 - 20.518}{0.150} = \frac{1.482}{0.150} = 9.88 \s $$
+- $$ t_1 = \frac{22.0 \ms + 20.518 \ms}{0.150 \mss} = \frac{42.518 \ms}{0.150 \mss} = 283 \s $$
+- $$ t_2 = \frac{22.0 \ms - 20.518 \ms}{0.150 \mss} = \frac{1.482 \ms}{0.150 \mss} = 9.88 \s $$
 
-Because $$ 22.0 $$ and $$ \sqrt{421} $$ are nearly equal, keep extra digits of the square root before subtracting; rounding it to 20.5 first would give 10.0 s.
+Because $$ 22.0 \ms $$ and $$ \sqrt{421 \mmss} $$ are nearly equal, keep extra digits of the square root before subtracting; rounding it to 20.5 first would give 10.0 s.
 
 The physically meaningful solution is $$ t_{\text{nose}} = 9.88 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
 
@@ -2201,49 +2262,49 @@ The physically meaningful solution is $$ t_{\text{nose}} = 9.88 \s $$ (the large
 Use $$ v = v_0 + at $$:
 
 <div class="equation">
-$$ v_{\text{nose}} = 22.0 \ms + (-0.150 \mss)(9.878 \s) = 22.0 - 1.48 = 20.5 \ms $$
+$$ v_{\text{nose}} = 22.0 \ms + (-0.150 \mss)(9.878 \s) = 22.0 \ms - 1.48 \ms = 20.5 \ms $$
 </div>
 
 We can verify using $$ v^2 = v_0^2 + 2a(x - x_0) $$:
 
 <div class="equation">
-$$ v_{\text{nose}}^2 = (22.0)^2 + 2(-0.150)(210) = 484 - 63.0 = 421 \mmss $$
+$$ v_{\text{nose}}^2 = (22.0 \ms)^2 + 2(-0.150 \mss)(210 \m) = 484 \mmss - 63.0 \mmss = 421 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_{\text{nose}} = \sqrt{421} = 20.5 \ms $$ ✓
+$$ v_{\text{nose}} = \sqrt{421 \mmss} = 20.5 \ms $$ ✓
 </div>
 
 **(c) Time for end of train to leave the station:**
 
 **Unknown:** Time $$ t_{\text{end}} $$
 
-The end of the train must travel the station length plus the train length: $$ 210 + 130 = 340 \m $$
+The end of the train must travel the station length plus the train length: $$ 210 \m + 130 \m = 340 \m $$
 
 Using $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
-$$ 340 = 22.0 t - 0.0750 t^2 $$
+$$ 340 \m = 22.0 \ms t - 0.0750 \mss t^2 $$
 </div>
 
 <div class="equation">
-$$ 0.0750 t^2 - 22.0 t + 340 = 0 $$
+$$ 0.0750 \mss t^2 - 22.0 \ms t + 340 \m = 0 $$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
-$$ t = \frac{22.0 \pm \sqrt{484 - 4(0.0750)(340)}}{0.150} = \frac{22.0 \pm \sqrt{484 - 102}}{0.150} $$
+$$ t = \frac{22.0 \ms \pm \sqrt{484 \mmss - 4(0.0750 \mss)(340 \m)}}{0.150 \mss} = \frac{22.0 \ms \pm \sqrt{484 \mmss - 102 \mmss}}{0.150 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{22.0 \pm \sqrt{382}}{0.150} = \frac{22.0 \pm 19.545}{0.150} $$
+$$ t = \frac{22.0 \ms \pm \sqrt{382 \mmss}}{0.150 \mss} = \frac{22.0 \ms \pm 19.545 \ms}{0.150 \mss} $$
 </div>
 
 This gives:
 
-- $$ t_1 = \frac{22.0 + 19.545}{0.150} = 277 \s $$ (unphysical)
-- $$ t_2 = \frac{22.0 - 19.545}{0.150} = \frac{2.455}{0.150} = 16.4 \s $$
+- $$ t_1 = \frac{22.0 \ms + 19.545 \ms}{0.150 \mss} = 277 \s $$ (unphysical)
+- $$ t_2 = \frac{22.0 \ms - 19.545 \ms}{0.150 \mss} = \frac{2.455 \ms}{0.150 \mss} = 16.4 \s $$
 
 So $$ t_{\text{end}} = 16.4 \s $$.
 
@@ -2254,7 +2315,7 @@ So $$ t_{\text{end}} = 16.4 \s $$.
 Use $$ v = v_0 + at $$:
 
 <div class="equation">
-$$ v_{\text{end}} = 22.0 \ms + (-0.150 \mss)(16.368 \s) = 22.0 - 2.46 = 19.5 \ms $$
+$$ v_{\text{end}} = 22.0 \ms + (-0.150 \mss)(16.368 \s) = 22.0 \ms - 2.46 \ms = 19.5 \ms $$
 </div>
 
 **Units check:** All dimensional analysis confirms proper units throughout.
@@ -2265,7 +2326,7 @@ The results make physical sense. The nose of the train takes 9.88 s to traverse 
 
 The deceleration of 0.150 m/s² is quite gentle—only about 1.5% of gravitational acceleration. This is typical for passenger trains, ensuring passenger comfort. Over the 16.4 seconds that the train occupies the station, it slows by only 2.5 m/s (from 22.0 to 19.5 m/s), which passengers would barely notice.
 
-The average velocity during the passage can be calculated as $$ \overline{v} = \frac{v_0 + v}{2} = \frac{22.0 + 19.5}{2} = 20.75 \ms $$, and the total distance traveled is $$ 340 \m $$, giving $$ t = \frac{340}{20.75} = 16.4 \s $$, which agrees with the quadratic-formula result of 16.4 s.
+The average velocity during the passage can be calculated as $$ \overline{v} = \frac{v_0 + v}{2} = \frac{22.0 \ms + 19.5 \ms}{2} = 20.75 \ms $$, and the total distance traveled is $$ 340 \m $$, giving $$ t = \frac{340 \m}{20.75 \ms} = 16.4 \s $$, which agrees with the quadratic-formula result of 16.4 s.
 
 **Answer**
 
@@ -2300,6 +2361,12 @@ less time than given in [Example 3](#example3) and
 
 For part (a), we calculate average acceleration using the change in velocity and time. For part (b), we use this acceleration with the distance to find final velocity, assuming constant acceleration. For part (c), we discuss why constant acceleration is not a valid assumption for dragsters and how this affects our calculated values.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points down the strip, with the origin at the starting line. Start: t = 0, x₀ = 0, v₀ = 0. Part (a): after 4.45 s, v = +145 m/s and the average acceleration is unknown. Part (b): at x = 402 m, v is unknown. The acceleration points in +x.](../resources/sketch_02_05_p18.svg){: .sketch}
+
+Take $$ +x $$ down the strip, with the origin and $$ t = 0 $$ at the starting line. Then $$ v_0 = 0 $$, and in part (b) the position $$ x = 402 \m $$ equals the distance traveled.
+
 **Solution**
 
 **(a) Average acceleration:**
@@ -2311,7 +2378,7 @@ For part (a), we calculate average acceleration using the change in velocity and
 
 2. Calculate average acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{145 - 0}{4.45} = 32.6 \mss $$
+$$ a = \frac{v - v_0}{t} = \frac{145 \ms - 0}{4.45 \s} = 32.6 \mss $$
 </div>
 
 **(b) Final velocity over a quarter mile (402 m):**
@@ -2328,11 +2395,11 @@ $$ v^2 = v_0^2 + 2ax $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(32.6)(402) = 26,210 \mmss $$
+$$ v^2 = 0 + 2(32.6 \mss)(402 \m) = 26,210 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{26,210} = 162 \ms $$
+$$ v = \sqrt{26,210 \mmss} = 162 \ms $$
 </div>
 
 **(c) Why is the final velocity greater?**
@@ -2390,6 +2457,12 @@ and in seconds) did the winner finish?
 
 This problem involves multiple phases of motion. The winner accelerates for 7.00 s, then continues at constant velocity. We need to find the final velocity after acceleration, calculate the time saved compared to non-accelerated motion, and compare the winner's finish with the other racer who maintains constant velocity.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points toward the finish line, with the origin where the winner starts to accelerate. Winner: t = 0, x₀ = 0, v₀ = +11.5 m/s, a = +0.500 m/s² for 7.00 s, then constant speed (a = 0). The other racer (orange) starts 5.00 m ahead, at x = 5.00 m, moving at a constant +11.8 m/s. The finish line is at x = 300 m.](../resources/sketch_02_05_p19.svg){: .sketch}
+
+Take $$ +x $$ toward the finish line, with the origin where the winner starts to accelerate and $$ t = 0 $$ at that instant. The finish line is at $$ x = 300 \m $$, the winner starts at $$ x_0 = 0 $$ with $$ v_0 = +11.5 \ms $$, and the other racer starts at $$ x_0 = 5.00 \m $$ with a constant $$ v = +11.8 \ms $$.
+
 **Solution**
 
 **Knowns:**
@@ -2408,7 +2481,7 @@ This problem involves multiple phases of motion. The winner accelerates for 7.00
 Use $$ v = v_0 + at $$:
 
 <div class="equation">
-$$ v = 11.5 \ms + (0.500 \mss)(7.00 \s) = 11.5 + 3.50 = 15.0 \ms $$
+$$ v = 11.5 \ms + (0.500 \mss)(7.00 \s) = 11.5 \ms + 3.50 \ms = 15.0 \ms $$
 </div>
 
 **(b) Time saved by accelerating:**
@@ -2422,13 +2495,13 @@ $$ x_{\text{accel}} = (11.5 \ms)(7.00 \s) + \frac{1}{2}(0.500 \mss)(7.00 \s)^2 $
 </div>
 
 <div class="equation">
-$$ x_{\text{accel}} = 80.5 \m + \frac{1}{2}(0.500)(49.0) \m = 80.5 + 12.25 = 92.75 \m $$
+$$ x_{\text{accel}} = 80.5 \m + \frac{1}{2}(0.500 \mss)(49.0 \s^2) = 80.5 \m + 12.25 \m = 92.75 \m $$
 </div>
 
 Remaining distance to finish line:
 
 <div class="equation">
-$$ x_{\text{remaining}} = 300 - 92.75 = 207.25 \m $$
+$$ x_{\text{remaining}} = 300 \m - 92.75 \m = 207.25 \m $$
 </div>
 
 Time to cover remaining distance at constant velocity of 15.0 m/s:
@@ -2440,7 +2513,7 @@ $$ t_{\text{remaining}} = \frac{207.25 \m}{15.0 \ms} = 13.8 \s $$
 **Total time with acceleration:**
 
 <div class="equation">
-$$ t_{\text{total, accel}} = 7.00 + 13.8 = 20.8 \s $$
+$$ t_{\text{total, accel}} = 7.00 \s + 13.8 \s = 20.8 \s $$
 </div>
 
 **Time if no acceleration** (maintaining 11.5 m/s for entire 300 m):
@@ -2452,17 +2525,17 @@ $$ t_{\text{no accel}} = \frac{300 \m}{11.5 \ms} = 26.1 \s $$
 **Time saved:**
 
 <div class="equation">
-$$ \Delta t = 26.1 - 20.8 = 5.3 \s $$
+$$ \Delta t = 26.1 \s - 20.8 \s = 5.3 \s $$
 </div>
 
 **(c) Comparison with other racer:**
 
-The other racer starts 5.00 m ahead of the winner, so when the winner begins to accelerate he is 5.00 m behind the finish line. The other racer therefore has $$ 300 - 5.00 = 295 \m $$ remaining to the finish.
+The other racer starts 5.00 m ahead of the winner, so that racer has $$ 300 \m - 5.00 \m = 295 \m $$ remaining to the finish.
 
 **Winner's finish time** (from part (b)):
 
 <div class="equation">
-$$ t_{\text{winner}} = 7.00 + \frac{207.25 \m}{15.0 \ms} = 20.82 \s $$
+$$ t_{\text{winner}} = 7.00 \s + \frac{207.25 \m}{15.0 \ms} = 20.82 \s $$
 </div>
 
 **Other racer's time to finish:**
@@ -2474,7 +2547,7 @@ $$ t_{\text{other}} = \frac{295 \m}{11.8 \ms} = 25.00 \s $$
 **Time difference:**
 
 <div class="equation">
-$$ \Delta t = 25.00 - 20.82 = 4.18 \s $$
+$$ \Delta t = 25.00 \s - 20.82 \s = 4.18 \s $$
 </div>
 
 **Distance ahead:** When the winner finishes (at $$ t = 20.82 \s $$), the other racer has traveled:
@@ -2483,7 +2556,7 @@ $$ \Delta t = 25.00 - 20.82 = 4.18 \s $$
 $$ x_{\text{other}} = (11.8 \ms)(20.82 \s) = 245.6 \m $$
 </div>
 
-The other racer still needs to travel $$ 295 - 245.6 = 49.4 \m $$ to reach the finish line.
+The other racer still needs to travel $$ 295 \m - 245.6 \m = 49.4 \m $$ to reach the finish line.
 
 So the winner finishes **49.4 m ahead** and **4.18 s ahead**.
 
@@ -2497,7 +2570,7 @@ The comparison with the other racer is particularly interesting. Despite startin
 
 In real bicycle racing, this represents a classic sprint finish strategy. The ability to accelerate at the end of a race—when other competitors are fatigued—is a decisive competitive advantage. An acceleration of 0.500 m/s² sustained for 7 seconds is impressive for a cyclist, especially near the end of a race.
 
-The winner's average velocity during acceleration was $$ \overline{v} = \frac{11.5 + 15.0}{2} = 13.25 \ms $$, which we can verify: $$ (13.25)(7.00) = 92.75 \m $$ ✓
+The winner's average velocity during acceleration was $$ \overline{v} = \frac{11.5 \ms + 15.0 \ms}{2} = 13.25 \ms $$, which we can verify: $$ (13.25 \ms)(7.00 \s) = 92.75 \m $$ ✓
 
 **Answer**
 
@@ -2530,6 +2603,12 @@ did it take Burt to complete the course?
 
 Convert all quantities to SI units. The motion has two phases: constant acceleration from rest up to the maximum speed, then constant speed for the rest of the course. Find the acceleration from the 0-to-60 mi/h time, then the time and distance for the acceleration phase, and finally the time to cover the remaining distance at top speed.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points along the 5.00-mi course, with the origin at the start. Start: t = 0, x₀ = 0, v₀ = 0. Phase 1: a = +6.706 m/s² (0 to 60.0 mi/h in 4.00 s) until v₁ = +82.07 m/s (183.58 mi/h), at unknown t₁ and x₁. Phase 2: constant speed, a = 0, to the end of the course at x = 8047 m, at unknown time t.](../resources/sketch_02_05_p20.svg){: .sketch}
+
+Take $$ +x $$ along the course, with the origin and $$ t = 0 $$ at the start. The motion has two phases: constant acceleration $$ a = +6.706 \mss $$ from rest to $$ v_{\max} $$, then constant velocity ($$ a = 0 $$) to the end of the course at $$ x = L = 8047 \m $$.
+
 **Solution**
 
 Conversions (1 mi = 1609.344 m): $$ 60.0 \text{ mi/h} = 26.82 \ms $$, $$ v_{\max} = 183.58 \text{ mi/h} = 82.07 \ms $$, and the course length is $$ L = 5.00 \text{ mi} = 8047 \m $$.
@@ -2556,7 +2635,7 @@ $$ t = t_1 + t_2 = 12.24 \s + 91.9 \s = 104 \s $$
 
 **Discussion**
 
-The acceleration phase takes only about 12 s and 0.5 km; most of the 5-mile run is at top speed. As a check, covering the whole course at top speed would take $$ 8047/82.07 = 98.0 \s $$; the extra 6 s is exactly the time lost during the acceleration phase ($$ t_1/2 $$), because the average speed while accelerating from rest is half the top speed.
+The acceleration phase takes only about 12 s and 0.5 km; most of the 5-mile run is at top speed. As a check, covering the whole course at top speed would take $$ \frac{8047 \m}{82.07 \ms} = 98.0 \s $$; the extra 6 s is exactly the time lost during the acceleration phase ($$ t_1/2 $$), because the average speed while accelerating from rest is half the top speed.
 
 **Answer**
 
@@ -2580,6 +2659,12 @@ It took Burt about **104 s** to complete the course.
 **Strategy**
 
 Each race has two phases: constant acceleration from rest for 3.00 s up to the maximum speed $$ v $$, then constant speed $$ v $$ for the rest of the race. During the acceleration phase the average speed is $$ v/2 $$, so the distance covered is $$ \frac{v}{2}(3.00 \s) $$. The remaining time, $$ t - 3.00 \s $$, is run at speed $$ v $$. Set the total distance equal to the race length and solve for $$ v $$.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points along the track, with the origin at the start. Start: t = 0, x₀ = 0, v₀ = 0. Phase 1: constant acceleration a (unknown, in +x) for 3.00 s up to the maximum speed v (unknown). Phase 2: constant speed v, a = 0, to the finish: x = 100 m at t = 9.69 s, or x = 200 m at t = 19.30 s.](../resources/sketch_02_05_p21.svg){: .sketch}
+
+Take $$ +x $$ along the track, with the origin and $$ t = 0 $$ at the start. Phase 1 is constant acceleration from rest for 3.00 s; phase 2 is constant velocity $$ v $$ ($$ a = 0 $$) to the finish line.
 
 **Solution**
 

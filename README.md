@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![CI](https://img.shields.io/github/actions/workflow/status/veillette/physics-book2/ci.yml?style=for-the-badge&logo=github)](https://github.com/veillette/physics-book2/actions/workflows/ci.yml)
-[![Live Preview (GitHub Pages)](https://img.shields.io/badge/Live%20Preview-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://veillette.github.io/physics-book2/)
+[![CI](https://img.shields.io/github/actions/workflow/status/veillette/physics-book/ci.yml?style=for-the-badge&logo=github)](https://github.com/veillette/physics-book/actions/workflows/ci.yml)
+[![Live Preview (GitHub Pages)](https://img.shields.io/badge/Live%20Preview-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://veillette.github.io/physics-book/)
 [![Table of Contents](https://img.shields.io/badge/TOC-Table%20of%20Contents-orange?style=for-the-badge&logo=bookmark)](./SUMMARY.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.txt)
 
@@ -42,7 +42,7 @@ PDFs are **not stored in git** (~587 MB). They are generated automatically durin
 - Clean, print-optimized formatting
 - Automatic failure recovery and regeneration
 
-A quarterly workflow also publishes PDFs to the [`pdfs` GitHub Release](https://github.com/veillette/physics-book2/releases) as a downloadable archive.
+A quarterly workflow also publishes PDFs to the [`pdfs` GitHub Release](https://github.com/veillette/physics-book/releases) as a downloadable archive.
 
 ### Available PDFs
 
@@ -89,8 +89,8 @@ Want to contribute or run a local copy? It's easy!
 
 ```console
 # 1. Clone or fork the repository
-git clone https://github.com/veillette/physics-book2.git
-cd physics-book2
+git clone https://github.com/veillette/physics-book.git
+cd physics-book
 
 # 2. Install Node.js dependencies
 npm install
@@ -99,7 +99,7 @@ npm install
 npm run serve
 # npm run build
 
-# 4. View your local copy at http://localhost:4000/physics-book2/
+# 4. View your local copy at http://localhost:4000/physics-book/
 ```
 
 ### Useful Development Commands
@@ -136,7 +136,7 @@ npm run fix:equations         # Fix equation issues
 # Generate assets
 npm run generate:icons        # Generate PWA icons
 npm run generate:pdf          # Generate PDF chapters (requires the dev server)
-npm run generate:search-index # Build search index
+npm run generate:search-index # Manually rebuild search index (automatic during build/serve)
 
 # Code quality
 npm run lint                  # ESLint check
@@ -174,9 +174,9 @@ We welcome contributions from the physics education community! Your help makes t
 - **Improve Explanations**: Make complex topics more accessible.
 - **Add Solutions**: Contribute worked solutions to end-of-chapter problems.
 - **Enhance Visuals**: Create or improve diagrams, illustrations, and figures.
-- **Report Issues**: Found a bug or broken link? [Open an issue](https://github.com/veillette/physics-book2/issues).
+- **Report Issues**: Found a bug or broken link? [Open an issue](https://github.com/veillette/physics-book/issues).
 
-For detailed project conventions, see [`claude.md`](./claude.md).
+For detailed project conventions, see [`AGENTS.md`](./AGENTS.md).
 
 ## 🎉 Recent Improvements
 
@@ -214,7 +214,7 @@ For detailed project conventions, see [`claude.md`](./claude.md).
 - Better offline support
 - Automated quality checks (links, accessibility, content)
 
-See [`claude.md`](./claude.md) for complete details on recent improvements.
+See [`AGENTS.md`](./AGENTS.md) for complete details on recent improvements.
 
 ## 📝 License
 

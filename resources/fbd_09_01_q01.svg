@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of a car moving at constant velocity</title>
+<desc id="desc">Free-body diagram of a car moving to the right at constant velocity on a level road, with +x in the direction of motion and +y up: the road pushes the drive wheels forward with F along +x, air resistance and rolling friction f point backward along −x with the same length, normal force N up and weight w down have equal lengths. The net force is zero, so a = 0 and the velocity v stays constant.</desc>
+<rect width="420" height="300" fill="#ffffff"/>
+<line x1="30" y1="150" x2="371" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="380,150 370,154.2 370,145.8" fill="#555555"/>
+<line x1="200" y1="265" x2="200" y2="44" stroke="#555555" stroke-width="1.5"/><polygon points="200,35 204.2,45 195.8,45" fill="#555555"/>
+<line x1="200" y1="150" x2="200" y2="81" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,70 205.04,82 194.96,82" fill="#b03a2e"/>
+<line x1="200" y1="150" x2="200" y2="219" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,230 194.96,218 205.04,218" fill="#b03a2e"/>
+<line x1="200" y1="150" x2="289" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="300,150 288,155.04 288,144.96" fill="#b03a2e"/>
+<line x1="200" y1="150" x2="111" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="100,150 112,144.96 112,155.04" fill="#b03a2e"/>
+<circle cx="200" cy="150" r="6" fill="#1f3a5f"/>
+<text x="210" y="172" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">car</text>
+<text x="396" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="200" y="25" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="212" y="89" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="212" y="225" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="286" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="114" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="80" y="61" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="310" y="60" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#444444" text-anchor="middle">v = constant →</text>
+</svg>

@@ -30,3 +30,6 @@ __pycache__/
 
 # Link checker cache
 .link-cache.json
+
+# Generated search index (built into _site/search_index.json on every build)
+search_index.json

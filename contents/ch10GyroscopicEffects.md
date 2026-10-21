@@ -100,6 +100,27 @@ No, energy is always a scalar whether motion is involved or not. No form of ener
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Steady Precession
+</div>
+
+Spin a gyroscope and watch its axis sweep steadily around the vertical under gravity. The precession rate depends on the spin and on the torque.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/Precession/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Steady precession
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Torque is perpendicular to the plane formed by $$ r $$ and $$ \vb{F} $$ and is
@@ -123,6 +144,31 @@ While driving his motorcycle at highway speed, a physics student notices that pu
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Explain the initiating countersteer using external road forces and the torque-induced change of wheel angular momentum.
+
+**Solution**
+
+This is **countersteering**: pulling the right grip backward briefly steers the front wheel to the right, which initiates a lean to the left; the steering then adjusts for the sustained left turn. It does not mean that the wheel remains steered right throughout the left turn.
+
+Choose $$+x$$ forward, $$+y$$ left, and $$+z$$ upward. The brief rightward steering moves the contact path to the right and produces a rightward road force below the combined center of mass. Its rolling torque tips the machine left. The spinning wheels also couple steering and lean gyroscopically: a forward-rolling wheel has spin angular momentum toward $$+y$$, and torques change its direction according to $$\vb\tau=d\vb L/dt$$. Road forces and steering geometry are essential too; gyroscopic effects alone are not a complete model of motorcycle steering.
+
+Once in a steady left turn, the machine leans left so that the road’s resultant force supports the weight and supplies inward acceleration. For an illustrative $$v=15\ms$$ and $$r=50\m$$,
+
+$$\tan\phi=\frac{v^2}{rg}=\frac{(15\ms)^2}{(50\m)(9.80\mss)}=0.459,\qquad \phi\approx25°.$$
+
+![Countersteering sketch: a brief rightward steer initiates a left lean, followed by a sustained left turn; forward, left, and upward axes are identified.](../resources/concept_10_07_q01.svg)
+
+This interpretation treats the light pull as an initiating steering input, not a permanently held steering angle. The coupled dynamics are discussed in [research on motorcycle countersteering](https://arxiv.org/abs/1611.03857).
+
+Pulling back briefly on the right handlebar initiates a rightward steer that tips the motorcycle left, after which the steering and road forces establish the left turn; wheel angular momentum contributes to this coupled response but does not by itself explain the whole motion.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -130,6 +176,23 @@ While driving his motorcycle at highway speed, a physics student notices that pu
 ::: problem
 
 Gyroscopes used in guidance systems to indicate directions in space must have an angular momentum that does not change in direction. Yet they are often subjected to large forces and accelerations. How can the direction of their angular momentum be constant when they are accelerated?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Distinguish a net force through the rotor’s center from a torque about that center.
+
+**Solution**
+
+A force changes center-of-mass linear momentum, while a torque changes spin angular momentum. Bearings arranged so that their resultant force passes through the rotor’s center can accelerate the rotor translationally without supplying a significant torque about that center. Gimbals let the surrounding vehicle rotate without forcing the spin axis to follow it.
+
+For example, an assumed $$2.0\kg$$ gyro accelerated at $$10\mss$$ needs $$F=ma=(2.0\kg)(10\mss)=20\N$$. If that force acts through its center, its lever arm is $$0\m$$ and torque is $$0\N\cdot\m$$. If the force instead acts with offset $$0.0010\m$$, it produces $$0.020\N\cdot\m$$, which changes angular momentum and causes drift or precession. Real designs minimize such torques rather than requiring all forces to vanish.
+
+A gyroscope’s angular-momentum direction can stay nearly fixed during large translational accelerations because forces through its center change linear momentum without appreciable spin torque, while gimbals reduce torque from vehicle rotation.
 
 :::
 
@@ -175,19 +238,19 @@ $$ I = \frac{2}{5}MR^2 = 9.72 \times 10^{37} \kg \cdot \mm, \quad \omega = \frac
 
 **(a)**
 <div class="equation">
-$$ \Delta L = 2L\sin 23.5° = 2(7.07 \times 10^{33})(0.399) = 5.64 \times 10^{33} \kg \cdot \mms $$
+$$ \Delta L = 2L\sin 23.5° = 2(7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s})(0.399) = 5.64 \times 10^{33} \kg \cdot \mms $$
 </div>
 
 **(b)** Half the precession period is $$ \Delta t = \frac{1}{2}(25\,780 \text{ y})(3.156 \times 10^{7} \text{ s/y}) = 4.07 \times 10^{11} \s $$:
 <div class="equation">
-$$ \tau_{\text{avg}} = \frac{\Delta L}{\Delta t} = \frac{5.64 \times 10^{33}}{4.07 \times 10^{11} \s} = 1.39 \times 10^{22} \N \cdot \m $$
+$$ \tau_{\text{avg}} = \frac{\Delta L}{\Delta t} = \frac{5.64 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s}}{4.07 \times 10^{11} \s} = 1.39 \times 10^{22} \N \cdot \m $$
 </div>
 
 This is the average of the torque's effect over half a period; the actual torque has constant magnitude but continually changes direction as it turns $$ \vb{L} $$ around the cone.
 
 **(c)**
 <div class="equation">
-$$ F = \frac{\tau}{R} = \frac{1.39 \times 10^{22} \N \cdot \m}{6.376 \times 10^{6} \m} = 2.17 \times 10^{15} \N $$
+$$ F = \frac{\tau}{R} = \frac{1.386 \times 10^{22} \N \cdot \m}{6.376 \times 10^{6} \m} = 2.17 \times 10^{15} \N $$ (using the unrounded torque from (b))
 </div>
 
 **Discussion**

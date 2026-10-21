@@ -122,7 +122,7 @@ wheel exerts on the ground is $$ 409 \N $$.
 **Discussion**
 
 An even longer handle would reduce the force needed to lift the load. The MA
-here is $$\text{MA}=1.02/0.0750=13.6 $$.
+here is $$\text{MA}=\frac{1.02 \m}{0.0750 \m}=13.6 $$.
 
 :::
 
@@ -139,7 +139,7 @@ of its actions remain the same. The MA for a crank is simply the ratio of the
 radii $$ r_{\text{i}}/r_{0} $$. Wheels and gears have this simple expression for
 their MAs too. The MA can be greater than 1, as it is for the crank, or less
 than 1, as it is for the simplified car axle driving the wheels, as shown. If
-the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0 \text{cm} $$, then $$ \text{MA}=2.0/24.0=0.083 $$ and the axle would have to
+the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0 \text{cm} $$, then $$ \text{MA}=\frac{2.0 \text{cm}}{24.0 \text{cm}}=0.083 $$ and the axle would have to
 exert a force of $$ 12 000 \N $$ on the wheel to enable it to exert a force of
 $$ 1000 \N $$ on the ground.
 
@@ -157,7 +157,7 @@ the MA of the pulley system. Since each attachment applies an external force in
 approximately the same direction as the others, they add, producing a total
 force that is nearly an integral multiple of the input force $$ T $$.
 
-![In figure a, a rope over two pulleys is shown. One pulley is fixed at the roof and the other is hanging through the rope. A weight is hanging from the second pulley. The tensions T are shown at the two parts of hanging pulley and at the free end of the rope. The mechanical advantage of the system is two. In figure b, a set of three pulleys is shown. A pulley is fixed at the roof with another pulley below it. The third pulley is hanging through the rope with a weight hanging at it. The tensions on the rope are shown as vectors on the rope and at the end of the rope. In figure c, set of three pulleys is shown. One of the pulleys is fixed at the roof. Two connected pulleys are hanging through a rope over the first pulley. The directions of the tensions are marked on the ropes and at the end of the rope.](../resources/Figure_09_05_04.jpg "(a) The combination of pulleys is used to multiply force. The force is an integral multiple of tension if the pulleys are frictionless. This pulley system has two cables attached to its load, thus applying a force of approximately \( 2T \). This machine has \( MA \approx 2 \). (b) Three pulleys are used to lift a load in such a way that the mechanical advantage is about 3. Effectively, there are three cables attached to the load.
+![In figure a, a rope over two pulleys is shown. One pulley is fixed at the roof and the other is hanging through the rope. A weight is hanging from the second pulley. The tensions T are shown at the two parts of hanging pulley and at the free end of the rope. The mechanical advantage of the system is two. In figure b, a set of three pulleys is shown. A pulley is fixed at the roof with another pulley below it. The third pulley is hanging through the rope with a weight hanging at it. The tensions on the rope are shown as vectors on the rope and at the end of the rope. In figure c, set of three pulleys is shown. One of the pulleys is fixed at the roof. Two connected pulleys are hanging through a rope over the first pulley. The directions of the tensions are marked on the ropes and at the end of the rope.](../resources/Figure_09_05_04.svg "(a) The combination of pulleys is used to multiply force. The force is an integral multiple of tension if the pulleys are frictionless. This pulley system has two cables attached to its load, thus applying a force of approximately \( 2T \). This machine has \( MA \approx 2 \). (b) Three pulleys are used to lift a load in such a way that the mechanical advantage is about 3. Effectively, there are three cables attached to the load.
 (c) This pulley system applies a force of \( 4 T \) , so that it has \( MA \approx 4 \). Effectively, four cables are pulling on the system of interest. ")
 {: #Figure4}
 
@@ -184,25 +184,25 @@ Scissors are like a double-lever system. Which of the simple machines in [Figure
 
 **Strategy**
 
-We analyze the structure of scissors and compare it to the lever configurations shown in Figures 1 and 2. Scissors have two crossed blades that pivot at a central fulcrum, with the input force applied at the handles and the output force applied at the cutting edges.
+Identify where the pivot, the input force, and the output force are located on a pair of scissors, and compare this arrangement with the levers in Figures 1 and 2.
 
 **Solution**
 
-Scissors are most analogous to the **nail puller** shown in [Figure 1](#Figure1).
+Each blade of a pair of scissors is a lever:
 
-In scissors:
-- The **fulcrum (pivot point)** is at the screw or rivet where the two blades cross
-- The **input force** is applied at the handles (far from the pivot)
-- The **output force** is exerted at the cutting edges (closer to the pivot)
+- the **pivot** (fulcrum) is the rivet where the blades cross;
+- the **input force** $$ F_{i} $$ is applied by your fingers at the handles;
+- the **output force** $$ F_{o} $$ is exerted on the paper or cloth by the cutting edge.
 
-This is the same configuration as the nail puller, where:
-- The pivot is between the input and output forces
-- The input lever arm (from pivot to handles) is longer than the output lever arm (from pivot to blades)
-- This gives scissors a mechanical advantage greater than 1
+The pivot lies **between** the input and output forces, exactly as in the **nail puller** of Figure 1, whose pivot (the point resting on the board) lies between the hand and the nail. (In the wheelbarrow and the shovel of Figure 2, the pivot is at one end, not between the forces.) Each blade is therefore like a nail puller, and the pair works as two such levers acting against each other. The mechanical advantage is
 
-**Discussion**
+<div class="equation">
+$$ \text{MA} = \frac{F_{o}}{F_{i}} = \frac{l_{i}}{l_{o}} $$
+</div>
 
-This is why scissors have long handles relative to their cutting blades—the longer handles increase the mechanical advantage, allowing us to cut through tough materials with relatively little effort. Different types of scissors vary their MA: fabric scissors have longer blades for smooth cuts, while sheet metal snips have very short blades and very long handles for maximum cutting force. This is a first-class lever system.
+Cutting with material $$ 2.0 \text{ cm} $$ from the rivet while your fingers are $$ 6.0 \text{ cm} $$ from it gives $$ \text{MA} = (6.0 \text{ cm})/(2.0 \text{ cm}) = 3.0 $$, so a $$ 20 \N $$ squeeze cuts with $$ 60 \N $$. That is why thick material is easier to cut near the rivet.
+
+Scissors are most analogous to the nail puller of Figure 1, because each blade is a lever with its pivot at the rivet between the input force at the handle and the output force at the cutting edge (for example, a mechanical advantage of $$ 3.0 $$ when cutting $$ 2.0 \text{ cm} $$ from the rivet with fingers $$ 6.0 \text{ cm} $$ from it).
 
 :::
 
@@ -220,25 +220,29 @@ Suppose you pull a nail at a constant rate using a nail puller as shown in [Figu
 
 **Strategy**
 
-We apply the conditions for equilibrium. A system is in equilibrium when the net force and net torque are zero, which means there is no acceleration.
+Equilibrium means zero net force and zero net torque, so no acceleration. Take torques about the pivot of the nail puller, and compare pulling at a steady rate with pulling while speeding up.
 
 **Solution**
 
-**Constant rate:** To a good approximation, yes, the nail puller **is in equilibrium**. Strictly, a rotating lever is not exactly in equilibrium even when the nail moves at constant speed: points on the rotating puller have centripetal acceleration, and because the lever geometry changes as it rotates, a constant nail speed does not mean a constant angular speed. However, the tool's mass and speed are small, so if we neglect its inertia and treat the motion as **quasistatic**, the net force and net torque on it are essentially zero, as in the elementary lever model.
+**Constant rate.** If the nail comes out at a steady, slow rate, the nail puller is (to a very good approximation) **in equilibrium**: it is not speeding up its rotation, so the net torque on it is essentially zero. (Strictly, a rotating lever's geometry changes as it turns, but for a light tool moving slowly this is negligible.) Taking torques about the pivot,
 
-**With acceleration:** No, the nail puller **is not in equilibrium**. When accelerating, there must be a net force and/or net torque acting on the system.
+<div class="equation">
+$$ F_{i}l_{i} = F_{n}l_{o} $$
+</div>
 
-**Which case requires more force?** The force applied to the nail puller is **larger when pulling with acceleration**.
+For a nail resisting with $$ F_{n} = 1000 \N $$, $$ l_{o} = 0.030 \m $$, and $$ l_{i} = 0.30 \m $$, the hand must push with $$ F_{i} = (1000 \N)(0.030 \m)/(0.30 \m) = 100 \N $$.
 
-Here's why:
-- When in equilibrium (constant rate): $$ F_{\text{input}} \cdot l_i = F_{\text{nail}} \cdot l_o $$
-- When accelerating: $$ F_{\text{input}} \cdot l_i = F_{\text{nail}} \cdot l_o + I\alpha $$
+**With acceleration.** If you pull so that the nail puller's rotation speeds up, it is **not in equilibrium**. There must be a net torque to give it, and the nail, an angular acceleration $$ \alpha $$:
 
-where $$ I\alpha $$ represents the additional torque needed to produce angular acceleration. The input force must not only overcome the resistance from the nail but also provide the extra force to accelerate the system.
+<div class="equation">
+$$ F_{i}l_{i} - F_{n}l_{o} = I\alpha > 0 $$
+</div>
 
-**Discussion**
+The applied force must exceed $$ 100 \N $$, by an amount that depends on how hard you accelerate it.
 
-This is analogous to pushing a car: maintaining constant velocity requires only enough force to overcome friction, while accelerating requires additional force according to $$ F = ma $$. In practice, a skilled user pulls nails at nearly constant speed, minimizing the required force and reducing fatigue.
+**Which force is larger?** The force applied to the nail puller is **larger when you accelerate it**. You must both overcome the nail's resistance and supply the extra torque that produces the angular acceleration.
+
+The nail puller is in equilibrium when the nail is pulled at a constant rate and not in equilibrium when it is accelerated, and the force you apply is larger in the accelerated case, because then it must supply a net torque $$ I\alpha $$ in addition to balancing the nail's resistance (which alone takes $$ 100 \N $$ in this example).
 
 :::
 
@@ -256,26 +260,21 @@ Why are the forces exerted on the outside world by the limbs of our bodies usual
 
 **Strategy**
 
-We analyze the lever systems in the body, recognizing that muscles are typically attached very close to joints while the load is applied at the end of limbs far from the joint.
+Treat a limb as a lever, using the forearm example of the section Forces and Torques in Muscles and Joints. Compare the lever arm of the muscle with the lever arm of the load at the hand.
 
 **Solution**
 
-The forces exerted on the outside world by limbs are smaller than the forces exerted by muscles because most skeletal muscle systems have a **mechanical advantage much less than 1**.
+Most muscles attach to bones **very close to the joint**, while we exert forces on the outside world with our hands and feet, **far from the joint**. In the forearm, the biceps attaches $$ 4.00 \text{ cm} $$ from the elbow, while the hand is $$ 38.0 \text{ cm} $$ from it. For equilibrium, taking torques about the elbow (and ignoring the forearm's own weight),
 
-This occurs because:
-1. **Muscles attach close to joints:** Tendons typically connect muscles to bones very near the pivot point (joint). This creates a short input lever arm ($$ l_i $$).
+<div class="equation">
+$$ F_{\text{muscle}}(4.00 \text{ cm}) = F_{\text{hand}}(38.0 \text{ cm}) \quad \Rightarrow \quad F_{\text{muscle}} = 9.5F_{\text{hand}} $$
+</div>
 
-2. **Loads are applied far from joints:** We interact with the outside world at the ends of our limbs (hands, feet), which are far from the joint. This creates a long output lever arm ($$ l_o $$).
+The mechanical advantage is $$ (4.00 \text{ cm})/(38.0 \text{ cm}) = 0.105 $$, much less than 1, so the biceps must pull about 9.5 times harder than the hand pushes. Holding a $$ 4.00 \kg $$ ball, with a weight of $$ 39.2 \N $$, takes about $$ 373 \N $$ from the biceps for the ball alone, and $$ 470 \N $$ once the forearm's weight is included.
 
-3. **MA relationship:** For levers, $$ \text{MA} = \frac{F_{\text{output}}}{F_{\text{input}}} = \frac{l_i}{l_o} $$
+This arrangement trades force for speed and range: when the biceps shortens by $$ 1.0 \text{ cm} $$, the hand moves about $$ 9.5 \text{ cm} $$, so the hand moves fast and far.
 
-Since $$ l_i < l_o $$ in most body systems, $$ \text{MA} < 1 $$, which means $$ F_{\text{muscle}} > F_{\text{output}} $$.
-
-**Example:** In the forearm system, the biceps attaches about 4 cm from the elbow, but the hand is about 35 cm from the elbow. This gives $$ \text{MA} \approx 4/35 \approx 0.11 $$, meaning the muscle force must be about 9 times larger than the force exerted by the hand.
-
-**Discussion**
-
-While this seems inefficient for force production, it provides advantages in speed and range of motion. A small muscle contraction produces a large movement at the hand, allowing fast, sweeping motions that would be impossible if muscles were attached at the ends of limbs.
+The forces our limbs exert on the outside world are much smaller than the forces exerted by our muscles because muscles attach very close to the joints while loads are applied far from them, so limbs are levers with mechanical advantages much less than 1 (about $$ 0.105 $$ for the forearm, where the biceps pulls about 9.5 times harder than the hand pushes).
 
 :::
 
@@ -293,33 +292,21 @@ Explain why the forces in our joints are several times larger than the forces we
 
 **Strategy**
 
-We apply equilibrium analysis to the lever systems in the body. The joint force must balance both the muscle force and the external load, and since these often act in opposite directions relative to the joint, the forces can add together.
+Apply the first condition for equilibrium (zero net force) to the forearm example of the section Forces and Torques in Muscles and Joints. Take $$ +y $$ upward. Use the values found there: the biceps pulls up with $$ F_{B} = 470 \N $$ while the forearm and the ball weigh $$ 63.7 \N $$ in total.
 
 **Solution**
 
-Joint forces are larger than external forces because **joints must support both the large muscle forces and the reaction to those forces**.
+Forces on the forearm in the $$ y $$ direction:
 
-Consider the forearm example from [Figure 1](#Figure1) in the text:
-- The biceps exerts an upward force $$ F_B = 470 \N $$
-- The combined weight supported is only $$ 63.7 \N $$
-- The elbow joint must exert $$ F_E = 407 \N $$ downward
+<div class="equation">
+$$ F_{B} - F_{E} - w_{\text{total}} = 0 \quad \Rightarrow \quad F_{E} = F_{B} - w_{\text{total}} = 470 \N - 63.7 \N = 407 \N $$
+</div>
 
-**Why this happens:**
-1. The muscle pulls up on the forearm with a large force (due to MA < 1)
-2. For force equilibrium: $$ F_B = F_E + W $$ where W is the load
-3. Therefore: $$ F_E = F_B - W = 470 - 63.7 = 407 \N $$
+The positive result means the upper arm (at the elbow) pushes **down** on the forearm with $$ 407 \N $$, 6.38 times the weight supported. The muscle pulls up very hard because of its small lever arm, and the joint must push down almost as hard to balance it. In the joint, therefore, the force is large because it must balance the large muscle force, not just the load.
 
-**Can joint forces exceed muscle forces?** Yes, they can!
+**Can joint forces exceed muscle forces?** Yes. In the forearm the joint force is slightly smaller than the muscle force ($$ 407 \N < 470 \N $$), because the muscle force and the load are nearly parallel and in opposite directions. When the muscle force and the load have components in the **same** direction along the bone, those components add in the joint. When a person lifts with a bent back, as in the back-lifting example of that section, the back muscles pull with $$ F_{B} = 4200 \N $$, but the vertebrae must push with $$ F_{V} = 4660 \N $$, more than the muscle force.
 
-This occurs when:
-- The geometry causes the muscle and external forces to have components in the same direction relative to the joint
-- The joint must then support the sum of both forces
-
-For example, in the spine when lifting with a bent back (see [Figure 4](#Figure4) in section 6), the vertebral force $$ F_V = 4660 \N $$ exceeds the back muscle force $$ F_B = 4200 \N $$ because the forces add vectorially.
-
-**Discussion**
-
-This explains why joint damage (arthritis, torn cartilage, damaged discs) is so common. Even modest external loads create enormous internal forces that wear down joint surfaces over time, especially with repetitive motions or poor posture.
+The forces in our joints are several times larger than the forces we exert on the outside world because the joint must balance the large muscle forces as well as the load (in the forearm, $$ 470 \N - 63.7 \N = 407 \N $$, 6.38 times the load), and they can exceed the muscle forces when muscle and load push in the same direction along the bone, as in the spine, where $$ F_{V} = 4660 \N $$ exceeds $$ F_{B} = 4200 \N $$.
 
 :::
 
@@ -343,6 +330,12 @@ to the nail?
 **Strategy**
 
 Use the mechanical advantage formula for a lever: $$ \text{MA} = \frac{l_i}{l_o} = \frac{F_o}{F_i} $$, where $$ l_i $$ is the distance from pivot to input force and $$ l_o $$ is the distance from pivot to output force.
+
+**Free-body diagram**
+
+![The nail puller pivots where it rests on the board (the origin), with the handle to the left. +x points from the handle toward the claw and +y up, and counterclockwise torques are positive. Your hand pushes down with F_i at l_i = 45 cm from the pivot (counterclockwise torque); the nail pushes down on the claw with F_n at l_o = 1.8 cm on the other side (clockwise torque). The puller in turn pulls up on the nail with F_o = 1250 N.](../resources/sketch_09_05_p01.svg){: .sketch}
+
+Take $$ +x $$ from the handle toward the claw, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot where the puller rests on the board. Your downward push at $$ l_i $$ (on the $$ -x $$ side) gives a positive torque; the nail's downward push on the claw at $$ l_o $$ (on the $$ +x $$ side) gives a negative one. So $$ F_i l_i = F_n l_o $$, and the puller pulls up on the nail with $$ F_o = F_n $$.
 
 **Solution**
 
@@ -386,6 +379,12 @@ Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground
 **Strategy**
 
 This is a lever problem where we need to find the position of the fulcrum. We use the mechanical advantage relationship: $$ \text{MA} = \frac{F_o}{F_i} = \frac{l_i}{l_o} $$. The total length of the lever is the sum of the input and output lever arms: $$ l_i + l_o = 2.0 \m $$.
+
+**Free-body diagram**
+
+![The 2.0-m lever pivots on the fulcrum (the origin). +x points from the mower end toward your hands and +y up, and counterclockwise torques are positive. The mower pushes down on the left end with F_o = 2450 N at l_o (counterclockwise torque); you push down on the right end with F_i = 300 N at l_i (clockwise torque); l_o + l_i = 2.0 m.](../resources/sketch_09_05_p02.svg){: .sketch}
+
+Take $$ +x $$ from the mower end toward your hands, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the fulcrum. The mower's downward push at $$ l_o $$ (on the $$ -x $$ side) gives a positive torque and your downward push at $$ l_i $$ (on the $$ +x $$ side) a negative one, so $$ F_o l_o = F_i l_i $$.
 
 **Solution**
 
@@ -454,6 +453,12 @@ This result makes sense: to lift a heavy load with a small force, the fulcrum mu
 **Strategy**
 
 For a wheelbarrow, the mechanical advantage is the ratio of lever arms. Use $$ \text{MA} = \frac{l_i}{l_o} $$. For parts (b) and (c), apply equilibrium conditions.
+
+**Free-body diagram**
+
+![Torques are taken about the wheel’s axle (the origin). +x points from the handles toward the wheel and +y up, and counterclockwise torques are positive. The weight w = 539 N acts down 5.50 cm to the left of the axle (counterclockwise torque); you lift with F_i at the handles, 1.02 m to the left of the axle (clockwise torque); the ground pushes up on the wheel with N.](../resources/sketch_09_05_p03.svg){: .sketch}
+
+Take $$ +x $$ from the handles toward the wheel, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the wheel's axle. The weight (down, 5.50 cm on the $$ -x $$ side) gives a positive torque and your upward lift (1.02 m on the $$ -x $$ side) a negative one; vertically, $$ F_i + N - w = 0 $$.
 
 **Solution**
 
@@ -554,13 +559,19 @@ surface? The nail puller has a mass of 2.10 kg. Use the forces from Problem 1.
 
 Apply the equilibrium condition: the sum of all forces on the nail puller must equal zero. Use the values from Problem 1, where we found the mechanical advantage is 25 and the output force on the nail is 1250 N.
 
+**Free-body diagram**
+
+![Vertical forces on the nail puller, with +y up. Your hand pushes down with F_i = 50 N at the handle; the nail pushes down on the claw with F_n = 1250 N (the reaction to the 1250-N pull on the nail); the puller’s weight W = 20.6 N acts down; the supporting surface pushes up at the pivot with N.](../resources/sketch_09_05_p05.svg){: .sketch}
+
+Take $$ +y $$ upward. The hand's push, the nail's push on the claw, and the puller's weight all point along $$ -y $$, and the supporting surface pushes along $$ +y $$, so $$ \sum F_y = N - F_i - F_N - W = 0 $$.
+
 **Solution**
 
 **Given (from Problem 1 and figure):**
 - Input force: $$ F_i = 50\text{ N} $$ (downward at handle)
 - Reaction force from nail: $$ F_N = 1250\text{ N} $$ (downward, equal and opposite to force on nail)
 - Mass of nail puller: $$ m = 2.10\text{ kg} $$
-- Weight of nail puller: $$ W = mg = (2.10)(9.80) = 20.6\text{ N} $$ (downward)
+- Weight of nail puller: $$ W = mg = (2.10 \kg)(9.80 \mss) = 20.6\text{ N} $$ (downward)
 
 For equilibrium, the sum of vertical forces equals zero:
 <div class="equation">
@@ -570,7 +581,7 @@ $$ F_i + F_N + W = N $$
 where $$ N $$ is the normal force from the supporting surface (upward).
 
 <div class="equation">
-$$ N = F_i + F_N + W = 50\text{ N} + 1250\text{ N} + 20.6\text{ N} = 1321\text{ N} \approx 1.3 \times 10^3\text{ N} $$
+$$ N = F_i + F_N + W = 50\text{ N} + 1250\text{ N} + 20.6\text{ N} = 1321\text{ N} \approx 1.32 \times 10^3\text{ N} $$
 </div>
 
 By Newton's third law, the nail puller exerts a force of **1.3 × 10³ N** downward on the supporting surface.
@@ -581,7 +592,7 @@ The supporting surface must bear the brunt of the forces - it supports not only 
 
 **Answer**
 
-The nail puller exerts $$ 1.3 \times 10^3\text{ N} $$ on the supporting surface.
+The nail puller exerts $$ 1.32 \times 10^3\text{ N} $$ on the supporting surface.
 
 :::
 
@@ -604,6 +615,12 @@ Neglect the pulley system's mass.
 **Strategy**
 
 The pulley system in [Figure 4](#Figure4)(a) has two rope segments pulling up on the load, giving it a mechanical advantage of approximately 2. The tension in the rope is uniform throughout (for an ideal, frictionless pulley). For part (b), we apply force equilibrium to the upper pulley.
+
+**Free-body diagram**
+
+![Two free-body diagrams with +y up. Lower pulley and engine: two rope segments pull up, each with tension T, and the weight W = 1127 N pulls down. Upper pulley: the two segments to the lower pulley and the segment you pull straight down all pull down with T, and the ceiling pushes up with F_ceiling.](../resources/sketch_09_05_p06.svg){: .sketch}
+
+Take $$ +y $$ upward. For the lower pulley and engine, $$ \sum F_y = 2T - W = 0 $$. For the upper pulley, the three rope segments (including the one you pull straight down) all pull along $$ -y $$ and the ceiling pushes along $$ +y $$, so $$ F_{\text{ceiling}} - 3T = 0 $$.
 
 **Solution for (a)**
 
@@ -634,7 +651,7 @@ The ceiling must support the upper pulley, which has three rope forces acting on
 All three rope segments pull down on the upper pulley, so the ceiling must supply an upward force:
 
 <div class="equation">
-$$ F_{\text{ceiling}} = 3T = 3(564 \N) = 1690 \N $$
+$$ F_{\text{ceiling}} = 3T = \frac{3(1127 \N)}{2} = 1690 \N $$ (using the unrounded tension $$T = 1127 \N/2 = 563.5 \N$$)
 </div>
 
 The ceiling must supply **1690 N** (or $$ 1.69 \times 10^{3} \N $$) upward.
@@ -662,12 +679,18 @@ assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00
 
 For [Figure 4](#Figure4)(c), this is a more complex pulley system with a mechanical advantage of 4 (four rope segments support the load). The total weight includes the engine plus the pulley system. Since you pull straight up, your force adds to the ceiling support.
 
+**Free-body diagram**
+
+![Two free-body diagrams with +y up. Lower block (engine and its pulleys): four rope segments pull up, each with tension T, and the weight W = 1196 N (engine plus pulleys) pulls down. Whole system (engine, pulleys, and rope): the ceiling pushes up with F_ceiling, your upward pull T acts along +y, and W pulls down.](../resources/sketch_09_05_p07.svg){: .sketch}
+
+Take $$ +y $$ upward. For the lower block, $$ \sum F_y = 4T - W = 0 $$. For the whole system, the ceiling's force and your upward pull $$ T $$ both point along $$ +y $$ and the weight along $$ -y $$, so $$ F_{\text{ceiling}} + T - W = 0 $$.
+
 **Solution**
 
 **Given:**
 - Engine mass: $$ m_{engine} = 115\text{ kg} $$
 - Pulley system mass: $$ m_{pulley} = 7.00\text{ kg} $$
-- Total mass: $$ m_{total} = 115 + 7.00 = 122\text{ kg} $$
+- Total mass: $$ m_{total} = 115 \kg + 7.00 \kg = 122\text{ kg} $$
 
 **(a) Tension in the rope:**
 

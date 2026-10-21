@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="360" viewBox="0 0 470 360" role="img" aria-labelledby="title desc">
+<title id="title">Far field of a positive 2Q and negative Q pair</title>
+<desc id="desc">A distant view of a positive 2Q and negative Q pair: the unresolved pair is marked with net charge positive Q, and radial electric field arrows point outward from it, showing the leading far field.</desc>
+<rect width="470" height="360" fill="#ffffff"/>
+<line x1="252" y1="175" x2="350" y2="175" stroke="#c62828" stroke-width="1.4"/>
+<line x1="290.2" y1="175" x2="308.5" y2="175" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="315.5,175 307.5,178.2 307.5,171.8" fill="#c62828"/>
+<line x1="249.72" y1="183.5" x2="334.59" y2="232.5" stroke="#c62828" stroke-width="1.4"/>
+<line x1="282.8" y1="202.6" x2="298.65" y2="211.75" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="304.72,215.25 296.19,214.02 299.39,208.48" fill="#c62828"/>
+<line x1="243.5" y1="189.72" x2="292.5" y2="274.59" stroke="#c62828" stroke-width="1.4"/>
+<line x1="262.6" y1="222.8" x2="271.75" y2="238.65" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="275.25,244.72 268.48,239.39 274.02,236.19" fill="#c62828"/>
+<line x1="235" y1="192" x2="235" y2="290" stroke="#c62828" stroke-width="1.4"/>
+<line x1="235" y1="230.2" x2="235" y2="248.5" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="235,255.5 231.8,247.5 238.2,247.5" fill="#c62828"/>
+<line x1="226.5" y1="189.72" x2="177.5" y2="274.59" stroke="#c62828" stroke-width="1.4"/>
+<line x1="207.4" y1="222.8" x2="198.25" y2="238.65" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="194.75,244.72 195.98,236.19 201.52,239.39" fill="#c62828"/>
+<line x1="220.28" y1="183.5" x2="135.41" y2="232.5" stroke="#c62828" stroke-width="1.4"/>
+<line x1="187.2" y1="202.6" x2="171.35" y2="211.75" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="165.28,215.25 170.61,208.48 173.81,214.02" fill="#c62828"/>
+<line x1="218" y1="175" x2="120" y2="175" stroke="#c62828" stroke-width="1.4"/>
+<line x1="179.8" y1="175" x2="161.5" y2="175" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="154.5,175 162.5,171.8 162.5,178.2" fill="#c62828"/>
+<line x1="220.28" y1="166.5" x2="135.41" y2="117.5" stroke="#c62828" stroke-width="1.4"/>
+<line x1="187.2" y1="147.4" x2="171.35" y2="138.25" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="165.28,134.75 173.81,135.98 170.61,141.52" fill="#c62828"/>
+<line x1="226.5" y1="160.28" x2="177.5" y2="75.41" stroke="#c62828" stroke-width="1.4"/>
+<line x1="207.4" y1="127.2" x2="198.25" y2="111.35" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="194.75,105.28 201.52,110.61 195.98,113.81" fill="#c62828"/>
+<line x1="235" y1="158" x2="235" y2="60" stroke="#c62828" stroke-width="1.4"/>
+<line x1="235" y1="119.8" x2="235" y2="101.5" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="235,94.5 238.2,102.5 231.8,102.5" fill="#c62828"/>
+<line x1="243.5" y1="160.28" x2="292.5" y2="75.41" stroke="#c62828" stroke-width="1.4"/>
+<line x1="262.6" y1="127.2" x2="271.75" y2="111.35" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="275.25,105.28 274.02,113.81 268.48,110.61" fill="#c62828"/>
+<line x1="249.72" y1="166.5" x2="334.59" y2="117.5" stroke="#c62828" stroke-width="1.4"/>
+<line x1="282.8" y1="147.4" x2="298.65" y2="138.25" stroke="#c62828" stroke-width="1.4"/>
+<polygon points="304.72,134.75 299.39,141.52 296.19,135.98" fill="#c62828"/>
+<circle cx="235" cy="175" r="10" fill="#c62828"/>
+<text x="235" y="180.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#ffffff" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="235" y="31.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+2</tspan><tspan font-style="normal">Q</tspan><tspan font-style="normal"> − </tspan><tspan font-style="normal">Q</tspan><tspan font-style="normal"> = +</tspan><tspan font-style="normal">Q</tspan></text>
+<text x="235" y="330.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Far</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">away</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">outward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">field</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">net</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">positive</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">charge</tspan></text>
+</svg>

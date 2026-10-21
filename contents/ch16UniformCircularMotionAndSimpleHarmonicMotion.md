@@ -39,7 +39,7 @@ the left with velocity $$v $$ . The velocity of the point P around the circle
 equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_{\text{max}} $$ on the $$x $$ -axis is the velocity $$v $$ of the simple
 harmonic motion along the $$x $$ -axis.
 
-![The figure shows a point P moving through the circumference of a circle in an angular way with angular velocity omega. The diameter is projected along the x axis, with point P making an angle theta at the center of the circle. A point along the diameter shows the projection of the point P with a dotted perpendicular line from P to this point, the projection of the point is given as v along the circle and its velocity v subscript max, over the top of the projection arrow in an upward left direction.](../resources/Figure_16_06_03.jpg 'A point P moving on a circular path with a constant angular velocity ( \\omega ) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, ( {\\overline{v} }_\\text{max} ), and its projection, which is ( v ) . Note that these velocities form a similar triangle to the displacement triangle.')
+![A point P moves counterclockwise around a circle of radius X with constant angular velocity ω. The radius to P makes angle θ with the x axis. Its projection onto the x axis is at x, and the vertical distance from P to the axis is √(X² − x²). The velocity of P, of magnitude v_max, is tangent to the circle, and its x component is v: the velocity triangle is similar to the displacement triangle. As P goes around, its projection on the x axis moves back and forth in simple harmonic motion.](../resources/Figure_16_06_03.svg 'A point P moving on a circular path with a constant angular velocity ( \\omega ) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, ( {\\overline{v} }_\\text{max} ), and its projection, which is ( v ) . Note that these velocities form a similar triangle to the displacement triangle.')
 {: #Figure3}
 
 To see that the projection undergoes simple harmonic motion, note that its
@@ -182,26 +182,26 @@ For part (a), we use the relationship between maximum velocity, amplitude, and t
 The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.00200\sqrt{\frac{1.50 \times 10^6}{85.0}}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.00200 \text{ m})\sqrt{\frac{1.50 \times 10^6 \text{ N/m}}{85.0 \text{ kg}}}$$
 </div>
 
 <div class="equation">
- $$v_{\text{max}} = 0.00200\sqrt{17647} = 0.00200(132.8) = 0.266 \text{ m/s}$$
+ $$v_{\text{max}} = (0.00200 \text{ m})\sqrt{17647 \text{ 1/s}^2} = (0.00200 \text{ m})(132.8 \text{ 1/s}) = 0.266 \text{ m/s}$$
 </div>
 
-(b) The maximum energy stored in the spring is:
+(b) We treat the person as attached to the scale's spring and oscillating about the equilibrium position, with $$X$$ measured from equilibrium. The energy of this oscillation, which equals the maximum elastic energy measured relative to equilibrium, is:
 
 <div class="equation">
- $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.50 \times 10^6)(0.00200)^2$$
+ $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.50 \times 10^6 \text{ N/m})(0.00200 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$\text{PE}_{\text{max}} = \frac{1}{2}(1.50 \times 10^6)(4.00 \times 10^{-6}) = 3.00 \text{ J}$$
+ $$\text{PE}_{\text{max}} = \frac{1}{2}(1.50 \times 10^6 \text{ N/m})(4.00 \times 10^{-6} \text{ m}^2) = 3.00 \text{ J}$$
 </div>
 
 **Discussion**
 
-Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relatively large mass (85.0 kg), the small amplitude (only 2.00 mm) results in a modest maximum velocity of 0.266 m/s. The maximum energy of 3.00 J is also small, which makes sense given the tiny amplitude. This demonstrates that bathroom scales are designed to be very stiff to minimize deflection under a person's weight while still providing accurate measurements.
+Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relatively large mass (85.0 kg), the small amplitude (only 2.00 mm) results in a modest maximum velocity of 0.266 m/s. The oscillation energy of 3.00 J is also small, which makes sense given the tiny amplitude. Measured from the spring's *unloaded* length, the spring is already compressed by $$mg/k = 0.555$$ mm at equilibrium, so at the bottom of the bounce it stores $$\tfrac{1}{2}k(mg/k + X)^2 = 4.90$$ J; the 3.00 J is the part that goes back and forth between kinetic and potential energy. A person merely standing on a real scale would leave its surface during such a bounce, since the amplitude (2.00 mm) is larger than the 0.555 mm static compression. This demonstrates that bathroom scales are designed to be very stiff to minimize deflection under a person's weight while still providing accurate measurements.
 
 **Answer**
 
@@ -232,19 +232,19 @@ The object bounces 3.00 cm above and below equilibrium, so the amplitude is $$X 
 (a) The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.0300\sqrt{\frac{1.25}{0.0100}} = 0.0300\sqrt{125} = 0.0300(11.18) = 0.335 \text{ m/s}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.0300 \text{ m})\sqrt{\frac{1.25 \text{ N/m}}{0.0100 \text{ kg}}} = (0.0300 \text{ m})\sqrt{125 \text{ 1/s}^2} = (0.0300 \text{ m})(11.18 \text{ 1/s}) = 0.335 \text{ m/s}$$
 </div>
 
 (b) The kinetic energy at maximum velocity is:
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2 = \frac{1}{2}(0.0100)(0.335)^2 = 0.00500(0.112) = 5.62 \times 10^{-4} \text{ J}$$
+ $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2 = \frac{1}{2}(0.0100 \text{ kg})(0.335 \text{ m/s})^2 = (0.00500 \text{ kg})(0.112 \text{ (m/s)}^2) = 5.62 \times 10^{-4} \text{ J}$$
 </div>
 
 Alternatively, we can use energy conservation. At maximum displacement, all energy is potential:
 
 <div class="equation">
- $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.25)(0.0300)^2 = 5.63 \times 10^{-4} \text{ J}$$
+ $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.25 \text{ N/m})(0.0300 \text{ m})^2 = 5.63 \times 10^{-4} \text{ J}$$
 </div>
 
 **Discussion**
@@ -339,7 +339,7 @@ The shadow of the ladybug on the wall undergoes simple harmonic motion as the re
 First, convert the rotation rate to angular velocity:
 
 <div class="equation">
- $$\omega = 33.33 \text{ rpm} = 33.33 \times \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{33.33 \times 2\pi}{60} = 3.49 \text{ rad/s}$$
+ $$\omega = 33.33 \text{ rpm} = 33.33 \times \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{33.33 \times 2\pi \text{ rad}}{60 \text{ s}} = 3.49 \text{ rad/s}$$
 </div>
 
 The radius is $$r = 12.0 \text{ cm} = 0.120 \text{ m}$$
@@ -347,7 +347,7 @@ The radius is $$r = 12.0 \text{ cm} = 0.120 \text{ m}$$
 The maximum velocity of the shadow (which equals the tangential velocity) is:
 
 <div class="equation">
- $$v_{\text{max}} = r\omega = (0.120)(3.49) = 0.419 \text{ m/s}$$
+ $$v_{\text{max}} = r\omega = (0.120 \text{ m})(3.49 \text{ rad/s}) = 0.419 \text{ m/s}$$
 </div>
 
 **Discussion**

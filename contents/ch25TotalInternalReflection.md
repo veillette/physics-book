@@ -298,6 +298,32 @@ A ring with a colorless gemstone is dropped into water. The gemstone becomes inv
 
 :::
 
+::: solution
+
+**Strategy**
+
+A transparent object is visible because light reflects from and refracts at its surfaces. Both effects depend on the difference between the indices of refraction of the object and its surroundings; if they are equal, light passes through the surface undeviated and unreflected. Compare diamond ($$ n = 2.419 $$) with water ($$ n = 1.333 $$), using the fraction of light reflected at normal incidence, $$ R = [(n_2 - n_1)/(n_2 + n_1)]^2 $$, and the critical angle, $$ \sin\theta_{\text{c}} = n_2/n_1 $$.
+
+**Solution**
+
+For diamond in water,
+
+<div class="equation">
+$$ R = \left( \frac{2.419 - 1.333}{2.419 + 1.333} \right)^2 = \left( \frac{1.086}{3.752} \right)^2 = 0.0838 $$
+</div>
+
+so more than 8% of the light is reflected at each surface, and
+
+<div class="equation">
+$$ \theta_{\text{c}} = \sin^{-1}\frac{1.333}{2.419} = \sin^{-1}(0.551) = 33.4^\circ $$
+</div>
+
+so total internal reflection still occurs for many rays. A diamond in water therefore still bends, reflects, and traps light, and it remains clearly visible and sparkling. A gem that becomes invisible must have an index very close to water's, so that $$ R \approx 0 $$ and rays pass straight through.
+
+No, it cannot be a diamond, because diamond's index of refraction (2.419) is much greater than water's (1.333), so a submerged diamond still reflects about 8% of the light at each surface and totally internally reflects rays beyond a critical angle of $$ 33.4^\circ $$; a stone becomes invisible only if its index nearly matches that of water.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -305,6 +331,32 @@ A ring with a colorless gemstone is dropped into water. The gemstone becomes inv
 ::: problem
 
 A high-quality diamond may be quite clear and colorless, transmitting all visible wavelengths with little absorption. Explain how it can sparkle with flashes of brilliant color when illuminated by white light.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Diamond's large index gives it a small critical angle, so light entering the top of a cut diamond is totally reflected inside several times before escaping. Diamond is also strongly dispersive: its index depends on wavelength, ranging from about $$ 2.410 $$ for red light to $$ 2.458 $$ for violet. Find the critical angles and refraction angles for red and violet light.
+
+**Solution**
+
+The critical angles are
+
+<div class="equation">
+$$ \theta_{\text{c,red}} = \sin^{-1}\frac{1.000}{2.410} = 24.5^\circ, \qquad \theta_{\text{c,violet}} = \sin^{-1}\frac{1.000}{2.458} = 24.0^\circ $$
+</div>
+
+The facets are cut so that most light striking the back faces exceeds these angles and is reflected back up toward the top. When it finally leaves through a top facet, it refracts, and different colors bend by different amounts. For light inside striking a top facet at $$ 20.0^\circ $$:
+
+<div class="equation">
+$$ \theta_{\text{red}} = \sin^{-1}[(2.410)\sin 20.0^\circ] = \sin^{-1}(0.824) = 55.5^\circ, \qquad \theta_{\text{violet}} = \sin^{-1}[(2.458)\sin 20.0^\circ] = \sin^{-1}(0.841) = 57.2^\circ $$
+</div>
+
+The colors leave $$ 1.7^\circ $$ apart, and because each internal reflection lengthens the path, they spread farther before reaching the eye. Each facet sends a narrow beam of one color in a slightly different direction, so as the diamond or the viewer moves, the eye catches flashes of different colors: the diamond's "fire."
+
+A clear, colorless diamond sparkles with flashes of color because its small critical angle ($$ 24^\circ $$) traps light by total internal reflection until it leaves through the top facets, and its strong dispersion (index from 2.410 for red to 2.458 for violet) makes each color refract out in a slightly different direction, so the white light is separated into colors that reach the eye from different facets as the diamond moves.
 
 :::
 
@@ -321,6 +373,28 @@ Is it possible that total internal reflection plays a role in rainbows? Explain 
 
 :::
 
+::: solution
+
+**Strategy**
+
+In a rainbow, sunlight enters a spherical raindrop, reflects from the back of the drop, and leaves. Total internal reflection requires the angle of incidence at the back surface to exceed the critical angle for water to air, $$ \theta_{\text{c}} = \sin^{-1}(1.000/1.333) = 48.6^\circ $$. In a sphere, the radius to the point of entry and the radius to the point of reflection make equal angles with the chord between them, so the angle of incidence at the back equals the refraction angle at entry.
+
+**Solution**
+
+At entry, even for grazing incidence ($$ 90^\circ $$), the largest possible refraction angle is
+
+<div class="equation">
+$$ \theta_{\text{r,max}} = \sin^{-1}\frac{(1.000)\sin 90^\circ}{1.333} = 48.6^\circ $$
+</div>
+
+which is exactly the critical angle. For the rays that form the rainbow, which enter at about $$ 59^\circ $$, the refraction angle is $$ \sin^{-1}[(\sin 59^\circ)/1.333] = 40^\circ $$, so they strike the back of the drop at $$ 40^\circ < 48.6^\circ $$. The reflection is therefore ordinary partial reflection (only a few percent of the light), not total internal reflection; most of the light passes out of the back of the drop. Total internal reflection does not play a role in rainbows.
+
+A **double rainbow** comes from light that reflects twice inside the drops; it appears at about $$ 51^\circ $$ from the antisolar point (outside the primary at $$ 42^\circ $$), is fainter, and has its colors reversed. Each reflection is partial, so higher orders are fainter still. A **triple rainbow** is physically possible, from three internal reflections, but it appears on the same side of the sky as the Sun, about $$ 40^\circ $$ from it, where the bright sky washes it out; it has been photographed only a handful of times.
+
+No, total internal reflection does not play a role in rainbows, because the angle at which light strikes the back of a spherical drop equals its refraction angle on entry, which is always less than the critical angle ($$ 40^\circ $$ versus $$ 48.6^\circ $$ for the rays forming the rainbow), so the reflection is only partial; a triple rainbow is physically possible, from three internal reflections, but it is extremely faint and lies toward the Sun, so it is very rarely observed.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -328,6 +402,34 @@ Is it possible that total internal reflection plays a role in rainbows? Explain 
 ::: problem
 
 The most common type of mirage is an illusion that light from faraway objects is reflected by a pool of water that is not really there. Mirages are generally observed in deserts, when there is a hot layer of air near the ground. Given that the refractive index of air is lower for air at higher temperatures, explain how mirages can be formed.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The index of refraction of air decreases as its temperature rises, because hot air is less dense. Consider a ray from the sky heading down toward the hot ground at a shallow angle, passing through layers of warmer and warmer air. Use $$ n - 1 \propto 1/T $$, with $$ n = 1.000293 $$ at $$ 15 \text{ ºC} $$ ($$ 288 \text{ K} $$), and air at $$ 60 \text{ ºC} $$ ($$ 333 \text{ K} $$) just above the road.
+
+**Solution**
+
+![Light from the sky travels down at a shallow angle toward a hot road. In each lower, hotter layer the index of refraction is smaller, so the ray bends away from the vertical until it travels horizontally, then curves upward into the observer's eye. The observer sees an image of the sky below the horizon, on the road, which looks like a pool of water.](../resources/concept_25_04_q04.svg)
+
+The index just above the road is
+
+<div class="equation">
+$$ n_{\text{hot}} = 1 + (0.000293)\frac{288 \text{ K}}{333 \text{ K}} = 1.000253 $$
+</div>
+
+Going from cooler to hotter air, the ray passes into air of lower index and bends away from the normal (the vertical) at each layer, becoming more and more horizontal. A ray reaches horizontal, and is turned back upward, if its angle of incidence (from vertical) in the cool air exceeds
+
+<div class="equation">
+$$ \theta = \sin^{-1}\frac{n_{\text{hot}}}{n_{\text{cool}}} = \sin^{-1}\frac{1.000253}{1.000293} = 89.5^\circ $$
+</div>
+
+That is, rays traveling within about $$ 0.5^\circ $$ of horizontal are bent back up, as in total internal reflection. They curve upward and reach the observer's eye from below the horizon. The brain assumes light travels in straight lines, so it sees an image of the bright sky on the road, shimmering as the hot air moves, and interprets it as reflection from a pool of water. Because only rays within about $$ 0.5^\circ $$ of horizontal are affected, the "water" is always seen at a distance, and it recedes as you approach.
+
+Mirages form because air near the hot ground has a lower index of refraction, so light from the sky traveling down at a shallow angle bends away from the vertical as it enters hotter layers until it turns horizontal and curves upward into the observer's eye (much like total internal reflection, for rays within about $$ 0.5^\circ $$ of horizontal); the eye traces the light back along a straight line and sees an image of the sky on the ground, which looks like a reflecting pool of water.
 
 :::
 

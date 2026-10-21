@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<title id="title">Electrons scattering from a target and from a quark in a proton</title>
+<desc id="desc">Top: a beam of electrons strikes a macroscopic target. Most electrons pass through and continue to the right, but one scatters straight back to the left. Below, an enlarged view of a small region of the target: an electron strikes a quark inside a proton. The quark recoils forward and the electron bounces back.</desc>
+<rect width="1000" height="760" fill="#ffffff"/>
+<defs><linearGradient id="zoom-08-03-03" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4a838" stop-opacity="0.95"/><stop offset="1" stop-color="#d4a838" stop-opacity="0"/></linearGradient><radialGradient id="proton-08-03-03" cx="0.35" cy="0.3" r="0.75"><stop offset="0" stop-color="#f4f6fb"/><stop offset="1" stop-color="#5a6f96"/></radialGradient><radialGradient id="electron-08-03-03" cx="0.35" cy="0.3" r="0.75"><stop offset="0" stop-color="#ece4f4"/><stop offset="1" stop-color="#8a6aae"/></radialGradient></defs>
+<line x1="60" y1="10" x2="600" y2="112.6" stroke="#5e9e1e" stroke-width="4"/>
+<line x1="0" y1="60" x2="560" y2="166.4" stroke="#5e9e1e" stroke-width="4"/>
+<line x1="0" y1="125" x2="478" y2="215.82" stroke="#5e9e1e" stroke-width="4"/>
+<polygon points="508,236 542,236 810,520 250,520" fill="url(#zoom-08-03-03)"/>
+<polygon points="478,190 640,30 640,98 478,266" fill="#d4a838" stroke="#4b2a7b" stroke-width="1.5"/>
+<rect x="508" y="212" width="34" height="24" fill="none" stroke="#4b2a7b" stroke-width="1.5"/>
+<line x1="610" y1="125.9" x2="971.33" y2="194.55" stroke="#5e9e1e" stroke-width="4"/>
+<polygon points="990,198.1 968.86,202.23 971.84,186.51" fill="#5e9e1e"/>
+<line x1="565" y1="167.35" x2="946.33" y2="239.8" stroke="#5e9e1e" stroke-width="4"/>
+<polygon points="965,243.35 943.86,247.48 946.84,231.76" fill="#5e9e1e"/>
+<line x1="530" y1="225.7" x2="916.33" y2="299.1" stroke="#5e9e1e" stroke-width="4"/>
+<polygon points="935,302.65 913.86,306.78 916.84,291.06" fill="#5e9e1e"/>
+<line x1="474" y1="214" x2="164" y2="214" stroke="#5e9e1e" stroke-width="4"/>
+<polygon points="145,214 165,206 165,222" fill="#5e9e1e"/>
+<text x="10" y="169.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="19.6" dy="-11.2"><tspan font-style="normal">−</tspan></tspan><tspan dy="11.2">​</tspan></text>
+<text x="905" y="139.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="19.6" dy="-11.2"><tspan font-style="normal">−</tspan></tspan><tspan dy="11.2">​</tspan><tspan font-style="normal">′</tspan><tspan font-style="normal">s</tspan></text>
+<text x="790" y="30.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Macroscopic</tspan></text>
+<text x="790" y="61.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">target</tspan></text>
+<polyline points="742,60 739.81,59.99 737.62,59.99 735.44,60.03 733.29,60.13 731.16,60.29 729.06,60.53 727,60.87 724.97,61.31 722.99,61.86 721.04,62.52 719.15,63.3 717.29,64.19 715.48,65.19 713.7,66.29 711.96,67.49 710.25,68.77 708.56,70.11 706.9,71.51 705.25,72.95 703.6,74.4 701.95,75.85 700.3,77.29 698.64,78.69 696.95,80.03 695.24,81.31 693.5,82.51 691.72,83.61 689.91,84.61 688.05,85.5 686.16,86.28 684.21,86.94 682.23,87.49 680.2,87.93 678.14,88.27 676.04,88.51 673.91,88.67 671.76,88.77 669.58,88.81 667.39,88.81 665.2,88.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="665.2" y1="88.8" x2="654.43" y2="92.84" stroke="#222222" stroke-width="1.4"/>
+<polygon points="646,96 653.96,88.74 656.77,96.23" fill="#222222"/>
+<circle cx="630" cy="590" r="122" fill="url(#proton-08-03-03)"/>
+<circle cx="180" cy="577" r="26" fill="url(#electron-08-03-03)"/>
+<text x="180" y="585.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−</tspan></tspan><tspan dy="9.6">​</tspan></text>
+<line x1="222" y1="577" x2="530" y2="577" stroke="#5e9e1e" stroke-width="3"/>
+<line x1="222" y1="577" x2="358" y2="577" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="375,577 357,584.2 357,569.8" fill="#5e9e1e"/>
+<line x1="533" y1="590" x2="240" y2="616" stroke="#5e9e1e" stroke-width="3"/>
+<line x1="533" y1="590" x2="436.93" y2="598.5" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="420,600 437.3,591.24 438.56,605.59" fill="#5e9e1e"/>
+<circle cx="558" cy="577" r="24" fill="#f6b3b9" stroke="#d2505c" stroke-width="3"/>
+<circle cx="552" cy="571" r="8" fill="#fbe3e5"/>
+<line x1="752" y1="578" x2="841" y2="578" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="858,578 840,585.2 840,570.8" fill="#5e9e1e"/>
+<text x="665" y="570.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Quark</tspan></text>
+<text x="665" y="601.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">recoils</tspan></text>
+<text x="705" y="750.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Proton</tspan></text>
+</svg>

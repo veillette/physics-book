@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="350" viewBox="0 0 640 350" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the gymnast doing the splits</title>
+<desc id="desc">The gymnast is treated as a rigid body, with torques taken about her left foot (the origin). +x points from the left foot toward the right foot and +y up, and counterclockwise torques are positive. Her weight, 700 N, acts down 0.90 m from the left foot (clockwise torque); the floor pushes up on the right foot with N_R, 1.80 m from the left foot (counterclockwise torque), and on the left foot with N_L.</desc>
+<rect width="640" height="350" fill="#ffffff"/>
+<line x1="120" y1="190" x2="516" y2="190" stroke="#a9c2d9" stroke-width="10" stroke-linecap="round"/>
+<line x1="120" y1="190" x2="516" y2="190" stroke="#1f3a5f" stroke-width="1.4"/>
+<line x1="120" y1="196" x2="120" y2="286" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="318" y1="196" x2="318" y2="286" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="127" y1="280" x2="311" y2="280" stroke="#444444" stroke-width="1.2"/>
+<polygon points="318,280 310,283.2 310,276.8" fill="#444444"/>
+<polygon points="120,280 128,276.8 128,283.2" fill="#444444"/>
+<text x="219" y="274.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.90 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="120" y1="196" x2="120" y2="314" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="516" y1="196" x2="516" y2="314" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="127" y1="308" x2="509" y2="308" stroke="#444444" stroke-width="1.2"/>
+<polygon points="516,308 508,311.2 508,304.8" fill="#444444"/>
+<polygon points="120,308 128,304.8 128,311.2" fill="#444444"/>
+<text x="318" y="302.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.80 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="120" y1="190" x2="120" y2="131.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="120,120 125.04,132.6 114.96,132.6" fill="#b03a2e"/>
+<text x="130" y="121.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">L</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="516" y1="190" x2="516" y2="131.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="516,120 521.04,132.6 510.96,132.6" fill="#b03a2e"/>
+<text x="526" y="121.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">R</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="318" y1="190" x2="318" y2="248.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="318,260 312.96,247.4 323.04,247.4" fill="#b03a2e"/>
+<text x="328" y="257.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = 700 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="470" y1="90" x2="507" y2="90" stroke="#555555" stroke-width="1.5"/>
+<polygon points="516,90 506,94 506,86" fill="#555555"/>
+<text x="532" y="95.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="470" y1="90" x2="470" y2="53" stroke="#555555" stroke-width="1.5"/>
+<polygon points="470,44 474,54 466,54" fill="#555555"/>
+<text x="470" y="33.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 144.96 55.47 A 16 16 0 1 0 165.47 34.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="171.11" y1="37.02" x2="167.16" y2="35.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="163.59,34.28 168.76,34.12 167.45,37.73" fill="#555555"/>
+<text x="184" y="54.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="80" y1="196" x2="560" y2="196" stroke="#8d6e63" stroke-width="2.2"/>
+<text x="120" y="218.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">left</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">foot</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">pivot</tspan><tspan font-style="normal">)</tspan></text>
+<text x="516" y="218.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">right</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">foot</tspan></text>
+</svg>

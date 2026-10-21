@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="280" viewBox="0 0 580 280" role="img" aria-labelledby="title desc">
+<title id="title">An electron deflected between charged plates</title>
+<desc id="desc">Two parallel horizontal plates, positive on top and negative on the bottom, with the field between them pointing down. An electron enters from the left moving horizontally with velocity v0. The upward electric force bends its path into a parabola curving toward the positive plate, and it leaves with velocity v1 at an angle θ above the horizontal.</desc>
+<rect width="580" height="280" fill="#ffffff"/>
+<rect x="160" y="48" width="300" height="22" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="160" y="210" width="300" height="22" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<text x="180" y="65.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="180" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="185" y1="70" x2="185" y2="210" stroke="#1f77c8" stroke-width="2"/>
+<line x1="185" y1="128" x2="185" y2="138.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="185,152 179.24,137.6 190.76,137.6" fill="#1f77c8"/>
+<text x="230" y="65.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="230" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="235" y1="70" x2="235" y2="210" stroke="#1f77c8" stroke-width="2"/>
+<line x1="235" y1="128" x2="235" y2="138.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="235,152 229.24,137.6 240.76,137.6" fill="#1f77c8"/>
+<text x="280" y="65.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="280" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="285" y1="70" x2="285" y2="210" stroke="#1f77c8" stroke-width="2"/>
+<line x1="285" y1="128" x2="285" y2="138.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="285,152 279.24,137.6 290.76,137.6" fill="#1f77c8"/>
+<text x="330" y="65.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="330" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="335" y1="70" x2="335" y2="210" stroke="#1f77c8" stroke-width="2"/>
+<line x1="335" y1="128" x2="335" y2="138.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="335,152 329.24,137.6 340.76,137.6" fill="#1f77c8"/>
+<text x="380" y="65.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="380" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="385" y1="70" x2="385" y2="210" stroke="#1f77c8" stroke-width="2"/>
+<line x1="385" y1="128" x2="385" y2="138.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="385,152 379.24,137.6 390.76,137.6" fill="#1f77c8"/>
+<text x="430" y="65.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="430" y="227.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="435" y1="70" x2="435" y2="210" stroke="#1f77c8" stroke-width="2"/>
+<line x1="435" y1="128" x2="435" y2="138.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="435,152 429.24,137.6 440.76,137.6" fill="#1f77c8"/>
+<line x1="70" y1="150" x2="160" y2="150" stroke="#c0392b" stroke-width="2.5"/>
+<polyline points="160,150 164,149.99 168,149.98 172,149.95 176,149.9 180,149.85 184,149.78 188,149.7 192,149.61 196,149.51 200,149.4 204,149.27 208,149.13 212,148.98 216,148.82 220,148.64 224,148.45 228,148.25 232,148.04 236,147.82 240,147.58 244,147.33 248,147.07 252,146.8 256,146.52 260,146.22 264,145.91 268,145.59 272,145.26 276,144.92 280,144.56 284,144.19 288,143.81 292,143.42 296,143.01 300,142.6 304,142.17 308,141.73 312,141.27 316,140.81 320,140.33 324,139.84 328,139.34 332,138.82 336,138.3 340,137.76 344,137.21 348,136.65 352,136.07 356,135.49 360,134.89 364,134.28 368,133.66 372,133.02 376,132.37 380,131.72 384,131.04 388,130.36 392,129.67 396,128.96 400,128.24 404,127.51 408,126.77 412,126.01 416,125.24 420,124.46 424,123.67 428,122.87 432,122.05 436,121.22 440,120.38 444,119.53 448,118.67 452,117.79 456,116.9 460,116" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="460" y1="116" x2="530" y2="100.13" stroke="#c0392b" stroke-width="2.5"/>
+<line x1="490" y1="109.2" x2="546.35" y2="96.43" stroke="#3f9a2b" stroke-width="3"/>
+<polygon points="560,93.33 546.7,102.5 544.04,90.8" fill="#3f9a2b"/>
+<text x="550" y="83.03" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="13.64" font-weight="normal" dx="-12.32" dy="-11.44">→</tspan><tspan dx="-1.32" dy="11.44">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="70" y1="150" x2="126" y2="150" stroke="#3f9a2b" stroke-width="3"/>
+<polygon points="140,150 125,156 125,144" fill="#3f9a2b"/>
+<text x="104" y="181.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="13.64" font-weight="normal" dx="-12.32" dy="-11.44">→</tspan><tspan dx="-1.32" dy="11.44">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="56" y="157" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8">​</tspan></text>
+<line x1="460" y1="116" x2="550" y2="116" stroke="#222222" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 530 116 A 70 70 0 0 0 528.27 100.53" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="540" y="115" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<line x1="30" y1="60" x2="62" y2="60" stroke="#333333" stroke-width="1.5"/>
+<polygon points="70,60 61,63.6 61,56.4" fill="#333333"/>
+<line x1="30" y1="60" x2="30" y2="28" stroke="#333333" stroke-width="1.5"/>
+<polygon points="30,20 33.6,29 26.4,29" fill="#333333"/>
+<text x="80" y="65.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="30" y="13.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+</svg>

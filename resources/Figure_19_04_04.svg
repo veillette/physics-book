@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="600" viewBox="0 0 470 600" role="img" aria-labelledby="title desc">
+<title id="title">Field and equipotential lines between two metal plates</title>
+<desc id="desc">Plate A on the left is positive at 100 V and plate B on the right is negative at 0 V. Blue field lines run straight across from A to B, evenly spaced, and bow outward at the ends. Green equipotential lines at 75 V, 50 V and 25 V are straight, evenly spaced, and parallel to the plates, crossing the field lines at right angles.</desc>
+<rect width="470" height="600" fill="#ffffff"/>
+<line x1="142" y1="50" x2="142" y2="580" stroke="#2e9a5e" stroke-width="2.4"/>
+<text x="142" y="41" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">75 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="228" y1="50" x2="228" y2="580" stroke="#2e9a5e" stroke-width="2.4"/>
+<text x="228" y="41" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">50 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="314" y1="50" x2="314" y2="580" stroke="#2e9a5e" stroke-width="2.4"/>
+<text x="314" y="41" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25 </tspan><tspan font-style="normal">V</tspan></text>
+<rect x="30" y="70" width="26" height="490" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="400" y="70" width="26" height="490" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<line x1="56" y1="130" x2="400" y2="130" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="130" x2="226" y2="130" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,130 225,137.2 225,122.8" fill="#1f77c8"/>
+<line x1="56" y1="184" x2="400" y2="184" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="184" x2="226" y2="184" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,184 225,191.2 225,176.8" fill="#1f77c8"/>
+<line x1="56" y1="238" x2="400" y2="238" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="238" x2="226" y2="238" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,238 225,245.2 225,230.8" fill="#1f77c8"/>
+<line x1="56" y1="292" x2="400" y2="292" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="292" x2="226" y2="292" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,292 225,299.2 225,284.8" fill="#1f77c8"/>
+<line x1="56" y1="346" x2="400" y2="346" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="346" x2="226" y2="346" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,346 225,353.2 225,338.8" fill="#1f77c8"/>
+<line x1="56" y1="400" x2="400" y2="400" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="400" x2="226" y2="400" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,400 225,407.2 225,392.8" fill="#1f77c8"/>
+<line x1="56" y1="454" x2="400" y2="454" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="454" x2="226" y2="454" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,454 225,461.2 225,446.8" fill="#1f77c8"/>
+<line x1="56" y1="508" x2="400" y2="508" stroke="#1f77c8" stroke-width="2"/>
+<line x1="213" y1="508" x2="226" y2="508" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,508 225,515.2 225,500.8" fill="#1f77c8"/>
+<path d="M 56 90 C 142 90 159.2 56 228 56 S 314 90 400 90" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="213" y1="56" x2="226" y2="56" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,56 225,63.2 225,48.8" fill="#1f77c8"/>
+<path d="M 56 540 C 142 540 159.2 574 228 574 S 314 540 400 540" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="213" y1="574" x2="226" y2="574" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="243,574 225,581.2 225,566.8" fill="#1f77c8"/>
+<text x="43" y="99.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="99.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="139.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="139.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="193.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="193.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="247.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="247.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="301.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="301.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="355.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="355.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="409.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="409.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="463.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="463.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="517.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="517.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="549.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="413" y="549.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="43" y="41" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100 </tspan><tspan font-style="normal">V</tspan></text>
+<text x="413" y="41" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0 </tspan><tspan font-style="normal">V</tspan></text>
+</svg>

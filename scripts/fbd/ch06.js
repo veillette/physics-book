@@ -1,7 +1,7 @@
-import { FBD } from './fbd.js';
+import { FBD, panels } from './fbd.js';
 
 /** Single vertical-force diagram (circular motion at the bottom or top of a path). */
-function vertical({
+function verticalPanel({
   title,
   desc,
   up,
@@ -12,20 +12,24 @@ function vertical({
   name,
   note = '',
   nameUp = false,
+  caption = '',
 }) {
-  const d = new FBD({ title, desc, width: 320, height: 330, cx: 150, cy: 180 });
+  const d = new FBD({ title, desc, caption, width: 320, height: 330, cx: 150, cy: 180 });
   d.axes({ xLen: 125, yLen: 130, xNeg: 110, yNeg: 130 });
   for (const [label, len, from] of up) d.force(90, len || upLen, label, { from: from || [0, 0] });
   for (const [label, len, from, labelOpts] of down)
     d.force(270, len || downLen, label, { from: from || [0, 0], labelOpts: labelOpts || {} });
-  d.accel(accel > 0 ? 90 : 270, 40, { at: accel > 0 ? [-70, 60] : [-70, 100] });
+  if (accel) d.accel(accel > 0 ? 90 : 270, 40, { at: accel > 0 ? [-70, 60] : [-70, 100] });
   if (note) d.note(75, -40, note, { size: 13 });
   d.objectLabel(
     name,
     nameUp ? { dx: -10, dy: 24, anchor: 'end' } : { dx: -10, dy: -24, anchor: 'end' }
   );
-  return d.render();
+  if (!accel) d.accel(0, 0, { at: [-70, 100] });
+  return d;
 }
+
+const vertical = opts => verticalPanel(opts).render();
 
 /**
  * Car (or sled) on a frictionless, ideally banked curve. +x points horizontally
@@ -185,15 +189,22 @@ export default {
   },
 
   // 6.3 Problem 8 — banked curve taken slower than the ideal speed
-  fbd_06_03_p08: () =>
-    banked({
+  fbd_06_03_p08: () => {
+    const theta = (15 * Math.PI) / 180;
+    const wLen = 80;
+    const accelerationRatio = (20 / 3.6) ** 2 / (100 * 9.8);
+    // f / mg = sin θ − (v²/rg) cos θ, from vertical and radial force balance.
+    const frictionLen = wLen * (Math.sin(theta) - accelerationRatio * Math.cos(theta));
+    return banked({
       theta: 15,
+      wLen,
       name: 'car',
-      friction: { label: 'f', len: 50 },
+      friction: { label: 'f', len: frictionLen },
       note: 'slower than ideal: friction points up the slope',
       title: 'Free-body diagram of a car on a banked curve below the ideal speed',
       desc: 'Free-body diagram with +x horizontally toward the center of the curve and +y up: normal force N tilted theta from the vertical toward the center, with dashed components N sin theta along +x and N cos theta along +y; friction f along the road surface, up the slope (away from the center and upward); weight w down. The acceleration points toward the center.',
-    }),
+    });
+  },
 
   // 6.3 Problem 9 — roller coaster at the top of a loop
   fbd_06_03_p09: () =>
@@ -228,6 +239,131 @@ export default {
     d.force(0, 120, 'f_s');
     d.accel(0, 45, { at: [50, 75] });
     d.objectLabel('car', { dx: -10, dy: -26, anchor: 'end' });
+    return d.render();
+  },
+
+  // 6.3 Conceptual Question 5 — the car at the top of a vertical loop
+  fbd_06_03_q05: () =>
+    panels(
+      [
+        verticalPanel({
+          caption: '(a) faster than √(rg)',
+          up: [],
+          down: [
+            ['F_{track}', 45, [-7, 0], { dx: -78, dy: -4 }],
+            ['w', 80, [7, 0]],
+          ],
+          accel: -1,
+          name: 'car',
+          nameUp: true,
+          note: 'center of loop ↓',
+        }),
+        verticalPanel({
+          caption: '(b) slower than √(rg)',
+          up: [['F_{track}', 35]],
+          down: [['w', 80]],
+          accel: -1,
+          name: 'car',
+          nameUp: true,
+          note: 'center of loop ↓',
+        }),
+      ],
+      {
+        title: 'Free-body diagrams of the car at the top of the loop',
+        desc: 'Two free-body diagrams of the upside-down car at the top of the loop, with +x to the right and +y up; the center of the loop is below the car. (a) Faster than the speed at which gravity alone suffices: the track pushes down on the car with F track, adding to the weight w; both point toward the center. (b) Slower: the track (through the safety wheels) pushes up on the car with F track, smaller than w. In both cases the centripetal acceleration points down, toward the center.',
+      }
+    ),
+
+  // 6.3 Conceptual Question 6 — force of the car on the passenger at the top of the loop
+  fbd_06_03_q06: () =>
+    panels(
+      [
+        verticalPanel({
+          caption: '(a) v = √(rg)',
+          up: [],
+          down: [['w', 80]],
+          accel: -1,
+          name: 'passenger',
+          nameUp: true,
+          note: 'center of loop ↓',
+        }),
+        verticalPanel({
+          caption: '(b) v > √(rg)',
+          up: [],
+          down: [
+            ['N_{seat}', 45, [-7, 0], { dx: -70, dy: -4 }],
+            ['w', 80, [7, 0]],
+          ],
+          accel: -1,
+          name: 'passenger',
+          nameUp: true,
+          note: 'center of loop ↓',
+        }),
+        verticalPanel({
+          caption: '(c) v < √(rg)',
+          up: [['F_{bar}', 35]],
+          down: [['w', 80]],
+          accel: -1,
+          name: 'passenger',
+          nameUp: true,
+          note: 'center of loop ↓',
+        }),
+      ],
+      {
+        title: 'Free-body diagrams of the passenger at the top of the loop',
+        desc: 'Three free-body diagrams of the upside-down passenger at the top of the loop, with +x to the right and +y up; the center of the loop is below. (a) At the speed where gravity alone supplies the centripetal force, only the weight w acts; the car exerts no force. (b) Faster: the seat, which is above the passenger, pushes down with N seat in addition to w. (c) Slower: the safety bar or harness pulls up on the passenger with F bar, smaller than w. In all three the acceleration points down, toward the center.',
+      }
+    ),
+
+  // 6.3 Conceptual Question 7 — skater turning on ice
+  fbd_06_03_q07: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of a skater turning on a circle',
+      desc: 'Free-body diagram with +x horizontally toward the center of the circle and +y up: the ice pushes sideways on the edge of the blade with static friction f s along +x, toward the center; normal force N up; weight w down. The friction force is the centripetal force, and the acceleration points toward the center.',
+      width: 400,
+      height: 290,
+      cx: 150,
+      cy: 150,
+    });
+    d.axes({ xLen: 205, yLen: 110, xNeg: 110, yNeg: 110 });
+    d.note(150, -18, 'toward center →', { size: 12, anchor: 'end' });
+    d.force(90, 80, 'N');
+    d.force(270, 80, 'w');
+    d.force(0, 70, 'f_s');
+    d.accel(0, 45, { at: [50, 75] });
+    d.objectLabel('skater', { dx: -10, dy: -26, anchor: 'end' });
+    return d.render();
+  },
+
+  // 6.3 Conceptual Question 9 — passenger on an ideally banked curve
+  fbd_06_03_q09: () =>
+    banked({
+      theta: 20,
+      name: 'passenger',
+      note: 'ideal speed: no sideways friction from the seat',
+      title: 'Free-body diagram of a passenger on an ideally banked curve',
+      desc: 'Free-body diagram of the passenger with +x horizontally toward the center of the curve and +y up: the seat pushes with N perpendicular to the seat, which is tilted with the road by the banking angle theta, with dashed components N sin theta along +x and N cos theta along +y; weight w down. No sideways friction is needed. The acceleration points toward the center.',
+    }),
+
+  // 6.4 Conceptual Question 3 — rider pinned to the wall of a rotating barrel
+  fbd_06_04_q03: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of a rider in the rotating barrel',
+      desc: 'Free-body diagram with +x horizontally toward the axis of the barrel and +y up: the wall pushes the rider toward the axis with the normal force N along +x, which is the centripetal force; static friction from the wall f s points up and balances the weight w, which points down. The acceleration points toward the axis.',
+      width: 420,
+      height: 300,
+      cx: 150,
+      cy: 150,
+    });
+    d.axes({ xLen: 225, yLen: 115, xNeg: 110, yNeg: 115 });
+    d.note(150, -18, 'toward axis →', { size: 12, anchor: 'end' });
+    d.guide(-12, -110, -12, 110);
+    d.note(-20, 100, 'wall', { size: 12, anchor: 'end' });
+    d.force(0, 150, 'N');
+    d.force(90, 75, 'f_s');
+    d.force(270, 75, 'w');
+    d.accel(0, 45, { at: [60, 80] });
+    d.objectLabel('rider', { dx: 12, dy: 24, anchor: 'start' });
     return d.render();
   },
 };

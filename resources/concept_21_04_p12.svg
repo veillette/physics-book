@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+<title id="title">Voltmeter connected across a resistor</title>
+<desc id="desc">Circuit diagram: a 75.0-kilohm resistor connected in a circuit, with a 1.00-megohm voltmeter connected in parallel across it.</desc>
+<rect width="600" height="300" fill="#ffffff"/>
+<polyline points="80,120 80,50 430,50 430,120" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="430,180 430,250 80,250 80,180" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="80" y1="180" x2="80" y2="155" stroke="#222222" stroke-width="2"/>
+<line x1="80" y1="145" x2="80" y2="120" stroke="#222222" stroke-width="2"/>
+<line x1="71" y1="155" x2="89" y2="155" stroke="#c62828" stroke-width="5"/>
+<line x1="63" y1="145" x2="97" y2="145" stroke="#c62828" stroke-width="3"/>
+<polyline points="80,180 80,180" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="56" y="155.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan></text>
+<circle cx="280" cy="50" r="4" fill="#222222"/>
+<circle cx="280" cy="250" r="4" fill="#222222"/>
+<line x1="280" y1="50" x2="280" y2="115" stroke="#222222" stroke-width="2"/>
+<line x1="280" y1="185" x2="280" y2="250" stroke="#222222" stroke-width="2"/>
+<polyline points="280,115 272,120.83 288,132.5 272,144.17 288,155.83 272,167.5 288,179.17 280,185" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="262" y="155.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">R</tspan><tspan font-style="normal"> = 75.0 </tspan><tspan font-style="normal">k</tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="430" y1="120" x2="430" y2="132" stroke="#222222" stroke-width="2"/>
+<line x1="430" y1="168" x2="430" y2="180" stroke="#222222" stroke-width="2"/>
+<circle cx="430" cy="150" r="18" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<text x="430" y="156.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
+<text x="456" y="155.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">V</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 1.00 </tspan><tspan font-style="italic">M</tspan><tspan font-style="normal">Ω</tspan></text>
+</svg>

@@ -48,10 +48,10 @@ variable will be given by an angle $$\theta$$.
 
 ::::
 
-![A graph is shown. On the axes the scale is set to one block is equal to one unit. A helicopter starts moving from the origin at an angle of twenty nine point one degrees above the x axis. The current position of the helicopter is ten point three blocks along its line of motion. The destination of the helicopter is the point which is nine blocks in the positive x direction and five blocks in the positive y direction. The positive direction of the x axis is east and the positive direction of the y axis is north.](../resources/Figure_03_02_02.jpg "A person walks 9 blocks east and 5 blocks north. The displacement is 10.3 blocks at an angle 29.1 degrees north of east.")
+![A graph is shown. On the axes the scale is set to one block is equal to one unit. A helicopter starts moving from the origin at an angle of twenty nine point one degrees above the x axis. The current position of the helicopter is ten point three blocks along its line of motion. The destination of the helicopter is the point which is nine blocks in the positive x direction and five blocks in the positive y direction. The positive direction of the x axis is east and the positive direction of the y axis is north.](../resources/Figure_03_02_02.svg "A person walks 9 blocks east and 5 blocks north. The displacement is 10.3 blocks at an angle 29.1 degrees north of east.")
 {: #Figure2}
 
-![On a graph a vector is shown. It is inclined at an angle theta equal to twenty nine point one degrees above the positive x axis. A protractor is shown to the right of the x axis to measure the angle. A ruler is also shown parallel to the vector to measure its length. The ruler shows that the length of the vector is ten point three units.](../resources/Figure_03_02_03.jpg 'To describe the resultant vector for the person walking in a city considered in <a href="#Figure2">Figure 2</a> graphically, draw an arrow to represent the total displacement vector \( \vb{D} \) . Using a protractor, draw a line at an angle \( \theta \) relative to the east-west axis. The length \( \mag{D} \) of the arrow is proportional to the vector&#x2019;s magnitude and is measured along the line with a ruler. In this example, the magnitude \( \mag{D} \) of the vector is 10.3 units, and the direction \( \theta \) is 29.1 degrees north of east. ')
+![On a graph a vector is shown. It is inclined at an angle theta equal to twenty nine point one degrees above the positive x axis. A protractor is shown to the right of the x axis to measure the angle. A ruler is also shown parallel to the vector to measure its length. The ruler shows that the length of the vector is ten point three units.](../resources/Figure_03_02_03.svg 'To describe the resultant vector for the person walking in a city considered in <a href="#Figure2">Figure 2</a> graphically, draw an arrow to represent the total displacement vector \( \vb{D} \) . Using a protractor, draw a line at an angle \( \theta \) relative to the east-west axis. The length \( \mag{D} \) of the arrow is proportional to the vector&#x2019;s magnitude and is measured along the line with a ruler. In this example, the magnitude \( \mag{D} \) of the vector is 10.3 units, and the direction \( \theta \) is 29.1 degrees north of east. ')
 {: #Figure3 height="250"}
 
 ### Vector Addition: Head-to-Tail Method
@@ -61,7 +61,7 @@ in [Figure 4](#Figure4) below and in the steps following. The **tail** of the
 vector is the starting point of the vector, and the **head** (or tip) of a
 vector is the final, pointed end of the arrow.
 
-![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_04.jpg 'Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
+![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_04.svg 'Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
 (a) Draw a vector representing the displacement to the east.
 (b) Draw a vector representing the displacement to the north. The tail of this vector should originate from the head of the first, east-pointing vector.
 (c) Draw a line from the tail of the east-pointing vector to the head of the north-pointing vector to form the sum or resultant vector \( \vb{D} \) . The length of the arrow \( \mag{D} \) is proportional to the vector&#x2019;s magnitude and is measured to be 10.3 units . Its direction, described as the angle with respect to the east (or horizontal axis)  \( \theta \) is measured with a protractor to be 29.1 degrees .')
@@ -70,13 +70,13 @@ vector is the final, pointed end of the arrow.
 ***Step 1.*** **Draw an arrow to represent the first vector (9 blocks to the
 east) using a ruler and protractor**.
 
-![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_05.jpg)
+![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_05.svg)
 {: #Figure5 height="200"}
 
 ***Step 2.*** Now draw an arrow to represent the second vector (5 blocks to the
 north). *Place the tail of the second vector at the head of the first vector*.
 
-![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_06.jpg)
+![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_06.svg)
 {: #Figure6 height="200"}
 
 ***Step 3.*** *If there are more than two vectors, continue this process for
@@ -86,7 +86,7 @@ we have finished placing arrows tip to tail*.
 ***Step 4.*** *Draw an arrow from the tail of the first vector to the head of
 the last vector*. This is the **resultant**, or the sum, of the other vectors.
 
-![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_07.jpg)
+![In part c, a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of the x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_07.svg)
 {: #Figure7}
 
 ***Step 5.*** To get the **magnitude** of the resultant, *measure its length
@@ -128,18 +128,18 @@ $$\vb{R}$$.
 
 (1) Draw the three displacement vectors.
 
-![On the graph a vector of magnitude twenty three meters and inclined above the x axis at an angle theta-b equal to fifteen degrees is shown. This vector is labeled as B.](../resources/Figure_03_02_08.jpg)
+![On the graph a vector of magnitude twenty three meters and inclined above the x axis at an angle theta-b equal to fifteen degrees is shown. This vector is labeled as B.](../resources/Figure_03_02_08.svg)
 {: #Figure8}
 
 (2) Place the vectors head to tail retaining both their initial magnitude and
 direction.
 
-![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis.](../resources/Figure_03_02_09.jpg)
+![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis.](../resources/Figure_03_02_09.svg)
 {: #Figure9}
 
 (3) Draw the resultant vector, $$\vb{R}$$.
 
-![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector.](../resources/Figure_03_02_10.jpg)
+![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector.](../resources/Figure_03_02_10.svg)
 {: #Figure10}
 
 (4) Use a ruler to measure the magnitude of $$\vb{R}$$, and a protractor to
@@ -149,7 +149,7 @@ vector and the nearest horizontal or vertical axis. Since the resultant vector
 is south of the eastward pointing axis, we flip the protractor upside down and
 measure the angle between the eastward axis and the vector.
 
-![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector. A ruler is placed along the vector R to measure it. Also there is a protractor to measure the angle.](../resources/Figure_03_02_11.jpg)
+![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector. A ruler is placed along the vector R to measure it. Also there is a protractor to measure the angle.](../resources/Figure_03_02_11.svg)
 {: #Figure11}
 
 In this case, the total displacement $$\vb{R}$$ is seen to have a magnitude of
@@ -165,7 +165,7 @@ order in which the vectors are added. Therefore, we could add the vectors in any
 order as illustrated in [Figure 12](#Figure12) and we will still get the same
 solution.
 
-![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.jpg)
+![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.svg)
 {: #Figure12}
 
 Here, we see that when the same vectors are added in a different order, the
@@ -192,7 +192,7 @@ direction*, as shown in [Figure 13](#Figure13). In other words, $$\vb{B}$$ has
 the same length as $$-\vb{B}$$, but points in the opposite direction.
 Essentially, we just flip the vector so it points in the opposite direction.
 
-![Two vectors are shown. One of the vectors is labeled as vector B in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13.jpg 'The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So \( \vb{B} \) is the negative of \( -\vb{B} \) ; it has the same length but opposite direction. ')
+![Two vectors are shown. One of the vectors is labeled as vector B in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13.svg 'The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So \( \vb{B} \) is the negative of \( -\vb{B} \) ; it has the same length but opposite direction. ')
 {: #Figure13 height="200"}
 
 The **subtraction** of vector $$\vb{B}$$ from vector $$\vb{A}$$ is then
@@ -222,7 +222,7 @@ makes a mistake and travels in the **opposite**
 direction for the second leg of the trip, where will she end up? Compare this
 location with the location of the dock.
 
-![A vector of magnitude twenty seven point five meters is shown. It is inclined to the horizontal at an angle of sixty six degrees. Another vector of magnitude thirty point zero meters is shown. It is inclined to the horizontal at an angle of one hundred and twelve degrees.](../resources/Figure_03_02_14.jpg)
+![A vector of magnitude twenty seven point five meters is shown. It is inclined to the horizontal at an angle of sixty six degrees. Another vector of magnitude thirty point zero meters is shown. It is inclined to the horizontal at an angle of one hundred and twelve degrees.](../resources/Figure_03_02_14.svg)
 {: #Figure14}
 
 **Strategy**
@@ -235,7 +235,7 @@ south of east. We represent this as $$-\vb{B}$$, as shown below. The vector
 $$-\vb{B}$$ has the same magnitude as $$\vb{B}$$ but is in the opposite
 direction. Thus, she will end up at a location $$\vb{A}+\left( -\vb{B} \right)$$, or $$\vb{A} - \vb{B}$$.
 
-![A vector labeled negative B is inclined at an angle of sixty-eight degrees below a horizontal line. A dotted line in the reverse direction inclined at one hundred and twelve degrees above the horizontal line is also shown.](../resources/Figure_03_02_15.jpg)
+![A vector labeled negative B is inclined at an angle of sixty-eight degrees below a horizontal line. A dotted line in the reverse direction inclined at one hundred and twelve degrees above the horizontal line is also shown.](../resources/Figure_03_02_15.svg)
 {: #Figure15}
 
 We will perform vector addition to compare the location of the dock, $$\vb{A} + \vb{B}$$, with the location at which the woman mistakenly arrives, $$\vb{A} + \left(- \vb{B}\right)$$.
@@ -251,7 +251,7 @@ vectors $$\vb{A}$$ and $$-\vb{B}$$.
 
 (4) Use a ruler and protractor to measure the magnitude and direction of $$\vb{R}$$.
 
-![Vectors A and negative B are connected in head to tail method. Vector A is inclined with horizontal with positive slope and vector negative B with a negative slope. The resultant of these two vectors is shown as a vector R from tail of A to the head of negative B. The length of the resultant is twenty three point zero meters and has a negative slope of seven point five degrees.](../resources/Figure_03_02_16.jpg)
+![Vectors A and negative B are connected in head to tail method. Vector A is inclined with horizontal with positive slope and vector negative B with a negative slope. The resultant of these two vectors is shown as a vector R from tail of A to the head of negative B. The length of the resultant is twenty three point zero meters and has a negative slope of seven point five degrees.](../resources/Figure_03_02_16.svg)
 {: #Figure16}
 
 In this case, $$\mag{R}=23.0 \m$$ and $$\theta =7.5^\circ$$ south of east.
@@ -260,7 +260,7 @@ In this case, $$\mag{R}=23.0 \m$$ and $$\theta =7.5^\circ$$ south of east.
 $$\vb{A}$$ and $$\vb{B}$$. We obtain the resultant vector $$\vb{R}^\prime$$
 :
 
-![A vector A inclined at sixty six degrees with horizontal is shown. From the head of this vector another vector B is started. Vector B is inclined at one hundred and twelve degrees with the horizontal. Another vector labeled as R prime from the tail of vector A to the head of vector B is drawn. The length of this vector is fifty two point nine meters and its inclination with the horizontal is shown as ninety point one degrees. Vector R prime is equal to the sum of vectors A and B.](../resources/Figure_03_02_17.jpg)
+![A vector A inclined at sixty six degrees with horizontal is shown. From the head of this vector another vector B is started. Vector B is inclined at one hundred and twelve degrees with the horizontal. Another vector labeled as R prime from the tail of vector A to the head of vector B is drawn. The length of this vector is fifty two point nine meters and its inclination with the horizontal is shown as ninety point one degrees. Vector R prime is equal to the sum of vectors A and B.](../resources/Figure_03_02_17.svg)
 {: #Figure17}
 
 In this case $$\mag{R}= 52.9 \m$$ and $$\theta =90.1^\circ$$ north of east.
@@ -386,6 +386,23 @@ the Earth’s population, the acceleration of gravity?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Check whether a quantity requires a direction in addition to a magnitude.
+
+**Solution**
+
+In the usual meanings in this list, height and altitude are lengths measured relative to a reference, not displacement vectors. Age is a time interval, boiling point is a temperature, cost is an amount of money, and population is a count. All are scalars. A height of $$1.8\m$$ or an age of $$20\text{ yr}$$ does not specify a vector direction.
+
+Gravitational acceleration does require direction. With $$+y$$ upward near Earth’s surface, it has component $$g_y=-9.80\mss$$, or vector $$\vb g=-(9.80\mss)\hat{\mathbf{y}}$$. Its magnitude alone, $$9.80\mss$$, would not say which way an object accelerates.
+
+The acceleration of gravity is the vector in the list; the listed heights, age, boiling point, cost, and population are scalars in their ordinary meanings.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -396,6 +413,25 @@ Give a specific example of a vector, stating its magnitude, units, and direction
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Specify a displacement relative to a chosen coordinate system.
+
+**Solution**
+
+Choose $$+x$$ east and $$+y$$ north. Walking $$3.0\m$$ east and then $$4.0\m$$ north gives the displacement
+
+$$\Delta\vb r=(3.0\m)\hat{\mathbf{x}}+(4.0\m)\hat{\mathbf{y}}.$$
+
+Its magnitude is $$\sqrt{(3.0\m)^2+(4.0\m)^2}=5.0\m$$ and its direction is $$\tan^{-1}(4.0/3.0)=53°$$ north of east. The meters supply the units, while the angle and reference direction identify where the displacement points.
+
+A displacement of 5.0 m at 53° north of east is a specific vector, with magnitude 5.0, units of meters, and a stated direction.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -403,6 +439,23 @@ Give a specific example of a vector, stating its magnitude, units, and direction
 :::: problem
 
 What do vectors and scalars have in common? How do they differ?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Compare the information needed to specify scalars and vectors and how they combine.
+
+**Solution**
+
+Both scalars and vectors describe physical quantities and have magnitudes; dimensional quantities also have units. For example, both speed and velocity can have magnitude $$5.0\ms$$.
+
+A scalar is specified without a spatial direction, whereas a vector requires direction as well. Two speeds of $$5.0\ms$$ do not tell us where the objects travel. Velocities of $$(+5.0\ms)\hat{\mathbf{x}}$$ and $$(-5.0\ms)\hat{\mathbf{x}}$$ point in opposite directions. Their vector sum is $$0\ms$$, even though adding their magnitudes gives $$10.0\ms$$. Vector addition must therefore take directions into account.
+
+Scalars and vectors both have magnitudes and appropriate units, but vectors also have directions and must be combined using vector addition.
 
 ::::
 
@@ -417,8 +470,30 @@ spot on a lake, each taking a different path, as illustrated below.
 The total distance traveled along Path 1 is 7.5 km, and that along
 Path 2 is 8.2 km. What is the final displacement of each camper?
 
-![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes traveled from the cabin to the lake.](../resources/Figure_03_02_18.jpg)
+![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes traveled from the cabin to the lake.](/resources/Figure_03_02_18.svg)
 {: #Figure18}
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Read the straight displacement from the common starting point to the common endpoint, independent of the paths.
+
+**Solution**
+
+Put the origin at the cabin, with $$+x$$ east and $$+y$$ north. Figure 18 gives the displacement arrow as $$5.0\text{ km}$$ at $$40°$$ north of east. Its components are
+
+$$\Delta x=(5.0\text{ km})\cos40°=3.8\text{ km},\qquad
+\Delta y=(5.0\text{ km})\sin40°=3.2\text{ km}.$$
+
+![The two winding routes share a straight 5.0 km displacement arrow from the cabin to the lake at 40° north of east.](../resources/concept_03_02_q04.svg)
+
+The path lengths, $$7.5\text{ km}$$ and $$8.2\text{ km}$$, are distances traveled, not displacements. Since each camper starts and ends at the same respective locations, the two displacement vectors are identical.
+
+Both campers have the same final displacement, 5.0 km at 40° north of east, despite traveling different distances.
 
 ::::
 
@@ -438,6 +513,25 @@ What other information would he need to get to Sacramento?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Distinguish the magnitude of a displacement from its direction.
+
+**Solution**
+
+Every point on the shown circle is $$123\text{ km}$$ from San Francisco. A straight flight of that length fixes the displacement magnitude but leaves its heading unspecified. With east and north axes, all possible endpoints satisfy
+
+$$x^2+y^2=(123\text{ km})^2.$$
+
+The pilot also needs a heading or bearing. For the approximately $$45°$$ north-of-east direction in Figure 19, the components would be $$x=(123\text{ km})\cos45°\approx87\text{ km}$$ and $$y=(123\text{ km})\sin45°\approx87\text{ km}$$. These are an illustration based on the schematic angle, not a navigational survey.
+
+The pilot could reach any point on the circle because 123 km specifies only a distance; a direction or bearing toward Sacramento is also needed.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -453,6 +547,25 @@ the sum of the lengths of the two steps?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Use head-to-tail addition and distinguish the resultant vector from its magnitude.
+
+**Solution**
+
+Returning to the start requires $$\vb A+\vb B=0$$, so $$\vb B=-\vb A$$: the steps must have equal lengths and opposite directions. For example, $$3.0\m$$ east followed by $$3.0\m$$ west gives $$\Delta x=3.0\m-3.0\m=0\m$$.
+
+![Equal opposite steps return to the start, oblique steps give a shorter resultant, and same-direction steps give the maximum resultant of 6.0 m.](../resources/concept_03_02_q06.svg)
+
+The maximum possible distance from the starting point is the **scalar** $$|\vb A+\vb B|_{\max}=A+B$$, where $$A$$ and $$B$$ are the step lengths. Equality occurs when both steps point in the same direction. Two $$3.0\m$$ steps then give $$6.0\m$$; the vector $$\vb A+\vb B$$ additionally specifies direction.
+
+Two nonzero steps return to the start only if they are equal and opposite, while their maximum resultant distance is the sum of their lengths when they point in the same direction.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -463,6 +576,23 @@ Explain why it is not possible to add a scalar to a vector.
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Check whether both terms have the same mathematical type as well as compatible dimensions.
+
+**Solution**
+
+Vector addition combines components along specified directions. A scalar has no components or direction to combine with a vector. Thus adding the speed $$3.0\ms$$ directly to a velocity $$(4.0\ms)\hat{\mathbf{x}}$$ is undefined even though the units match.
+
+If the first quantity is instead specified as a velocity eastward, the vector sum is $$(3.0\ms)\hat{\mathbf{x}}+(4.0\ms)\hat{\mathbf{x}}=(7.0\ms)\hat{\mathbf{x}}$$. If it points west, the sum is $$(1.0\ms)\hat{\mathbf{x}}$$. The different outcomes show why the missing direction matters. A scalar may multiply a vector, but that is a different operation.
+
+A scalar cannot be added directly to a vector because it supplies no direction or vector components, even when the two quantities have the same units.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -470,6 +600,27 @@ Explain why it is not possible to add a scalar to a vector.
 :::: problem
 
 If you take two steps of different sizes, can you end up at your starting point? More generally, can two vectors with different magnitudes ever add to zero? Can three or more?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Find the smallest possible resultant of two unequal vectors, then test a closed polygon of three vectors.
+
+**Solution**
+
+For two steps of lengths $$A$$ and $$B$$, the smallest resultant magnitude is $$|A-B|$$, achieved when they oppose one another. If $$A\ne B$$ this is nonzero; for example, $$4.0\m$$ east followed by $$2.0\m$$ west leaves $$2.0\m$$ east.
+
+Three or more unequal vectors can close a polygon. Take steps $$4.0\m$$ east, $$3.0\m$$ north, and a final $$5.0\m$$ step back to the origin. The final step has components $$(-4.0\m,-3.0\m)$$, so both component sums are zero.
+
+![Unequal opposite steps leave a 2.0 m resultant, while steps of 3.0, 4.0, and 5.0 m form a closed triangle.](../resources/concept_03_02_q08.svg)
+
+For a prescribed collection of lengths, closure requires that the longest not exceed the sum of the others; three arbitrary unequal lengths do not necessarily close.
+
+Two vectors of different magnitudes cannot sum to zero, but three or more can if their lengths and directions allow them to form a closed head-to-tail polygon.
 
 ::::
 
@@ -488,7 +639,7 @@ Find the following for path A in [Figure 20](#Figure20):
 (a) the total distance traveled, and
 (b) the magnitude and direction of the displacement from start to finish.
 
-![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meters each. The path of A extends to three blocks towards north and then one block towards east. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish.](../resources/Figure_03_02_20.jpg 'The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.')
+![A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meters each. The path of A extends to three blocks towards north and then one block towards east. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish.](../resources/Figure_03_02_20.svg 'The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.')
 {: #Figure20}
 
 ::::
@@ -499,19 +650,25 @@ Find the following for path A in [Figure 20](#Figure20):
 
 For part (a), we add up the lengths of all segments of the path. For part (b), we find the displacement vector from start to finish using the Pythagorean theorem for magnitude and trigonometry for direction. Each block is 120 m on a side.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. Path A goes 3 blocks (360 m) north, then 1 block (120 m) east. The displacement R runs from the origin to (x, y) = (120 m, 360 m); its direction θ is measured from the +y (north) axis toward east.](../resources/sketch_03_02_p01.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Then the displacement of path A has components $$ \Delta x = +120 \m $$ and $$ \Delta y = +360 \m $$, and its direction $$ \theta $$ is measured from the $$ +y $$ (north) axis toward east.
+
 **Solution**
 
 **(a) Total distance traveled:**
 
 From Figure 20, path A consists of:
 
-- 3 blocks north: $$3 \times 120 = 360 \m$$
-- 1 block east: $$1 \times 120 = 120 \m$$
+- 3 blocks north: $$3 \times 120 \m = 360 \m$$
+- 1 block east: $$1 \times 120 \m = 120 \m$$
 
 Total distance:
 
 <div class="equation">
-$$d = 360 + 120 = 480 \m$$
+$$d = 360 \m + 120 \m = 480 \m$$
 </div>
 
 **(b) Displacement magnitude and direction:**
@@ -522,16 +679,16 @@ $$d = 360 + 120 = 480 \m$$
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
-$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120)^2 + (360)^2}$$
+$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120 \m)^2 + (360 \m)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{14,400 + 129,600} = \sqrt{144,000} = 379 \m$$
+$$R = \sqrt{14,400 \mm + 129,600 \mm} = \sqrt{144,000 \mm} = 379 \m$$
 </div>
 
 3. Direction (angle east of north):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120}{360}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
+$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120 \m}{360 \m}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
 </div>
 
 **Discussion**
@@ -564,47 +721,53 @@ Find the following for path B in [Figure 20](#Figure20):
 
 Similar to path A, we add up all path segments for distance and use vector components for displacement. Each block is 120 m on a side.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. Path B goes 4 blocks (480 m) east, 3 blocks (360 m) north, then 3 blocks (360 m) west, ending at (x, y) = (120 m, 360 m). The displacement R runs from the origin to that point; its direction θ is measured from the +y (north) axis toward east.](../resources/sketch_03_02_p02.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. East legs add to $$ \Delta x $$ and west legs subtract, giving $$ \Delta x = 480 \m - 360 \m = +120 \m $$ and $$ \Delta y = +360 \m $$; $$ \theta $$ is measured from the $$ +y $$ (north) axis toward east.
+
 **Solution**
 
 **(a) Total distance traveled:**
 
 From Figure 20, path B consists of:
 
-- 4 blocks east: $$4 \times 120 = 480 \m$$
-- 3 blocks north: $$3 \times 120 = 360 \m$$
-- 3 blocks west: $$3 \times 120 = 360 \m$$
+- 4 blocks east: $$4 \times 120 \m = 480 \m$$
+- 3 blocks north: $$3 \times 120 \m = 360 \m$$
+- 3 blocks west: $$3 \times 120 \m = 360 \m$$
 
 Total distance:
 
 <div class="equation">
-$$d = 480 + 360 + 360 = 1200 \m$$
+$$d = 480 \m + 360 \m + 360 \m = 1200 \m$$
 </div>
 
 **(b) Displacement magnitude and direction:**
 
 1. The displacement components are:
    - Net north displacement: $$\Delta y = 360 \m$$ (3 blocks north)
-   - Net east displacement: $$\Delta x = 480 - 360 = 120 \m$$ (4 blocks east and 3 blocks west)
+   - Net east displacement: $$\Delta x = 480 \m - 360 \m = 120 \m$$ (4 blocks east and 3 blocks west)
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
-$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120)^2 + (360)^2}$$
+$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120 \m)^2 + (360 \m)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{14,400 + 129,600} = \sqrt{144,000} = 379 \m$$
+$$R = \sqrt{14,400 \mm + 129,600 \mm} = \sqrt{144,000 \mm} = 379 \m$$
 </div>
 
 3. Direction (angle east of north):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120}{360}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
+$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120 \m}{360 \m}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
 </div>
 
 The displacement is **18.4° east of north**.
 
 **Discussion**
 
-Path B involves significantly more walking (1200 m) than the straight-line displacement (379 m) because the route backtracks one block west after going east. The net motion is one block east and three blocks north—the same displacement as path A, though the distance traveled is much greater.
+Path B involves significantly more walking (1200 m) than the straight-line displacement (379 m) because the route backtracks three blocks west after going east. The net motion is one block east and three blocks north—the same displacement as path A, though the distance traveled is much greater.
 
 **Answer**
 
@@ -631,6 +794,12 @@ the hikers shown in [Figure 18](#Figure18).
 
 To find the north and east components of the displacement, we need to analyze the hiker's path from Figure 18. The total displacement can be broken down into perpendicular components: one pointing north and one pointing east. We'll use trigonometry to find these components based on the direction and magnitude of the displacement vector.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the cabin. The displacement S is 5.00 km at 40.0° north of east, that is, 40.0° counterclockwise from +x. Its east component S x lies along +x and its north component S y is parallel to +y.](../resources/sketch_03_02_p03.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the cabin. The displacement makes $$ 40.0^\circ $$ with the $$ +x $$ axis, so its east component is $$ R\cos 40.0^\circ $$ and its north component is $$ R\sin 40.0^\circ $$, both positive.
+
 **Solution**
 
 From Figure 18, the hikers' displacement has:
@@ -640,25 +809,25 @@ From Figure 18, the hikers' displacement has:
 
 1. **East component** (horizontal):
 <div class="equation">
-$$R_{\text{east}} = R \cos\theta = 5.00 \times \cos(40.0^\circ)$$
+$$R_{\text{east}} = R \cos\theta = 5.00 \text{km} \times \cos(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{east}} = 5.00 \times 0.766 = 3.83 \text{ km}$$
+$$R_{\text{east}} = 5.00 \text{km} \times 0.766 = 3.83 \text{ km}$$
 </div>
 
 2. **North component** (vertical):
 <div class="equation">
-$$R_{\text{north}} = R \sin\theta = 5.00 \times \sin(40.0^\circ)$$
+$$R_{\text{north}} = R \sin\theta = 5.00 \text{km} \times \sin(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{north}} = 5.00 \times 0.643 = 3.21 \text{ km}$$
+$$R_{\text{north}} = 5.00 \text{km} \times 0.643 = 3.21 \text{ km}$$
 </div>
 
 **Discussion**
 
-Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83)^2 + (3.21)^2} = \sqrt{14.67 + 10.30} = \sqrt{24.97} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
+Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83 \text{ km})^2 + (3.21 \text{ km})^2} = \sqrt{14.67 \text{km}^2 + 10.30 \text{km}^2} = \sqrt{24.97 \text{km}^2} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
 
 **Answer**
 
@@ -681,7 +850,7 @@ and $$\vb{B}$$, as in [Figure 21](#Figure21),
 then this problem asks you to
 find their sum $$\vb{R}=\vb{A}+\vb{B}$$.)
 
-![In this figure coordinate axes are shown. Vector A from the origin towards the negative of x axis is shown. From the head of the vector A another vector B is drawn towards the positive direction of y axis. The resultant R of these two vectors is shown as a vector from the tail of vector A to the head of vector B. This vector R is inclined at an angle theta with the negative x axis.](../resources/Figure_03_02_21.jpg 'The two displacements \( \vb{A} \)
+![In this figure coordinate axes are shown. Vector A from the origin towards the negative of x axis is shown. From the head of the vector A another vector B is drawn towards the positive direction of y axis. The resultant R of these two vectors is shown as a vector from the tail of vector A to the head of vector B. This vector R is inclined at an angle theta with the negative x axis.](../resources/Figure_03_02_21.svg 'The two displacements \( \vb{A} \)
 and \( \vb{B} \) add to give a total displacement \( \vb{R} \)
 having magnitude \( \mag{R} \) and direction \( \theta \) .')
 {: #Figure21}
@@ -693,6 +862,12 @@ having magnitude \( \mag{R} \) and direction \( \theta \) .')
 **Strategy**
 
 We have two perpendicular displacements: 18.0 m west and 25.0 m north. Use the Pythagorean theorem to find the magnitude of the resultant displacement and trigonometry to find its direction.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 18.0 m west, along −x, ending at (−18.0 m, 0). B is 25.0 m north, along +y, from the tip of A. The resultant R = A + B runs from the origin to (−18.0 m, 25.0 m); its direction θ is measured from the −x (west) axis toward north.](../resources/sketch_03_02_p04.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Then $$ \vb{A} $$ lies along $$ -x $$ ($$ A_x = -18.0 \m $$), $$ \vb{B} $$ lies along $$ +y $$ ($$ B_y = +25.0 \m $$), and the resultant ends in the second quadrant (north of west).
 
 **Solution**
 
@@ -706,7 +881,7 @@ These vectors are perpendicular to each other, forming a right triangle.
 **Magnitude of resultant:**
 
 <div class="equation">
-$$R = \sqrt{A^2 + B^2} = \sqrt{(18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m$$
+$$R = \sqrt{A^2 + B^2} = \sqrt{(18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 \mm + 625 \mm} = \sqrt{949 \mm} = 30.8 \m$$
 </div>
 
 **Direction:**
@@ -714,7 +889,7 @@ $$R = \sqrt{A^2 + B^2} = \sqrt{(18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{9
 The angle north of west is:
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{B}{A}\right) = \tan^{-1}\left(\frac{25.0}{18.0}\right) = \tan^{-1}(1.389) = 54.2^\circ$$
+$$\theta = \tan^{-1}\left(\frac{B}{A}\right) = \tan^{-1}\left(\frac{25.0 \m}{18.0 \m}\right) = \tan^{-1}(1.389) = 54.2^\circ$$
 </div>
 
 The resultant displacement is 54.2° north of west (or equivalently, 35.8° west of north).
@@ -742,7 +917,7 @@ line connecting your starting point to your final position? (If you represent
 the two legs of the walk as vector displacements $$\vb{A}$$ and $$\vb{B}$$, as in [Figure 22](#Figure22), then this problem
 finds their sum $$\vb{R} = \vb{A} + \vb{B}$$.)
 
-![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined at an angle of twenty degrees with the positive direction of x axis. The magnitude of vector A is twelve meters. Another vector B is starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22.jpg)
+![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined twenty degrees west of north (110 degrees counterclockwise from the positive x axis). The magnitude of vector A is twelve meters. Another vector B starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22.svg)
 {: #Figure22}
 
 ::::
@@ -753,28 +928,34 @@ finds their sum $$\vb{R} = \vb{A} + \vb{B}$$.)
 
 We need to add two displacement vectors using the head-to-tail method. Vector **A** is 12.0 m at 20° west of north, and vector **B** is 20.0 m at 40° south of west. We'll break each vector into north and east components, add the components separately, then find the magnitude and direction of the resultant.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 12.0 m at 20.0° west of north (110° counterclockwise from +x); B is 20.0 m at 40.0° south of west (220° from +x). The legs are drawn head to tail, A first, then B. The resultant R runs from the origin to the end of the second leg, just south of the −x (west) axis; its direction θ is measured from west toward south.](../resources/sketch_03_02_p05.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. An east component is then an $$ x $$-component and a north component is a $$ y $$-component; west and south components are negative. Here $$ A_E $$ and $$ A_N $$ mean $$ A_x $$ and $$ A_y $$.
+
 **Solution**
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component: $$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
-- East component: $$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$ (negative because west)
+- North component: $$A_N = 12.0 \m \cos(20.0^\circ) = 12.0 \m \times 0.9397 = 11.28 \m$$
+- East component: $$A_E = -12.0 \m \sin(20.0^\circ) = -12.0 \m \times 0.3420 = -4.104 \m$$ (negative because west)
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component: $$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- South component: $$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- West component: $$B_W = 20.0 \m \cos(40.0^\circ) = 20.0 \m \times 0.7660 = 15.32 \m$$
+- South component: $$B_S = 20.0 \m \sin(40.0^\circ) = 20.0 \m \times 0.6428 = 12.86 \m$$
 - North component: $$B_N = -12.86 \m$$ (negative because south)
 - East component: $$B_E = -15.32 \m$$ (negative because west)
 
 **Resultant components:**
 
 <div class="equation">
-$$R_N = A_N + B_N = 11.28 + (-12.86) = -1.58 \m$$
+$$R_N = A_N + B_N = 11.28 \m + (-12.86 \m) = -1.58 \m$$
 </div>
 
 <div class="equation">
-$$R_E = A_E + B_E = -4.104 + (-15.32) = -19.43 \m$$
+$$R_E = A_E + B_E = -4.104 \m + (-15.32 \m) = -19.43 \m$$
 </div>
 
 The negative north component means the resultant points south. The negative east component means it points west.
@@ -782,13 +963,13 @@ The negative north component means the resultant points south. The negative east
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58)^2 + (-19.43)^2} = \sqrt{2.50 + 377.5} = \sqrt{380.0} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 \mm + 377.5 \mm} = \sqrt{380.0 \mm} = 19.5 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579}{19.425}\right) = \tan^{-1}(0.08131) = 4.65^\circ$$
+$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579 \m}{19.425 \m}\right) = \tan^{-1}(0.08131) = 4.65^\circ$$
 </div>
 
 Since both components are negative, the resultant points south of west. More specifically, it's 4.65° south of west (or equivalently, 85.35° west of south). Because $$ R_N $$ is the small difference of two nearly equal components, carry extra digits until the end: rounding the components to 11.3 m and 12.9 m first would give 4.7° instead.
@@ -822,42 +1003,48 @@ of north. (This problem shows that $$\vb{A}+\vb{B}=\vb{B}+\vb{A}$$.)
 
 We'll calculate **B** + **A** by walking vector **B** first, then vector **A**. The components should add up to give the same resultant as **A** + **B** from the previous problem, demonstrating the commutative property of vector addition.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 12.0 m at 20.0° west of north (110° counterclockwise from +x); B is 20.0 m at 40.0° south of west (220° from +x). The legs are drawn head to tail, B first, then A. The resultant R runs from the origin to the end of the second leg, just south of the −x (west) axis; its direction θ is measured from west toward south.](../resources/sketch_03_02_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. An east component is then an $$ x $$-component and a north component is a $$ y $$-component; west and south components are negative. Walking $$ \vb{B} $$ first changes the path but not the end point.
+
 **Solution**
 
 Walking in reverse order: **B** first, then **A**
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component: $$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- South component: $$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- West component: $$B_W = 20.0 \m \cos(40.0^\circ) = 20.0 \m \times 0.7660 = 15.32 \m$$
+- South component: $$B_S = 20.0 \m \sin(40.0^\circ) = 20.0 \m \times 0.6428 = 12.86 \m$$
 - North component: $$B_N = -12.86 \m$$ (negative because south)
 - East component: $$B_E = -15.32 \m$$ (negative because west)
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component: $$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
-- East component: $$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$ (negative because west)
+- North component: $$A_N = 12.0 \m \cos(20.0^\circ) = 12.0 \m \times 0.9397 = 11.28 \m$$
+- East component: $$A_E = -12.0 \m \sin(20.0^\circ) = -12.0 \m \times 0.3420 = -4.104 \m$$ (negative because west)
 
 **Resultant components:**
 
 <div class="equation">
-$$R_N = B_N + A_N = -12.86 + 11.28 = -1.58 \m$$
+$$R_N = B_N + A_N = -12.86 \m + 11.28 \m = -1.58 \m$$
 </div>
 
 <div class="equation">
-$$R_E = B_E + A_E = -15.32 + (-4.104) = -19.43 \m$$
+$$R_E = B_E + A_E = -15.32 \m + (-4.104 \m) = -19.43 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58)^2 + (-19.43)^2} = \sqrt{2.50 + 377.5} = \sqrt{380.0} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 \mm + 377.5 \mm} = \sqrt{380.0 \mm} = 19.5 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579}{19.425}\right) = 4.65^\circ \text{ south of west}$$
+$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579 \m}{19.425 \m}\right) = 4.65^\circ \text{ south of west}$$
 </div>
 
 **Discussion**
@@ -895,6 +1082,12 @@ Show that this is the case.
 
 For part (a), we're finding **A** - **B**, which means we add **A** and -**B** (the opposite of **B**). For part (b), we're finding **B** - **A**, which equals -(**A** - **B**). We'll use component methods to solve both, then verify that the results are opposite vectors.
 
+**Sketch and coordinate system**
+
+![Two panels, each with +x east and +y north and the origin at the start. (a) A, 12.0 m at 20.0° west of north (110° from +x), followed by −B, 20.0 m at 40.0° north of east (40° from +x); their sum R′ = A − B ends in the first quadrant. (b) B, 20.0 m at 40.0° south of west (220° from +x), followed by −A, 12.0 m at 20.0° east of south (290° from +x); their sum R″ = B − A ends in the third quadrant, opposite to R′.](../resources/sketch_03_02_p07.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Subtracting $$ \vb{B} $$ means adding $$ -\vb{B} $$, the same length pointing the opposite way. In (a), $$ -\vb{B} $$ is $$ 40.0^\circ $$ north of east; in (b), $$ -\vb{A} $$ is $$ 20.0^\circ $$ east of south. An east component is then an $$ x $$-component and a north component is a $$ y $$-component; west and south components are negative.
+
 **Solution**
 
 **(a) Finding R' = A - B:**
@@ -910,29 +1103,29 @@ For **A** - **B**, the second leg is now 20.0 m at 40° **north** of east (oppos
 
 **Vector -B components** (20.0 m, 40° north of east):
 
-- East component: $$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- North component: $$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- East component: $$(-B)_E = 20.0 \m \cos(40.0^\circ) = 20.0 \m \times 0.7660 = 15.32 \m$$
+- North component: $$(-B)_N = 20.0 \m \sin(40.0^\circ) = 20.0 \m \times 0.6428 = 12.86 \m$$
 
 **Resultant R' = A - B:**
 
 <div class="equation">
-$$R'_N = A_N + (-B)_N = 11.28 + 12.86 = 24.13 \m$$
+$$R'_N = A_N + (-B)_N = 11.28 \m + 12.86 \m = 24.13 \m$$
 </div>
 
 <div class="equation">
-$$R'_E = A_E + (-B)_E = -4.104 + 15.32 = 11.22 \m$$
+$$R'_E = A_E + (-B)_E = -4.104 \m + 15.32 \m = 11.22 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R' = \sqrt{(24.13)^2 + (11.22)^2} = \sqrt{582.3 + 125.9} = \sqrt{708.2} = 26.6 \m$$
+$$R' = \sqrt{(24.13 \m)^2 + (11.22 \m)^2} = \sqrt{582.3 \mm + 125.9 \mm} = \sqrt{708.2 \mm} = 26.6 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{R'_N}{R'_E}\right) = \tan^{-1}\left(\frac{24.13}{11.22}\right) = \tan^{-1}(2.151) = 65.1^\circ$$
+$$\theta = \tan^{-1}\left(\frac{R'_N}{R'_E}\right) = \tan^{-1}\left(\frac{24.13 \m}{11.22 \m}\right) = \tan^{-1}(2.151) = 65.1^\circ$$
 </div>
 
 Since both components are positive, this is 65.1° north of east.
@@ -952,7 +1145,7 @@ $$R''_E = -R'_E = -11.22 \m$$
 **Magnitude:**
 
 <div class="equation">
-$$R'' = \sqrt{(-24.13)^2 + (-11.22)^2} = 26.6 \m$$
+$$R'' = \sqrt{(-24.13 \m)^2 + (-11.22 \m)^2} = 26.6 \m$$
 </div>
 
 **Direction:**
@@ -992,6 +1185,12 @@ added; choose only one.)
 
 Choose three vectors with different magnitudes and directions, then add them in two different orders (e.g., A+B+C and B+C+A). Use the graphical head-to-tail method or analytical component method to show the resultant is the same regardless of order.
 
+**Sketch and coordinate system**
+
+![Axes with +x and +y, angles measured counterclockwise from +x. A is 10.0 units at 30°, B is 8.0 units at 120°, and C is 6.0 units at 240°. Solid arrows: A, then B, then C, head to tail. Dashed arrows: B, then C, then A. Both chains end at the same point, so the resultant R is the same.](../resources/sketch_03_02_p08.svg){: .sketch}
+
+Take $$ +x $$ to the right and $$ +y $$ up, and measure each angle counterclockwise from $$ +x $$, so $$ A_x = A\cos\theta_A $$ and $$ A_y = A\sin\theta_A $$ with the signs coming out automatically. The two head-to-tail chains end at the same point.
+
 **Solution**
 
 Let's choose three vectors:
@@ -1005,41 +1204,41 @@ Let's choose three vectors:
 Components of A:
 
 <div class="equation">
-$$A_x = 10.0\cos(30°) = 10.0(0.866) = 8.66 \text{ units}$$
+$$A_x = 10.0 \text{ units}\cos(30°) = 10.0 \text{units}(0.866) = 8.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$A_y = 10.0\sin(30°) = 10.0(0.500) = 5.00 \text{ units}$$
+$$A_y = 10.0 \text{ units}\sin(30°) = 10.0 \text{units}(0.500) = 5.00 \text{ units}$$
 </div>
 
 Components of B:
 
 <div class="equation">
-$$B_x = 8.0\cos(120°) = 8.0(-0.500) = -4.00 \text{ units}$$
+$$B_x = 8.0 \text{ units}\cos(120°) = 8.0 \text{units}(-0.500) = -4.00 \text{ units}$$
 </div>
 
 <div class="equation">
-$$B_y = 8.0\sin(120°) = 8.0(0.866) = 6.93 \text{ units}$$
+$$B_y = 8.0 \text{ units}\sin(120°) = 8.0 \text{units}(0.866) = 6.93 \text{ units}$$
 </div>
 
 Components of C:
 
 <div class="equation">
-$$C_x = 6.0\cos(240°) = 6.0(-0.500) = -3.00 \text{ units}$$
+$$C_x = 6.0 \text{ units}\cos(240°) = 6.0 \text{units}(-0.500) = -3.00 \text{ units}$$
 </div>
 
 <div class="equation">
-$$C_y = 6.0\sin(240°) = 6.0(-0.866) = -5.20 \text{ units}$$
+$$C_y = 6.0 \text{ units}\sin(240°) = 6.0 \text{units}(-0.866) = -5.20 \text{ units}$$
 </div>
 
 Sum A + B + C:
 
 <div class="equation">
-$$R_x = A_x + B_x + C_x = 8.66 + (-4.00) + (-3.00) = 1.66 \text{ units}$$
+$$R_x = A_x + B_x + C_x = 8.66 \text{ units} + (-4.00 \text{ units}) + (-3.00 \text{ units}) = 1.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$R_y = A_y + B_y + C_y = 5.00 + 6.93 + (-5.20) = 6.73 \text{ units}$$
+$$R_y = A_y + B_y + C_y = 5.00 \text{ units} + 6.93 \text{ units} + (-5.20 \text{ units}) = 6.73 \text{ units}$$
 </div>
 
 **Order 2: B + C + A**
@@ -1047,21 +1246,21 @@ $$R_y = A_y + B_y + C_y = 5.00 + 6.93 + (-5.20) = 6.73 \text{ units}$$
 Components are the same as above. Sum B + C + A:
 
 <div class="equation">
-$$R_x = B_x + C_x + A_x = (-4.00) + (-3.00) + 8.66 = 1.66 \text{ units}$$
+$$R_x = B_x + C_x + A_x = (-4.00 \text{units}) + (-3.00 \text{units}) + 8.66 \text{units} = 1.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$R_y = B_y + C_y + A_y = 6.93 + (-5.20) + 5.00 = 6.73 \text{ units}$$
+$$R_y = B_y + C_y + A_y = 6.93 \text{ units} + (-5.20 \text{ units}) + 5.00 \text{ units} = 6.73 \text{ units}$$
 </div>
 
 **Resultant magnitude and direction (same for both orders):**
 
 <div class="equation">
-$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66)^2 + (6.73)^2} = \sqrt{2.76 + 45.3} = \sqrt{48.06} = 6.93 \text{ units}$$
+$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66 \text{ units})^2 + (6.73 \text{ units})^2} = \sqrt{2.76 \text{units}^2 + 45.3 \text{units}^2} = \sqrt{48.06 \text{units}^2} = 6.93 \text{ units}$$
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{R_y}{R_x}\right) = \tan^{-1}\left(\frac{6.73}{1.66}\right) = \tan^{-1}(4.05) = 76.1°$$
+$$\theta = \tan^{-1}\left(\frac{R_y}{R_x}\right) = \tan^{-1}\left(\frac{6.73 \text{units}}{1.66 \text{units}}\right) = \tan^{-1}(4.05) = 76.1°$$
 </div>
 
 **Discussion**
@@ -1101,35 +1300,35 @@ From Example 2, the displacement vectors (with angles measured counterclockwise 
 **Vector A components:**
 
 <div class="equation">
-$$A_x = 27.5 \cos(66.0^\circ) = 11.185 \m, \qquad A_y = 27.5 \sin(66.0^\circ) = 25.123 \m$$
+$$A_x = 27.5 \m \cos(66.0^\circ) = 11.185 \m, \qquad A_y = 27.5 \m \sin(66.0^\circ) = 25.123 \m$$
 </div>
 
 **Vector B components:**
 
 <div class="equation">
-$$B_x = 30.0 \cos(112.0^\circ) = -11.238 \m, \qquad B_y = 30.0 \sin(112.0^\circ) = 27.816 \m$$
+$$B_x = 30.0 \m \cos(112.0^\circ) = -11.238 \m, \qquad B_y = 30.0 \m \sin(112.0^\circ) = 27.816 \m$$
 </div>
 
 **Resultant components:**
 
 <div class="equation">
-$$R_x = A_x + B_x = 11.185 + (-11.238) = -0.053 \m$$
+$$R_x = A_x + B_x = 11.185 \m + (-11.238 \m) = -0.053 \m$$
 </div>
 
 <div class="equation">
-$$R_y = A_y + B_y = 25.123 + 27.816 = 52.939 \m$$
+$$R_y = A_y + B_y = 25.123 \m + 27.816 \m = 52.939 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(-0.053)^2 + (52.939)^2} = 52.9 \m$$
+$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(-0.053 \m)^2 + (52.939 \m)^2} = 52.9 \m$$
 </div>
 
 **Direction:** Since $$R_x$$ is very slightly negative and $$R_y$$ is positive, the resultant points just west of north:
 
 <div class="equation">
-$$\theta = 90^\circ + \tan^{-1}\left(\frac{0.053}{52.939}\right) = 90^\circ + 0.06^\circ = 90.1^\circ$$
+$$\theta = 90^\circ + \tan^{-1}\left(\frac{0.053 \m}{52.939 \m}\right) = 90^\circ + 0.06^\circ = 90.1^\circ$$
 </div>
 
 **Discussion**
@@ -1151,7 +1350,7 @@ The sum of the vectors in Example 2 gives a resultant of 52.9 m at an angle of 9
 Find the magnitudes of velocities $$v_{\text{A}}$$
 and $$v_{\text{B}}$$ in [Figure 23](#Figure23)
 
-![On the graph velocity vector V sub A begins at the origin and is inclined to x axis at an angle of twenty two point five degrees. From the head of vector V sub A another vector V sub B begins. The resultant of the two vectors, labeled V sub tot, is inclined to vector V sub A at twenty six point five degrees and to the vector V sub B at twenty three point zero degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figure_03_02_23.jpg 'The two velocities \( \vb{v}_A \) and \( \vb{v}_B \) add to give a total \( \vb{v}_\text{tot} \) .')
+![On the graph velocity vector V sub A begins at the origin and is inclined to x axis at an angle of twenty two point five degrees. From the head of vector V sub A another vector V sub B begins. The resultant of the two vectors, labeled V sub tot, is inclined to vector V sub A at twenty six point five degrees and to the vector V sub B at twenty three point zero degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figure_03_02_23.svg 'The two velocities \( \vb{v}_A \) and \( \vb{v}_B \) add to give a total \( \vb{v}_\text{tot} \) .')
 {: #Figure23}
 
 ::::
@@ -1185,7 +1384,7 @@ $$\frac{v_B}{\sin(26.5°)} = \frac{v_{tot}}{\sin(130.5°)}$$
 </div>
 
 <div class="equation">
-$$v_B = v_{tot} \times \frac{\sin(26.5°)}{\sin(130.5°)} = 6.72 \times \frac{0.446}{0.757} = 6.72 \times 0.589 = 3.96 \ms$$
+$$v_B = v_{tot} \times \frac{\sin(26.5°)}{\sin(130.5°)} = 6.72 \ms \times \frac{\sin(26.5°)}{\sin(130.5°)} \approx 3.94 \ms$$
 </div>
 
 **Finding vA:**
@@ -1195,7 +1394,7 @@ $$\frac{v_A}{\sin(23.0°)} = \frac{v_{tot}}{\sin(130.5°)}$$
 </div>
 
 <div class="equation">
-$$v_A = v_{tot} \times \frac{\sin(23.0°)}{\sin(130.5°)} = 6.72 \times \frac{0.391}{0.757} = 6.72 \times 0.517 = 3.47 \ms$$
+$$v_A = v_{tot} \times \frac{\sin(23.0°)}{\sin(130.5°)} = 6.72 \ms \times \frac{\sin(23.0°)}{\sin(130.5°)} \approx 3.45 \ms$$
 </div>
 
 **Discussion**
@@ -1204,7 +1403,7 @@ The magnitudes can be verified by checking if these vectors, when added head-to-
 
 **Answer**
 
-The magnitude of velocity **vA is 3.47 m/s** and the magnitude of velocity **vB is 3.96 m/s**.
+The magnitude of velocity **vA is 3.45 m/s** and the magnitude of velocity **vB is 3.94 m/s**.
 
 ::::
 
@@ -1235,19 +1434,19 @@ Given:
 **x-component:**
 
 <div class="equation">
-$$v_{tot,x} = v_{tot}\cos(\theta) = 6.72\cos(49.0°) = 6.72 \times 0.656 = 4.41 \ms$$
+$$v_{tot,x} = v_{tot}\cos(\theta) = 6.72 \ms\cos(49.0°) = 6.72 \ms \times 0.656 = 4.41 \ms$$
 </div>
 
 **y-component:**
 
 <div class="equation">
-$$v_{tot,y} = v_{tot}\sin(\theta) = 6.72\sin(49.0°) = 6.72 \times 0.755 = 5.07 \ms$$
+$$v_{tot,y} = v_{tot}\sin(\theta) = 6.72 \ms\sin(49.0°) = 6.72 \ms \times 0.755 = 5.07 \ms$$
 </div>
 
 **Verification:**
 
 <div class="equation">
-$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41)^2 + (5.07)^2} = \sqrt{19.4 + 25.7} = \sqrt{45.1} = 6.72 \ms$$ ✓
+$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41 \ms)^2 + (5.07 \ms)^2} = \sqrt{19.4 \mmss + 25.7 \mmss} = \sqrt{45.1 \mmss} = 6.72 \ms$$ ✓
 </div>
 
 **Discussion**
@@ -1290,13 +1489,13 @@ Given:
 **Component along new x'-axis:**
 
 <div class="equation">
-$$v'_{tot,x'} = v_{tot}\cos(\theta') = 6.72\cos(19.0°) = 6.72 \times 0.946 = 6.35 \ms$$
+$$v'_{tot,x'} = v_{tot}\cos(\theta') = 6.72 \ms\cos(19.0°) = 6.72 \ms \times 0.946 = 6.35 \ms$$
 </div>
 
 **Component along new y'-axis:**
 
 <div class="equation">
-$$v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72\sin(19.0°) = 6.72 \times 0.326 = 2.19 \ms$$
+$$v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72 \ms\sin(19.0°) = 6.72 \ms \times 0.326 = 2.19 \ms$$
 </div>
 
 **Alternative method using rotation formulas:**
@@ -1304,11 +1503,11 @@ $$v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72\sin(19.0°) = 6.72 \times 0.326 = 2.
 We could also transform the original components (4.41, 5.07) using rotation matrices:
 
 <div class="equation">
-$$v'_{x'} = v_x\cos(30°) + v_y\sin(30°) = 4.41(0.866) + 5.07(0.500) = 3.82 + 2.54 = 6.36 \ms$$
+$$v'_{x'} = v_x\cos(30°) + v_y\sin(30°) = 4.41 \ms(0.866) + 5.07 \ms(0.500) = 3.82 \ms + 2.54 \ms = 6.36 \ms$$
 </div>
 
 <div class="equation">
-$$v'_{y'} = -v_x\sin(30°) + v_y\cos(30°) = -4.41(0.500) + 5.07(0.866) = -2.21 + 4.39 = 2.18 \ms$$
+$$v'_{y'} = -v_x\sin(30°) + v_y\cos(30°) = -4.41 \ms(0.500) + 5.07 \ms(0.866) = -2.21 \ms + 4.39 \ms = 2.18 \ms$$
 </div>
 
 Both methods agree (within rounding).

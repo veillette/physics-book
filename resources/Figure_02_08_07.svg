@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="190" viewBox="0 0 330 190" role="img" aria-labelledby="title desc">
+<title id="title">Velocity versus time for a ship coming into harbor</title>
+<desc id="desc">Velocity versus time for a ship coming into harbor</desc>
+<rect width="330" height="190" fill="#ffffff"/>
+<line x1="70" y1="120" x2="290" y2="120" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="120" x2="70" y2="30" stroke="#333333" stroke-width="1.3"/>
+<polyline points="70,48 111.8,48 149.2,93 230.6,120" fill="none" stroke="#5e9e1e" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="52" y="82" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<text x="180" y="149" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan></text>
+</svg>

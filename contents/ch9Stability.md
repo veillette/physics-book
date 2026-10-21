@@ -37,7 +37,7 @@ especially for small displacements. For another example of stable equilibrium,
 see the pencil in [Figure 2](#Figure2)
 .
 
-![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_09_03_02.jpg 'This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ')
+![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](/resources/Figure_09_03_02.svg 'This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ')
 {: #Figure2}
 
 A system is in **unstable equilibrium** if, when displaced, it experiences a net
@@ -48,16 +48,16 @@ Once displaced, it accelerates away from the crest. The next several figures
 compare a pencil standing on its flat end, which is stable for small
 displacements, with a pencil balanced on its point, which is unstable.
 
-![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_03.jpg 'If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.')
+![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](/resources/Figure_09_03_03.svg 'If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.')
 {: #Figure3}
 
-![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](../resources/Figure_09_03_04.jpg 'If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.')
+![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](/resources/Figure_09_03_04.svg 'If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.')
 {: #Figure4}
 
-![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](../resources/Figure_09_03_05.jpg 'This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.')
+![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](/resources/Figure_09_03_05.svg 'This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.')
 {: #Figure5}
 
-![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_09_03_06.jpg 'If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.')
+![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](/resources/Figure_09_03_06.svg 'If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.')
 {: #Figure6}
 
 A system is in **neutral equilibrium** if its equilibrium is independent of
@@ -67,7 +67,7 @@ marble on a saddle is stable for displacements toward the front or back of the
 saddle and unstable for displacements to the side. [Figure 7](#Figure7) shows
 another example of neutral equilibrium.
 
-![In figure a, a ball is lying on a flat surface and the point of contact with the surface is labeled pivot point. The weight of the ball is acting at the center of gravity of the ball. The normal force N is in the same line as the weight of the ball. The torque on the ball is zero. In figure b, a side view of a pencil lying flat on a table is shown. The sharp end of the pencil is toward right. The weight of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the table surface is in the same line of action as the weight but in the upward direction.](../resources/Figure_09_03_07.jpg '(a) Here we see neutral equilibrium. The cg of a sphere on a flat surface lies directly above the point of support, independent of the position on the surface. The sphere is therefore in equilibrium in any location, and if displaced, it will remain put. (b) Because it has a circular cross section, the pencil is in neutral equilibrium for displacements perpendicular to its length.')
+![In figure a, a ball is lying on a flat surface and the point of contact with the surface is labeled pivot point. The weight of the ball is acting at the center of gravity of the ball. The normal force N is in the same line as the weight of the ball. The torque on the ball is zero. In figure b, a side view of a pencil lying flat on a table is shown. The sharp end of the pencil is toward right. The weight of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the table surface is in the same line of action as the weight but in the upward direction.](/resources/Figure_09_03_07.svg '(a) Here we see neutral equilibrium. The cg of a sphere on a flat surface lies directly above the point of support, independent of the position on the surface. The sphere is therefore in equilibrium in any location, and if displaced, it will remain put. (b) Because it has a circular cross section, the pencil is in neutral equilibrium for displacements perpendicular to its length.')
 {: #Figure7}
 
 When we consider how far a system in stable equilibrium can be displaced before
@@ -150,25 +150,19 @@ A round pencil lying on its side as in [Figure 4](#Figure4) is in neutral equili
 
 **Strategy**
 
-We analyze what happens to the pencil's center of gravity when it is displaced parallel to its length, and determine whether the resulting torque (if any) would restore it to its original position, move it further away, or have no effect.
+Classify equilibrium by what happens to the center of gravity (cg) after a small displacement: if it rises, gravity produces a restoring torque (stable); if it falls, gravity pushes the object farther away (unstable); if its height does not change, there is no torque (neutral).
 
 **Solution**
 
-A round pencil lying on a flat horizontal surface is also in **neutral equilibrium** for displacements parallel to its length.
+Slide or roll the pencil along its own length on a flat, level table. Take $$ +y $$ upward. Its cg moves horizontally but stays at the same height, the pencil's radius, about $$ 0.0035 \m $$ above the table. The normal force from the table stays directly below the cg, so the weight and the normal force act along the same vertical line and produce no torque. For a $$ 5.0 \text{ g} $$ pencil the gravitational potential energy changes by
 
-Here's why:
+<div class="equation">
+$$ \Delta\PE_{g} = mg\,\Delta y = (0.0050 \kg)(9.80 \mss)(0 \m) = 0 \J $$
+</div>
 
-- When the pencil is pushed along its length (parallel to its axis), the center of gravity (cg) moves horizontally but remains at the same height above the surface.
-- The pencil remains in contact with the surface, and the normal force continues to act directly below the cg.
-- Since the cg doesn't rise or fall, there is no gravitational potential energy change.
-- There is no restoring force or torque that would return the pencil to its original position.
-- There is also no force or torque that would push it further from its original position.
+for any displacement along its length. Nothing pushes the pencil back toward its original position, and nothing pushes it farther away. It simply stays wherever it is placed.
 
-The pencil simply stays wherever it is placed, which is the definition of neutral equilibrium.
-
-**Discussion**
-
-This analysis reveals that the pencil is in neutral equilibrium for any displacement along the flat surface—whether perpendicular or parallel to its length. This makes sense because the flat surface and round cross-section create a situation where the cg height is independent of position. Compare this to a marble on a flat surface, which is similarly in neutral equilibrium in all horizontal directions.
+A round pencil lying on its side is also in neutral equilibrium for displacements parallel to its length, because its center of gravity stays at the same height ($$ \Delta\PE_{g} = 0 \J $$), so no restoring or overturning torque arises.
 
 :::
 
@@ -186,19 +180,28 @@ Explain the need for tall towers on a suspension bridge to ensure stable equilib
 
 **Strategy**
 
-We model the bridge simply: two main cables hang between the tops of the towers, and the deck hangs from the cables by vertical suspenders. We ask how tower height affects (1) whether the deck's equilibrium is stable and (2) the forces the cables must carry.
+Model the bridge simply: the main cables hang from the tops of the towers, and the deck hangs from the cables. Ask how the tower height affects (1) where the load hangs relative to its supports and (2) the tension the cables must carry.
 
 **Solution**
 
-1. **The deck hangs below its supports.** The weight of the deck is carried by cables attached to the tops of the towers, well above the deck. A load suspended below its support points is in stable equilibrium, like a pendulum: if the deck is displaced sideways or lengthwise, it rises slightly, and gravity tends to bring it back. Tall towers make this arrangement possible while still leaving room for the cables to sag down to the deck.
+**1. The deck hangs below its supports.** The deck's weight is carried by cables attached to the tops of the towers, well above the deck. A load suspended below its points of support is in **stable** equilibrium, like a pendulum: if the deck is pushed sideways, its cg rises slightly, and gravity pulls it back. Tall towers make this arrangement possible while leaving room for the cables to sag down to the deck.
 
-2. **Sag keeps cable forces manageable.** For a cable carrying a uniform load $$ w $$ per unit length over a span $$ S $$ with sag $$ d $$ (the vertical drop from the tower tops to the lowest point of the cable), the horizontal component of the cable tension is approximately $$ H \approx wS^2/(8d) $$. Taller towers allow a larger sag for the same deck elevation, which reduces the cable tension and the horizontal pull on the anchorages. A cable with very little sag would need an enormous tension to carry the same load.
+**2. Sag keeps the cable tension manageable.** For a cable carrying a uniform load $$ w $$ per meter over a span $$ S $$ with a sag $$ d $$ (the drop from the tower tops to the lowest point of the cable), the horizontal component of the tension is approximately
 
-3. **What tower height does not do.** Raising the towers while keeping the deck at the same elevation does not lower the deck's center of gravity. Nor do longer suspenders give a stronger restoring force: in a simple pendulum model, the horizontal restoring stiffness of a hanging load is $$ mg/L $$, which *decreases* as the suspension length $$ L $$ increases. Resistance to wind-driven swaying and twisting comes mainly from the stiffness of the deck and its bracing, not from tower height.
+<div class="equation">
+$$ H \approx \frac{wS^{2}}{8d} $$
+</div>
 
-**Discussion**
+For a span of $$ 1000 \m $$ carrying $$ 1.0 \times 10^{5} \text{ N/m} $$:
 
-Tall towers are needed chiefly so that the main cables can sag enough to carry the deck with acceptable tensions while the deck hangs, in stable equilibrium, below its points of support. The famous collapse of the Tacoma Narrows Bridge in 1940 showed that hanging below the supports is not sufficient: the deck must also be stiff enough to resist wind-induced oscillations, leading to modern bridge designs that emphasize both vertical and torsional stiffness.
+- with $$ d = 100 \m $$ of sag: $$ H \approx (1.0 \times 10^{5} \text{ N/m})(1000 \m)^2/[8(100 \m)] = 1.3 \times 10^{8} \N $$
+- with only $$ d = 25 \m $$: $$ H \approx 5.0 \times 10^{8} \N $$, four times as large
+
+Taller towers allow more sag for the same deck height, so the cables and their anchors carry much smaller forces. A cable with almost no sag would need an enormous tension.
+
+Tower height alone does not make the deck rigid. The Tacoma Narrows Bridge collapse in 1940 showed that the deck must also be stiff enough to resist wind-driven twisting and swaying.
+
+A suspension bridge needs tall towers so that the deck can hang, in stable equilibrium, well below the cables' points of support, and so that the cables can sag enough to keep their tension manageable (about $$ 1.3 \times 10^{8} \N $$ with $$ 100 \m $$ of sag versus $$ 5.0 \times 10^{8} \N $$ with $$ 25 \m $$ in this example).
 
 :::
 
@@ -222,6 +225,12 @@ Suppose a horse leans against a wall as in [Figure 10](#Figure10). Calculate the
 **Strategy**
 
 Take the horse and rider as the system and choose the pivot at the horse's feet, so the unknown ground forces produce no torque. Only two forces then produce torques: the weight $$ w $$, acting 0.35 m horizontally from the feet, and the horizontal wall force, acting 1.2 m above the ground. Setting the net torque to zero gives the wall force.
+
+**Free-body diagram**
+
+![Rear view with the wall on the left. Torques are taken about the horse’s feet (the origin). +x points away from the wall and +y up, and counterclockwise torques are positive. The weight w = 4900 N acts down 0.35 m from the feet, on the wall side (counterclockwise torque); the wall pushes horizontally along +x with F_wall, 1.2 m above the ground (clockwise torque).](../resources/sketch_09_03_p01.svg){: .sketch}
+
+Take $$ +x $$ away from the wall, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the horse's feet. The weight acts on the wall side of the feet, so its torque $$ +w(0.350\m) $$ is counterclockwise; the wall force points along $$ +x $$, 1.20 m up, so its torque $$ -F_{\text{wall}}(1.20\m) $$ is clockwise. Setting the sum to zero gives the equation below.
 
 **Solution**
 
@@ -256,6 +265,12 @@ Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot
 **Strategy**
 
 For the seesaw to be balanced, the net torque about the pivot must be zero. We use the second condition for equilibrium: $$ \text{net}\tau = 0 $$. Let $$ r_1 $$ be the distance of the smaller child from the pivot and $$ r_2 $$ be the distance of the larger child. We know that $$ r_1 + r_2 = 3.00 \m $$.
+
+**Free-body diagram**
+
+![The seesaw pivots at its center (the origin). +x points to the right and +y up, and counterclockwise torques are positive. The 20.0-kg child sits r_1 to the left of the pivot, so the weight m_1 g gives a counterclockwise (positive) torque; the 30.0-kg child sits r_2 to the right, so m_2 g gives a clockwise (negative) torque. The children are 3.00 m apart.](../resources/sketch_09_03_p02.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the center of the seesaw and the smaller child on the left. Then $$ \sum \tau = m_1 g r_1 - m_2 g r_2 = 0 $$, which is the balance $$ \tau_{1} = \tau_{2} $$ used below.
 
 **Solution**
 
@@ -296,22 +311,22 @@ $$ (20.0 \kg) r_1 = (30.0 \kg)(3.00 \m - r_1) $$
 </div>
 
 <div class="equation">
-$$ 20.0 r_1 = 90.0 - 30.0 r_1 $$
+$$ 20.0 \kg r_1 = 90.0 \text{kg}\cdot\text{m} - 30.0 \kg r_1 $$
 </div>
 
 <div class="equation">
-$$ 50.0 r_1 = 90.0 $$
+$$ 50.0 \kg r_1 = 90.0 \text{kg}\cdot\text{m} $$
 </div>
 
 <div class="equation">
-$$ r_1 = \frac{90.0}{50.0} = 1.80 \m $$
+$$ r_1 = \frac{90.0 \text{kg}\cdot\text{m}}{50.0 \kg} = 1.80 \m $$
 </div>
 
 The smaller child sits **1.80 m** from the pivot point.
 
 **Discussion**
 
-As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = 30.0/20.0 = 1.5 $$. We can verify: $$ r_2 = 3.00 - 1.80 = 1.20 \m $$, and indeed $$ 1.80/1.20 = 1.5 $$. This is the same principle used in balance scales and lever systems.
+As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = \frac{30.0 \kg}{20.0 \kg} = 1.5 $$. We can verify: $$ r_2 = 3.00 \m - 1.80 \m = 1.20 \m $$, and indeed $$ \frac{1.80 \m}{1.20 \m} = 1.5 $$. This is the same principle used in balance scales and lever systems.
 
 :::
 
@@ -332,6 +347,12 @@ As expected, the lighter child must sit farther from the pivot to balance the he
 
 Use the first condition for equilibrium on the horse and rider. The wall force from the previous problem, $$ F_{\text{wall}} = 1.43 \times 10^{3} \N $$, is horizontal and points away from the wall, so the ground must supply an equal horizontal friction force toward the wall. With the center of mass midway between the two feet on the ground, each foot carries half the weight and, by symmetry, half the friction.
 
+**Free-body diagram**
+
+![Rear view with the wall on the left. +x points away from the wall and +y up. On the horse and rider: the wall pushes along +x with F_wall = 1.43 × 10³ N, 1.2 m up; the weight w = 4900 N acts down; each of the two feet on the ground gets N_foot along +y and friction f_foot along −x, toward the wall. The force on each foot, F_foot, is the sum of N_foot and f_foot, tilted from the vertical toward the wall by θ.](../resources/sketch_09_03_p03.svg){: .sketch}
+
+Take $$ +x $$ away from the wall and $$ +y $$ upward. The wall pushes the horse along $$ +x $$, so the friction on the two feet must point along $$ -x $$, toward the wall, and $$ \sum F_x = F_{\text{wall}} - 2f_{\text{foot}} = 0 $$. Vertically, $$ \sum F_y = 2N_{\text{foot}} - w = 0 $$.
+
 **Solution**
 
 **(a)** Each foot:
@@ -341,7 +362,7 @@ $$ N_{\text{foot}} = \frac{mg}{2} = \frac{4900 \N}{2} = 2450 \N, \qquad f_{\text
 </div>
 
 <div class="equation">
-$$ F_{\text{foot}} = \sqrt{(2450 \N)^2 + (715 \N)^2} = 2.55 \times 10^{3} \N, \qquad \theta = \tan^{-1}\left(\frac{715}{2450}\right) = 16.3° $$
+$$ F_{\text{foot}} = \sqrt{(2450 \N)^2 + (715 \N)^2} = 2.55 \times 10^{3} \N, \qquad \theta = \tan^{-1}\left(\frac{715 \N}{2450 \N}\right) = 16.3° $$
 </div>
 
 Each force points 16.3° from vertical, tilted toward the wall.
@@ -383,6 +404,12 @@ and $$ \vb{F}_{2} $$ ?
 **Strategy**
 
 We apply both conditions for equilibrium. The first condition (net force = 0) relates the forces, and the second condition (net torque = 0) allows us to solve for one of the unknown forces. We choose the pivot point at the location of one hand to eliminate one unknown from the torque equation.
+
+**Free-body diagram**
+
+![The plank is 2.00 m long. The origin (pivot for torques) is at the left end, where F_1 pushes down. +x points along the plank and +y up, and counterclockwise torques are positive. F_2 pushes up 0.500 m from the end (counterclockwise torque), and the weight W = 196 N acts down at the middle, 1.00 m from the end (clockwise torque).](../resources/sketch_09_03_p04.svg){: .sketch}
+
+Take $$ +x $$ along the plank from the end where $$ F_1 $$ pushes, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at that end. Then $$ F_2 $$ (up, at 0.500 m) gives a positive torque and $$ W $$ (down, at 1.00 m) a negative one, and for forces $$ \sum F_y = F_2 - F_1 - W = 0 $$.
 
 **Solution**
 
@@ -437,7 +464,7 @@ The magnitudes are: $$ F_1 = 196 \N $$ (pushing down) and $$ F_2 = 392 \N $$ (pu
 
 **Discussion**
 
-Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $$ F_2 $$ must not only support the weight but also counteract the downward push of $$ F_1 $$. The hand at position 2 acts as a fulcrum, and the system behaves like a lever. The fact that $$ F_2 = 2W $$ makes sense given the geometry: the cg is twice as far from $$ F_2 $$ as it is from where $$ F_2 $$ is applied. This carrying technique is common for long boards, but it requires significant force from the supporting hand.
+Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $$ F_2 $$ must not only support the weight but also counteract the downward push of $$ F_1 $$. The hand at position 2 acts as a fulcrum, and the system behaves like a lever. The fact that $$ F_2 = 2W $$ makes sense given the geometry: measured from the end where $$ F_1 $$ is applied, the weight acts at 1.00 m while $$ F_2 $$ acts at only 0.500 m, so with half the weight's lever arm $$ F_2 $$ must be twice the weight: $$ F_2 \times 0.500 \m = W \times 1.00 \m $$. This carrying technique is common for long boards, but it requires significant force from the supporting hand.
 
 :::
 
@@ -449,7 +476,7 @@ Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $
 
 A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [Figure 11](#Figure11). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
 
-![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_11.jpg ' ')
+![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_11.svg ' ')
 {: #Figure11}
 
 :::
@@ -459,6 +486,12 @@ A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown 
 **Strategy**
 
 Take the wall as the system and choose its base as the pivot, so the forces at the base produce no torque. Because the wall's thickness is neglected, its weight also acts along the pivot line and produces no torque. The wind produces a torque about the base; the braces, pushing on the wall along their lengths at 35° from the wall, produce the opposing torque through their horizontal components.
+
+**Free-body diagram**
+
+![Side view of the 17.0-m wall, pivoting at its base (the origin). +x points to the right (the direction the wind pushes) and +y up, and counterclockwise torques are positive. The wind force F_wind acts along +x halfway up, 8.50 m above the base (clockwise torque). Each brace pushes on the wall at 8.50 m along the brace, 35.0° from the wall, up and to the left; its horizontal component F_B sin 35.0° points along −x (counterclockwise torque).](../resources/sketch_09_03_p05.svg){: .sketch}
+
+Take $$ +x $$ in the direction the wind pushes, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the base of the wall. The wind force along $$ +x $$ at 8.50 m gives a clockwise (negative) torque; each brace's horizontal component $$ F_B\sin{35.0^\circ} $$ points along $$ -x $$ at the same height and gives a counterclockwise (positive) torque.
 
 **Solution**
 
@@ -505,6 +538,12 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$ on each brace
 
 For the chicken to be in equilibrium while displaced, the torques about the pivot point (the foot) must sum to zero. The weight creates a torque about the foot, and the wind force must create an equal and opposite torque. From the figure, the center of gravity is 9.0 cm horizontally from the foot and 20 cm above the ground.
 
+**Free-body diagram**
+
+![The chicken pivots about its foot (the origin). +x points to the right, the direction the wind blows, and +y up, and counterclockwise torques are positive. The center of gravity is 9.0 cm to the left of the foot and 20 cm above it. The weight W, acting down at the center of gravity, gives a counterclockwise torque; the wind force F_wind, pushing along +x at the height of the center of gravity, gives a clockwise torque.](../resources/sketch_09_03_p06.svg){: .sketch}
+
+Take $$ +x $$ in the direction the wind blows, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the foot. The weight acts 9.0 cm to the $$ -x $$ side of the foot, giving a positive torque $$ +W(0.090\m) $$; the wind pushes along $$ +x $$ 0.20 m up, giving a negative torque $$ -F_{\text{wind}}(0.20\m) $$.
+
 **Solution for (a)**
 
 Given:
@@ -516,8 +555,8 @@ Given:
 
 Taking torques about the pivot point (the foot):
 
-- The weight creates a clockwise torque: $$ \tau_{W} = W \times d_x $$
-- The wind force creates a counterclockwise torque: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
+- The foot is 9.0 cm to the right of the cg, so the weight, acting to the left of the pivot, creates a counterclockwise torque that would tip the chicken over to the left: $$ \tau_{W} = W \times d_x $$
+- The wind pushes to the right at a height $$ h $$ above the foot, creating a clockwise torque that holds the chicken up: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
 
 For equilibrium:
 
@@ -545,13 +584,13 @@ The ratio of wind force to weight is **0.45**, or about 45%.
 
 **Solution for (c)**
 
-Yes, this supports the contention that the chicken has a relatively stable construction. Even when displaced significantly from equilibrium (with the cg 9.0 cm away from the foot), only a moderate wind force—less than half the chicken's weight—is needed to maintain balance.
+Yes, in the sense that the chicken can lean its center of gravity well past its single supporting foot, 9.0 cm, and be held there by a wind force less than half its weight. The ratio is small because the wind acts on the longer lever arm: $$ F_{\text{wind}}/W = d_x/h = (0.090 \m)/(0.20 \m) = 0.45 $$.
 
-This is because the chicken's cg is relatively low (only 20 cm above the ground), creating a short lever arm for the wind force, while the horizontal displacement creates a modest restoring torque from gravity. If the chicken's cg were higher (like a human's), a much smaller wind force relative to weight would cause tipping.
+Note that a *lower* center of gravity would not make this easier: it would shorten the wind's lever arm $$ h $$ and so *raise* the wind force needed to support the same lean. The weight's torque is the one that tips the chicken further over; the wind is what holds it up.
 
 **Discussion**
 
-This problem illustrates why chickens are remarkably stable birds. Their low center of gravity and wide stance create a geometry where large displacements require proportionally larger disturbing forces. Compare this to a human, whose high cg means that even small displacements can lead to falling. This stable construction allows chickens to maintain balance easily while pecking at the ground or when buffeted by wind.
+The torque balance about the foot compares two lever arms: 9.0 cm for the weight and 20 cm for the wind. A horizontal push applied high up has a large lever arm, so a modest force can balance a large lean. The same geometry works the other way for a disturbing force: a push applied high on a body is the most effective way to tip it, which is one reason a low center of gravity and a wide base of support make an object hard to knock over when it stands normally on both feet.
 
 :::
 
@@ -576,12 +615,18 @@ Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported enti
 
 Take the bridge as the system, with the cables slack. The forces on it are its weight at the center of gravity, the upward support of the opposite shore at the cable attachment, and the hinge force. Choose the hinge as the pivot to find the shore's support, then use the first condition for equilibrium for the hinge force. From Figure 13, the center of gravity is 1.5 m from the hinges, and the 7.5-m dimension runs from the center of gravity to the cable attachment, so the shore support is 9.0 m from the hinges.
 
+**Free-body diagram**
+
+![The bridge pivots at its hinge (the origin). +x points from the hinge toward the opposite shore and +y up, and counterclockwise torques are positive. The weight w acts down 1.5 m from the hinge (clockwise torque); the shore pushes up with F_shore 9.0 m from the hinge (counterclockwise torque); the hinge force F_hinge acts at the origin.](../resources/sketch_09_03_p07.svg){: .sketch}
+
+Take $$ +x $$ from the hinge toward the opposite shore, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the hinge. The shore's upward push at 9.0 m gives a positive torque and the weight at 1.5 m a negative one; vertically, $$ F_{\text{hinge}} + F_{\text{shore}} - w = 0 $$.
+
 **Solution**
 
 **(a)** Torques about the hinge:
 
 <div class="equation">
-$$ F_{\text{shore}}(9.0 \m) = w(1.5 \m) \quad \Rightarrow \quad \frac{F_{\text{shore}}}{w} = \frac{1.5}{9.0} = 0.167 $$
+$$ F_{\text{shore}}(9.0 \m) = w(1.5 \m) \quad \Rightarrow \quad \frac{F_{\text{shore}}}{w} = \frac{1.5 \m}{9.0 \m} = 0.167 $$
 </div>
 
 **(b)** No horizontal forces act, so the hinge force is vertical. With $$ w = (2500 \kg)(9.80 \mss) = 2.45 \times 10^{4} \N $$:
@@ -620,6 +665,12 @@ Suppose a 900-kg car is on the bridge in [Figure 13](#Figure13) with its center 
 
 Use the geometry in [Figure 13](#Figure13): the bridge’s center of gravity is **1.5 m** from the hinges, and the 7.5-m dimension runs from the center of gravity to the cable attachment, so the cable attaches **1.5 m + 7.5 m = 9.0 m** from the hinges at **40°** above horizontal, and the car’s center of mass is **3.75 m** from the hinges. Apply $$ \sum F = 0 $$ and $$ \sum \tau = 0 $$ about the hinge for the bridge (2500 kg) plus car (900 kg).
 
+**Free-body diagram**
+
+![The bridge pivots at its hinge (the origin). +x points from the hinge toward the opposite shore and +y up, and counterclockwise torques are positive. The bridge’s weight w_b acts down 1.50 m from the hinge and the car’s weight w_c 3.75 m from it (both clockwise torques). The cable tension T acts 9.00 m from the hinge, 40° above the horizontal and back toward the hinge (counterclockwise torque). The hinge force has components F_hx along +x and F_hy along +y.](../resources/sketch_09_03_p08.svg){: .sketch}
+
+Take $$ +x $$ from the hinge toward the opposite shore, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the hinge. The cable pulls up and back toward the hinge at 40°, so its components are $$ -T\cos{40^\circ} $$ and $$ +T\sin{40^\circ} $$, and its torque $$ +T\sin{40^\circ}(9.00\m) $$ is positive; the two weights give negative torques. The hinge components $$ F_{hx} $$ and $$ F_{hy} $$ are drawn along $$ +x $$ and $$ +y $$, and positive answers confirm those directions.
+
 **Solution for (a)**
 
 Given:
@@ -638,7 +689,7 @@ $$ T\sin{40°} \, r_T = m_b g r_b + m_c g r_c $$
 $$ T = \frac{(2500 \kg)(9.80 \mss)(1.50 \m) + (900 \kg)(9.80 \mss)(3.75 \m)}{(9.00 \m)\sin{40°}} = \frac{6.98 \times 10^{4} \N \cdot \m}{5.785 \m} = 1.21 \times 10^{4} \N $$
 </div>
 
-The combined cable tension is **12.1 kN**. (If several cables share the load equally, divide this value by the number of cables.) As a check, the 9.0-m lever arm is consistent with the preceding problem, where the opposite shore, also 9.0 m from the hinge, supports $$ 1.5/9.0 = 1/6 $$ of the bridge's weight.
+The combined cable tension is **12.1 kN**. (If several cables share the load equally, divide this value by the number of cables.) As a check, the 9.0-m lever arm is consistent with the preceding problem, where the opposite shore, also 9.0 m from the hinge, supports $$ \frac{1.5 \m}{9.0 \m} = 1/6 $$ of the bridge's weight.
 
 **Solution for (b)**
 
@@ -655,7 +706,7 @@ $$ F_{hy} = (m_b + m_c)g - T\sin{40°} = 3.332 \times 10^{4} \N - (1.207 \times 
 </div>
 
 <div class="equation">
-$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(9.25 \times 10^{3})^2 + (2.56 \times 10^{4})^2} = 2.72 \times 10^{4} \N $$
+$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(9.25 \times 10^{3} \N)^2 + (2.56 \times 10^{4} \N)^2} = 2.72 \times 10^{4} \N $$
 </div>
 
 <div class="equation">
@@ -680,7 +731,7 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk.
 (b) What force is exerted by each side on the hinge?
 
-![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_14.jpg 'A sandwich board advertising sign demonstrates tension.')
+![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_14.svg 'A sandwich board advertising sign demonstrates tension.')
 {: #Figure14}
 
 :::
@@ -690,6 +741,12 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 **Strategy**
 
 By symmetry, each half of the sign carries half the weight, $$ w/2 = (4.00 \kg)(9.80 \mss) = 39.2 \N $$, and with no friction the ground pushes straight up on each foot with $$ N = 39.2 \N $$. Analyze one half (say, the right one), with the hinge as the pivot. From Figure 14, the foot is 0.550 m horizontally from the hinge, the half's center of gravity is midway along it (0.275 m horizontally from the hinge), and the horizontal chain is attached 0.500 m below the hinge.
+
+**Free-body diagram**
+
+![Right half of the sign, with torques taken about the hinge (the origin) at the top. +x points to the right (outward) and +y up, and counterclockwise torques are positive. The foot is 0.550 m right of and 1.30 m below the hinge; the ground pushes up there with N = 39.2 N (counterclockwise torque). The half’s weight w/2 = 39.2 N acts down 0.275 m right of the hinge, and the chain pulls along −x with T, 0.500 m below the hinge (both clockwise torques). The other half pushes on the hinge along +x.](../resources/sketch_09_03_p09.svg){: .sketch}
+
+Take $$ +x $$ to the right (outward from the center of the sign), $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the hinge on the right half. The normal force (up, 0.550 m to the right) gives a positive torque; the half's weight (down, 0.275 m to the right) and the chain's pull (along $$ -x $$, 0.500 m below the hinge) give negative torques: $$ N(0.550\m) - \frac{w}{2}(0.275\m) - T(0.500\m) = 0 $$.
 
 **Solution**
 
@@ -743,6 +800,12 @@ From Figure 14:
 - Chain is at 0.50 m below hinge (but chain is broken)
 - Center of gravity of each leg is at its geometric center
 
+**Free-body diagram**
+
+![Left half of the sign with the chain broken, torques taken about its foot (the origin). +x points to the right (toward the center) and +y up, and counterclockwise torques are positive. The weight W = 39.2 N acts down 0.275 m right of the foot (clockwise torque); the other half pushes horizontally along −x on the hinge, 1.30 m above the foot (counterclockwise torque); friction f on the foot points along +x and N along +y.](../resources/sketch_09_03_p10.svg){: .sketch}
+
+Analyze the left half, taking $$ +x $$ to the right (toward the center of the sign), $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at its foot. The weight (down, 0.275 m to the right of the foot) gives a clockwise torque; the other half pushes the hinge along $$ -x $$, 1.30 m up, giving a counterclockwise torque. Friction on the foot must then point along $$ +x $$.
+
 **Solution for (a)**
 
 Consider one half of the A-frame sign. The forces acting on it are:
@@ -779,7 +842,7 @@ $$ F_{h,horizontal} \times 1.30 \m = 10.78 \text{ N·m} $$
 </div>
 
 <div class="equation">
-$$ F_{h,horizontal} = \frac{10.78}{1.30} = 8.29 \N $$
+$$ F_{h,horizontal} = \frac{10.78 \text{N}\cdot\text{m}}{1.30 \m} = 8.29 \N $$
 </div>
 
 For horizontal equilibrium of one leg:
@@ -837,6 +900,12 @@ A gymnast is attempting to perform splits. From the information given in [Figure
 **Strategy**
 
 Take the gymnast as the system. From Figure 15, her feet are symmetric about her center of gravity, each 0.90 m from it horizontally. Choose one foot as the pivot, use the torque condition to find the force on the other foot, and then the force condition. Assume the floor exerts no horizontal force on her feet (any equal and opposite horizontal friction forces at the two feet cannot be determined from equilibrium alone, so we take them to be zero).
+
+**Free-body diagram**
+
+![The gymnast is treated as a rigid body, with torques taken about her left foot (the origin). +x points from the left foot toward the right foot and +y up, and counterclockwise torques are positive. Her weight, 700 N, acts down 0.90 m from the left foot (clockwise torque); the floor pushes up on the right foot with N_R, 1.80 m from the left foot (counterclockwise torque), and on the left foot with N_L.](../resources/sketch_09_03_p11.svg){: .sketch}
+
+Take $$ +x $$ from the left foot toward the right foot, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the left foot. The floor's push $$ N_R $$ (up, at 1.80 m) gives a positive torque and the weight (down, at 0.90 m) a negative one; vertically, $$ N_L + N_R - w = 0 $$.
 
 **Solution**
 

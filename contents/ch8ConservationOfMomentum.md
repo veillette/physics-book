@@ -237,7 +237,7 @@ small, point-like constituents—strong evidence for quarks. The
 analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
-![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg 'A subatomic particle scatters straight backward from a massive target particle, as alpha particles occasionally did from gold nuclei in Rutherford’s experiments. In experiments seeking evidence for quarks, electrons scattered through large angles from protons far more often than expected.')
+![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.svg 'A subatomic particle scatters straight backward from a massive target particle, as alpha particles occasionally did from gold nuclei in Rutherford’s experiments. In experiments seeking evidence for quarks, electrons scattered through large angles from protons far more often than expected.')
 {: #Figure3}
 
 ### Section Summary
@@ -277,6 +277,28 @@ Explain this difference in depth using what you have learned in this chapter.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the two entries in terms of energy (how the diver's kinetic energy is removed) and in terms of momentum (how fast it is transferred to the water). Take $$ +y $$ downward, in the direction of the dive.
+
+**Solution**
+
+A $$ 60 \kg $$ diver dropping from a $$ 5.0 \m $$ platform enters the water at about $$ v = \sqrt{2(9.80 \mss)(5.0 \m)} = 9.9 \ms $$, with
+
+<div class="equation">
+$$ \KE = \tfrac{1}{2}(60 \kg)(9.9 \ms)^2 = 2.9 \times 10^{3} \J, \qquad p = (60 \kg)(9.9 \ms) = 590 \kg \cdot \ms $$
+</div>
+
+**Energy.** The water stops the diver by doing negative work on her, $$ W = -F_{\text{ave}}d $$. For a given average force, she goes deeper when $$ F_{\text{ave}} $$ is smaller. In a streamlined dive, the frontal area is small (about $$ 0.05 \mm $$), so the drag force is small and the kinetic energy is removed over a long distance. In a belly flop the area is large (about $$ 0.6 \mm $$, more than 10 times larger), so the force is large and the energy is removed within a short distance. Much of it goes into making a big splash, turbulence, and sound near the surface.
+
+**Momentum.** The diver's momentum is transferred to the water. In a belly flop she hits and accelerates a large mass of water at once, giving it momentum in a very short time. The impulse $$ F_{\text{ave}}\Delta t = 590 \kg \cdot \ms $$ is delivered with a very large force (which is why it stings) in a short time, so she stops quickly near the surface. A streamlined diver pushes only a small mass of water aside at a time, so momentum is transferred slowly, the force is small, and she travels much deeper before stopping.
+
+A diver goes deeper than a belly-flopper because the streamlined entry presents a small area, so the water exerts a small force; in energy terms her kinetic energy (about $$ 2.9 \times 10^{3} \J $$) is removed over a long distance, and in momentum terms her momentum (about $$ 590 \kg \cdot \ms $$) is transferred to the water gradually, whereas a belly flop transfers it to a large mass of water almost at once.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -284,6 +306,26 @@ Explain this difference in depth using what you have learned in this chapter.
 ::: problem
 
 Under what circumstances is momentum conserved?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Start from Newton's second law in terms of momentum for a system, $$ \vb{F}_{\text{net,ext}} = \Delta\vb{p}_{\text{tot}}/\Delta t $$.
+
+**Solution**
+
+The total momentum of a system changes only when a **net external force** acts on it. Momentum is therefore conserved when the system is **isolated**, meaning the net external force on it is zero:
+
+<div class="equation">
+$$ \vb{F}_{\text{net,ext}} = 0 \quad \Rightarrow \quad \Delta\vb{p}_{\text{tot}} = 0 \quad \Rightarrow \quad \vb{p}_{\text{tot}} = \text{constant} $$
+</div>
+
+Internal forces between parts of the system come in Newton's-third-law pairs, so they cancel in the total and never change it. For example, two carts on a frictionless track, $$ 2.0 \kg $$ moving at $$ 3.0 \ms $$ and $$ 1.0 \kg $$ at rest, collide. The weights and normal forces balance, and there is no friction, so the total momentum is $$ (2.0 \kg)(3.0 \ms) = 6.0 \kg \cdot \ms $$ both before and after the collision, however hard they hit.
+
+Momentum is conserved whenever the net external force on the system is zero, that is, for an isolated system, because internal forces cancel in pairs and only external forces can change the total momentum (for example, $$ 6.0 \kg \cdot \ms $$ for two colliding carts on a frictionless track).
 
 :::
 
@@ -297,6 +339,26 @@ Can momentum be conserved for a system if there are external forces acting on th
 
 :::
 
+::: solution
+
+**Strategy**
+
+Separate "external forces act" from "the net external force is zero," and consider the components of the momentum and the duration of the interaction.
+
+**Solution**
+
+Yes, momentum can be conserved even when external forces act, under these conditions:
+
+1. **The external forces cancel.** If the net external force is zero, the total momentum is conserved. For two pucks colliding on a level air table, gravity and the air cushion's upward force both act on each puck but cancel.
+2. **One component of the net external force is zero.** Momentum is conserved along that direction even if not along others (see the next question).
+3. **The external forces are small compared with the internal forces and act only briefly.** During a collision lasting $$ 0.010 \s $$, a car crash with a $$ 1.0 \times 10^{5} \N $$ internal force may involve only $$ 5.0 \times 10^{3} \N $$ of road friction. The friction's impulse, $$ (5.0 \times 10^{3} \N)(0.010 \s) = 50 \kg \cdot \ms $$, is tiny compared with momenta of order $$ 2 \times 10^{4} \kg \cdot \ms $$, so momentum is very nearly conserved during the collision.
+
+If the net external force is not zero (and the interaction is not brief), momentum is not conserved, because $$ \Delta\vb{p}_{\text{tot}} = \vb{F}_{\text{net,ext}}\Delta t \ne 0 $$.
+
+Momentum can be conserved when external forces act, provided they add up to zero (or their component along a particular direction is zero), and it is approximately conserved when the external forces are small and brief compared with the internal forces, as in a collision where friction's impulse ($$ 50 \kg \cdot \ms $$) is negligible compared with the momenta involved.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -304,6 +366,27 @@ Can momentum be conserved for a system if there are external forces acting on th
 ::: problem
 
 Momentum for a system can be conserved in one direction while not being conserved in another. What is the angle between the directions? Give an example.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Momentum is a vector, and Newton's second law applies separately to each component: $$ \Delta p_{x} = F_{\text{net},x}\Delta t $$ and $$ \Delta p_{y} = F_{\text{net},y}\Delta t $$. Look for a situation in which the net external force has a component in only one direction.
+
+**Solution**
+
+The two directions are **perpendicular**, at $$ 90° $$ to each other. If the net external force points along one axis, its component along the perpendicular axis is zero, so the momentum component along that perpendicular axis is conserved.
+
+**Example: a projectile, ignoring air resistance.** Choose $$ +x $$ horizontal and $$ +y $$ upward. The only external force is gravity, $$ -mg $$ along $$ y $$, with no $$ x $$ component. For a $$ 0.50 \kg $$ ball launched at $$ 20 \ms $$ at $$ 37° $$ above the horizontal:
+
+- $$ x $$: $$ p_{x} = (0.50 \kg)(20 \ms)\cos 37° = 8.0 \kg \cdot \ms $$ stays constant for the whole flight.
+- $$ y $$: $$ p_{y} $$ starts at $$ (0.50 \kg)(20 \ms)\sin 37° = +6.0 \kg \cdot \ms $$ and changes at the rate $$ F_{y} = -(0.50 \kg)(9.80 \mss) = -4.9 \N $$, reaching $$ 0 \kg \cdot \ms $$ at the top after $$ (6.0 \kg \cdot \ms)/(4.9 \N) = 1.2 \s $$.
+
+If the ball explodes in flight, the total horizontal momentum of the pieces is still $$ 8.0 \kg \cdot \ms $$.
+
+The two directions are perpendicular (at $$ 90° $$); for a projectile without air resistance, gravity acts only vertically, so the horizontal momentum (for example, $$ 8.0 \kg \cdot \ms $$) is conserved while the vertical momentum changes at $$ 4.9 \N $$, that is, $$ 4.9 \kg \cdot \ms $$ each second.
 
 :::
 
@@ -320,6 +403,32 @@ in part to the fact that it pushes air in its direction of motion.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply Newton's second law in terms of momentum to the air the car pushes ahead of it, then Newton's third law to the car. Take $$ +x $$ in the car's direction of motion.
+
+**Solution**
+
+As the car moves, its front pushes air out of the way, accelerating that air up to roughly the car's speed. In a time $$ \Delta t $$ the car sweeps through a column of air of mass $$ m = \rho A v\Delta t $$. Giving that air a momentum of up to $$ mv $$ in the $$ +x $$ direction requires a force from the car on the air of about
+
+<div class="equation">
+$$ F = \frac{\Delta p}{\Delta t} = \frac{(\rho A v\Delta t)v}{\Delta t} = \rho A v^{2} $$
+</div>
+
+By Newton's third law, the air pushes back on the car with an equal force in the $$ -x $$ direction. That is the drag force. For a car with frontal area $$ A = 2.0 \mm $$ at $$ v = 25 \ms $$ in air of density $$ 1.21 \kg/\text{m}^3 $$, the upper limit is
+
+<div class="equation">
+$$ F = (1.21 \kg/\text{m}^3)(2.0 \mm)(25 \ms)^2 = 1.5 \times 10^{3} \N $$
+</div>
+
+A streamlined car does not give all the air it meets the full speed $$ v $$, so the actual drag is smaller, $$ \tfrac{1}{2}C\rho A v^{2} $$ with $$ C \approx 0.3 $$, about $$ 230 \N $$. This argument also shows why drag grows as $$ v^{2} $$: at a higher speed the car hits more air each second, and gives each kilogram more momentum.
+
+A car's air resistance arises partly because the car must keep giving forward momentum to the air it pushes ahead of it, which by Newton's second law requires a force on the air (up to $$ \rho A v^{2} $$, about $$ 1.5 \times 10^{3} \N $$ at $$ 25 \ms $$), and by Newton's third law the air pushes back on the car with an equal and opposite force.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -330,6 +439,26 @@ Can objects in a system have momentum while the momentum of the system is zero? 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Momentum is a vector. The total momentum of a system is the vector sum of the momenta of its parts, and vectors can add to zero.
+
+**Solution**
+
+Yes. The parts of a system can have momentum in different directions that add up to zero. For example, two skaters stand at rest facing each other on frictionless ice and push apart. Take $$ +x $$ to the right. A $$ 50 \kg $$ skater moves left at $$ 3.0 \ms $$ and a $$ 75 \kg $$ skater moves right at $$ 2.0 \ms $$:
+
+<div class="equation">
+$$ p_{\text{tot}} = (50 \kg)(-3.0 \ms) + (75 \kg)(+2.0 \ms) = -150 \kg \cdot \ms + 150 \kg \cdot \ms = 0 \kg \cdot \ms $$
+</div>
+
+Each skater has a momentum of $$ 150 \kg \cdot \ms $$, but the momenta are equal in size and opposite in direction, so the system's total is zero, as it was before they pushed. Note that the kinetic energy is not zero: $$ \tfrac{1}{2}(50 \kg)(3.0 \ms)^2 + \tfrac{1}{2}(75 \kg)(2.0 \ms)^2 = 375 \J $$, because kinetic energy is a scalar that cannot be negative.
+
+Objects in a system can have momentum while the system's total momentum is zero, because momentum is a vector and opposite momenta cancel; two skaters pushing apart, with $$ -150 \kg \cdot \ms $$ and $$ +150 \kg \cdot \ms $$, have a total momentum of zero.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -337,6 +466,29 @@ Can objects in a system have momentum while the momentum of the system is zero? 
 ::: problem
 
 Must the total energy of a system be conserved whenever its momentum is conserved? Explain why or why not.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate momentum isolation from energy isolation, then distinguish total energy from kinetic energy.
+
+**Solution**
+
+**No, momentum conservation alone is insufficient.** It requires zero net external force, but a system can still receive heat or other energy without receiving net momentum.
+
+For example, take a rigid container at rest with balanced external forces and heat its contents symmetrically with an external supply. If the input is $$Q=100\J$$ and no energy leaves, its internal energy increases by $$100\J$$ while its momentum remains $$0\kg\cdot\ms$$. No conservation law is violated: the supply loses the energy the container gains. A system isolated from **energy transfer** does conserve total energy, but zero net force alone does not establish that isolation.
+
+Separately, even in an isolated collision, **kinetic energy** need not be conserved. A $$1.0\kg$$ cart at $$4.0\ms$$ sticking to an identical stationary cart gives
+
+$$v_f=\frac{(1.0\kg)(4.0\ms)}{2.0\kg}=2.0\ms.$$
+
+The kinetic energies are $$K_i=\tfrac12(1.0\kg)(4.0\ms)^2=8.0\J$$ and $$K_f=\tfrac12(2.0\kg)(2.0\ms)^2=4.0\J$$. The difference becomes internal energy and other non-kinetic forms within the isolated system; its total energy is conserved.
+
+A system’s momentum can remain constant while its total energy changes through energy transfer, and an energetically isolated system can conserve total energy while converting kinetic energy into internal energy.
+
 
 :::
 
@@ -363,6 +515,12 @@ What is their final velocity?
 **Strategy**
 
 When the cars couple together, they undergo a perfectly inelastic collision. We apply conservation of momentum, with the final velocity being the same for both cars since they stick together.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the first car moves. Before: car 1 (150 000 kg) moves at v_1 = +0.300 m/s and car 2 (110 000 kg) moves toward it at v_2 = −0.120 m/s. After coupling they move together with unknown velocity v_f.](../resources/sketch_08_03_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction the first car moves, as the problem's signs already do. Then $$ v_1 = +0.300\ms $$ and $$ v_2 = -0.120\ms $$; a positive $$ v_f $$ means the coupled cars move the way the first car was going.
 
 **Solution**
 
@@ -409,6 +567,12 @@ Both being soft clay, they naturally stick together. What is their final velocit
 **Strategy**
 
 This is a perfectly inelastic collision where two objects stick together. We apply conservation of momentum, recognizing that one object is initially at rest.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the first model slides. Before: model 1 (0.200 kg) moves at v_1 = +0.750 m/s and model 2 (0.350 kg) is at rest. After they stick, they move together with unknown velocity v_f.](../resources/sketch_08_03_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the first model slides. Then $$ v_1 = +0.750\ms $$ and $$ v_2 = 0 $$, and a positive $$ v_f $$ means the pair keeps moving that way.
 
 **Solution**
 
@@ -502,6 +666,12 @@ What is the velocity of a 900-kg car initially moving at 30.0 m/s, just after it
 **Strategy**
 
 This is a perfectly inelastic collision where the deer remains on the car. Both objects are moving in the same direction initially. We apply conservation of momentum.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction both are moving. Before: the car (900 kg) moves at +30.0 m/s and the deer (150 kg) ahead of it at +12.0 m/s. After, the deer stays on the car and they move together with unknown velocity v_f.](../resources/sketch_08_03_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction both the car and the deer are moving, so both initial velocities are positive: $$ v_{\text{car}} = +30.0\ms $$ and $$ v_{\text{deer}} = +12.0\ms $$.
 
 **Solution**
 

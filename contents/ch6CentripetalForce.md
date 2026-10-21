@@ -54,10 +54,10 @@ $$r=\frac{ mv^{2}}{ F_\text{c}}.$$
 This implies that for a given mass and velocity, a large centripetal force
 causes a small radius of curvature—that is, a tight curve.
 
-![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.jpg 'The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the \( F_c \) , the smaller the radius of curvature \( r \) and the sharper the curve. The second curve has the same \( v \) , but a larger \( F_c \) produces a smaller \( r^\prime \) .')
+![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.svg 'The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the \( F_c \) , the smaller the radius of curvature \( r \) and the sharper the curve. The second curve has the same \( v \) , but a larger \( F_c \) produces a smaller \( r^\prime \) .')
 {: #Figure1}
 
-::: example
+::: example {"class":"example","id":"car-curve"}
 
 <div class="title">
 What Coefficient of Friction Do Car Tires Need on a Flat Curve?
@@ -74,6 +74,7 @@ car from slipping (see [Figure 2](#Figure2)).
 We know that $$F_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
 
 <div class="equation">
+<!-- physics: eq-1 -->
 $$F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
@@ -122,7 +123,8 @@ $$\mu_{\s}=\frac{ v^{2}}{rg}.$$
 Substituting the knowns,
 
 <div class="equation">
-$$\mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13.$$ 
+<!-- physics: eq-11 -->
+$$\mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13.$$
 </div>
 
 (Because
@@ -221,7 +223,7 @@ depend on the mass of the vehicle.
 ![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_06_03_03.jpg 'The car on this banked curve is moving away and turning to the left.')
 {: #Figure3}
 
-::: example
+::: example {"class":"example","id":"banked-curve"}
 
 <div class="title">
 What Is the Ideal Speed to Take a Steeply Banked Tight Curve?
@@ -252,6 +254,7 @@ we get
 Noting that $$\tan{65.0^\circ } = 2.14$$, we obtain
 
 <div class="equation">
+<!-- physics: eq-3 -->
 $$\begin{array}{lll}
 v&=& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
 v&=& 45.8 \ms .
@@ -312,6 +315,26 @@ If you wish to reduce the stress (which is related to centripetal force) on high
 
 :::
 
+::: solution
+
+**Strategy**
+
+Each small piece of tread moves in a circle about the axle. At a given car speed $$ v $$, the tread moves at speed $$ v $$ relative to the axle whatever the tire size. Compare the centripetal acceleration $$ a_{c} = v^{2}/r $$, and hence the force needed to hold each piece of tread on its circle, for two tire radii.
+
+**Solution**
+
+Take a car moving at $$ v = 30 \ms $$. For a tire of radius $$ 0.30 \m $$:
+
+<div class="equation">
+$$ a_{c} = \frac{v^{2}}{r} = \frac{(30 \ms)^2}{0.30 \m} = 3000 \mss $$
+</div>
+
+For a larger tire of radius $$ 0.40 \m $$, $$ a_{c} = (30 \ms)^2/(0.40 \m) = 2250 \mss $$. A $$ 10 \text{ g} $$ piece of tread needs a centripetal force of $$ (0.010 \kg)(3000 \mss) = 30 \N $$ on the small tire but only $$ (0.010 \kg)(2250 \mss) = 22.5 \N $$ on the large one. The rest of the tire must supply this inward force by being stretched, so the stress in the tire is lower when the radius is larger. (A small tire must also spin faster, $$ \omega = v/r $$, to keep up.)
+
+You would use large-diameter tires, because at a given car speed the centripetal acceleration $$ v^{2}/r $$ of the tread, and so the force the tire must supply to hold it in its circle, is smaller for a larger radius (for example, $$ 2250 \mss $$ for a $$ 0.40 \m $$ tire compared with $$ 3000 \mss $$ for a $$ 0.30 \m $$ tire at $$ 30 \ms $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -319,6 +342,33 @@ If you wish to reduce the stress (which is related to centripetal force) on high
 ::: problem
 
 Define centripetal force. Can any type of force (for example, tension, gravitational force, friction, and so on) be a centripetal force? Can any combination of forces be a centripetal force?
+
+:::
+
+::: solution
+
+**Strategy**
+
+State the definition, then test it against several familiar examples of circular motion.
+
+**Solution**
+
+A **centripetal force** is any **net force** that points toward the center of a circular path and causes an object to move in a circle. Its magnitude is
+
+<div class="equation">
+$$ F_{c} = m\frac{v^{2}}{r} = m r \omega^{2} $$
+</div>
+
+"Centripetal" names the **direction** and the role of the force, not a new kind of force. Yes, any type of force can be a centripetal force:
+
+- **Tension:** a $$ 1.0 \kg $$ ball whirled on a $$ 0.50 \m $$ horizontal string at $$ 4.0 \ms $$ needs $$ T = (1.0 \kg)(4.0 \ms)^2/(0.50 \m) = 32 \N $$ from the string.
+- **Gravity:** Earth's gravity keeps the Moon and artificial satellites in orbit.
+- **Friction:** static friction from the road turns a car on a flat curve.
+- **Normal force:** the wall of a rotating barrel ride pushes riders toward the axis.
+
+Yes, any combination can also be a centripetal force. What matters is the net force component toward the center. On a banked curve with friction, the normal force and friction together supply it. At the top of a roller-coaster loop, the weight and the track's push together supply it.
+
+A centripetal force is the net force directed toward the center of a circular path, with magnitude $$ mv^{2}/r $$ (for example, $$ 32 \N $$ for a $$ 1.0 \kg $$ ball at $$ 4.0 \ms $$ on a $$ 0.50 \m $$ string), and any type of force, such as tension, gravity, friction, or a normal force, or any combination of them, can supply it.
 
 :::
 
@@ -332,6 +382,28 @@ If centripetal force is directed toward the center, why do you feel that you are
 
 :::
 
+::: solution
+
+**Strategy**
+
+Describe the motion in Earth's (inertial) frame. Ask what your body would do if no sideways force acted on it, and compare that with what the car does.
+
+**Solution**
+
+![Top view of a car turning left along a circular arc. The dashed straight line shows the path the passenger would follow if no force acted on her, tangent to the curve. The car turns away from that line, so the door moves into her and pushes her toward the center of the curve with the centripetal force.](../resources/concept_06_03_q03.svg)
+
+By Newton's first law (inertia), your body tends to keep moving in a straight line at constant speed, along the dashed tangent line in the diagram. The car, however, turns toward the center of the curve. The seat and door therefore move inward into you, and they must push you **toward the center** to make you follow the curve with the car. For a $$ 60 \kg $$ passenger on a curve of radius $$ 50 \m $$ at $$ 15 \ms $$, that push is
+
+<div class="equation">
+$$ F_{c} = m\frac{v^{2}}{r} = (60 \kg)\frac{(15 \ms)^2}{50 \m} = 270 \N $$
+</div>
+
+directed toward the center. Until the door or seat pushes you, you move straight ahead while the car turns, so *relative to the car* you seem to slide outward. The feeling of being "thrown" outward is your inertia; no outward force acts on you. (In the car's rotating frame of reference, one describes this as a fictitious centrifugal force.)
+
+You feel thrown outward because your inertia keeps you moving in a straight line while the car turns beneath you, until the door or seat pushes you inward with the centripetal force (about $$ 270 \N $$ for a $$ 60 \kg $$ passenger at $$ 15 \ms $$ on a $$ 50 \m $$ curve); no actual outward force acts on you.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -342,6 +414,29 @@ Race car drivers routinely cut corners as shown in [Figure 4](#Figure4). Explain
 
 ![In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.](../resources/Figure_06_03_04.jpg 'Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.')
 {: #Figure4}
+
+:::
+
+::: solution
+
+**Strategy**
+
+On a flat curve the centripetal force comes from static friction, which has a maximum of $$ \mu_{s} mg $$. Find the highest speed for a given radius, then compare the radii of the two paths in Figure 4.
+
+**Solution**
+
+Take $$ +x $$ horizontally toward the center of the curve. Friction supplies the centripetal force, so at the highest possible speed
+
+<div class="equation">
+$$ \mu_{s} mg = m\frac{v^{2}}{r} \quad \Rightarrow \quad v_{\text{max}} = \sqrt{\mu_{s} r g} $$
+</div>
+
+The mass cancels, and $$ v_{\text{max}} $$ grows with the radius of the path. Path 1 hugs the inside edge, so it bends sharply, with a small radius. Path 2, cutting the corner, enters the turn on the outside, cuts across to the inside edge at the middle of the turn, and exits toward the outside. It is a gentler arc with a **larger radius** than the curve of the road itself. With $$ \mu_{s} = 1.0 $$:
+
+- path radius $$ 50 \m $$: $$ v_{\text{max}} = \sqrt{(1.0)(50 \m)(9.80 \mss)} = 22 \ms $$
+- path radius $$ 80 \m $$: $$ v_{\text{max}} = \sqrt{(1.0)(80 \m)(9.80 \mss)} = 28 \ms $$
+
+Cutting the corner allows the curve to be taken at the greatest speed because it turns the curve into an arc with a larger radius, and since the maximum speed for a given friction is $$ v_{\text{max}} = \sqrt{\mu_{s} r g} $$, a larger radius allows a higher speed (for example, $$ 28 \ms $$ on an $$ 80 \m $$ arc compared with $$ 22 \ms $$ on a $$ 50 \m $$ arc).
 
 :::
 
@@ -362,6 +457,44 @@ A number of amusement parks have rides that make vertical loops like the one sho
 
 :::
 
+::: solution
+
+**Strategy**
+
+At the top of the loop the car is upside down, and the center of the circle is **below** it. Choose $$ +y $$ upward. The centripetal acceleration then points in the $$ -y $$ direction, with magnitude $$ v^{2}/r $$. Write Newton's second law with the weight and an unknown track force $$ F_{\text{track}} $$, and see which direction $$ F_{\text{track}} $$ must point.
+
+**Solution**
+
+Newton's second law in the $$ y $$ direction is
+
+<div class="equation">
+$$ F_{\text{track},y} - mg = -m\frac{v^{2}}{r} \quad \Rightarrow \quad F_{\text{track},y} = mg - m\frac{v^{2}}{r} $$
+</div>
+
+Gravity alone supplies the centripetal force when $$ F_{\text{track},y} = 0 $$, that is, when $$ v_{0} = \sqrt{rg} $$. For a loop of radius $$ 10 \m $$, $$ v_{0} = \sqrt{(10 \m)(9.80 \mss)} = 9.9 \ms $$. Take a $$ 500 \kg $$ car, with weight $$ 4900 \N $$.
+
+![Two free-body diagrams of the upside-down car at the top of the loop, with +x to the right and +y up; the center of the loop is below the car. (a) Faster than the speed at which gravity alone suffices: the track pushes down on the car with F track, adding to the weight w. (b) Slower: the track pushes up on the car with F track, smaller than w. In both cases the acceleration points down, toward the center.](../resources/fbd_06_03_q05.svg){: .fbd}
+
+**(a)** Faster, say $$ 14 \ms $$:
+
+<div class="equation">
+$$ F_{\text{track},y} = 4900 \N - (500 \kg)\frac{(14 \ms)^2}{10 \m} = 4900 \N - 9800 \N = -4900 \N $$
+</div>
+
+The negative sign means the track pushes **down**, toward the center, with $$ 4900 \N $$. Gravity is not enough to bend the path, so the track (the rails above the upside-down car) presses down on it.
+
+**(b)** Slower, say $$ 7.0 \ms $$:
+
+<div class="equation">
+$$ F_{\text{track},y} = 4900 \N - (500 \kg)\frac{(7.0 \ms)^2}{10 \m} = 4900 \N - 2450 \N = +2450 \N $$
+</div>
+
+The track pushes **up**, away from the center, with $$ 2450 \N $$. Gravity alone would pull the car into a tighter curve than the loop, so the safety wheels that lock the car to the rails hold it up.
+
+When the car goes over the top faster than $$ \sqrt{rg} $$, the track pushes down on it, toward the center (for example, $$ 4900 \N $$ at $$ 14 \ms $$), and when it goes slower, the track, through the safety wheels, pushes up on it, away from the center (for example, $$ 2450 \N $$ at $$ 7.0 \ms $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -379,6 +512,34 @@ the only force acting?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply the same analysis as in the previous question to the passenger instead of the car. Choose $$ +y $$ upward; at the top of the loop the center is below, so the acceleration is $$ v^{2}/r $$ in the $$ -y $$ direction. The car can push on the passenger through the seat (above the upside-down passenger) or pull through the safety bar.
+
+**Solution**
+
+Newton's second law for the passenger gives the force of the car on the passenger:
+
+<div class="equation">
+$$ F_{\text{car},y} = mg - m\frac{v^{2}}{r} $$
+</div>
+
+Take a $$ 60 \kg $$ passenger (weight $$ 588 \N $$) on a loop of radius $$ 10 \m $$, where $$ \sqrt{rg} = 9.9 \ms $$.
+
+![Three free-body diagrams of the upside-down passenger at the top of the loop, with +x to the right and +y up; the center of the loop is below. (a) At the speed where gravity alone supplies the centripetal force, only the weight w acts. (b) Faster: the seat pushes down with N seat in addition to w. (c) Slower: the safety bar or harness pulls up on the passenger with F bar, smaller than w. In all three the acceleration points down, toward the center.](../resources/fbd_06_03_q06.svg){: .fbd}
+
+**(a)** At $$ v = 9.9 \ms $$: $$ F_{\text{car},y} = 588 \N - (60 \kg)(9.9 \ms)^2/(10 \m) = 0 \N $$. The car exerts **no force** on the passenger, who feels weightless.
+
+**(b)** At $$ 14 \ms $$: $$ F_{\text{car},y} = 588 \N - (60 \kg)(14 \ms)^2/(10 \m) = 588 \N - 1176 \N = -588 \N $$. The seat pushes **down** on the passenger, toward the center, with $$ 588 \N $$. The passenger is pressed into the seat.
+
+**(c)** At $$ 7.0 \ms $$: $$ F_{\text{car},y} = 588 \N - (60 \kg)(7.0 \ms)^2/(10 \m) = 588 \N - 294 \N = +294 \N $$. The car pushes or pulls **up**, away from the center, with $$ 294 \N $$, through the safety bar or harness. Without it the passenger would fall away from the seat.
+
+At the top of the loop the car exerts no force on the passenger when gravity alone supplies the centripetal force, pushes down on the passenger (toward the center) when the car goes faster (for example, $$ 588 \N $$ at $$ 14 \ms $$), and pulls up on the passenger (away from the center) through the safety restraint when the car goes slower (for example, $$ 294 \N $$ at $$ 7.0 \ms $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -386,6 +547,34 @@ the only force acting?
 ::: problem
 
 As a skater forms a circle, what force is responsible for making her turn? Use a free body diagram in your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Draw the free-body diagram of the skater. Choose $$ +x $$ horizontally toward the center of her circle, because that is the direction of her acceleration, and $$ +y $$ straight up.
+
+**Solution**
+
+![Free-body diagram with +x horizontally toward the center of the circle and +y up: the ice pushes sideways on the edge of the blade with static friction f s along +x, toward the center; normal force N up; weight w down. The acceleration points toward the center.](../resources/fbd_06_03_q07.svg){: .fbd}
+
+Three forces act on the skater: her weight $$ w $$ down, the normal force $$ N $$ of the ice up, and a sideways force from the ice on the edge of her blade. She tilts the blade so that its edge cuts into the ice, and the ice pushes sideways on the edge, toward the center. This is **static friction**, perpendicular to the blade and to her direction of motion. It is the only horizontal force, so it is the centripetal force.
+
+For a $$ 55 \kg $$ skater moving at $$ 6.0 \ms $$ on a circle of radius $$ 10 \m $$:
+
+<div class="equation">
+$$ y: \quad N - mg = 0 \quad \Rightarrow \quad N = (55 \kg)(9.80 \mss) = 539 \N $$
+</div>
+
+<div class="equation">
+$$ x: \quad f_{s} = m\frac{v^{2}}{r} = (55 \kg)\frac{(6.0 \ms)^2}{10 \m} = 198 \N $$
+</div>
+
+This requires $$ \mu_{s} \ge (198 \N)/(539 \N) = 0.37 $$, which the edge of a steel blade dug into ice can supply ($$ \mu_{s} \approx 0.4 $$), even though the blade slides easily along its length. She also leans toward the center so that the total force of the ice ($$ N $$ plus $$ f_{s} $$) points through her center of gravity, which keeps her from tipping over.
+
+The skater turns because the ice exerts a sideways static friction force on the edge of her blade, directed toward the center of her circle, and this force is the centripetal force (about $$ 198 \N $$ for a $$ 55 \kg $$ skater at $$ 6.0 \ms $$ on a $$ 10 \m $$ circle).
 
 :::
 
@@ -402,6 +591,24 @@ Suppose a child is riding on a merry-go-round at a distance about halfway betwee
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use Newton's first law in Earth's frame: once released, the lunch box has (almost) no horizontal force on it. Then find the trail on the platform by accounting for the platform turning under the box.
+
+**Solution**
+
+Before she lets go, the box moves in a circle with the child, so at the moment of release its velocity is **tangent** to its circle at P. With negligible friction, no horizontal force acts on the box after release, so in Earth's frame it moves in a **straight line at constant speed** along that tangent. That is **path B**.
+
+![Top view of a merry-go-round turning clockwise. The lunch box is released at P, halfway out, and slides in a straight line along the tangent, path B, in Earth's frame. The platform turns clockwise underneath it, so the trail it leaves in the dust starts out radially outward and then curves counterclockwise, to the left of its direction of travel.](../resources/concept_06_03_q08.svg)
+
+The trail in the dust is drawn on the platform, which keeps turning **clockwise** under the box. At the instant of release the box moves with the platform, so the trail starts out heading straight **outward**, away from the center. The box then lags farther and farther behind the turning platform, so the trail bends **counterclockwise**, opposite to the rotation. Seen from above, the trail **curves to the left** of its direction of travel until the box reaches the edge. For example, if P is $$ 2.0 \m $$ from the center of a $$ 4.0 \m $$ radius platform turning at $$ 0.50 \rads $$, the box moves at $$ v = r\omega = (2.0 \m)(0.50 \rads) = 1.0 \ms $$ and reaches the edge $$ \sqrt{(4.0 \m)^2 - (2.0 \m)^2}/(1.0 \ms) = 3.5 \s $$ later, by which time the platform has turned $$ (0.50 \rads)(3.5 \s) = 1.7 \text{ rad} $$ ($$ 99° $$).
+
+The lunch box follows path B, a straight line tangent to its circle, because no horizontal force acts on it after release, but the trail it leaves on the clockwise-turning merry-go-round is curved to the left, starting outward from the center and bending opposite to the rotation.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -409,6 +616,28 @@ Suppose a child is riding on a merry-go-round at a distance about halfway betwee
 ::: problem
 
 Do you feel yourself thrown to either side when you negotiate a curve that is ideally banked for your car’s speed? What is the direction of the force exerted on you by the car seat?
+
+:::
+
+::: solution
+
+**Strategy**
+
+On an ideally banked curve, the road needs no friction to turn the car. Draw the free-body diagram of the passenger, choosing $$ +x $$ horizontally toward the center of the curve and $$ +y $$ straight up. The seat is tilted with the road by the banking angle $$ \theta $$.
+
+**Solution**
+
+![Free-body diagram of the passenger with +x horizontally toward the center of the curve and +y up: the seat pushes with N perpendicular to the seat, which is tilted with the road by the banking angle theta, with dashed components N sin theta along +x and N cos theta along +y; weight w down. No sideways friction is needed. The acceleration points toward the center.](../resources/fbd_06_03_q09.svg){: .fbd}
+
+At the ideal speed, $$ \tan\theta = v^{2}/(rg) $$, the seat's push perpendicular to its surface does the whole job. Its horizontal component $$ N\sin\theta $$ supplies the centripetal force $$ mv^{2}/r $$, and its vertical component $$ N\cos\theta $$ balances the weight $$ mg $$. No sideways friction from the seat and no push from the door is needed, so you **do not feel thrown to either side**. You simply feel pressed straight down into your seat, a little more firmly than usual. For a $$ 70 \kg $$ passenger on a curve banked at $$ 20° $$:
+
+<div class="equation">
+$$ N = \frac{mg}{\cos\theta} = \frac{(70 \kg)(9.80 \mss)}{\cos 20°} = \frac{686 \N}{0.940} = 730 \N $$
+</div>
+
+This is about $$ 6\% $$ more than the passenger's weight, directed perpendicular to the seat, tilted $$ 20° $$ from the vertical toward the center of the curve.
+
+You do not feel thrown to either side on an ideally banked curve, because the seat's force, which is perpendicular to the seat and so tilted toward the center by the banking angle (about $$ 730 \N $$ for a $$ 70 \kg $$ passenger at $$ 20° $$), supplies both the support against gravity and the centripetal force, with no sideways friction needed.
 
 :::
 
@@ -425,11 +654,33 @@ Suppose a mass is moving in a circular path on a frictionless table as shown in 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Find the force the string exerts on the mass (the centripetal force), then apply Newton's third law to find the force the mass exerts on the string. Look at all the forces on the string itself.
+
+**Solution**
+
+![Top view of a mass circling a nail on a frictionless table, drawn apart. The string pulls the mass toward the nail with tension T, the centripetal force. By Newton's third law the mass pulls the string outward with an equal force T. The nail pulls the other end of the string inward with T. The two equal and opposite pulls at its ends stretch the string.](../resources/concept_06_03_q10.svg)
+
+Because of its inertia, the mass would move in a straight line if nothing acted on it. To keep it on a circle, the string must pull it **toward the nail** with the centripetal force. For a $$ 0.50 \kg $$ mass moving at $$ 2.0 \ms $$ on a circle of radius $$ 0.40 \m $$:
+
+<div class="equation">
+$$ T = m\frac{v^{2}}{r} = (0.50 \kg)\frac{(2.0 \ms)^2}{0.40 \m} = 5.0 \N $$
+</div>
+
+By **Newton's third law**, the mass pulls back on the string with an equal and opposite force, $$ 5.0 \N $$ directed **outward**, away from the nail. This outward force is real, but it acts on the string, not on the mass. The nail holds the other end of the string with $$ 5.0 \N $$ inward. Pulled outward at one end and inward at the other, the string stretches. Physically, the force comes from the electromagnetic forces between the molecules at the contact between the mass and the string. As the mass tends to move off in a straight line, it pulls the string's molecules slightly apart, and the stretched bonds pull back.
+
+The string is stretched by the outward pull of the mass on its end, which is the Newton's-third-law reaction to the inward centripetal force the string exerts on the mass (both $$ 5.0 \N $$ for a $$ 0.50 \kg $$ mass at $$ 2.0 \ms $$ on a $$ 0.40 \m $$ circle), and it originates in the molecular forces in the string that resist the mass's tendency to move in a straight line.
+
+:::
+
 </div>
 
 ### Problems Exercise
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="merry-go-round">
 
 ::: problem
 
@@ -463,7 +714,8 @@ $$\omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N}$$
+<!-- physics: eq-8 -->
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.189\text{ rad/s})^2 = (22.0 \kg)(1.25 \m)(17.55 \text{s}^{-2}) = 483\text{ N}$$
 </div>
 
 (b) For the amusement park ride:
@@ -473,7 +725,7 @@ $$\omega = 3.00\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N}$$
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0 \kg)(8.00 \m)(0.0987 \text{s}^{-2}) = 17.4\text{ N}$$
 </div>
 
 (c) Calculate the child's weight and compare:
@@ -487,12 +739,12 @@ $$\frac{F_{c,a}}{w} = \frac{483\text{ N}}{216\text{ N}} = 2.24$$
 </div>
 
 <div class="equation">
-$$\frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0807$$
+$$\frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0806$$
 </div>
 
 **Discussion**
 
-On the playground merry-go-round, the ride (through her grip and the seat) must exert an inward centripetal force of 483 N **on her**, which is 2.24 times her weight, so she would need to hold on tightly. By Newton's third law she pulls outward on the ride with an equal force; that outward force acts on the ride, not on her. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0807 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
+On the playground merry-go-round, the ride (through her grip and the seat) must exert an inward centripetal force of 483 N **on her**, which is 2.24 times her weight, so she would need to hold on tightly. By Newton's third law she pulls outward on the ride with an equal force; that outward force acts on the ride, not on her. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0806 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
 
 :::
 
@@ -523,7 +775,7 @@ $$\omega = 0.5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ 
 Calculate the centripetal force:
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N}$$
+$$F_c = mr\omega^{2} = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4 \kg)(100 \m)(9.87 \text{s}^{-2}) = 3.95 \times 10^3\text{ N}$$
 </div>
 
 **Discussion**
@@ -534,7 +786,7 @@ The centripetal force on the end of the wind turbine blade is approximately 3950
 
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="highway-banking">
 
 ::: problem
 
@@ -571,7 +823,7 @@ $$v = 105\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \ti
 Convert the radius to meters:
 
 <div class="equation">
-$$r = 1.20\text{ km} \times 1000 = 1200\text{ m}$$
+$$r = 1.20\text{ km} \times \frac{1000 \m}{1 \text{ km}} = 1200\text{ m}$$
 </div>
 
 Calculate the ideal banking angle:
@@ -581,7 +833,8 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\tex
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{853}{11{,}760}\right) = \tan^{-1}(0.0725) = 4.14°$$
+<!-- physics: eq-17 -->
+$$\theta = \tan^{-1}\left(\frac{853 \N}{11{,}760 \N}\right) = \tan^{-1}(0.0725) = 4.14°$$
 </div>
 
 **Discussion**
@@ -639,7 +892,7 @@ $$v = \sqrt{rg\tan\theta}$$
 Substitute known values ($$r = 100$$ m, $$g = 9.80$$ m/s², $$\theta = 20.0°$$):
 
 <div class="equation">
-$$v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980)(0.364)} = \sqrt{357} = 18.9\text{ m/s}$$
+$$v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980 \mmss)(0.364)} = \sqrt{357 \mmss} = 18.9\text{ m/s}$$
 </div>
 
 **Discussion**
@@ -703,13 +956,13 @@ $$r = \frac{v^2}{g\tan\theta}$$
 Substitute values:
 
 <div class="equation">
-$$r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900}{(9.80)(3.732)} = \frac{900}{36.6} = 24.6\text{ m}$$
+$$r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900 \mmss}{(9.80 \mss)(3.732)} = \frac{900 \mmss}{36.6 \mss} = 24.6\text{ m}$$
 </div>
 
 **(b) Centripetal acceleration:**
 
 <div class="equation">
-$$a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900}{24.6} = 36.6\text{ m/s}^2$$
+$$a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900 \mmss}{24.6 \m} = 36.6\text{ m/s}^2$$
 </div>
 
 **(c) Comparison to g:**
@@ -799,7 +1052,7 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(12.0\tex
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{144}{294}\right) = \tan^{-1}(0.490) = 26.1°$$
+$$\theta = \tan^{-1}\left(\frac{144 \N}{294 \N}\right) = \tan^{-1}(0.490) = 26.1°$$
 </div>
 
 **Discussion**
@@ -834,7 +1087,7 @@ what the angle $$\theta$$ should be.)
 
 **Strategy**
 
-(a) We'll use $$a_c = r\omega^{2}$$ with $$a_c = 10g = 98.0$$ m/s² and solve for $$\omega$$.
+(a) We'll use $$a_c = r\omega^{2}$$ with $$a_c = 10g = 98.0 \mss$$ m/s² and solve for $$\omega$$.
 (b) We'll draw a free body diagram and use the fact that the cage hangs at an angle where the arm force can simultaneously provide the centripetal force and support the weight. Using geometry, $$\tan\theta = \frac{g}{a_c}$$.
 
 **Solution**
@@ -850,7 +1103,7 @@ $$\omega^{2} = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\te
 </div>
 
 <div class="equation">
-$$\omega = \sqrt{6.53} = 2.56\text{ rad/s}$$
+$$\omega = \sqrt{6.53 \text{s}^{-2}} = 2.56\text{ rad/s}$$
 </div>
 
 (b) Draw a free body diagram: The cage hangs below the arm's pivot, so its axis tilts $$\theta$$ below horizontal on its way out from the pivot. The forces on the cage are its weight $$mg$$ downward and the arm's force $$F$$, which points from the cage back along that axis: inward toward the center and **upward**, at angle $$\theta$$ **above** horizontal. The horizontal component of $$F$$ provides centripetal force, while the vertical component balances weight.
@@ -870,7 +1123,7 @@ $$\frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_{c}}$$
 </div>
 
 <div class="equation">
-$$\tan\theta = \frac{g}{a_c} = \frac{9.80}{98.0} = 0.100$$
+$$\tan\theta = \frac{g}{a_c} = \frac{9.80 \mss}{98.0 \mss} = 0.100$$
 </div>
 
 <div class="equation">
@@ -917,7 +1170,7 @@ $$v = \sqrt{rg\tan\theta} = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(15.0^\ci
 </div>
 
 <div class="equation">
-$$v = \sqrt{(980)(0.268)} = \sqrt{262.6} = 16.2\text{ m/s}$$
+$$v = \sqrt{(980 \mmss)(0.268)} = \sqrt{262.6 \mmss} = 16.2\text{ m/s}$$
 </div>
 
 (b) Convert the actual speed to m/s:
@@ -945,7 +1198,7 @@ $$\frac{\sin\theta - \mu_{s}\cos\theta}{\cos\theta + \mu_{s}\sin\theta} = \frac{
 Calculate $$\frac{v^2}{rg}$$:
 
 <div class="equation">
-$$\frac{v^2}{rg} = \frac{(5.56)^2}{(100)(9.80)} = \frac{30.9}{980} = 0.0316$$
+$$\frac{v^2}{rg} = \frac{(5.56 \ms)^2}{(100 \m)(9.80 \mss)} = \frac{30.9 \mmss}{980 \mmss} = 0.0316$$
 </div>
 
 Now calculate $$\mu_{s}$$:
@@ -998,11 +1251,11 @@ $$a_c = \frac{v^2}{r}$$
 </div>
 
 <div class="equation">
-$$v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 221\text{ m}^2\text{/s}^2$$
+$$v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 220.5\text{ m}^2\text{/s}^2$$
 </div>
 
 <div class="equation">
-$$v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s}$$
+$$v = \sqrt{220.5\text{ m}^2\text{/s}^2} = 14.8\text{ m/s}$$
 </div>
 
 **Free-body diagram of a passenger at the top**
@@ -1017,7 +1270,7 @@ $$\sum F_y = -N - mg = m(-1.50g) \quad\Rightarrow\quad N = 0.50mg$$
 
 **Discussion**
 
-The speed of the roller coaster at the top of the loop is 14.9 m/s (about 54 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, so the **net** downward force on each passenger is $$ 1.50mg $$. Gravity supplies $$ mg $$ of this; the seat (above them, since they are upside down) pushes down on them with the remaining $$ 0.50mg $$. That contact force of half their weight is what keeps them pressed into their seats at the top of the loop.
+The speed of the roller coaster at the top of the loop is 14.8 m/s (about 53 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, so the **net** downward force on each passenger is $$ 1.50mg $$. Gravity supplies $$ mg $$ of this; the seat (above them, since they are upside down) pushes down on them with the remaining $$ 0.50mg $$. That contact force of half their weight is what keeps them pressed into their seats at the top of the loop.
 
 :::
 
@@ -1064,7 +1317,7 @@ $$\mu_{s} mg = \frac{mv^{2}}{r}$$
 
 Solving for the coefficient of friction (mass cancels):
 <div class="equation">
-$$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84$$
+$$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900 \mmss}{490 \mmss} = 1.84$$
 </div>
 
 **(b)** A coefficient of friction of 1.84 is unreasonable. Typical coefficients of static friction between rubber tires and dry pavement range from 0.7 to 1.0. Values significantly greater than 1.0 are not physically achievable with normal road surfaces and tires.
@@ -1074,7 +1327,7 @@ $$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \
 **Discussion**
 
 This problem illustrates why highway curves are designed with specific speed limits based on their radius. For a 50.0 m radius curve with μ = 0.7 (wet conditions), the maximum safe speed would be:
-$$v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0)(9.80)} = 18.5 \text{ m/s} \approx 67 \text{ km/h}$$
+$$v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0 \m)(9.80 \mss)} = 18.5 \text{ m/s} \approx 67 \text{ km/h}$$
 
 This is why tight curves on roads have reduced speed limits and are often banked.
 

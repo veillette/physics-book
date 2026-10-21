@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="600" viewBox="0 0 620 600" role="img" aria-labelledby="title desc">
+<title id="title">Sliding-wire device for measuring surface tension</title>
+<desc id="desc">A U-shaped wire frame holds a soap film, closed on the right by a sliding wire of length l. The film’s two surfaces pull the wire to the left, so a force F = γ(2l) to the right is needed to hold it in place; the force stays nearly constant as the film is stretched, until it breaks. A side view shows the film’s two surfaces between the frame and the wire.</desc>
+<rect width="620" height="600" fill="#ffffff"/>
+<polyline points="520,60 60,60 60,340 520,340" fill="none" stroke="#888888" stroke-width="14" stroke-linejoin="round"/>
+<rect x="68" y="68" width="300" height="264" fill="#cbd2ec" stroke="#9aa6d6" stroke-width="1"/>
+<rect x="366" y="40" width="16" height="320" rx="8" fill="#bfbfbf" stroke="#777777" stroke-width="1.5"/>
+<line x1="260" y1="110" x2="174" y2="110" stroke="#e0245e" stroke-width="3"/>
+<polygon points="160,110 175,104 175,116" fill="#e0245e"/>
+<line x1="260" y1="170" x2="174" y2="170" stroke="#e0245e" stroke-width="3"/>
+<polygon points="160,170 175,164 175,176" fill="#e0245e"/>
+<line x1="260" y1="230" x2="174" y2="230" stroke="#e0245e" stroke-width="3"/>
+<polygon points="160,230 175,224 175,236" fill="#e0245e"/>
+<line x1="260" y1="290" x2="174" y2="290" stroke="#e0245e" stroke-width="3"/>
+<polygon points="160,290 175,284 175,296" fill="#e0245e"/>
+<line x1="400" y1="200" x2="501" y2="200" stroke="#e0245e" stroke-width="5"/>
+<polygon points="520,200 500,208 500,192" fill="#e0245e"/>
+<text x="460" y="178.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">γ</tspan><tspan font-style="normal">(2</tspan><tspan font-style="italic">l</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="560" y1="71" x2="560" y2="329" stroke="#222222" stroke-width="1.5"/>
+<polygon points="560,339 555.6,328 564.4,328" fill="#222222"/>
+<polygon points="560,61 564.4,72 555.6,72" fill="#222222"/>
+<line x1="550" y1="60" x2="570" y2="60" stroke="#222222" stroke-width="1.4"/>
+<line x1="550" y1="340" x2="570" y2="340" stroke="#222222" stroke-width="1.4"/>
+<text x="576" y="208.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">l</tspan></text>
+<text x="180" y="447.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Film</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surfaces</tspan></text>
+<path d="M 210 424 Q 272.2 377 261.1 306.91" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="261.41" y1="308.89" x2="260.69" y2="304.35" stroke="#333333" stroke-width="1.4"/>
+<polygon points="260,300 262.98,305 258.71,305.67" fill="#333333"/>
+<text x="420" y="427.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Wire</tspan></text>
+<path d="M 420 404 Q 410.6 369.8 382.83 363.54" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="384.78" y1="363.98" x2="380.29" y2="362.97" stroke="#333333" stroke-width="1.4"/>
+<polygon points="376,362 381.74,361.08 380.79,365.29" fill="#333333"/>
+<circle cx="120" cy="540" r="12" fill="#cccccc" stroke="#777777" stroke-width="1.2"/>
+<circle cx="480" cy="540" r="12" fill="#cccccc" stroke="#777777" stroke-width="1.2"/>
+<path d="M 130 534 Q 300 546 470 534" fill="none" stroke="#5b8fd1" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 130 546 Q 300 534 470 546" fill="none" stroke="#5b8fd1" stroke-width="2" stroke-linejoin="round"/>
+<text x="300" y="587.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Side</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan></text>
+</svg>

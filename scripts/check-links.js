@@ -31,6 +31,10 @@ import { getLineNumber, stripDollarMath } from './lib/parser.js';
 const BROWSER_USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
 
+// External URLs that are valid but whose servers routinely refuse automated
+// requests (e.g. FDA's accessdata returns HTTP 503 to the checker). Not fetched.
+const SKIPPED_EXTERNAL_URLS = new Set(['https://www.accessdata.fda.gov/CDRH510K/K981916.pdf']);
+
 // Default cache settings
 const DEFAULT_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
 
@@ -228,6 +232,10 @@ class LinkChecker {
 
     // Skip template syntax
     if (url.includes('{{') || url.includes('{%') || url.includes('${')) {
+      return;
+    }
+
+    if (SKIPPED_EXTERNAL_URLS.has(url)) {
       return;
     }
 

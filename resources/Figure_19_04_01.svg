@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440" role="img" aria-labelledby="title desc">
+<title id="title">Field lines and equipotentials of a point charge</title>
+<desc id="desc">A positive point charge Q at the center. Twelve straight field lines, in blue, point radially outward. Four green equipotential circles surround the charge, drawn for equal steps of potential, so they are closest together near the charge, where the field is strongest. The field lines cross every equipotential at right angles.</desc>
+<rect width="440" height="440" fill="#ffffff"/>
+<circle cx="220" cy="220" r="196" fill="none" stroke="#2e9a5e" stroke-width="2.4"/>
+<circle cx="220" cy="220" r="98" fill="none" stroke="#2e9a5e" stroke-width="2.4"/>
+<circle cx="220" cy="220" r="65.33" fill="none" stroke="#2e9a5e" stroke-width="2.4"/>
+<circle cx="220" cy="220" r="49" fill="none" stroke="#2e9a5e" stroke-width="2.4"/>
+<line x1="235.45" y1="224.14" x2="424.78" y2="274.87" stroke="#1f77c8" stroke-width="2"/>
+<line x1="335.91" y1="251.06" x2="348.47" y2="254.42" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="364.89,258.82 345.64,261.12 349.37,247.21" fill="#1f77c8"/>
+<line x1="231.31" y1="231.31" x2="369.91" y2="369.91" stroke="#1f77c8" stroke-width="2"/>
+<line x1="304.85" y1="304.85" x2="314.05" y2="314.05" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="326.07,326.07 308.25,318.43 318.43,308.25" fill="#1f77c8"/>
+<line x1="224.14" y1="235.45" x2="274.87" y2="424.78" stroke="#1f77c8" stroke-width="2"/>
+<line x1="251.06" y1="335.91" x2="254.42" y2="348.47" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="258.82,364.89 247.21,349.37 261.12,345.64" fill="#1f77c8"/>
+<line x1="215.86" y1="235.45" x2="165.13" y2="424.78" stroke="#1f77c8" stroke-width="2"/>
+<line x1="188.94" y1="335.91" x2="185.58" y2="348.47" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="181.18,364.89 178.88,345.64 192.79,349.37" fill="#1f77c8"/>
+<line x1="208.69" y1="231.31" x2="70.09" y2="369.91" stroke="#1f77c8" stroke-width="2"/>
+<line x1="135.15" y1="304.85" x2="125.95" y2="314.05" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="113.93,326.07 121.57,308.25 131.75,318.43" fill="#1f77c8"/>
+<line x1="204.55" y1="224.14" x2="15.22" y2="274.87" stroke="#1f77c8" stroke-width="2"/>
+<line x1="104.09" y1="251.06" x2="91.53" y2="254.42" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="75.11,258.82 90.63,247.21 94.36,261.12" fill="#1f77c8"/>
+<line x1="204.55" y1="215.86" x2="15.22" y2="165.13" stroke="#1f77c8" stroke-width="2"/>
+<line x1="104.09" y1="188.94" x2="91.53" y2="185.58" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="75.11,181.18 94.36,178.88 90.63,192.79" fill="#1f77c8"/>
+<line x1="208.69" y1="208.69" x2="70.09" y2="70.09" stroke="#1f77c8" stroke-width="2"/>
+<line x1="135.15" y1="135.15" x2="125.95" y2="125.95" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="113.93,113.93 131.75,121.57 121.57,131.75" fill="#1f77c8"/>
+<line x1="215.86" y1="204.55" x2="165.13" y2="15.22" stroke="#1f77c8" stroke-width="2"/>
+<line x1="188.94" y1="104.09" x2="185.58" y2="91.53" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="181.18,75.11 192.79,90.63 178.88,94.36" fill="#1f77c8"/>
+<line x1="224.14" y1="204.55" x2="274.87" y2="15.22" stroke="#1f77c8" stroke-width="2"/>
+<line x1="251.06" y1="104.09" x2="254.42" y2="91.53" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="258.82,75.11 261.12,94.36 247.21,90.63" fill="#1f77c8"/>
+<line x1="231.31" y1="208.69" x2="369.91" y2="70.09" stroke="#1f77c8" stroke-width="2"/>
+<line x1="304.85" y1="135.15" x2="314.05" y2="125.95" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="326.07,113.93 318.43,131.75 308.25,121.57" fill="#1f77c8"/>
+<line x1="235.45" y1="215.86" x2="424.78" y2="165.13" stroke="#1f77c8" stroke-width="2"/>
+<line x1="335.91" y1="188.94" x2="348.47" y2="185.58" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="364.89,181.18 349.37,192.79 345.64,178.88" fill="#1f77c8"/>
+<circle cx="220" cy="220" r="13" fill="#c62828" stroke="#222222" stroke-width="1"/>
+<text x="220" y="225.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="244" y="251.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+</svg>

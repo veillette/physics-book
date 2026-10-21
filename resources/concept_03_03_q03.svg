@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="270" viewBox="0 0 400 270" role="img" aria-labelledby="title desc">
+<title id="title">A vector and its components form a right triangle</title>
+<desc id="desc">A vector A of magnitude 5.0 m at 37° above the +x axis is the hypotenuse of a right triangle whose legs are its components, Ax = A cos θ = 4.0 m and Ay = A sin θ = 3.0 m. Each leg is shorter than the hypotenuse.</desc>
+<rect width="400" height="270" fill="#ffffff"/>
+<line x1="60" y1="210" x2="288" y2="39" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="300,30 291.04,44.72 283.36,34.48" fill="#8e4f8e"/>
+<line x1="60" y1="210" x2="289.5" y2="210" stroke="#c62828" stroke-width="2.5" stroke-dasharray="7 4"/>
+<polygon points="300,210 288.5,214.6 288.5,205.4" fill="#c62828"/>
+<line x1="300" y1="210" x2="300" y2="40.5" stroke="#1f77c8" stroke-width="2.5" stroke-dasharray="7 4"/>
+<polygon points="300,30 304.6,41.5 295.4,41.5" fill="#1f77c8"/>
+<polyline points="288,210 288,198 300,198" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 108 210 A 48 48 0 0 0 98.4 181.2" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="135.89" y="189.95" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = 37°</tspan></text>
+<text x="166.8" y="108.35" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="10.54" font-weight="normal" dx="-11.41" dy="-13.94">→</tspan><tspan dx="0.87" dy="13.94">​</tspan></tspan><tspan font-style="normal"> = 5.0 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="180" y="237.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">x</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">A</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = 4.0 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="312" y="125.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">y</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">A</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="312" y="145.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">= 3.0 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

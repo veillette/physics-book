@@ -12,11 +12,13 @@ resources
 README.md
 CONTRIBUTE.md
 CHANGELOG.md
-claude.md
+AGENTS.md
 roadmap.md
 LICENSE.txt
 doc
 # Tooling
+.github
+.vscode
 scripts
 tests
 hooks

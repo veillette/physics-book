@@ -138,6 +138,12 @@ in the Problem-Solving Strategy for Newton's laws of motion.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 **Step 1: Sketch and free-body diagram**
 
 ![Free-body diagram of the rocket with +x to the right and +y up: thrust T up, air resistance f and weight mg both down; the acceleration points up.](../resources/fbd_04_06_p01.svg){: .fbd #Figure2}
@@ -185,7 +191,7 @@ $$ a = \frac{1.250 \times 10^{7} \N - 4.50 \times 10^{6} \N - 4.90 \times 10^{6}
 </div>
 
 <div class="equation">
-$$ a = \frac{1.250 \times 10^{7} - 9.40 \times 10^{6}}{5.00 \times 10^{5}} = \frac{3.10 \times 10^{6}}{5.00 \times 10^{5}} = 6.20 \mss $$
+$$ a = \frac{1.250 \times 10^{7} \N - 9.40 \times 10^{6} \N}{5.00 \times 10^{5} \kg} = \frac{3.10 \times 10^{6} \N}{5.00 \times 10^{5} \kg} = 6.20 \mss $$
 </div>
 
 **Step 4: Check reasonableness**
@@ -219,6 +225,12 @@ situation, draw a free-body diagram and write the net force equation.
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 **Step 1: Sketch and free-body diagram**
 
@@ -285,6 +297,12 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 1. Use Newton’s laws of
    motion. Draw the free-body diagram of the jumper, with $$ +y $$ upward:
 
@@ -304,6 +322,8 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 The jumper must exert a force nearly 5 times his weight (3430 N versus 686 N) to achieve an upward acceleration of 4g. This large normal force from the ground is what propels him upward. By Newton's third law, he pushes down on the ground with 3430 N, and the ground pushes up on him with the same force. The acceleration of 39.2 m/s² occurs only during the brief push-off phase while his feet are in contact with the ground.
 
+The jumper must exert a downward force of $$3.43\times10^3\N$$ on the ground during push-off.
+
 :::
 
 </div>
@@ -321,6 +341,12 @@ the Problem-Solving Strategy for Newton's laws of motion.
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 **Step 1: Sketch and free-body diagram**
 
@@ -365,7 +391,7 @@ By Newton's third law, the force the gymnast exerts on the mat equals the normal
 
 **Step 4: Check reasonableness**
 
-A force of 3140 N (about 706 pounds) is large but reasonable for an Olympic-level gymnast landing from a somersault. This is about 8 times her weight ($$ 40.0 \times 9.80 = 392 \N $$), which makes sense given the 7g deceleration plus supporting her weight.
+A force of 3140 N (about 706 pounds) is large but reasonable for an Olympic-level gymnast landing from a somersault. This is about 8 times her weight ($$ 40.0 \kg \times 9.80 \mss = 392 \N $$), which makes sense given the 7g deceleration plus supporting her weight.
 
 **Discussion**
 
@@ -422,11 +448,11 @@ Given:
 
 Total mass of train:
 <div class="equation">
-$$ m_{\text{total}} = 2m_{\text{engine}} + 45m_{\text{car}} = 2(8.00 \times 10^{4}) + 45(5.50 \times 10^{4}) $$
+$$ m_{\text{total}} = 2m_{\text{engine}} + 45m_{\text{car}} = 2(8.00 \times 10^{4} \kg) + 45(5.50 \times 10^{4} \kg) $$
 </div>
 
 <div class="equation">
-$$ m_{\text{total}} = 1.60 \times 10^{5} + 2.48 \times 10^{6} = 2.64 \times 10^{6} \kg $$
+$$ m_{\text{total}} = 1.60 \times 10^{5} \kg + 2.48 \times 10^{6} \kg = 2.64 \times 10^{6} \kg $$
 </div>
 
 Apply Newton's second law to the entire train. By Newton's third law, if the engines push backward on the track with force $$ F_{\text{engines}} $$, the track pushes forward on the engines with force $$ F_{\text{engines}} $$:
@@ -435,26 +461,26 @@ $$ \sum F_x = F_{\text{engines}} - f = m_{\text{total}}a $$
 </div>
 
 <div class="equation">
-$$ F_{\text{engines}} = m_{\text{total}}a + f = (2.64 \times 10^{6})(5.00 \times 10^{-2}) + 7.50 \times 10^{5} $$
+$$ F_{\text{engines}} = m_{\text{total}}a + f = (2.64 \times 10^{6} \kg)(5.00 \times 10^{-2} \mss) + 7.50 \times 10^{5} \N $$
 </div>
 
 <div class="equation">
-$$ F_{\text{engines}} = 1.32 \times 10^{5} + 7.50 \times 10^{5} = 8.82 \times 10^{5} \N $$
+$$ F_{\text{engines}} = 1.32 \times 10^{5} \N + 7.50 \times 10^{5} \N = 8.82 \times 10^{5} \N $$
 </div>
 
 Force per engine:
 <div class="equation">
-$$ F_{\text{per engine}} = \frac{8.82 \times 10^{5}}{2} = 4.41 \times 10^{5} \N $$
+$$ F_{\text{per engine}} = \frac{8.82 \times 10^{5} \N}{2} = 4.41 \times 10^{5} \N $$
 </div>
 
 **(b) Force in coupling between 37th and 38th cars:**
 
 Both engines are at the front of the train, so the coupling between the 37th and 38th cars pulls only the cars behind it. Take cars 38–45 as the system:
-- 8 cars: $$ m_{\text{sys}} = 8 \times 5.50 \times 10^{4} = 4.40 \times 10^{5} \kg $$
+- 8 cars: $$ m_{\text{sys}} = 8 \times 5.50 \times 10^{4} \kg = 4.40 \times 10^{5} \kg $$
 
 Friction is distributed evenly among all 47 cars and engines, so this system carries 8 of the 47 shares:
 <div class="equation">
-$$ f_{\text{sys}} = \frac{8}{47} \times 7.50 \times 10^{5} = 1.28 \times 10^{5} \N $$
+$$ f_{\text{sys}} = \frac{8}{47} \times 7.50 \times 10^{5} \N = 1.28 \times 10^{5} \N $$
 </div>
 
 The coupling force $$ F_{\text{coupling}} $$ pulls this system along $$ +x $$, and $$ f_{\text{sys}} $$ acts along $$ -x $$ (diagram (b)). Applying Newton's second law:
@@ -463,11 +489,11 @@ $$ \sum F_x = F_{\text{coupling}} - f_{\text{sys}} = m_{\text{sys}}a $$
 </div>
 
 <div class="equation">
-$$ F_{\text{coupling}} = m_{\text{sys}}a + f_{\text{sys}} = (4.40 \times 10^{5})(5.00 \times 10^{-2}) + 1.28 \times 10^{5} $$
+$$ F_{\text{coupling}} = m_{\text{sys}}a + f_{\text{sys}} = (4.40 \times 10^{5} \kg)(5.00 \times 10^{-2} \mss) + 1.28 \times 10^{5} \N $$
 </div>
 
 <div class="equation">
-$$ F_{\text{coupling}} = 2.20 \times 10^{4} + 1.28 \times 10^{5} = 1.50 \times 10^{5} \N $$
+$$ F_{\text{coupling}} = 2.20 \times 10^{4} \N + 1.28 \times 10^{5} \N = 1.50 \times 10^{5} \N $$
 </div>
 
 **Discussion**
@@ -531,19 +557,19 @@ $$ \sum F_x = F - f_{total} = (m_{tractor} + m_{airplane})a $$
 </div>
 
 <div class="equation">
-$$ 1.75 \times 10^{4} - 2400 = (1800 + m_{airplane})(0.150) $$
+$$ 1.75 \times 10^{4} \N - 2400 \N = (1800 \kg + m_{airplane})(0.150 \mss) $$
 </div>
 
 <div class="equation">
-$$ 15{,}100 = (1800 + m_{airplane})(0.150) $$
+$$ 15{,}100 \N = (1800 \kg + m_{airplane})(0.150 \mss) $$
 </div>
 
 <div class="equation">
-$$ 1800 + m_{airplane} = \frac{15{,}100}{0.150} = 100{,}667 \kg $$
+$$ 1800 \kg + m_{airplane} = \frac{15{,}100 \N}{0.150 \mss} = 100{,}667 \kg $$
 </div>
 
 <div class="equation">
-$$ m_{airplane} = 100{,}667 - 1800 = 98{,}867 \kg \approx 9.89 \times 10^{4} \kg $$
+$$ m_{airplane} = 100{,}667 \kg - 1800 \kg = 98{,}867 \kg \approx 9.89 \times 10^{4} \kg $$
 </div>
 
 **(b) Force exerted by tractor on airplane:**
@@ -560,11 +586,11 @@ $$ \sum F_x = F_{push} - f_{airplane} = m_{airplane}a $$
 </div>
 
 <div class="equation">
-$$ F_{push} = m_{airplane}a + f_{airplane} = (98{,}867)(0.150) + 2200 $$
+$$ F_{push} = m_{airplane}a + f_{airplane} = (98{,}867 \kg)(0.150 \mss) + 2200 \N $$
 </div>
 
 <div class="equation">
-$$ F_{push} = 14{,}830 + 2200 = 17{,}030 \N \approx 1.70 \times 10^{4} \N $$
+$$ F_{push} = 14{,}830 \N + 2200 \N = 17{,}030 \N \approx 1.70 \times 10^{4} \N $$
 </div>
 
 **(c) Free-body diagrams:**
@@ -639,7 +665,7 @@ Given:
 
 Total mass:
 <div class="equation">
-$$ m_{\text{total}} = m_{\text{car}} + m_{\text{boat}} = 1100 + 700 = 1800 \kg $$
+$$ m_{\text{total}} = m_{\text{car}} + m_{\text{boat}} = 1100 \kg + 700 \kg = 1800 \kg $$
 </div>
 
 By Newton's third law, if the car pushes backward on the road with 1900 N, the road pushes forward on the car with 1900 N.
@@ -650,18 +676,18 @@ $$ \sum F_x = F_{\text{road}} - f_{\text{total}} = m_{\text{total}}a $$
 </div>
 
 <div class="equation">
-$$ f_{\text{total}} = F_{\text{road}} - m_{\text{total}}a = 1900 - (1800)(0.550) $$
+$$ f_{\text{total}} = F_{\text{road}} - m_{\text{total}}a = 1900 \N - (1800 \kg)(0.550 \mss) $$
 </div>
 
 <div class="equation">
-$$ f_{\text{total}} = 1900 - 990 = 910 \N $$
+$$ f_{\text{total}} = 1900 \N - 990 \N = 910 \N $$
 </div>
 
 **(b) Force in the hitch:**
 
 The boat and trailer experience 80% of the resisting forces:
 <div class="equation">
-$$ f_{\text{boat}} = 0.80 \times f_{\text{total}} = 0.80 \times 910 = 728 \N $$
+$$ f_{\text{boat}} = 0.80 \times f_{\text{total}} = 0.80 \times 910 \N = 728 \N $$
 </div>
 
 Consider the boat and trailer as the system (diagram (b)). The hitch force $$ F_{\text{hitch}} $$ pulls it along $$ +x $$, and friction acts along $$ -x $$:
@@ -670,11 +696,11 @@ $$ \sum F_x = F_{\text{hitch}} - f_{\text{boat}} = m_{\text{boat}}a $$
 </div>
 
 <div class="equation">
-$$ F_{\text{hitch}} = m_{\text{boat}}a + f_{\text{boat}} = (700)(0.550) + 728 $$
+$$ F_{\text{hitch}} = m_{\text{boat}}a + f_{\text{boat}} = (700 \kg)(0.550 \mss) + 728 \N $$
 </div>
 
 <div class="equation">
-$$ F_{\text{hitch}} = 385 + 728 = 1113 \N \approx 1.11 \times 10^{3} \N $$
+$$ F_{\text{hitch}} = 385 \N + 728 \N = 1113 \N \approx 1.11 \times 10^{3} \N $$
 </div>
 
 **Discussion**
@@ -710,6 +736,12 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 
 ::: solution
 
+**Strategy**
+
+Resolve the resultant into perpendicular components and use equal-scale head-to-tail drawings to compare sums.
+
+**Solution**
+
 **(a) Magnitudes of F₁ and F₂:**
 
 From Figure 4, the forces form a right triangle where:
@@ -721,16 +753,18 @@ From Figure 4, $$ \vb{F}_{\text{tot}} $$ is at **35°** above horizontal.
 
 Using trigonometry:
 <div class="equation">
-$$ F_{1} = F_{\text{tot}} \cos\theta = 20.0 \cos(35°) = 20.0 \times 0.819 = 16.4 \N $$
+$$ F_{1} = F_{\text{tot}} \cos\theta = 20.0 \N \cos(35°) = 20.0 \N \times 0.819 = 16.4 \N $$
 </div>
 
 <div class="equation">
-$$ F_{2} = F_{\text{tot}} \sin\theta = 20.0 \sin(35°) = 20.0 \times 0.574 = 11.5 \N $$
+$$ F_{2} = F_{\text{tot}} \sin\theta = 20.0 \N \sin(35°) = 20.0 \N \times 0.574 = 11.5 \N $$
 </div>
 
-Verification: $$ \sqrt{(16.4)^2 + (11.5)^2} = \sqrt{269 + 132} = \sqrt{401} \approx 20.0 \N $$ ✓
+Verification: $$ \sqrt{(16.4 \N)^2 + (11.5 \N)^2} = \sqrt{269 \N^2 + 132 \N^2} = \sqrt{401 \N^2} \approx 20.0 \N $$ ✓
 
 **(b) Commutative property:**
+
+![Force-scale drawings show both addition orders and an alternative pair reaching the same 20.0 N resultant; +x is right and +y is up, with a 5.0 N scale bar.](../resources/solution_04_06_p08.svg)
 
 Whether we add $$ \vb{F}_{1} + \vb{F}_{2} $$ or $$ \vb{F}_{2} + \vb{F}_{1} $$, the resultant is the same:
 - Method 1: Start with $$ \vb{F}_{1} $$ (right 16.4 N), then add $$ \vb{F}_{2} $$ (up 11.5 N) → resultant points to upper right
@@ -747,7 +781,7 @@ One example that adds to the same $$ \vb{F}_{\text{tot}} $$:
 - $$ \vb{F}_{3} $$: **11.9 N at 75° above horizontal** (components 3.08 N right, 11.5 N up)
 - $$ \vb{F}_{4} $$: **13.3 N horizontally to the right** (components 13.3 N right, 0 N up)
 
-Check: $$(3.08 + 13.3, 11.5 + 0) = (16.4, 11.5) \N$$, matching parts (a) and (b).
+Check: $$(3.08\N+13.3\N,\ 11.5\N+0\N)\approx(16.4\N,\ 11.5\N)$$, matching parts (a) and (b).
 
 *Scale drawing.* On the same 1 cm = 2.0 N drawing used in part (b), draw $$ \vb{F}_{3} $$ from the origin as a 5.95-cm arrow at 75° above horizontal, then $$ \vb{F}_{4} $$ from its head as a 6.65-cm arrow to the right. Its head lands on the same corner as in part (b), at the tip of $$ \vb{F}_{\text{tot}} $$.
 
@@ -767,7 +801,7 @@ This problem reinforces the fundamental principle that vector addition is both c
 
 </div>
 
-![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.jpg)
+![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.svg)
 {: #Figure4}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -809,41 +843,41 @@ The weight and the normal force are vertical and cancel, so the diagram shows on
 For $$ F_1 $$ (at 45° above +x-axis):
 
 <div class="equation">
-$$ F_{1x} = F_1 \cos(45°) = 10.0 \times 0.707 = 7.07 \N $$
+$$ F_{1x} = F_1 \cos(45°) = 10.0 \N \times 0.707 = 7.07 \N $$
 </div>
 
 <div class="equation">
-$$ F_{1y} = F_1 \sin(45°) = 10.0 \times 0.707 = 7.07 \N $$
+$$ F_{1y} = F_1 \sin(45°) = 10.0 \N \times 0.707 = 7.07 \N $$
 </div>
 
 For $$ F_2 $$ (at 30° below +x-axis):
 
 <div class="equation">
-$$ F_{2x} = F_2 \cos(30°) = 8.0 \times 0.866 = 6.93 \N $$
+$$ F_{2x} = F_2 \cos(30°) = 8.0 \N \times 0.866 = 6.93 \N $$
 </div>
 
 <div class="equation">
-$$ F_{2y} = -F_2 \sin(30°) = -8.0 \times 0.500 = -4.00 \N $$
+$$ F_{2y} = -F_2 \sin(30°) = -8.0 \N \times 0.500 = -4.00 \N $$
 </div>
 
 **Net pulling force components:**
 
 <div class="equation">
-$$ F_{pull,x} = F_{1x} + F_{2x} = 7.07 + 6.93 = 14.0 \N $$
+$$ F_{pull,x} = F_{1x} + F_{2x} = 7.07 \N + 6.93 \N = 14.0 \N $$
 </div>
 
 <div class="equation">
-$$ F_{pull,y} = F_{1y} + F_{2y} = 7.07 - 4.00 = 3.07 \N $$
+$$ F_{pull,y} = F_{1y} + F_{2y} = 7.07 \N - 4.00 \N = 3.07 \N $$
 </div>
 
 **Magnitude and direction of net pull:**
 
 <div class="equation">
-$$ F_{pull} = \sqrt{F_{pull,x}^2 + F_{pull,y}^2} = \sqrt{(14.0)^2 + (3.07)^2} = \sqrt{196 + 9.42} = \sqrt{205.42} = 14.3 \N $$
+$$ F_{pull} = \sqrt{F_{pull,x}^2 + F_{pull,y}^2} = \sqrt{(14.0 \N)^2 + (3.07 \N)^2} = \sqrt{196 \N^2 + 9.42 \N^2} = \sqrt{205.42 \N^2} = 14.3 \N $$
 </div>
 
 <div class="equation">
-$$ \theta_{pull} = \tan^{-1}\left(\frac{F_{pull,y}}{F_{pull,x}}\right) = \tan^{-1}\left(\frac{3.07}{14.0}\right) = \tan^{-1}(0.219) = 12.4^\circ $$
+$$ \theta_{pull} = \tan^{-1}\left(\frac{F_{pull,y}}{F_{pull,x}}\right) = \tan^{-1}\left(\frac{3.07 \N}{14.0 \N}\right) = \tan^{-1}(0.219) = 12.4^\circ $$
 </div>
 
 **Net force including friction:**
@@ -851,13 +885,13 @@ $$ \theta_{pull} = \tan^{-1}\left(\frac{F_{pull,y}}{F_{pull,x}}\right) = \tan^{-
 Friction opposes motion (opposite to pull direction):
 
 <div class="equation">
-$$ F_{net} = F_{pull} - f = 14.3 - 7.5 = 6.8 \N $$
+$$ F_{net} = F_{pull} - f = 14.3 \N - 7.5 \N = 6.8 \N $$
 </div>
 
-The same result follows from the components in the diagram. Friction points $$ 12.4^\circ $$ south of west, so $$ f_x = -7.5\cos(12.4^\circ) = -7.33 \N $$ and $$ f_y = -7.5\sin(12.4^\circ) = -1.61 \N $$:
+The same result follows from the components in the diagram. Friction points $$ 12.4^\circ $$ south of west, so $$ f_x = -7.5 \N\cos(12.4^\circ) = -7.33 \N $$ and $$ f_y = -7.5 \N\sin(12.4^\circ) = -1.61 \N $$:
 
 <div class="equation">
-$$ \sum F_x = 14.0 - 7.33 = 6.67 \N, \qquad \sum F_y = 3.07 - 1.61 = 1.46 \N, \qquad F_{net} = \sqrt{6.67^2 + 1.46^2} = 6.8 \N $$
+$$ \sum F_x = 14.0 \N - 7.33 \N = 6.67 \N, \qquad \sum F_y = 3.07 \N - 1.61 \N = 1.46 \N, \qquad F_{net} = \sqrt{(6.67 \N)^2 + (1.46 \N)^2} = 6.8 \N $$
 </div>
 
 **Calculate acceleration:**
@@ -896,6 +930,12 @@ you still apply the force found in part (a) to its center?
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 **(a) Force needed at 2.00° angle:**
 
@@ -969,12 +1009,17 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 1. Use Newton’s laws since we are looking for forces.
 
-2. Draw a free-body
-   diagram of the tooth, with $$ +x $$ along the wire's straight line and $$ +y $$ pointing toward the front of the mouth:
+2. Draw the wire forces acting on the tooth, with $$ +x $$ along the wire's straight line and $$ +y $$ pointing toward the front of the mouth. This diagram shows only the wire forces whose sum we want to calculate; forces from the surrounding tissue are omitted:
 
-   ![Free-body diagram of the tooth with +x to the right and +y up: two wire tensions T, down and to the right and down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum F sub app points along -y.](../resources/fbd_04_06_p11.svg){: .fbd #Figure7}
+   ![Wire forces on the tooth with +x to the right and +y up: two tensions T, down and to the right and down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum F sub app points along -y. Forces from the surrounding tissue are omitted.](../resources/fbd_04_06_p11.svg){: .fbd #Figure7}
 
 3. The tension is given as $$ T=25.0 \N $$, at $$ \theta = 15^\circ $$ below the $$ x $$-axis on each side. Find $$ F_{\text{app}}$$, the total force of the wire on the tooth. The *x*-components of the tensions cancel:
    $$ \sum F_{x}= T\cos\theta - T\cos\theta = 0. $$ The *y*-components both point along $$ -y $$ and add:
@@ -986,7 +1031,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 **Discussion**
 
-The applied force on the tooth (12.9 N) is approximately half the tension in the wire (25.0 N) because only the vertical components of the two symmetric tensions contribute to moving the tooth. The horizontal components cancel due to symmetry, which is why the wire is oriented at equal angles on both sides. Orthodontic treatments use small, sustained forces over long periods to gradually reposition teeth. The 12.9 N force is reasonable for this purpose—strong enough to be effective but gentle enough to avoid damaging the tooth or surrounding tissue.
+The applied force on the tooth (12.9 N) is about half the tension in the wire (25.0 N). The horizontal components cancel, while the two vertical components add. This calculation finds the resultant wire force; it does not assess its suitability for a particular treatment.
 
 :::
 
@@ -1009,6 +1054,12 @@ while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 __(a) Free-body diagrams:__
 
@@ -1060,7 +1111,7 @@ $$ \sum F_y = T_1 - (m_H + m_S)g = 0 $$
 </div>
 
 <div class="equation">
-$$ T_1 = (m_H + m_S)g = (90.0 + 55.0)(9.80) = (145.0)(9.80) = 1421 \N \approx 1.42 \times 10^{3} \N $$
+$$ T_1 = (m_H + m_S)g = (90.0 \kg + 55.0 \kg)(9.80 \mss) = (145.0 \kg)(9.80 \mss) = 1421 \N \approx 1.42 \times 10^{3} \N $$
 </div>
 
 __(c) Tension between Superhero and Trusty Sidekick:__
@@ -1073,10 +1124,10 @@ Since Sidekick is motionless:
 $$ \sum F_y = T_2 - m_S g = 0 $$
 </div>
 
-As a check, Superhero's diagram gives $$ \sum F_y = T_1 - w_H - T_2 = 1421 \N - 882 \N - 539 \N = 0 $$.
+As a check, Superhero's diagram gives $$ \sum F_y = T_1 - w_H - T_2 = 1421 \N - 882 \N - 539 \N = 0\,\text{N} $$.
 
 <div class="equation">
-$$ T_2 = m_S g = (55.0)(9.80) = 539 \N \approx 5.39 \times 10^{2} \N $$
+$$ T_2 = m_S g = (55.0 \kg)(9.80 \mss) = 539 \N \approx 5.39 \times 10^{2} \N $$
 </div>
 
 **Discussion**
@@ -1112,6 +1163,12 @@ friction is 60.0 N.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 __(a) Free-body diagram:__
 
 ![Free-body diagram of the cart with +x forward (to the right) and +y up: applied force F at 35 degrees below +x with dashed components F cos 35 degrees along +x and F sin 35 degrees along -y; friction f along -x; normal force N up; weight w down. a equals zero.](../resources/fbd_04_06_p13.svg){: .fbd}
@@ -1123,7 +1180,7 @@ Forces on the cart, with $$ +x $$ in the direction of motion and $$ +y $$ upward
   - Vertical component: $$ F\sin(35.0°) $$, along $$ -y $$
 - Friction $$ f = 60.0 \N $$, along $$ -x $$ (opposing motion)
 - Normal force $$ N $$, along $$ +y $$ (from floor)
-- Weight $$ w = mg = (28.0)(9.80) = 274 \N $$, along $$ -y $$
+- Weight $$ w = mg = (28.0 \kg)(9.80 \mss) = 274 \N $$, along $$ -y $$
 
 __(b) Force needed for constant velocity:__
 
@@ -1140,7 +1197,7 @@ $$ F\cos(35.0°) = f $$
 </div>
 
 <div class="equation">
-$$ F = \frac{f}{\cos(35.0°)} = \frac{60.0}{0.819} = 73.2 \N $$
+$$ F = \frac{f}{\cos(35.0°)} = \frac{60.0 \N}{0.819} = 73.2 \N $$
 </div>
 
 __Check vertical equilibrium:__
@@ -1197,6 +1254,8 @@ Choose reasonable values for:
 - Final cruising velocity: typically 1-5 m/s for residential elevators, up to 10 m/s for high-rise buildings
 - Time to reach cruising velocity: typically 2-5 seconds (for passenger comfort, acceleration should be modest)
 
+**Solution**
+
 **Example Solution**
 
 Let's construct a specific example:
@@ -1206,6 +1265,10 @@ Let's construct a specific example:
 - Initial velocity: $$ v_0 = 0 \ms $$ (starts from rest)
 
 **Step 1: Free-body diagram**
+
+Choose the origin at the elevator-plus-load center of mass and $$+y$$ upward, the acceleration direction.
+
+![Free-body diagram of the elevator plus load, with upward tension greater than downward weight, +y up, +x right, and upward acceleration shown separately.](../resources/solution_04_06_p14.svg){: .fbd}
 
 Forces on the elevator system:
 - Tension $$ T $$ in cable (upward)
@@ -1231,14 +1294,14 @@ $$ T = ma + mg = m(a + g) $$
 </div>
 
 <div class="equation">
-$$ T = 1200 \kg (1.33 \mss + 9.80 \mss) = 1200(11.13) = 13{,}360 \N = 1.34 \times 10^{4} \N $$
+$$ T = 1200 \kg (1.33 \mss + 9.80 \mss) = 1200 \kg(11.13 \mss) = 13{,}360 \N = 1.34 \times 10^{4} \N $$
 </div>
 
 **Step 4: Check reasonableness**
 
 The elevator's weight is:
 <div class="equation">
-$$ w = mg = 1200(9.80) = 11{,}760 \N $$
+$$ w = mg = 1200 \kg(9.80 \mss) = 11{,}760 \N $$
 </div>
 
 The tension (13,360 N) is greater than the weight (11,760 N) by about 14%, which makes sense since the cable must not only support the elevator but also provide the upward force needed for acceleration. The acceleration of 1.33 m/s² is modest and comfortable for passengers.
@@ -1249,7 +1312,7 @@ During upward acceleration, the cable tension exceeds the elevator's weight beca
 
 When the elevator reaches cruising velocity and moves at constant speed, $$ a = 0 $$, so the tension equals the weight: $$ T = mg $$. During downward acceleration (when starting to descend), the tension is less than the weight: $$ T = m(g - a) $$, which is why you feel lighter.
 
-The safety factor for elevator cables is typically 10-12, meaning cables are designed to support 10-12 times the maximum expected tension. For our example, the cable would be rated for at least 130,000-160,000 N to ensure passenger safety.
+This is an idealized force calculation. Designing an elevator cable also requires accounting for the cable arrangement, operating conditions, and applicable engineering standards.
 
 **Answer**
 
@@ -1327,6 +1390,12 @@ is produced.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 __(a) Repeat Exercise 7 with a = 1.20 m/s²:__
 
 From Exercise 7:
@@ -1342,7 +1411,7 @@ $$ F - f_{total} = m_{total}a $$
 </div>
 
 <div class="equation">
-$$ f_{total} = F - m_{total}a = 1900 - (1800)(1.20) = 1900 - 2160 = -260 \N $$
+$$ f_{total} = F - m_{total}a = 1900 \N - (1800 \kg)(1.20 \mss) = 1900 \N - 2160 \N = -260 \N $$
 </div>
 
 __(b) What is unreasonable?__
@@ -1355,7 +1424,7 @@ The acceleration of 1.20 m/s² is unreasonably high for the given forward force 
 
 With a mass of 1800 kg, an acceleration of 1.20 m/s² would require a net force of 2160 N. But the forward force is only 1900 N. Even with zero friction, the maximum possible acceleration would be:
 <div class="equation">
-$$ a_{max} = \frac{F}{m_{total}} = \frac{1900}{1800} = 1.06 \mss $$
+$$ a_{max} = \frac{F}{m_{total}} = \frac{1900 \N}{1800 \kg} = 1.06 \mss $$
 </div>
 
 An acceleration of 1.20 m/s² exceeds this maximum, which is impossible.
@@ -1393,11 +1462,17 @@ section.)
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 __(a) Initial acceleration:__
 
 Forces on the rocket:
 - Thrust (upward): $$ T = 2.00 \times 10^{6} \N $$
-- Weight (downward): $$ w = mg = (1.50 \times 10^{6})(9.80) = 1.47 \times 10^{7} \N $$
+- Weight (downward): $$ w = mg = (1.50 \times 10^{6} \kg)(9.80 \mss) = 1.47 \times 10^{7} \N $$
 
 Apply Newton's second law (taking upward as positive):
 <div class="equation">
@@ -1405,11 +1480,11 @@ $$ F_{\text{net}} = T - mg = ma $$
 </div>
 
 <div class="equation">
-$$ a = \frac{T - mg}{m} = \frac{2.00 \times 10^{6} - 1.47 \times 10^{7}}{1.50 \times 10^{6}} $$
+$$ a = \frac{T - mg}{m} = \frac{2.00 \times 10^{6} \N - 1.47 \times 10^{7} \N}{1.50 \times 10^{6} \kg} $$
 </div>
 
 <div class="equation">
-$$ a = \frac{2.00 \times 10^{6} - 14.7 \times 10^{6}}{1.50 \times 10^{6}} = \frac{-12.7 \times 10^{6}}{1.50 \times 10^{6}} = -8.47 \mss $$
+$$ a = \frac{2.00 \times 10^{6} \N - 14.7 \times 10^{6} \N}{1.50 \times 10^{6} \kg} = \frac{-12.7 \times 10^{6} \N}{1.50 \times 10^{6} \kg} = -8.47 \mss $$
 </div>
 
 __(b) What is unreasonable?__
@@ -1432,7 +1507,7 @@ $$ T_{min} = mg = 1.47 \times 10^{7} \N $$
 
 The given thrust is only 14% of what's needed for liftoff! A typical thrust-to-weight ratio for rockets is 1.2 to 1.5 at launch, meaning:
 <div class="equation">
-$$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \text{ to } 2.21 \times 10^{7} \N $$
+$$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \N \text{ to } 2.21 \times 10^{7} \N $$
 </div>
 
 The premise is unreasonable because no rocket could launch with such inadequate thrust.

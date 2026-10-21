@@ -1,0 +1,254 @@
+{
+  "year": 2025,
+  "accessed": "2026-10-21",
+  "sources": {
+    "energy": {
+      "title": "Energy Institute, Statistical Review of World Energy 2026",
+      "url": "https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf",
+      "pages": {
+        "worldHistory": 23,
+        "fuelMix": 24,
+        "energyPerCapita": 25,
+        "methodology": [81, 82]
+      },
+      "transcriptionCopy": "https://www.slideshare.net/slideshow/energy-institute-statistical-review-of-world-energy-2026-trends-security-and-transition/288433322"
+    },
+    "gdp": {
+      "title": "World Bank, World Development Indicators",
+      "indicator": "NY.GDP.PCAP.PP.KD",
+      "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD",
+      "api": "https://api.worldbank.org/v2/country/AUS;BRA;CHN;EGY;DEU;IND;IDN;JPN;GBR;RUS;USA/indicator/NY.GDP.PCAP.PP.KD?date=2025&format=json",
+      "lastUpdated": "2026-10-08"
+    }
+  },
+  "methodology": {
+    "energy": "Physical energy content; commercially traded fuels, modern renewable electricity and biofuels; traditional biomass excluded. Figures are transcribed at published precision. Zero denotes no reported contribution in the selected rows.",
+    "gdp": "Purchasing-power-parity GDP per person, constant 2021 international dollars; 2025 for every country.",
+    "energyConversion": "1 kWh = 0.0036 GJ; divide reported GJ per person by 0.0036 to obtain annual kWh per person.",
+    "rounding": "Reported totals may differ from sums of components by up to 0.03 EJ; chart percentages use reported totals."
+  },
+  "world": {
+    "totalEj": 600.31,
+    "fuelsEj": {
+      "oil": 200.97,
+      "gas": 150.7,
+      "coal": 166.03,
+      "nuclear": 31.04,
+      "hydro": 16.12,
+      "otherRenewables": 35.45
+    }
+  },
+  "worldHistory": [
+    {
+      "year": 2015,
+      "totalEj": 523.8
+    },
+    {
+      "year": 2016,
+      "totalEj": 528.82
+    },
+    {
+      "year": 2017,
+      "totalEj": 539.02
+    },
+    {
+      "year": 2018,
+      "totalEj": 553.03
+    },
+    {
+      "year": 2019,
+      "totalEj": 556.63
+    },
+    {
+      "year": 2020,
+      "totalEj": 532.75
+    },
+    {
+      "year": 2021,
+      "totalEj": 560.01
+    },
+    {
+      "year": 2022,
+      "totalEj": 568.58
+    },
+    {
+      "year": 2023,
+      "totalEj": 579.16
+    },
+    {
+      "year": 2024,
+      "totalEj": 592.18
+    },
+    {
+      "year": 2025,
+      "totalEj": 600.31
+    }
+  ],
+  "countries": [
+    {
+      "name": "Australia",
+      "iso3": "AUS",
+      "totalEj": 5.53,
+      "fuelsEj": {
+        "oil": 2.24,
+        "gas": 1.39,
+        "coal": 1.46,
+        "nuclear": 0,
+        "hydro": 0.05,
+        "otherRenewables": 0.39
+      },
+      "energyGjPerCapita": 204.94,
+      "gdpPpp2021PerCapita": 60194.0633547961
+    },
+    {
+      "name": "Brazil",
+      "iso3": "BRA",
+      "totalEj": 11.19,
+      "fuelsEj": {
+        "oil": 5.19,
+        "gas": 1.2,
+        "coal": 0.59,
+        "nuclear": 0.17,
+        "hydro": 1.43,
+        "otherRenewables": 2.61
+      },
+      "energyGjPerCapita": 52.59,
+      "gdpPpp2021PerCapita": 20024.6968256903
+    },
+    {
+      "name": "China",
+      "iso3": "CHN",
+      "totalEj": 162.19,
+      "fuelsEj": {
+        "oil": 33.85,
+        "gas": 15.91,
+        "coal": 92.24,
+        "nuclear": 5.29,
+        "hydro": 5.01,
+        "otherRenewables": 9.89
+      },
+      "energyGjPerCapita": 114.54,
+      "gdpPpp2021PerCapita": 25066.5215296486
+    },
+    {
+      "name": "Egypt",
+      "iso3": "EGY",
+      "totalEj": 3.97,
+      "fuelsEj": {
+        "oil": 1.57,
+        "gas": 2.21,
+        "coal": 0.06,
+        "nuclear": 0,
+        "hydro": 0.05,
+        "otherRenewables": 0.07
+      },
+      "energyGjPerCapita": 33.51,
+      "gdpPpp2021PerCapita": 17265.1488604617
+    },
+    {
+      "name": "Germany",
+      "iso3": "DEU",
+      "totalEj": 10.04,
+      "fuelsEj": {
+        "oil": 4.2,
+        "gas": 2.83,
+        "coal": 1.49,
+        "nuclear": 0,
+        "hydro": 0.06,
+        "otherRenewables": 1.46
+      },
+      "energyGjPerCapita": 119.46,
+      "gdpPpp2021PerCapita": 62823.7736648822
+    },
+    {
+      "name": "India",
+      "iso3": "IND",
+      "totalEj": 39.1,
+      "fuelsEj": {
+        "oil": 10.89,
+        "gas": 2.4,
+        "coal": 23.07,
+        "nuclear": 0.59,
+        "hydro": 0.64,
+        "otherRenewables": 1.51
+      },
+      "energyGjPerCapita": 26.71,
+      "gdpPpp2021PerCapita": 10039.0708910587
+    },
+    {
+      "name": "Indonesia",
+      "iso3": "IDN",
+      "totalEj": 11.52,
+      "fuelsEj": {
+        "oil": 3.28,
+        "gas": 1.74,
+        "coal": 5.15,
+        "nuclear": 0,
+        "hydro": 0.11,
+        "otherRenewables": 1.23
+      },
+      "energyGjPerCapita": 40.31,
+      "gdpPpp2021PerCapita": 15091.0088604652
+    },
+    {
+      "name": "Japan",
+      "iso3": "JPN",
+      "totalEj": 16.48,
+      "fuelsEj": {
+        "oil": 6.51,
+        "gas": 3.25,
+        "coal": 4.36,
+        "nuclear": 1.03,
+        "hydro": 0.27,
+        "otherRenewables": 1.07
+      },
+      "energyGjPerCapita": 133.89,
+      "gdpPpp2021PerCapita": 48283.3723959465
+    },
+    {
+      "name": "United Kingdom",
+      "iso3": "GBR",
+      "totalEj": 6.29,
+      "fuelsEj": {
+        "oil": 2.71,
+        "gas": 2.2,
+        "coal": 0.05,
+        "nuclear": 0.39,
+        "hydro": 0.02,
+        "otherRenewables": 0.92
+      },
+      "energyGjPerCapita": 90.46,
+      "gdpPpp2021PerCapita": 53993.1172607885
+    },
+    {
+      "name": "Russia",
+      "iso3": "RUS",
+      "totalEj": 31.19,
+      "fuelsEj": {
+        "oil": 7.18,
+        "gas": 17.28,
+        "coal": 3.56,
+        "nuclear": 2.38,
+        "hydro": 0.72,
+        "otherRenewables": 0.07
+      },
+      "energyGjPerCapita": 216.6,
+      "gdpPpp2021PerCapita": 42357.98828125
+    },
+    {
+      "name": "U.S.",
+      "iso3": "USA",
+      "totalEj": 93.83,
+      "fuelsEj": {
+        "oil": 36.42,
+        "gas": 32.88,
+        "coal": 8.73,
+        "nuclear": 9.01,
+        "hydro": 0.88,
+        "otherRenewables": 5.9
+      },
+      "energyGjPerCapita": 270.18,
+      "gdpPpp2021PerCapita": 76931.3106990408
+    }
+  ]
+}

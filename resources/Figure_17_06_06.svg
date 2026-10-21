@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" role="img" aria-labelledby="title desc">
+<title id="title">The middle ear’s lever system</title>
+<desc id="desc">Pressure P1 on the eardrum, of area A1, produces a force F1 = P1A1 on the hammer. The hammer, anvil and stirrup act as a lever pivoted at the top and at the joint between the anvil and the stirrup, so the force F2 delivered by the stirrup to the oval window is larger than F1. The oval window’s area A2 is much smaller than the eardrum’s, so the pressure it creates in the inner ear, P2 = F2/A2, is larger than P1: since F2 &gt; F1 and A2 &lt; A1, P2 &gt; P1.</desc>
+<rect width="760" height="640" fill="#ffffff"/>
+<rect x="250" y="22" width="140" height="26" fill="#c3c4c8"/>
+<line x1="250" y1="48" x2="390" y2="48" stroke="#6a3d9a" stroke-width="2"/>
+<circle cx="320" cy="48" r="6" fill="#222222"/>
+<circle cx="320" cy="285" r="6" fill="#222222"/>
+<polyline points="320,48 320,500 200,500" fill="none" stroke="#6a3d9a" stroke-width="3" stroke-linejoin="round"/>
+<line x1="320" y1="285" x2="450" y2="285" stroke="#6a3d9a" stroke-width="3"/>
+<line x1="200" y1="430" x2="200" y2="580" stroke="#6a3d9a" stroke-width="3"/>
+<line x1="450" y1="240" x2="450" y2="330" stroke="#6a3d9a" stroke-width="3"/>
+<line x1="110" y1="505" x2="169" y2="505" stroke="#6a3d9a" stroke-width="6"/>
+<polygon points="190,505 168,513.8 168,496.2" fill="#6a3d9a"/>
+<line x1="212" y1="475" x2="263" y2="475" stroke="#e0245e" stroke-width="5"/>
+<polygon points="280,475 262,482.2 262,467.8" fill="#e0245e"/>
+<line x1="330" y1="300" x2="423" y2="300" stroke="#e0245e" stroke-width="5"/>
+<polygon points="440,300 422,307.2 422,292.8" fill="#e0245e"/>
+<line x1="462" y1="285" x2="699" y2="285" stroke="#6a3d9a" stroke-width="6"/>
+<polygon points="720,285 698,293.8 698,276.2" fill="#6a3d9a"/>
+<text x="98" y="512.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">P<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="290" y="482.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="370" y="337.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="600" y="319.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">P<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="200" y="415.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="450" y="225.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="200" y="627.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">P</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="italic">A</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="450" y="367.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">A</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="150" y="387.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Eardrum</tspan></text>
+<path d="M 150 394 Q 159.2 430.8 189.21 438.3" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="187.27" y1="437.82" x2="191.73" y2="438.93" stroke="#333333" stroke-width="1.4"/>
+<polygon points="196,440 190.24,440.79 191.29,436.59" fill="#333333"/>
+<text x="250" y="567.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Hammer</tspan></text>
+<path d="M 248 548 Q 225.8 531.4 228.94 510.92" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="228.64" y1="512.9" x2="229.33" y2="508.35" stroke="#333333" stroke-width="1.4"/>
+<polygon points="230,504 231.32,509.66 227.05,509.01" fill="#333333"/>
+<text x="380" y="457.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Anvil</tspan></text>
+<path d="M 378 438 Q 343.6 439.6 329.58 416.02" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="330.6" y1="417.74" x2="328.25" y2="413.78" stroke="#333333" stroke-width="1.4"/>
+<polygon points="326,410 330.62,413.54 326.9,415.75" fill="#333333"/>
+<text x="340" y="203.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Stirrup</tspan></text>
+<path d="M 372 212 Q 361.6 252 386.85 275.26" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="385.38" y1="273.9" x2="388.76" y2="277.02" stroke="#333333" stroke-width="1.4"/>
+<polygon points="392,280 386.56,277.93 389.49,274.75" fill="#333333"/>
+<text x="530" y="237.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Oval</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">window</tspan></text>
+<path d="M 528 236 Q 487.8 221.4 461.2 245.32" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="462.69" y1="243.98" x2="459.27" y2="247.06" stroke="#333333" stroke-width="1.4"/>
+<polygon points="456,250 458.57,244.78 461.46,248" fill="#333333"/>
+<text x="160" y="177.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pivots</tspan></text>
+<path d="M 180 156 Q 216.4 64.8 307.04 54.77" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="305.05" y1="54.99" x2="309.63" y2="54.48" stroke="#333333" stroke-width="1.4"/>
+<polygon points="314,54 308.87,56.74 308.4,52.45" fill="#333333"/>
+<path d="M 180 186 Q 218.8 273.2 307.02 279.5" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="305.02" y1="279.36" x2="309.61" y2="279.69" stroke="#333333" stroke-width="1.4"/>
+<polygon points="314,280 308.46,281.77 308.77,277.46" fill="#333333"/>
+<text x="560" y="567.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal"> &gt; </tspan><tspan font-style="italic">F</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">A</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal"> &lt; </tspan><tspan font-style="italic">A</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<line x1="470" y1="600" x2="527" y2="600" stroke="#e0245e" stroke-width="3"/>
+<polygon points="540,600 526,605.6 526,594.4" fill="#e0245e"/>
+<text x="552" y="607.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal"> &gt; </tspan><tspan font-style="italic">P</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+</svg>

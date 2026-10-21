@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="340" viewBox="0 0 360 340" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the heading that makes the ship go due north</title>
+<desc id="desc">Axes with +x east and +y north. The ship’s velocity relative to the water, v_s/w = 7.00 m/s, points at unknown angle θ west of north. The current, v_w/E = 1.50 m/s at 40.0° north of east, is drawn from its tip. The sum, v_s/E, must point due north (+y), so its x-component is zero.</desc>
+<rect width="360" height="340" fill="#ffffff"/>
+<line x1="60" y1="300" x2="150" y2="300" stroke="#555555" stroke-width="1.6"/>
+<line x1="150" y1="300" x2="280" y2="300" stroke="#555555" stroke-width="1.6"/>
+<polygon points="290,300 279,304.4 279,295.6" fill="#555555"/>
+<line x1="150" y1="325" x2="150" y2="300" stroke="#555555" stroke-width="1.6"/>
+<line x1="150" y1="300" x2="150" y2="25" stroke="#555555" stroke-width="1.6"/>
+<polygon points="150,15 154.4,26 145.6,26" fill="#555555"/>
+<text x="298" y="305.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="298" y="322.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="150" y="8.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="166" y="7.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="142" y="318.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="150" y1="300" x2="112.81" y2="76.67" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="110.9,65.23 117.94,76.83 108,78.49" fill="#1f77c8"/>
+<text x="112.69" y="190.82" font-family="'Times New Roman', Times, serif" font-size="15" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.4" dy="-7.8">→</tspan><tspan dx="-0.9" dy="7.8">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">s</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">w</tspan></tspan><tspan dy="-4.2">​</tspan></text>
+<line x1="110.9" y1="65.23" x2="141.08" y2="39.9" stroke="#2e8b57" stroke-width="3"/>
+<polygon points="149.97,32.45 143.56,44.41 137.08,36.69" fill="#2e8b57"/>
+<text x="142" y="67.88" font-family="'Times New Roman', Times, serif" font-size="15" fill="#2e8b57" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.4" dy="-7.8">→</tspan><tspan dx="-0.9" dy="7.8">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">w</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">E</tspan></tspan><tspan dy="-4.2">​</tspan></text>
+<line x1="150" y1="300" x2="149.97" y2="44.05" stroke="#c0392b" stroke-width="3"/>
+<polygon points="149.97,32.45 155.01,45.05 144.93,45.05" fill="#c0392b"/>
+<text x="167.99" y="198.23" font-family="'Times New Roman', Times, serif" font-size="15" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.4" dy="-7.8">→</tspan><tspan dx="-0.9" dy="7.8">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">s</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">E</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<path d="M 150 180 A 120 120 0 0 0 130.32 181.63" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="134.97" y="171.7" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+</svg>

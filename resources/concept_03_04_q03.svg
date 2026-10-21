@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+<title id="title">Two launch angles with the same range</title>
+<desc id="desc">Two trajectories launched at 20 m/s land 35.3 m away. The 30° path is low (maximum height 5.1 m) and takes 2.0 s; the 60° path is high (maximum height 15.3 m) and takes 3.5 s.</desc>
+<rect width="620" height="360" fill="#ffffff"/>
+<line x1="30" y1="300" x2="600" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="36" y1="300" x2="28" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="50" y1="300" x2="42" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="64" y1="300" x2="56" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="78" y1="300" x2="70" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="92" y1="300" x2="84" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="106" y1="300" x2="98" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="120" y1="300" x2="112" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="134" y1="300" x2="126" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="148" y1="300" x2="140" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="162" y1="300" x2="154" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="176" y1="300" x2="168" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="190" y1="300" x2="182" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="204" y1="300" x2="196" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="218" y1="300" x2="210" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="232" y1="300" x2="224" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="246" y1="300" x2="238" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="260" y1="300" x2="252" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="274" y1="300" x2="266" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="288" y1="300" x2="280" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="302" y1="300" x2="294" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="316" y1="300" x2="308" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="330" y1="300" x2="322" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="344" y1="300" x2="336" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="358" y1="300" x2="350" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="372" y1="300" x2="364" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="386" y1="300" x2="378" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="400" y1="300" x2="392" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="414" y1="300" x2="406" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="428" y1="300" x2="420" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="442" y1="300" x2="434" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="456" y1="300" x2="448" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="470" y1="300" x2="462" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="484" y1="300" x2="476" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="498" y1="300" x2="490" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="512" y1="300" x2="504" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="526" y1="300" x2="518" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="540" y1="300" x2="532" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="554" y1="300" x2="546" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="568" y1="300" x2="560" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="582" y1="300" x2="574" y2="309" stroke="#666666" stroke-width="1"/>
+<line x1="596" y1="300" x2="588" y2="309" stroke="#666666" stroke-width="1"/>
+<polyline points="60,300 65.96,296.6 71.93,293.28 77.89,290.06 83.86,286.91 89.82,283.86 95.79,280.89 101.75,278 107.72,275.2 113.68,272.49 119.65,269.87 125.61,267.33 131.58,264.87 137.54,262.5 143.51,260.22 149.47,258.03 155.44,255.92 161.4,253.9 167.37,251.96 173.33,250.11 179.3,248.34 185.26,246.66 191.23,245.07 197.19,243.56 203.16,242.14 209.12,240.81 215.09,239.56 221.05,238.4 227.02,237.32 232.98,236.33 238.95,235.43 244.91,234.61 250.88,233.88 256.84,233.23 262.81,232.67 268.77,232.2 274.74,231.81 280.7,231.51 286.67,231.29 292.63,231.17 298.6,231.12 304.56,231.17 310.53,231.29 316.49,231.51 322.46,231.81 328.42,232.2 334.39,232.67 340.35,233.23 346.32,233.88 352.28,234.61 358.25,235.43 364.21,236.33 370.18,237.32 376.14,238.4 382.11,239.56 388.07,240.81 394.04,242.14 400,243.56 405.97,245.07 411.93,246.66 417.9,248.34 423.86,250.11 429.83,251.96 435.79,253.9 441.76,255.92 447.72,258.03 453.69,260.22 459.65,262.5 465.62,264.87 471.58,267.33 477.55,269.87 483.51,272.49 489.48,275.2 495.44,278 501.41,280.89 507.37,283.86 513.34,286.91 519.3,290.06 525.27,293.28 531.23,296.6 537.2,300" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<text x="298.6" y="220.02" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30°: </tspan><tspan font-style="normal">height</tspan><tspan font-style="normal"> 5.1 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">time</tspan><tspan font-style="normal"> 2.0 </tspan><tspan font-style="normal">s</tspan></text>
+<polyline points="60,300 65.96,289.8 71.93,279.85 77.89,270.17 83.86,260.74 89.82,251.57 95.79,242.66 101.75,234.01 107.72,225.61 113.68,217.48 119.65,209.6 125.61,201.98 131.58,194.62 137.54,187.51 143.51,180.67 149.47,174.08 155.44,167.76 161.4,161.69 167.37,155.87 173.33,150.32 179.3,145.03 185.26,139.99 191.23,135.21 197.19,130.69 203.16,126.43 209.12,122.43 215.09,118.68 221.05,115.19 227.02,111.96 232.98,108.99 238.95,106.28 244.91,103.83 250.88,101.63 256.84,99.7 262.81,98.02 268.77,96.6 274.74,95.43 280.7,94.53 286.67,93.88 292.63,93.5 298.6,93.37 304.56,93.5 310.53,93.88 316.49,94.53 322.46,95.43 328.42,96.6 334.39,98.02 340.35,99.7 346.32,101.63 352.28,103.83 358.25,106.28 364.21,108.99 370.18,111.96 376.14,115.19 382.11,118.68 388.07,122.43 394.04,126.43 400,130.69 405.97,135.21 411.93,139.99 417.9,145.03 423.86,150.32 429.83,155.87 435.79,161.69 441.76,167.76 447.72,174.08 453.69,180.67 459.65,187.51 465.62,194.62 471.58,201.98 477.55,209.6 483.51,217.48 489.48,225.61 495.44,234.01 501.41,242.66 507.37,251.57 513.34,260.74 519.3,270.17 525.27,279.85 531.23,289.8 537.2,300" fill="none" stroke="#c62828" stroke-width="3" stroke-linejoin="round"/>
+<text x="298.6" y="82.27" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°: </tspan><tspan font-style="normal">height</tspan><tspan font-style="normal"> 15.3 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">time</tspan><tspan font-style="normal"> 3.5 </tspan><tspan font-style="normal">s</tspan></text>
+<path d="M 100 300 A 40 40 0 0 0 94.64 280" fill="none" stroke="#1f77c8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="112.16" y="290.92" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30°</tspan></text>
+<path d="M 115.43 268 A 64 64 0 0 0 92 244.57" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="115.15" y="249.75" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+<line x1="68" y1="321.6" x2="529.2" y2="321.6" stroke="#333333" stroke-width="1.5"/>
+<polygon points="537.2,321.6 528.2,325.2 528.2,318" fill="#333333"/>
+<polygon points="60,321.6 69,318 69,325.2" fill="#333333"/>
+<text x="298.6" y="342.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">range</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">R</tspan><tspan font-style="normal"> = 35.3 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">v</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">0</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> = 20 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

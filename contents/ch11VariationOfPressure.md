@@ -76,7 +76,7 @@ compressible, one can apply this equation as long as the density changes are
 small over the depth considered. [[Example 2]](#Example2) illustrates this
 situation.
 
-![A container with fluid filled to a depth h. The fluid’s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](../resources/Figure_11_04_01.jpg 'The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.')
+![A container with fluid filled to a depth h. The fluid’s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](/resources/Figure_11_04_01.svg 'The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.')
 {: #Figure1}
 
 ::: example {"id":"Example1","class":"example"}
@@ -138,7 +138,7 @@ balance the increasing force due to the increasing pressure.
 
 :::
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02.jpg 'The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.')
+![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](/resources/Figure_11_04_02.svg 'The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.')
 {: #Figure2}
 
 _Atmospheric pressure_ is another example of pressure due to the weight of a
@@ -156,7 +156,7 @@ This relationship means that, on average, at sea level, a column of air above
 $$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times 10^{5} \text{N} $$ , equivalent to $$1 \text{atm} $$ .
 (See [[Figure 3]](#Figure3).)
 
-![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_11_04_03.jpg 'Atmospheric pressure at sea level averages ( 1.01 \\times 10^5 \\text{Pa} ) (equivalent to 1 atm), since the column of air over this ( 1 \\text{m}^2 ), extending to the top of the atmosphere, weighs ( 1.01 \\times 10^5 \\text{N} ) .')
+![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](/resources/Figure_11_04_03.svg 'Atmospheric pressure at sea level averages ( 1.01 \\times 10^5 \\text{Pa} ) (equivalent to 1 atm), since the column of air over this ( 1 \\text{m}^2 ), extending to the top of the atmosphere, weighs ( 1.01 \\times 10^5 \\text{N} ) .')
 {: #Figure3}
 
 ::: example {"id":"Example2","class":"example"}
@@ -292,7 +292,7 @@ This is similar to why fish don't feel crushed by water pressure—their interna
 
 ::: problem
 
-Why does atmospheric pressure decrease more rapidly than linearly with altitude?
+Why does atmospheric pressure decrease nonlinearly with altitude?
 
 :::
 
@@ -302,22 +302,22 @@ Why does atmospheric pressure decrease more rapidly than linearly with altitude?
 Consider how the density of air varies with altitude due to its compressibility, and how this affects the pressure-altitude relationship.
 
 **Solution:**
-Atmospheric pressure decreases more rapidly than linearly because **air is compressible, so its density decreases with altitude, causing pressure to drop exponentially rather than linearly.**
+The decrease is not linear because **air is compressible: its density is greatest near the ground and decreases with altitude, so most of the drop in pressure happens in the lowest few kilometres.**
 
 Detailed explanation:
-1. The equation $$ P = \rho g h $$ assumes constant density
-2. For incompressible fluids (like water), this gives linear pressure increase with depth
-3. Air is highly compressible—at lower altitudes, the weight of air above compresses the air, increasing its density
-4. At higher altitudes, less air above means less compression and lower density
-5. Since pressure depends on the weight of air above, and that air has decreasing density at higher altitudes, pressure drops off faster than linear
+1. The equation $$ \Delta P = \rho g \Delta h $$ gives a linear change only when the density is constant.
+2. For a nearly incompressible fluid such as water, the pressure therefore changes linearly with depth.
+3. Air is highly compressible. Near the ground, the weight of all the air above compresses it, so its density is high and each metre of height removes a large amount of weight from above.
+4. Higher up, the air is less compressed and less dense, so each metre of height removes less weight, and the pressure falls more slowly.
+5. The slope of the pressure-versus-altitude graph is $$ dP/dh = -\rho g $$, so it is steepest at the ground and flattens as the density drops. The graph is a curve, not a straight line.
 
-Mathematically, for an isothermal atmosphere:
-$$ P = P_0 e^{-h/H} $$
+For an isothermal atmosphere, density is proportional to pressure, and the result is
+$$ P = P_0 e^{-h/H}, \qquad \frac{dP}{dh} = -\frac{P}{H} $$
 
-where $$ H $$ is the scale height (about 8.5 km for Earth). This exponential decay is faster than linear at low altitudes.
+where $$ H $$ is the scale height (about 8.5 km for Earth). The magnitude of the slope is proportional to $$ P $$ itself, so it shrinks with altitude: the pressure halves about every 5.9 km ($$ H\ln 2 $$), dropping by 50 kPa in the first 5.9 km but by only 25 kPa in the next. The graph of pressure versus altitude is a curve that is steep near the ground and flattens higher up, not a straight line. (A straight line with the ground-level slope, $$ P_0(1 - h/H) $$, would describe an atmosphere of uniform density and would reach zero at $$ h = H $$; the real pressure stays above it.)
 
 **Discussion:**
-At sea level, about 50% of the atmosphere's mass is below 5.5 km altitude. The next 50% is spread over the remaining ~115 km to the edge of space. This concentration of air at low altitudes is why aircraft pressurize cabins for high-altitude flight, and why weather phenomena occur primarily in the lowest layer of the atmosphere (troposphere).
+About 50% of the atmosphere's mass lies below 5.5 km altitude; the other 50% is spread over the remaining ~100 km to the edge of space. This concentration of air at low altitudes is why aircraft pressurize cabins for high-altitude flight, and why weather phenomena occur primarily in the lowest layer of the atmosphere (troposphere).
 
 :::
 
@@ -369,7 +369,7 @@ Additional advantages of mercury include: it doesn't wet glass (forms clean meni
 
 [[Figure 4]](#Figure4) shows how sandbags placed around a leak outside a river levee can effectively stop the flow of water under the levee. Explain how the small amount of water inside the column formed by the sandbags is able to balance the much larger body of water behind the levee.
 
-![The figure shows a flooding river on the extreme right, with a levee set up on its left, and sandbags are stacked on the left of the levee. The height of the levee and that of the stacked sandbags is greater than the water level of the flooding river, so the water does not flow over their tops, but a leak under the levee allows some water to flow under it and reach the sandbags.](../resources/Figure_11_04_04.jpg 'Because the river level is very high, it has started to leak under the levee. Sandbags are placed around the leak, and the water held by them rises until it is the same level as the river, at which point the water there stops rising.')
+![The figure shows a flooding river on the extreme right, with a levee set up on its left, and sandbags are stacked on the left of the levee. The height of the levee and that of the stacked sandbags is greater than the water level of the flooding river, so the water does not flow over their tops, but a leak under the levee allows some water to flow under it and reach the sandbags.](/resources/Figure_11_04_04.svg 'Because the river level is very high, it has started to leak under the levee. Sandbags are placed around the leak, and the water held by them rises until it is the same level as the river, at which point the water there stops rising.')
 {: #Figure4}
 
 :::
@@ -807,7 +807,7 @@ $$ A = (0.500 \text{ m})(0.900 \text{ m}) = 0.450 \text{ m}^2 $$
 $$ P = \frac{W}{A} = \frac{490 \text{ N}}{0.450 \text{ m}^2} = 1.09 \times 10^{3} \text{ Pa} $$
 
 **Discussion:**
-The pressure on the bottom of the gas tank is approximately **1.09 × 10³ Pa** (about 1.09 kPa or 0.011 atm). This is a relatively modest pressure—only about 1% of atmospheric pressure. This makes sense because gasoline is not very dense (about 680 kg/m³) and the tank is relatively shallow. For comparison, if we calculate the depth of gasoline: $$ h = V/A = (m/\rho)/A = 50/(680 × 0.45) = 0.164 \text{ m} $$, we can verify using $$ P = \rho g h = (680)(9.80)(0.164) = 1090 \text{ Pa} $$. The tank experiences more pressure from atmospheric pressure (101 kPa) than from its own fuel!
+The pressure on the bottom of the gas tank is approximately **1.09 × 10³ Pa** (about 1.09 kPa or 0.011 atm). This is a relatively modest pressure—only about 1% of atmospheric pressure. This makes sense because gasoline is not very dense (about 680 kg/m³) and the tank is relatively shallow. For comparison, if we calculate the depth of gasoline: $$ h = V/A = (m/\rho)/A = 50 \text{ kg}/((680 \text{ kg/m}^3)(0.45 \text{ m}^2)) = 0.164 \text{ m} $$, we can verify using $$ P = \rho g h = (680 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.164 \text{ m}) = 1090 \text{ Pa} $$. The tank experiences more pressure from atmospheric pressure (101 kPa) than from its own fuel!
 
 :::
 
@@ -901,7 +901,7 @@ Show that the total force on a rectangular dam due to the water behind it increa
  is the density of water,  $$h $$  is its depth at the dam, and  $$L $$
  is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See [[Figure 5]](#Figure5).)
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](../resources/Figure_11_04_02.jpg ' ')
+![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](/resources/Figure_11_04_02.svg ' ')
 {: #Figure5}
 
 :::

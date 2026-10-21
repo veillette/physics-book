@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+<title id="title">Fair-weather field above the ground</title>
+<desc id="desc">The ground carries negative charge, shown by minus signs along its surface. The electric field lines are vertical, evenly spaced, and point down toward the ground; the field is 113 V/m. The equipotentials are horizontal lines parallel to the ground, equally spaced for equal potential steps: 0 V at the ground, 113 V at 1 m, 226 V at 2 m, and 339 V at 3 m. The potential increases with height.</desc>
+<rect width="600" height="400" fill="#ffffff"/>
+<rect x="30" y="330" width="540" height="40" fill="#c8b38e"/>
+<text x="50" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="84" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="118" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="152" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="186" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="220" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="254" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="288" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="322" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="356" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="390" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="424" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="458" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="492" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="526" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f77c8" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="70" y1="50" x2="70" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="70,328 66.4,319 73.6,319" fill="#c62828"/>
+<line x1="130" y1="50" x2="130" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="130,328 126.4,319 133.6,319" fill="#c62828"/>
+<line x1="190" y1="50" x2="190" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="190,328 186.4,319 193.6,319" fill="#c62828"/>
+<line x1="250" y1="50" x2="250" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="250,328 246.4,319 253.6,319" fill="#c62828"/>
+<line x1="310" y1="50" x2="310" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="310,328 306.4,319 313.6,319" fill="#c62828"/>
+<line x1="370" y1="50" x2="370" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="370,328 366.4,319 373.6,319" fill="#c62828"/>
+<line x1="430" y1="50" x2="430" y2="320" stroke="#c62828" stroke-width="1.6"/>
+<polygon points="430,328 426.4,319 433.6,319" fill="#c62828"/>
+<text x="460" y="320.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">:  0 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="40" y1="250" x2="450" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<text x="460" y="254.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">:  113 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="40" y1="170" x2="450" y2="170" stroke="#1f77c8" stroke-width="2"/>
+<text x="460" y="174.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">:  226 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="40" y1="90" x2="450" y2="90" stroke="#1f77c8" stroke-width="2"/>
+<text x="460" y="94.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">:  339 </tspan><tspan font-style="normal">V</tspan></text>
+<text x="250" y="362.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">ground</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">σ</tspan><tspan font-style="normal"> = −1.00 </tspan><tspan font-style="normal">nC/m</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="5.6">​</tspan></text>
+<line x1="25" y1="300" x2="25" y2="140" stroke="#3f9a2b" stroke-width="2.5"/>
+<polygon points="25,130 29.4,141 20.6,141" fill="#3f9a2b"/>
+<text x="19" y="120.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#3f9a2b" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">increases</tspan></text>
+<text x="110" y="40.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">E<tspan font-size="8.68" font-weight="normal" dx="-9.01" dy="-11.48">→</tspan><tspan dx="0.33" dy="11.48">​</tspan></tspan><tspan font-style="normal"> = 113 </tspan><tspan font-style="normal">V/m</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">downward</tspan></text>
+</svg>

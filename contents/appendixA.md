@@ -50,7 +50,7 @@ Numbers without uncertainties are exact as defined.
 
 {: #The-Greek-Alphabet}
 
-| ------- | ----  | ------ | ------ | ----- | ----- | ------- | ----- | ----- |
+| Name    | Uppercase | Lowercase | Name   | Uppercase | Lowercase | Name    | Uppercase | Lowercase | Name    | Uppercase    | Lowercase |
 | ------- | ----- | ------ | ------ | ----- | ----- | ------- | ----- | ----- | ------- | ------------ | ----- |
 | Alpha   | $$Α$$ | $$α$$  | Eta    | $$Η$$ | $$η$$ | Nu      | $$Ν$$ | $$ν$$ | Tau     | $$Τ$$        | $$τ$$ |
 | Beta    | $$Β$$ | $$β$$  | Theta  | $$Θ$$ | $$θ$$ | Xi      | $$Ξ$$ | $$ξ$$ | Upsilon | $$Υ$$        | $$υ$$ |
@@ -77,6 +77,7 @@ Numbers without uncertainties are exact as defined.
 
 {: #Solar-System-Data}
 
+| Body | Property | Value |
 | ----- | ----------------------------- | ------------------------------------- |
 | Sun | mass | $$ 1.99 \times 10^{30} \text{kg} $$ |
 | | average radius | $$ 6.96 \times 10^{8} \text{m} $$ |
@@ -116,6 +117,7 @@ Numbers without uncertainties are exact as defined.
 
 {: #Selected-British-Units}
 
+| Quantity | Conversion |
 | -------- | ------------------------------------------------------------------|
 | Length | 1 inch ( in.) $$ = 2.54 \text{cm}$$ "exactly" |
 | | 1 foot $$ = 0.3048\text{m} $$ |
@@ -129,6 +131,7 @@ Numbers without uncertainties are exact as defined.
 
 {: #Other-Units}
 
+| Quantity | Conversion |
 | ---------- | ---------------------------------------- |
 | Length | 1 light year ( ly ) $$ =9.46 \times 10^{15} \text{m} $$ |
 | |1 astronomical unit (au ) $$ =1.50 \times 10^{11} \text{m} $$ |

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+<title id="title">A positively charged conducting sphere</title>
+<desc id="desc">Excess positive charges spread uniformly over the surface of a conducting sphere. The field lines leave the surface at right angles and point radially outward, like the field of a point charge at the center. There is no field inside.</desc>
+<rect width="400" height="400" fill="#ffffff"/>
+<line x1="270" y1="200" x2="390" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<line x1="332" y1="200" x2="341" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="352,200 340,204.8 340,195.2" fill="#1f77c8"/>
+<line x1="249.5" y1="249.5" x2="334.35" y2="334.35" stroke="#1f77c8" stroke-width="2"/>
+<line x1="293.34" y1="293.34" x2="299.7" y2="299.7" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="307.48,307.48 295.6,302.39 302.39,295.6" fill="#1f77c8"/>
+<line x1="200" y1="270" x2="200" y2="390" stroke="#1f77c8" stroke-width="2"/>
+<line x1="200" y1="332" x2="200" y2="341" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="200,352 195.2,340 204.8,340" fill="#1f77c8"/>
+<line x1="150.5" y1="249.5" x2="65.65" y2="334.35" stroke="#1f77c8" stroke-width="2"/>
+<line x1="106.66" y1="293.34" x2="100.3" y2="299.7" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="92.52,307.48 97.61,295.6 104.4,302.39" fill="#1f77c8"/>
+<line x1="130" y1="200" x2="10" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<line x1="68" y1="200" x2="59" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="48,200 60,195.2 60,204.8" fill="#1f77c8"/>
+<line x1="150.5" y1="150.5" x2="65.65" y2="65.65" stroke="#1f77c8" stroke-width="2"/>
+<line x1="106.66" y1="106.66" x2="100.3" y2="100.3" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="92.52,92.52 104.4,97.61 97.61,104.4" fill="#1f77c8"/>
+<line x1="200" y1="130" x2="200" y2="10" stroke="#1f77c8" stroke-width="2"/>
+<line x1="200" y1="68" x2="200" y2="59" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="200,48 204.8,60 195.2,60" fill="#1f77c8"/>
+<line x1="249.5" y1="150.5" x2="334.35" y2="65.65" stroke="#1f77c8" stroke-width="2"/>
+<line x1="293.34" y1="106.66" x2="299.7" y2="100.3" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="307.48,92.52 302.39,104.4 295.6,97.61" fill="#1f77c8"/>
+<circle cx="200" cy="200" r="70" fill="#efe3c8" stroke="#a68e5a" stroke-width="1.5"/>
+<circle cx="176" cy="174" r="22" fill="#fbf6ea"/>
+<text x="248.04" y="227.6" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="219.9" y="255.74" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="180.1" y="255.74" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="151.96" y="227.6" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="151.96" y="187.8" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="180.1" y="159.66" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="219.9" y="159.66" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="248.04" y="187.8" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+</svg>

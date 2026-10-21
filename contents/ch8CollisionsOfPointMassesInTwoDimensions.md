@@ -45,7 +45,7 @@ masses, one particle initially at rest, and a convenient coordinate system, we
 still gain new insights into nature from the analysis of two-dimensional
 collisions.)
 
-![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_08_06_01.jpg 'A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.')
+![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_08_06_01.svg 'A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.')
 {: #Figure1}
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
@@ -216,7 +216,7 @@ physicist want to explore the system further.
 
 :::
 
-![A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero milligrams which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.](../resources/Figure_08_06_02.jpg 'A collision taking place in a dark room is explored in <a href="#example1">Example 1</a>. The incoming object \( m_1 \) is scattered by an initially stationary object. Only the stationary object&#x2019;s mass \( m_2 \) is known. By measuring the angle and speed at which \( m_1 \) emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object&#x2019;s velocity after the collision.')
+![A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero zero kilograms which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.](../resources/Figure_08_06_02.svg 'A collision taking place in a dark room is explored in <a href="#example1">Example 1</a>. The incoming object \( m_1 \) is scattered by an initially stationary object. Only the stationary object&#x2019;s mass \( m_2 \) is known. By measuring the angle and speed at which \( m_1 \) emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object&#x2019;s velocity after the collision.')
 {: #Figure2}
 
 ### Elastic Collisions of Two Objects with Equal Mass
@@ -314,8 +314,43 @@ parameter? Ignore any effects that might be due to rotation after the collision,
 and assume that the cube is much more massive than the small object.
 (b) Answer the same questions if the small object instead collides with a massive sphere.
 
-![A ball m one moves horizontally to the right with speed v one. It will collide with a stationary square labeled capital m two that is rotated at approximately forty-five degrees. The point of impact is on a face of the square a distance b above the center of the square. After the collision the ball is shown heading off at an angle theta one above the horizontal with a speed v one prime. The square remains essentially stationary (v 2 prime is approximately zero).](../resources/Figure_08_06_03.jpg 'A small object approaches a collision with a much more massive cube, after which its velocity has the direction \( \theta_1 \). The angles at which the small object can be scattered are determined by the shape of the object it strikes and the impact parameter \( b \). ')
+![A ball m one moves horizontally to the right with speed v one. It will collide with a stationary square labeled capital m two that is rotated thirty degrees, so the face it strikes slopes up at thirty degrees. The point of impact is on a face of the square a distance b above the center of the square. After the collision the ball is shown heading off at an angle theta one above the horizontal with a speed v one prime. The square remains essentially stationary (v 2 prime is approximately zero).](../resources/Figure_08_06_03.svg 'A small object approaches a collision with a much more massive cube, after which its velocity has the direction \( \theta_1 \). The angles at which the small object can be scattered are determined by the shape of the object it strikes and the impact parameter \( b \). ')
 {: #Figure3}
+
+:::
+
+::: solution
+
+**Strategy**
+
+When the struck object is much more massive than the small object, it stays essentially at rest, and the small object keeps its speed in an elastic collision. Like light reflecting from a mirror, the small object bounces off the surface with its velocity component perpendicular to the surface at the point of impact reversed. The outgoing direction therefore depends only on the orientation of the surface at the point of impact. Measure $$ \theta_{1} $$ counterclockwise from the incoming direction, $$ +x $$.
+
+**Solution**
+
+![Two panels. (a) A massive cube with its struck face at angle α to the incoming path: two incoming paths with different impact parameters b both reflect from the flat face and leave at the same angle θ1 = 2α; a lower path striking a different face bounces back down to the left. (b) A massive sphere of radius R: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120°, b = 0.87R leaves at 60°; θ1 = 180° − 2 arcsin(b/R).](../resources/concept_08_06_q01.svg)
+
+**(a) Cube.** Each face is flat, so the normal to the surface is the same at every point of a face. If the struck face makes an angle $$ \alpha $$ with the incoming path, the angle of reflection equals the angle of incidence, and the object leaves at
+
+<div class="equation">
+$$ \theta_{1} = 2\alpha $$
+</div>
+
+for every impact parameter $$ b $$ that hits that face. The cube in [Figure 3](#Figure3) is turned so that its struck face makes $$ \alpha = 30° $$ with the incoming path, so $$ \theta_{1} = 60° $$. The angle depends on $$ b $$ only through **which face** is hit. A value of $$ b $$ that hits a different face gives a different, but again constant, angle, so only a few discrete scattering directions are possible (one per face that can be struck), and $$ \theta_{1} $$ jumps suddenly when $$ b $$ crosses an edge.
+
+**(b) Sphere.** The normal to the surface points from the center of the sphere to the point of impact, and its direction changes continuously with $$ b $$. If $$ \phi $$ is the angle between the incoming path and the normal at the point of impact, $$ \sin\phi = b/R $$, and reflection gives
+
+<div class="equation">
+$$ \theta_{1} = 180° - 2\phi = 180° - 2\arcsin\left(\frac{b}{R}\right) $$
+</div>
+
+- $$ b = 0 $$ (head on): $$ \theta_{1} = 180° $$; it bounces straight back.
+- $$ b = R/2 $$: $$ \phi = 30° $$, so $$ \theta_{1} = 120° $$.
+- $$ b = 0.87R $$: $$ \phi = 60° $$, so $$ \theta_{1} = 60° $$.
+- $$ b \to R $$ (grazing): $$ \theta_{1} \to 0° $$.
+
+Every direction from $$ 0° $$ to $$ 180° $$ is possible, and $$ \theta_{1} $$ decreases smoothly as $$ b $$ increases. Scattering can reveal target properties, but this hard-sphere reflection model is not Rutherford’s atomic model: his alpha-particle analysis used a concentrated electric charge and inverse-square repulsion, giving hyperbolic trajectories rather than contact reflections.
+
+(a) Off the massive cube, the small object reflects from a flat face at $$ \theta_{1} = 2\alpha $$ ($$ 60° $$ for the cube in Figure 3), which does not depend on $$ b $$ except through which face is struck, so only a few discrete directions are possible; (b) off a massive sphere, $$ \theta_{1} = 180° - 2\arcsin(b/R) $$ varies continuously from $$ 180° $$ for a head-on hit to nearly $$ 0° $$ for a grazing one.
 
 :::
 
@@ -341,6 +376,12 @@ for elastic collisions of objects that have identical masses.)
 **Strategy**
 
 For elastic collisions between identical masses where one is initially at rest, the two objects move at 90° to each other after collision. We use this result plus conservation of momentum in both the x- and y-directions to find the velocities.
+
+**Sketch and coordinate system**
+
+![Axes with +x along the incoming puck’s velocity and +y perpendicular to it on the table, origin at the collision point. Before: puck 1 moves at v_1 = 6.00 m/s along +x toward puck 2 at rest. After: puck 1 moves at θ_1 = 30.0° above +x with unknown speed v′_1, and puck 2 moves at θ_2 = −60.0°, that is 60.0° below +x, with unknown speed v′_2.](../resources/sketch_08_06_p01.svg){: .sketch}
+
+Take $$ +x $$ along the incoming puck's velocity and $$ +y $$ perpendicular to it on the table. Puck 1 leaves at $$ \theta_{1} = +30.0^\circ $$ (above the $$ x $$-axis) and puck 2 at $$ \theta_{2} = -60.0^\circ $$ (below it), so their $$ y $$-momenta have opposite signs and cancel.
 
 **Solution**
 
@@ -502,6 +543,12 @@ when it is fired?
 
 Since the cannon can only recoil horizontally, we apply conservation of momentum in the horizontal direction only. The shell's velocity has horizontal and vertical components; only the horizontal component affects the cannon's recoil. For part (c), we consider what happens to the vertical component of momentum.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the shell’s horizontal motion and +y up. Before: cannon and shell are at rest. After: the shell (15.0 kg) leaves at 480 m/s, 20.0° above +x, with components v_x = v cos 20.0° along +x and v_y along +y; the cannon (3000 kg) recoils horizontally with unknown velocity along −x.](../resources/sketch_08_06_p03.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of the shell's horizontal motion and $$ +y $$ upward. The shell's components are $$ v_x = +v\cos{20.0^\circ} $$ and $$ v_y = +v\sin{20.0^\circ} $$. The cannon can move only along $$ x $$, so its recoil velocity comes out negative.
+
 **Solution**
 
 Part (a): First, find the horizontal component of the shell's velocity:
@@ -527,10 +574,10 @@ The cannon recoils at 2.26 m/s in the direction opposite to the horizontal compo
 Part (b): The kinetic energy of the cannon is:
 
 <div class="equation">
- $$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
+ $$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.255 \ms)^2 = 7.63 \times 10^{3} \J $$ (using the unrounded recoil speed, 2.255 m/s)
 </div>
 
-The kinetic energy of the cannon is approximately $$ 7.66 \times 10^{3} \J $$ (7.66 kJ).
+The kinetic energy of the cannon is approximately $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
 
 Part (c): The vertical component of the shell's momentum is:
 
@@ -542,7 +589,7 @@ Since the cannon cannot move vertically, this momentum is transferred to the Ear
 
 **Discussion**
 
-The cannon's recoil energy (7.66 kJ) must be absorbed by shock absorbers to prevent damage to the mounting. The shell's total kinetic energy is much larger:
+The cannon's recoil energy (7.63 kJ) must be absorbed by shock absorbers to prevent damage to the mounting. The shell's total kinetic energy is much larger:
 
 <div class="equation">
  $$ \KE_{\text{shell}} = \frac{1}{2}(15.0 \kg)(480 \ms)^2 = 1.73 \times 10^6 \J $$
@@ -553,7 +600,7 @@ Thus, the cannon receives only about 0.44% of the total energy—the rest goes t
 **Answer**
 
 (a) The cannon recoils at 2.26 m/s in the direction opposite to the shell's horizontal motion.
-(b) The kinetic energy of the recoiling cannon is $$ 7.66 \times 10^{3} \J $$ (7.66 kJ).
+(b) The kinetic energy of the recoiling cannon is $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
 (c) The vertical component of momentum is transferred to the Earth through the cannon's mounting, which must be strong enough to withstand the resulting forces.
 
 :::
@@ -582,6 +629,12 @@ the ball might be converted to linear kinetic energy in the collision.
 
 We apply conservation of momentum in both x and y directions to find the ball's final velocity components. Then we compare kinetic energies to determine if the collision is elastic. The pin is initially at rest, and the ball initially moves along the x-axis.
 
+**Sketch and coordinate system**
+
+![Axes with +x along the ball’s initial velocity and +y perpendicular to it on the lane, origin at the collision. Before: the ball (5.50 kg) moves at 9.00 m/s along +x; the pin (0.850 kg) is at rest. After: the pin moves at 15.0 m/s at 85.0° above +x; the ball’s final velocity (magnitude v′ and angle θ, expected below +x) is unknown.](../resources/sketch_08_06_p04.svg){: .sketch}
+
+Take $$ +x $$ along the ball's initial velocity and $$ +y $$ perpendicular to it, on the side toward which the pin scatters, so the pin moves at $$ +85.0^\circ $$. Conservation of $$ y $$-momentum then makes $$ v'_{\text{ball},y} $$ negative: the ball is deflected below the $$ x $$-axis.
+
 **Solution**
 
 Part (a): Apply conservation of x-momentum:
@@ -603,7 +656,7 @@ Substituting known values:
 Solving for $$ v'_{\text{ball},x} $$:
 
 <div class="equation">
- $$ v'_{\text{ball},x} = \frac{49.5 - 1.11}{5.50} \ms = 8.80 \ms $$
+ $$ v'_{\text{ball},x} = \frac{49.5\kg\cdot\ms - 1.11\kg\cdot\ms}{5.50\kg} = 8.80 \ms $$
 </div>
 
 Apply conservation of y-momentum (initially zero):
@@ -621,13 +674,13 @@ Solving for $$ v'_{\text{ball},y} $$:
 The final ball velocity magnitude is:
 
 <div class="equation">
- $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $$
+ $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80 \ms)^2 + (-2.31 \ms)^2} = \sqrt{77.4 \mmss + 5.34 \mmss} = 9.10 \ms $$
 </div>
 
 The direction is:
 
 <div class="equation">
- $$ \theta = \tan^{-1}\left(\frac{v'_{\text{ball},y}}{v'_{\text{ball},x}}\right) = \tan^{-1}\left(\frac{-2.31}{8.80}\right) = -14.7^\circ $$
+ $$ \theta = \tan^{-1}\left(\frac{v'_{\text{ball},y}}{v'_{\text{ball},x}}\right) = \tan^{-1}\left(\frac{-2.31 \ms}{8.80 \ms}\right) = -14.7^\circ $$
 </div>
 
 The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
@@ -635,17 +688,17 @@ The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
 Part (b): Calculate the initial kinetic energy:
 
 <div class="equation">
- $$ \KE_{i} = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 223 \J $$
+ $$ \KE_{i} = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 222.75 \J \approx 223 \J $$
 </div>
 
 Calculate the final kinetic energy:
 
 <div class="equation">
- $$ \KE_{f} = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.10\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
+ $$ \KE_{f} = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.096\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
 </div>
 
 <div class="equation">
- $$ \KE_{f} = 228 \J + 95.6 \J = 324 \J $$
+ $$ \KE_{f} = 227.5 \J + 95.6 \J = 323 \J $$
 </div>
 
 Since $$ \KE_{f} > \KE_{i} $$, the translational kinetic energy is not conserved, so the collision is not elastic in the point-mass (translational) sense. The linear kinetic energy actually increased!
@@ -653,7 +706,7 @@ Since $$ \KE_{f} > \KE_{i} $$, the translational kinetic energy is not conserved
 Part (c): The increase in linear kinetic energy is:
 
 <div class="equation">
- $$ \Delta \KE = \KE_{f} - \KE_{i} = 324 \J - 223 \J = 101 \J $$
+ $$ \Delta \KE = \KE_{f} - \KE_{i} = 323.2 \J - 222.75 \J = 100 \J $$
 </div>
 
 A possible source of this increase is the rotational kinetic energy of the spinning bowling ball: during the collision, friction between the ball and pin could convert some of the ball's spin energy into linear kinetic energy of both objects. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact, making strikes more likely.
@@ -665,8 +718,8 @@ In the point-mass sense this is a "superelastic" collision: translational kineti
 **Answer**
 
 (a) The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal (or at $$ -14.7^\circ $$).
-(b) The collision is not elastic in the translational sense, because the translational kinetic energy increased from 223 J to 324 J.
-(c) The 101 J increase in linear kinetic energy can come from the rotational kinetic energy of the spinning bowling ball, converted through friction during the collision.
+(b) The collision is not elastic in the translational sense, because the translational kinetic energy increased from 223 J to 323 J.
+(c) The 100 J increase in linear kinetic energy can come from the rotational kinetic energy of the spinning bowling ball, converted through friction during the collision.
 
 :::
 
@@ -698,6 +751,12 @@ magnitude and direction) of the gold nucleus.
 
 This is an elastic collision between a light helium nucleus and a much heavier gold nucleus (initially at rest). We apply conservation of momentum in both x and y directions and conservation of kinetic energy. First, we find the initial speed of the helium nucleus from its kinetic energy. Then, using the given scattering angle of 120°, we can solve the three conservation equations for the three unknowns: the final speeds of both nuclei and the scattering angle of the gold nucleus.
 
+**Sketch and coordinate system**
+
+![Axes with +x along the helium nucleus’s initial velocity and +y perpendicular to it, origin at the gold nucleus, initially at rest. After the elastic collision the helium nucleus moves at 120° from +x (above the axis) with unknown speed v′_He; the gold nucleus recoils at an unknown angle θ_Au, below +x, with unknown speed v′_Au.](../resources/sketch_08_06_p05.svg){: .sketch}
+
+Take $$ +x $$ along the helium nucleus's initial velocity and $$ +y $$ perpendicular to it, on the side toward which it scatters, so it leaves at $$ 120^\circ $$ from $$ +x $$. Conservation of $$ y $$-momentum then makes $$ \theta_{\text{Au}} $$ negative: the gold nucleus recoils below the $$ x $$-axis.
+
 **Solution**
 
 Part (a): First, find the initial speed of the helium nucleus from its kinetic energy:
@@ -707,7 +766,7 @@ Part (a): First, find the initial speed of the helium nucleus from its kinetic e
 </div>
 
 <div class="equation">
- $$ v_{\text{He}} = \sqrt{\frac{2\KE_{i}}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mss} = 1.55\times 10^{7}\ms $$
+ $$ v_{\text{He}} = \sqrt{\frac{2\KE_{i}}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mmss} = 1.55\times 10^{7}\ms $$
 </div>
 
 Apply conservation of momentum in the x-direction:
@@ -741,7 +800,7 @@ From the y-momentum equation:
 From the x-momentum equation:
 
 <div class="equation">
- $$ v'_{\text{Au}} \cos{\theta_{\text{Au}}} = \frac{m_{\text{He}}}{m_{\text{Au}}} \left(v_{\text{He}} - v'_{\text{He}} \cos{120^\circ}\right) = 0.0203\left(1.55\times 10^{7} + 0.500 v'_{\text{He}}\right) $$
+ $$ v'_{\text{Au}} \cos{\theta_{\text{Au}}} = \frac{m_{\text{He}}}{m_{\text{Au}}} \left(v_{\text{He}} - v'_{\text{He}} \cos{120^\circ}\right) = 0.0203\left(1.55\times 10^{7} \ms + 0.500 v'_{\text{He}}\right) $$
 </div>
 
 Solving this system of three equations with three unknowns is algebraically complex. The momentum equations can be squared and added to eliminate the angle $$ \theta_{\text{Au}} $$, then combined with the energy equation to solve for the unknowns. The detailed algebra involves solving a quadratic equation.
@@ -757,7 +816,7 @@ The helium nucleus, after scattering at 120°, has a final speed of approximatel
 Part (b): The final kinetic energy of the helium nucleus is:
 
 <div class="equation">
- $$ \KE'_{\text{He}} = 7.52\times 10^{-13}\J $$
+ $$ \KE'_{\text{He}} = 7.53\times 10^{-13}\J $$ (from the unrounded speed $$1.501 \times 10^{7}$$ m/s)
 </div>
 
 This represents approximately 94% of the initial energy of $$ 8.00\times 10^{-13}\J $$. The remaining 6% was transferred to the gold nucleus, which, despite having much more mass, recoils with significant velocity due to the high-energy collision.
@@ -769,7 +828,7 @@ This problem demonstrates Rutherford scattering, which was crucial in discoverin
 **Answer**
 
 (a) The gold nucleus has a final velocity of $$ 5.36\times 10^{5} \ms $$ at $$ -29.5^\circ $$ (below the horizontal). The helium nucleus has a final speed of approximately $$ 1.50\times 10^{7} \ms $$.
-(b) The final kinetic energy of the helium nucleus is $$ 7.52\times 10^{-13} \J $$, which is approximately 94% of its initial energy.
+(b) The final kinetic energy of the helium nucleus is $$ 7.53\times 10^{-13} \J $$, which is approximately 94.1% of its initial energy.
 
 :::
 
@@ -798,6 +857,12 @@ starts at rest.
 **Strategy**
 
 Define coordinates: let +x be east and +y be north. Car 1 moves south (-y direction), Car 2 moves west (-x direction). Since the cars stick together, this is a perfectly inelastic collision. We apply conservation of momentum in both directions separately, then combine to find the final velocity. Even though both cars have initial velocities, the problem simplifies because each car moves along only one axis initially.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the intersection. Car 1 (1200 kg) approaches moving due south, v_1y = −8.00 m/s. Car 2 (850 kg) approaches moving due west, v_2x = −17.0 m/s. After they stick together, they move with unknown velocity v_f at an unknown angle θ south of west.](../resources/sketch_08_06_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the intersection. Car 1 moves south, so $$ v_{1y} = -8.00\ms $$; car 2 moves west, so $$ v_{2x} = -17.0\ms $$. Both final components therefore come out negative, so the wreck moves south of west.
 
 **Solution**
 
@@ -838,13 +903,13 @@ Apply conservation of y-momentum:
 The final velocity magnitude is:
 
 <div class="equation">
- $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
+ $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05 \ms)^2 + (-4.68 \ms)^2} = \sqrt{49.7 \mmss + 21.9 \mmss} = 8.46 \ms $$
 </div>
 
 The direction (angle from west toward south):
 
 <div class="equation">
- $$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
+ $$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68 \ms}{7.05 \ms}\right) = 33.6^\circ $$
 </div>
 
 The final velocity is 8.46 m/s in a direction $$ 33.6^\circ $$ south of west.
@@ -875,7 +940,7 @@ Approximately 87.8 kJ of kinetic energy is lost in the collision.
 
 **Discussion**
 
-Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 13 m/s (47 km/h). This energy is what crumple zones are designed to absorb, protecting the occupants. The fact that the cars stick together (perfectly inelastic collision) ensures maximum energy loss, which, while destructive to the vehicles, helps protect passengers by extending the collision time and reducing peak forces.
+Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 13 m/s (47 km/h). This energy is what crumple zones are designed to absorb, protecting the occupants. For these incoming momenta, sticking together (a perfectly inelastic collision) produces the largest possible kinetic-energy loss. Whether it also lengthens the collision or lowers the peak force depends on how the cars deform, which this momentum calculation does not determine.
 
 **Answer**
 
@@ -986,6 +1051,12 @@ away?
 **Strategy**
 
 First, use conservation of momentum to find the player's recoil velocity. Then calculate the time for the puck to reach the goal, and use this time to find how far the player moves.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the puck moves, toward the goal 15.0 m away. Before: player and puck are at rest. After: the puck (0.150 kg) moves at +45.0 m/s and the player (90.0 kg) recoils with unknown velocity along −x; the distance he recoils while the puck travels 15.0 m is unknown.](../resources/sketch_08_06_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction the puck moves, toward the goal, so $$ v_{\text{puck}} = +45.0\ms $$. The total momentum stays zero, so the player's velocity is negative: he recoils along $$ -x $$, away from the goal.
 
 **Solution**
 

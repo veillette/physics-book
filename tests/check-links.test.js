@@ -203,9 +203,9 @@ External link: [Wikipedia](https://en.wikipedia.org)
 
   describe('checkInternalLink — relative paths', () => {
     it('should resolve bare relative paths against the linking file', async () => {
-      const link = { text: 'CSV', url: 'ch01-10-exercise-coverage.csv', type: 'markdown', line: 1 };
+      const link = { text: 'Simulations', url: 'simulations.md', type: 'markdown', line: 1 };
       const before = checker.stats.brokenLinks;
-      await checker.checkInternalLink(link, 'doc/ch01-10-exercise-review.md');
+      await checker.checkInternalLink(link, 'doc/SEARCH.md');
       expect(checker.stats.brokenLinks).toBe(before);
     });
   });

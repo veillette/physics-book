@@ -53,7 +53,7 @@ batteries powering the camera begin to wear out, their internal resistance
 rises, reducing the current and lengthening the time it takes to get ready for
 the next flash.
 
-![Part a shows a circuit with a cell of e m f script E connected in series with a resistor R, a capacitor C, and a switch to close the circuit. The current is shown flowing in a clockwise direction. The capacitor plates are shown to have a charge positive q and negative q respectively. Part b shows a graph of the variation of voltage of the capacitor with time. The voltage is plotted along the vertical axis and the time is along the horizontal axis. The graph shows a smooth upward rising curve which approaches a maximum and flattens out at maximum voltage equal to e m f script E over time.](../resources/Figure_21_06_01.jpg '(a) An ( RC ) circuit with an initially uncharged capacitor. Current flows in the direction shown (opposite of electron flow) as soon as the switch is closed. Mutual repulsion of like charges in the capacitor progressively slows the flow as the capacitor is charged, stopping the current when the capacitor is fully charged and ( Q=C⋅emf ) . (b) A graph of voltage across the capacitor versus time, with the switch closing at time ( t=0 ) . (Note that in the two parts of the figure, the capital script E stands for emf, q  stands for the charge stored on the capacitor, and ( \\tau ) is the RC  time constant.)')
+![(a) A source of emf, a resistor R, a capacitor C and a switch in series; when the switch closes, current I flows clockwise and the capacitor plates acquire charges +q and −q. (b) The capacitor voltage V rises from 0 toward the emf, reaching 0.632 emf at one time constant τ = RC and coming closer at 2τ, 3τ and 4τ.](../resources/Figure_21_06_01.svg '(a) An ( RC ) circuit with an initially uncharged capacitor. Current flows in the direction shown (opposite of electron flow) as soon as the switch is closed. Mutual repulsion of like charges in the capacitor progressively slows the flow as the capacitor is charged, stopping the current when the capacitor is fully charged and ( Q=C⋅emf ) . (b) A graph of voltage across the capacitor versus time, with the switch closing at time ( t=0 ) . In both parts, ( q ) is the charge stored on the capacitor and ( \\tau ) is the RC time constant.')
 {: #Figure1}
 
 Voltage on the capacitor is initially zero and rises rapidly at first, since the
@@ -111,7 +111,7 @@ is found to be
  $$V=V{}_{0}  {e}^{-t/\text{RC}}\text{(discharging).} $$
 </div>
 
-![Part a shows a circuit with a capacitor C connected in series with a resistor R and a switch to close the circuit. The current is shown flowing in a counterclockwise direction. The capacitor plates are shown to have a charge positive q and negative q respectively. Part b shows a graph of the variation of voltage across the capacitor with time. The voltage is plotted along the vertical axis and the time is along the horizontal axis. The graph shows a smooth downward falling curve which approaches a minimum and flattens out close to zero over time.](../resources/Figure_21_06_02.jpg '(a) Closing the switch discharges the capacitor ( C ) through the resistor ( R ) . Mutual repulsion of like charges on each plate drives the current. (b) A graph of voltage across the capacitor versus time, with ( V = V_0 ) at ( t=0 ). The voltage decreases exponentially, falling a fixed fraction of the way to zero in each subsequent time constant ( \\tau ) .')
+![(a) A charged capacitor C, a resistor R and a switch in series; when the switch closes, current I flows counterclockwise as the capacitor discharges. (b) The capacitor voltage V falls from V0, reaching 0.368 V0 at one time constant τ = RC and approaching zero at 2τ, 3τ and 4τ.](../resources/Figure_21_06_02.svg '(a) Closing the switch discharges the capacitor ( C ) through the resistor ( R ) . Mutual repulsion of like charges on each plate drives the current. (b) A graph of voltage across the capacitor versus time, with ( V = V_0 ) at ( t=0 ). The voltage decreases exponentially, falling a fixed fraction of the way to zero in each subsequent time constant ( \\tau ) .')
 {: #Figure2}
 
 The graph in [[Figure 2]](#Figure2)(b) is an example of this exponential decay.
@@ -229,7 +229,7 @@ signals to the heart when needed with the appropriate time constant. Pacemakers
 have sensors that detect body motion and breathing to increase the heart rate
 during exercise to meet the body’s increased needs for blood and oxygen.
 
-![Part a shows a charging circuit containing cell of e m f script E connected to a resistor R and capacitor C and a closed switch to complete the circuit. The current is shown to flow clockwise through this arm of the circuit alone. A bulb of high resistance R is connected across the capacitor. Part b shows a discharging circuit containing a cell of e m f script E connected to a resistor R and capacitor C and a closed switch to complete the circuit. A bulb of low resistance R is connected across the capacitor. Current flows clockwise through the arm containing the capacitor and the low resistance bulb. Part c is a graph showing variation of voltage verses time for the bulb in above circuit. The voltage is plotted along the vertical axis and the time is plotted along the horizontal axis. The curve has a smooth rise from the origin, reaches a plateau at threshold value of voltage where it begins to drop and rise as a small sawtooth wave with maxima lying along the threshold line.](../resources/Figure_21_06_04.jpg '(a) The lamp in this ( RC ) circuit ordinarily has a very high resistance, so that the battery charges the capacitor as if the lamp were not there. When the voltage reaches a threshold value, a current flows through the lamp that dramatically reduces its resistance, and the capacitor discharges through the lamp as if the battery and charging resistor were not there. Once discharged, the process starts again, with the flash period determined by the ( RC ) constant ( \\tau ). (b) A graph of voltage versus time for this circuit.')
+![(a) Left, charging: the lamp has a very high resistance, so current from the source flows through R and charges C. Right, discharging: once the capacitor voltage reaches the lamp threshold, the lamp’s resistance drops and the capacitor discharges through it, lighting it. (b) The capacitor voltage rises along a charging curve to the bulb threshold, then repeatedly drops quickly as the lamp flashes and recharges to the threshold, giving a sawtooth.](../resources/Figure_21_06_04.svg '(a) The lamp in this ( RC ) circuit ordinarily has a very high resistance, so that the battery charges the capacitor as if the lamp were not there. When the voltage reaches a threshold value, a current flows through the lamp that dramatically reduces its resistance, and the capacitor discharges through the lamp as if the battery and charging resistor were not there. Once discharged, the process starts again, with the flash period determined by the ( RC ) constant ( \\tau ). (b) A graph of voltage versus time for this circuit.')
 {: #Figure4}
 
 ::: example
@@ -365,6 +365,24 @@ Regarding the units involved in the relationship  $$\tau =\text{RC} $$ ,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Write each unit in terms of base definitions: resistance $$ R = V/I $$ gives $$ \Omega = \text{V/A} $$; capacitance $$ C = Q/V $$ gives $$ \text{F} = \text{C/V} $$; and current $$ I = Q/t $$ gives $$ \text{A} = \text{C/s} $$.
+
+**Solution**
+
+<div class="equation">
+$$ \Omega \cdot \text{F} = \left( \frac{\text{V}}{\text{A}} \right)\left( \frac{\text{C}}{\text{V}} \right) = \frac{\text{C}}{\text{A}} = \frac{\text{C}}{\text{C/s}} = \text{s} $$
+</div>
+
+For example, $$ R = 1.00 \text{ k}\Omega $$ and $$ C = 1.00 \ \mu\text{F} $$ give $$ \tau = (1.00 \times 10^{3} \ \Omega)(1.00 \times 10^{-6} \text{ F}) = 1.00 \times 10^{-3} \s $$.
+
+The units of resistance times capacitance are $$ \Omega \cdot \text{F} = (\text{V/A})(\text{C/V}) = \text{C/A} = \text{s} $$, which is time, as required for $$ \tau = RC $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -375,6 +393,32 @@ The  $$\text{RC} $$
  time constant in heart defibrillation is crucial to limiting the time the current flows. If the capacitance in the defibrillation unit is fixed, how would you manipulate resistance in the circuit to adjust the  $$\text{RC} $$
  constant  $$\tau  $$ ?
  Would an adjustment of the applied voltage also be needed to ensure that the current delivered has an appropriate value?
+
+:::
+
+::: solution
+
+**Strategy**
+
+With $$ C $$ fixed, $$ \tau = RC $$ can be changed only through $$ R $$. The initial current when the charged capacitor discharges through the patient is $$ I_0 = V_0/R $$, where $$ R $$ includes the patient and any added resistance. Use a defibrillator with $$ C = 32.0 \ \mu\text{F} $$ charged to $$ 5.00 \text{ kV} $$, and a total resistance of $$ 50.0 \ \Omega $$.
+
+**Solution**
+
+Initially,
+
+<div class="equation">
+$$ \tau = RC = (50.0 \ \Omega)(32.0 \times 10^{-6} \text{ F}) = 1.60 \times 10^{-3} \s, \qquad I_0 = \frac{V_0}{R} = \frac{5000 \text{ V}}{50.0 \ \Omega} = 100 \text{ A} $$
+</div>
+
+To double the time constant, add series resistance to make $$ R = 100 \ \Omega $$: then $$ \tau = (100 \ \Omega)(32.0 \times 10^{-6} \text{ F}) = 3.20 \times 10^{-3} \s $$. But the initial current falls to $$ (5000 \text{ V})/(100 \ \Omega) = 50.0 \text{ A} $$. To restore $$ 100 \text{ A} $$, the voltage must be raised to
+
+<div class="equation">
+$$ V_0 = I_0R = (100 \text{ A})(100 \ \Omega) = 1.00 \times 10^{4} \text{ V} $$
+</div>
+
+Likewise, decreasing $$ R $$ shortens $$ \tau $$ but raises the current unless the voltage is lowered.
+
+To adjust $$ \tau $$ with fixed $$ C $$, you would change the resistance in the circuit, increasing $$ R $$ for a longer time constant and decreasing it for a shorter one; yes, the voltage must also be adjusted, because the current $$ V/R $$ changes with $$ R $$ (for example, doubling $$ R $$ from $$ 50.0 \ \Omega $$ to $$ 100 \ \Omega $$ requires doubling the voltage from $$ 5.00 \text{ kV} $$ to $$ 10.0 \text{ kV} $$ to keep $$ 100 \text{ A} $$).
 
 :::
 
@@ -391,6 +435,32 @@ When making an ECG measurement, it is important to measure voltage variations ov
 
 :::
 
+::: solution
+
+**Strategy**
+
+The circuit cannot follow changes faster than about one time constant $$ \tau = RC $$. Make $$ \tau $$ much shorter than the fastest features of the ECG, which change over a few milliseconds, by choosing small values of $$ R $$, $$ C $$, or both.
+
+**Solution**
+
+Suppose a circuit has $$ R = 100 \text{ k}\Omega $$ and $$ C = 1.00 \ \mu\text{F} $$:
+
+<div class="equation">
+$$ \tau = RC = (1.00 \times 10^{5} \ \Omega)(1.00 \times 10^{-6} \text{ F}) = 0.100 \s $$
+</div>
+
+This is far too slow; it would smear out the $$ 0.08\text{-s} $$ QRS spike. Reducing both by a factor of 10, to $$ R = 10.0 \text{ k}\Omega $$ and $$ C = 0.100 \ \mu\text{F} $$, gives
+
+<div class="equation">
+$$ \tau = (1.00 \times 10^{4} \ \Omega)(1.00 \times 10^{-7} \text{ F}) = 1.00 \times 10^{-3} \s $$
+</div>
+
+which is short enough to follow changes of a few milliseconds.
+
+You would make $$ R $$ and $$ C $$ small, so that the time constant $$ RC $$ is much shorter than the time variations to be measured (for example, $$ 10.0 \text{ k}\Omega $$ and $$ 0.100 \ \mu\text{F} $$ give $$ \tau = 1.00 \text{ ms} $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -404,6 +474,29 @@ Draw two graphs of charge versus time on a capacitor. Draw one for charging an i
 
 :::
 
+::: solution
+
+**Strategy**
+
+Charging from zero follows $$ q = Q(1 - e^{-t/RC}) $$, and discharging follows $$ q = Q_0e^{-t/RC} $$. Evaluate each at $$ t = \tau $$, $$ 2\tau $$, and $$ 3\tau $$, using $$ e^{-1} = 0.368 $$, $$ e^{-2} = 0.135 $$, and $$ e^{-3} = 0.050 $$.
+
+**Solution**
+
+| $$ t $$ | Charging $$ q/Q $$ | Discharging $$ q/Q_0 $$ |
+| --- | --- | --- |
+| $$ 0 $$ | $$ 0 $$ | $$ 1.000 $$ |
+| $$ \tau $$ | $$ 1 - 0.368 = 0.632 $$ | $$ 0.368 $$ |
+| $$ 2\tau $$ | $$ 1 - 0.135 = 0.865 $$ | $$ 0.135 $$ |
+| $$ 3\tau $$ | $$ 1 - 0.050 = 0.950 $$ | $$ 0.050 $$ |
+
+![Two graphs of charge versus time. Left, charging: the charge rises from zero, reaching 0.632 Q at one time constant and 0.865 Q at two, and approaching Q along a horizontal asymptote. Right, discharging: the charge falls from Q zero, to 0.368 Q zero at one time constant and 0.135 Q zero at two, and approaches zero.](../resources/concept_21_06_q04.svg)
+
+For example, with $$ R = 10.0 \text{ k}\Omega $$, $$ C = 100 \ \mu\text{F} $$, and a $$ 12.0\text{-V} $$ emf, $$ \tau = (1.00 \times 10^{4} \ \Omega)(1.00 \times 10^{-4} \text{ F}) = 1.00 \s $$ and $$ Q = C\,\text{emf} = (1.00 \times 10^{-4} \text{ F})(12.0 \text{ V}) = 1.20 \text{ mC} $$, so the charge is $$ 0.758 \text{ mC} $$ after $$ 1.00 \s $$ and $$ 1.04 \text{ mC} $$ after $$ 2.00 \s $$.
+
+The charging graph rises from zero, steeply at first, through $$ 0.632Q $$ at $$ t = \tau $$ and $$ 0.865Q $$ at $$ t = 2\tau $$, and levels off toward $$ Q $$; the discharging graph falls from $$ Q_0 $$, steeply at first, to $$ 0.368Q_0 $$ at $$ t = \tau $$ and $$ 0.135Q_0 $$ at $$ t = 2\tau $$, and levels off toward zero.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -414,6 +507,26 @@ When charging a capacitor, as discussed in conjunction with [[Figure 1]](#Figure
 
 :::
 
+::: solution
+
+**Strategy**
+
+The capacitor voltage while charging is $$ V = \text{emf}(1 - e^{-t/RC}) $$. Find when $$ V = \text{emf} $$, and how close it gets after a few time constants. Use $$ \tau = RC = 1.00 \s $$ and $$ \text{emf} = 12.0 \text{ V} $$.
+
+**Solution**
+
+$$ V = \text{emf} $$ would require $$ e^{-t/RC} = 0 $$, which happens only as $$ t \to \infty $$. In practice the approach is fast:
+
+<div class="equation">
+$$ V(5\tau) = (12.0 \text{ V})(1 - e^{-5}) = (12.0 \text{ V})(0.9933) = 11.92 \text{ V} $$
+</div>
+
+After $$ 5\tau = 5.00 \s $$ the voltage is within $$ 0.08 \text{ V} $$, or 0.7%, of the emf, and after $$ 10\tau $$ it is within 0.005%.
+
+In principle the capacitor voltage takes an infinite time to reach the emf, but this is not a problem, because after a few time constants it is as close as any measurement can tell (99.3% of the emf, or $$ 11.92 \text{ V} $$ of $$ 12.0 \text{ V} $$, after $$ 5\tau $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -421,6 +534,32 @@ When charging a capacitor, as discussed in conjunction with [[Figure 1]](#Figure
 ::: problem
 
 When discharging a capacitor, as discussed in conjunction with [[Figure 2]](#Figure2), how long does it take for the voltage on the capacitor to reach zero? Is this a problem?
+
+:::
+
+::: solution
+
+**Strategy**
+
+While discharging, $$ V = V_0e^{-t/RC} $$. Find when $$ V = 0 $$ and how small $$ V $$ is after a few time constants. Consider both a low-voltage circuit ($$ V_0 = 12.0 \text{ V} $$) and a high-voltage one ($$ V_0 = 10.0 \text{ kV} $$).
+
+**Solution**
+
+$$ V = 0 $$ would require $$ e^{-t/RC} = 0 $$, so in principle it takes an infinite time. After $$ 5\tau $$,
+
+<div class="equation">
+$$ V(5\tau) = V_0e^{-5} = 0.00674\,V_0 $$
+</div>
+
+For $$ V_0 = 12.0 \text{ V} $$ this is $$ 0.081 \text{ V} $$, which is negligible. For $$ V_0 = 10.0 \text{ kV} $$ it is
+
+<div class="equation">
+$$ V(5\tau) = (1.00 \times 10^{4} \text{ V})(0.00674) = 67.4 \text{ V} $$
+</div>
+
+which can still give a dangerous shock; it takes about $$ \ln(10\,000\text{ V}/10 \text{ V}) = 6.9 $$ time constants to fall below $$ 10 \text{ V} $$.
+
+In principle the voltage never reaches exactly zero, which is usually not a problem because after a few time constants it is negligible ($$ 0.7\% $$ of $$ V_0 $$ after $$ 5\tau $$); it can be a problem with high-voltage capacitors, where even a small fraction (about $$ 67 \text{ V} $$ of an initial $$ 10 \text{ kV} $$ after $$ 5\tau $$) can still be a shock hazard, so such capacitors must be allowed to discharge for long enough or shorted deliberately.
 
 :::
 
@@ -435,6 +574,28 @@ Referring to [[Figure 1]](#Figure1), draw a graph of potential difference across
 
 :::
 
+::: solution
+
+**Strategy**
+
+By the loop rule, $$ \text{emf} = V_C + V_R $$ at every instant. Since $$ V_C = \text{emf}(1 - e^{-t/RC}) $$, the resistor's voltage is $$ V_R = \text{emf}\,e^{-t/RC} $$, and the current is $$ I = V_R/R = (\text{emf}/R)e^{-t/RC} $$. Use $$ \text{emf} = 12.0 \text{ V} $$ and $$ R = 10.0 \text{ k}\Omega $$.
+
+**Solution**
+
+![Two graphs for the charging circuit, both decaying exponentials. Left: the potential difference across the resistor falls from the emf at time zero to 0.368 times the emf at one time constant and 0.135 times the emf at two. Right: the current falls from emf over R at time zero to 0.368 and 0.135 of that value at one and two time constants.](../resources/concept_21_06_q07.svg)
+
+At $$ t = 0 $$ the uncharged capacitor has no voltage, so the whole emf is across the resistor: $$ V_R = 12.0 \text{ V} $$ and
+
+<div class="equation">
+$$ I_0 = \frac{\text{emf}}{R} = \frac{12.0 \text{ V}}{1.00 \times 10^{4} \ \Omega} = 1.20 \times 10^{-3} \text{ A} $$
+</div>
+
+At $$ t = \tau $$: $$ V_R = (12.0 \text{ V})(0.368) = 4.42 \text{ V} $$ and $$ I = (1.20 \text{ mA})(0.368) = 0.442 \text{ mA} $$. At $$ t = 2\tau $$: $$ V_R = (12.0 \text{ V})(0.135) = 1.62 \text{ V} $$ and $$ I = 0.162 \text{ mA} $$.
+
+Both the potential difference across the resistor and the current start at their maximum values ($$ \text{emf} $$ and $$ \text{emf}/R $$, or $$ 12.0 \text{ V} $$ and $$ 1.20 \text{ mA} $$ here) and decay exponentially toward zero, falling to 0.368 of their initial values at $$ t = \tau $$ and 0.135 at $$ t = 2\tau $$; the two graphs have the same shape because $$ I = V_R/R $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -442,6 +603,32 @@ Referring to [[Figure 1]](#Figure1), draw a graph of potential difference across
 ::: problem
 
 A long, inexpensive extension cord is connected from inside the house to a refrigerator outside. The refrigerator doesn’t run as it should. What might be the problem?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The long cord is in series with the refrigerator, and its two conductors have a total resistance $$ R_{\text{cord}} $$. The voltage drop in the cord, $$ IR_{\text{cord}} $$, reduces the voltage reaching the refrigerator. Take a thin cord whose two conductors have a total resistance of $$ 0.600 \ \Omega $$, a running current of $$ 6.00 \text{ A} $$, and a motor starting current of $$ 30.0 \text{ A} $$ from a $$ 120\text{-V} $$ outlet.
+
+**Solution**
+
+While running:
+
+<div class="equation">
+$$ V_{\text{fridge}} = 120 \text{ V} - IR_{\text{cord}} = 120 \text{ V} - (6.00 \text{ A})(0.600 \ \Omega) = 116 \text{ V} $$
+</div>
+
+At start-up, when the motor draws a much larger current:
+
+<div class="equation">
+$$ V_{\text{fridge}} = 120 \text{ V} - (30.0 \text{ A})(0.600 \ \Omega) = 102 \text{ V} $$
+</div>
+
+The motor may not get enough voltage to start, may stall, or may overheat. The cord also dissipates $$ I^2R_{\text{cord}} = (30.0 \text{ A})^2(0.600 \ \Omega) = 540 \text{ W} $$ during start-up, which heats it.
+
+The problem is probably that the long, thin extension cord has enough resistance that the voltage drop across it, especially during the large starting current of the motor, leaves too little voltage for the refrigerator (about $$ 102 \text{ V} $$ instead of $$ 120 \text{ V} $$ in this example).
 
 :::
 
@@ -457,6 +644,30 @@ In [[Figure 4]](#Figure4), does the graph indicate the time constant is shorter 
 
 :::
 
+::: solution
+
+**Strategy**
+
+In [[Figure 4]](#Figure4), the capacitor charges through $$ R $$ (the bulb's resistance is high while it is off) and discharges through the bulb once it lights. Compare the two time constants $$ RC $$ and $$ R_{\text{bulb}}C $$. Use $$ C = 10.0 \ \mu\text{F} $$, $$ R = 1.00 \text{ M}\Omega $$, and a lit-bulb resistance of $$ 100 \ \Omega $$.
+
+**Solution**
+
+Yes, the graph shows the voltage rising slowly and dropping almost vertically, so discharging is much faster than charging. Yes, an ionized gas has low resistance, because it contains many free ions and electrons to carry current. With the example values:
+
+<div class="equation">
+$$ \tau_{\text{charge}} = RC = (1.00 \times 10^{6} \ \Omega)(1.00 \times 10^{-5} \text{ F}) = 10.0 \s $$
+</div>
+
+<div class="equation">
+$$ \tau_{\text{discharge}} = R_{\text{bulb}}C = (100 \ \Omega)(1.00 \times 10^{-5} \text{ F}) = 1.00 \times 10^{-3} \s $$
+</div>
+
+The time between flashes is the time to recharge from the extinction voltage back to the threshold, which is proportional to $$ RC $$. Doubling $$ R $$ to $$ 2.00 \text{ M}\Omega $$ doubles it. The discharge goes through the bulb, not through $$ R $$, so it is not affected.
+
+Yes, the graph shows a much shorter time constant for discharging (about $$ 1 \text{ ms} $$ compared with $$ 10 \s $$ in this example), consistent with the low resistance of an ionized gas; to get a longer time between flashes you would increase $$ R $$, and this does not affect the discharge time, which depends only on the bulb's resistance and $$ C $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -465,8 +676,36 @@ In [[Figure 4]](#Figure4), does the graph indicate the time constant is shorter 
 
 An electronic apparatus may have large capacitors at high voltage in the power supply section, presenting a shock hazard even when the apparatus is switched off. A “bleeder resistor” is therefore placed across such a capacitor, as shown schematically in [[Figure 5]](#Figure5), to bleed the charge from it after the apparatus is off. Why must the bleeder resistance be much greater than the effective resistance of the rest of the circuit? How does this affect the time constant for discharging the capacitor?
 
-![An electrical circuit with a capacitor has an extra resistor R sub b l, called a bleeder, installed in parallel with the capacitor.](../resources/Figure_21_06_05.jpg 'A bleeder resistor ( R_\\text{bl} ) discharges the capacitor in this electronic device once it is switched off.')
+![An electronic circuit, drawn as a box, with a capacitor C and a bleeder resistor R_bl connected in parallel across it.](../resources/Figure_21_06_05.svg 'A bleeder resistor ( R_\\text{bl} ) discharges the capacitor in this electronic device once it is switched off.')
 {: #Figure5}
+
+:::
+
+::: solution
+
+**Strategy**
+
+The bleeder resistor is in parallel with the capacitor, so it is connected across the supply voltage the whole time the apparatus is on. Find the current and power it wastes during operation, and the discharge time constant $$ R_{\text{bl}}C $$ after the apparatus is off. Use $$ C = 100 \ \mu\text{F} $$ at $$ 400 \text{ V} $$, a load with effective resistance $$ 2.00 \text{ k}\Omega $$, and $$ R_{\text{bl}} = 200 \text{ k}\Omega $$.
+
+**Solution**
+
+During operation, the bleeder draws
+
+<div class="equation">
+$$ I_{\text{bl}} = \frac{V}{R_{\text{bl}}} = \frac{400 \text{ V}}{2.00 \times 10^{5} \ \Omega} = 2.00 \times 10^{-3} \text{ A}, \qquad P_{\text{bl}} = \frac{V^2}{R_{\text{bl}}} = \frac{(400 \text{ V})^2}{2.00 \times 10^{5} \ \Omega} = 0.800 \text{ W} $$
+</div>
+
+compared with $$ (400 \text{ V})/(2.00 \text{ k}\Omega) = 0.200 \text{ A} $$ and $$ 80.0 \text{ W} $$ in the circuit itself. Because $$ R_{\text{bl}} \gg R_{\text{circuit}} $$, the bleeder takes only 1% of the current and does not affect the circuit's operation. A bleeder of $$ 2.00 \text{ k}\Omega $$ would waste as much power as the circuit uses.
+
+When the apparatus is off, the capacitor discharges through the bleeder:
+
+<div class="equation">
+$$ \tau = R_{\text{bl}}C = (2.00 \times 10^{5} \ \Omega)(1.00 \times 10^{-4} \text{ F}) = 20.0 \s $$
+</div>
+
+After about $$ 5\tau = 100 \s $$, the voltage has fallen to $$ (400 \text{ V})e^{-5} = 2.7 \text{ V} $$. A large bleeder resistance thus gives a long discharge time constant, a compromise between wasted power and how long the capacitor stays hazardous.
+
+The bleeder resistance must be much greater than the effective resistance of the rest of the circuit so that it draws only a small fraction of the current and wastes little power while the apparatus is on (about $$ 0.8 \text{ W} $$ compared with $$ 80 \text{ W} $$ in this example); as a result, the time constant $$ R_{\text{bl}}C $$ for discharging the capacitor is relatively long ($$ 20 \s $$ here), so it takes a minute or two to bleed the charge away.
 
 :::
 
@@ -571,26 +810,26 @@ Find the two possible capacitances (series and parallel) and the two possible re
 **Solution**
 
 **Capacitors:**
-- Parallel: $$C_p = C_1 + C_2 = 2.00 + 7.50 = 9.50 \text{ μF}$$
-- Series: $$\frac{1}{C_s} = \frac{1}{2.00} + \frac{1}{7.50} = 0.500 + 0.133 = 0.633 \text{ μF}^{-1}$$
+- Parallel: $$C_p = C_1 + C_2 = 2.00 \text{ μF} + 7.50 \text{ μF} = 9.50 \text{ μF}$$
+- Series: $$\frac{1}{C_s} = \frac{1}{2.00 \text{ μF}} + \frac{1}{7.50 \text{ μF}} = 0.500 \text{ μF}^{-1} + 0.133 \text{ μF}^{-1} = 0.633 \text{ μF}^{-1}$$
 
   $$C_s = 1.58 \text{ μF}$$
 
 **Resistors:**
-- Series: $$R_s = R_1 + R_2 = 25.0 + 100 = 125 \text{ kΩ}$$
-- Parallel: $$\frac{1}{R_p} = \frac{1}{25.0} + \frac{1}{100} = 0.0400 + 0.0100 = 0.0500 \text{ kΩ}^{-1}$$
+- Series: $$R_s = R_1 + R_2 = 25.0 \text{ kΩ} + 100 \text{ kΩ} = 125 \text{ kΩ}$$
+- Parallel: $$\frac{1}{R_p} = \frac{1}{25.0 \text{ kΩ}} + \frac{1}{100 \text{ kΩ}} = 0.0400 \text{ kΩ}^{-1} + 0.0100 \text{ kΩ}^{-1} = 0.0500 \text{ kΩ}^{-1}$$
 
   $$R_p = 20.0 \text{ kΩ}$$
 
 **Four time constants:**
 
-1. $$\tau_{1} = R_s C_p = (125 \times 10^{3})(9.50 \times 10^{-6}) = 1.19 \text{ s}$$
+1. $$\tau_{1} = R_s C_p = (125 \times 10^{3} \text{ Ω})(9.50 \times 10^{-6} \text{ F}) = 1.19 \text{ s}$$
 
-2. $$\tau_{2} = R_s C_s = (125 \times 10^{3})(1.58 \times 10^{-6}) = 0.198 \text{ s}$$
+2. $$\tau_{2} = R_s C_s = (125 \times 10^{3} \text{ Ω})(1.58 \times 10^{-6} \text{ F}) = 0.198 \text{ s}$$
 
-3. $$\tau_{3} = R_p C_p = (20.0 \times 10^{3})(9.50 \times 10^{-6}) = 0.190 \text{ s}$$
+3. $$\tau_{3} = R_p C_p = (20.0 \times 10^{3} \text{ Ω})(9.50 \times 10^{-6} \text{ F}) = 0.190 \text{ s}$$
 
-4. $$\tau_{4} = R_p C_s = (20.0 \times 10^{3})(1.58 \times 10^{-6}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
+4. $$\tau_{4} = R_p C_s = (20.0 \times 10^{3} \text{ Ω})(1.58 \times 10^{-6} \text{ F}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
 
 **Discussion**
 
@@ -737,7 +976,7 @@ The requirement for fast response time ($$\tau < 100 \text{ μs}$$) ensures the 
  resistance, calculate the time it takes to rise to  $$ 0.865{V}_{0} $$
  (This is about two time constants.)
 
-![A parallel circuit with a switch, an embedded electronic circuit, a capacitor, and a resistor is shown. The embedded circuit, capacitor, and resistor are connected in parallel with each other: the electronic circuit on the left, the capacitor in the middle, and the resistor on the right. The capacitor has a capacitance of eighty micro farads. The resistor has a resistance of two hundred fifty kilohms. The switch is on the top, between the electronic circuit and the capacitor leg.](../resources/Figure_21_06_07.jpg ' ')
+![An electronic circuit, a capacitor C = 80 microfarads and a resistor R = 250 kilohms are connected in parallel. A switch on the top wire, between the electronic circuit and the capacitor, disconnects them.](../resources/Figure_21_06_07.svg ' ')
 {: #Figure6}
 
 :::
@@ -796,7 +1035,7 @@ $$RC = (500 \text{ Ω})(250 \times 10^{-6} \text{ F}) = 0.125 \text{ s}$$
 </div>
 
 <div class="equation">
-$$t = (0.125 \text{ s}) \ln(100) = (0.125)(4.605) = 0.576 \text{ s}$$
+$$t = (0.125 \text{ s}) \ln(100) = (0.125 \text{ s})(4.605) = 0.576 \text{ s}$$
 </div>
 
 **Discussion**
@@ -841,11 +1080,11 @@ $$t = -RC \ln(0.100) = RC \ln(10)$$
 
 Calculate $$RC$$:
 <div class="equation">
-$$RC = (75.0 \times 10^{6})(100 \times 10^{-12}) = 7.50 \times 10^{-3} \text{ s}$$
+$$RC = (75.0 \times 10^{6} \text{ Ω})(100 \times 10^{-12} \text{ F}) = 7.50 \times 10^{-3} \text{ s}$$
 </div>
 
 <div class="equation">
-$$t = (7.50 \times 10^{-3}) \ln(10) = (7.50 \times 10^{-3})(2.303) = 1.73 \times 10^{-2} \text{ s}$$
+$$t = (7.50 \times 10^{-3} \text{ s}) \ln(10) = (7.50 \times 10^{-3} \text{ s})(2.303) = 1.73 \times 10^{-2} \text{ s}$$
 </div>
 
 **Discussion**
@@ -895,6 +1134,46 @@ Find the capacitance. (d) What is the resistance of the lamp?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the average values over the flash. The energy is $$ E = Pt $$. The average current is $$ I = P/V $$, and the charge is $$ Q = It $$. The capacitance follows from $$ C = Q/V $$ and the lamp's resistance from $$ R = V/I $$.
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ E = Pt = (0.500 \text{ W})(0.250 \s) = 0.125 \J $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ I = \frac{P}{V} = \frac{0.500 \text{ W}}{3.00 \text{ V}} = 0.167 \text{ A}, \qquad Q = It = (0.167 \text{ A})(0.250 \s) = 4.17 \times 10^{-2} \text{ C} $$
+</div>
+
+**(c)**
+
+<div class="equation">
+$$ C = \frac{Q}{V} = \frac{4.17 \times 10^{-2} \text{ C}}{3.00 \text{ V}} = 1.39 \times 10^{-2} \text{ F} $$
+</div>
+
+**(d)**
+
+<div class="equation">
+$$ R = \frac{V}{I} = \frac{3.00 \text{ V}}{0.167 \text{ A}} = 18.0 \ \Omega $$
+</div>
+
+**Discussion**
+
+As a check, $$ RC = (18.0 \ \Omega)(1.39 \times 10^{-2} \text{ F}) = 0.250 \s $$, equal to the flash duration, consistent with treating the effective duration of the discharge as one time constant. A $$ 13.9\text{-mF} $$ capacitor is large but available in small sizes at a few volts.
+
+(a) The lamp dissipates $$ 0.125 \J $$. (b) A charge of $$ 4.17 \times 10^{-2} \text{ C} $$ moves through the lamp. (c) The capacitance is $$ 1.39 \times 10^{-2} \text{ F} $$. (d) The lamp's resistance is $$ 18.0 \ \Omega $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -937,6 +1216,32 @@ is unreasonable about this result? (c) Which assumptions are responsible?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Solve $$ \tau = RC $$ for $$ C $$ and compare the result with the capacitances of ordinary capacitors, which range from picofarads to millifarads.
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ C = \frac{\tau}{R} = \frac{1.00 \times 10^{3} \s}{0.100 \ \Omega} = 1.00 \times 10^{4} \text{ F} $$
+</div>
+
+**(b)** A capacitance of $$ 10\,000 \text{ F} $$ is enormous. Even large supercapacitors are a few thousand farads, and ordinary capacitors are many orders of magnitude smaller; such a device would be impractically large.
+
+**(c)** The assumptions responsible are the combination of a very long time constant and a very small resistance. For a long time constant, use a large resistance: with $$ R = 1.00 \text{ G}\Omega $$, $$ C = (1.00 \times 10^{3} \s)/(1.00 \times 10^{9} \ \Omega) = 1.00 \ \mu\text{F} $$, an ordinary value.
+
+**Discussion**
+
+Since $$ \tau $$ depends on the product $$ RC $$, a time constant of over 16 minutes is easily obtained with a large resistor and an ordinary capacitor, not with a $$ 0.100\text{-}\Omega $$ resistor.
+
+(a) The required capacitance is $$ 1.00 \times 10^{4} \text{ F} $$. (b) That capacitance is unreasonably large. (c) The very small resistance, combined with the long time constant, is responsible.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -950,6 +1255,48 @@ size of the capacitor that stores energy for the flash lamp. Among the things to
 be considered are the voltage applied to the capacitor, the energy needed in the
 flash and the associated charge needed on the capacitor, the resistance of the
 flash lamp during discharge, and the desired $$\text{RC} $$ time constant.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The energy for the flash is stored in the capacitor, $$ E = \frac{1}{2}CV^2 $$, so the voltage and energy determine $$ C $$. The charge is $$ Q = CV $$. The flash lamp's resistance and $$ C $$ set the discharge time constant $$ \tau = RC $$, which should equal the desired flash duration.
+
+**Sample Problem Construction**
+
+A camera flash capacitor is charged to $$ 300 \text{ V} $$ and must deliver $$ 5.00 \J $$ to the flash lamp. The flash should last about $$ 1.00 \text{ ms} $$ (one time constant). (a) What capacitance is needed? (b) What charge is stored on it? (c) What resistance must the lamp (plus any series resistance) have during discharge? (d) What is the initial current through the lamp?
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ C = \frac{2E}{V^2} = \frac{2(5.00 \J)}{(300 \text{ V})^2} = 1.11 \times 10^{-4} \text{ F} = 111 \ \mu\text{F} $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ Q = CV = (1.11 \times 10^{-4} \text{ F})(300 \text{ V}) = 3.33 \times 10^{-2} \text{ C} $$
+</div>
+
+**(c)**
+
+<div class="equation">
+$$ R = \frac{\tau}{C} = \frac{1.00 \times 10^{-3} \s}{1.11 \times 10^{-4} \text{ F}} = 9.00 \ \Omega $$
+</div>
+
+**(d)**
+
+<div class="equation">
+$$ I_0 = \frac{V}{R} = \frac{300 \text{ V}}{9.00 \ \Omega} = 33.3 \text{ A} $$
+</div>
+
+**Discussion**
+
+The capacitor stores the energy slowly, being charged from a small battery over a few seconds, and then releases it in about a millisecond. That gives a peak power of roughly $$ (300 \text{ V})(33.3 \text{ A}) = 1.0 \times 10^{4} \text{ W} $$, far more than the battery could supply directly. Real flash lamps have resistances of a few ohms once the gas is ionized, consistent with the value found. In practice the lamp delivers somewhat less than $$ 5.00 \J $$ as light, since some energy is lost as heat.
 
 :::
 
@@ -967,6 +1314,44 @@ during normal operation. Also, calculate the minimum voltage output of a battery
 charger to be used to recharge your lithium cell. Among the things to be
 considered are the emf and useful terminal voltage of a lithium cell and the
 current it should be able to supply to a camcorder.
+
+:::
+
+::: solution
+
+**Strategy**
+
+When the cell supplies current, its terminal voltage is $$ V = \text{emf} - Ir $$, so measuring $$ V $$ and $$ I $$ gives $$ r $$. When it is being charged, current is forced into the positive terminal, so the charger must supply $$ V = \text{emf} + Ir $$.
+
+**Sample Problem Construction**
+
+A lithium-ion cell has an emf of $$ 3.70 \text{ V} $$. While running a camcorder, it supplies $$ 0.750 \text{ A} $$ with a terminal voltage of $$ 3.55 \text{ V} $$. (a) What is the cell's internal resistance? (b) How much power is wasted inside the cell? (c) The cell is recharged at $$ 1.00 \text{ A} $$, and its emf rises to $$ 4.20 \text{ V} $$ when fully charged. What is the minimum output voltage the charger must provide?
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ r = \frac{\text{emf} - V}{I} = \frac{3.70 \text{ V} - 3.55 \text{ V}}{0.750 \text{ A}} = 0.200 \ \Omega $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ P = I^2 r = (0.750 \text{ A})^2(0.200 \ \Omega) = 0.113 \text{ W} $$
+</div>
+
+compared with the $$ (3.55 \text{ V})(0.750 \text{ A}) = 2.66 \text{ W} $$ delivered to the camcorder.
+
+**(c)** At the end of charging, the charger must exceed the cell's emf by the drop across the internal resistance:
+
+<div class="equation">
+$$ V_{\text{charger}} = \text{emf} + Ir = 4.20 \text{ V} + (1.00 \text{ A})(0.200 \ \Omega) = 4.40 \text{ V} $$
+</div>
+
+**Discussion**
+
+About 4% of the cell's output is lost inside it during use. A charger supplying less than $$ 4.40 \text{ V} $$ could not push $$ 1.00 \text{ A} $$ into the cell near full charge. Real lithium-cell chargers regulate the voltage carefully near the end of charging, because overcharging a lithium cell is a fire hazard.
 
 :::
 

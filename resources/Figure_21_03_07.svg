@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+<title id="title">A two-loop circuit with four sources</title>
+<desc id="desc">Corners a (top left), c (top right), d (bottom right) and f (bottom left), with junctions b on the top wire and e on the bottom wire joined by a middle branch. Left branch f to a: emf1 = 18 V with r1 = 0.5 ohm. Top: R1 = 20 ohms from a to b and R3 = 8 ohms from b to c. Middle branch b to e: R2 = 6 ohms, point g, emf2 = 3.0 V and r2 = 0.25 ohm. Right branch c to d: emf3 = 12 V and r3 = 0.5 ohm. Bottom: R4 = 15 ohms from f to e, then emf4 = 24 V and r4 = 0.75 ohm from e to d. Currents I1 flows from a toward b, then splits into I2 toward c and I3 down the middle branch.</desc>
+<rect width="800" height="600" fill="#ffffff"/>
+<polyline points="90,70 710,70 710,550 90,550 90,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="420,70 420,550" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="207" y1="70" x2="263" y2="70" stroke="#ffffff" stroke-width="7"/>
+<line x1="180" y1="70" x2="207" y2="70" stroke="#222222" stroke-width="2"/>
+<line x1="263" y1="70" x2="290" y2="70" stroke="#222222" stroke-width="2"/>
+<polyline points="207,70 211.67,81 221,59 230.33,81 239.67,59 249,81 258.33,59 263,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="235" y="47.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="235" y="108.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="587" y1="70" x2="643" y2="70" stroke="#ffffff" stroke-width="7"/>
+<line x1="560" y1="70" x2="587" y2="70" stroke="#222222" stroke-width="2"/>
+<line x1="643" y1="70" x2="670" y2="70" stroke="#222222" stroke-width="2"/>
+<polyline points="587,70 591.67,81 601,59 610.33,81 619.67,59 629,81 638.33,59 643,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="615" y="47.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="615" y="108.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="90" y1="157" x2="90" y2="213" stroke="#ffffff" stroke-width="7"/>
+<line x1="90" y1="140" x2="90" y2="157" stroke="#222222" stroke-width="2"/>
+<line x1="90" y1="213" x2="90" y2="230" stroke="#222222" stroke-width="2"/>
+<polyline points="90,157 79,161.67 101,171 79,180.33 101,189.67 79,199 101,208.33 90,213" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="70" y="192.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="110" y="191.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.5 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="90" y1="295" x2="90" y2="275" stroke="#ffffff" stroke-width="7"/>
+<line x1="90" y1="305" x2="90" y2="291.5" stroke="#222222" stroke-width="2"/>
+<line x1="90" y1="278.5" x2="90" y2="265" stroke="#222222" stroke-width="2"/>
+<line x1="74" y1="291.5" x2="106" y2="291.5" stroke="#c62828" stroke-width="5"/>
+<line x1="58" y1="278.5" x2="122" y2="278.5" stroke="#c62828" stroke-width="3"/>
+<text x="60" y="297.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="120" y="296.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">18 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="420" y1="187" x2="420" y2="243" stroke="#ffffff" stroke-width="7"/>
+<line x1="420" y1="170" x2="420" y2="187" stroke="#222222" stroke-width="2"/>
+<line x1="420" y1="243" x2="420" y2="260" stroke="#222222" stroke-width="2"/>
+<polyline points="420,187 409,191.67 431,201 409,210.33 431,219.67 409,229 431,238.33 420,243" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="400" y="222.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="440" y="221.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6 </tspan><tspan font-style="normal">Ω</tspan></text>
+<circle cx="420" cy="300" r="4.5" fill="#7b1145"/>
+<text x="436" y="306.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">g</tspan></text>
+<line x1="420" y1="335" x2="420" y2="355" stroke="#ffffff" stroke-width="7"/>
+<line x1="420" y1="325" x2="420" y2="338.5" stroke="#222222" stroke-width="2"/>
+<line x1="420" y1="351.5" x2="420" y2="365" stroke="#222222" stroke-width="2"/>
+<line x1="436" y1="338.5" x2="404" y2="338.5" stroke="#c62828" stroke-width="5"/>
+<line x1="452" y1="351.5" x2="388" y2="351.5" stroke="#c62828" stroke-width="3"/>
+<text x="390" y="352.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="450" y="351.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3.0 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="420" y1="427" x2="420" y2="483" stroke="#ffffff" stroke-width="7"/>
+<line x1="420" y1="410" x2="420" y2="427" stroke="#222222" stroke-width="2"/>
+<line x1="420" y1="483" x2="420" y2="500" stroke="#222222" stroke-width="2"/>
+<polyline points="420,427 409,431.67 431,441 409,450.33 431,459.67 409,469 431,478.33 420,483" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="400" y="462.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="440" y="461.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.25 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="710" y1="270" x2="710" y2="290" stroke="#ffffff" stroke-width="7"/>
+<line x1="710" y1="260" x2="710" y2="273.5" stroke="#222222" stroke-width="2"/>
+<line x1="710" y1="286.5" x2="710" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="726" y1="273.5" x2="694" y2="273.5" stroke="#c62828" stroke-width="5"/>
+<line x1="742" y1="286.5" x2="678" y2="286.5" stroke="#c62828" stroke-width="3"/>
+<text x="680" y="287.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="740" y="286.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="710" y1="397" x2="710" y2="453" stroke="#ffffff" stroke-width="7"/>
+<line x1="710" y1="380" x2="710" y2="397" stroke="#222222" stroke-width="2"/>
+<line x1="710" y1="453" x2="710" y2="470" stroke="#222222" stroke-width="2"/>
+<polyline points="710,397 699,401.67 721,411 699,420.33 721,429.67 699,439 721,448.33 710,453" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="690" y="432.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="730" y="431.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.5 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="207" y1="550" x2="263" y2="550" stroke="#ffffff" stroke-width="7"/>
+<line x1="180" y1="550" x2="207" y2="550" stroke="#222222" stroke-width="2"/>
+<line x1="263" y1="550" x2="290" y2="550" stroke="#222222" stroke-width="2"/>
+<polyline points="207,550 211.67,561 221,539 230.33,561 239.67,539 249,561 258.33,539 263,550" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="235" y="527.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">4</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="235" y="588.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">15 </tspan><tspan font-style="normal">Ω</tspan></text>
+<line x1="520" y1="550" x2="540" y2="550" stroke="#ffffff" stroke-width="7"/>
+<line x1="510" y1="550" x2="523.5" y2="550" stroke="#222222" stroke-width="2"/>
+<line x1="536.5" y1="550" x2="550" y2="550" stroke="#222222" stroke-width="2"/>
+<line x1="523.5" y1="534" x2="523.5" y2="566" stroke="#c62828" stroke-width="5"/>
+<line x1="536.5" y1="518" x2="536.5" y2="582" stroke="#c62828" stroke-width="3"/>
+<text x="530" y="515.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">4</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="530" y="596.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">24 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="607" y1="550" x2="663" y2="550" stroke="#ffffff" stroke-width="7"/>
+<line x1="590" y1="550" x2="607" y2="550" stroke="#222222" stroke-width="2"/>
+<line x1="663" y1="550" x2="680" y2="550" stroke="#222222" stroke-width="2"/>
+<polyline points="607,550 611.67,561 621,539 630.33,561 639.67,539 649,561 658.33,539 663,550" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="635" y="527.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">4</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="635" y="588.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.75 </tspan><tspan font-style="normal">Ω</tspan></text>
+<circle cx="90" cy="70" r="4.5" fill="#7b1145"/>
+<text x="74" y="76.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">a</tspan></text>
+<circle cx="420" cy="70" r="4.5" fill="#7b1145"/>
+<text x="420" y="58.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">b</tspan></text>
+<circle cx="710" cy="70" r="4.5" fill="#7b1145"/>
+<text x="726" y="76.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">c</tspan></text>
+<circle cx="710" cy="550" r="4.5" fill="#7b1145"/>
+<text x="726" y="556.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">d</tspan></text>
+<circle cx="420" cy="550" r="4.5" fill="#7b1145"/>
+<text x="420" y="578.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">e</tspan></text>
+<circle cx="90" cy="550" r="4.5" fill="#7b1145"/>
+<text x="74" y="556.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">f</tspan></text>
+<line x1="300" y1="104" x2="379" y2="104" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="390,104 378,108.8 378,99.2" fill="#1f77c8"/>
+<text x="345" y="139.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="445" y1="104" x2="529" y2="104" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="540,104 528,108.8 528,99.2" fill="#1f77c8"/>
+<text x="492" y="139.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="446" y1="114" x2="446" y2="163" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="446,174 441.2,162 450.8,162" fill="#1f77c8"/>
+<text x="460" y="173.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</svg>

@@ -79,7 +79,7 @@ it a distance $$ x $$. The potential energy of the spring $$ \PE_{s} $$ does not
 depend on the path taken; it depends only on the stretch or squeeze $$ x $$ in
 the final configuration.
 
-![An undeformed spring fixed at one end with no potential energy. (b) A spring fixed at one end and stretched by a distance x by a force F equal to k x. Work done W is equal to one half k x squared. P E s is equal to one half k x squared. (c) A graph of force F versus elongation x in the spring. A straight line inclined to x axis starts from origin. The area under this line forms a right triangle with base of x and height of k x. Area of this triangle is equal to one half k x squared.](../resources/Figure_07_04_01.jpg "(a) An undeformed spring has no \( \PE_{\text{s}} \) stored in it. (b) The force needed to stretch (or compress) the spring a distance \( x \) has a magnitude \( F = k x \) , and the work done to stretch (or compress) it is \( \frac{1}{2} k x^2 \) . Because the force is conservative, this work is stored as potential energy, \( \PE_{\text{s}} \), in the spring, and it can be fully recovered.
+![An undeformed spring fixed at one end with no potential energy. (b) A spring fixed at one end and stretched by a distance x by a force F equal to k x. Work done W is equal to one half k x squared. P E s is equal to one half k x squared. (c) A graph of force F versus elongation x in the spring. A straight line inclined to x axis starts from origin. The area under this line forms a right triangle with base of x and height of k x. Area of this triangle is equal to one half k x squared.](../resources/Figure_07_04_01.svg "(a) An undeformed spring has no \( \PE_{\text{s}} \) stored in it. (b) The force needed to stretch (or compress) the spring a distance \( x \) has a magnitude \( F = k x \) , and the work done to stretch (or compress) it is \( \frac{1}{2} k x^2 \) . Because the force is conservative, this work is stored as potential energy, \( \PE_{\text{s}} \), in the spring, and it can be fully recovered.
 (c) A graph of \( F \) vs. \( x \) has a slope of \( k \) , and the area under the graph is \( \frac{1}{2} k x^2 \). Thus the work done or potential energy stored is \( \frac{1}{2} k x^2 \). ")
 {: #Figure1}
 
@@ -170,7 +170,7 @@ Using Conservation of Mechanical Energy to Calculate the Speed of a Toy Car
 A 0.100-kg toy car is propelled by a compressed spring, as shown in [Figure 3](#Figure3). The car follows a track that
 rises 0.180 m above the starting point. The spring is compressed 4.00 cm and has a force constant of 250.0 N/m. Assuming work done by friction to be negligible, find (a) how fast the car is going before it starts up the slope and (b) how fast it is going at the top of the slope.
 
-![The figure shows a toy race car that has just been released from a spring. Two possible paths for the car are shown. One path has a gradual upward incline, leveling off at a height of eighteen centimeters above its starting level. An alternative path shows the car descending from its starting point, making a loop, and then ascending back up and leveling off at a height of eighteen centimeters above its starting level. ](../resources/Figure_07_04_03.jpg "A toy car is pushed by a compressed spring and coasts up a slope. Assuming negligible friction, the potential energy in the spring is first completely converted to kinetic energy, and then to a combination of kinetic and gravitational potential energy as the car rises. The details of the path are unimportant because all forces are conservative&#x2014;the car would have the same final speed if it took the alternate path shown.")
+![The figure shows a toy race car that has just been released from a spring. Two possible paths for the car are shown. One path has a gradual upward incline, leveling off at a height of eighteen centimeters above its starting level. An alternative path shows the car descending from its starting point, making a loop, and then ascending back up and leveling off at a height of eighteen centimeters above its starting level. ](../resources/Figure_07_04_03.svg "A toy car is pushed by a compressed spring and coasts up a slope. Assuming negligible friction, the potential energy in the spring is first completely converted to kinetic energy, and then to a combination of kinetic and gravitational potential energy as the car rises. The details of the path are unimportant because all forces are conservative&#x2014;the car would have the same final speed if it took the alternate path shown.")
 {: #Figure3 height="125"}
 
 **Strategy**
@@ -317,6 +317,22 @@ What is a conservative force?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+State the definition, then test it with the work a force does around a closed path.
+
+**Solution**
+
+A **conservative force** is a force for which the work done on an object moving between two points depends only on the starting and ending points, **not on the path** taken. Equivalently, the work it does around any closed path is zero. Because of this, the work it does can be stored and fully recovered as **potential energy**.
+
+Gravity is an example. Lift a $$ 2.0 \kg $$ ball $$ 3.0 \m $$ and gravity does $$ -(2.0 \kg)(9.80 \mss)(3.0 \m) = -59 \J $$ of work on it. Let it fall back and gravity does $$ +59 \J $$. Around the closed path the total is $$ 0 \J $$. The ideal spring force is also conservative. Friction is not: sliding a box $$ 2.0 \m $$ across a floor and back against $$ 10 \N $$ of friction gives $$ (-10 \N)(2.0 \m) + (-10 \N)(2.0 \m) = -40 \J $$ around the closed path, energy that cannot be recovered.
+
+A conservative force is one whose work depends only on the starting and ending positions and not on the path, so that its work around any closed path is zero (gravity does $$ -59 \J $$ on the way up and $$ +59 \J $$ on the way down), allowing that work to be stored as potential energy.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -330,6 +346,33 @@ feet leave it.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Follow elastic energy through deflection and state the board/contact idealization needed to specify its energy at takeoff.
+
+**Solution**
+
+Model the board as an **ideal massless linear spring**, with the swimmer as a point mass maintaining contact until the spring returns to its unloaded position. Neglect damping and treat the swimmer’s posture as fixed during this release. This is a model for the energy sketch, not a consequence of negligible friction alone. Take deflection $$x$$ positive downward from the unloaded position, so $$U_s=\tfrac12kx^2$$.
+
+For illustrative $$k=6000\text{ N/m}$$ and swimmer mass $$m=60\kg$$:
+
+1. **Before stepping on:** $$x=0\m$$ and $$U_s=0\J$$.
+2. **Standing at the end:** $$kx=mg$$ gives $$x=(60\kg)(9.80\mss)/(6000\text{ N/m})=0.098\m$$ and $$U_s=\tfrac12(6000\text{ N/m})(0.098\m)^2=29\J$$.
+3. **Depressing the board:** assume a maximum deflection $$x=0.30\m$$. Then $$U_s=\tfrac12(6000\text{ N/m})(0.30\m)^2=270\J$$, its maximum in this modeled dive.
+4. **Rebound:** elastic energy decreases as the board does positive work on the rising swimmer, increasing her kinetic and gravitational potential energies.
+5. **Separation in this model:** at $$x=0\m$$ the spring force and elastic energy are zero. The massless spring has no kinetic energy left and does not continue vibrating.
+
+![Elastic energy for an explicitly idealized massless board rises from zero to 29 J while standing, then to 270 J at maximum depression, and returns to zero at separation.](../resources/concept_07_04_q02.svg)
+
+A real massive board can retain kinetic and elastic energy and vibrate after the feet leave. Its potential energy need not remain zero afterward, and the separation position depends on the contact and diver dynamics. Negligible internal friction conserves total mechanical energy of board plus swimmer, not necessarily energy of the swimmer alone.
+
+The board stores elastic energy as it bends and releases it during rebound; it returns all of that energy at zero deflection only in the stated massless-spring model, while a real board can retain energy and vibrate after takeoff.
+
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -340,6 +383,34 @@ Define mechanical energy. What is the relationship of mechanical energy to nonco
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Define mechanical energy, then use the work-energy relation $$ W_{nc} = \Delta\KE + \Delta\PE $$ to relate it to nonconservative forces.
+
+**Solution**
+
+**Mechanical energy** is the sum of the kinetic energy and the potential energy of a system:
+
+<div class="equation">
+$$ \text{ME} = \KE + \PE $$
+</div>
+
+The work done by nonconservative forces, such as friction, air resistance, or a push from a person, equals the change in mechanical energy:
+
+<div class="equation">
+$$ W_{nc} = (\KE_{f} + \PE_{f}) - (\KE_{i} + \PE_{i}) = \Delta\text{ME} $$
+</div>
+
+Nonconservative forces can remove mechanical energy (friction usually does, turning it into thermal energy) or add it (a person pushing does). For example, a $$ 20 \kg $$ child slides down a $$ 3.0 \m $$ high slide, starting at rest and reaching the bottom at $$ 6.0 \ms $$. Measuring height from the bottom, with $$ +y $$ upward, the mechanical energy goes from $$ (20 \kg)(9.80 \mss)(3.0 \m) = 588 \J $$ to $$ \tfrac{1}{2}(20 \kg)(6.0 \ms)^2 = 360 \J $$, so friction did $$ W_{nc} = 360 \J - 588 \J = -228 \J $$ of work.
+
+If **only conservative forces** act, $$ W_{nc} = 0 \J $$, and mechanical energy is **conserved**: $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$. On a frictionless slide, the child would reach the bottom with all $$ 588 \J $$ as kinetic energy, moving at $$ \sqrt{2(588 \J)/(20 \kg)} = 7.7 \ms $$.
+
+Mechanical energy is the sum of kinetic and potential energy, the work done by nonconservative forces equals its change ($$ W_{nc} = \Delta\text{ME} $$, for example $$ -228 \J $$ of work by friction on a slide), and if only conservative forces act, the mechanical energy stays constant.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -347,6 +418,34 @@ Define mechanical energy. What is the relationship of mechanical energy to nonco
 :::: problem
 
 What is the relationship of potential energy to conservative force?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Potential energy is defined only for conservative forces. Relate the change in potential energy to the work the conservative force does.
+
+**Solution**
+
+Potential energy is the energy associated with the **position or configuration** of a system that is acted on by a conservative force. The change in potential energy equals the **negative** of the work done by the conservative force:
+
+<div class="equation">
+$$ \Delta\PE = -W_{c} $$
+</div>
+
+When the conservative force does positive work, the potential energy decreases. When it does negative work, the potential energy increases, storing energy that can be recovered. This is possible only because the force's work is independent of the path; for friction no potential energy can be defined.
+
+For a spring with $$ k = 200 \text{ N/m} $$ compressed by $$ x = 0.10 \m $$, the spring force does negative work during the compression, and the potential energy stored is
+
+<div class="equation">
+$$ \PE_{s} = \tfrac{1}{2}kx^{2} = \tfrac{1}{2}(200 \text{ N/m})(0.10 \m)^2 = 1.0 \J $$
+</div>
+
+When the spring is released, its force does $$ +1.0 \J $$ of work and the potential energy returns to $$ 0 \J $$. For gravity near Earth's surface, $$ \Delta\PE_{g} = mgh $$.
+
+Potential energy is the stored energy associated with a conservative force, and its change is the negative of the work the conservative force does ($$ \Delta\PE = -W_{c} $$; for example, compressing a $$ 200 \text{ N/m} $$ spring by $$ 0.10 \m $$ stores $$ 1.0 \J $$), which is possible only for forces whose work does not depend on the path.
 
 ::::
 
@@ -369,6 +468,12 @@ of the spring?
 **Strategy**
 
 The kinetic energy of the moving train is converted entirely into elastic potential energy stored in the spring when the train comes to rest. Use conservation of energy: $$ \frac{1}{2}mv^{2} = \frac{1}{2}kx^{2} $$.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the train moves, with the origin where the train first touches the spring. At first contact the train moves with v = +0.500 m/s. When it stops (v = 0), it has moved x = 0.400 m along +x and compressed the spring by that amount; the spring force on the train points along −x.](../resources/sketch_07_04_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction the train moves, with $$ x = 0 $$ where it first touches the spring. The train comes to rest at $$ x = +0.400\m $$, the spring's compression. The spring force on the train points along $$ -x $$, opposite to the motion, which is why it removes the train's kinetic energy.
 
 **Solution**
 
@@ -396,7 +501,7 @@ $$ k = \frac{(5.00 \times 10^{5}\text{ kg})(0.500\ms)^2}{(0.400\text{ m})^2} $$
 </div>
 
 <div class="equation">
-$$ k = \frac{(5.00 \times 10^{5})(0.250)}{0.160} = \frac{1.25 \times 10^{5}}{0.160} = 7.81 \times 10^{5}\text{ N/m} $$
+$$ k = \frac{(5.00 \times 10^{5} \text{N/m})(0.250 \m)}{0.160 \m} = \frac{1.25 \times 10^{5} \N}{0.160 \m} = 7.81 \times 10^{5}\text{ N/m} $$
 </div>
 
 **Discussion**
@@ -440,6 +545,12 @@ $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$
 
 **Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE_{\text{i}} = \KE_{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and $$ \PE_{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE_{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE_{\text{s,f}} = 0 $$ at maximum height.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the child’s position when the spring is fully compressed by 0.120 m. There the child is momentarily at rest (v = 0). At the top of the jump, at the unknown height y = h, the child is again at rest.](../resources/sketch_07_04_p02.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the fully compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and the child rises to $$ y = +h $$. The child is momentarily at rest at both points.
+
 **Solution**
 
 The conservation of energy equation becomes:
@@ -459,8 +570,8 @@ Substituting known values:
 <div class="equation">
 $$ \begin{array}{lll}
 h &=& \frac{(2.50 \times 10^{4}\text{N/m})(0.120\m)^{2}}{2(40.0\kg)(9.80\mss)}\\
-h &=& \frac{(2.50 \times 10^{4})(0.0144)}{784}\m\\
-h &=& \frac{360}{784}\m = 0.459\m
+h &=& \frac{(2.50 \times 10^{4}\text{ N/m})(0.0144\mm)}{784\N}\\
+h &=& \frac{360\N\cdot\m}{784\N} = 0.459\m
 \end{array} $$
 </div>
 

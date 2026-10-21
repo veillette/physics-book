@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+<title id="title">Two balloons of different sizes joined by a tube</title>
+<desc id="desc">Left: two balloons on the ends of a tube, a large one with pressure P1 and a small one with pressure P2. Because the pressure in a spherical balloon is inversely proportional to its radius, P2 &gt; P1, and when the valve is opened air flows from the small balloon into the large one. Right: afterward the small balloon has emptied into the large one.</desc>
+<rect width="640" height="260" fill="#ffffff"/>
+<polyline points="70,110 70,200 240,200 240,110" fill="none" stroke="#222222" stroke-width="14" stroke-linejoin="miter"/>
+<polyline points="70,110 70,200 240,200 240,110" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="miter"/>
+<circle cx="70" cy="70" r="50" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<circle cx="240" cy="90" r="30" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<text x="70" y="80.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="240" y="100.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="180" y1="184" x2="131" y2="184" stroke="#222222" stroke-width="2"/>
+<polygon points="120,184 132,179.2 132,188.8" fill="#222222"/>
+<text x="155" y="244.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> &gt; </tspan><tspan font-style="italic">P</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<polyline points="410,110 410,200 590,200 590,110" fill="none" stroke="#222222" stroke-width="14" stroke-linejoin="miter"/>
+<polyline points="410,110 410,200 590,200 590,110" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="miter"/>
+<circle cx="410" cy="60" r="58" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+</svg>

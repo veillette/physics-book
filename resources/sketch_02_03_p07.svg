@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the trip from home to the university</title>
+<desc id="desc">Axes with +x east and +y north, origin at home. The road (dashed) is 12.0 km long; the straight-line displacement Δx (red) from home to the university is 10.3 km at 25.0° south of east, that is, 25.0° below the +x axis. The return trip ends back at the origin, so the round-trip displacement is zero.</desc>
+<rect width="560" height="300" fill="#ffffff"/>
+<line x1="50" y1="110" x2="80" y2="110" stroke="#555555" stroke-width="1.6"/>
+<line x1="80" y1="110" x2="470" y2="110" stroke="#555555" stroke-width="1.6"/>
+<polygon points="480,110 469,114.4 469,105.6" fill="#555555"/>
+<line x1="80" y1="260" x2="80" y2="110" stroke="#555555" stroke-width="1.6"/>
+<line x1="80" y1="110" x2="80" y2="50" stroke="#555555" stroke-width="1.6"/>
+<polygon points="80,40 84.4,51 75.6,51" fill="#555555"/>
+<text x="488" y="115.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="488" y="132.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="80" y="33.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="96" y="32.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="72" y="128.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<path d="M 80 110 C 230 90 264.39695907392695 130.5949394614658 424.39695907392695 270.5949394614658" fill="none" stroke="#7f8c8d" stroke-width="1.8" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="80" y1="110" x2="413.88" y2="265.69" stroke="#c0392b" stroke-width="3"/>
+<polygon points="424.4,270.59 410.85,269.84 415.11,260.7" fill="#c0392b"/>
+<text x="230" y="210.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-weight="bold" font-style="normal">x<tspan font-size="9.92" font-weight="normal" dx="-8.96" dy="-8.32">→</tspan><tspan dx="-0.96" dy="8.32">​</tspan></tspan><tspan font-style="normal">: 10.3 </tspan><tspan font-style="normal">km</tspan></text>
+<path d="M 143.44 139.58 A 70 70 0 0 0 150 110" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="169.82" y="137.16" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25.0°</tspan></text>
+<circle cx="80" cy="110" r="7" fill="#1f3a5f"/>
+<text x="56" y="100.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">home</tspan></text>
+<circle cx="424.4" cy="270.59" r="7" fill="#1f3a5f"/>
+<text x="424.4" y="297.14" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">university</tspan></text>
+<text x="364.4" y="154.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">road</tspan><tspan font-style="normal">: 12.0 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">, 18.0 </tspan><tspan font-style="normal">min</tspan></text>
+</svg>

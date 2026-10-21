@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="345" viewBox="0 0 360 345" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the triangular plot</title>
+<desc id="desc">Axes with +x east and +y north, origin at the west corner. A is 80.0 m at 21.0° south of east (−21.0° from +x); B is 105 m at 11.0° west of north (101° from +x), drawn from the tip of A. The third side C closes the triangle back to the origin, so A + B + C = 0.</desc>
+<rect width="360" height="345" fill="#ffffff"/>
+<line x1="30" y1="175" x2="70" y2="175" stroke="#555555" stroke-width="1.6"/>
+<line x1="70" y1="175" x2="290" y2="175" stroke="#555555" stroke-width="1.6"/>
+<polygon points="300,175 289,179.4 289,170.6" fill="#555555"/>
+<line x1="70" y1="315" x2="70" y2="175" stroke="#555555" stroke-width="1.6"/>
+<line x1="70" y1="175" x2="70" y2="35" stroke="#555555" stroke-width="1.6"/>
+<polygon points="70,25 74.4,36 65.6,36" fill="#555555"/>
+<text x="308" y="180.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="308" y="197.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="70" y="18.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="86" y="17.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="62" y="193.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="70" y1="175" x2="193.61" y2="222.45" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="204.44,226.6 190.87,226.79 194.48,217.38" fill="#1f77c8"/>
+<text x="130.77" y="223.21" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan><tspan font-style="normal"> (80.0 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="204.44" y1="226.6" x2="170.59" y2="52.46" stroke="#2e8b57" stroke-width="3"/>
+<polygon points="168.37,41.08 175.72,52.48 165.83,54.41" fill="#2e8b57"/>
+<text x="202.27" y="126.73" font-family="'Times New Roman', Times, serif" font-size="16" fill="#2e8b57" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-10.3" dy="-13.12">→</tspan><tspan dx="0.38" dy="13.12">​</tspan></tspan><tspan font-style="normal"> (105 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="168.37" y1="41.08" x2="76.87" y2="165.65" stroke="#c0392b" stroke-width="3"/>
+<polygon points="70,175 73.4,161.86 81.52,167.83" fill="#c0392b"/>
+<text x="104.68" y="102.98" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">C<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan><tspan font-style="normal"> = ?</tspan></text>
+<path d="M 122.28 195.07 A 56 56 0 0 0 126 175" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="144.73" y="198.1" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">21.0°</tspan></text>
+</svg>

@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* Describe how a water molecule is polar.
-* Explain electrostatic screening by a water molecule within a living cell.
+- Describe how a water molecule is polar.
+- Explain electrostatic screening by a water molecule within a living cell.
 
 :::
 
@@ -70,7 +71,7 @@ proteins that guide the movement of chromosomes when cells divide, the motion of
 other organisms within the cell, and provide mechanisms for motion of some
 cells (as motors).
 
-![Molecular structure of two water molecules is shown. Oxygen atom of one water molecule has minus delta on it and the Hydrogen atom of other water molecule has a positive delta charge on it. The force on attraction between these two atoms is shown as dotted line.](../resources/Figure_18_06_03.jpg 'This schematic shows water ( ( \\text{H}_2 \\text{O} ) ) as a polar molecule. Unequal sharing of electrons between the oxygen ( ( \\text{O} ) ) and hydrogen ( ( \\text{H} ) ) atoms leads to a net separation of positive and negative charge—forming a dipole. The symbols ( \\delta^{-} ) and ( \\delta^{+} ) indicate that the oxygen side of the ( \\text{H}_2 \\text{O} ) molecule tends to be more negative, while the hydrogen ends tend to be more positive. This leads to an attraction of opposite charges between molecules.')
+![Two water molecules. The oxygen of the left molecule carries a partial negative charge δ−, and a hydrogen of the right molecule carries a partial positive charge δ+. The attraction between them, a hydrogen bond, is shown as a dashed line.](../resources/Figure_18_06_03.svg 'This schematic shows water ( ( \\text{H}_2 \\text{O} ) ) as a polar molecule. Unequal sharing of electrons between the oxygen ( ( \\text{O} ) ) and hydrogen ( ( \\text{H} ) ) atoms leads to a net separation of positive and negative charge—forming a dipole. The symbols ( \\delta^{-} ) and ( \\delta^{+} ) indicate that the oxygen side of the ( \\text{H}_2 \\text{O} ) molecule tends to be more negative, while the hydrogen ends tend to be more positive. This leads to an attraction of opposite charges between molecules.')
 {: #Figure2}
 
 You are likely familiar with the role of electrical signals in nerve conduction and the importance of charges in cardiac and related activity. Changes in electrical properties are also essential in core biological processes. Ernest Everett Just, whose expertise in understanding and handling egg cells led to a number of critical experimental discoveries, investigated the role of the cell membrane in reproductive fertilization. In one key experiment, Just established that the egg membrane undergoes a depolarizing "wave of negativity" the moment it fuses with a sperm cell. This change in charge is now known as the "fast block" that ensures that only one sperm cell fuses with an egg cell and is critical for embryonic development.
@@ -99,9 +100,31 @@ While far more research is required to understand the triggering and response me
 
 ::: problem
 
-A cell membrane is a thin layer enveloping a cell. The thickness of the membrane is much less than the size of the cell. In a static situation the membrane has a charge distribution of  $$ -2.5 \times 10^{-6}  $$
-C/m <sup>2</sup> on its inner surface and  $$+ 2.5 \times 10^{-6}  $$
- C/m<sup>2</sup> on its outer surface. Draw a diagram of the cell and the surrounding cell membrane. Include on this diagram the charge distribution and the corresponding electric field. Is there any electric field inside the cell? Is there any electric field outside the cell?
+A cell membrane is a thin layer enveloping a cell. The thickness of the membrane is much less than the size of the cell. In a static situation the membrane has a charge distribution of $$ -2.5 \times 10^{-6}  $$
+C/m <sup>2</sup> on its inner surface and $$+ 2.5 \times 10^{-6}  $$
+C/m<sup>2</sup> on its outer surface. Draw a diagram of the cell and the surrounding cell membrane. Include on this diagram the charge distribution and the corresponding electric field. Is there any electric field inside the cell? Is there any electric field outside the cell?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use a spherical cell with a locally planar, thin membrane and equal and opposite total charges on the membrane faces.
+
+**Solution**
+
+The outer face is positive and the inner face negative, so the field within the membrane points inward, from outside toward the cytoplasm. For the ideal planar-sheet model in vacuum, the two sheets reinforce between them and cancel elsewhere:
+
+$$E_{\text{membrane}}=\frac{\sigma}{\epsilon_0}=\frac{2.5\times10^{-6}\text{ C/m}^2}{8.85\times10^{-12}\text{ C}^2/(\text{N}\cdot\text{m}^2)}=2.8\times10^5\text{ N/C}.$$
+
+A dielectric reduces this value by its relative permittivity. By spherical symmetry the field in the cell interior is zero, and the external field is zero when the two surfaces carry equal and opposite total charges.
+
+![A spherical cell cross section has negative charge on the inner membrane surface and positive charge on the outer surface. Electric field arrows point radially inward only within the thin membrane; the cytoplasm and exterior are labeled zero field in the equal-and-opposite-total-charge thin-membrane model.](../resources/concept_18_06_q01.svg)
+
+**Discussion**
+
+The zero external field uses the thin-membrane approximation. For finite concentric radii, exactly equal and opposite surface charge densities act on unequal areas, leaving a small net positive charge and a nonzero exterior field; exact cancellation requires equal and opposite total charges. In the stated thin-membrane idealization, the field is inward in the membrane and zero both inside the cell and outside it.
 
 :::
 
@@ -110,6 +133,7 @@ C/m <sup>2</sup> on its inner surface and  $$+ 2.5 \times 10^{-6}  $$
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 dipole

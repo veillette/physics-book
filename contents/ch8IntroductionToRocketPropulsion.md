@@ -248,6 +248,22 @@ significantly more air resistance than the intact shell?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The explosion involves only internal forces, which cannot change the total momentum. Gravity is the only external force on the shell, before and after. Take $$ +x $$ horizontal and $$ +y $$ upward.
+
+**Solution**
+
+**With negligible air resistance:** the forces between the pieces in the explosion are internal, and they cancel in pairs. The only external force is gravity, which is the same total force, $$ Mg $$ downward, before and after the explosion, because the pieces have the same total mass $$ M $$. The center of mass therefore keeps accelerating at $$ 9.80 \mss $$ downward and **follows the same parabolic path** it would have followed had the shell not exploded. For example, if a $$ 3.0 \kg $$ shell is moving horizontally at $$ 20 \ms $$ when it explodes, the total horizontal momentum of the pieces remains $$ (3.0 \kg)(20 \ms) = 60 \kg \cdot \ms $$, and the center of mass keeps moving horizontally at $$ 20 \ms $$. (This holds until the first piece hits the ground, which adds an external force.)
+
+**With significant air resistance on the pieces:** air resistance is an external force. The pieces scatter in different directions, and the drag on each one points opposite to its own velocity. Several small pieces also have more surface area than the single shell. The total drag is then larger than on the intact shell, so the center of mass **slows down more quickly** and no longer follows the original path. Typically it falls short of where the intact shell would have landed.
+
+The explosion does not affect the motion of the center of mass if air resistance is negligible, because the explosive forces are internal and gravity is unchanged, so the center of mass continues on the original parabola (keeping, for example, its $$ 60 \kg \cdot \ms $$ of horizontal momentum), but if the pieces experience more air resistance than the intact shell, that larger external force slows the center of mass and changes its path.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -263,6 +279,26 @@ away from this position, and explain the physics involved.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Take the astronaut plus everything he carries as the system. With no external force, the total momentum stays zero, so he can move only by pushing some mass away from himself, as a rocket does.
+
+**Solution**
+
+The astronaut can **throw an object** he is carrying, such as a tool, a shoe, or a camera, in the direction opposite to the one in which he wants to move. Take $$ +x $$ in his desired direction. Initially the total momentum is $$ 0 \kg \cdot \ms $$. If the $$ 80 \kg $$ astronaut throws a $$ 1.0 \kg $$ tool at $$ 4.0 \ms $$ in the $$ -x $$ direction, momentum conservation gives
+
+<div class="equation">
+$$ 0 = (1.0 \kg)(-4.0 \ms) + (80 \kg)v \quad \Rightarrow \quad v = +0.050 \ms $$
+</div>
+
+He drifts away at $$ 5.0 \text{ cm/s} $$, covering $$ 1 \m $$ in $$ 20 \s $$. By Newton's third law, as he pushes the tool backward the tool pushes him forward. This is the same principle as rocket propulsion. He could also blow air hard in one direction, like a rocket exhaust, but the momentum of exhaled air is tiny, so this works much more slowly. Waving his arms or legs does not help: his center of mass stays where it is, because no mass leaves the system.
+
+The astronaut can move by throwing an object, such as a $$ 1.0 \kg $$ tool at $$ 4.0 \ms $$, in the opposite direction, because his total momentum must stay zero, so he recoils the other way (here at $$ 0.050 \ms $$), just as a rocket is propelled by its exhaust.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -275,6 +311,28 @@ It is possible for the velocity of a rocket to be greater than the exhaust
 velocity of the gases it ejects. When that is the case, the gas velocity and gas
 momentum are in the same direction as that of the rocket. How is the rocket
 still able to obtain thrust by ejecting the gases?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Analyze the ejection of a small mass of gas in the ground frame using conservation of momentum, and compare the gas's velocity before and after it is ejected. Take $$ +x $$ in the direction the rocket moves.
+
+**Solution**
+
+Before it is ejected, the gas is **part of the rocket**, moving forward with it at the rocket's speed. Thrust comes from **changing** the gas's momentum, not from the gas moving backward relative to the ground.
+
+Suppose the rocket moves at $$ v = 3000 \ms $$ and ejects gas at an exhaust speed of $$ v_{e} = 2000 \ms $$ relative to the rocket. Relative to the ground, the gas then moves **forward** at
+
+<div class="equation">
+$$ v_{\text{gas}} = v - v_{e} = 3000 \ms - 2000 \ms = +1000 \ms $$
+</div>
+
+The gas still moves forward, but **more slowly** than it did while inside the rocket. Each kilogram ejected has its momentum reduced from $$ (1 \kg)(3000 \ms) = 3000 \kg \cdot \ms $$ to $$ (1 \kg)(1000 \ms) = 1000 \kg \cdot \ms $$, a change of $$ -2000 \kg \cdot \ms $$. The rocket pushed backward on the gas to slow it, so by Newton's third law the gas pushes forward on the rocket. Total momentum is conserved, so the rocket gains $$ +2000 \kg \cdot \ms $$ for each kilogram of gas ejected. Only the exhaust velocity *relative to the rocket* matters, which is why the thrust, $$ (\Delta m/\Delta t)\,v_{e} $$, does not depend on the rocket's speed.
+
+The rocket still obtains thrust because it pushes the gas backward relative to itself, slowing the gas down (for example, from $$ 3000 \ms $$ to $$ 1000 \ms $$ forward in the ground frame), and by Newton's third law, or conservation of momentum, the momentum the gas loses (here $$ 2000 \kg \cdot \ms $$ per kilogram) is gained by the rocket.
 
 ::::
 
@@ -346,6 +404,12 @@ of gas per second at an exhaust velocity of $$ 2.20\times 10^{3}\ms $$ ?
 
 Use the rocket acceleration equation with the Moon's gravitational acceleration instead of Earth's. The lower gravity on the Moon means rockets can achieve higher net acceleration with the same thrust.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up. The thrust F_thrust on the rocket points along +y; the weight mg, with g = 1.6 m/s² on the Moon, points along −y; the exhaust gas leaves along −y at v_e = 2.20 × 10³ m/s. The acceleration a points along +y.](../resources/sketch_08_07_p02.svg){: .sketch}
+
+Take $$ +y $$ upward. The thrust on the rocket points along $$ +y $$ and its weight along $$ -y $$ (the exhaust gas moves along $$ -y $$), so $$ \sum F_y = v_{\text{e}}\frac{\Delta m}{\Delta t} - mg = ma $$, and a positive $$ a $$ means the rocket speeds up as it rises.
+
 **Solution**
 
 Given:
@@ -397,7 +461,7 @@ Given:
 
 - Initial mass: $$ m_0 = 4000 \kg $$
 - Mass expelled: $$ \Delta m = 3500 \kg $$
-- Remaining mass: $$ m_{\text{r}} = m_0 - \Delta m = 4000 - 3500 = 500 \kg $$
+- Remaining mass: $$ m_{\text{r}} = m_0 - \Delta m = 4000 \kg - 3500 \kg = 500 \kg $$
 - Exhaust velocity: $$ v_{\text{e}} = 2.00 \times 10^{3} \ms $$
 
 Apply the rocket velocity equation:
@@ -453,14 +517,14 @@ For part (a), use the rocket velocity equation. For part (b), use the rocket acc
 
 - Initial mass: $$ m_0 = 20\,000 \kg $$
 - Mass expelled: $$ \Delta m = 40.0 \kg $$
-- Remaining mass: $$ m_{\text{r}} = 20\,000 - 40 = 19\,960 \kg $$
+- Remaining mass: $$ m_{\text{r}} = 20\,000 \kg - 40 \kg = 19\,960 \kg $$
 - Exhaust velocity: $$ v_{\text{e}} = 8.00 \times 10^{6} \ms $$
 
 Apply the rocket velocity equation:
 
 $$ \Delta v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
-$$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000}{19\,960}\right) $$
+$$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000 \kg}{19\,960 \kg}\right) $$
 
 $$ \Delta v = (8.00 \times 10^{6} \ms) \ln(1.002) = (8.00 \times 10^{6} \ms)(0.002) = 1.60 \times 10^{4} \ms $$
 
@@ -476,7 +540,7 @@ With negligible gravity, the rocket acceleration equation becomes:
 
 $$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
-$$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/kg})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
+$$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/(kg}\cdot\text{s)})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
 
 The acceleration is $$ 1.80 \times 10^{-3} \mss $$ (about 1.80 mm/s²).
 
@@ -501,6 +565,12 @@ Derive the equation for the vertical acceleration of a rocket.
 **Strategy**
 
 To derive the rocket acceleration equation, we analyze the forces on the ejected gas and apply Newton's third law to find the thrust force on the rocket. Then we apply Newton's second law to the rocket, accounting for both the thrust force (upward) and gravitational force (downward).
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up. The thrust F_thrust = v_e Δm/Δt on the rocket points along +y; the weight mg points along −y; the exhaust gas leaves along −y at speed v_e. The acceleration a points along +y.](../resources/sketch_08_07_p05.svg){: .sketch}
+
+Take $$ +y $$ upward, the direction of the rocket's motion. The exhaust gas is pushed along $$ -y $$, so by Newton's third law the thrust on the rocket points along $$ +y $$, while the weight $$ mg $$ points along $$ -y $$.
 
 **Solution**
 
@@ -565,6 +635,12 @@ on Earth's surface $$ \left( 9.80\mss \right) $$.
 **Strategy**
 
 For part (a), use the rocket acceleration equation and solve for the mass expulsion rate, setting the acceleration to 7g (seven times gravitational acceleration). For part (b), consider the physical and physiological limitations that would necessitate limiting acceleration.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up. The thrust F_thrust on the rocket points along +y; the weight mg points along −y; the exhaust gas leaves along −y at v_e = 2.40 × 10³ m/s. The acceleration a = 7g = +68.6 m/s² points along +y.](../resources/sketch_08_07_p06.svg){: .sketch}
+
+Take $$ +y $$ upward. The thrust points along $$ +y $$, the weight along $$ -y $$, and the acceleration $$ a = +7g $$ along $$ +y $$, so $$ \sum F_y = v_{\text{e}}\frac{\Delta m}{\Delta t} - mg = ma $$.
 
 **Solution**
 
@@ -639,7 +715,7 @@ Solve for exhaust velocity:
 
 $$ v_{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m_{\text{r}}}\right)} $$
 
-$$ v_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
+$$ v_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0 \kg}{70.0 \kg}\right)} $$
 
 $$ v_{\text{e}} = \frac{10.0 \ms}{\ln(1.0714)} $$
 
@@ -684,11 +760,11 @@ $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 Solve for the mass ratio:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3} \ms}{2.20 \times 10^{3} \ms} = 3.636 $$
 
-$$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.9 $$
+$$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.95 $$
 
-$$ m_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
+$$ m_{\text{r}} = \frac{m_0}{37.95} = \frac{100\,000 \kg}{37.95} = 2.63 \times 10^{3} \kg $$
 
 The mass that can be anything but fuel is $$ 2.63 \times 10^{3} \kg $$ (2630 kg), which is only 2.63% of the total rocket mass.
 
@@ -718,6 +794,12 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 **Strategy**
 
 Take the lab frame in which the squid is initially at rest. The ejected fluid leaves at $$ 10.0 \ms $$ in the direction opposite the squid’s recoil (that is, $$ v_{\text{fluid}}=-10.0 \ms $$ if recoil is positive). After ejection the squid’s mass is $$ m_{\text{f}}=5.00 \kg-0.250 \kg=4.75 \kg $$. Use momentum conservation for the ejection, then subtract the external impulse from friction over $$ \Delta t=0.100 \s $$. For part (b), estimate friction work from the distance traveled during ejection, assuming roughly constant acceleration so the average speed is half the final recoil speed.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the squid recoils. Before: the squid is at rest. During and after the 0.100-s ejection, 0.250 kg of fluid moves along −x at 10.0 m/s, friction f = 5.00 N on the squid points along −x, and the squid (4.75 kg after ejection) moves along +x with unknown velocity v.](../resources/sketch_08_07_p09.svg){: .sketch}
+
+Take $$ +x $$ in the direction the squid recoils. The ejected fluid moves along $$ -x $$ ($$ v_{\text{fluid}} = -10.0\ms $$), and friction on the squid also points along $$ -x $$, so its impulse subtracts from the squid's forward momentum.
 
 **Solution**
 
@@ -793,7 +875,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 
 Solving for initial speed:
 
-$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294}{0.643}} = \sqrt{457} = 21.4 \ms $$
+$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294 \mmss}{0.643}} = \sqrt{457 \mmss} = 21.4 \ms $$
 
 The squid would need an initial speed of approximately $$ 21.4 \ms $$ (about 77 km/h or 48 mph).
 
@@ -803,7 +885,7 @@ $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 With $$ v = 21.4 \ms $$ and $$ v_{\text{e}} = 12.0 \ms $$:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4 \ms}{12.0 \ms} = 1.78 $$
 
 $$ \frac{m_0}{m_{\text{r}}} = e^{1.78} = 5.93 $$
 
@@ -889,7 +971,7 @@ $$ (90 \kg) v_1 = (85 \kg) v_2 + (5.0 \kg)(v_2 - 8.0 \ms) \quad \Rightarrow \qua
 
 Third throw ($$ 85 \kg $$ moving at $$ v_2 $$):
 
-$$ v_3 = v_2 + \frac{(5.0 \kg)(8.0 \ms)}{85 \kg} = (8.0 \ms)\left(\frac{5.0}{95}+\frac{5.0}{90}+\frac{5.0}{85}\right) = 1.34 \ms $$
+$$ v_3 = v_2 + \frac{(5.0 \kg)(8.0 \ms)}{85 \kg} = (8.0 \ms)\left(\frac{5.0 \kg}{95 \kg}+\frac{5.0 \kg}{90 \kg}+\frac{5.0 \kg}{85 \kg}\right) = 1.34 \ms $$
 
 Time to reach the ship:
 
@@ -938,9 +1020,9 @@ Both projectiles are cylindrical with diameter 30 mm and length 150 mm, fired at
 
 Calculate mass (density = $$ 19\,100 \text{ kg/m}^3 $$):
 
-$$ V = \pi r^2 h = \pi (0.015)^2(0.150) = 1.06 \times 10^{-4} \text{ m}^3 $$
+$$ V = \pi r^2 h = \pi (0.015 \m)^2(0.150 \m) = 1.06 \times 10^{-4} \text{ m}^3 $$
 
-$$ m = \rho V = (19\,100)(1.06 \times 10^{-4}) = 2.02 \kg $$
+$$ m = \rho V = (19\,100 \text{kg/m}^3)(1.06 \times 10^{-4} \text{m}^3) = 2.02 \kg $$
 
 Using the work-energy theorem, where the projectile penetrates distance $$ d = 0.060 \m $$:
 
@@ -954,7 +1036,7 @@ Average force: $$ 37.9 \text{ MN} $$ (about 3860 tons-force)
 
 Mass (density = $$ 11\,300 \text{ kg/m}^3 $$):
 
-$$ m = (11\,300)(1.06 \times 10^{-4}) = 1.20 \kg $$
+$$ m = (11\,300 \text{kg/m}^3)(1.06 \times 10^{-4} \text{m}^3) = 1.20 \kg $$
 
 Average force:
 

@@ -115,7 +115,7 @@ living tissues, allowing the shroud to be dated (see [[Figure 2]](#Figure2)).
 ![The figure shows two images of Jesus. Left image is very faint and hardly visible but the right image shows a much clearer picture.](../resources/Figure_31_05_02.jpg 'Part of the Shroud of Turin, which shows a remarkable negative imprint likeness of Jesus complete with evidence of crucifixion wounds. The shroud first surfaced in the 14th century and was only recently carbon-14 dated. It has not been determined how the image was placed on the material. (credit: Butko, Wikimedia Commons)')
 {: #Figure2}
 
-::: example
+::: example {"class":"example","id":"shroud-dating"}
 
 <div class="title">
 How Old Is the Shroud of Turin?
@@ -178,6 +178,7 @@ We enter this value into the previous equation to find  $$t $$
 \:
 
 <div class="equation" >
+ <!-- physics: eq-25 -->
  $$t=\frac{ 0.0834}{\frac{ 0.693}{5730 \text{y}}}=690 \text{y} \text{.}  $$
 </div>
 
@@ -256,7 +257,7 @@ where $$N $$ is the number of radioactive nuclei present, having half-life
 $${t}\_{1/2} $$ . This relationship is useful in a variety of calculations, as
 the next two examples illustrate.
 
-::: example
+::: example {"class":"example","id":"carbon-activity"}
 
 <div class="title">
 How Great Is the
@@ -289,6 +290,7 @@ table.) Thus the number of carbon nuclei in a kilogram is
 So the number of  $${}^{14}\text{C} $$  nuclei in 1 kg of carbon is
 
 <div class="equation" >
+ <!-- physics: eq-16 -->
  $$N\left({}^{14}\text{C}\right)=\left( 5.02 \times 10^{25} \right)\left(1.3 \times 10^{\text{−12}}\right)= 6.52 \times 10^{13} \text{.} $$
 </div>
 
@@ -305,6 +307,7 @@ or  $$ 7.89 \times 10^{9}  $$
  decays per year. To convert this to the unit Bq, we simply convert years to seconds. Thus,
 
 <div class="equation" >
+ <!-- physics: eq-21 -->
  $$R=\left( 7.89 \times 10^{9}  {\text{y}}^{-1}\right)\frac{1.00 \text{y}}{ 3.16 \times 10^{7}  \text{s}}=250 \text{Bq} \text{,}  $$
 </div>
 
@@ -312,12 +315,14 @@ or 250 decays per second. To express  $$R $$
  in curies, we use the definition of a curie,
 
 <div class="equation" >
+ <!-- physics: eq-23 -->
  $$R=\frac{250 \text{Bq}}{ 3.7 \times 10^{10}  \text{Bq/Ci}}= 6.76 \times 10^{-9}  \text{Ci} \text{.}  $$
 </div>
 
 Thus,
 
 <div class="equation" >
+ <!-- physics: eq-24 -->
  $$R=6.76 \text{nCi} \text{.}  $$
 </div>
 

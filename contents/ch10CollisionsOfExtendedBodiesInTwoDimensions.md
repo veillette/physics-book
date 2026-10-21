@@ -267,6 +267,27 @@ Describe two different collisions—one in which angular momentum is conserved, 
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Specify the system, axis, and external angular impulse over the collision interval.
+
+**Solution**
+
+Angular momentum about a chosen fixed inertial origin, or about the system’s center of mass, is conserved when the net external angular impulse about that origin is zero or negligible:
+
+$$\Delta\vb L=\int\vb\tau_{\text{ext}}\,dt.$$
+
+**Conserved example:** Two pucks collide on an ideal frictionless horizontal surface. For the pucks together, the external torque about the vertical axis is zero, so total vertical angular momentum is conserved even if energy is dissipated internally.
+
+**Not conserved example:** A ball hits a rod fixed to a massive wall. For ball plus rod, an off-axis wall reaction can exert an external angular impulse. If an assumed external torque $$5.0\N\cdot\m$$ acts for $$0.020\s$$, then $$\Delta L=0.10\kg\cdot\mm/\s$$. Choosing a pivot where that wall force has zero moment may instead conserve a particular component about that point; the origin must be stated.
+
+Angular momentum is conserved in a collision when the system receives negligible net external angular impulse about the specified origin or axis, and it changes when a nonzero external angular impulse acts.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -277,6 +298,27 @@ Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and 
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Treat puck and stick as one system during a brief collision and separate isolation from elasticity.
+
+**Solution**
+
+Assume negligible horizontal friction and negligible external torque about the vertical axis. The puck-plus-stick system then conserves total horizontal **linear momentum** and total **angular momentum about the vertical axis**, measured about a fixed point on the ice or the system center of mass. The stick can acquire both translation and rotation; the puck’s momentum alone need not be conserved.
+
+If the materials make the collision approximately elastic, total kinetic energy, including the stick’s rotational energy, is also approximately conserved:
+
+$$K=\tfrac12m_pv_p^2+\tfrac12M_sv_{\text{CM},s}^2+\tfrac12I_s\omega_s^2.$$
+
+For example, an initially stationary stick and a $$0.16\kg$$ puck at $$10\ms$$ have initial momentum $$1.6\kg\cdot\ms$$ and kinetic energy $$8.0\J$$. Their combined final momentum remains $$1.6\kg\cdot\ms$$; the final kinetic energy is near $$8.0\J$$ only if deformation and sound losses are small.
+
+The puck and freely moving stick conserve total horizontal linear momentum and vertical-axis angular momentum under the stated isolation assumptions, and approximately conserve total translational-plus-rotational kinetic energy if the collision is nearly elastic.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -284,6 +326,31 @@ Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and 
 ::: problem
 
 While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Separate the brief steering input that initiates a lean from the steering during the completed turn.
+
+**Solution**
+
+This is **countersteering**: pulling the right grip backward briefly steers the front wheel to the right, which initiates a lean to the left; the steering then adjusts for the sustained left turn. It does not mean that the wheel remains steered right throughout the left turn.
+
+Choose $$+x$$ forward, $$+y$$ left, and $$+z$$ upward. The brief rightward steering moves the contact path to the right and produces a rightward road force below the combined center of mass. Its rolling torque tips the machine left. The spinning wheels also couple steering and lean gyroscopically: a forward-rolling wheel has spin angular momentum toward $$+y$$, and torques change its direction according to $$\vb\tau=d\vb L/dt$$. Road forces and steering geometry are essential too; gyroscopic effects alone are not a complete model of motorcycle steering.
+
+Once in a steady left turn, the machine leans left so that the road’s resultant force supports the weight and supplies inward acceleration. For an illustrative $$v=15\ms$$ and $$r=50\m$$,
+
+$$\tan\phi=\frac{v^2}{rg}=\frac{(15\ms)^2}{(50\m)(9.80\mss)}=0.459,\qquad \phi\approx25°.$$
+
+![Countersteering sketch: a brief rightward steer initiates a left lean, followed by a sustained left turn; forward, left, and upward axes are identified.](../resources/concept_10_07_q01.svg)
+
+This interpretation treats the light pull as an initiating steering input, not a permanently held steering angle. The coupled dynamics are discussed in [research on motorcycle countersteering](https://arxiv.org/abs/1611.03857).
+
+Pulling back briefly on the right handlebar initiates a rightward steer that tips the motorcycle left, after which the steering and road forces establish the left turn; wheel angular momentum contributes to this coupled response but does not by itself explain the whole motion.
 
 :::
 
@@ -321,7 +388,7 @@ For the stick rotating about one end: $$ I_{\text{stick}} = \frac{1}{3}ML^{2} = 
 
 For the disk at r = 0.100 m: $$ I_{\text{disk}} = mr^{2} = (0.0500 \kg)(0.100 \m)^2 = 5.00 \times 10^{-4} \kg \cdot \mm $$
 
-Total: $$ I' = 0.960 + 0.000500 = 0.9605 \kg \cdot \mm $$
+Total: $$ I' = 0.960 \text{kg}\cdot\text{m}^2 + 0.000500 \text{kg}\cdot\text{m}^2 = 0.9605 \kg \cdot \mm $$
 
 Using conservation of angular momentum:
 
@@ -347,14 +414,14 @@ $$ KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(0.9605 \kg \cdot \mm)(0.156 \te
 $$ p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
 </div>
 
-After collision, the disk moves at $$ v_{\text{disk}} = r\omega' = (0.100)(0.156) = 0.0156 \text{ m/s} $$
+After collision, the disk moves at $$ v_{\text{disk}} = r\omega' = (0.100 \m)(0.156 \rads) = 0.0156 \text{ m/s} $$
 
-The stick's center of mass is at L/2 = 0.600 m from pivot, moving at $$ v_{\text{CM}} = (0.600)(0.156) = 0.0936 \text{ m/s} $$
+The stick's center of mass is at L/2 = 0.600 m from pivot, moving at $$ v_{\text{CM}} = (0.600 \m)(0.156 \rads) = 0.0936 \text{ m/s} $$
 
 Final momentum:
 
 <div class="equation">
-$$ p_f = mv_{\text{disk}} + Mv_{\text{CM}} = (0.0500)(0.0156) + (2.00)(0.0936) = 0.188 \kg \cdot \ms $$
+$$ p_f = mv_{\text{disk}} + Mv_{\text{CM}} = (0.0500 \kg)(0.0156 \ms) + (2.00 \kg)(0.0936 \ms) = 0.188 \kg \cdot \ms $$
 </div>
 
 **Discussion**
@@ -414,23 +481,23 @@ $$ I_{\text{disk}} = \frac{1}{2}mR^{2} = \frac{1}{2}(0.0500 \kg)(0.0150 \m)^2 = 
 </div>
 
 <div class="equation">
-$$ L_{\text{spin}} = I_{\text{disk}}\omega_{0} = (5.625 \times 10^{-6})(104.72) = 5.890 \times 10^{-4} \kg \cdot \mms \text{ (clockwise)} $$
+$$ L_{\text{spin}} = I_{\text{disk}}\omega_{0} = (5.625 \times 10^{-6} \text{kg}\cdot\text{m}^2)(104.72 \rads) = 5.890 \times 10^{-4} \kg \cdot \mms \text{ (clockwise)} $$
 </div>
 
 <div class="equation">
-$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 + 0.000589 = 1.800589 \kg \cdot \mms $$
+$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 \text{kg}\cdot\text{m}^2/\text{s} + 0.000589 \text{kg}\cdot\text{m}^2/\text{s} = 1.800589 \kg \cdot \mms $$
 </div>
 
 **Final moment of inertia** about the nail: disk at the end of the stick, the stick, and the disk's own spin inertia:
 
 <div class="equation">
-$$ I' = mr^2 + \frac{1}{3}Mr^2 + \frac{1}{2}mR^2 = 0.0720 + 0.960 + 0.000005625 = 1.032006 \kg \cdot \mm $$
+$$ I' = mr^2 + \frac{1}{3}Mr^2 + \frac{1}{2}mR^2 = 0.0720 \text{kg}\cdot\text{m}^2 + 0.960 \text{kg}\cdot\text{m}^2 + 0.000005625 \text{kg}\cdot\text{m}^2 = 1.032006 \kg \cdot \mm $$
 </div>
 
 **(a) Final angular velocity:**
 
 <div class="equation">
-$$ \omega' = \frac{L}{I'} = \frac{1.800589}{1.032006} = 1.74475 \text{ rad/s} \approx 1.74 \text{ rad/s (clockwise)} $$
+$$ \omega' = \frac{L}{I'} = \frac{1.800589 \text{kg}\cdot\text{m}^2/\text{s}}{1.032006 \text{kg}\cdot\text{m}^2} = 1.74475 \text{ rad/s} \approx 1.74 \text{ rad/s (clockwise)} $$
 </div>
 
 **(b) Kinetic energies:**
@@ -440,7 +507,7 @@ $$ \KE_{i} = \frac{1}{2}mv^2 + \frac{1}{2}I_{\text{disk}}\omega_0^2 = 22.5 \J + 
 </div>
 
 <div class="equation">
-$$ \KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(1.032006)(1.74475)^2 = 1.57079 \J $$
+$$ \KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(1.032006 \text{kg}\cdot\text{m}^2)(1.74475 \rads)^2 = 1.57079 \J $$
 </div>
 
 **(c) Linear momenta** (in the disk's original direction of travel):
@@ -452,7 +519,7 @@ $$ p_i = mv = (0.0500 \kg)(30.0 \ms) = 1.50 \kg \cdot \ms $$
 After the collision, the disk moves at $$ r\omega' $$ and the stick's center of mass at $$ (r/2)\omega' $$:
 
 <div class="equation">
-$$ p_f = m r\omega' + M\frac{r}{2}\omega' = \left[(0.0500)(1.20) + (2.00)(0.600)\right](1.74475) = 2.19838 \kg \cdot \ms $$
+$$ p_f = m r\omega' + M\frac{r}{2}\omega' = \left[(0.0500 \kg)(1.20 \m) + (2.00 \kg)(0.600 \m)\right](1.74475 \rads) = 2.19838 \kg \cdot \ms $$
 </div>
 
 Linear momentum is not conserved because the nail exerts an external force on the stick during the collision.
@@ -503,7 +570,7 @@ $$ L_{\text{each}} = mvr = (70.0 \kg)(2.50 \text{ m/s})(0.800 \m) = 140 \kg \cdo
 Total initial angular momentum (both skaters):
 
 <div class="equation">
-$$ L_{\text{total}} = 2 \times 140 = 280 \kg \cdot \mms $$
+$$ L_{\text{total}} = 2 \times 140 \text{kg}\cdot\text{m}^2/\text{s} = 280 \kg \cdot \mms $$
 </div>
 
 After locking hands, the moment of inertia (treating each as a point mass):
@@ -583,7 +650,7 @@ $$ m_{\text{ball}}v_{\text{ball}} = (m_{\text{ball}} + m_{\text{person}})v' $$
 </div>
 
 <div class="equation">
-$$ v' = \frac{m_{\text{ball}}v_{\text{ball}}}{m_{\text{ball}} + m_{\text{person}}} = \frac{(0.250 \kg)(15.0 \text{ m/s})}{0.250 + 70.0} = \frac{3.75}{70.25} = 0.0534 \text{ m/s} $$
+$$ v' = \frac{m_{\text{ball}}v_{\text{ball}}}{m_{\text{ball}} + m_{\text{person}}} = \frac{(0.250 \kg)(15.0 \text{ m/s})}{0.250 \kg + 70.0 \kg} = \frac{3.75 \text{kg}\cdot\text{m/s}}{70.25 \kg} = 0.0534 \text{ m/s} $$
 </div>
 
 **(b)** For angular momentum, assume the ball is caught at arm's length (0.900 m from center).
@@ -613,7 +680,7 @@ $$ I_{\text{ball}} = m_{\text{ball}}r^2 = (0.250 \kg)(0.900 \m)^2 = 0.203 \kg \c
 
 Total moment of inertia:
 <div class="equation">
-$$ I_{\text{total}} = 0.972 + 2.70 + 0.203 = 3.875 \kg \cdot \mm $$
+$$ I_{\text{total}} = 0.972 \text{kg}\cdot\text{m}^2 + 2.70 \text{kg}\cdot\text{m}^2 + 0.203 \text{kg}\cdot\text{m}^2 = 3.875 \kg \cdot \mm $$
 </div>
 
 Angular velocity:
@@ -638,7 +705,7 @@ $$ KE_{\text{rot}} = \frac{1}{2}I_{\text{total}}\omega^{2} = \frac{1}{2}(3.875 \
 </div>
 
 <div class="equation">
-$$ KE_{f} = 0.100 + 1.47 = 1.57 \J $$
+$$ KE_{f} = 0.100 \J + 1.47 \J = 1.57 \J $$
 </div>
 
 **Discussion**
@@ -704,7 +771,7 @@ $$ KE_{i} = \frac{1}{2}mv^{2} = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22
 Final kinetic energy (translational plus rotational about CM):
 
 <div class="equation">
-$$ KE_{f} = 2.04 \J $$
+$$ KE_{f} = 2.05 \J $$
 </div>
 
 **(c)** Linear momentum is conserved:
@@ -715,13 +782,13 @@ $$ p_f = p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
 
 **Discussion**
 
-When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating at **3.41 rad/s**—substantially faster than the **1.74 rad/s** in Example 1 because rotation is now about the shifted center of mass with a smaller moment of inertia. Energy is still largely lost in the inelastic collision (22.5 - 2.04 = 20.5 J lost, or 91% loss).
+When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating at **3.41 rad/s**—substantially faster than the **1.74 rad/s** in Example 1 because rotation is now about the shifted center of mass with a smaller moment of inertia. Energy is still largely lost in the inelastic collision (22.5 J − 2.05 J = 20.5 J lost, or 91% loss).
 
 **Answer**
 
 (a) The system's center-of-mass velocity is **0.732 m/s**, and the angular velocity is **3.41 rad/s**.
 
-(b) Initial kinetic energy is 22.5 J; final kinetic energy is 2.04 J. About 91% of the energy is lost.
+(b) Initial kinetic energy is 22.5 J; final kinetic energy is 2.05 J. About 91% of the energy is lost.
 
 (c) Linear momentum is conserved at **1.50 kg·m/s** (unlike the nailed case where external forces act).
 

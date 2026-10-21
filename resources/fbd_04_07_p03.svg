@@ -6,20 +6,20 @@
 <line x1="200" y1="320" x2="200" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="200,40 204.2,50 195.8,50" fill="#555555"/>
 <path d="M 200 110 A 70 70 0 0 0 181.88 112.39" fill="none" stroke="#222222" stroke-width="1.5"/>
 <path d="M 310 180 A 110 110 0 0 0 308.33 160.9" fill="none" stroke="#222222" stroke-width="1.5"/>
-<line x1="200" y1="180" x2="178" y2="180" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="167,180 179,174.96 179,185.04" fill="#c0675e"/>
-<line x1="206" y1="180" x2="206" y2="67" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="206,56 211.04,68 200.96,68" fill="#c0675e"/>
+<line x1="200" y1="180" x2="177.87" y2="180" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="166.87,180 178.87,174.96 178.87,185.04" fill="#c0675e"/>
+<line x1="206" y1="180" x2="206" y2="67.36" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="206,56.36 211.04,68.36 200.96,68.36" fill="#c0675e"/>
 <line x1="200" y1="180" x2="169.72" y2="66.99" stroke="#b03a2e" stroke-width="3.5"/><polygon points="166.87,56.36 174.85,66.65 165.11,69.26" fill="#b03a2e"/>
-<line x1="200" y1="180" x2="260.07" y2="169.41" stroke="#b03a2e" stroke-width="3.5"/><polygon points="270.91,167.5 259.96,174.54 258.21,164.62" fill="#b03a2e"/>
-<line x1="200" y1="180" x2="200" y2="297" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,308 194.96,296 205.04,296" fill="#b03a2e"/>
+<line x1="200" y1="180" x2="222.3" y2="176.07" stroke="#b03a2e" stroke-width="3.5"/><polygon points="233.13,174.16 222.19,181.21 220.44,171.28" fill="#b03a2e"/>
+<line x1="200" y1="180" x2="200" y2="298.48" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,309.48 194.96,297.48 205.04,297.48" fill="#b03a2e"/>
 <circle cx="200" cy="180" r="6" fill="#1f3a5f"/>
 <text x="212" y="206" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">person</text>
 <text x="401" y="186" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
 <text x="200" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
 <text x="159.25" y="42.84" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal" font-size="14" dy="6">1</tspan><tspan dy="-6"></tspan></text>
-<text x="257.12" y="155.5" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal" font-size="14" dy="6">2</tspan><tspan dy="-6"></tspan></text>
+<text x="219.34" y="162.16" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal" font-size="14" dy="6">2</tspan><tspan dy="-6"></tspan></text>
 <text x="160" y="209" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="end" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal" font-size="14" dy="6">1</tspan><tspan dy="-6"></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 15°</tspan></text>
-<text x="218" y="95" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal" font-size="14" dy="6">1</tspan><tspan dy="-6"></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 15°</tspan></text>
-<text x="212" y="303" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="218" y="95.36" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal" font-size="14" dy="6">1</tspan><tspan dy="-6"></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 15°</tspan></text>
+<text x="212" y="304.48" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
 <text x="188.77" y="99.99" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">15°</tspan></text>
 <text x="323.53" y="174.44" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">10°</tspan></text>
 <text x="80" y="76" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>

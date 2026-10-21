@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="450" viewBox="0 0 1040 450" role="img" aria-labelledby="title desc">
+<title id="title">A car coasting over hilly terrain</title>
+<desc id="desc">A car experiencing non-negligible friction coasts down a hill, up over a small crest, down a second hill, and comes to a stop at a gas pump on the level ground at the bottom. Arrows mark each stage: coasts down hill, coasts up over crest, coasts down hill, stops for gasoline.</desc>
+<rect width="1040" height="450" fill="#ffffff"/>
+<defs><linearGradient id="ground-07-06-02" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcc4a3"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<path d="M 5 178 C 120 225 180 272 240 276 C 285 279 300 262 335 258 C 385 252 420 268 470 292 C 600 350 690 398 780 407 C 860 415 920 413 1035 413 L 1035 450 L 5 450 Z" fill="url(#ground-07-06-02)" stroke="none" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 5 178 C 120 225 180 272 240 276 C 285 279 300 262 335 258 C 385 252 420 268 470 292 C 600 350 690 398 780 407 C 860 415 920 413 1035 413" fill="none" stroke="#9b7653" stroke-width="16" stroke-linejoin="round"/>
+<g transform="translate(0 -3)">
+<path d="M 5 178 C 120 225 180 272 240 276 C 285 279 300 262 335 258 C 385 252 420 268 470 292 C 600 350 690 398 780 407 C 860 415 920 413 1035 413" fill="none" stroke="#c8c8c8" stroke-width="10" stroke-linejoin="round"/>
+</g>
+<g transform="translate(545 318.04443034041714) rotate(24.6)">
+<path d="M -56 -8 L -56 -26 Q -50 -32 -32 -32 L -18 -50 L 22 -50 L 40 -32 Q 54 -31 58 -22 L 58 -8 Z" fill="#5bc8d6" stroke="#2b8a99" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="-14,-46 0,-46 0,-33 -25,-33" fill="#d8f1f5"/>
+<polygon points="5,-46 20,-46 33,-33 5,-33" fill="#d8f1f5"/>
+<circle cx="-32" cy="-8" r="10" fill="#333333"/>
+<circle cx="-32" cy="-8" r="4" fill="#cccccc"/>
+<circle cx="34" cy="-8" r="10" fill="#333333"/>
+<circle cx="34" cy="-8" r="4" fill="#cccccc"/>
+</g>
+<rect x="918" y="401.2" width="115" height="8" fill="#a0a0a0"/>
+<rect x="938" y="351.2" width="34" height="50" rx="4" fill="#f2c14e" stroke="#b3862a" stroke-width="2"/>
+<rect x="941" y="337.2" width="28" height="18" rx="3" fill="#1f4e79" stroke="#173a5a" stroke-width="1.5"/>
+<line x1="946" y1="346.2" x2="964" y2="346.2" stroke="#ffffff" stroke-width="2"/>
+<path d="M 972 363.19502692616857 Q 990 363.19502692616857 985 389.19502692616857" fill="none" stroke="#333333" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="78" y="51.08" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Coasts</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Down</tspan></text>
+<text x="78" y="76.08" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Hill</tspan></text>
+<line x1="78" y1="95.73" x2="78" y2="175.73" stroke="#222222" stroke-width="2.2"/>
+<polygon points="78,190.73 71.6,174.73 84.4,174.73" fill="#222222"/>
+<text x="312" y="101.19" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Coasts</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Up</tspan></text>
+<text x="312" y="126.19" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Over</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Crest</tspan></text>
+<line x1="312" y1="145.84" x2="312" y2="225.84" stroke="#222222" stroke-width="2.2"/>
+<polygon points="312,240.84 305.6,224.84 318.4,224.84" fill="#222222"/>
+<text x="550" y="58.68" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Coasts</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Down</tspan></text>
+<text x="550" y="83.68" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Hill</tspan></text>
+<line x1="550" y1="103.33" x2="550" y2="183.33" stroke="#222222" stroke-width="2.2"/>
+<polygon points="550,198.33 543.6,182.33 556.4,182.33" fill="#222222"/>
+<text x="955" y="111.55" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Stops</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">for</tspan></text>
+<text x="955" y="136.55" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gasoline</tspan></text>
+<line x1="955" y1="156.2" x2="955" y2="236.2" stroke="#222222" stroke-width="2.2"/>
+<polygon points="955,251.2 948.6,235.2 961.4,235.2" fill="#222222"/>
+</svg>

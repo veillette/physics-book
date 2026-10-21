@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 4
 chapterNumber: 12
 ---
+
 ::: abstract
 
-* Define laminar flow and turbulent flow.
-* Explain what viscosity is.
-* Calculate flow and resistance with Poiseuille’s law.
-* Explain how pressure drops due to resistance.
+- Define laminar flow and turbulent flow.
+- Explain what viscosity is.
+- Calculate flow and resistance with Poiseuille’s law.
+- Explain how pressure drops due to resistance.
 
 :::
 
@@ -71,16 +72,16 @@ it, trying to drag it along, producing a continuous variation in speed from $$v 
 
 to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
 layers do not mix. The motion in [[Figure 3]](#Figure3) is like a continuous
-shearing motion. Fluids have zero shear strength, but the *rate* at which they
+shearing motion. Fluids have zero shear strength, but the _rate_ at which they
 are sheared is related to the same geometrical factors $$A $$ and $$L $$ as is
 shear deformation for solids.
 
-![The figure shows the laminar flow of fluid between two rectangular plates each of area A. The bottom plate is shown as fixed. The distance between the plates is L. The top plate is shown to be pushed to right with a force F. The direction of movement of the layer of fluid in contact with the top plate is also toward right with velocity v. The fluid in contact with the plate in the bottom is shown to be in rest with v equals zero. As we see through the layers above the one on the bottom plate, each show a small displacement toward right in increasing order of value with the topmost layer showing the maximum.](../resources/Figure_12_04_03.jpg "The graphic shows laminar flow of fluid between two plates of area \( A \) . The bottom plate is fixed. When the top plate is pushed to the right, it drags the fluid along with it.")
+![The figure shows the laminar flow of fluid between two rectangular plates each of area A. The bottom plate is shown as fixed. The distance between the plates is L. The top plate is shown to be pushed to right with a force F. The direction of movement of the layer of fluid in contact with the top plate is also toward right with velocity v. The fluid in contact with the plate in the bottom is shown to be in rest with v equals zero. As we see through the layers above the one on the bottom plate, each show a small displacement toward right in increasing order of value with the topmost layer showing the maximum.](/resources/Figure_12_04_03.svg 'The graphic shows laminar flow of fluid between two plates of area ( A ) . The bottom plate is fixed. When the top plate is pushed to the right, it drags the fluid along with it.')
 {: #Figure3}
 
 A force $$F $$ is required to keep the top plate in [[Figure 3]](#Figure3)
 moving at a constant velocity $$v $$ , and experiments have shown that this
-force depends on four factors. First, $$F $$ is directly proportional to $$v $$  (until the speed is so high that turbulence occurs—then a much larger force
+force depends on four factors. First, $$F $$ is directly proportional to $$v $$ (until the speed is so high that turbulence occurs—then a much larger force
 is needed, and it has a more complicated dependence on $$v $$ ). Second, $$F $$
 is proportional to the area $$A $$ of the plate. This relationship seems
 reasonable, since $$A $$ is directly proportional to the amount of fluid being
@@ -148,7 +149,7 @@ This equation is called **Poiseuille’s law for resistance** after the French
 scientist J. L. Poiseuille (1799–1869), who derived it in an attempt to
 understand the flow of blood, an often turbulent fluid.
 
-![Part a of the diagram shows a fluid flow across a rectangular non viscous medium. The speed of the fluid is shown to be same across the tube represented as same length of vertical rising arrows. Part b of the diagram shows a fluid flow across a rectangular viscous medium. The speed of the fluid speed at the walls is zero, increasing steadily to its maximum at the center of the tube represented as wave like variation for length of vertical rising arrows. Part c of the figure shows a burning Bunsen burner.](../resources/Figure_12_04_04.jpg "(a) If fluid flow in a tube has negligible resistance, the speed is the same all across the tube. (b) When a viscous fluid flows through a tube, its speed at the walls is zero, increasing steadily to its maximum at the center of the tube. (c) The shape of the Bunsen burner flame is due to the velocity profile across the tube. (credit: Jason Woodhead)")
+![Part a of the diagram shows a fluid flow across a rectangular non viscous medium. The speed of the fluid is shown to be same across the tube represented as same length of vertical rising arrows. Part b of the diagram shows a fluid flow across a rectangular viscous medium. The speed of the fluid speed at the walls is zero, increasing steadily to its maximum at the center of the tube represented as wave like variation for length of vertical rising arrows. Part c of the figure shows a burning Bunsen burner.](../resources/Figure_12_04_04.jpg '(a) If fluid flow in a tube has negligible resistance, the speed is the same all across the tube. (b) When a viscous fluid flows through a tube, its speed at the walls is zero, increasing steadily to its maximum at the center of the tube. (c) The shape of the Bunsen burner flame is due to the velocity profile across the tube. (credit: Jason Woodhead)')
 {: #Figure4}
 
 Let us examine Poiseuille’s expression for $$R $$ to see if it makes good
@@ -158,7 +159,7 @@ directly affect the amount of friction encountered—the greater either is, the
 greater the resistance and the smaller the flow. The radius $$r $$ of a tube
 affects the resistance, which again makes sense, because the greater the radius,
 the greater the flow (all other factors remaining the same). But it is
-surprising that $$r $$ is raised to the *fourth* power in Poiseuille’s law. This
+surprising that $$r $$ is raised to the _fourth_ power in Poiseuille’s law. This
 exponent means that any change in the radius of a tube has a very large effect
 on resistance. For example, doubling the radius of a tube decreases resistance
 by a factor of $${2}^{4}=16 $$.
@@ -199,8 +200,8 @@ along the artery we have
  $$\frac{ {Q}_{1}}{ {r}_{1}^{4}}=\frac{ {Q}_{2}}{ {r}_{2}^{4}}\text{.}$$
 </div>
 
-So, given that  $${Q}_{2}= 0.5{Q}_{1} $$ ,
- we find that  $${r}_{2}^{4}=0.5r_{1}^{4} $$.
+So, given that $${Q}_{2}= 0.5{Q}_{1} $$ ,
+we find that $${r}_{2}^{4}=0.5r_{1}^{4} $$.
 
 Therefore, $${r}_{2}={\left( 0.5\right)}^{ 0.25}{r}_{1}= 0.841{r}_{1} $$ , a
 decrease in the artery radius of 16%.
@@ -358,7 +359,7 @@ gauge, you may notice that oil pressure is high when the engine is cold. Motor
 oil has greater viscosity when cold than when warm, and so pressure must be
 greater to pump the same amount of cold oil.
 
-![The figure shows a section of a cylindrical tube of length l. The two end cross section are shown to have pressure P two and P one respectively. The radius of the cylindrical tube is given by r. The direction of flow is shown by horizontal arrows toward right end of the tube. The flow rate is marked as Q.](../resources/Figure_12_04_05.jpg "Poiseuille&#x2019;s law applies to laminar flow of an incompressible fluid of viscosity \( \eta \) through a tube of length \( l \) and radius \( r \). The direction of flow is from greater to lower pressure. Flow rate \( Q \) is directly proportional to the pressure difference \( P_2-P_1 \) , and inversely proportional to the length \( l \) of the tube and viscosity \( \eta \) of the fluid. Flow rate increases with \( r^4 \), the fourth power of the radius.")
+![The figure shows a section of a cylindrical tube of length l. The two end cross section are shown to have pressure P two and P one respectively. The radius of the cylindrical tube is given by r. The direction of flow is shown by horizontal arrows toward right end of the tube. The flow rate is marked as Q.](/resources/Figure_12_04_05.svg 'Poiseuille’s law applies to laminar flow of an incompressible fluid of viscosity ( \\eta ) through a tube of length ( l ) and radius ( r ). The direction of flow is from greater to lower pressure. Flow rate ( Q ) is directly proportional to the pressure difference ( P_2-P_1 ) , and inversely proportional to the length ( l ) of the tube and viscosity ( \\eta ) of the fluid. Flow rate increases with ( r^4 ), the fourth power of the radius.')
 {: #Figure5}
 
 ::: example {"id":"Example2","class":"example"}
@@ -367,8 +368,8 @@ greater to pump the same amount of cold oil.
 What Pressure Produces This Flow Rate?
 </div>
 
-An intravenous (IV) system is supplying saline solution to a patient at the rate of  $$ 0.120 {\text{cm}}^{3}\text{/s} $$
- through a needle of radius 0.150 mm and length 2.50 cm. What pressure is needed at the entrance of the needle to cause this flow, assuming the viscosity of the saline solution to be the same as that of water? The gauge pressure of the blood in the patient’s vein is 8.00 mm Hg. (Assume that the temperature is  $$20 \text{ºC} $$ .)
+An intravenous (IV) system is supplying saline solution to a patient at the rate of $$ 0.120 {\text{cm}}^{3}\text{/s} $$
+through a needle of radius 0.150 mm and length 2.50 cm. What pressure is needed at the entrance of the needle to cause this flow, assuming the viscosity of the saline solution to be the same as that of water? The gauge pressure of the blood in the patient’s vein is 8.00 mm Hg. (Assume that the temperature is $$20 \text{ºC} $$ .)
 
 **Strategy**
 
@@ -378,9 +379,9 @@ Assuming laminar flow, Poiseuille's law applies. This is given by
  $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi {r}^{4}}{8\eta l}\text{,}$$
 </div>
 
-where  $${P}_{2} $$
- is the pressure at the entrance of the needle and  $${P}_{1} $$
- is the pressure in the vein. The only unknown is  $${P}_{2} $$.
+where $${P}_{2} $$
+is the pressure at the entrance of the needle and $${P}_{1} $$
+is the pressure in the vein. The only unknown is $${P}_{2} $$.
 
 **Solution**
 
@@ -390,9 +391,9 @@ Solving for $${P}_{2} $$ yields
  $${P}_{2}=\frac{8\eta l}{ \pi r^{4}}Q+{P}_{1}\text{.}$$
 </div>
 
- $${P}_{1} $$
- is given as 8.00 mm Hg, which converts to  $$ 1.066 \times 10^{3}  {\text{N/m}}^{2} $$ .
- Substituting this and the other known values yields
+$${P}_{1} $$
+is given as 8.00 mm Hg, which converts to $$ 1.066 \times 10^{3}  {\text{N/m}}^{2} $$ .
+Substituting this and the other known values yields
 
 <div class="equation" >
  $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3} \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2} \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3} \text{m} \right)}^{4}}\right] \left( 1.20 \times 10^{-7} {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3} {\text{N/m}}^{2}\\ {P}_{2}& =& 1.62 \times 10^{4} {\text{N/m}}^{2}\text{.}\end{array}$$
@@ -477,6 +478,27 @@ is about 25 cm/s, while in the capillaries ( $$20\mu \text{m} $$ in diameter)
 the velocity is about 1 mm/s. This reduced velocity allows the blood to exchange
 substances with the cells in the capillaries and alveoli in particular.
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Laminar Flow past an Obstacle
+</div>
+
+Watch streamlines around an obstacle. At low speed the flow stays smooth. Raise the speed and the wake begins to waver.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/FluidDynamics/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Laminar flow past an obstacle
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Laminar flow is characterized by smooth flow of the fluid in layers that do
@@ -530,6 +552,7 @@ We consider the molecular mechanisms that cause viscosity in liquids versus gase
 
 **Liquids (viscosity decreases with temperature):**
 In liquids, viscosity is primarily due to intermolecular cohesive forces (van der Waals forces, hydrogen bonding, etc.) that resist the sliding of fluid layers past each other. When temperature increases:
+
 - Molecules gain kinetic energy and move more rapidly
 - This increased thermal motion helps molecules overcome the cohesive forces binding them to neighbors
 - The "stickiness" between fluid layers decreases
@@ -537,6 +560,7 @@ In liquids, viscosity is primarily due to intermolecular cohesive forces (van de
 
 **Gases (viscosity increases with temperature):**
 In gases, molecules are far apart, so cohesive forces are negligible. Instead, viscosity arises from momentum transfer during molecular collisions. When temperature increases:
+
 - Molecules move faster (average speed $$\propto \sqrt{T}$$)
 - Faster molecules collide more frequently and transfer more momentum between layers
 - This increased momentum exchange creates more internal friction
@@ -567,6 +591,7 @@ We consider how the velocity profile in a river varies from shore to center due 
 **Solution**
 
 Due to viscosity, water in a river doesn't flow at the same speed everywhere. The water experiences drag from the riverbed and banks, creating a velocity profile:
+
 - **Near shore**: Water flows slowly due to friction with the riverbed and banks
 - **Near center**: Water flows fastest because it's farthest from the frictional boundaries
 
@@ -624,7 +649,7 @@ This is why modern plumbing codes require larger supply pipes and pressure-balan
 
 Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 8]](#Figure8). Explain why they are needed and how they work.
 
-![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
+![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](/resources/Figure_12_04_08.svg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
 {: #Figure8}
 
 :::
@@ -641,11 +666,13 @@ These air-filled tubes are called "air chambers" or "water hammer arrestors." Th
 
 **The problem (water hammer):**
 When a faucet is quickly closed, the moving water must stop abruptly. Water is nearly incompressible, so its momentum creates a large pressure spike (often thousands of kPa). This pressure wave travels through the pipes, causing:
+
 - Loud banging noises
 - Stress on pipe joints
 - Potential pipe damage over time
 
 **How the air chamber works:**
+
 1. The vertical tube traps a pocket of air at the top (air is much less dense than water and rises)
 2. When water flow stops suddenly, the pressure surge pushes water up into the air chamber
 3. The trapped air compresses, absorbing the shock like a spring
@@ -666,10 +693,10 @@ Air chambers are simple, passive devices that prevent water hammer without requi
 
 ::: problem
 
-(a) Calculate the retarding force due to the viscosity of the air layer between a cart and a level air track given the following information—air temperature is  $$20 \text{ºC} $$ ,
- the cart is moving at 0.400 m/s, its surface area is  $$ 2.50 \times 10^{-2}  {\text{m}}^{2} $$ ,
- and the thickness of the air layer is  $$ 6.00 \times 10^{-5}  \text{m} $$ .
- (b) What is the ratio of this force to the weight of the 0.300-kg cart?
+(a) Calculate the retarding force due to the viscosity of the air layer between a cart and a level air track given the following information—air temperature is $$20 \text{ºC} $$ ,
+the cart is moving at 0.400 m/s, its surface area is $$ 2.50 \times 10^{-2}  {\text{m}}^{2} $$ ,
+and the thickness of the air layer is $$ 6.00 \times 10^{-5}  \text{m} $$ .
+(b) What is the ratio of this force to the weight of the 0.300-kg cart?
 
 :::
 
@@ -682,6 +709,7 @@ We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ where $$\eta$$ is 
 **Solution**
 
 Given:
+
 - Air viscosity at 20°C: $$\eta = 0.0181 \text{ mPa·s} = 1.81 \times 10^{-5} \text{ Pa·s}$$
 - Velocity: $$v = 0.400 \text{ m/s}$$
 - Area: $$A = 2.50 \times 10^{-2} \text{ m}^2$$
@@ -691,7 +719,7 @@ Given:
 **(a)** Calculate the viscous force:
 $$F = \eta \frac{vA}{L} = (1.81 \times 10^{-5} \text{ Pa·s}) \frac{(0.400 \text{ m/s})(2.50 \times 10^{-2} \text{ m}^2)}{6.00 \times 10^{-5} \text{ m}}$$
 
-$$F = (1.81 \times 10^{-5}) \frac{0.0100}{6.00 \times 10^{-5}} = (1.81 \times 10^{-5})(166.7) = 3.02 \times 10^{-3} \text{ N}$$
+$$F = (1.81 \times 10^{-5} \text{ Pa·s}) \frac{0.0100 \text{ m}^3/\text{s}}{6.00 \times 10^{-5} \text{ m}} = (1.81 \times 10^{-5} \text{ Pa·s})(166.7 \text{ m}^2/\text{s}) = 3.02 \times 10^{-3} \text{ N}$$
 
 **(b)** Calculate the weight and ratio:
 $$W = mg = (0.300 \text{ kg})(9.80 \text{ m/s}^2) = 2.94 \text{ N}$$
@@ -710,8 +738,8 @@ The viscous retarding force is **(a) 3.02 × 10⁻³ N**, and the ratio to the c
 
 ::: problem
 
-What force is needed to pull one microscope slide over another at a speed of 1.00 cm/s, if there is a 0.500-mm-thick layer of  $$20 \text{ºC} $$
- water between them and the contact area is  $$8.00 {\text{cm}}^{2} $$ ?
+What force is needed to pull one microscope slide over another at a speed of 1.00 cm/s, if there is a 0.500-mm-thick layer of $$20 \text{ºC} $$
+water between them and the contact area is $$8.00 {\text{cm}}^{2} $$ ?
 
 :::
 
@@ -724,6 +752,7 @@ We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ with the viscosity
 **Solution**
 
 Given:
+
 - Water viscosity at 20°C: $$\eta = 1.002 \text{ mPa·s} = 1.002 \times 10^{-3} \text{ Pa·s}$$
 - Velocity: $$v = 1.00 \text{ cm/s} = 0.0100 \text{ m/s}$$
 - Layer thickness: $$L = 0.500 \text{ mm} = 5.00 \times 10^{-4} \text{ m}$$
@@ -732,7 +761,7 @@ Given:
 Calculate the force:
 $$F = \eta \frac{vA}{L} = (1.002 \times 10^{-3} \text{ Pa·s}) \frac{(0.0100 \text{ m/s})(8.00 \times 10^{-4} \text{ m}^2)}{5.00 \times 10^{-4} \text{ m}}$$
 
-$$F = (1.002 \times 10^{-3}) \frac{8.00 \times 10^{-6}}{5.00 \times 10^{-4}} = (1.002 \times 10^{-3})(0.0160) = 1.60 \times 10^{-5} \text{ N}$$
+$$F = (1.002 \times 10^{-3} \text{ Pa·s}) \frac{8.00 \times 10^{-6} \text{ m}^3/\text{s}}{5.00 \times 10^{-4} \text{ m}} = (1.002 \times 10^{-3} \text{ Pa·s})(0.0160 \text{ m}^2/\text{s}) = 1.60 \times 10^{-5} \text{ N}$$
 
 **Discussion**
 
@@ -746,8 +775,8 @@ The force needed is approximately **1.60 × 10⁻⁵ N** (16 micronewtons). This
 
 ::: problem
 
-A glucose solution being administered with an IV has a flow rate of  $$ 4.00 {\text{cm}}^{3}\text{/min} $$ .
- What will the new flow rate be if the glucose is replaced by whole blood having the same density but a viscosity 2.50 times that of the glucose? All other factors remain constant.
+A glucose solution being administered with an IV has a flow rate of $$ 4.00 {\text{cm}}^{3}\text{/min} $$ .
+What will the new flow rate be if the glucose is replaced by whole blood having the same density but a viscosity 2.50 times that of the glucose? All other factors remain constant.
 
 :::
 
@@ -790,13 +819,13 @@ The pressure drop along a horizontal uniform section of artery is 100 Pa, its ra
 
 **(a)** The resultant force from the end pressures is
 
-$$F_P=\Delta PA=(100)\pi(0.010)^2=3.14\times10^{-2}\ \text{N}.$$
+$$F_P=\Delta PA=(100\ \text{Pa})\pi(0.010\ \text{m})^2=3.14\times10^{-2}\ \text{N}.$$
 
 For steady flow through a horizontal uniform section, viscous drag balances this pressure force, so the **net force including drag is zero**.
 
 **(b)** The flow rate and mechanical power supplied against the resistance are
 
-$$Q=Av=\pi(0.010)^2(0.015)=4.71\times10^{-6}\ \text{m}^3/\text{s},$$
+$$Q=Av=\pi(0.010\ \text{m})^2(0.015\ \text{m/s})=4.71\times10^{-6}\ \text{m}^3/\text{s},$$
 
 $$P=\Delta PQ=4.71\times10^{-4}\ \text{W}.$$
 
@@ -809,9 +838,9 @@ The end-pressure force drives the flow while viscous resistance dissipates the s
 
 ::: problem
 
-A small artery has a length of  $$ 1.1 \times 10^{-3}  \text{m} $$
- and a radius of  $$ 2.5 \times 10^{-5}  \text{m} $$ .
- If the pressure drop across the artery is 1.3 kPa, what is the flow rate through the artery? (Assume that the temperature is <span> $$37 \text{ºC} $$ .)
+A small artery has a length of $$ 1.1 \times 10^{-3}  \text{m} $$
+and a radius of $$ 2.5 \times 10^{-5}  \text{m} $$ .
+If the pressure drop across the artery is 1.3 kPa, what is the flow rate through the artery? (Assume that the temperature is <span> $$37 \text{ºC} $$ .)
 </span>
 
 :::
@@ -825,6 +854,7 @@ We use Poiseuille's law to calculate the flow rate given the pressure drop, dime
 **Solution**
 
 Given:
+
 - Length: $$l = 1.1 \times 10^{-3} \text{ m}$$
 - Radius: $$r = 2.5 \times 10^{-5} \text{ m}$$
 - Pressure drop: $$\Delta P = 1.3 \text{ kPa} = 1300 \text{ Pa}$$
@@ -835,7 +865,7 @@ $$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$
 
 $$Q = \frac{(1300 \text{ Pa}) \cdot \pi (2.5 \times 10^{-5} \text{ m})^4}{8(2.084 \times 10^{-3} \text{ Pa·s})(1.1 \times 10^{-3} \text{ m})}$$
 
-$$Q = \frac{(1300) \cdot \pi (3.91 \times 10^{-19})}{8(2.29 \times 10^{-6})} = \frac{1.60 \times 10^{-15}}{1.83 \times 10^{-5}}$$
+$$Q = \frac{(1300 \text{ Pa}) \cdot \pi (3.91 \times 10^{-19} \text{ m}^4)}{8(2.29 \times 10^{-6} \text{ Pa·s}\cdot\text{m})} = \frac{1.60 \times 10^{-15} \text{ Pa}\cdot\text{m}^4}{1.83 \times 10^{-5} \text{ Pa·s}\cdot\text{m}}$$
 
 $$Q = 8.7 \times 10^{-11} \text{ m}^3/\text{s}$$
 
@@ -851,8 +881,8 @@ The flow rate through this small artery is approximately **8.7 × 10⁻¹¹ m³/
 
 ::: problem
 
-Fluid originally flows through a tube at a rate of  $$100 {\text{cm}}^{3}\text{/s} $$ .
- To illustrate the sensitivity of flow rate to various factors, calculate the new flow rate for the following changes with all other factors remaining the same as in the original conditions. (a) Pressure difference increases by a factor of 1.50. (b) A new fluid with 3.00 times greater viscosity is substituted. (c) The tube is replaced by one having 4.00 times the length. (d) Another tube is used with a radius 0.100 times the original. (e) Yet another tube is substituted with a radius 0.100 times the original and half the length, *and* the pressure difference is increased by a factor of 1.50.
+Fluid originally flows through a tube at a rate of $$100 {\text{cm}}^{3}\text{/s} $$ .
+To illustrate the sensitivity of flow rate to various factors, calculate the new flow rate for the following changes with all other factors remaining the same as in the original conditions. (a) Pressure difference increases by a factor of 1.50. (b) A new fluid with 3.00 times greater viscosity is substituted. (c) The tube is replaced by one having 4.00 times the length. (d) Another tube is used with a radius 0.100 times the original. (e) Yet another tube is substituted with a radius 0.100 times the original and half the length, _and_ the pressure difference is increased by a factor of 1.50.
 
 :::
 
@@ -869,19 +899,19 @@ Original flow rate: $$Q_0 = 100 \text{ cm}^3/\text{s}$$
 From Poiseuille's law: $$Q \propto \frac{\Delta P \cdot r^4}{\eta \cdot l}$$
 
 **(a)** Pressure difference increases by 1.50:
-$$Q_a = Q_0 \times 1.50 = 100 \times 1.50 = 150 \text{ cm}^3/\text{s}$$
+$$Q_a = Q_0 \times 1.50 = (100 \text{ cm}^3/\text{s}) \times 1.50 = 150 \text{ cm}^3/\text{s}$$
 
 **(b)** Viscosity increases by 3.00:
-$$Q_b = Q_0 \times \frac{1}{3.00} = 100 \times \frac{1}{3.00} = 33.3 \text{ cm}^3/\text{s}$$
+$$Q_b = Q_0 \times \frac{1}{3.00} = (100 \text{ cm}^3/\text{s}) \times \frac{1}{3.00} = 33.3 \text{ cm}^3/\text{s}$$
 
 **(c)** Length increases by 4.00:
-$$Q_c = Q_0 \times \frac{1}{4.00} = 100 \times \frac{1}{4.00} = 25.0 \text{ cm}^3/\text{s}$$
+$$Q_c = Q_0 \times \frac{1}{4.00} = (100 \text{ cm}^3/\text{s}) \times \frac{1}{4.00} = 25.0 \text{ cm}^3/\text{s}$$
 
 **(d)** Radius becomes 0.100 times original:
-$$Q_d = Q_0 \times (0.100)^4 = 100 \times 0.0001 = 0.0100 \text{ cm}^3/\text{s}$$
+$$Q_d = Q_0 \times (0.100)^4 = (100 \text{ cm}^3/\text{s}) \times 0.0001 = 0.0100 \text{ cm}^3/\text{s}$$
 
 **(e)** Radius 0.100 times, length half, pressure 1.50 times:
-$$Q_e = Q_0 \times (0.100)^4 \times \frac{1}{0.5} \times 1.50 = 100 \times 0.0001 \times 2 \times 1.50 = 0.0300 \text{ cm}^3/\text{s}$$
+$$Q_e = Q_0 \times (0.100)^4 \times \frac{1}{0.5} \times 1.50 = (100 \text{ cm}^3/\text{s}) \times 0.0001 \times 2 \times 1.50 = 0.0300 \text{ cm}^3/\text{s}$$
 
 **Discussion**
 
@@ -988,6 +1018,7 @@ With $$r_2 = 0.90 r_1$$:
 $$\frac{\Delta P_2}{\Delta P_1} = \frac{r_1^4}{r_2^4} = \frac{r_1^4}{(0.90 r_1)^4} = \frac{1}{(0.90)^4} = \frac{1}{0.656} = 1.52$$
 
 **(b)** If turbulence is created by the obstruction:
+
 - Turbulence significantly increases resistance to flow beyond what Poiseuille's law predicts
 - For turbulent flow, resistance scales approximately with $$v^2$$ rather than $$v$$
 - This would decrease the actual flow rate below the laminar prediction
@@ -1007,16 +1038,16 @@ The pressure difference must increase by a factor of **(a) 1.52** (a 52% increas
 
 ::: problem
 
-A spherical particle falling at a terminal speed in a liquid must have the gravitational force balanced by the drag force and the buoyant force. The buoyant force is equal to the weight of the displaced fluid, while the drag force is assumed to be given by Stokes Law,  $${F}_{s}=6\pi r\eta v $$ .
- Show that the terminal speed is given by
+A spherical particle falling at a terminal speed in a liquid must have the gravitational force balanced by the drag force and the buoyant force. The buoyant force is equal to the weight of the displaced fluid, while the drag force is assumed to be given by Stokes Law, $${F}_{s}=6\pi r\eta v $$ .
+Show that the terminal speed is given by
 
 <div class="equation" >
  $$v=\frac{ {2R}^{2}g}{9\eta }\left({\rho }_{\text{s}}-{\rho }_{1}\right), $$
 </div>
 
-where  $$R $$  is the radius of the sphere,  $${\rho }_{\text{s}} $$
- is its density, and  $${\rho }_{1} $$
- is the density of the fluid and  $$\eta  $$  the coefficient of viscosity.
+where $$R $$ is the radius of the sphere, $${\rho }_{\text{s}} $$
+is its density, and $${\rho }_{1} $$
+is the density of the fluid and $$\eta  $$ the coefficient of viscosity.
 
 :::
 
@@ -1080,6 +1111,7 @@ We use the terminal velocity formula derived in the previous problem and solve f
 **Solution**
 
 Given:
+
 - Radius: $$R = 0.8 \text{ mm} = 8.0 \times 10^{-4} \text{ m}$$
 - Terminal speed: $$v = 4.32 \text{ cm/s} = 0.0432 \text{ m/s}$$
 - Steel ball density: $$\rho_{s} = 7.86 \text{ g/mL} = 7860 \text{ kg/m}^3$$
@@ -1097,7 +1129,7 @@ $$\eta = \frac{2(8.0 \times 10^{-4} \text{ m})^2 (9.80 \text{ m/s}^2)(7860 - 880
 
 $$\eta = \frac{2(6.4 \times 10^{-7} \text{ m}^2)(9.80 \text{ m/s}^2)(6980 \text{ kg/m}^3)}{0.389 \text{ m/s}}$$
 
-$$\eta = \frac{8.74 \times 10^{-2} \text{ kg·m/s}^2}{0.389 \text{ m/s}} = 0.225 \text{ kg/(m·s)} = 0.225 \text{ Pa·s}$$
+$$\eta = \frac{8.74 \times 10^{-2} \text{ kg/s}^2}{0.389 \text{ m/s}} = 0.225 \text{ kg/(m·s)} = 0.225 \text{ Pa·s}$$
 
 Converting to mPa·s:
 $$\eta = 225 \text{ mPa·s}$$
@@ -1114,9 +1146,9 @@ The viscosity of this motor oil is approximately **225 mPa·s** (or 0.225 Pa·s)
 
 ::: problem
 
-A skydiver will reach a terminal velocity when the air drag equals their weight. For a skydiver with high speed and a large body, turbulence is a factor. The drag force then is approximately proportional to the square of the velocity. Taking the drag force to be  $${F}_{\text{D}}=\frac{1}{2}\rho Av^{2} $$
- and setting this equal to the person's weight, find the terminal speed for a person falling "spread eagle." Find both a formula and a number for  $${v}_{\text{t}} $$ ,
- with assumptions as to size.
+A skydiver will reach a terminal velocity when the air drag equals their weight. For a skydiver with high speed and a large body, turbulence is a factor. The drag force then is approximately proportional to the square of the velocity. Taking the drag force to be $${F}_{\text{D}}=\frac{1}{2}\rho Av^{2} $$
+and setting this equal to the person's weight, find the terminal speed for a person falling "spread eagle." Find both a formula and a number for $${v}_{\text{t}} $$ ,
+with assumptions as to size.
 
 :::
 
@@ -1141,6 +1173,7 @@ $$v_t = \sqrt{\frac{2mg}{\rho A}}$$
 **Numerical calculation with assumptions:**
 
 Assumptions for a person falling "spread eagle":
+
 - Mass: $$m = 75 \text{ kg}$$ (typical adult)
 - Cross-sectional area (spread eagle): $$A \approx 0.70 \text{ m}^2$$ (roughly 1 m × 0.7 m)
 - Air density at sea level: $$\rho = 1.29 \text{ kg/m}^3$$
@@ -1165,9 +1198,9 @@ Under the stated drag model and size assumptions, the terminal speed is about **
 
 ::: problem
 
-A layer of oil 1.50 mm thick is placed between two microscope slides. Researchers find that a force of  $$ 5.50 \times 10^{-4}  \text{N} $$
- is required to glide one over the other at a speed of 1.00 cm/s when their contact area is  $$ 6.00 {\text{cm}}^{2} $$ .
- What is the oil's viscosity? What type of oil might it be?
+A layer of oil 1.50 mm thick is placed between two microscope slides. Researchers find that a force of $$ 5.50 \times 10^{-4}  \text{N} $$
+is required to glide one over the other at a speed of 1.00 cm/s when their contact area is $$ 6.00 {\text{cm}}^{2} $$ .
+What is the oil's viscosity? What type of oil might it be?
 
 :::
 
@@ -1180,6 +1213,7 @@ We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ and solve for $$\e
 **Solution**
 
 Given:
+
 - Force: $$F = 5.50 \times 10^{-4} \text{ N}$$
 - Velocity: $$v = 1.00 \text{ cm/s} = 0.0100 \text{ m/s}$$
 - Contact area: $$A = 6.00 \text{ cm}^2 = 6.00 \times 10^{-4} \text{ m}^2$$
@@ -1241,8 +1275,8 @@ an increase of **21.6%**. The unequal percentage changes follow from the fourth-
 
 ::: problem
 
-[[Example 2]](#Example2) dealt with the flow of saline solution in an IV system. (a) Verify that a pressure of  $$ 1.62 \times 10^{4}  {\text{N/m}}^{2} $$
- is created at a depth of 1.61 m in a saline solution, assuming its density to be that of sea water. (b) Calculate the new flow rate if the height of the saline solution is decreased to 1.50 m. (c) At what height would the direction of flow be reversed? (This reversal can be a problem when patients stand up.)
+[[Example 2]](#Example2) dealt with the flow of saline solution in an IV system. (a) Verify that a pressure of $$ 1.62 \times 10^{4}  {\text{N/m}}^{2} $$
+is created at a depth of 1.61 m in a saline solution, assuming its density to be that of sea water. (b) Calculate the new flow rate if the height of the saline solution is decreased to 1.50 m. (c) At what height would the direction of flow be reversed? (This reversal can be a problem when patients stand up.)
 
 :::
 
@@ -1255,6 +1289,7 @@ an increase of **21.6%**. The unequal percentage changes follow from the fourth-
 **Solution**
 
 From Example 2:
+
 - Needle radius: $$r = 0.150 \text{ mm} = 1.50 \times 10^{-4} \text{ m}$$
 - Needle length: $$l = 2.50 \text{ cm} = 0.0250 \text{ m}$$
 - Saline viscosity: $$\eta = 1.00 \times 10^{-3} \text{ Pa·s}$$
@@ -1274,25 +1309,25 @@ This verifies the stated pressure.
 **(b) New flow rate at height 1.50 m:**
 
 New pressure from saline at 1.50 m:
-$$P_{\text{new}} = \rho g h = (1025)(9.80)(1.50) = 1.507 \times 10^4 \text{ Pa}$$
+$$P_{\text{new}} = \rho g h = (1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(1.50 \text{ m}) = 1.507 \times 10^4 \text{ Pa}$$
 
 Pressure difference driving flow:
-$$\Delta P_{\text{new}} = P_{\text{new}} - P_{\text{vein}} = 1.507 \times 10^4 - 1.066 \times 10^3 = 1.400 \times 10^4 \text{ Pa}$$
+$$\Delta P_{\text{new}} = P_{\text{new}} - P_{\text{vein}} = 1.507 \times 10^4 \text{ Pa} - 1.066 \times 10^3 \text{ Pa} = 1.400 \times 10^4 \text{ Pa}$$
 
 From Example 2, the original pressure difference was:
-$$\Delta P_1 = 1.62 \times 10^4 - 1.066 \times 10^3 = 1.513 \times 10^4 \text{ Pa}$$
+$$\Delta P_1 = 1.62 \times 10^4 \text{ Pa} - 1.066 \times 10^3 \text{ Pa} = 1.513 \times 10^4 \text{ Pa}$$
 
 Since $$Q \propto \Delta P$$:
-$$Q_2 = Q_1 \times \frac{\Delta P_{\text{new}}}{\Delta P_1} = (0.120 \text{ cm}^3/\text{s}) \times \frac{1.400 \times 10^4}{1.513 \times 10^4}$$
+$$Q_2 = Q_1 \times \frac{\Delta P_{\text{new}}}{\Delta P_1} = (0.120 \text{ cm}^3/\text{s}) \times \frac{1.400 \times 10^4 \text{ Pa}}{1.513 \times 10^4 \text{ Pa}}$$
 
-$$Q_2 = 0.120 \times 0.925 = 0.111 \text{ cm}^3/\text{s}$$
+$$Q_2 = 0.120 \text{ cm}^3/\text{s} \times 0.925 = 0.111 \text{ cm}^3/\text{s}$$
 
 **(c) Height where flow reverses:**
 
 Flow reverses when $$P_{\text{saline}} = P_{\text{vein}}$$:
 $$\rho g h = 1.066 \times 10^3 \text{ Pa}$$
 
-$$h = \frac{1.066 \times 10^3 \text{ Pa}}{(1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{1.066 \times 10^3}{10,045} \text{ m}$$
+$$h = \frac{1.066 \times 10^3 \text{ Pa}}{(1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{1.066 \times 10^3 \text{ Pa}}{10,045 \text{ Pa/m}}$$
 
 $$h = 0.106 \text{ m} = 10.6 \text{ cm}$$
 
@@ -1327,6 +1362,7 @@ For two situations (normal vs. blocked):
 $$\frac{Q_2}{Q_1} = \frac{\Delta P_2}{\Delta P_1} \times \left(\frac{r_2}{r_1}\right)^4$$
 
 Given:
+
 - $$Q_2 = 0.100 Q_1$$ (flow reduced to 10% of normal)
 - $$\Delta P_2 = 1.20 \Delta P_1$$ (pressure increased by 20%)
 
@@ -1375,6 +1411,7 @@ For constant length, comparing exercise to rest:
 $$\frac{Q_2}{Q_1} = \frac{\Delta P_2}{\Delta P_1} \times \frac{\eta_{1}}{\eta_{2}} \times \left(\frac{r_2}{r_1}\right)^4$$
 
 Given:
+
 - $$Q_2 = 10.0 Q_1$$ (flow increased to 10 times resting)
 - $$\eta_{2} = 0.950 \eta_{1}$$ (viscosity dropped to 95%)
 - $$\Delta P_2 = 1.50 \Delta P_1$$ (pressure increased by 50%)
@@ -1405,9 +1442,9 @@ The average radii of the runner's blood vessels have increased by a factor of ap
 
 ::: problem
 
-Water supplied to a house by a water main has a pressure of  $$ 3.00 \times 10^{5}  {\text{N/m}}^{2} $$
- early on a summer day when neighborhood use is low. This pressure produces a flow of 20.0 L/min through a garden hose. Later in the day, pressure at the exit of the water main and entrance to the house drops, and a flow of only 8.00 L/min is obtained through the same hose. (a) What pressure is now being supplied to the house, assuming resistance is constant? (b) By what factor did the flow rate in the water main increase in order to cause this decrease in delivered pressure? The pressure at the entrance of the water main is  $$ 5.00 \times 10^{5}  {\text{N/m}}^{2} $$ ,
- and the original flow rate was 200 L/min. (c) How many more users are there, assuming each would consume 20.0 L/min in the morning?
+Water supplied to a house by a water main has a pressure of $$ 3.00 \times 10^{5}  {\text{N/m}}^{2} $$
+early on a summer day when neighborhood use is low. This pressure produces a flow of 20.0 L/min through a garden hose. Later in the day, pressure at the exit of the water main and entrance to the house drops, and a flow of only 8.00 L/min is obtained through the same hose. (a) What pressure is now being supplied to the house, assuming resistance is constant? (b) By what factor did the flow rate in the water main increase in order to cause this decrease in delivered pressure? The pressure at the entrance of the water main is $$ 5.00 \times 10^{5}  {\text{N/m}}^{2} $$ ,
+and the original flow rate was 200 L/min. (c) How many more users are there, assuming each would consume 20.0 L/min in the morning?
 
 :::
 
@@ -1420,6 +1457,7 @@ Water supplied to a house by a water main has a pressure of  $$ 3.00 \times 10^{
 **Solution**
 
 **Given:**
+
 - Morning pressure at house: $$P_1 = 3.00 \times 10^5 \text{ Pa}$$
 - Morning hose flow: $$Q_{hose,1} = 20.0 \text{ L/min}$$
 - Afternoon hose flow: $$Q_{hose,2} = 8.00 \text{ L/min}$$
@@ -1431,9 +1469,9 @@ Water supplied to a house by a water main has a pressure of  $$ 3.00 \times 10^{
 Since $$Q = \frac{\Delta P}{R}$$ and resistance is constant:
 $$\frac{P_2}{P_1} = \frac{Q_{hose,2}}{Q_{hose,1}}$$
 
-$$P_2 = P_1 \times \frac{Q_{hose,2}}{Q_{hose,1}} = (3.00 \times 10^5 \text{ Pa}) \times \frac{8.00}{20.0}$$
+$$P_2 = P_1 \times \frac{Q_{hose,2}}{Q_{hose,1}} = (3.00 \times 10^5 \text{ Pa}) \times \frac{8.00 \text{ L/min}}{20.0 \text{ L/min}}$$
 
-$$P_2 = 3.00 \times 10^5 \times 0.400 = 1.20 \times 10^5 \text{ Pa}$$
+$$P_2 = 3.00 \times 10^5 \text{ Pa} \times 0.400 = 1.20 \times 10^5 \text{ Pa}$$
 
 **(b) Factor increase in water main flow:**
 
@@ -1441,10 +1479,10 @@ The pressure drop in the water main is:
 $$\Delta P = P_{main} - P_{house} = RQ_{main}$$
 
 Morning:
-$$\Delta P_1 = 5.00 \times 10^5 - 3.00 \times 10^5 = 2.00 \times 10^5 \text{ Pa}$$
+$$\Delta P_1 = 5.00 \times 10^5 \text{ Pa} - 3.00 \times 10^5 \text{ Pa} = 2.00 \times 10^5 \text{ Pa}$$
 
 Afternoon:
-$$\Delta P_2 = 5.00 \times 10^5 - 1.20 \times 10^5 = 3.80 \times 10^5 \text{ Pa}$$
+$$\Delta P_2 = 5.00 \times 10^5 \text{ Pa} - 1.20 \times 10^5 \text{ Pa} = 3.80 \times 10^5 \text{ Pa}$$
 
 Since $$\Delta P = RQ_{main}$$:
 $$\frac{Q_{main,2}}{Q_{main,1}} = \frac{\Delta P_2}{\Delta P_1} = \frac{3.80 \times 10^5}{2.00 \times 10^5} = 1.90$$
@@ -1452,12 +1490,12 @@ $$\frac{Q_{main,2}}{Q_{main,1}} = \frac{\Delta P_2}{\Delta P_1} = \frac{3.80 \ti
 The water main flow increased by a factor of **1.90** (or 90%).
 
 New water main flow:
-$$Q_{main,2} = 1.90 \times 200 = 380 \text{ L/min}$$
+$$Q_{main,2} = 1.90 \times 200 \text{ L/min} = 380 \text{ L/min}$$
 
 **(c) Number of additional users:**
 
 Increase in total consumption:
-$$\Delta Q = 380 - 200 = 180 \text{ L/min}$$
+$$\Delta Q = 380 \text{ L/min} - 200 \text{ L/min} = 180 \text{ L/min}$$
 
 Each user consumes 20.0 L/min in the morning, so:
 $$\text{Number of additional users} = \frac{180 \text{ L/min}}{20.0 \text{ L/min per user}} = 9 \text{ users}$$
@@ -1474,9 +1512,9 @@ $$\text{Number of additional users} = \frac{180 \text{ L/min}}{20.0 \text{ L/min
 
 ::: problem
 
-An oil gusher shoots crude oil 25.0 m into the air through a pipe with a 0.100-m diameter. Neglecting air resistance but not the resistance of the pipe, and assuming laminar flow, calculate the gauge pressure at the entrance of the 50.0-m-long vertical pipe. Take the density of the oil to be  $$900 {\text{kg/m}}^{3} $$
- and its viscosity to be  $$ 1.00 \left({\text{N/m}}^{2}\right)\cdot \text{s} $$
- (or  $$1.00 \text{Pa}\cdot \text{s} $$ ).
+An oil gusher shoots crude oil 25.0 m into the air through a pipe with a 0.100-m diameter. Neglecting air resistance but not the resistance of the pipe, and assuming laminar flow, calculate the gauge pressure at the entrance of the 50.0-m-long vertical pipe. Take the density of the oil to be $$900 {\text{kg/m}}^{3} $$
+and its viscosity to be $$ 1.00 \left({\text{N/m}}^{2}\right)\cdot \text{s} $$
+(or $$1.00 \text{Pa}\cdot \text{s} $$ ).
 Note that you must take into account the pressure due to the 50.0-m column of oil in the pipe.
 
 :::
@@ -1489,7 +1527,7 @@ Find the exit speed from the jet height, then add the viscous pressure drop and 
 
 **Solution**
 
-$$v=\sqrt{2g h}=\sqrt{2(9.80)(25.0)}=22.1\ \text{m/s},\qquad Q=\pi r^2v=0.174\ \text{m}^3/\text{s}.$$
+$$v=\sqrt{2g h}=\sqrt{2(9.80\ \text{m/s}^2)(25.0\ \text{m})}=22.1\ \text{m/s},\qquad Q=\pi r^2v=0.174\ \text{m}^3/\text{s}.$$
 
 Using the unrounded speed and the stated laminar-flow model,
 
@@ -1497,7 +1535,7 @@ $$\Delta P_{\text{viscous}}=\frac{8\eta LQ}{\pi r^4}=3.54\times10^6\ \text{Pa}.$
 
 Bernoulli's equation with viscous losses between the pipe entrance and its atmospheric outlet gives
 
-$$P_{\text{gauge}}=\rho gL+\Delta P_{\text{viscous}}=4.41\times10^5+3.54\times10^6=3.98\times10^6\ \text{Pa}.$$
+$$P_{\text{gauge}}=\rho gL+\Delta P_{\text{viscous}}=4.41\times10^5\ \text{Pa}+3.54\times10^6\ \text{Pa}=3.98\times10^6\ \text{Pa}.$$
 
 **Discussion**
 
@@ -1511,8 +1549,8 @@ About 89% of the required pressure overcomes viscous resistance and 11% supports
 
 ::: problem
 
-Concrete is pumped from a cement mixer to the place it is being laid, instead of being carried in wheelbarrows. The flow rate is 200.0 L/min through a 50.0-m-long, 8.00-cm-diameter hose, and the pressure at the pump is  $$ 8.00 \times 10^{6}  {\text{N/m}}^{2} $$ .
- (a) Calculate the resistance of the hose. (b) What is the viscosity of the concrete, assuming the flow is laminar? (c) How much power is being supplied, assuming the point of use is at the same level as the pump? You may neglect the power supplied to increase the concrete's velocity.
+Concrete is pumped from a cement mixer to the place it is being laid, instead of being carried in wheelbarrows. The flow rate is 200.0 L/min through a 50.0-m-long, 8.00-cm-diameter hose, and the pressure at the pump is $$ 8.00 \times 10^{6}  {\text{N/m}}^{2} $$ .
+(a) Calculate the resistance of the hose. (b) What is the viscosity of the concrete, assuming the flow is laminar? (c) How much power is being supplied, assuming the point of use is at the same level as the pump? You may neglect the power supplied to increase the concrete's velocity.
 
 :::
 
@@ -1525,7 +1563,8 @@ Concrete is pumped from a cement mixer to the place it is being laid, instead of
 **Solution**
 
 Given:
-- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0}{60 \times 1000} \text{ m}^3/\text{s} = 3.33 \times 10^{-3} \text{ m}^3/\text{s}$$
+
+- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0 \text{ L/min}}{(60 \text{ s/min})(1000 \text{ L/m}^3)} = 3.33 \times 10^{-3} \text{ m}^3/\text{s}$$
 - Hose length: $$L = 50.0 \text{ m}$$
 - Hose diameter: $$d = 8.00 \text{ cm}$$ (radius $$r = 4.00 \text{ cm} = 0.0400 \text{ m}$$)
 - Pump pressure: $$\Delta P = 8.00 \times 10^6 \text{ Pa}$$
@@ -1543,11 +1582,11 @@ From Poiseuille's law for resistance:
 $$R = \frac{8\eta L}{\pi r^4}$$
 
 Solving for viscosity:
-$$\eta = \frac{R \pi r^4}{8L} = \frac{(2.40 \times 10^9) \pi (0.0400)^4}{8(50.0)}$$
+$$\eta = \frac{R \pi r^4}{8L} = \frac{(2.40 \times 10^9 \text{ Pa·s/m}^3) \pi (0.0400 \text{ m})^4}{8(50.0 \text{ m})}$$
 
-$$\eta = \frac{(2.40 \times 10^9) \pi (2.56 \times 10^{-6})}{400}$$
+$$\eta = \frac{(2.40 \times 10^9 \text{ Pa·s/m}^3) \pi (2.56 \times 10^{-6} \text{ m}^4)}{400 \text{ m}}$$
 
-$$\eta = \frac{1.93 \times 10^{4}}{400} = 48.2 \text{ Pa·s}$$
+$$\eta = \frac{1.93 \times 10^{4} \text{ Pa·s}\cdot\text{m}}{400 \text{ m}} = 48.2 \text{ Pa·s}$$
 
 **(c) Power supplied:**
 
@@ -1579,6 +1618,30 @@ decreased, based on an assessment of the decrease in flow rate.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose before-and-after flow rates and infer diameter from Poiseuille’s law, holding pressure difference, length, and viscosity fixed. Treat the artery as a rigid cylindrical tube with steady laminar flow for this illustrative calculation.
+
+**Solution**
+
+Assume an initial diameter $$d_0=3.00\text{ mm}$$ and flow that falls from $$Q_0=60.0\text{ mL/min}$$ to $$Q_1=30.0\text{ mL/min}$$. Since $$Q=\pi\Delta P d^4/(128\eta L)$$, the ratio gives
+
+$$\frac{Q_1}{Q_0}=\left(\frac{d_1}{d_0}\right)^4,\qquad d_1=d_0\left(\frac{Q_1}{Q_0}\right)^{1/4}=(3.00\text{ mm})\left(\frac{30.0\text{ mL/min}}{60.0\text{ mL/min}}\right)^{1/4}=2.52\text{ mm}.$$
+
+The diameter reduction is
+
+$$\Delta d=d_0-d_1=3.00\text{ mm}-2.52\text{ mm}=0.477\text{ mm},\qquad \frac{\Delta d}{d_0}\times100\%=15.9\%,$$
+
+where the subtraction uses the unrounded diameter.
+
+**Discussion**
+
+Checking gives $$(2.5227\text{ mm}/3.00\text{ mm})^4=0.500$$, the imposed flow ratio. A modest diameter reduction can strongly affect flow because of the fourth power. Real coronary flow is pulsatile, vessels are compliant, and a short irregular stenosis need not obey this uniform-tube model; the assumed fixed pressure difference is essential. In the chosen example, halving flow corresponds to a diameter decrease of **$$0.477\text{ mm}$$**, or **$$15.9\%$$**, leaving a diameter of **$$2.52\text{ mm}$$**.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1589,11 +1652,38 @@ Consider a river that spreads out in a delta region on its way to the sea. Const
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose an upstream cross section and speed, then conserve the incompressible volume flow through several delta channels.
+
+**Solution**
+
+Assume a river upstream is $$100\text{ m}$$ wide, $$4.0\text{ m}$$ deep on average, and moves at mean speed $$1.5\text{ m/s}$$. Its flow is
+
+$$Q=A_uv_u=(100\text{ m})(4.0\text{ m})(1.5\text{ m/s})=600\text{ m}^3/\text{s}.$$
+
+Assume it divides into six equal delta channels, each $$80\text{ m}$$ wide and $$2.5\text{ m}$$ deep, with no tributary inflow, storage change, or significant evaporation. The combined area is
+
+$$A_d=6(80\text{ m})(2.5\text{ m})=1200\text{ m}^2.$$
+
+Thus the area-weighted average delta speed is
+
+$$v_d=\frac{Q}{A_d}=\frac{600\text{ m}^3/\text{s}}{1200\text{ m}^2}=0.50\text{ m/s}.$$
+
+**Discussion**
+
+The combined delta area is three times the upstream area, so the speed is one third as large, consistent with continuity. Each identical channel carries $$100\text{ m}^3/\text{s}$$ at the same mean speed in this model. Tides, unequal branches, and changing storage can alter actual flows. The chosen delta channels have an average water speed of **$$0.50\text{ m/s}$$**.
+
+:::
+
 </div>
 
 ::: footnote-refs
 
 ### Footnotes
+
 {: class="footnote-refs-title"}
 
 - [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The ratios of the
@@ -1607,6 +1697,7 @@ Consider a river that spreads out in a delta region on its way to the sea. Const
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 laminar

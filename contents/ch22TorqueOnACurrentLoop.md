@@ -150,6 +150,30 @@ Draw a diagram and use RHR-1 to show that the forces on the top and bottom segme
 
 :::
 
+::: solution
+
+**Strategy**
+
+In [[Figure 1]](#Figure1), the rotation axis is vertical and $$ \vb{B} $$ is horizontal, from N to S. The top and bottom segments (each of width $$ w $$) are horizontal, in the plane of the loop. Apply RHR-1, $$ \vb{F} = I\vb{l} \times \vb{B} $$, to each, and then find the torque about the vertical axis.
+
+**Solution**
+
+![Front view of the motor loop, tilted at an angle phi to the magnetic field, which points to the right. On the top segment the current points into the page and to the right, and the force on it is straight down; on the bottom segment the current is reversed and the force is straight up. Both forces are parallel to the vertical axis of rotation, so they produce no torque about it.](../resources/concept_22_08_q01.svg)
+
+Take $$ +x $$ along $$ \vb{B} $$, $$ +z $$ up along the axis, and let the top segment's current make an angle $$ \phi $$ with $$ \vb{B} $$ in the horizontal plane, $$ \vb{l} = w(\cos\phi\,\hat{x} + \sin\phi\,\hat{y}) $$. Then
+
+<div class="equation">
+$$ \vb{F}_{\text{top}} = I\vb{l} \times \vb{B} = IwB(\cos\phi\,\hat{x} + \sin\phi\,\hat{y}) \times \hat{x} = -IwB\sin\phi\,\hat{z} $$
+</div>
+
+Both $$ \vb{l} $$ and $$ \vb{B} $$ are horizontal, so their cross product is vertical; at this orientation the force on the top segment points down. In the bottom segment the current is reversed, so $$ \vb{F}_{\text{bottom}} = +IwB\sin\phi\,\hat{z} $$, straight up. With $$ I = 2.00 \text{ A} $$, $$ w = 0.100 \m $$, $$ B = 0.500 \text{ T} $$, and $$ \phi = 30.0^\circ $$, each force has magnitude $$ (2.00 \text{ A})(0.100 \m)(0.500 \text{ T})\sin 30.0^\circ = 0.0500 \N $$.
+
+A force parallel to the axis of rotation cannot turn the loop about that axis: its lever arm in the horizontal plane is zero, and $$ \vb{r} \times \vb{F} $$ has no vertical component. The two forces are also equal and opposite along the same vertical line, so they merely squeeze (or stretch) the loop.
+
+The forces on the top and bottom segments are vertical, because the current in those segments and the field are both horizontal, so $$ I\vb{l} \times \vb{B} $$ is vertical (down on the top segment and up on the bottom one in this orientation); being parallel to the axis of rotation, they produce no torque about it.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -237,7 +261,7 @@ $$\tau_{\max} = 389 \text{ N·m}$$
 
 $$\tau = NIAB\sin\theta = (389 \text{ N·m})(\sin 10.9°)$$
 
-$$\tau = (389)(0.189) = 73.5 \text{ N·m}$$
+$$\tau = (389 \text{ N·m})(0.189) = 73.5 \text{ N·m}$$
 
 **Discussion**
 
@@ -283,7 +307,7 @@ $$ I = \frac{\tau_{\max}}{NAB}$$
 
 $$ I = \frac{9.00 \text{ N·m}}{(50)(0.0225 \text{ m}^2)(0.800 \text{ T})}$$
 
-$$ I = \frac{9.00}{0.900} = 10.0 \text{ A}$$
+$$ I = \frac{9.00 \text{ N·m}}{0.900 \text{ T·m}^2} = 10.0 \text{ A}$$
 
 **Discussion**
 
@@ -324,7 +348,7 @@ $$ B = \frac{\tau_{\max}}{NIA}$$
 
 $$ B = \frac{300 \text{ N·m}}{(200)(25.0 \text{ A})(0.0400 \text{ m}^2)}$$
 
-$$ B = \frac{300}{200} = 1.50 \text{ T}$$
+$$ B = \frac{300 \text{ N·m}}{200 \text{ A·m}^2} = 1.50 \text{ T}$$
 
 **Discussion**
 
@@ -442,7 +466,7 @@ A proton has a magnetic field due to its spin on its axis. The field is similar 
 
 For the equivalent single current loop, the maximum torque is $$\tau_{\max}=IAB$$. Retaining the unrounded area,
 
-$$\tau_{\max}=I\pi r^2B=(1.05\times10^4)\pi(0.650\times10^{-15})^2(2.50)=3.48\times10^{-26}\ \text{N}\cdot\text{m}.$$
+$$\tau_{\max}=I\pi r^2B=(1.05\times10^4\ \text{A})\pi(0.650\times10^{-15}\ \text{m})^2(2.50\ \text{T})=3.48\times10^{-26}\ \text{N}\cdot\text{m}.$$
 
 This equivalent current-loop model describes the proton's magnetic moment, not literal rotation of a classical charged sphere.
 
@@ -473,7 +497,7 @@ The loop is vertical with its axis east-west, and the field points north. The ma
 - Magnetic field: $$ B = 3.00 \times 10^{-5} \text{ T}$$ (pointing north)
 
 *Area of the loop:*
-$$ A = \pi r^2 = \pi (0.500)^2 = 0.785 \text{ m}^2$$
+$$ A = \pi r^2 = \pi (0.500 \text{ m})^2 = 0.785 \text{ m}^2$$
 
 **(a) Magnitude and direction:**
 

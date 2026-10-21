@@ -285,6 +285,27 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Reactance of a Single Element
+</div>
+
+Drive a resistor, an inductor, or a capacitor with an AC voltage. The current stays in phase with the voltage only for the resistor. Inductive and capacitive reactance set both the phase and the amplitude.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/ACPhasor/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Reactance of one circuit element
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * For inductors in AC circuits, we find that when a sinusoidal voltage is
@@ -332,6 +353,30 @@ Presbycusis is a hearing loss due to age that progressively affects higher frequ
 
 :::
 
+::: solution
+
+**Strategy**
+
+To compensate for a loss of high-frequency hearing, the speaker should receive relatively more of the high frequencies than of the low ones. A capacitor's reactance, $$ X_C = 1/(2\pi fC) $$, is large at low frequencies and small at high frequencies. Compare the reactance at $$ 250 \text{ Hz} $$ and $$ 4000 \text{ Hz} $$ for $$ C = 20.0 \ \mu\text{F} $$ with an $$ 8.00\text{-}\Omega $$ speaker.
+
+**Solution**
+
+<div class="equation">
+$$ X_C(250 \text{ Hz}) = \frac{1}{2\pi(250 \text{ Hz})(20.0 \times 10^{-6} \text{ F})} = 31.8 \ \Omega, \qquad X_C(4000 \text{ Hz}) = \frac{1}{2\pi(4000 \text{ Hz})(20.0 \times 10^{-6} \text{ F})} = 1.99 \ \Omega $$
+</div>
+
+**In series** with the speaker, the capacitor adds a large impedance at $$ 250 \text{ Hz} $$, so little low-frequency current reaches the speaker, but only a small impedance at $$ 4000 \text{ Hz} $$. The current through the speaker is proportional to $$ 1/\sqrt{R^2 + X_C^2} $$:
+
+<div class="equation">
+$$ \frac{I_{4000}}{I_{250}} = \frac{\sqrt{(8.00 \ \Omega)^2 + (31.8 \ \Omega)^2}}{\sqrt{(8.00 \ \Omega)^2 + (1.99 \ \Omega)^2}} = \frac{32.8 \ \Omega}{8.24 \ \Omega} = 3.98 $$
+</div>
+
+so high frequencies are favored by a factor of about 4. **In parallel** with the speaker, the capacitor would do the opposite: its low reactance at high frequencies would divert the high-frequency current away from the speaker.
+
+You would put the capacitor in series with the speaker, because its reactance is large at low frequencies and small at high frequencies, so it reduces the low frequencies reaching the speaker while passing the high frequencies (in this example, giving the 4000-Hz current an advantage of about 4 over the 250-Hz current), which compensates for the loss of high-frequency hearing.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -339,6 +384,28 @@ Presbycusis is a hearing loss due to age that progressively affects higher frequ
 ::: problem
 
 Would you use a large inductance or a large capacitance in series with a system to filter out low frequencies, such as the 100 Hz hum in a sound system? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A series element that removes low frequencies must have a large impedance at low frequencies and a small one at high frequencies. Compare $$ X_L = 2\pi fL $$, which grows with frequency, with $$ X_C = 1/(2\pi fC) $$, which shrinks with frequency, at $$ 100 \text{ Hz} $$ and at $$ 5000 \text{ Hz} $$. Use $$ C = 2.00 \ \mu\text{F} $$ and $$ L = 10.0 \text{ mH} $$.
+
+**Solution**
+
+<div class="equation">
+$$ X_C(100 \text{ Hz}) = \frac{1}{2\pi(100 \text{ Hz})(2.00 \times 10^{-6} \text{ F})} = 796 \ \Omega, \qquad X_C(5000 \text{ Hz}) = 15.9 \ \Omega $$
+</div>
+
+<div class="equation">
+$$ X_L(100 \text{ Hz}) = 2\pi(100 \text{ Hz})(10.0 \times 10^{-3} \text{ H}) = 6.28 \ \Omega, \qquad X_L(5000 \text{ Hz}) = 314 \ \Omega $$
+</div>
+
+The capacitor blocks the $$ 100\text{-Hz} $$ hum and passes the higher audio frequencies; the inductor does the reverse. The capacitance must not be too large, however: a very large capacitance would have a small reactance even at $$ 100 \text{ Hz} $$ and would let the hum through. Choose $$ C $$ so that $$ X_C $$ is large at $$ 100 \text{ Hz} $$ and small at the frequencies you want to keep.
+
+You would use a capacitance in series, not an inductance, because a capacitor's reactance $$ X_C = 1/(2\pi fC) $$ is large at low frequencies (about $$ 800 \ \Omega $$ at $$ 100 \text{ Hz} $$ for $$ 2.00 \ \mu\text{F} $$) and small at higher frequencies ($$ 16 \ \Omega $$ at $$ 5000 \text{ Hz} $$), so it blocks the hum while passing the rest of the signal; an inductor would do the opposite.
 
 :::
 
@@ -352,6 +419,28 @@ High-frequency noise in AC power can damage computers. Does the plug-in unit des
 
 :::
 
+::: solution
+
+**Strategy**
+
+A series element that blocks high frequencies but passes $$ 60\text{-Hz} $$ power must have a small impedance at $$ 60 \text{ Hz} $$ and a large one at high frequencies. Compare $$ X_L = 2\pi fL $$ for $$ L = 1.00 \text{ mH} $$ at $$ 60 \text{ Hz} $$ and at $$ 1.00 \text{ MHz} $$.
+
+**Solution**
+
+<div class="equation">
+$$ X_L(60 \text{ Hz}) = 2\pi(60 \text{ Hz})(1.00 \times 10^{-3} \text{ H}) = 0.377 \ \Omega $$
+</div>
+
+<div class="equation">
+$$ X_L(1.00 \text{ MHz}) = 2\pi(1.00 \times 10^{6} \text{ Hz})(1.00 \times 10^{-3} \text{ H}) = 6.28 \times 10^{3} \ \Omega $$
+</div>
+
+The inductor has almost no effect on the power, but presents thousands of ohms to the noise. A capacitor in series would do the opposite: its reactance at $$ 60 \text{ Hz} $$ would be large, blocking the power, and small at high frequencies, passing the noise.
+
+The plug-in unit uses a large inductance in series with the computer, because inductive reactance $$ X_L = 2\pi fL $$ is small at $$ 60 \text{ Hz} $$ ($$ 0.377 \ \Omega $$ for $$ 1.00 \text{ mH} $$) and very large at high frequencies ($$ 6280 \ \Omega $$ at $$ 1.00 \text{ MHz} $$), so it passes the power while blocking high-frequency noise.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -359,6 +448,28 @@ High-frequency noise in AC power can damage computers. Does the plug-in unit des
 ::: problem
 
 Does inductance depend on current, frequency, or both? What about inductive reactance?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Inductance is defined by $$ \text{emf} = L\,\Delta I/\Delta t $$ and, for a solenoid, $$ L = \mu_0N^2A/\ell $$. Inductive reactance is $$ X_L = 2\pi fL $$. Check which quantities appear in each.
+
+**Solution**
+
+**Inductance** depends only on the geometry of the coil (number of turns, area, length) and on the core material. It contains neither current nor frequency, so a $$ 10.0\text{-mH} $$ coil has $$ L = 10.0 \text{ mH} $$ whether it carries $$ 1.00 \text{ A} $$ or $$ 2.00 \text{ A} $$, at any frequency. (An iron-core inductor can change somewhat at large currents, when the iron saturates.)
+
+**Inductive reactance** is proportional to frequency: for the same coil,
+
+<div class="equation">
+$$ X_L(60 \text{ Hz}) = 2\pi(60 \text{ Hz})(10.0 \times 10^{-3} \text{ H}) = 3.77 \ \Omega, \qquad X_L(600 \text{ Hz}) = 37.7 \ \Omega $$
+</div>
+
+It does not depend on the current; the current depends on it, through $$ I = V/X_L $$.
+
+Inductance depends on neither current nor frequency, only on the coil's geometry and core, while inductive reactance $$ X_L = 2\pi fL $$ depends on frequency (it is 10 times larger at $$ 600 \text{ Hz} $$ than at $$ 60 \text{ Hz} $$) but not on current.
 
 :::
 
@@ -372,6 +483,26 @@ Explain why the capacitor in [[Figure 4]](#Figure4)(a) acts as a low-frequency f
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the capacitor's reactance, $$ X_C = 1/(2\pi fC) $$, at a low and a high frequency, then see where each arrangement in [[Figure 4]](#Figure4) sends the signal. Use $$ C = 1.00 \ \mu\text{F} $$ at $$ 60 \text{ Hz} $$ and $$ 100 \text{ kHz} $$.
+
+**Solution**
+
+<div class="equation">
+$$ X_C(60 \text{ Hz}) = \frac{1}{2\pi(60 \text{ Hz})(1.00 \times 10^{-6} \text{ F})} = 2.65 \times 10^{3} \ \Omega, \qquad X_C(100 \text{ kHz}) = 1.59 \ \Omega $$
+</div>
+
+**(a)** The capacitor is in series between the two circuits, so every signal must pass through it. Low frequencies meet a large reactance and are blocked; high frequencies pass easily. It filters out low frequencies: a **low-frequency filter**.
+
+**(b)** The capacitor connects the line between the circuits to ground. High frequencies see a low-reactance path to ground and are shunted away before reaching circuit 2; low frequencies see a large reactance, so they are not diverted and continue to circuit 2. It filters out high frequencies: a **high-frequency filter**.
+
+The capacitor in (a) is a low-frequency filter because, in series, its large reactance at low frequencies ($$ 2650 \ \Omega $$ at $$ 60 \text{ Hz} $$ for $$ 1.00 \ \mu\text{F} $$) blocks them while high frequencies pass, and the capacitor in (b) is a high-frequency filter because, connected to ground, its small reactance at high frequencies ($$ 1.59 \ \Omega $$ at $$ 100 \text{ kHz} $$) shunts them to ground while low frequencies continue on to the second circuit.
+
+:::
+
 </div>
 
 ![The figure describes two circuits with two different connections. The first part of the diagram shows circuit one and circuit two connected in series and a capacitor C is connected between them. Both the circuits are shown as grounded. The second part of the diagram shows two circuits circuit one and circuit two connected to each other. At the point of connection one end of the capacitor is connected and the other end of the capacitor is grounded. Both the circuits are shown as grounded.](../resources/Figure_23_11_04.jpg "Capacitors and inductors. Capacitor with high frequency and low frequency.")
@@ -382,6 +513,26 @@ Explain why the capacitor in [[Figure 4]](#Figure4)(a) acts as a low-frequency f
 ::: problem
 
 If the capacitors in [[Figure 4]](#Figure4) are replaced by inductors, which acts as a low-frequency filter and which as a high-frequency filter?
+
+:::
+
+::: solution
+
+**Strategy**
+
+An inductor's reactance, $$ X_L = 2\pi fL $$, behaves opposite to a capacitor's: it is small at low frequencies and large at high frequencies. Repeat the reasoning of the previous question with $$ L = 10.0 \text{ mH} $$ at $$ 60 \text{ Hz} $$ and $$ 100 \text{ kHz} $$.
+
+**Solution**
+
+<div class="equation">
+$$ X_L(60 \text{ Hz}) = 2\pi(60 \text{ Hz})(10.0 \times 10^{-3} \text{ H}) = 3.77 \ \Omega, \qquad X_L(100 \text{ kHz}) = 6.28 \times 10^{3} \ \Omega $$
+</div>
+
+**(a)** In series between the circuits, the inductor passes low frequencies and blocks high frequencies: a **high-frequency filter**.
+
+**(b)** Connected to ground, the inductor shunts low frequencies to ground through its small reactance, while high frequencies are not diverted and reach circuit 2: a **low-frequency filter**.
+
+With inductors, the arrangement in (a) acts as a high-frequency filter and the one in (b) acts as a low-frequency filter, the reverse of the capacitors, because an inductor's reactance is small at low frequencies ($$ 3.77 \ \Omega $$ at $$ 60 \text{ Hz} $$ for $$ 10.0 \text{ mH} $$) and large at high frequencies ($$ 6280 \ \Omega $$ at $$ 100 \text{ kHz} $$).
 
 :::
 
@@ -418,7 +569,7 @@ $$f=\frac{{X}_{L}}{2\pi L}$$
 Substituting the values:
 
 <div class="equation">
-$$f=\frac{100 \text{ Ω}}{2\pi (30.0 \times 10^{-3} \text{ H})}=\frac{100}{6.28 \times 0.0300}=\frac{100}{0.188}=531 \text{ Hz}$$
+$$f=\frac{100 \text{ Ω}}{2\pi (30.0 \times 10^{-3} \text{ H})}=\frac{100 \text{ Ω}}{6.28 \times 0.0300 \text{ H}}=\frac{100 \text{ Ω}}{0.188 \text{ H}}=531 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -463,7 +614,7 @@ $$L=\frac{{X}_{L}}{2\pi f}$$
 Substituting the values:
 
 <div class="equation">
-$$L=\frac{20.0 \times 10^3 \text{ Ω}}{2\pi (500 \text{ Hz})}=\frac{20000}{3140}=6.37 \text{ H}$$
+$$L=\frac{20.0 \times 10^3 \text{ Ω}}{2\pi (500 \text{ Hz})}=\frac{20000 \text{ Ω}}{3140 \text{ Hz}}=6.37 \text{ H}$$
 </div>
 
 **Discussion**
@@ -508,7 +659,7 @@ $$C=\frac{1}{2\pi f{X}_{C}}$$
 Substituting the values:
 
 <div class="equation">
-$$C=\frac{1}{2\pi (60.0 \text{ Hz})(2.00 \times 10^6 \text{ Ω})}=\frac{1}{7.54 \times 10^8}=1.33 \times 10^{-9} \text{ F}=1.33 \text{ nF}$$
+$$C=\frac{1}{2\pi (60.0 \text{ Hz})(2.00 \times 10^6 \text{ Ω})}=\frac{1}{7.54 \times 10^8 \text{ Ω/s}}=1.33 \times 10^{-9} \text{ F}=1.33 \text{ nF}$$
 </div>
 
 **Discussion**
@@ -552,7 +703,7 @@ $$f=\frac{1}{2\pi C{X}_{C}}$$
 Substituting the values:
 
 <div class="equation">
-$$f=\frac{1}{2\pi (0.0800 \text{ F})(0.250 \text{ Ω})}=\frac{1}{0.126}=7.96 \text{ Hz}$$
+$$f=\frac{1}{2\pi (0.0800 \text{ F})(0.250 \text{ Ω})}=\frac{1}{0.126 \text{ s}}=7.96 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -651,7 +802,7 @@ The inductor exhibits dramatically different behavior at the two frequencies. At
 First, calculate the capacitive reactance:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{9.42 \times 10^{-5}}=1.06 \times 10^4 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{9.42 \times 10^{-5} \text{ Ω}^{-1}}=1.06 \times 10^4 \text{ Ω}$$
 </div>
 
 Now find the current:
@@ -663,7 +814,7 @@ $$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \
 **(b)** At $$f = 25.0 \text{ kHz} = 2.50 \times 10^4 \text{ Hz}$$:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{0.0393}=25.5 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{0.0393 \text{ Ω}^{-1}}=25.5 \text{ Ω}$$
 </div>
 
 <div class="equation">
@@ -714,7 +865,7 @@ $${X}_{L}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \text{ A}}=8.00 \text{ Ω}$$
 Now solve for inductance:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00 \text{ Ω}}{1.26 \times 10^5 \text{ Hz}}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
 </div>
 
 **Discussion**
@@ -759,7 +910,7 @@ $${X}_{C}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \times 10^{-3} \text{ A}}=8.00 
 Now solve for capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (20.0 \text{ Hz})(8.00 \times 10^3 \text{ Ω})}=\frac{1}{1.01 \times 10^6}=9.95 \times 10^{-7} \text{ F}=0.995 \text{ µF}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (20.0 \text{ Hz})(8.00 \times 10^3 \text{ Ω})}=\frac{1}{1.01 \times 10^6 \text{ Ω/s}}=9.95 \times 10^{-7} \text{ F}=0.995 \text{ µF}$$
 </div>
 
 **Discussion**
@@ -799,7 +950,7 @@ This is a reasonable capacitance value, just under 1 microfarad. At the low freq
 Solving for inductance:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$$
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000 \text{ Ω}}{9.42 \times 10^4 \text{ Hz}}=0.0212 \text{ H}=21.2 \text{ mH}$$
 </div>
 
 **(b)** At $$f = 60.0 \text{ Hz}$$:
@@ -848,13 +999,13 @@ The capacitor in [[Figure 4]](#Figure4)(a) is designed to filter low-frequency s
 Solving for capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (120 \text{ Hz})(1.00 \times 10^5 \text{ Ω})}=\frac{1}{7.54 \times 10^7}=1.33 \times 10^{-8} \text{ F}=13.3 \text{ nF}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (120 \text{ Hz})(1.00 \times 10^5 \text{ Ω})}=\frac{1}{7.54 \times 10^7 \text{ Ω/s}}=1.33 \times 10^{-8} \text{ F}=13.3 \text{ nF}$$
 </div>
 
 **(b)** At $$f = 1.00 \text{ MHz} = 1.00 \times 10^6 \text{ Hz}$$:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (1.00 \times 10^6 \text{ Hz})(1.33 \times 10^{-8} \text{ F})}=\frac{1}{0.0836}=12.0 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (1.00 \times 10^6 \text{ Hz})(1.33 \times 10^{-8} \text{ F})}=\frac{1}{0.0836 \text{ Ω}^{-1}}=12.0 \text{ Ω}$$
 </div>
 
 **(c)** At the low frequency of 120 Hz, the capacitor has a very high reactance of 100 kΩ, effectively blocking the signal from passing between circuits (acting as an open circuit). However, at the high frequency of 1.00 MHz, the reactance drops to only 12.0 Ω—over 8000 times smaller. This low reactance allows high-frequency signals to pass through easily (nearly like a short circuit). This capacitor therefore functions as a high-pass filter, blocking low frequencies while allowing high frequencies to pass.
@@ -901,13 +1052,13 @@ The capacitor in [[Figure 4]](#Figure4)(b) will filter high-frequency signals by
 Solving for capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (5.00 \times 10^3 \text{ Hz})(1.00 \times 10^{-2} \text{ Ω})}=\frac{1}{314}=3.18 \times 10^{-3} \text{ F}=3.18 \text{ mF}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (5.00 \times 10^3 \text{ Hz})(1.00 \times 10^{-2} \text{ Ω})}=\frac{1}{314 \text{ Ω/s}}=3.18 \times 10^{-3} \text{ F}=3.18 \text{ mF}$$
 </div>
 
 **(b)** At $$f = 3.00 \text{ Hz}$$:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (3.00 \text{ Hz})(3.18 \times 10^{-3} \text{ F})}=\frac{1}{0.0599}=16.7 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (3.00 \text{ Hz})(3.18 \times 10^{-3} \text{ F})}=\frac{1}{0.0599 \text{ Ω}^{-1}}=16.7 \text{ Ω}$$
 </div>
 
 **(c)** At the high frequency of 5.00 kHz, the capacitor has an extremely low reactance of only 10.0 mΩ (essentially a short circuit to ground), effectively shunting high-frequency signals to ground and preventing them from passing through the circuit. At the low frequency of 3.00 Hz, the reactance increases to 16.7 Ω—over 1600 times higher. While still relatively low, this higher reactance is much less effective at shunting low-frequency signals to ground, allowing them to pass through the circuit with less attenuation. This capacitor therefore functions as a low-pass filter in the shunt configuration, removing high-frequency noise while preserving low-frequency signals.
@@ -965,7 +1116,7 @@ $${X}_{C}=\frac{V}{I}=\frac{1.00 \times 10^{-2} \text{ V}}{0.100 \text{ A}}=0.10
 Now find the capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (0.500 \text{ Hz})(0.100 \text{ Ω})}=\frac{1}{0.314}=3.18 \text{ F}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (0.500 \text{ Hz})(0.100 \text{ Ω})}=\frac{1}{0.314 \text{ Ω/s}}=3.18 \text{ F}$$
 </div>
 
 **(b)** A capacitance of 3.18 farads is unreasonably large for an EEG measurement circuit. Typical EEG equipment uses capacitances in the picofarad to microfarad range—millions of times smaller than this value. A 3.18 F capacitor would be physically enormous (like a supercapacitor used in power applications) and completely impractical for medical instrumentation. Furthermore, such a large capacitor would store a huge amount of charge and energy, which would be dangerous in a medical setting.
@@ -999,6 +1150,48 @@ electricity. Construct a problem in which you calculate the relative reduction
 in voltage of incoming high frequency noise compared to 60 Hz voltage. Among the
 things to consider are the acceptable series reactance of the inductor for 60 Hz
 power and the likely frequencies of noise coming through the power lines.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The inductor and the computer are in series. Model the computer as a resistance $$ R $$, and treat the inductor and computer as a voltage divider: the fraction of an incoming voltage of frequency $$ f $$ that reaches the computer is $$ R/\sqrt{R^2 + X_L^2} $$, with $$ X_L = 2\pi fL $$. Choose $$ L $$ so that the 60-Hz reactance is acceptably small.
+
+**Sample Problem Construction**
+
+A computer draws $$ 2.00 \text{ A} $$ from a $$ 120\text{-V} $$, $$ 60\text{-Hz} $$ line, so it acts like a $$ 60.0\text{-}\Omega $$ resistance. An inductor is to be placed in series with it, with a reactance at $$ 60 \text{ Hz} $$ of no more than $$ 1.00 \ \Omega $$. (a) What inductance is needed? (b) What is its reactance for noise at $$ 1.00 \text{ MHz} $$? (c) What fraction of the 60-Hz voltage and of the 1.00-MHz noise voltage reaches the computer? (d) By what factor is the noise reduced relative to the power voltage?
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ L = \frac{X_L}{2\pi f} = \frac{1.00 \ \Omega}{2\pi(60.0 \text{ Hz})} = 2.65 \times 10^{-3} \text{ H} $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ X_L = 2\pi fL = 2\pi(1.00 \times 10^{6} \text{ Hz})(2.65 \times 10^{-3} \text{ H}) = 1.67 \times 10^{4} \ \Omega $$
+</div>
+
+**(c)**
+
+<div class="equation">
+$$ \frac{V_{60}}{V_{\text{in}}} = \frac{60.0 \ \Omega}{\sqrt{(60.0 \ \Omega)^2 + (1.00 \ \Omega)^2}} = 0.99986, \qquad \frac{V_{\text{noise}}}{V_{\text{in}}} = \frac{60.0 \ \Omega}{\sqrt{(60.0 \ \Omega)^2 + (1.67 \times 10^{4} \ \Omega)^2}} = 3.60 \times 10^{-3} $$
+</div>
+
+**(d)**
+
+<div class="equation">
+$$ \frac{0.99986}{3.60 \times 10^{-3}} = 278 $$
+</div>
+
+**Discussion**
+
+The inductor lowers the 60-Hz voltage by only 0.014%, about $$ 0.017 \text{ V} $$, while cutting 1-MHz noise to about 1/280 of its incoming value. Lower-frequency noise, such as $$ 10 \text{ kHz} $$, is reduced less (by a factor of about 3), since $$ X_L $$ is then only $$ 167 \ \Omega $$. Real surge protectors also include capacitors from line to ground to shunt the noise away, and the computer's power supply is not a pure resistance at high frequencies, so this model is only an estimate.
 
 :::
 

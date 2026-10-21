@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 4
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Discuss the different methods of heat transfer.
+- Discuss the different methods of heat transfer.
 
 :::
 
@@ -66,6 +67,27 @@ Radiation: Reheating a cold cup of coffee in a microwave oven.
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Conduction and Convection Together
+</div>
+
+Turn conduction and convection on separately, then together, and compare how fast the temperature field evens out.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/HeatTransfer/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Conduction and convection
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Summary
 
 - Heat is transferred by three different methods: conduction, convection, and
@@ -78,6 +100,22 @@ Radiation: Reheating a cold cup of coffee in a microwave oven.
 ::: problem
 
 What are the main methods of heat transfer from the hot core of Earth to its surface? From Earth’s surface to outer space?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish heat transport through matter from transport across empty space.
+
+**Solution**
+
+Within Earth, convection transports energy through the moving fluid outer core and slowly deforming mantle, while conduction carries heat through solid material, especially the relatively rigid crust. Near-surface fluids can add convective transport. From Earth to outer space, the net energy transfer is principally electromagnetic radiation, because vacuum contains no material for conduction or convection.
+
+**Discussion**
+
+The dominant interior-to-surface mechanisms are convection and conduction, while radiation carries energy from Earth into space.
 
 :::
 
@@ -99,6 +137,7 @@ the air layer, and the stopper.
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 conduction

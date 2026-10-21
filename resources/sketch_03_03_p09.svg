@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the flight in standard and rotated axes</title>
+<desc id="desc">Axes with +x east and +y north, origin at the start. The displacement R is 32.0 km at 35.0° south of west (215° from +x). (a) Its west and south components lie along −x and −y. (b) Rotated axes, drawn in orange: +x′ points 45.0° south of west and +y′ points 45.0° west of north; R makes 10.0° with +x′, on the +y′ side.</desc>
+<rect width="520" height="380" fill="#ffffff"/>
+<line x1="40" y1="140" x2="400" y2="140" stroke="#555555" stroke-width="1.6"/>
+<line x1="400" y1="140" x2="450" y2="140" stroke="#555555" stroke-width="1.6"/>
+<polygon points="460,140 449,144.4 449,135.6" fill="#555555"/>
+<line x1="400" y1="360" x2="400" y2="140" stroke="#555555" stroke-width="1.6"/>
+<line x1="400" y1="140" x2="400" y2="40" stroke="#555555" stroke-width="1.6"/>
+<polygon points="400,30 404.4,41 395.6,41" fill="#555555"/>
+<text x="468" y="145.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="468" y="162.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="400" y="23.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="416" y="22.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="392" y="158.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="400" y1="140" x2="150.98" y2="140" stroke="#777777" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="275.49" y="158.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#777777" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">x</tspan></tspan><tspan dy="-3.92">​</tspan></text>
+<line x1="150.98" y1="140" x2="150.98" y2="314.37" stroke="#777777" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="166.98" y="232.08" font-family="'Times New Roman', Times, serif" font-size="14" fill="#777777" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">y</tspan></tspan><tspan dy="-3.92">​</tspan></text>
+<line x1="400" y1="140" x2="211.56" y2="328.44" stroke="#d35400" stroke-width="1.6"/>
+<polygon points="205.19,334.81 209.43,324.91 215.09,330.57" fill="#d35400"/>
+<line x1="400" y1="140" x2="298.88" y2="38.88" stroke="#d35400" stroke-width="1.6"/>
+<polygon points="292.52,32.52 302.42,36.76 296.76,42.42" fill="#d35400"/>
+<text x="199.19" y="354.41" font-family="'Times New Roman', Times, serif" font-size="16" fill="#d35400" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal">'</tspan></text>
+<text x="282.52" y="30.12" font-family="'Times New Roman', Times, serif" font-size="16" fill="#d35400" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan><tspan font-style="normal">'</tspan></text>
+<line x1="400" y1="140" x2="160.48" y2="307.71" stroke="#c0392b" stroke-width="3"/>
+<polygon points="150.98,314.37 158.41,303.01 164.19,311.27" fill="#c0392b"/>
+<text x="202.91" y="261.63" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan><tspan font-style="normal"> (32.0 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 340 140 A 60 60 0 0 0 350.85 174.41" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="317.98" y="171.11" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">35.0°</tspan></text>
+<path d="M 293.51 214.56 A 130 130 0 0 0 308.08 231.92" fill="none" stroke="#d35400" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="285.09" y="241.67" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10.0°</tspan></text>
+</svg>

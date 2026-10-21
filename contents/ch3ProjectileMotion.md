@@ -160,19 +160,19 @@ of the velocity $$ \vb{v} $$.
  $$\theta_{v}={\tan}^{-1}\left( \frac{v_{y}}{v_{x}}\right). $$
 </div>
 
-![In part a the figure shows projectile motion of a ball with initial velocity of v zero at an angle of theta zero with the horizontal x axis. The horizontal component v x and the vertical component v y at various positions of ball in the projectile path is shown. In part b only the horizontal velocity component v sub x is shown whose magnitude is constant at various positions in the path. In part c only vertical velocity component v sub y is shown. The vertical velocity component v sub y is upwards till it reaches the maximum point and then its direction changes to downwards. In part d resultant v of horizontal velocity component v sub x and downward vertical velocity component v sub y is found which makes an angle theta with the horizontal x axis. The direction of resultant velocity v is towards south east.](../resources/Figure_03_04_02.jpg '(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes.
+![In part a the figure shows projectile motion of a ball with initial velocity of v zero at an angle of theta zero with the horizontal x axis. The horizontal component v x and the vertical component v y at various positions of ball in the projectile path is shown. In part b only the horizontal velocity component v sub x is shown whose magnitude is constant at various positions in the path. In part c only vertical velocity component v sub y is shown. The vertical velocity component v sub y is upwards till it reaches the maximum point and then its direction changes to downwards. In part d resultant v of horizontal velocity component v sub x and downward vertical velocity component v sub y is found which makes an angle theta with the horizontal x axis. The direction of resultant velocity v is towards south east.](../resources/Figure_03_04_02.svg '(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes.
 (b) The horizontal motion is simple, because \( a_x=0 \) and \( v_x \) is thus constant.
 (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude but points in the opposite direction to the initial vertical velocity. (d) The x - and y -motions are recombined to give the total velocity at any given point on the trajectory.')
 {: #Figure2 height="600"}
 
-:::: example
+:::: example {"class":"example","id":"fireworks"}
 
 <div class="title">
 A Fireworks Projectile Explodes High and Away
 </div>
 
 During a fireworks display, a shell is shot into the air with an initial speed of
-70.0 m/s at an angle of $$ 75.0^\circ $$
+70.0 m/s at an angle of <!-- physics: eq-0 -->$$ 75.0^\circ $$
 above the horizontal, as illustrated in [Figure 3](#Figure3). The
 fuse is timed to ignite the shell just as it reaches its highest point above the
 ground.
@@ -197,7 +197,7 @@ initial position, we use the following equation to find $$ y $$:
  $$ v_{y}^{2}=v_{0y}^{2}-2g\left(y-y_{0}\right). $$
 </div>
 
-![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03.jpg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #Figure3 height="250"}
+![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03.svg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #Figure3 height="250"}
 
 Because $$ y_{0} $$ and $$ v_{y} $$ are both zero, the equation simplifies to
 
@@ -215,7 +215,8 @@ Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
 <div class="equation">
- $$ v_{0y}=v_{0}\sin{\theta_{0}}= \left(70.0 \ms \right)\left(\sin{75^\circ }\right) =67.6 \ms . $$ 
+ <!-- physics: eq-18 -->
+ $$ v_{0y}=v_{0}\sin{\theta_{0}}= \left(70.0 \ms \right)\left(\sin{75^\circ }\right) =67.6 \ms . $$
 </div>
 
 and $$ y $$ is
@@ -227,6 +228,7 @@ and $$ y $$ is
 so that
 
 <div class="equation">
+ <!-- physics: eq-21 -->
  $$ y=233 \m . $$
 </div>
 
@@ -255,6 +257,7 @@ equation reduces to simply
 Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero. Thus,
 
 <div class="equation">
+<!-- physics: eq-26 -->
 $$ \begin{array}{lll}
 t&=& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
 t&=& 6.90 \s .
@@ -281,12 +284,14 @@ is equal to zero:
 where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_{0}\cos{\theta_{0}}$$. Now,
 
 <div class="equation">
+ <!-- physics: eq-35 -->
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(70.0 \ms \right)\left(\cos {75.0^\circ }\right)=18.1 m/s. $$
 </div>
 
 The time $$ t $$ for both motions is the same, and so $$ x $$ is
 
 <div class="equation">
+ <!-- physics: eq-38 -->
  $$ x=\left(18.1 \ms \right)\left(6.90 \s \right)=125 \m . $$
 </div>
 
@@ -336,7 +341,7 @@ $$ a_{y}=+g $$.
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"hot-rock"}
 
 <div class="title">
 Calculating Projectile Motion: Hot Rock Projectile
@@ -345,7 +350,7 @@ Calculating Projectile Motion: Hot Rock Projectile
 Kīlauea in Hawaii is one of the world’s most active volcanoes. Its runny basaltic magma usually erupts as
 red-hot rocks and lava rather than explosive clouds of ash.
 Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and
-at an angle $$ 35.0^\circ $$
+at an angle <!-- physics: eq-0 -->$$ 35.0^\circ $$
 above the horizontal, as shown in [Figure 4](#Figure4). The rock
 strikes the side of the volcano at an altitude 20.0 m lower than its starting
 point.
@@ -377,7 +382,7 @@ lower than its starting altitude. We can find the time for this by using
 
 If we take the initial position $$ y_{0} $$ to be zero, then the final position is
 $$ y=-20.0 \m $$. Now the initial vertical velocity is the vertical component of the initial velocity,
-found from $$ v_{0y}=v_{0}\sin{\theta_{0}} = ( 25.0 \ms  )( \sin{35.0^\circ } ) = 14.3 \ms $$. Substituting known values yields
+found from <!-- physics: eq-8 -->$$ v_{0y}=v_{0}\sin{\theta_{0}} = ( 25.0 \ms  )( \sin{35.0^\circ } ) = 14.3 \ms $$. Substituting known values yields
 
 <div class="equation">
  $$ -20.0 \m =\left(14.3 \ms \right)t-\left(4.90 \mss \right){t}^{2}. $$
@@ -404,6 +409,7 @@ motion, and so
 we discard it. Thus,
 
 <div class="equation">
+ <!-- physics: eq-21 -->
  $$ t=3.96 \s . $$
 </div>
 
@@ -423,6 +429,7 @@ horizontal location. In this case, we chose the starting point since we know
 both the initial velocity and initial angle. Therefore:
 
 <div class="equation">
+ <!-- physics: eq-27 -->
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(25.0 \ms \right)\left(\cos{35^\circ }\right)=20.5 \ms $$
 </div>
 
@@ -441,6 +448,7 @@ where $$ v_{0y} $$ was found in part (a) to be $$ 14.3 \ms $$. Thus,
 so that
 
 <div class="equation">
+ <!-- physics: eq-32 -->
  $$ v_{y}=-24.5 \ms $$
 </div>
 
@@ -455,6 +463,7 @@ perpendicular components, using the following equation:
 which gives
 
 <div class="equation">
+ <!-- physics: eq-35 -->
  $$ \mag{v}=31.9 \ms $$
 </div>
 
@@ -467,12 +476,13 @@ The direction $$\theta_{v} $$ is found from the equation:
 so that
 
 <div class="equation">
- $$\theta_{v}={\tan}^{-1}\left(-24.5/20.5\right)={\tan}^{-1}\left(-1.19\right). $$
+ $$\theta_{v}={\tan}^{-1}\left(\frac{-24.5 \ms}{20.5 \ms}\right)={\tan}^{-1}\left(-1.19\right). $$
 </div>
 
 Thus,
 
 <div class="equation">
+ <!-- physics: eq-39 -->
  $$\theta_{v}=-50.1^\circ . $$
 </div>
 
@@ -496,10 +506,9 @@ aiming cannons. However, investigating the range of projectiles can shed light
 on other interesting phenomena, such as the orbits of satellites around the
 Earth. Let us consider projectile range further.
 
-![Part a of the figure shows three different trajectories of projectiles on level ground. In each case the projectiles makes an angle of forty five degrees with the horizontal axis. The first projectile of initial velocity thirty meters per second travels a horizontal distance of R equal to ninety one point eight meters. The second projectile of initial velocity forty meters per second travels a horizontal distance of R equal to one hundred sixty three meters. The third projectile of initial velocity fifty meters per second travels a horizontal distance of R equal to two hundred fifty five meters.](../resources/Figure_03_04_05.jpg 'Trajectories of projectiles on level ground.
+![Animated projectile trajectories on level ground. (a) At 45 degrees, launch speeds of 30, 40, and 50 m/s give ranges of 91.8, 163, and 255 m. (b) At 50 m/s, launches at 15 and 75 degrees both travel 128 m, while the 45-degree launch travels 255 m. All launch together; the 75-degree projectile rises higher and lands later than the 15-degree projectile.](/resources/Figure_03_04_05.svg 'Trajectories of projectiles on level ground.
 (a) The greater the initial speed \( v_0 \), the greater the range for a given initial angle.
-(b) The effect of initial angle \( \theta_0 \) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.')
-{: #Figure5 height="300"}
+(b) The effect of initial angle \( \theta_0 \) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.'){: #Figure5 .figure-full-width}
 
 How does the initial velocity of a projectile affect its range? Obviously, the
 greater the initial speed $$ v_{0} $$, the greater the range, as shown
@@ -548,7 +557,7 @@ examine the addition of velocities, which is another important aspect of
 two-dimensional kinematics and will also yield insights beyond the immediate
 topic.
 
-![A figure of the Earth is shown and on top of it a very high tower is placed. A projectile satellite is launched from this very high tower with initial velocity of v zero in the horizontal direction. Several trajectories are shown with increasing range. A circular trajectory is shown indicating the satellite achieved its orbit and it is revolving around the Earth.](../resources/Figure_03_04_06.jpg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
+![Four projectiles launch horizontally from a high tower on Earth. Three increasing launch speeds produce progressively longer paths ending at the surface; at circular-orbit speed, the fourth projectile keeps circling Earth. A dashed level-ground comparison shows how Earth's curvature extends the range.](/resources/Figure_03_04_06.svg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
 {: #Figure6}
 
 :::: note {"class":"note","data-label":"PhET Exploration"}
@@ -670,6 +679,31 @@ $$ t=0 $$ ?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Separate the constant horizontal velocity from the changing vertical velocity, with +x horizontal and +y upward.
+
+**Solution**
+
+For launch speed $$v_0$$ and angle $$0<\theta<90°$$, $$v_x=v_0\cos\theta>0$$ and $$v_y=v_0\sin\theta-gt$$.
+
+![Projectile trajectory showing a nonzero horizontal velocity at the top and equal speeds at equal heights.](../resources/concept_03_04_q01.svg)
+
+**(a)** Velocity is never zero during flight because $$v_x$$ remains nonzero, even when $$v_y=0$$ at the top.
+
+**(b)** Speed $$\sqrt{v_x^2+v_y^2}$$ is smallest at the top and greatest at launch and just before landing on the same level. For the illustrated $$v_0=20\ms$$ and horizontal component $$v_x=12\ms$$, the minimum speed is $$12\ms$$; the vertical launch component is $$\sqrt{(20\ms)^2-(12\ms)^2}=16\ms$$ and both endpoint speeds are $$20\ms$$.
+
+**(c)** The initial velocity vector never recurs during uninterrupted flight: $$v_y=v_{0y}$$ would require $$gt=0\ms$$ and hence $$t=0\s$$.
+
+**(d)** The initial **speed** does recur at landing, where $$v_y=-v_{0y}$$ and $$v_x$$ is unchanged.
+
+The velocity never vanishes or repeats its initial vector after launch, while speed is minimum at the top and returns to its maximum initial value upon landing at the launch height.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -687,6 +721,27 @@ Answer the following questions for projectile motion on level ground assuming ne
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Compare the fixed downward acceleration with the directions of the two velocity components.
+
+**Solution**
+
+Choose $$+x$$ horizontally along the launch and $$+y$$ upward. Ignoring drag, $$\vb a=-(9.80\mss)\hat{\mathbf{y}}$$ throughout flight.
+
+**(a)** Acceleration is never zero, including at the top where only $$v_y$$ is zero.
+
+**(b)** On descent, the vertical velocity component is downward and is in the same direction as acceleration. For instance, $$v_y=-3.0\ms$$ becomes $$-3.98\ms$$ after $$0.10\s$$ because $$\Delta v_y=(-9.80\mss)(0.10\s)=-0.98\ms$$.
+
+**(c)** On ascent, $$v_y>0$$ and acceleration is opposite that vertical component. It is always perpendicular to the horizontal component. At the top the vertical component is zero, so it has no direction to compare.
+
+Projectile acceleration is always downward and nonzero, aligns with the vertical velocity on descent, and opposes the vertical velocity on ascent.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -697,6 +752,29 @@ For a fixed initial speed, the range of a projectile is determined by the angle 
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Compare the flight times for two equal-range launch angles and consider clearance and the intended use of the projectile.
+
+**Solution**
+
+For equal launch and landing heights, $$R=v_0^2\sin(2\theta)/g$$ and $$T=2v_0\sin\theta/g$$. Complementary angles have the same range but different flight times. With assumed $$v_0=20\ms$$, the $$30°$$ and $$60°$$ shots both have
+
+$$R=\frac{(20\ms)^2\sin60°}{9.80\mss}=35\m,$$
+
+while $$T_{30}=2(20\ms)\sin30°/(9.80\mss)=2.0\s$$ and $$T_{60}=3.5\s$$.
+
+![Two complementary-angle trajectories share a range, but the higher trajectory stays aloft longer.](../resources/concept_03_04_q03.svg)
+
+The lower trajectory gives wind and target motion less time to affect the shot and is often easier to aim. The larger angle is useful when an obstacle must be cleared or a target must be approached steeply from above. A football punter deliberately seeks hang time so teammates can run downfield before the receiver catches the ball; maximum targeting speed is not the only objective.
+
+An archer usually prefers the shorter flight of the lower angle, uses a higher angle when clearance or approach geometry requires it, and a punter uses a high trajectory to give teammates time to reach the receiver.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -704,6 +782,31 @@ For a fixed initial speed, the range of a projectile is determined by the angle 
 :::: problem
 
 During a lecture demonstration, a professor places two coins on the edge of a table. She then flicks one of the coins horizontally off the table, simultaneously nudging the other over the edge. Describe the subsequent motion of the two coins, in particular discussing whether they hit the floor at the same time.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Apply the same vertical equation to both coins and keep horizontal motion independent.
+
+**Solution**
+
+Take the table edge as $$y=0\m$$ and $$+y$$ upward. Assume both coins begin falling simultaneously with $$v_{0y}=0\ms$$ and negligible air resistance. Their vertical motions are identical:
+
+$$y=-\tfrac12gt^2.$$
+
+For the illustrated table height $$h=1.0\m$$, both reach the floor at
+
+$$t=\sqrt{\frac{2h}{g}}=\sqrt{\frac{2(1.0\m)}{9.80\mss}}=0.45175\s\approx0.45\s.$$
+
+The coin released without horizontal speed falls vertically. With the illustrated $$v_{0x}=1.5\ms$$, the flicked coin travels $$(1.5\ms)(0.45175\s)=0.6776\m\approx0.68\m$$ horizontally while following a parabola. This horizontal motion does not change its fall time.
+
+![One coin drops vertically and the other moves horizontally along a parabola; their vertical positions agree at each equal time.](../resources/concept_03_04_q04.svg)
+
+The coins hit the floor simultaneously because they have identical initial vertical motion and gravitational acceleration, although the flicked coin also travels horizontally.
 
 ::::
 
@@ -727,6 +830,12 @@ distances from where the projectile was launched to where it lands?
 **Strategy**
 
 Resolve the initial velocity into horizontal and vertical components. Use the kinematic equations for each direction separately, with time as the common variable.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of launch and +y up, origin at the launch point on the ground. v₀ = 50.0 m/s at 30.0° above +x. After t = 3.00 s the projectile strikes the target at unknown (x, y). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p01.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the launch point, $$ x_0 = y_0 = 0 $$, $$ a_x = 0 $$, and $$ a_y = -9.80 \mss $$; a positive $$ y $$ at 3.00 s means the target is above the launch point.
 
 **Solution**
 
@@ -780,6 +889,12 @@ A ball is kicked with an initial velocity of 16 m/s in the horizontal direction 
 
 The horizontal and vertical velocity components are given directly. Use projectile motion equations to find the time of flight, maximum height, and final velocity.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the kick and +y up, origin at the kick point on level ground. Initial components v₀x = +16 m/s and v₀y = +12 m/s. The ball reaches maximum height y max (unknown) and lands at y = 0 at an unknown time, with v x = 16 m/s and v y negative. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p02.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick, $$ v_{0x} = +16 \ms $$, $$ v_{0y} = +12 \ms $$, and $$ a_y = -9.80 \mss $$. The ball lands when $$ y = 0 $$ again, with $$ v_y $$ negative (downward).
+
 **Solution**
 
 Given: $$ v_{0x} = 16 \ms $$, $$ v_{0y} = 12 \ms $$, $$ a_y = -g = -9.80 \mss $$
@@ -793,7 +908,7 @@ The horizontal velocity remains constant: $$ v_x = 16 \ms $$
 Calculate the total speed:
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(16 \ms)^2 + (-12 \ms)^2} = \sqrt{256 + 144} \mmss = \sqrt{400} \mmss = 20 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(16 \ms)^2 + (-12 \ms)^2} = \sqrt{256 \mmss + 144 \mmss} = \sqrt{400 \mmss} = 20 \ms $$
 </div>
 
 **(b) Time in the air:**
@@ -856,16 +971,22 @@ A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 
 
 Since the ball is thrown horizontally, $$ v_{0y} = 0 $$. The vertical motion determines the time of flight, which then determines the required horizontal velocity.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal, away from the building, and +y up, origin on the ground at the base of the building. The ball leaves the roof at (0, 60.0 m) with horizontal velocity v₀x (unknown) and v₀y = 0. It lands at (100.0 m, 0) after an unknown time. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p03.svg){: .sketch}
+
+Take $$ +x $$ horizontal, away from the building, and $$ +y $$ up, with the origin on the ground at the base of the building. Then $$ y_0 = +60.0 \m $$, the ball lands at $$ y = 0 $$, $$ v_{0y} = 0 $$, and $$ a_y = -9.80 \mss $$; a negative $$ v_y $$ means downward.
+
 **Solution**
 
 Given: $$ y_0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v_{0y} = 0 $$
 
 **(a) Time in the air:**
 
-Using the vertical motion equation with $$ v_{0y} = 0 $$ and taking downward as positive:
+Using the vertical motion equation with $$ v_{0y} = 0 $$ (upward positive, so the displacement to the ground is $$ y - y_0 = -60.0 \m $$):
 
 <div class="equation">
-$$ y - y_0 = v_{0y}t + \frac{1}{2}gt^{2} $$
+$$ y - y_0 = v_{0y}t + \frac{1}{2}a_y t^{2} $$
 </div>
 
 <div class="equation">
@@ -900,16 +1021,14 @@ The magnitude is $$ 34.3 \ms $$ (downward).
 
 The horizontal component remains: $$ v_x = 28.6 \ms $$
 
-Magnitude:
+Magnitude (using unrounded velocity components):
 
-<div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(28.6 \ms)^2 + (34.3 \ms)^2} = \sqrt{818 + 1176} \mmss = 44.7 \ms $$
-</div>
+$$ v = \sqrt{v_x^2+v_y^2} \approx 44.6 \ms $$
 
 Direction (angle below horizontal):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{34.3}{28.6}\right) = 50.2° $$
+$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{34.3 \ms}{28.6 \ms}\right) = 50.2° $$
 </div>
 
 **Discussion**
@@ -922,7 +1041,7 @@ The ball accelerates only in the vertical direction, so it falls faster and fast
 
 (c) The vertical velocity just before impact is $$ 34.3 \ms $$ downward.
 
-(d) The total velocity is $$ 44.7 \ms $$ at $$ 50.2° $$ below horizontal.
+(d) The total velocity is $$ 44.6 \ms $$ at $$ 50.2° $$ below horizontal.
 
 ::::
 
@@ -948,6 +1067,12 @@ bus. (Neglect air resistance.)
 **Strategy**
 
 Since the takeoff and landing heights are equal, use the range equation for level ground. Calculate the range and determine how many 20.0 m buses fit within it.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the buses and +y up, origin at the top of the takeoff ramp, level with the bus roofs. v₀ = 40.0 m/s at 32.0° above +x. The motorcycle lands back at y = 0 at an unknown range R; each bus is 20.0 m long. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p04.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the top of the ramp, the landing point (the bus roofs) is also at $$ y = 0 $$, so the level-ground range equation applies.
 
 **Solution**
 
@@ -1007,6 +1132,12 @@ An archer shoots an arrow at a 75.0 m distant target; the bull's-eye of the targ
 
 For part (a), use the range equation to find the launch angle. Since the arrow lands at the same height as release, we can use $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$. For part (b), calculate the arrow's height at the midpoint (37.5 m horizontally) and compare it to 3.50 m.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the target and +y up, origin at the release point. v₀ = 35.0 m/s at unknown angle θ above +x; the bull’s-eye is at (75.0 m, 0). Halfway, at x = 37.5 m, a branch is 3.50 m above the release height. The acceleration is a y = −9.80 m/s², a x = 0. The vertical scale is exaggerated.](../resources/sketch_03_04_p05.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the target and $$ +y $$ up, with the origin at the release point. The bull's-eye is at $$ (75.0 \m, 0) $$, and the branch is at $$ y = +3.50 \m $$ when $$ x = 37.5 \m $$. Heights computed below are measured from this origin.
+
 **Solution**
 
 Given: R = 75.0 m, $$ v_0 = 35.0 \ms $$, g = 9.80 m/s²
@@ -1030,7 +1161,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 **Step 3: Solve for θ**
 
 <div class="equation">
-$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(75.0 \m)(9.80 \mss)}{(35.0 \ms)^2} = \frac{735}{1225} = 0.600 $$
+$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(75.0 \m)(9.80 \mss)}{(35.0 \ms)^2} = \frac{735 \mmss}{1225 \mmss} = 0.600 $$
 </div>
 
 <div class="equation">
@@ -1050,7 +1181,7 @@ Both launch angles clear the branch. Measure height **above the release height**
 **Low trajectory (θ = 18.4°):**
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \times 0.949 = 33.2 \ms $$
+$$ v_{0x} = v_0 \cos\theta = 35.0 \ms \times \cos(18.4°) = 35.0 \ms \times 0.949 = 33.2 \ms $$
 </div>
 
 <div class="equation">
@@ -1058,25 +1189,25 @@ $$ t = \frac{x}{v_{0x}} = \frac{37.5 \m}{33.2 \ms} = 1.13 \s $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \times 0.316 = 11.1 \ms $$
+$$ v_{0y} = v_0 \sin\theta = 35.0 \ms \times \sin(18.4°) = 35.0 \ms \times 0.316 = 11.1 \ms $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 = 6.25 \m $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1 \ms)(1.13 \s) - \frac{1}{2}(9.80 \mss)(1.13 \s)^2 = 6.25 \m $$
 </div>
 
 **High trajectory (θ = 71.6°):**
 
 <div class="equation">
-$$ v_{0x} = 35.0 \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5}{11.0} = 3.41 \s $$
+$$ v_{0x} = 35.0 \ms \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5 \m}{11.0 \ms} = 3.41 \s $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = 35.0 \sin(71.6°) = 33.2 \ms $$
+$$ v_{0y} = 35.0 \ms \sin(71.6°) = 33.2 \ms $$
 </div>
 
 <div class="equation">
-$$ y = (33.2)(3.41) - \frac{1}{2}(9.80)(3.41)^2 = 56.3 \m $$
+$$ y = (33.2 \ms)(3.41 \s) - \frac{1}{2}(9.80 \mss)(3.41 \s)^2 = 56.3 \m $$
 </div>
 
 Since 6.25 m > 3.50 m (and 56.3 m > 3.50 m), the arrow **will go over the branch** for either launch angle.
@@ -1112,6 +1243,12 @@ A rugby player passes the ball 7.00 m across the field, where it is caught at th
 
 Since the ball is caught at the same height as it was thrown, we can use the range equation for level ground. The range equation gives two possible angles that produce the same range. The smaller angle gives a flatter, faster trajectory.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the pass and +y up, origin at the release point. v₀ = 12.0 m/s at unknown angle θ above +x. The ball is caught at the same height, at (7.00 m, 0). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p06.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the release point, the catch is at $$ (7.00 \m, 0) $$, so the level-ground range equation applies.
+
 **Solution**
 
 Given: R = 7.00 m, $$ v_0 = 12.0 \ms $$
@@ -1127,7 +1264,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 Solve for $$ \sin(2\theta) $$:
 
 <div class="equation">
-$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(7.00 \m)(9.80 \mss)}{(12.0 \ms)^2} = \frac{68.6}{144} = 0.476 $$
+$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(7.00 \m)(9.80 \mss)}{(12.0 \ms)^2} = \frac{68.6 \mmss}{144 \mmss} = 0.476 $$
 </div>
 
 <div class="equation">
@@ -1159,27 +1296,17 @@ This angle would not be used because:
 
 **(c) Time of flight:**
 
-First, find the vertical component of initial velocity:
+Use the horizontal motion to find the flight time for the smaller angle:
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = (12.0 \ms)(\sin 14.2°) = (12.0)(0.245) = 2.94 \ms $$
+$$ t = \frac{R}{v_0\cos\theta} = \frac{7.00\m}{(12.0\ms)\cos\theta} \approx 0.602\s. $$
 </div>
 
-At maximum height, $$ v_y = 0 $$. Time to reach maximum height:
-
-<div class="equation">
-$$ t_{up} = \frac{v_{0y}}{g} = \frac{2.94 \ms}{9.80 \mss} = 0.300 \s $$
-</div>
-
-By symmetry, total flight time:
-
-<div class="equation">
-$$ t_{total} = 2 \times t_{up} = 2 \times 0.300 \s = 0.600 \s $$
-</div>
+Here the unrounded value of $$ \theta = \frac{1}{2}\sin^{-1}(Rg/v_0^2) $$ is used in the calculation.
 
 **Discussion**
 
-The short flight time (0.600 s) confirms that the smaller angle produces a quick, flat pass that minimizes the opportunity for interception. The complementary angle (75.8°) would result in a much longer flight time of about 2.4 s, which would be impractical in a fast-paced rugby match.
+The short flight time (0.602 s) confirms that the smaller angle produces a quick, flat pass that minimizes the opportunity for interception. The complementary angle (75.8°) would result in a much longer flight time of about 2.4 s, which would be impractical in a fast-paced rugby match.
 
 **Answer**
 
@@ -1187,7 +1314,7 @@ The short flight time (0.600 s) confirms that the smaller angle produces a quick
 
 (b) The other angle is **75.8°**. This angle would not be used because it results in a much longer flight time, making the pass easier to intercept and harder to catch.
 
-(c) The pass took **0.600 s**.
+(c) The pass took **0.602 s**.
 
 ::::
 
@@ -1360,6 +1487,12 @@ significant here?
 
 For part (a), use the range equation. Maximum range occurs at 45°. For part (b), calculate the maximum height using the vertical component of initial velocity. For part (c), use geometry to find the Earth's curvature over the horizontal distance.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of fire and +y up, origin at the cannon. For maximum range the shell is fired at 45.0° above +x with unknown speed v₀, rises to an unknown maximum height h, and lands at y = 0 at x = R = 32.0 km. The acceleration is a y = −9.80 m/s², a x = 0 (air resistance neglected).](../resources/sketch_03_04_p09.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the cannon, the shell lands at $$ y = 0 $$ (flat-ocean model for parts a and b); $$ h $$ is the $$ y $$-coordinate at the top.
+
 **Solution**
 
 **(a) Initial velocity for maximum range:**
@@ -1456,101 +1589,49 @@ above the horizontal. It lands on the top edge of the cliff 4.0 s later.
 
 For part (a), use the vertical motion equation to find the final height. For part (b), calculate the maximum height using the vertical component of initial velocity. For part (c), find the velocity components at impact time and combine them.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the cliff and +y up, origin on the ground below the archer. The arrow leaves from y₀ = 1.5 m with v₀ = 30 m/s at 60° above horizontal and lands on the top edge of the cliff, of unknown height H, at t = 4.0 s. Its maximum height y max is unknown. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p10.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the cliff and $$ +y $$ up, with the origin on the ground below the archer. Then $$ y_0 = +1.5 \m $$, and the $$ y $$-coordinate of the arrow at $$ t = 4.0 \s $$ is the cliff height $$ H $$.
+
 **Solution**
 
-Given: $$ y_0 = 1.5 \m $$, $$ v_0 = 30 \ms $$, $$ \theta = 60° $$, $$ t = 4.0 \s $$
-
-First, find the initial velocity components:
-
-<div class="equation">
-$$ v_{0x} = v_0 \cos(60°) = 30 \ms \times 0.500 = 15 \ms $$
-</div>
-
-<div class="equation">
-$$ v_{0y} = v_0 \sin(60°) = 30 \ms \times 0.866 = 26.0 \ms $$
-</div>
+Given $$ y_0 = 1.5\m $$, $$ v_0 = 30\ms $$, $$ \theta = 60° $$, and $$ t = 4.0\s $$, the initial components are $$ v_{0x} = v_0\cos60° = 15\ms $$ and $$ v_{0y} = v_0\sin60° \approx 26\ms $$. Keep the unrounded components in the calculations.
 
 **(a) Height of the cliff:**
 
-Using the vertical position equation:
-
 <div class="equation">
-$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
+$$ H = y_0 + v_0\sin60°\,t - \frac{1}{2}gt^2 = 1.5\m + (30\ms)\sin60°(4.0\s) - \frac{1}{2}(9.80\mss)(4.0\s)^2 \approx 27\m. $$
 </div>
 
-<div class="equation">
-$$ y = 1.5 \m + (26.0 \ms)(4.0 \s) - \frac{1}{2}(9.80 \mss)(4.0 \s)^2 $$
-</div>
+**(b) Maximum height:**
+
+At the top, $$ v_y = 0 $$. Therefore,
 
 <div class="equation">
-$$ y = 1.5 + 104.0 - \frac{1}{2}(9.80)(16.0) $$
-</div>
-
-<div class="equation">
-$$ y = 1.5 + 104.0 - 78.4 = 27.1 \m $$
-</div>
-
-The cliff height is **H = 27.1 m**.
-
-**(b) Maximum height reached:**
-
-The maximum height occurs when $$ v_y = 0 $$. Using:
-
-<div class="equation">
-$$ v_y^2 = v_{0y}^2 - 2g(y_{max} - y_0) $$
-</div>
-
-Setting $$ v_y = 0 $$:
-
-<div class="equation">
-$$ 0 = (26.0 \ms)^2 - 2(9.80 \mss)(y_{max} - 1.5 \m) $$
-</div>
-
-<div class="equation">
-$$ 2(9.80)(y_{max} - 1.5) = 676 $$
-</div>
-
-<div class="equation">
-$$ y_{max} - 1.5 = \frac{676}{19.6} = 34.5 $$
-</div>
-
-<div class="equation">
-$$ y_{max} = 34.5 + 1.5 = 36.0 \m $$
+$$ y_{\max} = y_0 + \frac{(v_0\sin60°)^2}{2g} \approx 36\m. $$
 </div>
 
 **(c) Impact speed:**
 
-At impact (t = 4.0 s), the horizontal velocity remains constant:
+At $$ t = 4.0\s $$, $$ v_x = 15\ms $$ and $$ v_y = v_0\sin60°-gt \approx -13\ms $$. Thus,
 
 <div class="equation">
-$$ v_x = v_{0x} = 15 \ms $$
-</div>
-
-The vertical velocity at impact:
-
-<div class="equation">
-$$ v_y = v_{0y} - gt = 26.0 \ms - (9.80 \mss)(4.0 \s) = 26.0 - 39.2 = -13.2 \ms $$
-</div>
-
-The speed (magnitude of velocity):
-
-<div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15)^2 + (-13.2)^2} = \sqrt{225 + 174} = \sqrt{399} = 20.0 \ms $$
+$$ v = \sqrt{v_x^2+v_y^2} \approx 20\ms. $$
 </div>
 
 **Discussion**
 
-The arrow reaches a maximum height of 36.0 m, which is 8.9 m higher than the cliff top (27.1 m). This means the arrow is falling when it hits the cliff, which explains why the vertical velocity component is negative (-13.2 m/s).
-
-The impact speed of 20.0 m/s is less than the initial speed of 30 m/s, which makes sense because the arrow is still moving upward relative to its launch point (the cliff at 27.1 m is higher than the launch height of 1.5 m by 25.6 m).
+The negative vertical velocity means the arrow is falling when it strikes the cliff. Its impact speed is less than its launch speed because the cliff top is above the launch point.
 
 **Answer**
 
-(a) The height of the cliff is **27.1 m**.
+(a) The height of the cliff is **27 m**.
 
-(b) The maximum height reached by the arrow is **36.0 m** above the ground.
+(b) The maximum height reached by the arrow is **36 m** above the ground.
 
-(c) The arrow's impact speed is **20.0 m/s**.
+(c) The arrow's impact speed is **20 m/s**.
 
 ::::
 
@@ -1571,6 +1652,12 @@ achieved by swinging the arms in the direction of the jump.)
 **Strategy**
 
 First, find the launch velocity using kinematics during the acceleration phase. Then use the range equation to find the horizontal distance. Assume the optimal launch angle of 45° for maximum range.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the jump and +y up, origin at the takeoff point. Assumed: takeoff at 45° above +x with speed v₀ (found from the 0.600-m push at 1.25g), landing at the same height, at unknown range R. In flight, a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p11.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at takeoff, and assuming a $$ 45^\circ $$ takeoff and landing at the same height, the range equation applies.
 
 **Solution**
 
@@ -1601,7 +1688,7 @@ $$ v_0^2 = 2 \times 12.25 \mss \times 0.600 \m = 14.7 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{14.7} = 3.83 \ms $$
+$$ v_0 = \sqrt{14.7 \mmss} = 3.83 \ms $$
 </div>
 
 **Step 2: Calculate the range**
@@ -1645,6 +1732,12 @@ the maximum range obtainable by a person if he has a take-off speed of 9.5 m/s? 
 
 Use the range equation for projectile motion. Maximum range occurs at a 45° launch angle. Compare the calculated maximum to the actual world record.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the jump and +y up, origin at the takeoff point. Assumed: takeoff speed v₀ = 9.5 m/s at 45° above +x, landing at the same height, at unknown maximum range R. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p12.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at takeoff and landing at the same height, the range equation applies.
+
 **Solution**
 
 **Assumptions:**
@@ -1664,7 +1757,7 @@ $$ R_{max} = \frac{v_0^2}{g} = \frac{(9.5 \ms)^2}{9.80 \mss} = \frac{90.25 \mmss
 
 **Discussion**
 
-The calculated maximum range of 9.21 m is remarkably close to the actual world record of 8.95 m, which validates our assumptions. The slight difference (0.26 m or about 3%) can be attributed to several factors:
+The calculated maximum range of 9.21 m is remarkably close to the actual world record of 8.95 m, showing that this simple model gives a comparable distance. The slight difference (0.26 m or about 3%) can be attributed to several factors:
 
 1. **Launch angle**: Long jumpers typically use angles of 20-25° rather than 45°. This is because:
    - They want to maximize horizontal velocity
@@ -1706,11 +1799,17 @@ net?
 
 Convert the speed to m/s. Find the angle that makes the ball just clear the net at x = 11.9 m. Then find where the ball lands (y = 0) to check if it's within 6.40 m from the net.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the net and +y up, origin on the court directly below the point where the ball is hit. The ball leaves from y₀ = 2.5 m with v₀ = 170 km/h at unknown angle θ below the horizontal. The net, 0.91 m high, is at x = 11.9 m; the service line is 6.40 m beyond the net, at x = 18.3 m. The acceleration is a y = −9.80 m/s², a x = 0. The vertical scale is exaggerated.](../resources/sketch_03_04_p13.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the net and $$ +y $$ up, with the origin on the court below the point of contact. Then $$ y_0 = +2.5 \m $$, the net top is at $$ (11.9 \m, 0.91 \m) $$, and because the ball is hit *below* the horizontal, $$ v_{0y} = -v_0 \sin\theta $$ is negative.
+
 **Solution**
 
 **Given:**
 
-- Initial speed: $$ v_0 = 170 \text{ km/h} = \frac{170 \times 1000}{3600} = 47.2 \ms $$
+- Initial speed: $$ v_0 = 170 \text{ km/h} = \frac{(170 \text{ km/h})(1000 \m/\text{km})}{3600 \s/\text{h}} = 47.2 \ms $$
 - Initial height: $$ y_0 = 2.5 \m $$
 - Net distance: $$ x_{net} = 11.9 \m $$
 - Net height: $$ y_{net} = 0.91 \m $$
@@ -1721,17 +1820,17 @@ Convert the speed to m/s. Find the angle that makes the ball just clear the net 
 The velocity components are (with $$ \theta $$ below horizontal, so $$ v_{0y} $$ is negative):
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 47.2 \cos\theta $$
+$$ v_{0x} = v_0 \cos\theta = 47.2 \ms \cos\theta $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = -v_0 \sin\theta = -47.2 \sin\theta $$
+$$ v_{0y} = -v_0 \sin\theta = -47.2 \ms \sin\theta $$
 </div>
 
 Time to reach the net:
 
 <div class="equation">
-$$ t_{net} = \frac{x_{net}}{v_{0x}} = \frac{11.9}{47.2 \cos\theta} $$
+$$ t_{net} = \frac{x_{net}}{v_{0x}} = \frac{11.9 \m}{47.2 \ms \cos\theta} $$
 </div>
 
 Height at the net:
@@ -1741,29 +1840,29 @@ $$ y_{net} = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 0.91 = 2.5 - 47.2\sin\theta \left(\frac{11.9}{47.2\cos\theta}\right) - \frac{1}{2}(9.80)\left(\frac{11.9}{47.2\cos\theta}\right)^2 $$
+$$ 0.91 \m = 2.5 \m - 47.2 \ms\sin\theta \left(\frac{11.9 \m}{47.2 \ms\cos\theta}\right) - \frac{1}{2}(9.80 \mss)\left(\frac{11.9 \m}{47.2 \ms\cos\theta}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9\left(\frac{11.9}{47.2\cos\theta}\right)^2 $$
+$$ 0.91 \m = 2.5 \m - 11.9 \m\tan\theta - 4.9 \mss\left(\frac{11.9 \m}{47.2 \ms\cos\theta}\right)^2 $$
 </div>
 
 For small angles, $$ \cos\theta \approx 1 $$:
 
 <div class="equation">
-$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9\left(\frac{11.9}{47.2}\right)^2 $$
+$$ 0.91 \m = 2.5 \m - 11.9 \m\tan\theta - 4.9 \mss\left(\frac{11.9 \m}{47.2 \ms}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9(0.252)^2 = 2.5 - 11.9\tan\theta - 0.31 $$
+$$ 0.91 \m = 2.5 \m - 11.9 \m\tan\theta - 4.9 \mss(0.252 \s)^2 = 2.5 \m - 11.9 \m\tan\theta - 0.31 \m $$
 </div>
 
 <div class="equation">
-$$ 11.9\tan\theta = 2.5 - 0.91 - 0.31 = 1.28 $$
+$$ 11.9 \m\tan\theta = 2.5 \m - 0.91 \m - 0.31 \m = 1.28 \m $$
 </div>
 
 <div class="equation">
-$$ \tan\theta = \frac{1.28}{11.9} = 0.1076 $$
+$$ \tan\theta = \frac{1.28 \m}{11.9 \m} = 0.1076 $$
 </div>
 
 <div class="equation">
@@ -1775,39 +1874,39 @@ $$ \theta = \tan^{-1}(0.1076) = 6.1° $$
 Using $$ \theta = 6.1° $$:
 
 <div class="equation">
-$$ v_{0x} = 47.2\cos(6.1°) = 47.2 \times 0.994 = 46.9 \ms $$
+$$ v_{0x} = 47.2 \ms\cos(6.1°) = 47.2 \ms \times 0.994 = 46.9 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = -47.2\sin(6.1°) = -47.2 \times 0.106 = -5.00 \ms $$
+$$ v_{0y} = -47.2 \ms\sin(6.1°) = -47.2 \ms \times 0.106 = -5.00 \ms $$
 </div>
 
 Find when y = 0:
 
 <div class="equation">
-$$ 0 = 2.5 - 5.00t - \frac{1}{2}(9.80)t^2 $$
+$$ 0 = 2.5 \m - (5.00 \ms)t - \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 + 5.00t - 2.5 = 0 $$
+$$ (4.90 \mss)t^2 + (5.00 \ms)t - 2.5 \m = 0 $$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
-$$ t = \frac{-5.00 + \sqrt{25.0 + 49.0}}{9.80} = \frac{-5.00 + 8.60}{9.80} = 0.367 \s $$
+$$ t = \frac{-5.00 \ms + \sqrt{25.0 \mmss + 49.0 \mmss}}{9.80 \mss} = \frac{-5.00 \ms + 8.60 \ms}{9.80 \mss} = 0.367 \s $$
 </div>
 
 Horizontal distance:
 
 <div class="equation">
-$$ x = v_{0x}t = 46.9 \times 0.367 = 17.2 \m $$
+$$ x = v_{0x}t = 46.9 \ms \times 0.367 \s = 17.2 \m $$
 </div>
 
 Distance from net:
 
 <div class="equation">
-$$ x - x_{net} = 17.2 - 11.9 = 5.3 \m $$
+$$ x - x_{net} = 17.2 \m - 11.9 \m = 5.3 \m $$
 </div>
 
 Since 5.3 m < 6.40 m, the ball lands **inside** the service box.
@@ -1847,6 +1946,12 @@ caught at the same height as it is released, what is its initial speed relative 
 
 The question gives launch speed and angle **relative to the ground**. With equal launch and landing heights, use the range equation directly for the ground-frame speed. The quarterback's backward motion matters only when finding the ball's velocity relative to the quarterback, not in this ground-frame range calculation.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal downfield and +y up, origin at the release point, fixed to the ground. The ball leaves at unknown speed v₀ at 25.0° above +x (relative to the ground) and is caught at the same height at (18.0 m, 0). Its maximum height h above the release point is unknown. The quarterback himself moves backward, in −x, at 2.00 m/s. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p14.svg){: .sketch}
+
+Take $$ +x $$ horizontal downfield and $$ +y $$ up, with the origin at the release point and the axes fixed to the ground (not to the moving quarterback). The given angle and the speed found are relative to the ground.
+
 **Solution**
 
 **Given:**
@@ -1862,23 +1967,23 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = \frac{Rg}{\sin(2\theta)} = \frac{(18.0 \m)(9.80 \mss)}{\sin(50°)} = \frac{176.4}{0.766} = 230 \text{ m}^2\text{/s}^2 $$
+$$ v_0^2 = \frac{Rg}{\sin(2\theta)} = \frac{(18.0 \m)(9.80 \mss)}{\sin(50°)} = \frac{176.4 \mmss}{0.766} = 230 \text{ m}^2\text{/s}^2 $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{230} = 15.2 \ms $$
+$$ v_0 = \sqrt{230 \mmss} = 15.2 \ms $$
 </div>
 
 **(b) Time to reach the receiver:**
 
 <div class="equation">
-$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(15.2)(0.423)}{9.80} = \frac{12.9}{9.80} = 1.31 \s $$
+$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(15.2 \ms)(0.423)}{9.80 \mss} = \frac{12.9 \ms}{9.80 \mss} = 1.31 \s $$
 </div>
 
 **(c) Maximum height above the release point:**
 
 <div class="equation">
-$$ h = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(15.2)(0.423)]^2}{2(9.80)} = \frac{(6.43)^2}{19.6} = 2.10 \m $$
+$$ h = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(15.2 \ms)(0.423)]^2}{2(9.80 \mss)} = \frac{(6.43 \ms)^2}{19.6 \mss} = 2.10 \m $$
 </div>
 
 **Discussion**
@@ -1915,6 +2020,12 @@ Gun sights are adjusted to aim high to compensate for the effect of gravity, eff
 
 First, find the launch angle needed to hit a target 100.0 m away. Then calculate where the bullet lands vertically when aimed at this same angle but for a horizontal distance of 150.0 m.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the target and +y up, origin at the muzzle. The barrel points a small angle θ above +x so that, with v₀ = 275 m/s, the bullet returns to y = 0 at x = 100.0 m. At x = 150.0 m the bullet is at unknown y, below the aiming line. The acceleration is a y = −9.80 m/s², a x = 0. Angles and heights are greatly exaggerated.](../resources/sketch_03_04_p15.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the target and $$ +y $$ up, with the origin at the muzzle. The sight angle $$ \theta $$ makes $$ y = 0 $$ at $$ x = 100.0 \m $$; at $$ x = 150.0 \m $$ the bullet's $$ y $$ comes out negative, meaning below the aiming line.
+
 **Solution**
 
 **Given:**
@@ -1934,11 +2045,11 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 </div>
 
 <div class="equation">
-$$ 100.0 = \frac{(275)^2 \sin(2\theta)}{9.80} $$
+$$ 100.0 \m = \frac{(275 \ms)^2 \sin(2\theta)}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ \sin(2\theta) = \frac{100.0 \times 9.80}{75625} = \frac{980}{75625} = 0.01296 $$
+$$ \sin(2\theta) = \frac{100.0 \m \times 9.80 \mss}{75625 \mmss} = \frac{980 \mmss}{75625 \mmss} = 0.01296 $$
 </div>
 
 <div class="equation">
@@ -1952,25 +2063,25 @@ $$ \theta = 0.372° $$
 **Step 2: Find time to reach 150.0 m**
 
 <div class="equation">
-$$ v_{0x} = v_0\cos\theta = 275\cos(0.372°) = 275 \times 0.99998 = 275.0 \ms $$
+$$ v_{0x} = v_0\cos\theta = 275 \ms\cos(0.372°) = 275 \ms \times 0.99998 = 275.0 \ms $$
 </div>
 
 <div class="equation">
-$$ t = \frac{x}{v_{0x}} = \frac{150.0}{275.0} = 0.545 \s $$
+$$ t = \frac{x}{v_{0x}} = \frac{150.0 \m}{275.0 \ms} = 0.545 \s $$
 </div>
 
 **Step 3: Find vertical position at 150.0 m**
 
 <div class="equation">
-$$ v_{0y} = v_0\sin\theta = 275\sin(0.372°) = 275 \times 0.00649 = 1.786 \ms $$
+$$ v_{0y} = v_0\sin\theta = 275 \ms\sin(0.372°) = 275 \ms \times 0.00649 = 1.786 \ms $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (1.786)(0.545) - \frac{1}{2}(9.80)(0.545)^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (1.786 \ms)(0.545 \s) - \frac{1}{2}(9.80 \mss)(0.545 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = 0.974 - \frac{1}{2}(9.80)(0.297) = 0.974 - 1.46 = -0.486 \m $$
+$$ y = 0.974 \m - \frac{1}{2}(9.80 \mss)(0.297 \text{s}^2) = 0.974 \m - 1.46 \m = -0.486 \m $$
 </div>
 
 The bullet hits **0.486 m below** the target (or -0.486 m).
@@ -2030,6 +2141,12 @@ An eagle is flying horizontally at a speed of 3.00 m/s when the fish in her talo
 
 The fish initially has the same horizontal velocity as the eagle (3.00 m/s) and zero vertical velocity. Use kinematic equations to find the vertical velocity component when the fish has fallen 5.00 m, then combine with the horizontal component to find the total velocity.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the eagle’s direction of flight and +y up, origin where the fish is released. The fish starts with v₀x = +3.00 m/s and v₀y = 0 and hits the water at y = −5.00 m with unknown velocity v. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p16.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the eagle's direction of flight and $$ +y $$ up, with the origin at the release point. Then the water is at $$ \Delta y = -5.00 \m $$, $$ v_{0x} = +3.00 \ms $$, $$ v_{0y} = 0 $$, and $$ a_y = -9.80 \mss $$.
+
 **Solution**
 
 **Given:**
@@ -2047,7 +2164,7 @@ $$ v_y^2 = v_{0y}^2 - 2g\Delta y = 0^2 - 2(9.80 \mss)(-5.00 \m) = 98.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_y = \sqrt{98.0} = 9.90 \ms $$ (downward)
+$$ v_y = -\sqrt{98.0 \mmss} = -9.90 \ms $$ (downward)
 </div>
 
 **Step 2: Find horizontal velocity component**
@@ -2061,7 +2178,7 @@ $$ v_x = v_{0x} = 3.00 \ms $$
 **Step 3: Calculate the magnitude of velocity**
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00)^2 + (9.90)^2} = \sqrt{9.00 + 98.0} = \sqrt{107} = 10.3 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00 \ms)^2 + (9.90 \ms)^2} = \sqrt{9.00 \mmss + 98.0 \mmss} = \sqrt{107 \mmss} = 10.3 \ms $$
 </div>
 
 **Step 4: Find the direction**
@@ -2069,7 +2186,7 @@ $$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00)^2 + (9.90)^2} = \sqrt{9.00 + 98.0} = 
 The angle below horizontal is:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{9.90}{3.00}\right) = \tan^{-1}(3.30) = 73.1° $$
+$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{9.90 \ms}{3.00 \ms}\right) = \tan^{-1}(3.30) = 73.1° $$
 </div>
 
 **Discussion**
@@ -2106,6 +2223,12 @@ horizontal position of the mouse when it has fallen 12.0 m.
 
 The mouse initially has the same velocity as the owl: 3.50 m/s at 30° below horizontal. Find the velocity components, then determine the time to fall 12.0 m. Use this time to calculate the horizontal distance traveled.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y DOWN, origin where the owl drops the mouse. The mouse starts with the owl’s velocity, 3.50 m/s at 30.0° below the horizontal, so v₀x = +3.03 m/s and v₀y = +1.75 m/s. The 30.0-cm nest is centered at x = 4.00 m, y = 12.0 m. The acceleration is a y = +9.80 m/s² (down), a x = 0. The question is the mouse’s x when y = 12.0 m.](../resources/sketch_03_04_p17.svg){: .sketch}
+
+This solution takes $$ +x $$ east and $$ +y $$ **downward**, with the origin where the mouse is dropped. With this choice, the downward initial velocity component and the acceleration are both positive: $$ v_{0y} = +1.75 \ms $$, $$ a_y = +9.80 \mss $$, and the nest is at $$ y = +12.0 \m $$.
+
 **Solution**
 
 **Given:**
@@ -2121,11 +2244,11 @@ The mouse initially has the same velocity as the owl: 3.50 m/s at 30° below hor
 Taking east as positive x and down as positive y:
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos(30°) = 3.50 \times 0.866 = 3.03 \ms $$ (eastward)
+$$ v_{0x} = v_0 \cos(30°) = 3.50 \ms \times 0.866 = 3.03 \ms $$ (eastward)
 </div>
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin(30°) = 3.50 \times 0.500 = 1.75 \ms $$ (downward)
+$$ v_{0y} = v_0 \sin(30°) = 3.50 \ms \times 0.500 = 1.75 \ms $$ (downward)
 </div>
 
 **Step 2: Find the time to fall 12.0 m**
@@ -2137,27 +2260,27 @@ $$ y = v_{0y}t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 12.0 = 1.75t + \frac{1}{2}(9.80)t^2 $$
+$$ 12.0 \m = (1.75 \ms)t + \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 + 1.75t - 12.0 = 0 $$
+$$ (4.90 \mss)t^2 + (1.75 \ms)t - 12.0 \m = 0 $$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
-$$ t = \frac{-1.75 + \sqrt{(1.75)^2 + 4(4.90)(12.0)}}{2(4.90)} $$
+$$ t = \frac{-1.75 \ms + \sqrt{(1.75 \ms)^2 + 4(4.90 \mss)(12.0 \m)}}{2(4.90 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{-1.75 + \sqrt{3.06 + 235.2}}{9.80} = \frac{-1.75 + \sqrt{238.3}}{9.80} = \frac{-1.75 + 15.44}{9.80} = \frac{13.69}{9.80} = 1.397 \s $$
+$$ t = \frac{-1.75 \ms + \sqrt{3.06 \mmss + 235.2 \mmss}}{9.80 \mss} = \frac{-1.75 \ms + \sqrt{238.3 \mmss}}{9.80 \mss} = \frac{-1.75 \ms + 15.44 \ms}{9.80 \mss} = \frac{13.69 \ms}{9.80 \mss} = 1.397 \s $$
 </div>
 
 **Step 3: Calculate horizontal distance traveled**
 
 <div class="equation">
-$$ x = v_{0x}t = 3.03 \times 1.397 = 4.23 \m $$
+$$ x = v_{0x}t = 3.03 \ms \times 1.397 \s = 4.23 \m $$
 </div>
 
 **Step 4: Determine if mouse hits the nest**
@@ -2167,7 +2290,7 @@ The mouse travels 4.23 m east from its release point. Since it was released 4.00
 Distance from nest center:
 
 <div class="equation">
-$$ d = 4.23 - 4.00 = 0.23 \m = 23 \text{ cm} $$
+$$ d = 4.23 \m - 4.00 \m = 0.23 \m = 23 \text{ cm} $$
 </div>
 
 The nest has a radius of 15.0 cm (diameter 30.0 cm). Since 23 cm > 15 cm, the mouse **misses the nest**.
@@ -2203,6 +2326,12 @@ above the horizontal.
 
 Use the projectile motion equations to relate the horizontal distance (30 m), vertical height (2.4 m), and launch angle (40°) to find the initial speed. Use the horizontal and vertical equations simultaneously.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the goal and +y up, origin at the kick. The ball leaves at unknown speed v₀ at 40° above +x and just passes over the crossbar at (30 m, 2.4 m). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p18.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick, the ball must pass the point $$ (30 \m, 2.4 \m) $$.
+
 **Solution**
 
 **Given:**
@@ -2227,7 +2356,7 @@ $$ v_{0y} = v_0 \sin(40°) = 0.643 v_0 $$
 Since horizontal velocity is constant:
 
 <div class="equation">
-$$ t = \frac{x}{v_{0x}} = \frac{30}{0.766 v_0} = \frac{39.2}{v_0} $$
+$$ t = \frac{x}{v_{0x}} = \frac{30 \m}{0.766 v_0} = \frac{39.2 \m}{v_0} $$
 </div>
 
 **Step 3: Use vertical motion equation**
@@ -2239,35 +2368,35 @@ $$ y = v_{0y}t - \frac{1}{2}gt^{2} $$
 Substituting known values:
 
 <div class="equation">
-$$ 2.4 = (0.643 v_0)\left(\frac{39.2}{v_0}\right) - \frac{1}{2}(9.80)\left(\frac{39.2}{v_0}\right)^2 $$
+$$ 2.4 \m = (0.643 v_0)\left(\frac{39.2 \m}{v_0}\right) - \frac{1}{2}(9.80 \mss)\left(\frac{39.2 \m}{v_0}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 2.4 = 0.643(39.2) - 4.90\left(\frac{1536}{v_0^2}\right) $$
+$$ 2.4 \m = 0.643(39.2 \m) - 4.90 \mss\left(\frac{1536 \mm}{v_0^2}\right) $$
 </div>
 
 <div class="equation">
-$$ 2.4 = 25.2 - \frac{7526}{v_0^2} $$
+$$ 2.4 \m = 25.2 \m - \frac{7526 \text{m}^3/\text{s}^2}{v_0^2} $$
 </div>
 
 <div class="equation">
-$$ \frac{7526}{v_0^2} = 25.2 - 2.4 = 22.8 $$
+$$ \frac{7526 \text{m}^3/\text{s}^2}{v_0^2} = 25.2 \m - 2.4 \m = 22.8 \m $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = \frac{7526}{22.8} = 330 $$
+$$ v_0^2 = \frac{7526 \text{m}^3/\text{s}^2}{22.8 \m} = 330 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{330} = 18.2 \ms $$
+$$ v_0 = \sqrt{330 \mmss} = 18.2 \ms $$
 </div>
 
 **Verification:**
 
 Let's verify this answer:
 
-- Time: $$ t = \frac{39.2}{18.2} = 2.15 \s $$
-- Vertical position: $$ y = (0.643)(18.2)(2.15) - \frac{1}{2}(9.80)(2.15)^2 = 25.1 - 22.7 = 2.4 \m $$ ✓
+- Time: $$ t = \frac{39.2 \m}{18.2 \ms} = 2.15 \s $$
+- Vertical position: $$ y = (0.643)(18.2 \ms)(2.15 \s) - \frac{1}{2}(9.80 \mss)(2.15 \s)^2 = 25.1 \m - 22.7 \m = 2.4 \m $$ ✓
 
 **Discussion**
 
@@ -2297,6 +2426,12 @@ Can a goalkeeper at their goal kick a soccer ball into the opponent's goal witho
 
 Calculate the maximum range achievable with an initial speed of 30 m/s. Maximum range occurs at a 45° launch angle. Compare this to the required distance of 95 m.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the opponent’s goal and +y up, origin at the kick. For maximum range the ball leaves at 45° above +x with v₀ = 30 m/s and lands at y = 0 at unknown range R; the opponent’s goal is 95 m away. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p19.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick and the ball landing at $$ y = 0 $$, the maximum range occurs at $$ 45^\circ $$.
+
 **Solution**
 
 **Given:**
@@ -2322,13 +2457,13 @@ The maximum range of 92 m is less than the required 95 m, so the goalkeeper **ca
 The goalkeeper falls short by:
 
 <div class="equation">
-$$ 95 - 92 = 3 \m $$
+$$ 95 \m - 92 \m = 3 \m $$
 </div>
 
 To reach 95 m, the goalkeeper would need an initial speed of:
 
 <div class="equation">
-$$ v_0 = \sqrt{Rg} = \sqrt{95 \times 9.80} = \sqrt{931} = 30.5 \ms $$
+$$ v_0 = \sqrt{Rg} = \sqrt{95 \m \times 9.80 \mss} = \sqrt{931 \mmss} = 30.5 \ms $$
 </div>
 
 So the goalkeeper would need to kick just 0.5 m/s faster (about 2% harder) to reach the opponent's goal.
@@ -2359,6 +2494,12 @@ The free throw line in basketball is 4.57 m (15 ft) from the basket, which is 3.
 
 Follow the standard projectile motion problem-solving steps: identify knowns and unknowns, set up coordinate system, break into horizontal and vertical components, apply kinematic equations, and solve for the unknown angle.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the basket and +y up, origin at the release point, 2.44 m above the floor. The ball leaves with v₀ = 8.15 m/s at unknown angle θ above +x and enters the basket at (4.57 m, +0.61 m), since the rim is 3.05 m above the floor. The floor is at y = −2.44 m. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p20.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the basket and $$ +y $$ up, with the origin at the release point. The basket is then at $$ (4.57 \m, +0.61 \m) $$ and the floor at $$ y = -2.44 \m $$.
+
 **Solution**
 
 **Step 1: Identify knowns and unknowns**
@@ -2368,7 +2509,7 @@ Follow the standard projectile motion problem-solving steps: identify knowns and
 - Horizontal distance: $$ x = 4.57 \m $$
 - Initial height: $$ y_0 = 2.44 \m $$
 - Final height: $$ y = 3.05 \m $$
-- Vertical displacement: $$ \Delta y = 3.05 - 2.44 = 0.61 \m $$
+- Vertical displacement: $$ \Delta y = 3.05 \m - 2.44 \m = 0.61 \m $$
 - Initial speed: $$ v_0 = 8.15 \ms $$
 - Acceleration: $$ a_y = -g = -9.80 \mss $$ (taking up as positive)
 
@@ -2385,13 +2526,13 @@ Origin at release point, x-axis horizontal (toward basket), y-axis vertical (up 
 Horizontal component (constant velocity):
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 8.15\cos\theta $$
+$$ v_{0x} = v_0 \cos\theta = 8.15 \ms\cos\theta $$
 </div>
 
 Vertical component (constant acceleration):
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = 8.15\sin\theta $$
+$$ v_{0y} = v_0 \sin\theta = 8.15 \ms\sin\theta $$
 </div>
 
 **Step 4: Apply kinematic equations**
@@ -2403,13 +2544,13 @@ $$ x = v_{0x}t $$
 </div>
 
 <div class="equation">
-$$ 4.57 = 8.15\cos\theta \cdot t $$
+$$ 4.57 \m = 8.15 \ms\cos\theta \cdot t $$
 </div>
 
 Solving for time:
 
 <div class="equation">
-$$ t = \frac{4.57}{8.15\cos\theta} $$
+$$ t = \frac{4.57 \m}{8.15 \ms\cos\theta} $$
 </div>
 
 **Vertical motion:**
@@ -2419,66 +2560,28 @@ $$ \Delta y = v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 0.61 = 8.15\sin\theta \cdot t - \frac{1}{2}(9.80)t^2 $$
+$$ 0.61 \m = 8.15 \ms\sin\theta \cdot t - \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 **Step 5: Substitute and solve for θ**
 
-Substitute the expression for t from horizontal motion:
+Substituting the horizontal flight time into the vertical equation gives
 
 <div class="equation">
-$$ 0.61 = 8.15\sin\theta \left(\frac{4.57}{8.15\cos\theta}\right) - 4.90\left(\frac{4.57}{8.15\cos\theta}\right)^2 $$
+$$ \Delta y = x\tan\theta - \frac{gx^2}{2v_0^2}(1+\tan^2\theta). $$
 </div>
+
+Let $$ u = \tan\theta $$ and $$ K = gx^2/(2v_0^2) $$. Then
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - 4.90\left(\frac{20.9}{66.4\cos^{2}\theta}\right) $$
+$$ Ku^2-xu+(K+\Delta y)=0, \qquad u=\frac{x\pm\sqrt{x^2-4K(K+\Delta y)}}{2K}. $$
 </div>
 
-<div class="equation">
-$$ 0.61 = 4.57\tan\theta - \frac{102.4}{66.4\cos^{2}\theta} $$
-</div>
-
-Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$, so $$ \frac{1}{\cos^{2}\theta} = 1 + \tan^{2}\theta $$:
-
-<div class="equation">
-$$ 0.61 = 4.57\tan\theta - 1.54(1 + \tan^{2}\theta) $$
-</div>
-
-<div class="equation">
-$$ 0.61 = 4.57\tan\theta - 1.54 - 1.54\tan^{2}\theta $$
-</div>
-
-<div class="equation">
-$$ 1.54\tan^{2}\theta - 4.57\tan\theta + (1.54 + 0.61) = 0 $$
-</div>
-
-<div class="equation">
-$$ 1.54\tan^{2}\theta - 4.57\tan\theta + 2.15 = 0 $$
-</div>
-
-Using the quadratic formula with $$ u = \tan\theta $$:
-
-<div class="equation">
-$$ u = \frac{4.57 \pm \sqrt{(4.57)^2 - 4(1.54)(2.15)}}{2(1.54)} $$
-</div>
-
-<div class="equation">
-$$ u = \frac{4.57 \pm \sqrt{20.9 - 13.2}}{3.08} = \frac{4.57 \pm \sqrt{7.7}}{3.08} = \frac{4.57 \pm 2.77}{3.08} $$
-</div>
-
-Two solutions:
-
-<div class="equation">
-$$ u_1 = \frac{4.57 + 2.77}{3.08} = \frac{7.34}{3.08} = 2.38 \Rightarrow \theta_{1} = \tan^{-1}(2.38) = 67.2° $$
-</div>
-
-<div class="equation">
-$$ u_2 = \frac{4.57 - 2.77}{3.08} = \frac{1.80}{3.08} = 0.584 \Rightarrow \theta_{2} = \tan^{-1}(0.584) = 30.3° $$
-</div>
+Using $$ x=4.57\m $$, $$ v_0=8.15\ms $$, and $$ \Delta y=0.61\m $$, and retaining guard digits, the two angles are $$ 30.4° $$ and $$ 67.2° $$.
 
 **Discussion**
 
-There are two possible angles: **30.3°** (flatter trajectory) and **67.2°** (higher arc). Players typically use the larger angle (around 50-55° in practice) because:
+There are two possible angles: **30.4°** (flatter trajectory) and **67.2°** (higher arc). Players typically use the larger angle (around 50-55° in practice) because:
 
 1. **Larger target area**: The basket appears larger from above
 2. **Margin for error**: Small variations in speed or angle are more forgiving
@@ -2489,7 +2592,7 @@ The 67.2° angle is closer to the preferred technique, though in practice, playe
 
 **Answer**
 
-The ball can be thrown at either **30.3°** or **67.2°** above horizontal. Most players use the larger angle because it allows for a larger margin of error and a better chance of the ball going in even if it hits the rim.
+The ball can be thrown at either **30.4°** or **67.2°** above horizontal. Most players use the larger angle because it allows for a larger margin of error and a better chance of the ball going in even if it hits the rim.
 
 ::::
 
@@ -2510,6 +2613,12 @@ ground is achieved at $$ 45^\circ $$ when air resistance is neglected, a positiv
 **Strategy**
 
 Since the shot is released above ground level and lands on the ground, we cannot use the simple range equation. Instead, use the projectile motion equations with the release height of 2.10 m and landing height of 0 m.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the throw and +y up, origin on the ground directly below the release point. The shot leaves from y₀ = 2.10 m with unknown speed v₀ at 38.0° above the horizontal and lands at (24.77 m, 0). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p21.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of the throw and $$ +y $$ up, with the origin on the ground below the release point. Then $$ y_0 = +2.10 \m $$ and the shot lands at $$ y = 0 $$, so the level-ground range equation does not apply.
 
 **Solution**
 
@@ -2534,7 +2643,7 @@ $$ v_{0y} = v_0 \sin(38.0°) = 0.616 v_0 $$
 **Step 2: Find time from horizontal motion**
 
 <div class="equation">
-$$ t = \frac{R}{v_{0x}} = \frac{24.77}{0.788 v_0} = \frac{31.4}{v_0} $$
+$$ t = \frac{R}{v_{0x}} = \frac{24.77 \m}{0.788 v_0} = \frac{31.4 \m}{v_0} $$
 </div>
 
 **Step 3: Apply vertical motion equation**
@@ -2546,27 +2655,27 @@ $$ y = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 At landing, $$ y = 0 $$:
 
 <div class="equation">
-$$ 0 = 2.10 + (0.616 v_0)\left(\frac{31.4}{v_0}\right) - \frac{1}{2}(9.80)\left(\frac{31.4}{v_0}\right)^2 $$
+$$ 0 = 2.10 \m + (0.616 v_0)\left(\frac{31.4 \m}{v_0}\right) - \frac{1}{2}(9.80 \mss)\left(\frac{31.4 \m}{v_0}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0 = 2.10 + 0.616(31.4) - 4.90\left(\frac{986}{v_0^2}\right) $$
+$$ 0 = 2.10 \m + 0.616(31.4 \m) - 4.90 \mss\left(\frac{986 \mm}{v_0^2}\right) $$
 </div>
 
 <div class="equation">
-$$ 0 = 2.10 + 19.34 - \frac{4831}{v_0^2} $$
+$$ 0 = 2.10 \m + 19.34 \m - \frac{4831 \text{m}^3/\text{s}^2}{v_0^2} $$
 </div>
 
 <div class="equation">
-$$ \frac{4831}{v_0^2} = 21.44 $$
+$$ \frac{4831 \text{m}^3/\text{s}^2}{v_0^2} = 21.44 \m $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = \frac{4831}{21.44} = 225.3 $$
+$$ v_0^2 = \frac{4831 \text{m}^3/\text{s}^2}{21.44 \m} = 225.3 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{225.3} = 15.0 \ms $$
+$$ v_0 = \sqrt{225.3 \mmss} = 15.0 \ms $$
 </div>
 
 **Discussion**
@@ -2603,6 +2712,12 @@ same time as he reaches the basket?
 
 For part (a), use the kinematic equation relating velocity and displacement for vertical motion. For part (b), find the time to reach maximum height, then use horizontal motion to find the starting distance.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the basket and +y up, origin at the takeoff point on the floor. The player keeps v x = +5.00 m/s and leaves with unknown v₀y, reaching the top of the jump, 0.750 m up (v y = 0), exactly under the basket at unknown horizontal distance x. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p22.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the basket and $$ +y $$ up, with the origin at the takeoff point on the floor. Then $$ v_x = +5.00 \ms $$ (constant), $$ a_y = -9.80 \mss $$, and the top of the jump is at $$ y = +0.750 \m $$, where $$ v_y = 0 $$.
+
 **Solution**
 
 **Given:**
@@ -2625,11 +2740,11 @@ $$ 0 = v_{0y}^2 - 2(9.80 \mss)(0.750 \m) $$
 </div>
 
 <div class="equation">
-$$ v_{0y}^2 = 2(9.80)(0.750) = 14.7 \mmss $$
+$$ v_{0y}^2 = 2(9.80 \mss)(0.750 \m) = 14.7 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = \sqrt{14.7} = 3.83 \ms $$
+$$ v_{0y} = \sqrt{14.7 \mmss} = 3.83 \ms $$
 </div>
 
 **(b) Starting distance from basket:**
@@ -2643,11 +2758,11 @@ $$ v_y = v_{0y} - gt $$
 At maximum height, $$ v_y = 0 $$:
 
 <div class="equation">
-$$ 0 = 3.83 - (9.80)t $$
+$$ 0 = 3.83 \ms - (9.80 \mss)t $$
 </div>
 
 <div class="equation">
-$$ t = \frac{3.83}{9.80} = 0.391 \s $$
+$$ t = \frac{3.83 \ms}{9.80 \mss} = 0.391 \s $$
 </div>
 
 Horizontal distance traveled during this time:
@@ -2697,6 +2812,12 @@ horizontally?
 
 For part (a), use the range equation to find the initial speed. For part (b), find the time to maximum height, calculate distance before and after the wind gust, then sum them.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal downfield and +y up, origin at the kick on level ground. The ball leaves at unknown speed v₀ at 45.0° above +x; without wind it would land at x = 60.0 m. At the top of its path a gust reduces v x by 1.50 m/s, so it lands short of 60.0 m, at an unknown distance. The acceleration is a y = −9.80 m/s², a x = 0 except during the gust.](../resources/sketch_03_04_p23.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick, the gust changes only $$ v_x $$ at the top of the path; $$ v_y $$ and the time to fall are unchanged.
+
 **Solution**
 
 **Given:**
@@ -2714,7 +2835,7 @@ $$ R = \frac{v_0^2}{g} $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588} = 24.2 \ms $$
+$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588 \mmss} = 24.2 \ms $$
 </div>
 
 **(b) Range with wind gust:**
@@ -2728,19 +2849,19 @@ $$ v_{0x} = v_{0y} = v_0 \cos(45°) = (24.249 \ms)(0.70711) = 17.146 \ms $$
 Time to reach maximum height:
 
 <div class="equation">
-$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.146}{9.80} = 1.7496 \s $$
+$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.146 \ms}{9.80 \mss} = 1.7496 \s $$
 </div>
 
 Horizontal distance to maximum height (half the no-wind range):
 
 <div class="equation">
-$$ x_1 = v_{0x} \times t_{up} = 17.146 \times 1.7496 = 30.0 \m $$
+$$ x_1 = v_{0x} \times t_{up} = 17.146 \ms \times 1.7496 \s = 30.0 \m $$
 </div>
 
 After the wind gust, horizontal velocity becomes:
 
 <div class="equation">
-$$ v_x' = 17.146 - 1.50 = 15.646 \ms $$
+$$ v_x' = 17.146 \ms - 1.50 \ms = 15.646 \ms $$
 </div>
 
 Time to fall from maximum height (by symmetry, same as time to rise):
@@ -2752,17 +2873,16 @@ $$ t_{down} = t_{up} = 1.7496 \s $$
 Horizontal distance during descent:
 
 <div class="equation">
-$$ x_2 = v_x' \times t_{down} = 15.646 \times 1.7496 = 27.375 \m $$
+$$ x_2 = v_x' \times t_{down} = 15.646 \ms \times 1.7496 \s = 27.375 \m $$
 </div>
 
 Total horizontal distance:
 
 <div class="equation">
-$$ R_{total} = x_1 + x_2 = 30.000 + 27.375 = 57.4 \m $$
+$$ R_{total} = x_1 + x_2 = 30.000 \m + 27.375 \m = 57.4 \m $$
 </div>
 
-Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - 1.50\sqrt{30.0/9.80} \m = 57.3755 \m \approx 57.4 \m $$.
-</div>
+Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - (1.50 \ms)\sqrt{\frac{30.0 \m}{9.80 \mss}} = 57.3755 \m \approx 57.4 \m $$.
 
 **Discussion**
 
@@ -2806,6 +2926,12 @@ where $$ a $$ and $$ b $$ are constants.
 **Strategy**
 
 Start with the parametric equations for projectile motion (x and y as functions of time), eliminate time by solving for t from the x-equation, then substitute into the y-equation to get y as a function of x.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of launch and +y up, origin at the launch point. The projectile leaves with speed v₀ at angle θ₀ above +x, so v₀x = v₀ cos θ₀ and v₀y = v₀ sin θ₀. The acceleration is a y = −g, a x = 0. Landing condition: y(x) = ?.](../resources/sketch_03_04_p24.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of launch and $$ +y $$ up, with the origin at the launch point, so $$ x_0 = y_0 = 0 $$, $$ a_x = 0 $$, and $$ a_y = -g $$. These are the assumptions behind the given equations for $$ x $$ and $$ y $$.
 
 **Solution**
 
@@ -2879,6 +3005,16 @@ expression for $$ x-x_{0} $$, noting that $$ R=x-x_{0} $$
 ::::
 
 :::: solution
+
+**Strategy**
+
+Use the nonzero time at which the projectile returns to launch height, then substitute it into the horizontal displacement equation.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of launch and +y up, origin at the launch point. The projectile leaves with speed v₀ at angle θ₀ above +x, so v₀x = v₀ cos θ₀ and v₀y = v₀ sin θ₀. The acceleration is a y = −g, a x = 0. Landing condition: y = 0 at x = R.](../resources/sketch_03_04_p25.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of launch and $$ +y $$ up, with the origin at the launch point on level ground. The projectile lands when $$ y $$ returns to zero, and the range is $$ R = x - x_0 $$ at that time.
 
 **Solution**
 
@@ -2957,6 +3093,12 @@ range of the super cannon.
 
 Use the range formula for projectile motion, then analyze whether the result is physically reasonable. Consider factors like Earth's curvature, atmosphere, and the validity of the projectile motion equations.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of fire and +y up, origin at the cannon. For maximum range on level ground the shell leaves at 45° above +x with v₀ = 4.0 km/s and lands at y = 0 at unknown range R. The model assumes a y = −9.80 m/s², a x = 0, no air resistance, and a flat Earth.](../resources/sketch_03_04_p26.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the cannon, the range equation assumes level ground, constant $$ g $$, and no air resistance; parts (b)–(d) examine those assumptions.
+
 **Solution**
 
 **(a) Maximum range:**
@@ -2971,7 +3113,7 @@ Maximum range occurs at $$ \theta_{0} = 45° $$, where $$ \sin(2\theta_{0}) = \s
 Given: $$ v_0 = 4.0 \text{ km/s} = 4000 \ms $$, $$ g = 9.80 \mss $$
 
 <div class="equation">
-$$ R_{\text{max}} = \frac{v_0^2}{g} = \frac{(4000)^2}{9.80} = \frac{16{,}000{,}000}{9.80} = 1{,}633{,}000 \m \approx 1630 \text{ km} $$
+$$ R_{\text{max}} = \frac{v_0^2}{g} = \frac{(4000 \ms)^2}{9.80 \mss} = \frac{16{,}000{,}000 \mmss}{9.80 \mss} = 1{,}633{,}000 \m \approx 1630 \text{ km} $$
 </div>
 
 **(b) What is unreasonable:**
@@ -3046,7 +3188,7 @@ A baseball player throws a ball to clear a 3.0 m high fence. The fence is 20.0 m
 - Horizontal distance to fence: $$ x_f = 20.0 \m $$
 - Release height: $$ y_0 = 2.0 \m $$
 - Height ball must reach: $$ y_f = 3.0 \m $$
-- Net vertical distance: $$ \Delta y = 3.0 - 2.0 = 1.0 \m $$
+- Net vertical distance: $$ \Delta y = 3.0 \m - 2.0 \m = 1.0 \m $$
 
 **Approach:** Choose an initial speed (say $$ v_0 = 15.0 \ms $$) and find the launch angle(s) needed.
 
@@ -3057,38 +3199,38 @@ $$ y - y_0 = x\tan\theta - \frac{gx^{2}}{2v_0^2\cos^{2}\theta} $$
 
 At the fence ($$ x = 20.0 \m $$, $$ y - y_0 = 1.0 \m $$):
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{(9.80)(20.0)^2}{2(15.0)^2\cos^{2}\theta} $$
+$$ 1.0 \m = 20.0 \m\tan\theta - \frac{(9.80 \mss)(20.0 \m)^2}{2(15.0 \ms)^2\cos^{2}\theta} $$
 </div>
 
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{3920}{450\cos^{2}\theta} $$
+$$ 1.0 \m = 20.0 \m\tan\theta - \frac{3920 \text{m}^3/\text{s}^2}{450 \mmss\cos^{2}\theta} $$
 </div>
 
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{8.71}{\cos^{2}\theta} $$
+$$ 1.0 \m = 20.0 \m\tan\theta - \frac{8.71 \m}{\cos^{2}\theta} $$
 </div>
 
 Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$:
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - 8.71(1 + \tan^{2}\theta) $$
+$$ 1.0 \m = 20.0 \m\tan\theta - 8.71 \m(1 + \tan^{2}\theta) $$
 </div>
 
 <div class="equation">
-$$ 8.71\tan^{2}\theta - 20.0\tan\theta + 9.71 = 0 $$
+$$ 8.71 \m\tan^{2}\theta - 20.0 \m\tan\theta + 9.71 \m = 0 $$
 </div>
 
-**Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 $$, $$ c = 9.71 $$:
+**Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 \m $$, $$ c = 9.71 \m $$:
 <div class="equation">
-$$ \tan\theta = \frac{20.0 \pm \sqrt{400 - 338}}{17.4} = \frac{20.0 \pm \sqrt{62}}{17.4} = \frac{20.0 \pm 7.87}{17.4} $$
+$$ \tan\theta = \frac{20.0 \m \pm \sqrt{400 \mm - 338 \mm}}{17.4 \m} = \frac{20.0 \m \pm \sqrt{62 \mm}}{17.4 \m} = \frac{20.0 \m \pm 7.87 \m}{17.4 \m} $$
 </div>
 
 **Two solutions:**
 <div class="equation">
-$$ \tan\theta_{1} = \frac{27.9}{17.4} = 1.60 \quad \Rightarrow \quad \theta_{1} = 58.0° $$
+$$ \tan\theta_{1} = \frac{27.9 \m}{17.4 \m} = 1.60 \quad \Rightarrow \quad \theta_{1} = 58.0° $$
 </div>
 
 <div class="equation">
-$$ \tan\theta_{2} = \frac{12.1}{17.4} = 0.695 \quad \Rightarrow \quad \theta_{2} = 34.8° $$
+$$ \tan\theta_{2} = \frac{12.1 \m}{17.4 \m} = 0.695 \quad \Rightarrow \quad \theta_{2} = 34.8° $$
 </div>
 
 **Discussion**

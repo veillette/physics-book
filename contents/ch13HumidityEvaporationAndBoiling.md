@@ -353,7 +353,7 @@ The first is given to be  $$9.40 {\text{g/m}}^{3} $$ ,
 Using [[Table 1]](#Table1), we see that the vapor density is $$2.36 {\text{g/m}}^{3} $$ , because this value is the saturation vapor density at $$ - 10.0\text{ºC} $$ . The saturation vapor density at $$ 25.0\text{ºC} $$ is seen to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$ 25.0\text{ºC} $$ is
 
 <div class="equation" >
- $$\text{percent relative humidity}=\frac{2.36 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 10.3\% \text{.} $$
+ $$\text{percent relative humidity}=\frac{2.36 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100\%= 10.3\% \text{.} $$
 </div>
 
 **Discussion**
@@ -571,7 +571,7 @@ Nitrogen comprises about 78% of the atmosphere by volume (and by partial pressur
 (b) Standard atmospheric pressure is $$ 1.01 \times 10^{5} $$ Pa. The percentage is:
 
 <div class="equation" >
- $$\text{Percentage}=\frac{ 2.33 \times 10^{3}  \text{Pa}}{ 1.01 \times 10^{5}  \text{Pa}} \times 100 = 2.31\% $$
+ $$\text{Percentage}=\frac{ 2.33 \times 10^{3}  \text{Pa}}{ 1.01 \times 10^{5}  \text{Pa}} \times 100\% = 2.31\% $$
 </div>
 
 (c) From Table 1, the saturation vapor density at 20.0ºC is 17.2 g/m³ = 0.0172 kg/m³. The total mass of saturated air per cubic meter is:
@@ -583,7 +583,7 @@ Nitrogen comprises about 78% of the atmosphere by volume (and by partial pressur
 The percentage of water vapor is:
 
 <div class="equation" >
- $$\text{Percentage}=\frac{ 0.0172}{ 1.2172} \times 100 = 1.41\% $$
+ $$\text{Percentage}=\frac{ 0.0172}{ 1.2172} \times 100\% = 1.41\% $$
 </div>
 
 **Discussion:**
@@ -707,7 +707,7 @@ Use the definition of relative humidity as the ratio of actual vapor density to 
 From Table 1, the saturation vapor density at 25.0ºC is 23.0 g/m³.
 
 <div class="equation" >
- $$\text{Relative humidity}=\frac{\text{actual vapor density}}{\text{saturation vapor density}} \times 100=\frac{18.0 \text{ g/m}^{3}}{23.0 \text{ g/m}^{3}} \times 100=78.3\% $$
+ $$\text{Relative humidity}=\frac{\text{actual vapor density}}{\text{saturation vapor density}} \times 100\%=\frac{18.0 \text{ g/m}^{3}}{23.0 \text{ g/m}^{3}} \times 100\%=78.3\% $$
 </div>
 
 **Discussion:**
@@ -847,7 +847,7 @@ Maximum water vapor loss (if exhaled air is saturated):
 Where $$M = 18.0 \text{ g/mol} = 0.0180 \text{ kg/mol}$$ for water.
 
 <div class="equation" >
- $$P=\frac{\left(44.0 \text{ g/m}^{3}\right)\left( 8.31 \text{ J/mol}\cdot \text{K}\right)\left(310 \text{ K}\right)}{18.0 \text{ g/mol}}=\frac{\left( 0.0440 \text{ kg/m}^{3}\right)\left( 8.31\right)\left(310\right)}{0.0180}= 6.30 \times 10^{3}  \text{Pa} $$
+ $$P=\frac{\left(44.0 \text{ g/m}^{3}\right)\left( 8.31 \text{ J/mol}\cdot \text{K}\right)\left(310 \text{ K}\right)}{18.0 \text{ g/mol}}=\frac{\left( 0.0440 \text{ kg/m}^{3}\right)\left( 8.31 \text{ J/mol}\cdot\text{K}\right)\left(310 \text{K}\right)}{0.0180 \text{kg/mol}}= 6.30 \times 10^{3}  \text{Pa} $$
 </div>
 
 This is nearly identical to the vapor pressure of $$ 6.31 \times 10^{3} $$ Pa from Table 1.
@@ -886,7 +886,7 @@ Initial vapor density (which remains constant):
 
 Relative humidity at 30.0ºC:
 <div class="equation" >
- $$\text{Relative humidity}=\frac{ 15.5 \text{ g/m}^{3}}{ 30.4 \text{ g/m}^{3}} \times 100 = 51.0\% $$
+ $$\text{Relative humidity}=\frac{ 15.5 \text{ g/m}^{3}}{ 30.4 \text{ g/m}^{3}} \times 100\% = 51.0\% $$
 </div>
 
 **Discussion:**
@@ -923,7 +923,7 @@ Initial vapor density (which remains constant):
 
 Relative humidity at 10.0ºC:
 <div class="equation" >
- $$\text{Relative humidity}=\frac{ 7.74 \text{ g/m}^{3}}{ 9.40 \text{ g/m}^{3}} \times 100 = 82.3\% $$
+ $$\text{Relative humidity}=\frac{ 7.74 \text{ g/m}^{3}}{ 9.40 \text{ g/m}^{3}} \times 100\% = 82.3\% $$
 </div>
 
 **Discussion:**
@@ -961,7 +961,7 @@ Atmospheric pressure atop Mt. Everest is  $$ 3.30 \times 10^{4}  {\text{N/m}}^{2
 
 To achieve this partial pressure at Mt. Everest:
 <div class="equation" >
- $$\text{Percent O}_2=\frac{ 2.11 \times 10^{4}  \text{Pa}}{ 3.30 \times 10^{4}  \text{Pa}} \times 100 = 64.0\% $$
+ $$\text{Percent O}_2=\frac{ 2.11 \times 10^{4}  \text{Pa}}{ 3.30 \times 10^{4}  \text{Pa}} \times 100\% = 64.0\% $$
 </div>
 
 (c) The extreme drying occurs because the partial pressure of water vapor is limited by the vapor pressure at the local temperature. At the cold temperatures encountered high on the mountain, saturation vapor density is small, even at 100% relative humidity. At a fixed temperature, saturation vapor density does not depend on total atmospheric pressure. Climbers also breathe large volumes of air during exertion and in response to low oxygen pressure. When climbers inhale this dry air, their warm, moist breathing passages lose water vapor to humidify the inhaled air, causing severe dehydration of the respiratory tract.
@@ -1330,7 +1330,7 @@ Actual vapor density (which remains constant):
 
 Relative humidity at 25.0ºC:
 <div class="equation" >
- $$\text{Relative humidity}=\frac{ 24.3 \text{ g/m}^{3}}{ 23.0 \text{ g/m}^{3}} \times 100 = 106\% $$
+ $$\text{Relative humidity}=\frac{ 24.3 \text{ g/m}^{3}}{ 23.0 \text{ g/m}^{3}} \times 100\% = 106\% $$
 </div>
 
 (b) A relative humidity greater than 100% is impossible. Relative humidity cannot exceed 100% because that represents saturation—the maximum amount of water vapor the air can hold at that temperature.

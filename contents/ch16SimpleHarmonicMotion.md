@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 3
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Describe a simple harmonic oscillator.
-* Explain the link between simple harmonic motion and waves.
+- Describe a simple harmonic oscillator.
+- Explain the link between simple harmonic motion and waves.
 
 :::
 
@@ -38,7 +39,7 @@ Find a bowl or basin that is shaped like a hemisphere on the inside. Place a mar
 
 :::
 
-![The figure a shows a spring on a frictionless surface attached to a bar or wall from the left side. On the right side of the spring, an object attached to it with mass m, its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. In figure b, after the force has been applied the object moves to the left compressing the spring a bit. And the displaced area of the object from its initial point is shown in sketched dots. The F here is equal to zero and the v is max in negative direction. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative X. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v is zero. In figure d the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. The F is zero, and the velocity v is maximum. In figure e the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero.](../resources/Figure_16_03_01.jpg 'An object attached to a spring sliding on a frictionless surface is an uncomplicated simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude ( X ) and a period ( T ) . The object’s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period ( T ) . The greater the mass of the object is, the greater the period ( T ) .')
+![Five stages of a block of mass m on a spring of force constant k on a frictionless surface, each with its free-body diagram. (a) At x = X the block is momentarily at rest and the spring force F points left, toward equilibrium. (b) At x = 0 the force is zero and the block moves left at its maximum speed, −v_max. (c) At x = −X it is momentarily at rest and F points right. (d) At x = 0 the force is zero and it moves right at +v_max. (e) Back at x = X, the cycle repeats. In every stage the normal force N and the weight w balance.](../resources/Figure_16_03_01.svg 'An object attached to a spring sliding on a frictionless surface is an uncomplicated simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude ( X ) and a period ( T ) . The object’s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period ( T ) . The greater the mass of the object is, the greater the period ( T ) .')
 {: #Figure1}
 
 What is so significant about simple harmonic motion? One special thing is that
@@ -65,20 +66,20 @@ that affect the period and frequency of simple harmonic motion.
 Period of Simple Harmonic Oscillator
 </div>
 
-The *period of a simple harmonic oscillator* is given by
+The _period of a simple harmonic oscillator_ is given by
 
 <div class="equation" >
  $$T=2\pi \sqrt{\frac{m}{k}} $$
 </div>
 
-and, because  $$f=1/T $$ ,
- the *frequency of a simple harmonic oscillator* is
+and, because $$f=1/T $$ ,
+the _frequency of a simple harmonic oscillator_ is
 
 <div class="equation" >
  $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}}. $$
 </div>
 
-Note that neither  $$T $$  nor  $$f $$  has any dependence on amplitude.
+Note that neither $$T $$ nor $$f $$ has any dependence on amplitude.
 
 :::
 
@@ -98,7 +99,7 @@ Find two identical wooden or plastic rulers. Tape one end of each ruler firmly t
 Calculate the Frequency and Period of Oscillations: Bad Shock Absorbers in a Car
 </div>
 
-If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See [[Figure 2]](#Figure2)). Calculate the frequency and period of these oscillations for such a car if the car’s mass (including its load) is 900 kg and the force constant ( $$k $$ ) of the suspension system is  $$ 6.53 \times 10^{4}  \text{N/m} $$.
+If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See [[Figure 2]](#Figure2)). Calculate the frequency and period of these oscillations for such a car if the car’s mass (including its load) is 900 kg and the force constant ( $$k $$ ) of the suspension system is $$ 6.53 \times 10^{4}  \text{N/m} $$.
 
 **Strategy**
 
@@ -145,7 +146,7 @@ cosine waves.
 ![The figure shows the front right side of a running car on an uneven rough surface which also shows the driver in the driving seat. There is an oscillating sine wave drawn from left to the right side horizontally throughout the figure.](../resources/Figure_16_03_02.jpg 'The bouncing car makes a wavelike motion. If the restoring force in the suspension system can be described only by Hooke’s law, then the wave is a sine function. (The wave is the trace produced by the headlight as the car moves to the right.)')
 {: #Figure2}
 
-![There are two iron paper roll bars standing vertically with a paper strip stitched from one bar to the other. There is a vertical hanging spring just over the middle of the two bars, perpendicular to the strip of the paper, having an object with mass m tied to it. There is a line graph with amplitude scale as X, zero and negative X on the left side of the paper strip, vertically over each other with their points marked. A perpendicular line is drawn through this amplitude scale toward the right with a point T marked over it, showing the time duration of the amplitude. This line has an oscillating wave drawn through it.](../resources/Figure_16_03_03.jpg 'The vertical position of an object bouncing on a spring is recorded on a strip of moving paper, leaving a sine wave.')
+![An object of mass m hangs from a spring and bounces up and down between X and −X. A pen on the object draws on a strip of paper that moves steadily to the right between two rollers, leaving a sine wave with period T along the time axis t.](../resources/Figure_16_03_03.svg 'The vertical position of an object bouncing on a spring is recorded on a strip of moving paper, leaving a sine wave.')
 {: #Figure3}
 
 The displacement as a function of time _t_ in any simple harmonic motion—that
@@ -189,7 +190,7 @@ direction to $$x\left(t\right) $$.
 presents graphs of $$x\left(t\right),v\left(t\right), $$ and $$a\left(t\right) $$
 versus time.
 
-![In the figure at the top there are ten springboards with objects of different mass values tied to them. This makes some springs highly compressed some as loosely stretched and some at equilibrium, which are shown as red spherical shaped. Alongside the figure there is a scale given for different amplitude values as x equal to positive X, zero and negative X. the upward and downward pointing arrows are shown with a few springboards. In the second figure there are three graphs. The first graph shows distance covered in form of a sine wave starting from a point x units on positive y-axis. The height of the wave above x-axis is marked as amplitude. The gap between two consecutive crests is marked as T. Below first graph there is another graph showing velocity in form of a sine wave starting from the origin downward. In the third graph below the second one, acceleration is shown in the form of sine wave starting from x units on the negative y-axis upward. In the last figure three position of a spring are shown. The first position shows the unstretched length of a spring pendulum. A hand is holding the bob of the pendulum. In the second position the equilibrium position of the spring and bob is shown. This position is lower the first one. In the third case the up and down oscillations of the spring pendulum are shown. The bob is moving x units in upward and downward directions alternatively.](../resources/Figure_16_03_04.jpg "Graphs of \( x(t),v(t) \) and\( a(t) \) versus \( t \) for the motion of an object on a spring. The net force on the object can be described by Hooke&#x2019;s law, and so the object undergoes simple harmonic motion. Note that the initial position has the vertical displacement at its maximum value \( X \) ; \( v \) is initially zero and then negative as the object moves down; and the initial acceleration is negative, back toward the equilibrium position and becomes zero at that point.")
+![Top: snapshots of an object on a vertical spring at equal time steps, moving from x = +X down through x = 0 to x = −X and back, with green arrows showing its velocity when it passes x = 0. Graphs: the position x = X cos(2πt/T) starts at its maximum X, with period T; the velocity starts at zero and goes negative, between −v_max and v_max; the acceleration starts at its most negative value, −a_max, always opposite the displacement. Bottom: a spring of unstrained length, the same spring stretched to its equilibrium position by the hanging object, and the object oscillating between x = +X and x = −X about that equilibrium.](../resources/Figure_16_03_04.svg 'Graphs of ( x(t),v(t) ) and( a(t) ) versus ( t ) for the motion of an object on a spring. The net force on the object can be described by Hooke’s law, and so the object undergoes simple harmonic motion. Note that the initial position has the vertical displacement at its maximum value ( X ) ; ( v ) is initially zero and then negative as the object moves down; and the initial acceleration is negative, back toward the equilibrium position and becomes zero at that point.')
 {: #Figure4 height="575"}
 
 The most important point here is that these equations are mathematically
@@ -223,15 +224,15 @@ Check Your Understanding
 
 ::: problem
 
-A babysitter is pushing a child on a swing. At the point where the swing reaches  $$x $$ ,
- where would the corresponding point on a wave of this motion be located?
+A babysitter is pushing a child on a swing. At the point where the swing reaches $$x $$ ,
+where would the corresponding point on a wave of this motion be located?
 
 :::
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
- $$x $$
- is the maximum deformation, which corresponds to the amplitude of the wave. The point on the wave would either be at the very top or the very bottom of the curve.
+$$x $$
+is the maximum deformation, which corresponds to the amplitude of the wave. The point on the wave would either be at the very top or the very bottom of the curve.
 
 :::
 
@@ -254,14 +255,14 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 
 ### Section Summary
 
-* Simple harmonic motion is oscillatory motion for a system that can be
+- Simple harmonic motion is oscillatory motion for a system that can be
   described only by Hooke’s law. Such a system is also called a simple harmonic
   oscillator.
-* Maximum displacement is the amplitude $$X $$. The period $$T $$ and frequency
- $$f $$ of a simple harmonic oscillator are given by $$T=2\pi \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m $$ is the mass of the system. * Displacement in simple harmonic motion as a function of time is given by $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
-* The velocity is given by $$v\left(t\right)=-{v}_{\text{max}}\sin\frac{2\pi t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
+- Maximum displacement is the amplitude $$X $$. The period $$T $$ and frequency
+  $$f $$ of a simple harmonic oscillator are given by $$T=2\pi \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m $$ is the mass of the system. * Displacement in simple harmonic motion as a function of time is given by $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
+- The velocity is given by $$v\left(t\right)=-{v}_{\text{max}}\sin\frac{2\pi t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
 
-* The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos \frac{2\pi t}{T}.$$
+- The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos \frac{2\pi t}{T}.$$
 
 ### Conceptual Questions
 
@@ -270,6 +271,22 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
 ::: problem
 
 What conditions must be met to produce simple harmonic motion?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the restoring force with displacement from a stable equilibrium.
+
+**Solution**
+
+Ideal simple harmonic motion requires a net restoring force proportional to displacement and opposite in direction: $$F=-kx$$, with constant positive $$k$$ and constant mass. Then $$a=-(k/m)x$$ and the motion is sinusoidal with angular frequency $$\omega=\sqrt{k/m}$$. Damping, nonlinear restoring forces, or additional driving forces must be negligible for this unforced ideal motion.
+
+**Discussion**
+
+The oscillation must remain within the range where the linear force law holds. Simple harmonic motion occurs when the net acceleration is a constant negative multiple of displacement from equilibrium.
 
 :::
 
@@ -286,6 +303,22 @@ depend on the amplitude?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish strict simple harmonic motion from approximately harmonic oscillations.
+
+**Solution**
+
+(a) A single ideal simple harmonic motion has a constant angular frequency, so an oscillation whose frequency changes during its motion is not strictly simple harmonic. (b) Real oscillators can have amplitude-dependent frequency when the restoring force is nonlinear. A pendulum at large angular amplitude is a familiar example: its period increases with amplitude, even though its small-angle motion is approximately simple harmonic.
+
+**Discussion**
+
+An oscillator may have a well-defined frequency at each chosen amplitude without being simple harmonic. Strict simple harmonic motion has constant frequency independent of amplitude; nonlinear oscillations can violate that property.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -293,6 +326,22 @@ depend on the amplitude?
 ::: problem
 
 Give an example of a simple harmonic oscillator, specifically noting how its frequency is independent of amplitude.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use a mass on a linear spring and compare different amplitudes at fixed mass and spring constant.
+
+**Solution**
+
+An assumed $$0.50\text{ kg}$$ mass on a spring of $$k=200\text{ N/m}$$ has frequency $$f=(1/2\pi)\sqrt{k/m}=(1/2\pi)\sqrt{(200\text{ N/m})/(0.50\text{ kg})}=3.18\text{ Hz}$$. Within the spring’s linear range and with negligible damping, amplitudes of $$0.010\text{ m}$$ and $$0.030\text{ m}$$ give the same frequency.
+
+**Discussion**
+
+Greater amplitude increases both the travel distance and characteristic speed, leaving the period unchanged. A mass on an ideal linear spring is a simple harmonic oscillator whose frequency does not depend on amplitude.
 
 :::
 
@@ -306,6 +355,22 @@ Explain why you expect an object made of a stiff material to vibrate at a higher
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare effective stiffness at comparable geometry and vibrating mass.
+
+**Solution**
+
+For an elastic mode modeled by a spring and mass, $$f=(1/2\pi)\sqrt{k_{\text{eff}}/m_{\text{eff}}}$$. A stiffer material generally gives a larger effective restoring force for the same deformation, increasing $$k_{\text{eff}}$$. For example, quadrupling stiffness at fixed effective mass doubles the frequency.
+
+**Discussion**
+
+Density, geometry, and damping also matter, so stiffness alone cannot rank arbitrary objects. For otherwise comparable objects, the stiffer material vibrates faster because its stronger restoring force produces a higher natural frequency.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -316,6 +381,22 @@ As you pass a freight truck with a trailer on a highway, you notice that its tra
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the suspension frequency as the supported mass changes.
+
+**Solution**
+
+In a simple suspension model, $$f=(1/2\pi)\sqrt{k/m}$$. If the effective spring stiffness is approximately unchanged, a greater supported mass gives a lower frequency and slower bouncing. Quadrupling the supported mass would halve the bounce frequency in this model.
+
+**Discussion**
+
+Air suspension, progressive springs, and different vibration modes can complicate the observation. Under the usual fixed-stiffness assumption, the slowly bouncing trailer is more likely heavily loaded than nearly empty.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -323,6 +404,22 @@ As you pass a freight truck with a trailer on a highway, you notice that its tra
 ::: problem
 
 Some people modify cars to be much closer to the ground than when manufactured. Should they install stiffer springs? Explain your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the available suspension travel with the spring deflection produced by loads and bumps.
+
+**Solution**
+
+Lowering a car leaves less clearance before the suspension bottoms out or the body contacts the road. A larger spring constant reduces additional compression under a given force, $$\Delta x=\Delta F/k$$, and can help keep motion within the reduced travel. It also raises the suspension’s natural frequency and usually makes the ride harsher, requiring compatible damping.
+
+**Discussion**
+
+Stiffer springs alone do not specify the desired ride height; free length, preload, geometry, and damper travel also matter. A lowered car generally needs appropriately stiffer, matched suspension components to limit bottoming rather than merely shorter unmodified springs.
 
 :::
 
@@ -371,7 +468,7 @@ Substituting the given values ($$m = 0.0150$$ kg, $$T = 0.500$$ s):
 </div>
 
 <div class="equation">
- $$k = \frac{4(9.870)(0.0150)}{0.250} = \frac{0.592}{0.250} = 2.37 \text{ N/m}$$
+ $$k = \frac{4(9.870)(0.0150 \text{ kg})}{0.250 \text{ s}^2} = \frac{0.592 \text{ kg}}{0.250 \text{ s}^2} = 2.37 \text{ N/m}$$
 </div>
 
 **The spring constant needed is 2.37 N/m.**
@@ -382,7 +479,7 @@ The spring constant of 2.37 N/m is quite small, indicating a very soft spring. T
 
 A stiffer spring would require either a heavier mass or would oscillate too quickly to keep accurate time. The 0.5-second period means the mass completes one full oscillation (up and down) twice per second, or 120 complete cycles per minute. This regular oscillation can be used to drive the clock's timekeeping mechanism.
 
-To put this in perspective, if you hung the 15-gram cherub from this spring, it would stretch only $$x = \frac{mg}{k} = \frac{(0.015)(9.8)}{2.37} = 0.062$$ m or about 6.2 cm under its own weight—a reasonable deflection for a decorative clock ornament.
+To put this in perspective, if you hung the 15-gram cherub from this spring, it would stretch only $$x = \frac{mg}{k} = \frac{(0.015 \text{ kg})(9.8 \text{ m/s}^2)}{2.37 \text{ N/m}} = 0.062 \text{ m}$$ or about 6.2 cm under its own weight—a reasonable deflection for a decorative clock ornament.
 
 :::
 
@@ -457,19 +554,19 @@ The period of a mass-spring system is $$T = 2\pi\sqrt{\frac{m}{k}}$$. The spring
 From the initial conditions, solve for $$k$$:
 
 <div class="equation">
- $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500)}{(1.50)^2} = \frac{19.74}{2.25} = 8.77 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500 \text{ kg})}{(1.50 \text{ s})^2} = \frac{19.74 \text{ kg}}{2.25 \text{ s}^2} = 8.77 \text{ N/m}$$
 </div>
 
 For the new period $$T_2 = 2.00$$ s, find the total mass needed:
 
 <div class="equation">
- $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(8.77)(2.00)^2}{4\pi^{2}} = \frac{35.08}{39.48} = 0.889 \text{ kg}$$
+ $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(8.77 \text{ N/m})(2.00 \text{ s})^2}{4\pi^{2}} = \frac{35.08 \text{ kg}}{39.48} = 0.889 \text{ kg}$$
 </div>
 
 The mass to be added is:
 
 <div class="equation">
- $$\Delta m = m_2 - m_1 = 0.889 - 0.500 = 0.389 \text{ kg}$$
+ $$\Delta m = m_2 - m_1 = 0.889 \text{ kg} - 0.500 \text{ kg} = 0.389 \text{ kg}$$
 </div>
 
 **Discussion**
@@ -503,31 +600,33 @@ From the previous problem, we found that adding 0.389 kg to the 0.500 kg mass gi
 From the previous problem, $$T_1 = 1.50$$ s with $$m_1 = 0.500$$ kg. Using $$T = 2\pi\sqrt{\frac{m}{k}}$$:
 
 <div class="equation">
- $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500)}{(1.50)^2} = 8.77 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500 \text{ kg})}{(1.50 \text{ s})^2} = 8.77 \text{ N/m}$$
 </div>
 
 For $$T = 1.99$$ s:
 
 <div class="equation">
- $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77)(1.99)^2}{4\pi^{2}} = 0.878 \text{ kg}$$
+ $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = m_1\left(\frac{T}{T_1}\right)^{2} = (0.500 \text{ kg})\left(\frac{1.99 \text{ s}}{1.50 \text{ s}}\right)^{2} = 0.880 \text{ kg}$$
 </div>
 
 For $$T = 2.01$$ s:
 
 <div class="equation">
- $$m_{\text{max}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77)(2.01)^2}{4\pi^{2}} = 0.896 \text{ kg}$$
+ $$m_{\text{max}} = m_1\left(\frac{T}{T_1}\right)^{2} = (0.500 \text{ kg})\left(\frac{2.01 \text{ s}}{1.50 \text{ s}}\right)^{2} = 0.898 \text{ kg}$$
 </div>
 
 The target mass is 0.889 kg, so the leeway is:
 
 <div class="equation">
- $$\Delta m = 0.896 - 0.878 = 0.018 \text{ kg} = 18 \text{ g}$$
+ $$\Delta m = 0.898 \text{ kg} - 0.880 \text{ kg} = 0.018 \text{ kg} = 18 \text{ g}$$
 </div>
 
 This is $$\pm 0.009$$ kg from the target. The percentage leeway is:
 
 <div class="equation">
- $$\frac{0.009}{0.889} \times 100\% = 1.0\%$$
+ $$\frac{0.009}{0.889} \times 100\% = 1.0\%$$ of the total mass.
+
+Measured against the mass being _added_ (0.389 kg, so the added mass may range from 0.380 kg to 0.398 kg), the same ±9 g is $$\pm 0.009/0.389 = \pm 2.3\%$$.
 </div>
 
 **Discussion**
@@ -538,7 +637,7 @@ The relatively small leeway of ±9 g (±1.0%) shows that the period is quite sen
 
 Mass leeway: ±9 g or ±0.009 kg
 
-Percentage leeway: ±1.0%
+Percentage leeway: ±1.0% of the total mass, or ±2.3% of the added mass
 
 :::
 
@@ -548,10 +647,10 @@ Percentage leeway: ±1.0%
 
 ::: problem
 
-Suppose you attach the object with mass  $$m $$
- to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring's original rest length. (a) Show that the spring exerts an upward force of  $$2.00 \mathrm{mg} $$
- on the object at its lowest point. (b) If the spring has a force constant of  $$ 10.0 \text{N/m} $$
- and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (c) Find the maximum velocity.
+Suppose you attach the object with mass $$m $$
+to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring's original rest length. (a) Show that the spring exerts an upward force of $$2.00 \mathrm{mg} $$
+on the object at its lowest point. (b) If the spring has a force constant of $$ 10.0 \text{N/m} $$
+and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (c) Find the maximum velocity.
 
 :::
 
@@ -592,13 +691,13 @@ This proves the spring exerts an upward force of $$2mg$$ at the lowest point.
 Substituting values:
 
 <div class="equation">
- $$X = \frac{(0.25)(9.80)}{10.0} = 0.245 \text{ m}$$
+ $$X = \frac{(0.25 \text{ kg})(9.80 \text{ m/s}^2)}{10.0 \text{ N/m}} = 0.245 \text{ m}$$
 </div>
 
 (c) The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.245\sqrt{\frac{10.0}{0.25}} = 0.245\sqrt{40.0} = 1.55 \text{ m/s}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.245 \text{ m})\sqrt{\frac{10.0 \text{ N/m}}{0.25 \text{ kg}}} = (0.245 \text{ m})\sqrt{40.0 \text{ 1/s}^2} = 1.55 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -629,7 +728,7 @@ A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0
 
 The same board has the same effective force constant for both divers. Since $$T=2\pi\sqrt{m/k}$$,
 
-$$\frac{m_2}{m_1}=\left(\frac{T_2}{T_1}\right)^2,\qquad m_2=(55.0)\left(\frac{1.05}{0.800}\right)^2=94.746\ \text{kg}\approx94.7\ \text{kg}.$$
+$$\frac{m_2}{m_1}=\left(\frac{T_2}{T_1}\right)^2,\qquad m_2=(55.0\ \text{kg})\left(\frac{1.05}{0.800}\right)^2=94.746\ \text{kg}\approx94.7\ \text{kg}.$$
 
 The longer period corresponds to the larger mass. Taking the ratio avoids rounding an intermediate spring constant.
 
@@ -655,23 +754,23 @@ We can find the spring constant of the diving board from its initial frequency a
 First, find the spring constant using the board's frequency without a diver. From $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$:
 
 <div class="equation">
- $$k = 4\pi^{2} f^2 m = 4\pi^{2}(4.00)^2(10.0) = 6320 \text{ N/m}$$
+ $$k = 4\pi^{2} f^2 m = 4\pi^{2}(4.00 \text{ Hz})^2(10.0 \text{ kg}) = 6320 \text{ N/m}$$
 </div>
 
 When the 75.0-kg diver stands on the board, the total mass becomes:
 
 <div class="equation">
- $$m_{\text{total}} = 10.0 + 75.0 = 85.0 \text{ kg}$$
+ $$m_{\text{total}} = 10.0 \text{ kg} + 75.0 \text{ kg} = 85.0 \text{ kg}$$
 </div>
 
 The new frequency is:
 
 <div class="equation">
- $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{\frac{k}{m_{\text{total}}}} = \frac{1}{2\pi}\sqrt{\frac{6320}{85.0}}$$
+ $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{\frac{k}{m_{\text{total}}}} = \frac{1}{2\pi}\sqrt{\frac{6320 \text{ N/m}}{85.0 \text{ kg}}}$$
 </div>
 
 <div class="equation">
- $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{74.35} = \frac{8.62}{2\pi} = 1.37 \text{ Hz}$$
+ $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{74.35 \text{ 1/s}^2} = \frac{8.62 \text{ 1/s}}{2\pi} = 1.37 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -690,7 +789,7 @@ The frequency decreases significantly from 4.00 Hz to 1.37 Hz when the diver sta
 
 ::: problem
 
-![The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.](../resources/Figure_16_03_05.jpg "This child&#x2019;s toy relies on springs to keep infants entertained. (credit: By Humboldthead, Flickr)"){: #Figure5}
+![The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.](../resources/Figure_16_03_05.jpg 'This child’s toy relies on springs to keep infants entertained. (credit: By Humboldthead, Flickr)'){: #Figure5}
 
 The device pictured in [[Figure 5]](#Figure5) entertains infants while keeping
 them from wandering. The child bounces in a harness suspended from a door frame
@@ -719,19 +818,19 @@ For part (a), at equilibrium the spring force equals the child's weight, so we c
 </div>
 
 <div class="equation">
- $$k = \frac{mg}{x} = \frac{(8.0)(9.80)}{0.250} = \frac{78.4}{0.250} = 314 \text{ N/m}$$
+ $$k = \frac{mg}{x} = \frac{(8.0 \text{ kg})(9.80 \text{ m/s}^2)}{0.250 \text{ m}} = \frac{78.4 \text{ N}}{0.250 \text{ m}} = 314 \text{ N/m}$$
 </div>
 
 (b) The period of oscillation is:
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{8.0}{314}} = 2\pi\sqrt{0.0255} = 2\pi(0.160) = 1.00 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{8.0 \text{ kg}}{314 \text{ N/m}}} = 2\pi\sqrt{0.0255 \text{ s}^2} = 2\pi(0.160 \text{ s}) = 1.00 \text{ s}$$
 </div>
 
 (c) The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.200\sqrt{\frac{314}{8.0}} = 0.200\sqrt{39.25} = 0.200(6.27) = 1.25 \text{ m/s}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.200 \text{ m})\sqrt{\frac{314 \text{ N/m}}{8.0 \text{ kg}}} = (0.200 \text{ m})\sqrt{39.25 \text{ 1/s}^2} = (0.200 \text{ m})(6.27 \text{ 1/s}) = 1.25 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -778,7 +877,7 @@ Since $$T = 2\pi\sqrt{\frac{m}{k}}$$, the ratio of periods is:
 The new period is:
 
 <div class="equation">
- $$T_2 = T_1 \times 1.291 = 1.50 \times 1.291 = 1.94 \text{ s}$$
+ $$T_2 = T_1 \times 1.291 = (1.50 \text{ s}) \times 1.291 = 1.94 \text{ s}$$
 </div>
 
 **Discussion**
@@ -796,6 +895,7 @@ When the second skydiver grabs onto the first, the total mass increases from 90.
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 amplitude

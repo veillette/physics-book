@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="310" viewBox="0 0 520 310" role="img" aria-labelledby="title desc">
+<title id="title">A straight-line graph</title>
+<desc id="desc">The line y = mx + b crosses the vertical axis at the intercept b and has slope m = rise/run = Δy/Δx.</desc>
+<rect width="520" height="310" fill="#ffffff"/>
+<line x1="135" y1="262" x2="349" y2="262" stroke="#222222" stroke-width="1.8"/>
+<polygon points="360,262 348,266.8 348,257.2" fill="#222222"/>
+<line x1="135" y1="262" x2="135" y2="49" stroke="#222222" stroke-width="1.8"/>
+<polygon points="135,38 139.8,50 130.2,50" fill="#222222"/>
+<text x="370" y="269" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="135" y="31" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<text x="135" y="288.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="115" y1="224" x2="330" y2="95" stroke="#c0392b" stroke-width="3.5"/>
+<line x1="135" y1="212" x2="157" y2="212" stroke="#222222" stroke-width="1.5"/>
+<line x1="148" y1="253" x2="148" y2="221" stroke="#222222" stroke-width="1.5"/>
+<polygon points="148,214 151.2,222 144.8,222" fill="#222222"/>
+<polygon points="148,260 144.8,252 151.2,252" fill="#222222"/>
+<text x="165" y="243.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">b</tspan></text>
+<text x="107" y="204.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">b</tspan></text>
+<text x="70" y="141.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Intercept</tspan></text>
+<path d="M 70 150 Q 77.1 201.6 122.03 205.41" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="120.03" y1="205.24" x2="124.62" y2="205.63" stroke="#333333" stroke-width="1.2"/>
+<polygon points="129,206 123.44,207.7 123.8,203.39" fill="#333333"/>
+<text x="225" y="56.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mx</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">b</tspan></text>
+<path d="M 220 66 Q 277.68 91.7 245.96 138.02" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="247.09" y1="136.37" x2="244.49" y2="140.17" stroke="#333333" stroke-width="1.2"/>
+<polygon points="242,143.8 243.27,138.12 246.83,140.57" fill="#333333"/>
+<text x="258" y="191.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Slope</tspan><tspan font-style="normal"> =</tspan></text>
+<text x="288" y="180.14" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rise</tspan></text>
+<line x1="269" y1="185" x2="307" y2="185" stroke="#222222" stroke-width="1.2"/>
+<text x="288" y="204.26" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">run</tspan></text>
+<text x="318" y="191.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<text x="345" y="180.14" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">y</tspan></text>
+<line x1="330" y1="185" x2="360" y2="185" stroke="#222222" stroke-width="1.2"/>
+<text x="345" y="204.26" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan></text>
+<text x="372" y="191.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">= </tspan><tspan font-style="italic">m</tspan></text>
+</svg>

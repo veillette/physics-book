@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Sandbags stop a leak under a levee</title>
+<desc id="desc">A flooding river on the right presses against a levee. Water leaks under the levee and comes up on its far side, where a ring of sandbags has been stacked around the leak. Water inside the sandbags rises at most to the level of the river, shown by a dashed line, and then stops rising.</desc>
+<rect width="1000" height="560" fill="#ffffff"/>
+<rect x="0" y="440" width="1000" height="120" fill="#b9ab9b" stroke="#8f8273" stroke-width="1.5"/>
+<polygon points="700,245 705,244.99 710,244.72 715,243.22 720,240.78 725,240.14 730,242.17 735,244.29 740,244.95 745,245 750,245 755,245 760,245 765,245 770,245 775,245 780,245 785,245 790,245 795,245 800,244.99 805,244.6 810,242.87 815,240.5 820,240.31 825,242.56 830,244.47 835,244.98 840,245 845,245 850,245 855,245 860,245 865,245 870,245 875,245 880,245 885,245 890,245 895,244.97 900,244.44 905,242.49 910,240.28 915,240.55 920,242.93 925,244.62 930,244.99 935,245 940,245 945,245 950,245 955,245 960,245 965,245 970,245 975,245 980,245 985,245 990,244.95 995,244.25 1000,242.11 1000,440 700,440" fill="#a7cbe6"/>
+<path d="M 365 440 L 445 228 Q 570 210 700 232 L 765 440 Z" fill="#b9ab9b" stroke="#8f8273" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="85" y="245" width="240" height="195" fill="#a7cbe6"/>
+<rect x="87" y="214" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="214" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="214" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="214" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="239.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="239.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="239.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="239.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="265" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="265" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="265" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="265" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="290.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="290.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="290.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="290.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="316" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="316" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="316" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="316" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="341.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="341.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="341.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="341.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="367" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="367" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="367" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="367" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="392.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="392.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="392.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="392.5" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="87" y="418" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="147" y="418" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="207" y="418" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<rect x="267" y="418" width="56" height="22" rx="10" fill="#cfc8b6" stroke="#8f8a7a" stroke-width="1.2"/>
+<line x1="325" y1="245" x2="440" y2="245" stroke="#222222" stroke-width="1.6" stroke-dasharray="6 5"/>
+<ellipse cx="770" cy="476" rx="62" ry="15" transform="rotate(161.1 770 476)" fill="#a7cbe6" stroke="#2a9fd0" stroke-width="2"/>
+<line x1="807.84" y1="463.03" x2="743.51" y2="485.08" stroke="#222222" stroke-width="1.8"/>
+<polygon points="732.16,488.97 742.77,479.84 746.15,489.68" fill="#222222"/>
+<ellipse cx="630" cy="505" rx="62" ry="15" transform="rotate(175.9 630 505)" fill="#a7cbe6" stroke="#2a9fd0" stroke-width="2"/>
+<line x1="669.9" y1="502.15" x2="602.07" y2="506.99" stroke="#222222" stroke-width="1.8"/>
+<polygon points="590.1,507.85 602.7,501.74 603.44,512.11" fill="#222222"/>
+<ellipse cx="490" cy="505" rx="62" ry="15" transform="rotate(-175.9 490 505)" fill="#a7cbe6" stroke="#2a9fd0" stroke-width="2"/>
+<line x1="529.9" y1="507.85" x2="462.07" y2="503.01" stroke="#222222" stroke-width="1.8"/>
+<polygon points="450.1,502.15 463.44,497.89 462.7,508.26" fill="#222222"/>
+<ellipse cx="327.5" cy="481" rx="62" ry="15" transform="rotate(-168.4 327.5 481)" fill="#a7cbe6" stroke="#2a9fd0" stroke-width="2"/>
+<line x1="366.68" y1="489.05" x2="300.07" y2="475.37" stroke="#222222" stroke-width="1.8"/>
+<polygon points="288.32,472.95 302.1,470.47 300.01,480.66" fill="#222222"/>
+<text x="200" y="182.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Sandbags</tspan></text>
+<text x="505" y="370.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Levee</tspan></text>
+<text x="830" y="182.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Flooding</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">river</tspan></text>
+<text x="425" y="42.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Water</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rises</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">to</tspan></text>
+<text x="425" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">this</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">level</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">most</tspan></text>
+<polyline points="415,106 412.91,108.26 410.9,110.54 409.03,112.87 407.37,115.25 405.96,117.7 404.85,120.24 404.06,122.87 403.59,125.58 403.41,128.38 403.51,131.25 403.84,134.19 404.33,137.18 404.93,140.19 405.54,143.21 406.11,146.22 406.56,149.19 406.81,152.11 406.83,154.96 406.56,157.73 405.98,160.42 405.08,163.01 403.87,165.52 402.37,167.95 400.64,170.31 398.71,172.62 396.66,174.89 394.57,177.15 392.49,179.42 390.52,181.71 388.71,184.05 387.13,186.46 385.83,188.94 384.82,191.51 384.13,194.16 383.76,196.9 383.69,199.73 383.87,202.63 384.26,205.58 384.79,208.58 385.4,211.6" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="385.4" y1="211.6" x2="380.43" y2="229.33" stroke="#222222" stroke-width="1.4"/>
+<polygon points="378,238 376.85,227.29 384.55,229.45" fill="#222222"/>
+</svg>

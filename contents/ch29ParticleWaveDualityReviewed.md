@@ -738,7 +738,7 @@ Converting to MeV:
 For a relativistic electron, use $$E^2 = (pc)^2 + (mc^{2})^2$$:
 
 <div class="equation">
- $$E_e = \sqrt{(pc)^2 + (mc^{2})^2} = \sqrt{(1.99 \times 10^{-10})^2 + (8.19 \times 10^{-14})^2} \approx 1.99 \times 10^{-10} \text{ J}$$
+ $$E_e = \sqrt{(pc)^2 + (mc^{2})^2} = \sqrt{(1.99 \times 10^{-10} \text{ J})^2 + (8.19 \times 10^{-14} \text{ J})^2} \approx 1.99 \times 10^{-10} \text{ J}$$
 </div>
 
 Then $$\gamma = E_e/(mc^{2}) = 1.99 \times 10^{-10}/(8.19 \times 10^{-14}) = 2430$$
@@ -833,7 +833,7 @@ The momentum delivered per second (force) from absorbed light would be:
 Since the light is reflected (momentum reversed), the force is doubled:
 
 <div class="equation">
- $$F_{\text{reflected}} = 2F_{\text{absorbed}} = 2(4.33 \times 10^{-6}) = 8.67 \times 10^{-6} \text{ N/m}^2$$
+ $$F_{\text{reflected}} = 2F_{\text{absorbed}} = 2(4.33 \times 10^{-6} \text{ N/m}^2) = 8.67 \times 10^{-6} \text{ N/m}^2$$
 </div>
 
 **Solution for (b)**

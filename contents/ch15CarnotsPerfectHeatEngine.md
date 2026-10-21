@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* Identify a Carnot cycle.
-* Calculate maximum theoretical efficiency of a nuclear reactor.
-* Explain how dissipative processes affect the ideal Carnot engine.
+- Identify a Carnot cycle.
+- Calculate maximum theoretical efficiency of a nuclear reactor.
+- Explain how dissipative processes affect the ideal Carnot engine.
 
 :::
 
@@ -100,9 +101,9 @@ environment into which heat transfer occurs. Consider the following example.
 Maximum Theoretical Efficiency for a Nuclear Reactor
 </div>
 
-A nuclear power reactor has pressurized water at  $$300\text{ºC} $$ .
- (Higher temperatures are theoretically possible but practically not, due to limitations with materials used in the reactor.) Heat transfer from this water is a complex process (see [[Figure 3]](#Figure3)). Steam, produced in the steam generator, is used to drive the turbine-generators. Eventually the steam is condensed to water at  $$27\text{ºC} $$
- and then heated again to start the cycle over. Calculate the maximum theoretical efficiency for a heat engine operating between these two temperatures.
+A nuclear power reactor has pressurized water at $$300\text{ºC} $$ .
+(Higher temperatures are theoretically possible but practically not, due to limitations with materials used in the reactor.) Heat transfer from this water is a complex process (see [[Figure 3]](#Figure3)). Steam, produced in the steam generator, is used to drive the turbine-generators. Eventually the steam is condensed to water at $$27\text{ºC} $$
+and then heated again to start the cycle over. Calculate the maximum theoretical efficiency for a heat engine operating between these two temperatures.
 
 ![Diagram shows a schematic diagram of a pressurized water nuclear reactor and the steam turbines that convert work into electrical energy. There is a pressure vessel in the middle, dome shaped at the ends. This has a nuclear core in it. The core is a small square in the center of the reactor. Control rods are shown as sticks of equal length attached to the core. The pressure vessel has some coolant tubes passing through it and then back to a steam chamber. These coolant tubes contain a coolant liquid that transports the heat from the pressure vessel to the steam chamber. This whole system is enclosed in another dome shaped containment structure of steel. The water supply to steam chamber and the steam outlet are seen to come out of this chamber. This steam is now shown to run two steam turbines, one a high pressure one and another low pressure one. The turbines are nearly triangular and segmented in shape. The steam turbine in turn generates power using a turbine generator, which is attached to the turbine system. The turbines are again housed in another chamber which gets the steam from the steam chamber and return the steam as water back to the steam chamber with pipes. A coolant tower is shown near the turbine system, which is shown to supply cool water in tubes to the turbine system to cool the steam back to water.](../resources/Figure_15_04_03.jpg 'Schematic diagram of a pressurized water nuclear reactor and the steam turbines that convert work into electrical energy. Heat exchange is used to generate steam, in part to avoid contamination of the generators with radioactivity. Two turbines are used because this is less expensive than operating a single generator that produces the same amount of electrical energy. The steam is condensed to liquid before being returned to the heat exchanger, to keep exit steam pressure low and aid the flow of steam through the turbines (equivalent to using a lower-temperature cold reservoir). The considerable energy associated with condensation must be dissipated into the local environment; in this example, a cooling tower is used so there is no direct heat transfer to an aquatic environment. (Note that the water going to the cooling tower does not come into contact with the steam flowing over the turbines.)')
 {: #Figure3}
@@ -156,6 +157,48 @@ in [[Figure 5]](#Figure5)(b).
 ![Part a of the diagram shows a combustion engine represented as a circle to compare the efficiency of real and Carnot engines. The hot reservoir is a rectangular section above the circle shown at temperature T sub h. A cold reservoir is shown as a rectangular section below the circle at temperature T sub c. Heat Q sub h enters the heat engine as shown by a bold arrow. For a real engine a small part of it is shown to be expelled as output from the engine shown as a bold arrow leaving the circle and for a Carnot engine larger part of it is shown to leave as work shown by a dashed arrow leaving the circle. The remaining heat is shown to be returned back to the cold reservoir as shown by bold arrow toward it for real engines and comparatively lesser heat is given by the Carnot engine shown by a dashed arrow. Part b of the diagram shows an internal combustion engine represented as a circle to study friction and other dissipative processes in the output mechanisms of a heat engine. The hot reservoir is a rectangular section above the circle shown at temperature T sub h. A cold reservoir is shown as a rectangular section below the circle at temperature T sub c. Heat Q sub h enters the heat engine as shown by a bold arrow, work W is produced as output, shown leaving the system, and the remaining heat Q sub c and Q sub f are returned back to the cold reservoir as shown by bold arrows toward it. Q sub f is heat due to friction. The work done against friction goes as heat Q sub f to the cold reservoir.](../resources/Figure_15_04_05.jpg 'Real heat engines are less efficient than Carnot engines. (a) Real engines use irreversible processes, reducing the heat transfer to work. Solid lines represent the actual process; the dashed lines are what a Carnot engine would do between the same two reservoirs. (b) Friction and other dissipative processes in the output mechanisms of a heat engine convert some of its work output into heat transfer to the environment.')
 {: #Figure5}
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Carnot Cycle
+</div>
+
+Step a piston through the four legs of a Carnot cycle and watch the matching PV diagram. Two isotherms and two adiabats bound the work done by the engine.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CarnotHeatEngine/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Carnot cycle
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Carnot Efficiency
+</div>
+
+Compare the heat absorbed from the hot reservoir with the heat rejected to the cold one. The efficiency depends only on those two temperatures.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CarnotHeatEngine/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Carnot efficiency
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - The Carnot cycle is a theoretical cycle that is the most efficient cyclical
@@ -178,6 +221,22 @@ Think about the drinking bird at the beginning of this section ([[Figure 1]](#Fi
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish the real drinking bird from a reversible Carnot engine and identify its continuing energy supply.
+
+**Solution**
+
+A real drinking bird does not achieve Carnot efficiency. Evaporation cools its wet head below its surroundings, allowing ambient heat to drive the cycle. Pivot friction, viscous flow of the working fluid, air resistance, impacts, and heat leakage dissipate energy. It eventually stops if the water supply dries up, humidity suppresses evaporation, or the temperature difference becomes too small to overcome these losses.
+
+**Discussion**
+
+Dissipation alone does not require stopping while sufficient energy continues to enter. The bird stops when evaporative cooling can no longer maintain enough temperature difference and useful work to sustain its motion; it is neither a perpetual-motion machine nor an actual reversible engine.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -185,6 +244,22 @@ Think about the drinking bird at the beginning of this section ([[Figure 1]](#Fi
 ::: problem
 
 Can improved engineering and materials be employed in heat engines to reduce heat transfer into the environment? Can they eliminate heat transfer into the environment entirely?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate avoidable heat leakage from the heat rejection required by a cyclic engine.
+
+**Solution**
+
+Improved insulation, lower friction, and better materials can reduce unwanted heat leakage and irreversibility. However, an engine operating cyclically between finite positive temperatures must reject entropy to a colder sink. Even a reversible engine has $$Q_c/Q_h=T_c/T_h>0$$.
+
+**Discussion**
+
+Engineering can reduce environmental heat transfer and improve efficiency, but it cannot eliminate all heat rejection while the device remains a cyclic heat engine operating between ordinary finite-temperature reservoirs.
 
 :::
 
@@ -198,6 +273,22 @@ Does the second law of thermodynamics alter the conservation of energy principle
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the purposes of the first and second laws.
+
+**Solution**
+
+The first law accounts for the amount of energy and requires its conservation. The second law restricts which energy-conserving processes can occur and how much energy can become useful work. For example, converting all absorbed heat from a single reservoir into cyclic work would conserve energy but decrease total entropy, so it is forbidden.
+
+**Discussion**
+
+The second law supplements rather than alters conservation of energy: energy remains conserved even when its availability for doing work decreases.
+
+:::
+
 </div>
 
 ### Problem Exercises
@@ -206,7 +297,7 @@ Does the second law of thermodynamics alter the conservation of energy principle
 
 ::: problem
 
-A certain gasoline engine has an efficiency of 30.0%. What would the hot reservoir temperature be for a Carnot engine having that efficiency, if it operates with a cold reservoir temperature of  $$200\text{ºC} $$ ?
+A certain gasoline engine has an efficiency of 30.0%. What would the hot reservoir temperature be for a Carnot engine having that efficiency, if it operates with a cold reservoir temperature of $$200\text{ºC} $$ ?
 
 :::
 
@@ -239,7 +330,7 @@ Solving for $$T_H$$:
 Converting to Celsius:
 
 <div class="equation">
- $$T_H = 676 - 273 = 403°\text{C}$$
+ $$T_H = 676 \text{ K} - 273 = 403°\text{C}$$
 </div>
 
 **Discussion**
@@ -254,9 +345,9 @@ A Carnot engine with 30% efficiency operating with a 200 °C cold reservoir requ
 
 ::: problem
 
-A gas-cooled nuclear reactor operates between hot and cold reservoir temperatures of  $$700\text{ºC} $$
- and  $$ 27.0\text{ºC} $$ .
- (a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in [[Example 1]](#Example1)).
+A gas-cooled nuclear reactor operates between hot and cold reservoir temperatures of $$700\text{ºC} $$
+and $$ 27.0\text{ºC} $$ .
+(a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in [[Example 1]](#Example1)).
 
 :::
 
@@ -294,8 +385,8 @@ The gas-cooled reactor operating at 700 °C can theoretically achieve 69.2% effi
 
 ::: problem
 
-(a) What is the hot reservoir temperature of a Carnot engine that has an efficiency of 42.0% and a cold reservoir temperature of  $$ 27.0\text{ºC} $$ ?
- (b) What must the hot reservoir temperature be for a real heat engine that achieves 0.700 of the maximum efficiency, but still has an efficiency of 42.0% (and a cold reservoir at  $$ 27.0\text{ºC} $$ )  ? (c) Does your answer imply practical limits to the efficiency of car gasoline engines?
+(a) What is the hot reservoir temperature of a Carnot engine that has an efficiency of 42.0% and a cold reservoir temperature of $$ 27.0\text{ºC} $$ ?
+(b) What must the hot reservoir temperature be for a real heat engine that achieves 0.700 of the maximum efficiency, but still has an efficiency of 42.0% (and a cold reservoir at $$ 27.0\text{ºC} $$ ) ? (c) Does your answer imply practical limits to the efficiency of car gasoline engines?
 
 :::
 
@@ -309,16 +400,16 @@ For (a), solve $$0.420 = 1 - \frac{300}{T_H}$$ for $$T_H$$. For (b), if real eng
 
 Given: $$\eta = 42.0\% = 0.420$$, $$T_C = 27.0°\text{C} = 300 \text{ K}$$
 
-**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{300}{0.580} = 517 \text{ K} = 244°\text{C}$$
+**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{300 \text{ K}}{0.580} = 517 \text{ K} = 244°\text{C}$$
 
 **(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_{C}$$, so $$\eta_{C} = 0.600$$
-Then $$T_H = \frac{300}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
+Then $$T_H = \frac{300 \text{ K}}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
 
-**(c)** Yes, car engines cannot sustain 477 °C without overheating, limiting practical efficiency to well below 42%.
+**(c)** Yes, but not because 477 °C is too hot for the engine. The hot reservoir here stands for the burning fuel–air mixture, which briefly reaches well over 1000 °C; the engine block and oil are kept far cooler by the cooling system. The practical limit comes from the factor of 0.700 in (b): a real engine falls short of the Carnot efficiency because of irreversibilities (rapid, uncontrolled combustion, friction, turbulence), heat lost through the cylinder walls to the cooling system, and exhaust gas that leaves while still hot. Material limits matter indirectly, because the walls must be cooled, and that cooling discards heat. The calculation shows that efficiency rises with the effective temperature at which heat is taken in, and that losses, not the gas temperature alone, keep car engines well below the ideal.
 
 **Discussion**
 
-Part (a) shows 244 °C hot reservoir for Carnot engine at 42% efficiency—achievable but high. Part (b) reveals that for a real engine at 70% of Carnot to reach 42% actual efficiency, it needs 477 °C, which exceeds practical limits for car engines (materials degrade, oil breaks down). This explains why car engines achieve only 20-30% efficiency despite extensive engineering optimization.
+Part (a) shows that a Carnot engine would need only a 244 °C hot reservoir to reach 42%. Part (b) shows that an engine reaching only 70% of the Carnot efficiency would need an effective hot-reservoir temperature of 477 °C. Real gasoline engines typically convert only about 25–30% of the fuel's energy to work, because the irreversibilities and heat losses described in (c) take them much further below the Carnot limit than the 70% assumed here.
 
 :::
 
@@ -328,8 +419,8 @@ Part (a) shows 244 °C hot reservoir for Carnot engine at 42% efficiency—achie
 
 ::: problem
 
-Steam locomotives have an efficiency of 17.0% and operate with a hot steam temperature of  $$425\text{ºC} $$ .
- (a) What would the cold reservoir temperature be if this were a Carnot engine? (b) What would the maximum efficiency of this steam engine be if its cold reservoir temperature were  $$150\text{ºC} $$?
+Steam locomotives have an efficiency of 17.0% and operate with a hot steam temperature of $$425\text{ºC} $$ .
+(a) What would the cold reservoir temperature be if this were a Carnot engine? (b) What would the maximum efficiency of this steam engine be if its cold reservoir temperature were $$150\text{ºC} $$?
 
 :::
 
@@ -343,7 +434,7 @@ For (a), use $$\eta = 1 - \frac{T_C}{T_H}$$ and solve for $$T_C$$. For (b), calc
 
 Given: $$\eta = 0.170$$, $$T_H = 425°\text{C} = 698 \text{ K}$$
 
-**(a)** $$T_C = T_H(1-\eta) = 698(0.830) = 579 \text{ K} = 306°\text{C}$$
+**(a)** $$T_C = T_H(1-\eta) = (698 \text{ K})(0.830) = 579 \text{ K} = 306°\text{C}$$
 
 **(b)** With $$T_C = 150°\text{C} = 423 \text{ K}$$:
 $$\eta_{max} = 1 - \frac{423}{698} = 0.394 = 39.4\%$$
@@ -360,22 +451,22 @@ Part (a) describes a hypothetical reversible engine with the stated 17% efficien
 
 ::: problem
 
-Practical steam engines utilize  $$450\text{ºC} $$
- steam, which is later exhausted at  $$270\text{ºC} $$ .
- (a) What is the maximum efficiency that such a heat engine can have? (b) Since  $$270\text{ºC} $$
- steam is still quite hot, a second steam engine is sometimes operated using the exhaust of the first. What is the maximum efficiency of the second engine if its exhaust has a temperature of  $$150\text{ºC} $$ ?
- (c) What is the overall efficiency of the two engines? (d) Show that this is the same efficiency as a single Carnot engine operating between  $$450\text{ºC} $$
- and  $$150\text{ºC} $$ .
- Explicitly show how you follow the steps in the [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
+Practical steam engines utilize $$450\text{ºC} $$
+steam, which is later exhausted at $$270\text{ºC} $$ .
+(a) What is the maximum efficiency that such a heat engine can have? (b) Since $$270\text{ºC} $$
+steam is still quite hot, a second steam engine is sometimes operated using the exhaust of the first. What is the maximum efficiency of the second engine if its exhaust has a temperature of $$150\text{ºC} $$ ?
+(c) What is the overall efficiency of the two engines? (d) Show that this is the same efficiency as a single Carnot engine operating between $$450\text{ºC} $$
+and $$150\text{ºC} $$ .
+Explicitly show how you follow the steps in the [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
 
 :::
 
 ::: solution
 
-(a)  $$\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}=1-\frac{543 \text{K}}{723 \text{K}}= 0.249 \text{ or }  24.9\%  $$
-(b)  $$\text{Eff}_{2}=1-\frac{423 \text{K}}{543 \text{K}}= 0.221 \text{ or }  22.1\%  $$
-(c)  $$\begin{array}{l}\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}⇒{T}_{\text{c,1}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\\ \text{similarly, }  {T}_{\text{c,2}}={T}_{\text{h,2}}\left(1-\text{Eff}_{2}\right)\\ \text{using } {T}_{\text{h,2}}={T}_{\text{c,1}} \text{ in above equation gives}\\ {T}_{\text{c,2}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\equiv {T}_{\text{h,1}}\left(1-\text{Eff}_{\text{overall}}\right)\\ \therefore \left(1-\text{Eff}_{\text{overall}}\right)=\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\\ \text{Eff}_{\text{overall}}=1-\left(1-0.249\right)\left(1-0.221\right)=47.6\% \end{array}$$
-(d)  $${\text{Eff}}_{\text{overall}}=1-\frac{423 \text{K}}{723 \text{K}}= 0.415 \text{ or }  47.6\%  $$
+(a) $$\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}=1-\frac{543 \text{K}}{723 \text{K}}= 0.249 \text{ or }  24.9\%  $$
+(b) $$\text{Eff}_{2}=1-\frac{423 \text{K}}{543 \text{K}}= 0.221 \text{ or }  22.1\%  $$
+(c) $$\begin{array}{l}\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}⇒{T}_{\text{c,1}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\\ \text{similarly, }  {T}_{\text{c,2}}={T}_{\text{h,2}}\left(1-\text{Eff}_{2}\right)\\ \text{using } {T}_{\text{h,2}}={T}_{\text{c,1}} \text{ in above equation gives}\\ {T}_{\text{c,2}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\equiv {T}_{\text{h,1}}\left(1-\text{Eff}_{\text{overall}}\right)\\ \therefore \left(1-\text{Eff}_{\text{overall}}\right)=\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\\ \text{Eff}_{\text{overall}}=1-\left(1-0.249\right)\left(1-0.221\right)=1-0.585=0.415 \text{ or } 41.5\% \end{array}$$
+(d) $${\text{Eff}}_{\text{overall}}=1-\frac{423 \text{K}}{723 \text{K}}= 0.415 \text{ or }  41.5\%  $$, the same as the result of (c).
 
 :::
 
@@ -385,8 +476,8 @@ Practical steam engines utilize  $$450\text{ºC} $$
 
 ::: problem
 
-A coal-fired electrical power station has an efficiency of 38%. The temperature of the steam leaving the boiler is  $$550\text{ºC} $$ .
- What percentage of the maximum efficiency does this station obtain? (Assume the temperature of the environment is  $$20\text{ºC} $$ .)
+A coal-fired electrical power station has an efficiency of 38%. The temperature of the steam leaving the boiler is $$550\text{ºC} $$ .
+What percentage of the maximum efficiency does this station obtain? (Assume the temperature of the environment is $$20\text{ºC} $$ .)
 
 :::
 
@@ -431,6 +522,7 @@ We need to check if the inventor's claims violate thermodynamic laws. First, cal
 **Solution**
 
 Given values:
+
 - Heat input: $$Q_h = 25 \text{ kJ}$$
 - Hot reservoir temperature: $$T_h = 600 \text{ K}$$
 - Cold reservoir temperature: $$T_c = 300 \text{ K}$$
@@ -451,7 +543,7 @@ Calculate the claimed efficiency:
 Alternatively, using heat transfers:
 
 <div class="equation">
- $$\text{Eff}_{\text{claimed}} = 1 - \frac{Q_c}{Q_h} = 1 - \frac{13}{25} = 0.480 = 48.0\%$$
+ $$\text{Eff}_{\text{claimed}} = 1 - \frac{Q_c}{Q_h} = 1 - \frac{13 \text{ kJ}}{25 \text{ kJ}} = 0.480 = 48.0\%$$
 </div>
 
 Calculate the maximum possible (Carnot) efficiency:
@@ -466,21 +558,19 @@ Compare the claimed efficiency to Carnot efficiency:
  $$\frac{\text{Eff}_{\text{claimed}}}{\text{Eff}_C} = \frac{0.480}{0.500} = 0.96 = 96\%$$
 </div>
 
-**Conclusion: No, I would not financially back this inventor. The claimed device operates at 96% of the Carnot efficiency, which is impossible in practice.**
+**Conclusion: Not without independent tests of a working prototype. The claim does not violate the laws of thermodynamics, but it is extraordinary.**
+
+The second law allows the claim. The efficiency, 48.0%, is below the 50.0% Carnot limit. Equivalently, the entropy change of the two reservoirs per cycle is
+
+<div class="equation">
+ $$\Delta S = \frac{Q_c}{T_c} - \frac{Q_h}{T_h} = \frac{13{,}000 \text{ J}}{300 \text{ K}} - \frac{25{,}000 \text{ J}}{600 \text{ K}} = 43.3 \text{ J/K} - 41.7 \text{ J/K} = +1.7 \text{ J/K}$$
+</div>
+
+which is positive, as the second law requires.
 
 **Discussion**
 
-The inventor's device claims to achieve 48% efficiency, which is 96% of the theoretical maximum (Carnot) efficiency of 50%. This is extraordinarily suspicious for several reasons:
-
-1. **Real-world efficiency limits**: Even the most advanced heat engines, built with the best materials and engineering, achieve only about 60-70% of Carnot efficiency. Typical power plants reach 40-42% actual efficiency when the Carnot limit might be 60-65%, giving them about 65% of Carnot. Gas turbines might reach 70% of Carnot under ideal conditions.
-
-2. **Irreversibilities**: All real processes involve friction, turbulence, heat losses, and other irreversibilities that prevent achieving Carnot efficiency. A device at 96% of Carnot would be nearly reversible, which is physically unrealistic for any macroscopic heat engine.
-
-3. **The 2:1 temperature ratio**: With $$T_h = 600$$ K and $$T_c = 300$$ K (exactly 2:1), this looks like a contrived example designed to appear legitimate while being fraudulent.
-
-4. **Red flags**: The inventor is "marketing" the device rather than publishing peer-reviewed results or demonstrating it to independent engineers. This is a classic sign of pseudoscience or fraud.
-
-**Verdict**: This scheme is almost certainly fraudulent. The claimed performance is thermodynamically implausible. Real devices with such exceptional efficiency would be revolutionary and would be demonstrated to scientists and engineers, not marketed to investors. The inventor is likely either deceiving investors deliberately or has made fundamental measurement errors. Either way, investment would be unwise.
+The device would be allowed, but it would have to be remarkably close to reversible: it claims 96% of the Carnot efficiency. Real engines lose a large share of the ideal because of friction, turbulence, heat leaks, and finite-rate heat transfer, and even the best power plants reach only about 70% of their Carnot limit. A claim this close to the ideal is therefore not impossible, but it calls for strong evidence: independent measurements of the heat input, the heat output, and the work over many cycles. Thermodynamics can rule out a claim that exceeds the Carnot limit; it cannot by itself prove that a claim below the limit is false. A prudent investor would ask for that evidence before committing money.
 
 :::
 
@@ -507,7 +597,7 @@ Solve $$0.800 = 1 - \frac{T_C}{T_H}$$ for $$T_H$$ with $$T_C = 270°\text{C} = 5
 
 **Solution**
 
-**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{543}{0.200} = 2715 \text{ K} = 2442°\text{C}$$
+**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{543 \text{ K}}{0.200} = 2715 \text{ K} = 2442°\text{C}$$
 
 **(b)** This temperature (2442 °C) far exceeds the critical point of water (374 °C) and melting points of most steels (~1500 °C). No practical steam engine materials can withstand this.
 
@@ -542,6 +632,7 @@ Use the Carnot efficiency formula $$\eta_{C} = 1 - \frac{T_c}{T_h}$$ and solve f
 **Solution**
 
 Given values:
+
 - Hot reservoir temperature: $$T_h = 450\text{°C} = 723 \text{ K}$$
 - Carnot efficiency: $$\eta_{C} = 0.700$$
 
@@ -562,7 +653,7 @@ Given values:
 Converting to Celsius:
 
 <div class="equation">
- $$T_c = 217 - 273 = -56.3\text{°C}$$
+ $$T_c = 217 \text{ K} - 273 = -56.3\text{°C}$$
 </div>
 
 **The cold reservoir temperature would be −56.3 °C or 217 K.**
@@ -579,17 +670,20 @@ This temperature is far too cold for the cold reservoir of a steam engine. The c
 **(c)** Which premise is unreasonable?
 
 The assumed efficiency of 70% (0.700) is unreasonably high for a steam engine. Real steam engines and power plants typically achieve:
+
 - **Actual efficiencies**: 25-42% for modern power plants
 - **Carnot efficiency percentage**: 50-70% of theoretical Carnot maximum
 - **Best steam turbines**: About 40% actual efficiency when Carnot limit might be 60-65%
 
 A 70% Carnot efficiency with $$T_h = 450\text{°C}$$ would require an impossibly low cold reservoir temperature. More reasonable efficiencies for this hot temperature would be:
+
 - With $$T_c = 20\text{°C}$$ (293 K): $$\eta_{C} = 1 - \frac{293}{723} = 59.5\%$$ (Carnot)
 - Actual efficiency would be about 35-42%
 
 **Discussion**
 
 This problem illustrates the relationship between efficiency and reservoir temperatures. To achieve high efficiency, you need either:
+
 1. Very high hot reservoir temperature, or
 2. Very low cold reservoir temperature, or
 3. Both
@@ -605,6 +699,7 @@ The calculated −56.3 °C cold temperature is absurd because it violates practi
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 Carnot cycle

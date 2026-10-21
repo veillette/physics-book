@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+<title id="title">Trajectory of a fireworks shell</title>
+<desc id="desc">A shell launched at θ0 = 75° above the horizontal reaches a maximum height h = 233 m at a horizontal distance x = 125 m, where it explodes.</desc>
+<rect width="400" height="400" fill="#ffffff"/>
+<line x1="125" y1="345" x2="357.3" y2="345" stroke="#333333" stroke-width="1.5"/>
+<polygon points="366.3,345 356.3,349 356.3,341" fill="#333333"/>
+<line x1="125" y1="348.81" x2="125" y2="23.8" stroke="#333333" stroke-width="1.5"/>
+<polygon points="125,14.8 129,24.8 121,24.8" fill="#333333"/>
+<text x="370.3" y="367.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="111" y="27.1" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<polyline points="125,345 127.54,335.61 130.08,326.36 132.62,317.27 135.16,308.34 137.7,299.55 140.24,290.91 142.78,282.43 145.32,274.1 147.86,265.91 150.4,257.88 152.94,250.01 155.48,242.28 158.02,234.7 160.56,227.28 163.1,220.01 165.64,212.89 168.18,205.92 170.72,199.1 173.26,192.43 175.8,185.92 178.34,179.56 180.88,173.34 183.42,167.28 185.96,161.37 188.5,155.62 191.04,150.01 193.58,144.56 196.12,139.25 198.66,134.1 201.2,129.1 203.74,124.26 206.28,119.56 208.82,115.01 211.36,110.62 213.9,106.38 216.44,102.29 218.98,98.35 221.52,94.56 224.06,90.92 226.6,87.44 229.14,84.11 231.68,80.93 234.22,77.9 236.76,75.02 239.3,72.29 241.84,69.71 244.38,67.29 246.92,65.02 249.46,62.9 252,60.93 254.54,59.11 257.08,57.44 259.62,55.93 262.16,54.56 264.7,53.35 267.24,52.29 269.78,51.38 272.32,50.62 274.86,50.02 277.4,49.56 279.94,49.26 282.48,49.11" fill="none" stroke="#6a3d9a" stroke-width="2" stroke-linejoin="round"/>
+<line x1="125" y1="49.09" x2="283.75" y2="49.09" stroke="#222222" stroke-width="1.2" stroke-dasharray="6 4"/>
+<line x1="283.75" y1="49.09" x2="283.75" y2="345" stroke="#222222" stroke-width="1.2" stroke-dasharray="6 4"/>
+<line x1="293.75" y1="49.09" x2="323.75" y2="49.09" stroke="#e57373" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="292.99" y1="52.92" x2="320.71" y2="64.4" stroke="#f4a261" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="290.82" y1="56.16" x2="312.03" y2="77.37" stroke="#81c784" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="287.58" y1="58.33" x2="299.06" y2="86.05" stroke="#64b5f6" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="283.75" y1="59.09" x2="283.75" y2="89.09" stroke="#ba68c8" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="279.92" y1="58.33" x2="268.44" y2="86.05" stroke="#e57373" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="276.68" y1="56.16" x2="255.47" y2="77.37" stroke="#f4a261" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="274.51" y1="52.92" x2="246.79" y2="64.4" stroke="#81c784" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="273.75" y1="49.09" x2="243.75" y2="49.09" stroke="#64b5f6" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="274.51" y1="45.26" x2="246.79" y2="33.78" stroke="#ba68c8" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="276.68" y1="42.02" x2="255.47" y2="20.81" stroke="#e57373" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="279.92" y1="39.85" x2="268.44" y2="12.13" stroke="#f4a261" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="283.75" y1="39.09" x2="283.75" y2="9.09" stroke="#81c784" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="287.58" y1="39.85" x2="299.06" y2="12.13" stroke="#64b5f6" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="290.82" y1="42.02" x2="312.03" y2="20.81" stroke="#ba68c8" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="292.99" y1="45.26" x2="320.71" y2="33.78" stroke="#e57373" stroke-width="3" stroke-dasharray="5 4" stroke-linecap="round"/>
+<line x1="125" y1="345" x2="156.76" y2="226.48" stroke="#5e9e1e" stroke-width="4"/>
+<polygon points="161.16,210.06 163.45,229.31 149.54,225.58" fill="#5e9e1e"/>
+<text x="170.94" y="247.38" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.78" font-weight="normal" dx="-10.64" dy="-9.88">→</tspan><tspan dx="-1.14" dy="9.88">​</tspan></tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan></text>
+<path d="M 159 345 A 34 34 0 0 0 133.8 312.16" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="140.24" y="323.36" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = 75°</tspan></text>
+<text x="115" y="55.39" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-style="normal"> = 233 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="204.38" y="371.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-style="normal"> = 125 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

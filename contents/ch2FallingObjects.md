@@ -111,7 +111,7 @@ is thrown, neglecting the effects of air resistance.
 
 Draw a sketch.
 
-![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_02.jpg
+![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_02.svg
 "Velocity and Acceleration Sketch")
 {: #Figure2}
 
@@ -131,7 +131,7 @@ $$ y_{3} $$ and $$ v_{3} $$.
 
 **Solution for Position** $$ y_{1} $$
 
-1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
+1\. Identify the knowns. We know that <!-- physics: eq-10 -->$$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; <!-- physics: eq-12 -->$$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
 
 2\. Identify the best equation to use. We will use $$ y=y_{0}+v_{0}t+\frac{1}{2} at^{2} $$ because it includes only one unknown, $$ y $$ (or $$ y_{1} $$, here),
 which is the value we want to find.
@@ -175,15 +175,15 @@ in [Table 1](#Table1) and illustrated in [Figure 3](#Figure3).
 
 | Time, t      | Position, y   | Velocity, v    | Acceleration, a |
 | ------------ | ------------- | -------------- | --------------- |
-| $$1.00 \s $$ | $$8.10 \m $$  | $$3.20 \ms $$  | $$-9.80 \mss $$ |
-| $$2.00 \s $$ | $$6.40 \m $$  | $$-6.60 \ms $$ | $$-9.80 \mss $$ |
-| $$3.00 \s $$ | $$-5.10 \m $$ | $$-16.4 \ms $$ | $$-9.80 \mss $$ |
+| <!-- physics: eq-36 -->$$1.00 \s $$ | <!-- physics: eq-37 -->$$8.10 \m $$  | <!-- physics: eq-38 -->$$3.20 \ms $$  | $$-9.80 \mss $$ |
+| <!-- physics: eq-40 -->$$2.00 \s $$ | <!-- physics: eq-41 -->$$6.40 \m $$  | <!-- physics: eq-42 -->$$-6.60 \ms $$ | $$-9.80 \mss $$ |
+| <!-- physics: eq-44 -->$$3.00 \s $$ | <!-- physics: eq-45 -->$$-5.10 \m $$ | <!-- physics: eq-46 -->$$-16.4 \ms $$ | $$-9.80 \mss $$ |
 
 {: #Table1}
 
 Graphing the data helps us understand it more clearly.
 
-![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_07_03.jpg 'Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.')
+![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_07_03.svg 'Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.')
 {: #Figure3}
 
 **Discussion**
@@ -228,7 +228,7 @@ What happens if the person on the cliff throws the rock straight down, instead o
 
 Draw a sketch.
 
-![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_07_04.jpg 'Velocity and Accelerator Sketch')
+![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_07_04.svg 'Velocity and Accelerator Sketch')
 {: #Figure4}
 
 Since up is positive, the final position of the rock will be negative because it
@@ -239,7 +239,7 @@ continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v_{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; <!-- physics: eq-2 -->$$ y_{1}=-5.10 \m $$; <!-- physics: eq-3 -->$$ v_{0}=-13.0 \ms $$; <!-- physics: eq-4 -->$$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
 The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
@@ -248,7 +248,8 @@ only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
 3\. Enter the known values
 
 <div class="equation">
- $$ v^{2}={\left(-13.0 \ms \right)}^{2}+ 2\left(-9.80 \mss \right) \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$ 
+ <!-- physics: eq-9 -->
+ $$ v^{2}={\left(-13.0 \ms \right)}^{2}+ 2\left(-9.80 \mss \right) \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$
 </div>
 
 where we have retained extra significant figures because this is an intermediate result.
@@ -295,7 +296,7 @@ speed with which it was initially thrown is the same.
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"measured-gravity"}
 
 <div class="title">
 Find *g* from Data on a Falling Object
@@ -303,7 +304,7 @@ Find *g* from Data on a Falling Object
 
 The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, [Figure 6](#Figure6). Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time.
 
-![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](../resources/Figure_02_07_06.jpg 'Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.')
+![Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.](/resources/Figure_02_07_06.svg 'Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.')
 {: #Figure6}
 
 Suppose the ball falls 1.0000 m in 0.45173 s. Assuming the ball is not affected
@@ -314,7 +315,7 @@ location?
 
 Draw a sketch.
 
-![The figure shows a green dot labeled v sub zero equals zero meters per second, a purple downward pointing arrow labeled a equals question mark, and an x y coordinate system with the y axis pointing vertically up and the x axis pointing horizontally to the right.](../resources/Figure_02_07_07.jpg)
+![The figure shows a green dot labeled v sub zero equals zero meters per second, a purple downward pointing arrow labeled a equals question mark, and an x y coordinate system with the y axis pointing vertically up and the x axis pointing horizontally to the right.](../resources/Figure_02_07_07.svg)
 {: #Figure7}
 
 We need to solve for acceleration $$ a $$. Note that in this case, displacement
@@ -322,7 +323,7 @@ is downward and therefore negative, as is acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
+1\. Identify the knowns. $$ y_{0}=0 $$; <!-- physics: eq-2 -->$$ y=-1.0000 \m $$; <!-- physics: eq-3 -->$$ t=0.45173 \s $$;
 $$ v_{0}=0 $$.
 
 2\. Choose the equation that allows you to solve for $$ a $$ using the known
@@ -347,7 +348,8 @@ Solving for $$ a $$ gives
 4\. Substitute known values yields
 
 <div class="equation">
- $$ a=\frac{2\left(-1.0000 \m - 0 \right)} {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$ 
+ <!-- physics: eq-13 -->
+ $$ a=\frac{2\left(-1.0000 \m - 0 \right)} {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$
 </div>
 
 so, because $$ a=-g $$ with the directions we have chosen,
@@ -367,7 +369,7 @@ for the acceleration due to gravity.
 
 ::::
 
-<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="exercise" data-element-type="check-understanding" data-label="" id="ice-drop">
 <div class="title">
 Check Your Understanding
 </div>
@@ -386,11 +388,11 @@ We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {
 $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
 
 <div class="equation">
+<!-- physics: eq-6 -->
 $$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
-t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
-80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
+t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
 \end{array} $$
 </div>
 
@@ -450,6 +452,27 @@ What is the acceleration of a rock thrown straight upward on the way up? At the 
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Apply the same gravitational acceleration throughout the flight, neglecting air resistance.
+
+**Solution**
+
+Choose $$+y$$ upward because it makes upward and downward directions explicit. Once the rock leaves the hand, gravity is the only force, so
+
+$$a_y=-g=-9.80\mss$$
+
+on the way up, at the highest point, and on the way down. For example, a launch at $$v_{0y}=+9.80\ms$$ gives $$v_y=+9.80\ms-(9.80\mss)t$$, which becomes zero at $$t=1.00\s$$ even though its rate of change is still $$-9.80\mss$$.
+
+![Rock velocities upward, zero at the top, and downward; acceleration is downward at all three positions.](../resources/concept_02_07_q01.svg){: .sketch}
+
+Neglecting air resistance, the rock’s acceleration is 9.80 m/s² downward on the way up, at the top, and on the way down.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -463,6 +486,29 @@ An object that is thrown straight up falls back to Earth. This is one-dimensiona
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Track the sign of vertical velocity separately from the sign of acceleration.
+
+**Solution**
+
+Take $$+y$$ upward and neglect air resistance. For an illustrative $$v_{0y}=+19.6\ms$$ launch,
+
+$$v_y=v_{0y}-gt=19.6\ms-(9.80\mss)t.$$
+
+**(a)** Setting $$v_y=0\ms$$ gives $$t=(19.6\ms)/(9.80\mss)=2.00\s$$, the highest point.
+
+**(b)** Before that point $$v_y>0$$; afterward $$v_y<0$$. The velocity therefore reverses from upward to downward.
+
+**(c)** The acceleration remains $$a_y=-9.80\mss$$ throughout; it does not reverse when the velocity reverses.
+
+The velocity is zero at the highest point and then reverses downward, while gravitational acceleration keeps the same downward sign throughout the flight.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -473,6 +519,31 @@ Suppose you throw a rock nearly straight up at a coconut in a palm tree, and the
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Compare the speeds at the same height, then distinguish the impact’s speed from the direction in which it loads the coconut’s attachment.
+
+**Solution**
+
+Choose $$+y$$ upward. At coconut height $$h$$ above the release point, the equation
+
+$$v_y^2=v_{0y}^2-2gh$$
+
+has the same right-hand side on both passages. For example, if $$v_{0y}=14.0\ms$$ and $$h=5.00\m$$,
+
+$$|v_y|=\sqrt{(14.0\ms)^2-2(9.80\mss)(5.00\m)}=9.90\ms.$$
+
+The upward velocity is $$+9.90\ms$$ and the downward velocity is $$-9.90\ms$$, so the impact kinetic energies for the same rock are equal.
+
+Dislodging the coconut also depends on the attachment and impact direction. For a coconut hanging from a stem above it, a downward impact can increase stem tension, whereas an upward impact initially relieves tension. In that model the downward hit may be more effective. Equal speed alone does not establish a universal probability of detachment; a different attachment or impact geometry can change the result.
+
+The rock hits at the same speed in either direction, but a downward hit may more readily detach a coconut suspended from above because it loads the stem in tension; that preference depends on the attachment rather than on a greater downward impact speed.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -480,6 +551,27 @@ Suppose you throw a rock nearly straight up at a coconut in a palm tree, and the
 :::: problem
 
 If an object is thrown straight up and air resistance is negligible, then its speed when it returns to the starting point is the same as when it was released. If air resistance were not negligible, how would its speed upon return compare with its initial speed? How would the maximum height to which it rises be affected?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Follow the direction of air resistance and the mechanical energy it removes during ascent and descent.
+
+**Solution**
+
+Air resistance acts opposite the rock’s velocity. On ascent it acts downward along with gravity, so the rock slows faster and reaches a lower maximum height than in vacuum. On descent it acts upward, opposing the gain in speed.
+
+For illustration, a $$0.20\kg$$ rock launched at $$10.0\ms$$ initially has
+
+$$K_i=\tfrac12(0.20\kg)(10.0\ms)^2=10.0\J.$$
+
+Without drag, its maximum rise is $$h=(10.0\ms)^2/[2(9.80\mss)]=5.10\m$$. If drag dissipates an assumed $$2.0\J$$ before the top, only $$8.0\J$$ is available as gravitational potential energy, giving $$h=(8.0\J)/[(0.20\kg)(9.80\mss)]=4.08\m$$. Further energy is dissipated on the descent, so the return kinetic energy is less than the original $$10.0\J$$.
+
+With air resistance, the rock returns to its release height at a lower speed than its initial speed and reaches a lower maximum height because drag removes mechanical energy throughout the flight.
 
 ::::
 
@@ -494,6 +586,29 @@ factors but the acceleration due to gravity being the same, how many times highe
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Hold the impact speed fixed and compare the release heights given by the constant-acceleration equation.
+
+**Solution**
+
+For a fall from rest, ignoring air resistance and taking downward as positive,
+
+$$v^2=2gh\quad\Rightarrow\quad h=\frac{v^2}{2g}.$$
+
+The same impact speed therefore requires height inversely proportional to $$g$$:
+
+$$\frac{h_M}{h_E}=\frac{g_E}{g_M}=6.$$
+
+For example, $$v=4.0\ms$$ corresponds to $$h_E=(4.0\ms)^2/[2(9.80\mss)]=0.82\m$$ on Earth and approximately $$4.9\m$$ on the Moon. This compares speeds only; the question assumes identical landing conditions and does not establish an actual injury threshold.
+
+For the same impact speed and otherwise identical landing conditions, a fall on the Moon could be six times as high as the corresponding fall on Earth.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -505,13 +620,36 @@ his takeoff speed is the same in both locations (gravitational acceleration on t
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Find the height at which upward velocity becomes zero for the same launch speed in both locations.
+
+**Solution**
+
+Take $$+y$$ upward and measure height from takeoff. At the top, $$v_y=0\ms$$, so
+
+$$0=v_0^2-2gh\quad\Rightarrow\quad h=\frac{v_0^2}{2g}.$$
+
+Since $$g_M=g_E/6$$,
+
+$$h_M=\frac{v_0^2}{2(g_E/6)}=6h_E.$$
+
+For an assumed takeoff speed $$v_0=3.0\ms$$, the rises are $$h_E=(3.0\ms)^2/[2(9.80\mss)]=0.46\m$$ and $$h_M\approx2.8\m$$. This assumes the same initial speed, no atmospheric drag, and heights small enough that local gravity is effectively constant.
+
+An astronaut with the same takeoff speed could rise six times as high on the Moon as on Earth because the Moon’s gravitational acceleration is one sixth as large.
+
+::::
+
 </div>
 
 ### Problems &amp; Exercises
 
 Assume air resistance is negligible unless otherwise stated.
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="ball-up-exercise">
 
 :::: problem
 
@@ -530,6 +668,12 @@ Take the point of release to be $$ y_{0}=0 $$.
 
 Use the kinematic equations for free-fall with upward as positive. Since the ball is thrown upward, the initial velocity is positive, while the acceleration due to gravity is negative ($$ a = -g = -9.80 \mss $$).
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the point of release. Release: t = 0, y₀ = 0, v₀ = +15.0 m/s. The ball’s position y and velocity v are wanted at t = 0.500, 1.00, 1.50, and 2.00 s (open circles; the last one is on the way down). The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p01.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the point of release and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = +15.0 \ms $$, and $$ a = -g = -9.80 \mss $$. Positions above the release point are positive; a negative velocity means the ball is moving down.
+
 **Solution**
 
 For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} = v_0 t - \frac{1}{2}gt^{2} $$
@@ -539,10 +683,12 @@ For velocity: $$ v = v_0 + at = v_0 - gt $$
 __(a) At t = 0.500 s:__
 
 <div class="equation">
+<!-- physics: eq-9 -->
 $$ y_1 = (15.0 \ms)(0.500 \s) - \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.50 \m - 1.23 \m = 6.28 \m $$
 </div>
 
 <div class="equation">
+<!-- physics: eq-10 -->
 $$ v_1 = 15.0 \ms - (9.80 \mss)(0.500 \s) = 15.0 \ms - 4.90 \ms = 10.1 \ms $$
 </div>
 
@@ -610,6 +756,12 @@ Calculate the displacement and velocity at times of
 **Strategy**
 
 Take downward as positive since the rock is thrown downward. This means the initial velocity $$ v_0 = +14.0 \ms $$ and $$ a = +g = +9.80 \mss $$. Set $$ y_0 = 0 $$ at the bridge.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the bridge roadway where the rock is released. Release: t = 0, y₀ = 0, v₀ = +14.0 m/s (downward). The water is at y = 70.0 m. The rock’s position y and velocity v are wanted at t = 0.500, 1.00, 1.50, 2.00, and 2.50 s. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p02.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the bridge roadway and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = +14.0 \ms $$, and $$ a = +g = +9.80 \mss $$; each $$ y $$ is a distance below the bridge, and the water is at $$ y = 70.0 \m $$.
 
 **Solution**
 
@@ -701,6 +853,12 @@ above the floor in an attempt to get the ball?
 
 At the maximum height, the player's velocity is zero. We can use the kinematic equation relating velocity, displacement, and acceleration to find the initial velocity needed to reach 1.25 m.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the player’s starting height on the floor. Takeoff: y₀ = 0, v₀ unknown (upward). Top of the jump: y = 1.25 m, v = 0. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p03.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the player's starting height. Then $$ y_0 = 0 $$, $$ y = +1.25 \m $$ at the top, $$ v = 0 $$ there, and $$ a = -9.80 \mss $$.
+
 **Solution**
 
 1. Identify the known values:
@@ -752,6 +910,12 @@ A rescue helicopter is hovering over a person whose boat has sunk. One of the re
 **Strategy**
 
 Take downward as positive since the preserver is thrown downward. Use the kinematic equation for displacement.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin where the rescuer releases the life preserver. Release: t = 0, y₀ = 0, v₀ = +1.40 m/s (downward). At the water: t = 1.8 s, y unknown. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p04.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the release point and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = +1.40 \ms $$, $$ a = +9.80 \mss $$, and the answer $$ y $$ is the height of the release point above the water.
 
 **Solution**
 
@@ -809,21 +973,38 @@ A dolphin in an aquatic show jumps straight up out of the water at a velocity of
 
 :::: solution
 
-(a) $$ a=-9.80 \mss $$; $$ v_{0}=13.0 \ms $$; $$ y_{0}=0 \m $$ (b) $$ v=0 \ms $$. Unknown is distance $$ y $$ to top of trajectory,
-where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ because it contains all known values except for $$ y $$, so we can solve for
-$$ y $$. Solving for $$ y $$ gives
+**Strategy**
 
-<div class="equation">
-$$ \begin{array}{lll}
-v^{2}-v_{0}^{2}&=& 2a\left(y-y_{0}\right)\\
-\frac{ v^{2}-v_{0}^{2}}{2a}&=& y-y_{0}\\
-y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
-\end{array} $$
-</div>
+Use upward-positive vertical motion, first setting velocity to zero at the top and then setting position to its release value for the return time.
 
-Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.
+**Solution**
 
-(c) $$ 2.65 \s $$
+Choose $$+y$$ upward, the water surface as $$y=0\m$$, and $$t=0\s$$ at takeoff. Neglect drag, size, and orientation as stated.
+
+![Vertical axis with origin at the water surface, launch velocity +13.0 m/s, zero vertical velocity at the top, and acceleration −9.80 m/s² throughout.](../resources/sketch_02_07_p05.svg){: .sketch}
+
+**(a)** The knowns are $$y_0=0\m$$, $$v_0=+13.0\ms$$, and $$a=-9.80\mss$$. At the top, $$v=0\ms$$.
+
+**(b)** The unknown is the maximum height. The equation $$v^2=v_0^2+2a(y-y_0)$$ uses the known velocities and acceleration without requiring the unknown time. Rearranging and substituting,
+
+$$y=y_0+\frac{v^2-v_0^2}{2a}=0\m+\frac{(0\ms)^2-(13.0\ms)^2}{2(-9.80\mss)}=8.62\m.$$
+
+The units are $$(\m^2/\s^2)/(\m/\s^2)=\m$$. The positive height is consistent with an upward launch. The dolphin rises 8.62 m above the water in the stated point-particle model.
+
+**(c)** On return to the water, $$y-y_0=0\m$$, so
+
+$$0=v_0t-\tfrac12gt^2=t(v_0-\tfrac12gt).$$
+
+The root $$t=0\s$$ is takeoff; the later root is
+
+$$t=\frac{2v_0}{g}=\frac{2(13.0\ms)}{9.80\mss}=2.65\s.$$
+
+**Discussion**
+
+The ascent lasts $$v_0/g=1.3265\s\approx1.33\s$$, and the return to the same height takes twice the unrounded ascent time. The symmetry is expected for constant gravity without drag.
+
+The dolphin’s total time in the air is 2.65 s, reaching a maximum height of 8.62 m above the water.
+
 
 ::::
 
@@ -847,6 +1028,12 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 
 Take upward as positive. The swimmer launches upward from the diving board with initial velocity $$ v_0 = 4.00 \ms $$, reaches a maximum height, then falls through the air until her feet hit the water 1.80 m below the starting point. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the diving board. Takeoff: t = 0, y₀ = 0, v₀ = +4.00 m/s. Highest point: y unknown, v = 0. Feet reach the water: y = −1.80 m, t and v unknown (v is negative, downward). The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p06.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the diving board. Then $$ y_0 = 0 $$, $$ v_0 = +4.00 \ms $$, $$ a = -9.80 \mss $$, and the water is *below* the origin, at $$ y = -1.80 \m $$. Her velocity at the water must come out negative (downward).
+
 **Solution**
 
 __(a) Time in the air:__
@@ -864,32 +1051,32 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ -1.80 = 0 + (4.00)t + \frac{1}{2}(-9.80)t^2 $$
+$$ -1.80 \m = 0 + (4.00 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ -1.80 = 4.00t - 4.90t^2 $$
+$$ -1.80 \m = (4.00 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 Rearranging into standard quadratic form:
 
 <div class="equation">
-$$ 4.90t^2 - 4.00t - 1.80 = 0 $$
+$$ (4.90 \mss)t^2 - (4.00 \ms)t - 1.80 \m = 0 $$
 </div>
 
 4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
 <div class="equation">
-$$ t = \frac{4.00 \pm \sqrt{(-4.00)^2 + 4(4.90)(1.80)}}{2(4.90)} = \frac{4.00 \pm \sqrt{16.0 + 35.28}}{9.80} $$
+$$ t = \frac{4.00 \ms \pm \sqrt{(-4.00 \ms)^2 + 4(4.90 \mss)(1.80 \m)}}{2(4.90 \mss)} = \frac{4.00 \ms \pm \sqrt{16.0 \mmss + 35.28 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{4.00 \pm \sqrt{51.28}}{9.80} = \frac{4.00 \pm 7.16}{9.80} $$
+$$ t = \frac{4.00 \ms \pm \sqrt{51.28 \mmss}}{9.80 \mss} = \frac{4.00 \ms \pm 7.16 \ms}{9.80 \mss} $$
 </div>
 
 Taking the positive root:
 
 <div class="equation">
-$$ t = \frac{4.00 + 7.16}{9.80} = \frac{11.16}{9.80} = 1.14 \s $$
+$$ t = \frac{4.00 \ms + 7.16 \ms}{9.80 \mss} = \frac{11.16 \ms}{9.80 \mss} = 1.14 \s $$
 </div>
 
 __(b) Highest point above the board:__
@@ -903,15 +1090,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for the height $$ y $$:
 <div class="equation">
-$$ 0 = (4.00)^2 + 2(-9.80)(y - 0) $$
+$$ 0 = (4.00 \ms)^2 + 2(-9.80 \mss)(y - 0) $$
 </div>
 
 <div class="equation">
-$$ 0 = 16.0 - 19.6y $$
+$$ 0 = 16.0 \mmss - (19.6 \mss)y $$
 </div>
 
 <div class="equation">
-$$ y = \frac{16.0}{19.6} = 0.816 \m $$
+$$ y = \frac{16.0 \mmss}{19.6 \mss} = 0.816 \m $$
 </div>
 
 __(c) Velocity when feet hit the water:__
@@ -925,15 +1112,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 Substitute known values:
 
 <div class="equation">
-$$ v^2 = (4.00)^2 + 2(-9.80)(-1.80 - 0) $$
+$$ v^2 = (4.00 \ms)^2 + 2(-9.80 \mss)(-1.80 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ v^2 = 16.0 + 2(-9.80)(-1.80) = 16.0 + 35.28 = 51.28 \mmss $$
+$$ v^2 = 16.0 \mmss + 2(-9.80 \mss)(-1.80 \m) = 16.0 \mmss + 35.28 \mmss = 51.28 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \pm \sqrt{51.28} = \pm 7.16 \ms $$
+$$ v = \pm \sqrt{51.28 \mmss} = \pm 7.16 \ms $$
 </div>
 
 Taking the negative root (downward motion):
@@ -969,11 +1156,15 @@ The swimmer is in the air for about 1.1 seconds, which is reasonable for a dive.
 
 :::: solution
 
-![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #Figure8}
-
 **Strategy**
 
 Take upward as positive. The rock is thrown upward, goes up, then comes back down past the cliff and hits the ground below. The final position is negative (below the starting point).
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the top of the cliff where the rock is released. Part (a): v₀ = +8.00 m/s (thrown up); the rock rises, falls past the cliff top, and hits the ground at t = 2.35 s at unknown y (negative, below the origin). Part (b): v₀ = −8.00 m/s (thrown down); the time to reach the same ground level is unknown. The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p07.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the top of the cliff where the rock is released. The ground is below the origin, so its position $$ y $$ comes out negative and the height of the cliff is $$ |y| $$. In part (a) $$ v_0 = +8.00 \ms $$ (thrown up); in part (b) $$ v_0 = -8.00 \ms $$ (thrown down). In both, $$ a = -9.80 \mss $$.
 
 **Solution**
 
@@ -1018,25 +1209,25 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ -8.26 = 0 + (-8.00)t + \frac{1}{2}(-9.80)t^2 $$
+$$ -8.26 \m = 0 + (-8.00 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ -8.26 = -8.00t - 4.90t^2 $$
+$$ -8.26 \m = -(8.00 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
-Rearranging: $$ 4.90t^2 + 8.00t - 8.26 = 0 $$
+Rearranging: $$ (4.90 \mss)t^2 + (8.00 \ms)t - 8.26 \m = 0 $$
 
 3. Apply the quadratic formula:
 <div class="equation">
-$$ t = \frac{-8.00 \pm \sqrt{(8.00)^2 + 4(4.90)(8.26)}}{2(4.90)} = \frac{-8.00 \pm \sqrt{64.0 + 161.9}}{9.80} $$
+$$ t = \frac{-8.00 \ms \pm \sqrt{(8.00 \ms)^2 + 4(4.90 \mss)(8.26 \m)}}{2(4.90 \mss)} = \frac{-8.00 \ms \pm \sqrt{64.0 \mmss + 161.9 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{-8.00 \pm 15.03}{9.80} $$
+$$ t = \frac{-8.00 \ms \pm 15.03 \ms}{9.80 \mss} $$
 </div>
 
-Taking the positive root: $$ t = \frac{-8.00 + 15.03}{9.80} = 0.717 \s $$
+Taking the positive root: $$ t = \frac{-8.00 \ms + 15.03 \ms}{9.80 \mss} = 0.717 \s $$
 
 **Discussion**
 
@@ -1066,6 +1257,12 @@ and he is 1.80 m tall?
 
 Take upward as positive. The shot is released at height 2.20 m with initial upward velocity of 11.0 m/s. The shot putter is 1.80 m tall, so his head is at 1.80 m. We need to find when the shot returns to this height on its way back down. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground. Release: t = 0, y₀ = 2.20 m, v₀ = +11.0 m/s. The shot comes back down to the top of the putter’s head at y = 1.80 m at an unknown time t. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p08.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground. Then the shot starts at $$ y_0 = +2.20 \m $$ with $$ v_0 = +11.0 \ms $$, the top of the putter's head is at $$ y = +1.80 \m $$, and $$ a = -9.80 \mss $$.
+
 **Solution**
 
 1. Identify the known values:
@@ -1081,46 +1278,46 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ 1.80 = 2.20 + (11.0)t + \frac{1}{2}(-9.80)t^2 $$
+$$ 1.80 \m = 2.20 \m + (11.0 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 1.80 = 2.20 + 11.0t - 4.90t^2 $$
+$$ 1.80 \m = 2.20 \m + (11.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 Rearranging:
 
 <div class="equation">
-$$ 1.80 - 2.20 = 11.0t - 4.90t^2 $$
+$$ 1.80 \m - 2.20 \m = (11.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ -0.40 = 11.0t - 4.90t^2 $$
+$$ -0.40 \m = (11.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 Rearranging into standard quadratic form:
 
 <div class="equation">
-$$ 4.90t^2 - 11.0t - 0.40 = 0 $$
+$$ (4.90 \mss)t^2 - (11.0 \ms)t - 0.40 \m = 0 $$
 </div>
 
 4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
 <div class="equation">
-$$ t = \frac{11.0 \pm \sqrt{(-11.0)^2 + 4(4.90)(0.40)}}{2(4.90)} = \frac{11.0 \pm \sqrt{121 + 7.84}}{9.80} $$
+$$ t = \frac{11.0 \ms \pm \sqrt{(-11.0 \ms)^2 + 4(4.90 \mss)(0.40 \m)}}{2(4.90 \mss)} = \frac{11.0 \ms \pm \sqrt{121 \mmss + 7.84 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{11.0 \pm \sqrt{128.84}}{9.80} = \frac{11.0 \pm 11.35}{9.80} $$
+$$ t = \frac{11.0 \ms \pm \sqrt{128.84 \mmss}}{9.80 \mss} = \frac{11.0 \ms \pm 11.35 \ms}{9.80 \mss} $$
 </div>
 
 This gives two solutions:
 
 <div class="equation">
-$$ t_1 = \frac{11.0 - 11.35}{9.80} = \frac{-0.35}{9.80} = -0.036 \s $$ (not physical)
+$$ t_1 = \frac{11.0 \ms - 11.35 \ms}{9.80 \mss} = \frac{-0.35 \ms}{9.80 \mss} = -0.036 \s $$ (not physical)
 </div>
 
 <div class="equation">
-$$ t_2 = \frac{11.0 + 11.35}{9.80} = \frac{22.35}{9.80} = 2.28 \s $$
+$$ t_2 = \frac{11.0 \ms + 11.35 \ms}{9.80 \mss} = \frac{22.35 \ms}{9.80 \mss} = 2.28 \s $$
 </div>
 
 **Discussion**
@@ -1149,6 +1346,12 @@ You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a t
 
 Take upward as positive. The ball passes the tree branch twice: once on the way up and once on the way down. We need to find both times when the ball is at height 7.00 m, then calculate the difference between these times.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the point of release. Release: t = 0, y₀ = 0, v₀ = +15.0 m/s. The ball passes the branch at y = 7.00 m twice, on the way up at t₁ and on the way down at t₂ (both unknown). The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p09.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the point of release. Then $$ y_0 = 0 $$, $$ v_0 = +15.0 \ms $$, $$ a = -9.80 \mss $$, and the branch is at $$ y = +7.00 \m $$. The equation for $$ y = 7.00 \m $$ has two positive roots: the earlier one on the way up, the later one on the way down.
+
 **Solution**
 
 Given:
@@ -1164,38 +1367,38 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 2. Substitute the known values:
 <div class="equation">
-$$ 7.00 = 0 + (15.0)t + \frac{1}{2}(-9.80)t^2 $$
+$$ 7.00 \m = 0 + (15.0 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 7.00 = 15.0t - 4.90t^2 $$
+$$ 7.00 \m = (15.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 3. Rearrange into standard quadratic form:
 <div class="equation">
-$$ 4.90t^2 - 15.0t + 7.00 = 0 $$
+$$ (4.90 \mss)t^2 - (15.0 \ms)t + 7.00 \m = 0 $$
 </div>
 
 4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
 <div class="equation">
-$$ t = \frac{15.0 \pm \sqrt{(15.0)^2 - 4(4.90)(7.00)}}{2(4.90)} $$
+$$ t = \frac{15.0 \ms \pm \sqrt{(15.0 \ms)^2 - 4(4.90 \mss)(7.00 \m)}}{2(4.90 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{15.0 \pm \sqrt{225 - 137.2}}{9.80} = \frac{15.0 \pm \sqrt{87.8}}{9.80} $$
+$$ t = \frac{15.0 \ms \pm \sqrt{225 \mmss - 137.2 \mmss}}{9.80 \mss} = \frac{15.0 \ms \pm \sqrt{87.8 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{15.0 \pm 9.37}{9.80} $$
+$$ t = \frac{15.0 \ms \pm 9.37 \ms}{9.80 \mss} $$
 </div>
 
 5. This gives two solutions:
 <div class="equation">
-$$ t_1 = \frac{15.0 - 9.37}{9.80} = \frac{5.63}{9.80} = 0.575 \s $$ (on the way up)
+$$ t_1 = \frac{15.0 \ms - 9.37 \ms}{9.80 \mss} = \frac{5.63 \ms}{9.80 \mss} = 0.575 \s $$ (on the way up)
 </div>
 
 <div class="equation">
-$$ t_2 = \frac{15.0 + 9.37}{9.80} = \frac{24.37}{9.80} = 2.49 \s $$ (on the way down)
+$$ t_2 = \frac{15.0 \ms + 9.37 \ms}{9.80 \mss} = \frac{24.37 \ms}{9.80 \mss} = 2.49 \s $$ (on the way down)
 </div>
 
 6. The additional time between passing the branch on the way up and on the way down:
@@ -1205,7 +1408,7 @@ $$ \Delta t = t_2 - t_1 = 2.49 \s - 0.575 \s = 1.91 \s $$
 
 **Discussion**
 
-The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on its way down, giving an additional time of 1.91 s. This result makes sense because of the symmetry of projectile motion: the ball takes the same amount of time to go from the branch to its maximum height as it does to fall from maximum height back to the branch. Since the ball reaches its maximum height at $$ t = \frac{v_0}{g} = \frac{15.0}{9.80} = 1.53 \s $$, the time from the first branch crossing to the peak is $$ 1.53 - 0.575 = 0.96 \s $$, and from the peak back to the branch is another 0.96 s, giving a total of 1.91 s. This symmetry is a fundamental property of motion under constant acceleration.
+The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on its way down, giving an additional time of 1.91 s. This result makes sense because of the symmetry of projectile motion: the ball takes the same amount of time to go from the branch to its maximum height as it does to fall from maximum height back to the branch. Since the ball reaches its maximum height at $$ t = \frac{v_0}{g} = \frac{15.0 \ms}{9.80 \mss} = 1.53 \s $$, the time from the first branch crossing to the peak is $$ 1.53 \s - 0.575 \s = 0.96 \s $$, and from the peak back to the branch is another 0.96 s, giving a total of 1.91 s. This symmetry is a fundamental property of motion under constant acceleration.
 
 **Answer**
 
@@ -1231,6 +1434,12 @@ A kangaroo can jump over an object 2.50 m high.
 
 Take upward as positive. The kangaroo leaves the ground with some initial velocity, reaches a maximum height of 2.50 m where its velocity becomes zero, then returns to the ground. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground. Takeoff: t = 0, y₀ = 0, v₀ unknown (upward). Top: y = 2.50 m, v = 0. Landing: y = 0 at an unknown time. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p10.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground. Then $$ y_0 = 0 $$, $$ v = 0 $$ at the top ($$ y = 2.50 \m $$), and $$ a = -9.80 \mss $$.
+
 **Solution**
 
 __(a) Vertical speed when leaving the ground:__
@@ -1248,19 +1457,19 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0^2 + 2(-9.80)(2.50 - 0) $$
+$$ 0 = v_0^2 + 2(-9.80 \mss)(2.50 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ 0 = v_0^2 - 2(9.80)(2.50) $$
+$$ 0 = v_0^2 - 2(9.80 \mss)(2.50 \m) $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 2(9.80)(2.50) = 49.0 \mmss $$
+$$ v_0^2 = 2(9.80 \mss)(2.50 \m) = 49.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{49.0} = 7.00 \ms $$
+$$ v_0 = \sqrt{49.0 \mmss} = 7.00 \ms $$
 </div>
 
 __(b) Time in the air:__
@@ -1274,20 +1483,20 @@ $$ v = v_0 + at $$
 
 2. At maximum height, $$ v = 0 $$:
 <div class="equation">
-$$ 0 = 7.00 + (-9.80)t $$
+$$ 0 = 7.00 \ms + (-9.80 \mss)t $$
 </div>
 
 <div class="equation">
-$$ 9.80t = 7.00 $$
+$$ (9.80 \mss)t = 7.00 \ms $$
 </div>
 
 <div class="equation">
-$$ t = \frac{7.00}{9.80} = 0.714 \s $$
+$$ t = \frac{7.00 \ms}{9.80 \mss} = 0.714 \s $$
 </div>
 
 3. This is the time to reach maximum height. By symmetry, the total time in the air is:
 <div class="equation">
-$$ t_{total} = 2 \times 0.714 = 1.43 \s $$
+$$ t_{total} = 2 \times 0.714 \s = 1.43 \s $$
 </div>
 
 **Discussion**
@@ -1321,6 +1530,12 @@ a height of 105 m. He can't see the rock right away but then does, 1.50 s later.
 
 Take downward as positive. The 1.50 s interval begins when the hiker **hears** the rock break loose, so sound has already traveled from the cliff to the hiker. We first find how long the rock has been falling when it becomes visible, then find its height and the remaining fall time.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin where the rock breaks loose, 105 m above the hiker. Start: t = 0, y₀ = 0, v₀ = 0. The hiker hears the break when sound has traveled 105 m, and sees the rock 1.50 s later, at t = 1.81 s, when it is at unknown y. The hiker’s head is at y = 105 m. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p11.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin where the rock breaks loose and $$ t = 0 $$ at that instant. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the hiker's head is at $$ y = 105 \m $$, so the rock's height above the hiker is $$ 105 \m - y $$.
+
 **Solution**
 
 **(a) Height of rock when hiker sees it:**
@@ -1333,33 +1548,33 @@ $$ t_{\text{sound}} = \frac{105 \m}{343 \text{ m/s}} = 0.306 \s $$
 2. The rock has been falling for $$ t = t_{\text{sound}} + 1.50 \s = 1.81 \s $$ when the hiker sees it (from rest, $$ g = 9.80 \mss $$ downward):
 
 <div class="equation">
-$$ y = \frac{1}{2}gt^{2} = \frac{1}{2}(9.80)(1.81)^2 = 16.0 \m $$
+$$ y = \frac{1}{2}gt^{2} = \frac{1}{2}(9.80 \mss)(1.81 \s)^2 = 16.0 \m $$
 </div>
 
 3. The rock is above the hiker by:
 <div class="equation">
-$$ h = 105 - 16.0 = 89.0 \m $$
+$$ h = 105 \m - 16.0 \m = 89.0 \m $$
 </div>
 
 **(b) Time remaining before impact:**
 
 1. The rock still needs to fall 89.0 m. Its speed after 1.81 s is:
 <div class="equation">
-$$ v = gt = (9.80)(1.81) = 17.7 \ms $$
+$$ v = gt = (9.80 \mss)(1.81 \s) = 17.7 \ms $$
 </div>
 
 2. Use the kinematic equation for the remaining fall:
 <div class="equation">
-$$ 89.0 = (17.7)t + \frac{1}{2}(9.80)t^2 $$
+$$ 89.0 \m = (17.7 \ms)t + \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 + 17.7t - 89.0 = 0 $$
+$$ (4.90 \mss)t^2 + (17.7 \ms)t - 89.0 \m = 0 $$
 </div>
 
 3. Using the quadratic formula:
 <div class="equation">
-$$ t = \frac{-17.7 + \sqrt{(17.7)^2 + 4(4.90)(89.0)}}{2(4.90)} = 2.82 \s $$
+$$ t = \frac{-17.7 \ms + \sqrt{(17.7 \ms)^2 + 4(4.90 \mss)(89.0 \m)}}{2(4.90 \mss)} = 2.82 \s $$
 </div>
 
 **Discussion**
@@ -1393,6 +1608,12 @@ An object is dropped from a height of 75.0 m above ground level.
 
 Take downward as positive since the object is dropped and falls downward. The initial velocity is zero (dropped, not thrown). Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the release point, 75.0 m above the ground. Release: t = 0, y₀ = 0, v₀ = 0. After the first second: t = 1.00 s, y unknown. At the ground: y = 75.0 m, v unknown. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p12.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the release point and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the ground is at $$ y = 75.0 \m $$.
+
 **Solution**
 
 __(a) Distance traveled during the first second:__
@@ -1410,11 +1631,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ y = 0 + 0 + \frac{1}{2}(9.80)(1.00)^2 $$
+$$ y = 0 + 0 + \frac{1}{2}(9.80 \mss)(1.00 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = \frac{1}{2}(9.80)(1.00) = 4.90 \m $$
+$$ y = \frac{1}{2}(9.80 \mss)(1.00 \text{s}^2) = 4.90 \m $$
 </div>
 
 __(b) Final velocity when hitting the ground:__
@@ -1431,7 +1652,7 @@ $$ v^2 = v_0^2 + 2ay $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(9.80)(75.0) $$
+$$ v^2 = 0 + 2(9.80 \mss)(75.0 \m) $$
 </div>
 
 <div class="equation">
@@ -1439,43 +1660,28 @@ $$ v^2 = 1470 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{1470} = 38.3 \ms $$
+$$ v = \sqrt{1470 \mmss} = 38.3 \ms $$
 </div>
 
 __(c) Distance traveled during the last second:__
 
-First, find the total time to fall 75.0 m:
-
-1. Use the kinematic equation:
-<div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
-</div>
+The total fall time is
 
 <div class="equation">
-$$ 75.0 = 0 + 0 + \frac{1}{2}(9.80)t^2 $$
+$$ t_f = \sqrt{\frac{2(75.0 \m)}{9.80 \mss}} \approx 3.9123 \s. $$
 </div>
 
-<div class="equation">
-$$ t^2 = \frac{2(75.0)}{9.80} = 15.31 \s^2 $$
-</div>
+During the last second, the displacement is
 
 <div class="equation">
-$$ t = 3.91 \s $$
+$$ \Delta y = \frac{1}{2}g\left[t_f^2-(t_f-1.00 \s)^2\right] = gt_f(1.00 \s)-\frac{1}{2}g(1.00 \s)^2 \approx 33.4 \m. $$
 </div>
 
-2. Now find the distance fallen at $$ t = 2.91 \s $$ (one second before hitting the ground):
-<div class="equation">
-$$ y_{2.91} = \frac{1}{2}(9.80)(2.91)^2 = \frac{1}{2}(9.80)(8.468) = 41.5 \m $$
-</div>
-
-3. The distance traveled during the last second is:
-<div class="equation">
-$$ \Delta y = 75.0 - 41.5 = 33.5 \m $$
-</div>
+Keep the unrounded fall time until the final step.
 
 **Discussion**
 
-The object falls only 4.90 m in the first second but travels 33.5 m in the last second - nearly 7 times as far! This illustrates how falling objects accelerate continuously. The final velocity of 38.3 m/s (about 138 km/h or 86 mph) is quite fast, which explains why falling from such heights is dangerous. The asymmetry between the first and last seconds demonstrates that the object is continuously gaining speed as it falls.
+The object falls only 4.90 m in the first second but travels 33.4 m in the last second - nearly 7 times as far! This illustrates how falling objects accelerate continuously. The final velocity of 38.3 m/s (about 138 km/h or 86 mph) is quite fast, which explains why falling from such heights is dangerous. The asymmetry between the first and last seconds demonstrates that the object is continuously gaining speed as it falls.
 
 **Answer**
 
@@ -1483,7 +1689,7 @@ The object falls only 4.90 m in the first second but travels 33.5 m in the last 
 
 (b) The final velocity when hitting the ground is $$ 38.3 \ms $$ (downward).
 
-(c) The object travels $$ 33.5 \m $$ during the last second of motion before hitting the ground.
+(c) The object travels $$ 33.4 \m $$ during the last second of motion before hitting the ground.
 
 ::::
 
@@ -1505,6 +1711,12 @@ There is a 250-m-high cliff at Half Dome in Yosemite National Park in California
 
 Take downward as positive. The boulder falls from rest from a height of 250 m. For part (a), we find the impact velocity. For part (b), we place everything on a single timeline that starts when the boulder breaks loose. The sound of the rock breaking loose travels **down** the cliff to the tourist while the boulder falls; the tourist hears it, reacts, and then has whatever time remains before impact. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the top of the 250-m cliff. Start: t = 0, y₀ = 0, v₀ = 0. At the ground: y = 250 m, v unknown (positive, downward). The acceleration is a = +9.80 m/s² (downward). The tourist stands at the bottom.](../resources/sketch_02_07_p13.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the top of the cliff and $$ t = 0 $$ when the boulder breaks loose. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the ground is at $$ y = 250 \m $$. The impact velocity comes out positive, which in this coordinate system means downward.
+
 **Solution**
 
 **(a) Velocity when striking the ground:**
@@ -1521,7 +1733,7 @@ $$ v^2 = v_0^2 + 2ay $$
 </div>
 
 <div class="equation">
-$$ v^2 = 0 + 2(9.80)(250) $$
+$$ v^2 = 0 + 2(9.80 \mss)(250 \m) $$
 </div>
 
 <div class="equation">
@@ -1529,13 +1741,10 @@ $$ v^2 = 4900 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = 70.0 \ms $$
+$$ v = +70.0 \ms $$
 </div>
 
-Taking the coordinate system with upward as positive (more conventional):
-<div class="equation">
-$$ v = -70.0 \ms $$ (downward)
-</div>
+The positive root is the physical one: in this coordinate system, positive means downward.
 
 **(b) Time available to move:**
 
@@ -1545,11 +1754,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 250 = 0 + 0 + \frac{1}{2}(9.80)t_{fall}^2 $$
+$$ 250 \m = 0 + 0 + \frac{1}{2}(9.80 \mss)t_{fall}^2 $$
 </div>
 
 <div class="equation">
-$$ t_{fall} = \sqrt{\frac{2(250)}{9.80}} = \sqrt{51.02} = 7.1429 \s $$
+$$ t_{fall} = \sqrt{\frac{2(250 \m)}{9.80 \mss}} = \sqrt{51.02 \s^2} = 7.1429 \s $$
 </div>
 
 2. Time for the sound of the rock breaking loose to travel down 250 m to the tourist:
@@ -1559,12 +1768,12 @@ $$ t_{sound} = \frac{distance}{speed} = \frac{250 \m}{335 \text{ m/s}} = 0.7463 
 
 3. Timeline, measured from the moment the boulder breaks loose:
    - $$ t = 0.7463 \s $$: the tourist hears the rock break loose.
-   - $$ t = 0.7463 + 0.300 = 1.0463 \s $$: the tourist begins to move.
+   - $$ t = 0.7463 \s + 0.300 \s = 1.0463 \s $$: the tourist begins to move.
    - $$ t = 7.1429 \s $$: the boulder strikes the ground.
 
 4. The time available to move is the time remaining between reacting and impact:
 <div class="equation">
-$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.1429 - 0.7463 - 0.300 = 6.0966 \s \approx 6.10 \s $$
+$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.1429 \s - 0.7463 \s - 0.300 \s = 6.0966 \s \approx 6.10 \s $$
 </div>
 
 **Discussion**
@@ -1573,7 +1782,7 @@ The boulder strikes the ground at 70.0 m/s (about 252 km/h or 157 mph), which is
 
 **Answer**
 
-(a) The boulder will be traveling at 70.0 m/s downward (or -70.0 m/s with upward positive) when it strikes the ground.
+(a) The boulder will be traveling at 70.0 m/s downward ($$ v = +70.0 \ms $$ with downward positive) when it strikes the ground.
 
 (b) The tourist has 6.10 s to get out of the way.
 
@@ -1598,6 +1807,12 @@ Take upward as positive. We'll solve this in two steps as suggested by the hint:
 1. First, analyze the motion through the window to find the velocity at the bottom of the window
 2. Then, analyze the motion from ground to the bottom of the window to find the initial velocity
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground where the ball is thrown. Launch: y₀ = 0, v₀ unknown (upward). The window’s bottom is at y = 7.50 m and its top at y = 9.50 m; the ball takes 0.312 s to rise from bottom to top. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p14.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground where the ball is thrown. The bottom of the window is at $$ y = 7.50 \m $$ and the top at $$ y = 9.50 \m $$, so the ball's displacement across the window is $$ \Delta y = +2.00 \m $$; $$ a = -9.80 \mss $$.
+
 **Solution**
 
 __Step 1: Find velocity at the bottom of the window__
@@ -1616,23 +1831,23 @@ $$ \Delta y = v_{bottom} t + \frac{1}{2}at^{2} $$
 
 3. Substitute and solve for $$ v_{bottom} $$:
 <div class="equation">
-$$ 2.00 = v_{bottom}(0.312) + \frac{1}{2}(-9.80)(0.312)^2 $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) + \frac{1}{2}(-9.80 \mss)(0.312 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ 2.00 = v_{bottom}(0.312) - 4.90(0.0973) $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) - 4.90 \mss(0.0973 \text{s}^2) $$
 </div>
 
 <div class="equation">
-$$ 2.00 = v_{bottom}(0.312) - 0.477 $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) - 0.477 \m $$
 </div>
 
 <div class="equation">
-$$ v_{bottom}(0.312) = 2.00 + 0.477 = 2.477 $$
+$$ v_{bottom}(0.312 \s) = 2.00 \m + 0.477 \m = 2.477 \m $$
 </div>
 
 <div class="equation">
-$$ v_{bottom} = \frac{2.477}{0.312} = 7.94 \ms $$
+$$ v_{bottom} = \frac{2.477 \m}{0.312 \s} = 7.94 \ms $$
 </div>
 
 __Step 2: Find initial velocity from ground to bottom of window__
@@ -1652,19 +1867,19 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity $$ v_0 $$:
 <div class="equation">
-$$ (7.94)^2 = v_0^2 + 2(-9.80)(7.50 - 0) $$
+$$ (7.94 \ms)^2 = v_0^2 + 2(-9.80 \mss)(7.50 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ 63.0 = v_0^2 - 147 $$
+$$ 63.0 \mmss = v_0^2 - 147 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 63.0 + 147 = 210 \mmss $$
+$$ v_0^2 = 63.0 \mmss + 147 \mmss = 210 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{210} = 14.5 \ms $$
+$$ v_0 = \sqrt{210 \mmss} = 14.5 \ms $$
 </div>
 
 **Discussion**
@@ -1695,6 +1910,12 @@ Suppose you drop a rock into a dark well and, using precision equipment, you mea
 
 Take downward as positive. For part (a), we neglect the time for sound to travel up and assume all 2.0000 s is the time for the rock to fall. For part (b), we must account for the fact that the total time includes both the fall time and the sound travel time. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity and a sound speed of 332.00 m/s.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the top of the well where the rock is released. Release: t = 0, y₀ = 0, v₀ = 0. The water is at an unknown depth d. The rock falls for t fall, then the splash sound travels back up at 332.00 m/s for t sound; the total is 2.0000 s. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p15.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the top of the well and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the water is at the unknown depth $$ y = d $$. The sound then travels the same distance $$ d $$ back up at constant speed.
+
 **Solution**
 
 __(a) Neglecting sound travel time:__
@@ -1712,11 +1933,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ y = 0 + 0 + \frac{1}{2}(9.80)(2.0000)^2 $$
+$$ y = 0 + 0 + \frac{1}{2}(9.80 \mss)(2.0000 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = \frac{1}{2}(9.80)(4.0000) = 19.6 \m $$
+$$ y = \frac{1}{2}(9.80 \mss)(4.0000 \text{s}^2) = 19.6 \m $$
 </div>
 
 __(b) Accounting for sound travel time:__
@@ -1743,49 +1964,49 @@ $$ t_{\text{sound}} = \frac{d}{v_{\text{sound}}} = \frac{d}{332.00} $$
 
 3. Substitute into the total time equation:
 <div class="equation">
-$$ t_{\text{fall}} + \frac{d}{332.00} = 2.0000 $$
+$$ t_{\text{fall}} + \frac{d}{332.00 \ms} = 2.0000 \s $$
 </div>
 
-4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 t_{\text{fall}}^2 $$, so:
+4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 \mss t_{\text{fall}}^2 $$, so:
 <div class="equation">
-$$ t_{\text{fall}} + \frac{4.90 t_{\text{fall}}^2}{332.00} = 2.0000 $$
-</div>
-
-<div class="equation">
-$$ t_{\text{fall}} + 0.01476 t_{\text{fall}}^2 = 2.0000 $$
+$$ t_{\text{fall}} + \frac{4.90 \mss t_{\text{fall}}^2}{332.00 \ms} = 2.0000 \s $$
 </div>
 
 <div class="equation">
-$$ 0.01476 t_{\text{fall}}^2 + t_{\text{fall}} - 2.0000 = 0 $$
+$$ t_{\text{fall}} + 0.01476 \text{s}^{-1} t_{\text{fall}}^2 = 2.0000 \s $$
+</div>
+
+<div class="equation">
+$$ 0.01476 \text{s}^{-1} t_{\text{fall}}^2 + t_{\text{fall}} - 2.0000 \s = 0 $$
 </div>
 
 5. Using the quadratic formula:
 <div class="equation">
-$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 4(0.01476)(2.0000)}}{2(0.01476)} $$
+$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 4(0.01476 \text{s}^{-1})(2.0000 \s)}}{2(0.01476 \text{s}^{-1})} $$
 </div>
 
 <div class="equation">
-$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 0.11808}}{0.02952} = \frac{-1 \pm \sqrt{1.11808}}{0.02952} $$
+$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 0.11808}}{0.02952 \text{s}^{-1}} = \frac{-1 \pm \sqrt{1.11808}}{0.02952 \text{s}^{-1}} $$
 </div>
 
 <div class="equation">
-$$ t_{\text{fall}} = \frac{-1 \pm 1.0574}{0.02952} $$
+$$ t_{\text{fall}} = \frac{-1 \pm 1.0574}{0.02952 \text{s}^{-1}} $$
 </div>
 
 Taking the positive root:
 
 <div class="equation">
-$$ t_{\text{fall}} = \frac{0.0574}{0.02952} = 1.944 \s $$
+$$ t_{\text{fall}} = \frac{0.0574}{0.02952 \text{s}^{-1}} = 1.944 \s $$
 </div>
 
 6. Calculate the distance:
 <div class="equation">
-$$ d = 4.90 \times (1.944)^2 = 4.90 \times 3.779 = 18.5 \m $$
+$$ d = 4.90 \mss \times (1.944 \s)^2 = 4.90 \mss \times 3.779 \text{s}^2 = 18.5 \m $$
 </div>
 
 **Discussion**
 
-When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
+When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 \s - 1.944 \s = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
 
 **Answer**
 
@@ -1816,6 +2037,12 @@ assuming the floor is absolutely rigid and that the ball's acceleration is const
 
 Take upward as positive. The ball falls from rest, hits the floor, and rebounds. We'll analyze the motion in stages: before impact, during collision, and after rebound. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the floor. Falling: y₀ = 1.50 m, v₀ = 0; just before impact, y = 0 and v₁ is unknown (negative, downward). Rebounding: just after leaving the floor, y = 0 and v₂ is unknown (positive, upward); at the top of the rebound, y = 1.45 m and v = 0. The acceleration is a = −9.80 m/s² while the ball is in the air; during the 8.00 × 10⁻⁵ s contact it is unknown.](../resources/sketch_02_07_p16.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the floor. The ball falls from $$ y_0 = 1.50 \m $$ and rebounds to $$ y = 1.45 \m $$; in the air $$ a = -9.80 \mss $$. Its velocity just before impact is negative (downward) and just after leaving the floor is positive (upward), so the acceleration during contact, $$ (v_{\text{after}} - v_{\text{before}})/\Delta t $$, is positive.
+
 **Solution**
 
 __(a) Velocity just before striking the floor:__
@@ -1833,15 +2060,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(-9.80)(0 - 1.50) $$
+$$ v^2 = 0 + 2(-9.80 \mss)(0 - 1.50 \m) $$
 </div>
 
 <div class="equation">
-$$ v^2 = 2(-9.80)(-1.50) = 29.4 \mmss $$
+$$ v^2 = 2(-9.80 \mss)(-1.50 \m) = 29.4 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
+$$ v = \pm \sqrt{29.4 \mmss} = \pm 5.42 \ms $$
 </div>
 
 Taking the negative root (downward motion):
@@ -1865,15 +2092,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity after rebound $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0^2 + 2(-9.80)(1.45 - 0) $$
+$$ 0 = v_0^2 + 2(-9.80 \mss)(1.45 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 2(9.80)(1.45) = 28.42 \mmss $$
+$$ v_0^2 = 2(9.80 \mss)(1.45 \m) = 28.42 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{28.42} = +5.33 \ms $$
+$$ v_0 = \sqrt{28.42 \mmss} = +5.33 \ms $$
 </div>
 
 __(c) Acceleration during contact with the floor:__
@@ -1892,11 +2119,11 @@ $$ v = v_0 + at $$
 
 3. Solve for acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{5.33 - (-5.42)}{8.00 \times 10^{-5}} $$
+$$ a = \frac{v - v_0}{t} = \frac{5.33 \ms - (-5.42 \ms)}{8.00 \times 10^{-5} \s} $$
 </div>
 
 <div class="equation">
-$$ a = \frac{10.75}{8.00 \times 10^{-5}} = 1.34 \times 10^{5} \mss $$
+$$ a = \frac{10.75 \ms}{8.00 \times 10^{-5} \s} = 1.34 \times 10^{5} \mss $$
 </div>
 
 __(d) Maximum compression during collision:__
@@ -1948,6 +2175,12 @@ A coin is dropped from a hot-air balloon that is 300 m above the ground and risi
 
 Take upward as positive. The coin is released from a balloon that is already moving upward at 10.0 m/s, so the coin inherits this initial velocity. After release, the coin decelerates, reaches a maximum height, then falls back down. We'll analyze the motion in stages using $$ g = 9.80 \mss $$.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground. Release: t = 0, y₀ = 300 m, v₀ = +10.0 m/s (the balloon’s upward velocity). Top of the coin’s path: y unknown, v = 0. At t = 4.00 s: y and v unknown. At the ground: y = 0, t unknown. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p17.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground and $$ t = 0 $$ at release. The coin starts with the balloon's position and velocity, $$ y_0 = +300 \m $$ and $$ v_0 = +10.0 \ms $$, and then has $$ a = -9.80 \mss $$. It hits the ground when $$ y = 0 $$.
+
 **Solution**
 
 __(a) Maximum height reached:__
@@ -1965,19 +2198,19 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for the maximum height $$ y $$:
 <div class="equation">
-$$ 0 = (10.0)^2 + 2(-9.80)(y - 300) $$
+$$ 0 = (10.0 \ms)^2 + 2(-9.80 \mss)(y - 300 \m) $$
 </div>
 
 <div class="equation">
-$$ 0 = 100 - 19.6(y - 300) $$
+$$ 0 = 100 \mmss - 19.6 \mss(y - 300 \m) $$
 </div>
 
 <div class="equation">
-$$ 19.6(y - 300) = 100 $$
+$$ 19.6 \mss(y - 300 \m) = 100 \mmss $$
 </div>
 
 <div class="equation">
-$$ y - 300 = \frac{100}{19.6} = 5.10 \m $$
+$$ y - 300 \m = \frac{100 \mmss}{19.6 \mss} = 5.10 \m $$
 </div>
 
 <div class="equation">
@@ -1992,15 +2225,15 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ y = 300 + (10.0)(4.00) + \frac{1}{2}(-9.80)(4.00)^2 $$
+$$ y = 300 \m + (10.0 \ms)(4.00 \s) + \frac{1}{2}(-9.80 \mss)(4.00 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = 300 + 40.0 + \frac{1}{2}(-9.80)(16.0) $$
+$$ y = 300 \m + 40.0 \m + \frac{1}{2}(-9.80 \mss)(16.0 \text{s}^2) $$
 </div>
 
 <div class="equation">
-$$ y = 300 + 40.0 - 78.4 = 262 \m $$
+$$ y = 300 \m + 40.0 \m - 78.4 \m = 262 \m $$
 </div>
 
 2. Velocity after 4.00 s:
@@ -2009,11 +2242,11 @@ $$ v = v_0 + at $$
 </div>
 
 <div class="equation">
-$$ v = 10.0 + (-9.80)(4.00) $$
+$$ v = 10.0 \ms + (-9.80 \mss)(4.00 \s) $$
 </div>
 
 <div class="equation">
-$$ v = 10.0 - 39.2 = -29.2 \ms $$
+$$ v = 10.0 \ms - 39.2 \ms = -29.2 \ms $$
 </div>
 
 The negative sign indicates the coin is moving downward.
@@ -2026,39 +2259,39 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ 0 = 300 + 10.0t + \frac{1}{2}(-9.80)t^2 $$
+$$ 0 = 300 \m + (10.0 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 0 = 300 + 10.0t - 4.90t^2 $$
+$$ 0 = 300 \m + (10.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 - 10.0t - 300 = 0 $$
+$$ (4.90 \mss)t^2 - (10.0 \ms)t - 300 \m = 0 $$
 </div>
 
 2. Using the quadratic formula:
 <div class="equation">
-$$ t = \frac{10.0 \pm \sqrt{(10.0)^2 + 4(4.90)(300)}}{2(4.90)} $$
+$$ t = \frac{10.0 \ms \pm \sqrt{(10.0 \ms)^2 + 4(4.90 \mss)(300 \m)}}{2(4.90 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{10.0 \pm \sqrt{100 + 5880}}{9.80} = \frac{10.0 \pm \sqrt{5980}}{9.80} $$
+$$ t = \frac{10.0 \ms \pm \sqrt{100 \mmss + 5880 \mmss}}{9.80 \mss} = \frac{10.0 \ms \pm \sqrt{5980 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{10.0 \pm 77.33}{9.80} $$
+$$ t = \frac{10.0 \ms \pm 77.33 \ms}{9.80 \mss} $$
 </div>
 
 Taking the positive root:
 
 <div class="equation">
-$$ t = \frac{10.0 + 77.33}{9.80} = \frac{87.33}{9.80} = 8.91 \s $$
+$$ t = \frac{10.0 \ms + 77.33 \ms}{9.80 \mss} = \frac{87.33 \ms}{9.80 \mss} = 8.91 \s $$
 </div>
 
 **Discussion**
 
-This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0}{9.80} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
+This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0 \ms}{9.80 \mss} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300 \m)}{9.80 \mss}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
 
 **Answer**
 
@@ -2108,15 +2341,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(-9.80)(0 - 1.50) $$
+$$ v^2 = 0 + 2(-9.80 \mss)(0 - 1.50 \m) $$
 </div>
 
 <div class="equation">
-$$ v^2 = 2(-9.80)(-1.50) = 29.4 \mmss $$
+$$ v^2 = 2(-9.80 \mss)(-1.50 \m) = 29.4 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
+$$ v = \pm \sqrt{29.4 \mmss} = \pm 5.42 \ms $$
 </div>
 
 Taking the negative root (downward motion):
@@ -2140,46 +2373,31 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity after rebound $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0^2 + 2(-9.80)(1.10 - 0) $$
+$$ 0 = v_0^2 + 2(-9.80 \mss)(1.10 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 2(9.80)(1.10) = 21.56 \mmss $$
+$$ v_0^2 = 2(9.80 \mss)(1.10 \m) = 21.56 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{21.56} = +4.64 \ms $$
+$$ v_0 = \sqrt{21.56 \mmss} = +4.64 \ms $$
 </div>
 
 __(c) Acceleration during contact with the floor:__
 
-During the collision, the ball's velocity changes from -5.42 m/s to +4.64 m/s.
-
-1. Identify the known values:
-   - Initial velocity: $$ v_0 = -5.42 \ms $$
-   - Final velocity: $$ v = +4.64 \ms $$
-   - Time of contact: $$ t = 3.50 \times 10^{-3} \s $$
-
-2. Use the kinematic equation:
-<div class="equation">
-$$ v = v_0 + at $$
-</div>
-
-3. Solve for acceleration:
-<div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{4.64 - (-5.42)}{3.50 \times 10^{-3}} $$
-</div>
+During contact, the ball changes from downward to upward motion. Use the unrounded velocities from parts (a) and (b):
 
 <div class="equation">
-$$ a = \frac{10.06}{3.50 \times 10^{-3}} = 2.87 \times 10^{3} \mss $$
+$$ a_{\text{avg}} = \frac{v_f-v_i}{\Delta t} = \frac{\sqrt{21.56 \mmss}+\sqrt{29.4 \mmss}}{3.50\times10^{-3}\s} \approx 2.88\times10^3\mss. $$
 </div>
 
 __(d) Maximum compression during collision:__
 
-As for the steel ball, the average acceleration in (c) applies to the whole contact interval. Maximum compression is the distance traveled while the ball slows from $$ -5.42 \ms $$ to rest. With the same constant-upward-acceleration idealization and $$ a = 2.87 \times 10^{3} \mss $$:
+As for the steel ball, maximum compression occurs when the ball has slowed to rest. Assume a constant upward acceleration equal to the average in part (c) and retain its unrounded value when calculating the stopping distance:
 
 <div class="equation">
-$$ d_{\max} = \frac{(5.42 \ms)^{2}}{2(2.87 \times 10^{3} \mss)} = 5.11 \times 10^{-3} \m = 5.11 \text{ mm} $$
+$$ d_{\max} = \frac{v_i^{2}}{2a_{\text{avg}}} \approx 5.11 \times 10^{-3} \m = 5.11 \text{ mm} $$
 </div>
 
 As before, this is an estimate that depends on the assumed constant acceleration, not a value fixed by the speeds and contact time alone.
@@ -2194,7 +2412,7 @@ The soft tennis ball shows markedly different behavior from the steel ball. It h
 
 (b) The velocity just after leaving the floor is $$ 4.64 \ms $$ upward.
 
-(c) The acceleration during contact with the floor is $$ 2.87 \times 10^{3} \mss $$ (upward, or about 293 g's).
+(c) The acceleration during contact with the floor is $$ 2.88 \times 10^{3} \mss $$ (upward, or about 293 g's).
 
 (d) Assuming constant upward acceleration equal to the magnitude in (c) until the ball stops, maximum compression is approximately $$ 5.11 \text{ mm} $$.
 

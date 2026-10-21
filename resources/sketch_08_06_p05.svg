@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the helium nucleus scattering from the gold nucleus</title>
+<desc id="desc">Axes with +x along the helium nucleus’s initial velocity and +y perpendicular to it, origin at the gold nucleus, initially at rest. After the elastic collision the helium nucleus moves at 120° from +x (above the axis) with unknown speed v′_He; the gold nucleus recoils at an unknown angle θ_Au, below +x, with unknown speed v′_Au.</desc>
+<rect width="680" height="330" fill="#ffffff"/>
+<line x1="50" y1="180" x2="471" y2="180" stroke="#555555" stroke-width="1.5"/>
+<polygon points="480,180 470,184 470,176" fill="#555555"/>
+<text x="496" y="185.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="496" y="201.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">incoming</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">direction</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="300" y1="300" x2="300" y2="49" stroke="#555555" stroke-width="1.5"/>
+<polygon points="300,40 304,50 296,50" fill="#555555"/>
+<text x="300" y="29.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<circle cx="110" cy="180" r="5" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="110" y="206.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">He</tspan></text>
+<line x1="100" y1="154" x2="168.4" y2="154" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="180,154 167.4,159.04 167.4,148.96" fill="#3f8a1e"/>
+<text x="140" y="141.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">He</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 1.55 × 10</tspan><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">7</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m/s</tspan></text>
+<circle cx="300" cy="180" r="12" fill="#1f3a5f"/>
+<text x="286" y="214.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Au</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rest</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="300" y1="180" x2="235.8" y2="68.8" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="230,58.76 240.66,67.15 231.94,72.19" fill="#3f8a1e"/>
+<text x="223.5" y="51.37" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal">′</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">He</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="300" y1="180" x2="359.53" y2="213.68" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="369.63,219.39 356.18,217.58 361.14,208.8" fill="#3f8a1e"/>
+<text x="380.94" y="232.38" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal">′</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">Au</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<path d="M 340 180 A 40 40 0 0 0 280 145.36" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="329" y="135.02" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">120°</tspan></text>
+<path d="M 352.22 209.55 A 60 60 0 0 0 360 180" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="381.23" y="206.64" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">Au</tspan></tspan><tspan dy="-4.2">​</tspan></text>
+</svg>

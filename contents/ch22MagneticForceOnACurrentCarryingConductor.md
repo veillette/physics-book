@@ -130,6 +130,24 @@ Draw a sketch of the situation in [[Figure 1]](#Figure1) showing the direction o
 
 :::
 
+::: solution
+
+**Strategy**
+
+In [[Figure 1]](#Figure1), the field points to the right (from N to S), and the current in the wire between the poles points out of the page, toward the viewer. The current is carried by electrons, which move opposite to the conventional current, that is, into the page. Apply RHR-1 to a negative charge: find $$ \vb{v} \times \vb{B} $$ with the right hand, then reverse it.
+
+**Solution**
+
+![Cross-section view between the magnet poles: the magnetic field points to the right. Electrons in the wire move into the page, opposite to the conventional current, which points out of the page. For the electrons, v cross B points down, so the force on the negative electrons, and therefore on the wire, points up.](../resources/concept_22_07_q01.svg)
+
+Take $$ +x $$ to the right, $$ +y $$ up, and $$ +z $$ out of the page. The electrons move with $$ \vb{v} $$ along $$ -z $$, and $$ \vb{B} $$ is along $$ +x $$. With the thumb into the page and the fingers to the right, the palm faces down: $$ (-\hat{z}) \times \hat{x} = -\hat{y} $$. The electron charge is negative, so the force on each electron is reversed and points **up**, along $$ +y $$. The electrons push on the lattice of the wire, so the force on the wire is also up, the same result as RHR-1 applied to the conventional current: $$ \hat{z} \times \hat{x} = +\hat{y} $$.
+
+For example, with $$ I = 5.00 \text{ A} $$, $$ l = 5.00 \text{ cm} $$ of wire in the field, and $$ B = 0.500 \text{ T} $$, the upward force is $$ F = IlB = (5.00 \text{ A})(0.0500 \m)(0.500 \text{ T}) = 0.125 \N $$.
+
+The electrons carrying the current move into the page, and RHR-1 gives $$ \vb{v} \times \vb{B} $$ downward for them, so the force on the negative electrons, and hence on the wire, points up, the same direction found by applying RHR-1 to the conventional current out of the page.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -137,6 +155,25 @@ Draw a sketch of the situation in [[Figure 1]](#Figure1) showing the direction o
 ::: problem
 
 Verify that the direction of the force in an MHD drive, such as that in [[Figure 3]](#Figure3), does not depend on the sign of the charges carrying the current across the fluid.
+
+:::
+
+::: solution
+
+**Strategy**
+
+In [[Figure 3]](#Figure3), the current $$ I $$ crosses the fluid between the electrodes, perpendicular to $$ \vb{B} $$. Apply $$ \vb{F} = q\vb{v} \times \vb{B} $$ separately to positive ions, which move in the direction of $$ I $$, and to negative ions, which move opposite to $$ I $$.
+
+**Solution**
+
+Take $$ \vb{B} $$ along $$ +x $$ and the current along $$ -y $$ (down the page), so the positive ions have $$ \vb{v}_{+} $$ along $$ -y $$ and the negative ions have $$ \vb{v}_{-} $$ along $$ +y $$.
+
+- Positive ions: $$ \vb{F} = (+q)(-v\hat{y}) \times (B\hat{x}) = -qvB(\hat{y} \times \hat{x}) = +qvB\hat{z} $$.
+- Negative ions: $$ \vb{F} = (-q)(+v\hat{y}) \times (B\hat{x}) = -qvB(\hat{y} \times \hat{x}) = +qvB\hat{z} $$.
+
+Both forces point along $$ +z $$, along the duct. Reversing the sign of the charge and reversing its velocity together leave the product $$ q\vb{v} $$, and hence the force, unchanged. Only the current matters: the total force is $$ F = IlB $$, for example $$ (1.00 \times 10^{3} \text{ A})(0.500 \m)(2.00 \text{ T}) = 1.00 \times 10^{3} \N $$, whatever mixture of ions carries the current.
+
+The direction of the force in an MHD drive does not depend on the sign of the charges, because negative charges move opposite to positive charges, so the product $$ q\vb{v} $$, and therefore $$ q\vb{v} \times \vb{B} $$, points the same way for both; the force is determined by the direction of the current, $$ \vb{F} = I\vb{l} \times \vb{B} $$.
 
 :::
 
@@ -150,6 +187,32 @@ Why would a magnetohydrodynamic drive work better in ocean water than in fresh w
 
 :::
 
+::: solution
+
+**Strategy**
+
+The thrust is $$ F = IlB $$. For a given voltage across the water, the current is $$ I = V/R $$, with $$ R = \rho l/A $$. Compare seawater ($$ \rho \approx 0.2 \ \Omega \cdot \text{m} $$) with fresh water ($$ \rho \approx 200 \ \Omega \cdot \text{m} $$) for a duct section with $$ l = 0.500 \m $$ between electrodes, $$ A = 0.250 \ \text{m}^2 $$, $$ V = 100 \text{ V} $$, and $$ B = 5.00 \text{ T} $$.
+
+**Solution**
+
+<div class="equation">
+$$ R_{\text{sea}} = \frac{\rho l}{A} = \frac{(0.2 \ \Omega \cdot \text{m})(0.500 \m)}{0.250 \ \text{m}^2} = 0.4 \ \Omega, \qquad R_{\text{fresh}} = \frac{(200 \ \Omega \cdot \text{m})(0.500 \m)}{0.250 \ \text{m}^2} = 400 \ \Omega $$
+</div>
+
+<div class="equation">
+$$ I_{\text{sea}} = \frac{100 \text{ V}}{0.4 \ \Omega} = 250 \text{ A}, \qquad I_{\text{fresh}} = \frac{100 \text{ V}}{400 \ \Omega} = 0.250 \text{ A} $$
+</div>
+
+<div class="equation">
+$$ F_{\text{sea}} = IlB = (250 \text{ A})(0.500 \m)(5.00 \text{ T}) = 625 \N, \qquad F_{\text{fresh}} = (0.250 \text{ A})(0.500 \m)(5.00 \text{ T}) = 0.625 \N $$
+</div>
+
+Superconducting magnets are desirable because the thrust is proportional to $$ B $$, and superconducting coils can produce fields of several tesla over a large volume with no $$ I^2R $$ loss in the windings, so they need little power to maintain the field. Ordinary copper coils producing such fields would waste huge amounts of energy as heat.
+
+An MHD drive works better in ocean water because dissolved salt makes seawater about a thousand times more conductive than fresh water, so the same voltage drives a much larger current and the thrust $$ F = IlB $$ is correspondingly larger ($$ 625 \N $$ compared with $$ 0.625 \N $$ in this example); superconducting magnets are desirable because they provide the strong fields that the thrust also depends on without resistive energy losses.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -157,6 +220,34 @@ Why would a magnetohydrodynamic drive work better in ocean water than in fresh w
 ::: problem
 
 Which is more likely to interfere with compass readings, AC current in your refrigerator or DC current when you start your car? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A compass needle responds to the average field over times much longer than $$ 1/60 \s $$, because its inertia keeps it from swinging back and forth that fast. Compare the fields from each current at $$ 0.500 \m $$ with Earth's field of about $$ 5 \times 10^{-5} \text{ T} $$, using $$ B = \mu_0 I/(2\pi r) $$. Take the refrigerator current as $$ 5.00 \text{ A} $$ (AC) and the starter current as $$ 200 \text{ A} $$ (DC).
+
+**Solution**
+
+Refrigerator:
+
+<div class="equation">
+$$ B = \frac{\mu_0 I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(5.00 \text{ A})}{2\pi(0.500 \m)} = 2.0 \times 10^{-6} \text{ T} $$
+</div>
+
+This field reverses 120 times per second, so its average is zero and the needle cannot follow it. (In practice the hot and neutral wires are also side by side, so their fields nearly cancel.)
+
+Car starter:
+
+<div class="equation">
+$$ B = \frac{(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(200 \text{ A})}{2\pi(0.500 \m)} = 8.0 \times 10^{-5} \text{ T} $$
+</div>
+
+This steady field is larger than Earth's, so it can swing a nearby compass far off north while it lasts.
+
+The DC current when you start your car is more likely to interfere with compass readings, because it is large and steady and produces a field comparable to or larger than Earth's (about $$ 8 \times 10^{-5} \text{ T} $$ at $$ 0.5 \m $$ in this example), whereas the AC field from the refrigerator is small and reverses 120 times per second, so the compass needle cannot follow it and its average effect is zero.
 
 :::
 
@@ -586,7 +677,7 @@ The left side carries downward current and feels a leftward force; the right sid
 
 **(b)**
 
-$$\frac FB=IL=(5.00)(0.200)=1.00\ \text{N/T}.$$
+$$\frac FB=IL=(5.00\ \text{A})(0.200\ \text{m})=1.00\ \text{N/T}.$$
 
 :::
 </div>

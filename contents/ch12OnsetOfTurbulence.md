@@ -32,7 +32,7 @@ and insufficiently closed heart valves. Ultrasound can also be used to detect
 turbulence as a medical indicator in a process analogous to Doppler-shift radar
 used to detect storms.
 
-![Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.](../resources/Figure_12_05_01.jpg 'Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.')
+![Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.](/resources/Figure_12_05_01.svg 'Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.')
 {: #Figure1}
 
 An indicator called the **Reynolds number** $${N}_{\text{R}} $$ can reveal
@@ -105,6 +105,27 @@ effect on the flow. Phenomena as disparate as turbulence, the orbit of Pluto,
 and the onset of irregular heartbeats are chaotic and can be analyzed with
 similar techniques.
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+From Laminar Flow to Turbulence
+</div>
+
+Follow the wake of an obstacle as the flow goes from smooth streamlines to a vortex street and then to a turbulent wake.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/FluidDynamics/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Onset of turbulence
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - The Reynolds number $${N}_{\text{R}} $$ can reveal whether flow is laminar or
@@ -157,7 +178,7 @@ Both factors compound the problem: the narrowing directly increases resistance, 
 
 Sink drains often have a device such as that shown in [[Figure 2]](#Figure2) to help speed the flow of water. How does this work?
 
-![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](../resources/Figure_12_05_02.jpg 'You will find devices such as this in many drains. They significantly increase flow rate.')
+![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](/resources/Figure_12_05_02.svg 'You will find devices such as this in many drains. They significantly increase flow rate.')
 {: #Figure2}
 
 :::
@@ -352,13 +373,13 @@ Find the velocity in the nozzle using $$Q = Av$$:
 
 $$v_n = \frac{Q}{A_n} = \frac{Q}{\pi r_n^2} = \frac{5.00 \times 10^{-4} \text{ m}^3\text{/s}}{\pi (2.50 \times 10^{-3} \text{ m})^2}$$
 
-$$v_n = \frac{5.00 \times 10^{-4}}{1.96 \times 10^{-5}} \text{ m/s} = 25.5 \text{ m/s}$$
+$$v_n = \frac{5.00 \times 10^{-4} \text{ m}^3\text{/s}}{1.96 \times 10^{-5} \text{ m}^2} = 25.5 \text{ m/s}$$
 
 Calculate Reynolds number:
 
-$${N}_{\text{R,n}} = \frac{2\rho v_n r_n}{\eta} = \frac{2(1000)(25.5)(2.50 \times 10^{-3})}{1.002 \times 10^{-3}}$$
+$${N}_{\text{R,n}} = \frac{2\rho v_n r_n}{\eta} = \frac{2(1000 \text{ kg/m}^3)(25.5 \text{ m/s})(2.50 \times 10^{-3} \text{ m})}{1.002 \times 10^{-3} \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R,n}} = \frac{127.5}{1.002 \times 10^{-3}} = 1.27 \times 10^{5}$$
+$${N}_{\text{R,n}} = \frac{127.5 \text{ Pa} \cdot \text{s}}{1.002 \times 10^{-3} \text{ Pa} \cdot \text{s}} = 1.27 \times 10^{5}$$
 
 **(b) Hose:**
 
@@ -366,13 +387,13 @@ Find the velocity in the hose:
 
 $$v_h = \frac{Q}{A_h} = \frac{Q}{\pi r_h^2} = \frac{5.00 \times 10^{-4} \text{ m}^3\text{/s}}{\pi (9.00 \times 10^{-3} \text{ m})^2}$$
 
-$$v_h = \frac{5.00 \times 10^{-4}}{2.54 \times 10^{-4}} \text{ m/s} = 1.97 \text{ m/s}$$
+$$v_h = \frac{5.00 \times 10^{-4} \text{ m}^3\text{/s}}{2.54 \times 10^{-4} \text{ m}^2} = 1.97 \text{ m/s}$$
 
 Calculate Reynolds number:
 
-$${N}_{\text{R,h}} = \frac{2\rho v_h r_h}{\eta} = \frac{2(1000)(1.97)(9.00 \times 10^{-3})}{1.002 \times 10^{-3}}$$
+$${N}_{\text{R,h}} = \frac{2\rho v_h r_h}{\eta} = \frac{2(1000 \text{ kg/m}^3)(1.97 \text{ m/s})(9.00 \times 10^{-3} \text{ m})}{1.002 \times 10^{-3} \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R,h}} = \frac{35.5}{1.002 \times 10^{-3}} = 3.54 \times 10^{4}$$
+$${N}_{\text{R,h}} = \frac{35.5 \text{ Pa} \cdot \text{s}}{1.002 \times 10^{-3} \text{ Pa} \cdot \text{s}} = 3.54 \times 10^{4}$$
 
 **Summary:**
 - (a) Nozzle: $${N}_{\text{R}} = 1.27 \times 10^{5}$$ — **not laminar** (far above 3000)
@@ -416,25 +437,25 @@ Given:
 
 Calculate velocity in the hose:
 
-$$v_h = \frac{Q}{\pi r_h^2} = \frac{0.0400 \text{ m}^3\text{/s}}{\pi (0.0320 \text{ m})^2} = \frac{0.0400}{3.22 \times 10^{-3}} \text{ m/s} = 12.4 \text{ m/s}$$
+$$v_h = \frac{Q}{\pi r_h^2} = \frac{0.0400 \text{ m}^3\text{/s}}{\pi (0.0320 \text{ m})^2} = \frac{0.0400 \text{ m}^3\text{/s}}{3.22 \times 10^{-3} \text{ m}^2} = 12.4 \text{ m/s}$$
 
 Calculate Reynolds number for the hose:
 
-$${N}_{\text{R,h}} = \frac{2\rho v_h r_h}{\eta} = \frac{2(1000)(12.4)(0.0320)}{1.00 \times 10^{-3}}$$
+$${N}_{\text{R,h}} = \frac{2\rho v_h r_h}{\eta} = \frac{2(1000 \text{ kg/m}^3)(12.4 \text{ m/s})(0.0320 \text{ m})}{1.00 \times 10^{-3} \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R,h}} = \frac{794}{1.00 \times 10^{-3}} = 7.94 \times 10^{5}$$
+$${N}_{\text{R,h}} = \frac{794 \text{ Pa} \cdot \text{s}}{1.00 \times 10^{-3} \text{ Pa} \cdot \text{s}} = 7.94 \times 10^{5}$$
 
 **Nozzle:**
 
 Calculate velocity in the nozzle:
 
-$$v_n = \frac{Q}{\pi r_n^2} = \frac{0.0400 \text{ m}^3\text{/s}}{\pi (0.0150 \text{ m})^2} = \frac{0.0400}{7.07 \times 10^{-4}} \text{ m/s} = 56.6 \text{ m/s}$$
+$$v_n = \frac{Q}{\pi r_n^2} = \frac{0.0400 \text{ m}^3\text{/s}}{\pi (0.0150 \text{ m})^2} = \frac{0.0400 \text{ m}^3\text{/s}}{7.07 \times 10^{-4} \text{ m}^2} = 56.6 \text{ m/s}$$
 
 Calculate Reynolds number for the nozzle:
 
-$${N}_{\text{R,n}} = \frac{2\rho v_n r_n}{\eta} = \frac{2(1000)(56.6)(0.0150)}{1.00 \times 10^{-3}}$$
+$${N}_{\text{R,n}} = \frac{2\rho v_n r_n}{\eta} = \frac{2(1000 \text{ kg/m}^3)(56.6 \text{ m/s})(0.0150 \text{ m})}{1.00 \times 10^{-3} \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R,n}} = \frac{1698}{1.00 \times 10^{-3}} = 1.70 \times 10^{6}$$
+$${N}_{\text{R,n}} = \frac{1698 \text{ Pa} \cdot \text{s}}{1.00 \times 10^{-3} \text{ Pa} \cdot \text{s}} = 1.70 \times 10^{6}$$
 
 **Summary:**
 - Fire hose: $${N}_{\text{R}} = 7.94 \times 10^{5} \gg 3000$$ — **turbulent**
@@ -469,7 +490,7 @@ We calculate the flow velocity from the given flow rate and pipe dimensions, the
 **Solution**
 
 Given:
-- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0}{60 \times 1000} \text{ m}^3\text{/s} = 3.33 \times 10^{-3} \text{ m}^3\text{/s}$$
+- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0 \text{ L/min}}{(60 \text{ s/min})(1000 \text{ L/m}^3)} = 3.33 \times 10^{-3} \text{ m}^3\text{/s}$$
 - Hose diameter: $$d = 8.00 \text{ cm}$$ (radius $$r = 4.00 \text{ cm} = 0.0400 \text{ m}$$)
 - Concrete density: $$\rho = 2300 \text{ kg/m}^3$$
 - Concrete viscosity: $$\eta = 48.0 \text{ Pa} \cdot \text{s}$$
@@ -478,13 +499,13 @@ Step 1: Calculate the flow velocity:
 
 $$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{3.33 \times 10^{-3} \text{ m}^3\text{/s}}{\pi (0.0400 \text{ m})^2}$$
 
-$$v = \frac{3.33 \times 10^{-3}}{5.03 \times 10^{-3}} \text{ m/s} = 0.663 \text{ m/s}$$
+$$v = \frac{3.33 \times 10^{-3} \text{ m}^3\text{/s}}{5.03 \times 10^{-3} \text{ m}^2} = 0.663 \text{ m/s}$$
 
 Step 2: Calculate the Reynolds number:
 
 $${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(2300 \text{ kg/m}^3)(0.663 \text{ m/s})(0.0400 \text{ m})}{48.0 \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R}} = \frac{122}{48.0} = 2.54$$
+$${N}_{\text{R}} = \frac{122 \text{ Pa} \cdot \text{s}}{48.0 \text{ Pa} \cdot \text{s}} = 2.54$$
 
 Since $${N}_{\text{R}} = 2.54 \ll 2000$$, the flow is definitely laminar.
 
@@ -526,13 +547,13 @@ $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
 
 $$v = \frac{N_{\text{R}} \eta}{2\rho r} = \frac{(2000)(1.002 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1000 \text{ kg/m}^3)(0.100 \text{ m})}$$
 
-$$v = \frac{2.004}{200} \text{ m/s} = 1.00 \times 10^{-2} \text{ m/s} = 1.00 \text{ cm/s}$$
+$$v = \frac{2.004 \text{ Pa} \cdot \text{s}}{200 \text{ kg/m}^2} = 1.00 \times 10^{-2} \text{ m/s} = 1.00 \text{ cm/s}$$
 
 Step 2: Calculate the corresponding flow rate:
 
 $$Q = Av = \pi r^2 v = \pi (0.100 \text{ m})^2 (1.00 \times 10^{-2} \text{ m/s})$$
 
-$$Q = \pi (0.0100)(1.00 \times 10^{-2}) \text{ m}^3\text{/s} = 3.14 \times 10^{-4} \text{ m}^3\text{/s}$$
+$$Q = \pi (0.0100 \text{ m}^2)(1.00 \times 10^{-2} \text{ m/s}) = 3.14 \times 10^{-4} \text{ m}^3\text{/s}$$
 
 Converting to more practical units:
 
@@ -578,13 +599,13 @@ $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
 
 $$v_{\text{max}} = \frac{N_{\text{R}} \eta}{2\rho r} = \frac{(2000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m})}$$
 
-$$v_{\text{max}} = \frac{4.168}{4.10} \text{ m/s} = 1.02 \text{ m/s}$$
+$$v_{\text{max}} = \frac{4.168 \text{ Pa} \cdot \text{s}}{4.10 \text{ kg/m}^2} = 1.02 \text{ m/s}$$
 
 Step 2: Calculate the corresponding flow rate:
 
 $$Q = Av = \pi r^2 v = \pi (2.00 \times 10^{-3} \text{ m})^2 (1.02 \text{ m/s})$$
 
-$$Q = \pi (4.00 \times 10^{-6})(1.02) \text{ m}^3\text{/s} = 1.28 \times 10^{-5} \text{ m}^3\text{/s}$$
+$$Q = \pi (4.00 \times 10^{-6} \text{ m}^2)(1.02 \text{ m/s}) = 1.28 \times 10^{-5} \text{ m}^3\text{/s}$$
 
 Converting to liters per second:
 
@@ -632,13 +653,13 @@ Step 2: Calculate the average air speed through the trachea:
 
 $$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{5 \times 10^{-4} \text{ m}^3\text{/s}}{\pi (10^{-2} \text{ m})^2}$$
 
-$$v = \frac{5 \times 10^{-4}}{3.14 \times 10^{-4}} \text{ m/s} = 1.6 \text{ m/s}$$
+$$v = \frac{5 \times 10^{-4} \text{ m}^3\text{/s}}{3.14 \times 10^{-4} \text{ m}^2} = 1.6 \text{ m/s}$$
 
 Step 3: Calculate the Reynolds number:
 
 $${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(1.1 \text{ kg/m}^3)(1.6 \text{ m/s})(10^{-2} \text{ m})}{1.9 \times 10^{-5} \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R}} = \frac{3.52 \times 10^{-2}}{1.9 \times 10^{-5}} = 1850$$
+$${N}_{\text{R}} = \frac{3.52 \times 10^{-2} \text{ Pa} \cdot \text{s}}{1.9 \times 10^{-5} \text{ Pa} \cdot \text{s}} = 1850$$
 
 The average air speed is approximately **1.6 m/s** and the Reynolds number is approximately **1850**.
 
@@ -691,7 +712,7 @@ Solving for r when $${N}_{\text{R}} = 2000$$:
 
 $$r = \frac{2\rho Q}{\pi \eta {N}_{\text{R}}} = \frac{2(680 \text{ kg/m}^3)(3.00 \times 10^{-2} \text{ m}^3\text{/s})}{\pi (1.00 \times 10^{-3} \text{ Pa} \cdot \text{s})(2000)}$$
 
-$$r = \frac{40.8}{6.28} \text{ m} = 6.50 \text{ m}$$
+$$r = \frac{40.8 \text{ kg/s}}{6.28 \text{ Pa} \cdot \text{s}} = 6.50 \text{ m}$$
 
 The minimum diameter is:
 
@@ -707,7 +728,7 @@ For $$L = 1000 \text{ m}$$ and $$r = 6.50 \text{ m}$$:
 
 $$\Delta P = \frac{8(1.00 \times 10^{-3} \text{ Pa} \cdot \text{s})(1000 \text{ m})(3.00 \times 10^{-2} \text{ m}^3\text{/s})}{\pi (6.50 \text{ m})^4}$$
 
-$$\Delta P = \frac{0.240}{5617} \text{ Pa} = 4.27 \times 10^{-5} \text{ Pa} = 4.27 \times 10^{-5} \text{ N/m}^2$$
+$$\Delta P = \frac{0.240 \text{ Pa}\cdot\text{m}^4}{5617 \text{ m}^4} = 4.27 \times 10^{-5} \text{ Pa} = 4.27 \times 10^{-5} \text{ N/m}^2$$
 
 **Summary:**
 - (a) Minimum diameter: **$$d \geq 13.0 \text{ m}$$**
@@ -749,13 +770,13 @@ $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
 
 $$v_{\text{crit}} = \frac{N_{\text{R}} \eta}{2\rho r} = \frac{(3000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(0.0125 \text{ m})}$$
 
-$$v_{\text{crit}} = \frac{6.252}{25.6} \text{ m/s} = 0.244 \text{ m/s} = 24.4 \text{ cm/s}$$
+$$v_{\text{crit}} = \frac{6.252 \text{ Pa} \cdot \text{s}}{25.6 \text{ kg/m}^2} = 0.244 \text{ m/s} = 24.4 \text{ cm/s}$$
 
 Step 2: Calculate the critical flow rate:
 
 $$Q_{\text{crit}} = A v_{\text{crit}} = \pi r^2 v_{\text{crit}} = \pi (0.0125 \text{ m})^2 (0.244 \text{ m/s})$$
 
-$$Q_{\text{crit}} = \pi (1.56 \times 10^{-4})(0.244) \text{ m}^3\text{/s} = 1.20 \times 10^{-4} \text{ m}^3\text{/s}$$
+$$Q_{\text{crit}} = \pi (1.56 \times 10^{-4} \text{ m}^2)(0.244 \text{ m/s}) = 1.20 \times 10^{-4} \text{ m}^3\text{/s}$$
 
 Converting to liters per minute:
 
@@ -814,7 +835,7 @@ Solving for pressure:
 
 $$\Delta P = \frac{8 \eta L Q}{\pi r^4} = \frac{8(1.005 \times 10^{-3} \text{ Pa} \cdot \text{s})(23.0 \text{ m})(0.0500 \text{ m}^3\text{/s})}{\pi (6.00 \times 10^{-3} \text{ m})^4}$$
 
-$$\Delta P = \frac{9.25 \times 10^{-3}}{4.07 \times 10^{-9}} \text{ Pa} = 2.27 \times 10^{6} \text{ Pa}$$
+$$\Delta P = \frac{9.25 \times 10^{-3} \text{ Pa}\cdot\text{m}^4}{4.07 \times 10^{-9} \text{ m}^4} = 2.27 \times 10^{6} \text{ Pa}$$
 
 Converting to atmospheres: $$\Delta P = \frac{2.27 \times 10^{6} \text{ Pa}}{1.013 \times 10^{5} \text{ Pa/atm}} = 22.4 \text{ atm}$$
 
@@ -832,13 +853,13 @@ The flow rate of **50 L/s is extremely high** for a garden hose—this equals 30
 
 First, calculate velocity:
 
-$$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{0.0500 \text{ m}^3\text{/s}}{\pi (6.00 \times 10^{-3} \text{ m})^2} = \frac{0.0500}{1.13 \times 10^{-4}} = 442 \text{ m/s}$$
+$$v = \frac{Q}{A} = \frac{Q}{\pi r^2} = \frac{0.0500 \text{ m}^3\text{/s}}{\pi (6.00 \times 10^{-3} \text{ m})^2} = \frac{0.0500 \text{ m}^3\text{/s}}{1.13 \times 10^{-4} \text{ m}^2} = 442 \text{ m/s}$$
 
 Calculate Reynolds number:
 
-$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(1000)(442)(6.00 \times 10^{-3})}{1.005 \times 10^{-3}}$$
+$${N}_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2(1000 \text{ kg/m}^3)(442 \text{ m/s})(6.00 \times 10^{-3} \text{ m})}{1.005 \times 10^{-3} \text{ Pa} \cdot \text{s}}$$
 
-$${N}_{\text{R}} = \frac{5304}{1.005 \times 10^{-3}} = 5.28 \times 10^{6}$$
+$${N}_{\text{R}} = \frac{5304 \text{ Pa} \cdot \text{s}}{1.005 \times 10^{-3} \text{ Pa} \cdot \text{s}} = 5.28 \times 10^{6}$$
 
 **Summary:**
 - (a) $$\Delta P \approx 23 \text{ atm}$$ (or $$330 \text{ psi}$$)

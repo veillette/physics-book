@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="250" viewBox="0 0 260 250" role="img" aria-labelledby="title desc">
+<title id="title">Coordinate system for one-dimensional motion</title>
+<desc id="desc">Arrows pointing right and up mark the +x and +y directions; left is −x and down is −y.</desc>
+<rect width="260" height="250" fill="#ffffff"/>
+<line x1="60" y1="130" x2="130" y2="130" stroke="#222222" stroke-width="2"/>
+<line x1="130" y1="130" x2="181" y2="130" stroke="#222222" stroke-width="3"/>
+<polygon points="195,130 180,136 180,124" fill="#222222"/>
+<line x1="122" y1="195" x2="122" y2="130" stroke="#222222" stroke-width="2"/>
+<line x1="122" y1="130" x2="122" y2="72" stroke="#222222" stroke-width="3"/>
+<polygon points="122,58 128,73 116,73" fill="#222222"/>
+<text x="205" y="137" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="50" y="137" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-style="italic">x</tspan></text>
+<text x="122" y="47" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="122" y="222" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-style="italic">y</tspan></text>
+</svg>

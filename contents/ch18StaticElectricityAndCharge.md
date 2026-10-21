@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* Define electric charge, and describe how the two types of charge interact.
-* Describe three common situations that generate static electricity.
-* State the law of conservation of charge.
+- Define electric charge, and describe how the two types of charge interact.
+- Describe three common situations that generate static electricity.
+- State the law of conservation of charge.
 
 :::
 
@@ -81,7 +82,7 @@ charge-carrying particles are observed in cosmic rays and nuclear decay, and are
 created in particle accelerators. All but the electron and proton survive only a
 short time and are quite rare by comparison.
 
-![Three electrons are shown moving in different direction around the nucleus and their motion is similar to planetary motion.](../resources/Figure_18_01_03.jpg 'This simplified (and not to scale) view of an atom is called the planetary model of the atom. Negative electrons orbit a much heavier positive nucleus, as the planets orbit the much heavier sun. There the similarity ends, because forces in the atom are electromagnetic, whereas those in the planetary system are gravitational. Normal macroscopic amounts of matter contain immense numbers of atoms and molecules and, hence, even greater numbers of individual negative and positive charges.')
+![A simplified, not-to-scale atom: a small positive nucleus of protons and neutrons at the center, with three negative electrons e⁻ moving on elliptical orbits around it in different planes, like planets around the sun.](../resources/Figure_18_01_03.svg 'This simplified (and not to scale) view of an atom is called the planetary model of the atom. Negative electrons orbit a much heavier positive nucleus, as the planets orbit the much heavier sun. There the similarity ends, because forces in the atom are electromagnetic, whereas those in the planetary system are gravitational. Normal macroscopic amounts of matter contain immense numbers of atoms and molecules and, hence, even greater numbers of individual negative and positive charges.')
 {: #Figure3}
 
 The charges of electrons and protons are identical in magnitude but opposite in
@@ -264,6 +265,22 @@ There are very large numbers of charged particles in most objects. Why, then, do
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the total positive and negative charge rather than the number of charged particles.
+
+**Solution**
+
+Atoms contain positive nuclei and negative electrons. In an ordinary object their charges nearly cancel, so the net charge and its external electrostatic effects are small. For example, an assumed collection of $$10^{20}$$ protons and $$10^{20}$$ electrons has $$Q=(10^{20}-10^{20})(1.60 \times 10^{-19} \text{ C})=0 \text{ C}$$ despite containing many charged particles.
+
+**Discussion**
+
+Microscopic electric forces remain important in a neutral object, but most objects show little static electricity because their positive and negative charges balance.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -271,6 +288,22 @@ There are very large numbers of charged particles in most objects. Why, then, do
 ::: problem
 
 Why do most objects tend to contain nearly equal numbers of positive and negative charges?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider the electric forces on any excess charge.
+
+**Solution**
+
+An excess of one sign repels additional charge of that sign and attracts charge of the opposite sign from nearby objects or the environment. These forces favor neutralization whenever a conducting path or mobile charge is available. Ordinary matter is also assembled largely from neutral atoms, so it starts with nearly balanced positive and negative charge.
+
+**Discussion**
+
+An insulated object can retain an imbalance; neutrality is a tendency, not a requirement imposed on each object. Most objects have nearly equal positive and negative charges because neutral matter is common and electrostatic forces favor removing an accessible imbalance.
 
 :::
 
@@ -282,8 +315,8 @@ Why do most objects tend to contain nearly equal numbers of positive and negativ
 
 ::: problem
 
-Common static electricity involves charges ranging from nanocoulombs to microcoulombs. (a) How many electrons are needed to form a charge of  $$-2.00 \text{nC} $$
- (b) How many electrons must be removed from a neutral object to leave a net charge of  $$0.500 µ\text{C} $$ ?
+Common static electricity involves charges ranging from nanocoulombs to microcoulombs. (a) How many electrons are needed to form a charge of $$-2.00 \text{nC} $$
+(b) How many electrons must be removed from a neutral object to leave a net charge of $$0.500 µ\text{C} $$ ?
 
 :::
 
@@ -321,8 +354,8 @@ Part (b): About 3.13 trillion electrons must be removed to leave a net charge of
 
 ::: problem
 
-If  $$ 1.80 \times 10^{20}  $$
- electrons move through a pocket calculator during a full day's operation, how many coulombs of charge moved through it?
+If $$ 1.80 \times 10^{20}  $$
+electrons move through a pocket calculator during a full day's operation, how many coulombs of charge moved through it?
 
 :::
 
@@ -352,8 +385,8 @@ The charge that moved through the calculator during a full day's operation is �
 
 ::: problem
 
-To start a car engine, the car battery moves  $$ 3.75 \times 10^{21}  $$
- electrons through the starter motor. How many coulombs of charge were moved?
+To start a car engine, the car battery moves $$ 3.75 \times 10^{21}  $$
+electrons through the starter motor. How many coulombs of charge were moved?
 
 :::
 
@@ -383,8 +416,8 @@ The car battery moved −600 C of charge through the starter motor. This is a ve
 
 ::: problem
 
-A certain lightning bolt moves 40.0 C of charge. How many fundamental units of charge  $$\mid {q}_{e}\mid  $$
- is this?
+A certain lightning bolt moves 40.0 C of charge. How many fundamental units of charge $$\mid {q}_{e}\mid  $$
+is this?
 
 :::
 
@@ -413,6 +446,7 @@ A lightning bolt moving 40.0 C of charge involves 2.50 × 10²⁰ fundamental ch
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 electric charge

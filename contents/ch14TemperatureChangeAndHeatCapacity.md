@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 2
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Observe heat transfer and change in temperature and mass.
-* Calculate final temperature after heat transfer between two objects.
+- Observe heat transfer and change in temperature and mass.
+- Calculate final temperature after heat transfer between two objects.
 
 :::
 
@@ -17,7 +18,7 @@ phase change and that no work is done on or by the system. Experiments show that
 the transferred heat depends on three factors—the change in temperature, the
 mass of the system, and the substance and phase of the substance.
 
-![Figure a shows a copper-colored cylinder of mass m and temperature change delta T. The heat Q, shown as a wavy rightward horizontal arrow, is transferred to the cylinder from the left. To the right of this image is a similar image, except that the heat transferred Q prime is twice the heat Q. The temperature change of this second cylinder, which is also labeled m, is two delta T. This cylinder is surrounded by small black wavy lines radiating outward. Figure b shows the same two cylinders as in Figure a. The left cylinder is labeled m and delta T and has a wavy heat arrow pointing at it from the left that is labeled Q. The right cylinder is labeled two m and delta T and has a wavy heat arrow pointing to it from the left labeled Q prime equals two Q. Figure c shows the same copper cylinder of mass m and with temperature change delta T, with heat Q being transferred to it. To the right of this cylinder, Q prime equals ten point eight times Q is being transferred to another cylinder filled with water whose mass and change in temperature are the same as that of the copper cylinder.](../resources/Figure_14_02_01.jpg 'The heat ( Q ) transferred to cause a temperature change depends on the magnitude of the temperature change, the mass of the system, and the substance and phase involved. (a) The amount of heat transferred is directly proportional to the temperature change. To double the temperature change of a mass ( m ) , you need to add twice the heat. (b) The amount of heat transferred is also directly proportional to the mass. To cause an equivalent temperature change in a doubled mass, you need to add twice the heat. (c) The amount of heat transferred depends on the substance and its phase. If it takes an amount ( Q ) of heat to cause a temperature change \(\Delta T\) in a given mass of copper, it will take 10.8 times that amount of heat to cause the equivalent temperature change in the same mass of water assuming no phase change in either substance.')
+![Figure a shows a copper-colored cylinder of mass m and temperature change delta T. The heat Q, shown as a wavy rightward horizontal arrow, is transferred to the cylinder from the left. To the right of this image is a similar image, except that the heat transferred Q prime is twice the heat Q. The temperature change of this second cylinder, which is also labeled m, is two delta T. This cylinder is surrounded by small black wavy lines radiating outward. Figure b shows the same two cylinders as in Figure a. The left cylinder is labeled m and delta T and has a wavy heat arrow pointing at it from the left that is labeled Q. The right cylinder is labeled two m and delta T and has a wavy heat arrow pointing to it from the left labeled Q prime equals two Q. Figure c shows the same copper cylinder of mass m and with temperature change delta T, with heat Q being transferred to it. To the right of this cylinder, Q prime equals ten point eight times Q is being transferred to another cylinder filled with water whose mass and change in temperature are the same as that of the copper cylinder.](../resources/Figure_14_02_01.jpg 'The heat ( Q ) transferred to cause a temperature change depends on the magnitude of the temperature change, the mass of the system, and the substance and phase involved. (a) The amount of heat transferred is directly proportional to the temperature change. To double the temperature change of a mass ( m ) , you need to add twice the heat. (b) The amount of heat transferred is also directly proportional to the mass. To cause an equivalent temperature change in a doubled mass, you need to add twice the heat. (c) The amount of heat transferred depends on the substance and its phase. If it takes an amount ( Q ) of heat to cause a temperature change (\\Delta T) in a given mass of copper, it will take 10.8 times that amount of heat to cause the equivalent temperature change in the same mass of water assuming no phase change in either substance.')
 {: #Figure1}
 
 The dependence on temperature change and mass are easily understood. Owing to
@@ -43,15 +44,15 @@ The quantitative relationship between heat transfer and temperature change conta
  $$Q=mc\Delta T, $$
 </div>
 
-where  $$Q $$  is the symbol for heat transfer,  $$m $$
- is the mass of the substance, and  $$\Delta T $$
- is the change in temperature. The symbol  $$c $$
- stands for **specific heat** and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by  $$1.00\text{ºC} $$ .
- The specific heat  $$c $$
- is a property of the substance; its SI unit is  $$\text{J/}\left(\text{kg}\cdot \text{K}\right) $$
- or  $$\text{J/}\left(\text{kg}\cdot ºC\right). $$
- Recall that the temperature change  $$\left(\Delta T\right) $$
- is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then *the unit of specific heat* is  $$\text{kcal/}\left(\text{kg}\cdot ºC\right). $$
+where $$Q $$ is the symbol for heat transfer, $$m $$
+is the mass of the substance, and $$\Delta T $$
+is the change in temperature. The symbol $$c $$
+stands for **specific heat** and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by $$1.00\text{ºC} $$ .
+The specific heat $$c $$
+is a property of the substance; its SI unit is $$\text{J/}\left(\text{kg}\cdot \text{K}\right) $$
+or $$\text{J/}\left(\text{kg}\cdot ºC\right). $$
+Recall that the temperature change $$\left(\Delta T\right) $$
+is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then _the unit of specific heat_ is $$\text{kcal/}\left(\text{kg}\cdot ºC\right). $$
 
 :::
 
@@ -73,9 +74,9 @@ on Earth.
 Calculating the Required Heat: Heating Water in an Aluminum Pan
 </div>
 
-A 0.500 kg aluminum pan on a stove is used to heat 0.250 liters of water from  $$20.0 \text{ºC} $$
- to  $$80.0 \text{ºC} $$ .
- (a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?
+A 0.500 kg aluminum pan on a stove is used to heat 0.250 liters of water from $$20.0 \text{ºC} $$
+to $$80.0 \text{ºC} $$ .
+(a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?
 
 **Strategy**
 
@@ -107,7 +108,7 @@ at the same temperature.
 4. Calculate the heat transferred to the aluminum. Use the specific heat for
    aluminum in [[Table 1]](#Table1)\:
    <div class="equation" >
-   $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{4}\text{J}= 27.0 \text{kJ} . $$ 
+   $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{3}\text{J}= 27.0 \text{kJ} . $$ 
    </div>
 
 5. Compare the percentage of heat going into the pan versus that going into the
@@ -320,9 +321,9 @@ a blow torch instead of mechanically.
 Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan
 </div>
 
-Suppose you pour 0.250 kg of  $$20.0\text{ºC} $$
- water (about a cup) into a 0.500-kg aluminum pan off the stove with a temperature of  $$150 \text{ºC} $$ .
- Assume that the pan is placed on an insulated pad and that a negligible amount of water boils off. What is the temperature when the water and pan reach thermal equilibrium a short time later?
+Suppose you pour 0.250 kg of $$20.0\text{ºC} $$
+water (about a cup) into a 0.500-kg aluminum pan off the stove with a temperature of $$150 \text{ºC} $$ .
+Assume that the pan is placed on an insulated pad and that a negligible amount of water boils off. What is the temperature when the water and pan reach thermal equilibrium a short time later?
 
 **Strategy**
 
@@ -423,10 +424,10 @@ Check Your Understanding
 
 ::: problem
 
-If 25 kJ is necessary to raise the temperature of a block from  $$25 \text{ºC} $$
- to  $$30 \text{ºC} $$ ,
- how much heat is necessary to heat the block from  $$45 \text{ºC} $$
- to  $$50 \text{ºC} $$ ?
+If 25 kJ is necessary to raise the temperature of a block from $$25 \text{ºC} $$
+to $$30 \text{ºC} $$ ,
+how much heat is necessary to heat the block from $$45 \text{ºC} $$
+to $$50 \text{ºC} $$ ?
 
 :::
 
@@ -455,16 +456,48 @@ What three factors affect the heat transfer that is necessary to change an objec
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the sensible-heating relation without a phase change.
+
+**Solution**
+
+For a uniform temperature change with approximately constant specific heat, $$Q=mc\Delta T$$. The required heat transfer depends on the object’s mass $$m$$, the material’s specific heat $$c$$, and the desired temperature change $$\Delta T$$. Doubling any one factor while holding the other two fixed doubles the required heat.
+
+**Discussion**
+
+This assumes no phase change and negligible work or competing energy transfers. The three factors are mass, specific heat, and temperature change.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-The brakes in a car increase in temperature by  $$\Delta T $$
- when bringing the car to rest from a speed  $$v $$ .
- How much greater would  $$\Delta T $$
- be if the car initially had twice the speed? You may assume the car to stop sufficiently fast so that no heat transfers out of the brakes.
+The brakes in a car increase in temperature by $$\Delta T $$
+when bringing the car to rest from a speed $$v $$ .
+How much greater would $$\Delta T $$
+be if the car initially had twice the speed? You may assume the car to stop sufficiently fast so that no heat transfers out of the brakes.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Equate the same fraction of the car’s initial kinetic energy to the brakes’ internal-energy increase.
+
+**Solution**
+
+With fixed car mass and brake heat capacity, $$mc\Delta T\propto\tfrac12 Mv^2$$. Replacing $$v$$ by $$2v$$ multiplies the kinetic energy by four, so $$\Delta T_{\text{new}}=4\Delta T$$. For an illustrative original rise of $$50\text{ K}$$, the new rise would be $$200\text{ K}$$ under the same assumptions.
+
+**Discussion**
+
+The brakes must absorb four times as much energy. Their temperature increase is therefore four times the original increase when the initial speed doubles.
 
 :::
 
@@ -476,8 +509,8 @@ The brakes in a car increase in temperature by  $$\Delta T $$
 
 ::: problem
 
-On a hot day, the temperature of an 80 000-L swimming pool increases by  $$1.50\text{ºC} $$ .
- What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.
+On a hot day, the temperature of an 80 000-L swimming pool increases by $$1.50\text{ºC} $$ .
+What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.
 
 :::
 
@@ -494,7 +527,7 @@ On a hot day, the temperature of an 80 000-L swimming pool increases by  $$1.50\
 
 ::: problem
 
-Show that  $$1 \text{cal/g}\cdot \text{ºC}=1 \text{kcal/kg}\cdot \text{ºC} $$.
+Show that $$1 \text{cal/g}\cdot \text{ºC}=1 \text{kcal/kg}\cdot \text{ºC} $$.
 
 :::
 
@@ -534,9 +567,9 @@ The two units are equivalent: $$1 \text{ cal/g}\cdot \text{ºC} = 1 \text{ kcal/
 
 ::: problem
 
-To sterilize a 50.0-g glass baby bottle, we must raise its temperature from  $$ 22.0\text{ºC} $$
- to  $$ 95.0\text{ºC} $$ .
- How much heat transfer is required?
+To sterilize a 50.0-g glass baby bottle, we must raise its temperature from $$ 22.0\text{ºC} $$
+to $$ 95.0\text{ºC} $$ .
+How much heat transfer is required?
 
 :::
 
@@ -549,6 +582,7 @@ We use the equation $$Q = mc\Delta T$$ to calculate the heat transfer required. 
 **Solution**
 
 Given:
+
 - Mass: $$m = 50.0 \text{ g} = 0.0500 \text{ kg}$$
 - Initial temperature: $$T_i = 22.0\text{ºC}$$
 - Final temperature: $$T_f = 95.0\text{ºC}$$
@@ -556,6 +590,7 @@ Given:
 
 Calculate the temperature change:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_f - T_i = 95.0\text{ºC} - 22.0\text{ºC} = 73.0\text{ºC}$$
 </div>
 
@@ -588,7 +623,7 @@ The heat transfer required to sterilize the glass baby bottle is **3.07 kJ** or 
 
 ::: problem
 
-The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at  $$ 20.0\text{ºC} $$
+The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at $$ 20.0\text{ºC} $$
 : (a) water; (b) concrete; (c) steel; and (d) mercury.
 
 :::
@@ -611,6 +646,7 @@ $$\Delta T = \frac{Q}{mc}$$
 **(a) Water:** $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})} = 1.00\text{ºC}$$
 </div>
 
@@ -621,6 +657,7 @@ $$T_f = 20.0\text{ºC} + 1.00\text{ºC} = 21.0\text{ºC}$$
 **(b) Concrete:** $$c = 840 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(840 \text{ J/kg}\cdot\text{ºC})} = 4.98\text{ºC}$$
 </div>
 
@@ -631,6 +668,7 @@ $$T_f = 20.0\text{ºC} + 4.98\text{ºC} = 25.0\text{ºC}$$
 **(c) Steel:** $$c = 452 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(452 \text{ J/kg}\cdot\text{ºC})} = 9.26\text{ºC}$$
 </div>
 
@@ -641,6 +679,7 @@ $$T_f = 20.0\text{ºC} + 9.26\text{ºC} = 29.3\text{ºC}$$
 **(d) Mercury:** $$c = 139 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(139 \text{ J/kg}\cdot\text{ºC})} = 30.1\text{ºC}$$
 </div>
 
@@ -680,6 +719,7 @@ This problem illustrates the mechanical equivalent of heat. The work done by fri
 **Solution**
 
 Given:
+
 - Number of rubs: $$N = 20$$
 - Distance per rub: $$d = 7.50 \text{ cm} = 0.0750 \text{ m}$$
 - Frictional force: $$F = 40.0 \text{ N}$$
@@ -707,7 +747,7 @@ $$\Delta T = \frac{Q}{mc} = \frac{60.0 \text{ J}}{(0.100 \text{ kg})(3500 \text{
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{60.0}{350} = 0.171\text{ºC}$$
+$$\Delta T = \frac{60.0 \text{ J}}{350 \text{ J/ºC}} = 0.171\text{ºC}$$
 </div>
 
 **Discussion**
@@ -717,6 +757,7 @@ The temperature increase of 0.171 °C may seem small, but it's readily perceptib
 This example demonstrates the mechanical equivalent of heat—mechanical work is converted directly into thermal energy. The relatively small temperature increase occurs because human tissue has a high specific heat (3500 J/kg·ºC), nearly as high as water. This high specific heat is beneficial for temperature regulation in the body.
 
 If you wanted to increase the warming effect, you could:
+
 1. Rub more times (increase N)
 2. Rub faster and with more pressure (increase F)
 3. Use longer strokes (increase d)
@@ -735,9 +776,9 @@ The temperature increase from rubbing hands together is **0.171 °C**.
 
 ::: problem
 
-A 0.250-kg block of a pure material is heated from  $$ 20.0\text{ºC} $$
- to  $$ 65.0\text{ºC} $$
- by the addition of 4.35 kJ of energy. Calculate its specific heat and identify the substance of which it is most likely composed.
+A 0.250-kg block of a pure material is heated from $$ 20.0\text{ºC} $$
+to $$ 65.0\text{ºC} $$
+by the addition of 4.35 kJ of energy. Calculate its specific heat and identify the substance of which it is most likely composed.
 
 :::
 
@@ -750,18 +791,21 @@ We use the equation $$Q = mc\Delta T$$ and solve for the specific heat $$c$$. Th
 **Solution**
 
 Given:
+
 - $$m = 0.250 \text{ kg}$$
 - $$T_i = 20.0\text{ºC}$$, $$T_f = 65.0\text{ºC}$$
 - $$Q = 4.35 \text{ kJ} = 4350 \text{ J}$$
 
 Calculate the temperature change:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_f - T_i = 65.0\text{ºC} - 20.0\text{ºC} = 45.0\text{ºC}$$
 </div>
 
 Solve $$Q = mc\Delta T$$ for $$c$$:
 <div class="equation">
-$$c = \frac{Q}{m\Delta T} = \frac{4350 \text{ J}}{(0.250 \text{ kg})(45.0\text{ºC})} = \frac{4350}{11.25} = 387 \text{ J/kg}\cdot\text{ºC}$$
+<!-- physics-scan: temperature=interval -->
+$$c = \frac{Q}{m\Delta T} = \frac{4350 \text{ J}}{(0.250 \text{ kg})(45.0\text{ºC})} = \frac{4350 \text{ J}}{11.25 \text{ kg}\cdot\text{ºC}} = 387 \text{ J/kg}\cdot\text{ºC}$$
 </div>
 
 Comparing to Table 1, we find that copper has a specific heat of 387 J/kg·ºC.
@@ -820,11 +864,12 @@ $$\frac{m_{Cu}}{m_w} = \frac{c_w}{c_{Cu}}$$
 </div>
 
 From Table 1:
+
 - Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
 - Specific heat of copper: $$c_{Cu} = 387 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
-$$\frac{m_{Cu}}{m_w} = \frac{4186}{387} = 10.8$$
+$$\frac{m_{Cu}}{m_w} = \frac{4186 \text{ J/kg}\cdot\text{ºC}}{387 \text{ J/kg}\cdot\text{ºC}} = 10.8$$
 </div>
 
 **Discussion**
@@ -852,8 +897,8 @@ The ratio of the mass of copper to water is **10.8:1** or simply **10.8**.
 
 ::: problem
 
-(a) The number of kilocalories in food is determined by calorimetry techniques in which the food is burned and the amount of heat transfer is measured. How many kilocalories per gram are there in a 5.00-g peanut if the energy from burning it is transferred to 0.500 kg of water held in a 0.100-kg aluminum cup, causing a  $$ 54.9\text{ºC} $$
- temperature increase? (b) Compare your answer to labeling information found on a package of peanuts and comment on whether the values are consistent.
+(a) The number of kilocalories in food is determined by calorimetry techniques in which the food is burned and the amount of heat transfer is measured. How many kilocalories per gram are there in a 5.00-g peanut if the energy from burning it is transferred to 0.500 kg of water held in a 0.100-kg aluminum cup, causing a $$ 54.9\text{ºC} $$
+temperature increase? (b) Compare your answer to labeling information found on a package of peanuts and comment on whether the values are consistent.
 
 :::
 
@@ -866,6 +911,7 @@ The energy released by burning the peanut equals the heat absorbed by both the w
 **Solution**
 
 Given:
+
 - Mass of peanut: $$m_p = 5.00 \text{ g}$$
 - Mass of water: $$m_w = 0.500 \text{ kg} = 500 \text{ g}$$
 - Mass of aluminum cup: $$m_{Al} = 0.100 \text{ kg} = 100 \text{ g}$$
@@ -875,17 +921,19 @@ Given:
 
 **(a)** Calculate heat absorbed by water:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_w = m_w c_w \Delta T = (500 \text{ g})(1.00 \text{ cal/g}\cdot\text{ºC})(54.9\text{ºC}) = 27450 \text{ cal}$$
 </div>
 
 Calculate heat absorbed by aluminum cup:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_{Al} = m_{Al} c_{Al} \Delta T = (100 \text{ g})(0.215 \text{ cal/g}\cdot\text{ºC})(54.9\text{ºC}) = 1180 \text{ cal}$$
 </div>
 
 Total heat released by peanut:
 <div class="equation">
-$$Q_{total} = Q_w + Q_{Al} = 27450 + 1180 = 28630 \text{ cal} = 28.6 \text{ kcal}$$
+$$Q_{total} = Q_w + Q_{Al} = 27450 \text{ cal} + 1180 \text{ cal} = 28630 \text{ cal} = 28.6 \text{ kcal}$$
 </div>
 
 Energy per gram of peanut:
@@ -914,9 +962,9 @@ The consistency with nutritional labeling validates both our calculation and the
 
 ::: problem
 
-Following vigorous exercise, the body temperature of an 80.0-kg person is  $$ 40.0\text{ºC} $$ .
- At what rate in watts must the person transfer thermal energy to reduce the body temperature to  $$ 37.0\text{ºC} $$
- in 30.0 min, assuming the body continues to produce energy at the rate of 150 W?  $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s} \right) $$.
+Following vigorous exercise, the body temperature of an 80.0-kg person is $$ 40.0\text{ºC} $$ .
+At what rate in watts must the person transfer thermal energy to reduce the body temperature to $$ 37.0\text{ºC} $$
+in 30.0 min, assuming the body continues to produce energy at the rate of 150 W? $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s} \right) $$.
 
 :::
 
@@ -929,6 +977,7 @@ We need to calculate how much heat must be removed to cool the body from 40.0 °
 **Solution**
 
 Given:
+
 - Mass: $$m = 80.0 \text{ kg}$$
 - Initial temperature: $$T_i = 40.0\text{ºC}$$
 - Final temperature: $$T_f = 37.0\text{ºC}$$
@@ -938,11 +987,11 @@ Given:
 
 **Step 1:** Calculate heat that must be removed to cool the body:
 <div class="equation">
-$$Q_{cool} = mc\Delta T = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(40.0 - 37.0)\text{ºC}$$
+$$Q_{cool} = mc\Delta T = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(40.0\text{ºC} - 37.0\text{ºC})$$
 </div>
 
 <div class="equation">
-$$Q_{cool} = (80.0)(3500)(3.0) = 840000 \text{ J} = 8.40 \times 10^5 \text{ J}$$
+$$Q_{cool} = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(3.0\text{ºC}) = 840000 \text{ J} = 8.40 \times 10^5 \text{ J}$$
 </div>
 
 **Step 2:** Calculate rate needed to remove this heat in 30 minutes:
@@ -953,11 +1002,12 @@ $$P_{cool} = \frac{Q_{cool}}{t} = \frac{8.40 \times 10^5 \text{ J}}{1800 \text{ 
 **Step 3:** Calculate total heat transfer rate needed:
 
 The body must transfer out both:
+
 - Heat to cool down: 467 W
 - Metabolic heat being produced: 150 W
 
 <div class="equation">
-$$P_{total} = P_{cool} + P_{metabolic} = 467 + 150 = 617 \text{ W}$$
+$$P_{total} = P_{cool} + P_{metabolic} = 467 \text{ W} + 150 \text{ W} = 617 \text{ W}$$
 </div>
 
 **Discussion**
@@ -965,6 +1015,7 @@ $$P_{total} = P_{cool} + P_{metabolic} = 467 + 150 = 617 \text{ W}$$
 The body must transfer heat at a rate of 617 W to cool down in 30 minutes while continuing to produce metabolic heat. This is a substantial rate—about six times the power of a 100-watt light bulb.
 
 The body accomplishes this cooling through multiple mechanisms:
+
 1. **Evaporation of sweat** - Most effective, accounts for ~80% of cooling during exercise
 2. **Increased blood flow to skin** - Enhances convection and radiation
 3. **Increased respiration** - Evaporates moisture from lungs and airways
@@ -986,13 +1037,13 @@ The person must transfer thermal energy at a rate of **617 W** to reduce body te
 
 ::: problem
 
-Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails  $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s and 1 MW = 1 megawatt}\right) $$ .
- (a) Calculate the rate of temperature increase in degrees Celsius per second  $$\left(\text{ºC/s}\right) $$
- if the mass of the reactor core is  $$ 1.60 \times 10^{5}  \text{kg} $$
- and it has an average specific heat of  $$0.3349 \text{kJ/kgº}\cdot \text{C} $$ .
- (b) How long would it take to obtain a temperature increase of  $$2000\text{ºC} $$ ,
- which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the  $$5 \times 10^{5} \text{-kg} $$
- steel containment vessel would also begin to heat up.)
+Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails $$\left(1 \text{watt = 1 joule/second or 1 W = 1 J/s and 1 MW = 1 megawatt}\right) $$ .
+(a) Calculate the rate of temperature increase in degrees Celsius per second $$\left(\text{ºC/s}\right) $$
+if the mass of the reactor core is $$ 1.60 \times 10^{5}  \text{kg} $$
+and it has an average specific heat of $$0.3349 \text{kJ/kgº}\cdot \text{C} $$ .
+(b) How long would it take to obtain a temperature increase of $$2000\text{ºC} $$ ,
+which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the $$5 \times 10^{5} \text{-kg} $$
+steel containment vessel would also begin to heat up.)
 
 :::
 
@@ -1005,6 +1056,7 @@ We use the relationship between power (rate of heat transfer), mass, specific he
 **Solution**
 
 Given:
+
 - Power: $$P = \frac{Q}{t} = 150 \text{ MW} = 150 \times 10^6 \text{ W} = 1.50 \times 10^8 \text{ J/s}$$
 - Mass: $$m = 1.60 \times 10^5 \text{ kg}$$
 - Specific heat: $$c = 0.3349 \text{ kJ/kg}\cdot\text{ºC} = 334.9 \text{ J/kg}\cdot\text{ºC}$$
@@ -1017,7 +1069,7 @@ $$\frac{\Delta T}{t} = \frac{P}{mc} = \frac{1.50 \times 10^8 \text{ J/s}}{(1.60 
 </div>
 
 <div class="equation">
-$$\frac{\Delta T}{t} = \frac{1.50 \times 10^8}{5.358 \times 10^7} = 2.80\text{ ºC/s}$$
+$$\frac{\Delta T}{t} = \frac{1.50 \times 10^8 \text{ J/s}}{5.358 \times 10^7 \text{ J/ºC}} = 2.80\text{ ºC/s}$$
 </div>
 
 **(b)** Time to reach $$\Delta T = 2000\text{ºC}$$:
@@ -1054,6 +1106,7 @@ The decay heat typically decreases with time following shutdown, dropping to abo
 ::: footnote-refs
 
 ### Footnotes
+
 {: class="footnote-refs-title"}
 
 - [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">The values for solids
@@ -1072,6 +1125,7 @@ The decay heat typically decreases with time following shutdown, dropping to abo
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 specific heat

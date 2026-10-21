@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300" role="img" aria-labelledby="title desc">
+<title id="title">A ball thrown backward from a moving truck</title>
+<desc id="desc">Left, in the truck’s frame: the ball leaves the thrower at 10 m/s backward and curves down and away behind the truck. Right, in the ground frame: the truck moves forward at 10 m/s and the ball, whose horizontal velocity relative to the ground is 10 m/s − 10 m/s = 0, falls straight down.</desc>
+<rect width="700" height="300" fill="#ffffff"/>
+<text x="12" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Seen</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">truck</tspan></text>
+<line x1="10" y1="227" x2="340" y2="227" stroke="#222222" stroke-width="2"/>
+<line x1="16" y1="227" x2="8" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="30" y1="227" x2="22" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="44" y1="227" x2="36" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="58" y1="227" x2="50" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="72" y1="227" x2="64" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="86" y1="227" x2="78" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="100" y1="227" x2="92" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="114" y1="227" x2="106" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="128" y1="227" x2="120" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="142" y1="227" x2="134" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="156" y1="227" x2="148" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="170" y1="227" x2="162" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="184" y1="227" x2="176" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="198" y1="227" x2="190" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="212" y1="227" x2="204" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="226" y1="227" x2="218" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="240" y1="227" x2="232" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="254" y1="227" x2="246" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="268" y1="227" x2="260" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="282" y1="227" x2="274" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="296" y1="227" x2="288" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="310" y1="227" x2="302" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="324" y1="227" x2="316" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="338" y1="227" x2="330" y2="236" stroke="#666666" stroke-width="1"/>
+<rect x="150" y="170" width="150" height="40" fill="#cfe3ea" stroke="#222222" stroke-width="2"/>
+<rect x="300" y="140" width="50" height="70" fill="#cfe3ea" stroke="#222222" stroke-width="2"/>
+<circle cx="180" cy="214" r="13" fill="#222222"/>
+<circle cx="315" cy="214" r="13" fill="#222222"/>
+<circle cx="199" cy="85" r="9" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<line x1="190" y1="128" x2="196" y2="96" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<polyline points="190,128 204,148 212,170" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="190,128 180,150 168,162" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="195,104 210,116 220,104" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="195,104 180,120 170,130" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="190,108 186.43,108.02 182.85,108.1 179.28,108.22 175.7,108.39 172.13,108.6 168.55,108.87 164.97,109.18 161.4,109.54 157.82,109.95 154.25,110.41 150.68,110.91 147.1,111.47 143.53,112.07 139.95,112.72 136.38,113.42 132.8,114.17 129.22,114.96 125.65,115.8 122.07,116.7 118.5,117.63 114.92,118.62 111.35,119.66 107.77,120.74 104.2,121.87 100.62,123.05 97.05,124.28 93.47,125.56 89.9,126.88 86.32,128.26 82.75,129.68 79.17,131.15 75.6,132.66 72.02,134.23 68.45,135.84 64.88,137.51 61.3,139.22 57.72,140.97 54.15,142.78 50.57,144.64 47,146.54" fill="none" stroke="#c62828" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<circle cx="190" cy="108" r="6" fill="#e0a030" stroke="#222222" stroke-width="1.2"/>
+<line x1="178" y1="86" x2="129" y2="86" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="118,86 130,81.2 130,90.8" fill="#5e9e1e"/>
+<text x="148" y="70.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">back</tspan></text>
+<line x1="350" y1="10" x2="350" y2="290" stroke="#cccccc" stroke-width="1"/>
+<text x="362" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Seen</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">roadside</tspan></text>
+<line x1="360" y1="227" x2="690" y2="227" stroke="#222222" stroke-width="2"/>
+<line x1="366" y1="227" x2="358" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="380" y1="227" x2="372" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="394" y1="227" x2="386" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="408" y1="227" x2="400" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="422" y1="227" x2="414" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="436" y1="227" x2="428" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="450" y1="227" x2="442" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="464" y1="227" x2="456" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="478" y1="227" x2="470" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="492" y1="227" x2="484" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="506" y1="227" x2="498" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="520" y1="227" x2="512" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="534" y1="227" x2="526" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="548" y1="227" x2="540" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="562" y1="227" x2="554" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="576" y1="227" x2="568" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="590" y1="227" x2="582" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="604" y1="227" x2="596" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="618" y1="227" x2="610" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="632" y1="227" x2="624" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="646" y1="227" x2="638" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="660" y1="227" x2="652" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="674" y1="227" x2="666" y2="236" stroke="#666666" stroke-width="1"/>
+<line x1="688" y1="227" x2="680" y2="236" stroke="#666666" stroke-width="1"/>
+<rect x="470" y="170" width="150" height="40" fill="#cfe3ea" stroke="#222222" stroke-width="2"/>
+<rect x="620" y="140" width="50" height="70" fill="#cfe3ea" stroke="#222222" stroke-width="2"/>
+<circle cx="500" cy="214" r="13" fill="#222222"/>
+<circle cx="635" cy="214" r="13" fill="#222222"/>
+<circle cx="519" cy="85" r="9" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<line x1="510" y1="128" x2="516" y2="96" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<polyline points="510,128 524,148 532,170" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="510,128 500,150 488,162" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="515,104 530,116 540,104" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="515,104 500,120 490,130" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<line x1="510" y1="108" x2="510" y2="220" stroke="#c62828" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="510" cy="108" r="6" fill="#e0a030" stroke="#222222" stroke-width="1.2"/>
+<line x1="560" y1="70" x2="629" y2="70" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="640,70 628,74.8 628,65.2" fill="#5e9e1e"/>
+<text x="600" y="56.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">truck</tspan><tspan font-style="normal">: 10 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan></text>
+<text x="498" y="86.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">ball</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">v</tspan><tspan font-size="9.1" dy="3.64"><tspan font-style="normal">x</tspan></tspan><tspan dy="-3.64">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+</svg>

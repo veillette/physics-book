@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the displacement from San Francisco to Sacramento</title>
+<desc id="desc">Axes with +x east and +y north, origin at San Francisco. The displacement R is 123 km at 45.0° north of east (45.0° counterclockwise from +x). Its east component R_x and north component R_y are both positive.</desc>
+<rect width="360" height="280" fill="#ffffff"/>
+<line x1="40" y1="230" x2="70" y2="230" stroke="#555555" stroke-width="1.6"/>
+<line x1="70" y1="230" x2="260" y2="230" stroke="#555555" stroke-width="1.6"/>
+<polygon points="270,230 259,234.4 259,225.6" fill="#555555"/>
+<line x1="70" y1="260" x2="70" y2="230" stroke="#555555" stroke-width="1.6"/>
+<line x1="70" y1="230" x2="70" y2="50" stroke="#555555" stroke-width="1.6"/>
+<polygon points="70,40 74.4,51 65.6,51" fill="#555555"/>
+<text x="278" y="235.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="278" y="252.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="70" y="33.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="86" y="32.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="62" y="248.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="70" y1="230" x2="200.96" y2="99.04" stroke="#c0392b" stroke-width="3"/>
+<polygon points="209.16,90.84 203.81,103.31 196.69,96.19" fill="#c0392b"/>
+<text x="124.02" y="150.46" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan><tspan font-style="normal"> (123 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="70" y1="230" x2="209.16" y2="230" stroke="#777777" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="139.58" y="250.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#777777" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">x</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="209.16" y1="230" x2="209.16" y2="90.84" stroke="#777777" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="239.16" y="165.32" font-family="'Times New Roman', Times, serif" font-size="14" fill="#777777" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">y</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<path d="M 116 230 A 46 46 0 0 0 102.53 197.47" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="130.98" y="209.99" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">45.0°</tspan></text>
+<text x="56" y="264.2" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">San</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Francisco</tspan></text>
+<text x="201.16" y="83.04" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Sacramento</tspan></text>
+</svg>

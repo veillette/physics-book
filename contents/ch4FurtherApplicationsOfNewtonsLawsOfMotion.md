@@ -510,6 +510,29 @@ their apparent weightlessness in orbit and in the aircraft?
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Use the scale’s normal force as apparent weight and compare it with the acceleration shared by the aircraft or spacecraft.
+
+**Solution**
+
+Choose $$+y$$ upward. For an astronaut of mass $$m$$ standing on a scale, $$N-mg=ma_y$$. During ideal downward free fall, $$a_y=-g$$, hence
+
+$$N=m(g-g)=0\N.$$
+
+For example, a $$70\kg$$ astronaut still has gravitational force $$(70\kg)(9.80\mss)=686\N$$ downward in the aircraft, but the scale does not need to support the astronaut because both fall together.
+
+![In free fall the astronaut’s weight is the only force, normal force is zero, and acceleration is downward.](../resources/fbd_04_07_q01.svg){: .fbd}
+
+In orbit the same principle applies: the astronaut and spacecraft share gravitational acceleration, whose local magnitude need not be $$9.80\mss$$. Locally both situations give zero apparent weight under ideal conditions. The aircraft’s free-fall interval is brief, and residual forces or gravity gradients can distinguish the real environments; neither case removes gravity.
+
+The astronauts appear weightless because the scale’s support force is zero while they and their surroundings fall together, the same local reason astronauts float in orbit.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -519,6 +542,25 @@ their apparent weightlessness in orbit and in the aircraft?
 A cartoon shows the toupee coming off the head of an elevator passenger when the elevator rapidly
 stops during an upward ride. Can this really happen without the person being tied to the floor of
 the elevator? Explain your answer.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Check whether the elevator floor can supply the downward force needed to stop the passenger faster than free fall.
+
+**Solution**
+
+Take $$+y$$ upward. For a passenger following the floor with vertical acceleration $$a_y$$, $$N-mg=ma_y$$, so $$N=m(g+a_y)$$. The floor can push upward but cannot pull downward, requiring $$N\ge0$$ and therefore $$a_y\ge-g$$.
+
+The toupee stays against the head under the same condition. For example, deceleration $$a_y=-5.0\mss$$ leaves a positive support force per unit mass $$g+a_y=4.8\mss$$, so the head still pushes upward on the toupee.
+
+If the elevator stops with $$a_y<-g$$, the unattached passenger loses contact with the floor. Passenger and toupee then accelerate downward together at $$-g$$, so the stop itself does not make the toupee separate from the head. A passenger held down by restraints could instead be forced to decelerate faster than the free toupee. Airflow or a separate impulse could also change the situation, but neither is part of the stated cartoon.
+
+An upward elevator’s stop alone cannot launch the toupee off an unrestrained passenger: if the floor drops away faster than free fall, the passenger and toupee both fall together.
 
 :::
 
@@ -550,7 +592,7 @@ Given:
 - Mass: $$ m = 6.00 \times 10^{-7} \kg $$
 - Force from ground (upward): $$ F_{\text{ground}} = 1.20 \times 10^{-5} \N $$
 - Breeze force (horizontal): $$ F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
-- Weight: $$ w = mg = (6.00 \times 10^{-7})(9.80) = 5.88 \times 10^{-6} \N $$
+- Weight: $$ w = mg = (6.00 \times 10^{-7} \kg)(9.80 \mss) = 5.88 \times 10^{-6} \N $$
 
 **Free-body diagram**
 
@@ -561,7 +603,7 @@ Take $$ +x $$ in the direction of the breeze and $$ +y $$ upward. $$ F_{\text{gr
 **Vertical forces:**
 
 <div class="equation">
-$$ F_{y} = \sum F_y = F_{\text{ground}} - w = 1.20 \times 10^{-5} - 5.88 \times 10^{-6} = 6.12 \times 10^{-6} \N $$
+$$ F_{y} = \sum F_y = F_{\text{ground}} - w = 1.20 \times 10^{-5} \N - 5.88 \times 10^{-6} \N = 6.12 \times 10^{-6} \N $$
 </div>
 
 **Horizontal forces:**
@@ -573,21 +615,21 @@ $$ F_{x} = \sum F_x = F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 **Acceleration components:**
 
 <div class="equation">
-$$ a_y = \frac{F_y}{m} = \frac{6.12 \times 10^{-6}}{6.00 \times 10^{-7}} = 10.2 \mss $$
+$$ a_y = \frac{F_y}{m} = \frac{6.12 \times 10^{-6} \N}{6.00 \times 10^{-7} \kg} = 10.2 \mss $$
 </div>
 
 <div class="equation">
-$$ a_x = \frac{F_x}{m} = \frac{0.500 \times 10^{-6}}{6.00 \times 10^{-7}} = 0.833 \mss $$
+$$ a_x = \frac{F_x}{m} = \frac{0.500 \times 10^{-6} \N}{6.00 \times 10^{-7} \kg} = 0.833 \mss $$
 </div>
 
 **Magnitude and direction:**
 
 <div class="equation">
-$$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833)^2 + (10.2)^2} = \sqrt{0.694 + 104} = \sqrt{104.7} = 10.2 \mss $$
+$$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833 \mss)^2 + (10.2 \mss)^2} = \sqrt{0.694 \text{m}^2/\text{s}^4 + 104 \text{m}^2/\text{s}^4} = \sqrt{104.7 \text{m}^2/\text{s}^4} = 10.2 \mss $$
 </div>
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{a_x}{a_y}\right) = \tan^{-1}\left(\frac{0.833}{10.2}\right) = \tan^{-1}(0.0816) = 4.67^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{a_x}{a_y}\right) = \tan^{-1}\left(\frac{0.833 \mss}{10.2 \mss}\right) = \tan^{-1}(0.0816) = 4.67^\circ $$
 </div>
 
 from vertical (or 85.3° from horizontal).
@@ -628,14 +670,14 @@ The two forces are symmetric, each making a 20° angle with the vertical. Use ve
    - $$ F_2 = 200 \N $$ at 20° to the left of vertical
 
 2. Find the components of each force:
-   - $$ F_{1x} = +200 \sin(20°) = +200 \times 0.342 = +68.4 \N $$ (along $$ +x $$)
-   - $$ F_{1y} = +200 \cos(20°) = +200 \times 0.940 = +188 \N $$ (along $$ +y $$)
-   - $$ F_{2x} = -200 \sin(20°) = -68.4 \N $$ (along $$ -x $$)
-   - $$ F_{2y} = +200 \cos(20°) = +188 \N $$ (along $$ +y $$)
+   - $$ F_{1x} = +200 \N \sin(20°) = +200 \N \times 0.342 = +68.4 \N $$ (along $$ +x $$)
+   - $$ F_{1y} = +200 \N \cos(20°) = +200 \N \times 0.940 = +188 \N $$ (along $$ +y $$)
+   - $$ F_{2x} = -200 \N \sin(20°) = -68.4 \N $$ (along $$ -x $$)
+   - $$ F_{2y} = +200 \N \cos(20°) = +188 \N $$ (along $$ +y $$)
 
 3. Add the components:
 <div class="equation">
-$$ F_{total,x} = F_{1x} + F_{2x} = 68.4 \N - 68.4 \N = 0 $$
+$$ F_{total,x} = F_{1x} + F_{2x} = 68.4 \N - 68.4 \N = 0\,\text{N} $$
 </div>
 
 <div class="equation">
@@ -680,7 +722,7 @@ The person is held stationary, so the acceleration is zero and the net force mus
 Given:
 
 - Mass: $$ m = 76.0 \kg $$
-- Weight: $$ w = mg = (76.0)(9.80) = 745 \N $$
+- Weight: $$ w = mg = (76.0 \kg)(9.80 \mss) = 745 \N $$
 - $$ T_1 $$ at 15° from vertical (or 75° from horizontal)
 - $$ T_2 $$ at 10° above horizontal
 
@@ -713,30 +755,22 @@ From the horizontal equation:
 $$ T_2 = \frac{T_1\sin(15°)}{\cos(10°)} = \frac{T_1(0.2588)}{0.9848} = 0.2627T_1 $$
 </div>
 
-Substitute into vertical equation:
+Substituting into the vertical equation gives
 
 <div class="equation">
-$$ T_1\cos(15°) + (0.2627T_1)\sin(10°) = 745 $$
+$$ T_1\left(\cos15°+\sin15°\tan10°\right)=mg. $$
 </div>
 
-<div class="equation">
-$$ T_1(0.9659) + 0.2627T_1(0.1736) = 745 $$
-</div>
+Thus,
 
 <div class="equation">
-$$ T_1(0.9659 + 0.0456) = 745 $$
+$$ T_1=\frac{(76.0\kg)(9.80\mss)}{\cos15°+\sin15°\tan10°}\approx736\N. $$
 </div>
 
-<div class="equation">
-$$ T_1(1.0115) = 745 $$
-</div>
+Using the unrounded value of $$ T_1 $$,
 
 <div class="equation">
-$$ T_1 = \frac{745}{1.0115} = 736 \N $$
-</div>
-
-<div class="equation">
-$$ T_2 = 0.2627 \times 736 = 193 \N \approx 194 \N $$
+$$ T_2=\frac{T_1\sin15°}{\cos10°}\approx194\N. $$
 </div>
 
 **Discussion**
@@ -823,7 +857,7 @@ backward on the ground for 0.800 s.
 
 **Strategy**
 
-By Newton's third law, the ground pushes forward on the sprinter with 650 N. Use Newton's second law to find acceleration, then use kinematics to find final speed and distance.
+By Newton's third law, the ground pushes forward on the sprinter with an average force of 650 N. Neglect air resistance and approximate this force as constant during the 0.800 s interval. Use Newton's second law and constant-acceleration kinematics to estimate the final speed and distance.
 
 **Solution**
 
@@ -847,13 +881,13 @@ With $$ +x $$ forward and $$ +y $$ upward, $$ N $$ and $$ w $$ cancel, and $$ F 
 Acceleration:
 
 <div class="equation">
-$$ a_x = \frac{\sum F_x}{m} = \frac{F}{m} = \frac{650}{70.0} = 9.29 \mss $$
+$$ a_x = \frac{\sum F_x}{m} = \frac{F}{m} = \frac{650 \N}{70.0 \kg} = 9.29 \mss $$
 </div>
 
 Final velocity:
 
 <div class="equation">
-$$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
+$$ v = v_0 + at = 0 + (9.29 \mss)(0.800 \s) = 7.43 \ms $$
 </div>
 
 **(b) Distance traveled:**
@@ -861,7 +895,7 @@ $$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
 Using $$ x = v_0t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
-$$ x = 0 + \frac{1}{2}(9.29)(0.800)^2 = \frac{1}{2}(9.29)(0.640) = 2.97 \m $$
+$$ x = 0 + \frac{1}{2}(9.29 \mss)(0.800 \s)^2 = \frac{1}{2}(9.29 \mss)(0.640 \text{s}^2) = 2.97 \m $$
 </div>
 
 **Discussion**
@@ -872,7 +906,7 @@ The sprinter's acceleration (9.29 m/s²) is slightly less than gravity (9.8 m/s�
 
 (a) The sprinter's final speed is **7.43 m/s**.
 
-(b) The sprinter travels **2.97 m** during the acceleration phase.
+(b) With the constant-force approximation, the sprinter travels **2.97 m** during the acceleration phase.
 
 :::
 
@@ -992,7 +1026,7 @@ $$ 0 = v_0^2 - 2gh $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80)(0.900)} = \sqrt{17.64} = 4.20 \ms $$
+$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80 \mss)(0.900 \m)} = \sqrt{17.64 \mmss} = 4.20 \ms $$
 </div>
 
 **(b) Acceleration while straightening legs:**
@@ -1000,15 +1034,15 @@ $$ v_0 = \sqrt{2gh} = \sqrt{2(9.80)(0.900)} = \sqrt{17.64} = 4.20 \ms $$
 During push-off, accelerating from rest to 4.20 m/s over 0.300 m. Using $$ v^2 = v_i^2 + 2ad $$:
 
 <div class="equation">
-$$ (4.20)^2 = 0 + 2a(0.300) $$
+$$ (4.20 \ms)^2 = 0 + 2a(0.300 \m) $$
 </div>
 
 <div class="equation">
-$$ 17.64 = 0.600a $$
+$$ 17.64 \mmss = (0.600 \m)a $$
 </div>
 
 <div class="equation">
-$$ a = \frac{17.64}{0.600} = 29.4 \mss $$
+$$ a = \frac{17.64 \mmss}{0.600 \m} = 29.4 \mss $$
 </div>
 
 **(c) Force on floor:**
@@ -1018,7 +1052,7 @@ Forces on player during push-off, with $$ +y $$ upward:
 ![Free-body diagram of the basketball player with +x to the right and +y up: normal force N up, four times as long as the weight w pointing down; the acceleration points up.](../resources/fbd_04_07_p07.svg){: .fbd}
 
 - Normal force from floor: $$ N $$, along $$ +y $$
-- Weight: $$ w = mg = (110)(9.80) = 1078 \N $$, along $$ -y $$
+- Weight: $$ w = mg = (110 \kg)(9.80 \mss) = 1078 \N $$, along $$ -y $$
 
 Net force along $$ y $$, with $$ a_y = +29.4 \mss $$:
 
@@ -1027,7 +1061,7 @@ $$ \sum F_y = N - w = ma_y $$
 </div>
 
 <div class="equation">
-$$ N = ma + w = m(a + g) = 110(29.4 + 9.80) = 110(39.2) = 4312 \N \approx 4.31 \times 10^{3} \N $$
+$$ N = ma + w = m(a + g) = 110 \kg(29.4 \mss + 9.80 \mss) = 110 \kg(39.2 \mss) = 4312 \N \approx 4.31 \times 10^{3} \N $$
 </div>
 
 By Newton's third law, the player exerts 4.31 × 10³ N downward on the floor.
@@ -1094,18 +1128,14 @@ $$ v_0 = \sqrt{2156 \mmss} = 46.4 \ms $$
 
 **(b) Average acceleration in the mortar:**
 
-Using $$ v^2 = v_0^2 + 2a\Delta x $$ with:
+The shell starts from rest, so $$ a = v^2/(2\Delta x) $$. Use the unrounded exit-speed squared from part (a), $$ v^2 = 2156\mmss $$, rather than $$ (46.4\ms)^2 $$:
 
-- Initial velocity: $$ v_0 = 0 $$
-- Final velocity: $$ v = 46.4 \ms $$
+- Initial velocity: $$ 0 $$
+- Exit-speed squared: $$ v^2 = 2156\mmss $$
 - Distance: $$ \Delta x = 0.450 \m $$
 
 <div class="equation">
-$$ (46.4 \ms)^2 = 0 + 2a(0.450 \m) $$
-</div>
-
-<div class="equation">
-$$ a = \frac{(46.4 \ms)^2}{2(0.450 \m)} = \frac{2153 \mmss}{0.900 \m} = 2.39 \times 10^3 \mss $$
+$$ a = \frac{v^2}{2\Delta x} = \frac{2156\mmss}{2(0.450\m)} \approx 2.40\times10^3\mss. $$
 </div>
 
 **(c) Average force on the shell:**
@@ -1123,7 +1153,7 @@ $$ F_{applied} = ma + mg = m(a + g) $$
 </div>
 
 <div class="equation">
-$$ F_{applied} = (2.50 \kg)(2390 \mss + 9.80 \mss) = (2.50 \kg)(2400 \mss) = 6.00 \times 10^3 \N $$
+$$ F_{applied} = m\left(\frac{2156\mmss}{0.900\m}+g\right) \approx 6.01\times10^3\N $$
 </div>
 
 Weight of shell:
@@ -1135,7 +1165,7 @@ $$ w = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
 Ratio:
 
 <div class="equation">
-$$ \frac{F_{applied}}{w} = \frac{6000 \N}{24.5 \N} = 245 $$
+$$ \frac{F_{applied}}{w} = \frac{6.01\times10^3\N}{24.5\N} \approx 245 $$
 </div>
 
 **Discussion**
@@ -1146,9 +1176,9 @@ The enormous acceleration (about 244 times g) requires a force 245 times the she
 
 (a) The shell's velocity when leaving the mortar is **46.4 m/s**.
 
-(b) The average acceleration in the tube is **2.39 × 10³ m/s²** (or **244g**).
+(b) The average acceleration in the tube is **2.40 × 10³ m/s²** (about **244g**).
 
-(c) The average force is **6.00 × 10³ N**, which is **245 times** the shell's weight.
+(c) The average force is **6.01 × 10³ N**, which is **245 times** the shell's weight.
 
 :::
 
@@ -1386,21 +1416,17 @@ Convert the initial velocity to m/s, then use kinematics to find the final veloc
 
 1. Convert initial velocity:
 <div class="equation">
-$$ v_0 = 50.0 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 13.9 \ms $$
+$$ v_0 = 50.0 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = \frac{50.0}{3.6}\ms $$
 </div>
 
-2. Apply kinematics:
+2. Apply kinematics, keeping the unrounded initial speed:
 <div class="equation">
-$$ v = v_0 + at = 13.9 \ms + (-0.400 \mss)(50.0 \s) $$
-</div>
-
-<div class="equation">
-$$ v = 13.9 \ms - 20.0 \ms = -6.1 \ms $$
+$$ v = v_0 + at = \frac{50.0}{3.6}\ms + (-0.400 \mss)(50.0 \s) = -6.11 \ms $$
 </div>
 
 **(b) What is unreasonable:**
 
-The negative final velocity means the car is moving backward at 6.1 m/s. This is unreasonable because:
+The negative final velocity means the car is moving backward at 6.11 m/s. This is unreasonable because:
 
 - A car cannot reverse direction simply by braking
 - Once the car stops (v = 0), friction cannot accelerate it backward
@@ -1411,10 +1437,10 @@ The negative final velocity means the car is moving backward at 6.1 m/s. This is
 The time of 50.0 s is unreasonably long for this deceleration. Let's find when the car actually stops:
 
 <div class="equation">
-$$ t_{stop} = \frac{v_0}{|a|} = \frac{13.9 \ms}{0.400 \mss} = 34.8 \s $$
+$$ t_{stop} = \frac{v_0}{|a|} = \frac{(50.0/3.6)\ms}{0.400\mss} \approx 34.7\s $$
 </div>
 
-The car stops after 34.8 s, so continuing the deceleration for 50.0 s is physically impossible—the car cannot decelerate for 15.2 s after it has already stopped.
+The car stops after 34.7 s, so continuing the deceleration for 50.0 s is physically impossible—the car cannot decelerate for 15.3 s after it has already stopped.
 
 **Discussion**
 
@@ -1422,11 +1448,11 @@ This problem illustrates the importance of checking whether calculated results m
 
 **Answer**
 
-(a) The calculated final velocity is **−6.1 m/s** (or **−22 km/h**).
+(a) The calculated final velocity is **−6.11 m/s** (or **−22.0 km/h**).
 
 (b) A negative velocity means the car is moving backward, which is unreasonable for a braking car.
 
-(c) The time of **50.0 s is unreasonably long**—the car would have stopped at 34.8 s and cannot continue decelerating after that.
+(c) The time of **50.0 s is unreasonably long**—the car would have stopped at 34.7 s and cannot continue decelerating after that.
 
 :::
 

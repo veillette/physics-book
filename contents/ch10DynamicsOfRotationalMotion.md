@@ -164,7 +164,7 @@ Making Connections
 
 In statics, the net torque is zero, and there is no angular acceleration. In rotational motion, net torque is the cause of angular acceleration, exactly as in Newton’s second law of motion for rotation.
 
-![Illustrations of ten different objects accompanied by their rotational inertias.](../resources/Figure_10_03_06.jpg 'Some rotational inertias.')
+![Ten rotational-inertia diagrams show hoops, an annular cylinder, solid cylinders, thin rods, a solid sphere, a thin spherical shell, and a rectangular slab. Each diagram identifies its rotation axis in green, dimensions, and moment-of-inertia formula.](/resources/Figure_10_03_06.svg 'Some rotational inertias.')
 {: #Figure3 height="525"}
 
 :::
@@ -349,6 +349,25 @@ if you spun a point mass $$ M $$ at the location of the center of mass of the ro
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Compare the mass-weighted mean square distance from the axis with the square of the center-of-mass distance.
+
+**Solution**
+
+Moment of inertia is $$I=\int r^2\,dm$$, so spreading mass away from its center of mass adds to $$I$$. By the parallel-axis theorem, a uniform rod about one end has
+
+$$I_{\text{end}}=I_{\text{CM}}+M(L/2)^2=\frac{ML^2}{12}+\frac{ML^2}{4}=\frac{ML^2}{3}.$$
+
+A point mass located at the rod’s center has only the second term. For $$M=3.0\kg$$ and $$L=2.0\m$$, the rod has $$I=(3.0\kg)(2.0\m)^2/3=4.0\kg\cdot\mm$$, whereas the point mass has $$I=(3.0\kg)(1.0\m)^2=3.0\kg\cdot\mm$$. The rod’s nearer and farther portions do not cancel: the squared distance weights its farther portions more strongly.
+
+The rod’s moment of inertia exceeds that of a point mass at its center because the rod has an additional positive moment ML²/12 from its spread about the center of mass.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -363,6 +382,32 @@ the same mass and radius?
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Compare how much mass lies far from the rotation axis in each pair.
+
+**Solution**
+
+About their central symmetry axes, $$I=\int r_\perp^2\,dm$$ gives greater weight to mass farther from the axis. A thin hoop places all its mass at radius $$R$$, whereas a disk distributes some nearer the center:
+
+$$I_{\text{hoop}}=MR^2,\qquad I_{\text{disk}}=\tfrac12MR^2.$$
+
+For $$M=2.0\kg$$ and $$R=0.50\m$$, these are $$0.50\kg\cdot\mm$$ and $$0.25\kg\cdot\mm$$.
+
+About a diameter, a thin spherical shell likewise puts more mass at larger perpendicular distances than a uniform solid sphere:
+
+$$I_{\text{shell}}=\tfrac23MR^2=0.33\kg\cdot\mm,\qquad
+I_{\text{solid sphere}}=\tfrac25MR^2=0.20\kg\cdot\mm$$
+
+for the same illustrative mass and radius. A spherical shell’s points are not all distance $$R$$ from its axis; the $$2/3$$ factor accounts for that geometry.
+
+The hoop and spherical shell have larger moments of inertia because more of their mass lies farther from the specified central rotation axis than in the corresponding filled disk and sphere.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -370,6 +415,29 @@ the same mass and radius?
 ::: problem
 
 Give an example in which a small force exerts a large torque. Give another example in which a large force exerts a small torque.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Vary the perpendicular lever arm in τ = r_perp F.
+
+**Solution**
+
+A small force can give a large torque if it acts far from the pivot. For example, a $$5.0\N$$ perpendicular push $$1.0\m$$ from a hinge gives
+
+$$\tau=(1.0\m)(5.0\N)=5.0\N\cdot\m.$$
+
+A much larger $$500\N$$ force applied with only a $$0.0010\m$$ perpendicular lever arm gives
+
+$$\tau=(0.0010\m)(500\N)=0.50\N\cdot\m,$$
+
+ten times less torque despite one hundred times greater force. A force directed exactly through the pivot has $$r_\perp=0\m$$ and gives zero torque regardless of its magnitude. Choose positive rotation consistently, for example counterclockwise, when attaching signs to these magnitudes.
+
+A small force far from a pivot can produce a large torque, while a large force near the pivot or directed nearly through it can produce a small torque.
 
 :::
 
@@ -386,6 +454,25 @@ reduction in the mass of the bicycle’s frame?
 
 ![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04.jpg 'The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jesús Rodriguez)')
 {: #Figure5}
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Include both translation of the bicycle and rotation of its wheels when comparing equal mass reductions.
+
+**Solution**
+
+Removing mass from the frame reduces translational inertia. Removing it from a wheel rim reduces both translational mass and rotational inertia. For rim mass $$\Delta m$$ at wheel radius $$R$$, $$\Delta I=\Delta mR^2$$. With rolling without slipping, $$\omega=v/R$$, so the reduction in kinetic energy at a given speed is
+
+$$\Delta K_{\text{rim}}=\tfrac12\Delta m v^2+\tfrac12\Delta I\omega^2=\Delta m v^2.$$
+
+The same frame mass reduction saves only $$\Delta K_{\text{frame}}=\tfrac12\Delta m v^2$$. For an illustrative $$\Delta m=0.20\kg$$ and $$v=10\ms$$, the savings are $$(0.20\kg)(10\ms)^2=20\J$$ at the rim versus $$10\J$$ at the frame. Material nearer the axle gives a smaller rotational saving. For the same available driving effort, less energy and torque are needed to increase speed; traction and other conditions are assumed unchanged.
+
+Reducing rim and tire mass improves acceleration more than the same frame-mass reduction because it reduces both translational inertia and the rotational inertia that must be accelerated.
 
 :::
 
@@ -850,7 +937,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{28.0 \times 3600 \s} = 6.24 \times 10^{
 The required change in angular velocity:
 
 <div class="equation">
-$$ \Delta\omega = \omega_{0} - \omega = 7.2722 \times 10^{-5} - 6.2333 \times 10^{-5} = 1.0389 \times 10^{-5} \text{ rad/s} $$
+$$ \Delta\omega = \omega_{0} - \omega = 7.2722 \times 10^{-5} \rads - 6.2333 \times 10^{-5} \rads = 1.0389 \times 10^{-5} \text{ rad/s} $$
 </div>
 
 Earth's moment of inertia (approximating as a uniform solid sphere, M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m):
@@ -938,12 +1025,12 @@ $$ I_{\text{tread}} = MR^{2} = (10.0 \kg)(0.330 \m)^2 = 1.089 \kg \cdot \mm $$
 
 Moment of inertia per wheel:
 <div class="equation">
-$$ I_{\text{wheel}} = 0.243 + 0.135 + 1.089 = 1.467 \kg \cdot \mm $$
+$$ I_{\text{wheel}} = 0.243 \text{kg}\cdot\text{m}^2 + 0.135 \text{kg}\cdot\text{m}^2 + 1.089 \text{kg}\cdot\text{m}^2 = 1.467 \kg \cdot \mm $$
 </div>
 
 For two wheels:
 <div class="equation">
-$$ I_{\text{wheels}} = 2 \times 1.467 = 2.934 \kg \cdot \mm $$
+$$ I_{\text{wheels}} = 2 \times 1.467 \text{kg}\cdot\text{m}^2 = 2.934 \kg \cdot \mm $$
 </div>
 
 **For the axle** (solid cylinder, 14.0 kg, R = 0.0200 m):
@@ -958,7 +1045,7 @@ $$ I_{\text{shaft}} = \frac{1}{2}MR^{2} = \frac{1}{2}(30.0 \kg)(0.0320 \m)^2 = 0
 
 **Total moment of inertia:**
 <div class="equation">
-$$ I_{\text{total}} = 2.934 + 0.00280 + 0.0154 = 2.95 \kg \cdot \mm $$
+$$ I_{\text{total}} = 2.934 \text{kg}\cdot\text{m}^2 + 0.00280 \text{kg}\cdot\text{m}^2 + 0.0154 \text{kg}\cdot\text{m}^2 = 2.95 \kg \cdot \mm $$
 </div>
 
 **Angular acceleration:**
@@ -1058,7 +1145,7 @@ We use the rotational form of Newton's second law and the relationship between t
 **(a)** The change in angular velocity is:
 
 <div class="equation">
-$$ \Delta\omega = \omega_{f} - \omega_{i} = -10.0 - 10.0 = -20.0 \text{ rad/s} $$
+$$ \Delta\omega = \omega_{f} - \omega_{i} = -10.0 \rads - 10.0 \rads = -20.0 \text{ rad/s} $$
 </div>
 
 Using $$ \tau = I\alpha = I\frac{\Delta\omega}{\Delta t} $$:
@@ -1133,7 +1220,7 @@ $$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(20.0 \kg)(0.150 \m)^2 = 0.225 \kg \cdot \
 Solving for ω:
 
 <div class="equation">
-$$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5}{0.214} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
+$$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5 \J}{0.214 \text{kg}\cdot\text{m}^2} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
 </div>
 
 <div class="equation">
@@ -1148,7 +1235,7 @@ $$ v_{	ext{rim}} = \omega r = (1834 \text{ rad/s})(0.150 \m) = 275 \ms $$
 
 which exceeds the 200-m/s limit the steel can safely sustain. (The corresponding centripetal acceleration at the rim, $$ \omega^{2} r \approx 5.0 \times 10^{5} \text{ m/s}^2 $$, shows how large the stresses would be.) The flywheel would be at risk of bursting.
 
-**(c)** The premises are **inconsistent**: a 20.0-kg steel disk limited to a 200-m/s rim speed cannot store enough energy to accelerate an 800-kg car to 30.0 m/s. At the limit it stores only $$ \frac{1}{2}\left(\frac{1}{2}MR^2\right)\left(\frac{v_{\text{rim}}}{R}\right)^2 = \frac{1}{4}Mv_{\text{rim}}^2 = \frac{1}{4}(20.0)(200)^2 = 2.00 \times 10^{5} \J $$, about half of the $$ 3.79 \times 10^{5} \J $$ required. The flywheel would need more mass, a stronger material permitting a higher rim speed, or a smaller claimed share of the car’s kinetic energy.
+**(c)** The premises are **inconsistent**: a 20.0-kg steel disk limited to a 200-m/s rim speed cannot store enough energy to accelerate an 800-kg car to 30.0 m/s. At the limit it stores only $$ \frac{1}{2}\left(\frac{1}{2}MR^2\right)\left(\frac{v_{\text{rim}}}{R}\right)^2 = \frac{1}{4}Mv_{\text{rim}}^2 = \frac{1}{4}(20.0 \kg)(200 \ms)^2 = 2.00 \times 10^{5} \J $$, about half of the $$ 3.79 \times 10^{5} \J $$ required. The flywheel would need more mass, a stronger material permitting a higher rim speed, or a smaller claimed share of the car’s kinetic energy.
 
 **Discussion**
 

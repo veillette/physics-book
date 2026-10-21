@@ -128,6 +128,26 @@ Explain why magnetic damping might not be effective on an object made of several
 
 :::
 
+::: solution
+
+**Strategy**
+
+Magnetic damping is caused by eddy currents, which circulate in loops within the conductor. The force opposing the motion is proportional to the eddy current, and the energy dissipated is $$ P = \text{emf}^2/R $$ for each loop. Compare one solid piece with the same piece divided into $$ n $$ insulated layers.
+
+**Solution**
+
+Insulation between the layers stops currents from crossing from one layer to the next, so the eddy currents are confined to small loops within each thin layer. For a loop of width $$ t $$ moving through the field, the emf is proportional to $$ t $$ (the length of conductor cutting the field lines) and the resistance of the path is roughly constant, so the power per unit volume is proportional to $$ t^2 $$. Dividing a $$ 10 \text{ mm} $$ plate into 10 insulated layers each $$ 1.0 \text{ mm} $$ thick reduces the power, and thus the damping, by a factor of about
+
+<div class="equation">
+$$ \left( \frac{10 \text{ mm}}{1.0 \text{ mm}} \right)^2 = 100 $$
+</div>
+
+This is exactly why transformer and motor cores are made of insulated laminations: to reduce eddy-current losses.
+
+Magnetic damping would not be effective because the insulation between the thin layers prevents large eddy-current loops from forming, confining the currents to small loops within each layer, so the induced currents, and therefore the opposing forces and energy losses, are much smaller (about 100 times smaller for 10 layers in this example).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -135,6 +155,25 @@ Explain why magnetic damping might not be effective on an object made of several
 ::: problem
 
 Explain how electromagnetic induction can be used to detect metals? This technique is particularly important in detecting buried landmines for disposal, geophysical prospecting and at airports.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A metal detector uses a coil carrying an alternating current to produce a changing magnetic field. Faraday's law says this changing field induces eddy currents in any nearby conductor, and these currents produce their own changing magnetic field, which the detector senses. Consider a transmitter frequency of about $$ 10 \text{ kHz} $$.
+
+**Solution**
+
+1. The transmitter coil carries an AC current, so its field changes direction $$ 2.0 \times 10^{4} $$ times per second.
+2. A metal object in the field has a changing flux through it, so eddy currents are induced in it (Faraday's law). Nonconductors such as soil, clothing, or plastic carry essentially no eddy currents.
+3. By Lenz's law the eddy currents produce a field that opposes the change in the transmitter's field. This secondary field induces an emf in a separate receiver coil, or changes the inductance, and hence the current or resonant frequency, of the transmitter coil itself.
+4. The electronics detect this small change and sound an alarm. In pulse detectors, the coil's current is switched off suddenly, and the slowly decaying eddy currents in a metal object produce a voltage in the coil after the pulse.
+
+The size and timing of the signal depend on the object's conductivity and size, which helps distinguish a landmine's metal parts, an ore body, or a set of keys.
+
+Electromagnetic induction detects metals because a coil carrying an alternating (or pulsed) current induces eddy currents in any nearby metal object, and the magnetic field of those eddy currents in turn induces a detectable emf in the detector's coil, or changes its inductance, while nonconducting materials produce no such signal.
 
 :::
 

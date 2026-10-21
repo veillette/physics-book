@@ -62,7 +62,7 @@ found in a _hydraulic system_, which is an enclosed fluid system used to exert
 forces. The most common hydraulic systems are those that operate car brakes. Let
 us first consider the simple hydraulic system shown in [[Figure 1]](#Figure1).
 
-![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01.jpg 'A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force ( F_{1} ) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force ( F_{2} ) on the right piston that is larger than ( F_{1} ) because the right piston has a larger area.')
+![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](/resources/Figure_11_05_01.svg 'A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force ( F_{1} ) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force ( F_{2} ) on the right piston that is larger than ( F_{1} ) because the right piston has a larger area.')
 {: #Figure1}
 
 ### Relationship Between Forces in a Hydraulic System
@@ -314,7 +314,7 @@ By Pascal's principle, this pressure acts on the bottom:
 
 $$ F_2 = P \times A_2 = (3.82 \times 10^{5} \text{ Pa})(1.54 \times 10^{-2} \text{ m}^2) = 5.88 \times 10^{3} \text{ N} $$
 
-The extra force is approximately $$ 5.88 \times 10^{3} \text{ N} \approx 5.76 \times 10^{3} \text{ N} $$ (the slight difference comes from rounding).
+The extra force is $$ 5.88 \times 10^{3} \text{ N} $$, which agrees with the area-ratio check $$ (120 \text{ N})(7.0)^2 = 5880 \text{ N} $$.
 
 **Discussion:**
 The extra force on the bottom is approximately **5,880 N** (about 1,320 pounds or 0.6 tons)! This is 49 times the force applied to the cork, explained by the area ratio: $$ A_2/A_1 = (7.0/1.0)^2 = 49 $$. This dramatic force multiplication is pure Pascal's principle—the incompressible wine transmits the pressure undiminished, and the larger bottom area results in a proportionally larger force. The jug bottom, designed only to support the wine's weight (maybe 100 N), cannot withstand this sudden impact force and shatters. This demonstrates both the power of Pascal's principle and why one should never pound on a cork in direct contact with liquid!

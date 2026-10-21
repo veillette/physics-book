@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="275" viewBox="0 0 380 275" role="img" aria-labelledby="title desc">
+<title id="title">Displacement paths A, B, C and D</title>
+<desc id="desc">A number line from 0 to 12 m. Path A goes from 0 to 7 m. Path B goes from 12 m to 7 m. Path C goes from 2 m to 10 m, back to 8 m, then to 10 m. Path D goes from 9 m to 3 m, then to 5 m.</desc>
+<rect width="380" height="275" fill="#ffffff"/>
+<line x1="40" y1="182" x2="334" y2="182" stroke="#222222" stroke-width="1.8"/>
+<polygon points="345,182 333,186.8 333,177.2" fill="#222222"/>
+<line x1="47" y1="176" x2="47" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="47" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="87" y1="176" x2="87" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="87" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="127" y1="176" x2="127" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="127" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="167" y1="176" x2="167" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="167" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="207" y1="176" x2="207" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="207" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8</tspan></text>
+<line x1="247" y1="176" x2="247" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="247" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<line x1="287" y1="176" x2="287" y2="188" stroke="#222222" stroke-width="1.5"/>
+<text x="287" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12</tspan></text>
+<text x="185" y="244.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">displacement</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">)</tspan></text>
+<circle cx="47" cy="52" r="5" fill="#7cc242"/>
+<line x1="47" y1="52" x2="173" y2="52" stroke="#7cc242" stroke-width="3"/>
+<polygon points="187,52 172,58 172,46" fill="#7cc242"/>
+<text x="47" y="36.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<circle cx="287" cy="72" r="5" fill="#2b3990"/>
+<line x1="287" y1="72" x2="201" y2="72" stroke="#2b3990" stroke-width="3"/>
+<polygon points="187,72 202,66 202,78" fill="#2b3990"/>
+<text x="287" y="56.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<circle cx="87" cy="117" r="5" fill="#be1e2d"/>
+<path d="M 87 117 L 247 117 A 4 4 0 0 0 247 109 L 207 109 A 4 4 0 0 1 207 101 L 231 101" fill="none" stroke="#be1e2d" stroke-width="3" stroke-linejoin="round"/>
+<line x1="229" y1="101" x2="237.2" y2="101" stroke="#be1e2d" stroke-width="3"/>
+<polygon points="247,101 236.2,105.32 236.2,96.68" fill="#be1e2d"/>
+<text x="87" y="101.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">C</tspan></text>
+<circle cx="227" cy="162" r="5" fill="#f15a24"/>
+<path d="M 227 162 L 107 162 A 4 4 0 0 1 107 154 L 131 154" fill="none" stroke="#f15a24" stroke-width="3" stroke-linejoin="round"/>
+<line x1="129" y1="154" x2="137.2" y2="154" stroke="#f15a24" stroke-width="3"/>
+<polygon points="147,154 136.2,158.32 136.2,149.68" fill="#f15a24"/>
+<text x="227" y="146.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">D</tspan></text>
+</svg>

@@ -93,6 +93,28 @@ How do the multiple-loop coils and iron ring in the version of Faraday’s appar
 
 :::
 
+::: solution
+
+**Strategy**
+
+Faraday's law gives the induced emf in the second coil as $$ \text{emf} = -N\,\Delta\Phi/\Delta t $$, where $$ \Phi = BA\cos\theta $$ is the flux through one loop. Consider how the number of loops $$ N $$ and the iron ring each change this emf. Suppose a single loop with no iron gives $$ 1.0 \times 10^{-5} \text{ V} $$ when the switch is closed.
+
+**Solution**
+
+**Multiple loops:** every loop of the second coil has the same changing flux through it, and their emfs add in series. With $$ N = 100 $$ loops,
+
+<div class="equation">
+$$ \text{emf} = N\frac{\Delta\Phi}{\Delta t} = 100(1.0 \times 10^{-5} \text{ V}) = 1.0 \times 10^{-3} \text{ V} $$
+</div>
+
+Many loops in the *first* coil also strengthen the field it produces for a given current, since $$ B $$ is proportional to the number of turns.
+
+**Iron ring:** iron is ferromagnetic. Its domains align with the coil's field and multiply it by a large factor, of order 1000 for soft iron. The ring also guides the field lines from the first coil around to the second, so nearly all the flux produced by coil 1 passes through coil 2 instead of spreading out into the air. With a factor of 1000 from the iron, the emf becomes about $$ 1 \text{ V} $$, easily seen on a galvanometer.
+
+The multiple-loop coils enhance the induced emf because each loop contributes the same emf and they add ($$ \text{emf} = N\,\Delta\Phi/\Delta t $$), and the iron ring multiplies the magnetic field by a large factor and channels nearly all of the flux from the first coil through the second, so the change in flux, and therefore the emf, is much larger.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -100,6 +122,24 @@ How do the multiple-loop coils and iron ring in the version of Faraday’s appar
 ::: problem
 
 When a magnet is thrust into a coil as in [[Figure 2]](#Figure2)(a), what is the direction of the force exerted by the coil on the magnet? Draw a diagram showing the direction of the current induced in the coil and the magnetic field it produces, to justify your response. How does the magnitude of the force depend on the resistance of the galvanometer?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply Lenz's law: the induced current produces a magnetic field that opposes the *change* in flux through the coil. Use RHR-2 to find the current direction and the coil's magnetic poles, then the force between the coil and the magnet. For the magnitude, the induced current is $$ I = \text{emf}/R $$, where $$ R $$ is the total resistance of the coil and galvanometer.
+
+**Solution**
+
+![A bar magnet with its north pole pointing up is pushed upward into a horizontal coil. The magnet's field points up through the coil and is increasing. The induced current, clockwise viewed from above, produces a downward field inside the coil, making the coil's lower face a north pole that faces the magnet's north pole, so the coil repels the magnet with a downward force that opposes its motion.](../resources/concept_23_01_q02.svg)
+
+In [[Figure 2]](#Figure2)(a), the north pole moves up into the coil, so the upward flux through the coil increases. The induced current must create a **downward** field inside the coil to oppose this increase. By RHR-2, a downward field requires a current that is **clockwise as seen from above**. With its field pointing down, the coil acts like a magnet whose north pole is its *lower* face, facing the magnet's north pole. Like poles repel, so **the coil pushes the magnet down, opposing its motion into the coil**.
+
+The force is proportional to the induced current, $$ I = \text{emf}/R $$. If the emf is $$ 2.0 \times 10^{-2} \text{ V} $$, a total resistance of $$ 10 \ \Omega $$ gives $$ 2.0 \times 10^{-3} \text{ A} $$, while $$ 100 \ \Omega $$ gives $$ 2.0 \times 10^{-4} \text{ A} $$ and a force ten times smaller. With an open circuit ($$ R \to \infty $$), there is an emf but no current and no force.
+
+The coil exerts a force on the magnet that opposes its motion (downward, away from the coil, as the north pole is thrust up into it), because the induced clockwise current (viewed from above) makes the coil's lower face a north pole that repels the magnet's north pole; the force is inversely proportional to the resistance of the galvanometer circuit, since a larger resistance means a smaller induced current.
 
 :::
 
@@ -113,6 +153,26 @@ Explain how magnetic flux can be zero when the magnetic field is not zero.
 
 :::
 
+::: solution
+
+**Strategy**
+
+The flux through an area is $$ \Phi = BA\cos\theta $$, where $$ \theta $$ is the angle between $$ \vb{B} $$ and the perpendicular (normal) to the area. Find when this is zero with $$ B \neq 0 $$. Use a loop of area $$ 0.0100 \ \text{m}^2 $$ in a $$ 0.500\text{-T} $$ field.
+
+**Solution**
+
+If the field is parallel to the surface, then $$ \theta = 90^\circ $$ and
+
+<div class="equation">
+$$ \Phi = BA\cos 90^\circ = (0.500 \text{ T})(0.0100 \ \text{m}^2)(0) = 0 $$
+</div>
+
+no field lines pass through the loop. By contrast, with the loop facing the field, $$ \Phi = (0.500 \text{ T})(0.0100 \ \text{m}^2)(1) = 5.00 \times 10^{-3} \text{ T}\cdot\text{m}^2 $$. The flux can also be zero when equal numbers of field lines pass through the area in opposite directions, so that their contributions cancel; for example, a loop half in an upward field and half in an equal downward field.
+
+Magnetic flux can be zero in a nonzero field when the field is parallel to the surface ($$ \theta = 90^\circ $$ in $$ \Phi = BA\cos\theta $$), so that no field lines pass through it, or when the field passes through the area in opposite directions over equal amounts, so that the contributions cancel.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -123,6 +183,32 @@ Is an emf induced in the coil in [[Figure 5]](#Figure5) when it is stretched? If
 
 ![The first part of the figure shows a circular coil of wire held in a magnetic field. The magnetic field points into the paper. The coil is held using both the hands to stretch it. The second part of the figure shows the same circular coil of wire stretched in the magnetic field.](../resources/Figure_23_01_05.jpg "A circular coil of wire is stretched in a magnetic field.")
 {: #Figure5}
+
+:::
+
+::: solution
+
+**Strategy**
+
+For a fixed length of wire, a circle encloses the greatest possible area. Stretching the coil into a flattened ellipse reduces the area, and therefore the flux $$ \Phi = BA $$ through it, so an emf is induced while the area changes. Apply Lenz's law for the direction. Use a coil of 10 turns and radius $$ 0.100 \m $$ in a $$ 0.500\text{-T} $$ field, stretched in $$ 0.500 \s $$ into an ellipse with the same perimeter and semi-axes $$ 0.150 \m $$ and $$ 0.029 \m $$.
+
+**Solution**
+
+The areas before and after are
+
+<div class="equation">
+$$ A_{\text{i}} = \pi r^2 = \pi(0.100 \m)^2 = 3.14 \times 10^{-2} \ \text{m}^2, \qquad A_{\text{f}} = \pi ab = \pi(0.150 \m)(0.029 \m) = 1.37 \times 10^{-2} \ \text{m}^2 $$
+</div>
+
+The average induced emf is
+
+<div class="equation">
+$$ \text{emf} = N\frac{B\,\Delta A}{\Delta t} = (10)\frac{(0.500 \text{ T})(3.14 \times 10^{-2} \ \text{m}^2 - 1.37 \times 10^{-2} \ \text{m}^2)}{0.500 \s} = 0.177 \text{ V} $$
+</div>
+
+The flux into the page is decreasing, so the induced current makes a field **into the page** inside the coil to oppose the decrease. By RHR-2, that current is **clockwise** as seen in the figure.
+
+Yes, an emf is induced while the coil is stretched, because stretching the circle into an ellipse reduces the area it encloses and so reduces the magnetic flux through it (about $$ 0.18 \text{ V} $$ in this example); by Lenz's law the induced current flows clockwise as viewed in the figure, producing a field into the page that opposes the decrease in flux.
 
 :::
 

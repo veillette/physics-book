@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1150" viewBox="0 0 820 1150" role="img" aria-labelledby="title desc">
+<title id="title">An ellipse and Kepler's first law</title>
+<desc id="desc">(a) An ellipse with foci f1 and f2: for any point m on it, the sum of the distances to the two foci is the same, so it can be drawn with a pencil held taut against a loop of string pinned at the foci. (b) A planet of mass m follows an elliptical orbit with the Sun, of mass M, at one focus; r is the distance between their centers.</desc>
+<rect width="820" height="1150" fill="#ffffff"/>
+<line x1="35" y1="380" x2="789" y2="380" stroke="#222222" stroke-width="1.5"/>
+<polygon points="800,380 788,384.8 788,375.2" fill="#222222"/>
+<line x1="395" y1="640" x2="395" y2="41" stroke="#222222" stroke-width="1.5"/>
+<polygon points="395,30 399.8,42 390.2,42" fill="#222222"/>
+<text x="805" y="409.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="375" y="37.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<ellipse cx="395" cy="380" rx="305" ry="210" fill="none" stroke="#222222" stroke-width="3"/>
+<polyline points="173.81,380 616.19,235.41 616.19,380 173.81,380" fill="none" stroke="#2aa1b3" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="173.81" cy="380" r="7" fill="#222222"/>
+<circle cx="616.19" cy="380" r="7" fill="#222222"/>
+<text x="173.81" y="417.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="616.19" y="417.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="161.81" y="359.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">M</tspan></text>
+<text x="626.19" y="226.76" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<polygon points="614.19,229.41 616.06,206.4 602.42,209.55" fill="#e8c48a" stroke="#8a6a2c" stroke-width="1"/>
+<polygon points="616.06,206.4 587.27,81.68 573.63,84.83 602.42,209.55" fill="#f2c94c" stroke="#a07a1c" stroke-width="1"/>
+<circle cx="580.45" cy="83.25" r="7" fill="#f4a9a8" stroke="#a07a1c" stroke-width="1"/>
+<text x="30" y="626.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="35" y1="900" x2="790" y2="900" stroke="#222222" stroke-width="1.5"/>
+<ellipse cx="395" cy="900" rx="305" ry="210" fill="none" stroke="#222222" stroke-width="3"/>
+<polygon points="207.81,900 217.6,904.31 207.16,906.63 215.92,912.77 205.22,913.01 212.61,920.74 202.08,918.89 207.82,927.91 197.85,924.04 201.72,934.01 192.7,928.27 194.55,938.8 186.82,931.41 186.58,942.11 180.44,933.35 178.12,943.79 173.81,934 169.5,943.79 167.18,933.35 161.04,942.11 160.8,931.41 153.07,938.8 154.92,928.27 145.9,934.01 149.77,924.04 139.8,927.91 145.54,918.89 135.01,920.74 142.4,913.01 131.7,912.77 140.46,906.63 130.02,904.31 139.81,900 130.02,895.69 140.46,893.37 131.7,887.23 142.4,886.99 135.01,879.26 145.54,881.11 139.8,872.09 149.77,875.96 145.9,865.99 154.92,871.73 153.07,861.2 160.8,868.59 161.04,857.89 167.18,866.65 169.5,856.21 173.81,866 178.12,856.21 180.44,866.65 186.58,857.89 186.82,868.59 194.55,861.2 192.7,871.73 201.72,865.99 197.85,875.96 207.82,872.09 202.08,881.11 212.61,879.26 205.22,886.99 215.92,887.23 207.16,893.37 217.6,895.69" fill="#d4a52a"/>
+<circle cx="173.81" cy="900" r="32" fill="#e6c376" stroke="#c79b2e" stroke-width="1.5"/>
+<circle cx="173.81" cy="900" r="6" fill="#a01b3c"/>
+<circle cx="616.19" cy="900" r="7" fill="#a01b3c"/>
+<circle cx="173.81" cy="755.41" r="18" fill="#5cc244" stroke="#2e7d32" stroke-width="2"/>
+<line x1="165.81" y1="755.41" x2="181.81" y2="755.41" stroke="#222222" stroke-width="1.5"/>
+<line x1="173.81" y1="757.41" x2="173.81" y2="886" stroke="#222222" stroke-width="1.5"/>
+<polygon points="173.81,897 169.01,885 178.61,885" fill="#222222"/>
+<text x="159.81" y="817.05" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="143.81" y="755.71" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Planet</tspan></text>
+<text x="203.81" y="742.76" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<text x="223.81" y="865.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">M</tspan></text>
+<text x="173.81" y="933.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="616.19" y="937.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="215.81" y="972.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Sun</tspan></text>
+<text x="30" y="1136.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

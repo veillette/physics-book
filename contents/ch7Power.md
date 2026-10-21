@@ -258,6 +258,26 @@ Most electrical appliances are rated in watts. Does this rating depend on how lo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the definition of power, $$ P = W/t $$ or $$ P = E/t $$: the rate at which energy is converted.
+
+**Solution**
+
+No. The wattage rating is a **power**, the rate at which the appliance converts electrical energy into other forms, in joules per second ($$ 1 \text{ W} = 1 \J/\s $$). It is fixed by the design of the appliance and does not depend on how long the appliance runs. A $$ 1200 \text{ W} $$ hair dryer uses $$ 1200 \J $$ every second it is on, whether it runs for $$ 1 \text{ min} $$ or $$ 10 \text{ min} $$.
+
+What does depend on the running time is the **energy** used, $$ E = Pt $$:
+
+<div class="equation">
+$$ E = (1200 \text{ W})(60 \s) = 7.2 \times 10^{4} \J \quad \text{in 1 min}, \qquad E = (1200 \text{ W})(600 \s) = 7.2 \times 10^{5} \J \quad \text{in 10 min} $$
+</div>
+
+The power rating does not depend on how long the appliance is on, because power is the rate of energy use (a $$ 1200 \text{ W} $$ dryer uses $$ 1200 \J $$ every second it runs); the time on determines only the total energy used, $$ E = Pt $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -268,6 +288,26 @@ Explain, in terms of the definition of power, why energy consumption is sometime
 
 :::
 
+::: solution
+
+**Strategy**
+
+From $$ P = E/t $$, energy is power times time, $$ E = Pt $$. A power unit multiplied by a time unit is therefore an energy unit. Convert the kilowatt-hour to joules.
+
+**Solution**
+
+Electrical energy is used at a rate given in kilowatts, and appliances run for hours, so multiplying power in kilowatts by time in hours gives a convenient energy unit, the kilowatt-hour. Its value in joules is
+
+<div class="equation">
+$$ 1 \text{ kW} \cdot \text{h} = (1000 \J/\s)(3600 \s) = 3.6 \times 10^{6} \J $$
+</div>
+
+A household might use $$ 900 \text{ kW} \cdot \text{h} $$ in a month. That is $$ 3.2 \times 10^{9} \J $$, an awkwardly large number. The kilowatt-hour also makes bills easy to check: a $$ 1.5 \text{ kW} $$ heater running for $$ 4.0 \text{ h} $$ uses $$ 6.0 \text{ kW} \cdot \text{h} $$ directly.
+
+Energy consumption is listed in kilowatt-hours because energy is power times time and household devices use kilowatts for hours, which makes the kilowatt-hour a convenient size, and $$ 1 \text{ kW} \cdot \text{h} = (1000 \J/\s)(3600 \s) = 3.6 \times 10^{6} \J $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -275,6 +315,26 @@ Explain, in terms of the definition of power, why energy consumption is sometime
 ::: problem
 
 A spark of static electricity, such as that you might receive from a doorknob on a cold dry day, may carry a few hundred watts of power. Explain why you are not injured by such a spark.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Power is the rate of energy transfer. Harm depends on how much energy is actually delivered, $$ E = Pt $$, so consider how long the spark lasts.
+
+**Solution**
+
+A static spark may carry a few hundred watts, say $$ 300 \text{ W} $$, but it lasts only about a microsecond, $$ t = 1 \times 10^{-6} \s $$. The energy delivered is
+
+<div class="equation">
+$$ E = Pt = (300 \text{ W})(1 \times 10^{-6} \s) = 3 \times 10^{-4} \J $$
+</div>
+
+That is a tiny amount of energy. For comparison, lifting a $$ 1 \text{ g} $$ paper clip by $$ 3 \text{ cm} $$ takes about $$ 3 \times 10^{-4} \J $$. It is enough to stimulate nerves, so you feel a sharp sting, but far too little to heat or damage tissue, and the current does not last long enough to disturb the heart. A $$ 300 \text{ W} $$ source sustained for many seconds would deliver thousands of joules and could cause serious injury.
+
+You are not injured by a static spark because, although its power is a few hundred watts, it lasts only about a microsecond, so it delivers only about $$ 3 \times 10^{-4} \J $$ of energy, far too little to damage tissue.
 
 :::
 
@@ -552,7 +612,7 @@ Energy per year:
 Converting to joules (1 kW·h = 3.6 × 10⁶ J):
 
 <div class="equation">
- $$ E_{\text{year}} = (1825\text{ kW}\cdot\text{h})(3.6 \times 10^{6}\text{ J/kW}\cdot\text{h}) = 6.57 \times 10^{9}\J $$
+ $$ E_{\text{year}} = (1825\text{ kW}\cdot\text{h})(3.6 \times 10^{6}\frac{\J}{\text{kW}\cdot\text{h}}) = 6.57 \times 10^{9}\J $$
 </div>
 
 **Discussion**
@@ -636,6 +696,12 @@ A 500-kg dragster accelerates from rest to a final speed of 110 m/s in 400 m (ab
 
 The total work done by the dragster equals the change in kinetic energy plus the work done against friction. Power is the total work divided by time.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the dragster moves, with the origin at the start. It starts from rest and reaches v = +110 m/s at x = 400 m after 7.30 s. Forces along x: the driving force F along +x and friction f = 1200 N along −x.](../resources/sketch_07_07_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction of motion. The driving force acts along $$ +x $$ and friction along $$ -x $$, so the dragster must supply the kinetic energy it gains plus the work $$ fd $$ done against friction over $$ d = +400\m $$.
+
 **Solution**
 
 The change in kinetic energy is:
@@ -653,32 +719,32 @@ The work done against friction is:
 The total work done by the dragster is:
 
 <div class="equation">
- $$ W_{\text{total}} = \Delta \KE + W_{f} = 3.03 \times 10^{6}\J + 4.80 \times 10^{5}\J = 3.51 \times 10^{6}\J $$
+ $$ W_{\text{total}} = \Delta \KE + W_{f} = 3.025 \times 10^{6}\J + 4.80 \times 10^{5}\J = 3.505 \times 10^{6}\J $$
 </div>
 
 The average power output is:
 
 <div class="equation">
- $$ P = \frac{W}{t} = \frac{3.51 \times 10^{6}\J}{7.30\s} = 4.81 \times 10^{5}\text{ W} = 481\text{ kW} $$
+ $$ P = \frac{W}{t} = \frac{3.505 \times 10^{6}\J}{7.30\s} = 4.80 \times 10^{5}\text{ W} = 480\text{ kW} $$
 </div>
 
 Converting to horsepower:
 
 <div class="equation">
- $$ P = \frac{4.81 \times 10^{5}\text{ W}}{746\text{ W/hp}} = 645\text{ hp} $$
+ $$ P = \frac{4.80 \times 10^{5}\text{ W}}{746\text{ W/hp}} = 644\text{ hp} $$
 </div>
 
 **Discussion**
 
-The dragster's average power output of 481 kW (645 hp) is reasonable for a high-performance racing vehicle, though it's worth noting this is the average power over the acceleration period. Top fuel dragsters can actually produce peak powers exceeding 10,000 hp (7.5 MW), but this calculation gives us the average sustained power needed to achieve the stated performance.
+The dragster's average power output of 480 kW (644 hp) is reasonable for a high-performance racing vehicle, though it's worth noting this is the average power over the acceleration period. Top fuel dragsters can actually produce peak powers exceeding 10,000 hp (7.5 MW), but this calculation gives us the average sustained power needed to achieve the stated performance.
 
 The total work done by the dragster is 3.51 MJ, with about 86% going into kinetic energy and 14% overcoming friction. This shows that even with the significant frictional force of 1200 N over 400 m, the dominant energy requirement is still accelerating the dragster's mass to 110 m/s (nearly 250 mph).
 
-The power output of 645 hp is actually modest by drag racing standards, suggesting this might be a lower-class dragster rather than a top fuel dragster. Professional top fuel dragsters can accelerate even faster (covering a quarter mile in under 4 seconds at over 330 mph), requiring the much higher peak powers mentioned above. This problem illustrates how power requirements scale with both the desired speed and the time available to reach it—faster acceleration times demand proportionally greater power.
+The power output of 644 hp is actually modest by drag racing standards, suggesting this might be a lower-class dragster rather than a top fuel dragster. Professional top fuel dragsters can accelerate even faster (covering a quarter mile in under 4 seconds at over 330 mph), requiring the much higher peak powers mentioned above. This problem illustrates how power requirements scale with both the desired speed and the time available to reach it—faster acceleration times demand proportionally greater power.
 
 **Answer**
 
-The average power output is approximately $$ 4.81 \times 10^{5} $$ W (481 kW) or 645 hp.
+The average power output is approximately $$ 4.80 \times 10^{5} $$ W (480 kW) or 644 hp.
 
 :::
 
@@ -780,13 +846,13 @@ Work to accelerate the system:
 Total work:
 
 <div class="equation">
- $$ W_{\text{total}} = 8.58 \times 10^{5}\J + 8.00 \times 10^{4}\J = 9.38 \times 10^{5}\J $$
+ $$ W_{\text{total}} = 8.575 \times 10^{5}\J + 8.00 \times 10^{4}\J = 9.375 \times 10^{5}\J $$
 </div>
 
 Power output:
 
 <div class="equation">
- $$ P = \frac{W}{t} = \frac{9.38 \times 10^{5}\J}{12.0\s} = 7.82 \times 10^{4}\text{ W} = 78.2\text{ kW} $$
+ $$ P = \frac{W}{t} = \frac{9.375 \times 10^{5}\J}{12.0\s} = 7.81 \times 10^{4}\text{ W} = 78.1\text{ kW} $$
 </div>
 
 **Solution for (b)**
@@ -794,7 +860,7 @@ Power output:
 Energy consumed in kW·h:
 
 <div class="equation">
- $$ E = Pt = (78.2\text{ kW})\left(\frac{12.0\s}{3600\s/\text{h}}\right) = (78.2\text{ kW})(0.00333\text{ h}) = 0.260\text{ kW}\cdot\text{h} $$
+ $$ E = Pt = (78.1\text{ kW})\left(\frac{12.0\s}{3600\s/\text{h}}\right) = (78.1\text{ kW})(0.00333\text{ h}) = 0.260\text{ kW}\cdot\text{h} $$
 </div>
 
 Cost:
@@ -805,7 +871,7 @@ Cost:
 
 **Discussion**
 
-Part (a): The elevator motor's useful power output is 78.2 kW (approximately 105 hp), which is reasonable for a commercial elevator. The majority of the work (858 kJ out of 938 kJ total, or 91%) goes into lifting the 2500-kg load against gravity, while only 9% goes into accelerating the 10,000-kg system to its final speed of 4.00 m/s. This distribution is typical for elevators, where the primary energy expenditure is overcoming gravitational potential energy.
+Part (a): The elevator motor's useful power output is 78.1 kW (approximately 105 hp), which is reasonable for a commercial elevator. The majority of the work (858 kJ out of 938 kJ total, or 91%) goes into lifting the 2500-kg load against gravity, while only 9% goes into accelerating the 10,000-kg system to its final speed of 4.00 m/s. This distribution is typical for elevators, where the primary energy expenditure is overcoming gravitational potential energy.
 
 The counterbalancing system is an important practical feature mentioned in this problem. By counterbalancing most of the elevator's weight, the system ensures that the motor only needs to lift the net load (2500 kg) rather than the entire elevator plus passengers. However, the full mass (10,000 kg) must still be accelerated and decelerated, which is why we use the total mass when calculating kinetic energy. Without counterbalancing, elevator motors would need to be much more powerful and would consume far more energy.
 
@@ -813,7 +879,7 @@ Part (b): The electricity cost for this single elevator trip is approximately 2.
 
 **Answer**
 
-(a) The useful power output is approximately 78.2 kW.
+(a) The useful power output is approximately 78.1 kW.
 (b) The electricity cost for this elevator trip is approximately \$0.023 (2.3 cents).
 
 :::
@@ -842,13 +908,13 @@ For part (a), use $$ E = Pt $$ where the clock runs for 18 months, taking each m
 **(a)** Convert 18 months to seconds:
 
 <div class="equation">
-$$ t = 18\text{ months} \times \frac{30\text{ days}}{1\text{ month}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\s}{1\text{ h}} = 4.67 \times 10^{7}\s $$
+$$ t = 18\text{ months} \times \frac{30\text{ days}}{1\text{ month}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\s}{1\text{ h}} = 4.666 \times 10^{7}\s $$
 </div>
 
 Energy content of the battery:
 
 <div class="equation">
-$$ E = Pt = (2.00\text{ W})(4.67 \times 10^{7}\s) = 9.34 \times 10^{7}\J $$
+$$ E = Pt = (2.00\text{ W})(4.666 \times 10^{7}\s) = 9.33 \times 10^{7}\J $$
 </div>
 
 **(b)** Calculate how long the calculator can run:
@@ -865,7 +931,7 @@ $$ t = \frac{8.00 \times 10^{7}\s}{3.156 \times 10^{7}\text{ s/year}} = 2.54\tex
 
 **Discussion**
 
-Part (a): The battery contains approximately $$ 9.34 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.78 gallons (about 3 liters) of gasoline, using $$ 1.2 \times 10^{8} $$ J/gal. A battery storing 26 kW·h is far from a small clock battery; it is comparable to the battery pack of a small electric car. Real clocks use far less than 2.00 W, which is why their small batteries last so long. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
+Part (a): The battery contains approximately $$ 9.33 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.78 gallons (about 3 liters) of gasoline, using $$ 1.2 \times 10^{8} $$ J/gal. A battery storing 26 kW·h is far from a small clock battery; it is comparable to the battery pack of a small electric car. Real clocks use far less than 2.00 W, which is why their small batteries last so long. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
 
 Part (b): The calculator can run for $$ 8.00 \times 10^{7} $$ s, which is approximately 2.54 years of continuous operation. This extraordinarily long runtime is possible because pocket calculators consume power at an extremely low rate—only 1.00 mW (0.001 W). Modern calculator chips use CMOS technology specifically designed for minimal power consumption. In practice, calculators often last even longer than this calculation suggests because they spend much of their time in sleep mode, consuming even less power. Additionally, many calculators use solar cells that recharge the battery during use.
 
@@ -873,7 +939,7 @@ The stark contrast between the clock battery (2 W for 18 months) and the calcula
 
 **Answer**
 
-(a) The battery contains approximately $$ 9.34 \times 10^{7} $$ J of energy.
+(a) The battery contains approximately $$ 9.33 \times 10^{7} $$ J of energy.
 (b) The battery can run the calculator for approximately $$ 8.00 \times 10^{7} $$ s, or about 2.54 years.
 
 :::
@@ -1002,6 +1068,12 @@ Following the problem-solving strategy for energy:
 2. **Identify unknowns**: power output $$ P $$ of the car
 3. **Choose relevant principle**: Since velocity is constant, the car is in equilibrium. The driving force must equal the sum of resistive forces (friction/air resistance) plus the component of gravity along the slope. Power is force times velocity: $$ P = Fv $$.
 
+**Sketch and coordinate system**
+
+![A slope rises to the right at 2.00° (drawn steeper for clarity). Tilted axes: +x points up the slope, the direction of motion, and +y perpendicular to the slope. Forces on the car: the driving force F along +x; friction and air resistance f = 600 N along −x; the weight w straight down, with component mg sin θ along −x; and the normal force N along +y. The velocity v = 30.0 m/s along +x is constant, so a = 0.](../resources/sketch_07_07_p13.svg){: .sketch}
+
+Use tilted axes with $$ +x $$ up the slope (the direction of motion) and $$ +y $$ perpendicular to it. With $$ a = 0 $$, $$ \sum F_x = F - f - mg\sin{\theta} = 0 $$, so $$ F = f + mg\sin{\theta} $$, and the power is $$ P = Fv $$ with $$ v = +30.0\ms $$ along $$ +x $$.
+
 **Solution**
 
 Since the car moves at constant velocity, the net force is zero. The driving force $$ F $$ must balance both the resistive forces and the gravitational component along the slope:
@@ -1092,7 +1164,7 @@ For part (b), the actual power collected per m² is $$ (1300\text{ W/m}^2)(0.02)
 <div class="equation">
 $$ \begin{array}{lll}
 \text{Power per m}^2 &=& \frac{4.00 \times 10^{26}\text{ W}}{4\pi(1.50 \times 10^{11}\m)^{2}}\\
-&=& \frac{4.00 \times 10^{26}}{2.83 \times 10^{23}}\text{ W/m}^2\\
+&=& \frac{4.00 \times 10^{26}\text{ W}}{2.83 \times 10^{23}\mm}\\
 &=& 1.41 \times 10^{3}\text{ W/m}^2 = 1.41\text{ kW/m}^2
 \end{array}
 $$

@@ -189,7 +189,7 @@ Now calculate the relativistic momentum:
 
 $$p = \gamma mu = (1.0206)(6.68 \times 10^{-27} \text{ kg})(0.200)(3.00 \times 10^8 \text{ m/s})$$
 
-$$p = (1.0206)(6.68 \times 10^{-27})(6.00 \times 10^7) = 4.09 \times 10^{-19} \text{ kg·m/s}$$
+$$p = (1.0206)(6.68 \times 10^{-27} \text{ kg})(6.00 \times 10^7 \text{ m/s}) = 4.09 \times 10^{-19} \text{ kg·m/s}$$
 
 **Discussion**
 
@@ -223,7 +223,7 @@ Now calculate the relativistic momentum:
 
 $$p = \gamma mu = (5.025)(9.11 \times 10^{-31} \text{ kg})(0.980)(3.00 \times 10^8 \text{ m/s})$$
 
-$$p = (5.025)(9.11 \times 10^{-31})(2.94 \times 10^8) = 1.35 \times 10^{-21} \text{ kg·m/s}$$
+$$p = (5.025)(9.11 \times 10^{-31} \text{ kg})(2.94 \times 10^8 \text{ m/s}) = 1.35 \times 10^{-21} \text{ kg·m/s}$$
 
 **Discussion**
 
@@ -311,7 +311,7 @@ $$p = 8.000000000711 \times 10^6 \text{ kg·m/s} \approx 8.00 \times 10^6 \text{
 
 (b) Classical momentum:
 
-$$p_{\text{classical}} = mu = (2000)(4.00 \times 10^3) = 8.00 \times 10^6 \text{ kg·m/s}$$
+$$p_{\text{classical}} = mu = (2000 \text{ kg})(4.00 \times 10^3 \text{ m/s}) = 8.00 \times 10^6 \text{ kg·m/s}$$
 
 Ratio:
 
@@ -356,7 +356,7 @@ $$p^2 = (3.04 \times 10^{-21})^2 = 9.242 \times 10^{-42}$$
 
 The momentum term is about 124 times larger than the rest-mass term, so the electron is highly relativistic, but $$m^2c^2$$ still affects the fourth digit:
 
-$$u = \frac{9.12 \times 10^{-13}}{\sqrt{7.469 \times 10^{-44} + 9.242 \times 10^{-42}}} = \frac{9.12 \times 10^{-13}}{3.052 \times 10^{-21}} = 2.988 \times 10^8 \text{ m/s}$$
+$$u = \frac{9.12 \times 10^{-13} \text{ kg·m}^2/\text{s}^2}{\sqrt{7.469 \times 10^{-44} \text{ kg}^2\text{·m}^2/\text{s}^2 + 9.242 \times 10^{-42} \text{ kg}^2\text{·m}^2/\text{s}^2}} = \frac{9.12 \times 10^{-13} \text{ kg·m}^2/\text{s}^2}{3.052 \times 10^{-21} \text{ kg·m/s}} = 2.988 \times 10^8 \text{ m/s}$$
 
 Or $$u = 0.9960c$$ (to 4 significant figures).
 
@@ -408,9 +408,9 @@ $$u = \frac{(4.48 \times 10^{-19})(3.00 \times 10^8)}{\sqrt{(1.67 \times 10^{-27
 
 $$u = \frac{1.344 \times 10^{-10}}{\sqrt{(2.511 \times 10^{-54})(9.00 \times 10^{16}) + 2.007 \times 10^{-37}}}$$
 
-$$u = \frac{1.344 \times 10^{-10}}{\sqrt{2.260 \times 10^{-37} + 2.007 \times 10^{-37}}} = \frac{1.344 \times 10^{-10}}{\sqrt{4.267 \times 10^{-37}}}$$
+$$u = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{\sqrt{2.260 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2 + 2.007 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2}} = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{\sqrt{4.267 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2}}$$
 
-$$u = \frac{1.344 \times 10^{-10}}{6.532 \times 10^{-19}} = 2.058 \times 10^8 \text{ m/s} = 0.686c$$
+$$u = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{6.532 \times 10^{-19} \text{ kg·m/s}} = 2.058 \times 10^8 \text{ m/s} = 0.686c$$
 
 **Discussion**
 
@@ -444,13 +444,13 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.999c)^
 
 Proton's momentum ($$m_p = 1.67 \times 10^{-27}$$ kg):
 
-$$p = \gamma m_pu = (22.37)(1.67 \times 10^{-27})(0.999)(3.00 \times 10^8)$$
+$$p = \gamma m_pu = (22.37)(1.67 \times 10^{-27} \text{ kg})(0.999)(3.00 \times 10^8 \text{ m/s})$$
 
-$$p = (22.37)(1.67 \times 10^{-27})(2.997 \times 10^8) = 1.119 \times 10^{-17} \text{ kg·m/s}$$
+$$p = (22.37)(1.67 \times 10^{-27} \text{ kg})(2.997 \times 10^8 \text{ m/s}) = 1.119 \times 10^{-17} \text{ kg·m/s}$$
 
 Dust particle speed ($$m_{\text{dust}} = 1.00$$ μg $$= 1.00 \times 10^{-9}$$ kg):
 
-$$v = \frac{p}{m_{\text{dust}}} = \frac{1.119 \times 10^{-17}}{1.00 \times 10^{-9}} = 1.12 \times 10^{-8} \text{ m/s}$$
+$$v = \frac{p}{m_{\text{dust}}} = \frac{1.119 \times 10^{-17} \text{ kg·m/s}}{1.00 \times 10^{-9} \text{ kg}} = 1.12 \times 10^{-8} \text{ m/s}$$
 
 (b) The incredibly slow speed (about 11 nanometers per second, or 0.04 millimeters per hour!) tells us that even though the proton is moving at 99.9% the speed of light, a microscopic dust particle needs to move only glacially slowly to have the same momentum. This dramatically illustrates that the proton's mass ($$1.67 \times 10^{-27}$$ kg) is utterly tiny compared to even a microgram of ordinary matter. Specifically, the mass ratio is $$\frac{10^{-9}}{1.67 \times 10^{-27}} = 6 \times 10^{17}$$—the dust particle is about 600 million billion times more massive than a single proton!
 

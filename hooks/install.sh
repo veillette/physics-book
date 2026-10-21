@@ -1,20 +1,18 @@
 #!/bin/sh
 # Script to install Git hooks
 
-# This runs from npm's `prepare` lifecycle on every `npm install`/`npm ci`, including
-# environments with no git hooks directory (Docker builds that COPY without .git, git
-# worktrees, tarball installs). Skip gracefully there instead of failing the whole install.
-if [ ! -d .git/hooks ]; then
-  echo "ℹ️  No .git/hooks directory found — skipping Git hook installation."
+# Skip gracefully if not in a git repository (Docker builds, tarball installs, CI)
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  echo "ℹ️  Not a git repository — skipping Git hook installation."
   exit 0
 fi
 
-echo "Installing Git hooks..."
+echo "Installing Git hooks via core.hooksPath..."
 
-# Copy pre-commit hook
-cp hooks/pre-commit .git/hooks/pre-commit
-chmod +x .git/hooks/pre-commit
+# Set git hooks path to version-controlled hooks directory (works in worktrees and checkouts)
+git config core.hooksPath hooks
+chmod +x hooks/pre-commit 2>/dev/null || true
 
-echo "✅ Git hooks installed successfully!"
+echo "✅ Git hooks configured successfully (core.hooksPath = hooks)!"
 echo ""
-echo "The pre-commit hook will now run ESLint and Prettier on every commit."
+echo "The pre-commit hook will run lint-staged on every commit."

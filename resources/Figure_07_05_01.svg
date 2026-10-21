@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310" role="img" aria-labelledby="title desc">
+<title id="title">The work done by friction depends on the path</title>
+<desc id="desc">Two identical happy faces are erased from point A to point B. (a) A straight diagonal stroke erases a narrow band. (b) A winding stroke between the same points erases much more of the face. More work is done against friction along the longer path.</desc>
+<rect width="760" height="310" fill="#ffffff"/>
+<circle cx="180" cy="140" r="90" fill="#f9d34f"/>
+<circle cx="150" cy="110" r="11" fill="#454545"/>
+<circle cx="210" cy="110" r="11" fill="#454545"/>
+<path d="M 122 145 Q 180 225 238 145" fill="none" stroke="#454545" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 42 238 L 312 40" fill="none" stroke="#b8b48f" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 42 238 L 312 40" fill="none" stroke="#d8d7c9" stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 42 238 L 312 40" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="22" cy="258" r="5" fill="#9e1b2c"/>
+<circle cx="332" cy="20" r="5" fill="#9e1b2c"/>
+<text x="20" y="290.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="352" y="29.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<text x="180" y="302.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<circle cx="560" cy="140" r="90" fill="#f9d34f"/>
+<circle cx="530" cy="110" r="11" fill="#454545"/>
+<circle cx="590" cy="110" r="11" fill="#454545"/>
+<path d="M 502 145 Q 560 225 618 145" fill="none" stroke="#454545" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 422 238 C 429.17 229.17 451.17 213.83 465 185 C 478.83 156.17 492.5 67.5 505 65 C 517.5 62.5 529.17 147.5 540 170 C 550.83 192.5 561.67 223.33 570 200 C 578.33 176.67 580.83 38.33 590 30 C 599.17 21.67 610 135.83 625 150 C 640 164.17 668.83 133.33 680 115 C 691.17 96.67 690 52.5 692 40" fill="none" stroke="#b8b48f" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 422 238 C 429.17 229.17 451.17 213.83 465 185 C 478.83 156.17 492.5 67.5 505 65 C 517.5 62.5 529.17 147.5 540 170 C 550.83 192.5 561.67 223.33 570 200 C 578.33 176.67 580.83 38.33 590 30 C 599.17 21.67 610 135.83 625 150 C 640 164.17 668.83 133.33 680 115 C 691.17 96.67 690 52.5 692 40" fill="none" stroke="#d8d7c9" stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 422 238 C 429.17 229.17 451.17 213.83 465 185 C 478.83 156.17 492.5 67.5 505 65 C 517.5 62.5 529.17 147.5 540 170 C 550.83 192.5 561.67 223.33 570 200 C 578.33 176.67 580.83 38.33 590 30 C 599.17 21.67 610 135.83 625 150 C 640 164.17 668.83 133.33 680 115 C 691.17 96.67 690 52.5 692 40" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="402" cy="258" r="5" fill="#9e1b2c"/>
+<circle cx="712" cy="20" r="5" fill="#9e1b2c"/>
+<text x="400" y="290.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="732" y="29.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<text x="560" y="302.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

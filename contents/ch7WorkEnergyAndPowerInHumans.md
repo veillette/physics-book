@@ -20,7 +20,7 @@ tissue. (See [Figure 1](#Figure1).) The fraction going into each form depends bo
 on how much we eat and on our level of physical activity. If we eat more than is
 needed to do work and stay warm, the remainder goes into body fat.
 
-![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_07_08_01.jpg 'Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.')
+![A schematic diagram of energy consumed by humans and converted to various other forms is shown. Food energy is converted into work, thermal energy, and stored fat depicted by an arrow branching out of food energy and ending at these three forms. The arrows are schematic; their widths do not represent energy fractions. Stored fat plus thermal energy is equal to the final other energy, labeled  O E sub f, and nonconservative work is shown by W sub n c, which is negative, so the initial other energy, labeled O E sub i, plus W sub n c is equal to O E sub f .](../resources/Figure_07_08_01.svg 'Energy consumed by humans is converted to work, thermal energy, and stored fat. By far the largest fraction goes to thermal energy, although the fraction varies depending on the type of physical activity.')
 {: #Figure1}
 
 ### Power Consumed at Rest
@@ -180,6 +180,29 @@ gravitational potential energy the same in both cases? Is your energy consumptio
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare mechanical work and power on two slopes, then state the extra assumptions needed to compare metabolic energy.
+
+**Solution**
+
+Let a $$70\kg$$ hiker gain $$h=500\m$$, with $$+y$$ upward. At steady speed along a slope of angle $$\theta$$, the uphill force component needed against gravity is $$mg\sin\theta$$. On a $$30°$$ route it is $$(70\kg)(9.80\mss)\sin30°=343\N$$; on a $$10°$$ zigzag it is $$119\N$$. At the same path speed $$1.0\ms$$, the mechanical climbing powers are $$343\text{ W}$$ and $$119\text{ W}$$, so the gentler path can be easier to sustain.
+
+Both routes give exactly the same gravitational potential-energy gain:
+
+$$\Delta U_g=mgh=(70\kg)(9.80\mss)(500\m)=3.43\times10^5\J.$$
+
+Metabolic energy need **not** be equal. In a simplified model with the same efficiency $$\eta=0.20$$ and fixed background metabolism $$P_0=100\text{ W}$$ on both routes, $$E_{\text{food}}=mgh/\eta+P_0t$$. At the assumed path speed, $$t=h/(v\sin\theta)$$ gives $$1000\s$$ and $$2879\s$$, respectively. This particular model makes the longer route consume an extra $$(100\text{ W})(2879\s-1000\s)=1.88\times10^5\J$$.
+
+That is a **conditional model result**, not a general rule that zigzags always consume more energy. Real walking efficiency depends on slope, speed, footing, and gait, so the energy ordering requires additional information. The equal $$mgh$$ result does not require those physiological assumptions.
+
+A zigzag climb can be easier because it requires less uphill force and power, the gravitational potential-energy gain is the same, and the total metabolic energy can differ in either direction depending on the walking conditions and physiological model.
+
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -188,6 +211,31 @@ gravitational potential energy the same in both cases? Is your energy consumptio
 
 Do you do work on the outside world when you rub your hands together to warm them?
 What is the efficiency of this activity?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose the whole body as the system and use the relative sliding distance between the hands to calculate frictional heating.
+
+**Solution**
+
+Both hands are parts of the body, so friction between them is an internal interaction. They do essentially no mechanical work on an object in the outside world, although the muscles use chemical energy and the hands warm up.
+
+For a clear numerical example, assume each hand moves $$0.10\m$$ in opposite directions during one stroke and the friction force magnitude is $$5.0\N$$. The relative sliding distance is
+
+$$d_{\text{rel}}=0.10\m+0.10\m=0.20\m,$$
+
+so the frictional energy converted to heat is
+
+$$E_{\text{friction}}=f_kd_{\text{rel}}=(5.0\N)(0.20\m)=1.0\J.$$
+
+The muscles also generate heat internally. With efficiency defined as external mechanical work divided by food-energy input, $$\mathrm{Eff}=W_{\text{out}}/E_{\text{in}}=0\J/E_{\text{in}}=0\%$$. This is mechanical-work efficiency; if useful warmth is the intended output, a different efficiency definition would be appropriate.
+
+Rubbing the hands does essentially no external mechanical work, so its external-work efficiency is zero, while internal friction and muscle activity convert chemical energy into heat, including 1.0 J per stroke in the stated example.
+
 
 :::
 
@@ -201,6 +249,26 @@ Shivering is an involuntary response to lowered body temperature. What is the ef
 
 :::
 
+::: solution
+
+**Strategy**
+
+Ask whether shivering does any work on the outside world, use $$ \text{Eff} = W_{\text{out}}/E_{\text{in}} $$, and consider what the body is trying to achieve.
+
+**Solution**
+
+Shivering is rapid, involuntary contraction of muscles that moves the body back and forth without moving anything outside it. The useful work done on the outside world is $$ W_{\text{out}} = 0 \J $$, so the efficiency is
+
+<div class="equation">
+$$ \text{Eff} = \frac{0 \J}{E_{\text{in}}} = 0\% $$
+</div>
+
+All of the food energy the muscles use is converted into thermal energy in the body. Shivering can raise the body's metabolic rate from a basal value of about $$ 100 \text{ W} $$ to $$ 300 \text{ W} $$ or more, producing $$ 200 \J $$ of extra heat each second. Since the purpose of shivering is to warm a cold body, this $$ 0\% $$ efficiency is exactly the desired value: every joule goes into heat rather than into work.
+
+The body's efficiency when shivering is $$ 0\% $$, because no work is done on the outside world and all the energy used (perhaps $$ 200 \text{ W} $$ above the basal rate) becomes thermal energy, and this is desirable because the purpose of shivering is to produce heat.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -211,6 +279,28 @@ Discuss the relative effectiveness of dieting and exercise in losing weight,
 noting that most athletic activities consume food energy at a rate of 400 to 500 W,
 while a single cup of yogurt can contain 1360 kJ (325 kcal). Specifically, is it likely that
 exercise alone will be sufficient to lose weight? You may wish to consider that regular exercise may increase the metabolic rate, whereas protracted dieting may reduce it.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare how long a typical exercise must last to use up the food energy in one cup of yogurt, $$ t = E/P $$, using the extra power that exercise requires.
+
+**Solution**
+
+Most athletic activities use food energy at $$ 400 \text{ to } 500 \text{ W} $$. Some of that, about $$ 100 \text{ W} $$, the body would use anyway at rest, so the **extra** energy used by exercising is roughly $$ 300 \text{ to } 400 \text{ W} $$. Take $$ 350 \text{ W} $$. Burning off one cup of yogurt, $$ 1360 \text{ kJ} $$, takes
+
+<div class="equation">
+$$ t = \frac{E}{P} = \frac{1.36 \times 10^{6} \J}{350 \J/\s} = 3.9 \times 10^{3} \s \approx 65 \text{ min} $$
+</div>
+
+An hour of hard exercise only offsets a single snack. To lose $$ 1 \kg $$ of fat, which stores about $$ 3.8 \times 10^{7} \J $$, takes about $$ (3.8 \times 10^{7} \J)/(350 \J/\s) = 1.1 \times 10^{5} \s $$, about $$ 30 \text{ h} $$ of exercise. Skipping that one yogurt a day, on the other hand, saves the same $$ 1360 \text{ kJ} $$ with no effort.
+
+So exercise **alone** is unlikely to be enough to lose much weight unless food intake is controlled too. A combination works best. Regular exercise may raise the metabolic rate for hours afterward and builds muscle, which uses energy even at rest. Prolonged dieting may lower the metabolic rate as the body adapts, reducing the effect of eating less.
+
+Exercise alone is unlikely to be sufficient for losing weight, because burning off the $$ 1360 \text{ kJ} $$ in one cup of yogurt takes about an hour of exercise at $$ 350 \text{ W} $$ above the resting rate, so cutting food intake is far more effective, while combining diet with exercise helps keep the metabolic rate up.
 
 :::
 
@@ -340,6 +430,12 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 **Strategy**
 
 The total work done on the shot includes both the change in kinetic energy and the change in gravitational potential energy. Power is the total work divided by time.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 where the shot starts from rest. After 1.20 s it is released 0.800 m higher, at y = +0.800 m, moving at 14.0 m/s.](../resources/sketch_07_08_p03.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ where the shot starts from rest, so it rises $$ \Delta y = +0.800\m $$ and $$ \Delta \PE = mg\,\Delta y $$ is positive.
 
 **Solution**
 
@@ -537,7 +633,7 @@ E_{\text{study}} &=& (210\text{ W})(6.00\text{ h})(3600\s/\text{h}) = 4.54 \time
 Total daily energy:
 
 <div class="equation">
- $$ E_{\text{total}} = 2.09 + 2.02 + 3.02 + 2.88 + 1.30 + 4.54 = 15.85 \times 10^{6}\J \approx 1.59 \times 10^{7}\J $$
+ $$ E_{\text{total}} = 2.09 \text{ MJ} + 2.02 \text{ MJ} + 3.02 \text{ MJ} + 2.88 \text{ MJ} + 1.30 \text{ MJ} + 4.54 \text{ MJ} = 15.85 \times 10^{6}\J \approx 1.59 \times 10^{7}\J $$
 </div>
 
 **Discussion**
@@ -588,7 +684,7 @@ where $$ P_{\text{in}} = (2.00\text{ L/min})(20\text{ kJ/L})(1\text{ min}/60\s) 
 
 **Discussion**
 
-The treadmill subject has an efficiency of approximately 15.0%, which is typical for sustained aerobic exercise. This means that only about 15% of the metabolic energy is converted to useful mechanical work, while the remaining 85% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. [Table 2](#Table2) lists 700 W of metabolic power at 2.00 L/min for fast cycling; using that rounded table value would give $$ 100/700 = 14.3\% $$, but the problem’s oxygen-to-energy rule and the given 2.00 L/min rate are the consistent basis for the 15.0% result here.
+The treadmill subject has an efficiency of approximately 15.0%, which is typical for sustained aerobic exercise. This means that only about 15% of the metabolic energy is converted to useful mechanical work, while the remaining 85% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. [Table 2](#Table2) lists 700 W of metabolic power at 2.00 L/min for fast cycling; using that rounded table value would give $$ \frac{100 \text{ W}}{700 \text{ W}} \times 100\% = 14.3\% $$, but the problem’s oxygen-to-energy rule and the given 2.00 L/min rate are the consistent basis for the 15.0% result here.
 
 :::
 
@@ -674,6 +770,12 @@ Very large forces are produced in joints when a person jumps from some height to
 **Strategy**
 
 We use the work-energy theorem. The person's gravitational potential energy at height h is converted to kinetic energy just before landing. During the stopping phase the person moves downward through distance $$ d $$ while an upward normal force $$ N $$ and downward weight act. With upward positive, the net force along the displacement is $$ mg-N $$, so $$ (mg-N)d=-\KE $$ and $$ N=mg+\KE/d $$.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at ground level where the feet first touch. The person starts at rest 0.600 m up, falls to the ground, then stops while moving a further distance d down (1.50 cm in part a, 0.300 m in part b; drawn larger). During the stop the displacement points along −y; the ground pushes up with N along +y and the weight w = mg points along −y.](../resources/sketch_07_08_p09.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ where the feet touch the ground. During the stop the displacement is $$ -d $$ (downward), the normal force $$ N $$ points along $$ +y $$, and the weight along $$ -y $$. So $$ \sum F_y = N - mg $$, and the net work is $$ (N - mg)(-d) = (mg - N)d $$, which must equal $$ -\KE $$.
 
 **Solution**
 
@@ -1128,7 +1230,7 @@ m_{\text{fat}} &=& \frac{(0.35)(7.20 \times 10^{7}\text{ kcal})}{9\text{ kcal/g}
 Total mass of food:
 
 <div class="equation">
- $$ m_{\text{total}} = 900 + 10800 + 2800 = 14500\kg \approx 1.4 \times 10^{4}\kg $$
+ $$ m_{\text{total}} = 900 \kg + 10800 \kg + 2800 \kg = 14500\kg \approx 1.4 \times 10^{4}\kg $$
 </div>
 
 **Discussion**

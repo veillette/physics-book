@@ -106,7 +106,7 @@ First we draw a sketch and assign a coordinate system to the problem. This is a
 simple problem, but it always helps to visualize it. Notice that we assign east
 as positive and west as negative. Thus, in this case, we have negative velocity.
 
-![An acceleration vector arrow pointing west, in the negative x direction, labeled with a equals question mark. A velocity vector arrow also pointing toward the left, with initial velocity labeled as 0 and final velocity labeled as negative fifteen point 0 meters per second.](../resources/Figure_02_04_05.jpg ' ')
+![An acceleration vector arrow pointing west, in the negative x direction, labeled with a equals question mark. A velocity vector arrow also pointing toward the left, with initial velocity labeled as 0 and final velocity labeled as negative fifteen point 0 meters per second.](../resources/Figure_02_04_05.svg ' ')
 {: #Figure5}
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from
@@ -156,7 +156,7 @@ average acceleration for each. For example, we could consider motion over the
 time intervals from 0 to 1.0 s and from 1.0 to 3.0 s as separate motions with
 accelerations of $$ +3.0 \mss $$ and $$ -2.0 \mss $$, respectively.
 
-![Line graphs of instantaneous acceleration in meters per second per second versus time in seconds. The line on graph (a) shows slight variation above and below an average acceleration of about 1 point 8 meters per second per second. The line on graph (b) shows great variation over time, with instantaneous acceleration constant at 3 point 0 meters per second per second for 1 second, then dropping to negative 2 point 0 meters per second per second for the next 2 seconds, and then rising again, and so forth.](../resources/Figure_02_04_06.jpg 'Graphs of instantaneous acceleration versus time for two different one-dimensional motions. (a) Here acceleration varies only slightly and is always in the same direction, since it is positive. The average over the interval is nearly the same as the acceleration at any given time. (b) Here the acceleration varies greatly, perhaps representing a package on a post office conveyor belt that is accelerated forward and backward as it bumps along. It is necessary to consider small time intervals (such as from 0 to 1.0 s) with constant or nearly constant acceleration in such a situation.')
+![Line graphs of instantaneous acceleration in meters per second per second versus time in seconds. The line on graph (a) shows slight variation above and below an average acceleration of about 1 point 8 meters per second per second. The line on graph (b) shows great variation over time, with instantaneous acceleration constant at 3 point 0 meters per second per second for 1 second, then dropping to negative 2 point 0 meters per second per second for the next 2 seconds, and then rising again, and so forth.](../resources/Figure_02_04_06.svg 'Graphs of instantaneous acceleration versus time for two different one-dimensional motions. (a) Here acceleration varies only slightly and is always in the same direction, since it is positive. The average over the interval is nearly the same as the acceleration at any given time. (b) Here the acceleration varies greatly, perhaps representing a package on a post office conveyor belt that is accelerated forward and backward as it bumps along. It is necessary to consider small time intervals (such as from 0 to 1.0 s) with constant or nearly constant acceleration in such a situation.')
 {: #Figure6}
 
 The next several examples consider the motion of the subway train shown
@@ -256,7 +256,7 @@ Suppose the train in [Figure 7](#Figure7)(a) accelerates from rest to 30.0 km/h 
 
 It is worth it at this point to make a simple sketch:
 
-![A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.](../resources/Figure_02_04_08.jpg 'Velocity Vectors')
+![A point represents the initial velocity of 0 kilometers per second. Below the point is a velocity vector arrow pointing to the right, representing the final velocity of thirty point zero kilometers per hour. Below the velocity vector is an acceleration vector arrow labeled a equals question mark.](../resources/Figure_02_04_08.svg 'Velocity Vectors')
 {: #Figure8}
 
 This problem involves three steps. First we must determine the change in
@@ -304,7 +304,7 @@ Now suppose that at the end of its trip, the train in [Figure 7](#Figure7)(a) sl
 
 **Strategy**
 
-![A velocity vector arrow pointing toward the right with initial velocity of thirty point zero kilometers per hour and final velocity of 0. An acceleration vector arrow pointing toward the left, labeled a equals question mark.](../resources/Figure_02_04_09.jpg 'Velocity and Acceleration Vectors')
+![A velocity vector arrow pointing toward the right with initial velocity of thirty point zero kilometers per hour and final velocity of 0. An acceleration vector arrow pointing toward the left, labeled a equals question mark.](../resources/Figure_02_04_09.svg 'Velocity and Acceleration Vectors')
 {: #Figure9}
 
 In this case, the train is decelerating and its acceleration is negative because
@@ -350,7 +350,7 @@ in [Example 4](#example4) and [Example 5](#example5) are
 displayed in [Figure 10](#Figure10). (We have taken the velocity to remain constant
 from 20 to 40 s, after which the train decelerates.)
 
-![Three graphs. The first is a line graph of position in meters versus time in seconds. The line begins at the origin and has a concave up shape from time equals zero to time equals twenty seconds. It is straight with a positive slope from twenty seconds to forty seconds. It is then convex up from forty to fifty seconds. The second graph is a line graph of velocity in meters per second versus time in seconds. The line is straight with a positive slope beginning at the origin from 0 to twenty seconds. It is flat from twenty to forty seconds. From forty to fifty seconds the line is straight with a negative slope back down to a velocity of 0. The third graph is a line graph of acceleration in meters per second per second versus time in seconds. The line is flat with a positive constant acceleration from zero to twenty seconds. The line then drops to an acceleration of 0 from twenty to forty seconds. The line drops again to a negative acceleration from forty to fifty seconds.](../resources/Figure_02_04_10.jpg '(a) Position of the train over time. Notice that the train’s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate.
+![Three graphs. The first is a line graph of position in meters versus time in seconds. The line begins at the origin and has a concave up shape from time equals zero to time equals twenty seconds. It is straight with a positive slope from twenty seconds to forty seconds. It is then convex up from forty to fifty seconds. The second graph is a line graph of velocity in meters per second versus time in seconds. The line is straight with a positive slope beginning at the origin from 0 to twenty seconds. It is flat from twenty to forty seconds. From forty to fifty seconds the line is straight with a negative slope back down to a velocity of 0. The third graph is a line graph of acceleration in meters per second per second versus time in seconds. The line is flat with a positive constant acceleration from zero to twenty seconds. The line then drops to an acceleration of 0 from twenty to forty seconds. The line drops again to a negative acceleration from forty to fifty seconds.](../resources/Figure_02_04_10.svg '(a) Position of the train over time. Notice that the train’s position changes slowly at the beginning of the journey, then more and more quickly as it picks up speed. Its position then changes more slowly as it slows down at the end of the journey. In the middle of the journey, while the velocity remains constant, the position changes at a constant rate.
 (b) Velocity of the train over time. The train’s velocity increases as it accelerates at the beginning of the journey. It remains the same in the middle of the journey (where there is no acceleration). It decreases as the train decelerates at the end of the journey.
 (c) The acceleration of the train over time. The train has positive acceleration as it speeds up at the beginning of the journey. It has no acceleration as it travels at constant velocity in the middle of the journey. Its acceleration is negative as it slows down at the end of the journey.')
 {: #Figure10 height="200"}
@@ -408,7 +408,7 @@ Finally, suppose the train in [Figure 11](#Figure11) slows to a stop from a velo
 
 Once again, let’s draw a sketch:
 
-![A velocity vector arrow pointing to the left with initial velocity of negative twenty point 0 kilometers per hour and a final velocity of 0. An acceleration vector arrow pointing toward the right, labeled a equals question mark.](../resources/Figure_02_04_12.jpg 'Vector and Acceleration Diagram')
+![A velocity vector arrow pointing to the left with initial velocity of negative twenty point 0 kilometers per hour and a final velocity of 0. An acceleration vector arrow pointing toward the right, labeled a equals question mark.](../resources/Figure_02_04_12.svg 'Vector and Acceleration Diagram')
 {: #Figure12}
 
 As before, we must find the change in velocity and the change in time to
@@ -534,6 +534,22 @@ Is it possible for speed to be constant while acceleration is not zero? Give an 
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Acceleration is the rate of change of *velocity*, a vector. Velocity can change in direction even when its magnitude (the speed) stays the same.
+
+**Solution**
+
+![A car moves around a circular track of radius 50 m at a constant speed of 20 m/s. At three positions, the velocity arrow is tangent to the circle and has the same length, while the acceleration arrow points toward the center.](../resources/concept_02_04_q01.svg){: .sketch}
+
+Yes. A car going around a circular track at a constant speed is a good example. Suppose the speed is $$ 20 \ms $$ and the radius is $$ 50 \m $$. The speed never changes, but the direction of the velocity changes continuously, so the velocity is changing and the car is accelerating. As you will learn in Uniform Circular Motion and Gravitation, this acceleration points toward the center of the circle and has magnitude $$ v^{2}/r = (20 \ms)^{2}/(50 \m) = 8.0 \mss $$.
+
+Yes, the speed can be constant while the acceleration is not zero, as for a car going around a circular track at a constant $$ 20 \ms $$, whose changing direction of motion gives it an acceleration toward the center.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -541,6 +557,20 @@ Is it possible for speed to be constant while acceleration is not zero? Give an 
 :::: problem
 
 Is it possible for velocity to be constant while acceleration is not zero? Explain.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Use the definition of acceleration, $$ \overline{a} = \Delta v / \Delta t $$.
+
+**Solution**
+
+No. Constant velocity means that neither the magnitude nor the direction of the velocity changes, so $$ \Delta v = 0 $$ over any time interval. Then $$ \overline{a} = \Delta v / \Delta t = 0 $$. A car moving in a straight line at a steady $$ 25 \ms $$ has zero acceleration.
+
+No, it is not possible for the velocity to be constant while the acceleration is nonzero, because a nonzero acceleration always means the velocity is changing.
 
 ::::
 
@@ -554,6 +584,22 @@ Give an example in which velocity is zero yet acceleration is not.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Look for an instant when an object is momentarily at rest but its velocity is still changing.
+
+**Solution**
+
+![Three snapshots of a rock thrown straight up. On the way up the velocity points up; at the top the velocity is zero; on the way down at the same height the velocity points down with the same length. At all three snapshots the acceleration points down: a = −g = −9.80 m/s².](../resources/concept_02_07_q01.svg){: .sketch}
+
+A rock thrown straight up is momentarily at rest at the top of its flight, so its velocity is zero there. Its acceleration, however, is still that of gravity, $$ 9.80 \mss $$ downward: just before the top the velocity is upward, and just after it the velocity is downward, so the velocity is changing even at the instant it is zero.
+
+A rock thrown straight up has zero velocity at the top of its flight, yet its acceleration there is $$ 9.80 \mss $$ downward.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -564,6 +610,28 @@ If a subway train is moving to the left (has a negative velocity) and then comes
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Take the usual convention: $$ +x $$ to the right. The train slows down, so the change in velocity is opposite its velocity.
+
+**Solution**
+
+![A train moves to the left, so its velocity arrow points left (v < 0). It is slowing down, so its acceleration arrow points to the right (a > 0). The +x direction is to the right.](../resources/concept_02_04_q04.svg){: .sketch}
+
+The velocity is negative (to the left) and increases toward zero as the train stops. For example, if the velocity changes from $$ -12 \ms $$ to $$ 0 $$ in $$ 8.0 \s $$, then
+
+<div class="equation">
+$$ \overline{a} = \frac{v_{f} - v_{0}}{\Delta t} = \frac{0 - (-12 \ms)}{8.0 \s} = +1.5 \mss $$
+</div>
+
+The acceleration points to the right, opposite to the velocity, which is what slows the train.
+
+The train's acceleration is directed to the right, so it is positive (for example, $$ +1.5 \mss $$ if it stops from $$ 12 \ms $$ in $$ 8.0 \s $$).
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -571,6 +639,21 @@ If a subway train is moving to the left (has a negative velocity) and then comes
 :::: problem
 
 Plus and minus signs are used in one-dimensional motion to indicate direction. What is the sign of an acceleration that reduces the magnitude of a negative velocity? Of a positive velocity?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+An acceleration reduces the magnitude of the velocity (slows the object) when it points opposite to the velocity.
+
+**Solution**
+
+- For a negative velocity, such as $$ -10 \ms $$ becoming $$ -6 \ms $$, the change $$ \Delta v = +4 \ms $$ is positive, so the acceleration is **positive**.
+- For a positive velocity, such as $$ +10 \ms $$ becoming $$ +6 \ms $$, the change $$ \Delta v = -4 \ms $$ is negative, so the acceleration is **negative**.
+
+An acceleration that reduces the magnitude of a negative velocity is positive, and one that reduces the magnitude of a positive velocity is negative; in both cases the acceleration has the sign opposite to the velocity.
 
 ::::
 
@@ -592,6 +675,12 @@ A cheetah can accelerate from rest to a speed of 30.0 m/s in 7.00 s. What is its
 
 We are given initial velocity, final velocity, and time. We can use the definition of average acceleration to find the acceleration.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the cheetah runs, with the origin at its starting point. Initial state: t = 0, v₀ = 0. Final state: t = 7.00 s, v = +30.0 m/s. The acceleration a, unknown, points in the +x direction.](../resources/sketch_02_04_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction the cheetah runs, with $$ t_0 = 0 $$ when it starts from rest. Then $$ v_0 = 0 $$ and $$ v_f = +30.0 \ms $$, and a positive answer for $$ \overline{a} $$ means the acceleration points in the direction of motion.
+
 **Solution**
 
 1. Identify the known values:
@@ -611,7 +700,7 @@ $$ \overline{a} = \frac{30.0 \ms - 0}{7.00 \s} = \frac{30.0 \ms}{7.00 \s} = 4.29
 
 **Discussion**
 
-The cheetah's acceleration of 4.29 m/s² is impressive—it increases its speed by 4.29 m/s every second. This is about 0.44 times the acceleration due to gravity (g = 9.80 m/s²).
+The cheetah's acceleration of 4.29 m/s² is impressive—its speed increases by 4.29 m/s per second on average. This is about 0.44 times the acceleration due to gravity (g = 9.80 m/s²).
 
 The cheetah's acceleration is $$ 4.29 \mss $$.
 
@@ -639,6 +728,12 @@ acceleration and (b) deceleration. Express each in multiples of $$ g $$, $$ \lef
 
 This problem involves two phases of motion: acceleration and deceleration. For each phase, we use the definition of average acceleration. To express the results in multiples of g, we divide each acceleration by 9.80 m/s².
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the sled travels, with the origin at its starting point. Start: t = 0, v₀ = 0. End of the burn: t = 5.00 s, v = +282 m/s. Stop: t = 6.40 s, v = 0. While speeding up the acceleration a₁ points in +x; while stopping a₂ points in −x.](../resources/sketch_02_04_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the sled travels. Its velocity is positive the whole time, so in part (a) the velocity increases ($$ a > 0 $$, along $$ +x $$) and in part (b) it decreases to zero ($$ a < 0 $$, along $$ -x $$). A deceleration is reported as the magnitude of that negative acceleration.
+
 **Solution**
 
 **(a) Acceleration phase:**
@@ -655,7 +750,7 @@ $$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{282 \ms - 
 
 3. Express in multiples of g:
 <div class="equation">
-$$ \frac{a}{g} = \frac{56.4 \mss}{9.80 \mss} = 5.76g $$
+$$ \frac{a}{g} = \frac{56.4 \mss}{9.80 \mss} = 5.76 $$
 </div>
 
 **(b) Deceleration phase:**
@@ -672,12 +767,12 @@ $$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{0 - 282 \m
 
 3. Express in multiples of g:
 <div class="equation">
-$$ \frac{|a|}{g} = \frac{201 \mss}{9.80 \mss} = 20.5g $$
+$$ \frac{|a|}{g} = \frac{201 \mss}{9.80 \mss} = 20.5 $$
 </div>
 
 **Discussion**
 
-These accelerations are extreme. During acceleration, Dr. Stapp experienced about 5.76g, which is uncomfortable but tolerable. During deceleration, he experienced about 20.5g, which is at the limit of human tolerance. Such experiments helped establish safety standards for ejection seats and crash protection.
+These are large average accelerations. The stopping acceleration is especially large because the change in velocity occurs over only 1.40 s. Such experiments helped researchers study the effects of deceleration and improve crash protection.
 
 (a) Dr. Stapp's acceleration was $$ 56.4 \mss $$, or $$ 5.76g $$.
 
@@ -702,6 +797,12 @@ A commuter backs her car out of her garage with an acceleration of $$ 1.40 \mss 
 **Strategy**
 
 For part (a), we know the acceleration and need to find time. We rearrange the acceleration equation to solve for time. For part (b), we use the definition of acceleration with the new initial velocity and final velocity (zero).
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the car backs out of the garage (away from the garage), with the origin where the car starts. Start: t = 0, v₀ = 0. After backing up: v₁ = +2.00 m/s at an unknown time. Stopped 0.800 s later: v₂ = 0. While speeding up a₁ = +1.40 m/s² (in +x); while braking a₂ is unknown and points in −x.](../resources/sketch_02_04_p03.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car backs out of the garage. With this choice the backward motion is positive: $$ v_0 = 0 $$, $$ a = +1.40 \mss $$, and the speed reached is $$ v_f = +2.00 \ms $$. While braking, the velocity is still positive but shrinking, so the acceleration found in part (b) comes out negative (it points back toward the garage).
 
 **Solution**
 
@@ -761,6 +862,12 @@ $$ \left(9.80 \mss \right)? $$
 
 We use the definition of average acceleration. First, we need to convert the final velocity from km/s to m/s to get the answer in SI units.
 
+**Sketch and coordinate system**
+
+![A +x axis points along the missile’s direction of travel, with the origin at the launch point. Start: t = 0, v₀ = 0. End of boost: t = 60.0 s, v = +6.50 km/s. The average acceleration, unknown, points in +x.](../resources/sketch_02_04_p04.svg){: .sketch}
+
+Take $$ +x $$ along the missile's direction of travel, with $$ t_0 = 0 $$ at launch. Then $$ v_0 = 0 $$ and $$ v_f = +6.50 \text{ km/s} $$.
+
 **Solution**
 
 1. Identify the known values and convert units:
@@ -775,12 +882,12 @@ $$ \overline{a} = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac
 
 3. Express in multiples of g:
 <div class="equation">
-$$ \frac{\overline{a}}{g} = \frac{108 \mss}{9.80 \mss} = 11.0g $$
+$$ \frac{\overline{a}}{g} = \frac{108 \mss}{9.80 \mss} = 11.0 $$
 </div>
 
 **Discussion**
 
-This is an enormous acceleration—about 11 times the acceleration due to gravity. The missile's velocity increases by 108 m/s every second during the boost phase. Such high accelerations require robust engineering to protect the missile's components and payload.
+This is an enormous acceleration—about 11 times the acceleration due to gravity. The missile's velocity increases by 108 m/s per second on average during the boost phase. Such high accelerations require robust engineering to protect the missile's components and payload.
 
 The missile's average acceleration is $$ 108 \mss $$, which is equivalent to $$ 11.0g $$.
 

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520" role="img" aria-labelledby="title desc">
+<title id="title">The bottom of a container supports the weight of the fluid</title>
+<desc id="desc">A container holds fluid to a depth h over a bottom area A, so the fluid’s volume is Ah. Its weight w = mg acts downward and is supported entirely by the bottom, since the vertical sides cannot exert an upward shearing force on the fluid.</desc>
+<rect width="560" height="520" fill="#ffffff"/>
+<rect x="30" y="130" width="300" height="350" fill="#c7e3f3"/>
+<ellipse cx="180" cy="130" rx="150" ry="30" fill="#a9cfe6" stroke="#7fb6d6" stroke-width="1.5"/>
+<ellipse cx="180" cy="480" rx="144" ry="26" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="8 6"/>
+<polyline points="30,40 30,480" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="330,40 330,480" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 30 480 A 150 32 0 0 0 330 480" fill="none" stroke="#9fd0de" stroke-width="4"/>
+<ellipse cx="180" cy="40" rx="150" ry="24" fill="none" stroke="#9fd0de" stroke-width="4"/>
+<text x="180" y="258.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.88" font-weight="normal" dx="-16.1" dy="-12.48">→</tspan><tspan dx="1.22" dy="12.48">​</tspan></tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">m</tspan><tspan font-weight="bold" font-style="normal">g<tspan font-size="14.88" font-weight="normal" dx="-13.44" dy="-12.48">→</tspan><tspan dx="-1.44" dy="12.48">​</tspan></tspan></text>
+<line x1="180" y1="280" x2="180" y2="361" stroke="#e0245e" stroke-width="5"/>
+<polygon points="180,380 172,360 188,360" fill="#e0245e"/>
+<line x1="380" y1="171" x2="380" y2="469" stroke="#222222" stroke-width="1.5"/>
+<polygon points="380,479 375.6,468 384.4,468" fill="#222222"/>
+<polygon points="380,161 384.4,172 375.6,172" fill="#222222"/>
+<line x1="370" y1="160" x2="390" y2="160" stroke="#222222" stroke-width="1.4"/>
+<line x1="370" y1="480" x2="390" y2="480" stroke="#222222" stroke-width="1.4"/>
+<text x="364" y="328.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan></text>
+<text x="420" y="68.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Volume</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Ah</tspan></text>
+<path d="M 420 116 Q 347.8 89 295.25 135.37" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="296.75" y1="134.05" x2="293.3" y2="137.09" stroke="#333333" stroke-width="1.5"/>
+<polygon points="290,140 292.62,134.81 295.48,138.05" fill="#333333"/>
+<text x="428" y="120.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<path d="M 420 500 Q 355.8 529 305.54 490.27" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="307.13" y1="491.49" x2="303.49" y2="488.69" stroke="#333333" stroke-width="1.5"/>
+<polygon points="300,486 305.6,487.59 302.96,491.01" fill="#333333"/>
+<text x="428" y="512.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+</svg>

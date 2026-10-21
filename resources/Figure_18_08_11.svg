@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="300" viewBox="0 0 540 300" role="img" aria-labelledby="title desc">
+<title id="title">The Millikan oil-drop experiment</title>
+<desc id="desc">A small oil drop carrying charge q0 floats between two horizontal plates, positive on top and negative on the bottom, whose field points down. Because the drop’s excess charge is negative, the electric force on it is upward and can balance its weight. An observer watches the drop through a microscope from the side.</desc>
+<rect width="540" height="300" fill="#ffffff"/>
+<rect x="200" y="28" width="300" height="22" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="200" y="250" width="300" height="22" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<text x="220" y="45.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="220" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="226" y1="50" x2="226" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="226" y1="138" x2="226" y2="148.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="226,162 220.24,147.6 231.76,147.6" fill="#1f77c8"/>
+<text x="274" y="45.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="274" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="280" y1="50" x2="280" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="280" y1="138" x2="280" y2="148.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="280,162 274.24,147.6 285.76,147.6" fill="#1f77c8"/>
+<text x="328" y="45.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="328" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="334" y1="50" x2="334" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="334" y1="138" x2="334" y2="148.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="334,162 328.24,147.6 339.76,147.6" fill="#1f77c8"/>
+<text x="382" y="45.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="382" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="388" y1="50" x2="388" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="388" y1="138" x2="388" y2="148.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="388,162 382.24,147.6 393.76,147.6" fill="#1f77c8"/>
+<text x="436" y="45.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="436" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="442" y1="50" x2="442" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="442" y1="138" x2="442" y2="148.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="442,162 436.24,147.6 447.76,147.6" fill="#1f77c8"/>
+<text x="490" y="45.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="490" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="496" y1="50" x2="496" y2="250" stroke="#1f77c8" stroke-width="2"/>
+<line x1="496" y1="138" x2="496" y2="148.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="496,162 490.24,147.6 501.76,147.6" fill="#1f77c8"/>
+<circle cx="382" cy="150" r="16" fill="#f0a040" stroke="#a0611c" stroke-width="1.5"/>
+<text x="382" y="158.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<rect x="100" y="128" width="80" height="44" rx="6" fill="#e8d36a" stroke="#9a8a2a" stroke-width="1.2"/>
+<ellipse cx="180" cy="150" rx="6" ry="22" fill="#cfe8ef" stroke="#6a8a96" stroke-width="1.2"/>
+<ellipse cx="62" cy="150" rx="26" ry="16" fill="#ffffff" stroke="#444444" stroke-width="1.5"/>
+<circle cx="72" cy="150" r="9" fill="#3a7fc0"/>
+<circle cx="74" cy="150" r="4" fill="#222222"/>
+<text x="140" y="202.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">microscope</tspan></text>
+</svg>

@@ -286,7 +286,7 @@ $${v}_{2} $$ , we see that
 for measuring various fluid velocities; such devices are frequently used as air
 speed indicators in aircraft.
 
-![Part a shows a U-shaped manometer tube connected to ends of two tubes which are placed close together. Tube one is open on the end and shows a velocity v one equals zero at the end. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h. Part b of the figure shows a velocity measuring device a pitot tube. Two coaxial tubes, one broader outside and other narrow inside are connected to a U-shaped tube. The U-shaped tube is also narrow at one end and broader at the other. The narrow end of the U-shaped tube is connected to the narrow inner tube and the broader end of the U-shaped tube is connected to the broader outer tube. The tube one has an opening at one of its edges and the velocity of the fluid at the end is v one equals zero. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h.](../resources/Figure_12_02_04.jpg "Measurement of fluid speed based on Bernoulli&#x2019;s principle. (a) A manometer is connected to two tubes that are close together and small enough not to disturb the flow. Tube 1 is open at the end facing the flow. A dead spot having zero speed is created there. Tube 2 has an opening on the side, and so the fluid has a speed \( v \); across the opening; thus, pressure there drops. The difference in pressure at the manometer is \( 1/2 \rho v^2_2 \) , and so \( h \) is proportional to \( 1/2 \rho v^2_2 \). (b) This type of velocity measuring device is a Prandtl tube, also known as a pitot tube.")
+![Part a shows a U-shaped manometer tube connected to ends of two tubes which are placed close together. Tube one is open on the end and shows a velocity v one equals zero at the end. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h. Part b of the figure shows a velocity measuring device a pitot tube. Two coaxial tubes, one broader outside and other narrow inside are connected to a U-shaped tube. The U-shaped tube is also narrow at one end and broader at the other. The narrow end of the U-shaped tube is connected to the narrow inner tube and the broader end of the U-shaped tube is connected to the broader outer tube. The tube one has an opening at one of its edges and the velocity of the fluid at the end is v one equals zero. Tube two has an opening on the side and shows a velocity v two across the opening. The level of fluid in the U-shaped tube is more on the right side than on the left. The difference in height is shown by h.](/resources/Figure_12_02_04.svg "Measurement of fluid speed based on Bernoulli&#x2019;s principle. (a) A manometer is connected to two tubes that are close together and small enough not to disturb the flow. Tube 1 is open at the end facing the flow. A dead spot having zero speed is created there. Tube 2 has an opening on the side, and so the fluid has a speed \( v \); across the opening; thus, pressure there drops. The difference in pressure at the manometer is \( 1/2 \rho v^2_2 \) , and so \( h \) is proportional to \( 1/2 \rho v^2_2 \). (b) This type of velocity measuring device is a Prandtl tube, also known as a pitot tube.")
 {: #Figure4}
 
 ### Summary
@@ -480,7 +480,7 @@ The Venturi design optimizes entrainment by creating the maximum possible pressu
 
 </div>
 
-![Figure shows a venturi tube, a cylindrical tube broader at both the ends and narrow in the middle. The narrow part is labeled as venturi constriction. The flow of fluid is shown as horizontal arrows along the length of the tube toward the right. The flow lines are closer in the center and spread apart at both the ends. There is an opening on the top portion of the narrow section for the entrained fluid to enter.](../resources/Figure_12_02_05.jpg "A tube with a narrow segment designed to enhance entrainment is called a Venturi. These are very commonly used in carburetors and aspirators.")
+![Figure shows a venturi tube, a cylindrical tube broader at both the ends and narrow in the middle. The narrow part is labeled as venturi constriction. The flow of fluid is shown as horizontal arrows along the length of the tube toward the right. The flow lines are closer in the center and spread apart at both the ends. There is an opening on the top portion of the narrow section for the entrained fluid to enter.](/resources/Figure_12_02_05.svg "A tube with a narrow segment designed to enhance entrainment is called a Venturi. These are very commonly used in carburetors and aspirators.")
 {: #Figure5}
 
 <div class="exercise"  data-element-type="conceptual-questions">
@@ -945,7 +945,7 @@ $$\frac{h_2}{h_1} = \frac{v_2^2}{v_1^2}$$
 Solving for $$h_2$$:
 $$h_2 = h_1 \times \frac{v_2^2}{v_1^2} = 15.0 \text{ mm Hg} \times \frac{(700 \text{ km/h})^2}{(200 \text{ km/h})^2}$$
 
-$$h_2 = 15.0 \text{ mm Hg} \times \frac{490,000}{40,000} = 15.0 \text{ mm Hg} \times 12.25$$
+$$h_2 = 15.0 \text{ mm Hg} \times \frac{490,000 \text{ km}^2/\text{h}^2}{40,000 \text{ km}^2/\text{h}^2} = 15.0 \text{ mm Hg} \times 12.25$$
 
 $$h_2 = 184 \text{ mm Hg}$$
 
@@ -978,10 +978,10 @@ $$\frac{1}{2}v^2 = gh_{max}$$
 $$h_{max} = \frac{v^2}{2g}$$
 
 **(a)** With nozzle (v = 25.5 m/s):
-$$h_{max} = \frac{(25.5 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{650.25}{19.6} = 33.2 \text{ m}$$
+$$h_{max} = \frac{(25.5 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{650.25 \text{ m}^2/\text{s}^2}{19.6 \text{ m/s}^2} = 33.2 \text{ m}$$
 
 **(b)** Without nozzle (v = 1.96 m/s):
-$$h_{max} = \frac{(1.96 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3.84}{19.6} = 0.196 \text{ m} \approx 0.20 \text{ m}$$
+$$h_{max} = \frac{(1.96 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3.84 \text{ m}^2/\text{s}^2}{19.6 \text{ m/s}^2} = 0.196 \text{ m} \approx 0.20 \text{ m}$$
 
 **Discussion**
 
@@ -1018,7 +1018,7 @@ Given:
 Using Bernoulli's principle, the pressure difference is:
 $$\Delta P = \frac{1}{2}\rho v^2 = \frac{1}{2}(1.14 \text{ kg/m}^3)(45.0 \text{ m/s})^2$$
 
-$$\Delta P = \frac{1}{2}(1.14)(2025) = 1154 \text{ N/m}^2 \approx 1.15 \text{ kPa}$$
+$$\Delta P = \frac{1}{2}(1.14 \text{ kg/m}^3)(2025 \text{ m}^2/\text{s}^2) = 1154 \text{ N/m}^2 \approx 1.15 \text{ kPa}$$
 
 The upward force on the roof is:
 $$F = \Delta P \times A = (1154 \text{ N/m}^2)(220 \text{ m}^2) = 2.54 \times 10^5 \text{ N}$$
@@ -1062,7 +1062,7 @@ $$\Delta P = P_b - P_f = \frac{1}{2}\rho(v_f^2 - v_b^2)$$
 
 $$\Delta P = \frac{1}{2}(1.29 \text{ kg/m}^3)[(6.00 \text{ m/s})^2 - (3.50 \text{ m/s})^2]$$
 
-$$\Delta P = \frac{1}{2}(1.29)(36.0 - 12.25) = \frac{1}{2}(1.29)(23.75) = 15.3 \text{ N/m}^2$$
+$$\Delta P = \frac{1}{2}(1.29 \text{ kg/m}^3)(36.0 \text{ m}^2/\text{s}^2 - 12.25 \text{ m}^2/\text{s}^2) = \frac{1}{2}(1.29 \text{ kg/m}^3)(23.75 \text{ m}^2/\text{s}^2) = 15.3 \text{ N/m}^2$$
 
 Force per square meter:
 $$F = \Delta P \times A = 15.3 \text{ N/m}^2 \times 1.00 \text{ m}^2 = 15.3 \text{ N}$$
@@ -1116,12 +1116,12 @@ $$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
 
 $$\Delta P = P_1 - P_2 = \frac{1}{2}\rho(v_2^2 - v_1^2)$$
 
-$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)[(56.6)^2 - (6.29)^2] \text{ m}^2/\text{s}^2$$
+$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)[(56.6 \text{ m/s})^2 - (6.29 \text{ m/s})^2]$$
 
-$$\Delta P = \frac{1}{2}(1000)(3204 - 39.6) = \frac{1}{2}(1000)(3164) = 1.58 \times 10^6 \text{ N/m}^2$$
+$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)(3204 \text{ m}^2/\text{s}^2 - 39.6 \text{ m}^2/\text{s}^2) = \frac{1}{2}(1000 \text{ kg/m}^3)(3164 \text{ m}^2/\text{s}^2) = 1.58 \times 10^6 \text{ N/m}^2$$
 
 **(b)** Maximum height from nozzle exit velocity:
-$$h_{max} = \frac{v_2^2}{2g} = \frac{(56.6 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3204}{19.6} = 163 \text{ m}$$
+$$h_{max} = \frac{v_2^2}{2g} = \frac{(56.6 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3204 \text{ m}^2/\text{s}^2}{19.6 \text{ m/s}^2} = 163 \text{ m}$$
 
 **Discussion**
 
@@ -1192,7 +1192,7 @@ Given:
 
 $$v = \sqrt{\frac{2(13,600 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.200 \text{ m})}{1.29 \text{ kg/m}^3}}$$
 
-$$v = \sqrt{\frac{53,312}{1.29}} = \sqrt{41,327} = 203 \text{ m/s}$$
+$$v = \sqrt{\frac{53,312 \text{ Pa}}{1.29 \text{ kg/m}^3}} = \sqrt{41,327 \text{ m}^2/\text{s}^2} = 203 \text{ m/s}$$
 
 **Discussion**
 

@@ -11,15 +11,21 @@
  * - Real-time search as you type
  */
 
-// Import MiniSearch from CDN
-import MiniSearch from 'https://cdn.jsdelivr.net/npm/minisearch@7.1.0/+esm';
+// Import self-hosted MiniSearch for full offline PWA support
+import MiniSearch from './minisearch.js';
 
 class SearchManager {
   constructor() {
     this.miniSearch = null;
     this.documents = [];
     this.isReady = false;
-    this.baseUrl = '/physics-book/';
+    // Derive base URL dynamically from window.Book.rootUrl (set by Eleventy in head.njk)
+    // Pages: '/physics-book/' | Vercel: '/'
+    const rootUrl =
+      typeof window !== 'undefined' && window.Book && typeof window.Book.rootUrl === 'string'
+        ? window.Book.rootUrl
+        : '';
+    this.baseUrl = rootUrl ? `${rootUrl.replace(/\/+$/, '')}/` : '/';
   }
 
   /**
@@ -75,10 +81,17 @@ class SearchManager {
       // Limit results and enrich with document data
       return results.slice(0, maxResults).map(result => {
         const doc = this.documents.find(d => d.id === result.id);
+        const rawUrl = doc?.url || result.url || '';
+        const base = this.baseUrl.endsWith('/') ? this.baseUrl : `${this.baseUrl}/`;
+        const url =
+          rawUrl.startsWith('/') && rawUrl.startsWith(base)
+            ? rawUrl
+            : `${base}${rawUrl.replace(/^\/+/, '')}`;
+
         return {
           id: result.id,
           title: doc?.title || result.title,
-          url: doc?.url || result.url,
+          url,
           preview: doc?.preview || result.preview,
           score: result.score,
         };

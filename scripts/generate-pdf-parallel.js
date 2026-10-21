@@ -12,6 +12,7 @@ import fs from 'fs';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { chromium } from '@playwright/test';
+import { extractPageContent, injectMathCss } from './lib/pdf-content.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -177,6 +178,7 @@ class ParallelPDFGenerator {
         urls.push(this.fileToUrl(section.sectionFile));
       }
 
+      const mathCss = new Set();
       let combinedHtml = `
         <!DOCTYPE html>
         <html>
@@ -197,14 +199,7 @@ class ParallelPDFGenerator {
           await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
           await this.waitForMathJax(page);
 
-          const content = await page.evaluate(() => {
-            const main =
-              document.querySelector('.markdown-section') ||
-              document.querySelector('main') ||
-              document.querySelector('article') ||
-              document.body;
-            return main.innerHTML;
-          });
+          const content = await extractPageContent(page, mathCss);
 
           combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
         } catch (_e) {
@@ -213,6 +208,7 @@ class ParallelPDFGenerator {
       }
 
       combinedHtml += '</body></html>';
+      combinedHtml = injectMathCss(combinedHtml, mathCss);
 
       await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
       await page.waitForTimeout(this.mathJaxWaitTime);

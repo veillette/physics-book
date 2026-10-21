@@ -60,7 +60,7 @@ varies. The area under the curve is divided into strips, each having an average
 force $$ \left( F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$ \left( F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and the total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
 total area under the curve, a useful property to which we shall refer later.
 
-![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_01.jpg '(a) A graph of \( F\cos{ \theta} \) vs. \( d \) , when \( F \cos{ \theta} \) is constant. The area under the curve represents the work done by the force. (b) A graph of \( F \cos{ \theta} \) vs. \( d \) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.')
+![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_01.svg '(a) A graph of \( F\cos{ \theta} \) vs. \( d \) , when \( F \cos{ \theta} \) is constant. The area under the curve represents the work done by the force. (b) A graph of \( F \cos{ \theta} \) vs. \( d \) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.')
 {: #Figure1}
 
 Net work will be simpler to examine if we consider a one-dimensional situation
@@ -68,7 +68,7 @@ where a force is used to accelerate an object in a direction parallel to its
 initial velocity. Such a situation occurs for the package on the roller belt
 conveyor system shown in [Figure 2](#Figure2).
 
-![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_07_02_02.jpg 'A package on a roller belt is pushed horizontally through a distance \( d \). ')
+![A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.](../resources/Figure_07_02_02.svg 'A package on a roller belt is pushed horizontally through a distance \( d \). ')
 {: #Figure2}
 
 The force of gravity and the normal force acting on the package are
@@ -153,7 +153,7 @@ has at 50 km/h, helping to explain why high-speed collisions are so devastating.
 We will now consider a series of examples to illustrate various aspects of work
 and energy.
 
-::: example
+::: example {"class":"example","id":"package-energy"}
 
 <div class="title">
 Calculating the Kinetic Energy of a Package
@@ -183,6 +183,7 @@ Entering known values gives
 which yields
 
 <div class="equation">
+ <!-- physics: eq-5 -->
  $$ \KE=3.75 \kg \cdot \mmss=3.75 \J . $$
 </div>
 
@@ -196,7 +197,7 @@ can move packages like this without exhausting themselves.
 
 :::
 
-::: example
+::: example {"class":"example","id":"package-work"}
 
 <div class="title">
 Determining the Work to Accelerate a Package
@@ -221,6 +222,7 @@ distance.
 The net force is the push force minus friction, or $$ F_{\text{net}} = 120 N - 5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
+<!-- physics: eq-1 -->
 $$ \begin{array}{lll}
 W_{\text{net}}&=& F_{\text{net}}d=\left(115 \N \right)\left(0.800 \m \right)\\
 W_{\text{net}}&=& 92.0 \N \cdot \m=92.0 \J .
@@ -320,12 +322,14 @@ Solving for $$ \frac{1}{2}m v^{2} $$ gives
 Thus,
 
 <div class="equation">
+ <!-- physics: eq-7 -->
  $$ \frac{1}{2}m v^{2}=92.0 \J+3.75 \J =95.75 \J . $$
 </div>
 
 Solving for the final speed as requested and entering known values gives
 
 <div class="equation">
+<!-- physics: eq-8 -->
 $$ \begin{array}{lll}
 v&=& \sqrt{\frac{2\text{(95.75 J)}}{m}}=\sqrt{\frac{191.5 \kg \cdot \mmss }{30.0 \kg }}\\
 v&=& 2.53 \ms .
@@ -340,7 +344,7 @@ the package. This means that the work indeed adds to the energy of the package.
 
 :::
 
-::: example
+::: example {"class":"example","id":"package-coast"}
 
 <div class="title">
 Work and Energy Can Reveal Distance, Too
@@ -364,16 +368,18 @@ horizontal friction force is then the net force, and it acts opposite to the
 displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
 package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
-due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
+due to the pushing. Thus <!-- physics: eq-2 -->$$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
 is the distance it takes to stop. Thus,
 
 <div class="equation">
+ <!-- physics: eq-5 -->
  $$ d^{\prime} =-\frac{ W_{\text{fr}}}{f}=-\frac{-95.75 \J }{5.00 \N }, $$
 </div>
 
 and so
 
 <div class="equation">
+ <!-- physics: eq-6 -->
  $$ d^{\prime} =19.2 \m . $$
 </div>
 
@@ -414,6 +420,32 @@ The person in [Figure 3](#Figure3) does work on the lawn mower. Under what condi
 
 :::
 
+::: solution
+
+**Strategy**
+
+By the work-energy theorem, the mower's kinetic energy increases if the net work done on it is positive and decreases if it is negative. Take $$ +x $$ in the direction the mower moves. Compare the work done by the person's horizontal force component, $$ F\cos\theta $$, with the work done by friction.
+
+**Solution**
+
+The net work over a displacement $$ d $$ is
+
+<div class="equation">
+$$ W_{\text{net}} = Fd\cos\theta - fd = \Delta\KE $$
+</div>
+
+where $$ f $$ is the friction (and grass resistance) opposing the motion. The normal force and the weight are perpendicular to the motion and do no work. Suppose the person pushes with $$ F = 80 \N $$ at $$ \theta = 30° $$ below the horizontal over $$ d = 10 \m $$. The person does $$ (80 \N)(10 \m)\cos 30° = 693 \J $$ of work.
+
+- **The mower gains energy** if friction is smaller than the forward component of the push. With $$ f = 60 \N $$, $$ W_{\text{net}} = 693 \J - (60 \N)(10 \m) = +93 \J $$, so the mower speeds up.
+- **The mower loses energy** if friction is larger than the forward component of the push. In thicker grass, with $$ f = 75 \N $$, $$ W_{\text{net}} = 693 \J - 750 \J = -57 \J $$, so the mower slows down. It also loses energy if the person stops pushing ($$ F = 0 $$) or pulls back on it while it rolls forward.
+- **Its kinetic energy stays constant** when $$ F\cos\theta = f $$ (here $$ f = 69.3 \N $$), the case of steady mowing.
+
+Note that pushing down at a steep angle wastes effort: the downward component $$ F\sin\theta $$ presses the mower into the ground, increasing the normal force and therefore the friction.
+
+The mower gains energy when the net work on it is positive, that is, when the forward component of the push, $$ F\cos\theta $$, is larger than the friction force (for example, $$ +93 \J $$ over $$ 10 \m $$ for $$ 69.3 \N $$ forward against $$ 60 \N $$), and it loses energy when friction is the larger of the two or when the person stops pushing.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -424,6 +456,28 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a system and look for one example of an outside force doing positive work on it, and one example of the system exerting a force that does work on something outside it.
+
+**Solution**
+
+**Work done on a system.** You push a $$ 10 \kg $$ cart, initially at rest on a smooth level floor, with a horizontal force of $$ 50 \N $$ over $$ 4.0 \m $$. Take $$ +x $$ in the direction of the push. You do work
+
+<div class="equation">
+$$ W = Fd = (50 \N)(4.0 \m) = 200 \J $$
+</div>
+
+on the cart, and its kinetic energy increases from $$ 0 \J $$ to $$ 200 \J $$, so it moves at $$ \sqrt{2(200 \J)/(10 \kg)} = 6.3 \ms $$. Energy has gone into the system (the cart).
+
+**Work done by a system.** A moving hammer (the system) drives a nail into wood. The hammer exerts a force of about $$ 500 \N $$ on the nail while the nail moves $$ 0.020 \m $$ into the wood, so the hammer does $$ (500 \N)(0.020 \m) = 10 \J $$ of work on the nail. By Newton's third law the nail pushes back on the hammer, opposite to its motion, doing $$ -10 \J $$ of work on it, so the hammer loses $$ 10 \J $$ of kinetic energy. The energy goes into the nail and wood (mostly as thermal energy).
+
+Pushing a cart with $$ 50 \N $$ over $$ 4.0 \m $$ does $$ 200 \J $$ of work on it and gives it $$ 200 \J $$ of kinetic energy, while a hammer that does $$ 10 \J $$ of work on a nail loses $$ 10 \J $$ of its own kinetic energy.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -431,6 +485,26 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 ::: problem
 
 When solving for speed in [Example 3](#example3), we kept only the positive root. Why?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Look at what the square root represents. Kinetic energy depends on $$ v^{2} $$, so solving for $$ v $$ gives two roots, $$ \pm\sqrt{2\KE/m} $$. Ask which one is physically meaningful in Example 3.
+
+**Solution**
+
+In Example 3 the final kinetic energy was $$ \tfrac{1}{2}mv^{2} = 95.75 \J $$ for a $$ 30.0 \kg $$ package, so
+
+<div class="equation">
+$$ v^{2} = \frac{2(95.75 \J)}{30.0 \kg} = 6.38 \mmss \quad \Rightarrow \quad v = \pm 2.53 \ms $$
+</div>
+
+Both roots satisfy the equation, because $$ (+2.53 \ms)^2 $$ and $$ (-2.53 \ms)^2 $$ are both $$ 6.38 \mmss $$. Kinetic energy depends only on the square of the speed, so it carries no information about direction. What we were solving for is the **speed**, the magnitude of the velocity, and a magnitude cannot be negative, so we keep $$ v = +2.53 \ms $$. The direction comes from the physical situation: the package moves in the direction it was pushed.
+
+We kept only the positive root because kinetic energy depends on $$ v^{2} $$ and gives only the speed, a magnitude that cannot be negative, so the package's speed is $$ 2.53 \ms $$ and its direction is the direction of the push.
 
 :::
 
@@ -459,7 +533,7 @@ Convert speeds to m/s:
 
 <div class="equation">
 $$ \begin{array}{lll}
-v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.6\ms\\
+v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.56\ms\\
 v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\ms
 \end{array} $$
 </div>
@@ -467,7 +541,7 @@ v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\m
 Kinetic energy of truck:
 
 <div class="equation">
- $$ \KE_{\text{truck}} = \frac{1}{2}(20000\kg)(30.6\ms)^{2} = 9.37 \times 10^{6}\J $$
+ $$ \KE_{\text{truck}} = \frac{1}{2}(20000\kg)(30.56\ms)^{2} = 9.34 \times 10^{6}\J $$
 </div>
 
 Kinetic energy of astronaut:
@@ -479,7 +553,9 @@ Kinetic energy of astronaut:
 The ratio is:
 
 <div class="equation">
- $$ \frac{\KE_{\text{truck}}}{\KE_{\text{astronaut}}} = \frac{9.37 \times 10^{6}\J}{2.33 \times 10^{9}\J} = 4.02 \times 10^{-3} \approx \frac{1}{250} $$
+ $$ \frac{\KE_{\text{truck}}}{\KE_{\text{astronaut}}} = \frac{9.34 \times 10^{6}\J}{2.33 \times 10^{9}\J} = 4.00 \times 10^{-3} = \frac{1}{250} $$
+
+The ratio is exactly 1/250: the truck's mass is 250 times the astronaut's and the astronaut's speed is 250 times the truck's, so $$\KE_{\text{truck}}/\KE_{\text{astronaut}} = 250 \times (1/250)^2 = 1/250$$.
 </div>
 
 **Discussion**
@@ -488,7 +564,7 @@ The truck's kinetic energy is only 1/250th that of the astronaut in orbit. Even 
 
 **Answer**
 
-The truck has a kinetic energy of $$ 9.37 \times 10^{6} \J $$, while the astronaut has $$ 2.33 \times 10^{9} \J $$. The astronaut's kinetic energy is approximately 250 times greater than the truck's.
+The truck has a kinetic energy of $$ 9.34 \times 10^{6} \J $$, while the astronaut has $$ 2.33 \times 10^{9} \J $$. The astronaut's kinetic energy is approximately 250 times greater than the truck's.
 
 :::
 
@@ -582,7 +658,7 @@ Calculate kinetic energy:
 <div class="equation">
 $$ \begin{array}{lll}
 \KE &=& \frac{1}{2}mv^{2} = \frac{1}{2}(9.00 \times 10^{7}\kg)(15.4\ms)^{2}\\
-\KE &=& \frac{1}{2}(9.00 \times 10^{7})(237.16)\J\\
+\KE &=& \frac{1}{2}(9.00 \times 10^{7}\kg)(237.16\mmss)\\
 \KE &=& 1.07 \times 10^{10}\J \approx 1.1 \times 10^{10}\J
 \end{array} $$
 </div>
@@ -613,6 +689,12 @@ The kinetic energy of the aircraft carrier is $$ 1.1 \times 10^{10} \J $$ (11 bi
 **Strategy**
 
 We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$. We apply this to both scenarios—normal braking and hitting an abutment—to compare the forces.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the car moves, with the origin where the stopping force starts to act. The car starts with v_0 = +25.0 m/s (90.0 km/h) and stops (v = 0) after a distance d: 120 m in part (a), 2.00 m in part (b). The stopping force F on the car points along −x, opposite to the displacement.](../resources/sketch_07_02_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car moves. The displacement is $$ +d $$ and the stopping force points along $$ -x $$, so its work is $$ W = -Fd $$, which must equal $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} $$.
 
 **Solution**
 
@@ -806,6 +888,12 @@ force of 30.0 N against him.
 
 The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F_{\text{wind}})d = \Delta \KE $$.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the sprinter runs. Over d = 25.0 m the speed rises from v_i = +2.00 m/s to v_f = +8.00 m/s. Forces on the sprinter along x: the track pushes forward with F_sprinter along +x (the reaction to his backward push on the track) and the headwind pushes back with F_wind = 30.0 N along −x.](../resources/sketch_07_02_p07.svg){: .sketch}
+
+Take $$ +x $$ in the direction the sprinter runs. The track's forward push on the sprinter, $$ F_{\text{sprinter}} $$ (equal in size to his backward push on the track), points along $$ +x $$ and the headwind force along $$ -x $$, so the net work over $$ d = +25.0\m $$ is $$ (F_{\text{sprinter}} - F_{\text{wind}})d $$.
+
 **Solution**
 
 Calculate the change in kinetic energy:
@@ -814,7 +902,7 @@ Calculate the change in kinetic energy:
 $$ \begin{array}{lll}
 \Delta \KE &=& \frac{1}{2}m(v_{f}^{2} - v_{i}^{2})\\
 \Delta \KE &=& \frac{1}{2}(60.0\kg)[(8.00\ms)^{2} - (2.00\ms)^{2}]\\
-\Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0 - 4.00)\text{ m}^{2}/\text{s}^{2}\\
+\Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0\mmss - 4.00\mmss)\\
 \Delta \KE &=& 1800\J
 \end{array} $$
 </div>

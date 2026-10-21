@@ -39,7 +39,7 @@ particle in the universe attracts every other particle with a force along a line
 joining them. The force is directly proportional to the product of their masses
 and inversely proportional to the square of the distance between them.
 
-![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.jpg 'Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton’s third law.')
+![The given figure shows two circular objects, one with a larger mass M on the right side, and another with a smaller mass m on the left side. A point in the center of each object is shown, with both depicting the center of mass of the objects at these points. A line is drawn joining the center of the objects and is labeled as r. Two red arrows, one each from both the center of the objects, are drawn toward each other and are labeled as F, the magnitude of the gravitational force on both the objects.](../resources/Figure_06_05_02.svg 'Gravitational attraction is along a line joining the centers of mass of these two bodies. The magnitude of the force is the same on each, consistent with Newton’s third law.')
 {: #Figure2}
 
 :::: note {"class":"note","data-label":""}
@@ -73,7 +73,7 @@ universal gravitational constant—that is, it is thought to be the same
 everywhere in the universe. It has been measured experimentally to be
 
 <div class="equation">
- $$ G=6.674 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}} $$
+ $$ G=6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\frac{ \N \cdot \mm}{ {\kg }^{2}} $$
 </div>
 
 in SI units. Note that the units of $$ G $$ are such that a force in newtons is
@@ -107,7 +107,7 @@ Substituting known values for Earth’s mass and radius (to three significant
 figures),
 
 <div class="equation">
- $$ g=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(6.38 \times 10^{6}\m \right)^{2}}, $$
+ $$ g=\left(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(6.38 \times 10^{6}\m \right)^{2}}, $$
 </div>
 
 and we obtain a value for the acceleration of a falling body:
@@ -180,7 +180,7 @@ remembering that $$ M $$ is the mass of Earth not the Moon, yields
 
 <div class="equation">
 $$ \begin{array}{lll}
-g&=& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
+g&=& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
 g&=& 2.70 \times 10^{-3}\mss .
 \end{array} $$
 </div>
@@ -252,7 +252,7 @@ force as discussed
 in [Satellites and Kepler\'s Laws: An Argument for Simplicity](./ch6SatellitesAndKeplersLaws)
 .
 
-![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth’s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](../resources/Figure_06_05_04.jpg '(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth’s path around the Sun has “wiggles” in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets’ reflected light is often too dim to be observed.')
+![Figure a shows the Earth and the Moon around it orbiting in a circular path shown here as a circle around the Earth with an arrow over it showing the counterclockwise direction of the Moon. The center of mass of the circle is shown here with a point on the Earth that is not the Earth’s center but just right to its center. Figure b shows the Sun and the counterclockwise rotation of the Earth around it, in an elliptical path, which has wiggles. Along this path the center of mass of the Earth-Moon is also shown; it follows non-wiggled elliptical path.](/resources/Figure_06_05_04.svg '(a) Earth and the Moon rotate approximately once a month around their common center of mass. (b) Their center of mass orbits the Sun in an elliptical orbit, but Earth’s path around the Sun has “wiggles” in it. Similar wiggles in the paths of stars have been observed and are considered direct evidence of planets orbiting those stars. This is important because the planets’ reflected light is often too dim to be observed.')
 {: #Figure4 height="185"}
 
 ### Tides
@@ -271,7 +271,7 @@ orbits) keeps its orientation with the Moon. Thus there are two tides per day (
 the actual tidal period is about 12 hours and 25.2 minutes), because the Moon
 moves in its orbit each day as well).
 
-![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon’s velocity.](../resources/Figure_06_05_05.jpg 'The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.')
+![The given figure shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. The right and left side of the ellipse are labeled as High tide and the top and bottom side are labeled as Low tide. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upwards vector from its top is also shown, which indicates the direction of the Moon’s velocity.](/resources/Figure_06_05_05.svg 'The Moon causes ocean tides by attracting the water on the near side more than Earth, and by attracting Earth more than the water on the far side. The distances and sizes are not to scale. For this simplified representation of the Earth-Moon system, there are two high and two low tides per day at any location, because Earth rotates under the tidal bulge.')
 {: #Figure5}
 
 The Sun also affects tides, although it has about half the effect of the Moon.
@@ -279,7 +279,7 @@ However, the largest tides, called spring tides, occur when Earth, the Moon, and
 the Sun are aligned. The smallest tides, called neap tides, occur when the Sun
 is at a $$ 90^\circ $$ angle to the Earth-Moon alignment.
 
-![Figure a shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upward vector from its top is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape with pointed wiggles throughout its boundary. Figure b shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertical downward vector from its bottom is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary. Figure c shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A horizontal rightward vector from its right side is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary.](../resources/Figure_06_05_06.jpg '(a, b) Spring tides: The highest tides occur when Earth, the Moon, and the Sun are aligned. (c) Neap tide: The lowest tides occur when the Sun lies at 90 degrees to the Earth-Moon alignment. Note that this figure is not drawn to scale.')
+![Figure a shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertically upward vector from its top is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape with pointed wiggles throughout its boundary. Figure b shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A vertical downward vector from its bottom is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary. Figure c shows an ellipse, inside which there is a circular image of the Earth. There is a curved arrow in the lower part of the Earth’s image pointing in the counterclockwise direction. Alongside this image a circular image of the Moon is also given with dots showing the crates over it. A horizontal rightward vector from its right side is also drawn, which shows the direction of velocity. To the right side of the image, an image of the Sun is also shown, in a circular shape and pointed wiggles throughout its boundary.](/resources/Figure_06_05_06.svg '(a, b) Spring tides: The highest tides occur when Earth, the Moon, and the Sun are aligned. (c) Neap tide: The lowest tides occur when the Sun lies at 90 degrees to the Earth-Moon alignment. Note that this figure is not drawn to scale.')
 {: #Figure6}
 
 Tides are not unique to Earth but occur in many astronomical systems. The most
@@ -453,6 +453,34 @@ Action at a distance, such as is the case for gravity, was once thought to be il
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Identify how physical theories are tested, then apply this to Newton's law of gravitation with a quantitative test.
+
+**Solution**
+
+The ultimate determinant of truth in physics is **experiment and observation**. A theory is accepted when its predictions agree with measurements, however strange its picture of the world may seem. Many thinkers in Newton's time objected that a force acting across empty space, with nothing touching, was illogical. Newton's law of gravitation was accepted because it worked.
+
+One of its first successes was the "Moon test." If gravity weakens as $$ 1/r^{2} $$, then at the Moon's distance, about 60.3 Earth radii, it should produce an acceleration of
+
+<div class="equation">
+$$ a = g\left(\frac{R_{E}}{r}\right)^{2} = (9.80 \mss)\left(\frac{1}{60.3}\right)^{2} = 2.70 \times 10^{-3} \mss $$
+</div>
+
+The Moon's measured centripetal acceleration, with $$ r = 3.84 \times 10^{8} \m $$ and $$ T = 27.3 \text{ d} = 2.36 \times 10^{6} \s $$, is
+
+<div class="equation">
+$$ a_{c} = \frac{4\pi^{2}r}{T^{2}} = \frac{4\pi^{2}(3.84 \times 10^{8} \m)}{(2.36 \times 10^{6} \s)^2} = 2.72 \times 10^{-3} \mss $$
+</div>
+
+in close agreement. The same law then explained Kepler's laws, the tides, and the motion of comets, and it predicted the return of Halley's comet in 1758 and led to the discovery of Neptune in 1846. Faced with such agreement, physicists accepted action at a distance. (Later, the field concept and general relativity gave a different picture of how gravity acts, which again had to pass experimental tests.)
+
+The ultimate determinant of truth in physics is agreement with experiment and observation, and action at a distance was accepted because Newton's law of gravitation correctly predicted measured motions, such as the Moon's centripetal acceleration of about $$ 2.7 \times 10^{-3} \mss $$, the planets' orbits, the tides, and the return of comets.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -460,6 +488,28 @@ Action at a distance, such as is the case for gravity, was once thought to be il
 :::: problem
 
 Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not $$ 9.80 \mss $$. Who do you agree with and why?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Use the definition of free fall: motion under the influence of gravity alone. Then check the value of $$ g $$ at a typical orbital altitude with Newton's law of gravitation.
+
+**Solution**
+
+Agree with **Anna**. An object is in free fall when **gravity is the only force** acting on it, whatever the value of the gravitational acceleration. A satellite in orbit has no thrust, no support, and essentially no air resistance, so it is in free fall. It falls toward Earth continuously, but it moves sideways fast enough that the ground curves away beneath it, so it keeps missing.
+
+Tom is right that the acceleration is not $$ 9.80 \mss $$, but that does not matter. From $$ g = GM/r^{2} $$, gravity weakens with distance from Earth's center. For the International Space Station, about $$ 400 \text{ km} $$ above the surface, $$ r = 6.77 \times 10^{6} \m $$:
+
+<div class="equation">
+$$ g = \frac{GM}{r^{2}} = \frac{(6.67 \times 10^{-11} \N \cdot \mm/\kg^{2})(5.98 \times 10^{24} \kg)}{(6.77 \times 10^{6} \m)^2} = 8.70 \mss $$
+</div>
+
+The station and the astronauts inside fall with this same acceleration, which is why they float relative to one another.
+
+Anna is right: the satellite is in free fall because gravity is the only force acting on it, and the fact that the gravitational acceleration at its altitude is smaller than $$ 9.80 \mss $$ (about $$ 8.70 \mss $$ at $$ 400 \text{ km} $$) does not change that.
 
 ::::
 
@@ -473,6 +523,34 @@ Draw a free body diagram for a satellite in an elliptical orbit showing why its 
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The only force on the satellite is gravity, directed toward the parent body. Split this force into a component along the velocity (which changes the speed) and a component perpendicular to it (which changes the direction).
+
+**Solution**
+
+![An elliptical orbit with the planet at one focus; the satellite moves counterclockwise. The only force on the satellite is gravity, pointing toward the planet. At a point where the satellite approaches the planet, the force has a component along the velocity (dashed), so the satellite speeds up. At a point where it moves away, the force has a component opposite the velocity, so it slows down.](../resources/concept_06_05_q03.svg)
+
+The free-body diagram has a single force, the gravitational force $$ F = GMm/r^{2} $$, always pointing toward the planet. On a circular orbit this force is always perpendicular to the velocity, so it changes only the direction of motion. On an ellipse it generally is not:
+
+- **Approaching the planet:** the force makes an angle of less than $$ 90° $$ with the velocity. Its component along $$ \vb{v} $$ points forward, so the satellite **speeds up**. Gravity does positive work on it.
+- **Moving away:** the force makes an angle of more than $$ 90° $$ with the velocity. Its component along $$ \vb{v} $$ points backward, so the satellite **slows down**. Gravity does negative work on it.
+- **At the closest and farthest points,** the force is perpendicular to the velocity, and the speed is at its maximum and minimum, respectively.
+
+The force is also strongest near the planet. For a $$ 1000 \kg $$ satellite at $$ r = 7.0 \times 10^{6} \m $$ from Earth's center,
+
+<div class="equation">
+$$ F = \frac{GMm}{r^{2}} = \frac{(6.67 \times 10^{-11} \N \cdot \mm/\kg^{2})(5.98 \times 10^{24} \kg)(1000 \kg)}{(7.0 \times 10^{6} \m)^2} = 8.1 \times 10^{3} \N $$
+</div>
+
+while at twice that distance it is only a quarter as large, $$ 2.0 \times 10^{3} \N $$.
+
+A satellite on an elliptical orbit speeds up as it approaches its parent body because the gravitational force, the only force on it, has a component along its velocity, and it slows down as it moves away because that component then points opposite to its velocity.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -480,6 +558,22 @@ Draw a free body diagram for a satellite in an elliptical orbit showing why its 
 :::: problem
 
 Newton’s laws of motion and gravity were among the first to convincingly demonstrate the underlying simplicity and unity in nature. Many other examples have since been discovered, and we now expect to find such underlying order in complex situations. Is there proof that such order will always be found in new explorations?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Distinguish between what has been found in the past and what can be proven about the future, using the unification Newton achieved as an example.
+
+**Solution**
+
+Newton showed that one law, $$ F = GMm/r^{2} $$, governs both an apple falling at $$ 9.80 \mss $$ near Earth's surface and the Moon, 60 times farther from Earth's center, accelerating at $$ (9.80 \mss)/60^{2} = 2.7 \times 10^{-3} \mss $$. Since then, many other unifications have been found: electricity, magnetism, and light in electromagnetism; heat as the random motion of molecules; and the electromagnetic and weak nuclear forces as two aspects of one interaction.
+
+There is **no proof**, however, that such order will always be found. Science works by induction: we generalize from a limited number of observations, and no number of past successes can logically guarantee future ones. Our expectation of underlying simplicity is a working assumption, strongly supported by experience, that guides research. It could fail in a new area. Today, for example, there is no accepted theory that unifies gravity with quantum mechanics, and the nature of dark matter and dark energy remains unknown.
+
+There is no proof that underlying order will always be found in new explorations; the expectation rests on the repeated success of unifications such as Newton's (one law explaining both the apple's $$ 9.80 \mss $$ and the Moon's $$ 2.7 \times 10^{-3} \mss $$), but past success cannot logically guarantee future discoveries.
 
 ::::
 
@@ -526,14 +620,14 @@ Convert radius to meters:
 $$ r = 6372\text{ km} = 6.372 \times 10^6\text{ m} $$
 </div>
 
-Substitute values with $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²:
+Substitute values with $$ G = 6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$ N·m²/kg²:
 
 <div class="equation">
 $$ M = \frac{(9.807\text{ m/s}^2)(6.372 \times 10^6\text{ m})^2}{6.674 \times 10^{-11}\text{ N·m}^2\text{/kg}^2} $$
 </div>
 
 <div class="equation">
-$$ M = \frac{(9.807)(4.0602 \times 10^{13})}{6.674 \times 10^{-11}} = \frac{3.9819 \times 10^{14}}{6.674 \times 10^{-11}} = 5.966 \times 10^{24}\text{ kg} $$
+$$ M = \frac{(9.807 \mss)(4.0602 \times 10^{13} \mm)}{6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2} = \frac{3.9819 \times 10^{14} \text{m}^3/\text{s}^2}{6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2} = 5.966 \times 10^{24}\text{ kg} $$
 </div>
 
 (b) Compare with the accepted value:
@@ -573,32 +667,32 @@ We'll use Newton's law of gravitation $$ F = G\frac{mM}{r^2} $$ to find the grav
 (a) Calculate acceleration due to the Moon. Using:
 - Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
 - Earth-Moon distance: $$ r_{\text{Moon}} = 3.84 \times 10^{8} $$ m
-- $$ G = 6.67 \times 10^{-11} $$ N·m²/kg²
+- $$ G = 6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$ N·m²/kg²
 
 <div class="equation">
-$$ a_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.67 \times 10^{-11})\frac{7.35 \times 10^{22}}{(3.84 \times 10^{8})^2} $$
+$$ a_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{7.35 \times 10^{22} \kg}{(3.84 \times 10^{8} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ a_{\text{Moon}} = \frac{4.90 \times 10^{12}}{1.47 \times 10^{17}} = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+$$ a_{\text{Moon}} = \frac{4.90 \times 10^{12} \text{m}^3/\text{s}^2}{1.47 \times 10^{17} \mm} = 3.33 \times 10^{-5}\text{ m/s}^2 $$
 </div>
 
 (b) Calculate acceleration due to the Sun. Using:
-- Mass of Sun: $$ M_{\text{Sun}} = 1.99 \times 10^{30} $$ kg
-- Earth-Sun distance: $$ r_{\text{Sun}} = 1.50 \times 10^{11} $$ m
+- Mass of Sun: $$ M_{\text{Sun}} = 1.99 \times 10^{30} \kg $$ kg
+- Earth-Sun distance: $$ r_{\text{Sun}} = 1.50 \times 10^{11} \m $$ m
 
 <div class="equation">
-$$ a_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{-11})\frac{1.99 \times 10^{30}}{(1.50 \times 10^{11})^2} $$
+$$ a_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{1.99 \times 10^{30} \kg}{(1.50 \times 10^{11} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ a_{\text{Sun}} = \frac{1.33 \times 10^{20}}{2.25 \times 10^{22}} = 5.90 \times 10^{-3}\text{ m/s}^2 $$
+$$ a_{\text{Sun}} = \frac{1.33 \times 10^{20} \text{m}^3/\text{s}^2}{2.25 \times 10^{22} \mm} = 5.90 \times 10^{-3}\text{ m/s}^2 $$
 </div>
 
 (c) Calculate the ratio:
 
 <div class="equation">
-$$ \frac{a_{\text{Moon}}}{a_{\text{Sun}}} = \frac{3.33 \times 10^{-5}}{5.90 \times 10^{-3}} = 5.64 \times 10^{-3} \approx 0.006 $$
+$$ \frac{a_{\text{Moon}}}{a_{\text{Sun}}} = \frac{3.33 \times 10^{-5} \mss}{5.90 \times 10^{-3} \mss} = 5.64 \times 10^{-3} \approx 0.006 $$
 </div>
 
 **Discussion**
@@ -631,31 +725,31 @@ For both parts, we'll use $$ g = G\frac{M}{r^2} $$ to calculate surface gravity.
 (a) Calculate the acceleration due to gravity on the Moon's surface. Using:
 - Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
 - Radius of Moon: $$ r_{\text{Moon}} = 1.74 \times 10^{6} $$ m
-- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+- $$ G = 6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$ N·m²/kg²
 
 <div class="equation">
-$$ g_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.674 \times 10^{-11})\frac{7.35 \times 10^{22}}{(1.74 \times 10^{6})^2} $$
+$$ g_{\text{Moon}} = G\frac{M_{\text{Moon}}}{r_{\text{Moon}}^2} = (6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{7.35 \times 10^{22} \kg}{(1.74 \times 10^{6} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ g_{\text{Moon}} = \frac{4.91 \times 10^{12}}{3.03 \times 10^{12}} = 1.62\text{ m/s}^2 $$
+$$ g_{\text{Moon}} = \frac{4.91 \times 10^{12} \text{m}^3/\text{s}^2}{3.03 \times 10^{12} \mm} = 1.62\text{ m/s}^2 $$
 </div>
 
 (b) Calculate the acceleration due to gravity on Mars' surface. Using:
-- Mass of Mars: $$ M_{\text{Mars}} = 6.418 \times 10^{23} $$ kg
-- Radius of Mars: $$ r_{\text{Mars}} = 3.38 \times 10^{6} $$ m
+- Mass of Mars: $$ M_{\text{Mars}} = 6.418 \times 10^{23} \kg $$ kg
+- Radius of Mars: $$ r_{\text{Mars}} = 3.38 \times 10^{6} \m $$ m
 
 <div class="equation">
-$$ g_{\text{Mars}} = G\frac{M_{\text{Mars}}}{r_{\text{Mars}}^2} = (6.674 \times 10^{-11})\frac{6.418 \times 10^{23}}{(3.38 \times 10^{6})^2} $$
+$$ g_{\text{Mars}} = G\frac{M_{\text{Mars}}}{r_{\text{Mars}}^2} = (6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{6.418 \times 10^{23} \kg}{(3.38 \times 10^{6} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ g_{\text{Mars}} = \frac{4.28 \times 10^{13}}{1.14 \times 10^{13}} = 3.75\text{ m/s}^2 $$
+$$ g_{\text{Mars}} = \frac{4.28 \times 10^{13} \text{m}^3/\text{s}^2}{1.14 \times 10^{13} \mm} = 3.75\text{ m/s}^2 $$
 </div>
 
 **Discussion**
 
-The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The relatively low gravity on both bodies also explains why neither has been able to retain a substantial atmosphere—the escape velocity is lower, allowing atmospheric gases to more easily escape into space.
+The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The low gravity also helps explain why the Moon has essentially no atmosphere and Mars has only a thin one (a surface pressure of about 600 Pa, less than 1% of Earth's): a lower escape velocity lets atmospheric gases escape into space more easily.
 
 ::::
 
@@ -684,25 +778,25 @@ Never mind that you cannot.)
 (a) Calculate the acceleration due to gravity on the Sun's surface. Using:
 - Mass of Sun: $$ M_{\text{Sun}} = 1.99 \times 10^{30} $$ kg
 - Radius of Sun: $$ r_{\text{Sun}} = 6.96 \times 10^{8} $$ m
-- $$ G = 6.67 \times 10^{-11} $$ N·m²/kg²
+- $$ G = 6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$ N·m²/kg²
 
 <div class="equation">
-$$ g_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{-11})\frac{1.99 \times 10^{30}}{(6.96 \times 10^{8})^2} $$
+$$ g_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{1.99 \times 10^{30} \kg}{(6.96 \times 10^{8} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ g_{\text{Sun}} = \frac{1.33 \times 10^{20}}{4.84 \times 10^{17}} = 275\text{ m/s}^2 $$
+$$ g_{\text{Sun}} = \frac{1.33 \times 10^{20} \text{m}^3/\text{s}^2}{4.84 \times 10^{17} \mm} = 274\text{ m/s}^2 $$ (computed from the unrounded values $$ GM/R^2 = (6.67 \times 10^{-11})(1.99 \times 10^{30})/(6.96 \times 10^{8})^2 $$)
 </div>
 
 (b) Calculate the factor by which weight would increase:
 
 <div class="equation">
-$$ \frac{g_{\text{Sun}}}{g_{\text{Earth}}} = \frac{275\text{ m/s}^2}{9.80\text{ m/s}^2} = 28.1 $$
+$$ \frac{g_{\text{Sun}}}{g_{\text{Earth}}} = \frac{274\text{ m/s}^2}{9.80\text{ m/s}^2} = 28.0 $$
 </div>
 
 **Discussion**
 
-The acceleration due to gravity on the Sun's surface is 275 m/s², which is about 28 times stronger than Earth's gravity. If you could somehow stand on the Sun's surface, your weight would increase by a factor of 28.1. This means that if you weigh 70 kg (about 154 lb) on Earth, you would weigh nearly 2000 kg (about 4300 lb) on the Sun - far too much for your body to support, even before considering the intense heat and radiation!
+The acceleration due to gravity on the Sun's surface is 274 m/s², which is about 28 times stronger than Earth's gravity. If you could somehow stand on the Sun's surface, your weight would increase by a factor of 28.0. A 70-kg person, who weighs about 690 N (154 lb) on Earth, would weigh about $$1.9 \times 10^{4}$$ N (about 4300 lb) on the Sun; their mass would still be 70 kg - far too much for your body to support, even before considering the intense heat and radiation!
 
 ::::
 
@@ -738,18 +832,18 @@ they are equal and why they should or should not be.
 The distance from the center of mass to the Moon is:
 - Earth-Moon distance: $$ 3.84 \times 10^{8} $$ m
 - Distance from Earth's center to center of mass: $$ r_1 = 4.70 \times 10^{6} $$ m
-- Distance from center of mass to Moon: $$ r_2 = 3.84 \times 10^{8} - 4.70 \times 10^{6} = 3.793 \times 10^{8} $$ m
+- Distance from center of mass to Moon: $$ r_2 = 3.84 \times 10^{8} \m - 4.70 \times 10^{6} \m = 3.793 \times 10^{8} \m $$ m
 
 Using:
 - Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg
-- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+- $$ G = 6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$ N·m²/kg²
 
 <div class="equation">
-$$ a_{\text{gravity}} = G\frac{M_{\text{Moon}}}{r_2^2} = (6.674 \times 10^{-11})\frac{7.35 \times 10^{22}}{(3.793 \times 10^{8})^2} $$
+$$ a_{\text{gravity}} = G\frac{M_{\text{Moon}}}{r_2^2} = (6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{7.35 \times 10^{22} \kg}{(3.793 \times 10^{8} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ a_{\text{gravity}} = \frac{4.91 \times 10^{12}}{1.439 \times 10^{17}} = 3.41 \times 10^{-5}\text{ m/s}^2 $$
+$$ a_{\text{gravity}} = \frac{4.91 \times 10^{12} \text{m}^3/\text{s}^2}{1.439 \times 10^{17} \mm} = 3.41 \times 10^{-5}\text{ m/s}^2 $$
 </div>
 
 (b) Calculate the centripetal acceleration of Earth's center as it orbits the center of mass.
@@ -757,7 +851,7 @@ $$ a_{\text{gravity}} = \frac{4.91 \times 10^{12}}{1.439 \times 10^{17}} = 3.41 
 The angular velocity is:
 
 <div class="equation">
-$$ \omega = \frac{2\pi}{T} = \frac{2\pi}{27.3\text{ days}} = \frac{2\pi}{27.3 \times 24 \times 3600\text{ s}} = \frac{2\pi}{2.36 \times 10^6} = 2.66 \times 10^{-6}\text{ rad/s} $$
+$$ \omega = \frac{2\pi}{T} = \frac{2\pi}{27.3\text{ days}} = \frac{2\pi}{27.3 \times 24 \times 3600\text{ s}} = \frac{2\pi}{2.36 \times 10^6 \s} = 2.66 \times 10^{-6}\text{ rad/s} $$
 </div>
 
 The centripetal acceleration is:
@@ -767,19 +861,19 @@ $$ a_c = r_1\omega^{2} = (4.70 \times 10^{6}\text{ m})(2.66 \times 10^{-6}\text{
 </div>
 
 <div class="equation">
-$$ a_c = (4.70 \times 10^{6})(7.08 \times 10^{-12}) = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+$$ a_c = (4.70 \times 10^{6} \m)(7.08 \times 10^{-12} \text{s}^{-2}) = 3.33 \times 10^{-5}\text{ m/s}^2 $$
 </div>
 
 **Comparison:**
 
 <div class="equation">
-$$ \frac{a_{\text{gravity}}}{a_c} = \frac{3.41 \times 10^{-5}}{3.33 \times 10^{-5}} = 1.024 $$
+$$ \frac{a_{\text{gravity}}}{a_c} = \frac{3.41 \times 10^{-5} \mss}{3.33 \times 10^{-5} \mss} = 1.024 $$
 </div>
 
 The values are close but differ by 2.4%, and they need not be equal: they are evaluated at different points. Part (a) gives the Moon's gravitational field at the **center of mass**, 3.793 × 10⁸ m from the Moon, whereas the Earth's center, 3.84 × 10⁸ m from the Moon, is what moves on the 4700-km circle. The acceleration of the Earth's center is set by the Moon's field **at the Earth's center**:
 
 <div class="equation">
-$$ a_{\text{at Earth's center}} = G\frac{M_{\text{Moon}}}{(3.84 \times 10^{8})^2} = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+$$ a_{\text{at Earth's center}} = G\frac{M_{\text{Moon}}}{(3.84 \times 10^{8} \m)^2} = 3.33 \times 10^{-5}\text{ m/s}^2 $$
 </div>
 
 which does agree with $$ a_c $$.
@@ -810,16 +904,16 @@ Example 1 part (b) calculated the centripetal acceleration of the Moon using $$ 
 
 First, calculate the Moon's orbital velocity. Using:
 - Orbital radius: $$ r = 3.84 \times 10^{8} $$ m
-- Orbital period: $$ T = 27.3 $$ days $$ = 27.3 \times 86{,}400 $$ s $$ = 2.36 \times 10^{6} $$ s
+- Orbital period: $$ T = 27.3 $$ days $$ = (27.3 \text{ days})(86{,}400 \text{ s/day}) $$ s $$ = 2.36 \times 10^{6} $$ s
 
 <div class="equation">
-$$ v = \frac{2\pi r}{T} = \frac{2\pi(3.84 \times 10^{8}\text{ m})}{2.36 \times 10^{6}\text{ s}} = \frac{2.41 \times 10^{9}}{2.36 \times 10^{6}} = 1.02 \times 10^{3}\text{ m/s} $$
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(3.84 \times 10^{8}\text{ m})}{2.36 \times 10^{6}\text{ s}} = \frac{2.41 \times 10^{9} \m}{2.36 \times 10^{6} \s} = 1.02 \times 10^{3}\text{ m/s} $$
 </div>
 
 Now calculate the centripetal acceleration:
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} = \frac{(1.02 \times 10^{3}\text{ m/s})^2}{3.84 \times 10^{8}\text{ m}} = \frac{1.04 \times 10^{6}}{3.84 \times 10^{8}} = 2.71 \times 10^{-3}\text{ m/s}^2 $$
+$$ a_c = \frac{v^2}{r} = \frac{(1.02 \times 10^{3}\text{ m/s})^2}{3.84 \times 10^{8}\text{ m}} = \frac{1.04 \times 10^{6} \mmss}{3.84 \times 10^{8} \m} = 2.71 \times 10^{-3}\text{ m/s}^2 $$
 </div>
 
 **Discussion**
@@ -864,14 +958,14 @@ Given:
 - Mass of baby: $$ m_1 = 4.20 $$ kg
 - Mass of father: $$ m_2 = 100 $$ kg
 - Distance: $$ r = 0.200 $$ m
-- $$ G = 6.674 \times 10^{-11} $$ N·m²/kg²
+- $$ G = 6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$ N·m²/kg²
 
 <div class="equation">
-$$ F_{\text{father}} = G\frac{m_1 m_2}{r^2} = (6.674 \times 10^{-11})\frac{(4.20)(100)}{(0.200)^2} $$
+$$ F_{\text{father}} = G\frac{m_1 m_2}{r^2} = (6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{(4.20 \kg)(100 \kg)}{(0.200 \m)^2} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{father}} = \frac{(6.674 \times 10^{-11})(420)}{0.0400} = \frac{2.80 \times 10^{-8}}{0.0400} = 7.01 \times 10^{-7}\text{ N} $$
+$$ F_{\text{father}} = \frac{(6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(420 \text{kg}^2)}{0.0400 \mm} = \frac{2.80 \times 10^{-8} \text{N}\cdot\text{m}^2}{0.0400 \mm} = 7.01 \times 10^{-7}\text{ N} $$
 </div>
 
 (b) Calculate the gravitational force from Jupiter:
@@ -882,11 +976,11 @@ Given:
 - Distance: $$ r = 6.29 \times 10^{11} $$ m
 
 <div class="equation">
-$$ F_{\text{Jupiter}} = G\frac{m_1 M_{\text{Jupiter}}}{r^2} = (6.674 \times 10^{-11})\frac{(4.20)(1.90 \times 10^{27})}{(6.29 \times 10^{11})^2} $$
+$$ F_{\text{Jupiter}} = G\frac{m_1 M_{\text{Jupiter}}}{r^2} = (6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{(4.20 \kg)(1.90 \times 10^{27} \kg)}{(6.29 \times 10^{11} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{Jupiter}} = \frac{(6.674 \times 10^{-11})(7.98 \times 10^{27})}{3.96 \times 10^{23}} = \frac{5.33 \times 10^{17}}{3.96 \times 10^{23}} = 1.35 \times 10^{-6}\text{ N} $$
+$$ F_{\text{Jupiter}} = \frac{(6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(7.98 \times 10^{27} \text{kg}^2)}{3.96 \times 10^{23} \mm} = \frac{5.33 \times 10^{17} \text{N}\cdot\text{m}^2}{3.96 \times 10^{23} \mm} = 1.35 \times 10^{-6}\text{ N} $$
 </div>
 
 Compare the two forces:
@@ -932,27 +1026,27 @@ We'll use $$ a = G\frac{M}{r^2} $$ to calculate the gravitational acceleration a
 (a) Calculate acceleration at Neptune due to Pluto:
 
 <div class="equation">
-$$ a_{\text{Pluto}} = G\frac{M_{\text{Pluto}}}{r^2} = (6.67 \times 10^{-11})\frac{1.4 \times 10^{22}}{(4.50 \times 10^{12})^2} $$
+$$ a_{\text{Pluto}} = G\frac{M_{\text{Pluto}}}{r^2} = (6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{1.4 \times 10^{22} \kg}{(4.50 \times 10^{12} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ a_{\text{Pluto}} = \frac{9.34 \times 10^{11}}{2.03 \times 10^{25}} = 4.6 \times 10^{-14}\text{ m/s}^2 $$
+$$ a_{\text{Pluto}} = \frac{9.34 \times 10^{11} \text{m}^3/\text{s}^2}{2.03 \times 10^{25} \mm} = 4.6 \times 10^{-14}\text{ m/s}^2 $$
 </div>
 
 (b) Calculate acceleration at Neptune due to Uranus:
 
 <div class="equation">
-$$ a_{\text{Uranus}} = G\frac{M_{\text{Uranus}}}{r^2} = (6.67 \times 10^{-11})\frac{8.62 \times 10^{25}}{(2.50 \times 10^{12})^2} $$
+$$ a_{\text{Uranus}} = G\frac{M_{\text{Uranus}}}{r^2} = (6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)\frac{8.62 \times 10^{25} \kg}{(2.50 \times 10^{12} \m)^2} $$
 </div>
 
 <div class="equation">
-$$ a_{\text{Uranus}} = \frac{5.75 \times 10^{15}}{6.25 \times 10^{24}} = 9.2 \times 10^{-10}\text{ m/s}^2 $$
+$$ a_{\text{Uranus}} = \frac{5.75 \times 10^{15} \text{m}^3/\text{s}^2}{6.25 \times 10^{24} \mm} = 9.2 \times 10^{-10}\text{ m/s}^2 $$
 </div>
 
 Compare the two accelerations:
 
 <div class="equation">
-$$ \frac{a_{\text{Uranus}}}{a_{\text{Pluto}}} = \frac{9.2 \times 10^{-10}}{4.6 \times 10^{-14}} = 2.0 \times 10^{4} = 20{,}000 $$
+$$ \frac{a_{\text{Uranus}}}{a_{\text{Pluto}}} = \frac{9.2 \times 10^{-10} \mss}{4.6 \times 10^{-14} \mss} = 2.0 \times 10^{4} = 20{,}000 $$
 </div>
 
 **Discussion**
@@ -1017,12 +1111,12 @@ $$ a_c = \frac{4\pi^{2} r}{T^2} = \frac{4\pi^{2} (2.84 \times 10^{20}\text{ m})}
 </div>
 
 <div class="equation">
-$$ a_c = \frac{4(9.87)(2.84 \times 10^{20})}{6.74 \times 10^{31}} = \frac{1.12 \times 10^{22}}{6.74 \times 10^{31}} = 1.66 \times 10^{-10}\text{ m/s}^2 $$
+$$ a_c = \frac{4(9.87)(2.84 \times 10^{20} \m)}{6.74 \times 10^{31} \text{s}^2} = \frac{1.12 \times 10^{22} \m}{6.74 \times 10^{31} \text{s}^2} = 1.66 \times 10^{-10}\text{ m/s}^2 $$
 </div>
 
 Compare to g:
 <div class="equation">
-$$ \frac{a_c}{g} = \frac{1.66 \times 10^{-10}}{9.80} = 1.69 \times 10^{-11} $$
+$$ \frac{a_c}{g} = \frac{1.66 \times 10^{-10} \mss}{9.80 \mss} = 1.69 \times 10^{-11} $$
 </div>
 
 The centripetal acceleration is about $$ 1.7 \times 10^{-11} g $$, which is incredibly small - about 17 trillionths of g. This strongly supports the use of the Sun as a nearly inertial reference frame.
@@ -1034,7 +1128,7 @@ $$ v = \frac{2\pi r}{T} = \frac{2\pi (2.84 \times 10^{20}\text{ m})}{8.21 \times
 </div>
 
 <div class="equation">
-$$ v = \frac{1.78 \times 10^{21}}{8.21 \times 10^{15}} = 2.17 \times 10^{5}\text{ m/s} = 217\text{ km/s} $$
+$$ v = \frac{1.78 \times 10^{21} \m}{8.21 \times 10^{15} \s} = 2.17 \times 10^{5}\text{ m/s} = 217\text{ km/s} $$
 </div>
 
 **Discussion**
@@ -1113,7 +1207,7 @@ $$ M_{\text{mountain}} = \frac{0.0200 (9.80\text{ m/s}^2)(1.00 \times 10^4\text{
 </div>
 
 <div class="equation">
-$$ M_{\text{mountain}} = \frac{0.0200 (9.80)(1.00 \times 10^8)}{6.674 \times 10^{-11}} = \frac{1.96 \times 10^7}{6.674 \times 10^{-11}} = 2.94 \times 10^{17}\text{ kg} $$
+$$ M_{\text{mountain}} = \frac{0.0200 (9.80 \mss)(1.00 \times 10^8 \mm)}{6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2} = \frac{1.96 \times 10^7 \text{m}^3/\text{s}^2}{6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2} = 2.94 \times 10^{17}\text{ kg} $$
 </div>
 
 (b) Compare to Earth's mass ($$ M_{\text{Earth}} = 5.972 \times 10^{24} $$ kg):

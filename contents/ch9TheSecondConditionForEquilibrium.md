@@ -32,7 +32,7 @@ open as quickly as expected. Finally, the direction in which you push is also
 important. The most effective direction is perpendicular to the door—we push in
 this direction almost instinctively.
 
-![In the figure, six top views of a door are shown. In the first figure, a force vector is shown in the North West direction. The perpendicular distance of the force from the point of rotation is r. In the second figure, a force is applied in the opposite direction at the same distance from the hinges. In the third figure, a smaller force in applied at the same point. In the next figure, a horizontal force is applied at the same point. In this case, the perpendicular distance from the hinges is shown as r sin theta. In the next figure, force is applied at a distance near the hinges. In the final figure, the force is shown along the direction of hinges toward the handle of the door.](../resources/Figure_09_02_01.jpg 'Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) Counterclockwise torque is produced by this force, which means that the door will rotate in a counterclockwise due to \( F \) . Note that \( r_\perp \) is the perpendicular distance of the pivot from the line of action of the force.
+![Six overhead views of a door hinged on the left. (a) A force F pushes perpendicular to the door at distance r from the hinge, so r equals r perpendicular. (b) A smaller force F prime pushes at the same point. (c) The same force F pushes at a smaller distance r prime from the hinge. (d) A force minus F, opposite to the one in (a), pushes at the same point. (e) A horizontal force of the same magnitude acts at the same point at an angle theta to the door; the perpendicular distance from the hinge to its line of action is r perpendicular equals r sine theta. (f) A force pulls straight along the door away from the hinge, so theta equals zero degrees and r perpendicular equals zero.](../resources/Figure_09_02_01.svg 'Torque is the turning or twisting effectiveness of a force, illustrated here for door rotation on its hinges (as viewed from overhead). Torque has both magnitude and direction. (a) Counterclockwise torque is produced by this force, which means that the door will rotate in a counterclockwise due to \( F \) . Note that \( r_\perp \) is the perpendicular distance of the pivot from the line of action of the force.
 (b) A smaller counterclockwise torque is produced by a smaller force \( F^\prime \) acting at the same distance from the hinges (the pivot point).
 (c) The same force as in (a) produces a smaller counterclockwise torque when applied at a smaller distance from the hinges. (d) The same force as in (a), but acting in the opposite direction, produces a clockwise torque. (e) A smaller counterclockwise torque is produced by the same magnitude force acting at the same point but in a different direction. Here, \( \theta \) is less than 90º. (f) Torque is zero here since the force just pulls on the hinges, producing no rotation. In this case, \( \theta= 0^\circ \) .')
 {: #Figure1}
@@ -67,7 +67,7 @@ so that
  $$ \tau =r_{\perp }F. $$
 </div>
 
-![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](../resources/Figure_09_02_02.jpg 'A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and \( \theta \) for pivot point A on a body are shown here—r is the distance from the chosen pivot point to the point where the force F is applied, and θ is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
+![In the first part of the figure, a hockey stick is shown. At a point A near the bottom, a nail is fixed. A force is applied at a point near the holding grip of the hockey stick. A quarter circular arrow shows that the stick rotates in the counterclockwise direction. The perpendicular distance between the pivot point and the force vector direction is labeled as r-perpendicular, and the angle between the direction of force and the line joining the pivot A to the point of application of force is given as theta. In the second part of the figure, the pivot point is near the top of the stick and the point of application of the force is about the same as that in the first part of the figure. An upward quarter circle arrow shows that the stick rotates in the clockwise direction.](/resources/Figure_09_02_02.svg 'A force applied to an object can produce a torque, which depends on the location of the pivot point. (a) The three factors r, F, and \( \theta \) for pivot point A on a body are shown here—r is the distance from the chosen pivot point to the point where the force F is applied, and θ is the angle between F and the vector directed from the point of application to the pivot point. If the object can rotate around point A, it will rotate counterclockwise. This means that torque is counterclockwise relative to pivot A.
 (b) In this case, point B is the pivot point. The torque from the applied force will cause a clockwise rotation around point B, and so it is a clockwise torque relative to B.
       ')
 {: #Figure2}
@@ -216,6 +216,7 @@ Solve this for the unknown $$ r_{2} $$:
 The quantities on the right side of the equation are known; thus, $$ r_{2} $$ is
 
 <div class="equation">
+ <!-- physics: eq-18 -->
  $$ r_{2}=\left(1.60 \m \right)\frac{26.0 \kg }{32.0 \kg }=1.30 \m . $$
 </div>
 
@@ -257,6 +258,7 @@ $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 Entering known values gives
 
 <div class="equation">
+<!-- physics: eq-25 -->
 $$ \begin{array}{lll}
 F_{\text{p}}&=& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
 F_{\text{p}}&=& 568 \N .
@@ -354,21 +356,31 @@ What three factors affect the torque created by a force relative to a specific p
 
 **Strategy**
 
-We analyze the torque equation $$ \tau = rF\sin{\theta} $$ to identify the three factors that determine torque magnitude.
+Use the expression for the magnitude of the torque, $$ \tau = rF\sin\theta $$, and identify its three factors.
 
 **Solution**
 
-The three factors that affect the torque created by a force relative to a specific pivot point are:
+The torque of a force about a pivot is
 
-1. **The magnitude of the force ($$ F $$)**: Greater force produces greater torque. Pushing harder on a door makes it rotate faster.
+<div class="equation">
+$$ \tau = rF\sin\theta $$
+</div>
 
-2. **The distance from the pivot point to where the force is applied ($$ r $$)**: Greater distance produces greater torque. Pushing a door near the handle (far from the hinges) is more effective than pushing near the hinges.
+where the three factors are:
 
-3. **The angle between the force and the lever arm ($$ \theta $$)**: Maximum torque occurs when the force is perpendicular to the lever arm ($$ \theta = 90° $$, so $$ \sin{\theta} = 1 $$). When the force is parallel to the lever arm ($$ \theta = 0° $$ or $$ 180° $$), no torque is produced.
+1. **The magnitude of the force, $$ F $$.** Doubling the force doubles the torque.
+2. **The distance $$ r $$ from the pivot to the point where the force is applied.** Pushing a door at its handle, far from the hinges, is much more effective than pushing near the hinges.
+3. **The angle $$ \theta $$ between the force and the line from the pivot to the point of application.** The torque is largest when the force is perpendicular to that line ($$ \theta = 90° $$, $$ \sin\theta = 1 $$) and zero when the force points straight toward or away from the pivot ($$ \theta = 0° $$ or $$ 180° $$).
 
-**Discussion**
+For example, a $$ 40 \N $$ push on a door $$ 0.80 \m $$ from the hinges gives:
 
-These three factors are combined in the torque equation $$ \tau = rF\sin{\theta} $$, or equivalently $$ \tau = r_{\perp}F $$ where $$ r_{\perp} = r\sin{\theta} $$ is the perpendicular lever arm. Understanding these factors is essential for designing mechanical systems like levers, wrenches, and door handles.
+- perpendicular to the door: $$ \tau = (0.80 \m)(40 \N)\sin 90° = 32 \N \cdot \m $$
+- at $$ 30° $$ to the door: $$ \tau = (0.80 \m)(40 \N)\sin 30° = 16 \N \cdot \m $$
+- at $$ 0.20 \m $$ from the hinges, perpendicular: $$ \tau = (0.20 \m)(40 \N) = 8.0 \N \cdot \m $$
+
+Equivalently, $$ \tau = r_{\perp}F $$, where the lever arm $$ r_{\perp} = r\sin\theta $$ combines the second and third factors.
+
+The torque created by a force about a pivot depends on the magnitude of the force $$ F $$, the distance $$ r $$ from the pivot to where the force is applied, and the angle $$ \theta $$ between the force and that line, through $$ \tau = rF\sin\theta $$ (for example, $$ 32 \N \cdot \m $$ for $$ 40 \N $$ applied perpendicular to a door at $$ 0.80 \m $$).
 
 :::
 
@@ -389,27 +401,26 @@ fall if it is struck with the same force at its base? Note that this depends on 
 
 **Strategy**
 
-We apply the concept of torque to analyze how the point of force application affects the wall's response. The base of the wall acts as a pivot point for rotation.
+Treat the bottom edge of the wall as a possible pivot. Compare the torque about the base, $$ \tau = rF $$, produced by the same force applied near the top and at the base, and compare each with what holds the wall at its base.
 
 **Solution**
 
-**When struck near the top:** The wall is more likely to **fall over by rotating at its base**. Here's why:
+Suppose the wrecking ball delivers an average horizontal force of $$ 2.0 \times 10^{4} \N $$ to a wall $$ 8.0 \m $$ tall.
 
-- The impact force applied near the top creates a large torque about the base because the lever arm (distance from the base to the point of impact) is maximum.
-- Using $$ \tau = rF $$, if $$ r $$ (the height of impact) is large, the torque is large.
-- This large torque causes significant angular acceleration, making the wall rotate about its base.
-- The wall's rotational inertia cannot resist this large torque, so it topples over.
+**Struck near the top** ($$ r \approx 8.0 \m $$ above the base), the torque about the base is
 
-**When struck at the base:** The wall is more likely to **slide or crumble rather than rotate**, or it may fall straight down:
+<div class="equation">
+$$ \tau = rF = (8.0 \m)(2.0 \times 10^{4} \N) = 1.6 \times 10^{5} \N \cdot \m $$
+</div>
 
-- The impact force applied at the base creates minimal torque because the lever arm approaches zero ($$ r \approx 0 $$).
-- With negligible torque, there is no tendency to rotate.
-- Instead, the force acts to translate (push) the wall or to shatter it at the point of impact.
-- If the wall is firmly attached at its base, the impact may cause localized crushing at the base, leading to the wall collapsing straight down.
+This large torque tends to rotate the wall about its base, and an unsupported wall is held up only by the restoring torque of its own weight, which is small when the wall is thin. The wall is most likely to **fall over by rotating at its base**. At the base, the large torque may also crack the wall's connection to its foundation, which then acts as a hinge.
 
-**Discussion**
+**Struck at the base** ($$ r \approx 0 \m $$), the torque about the base is nearly zero, so there is little tendency to tip. The force instead tries to push the bottom of the wall sideways. What happens depends on how firmly the wall is attached at its base:
 
-This principle is used in controlled demolitions. Explosives or wrecking balls applied at the base cause buildings to collapse straight down into their footprint, while impacts higher up can cause unpredictable toppling. The same physics explains why it's easier to tip over a tall bookshelf by pushing at the top rather than at the bottom.
+- If the base is **firmly attached**, the blow crushes or breaks the concrete there, removing the support, and the wall tends to **fall straight down** (or slump) under its own weight.
+- If it is **not firmly attached**, the base is knocked sideways, and the wall may slide, or rotate so that its top falls back toward the side the ball came from.
+
+Struck near the top, the wall is more likely to fall over by rotating at its base, because the force has a large lever arm and produces a large torque (about $$ 1.6 \times 10^{5} \N \cdot \m $$ for $$ 2.0 \times 10^{4} \N $$ at $$ 8.0 \m $$); struck at the base, the torque is nearly zero, so a firmly attached wall is most likely to have its base crushed and fall straight down, while a loosely attached one may slide or have its base kicked out.
 
 :::
 
@@ -428,27 +439,27 @@ tight bolt. How does this help? (It is also hazardous since it can break the bol
 
 **Strategy**
 
-We apply the torque equation $$ \tau = rF $$ to understand how extending the lever arm affects the torque produced.
+The force a mechanic can exert is limited. Use $$ \tau = rF $$ (with the force perpendicular to the handle) to see how extending the handle changes the torque on the bolt.
 
 **Solution**
 
-Adding a pipe over the wrench handle **increases the torque** applied to the bolt by increasing the lever arm (the distance $$ r $$ from the bolt to where the force is applied).
+A mechanic can push with at most about $$ 400 \N $$. On a wrench with a $$ 0.25 \m $$ handle, pushing perpendicular to the handle gives
 
-From the torque equation $$ \tau = rF\sin{\theta} $$:
-- The force $$ F $$ the mechanic can apply is limited by their strength
-- The angle is typically kept at 90° for maximum effectiveness
-- By extending the handle with a pipe, the distance $$ r $$ is increased
+<div class="equation">
+$$ \tau = rF = (0.25 \m)(400 \N) = 100 \N \cdot \m $$
+</div>
 
-For example, if a wrench handle is 20 cm long and a 40 cm pipe is added, the new lever arm is 60 cm—three times longer. This triples the torque produced for the same applied force.
+Sliding a pipe over the handle lets the mechanic push farther from the bolt, increasing the lever arm. With the push applied $$ 0.75 \m $$ from the bolt,
 
-**Why it's hazardous:** The increased torque can exceed what the bolt was designed to withstand, causing:
-- The bolt to shear off (break)
-- The bolt threads to strip
-- The wrench to slip suddenly when the bolt breaks loose, potentially causing injury
+<div class="equation">
+$$ \tau = (0.75 \m)(400 \N) = 300 \N \cdot \m $$
+</div>
 
-**Discussion**
+three times as large for the same effort, which may be enough to break the bolt free.
 
-This is a practical application of the torque equation. The same principle explains why longer wrenches are used for tighter bolts, why door handles are placed far from hinges, and why long-handled tools make work easier. However, the increased mechanical advantage comes with the risk of applying excessive force, which is why proper-sized tools and torque wrenches are important in precision applications.
+**Why it is hazardous:** the wrench and bolt are designed for the torques a person can produce with the normal handle. Tripling the torque can exceed what the bolt can withstand, so it may snap or its threads may strip. The wrench or the pipe can also slip or break, and when the bolt suddenly gives way, the mechanic can lose balance and be injured.
+
+A length of pipe over the wrench handle helps by increasing the lever arm, so the same force produces a larger torque on the bolt (for example, $$ 300 \N \cdot \m $$ instead of $$ 100 \N \cdot \m $$ for a $$ 400 \N $$ push), but that larger torque can also break the bolt.
 
 :::
 
@@ -456,7 +467,7 @@ This is a practical application of the torque equation. The same principle expla
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="door-torque">
 
 ::: problem
 
@@ -467,12 +478,33 @@ This is a practical application of the torque equation. The same principle expla
 
 ::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
-a) $$ 46.8 \text{N·m} $$
-b) It does not matter at what height you push. The torque depends on only the
-magnitude of the force applied and the perpendicular distance of the force’s
-application from the hinges. (Children don’t have a tougher time opening a door
-because they push lower than adults, they have a tougher time because they don’t
-push far enough from the hinges.)
+**Strategy**
+
+Calculate torque about the door’s vertical hinge axis using the perpendicular distance to that axis.
+
+**Free-body diagram**
+
+![Top view of the door, hinged at the origin. +x points along the door from the hinges; +y points in the direction of the push, perpendicular to the door. The push F = 55.0 N acts 0.850 m from the hinges, so it turns the door counterclockwise as seen from above (the opening direction), which is taken as positive.](../resources/sketch_09_02_p01.svg){: .sketch}
+
+Looking down on the door, take $$ +x $$ along the door from the hinges and $$ +y $$ in the direction of the push, with counterclockwise torques as positive (the opening direction). The push is along $$ +y $$ at $$ x = 0.850\m $$, so its torque $$ \tau = +rF $$ is positive.
+
+**Solution**
+
+**(a)** The force is horizontal and perpendicular to the door at a distance $$r=0.850\m$$ from the hinges, with magnitude $$F=55.0\N$$. Choose positive rotation in the opening direction. The torque magnitude about the vertical hinge axis is
+
+<!-- physics: eq-7 -->
+$$\tau=rF\sin90°=(0.850\m)(55.0\N)=46.75\N\cdot\m\approx46.8\N\cdot\m.$$
+
+The opening torque is 46.8 N·m.
+
+**(b)** Raising or lowering the application point along the door does not change the horizontal distance to the vertical hinge axis. Therefore the torque component that opens the door is unchanged for the same horizontal perpendicular force. Height can change other loads on the hinges, but not this opening torque.
+
+**Discussion**
+
+Pushing nearer the hinges reduces the perpendicular lever arm and makes the door harder to open for the same force. A child’s lower pushing height alone does not reduce the opening torque; pushing closer to the hinge axis does.
+
+The force exerts an opening torque of 46.8 N·m, independent of its height on the door when the force and horizontal hinge-axis distance are unchanged.
+
 
 :::
 
@@ -528,7 +560,7 @@ This torque value is typical for tightening automotive fasteners. Many car manua
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="door-children">
 
 ::: problem
 
@@ -548,6 +580,7 @@ Take the door as the system and the hinges as the pivot, so the hinge forces pro
 **Solution**
 
 <div class="equation">
+<!-- physics: eq-0 -->
 $$ F_2 r_2 = F_1 r_1 \quad \Rightarrow \quad F_2 = \frac{F_1 r_1}{r_2} = \frac{(17.5 \N)(0.600 \m)}{0.450 \m} = 23.3 \N $$
 </div>
 
@@ -627,7 +660,7 @@ This result agrees with the answer obtained using the first condition for equili
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="seesaw-board">
 
 ::: problem
 
@@ -637,9 +670,16 @@ Repeat the seesaw problem in [Example 1](#example1) with the center of mass of t
 
 ::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
+**Strategy**
+
+Balance torques about the pivot, including the seesaw’s offset weight, then balance vertical forces to find the pivot reaction.
+
+**Solution**
+
 Given:
 
 <div class="equation">
+<!-- physics: eq-0 -->
 $$ \begin{array}{ccc}
 m_{1}&=& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
 r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
@@ -659,6 +699,7 @@ $$ \begin{array}{l}
 So, solving for $$ r_{2} $$ gives:
 
 <div class="equation">
+<!-- physics: eq-3 -->
 $$ \begin{array}{lll}
 r_{2}&=& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
 r_{2}&=& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
@@ -678,11 +719,19 @@ $$ \begin{array}{l}
 So that
 
 <div class="equation">
+<!-- physics: eq-5 -->
 $$ \begin{array}{lll}
 F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
 F_{\text{p}}&=& 686 \N
 \end{array} $$
 </div>
+
+
+**Discussion**
+
+The offset seesaw weight adds torque on the lighter child’s side, so it must be included in the balance rather than treated as acting at the pivot.
+
+The heavier child must sit 1.36 m from the pivot, and the pivot supports the total weight with an upward force of 686 N.
 
 :::
 

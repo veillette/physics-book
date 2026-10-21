@@ -496,13 +496,21 @@ When your lungs are 60.0 cm below the surface:
 
 Converting to cm water: $$ P_{\text{water}} = 60.0 \text{ cm H}_2\text{O} $$
 
-If you can achieve −3.00 cm water pressure at the lung surface while submerged at 60.0 cm depth, you must create a pressure difference of:
+The water squeezes the chest from outside, so the pressure outside the chest wall is
 
-$$ P_{\text{lung, abs}} = P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O} - 3.00 \text{ cm H}_2\text{O} $$
+$$ P_{\text{outside}} = P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O} $$
 
-To inhale, you must reduce lung pressure from atmospheric to this value. The total negative gauge pressure you can create is:
+while the air in the lungs, connected to the atmosphere through the reed, is at a gauge pressure of −3.00 cm water:
 
-$$ P_{\text{max negative}} = -(60.0 + 3.00) \text{ cm H}_2\text{O} = -63.0 \text{ cm H}_2\text{O} $$
+$$ P_{\text{lung}} = P_{\text{atm}} - 3.00 \text{ cm H}_2\text{O} $$
+
+The respiratory muscles must therefore hold the lung pressure below the pressure just outside the chest by
+
+$$ P_{\text{lung}} - P_{\text{outside}} = (P_{\text{atm}} - 3.00 \text{ cm H}_2\text{O}) - (P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O}) = -63.0 \text{ cm H}_2\text{O} $$
+
+On dry land, the pressure outside the chest is atmospheric, so the same muscular effort gives a lung gauge pressure of
+
+$$ P_{\text{max negative}} = -63.0 \text{ cm H}_2\text{O} $$
 
 **Discussion:**
 The maximum negative gauge pressure you can create in your lungs on dry land is approximately **−63.0 cm H₂O** (about −0.062 atm or −6.2 kPa). This represents the total pressure difference your respiratory muscles can generate. When submerged 60 cm deep, you need 60 cm H₂O just to counteract water pressure on your chest, leaving only 3 cm H₂O for actual air flow. Beyond about 60-70 cm depth, most people cannot generate sufficient negative pressure to inhale through a snorkel, which is why snorkels are limited to ~30-40 cm length (half the theoretical maximum, with safety margin). This limitation explains why scuba tanks are necessary for deeper diving—they provide pressurized air matching ambient water pressure.
@@ -853,7 +861,7 @@ For water in glass at 20 °C:
 - Radius: $$ r = 0.500 \text{ mm} = 5.00 \times 10^{-4} \text{ m} $$
 
 <div class="equation">
-$$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(5.00 \times 10^{-4} \text{ m})} = \frac{0.1456}{4.90} = 0.0297 \text{ m} = 2.97 \text{ cm} $$
+$$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(5.00 \times 10^{-4} \text{ m})} = \frac{0.1456 \text{ N/m}}{4.90 \text{ N/m}^2} = 0.0297 \text{ m} = 2.97 \text{ cm} $$
 </div>
 
 **(b) Gravitational potential energy gained:**
@@ -875,21 +883,16 @@ $$ \Delta PE = mg(h/2) = (2.33 \times 10^{-5} \text{ kg})(9.80 \text{ m/s}^2)(0.
 
 **(c) Source of the energy:**
 
-Work is done by the surface tension force through an effective distance $$ h/2 $$ to raise the column of water. The surface tension acts along the perimeter of the meniscus ($$ 2\pi r $$) with force $$ F = \gamma (2\pi r) $$. As the water rises to height $$ h $$, the point of application (the meniscus) moves upward by $$ h $$, but the center of mass only rises by $$ h/2 $$. The work done equals:
+The energy comes from the surface energy released as water wets the glass. The surface-tension force acts along the perimeter of the meniscus ($$ 2\pi r $$) with magnitude $$ F = \gamma (2\pi r) $$ (for a contact angle of 0°), and its point of application, the meniscus, moves up the full height $$ h $$. The work it does is therefore:
 
 <div class="equation">
-$$ W = F \cdot d = [\gamma (2\pi r)] \cdot (h/2) = \gamma \pi r h $$
+$$ W = F h = \gamma (2\pi r) h = (0.0728 \text{ N/m})(2\pi)(5.00 \times 10^{-4} \text{ m})(0.0297 \text{ m}) = 6.79 \times 10^{-6} \text{ J} $$
 </div>
 
-This can be verified:
-<div class="equation">
-$$ W = (0.0728 \text{ N/m})(\pi)(5.00 \times 10^{-4} \text{ m})(0.0297 \text{ m}) = 3.40 \times 10^{-6} \text{ J} $$
-</div>
-
-This matches the potential energy gain (within rounding error), confirming energy conservation.
+Physically, $$ \gamma (2\pi r h) $$ is the energy released when an area $$ 2\pi r h $$ of glass changes from a glass–air surface to a lower-energy glass–water surface. This is **twice** the gravitational potential energy gained, $$ 3.39 \times 10^{-6} \text{ J} $$. Energy is still conserved: the remaining $$ 3.40 \times 10^{-6} \text{ J} $$ first appears as kinetic energy of the rising water and is then converted to thermal energy by viscous friction as the column settles (or oscillates and comes to rest) at its final height.
 
 **Discussion:**
-Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The energy comes from the work done by adhesive forces (water-glass attraction) as manifested through surface tension. As the water climbs the tube walls, the surface area of the water-glass interface increases while the water-air interface decreases. The favorable water-glass interaction (lower energy) compared to water-air interaction drives this process. Energy conservation requires that the work done by surface tension equals the gravitational potential energy gained, which our calculations confirm.
+Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The source is the **6.79 µJ** of surface energy released as the water–glass interface replaces the air–glass interface; adhesion between water and glass makes this change favorable. Exactly half of that energy ends up as gravitational potential energy and half is dissipated as heat, much like charging a capacitor from a battery, where half the energy supplied is stored and half is dissipated.
 
 :::
 
@@ -901,7 +904,7 @@ Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The energ
 
 A negative pressure of 25.0 atm can sometimes be achieved with the device in [[Figure 5]](#Figure5) before the water separates. (a) To what height could such a negative gauge pressure raise water? (b) How much would a steel wire of the same diameter and length as this capillary stretch if suspended from above?
 
-![When the piston is raised the liquid separates and results in negative pressure.](../resources/Figure_11_09_05.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \).  (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
+![When the piston is raised the liquid separates and results in negative pressure.](/resources/Figure_11_09_05.svg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \).  (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
 {: #Figure5}
 
 :::
@@ -911,7 +914,7 @@ A negative pressure of 25.0 atm can sometimes be achieved with the device in [[F
 **Strategy**
 
 (a) We use $$ h = \frac{P}{\rho g} $$ to find the height water could be raised by the negative pressure.
-(b) For the steel wire, we use the relationship between stress, strain, and Young's modulus: $$ \frac{\Delta L}{L} = \frac{\sigma}{Y} = \frac{P}{Y} $$.
+(b) The wire has the same length as the water column in (a), $$ L = 258 \text{ m} $$, and hangs under its own weight. The tension at a point equals the weight of the wire below it, so the stress grows linearly from zero at the bottom to $$ \rho_{\text{steel}} g L $$ at the top. We add up the stretch of each small piece using $$ \Delta L = F L_0/(AY) $$. The diameter cancels out.
 
 **Solution**
 
@@ -921,19 +924,23 @@ Calculate the height:
 
 $$ h = \frac{P}{\rho g} = \frac{2.53 \times 10^{6} \text{ Pa}}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = 258 \text{ m} $$
 
-(b) For steel, Young's modulus is $$ Y = 2.10 \times 10^{11} \text{ N/m}^2 $$. The strain is:
+(b) A piece of wire of length $$ dy $$ at height $$ y $$ above the bottom supports the weight of the wire below it, $$ F = \rho_{\text{steel}} g A y $$. Its stretch is
 
-$$ \frac{\Delta L}{L} = \frac{P}{Y} = \frac{2.53 \times 10^{6} \text{ Pa}}{2.10 \times 10^{11} \text{ Pa}} = 1.20 \times 10^{-5} $$
+$$ d(\Delta L) = \frac{F\,dy}{AY} = \frac{\rho_{\text{steel}} g\, y\, dy}{Y} $$
 
-For a capillary tube length of, say, $$ L = 10 \text{ cm} = 0.10 \text{ m} $$:
+Adding up these stretches from $$ y = 0 $$ to $$ y = L $$ gives
 
-$$ \Delta L = (1.20 \times 10^{-5})(0.10 \text{ m}) = 1.2 \times 10^{-6} \text{ m} = 1.2 \text{ μm} $$
+$$ \Delta L = \frac{\rho_{\text{steel}} g L^{2}}{2Y} $$
 
-A negative gauge pressure of 25.0 atm could raise water to a height of approximately **258 m**. A steel wire under the same tensile stress would stretch by a fractional amount of **1.2 × 10⁻⁵** (or about 1.2 μm for every 10 cm of length).
+This is the stretch a uniform stress equal to the *average* stress, $$ \rho_{\text{steel}} g L/2 $$, would produce. With $$ \rho_{\text{steel}} = 7.80 \times 10^{3} \text{ kg/m}^3 $$, $$ Y = 2.10 \times 10^{11} \text{ N/m}^2 $$, and $$ L = 258 \text{ m} $$:
+
+$$ \Delta L = \frac{(7.80 \times 10^{3} \text{ kg/m}^3)(9.80 \text{ m/s}^2)(258 \text{ m})^{2}}{2(2.10 \times 10^{11} \text{ N/m}^2)} = 1.21 \times 10^{-2} \text{ m} = 1.21 \text{ cm} $$
+
+A negative gauge pressure of 25.0 atm could raise water to a height of approximately **258 m**. A steel wire of the same length hanging from its top would stretch by about **1.21 cm** under its own weight. The stress at the top of the wire, $$ \rho_{\text{steel}} g L = 1.97 \times 10^{7} \text{ Pa} $$, is about 8 times the 25.0-atm tension in the water.
 
 **Discussion**
 
-The 258 m height is remarkable—far exceeding the ~10.3 m limit imposed by atmospheric pressure pushing water up into a vacuum. This demonstrates that water under tension (negative pressure) can "pull" rather than just "push." This is directly relevant to how trees transport water to heights exceeding 100 m. The cohesion-tension theory proposes that evaporation from leaves creates negative pressure that pulls water up through the xylem, with cohesive forces between water molecules preventing the water column from breaking. The comparison with steel shows that water under such tension behaves somewhat like a solid, though its cohesive strength is much less than steel's tensile strength.
+The 258 m height is remarkable—far exceeding the ~10.3 m limit imposed by atmospheric pressure pushing water up into a vacuum. This demonstrates that water under tension (negative pressure) can "pull" rather than just "push." This is directly relevant to how trees transport water to heights exceeding 100 m. The cohesion-tension theory proposes that evaporation from leaves creates negative pressure that pulls water up through the xylem, with cohesive forces between water molecules preventing the water column from breaking. The steel comparison shows that a column this tall is demanding even for a solid: steel hanging 258 m carries about 8 times the stress in the water column, which is still far below steel's breaking strength.
 
 :::
 
@@ -962,7 +969,7 @@ Suppose you hit a steel nail with a 0.500-kg hammer, initially moving at  $$15.0
 Using work-energy theorem: $$ F_{\text{avg}} \cdot d = \Delta KE = \frac{1}{2}mv^{2} $$
 
 <div class="equation">
-$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{112.5}{5.60 \times 10^{-3}} = 2.01 \times 10^{4} \text{ N} $$
+$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{112.5 \text{ N·m}}{5.60 \times 10^{-3} \text{ m}} = 2.01 \times 10^{4} \text{ N} $$
 </div>
 
 **(b) Compression of the nail:**
@@ -978,7 +985,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(2.01 \times 10^{4} \text{ N})(0.0600 \t
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{1.206 \times 10^{3}}{9.82 \times 10^{5}} = 1.23 \times 10^{-3} \text{ m} $$
+$$ \Delta L = \frac{1.206 \times 10^{3} \text{ N·m}}{9.82 \times 10^{5} \text{ N}} = 1.23 \times 10^{-3} \text{ m} $$
 </div>
 
 **(c) Pressure on the tip:**
@@ -1027,7 +1034,7 @@ Calculate the pressure due to the ocean at the bottom of the Marianas Trench nea
 
 $$ P = \rho g h = (1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(11,000 \text{ m}) = 1.10 \times 10^{8} \text{ Pa} $$
 
-This equals about $$ \frac{1.10 \times 10^8}{1.013 \times 10^5} \approx 1090 \text{ atm} $$.
+This equals about $$ \frac{1.10 \times 10^8 \text{ Pa}}{1.013 \times 10^5 \text{ Pa/atm}} \approx 1090 \text{ atm} $$.
 
 (b) The bulk modulus of water is $$ B = 2.2 \times 10^{9} \text{ Pa} $$. The fractional volume decrease is:
 
@@ -1056,7 +1063,7 @@ This problem illustrates the limitations of assuming constant density for deep o
 The hydraulic system of a backhoe is used to lift a load as shown in [[Figure 6]](#Figure6). (a) Calculate the force  $$F $$
  the slave cylinder must exert to support the 400-kg load and the 150-kg brace and shovel. (b) What is the pressure in the hydraulic fluid if the slave cylinder is 2.50 cm in diameter? (c) What force would you have to exert on a lever with a mechanical advantage of 5.00 acting on a master cylinder 0.800 cm in diameter to create this pressure?
 
-![Diagram of the arm and shovel of a backhoe lifting a load of dirt. The weight of the arm, w sub arm, is depicted as a vector extending vertically downward from the arm one point one zero meters from the top of the arm; w sub arm forms a thirty degree angle with the arm of the shovel. The weight of the load, w sub load, is depicted as a vector extending downward from the middle of the shovel one point seven zero meters from the top of the arm. Force F is a vector pushing the arm of the shovel zero point three zero meters from the top of the arm and perpendicular to the arm.](../resources/Figure_11_09_06.jpg "Hydraulic and mechanical lever systems are used in heavy machinery such as this back hoe. ")
+![Diagram of the arm and shovel of a backhoe lifting a load of dirt. The weight of the arm, w sub arm, is depicted as a vector extending vertically downward from the arm one point one zero meters from the top of the arm; w sub arm forms a thirty degree angle with the arm of the shovel. The weight of the load, w sub load, is depicted as a vector extending downward from the middle of the shovel one point seven zero meters from the top of the arm. Force F is a vector pushing the arm of the shovel zero point three zero meters from the top of the arm and perpendicular to the arm.](/resources/Figure_11_09_06.svg "Hydraulic and mechanical lever systems are used in heavy machinery such as this back hoe. ")
 {: #Figure6}
 
 :::
@@ -1147,7 +1154,7 @@ We calculate the pressure needed to support a 90 m column of water using $$ P = 
 
 $$ P = \rho g h = (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(90 \text{ m}) = 8.82 \times 10^{5} \text{ Pa} $$
 
-Converting to atmospheres: $$ P = \frac{8.82 \times 10^5}{1.013 \times 10^5} = 8.71 \text{ atm} $$
+Converting to atmospheres: $$ P = \frac{8.82 \times 10^5 \text{ Pa}}{1.013 \times 10^5 \text{ Pa/atm}} = 8.71 \text{ atm} $$
 
 The required gauge pressure (suction) would need to be approximately **8.82 × 10⁵ Pa** or about **8.7 atm below atmospheric pressure**.
 
@@ -1255,7 +1262,7 @@ $$ F_{\text{buoyant, max}} = \rho_{\text{water}} V_{\text{log}} g = (1000 \text{
 
 The net upward force available to support people (when log is fully submerged):
 
-$$ F_{\text{available}} = F_{\text{buoyant, max}} - W_{\text{log}} = 3690 \text{ N} - (226 \text{ kg})(9.80 \text{ m/s}^2) = 3690 - 2215 = 1475 \text{ N} $$
+$$ F_{\text{available}} = F_{\text{buoyant, max}} - W_{\text{log}} = 3690 \text{ N} - (226 \text{ kg})(9.80 \text{ m/s}^2) = 3690 \text{ N} - 2215 \text{ N} = 1475 \text{ N} $$
 
 Each person needs 150 N of support. The number of people supported:
 
@@ -1295,17 +1302,17 @@ For normal alveoli with $$ r_{\text{normal}} = 0.10 \text{ mm} = 1.0 \times 10^{
 
 $$ P_{\text{normal}} = \frac{4\gamma}{r} = \frac{4(0.050 \text{ N/m})}{1.0 \times 10^{-4} \text{ m}} = 2000 \text{ Pa} $$
 
-Converting to mm Hg: $$ P_{\text{normal}} = \frac{2000}{133} = 15.0 \text{ mm Hg} $$
+Converting to mm Hg: $$ P_{\text{normal}} = \frac{2000 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 15.0 \text{ mm Hg} $$
 
 For emphysematous alveoli with $$ r_{\text{emphysema}} = 0.50 \text{ mm} = 5.0 \times 10^{-4} \text{ m} $$:
 
 $$ P_{\text{emphysema}} = \frac{4\gamma}{r} = \frac{4(0.050 \text{ N/m})}{5.0 \times 10^{-4} \text{ m}} = 400 \text{ Pa} $$
 
-Converting to mm Hg: $$ P_{\text{emphysema}} = \frac{400}{133} = 3.0 \text{ mm Hg} $$
+Converting to mm Hg: $$ P_{\text{emphysema}} = \frac{400 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 3.0 \text{ mm Hg} $$
 
 The percent reduction in pressure:
 
-$$ \text{Percent reduction} = \frac{P_{\text{normal}} - P_{\text{emphysema}}}{P_{\text{normal}}} \times 100\% = \frac{2000 - 400}{2000} \times 100\% = 80\% $$
+$$ \text{Percent reduction} = \frac{P_{\text{normal}} - P_{\text{emphysema}}}{P_{\text{normal}}} \times 100\% = \frac{2000 \text{ Pa} - 400 \text{ Pa}}{2000 \text{ Pa}} \times 100\% = 80\% $$
 
 Normal alveoli produce approximately **15.0 mm Hg** (2000 Pa) of pressure for exhalation, while emphysematous alveoli produce only **3.0 mm Hg** (400 Pa)—an **80% reduction** in surface-tension-driven exhalation pressure.
 

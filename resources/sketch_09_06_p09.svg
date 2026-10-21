@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="300" viewBox="0 0 660 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the lower leg lifting the child</title>
+<desc id="desc">The lower leg pivots at the knee (the origin). +x points from the knee toward the foot and +y up, and counterclockwise torques are positive. The quadriceps force F_Q acts 2.0 cm from the knee (perpendicular lever arm) and gives a counterclockwise torque; the leg’s weight w_leg = 39.2 N acts down at 20.0 cm and the child’s weight w_child = 98 N at 38.0 cm (clockwise torques).</desc>
+<rect width="660" height="300" fill="#ffffff"/>
+<line x1="109" y1="140" x2="582" y2="140" stroke="#a9c2d9" stroke-width="10" stroke-linecap="round"/>
+<line x1="109" y1="140" x2="582" y2="140" stroke="#1f3a5f" stroke-width="1.4"/>
+<circle cx="120" cy="140" r="6" fill="#ffffff" stroke="#555555" stroke-width="2"/>
+<circle cx="120" cy="140" r="1.8" fill="#555555"/>
+<line x1="120" y1="146" x2="120" y2="206" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="142" y1="146" x2="142" y2="206" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="127" y1="200" x2="135" y2="200" stroke="#444444" stroke-width="1.2"/>
+<polygon points="142,200 134,203.2 134,196.8" fill="#444444"/>
+<polygon points="120,200 128,196.8 128,203.2" fill="#444444"/>
+<line x1="120" y1="146" x2="120" y2="234" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="340" y1="146" x2="340" y2="234" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="127" y1="228" x2="333" y2="228" stroke="#444444" stroke-width="1.2"/>
+<polygon points="340,228 332,231.2 332,224.8" fill="#444444"/>
+<polygon points="120,228 128,224.8 128,231.2" fill="#444444"/>
+<text x="230" y="222.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20.0 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="120" y1="146" x2="120" y2="262" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="538" y1="146" x2="538" y2="262" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="127" y1="256" x2="531" y2="256" stroke="#444444" stroke-width="1.2"/>
+<polygon points="538,256 530,259.2 530,252.8" fill="#444444"/>
+<polygon points="120,256 128,252.8 128,259.2" fill="#444444"/>
+<text x="329" y="250.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">38.0 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="142" y1="140" x2="111.77" y2="56.93" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="107.8,46.03 116.84,56.15 107.37,59.59" fill="#b03a2e"/>
+<text x="96" y="45.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">Q</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="340" y1="140" x2="340" y2="188.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="340,200 334.96,187.4 345.04,187.4" fill="#b03a2e"/>
+<text x="350" y="201.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">leg</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="538" y1="140" x2="538" y2="218.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="538,230 532.96,217.4 543.04,217.4" fill="#b03a2e"/>
+<text x="550" y="231.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">child</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="580" y1="70" x2="617" y2="70" stroke="#555555" stroke-width="1.5"/>
+<polygon points="626,70 616,74 616,66" fill="#555555"/>
+<text x="642" y="75.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="580" y1="70" x2="580" y2="33" stroke="#555555" stroke-width="1.5"/>
+<polygon points="580,24 584,34 576,34" fill="#555555"/>
+<text x="580" y="13.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 224.96 45.47 A 16 16 0 1 0 245.47 24.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="251.11" y1="27.02" x2="247.16" y2="25.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="243.59,24.28 248.76,24.12 247.45,27.73" fill="#555555"/>
+<text x="264" y="44.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+<text x="120" y="170.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">knee</tspan></text>
+<text x="112" y="208.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.0 </tspan><tspan font-style="normal">cm</tspan></text>
+</svg>

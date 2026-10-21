@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" role="img" aria-labelledby="title desc">
+<title id="title">A simple electric circuit</title>
+<desc id="desc">A battery of voltage V, shown as two parallel red lines with its positive terminal on top, is connected by wires to a resistor R. Current I flows clockwise, out of the positive terminal, through R and back to the negative terminal.</desc>
+<rect width="560" height="400" fill="#ffffff"/>
+<polyline points="140,50 420,50 420,360 140,360 140,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="140" y1="225" x2="140" y2="175" stroke="#ffffff" stroke-width="7"/>
+<line x1="140" y1="225" x2="140" y2="211" stroke="#222222" stroke-width="2"/>
+<line x1="140" y1="189" x2="140" y2="175" stroke="#222222" stroke-width="2"/>
+<line x1="108" y1="211" x2="172" y2="211" stroke="#c62828" stroke-width="5"/>
+<line x1="85" y1="189" x2="195" y2="189" stroke="#c62828" stroke-width="3"/>
+<text x="470" y="69.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="492" y="49.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="476" y1="62" x2="508" y2="62" stroke="#222222" stroke-width="1.8"/>
+<text x="492" y="95.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="94" y="164.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="110" y="249.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="80" y="214.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="420" y1="150" x2="420" y2="270" stroke="#ffffff" stroke-width="7"/>
+<line x1="420" y1="150" x2="420" y2="165" stroke="#222222" stroke-width="2"/>
+<line x1="420" y1="255" x2="420" y2="270" stroke="#222222" stroke-width="2"/>
+<polyline points="420,165 406,172.5 434,187.5 406,202.5 434,217.5 406,232.5 434,247.5 420,255" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="446" y="219.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<polyline points="184.74,135 188.81,128.49 193.32,122.28 198.25,116.4 203.59,110.87 209.29,105.74 215.34,101.01 221.71,96.71 228.36,92.88 235.26,89.51 242.38,86.63 249.68,84.26 257.13,82.4 264.69,81.07 272.33,80.27 280,80 287.67,80.27 295.31,81.07 302.87,82.4 310.32,84.26 317.62,86.63 324.74,89.51 331.64,92.88 338.29,96.71 344.66,101.01 350.71,105.74 356.41,110.87 361.75,116.4" fill="none" stroke="#1f77c8" stroke-width="4" stroke-linejoin="round"/>
+<line x1="356.41" y1="110.87" x2="364.8" y2="121.6" stroke="#1f77c8" stroke-width="4"/>
+<polygon points="375.26,135 358.51,125.25 369.85,116.38" fill="#1f77c8"/>
+<text x="290" y="127.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+</svg>

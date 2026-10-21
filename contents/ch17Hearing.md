@@ -105,7 +105,7 @@ frequencies and sound intensity levels. At a frequency of 1000 Hz, phons are
 taken to be numerically equal to decibels. The following example helps
 illustrate how to use the graph:
 
-![A graph of variation of sound level versus frequency is shown. The sound level is along Y axis and frequency is along X axis. There are thirteen curves each for some count on phons from zero to one hundred and twenty with an interval of ten. The graphs are similar in shape but rising in value with increase in phons. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise.](../resources/Figure_17_06_02.jpg 'The relationship of loudness in phons to intensity level (in decibels) and intensity (in watts per meter squared) for persons with normal hearing. The curved lines are equal-loudness curves—all sounds on a given curve are perceived as equally loud. Phons and decibels are defined to be the same at 1000 Hz.')
+![Sound intensity level in decibels versus frequency on a logarithmic scale from 20 Hz to 20 000 Hz, with thirteen equal-loudness curves from 0 to 120 phons in steps of 10. Every sound on one curve seems equally loud. At 1000 Hz each curve passes through the decibel value equal to its phon number. The curves dip lowest near 3000 to 4000 Hz, where the ear is most sensitive, and rise steeply at low frequencies; the 0-phon curve, the threshold of hearing, is about 37 dB at 100 Hz and about −7 dB near 3500 Hz. The curves flatten out at high loudness.](../resources/Figure_17_06_02.svg 'The relationship of loudness in phons to intensity level (in decibels) and intensity (in watts per meter squared) for persons with normal hearing. The curved lines are equal-loudness curves—all sounds on a given curve are perceived as equally loud. Phons and decibels are defined to be the same at 1000 Hz.')
 {: #Figure2}
 
 ::: example
@@ -208,7 +208,7 @@ are usually characterized by higher frequencies. So the person with a 60-phon
 hearing impediment might have difficulty understanding the normal conversation
 of a woman.
 
-![A graph of variation of intensity versus frequency is shown. The intensity in decibel is along Y axis and frequency is along X axis. There are three curves each for some count on phon zero, forty and sixty. The graphs are similar in shape but rising in value with increase in phon. The graph has an initial fall from maximum value on Y axis reaches a minimum and then there is a wavy rise. The conversational speech distribution is shown as a strip across the graph.](../resources/Figure_17_06_03.jpg 'The shaded region represents frequencies and intensity levels found in normal conversational speech. The 0-phon line represents the normal hearing threshold, while those at 40 and 60 represent thresholds for people with 40- and 60-phon hearing losses, respectively.')
+![Intensity level in decibels versus frequency, with the 0-phon curve (the normal threshold of hearing) and the 40- and 60-phon curves from the equal-loudness graph. A shaded band shows where conversational speech lies: from about 200 Hz at 50 to 60 dB down to about 4000 Hz at 35 to 45 dB. All of it is above the 0-phon threshold. Much of it is below the 40-phon curve at the higher frequencies, and nearly all of it is below the 60-phon curve, so a person with a 40-phon loss misses the higher speech frequencies and a person with a 60-phon loss hears almost none of normal speech.](../resources/Figure_17_06_03.svg 'The shaded region represents frequencies and intensity levels found in normal conversational speech. The 0-phon line represents the normal hearing threshold, while those at 40 and 60 represent thresholds for people with 40- and 60-phon hearing losses, respectively.')
 {: #Figure3}
 
 Hearing tests are performed over a range of frequencies, usually from 250 to
@@ -221,7 +221,7 @@ both ears. The most common form of hearing loss comes with age and is called _
 presbycusis_—literally elder ear. Such loss is increasingly severe at higher
 frequencies, and interferes with music appreciation and speech recognition.
 
-![Three audiogram output graphs of three individuals’ left and right ear are shown. The graph is for hearing threshold level verses frequency in hertz. The hearing threshold level is on Y axis and frequency is along X axis. The first graph has two curve nearly parallel to X axis. The second graph is straight for some range then has a dip at four thousand hertz. The third graph has a falling curve toward X axis from a maximum value on Y axis.](../resources/Figure_17_06_04.jpg 'Audiograms showing the threshold in intensity level versus frequency for three different individuals. Intensity level is measured relative to the normal threshold. The top left graph is that of a person with normal hearing. The graph to its right has a dip at 4000 Hz and is that of a child who suffered hearing loss due to a cap gun. The third graph is typical of presbycusis, the progressive loss of higher frequency hearing with age. Tests performed by bone conduction (brackets) can distinguish nerve damage from middle ear damage.')
+![Hearing threshold level, in decibels relative to the normal threshold and increasing downward, versus frequency from 250 to 8000 Hz, for the right ear (circles) and left ear (diamonds). Top: normal hearing, with both ears within about 5 dB of 0 at every frequency. Middle: a child who suffered hearing loss from a cap gun, with normal thresholds except a sharp dip to about 55 dB at 4000 Hz in both ears. Bottom: presbycusis, age-related hearing loss, with thresholds that worsen steadily with frequency, reaching about 30 to 40 dB at 4000 Hz and 55 to 60 dB at 8000 Hz; brackets show the bone-conduction thresholds.](../resources/Figure_17_06_04.svg 'Audiograms showing the threshold in intensity level versus frequency for three different individuals. Intensity level is measured relative to the normal threshold. The top left graph is that of a person with normal hearing. The graph to its right has a dip at 4000 Hz and is that of a child who suffered hearing loss due to a cap gun. The third graph is typical of presbycusis, the progressive loss of higher frequency hearing with age. Tests performed by bone conduction (brackets) can distinguish nerve damage from middle ear damage.')
 {: #Figure4}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -251,7 +251,7 @@ force transmitted to the cochlea. This protective reaction can also be triggered
 by your own voice, so that humming while shooting a gun, for example, can reduce
 noise damage.
 
-![The schematic diagram of the middle ear’s system for converting sound pressure is shown. There is a pressure P one applied on the ear drum shown as a vertical line. The pressure P one travels along a horizontal line marked hammer as force F one. Then up a vertical line marked anvil and reaches a point marked pivot. Then this travels as a force F two along a horizontal line marked stirrup and reaches the oval window shown by a vertical line then passes by it as pressure P two. The pivot point has another support held vertically.](../resources/Figure_17_06_06.jpg 'This schematic shows the middle ear’s system for converting sound pressure into force, increasing that force through a lever system, and applying the increased force to a small area of the cochlea, thereby creating a pressure about 40 times that in the original sound wave. A protective muscle reaction to intense sounds greatly reduces the mechanical advantage of the lever system.')
+![Pressure P1 on the eardrum, of area A1, produces a force F1 = P1A1 on the hammer. The hammer, anvil and stirrup act as a lever pivoted at the top and at the joint between the anvil and the stirrup, so the force F2 delivered by the stirrup to the oval window is larger than F1. The oval window’s area A2 is much smaller than the eardrum’s, so the pressure it creates in the inner ear, P2 = F2/A2, is larger than P1: since F2 > F1 and A2 < A1, P2 > P1.](../resources/Figure_17_06_06.svg 'This schematic shows the middle ear’s system for converting sound pressure into force, increasing that force through a lever system, and applying the increased force to a small area of the cochlea, thereby creating a pressure about 40 times that in the original sound wave. A protective muscle reaction to intense sounds greatly reduces the mechanical advantage of the lever system.')
 {: #Figure6}
 
 [[Figure 7]](#Figure7) shows the middle and inner ear in greater detail.
@@ -317,6 +317,27 @@ No, the range of perceptible sound is based in the range of human hearing. Many 
 :::
 
 </div>
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Wind Instruments
+</div>
+
+See how the length of a pipe and whether its ends are open or closed set the notes it can play. Those are the same harmonics the ear sorts into pitch.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Wind instruments
+</figcaption>
+</div>
+
+:::
+
+::::
 
 ### Section Summary
 
@@ -404,7 +425,7 @@ The frequencies to which the ear responds vary by a factor of  $$ 10^{3} $$ .
 
 **Strategy**
 
-The human ear responds to frequencies ranging from 20 Hz to 20,000 Hz, which represents a factor of $$\frac{20,000}{20} = 1000 = 10^3$$. For the speedometer to have the same range factor, we divide the maximum speed by $$10^3$$ to find the minimum speed.
+The human ear responds to frequencies ranging from 20 Hz to 20,000 Hz, which represents a factor of $$\frac{20,000 \text{ Hz}}{20 \text{ Hz}} = 1000 = 10^3$$. For the speedometer to have the same range factor, we divide the maximum speed by $$10^3$$ to find the minimum speed.
 
 **Solution**
 
@@ -493,12 +514,12 @@ $$\Delta f = f_2 - f_1 = 2002 \text{ Hz} - 1999 \text{ Hz} = 3 \text{ Hz}$$
 
 The average frequency is:
 <div class="equation">
-$$f_{\text{avg}} = \frac{f_1 + f_2}{2} = \frac{1999 + 2002}{2} = 2000.5 \text{ Hz}$$
+$$f_{\text{avg}} = \frac{f_1 + f_2}{2} = \frac{1999 \text{ Hz} + 2002 \text{ Hz}}{2} = 2000.5 \text{ Hz}$$
 </div>
 
 The percentage difference is:
 <div class="equation">
-$$\text{Percentage difference} = \frac{\Delta f}{f_{\text{avg}}} \times 100\% = \frac{3}{2000.5} \times 100\% = 0.150\%$$
+$$\text{Percentage difference} = \frac{\Delta f}{f_{\text{avg}}} \times 100\% = \frac{3 \text{ Hz}}{2000.5 \text{ Hz}} \times 100\% = 0.150\%$$
 </div>
 
 Since $$0.150\% < 0.3\%$$, the difference is below the threshold.
@@ -539,7 +560,7 @@ $$\beta_{2} = \beta_{1} - \Delta \beta = 85 \text{ dB} - 3 \text{ dB} = 82 \text
 
 **Discussion**
 
-The next lowest sound intensity level that is clearly less intense than 85 dB is 82 dB. While the average person can detect differences as small as 1 dB under ideal conditions with careful attention, a 3 dB change is considered "easily noticed" without special effort or concentration. This 3 dB difference is significant because it represents a factor of 2 in actual sound intensity (since $$10\log_{10}(2) \approx 3$$ dB). In other words, reducing the volume from 85 dB to 82 dB means the radio is producing approximately half the acoustic power. This is why a 3 dB change is often used as a standard reference in acoustics and audio engineering. From a practical standpoint, 85 dB is at the threshold where prolonged exposure begins to pose a risk for hearing damage—OSHA regulations limit exposure to 85 dB to 8 hours per day. Reducing to 82 dB (half the intensity) provides a small but measurable reduction in hearing damage risk. The ability to perceive a 3 dB change easily is important for everyday activities like adjusting radio volume, evaluating environmental noise levels, and using hearing protection effectively. Most volume controls on audio equipment are designed so that small adjustments produce changes of at least 2-3 dB to ensure perceptible differences.
+The next lowest sound intensity level that is clearly less intense than 85 dB is 82 dB. While the average person can detect differences as small as 1 dB under ideal conditions with careful attention, a 3 dB change is considered "easily noticed" without special effort or concentration. This 3 dB difference is significant because it represents a factor of 2 in actual sound intensity (since $$(10 \text{ dB})\log_{10}(2) \approx 3 \text{ dB}$$). In other words, reducing the volume from 85 dB to 82 dB means the radio is producing approximately half the acoustic power. This is why a 3 dB change is often used as a standard reference in acoustics and audio engineering. From a practical standpoint, 85 dB is at the threshold where prolonged exposure begins to pose a risk for hearing damage—OSHA regulations limit exposure to 85 dB to 8 hours per day. Reducing to 82 dB (half the intensity) provides a small but measurable reduction in hearing damage risk. The ability to perceive a 3 dB change easily is important for everyday activities like adjusting radio volume, evaluating environmental noise levels, and using hearing protection effectively. Most volume controls on audio equipment are designed so that small adjustments produce changes of at least 2-3 dB to ensure perceptible differences.
 
 :::
 
@@ -564,14 +585,14 @@ We need to determine if a 3 dB change in sound intensity level is perceptible. A
 Given:
 - Initial intensity level: $$\beta_{1} = 70 \text{ dB}$$
 - Final intensity level: $$\beta_{2} = 73 \text{ dB}$$
-- Change in intensity level: $$\Delta \beta = 73 - 70 = 3 \text{ dB}$$
+- Change in intensity level: $$\Delta \beta = 73 \text{ dB} - 70 \text{ dB} = 3 \text{ dB}$$
 
 Since the text states that "a change of 3 dB is easily noticed," yes, you would be able to tell that your roommate turned up the sound.
 
 To understand what this change represents in terms of actual intensity, we can calculate the intensity ratio:
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 3 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right) = 3 \text{ dB}$$
 </div>
 
 <div class="equation">
@@ -644,11 +665,11 @@ Since a 40-dB sound at 1000 Hz has a loudness of 40 phons, we need to follow the
 
 - At 60 Hz: The 40-phon curve intersects at approximately **70 dB**
 - At 3000 Hz: The 40-phon curve intersects at approximately **37 dB**
-- At 8000 Hz: The 40-phon curve intersects at approximately **43 dB**
+- At 8000 Hz: The 40-phon curve intersects at approximately **52 dB**
 
 **Discussion**
 
-These values demonstrate the remarkable frequency-dependent nature of loudness perception. To sound equally loud to a 40-dB tone at 1000 Hz, a 60-Hz tone must be 30 dB more intense (70 dB vs. 40 dB), which represents a factor of $$10^{3} = 1000$$ times more intensity! This occurs because the ear is far less sensitive to low frequencies. Conversely, at 3000 Hz (near the ear's peak sensitivity), a sound needs only 37 dB to achieve the same perceived loudness—3 dB less than the reference, meaning about half the intensity. At 8000 Hz, 43 dB is required, slightly more than the reference.
+These values demonstrate the remarkable frequency-dependent nature of loudness perception. To sound equally loud to a 40-dB tone at 1000 Hz, a 60-Hz tone must be 30 dB more intense (70 dB vs. 40 dB), which represents a factor of $$10^{3} = 1000$$ times more intensity! This occurs because the ear is far less sensitive to low frequencies. Conversely, at 3000 Hz (near the ear's peak sensitivity), a sound needs only 37 dB to achieve the same perceived loudness—3 dB less than the reference, meaning about half the intensity. At 8000 Hz, about 52 dB is required, 12 dB more than the reference, or about $$10^{1.2} \approx 16$$ times the intensity, because the ear's sensitivity falls off above about 4000 Hz.
 
 This frequency dependence has crucial practical applications in audio engineering and hearing protection. Sound systems must compensate for this non-uniform sensitivity through equalization, boosting low frequencies to achieve balanced perceived loudness across the spectrum. This is why bass controls exist on audio equipment and why "loudness" buttons on older stereos would boost bass at low volumes—to compensate for the ear's reduced sensitivity to low frequencies at lower overall sound levels. For hearing conservation, this explains why low-frequency industrial noise (like heavy machinery rumble) may be perceived as less loud than it actually is, potentially leading to underestimation of hearing damage risk. Workers might not realize that a 70-dB, 60-Hz sound, while seeming only moderately loud, actually carries far more acoustic energy than its perceived loudness suggests. Similarly, this is why subwoofers in home theater systems require much more power than mid-range or high-frequency speakers to achieve balanced sound—the ear's insensitivity to low frequencies must be overcome by higher actual sound intensities.
 
@@ -718,40 +739,40 @@ To find the loudness in phons for a given frequency and intensity level, we use 
 
 **(a) At 60.0-dB intensity level:**
 
-For each frequency, we locate where 60 dB intersects the frequency and interpolate between phon curves:
+For each frequency, we locate where 60 dB intersects the frequency and interpolate between phon curves. Readings from a graph are uncertain by a few phons.
 
-- **200 Hz**: approximately **50 phons** (below the 60-phon curve)
+- **200 Hz**: approximately **50 phons** (on the 50-phon curve)
 - **1000 Hz**: **60 phons** (by definition, phons equal dB at 1000 Hz)
-- **5000 Hz**: approximately **70 phons** (above the 60-phon curve)
-- **10,000 Hz**: approximately **60 phons** (approximately on the 60-phon curve)
+- **5000 Hz**: approximately **59 phons** (just below the 60-phon curve)
+- **10,000 Hz**: approximately **47 phons** (between the 40- and 50-phon curves)
 
 **(b) At 110-dB intensity level:**
 
 For each frequency at this high intensity level:
 
-- **200 Hz**: approximately **103 phons**
+- **200 Hz**: approximately **109 phons**
 - **1000 Hz**: **110 phons**
-- **5000 Hz**: approximately **113 phons**
-- **10,000 Hz**: approximately **108 phons**
+- **5000 Hz**: approximately **117 phons** (between the 110- and 120-phon curves)
+- **10,000 Hz**: approximately **105 phons**
 
 **(c) At 20.0-dB intensity level:**
 
 For each frequency at this low intensity level:
 
-- **200 Hz**: approximately **10 phons** (well below the 20-phon curve)
+- **200 Hz**: **inaudible**; 20 dB is below the threshold of hearing (the 0-phon curve is at about 23 dB at 200 Hz)
 - **1000 Hz**: **20 phons**
-- **5000 Hz**: approximately **28 phons** (above the 20-phon curve)
-- **10,000 Hz**: approximately **15 phons**
+- **5000 Hz**: approximately **21 phons**
+- **10,000 Hz**: approximately **10 phons**
 
 **Discussion**
 
-These results beautifully illustrate how loudness perception varies dramatically with frequency, especially at lower intensity levels. In part (a), even though all four sounds have the same physical intensity (60 dB), they sound quite different: the 5000-Hz tone sounds loudest (70 phons) because it's near the ear's peak sensitivity, while the 200-Hz tone sounds noticeably quieter (50 phons)—a difference of 20 phons represents a very substantial perceptual difference.
+These results illustrate how loudness perception varies with frequency, especially at low intensity levels. In part (a), all four sounds have the same intensity (60 dB), yet the 1000-Hz and 5000-Hz tones sound about equally loud (59–60 phons), while the 200-Hz tone (50 phons) and the 10,000-Hz tone (47 phons) sound noticeably quieter. The ear is most sensitive in the range of about 1000 to 5000 Hz.
 
-Part (c) shows this effect is most pronounced at low intensities. At 20 dB, the loudness varies from 10 phons (200 Hz) to 28 phons (5000 Hz)—the 5000-Hz tone sounds nearly three times as loud despite having identical intensity! This is why soft background music often seems to lack bass—the low frequencies simply don't sound as loud to our ears.
+Part (c) shows that the effect is most pronounced at low intensities. At 20 dB, the 200-Hz tone cannot be heard at all, the 10,000-Hz tone is a faint 10 phons, and the 1000-Hz and 5000-Hz tones are about 20 phons. This is why soft background music often seems to lack bass: at low levels the low frequencies may fall below the threshold of hearing.
 
-Part (b) reveals that at very high intensity levels (110 dB), the variation in perceived loudness becomes much smaller. All frequencies sound more similar because the equal-loudness curves flatten out considerably at high intensities. This flattening means our ears become less discriminatory about frequency at high sound levels.
+Part (b) shows that at a high intensity level (110 dB) the readings are much closer together: 105 to 117 phons, compared with "inaudible" to 21 phons at 20 dB. The equal-loudness curves flatten considerably at high levels, especially at low frequencies, so the ear discriminates less between frequencies when sounds are loud.
 
-This phenomenon has critical implications: (1) In hearing conservation, a 60-dB, 200-Hz sound might be underestimated as a hazard because it sounds less loud than a 60-dB, 5000-Hz sound, even though both carry equal energy. (2) For hearing aid design, frequency-specific amplification must account for these variations—simply amplifying all frequencies equally doesn't restore normal loudness perception. (3) In audio mixing and mastering, engineers must carefully balance frequency content because listeners will perceive different frequencies as having different loudness even when they measure the same dB level. (4) Age-related hearing loss exacerbates these effects, as high-frequency sensitivity declines, making sounds at 5000-10,000 Hz seem even quieter relative to mid-range frequencies.
+This has practical implications: (1) In hearing conservation, a 60-dB, 200-Hz sound might be underestimated as a hazard because it sounds quieter than a 60-dB, 1000-Hz sound, even though both carry the same intensity. (2) For hearing aid design, frequency-specific amplification must account for these variations; simply amplifying all frequencies equally does not restore normal loudness perception. (3) In audio mixing and mastering, engineers must balance frequency content because listeners perceive different frequencies at the same dB level as having different loudness. (4) Age-related hearing loss makes these effects worse: as high-frequency sensitivity declines, sounds at 5000–10,000 Hz seem even quieter relative to mid-range frequencies.
 
 :::
 
@@ -769,7 +790,7 @@ Suppose a person has a 50-dB hearing loss at all frequencies. By how many factor
 
 A 50-dB increase in intensity level requires
 
-$$50=10\log_{10}\frac{I_2}{I_1},\qquad \frac{I_2}{I_1}=10^5.$$
+$$50 \text{ dB}=(10 \text{ dB})\log_{10}\frac{I_2}{I_1},\qquad \frac{I_2}{I_1}=10^5.$$
 
 Thus the required low-level intensity gain is **five factors of 10**, or 100,000. Smaller gain for loud sounds is needed to avoid excessive output.
 
@@ -798,23 +819,23 @@ To find the hearing loss in decibels, we need to convert the intensity ratio (am
 Given that the required amplification is $$5.0 \times 10^{12}$$, we can find the hearing loss using:
 
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{\text{amplified}}}{I_{\text{original}}}\right) = 10\log_{10}(5.0 \times 10^{12})$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_{\text{amplified}}}{I_{\text{original}}}\right) = (10 \text{ dB})\log_{10}(5.0 \times 10^{12})$$
 </div>
 
 Using logarithm properties:
 
 <div class="equation">
-$$\Delta\beta = 10[\log_{10}(5.0) + \log_{10}(10^{12})]$$
+$$\Delta\beta = (10 \text{ dB})[\log_{10}(5.0) + \log_{10}(10^{12})]$$
 </div>
 
 <div class="equation">
-$$\Delta\beta = 10[\log_{10}(5.0) + 12]$$
+$$\Delta\beta = (10 \text{ dB})[\log_{10}(5.0) + 12]$$
 </div>
 
 Since $$\log_{10}(5.0) \approx 0.699$$:
 
 <div class="equation">
-$$\Delta\beta = 10[0.699 + 12] = 10 \times 12.699 = 126.99 \approx 127 \text{ dB}$$
+$$\Delta\beta = (10 \text{ dB})[0.699 + 12] = (10 \text{ dB}) \times 12.699 = 126.99 \text{ dB} \approx 127 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -845,11 +866,11 @@ Use $$I=I_0 10^{\beta/10}$$ with $$I_0=10^{-12}\ \text{W/m}^2$$ and approximate 
 
 **(a)** At 200 Hz the threshold is about 20 dB:
 
-$$I_{200}=10^{-12}10^{20/10}=1\times10^{-10}\ \text{W/m}^2.$$
+$$I_{200}=(10^{-12}\ \text{W/m}^2)\,10^{20/10}=1\times10^{-10}\ \text{W/m}^2.$$
 
 **(b)** At 4000 Hz the threshold is about −7 dB:
 
-$$I_{4000}=10^{-12}10^{-7/10}\approx2\times10^{-13}\ \text{W/m}^2.$$
+$$I_{4000}=(10^{-12}\ \text{W/m}^2)\,10^{-7/10}\approx2\times10^{-13}\ \text{W/m}^2.$$
 
 These graph estimates imply a ratio of about 500. Hearing sensitivity depends strongly on frequency.
 
@@ -874,54 +895,54 @@ To find the intensity for a given loudness in phons, we first use Figure 2 to fi
 
 **(a) For 60.0-Hz sound at 60 phons:**
 
-From Figure 2, the 60-phon curve at 60 Hz corresponds to approximately 82 dB.
+From Figure 2, the 60-phon curve at 60 Hz corresponds to approximately 77 dB.
 
 Using the decibel formula:
 <div class="equation">
-$$82 = 10\log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$77 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$8.2 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$7.7 = \log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$\frac{I}{10^{-12}} = 10^{8.2} \approx 1.58 \times 10^{8}$$
+$$\frac{I}{10^{-12} \text{ W/m}^2} = 10^{7.7} \approx 5.0 \times 10^{7}$$
 </div>
 
 <div class="equation">
-$$I = 1.58 \times 10^{8} \times 10^{-12} = 1.58 \times 10^{-4} \text{ W/m}^2 \approx 1.6 \times 10^{-4} \text{ W/m}^2$$
+$$I = (5.0 \times 10^{7})(10^{-12} \text{ W/m}^2) = 5.0 \times 10^{-5} \text{ W/m}^2$$
 </div>
 
 **(b) For 10,000-Hz sound at 60 phons:**
 
-From Figure 2, the 60-phon curve at 10,000 Hz corresponds to approximately 60 dB (the curves are flatter in this region).
+From Figure 2, the 60-phon curve at 10,000 Hz corresponds to approximately 72 dB; the curves rise steeply above about 4000 Hz.
 
 <div class="equation">
-$$60 = 10\log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$72 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$6.0 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$7.2 = \log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$\frac{I}{10^{-12}} = 10^{6}$$
+$$\frac{I}{10^{-12} \text{ W/m}^2} = 10^{7.2} \approx 1.6 \times 10^{7}$$
 </div>
 
 <div class="equation">
-$$I = 10^{6} \times 10^{-12} = 10^{-6} \text{ W/m}^2 = 1.0 \times 10^{-6} \text{ W/m}^2$$
+$$I = (1.6 \times 10^{7})(10^{-12} \text{ W/m}^2) = 1.6 \times 10^{-5} \text{ W/m}^2$$
 </div>
 
 **Discussion**
 
-The results show that to achieve the same perceived loudness of 60 phons, the 60-Hz sound must have an intensity of approximately $$1.6 \times 10^{-4}$$ W/m², while the 10,000-Hz sound needs only $$1.0 \times 10^{-6}$$ W/m². This means the low-frequency sound requires about 160 times more intensity to sound equally loud! This dramatic difference (22 dB) illustrates why low-frequency sounds need much more power to be perceived as equally loud as mid- to high-frequency sounds.
+To sound as loud as a 60-dB, 1000-Hz tone, the 60-Hz sound needs an intensity of about $$5.0 \times 10^{-5}$$ W/m² (77 dB) and the 10,000-Hz sound about $$1.6 \times 10^{-5}$$ W/m² (72 dB). Both are well above the $$1.0 \times 10^{-6}$$ W/m² (60 dB) needed at 1000 Hz: the ear is less sensitive at both ends of the audible range. The 60-Hz sound needs about $$10^{0.5} \approx 3$$ times the intensity of the 10,000-Hz sound (a 5-dB difference). Graph readings are uncertain by a few dB, so these intensities are good to within a factor of about 1.5.
 
-This has profound implications for sound system design and energy consumption. Subwoofers that reproduce low-frequency sounds must handle far more power than tweeters (high-frequency speakers) to achieve balanced perceived volume across the frequency spectrum. A home theater system might use a 200-watt subwoofer alongside 50-watt mid-range and tweeter speakers precisely because of this frequency-dependent sensitivity.
+The low-frequency penalty grows at lower loudness levels: at 40 phons, a 60-Hz tone needs about 70 dB, 30 dB more than at 1000 Hz. This is one reason subwoofers must deliver more acoustic power than mid-range speakers to give balanced perceived volume, especially at modest listening levels.
 
-From a physiological perspective, this difference arises from several factors: (1) The ear canal resonates at frequencies around 2000-4000 Hz, naturally amplifying those frequencies. (2) The ossicular chain (hammer, anvil, stirrup) in the middle ear is most efficient at transferring mid-frequency vibrations. (3) The basilar membrane in the cochlea has frequency-dependent mechanical properties that favor mid-range frequencies. (4) Low-frequency sounds have longer wavelengths that don't couple as efficiently to the small structures of the inner ear.
+Several physiological factors contribute to this frequency dependence: (1) the ear canal resonates at about 2000–4000 Hz, boosting those frequencies; (2) the middle-ear ossicles transfer mid-frequency vibrations most efficiently; and (3) the mechanical properties of the basilar membrane in the cochlea favor the mid-range.
 
-For hearing protection, this means that low-frequency industrial noise at 60 Hz might not seem dangerously loud even when it carries substantial acoustic power. A 82-dB sound at 60 Hz (which sounds moderately loud, like 60 phons) is approaching the threshold where extended exposure begins to pose hearing damage risk, yet it might be underestimated because it doesn't sound as loud as its 82-dB intensity level might suggest if it were at a higher frequency. Conversely, at 10,000 Hz, the ear's reduced sensitivity at high frequencies (compared to its peak at 3000-4000 Hz) means that age-related hearing loss, which typically affects high frequencies first, will make these sounds seem even quieter as people age.
+For hearing protection, low-frequency noise at 60 Hz can carry more acoustic power than its loudness suggests: a 77-dB, 60-Hz hum sounds only as loud as a 60-dB mid-range tone. At 10,000 Hz, age-related hearing loss, which typically affects high frequencies first, makes such sounds seem even quieter as people age.
 
 :::
 
@@ -939,7 +960,7 @@ A person has a hearing threshold 10 dB above normal at 100 Hz and 50 dB above no
 
 From Figure 2, estimate normal thresholds of 38 dB at 100 Hz and −7 dB at 4000 Hz. Adding the specified losses gives thresholds of 48 dB and 43 dB, respectively. Thus
 
-$$\frac{I_{100}}{I_{4000}}=10^{(48-43)/10}=10^{0.5}=3.16\approx3.2.$$
+$$\frac{I_{100}}{I_{4000}}=10^{(48 \text{ dB}-43 \text{ dB})/(10 \text{ dB})}=10^{0.5}=3.16\approx3.2.$$
 
 Using these approximate graph readings, the 100-Hz tone must be about **3.2 times** as intense. The different normal thresholds must be included as well as the person's losses.
 
@@ -968,20 +989,20 @@ From Figure 2, the normal hearing thresholds (0-phon curve) are:
 
 For this child:
 - Threshold at 400 Hz: **9 dB** (normal hearing)
-- Threshold at 5000 Hz: $$-5 + 60 = 55 \text{ dB}$$ (with 60-dB loss)
+- Threshold at 5000 Hz: $$-5 \text{ dB} + 60 \text{ dB} = 55 \text{ dB}$$ (with 60-dB loss)
 
 The difference in threshold levels is:
 <div class="equation">
-$$\Delta\beta = 55 - 9 = 46 \text{ dB}$$
+$$\Delta\beta = 55 \text{ dB} - 9 \text{ dB} = 46 \text{ dB}$$
 </div>
 
 To find the intensity ratio:
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
 </div>
 
 <div class="equation">
-$$46 = 10\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
+$$46 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
 </div>
 
 <div class="equation">
@@ -1031,11 +1052,11 @@ $$\Delta\beta = 1 \text{ dB}$$
 
 Using the relationship between decibel difference and intensity ratio:
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_1}{I_2}\right)$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_1}{I_2}\right)$$
 </div>
 
 <div class="equation">
-$$1 = 10\log_{10}\left(\frac{I_1}{I_2}\right)$$
+$$1 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I_1}{I_2}\right)$$
 </div>
 
 <div class="equation">

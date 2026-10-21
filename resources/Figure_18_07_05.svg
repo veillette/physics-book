@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="260" viewBox="0 0 560 260" role="img" aria-labelledby="title desc">
+<title id="title">Field between two oppositely charged metal plates</title>
+<desc id="desc">An upper metal plate with positive charge and a lower plate with an equal negative charge. Between them the field lines are straight, evenly spaced and point down from the positive plate to the negative plate, so the field is uniform; near the ends the lines bow outward.</desc>
+<rect width="560" height="260" fill="#ffffff"/>
+<rect x="70" y="26" width="420" height="20" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="70" y="214" width="420" height="20" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<line x1="120" y1="46" x2="120" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="120" y1="118" x2="120" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="120,142 114.24,127.6 125.76,127.6" fill="#1f77c8"/>
+<line x1="160" y1="46" x2="160" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="160" y1="118" x2="160" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="160,142 154.24,127.6 165.76,127.6" fill="#1f77c8"/>
+<line x1="200" y1="46" x2="200" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="200" y1="118" x2="200" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="200,142 194.24,127.6 205.76,127.6" fill="#1f77c8"/>
+<line x1="240" y1="46" x2="240" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="240" y1="118" x2="240" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="240,142 234.24,127.6 245.76,127.6" fill="#1f77c8"/>
+<line x1="280" y1="46" x2="280" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="280" y1="118" x2="280" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="280,142 274.24,127.6 285.76,127.6" fill="#1f77c8"/>
+<line x1="320" y1="46" x2="320" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="320" y1="118" x2="320" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="320,142 314.24,127.6 325.76,127.6" fill="#1f77c8"/>
+<line x1="360" y1="46" x2="360" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="360" y1="118" x2="360" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="360,142 354.24,127.6 365.76,127.6" fill="#1f77c8"/>
+<line x1="400" y1="46" x2="400" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="400" y1="118" x2="400" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,142 394.24,127.6 405.76,127.6" fill="#1f77c8"/>
+<line x1="440" y1="46" x2="440" y2="214" stroke="#1f77c8" stroke-width="2"/>
+<line x1="440" y1="118" x2="440" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="440,142 434.24,127.6 445.76,127.6" fill="#1f77c8"/>
+<path d="M 80 46 C 80 88 36 96.4 36 130 S 80 172 80 214" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="36" y1="118" x2="36" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="36,142 30.24,127.6 41.76,127.6" fill="#1f77c8"/>
+<path d="M 480 46 C 480 88 524 96.4 524 130 S 480 172 480 214" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="524" y1="118" x2="524" y2="128.6" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="524,142 518.24,127.6 529.76,127.6" fill="#1f77c8"/>
+<text x="80" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="80" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="120" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="120" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="160" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="160" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="200" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="200" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="240" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="240" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="280" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="280" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="320" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="320" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="360" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="360" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="400" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="400" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="440" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="440" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="480" y="42.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="480" y="230.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+</svg>

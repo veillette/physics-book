@@ -79,7 +79,7 @@ than putting a measuring device into a system, such as a person’s artery.
 in use today. In all mechanical pressure gauges, pressure results in a force
 that is converted (or transduced) into some type of readout.
 
-![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](../resources/Figure_11_06_01.jpg 'This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.')
+![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](/resources/Figure_11_06_01.svg 'This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.')
 {: #Figure1}
 
 An entire class of gauges uses the property that pressure due to the weight of a
@@ -207,7 +207,7 @@ Mercury barometers and manometers are so common that units of mm Hg are often
 quoted for atmospheric pressure and blood pressures. [[Table 1]](#Table1) gives
 conversion factors for some of the more commonly used units of pressure.
 
-![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_11_06_04.jpg 'A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, ( h\\rho g ), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height ( h ) because the pressure above the mercury is zero.')
+![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](/resources/Figure_11_06_04.svg 'A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, ( h\\rho g ), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height ( h ) because the pressure above the mercury is zero.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="Conversion Factors for Various Pressure Units"><caption><span class="title">Conversion Factors for Various Pressure Units</span></caption><thead>
@@ -353,7 +353,7 @@ Apply the hydrostatic pressure relationship $$ P = \rho g h $$ to understand how
 **Solution:**
 
 **If the manometer is lowered:**
-No effect on the measured pressure. The manometer measures the pressure transmitted through the cuff, which depends on the blood pressure at the cuff level, not the manometer position. The manometer tubing contains air (or flexible hydraulic connection), and lowering it doesn't change the pressure being transmitted.
+No noticeable effect on the measured pressure. The manometer reads the pressure of the air in the cuff, which is set by the blood pressure at the cuff's level, not by where the manometer sits. The tubing between them is filled with air, whose density is so small that lowering the manometer by even half a metre changes the pressure by only about $$ \rho_{\text{air}} g h = (1.29 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.50 \text{ m}) \approx 6 \text{ Pa} $$, less than 0.05 mm Hg. (If the tubing were filled with a liquid, lowering the gauge *would* raise its reading by $$ \rho g \Delta h $$ of that liquid; a flexible tube does not remove this effect.)
 
 **Raising the arm above the shoulder:**
 The measured blood pressure will be **lower** than at heart level. Blood must be pumped upward against gravity to reach the elevated arm. The pressure decrease is:
@@ -369,7 +369,7 @@ The measured blood pressure will be **higher** than at heart level. The leg is b
 $$ P_{\text{leg}} = P_{\text{heart}} + \rho_{\text{blood}} g h $$
 
 For leg ~80 cm below heart:
-$$ \Delta P \approx (1050)(9.8)(0.80) \approx 8200 \text{ Pa} \approx 62 \text{ mm Hg} $$
+$$ \Delta P \approx (1050 \text{ kg/m}^3)(9.8 \text{ m/s}^2)(0.80 \text{ m}) \approx 8200 \text{ Pa} \approx 62 \text{ mm Hg} $$
 
 Blood pressure might read ~182/142 instead of 120/80.
 
@@ -432,7 +432,7 @@ Find the gauge and absolute pressures in the balloon and peanut jar shown in [[F
 ::: solution
 
 **Strategy:**
-For the balloon, the fluid rises on the side connected to the balloon, indicating positive gauge pressure equal to $$ h \rho g $$ in cm H₂O. For the jar, the fluid is depressed, indicating negative gauge pressure (vacuum). Convert h = 0.0500 m to appropriate units. Calculate absolute pressure by adding atmospheric pressure.
+For the balloon, the gas pushes the liquid down on the side connected to the balloon, so the liquid stands higher on the open side; this indicates a positive gauge pressure equal to $$ h \rho g $$, that is, $$ h $$ in cm H₂O. For the jar, the reduced pressure lets the atmosphere push the mercury up on the jar side, indicating a negative gauge pressure (partial vacuum). Convert h = 0.0500 m to appropriate units. Calculate absolute pressure by adding atmospheric pressure.
 
 **Solution:**
 
@@ -440,31 +440,31 @@ Given: $$ h = 0.0500 \text{ m} = 5.00 \text{ cm} = 50.0 \text{ mm} $$
 
 **Balloon (positive gauge pressure):**
 
-From Figure 2(b), the water column is higher on the side connected to the balloon, so:
+From Figure 2(b), the water is pushed down on the balloon side and stands higher on the open side, so:
 <div class="equation">
 $$ P_{\text{g, balloon}} = h = 5.00 \text{ cm H}_2\text{O} $$
 </div>
 
 To find absolute pressure, add atmospheric pressure. Standard atmospheric pressure is 760 mm Hg, which equals:
 <div class="equation">
-$$ P_{\text{atm}} = 760 \text{ mm Hg} \times \frac{13.6 \text{ g/cm}^3}{1.00 \text{ g/cm}^3} = 10,336 \text{ cm H}_2\text{O} \approx 1.03 \times 10^{3} \text{ cm H}_2\text{O} $$
+$$ P_{\text{atm}} = 760 \text{ mm Hg} \times \frac{13.6 \text{ g/cm}^3}{1.00 \text{ g/cm}^3} = 10{,}336 \text{ mm H}_2\text{O} = 1033.6 \text{ cm H}_2\text{O} $$
 </div>
 
 Therefore:
 <div class="equation">
-$$ P_{\text{abs, balloon}} = P_{\text{atm}} + P_{\text{g}} = 1.030 \times 10^{3} + 5.00 = 1.035 \times 10^{3} \text{ cm H}_2\text{O} $$
+$$ P_{\text{abs, balloon}} = P_{\text{atm}} + P_{\text{g}} = 1033.6 \text{ cm H}_2\text{O} + 5.00 \text{ cm H}_2\text{O} = 1038.6 \text{ cm H}_2\text{O} \approx 1.04 \times 10^{3} \text{ cm H}_2\text{O} $$
 </div>
 
 **Jar (negative gauge pressure):**
 
-From Figure 2(c), the mercury is depressed on the jar side, indicating pressure less than atmospheric:
+From Figure 2(c), the mercury is raised on the jar side and depressed on the open side, indicating pressure less than atmospheric:
 <div class="equation">
 $$ P_{\text{g, jar}} = -h = -50.0 \text{ mm Hg} $$
 </div>
 
 Absolute pressure:
 <div class="equation">
-$$ P_{\text{abs, jar}} = P_{\text{atm}} + P_{\text{g}} = 760 - 50.0 = 710 \text{ mm Hg} $$
+$$ P_{\text{abs, jar}} = P_{\text{atm}} + P_{\text{g}} = 760 \text{ mm Hg} - 50.0 \text{ mm Hg} = 710 \text{ mm Hg} $$
 </div>
 
 **Summary:**
@@ -473,7 +473,7 @@ Balloon:
 
 $$
 \begin{array}{lll}{P}_{\text{g}}& =& 5.00 \text{ cm } {\text{H}}_{2}\text{O} \text{,}
-\\ {P}_{\text{abs}}& =& 1.035 \times 10^{3} \text{ cm } {\text{H}}_{2}\text{O}
+\\ {P}_{\text{abs}}& =& 1.04 \times 10^{3} \text{ cm } {\text{H}}_{2}\text{O}
 \text{.} \end{array}
 $$
 
@@ -571,7 +571,7 @@ $$ P = 4.00 \times 10^4 \text{ Pa} $$
 
 $$ h_{\text{water}} = \frac{P}{\rho_{\text{water}} g} = \frac{4.00 \times 10^4 \text{ Pa}}{(1.00 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} $$
 
-$$ h_{\text{water}} = \frac{4.00 \times 10^4}{9.80 \times 10^3} \text{ m} = 4.08 \text{ m} $$
+$$ h_{\text{water}} = \frac{4.00 \times 10^4 \text{ Pa}}{9.80 \times 10^3 \text{ Pa/m}} = 4.08 \text{ m} $$
 
 **Discussion:**
 The water manometer must be approximately **4.08 meters tall** (about 13.4 feet). This is much taller than a mercury manometer, which would only need 0.30 m (30 cm) for the same pressure. The ratio of heights equals the inverse ratio of densities: water is 13.6 times less dense than mercury, so it requires a column 13.6 times taller to create the same pressure. This is why mercury is traditionally used for blood pressure measurements—its high density allows for compact instruments. A 4-meter water manometer would be impractical in clinical settings, though water manometers are sometimes used in research or when mercury's toxicity is a concern.
@@ -655,8 +655,8 @@ $$ \Delta P = \frac{5145 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 38.7 \text{ mm Hg} 
 At heart level: 120/80 mm Hg
 
 At leg level (0.500 m below heart):
-- Systolic: $$ 120 + 38.7 = 158.7 \approx 159 \text{ mm Hg} $$
-- Diastolic: $$ 80 + 38.7 = 118.7 \approx 119 \text{ mm Hg} $$
+- Systolic: $$ 120 \text{ mm Hg} + 38.7 \text{ mm Hg} = 158.7\,\text{ mm Hg} \approx 159 \text{ mm Hg} $$
+- Diastolic: $$ 80 \text{ mm Hg} + 38.7 \text{ mm Hg} = 118.7\,\text{ mm Hg} \approx 119 \text{ mm Hg} $$
 
 <div class="equation">
 $$\begin{array}{l}\Delta P=38.7 \text{ mm Hg,}\\ \text{Leg blood pressure}=\frac{159}{119}\text{.}\end{array} $$
@@ -699,11 +699,11 @@ Using $$ \rho_{\text{seawater}} = 1.025 \times 10^3 \text{ kg/m}^3 $$:
 
 $$ P_{\text{water}} = 1.01 \times 10^5 \text{ Pa} + (1.025 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(25.0 \text{ m}) $$
 
-$$ P_{\text{water}} = 1.01 \times 10^5 + 2.51 \times 10^5 = 3.52 \times 10^5 \text{ Pa} $$
+$$ P_{\text{water}} = 1.01 \times 10^5 \text{ Pa} + 2.51 \times 10^5 \text{ Pa} = 3.52 \times 10^5 \text{ Pa} $$
 
 *Step 2: Calculate the pressure difference*
 
-$$ \Delta P = P_{\text{outside}} - P_{\text{inside}} = 3.52 \times 10^5 - 1.01 \times 10^5 = 2.51 \times 10^5 \text{ Pa} $$
+$$ \Delta P = P_{\text{outside}} - P_{\text{inside}} = 3.52 \times 10^5 \text{ Pa} - 1.01 \times 10^5 \text{ Pa} = 2.51 \times 10^5 \text{ Pa} $$
 
 *Step 3: Calculate the hatch area*
 

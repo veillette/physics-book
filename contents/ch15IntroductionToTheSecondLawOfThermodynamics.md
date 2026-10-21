@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* State the expressions of the second law of thermodynamics.
-* Calculate the efficiency and carbon dioxide emission of a coal-fired electricity plant, using second law characteristics.
-* Describe and define the Otto cycle.
+- State the expressions of the second law of thermodynamics.
+- Calculate the efficiency and carbon dioxide emission of a coal-fired electricity plant, using second law characteristics.
+- Describe and define the Otto cycle.
 
 :::
 
@@ -167,10 +168,10 @@ preceded by a minus sign.
 Daily Work Done by a Coal-Fired Power Station, Its Efficiency and Carbon Dioxide Emissions
 </div>
 
-A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has  $$ 2.50 \times 10^{14} \text{J} $$
- of heat transfer from coal and  $$ 1.48 \times 10^{14} \text{J} $$
- of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $$\text{C}+{\text{O}}_{2}\to {\text{CO}}_{2} $$. This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide  $$ 2.5 \times 10^{6}  \text{J} $$
- of heat transfer upon combustion, how much $${\text{CO}}_{2} $$ is emitted per day by this power plant?
+A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has $$ 2.50 \times 10^{14} \text{J} $$
+of heat transfer from coal and $$ 1.48 \times 10^{14} \text{J} $$
+of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $$\text{C}+{\text{O}}_{2}\to {\text{CO}}_{2} $$. This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide $$ 2.5 \times 10^{6}  \text{J} $$
+of heat transfer upon combustion, how much $${\text{CO}}_{2} $$ is emitted per day by this power plant?
 
 <strong> Strategy for (a)</strong>
 
@@ -202,7 +203,7 @@ of this example.
 
 **Solution for (b)**
 
-Efficiency is given by:  $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}} $$ . The work
+Efficiency is given by: $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}} $$ . The work
 $$W $$ was just found to be $$1.02 \times 10^{14} \text{J} $$ , and $${Q}_{\text{h}} $$ is given, so the efficiency is
 
 <div class="equation" >
@@ -337,6 +338,22 @@ Imagine you are driving a car up Pike’s Peak in Colorado. To raise a car weigh
 
 :::
 
+::: solution
+
+**Strategy**
+
+Include both heat-engine losses and road-load work in the fuel budget.
+
+**Solution**
+
+The minimum gravitational energy is $$mgh=(1000\text{ kg})(9.8\text{ m/s}^2)(3000\text{ m})=29.4\text{ MJ}$$. If an illustrative gallon contains $$125\text{ MJ}$$ and the engine converts an assumed 25% into shaft work, even with no other losses the climb needs $$29.4\text{ MJ}/[(0.25)(125\text{ MJ/gallon})]=0.94\text{ gallon}$$. Aerodynamic drag, rolling resistance, drivetrain losses, accessories, and accelerations require still more fuel.
+
+**Discussion**
+
+The near-quart estimate implicitly assumes complete conversion of fuel energy to gravitational energy. Actual consumption is greater because heat-engine inefficiency and road resistance use much of the fuel energy without raising the car.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -344,6 +361,22 @@ Imagine you are driving a car up Pike’s Peak in Colorado. To raise a car weigh
 ::: problem
 
 Is a temperature difference necessary to operate a heat engine? State why or why not.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply the second law to a cyclic engine drawing energy as heat.
+
+**Solution**
+
+A heat engine needs heat input from a hotter source and heat rejection to a colder sink. If both reservoirs had the same temperature, the Carnot bound would be $$\eta_{\max}=1-T_c/T_h=0$$. Extracting net work cyclically from one equilibrium heat reservoir alone would violate the second law.
+
+**Discussion**
+
+Other engines can use chemical or electrical free energy without being heat engines. A cyclic heat engine requires a temperature difference to produce net work.
 
 :::
 
@@ -357,6 +390,22 @@ Definitions of efficiency vary depending on how energy is being converted. Compa
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare useful work output with the kind of energy supplied.
+
+**Solution**
+
+For a heat engine, efficiency is $$\eta=W_{\text{net}}/Q_h$$: useful mechanical work divided by heat absorbed from the hot source. For the human body, a mechanical efficiency can be defined as external work divided by the chemical energy expended from food, with care to specify whether resting metabolism has been subtracted. For assumed $$100\text{ kJ}$$ of chemical input producing $$20\text{ kJ}$$ of external work, the gross mechanical efficiency is $$20\%$$.
+
+**Discussion**
+
+The body also expends energy on maintaining temperature and other functions, so the definition of “useful” output matters. Both efficiencies compare work with input energy, but the body’s input is chemical energy rather than heat from a hot reservoir.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -364,6 +413,22 @@ Definitions of efficiency vary depending on how energy is being converted. Compa
 ::: problem
 
 Why—other than the fact that the second law of thermodynamics says reversible engines are the most efficient—should heat engines employing reversible processes be more efficient than those employing irreversible processes? Consider that dissipative mechanisms are one cause of irreversibility.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify how irreversible processes consume work potential.
+
+**Solution**
+
+Friction converts organized motion into internal energy, turbulence dissipates fluid motion, and heat transfer through a finite temperature difference generates entropy. These effects require extra energy input or increase heat rejection for a given useful output. Reversible processes avoid these losses and preserve the maximum available work between the specified reservoirs.
+
+**Discussion**
+
+Reversibility is an ideal limit, often requiring vanishingly slow operation. Reversible engines are more efficient because no available work is destroyed by dissipative processes or other entropy production.
 
 :::
 
@@ -392,7 +457,7 @@ Given: $$W = 10.0 \text{ kJ}$$, $$Q_{out} = 8.50 \text{ kJ}$$
 **(a)** Heat input:
 
 <div class="equation">
- $$Q_{in} = W + Q_{out} = 10.0 + 8.50 = 18.5 \text{ kJ}$$
+ $$Q_{in} = W + Q_{out} = 10.0 \text{ kJ} + 8.50 \text{ kJ} = 18.5 \text{ kJ}$$
 </div>
 
 **(b)** Efficiency:
@@ -413,9 +478,9 @@ This engine has 54.1% efficiency, which is quite good for a real heat engine. Th
 
 ::: problem
 
-With  $$ 2.56 \times 10^{6}  \text{J} $$
- of heat transfer into this engine, a given cyclical heat engine can do only  $$ 1.50 \times 10^{5}  \text{J} $$
- of work. (a) What is the engine's efficiency? (b) How much heat transfer to the environment takes place?
+With $$ 2.56 \times 10^{6}  \text{J} $$
+of heat transfer into this engine, a given cyclical heat engine can do only $$ 1.50 \times 10^{5}  \text{J} $$
+of work. (a) What is the engine's efficiency? (b) How much heat transfer to the environment takes place?
 
 :::
 
@@ -438,7 +503,7 @@ Given: $$Q_{in} = 2.56 \times 10^{6} \text{ J}$$, $$W = 1.50 \times 10^{5} \text
 **(b)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 2.56 \times 10^{6} - 1.50 \times 10^{5} = 2.41 \times 10^{6} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 2.56 \times 10^{6} \text{ J} - 1.50 \times 10^{5} \text{ J} = 2.41 \times 10^{6} \text{ J}$$
 </div>
 
 **Discussion**
@@ -453,8 +518,8 @@ This engine has very low efficiency (5.86%), meaning 94.1% of input energy is wa
 
 ::: problem
 
-(a) What is the work output of a cyclical heat engine having a 22.0% efficiency and  $$ 6.00 \times 10^{9}  \text{J} $$
- of heat transfer into the engine? (b) How much heat transfer occurs to the environment?
+(a) What is the work output of a cyclical heat engine having a 22.0% efficiency and $$ 6.00 \times 10^{9}  \text{J} $$
+of heat transfer into the engine? (b) How much heat transfer occurs to the environment?
 
 :::
 
@@ -471,13 +536,13 @@ Given: $$\eta = 22.0\% = 0.220$$, $$Q_{in} = 6.00 \times 10^{9} \text{ J}$$
 **(a)** Work output:
 
 <div class="equation">
- $$W = \eta \times Q_{in} = 0.220 \times 6.00 \times 10^{9} = 1.32 \times 10^{9} \text{ J}$$
+ $$W = \eta \times Q_{in} = 0.220 \times 6.00 \times 10^{9} \text{ J} = 1.32 \times 10^{9} \text{ J}$$
 </div>
 
 **(b)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 6.00 \times 10^{9} - 1.32 \times 10^{9} = 4.68 \times 10^{9} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 6.00 \times 10^{9} \text{ J} - 1.32 \times 10^{9} \text{ J} = 4.68 \times 10^{9} \text{ J}$$
 </div>
 
 **Discussion**
@@ -515,7 +580,7 @@ Given: $$Q_{out} = 75.0 \text{ kJ}$$ per $$Q_{in} = 95.0 \text{ kJ}$$
 **(b)** Work for 100 kJ input:
 
 <div class="equation">
- $$W = \eta \times Q_{in} = 0.211 \times 100 = 21.1 \text{ kJ}$$
+ $$W = \eta \times Q_{in} = 0.211 \times 100 \text{ kJ} = 21.1 \text{ kJ}$$
 </div>
 
 **Discussion**
@@ -530,9 +595,9 @@ This engine has 21.1% efficiency, typical for gasoline car engines. For every 10
 
 ::: problem
 
-The engine of a large ship does  $$ 2.00 \times 10^{8}  \text{J} $$
- of work with an efficiency of 5.00%. (a) How much heat transfer occurs to the environment? (b) How many barrels of fuel are consumed, if each barrel produces  $$ 6.00 \times 10^{9}  \text{J} $$
- of heat transfer when burned?
+The engine of a large ship does $$ 2.00 \times 10^{8}  \text{J} $$
+of work with an efficiency of 5.00%. (a) How much heat transfer occurs to the environment? (b) How many barrels of fuel are consumed, if each barrel produces $$ 6.00 \times 10^{9}  \text{J} $$
+of heat transfer when burned?
 
 :::
 
@@ -549,13 +614,13 @@ Given: $$W = 2.00 \times 10^{8} \text{ J}$$, $$\eta = 5.00\% = 0.0500$$, energy 
 First find heat input:
 
 <div class="equation">
- $$Q_{in} = \frac{W}{\eta} = \frac{2.00 \times 10^{8}}{0.0500} = 4.00 \times 10^{9} \text{ J}$$
+ $$Q_{in} = \frac{W}{\eta} = \frac{2.00 \times 10^{8} \text{ J}}{0.0500} = 4.00 \times 10^{9} \text{ J}$$
 </div>
 
 **(a)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 4.00 \times 10^{9} - 2.00 \times 10^{8} = 3.80 \times 10^{9} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 4.00 \times 10^{9} \text{ J} - 2.00 \times 10^{8} \text{ J} = 3.80 \times 10^{9} \text{ J}$$
 </div>
 
 **(b)** Barrels consumed:
@@ -576,8 +641,8 @@ This large ship engine is very inefficient at only 5%, an assumed value for this
 
 ::: problem
 
-(a) How much heat transfer occurs to the environment by an electrical power station that uses  $$ 1.25 \times 10^{14} \text{J} $$
- of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?
+(a) How much heat transfer occurs to the environment by an electrical power station that uses $$ 1.25 \times 10^{14} \text{J} $$
+of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?
 
 :::
 
@@ -594,13 +659,13 @@ Given: $$Q_{in} = 1.25 \times 10^{14} \text{ J}$$, $$\eta = 42.0\% = 0.420$$
 **(c)** Work done:
 
 <div class="equation">
- $$W = \eta \times Q_{in} = 0.420 \times 1.25 \times 10^{14} = 5.25 \times 10^{13} \text{ J}$$
+ $$W = \eta \times Q_{in} = 0.420 \times 1.25 \times 10^{14} \text{ J} = 5.25 \times 10^{13} \text{ J}$$
 </div>
 
 **(a)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 1.25 \times 10^{14} - 5.25 \times 10^{13} = 7.25 \times 10^{13} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 1.25 \times 10^{14} \text{ J} - 5.25 \times 10^{13} \text{ J} = 7.25 \times 10^{13} \text{ J}$$
 </div>
 
 **(b)** Ratio:
@@ -621,8 +686,8 @@ This power station produces 52.5 TJ of electrical work from 125 TJ of heat input
 
 ::: problem
 
-Assume that the turbines at a coal-powered power plant were upgraded, resulting in an increase in efficiency of 3.32 percentage points. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at  $$ 2.50 \times 10^{14} \text{J} $$ .
- (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?
+Assume that the turbines at a coal-powered power plant were upgraded, resulting in an increase in efficiency of 3.32 percentage points. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at $$ 2.50 \times 10^{14} \text{J} $$ .
+(a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?
 
 :::
 
@@ -639,19 +704,19 @@ Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_{old} = 36\% = 0.36$$,
 **(a)** Work before upgrade:
 
 <div class="equation">
- $$W_{old} = 0.36 \times 2.50 \times 10^{14} = 9.00 \times 10^{13} \text{ J}$$
+ $$W_{old} = 0.36 \times 2.50 \times 10^{14} \text{ J} = 9.00 \times 10^{13} \text{ J}$$
 </div>
 
 Work after upgrade:
 
 <div class="equation">
- $$W_{new} = 0.3932 \times 2.50 \times 10^{14} = 9.83 \times 10^{13} \text{ J}$$
+ $$W_{new} = 0.3932 \times 2.50 \times 10^{14} \text{ J} = 9.83 \times 10^{13} \text{ J}$$
 </div>
 
 Additional electrical energy:
 
 <div class="equation">
- $$\Delta W = W_{new} - W_{old} = 9.83 \times 10^{13} - 9.00 \times 10^{13} = 8.30 \times 10^{12} \text{ J}$$
+ $$\Delta W = W_{new} - W_{old} = 9.83 \times 10^{13} \text{ J} - 9.00 \times 10^{13} \text{ J} = 8.30 \times 10^{12} \text{ J}$$
 </div>
 
 Note: $$8.30 \times 10^{12}$$ is exactly 3.32% of $$2.50 \times 10^{14}$$, confirming the efficiency increase.
@@ -676,8 +741,8 @@ The 3.32-percentage-point efficiency improvement produces 8.30 TJ more electrici
 
 ::: problem
 
-This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day,  $$ 2.50 \times 10^{14} \text{J} $$ .
- (a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)
+This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day, $$ 2.50 \times 10^{14} \text{J} $$ .
+(a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)
 
 :::
 
@@ -694,35 +759,35 @@ Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_{1} = 34.0\% = 0.340$$
 Work from 34% efficient station:
 
 <div class="equation">
- $$W_1 = 0.340 \times 2.50 \times 10^{14} = 8.50 \times 10^{13} \text{ J}$$
+ $$W_1 = 0.340 \times 2.50 \times 10^{14} \text{ J} = 8.50 \times 10^{13} \text{ J}$$
 </div>
 
 Work from 40% efficient station:
 
 <div class="equation">
- $$W_2 = 0.400 \times 2.50 \times 10^{14} = 1.00 \times 10^{14} \text{ J}$$
+ $$W_2 = 0.400 \times 2.50 \times 10^{14} \text{ J} = 1.00 \times 10^{14} \text{ J}$$
 </div>
 
 **(a)** Additional electrical energy:
 
 <div class="equation">
- $$\Delta W = W_2 - W_1 = 1.00 \times 10^{14} - 8.50 \times 10^{13} = 1.50 \times 10^{13} \text{ J}$$
+ $$\Delta W = W_2 - W_1 = 1.00 \times 10^{14} \text{ J} - 8.50 \times 10^{13} \text{ J} = 1.50 \times 10^{13} \text{ J}$$
 </div>
 
 **(b)** Heat outputs to environment:
 
 <div class="equation">
- $$Q_{out,1} = Q_{in} - W_1 = 2.50 \times 10^{14} - 8.50 \times 10^{13} = 1.65 \times 10^{14} \text{ J}$$
+ $$Q_{out,1} = Q_{in} - W_1 = 2.50 \times 10^{14} \text{ J} - 8.50 \times 10^{13} \text{ J} = 1.65 \times 10^{14} \text{ J}$$
 </div>
 
 <div class="equation">
- $$Q_{out,2} = Q_{in} - W_2 = 2.50 \times 10^{14} - 1.00 \times 10^{14} = 1.50 \times 10^{14} \text{ J}$$
+ $$Q_{out,2} = Q_{in} - W_2 = 2.50 \times 10^{14} \text{ J} - 1.00 \times 10^{14} \text{ J} = 1.50 \times 10^{14} \text{ J}$$
 </div>
 
 Reduction in heat transfer:
 
 <div class="equation">
- $$\Delta Q_{out} = Q_{out,1} - Q_{out,2} = 1.65 \times 10^{14} - 1.50 \times 10^{14} = 1.50 \times 10^{13} \text{ J}$$
+ $$\Delta Q_{out} = Q_{out,1} - Q_{out,2} = 1.65 \times 10^{14} \text{ J} - 1.50 \times 10^{14} \text{ J} = 1.50 \times 10^{13} \text{ J}$$
 </div>
 
 **Discussion**
@@ -738,6 +803,7 @@ The reduced thermal pollution (15 TJ/day less) significantly decreases environme
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 irreversible process

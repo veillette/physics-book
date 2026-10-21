@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="360" viewBox="0 0 440 360" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of a passenger on an ideally banked curve</title>
+<desc id="desc">Free-body diagram of the passenger with +x horizontally toward the center of the curve and +y up: the seat pushes with N perpendicular to the seat, which is tilted with the road by the banking angle theta, with dashed components N sin theta along +x and N cos theta along +y; weight w down. No sideways friction is needed. The acceleration points toward the center.</desc>
+<rect width="440" height="360" fill="#ffffff"/>
+<line x1="20" y1="200" x2="391" y2="200" stroke="#555555" stroke-width="1.5"/><polygon points="400,200 390,204.2 390,195.8" fill="#555555"/>
+<line x1="200" y1="330" x2="200" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="200,50 204.2,60 195.8,60" fill="#555555"/>
+<line x1="336.85" y1="262.58" x2="36.15" y2="153.13" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 216.01 156 A 46.82382198894014 46.82382198894014 0 0 0 200 153.18" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="200" y1="200" x2="218.12" y2="200" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="229.12,200 217.12,205.04 217.12,194.96" fill="#c0675e"/>
+<line x1="194" y1="200" x2="194" y2="131" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="194,120 199.04,132 188.96,132" fill="#c0675e"/>
+<line x1="200" y1="200" x2="225.36" y2="130.34" stroke="#b03a2e" stroke-width="3.5"/><polygon points="229.12,120 229.75,133 220.28,129.55" fill="#b03a2e"/>
+<line x1="200" y1="200" x2="200" y2="269" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,280 194.96,268 205.04,268" fill="#b03a2e"/>
+<line x1="270" y1="305" x2="304" y2="305" stroke="#1e8449" stroke-width="3"/><polygon points="315,305 303,310.04 303,299.96" fill="#1e8449"/>
+<circle cx="200" cy="200" r="6" fill="#1f3a5f"/>
+<text x="188" y="256" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">passenger</text>
+<text x="30" y="260" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="start">outside</text>
+<text x="370" y="260" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="end">center →</text>
+<text x="416" y="206" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="200" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="237.91" y="106.84" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="253.12" y="229" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="186" y="137" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="end" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="212" y="275" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="210.56" y="145.7" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="301" y="293" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="200" y="350" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="middle" font-style="italic">ideal speed: no sideways friction from the seat</text>
+</svg>

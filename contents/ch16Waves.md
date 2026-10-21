@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 9
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* State the characteristics of a wave.
-* Calculate the velocity of wave propagation.
+- State the characteristics of a wave.
+- Calculate the velocity of wave propagation.
 
 :::
 
@@ -168,7 +169,7 @@ Why is it important to differentiate between longitudinal and transverse waves?
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-In the different types of waves, energy can propagate in a different direction relative to the motion of the wave. This is important to understand how different types of waves affect the materials around them.
+The two types differ in the direction the medium moves relative to the direction the wave travels. In a transverse wave the particles of the medium move perpendicular to the direction of propagation; in a longitudinal wave they move back and forth parallel to it. In both types, energy travels along the direction of propagation. The distinction matters because it determines which media can carry a wave and how the wave affects the material: sound waves travelling through the bulk of a fluid such as air are longitudinal, because a fluid cannot sustain the shear needed for transverse motion, while solids can carry both types. (Waves on the surface of a fluid, like ocean waves, are a special case: gravity or surface tension supplies the restoring force, and the water moves both up and down and back and forth.)
 
 :::
 
@@ -212,6 +213,22 @@ Give one example of a transverse wave and another of a longitudinal wave, being 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the disturbance direction with the direction energy propagates.
+
+**Solution**
+
+On an ideal taut string, a wave can travel horizontally while each string element moves vertically; this is a transverse wave because the disturbance is perpendicular to propagation. In a sound wave in air, molecules move back and forth approximately parallel to the travel direction, creating compressions and rarefactions; this is a longitudinal wave.
+
+**Discussion**
+
+The material elements oscillate locally rather than traveling with the wave. A sideways-moving disturbance on a string is transverse, while pressure-wave motion in air is longitudinal.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -219,6 +236,22 @@ Give one example of a transverse wave and another of a longitudinal wave, being 
 ::: problem
 
 What is the difference between propagation speed and the frequency of a wave? Does one or both affect wavelength? If so, how?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish distance traveled per time from cycles completed per time.
+
+**Solution**
+
+Propagation speed $$v$$ is the rate at which a wave feature travels through the medium, measured in $$\text{m/s}$$. Frequency $$f$$ is the number of oscillations per second at a point, measured in $$\text{Hz}$$. They determine wavelength through $$\lambda=v/f$$. For an assumed sound speed $$343\text{ m/s}$$ and frequency $$343\text{ Hz}$$, $$\lambda=(343\text{ m/s})/(343\text{ s}^{-1})=1.00\text{ m}$$.
+
+**Discussion**
+
+At fixed frequency, increasing speed lengthens wavelength; at fixed speed, increasing frequency shortens it. Speed and frequency describe different aspects of a wave and both enter the wavelength relation.
 
 :::
 
@@ -251,13 +284,13 @@ First, convert the distance to meters:
 Calculate the time using $$t = \frac{d}{v_w}$$:
 
 <div class="equation">
- $$t = \frac{12\,000\,000}{15.0} = 800\,000 \text{ s}$$
+ $$t = \frac{12\,000\,000 \text{ m}}{15.0 \text{ m/s}} = 800\,000 \text{ s}$$
 </div>
 
 Convert to days:
 
 <div class="equation">
- $$t = 800\,000 \text{ s} \times \frac{1 \text{ hr}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ hr}} = \frac{800\,000}{86\,400} = 9.26 \text{ days}$$
+ $$t = 800\,000 \text{ s} \times \frac{1 \text{ hr}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ hr}} = \frac{800\,000 \text{ s}}{86\,400 \text{ s/day}} = 9.26 \text{ days}$$
 </div>
 
 **Discussion**
@@ -291,13 +324,13 @@ The wave travels to the far end and back, so the total distance is twice the poo
 Total distance traveled:
 
 <div class="equation">
- $$d_{\text{total}} = v_w t = (0.750)(30.0) = 22.5 \text{ m}$$
+ $$d_{\text{total}} = v_w t = (0.750 \text{ m/s})(30.0 \text{ s}) = 22.5 \text{ m}$$
 </div>
 
 Pool length:
 
 <div class="equation">
- $$L = \frac{d_{\text{total}}}{2} = \frac{22.5}{2} = 11.25 \text{ m} = 11.3 \text{ m}$$
+ $$L = \frac{d_{\text{total}}}{2} = \frac{22.5 \text{ m}}{2} = 11.25 \text{ m} = 11.3 \text{ m}$$
 </div>
 
 **Discussion**
@@ -337,7 +370,7 @@ Convert the wavelength to meters:
 Calculate the frequency:
 
 <div class="equation">
- $$f = \frac{v_w}{\lambda} = \frac{2.00}{0.0500} = 40.0 \text{ Hz}$$
+ $$f = \frac{v_w}{\lambda} = \frac{2.00 \text{ m/s}}{0.0500 \text{ m}} = 40.0 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -369,7 +402,7 @@ The frequency of bobbing equals the wave frequency. We use $$v_w = f\lambda$$ to
 **Solution**
 
 <div class="equation">
- $$f = \frac{v_w}{\lambda} = \frac{5.00}{40.0} = 0.125 \text{ Hz}$$
+ $$f = \frac{v_w}{\lambda} = \frac{5.00 \text{ m/s}}{40.0 \text{ m}} = 0.125 \text{ Hz}$$
 </div>
 
 Convert to times per minute:
@@ -415,7 +448,7 @@ The frequency is:
 Using the wave equation:
 
 <div class="equation">
- $${v}_w = f\lambda = (2.00)(8.00) = 16.0 \text{ m/s}$$
+ $${v}_w = f\lambda = (2.00 \text{ Hz})(8.00 \text{ m}) = 16.0 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -447,7 +480,7 @@ The frequency of splashing determines the wave frequency. We use $$v_w = f\lambd
 **Solution**
 
 <div class="equation">
- $$\lambda = \frac{v_w}{f} = \frac{0.800}{2.00} = 0.400 \text{ m} = 40.0 \text{ cm}$$
+ $$\lambda = \frac{v_w}{f} = \frac{0.800 \text{ m/s}}{2.00 \text{ Hz}} = 0.400 \text{ m} = 40.0 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -487,7 +520,7 @@ Calculate the wave speed from the distance and time:
 Now use the wave equation to find wavelength:
 
 <div class="equation">
- $$\lambda = \frac{v_w}{f} = \frac{7\,000}{10.0} = 700 \text{ m}$$
+ $$\lambda = \frac{v_w}{f} = \frac{7\,000 \text{ m/s}}{10.0 \text{ Hz}} = 700 \text{ m}$$
 </div>
 
 **Discussion**
@@ -506,8 +539,8 @@ The earthquake waves have a wavelength of 700 m and travel at the impressive spe
 
 ::: problem
 
-Radio waves transmitted through space at  $$ 3.00 \times 10^{8}  \text{m/s} $$
- by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?
+Radio waves transmitted through space at $$ 3.00 \times 10^{8}  \text{m/s} $$
+by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?
 
 :::
 
@@ -520,7 +553,7 @@ We use the wave equation $$v_w = f\lambda$$ with the speed of light (radio waves
 **Solution**
 
 <div class="equation">
- $$f = \frac{v_w}{\lambda} = \frac{3.00 \times 10^8}{0.120} = 2.50 \times 10^9 \text{ Hz} = 2.50 \text{ GHz}$$
+ $$f = \frac{v_w}{\lambda} = \frac{3.00 \times 10^8 \text{ m/s}}{0.120 \text{ m}} = 2.50 \times 10^9 \text{ Hz} = 2.50 \text{ GHz}$$
 </div>
 
 **Discussion**
@@ -560,7 +593,7 @@ Convert the time to seconds:
 Calculate the minimum distance:
 
 <div class="equation">
- $$d = v\Delta t = (340)(1.00 \times 10^{-3}) = 0.340 \text{ m} = 34.0 \text{ cm}$$
+ $$d = v\Delta t = (340 \text{ m/s})(1.00 \times 10^{-3} \text{ s}) = 0.340 \text{ m} = 34.0 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -597,32 +630,33 @@ For part (a), the time difference between S- and P-wave arrivals depends on dist
 (a) Let $$d$$ be the distance to the epicenter. The arrival times are:
 
 <div class="equation">
- $$t_P = \frac{d}{v_P} = \frac{d}{7.20}$$
+ $$t_P = \frac{d}{v_P} = \frac{d}{7.20 \text{ km/s}}$$
 </div>
 
 <div class="equation">
- $$t_S = \frac{d}{v_S} = \frac{d}{4.00}$$
+ $$t_S = \frac{d}{v_S} = \frac{d}{4.00 \text{ km/s}}$$
 </div>
 
 The time difference is:
 
 <div class="equation">
- $$\Delta t = t_S - t_P = \frac{d}{4.00} - \frac{d}{7.20} = d\left(\frac{1}{4.00} - \frac{1}{7.20}\right) = d(0.250 - 0.139) = 0.111d$$
+ $$\Delta t = t_S - t_P = \frac{d}{4.00 \text{ km/s}} - \frac{d}{7.20 \text{ km/s}} = d\left(\frac{1}{4.00 \text{ km/s}} - \frac{1}{7.20 \text{ km/s}}\right) = d(0.250 \text{ s/km} - 0.139 \text{ s/km}) = (0.111 \text{ s/km})d$$
 </div>
 
 where $$d$$ is in km and $$\Delta t$$ is in seconds. Solving for $$d$$:
 
 <div class="equation">
- $$d = \frac{\Delta t}{0.111}$$
+ $$d = \frac{\Delta t}{0.111 \text{ s/km}}$$
 </div>
 
 The uncertainty in distance due to timing precision is:
 
 <div class="equation">
- $$\delta d = \frac{\delta(\Delta t)}{0.111} = \frac{0.100}{0.111} = 0.901 \text{ km} \approx 0.90 \text{ km}$$
+ $$\delta d = \frac{\delta(\Delta t)}{0.111 \text{ s/km}} = \frac{0.100 \text{ s}}{0.111 \text{ s/km}} = 0.901 \text{ km} \approx 0.90 \text{ km}$$
 </div>
 
 (b) **Discussion**: A precision of ±0.90 km (±900 m) is quite good for locating earthquake epicenters or nuclear test sites. For detecting nuclear test ban violations, this precision is generally adequate because:
+
 - Test sites can typically be located within a region of a few square kilometers
 - Multiple seismograph stations can triangulate the location, improving precision
 - The goal is detection and approximate location, not pinpoint accuracy
@@ -643,6 +677,7 @@ However, this precision might be limiting if trying to distinguish between very 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 longitudinal wave

@@ -1,4 +1,6 @@
 import { createMarkdown } from './lib/eleventy/markdown.js';
+import { buildSearchIndex } from './scripts/build-index.js';
+import { SummaryParser } from './scripts/parse-summary.js';
 
 // GitHub Pages serves this project site under /physics-book/ (D5). Vercel serves it at a
 // domain root, so it must build with no path prefix — detected via the VERCEL env var that
@@ -38,12 +40,29 @@ export default function (eleventyConfig) {
   // with /SUMMARY.html etc.) — roadmap section 2.3.
   eleventyConfig.addFilter('trimSlash', v => String(v).replace(/\/+$/, ''));
 
+  // Automatically parse SUMMARY.md before each build so summary.json is always fresh.
+  eleventyConfig.on('eleventy.before', async () => {
+    const parser = new SummaryParser({ silent: true });
+    if (!(await parser.run())) throw new Error('Failed to generate summary.json');
+  });
+
+  // Automatically generate client-side search index after each build.
+  eleventyConfig.on('eleventy.after', async ({ directories }) => {
+    const siteDir = directories.output;
+    const success = await buildSearchIndex({
+      siteDir,
+      output: 'search_index.json',
+      baseUrl: '',
+      silent: true,
+    });
+    if (!success) throw new Error('Failed to generate search index');
+  });
+
   // Passthrough paths are relative to the project root.
   eleventyConfig.addPassthroughCopy({
     assets: 'assets', // includes js/mathjax, pwa, pdf (when present)
     resources: 'resources',
     'summary.json': 'summary.json',
-    'search_index.json': 'search_index.json', // committed copy for local dev; CI regenerates
   });
 
   return {

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+<title id="title">Two conducting plates, closer together at one end</title>
+<desc id="desc">Two flat conducting plates seen edge on. The top plate tilts upward to the right; the bottom plate is nearly horizontal. They are closest together at the left end and farthest apart at the right.</desc>
+<rect width="600" height="420" fill="#ffffff"/>
+<polygon points="34.11,232.99 554.11,52.99 565.89,87.01 45.89,267.01" fill="#cfd3da" stroke="#222222" stroke-width="1.5"/>
+<polygon points="41,312.03 581,342.03 579,377.97 39,347.97" fill="#cfd3da" stroke="#222222" stroke-width="1.5"/>
+</svg>

@@ -53,7 +53,7 @@ A collision in which the objects stick together is sometimes called “perfectly
 
 :::
 
-![The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.](../resources/Figure_08_05_01.jpg 'An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed.
+![The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.](../resources/Figure_08_05_01.svg 'An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed.
 (b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.')
 {: #Figure1}
 
@@ -165,7 +165,7 @@ during a collision. [Figure 3](#Figure3) shows a one-dimensional example in whic
 two carts on an air track collide, releasing potential energy from a compressed
 spring. [Example 2](#example2) deals with data from such a collision.
 
-![An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_08_05_03.jpg 'An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in <a href="#example2">Example 2</a>, the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.')
+![A compressed spring is attached to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.](../resources/Figure_08_05_03.svg 'An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in <a href="#example2">Example 2</a>, the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.')
 {: #Figure3}
 
 Collisions are particularly important in sports and the sporting and leisure
@@ -307,6 +307,30 @@ What is an inelastic collision? What is a perfectly inelastic collision?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Define each type by what happens to the internal kinetic energy, and illustrate with numbers.
+
+**Solution**
+
+An **inelastic collision** is one in which the **internal kinetic energy changes**, so kinetic energy is not conserved. Usually some is converted into thermal energy, sound, or deformation. (In an explosion-like collision, stored energy can instead add kinetic energy.) Momentum is still conserved if the net external force is zero.
+
+A **perfectly inelastic collision** is one in which the objects **stick together** and move with a common velocity afterward. This gives the largest possible loss of kinetic energy consistent with conservation of momentum.
+
+For example, take $$ +x $$ in the direction of motion. A $$ 2.0 \kg $$ ball of clay moving at $$ 3.0 \ms $$ hits a $$ 1.0 \kg $$ ball of clay at rest, and they stick:
+
+<div class="equation">
+$$ (2.0 \kg)(3.0 \ms) = (3.0 \kg)v' \quad \Rightarrow \quad v' = 2.0 \ms $$
+</div>
+
+The kinetic energy drops from $$ \tfrac{1}{2}(2.0 \kg)(3.0 \ms)^2 = 9.0 \J $$ to $$ \tfrac{1}{2}(3.0 \kg)(2.0 \ms)^2 = 6.0 \J $$. The $$ 3.0 \J $$ difference becomes thermal energy and deformation of the clay. A tennis ball hitting a racquet is an inelastic collision that is not perfectly inelastic: the ball bounces off but loses some kinetic energy.
+
+An inelastic collision is one in which the internal kinetic energy is not conserved, and a perfectly inelastic collision is one in which the objects stick together, losing as much kinetic energy as momentum conservation allows (for example, $$ 3.0 \J $$ of the $$ 9.0 \J $$ when two clay balls of $$ 2.0 \kg $$ and $$ 1.0 \kg $$ stick).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -317,6 +341,32 @@ Mixed-pair ice skaters performing in a show are standing motionless at arms leng
 
 :::
 
+::: solution
+
+**Strategy**
+
+Take the two skaters as the system. With no friction from the ice and the vertical forces balanced, the net external force is zero, so their total momentum is conserved. Take $$ +x $$ from one skater toward the other.
+
+**Solution**
+
+Before they move, both skaters are at rest, so the total momentum is
+
+<div class="equation">
+$$ p_{\text{tot}} = m_{1}(0 \ms) + m_{2}(0 \ms) = 0 \kg \cdot \ms $$
+</div>
+
+Pulling on each other's arms, they exert equal and opposite internal forces, which do not change the total momentum. As they pull together, they move toward each other with momenta that are equal and opposite. A $$ 50 \kg $$ skater moving at $$ +1.2 \ms $$ is matched by a $$ 75 \kg $$ skater moving at $$ -0.80 \ms $$, since $$ (50 \kg)(1.2 \ms) + (75 \kg)(-0.80 \ms) = 0 \kg \cdot \ms $$. When their bodies meet and they hold together, they move with a common velocity $$ v' $$, a perfectly inelastic collision:
+
+<div class="equation">
+$$ (m_{1} + m_{2})v' = 0 \kg \cdot \ms \quad \Rightarrow \quad v' = 0 \ms $$
+</div>
+
+Their center of mass never moved, and they meet there. The kinetic energy they gained from their arm muscles is converted into thermal energy and deformation when they collide.
+
+Their velocity after their bodies meet is zero, because the total momentum of the two skaters was zero before they started and no net external force acts on them, so it remains zero after they come together.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -324,6 +374,34 @@ Mixed-pair ice skaters performing in a show are standing motionless at arms leng
 ::: problem
 
 A small pickup truck that has a camper shell slowly coasts toward a red light with negligible friction. Two dogs in the back of the truck are moving and making various inelastic collisions with each other and the walls. What is the effect of the dogs on the motion of the center of mass of the system (truck plus entire load)? What is their effect on the motion of the truck?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Take the system to be the truck plus its entire load, including the dogs. The forces between the dogs and the truck are internal. Take $$ +x $$ in the direction the truck is coasting.
+
+**Solution**
+
+**Center of mass.** With negligible friction, the net external horizontal force on the system is zero. Gravity and the road's normal force are vertical and balance. So the total momentum, and therefore the velocity of the center of mass, is constant:
+
+<div class="equation">
+$$ v_{\text{cm}} = \frac{p_{\text{tot}}}{M_{\text{tot}}} = \text{constant} $$
+</div>
+
+The dogs have **no effect** on the motion of the center of mass, no matter how they run or collide.
+
+**The truck.** The truck itself does change speed slightly. When a $$ 20 \kg $$ dog runs forward, it pushes back on the truck bed, and the truck slows. When the dog hits the front wall and stops, it pushes the truck forward. Suppose the truck plus everything except the dog has mass $$ 2000 \kg $$. If the dog's velocity relative to the ground increases by $$ 3.0 \ms $$, momentum conservation requires the truck's velocity to change by
+
+<div class="equation">
+$$ \Delta v_{\text{truck}} = -\frac{(20 \kg)(3.0 \ms)}{2000 \kg} = -0.030 \ms $$
+</div>
+
+So the truck jerks back and forth by a few centimeters per second as the dogs move. On average these changes cancel, and the truck moves with the center of mass.
+
+The dogs have no effect on the motion of the center of mass of the truck-plus-load system, which keeps coasting at constant velocity because the dogs' forces are internal, but they make the truck itself speed up and slow down slightly (by about $$ 0.030 \ms $$ when a $$ 20 \kg $$ dog changes its speed by $$ 3.0 \ms $$) as they run and collide.
 
 :::
 
@@ -348,17 +426,23 @@ A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool
 
 For part (a), we use the impulse-momentum theorem. The ball reverses direction, so the change in momentum includes both the original momentum and the rebound momentum. For parts (b) and (c), we compare kinetic energies before and after.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the ball’s initial direction, toward the bumper. Before: v_i = +3.00 m/s. During the 0.0150-s contact the bumper pushes the ball along −x. After: v_f = −2.40 m/s, moving away from the bumper.](../resources/sketch_08_05_p01.svg){: .sketch}
+
+Take $$ +x $$ in the ball's initial direction, toward the bumper. Then $$ v_i = +3.00\ms $$ and the rebound velocity is $$ v_f = -2.40\ms $$; a negative average force means the bumper pushes the ball along $$ -x $$, away from the bumper.
+
 **Solution**
 
 **Part (a)**
 
 Let positive be the initial direction of motion. The ball reverses direction, so the final velocity is negative.
 
-$$ \Delta p = m(v_f - v_i) = (0.240 \kg)(-2.40 \ms - 3.00 \ms) = (0.240 \kg)(-5.40 \ms) = -1.30 \kg \cdot \ms $$
+$$ \Delta p = m(v_f - v_i) = (0.240 \kg)(-2.40 \ms - 3.00 \ms) = (0.240 \kg)(-5.40 \ms) = -1.296 \kg \cdot \ms $$
 
 Apply the impulse-momentum theorem:
 
-$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.296 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
 
 The average force on the ball is 86.4 N directed away from the bumper (opposite to the ball's initial motion).
 
@@ -408,6 +492,12 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 
 This is a perfectly inelastic collision where the skaters stick together. We use conservation of momentum to find the final velocity, then compare kinetic energies.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the leaping skater’s direction of motion. Before: skater 1 (60.0 kg) moves at v_1 = +4.00 m/s and skater 2 (75.0 kg) is at rest. After the catch they move together with unknown velocity v_f.](../resources/sketch_08_05_p02.svg){: .sketch}
+
+Take $$ +x $$ in the leaping skater's direction of motion, so $$ v_1 = +4.00\ms $$ and $$ v_2 = 0 $$. A positive $$ v_f $$ means the pair moves the way the leaping skater was going.
+
 **Solution**
 
 **Part (a)**
@@ -436,7 +526,7 @@ Final kinetic energy (both skaters moving together):
 
 $$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{(m_1 v_1)^2}{2(m_1 + m_2)} = \frac{(240 \kg \cdot \ms)^2}{2(135 \kg)} = 213.3 \J $$
 
-(Using the unrounded $$ v_f = 240/135 \ms $$ avoids the rounding error that $$ 1.78 \ms $$ would introduce.)
+(Using the unrounded $$ v_f = \frac{240\kg\cdot\ms}{135\kg} $$ avoids the rounding error that $$ 1.78 \ms $$ would introduce.)
 
 Kinetic energy lost:
 
@@ -498,7 +588,7 @@ $$ \KE_{i} = \frac{1}{2}(110 \kg)(8.00 \ms)^2 + \frac{1}{2}(0.410 \kg)(25.0 \ms)
 
 Subtracting two large, nearly equal energies amplifies rounding errors (with $$ v_f $$ rounded to 8.06 m/s, the difference comes out as 62 J). Instead, use the exact result for a perfectly inelastic collision, which depends only on the reduced mass and the relative velocity:
 
-$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110)(0.410)}{110.41}\right)\text{kg}\,(8.00 - 25.0)^2 \text{ m}^2/\text{s}^2 = 59.0 \J $$
+$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110\kg)(0.410\kg)}{110.41\kg}\right)(8.00\ms - 25.0\ms)^2 = 59.0 \J $$
 
 The kinetic energy lost is 59.0 J.
 
@@ -514,7 +604,7 @@ $$ v_f = \frac{869.75 \kg \cdot \ms}{110.41 \kg} = 7.88 \ms $$
 
 Energy loss for opposite direction:
 
-$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110)(0.410)}{110.41}\right)\text{kg}\,(8.00 + 25.0)^2 \text{ m}^2/\text{s}^2 = 222 \J $$
+$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110\kg)(0.410\kg)}{110.41\kg}\right)(8.00\ms + 25.0\ms)^2 = 222 \J $$
 
 The kinetic energy lost is 222 J.
 
@@ -546,6 +636,12 @@ energy released by the gun powder—significant heat transfer occurs.
 **Strategy**
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum for part (a) and calculate the total kinetic energy after firing for part (b).
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the shell is fired (toward the rear of the ship). Before: ship and shell are at rest. After: the shell moves at v_shell = +575 m/s and the ship recoils with unknown velocity v_ship (along −x).](../resources/sketch_08_05_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction the shell is fired (toward the rear of the ship), so $$ v_{\text{shell}} = +575\ms $$. Since the total momentum stays zero, $$ v_{\text{ship}} $$ comes out negative: the ship recoils along $$ -x $$, toward its bow.
 
 **Solution**
 
@@ -608,6 +704,12 @@ both.
 
 This is a perfectly inelastic collision (docking). We analyze it in two different reference frames. In each frame, we apply conservation of momentum to find the final velocity, then calculate the kinetic energy loss. The key insight is that while velocities are frame-dependent, energy loss is the same in all inertial frames.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points from satellite 2 toward satellite 1 in both frames. (a) Frame where satellite 1 is at rest: satellite 2 (7.50 × 10³ kg) approaches at v_2 = +0.250 m/s; after docking both move at unknown v_f. (c) Frame where satellite 2 is at rest: satellite 1 (4.00 × 10³ kg) approaches at v_1 = −0.250 m/s; after docking both move at unknown v_f.](../resources/sketch_08_05_p05.svg){: .sketch}
+
+In both frames take $$ +x $$ from satellite 2 toward satellite 1. In the frame of part (a), satellite 2 approaches with $$ v_2 = +0.250\ms $$; in the frame of part (c), satellite 1 approaches with $$ v_1 = -0.250\ms $$. The sign of $$ v_f $$ then tells which way the docked pair moves in each frame.
+
 **Solution**
 
 **Part (a) - Frame where first satellite is at rest**
@@ -631,7 +733,7 @@ $$ 1875 \kg \cdot \ms = (11500 \kg) v_f $$
 </div>
 
 <div class="equation">
-$$ v_f = \frac{1875}{11500} = 0.16304 \ms \approx 0.163 \ms $$
+$$ v_f = \frac{1875 \text{kg}\cdot\text{m/s}}{11500 \kg} = 0.16304 \ms \approx 0.163 \ms $$
 </div>
 
 The final velocity is 0.163 m/s in the direction of motion of the more massive satellite.
@@ -675,7 +777,7 @@ $$ -1000 \kg \cdot \ms = (11500 \kg) v_f $$
 </div>
 
 <div class="equation">
-$$ v_f = -\frac{1000}{11500} = -0.086957 \ms \approx -0.0870 \ms $$
+$$ v_f = -\frac{1000 \text{kg}\cdot\text{m/s}}{11500 \kg} = -0.086957 \ms \approx -0.0870 \ms $$
 </div>
 
 The final velocity is $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less massive satellite.
@@ -727,6 +829,12 @@ a hopper that dumps 110 000 kg of scrap metal into it.
 
 This is a perfectly inelastic collision where the scrap metal (initially at rest horizontally) joins the moving freight car. We apply conservation of horizontal momentum.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the freight car coasts. Before: the car (30 000 kg) moves at +0.850 m/s, and the scrap (110 000 kg) falls straight down, so its x-velocity is zero. After: the loaded car moves with unknown velocity v_f.](../resources/sketch_08_05_p06.svg){: .sketch}
+
+Take $$ +x $$ in the direction the freight car coasts, so $$ v_{\text{car}} = +0.850\ms $$. The scrap falls straight down, so its $$ x $$-velocity is zero; only $$ x $$-momentum is conserved, because the track supplies the vertical forces.
+
 **Solution**
 
 **Part (a)**
@@ -747,21 +855,21 @@ The final velocity of the loaded freight car is 0.182 m/s.
 
 Initial kinetic energy:
 
-$$ \KE_{i} = \frac{1}{2}(30000 \kg)(0.850 \ms)^2 = 10800 \J $$
+$$ \KE_{i} = \frac{1}{2}(30000 \kg)(0.850 \ms)^2 = 10\,838 \J $$
 
 Final kinetic energy:
 
-$$ \KE_{f} = \frac{1}{2}(140000 \kg)(0.182 \ms)^2 = 2320 \J $$
+$$ \KE_{f} = \frac{1}{2}(140000 \kg)(0.1821 \ms)^2 = 2322 \J $$
 
 Kinetic energy lost:
 
-$$ \Delta \KE = \KE_{f} - \KE_{i} = 2320 \J - 10800 \J = -8480 \J $$
+$$ \Delta \KE = \KE_{f} - \KE_{i} = 2322 \J - 10\,838 \J = -8516 \J \approx -8.52 \times 10^{3} \J $$
 
 Approximately 8500 J of kinetic energy is lost.
 
 **Discussion**
 
-The car slows dramatically from 0.850 m/s to 0.182 m/s—a reduction of nearly 80%—because the added mass is almost 4 times the original car mass. About 78% of the kinetic energy is lost, converted to heat and sound as the scrap metal settles and deforms in the car.
+The car slows dramatically from 0.850 m/s to 0.182 m/s—a reduction of nearly 80%—because the added mass is almost 4 times the original car mass. About 79% of the kinetic energy is lost, converted to heat and sound as the scrap metal settles and deforms in the car.
 
 :::
 
@@ -787,6 +895,12 @@ the frame of reference in which they were at rest before separation?
 
 This is an "explosion" problem where initial momentum is zero and energy is added. We use two equations: conservation of momentum (gives relationship between velocities) and the kinetic energy equation (gives magnitudes).
 
+**Sketch and coordinate system**
+
+![Frame in which both are at rest before separation. A horizontal +x axis points in the direction the satellite moves after separation. After: the satellite (4800 kg) moves with v_1 along +x and the launcher (1500 kg) with v_2 along −x; both are unknown, and 5000 J of kinetic energy is supplied.](../resources/sketch_08_05_p07.svg){: .sketch}
+
+Take $$ +x $$ in the direction the satellite moves after separation, in the frame where both parts start at rest. Then $$ v_1 $$ is positive, and conservation of momentum makes the launcher's velocity $$ v_2 = -3.2\,v_1 $$ negative.
+
 **Solution**
 
 Conservation of momentum (initial momentum = 0):
@@ -795,7 +909,7 @@ $$ m_1 v_1 + m_2 v_2 = 0 $$
 
 $$ (4800 \kg) v_1 + (1500 \kg) v_2 = 0 $$
 
-$$ v_2 = -\frac{4800}{1500} v_1 = -3.2 v_1 $$
+$$ v_2 = -\frac{4800 \kg}{1500 \kg} v_1 = -3.2 v_1 $$
 
 The kinetic energy supplied:
 
@@ -805,13 +919,13 @@ Substitute $$ v_2 = -3.2 v_1 $$:
 
 $$ \frac{1}{2}(4800 \kg) v_1^2 + \frac{1}{2}(1500 \kg)(-3.2 v_1)^2 = 5000 \J $$
 
-$$ 2400 v_1^2 + 750(10.24) v_1^2 = 5000 $$
+$$ 2400 \kg v_1^2 + 750 \kg(10.24) v_1^2 = 5000 \J $$
 
-$$ 2400 v_1^2 + 7680 v_1^2 = 5000 $$
+$$ 2400 \kg v_1^2 + 7680 \kg v_1^2 = 5000 \J $$
 
-$$ 10080 v_1^2 = 5000 $$
+$$ 10080 \kg v_1^2 = 5000 \J $$
 
-$$ v_1 = \sqrt{\frac{5000}{10080}} = 0.704 \ms $$
+$$ v_1 = \sqrt{\frac{5000 \J}{10080 \kg}} = 0.704 \ms $$
 
 Now find $$ v_2 $$:
 
@@ -844,6 +958,12 @@ A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg r
 **Strategy**
 
 We use conservation of momentum to find recoil velocities. The rifle (or rifle-shoulder system) recoils with momentum equal and opposite to the bullet. Then we calculate kinetic energies.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the bullet is fired. Before: rifle and bullet are at rest. After: the bullet (0.0250 kg) moves at +550 m/s and the rifle (3.00 kg, or 28.0 kg held against the shoulder) recoils with unknown velocity along −x.](../resources/sketch_08_05_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction the bullet is fired, so $$ v_{\text{bullet}} = +550\ms $$. The total momentum stays zero, so the rifle's velocity comes out negative: it recoils along $$ -x $$.
 
 **Solution**
 
@@ -883,7 +1003,7 @@ Football player momentum: $$ p = (110 \kg)(8.00 \ms) = 880 \kg \cdot \ms $$
 
 Football momentum: $$ p = (0.410 \kg)(25.0 \ms) = 10.25 \kg \cdot \ms $$
 
-Ratio: $$ \frac{880}{10.25} = 85.9 $$
+Ratio: $$ \frac{880 \text{kg}\cdot\text{m/s}}{10.25 \text{kg}\cdot\text{m/s}} = 85.9 $$
 
 The player has about 86 times more momentum than the football.
 
@@ -920,6 +1040,12 @@ given here are accurate to three digits only.
 
 This is similar to an explosion problem: initial momentum is zero, and energy is released. We use conservation of momentum and the kinetic energy equation to solve for both velocities.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the helium nucleus moves. Before: the plutonium-239 nucleus is at rest. After: the helium-4 nucleus moves with v_He along +x and the uranium-235 nucleus recoils with v_U along −x; both are unknown.](../resources/sketch_08_05_p09.svg){: .sketch}
+
+Take $$ +x $$ in the direction the helium nucleus moves, so $$ v_{\text{He}} $$ is positive. With the plutonium nucleus initially at rest, $$ v_{\text{U}} = -(m_{\text{He}}/m_{\text{U}})\,v_{\text{He}} $$ is negative: the uranium nucleus recoils along $$ -x $$.
+
 **Solution**
 
 **Part (a)**
@@ -928,7 +1054,7 @@ Conservation of momentum (plutonium initially at rest):
 
 $$ m_{\text{He}} v_{\text{He}} + m_{\text{U}} v_{\text{U}} = 0 $$
 
-$$ v_{\text{U}} = -\frac{m_{\text{He}}}{m_{\text{U}}} v_{\text{He}} = -\frac{6.68 \times 10^{-27}}{3.92 \times 10^{-25}} v_{\text{He}} = -0.01704 v_{\text{He}} $$
+$$ v_{\text{U}} = -\frac{m_{\text{He}}}{m_{\text{U}}} v_{\text{He}} = -\frac{6.68 \times 10^{-27} \kg}{3.92 \times 10^{-25} \kg} v_{\text{He}} = -0.01704 v_{\text{He}} $$
 
 Total kinetic energy:
 
@@ -936,13 +1062,13 @@ $$ \frac{1}{2} m_{\text{He}} v_{\text{He}}^2 + \frac{1}{2} m_{\text{U}} v_{\text
 
 Substituting $$ v_{\text{U}} = -0.01704 v_{\text{He}} $$:
 
-$$ \frac{1}{2}(6.68 \times 10^{-27}) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ \frac{1}{2}(6.68 \times 10^{-27} \kg) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25} \kg)(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.34 \times 10^{-27} \kg + 5.69 \times 10^{-29} \kg) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ (3.40 \times 10^{-27}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.40 \times 10^{-27} \kg) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ v_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13}}{3.40 \times 10^{-27}}} = 1.57 \times 10^{7} \ms $$
+$$ v_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13} \J}{3.40 \times 10^{-27} \kg}} = 1.57 \times 10^{7} \ms $$
 
 $$ v_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $$
 
@@ -950,11 +1076,13 @@ The helium nucleus moves at $$ 1.57 \times 10^{7} \ms $$ and the uranium nucleus
 
 **Part (b)**
 
-$$ \KE_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
+$$ \KE_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.26 \times 10^{-13} \J $$
+
+(computed without rounding the speed; because the momenta are equal and opposite, the energy divides as $$ \KE_{\text{He}} = E\,m_{\text{U}}/(m_{\text{He}} + m_{\text{U}}) $$, so the two shares add to exactly $$ 8.40 \times 10^{-13} $$ J)
 
 $$ \KE_{\text{U}} = \frac{1}{2}(3.92 \times 10^{-25} \kg)(2.68 \times 10^{5} \ms)^2 = 1.41 \times 10^{-14} \J $$
 
-The helium nucleus carries away $$ 8.23 \times 10^{-13} \J $$ (98%) and the uranium nucleus carries away $$ 1.41 \times 10^{-14} \J $$ (2%).
+The helium nucleus carries away $$ 8.26 \times 10^{-13} \J $$ (98%) and the uranium nucleus carries away $$ 1.41 \times 10^{-14} \J $$ (2%).
 
 **Discussion**
 
@@ -1103,6 +1231,12 @@ is their velocity just after impact if they cling together?
 
 This is a perfectly inelastic collision where the players stick together. We apply conservation of momentum, noting that they are moving in opposite directions.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the first player’s direction of motion. Before: player 1 (95.0 kg) moves at v_1 = +6.00 m/s and player 2 (115 kg) at v_2 = −3.50 m/s, toward each other. After, they cling together with unknown velocity v_f.](../resources/sketch_08_05_p11.svg){: .sketch}
+
+Take $$ +x $$ in the first player's direction of motion, as the problem's signs already do, so $$ v_1 = +6.00\ms $$ and $$ v_2 = -3.50\ms $$. A positive $$ v_f $$ means the pair moves the way the first player was going.
+
 **Solution**
 
 Apply conservation of momentum:
@@ -1160,7 +1294,7 @@ The speed of the garbage truck after hitting the trash can is 24.8 m/s.
 
 **Discussion**
 
-The truck barely slows down (from 25.0 to 24.8 m/s, a decrease of only 0.8%) because the trash can's mass is only 0.67% of the truck's mass. The trash can has negligible effect on the massive truck's motion. This example illustrates why it's important for pedestrians and small objects to stay clear of large moving vehicles—the vehicle's motion is essentially unaffected while the smaller object absorbs enormous energy changes.
+The truck barely slows down (from 25.0 to 24.83 m/s, a decrease of only 0.66%) because the trash can's mass is only 0.67% of the truck's mass. The trash can has negligible effect on the massive truck's motion. This example illustrates why it's important for pedestrians and small objects to stay clear of large moving vehicles—the vehicle's motion is essentially unaffected while the smaller object absorbs enormous energy changes.
 
 :::
 
@@ -1179,6 +1313,12 @@ During a circus act, an elderly performer thrills the crowd by catching a cannon
 **Strategy**
 
 This is a perfectly inelastic collision. The performer (initially at rest on frictionless roller skates) catches and holds the cannon ball. We apply conservation of horizontal momentum.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction of the cannon ball’s horizontal motion. Before: the ball (10.0 kg) moves at v_x = +8.00 m/s and the performer (65.0 kg) is at rest on roller skates. After the catch they move together with unknown velocity v_f.](../resources/sketch_08_05_p13.svg){: .sketch}
+
+Take $$ +x $$ in the direction of the cannon ball's horizontal motion, so $$ v_{\text{ball}} = +8.00\ms $$ and the performer starts with $$ v = 0 $$. Only horizontal momentum is conserved, since the ground supplies the vertical forces.
 
 **Solution**
 
@@ -1219,6 +1359,12 @@ The performer recoils at a modest 1.07 m/s (about 3.8 km/h or walking speed) des
 **Strategy**
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum to find the barbell's mass, then calculate the total kinetic energy gained.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the barbell is thrown. Before: the clown (80.0 kg) and barbell are at rest. After: the barbell moves at +10.0 m/s and the clown recoils at −0.500 m/s; the barbell’s mass is unknown.](../resources/sketch_08_05_p14.svg){: .sketch}
+
+Take $$ +x $$ in the direction the barbell is thrown, so $$ v_{\text{barbell}} = +10.0\ms $$ and the clown's recoil velocity is $$ v_{\text{clown}} = -0.500\ms $$.
 
 **Solution**
 

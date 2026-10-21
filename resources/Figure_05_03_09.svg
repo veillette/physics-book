@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="590" viewBox="0 0 720 590" role="img" aria-labelledby="title desc">
+<title id="title">A cube compressed by inward forces on every face</title>
+<desc id="desc">Equal inward forces F act normally on all six faces of a cube. Its original volume V₀ decreases to V₀ − ΔV. Solid edges show the original cube and dashed edges the smaller compressed cube; A marks a face area.</desc>
+<rect width="720" height="590" fill="#ffffff"/>
+<line x1="310" y1="225" x2="570" y2="225" stroke="#79538e" stroke-width="2.3"/>
+<line x1="150" y1="95" x2="410" y2="95" stroke="#79538e" stroke-width="2.3"/>
+<line x1="310" y1="485" x2="570" y2="485" stroke="#79538e" stroke-width="2.3"/>
+<line x1="150" y1="355" x2="410" y2="355" stroke="#79538e" stroke-width="2.3"/>
+<line x1="310" y1="225" x2="310" y2="485" stroke="#79538e" stroke-width="2.3"/>
+<line x1="150" y1="95" x2="150" y2="355" stroke="#79538e" stroke-width="2.3"/>
+<line x1="570" y1="225" x2="570" y2="485" stroke="#79538e" stroke-width="2.3"/>
+<line x1="410" y1="95" x2="410" y2="355" stroke="#79538e" stroke-width="2.3"/>
+<line x1="310" y1="225" x2="150" y2="95" stroke="#79538e" stroke-width="2.3"/>
+<line x1="310" y1="485" x2="150" y2="355" stroke="#79538e" stroke-width="2.3"/>
+<line x1="570" y1="225" x2="410" y2="95" stroke="#79538e" stroke-width="2.3"/>
+<line x1="570" y1="485" x2="410" y2="355" stroke="#79538e" stroke-width="2.3"/>
+<line x1="324" y1="243.2" x2="511.2" y2="243.2" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="208.8" y1="149.6" x2="396" y2="149.6" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="324" y1="430.4" x2="511.2" y2="430.4" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="208.8" y1="336.8" x2="396" y2="336.8" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="324" y1="243.2" x2="324" y2="430.4" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="208.8" y1="149.6" x2="208.8" y2="336.8" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="511.2" y1="243.2" x2="511.2" y2="430.4" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="396" y1="149.6" x2="396" y2="336.8" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="324" y1="243.2" x2="208.8" y2="149.6" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="324" y1="430.4" x2="208.8" y2="336.8" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="511.2" y1="243.2" x2="396" y2="149.6" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="511.2" y1="430.4" x2="396" y2="336.8" stroke="#677583" stroke-width="1.5" stroke-dasharray="6 5"/>
+<g id="compression-forces">
+<line x1="145.5" y1="290" x2="217.3" y2="290" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="230,290 216.3,295.48 216.3,284.52" fill="#d52350"/>
+<text x="161.5" y="284.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="574.5" y1="290" x2="502.7" y2="290" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="490,290 503.7,284.52 503.7,295.48" fill="#d52350"/>
+<text x="590.5" y="284.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="360" y1="75.5" x2="360" y2="147.3" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="360,160 354.52,146.3 365.48,146.3" fill="#d52350"/>
+<text x="376" y="70.25" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="360" y1="504.5" x2="360" y2="432.7" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="360,420 365.48,433.7 354.52,433.7" fill="#d52350"/>
+<text x="376" y="499.25" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="492" y1="397.25" x2="449.86" y2="363.01" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="440,355 454.09,359.39 447.18,367.89" fill="#d52350"/>
+<text x="508" y="392" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="228" y1="182.75" x2="270.14" y2="216.99" stroke="#d52350" stroke-width="3.5"/>
+<polygon points="280,225 265.91,220.61 272.82,212.11" fill="#d52350"/>
+<text x="244" y="177.5" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+</g>
+<text x="585" y="67.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Volume</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">V</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 540 75 Q 502.5 160.5 564.94 220.16" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="563.49" y1="218.78" x2="566.82" y2="221.96" stroke="#333333" stroke-width="1.2"/>
+<polygon points="570,225 564.6,222.83 567.59,219.71" fill="#333333"/>
+<text x="575" y="127.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Volume</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">V</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> − </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="italic">V</tspan></text>
+<path d="M 530 135 Q 482.73 182.52 508.23 236.86" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="507.38" y1="235.05" x2="509.33" y2="239.22" stroke="#333333" stroke-width="1.2"/>
+<polygon points="511.2,243.2 506.95,239.23 510.86,237.39" fill="#333333"/>
+<text x="168" y="78.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<path d="M 180 84 Q 231.2 170.5 323.12 153.29" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="321.15" y1="153.66" x2="325.68" y2="152.81" stroke="#333333" stroke-width="1.2"/>
+<polygon points="330,152 325.09,155.12 324.29,150.87" fill="#333333"/>
+</svg>

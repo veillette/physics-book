@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+<title id="title">Water leaking from two holes in a boot</title>
+<desc id="desc">A rubber boot filled with water to the top has two leaks at the same height near its sole: Leak 1 at the toe, from which water squirts up and to the right, and Leak 2 at the heel, from which water squirts to the left.</desc>
+<rect width="760" height="560" fill="#ffffff"/>
+<path d="M 100 50 L 112 470 Q 112 520 140 520 L 590 520 Q 630 514 624 470 Q 614 424 560 416 Q 470 404 425 372 Q 384 344 382 300 L 380 50 Z" fill="#d7c49a" stroke="#9c8556" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 112 488 L 622 488" fill="none" stroke="#9c8556" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 380 345 Q 340 360 330 400" fill="none" stroke="#9c8556" stroke-width="1.2" stroke-linejoin="round"/>
+<ellipse cx="240" cy="50" rx="140" ry="15" fill="#bfe0f5" stroke="#9c8556" stroke-width="2"/>
+<path d="M 102 70 Q 240 92 380 70" fill="none" stroke="#9c8556" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="624,455 628.4,449.8 632.8,445.4 637.2,441.8 641.6,439 646,437 650.4,435.8 654.8,435.4 659.2,435.8 663.6,437 668,439 672.4,441.8 676.8,445.4 681.2,449.8 685.6,455 690,461 694.4,467.8 698.8,475.4 703.2,483.8 707.6,493" fill="none" stroke="#5fb1e0" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="624,455 629.5,448.4 635,442.6 640.5,437.6 646,433.4 651.5,430 657,427.4 662.5,425.6 668,424.6 673.5,424.4 679,425 684.5,426.4 690,428.6 695.5,431.6 701,435.4 706.5,440 712,445.4 717.5,451.6 723,458.6 728.5,466.4" fill="none" stroke="#5fb1e0" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="624,455 630.6,447 637.2,439.8 643.8,433.4 650.4,427.8 657,423 663.6,419 670.2,415.8 676.8,413.4 683.4,411.8 690,411 696.6,411 703.2,411.8 709.8,413.4 716.4,415.8 723,419 729.6,423 736.2,427.8 742.8,433.4 749.4,439.8" fill="none" stroke="#5fb1e0" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="111,455 107.26,454.34 103.52,454.12 99.78,454.34 96.04,455 92.3,456.1 88.56,457.64 84.82,459.62 81.08,462.04 77.34,464.9 73.6,468.2 69.86,471.94 66.12,476.12 62.38,480.74 58.64,485.8 54.9,491.3 51.16,497.24 47.42,503.62 43.68,510.44 39.94,517.7" fill="none" stroke="#5fb1e0" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="111,455 106.33,454.12 101.65,453.68 96.97,453.68 92.3,454.12 87.63,455 82.95,456.32 78.28,458.08 73.6,460.28 68.93,462.92 64.25,466 59.58,469.52 54.9,473.48 50.23,477.88 45.55,482.72 40.87,488 36.2,493.72 31.52,499.88 26.85,506.48 22.17,513.52" fill="none" stroke="#5fb1e0" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="111,455 105.39,453.9 99.78,453.24 94.17,453.02 88.56,453.24 82.95,453.9 77.34,455 71.73,456.54 66.12,458.52 60.51,460.94 54.9,463.8 49.29,467.1 43.68,470.84 38.07,475.02 32.46,479.64 26.85,484.7 21.24,490.2 15.63,496.14 10.02,502.52 4.41,509.34" fill="none" stroke="#5fb1e0" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="620" y="378.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Leak</tspan><tspan font-style="normal"> 1</tspan></text>
+<text x="70" y="392.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Leak</tspan><tspan font-style="normal"> 2</tspan></text>
+</svg>

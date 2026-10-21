@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "required_checks": {
+    "rock-up": [
+      "position-1",
+      "velocity-1",
+      "position-2",
+      "velocity-2",
+      "position-3",
+      "velocity-3"
+    ],
+    "rock-down": ["speed-squared"],
+    "measured-gravity": ["acceleration"],
+    "ice-drop": ["fall-time"],
+    "ball-up-exercise": ["position", "velocity"],
+    "fireworks": [
+      "vertical-speed",
+      "height",
+      "time",
+      "horizontal-speed",
+      "range"
+    ],
+    "hot-rock": [
+      "vertical-speed",
+      "horizontal-speed",
+      "flight-time",
+      "final-vy",
+      "final-speed",
+      "final-angle"
+    ],
+    "lawn-mower": ["acceleration"],
+    "rocket-sled": ["total-thrust", "per-engine"],
+    "sprinter": ["answer"],
+    "laundry-cart": ["answer"],
+    "skier": ["coefficient"],
+    "crate-friction": ["static-friction", "kinetic-friction"],
+    "spatula": ["normal-force"],
+    "wooden-crate": ["static-force", "acceleration"],
+    "car-curve": ["centripetal-force", "friction"],
+    "banked-curve": ["speed"],
+    "merry-go-round": ["force"],
+    "highway-banking": ["angle"],
+    "package-energy": ["energy"],
+    "package-work": ["net-work"],
+    "package-speed": ["speed"],
+    "package-coast": ["distance"],
+    "elastic-collision": [
+      "first-velocity",
+      "second-velocity",
+      "kinetic-energy"
+    ],
+    "seesaw": ["distance", "pivot-force"],
+    "seesaw-board": ["distance", "pivot-force"],
+    "door-torque": ["torque"],
+    "door-children": ["force"],
+    "grindstone": ["work", "inertia", "acceleration", "angular-velocity"],
+    "helicopter": [
+      "omega",
+      "inertia",
+      "rotational-energy",
+      "translational-energy",
+      "height"
+    ],
+    "rolling-cylinder": ["speed"],
+    "steel-boat": [
+      "steel-volume",
+      "displaced-mass",
+      "buoyancy",
+      "weight",
+      "hull-buoyancy"
+    ],
+    "floating-woman": ["density"],
+    "coin-density": ["density"],
+    "floating-ice": ["submerged-fraction"],
+    "headlight": ["resistance"],
+    "flashlight": ["current"],
+    "shroud-dating": ["age", "remaining-fraction"],
+    "carbon-activity": ["activity-bq", "activity-ci", "activity-nci"]
+  }
+}

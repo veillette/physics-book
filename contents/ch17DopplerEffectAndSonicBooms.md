@@ -222,7 +222,7 @@ source are mixed with those from it when receding. This mixing appears messy,
 but something interesting happens—a sonic boom is created. (
 See [[Figure 4]](#Figure4).)
 
-![The diagram shows a sound wave with spherical air compressions emerging from a source moving toward the right. The source is shown to move with a velocity v sub s. The spherical air compressions are shown to move with velocity v sub w. The interference of sound waves is shown along two lines, one on each side of the waves. The angle between these two lines is labeled theta.](../resources/Figure_17_04_05.jpg 'Sound waves from a source that moves faster than the speed of sound spread spherically from the point where they are emitted, but the source moves ahead of each. Constructive interference along the lines shown (actually a cone in three dimensions) creates a shock wave called a sonic boom. The faster the speed of the source, the smaller the angle ( \\theta ).')
+![A source moving to the right at speed v_s greater than the speed of sound v_w emitted a sound wave at each of the numbered positions 1 to 6. Each wave is a circle centered on the point where it was emitted, and the source has moved ahead of all of them. The circles all touch two straight lines that meet at the source; along these lines, actually a cone in three dimensions, the waves interfere constructively to form a shock wave. The cone’s angle is θ, with sin(θ/2) = v_w/v_s, so a faster source makes a narrower cone.](../resources/Figure_17_04_05.svg 'Sound waves from a source that moves faster than the speed of sound spread spherically from the point where they are emitted, but the source moves ahead of each. Constructive interference along the lines shown (actually a cone in three dimensions) creates a shock wave called a sonic boom. The faster the speed of the source, the smaller the angle ( \\theta ).')
 {: #Figure4}
 
 There is constructive interference along the lines shown (a cone in three
@@ -313,6 +313,27 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
 :::
 
 </div>
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Doppler Effect
+</div>
+
+Move a source, an observer, or both, and watch the wavelength bunch up ahead of the motion and stretch out behind it. The heard frequency shifts with that wavelength.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/DopplerEffect/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Doppler effect
+</figcaption>
+</div>
+
+:::
+
+::::
 
 ### Section Summary
 

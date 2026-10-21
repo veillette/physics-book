@@ -337,6 +337,22 @@ How would you place two identical flat coils in contact so that they had the gre
 
 :::
 
+::: solution
+
+**Strategy**
+
+The mutual inductance $$ M = N_2\Phi_{2}/I_1 $$ is large when as much as possible of the flux produced by coil 1 passes through coil 2, and small when almost none does.
+
+**Solution**
+
+**Greatest:** place the coils flat against each other, face to face with their axes lined up (coaxial), and as close together as possible. Then nearly all of the field lines through coil 1 also pass through coil 2. For two 100-turn coils of radius $$ 5.00 \text{ cm} $$ in contact, with essentially all flux shared, $$ M $$ approaches the self-inductance of one coil, about $$ \mu_0N^2\pi r/2 = (4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(100)^2\pi(0.0500 \m)/2 = 1.0 \times 10^{-3} \text{ H} $$.
+
+**Least:** place them with their planes perpendicular, for example with coil 2 standing on edge across the center of coil 1. Coil 1's field lines then run parallel to the plane of coil 2, or pass through it equally in both directions, so the net flux through coil 2 is zero and $$ M = 0 $$.
+
+You would get the greatest mutual inductance by placing the coils face to face, coaxial, and in contact, so that almost all of one coil's flux passes through the other, and the least by placing them with their planes perpendicular, so that essentially none of one coil's flux passes through the other.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -347,6 +363,28 @@ How would you shape a given length of wire to give it the greatest self-inductan
 
 :::
 
+::: solution
+
+**Strategy**
+
+Self-inductance $$ L = N\Phi/I $$ is large when the current produces a large flux that links many turns. For a solenoid, $$ L = \mu_0N^2A/\ell $$, which grows as the square of the number of turns. Compare shapes for a $$ 10.0\text{-m} $$ length of wire $$ 1.00 \text{ mm} $$ in diameter.
+
+**Solution**
+
+**Greatest:** wind the wire into a tightly wound coil with many turns, preferably around an iron core. Wound on a form of radius $$ 1.00 \text{ cm} $$, it makes $$ N = (10.0 \m)/[2\pi(0.0100 \m)] = 159 $$ turns, with a length $$ \ell = (159)(1.00 \text{ mm}) = 0.159 \m $$, so
+
+<div class="equation">
+$$ L = \frac{\mu_0N^2A}{\ell} = \frac{(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(159)^2\pi(0.0100 \m)^2}{0.159 \m} = 6.3 \times 10^{-5} \text{ H} $$
+</div>
+
+An iron core with a relative permeability of 1000 would raise this to about $$ 63 \text{ mH} $$. Winding the coil in several layers to make it shorter also increases $$ L $$.
+
+**Least:** fold the wire in half and twist the two halves together (a "bifilar" or hairpin arrangement). The current goes out along one half and back along the other, so their magnetic fields nearly cancel and very little flux is produced; the inductance is far smaller than even that of a straight wire.
+
+You would wind the wire into a long, tightly wound coil with as many turns as possible, ideally around an iron core, to give the greatest self-inductance (about $$ 63 \ \mu\text{H} $$ for $$ 10 \m $$ of wire on a $$ 1\text{-cm} $$ form, or about 1000 times more with iron), and you would fold it back on itself, with the two halves side by side, to give the least, because the opposite currents then cancel each other's fields.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -354,6 +392,28 @@ How would you shape a given length of wire to give it the greatest self-inductan
 ::: problem
 
 Verify, as was concluded without proof in [[Example 1]](#Example1), that units of  $$\text{T}\cdot {\text{m}}^{2}/A=\Omega \cdot \text{s}=\text{H} $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Start from definitions. The flux $$ \Phi = BA $$ is in $$ \text{T}\cdot\text{m}^2 $$, and $$ M = N\Phi/I $$ (or $$ L = N\Phi/I $$) gives $$ \text{T}\cdot\text{m}^2/\text{A} $$. Faraday's law, $$ \text{emf} = \Delta\Phi/\Delta t $$, gives $$ \text{T}\cdot\text{m}^2 = \text{V}\cdot\text{s} $$. The definition $$ \text{emf} = L\,\Delta I/\Delta t $$ gives $$ \text{H} = \text{V}\cdot\text{s/A} $$. Also, $$ \Omega = \text{V/A} $$.
+
+**Solution**
+
+<div class="equation">
+$$ \frac{\text{T}\cdot\text{m}^2}{\text{A}} = \frac{\text{V}\cdot\text{s}}{\text{A}} = \left( \frac{\text{V}}{\text{A}} \right)\text{s} = \Omega\cdot\text{s} $$
+</div>
+
+<div class="equation">
+$$ \text{H} = \frac{\text{V}}{\text{A/s}} = \frac{\text{V}\cdot\text{s}}{\text{A}} = \Omega\cdot\text{s} $$
+</div>
+
+As a check through base units, $$ \text{T} = \text{N/(A}\cdot\text{m)} $$, so $$ \text{T}\cdot\text{m}^2/\text{A} = \text{N}\cdot\text{m/A}^2 = \text{J/A}^2 $$, and $$ \Omega\cdot\text{s} = (\text{J/C})(\text{s/A}) = \text{J}\cdot\text{s}/[(\text{A}\cdot\text{s})\text{A}] = \text{J/A}^2 $$ as well, using $$ \text{C} = \text{A}\cdot\text{s} $$.
+
+The units agree: $$ \text{T}\cdot\text{m}^2/\text{A} = \text{V}\cdot\text{s/A} = \Omega\cdot\text{s} = \text{H} $$, all equal to $$ \text{J/A}^2 $$ in base units.
 
 :::
 
@@ -742,7 +802,7 @@ $$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(1000)^
 </div>
 
 <div class="equation">
-$$L=\frac{(1.257 \times 10^{-6})(10^6)(7.85 \times 10^{-3})}{0.500}=\frac{9.87}{0.500}=19.7 \text{ mH}$$
+$$L=\frac{(1.257 \times 10^{-6} \text{ T·m/A})(10^6)(7.85 \times 10^{-3} \text{ m}^2)}{0.500 \text{ m}}=\frac{9.87 \times 10^{-3} \text{ H·m}}{0.500 \text{ m}}=19.7 \text{ mH}$$
 </div>
 
 **(b)** Using the energy formula with $$I = 20.0 \text{ A}$$:
@@ -752,13 +812,13 @@ $${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(
 </div>
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}(19.7 \times 10^{-3})(400)=3.94 \text{ J}$$
+$${E}_{\text{ind}}=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(400 \text{ A}^2)=3.94 \text{ J}$$
 </div>
 
 **(c)** Given that $$\left|\text{emf}\right| \leq 3.00 \text{ V}$$ and $$\Delta I = 20.0 \text{ A}$$:
 
 <div class="equation">
-$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}=\frac{(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})}{3.00 \text{ V}}=\frac{0.394}{3.00}=0.131 \text{ s}=131 \text{ ms}$$
+$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}=\frac{(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})}{3.00 \text{ V}}=\frac{0.394 \text{ V·s}}{3.00 \text{ V}}=0.131 \text{ s}=131 \text{ ms}$$
 </div>
 
 **Discussion**
@@ -807,7 +867,7 @@ $$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(500)^2
 </div>
 
 <div class="equation">
-$$L=\frac{(1.257 \times 10^{-6})(2.50 \times 10^5)(1.77 \times 10^{-4})}{0.0400}=\frac{5.56 \times 10^{-5}}{0.0400}=1.39 \times 10^{-3} \text{ H}=1.39 \text{ mH}$$
+$$L=\frac{(1.257 \times 10^{-6} \text{ T·m/A})(2.50 \times 10^5)(1.77 \times 10^{-4} \text{ m}^2)}{0.0400 \text{ m}}=\frac{5.56 \times 10^{-5} \text{ H·m}}{0.0400 \text{ m}}=1.39 \times 10^{-3} \text{ H}=1.39 \text{ mH}$$
 </div>
 
 **(b)** Given:
@@ -875,7 +935,7 @@ $$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(400)^2
 </div>
 
 <div class="equation">
-$$L=\frac{(1.257 \times 10^{-6})(1.60 \times 10^5)(5.03 \times 10^{-5})}{1.00}=1.01 \times 10^{-5} \text{ H}=10.1 \text{ μH}$$
+$$L=\frac{(1.257 \times 10^{-6} \text{ T·m/A})(1.60 \times 10^5)(5.03 \times 10^{-5} \text{ m}^2)}{1.00 \text{ m}}=1.01 \times 10^{-5} \text{ H}=10.1 \text{ μH}$$
 </div>
 
 **(b)** Using $$I = 6.00 \text{ A}$$:
@@ -885,7 +945,7 @@ $${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(
 </div>
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}(1.01 \times 10^{-5})(36.0)=1.82 \times 10^{-4} \text{ J}=0.182 \text{ mJ}$$
+$${E}_{\text{ind}}=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(36.0 \text{ A}^2)=1.82 \times 10^{-4} \text{ J}=0.182 \text{ mJ}$$
 </div>
 
 **(c)** Given $$\Delta I = 6.00 \text{ A}$$ and $$\Delta t = 5.00 \text{ ms} = 5.00 \times 10^{-3} \text{ s}$$:
@@ -895,7 +955,7 @@ $$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(1.01 \times 10^{-5} \text{
 </div>
 
 <div class="equation">
-$$\left|\text{emf}\right|=(1.01 \times 10^{-5})(1200)=0.0121 \text{ V}=12.1 \text{ mV}$$
+$$\left|\text{emf}\right|=(1.01 \times 10^{-5} \text{ H})(1200 \text{ A/s})=0.0121 \text{ V}=12.1 \text{ mV}$$
 </div>
 
 **Discussion**
@@ -994,7 +1054,7 @@ $$\Delta t=\frac{(0.250 \text{ H})(150 \text{ A})}{75.0 \text{ V}}=\frac{37.5 \t
 
 **Discussion**
 
-The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^{2} = \frac{1}{2}(0.250)(150)^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
+The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^{2} = \frac{1}{2}(0.250 \text{ H})(150 \text{ A})^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
 
 **Final Answer**
 
@@ -1109,10 +1169,10 @@ $$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(25.0 \text{ H})\frac{100 \
 </div>
 
 <div class="equation">
-$$\left|\text{emf}\right|=(25.0)(1.00 \times 10^5)=2.50 \times 10^6 \text{ V}=2.50 \text{ MV}$$
+$$\left|\text{emf}\right|=(25.0 \text{ H})(1.00 \times 10^5 \text{ A/s})=2.50 \times 10^6 \text{ V}=2.50 \text{ MV}$$
 </div>
 
-**(b)** This result is unreasonable because 2.50 million volts is an extremely high voltage that would cause massive electrical arcing through air (which breaks down at about 3 MV/m). Such a voltage would be extremely dangerous and impossible to contain with ordinary insulation. The energy stored in this inductor at 100 A is $$E = \frac{1}{2}(25.0)(100)^2 = 125 \text{ kJ}$$, and attempting to dissipate this in 1 ms would require a power of 125 MW, which is also unreasonable.
+**(b)** This result is unreasonable because 2.50 million volts is an extremely high voltage that would cause massive electrical arcing through air (which breaks down at about 3 MV/m). Such a voltage would be extremely dangerous and impossible to contain with ordinary insulation. The energy stored in this inductor at 100 A is $$E = \frac{1}{2}(25.0 \text{ H})(100 \text{ A})^2 = 125 \text{ kJ}$$, and attempting to dissipate this in 1 ms would require a power of 125 MW, which is also unreasonable.
 
 **(c)** The unreasonable assumption is the very short switching time of 1.00 ms. A 25.0 H inductor carrying 100 A cannot be switched off this quickly without generating destructive voltages. In practice, such large inductors require much longer shutdown times (on the order of seconds or even minutes) or specialized circuits to safely dissipate the stored energy. The combination of very large inductance (25.0 H) and very large current (100 A) also contributes to the problem.
 

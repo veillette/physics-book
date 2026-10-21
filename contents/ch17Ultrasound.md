@@ -883,7 +883,7 @@ High-frequency ultrasound like 20 MHz would not be suitable for deep abdominal i
 
 **(a)** The echo travels to each reflecting surface and back. Their depth difference is $$\Delta d=0.100\ \text{cm}=1.00\times10^{-3}\ \text{m}$$, so
 
-$$\Delta t=\frac{2\Delta d}{v}=\frac{2(1.00\times10^{-3})}{1540}=1.30\times10^{-6}\ \text{s}=1.30\ \mu\text{s}.$$
+$$\Delta t=\frac{2\Delta d}{v}=\frac{2(1.00\times10^{-3}\ \text{m})}{1540\ \text{m/s}}=1.30\times10^{-6}\ \text{s}=1.30\ \mu\text{s}.$$
 
 The individual echo times are 45.45 and 46.75 microseconds.
 

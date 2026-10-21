@@ -56,9 +56,13 @@ export default {
     d.axes({ xLen: 170, yLen: 110, xNeg: 165, yNeg: 110 });
     d.force(90, 70, 'N');
     d.force(270, 70, 'w');
-    d.force(0, 130, 'F_2');
-    d.force(180, 108, 'F_1', { from: [0, 7] });
-    d.force(180, 40, 'f', { from: [0, -7], labelOpts: { dy: -34 } });
+    const scale = 130 / 90; // pixels per newton: F2 = 90 N, F1 = 75 N, f = 12 N
+    d.force(0, 90 * scale, 'F_2');
+    d.force(180, 75 * scale, 'F_1', { from: [0, 7] });
+    d.force(180, 12 * scale, 'f', {
+      from: [0, -7],
+      labelOpts: { at: [-45, -35] },
+    });
     d.accel(0, 40, { at: [40, 85] });
     d.objectLabel('child + wagon', { dx: 10, dy: -42 });
     return d.render();
@@ -348,9 +352,14 @@ export default {
       caption: '(c) System: baby + basket + scale',
     });
     b.axes({ xLen: 120, yLen: 115, xNeg: 100, yNeg: 115 });
-    b.force(90, 82, 'T_2');
-    b.force(270, 75, 'w_{baby}', { from: [-7, 0], labelOpts: { dx: -78, dy: -6 } });
-    b.force(270, 22, 'w_{scale}', { from: [7, 0], labelOpts: { dy: -2 } });
+    const babyWeight = 75;
+    const scaleWeight = babyWeight * ((0.5 * 9.8) / 55);
+    b.force(90, babyWeight + scaleWeight, 'T_2');
+    b.force(270, babyWeight, 'w_{baby}', { from: [-7, 0], labelOpts: { dx: -78, dy: -6 } });
+    b.force(270, scaleWeight, 'w_{scale}', {
+      from: [16, 0],
+      labelOpts: { at: [40, -22], anchor: 'start' },
+    });
     b.accel(0, 0, { at: [-65, 95] });
     b.objectLabel('baby + basket + scale', { dx: 12, dy: -70 });
     return panels([a, b], {
@@ -604,8 +613,8 @@ export default {
   // 4.6 Problem 11 — braces pulling on a tooth
   fbd_04_06_p11: () => {
     const d = new FBD({
-      title: 'Free-body diagram of the tooth',
-      desc: 'Free-body diagram with +x to the right and +y up (toward the front of the mouth): two wire tensions T, one down and to the right and one down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum, F app, points along -y.',
+      title: 'Wire forces on the tooth',
+      desc: 'Wire forces only, with +x to the right and +y up (toward the front of the mouth): two tensions T, one down and to the right and one down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum, F app, points along -y. Forces from the surrounding tissue are not shown.',
       width: 440,
       height: 290,
       cx: 220,
@@ -623,7 +632,7 @@ export default {
     });
     d.arc(-15, 0, 100, 'θ', { labelR: 114 });
     d.arc(180, 195, 100, 'θ', { labelR: 114 });
-    d.accel(0, 0, { at: [-130, 60] });
+    d.note(-130, 60, 'wire forces only', { size: 13 });
     d.objectLabel('tooth', { dx: 10, dy: 14 });
     d.text(0, -165, 'F_{app} = 2T sin θ  (sum of the two tensions, along −y)', {
       size: 16,
@@ -670,12 +679,20 @@ export default {
       cy: 150,
     });
     d.axes({ xLen: 190, yLen: 120, xNeg: 160, yNeg: 160 });
-    d.force(90, 110, 'N');
-    d.force(270, 90, 'w', { labelOpts: { dx: -34 } });
-    d.force(-35, 120, 'F', { labelOpts: { dy: 0 } });
-    d.component(0, 98, 'F cos 35°', { labelOpts: { dy: 0 } });
-    d.component(270, 69, 'F sin 35°', { from: [98, 0], labelOpts: { dy: 0 } });
-    d.force(180, 98, 'f');
+    const w = 90;
+    const friction = w * (60 / (28 * 9.8));
+    const angle = (35 * Math.PI) / 180;
+    const push = friction / Math.cos(angle);
+    const pushY = push * Math.sin(angle);
+    d.force(90, w + pushY, 'N');
+    d.force(270, w, 'w', { labelOpts: { dx: -34 } });
+    d.force(-35, push, 'F', { labelOpts: { at: [35, -42], anchor: 'start' } });
+    d.component(0, friction, 'F cos 35°', { labelOpts: { at: [85, 25] } });
+    d.component(270, pushY, 'F sin 35°', {
+      from: [friction, 0],
+      labelOpts: { at: [105, -55] },
+    });
+    d.force(180, friction, 'f', { labelOpts: { at: [-35, -20] } });
     d.arc(-35, 0, 50, '35°', { labelR: 70, size: 15 });
     d.accel(0, 0, { at: [-100, 90] });
     d.objectLabel('cart', { dx: -10, dy: 24, anchor: 'end' });
@@ -733,11 +750,13 @@ export default {
       cy: 180,
     });
     d.axes({ xLen: 185, yLen: 140, xNeg: 165, yNeg: 140 });
-    d.force(105, 128, 'T_1', { labelOpts: { dx: -4 } });
-    d.force(10, 72, 'T_2');
-    d.component(180, 33, 'T_1 sin 15°', { labelOpts: { at: [-40, -22], anchor: 'end' } });
-    d.component(90, 124, 'T_1 cos 15°', { from: [6, 0], labelOpts: { dy: -20 } });
-    d.force(270, 128, 'w');
+    const t1 = d.force(105, 128, 'T_1', { labelOpts: { dx: -4 } });
+    const t2 = d.force(10, -t1[0] / Math.cos((10 * Math.PI) / 180), 'T_2');
+    d.component(180, -t1[0], 'T_1 sin 15°', {
+      labelOpts: { at: [-40, -22], anchor: 'end' },
+    });
+    d.component(90, t1[1], 'T_1 cos 15°', { from: [6, 0], labelOpts: { dy: -20 } });
+    d.force(270, t1[1] + t2[1], 'w');
     d.arc(90, 105, 70, '15°', { labelR: 86, size: 15 });
     d.arc(0, 10, 110, '10°', { labelR: 124, size: 15 });
     d.accel(0, 0, { at: [-120, 110] });
@@ -905,6 +924,103 @@ export default {
     d.force(270, 44, 'w');
     d.accel(90, 40, { at: [-70, 55] });
     d.objectLabel('man', { dx: -10, dy: -22, anchor: 'end' });
+    return d.render();
+  },
+
+  // 4.3 Conceptual Question 6 — rock at the top of its flight
+  fbd_04_03_q06: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of the rock at the top of its flight',
+      desc: 'Free-body diagram with +x to the right and +y up: the only force is the weight w = mg pointing down. The velocity is momentarily zero, but the acceleration still points down.',
+      width: 300,
+      height: 300,
+      cx: 140,
+      cy: 130,
+    });
+    d.axes({ xLen: 120, yLen: 105, xNeg: 110, yNeg: 140 });
+    d.force(270, 95, 'w = mg');
+    d.accel(270, 50, { at: [-70, -20], label: 'a = g' });
+    d.note(-12, 75, 'v = 0 at the top', { anchor: 'end' });
+    d.objectLabel('rock', { dx: 12, dy: -18 });
+    return d.render();
+  },
+
+  // 4.4 Conceptual Question 5 — the lineman can still out-push the opponent
+  fbd_04_04_q05: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of the lineman',
+      desc: 'Free-body diagram of the lineman alone, with +x forward (toward the opponent) and +y up: the opponent pushes him backward with force P, the ground pushes his feet forward with static friction f, which is longer than P; the normal force N points up and the weight w points down. The net force and acceleration point forward.',
+      width: 480,
+      height: 320,
+      cx: 190,
+      cy: 150,
+    });
+    d.axes({ xLen: 165, yLen: 115, xNeg: 160, yNeg: 115, xLabel: '+x (forward)' });
+    d.force(90, 80, 'N');
+    d.force(270, 80, 'w');
+    d.force(0, 130, 'f');
+    d.force(180, 95, 'P');
+    d.accel(0, 45, { at: [40, 85] });
+    d.note(-180, -140, 'P: push of the opponent on the lineman', { anchor: 'start' });
+    d.note(-180, -158, 'f: static friction of the ground on his feet', { anchor: 'start' });
+    d.objectLabel('lineman', { dx: -10, dy: -22, anchor: 'end' });
+    return d.render();
+  },
+
+  // 4.5 Conceptual Question 1 — the hanging weight sets the tension
+  fbd_04_05_q01: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of the hanging traction weight',
+      desc: 'Free-body diagram of the hanging mass, with +y up: the rope tension T up and the weight w = mg down, equal in length, so T = mg. The acceleration is zero.',
+      width: 280,
+      height: 280,
+      cx: 130,
+      cy: 140,
+    });
+    d.axes({ xLen: 110, yLen: 115, xNeg: 100, yNeg: 115 });
+    d.force(90, 85, 'T');
+    d.force(270, 85, 'w = mg');
+    d.accel(0, 0, { at: [-65, 60] });
+    d.objectLabel('hanging mass', { dx: 12, dy: -18 });
+    return d.render();
+  },
+
+  // 4.5 Conceptual Question 2 — a smaller rope angle pulls harder on the tibia
+  fbd_04_05_q02: () => {
+    const build = (caption, theta) => {
+      const d = new FBD({ width: 340, height: 280, cx: 80, cy: 140, caption });
+      d.axes({ xLen: 230, yLen: 110, xNeg: 60, yNeg: 110, xLabel: '+x' });
+      d.force(theta, 85, 'T');
+      d.force(-theta, 85, 'T');
+      const pull = 2 * 85 * Math.cos((theta * Math.PI) / 180);
+      d.force(0, pull, '2T cos θ', { color: '#1f5fa8', labelOpts: { dy: 2 } });
+      d.arc(0, theta, 40, 'θ', { labelR: 54 });
+      d.objectLabel('pulley at foot', { dx: -60, dy: -100, anchor: 'start' });
+      return d;
+    };
+    const a = build('(a) θ = 60°: pull = 2T cos 60° = T', 60);
+    const b = build('(b) θ = 20°: pull = 2T cos 20° = 1.9T', 20);
+    return panels([a, b], {
+      title: 'Effect of the rope angle on the traction force',
+      desc: 'Two free-body diagrams of the pulley attached to the foot. Each rope segment pulls with tension T at angle θ above and below the horizontal; the vertical parts cancel and the horizontal parts add to a pull of 2T cos θ along the tibia (blue). (a) With θ = 60° the pull is 2T cos 60° = T. (b) With θ = 20° the pull is 2T cos 20° = 1.9T, nearly twice as large, using the same weight.',
+    });
+  },
+
+  // 4.7 Conceptual Question 1 — astronaut on a scale in a plane falling at g
+  fbd_04_07_q01: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of an astronaut on a scale in free fall',
+      desc: 'Free-body diagram with +y up: only the weight w points down; the scale force is zero because the scale falls with the astronaut. The acceleration is g downward.',
+      width: 300,
+      height: 300,
+      cx: 140,
+      cy: 120,
+    });
+    d.axes({ xLen: 120, yLen: 100, xNeg: 110, yNeg: 150 });
+    d.force(270, 100, 'w = mg');
+    d.accel(270, 50, { at: [-70, -20], label: 'a = g' });
+    d.text(-14, 60, 'N_{scale} = 0', { size: 17, vshift: 6, anchor: 'end' });
+    d.objectLabel('astronaut', { dx: 12, dy: -18 });
     return d.render();
   },
 };

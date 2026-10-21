@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="640" viewBox="0 0 440 640" role="img" aria-labelledby="title desc">
+<title id="title">Electric field at the surface of a conductor</title>
+<desc id="desc">(a) An electric field E at a conductor’s surface, drawn with its component E⊥ perpendicular to the surface and E∥ parallel to it. The parallel component exerts a force F∥ = qE∥ on a free charge q at the surface, moving it along the surface. (b) In static equilibrium the charges have moved until the field is perpendicular to the surface, so there is no parallel force.</desc>
+<rect width="440" height="640" fill="#ffffff"/>
+<path d="M 410 286.27 A 420 420 0 0 0 -10 286.27" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="200" y1="230" x2="200" y2="50" stroke="#1f77c8" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="200" y1="62" x2="200" y2="56.2" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="200,50 202.88,57.2 197.12,57.2" fill="#1f77c8"/>
+<line x1="200" y1="230" x2="320" y2="230" stroke="#1f77c8" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="308" y1="230" x2="313.8" y2="230" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="320,230 312.8,232.88 312.8,227.12" fill="#1f77c8"/>
+<line x1="200" y1="50" x2="320" y2="50" stroke="#222222" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="320" y1="50" x2="320" y2="230" stroke="#222222" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="200" y1="230" x2="310.57" y2="64.14" stroke="#1f77c8" stroke-width="3.5"/>
+<polygon points="320,50 316.01,68.97 304.02,60.98" fill="#1f77c8"/>
+<text x="188" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">E<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="278" y="157.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">E<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan></text>
+<text x="290" y="217.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">E<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">∥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<circle cx="200" cy="252" r="11" fill="#e3b341" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="200" y="257.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<line x1="214" y1="252" x2="284" y2="252" stroke="#e0245e" stroke-width="4"/>
+<polygon points="300,252 283,258.8 283,245.2" fill="#e0245e"/>
+<text x="200" y="293.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<text x="260" y="297" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="12.4" font-weight="normal" dx="-12.31" dy="-16.4">→</tspan><tspan dx="-0.09" dy="16.4">​</tspan></tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">∥</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">q</tspan><tspan font-weight="bold" font-style="normal">E<tspan font-size="12.4" font-weight="normal" dx="-12.87" dy="-16.4">→</tspan><tspan dx="0.47" dy="16.4">​</tspan></tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">∥</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="22" y="307.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 410 616.27 A 420 420 0 0 0 -10 616.27" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="200" y1="560" x2="200" y2="397" stroke="#1f77c8" stroke-width="3.5"/>
+<polygon points="200,380 207.2,398 192.8,398" fill="#1f77c8"/>
+<text x="218" y="467.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">E<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan></text>
+<circle cx="200" cy="560" r="11" fill="#e3b341" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="200" y="565.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="200" y="601.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<text x="22" y="627.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

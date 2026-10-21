@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="title desc">
+<title id="title">Top view of the force that opens the door</title>
+<desc id="desc">Top view of the door, hinged at the origin. +x points along the door from the hinges; +y points in the direction of the push, perpendicular to the door. The push F = 55.0 N acts 0.850 m from the hinges, so it turns the door counterclockwise as seen from above (the opening direction), which is taken as positive.</desc>
+<rect width="600" height="270" fill="#ffffff"/>
+<line x1="90" y1="180" x2="490" y2="180" stroke="#a9c2d9" stroke-width="12" stroke-linecap="round"/>
+<line x1="90" y1="180" x2="490" y2="180" stroke="#1f3a5f" stroke-width="1.4"/>
+<circle cx="90" cy="180" r="6" fill="#ffffff" stroke="#555555" stroke-width="2"/>
+<circle cx="90" cy="180" r="1.8" fill="#555555"/>
+<text x="90" y="220.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">hinges</tspan></text>
+<line x1="90" y1="186" x2="90" y2="256" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="430" y1="186" x2="430" y2="256" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="97" y1="250" x2="423" y2="250" stroke="#444444" stroke-width="1.2"/>
+<polygon points="430,250 422,253.2 422,246.8" fill="#444444"/>
+<polygon points="90,250 98,246.8 98,253.2" fill="#444444"/>
+<text x="260" y="244.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.850 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="430" y1="270" x2="430" y2="191.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="430,180 435.04,192.6 424.96,192.6" fill="#b03a2e"/>
+<text x="440" y="267.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = 55.0 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="490" y1="110" x2="527" y2="110" stroke="#555555" stroke-width="1.5"/>
+<polygon points="536,110 526,114 526,106" fill="#555555"/>
+<text x="552" y="115.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="490" y1="110" x2="490" y2="73" stroke="#555555" stroke-width="1.5"/>
+<polygon points="490,64 494,74 486,74" fill="#555555"/>
+<text x="490" y="53.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 114.96 65.47 A 16 16 0 1 0 135.47 44.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="141.11" y1="47.02" x2="137.16" y2="45.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="133.59,44.28 138.76,44.12 137.45,47.73" fill="#555555"/>
+<text x="154" y="64.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+<text x="300" y="34.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">top</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">looking</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">on</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">door</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

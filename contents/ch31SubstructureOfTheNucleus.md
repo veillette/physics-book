@@ -217,7 +217,7 @@ density from units of $$\text{u}/\text{fm}^{3} $$ to $$\text{kg}/\text{m}^{3} $$
 Substituting the values for  $${r}_{0} $$  and  $$A $$  yields
 
 <div class="equation" >
- $$\begin{array}{lll}r& =& {\left(1.2 \text{fm}\right)\left(56\right)}^{1/3}=\left(1.2 \text{fm}\right)\left(3.83\right)\\ & =& 4.6 \text{fm}.\end{array} $$
+ $$\begin{array}{lll}r& =& \left(1.2 \text{fm}\right)\left(56\right)^{1/3}=\left(1.2 \text{fm}\right)\left(3.83\right)\\ & =& 4.6 \text{fm}.\end{array} $$
 </div>
 
 (b) Density is defined to be  $$\rho =m/V $$ ,

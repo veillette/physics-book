@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" role="img" aria-labelledby="title desc">
+<title id="title">Why legs look short in a pool</title>
+<desc id="desc">A person standing in a pool, seen by an observer at the side of the pool. Rays from the feet bend away from the perpendicular as they leave the water, so the observer traces them back to an image of the feet higher than the real feet. The legs below the surface appear shortened to about three quarters of their real length.</desc>
+<rect width="600" height="440" fill="#ffffff"/>
+<rect x="150" y="220" width="430" height="200" fill="#d6ebf5"/>
+<line x1="150" y1="220" x2="580" y2="220" stroke="#1f77c8" stroke-width="2"/>
+<rect x="20" y="220" width="130" height="200" fill="#d7ccc8"/>
+<circle cx="430" cy="91.45" r="21.45" fill="none" stroke="#222222" stroke-width="2"/>
+<line x1="430" y1="112.9" x2="430" y2="235" stroke="#222222" stroke-width="2.5"/>
+<line x1="430" y1="235" x2="410.2" y2="400" stroke="#222222" stroke-width="2.5"/>
+<line x1="430" y1="235" x2="449.8" y2="400" stroke="#222222" stroke-width="2.5"/>
+<line x1="430" y1="132.7" x2="469.6" y2="228.4" stroke="#222222" stroke-width="2.5"/>
+<line x1="430" y1="132.7" x2="397" y2="228.4" stroke="#222222" stroke-width="2.5"/>
+<g transform="translate(270 30) rotate(60)"><path d="M -14 0 Q 0 -11 14 0 Q 0 11 -14 0 Z" fill="#ffffff" stroke="#222222" stroke-width="1.5"/><circle cx="4" cy="0" r="4.5" fill="#1f77c8"/></g>
+<line x1="430" y1="400" x2="365.56" y2="220" stroke="#c62828" stroke-width="2.2"/>
+<line x1="399.8" y1="315.65" x2="397.85" y2="310.19" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="395.76,304.35 400.89,310.16 395.47,312.1" fill="#c62828"/>
+<line x1="365.56" y1="220" x2="270" y2="30" stroke="#c62828" stroke-width="2.2"/>
+<line x1="320.47" y1="130.36" x2="317.87" y2="125.18" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="315.08,119.64 320.89,124.78 315.74,127.37" fill="#c62828"/>
+<line x1="365.56" y1="220" x2="423.92" y2="336.04" stroke="#c62828" stroke-width="1.4" stroke-dasharray="6 4"/>
+<line x1="431.8" y1="220" x2="411.15" y2="336.04" stroke="#666666" stroke-width="2.5" stroke-dasharray="6 4"/>
+<line x1="428.2" y1="220" x2="436.68" y2="336.04" stroke="#666666" stroke-width="2.5" stroke-dasharray="6 4"/>
+<circle cx="423.92" cy="336.04" r="4" fill="#c62828"/>
+<text x="409.92" y="344.94" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">apparent</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">feet</tspan></text>
+<text x="456" y="400.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">real</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">feet</tspan></text>
+<line x1="365.56" y1="180" x2="365.56" y2="260" stroke="#666666" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="254" y="38.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">observer</tspan></text>
+<text x="570" y="242.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">water</tspan></text>
+</svg>

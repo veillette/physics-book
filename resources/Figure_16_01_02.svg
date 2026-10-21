@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<title id="title">A plastic ruler oscillating about its equilibrium position</title>
+<desc id="desc">Five stages of a ruler clamped at its lower end. (a) Released from the left of equilibrium, the restoring force F points right. (b) At the equilibrium position the force is zero but the ruler moves right with velocity v. (c) Displaced to the right, the restoring force points left and slows it. (d) At equilibrium again, the force is zero and it moves left. (e) Back at the starting position, ready to repeat; without damping the motion continues.</desc>
+<rect width="960" height="300" fill="#ffffff"/>
+<line x1="120" y1="250" x2="120" y2="60" stroke="#999999" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 120 250 Q 120 160 60 77.2" fill="none" stroke="#c75a4a" stroke-width="6" stroke-linejoin="round"/>
+<rect x="106" y="250" width="28" height="16" fill="#555555"/>
+<line x1="6" y1="62" x2="39" y2="62" stroke="#e0245e" stroke-width="4"/>
+<polygon points="54,62 38,68.4 38,55.6" fill="#e0245e"/>
+<text x="0" y="47" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="12.4" font-weight="normal" dx="-12.31" dy="-16.4">→</tspan><tspan dx="-0.09" dy="16.4">​</tspan></tspan></text>
+<text x="120" y="297" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="306" y1="250" x2="306" y2="60" stroke="#999999" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 306 250 Q 306 160 306 70" fill="none" stroke="#c75a4a" stroke-width="6" stroke-linejoin="round"/>
+<rect x="292" y="250" width="28" height="16" fill="#555555"/>
+<text x="306" y="24.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = 0</tspan></text>
+<line x1="316" y1="62" x2="353" y2="62" stroke="#3f9a2b" stroke-width="4"/>
+<polygon points="368,62 352,68.4 352,55.6" fill="#3f9a2b"/>
+<text x="346" y="49" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="12.4" font-weight="normal" dx="-11.2" dy="-10.4">→</tspan><tspan dx="-1.2" dy="10.4">​</tspan></tspan></text>
+<text x="306" y="297" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="492" y1="250" x2="492" y2="60" stroke="#999999" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 492 250 Q 492 160 552 77.2" fill="none" stroke="#c75a4a" stroke-width="6" stroke-linejoin="round"/>
+<rect x="478" y="250" width="28" height="16" fill="#555555"/>
+<line x1="606" y1="62" x2="573" y2="62" stroke="#e0245e" stroke-width="4"/>
+<polygon points="558,62 574,55.6 574,68.4" fill="#e0245e"/>
+<text x="612" y="47" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="12.4" font-weight="normal" dx="-12.31" dy="-16.4">→</tspan><tspan dx="-0.09" dy="16.4">​</tspan></tspan></text>
+<text x="492" y="297" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="678" y1="250" x2="678" y2="60" stroke="#999999" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 678 250 Q 678 160 678 70" fill="none" stroke="#c75a4a" stroke-width="6" stroke-linejoin="round"/>
+<rect x="664" y="250" width="28" height="16" fill="#555555"/>
+<text x="678" y="24.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = 0</tspan></text>
+<line x1="668" y1="62" x2="631" y2="62" stroke="#3f9a2b" stroke-width="4"/>
+<polygon points="616,62 632,55.6 632,68.4" fill="#3f9a2b"/>
+<text x="638" y="49" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="12.4" font-weight="normal" dx="-11.2" dy="-10.4">→</tspan><tspan dx="-1.2" dy="10.4">​</tspan></tspan></text>
+<text x="678" y="297" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="864" y1="250" x2="864" y2="60" stroke="#999999" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 864 250 Q 864 160 804 77.2" fill="none" stroke="#c75a4a" stroke-width="6" stroke-linejoin="round"/>
+<rect x="850" y="250" width="28" height="16" fill="#555555"/>
+<line x1="750" y1="62" x2="783" y2="62" stroke="#e0245e" stroke-width="4"/>
+<polygon points="798,62 782,68.4 782,55.6" fill="#e0245e"/>
+<text x="744" y="47" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="12.4" font-weight="normal" dx="-12.31" dy="-16.4">→</tspan><tspan dx="-0.09" dy="16.4">​</tspan></tspan></text>
+<text x="864" y="297" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">e</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 40 214 Q 60.8 185.2 89.06 189.05" fill="none" stroke="#333333" stroke-width="1.3" stroke-linejoin="round"/>
+<line x1="87.08" y1="188.78" x2="91.64" y2="189.41" stroke="#333333" stroke-width="1.3"/>
+<polygon points="96,190 90.36,191.41 90.94,187.13" fill="#333333"/>
+<text x="8" y="237.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Equilibrium</tspan></text>
+<text x="8" y="255.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">position</tspan></text>
+</svg>

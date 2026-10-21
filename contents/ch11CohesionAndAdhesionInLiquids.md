@@ -128,10 +128,10 @@ illustrated in [[Figure 4]](#Figure4). When air is allowed to flow between two
 balloons of unequal size, the smaller balloon tends to collapse, filling the
 larger balloon.
 
-![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film’s breaking point.](../resources/Figure_11_08_04.jpg 'Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film’s surface area. The force needed to hold the wire in place is \(F=\gamma L=\gamma (2l)\), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.')
+![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film’s breaking point.](/resources/Figure_11_08_04.svg 'Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film’s surface area. The force needed to hold the wire in place is \(F=\gamma L=\gamma (2l)\), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.')
 {: #Figure3}
 
-![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](../resources/Figure_11_08_05.jpg 'With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.')
+![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](/resources/Figure_11_08_05.svg 'With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="The table gives the surface tension of water at zero, twenty, and one hundred degrees Celsius. The surface tension of some other liquids at twenty degrees Celsius is also given."><caption><span class="title">Surface Tension of Some Liquids<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -252,7 +252,7 @@ don’t collapse and large alveoli are prevented from expanding too much. This
 tension change is a unique property of these surfactants, and is not shared by
 detergents (which simply lower surface tension). (See [[Figure 6]](#Figure6).)
 
-![Graph of surface tension as a function of surface area for detergents and interstitial fluids.](../resources/Figure_11_08_07.jpg "Surface tension as a function of surface area. The surface tension for lung surfactant decreases with decreasing area. This ensures that small alveoli don&#x2019;t collapse and large alveoli are not able to over expand. ")
+![Graph of surface tension as a function of surface area for detergents and interstitial fluids.](/resources/Figure_11_08_07.svg "Surface tension as a function of surface area. The surface tension for lung surfactant decreases with decreasing area. This ensures that small alveoli don&#x2019;t collapse and large alveoli are not able to over expand. ")
 {: #Figure6}
 
 If water gets into the lungs, the surface tension is too great and you cannot
@@ -337,7 +337,7 @@ is always to reduce the surface area. Surface tension thus flattens the curved
 liquid surface in a capillary tube. This results in a downward force in mercury
 and an upward force in water, as seen in [[Figure 8]](#Figure8).
 
-![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](../resources/Figure_11_08_09.jpg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
+![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](/resources/Figure_11_08_09.svg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
 {: #Figure8}
 
 <table id="Table2" aria-describedby="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
@@ -400,7 +400,7 @@ can be raised, since a smaller tube holds less mass. The height is also
 inversely proportional to fluid density $$\rho $$ , since a larger density means
 a greater mass in the same volume. (See [[Figure 9]](#Figure9).)
 
-![The left image shows liquid in a container with four tubes of progressively smaller diameter inserted into the liquid. The liquid rises higher in the smaller-diameter tubes. The right image shows two containers, one holding a dense liquid and the other holding a less-dense liquid. Identical tubes are inserted into each liquid. The less-dense liquid rises higher in its tube than the more-dense liquid does in its tube.](../resources/Figure_11_08_10.jpg "(a) Capillary action depends on the radius of a tube. The smaller the tube, the greater the height reached. The height is negligible for large-radius tubes. (b) A denser fluid in the same tube rises to a smaller height, all other factors being the same.")
+![The left image shows liquid in a container with four tubes of progressively smaller diameter inserted into the liquid. The liquid rises higher in the smaller-diameter tubes. The right image shows two containers, one holding a dense liquid and the other holding a less-dense liquid. Identical tubes are inserted into each liquid. The less-dense liquid rises higher in its tube than the more-dense liquid does in its tube.](/resources/Figure_11_08_10.svg "(a) Capillary action depends on the radius of a tube. The smaller the tube, the greater the height reached. The height is negligible for large-radius tubes. (b) A denser fluid in the same tube rises to a smaller height, all other factors being the same.")
 {: #Figure9}
 
 ::: example {"id":"Example2","class":"example"}
@@ -450,7 +450,7 @@ shows one device for studying negative pressure. Some experiments have
 demonstrated that negative pressures sufficient to pull sap to the tops of the
 tallest trees *can* be achieved.
 
-![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](../resources/Figure_11_08_11.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
+![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](/resources/Figure_11_08_11.svg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
 {: #Figure10}
 
 ### Section Summary
@@ -550,7 +550,7 @@ The contact angle directly reflects the balance between cohesive and adhesive fo
 
 ::: problem
 
-Birds such as ducks, geese, and swans have greater densities than water, yet they are able to sit on its surface. Explain this ability, noting that water does not wet their feathers and that they cannot sit on soapy water.
+The bodies of birds such as ducks, geese, and swans are made of tissue denser than water, yet these birds float high on its surface. Explain this ability, noting that water does not wet their feathers and that they cannot float this way on soapy water.
 
 :::
 
@@ -558,17 +558,19 @@ Birds such as ducks, geese, and swans have greater densities than water, yet the
 
 **Strategy**
 
-We need to analyze how surface tension supports these birds and explain why their water-repellent feathers are essential for this phenomenon.
+We need to compare the possible upward forces on the bird: surface tension acting along the waterline, and buoyancy from the water the bird displaces. Then we explain why water-repellent feathers matter and what soap changes.
 
 **Solution**
 
-Waterfowl can sit on water because their oily, water-repellent feathers allow surface tension to support their weight. Because water does not wet their feathers (the feathers are hydrophobic), the water surface curves around the bird without breaking through. This curved water surface creates an upward component of the surface tension force that helps support the bird's weight. The bird essentially sits in a depression on the water surface, much like a water strider walks on water or a needle floats on a water surface.
+The bird's tissue is denser than water, but the bird as a whole is not. Its feathers trap a thick layer of air, and the air sacs and lungs add more. Because water does not wet the feathers, the water cannot push into this layer and displace the air. The average density of the bird plus its trapped air is therefore less than that of water, and the bird floats by **buoyancy**: it settles until the water it displaces weighs as much as it does.
 
-When soap is added to the water, the surface tension is significantly reduced (from about 0.073 N/m to about 0.037 N/m). This lower surface tension cannot provide sufficient upward force to support the bird's weight, causing the bird to sink into the water. Additionally, soap may allow the water to penetrate the feathers, eliminating the hydrophobic barrier.
+Surface tension cannot be the main support. A 1.0-kg duck weighs $$ (1.0 \text{ kg})(9.80 \text{ m/s}^2) = 9.8 \text{ N} $$. The largest surface-tension force is about $$ \gamma L = (0.073 \text{ N/m})(1.0 \text{ m}) \approx 0.07 \text{ N} $$ for a waterline about 1.0 m around, less than 1% of the weight. Surface tension supports water striders because they are tiny; it cannot hold up a duck.
+
+Surface tension still matters indirectly, because it keeps water out of the feather structure. Water would have to bend sharply to enter the narrow gaps between the waxy barbs and barbules, and the cohesive pull of the water surface resists this. Soap lowers the surface tension (from about 0.073 N/m to about 0.037 N/m) and lets water wet the feathers. Water then soaks into the plumage and pushes out the trapped air. The bird displaces less water for its weight, loses buoyancy, and rides much lower or sinks.
 
 **Discussion**
 
-This explains why waterfowl spend considerable time preening and spreading oil from their preen gland over their feathers—maintaining water-repellent feathers is essential for buoyancy and insulation. Oil spills are devastating to waterfowl precisely because petroleum products destroy this water-repellent coating, causing birds to become waterlogged and lose the surface tension support they depend on.
+This explains why waterfowl spend considerable time preening and spreading oil from their preen gland over their feathers: water-repellent feathers are essential for buoyancy and insulation. Oil spills are devastating to waterfowl for the same reason. Petroleum mats the feathers and destroys their water repellency, so the plumage becomes waterlogged, the trapped air is lost, and the birds lose both their buoyancy and their insulation.
 
 :::
 
@@ -776,7 +778,7 @@ $$ P = \frac{4\gamma}{r} = \frac{4(0.0370 \text{ N/m})}{0.0500 \text{ m}} = \fra
 
 Convert to mm Hg using $$ P = \rho g h $$, where $$ \rho_{\text{Hg}} = 13.6 \times 10^3 \text{ kg/m}^3 $$:
 
-$$ h = \frac{P}{\rho g} = \frac{2.96 \text{ Pa}}{(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{2.96}{1.33 \times 10^5} \text{ m} $$
+$$ h = \frac{P}{\rho g} = \frac{2.96 \text{ Pa}}{(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{2.96 \text{ Pa}}{1.33 \times 10^5 \text{ Pa/m}} $$
 
 $$ h = 2.23 \times 10^{-5} \text{ m} = 2.23 \times 10^{-2} \text{ mm Hg} $$
 
@@ -853,7 +855,7 @@ $$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(10
 </div>
 
 <div class="equation">
-$$ h = \frac{0.1456}{88.2} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm} $$
+$$ h = \frac{0.1456 \text{ N/m}}{88.2 \text{ N/m}^2} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm} $$
 </div>
 
 **(b) Radius of tube that raises water to h = 4.00 cm:**
@@ -864,7 +866,7 @@ $$ r = \frac{2\gamma \cos\theta}{\rho g h} = \frac{2(0.0728 \text{ N/m})(1)}{(10
 </div>
 
 <div class="equation">
-$$ r = \frac{0.1456}{392} = 3.71 \times 10^{-4} \text{ m} = 0.371 \text{ mm} $$
+$$ r = \frac{0.1456 \text{ N/m}}{392 \text{ N/m}^2} = 3.71 \times 10^{-4} \text{ m} = 0.371 \text{ mm} $$
 </div>
 
 The results are: (a) **1.65 × 10⁻³ m** (1.65 mm), and (b) **3.71 × 10⁻⁴ m** (0.371 mm).
@@ -996,7 +998,7 @@ With radius $$ r = 10.0 \text{ cm} = 0.100 \text{ m} $$:
 
 $$ \gamma = \frac{(147 \text{ Pa})(0.100 \text{ m})}{4} = \frac{14.7 \text{ N/m}}{4} = 3.68 \text{ N/m} $$
 
-The effective surface tension of the rubber balloon is approximately **3.7 N/m**.
+The effective surface tension of the rubber balloon is approximately **3.7 N/m**. This value is defined by the bubble formula $$ P = 4\gamma/r $$, which counts two surfaces, as for a soap film. The rubber is a single membrane, and its total tension $$ T $$ satisfies $$ P = 2T/r $$, so $$ T = 2\gamma = 7.35 \text{ N/m} $$. The two numbers describe the same balloon under different conventions.
 
 **Discussion**
 
@@ -1030,17 +1032,17 @@ From Table 1:
 
 **Water bubble:**
 <div class="equation">
-$$ P_w = \frac{4\gamma_{w}}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912}{0.0200} = 14.6 \text{ Pa} $$
+$$ P_w = \frac{4\gamma_{w}}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912 \text{ N/m}}{0.0200 \text{ m}} = 14.6 \text{ Pa} $$
 </div>
 
 **Alcohol bubble:**
 <div class="equation">
-$$ P_a = \frac{4\gamma_{a}}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892}{0.0200} = 4.46 \text{ Pa} $$
+$$ P_a = \frac{4\gamma_{a}}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892 \text{ N/m}}{0.0200 \text{ m}} = 4.46 \text{ Pa} $$
 </div>
 
 **Soapy water bubble:**
 <div class="equation">
-$$ P_{sw} = \frac{4\gamma_{sw}}{r} = \frac{4(0.0370 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.148}{0.0200} = 7.40 \text{ Pa} $$
+$$ P_{sw} = \frac{4\gamma_{sw}}{r} = \frac{4(0.0370 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.148 \text{ N/m}}{0.0200 \text{ m}} = 7.40 \text{ Pa} $$
 </div>
 
 The gauge pressures are:
@@ -1137,11 +1139,11 @@ $$ \cos\theta = \frac{(0.0707 \text{ m})(920 \text{ kg/m}^3)(9.80 \text{ m/s}^2)
 </div>
 
 <div class="equation">
-$$ \cos\theta = \frac{63.8 \times 10^{-3}}{0.064} = 0.9966 $$
+$$ \cos\theta = \frac{63.74 \times 10^{-3} \text{ N/m}}{0.0640 \text{ N/m}} = 0.99599 $$
 </div>
 
 <div class="equation">
-$$ \theta = \cos^{-1}(0.9966) = 4.7° \approx 5.1° $$
+$$ \theta = \cos^{-1}(0.99599) = 5.13° \approx 5.1° $$
 </div>
 
 The contact angle is approximately **5.1°**.
@@ -1197,7 +1199,7 @@ $$ V_1 + V_2 = V_f $$
 
 $$ \frac{4}{3}\pi r_1^3 + \frac{4}{3}\pi r_2^3 = \frac{4}{3}\pi r_f^3 $$
 
-$$ r_f^3 = r_1^3 + r_2^3 = (0.0150)^3 + (0.0400)^3 = 3.375 \times 10^{-6} + 6.40 \times 10^{-5} $$
+$$ r_f^3 = r_1^3 + r_2^3 = (0.0150 \text{ m})^3 + (0.0400 \text{ m})^3 = 3.375 \times 10^{-6} \text{ m}^3 + 6.40 \times 10^{-5} \text{ m}^3 $$
 
 $$ r_f^3 = 6.74 \times 10^{-5} \text{ m}^3 $$
 
@@ -1245,11 +1247,11 @@ From Tables 1 and 2:
 
 Substitute values:
 <div class="equation">
-$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \times 1}{0.465 \times (-0.766)} \times \frac{13,600}{1000} $$
+$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \text{ N/m} \times 1}{0.465 \text{ N/m} \times (-0.766)} \times \frac{13,600 \text{ kg/m}^3}{1000 \text{ kg/m}^3} $$
 </div>
 
 <div class="equation">
-$$ \frac{h_w}{h_{Hg}} = \frac{0.0728}{-0.356} \times 13.6 = (-0.204) \times 13.6 = -2.78 $$
+$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \text{ N/m}}{-0.356 \text{ N/m}} \times 13.6 = (-0.204) \times 13.6 = -2.78 $$
 </div>
 
 The ratio is **-2.78**. The negative sign indicates that water is raised while mercury is depressed (lowered) in the same glass tube.

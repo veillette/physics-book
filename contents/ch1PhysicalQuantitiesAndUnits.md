@@ -136,7 +136,7 @@ community adopted a more stable definition of the kilogram. The kilogram is now
 defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
-![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_04.jpg 'The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.')
+![A flashlight sends light along a meter stick from 0 to 100 cm. In a vacuum, light travels this one-meter distance in exactly 1/299 792 458 of a second. Distance equals speed multiplied by time.](/resources/Figure_01_02_04.svg 'The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.')
 {: #Figure4}
 
 Electric current and its accompanying unit, the ampere, will be introduced in
@@ -453,8 +453,7 @@ One cubic centimeter is equal to one milliliter. What does this tell you about t
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a
-milliliter is dependent on the measure of a centimeter.
+Volume is derived from length: the SI unit of volume is the cubic meter. Metric units fit together by powers of ten, so $$ 1 \text{ cm}^{3} = 1 \text{ mL} $$ and $$ 1 \text{ L} = 1 \text{ dm}^{3} = 10^{-3} \text{ m}^{3} $$. The liter is accepted for use with SI.
 
 :::
 
@@ -485,6 +484,26 @@ milliliter is dependent on the measure of a centimeter.
 ::: problem
 
 Identify some advantages of metric units.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Relate metric prefixes to powers of ten and distinguish a quantity from the unit used to express it.
+
+**Solution**
+
+Metric units make conversions systematic: a prefix specifies a power of ten, rather than an unrelated conversion factor. For example,
+
+$$ 2.50\text{ km}\times\frac{1000\m}{1\text{ km}}=2500\m,\qquad
+25.0\text{ cm}\times\frac{1\m}{100\text{ cm}}=0.250\m. $$
+
+The unwanted unit cancels in each ratio. Prefixes let the same base unit describe very different scales, from micrometers to kilometers. Derived SI units also fit the base units coherently: $$1\N=1\kg\cdot\m/\s^2$$, so $$F=(2.0\kg)(3.0\mss)=6.0\N$$ requires no extra numerical conversion constant. Shared international units make measurements easier to communicate and compare.
+
+Metric units provide simple power-of-ten conversions, convenient prefixes over many scales, coherent derived units, and a common language for comparing measurements.
 
 :::
 
@@ -564,7 +583,7 @@ $$ 33 \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} \times \frac{3600 \s}{1 
 Alternatively, using the conversion factor from Problem 3: 1.0 m/s = 3.6 km/h:
 
 <div class="equation">
-$$ 33 \ms \times 3.6 = 119 \text{ km/h} \approx 120 \text{ km/h} $$
+$$ 33 \ms \times \frac{3.6 \text{ km/h}}{1 \ms} = 119 \text{ km/h} \approx 120 \text{ km/h} $$
 </div>
 
 **(b) Comparison with speed limit:**
@@ -596,12 +615,20 @@ steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 
 ::: solution
 
+**Strategy**
+
+Multiply by unit ratios equal to one so meters and seconds cancel in favor of kilometers and hours.
+
+**Solution**
+
   $$ \frac{1.0 \m }{\s}= \frac{1.0 \m }{\s}× \frac{3600 \s  }{1\text{hr}}× \frac{1 \text{km}}{1000 \m }  $$
  $$ =3.6 \text{km/h}  $$.
 
 **Discussion**
 
 This conversion factor is particularly useful because it relates the SI unit of speed (m/s) to the more common everyday unit of km/h. The factor of 3.6 arises from the combination of 3600 seconds per hour and 1000 meters per kilometer (3600/1000 = 3.6). Memorizing this simple relationship allows for quick mental conversions between these common speed units.
+
+A speed of $$1.0\ms$$ is equivalent to $$3.6\text{ km/h}$$.
 
 :::
 
@@ -630,16 +657,16 @@ $$ 100 \text{ yd} \times \frac{3 \text{ ft}}{1 \text{ yd}} = 300 \text{ ft} $$
 
 2. Convert feet to meters (1 m = 3.281 ft):
 <div class="equation">
-$$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.4 \m $$
+$$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.44 \m $$
 </div>
 
 **Discussion**
 
-The result shows that an American football field is slightly less than 100 meters long, which provides a useful reference point for estimating distances. The conversion required using two factors: first yards to feet (3 ft/yd), then feet to meters. The answer of 91.4 m is given to three significant figures because the 100-yd field length is a defined dimension, effectively exact; a measured “100 yd” written without a decimal point would be ambiguous, and $$ 1.00 \times 10^{2} $$ yd would state three significant figures explicitly.
+The field is slightly shorter than 100 meters. The length 100 yd is a defined distance, so it does not limit the significant figures. The given conversion has four significant figures, and $$ (300 \text{ ft})/(3.281 \text{ ft}/\m) = 91.44 \m $$.
 
 **Answer**
 
-The football field is **91.4 m** long.
+The football field is **91.44 m** long.
 
 :::
 
@@ -665,11 +692,11 @@ Convert from meters to feet using the conversion factor 1 m = 3.281 ft, then con
 **Length (115 m):**
 
 <div class="equation">
-$$ 115 \m \times \frac{3.281 \text{ ft}}{1 \m} = 377 \text{ ft} $$
+$$ 115 \m \times \frac{3.281 \text{ ft}}{1 \m} = 377.315 \text{ ft} \approx 377\text{ ft} $$
 </div>
 
 <div class="equation">
-$$ 377 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 4.53 \times 10^{3} \text{ in.} $$
+$$ 377.315 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 4.53 \times 10^{3} \text{ in.} $$
 </div>
 
 **Width (85 m):**
@@ -683,7 +710,6 @@ $$ 278.885 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 3346.62 \text
 </div>
 
 Keep the unrounded width (guard digits) in the intermediate step: multiplying the rounded 280 ft by 12 would give 3360 in., which rounds to $$ 3.4 \times 10^{3} $$ in. instead.
-</div>
 
 **Discussion**
 
@@ -691,9 +717,7 @@ The soccer field dimensions in feet (377 ft by 280 ft) show that it is larger th
 
 **Answer**
 
-Length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$
-
-Width: $$ 280 \text{ft} $$; $$ 3.3\times 10^{3}\text{in.} $$
+The field is approximately $$377\text{ ft}$$ long and $$280\text{ ft}$$ wide, or $$4.53\times10^3\text{ in.}$$ long and $$3.3\times10^3\text{ in.}$$ wide.
 
 :::
 
@@ -794,7 +818,7 @@ $$ 342 \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} \times \frac{3600 \s}{1
 Alternatively, using the conversion 1.0 m/s = 3.6 km/h:
 
 <div class="equation">
-$$ 342 \ms \times 3.6 = 1231 \text{ km/h} \approx 1.23 \times 10^{3} \text{ km/h} $$
+$$ 342 \ms \times \frac{3.6 \text{ km/h}}{1 \ms} = 1231 \text{ km/h} \approx 1.23 \times 10^{3} \text{ km/h} $$
 </div>
 
 **Discussion**

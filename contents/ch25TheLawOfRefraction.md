@@ -452,6 +452,26 @@ Diffusion by reflection from a rough surface is described in this chapter. Light
 
 :::
 
+::: solution
+
+**Strategy**
+
+Crushed ice consists of many small, clear pieces with surfaces at random angles. Apply Snell's law, $$ n_1\sin\theta_1 = n_2\sin\theta_2 $$, at surfaces of different orientation, with $$ n_{\text{ice}} = 1.309 $$, and follow a ray through several pieces.
+
+**Solution**
+
+Parallel rays from the Sun strike the surfaces of the ice at many different angles of incidence, because the surfaces face in all directions. Each ray is bent by a different amount. For example, rays meeting surfaces at $$ 20^\circ $$ and $$ 60^\circ $$ are refracted to
+
+<div class="equation">
+$$ \theta_2 = \sin^{-1}\frac{(1.000)\sin 20^\circ}{1.309} = 15.1^\circ, \qquad \theta_2 = \sin^{-1}\frac{(1.000)\sin 60^\circ}{1.309} = 41.4^\circ $$
+</div>
+
+deviating them by $$ 4.9^\circ $$ and $$ 18.6^\circ $$. After passing through and between many pieces, refracting at every surface (and partially reflecting too), the rays travel in all directions. An image cannot form, and the pile looks white and translucent even though each piece is as clear as an ice cube. Frosted glass, fog, and the white foam on a wave diffuse light in the same way.
+
+Light is diffused by refraction in crushed ice because each ray crosses many ice surfaces oriented at random, and at each one Snell's law bends it by an amount that depends on the local angle of incidence (for example, $$ 4.9^\circ $$ at $$ 20^\circ $$ incidence but $$ 18.6^\circ $$ at $$ 60^\circ $$), so rays that started out parallel leave in all directions and the clear ice looks white.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -459,6 +479,26 @@ Diffusion by reflection from a rough surface is described in this chapter. Light
 ::: problem
 
 Why is the index of refraction always greater than or equal to 1?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The index of refraction is defined as $$ n = c/v $$, the ratio of the speed of light in vacuum to its speed in the material.
+
+**Solution**
+
+Light travels fastest in a vacuum, at $$ c = 3.00 \times 10^{8} \ms $$; in any material, it interacts with the charges of the atoms and its speed is lower. For water, $$ v = 2.25 \times 10^{8} \ms $$, so
+
+<div class="equation">
+$$ n = \frac{c}{v} = \frac{3.00 \times 10^{8} \ms}{2.25 \times 10^{8} \ms} = 1.33 $$
+</div>
+
+Since $$ v \le c $$, the ratio is always at least 1, with $$ n = 1 $$ only in a vacuum (and very nearly 1 in air, $$ n = 1.000293 $$). An index less than 1 would mean that light travels faster in the material than in a vacuum, which does not happen for the speed at which light signals travel.
+
+The index of refraction is always greater than or equal to 1 because it is the ratio $$ n = c/v $$, and light travels fastest in a vacuum, so its speed $$ v $$ in any material is no greater than $$ c $$ (for example, $$ n = 1.33 $$ for water, where $$ v = 2.25 \times 10^{8} \ms $$).
 
 :::
 
@@ -472,6 +512,30 @@ Does the fact that the light flash from lightning reaches you before its sound p
 
 :::
 
+::: solution
+
+**Strategy**
+
+The flash reaches you after a time $$ d/c $$ and the thunder after $$ d/v_{\text{sound}} $$. Compare these times for a strike $$ 3.00 \text{ km} $$ away, using $$ v_{\text{sound}} = 343 \ms $$, and with the reaction time of a person using a stopwatch, about $$ 0.2 \s $$.
+
+**Solution**
+
+<div class="equation">
+$$ t_{\text{sound}} = \frac{3.00 \times 10^{3} \m}{343 \ms} = 8.75 \s, \qquad t_{\text{light}} = \frac{3.00 \times 10^{3} \m}{3.00 \times 10^{8} \ms} = 1.00 \times 10^{-5} \s $$
+</div>
+
+The observation that the flash arrives first proves only that light travels faster than sound. To estimate the speed of light, you would need to measure the light's travel time. If you knew the distance to the strike, for example by timing the thunder, $$ d = v_{\text{sound}}t $$, you could time the light from the moment the bolt formed. But the light's travel time, $$ 10 \ \mu\text{s} $$, is far shorter than your reaction time, so it appears to arrive instantly. The best this method can give is a lower limit:
+
+<div class="equation">
+$$ c > \frac{d}{t_{\text{reaction}}} = \frac{3.00 \times 10^{3} \m}{0.2 \s} = 1.5 \times 10^{4} \ms $$
+</div>
+
+That is, light travels at least $$ 15 \text{ km/s} $$, about 40 times faster than sound, which is true but far below the actual value.
+
+The flash arriving first proves only that light is faster than sound, not that its speed is extremely large; you could use it to estimate the speed of light by dividing the distance to the strike (found from the thunder's delay) by the light's travel time, but because that time ($$ 10 \ \mu\text{s} $$ for $$ 3 \text{ km} $$) is much shorter than human reaction time, the method gives only a lower limit (about $$ 1.5 \times 10^{4} \ms $$ in this example).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -479,6 +543,36 @@ Does the fact that the light flash from lightning reaches you before its sound p
 ::: problem
 
 Will light change direction toward or away from the perpendicular when it goes from air to water? Water to glass? Glass to air?
+
+:::
+
+::: solution
+
+**Strategy**
+
+From Snell's law, $$ n_1\sin\theta_1 = n_2\sin\theta_2 $$, light bends toward the perpendicular when it enters a medium of larger index ($$ \theta_2 < \theta_1 $$) and away from it when it enters a medium of smaller index. Use $$ n_{\text{air}} = 1.00 $$, $$ n_{\text{water}} = 1.333 $$, $$ n_{\text{glass}} = 1.52 $$, and follow a ray that starts at $$ 30.0^\circ $$ in air.
+
+**Solution**
+
+Air to water ($$ 1.00 \to 1.333 $$, index increases):
+
+<div class="equation">
+$$ \theta_{\text{w}} = \sin^{-1}\frac{(1.00)\sin 30.0^\circ}{1.333} = 22.0^\circ \quad \text{(toward the perpendicular)} $$
+</div>
+
+Water to glass ($$ 1.333 \to 1.52 $$, index increases):
+
+<div class="equation">
+$$ \theta_{\text{g}} = \sin^{-1}\frac{(1.333)\sin 22.0^\circ}{1.52} = 19.2^\circ \quad \text{(toward the perpendicular)} $$
+</div>
+
+Glass to air ($$ 1.52 \to 1.00 $$, index decreases):
+
+<div class="equation">
+$$ \theta_{\text{a}} = \sin^{-1}\frac{(1.52)\sin 19.2^\circ}{1.00} = 30.0^\circ \quad \text{(away from the perpendicular)} $$
+</div>
+
+Light changes direction toward the perpendicular going from air to water and from water to glass, since it enters a medium of higher index each time, and away from the perpendicular going from glass to air, where the index decreases (in this example, $$ 30.0^\circ \to 22.0^\circ \to 19.2^\circ \to 30.0^\circ $$).
 
 :::
 
@@ -492,6 +586,28 @@ Explain why an object in water always appears to be at a depth shallower than it
 
 :::
 
+::: solution
+
+**Strategy**
+
+Trace two rays from a point on the bottom up to the surface and into the air. They bend away from the perpendicular as they leave the water, so traced straight back, they appear to come from a point higher than the true one. For nearly vertical viewing, the apparent depth is $$ d_{\text{app}} = d\,(n_{\text{air}}/n_{\text{water}}) $$. Use a pond $$ 2.00 \m $$ deep.
+
+**Solution**
+
+![A stone on the bottom of a pond, 2.00 meters deep. Two rays from the stone bend away from the perpendicular as they leave the water and enter an observer's eye. Traced straight back, the rays appear to come from a point 1.50 meters below the surface, so the stone appears shallower than it is.](../resources/concept_25_03_q05.svg)
+
+For a ray leaving at a small angle $$ \theta_{\text{w}} $$ in the water and $$ \theta_{\text{a}} $$ in the air, a horizontal distance $$ x $$ along the surface gives $$ x = d\tan\theta_{\text{w}} = d_{\text{app}}\tan\theta_{\text{a}} $$. For small angles $$ \tan\theta \approx \sin\theta $$, and Snell's law gives
+
+<div class="equation">
+$$ d_{\text{app}} = d\frac{\sin\theta_{\text{w}}}{\sin\theta_{\text{a}}} = d\frac{n_{\text{air}}}{n_{\text{water}}} = (2.00 \m)\frac{1.00}{1.333} = 1.50 \m $$
+</div>
+
+Viewed at an angle, the bottom appears even shallower. Because the surface and the bottom's appearance distort depth, and because unfamiliar ponds are often murky (so that the bottom, submerged rocks, or logs cannot be seen at all), people misjudge how much water is below them. Diving headfirst into water that turns out to be only a meter or so deep, or onto a hidden rock, drives the head into the bottom and can break the neck or injure the spine. The safe rule is to enter unfamiliar water feet first.
+
+An object in water appears shallower because light from it bends away from the perpendicular as it leaves the water, so the eye traces the rays back to a point above the object (at about $$ d/1.333 $$, or $$ 1.50 \m $$ for a $$ 2.00\text{-m} $$ pond, when viewed from above); people are injured diving into unfamiliar water because they cannot judge its true depth, especially when it is murky and hides the bottom or submerged objects, and they strike the bottom headfirst.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -499,6 +615,28 @@ Explain why an object in water always appears to be at a depth shallower than it
 ::: problem
 
 Explain why a person’s legs appear very short when wading in a pool. Justify your explanation with a ray diagram showing the path of rays from the feet to the eye of an observer who is out of the water.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply the apparent-depth result of the previous question to every point of the legs below the water surface: each point appears raised toward the surface by the factor $$ n_{\text{air}}/n_{\text{water}} = 1/1.333 = 0.750 $$. Use a person standing in water $$ 1.00 \m $$ deep.
+
+**Solution**
+
+![A person standing in a pool, seen by an observer at the side of the pool. Rays from the feet bend away from the perpendicular as they leave the water, so the observer traces them back to an image of the feet higher than the real feet. The legs below the surface appear shortened to about three quarters of their real length.](../resources/concept_25_03_q06.svg)
+
+Rays from the feet, $$ 1.00 \m $$ below the surface, bend away from the perpendicular as they leave the water, and the observer traces them back to an image at a depth of about
+
+<div class="equation">
+$$ d_{\text{app}} = d\frac{n_{\text{air}}}{n_{\text{water}}} = (1.00 \m)\frac{1.00}{1.333} = 0.750 \m $$
+</div>
+
+or less when viewed at an angle. Every point of the legs is raised in proportion to its depth (a knee $$ 0.40 \m $$ down appears $$ 0.30 \m $$ down), so the submerged part of each leg looks only three-quarters as long, or shorter, while the part above water looks normal. The legs therefore appear stubby compared with the rest of the body.
+
+A person's legs appear short in a pool because light from each submerged point refracts away from the perpendicular as it leaves the water, so the observer sees each point at only about 0.75 of its true depth (the feet $$ 1.00 \m $$ down appear to be $$ 0.750 \m $$ down), making the submerged part of the legs look about three-quarters of its real length or less.
 
 :::
 
@@ -515,6 +653,20 @@ Why is the front surface of a thermometer curved as shown?
 
 :::
 
+::: solution
+
+**Strategy**
+
+The front of the thermometer is a curved glass surface over a very thin column of liquid. A curved, convex refracting surface acts like a converging (magnifying) lens. Compare the apparent width of the column with and without the curved surface.
+
+**Solution**
+
+The liquid column in a clinical thermometer may be only about $$ 0.2 \text{ mm} $$ wide, too thin to read easily. The curved front surface of the glass refracts light from the column like a cylindrical magnifying glass. Rays from the column bend toward the perpendicular of the curved surface as they leave it, so they appear to come from a larger, virtual image of the column. With a magnification of about $$ 3 $$, the column appears $$ (3)(0.2 \text{ mm}) = 0.6 \text{ mm} $$ wide. The magnification is only along the width, because the surface is curved in only one direction; the length of the column, and thus the scale reading, is unchanged. The flat back of the thermometer (often with a white or reflective strip) makes the column stand out against a bright background.
+
+The front surface of the thermometer is curved so that it acts as a cylindrical magnifying lens, refracting light from the very thin liquid column so that it appears several times wider (for example, $$ 0.6 \text{ mm} $$ instead of $$ 0.2 \text{ mm} $$) and is easier to read.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -522,6 +674,26 @@ Why is the front surface of a thermometer curved as shown?
 ::: problem
 
 Suppose light were incident from air onto a material that had a negative index of refraction, say –1.3; where does the refracted light ray go?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply Snell's law, $$ n_1\sin\theta_1 = n_2\sin\theta_2 $$, with $$ n_2 = -1.3 $$. A negative angle means that the refracted ray lies on the same side of the perpendicular as the incident ray, instead of continuing across to the opposite side. Use an angle of incidence of $$ 40.0^\circ $$ from air.
+
+**Solution**
+
+![A ray in air strikes a surface at 40 degrees to the perpendicular. In an ordinary material of index 1.3, it refracts to 29.6 degrees on the opposite side of the perpendicular and continues forward. In a material of index negative 1.3, it refracts to 29.6 degrees on the same side of the perpendicular as the incident ray, bending back toward the side it came from.](../resources/concept_25_03_q08.svg)
+
+<div class="equation">
+$$ \sin\theta_2 = \frac{n_1\sin\theta_1}{n_2} = \frac{(1.00)\sin 40.0^\circ}{-1.3} = -0.494 \quad \Rightarrow \quad \theta_2 = -29.6^\circ $$
+</div>
+
+An ordinary material with $$ n = +1.3 $$ would refract the ray to $$ 29.6^\circ $$ on the far side of the perpendicular. With $$ n = -1.3 $$, the ray is bent by the same angle but reflected about the perpendicular: it continues into the material, but on the **same side** of the perpendicular as the incident ray. Such negative-index "metamaterials" have been made for microwaves, and a flat slab of one can focus light, acting as a lens.
+
+The refracted light goes into the material at $$ 29.6^\circ $$ from the perpendicular (for $$ 40.0^\circ $$ incidence), the same angle as for an index of $$ +1.3 $$, but on the same side of the perpendicular as the incident ray rather than on the opposite side, so the ray is bent back toward the side it came from.
 
 :::
 
@@ -908,7 +1080,7 @@ $$\Delta t = t_{\text{atm}} - t_{\text{vac}} = (2.0006 - 2.000) \times 10^{-4} \
 
 This corresponds to an apparent additional distance:
 <div class="equation">
-$$\Delta d = c \cdot \Delta t = (3.00 \times 10^{8})(6 \times 10^{-8}) = 18 \text{ m}$$
+$$\Delta d = c \cdot \Delta t = (3.00 \times 10^{8} \text{ m/s})(6 \times 10^{-8} \text{ s}) = 18 \text{ m}$$
 </div>
 
 Percent correction:
@@ -982,6 +1154,48 @@ The ray is displaced horizontally by about 3.73 mm as it passes through the 1 cm
 
 :::
 
+::: solution
+
+**Strategy**
+
+The boundaries between the media are parallel, so their perpendiculars are parallel. The ray leaves the first boundary at $$ \theta_2 $$ and, because the perpendiculars are parallel, it meets the second boundary at the same angle $$ \theta_2 $$ (alternate interior angles). Apply Snell's law at each boundary.
+
+**Solution**
+
+At the first boundary:
+
+<div class="equation">
+$$ n_1\sin\theta_1 = n_2\sin\theta_2 $$
+</div>
+
+At the second boundary, with angle of incidence $$ \theta_2 $$:
+
+<div class="equation">
+$$ n_2\sin\theta_2 = n_3\sin\theta_3 $$
+</div>
+
+Combining the two equations eliminates medium 2:
+
+<div class="equation">
+$$ n_1\sin\theta_1 = n_3\sin\theta_3 $$
+</div>
+
+which is exactly Snell's law for light going directly from medium 1 into medium 3. For example, with $$ n_1 = 1.00 $$, $$ \theta_1 = 45.0^\circ $$, $$ n_2 = 1.50 $$, and $$ n_3 = 1.333 $$:
+
+<div class="equation">
+$$ \theta_2 = \sin^{-1}\frac{(1.00)\sin 45.0^\circ}{1.50} = 28.1^\circ, \qquad \theta_3 = \sin^{-1}\frac{(1.50)\sin 28.1^\circ}{1.333} = 32.0^\circ $$
+</div>
+
+and going directly, $$ \theta_3 = \sin^{-1}[(1.00)\sin 45.0^\circ/1.333] = 32.0^\circ $$, the same.
+
+**Discussion**
+
+The intermediate layer shifts the ray sideways by $$ \Delta x $$ but does not change its final direction. This holds for any number of parallel layers, as long as none of them causes total internal reflection, which would stop the ray from reaching medium 3. It is why a flat window does not change the direction of light passing through it.
+
+Since $$ n_1\sin\theta_1 = n_2\sin\theta_2 = n_3\sin\theta_3 $$, the final angle $$ \theta_3 $$ satisfies $$ n_1\sin\theta_1 = n_3\sin\theta_3 $$, the same as if the second medium were not present.
+
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -1025,6 +1239,48 @@ of refraction for different models of the atmosphere, such as various layers of
 varying density. Your instructor may wish to guide you on the level of
 complexity to consider and on how the index of refraction varies with air
 density.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Treat the top of the atmosphere as a flat, sudden boundary between vacuum ($$ n = 1.000000 $$) and air ($$ n = 1.000293 $$ at the surface). For a layered model, the previous problem shows that with parallel flat layers, $$ n\sin\theta $$ is the same in every layer, so the final angle depends only on the index of the bottom layer. Convert the angular shift of the Sun into time, using the Sun's apparent motion of $$ 360^\circ $$ in $$ 24 \text{ h} $$, or $$ 0.250^\circ $$ per minute.
+
+**Sample Problem Construction**
+
+(a) Sunlight arrives at the top of the atmosphere at $$ 90.0^\circ $$ to the vertical. Taking the atmosphere to be a single uniform layer with $$ n = 1.000293 $$, find the angle of refraction and the deviation of the light. (b) Now model the atmosphere as three flat layers with $$ n = 1.000100 $$, $$ 1.000200 $$, and $$ 1.000293 $$ from top to bottom. Find the angle in each layer. (c) By about how many minutes does the bending lengthen the day, counting both sunrise and sunset?
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ \sin\theta = \frac{(1.000000)\sin 90.0^\circ}{1.000293} = 0.999707 \quad \Rightarrow \quad \theta = 88.61^\circ $$
+</div>
+
+The light is bent $$ 90.00^\circ - 88.61^\circ = 1.39^\circ $$ toward the vertical, so the Sun appears $$ 1.39^\circ $$ higher than it is.
+
+**(b)** In each layer, $$ n\sin\theta = (1.000000)\sin 90.0^\circ = 1 $$:
+
+<div class="equation">
+$$ \theta_1 = \sin^{-1}\frac{1}{1.000100} = 89.19^\circ, \qquad \theta_2 = \sin^{-1}\frac{1}{1.000200} = 88.85^\circ, \qquad \theta_3 = \sin^{-1}\frac{1}{1.000293} = 88.61^\circ $$
+</div>
+
+The final angle is the same as in (a): for flat layers, only the index at the bottom matters.
+
+**(c)** The Sun is visible while it is still $$ 1.39^\circ $$ below the horizon, which takes
+
+<div class="equation">
+$$ t = \frac{1.39^\circ}{0.250^\circ/\text{min}} = 5.6 \text{ min} $$
+</div>
+
+at each end of the day (near the equator, where the Sun rises vertically), so the day is lengthened by about $$ 11 \text{ min} $$.
+
+**Discussion**
+
+The flat-layer model overestimates the effect, because Earth and its atmosphere are curved: sunlight grazing the horizon meets the atmosphere at less than $$ 90^\circ $$. The observed bending at the horizon is about $$ 0.57^\circ $$, which lengthens each sunrise and sunset by about $$ 2.3 \text{ min} $$ at the equator, and more at high latitudes, where the Sun rises at a shallow angle. A more realistic problem would use spherical shells of air whose index decreases with height.
 
 :::
 

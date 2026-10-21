@@ -186,6 +186,28 @@ How can the motion of a charged particle be used to distinguish between a magnet
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the electric force $$ \vb{F} = q\vb{E} $$, which acts on a charge whether or not it moves and points along the field, with the magnetic force $$ F = qvB\sin\theta $$, which acts only on a moving charge and is perpendicular to its velocity. Use a proton ($$ q = 1.60 \times 10^{-19} \text{ C} $$, $$ m = 1.67 \times 10^{-27} \kg $$).
+
+**Solution**
+
+**Test 1: release the charge at rest.** In an electric field of $$ 1.00 \times 10^{3} \text{ N/C} $$, the proton accelerates along the field at
+
+<div class="equation">
+$$ a = \frac{qE}{m} = \frac{(1.60 \times 10^{-19} \text{ C})(1.00 \times 10^{3} \text{ N/C})}{1.67 \times 10^{-27} \kg} = 9.58 \times 10^{10} \mss $$
+</div>
+
+In a magnetic field, $$ v = 0 $$ gives $$ F = 0 $$, and the proton stays at rest.
+
+**Test 2: send the charge through the region.** In a uniform magnetic field perpendicular to $$ \vb{v} $$, the force is always perpendicular to the velocity. It does no work, so the speed stays constant while the particle moves in a circle of radius $$ r = mv/(qB) $$; for $$ v = 1.00 \times 10^{5} \ms $$ and $$ B = 0.100 \text{ T} $$, $$ r = (1.67 \times 10^{-27} \kg)(1.00 \times 10^{5} \ms)/[(1.60 \times 10^{-19} \text{ C})(0.100 \text{ T})] = 1.04 \times 10^{-2} \m $$. Sending it along the field direction gives no force at all. In a uniform electric field, the particle instead follows a parabola, like a projectile, and its speed changes.
+
+A charged particle can distinguish the fields because an electric field exerts a force on the particle even when it is at rest and changes its speed along the field direction, whereas a magnetic field exerts no force on a stationary charge, exerts a force perpendicular to the velocity of a moving charge, and changes only its direction (bending it into a circle at constant speed).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -196,6 +218,24 @@ High-velocity charged particles can damage biological cells and are a component 
 
 :::
 
+::: solution
+
+**Strategy**
+
+A charged particle moving perpendicular to a magnetic field follows a circle of radius $$ r = mv/(qB) $$. If the region of strong field around you is thicker than this radius, particles entering it are turned back or around before they reach you. Use a proton with $$ v = 1.0 \times 10^{7} \ms $$ and a field $$ B = 2.0 \text{ T} $$.
+
+**Solution**
+
+<div class="equation">
+$$ r = \frac{mv}{qB} = \frac{(1.67 \times 10^{-27} \kg)(1.0 \times 10^{7} \ms)}{(1.60 \times 10^{-19} \text{ C})(2.0 \text{ T})} = 5.2 \times 10^{-2} \m $$
+</div>
+
+A shell of field about $$ 10 \text{ cm} $$ thick, directed parallel to the surface you want to protect (for example, by surrounding a spacecraft cabin with a large current loop or solenoid-like coils), would bend such protons around and away. Particles moving parallel to the field are not deflected, so the field must be arranged to be perpendicular to the incoming directions; Earth's magnetic field protects the equatorial regions in just this way. A magnetic field cannot stop neutral radiation such as neutrons, gamma rays, and X-rays.
+
+You could shield yourself by surrounding yourself with a strong magnetic field perpendicular to the direction of the incoming particles, so that the magnetic force bends the charged particles into curved paths with radii (about $$ 5 \text{ cm} $$ for $$ 10^{7}\text{-m/s} $$ protons in a $$ 2.0\text{-T} $$ field) smaller than the thickness of the field region, turning them away before they reach you; this works only for charged particles, not for neutral radiation.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -203,6 +243,28 @@ High-velocity charged particles can damage biological cells and are a component 
 ::: problem
 
 If a cosmic ray proton approaches the Earth from outer space along a line toward the center of the Earth that lies in the plane of the equator, in what direction will it be deflected by the Earth’s magnetic field? What about an electron? A neutron?
+
+:::
+
+::: solution
+
+**Strategy**
+
+At the equator, Earth's field is horizontal and points north (from the geographic south toward the geographic north). Use RHR-1, $$ \vb{F} = q\vb{v} \times \vb{B} $$, with the velocity pointing straight down toward Earth's center. Take $$ B = 3.0 \times 10^{-5} \text{ T} $$ and a proton speed of $$ 1.0 \times 10^{7} \ms $$.
+
+**Solution**
+
+![A cross section of Earth with its magnetic field lines running from south to north, horizontal at the equator. A proton heading straight down toward the equator is deflected toward the east; an electron is deflected toward the west; a neutron passes straight through.](../resources/concept_22_05_q03.svg)
+
+Use axes with $$ +x $$ east, $$ +y $$ north, and $$ +z $$ up. Then $$ \vb{v} $$ is along $$ -z $$ and $$ \vb{B} $$ is along $$ +y $$. For the proton, point the fingers of the right hand north (along $$ \vb{B} $$) with the thumb pointing down (along $$ \vb{v} $$); the palm faces east. Equivalently, $$ (-\hat{z}) \times \hat{y} = +\hat{x} $$, east. The magnitude is
+
+<div class="equation">
+$$ F = qvB = (1.60 \times 10^{-19} \text{ C})(1.0 \times 10^{7} \ms)(3.0 \times 10^{-5} \text{ T}) = 4.8 \times 10^{-17} \N $$
+</div>
+
+The electron has the opposite sign of charge, so the force on it points **west**. The neutron has no charge, so $$ F = 0 $$ and it is **not deflected**.
+
+The proton is deflected toward the east, the electron toward the west, and the neutron is not deflected, because the magnetic force $$ q\vb{v} \times \vb{B} $$ on a downward-moving charge in Earth's northward field at the equator points east for a positive charge, west for a negative charge, and is zero for a neutral particle.
 
 :::
 
@@ -219,6 +281,22 @@ What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 
 :::
 
+::: solution
+
+**Strategy**
+
+The field is into the page and every particle starts moving up the page. For a positive charge, RHR-1 gives $$ \vb{F} = q\vb{v} \times \vb{B} $$ directed to the **left**: with the thumb up the page and the fingers into the page, the palm faces left. Find the direction in which each path bends; the force points toward the center of its curvature.
+
+**Solution**
+
+- **Particle a** bends toward the left, so the force on it is to the left, the direction for a positive charge: **a is positive**.
+- **Particle b** travels in a straight line, so the force on it is zero. Since $$ \vb{v} \perp \vb{B} $$, $$ F = qvB $$ can be zero only if $$ q = 0 $$: **b is neutral**.
+- **Particle c** bends toward the right, opposite to the force on a positive charge: **c is negative**.
+
+Particle a is positive, particle b is uncharged (neutral), and particle c is negative.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -232,6 +310,24 @@ Which of the particles in [[Figure 10]](#Figure10) has the greatest velocity, as
 
 :::
 
+::: solution
+
+**Strategy**
+
+The magnetic force supplies the centripetal force, $$ qvB = mv^2/r $$, so $$ v = qBr/m $$. With identical $$ q $$, $$ m $$, and $$ B $$, the speed is proportional to the radius of the path.
+
+**Solution**
+
+Particle a follows an arc of much larger radius than particle b. If, for example, $$ r_{a} = 3r_{b} $$, then
+
+<div class="equation">
+$$ \frac{v_{a}}{v_{b}} = \frac{qBr_{a}/m}{qBr_{b}/m} = \frac{r_{a}}{r_{b}} = 3 $$
+</div>
+
+Particle a has the greatest velocity, because for identical charges and masses in the same field the speed is proportional to the radius of curvature, $$ v = qBr/m $$, and particle a moves on the larger circle.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -242,6 +338,20 @@ Which of the particles in [[Figure 9]](#Figure9) has the greatest mass, assuming
 
 :::
 
+::: solution
+
+**Strategy**
+
+From $$ r = mv/(qB) $$, with identical $$ q $$, $$ v $$, and $$ B $$, the mass is proportional to the radius of the path: $$ m = qBr/v $$.
+
+**Solution**
+
+Particle b moves in a straight line, which is a path of infinite radius. If it really had the same charge as the others, its mass would have to be infinite, so in practice its straight path shows that it is uncharged (see the earlier question about this figure). Particles a and c follow arcs of about the same radius, so they have about the same mass; if c's path were, say, 10% more sharply curved, its mass would be 10% smaller than a's.
+
+Taken literally, particle b has the greatest mass, since its straight path has the largest (infinite) radius and $$ m = qBr/v $$; physically, though, this means b is uncharged, and particles a and c, whose paths have about the same radius, have about the same mass.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -249,6 +359,38 @@ Which of the particles in [[Figure 9]](#Figure9) has the greatest mass, assuming
 ::: problem
 
 While operating, a high-precision TV monitor is placed on its side during maintenance. The image on the monitor changes color and blurs slightly. Discuss the possible relation of these effects to the Earth’s magnetic field.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A color picture tube forms its image with electron beams that are steered to strike tiny red, green, and blue phosphor dots. Earth's field also exerts a force $$ qvB $$ on the electrons, and the monitor is adjusted to compensate for that force in its usual orientation. Estimate the deflection from Earth's field. Take electrons accelerated through $$ 25.0 \text{ kV} $$, $$ B = 5.0 \times 10^{-5} \text{ T} $$, and a tube length of $$ L = 0.30 \m $$.
+
+**Solution**
+
+The electron speed is
+
+<div class="equation">
+$$ v = \sqrt{\frac{2qV}{m}} = \sqrt{\frac{2(1.60 \times 10^{-19} \text{ C})(2.50 \times 10^{4} \text{ V})}{9.11 \times 10^{-31} \kg}} = 9.37 \times 10^{7} \ms $$
+</div>
+
+(ignoring relativity), and the radius of curvature in Earth's field is
+
+<div class="equation">
+$$ r = \frac{mv}{qB} = \frac{(9.11 \times 10^{-31} \kg)(9.37 \times 10^{7} \ms)}{(1.60 \times 10^{-19} \text{ C})(5.0 \times 10^{-5} \text{ T})} = 10.7 \m $$
+</div>
+
+Over the length of the tube, the beam is displaced sideways by about
+
+<div class="equation">
+$$ y \approx \frac{L^2}{2r} = \frac{(0.30 \m)^2}{2(10.7 \m)} = 4.2 \times 10^{-3} \m = 4.2 \text{ mm} $$
+</div>
+
+Phosphor dots are only about $$ 0.25 \text{ mm} $$ apart. Turning the monitor on its side changes the angle between the beam and Earth's field, so this millimeter-scale deflection changes and is no longer compensated. The beams then land partly on the wrong phosphor dots, changing the colors, and the three beams no longer converge at the same point, blurring the image. Earth's field can also slightly magnetize the steel shadow mask in its new orientation, adding to the effect.
+
+The color change and blur occur because Earth's magnetic field deflects the electron beams in the monitor by a few millimeters (about $$ 4 \text{ mm} $$ in this estimate), and when the monitor is turned on its side, the deflection changes, so the beams strike the wrong phosphor dots and no longer converge.
 
 :::
 
@@ -480,7 +622,7 @@ What radius circular path does an electron travel if it moves at the same speed 
 
 In the stated nonrelativistic model, $$r=mv/(|q|B)$$. The electron and proton have the same speed, field, and charge magnitude, so
 
-$$r_e=\frac{m_e}{m_p}r_p=\frac{9.11\times10^{-31}}{1.67\times10^{-27}}(0.800)=4.36\times10^{-4}\ \text{m}=0.436\ \text{mm}.$$
+$$r_e=\frac{m_e}{m_p}r_p=\frac{9.11\times10^{-31}\ \text{kg}}{1.67\times10^{-27}\ \text{kg}}(0.800\ \text{m})=4.36\times10^{-4}\ \text{m}=0.436\ \text{mm}.$$
 
 This ratio avoids rounding the field from Exercise 2. The electron's path radius is about 1833 times smaller using these rounded masses.
 
@@ -636,7 +778,7 @@ If $$\frac{1}{2}m_p v_p^2 = \frac{1}{2}m_e v_e^2$$, then $$v_p = v_e\sqrt{m_e/m_
 
 $$r_p = \frac{m_p v_p}{qB} = \frac{m_p v_e \sqrt{m_e/m_p}}{qB} = r_e \times \frac{m_p}{m_e}\sqrt{\frac{m_e}{m_p}} = r_e\sqrt{\frac{m_p}{m_e}}$$
 
-$$r_p = 4.27 \text{ m} \times \sqrt{1836} = 4.27 \times 42.8 = 183 \text{ m}$$
+$$r_p = 4.27 \text{ m} \times \sqrt{1836} = 4.27 \text{ m} \times 42.8 = 183 \text{ m}$$
 
 **(d) Proton radius at same momentum:**
 
@@ -685,7 +827,7 @@ In a mass spectrometer, ions with the same charge and velocity but different mas
 
 *Known quantities:*
 - Mass of O-16: $$m_{16} = 2.66 \times 10^{-26} \text{ kg}$$
-- Mass ratio: $$m_{18}/m_{16} = 18/16$$, so $$m_{18} = 2.66 \times 10^{-26} \times (18/16) = 2.99 \times 10^{-26} \text{ kg}$$
+- Mass ratio: $$m_{18}/m_{16} = 18/16$$, so $$m_{18} = 2.66 \times 10^{-26} \text{ kg} \times (18/16) = 2.99 \times 10^{-26} \text{ kg}$$
 - Speed: $$v = 5.00 \times 10^{6} \text{ m/s}$$
 - Magnetic field: $$B = 1.20 \text{ T}$$
 - Charge: $$q = e = 1.60 \times 10^{-19} \text{ C}$$ (singly charged)
@@ -696,11 +838,11 @@ $$r_{16} = \frac{m_{16}v}{qB} = \frac{(2.66 \times 10^{-26} \text{ kg})(5.00 \ti
 
 $$r_{16} = \frac{1.33 \times 10^{-19} \text{ kg·m/s}}{1.92 \times 10^{-19} \text{ C·T}} = 0.693 \text{ m}$$
 
-$$r_{18} = r_{16} \times \frac{m_{18}}{m_{16}} = 0.693 \times \frac{18}{16} = 0.780 \text{ m}$$
+$$r_{18} = r_{16} \times \frac{m_{18}}{m_{16}} = 0.693 \text{ m} \times \frac{18}{16} = 0.780 \text{ m}$$
 
 *Separation after semicircle:*
 
-$$\text{Separation} = 2(r_{18} - r_{16}) = 2(0.780 - 0.693) = 2(0.0866) = 0.173 \text{ m}$$
+$$\text{Separation} = 2(r_{18} - r_{16}) = 2(0.780 \text{ m} - 0.693 \text{ m}) = 2(0.0866 \text{ m}) = 0.173 \text{ m}$$
 
 **Discussion**
 
@@ -750,7 +892,7 @@ $$r_{238} = \frac{1.185 \times 10^{-19} \text{ kg·m/s}}{1.20 \times 10^{-19} \t
 
 *Separation after semicircle:*
 
-$$\text{Separation} = 2(r_{238} - r_{235}) = 2(0.988 - 0.975) = 2(0.0125) = 0.025 \text{ m} = 2.5 \text{ cm}$$
+$$\text{Separation} = 2(r_{238} - r_{235}) = 2(0.988 \text{ m} - 0.975 \text{ m}) = 2(0.0125 \text{ m}) = 0.025 \text{ m} = 2.5 \text{ cm}$$
 
 **(b) Practical considerations:**
 

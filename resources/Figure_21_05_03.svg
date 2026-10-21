@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="440" viewBox="0 0 820 440" role="img" aria-labelledby="title desc">
+<title id="title">Two ways of measuring resistance with standard meters</title>
+<desc id="desc">(a) A source of emf with internal resistance r drives current I through an ammeter A and a resistance R; R = V/I is calculated assuming the terminal voltage V is constant. (b) The same circuit with a voltmeter V connected across the source, so the terminal voltage is measured rather than assumed.</desc>
+<rect width="820" height="440" fill="#ffffff"/>
+<polyline points="60,60 340,60 340,300 60,300 60,60" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="176" y1="60" x2="224" y2="60" stroke="#ffffff" stroke-width="7"/>
+<line x1="160" y1="60" x2="176" y2="60" stroke="#222222" stroke-width="2"/>
+<line x1="224" y1="60" x2="240" y2="60" stroke="#222222" stroke-width="2"/>
+<circle cx="200" cy="60" r="24" fill="#c9cfe6" stroke="#222222" stroke-width="2"/>
+<text x="200" y="66.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<line x1="340" y1="147" x2="340" y2="203" stroke="#ffffff" stroke-width="7"/>
+<line x1="340" y1="130" x2="340" y2="147" stroke="#222222" stroke-width="2"/>
+<line x1="340" y1="203" x2="340" y2="220" stroke="#222222" stroke-width="2"/>
+<polyline points="340,147 329,151.67 351,161 329,170.33 351,179.67 329,189 351,198.33 340,203" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="358" y="182.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="380" y="87.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="398" y="72.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="386" y1="82" x2="410" y2="82" stroke="#222222" stroke-width="1.4"/>
+<text x="398" y="104.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<line x1="135" y1="300" x2="115" y2="300" stroke="#ffffff" stroke-width="7"/>
+<line x1="145" y1="300" x2="131.5" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="118.5" y1="300" x2="105" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="131.5" y1="316" x2="131.5" y2="284" stroke="#c62828" stroke-width="5"/>
+<line x1="118.5" y1="332" x2="118.5" y2="268" stroke="#c62828" stroke-width="3"/>
+<text x="125" y="347.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan></text>
+<line x1="202" y1="300" x2="258" y2="300" stroke="#ffffff" stroke-width="7"/>
+<line x1="190" y1="300" x2="202" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="258" y1="300" x2="270" y2="300" stroke="#222222" stroke-width="2"/>
+<polyline points="202,300 206.67,311 216,289 225.33,311 234.67,289 244,311 253.33,289 258,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="230" y="277.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<path d="M 90 354 Q 90 364 100 364 L 180 364 Q 190 364 190 374 Q 190 364 200 364 L 280 364 Q 290 364 290 354" fill="none" stroke="#333333" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="190" y="405.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">V</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">assumed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">constant</tspan></text>
+<polyline points="110.72,230 108.51,225.9 106.54,221.69 104.82,217.36 103.36,212.94 102.16,208.45 101.22,203.89 100.54,199.29 100.14,194.65 100,190 100.14,185.35 100.54,180.71 101.22,176.11 102.16,171.55 103.36,167.06 104.82,162.64 106.54,158.31 108.51,154.1 110.72,150 113.16,146.04 115.83,142.23 118.72,138.58 121.81,135.1 125.1,131.81 128.58,128.72 132.23,125.83 136.04,123.16 140,120.72 144.1,118.51" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="140" y1="120.72" x2="145.96" y2="117.94" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="152.64,114.82 146.47,121.39 143.64,115.33" fill="#1f77c8"/>
+<text x="126" y="203.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<text x="200" y="437.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<polyline points="470,60 750,60 750,300 470,300 470,60" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="586" y1="60" x2="634" y2="60" stroke="#ffffff" stroke-width="7"/>
+<line x1="570" y1="60" x2="586" y2="60" stroke="#222222" stroke-width="2"/>
+<line x1="634" y1="60" x2="650" y2="60" stroke="#222222" stroke-width="2"/>
+<circle cx="610" cy="60" r="24" fill="#c9cfe6" stroke="#222222" stroke-width="2"/>
+<text x="610" y="66.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<line x1="750" y1="147" x2="750" y2="203" stroke="#ffffff" stroke-width="7"/>
+<line x1="750" y1="130" x2="750" y2="147" stroke="#222222" stroke-width="2"/>
+<line x1="750" y1="203" x2="750" y2="220" stroke="#222222" stroke-width="2"/>
+<polyline points="750,147 739,151.67 761,161 739,170.33 761,179.67 739,189 761,198.33 750,203" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="768" y="182.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="790" y="87.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="808" y="72.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="796" y1="82" x2="820" y2="82" stroke="#222222" stroke-width="1.4"/>
+<text x="808" y="104.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<line x1="545" y1="300" x2="525" y2="300" stroke="#ffffff" stroke-width="7"/>
+<line x1="555" y1="300" x2="541.5" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="528.5" y1="300" x2="515" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="541.5" y1="316" x2="541.5" y2="284" stroke="#c62828" stroke-width="5"/>
+<line x1="528.5" y1="332" x2="528.5" y2="268" stroke="#c62828" stroke-width="3"/>
+<text x="535" y="347.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan></text>
+<line x1="612" y1="300" x2="668" y2="300" stroke="#ffffff" stroke-width="7"/>
+<line x1="600" y1="300" x2="612" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="668" y1="300" x2="680" y2="300" stroke="#222222" stroke-width="2"/>
+<polyline points="612,300 616.67,311 626,289 635.33,311 644.67,289 654,311 663.33,289 668,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="640" y="277.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<polyline points="470,300 470,380 710,380 710,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="710" cy="300" r="4.5" fill="#7b1145"/>
+<line x1="568" y1="380" x2="612" y2="380" stroke="#ffffff" stroke-width="7"/>
+<line x1="550" y1="380" x2="568" y2="380" stroke="#222222" stroke-width="2"/>
+<line x1="612" y1="380" x2="630" y2="380" stroke="#222222" stroke-width="2"/>
+<circle cx="590" cy="380" r="22" fill="#d4e8c2" stroke="#222222" stroke-width="2"/>
+<text x="590" y="386.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
+<text x="590" y="419.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">V</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">measured</tspan></text>
+<text x="610" y="437.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

@@ -277,6 +277,26 @@ Make a drawing and use RHR-2 to find the direction of the magnetic field of a cu
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use RHR-2 on the loop of [[Figure 1]](../contents/ch22TorqueOnACurrentLoop#Figure1): curl the fingers of the right hand in the direction of the current around the loop, and the thumb points along the field through the loop, which emerges from the loop's north face. Then compare the torque from the forces on the vertical sides (RHR-1) with the rotation expected from magnetic poles.
+
+**Solution**
+
+![Top view of the motor loop between the N pole on the left and the S pole on the right, with the field pointing right. The loop's current comes up out of the page at its left edge and goes down into the page at its right edge. By the right-hand rule its own field points up the page, so its north face is the back face. The force on the left edge points up the page and the force on the right edge points down the page, turning the loop clockwise until its north face points at the S pole.](../resources/concept_22_09_q01.svg)
+
+Take $$ +x $$ to the right (along the external $$ \vb{B} $$, from N to S), $$ +y $$ into the page of [[Figure 1]](../contents/ch22TorqueOnACurrentLoop#Figure1), and $$ +z $$ up. The current runs up the left side, across the top, and down the right side, which is clockwise as seen by the viewer. RHR-2 then gives the loop's own field pointing away from the viewer, along $$ +y $$: the loop acts like a flat magnet whose **north face is the back face** and whose south face is the front face.
+
+RHR-1 on the vertical sides: on the left side, $$ \vb{l} $$ is along $$ +z $$, and $$ \vb{F} = IlB(\hat{z} \times \hat{x}) = IlB\,\hat{y} $$, into the page; on the right side the current is reversed and the force is out of the page. Seen from above, the left side is pushed back and the right side forward, a **clockwise** rotation. With $$ I = 2.00 \text{ A} $$, $$ l = 0.150 \m $$, $$ w = 0.100 \m $$, and $$ B = 0.500 \text{ T} $$, the torque at this instant is $$ \tau = IAB\sin 90^\circ = (2.00 \text{ A})(0.0150 \ \text{m}^2)(0.500 \text{ T}) = 0.0150 \N \cdot \m $$.
+
+Pole picture: the loop's north face (at the back) is attracted toward the magnet's S pole on the right and repelled by the N pole on the left, while its south face (at the front) is attracted toward the N pole. Both effects rotate the back face toward the right, again clockwise as seen from above. The rotation continues until the loop's north face points at the S pole, that is, until the loop's field lines up with the external field, which is where the torque from the forces becomes zero.
+
+By RHR-2 the loop's field points away from the viewer, so the loop is a magnet with its north face at the back, and the RHR-1 forces on its sides turn it clockwise (seen from above) so that this north face swings toward the S pole and its south face toward the N pole; this is exactly the rotation produced by unlike poles attracting and like poles repelling.
+
+:::
+
 </div>
 
 ::: glossary

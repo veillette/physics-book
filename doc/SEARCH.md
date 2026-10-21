@@ -20,7 +20,7 @@ The search feature provides a fast, offline-capable full-text search across all 
 
 ### 1. Build Script (`scripts/build-index.js`)
 
-Generates the search index from HTML files after Eleventy builds the site.
+Eleventy automatically generates the search index from built HTML on every build and development rebuild. The command below can also regenerate it manually.
 
 **Usage:**
 
@@ -82,6 +82,7 @@ The search index is cached using a "Cache First" strategy to ensure offline avai
 **Cached Files:**
 
 - `search_index.json` - The search index
+- `assets/js/minisearch.js` - Self-hosted MiniSearch library
 - `assets/js/search.js` - Search engine
 - `assets/js/search-ui.js` - Search UI
 
@@ -94,23 +95,11 @@ The search index is cached using a "Cache First" strategy to ensure offline avai
 
 ## Build Process
 
-To integrate search into your build pipeline:
-
-1. **Build the Eleventy site:**
-
-   ```bash
-   npm run build
-   ```
-
-2. **Generate the search index:**
-
-   ```bash
-   npm run generate:search-index
-   ```
-
-3. **Deploy the `_site` directory** with the generated `search_index.json`
-
-The GitHub Pages deploy workflow (`.github/workflows/deploy.yml`) runs both steps automatically.
+Run `npm run build`, then deploy `_site/`. Eleventy's build hooks generate the
+summary and search index automatically for GitHub Pages, Vercel, and local development.
+The generated index is ignored by Git and contains deployment-relative URLs; the client
+resolves them using `window.Book.rootUrl`. MiniSearch is self-hosted at
+`assets/js/minisearch.js` and cached with the index for offline use.
 
 ## Configuration
 

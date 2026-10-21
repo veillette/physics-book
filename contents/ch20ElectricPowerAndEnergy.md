@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 4
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Calculate the power dissipated by a resistor and power supplied by a power supply.
-* Calculate the cost of electricity under various circumstances.
+- Calculate the power dissipated by a resistor and power supplied by a power supply.
+- Calculate the cost of electricity under various circumstances.
 
 :::
 
@@ -109,8 +110,8 @@ obtain
  $$P=IV=\left(2.50 \text{A}\right)\left(12.0 \text{V}\right)=30.0 \text{W} \text{.}  $$
 </div>
 
-The cold resistance was  $$ 0.350 \Omega  $$ ,
- and so the power it uses when first switched on is
+The cold resistance was $$ 0.350 \Omega  $$ ,
+and so the power it uses when first switched on is
 
 <div class="equation" >
  $$P=\frac{ {V}^{2}}{R}=\frac{ {\left( 12.0 \text{V} \right)}^{2}}{ 0.350 \Omega }=411 \text{W} \text{.}  $$
@@ -163,7 +164,7 @@ time they are on in hours, and the cost per kilowatt-hour for your electric
 utility. Kilowatt-hours, like all other specialized energy units such as food
 calories, can be converted to joules. You can prove to yourself that $$1 \text{kW}\cdot \text{h} = 3.6 \times 10^{6} \text{J} $$.
 
-The electrical energy ( $$E $$ )   used can be reduced either by reducing the
+The electrical energy ( $$E $$ ) used can be reduced either by reducing the
 time of use or by reducing the power consumption of that appliance or fixture.
 This will not only reduce the cost, but it will also result in a reduced impact
 on the environment. Improvements to lighting are some of the fastest ways to
@@ -189,8 +190,8 @@ high.
 Making Connections: Energy, Power, and Time
 </div>
 
-The relationship  $$E=P t $$
- is one that you will find useful in many different contexts. The energy your body uses in exercise is related to the power level and duration of your activity, for example. The amount of heating by a power source is related to the power level and time it is applied. Even the radiation dose of an X-ray image is related to the power and time of exposure.
+The relationship $$E=P t $$
+is one that you will find useful in many different contexts. The energy your body uses in exercise is related to the power level and duration of your activity, for example. The amount of heating by a power source is related to the power level and time it is applied. Even the radiation dose of an X-ray image is related to the power and time of exposure.
 
 :::
 
@@ -200,14 +201,14 @@ The relationship  $$E=P t $$
 Calculating the Cost Effectiveness of Compact Fluorescent Lights (CFL)
 </div>
 
-If the cost of electricity in your area is 12 cents per kWh, what is the total cost (capital plus operation) of using a 60-W incandescent bulb for 1000 hours (the lifetime of that bulb) if the bulb cost 25 cents? (b) If we replace this bulb with a compact fluorescent light that provides the same light output, but at one-quarter the wattage, and which costs  \$1.50 but lasts 10 times longer (10 000 hours), what will that total cost be?
+If the cost of electricity in your area is 12 cents per kWh, what is the total cost (capital plus operation) of using a 60-W incandescent bulb for 1000 hours (the lifetime of that bulb) if the bulb cost 25 cents? (b) If we replace this bulb with a compact fluorescent light that provides the same light output, but at one-quarter the wattage, and which costs \$1.50 but lasts 10 times longer (10 000 hours), what will that total cost be?
 
 **Strategy**
 
 To find the operating cost, we first find the energy used in kilowatt-hours and
 then multiply by the cost per kilowatt-hour.
 
-__Solution for (a)__
+**Solution for (a)**
 
 The energy used in kilowatt-hours is found by entering the power and time into
 the expression for energy:
@@ -228,7 +229,7 @@ Now the electricity cost is
  $$\text{cost}=\left(60.0 \text{kW}\cdot \text{h}\right)\left(\text{ \$0.12}\text{/kW}\cdot \text{h}\right)=\text{ \$}7.20. $$
 </div>
 
-The total cost will be  \$7.20 for 1000 hours (about one-half year at 5 hours per day).
+The total cost will be \$7.20 for 1000 hours (about one-half year at 5 hours per day).
 
 **Solution for (b)**
 
@@ -251,15 +252,15 @@ for replacing the incandescent bulbs more often has not been figured in here.
 Making Connections: Take-Home Experiment—Electrical Energy Use Inventory
 </div>
 
-1) Make a list of the power ratings on a range of appliances in your home or room. Explain why something like a toaster has a higher rating than a digital clock. Estimate the energy consumed by these appliances in an average day (by estimating their time of use). Some appliances might only state the operating current. If the household voltage is 120 V, then use  $$P=IV $$ .
- 2) Check out the total wattage used in the restrooms of your school’s floor or building. (You might need to assume the long fluorescent lights in use are rated at 32 W.) Suppose that the building was closed all weekend and that these lights were left on from 6 p.m. Friday until 8 a.m. Monday. What would this oversight cost? How about for an entire year of weekends?
+1. Make a list of the power ratings on a range of appliances in your home or room. Explain why something like a toaster has a higher rating than a digital clock. Estimate the energy consumed by these appliances in an average day (by estimating their time of use). Some appliances might only state the operating current. If the household voltage is 120 V, then use $$P=IV $$ .
+2. Check out the total wattage used in the restrooms of your school’s floor or building. (You might need to assume the long fluorescent lights in use are rated at 32 W.) Suppose that the building was closed all weekend and that these lights were left on from 6 p.m. Friday until 8 a.m. Monday. What would this oversight cost? How about for an entire year of weekends?
 
 :::
 
 ### Section Summary
 
 _ Electric power $$P $$ is the rate (in watts) that energy is supplied by a
-  source or dissipated by a device.
+source or dissipated by a device.
 _ Three expressions for electrical power are
 
   <div class="equation" >
@@ -271,6 +272,7 @@ _ Three expressions for electrical power are
   </div>
 
      and
+
   <div class="equation" >
    $$P={I}^{2}R\text{.} $$
   </div>
@@ -287,15 +289,47 @@ Why do incandescent lightbulbs grow dim late in their lives, particularly just b
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider both filament evaporation and the transmission of light through the glass.
+
+**Solution**
+
+As tungsten evaporates, the filament can become thinner and its resistance can increase. At approximately fixed supply voltage, greater total resistance reduces the electrical power, $$P=V^2/R$$, and can reduce light output. Evaporated tungsten can also coat and darken the glass, allowing less light to escape. A particularly thin spot may become locally hotter and fail even while the bulb’s overall output decreases.
+
+**Discussion**
+
+Not every bulb dims smoothly immediately before failure. Filament deterioration and glass blackening explain why many aging incandescent bulbs become dimmer before their filaments break.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-The power dissipated in a resistor is given by  $$P={V}^{2}/R $$ ,
- which means power decreases if resistance increases. Yet this power is also given by  $$P={I}^{2}R $$ ,
- which means power increases if resistance increases. Explain why there is no contradiction here.
+The power dissipated in a resistor is given by $$P={V}^{2}/R $$ ,
+which means power decreases if resistance increases. Yet this power is also given by $$P={I}^{2}R $$ ,
+which means power increases if resistance increases. Explain why there is no contradiction here.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify what is held fixed in each comparison.
+
+**Solution**
+
+At fixed voltage, increasing resistance reduces current, $$I=V/R$$, so $$P=V^2/R$$ decreases. At fixed current, increasing resistance requires a larger voltage, $$V=IR$$, so $$P=I^2R$$ increases. For example, with an assumed $$12\text{ V}$$ source, $$6\text{ Ω}$$ and $$12\text{ Ω}$$ dissipate $$24\text{ W}$$ and $$12\text{ W}$$. With an assumed $$2\text{ A}$$ source, those resistances dissipate $$24\text{ W}$$ and $$48\text{ W}$$.
+
+**Discussion**
+
+The two expressions are algebraically identical when Ohm’s law is satisfied. There is no contradiction because the opposite trends refer to different constraints: fixed voltage versus fixed current.
 
 :::
 
@@ -307,8 +341,8 @@ The power dissipated in a resistor is given by  $$P={V}^{2}/R $$ ,
 
 ::: problem
 
-What is the power of a  $$ 1.00 \times 10^{2}  \text{MV} $$
- lightning bolt having a current of  $$2.00 \times 10^{4} \text{A} $$ ?
+What is the power of a $$ 1.00 \times 10^{2}  \text{MV} $$
+lightning bolt having a current of $$2.00 \times 10^{4} \text{A} $$ ?
 
 :::
 
@@ -334,7 +368,7 @@ $$P = IV = (2.00 \times 10^{4} \text{ A})(1.00 \times 10^{8} \text{ V}) = 2.00 \
 
 **Discussion**
 
-This 2 terawatt power is enormous—roughly equal to the total average power consumption of the entire United States! However, a lightning bolt lasts only about 0.2 milliseconds, so the total energy delivered is $$E = Pt = (2 \times 10^{12})(2 \times 10^{-4}) = 4 \times 10^{8}$$ J, or about 110 kWh. Despite the impressive power, the brief duration means the energy is similar to running a 100-W light bulb for about 45 days.
+This 2 terawatt power is enormous—roughly equal to the total average power consumption of the entire United States! However, a lightning bolt lasts only about 0.2 milliseconds, so the total energy delivered is $$E = Pt = (2 \times 10^{12} \text{ W})(2 \times 10^{-4} \text{ s}) = 4 \times 10^{8} \text{ J}$$, or about 110 kWh. Despite the impressive power, the brief duration means the energy is similar to running a 100-W light bulb for about 45 days.
 
 The power of the lightning bolt is $$2.00 \times 10^{12}$$ W (2.00 TW).
 
@@ -410,15 +444,15 @@ The power output of the calculator's solar cells is 0.833 mW.
 
 </div>
 
-![Photograph of a small calculator having a strip of solar cells just above the keys.](../resources/Figure_20_04_02.jpg "The strip of solar cells just above the keys of this calculator convert light to electricity to supply its energy needs. (credit: Evan-Amos, Wikimedia Commons)")
+![Photograph of a small calculator having a strip of solar cells just above the keys.](../resources/Figure_20_04_02.jpg 'The strip of solar cells just above the keys of this calculator convert light to electricity to supply its energy needs. (credit: Evan-Amos, Wikimedia Commons)')
 {: #Figure2}
 
 <div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
-How many watts does a flashlight that has  $$ 6.00 \times 10^{2}  \text{C} $$
- pass through it in 0.500 h use if its voltage is 3.00 V?
+How many watts does a flashlight that has $$ 6.00 \times 10^{2}  \text{C} $$
+pass through it in 0.500 h use if its voltage is 3.00 V?
 
 :::
 
@@ -456,8 +490,8 @@ The flashlight uses 1.00 W of power.
 
 ::: problem
 
-Find the power dissipated in each of these extension cords: (a) an extension cord having a  $$ 0.0600 \text{-} \Omega  $$
- resistance and through which 5.00 A is flowing; (b) a cheaper cord utilizing thinner wire and with a resistance of  $$ 0.300 \Omega . $$
+Find the power dissipated in each of these extension cords: (a) an extension cord having a $$ 0.0600 \text{-} \Omega  $$
+resistance and through which 5.00 A is flowing; (b) a cheaper cord utilizing thinner wire and with a resistance of $$ 0.300 \Omega . $$
 
 :::
 
@@ -469,13 +503,13 @@ Use the power equation $$P = I^{2}R$$ since we know current and resistance. This
 
 **Solution**
 
-__(a)__ For the quality extension cord:
+**(a)** For the quality extension cord:
 
 <div class="equation">
 $$P = I^{2}R = (5.00 \text{ A})^{2}(0.0600 \text{ Ω}) = (25.0 \text{ A}^{2})(0.0600 \text{ Ω}) = 1.50 \text{ W}$$
 </div>
 
-__(b)__ For the cheaper cord with higher resistance:
+**(b)** For the cheaper cord with higher resistance:
 
 <div class="equation">
 $$P = I^{2}R = (5.00 \text{ A})^{2}(0.300 \text{ Ω}) = (25.0 \text{ A}^{2})(0.300 \text{ Ω}) = 7.50 \text{ W}$$
@@ -495,7 +529,7 @@ The cheaper cord with 5× higher resistance dissipates 5× more power as heat (7
 
 ::: problem
 
-Verify that the units of a volt-ampere are watts, as implied by the equation  $$P=IV $$.
+Verify that the units of a volt-ampere are watts, as implied by the equation $$P=IV $$.
 
 :::
 
@@ -508,6 +542,7 @@ We express volts and amperes in terms of fundamental SI units and show that thei
 **Solution**
 
 Starting with the definitions:
+
 - 1 volt = 1 joule per coulomb (energy per charge): $$1 \text{ V} = 1 \text{ J/C}$$
 - 1 ampere = 1 coulomb per second (charge per time): $$1 \text{ A} = 1 \text{ C/s}$$
 
@@ -531,14 +566,14 @@ The units verify: 1 V·A = 1 W.
 
 ::: problem
 
-Show that the units  $$1 {\text{V}}^{2}/\Omega =1\text{W} $$ ,
- as implied by the equation  $$P={V}^{2}/R $$.
+Show that the units $$1 {\text{V}}^{2}/\Omega =1\text{W} $$ ,
+as implied by the equation $$P={V}^{2}/R $$.
 
 :::
 
 ::: solution
 
- $$\frac{ {V}^{2}}{\Omega }=\frac{ {V}^{2}}{\text{V/A}}=\text{AV}=\left(\frac{C}{s}\right)\left(\frac{J}{C}\right)=\frac{J}{s}=1 \text{W} $$
+$$\frac{ {V}^{2}}{\Omega }=\frac{ {V}^{2}}{\text{V/A}}=\text{AV}=\left(\frac{C}{s}\right)\left(\frac{J}{C}\right)=\frac{J}{s}=1 \text{W} $$
 
 :::
 
@@ -548,8 +583,8 @@ Show that the units  $$1 {\text{V}}^{2}/\Omega =1\text{W} $$ ,
 
 ::: problem
 
-Show that the units  $$1 {\text{A}}^{2}\cdot \Omega =1 \text{W} $$ ,
- as implied by the equation  $$P={I}^{2}R $$.
+Show that the units $$1 {\text{A}}^{2}\cdot \Omega =1 \text{W} $$ ,
+as implied by the equation $$P={I}^{2}R $$.
 
 :::
 
@@ -562,6 +597,7 @@ We express amperes and ohms in terms of fundamental SI units and show that A²·
 **Solution**
 
 Starting with the definitions:
+
 - 1 ohm = 1 volt per ampere: $$1 \text{ Ω} = 1 \text{ V/A}$$
 - 1 volt = 1 joule per coulomb: $$1 \text{ V} = 1 \text{ J/C}$$
 - 1 ampere = 1 coulomb per second: $$1 \text{ A} = 1 \text{ C/s}$$
@@ -592,13 +628,13 @@ The units verify: 1 A²·Ω = 1 W.
 
 ::: problem
 
-Verify the energy unit equivalence that  $$1 \text{kW}\cdot \text{h = } 3.60 \times 10^{6}  \text{J} $$.
+Verify the energy unit equivalence that $$1 \text{kW}\cdot \text{h = } 3.60 \times 10^{6}  \text{J} $$.
 
 :::
 
 ::: solution
 
- $$1 \text{kW}\cdot \text{h}=\left(\frac{1 \times 10^{3}  \text{J}}{1 \text{s}}\right)\left(1 h\right)\left(\frac{3600 \text{s}}{1 \text{h}}\right)= 3.60 \times 10^{6}  \text{J} $$
+$$1 \text{kW}\cdot \text{h}=\left(\frac{1 \times 10^{3}  \text{J}}{1 \text{s}}\right)\left(1 h\right)\left(\frac{3600 \text{s}}{1 \text{h}}\right)= 3.60 \times 10^{6}  \text{J} $$
 
 :::
 
@@ -608,8 +644,8 @@ Verify the energy unit equivalence that  $$1 \text{kW}\cdot \text{h = } 3.60 \ti
 
 ::: problem
 
-Electrons in an X-ray tube are accelerated through  $$ 1.00 \times 10^{2}  \text{kV} $$
- and directed toward a target to produce X-rays. Calculate the power of the electron beam in this tube if it has a current of 15.0 mA.
+Electrons in an X-ray tube are accelerated through $$ 1.00 \times 10^{2}  \text{kV} $$
+and directed toward a target to produce X-rays. Calculate the power of the electron beam in this tube if it has a current of 15.0 mA.
 
 :::
 
@@ -651,10 +687,10 @@ The power of the electron beam is 1.50 kW.
 
 ::: problem
 
-An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost of running it for one year if electricity costs  $$12.0 \text{cents}\text{/kW}\cdot \text{h} $$ ?
- See [[Figure 3]](#Figure3).
+An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost of running it for one year if electricity costs $$12.0 \text{cents}\text{/kW}\cdot \text{h} $$ ?
+See [[Figure 3]](#Figure3).
 
-![Photograph of an electric hot water heater connected to the electric and water supply](../resources/Figure_20_04_03.jpg "On-demand electric hot water heater. Heat is supplied to water only when needed. (credit: aviddavid, Flickr)")
+![Photograph of an electric hot water heater connected to the electric and water supply](../resources/Figure_20_04_03.jpg 'On-demand electric hot water heater. Heat is supplied to water only when needed. (credit: aviddavid, Flickr)')
 {: #Figure3}
 
 :::
@@ -699,8 +735,8 @@ The annual cost of running the water heater is \$438.
 
 ::: problem
 
-With a 1200-W toaster, how much electrical energy is needed to make a slice of toast (cooking time = 1 minute)? At  $$9.0 \text{cents/kW · h} $$ ,
- how much does this cost?
+With a 1200-W toaster, how much electrical energy is needed to make a slice of toast (cooking time = 1 minute)? At $$9.0 \text{cents/kW · h} $$ ,
+how much does this cost?
 
 :::
 
@@ -744,8 +780,8 @@ Making a slice of toast requires 72.0 kJ (or 0.0200 kW·h) of energy and costs a
 
 ::: problem
 
-What would be the maximum cost of a CFL such that the total cost (investment plus operating) would be the same for both CFL and incandescent 60-W bulbs? Assume the cost of the incandescent bulb is 25 cents and that electricity costs  $$10 \text{cents/kWh} $$ .
- Calculate the cost for 1000 hours, as in the cost effectiveness of CFL example.
+What would be the maximum cost of a CFL such that the total cost (investment plus operating) would be the same for both CFL and incandescent 60-W bulbs? Assume the cost of the incandescent bulb is 25 cents and that electricity costs $$10 \text{cents/kWh} $$ .
+Calculate the cost for 1000 hours, as in the cost effectiveness of CFL example.
 
 :::
 
@@ -782,13 +818,13 @@ For part (a), use $$P = V^{2}/R$$ rearranged to $$R = V^{2}/P$$. For part (b), u
 
 **Solution**
 
-__(a)__ Calculate the hot resistance:
+**(a)** Calculate the hot resistance:
 
 <div class="equation">
 $$R = \frac{V^{2}}{P} = \frac{(6.00 \text{ V})^{2}}{30.0 \text{ W}} = \frac{36.0 \text{ V}^{2}}{30.0 \text{ W}} = 1.20 \text{ Ω}$$
 </div>
 
-__(b)__ Calculate the current:
+**(b)** Calculate the current:
 
 <div class="equation">
 $$I = \frac{P}{V} = \frac{30.0 \text{ W}}{6.00 \text{ V}} = 5.00 \text{ A}$$
@@ -808,8 +844,8 @@ The 1.20 Ω resistance is relatively low, which is necessary to allow sufficient
 
 ::: problem
 
-Alkaline batteries have the advantage of putting out constant voltage until very nearly the end of their life. How long will an alkaline battery rated at  $$1.00 \text{A}\cdot \text{h} $$
- and 1.58 V keep a 1.00-W flashlight bulb burning?
+Alkaline batteries have the advantage of putting out constant voltage until very nearly the end of their life. How long will an alkaline battery rated at $$1.00 \text{A}\cdot \text{h} $$
+and 1.58 V keep a 1.00-W flashlight bulb burning?
 
 :::
 
@@ -869,13 +905,13 @@ $$I = 2.00 \text{ mA} = 2.00 \times 10^{-3} \text{ A}$$
 $$V = 15.0 \text{ kV} = 15.0 \times 10^{3} \text{ V} = 1.50 \times 10^{4} \text{ V}$$
 </div>
 
-__(a)__ Calculate the power:
+**(a)** Calculate the power:
 
 <div class="equation">
 $$P = IV = (2.00 \times 10^{-3} \text{ A})(1.50 \times 10^{4} \text{ V}) = 30.0 \text{ W}$$
 </div>
 
-__(b)__ Calculate the resistance:
+**(b)** Calculate the resistance:
 
 <div class="equation">
 $$R = \frac{V}{I} = \frac{1.50 \times 10^{4} \text{ V}}{2.00 \times 10^{-3} \text{ A}} = 7.50 \times 10^{6} \text{ Ω} = 7.50 \text{ MΩ}$$
@@ -895,7 +931,7 @@ The 30.0 W power output is sufficient to cauterize blood vessels by heating tiss
 
 ::: problem
 
-The average television is said to be on 6 hours per day. Estimate the yearly cost of electricity to operate 100 million TVs, assuming their power consumption averages 150 W and the cost of electricity averages  $$ 12.0 \text{cents/kW}\cdot \text{h} $$.
+The average television is said to be on 6 hours per day. Estimate the yearly cost of electricity to operate 100 million TVs, assuming their power consumption averages 150 W and the cost of electricity averages $$ 12.0 \text{cents/kW}\cdot \text{h} $$.
 
 :::
 
@@ -987,7 +1023,7 @@ The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of it
 
 ::: problem
 
-00-gauge copper wire has a diameter of 9.266 mm. Calculate the power loss in a kilometer of such wire when it carries  $$ 1.00 \times 10^{2}  \text{A} $$.
+00-gauge copper wire has a diameter of 9.266 mm. Calculate the power loss in a kilometer of such wire when it carries $$ 1.00 \times 10^{2}  \text{A} $$.
 
 :::
 
@@ -995,11 +1031,11 @@ The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of it
 
 Use the copper resistivity from the section table, $$\rho=1.72\times10^{-8}\ \Omega\cdot\text{m}$$. The wire area is
 
-$$A=\pi(9.266\times10^{-3}/2)^2=6.743\times10^{-5}\ \text{m}^2.$$
+$$A=\pi(9.266\times10^{-3}\ \text{m}/2)^2=6.743\times10^{-5}\ \text{m}^2.$$
 
-$$R=\frac{\rho L}{A}=\frac{(1.72\times10^{-8})(1000)}{6.743\times10^{-5}}=0.255\ \Omega,$$
+$$R=\frac{\rho L}{A}=\frac{(1.72\times10^{-8}\ \Omega\cdot\text{m})(1000\ \text{m})}{6.743\times10^{-5}\ \text{m}^2}=0.255\ \Omega,$$
 
-$$P=I^2R=(100)^2(0.255)=2.55\times10^3\ \text{W}=2.55\ \text{kW}.$$
+$$P=I^2R=(100\ \text{A})^2(0.255\ \Omega)=2.55\times10^3\ \text{W}=2.55\ \text{kW}.$$
 
 For fixed resistance, reducing current by a factor of ten reduces the loss by a factor of one hundred.
 
@@ -1010,7 +1046,7 @@ For fixed resistance, reducing current by a factor of ten reduces the loss by a 
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 Cold vaporizers pass a current through water, evaporating it with only a small
 increase in temperature. One such home device is rated at 3.50 A and utilizes
@@ -1018,7 +1054,7 @@ increase in temperature. One such home device is rated at 3.50 A and utilizes
 minute? (b) How much water must you put into the vaporizer for 8.00 h of
 overnight operation? (See [[Figure 4]](#Figure4).)
 
-![The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.](../resources/Figure_20_04_04.jpg "This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.")
+![The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.](/resources/Figure_20_04_04.svg 'This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.')
 {: #Figure4}
 
 :::
@@ -1031,7 +1067,7 @@ Calculate the useful power output, then use the heat of vaporization of water ($
 
 **Solution**
 
-__(a)__ Calculate the useful power:
+**(a)** Calculate the useful power:
 
 <div class="equation">
 $$P_{\text{useful}} = \eta \times P = \eta \times IV = (0.950)(3.50 \text{ A})(120 \text{ V}) = 399 \text{ W}$$
@@ -1049,7 +1085,7 @@ Converting to grams per minute:
 $$\text{Rate} = 1.77 \times 10^{-4} \text{ kg/s} \times \frac{1000 \text{ g}}{1 \text{ kg}} \times \frac{60 \text{ s}}{1 \text{ min}} = 10.6 \text{ g/min}$$
 </div>
 
-__(b)__ For 8.00 hours of operation:
+**(b)** For 8.00 hours of operation:
 
 <div class="equation">
 $$\text{Water needed} = 10.6 \text{ g/min} \times 60 \text{ min/h} \times 8.00 \text{ h} = 5090 \text{ g} = 5.09 \text{ kg}$$
@@ -1069,7 +1105,7 @@ Over 5 kg (about 5 liters) of water is needed for overnight operation. This is a
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 (a) What energy is dissipated by a lightning bolt having a 20 000-A current, a
 voltage of $$ 1.00 \times 10^{2} \text{MV} $$ , and a length of 1.00 ms? (b)
@@ -1081,7 +1117,7 @@ characteristics as water?
 
 ::: solution
 
-(a)  $$ 2.00 \times 10^{9}  \text{J} $$
+(a) $$ 2.00 \times 10^{9}  \text{J} $$
 (b) 769 kg
 
 :::
@@ -1092,7 +1128,7 @@ characteristics as water?
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 What current must be produced by a 12.0-V battery-operated bottle warmer in
 order to heat 75.0 g of glass, 250 g of baby formula, and $$ 3.00 \times 10^{2} \text{g} $$ of aluminum from $$ 20.0\text{ºC} $$ to $$ 90.0\text{ºC} $$ in 5.00
@@ -1123,7 +1159,7 @@ $$Q_{\text{aluminum}} = m_{\text{Al}} c_{\text{Al}} \Delta T = (0.300 \text{ kg}
 </div>
 
 <div class="equation">
-$$Q_{\text{total}} = 4410 + 73255 + 18900 = 96565 \text{ J}$$
+$$Q_{\text{total}} = 4410 \text{ J} + 73255 \text{ J} + 18900 \text{ J} = 96565 \text{ J}$$
 </div>
 
 Calculate the power needed:
@@ -1152,7 +1188,7 @@ The bottle warmer must produce a current of 26.8 A.
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 How much time is needed for a surgical cauterizer to raise the temperature of
 1.00 g of tissue from $$ 37.0\text{ºC} $$ to $$100 \text{ºC} $$ and then boil
@@ -1173,7 +1209,7 @@ to the surroundings.
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 Hydroelectric generators (see [[Figure 5]](#Figure5)) at Hoover Dam produce a
 maximum current of $$ 8.00 \times 10^{3} \text{A} $$ at 250 kV. (a) What is the
@@ -1182,7 +1218,7 @@ system at low speed (thus its kinetic energy does not change) but loses 160 m in
 altitude. How many cubic meters per second are needed, assuming 85.0%
 efficiency?
 
-![Hydroelectric generators at the Hoover dam.](../resources/Figure_20_04_05.jpg "Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)")
+![Hydroelectric generators at the Hoover dam.](../resources/Figure_20_04_05.jpg 'Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)')
 {: #Figure5}
 
 :::
@@ -1195,13 +1231,13 @@ For part (a), use $$P = IV$$. For part (b), the gravitational potential energy l
 
 **Solution**
 
-__(a)__ Calculate the power output:
+**(a)** Calculate the power output:
 
 <div class="equation">
 $$P = IV = (8.00 \times 10^{3} \text{ A})(250 \times 10^{3} \text{ V}) = 2.00 \times 10^{9} \text{ W} = 2.00 \text{ GW}$$
 </div>
 
-__(b)__ The power from the falling water is related to the electrical power by efficiency:
+**(b)** The power from the falling water is related to the electrical power by efficiency:
 
 <div class="equation">
 $$P_{\text{water}} = \frac{P_{\text{electrical}}}{\eta} = \frac{2.00 \times 10^{9} \text{ W}}{0.850} = 2.35 \times 10^{9} \text{ W}$$
@@ -1228,7 +1264,7 @@ $$P_{\text{water}} = \rho \dot{V} g h$$
 Solving for the volume flow rate:
 
 <div class="equation">
-$$\dot{V} = \frac{P_{\text{water}}}{\rho g h} = \frac{2.35 \times 10^{9} \text{ W}}{(1000 \text{ kg/m}^{3})(9.80 \text{ m/s}^{2})(160 \text{ m})} = \frac{2.35 \times 10^{9}}{1.568 \times 10^{6}} = 1500 \text{ m}^{3}\text{/s}$$
+$$\dot{V} = \frac{P_{\text{water}}}{\rho g h} = \frac{2.35 \times 10^{9} \text{ W}}{(1000 \text{ kg/m}^{3})(9.80 \text{ m/s}^{2})(160 \text{ m})} = \frac{2.35 \times 10^{9} \text{ W}}{1.568 \times 10^{6} \text{ J/m}^{3}} = 1500 \text{ m}^{3}\text{/s}$$
 </div>
 
 **Discussion**
@@ -1245,7 +1281,7 @@ The power output of 2.00 GW is enormous—enough to supply electricity to a larg
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 (a) Assuming 95.0% efficiency for the conversion of electrical power by the
 motor, what current must the 12.0-V batteries of a 750-kg electric car be able
@@ -1256,7 +1292,7 @@ resistance and friction? (c) To travel at a constant 25.0-m/s speed, exerting a
 $$ 5.00 \times 10^{2} \text{N} $$ force to overcome air resistance and friction?
 See [[Figure 6]](#Figure6).
 
-![Electric car charging in London.](../resources/Figure_20_04_06.jpg "This REVAi, an electric car, gets recharged on a street in London. (credit: Frank Hebbert)")
+![Electric car charging in London.](../resources/Figure_20_04_06.jpg 'This REVAi, an electric car, gets recharged on a street in London. (credit: Frank Hebbert)')
 {: #Figure6}
 
 :::
@@ -1265,8 +1301,8 @@ See [[Figure 6]](#Figure6).
 
 (a) 343 A
 
-(b)  $$ 2.17 \times 10^{3} \text{A} $$
-(c)  $$ 1.10 \times 10^{3} \text{A} $$
+(b) $$ 2.17 \times 10^{3} \text{A} $$
+(c) $$ 1.10 \times 10^{3} \text{A} $$
 
 :::
 
@@ -1276,7 +1312,7 @@ See [[Figure 6]](#Figure6).
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 A light-rail commuter train draws 630 A of 650-V DC electricity when
 accelerating. (a) What is its power consumption rate in kilowatts? (b) How long
@@ -1294,13 +1330,13 @@ For part (a), use $$P = IV$$. For part (b), use the work-energy theorem: the use
 
 **Solution**
 
-__(a)__ Calculate the power consumption:
+**(a)** Calculate the power consumption:
 
 <div class="equation">
 $$P = IV = (630 \text{ A})(650 \text{ V}) = 409500 \text{ W} = 410 \text{ kW}$$
 </div>
 
-__(b)__ The useful power (mechanical power) is:
+**(b)** The useful power (mechanical power) is:
 
 <div class="equation">
 $$P_{\text{useful}} = \eta P = (0.950)(410 \text{ kW}) = 389.5 \text{ kW} = 3.895 \times 10^{5} \text{ W}$$
@@ -1309,7 +1345,7 @@ $$P_{\text{useful}} = \eta P = (0.950)(410 \text{ kW}) = 389.5 \text{ kW} = 3.89
 The work done equals the change in kinetic energy:
 
 <div class="equation">
-$$W = \Delta KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(20.0 \text{ m/s})^{2} = \frac{1}{2}(5.30 \times 10^{4})(400) = 1.06 \times 10^{7} \text{ J}$$
+$$W = \Delta KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(20.0 \text{ m/s})^{2} = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(400 \text{ (m/s)}^2) = 1.06 \times 10^{7} \text{ J}$$
 </div>
 
 Since $$P = W/t$$, we have:
@@ -1318,17 +1354,18 @@ Since $$P = W/t$$, we have:
 $$t = \frac{W}{P_{\text{useful}}} = \frac{1.06 \times 10^{7} \text{ J}}{3.895 \times 10^{5} \text{ W}} = 27.2 \text{ s}$$
 </div>
 
-__(c)__ Using $$v = v_0 + at$$ with $$v_0 = 0$$:
+**(c)** Using $$v = v_0 + at$$ with $$v_0 = 0$$:
 
 <div class="equation">
 $$a = \frac{v}{t} = \frac{20.0 \text{ m/s}}{27.2 \text{ s}} = 0.735 \text{ m/s}^{2}$$
 </div>
 
-__(d)__
+**(d)**
 
 **Discussion**
 
 The average acceleration of 0.735 m/s² (about 0.075g) is considerably lower than typical automobile acceleration. A typical car can accelerate at 2-3 m/s² (0.2-0.3g), roughly 3-4 times faster than this light-rail train. The slower acceleration is acceptable for mass transit because:
+
 1. Passenger comfort—standing passengers need gentle acceleration
 2. Frequent stops make high acceleration less critical
 3. The train's large mass (53,000 kg) makes rapid acceleration energy-intensive
@@ -1346,7 +1383,7 @@ The light-rail's acceleration is adequate for urban transit where stations are c
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 (a) An aluminum power transmission line has a resistance of $$ 0.0580 \Omega /\text{km} $$ . What is its mass per kilometer? (b) What is the mass per
 kilometer of a copper line having the same resistance?
@@ -1355,8 +1392,8 @@ kilometer of a copper line having the same resistance?
 
 ::: solution
 
-(a)  $$ 1.23 \times 10^{3}  \text{kg} $$
-(b)  $$ 2.64 \times 10^{3}  \text{kg} $$
+(a) $$ 1.23 \times 10^{3}  \text{kg} $$
+(b) $$ 2.64 \times 10^{3}  \text{kg} $$
 
 :::
 
@@ -1366,9 +1403,9 @@ kilometer of a copper line having the same resistance?
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
-(a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00 \times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$ 20.0\text{ºC} $$ to $$ 95.0\text{ºC} $$ in 2.00 min. Find its resistance, 
+(a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00 \times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$ 20.0\text{ºC} $$ to $$ 95.0\text{ºC} $$ in 2.00 min. Find its resistance,
 assuming it is constant during the process. (b) A lower resistance would shorten
 the heating time. Discuss the practical limits to speeding the heating by
 lowering the resistance.
@@ -1383,7 +1420,7 @@ Calculate the total heat needed to warm both the aluminum cup and water using $$
 
 **Solution**
 
-__(a)__ Calculate heat needed for each component ($$\Delta T = 75.0$$ °C):
+**(a)** Calculate heat needed for each component ($$\Delta T = 75.0$$ °C):
 
 For aluminum cup ($$c_{\text{Al}} = 900$$ J/kg·°C):
 
@@ -1400,7 +1437,7 @@ $$Q_{\text{water}} = m_{\text{water}} c_{\text{water}} \Delta T = (0.350 \text{ 
 Total heat:
 
 <div class="equation">
-$$Q_{\text{total}} = 6750 + 109868 = 116618 \text{ J}$$
+$$Q_{\text{total}} = 6750 \text{ J} + 109868 \text{ J} = 116618 \text{ J}$$
 </div>
 
 Power needed:
@@ -1412,16 +1449,16 @@ $$P = \frac{Q}{t} = \frac{116618 \text{ J}}{2.00 \text{ min} \times 60 \text{ s/
 Resistance:
 
 <div class="equation">
-$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{972 \text{ W}} = \frac{14400}{972} = 14.8 \text{ Ω}$$
+$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{972 \text{ W}} = \frac{14400 \text{ V}^{2}}{972 \text{ W}} = 14.8 \text{ Ω}$$
 </div>
 
-__(b)__
+**(b)**
 
 **Discussion**
 
 The resistance of 14.8 Ω is reasonable for an immersion heater. Lowering the resistance would increase power and reduce heating time, but several practical limits exist:
 
-1. **Circuit capacity**: Standard 120-V household circuits are typically limited to 15-20 A (1800-2400 W). The current heater draws $$I = P/V = 972/120 = 8.1$$ A. Reducing resistance much further would trip circuit breakers.
+1. **Circuit capacity**: Standard 120-V household circuits are typically limited to 15-20 A (1800-2400 W). The current heater draws $$I = P/V = (972 \text{ W})/(120 \text{ V}) = 8.1 \text{ A}$$. Reducing resistance much further would trip circuit breakers.
 
 2. **Safety**: Higher currents require thicker wires to prevent overheating. The heater cord and connections must safely handle the current.
 
@@ -1443,7 +1480,7 @@ In practice, immersion heaters are designed to balance heating speed with safety
 
 ::: problem
 
-__Integrated Concepts__
+**Integrated Concepts**
 
 (a) What is the cost of heating a hot tub containing 1500 kg of water from $$10.0\ {}^\circ\text{C}$$ to $$40.0\ {}^\circ\text{C}$$, assuming 75.0% efficiency to account for heat transfer to the surroundings? Electricity costs 9 cents/kWh.
 
@@ -1459,7 +1496,7 @@ For part (a), calculate the heat needed using $$Q = mc\Delta T$$, account for ef
 
 **Solution**
 
-__(a)__ Calculate the heat needed ($$c_{\text{water}} = 4186$$ J/kg·°C, $$\Delta T = 30.0$$ °C):
+**(a)** Calculate the heat needed ($$c_{\text{water}} = 4186$$ J/kg·°C, $$\Delta T = 30.0$$ °C):
 
 <div class="equation">
 $$Q = mc\Delta T = (1500 \text{ kg})(4186 \text{ J/kg·°C})(30.0 \text{ °C}) = 1.884 \times 10^{8} \text{ J}$$
@@ -1483,7 +1520,7 @@ Calculate cost:
 $$\text{Cost} = (69.8 \text{ kW·h})(\$0.09/\text{kW·h}) = \$6.28$$
 </div>
 
-__(b)__ Calculate power used:
+**(b)** Calculate power used:
 
 <div class="equation">
 $$P = \frac{E}{t} = \frac{69.8 \text{ kW·h}}{4.00 \text{ h}} = 17.45 \text{ kW} = 17450 \text{ W}$$
@@ -1509,7 +1546,7 @@ The cost of \$6.28 to heat a hot tub is quite reasonable for the comfort provide
 
 ::: problem
 
-__Unreasonable Results__
+**Unreasonable Results**
 
 (a) What current is needed to transmit $$ 1.00 \times 10^{2} \text{MW} $$ of
 power at 480 V? (b) What power is dissipated by the transmission lines if they
@@ -1521,8 +1558,8 @@ inconsistent?
 
 ::: solution
 
-(a)  $$ 2.08 \times 10^{5}  \text{A} $$
-(b)  $$ 4.33 \times 10^{4}  \text{MW} $$
+(a) $$ 2.08 \times 10^{5}  \text{A} $$
+(b) $$ 4.33 \times 10^{4}  \text{MW} $$
 (c) The transmission lines dissipate more power than they are supposed to transmit.
 
 (d) A voltage of 480 V is unreasonably low for a transmission voltage.
@@ -1537,7 +1574,7 @@ hundreds of kilovolts) to reduce power losses.
 
 ::: problem
 
-__Unreasonable Results__
+**Unreasonable Results**
 
 (a) What current is needed to transmit $$ 1.00 \times 10^{2} \text{MW} $$ of
 power at 10.0 kV? (b) Find the resistance of 1.00 km of wire that would cause a
@@ -1555,13 +1592,13 @@ For part (a), use $$P = IV$$. For part (b), calculate power loss and use $$P_{\t
 
 **Solution**
 
-__(a)__ Calculate the current:
+**(a)** Calculate the current:
 
 <div class="equation">
 $$I = \frac{P}{V} = \frac{1.00 \times 10^{2} \text{ MW}}{10.0 \text{ kV}} = \frac{1.00 \times 10^{8} \text{ W}}{1.00 \times 10^{4} \text{ V}} = 1.00 \times 10^{4} \text{ A} = 10.0 \text{ kA}$$
 </div>
 
-__(b)__ Calculate the allowable power loss:
+**(b)** Calculate the allowable power loss:
 
 <div class="equation">
 $$P_{\text{loss}} = 0.0100\% \times P = 0.000100 \times 1.00 \times 10^{8} \text{ W} = 1.00 \times 10^{4} \text{ W} = 10.0 \text{ kW}$$
@@ -1570,13 +1607,13 @@ $$P_{\text{loss}} = 0.0100\% \times P = 0.000100 \times 1.00 \times 10^{8} \text
 Find the resistance:
 
 <div class="equation">
-$$R = \frac{P_{\text{loss}}}{I^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{(1.00 \times 10^{4} \text{ A})^{2}} = \frac{1.00 \times 10^{4}}{1.00 \times 10^{8}} = 1.00 \times 10^{-4} \text{ Ω}$$
+$$R = \frac{P_{\text{loss}}}{I^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{(1.00 \times 10^{4} \text{ A})^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{1.00 \times 10^{8} \text{ A}^{2}} = 1.00 \times 10^{-4} \text{ Ω}$$
 </div>
 
-__(c)__ Calculate the cross-sectional area using $$R = \rho L/A$$:
+**(c)** Calculate the cross-sectional area using $$R = \rho L/A$$:
 
 <div class="equation">
-$$A = \frac{\rho L}{R} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{1.00 \times 10^{-4} \text{ Ω}} = \frac{1.68 \times 10^{-5}}{1.00 \times 10^{-4}} = 0.168 \text{ m}^{2}$$
+$$A = \frac{\rho L}{R} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{1.00 \times 10^{-4} \text{ Ω}} = \frac{1.68 \times 10^{-5} \text{ Ω·m}^{2}}{1.00 \times 10^{-4} \text{ Ω}} = 0.168 \text{ m}^{2}$$
 </div>
 
 Find the diameter:
@@ -1586,10 +1623,10 @@ $$A = \pi r^{2} = \pi \left(\frac{d}{2}\right)^{2}$$
 </div>
 
 <div class="equation">
-$$d = 2\sqrt{\frac{A}{\pi}} = 2\sqrt{\frac{0.168}{\pi}} = 2\sqrt{0.0535} = 2(0.231) = 0.462 \text{ m} = 46.2 \text{ cm}$$
+$$d = 2\sqrt{\frac{A}{\pi}} = 2\sqrt{\frac{0.168 \text{ m}^{2}}{\pi}} = 2\sqrt{0.0535 \text{ m}^{2}} = 2(0.231 \text{ m}) = 0.462 \text{ m} = 46.2 \text{ cm}$$
 </div>
 
-__(d)__ and __(e)__
+**(d)** and **(e)**
 
 **Discussion**
 
@@ -1613,7 +1650,7 @@ In reality, high-power transmission uses voltages in the hundreds of kilovolts (
 
 ::: problem
 
-__Construct Your Own Problem__
+**Construct Your Own Problem**
 
 Consider an electric immersion heater used to heat a cup of water to make tea.
 Construct a problem in which you calculate the needed resistance of the heater
@@ -1627,11 +1664,40 @@ reached in the immersion unit.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose water and cup masses, a target temperature and heating time, and an efficiency; then use energy balance and $$P=V_{\text{rms}}^2/R$$.
+
+**Solution**
+
+Illustrative givens: $$0.250\text{ kg}$$ of water, a $$0.100\text{ kg}$$ ceramic cup, temperature rise from $$20\text{ °C}$$ to $$90\text{ °C}$$, time $$180\text{ s}$$, and supply $$120\text{ V}$$ rms. Assume $$c_w=4186\text{ J/(kg}\cdot\text{K)}$$, $$c_c=840\text{ J/(kg}\cdot\text{K)}$$, and 85% of electrical energy reaches the water and cup. Neglect evaporation below the target. The needed thermal energy is
+
+$$Q=[(0.250\text{ kg})(4186\text{ J/(kg}\cdot\text{K)})+(0.100\text{ kg})(840\text{ J/(kg}\cdot\text{K)})](70\text{ K})=7.91\times10^4\text{ J}.$$
+
+Thus
+
+$$E_{\text{el}}=\frac{7.91\times10^4\text{ J}}{0.85}=9.31\times10^4\text{ J},\qquad P=\frac{9.31\times10^4\text{ J}}{180\text{ s}}=517\text{ W},$$
+
+$$R=\frac{(120\text{ V})^2}{517\text{ W}}=27.8\text{ Ω}.$$
+
+Using an assumed tariff of 0.20 dollars per kilowatt-hour,
+
+$$E_{\text{el}}=\frac{9.31\times10^4\text{ J}}{3.60\times10^6\text{ J/(kW}\cdot\text{h)}}=0.0259\text{ kW}\cdot\text{h},\qquad \text{cost}=(0.0259\text{ kW}\cdot\text{h})\frac{0.20\text{ dollars}}{\text{kW}\cdot\text{h}}=0.0052\text{ dollars}.$$
+
+**Discussion**
+
+The current is $$I=(517\text{ W})/(120\text{ V})=4.31\text{ A}$$, and the heating power is reasonable for a small immersion heater. A temperature switch could interrupt power at the chosen water temperature; a separate element-temperature limit would address overheating if uncovered. This is a thermal calculation, not a construction specification. The illustrative operating resistance is **$$27.8\text{ Ω}$$**, heating takes **$$3.0\text{ min}$$**, and the electrical energy costs **about half a cent** at the assumed tariff.
+
+:::
+
 </div>
 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 electric power

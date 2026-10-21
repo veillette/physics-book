@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300" role="img" aria-labelledby="title desc">
+<title id="title">Path of a jogger’s falling hat in two frames</title>
+<desc id="desc">Left, in the jogger’s frame: the hat falls straight down from the back of the jogger’s head and lands just behind the heels. Right, as seen by a stationary observer: the jogger runs forward and the hat follows a parabola forward, keeping pace with the jogger, landing behind the jogger’s heels at the jogger’s new position.</desc>
+<rect width="700" height="300" fill="#ffffff"/>
+<text x="12" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Jogger</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">frame</tspan></text>
+<line x1="10" y1="250" x2="340" y2="250" stroke="#222222" stroke-width="2"/>
+<line x1="16" y1="250" x2="8" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="30" y1="250" x2="22" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="44" y1="250" x2="36" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="58" y1="250" x2="50" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="72" y1="250" x2="64" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="86" y1="250" x2="78" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="100" y1="250" x2="92" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="114" y1="250" x2="106" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="128" y1="250" x2="120" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="142" y1="250" x2="134" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="156" y1="250" x2="148" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="170" y1="250" x2="162" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="184" y1="250" x2="176" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="198" y1="250" x2="190" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="212" y1="250" x2="204" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="226" y1="250" x2="218" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="240" y1="250" x2="232" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="254" y1="250" x2="246" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="268" y1="250" x2="260" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="282" y1="250" x2="274" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="296" y1="250" x2="288" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="310" y1="250" x2="302" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="324" y1="250" x2="316" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="338" y1="250" x2="330" y2="259" stroke="#666666" stroke-width="1"/>
+<circle cx="179" cy="165" r="9" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<line x1="170" y1="208" x2="176" y2="176" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<polyline points="170,208 184,228 192,250" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="170,208 160,230 148,242" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="175,184 190,196 200,184" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="175,184 160,200 150,210" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<line x1="166" y1="152" x2="166" y2="244" stroke="#c62828" stroke-width="2.5" stroke-dasharray="6 4"/>
+<rect x="156" y="144" width="20" height="8" fill="#c62828"/>
+<text x="150" y="204.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">straight</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan></text>
+<line x1="350" y1="10" x2="350" y2="290" stroke="#cccccc" stroke-width="1"/>
+<text x="362" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Stationary</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">observer</tspan></text>
+<line x1="360" y1="250" x2="690" y2="250" stroke="#222222" stroke-width="2"/>
+<line x1="366" y1="250" x2="358" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="380" y1="250" x2="372" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="394" y1="250" x2="386" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="408" y1="250" x2="400" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="422" y1="250" x2="414" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="436" y1="250" x2="428" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="450" y1="250" x2="442" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="464" y1="250" x2="456" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="478" y1="250" x2="470" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="492" y1="250" x2="484" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="506" y1="250" x2="498" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="520" y1="250" x2="512" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="534" y1="250" x2="526" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="548" y1="250" x2="540" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="562" y1="250" x2="554" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="576" y1="250" x2="568" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="590" y1="250" x2="582" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="604" y1="250" x2="596" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="618" y1="250" x2="610" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="632" y1="250" x2="624" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="646" y1="250" x2="638" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="660" y1="250" x2="652" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="674" y1="250" x2="666" y2="259" stroke="#666666" stroke-width="1"/>
+<line x1="688" y1="250" x2="680" y2="259" stroke="#666666" stroke-width="1"/>
+<circle cx="419" cy="165" r="9" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<line x1="410" y1="208" x2="416" y2="176" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<polyline points="410,208 424,228 432,250" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="410,208 400,230 388,242" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="415,184 430,196 440,184" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="415,184 400,200 390,210" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="609" cy="165" r="9" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<line x1="600" y1="208" x2="606" y2="176" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<polyline points="600,208 614,228 622,250" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="600,208 590,230 578,242" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="605,184 620,196 630,184" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="605,184 590,200 580,210" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<line x1="450" y1="80" x2="529" y2="80" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="540,80 528,84.8 528,75.2" fill="#5e9e1e"/>
+<text x="495" y="66.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">jogger</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">hat</tspan></text>
+<polyline points="406,152 410.75,152.06 415.5,152.23 420.25,152.52 425,152.92 429.75,153.44 434.5,154.07 439.25,154.82 444,155.68 448.75,156.66 453.5,157.75 458.25,158.96 463,160.28 467.75,161.72 472.5,163.27 477.25,164.94 482,166.72 486.75,168.62 491.5,170.63 496.25,172.76 501,175 505.75,177.36 510.5,179.83 515.25,182.42 520,185.12 524.75,187.94 529.5,190.87 534.25,193.92 539,197.08 543.75,200.36 548.5,203.75 553.25,207.26 558,210.88 562.75,214.62 567.5,218.47 572.25,222.44 577,226.52 581.75,230.72 586.5,235.03 591.25,239.46 596,244" fill="none" stroke="#c62828" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<rect x="396" y="144" width="20" height="8" fill="#c62828"/>
+<text x="520" y="224.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">parabola</tspan></text>
+</svg>

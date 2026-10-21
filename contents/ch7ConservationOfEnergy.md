@@ -284,8 +284,31 @@ farther down the hill, then up and over a small crest. He then coasts down that 
 station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the 
 car has, and how they are changed and transferred in this series of events. (See [Figure 3](#Figure3).)
 
-![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02.jpg 'A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.')
+![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02.svg 'A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.')
 {: #Figure3}
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Follow the car through each stage of the trip and list the forms of energy that change, using the work-energy relation $$ \KE_{i} + \PE_{i} + W_{nc} = \KE_{f} + \PE_{f} $$.
+
+**Solution**
+
+Take $$ +y $$ upward, so gravitational potential energy $$ mgh $$ decreases as the car descends. Consider a $$ 1000 \kg $$ car.
+
+1. **Accelerating down the hill under power.** The engine converts the **chemical energy** of gasoline into **kinetic energy** (and much thermal energy in the engine and exhaust). At the same time **gravitational potential energy** is converted into kinetic energy as the car descends. Friction and air resistance convert some of the energy into **thermal energy** (and some sound).
+2. **Coasting down.** The fuel has run out. Gravitational potential energy is converted into kinetic energy and into thermal energy by friction. Descending $$ 20 \m $$ releases $$ (1000 \kg)(9.80 \mss)(20 \m) = 196{,}000 \J $$ of gravitational potential energy.
+3. **Up and over the crest.** Kinetic energy is converted back into gravitational potential energy as the car climbs, so it slows down. Friction continues to remove energy as heat.
+4. **Down into the station.** Gravitational potential energy is again converted into kinetic energy (minus friction losses).
+5. **Braking to a stop.** The brakes convert all the remaining kinetic energy into thermal energy in the brake pads and discs. At $$ 10 \ms $$, that is $$ \tfrac{1}{2}(1000 \kg)(10 \ms)^2 = 50{,}000 \J $$.
+6. **Filling the tank.** Chemical energy, in the form of gasoline, is transferred into the car, ready to be converted again. (Pumping the fuel also takes electrical energy.)
+
+Throughout, the total energy is conserved. Energy is only transferred and transformed, and most of it ends up as thermal energy of the car, road, and air.
+
+The car's energy takes the forms of chemical energy (gasoline), kinetic energy, gravitational potential energy, and thermal energy; the engine turns chemical energy into kinetic energy, gravity exchanges potential and kinetic energy on the hills, friction and the brakes turn energy into thermal energy (for example, $$ 50{,}000 \J $$ to stop a $$ 1000 \kg $$ car from $$ 10 \ms $$), and filling the tank adds chemical energy.
 
 ::::
 
@@ -299,6 +322,26 @@ Describe the energy transfers and transformations for a javelin, starting from t
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Follow the javelin from pick-up to its stop in the ground, noting at each stage where its energy comes from and where it goes. Take $$ +y $$ upward, so gravitational potential energy increases with height.
+
+**Solution**
+
+Consider an $$ 0.80 \kg $$ javelin.
+
+1. **Picking it up.** The athlete's muscles convert **chemical energy** from food into **gravitational potential energy** of the javelin as they lift it, about $$ (0.80 \kg)(9.80 \mss)(1.8 \m) = 14 \J $$ to shoulder height (and much thermal energy in the body).
+2. **Run-up and throw.** The muscles do work on the javelin, converting chemical energy into its **kinetic energy**. At a release speed of $$ 28 \ms $$, $$ \KE = \tfrac{1}{2}(0.80 \kg)(28 \ms)^2 = 314 \J $$. The athlete's body also gains kinetic energy and becomes warm.
+3. **Rising.** Kinetic energy is converted into gravitational potential energy as the javelin climbs and its vertical velocity decreases. Air resistance converts some energy into **thermal energy** of the air.
+4. **Falling.** Gravitational potential energy is converted back into kinetic energy (minus air resistance losses).
+5. **Sticking into the ground.** The ground exerts a large force over a short distance, converting the kinetic energy into **thermal energy** of the ground and javelin, **sound**, and the work of deforming the soil.
+
+The javelin's energy comes from the athlete's chemical energy (food), becomes gravitational potential energy and kinetic energy (about $$ 314 \J $$ at release), is exchanged between kinetic and gravitational potential energy in flight while air resistance turns some into heat, and ends as thermal energy, sound, and deformation of the ground when the javelin sticks in.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -306,6 +349,34 @@ Describe the energy transfers and transformations for a javelin, starting from t
 :::: problem
 
 Do devices with efficiencies of less than one violate the law of conservation of energy? Explain.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Use the definition of efficiency, $$ \text{Eff} = W_{\text{out}}/E_{\text{in}} $$, and account for all the energy that goes in.
+
+**Solution**
+
+No. Efficiency compares only the **useful** energy output with the energy input. The rest of the energy is not destroyed; it is converted into forms we do not want, mostly thermal energy, along with sound and light.
+
+For example, a car engine with an efficiency of $$ 25\% $$ that burns fuel containing $$ 1000 \J $$ of chemical energy produces
+
+<div class="equation">
+$$ W_{\text{out}} = (0.25)(1000 \J) = 250 \J $$
+</div>
+
+of useful work. The other $$ 750 \J $$ leaves as thermal energy in the exhaust gas, the radiator, and the surroundings. Adding everything up,
+
+<div class="equation">
+$$ 250 \J + 750 \J = 1000 \J $$
+</div>
+
+so the total energy is conserved. An efficiency less than 1 says that some energy is not put to the use we want, not that any energy has been lost from the universe.
+
+Devices with efficiencies less than one do not violate conservation of energy, because the energy not converted into useful work (for example, $$ 750 \J $$ of every $$ 1000 \J $$ in a $$ 25\% $$ efficient engine) still exists, mostly as thermal energy, so the total energy output equals the input.
 
 ::::
 
@@ -319,6 +390,25 @@ List four different forms or types of energy. Give one example of a conversion f
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Name four forms of energy, and for each give a common device or process that converts it into another form, with a typical amount.
+
+**Solution**
+
+1. **Chemical energy → thermal energy.** Burning natural gas in a furnace releases about $$ 50 \text{ MJ} $$ of thermal energy per kilogram of gas.
+2. **Electrical energy → kinetic energy.** An electric motor in a fan turns $$ 60 \J $$ of electrical energy each second ($$ 60 \text{ W} $$) mostly into kinetic energy of the blades and air.
+3. **Gravitational potential energy → kinetic energy.** Water falling $$ 50 \m $$ at a dam gains $$ (1.0 \kg)(9.80 \mss)(50 \m) = 490 \J $$ of kinetic energy per kilogram, which a turbine and generator then convert into electrical energy.
+4. **Nuclear energy → thermal energy.** In a nuclear reactor, the fission of uranium nuclei converts nuclear energy into thermal energy, about $$ 3.2 \times 10^{-11} \J $$ per fission, which boils water to drive turbines.
+
+Other forms include light (radiant) energy, which a solar cell converts into electrical energy, and elastic potential energy, which a drawn bow converts into the kinetic energy of an arrow.
+
+Four forms of energy are chemical energy (burned in a furnace to give thermal energy), electrical energy (turned into kinetic energy by a motor), gravitational potential energy (turned into kinetic energy by falling water, $$ 490 \J $$ per kilogram for a $$ 50 \m $$ drop), and nuclear energy (turned into thermal energy in a reactor).
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -326,6 +416,26 @@ List four different forms or types of energy. Give one example of a conversion f
 :::: problem
 
 List the energy conversions that occur when riding a bicycle.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Follow the energy from the rider's food to the bicycle's motion and on to its final forms, including the effects of hills and braking.
+
+**Solution**
+
+1. **Chemical → work and thermal energy.** The rider's muscles convert chemical energy from food into work on the pedals. The body is only about $$ 20\% $$ efficient, so for every $$ 100 \J $$ of food energy used, about $$ 20 \J $$ becomes work and $$ 80 \J $$ becomes thermal energy, which is why the rider gets hot.
+2. **Work → kinetic energy.** Through the chain and gears, the work on the pedals becomes kinetic energy of the bicycle and rider. For a $$ 75 \kg $$ rider and bicycle at $$ 8.0 \ms $$, $$ \KE = \tfrac{1}{2}(75 \kg)(8.0 \ms)^2 = 2400 \J $$.
+3. **Kinetic → thermal energy.** Air resistance, rolling resistance, and friction in the chain and bearings continuously convert kinetic energy into thermal energy and some sound. On level ground at constant speed, the rider's work just replaces these losses.
+4. **Kinetic ↔ gravitational potential energy.** Climbing a hill converts kinetic energy and work into gravitational potential energy. Coasting down converts it back into kinetic energy.
+5. **Braking: kinetic → thermal energy.** The brakes convert kinetic energy into thermal energy in the brake pads and rims.
+
+The total energy is conserved at every step; nearly all of the food energy ends up as thermal energy of the rider, the bicycle, and the air.
+
+Riding a bicycle converts chemical energy from food into work by the muscles (with about $$ 80\% $$ becoming body heat), the work into kinetic energy (about $$ 2400 \J $$ at $$ 8.0 \ms $$ for $$ 75 \kg $$), kinetic energy into thermal energy through air resistance, friction, and braking, and kinetic energy back and forth with gravitational potential energy on hills.
 
 ::::
 
@@ -382,6 +492,12 @@ Using energy considerations and assuming negligible air resistance, show that a 
 **Strategy**
 
 Use conservation of mechanical energy. Since air resistance is negligible, only conservative forces act (gravity), so the total mechanical energy is conserved: $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$. The initial kinetic energy depends only on the magnitude of velocity, not its direction, and the change in potential energy depends only on the vertical height change.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the water surface and 20.0 m at the bridge. The rock leaves the bridge at v_0 = 15.0 m/s, thrown upward at an angle, horizontally, or downward at an angle; each path ends at the water (y = 0) with an unknown speed v_f.](../resources/sketch_07_06_p02.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the water, so the rock starts at $$ h = +20.0\m $$ and ends at $$ 0 $$. Energy is a scalar, so only the speed $$ v_0 $$ and the drop in height enter, not the direction of the throw.
 
 **Solution**
 

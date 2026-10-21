@@ -149,6 +149,32 @@ Discuss how the Hall effect could be used to obtain information on free charge d
 
 :::
 
+::: solution
+
+**Strategy**
+
+The Hall emf across a strip of width $$ w $$ is $$ \text{emf} = Bwv_{\text{d}} $$, where $$ v_{\text{d}} $$ is the drift velocity. The drift velocity is related to the current by $$ I = nqAv_{\text{d}} $$, where $$ A = wt $$ is the cross-sectional area and $$ t $$ the thickness. Combine the two to express the free-charge density $$ n $$ in terms of measurable quantities.
+
+**Solution**
+
+Solving the current equation for the drift velocity and substituting,
+
+<div class="equation">
+$$ v_{\text{d}} = \frac{I}{nqwt} \quad \Rightarrow \quad \text{emf} = Bw\frac{I}{nqwt} = \frac{IB}{nqt} \quad \Rightarrow \quad n = \frac{IB}{qt\,\text{emf}} $$
+</div>
+
+Measure the current, the field, the strip's thickness, and the Hall voltage. For example, a copper strip $$ 0.100 \text{ mm} $$ thick carrying $$ 10.0 \text{ A} $$ in a $$ 1.00\text{-T} $$ field shows a Hall voltage of $$ 7.4 \ \mu\text{V} $$:
+
+<div class="equation">
+$$ n = \frac{(10.0 \text{ A})(1.00 \text{ T})}{(1.60 \times 10^{-19} \text{ C})(1.00 \times 10^{-4} \m)(7.4 \times 10^{-6} \text{ V})} = 8.4 \times 10^{28} \ \text{m}^{-3} $$
+</div>
+
+which is about one free electron per copper atom. The polarity of the Hall voltage also reveals the sign of the charge carriers. Because $$ n $$ appears in the denominator, materials with few carriers, such as semiconductors, give much larger Hall voltages.
+
+The Hall effect gives the free charge density because the Hall voltage depends on the drift velocity, which for a given current is inversely proportional to the density of carriers, so measuring the current, field, thickness, and Hall voltage gives $$ n = IB/(qt\,\text{emf}) $$ (about $$ 8.4 \times 10^{28} \ \text{m}^{-3} $$ for copper in this example), and the sign of the Hall voltage gives the sign of the carriers.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -417,9 +443,9 @@ $$V_H=\frac{BdI}{neA}.$$
 
 With $$d=2.588\times10^{-3}\ \text{m}$$, $$A=\pi d^2/4=5.26\times10^{-6}\ \text{m}^2$$, and $$n=8.34\times10^{28}\ \text{m}^{-3}$$,
 
-$$v_d=\frac{20.0}{(8.34\times10^{28})(1.60\times10^{-19})(5.26\times10^{-6})}=2.85\times10^{-4}\ \text{m/s},$$
+$$v_d=\frac{20.0\ \text{A}}{(8.34\times10^{28}\ \text{m}^{-3})(1.60\times10^{-19}\ \text{C})(5.26\times10^{-6}\ \text{m}^2)}=2.85\times10^{-4}\ \text{m/s},$$
 
-$$V_H=(2.00)(2.588\times10^{-3})(2.85\times10^{-4})=1.47\times10^{-6}\ \text{V}=1.47\ \mu\text{V}.$$
+$$V_H=(2.00\ \text{T})(2.588\times10^{-3}\ \text{m})(2.85\times10^{-4}\ \text{m/s})=1.47\times10^{-6}\ \text{V}=1.47\ \mu\text{V}.$$
 
 The large carrier density in copper makes this voltage very small.
 

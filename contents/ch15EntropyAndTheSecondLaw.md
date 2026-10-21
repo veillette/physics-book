@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes.
-* Explain the expected fate of the universe in entropic terms.
-* Calculate the increasing disorder of a system.
+- Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes.
+- Explain the expected fate of the universe in entropic terms.
+- Calculate the increasing disorder of a system.
 
 :::
 
@@ -107,9 +108,9 @@ processes. The following example illustrates this point.
 Entropy Increases in an Irreversible (Real) Process
 </div>
 
-Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat transfer occurs from a hot reservoir at  $${T}_{\text{h}}=600 \text{K}\left(327 \text{ºC}\right) $$
- to a cold reservoir at  $${T}_{\text{c}}=250 \text{K}\left(-23 \text{ºC}\right) $$ ,
- assuming there is no temperature change in either reservoir. (See [[Figure 2]](#Figure2).)
+Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat transfer occurs from a hot reservoir at $${T}_{\text{h}}=600 \text{K}\left(327 \text{ºC}\right) $$
+to a cold reservoir at $${T}_{\text{c}}=250 \text{K}\left(-23 \text{ºC}\right) $$ ,
+assuming there is no temperature change in either reservoir. (See [[Figure 2]](#Figure2).)
 
 **Strategy**
 
@@ -223,7 +224,7 @@ Now the work output can be calculated using the definition of efficiency for any
  $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}}\text{.} $$
 </div>
 
-Solving for  $$W $$  and substituting known terms gives
+Solving for $$W $$ and substituting known terms gives
 
 <div class="equation" >
  $$\begin{array}{lll}W& =& {\text{Eff}}_{\text{C}}{Q}_{\text{h}}\\ & =& \left(0.833\right)\left(4000 \text{J}\right)=3333 \text{J} \text{.} \end{array} $$
@@ -344,8 +345,8 @@ process, as seen in the following example.
 Entropy Associated with Disorder
 </div>
 
-Find the increase in entropy of 1.00 kg of ice originally at  $$0º C $$
- that is melted to form water at  $$0º C $$.
+Find the increase in entropy of 1.00 kg of ice originally at $$0º C $$
+that is melted to form water at $$0º C $$.
 
 **Strategy**
 
@@ -360,17 +361,17 @@ The change in entropy is defined as:
  $$ \Delta S =\frac{Q}{T}\text{.} $$
 </div>
 
-Here  $$Q $$
- is the heat transfer necessary to melt 1.00 kg of ice and is given by
+Here $$Q $$
+is the heat transfer necessary to melt 1.00 kg of ice and is given by
 
 <div class="equation" >
  $$Q=m L_{\text{f}}\text{,} $$
 </div>
 
-where  $$m $$
- is the mass and  $${L}_{\text{f}} $$
- is the latent heat of fusion.  $${L}_{\text{f}}=334 \text{kJ/kg} $$
- for water, so that
+where $$m $$
+is the mass and $${L}_{\text{f}} $$
+is the latent heat of fusion. $${L}_{\text{f}}=334 \text{kJ/kg} $$
+for water, so that
 
 <div class="equation" >
  $$Q=\left(1.00 \text{kg}\right)\left(334 \text{kJ/kg}\right)= 3.34 \times 10^{5}  \text{J} \text{.}  $$
@@ -382,9 +383,9 @@ Now the change in entropy is positive, since heat transfer occurs into the ice t
  $$\Delta S=\frac{Q}{T}=\frac{ 3.34 \times 10^{5}  \text{J}}{T}\text{.} $$
 </div>
 
- $$T $$
- is the melting temperature of ice. That is,  $$T=0\text{ºC}=273 \text{K} $$ .
- So the change in entropy is
+$$T $$
+is the melting temperature of ice. That is, $$T=0\text{ºC}=273 \text{K} $$ .
+So the change in entropy is
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta S& =& \frac{ 3.34 \times 10^{5}  \text{J}}{273 \text{K}}\\ & =&  1.22 \times 10^{3}  \text{J/K} \text{.} \end{array} $$
@@ -400,7 +401,7 @@ This is a significant increase in entropy accompanying an increase in disorder.
 {: #Figure5}
 
 In another easily imagined example, suppose we mix equal masses of water
-originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0 \text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy 
+originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0 \text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy
 has become unavailable to do work, and the system has become less orderly. Let
 us think about each of these results.
 
@@ -500,6 +501,22 @@ A woman shuts her summer cottage up in September and returns in June. No one has
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider irreversible processes that continue without human activity, while recognizing that the cottage exchanges energy with its environment.
+
+**Solution**
+
+Temperature differences relax, odors and moisture diffuse, and exposed materials may corrode, decay, or collect dust if the conditions permit. Each irreversible process produces entropy in the cottage and its surroundings together. Seasonal heating and cooling, sunlight, air leakage, and biological activity mean the cottage is not an isolated system.
+
+**Discussion**
+
+The second law alone does not predict a particular amount of dirt or damage, and a sealed dry cottage may change little visibly. She is likely to find evidence of environmental equilibration and possibly deterioration, with no violation of the increase of total entropy.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -507,6 +524,22 @@ A woman shuts her summer cottage up in September and returns in June. No one has
 ::: problem
 
 Consider a system with a certain energy content, from which we wish to extract as much work as possible. Should the system’s entropy be high or low? Is this orderly or disorderly? Structured or uniform? Explain briefly.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Fix the system’s energy, volume, composition, and environment when comparing available work.
+
+**Solution**
+
+Under the same constraints, a lower-entropy state is generally farther from equilibrium with its surroundings and has more available work. A hot region beside a cold region, for example, can drive a heat engine until their temperatures approach equality. In the textbook’s qualitative language, the low-entropy state is more ordered or structured, whereas an equilibrated high-entropy state is more uniform.
+
+**Discussion**
+
+Entropy is not simply visual tidiness, and available work depends on the environment as well as energy. To extract the greatest work under otherwise fixed conditions, prefer the lower-entropy state with usable structure or gradients.
 
 :::
 
@@ -520,6 +553,22 @@ Does a gas become more orderly when it liquefies? Does its entropy change? If so
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the liquid and vapor at their coexistence temperature.
+
+**Solution**
+
+Condensation restricts molecular positions and transfers latent heat to the surroundings. For a reversible condensation of mass $$m$$ at temperature $$T$$, $$\Delta S_{\text{substance}}=-mL_v/T<0$$. The liquid is more ordered in the sense of having fewer accessible configurations than the vapor under these coexistence conditions.
+
+**Discussion**
+
+The released heat raises the surroundings’ entropy, so the substance’s entropy decrease does not violate the second law. A gas normally becomes more ordered and its entropy decreases when it liquefies.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -527,6 +576,22 @@ Does a gas become more orderly when it liquefies? Does its entropy change? If so
 ::: problem
 
 Explain how water’s entropy can decrease when it freezes without violating the second law of thermodynamics. Specifically, explain what happens to the entropy of its surroundings.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Include the entropy gained by the cold surroundings receiving latent heat.
+
+**Solution**
+
+When mass $$m$$ freezes at its melting temperature $$T_m$$, its entropy change is $$\Delta S_{\text{water}}=-mL_f/T_m$$. Surroundings at $$T_s<T_m$$ receive approximately $$mL_f$$ and gain $$\Delta S_{\text{surroundings}}=mL_f/T_s$$. Because $$1/T_s>1/T_m$$, the total change $$mL_f(1/T_s-1/T_m)$$ is positive.
+
+**Discussion**
+
+At the reversible limit of equal temperatures, the total change is zero. Water can lose entropy on freezing because the surroundings gain at least as much entropy, keeping the total from decreasing.
 
 :::
 
@@ -540,6 +605,22 @@ Is a uniform-temperature gas more or less orderly than one with several differen
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare states with the same total energy and other constraints.
+
+**Solution**
+
+A gas in thermal equilibrium at uniform temperature has higher entropy than a comparable state with hot and cold regions. The nonuniform state has usable thermal structure: heat can pass from its hot region through an engine to its cold region, producing work without heat input from another system. The uniform-temperature gas has no such internal thermal gradient.
+
+**Discussion**
+
+The gas may still do work by expansion or another nonequilibrium resource, so uniform temperature does not imply zero available work of every kind. The uniform-temperature state is less thermally structured, while the nonuniform state can produce work as its internal temperature difference relaxes.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -547,6 +628,22 @@ Is a uniform-temperature gas more or less orderly than one with several differen
 ::: problem
 
 Give an example of a spontaneous process in which a system becomes less ordered and energy becomes less available to do work. What happens to the system’s entropy in this process?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose a process that removes a useful temperature difference.
+
+**Solution**
+
+Place a hot metal block in thermal contact with a cooler block inside an insulated enclosure. Heat flows spontaneously from hot to cold until their temperatures equalize. The initial temperature difference could have powered a heat engine; direct conduction uses up that opportunity without extracting work. During transfer of a small energy amount $$dQ$$, $$dS_{\text{total}}=dQ(1/T_c-1/T_h)>0$$.
+
+**Discussion**
+
+The total energy is conserved, but the temperature structure disappears and less energy remains available for work relative to the surroundings. The isolated two-block system’s entropy increases during this spontaneous equilibration.
 
 :::
 
@@ -560,6 +657,22 @@ What is the change in entropy in an adiabatic process? Does this imply that adia
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the entropy balance rather than treating $$Q/T$$ as the entropy change of every process.
+
+**Solution**
+
+For a closed adiabatic system, no entropy crosses the boundary with heat, but entropy can be produced internally: $$\Delta S=S_{\text{generated}}\ge0$$. A reversible adiabatic process has $$\Delta S=0$$; an irreversible one, such as insulated frictional stirring or free expansion, has $$\Delta S>0$$. Perfectly adiabatic boundaries are an idealization, although insulation or short duration can make heat transfer negligible.
+
+**Discussion**
+
+An exactly zero net heat exchange can occur in an ideal model or special balance, but adiabatic usually means negligible heat exchange throughout the process. Adiabatic does not imply reversible, and its entropy change is zero only when no entropy is generated.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -567,6 +680,22 @@ What is the change in entropy in an adiabatic process? Does this imply that adia
 ::: problem
 
 Does the entropy of a star increase or decrease as it radiates? Does the entropy of the space into which it radiates (which has a temperature of about 3 K) increase or decrease? What does this do to the entropy of the universe?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate the entropy exported by radiation from entropy produced within a real star.
+
+**Solution**
+
+If a body at effective temperature $$T_\star$$ loses a small energy $$Q$$ while otherwise changing reversibly, the cooling contribution is approximately $$\Delta S_\star=-Q/T_\star$$. Absorbing that energy in a much colder environment at $$T_{\text{space}}\approx3\text{ K}$$ gives an entropy gain approximately $$Q/T_{\text{space}}$$, far larger in magnitude. Thermal radiation itself also carries entropy; a blackbody emits entropy at the rate $$\dot S_{\text{radiation}}=4L/(3T_\star)$$.
+
+**Discussion**
+
+A real star also generates entropy through nuclear reactions and transport and changes structure gravitationally, so radiation alone does not determine the sign of its total entropy change. Radiation exports entropy from the star and increases the surroundings’ entropy, with total entropy of the universe increasing for this irreversible hot-to-cold transfer.
 
 :::
 
@@ -580,6 +709,22 @@ Explain why a building made of bricks has smaller entropy than the same bricks i
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the numbers of configurations consistent with the two coarse descriptions.
+
+**Solution**
+
+A building requires bricks in a narrow range of positions and orientations that preserve its walls and openings. A “disorganized pile” allows many more placements and orientations. If the compatible counts are $$\Omega_{\text{building}}$$ and $$\Omega_{\text{pile}}$$, this configurational contribution gives $$\Delta S=k_B\ln(\Omega_{\text{pile}}/\Omega_{\text{building}})>0$$ when the latter count is larger.
+
+**Discussion**
+
+The microscopic thermal states of the bricks also contribute, and entropy depends on the constraints used to define the macrostates. In the intended configurational comparison, the pile has greater entropy because many more arrangements qualify as a pile than as the specified building.
+
+:::
+
 </div>
 
 ### Problem Exercises
@@ -588,10 +733,10 @@ Explain why a building made of bricks has smaller entropy than the same bricks i
 
 ::: problem
 
-(a) On a winter day, a certain house loses  $$ 5.00 \times 10^{8}  \text{J} $$
- of heat to the outside (about 500 000 Btu). What is the total change in entropy due to this heat transfer alone, assuming an average indoor temperature of  $$21.0 \text{ºC} $$
- and an average outdoor temperature of  $$5.00º C $$ ?
- (b) This large change in entropy implies a large amount of energy has become unavailable to do work. Where do we find more energy when such energy is lost to us?
+(a) On a winter day, a certain house loses $$ 5.00 \times 10^{8}  \text{J} $$
+of heat to the outside (about 500 000 Btu). What is the total change in entropy due to this heat transfer alone, assuming an average indoor temperature of $$21.0 \text{ºC} $$
+and an average outdoor temperature of $$5.00º C $$ ?
+(b) This large change in entropy implies a large amount of energy has become unavailable to do work. Where do we find more energy when such energy is lost to us?
 
 :::
 
@@ -606,13 +751,13 @@ Calculate entropy change for both house (losing heat) and outside (gaining heat)
 Given: $$Q = 5.00 \times 10^{8} \text{ J}$$, $$T_{in} = 21.0°\text{C} = 294 \text{ K}$$, $$T_{out} = 5.00°\text{C} = 278 \text{ K}$$
 
 **(a)** Entropy decrease of house:
-$$\Delta S_{in} = -\frac{Q}{T_{in}} = -\frac{5.00 \times 10^{8}}{294} = -1.70 \times 10^{6} \text{ J/K}$$
+$$\Delta S_{in} = -\frac{Q}{T_{in}} = -\frac{5.00 \times 10^{8} \text{ J}}{294 \text{ K}} = -1.70 \times 10^{6} \text{ J/K}$$
 
 Entropy increase of outside:
-$$\Delta S_{out} = \frac{Q}{T_{out}} = \frac{5.00 \times 10^{8}}{278} = 1.80 \times 10^{6} \text{ J/K}$$
+$$\Delta S_{out} = \frac{Q}{T_{out}} = \frac{5.00 \times 10^{8} \text{ J}}{278 \text{ K}} = 1.80 \times 10^{6} \text{ J/K}$$
 
 Total entropy change:
-$$\Delta S_{total} = -1.70 \times 10^{6} + 1.80 \times 10^{6} = 9.78 \times 10^{4} \text{ J/K}$$
+$$\Delta S_{total} = -1.70 \times 10^{6} \text{ J/K} + 1.80 \times 10^{6} \text{ J/K} = 9.78 \times 10^{4} \text{ J/K}$$
 
 **(b)** We generate energy from furnaces, heat pumps, and appliances within the house. This large entropy increase shows significant energy becomes unavailable for work.
 
@@ -628,10 +773,10 @@ The positive total entropy change (97,800 J/K) confirms this is an irreversible 
 
 ::: problem
 
-On a hot summer day,  $$ 4.00 \times 10^{6}  \text{J} $$
- of heat transfer into a parked car takes place, increasing its temperature from  $$35.0 \text{ºC} $$
- to  $$45.0 \text{ºC} $$ .
- What is the increase in entropy of the car due to this heat transfer alone?
+On a hot summer day, $$ 4.00 \times 10^{6}  \text{J} $$
+of heat transfer into a parked car takes place, increasing its temperature from $$35.0 \text{ºC} $$
+to $$45.0 \text{ºC} $$ .
+What is the increase in entropy of the car due to this heat transfer alone?
 
 :::
 
@@ -646,10 +791,10 @@ For variable temperature process, use average temperature: $$T_{avg} = \frac{T_1
 Given: $$Q = 4.00 \times 10^{6} \text{ J}$$, $$T_1 = 35.0°\text{C} = 308 \text{ K}$$, $$T_2 = 45.0°\text{C} = 318 \text{ K}$$
 
 Average temperature:
-$$T_{avg} = \frac{308 + 318}{2} = 313 \text{ K}$$
+$$T_{avg} = \frac{308 \text{ K} + 318 \text{ K}}{2} = 313 \text{ K}$$
 
 Entropy increase:
-$$\Delta S = \frac{Q}{T_{avg}} = \frac{4.00 \times 10^{6}}{313} = 1.28 \times 10^{4} \text{ J/K}$$
+$$\Delta S = \frac{Q}{T_{avg}} = \frac{4.00 \times 10^{6} \text{ J}}{313 \text{ K}} = 1.28 \times 10^{4} \text{ J/K}$$
 
 **Discussion**
 
@@ -663,9 +808,9 @@ The car's entropy increases by 12,800 J/K as it heats. This represents increased
 
 ::: problem
 
-A hot rock ejected from a volcano’s lava fountain cools from  $$1100 \text{ºC} $$
- to  $$40.0 \text{ºC} $$ ,
- and its entropy decreases by 950 J/K. How much heat transfer occurs from the rock?
+A hot rock ejected from a volcano’s lava fountain cools from $$1100 \text{ºC} $$
+to $$40.0 \text{ºC} $$ ,
+and its entropy decreases by 950 J/K. How much heat transfer occurs from the rock?
 
 :::
 
@@ -673,17 +818,17 @@ A hot rock ejected from a volcano’s lava fountain cools from  $$1100 \text{ºC
 
 **Strategy**
 
-Use $$\Delta S = \frac{Q}{T_{avg}}$$ and solve for Q. Average temperature: $$T_{avg} = \frac{1373 + 313}{2} = 843 \text{ K}$$.
+Use $$\Delta S = \frac{Q}{T_{avg}}$$ and solve for Q. Average temperature: $$T_{avg} = \frac{1373 \text{ K} + 313 \text{ K}}{2} = 843 \text{ K}$$.
 
 **Solution**
 
-$$Q = \Delta S \times T_{avg} = (-950)(843) = -8.01 \times 10^{5} \text{ J}$$
+$$Q = \Delta S \times T_{avg} = (-950 \text{ J/K})(843 \text{ K}) = -8.01 \times 10^{5} \text{ J}$$
 
 The negative sign indicates heat leaves the rock.
 
 **Discussion**
 
-The rock releases 801 kJ as it cools. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
+The rock releases about 801 kJ as it cools. This uses the average-temperature approximation $$\Delta S \approx Q/T_{\text{avg}}$$, which the text recommends only for small temperature changes; here the temperature falls by more than a factor of four. If the rock's heat capacity $$C$$ is constant, the exact relations are $$\Delta S = C\ln(T_f/T_i)$$ and $$Q = C(T_f - T_i)$$, so $$Q = \Delta S\,(T_f - T_i)/\ln(T_f/T_i) = (-950 \text{ J/K})(-1060 \text{ K})/\ln(313/1373) = -6.81 \times 10^{5} \text{ J}$$: the rock releases 681 kJ, about 15% less than the approximate value. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
 
 :::
 
@@ -693,9 +838,9 @@ The rock releases 801 kJ as it cools. The entropy decrease reflects the rock bec
 
 ::: problem
 
-When  $$ 1.60 \times 10^{5}  \text{J} $$
- of heat transfer occurs into a meat pie initially at  $$20.0 \text{ºC} $$ ,
- its entropy increases by 480 J/K. What is its final temperature?
+When $$ 1.60 \times 10^{5}  \text{J} $$
+of heat transfer occurs into a meat pie initially at $$20.0 \text{ºC} $$ ,
+its entropy increases by 480 J/K. What is its final temperature?
 
 :::
 
@@ -707,13 +852,13 @@ Use $$\Delta S = \frac{Q}{T_{avg}}$$ to find $$T_{avg}$$, then $$T_f = 2T_{avg} 
 
 **Solution**
 
-$$T_{avg} = \frac{Q}{\Delta S} = \frac{1.60 \times 10^{5}}{480} = 333 \text{ K}$$
+$$T_{avg} = \frac{Q}{\Delta S} = \frac{1.60 \times 10^{5} \text{ J}}{480 \text{ J/K}} = 333 \text{ K}$$
 
-$$T_f = 2(333) - 293 = 373 \text{ K} = 100°\text{C}$$
+$$T_f = 2(333 \text{ K}) - 293 \text{ K} = 373 \text{ K} = 100°\text{C}$$
 
 **Discussion**
 
-The pie heats to 100 °C (boiling point), reasonable for cooking. The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
+This uses the average-temperature approximation $$\Delta S \approx Q/T_{\text{avg}}$$, which gives a final temperature of about 100 °C. If the pie's heat capacity is constant and no water boils away, the exact relation $$\Delta S = Q\ln(T_f/T_i)/(T_f - T_i)$$ gives $$T_f = 377 \text{ K} \approx 104$$ °C instead, so the approximation is good to a few degrees here. (The closeness to water's boiling point is a coincidence of the numbers chosen; a pie that actually reached 100 °C would start to boil off water, which the calculation ignores.) The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
 
 :::
 
@@ -723,10 +868,10 @@ The pie heats to 100 °C (boiling point), reasonable for cooking. The 480 J/K en
 
 ::: problem
 
-The Sun radiates energy at the rate of  $$ 3.80 \times 10^{26}  \text{W} $$
- from its  $$5500 \text{ºC} $$
- surface into dark empty space (a negligible fraction radiates onto Earth and the other planets). The effective temperature of deep space is  $$-270 \text{ºC} $$ .
- (a) What is the increase in entropy in one day due to this heat transfer? (b) How much work is made unavailable?
+The Sun radiates energy at the rate of $$ 3.80 \times 10^{26}  \text{W} $$
+from its $$5500 \text{ºC} $$
+surface into dark empty space (a negligible fraction radiates onto Earth and the other planets). The effective temperature of deep space is $$-270 \text{ºC} $$ .
+(a) What is the increase in entropy in one day due to this heat transfer? (b) How much work is made unavailable?
 
 :::
 
@@ -738,17 +883,17 @@ Use the introductory two-reservoir model, approximating deep space as a cold res
 
 **Solution**
 
-$$Q=Pt=(3.80\times10^{26})(86400)=3.2832\times10^{31}\ \text{J}.$$
+$$Q=Pt=(3.80\times10^{26}\ \text{W})(86400\ \text{s})=3.2832\times10^{31}\ \text{J}.$$
 
 **(a)**
 
-$$\Delta S=Q\left(\frac1{T_c}-\frac1{T_h}\right)=3.2832\times10^{31}\left(\frac13-\frac1{5773}\right)=1.09\times10^{31}\ \text{J/K}.$$
+$$\Delta S=Q\left(\frac1{T_c}-\frac1{T_h}\right)=3.2832\times10^{31}\ \text{J}\left(\frac1{3\ \text{K}}-\frac1{5773\ \text{K}}\right)=1.09\times10^{31}\ \text{J/K}.$$
 
 The solar contribution is $$-5.69\times10^{27}\ \text{J/K}$$, much smaller than the cold-reservoir contribution of $$1.0944\times10^{31}\ \text{J/K}$$.
 
 **(b)**
 
-$$W_{\text{unavailable}}=T_c\Delta S=3(1.0938\times10^{31})=3.28\times10^{31}\ \text{J}.$$
+$$W_{\text{unavailable}}=T_c\Delta S=(3\ \text{K})(1.0938\times10^{31}\ \text{J/K})=3.28\times10^{31}\ \text{J}.$$
 
 This result assumes eventual heat absorption by a cold reservoir; it does not calculate the entropy carried by freely propagating radiation.
 
@@ -759,10 +904,10 @@ This result assumes eventual heat absorption by a cold reservoir; it does not ca
 
 ::: problem
 
-(a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at  $$40.0 \text{ºC} $$
- when it is placed in contact with 1.00 kg of  $$20.0 \text{ºC} $$
- water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be  $$20.0 \text{ºC} $$ ?
- Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1).
+(a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at $$40.0 \text{ºC} $$
+when it is placed in contact with 1.00 kg of $$20.0 \text{ºC} $$
+water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be $$20.0 \text{ºC} $$ ?
+Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1).
 
 :::
 
@@ -774,7 +919,7 @@ Treat both water samples as an isolated system with constant specific heat. Ener
 
 **(a)**
 
-$$Q=mc(40.0-30.0)=(1.00)(4186)(10.0)=4.19\times10^4\ \text{J}.$$
+$$Q=mc(40.0\ \text{°C}-30.0\ \text{°C})=(1.00\ \text{kg})(4186\ \text{J/(kg}\cdot\text{°C)})(10.0\ \text{°C})=4.19\times10^4\ \text{J}.$$
 
 **(b)** Using temperatures rounded consistently to 313, 303, and 293 K,
 
@@ -782,7 +927,7 @@ $$\Delta S=mc\left[\ln\frac{303}{313}+\ln\frac{303}{293}\right]=4.57\ \text{J/K}
 
 **(c)**
 
-$$W_{\text{unavailable}}=T_c\Delta S=(293)(4.57)=1.34\times10^3\ \text{J}.$$
+$$W_{\text{unavailable}}=T_c\Delta S=(293\ \text{K})(4.57\ \text{J/K})=1.34\times10^3\ \text{J}.$$
 
 The positive total entropy confirms that direct heat exchange is irreversible.
 
@@ -793,8 +938,8 @@ The positive total entropy confirms that direct heat exchange is irreversible.
 
 ::: problem
 
-What is the decrease in entropy of 25.0 g of water that condenses on a bathroom mirror at a temperature of  $$35.0 \text{ºC} $$ ,
- assuming no change in temperature and given the latent heat of vaporization to be 2450 kJ/kg?
+What is the decrease in entropy of 25.0 g of water that condenses on a bathroom mirror at a temperature of $$35.0 \text{ºC} $$ ,
+assuming no change in temperature and given the latent heat of vaporization to be 2450 kJ/kg?
 
 :::
 
@@ -806,7 +951,7 @@ For phase change at constant T: $$\Delta S = -\frac{mL_{v}}{T}$$ (negative for c
 
 **Solution**
 
-$$\Delta S = -\frac{(0.025)(2.45 \times 10^{6})}{308} = -199 \text{ J/K}$$
+$$\Delta S = -\frac{(0.025 \text{ kg})(2.45 \times 10^{6} \text{ J/kg})}{308 \text{ K}} = -199 \text{ J/K}$$
 
 **Discussion**
 
@@ -820,8 +965,8 @@ Entropy decreases by 199 J/K as water vapor becomes liquid—a more ordered stat
 
 ::: problem
 
-Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its boiling temperature, boils, and warms to  $$20.0 \text{ºC} $$
- at constant pressure.
+Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its boiling temperature, boils, and warms to $$20.0 \text{ºC} $$
+at constant pressure.
 
 :::
 
@@ -829,9 +974,9 @@ Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its bo
 
 Boiling and warming the gas contribute separately. With $$T_b=77\ \text{K}$$, $$T_f=293\ \text{K}$$, $$L_v=2.0\times10^5\ \text{J/kg}$$, and $$c_p=1040\ \text{J/(kg}\cdot\text{K)}$$,
 
-$$\Delta S_{\text{boil}}=\frac{mL_v}{T_b}=\frac{(1.00)(2.0\times10^5)}{77}=2.60\times10^3\ \text{J/K},$$
+$$\Delta S_{\text{boil}}=\frac{mL_v}{T_b}=\frac{(1.00\ \text{kg})(2.0\times10^5\ \text{J/kg})}{77\ \text{K}}=2.60\times10^3\ \text{J/K},$$
 
-$$\Delta S_{\text{warm}}=mc_p\ln\frac{T_f}{T_b}=(1.00)(1040)\ln\frac{293}{77}=1.39\times10^3\ \text{J/K}.$$
+$$\Delta S_{\text{warm}}=mc_p\ln\frac{T_f}{T_b}=(1.00\ \text{kg})(1040\ \text{J/(kg}\cdot\text{K)})\ln\frac{293}{77}=1.39\times10^3\ \text{J/K}.$$
 
 Adding the unrounded results gives **3.99 × 10³ J/K**. About 65% of the increase occurs during boiling.
 
@@ -842,14 +987,14 @@ Adding the unrounded results gives **3.99 × 10³ J/K**. About 65% of the increa
 
 ::: problem
 
-A large electrical power station generates 1000 MW of electricity with an efficiency of 35.0%. (a) Calculate the heat transfer to the power station,  $${Q}_{\text{h}} $$ ,
- in one day. (b) How much heat transfer  $${Q}_{\text{c}} $$
- occurs to the environment in one day? (c) If the heat transfer in the cooling towers is from  $$35.0 \text{ºC} $$
- water into the local air mass, which increases in temperature from  $$18.0 \text{ºC} $$
- to  $$20.0 \text{ºC} $$ ,
- what is the total increase in entropy due to this heat transfer? (d) How much energy becomes unavailable to do work because of this increase in entropy, assuming an  $$18.0 \text{ºC} $$
- lowest temperature? (Part of  $${Q}_{\text{c}} $$
- could be utilized to operate heat engines or for simply heating the surroundings, but it rarely is.)
+A large electrical power station generates 1000 MW of electricity with an efficiency of 35.0%. (a) Calculate the heat transfer to the power station, $${Q}_{\text{h}} $$ ,
+in one day. (b) How much heat transfer $${Q}_{\text{c}} $$
+occurs to the environment in one day? (c) If the heat transfer in the cooling towers is from $$35.0 \text{ºC} $$
+water into the local air mass, which increases in temperature from $$18.0 \text{ºC} $$
+to $$20.0 \text{ºC} $$ ,
+what is the total increase in entropy due to this heat transfer? (d) How much energy becomes unavailable to do work because of this increase in entropy, assuming an $$18.0 \text{ºC} $$
+lowest temperature? (Part of $${Q}_{\text{c}} $$
+could be utilized to operate heat engines or for simply heating the surroundings, but it rarely is.)
 
 :::
 
@@ -862,6 +1007,7 @@ For part (a), use efficiency: $$\eta = \frac{W}{Q_h}$$, so $$Q_h = \frac{W}{\eta
 **Solution**
 
 Given values:
+
 - Power output: $$P = 1000 \text{ MW} = 1.00 \times 10^9 \text{ W}$$
 - Efficiency: $$\eta = 35.0\% = 0.350$$
 - Time: $$t = 1 \text{ day} = 86{,}400 \text{ s}$$
@@ -880,7 +1026,7 @@ Work output in one day:
 From efficiency:
 
 <div class="equation">
- $$Q_h = \frac{W}{\eta} = \frac{8.64 \times 10^{13}}{0.350} = 2.47 \times 10^{14} \text{ J}$$
+ $$Q_h = \frac{W}{\eta} = \frac{8.64 \times 10^{13} \text{ J}}{0.350} = 2.47 \times 10^{14} \text{ J}$$
 </div>
 
 **The heat input is $$ 2.47 \times 10^{14} \text{ J} $$.**
@@ -888,11 +1034,11 @@ From efficiency:
 **(b)** Heat transfer to environment in one day:
 
 <div class="equation">
- $$Q_c = Q_h - W = 2.47 \times 10^{14} - 8.64 \times 10^{13}$$
+ $$Q_c = Q_h - W = 2.47 \times 10^{14} \text{ J} - 8.64 \times 10^{13} \text{ J}$$
 </div>
 
 <div class="equation">
- $$Q_c = 1.606 \times 10^{14} \approx 1.60 \times 10^{14} \text{ J}$$
+ $$Q_c = 1.606 \times 10^{14} \text{ J} \approx 1.60 \times 10^{14} \text{ J}$$
 </div>
 
 **The waste heat is $$ 1.60 \times 10^{14} \text{ J} $$.**
@@ -902,19 +1048,19 @@ From efficiency:
 Entropy decrease of cooling water (heat leaves):
 
 <div class="equation">
- $$\Delta S_{\text{water}} = -\frac{Q_c}{T_{\text{water}}} = -\frac{1.60 \times 10^{14}}{308} = -5.19 \times 10^{11} \text{ J/K}$$
+ $$\Delta S_{\text{water}} = -\frac{Q_c}{T_{\text{water}}} = -\frac{1.60 \times 10^{14} \text{ J}}{308 \text{ K}} = -5.19 \times 10^{11} \text{ J/K}$$
 </div>
 
 For air, use average temperature:
 
 <div class="equation">
- $$T_{\text{avg}} = \frac{T_i + T_f}{2} = \frac{291 + 293}{2} = 292 \text{ K}$$
+ $$T_{\text{avg}} = \frac{T_i + T_f}{2} = \frac{291 \text{ K} + 293 \text{ K}}{2} = 292 \text{ K}$$
 </div>
 
 Entropy increase of air (heat enters):
 
 <div class="equation">
- $$\Delta S_{\text{air}} = \frac{Q_c}{T_{\text{avg}}} = \frac{1.60 \times 10^{14}}{292} = 5.48 \times 10^{11} \text{ J/K}$$
+ $$\Delta S_{\text{air}} = \frac{Q_c}{T_{\text{avg}}} = \frac{1.60 \times 10^{14} \text{ J}}{292 \text{ K}} = 5.48 \times 10^{11} \text{ J/K}$$
 </div>
 
 Total entropy increase:
@@ -924,7 +1070,7 @@ Total entropy increase:
 </div>
 
 <div class="equation">
- $$\Delta S_{\text{total}} = -5.19 \times 10^{11} + 5.48 \times 10^{11} = 2.9 \times 10^{10} \text{ J/K}$$
+ $$\Delta S_{\text{total}} = -5.19 \times 10^{11} \text{ J/K} + 5.48 \times 10^{11} \text{ J/K} = 2.9 \times 10^{10} \text{ J/K}$$
 </div>
 
 **The total entropy increase is approximately $$ 2.85 \times 10^{10} \text{ J/K} $$.**
@@ -967,15 +1113,15 @@ This problem illustrates why improving power plant efficiency is crucial—not o
 
 ::: problem
 
-(a) How much heat transfer occurs from 20.0 kg of  $$90.0 \text{ºC} $$
- water placed in contact with 20.0 kg of  $$10.0 \text{ºC} $$
- water, producing a final temperature of  $$50.0 \text{ºC} $$ ?
- (b) How much work could a Carnot engine do with this heat transfer, assuming it operates between two reservoirs at constant temperatures of  $$90.0 \text{ºC} $$
- and  $$10.0 \text{ºC} $$ ?
- (c) What increase in entropy is produced by mixing 20.0 kg of  $$90.0 \text{ºC} $$
- water with 20.0 kg of  $$10.0 \text{ºC} $$
- water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of  $$10.0 \text{ºC} $$ ,
- and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in
+(a) How much heat transfer occurs from 20.0 kg of $$90.0 \text{ºC} $$
+water placed in contact with 20.0 kg of $$10.0 \text{ºC} $$
+water, producing a final temperature of $$50.0 \text{ºC} $$ ?
+(b) How much work could a Carnot engine do with this heat transfer, assuming it operates between two reservoirs at constant temperatures of $$90.0 \text{ºC} $$
+and $$10.0 \text{ºC} $$ ?
+(c) What increase in entropy is produced by mixing 20.0 kg of $$90.0 \text{ºC} $$
+water with 20.0 kg of $$10.0 \text{ºC} $$
+water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of $$10.0 \text{ºC} $$ ,
+and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1). (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.
 
 :::
@@ -988,7 +1134,7 @@ Identify both water samples as the system. Use constant specific heat, conserve 
 
 **(a)** The heat transferred from hot to cold water is
 
-$$Q=mc\Delta T=(20.0)(4186)(40.0)=3.35\times10^6\ \text{J}.$$
+$$Q=mc\Delta T=(20.0\ \text{kg})(4186\ \text{J/(kg}\cdot\text{°C)})(40.0\ \text{°C})=3.35\times10^6\ \text{J}.$$
 
 **(b)** For the specified engine operating between constant-temperature reservoirs,
 
@@ -996,9 +1142,9 @@ $$\eta_C=1-\frac{283}{363}=0.2204,\qquad W_C=\eta_C Q=7.38\times10^5\ \text{J}.$
 
 **(c)**
 
-$$\Delta S_h=(20.0)(4186)\ln\frac{323}{363}=-9775\ \text{J/K},$$
+$$\Delta S_h=(20.0\ \text{kg})(4186\ \text{J/(kg}\cdot\text{K)})\ln\frac{323}{363}=-9775\ \text{J/K},$$
 
-$$\Delta S_c=(20.0)(4186)\ln\frac{323}{283}=11070\ \text{J/K}.$$
+$$\Delta S_c=(20.0\ \text{kg})(4186\ \text{J/(kg}\cdot\text{K)})\ln\frac{323}{283}=11070\ \text{J/K}.$$
 
 Adding before rounding gives $$\Delta S=1.29\times10^3\ \text{J/K}$$.
 
@@ -1016,6 +1162,7 @@ about 50% of the constant-reservoir Carnot work in part (b).
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 entropy

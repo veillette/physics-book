@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="420" viewBox="0 0 1020 420" role="img" aria-labelledby="title desc">
+<title id="title">The electromagnetic spectrum</title>
+<desc id="desc">The electromagnetic spectrum on a logarithmic frequency axis from 1 hertz to beyond 10 to the 24 hertz, with the matching wavelength and photon energy on a second axis above. Double-headed arrows mark the ranges of radio waves (up to 10 to the 12 hertz, with AM radio, TV, FM radio, and microwaves inside it), infrared, ultraviolet, X rays, and gamma rays. Visible light is a very narrow rainbow band near 5 times 10 to the 14 hertz, between infrared and ultraviolet.</desc>
+<rect width="1020" height="420" fill="#ffffff"/>
+<rect x="40" y="195" width="408" height="165" fill="#fbeedd"/>
+<rect x="536.47" y="140" width="1.55" height="220" fill="#e53935"/>
+<rect x="538.02" y="140" width="1.55" height="220" fill="#fb8c00"/>
+<rect x="539.56" y="140" width="1.55" height="220" fill="#fdd835"/>
+<rect x="541.11" y="140" width="1.55" height="220" fill="#43a047"/>
+<rect x="542.66" y="140" width="1.55" height="220" fill="#1e88e5"/>
+<rect x="544.21" y="140" width="1.55" height="220" fill="#7e57c2"/>
+<line x1="40" y1="100" x2="924" y2="100" stroke="#333333" stroke-width="1.5"/>
+<line x1="40" y1="94" x2="40" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="108" y1="94" x2="108" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="176" y1="94" x2="176" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="244" y1="94" x2="244" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="312" y1="94" x2="312" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="380" y1="94" x2="380" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="448" y1="94" x2="448" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="516" y1="94" x2="516" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="584" y1="94" x2="584" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="652" y1="94" x2="652" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="720" y1="94" x2="720" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="788" y1="94" x2="788" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="856" y1="94" x2="856" y2="106" stroke="#333333" stroke-width="1.3"/>
+<line x1="924" y1="94" x2="924" y2="106" stroke="#333333" stroke-width="1.3"/>
+<text x="108" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">6</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+<text x="244" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+<text x="380" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-2</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+<text x="380" y="58.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(3 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal">)</tspan></text>
+<text x="516" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-6</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+<text x="516" y="58.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(3 </tspan><tspan font-style="normal">μm</tspan><tspan font-style="normal">)</tspan></text>
+<text x="652" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-10</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+<text x="652" y="58.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(3 Å)</tspan></text>
+<text x="788" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-14</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+<text x="788" y="58.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(30 </tspan><tspan font-style="normal">fm</tspan><tspan font-style="normal">)</tspan></text>
+<text x="108" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.14 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-13</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="244" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.14 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-9</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="380" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.14 × 10</tspan><tspan font-size="9.8" dy="-5.6"><tspan font-style="normal">-5</tspan></tspan><tspan dy="5.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="516" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.414 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="584" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">41.4 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="652" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.14 </tspan><tspan font-style="normal">keV</tspan></text>
+<text x="720" y="146.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.414 </tspan><tspan font-style="normal">MeV</tspan></text>
+<text x="788" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">41.4 </tspan><tspan font-style="normal">MeV</tspan></text>
+<text x="932" y="82.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Wavelength</tspan></text>
+<text x="932" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Photon</tspan></text>
+<text x="932" y="143.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">energy</tspan></text>
+<line x1="40" y1="360" x2="924" y2="360" stroke="#333333" stroke-width="1.5"/>
+<line x1="40" y1="353" x2="40" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="40" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">0</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="74" y1="356" x2="74" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="108" y1="353" x2="108" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="108" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">2</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="142" y1="356" x2="142" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="176" y1="353" x2="176" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="176" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">4</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="210" y1="356" x2="210" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="244" y1="353" x2="244" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="244" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">6</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="278" y1="356" x2="278" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="312" y1="353" x2="312" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="312" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">8</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="346" y1="356" x2="346" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="380" y1="353" x2="380" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="380" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">10</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="414" y1="356" x2="414" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="448" y1="353" x2="448" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="448" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">12</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="482" y1="356" x2="482" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="516" y1="353" x2="516" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="516" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">14</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="550" y1="356" x2="550" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="584" y1="353" x2="584" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="584" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">16</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="618" y1="356" x2="618" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="652" y1="353" x2="652" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="652" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">18</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="686" y1="356" x2="686" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="720" y1="353" x2="720" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="720" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">20</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="754" y1="356" x2="754" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="788" y1="353" x2="788" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="788" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">22</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="822" y1="356" x2="822" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="856" y1="353" x2="856" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="856" y="389.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">24</tspan></tspan><tspan dy="6">​</tspan></text>
+<line x1="890" y1="356" x2="890" y2="364" stroke="#333333" stroke-width="1.3"/>
+<line x1="924" y1="353" x2="924" y2="367" stroke="#333333" stroke-width="1.3"/>
+<text x="924" y="417.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Frequency</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">Hz</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="441.22" y1="175" x2="525.47" y2="175" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="536.47,175 524.47,179.8 524.47,170.2" fill="#7b1145"/>
+<polygon points="430.22,175 442.22,170.2 442.22,179.8" fill="#7b1145"/>
+<text x="483.35" y="164.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Infrared</tspan></text>
+<line x1="556.75" y1="175" x2="607" y2="175" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="618,175 606,179.8 606,170.2" fill="#7b1145"/>
+<polygon points="545.75,175 557.75,170.2 557.75,179.8" fill="#7b1145"/>
+<text x="581.88" y="164.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ultraviolet</tspan></text>
+<line x1="51" y1="220" x2="437" y2="220" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="448,220 436,224.8 436,215.2" fill="#7b1145"/>
+<polygon points="40,220 52,215.2 52,224.8" fill="#7b1145"/>
+<text x="244" y="209.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Radio</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">waves</tspan></text>
+<line x1="595" y1="220" x2="709" y2="220" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="720,220 708,224.8 708,215.2" fill="#7b1145"/>
+<polygon points="584,220 596,215.2 596,224.8" fill="#7b1145"/>
+<text x="652" y="209.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">X</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rays</tspan></text>
+<line x1="357" y1="262" x2="437" y2="262" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="448,262 436,266.8 436,257.2" fill="#7b1145"/>
+<polygon points="346,262 358,257.2 358,266.8" fill="#7b1145"/>
+<text x="397" y="251.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Microwaves</tspan></text>
+<line x1="856" y1="262" x2="663" y2="262" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="652,262 664,257.2 664,266.8" fill="#7b1145"/>
+<line x1="856" y1="262" x2="917.2" y2="262" stroke="#7b1145" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="754" y="251.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">γ</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rays</tspan></text>
+<rect x="234.9" y="300" width="16.04" height="60" fill="#ffffff" stroke="#333333" stroke-width="1.3"/>
+<line x1="234.9" y1="300" x2="250.94" y2="300" stroke="#7b1145" stroke-width="3"/>
+<text x="204.9" y="267.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">AM</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radio</tspan></text>
+<path d="M 214.9 272 Q 223.91 290.1 236.34 294.61" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="234.46" y1="293.93" x2="238.78" y2="295.5" stroke="#333333" stroke-width="1.2"/>
+<polygon points="242.92,297 237.11,297.19 238.58,293.13" fill="#333333"/>
+<line x1="302.9" y1="298" x2="302.9" y2="360" stroke="#333333" stroke-width="1.2"/>
+<line x1="344.28" y1="298" x2="344.28" y2="360" stroke="#333333" stroke-width="1.2"/>
+<line x1="313.9" y1="298" x2="333.28" y2="298" stroke="#7b1145" stroke-width="2.5"/>
+<polygon points="344.28,298 332.28,302.8 332.28,293.2" fill="#7b1145"/>
+<polygon points="302.9,298 314.9,293.2 314.9,302.8" fill="#7b1145"/>
+<text x="323.59" y="287.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">TV</tspan></text>
+<rect x="310.11" y="340" width="3.02" height="20" fill="#ffffff" stroke="#7b1145" stroke-width="1.5"/>
+<text x="291.6" y="329.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">FM</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radio</tspan></text>
+<polyline points="295.6,324 295.61,324.63 295.63,325.26 295.67,325.87 295.72,326.45 295.81,327 295.93,327.51 296.08,327.97 296.29,328.39 296.53,328.75 296.83,329.06 297.18,329.31 297.57,329.51 298.01,329.65 298.49,329.75 299.01,329.8 299.57,329.81 300.15,329.79 300.76,329.74 301.38,329.67 302.01,329.6 302.64,329.53 303.26,329.46 303.87,329.41 304.45,329.39 305.01,329.4 305.53,329.45 306.01,329.55 306.45,329.69 306.84,329.89 307.19,330.14 307.48,330.45 307.73,330.81 307.93,331.23 308.09,331.69 308.21,332.2 308.3,332.75 308.35,333.33 308.39,333.94 308.41,334.57 308.42,335.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="308.42" y1="335.2" x2="310.45" y2="336.98" stroke="#222222" stroke-width="1.4"/>
+<polygon points="311.62,338 309.03,337.09 310.37,335.55" fill="#222222"/>
+<text x="614" y="323.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Visible</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">light</tspan></text>
+<polyline points="608,318 607.06,316.75 606.11,315.54 605.13,314.43 604.11,313.46 603.03,312.66 601.9,312.05 600.71,311.66 599.45,311.47 598.13,311.49 596.76,311.69 595.34,312.04 593.89,312.5 592.43,313.02 590.95,313.56 589.49,314.07 588.05,314.49 586.65,314.79 585.29,314.93 583.99,314.89 582.76,314.63 581.58,314.17 580.47,313.49 579.42,312.63 578.41,311.61 577.44,310.47 576.49,309.24 575.56,307.98 574.62,306.74 573.65,305.56 572.66,304.49 571.62,303.57 570.53,302.83 569.38,302.3 568.16,301.97 566.88,301.86 565.55,301.94 564.16,302.19 562.73,302.58 561.27,303.07 559.8,303.6" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="559.8" y1="303.6" x2="554.02" y2="301.87" stroke="#222222" stroke-width="1.4"/>
+<polygon points="547.75,300 555.85,299.27 554.12,305.05" fill="#222222"/>
+</svg>

@@ -377,6 +377,40 @@ Formulate a list of pros and cons of such suits.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Use the drag equation $$ F_{D} = \tfrac{1}{2} C \rho A v^{2} $$. A suit can change the drag coefficient $$ C $$ (through surface smoothness and shape) and the frontal area $$ A $$. Then weigh other effects on the athlete.
+
+**Solution**
+
+To see how much is at stake, estimate the drag on a cyclist moving at $$ v = 12 \ms $$ with $$ C = 0.90 $$ and $$ A = 0.35 \mm $$, in air of density $$ \rho = 1.21 \kg/\text{m}^3 $$:
+
+<div class="equation">
+$$ F_{D} = \tfrac{1}{2}(0.90)(1.21 \kg/\text{m}^3)(0.35 \mm)(12 \ms)^2 = 27 \N $$
+</div>
+
+Keeping the unrounded drag force, $$F_D=27.4428\N$$, gives power $$F_Dv=(27.4428\N)(12\ms)=329.3136\text{ W}\approx330\text{ W}$$. A suit that lowers $$C$$ by an assumed $$5\%$$ saves $$0.05(27.4428\N)=1.37\N$$ and $$0.05(329.3136\text{ W})=16.5\text{ W}$$ before final rounding, which can matter in a race.
+
+**Pros**
+
+- A smooth, tight surface lowers the drag coefficient $$ C $$ and reduces turbulence compared with loose clothing, skin, or body hair.
+- Compressing the body smooths its shape and slightly reduces the frontal area $$ A $$.
+- Compression may reduce muscle vibration and fatigue.
+- Some swimsuit materials trap air or add buoyancy, raising the swimmer higher in the water. (Suits made of such materials were banned in 2010.)
+
+**Cons**
+
+- The suits are expensive and wear out quickly.
+- They can be uncomfortable and may restrict movement or breathing.
+- They hold in body heat, which is a problem for a cyclist producing hundreds of watts.
+- They are hard to put on, and some designs are banned, which raises questions of fairness.
+
+Body suits reduce the drag force $$ F_{D} = \tfrac{1}{2} C \rho A v^{2} $$ mainly by lowering $$ C $$ and slightly lowering $$ A $$, which can save several watts out of the roughly $$ 330 \text{ W} $$ a racing cyclist spends on drag at $$ 12 \ms $$, but they are costly, short-lived, hot, and can restrict movement.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -386,6 +420,35 @@ Formulate a list of pros and cons of such suits.
 Two expressions were used for the drag force experienced by a moving object in a liquid.
 One depended upon the speed, while the other was proportional to the square of the speed.
 In which types of motion would each of these expressions be more applicable than the other one?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Identify the flow regime using Reynolds number, then apply each drag law within its regime instead of choosing whichever extrapolated curve is larger.
+
+**Solution**
+
+For a sphere of radius $$r$$, Stokes’s law $$F_s=6\pi\eta rv$$ applies to **creeping flow**, with Reynolds number $$\mathrm{Re}=\rho v(2r)/\eta\ll1$$. Merely being laminar is not sufficient. For an illustrative small sphere in water, use $$r=1.0\times10^{-6}\m$$, $$v=1.0\times10^{-5}\ms$$, $$\eta=1.0\times10^{-3}\text{ Pa}\cdot\s$$, and $$\rho=1000\kg/\m^3$$:
+
+$$\mathrm{Re}=\frac{(1000\kg/\m^3)(1.0\times10^{-5}\ms)(2.0\times10^{-6}\m)}{1.0\times10^{-3}\text{ Pa}\cdot\s}=2.0\times10^{-5},$$
+
+$$F_s=6\pi(1.0\times10^{-3}\text{ N}\cdot\s/\m^2)(1.0\times10^{-6}\m)(1.0\times10^{-5}\ms)=1.9\times10^{-13}\N.$$
+
+Here $$1\text{ Pa}=1\N/\m^2$$, so all factors reduce to newtons. Doubling the speed doubles the force.
+
+At much higher Reynolds number, inertial effects and often a separated wake are important. Over a range where drag coefficient $$C$$ is approximately constant, use $$F_D=\tfrac12C\rho Av^2$$. For an illustrative car with $$C=0.30$$, $$A=2.0\m^2$$, $$\rho=1.21\kg/\m^3$$, and $$v=25\ms$$,
+
+$$F_D=\tfrac12(0.30)(1.21\kg/\m^3)(2.0\m^2)(25\ms)^2=2.3\times10^2\N.$$
+
+Doubling speed would quadruple drag if $$C$$ remained the same. Large fast objects such as cars, balls, and swimmers often fit this regime; small slow particles in viscous fluids often fit the first. In transition regions neither limiting approximation need hold.
+
+![Separate drag examples: linear Stokes drag for a microscopic sphere in creeping water flow, and approximately quadratic drag for a car in air; axes include force and speed units.](../resources/concept_05_02_q02.svg)
+
+Drag proportional to speed applies in creeping viscous flow, whereas approximately speed-squared drag applies in an inertial regime with nearly constant drag coefficient; the flow conditions, rather than a comparison of extrapolated curves, determine the appropriate model.
+
 
 ::::
 
@@ -401,6 +464,28 @@ Does a heavy rain make any difference?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The braking and steering forces on a car come from static friction between the tires and the road, with a maximum of $$ \mu_{s} N $$. Ask how oil and water change $$ \mu_{s} $$, and use the maximum deceleration $$ a = \mu_{s} g $$ on a level road to compare stopping distances.
+
+**Solution**
+
+Take $$ +x $$ in the car's direction of motion. On a level road $$ N = mg $$, so the largest braking force is $$ \mu_{s} mg $$ in the $$ -x $$ direction, and the largest deceleration is $$ \mu_{s} g $$. From $$ v^{2} = v_{0}^{2} + 2ax $$ with $$ v = 0 $$, the shortest stopping distance from $$ v_{0} = 25 \ms $$ is $$ x = v_{0}^{2}/(2\mu_{s} g) $$:
+
+- dry concrete, $$ \mu_{s} = 1.0 $$: $$ x = (25 \ms)^2 / [2(1.0)(9.80 \mss)] = 32 \m $$
+- wet concrete, $$ \mu_{s} = 0.7 $$: $$ x = 46 \m $$
+- oily, wet surface, $$ \mu_{s} \approx 0.3 $$ (estimate): $$ x \approx 110 \m $$
+
+A **light rain** is the most dangerous. The water lifts the oil out of the pores of the road and mixes it into a thin, slippery film on top. That film makes the coefficient of friction much smaller, so the car can neither brake nor turn as hard. For a turn of radius $$ 50 \m $$, the highest safe speed $$ v = \sqrt{\mu_{s} r g} $$ drops from $$ 22 \ms $$ on dry pavement to about $$ 12 \ms $$ on the oily film.
+
+A **heavy rain** washes the oil off the road, so after a while traction improves to the ordinary wet value. Heavy rain brings another hazard, though. At high speed a layer of water can build up under the tires (hydroplaning), and the tires lose contact with the road almost completely.
+
+A light rain lifts the leaked oil into a slippery film that greatly reduces the coefficient of friction (stopping distances from $$ 25 \ms $$ can grow from about $$ 32 \m $$ to over $$ 100 \m $$), while a heavy rain washes the oil away and restores ordinary wet-road traction, although deep water can then cause hydroplaning.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -409,6 +494,28 @@ Does a heavy rain make any difference?
 
 Why can a squirrel jump from a tree branch to the ground and run away undamaged,
 while a human could break a bone in such a fall?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the terminal speeds of a squirrel and a human using $$ v_{t} = \sqrt{2mg/(\rho C A)} $$, then compare how hard each body is loaded when it lands, using the way mass and bone cross-section scale with size.
+
+**Solution**
+
+**1. The squirrel falls more slowly.** Use $$ \rho = 1.21 \kg/\text{m}^3 $$ and $$ C \approx 1.0 $$ for a body spread out flat. For a $$ 0.50 \kg $$ squirrel with its legs and tail spread over $$ A = 0.030 \mm $$:
+
+<div class="equation">
+$$ v_{t} = \sqrt{\frac{2(0.50 \kg)(9.80 \mss)}{(1.21 \kg/\text{m}^3)(1.0)(0.030 \mm)}} = 16 \ms $$
+</div>
+
+For a $$ 70 \kg $$ human with $$ A = 0.70 \mm $$, the same calculation gives $$ v_{t} = 40 \ms $$. Mass grows with the cube of an animal's size but area only with the square, so the ratio $$ m/A $$, and with it the terminal speed, is much smaller for the squirrel. In a fall of $$ 10 \m $$, a human hits the ground at nearly the free-fall speed $$ \sqrt{2(9.80 \mss)(10 \m)} = 14 \ms $$, while air resistance holds the spread-out squirrel noticeably below that.
+
+**2. The squirrel's body is loaded less.** A human is about $$ (70 \kg / 0.50 \kg)^{1/3} \approx 5 $$ times larger than a squirrel in each dimension. The force needed to stop a body is proportional to its mass ($$ \propto L^{3} $$), but the cross-sectional area of the bones that must carry that force grows only as $$ L^{2} $$. For the same deceleration, the stress in the bones is about 5 times larger in the human.
+
+A squirrel survives the jump because its small mass compared with its area gives it a low terminal speed (about $$ 16 \ms $$ compared with $$ 40 \ms $$ for a human), so it lands more gently, and because its bones carry about one fifth the stress that a human's would for the same deceleration, whereas a human lands faster with bones loaded closer to their breaking point.
 
 ::::
 
@@ -512,7 +619,7 @@ $$ v_{t,60} = \sqrt{\frac{2(60 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14
 </div>
 
 <div class="equation">
-$$ v_{t,60} = \sqrt{\frac{1176 \N}{0.1187 \text{ kg/m}}} = \sqrt{9907 \text{ m}^2/\text{s}^2} = 99.5 \ms $$
+$$ v_{t,60} = \sqrt{\frac{1176 \N}{0.1186 \text{ kg/m}}} = \sqrt{9917 \text{ m}^2/\text{s}^2} = 99.6 \ms $$
 </div>
 
 For the 90-kg skydiver:
@@ -522,7 +629,7 @@ $$ v_{t,90} = \sqrt{\frac{2(90 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14
 </div>
 
 <div class="equation">
-$$ v_{t,90} = \sqrt{\frac{1764 \N}{0.1187 \text{ kg/m}}} = \sqrt{14860 \text{ m}^2/\text{s}^2} = 122 \ms $$
+$$ v_{t,90} = \sqrt{\frac{1764 \N}{0.1186 \text{ kg/m}}} = \sqrt{14870 \text{ m}^2/\text{s}^2} = 122 \ms $$
 </div>
 
 Time to reach ground (distance = 6000 m):
@@ -530,7 +637,7 @@ Time to reach ground (distance = 6000 m):
 For 60-kg skydiver:
 
 <div class="equation">
-$$ t_{60} = \frac{6000 \m}{99.5 \ms} = 60.3 \s $$
+$$ t_{60} = \frac{6000 \m}{99.6 \ms} = 60.2 \s $$
 </div>
 
 For 90-kg skydiver:
@@ -541,7 +648,7 @@ $$ t_{90} = \frac{6000 \m}{122 \ms} = 49.2 \s $$
 
 **Discussion**
 
-The 60-kg skydiver has a terminal velocity of $$ 99.5 \ms $$ and reaches the ground in about $$ 60 \s $$. The 90-kg skydiver has a terminal velocity of $$ 122 \ms $$ and reaches the ground in about $$ 49 \s $$. The heavier skydiver falls faster because their weight increases more than their drag force (same area). This is why heavier skydivers must account for the difference when doing formation jumps with lighter partners.
+The 60-kg skydiver has a terminal velocity of $$ 99.6 \ms $$ and reaches the ground in about $$ 60 \s $$. The 90-kg skydiver has a terminal velocity of $$ 122 \ms $$ and reaches the ground in about $$ 49 \s $$. The heavier skydiver falls faster because their weight increases more than their drag force (same area). This is why heavier skydivers must account for the difference when doing formation jumps with lighter partners.
 
 ::::
 
@@ -579,13 +686,13 @@ $$ v_t = \sqrt{\frac{2mg}{C\rho A}} = \sqrt{\frac{2(0.560 \kg)(9.80 \mss)}{(1.0)
 </div>
 
 <div class="equation">
-$$ v_t = \sqrt{\frac{10.98}{0.1125}} = \sqrt{97.6} = 9.88 \ms \approx 10 \ms $$
+$$ v_t = \sqrt{\frac{10.98 \N}{0.1125 \text{kg/m}}} = \sqrt{97.6 \mmss} = 9.88 \ms \approx 10 \ms $$
 </div>
 
 For the person falling 5.0 m without drag:
 
 <div class="equation">
-$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98} = 9.9 \ms $$
+$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98 \mmss} = 9.9 \ms $$
 </div>
 
 **Discussion**
@@ -633,17 +740,17 @@ $$ F_{\text{D}} = \frac{1}{2}(1.21 \text{ kg/m}^3)(0.70 \mm)(19.44 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(378) = 160 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(0.70 \mm)(378 \mmss) = 160 \N $$
 </div>
 
 At 100 km/h (27.78 m/s):
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(27.78 \ms)^2 $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(0.70 \mm)(27.78 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(772) = 327 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(0.70 \mm)(772 \mmss) = 327 \N $$
 </div>
 
 (b) Hummer H2 (drag area $$ C_{\text{d}}A = 2.44 \mm $$):
@@ -651,21 +758,21 @@ $$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(772) = 327 \N $$
 At 70 km/h (19.44 m/s):
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(19.44)^2 $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(19.44 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(378) = 558 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(378 \mmss) = 558 \N $$
 </div>
 
 At 100 km/h (27.78 m/s):
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(27.78)^2 $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(27.78 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(772) = 1139 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(772 \mmss) = 1139 \N $$
 </div>
 
 **Discussion**
@@ -732,14 +839,14 @@ For part (a), we use kinematics without air resistance: $$ v = \sqrt{2gh} $$. Fo
 First, calculate the raindrop's properties:
 
 - Diameter: 4 mm, so radius $$ r = 2 \text{ mm} = 0.002 \m $$
-- Cross-sectional area: $$ A = \pi r^2 = \pi(0.002)^2 = 1.257 \times 10^{-5} \mm $$
-- Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(0.002)^3 = 3.35 \times 10^{-8} \text{ m}^3 $$
+- Cross-sectional area: $$ A = \pi r^2 = \pi(0.002 \m)^2 = 1.257 \times 10^{-5} \mm $$
+- Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(0.002 \m)^3 = 3.35 \times 10^{-8} \text{ m}^3 $$
 - Mass: $$ m = \rho V = (1.00 \times 10^3 \text{ kg/m}^3)(3.35 \times 10^{-8} \text{ m}^3) = 3.35 \times 10^{-5} \kg $$
 
 (a) Speed without air drag:
 
 <div class="equation">
-$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000} = 313 \ms $$
+$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000 \mmss} = 313 \ms $$
 </div>
 
 (b) Terminal velocity with air drag:
@@ -760,7 +867,7 @@ $$ v_t = \sqrt{\frac{6.57 \times 10^{-4} \N}{6.85 \times 10^{-6} \text{ kg/m}}} 
 
 **Discussion**
 
-Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—comparable to the speed of sound in air (about 340 m/s at room temperature). With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. The raindrop reaches terminal velocity within the first few hundred meters of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
+Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—comparable to the speed of sound in air (about 340 m/s at room temperature). With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. With quadratic drag the raindrop reaches 99% of its terminal velocity within roughly the first 20 m of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
 
 ::::
 
@@ -834,8 +941,8 @@ For such a small object moving slowly through a viscous fluid, Stokes' law appli
 
 1. Calculate the bacterium's properties:
    - Radius: $$ r = 1.00 \text{ μm} = 1.00 \times 10^{-6} \m $$
-   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6})^3 = 4.19 \times 10^{-18} \text{ m}^3 $$
-   - Mass: $$ m = \rho_{\text{bact}} V = (1.10 \times 10^3)(4.19 \times 10^{-18}) = 4.61 \times 10^{-15} \kg $$
+   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6} \m)^3 = 4.19 \times 10^{-18} \text{ m}^3 $$
+   - Mass: $$ m = \rho_{\text{bact}} V = (1.10 \times 10^3 \text{kg/m}^3)(4.19 \times 10^{-18} \text{m}^3) = 4.61 \times 10^{-15} \kg $$
 
 2. Draw the free-body diagram with $$ +y $$ upward. The bacterium sinks (moves along $$ -y $$), so Stokes drag $$ F_{\s} $$ points along $$ +y $$. The buoyant force $$ F_B = \rho_{\text{water}}Vg $$ also points along $$ +y $$, and the weight $$ w = \rho_{\text{bact}}Vg $$ points along $$ -y $$:
 
@@ -849,7 +956,7 @@ $$ W_{\text{eff}} = (\rho_{\text{bact}} - \rho_{\text{water}})Vg $$
 </div>
 
 <div class="equation">
-$$ W_{\text{eff}} = (1100 - 1000)(4.19 \times 10^{-18})(9.80) = 4.11 \times 10^{-15} \N $$
+$$ W_{\text{eff}} = (1100 \text{kg/m}^3 - 1000 \text{kg/m}^3)(4.19 \times 10^{-18} \text{m}^3)(9.80 \mss) = 4.11 \times 10^{-15} \N $$
 </div>
 
 3. At terminal velocity, Stokes drag equals effective weight:
@@ -863,7 +970,7 @@ $$ v_t = \frac{W_{\text{eff}}}{6\pi r\eta} = \frac{4.11 \times 10^{-15} \N}{6\pi
 </div>
 
 <div class="equation">
-$$ v_t = \frac{4.11 \times 10^{-15}}{1.89 \times 10^{-8}} = 2.18 \times 10^{-7} \ms = 0.218 \text{ μm/s} $$
+$$ v_t = \frac{4.11 \times 10^{-15} \N}{1.89 \times 10^{-8} \text{N}\cdot\text{s/m}} = 2.17 \times 10^{-7} \ms = 0.217 \text{ μm/s} $$
 </div>
 
 **Discussion**
@@ -903,11 +1010,11 @@ $$ v_t = \frac{d}{t} = \frac{0.60 \m}{12 \s} = 0.050 \ms $$
 
 2. Calculate the ball bearing's properties:
    - Radius: $$ r = 1.5 \text{ mm} = 1.5 \times 10^{-3} \m $$
-   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.5 \times 10^{-3})^3 = 1.41 \times 10^{-8} \text{ m}^3 $$
+   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.5 \times 10^{-3} \m)^3 = 1.41 \times 10^{-8} \text{ m}^3 $$
 
 3. Calculate the weight of the ball bearing:
 <div class="equation">
-$$ W = \rho_{\text{steel}}Vg = (7800)(1.41 \times 10^{-8})(9.80) = 1.08 \times 10^{-3} \N $$
+$$ W = \rho_{\text{steel}}Vg = (7800 \text{kg/m}^3)(1.41 \times 10^{-8} \text{m}^3)(9.80 \mss) = 1.08 \times 10^{-3} \N $$
 </div>
 
 4. At terminal velocity, Stokes drag equals the weight:
@@ -917,15 +1024,15 @@ $$ 6\pi r\eta v_t = W $$
 
 5. Solve for viscosity:
 <div class="equation">
-$$ \eta = \frac{W}{6\pi r v_t} = \frac{1.08 \times 10^{-3} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} = \frac{1.08 \times 10^{-3}}{1.41 \times 10^{-3}} = 0.76 \text{ kg/(m·s)} $$
+$$ \eta = \frac{W}{6\pi r v_t} = \frac{1.08 \times 10^{-3} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} = \frac{1.08 \times 10^{-3} \N}{1.41 \times 10^{-3} \text{m}^2/\text{s}} = 0.76 \text{ kg/(m·s)} $$
 </div>
 
 6. Check the effect of buoyancy. Motor oil has a density of about $$ 900 \text{ kg/m}^3 $$, so the buoyant force reduces the effective weight to
 <div class="equation">
-$$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg = (6900)(1.41 \times 10^{-8})(9.80) = 9.54 \times 10^{-4} \N $$
+$$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg = (6900 \text{kg/m}^3)(1.41 \times 10^{-8} \text{m}^3)(9.80 \mss) = 9.54 \times 10^{-4} \N $$
 </div>
 
-which gives $$ \eta = (9.54 \times 10^{-4})/(1.41 \times 10^{-3}) = 0.68 \text{ kg/(m·s)} $$. Neglecting buoyancy overestimates the viscosity by about 12%.
+which gives $$ \eta = (9.54 \times 10^{-4} \N)/(1.41 \times 10^{-3} \text{m}^2/\text{s}) = 0.68 \text{ kg/(m·s)} $$. Neglecting buoyancy overestimates the viscosity by about 12%.
 
 **Discussion**
 

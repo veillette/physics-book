@@ -179,7 +179,7 @@ same).
 Resolving Weight into Components
 </div>
 
-![Vector arrow W for weight is acting downward. It is resolved into components that are parallel and perpendicular to a surface that has a slope at angle theta to the horizontal. The coordinate direction x is labeled parallel to the sloped surface, with positive x pointing uphill. The coordinate direction y is labeled perpendicular to the sloped surface, with positive y pointing up from the surface. The components of w are w parallel, represented by an arrow pointing downhill along the sloped surface, and w perpendicular, represented by an arrow pointing into the sloped surface. W parallel is equal to w sine theta, which is equal to m g sine theta. W perpendicular is equal to w cosine theta, which is equal to m g cosine theta.](../resources/Figure_04_05_03.jpg "An object rests on an incline that makes an angle &#x3B8; with the horizontal."){: #Figure3}
+![Vector arrow W for weight is acting downward. It is resolved into components that are parallel and perpendicular to a surface that has a slope at angle theta to the horizontal. The coordinate direction x is labeled parallel to the sloped surface, with positive x pointing uphill. The coordinate direction y is labeled perpendicular to the sloped surface, with positive y pointing up from the surface. The components of w are w parallel, represented by an arrow pointing downhill along the sloped surface, and w perpendicular, represented by an arrow pointing into the sloped surface. W parallel is equal to w sine theta, which is equal to m g sine theta. W perpendicular is equal to w cosine theta, which is equal to m g cosine theta.](../resources/Figure_04_05_03.svg "An object rests on an incline that makes an angle &#x3B8; with the horizontal."){: #Figure3}
 
 When an object rests on an incline that makes an angle $$ \theta $$ with the
 horizontal, the force of gravity acting on the object is divided into two
@@ -336,7 +336,7 @@ First, we need to resolve the tension vectors into their horizontal and vertical
 components. It helps to draw a new free-body diagram showing all of the
 horizontal and vertical components of each force acting on the system.
 
-![A vector T sub L making an angle of five degrees with the negative x axis is shown. It has two components, one in the vertical direction, T sub L y, and another horizontal, T sub L x. Another vector is shown making an angle of five degrees with the positive x axis, having two components, one along the y direction, T sub R y, and the other along the x direction, T sub R x. In the free-body diagram, vertical component T sub L y is shown by a vector arrow in the upward direction, T sub R y is shown by a vector arrow in the upward direction, and weight W is shown by a vector arrow in the downward direction. The net force F sub y is equal to zero. In the horizontal direction, T sub R x is shown by a vector arrow pointing toward the right and T sub L x is shown by a vector arrow pointing toward the left, both having the same length so that the net force in the horizontal direction, F sub x, is equal to zero.](../resources/Figure_04_05_07.jpg 'When the vectors are projected onto vertical and horizontal axes, their components along those axes must add to zero, since the tightrope walker is stationary. The small angle results in \( T \) being much greater than \( w \) .')
+![A vector T sub L making an angle of five degrees with the negative x axis is shown. It has two components, one in the vertical direction, T sub L y, and another horizontal, T sub L x. Another vector is shown making an angle of five degrees with the positive x axis, having two components, one along the y direction, T sub R y, and the other along the x direction, T sub R x. In the free-body diagram, vertical component T sub L y is shown by a vector arrow in the upward direction, T sub R y is shown by a vector arrow in the upward direction, and weight W is shown by a vector arrow in the downward direction. The net force F sub y is equal to zero. In the horizontal direction, T sub R x is shown by a vector arrow pointing toward the right and T sub L x is shown by a vector arrow pointing toward the left, both having the same length so that the net force in the horizontal direction, F sub x, is equal to zero.](../resources/Figure_04_05_07.svg 'When the vectors are projected onto vertical and horizontal axes, their components along those axes must add to zero, since the tightrope walker is stationary. The small angle results in \( T \) being much greater than \( w \) .')
 {: #Figure7}
 
 Consider the horizontal components of the forces
@@ -581,6 +581,28 @@ If a leg is suspended by a traction setup as shown in [Figure 11](#Figure11), wh
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The rope runs over frictionless pulleys, so its tension is the same everywhere. Apply Newton's second law to the hanging mass, which is at rest.
+
+**Solution**
+
+![Free-body diagram of the hanging mass, with +y up: the rope tension T up and the weight w = mg down, equal in length. The acceleration is zero.](../resources/fbd_04_05_q01.svg){: .fbd}
+
+The hanging mass has zero acceleration, so the net force on it is zero:
+
+<div class="equation">
+$$ T - mg = 0 \quad\Rightarrow\quad T = mg $$
+</div>
+
+The tension in the whole rope equals the weight of the hanging mass. For a $$ 5.0 \text{ kg} $$ mass, $$ T = (5.0 \text{ kg})(9.80 \mss) = 49 \N $$. The vertical section of rope above the leg also pulls up with $$ T $$, so in equilibrium it supports the weight of the leg, $$ w_{\text{leg}} = T $$.
+
+The tension in the rope equals the weight of the hanging mass, $$ T = mg $$ (for example, $$ 49 \N $$ for a $$ 5.0 \text{ kg} $$ mass).
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -588,6 +610,31 @@ If a leg is suspended by a traction setup as shown in [Figure 11](#Figure11), wh
 :::: problem
 
 In a traction setup for a broken bone, with pulleys and rope available, how might we be able to increase the force along the tibia using the same weight? (See [Figure 10](#Figure10).) (Note that the tibia is the shin bone shown in this image.)
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Find the force the rope exerts on the pulley attached to the foot, which pulls along the tibia. Two rope segments, each with tension $$ T = mg $$, pull on that pulley at angles $$ \theta $$ above and below the horizontal.
+
+**Solution**
+
+![Two free-body diagrams of the pulley at the foot. Each rope segment pulls with tension T at angle θ above and below the horizontal; the vertical parts cancel and the horizontal parts add to 2T cos θ. (a) With θ = 60°, the pull is T. (b) With θ = 20°, the pull is 1.9T.](../resources/fbd_04_05_q02.svg){: .fbd}
+
+The vertical components of the two tensions cancel, and their horizontal components add:
+
+<div class="equation">
+$$ F_{\text{tibia}} = 2T\cos\theta $$
+</div>
+
+With a $$ 5.0 \text{ kg} $$ weight ($$ T = 49 \N $$), $$ \theta = 60^\circ $$ gives $$ F = 2(49 \N)\cos 60^\circ = 49 \N $$, while $$ \theta = 20^\circ $$ gives $$ F = 2(49 \N)\cos 20^\circ = 92 \N $$. So:
+
+- **Reduce the angle $$ \theta $$** by moving the two pulleys on the frame closer to the line of the leg; the force approaches its maximum, $$ 2T $$, as $$ \theta $$ approaches $$ 0^\circ $$.
+- **Add more pulleys** (a block and tackle) so that more segments of the same rope pull on the foot along the tibia. Each additional segment adds up to $$ T $$, so three segments give up to $$ 3T = 147 \N $$ with the same $$ 49 \N $$ weight.
+
+The force along the tibia can be increased with the same weight by reducing the angle $$ \theta $$ between the rope segments and the leg (since the force is $$ 2T\cos\theta $$, rising from $$ 49 \N $$ at $$ 60^\circ $$ to $$ 92 \N $$ at $$ 20^\circ $$ for $$ T = 49 \N $$), or by adding pulleys so that more rope segments pull on the foot.
 
 ::::
 
@@ -946,7 +993,6 @@ $$ T = \frac{F}{2\sin(\theta)} = \frac{F_{\perp}}{2\sin(\theta)} $$
 This formula reveals an important principle: as the angle $$ \theta $$ decreases (rope becomes more horizontal), the denominator $$ 2\sin(\theta) $$ becomes smaller, so the tension $$ T $$ must increase to support the same perpendicular force. This explains why:
 
 - A perfectly horizontal wire would require infinite tension to support any load
-- Tightrope walkers use long poles to increase their sag angle, reducing cable tension
 - Power lines and suspension bridges are designed with appropriate sag
 
 For small angles, $$ \sin(\theta) \approx \theta $$ (in radians), and tension increases roughly as $$ 1/\theta $$.

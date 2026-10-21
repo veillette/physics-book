@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="300" viewBox="0 0 380 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of a crate pushed across a floor</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: push F to the right, kinetic friction f = μk N to the left, normal force N up perpendicular to the floor, and weight w down. N and w are equal in length because there is no vertical acceleration.</desc>
+<rect width="380" height="300" fill="#ffffff"/>
+<line x1="30" y1="150" x2="331" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="340,150 330,154.2 330,145.8" fill="#555555"/>
+<line x1="180" y1="265" x2="180" y2="44" stroke="#555555" stroke-width="1.5"/><polygon points="180,35 184.2,45 175.8,45" fill="#555555"/>
+<line x1="180" y1="150" x2="180" y2="76" stroke="#b03a2e" stroke-width="3.5"/><polygon points="180,65 185.04,77 174.96,77" fill="#b03a2e"/>
+<line x1="180" y1="150" x2="180" y2="224" stroke="#b03a2e" stroke-width="3.5"/><polygon points="180,235 174.96,223 185.04,223" fill="#b03a2e"/>
+<line x1="180" y1="150" x2="289" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="300,150 288,155.04 288,144.96" fill="#b03a2e"/>
+<line x1="180" y1="150" x2="116" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,150 117,144.96 117,155.04" fill="#b03a2e"/>
+<circle cx="180" cy="150" r="6" fill="#1f3a5f"/>
+<text x="190" y="172" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">crate</text>
+<text x="356" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="180" y="25" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="192" y="84" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="192" y="230" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="286" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="119" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="40" y="216" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">μ</tspan><tspan font-style="normal" font-size="12.6" dy="5.4">k</tspan><tspan dy="-5.4"></tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">N</tspan></text>
+</svg>

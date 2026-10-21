@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-labelledby="title desc">
+<title id="title">The Moon raises two tidal bulges</title>
+<desc id="desc">Earth, rotating counterclockwise, sits inside an ocean stretched into an ellipse along the line to the Moon. High tides are on the sides nearest and farthest from the Moon, and low tides are at right angles to that line. The Moon, at right, moves upward in its counterclockwise orbit. Not to scale.</desc>
+<rect width="880" height="300" fill="#ffffff"/>
+<g id="bulge">
+<ellipse cx="195" cy="150" rx="150" ry="112" fill="#a8d4f0" stroke="#6aa9d1" stroke-width="1.5"/>
+<circle cx="195" cy="150" r="92" fill="#e3e8d1" stroke="#6aa9d1" stroke-width="1.5"/>
+<text x="195" y="130.1" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<polyline points="159.9,206.17 161.21,206.98 162.55,207.75 163.9,208.49 165.27,209.19 166.66,209.87 168.06,210.51 169.47,211.12 170.9,211.7 172.34,212.25 173.8,212.76 175.27,213.23 176.74,213.67 178.23,214.08 179.72,214.45 181.23,214.79 182.74,215.1 184.26,215.36 185.78,215.6 187.31,215.79 188.84,215.95 190.38,216.08 191.92,216.17 193.46,216.22 195,216.24 196.54,216.22 198.08,216.17 199.62,216.08 201.16,215.95 202.69,215.79 204.22,215.6 205.74,215.36 206.73,215.19" fill="none" stroke="#1b9ad6" stroke-width="3.5" stroke-linejoin="round"/>
+<line x1="206.73" y1="215.19" x2="217.97" y2="210.85" stroke="#1b9ad6" stroke-width="3.5"/>
+<polygon points="230.1,206.17 219.06,216.44 215.02,205.99" fill="#1b9ad6"/>
+</g>
+<text x="195" y="27.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Low</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tide</tspan></text>
+<text x="195" y="289.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Low</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tide</tspan></text>
+<text x="18" y="142.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">High</tspan></text>
+<text x="18" y="171.3" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">tide</tspan></text>
+<text x="372" y="142.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">High</tspan></text>
+<text x="372" y="171.3" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">tide</tspan></text>
+<circle cx="830" cy="165" r="26" fill="#55595f" stroke="#33363a" stroke-width="1.2"/>
+<polygon points="830,139 827.28,139.14 824.59,139.57 821.97,140.27 819.42,141.25 817,142.48 814.72,143.97 812.6,145.68 810.68,147.6 808.97,149.72 807.48,152 806.25,154.42 805.27,156.97 804.57,159.59 804.14,162.28 804,165 804.14,167.72 804.57,170.41 805.27,173.03 806.25,175.58 807.48,178 808.97,180.28 810.68,182.4 812.6,184.32 814.72,186.03 817,187.52 819.42,188.75 821.97,189.73 824.59,190.43 827.28,190.86 830,191" fill="#e6e8eb"/>
+<circle cx="822.2" cy="155.9" r="4.16" fill="#9ca1a8"/>
+<circle cx="837.8" cy="162.4" r="3.12" fill="#9ca1a8"/>
+<circle cx="827.4" cy="174.1" r="3.64" fill="#9ca1a8"/>
+<circle cx="839.88" cy="175.4" r="2.6" fill="#9ca1a8"/>
+<circle cx="830" cy="165" r="26" fill="none" stroke="#33363a" stroke-width="1.2"/>
+<line x1="830" y1="136" x2="830" y2="47" stroke="#4aa52e" stroke-width="4"/>
+<polygon points="830,30 837.2,48 822.8,48" fill="#4aa52e"/>
+<text x="830" y="237.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Moon</tspan></text>
+<text x="560" y="277" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">not</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">to</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">scale</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

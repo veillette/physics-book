@@ -112,7 +112,7 @@ Similarly, we find
 Substituting known values yields
 
 <div class="equation">
- $${P}_{2}= 1.62 \times 10^{6}  {\text{N/m}}^{2}+\frac{1}{2}\left(1000 {\text{kg/m}}^{3}\right)\left[  { \left( 12.4 \text{m/s} \right)}^{2}-{\left(  56.6 \text{m/s} \right)}^{2}\right]  -\left(1000 {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 10.0 \text{m}\right)=0\text{.} $$
+ $${P}_{2}= 1.62 \times 10^{6}  {\text{N/m}}^{2}+\frac{1}{2}\left(1000 {\text{kg/m}}^{3}\right)\left[  { \left( 12.4 \text{m/s} \right)}^{2}-{\left(  56.6 \text{m/s} \right)}^{2}\right]  -\left(1000 {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 10.0 \text{m}\right)=0 \text{ Pa}\text{.} $$
 </div>
 
 **Discussion**
@@ -273,7 +273,7 @@ This is an excellent example of the difference between pressure and kinetic ener
 
 The old rubber boot shown in [[Figure 3]](#Figure3) has two leaks. To what maximum height can the water squirt from Leak 1? How does the velocity of water emerging from Leak 2 differ from that of leak 1? Explain your responses in terms of energy.
 
-![The picture shows a boot filled with water. The water is shown emerging from two leaks in the old boot, one in front and another at the back. The leaks are at the same height. The leaks are labeled as Leak 1 and Leak 2 respectively.](../resources/Figure_12_03_03.jpg 'Water emerges from two leaks in an old boot.')
+![The picture shows a boot filled with water. The water is shown emerging from two leaks in the old boot, one in front and another at the back. The leaks are at the same height. The leaks are labeled as Leak 1 and Leak 2 respectively.](/resources/Figure_12_03_03.svg 'Water emerges from two leaks in an old boot.')
 {: #Figure3}
 
 :::
@@ -287,12 +287,12 @@ We apply Torricelli's theorem, recognizing that the velocity of efflux depends o
 **Solution**
 
 **Maximum height from Leak 1:**
-By Torricelli's theorem, water exits with velocity $$v = \sqrt{2gh}$$ where $$h$$ is the height of the water surface above the leak. The water can squirt to a maximum height equal to the height of the water surface above the leak—i.e., it can rise back to the level of the water surface in the boot.
+By Torricelli's theorem, water exits with velocity $$v = \sqrt{2gh}$$ where $$h$$ is the height of the water surface above the leak. Ideally, the water can rise at most to the level of the water surface in the boot. That upper bound is reached only by a jet aimed straight up; a jet that leaves at an angle, like the spray from Leak 1, keeps its horizontal velocity at the top of its arc and so rises less high.
 
 This makes sense from energy conservation: the gravitational potential energy at the water surface converts to kinetic energy at the leak, which then converts back to gravitational potential energy as the water rises.
 
 **Velocity comparison for Leak 1 and Leak 2:**
-Since both leaks are at the same height (as shown in the figure), and both have the same height of water above them, **the velocities are the same**. Torricelli's theorem gives $$v = \sqrt{2gh}$$ where $$h$$ is measured from the water surface to the leak—this depends only on vertical distance, not horizontal position.
+Since both leaks are at the same height (as stated for the figure), and both have the same height of water above them, **the speeds are the same**; only the directions of the two jets differ. Torricelli's theorem gives $$v = \sqrt{2gh}$$ where $$h$$ is measured from the water surface to the leak—this depends only on vertical distance, not horizontal position.
 
 Both streams have the same kinetic energy per unit volume because they come from the same depth below the water surface.
 
@@ -411,13 +411,13 @@ $$v_{top} = \sqrt{v_{bottom}^2 + \frac{2(L/A)}{\rho}}$$
 - $$L/A = 1000 \text{ N/m}^2$$
 - $$\rho = 1.29 \text{ kg/m}^3$$
 
-$$v_{top} = \sqrt{(60.0)^2 + \frac{2(1000)}{1.29}} = \sqrt{3600 + 1550} = \sqrt{5150} = 71.8 \text{ m/s}$$
+$$v_{top} = \sqrt{(60.0 \text{ m/s})^2 + \frac{2(1000 \text{ N/m}^2)}{1.29 \text{ kg/m}^3}} = \sqrt{3600 \text{ m}^2/\text{s}^2 + 1550 \text{ m}^2/\text{s}^2} = \sqrt{5150 \text{ m}^2/\text{s}^2} = 71.8 \text{ m/s}$$
 
 **(b)** At cruising altitude:
 - $$v_{bottom} = 245 \text{ m/s}$$
-- $$\rho = 1.29/4 = 0.323 \text{ kg/m}^3$$
+- $$\rho = (1.29 \text{ kg/m}^3)/4 = 0.323 \text{ kg/m}^3$$
 
-$$v_{top} = \sqrt{(245)^2 + \frac{2(1000)}{0.323}} = \sqrt{60,025 + 6192} = \sqrt{66,217} = 257 \text{ m/s}$$
+$$v_{top} = \sqrt{(245 \text{ m/s})^2 + \frac{2(1000 \text{ N/m}^2)}{0.323 \text{ kg/m}^3}} = \sqrt{60,025 \text{ m}^2/\text{s}^2 + 6192 \text{ m}^2/\text{s}^2} = \sqrt{66,217 \text{ m}^2/\text{s}^2} = 257 \text{ m/s}$$
 
 **Discussion**
 
@@ -455,13 +455,13 @@ Given:
 $$P_1 = \Delta P \times Q = (14,630 \text{ N/m}^2)(83.0 \times 10^{-6} \text{ m}^3/\text{s}) = 1.21 \text{ W}$$
 
 **Power for kinetic energy:**
-$$P_2 = \frac{1}{2}\rho v^2 \times Q = \frac{1}{2}(1060)(0.300)^2(83.0 \times 10^{-6}) = 3.96 \times 10^{-3} \text{ W}$$
+$$P_2 = \frac{1}{2}\rho v^2 \times Q = \frac{1}{2}(1060 \text{ kg/m}^3)(0.300 \text{ m/s})^2(83.0 \times 10^{-6} \text{ m}^3/\text{s}) = 3.96 \times 10^{-3} \text{ W}$$
 
 **Power for potential energy:**
-$$P_3 = \rho g h \times Q = (1060)(9.80)(0.0500)(83.0 \times 10^{-6}) = 4.31 \times 10^{-2} \text{ W}$$
+$$P_3 = \rho g h \times Q = (1060 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.0500 \text{ m})(83.0 \times 10^{-6} \text{ m}^3/\text{s}) = 4.31 \times 10^{-2} \text{ W}$$
 
 **Total power:**
-$$P_{total} = P_1 + P_2 + P_3 = 1.21 + 0.004 + 0.043 = 1.26 \text{ W}$$
+$$P_{total} = P_1 + P_2 + P_3 = 1.21 \text{ W} + 0.004 \text{ W} + 0.043 \text{ W} = 1.26 \text{ W}$$
 
 **Discussion**
 
@@ -495,25 +495,25 @@ Given:
 - Hose diameter (wide): $$d_2 = 4.00 \text{ cm} = 0.0400 \text{ m}$$
 
 **Calculate velocities:**
-$$A_1 = \pi (0.0150)^2 = 7.07 \times 10^{-4} \text{ m}^2$$
-$$A_2 = \pi (0.0200)^2 = 1.26 \times 10^{-3} \text{ m}^2$$
+$$A_1 = \pi (0.0150 \text{ m})^2 = 7.07 \times 10^{-4} \text{ m}^2$$
+$$A_2 = \pi (0.0200 \text{ m})^2 = 1.26 \times 10^{-3} \text{ m}^2$$
 
-$$v_1 = \frac{Q}{A_1} = \frac{7.50 \times 10^{-4}}{7.07 \times 10^{-4}} = 1.06 \text{ m/s}$$
-$$v_2 = \frac{Q}{A_2} = \frac{7.50 \times 10^{-4}}{1.26 \times 10^{-3}} = 0.596 \text{ m/s}$$
+$$v_1 = \frac{Q}{A_1} = \frac{7.50 \times 10^{-4} \text{ m}^3/\text{s}}{7.07 \times 10^{-4} \text{ m}^2} = 1.06 \text{ m/s}$$
+$$v_2 = \frac{Q}{A_2} = \frac{7.50 \times 10^{-4} \text{ m}^3/\text{s}}{1.26 \times 10^{-3} \text{ m}^2} = 0.596 \text{ m/s}$$
 
 **(a)** After rising 2.50 m (same diameter):
 Using Bernoulli's equation with $$v$$ unchanged:
 $$P_0 + \rho g h_0 = P_1 + \rho g h_1$$
-$$P_1 = P_0 - \rho g \Delta h = 3.00 \times 10^5 - (1000)(9.80)(2.50)$$
-$$P_1 = 3.00 \times 10^5 - 2.45 \times 10^4 = 2.76 \times 10^5 \text{ N/m}^2$$
+$$P_1 = P_0 - \rho g \Delta h = 3.00 \times 10^5 \text{ N/m}^2 - (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(2.50 \text{ m})$$
+$$P_1 = 3.00 \times 10^5 \text{ N/m}^2 - 2.45 \times 10^4 \text{ N/m}^2 = 2.76 \times 10^5 \text{ N/m}^2$$
 
 **(b)** After going over the wall (2.50 - 0.50 = 2.00 m above pump, wider diameter):
 Using Bernoulli's equation from pump to this point:
 $$P_0 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g h_2$$
 
 $$P_2 = P_0 + \frac{1}{2}\rho(v_1^2 - v_2^2) - \rho g h_2$$
-$$P_2 = 3.00 \times 10^5 + \frac{1}{2}(1000)[(1.06)^2 - (0.596)^2] - (1000)(9.80)(2.00)$$
-$$P_2 = 3.00 \times 10^5 + 384 - 1.96 \times 10^4 = 2.81 \times 10^5 \text{ N/m}^2$$
+$$P_2 = 3.00 \times 10^5 \text{ N/m}^2 + \frac{1}{2}(1000 \text{ kg/m}^3)[(1.06 \text{ m/s})^2 - (0.596 \text{ m/s})^2] - (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(2.00 \text{ m})$$
+$$P_2 = 3.00 \times 10^5 \text{ N/m}^2 + 384 \text{ N/m}^2 - 1.96 \times 10^4 \text{ N/m}^2 = 2.81 \times 10^5 \text{ N/m}^2$$
 
 **Discussion**
 
