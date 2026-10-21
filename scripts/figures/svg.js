@@ -42,6 +42,127 @@ export const FONT_SANS = 'Helvetica, Arial, sans-serif';
 
 export const rad = deg => (deg * Math.PI) / 180;
 export const fmt = n => Number(n.toFixed(2)).toString();
+
+/** SMIL list. Four decimals so nearby keyTimes stay distinct. */
+export function smilList(values) {
+  return values
+    .map(v => (typeof v === 'number' ? Number(v.toFixed(4)).toString() : String(v)))
+    .join(';');
+}
+
+/** Looping SMIL attribute animation. `values` are numbers or raw tokens. */
+export function smilAnimate(attributeName, values, { dur = '8s', keyTimes } = {}) {
+  const kt = keyTimes ? ` keyTimes="${smilList(keyTimes)}"` : '';
+  return `<animate attributeName="${attributeName}" dur="${dur}" repeatCount="indefinite" calcMode="linear" values="${smilList(values)}"${kt}/>`;
+}
+
+/** `translate` animation through pixel points. */
+export function smilTranslate(points, { dur = '8s', keyTimes } = {}) {
+  const values = points
+    .map(([x, y]) => `${Number(x.toFixed(2))} ${Number(y.toFixed(2))}`)
+    .join(';');
+  const kt = keyTimes ? ` keyTimes="${smilList(keyTimes)}"` : '';
+  return `<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" calcMode="linear" values="${values}"${kt}/>`;
+}
+
+/** Linear vertical scale about the origin, from y0 to y1. */
+export function smilScaleY(y0, y1, { dur = '8s' } = {}) {
+  return `<animateTransform attributeName="transform" type="scale" dur="${dur}" repeatCount="indefinite" calcMode="linear" values="1 ${y0};1 ${y1}"/>`;
+}
+
+/**
+ * Motion along `path`. Pass `keyPoints` and `keyTimes` when equal time should
+ * not mean equal distance (a projectile, a Keplerian orbit). Otherwise the
+ * default pacing moves at constant speed, which is what a circle wants.
+ */
+export function smilMotion(path, { dur = '8s', rotate = '0', keyPoints, keyTimes } = {}) {
+  const timing =
+    keyPoints && keyTimes
+      ? ` calcMode="linear" keyPoints="${smilList(keyPoints)}" keyTimes="${smilList(keyTimes)}"`
+      : '';
+  return `<animateMotion dur="${dur}" repeatCount="indefinite" rotate="${rotate}"${timing} path="${path}"/>`;
+}
+
+/** SVG path through pixel points. */
+export function pathThrough(points) {
+  return points.map(([x, y], i) => `${i ? 'L' : 'M'} ${fmt(x)} ${fmt(y)}`).join(' ');
+}
+
+/**
+ * Path timing that reaches each vertex at equal times, whatever the segment
+ * lengths. `keyPoints` are fractions of path length, as animateMotion expects.
+ */
+export function timedPath(points) {
+  const n = points.length - 1;
+  let total = 0;
+  const seg = [];
+  for (let k = 0; k < n; k += 1) {
+    const d = Math.hypot(points[k + 1][0] - points[k][0], points[k + 1][1] - points[k][1]);
+    seg.push(d);
+    total += d;
+  }
+  let acc = 0;
+  const keyPoints = [0];
+  for (let k = 0; k < n; k += 1) {
+    acc += seg[k];
+    keyPoints.push(total === 0 ? 1 : acc / total);
+  }
+  keyPoints[keyPoints.length - 1] = 1;
+  return {
+    path: pathThrough(points),
+    keyPoints,
+    keyTimes: points.map((_, k) => (n === 0 ? 0 : k / n)),
+  };
+}
+
+/**
+ * Arrow from the local origin toward (x, y). With `lengths`, that direction is
+ * redrawn at each length, in step with `dur`.
+ */
+export function localArrow(
+  x,
+  y,
+  color,
+  { width = 3.5, head = 12, lengths, dur = '8s', keyTimes } = {}
+) {
+  const full = Math.hypot(x, y) || 1;
+  const ux = x / full;
+  const uy = y / full;
+  const px = -uy;
+  const py = ux;
+  const half = head * 0.42;
+  const frame = L => {
+    const tip = [ux * L, uy * L];
+    const b = Math.max(L - head, 0);
+    const base = [ux * b, uy * b];
+    const left = [base[0] + px * half, base[1] + py * half];
+    const right = [base[0] - px * half, base[1] - py * half];
+    const points = `${fmt(tip[0])},${fmt(tip[1])} ${fmt(left[0])},${fmt(left[1])} ${fmt(right[0])},${fmt(right[1])}`;
+    return { base, points };
+  };
+  const frames = (lengths || [full]).map(frame);
+  const opt = { dur, keyTimes };
+  const shaft = lengths
+    ? `${smilAnimate(
+        'x2',
+        frames.map(f => f.base[0]),
+        opt
+      )}${smilAnimate(
+        'y2',
+        frames.map(f => f.base[1]),
+        opt
+      )}`
+    : '';
+  const headAnim = lengths
+    ? smilAnimate(
+        'points',
+        frames.map(f => f.points),
+        opt
+      )
+    : '';
+  const { base, points } = frames[0];
+  return `<line x1="0" y1="0" x2="${fmt(base[0])}" y2="${fmt(base[1])}" stroke="${color}" stroke-width="${width}" stroke-linecap="round">${shaft}</line><polygon points="${points}" fill="${color}">${headAnim}</polygon>`;
+}
 export const escapeXml = s =>
   String(s)
     .replace(/&/g, '&amp;')
@@ -235,6 +356,17 @@ export class Svg {
   constructor({ width, height, title = '', desc = '' }) {
     Object.assign(this, { width, height, title, desc });
     this.items = [];
+    this.motion = false;
+  }
+
+  /**
+   * Overlay that plays only when the reader has not asked for reduced motion.
+   * The group is opacity 0 in the file, so print and viewers that skip CSS
+   * keep the still figure. `markup` may include SMIL.
+   */
+  motionGroup(markup) {
+    this.motion = true;
+    return this.add(`<g class="motion" opacity="0" aria-hidden="true">${markup}</g>`);
   }
 
   add(markup) {
@@ -510,10 +642,21 @@ export class Svg {
 
   render() {
     const { width, height } = this;
+    // The still is the file with this overlay hidden. Animation is opt-in for
+    // readers who have not requested reduced motion, and it is dropped in
+    // print so a PDF keeps the figure the text describes.
+    const style = this.motion
+      ? `<style>
+.motion{opacity:0}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}}
+</style>`
+      : '';
     return [
       `<svg xmlns="http://www.w3.org/2000/svg" width="${fmt(width)}" height="${fmt(height)}" viewBox="0 0 ${fmt(width)} ${fmt(height)}" role="img" aria-labelledby="title desc">`,
       `<title id="title">${escapeXml(this.title)}</title>`,
       `<desc id="desc">${escapeXml(this.desc || this.title)}</desc>`,
+      style,
       `<rect width="${fmt(width)}" height="${fmt(height)}" fill="#ffffff"/>`,
       ...this.items,
       '</svg>',

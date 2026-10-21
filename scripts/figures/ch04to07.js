@@ -2,7 +2,18 @@
  * Chapters 4–7: force components, stress–strain curves, circular-motion and
  * gravitation geometry, Kepler's laws, work as an area, and world energy use.
  */
-import { COLORS, Frame, Plot, Svg, rad, smoothPath } from './svg.js';
+import {
+  COLORS,
+  Frame,
+  Plot,
+  Svg,
+  localArrow,
+  pathThrough,
+  rad,
+  smilMotion,
+  smoothPath,
+  timedPath,
+} from './svg.js';
 
 const FORCE = '#b03a2e';
 const FORCE_LIGHT = '#d98b84';
@@ -438,6 +449,16 @@ export default {
     svg.text((P[0] + R[0]) / 2 - 8, (P[1] + R[1]) / 2 + 26, '**v**_2', { size: 21 });
     svg.text((Q[0] + R[0]) / 2 - 22, (Q[1] + R[1]) / 2 - 18, 'Δ**v**', { size: 21 });
     svg.text(190, 90, 'Δ**v** = **v**_2 − **v**_1', { size: 22 });
+    // Constant speed around the circle. Local +x is the tangent; local −y
+    // points to the center for counterclockwise motion.
+    const lap = [];
+    for (let k = 0; k <= 72; k += 1) {
+      const a = aB + (360 * k) / 72;
+      lap.push([cx + r * Math.cos(rad(a)), cy - r * Math.sin(rad(a))]);
+    }
+    svg.motionGroup(
+      `${smilMotion(pathThrough(lap), { dur: '8s', rotate: 'auto' })}<circle r="8" fill="${GREEN}" stroke="#ffffff" stroke-width="2"/>${localArrow(70, 0, GREEN, { width: 3.5, head: 14 })}${localArrow(0, -46, MAROON, { width: 3.5, head: 14 })}`
+    );
     return svg.render();
   },
 
@@ -715,6 +736,24 @@ export default {
     svg.text(P[0] - 2, P[1] - 36, 'Planet', { size: 17, math: false });
     svg.text(P[0] + 40, P[1] + 20, 'm', { size: 23 });
     svg.text(P[0] - 150, P[1] + 30, '**v**', { size: 23 });
+    // Equal mean-anomaly steps are equal times, so the planet is fastest at perihelion.
+    const N = 72;
+    const samples = [];
+    for (let k = 0; k <= N; k += 1) {
+      samples.push(at(eccentricAnomaly((2 * Math.PI * k) / N, e)));
+    }
+    const speeds = [];
+    for (let k = 0; k < N; k += 1) {
+      speeds.push(Math.hypot(samples[k + 1][0] - samples[k][0], samples[k + 1][1] - samples[k][1]));
+    }
+    speeds.push(speeds[0]);
+    const maxSpeed = Math.max(...speeds);
+    const lengths = speeds.map(s => 26 + (s / maxSpeed) * 64);
+    const orbit = timedPath(samples);
+    const orbitDur = '14s';
+    svg.motionGroup(
+      `${smilMotion(orbit.path, { dur: orbitDur, rotate: 'auto', keyPoints: orbit.keyPoints, keyTimes: orbit.keyTimes })}<circle r="11" fill="#c9d3e6" stroke="#5b6f99" stroke-width="2"/>${localArrow(1, 0, GREEN, { lengths, dur: orbitDur, width: 3.5, head: 14 })}`
+    );
     return svg.render();
   },
 

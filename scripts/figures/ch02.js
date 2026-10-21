@@ -5,7 +5,7 @@
  * Graph data follow the worked examples and solutions in the text, so values a
  * student reads off a graph agree with the numbers used in the solutions.
  */
-import { COLORS, Plot, Svg } from './svg.js';
+import { COLORS, Plot, Svg, fmt, smilAnimate } from './svg.js';
 
 const POS = COLORS.position;
 const VEL = COLORS.velocity;
@@ -74,6 +74,21 @@ function sketch(title, plot, axes, draw, { width = 540, height = 400 } = {}) {
   g.axes({ arrows: true, titleSize: 17, yTitleOffset: 28, xTitleOffset: 34, ...axes });
   draw(g, svg);
   return svg.render();
+}
+
+const TRACE_DUR = '8s';
+
+/** Vertical time cursor and a dot on the curve. Hidden unless motion is allowed. */
+function timeTrace(g, samples, ys, { dur = TRACE_DUR, color, keyTimes } = {}) {
+  const xs = samples.map(t => g.X(t));
+  const py = ys.map(y => g.Y(y));
+  const x0 = xs[0];
+  const top = g.y;
+  const bot = g.y + g.h;
+  const opt = { dur, keyTimes };
+  g.svg.motionGroup(
+    `<line x1="${fmt(x0)}" y1="${fmt(top)}" x2="${fmt(x0)}" y2="${fmt(bot)}" stroke="#222222" stroke-width="1.4" stroke-dasharray="5 4">${smilAnimate('x1', xs, opt)}${smilAnimate('x2', xs, opt)}</line><circle cx="${fmt(x0)}" cy="${fmt(py[0])}" r="5.5" fill="${color}" stroke="#ffffff" stroke-width="1.6">${smilAnimate('cx', xs, opt)}${smilAnimate('cy', py, opt)}</circle>`
+  );
 }
 
 /** Points labeled with letters above (or at a given offset). */
@@ -255,7 +270,7 @@ export default {
             yTitle: 'Position (km)',
             yTitleOffset: 45,
           },
-          draw: g =>
+          draw: g => {
             g.series(
               [
                 [0, 0],
@@ -263,7 +278,9 @@ export default {
                 [0.5, 0],
               ],
               { color: POS, marker: 'diamond' }
-            ),
+            );
+            timeTrace(g, [0, 0.25, 0.5], [0, 3, 0], { color: POS, keyTimes: [0, 0.5, 1] });
+          },
         },
         {
           plot: {
@@ -280,7 +297,7 @@ export default {
             xLabelsAtAxis: true,
             yTitleOffset: 50,
           },
-          draw: g =>
+          draw: g => {
             g.series(
               [
                 [0, 12],
@@ -289,7 +306,12 @@ export default {
                 [0.5, -12],
               ],
               { color: VEL, marker: 'diamond' }
-            ),
+            );
+            timeTrace(g, [0, 0.25, 0.26, 0.5], [12, 12, -12, -12], {
+              color: VEL,
+              keyTimes: [0, 0.5, 0.52, 1],
+            });
+          },
         },
         {
           plot: {
@@ -305,7 +327,7 @@ export default {
             yTitle: 'Speed (km/h)',
             yTitleOffset: 45,
           },
-          draw: g =>
+          draw: g => {
             g.series(
               [
                 [0, 12],
@@ -313,7 +335,9 @@ export default {
                 [0.5, 12],
               ],
               { color: POS, marker: 'diamond' }
-            ),
+            );
+            timeTrace(g, [0, 0.5], [12, 12], { color: POS });
+          },
         },
       ]
     ),
@@ -739,6 +763,7 @@ export default {
   Figure_02_07_03: () => {
     const y = t => 13 * t - 4.9 * t * t;
     const v = t => 13 - 9.8 * t;
+    const ts = Array.from({ length: 25 }, (_, k) => (3 * k) / 24);
     return stacked(
       'Vertical position, velocity and acceleration of a rock thrown upward',
       'Position y = 13t − 4.9t² rises to about 8.6 m near 1.3 s and is −5.1 m at 3 s. Velocity falls linearly from 13 m/s to −16.4 m/s. Acceleration is constant at −9.8 m/s².',
@@ -761,6 +786,7 @@ export default {
             g.fn(y, 0, 3, { color: POS });
             for (let t = 0; t <= 3; t += 0.5)
               g.svg.marker(g.X(t), g.Y(y(t)), 'diamond', { color: POS });
+            timeTrace(g, ts, ts.map(y), { color: POS });
           },
         },
         {
@@ -777,11 +803,13 @@ export default {
             xLabelsAtAxis: true,
             yTitleOffset: 45,
           },
-          draw: g =>
+          draw: g => {
             g.series(
               [0, 1, 2, 3].map(t => [t, v(t)]),
               { color: VEL, marker: 'diamond' }
-            ),
+            );
+            timeTrace(g, ts, ts.map(v), { color: VEL });
+          },
         },
         {
           plot: {
@@ -797,11 +825,18 @@ export default {
             xLabelsAtAxis: true,
             yTitleOffset: 45,
           },
-          draw: g =>
+          draw: g => {
             g.series(
               [0, 1, 2, 3].map(t => [t, -9.8]),
               { color: ACC, marker: 'diamond' }
-            ),
+            );
+            timeTrace(
+              g,
+              ts,
+              ts.map(() => -9.8),
+              { color: ACC }
+            );
+          },
         },
       ]
     );
@@ -1101,6 +1136,64 @@ export default {
       svg.text(tx - 5, 105 + k * 37, String(t), { size: 18, anchor: 'end', math: false });
       svg.text(tx + 100, 105 + k * 37, String(x), { size: 18, anchor: 'end', math: false });
     });
+    // A chord through t0 ± h is parallel to the tangent and offset by 2.5 h²,
+    // so shrinking h lands it on the tangent already drawn.
+    const secantDur = '12s';
+    const secantPass = (t0, a, b, keyTimes, hs, opacity) => {
+      const line = hs.map(h => {
+        const s = jetV(t0);
+        const off = 2.5 * h * h;
+        const yL = jetX(t0) + off + s * (a - t0);
+        const yR = jetX(t0) + off + s * (b - t0);
+        return [g.X(a), g.Y(yL), g.X(b), g.Y(yR)];
+      });
+      const left = hs.map(h => [g.X(t0 - h), g.Y(jetX(t0 - h))]);
+      const right = hs.map(h => [g.X(t0 + h), g.Y(jetX(t0 + h))]);
+      const opt = { dur: secantDur, keyTimes };
+      return `<g opacity="${opacity[0]}">${smilAnimate('opacity', opacity, opt)}<line x1="${fmt(line[0][0])}" y1="${fmt(line[0][1])}" x2="${fmt(line[0][2])}" y2="${fmt(line[0][3])}" stroke="${COLORS.blue}" stroke-width="2.4" stroke-linecap="round">${smilAnimate(
+        'y1',
+        line.map(p => p[1]),
+        opt
+      )}${smilAnimate(
+        'y2',
+        line.map(p => p[3]),
+        opt
+      )}</line><circle cx="${fmt(left[0][0])}" cy="${fmt(left[0][1])}" r="5" fill="${COLORS.blue}">${smilAnimate(
+        'cx',
+        left.map(p => p[0]),
+        opt
+      )}${smilAnimate(
+        'cy',
+        left.map(p => p[1]),
+        opt
+      )}</circle><circle cx="${fmt(right[0][0])}" cy="${fmt(right[0][1])}" r="5" fill="${COLORS.blue}">${smilAnimate(
+        'cx',
+        right.map(p => p[0]),
+        opt
+      )}${smilAnimate(
+        'cy',
+        right.map(p => p[1]),
+        opt
+      )}</circle></g>`;
+    };
+    svg.motionGroup(
+      secantPass(
+        10,
+        3,
+        17.5,
+        [0, 0.12, 0.24, 0.36, 0.44, 0.5, 1],
+        [7, 4.5, 2.4, 1, 0, 0, 0],
+        [1, 1, 1, 1, 1, 0, 0]
+      ) +
+        secantPass(
+          25,
+          19,
+          32,
+          [0, 0.5, 0.56, 0.68, 0.8, 0.92, 0.98, 1],
+          [7, 7, 7, 4, 2, 0, 0, 0],
+          [0, 0, 1, 1, 1, 1, 0, 0]
+        )
+    );
     return svg.render();
   },
 

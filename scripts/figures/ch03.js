@@ -6,7 +6,18 @@
  * text, so a ruler-and-protractor reading of a figure agrees with the worked
  * solution.
  */
-import { COLORS, Frame, Svg, rad } from './svg.js';
+import {
+  COLORS,
+  Frame,
+  Svg,
+  localArrow,
+  rad,
+  smilAnimate,
+  smilMotion,
+  smilScaleY,
+  smilTranslate,
+  timedPath,
+} from './svg.js';
 
 const VEC = COLORS.vector;
 const RED = COLORS.red;
@@ -1173,5 +1184,40 @@ function projectileComponents() {
   svg.arc(dx, dy, 30, -launch, 0, { color: BLACK });
   svg.text(dx + 22, dy + 40, 'θ', { size: 17 });
   svg.text(dx - 90, dy, '(d)', { size: 16, math: false });
+
+  // One clock for the whole figure. vx stays put; vy scales through zero at the top.
+  const DUR = '10s';
+  const flight = [];
+  for (let k = 0; k <= 40; k += 1) flight.push(pos((8 * k) / 40));
+  const trail = timedPath(flight);
+  const Lvx = vx * sc;
+  const Lvy = vy0 * sc;
+  const mover = `<circle r="11" fill="#c0392b" stroke="#ffffff" stroke-width="2"/>`;
+  const vxArrow = localArrow(Lvx, 0, BLUE2, { width: 3, head: 12 });
+  const vyArrow = `<g>${smilScaleY(1, -1, { dur: DUR })}${localArrow(0, -Lvy, ORANGE, { width: 3, head: 12 })}</g>`;
+  svg.motionGroup(
+    `${smilMotion(trail.path, { dur: DUR, rotate: '0', keyPoints: trail.keyPoints, keyTimes: trail.keyTimes })}${mover}${vxArrow}${vyArrow}`
+  );
+  const row = [];
+  for (let t = 0; t <= 8; t += 0.5) row.push([50 + t * 84, by]);
+  svg.motionGroup(`<g>${smilTranslate(row, { dur: DUR })}${mover}${vxArrow}</g>`);
+  const rise = [];
+  const riseTimes = [];
+  for (let t = 0; t <= 4; t += 0.5) {
+    rise.push([90, top + (height(4) - height(t))]);
+    riseTimes.push(t / 8);
+  }
+  rise.push([190, top]);
+  riseTimes.push(0.508);
+  for (let t = 4.5; t <= 8; t += 0.5) {
+    rise.push([190, top + (height(4) - height(t))]);
+    riseTimes.push(t / 8);
+  }
+  svg.motionGroup(
+    `<g>${smilTranslate(rise, { dur: DUR, keyTimes: riseTimes })}${mover}${vyArrow}</g>`
+  );
+  svg.motionGroup(
+    `<circle cx="${dx}" cy="${dy}" r="18" fill="none" stroke="${PURPLE}" stroke-width="3" opacity="0">${smilAnimate('opacity', [0, 0, 1, 0], { dur: DUR, keyTimes: [0, 0.78, 0.92, 1] })}</circle>`
+  );
   return svg.render();
 }
