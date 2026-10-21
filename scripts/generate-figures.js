@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Generate the line-art figures (graphs, vector diagrams, geometry) that
- * replaced raster originals in chapters 2–9, plus the figures in the answers to
+ * replaced raster originals in chapters 2–9 and the electromagnetic spectrum of
+ * section 29.3, plus the figures in the answers to
  * the Conceptual Questions of chapters 1–9 (scripts/figures/concepts.js) and
  * chapters 21–25 (scripts/figures/concepts21to25.js), and the field-line and
  * equipotential sketches of sections 18.7 and 19.4 (scripts/figures/fields18to19.js).
@@ -24,6 +25,7 @@ import ch03 from './figures/ch03.js';
 import ch04to07 from './figures/ch04to07.js';
 import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
+import ch29 from './figures/ch29.js';
 import concepts from './figures/concepts.js';
 import concepts21to25 from './figures/concepts21to25.js';
 import fields18to19 from './figures/fields18to19.js';
@@ -40,6 +42,7 @@ const figures = {
   ...ch04to07,
   ...ch08,
   ...ch09,
+  ...ch29,
   ...concepts,
   ...concepts21to25,
   ...fields18to19,

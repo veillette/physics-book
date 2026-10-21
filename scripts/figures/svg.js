@@ -656,7 +656,7 @@ export class Svg {
       `<svg xmlns="http://www.w3.org/2000/svg" width="${fmt(width)}" height="${fmt(height)}" viewBox="0 0 ${fmt(width)} ${fmt(height)}" role="img" aria-labelledby="title desc">`,
       `<title id="title">${escapeXml(this.title)}</title>`,
       `<desc id="desc">${escapeXml(this.desc || this.title)}</desc>`,
-      style,
+      ...(style ? [style] : []),
       `<rect width="${fmt(width)}" height="${fmt(height)}" fill="#ffffff"/>`,
       ...this.items,
       '</svg>',

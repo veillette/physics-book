@@ -119,10 +119,16 @@ section.normal > .title {
   inline-size: 50%;
 }
 
-/* Converted chapter 7–9 diagrams need their labels readable at page width,
-   both before and after the viewer wraps images in figures. */
+/* Converted chapter 7–9 diagrams and the wide EM spectrum (29.3) need their
+   labels readable at page width, both before and after the viewer wraps
+   images in figures. */
 .book .book-body .page-wrapper .page-inner section.normal
-  img:is([src*='Figure_07_'], [src*='Figure_08_'], [src*='Figure_09_'])[src$='.svg'] {
+  img:is(
+    [src*='Figure_07_'],
+    [src*='Figure_08_'],
+    [src*='Figure_09_'],
+    [src*='Figure_29_03_01']
+  )[src$='.svg'] {
   inline-size: auto;
   max-inline-size: 100%;
   block-size: auto;
