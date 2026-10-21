@@ -106,95 +106,101 @@ the question.
 2. Identify the known values.
 3. Enter the known values into the equation:
    <div class="equation" >
-   $$f=(0.0800)\left(0.200\text{kg}\right) \left( 9.80\text{m}/{\text{s}}^{2}\right). $$ &lt;/div&gt; 4. Calculate and convert units: $$f=0.157 \text{N}. $$
-
-   **Discussion a**
-
-   The force here is small because the system and the coefficients are small.
-
-   **Solution b**
-
-   Identify the known:
-
-   - The system involves elastic potential energy as the spring compresses and
-     expands, friction that is related to the work done, and the kinetic energy as
-     the body speeds up and slows down.
-   - Energy is not conserved as the mass oscillates because friction is a
-     non-conservative force.
-   - The motion is horizontal, so gravitational potential energy does not need to
-     be considered.
-   - Because the motion starts from rest, the energy in the system is initially
-     $${\text{PE}}_{\text{el,i}}=\left(1/2\right){\text{kX}}^{2} $$ . This energy
-     is removed by work done by friction $${W}_{\text{nc}}=-\text{fd} $$ , where
-     $$d $$ is the total distance traveled and $$f={\mu }_{\text{k}}mg $$ is the
-     force of friction. When the system stops moving, the friction force will
-     balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left( 1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
-
-   <div class="equation" >
-   $$\begin{array}{lll}{F}_{\text{el}}& =& f\\ kx& =& {\mu }_{\text{k}}mg\\ x& =& \frac{ {\mu }_{\text{k}}mg}{k}\end{array}. $$
+   $$f=(0.0800)\left(0.200\text{kg}\right) \left( 9.80\text{m}/{\text{s}}^{2}\right). $$
    </div>
-   1. By equating the work done to the energy removed, solve for the distance $$d $$
 
-   .
+4. Calculate and convert units: $$f=0.157 \text{N}. $$
 
-   2. The work done by the non-conservative forces equals the initial, stored
-      elastic potential energy. Identify the correct equation to use:
+**Discussion a**
+
+The force here is small because the system and the coefficients are small.
+
+**Solution b**
+
+Identify the known:
+
+- The system involves elastic potential energy as the spring compresses and
+  expands, friction that is related to the work done, and the kinetic energy as
+  the body speeds up and slows down.
+- Energy is not conserved as the mass oscillates because friction is a
+  non-conservative force.
+- The motion is horizontal, so gravitational potential energy does not need to
+  be considered.
+- Because the motion starts from rest, the energy in the system is initially
+  $${\text{PE}}_{\text{el,i}}=\left(1/2\right){\text{kX}}^{2} $$ . This energy
+  is removed by work done by friction $${W}_{\text{nc}}=-\text{fd} $$ , where
+  $$d $$ is the total distance traveled and $$f={\mu }_{\text{k}}mg $$ is the
+  force of friction. When the system stops moving, the friction force will
+  balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left( 1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
+
+<div class="equation" >
+$$\begin{array}{lll}{F}_{\text{el}}& =& f\\ kx& =& {\mu }_{\text{k}}mg\\ x& =& \frac{ {\mu }_{\text{k}}mg}{k}\end{array}. $$
+</div>
+
+1. By equating the work done to the energy removed, solve for the distance $$d $$.
+
+2. The work done by the non-conservative forces equals the initial, stored
+   elastic potential energy. Identify the correct equation to use:
 
    <div class="equation" >
     $${\text{W}}_{\text{nc}}=\Delta \left(\text{KE}+\text{PE}\right)={\text{PE}}_{\text{el,f}}-{\text{PE}}_{\text{el,i}}=\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right). $$
    </div>
-   3. Recall that $${W}_{\text{nc}}=-fd $$ .
-   4. Enter the friction as $$f={\mu }_{\text{k}}mg $$
-      into $${W}_{\text{nc}}=-fd $$ , thus
+
+3. Recall that $${W}_{\text{nc}}=-fd $$ .
+4. Enter the friction as $$f={\mu }_{\text{k}}mg $$
+   into $${W}_{\text{nc}}=-fd $$ , thus
 
    <div class="equation" >
     $${W}_{\text{nc}}={-\mu }_{\text{k}} mgd. $$
    </div>
-   5. Combine these two equations to find
+
+5. Combine these two equations to find
 
    <div class="equation" >
     $$\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right)=-{\mu }_{\text{k}} mgd. $$
    </div>
-   6. Solve the equation for $$d $$
-      \:
+
+6. Solve the equation for $$d $$:
 
    <div class="equation" >
     $$d=\frac{\text{k}}{ {2\mu }_{\text{k}}mg}\left({X}^{2}-{\left(\frac{ {\mu }_{\text{k}}mg}{k}\right)}^{2}\right). $$
    </div>
-   7. Enter the known values into the resulting equation:
+
+7. Enter the known values into the resulting equation:
 
    <div class="equation" >
     $$d=\frac{ 50.0 \text{N/m} }{2\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}\left({\left( 0.100 \text{m}\right)}^{2}-{\left(\frac{\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}{ 50.0 \text{N/m}}\right)}^{2}\right). $$
    </div>
-   8. Calculate $$d $$
-      and convert units:
+
+8. Calculate $$d $$
+   and convert units:
 
    <div class="equation" >
     $$d= 1.59 \text{m}. $$
    </div>
 
-   **Discussion b**
+**Discussion b**
 
-   This is the total distance traveled back and forth across $$x=0 $$ , which is
-   the undamped equilibrium position. The number of oscillations about the
-   equilibrium position will be more than $$d/X=\left( 1.59 \text{m}\right)/\left( 0.100 \text{m}\right)= 15.9 $$ because the amplitude of the oscillations is
-   decreasing with time. At the end of the motion, this system will not return to
-   $$x=0 $$ for this type of damping force, because static friction will exceed the
-   restoring force. This system is underdamped. In contrast, an overdamped system
-   with a simple constant damping force would not cross the equilibrium position
-   $$x=0 $$ a single time. For example, if this system had a damping force 20 times
-   greater, it would only move 0.0484 m toward the equilibrium position from its
-   original 0.100-m position.
+This is the total distance traveled back and forth across $$x=0 $$ , which is
+the undamped equilibrium position. The number of oscillations about the
+equilibrium position will be more than $$d/X=\left( 1.59 \text{m}\right)/\left( 0.100 \text{m}\right)= 15.9 $$ because the amplitude of the oscillations is
+decreasing with time. At the end of the motion, this system will not return to
+$$x=0 $$ for this type of damping force, because static friction will exceed the
+restoring force. This system is underdamped. In contrast, an overdamped system
+with a simple constant damping force would not cross the equilibrium position
+$$x=0 $$ a single time. For example, if this system had a damping force 20 times
+greater, it would only move 0.0484 m toward the equilibrium position from its
+original 0.100-m position.
 
-   This worked example illustrates how to apply problem-solving strategies to
-   situations that integrate the different concepts you have learned. The first
-   step is to identify the physical principles involved in the problem. The second
-   step is to solve for the unknowns using familiar problem-solving strategies.
-   These are found throughout the text, and many worked examples show how to use
-   them for single topics. In this integrated concepts example, you can see how to
-   apply them across several topics. You will find these techniques useful in
-   applications of physics outside a physics course, such as in your profession, in
-   other science disciplines, and in everyday life.
+This worked example illustrates how to apply problem-solving strategies to
+situations that integrate the different concepts you have learned. The first
+step is to identify the physical principles involved in the problem. The second
+step is to solve for the unknowns using familiar problem-solving strategies.
+These are found throughout the text, and many worked examples show how to use
+them for single topics. In this integrated concepts example, you can see how to
+apply them across several topics. You will find these techniques useful in
+applications of physics outside a physics course, such as in your profession, in
+other science disciplines, and in everyday life.
 
 :::
 
