@@ -11,8 +11,8 @@
  * seen end-on), which is enough for a qualitative sketch.
  *
  * Names follow concept_CC_SS_pNN for the NNth problem of section CC.SS. The
- * point-charge, contour, field-line and Laplace-solver helpers are exported
- * for the chapter 18 and 19 figures (scripts/figures/ch18.js and ch19.js).
+ * point-charge, contour, field-line and Laplace-solver helpers, and the
+ * conductor shapes, are exported for the chapter 18 and 19 figures (scripts/figures/ch18.js and ch19.js).
  */
 import { COLORS, Svg } from './svg.js';
 
@@ -245,7 +245,7 @@ export function fieldLine(
 // ---------------------------------------------------------------------------
 // Conductor shapes as closed polygons (clockwise on screen).
 
-function capsule(cx, cy, length, height, n = 40) {
+export function capsule(cx, cy, length, height, n = 40) {
   const r = height / 2;
   const a = length / 2 - r;
   const pts = [];
@@ -261,7 +261,7 @@ function capsule(cx, cy, length, height, n = 40) {
 }
 
 /** Lens with pointed ends: two circular arcs through (cx ± length/2, cy). */
-function spindle(cx, cy, length, height, n = 60) {
+export function spindle(cx, cy, length, height, n = 60) {
   const h = length / 2;
   const s = height / 2;
   const R = (h * h + s * s) / (2 * s);

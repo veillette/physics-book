@@ -12,6 +12,7 @@
  */
 import {
   ROD_18,
+  capsule,
   chargeMarks,
   drawConductor,
   drawRod,
@@ -20,6 +21,7 @@ import {
   rodCharges,
   signedArea,
   solveLaplace,
+  spindle,
   trace,
   walkOutline,
 } from './fields18to19.js';
@@ -1184,6 +1186,30 @@ export default {
       pcharge(svg, x, y, '', { r: 13, fill: '#f7e24a' });
       lab(svg, x + 18 * dx, y + 6, l, { anchor: 'start', size: 26 });
     }
+    return svg.render();
+  },
+
+  // 18.7 problem — a rounded oblong conductor
+  Figure_18_07_13: () => {
+    const svg = new Svg({
+      width: 400,
+      height: 150,
+      title: 'A rounded oblong conductor',
+      desc: 'A neutral metal conductor shaped like a capsule: a long body with flat sides and rounded, semicircular ends.',
+    });
+    drawConductor(svg, capsule(200, 75, 340, 90), { fill: METAL });
+    return svg.render();
+  },
+
+  // 18.7 problem — a lens-shaped conductor with pointed ends
+  Figure_18_07_14: () => {
+    const svg = new Svg({
+      width: 400,
+      height: 150,
+      title: 'A pointed oblong conductor',
+      desc: 'A neutral metal conductor shaped like a lens: two broad curved sides that meet in sharp points at the left and right ends.',
+    });
+    drawConductor(svg, spindle(200, 75, 340, 100), { fill: METAL });
     return svg.render();
   },
 

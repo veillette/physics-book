@@ -12,7 +12,9 @@
 import { CAPACITOR, cell, wire } from './circuit.js';
 import {
   ROD_19,
+  capsule,
   charge,
+  chargeMarks,
   drawConductor,
   drawRod,
   equipotentials,
@@ -20,6 +22,7 @@ import {
   pointField,
   pointPotential,
   rodCharges,
+  solveLaplace,
   trace,
 } from './fields18to19.js';
 import { COLORS, Svg } from './svg.js';
@@ -31,6 +34,13 @@ const METAL_EDGE = '#8a9099';
 const DIELECTRIC = '#f3dc8a';
 const MOLECULE = '#a9dcc2';
 const MOLECULE_EDGE = '#3c9a6c';
+const GOLD = '#e3b341';
+// Ion fill and outline colors for the membrane figure.
+const ION = {
+  na: ['#c9e4e1', '#3a9a96'],
+  k: ['#f7b8a6', '#e07a66'],
+  cl: ['#eeeeee', '#a8a8a8'],
+};
 
 function lab(svg, x, y, s, o = {}) {
   svg.text(x, y, s, { size: 28, ...o });
@@ -46,6 +56,29 @@ function caption(svg, x, y, s) {
 
 function sign(svg, x, y, s, { size = 26, color = COLORS.black } = {}) {
   svg.text(x, y, s, { size, math: false, color, halo: false });
+}
+
+/** Deterministic pseudo-random numbers (Park–Miller). */
+function rng(seed) {
+  let s = seed;
+  return () => {
+    s = (s * 16807) % 2147483647;
+    return s / 2147483647;
+  };
+}
+
+/** Round ion of the given kind, with an optional label inside. */
+function ion(svg, x, y, kind, { r = 22, label, stroke } = {}) {
+  const [fill, edge] = ION[kind];
+  svg.circle(x, y, r, { fill, stroke: stroke || edge, width: stroke ? 3 : 1.5 });
+  if (label) svg.text(x, y, label, { size: 22, math: false, halo: false });
+}
+
+/** Horizontal force arrow with its label at the tail end. */
+function forceArrow(svg, x1, x2, y, label, { gap = 10 } = {}) {
+  svg.arrow(x1, y, x2, y, { color: COLORS.black, width: 1.6, head: 12 });
+  const left = x2 > x1;
+  note(svg, x1 + (left ? -gap : gap), y, label, { anchor: left ? 'end' : 'start', size: 24 });
 }
 
 /** Vertical metal plate from y1 to y2 with its left edge at x. */
@@ -437,6 +470,30 @@ export default {
     return svg.render();
   },
 
+  // 19.4 problem — a negatively charged oblong conductor
+  Figure_19_04_07: () => {
+    const W = 760;
+    const H = 250;
+    const svg = new Svg({
+      width: W,
+      height: H,
+      title: 'A negatively charged conductor',
+      desc: 'A long conductor with flat sides and rounded ends carries negative charge, shown as minus signs on its surface. The charge is computed for a conductor at uniform potential, so the signs crowd together around the curved ends and are spread out along the flat sides.',
+    });
+    const poly = capsule(W / 2, H / 2, 700, 190);
+    const pad = 320;
+    const sol = solveLaplace({
+      box: { x: -pad, y: -pad, w: W + 2 * pad, h: H + 2 * pad },
+      step: 3,
+      conductors: [{ poly, V: -1 }],
+      outer: () => 0,
+      radius: (H + 2 * pad) / 2 - 6,
+    });
+    drawConductor(svg, poly, { fill: GOLD });
+    chargeMarks(svg, poly, sol.E, { count: 26, inset: 16, size: 26 });
+    return svg.render();
+  },
+
   // 19.4 problem — two tilted plates
   Figure_19_04_08: () => {
     const svg = new Svg({
@@ -571,6 +628,99 @@ export default {
       }
       caption(svg, 340, 1046, '(b)');
     }
+    return svg.render();
+  },
+
+  // 19.5 question — ions on either side of a cell membrane
+  Figure_19_05_08: () => {
+    const W = 1000;
+    const H = 700;
+    const svg = new Svg({
+      width: W,
+      height: H,
+      title: 'Ion separation across a cell membrane',
+      desc: 'A curved cell membrane separates the outside of a cell, at left, from the inside, at right. Outside there are many sodium ions, Na+, and chloride ions, Cl−; inside there are many potassium ions, K+, with fewer of the others. The membrane is permeable to K+ and Cl− but not to Na+. K+ diffuses out of the cell and Cl− diffuses in, leaving a layer of positive charge on the outer surface of the membrane and negative charge on the inner surface. The resulting Coulomb force opposes further diffusion: it pushes K+ back in and Cl− back out, and it pulls Na+ inward, which the membrane blocks. A voltage is set up across the membrane.',
+    });
+    // The membrane is an annulus about a center off to the lower right.
+    const [cx, cy] = [1150, 640];
+    const [r1, r2] = [655, 735];
+    svg.add(
+      `<defs><linearGradient id="out19" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9fb4d6"/><stop offset="0.6" stop-color="#d5dbe8"/></linearGradient><radialGradient id="in19" cx="${cx}" cy="${cy}" r="${r1}" gradientUnits="userSpaceOnUse"><stop offset="0.5" stop-color="#f4c97c"/><stop offset="1" stop-color="#fbe7c2"/></radialGradient></defs>`
+    );
+    svg.rect(0, 0, W, H, { fill: 'url(#out19)' });
+    svg.circle(cx, cy, r1, { fill: 'url(#in19)' });
+    svg.add(
+      `<path d="M ${cx - r2} ${cy} a ${r2} ${r2} 0 1 0 ${2 * r2} 0 a ${r2} ${r2} 0 1 0 ${-2 * r2} 0 Z M ${cx - r1} ${cy} a ${r1} ${r1} 0 1 0 ${2 * r1} 0 a ${r1} ${r1} 0 1 0 ${-2 * r1} 0 Z" fill="#f2a6c4" fill-rule="evenodd" stroke="#e0457b" stroke-width="2" stroke-dasharray="3 3"/>`
+    );
+    // Keep ions clear of the labels, the force arrows and the labeled ions.
+    const clear = [
+      [30, 195, 425, 292],
+      [265, 300, 425, 348],
+      [610, 378, 995, 470],
+      [830, 172, 980, 228],
+      [15, 582, 370, 695],
+      [780, 0, 1000, 48],
+    ];
+    const labeled = [
+      [350, 145, 'na', 'Na^+'],
+      [740, 340, 'k', 'K^+'],
+      [345, 447, 'cl', 'Cl^−'],
+    ];
+    const rand = rng(1905);
+    for (let y = 30; y < H; y += 50) {
+      for (let x = 25 + ((y / 50) % 2) * 25; x < W; x += 52) {
+        const px = x + (rand() - 0.5) * 18;
+        const py = y + (rand() - 0.5) * 18;
+        const p = rand();
+        const kindRoll = rand();
+        const d = Math.hypot(px - cx, py - cy);
+        if (d > r1 - 40 && d < r2 + 40) continue;
+        if (clear.some(([a, b, c, e]) => px > a && px < c && py > b && py < e)) continue;
+        if (labeled.some(([lx, ly]) => Math.hypot(px - lx, py - ly) < 52)) continue;
+        let kind;
+        if (d > r2) {
+          if (p < 0.3 || px < 110) continue;
+          if (py < 330) kind = kindRoll < 0.78 ? 'na' : 'k';
+          else kind = kindRoll < 0.85 ? 'cl' : 'na';
+        } else {
+          if (p < 0.12) continue;
+          if (kindRoll < 0.6) kind = 'k';
+          else if (kindRoll < 0.8) kind = 'na';
+          else kind = 'cl';
+          if (py > 470 && kindRoll > 0.45) kind = 'cl';
+        }
+        ion(svg, px, py, kind);
+      }
+    }
+    // Surface charge: + on the outer face, − on the inner face.
+    for (let a = 186; a <= 268; a += 7) {
+      const t = (a * Math.PI) / 180;
+      for (const [r, s] of [
+        [r2 + 18, '+'],
+        [r1 - 18, '−'],
+      ]) {
+        const [x, y] = [cx + r * Math.cos(t), cy + r * Math.sin(t)];
+        if (y > 20 && y < H - 10) sign(svg, x, y, s, { size: 24 });
+      }
+    }
+    for (const [x, y, kind, label] of labeled) {
+      ion(svg, x, y, kind, { r: 26, label, stroke: kind === 'k' ? '#c62828' : undefined });
+    }
+    // K+ leaks out and Cl− leaks in.
+    svg.path('M 718 326 C 640 270 560 230 525 180', { color: COLORS.black, width: 1.8 });
+    svg.arrow(533, 192, 522, 174, { color: COLORS.black, width: 1.8, head: 12 });
+    svg.path('M 372 462 C 420 520 520 500 540 462', { color: COLORS.black, width: 1.8 });
+    svg.arrow(535, 474, 545, 455, { color: COLORS.black, width: 1.8, head: 12 });
+    forceArrow(svg, 275, 410, 224, 'Coulomb force');
+    forceArrow(svg, 215, 345, 270, 'Diffusion');
+    forceArrow(svg, 840, 975, 404, 'Coulomb force');
+    forceArrow(svg, 770, 640, 448, 'Diffusion');
+    forceArrow(svg, 175, 40, 608, 'Coulomb force');
+    forceArrow(svg, 195, 325, 662, 'Diffusion');
+    note(svg, 345, 324, 'Outside', { size: 26, weight: 'bold' });
+    note(svg, 905, 200, 'Inside', { size: 26, weight: 'bold' });
+    note(svg, 905, 24, 'Membrane', { size: 24 });
+    svg.squiggle(840, 26, 708, 92, { amp: 6 });
     return svg.render();
   },
 

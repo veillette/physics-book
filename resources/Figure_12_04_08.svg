@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="780" viewBox="0 0 880 780" role="img" aria-labelledby="title desc">
+<title id="title">Air-filled tube near a water faucet</title>
+<desc id="desc">A horizontal water pipe leads to a faucet, from which water pours. Just before the faucet a vertical tube, closed at the top, rises from the pipe. Water fills the pipe, and the tube above it stays full of air.</desc>
+<rect width="880" height="780" fill="#ffffff"/>
+<rect x="215" y="10" width="115" height="410" rx="16" fill="#b8bcc2" stroke="#80858c" stroke-width="1.5"/>
+<rect x="227" y="22" width="91" height="400" rx="8" fill="#f4f6f8"/>
+<path d="M 0 415 L 520 415 Q 640 415 668 520" fill="none" stroke="#80858c" stroke-width="104"/>
+<path d="M 0 415 L 520 415 Q 640 415 668 520" fill="none" stroke="#b8bcc2" stroke-width="100"/>
+<path d="M 0 415 L 520 415 Q 640 415 668 520" fill="none" stroke="#c7e3f3" stroke-width="78"/>
+<rect x="395" y="355" width="40" height="16" fill="#b8bcc2" stroke="#80858c" stroke-width="1.2"/>
+<rect x="395" y="459" width="40" height="16" fill="#b8bcc2" stroke="#80858c" stroke-width="1.2"/>
+<rect x="520" y="300" width="64" height="66" rx="4" fill="#b8bcc2" stroke="#80858c" stroke-width="1.5"/>
+<line x1="522" y1="312" x2="582" y2="316" stroke="#80858c" stroke-width="1.2"/>
+<line x1="522" y1="321" x2="582" y2="325" stroke="#80858c" stroke-width="1.2"/>
+<line x1="522" y1="330" x2="582" y2="334" stroke="#80858c" stroke-width="1.2"/>
+<line x1="522" y1="339" x2="582" y2="343" stroke="#80858c" stroke-width="1.2"/>
+<line x1="522" y1="348" x2="582" y2="352" stroke="#80858c" stroke-width="1.2"/>
+<line x1="522" y1="357" x2="582" y2="361" stroke="#80858c" stroke-width="1.2"/>
+<rect x="512" y="278" width="80" height="24" rx="3" fill="#a3a8af" stroke="#80858c" stroke-width="1.5"/>
+<rect x="542" y="238" width="20" height="42" fill="#a3a8af" stroke="#80858c" stroke-width="1.5"/>
+<path d="M 462 226 Q 470 210 552 222 Q 634 210 642 226 Q 634 246 552 236 Q 470 246 462 226 Z" fill="#a3a8af" stroke="#80858c" stroke-width="1.5"/>
+<path d="M 629 526 L 707 505 Q 735 640 790 770 L 690 770 Q 645 640 629 526 Z" fill="#bfe0f5" stroke="#7fb6d6" stroke-width="1.5"/>
+<path d="M 655 560 Q 670 660 700 760" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 680 560 Q 695 660 735 760" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<text x="440" y="82.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Air</tspan></text>
+<polyline points="432,72 429.36,70.21 426.7,68.5 424.02,66.94 421.32,65.59 418.57,64.51 415.79,63.73 412.95,63.28 410.08,63.15 407.15,63.33 404.19,63.8 401.2,64.5 398.18,65.36 395.15,66.33 392.11,67.33 389.08,68.27 386.07,69.09 383.08,69.72 380.13,70.09 377.23,70.18 374.36,69.94 371.55,69.38 368.77,68.49 366.04,67.32 363.35,65.89 360.68,64.27 358.03,62.53 355.39,60.73 352.74,58.96 350.08,57.3 347.39,55.8 344.67,54.53 341.92,53.55 339.11,52.88 336.27,52.53 333.37,52.51 330.44,52.79 327.46,53.34 324.46,54.1 321.44,55.01 318.4,56" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="318.4" y1="56" x2="298.91" y2="53.26" stroke="#222222" stroke-width="1.4"/>
+<polygon points="290,52 300.46,49.43 299.34,57.36" fill="#222222"/>
+<text x="410" y="192.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Water</tspan></text>
+<polyline points="398,196 395.67,199.97 393.42,203.96 391.32,207.99 389.42,212.06 387.79,216.19 386.46,220.38 385.44,224.65 384.75,228.99 384.37,233.4 384.26,237.87 384.38,242.39 384.67,246.95 385.06,251.54 385.48,256.13 385.84,260.7 386.08,265.25 386.13,269.76 385.94,274.21 385.45,278.6 384.65,282.91 383.53,287.16 382.1,291.33 380.37,295.44 378.4,299.49 376.24,303.5 373.96,307.49 371.62,311.46 369.31,315.43 367.1,319.43 365.06,323.47 363.25,327.56 361.71,331.71 360.48,335.93 359.58,340.22 358.99,344.59 358.7,349.02 358.68,353.51 358.86,358.04 359.19,362.61 359.6,367.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="359.6" y1="367.2" x2="351.97" y2="401.22" stroke="#222222" stroke-width="1.4"/>
+<polygon points="350,410 348.29,399.37 356.09,401.12" fill="#222222"/>
+<text x="738" y="306.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Faucet</tspan></text>
+<polyline points="728,296 724.85,295.55 721.72,295.17 718.64,294.93 715.63,294.9 712.69,295.13 709.86,295.64 707.12,296.47 704.48,297.61 701.95,299.05 699.49,300.76 697.11,302.7 694.79,304.8 692.5,306.99 690.21,309.21 687.91,311.38 685.57,313.44 683.16,315.3 680.69,316.93 678.12,318.27 675.45,319.31 672.68,320.03 669.81,320.45 666.84,320.58 663.81,320.48 660.71,320.18 657.57,319.77 654.42,319.31 651.27,318.88 648.15,318.54 645.09,318.36 642.11,318.41 639.2,318.73 636.4,319.35 633.7,320.28 631.09,321.53 628.59,323.06 626.16,324.85 623.8,326.85 621.49,328.99 619.2,331.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="619.2" y1="331.2" x2="600.56" y2="337.23" stroke="#222222" stroke-width="1.4"/>
+<polygon points="592,340 600.28,333.12 602.75,340.73" fill="#222222"/>
+</svg>

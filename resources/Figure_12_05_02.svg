@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="330" viewBox="0 0 750 330" role="img" aria-labelledby="title desc">
+<title id="title">A drain insert with four partitions</title>
+<desc id="desc">A short, wide ring, like a section of a cylinder, divided into four equal sections by two crossed partitions that meet along its axis. Devices like this sit in drains and increase the flow rate by preventing the water from swirling.</desc>
+<rect width="750" height="330" fill="#ffffff"/>
+<defs><clipPath id="drain12"><ellipse cx="375" cy="95" rx="350" ry="78"/></clipPath><linearGradient id="ring12" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7fa48f"/><stop offset="0.45" stop-color="#cfe0d5"/><stop offset="1" stop-color="#7fa48f"/></linearGradient></defs>
+<ellipse cx="375" cy="95" rx="350" ry="78" fill="#93b5a1" stroke="none" stroke-width="0"/>
+<g clip-path="url(#drain12)"><ellipse cx="375" cy="205" rx="350" ry="78" fill="#d6e5db"/><polygon points="375,95 494.7,21.7 494.7,131.7 375,205" fill="#e9f1ec" stroke="#2f3e36" stroke-width="1.5"/><polygon points="375,95 46.1,68.3 46.1,178.3 375,205" fill="#c9dccf" stroke="#2f3e36" stroke-width="1.5"/><polygon points="375,95 703.9,121.7 703.9,231.7 375,205" fill="#b5cfbe" stroke="#2f3e36" stroke-width="1.5"/><polygon points="375,95 255.3,168.3 255.3,278.3 375,205" fill="#dbe8df" stroke="#2f3e36" stroke-width="1.5"/></g>
+<path d="M 25 95 A 350 78 0 0 0 725 95 L 725 205 A 350 78 0 0 1 25 205 Z" fill="url(#ring12)" stroke="#2f3e36" stroke-width="1.5"/>
+<ellipse cx="375" cy="95" rx="350" ry="78" fill="none" stroke="#2f3e36" stroke-width="1.5"/>
+</svg>

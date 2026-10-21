@@ -658,6 +658,85 @@ export default {
     return svg.render();
   },
 
+  // 21.1 problem — insulators on a transmission tower
+  Figure_21_01_09: () => {
+    const svg = new Svg({
+      width: 520,
+      height: 550,
+      title: 'Insulators holding a transmission line on a grounded tower',
+      desc: 'A grounded steel lattice tower with a ground conductor at its peak. A string of ceramic insulators hangs from the end of its cross arm and holds a 240-kV, 500-A transmission line. Each insulator provides a resistance of 1.00 × 10^9 Ω.',
+    });
+    const STEEL = '#4a4f57';
+    svg.add(
+      '<defs><linearGradient id="sky21" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf4fb"/><stop offset="1" stop-color="#a9d3ee"/></linearGradient></defs>'
+    );
+    svg.rect(320, 0, 200, 525, { fill: 'url(#sky21)' });
+    svg.rect(320, 525, 200, 18, { fill: '#8a6a45' });
+    svg.rect(360, 470, 70, 55, { fill: '#9a9da3', stroke: '#5f636a', width: 1.5 });
+    svg.rect(370, 480, 50, 45, { fill: '#6b6f76' });
+    // Legs taper from the footing to the cross arm, braced by a zigzag.
+    const leg = (side, y) => 395 + side * (12 + ((y - 120) / 350) * 22);
+    for (const side of [-1, 1])
+      svg.line(leg(side, 470), 470, leg(side, 120), 120, { color: STEEL, width: 3 });
+    const zig = [];
+    for (let k = 0; k <= 12; k += 1) {
+      const y = 470 - (k * 350) / 12;
+      zig.push([leg(k % 2 ? 1 : -1, y), y]);
+    }
+    svg.polyline(zig, { color: STEEL, width: 1.8 });
+    for (let k = 1; k < 12; k += 2)
+      svg.line(leg(-1, zig[k][1]), zig[k][1], leg(1, zig[k][1]), zig[k][1], {
+        color: STEEL,
+        width: 1.2,
+      });
+    // Peak carrying the ground conductor
+    svg.polyline(
+      [
+        [leg(-1, 120), 120],
+        [395, 42],
+        [leg(1, 120), 120],
+      ],
+      { color: STEEL, width: 3 }
+    );
+    svg.polyline(
+      [
+        [leg(-1, 120), 120],
+        [401, 90],
+        [389, 66],
+      ],
+      { color: STEEL, width: 1.6 }
+    );
+    svg.circle(395, 36, 6, { fill: COLORS.black });
+    // Cross arm: two chords joined by a zigzag
+    const top = x => 98 + ((x - 330) / 152) * 2;
+    const bot = x => 124 - ((x - 330) / 152) * 22;
+    svg.line(330, top(330), 482, top(482), { color: STEEL, width: 3 });
+    svg.line(330, bot(330), 482, bot(482), { color: STEEL, width: 3 });
+    const arm = [];
+    for (let k = 0; k <= 10; k += 1) {
+      const x = 330 + (k * 152) / 10;
+      arm.push([x, k % 2 ? top(x) : bot(x)]);
+    }
+    svg.polyline(arm, { color: STEEL, width: 1.6 });
+    // Insulator string and the line conductors
+    svg.line(482, 102, 482, 166, { color: '#6b3d1f', width: 2 });
+    for (let y = 108; y <= 162; y += 6)
+      svg.ellipse(482, y, 8, 2.6, { fill: '#8b5a2b', stroke: '#5a3416', width: 1 });
+    for (const x of [476, 490]) svg.circle(x, 174, 5, { fill: COLORS.black });
+    // Labels
+    note(svg, 290, 36, 'Ground conductor', { anchor: 'end', size: 19 });
+    svg.arrow(298, 36, 386, 36, { color: COLORS.black, width: 1.5, head: 11 });
+    note(svg, 290, 160, 'Insulators each provide', { anchor: 'end', size: 19 });
+    note(svg, 290, 188, '1.00 × 10^9 Ω Resistance', { anchor: 'end', size: 19 });
+    svg.arrow(298, 160, 472, 140, { color: COLORS.black, width: 1.5, head: 11 });
+    note(svg, 290, 298, '240 kV, 500 A', { anchor: 'end', size: 19 });
+    note(svg, 290, 324, 'Transmission line', { anchor: 'end', size: 19 });
+    svg.line(298, 298, 488, 298, { color: COLORS.black, width: 1.5 });
+    for (const x of [476, 490])
+      svg.arrow(488, 298, x, 182, { color: COLORS.black, width: 1.5, head: 11 });
+    return svg.render();
+  },
+
   // 21.2 Fig. 5 — a voltage source and its load
   Figure_21_02_05: () => {
     const svg = new Svg({

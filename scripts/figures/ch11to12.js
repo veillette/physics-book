@@ -230,6 +230,83 @@ export default {
     return svg.render();
   },
 
+  // 11.4 Fig. 2 and problem — the force of water on a dam
+  Figure_11_04_02: () => {
+    const svg = new Svg({
+      width: 920,
+      height: 640,
+      title: 'Force of water on a dam',
+      desc: 'A dam of length L holds back water of depth h. The average pressure on its face is the pressure at the average depth, P̄ = h̄ρg, with h̄ = h/2, and the total force of the water on the dam is F = P̄A, where A = hL is the area of the face in contact with the water.',
+    });
+    // Oblique view: the dam runs from the front face back along (−d, −d).
+    const d = 290;
+    const [x0, x1, top, base] = [470, 870, 330, 610];
+    svg.add(
+      `<defs><linearGradient id="dam11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3f6"/><stop offset="1" stop-color="#2fa9c9"/></linearGradient></defs>`
+    );
+    // Reservoir surface and the water's cut face
+    const waves = [];
+    for (let k = 0; k <= 40; k += 1) {
+      const x = x0 - d + 20 + ((x1 - x0) * k) / 40;
+      waves.push([x, top - d + 10 + 4 * Math.sin(k * 0.9)]);
+    }
+    svg.polygon([[x0, top], [x1, top], ...waves.reverse()], {
+      fill: '#a9daf2',
+      stroke: '#5eb4d6',
+      width: 1.5,
+    });
+    svg.rect(x0, top, x1 - x0, base - top, { fill: 'url(#dam11)' });
+    // Dam: sloping downstream face, top, and cut cross section
+    const edge = { stroke: '#b58f4a', width: 1.4 };
+    const [t0, t1] = [440, x0];
+    const foot = 295;
+    svg.polygon(
+      [
+        [t0, top - 5],
+        [foot, base],
+        [foot - d, base - d],
+        [t0 - d, top - 5 - d],
+      ],
+      { fill: '#f6dca4', ...edge }
+    );
+    svg.polygon(
+      [
+        [t0, top - 5],
+        [t1, top - 5],
+        [t1 - d, top - 5 - d],
+        [t0 - d, top - 5 - d],
+      ],
+      { fill: '#fbecc8', ...edge }
+    );
+    svg.polygon(
+      [
+        [t0, top - 5],
+        [t1, top - 5],
+        [t1, base],
+        [foot, base],
+      ],
+      { fill: '#dcb877', ...edge }
+    );
+    // L along the top of the dam
+    const off = 22;
+    const [a, b] = [
+      [t1 - d + off * 0.7, top - 5 - d - off * 0.7],
+      [t1 + off * 0.7, top - 5 - off * 0.7],
+    ];
+    svg.arrow(...a, ...b, { color: COLORS.black, width: 1.6, head: 13, start: true });
+    for (const [x, y] of [a, b])
+      svg.line(x - 12, y + 12, x + 12, y - 12, { color: COLORS.black, width: 1.4 });
+    lab(svg, (a[0] + b[0]) / 2 + 20, (a[1] + b[1]) / 2 - 18, 'L', { size: 28 });
+    const mid = (top + base) / 2;
+    vdim(svg, 452, top, mid, '\\bar{h}', { side: -1, size: 28 });
+    vdim(svg, 892, top, base, 'h', { side: -1, size: 28 });
+    svg.arrow(560, mid, x0 + 2, mid, { color: FORCE, width: 5, head: 20 });
+    lab(svg, 572, mid - 26, '**F**', { size: 28 });
+    lab(svg, 600, 380, 'F = \\bar{P}A', { size: 28, anchor: 'start' });
+    lab(svg, 740, 380, '\\bar{P} = \\bar{h}\\it{ρg}', { size: 28, anchor: 'start' });
+    return svg.render();
+  },
+
   // 11.4 Fig. 3 — the air column over a square meter
   Figure_11_04_03: () => {
     const svg = new Svg({
@@ -257,6 +334,74 @@ export default {
     svg.leader(270, 180, x0 + w + d + 4, 186, { bend: 0.4, width: 1.6 });
     lab(svg, 280, 180, 'w = 1.01 × 10^5 \\rm{N}', { anchor: 'start', size: 26 });
     lab(svg, x0 + w + d + 24, g - 4, '1 \\rm{m}^2', { anchor: 'start', size: 26 });
+    return svg.render();
+  },
+
+  // 11.4 question — sandbags around a leak under a levee
+  Figure_11_04_04: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 560,
+      title: 'Sandbags stop a leak under a levee',
+      desc: 'A flooding river on the right presses against a levee. Water leaks under the levee and comes up on its far side, where a ring of sandbags has been stacked around the leak. Water inside the sandbags rises at most to the level of the river, shown by a dashed line, and then stops rising.',
+    });
+    const ground = 440;
+    const river = 245;
+    const SOIL = '#b9ab9b';
+    svg.rect(0, ground, 1000, 120, { fill: SOIL, stroke: '#8f8273', width: 1.5 });
+    // River, with a few small waves
+    const surface = [];
+    for (let x = 700; x <= 1000; x += 5)
+      surface.push([x, river - 5 * Math.max(0, Math.sin((x - 700) / 15)) ** 6]);
+    svg.polygon([...surface, [1000, ground], [700, ground]], { fill: '#a7cbe6' });
+    // Levee
+    svg.path(`M 365 ${ground} L 445 228 Q 570 210 700 232 L 765 ${ground} Z`, {
+      color: '#8f8273',
+      width: 1.5,
+      fill: SOIL,
+    });
+    // Water held inside the sandbags rises to the river's level.
+    svg.rect(85, river, 240, ground - river, { fill: '#a7cbe6' });
+    for (let row = 0; row < 9; row += 1) {
+      for (let col = 0; col < 4; col += 1) {
+        svg.rect(87 + col * 60, 214 + row * 25.5, 56, 22, {
+          fill: '#cfc8b6',
+          stroke: '#8f8a7a',
+          width: 1.2,
+          rx: 10,
+        });
+      }
+    }
+    svg.line(325, river, 440, river, { color: COLORS.black, width: 1.6, dash: '6 5' });
+    // Seepage under the levee
+    const path = [
+      [840, 452],
+      [700, 500],
+      [560, 510],
+      [420, 500],
+      [235, 462],
+    ];
+    for (let k = 0; k < path.length - 1; k += 1) {
+      const [p, q] = [path[k], path[k + 1]];
+      const [mx, my] = [(p[0] + q[0]) / 2, (p[1] + q[1]) / 2];
+      const ang = (Math.atan2(q[1] - p[1], q[0] - p[0]) * 180) / Math.PI;
+      svg.add(
+        `<ellipse cx="${mx}" cy="${my}" rx="62" ry="15" transform="rotate(${ang.toFixed(1)} ${mx} ${my})" fill="#a7cbe6" stroke="#2a9fd0" stroke-width="2"/>`
+      );
+      const ux = Math.cos((ang * Math.PI) / 180);
+      const uy = Math.sin((ang * Math.PI) / 180);
+      svg.arrow(mx - ux * 40, my - uy * 40, mx + ux * 40, my + uy * 40, {
+        color: COLORS.black,
+        width: 1.8,
+        head: 13,
+      });
+    }
+    note(svg, 200, 172, 'Sandbags', { size: 30 });
+    note(svg, 505, 360, 'Levee', { size: 30 });
+    note(svg, 830, 172, 'Flooding river', { size: 30 });
+    note(svg, 425, 32, 'Water rises to', { size: 30 });
+    note(svg, 425, 76, 'this level at most', { size: 30 });
+    svg.squiggle(415, 106, 378, 238, { amp: 6 });
     return svg.render();
   },
 
@@ -1057,6 +1202,41 @@ export default {
     return svg.render();
   },
 
+  // 12.3 question — water leaking from an old boot
+  Figure_12_03_03: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 560,
+      title: 'Water leaking from two holes in a boot',
+      desc: 'A rubber boot filled with water to the top has two leaks at the same height near its sole: Leak 1 at the toe, from which water squirts up and to the right, and Leak 2 at the heel, from which water squirts to the left.',
+    });
+    const leakY = 455;
+    svg.path(
+      'M 100 50 L 112 470 Q 112 520 140 520 L 590 520 Q 630 514 624 470 Q 614 424 560 416 Q 470 404 425 372 Q 384 344 382 300 L 380 50 Z',
+      { color: '#9c8556', width: 2, fill: '#d7c49a' }
+    );
+    svg.path('M 112 488 L 622 488', { color: '#9c8556', width: 1.6 });
+    svg.path('M 380 345 Q 340 360 330 400', { color: '#9c8556', width: 1.2 });
+    svg.ellipse(240, 50, 140, 15, { fill: '#bfe0f5', stroke: '#9c8556', width: 2 });
+    svg.path('M 102 70 Q 240 92 380 70', { color: '#9c8556', width: 1.4 });
+    // Jets: Leak 1 squirts up and right from the toe; Leak 2 sideways from the heel.
+    // Both leaks are at the same depth, so the water leaves them at the same speed.
+    const jet = (x, vx, vy, len) => {
+      for (const s of [0.8, 1, 1.2]) {
+        const pts = [];
+        for (let t = 0; t <= 1; t += 0.05) {
+          pts.push([x + vx * s * t * len, leakY - vy * s * t * len + 1.6 * len * t * t]);
+        }
+        svg.polyline(pts, { color: '#5fb1e0', width: 1.6 });
+      }
+    };
+    jet(624, 1.1, 1.4, 100);
+    jet(111, -1.7, 0.4, 55);
+    note(svg, 620, 368, 'Leak 1', { size: 30 });
+    note(svg, 70, 382, 'Leak 2', { size: 30 });
+    return svg.render();
+  },
+
   // 12.4 Fig. 3 — laminar flow between two plates
   Figure_12_04_03: () => {
     const svg = new Svg({
@@ -1145,6 +1325,55 @@ export default {
     return svg.render();
   },
 
+  // 12.4 question — an air-filled tube near a faucet
+  Figure_12_04_08: () => {
+    const svg = new Svg({
+      width: 880,
+      height: 780,
+      title: 'Air-filled tube near a water faucet',
+      desc: 'A horizontal water pipe leads to a faucet, from which water pours. Just before the faucet a vertical tube, closed at the top, rises from the pipe. Water fills the pipe, and the tube above it stays full of air.',
+    });
+    const METAL = '#b8bcc2';
+    const PIPEW = '#c7e3f3';
+    // Closed air tube
+    svg.rect(215, 10, 115, 410, { fill: METAL, stroke: '#80858c', width: 1.5, rx: 16 });
+    svg.rect(227, 22, 91, 400, { fill: '#f4f6f8', rx: 8 });
+    // Pipe and faucet spout, drawn as a stroked tube
+    const center = 'M 0 415 L 520 415 Q 640 415 668 520';
+    svg.add(`<path d="${center}" fill="none" stroke="#80858c" stroke-width="104"/>`);
+    svg.add(`<path d="${center}" fill="none" stroke="${METAL}" stroke-width="100"/>`);
+    svg.add(`<path d="${center}" fill="none" stroke="${PIPEW}" stroke-width="78"/>`);
+    // Union nut on the pipe
+    svg.rect(395, 355, 40, 16, { fill: METAL, stroke: '#80858c', width: 1.2 });
+    svg.rect(395, 459, 40, 16, { fill: METAL, stroke: '#80858c', width: 1.2 });
+    // Valve: bonnet, stem and handle
+    svg.rect(520, 300, 64, 66, { fill: METAL, stroke: '#80858c', width: 1.5, rx: 4 });
+    for (let y = 312; y < 362; y += 9)
+      svg.line(522, y, 582, y + 4, { color: '#80858c', width: 1.2 });
+    svg.rect(512, 278, 80, 24, { fill: '#a3a8af', stroke: '#80858c', width: 1.5, rx: 3 });
+    svg.rect(542, 238, 20, 42, { fill: '#a3a8af', stroke: '#80858c', width: 1.5 });
+    svg.add(
+      '<path d="M 462 226 Q 470 210 552 222 Q 634 210 642 226 Q 634 246 552 236 Q 470 246 462 226 Z" fill="#a3a8af" stroke="#80858c" stroke-width="1.5"/>'
+    );
+    // Falling stream
+    svg.add(
+      '<path d="M 629 526 L 707 505 Q 735 640 790 770 L 690 770 Q 645 640 629 526 Z" fill="#bfe0f5" stroke="#7fb6d6" stroke-width="1.5"/>'
+    );
+    for (const [a, b] of [
+      [655, 700],
+      [680, 735],
+    ]) {
+      svg.path(`M ${a} 560 Q ${a + 15} 660 ${b} 760`, { color: '#ffffff', width: 2 });
+    }
+    note(svg, 440, 72, 'Air', { size: 30, anchor: 'start' });
+    svg.squiggle(432, 72, 290, 52, { amp: 6 });
+    note(svg, 410, 182, 'Water', { size: 30, anchor: 'start' });
+    svg.squiggle(398, 196, 350, 410, { amp: 6 });
+    note(svg, 738, 296, 'Faucet', { size: 30, anchor: 'start' });
+    svg.squiggle(728, 296, 592, 340, { amp: 6 });
+    return svg.render();
+  },
+
   // 12.5 Fig. 1 — laminar and turbulent flow in a narrowed vessel
   Figure_12_05_01: () => {
     const svg = new Svg({
@@ -1190,6 +1419,43 @@ export default {
     note(svg, 650, yc + 150, 'Turbulent', { size: 26 });
     note(svg, 420, yc + 200, 'Transitional—oscillates between', { size: 24 });
     note(svg, 420, yc + 232, 'laminar and turbulent', { size: 24 });
+    return svg.render();
+  },
+
+  // 12.5 question — a drain insert divided into four sections
+  Figure_12_05_02: () => {
+    const svg = new Svg({
+      width: 750,
+      height: 330,
+      title: 'A drain insert with four partitions',
+      desc: 'A short, wide ring, like a section of a cylinder, divided into four equal sections by two crossed partitions that meet along its axis. Devices like this sit in drains and increase the flow rate by preventing the water from swirling.',
+    });
+    const [cx, cy, rx, ry, h] = [375, 95, 350, 78, 110];
+    svg.add(
+      `<defs><clipPath id="drain12"><ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}"/></clipPath><linearGradient id="ring12" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7fa48f"/><stop offset="0.45" stop-color="#cfe0d5"/><stop offset="1" stop-color="#7fa48f"/></linearGradient></defs>`
+    );
+    // Inside: back wall, floor and partitions, clipped to the rim.
+    svg.ellipse(cx, cy, rx, ry, { fill: '#93b5a1', stroke: 'none', width: 0 });
+    const inner = [`<ellipse cx="${cx}" cy="${cy + h}" rx="${rx}" ry="${ry}" fill="#d6e5db"/>`];
+    // Each partition is split at the axis into two halves, drawn back to front.
+    const halves = [];
+    for (const a of [160, 70, 340, 250]) {
+      const t = (a * Math.PI) / 180;
+      halves.push([cx + rx * Math.cos(t), cy - ry * Math.sin(t)]);
+    }
+    halves.sort((p, q) => p[1] - q[1]);
+    const shades = ['#e9f1ec', '#c9dccf', '#b5cfbe', '#dbe8df'];
+    halves.forEach(([x, y], k) => {
+      inner.push(
+        `<polygon points="${cx},${cy} ${x.toFixed(1)},${y.toFixed(1)} ${x.toFixed(1)},${(y + h).toFixed(1)} ${cx},${cy + h}" fill="${shades[k]}" stroke="#2f3e36" stroke-width="1.5"/>`
+      );
+    });
+    svg.add(`<g clip-path="url(#drain12)">${inner.join('')}</g>`);
+    // Outer wall in front
+    svg.add(
+      `<path d="M ${cx - rx} ${cy} A ${rx} ${ry} 0 0 0 ${cx + rx} ${cy} L ${cx + rx} ${cy + h} A ${rx} ${ry} 0 0 1 ${cx - rx} ${cy + h} Z" fill="url(#ring12)" stroke="#2f3e36" stroke-width="1.5"/>`
+    );
+    svg.ellipse(cx, cy, rx, ry, { fill: 'none', stroke: '#2f3e36', width: 1.5 });
     return svg.render();
   },
 

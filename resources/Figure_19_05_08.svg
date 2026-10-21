@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+<title id="title">Ion separation across a cell membrane</title>
+<desc id="desc">A curved cell membrane separates the outside of a cell, at left, from the inside, at right. Outside there are many sodium ions, Na+, and chloride ions, Cl−; inside there are many potassium ions, K+, with fewer of the others. The membrane is permeable to K+ and Cl− but not to Na+. K+ diffuses out of the cell and Cl− diffuses in, leaving a layer of positive charge on the outer surface of the membrane and negative charge on the inner surface. The resulting Coulomb force opposes further diffusion: it pushes K+ back in and Cl− back out, and it pulls Na+ inward, which the membrane blocks. A voltage is set up across the membrane.</desc>
+<rect width="1000" height="700" fill="#ffffff"/>
+<defs><linearGradient id="out19" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9fb4d6"/><stop offset="0.6" stop-color="#d5dbe8"/></linearGradient><radialGradient id="in19" cx="1150" cy="640" r="655" gradientUnits="userSpaceOnUse"><stop offset="0.5" stop-color="#f4c97c"/><stop offset="1" stop-color="#fbe7c2"/></radialGradient></defs>
+<rect x="0" y="0" width="1000" height="700" fill="url(#out19)"/>
+<circle cx="1150" cy="640" r="655" fill="url(#in19)"/>
+<path d="M 415 640 a 735 735 0 1 0 1470 0 a 735 735 0 1 0 -1470 0 Z M 495 640 a 655 655 0 1 0 1310 0 a 655 655 0 1 0 -1310 0 Z" fill="#f2a6c4" fill-rule="evenodd" stroke="#e0457b" stroke-width="2" stroke-dasharray="3 3"/>
+<circle cx="136.07" cy="31.62" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="204.8" cy="36.48" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="248.71" cy="32.97" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="502.18" cy="38.32" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="561.96" cy="34.65" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="160.19" cy="76.04" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="435.06" cy="71.04" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="474.29" cy="81.88" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="532.68" cy="86.39" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="582.43" cy="76.25" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="943.53" cy="83.61" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="189.49" cy="131.85" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="239.98" cy="133.38" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="505.94" cy="121.87" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="811.75" cy="134.04" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="867.93" cy="124.05" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="921.7" cy="138.1" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="983.01" cy="122.82" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="110.73" cy="174.38" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="163.99" cy="174" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="222.59" cy="183.14" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="268.78" cy="183.19" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="748.73" cy="175.74" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="793.14" cy="181.03" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="717.3" cy="223.29" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="767.85" cy="234.39" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="820.67" cy="238.5" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="875.6" cy="229.66" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="922.02" cy="230" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="436.03" cy="274.08" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="687.16" cy="274.91" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="742.13" cy="277.18" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="787.41" cy="282.94" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="844.83" cy="271.22" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="888.84" cy="287.6" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="950.97" cy="283.89" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="138.64" cy="328.64" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="254.42" cy="330.48" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="672.57" cy="331.32" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="828.77" cy="322.66" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="921.55" cy="322.65" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="979.68" cy="323.98" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="281.79" cy="387.77" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="377.2" cy="377.63" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="645.39" cy="374.88" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="681.85" cy="375.31" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="853.23" cy="375.18" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="251.46" cy="430.56" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="607.69" cy="432.06" r="22" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<circle cx="110.13" cy="477.48" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="170.73" cy="475.77" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="580.47" cy="476.5" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="642.82" cy="485.19" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="689.99" cy="475.23" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="743.77" cy="483.92" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="792.88" cy="484.98" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="853.75" cy="478.33" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="897.9" cy="481.76" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="946.73" cy="478.96" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="196.86" cy="538.08" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="247.86" cy="524.95" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="300.28" cy="525.36" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="353.98" cy="528.53" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="568.97" cy="538.99" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="616.2" cy="522.06" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="660.98" cy="533.89" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="715.34" cy="521.66" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="775.89" cy="527.6" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="815.05" cy="535.74" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="869.95" cy="538.5" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="922.23" cy="529.19" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="121.79" cy="581.96" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="323.19" cy="572.94" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="592.04" cy="585" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="630.62" cy="572.2" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="690.53" cy="571.24" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="735.09" cy="585.76" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="848.79" cy="583.78" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="893.65" cy="575.55" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="953.04" cy="575.29" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="560.76" cy="636.96" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="670.09" cy="625.49" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="765.12" cy="625.46" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="922.91" cy="625.34" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="977.78" cy="625.03" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="579.82" cy="683.94" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="638.47" cy="675.99" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="696.43" cy="685.32" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="733.38" cy="687.28" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="786.32" cy="679.52" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<circle cx="891.82" cy="678.82" r="22" fill="#f7b8a6" stroke="#e07a66" stroke-width="1.5"/>
+<circle cx="955.85" cy="675.52" r="22" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<text x="401.13" y="569.69" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="516.49" y="581.82" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="416.3" y="479.01" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="529.33" y="505.11" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="442.41" y="390.86" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="551.42" y="430.53" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="479.07" y="306.55" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="582.43" y="359.21" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="525.73" y="227.33" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="621.9" y="292.19" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="581.7" y="154.39" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="669.25" y="230.49" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="646.14" y="88.81" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="723.76" y="175.02" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="718.1" y="31.58" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="784.63" y="126.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="850.95" y="85.96" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="921.72" y="53.71" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="995.9" y="30.32" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="350" cy="145" r="26" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
+<text x="350" y="152.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Na</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<circle cx="740" cy="340" r="26" fill="#f7b8a6" stroke="#c62828" stroke-width="3"/>
+<text x="740" y="347.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">K</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<circle cx="345" cy="447" r="26" fill="#eeeeee" stroke="#a8a8a8" stroke-width="1.5"/>
+<text x="345" y="454.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Cl</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<path d="M 718 326 C 640 270 560 230 525 180" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="533" y1="192" x2="527.74" y2="183.39" stroke="#222222" stroke-width="1.8"/>
+<polygon points="522,174 532.35,181.74 524.16,186.74" fill="#222222"/>
+<path d="M 372 462 C 420 520 520 500 540 462" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="535" y1="474" x2="539.88" y2="464.73" stroke="#222222" stroke-width="1.8"/>
+<polygon points="545,455 543.66,467.85 535.16,463.38" fill="#222222"/>
+<line x1="275" y1="224" x2="399" y2="224" stroke="#222222" stroke-width="1.6"/>
+<polygon points="410,224 398,228.8 398,219.2" fill="#222222"/>
+<text x="265" y="232.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Coulomb</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan></text>
+<line x1="215" y1="270" x2="334" y2="270" stroke="#222222" stroke-width="1.6"/>
+<polygon points="345,270 333,274.8 333,265.2" fill="#222222"/>
+<text x="205" y="278.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Diffusion</tspan></text>
+<line x1="840" y1="404" x2="964" y2="404" stroke="#222222" stroke-width="1.6"/>
+<polygon points="975,404 963,408.8 963,399.2" fill="#222222"/>
+<text x="830" y="412.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Coulomb</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan></text>
+<line x1="770" y1="448" x2="651" y2="448" stroke="#222222" stroke-width="1.6"/>
+<polygon points="640,448 652,443.2 652,452.8" fill="#222222"/>
+<text x="780" y="456.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Diffusion</tspan></text>
+<line x1="175" y1="608" x2="51" y2="608" stroke="#222222" stroke-width="1.6"/>
+<polygon points="40,608 52,603.2 52,612.8" fill="#222222"/>
+<text x="185" y="616.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Coulomb</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan></text>
+<line x1="195" y1="662" x2="314" y2="662" stroke="#222222" stroke-width="1.6"/>
+<polygon points="325,662 313,666.8 313,657.2" fill="#222222"/>
+<text x="185" y="670.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Diffusion</tspan></text>
+<text x="345" y="333.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Outside</tspan></text>
+<text x="905" y="209.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Inside</tspan></text>
+<text x="905" y="32.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Membrane</tspan></text>
+<polyline points="840,26 836.73,26.07 833.5,26.2 830.34,26.47 827.27,26.94 824.32,27.64 821.51,28.62 818.84,29.89 816.33,31.46 813.95,33.3 811.7,35.41 809.56,37.72 807.49,40.18 805.47,42.74 803.46,45.32 801.43,47.85 799.34,50.27 797.16,52.52 794.87,54.54 792.45,56.3 789.88,57.77 787.17,58.94 784.31,59.82 781.32,60.44 778.22,60.83 775.03,61.05 771.78,61.16 768.51,61.22 765.25,61.3 762.04,61.48 758.9,61.81 755.87,62.34 752.97,63.14 750.2,64.21 747.59,65.58 745.12,67.24 742.79,69.18 740.58,71.35 738.46,73.72 736.41,76.23 734.4,78.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="734.4" y1="78.8" x2="716.05" y2="87.98" stroke="#222222" stroke-width="1.4"/>
+<polygon points="708,92 715.16,83.95 718.73,91.11" fill="#222222"/>
+</svg>

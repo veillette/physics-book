@@ -1614,7 +1614,7 @@ A 240-kV power transmission line carrying  $$5.00 \times 10^{2}  \text{A} $$
  is hung from grounded metal towers by ceramic insulators, each having a  $$ 1.00 \times 10^{9} -\Omega  $$
  resistance. [[Figure 9]](#Figure9). (a) What is the resistance to ground of 100 of these insulators? (b) Calculate the power dissipated by 100 of them. (c) What fraction of the power carried by the line is this? Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](#Note1).
 
-![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](../resources/Figure_21_01_09.jpg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
+![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](/resources/Figure_21_01_09.svg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
 {: #Figure9}
 
 :::

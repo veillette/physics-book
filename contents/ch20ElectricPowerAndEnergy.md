@@ -1054,7 +1054,7 @@ increase in temperature. One such home device is rated at 3.50 A and utilizes
 minute? (b) How much water must you put into the vaporizer for 8.00 h of
 overnight operation? (See [[Figure 4]](#Figure4).)
 
-![The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.](../resources/Figure_20_04_04.jpg 'This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.')
+![The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.](/resources/Figure_20_04_04.svg 'This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.')
 {: #Figure4}
 
 :::

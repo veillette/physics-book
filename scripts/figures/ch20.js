@@ -9,7 +9,7 @@
  * let go" near 15 mA at 60 Hz). The ECG is a sum of smooth P, Q, R, S and T
  * pulses repeating at 80 beats per minute, the pace of the original trace.
  */
-import { CURRENT, WIRE, acSource, cell, resistor, wire } from './circuit.js';
+import { CELL, CURRENT, WIRE, acSource, cell, resistor, wire } from './circuit.js';
 import { COLORS, Plot, Svg, rad } from './svg.js';
 
 const POS = '#2a9fae';
@@ -276,6 +276,61 @@ export default {
     return svg.render();
   },
 
+  // 20.1 problem — the SPEAR storage ring
+  Figure_20_01_08: () => {
+    const svg = new Svg({
+      width: 660,
+      height: 320,
+      title: 'Electrons circulating in the SPEAR storage ring',
+      desc: 'A doughnut-shaped storage ring 72 m in diameter, its tube marked by dashed cross sections of area A. Electrons, drawn as small spheres, circulate around the ring; the current I = 20 A points opposite to their motion.',
+    });
+    // Torus seen from above at a slant: the ring's plane is squashed by k.
+    const [cx, cy, R, rho, k, cv] = [330, 150, 255, 46, 1 / 3, 0.94];
+    const at = (t, s = 0, rr = rho) => [
+      cx + R * Math.cos(t) + rr * Math.cos(s) * Math.cos(t),
+      cy + R * k * Math.sin(t) + rr * Math.cos(s) * k * Math.sin(t) - rr * Math.sin(s) * cv,
+    ];
+    const deg = d => (d * Math.PI) / 180;
+    const [ox, oy, ix, iy] = [R + rho, R * k + rho * cv, R - rho, R * k - rho * cv];
+    svg.add(
+      '<defs><linearGradient id="ring20" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d3dde4"/><stop offset="1" stop-color="#8ea4b2"/></linearGradient></defs>'
+    );
+    svg.add(
+      `<path d="M ${cx - ox} ${cy} a ${ox} ${oy} 0 1 0 ${2 * ox} 0 a ${ox} ${oy} 0 1 0 ${-2 * ox} 0 Z M ${cx - ix} ${cy} a ${ix} ${iy} 0 1 0 ${2 * ix} 0 a ${ix} ${iy} 0 1 0 ${-2 * ix} 0 Z" fill="url(#ring20)" fill-rule="evenodd" stroke="#4f6472" stroke-width="1.5"/>`
+    );
+    for (let t = 0; t < 360; t += 15) {
+      const pts = [];
+      for (let s = 0; s <= 360; s += 10) pts.push(at(deg(t), deg(s)));
+      svg.polyline(pts, { color: COLORS.black, width: 1.2, dash: '5 4' });
+    }
+    // 72 m between the tube's center lines at the far left and right.
+    const [L, Rt] = [at(Math.PI, 0, 0), at(0, 0, 0)];
+    svg.arrow(L[0] + 1, cy - 12, Rt[0] - 1, cy - 12, {
+      color: WIRE,
+      width: 1.6,
+      head: 13,
+      start: true,
+    });
+    for (const x of [L[0], Rt[0]]) svg.line(x, cy - 30, x, cy + 6, { color: WIRE, width: 1.6 });
+    lab(svg, cx, cy - 32, '72 \\rm{m}');
+    // Electrons on the near side move left; the current points the other way.
+    for (const t of [118, 128, 138, 148, 158]) {
+      const [x, y] = at(deg(t), deg(-20), rho * 0.5);
+      svg.circle(x, y, 9, { fill: '#b79ad6', stroke: '#6d4b93', width: 1.2 });
+    }
+    const e1 = at(deg(122), deg(-75), rho * 0.6);
+    const e2 = at(deg(146), deg(-75), rho * 0.6);
+    svg.arrow(...e1, ...e2, { color: WIRE, width: 1.8, head: 12 });
+    lab(svg, (e1[0] + e2[0]) / 2 + 4, (e1[1] + e2[1]) / 2 + 20, 'e^−', { size: 22 });
+    const i1 = at(deg(64), deg(-10), rho * 0.4);
+    const i2 = at(deg(46), deg(-10), rho * 0.4);
+    svg.arrow(...i1, ...i2, { color: CURRENT, width: 3.5, head: 15 });
+    lab(svg, i2[0] - 10, i2[1] - 30, 'I = 20 \\rm{A}', { size: 24 });
+    svg.squiggle(560, 296, ...at(deg(40), deg(-60), rho * 0.9), { amp: 5 });
+    lab(svg, 570, 296, '\\rm{Area} A', { anchor: 'start', size: 22 });
+    return svg.render();
+  },
+
   // 20.2 Fig. 1 — a battery driving a resistor
   Figure_20_02_01: () => {
     const svg = new Svg({
@@ -430,6 +485,166 @@ export default {
     lab(svg, g.X(4.1), g.Y(0.13), '\\rm{Hg}', { size: 26 });
     svg.leader(g.X(4.13), g.Y(0.03), g.X(Tc) - 4, g.Y(0.003), { bend: 0.4, width: 1.5 });
     lab(svg, g.X(4.12), g.Y(0.036), 'T_c', { anchor: 'end' });
+    return svg.render();
+  },
+
+  // 20.3 question — resistance along a bar and across it
+  Figure_20_03_04: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 380,
+      title: 'Current along a bar and across it',
+      desc: '(a) A battery of voltage V drives current I along the length of a rectangular bar, which has resistance R along that path. (b) The same battery drives current I′ across the width of the same bar, along a much shorter path of larger cross section. The resistance R′ and current I′ for that path are to be found.',
+    });
+    const TOP = '#e4e8ee';
+    const FRONT = '#b9c0ca';
+    const END = '#8d96a3';
+    // Bar with its top-back-left corner at (x, y): length l, depth offset (d, dd), height h.
+    const bar = (x, y, l, d, dd, h) => {
+      const edge = { stroke: '#5d6673', width: 1.4 };
+      svg.polygon(
+        [
+          [x, y],
+          [x + l, y],
+          [x + l + d, y + dd],
+          [x + d, y + dd],
+        ],
+        { fill: TOP, ...edge }
+      );
+      svg.polygon(
+        [
+          [x + d, y + dd],
+          [x + l + d, y + dd],
+          [x + l + d, y + dd + h],
+          [x + d, y + dd + h],
+        ],
+        { fill: FRONT, ...edge }
+      );
+      svg.polygon(
+        [
+          [x, y],
+          [x + d, y + dd],
+          [x + d, y + dd + h],
+          [x, y + h],
+        ],
+        { fill: END, ...edge }
+      );
+    };
+    const flow = (d, arrows) => {
+      svg.path(d, { color: CURRENT, width: 3 });
+      for (const [x1, y1, x2, y2] of arrows)
+        svg.arrow(x1, y1, x2, y2, { color: CURRENT, width: 3, head: 18 });
+    };
+    const battery = x => {
+      // Long (positive) plate on the left, as in both panels.
+      svg.rect(x - 4, 195, 9, 140, { fill: CELL });
+      svg.rect(x + 31, 230, 9, 60, { fill: CELL });
+      note(svg, x - 22, 254, '+', { size: 28 });
+      note(svg, x + 56, 254, '−', { size: 28 });
+      lab(svg, x + 18, 360, 'V', { size: 28 });
+    };
+    // (a) along the length
+    bar(65, 95, 280, 30, 60, 65);
+    flow('M 225 248 L 30 248 Q 8 248 8 226 L 8 186 Q 8 162 32 162 L 72 162', [[50, 162, 80, 162]]);
+    svg.line(80, 162, 370, 162, { color: COLORS.black, width: 1.8, dash: '7 5' });
+    flow('M 370 162 L 445 162 Q 470 162 490 196 L 508 226 Q 520 248 494 248 L 265 248', [
+      [388, 162, 430, 162],
+    ]);
+    battery(230);
+    svg.arrow(67, 72, 343, 72, { color: COLORS.black, width: 1.6, head: 13, start: true });
+    for (const x of [65, 345]) svg.line(x, 50, x, 92, { color: COLORS.black, width: 1.4 });
+    lab(svg, 205, 72, 'R', { size: 28 });
+    lab(svg, 36, 140, 'I', { size: 28 });
+    // (b) across the width
+    bar(660, 95, 280, 30, 60, 65);
+    flow(
+      'M 725 248 L 640 248 Q 610 248 596 222 L 540 92 Q 528 52 570 52 L 742 52 Q 768 52 790 92',
+      [[776, 72, 798, 100]]
+    );
+    svg.line(798, 100, 862, 208, { color: COLORS.black, width: 1.8, dash: '7 5' });
+    flow('M 852 190 L 872 222 Q 885 248 860 248 L 765 248', [[854, 192, 876, 226]]);
+    battery(730);
+    svg.line(822, 30, 822, 104, { color: COLORS.black, width: 1.4 });
+    svg.line(855, 30, 855, 150, { color: COLORS.black, width: 1.4 });
+    svg.arrow(824, 70, 853, 92, { color: COLORS.black, width: 1.4, head: 9, start: true });
+    lab(svg, 868, 34, 'R′ = ?', { anchor: 'start', size: 26 });
+    lab(svg, 660, 30, 'I′ = ?', { anchor: 'start', size: 26 });
+    caption(svg, 450, 330, '(a)');
+    caption(svg, 960, 330, '(b)');
+    return svg.render();
+  },
+
+  // 20.4 problem — a cold vaporizer
+  Figure_20_04_04: () => {
+    const svg = new Svg({
+      width: 625,
+      height: 780,
+      title: 'A cold vaporizer',
+      desc: 'A cold vaporizer: a box-shaped base holds a clear water reservoir under a round cap, and vapor rises from the top. An enlarged view of the reservoir shows the circuit inside: an AC voltage source connected to two electrodes that dip into the water, so the current passes through the water itself, which acts as the resistance R.',
+    });
+    const BODY = '#f2dfb8';
+    const EDGE = '#c9ae7c';
+    const WATER = '#bfe0f5';
+    // Vapor
+    for (const [x, y, r] of [
+      [242, 60, 22],
+      [262, 92, 28],
+      [236, 128, 30],
+      [258, 166, 32],
+    ]) {
+      svg.add(`<circle cx="${x}" cy="${y}" r="${r}" fill="#9ccbef" fill-opacity="0.35"/>`);
+    }
+    // Base: top face, right face, front face
+    const edge = { stroke: EDGE, width: 1.6 };
+    svg.polygon(
+      [
+        [20, 300],
+        [400, 300],
+        [460, 250],
+        [80, 250],
+      ],
+      { fill: '#f7ead0', ...edge }
+    );
+    svg.polygon(
+      [
+        [400, 300],
+        [460, 250],
+        [460, 360],
+        [400, 420],
+      ],
+      { fill: '#e6cf9f', ...edge }
+    );
+    svg.rect(20, 300, 380, 120, { fill: BODY, stroke: EDGE, width: 1.6 });
+    svg.line(20, 340, 400, 340, { color: EDGE, width: 1.2 });
+    // Reservoir, seen through a window in the base
+    svg.rect(190, 255, 110, 150, { fill: '#ffffff', stroke: '#8ab4d4', width: 2, rx: 8 });
+    svg.rect(192, 300, 106, 103, { fill: WATER, rx: 6 });
+    for (const x of [222, 268]) svg.line(x, 262, x, 390, { color: '#5c8fb8', width: 3 });
+    // Cap
+    svg.rect(170, 205, 150, 50, { fill: BODY, stroke: EDGE, width: 1.6 });
+    svg.ellipse(245, 255, 75, 16, { fill: BODY, stroke: EDGE, width: 1.6 });
+    svg.ellipse(245, 205, 75, 16, { fill: '#f7ead0', stroke: EDGE, width: 1.6 });
+    svg.rect(232, 198, 26, 14, { fill: 'none', stroke: EDGE, width: 1.4, rx: 3 });
+    // Magnified view
+    const [mx, my, mr] = [455, 620, 140];
+    svg.line(192, 400, mx - mr * 0.94, my + mr * 0.33, { color: COLORS.black, width: 1.6 });
+    svg.line(298, 262, mx + mr * 0.6, my - mr * 0.8, { color: COLORS.black, width: 1.6 });
+    svg.add(
+      `<defs><clipPath id="lens20"><circle cx="${mx}" cy="${my}" r="${mr}"/></clipPath></defs>`
+    );
+    svg.circle(mx, my, mr, { fill: '#ffffff' });
+    svg.add(
+      `<rect x="${mx - mr}" y="${my}" width="${2 * mr}" height="${mr}" fill="${WATER}" clip-path="url(#lens20)"/>`
+    );
+    svg.circle(mx, my, mr, { fill: 'none', stroke: COLORS.black, width: 2 });
+    const [l, r] = [mx - 20, mx + 20];
+    svg.path(
+      `M ${l} ${my + 120} L ${l} ${my - 50} L ${l - 30} ${my - 50} Q ${mx - 85} ${my - 50} ${mx - 85} ${my - 80} Q ${mx - 85} ${my - 110} ${mx - 50} ${my - 110} L ${mx + 50} ${my - 110} Q ${mx + 85} ${my - 110} ${mx + 85} ${my - 80} Q ${mx + 85} ${my - 50} ${r + 30} ${my - 50} L ${r} ${my - 50} L ${r} ${my + 120}`,
+      { color: WIRE, width: 3 }
+    );
+    acSource(svg, [mx - 22, my - 110], [mx + 22, my - 110], { r: 17 });
+    note(svg, mx, my - 72, 'AC V', { size: 24 });
+    lab(svg, mx, my + 60, 'R', { size: 28 });
     return svg.render();
   },
 

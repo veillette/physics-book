@@ -628,7 +628,7 @@ This is why modern plumbing codes require larger supply pipes and pressure-balan
 
 Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 8]](#Figure8). Explain why they are needed and how they work.
 
-![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
+![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](/resources/Figure_12_04_08.svg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
 {: #Figure8}
 
 :::

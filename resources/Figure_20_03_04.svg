@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="title desc">
+<title id="title">Current along a bar and across it</title>
+<desc id="desc">(a) A battery of voltage V drives current I along the length of a rectangular bar, which has resistance R along that path. (b) The same battery drives current I′ across the width of the same bar, along a much shorter path of larger cross section. The resistance R′ and current I′ for that path are to be found.</desc>
+<rect width="1000" height="380" fill="#ffffff"/>
+<polygon points="65,95 345,95 375,155 95,155" fill="#e4e8ee" stroke="#5d6673" stroke-width="1.4"/>
+<polygon points="95,155 375,155 375,220 95,220" fill="#b9c0ca" stroke="#5d6673" stroke-width="1.4"/>
+<polygon points="65,95 95,155 95,220 65,160" fill="#8d96a3" stroke="#5d6673" stroke-width="1.4"/>
+<path d="M 225 248 L 30 248 Q 8 248 8 226 L 8 186 Q 8 162 32 162 L 72 162" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="50" y1="162" x2="63" y2="162" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="80,162 62,169.2 62,154.8" fill="#1f77c8"/>
+<line x1="80" y1="162" x2="370" y2="162" stroke="#222222" stroke-width="1.8" stroke-dasharray="7 5"/>
+<path d="M 370 162 L 445 162 Q 470 162 490 196 L 508 226 Q 520 248 494 248 L 265 248" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="388" y1="162" x2="413" y2="162" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="430,162 412,169.2 412,154.8" fill="#1f77c8"/>
+<rect x="226" y="195" width="9" height="140" fill="#c62828"/>
+<rect x="261" y="230" width="9" height="60" fill="#c62828"/>
+<text x="208" y="263.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="286" y="263.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="248" y="369.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="79" y1="72" x2="331" y2="72" stroke="#222222" stroke-width="1.6"/>
+<polygon points="343,72 330,77.2 330,66.8" fill="#222222"/>
+<polygon points="67,72 80,66.8 80,77.2" fill="#222222"/>
+<line x1="65" y1="50" x2="65" y2="92" stroke="#222222" stroke-width="1.4"/>
+<line x1="345" y1="50" x2="345" y2="92" stroke="#222222" stroke-width="1.4"/>
+<text x="205" y="81.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="36" y="149.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<polygon points="660,95 940,95 970,155 690,155" fill="#e4e8ee" stroke="#5d6673" stroke-width="1.4"/>
+<polygon points="690,155 970,155 970,220 690,220" fill="#b9c0ca" stroke="#5d6673" stroke-width="1.4"/>
+<polygon points="660,95 690,155 690,220 660,160" fill="#8d96a3" stroke="#5d6673" stroke-width="1.4"/>
+<path d="M 725 248 L 640 248 Q 610 248 596 222 L 540 92 Q 528 52 570 52 L 742 52 Q 768 52 790 92" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="776" y1="72" x2="787.5" y2="86.63" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="798,100 781.22,90.29 792.54,81.4" fill="#1f77c8"/>
+<line x1="798" y1="100" x2="862" y2="208" stroke="#222222" stroke-width="1.8" stroke-dasharray="7 5"/>
+<path d="M 852 190 L 872 222 Q 885 248 860 248 L 765 248" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="854" y1="192" x2="866.76" y2="211.73" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="876,226 860.18,214.8 872.27,206.98" fill="#1f77c8"/>
+<rect x="726" y="195" width="9" height="140" fill="#c62828"/>
+<rect x="761" y="230" width="9" height="60" fill="#c62828"/>
+<text x="708" y="263.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="786" y="263.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="748" y="369.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="822" y1="30" x2="822" y2="104" stroke="#222222" stroke-width="1.4"/>
+<line x1="855" y1="30" x2="855" y2="150" stroke="#222222" stroke-width="1.4"/>
+<line x1="830.37" y1="74.84" x2="846.63" y2="87.16" stroke="#222222" stroke-width="1.4"/>
+<polygon points="853,92 843.65,89.43 848.01,83.69" fill="#222222"/>
+<polygon points="824,70 833.35,72.57 828.99,78.31" fill="#222222"/>
+<text x="868" y="43.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal">′ = ?</tspan></text>
+<text x="660" y="39.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-style="normal">′ = ?</tspan></text>
+<text x="450" y="337" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="960" y="337" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

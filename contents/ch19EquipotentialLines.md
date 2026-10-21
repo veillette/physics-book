@@ -438,7 +438,7 @@ The zero-potential surface forms a closed curve encircling the positive charge, 
 
 Sketch the equipotential lines in the vicinity of the negatively charged conductor in [[Figure 7]](#Figure7). How will these equipotentials look a long distance from the object?
 
-![The figure shows a negatively charged conductor that is shaped like an oblong.](../resources/Figure_19_04_07.jpg 'A negatively charged conductor.')
+![The figure shows a negatively charged conductor that is shaped like an oblong.](/resources/Figure_19_04_07.svg 'A negatively charged conductor.')
 {: #Figure7}
 
 :::

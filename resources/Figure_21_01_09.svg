@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="550" viewBox="0 0 520 550" role="img" aria-labelledby="title desc">
+<title id="title">Insulators holding a transmission line on a grounded tower</title>
+<desc id="desc">A grounded steel lattice tower with a ground conductor at its peak. A string of ceramic insulators hangs from the end of its cross arm and holds a 240-kV, 500-A transmission line. Each insulator provides a resistance of 1.00 × 10^9 Ω.</desc>
+<rect width="520" height="550" fill="#ffffff"/>
+<defs><linearGradient id="sky21" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf4fb"/><stop offset="1" stop-color="#a9d3ee"/></linearGradient></defs>
+<rect x="320" y="0" width="200" height="525" fill="url(#sky21)"/>
+<rect x="320" y="525" width="200" height="18" fill="#8a6a45"/>
+<rect x="360" y="470" width="70" height="55" fill="#9a9da3" stroke="#5f636a" stroke-width="1.5"/>
+<rect x="370" y="480" width="50" height="45" fill="#6b6f76"/>
+<line x1="361" y1="470" x2="383" y2="120" stroke="#4a4f57" stroke-width="3"/>
+<line x1="429" y1="470" x2="407" y2="120" stroke="#4a4f57" stroke-width="3"/>
+<polyline points="361,470 427.17,440.83 364.67,411.67 423.5,382.5 368.33,353.33 419.83,324.17 372,295 416.17,265.83 375.67,236.67 412.5,207.5 379.33,178.33 408.83,149.17 383,120" fill="none" stroke="#4a4f57" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="362.83" y1="440.83" x2="427.17" y2="440.83" stroke="#4a4f57" stroke-width="1.2"/>
+<line x1="366.5" y1="382.5" x2="423.5" y2="382.5" stroke="#4a4f57" stroke-width="1.2"/>
+<line x1="370.17" y1="324.17" x2="419.83" y2="324.17" stroke="#4a4f57" stroke-width="1.2"/>
+<line x1="373.83" y1="265.83" x2="416.17" y2="265.83" stroke="#4a4f57" stroke-width="1.2"/>
+<line x1="377.5" y1="207.5" x2="412.5" y2="207.5" stroke="#4a4f57" stroke-width="1.2"/>
+<line x1="381.17" y1="149.17" x2="408.83" y2="149.17" stroke="#4a4f57" stroke-width="1.2"/>
+<polyline points="383,120 395,42 407,120" fill="none" stroke="#4a4f57" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="383,120 401,90 389,66" fill="none" stroke="#4a4f57" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="395" cy="36" r="6" fill="#222222"/>
+<line x1="330" y1="98" x2="482" y2="100" stroke="#4a4f57" stroke-width="3"/>
+<line x1="330" y1="124" x2="482" y2="102" stroke="#4a4f57" stroke-width="3"/>
+<polyline points="330,124 345.2,98.2 360.4,119.6 375.6,98.6 390.8,115.2 406,99 421.2,110.8 436.4,99.4 451.6,106.4 466.8,99.8 482,102" fill="none" stroke="#4a4f57" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="482" y1="102" x2="482" y2="166" stroke="#6b3d1f" stroke-width="2"/>
+<ellipse cx="482" cy="108" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="114" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="120" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="126" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="132" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="138" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="144" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="150" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="156" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<ellipse cx="482" cy="162" rx="8" ry="2.6" fill="#8b5a2b" stroke="#5a3416" stroke-width="1"/>
+<circle cx="476" cy="174" r="5" fill="#222222"/>
+<circle cx="490" cy="174" r="5" fill="#222222"/>
+<text x="290" y="42.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ground</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">conductor</tspan></text>
+<line x1="298" y1="36" x2="376" y2="36" stroke="#222222" stroke-width="1.5"/>
+<polygon points="386,36 375,40.4 375,31.6" fill="#222222"/>
+<text x="290" y="166.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Insulators</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">each</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">provide</tspan></text>
+<text x="290" y="194.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.00 × 10</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">9</tspan></tspan><tspan dy="7.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Ω</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Resistance</tspan></text>
+<line x1="298" y1="160" x2="462.07" y2="141.14" stroke="#222222" stroke-width="1.5"/>
+<polygon points="472,140 461.57,145.63 460.57,136.88" fill="#222222"/>
+<text x="290" y="304.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">240 </tspan><tspan font-style="normal">kV</tspan><tspan font-style="normal">, 500 </tspan><tspan font-style="normal">A</tspan></text>
+<text x="290" y="330.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Transmission</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">line</tspan></text>
+<line x1="298" y1="298" x2="488" y2="298" stroke="#222222" stroke-width="1.5"/>
+<line x1="488" y1="298" x2="477.03" y2="191.95" stroke="#222222" stroke-width="1.5"/>
+<polygon points="476,182 481.51,192.49 472.76,193.39" fill="#222222"/>
+<line x1="488" y1="298" x2="489.83" y2="192" stroke="#222222" stroke-width="1.5"/>
+<polygon points="490,182 494.21,193.07 485.41,192.92" fill="#222222"/>
+</svg>

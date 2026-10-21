@@ -157,7 +157,7 @@ Both factors compound the problem: the narrowing directly increases resistance, 
 
 Sink drains often have a device such as that shown in [[Figure 2]](#Figure2) to help speed the flow of water. How does this work?
 
-![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](../resources/Figure_12_05_02.jpg 'You will find devices such as this in many drains. They significantly increase flow rate.')
+![Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.](/resources/Figure_12_05_02.svg 'You will find devices such as this in many drains. They significantly increase flow rate.')
 {: #Figure2}
 
 :::

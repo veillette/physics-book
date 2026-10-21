@@ -625,7 +625,7 @@ Charge retention depends on footwear, moisture, and surrounding leakage paths. A
 
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 11]](#Figure11) given the field was originally uniform and parallel to the object's long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_18_07_13.jpg ' ')
+![A oblong-shaped conductor.](/resources/Figure_18_07_13.svg ' ')
 {: #Figure11}
 
 :::
@@ -672,7 +672,7 @@ This concentration of charge and field at sharp points has practical application
 
 Sketch the electric field lines in the vicinity of the conductor in [[Figure 12]](#Figure12) given the field was originally uniform and parallel to the object's long axis. Is the resulting field small near the long side of the object?
 
-![A oblong-shaped conductor.](../resources/Figure_18_07_14.jpg ' ')
+![A oblong-shaped conductor.](/resources/Figure_18_07_14.svg ' ')
 {: #Figure12}
 
 :::
