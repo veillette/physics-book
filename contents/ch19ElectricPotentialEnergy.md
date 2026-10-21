@@ -282,7 +282,7 @@ given kinetic energy that is later converted to another form—light in the
 television tube, for example. (Note that downhill for the electron is uphill for
 a positive charge.) Since energy is related to voltage by $$\Delta \text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
 
-![In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.](../resources/Figure_19_01_03.jpg 'A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.')
+![Two vertical metal plates. Plate A on the left is negative and plate B on the right is positive, with a small hole in its middle. The electric field lines run straight from B to A, pointing left, and bow outward at the top and bottom ends. An electron e⁻ starts next to plate A, is accelerated to the right through the hole in B, and leaves with kinetic energy KE = qV.](../resources/Figure_19_01_03.svg 'A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.')
 {: #Figure3}
 
 On the submicroscopic scale, it is more convenient to define an energy unit

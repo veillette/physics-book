@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="420" viewBox="0 0 740 420" role="img" aria-labelledby="title desc">
+<title id="title">A combination of series and parallel capacitors</title>
+<desc id="desc">Three branches between a top wire and a bottom wire. Left: 5.0 μF in series with 3.5 μF. Middle: 8.0 μF. Right: 1.5 μF in series with a parallel pair of 0.75 μF and 15 μF.</desc>
+<rect width="740" height="420" fill="#ffffff"/>
+<polyline points="300,20 300,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="300,340 300,400" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="140,70 480,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="140,340 600,340" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="140,70 140,340" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="300,70 300,340" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="480,70 480,340" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="480,200 600,200 600,340" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="140" y1="128" x2="140" y2="142" stroke="#ffffff" stroke-width="7"/>
+<line x1="162" y1="128" x2="118" y2="128" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="162" y1="142" x2="118" y2="142" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="140" y1="263" x2="140" y2="277" stroke="#ffffff" stroke-width="7"/>
+<line x1="162" y1="263" x2="118" y2="263" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="162" y1="277" x2="118" y2="277" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="300" y1="198" x2="300" y2="212" stroke="#ffffff" stroke-width="7"/>
+<line x1="322" y1="198" x2="278" y2="198" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="322" y1="212" x2="278" y2="212" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="480" y1="128" x2="480" y2="142" stroke="#ffffff" stroke-width="7"/>
+<line x1="502" y1="128" x2="458" y2="128" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="502" y1="142" x2="458" y2="142" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="480" y1="263" x2="480" y2="277" stroke="#ffffff" stroke-width="7"/>
+<line x1="502" y1="263" x2="458" y2="263" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="502" y1="277" x2="458" y2="277" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="600" y1="263" x2="600" y2="277" stroke="#ffffff" stroke-width="7"/>
+<line x1="622" y1="263" x2="578" y2="263" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="622" y1="277" x2="578" y2="277" stroke="#1b7a4a" stroke-width="4.5"/>
+<circle cx="480" cy="200" r="4.5" fill="#222222"/>
+<text x="108" y="144.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5.0 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="108" y="279.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3.5 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="268" y="214.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8.0 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="512" y="144.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.5 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="448" y="279.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.75 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="632" y="279.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">15 </tspan><tspan font-style="normal">μF</tspan></text>
+</svg>

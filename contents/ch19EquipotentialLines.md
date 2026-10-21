@@ -29,7 +29,7 @@ An equipotential sphere is a circle in the two-dimensional view
 of [[Figure 1]](#Figure1). Since the electric field lines point radially away
 from the charge, they are perpendicular to the equipotential lines.
 
-![The figure shows a positive charge Q at the center of four concentric circles of increasing radii. The electric potential is the same along each of the circles, called equipotential lines. Straight lines representing electric field lines are drawn from the positive charge to intersect the circles at various points. The equipotential lines are perpendicular to the electric field lines.](../resources/Figure_19_04_01.jpg 'An isolated point charge ( Q ) with its electric field lines in blue and equipotential lines in green. The potential is the same along each equipotential line, meaning that no work is required to move a charge anywhere along one of those lines. Work is needed to move a charge from one equipotential line to another. Equipotential lines are perpendicular to electric field lines in every case. ')
+![A positive point charge Q at the center. Twelve straight field lines, in blue, point radially outward. Four green equipotential circles surround the charge, drawn for equal steps of potential, so they are closest together near the charge, where the field is strongest. The field lines cross every equipotential at right angles.](../resources/Figure_19_04_01.svg 'An isolated point charge ( Q ) with its electric field lines in blue and equipotential lines in green. The potential is the same along each equipotential line, meaning that no work is required to move a charge anywhere along one of those lines. Work is needed to move a charge from one equipotential line to another. Equipotential lines are perpendicular to electric field lines in every case. ')
 {: #Figure1}
 
 It is important to note that **equipotential lines** are always perpendicular to
@@ -87,10 +87,10 @@ lines. Conversely, given the equipotential lines, as in [[Figure 3]](#Figure3)(
 a), the electric field lines can be drawn by making them perpendicular to the
 equipotentials, as in [[Figure 3]](#Figure3)(b).
 
-![The figure shows two sets of concentric circles, called equipotential lines, drawn with positive and negative charges at their centers. Curved electric field lines emanate from the positive charge and curve to meet the negative charge. The lines form closed curves between the charges. The equipotential lines are always perpendicular to the field lines.](../resources/Figure_19_04_02.jpg 'The electric field lines and equipotential lines for two equal but opposite charges. The equipotential lines can be drawn by making them perpendicular to the electric field lines, if those are known. Note that the potential is greatest (most positive) near the positive charge and least (most negative) near the negative charge. ')
+![A negative charge on the left and an equal positive charge on the right. Computed field lines, in blue, leave the positive charge and curve around to end on the negative charge; the outermost ones loop wide or leave the picture. Computed green equipotentials are closed loops around each charge, nearly circular close to it and flattened toward the middle, plus a straight zero-potential line midway between the charges. The equipotentials cross the field lines at right angles. The potential is most positive near the positive charge and most negative near the negative charge.](../resources/Figure_19_04_02.svg 'The electric field lines and equipotential lines for two equal but opposite charges. The equipotential lines can be drawn by making them perpendicular to the electric field lines, if those are known. Note that the potential is greatest (most positive) near the positive charge and least (most negative) near the negative charge. ')
 {: #Figure2}
 
-![Figure (a) shows two circles, called equipotential lines, along which the potential is negative ten volts. A dumbbell-shaped surface encloses the two circles and is labeled negative five volts. This surface is surrounded by another surface labeled negative two volts. Figure (b) shows the same equipotential lines, each set with a negative charge at its center. Blue electric field lines curve toward the negative charges from all directions.](../resources/Figure_19_04_03.jpg '(a) These equipotential lines might be measured with a voltmeter in a laboratory experiment. (b) The corresponding electric field lines are found by drawing them perpendicular to the equipotentials. Note that these fields are consistent with two equal negative charges. ')
+![(a) Equipotential lines as they might be measured in the laboratory: a small circle at −10 V around each of two points, a dumbbell-shaped line at −5 V enclosing both, and a larger oval at −2 V around everything. (b) The same equipotentials with the field lines drawn perpendicular to them. The field lines come in from all directions and end on two equal negative charges, one at the center of each −10 V circle; none run between the charges.](../resources/Figure_19_04_03.svg '(a) These equipotential lines might be measured with a voltmeter in a laboratory experiment. (b) The corresponding electric field lines are found by drawing them perpendicular to the equipotentials. Note that these fields are consistent with two equal negative charges. ')
 {: #Figure3}
 
 One of the most important cases is that of the familiar parallel conducting
@@ -98,7 +98,7 @@ plates shown in [[Figure 4]](#Figure4). Between the plates, the equipotentials
 are evenly spaced and parallel. The same field could be maintained by placing
 conducting plates at the equipotential lines at the potentials shown.
 
-![The figure shows two parallel plates A and B separated by a distance d. Plate A is positively charged, and B is negatively charged. Electric field lines are parallel to one another between the plates and curved near the ends of the plates. The voltages range from a hundred volts at Plate A to zero volts at plate B.](../resources/Figure_19_04_04.jpg 'The electric field and equipotential lines between two metal plates.')
+![Plate A on the left is positive at 100 V and plate B on the right is negative at 0 V. Blue field lines run straight across from A to B, evenly spaced, and bow outward at the ends. Green equipotential lines at 75 V, 50 V and 25 V are straight, evenly spaced, and parallel to the plates, crossing the field lines at right angles.](../resources/Figure_19_04_04.svg 'The electric field and equipotential lines between two metal plates.')
 {: #Figure4}
 
 An important application of electric fields and equipotential lines involves the
@@ -271,7 +271,7 @@ The key difference is the direction of increasing potential: toward a positive c
 
 Sketch the equipotential lines for the two equal positive charges shown in [[Figure 5]](#Figure5). Indicate the direction of increasing potential.
 
-![The figure shows two positive charges with electric field lines curving away from each of the charges.](../resources/Figure_19_04_05.jpg 'The electric field near two equal positive charges is directed away from each of the charges.')
+![Two equal positive charges +q side by side. Computed field lines leave each charge in all directions and curve away from the other charge; no line runs between them, and midway there is a point where the field is zero.](../resources/Figure_19_04_05.svg 'The electric field near two equal positive charges is directed away from each of the charges.')
 {: #Figure5}
 
 :::
@@ -357,7 +357,7 @@ The asymmetry in charge magnitude creates an asymmetric pattern. The equipotenti
 
 Sketch the equipotential lines a long distance from the charges shown in [[Figure 6]](#Figure6). Indicate the direction of increasing potential.
 
-![The figure shows two nearby charges, q one and q two. Electric field lines move away from q two and toward q one.](../resources/Figure_19_04_06.jpg 'The electric field near two charges.')
+![Two charges, q1 on the left and q2 on the right. Computed field lines point away from q2 and toward q1. Four times as many lines end on q1 as leave q2: every line leaving q2 curves over to end on q1, and the rest come in to q1 from far away.](../resources/Figure_19_04_06.svg 'The electric field near two charges.')
 {: #Figure6}
 
 :::
@@ -481,7 +481,7 @@ The transition from conductor-shaped equipotentials near the surface to circular
 
 Sketch the equipotential lines surrounding the two conducting plates shown in [[Figure 8]](#Figure8), given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?
 
-![Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.](../resources/Figure_19_04_08.jpg ' ')
+![Two flat conducting plates seen edge on. The top plate tilts upward to the right; the bottom plate is nearly horizontal. They are closest together at the left end and farthest apart at the right. The top plate is positive and the bottom plate has an equal amount of negative charge.](../resources/Figure_19_04_08.svg ' ')
 {: #Figure8}
 
 :::
@@ -532,7 +532,7 @@ These tilted plates form a capacitor whose field is not uniform: the widening ga
 
 (a) Sketch the electric field lines in the vicinity of the charged insulator in [[Figure 9]](#Figure9). Note its non-uniform charge distribution. (b) Sketch equipotential lines surrounding the insulator. Indicate the direction of increasing potential.
 
-![A rod marked with many plus symbols to indicate electric charge. Most of the pluses are concentrated near one end of the rod. A few are in the middle and one is at the other end.](../resources/Figure_19_04_09.jpg 'A charged insulating rod such as might be used in a classroom demonstration.')
+![A diagonal insulating rod marked with plus signs. Most of the positive charge is crowded near its upper-right end, a few charges are in the middle, and one is at the lower-left end.](../resources/Figure_19_04_09.svg 'A charged insulating rod such as might be used in a classroom demonstration.')
 {: #Figure9}
 
 :::

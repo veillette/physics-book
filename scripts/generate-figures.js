@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Generate the line-art figures (graphs, vector diagrams, geometry) that
- * replaced raster originals in chapters 2–9, the circuit diagrams of chapter 21
+ * replaced raster originals in chapters 2–9, the field, equipotential and
+ * capacitor figures of chapter 19, the circuit diagrams of chapter 21
  * (whose symbols live in scripts/figures/circuit.js), and the electromagnetic
  * spectrum of section 29.3, plus the figures in the answers to
  * the Conceptual Questions of chapters 1–9 (scripts/figures/concepts.js) and
@@ -27,6 +28,7 @@ import projectileToSatellite from './figures/projectile-to-satellite.js';
 import ch04to07 from './figures/ch04to07.js';
 import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
+import ch19 from './figures/ch19.js';
 import ch21 from './figures/ch21.js';
 import ch29 from './figures/ch29.js';
 import concepts from './figures/concepts.js';
@@ -46,6 +48,7 @@ const figures = {
   ...ch04to07,
   ...ch08,
   ...ch09,
+  ...ch19,
   ...ch21,
   ...ch29,
   ...concepts,

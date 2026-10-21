@@ -195,7 +195,7 @@ series and parallel. (See [[Figure 3]](#Figure3).) To find the total capacitance
 of such combinations, we identify series and parallel parts, compute their
 capacitances, and then find the total.
 
-![The first figure has two capacitors, C sub1 and C sub2 in series and the third capacitor C sub 3 is parallel to C sub 1 and C sub 2. The second figure shows C sub S, the equivalent capacitance of C sub 1 and C sub 2, in parallel to C sub 3. The third figure represents the total capacitance of C sub S and C sub 3.](../resources/Figure_19_06_03.jpg '(a) This circuit contains both series and parallel connections of capacitors. See Worked out Example for the calculation of the overall capacitance of the circuit. (b) ( C_1 ) and ( C_2 ) are in series; their equivalent capacitance ( C_S ) is less than either of them. (c) Note that ( C_S ) is in parallel with ( C_3 ) . The total capacitance is, thus, the sum of ( C_S ) and ( C_3 ) .')
+![(a) C1 = 1 μF and C2 = 5 μF in series on the left branch, in parallel with C3 = 8 μF on the right branch. (b) C1 and C2 are replaced by their series equivalent C_S, which is in parallel with C3 = 8 μF. (c) The single total capacitance C_tot = C_S + C_3.](../resources/Figure_19_06_03.svg '(a) This circuit contains both series and parallel connections of capacitors. See Worked out Example for the calculation of the overall capacitance of the circuit. (b) ( C_1 ) and ( C_2 ) are in series; their equivalent capacitance ( C_S ) is less than either of them. (c) Note that ( C_S ) is in parallel with ( C_3 ) . The total capacitance is, thus, the sum of ( C_S ) and ( C_3 ) .')
 {: #Figure3}
 
 ::: example
@@ -289,7 +289,7 @@ Series connection can be useful when a higher bank voltage rating is required; t
 
 Find the total capacitance of the combination of capacitors in [[Figure 4]](#Figure4).
 
-![A circuit is shown with three capacitors. Two capacitors, of ten microfarad and two point five microfarad capacitance, are in parallel to each other, and their combination is in series with a zero point three zero microfarad capacitor.](../resources/Figure_19_06_04.jpg 'A combination of series and parallel connections of capacitors.')
+![A 10 μF capacitor and a 2.5 μF capacitor in parallel, and that pair in series with a 0.30 μF capacitor below it.](../resources/Figure_19_06_04.svg 'A combination of series and parallel connections of capacitors.')
 {: #Figure4}
 
 :::
@@ -416,7 +416,7 @@ The two possible total capacitances are **3.08 μF** (series) and **13.0 μF** (
 
 Find the total capacitance of the combination of capacitors shown in [[Figure 5]](#Figure5).
 
-![The circuit includes three capacitors. A zero point three zero microfarad capacitor and a ten microfarad capacitor are connected in series, and together they are connected in parallel with a two point five microfarad capacitor.](../resources/Figure_19_06_05.jpg 'A combination of series and parallel connections of capacitors.')
+![A 0.30 μF capacitor and a 10 μF capacitor in series on the left branch, and that pair in parallel with a 2.5 μF capacitor on the right branch.](../resources/Figure_19_06_05.svg 'A combination of series and parallel connections of capacitors.')
 {: #Figure5}
 
 :::
@@ -459,7 +459,7 @@ The total capacitance of the combination is **2.79 μF**.
 
 Find the total capacitance of the combination of capacitors shown in [[Figure 6]](#Figure6).
 
-![The figure shows a circuit that is a combination of series and parallel connections of capacitors. On the left of the circuit is a five point zero microfarad capacitor in series with a three point five microfarad capacitor. In the middle is an eight point zero microfarad capacitor. On the right, a zero point seven five microfarad capacitor is in parallel with a fifteen microfarad capacitor, and together they are in series with a one point five microfarad capacitor. Altogether, the system of capacitors on the left, the capacitor in the middle, and the system of capacitors on the right are connected in parallel.](../resources/Figure_19_06_06.jpg 'A combination of series and parallel connections of capacitors.')
+![Three branches between a top wire and a bottom wire. Left: 5.0 μF in series with 3.5 μF. Middle: 8.0 μF. Right: 1.5 μF in series with a parallel pair of 0.75 μF and 15 μF.](../resources/Figure_19_06_06.svg 'A combination of series and parallel connections of capacitors.')
 {: #Figure6}
 
 :::

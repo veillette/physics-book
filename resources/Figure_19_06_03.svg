@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="300" viewBox="0 0 940 300" role="img" aria-labelledby="title desc">
+<title id="title">Reducing a combination of capacitors</title>
+<desc id="desc">(a) C1 = 1 μF and C2 = 5 μF in series on the left branch, in parallel with C3 = 8 μF on the right branch. (b) C1 and C2 are replaced by their series equivalent C_S, which is in parallel with C3 = 8 μF. (c) The single total capacitance C_tot = C_S + C_3.</desc>
+<rect width="940" height="300" fill="#ffffff"/>
+<polyline points="70,50 200,50 200,230 70,230 70,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="70" y1="88" x2="70" y2="102" stroke="#ffffff" stroke-width="7"/>
+<line x1="92" y1="88" x2="48" y2="88" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="92" y1="102" x2="48" y2="102" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="70" y1="178" x2="70" y2="192" stroke="#ffffff" stroke-width="7"/>
+<line x1="92" y1="178" x2="48" y2="178" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="92" y1="192" x2="48" y2="192" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="200" y1="133" x2="200" y2="147" stroke="#ffffff" stroke-width="7"/>
+<line x1="222" y1="133" x2="178" y2="133" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="222" y1="147" x2="178" y2="147" stroke="#1b7a4a" stroke-width="4.5"/>
+<text x="40" y="104.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">1</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="100" y="102" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="40" y="194.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">2</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="100" y="192" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="230" y="134.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">3</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="230" y="159" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="135" y="286.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 230 40 Q 295 0 360 40" fill="none" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+<line x1="341.26" y1="28.47" x2="350.97" y2="34.44" stroke="#777777" stroke-width="3"/>
+<polygon points="363.41,42.1 346.85,39.23 353.39,28.61" fill="#777777"/>
+<polyline points="400,50 540,50 540,230 400,230 400,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="400" y1="133" x2="400" y2="147" stroke="#ffffff" stroke-width="7"/>
+<line x1="422" y1="133" x2="378" y2="133" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="422" y1="147" x2="378" y2="147" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="540" y1="133" x2="540" y2="147" stroke="#ffffff" stroke-width="7"/>
+<line x1="562" y1="133" x2="518" y2="133" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="562" y1="147" x2="518" y2="147" stroke="#1b7a4a" stroke-width="4.5"/>
+<text x="370" y="149.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">S</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="570" y="134.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">3</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="570" y="159" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="470" y="286.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 580 40 Q 635 0 690 40" fill="none" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+<line x1="672.21" y1="27.06" x2="681.43" y2="33.77" stroke="#777777" stroke-width="3"/>
+<polygon points="693.23,42.35 676.95,38.22 684.29,28.13" fill="#777777"/>
+<polyline points="720,50 720,230" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="720" y1="133" x2="720" y2="147" stroke="#ffffff" stroke-width="7"/>
+<line x1="742" y1="133" x2="698" y2="133" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="742" y1="147" x2="698" y2="147" stroke="#1b7a4a" stroke-width="4.5"/>
+<text x="754" y="147" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">C</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">S</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">C</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">3</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="720" y="286.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

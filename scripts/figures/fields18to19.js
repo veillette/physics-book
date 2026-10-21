@@ -10,7 +10,9 @@
  * the same solution. The conductor solutions are two-dimensional (long objects
  * seen end-on), which is enough for a qualitative sketch.
  *
- * Names follow concept_CC_SS_pNN for the NNth problem of section CC.SS.
+ * Names follow concept_CC_SS_pNN for the NNth problem of section CC.SS. The
+ * point-charge, contour, and field-line helpers are exported for the chapter
+ * 19 figures (scripts/figures/ch19.js).
  */
 import { COLORS, Svg } from './svg.js';
 
@@ -56,7 +58,7 @@ function rising(
   svg.text(x2 + dx, y2 + dy, label, { size: 13, color: RISE, anchor });
 }
 
-function charge(svg, x, y, label, sign, { r = 12 } = {}) {
+export function charge(svg, x, y, label, sign, { r = 12 } = {}) {
   svg.circle(x, y, r, {
     fill: sign > 0 ? COLORS.red : COLORS.blue,
     stroke: COLORS.black,
@@ -75,7 +77,7 @@ function charge(svg, x, y, label, sign, { r = 12 } = {}) {
 // ---------------------------------------------------------------------------
 // Point charges: { x, y, q } in pixels; V = Σ q/r in arbitrary units.
 
-function pointPotential(sources, { core = 6 } = {}) {
+export function pointPotential(sources, { core = 6 } = {}) {
   return (x, y) => {
     let v = 0;
     for (const s of sources) {
@@ -87,7 +89,7 @@ function pointPotential(sources, { core = 6 } = {}) {
   };
 }
 
-function pointField(sources) {
+export function pointField(sources) {
   return (x, y) => {
     let ex = 0;
     let ey = 0;
@@ -186,7 +188,7 @@ function contourLines({ v, nx, ny, x0, y0, step }, level) {
 }
 
 /** Draw the contours of `fn` at the given levels inside `box`. */
-function equipotentials(
+export function equipotentials(
   svg,
   fn,
   box,
@@ -205,7 +207,7 @@ function equipotentials(
 // ---------------------------------------------------------------------------
 // Field lines: midpoint steps along (sign = +1) or against (−1) the field.
 
-function trace(field, x, y, sign, { box, stop = () => false, step = 2, max = 1500 }) {
+export function trace(field, x, y, sign, { box, stop = () => false, step = 2, max = 1500 }) {
   const pts = [[x, y]];
   for (let k = 0; k < max; k += 1) {
     const [ax, ay] = field(x, y);
@@ -226,7 +228,11 @@ function trace(field, x, y, sign, { box, stop = () => false, step = 2, max = 150
 }
 
 /** Draw a traced line with an arrowhead pointing along the field. */
-function fieldLine(svg, pts, { reverse = false, at = 0.5, color = FIELD, width = 1.5 } = {}) {
+export function fieldLine(
+  svg,
+  pts,
+  { reverse = false, at = 0.5, color = FIELD, width = 1.5 } = {}
+) {
   if (pts.length < 8) return;
   svg.polyline(pts, { color, width });
   const k = Math.max(3, Math.min(pts.length - 4, Math.floor(pts.length * at)));
@@ -271,7 +277,7 @@ function spindle(cx, cy, length, height, n = 60) {
 }
 
 /** Thin plate as a rotated rectangle from P to Q with the given thickness. */
-function plate(P, Q, thick) {
+export function plate(P, Q, thick) {
   const len = Math.hypot(Q[0] - P[0], Q[1] - P[1]);
   const nx = (-(Q[1] - P[1]) / len) * (thick / 2);
   const ny = ((Q[0] - P[0]) / len) * (thick / 2);
@@ -416,7 +422,7 @@ function walkOutline(poly, orient, fn) {
   }
 }
 
-function drawConductor(svg, poly, { fill = METAL } = {}) {
+export function drawConductor(svg, poly, { fill = METAL } = {}) {
   svg.polygon(poly, { fill, stroke: COLORS.black, width: 1.5 });
 }
 
@@ -482,11 +488,11 @@ function platesSolution({ top, bottom, W, H }) {
 // Charged insulating rod (18.7 P4 and 19.4 P8): fixed point charges along a
 // diagonal rod, crowded toward its upper end.
 
-function rodCharges(x1, y1, x2, y2, fractions) {
+export function rodCharges(x1, y1, x2, y2, fractions) {
   return fractions.map(f => ({ x: x1 + (x2 - x1) * f, y: y1 + (y2 - y1) * f, q: 1 }));
 }
 
-function drawRod(svg, x1, y1, x2, y2, charges) {
+export function drawRod(svg, x1, y1, x2, y2, charges) {
   svg.line(x1, y1, x2, y2, { color: ROD, width: 16, cap: 'round' });
   svg.line(x1, y1, x2, y2, { color: '#5aa9c9', width: 1.5, cap: 'round' });
   for (const c of charges) {
@@ -519,7 +525,7 @@ function rodFieldLines(svg, charges, box, { perCharge = 5 } = {}) {
 // Positions along the rod from its lower-left end (0) to its upper-right end
 // (1), read from the question figures.
 const ROD_18 = [0.02, 0.4, 0.44, 0.67, 0.82, 0.85, 0.88, 0.9, 0.92, 0.94, 0.96, 0.98];
-const ROD_19 = [0.02, 0.38, 0.42, 0.45, 0.6, 0.82, 0.86, 0.88, 0.91, 0.94, 0.96, 0.98];
+export const ROD_19 = [0.02, 0.38, 0.42, 0.45, 0.6, 0.82, 0.86, 0.88, 0.91, 0.94, 0.96, 0.98];
 
 // ---------------------------------------------------------------------------
 

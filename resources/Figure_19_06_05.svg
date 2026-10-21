@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="400" viewBox="0 0 520 400" role="img" aria-labelledby="title desc">
+<title id="title">Capacitors in series and parallel</title>
+<desc id="desc">A 0.30 μF capacitor and a 10 μF capacitor in series on the left branch, and that pair in parallel with a 2.5 μF capacitor on the right branch.</desc>
+<rect width="520" height="400" fill="#ffffff"/>
+<polyline points="250,20 250,60" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="150,60 350,60 350,340 150,340 150,60" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="250,340 250,380" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="150" y1="123" x2="150" y2="137" stroke="#ffffff" stroke-width="7"/>
+<line x1="172" y1="123" x2="128" y2="123" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="172" y1="137" x2="128" y2="137" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="150" y1="263" x2="150" y2="277" stroke="#ffffff" stroke-width="7"/>
+<line x1="172" y1="263" x2="128" y2="263" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="172" y1="277" x2="128" y2="277" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="350" y1="193" x2="350" y2="207" stroke="#ffffff" stroke-width="7"/>
+<line x1="372" y1="193" x2="328" y2="193" stroke="#1b7a4a" stroke-width="4.5"/>
+<line x1="372" y1="207" x2="328" y2="207" stroke="#1b7a4a" stroke-width="4.5"/>
+<text x="118" y="139.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.30 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="118" y="279.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10 </tspan><tspan font-style="normal">μF</tspan></text>
+<text x="382" y="209.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.5 </tspan><tspan font-style="normal">μF</tspan></text>
+</svg>
