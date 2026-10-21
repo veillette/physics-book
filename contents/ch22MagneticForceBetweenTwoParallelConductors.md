@@ -168,7 +168,7 @@ Since $$ I_1 $$ and $$ I_3 $$ point in opposite directions, whichever way $$ I_2
 For example, with $$ I_1 = I_2 = 10.0 \text{ A} $$ and $$ I_3 = -10.0 \text{ A} $$, with wire 2 at $$ 3.00 \text{ cm} $$ from wire 1 and $$ 2.00 \text{ cm} $$ from wire 3, the force per meter on wire 2 is
 
 <div class="equation">
-$$ \frac{F}{l} = \frac{\mu_0 I^2}{2\pi}\left( \frac{1}{0.0300 \m} + \frac{1}{0.0200 \m} \right) = (2.00 \times 10^{-5} \text{ N}\cdot\text{m})(83.3 \ \text{m}^{-1}) = 1.67 \times 10^{-3} \text{ N/m} $$
+$$ \frac{F}{l} = \frac{\mu_0 I^2}{2\pi}\left( \frac{1}{0.0300 \m} + \frac{1}{0.0200 \m} \right) = (2.00 \times 10^{-5} \text{ N})(83.3 \ \text{m}^{-1}) = 1.67 \times 10^{-3} \text{ N/m} $$
 </div>
 
 toward wire 1.
@@ -262,7 +262,7 @@ Treat each loop as a small bar magnet whose axis is perpendicular to its plane (
 
 **Solution**
 
-With currents in the same direction, the two loops' fields point the same way along their common axis. If one loop is tilted, the field of each loop at the other is no longer along the other's axis, and each loop experiences a torque $$ \tau = NIAB\sin\theta $$ that rotates its axis back toward the direction of the other loop's field. For a loop with $$ I = 10.0 \text{ A} $$ and area $$ 7.85 \times 10^{-3} \ \text{m}^2 $$, tilted $$ 10.0^\circ $$ in a field of $$ 1.00 \times 10^{-4} \text{ T} $$ from the other loop, $$ \tau = (10.0 \text{ A})(7.85 \times 10^{-3} \ \text{m}^2)(1.00 \times 10^{-4} \text{ T})\sin 10.0^\circ = 1.4 \times 10^{-7} \N \cdot \m $$. The torques the loops exert on each other are equal and opposite, each rotating its loop back toward being parallel to the other.
+With currents in the same direction, the two loops' fields point the same way along their common axis. If one loop is tilted, the field of each loop at the other is no longer along the other's axis, and each loop experiences a torque $$ \tau = NIAB\sin\theta $$ that rotates its axis back toward the direction of the other loop's field. For a loop with $$ I = 10.0 \text{ A} $$ and area $$ 7.85 \times 10^{-3} \ \text{m}^2 $$, tilted $$ 10.0^\circ $$ in a field of $$ 1.00 \times 10^{-4} \text{ T} $$ from the other loop, $$ \tau = (10.0 \text{ A})(7.85 \times 10^{-3} \ \text{m}^2)(1.00 \times 10^{-4} \text{ T})\sin 10.0^\circ = 1.4 \times 10^{-6} \N \cdot \m $$. The torques the loops exert on each other are equal and opposite, each rotating its loop back toward being parallel to the other.
 
 Yes, this means that if the loops are free to rotate, they line up with their axes parallel, the north face of one facing the south face of the other, just as two bar magnets line up end to end, N to S.
 

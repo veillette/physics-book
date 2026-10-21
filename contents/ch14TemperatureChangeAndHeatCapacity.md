@@ -108,7 +108,7 @@ at the same temperature.
 4. Calculate the heat transferred to the aluminum. Use the specific heat for
    aluminum in [[Table 1]](#Table1)\:
    <div class="equation" >
-   $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{4}\text{J}= 27.0 \text{kJ} . $$ 
+   $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{3}\text{J}= 27.0 \text{kJ} . $$ 
    </div>
 
 5. Compare the percentage of heat going into the pan versus that going into the

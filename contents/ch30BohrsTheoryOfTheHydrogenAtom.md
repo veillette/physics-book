@@ -685,7 +685,7 @@ $$ E_0 = \frac{2(9.870)(6.595 \times 10^{-76})(9.109 \times 10^{-31})(8.079 \tim
 </div>
 
 <div class="equation">
-$$ E_0 = \frac{9.521 \times 10^{-86}}{4.390 \times 10^{-67}} = 2.169 \times 10^{-18} \text{ J} $$
+$$ E_0 = \frac{9.521 \times 10^{-85}}{4.390 \times 10^{-67}} = 2.169 \times 10^{-18} \text{ J} $$
 </div>
 
 Converting to electron volts (dividing by $$ q_e = 1.602 \times 10^{-19} \text{ J/eV} $$ ):
