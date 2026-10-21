@@ -42,6 +42,121 @@ function ticks(f, from, r, a, step, { len = 6, color = VEC } = {}) {
   }
 }
 
+/**
+ * A wooden ruler laid parallel to a direction, as in the textbook's "measure
+ * it with a ruler" figures. (x, y) is the pixel point of the zero mark on the
+ * edge facing the vector, `angle` the direction in math degrees, `unit` pixels
+ * per unit. The ruler sits on the left of the direction (`side: 'left'`) or the
+ * right. Ticks every `minor`, longer every `mid`, numbered every `major`, so a
+ * reading at the vector's head is the measurement the text quotes.
+ */
+function ruler(
+  svg,
+  x,
+  y,
+  angle,
+  { unit, from = -0.5, to, width = 30, minor, mid, major, unitLabel, side = 'left', size = 11 }
+) {
+  const s = side === 'left' ? -1 : 1;
+  const local = svg.capture(() => {
+    svg.add(
+      `<rect x="${fmt(from * unit)}" y="${fmt(s < 0 ? -width : 0)}" width="${fmt((to - from) * unit)}" height="${fmt(width)}" rx="2" fill="#f6dfb4" stroke="#b5864a" stroke-width="1.5"/>`
+    );
+    for (let k = 0; k * minor <= to - minor * 0.5; k += 1) {
+      const v = k * minor;
+      const isMajor = Math.abs(v / major - Math.round(v / major)) < 1e-6;
+      const isMid = Math.abs(v / mid - Math.round(v / mid)) < 1e-6;
+      const len = isMajor ? 11 : isMid ? 8 : 4.5;
+      svg.line(v * unit, 0, v * unit, s * len, { color: '#5a4020', width: 1 });
+      if (isMajor && k > 0) {
+        svg.text(v * unit, s * width * 0.66, String(Math.round(v)), {
+          size,
+          math: false,
+          halo: false,
+        });
+      }
+    }
+    if (unitLabel) {
+      svg.text(minor * unit * 2.5, s * width * 0.66, unitLabel, { size, halo: false });
+    }
+  });
+  return svg.add(
+    `<g transform="translate(${fmt(x)} ${fmt(y)}) rotate(${fmt(-angle)})">${local}</g>`
+  );
+}
+
+/**
+ * A clear plastic protractor centered at (cx, cy) with radius r: opening upward,
+ * or downward when `flip` (turned over to measure an angle below the axis). The
+ * black arrow from its center points along `arrow` (math degrees), the
+ * direction being measured.
+ */
+function protractor(svg, cx, cy, r, { flip = false, arrow }) {
+  const s = flip ? -1 : 1;
+  const sweep = flip ? 0 : 1;
+  const ri = r * 0.5;
+  const h = r * 0.13;
+  const pt = (rr, deg) => [cx + rr * Math.cos(rad(deg)), cy - s * rr * Math.sin(rad(deg))];
+  svg.add(
+    `<path d="M ${fmt(cx - r)} ${fmt(cy)} A ${fmt(r)} ${fmt(r)} 0 0 ${sweep} ${fmt(cx + r)} ${fmt(cy)} Z M ${fmt(cx - ri)} ${fmt(cy - s * h)} A ${fmt(ri)} ${fmt(ri)} 0 0 ${sweep} ${fmt(cx + ri)} ${fmt(cy - s * h)} Z" fill="#cdeaf4" fill-opacity="0.85" fill-rule="evenodd" stroke="#4fa6c4" stroke-width="1.5"/>`
+  );
+  const [ax, ay] = [cx + r * 1.45 * Math.cos(rad(arrow)), cy - r * 1.45 * Math.sin(rad(arrow))];
+  svg.arrow(cx, cy, ax, ay, { color: BLACK, width: 2.5, head: 13 });
+  // Scale on top of the arrow, so the reading under it stays legible.
+  for (let deg = 0; deg <= 180; deg += 5) {
+    const len = deg % 30 === 0 ? 10 : deg % 10 === 0 ? 7 : 4;
+    svg.line(...pt(r, deg), ...pt(r - len, deg), { color: '#2f6f86', width: 1 });
+    if (deg % 30 === 0 && deg % 180 !== 0) {
+      svg.text(...pt(r - 19, deg), `${deg}`, { size: 9, math: false, color: '#2f6f86' });
+    }
+  }
+  svg.circle(cx, cy, 3.5, { fill: 'none', stroke: BLACK, width: 1.3 });
+  return svg.line(cx, cy - 6, cx, cy + 6, { color: BLACK, width: 1 });
+}
+
+// ---------------------------------------------------------------------------
+// The city walk added head to tail (Figures 3.2.3–3.2.7): 9 units east, then 5
+// north, giving D = 10.3 units at 29.1°. One frame size for every panel.
+// ---------------------------------------------------------------------------
+const WALK_D = [9, 5];
+
+/**
+ * Step 1 draws the first leg, step 2 adds the second, step 3 adds the
+ * resultant D with a ruler and protractor. `legs: false` draws D alone.
+ */
+function walkStep(svg, f, step, { legs = true } = {}) {
+  f.axes({ xMin: 0, xMax: 11, yMin: -0.9, yMax: step === 3 ? 10 : 9.3 });
+  if (step === 1) {
+    for (let k = 1; k <= 9; k += 1) f.line([k, 0], [k, -0.3], { color: BLACK, width: 1.3 });
+  }
+  if (legs) f.vec([0, 0], [9, 0], { color: VEC, width: 4, head: 18 });
+  if (step === 1) {
+    f.text([0.8, 0.6], 'θ = 0°', { size: 18, anchor: 'start' });
+    f.text([4.5, -1.6], '9 \\rm{units}', { size: 18 });
+  }
+  if (step >= 2 && legs) f.vec([9, 0], WALK_D, { color: VEC, width: 4, head: 18 });
+  if (step < 3) return;
+  const a = dir(WALK_D);
+  ticks(f, [0, 0], Math.hypot(...WALK_D), a, 1);
+  f.vec([0, 0], WALK_D, { color: VEC, width: 4, head: 18 });
+  if (legs) f.rightAngle([9, 0], 180, 90, 14);
+  f.angle([0, 0], 0, a, 46, null);
+  f.text([2.0, 0.5], 'θ = 29.1°', { size: 17, anchor: 'start' });
+  f.labelSeg([0, 0], WALK_D, '10.3 \\rm{units}', {
+    off: 16,
+    along: 0.6,
+    size: 17,
+    rotate: -a,
+  });
+  if (legs) f.labelSeg([0, 0], WALK_D, '**D**', { off: -18, along: 0.72, size: 18 });
+  // The ruler's zero lines up with the tail of D, so its head reads 10.3.
+  const [nx, ny] = polar(1.5, a + 90);
+  const [rx, ry] = f.p(nx, ny);
+  ruler(svg, rx, ry, a, { unit: f.scale, to: 12.6, minor: 0.2, mid: 0.5, major: 1 });
+  const [px, py] = f.p(4.5, -1.5);
+  protractor(svg, px, py + 70, 66, { arrow: a });
+}
+
 // ---------------------------------------------------------------------------
 // City map shared by the "9 blocks east, 5 blocks north" figures.
 // ---------------------------------------------------------------------------
@@ -116,15 +231,21 @@ const WALK = {
   C: polar(32, -68),
 };
 
-function headToTail(order, { withR }) {
+function headToTail(order, { withR, measure = false }) {
   const firstIsC = order[0] === 'C';
   const svg = new Svg({
     width: 560,
-    height: firstIsC ? 440 : 360,
-    title: withR ? `Resultant of ${order.join(' + ')}` : 'Vectors A, B and C placed head to tail',
-    desc: withR
-      ? `Vectors ${order.join(', ')} placed head to tail. The resultant R, drawn from the tail of the first to the head of the last, is 50.8 m at 5.47° below the +x axis.`
-      : 'Vector A (25.0 m at 49°), then B (23.0 m at 15°) from the head of A, then C (32.0 m at 68° below the horizontal) from the head of B.',
+    height: firstIsC ? 440 : measure ? 480 : 360,
+    title: measure
+      ? 'Measuring the resultant R with a ruler and a protractor'
+      : withR
+        ? `Resultant of ${order.join(' + ')}`
+        : 'Vectors A, B and C placed head to tail',
+    desc: measure
+      ? 'Vectors A, B and C placed head to tail, with the resultant R from the tail of A to the head of C. A ruler laid alongside R, its zero at the tail, reads 50.8 m at the head. A protractor turned upside down below it, with an arrow parallel to R, reads 5.47° below the +x axis.'
+      : withR
+        ? `Vectors ${order.join(', ')} placed head to tail. The resultant R, drawn from the tail of the first to the head of the last, is 50.8 m at 5.47° below the +x axis.`
+        : 'Vector A (25.0 m at 49°), then B (23.0 m at 15°) from the head of A, then C (32.0 m at 68° below the horizontal) from the head of B.',
   });
   const f = new Frame(svg, { ox: 40, oy: firstIsC ? 150 : 250, scale: 8 });
   f.axes({ xMin: 0, xMax: 62, yMin: firstIsC ? -26 : -7, yMax: firstIsC ? 16 : 29 });
@@ -144,6 +265,23 @@ function headToTail(order, { withR }) {
     f.angle([0, 0], dir(at), 0, 32 * 8, null);
     const [x, y] = f.p(...polar(33, -2.7));
     svg.text(x + 28, y - 2, '5.47°', { size: 17, anchor: 'start' });
+  }
+  if (measure) {
+    // Ruler below R with its zero at the tail; the protractor is turned over
+    // because R points below the axis.
+    const a = dir(at);
+    const [rx, ry] = f.p(...polar(5.2, a - 90));
+    ruler(svg, rx, ry, a, {
+      unit: f.scale,
+      from: -1.5,
+      to: 56,
+      minor: 1,
+      mid: 5,
+      major: 10,
+      unitLabel: 'm',
+      side: 'right',
+    });
+    protractor(svg, 230, 375, 66, { flip: true, arrow: a });
   }
   return svg.render();
 }
@@ -371,6 +509,46 @@ export default {
     return svg.render();
   },
 
+  // 3.2 — measuring the resultant D with a ruler and a protractor
+  Figure_03_02_03: () => {
+    const svg = new Svg({
+      width: 400,
+      height: 450,
+      title: 'Measuring a vector with a ruler and a protractor',
+      desc: 'The displacement D drawn from the origin at θ = 29.1° above the +x axis, with unit tick marks. A ruler laid alongside it, its zero at the tail, reads 10.3 units at the head. A protractor below the axes, with an arrow parallel to D, reads 29.1°.',
+    });
+    walkStep(svg, new Frame(svg, { ox: 50, oy: 300, scale: 28 }), 3, { legs: false });
+    return svg.render();
+  },
+
+  // 3.2 — the head-to-tail method in three steps
+  Figure_03_02_04: () => {
+    const svg = new Svg({
+      width: 1200,
+      height: 480,
+      title: 'Head-to-tail method for the city walk',
+      desc: '(a) The first displacement: 9 units along +x, θ = 0°. (b) The second displacement, 5 units in the +y direction, drawn from the head of the first. (c) The resultant D from the tail of the first to the head of the second, at a right angle corner; a ruler alongside D reads 10.3 units and a protractor reads θ = 29.1°.',
+    });
+    ['(a)', '(b)', '(c)'].forEach((label, k) => {
+      walkStep(svg, new Frame(svg, { ox: 50 + 400 * k, oy: 300, scale: 28 }), k + 1);
+      svg.text(205 + 400 * k, 460, label, { size: 17, math: false, weight: 'bold' });
+    });
+    return svg.render();
+  },
+
+  // 3.2 — step 3 of the head-to-tail method on its own
+  Figure_03_02_07: () => {
+    const svg = new Svg({
+      width: 400,
+      height: 480,
+      title: 'Step 3: draw the resultant and measure it',
+      desc: 'The resultant D drawn from the tail of the 9-unit east leg to the head of the 5-unit north leg. A ruler alongside D reads 10.3 units, and a protractor reads θ = 29.1° above the +x axis.',
+    });
+    walkStep(svg, new Frame(svg, { ox: 50, oy: 300, scale: 28 }), 3);
+    svg.text(205, 460, '(c)', { size: 17, math: false, weight: 'bold' });
+    return svg.render();
+  },
+
   // 3.2 Step 1 — the first vector, 9 units east
   Figure_03_02_05: () => {
     const svg = new Svg({
@@ -379,12 +557,7 @@ export default {
       title: 'Step 1: the first vector',
       desc: 'A vector 9 units long along the +x axis (θ = 0°), with unit tick marks.',
     });
-    const f = new Frame(svg, { ox: 30, oy: 280, scale: 28 });
-    f.axes({ xMin: 0, xMax: 11, yMin: -0.9, yMax: 9.3 });
-    for (let k = 1; k <= 9; k += 1) f.line([k, 0], [k, -0.3], { color: BLACK, width: 1.3 });
-    f.vec([0, 0], [9, 0], { color: VEC, width: 4, head: 18 });
-    f.text([0.8, 0.6], 'θ = 0°', { size: 18, anchor: 'start' });
-    f.text([4.5, -1.6], '9 \\rm{units}', { size: 18 });
+    walkStep(svg, new Frame(svg, { ox: 30, oy: 280, scale: 28 }), 1);
     return svg.render();
   },
 
@@ -396,10 +569,7 @@ export default {
       title: 'Step 2: the second vector placed head to tail',
       desc: 'A vector 9 units along +x, followed by a vector 5 units in the +y direction starting at the head of the first.',
     });
-    const f = new Frame(svg, { ox: 30, oy: 280, scale: 28 });
-    f.axes({ xMin: 0, xMax: 11, yMin: -0.9, yMax: 9.3 });
-    f.vec([0, 0], [9, 0], { color: VEC, width: 4, head: 18 });
-    f.vec([9, 0], [9, 5], { color: VEC, width: 4, head: 18 });
+    walkStep(svg, new Frame(svg, { ox: 30, oy: 280, scale: 28 }), 2);
     return svg.render();
   },
 
@@ -454,6 +624,9 @@ export default {
 
   // 3.2 Example — the resultant R
   Figure_03_02_10: () => headToTail(['A', 'B', 'C'], { withR: true }),
+
+  // 3.2 Example — measuring R with a ruler and an upside-down protractor
+  Figure_03_02_11: () => headToTail(['A', 'B', 'C'], { withR: true, measure: true }),
 
   // 3.2 Example — adding in a different order gives the same R
   Figure_03_02_12: () => headToTail(['C', 'A', 'B'], { withR: true }),
