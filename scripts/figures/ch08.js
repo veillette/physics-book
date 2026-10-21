@@ -1,6 +1,8 @@
 /**
- * Chapter 8: impulse as the area under a force–time graph, and the
- * two-dimensional collision diagrams of section 8.6.
+ * Chapter 8: impulse as the area under a force–time graph, scattering from a
+ * proton, the "system of interest" diagrams of one-dimensional elastic and
+ * inelastic collisions, and the two-dimensional collision diagrams of
+ * section 8.6.
  */
 import { COLORS, Plot, Svg, rad } from './svg.js';
 
@@ -10,11 +12,104 @@ const TEAL = '#2aa1b3';
 const TEAL_LIGHT = '#d3ebf0';
 const PURPLE = '#4b2a7b';
 const PURPLE_LIGHT = '#ddd3e8';
+const ORANGE = '#d9532b';
+const GHOST = '#c9bedb';
+const GHOST_ORANGE = '#f2c2ae';
+const SURFACE = '#d3e9f5';
+const TRACK = '#e6c784';
+const TRACK_EDGE = '#b8913d';
 
-/** A point mass: a white disk with a thick purple rim and its label inside. */
-function mass(svg, x, y, label, { r = 34, size = 22 } = {}) {
-  svg.circle(x, y, r, { fill: '#ffffff', stroke: PURPLE, width: 6 });
-  svg.text(x, y, label, { size, halo: false });
+/** A point mass: a white disk with a thick colored rim and its label inside. */
+function mass(svg, x, y, label, { r = 34, size = 22, color = PURPLE } = {}) {
+  svg.circle(x, y, r, { fill: '#ffffff', stroke: color, width: 6 });
+  if (label) svg.text(x, y, label, { size, halo: false });
+}
+
+/** Velocity arrow along x from x1 to x2 at height y, labeled above its middle. */
+function velocity(svg, x1, x2, y, label, { size = 24, dy = -24 } = {}) {
+  svg.arrow(x1, y, x2, y, { color: VEL, width: 4, head: 16 });
+  if (label) svg.text((x1 + x2) / 2, y + dy, label, { size });
+}
+
+/** Point on an ellipse at parameter angle `deg` (counterclockwise, y up). */
+function onEllipse(cx, cy, rx, ry, deg) {
+  return [cx + rx * Math.cos(rad(deg)), cy - ry * Math.sin(rad(deg))];
+}
+
+/** "System of interest" ellipse with its label and squiggle at angle `at`. */
+function system(svg, cx, cy, rx, ry, { label = [cx + rx * 0.55, cy - ry - 60], at = 50 } = {}) {
+  svg.ellipse(cx, cy, rx, ry, { stroke: BLACK, width: 2 });
+  svg.text(label[0], label[1], 'System of interest', { size: 22, math: false });
+  const [tx, ty] = onEllipse(cx, cy, rx, ry, at);
+  svg.squiggle(label[0], label[1] + 16, tx, ty - 3);
+}
+
+/** A gray block of side s standing on y = base, with its top and left faces showing. */
+function block(svg, x, base, s, label) {
+  const d = s * 0.15;
+  const top = base - s;
+  svg.polygon(
+    [
+      [x, top],
+      [x + s, top],
+      [x + s - d, top - d],
+      [x - d, top - d],
+    ],
+    { fill: '#dadada', stroke: '#555555', width: 1 }
+  );
+  svg.polygon(
+    [
+      [x, top],
+      [x - d, top - d],
+      [x - d, base - d],
+      [x, base],
+    ],
+    { fill: '#7f7f7f', stroke: '#555555', width: 1 }
+  );
+  svg.rect(x, top, s, s, { fill: '#b3b3b3', stroke: '#555555', width: 1 });
+  svg.text(x + s / 2, top + s * 0.4, label, { size: 24, halo: false });
+}
+
+/** Pale blue frictionless surface: a slanted strip under the blocks. */
+function surface(svg, x1, x2, y) {
+  svg.polygon(
+    [
+      [x1 + 25, y - 12],
+      [x2 + 25, y - 12],
+      [x2 - 15, y + 12],
+      [x1 - 15, y + 12],
+    ],
+    { fill: SURFACE }
+  );
+}
+
+/** Air-track glider of width w on y = base, its dark fin at the right end. */
+function glider(svg, x, base, label, { w = 150, h = 52 } = {}) {
+  svg.polygon(
+    [
+      [x, base],
+      [x + w, base],
+      [x + w - 14, base - h],
+      [x + 14, base - h],
+    ],
+    { fill: '#a8d5dd', stroke: '#3c8f9c', width: 2 }
+  );
+  svg.line(x + 30, base - h + 10, x + w - 30, base - h + 10, { color: '#3c8f9c', width: 2 });
+  svg.polygon(
+    [
+      [x + w - 46, base],
+      [x + w - 2, base],
+      [x + w - 24, base - h + 16],
+    ],
+    { fill: '#2f8292' }
+  );
+  svg.text(x + w * 0.38, base - h * 0.42, label, { size: 24, halo: false });
+}
+
+/** Air track: a tan bar whose top surface is at y. */
+function track(svg, x1, x2, y) {
+  svg.rect(x1, y, x2 - x1, 30, { fill: TRACK });
+  svg.line(x1, y, x2, y, { color: TRACK_EDGE, width: 2 });
 }
 
 export default {
@@ -50,6 +145,265 @@ export default {
     svg.text(g.X(0) - 10, g.Y(1), 'F_{eff}', { size: 24, anchor: 'end' });
     svg.text(g.X(0.3) - 30, g.Y(2.05), 'F_{actual}', { size: 24 });
     svg.leader(g.X(0.3) - 20, g.Y(2.05) + 18, g.X(0.36), g.Y(actual(0.36)) - 6, { bend: 0.4 });
+    return svg.render();
+  },
+
+  // 8.3 — electrons scattering from a target, and from a quark inside a proton
+  Figure_08_03_03: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 760,
+      title: 'Electrons scattering from a target and from a quark in a proton',
+      desc: 'Top: a beam of electrons strikes a macroscopic target. Most electrons pass through and continue to the right, but one scatters straight back to the left. Below, an enlarged view of a small region of the target: an electron strikes a quark inside a proton. The quark recoils forward and the electron bounces back.',
+    });
+    svg.add(
+      [
+        '<defs>',
+        '<linearGradient id="zoom-08-03-03" x1="0" y1="0" x2="0" y2="1">',
+        '<stop offset="0" stop-color="#d4a838" stop-opacity="0.95"/>',
+        '<stop offset="1" stop-color="#d4a838" stop-opacity="0"/>',
+        '</linearGradient>',
+        '<radialGradient id="proton-08-03-03" cx="0.35" cy="0.3" r="0.75">',
+        '<stop offset="0" stop-color="#f4f6fb"/>',
+        '<stop offset="1" stop-color="#5a6f96"/>',
+        '</radialGradient>',
+        '<radialGradient id="electron-08-03-03" cx="0.35" cy="0.3" r="0.75">',
+        '<stop offset="0" stop-color="#ece4f4"/>',
+        '<stop offset="1" stop-color="#8a6aae"/>',
+        '</radialGradient>',
+        '</defs>',
+      ].join('')
+    );
+    const beam = { color: VEL, width: 4 };
+    const slope = 0.19;
+    // Two electrons pass behind the target and continue to the right.
+    svg.line(60, 10, 600, 10 + 540 * slope, beam);
+    svg.line(0, 60, 560, 60 + 560 * slope, beam);
+    svg.line(0, 125, 478, 125 + 478 * slope, beam);
+    // The magnified region: a fading cone from the small box down to the proton.
+    svg.polygon(
+      [
+        [508, 236],
+        [542, 236],
+        [810, 520],
+        [250, 520],
+      ],
+      { fill: 'url(#zoom-08-03-03)' }
+    );
+    svg.polygon(
+      [
+        [478, 190],
+        [640, 30],
+        [640, 98],
+        [478, 266],
+      ],
+      { fill: '#d4a838', stroke: PURPLE, width: 1.5 }
+    );
+    svg.rect(508, 212, 34, 24, { stroke: PURPLE, width: 1.5 });
+    svg.arrow(610, 10 + 610 * slope, 990, 10 + 990 * slope, { ...beam, head: 20 });
+    svg.arrow(565, 60 + 565 * slope, 965, 60 + 965 * slope, { ...beam, head: 20 });
+    svg.arrow(530, 125 + 530 * slope, 935, 125 + 935 * slope, { ...beam, head: 20 });
+    svg.arrow(474, 214, 145, 214, { ...beam, head: 20 });
+    svg.text(10, 160, 'e^{−}', { size: 28, anchor: 'start' });
+    svg.text(905, 130, 'e^{−}′\\rm{s}', { size: 28, anchor: 'start' });
+    svg.lines(790, 22, ['Macroscopic', 'target'], { size: 24, math: false });
+    svg.squiggle(742, 60, 646, 96, { waves: 1, amp: 5 });
+
+    // Enlarged view: electron, quark, proton.
+    svg.circle(630, 590, 122, { fill: 'url(#proton-08-03-03)' });
+    svg.circle(180, 577, 26, { fill: 'url(#electron-08-03-03)' });
+    svg.text(180, 577, 'e^{−}', { size: 24, halo: false });
+    svg.line(222, 577, 530, 577, { color: VEL, width: 3 });
+    svg.arrow(222, 577, 375, 577, { color: VEL, width: 3, head: 18 });
+    svg.line(533, 590, 240, 616, { color: VEL, width: 3 });
+    svg.arrow(533, 590, 420, 600, { color: VEL, width: 3, head: 18 });
+    svg.circle(558, 577, 24, { fill: '#f6b3b9', stroke: '#d2505c', width: 3 });
+    svg.circle(552, 571, 8, { fill: '#fbe3e5' });
+    svg.arrow(752, 578, 858, 578, { color: VEL, width: 3, head: 18 });
+    svg.lines(665, 562, ['Quark', 'recoils'], { size: 24, math: false, halo: false });
+    svg.text(705, 742, 'Proton', { size: 24, math: false });
+    return svg.render();
+  },
+
+  // 8.4 — an elastic one-dimensional collision, drawn to scale for m2 = 3m1
+  Figure_08_04_01: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 850,
+      title: 'An elastic one-dimensional two-object collision',
+      desc: 'Before: on a frictionless surface, block m1 moves right with velocity v1 and catches up with the larger block m2, which moves right more slowly with velocity v2. Net F = 0 and p1 + p2 = ptot. After: m1 moves left with velocity v1′ and m2 moves right with velocity v2′; p1′ + p2′ = ptot. The collision is elastic, so KE1′ + KE2′ = KE1 + KE2. The arrows are drawn to scale for m2 = 3m1 with v1 = 4 units and v2 = 0.5 unit, which gives v1′ = −1.25 units and v2′ = 2.25 units. Each panel is circled as the system of interest.',
+    });
+    const unit = 40;
+    const s1 = 80;
+    const s2 = 115; // the cube root of 3 times s1
+    const panel = (y0, after) => {
+      system(svg, 380, y0 + 245, 360, 128, { label: [590, y0 + 30], at: 38 });
+      svg.text(85, y0 + 128, after ? 'After' : 'Before', {
+        size: 24,
+        math: false,
+        anchor: 'start',
+      });
+      svg.text(380, y0 + 160, after ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 + p_2 = p_{tot}', {
+        size: 26,
+      });
+      const base = y0 + 322;
+      surface(svg, 70, 715, base);
+      svg.text(380, base + 28, 'Frictionless surface', { size: 22, math: false });
+      const x1 = after ? 170 : 130;
+      const x2 = after ? 460 : 410;
+      block(svg, x1, base, s1, 'm_1');
+      block(svg, x2, base, s2, 'm_2');
+      const y1 = base - s1 / 2;
+      const y2 = base - s2 / 2;
+      if (after) {
+        velocity(svg, x1, x1 - 1.25 * unit, y1, 'v′_1');
+        velocity(svg, x2 + s2, x2 + s2 + 2.25 * unit, y2, 'v′_2');
+      } else {
+        velocity(svg, x1 + s1, x1 + s1 + 4 * unit, y1, 'v_1');
+        velocity(svg, x2 + s2, x2 + s2 + 0.5 * unit, y2);
+        svg.text(x2 + s2 + 0.5 * unit + 8, y2, 'v_2', { size: 24, anchor: 'start' });
+      }
+    };
+    panel(0, false);
+    svg.text(330, 72, 'net **F** = 0', { size: 26, math: false });
+    panel(450, true);
+    svg.text(310, 530, '\\rm{Elastic ⇒ KE′}_1 + \\rm{KE′}_2 = \\rm{KE}_1 + \\rm{KE}_2', {
+      size: 24,
+      math: false,
+    });
+    return svg.render();
+  },
+
+  // 8.5 — equal masses meet head-on and stick together
+  Figure_08_05_01: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 370,
+      title: 'A perfectly inelastic one-dimensional collision',
+      desc: '(a) Before: two blocks of equal mass m on a frictionless surface move toward each other with velocities v and −v. Net F = 0, p1 + p2 = 0, and the internal kinetic energy is KEint = mv². (b) After: the blocks are stuck together and at rest, v = 0, so p1′ + p2′ = 0 and KE′int = 0. Each panel is circled as the system of interest.',
+    });
+    const s = 92;
+    const base = 272;
+    // (a)
+    system(svg, 285, 222, 265, 100, { label: [330, 22], at: 70 });
+    svg.text(20, 112, 'Before', { size: 24, math: false, anchor: 'start' });
+    svg.text(205, 76, '\\rm{KE}_{int} = mv^2', { size: 25 });
+    svg.text(470, 84, 'net **F** = 0', { size: 24, math: false });
+    svg.text(235, 155, 'p_1 + p_2 = 0', { size: 25 });
+    surface(svg, 55, 520, base);
+    block(svg, 75, base, s, 'm');
+    block(svg, 405, base, s, 'm');
+    velocity(svg, 75 + s, 245, base - s / 2, 'v');
+    velocity(svg, 395, 325, base - s / 2, '−v');
+    svg.text(285, 300, 'Frictionless surface', { size: 22, math: false });
+    svg.text(285, 352, '(a)', { size: 22, math: false });
+    // (b)
+    system(svg, 790, 222, 195, 100, { label: [870, 22], at: 60 });
+    svg.text(588, 112, 'After', { size: 24, math: false, anchor: 'start' });
+    svg.text(700, 76, '\\rm{KE′}_{int} = 0', { size: 25 });
+    svg.text(770, 142, 'p′_1 + p′_2 = 0', { size: 25 });
+    surface(svg, 610, 960, base);
+    block(svg, 690, base, s, 'm');
+    block(svg, 690 + s, base, s, 'm');
+    svg.text(925, base - s / 2, 'v = 0', { size: 25 });
+    svg.text(790, 300, 'Frictionless surface', { size: 22, math: false });
+    svg.text(790, 352, '(b)', { size: 22, math: false });
+    return svg.render();
+  },
+
+  // 8.5 — Example 2: a spring between two gliders on an air track
+  Figure_08_05_03: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 810,
+      title: 'Two gliders on an air track pushed apart by a spring',
+      desc: 'Before: on a frictionless air track, glider m1, carrying a compressed spring, moves right with velocity v1 = 2.00 m/s toward glider m2, which moves left with v2 = −0.500 m/s. Net F = 0 and p1 + p2 = ptot. After: the spring has uncoiled, m1 moves left with v1′ = −4.00 m/s, and m2 moves right with v2′ = 3.70 m/s; p1′ + p2′ = ptot and KE′int > KEint. The velocity arrows are drawn to scale. Each panel is circled as the system of interest.',
+    });
+    const unit = 45; // pixels per m/s
+    const panel = (y0, after) => {
+      const [cx, cy, rx, ry] = [440, y0 + 195, 370, 145];
+      system(svg, cx, cy, rx, ry, { label: [820, y0 + 22], at: 35 });
+      svg.text(160, y0 + 22, after ? 'After' : 'Before', { size: 24, math: false });
+      svg.text(440, y0 + 98, after ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 + p_2 = p_{tot}', {
+        size: 26,
+      });
+      const base = y0 + 225;
+      track(svg, 60, 800, base);
+      const x1 = after ? 185 : 95;
+      const x2 = after ? 560 : 555;
+      glider(svg, x1, base, 'm_1');
+      glider(svg, x2, base, 'm_2');
+      svg.spring(x1 + 150, x1 + (after ? 350 : 260), base - 34);
+      const vy = base - 80;
+      const [v1, v2] = after ? [-4, 3.7] : [2, -0.5];
+      velocity(svg, x1 + 75, x1 + 75 + v1 * unit, vy, after ? 'v′_1' : 'v_1');
+      velocity(svg, x2 + 75, x2 + 75 + v2 * unit, vy, after ? 'v′_2' : 'v_2');
+      svg.text(700, base + 75, 'Frictionless surface', { size: 22, math: false });
+      svg.squiggle(610, base + 66, 470, base + 4);
+      return base;
+    };
+    panel(0, false);
+    svg.text(400, 22, 'net **F** = 0', { size: 24, math: false });
+    const base = panel(410, true);
+    svg.text(440, 432, '\\rm{KE′}_{int} > \\rm{KE}_{int}', { size: 25 });
+    svg.text(110, base + 75, 'Uncoiled spring', { size: 22, math: false });
+    svg.squiggle(190, base + 60, 420, base - 14, { waves: 1 });
+    return svg.render();
+  },
+
+  // 8.6 — a two-dimensional collision in the laboratory frame
+  Figure_08_06_01: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 600,
+      title: 'A two-dimensional collision',
+      desc: 'Before: mass m1 moves along the x axis with velocity v1 toward m2, which is at rest (v2 = 0), so p1 = ptot; net F = 0. After: m1 moves off with velocity v1′ at angle θ1 above the x axis and m2 moves off with velocity v2′ at angle θ2 below it, so p1′ + p2′ = ptot. The system of interest is circled before and after the collision. An x–y axis indicator shows x to the right and y up.',
+    });
+    const O = [418, 300];
+    const r = 34;
+    const guide = { color: BLACK, width: 2, dash: '7 5' };
+    // System outlines: an ellipse before, a stadium after.
+    svg.ellipse(235, 300, 225, 130, { stroke: BLACK, width: 2 });
+    svg.rect(470, 25, 270, 530, { stroke: BLACK, width: 2, rx: 135 });
+    svg.line(O[0] - 92, O[1], 770, O[1], guide);
+
+    const along = (deg, d) => [O[0] + d * Math.cos(rad(deg)), O[1] - d * Math.sin(rad(deg))];
+    const leg = (deg, d, color, ghost, label) => {
+      svg.line(...O, ...along(deg, d - r), guide);
+      mass(svg, ...along(deg, d - 70), '', { r, color: ghost });
+      mass(svg, ...along(deg, d - 35), '', { r, color: ghost });
+      mass(svg, ...along(deg, d), label, { r, color });
+      const tip = along(deg, d + 105);
+      svg.arrow(...along(deg, d + r + 4), ...tip, { color: VEL, width: 4, head: 18 });
+      return tip;
+    };
+    const t1 = leg(32, 250, PURPLE, GHOST, 'm_1');
+    const t2 = leg(-26, 250, ORANGE, GHOST_ORANGE, 'm_2');
+    svg.text(t1[0] - 50, t1[1] - 18, '**v′**_1', { size: 26 });
+    svg.text(t2[0] + 10, t2[1] - 12, '**v′**_2', { size: 26, anchor: 'start' });
+    svg.arc(...O, 95, 0, 32, { color: BLACK, width: 2 });
+    svg.arc(...O, 95, -26, 0, { color: BLACK, width: 2 });
+    svg.text(O[0] + 120 * Math.cos(rad(16)), O[1] - 120 * Math.sin(rad(16)), 'θ_1', { size: 26 });
+    svg.text(O[0] + 120 * Math.cos(rad(-13)), O[1] - 120 * Math.sin(rad(-13)), 'θ_2', { size: 26 });
+
+    mass(svg, 55, O[1], '', { r, color: GHOST });
+    mass(svg, 90, O[1], '', { r, color: GHOST });
+    mass(svg, 125, O[1], 'm_1', { r });
+    svg.arrow(125 + r + 4, O[1], 320, O[1], { color: VEL, width: 4, head: 18 });
+    svg.text(245, O[1] - 30, '**v**_1', { size: 26 });
+    mass(svg, ...O, 'm_2', { r, color: ORANGE });
+    svg.text(235, 212, '**v**_2 = 0', { size: 26 });
+    svg.text(235, 380, 'net **F** = 0', { size: 26, math: false });
+
+    svg.text(110, 80, 'Before', { size: 26, math: false });
+    svg.text(110, 128, '**p**_1 = **p**_{tot}', { size: 26, math: false });
+    svg.text(870, 50, 'After', { size: 26, math: false });
+    svg.text(870, 92, '**p′**_1 + **p′**_2 = **p**_{tot}', { size: 26, math: false });
+    svg.xyIndicator(295, 125, { len: 100, size: 26 });
+    svg.lines(200, 522, ['System of interest', '(before collision)'], { size: 22, math: false });
+    svg.squiggle(190, 500, 215, 433, { waves: 1, amp: 6 });
+    svg.lines(875, 465, ['System of interest', '(after collision)'], { size: 22, math: false });
+    svg.squiggle(850, 442, 765, 380, { waves: 1, amp: 6 });
     return svg.render();
   },
 

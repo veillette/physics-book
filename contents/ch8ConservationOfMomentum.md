@@ -237,7 +237,7 @@ small, point-like constituents—strong evidence for quarks. The
 analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
-![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg 'A subatomic particle scatters straight backward from a massive target particle, as alpha particles occasionally did from gold nuclei in Rutherford’s experiments. In experiments seeking evidence for quarks, electrons scattered through large angles from protons far more often than expected.')
+![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.svg 'A subatomic particle scatters straight backward from a massive target particle, as alpha particles occasionally did from gold nuclei in Rutherford’s experiments. In experiments seeking evidence for quarks, electrons scattered through large angles from protons far more often than expected.')
 {: #Figure3}
 
 ### Section Summary

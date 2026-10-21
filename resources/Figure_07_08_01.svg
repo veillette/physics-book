@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="640" viewBox="0 0 1030 640" role="img" aria-labelledby="title desc">
+<title id="title">Energy conversion in humans</title>
+<desc id="desc">Food energy, the initial other energy OEi, branches into three forms: work, which is nonconservative work Wnc and is negative; thermal energy; and stored fat. Thermal energy and stored fat together make up the final other energy OEf. So OEi + Wnc = OEf.</desc>
+<rect width="1030" height="640" fill="#ffffff"/>
+<rect x="5" y="185" width="245" height="155" fill="#aebbd8" stroke="#6e8fc7" stroke-width="2.5"/>
+<text x="127.5" y="250.5" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Food</tspan></text>
+<text x="127.5" y="302.5" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">energy</tspan></text>
+<rect x="415" y="4" width="250" height="156" fill="#c7dea0" stroke="#8fc153" stroke-width="2.5"/>
+<text x="540" y="96" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Work</tspan></text>
+<rect x="415" y="184" width="250" height="157" fill="#f4a687" stroke="#e5845d" stroke-width="2.5"/>
+<text x="540" y="250.5" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Thermal</tspan></text>
+<text x="540" y="302.5" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">energy</tspan></text>
+<rect x="415" y="365" width="250" height="155" fill="#e9c5b0" stroke="#d4a58a" stroke-width="2.5"/>
+<text x="540" y="430.5" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Stored</tspan></text>
+<text x="540" y="482.5" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">fat</tspan></text>
+<path d="M 248 262 C 320 262 300 82 372 82" fill="none" stroke="#b8941f" stroke-width="36" stroke-linejoin="round"/>
+<path d="M 248 262 L 372 262" fill="none" stroke="#b8941f" stroke-width="36" stroke-linejoin="round"/>
+<path d="M 248 262 C 320 262 300 443 372 443" fill="none" stroke="#b8941f" stroke-width="36" stroke-linejoin="round"/>
+<polygon points="370,42 414,82 370,122" fill="#b8941f"/>
+<polygon points="370,222 414,262 370,302" fill="#b8941f"/>
+<polygon points="370,403 414,443 370,483" fill="#b8941f"/>
+<text x="125" y="144" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">OE</tspan><tspan font-size="28" dy="11.2"><tspan font-style="normal">i</tspan></tspan><tspan dy="-11.2">​</tspan></text>
+<text x="678" y="83.3" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-size="26.6" dy="10.64"><tspan font-style="normal">nc</tspan></tspan><tspan dy="-10.64">​</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">negative</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 695 184 Q 730 184 730 254 L 730 282 Q 730 352 765 352 Q 730 352 730 422 L 730 450 Q 730 520 695 520" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="775" y="366" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">OE</tspan><tspan font-size="28" dy="11.2"><tspan font-style="normal">f</tspan></tspan><tspan dy="-11.2">​</tspan></text>
+<text x="350" y="609" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">OE</tspan><tspan font-size="28" dy="11.2"><tspan font-style="normal">i</tspan></tspan><tspan dy="-11.2">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">W</tspan><tspan font-size="28" dy="11.2"><tspan font-style="normal">nc</tspan></tspan><tspan dy="-11.2">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">OE</tspan><tspan font-size="28" dy="11.2"><tspan font-style="normal">f</tspan></tspan><tspan dy="-11.2">​</tspan></text>
+</svg>

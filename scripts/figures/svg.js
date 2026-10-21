@@ -395,6 +395,37 @@ export class Svg {
     return this;
   }
 
+  /**
+   * Wavy callout line (the OpenStax "squiggle") from a label at (x1, y1) to a
+   * target at (x2, y2): a sine wave along the first 80% that ends in an arrow.
+   */
+  squiggle(x1, y1, x2, y2, { waves = 1.5, amp = 7, color = COLORS.black } = {}) {
+    const len = Math.hypot(x2 - x1, y2 - y1);
+    const [ux, uy] = [(x2 - x1) / len, (y2 - y1) / len];
+    const pts = [];
+    for (let k = 0; k <= 40; k += 1) {
+      const s = (0.8 * k) / 40;
+      const w = amp * Math.sin((2 * Math.PI * waves * s) / 0.8);
+      pts.push([x1 + ux * len * s - uy * w, y1 + uy * len * s + ux * w]);
+    }
+    this.polyline(pts, { color, width: 1.4 });
+    return this.arrow(...pts.at(-1), x2, y2, { color, width: 1.4, head: 10 });
+  }
+
+  /**
+   * Coil spring seen side-on, from x1 to x2 about height y, with n turns of
+   * radius r. It starts and ends on the center line, so leads can attach there.
+   */
+  spring(x1, x2, y, { n = 9, r = 18, color = '#333333', width = 2.2 } = {}) {
+    const pitch = (x2 - x1) / n;
+    const pts = [];
+    for (let k = 0; k <= n * 24; k += 1) {
+      const t = (2 * Math.PI * k) / 24;
+      pts.push([x1 + 6 * (1 - Math.cos(t)) + (pitch * t) / (2 * Math.PI), y - r * Math.sin(t)]);
+    }
+    return this.polyline(pts, { color, width });
+  }
+
   /** Horizontal curly brace from x1 to x2 at height y; `up` opens downward. */
   brace(x1, x2, y, { up = true, depth = 10, color = COLORS.axis, width = 1.5 } = {}) {
     const s = up ? -1 : 1;

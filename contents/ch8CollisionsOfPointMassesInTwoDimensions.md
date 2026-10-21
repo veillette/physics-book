@@ -45,7 +45,7 @@ masses, one particle initially at rest, and a convenient coordinate system, we
 still gain new insights into nature from the analysis of two-dimensional
 collisions.)
 
-![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_08_06_01.jpg 'A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.')
+![A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.](../resources/Figure_08_06_01.svg 'A two-dimensional collision with the coordinate system chosen so that \( m_2 \) is initially at rest and \( v_1 \) is parallel to the \( x \) -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.')
 {: #Figure1}
 
 Along the $$ x $$ -axis, the equation for conservation of momentum is
@@ -335,7 +335,7 @@ When the struck object is much more massive than the small object, it stays esse
 $$ \theta_{1} = 2\alpha $$
 </div>
 
-for every impact parameter $$ b $$ that hits that face. For $$ \alpha = 25° $$, $$ \theta_{1} = 50° $$. The angle depends on $$ b $$ only through **which face** is hit. A value of $$ b $$ that hits a different face gives a different, but again constant, angle, so only a few discrete scattering directions are possible (one per face that can be struck), and $$ \theta_{1} $$ jumps suddenly when $$ b $$ crosses an edge.
+for every impact parameter $$ b $$ that hits that face. The cube in [Figure 3](#Figure3) is turned so that its struck face makes $$ \alpha = 30° $$ with the incoming path, so $$ \theta_{1} = 60° $$. The angle depends on $$ b $$ only through **which face** is hit. A value of $$ b $$ that hits a different face gives a different, but again constant, angle, so only a few discrete scattering directions are possible (one per face that can be struck), and $$ \theta_{1} $$ jumps suddenly when $$ b $$ crosses an edge.
 
 **(b) Sphere.** The normal to the surface points from the center of the sphere to the point of impact, and its direction changes continuously with $$ b $$. If $$ \phi $$ is the angle between the incoming path and the normal at the point of impact, $$ \sin\phi = b/R $$, and reflection gives
 
@@ -350,7 +350,7 @@ $$ \theta_{1} = 180° - 2\phi = 180° - 2\arcsin\left(\frac{b}{R}\right) $$
 
 Every direction from $$ 0° $$ to $$ 180° $$ is possible, and $$ \theta_{1} $$ decreases smoothly as $$ b $$ increases. Scattering can reveal target properties, but this hard-sphere reflection model is not Rutherford’s atomic model: his alpha-particle analysis used a concentrated electric charge and inverse-square repulsion, giving hyperbolic trajectories rather than contact reflections.
 
-(a) Off the massive cube, the small object reflects from a flat face at $$ \theta_{1} = 2\alpha $$ (for example, $$ 50° $$), which does not depend on $$ b $$ except through which face is struck, so only a few discrete directions are possible; (b) off a massive sphere, $$ \theta_{1} = 180° - 2\arcsin(b/R) $$ varies continuously from $$ 180° $$ for a head-on hit to nearly $$ 0° $$ for a grazing one.
+(a) Off the massive cube, the small object reflects from a flat face at $$ \theta_{1} = 2\alpha $$ ($$ 60° $$ for the cube in Figure 3), which does not depend on $$ b $$ except through which face is struck, so only a few discrete directions are possible; (b) off a massive sphere, $$ \theta_{1} = 180° - 2\arcsin(b/R) $$ varies continuously from $$ 180° $$ for a head-on hit to nearly $$ 0° $$ for a grazing one.
 
 :::
 

@@ -37,6 +37,48 @@ function eccentricAnomaly(M, e) {
   return E;
 }
 
+/**
+ * A smooth profile made of cubic Bézier segments [p0, c1, c2, p3], each running
+ * left to right. `d` is its SVG path; `y(x)` and `slope(x)` read the curve at x
+ * (degrees, screen y down), so labels and objects can sit exactly on it.
+ */
+function profile(segments) {
+  const at = ([p0, c1, c2, p3], t, i) => {
+    const u = 1 - t;
+    return u * u * u * p0[i] + 3 * u * u * t * c1[i] + 3 * u * t * t * c2[i] + t * t * t * p3[i];
+  };
+  const find = x => {
+    const seg = segments.find(s => x <= s[3][0]) || segments.at(-1);
+    let [lo, hi] = [0, 1];
+    for (let k = 0; k < 40; k += 1) {
+      const mid = (lo + hi) / 2;
+      if (at(seg, mid, 0) < x) lo = mid;
+      else hi = mid;
+    }
+    return [seg, lo];
+  };
+  const y = x => {
+    const [seg, t] = find(x);
+    return at(seg, t, 1);
+  };
+  const d = segments
+    .map(
+      ([p0, c1, c2, p3], k) =>
+        `${k ? '' : `M ${p0[0]} ${p0[1]} `}C ${c1[0]} ${c1[1]} ${c2[0]} ${c2[1]} ${p3[0]} ${p3[1]}`
+    )
+    .join(' ');
+  const slope = x => (Math.atan2(y(x + 1) - y(x - 1), 2) * 180) / Math.PI;
+  return { d, y, slope };
+}
+
+/** Vertical dimension line from y1 to y2 at x, with end ticks and a label on a white patch. */
+function vdimension(svg, x, y1, y2, label, { size = 22, tick = 22 } = {}) {
+  svg.line(x - tick / 2, y1, x + tick / 2, y1, { color: BLACK, width: 1.5 });
+  svg.line(x - tick / 2, y2, x + tick / 2, y2, { color: BLACK, width: 1.5 });
+  svg.arrow(x, y1 + 1, x, y2 - 1, { color: BLACK, width: 1.5, head: 12, start: true });
+  if (label) svg.text(x, (y1 + y2) / 2, label, { size });
+}
+
 export default {
   // 4.5 — weight resolved parallel and perpendicular to an incline
   Figure_04_05_03: () => {
@@ -752,6 +794,449 @@ export default {
     svg.text(820, 680, 'W = ΣW_i = \\rm{total area}', { size: 22, anchor: 'end' });
     svg.text(820, 712, '\\rm{under curve}', { size: 22, anchor: 'end' });
     svg.text(420, 1215, '(b)', { size: 20, math: false });
+    return svg.render();
+  },
+
+  // 7.2 Example 1 — a package pushed along a roller belt
+  Figure_07_02_02: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 305,
+      title: 'A package pushed along a roller belt',
+      desc: 'A 30.0 kg package rests on a row of rollers. An applied force Fapp = 120 N pushes it to the right and a friction force f = 5.00 N acts to the left. Its weight w points down and the normal force N points up, with equal magnitude. The package moves through a displacement d = 0.800 m to the right.',
+    });
+    const floor = 158;
+    for (let x = 32; x < 960; x += 31.5) {
+      svg.path(`M ${x - 14} ${floor} A 14 14 0 0 1 ${x + 14} ${floor} Z`, {
+        color: '#2f6f73',
+        width: 1.5,
+        fill: '#7cc2bf',
+      });
+    }
+    svg.line(15, floor, 985, floor, { color: BLACK, width: 2 });
+    // The package: a box with envelope flaps and a strip of tape.
+    const [bx, by, bw, bh] = [345, 6, 207, 138];
+    svg.rect(bx, by, bw, bh, { fill: '#dcb563', stroke: '#a77f2b', width: 2 });
+    svg.polyline(
+      [
+        [bx, by],
+        [bx + 60, 86],
+        [bx + bw - 60, 86],
+        [bx + bw, by],
+      ],
+      { color: '#a77f2b', width: 2 }
+    );
+    svg.line(bx, by + bh, bx + 60, 94, { color: '#a77f2b', width: 2 });
+    svg.line(bx + bw, by + bh, bx + bw - 60, 94, { color: '#a77f2b', width: 2 });
+    svg.rect(bx + 70, 74, bw - 140, 30, { fill: '#ecd08f', stroke: '#c49a45', width: 1.5 });
+    svg.text(bx + bw / 2, 32, 'm = 30.0 \\rm{kg}', { size: 24, halo: false });
+
+    svg.arrow(0, 70, bx - 2, 70, { color: FORCE, width: 3.5, head: 20 });
+    // Break marks: the 120 N arrow is not drawn to scale with f.
+    for (const dx of [0, 9]) {
+      svg.line(72 + dx, 86, 80 + dx, 54, { color: '#ffffff', width: 6 });
+      svg.line(72 + dx, 86, 80 + dx, 54, { color: BLACK, width: 1.5 });
+    }
+    svg.text(105, 42, '**F**_{app} = 120 \\rm{N}', { size: 24, anchor: 'start' });
+    svg.arrow(622, 70, bx + bw + 2, 70, { color: FORCE, width: 3.5, head: 20 });
+    svg.text(572, 42, '**f** = 5.00 \\rm{N}', { size: 24, anchor: 'start' });
+    svg.arrow(bx + bw, 108, 995, 108, { color: MAROON, width: 3, head: 18 });
+    svg.text(730, 84, '**d** = 0.800 \\rm{m}', { size: 24, anchor: 'start' });
+    svg.arrow(403, floor, 403, 258, { color: FORCE, width: 3.5, head: 20 });
+    svg.arrow(493, 258, 493, floor, { color: FORCE_LIGHT, width: 3.5, head: 20 });
+    svg.text(403, 286, '**w**', { size: 24 });
+    svg.text(493, 286, '**N**', { size: 24 });
+    return svg.render();
+  },
+
+  // 7.3 Example 3 — a roller coaster drops 25 m and finishes 20 m below the start
+  Figure_07_03_04: () => {
+    const svg = new Svg({
+      width: 1020,
+      height: 400,
+      title: 'A roller coaster drop',
+      desc: 'A roller coaster car starts from rest (v0 = 0) at the top of a hill. The track drops h = 25 m to its lowest point, then rises to a level finish h = 20 m below the start, where the speed v is unknown. Heights are drawn to scale.',
+    });
+    const top = 68;
+    const scale = 10.4; // pixels per meter
+    const bottom = top + 25 * scale;
+    const finish = top + 20 * scale;
+    const track = profile([
+      [
+        [0, 150],
+        [55, 95],
+        [100, top],
+        [150, top],
+      ],
+      [
+        [150, top],
+        [260, top],
+        [285, bottom],
+        [390, bottom],
+      ],
+      [
+        [390, bottom],
+        [480, bottom],
+        [520, finish],
+        [600, finish],
+      ],
+      [
+        [600, finish],
+        [700, finish],
+        [900, finish],
+        [1020, finish],
+      ],
+    ]);
+    // Wooden trestle: a lattice clipped to the region under the track.
+    svg.add(
+      `<defs><clipPath id="trestle-07-03-04"><path d="${track.d} L 1020 400 L 0 400 Z"/></clipPath></defs>`
+    );
+    svg.add('<g clip-path="url(#trestle-07-03-04)">');
+    svg.rect(0, 0, 1020, 400, { fill: '#fbf1dc' });
+    for (let x = 0; x <= 1020; x += 51) {
+      svg.line(x, 0, x + 51, 51 * 8, { color: '#efdcb4', width: 3 });
+      svg.line(x + 51, 0, x, 51 * 8, { color: '#efdcb4', width: 3 });
+      svg.line(x, 0, x, 400, { color: '#e3c88f', width: 5 });
+    }
+    for (let y = 100; y <= 400; y += 52) svg.line(0, y, 1020, y, { color: '#e3c88f', width: 5 });
+    svg.add('</g>');
+    svg.path(track.d, { color: BLACK, width: 10 });
+    svg.path(track.d, { color: '#3f9a2b', width: 5 });
+    // The car at the start, sitting on the crest.
+    svg.rect(124, top - 30, 54, 22, { fill: '#f2a7a0', stroke: '#b5544b', width: 2, rx: 8 });
+    svg.circle(136, top - 7, 6, { fill: '#555555' });
+    svg.circle(166, top - 7, 6, { fill: '#555555' });
+    svg.text(151, 18, 'Start', { size: 22, math: false });
+    svg.text(200, top - 16, 'v_0 = 0', { size: 22, anchor: 'start' });
+
+    svg.line(190, top, 1020, top, { color: BLACK, width: 1.5, dash: '6 5' });
+    vdimension(svg, 390, top, bottom - 4, 'h = 25 \\rm{m}', { size: 24 });
+    vdimension(svg, 815, top, finish - 4, 'h = 20 \\rm{m}', { size: 24 });
+    svg.text(962, finish - 62, 'Finish', { size: 22, math: false });
+    svg.text(962, finish - 32, 'v = ?', { size: 22 });
+    return svg.render();
+  },
+
+  // 7.4 — the work to stretch a spring is the area under F = kx
+  Figure_07_04_01: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 290,
+      title: 'Potential energy stored in a stretched spring',
+      desc: '(a) An undeformed spring attached to a wall stores no potential energy. (b) The spring stretched a distance x from its unstretched position 0 by a force F = kx; the work done is W = ½kx², stored as PEs = ½kx². (c) A graph of F versus x is a straight line through the origin with slope k. The area under it from 0 to x is a triangle with base x and height kx, so Area = ½kx².',
+    });
+    const WALL = { fill: '#f8d3d6', stroke: '#de9aa2', width: 1.5 };
+    const end = { fill: '#9ccc65', stroke: '#558b2f', width: 1.5 };
+    const guide = { color: BLACK, width: 1.3, dash: '5 4' };
+    const wall = x => [
+      [x, 55],
+      [x + 55, 55],
+      [x + 55, 190],
+      [x + 335, 190],
+      [x + 335, 225],
+      [x, 225],
+    ];
+    const relaxed = 107; // unstretched spring length, pixels
+    const stretch = 53;
+    // (a)
+    svg.polygon(wall(10), WALL);
+    svg.line(65, 105, 75, 105, { color: '#333333', width: 2.2 });
+    svg.spring(75, 65 + relaxed - 10, 105, { n: 10, r: 12 });
+    svg.line(65 + relaxed - 10, 105, 65 + relaxed, 105, { color: '#333333', width: 2.2 });
+    svg.circle(65 + relaxed + 4, 105, 6, end);
+    svg.line(65 + relaxed + 4, 112, 65 + relaxed + 4, 190, guide);
+    svg.text(175, 268, '(a)', { size: 20, math: false });
+    // (b)
+    const x0 = 410 + relaxed + 4;
+    const x1 = x0 + stretch;
+    svg.polygon(wall(355), WALL);
+    svg.line(410, 68, 420, 68, { color: '#333333', width: 2.2 });
+    svg.spring(420, x1 - 14, 68, { n: 10, r: 12 });
+    svg.line(x1 - 14, 68, x1 - 4, 68, { color: '#333333', width: 2.2 });
+    svg.circle(x1, 68, 6, end);
+    svg.line(x1, 75, x1, 225, guide);
+    svg.line(x0, 190, x0, 225, guide);
+    svg.arrow(x0 + 1, 202, x1 - 1, 202, { color: BLACK, width: 1.3, head: 9, start: true });
+    svg.rect((x0 + x1) / 2 - 9, 192, 18, 20, { fill: WALL.fill });
+    svg.text((x0 + x1) / 2, 202, 'x', { size: 20 });
+    svg.text(x0, 242, '0', { size: 20, math: false });
+    svg.text(x1, 242, 'x', { size: 20 });
+    svg.text(612, 48, 'F = kx', { size: 22, anchor: 'start' });
+    svg.arrow(612, 74, 665, 74, { color: BLACK, width: 1.5, head: 10 });
+    svg.text(636, 118, 'W =', { size: 22, anchor: 'end' });
+    fraction(svg, 652, 118, '1', '2', { size: 16, width: 14 });
+    svg.text(664, 118, 'kx^2', { size: 22, anchor: 'start' });
+    svg.text(636, 162, '\\rm{PE}_s =', { size: 22, anchor: 'end' });
+    fraction(svg, 652, 162, '1', '2', { size: 16, width: 14 });
+    svg.text(664, 162, 'kx^2', { size: 22, anchor: 'start' });
+    svg.text(522, 268, '(b)', { size: 20, math: false });
+    // (c)
+    const O = [735, 215];
+    const k = 0.787; // slope of the line in pixels
+    const X = 905;
+    const Y = O[1] - k * (X - O[0]);
+    svg.polygon(
+      [
+        [O[0], O[1]],
+        [X, O[1]],
+        [X, Y],
+      ],
+      { fill: '#b9dde2' }
+    );
+    svg.arrow(O[0], O[1], 985, O[1], { color: BLACK, width: 1.5, head: 12 });
+    svg.arrow(O[0], O[1], O[0], 8, { color: BLACK, width: 1.5, head: 12 });
+    svg.line(...O, 972, O[1] - k * (972 - O[0]), { color: '#a01b3c', width: 4 });
+    svg.line(X, Y, X, O[1], { color: '#2b8a99', width: 2.5, dash: '7 4' });
+    vdimension(svg, 927, Y, O[1], '', { tick: 16 });
+    svg.text(948, (Y + O[1]) / 2, 'kx', { size: 22 });
+    svg.line(O[0], O[1] + 6, O[0], O[1] + 30, { color: BLACK, width: 1.3 });
+    svg.line(X, O[1] + 6, X, O[1] + 30, { color: BLACK, width: 1.3 });
+    svg.arrow(O[0] + 1, O[1] + 22, X - 1, O[1] + 22, {
+      color: BLACK,
+      width: 1.3,
+      head: 10,
+      start: true,
+    });
+    svg.text((O[0] + X) / 2, O[1] + 22, 'x', { size: 22 });
+    svg.text(O[0] - 14, 18, 'F', { size: 22 });
+    svg.text(990, O[1] + 22, 'x', { size: 22 });
+    svg.text(822, 44, '\\rm{Slope} = k', { size: 21, anchor: 'start' });
+    svg.leader(870, 58, X - 4, Y + 2, { bend: -0.3 });
+    svg.text(778, 198, '\\rm{Area} =', { size: 19, anchor: 'start', halo: false });
+    fraction(svg, 850, 198, '1', '2', { size: 14, width: 12 });
+    svg.text(859, 198, 'kx^2', { size: 19, anchor: 'start', halo: false });
+    svg.text(870, 270, '(c)', { size: 20, math: false });
+    return svg.render();
+  },
+
+  // 7.4 Example 1 — a spring-launched toy car; either path gives the same final speed
+  Figure_07_04_03: () => {
+    const svg = new Svg({
+      width: 1030,
+      height: 262,
+      title: 'A spring-launched toy car on two possible paths',
+      desc: 'A compressed spring launches a toy race car to the right along a level track. The path of the car curves gently upward and levels off h = 18 cm above its starting level. An alternate path first dips down, goes around a vertical loop, and then climbs to the same level, 18 cm above the start.',
+    });
+    const base = 93;
+    const high = 18;
+    const PURPLE = '#7b4fa0';
+    const path = profile([
+      [
+        [430, base],
+        [650, base],
+        [700, high],
+        [880, high],
+      ],
+    ]);
+    const C = [580, 172];
+    const R = 78;
+    svg.line(430, base, 1015, base, { color: BLACK, width: 1.4, dash: '6 5' });
+    svg.path(
+      `M 250 ${base} C 380 ${base} 470 ${C[1] + R} ${C[0]} ${C[1] + R} C 700 ${C[1] + R} 780 ${high} 880 ${high} L 900 ${high}`,
+      { color: TEAL, width: 3 }
+    );
+    svg.circle(...C, R, { fill: 'none', stroke: TEAL, width: 3 });
+    svg.arrow(890, high, 925, high, { color: TEAL, width: 3, head: 16 });
+    svg.line(0, base, 430, base, { color: PURPLE, width: 3 });
+    svg.path(path.d, { color: PURPLE, width: 3 });
+    svg.arrow(880, high, 1015, high, { color: PURPLE, width: 3, head: 16 });
+
+    // The compressed spring and its end plate.
+    svg.spring(4, 100, 70, { n: 7, r: 22, width: 2.5 });
+    svg.ellipse(108, 70, 6, 24, { stroke: '#555555', width: 2.5, fill: '#dddddd' });
+    // The race car.
+    svg.path(
+      `M 124 ${base - 6} L 126 74 Q 140 64 172 65 L 190 58 Q 204 50 214 61 L 246 68 Q 259 73 258 ${base - 6} Z`,
+      { color: '#8c1530', width: 2, fill: '#e2264d' }
+    );
+    svg.circle(197, 74, 9, { fill: '#f5e04a', stroke: '#8c1530', width: 1.5 });
+    for (const wx of [158, 230]) {
+      svg.circle(wx, base - 8, 9, { fill: '#333333' });
+      svg.circle(wx, base - 8, 3.5, { fill: '#cccccc' });
+    }
+
+    const h = 965;
+    svg.arrow(h, high - 0.5, h, high + 26, { color: BLACK, width: 1.4, head: 9, start: false });
+    svg.line(h, high + 26, h, base - 26, { color: BLACK, width: 1.4 });
+    svg.arrow(h, base - 26, h, base, { color: BLACK, width: 1.4, head: 9 });
+    svg.text(950, 55, 'h = 18 \\rm{cm}', { size: 21, anchor: 'end' });
+    svg.text(495, 22, 'Path of the Car', { size: 19, math: false });
+    svg.squiggle(565, 40, 600, path.y(600) - 3, { waves: 1, amp: 5 });
+    svg.text(370, 203, 'Alternate path', { size: 19, math: false, anchor: 'end' });
+    svg.squiggle(380, 205, 461, 202, { waves: 1, amp: 5 });
+    return svg.render();
+  },
+
+  // 7.6 Example 2 — a car coasting with friction stops at a gas station
+  Figure_07_06_02: () => {
+    const svg = new Svg({
+      width: 1040,
+      height: 450,
+      title: 'A car coasting over hilly terrain',
+      desc: 'A car experiencing non-negligible friction coasts down a hill, up over a small crest, down a second hill, and comes to a stop at a gas pump on the level ground at the bottom. Arrows mark each stage: coasts down hill, coasts up over crest, coasts down hill, stops for gasoline.',
+    });
+    const road = profile([
+      [
+        [5, 178],
+        [120, 225],
+        [180, 272],
+        [240, 276],
+      ],
+      [
+        [240, 276],
+        [285, 279],
+        [300, 262],
+        [335, 258],
+      ],
+      [
+        [335, 258],
+        [385, 252],
+        [420, 268],
+        [470, 292],
+      ],
+      [
+        [470, 292],
+        [600, 350],
+        [690, 398],
+        [780, 407],
+      ],
+      [
+        [780, 407],
+        [860, 415],
+        [920, 413],
+        [1035, 413],
+      ],
+    ]);
+    svg.add(
+      '<defs><linearGradient id="ground-07-06-02" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dcc4a3"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>'
+    );
+    svg.path(`${road.d} L 1035 450 L 5 450 Z`, { color: 'none', fill: 'url(#ground-07-06-02)' });
+    svg.path(road.d, { color: '#9b7653', width: 16 });
+    svg.add(`<g transform="translate(0 -3)">`);
+    svg.path(road.d, { color: '#c8c8c8', width: 10 });
+    svg.add('</g>');
+
+    // The car, tilted to the slope, on the second downhill stretch.
+    const cx = 545;
+    svg.add(
+      `<g transform="translate(${cx} ${road.y(cx) - 8}) rotate(${road.slope(cx).toFixed(1)})">`
+    );
+    svg.path(
+      'M -56 -8 L -56 -26 Q -50 -32 -32 -32 L -18 -50 L 22 -50 L 40 -32 Q 54 -31 58 -22 L 58 -8 Z',
+      {
+        color: '#2b8a99',
+        width: 2,
+        fill: '#5bc8d6',
+      }
+    );
+    svg.polygon(
+      [
+        [-14, -46],
+        [0, -46],
+        [0, -33],
+        [-25, -33],
+      ],
+      { fill: '#d8f1f5' }
+    );
+    svg.polygon(
+      [
+        [5, -46],
+        [20, -46],
+        [33, -33],
+        [5, -33],
+      ],
+      { fill: '#d8f1f5' }
+    );
+    for (const wx of [-32, 34]) {
+      svg.circle(wx, -8, 10, { fill: '#333333' });
+      svg.circle(wx, -8, 4, { fill: '#cccccc' });
+    }
+    svg.add('</g>');
+
+    // The gas pump on its island.
+    const gy = road.y(955) - 6;
+    svg.rect(918, gy - 6, 115, 8, { fill: '#a0a0a0' });
+    svg.rect(938, gy - 56, 34, 50, { fill: '#f2c14e', stroke: '#b3862a', width: 2, rx: 4 });
+    svg.rect(941, gy - 70, 28, 18, { fill: '#1f4e79', stroke: '#173a5a', width: 1.5, rx: 3 });
+    svg.line(946, gy - 61, 964, gy - 61, { color: '#ffffff', width: 2 });
+    svg.path(`M 972 ${gy - 44} Q 990 ${gy - 44} 985 ${gy - 18}`, { color: '#333333', width: 2.5 });
+
+    const marks = [
+      [78, ['Coasts Down', 'Hill'], 20],
+      [312, ['Coasts Up', 'Over Crest'], 22],
+      [cx + 5, ['Coasts Down', 'Hill'], 72],
+      [955, ['Stops for', 'Gasoline'], 82],
+    ];
+    for (const [x, words, gap] of marks) {
+      const tip = (x === 955 ? gy - 74 : x === cx + 5 ? road.y(x) - 58 : road.y(x)) - gap;
+      const top = tip - 95;
+      svg.lines(x, top - 52, words, { size: 21, math: false, gap: 25 });
+      svg.arrow(x, top, x, tip, { color: BLACK, width: 2.2, head: 16 });
+    }
+    return svg.render();
+  },
+
+  // 7.8 — where the energy in food goes
+  Figure_07_08_01: () => {
+    const svg = new Svg({
+      width: 1030,
+      height: 640,
+      title: 'Energy conversion in humans',
+      desc: 'Food energy, the initial other energy OEi, branches into three forms: work, which is nonconservative work Wnc and is negative; thermal energy; and stored fat. Thermal energy and stored fat together make up the final other energy OEf. So OEi + Wnc = OEf.',
+    });
+    const box = (x, y, w, h, fill, stroke, lines) => {
+      svg.rect(x, y, w, h, { fill, stroke, width: 2.5 });
+      const gap = 52;
+      svg.lines(x + w / 2, y + h / 2 - ((lines.length - 1) * gap) / 2, lines, {
+        size: 40,
+        math: false,
+        gap,
+        halo: false,
+      });
+    };
+    box(5, 185, 245, 155, '#aebbd8', '#6e8fc7', ['Food', 'energy']);
+    box(415, 4, 250, 156, '#c7dea0', '#8fc153', ['Work']);
+    box(415, 184, 250, 157, '#f4a687', '#e5845d', ['Thermal', 'energy']);
+    box(415, 365, 250, 155, '#e9c5b0', '#d4a58a', ['Stored', 'fat']);
+
+    // Three thick branches from the food box, each ending in an arrowhead.
+    const GOLD = '#b8941f';
+    const head = (x, y) =>
+      svg.polygon(
+        [
+          [x, y - 40],
+          [x + 44, y],
+          [x, y + 40],
+        ],
+        { fill: GOLD }
+      );
+    svg.path('M 248 262 C 320 262 300 82 372 82', { color: GOLD, width: 36 });
+    svg.path('M 248 262 L 372 262', { color: GOLD, width: 36 });
+    svg.path('M 248 262 C 320 262 300 443 372 443', { color: GOLD, width: 36 });
+    head(370, 82);
+    head(370, 262);
+    head(370, 443);
+
+    svg.text(125, 130, 'OE_i', { size: 40, math: false });
+    svg.text(678, 70, '\\it{W}_{nc} (negative)', { size: 38, math: false, anchor: 'start' });
+    // A brace grouping thermal energy and stored fat.
+    const [bx, y1, y2, depth] = [695, 184, 520, 70];
+    const m = (y1 + y2) / 2;
+    const q = depth / 2;
+    svg.path(
+      [
+        `M ${bx} ${y1}`,
+        `Q ${bx + q} ${y1} ${bx + q} ${y1 + q * 2}`,
+        `L ${bx + q} ${m - q * 2}`,
+        `Q ${bx + q} ${m} ${bx + depth} ${m}`,
+        `Q ${bx + q} ${m} ${bx + q} ${m + q * 2}`,
+        `L ${bx + q} ${y2 - q * 2}`,
+        `Q ${bx + q} ${y2} ${bx} ${y2}`,
+      ].join(' '),
+      { color: BLACK, width: 2.5 }
+    );
+    svg.text(bx + depth + 10, m, 'OE_f', { size: 40, math: false, anchor: 'start' });
+    svg.text(350, 595, 'OE_i + \\it{W}_{nc} = OE_f', { size: 40, math: false });
     return svg.render();
   },
 

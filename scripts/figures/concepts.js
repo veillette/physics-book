@@ -1373,7 +1373,7 @@ export default {
       width: 720,
       height: 380,
       title: 'Elastic scattering from a massive cube and a massive sphere',
-      desc: 'Two panels. (a) A massive cube whose struck face is tilted 25 degrees above the incoming horizontal path. Two incoming paths with different impact parameters b both reflect from the flat face with equal angles of incidence and reflection, so both leave at the same angle θ1 = 50 degrees: for a flat face θ1 does not depend on b. (b) A massive sphere of radius R. The normal at the point of impact depends on b: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120 degrees, b = 0.87R leaves at 60 degrees, and a grazing hit (b near R) is barely deflected. For the sphere θ1 = 180° − 2 arcsin(b/R).',
+      desc: 'Two panels. (a) A massive cube, turned as in Figure 3, whose struck face is tilted 30 degrees above the incoming horizontal path. Two incoming paths with different impact parameters b both reflect from the flat face with equal angles of incidence and reflection, so both leave at the same angle θ1 = 60 degrees: for a flat face θ1 does not depend on b. (b) A massive sphere of radius R. The normal at the point of impact depends on b: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120 degrees, b = 0.87R leaves at 60 degrees, and a grazing hit (b near R) is barely deflected. For the sphere θ1 = 180° − 2 arcsin(b/R).',
     });
     const ray = (P, dir, len, opts = {}) => {
       svg.arrow(P[0], P[1], P[0] + dir[0] * len, P[1] - dir[1] * len, {
@@ -1383,7 +1383,7 @@ export default {
         ...opts,
       });
     };
-    // (a) Cube turned α = 25° counterclockwise: its top face is a ramp at α.
+    // (a) Cube turned α = 30° counterclockwise, as in Figure 3: its top face is a ramp at α.
     svg.text(20, 26, '(a) massive cube', {
       size: 16,
       math: false,
@@ -1392,7 +1392,7 @@ export default {
     });
     const C = [235, 235];
     const s = 120;
-    const alpha = 25;
+    const alpha = 30;
     const corner = (dx, dy) => {
       const c = Math.cos(rad(alpha));
       const si = Math.sin(rad(alpha));
@@ -1421,7 +1421,7 @@ export default {
     const L0 = corner(-s / 2, 0.1 * s);
     svg.line(30, L0[1], L0[0], L0[1], { color: VEL, width: 2.5 });
     ray([30, L0[1]], [1, 0], 60);
-    svg.line(L0[0], L0[1], L0[0] + back[0] * 90, L0[1] - back[1] * 90, {
+    svg.line(L0[0], L0[1], L0[0] + back[0] * 70, L0[1] - back[1] * 70, {
       color: COLORS.red,
       width: 2.5,
       dash: '6 4',
@@ -1429,8 +1429,8 @@ export default {
     const T0 = corner(-0.3 * s, s / 2);
     svg.line(T0[0], T0[1], T0[0] + 120, T0[1], { color: COLORS.guide, width: 1.2, dash: '5 4' });
     svg.arc(T0[0], T0[1], 70, 0, 2 * alpha, { color: COLORS.axis });
-    svg.text(T0[0] + 84, T0[1] - 26, 'θ_1', { size: 16 });
-    svg.text(200, 332, 'same face, any b: θ_1 = 2α = 50°', { size: 15 });
+    svg.text(T0[0] + 58, T0[1] - 70, 'θ_1', { size: 16 });
+    svg.text(200, 332, 'same face, any b: θ_1 = 2α = 60°', { size: 15 });
     svg.text(200, 356, '(α = angle of the struck face to the incoming path)', {
       size: 13,
       math: false,

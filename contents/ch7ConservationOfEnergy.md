@@ -284,7 +284,7 @@ farther down the hill, then up and over a small crest. He then coasts down that 
 station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the 
 car has, and how they are changed and transferred in this series of events. (See [Figure 3](#Figure3).)
 
-![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02.jpg 'A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.')
+![A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.](../resources/Figure_07_06_02.svg 'A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.')
 {: #Figure3}
 
 ::::
