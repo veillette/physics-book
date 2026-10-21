@@ -13,8 +13,9 @@ export default [
       'pdf-output/**',
       'package-lock.json',
       'summary.json',
-      // Third-party bundle
+      // Third-party bundles
       'assets/js/mathjax/**',
+      'assets/js/minisearch.js',
     ],
   },
 
@@ -49,6 +50,7 @@ export default [
         // Modern Node.js globals
         fetch: 'readonly',
         AbortController: 'readonly',
+        URL: 'readonly',
         // Browser globals (for scripts that inject code into browsers via Playwright)
         document: 'readonly',
         window: 'readonly',

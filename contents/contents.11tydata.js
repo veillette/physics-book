@@ -6,5 +6,22 @@ export default {
   layout: 'page',
   eleventyComputed: {
     permalink: data => `${data.page.filePathStem}.html`,
+    pdfDownload: data => {
+      const file = `${data.page.filePathStem.replace(/^\//, '')}.md`;
+      const chapter = data.chapters.find(
+        ch => ch.chapterFile === file || ch.sections.some(s => s.sectionFile === file)
+      );
+      if (!chapter) return null;
+      const section = chapter.sections.find(s => s.sectionFile === file);
+      const number = String(chapter.chapterNumber).padStart(2, '0');
+      return {
+        path: section
+          ? `/assets/pdf/chapter-${number}-section-${String(section.sectionNumber).padStart(2, '0')}.pdf`
+          : `/assets/pdf/chapter-${number}-complete.pdf`,
+        title: section
+          ? `Download Section ${section.sectionNumber}: ${section.sectionTitle}`
+          : `Download Chapter ${chapter.chapterNumber} PDF`,
+      };
+    },
   },
 };

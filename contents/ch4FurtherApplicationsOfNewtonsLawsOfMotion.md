@@ -1128,14 +1128,14 @@ $$ v_0 = \sqrt{2156 \mmss} = 46.4 \ms $$
 
 **(b) Average acceleration in the mortar:**
 
-Using $$ v^2 = v_0^2 + 2a\Delta x $$ with:
+The shell starts from rest, so $$ a = v^2/(2\Delta x) $$. Use the unrounded exit-speed squared from part (a), $$ v^2 = 2156\mmss $$, rather than $$ (46.4\ms)^2 $$:
 
-- Initial velocity: $$ v_0 = 0 $$
-- Final velocity: $$ v = 46.4 \ms $$
+- Initial velocity: $$ 0 $$
+- Exit-speed squared: $$ v^2 = 2156\mmss $$
 - Distance: $$ \Delta x = 0.450 \m $$
 
 <div class="equation">
-$$ a = \frac{v_0^2}{2\Delta x} = \frac{2156\mmss}{2(0.450\m)} \approx 2.40\times10^3\mss. $$
+$$ a = \frac{v^2}{2\Delta x} = \frac{2156\mmss}{2(0.450\m)} \approx 2.40\times10^3\mss. $$
 </div>
 
 **(c) Average force on the shell:**
@@ -1176,7 +1176,7 @@ The enormous acceleration (about 244 times g) requires a force 245 times the she
 
 (a) The shell's velocity when leaving the mortar is **46.4 m/s**.
 
-(b) The average acceleration in the tube is **2.40 × 10³ m/s²** (or **244g**).
+(b) The average acceleration in the tube is **2.40 × 10³ m/s²** (about **244g**).
 
 (c) The average force is **6.01 × 10³ N**, which is **245 times** the shell's weight.
 
@@ -1416,21 +1416,17 @@ Convert the initial velocity to m/s, then use kinematics to find the final veloc
 
 1. Convert initial velocity:
 <div class="equation">
-$$ v_0 = 50.0 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 13.9 \ms $$
+$$ v_0 = 50.0 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = \frac{50.0}{3.6}\ms $$
 </div>
 
-2. Apply kinematics:
+2. Apply kinematics, keeping the unrounded initial speed:
 <div class="equation">
-$$ v = v_0 + at = 13.9 \ms + (-0.400 \mss)(50.0 \s) $$
-</div>
-
-<div class="equation">
-$$ v = 13.9 \ms - 20.0 \ms = -6.1 \ms $$
+$$ v = v_0 + at = \frac{50.0}{3.6}\ms + (-0.400 \mss)(50.0 \s) = -6.11 \ms $$
 </div>
 
 **(b) What is unreasonable:**
 
-The negative final velocity means the car is moving backward at 6.1 m/s. This is unreasonable because:
+The negative final velocity means the car is moving backward at 6.11 m/s. This is unreasonable because:
 
 - A car cannot reverse direction simply by braking
 - Once the car stops (v = 0), friction cannot accelerate it backward
@@ -1452,7 +1448,7 @@ This problem illustrates the importance of checking whether calculated results m
 
 **Answer**
 
-(a) The calculated final velocity is **−6.1 m/s** (or **−22 km/h**).
+(a) The calculated final velocity is **−6.11 m/s** (or **−22.0 km/h**).
 
 (b) A negative velocity means the car is moving backward, which is unreasonable for a braking car.
 

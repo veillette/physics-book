@@ -87,6 +87,7 @@ function extractInfo(markdown) {
 class SummaryParser {
   constructor(options = {}) {
     this.baseDir = getBaseDir(import.meta.url);
+    this.silent = options.silent || false;
     this.inputFile = options.input
       ? path.isAbsolute(options.input)
         ? options.input
@@ -106,17 +107,23 @@ class SummaryParser {
   }
 
   async run() {
-    printHeader('📚', 'SUMMARY.md Parser');
+    if (!this.silent) {
+      printHeader('📚', 'SUMMARY.md Parser');
+    }
 
     // Check if input file exists
     if (!fs.existsSync(this.inputFile)) {
-      console.error(`Error: Input file not found: ${this.inputFile}`);
+      if (!this.silent) {
+        console.error(`Error: Input file not found: ${this.inputFile}`);
+      }
       this.stats.errors++;
       return false;
     }
 
-    console.log(`Input:  ${this.inputFile}`);
-    console.log(`Output: ${this.outputFile}\n`);
+    if (!this.silent) {
+      console.log(`Input:  ${this.inputFile}`);
+      console.log(`Output: ${this.outputFile}\n`);
+    }
 
     try {
       // Read and parse SUMMARY.md
@@ -128,18 +135,24 @@ class SummaryParser {
 
       // Write JSON output
       const data = JSON.stringify(chapters, null, 2);
-      writeFile(this.outputFile, data);
+      if (!fs.existsSync(this.outputFile) || readFile(this.outputFile) !== data) {
+        writeFile(this.outputFile, data);
+      }
 
       this.printResults();
       return true;
     } catch (error) {
-      console.error(`Error: ${error.message}`);
+      if (!this.silent) {
+        console.error(`Error: ${error.message}`);
+      }
       this.stats.errors++;
       return false;
     }
   }
 
   printResults() {
+    if (this.silent) return;
+
     printDivider();
 
     console.log(`\nChapters found:  ${this.stats.chapters}`);
@@ -190,5 +203,5 @@ The generated JSON file is used by other scripts such as:
     },
   });
 
-// Export functions for testing
-export { extractInfo };
+// Export functions and classes
+export { extractInfo, SummaryParser };

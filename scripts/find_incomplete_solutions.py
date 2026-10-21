@@ -19,13 +19,13 @@ A ::: container left open when its exercise <div> closes is reported as
 unbalanced markup.
 
 Usage:
-    python find_incomplete_solutions.py              # All chapters
-    python find_incomplete_solutions.py 16 17 18     # Specific chapters
-    python find_incomplete_solutions.py --range 1-10 # Chapter range
-    python find_incomplete_solutions.py --range 1-6 --range 20-25
-    python find_incomplete_solutions.py --summary    # Per-chapter counts only
-    python find_incomplete_solutions.py --json       # Machine-readable output
-    python find_incomplete_solutions.py --strict     # Exit 1 if anything is incomplete
+    python scripts/find_incomplete_solutions.py              # All chapters
+    python scripts/find_incomplete_solutions.py 16 17 18     # Specific chapters
+    python scripts/find_incomplete_solutions.py --range 1-10 # Chapter range
+    python scripts/find_incomplete_solutions.py --range 1-6 --range 20-25
+    python scripts/find_incomplete_solutions.py --summary    # Per-chapter counts only
+    python scripts/find_incomplete_solutions.py --json       # Machine-readable output
+    python scripts/find_incomplete_solutions.py --strict     # Exit 1 if anything is incomplete
 """
 
 import argparse
@@ -35,7 +35,7 @@ import sys
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONTENTS_DIR = REPO_ROOT / 'contents'
 
 PARTS = ('strategy', 'solution', 'discussion')

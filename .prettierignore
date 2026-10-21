@@ -10,6 +10,10 @@ pdf-output/
 # Package files
 package-lock.json
 summary.json
+search_index.json
+
+# Stylesheets (legacy formatting preserved)
+assets/css/
 
 # Resources
 resources/
@@ -17,8 +21,9 @@ resources/
 # Generated files
 assets/manifest/
 
-# Third-party bundle (copied from mathjax npm package)
+# Third-party bundles (copied from npm packages)
 assets/js/mathjax/
+assets/js/minisearch.js
 
 # Git
 .git/

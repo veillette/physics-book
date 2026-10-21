@@ -12,12 +12,13 @@
  * Options:
  *   --site-dir <dir>   Site directory (default: _site)
  *   --output <file>    Output file (default: search_index.json)
- *   --base-url <url>   Base URL for links (default: /physics-book/)
+ *   --base-url <url>   Base URL for links (default: empty / relative)
  *   --help             Show this help message
  */
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 import { glob } from 'glob';
 import * as cheerio from 'cheerio';
 import MiniSearch from 'minisearch';
@@ -33,7 +34,8 @@ class SearchIndexBuilder {
     this.baseDir = getBaseDir(import.meta.url);
     this.siteDir = options.siteDir || '_site';
     this.outputFile = options.output || 'search_index.json';
-    this.baseUrl = options.baseUrl || '/physics-book/';
+    this.baseUrl = options.baseUrl ?? '';
+    this.silent = options.silent || false;
 
     this.stats = {
       filesFound: 0,
@@ -47,20 +49,26 @@ class SearchIndexBuilder {
   }
 
   async run() {
-    printHeader('🔍', 'Search Index Builder');
+    if (!this.silent) {
+      printHeader('🔍', 'Search Index Builder');
+    }
 
     const sitePath = path.join(this.baseDir, this.siteDir);
 
     if (!fs.existsSync(sitePath)) {
-      console.error(`Error: Site directory not found: ${sitePath}`);
-      console.error('Run Eleventy build first: npm run build');
+      if (!this.silent) {
+        console.error(`Error: Site directory not found: ${sitePath}`);
+        console.error('Run Eleventy build first: npm run build');
+      }
       this.stats.errors++;
       return false;
     }
 
-    console.log(`Site directory: ${sitePath}`);
-    console.log(`Base URL:       ${this.baseUrl}`);
-    console.log(`Output file:    ${this.outputFile}\n`);
+    if (!this.silent) {
+      console.log(`Site directory: ${sitePath}`);
+      console.log(`Base URL:       ${this.baseUrl || '(relative)'}`);
+      console.log(`Output file:    ${this.outputFile}\n`);
+    }
 
     // Find all HTML files in the _site directory
     const htmlFiles = await glob(`${this.siteDir}/**/*.html`, {
@@ -69,7 +77,9 @@ class SearchIndexBuilder {
     });
 
     this.stats.filesFound = htmlFiles.length;
-    console.log(`Found ${htmlFiles.length} HTML files to index\n`);
+    if (!this.silent) {
+      console.log(`Found ${htmlFiles.length} HTML files to index\n`);
+    }
 
     // Process each file
     let docId = 1;
@@ -82,13 +92,17 @@ class SearchIndexBuilder {
     }
 
     if (this.documents.length === 0) {
-      console.error('No documents to index');
+      if (!this.silent) {
+        console.error('No documents to index');
+      }
       this.stats.errors++;
       return false;
     }
 
     // Create MiniSearch index
-    console.log(`\nIndexing ${this.documents.length} documents...`);
+    if (!this.silent) {
+      console.log(`\nIndexing ${this.documents.length} documents...`);
+    }
 
     const miniSearch = new MiniSearch({
       fields: ['title', 'content'],
@@ -142,14 +156,19 @@ class SearchIndexBuilder {
 
       // Skip if no content
       if (!content || content.length < 50) {
-        console.log(`  Skipping: ${relativePath} (insufficient content)`);
+        if (!this.silent) {
+          console.log(`  Skipping: ${relativePath} (insufficient content)`);
+        }
         this.stats.filesSkipped++;
         return null;
       }
 
       // Generate URL path relative to site
-      let url = path.relative(this.siteDir, relativePath);
-      url = `${this.baseUrl}${url}`;
+      let url = path.relative(this.siteDir, relativePath).replace(/\\/g, '/');
+      if (this.baseUrl) {
+        const prefix = this.baseUrl.endsWith('/') ? this.baseUrl : `${this.baseUrl}/`;
+        url = `${prefix}${url}`;
+      }
 
       // Create document for index
       this.documents.push({
@@ -160,7 +179,9 @@ class SearchIndexBuilder {
         preview: `${content.substring(0, 200).trim()}...`,
       });
 
-      console.log(`  Indexed: ${title}`);
+      if (!this.silent) {
+        console.log(`  Indexed: ${title}`);
+      }
       this.stats.filesIndexed++;
       return true;
     } catch (error) {
@@ -172,6 +193,14 @@ class SearchIndexBuilder {
   }
 
   printResults(outputPath, indexSize) {
+    if (this.silent) {
+      const relOut = path.relative(this.baseDir, outputPath);
+      console.log(
+        `[11ty] Generated search index: ${relOut} (${this.documents.length} documents, ${(indexSize / 1024).toFixed(1)} KB)`
+      );
+      return;
+    }
+
     printDivider();
 
     console.log(`\nFiles found:     ${this.stats.filesFound}`);
@@ -197,39 +226,50 @@ class SearchIndexBuilder {
 }
 
 // CLI Configuration
-runCli({
-  name: 'build-index',
-  description: `Creates a searchable index for the Physics Book PWA.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isMain) {
+  runCli({
+    name: 'build-index',
+    description: `Creates a searchable index for the Physics Book PWA.
 
 Uses MiniSearch to generate a JSON index from all HTML files.
 Requires Eleventy to have built the site first (npm run build).`,
-  flags: {
-    siteDir: {
-      flag: '--site-dir',
-      description: 'Site directory (default: _site)',
-      type: 'string',
-      default: '_site',
+    flags: {
+      siteDir: {
+        flag: '--site-dir',
+        description: 'Site directory (default: _site)',
+        type: 'string',
+        default: '_site',
+      },
+      output: {
+        flag: '--output',
+        description: 'Output file (default: search_index.json)',
+        type: 'string',
+        default: 'search_index.json',
+      },
+      baseUrl: {
+        flag: '--base-url',
+        description: 'Base URL for links (default: empty / relative)',
+        type: 'string',
+        default: '',
+      },
     },
-    output: {
-      flag: '--output',
-      description: 'Output file (default: search_index.json)',
-      type: 'string',
-      default: 'search_index.json',
+    examples: [
+      'node scripts/build-index.js',
+      'node scripts/build-index.js --site-dir dist',
+      'node scripts/build-index.js --output index.json',
+    ],
+    run: async options => {
+      const builder = new SearchIndexBuilder(options);
+      return builder.run();
     },
-    baseUrl: {
-      flag: '--base-url',
-      description: 'Base URL for links (default: /physics-book/)',
-      type: 'string',
-      default: '/physics-book/',
-    },
-  },
-  examples: [
-    'node scripts/build-index.js',
-    'node scripts/build-index.js --site-dir dist',
-    'node scripts/build-index.js --output index.json',
-  ],
-  run: async options => {
-    const builder = new SearchIndexBuilder(options);
-    return builder.run();
-  },
-});
+  });
+}
+
+export async function buildSearchIndex(options = {}) {
+  const builder = new SearchIndexBuilder(options);
+  return builder.run();
+}
+
+export { SearchIndexBuilder };

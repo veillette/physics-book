@@ -6,7 +6,7 @@
 import math
 import unittest
 
-import check_math as cm
+from scripts import check_math as cm
 
 
 def flags(src, tolerance=0.01):

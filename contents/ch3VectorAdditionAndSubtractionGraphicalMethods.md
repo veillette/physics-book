@@ -917,7 +917,7 @@ line connecting your starting point to your final position? (If you represent
 the two legs of the walk as vector displacements $$\vb{A}$$ and $$\vb{B}$$, as in [Figure 22](#Figure22), then this problem
 finds their sum $$\vb{R} = \vb{A} + \vb{B}$$.)
 
-![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined twenty degrees west of north (110 degrees counterclockwise from the positive x axis). The magnitude of vector A is twelve meters. Another vector B is starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22.svg)
+![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined twenty degrees west of north (110 degrees counterclockwise from the positive x axis). The magnitude of vector A is twelve meters. Another vector B starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22.svg)
 {: #Figure22}
 
 ::::

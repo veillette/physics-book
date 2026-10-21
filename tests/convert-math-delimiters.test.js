@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { convertContent, rendererSupports } from '../scripts/convert_math_delimiters.js';
+import { convertContent, rendererSupports } from '../scripts/convert-math-delimiters.js';
 
 const md = text => convertContent(text).content;
 

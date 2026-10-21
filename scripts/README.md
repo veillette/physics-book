@@ -427,7 +427,7 @@ npm run convert:webp -- --apply --update-refs                     # Convert and 
 `--update-refs` rewrites `../resources/<name>.jpg` references in `contents/` to the WebP name.
 The originals are then unreferenced; `npm run check:orphans` lists them for cleanup.
 
-### convert_math_delimiters.js
+### convert-math-delimiters.js
 
 Converts LaTeX math delimiters between formats (e.g., `\(...\)` to `$...$`).
 
@@ -534,4 +534,4 @@ Scripts use these npm packages:
 
 For physics calculation verification:
 
-- `python` - Python 3.x (for check_math.py)
+- `python` - Python 3.x (for scripts/check_math.py)

@@ -657,16 +657,16 @@ $$ 100 \text{ yd} \times \frac{3 \text{ ft}}{1 \text{ yd}} = 300 \text{ ft} $$
 
 2. Convert feet to meters (1 m = 3.281 ft):
 <div class="equation">
-$$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.4 \m $$
+$$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.44 \m $$
 </div>
 
 **Discussion**
 
-The field is slightly shorter than 100 meters. Here 91.4 m is a convenient approximation. Treating the defined field length as exact and using all four significant figures of the supplied conversion gives 91.44 m.
+The field is slightly shorter than 100 meters. The length 100 yd is a defined distance, so it does not limit the significant figures. The given conversion has four significant figures, and $$ 300/3.281 = 91.44 \m $$.
 
 **Answer**
 
-The football field is **91.4 m** long.
+The football field is **91.44 m** long.
 
 :::
 

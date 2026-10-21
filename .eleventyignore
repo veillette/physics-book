@@ -17,6 +17,8 @@ roadmap.md
 LICENSE.txt
 doc
 # Tooling
+.github
+.vscode
 scripts
 tests
 hooks

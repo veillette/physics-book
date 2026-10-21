@@ -10,17 +10,17 @@ This file guides AI assistants (Claude, Codex, Cursor, etc.) working in this rep
 - **Tech**: Eleventy v4 (Node), markdown-it, MathJax v4, Vercel, GitHub Pages.
 - **Live Sites**:
   - **Vercel (Primary)**: https://physics-book.vercel.app/
-  - **GitHub Pages**: https://veillette.github.io/physics-book2/
-- **Local Dev**: `npm run serve` → `http://localhost:4000/physics-book2/` (Node ≥ 22.15).
+  - **GitHub Pages**: https://veillette.github.io/physics-book/
+- **Local Dev**: `npm run serve` → `http://localhost:4000/physics-book/` (Node ≥ 22.15).
 - **Structure**: Content in `contents/`, scripts in `scripts/`, service worker `sw.njk` in root.
 - **Key Files**: `SUMMARY.md` (TOC), `eleventy.config.js` (build), `vercel.json` (Vercel), `AGENTS.md` (this file).
 
 **Common Tasks:**
 
 - **Add content**: Update `contents/` + `SUMMARY.md`.
-- **Fix links**: Use root-relative `/path` (the build adds the `/physics-book2` prefix).
+- **Fix links**: Use root-relative `/path` (the build adds the `/physics-book` prefix).
 - **Run full check**: Run `npm run audit` to check links, orphans, and figures.
-- **Check math**: Run `npm run check-math` to validate delimiter balance.
+- **Check math**: Run `npm run check:math` to validate delimiter balance.
 - **Generate PDFs**: Run `npm run generate:pdf` or use GitHub Actions workflow for automated generation.
 
 ---
@@ -30,8 +30,8 @@ This file guides AI assistants (Claude, Codex, Cursor, etc.) working in this rep
 This is an **open-source physics textbook** built with Eleventy (11ty) and deployed on Vercel and GitHub Pages. The project provides an accessible, interactive college-level physics education resource that's free and customizable. See [`roadmap.md`](./roadmap.md) for build architecture and [`CHANGELOG.md`](./CHANGELOG.md) for migration history.
 
 - **Vercel Site (Primary)**: https://physics-book.vercel.app/
-- **GitHub Pages Site**: https://veillette.github.io/physics-book2/
-- **Repository**: https://github.com/veillette/physics-book2
+- **GitHub Pages Site**: https://veillette.github.io/physics-book/
+- **Repository**: https://github.com/veillette/physics-book
 - **License**: Creative Commons BY-NC-SA 4.0
 
 ## Technology Stack
@@ -57,7 +57,7 @@ This is an **open-source physics textbook** built with Eleventy (11ty) and deplo
 ## Project Structure
 
 ```
-physics-book2/
+physics-book/
 ├── contents/           # All textbook content (Markdown files)
 ├── assets/             # CSS, JavaScript, images (incl. self-hosted MathJax)
 ├── scripts/            # Build and utility scripts
@@ -88,7 +88,7 @@ Content is structured modularly in the `contents/` directory.
   - Inline math: `$...$` or `\\(...\\)`
   - Display math: `$$...$$` or `\\[...\\]`
 - The build passes math through verbatim (no markdown escaping inside `$$…$$`), so backslashes and LaTeX arrays survive.
-- **Validation**: Use `npm run check-math` to find unbalanced delimiters before committing.
+- **Validation**: Use `npm run check:math` to find unbalanced delimiters before committing.
 
 ### Math and Templating
 
@@ -102,8 +102,8 @@ Markdown bodies are rendered with **no template engine** (`markdownTemplateEngin
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/veillette/physics-book2.git
-cd physics-book2
+git clone https://github.com/veillette/physics-book.git
+cd physics-book
 
 # 2. Install Node.js dependencies
 npm install
@@ -111,13 +111,13 @@ npm install
 # 3. Start the local dev server
 npm run serve
 
-# 4. View at http://localhost:4000/physics-book2/
+# 4. View at http://localhost:4000/physics-book/
 ```
 
 ### Building for Production
 
 ```bash
-# GitHub Pages build (served under /physics-book2/)
+# GitHub Pages build (served under /physics-book/)
 npm run build
 
 # Vercel build (served at the domain root; Vercel sets VERCEL=1 automatically,
@@ -152,7 +152,7 @@ npm run build
 npm run audit
 
 # Validate math equations
-npm run check-math
+npm run check:math
 ```
 
 ## Utilities and Scripts
@@ -163,14 +163,14 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 - **`npm run audit`**: The most important script for general quality control. It runs `check-links`, `check-orphans`, and `check-figures` together.
 - **`check-orphans.js`**: Scans for unreferenced files in `assets/` and `resources/`. It's smart enough to parse Markdown, HTML, CSS, JS, and JSON files to find references. Use `npm run check-orphans:cleanup` to generate a script to remove orphan files.
-- **PDF Generation**: `npm run generate-pdf:combined` creates a single PDF of the entire book. Requires Playwright (`npm run generate-pdf:install`). To generate a combined PDF for a specific chapter (e.g., Chapter 1) using the correct base URL: `npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book2`.
+- **PDF Generation**: `npm run generate:pdf:combined` creates a single PDF of the entire book. Requires Playwright (`npm run generate:pdf:install`). To generate a combined PDF for a specific chapter (e.g., Chapter 1) using the correct base URL: `npm run generate:pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book`.
 
 ## Common Issues and Solutions
 
 ### Navigation Links Broken on GitHub Pages
 
 - **Symptom**: Links work locally and on Vercel but are broken on GitHub Pages.
-- **Solution**: Use **root-relative** links/asset paths (e.g. `/contents/ch2Kinematics.md`, `/resources/x.png`). `eleventy.config.js` adds the `/physics-book2` prefix to single-slash root-relative `href`/`src` at build time for GitHub Pages, and drops it for Vercel (detected via the `VERCEL` env var). Don't hand-write the prefix.
+- **Solution**: Use **root-relative** links/asset paths (e.g. `/contents/ch2Kinematics.md`, `/resources/x.png`). `eleventy.config.js` adds the `/physics-book` prefix to single-slash root-relative `href`/`src` at build time for GitHub Pages, and drops it for Vercel (detected via the `VERCEL` env var). Don't hand-write the prefix.
 
 ### Service Worker Issues
 
@@ -250,7 +250,7 @@ This is an open educational resource. When contributing, please adhere to the fo
 - **Test Thoroughly**: Before submitting a PR, run the build and audit scripts locally.
 - **Follow Conventions**: Adhere to existing file naming and content structure.
 - **Update `SUMMARY.md`**: If you add a new section, add it to the table of contents.
-- **Use root-relative paths**: Ensure all internal links and asset paths are root-relative (e.g. `/contents/...`); the build adds the `/physics-book2` prefix automatically.
+- **Use root-relative paths**: Ensure all internal links and asset paths are root-relative (e.g. `/contents/...`); the build adds the `/physics-book` prefix automatically.
 
 ### Code Review
 

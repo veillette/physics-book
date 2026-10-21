@@ -2530,7 +2530,7 @@ $$ \Delta t = 26.1 \s - 20.8 \s = 5.3 \s $$
 
 **(c) Comparison with other racer:**
 
-The other racer starts 5.00 m ahead of the winner, so when the winner begins to accelerate he is 5.00 m ahead of the other cyclist, or 295 m from the finish line. The other racer therefore has $$ 300 \m - 5.00 \m = 295 \m $$ remaining to the finish.
+The other racer starts 5.00 m ahead of the winner, so that racer has $$ 300 \m - 5.00 \m = 295 \m $$ remaining to the finish.
 
 **Winner's finish time** (from part (b)):
 

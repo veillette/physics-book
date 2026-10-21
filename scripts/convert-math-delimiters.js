@@ -17,7 +17,7 @@
  *   every equation. The dry run always works.
  *
  * Usage:
- *   node scripts/convert_math_delimiters.js [options] [paths...]
+ *   node scripts/convert-math-delimiters.js [options] [paths...]
  *
  * Options:
  *   --apply              Apply changes (default is dry-run)
@@ -459,7 +459,7 @@ const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv
 
 if (isMain) {
   runCli({
-    name: 'convert_math_delimiters',
+    name: 'convert-math-delimiters',
     description: `Convert $$ math $$ delimiters to LaTeX standard delimiters.
 
 Converts:
@@ -469,9 +469,9 @@ Converts:
 --apply refuses to run until the Markdown renderer supports the new delimiters.`,
     flags: FLAGS,
     examples: [
-      'node scripts/convert_math_delimiters.js',
-      'node scripts/convert_math_delimiters.js --verbose contents/ch1PhysicsAnIntroduction.md',
-      'node scripts/convert_math_delimiters.js --apply',
+      'node scripts/convert-math-delimiters.js',
+      'node scripts/convert-math-delimiters.js --verbose contents/ch1PhysicsAnIntroduction.md',
+      'node scripts/convert-math-delimiters.js --apply',
     ],
     run: async options => {
       const paths = positionalPaths(process.argv.slice(2));

@@ -31,13 +31,13 @@ Two kinds of check run against contents/:
    file, so the check goes stale loudly when the text changes.
 
 Usage:
-    python check_math.py                  # Whole book
-    python check_math.py 14 15            # Specific chapters
-    python check_math.py --range 1-10     # Chapter range
-    python check_math.py --file contents/ch14Radiation.md
-    python check_math.py --min-error 10   # Only discrepancies of 10% or more
-    python check_math.py --json           # Machine-readable output
-    python check_math.py --strict         # Exit 1 if anything is flagged
+    python scripts/check_math.py                  # Whole book
+    python scripts/check_math.py 14 15            # Specific chapters
+    python scripts/check_math.py --range 1-10     # Chapter range
+    python scripts/check_math.py --file contents/ch14Radiation.md
+    python scripts/check_math.py --min-error 10   # Only discrepancies of 10% or more
+    python scripts/check_math.py --json           # Machine-readable output
+    python scripts/check_math.py --strict         # Exit 1 if anything is flagged
 """
 
 import argparse
@@ -48,7 +48,10 @@ import sys
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from find_incomplete_solutions import DEFAULT_CONTENTS_DIR, chapter_files, parse_chapter_range
+if __package__:
+    from .find_incomplete_solutions import DEFAULT_CONTENTS_DIR, chapter_files, parse_chapter_range
+else:
+    from find_incomplete_solutions import DEFAULT_CONTENTS_DIR, chapter_files, parse_chapter_range
 
 LIKELY_ERROR_PCT = 10.0
 

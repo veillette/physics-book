@@ -3,6 +3,9 @@
   {% include "head.njk" %}
 
   <body>
+    {% if pdfDownload %}
+    <span hidden data-pdf-path="{{ pdfDownload.path | escape }}" data-pdf-title="{{ pdfDownload.title | escape }}"></span>
+    {% endif %}
     <h1 class="page-title">{{ title }}</h1>
 
     {{ content | safe }} {% include "foot.njk" %}

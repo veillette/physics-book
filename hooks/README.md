@@ -1,6 +1,6 @@
 # Git Hooks
 
-This directory contains Git hooks for the physics-book2 project.
+This directory contains Git hooks for the physics-book project.
 
 ## Pre-commit Hook
 
