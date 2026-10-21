@@ -139,6 +139,20 @@ describe('containers rebuild original elements (roadmap 4.3)', () => {
     expect(out).toContain('<div class="problem">');
   });
 
+  it('keeps the note class on interactive explorations so the description stays with the simulation', () => {
+    const out = md.render(
+      [
+        '::: interactive {"class":"interactive","data-has-label":"true","data-label":""}',
+        '',
+        'Watch a string vibrate in slow motion.',
+        '',
+        ':::',
+      ].join('\n')
+    );
+    expect(out).toContain('<div class="note interactive" data-has-label="true" data-label="">');
+    expect(out).toContain('Watch a string vibrate in slow motion.');
+  });
+
   it('emits a <figure> tag for the figure container', () => {
     const out = md.render(['::: figure {"class":"figure"}', '', 'caption', '', ':::'].join('\n'));
     expect(out).toContain('<figure class="figure">');
