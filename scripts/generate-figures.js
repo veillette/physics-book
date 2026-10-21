@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Generate the line-art figures (graphs, vector diagrams, geometry) that
- * replaced raster originals in chapters 2–9, the fluids figures of chapters 11
+ * replaced raster originals in chapters 2–10, the fluids figures of chapters 11
  * and 12, the oscillation and wave figures
  * of chapter 16, the sound and hearing figures of chapter 17, the
  * electrostatics figures of
@@ -31,6 +31,8 @@ import projectileToSatellite from './figures/projectile-to-satellite.js';
 import ch04to07 from './figures/ch04to07.js';
 import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
+import ch10 from './figures/ch10.js';
+import mechanicsLineArt from './figures/mechanics-line-art.js';
 import ch11to12 from './figures/ch11to12.js';
 import ch16 from './figures/ch16.js';
 import ch17 from './figures/ch17.js';
@@ -56,6 +58,8 @@ const figures = {
   ...ch04to07,
   ...ch08,
   ...ch09,
+  ...ch10,
+  ...mechanicsLineArt,
   ...ch11to12,
   ...ch16,
   ...ch17,

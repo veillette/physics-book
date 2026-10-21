@@ -41,7 +41,7 @@ where $$ r $$ is the radius of curvature, also seen in [Figure 1](#Figure1).
 According to the sign convention, the counterclockwise direction is considered
 as positive direction and clockwise direction as negative
 
-![The given figure shows counterclockwise circular motion with a horizontal line, depicting radius r, drawn from the center of the circle to the right side on its circumference and another line is drawn in such a manner that it makes an acute angle delta theta with the horizontal line. Tangential velocity vectors are indicated at the end of the two lines. At the bottom right side of the figure, the formula for angular velocity is given as v upon r.](../resources/Figure_10_01_01.jpg 'This figure shows uniform circular motion and some of its defined quantities.')
+![The given figure shows counterclockwise circular motion with a horizontal line, depicting radius r, drawn from the center of the circle to the right side on its circumference and another line is drawn in such a manner that it makes an acute angle delta theta with the horizontal line. Tangential velocity vectors are indicated at the end of the two lines. At the bottom right side of the figure, the formula for angular velocity is given as v upon r.](/resources/Figure_10_01_01.svg 'This figure shows uniform circular motion and some of its defined quantities.')
 {: #Figure1}
 
 Angular velocity is not constant when a skater pulls in her arms, when a child
@@ -148,7 +148,7 @@ acceleration are related. In circular motion, the component of linear accelerati
 to the circle changes the speed, as seen in [Figure 2](#Figure2). This component
 is called **tangential acceleration** $$ a_{\text{t}} $$.
 
-![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_10_01_02.jpg 'The tangential component of linear acceleration \( a_t \) changes the speed of an object in circular motion. It is tangent to the circle.')
+![A point moves counterclockwise on a circular path of radius r. Green velocity v and orange tangential acceleration a sub t point along the tangent, perpendicular to the radius. Tangential acceleration changes the speed.](/resources/Figure_10_01_02.svg 'The tangential component of linear acceleration \( a_t \) changes the speed of an object in circular motion. It is tangent to the circle.')
 {: #Figure2 height="200"}
 
 Tangential acceleration refers to changes in the magnitude of velocity
@@ -161,7 +161,7 @@ in [Figure 3](#Figure3). Thus, $$ a_{\text{t}} $$ and $$ a_{\text{c}} $$ are
 perpendicular components of the total linear acceleration. Tangential acceleration $$ a_{\text{t}} $$ is directly related to the angular acceleration $$ \alpha $$ and
 is linked to an increase or decrease in the velocity, but not its direction.
 
-![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a sub t is shown as a yellow arrow in the same direction along v. The centripetal acceleration, a sub c, is also shown as a yellow arrow drawn perpendicular to a sub t, toward the direction of the center of the circle. A label in the figures states a sub t affects magnitude and a sub c affects direction.](../resources/Figure_10_01_03.jpg 'Centripetal acceleration \( a_c \) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.')
+![At a point on a circular path, green velocity v is tangential. Orange tangential acceleration a sub t changes speed, while purple centripetal acceleration a sub c points toward the center and changes direction. The acceleration components are perpendicular.](/resources/Figure_10_01_03.svg 'Centripetal acceleration \( a_c \) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.')
 {: #Figure3 height="200"}
 
 Now we can find the relationship between tangential acceleration $$ a_{\text{t}} $$ and angular acceleration $$ \alpha $$. As in [One-Dimensional Kinematics](./ch2Kinematics), we find this component

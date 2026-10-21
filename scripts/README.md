@@ -546,10 +546,13 @@ npm run generate:fbd -- 05_01 # only names containing "05_01"
 
 ### generate-figures.js
 
-Generates the line-art figures (graphs, vector diagrams, geometry) in chapters
-2–7 that replaced raster originals. Each figure is a function in
-`scripts/figures/ch02.js`, `ch03.js`, or `ch04to07.js`, keyed by its file name,
-and is written to `resources/Figure_CC_SS_NN.svg`. The drawing helpers live in
+Generates the line-art figures (graphs, vector diagrams, geometry) that replaced
+raster originals throughout the book. Each figure is a function in the chapter
+modules under `scripts/figures/`, keyed by its file name, and is written to
+`resources/Figure_CC_SS_NN.svg`. `mechanics-line-art.js` supplies the free-fall,
+relative-velocity, elasticity, and stability diagrams in chapters 2–9; `ch10.js`
+supplies circular-motion vectors and the rotational-inertia reference chart.
+The drawing helpers live in
 `scripts/figures/svg.js`: `Svg` (primitives, arrows, labels), `Frame` (math
 coordinates for vector diagrams), and `Plot` (data graphs with ticks).
 

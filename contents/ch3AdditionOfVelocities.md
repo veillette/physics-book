@@ -23,10 +23,10 @@ is pointed, as illustrated in [Figure 2](#Figure2). The plane is moving straight
 ahead relative to the air, but the movement of the air mass relative to the
 ground carries it sideways.
 
-![A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.](../resources/Figure_03_05_01.jpg 'A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.')
+![A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.](/resources/Figure_03_05_01.svg 'A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.')
 {: #Figure1}
 
-![An airplane is trying to fly straight north with velocity v sub p. Due to wind velocity v sub w in south west direction making an angle theta with the horizontal axis, the plane’s total velocity is thirty eight point 0 meters per seconds oriented twenty degrees west of north.](../resources/Figure_03_05_02.jpg 'An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).')
+![A northbound airplane drifts west. Its northward air velocity v sub p plus the southwest wind velocity v sub w gives its ground velocity v sub total, directed twenty degrees west of north. The vectors form a head-to-tail triangle.](/resources/Figure_03_05_02.svg 'An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).')
 {: #Figure2}
 
 In each of these situations, an object has a **velocity**
@@ -96,7 +96,7 @@ Fill a bathtub half-full of water. Take a toy boat or some other object that flo
 Adding Velocities: A Boat on a River
 </div>
 
-![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](../resources/Figure_03_05_09.jpg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #Figure4}
+![A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.](/resources/Figure_03_05_09.svg "A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?"){: #Figure4}
 
 Refer to [Figure 4](#Figure4), which shows a boat trying to go straight across the
 river. Let us calculate the magnitude and direction of the boat’s velocity
@@ -178,7 +178,7 @@ Calculating Velocity: Wind Velocity Causes an Airplane to Drift
 Calculate the wind velocity for the situation shown in [Figure 5](#Figure5). The plane is known to be moving at 45.0 m/s due north relative to the air mass, while its velocity relative to the
 ground (its total velocity) is 38.0 m/s in a direction $$20.0^\circ $$ west of north.
 
-![An airplane is trying to fly north with velocity v p equal to forty five meters per second at angle of one hundred and ten degrees but due to wind velocity v w in south west direction making an angle theta with the horizontal axis it reaches a position in north west direction with resultant velocity v total equal to thirty eight meters per second and the direction is twenty degrees west of north.](../resources/Figure_03_05_04.jpg 'An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?')
+![An airplane flies due north at 45.0 meters per second relative to the air. Its ground velocity is 38.0 meters per second at twenty degrees west of north, or 110 degrees counterclockwise from east. A southwest wind vector joins the tip of the air-velocity vector to the tip of the ground-velocity vector.](/resources/Figure_03_05_04.svg 'An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?')
 {: #Figure5}
 
 **Strategy**

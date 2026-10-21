@@ -83,7 +83,7 @@ lengths when the force is removed, provided the deformation is small. Most
 materials will behave in this manner if the deformation is less than about 0.1%
 or about 1 part in $$ 10^{3} $$.
 
-![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02.jpg 'The same force, in this case a weight \( ( w ) \), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.')
+![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](/resources/Figure_05_03_02.svg 'The same force, in this case a weight \( ( w ) \), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.')
 {: #Figure2}
 
 :::: note {"class":"note","data-label":""}
@@ -111,7 +111,7 @@ or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
 See [Figure 3](#Figure3).)
 
-![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_05_03_03.jpg '(a) Tension. The rod is stretched a length \( \Delta L \) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.')
+![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](/resources/Figure_05_03_03.svg '(a) Tension. The rod is stretched a length \( \Delta L \) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.')
 {: #Figure3}
 
 Experiments have shown that the change in length ( $$ \Delta L $$)
@@ -509,7 +509,7 @@ atoms and molecules closer together. To compress liquids and solids, you must
 actually compress their atoms and molecules, and very strong electromagnetic
 forces in them oppose this compression.
 
-![A cube with area of cross section A and volume V zero is compressed by an inward force F acting on all surfaces. The compression causes a change in volume delta V, which is proportional to the force per unit area and its original volume. This change in volume is related to the compressibility of the substance.](../resources/Figure_05_03_09.jpg "An inward force on all surfaces compresses this cube. Its change in volume is proportional to the force per unit area and its original volume, and is related to the compressibility of the substance.")
+![A cube with area of cross section A and volume V zero is compressed by an inward force F acting on all surfaces. The compression causes a change in volume delta V, which is proportional to the force per unit area and its original volume. This change in volume is related to the compressibility of the substance.](/resources/Figure_05_03_09.svg "An inward force on all surfaces compresses this cube. Its change in volume is proportional to the force per unit area and its original volume, and is related to the compressibility of the substance.")
 {: #Figure8}
 
 We can describe the compression or volume deformation of an object with an

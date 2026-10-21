@@ -68,7 +68,7 @@ algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
  $$ \text{net}W=I \alpha \theta . $$
 </div>
 
-![The figure shows a circular disc of radius r. A net force F is applied perpendicular to the radius, rotating the disc in an anti-clockwise direction and producing a displacement equal to delta S, in a direction parallel to the direction of the force applied. The angle covered is theta.](../resources/Figure_10_04_02.jpg "The net force on this disk is kept perpendicular to its radius as the force causes the disk to rotate. The net work done is thus \( \text{net} F \cdot \Delta s \). The net work goes into rotational kinetic energy.")
+![The figure shows a circular disc of radius r. A net force F is applied perpendicular to the radius, rotating the disc in an anti-clockwise direction and producing a displacement equal to delta S, in a direction parallel to the direction of the force applied. The angle covered is theta.](/resources/Figure_10_04_02.svg "The net force on this disk is kept perpendicular to its radius as the force causes the disk to rotate. The net work done is thus \( \text{net} F \cdot \Delta s \). The net work goes into rotational kinetic energy.")
 {: #Figure2}
 
 :::: note {"class":"note","data-label":""}

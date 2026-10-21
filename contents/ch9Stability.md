@@ -37,7 +37,7 @@ especially for small displacements. For another example of stable equilibrium,
 see the pencil in [Figure 2](#Figure2)
 .
 
-![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](../resources/Figure_09_03_02.jpg 'This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ')
+![A pencil is balanced vertically on its flat end. The weight W of the pencil is acting at its center of gravity downward. The normal reaction N of the surface is shown as an arrow upward. A free body diagram is shown at right of the pencil. The midpoint of the flat base of the pencil is marked as pivot point.](/resources/Figure_09_03_02.svg 'This pencil is in the condition of equilibrium. The net force on the pencil is zero and the total torque about any pivot is zero. ')
 {: #Figure2}
 
 A system is in **unstable equilibrium** if, when displaced, it experiences a net
@@ -48,16 +48,16 @@ Once displaced, it accelerates away from the crest. The next several figures
 compare a pencil standing on its flat end, which is stable for small
 displacements, with a pencil balanced on its point, which is unstable.
 
-![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_03.jpg 'If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.')
+![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](/resources/Figure_09_03_03.svg 'If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.')
 {: #Figure3}
 
-![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](../resources/Figure_09_03_04.jpg 'If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.')
+![A pencil is tilted toward left so that the line of action of its weight is toward left of the pivot point which is the left end of the flat end of the pencil.](/resources/Figure_09_03_04.svg 'If the pencil is displaced too far, the torque caused by its weight changes direction to counterclockwise and causes the displacement to increase.')
 {: #Figure4}
 
-![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](../resources/Figure_09_03_05.jpg 'This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.')
+![A vertical pencil balanced at its sharp end is shown. The weight of the pencil is acting at its center of gravity and is in the line with the normal reaction N at the pivot point of the pencil.](/resources/Figure_09_03_05.svg 'This figure shows unstable equilibrium, although both conditions for equilibrium are satisfied.')
 {: #Figure5}
 
-![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](../resources/Figure_09_03_06.jpg 'If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.')
+![A vertical pencil tilted toward left is shown. The sharp end of the pencil is down and labeled as pivot point. The weight of the pencil is acting at its center of gravity and the line of action of the weight is toward left of the pivot point.](/resources/Figure_09_03_06.svg 'If the pencil is displaced even slightly, a torque is created by its weight that is in the same direction as the displacement, causing the displacement to increase.')
 {: #Figure6}
 
 A system is in **neutral equilibrium** if its equilibrium is independent of
@@ -67,7 +67,7 @@ marble on a saddle is stable for displacements toward the front or back of the
 saddle and unstable for displacements to the side. [Figure 7](#Figure7) shows
 another example of neutral equilibrium.
 
-![In figure a, a ball is lying on a flat surface and the point of contact with the surface is labeled pivot point. The weight of the ball is acting at the center of gravity of the ball. The normal force N is in the same line as the weight of the ball. The torque on the ball is zero. In figure b, a side view of a pencil lying flat on a table is shown. The sharp end of the pencil is toward right. The weight of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the table surface is in the same line of action as the weight but in the upward direction.](../resources/Figure_09_03_07.jpg '(a) Here we see neutral equilibrium. The cg of a sphere on a flat surface lies directly above the point of support, independent of the position on the surface. The sphere is therefore in equilibrium in any location, and if displaced, it will remain put. (b) Because it has a circular cross section, the pencil is in neutral equilibrium for displacements perpendicular to its length.')
+![In figure a, a ball is lying on a flat surface and the point of contact with the surface is labeled pivot point. The weight of the ball is acting at the center of gravity of the ball. The normal force N is in the same line as the weight of the ball. The torque on the ball is zero. In figure b, a side view of a pencil lying flat on a table is shown. The sharp end of the pencil is toward right. The weight of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the table surface is in the same line of action as the weight but in the upward direction.](/resources/Figure_09_03_07.svg '(a) Here we see neutral equilibrium. The cg of a sphere on a flat surface lies directly above the point of support, independent of the position on the surface. The sphere is therefore in equilibrium in any location, and if displaced, it will remain put. (b) Because it has a circular cross section, the pencil is in neutral equilibrium for displacements perpendicular to its length.')
 {: #Figure7}
 
 When we consider how far a system in stable equilibrium can be displaced before

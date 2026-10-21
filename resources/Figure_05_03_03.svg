@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="560" viewBox="0 0 850 560" role="img" aria-labelledby="title desc">
+<title id="title">Tension and compression of a rod</title>
+<desc id="desc">Two equal opposing axial forces stretch a rod in tension and shorten an identical rod in compression. Dotted outlines show the original top at length L₀. The change ΔL has equal magnitude for small elastic deformations under the same force magnitude.</desc>
+<rect width="850" height="560" fill="#ffffff"/>
+<ellipse cx="235" cy="175" rx="45" ry="13" fill="none" stroke="#777777" stroke-width="1.3"/>
+<line x1="190" y1="175" x2="190" y2="140" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="280" y1="175" x2="280" y2="140" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5"/>
+<rect x="190" y="140" width="90" height="260" fill="#d0e3f2" stroke="#547fa3" stroke-width="1.5"/>
+<path d="M 190 400 A 45 13 0 0 0 280 400" fill="#d0e3f2" stroke="#547fa3" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="235" cy="140" rx="45" ry="13" fill="#e8f2fa" stroke="#547fa3" stroke-width="2"/>
+<path d="M 190 175 A 45 13 0 1 1 280 175" fill="none" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<g id="tension-forces">
+<line x1="235" y1="140" x2="235" y2="63.8" stroke="#d52350" stroke-width="4"/>
+<polygon points="235,50 240.92,64.8 229.08,64.8" fill="#d52350"/>
+<line x1="235" y1="400" x2="235" y2="476.2" stroke="#d52350" stroke-width="4"/>
+<polygon points="235,490 229.08,475.2 240.92,475.2" fill="#d52350"/>
+</g>
+<text x="259" y="90.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="259" y="466.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="129" y1="175" x2="151" y2="175" stroke="#222222" stroke-width="1.5"/>
+<line x1="129" y1="400" x2="151" y2="400" stroke="#222222" stroke-width="1.5"/>
+<line x1="140" y1="187" x2="140" y2="388" stroke="#222222" stroke-width="1.5"/>
+<polygon points="140,399 135.2,387 144.8,387" fill="#222222"/>
+<polygon points="140,176 144.8,188 135.2,188" fill="#222222"/>
+<text x="140" y="295.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="319" y1="140" x2="341" y2="140" stroke="#222222" stroke-width="1.5"/>
+<line x1="319" y1="175" x2="341" y2="175" stroke="#222222" stroke-width="1.5"/>
+<line x1="330" y1="152" x2="330" y2="163" stroke="#222222" stroke-width="1.5"/>
+<polygon points="330,174 325.2,162 334.8,162" fill="#222222"/>
+<polygon points="330,141 334.8,153 325.2,153" fill="#222222"/>
+<text x="330" y="164.85" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">L</tspan></text>
+<text x="235" y="543.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Tension</tspan></text>
+<ellipse cx="630" cy="175" rx="45" ry="13" fill="none" stroke="#777777" stroke-width="1.3"/>
+<line x1="585" y1="175" x2="585" y2="210" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="675" y1="175" x2="675" y2="210" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5"/>
+<rect x="585" y="210" width="90" height="190" fill="#d0e3f2" stroke="#547fa3" stroke-width="1.5"/>
+<path d="M 585 400 A 45 13 0 0 0 675 400" fill="#d0e3f2" stroke="#547fa3" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="630" cy="210" rx="45" ry="13" fill="#e8f2fa" stroke="#547fa3" stroke-width="2"/>
+<path d="M 585 175 A 45 13 0 1 1 675 175" fill="none" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<g id="compression-forces">
+<line x1="630" y1="120" x2="630" y2="196.2" stroke="#d52350" stroke-width="4"/>
+<polygon points="630,210 624.08,195.2 635.92,195.2" fill="#d52350"/>
+<line x1="630" y1="490" x2="630" y2="413.8" stroke="#d52350" stroke-width="4"/>
+<polygon points="630,400 635.92,414.8 624.08,414.8" fill="#d52350"/>
+</g>
+<text x="654" y="160.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="654" y="466.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="524" y1="175" x2="546" y2="175" stroke="#222222" stroke-width="1.5"/>
+<line x1="524" y1="400" x2="546" y2="400" stroke="#222222" stroke-width="1.5"/>
+<line x1="535" y1="187" x2="535" y2="388" stroke="#222222" stroke-width="1.5"/>
+<polygon points="535,399 530.2,387 539.8,387" fill="#222222"/>
+<polygon points="535,176 539.8,188 530.2,188" fill="#222222"/>
+<text x="535" y="295.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="714" y1="175" x2="736" y2="175" stroke="#222222" stroke-width="1.5"/>
+<line x1="714" y1="210" x2="736" y2="210" stroke="#222222" stroke-width="1.5"/>
+<line x1="725" y1="187" x2="725" y2="198" stroke="#222222" stroke-width="1.5"/>
+<polygon points="725,209 720.2,197 729.8,197" fill="#222222"/>
+<polygon points="725,176 729.8,188 720.2,188" fill="#222222"/>
+<text x="725" y="199.85" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">L</tspan></text>
+<text x="630" y="543.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Compression</tspan></text>
+</svg>
