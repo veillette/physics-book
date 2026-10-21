@@ -19,6 +19,6 @@
 <line x1="430" y1="120" x2="430" y2="132" stroke="#222222" stroke-width="2"/>
 <line x1="430" y1="168" x2="430" y2="180" stroke="#222222" stroke-width="2"/>
 <circle cx="430" cy="150" r="18" fill="#ffffff" stroke="#222222" stroke-width="2"/>
-<text x="430" y="156.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
+<text x="430" y="156.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
 <text x="456" y="155.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">V</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 1.00 </tspan><tspan font-style="italic">M</tspan><tspan font-style="normal">Ω</tspan></text>
 </svg>

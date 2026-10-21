@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+<title id="title">Effect of ammeter resistance on the circuit</title>
+<desc id="desc">(a) Desired: an ammeter in series with R, where the ammeter resistance is much smaller than R, so the total is approximately R. (b) To be avoided: an ammeter whose resistance equals R, so the total R + R equals 2R.</desc>
+<rect width="760" height="320" fill="#ffffff"/>
+<polyline points="70,30 70,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="70" y1="63" x2="70" y2="117" stroke="#ffffff" stroke-width="7"/>
+<line x1="70" y1="55" x2="70" y2="63" stroke="#222222" stroke-width="2"/>
+<line x1="70" y1="117" x2="70" y2="125" stroke="#222222" stroke-width="2"/>
+<polyline points="70,63 59,67.5 81,76.5 59,85.5 81,94.5 59,103.5 81,112.5 70,117" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="86" y="97.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<line x1="70" y1="173" x2="70" y2="217" stroke="#ffffff" stroke-width="7"/>
+<line x1="70" y1="170" x2="70" y2="173" stroke="#222222" stroke-width="2"/>
+<line x1="70" y1="217" x2="70" y2="220" stroke="#222222" stroke-width="2"/>
+<circle cx="70" cy="195" r="22" fill="#c9cfe6" stroke="#222222" stroke-width="2"/>
+<text x="70" y="201.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="140" y="154.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">≈</tspan></text>
+<polyline points="190,30 190,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="190" y1="118" x2="190" y2="172" stroke="#ffffff" stroke-width="7"/>
+<line x1="190" y1="110" x2="190" y2="118" stroke="#222222" stroke-width="2"/>
+<line x1="190" y1="172" x2="190" y2="180" stroke="#222222" stroke-width="2"/>
+<polyline points="190,118 179,122.5 201,131.5 179,140.5 201,149.5 179,158.5 201,167.5 190,172" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="206" y="152.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="130" y="291.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Desired</tspan></text>
+<text x="130" y="313.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="270" y1="20" x2="270" y2="310" stroke="#cccccc" stroke-width="1"/>
+<polyline points="350,30 350,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="350" y1="63" x2="350" y2="117" stroke="#ffffff" stroke-width="7"/>
+<line x1="350" y1="55" x2="350" y2="63" stroke="#222222" stroke-width="2"/>
+<line x1="350" y1="117" x2="350" y2="125" stroke="#222222" stroke-width="2"/>
+<polyline points="350,63 339,67.5 361,76.5 339,85.5 361,94.5 339,103.5 361,112.5 350,117" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="366" y="97.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<line x1="350" y1="173" x2="350" y2="217" stroke="#ffffff" stroke-width="7"/>
+<line x1="350" y1="170" x2="350" y2="173" stroke="#222222" stroke-width="2"/>
+<line x1="350" y1="217" x2="350" y2="220" stroke="#222222" stroke-width="2"/>
+<circle cx="350" cy="195" r="22" fill="#c9cfe6" stroke="#222222" stroke-width="2"/>
+<text x="350" y="201.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="420" y="154.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<polyline points="470,30 470,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="470" y1="63" x2="470" y2="117" stroke="#ffffff" stroke-width="7"/>
+<line x1="470" y1="55" x2="470" y2="63" stroke="#222222" stroke-width="2"/>
+<line x1="470" y1="117" x2="470" y2="125" stroke="#222222" stroke-width="2"/>
+<polyline points="470,63 459,67.5 481,76.5 459,85.5 481,94.5 459,103.5 481,112.5 470,117" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="486" y="97.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<line x1="470" y1="168" x2="470" y2="222" stroke="#ffffff" stroke-width="7"/>
+<line x1="470" y1="160" x2="470" y2="168" stroke="#222222" stroke-width="2"/>
+<line x1="470" y1="222" x2="470" y2="230" stroke="#222222" stroke-width="2"/>
+<polyline points="470,168 459,172.5 481,181.5 459,190.5 481,199.5 459,208.5 481,217.5 470,222" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="486" y="202.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="540" y="154.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<polyline points="590,30 590,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="590" y1="118" x2="590" y2="172" stroke="#ffffff" stroke-width="7"/>
+<line x1="590" y1="110" x2="590" y2="118" stroke="#222222" stroke-width="2"/>
+<line x1="590" y1="172" x2="590" y2="180" stroke="#222222" stroke-width="2"/>
+<polyline points="590,118 579,122.5 601,131.5 579,140.5 601,149.5 579,158.5 601,167.5 590,172" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="606" y="152.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan><tspan font-style="italic">R</tspan></text>
+<text x="470" y="291.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">To</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">be</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">avoided</tspan></text>
+<text x="470" y="313.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

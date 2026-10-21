@@ -37,7 +37,7 @@ represented by the symbol A.)
 ![Part a shows a schematic drawing of a circuit with a voltage source and its internal resistance, in series with two load resistors R sub one and R sub two having two probes of a voltmeter connected in parallel with each component. There is another resistor in series to close the circuit. Part b shows a photograph of a black voltmeter connected to two inputs on an electrical device, with a digital readout of the voltage across the source as an L E D display.](../resources/Figure_21_04_02.jpg '(a) To measure potential differences in this series circuit, the voltmeter (V) is placed in parallel with the voltage source or either of the resistors. Note that terminal voltage is measured between points a and b. It is not possible to connect the voltmeter directly across the emf without including its internal resistance, r. (b) A digital voltmeter in use. (credit: Messtechniker, Wikimedia Commons)')
 {: #Figure2}
 
-![The diagram of an electric circuit shows a voltage source of e m f script E and internal resistance r and two resistive loads R sub one and R sub two. All are connected in series with an ammeter A.](../resources/Figure_21_04_03.jpg 'An ammeter (A) is placed in series to measure current. All of the current in this circuit flows through the meter. The ammeter would have the same reading if located between points d and e or between points f and a as it does in the position shown. (Note that the script capital E stands for emf, and r  stands for the internal resistance of the source of potential difference.)')
+![A single loop with an ammeter A on the left side, R1 between points c and d and R2 between points e and f on the top, and on the bottom a source of emf between points b and a followed by its internal resistance r. All the current flows through the ammeter.](../resources/Figure_21_04_03.svg 'An ammeter (A) is placed in series to measure current. All of the current in this circuit flows through the meter. The ammeter would have the same reading if located between points d and e or between points f and a as it does in the position shown.')
 {: #Figure3}
 
 ### Analog Meters: Galvanometers
@@ -89,7 +89,7 @@ For other voltage ranges, other resistances are placed in series with the
 galvanometer. Many meters have a choice of scales. That choice involves
 switching an appropriate resistance into series with the galvanometer.
 
-![The drawing shows a voltmeter, which is a circuit with a large resistance in series with a galvanometer, along with its internal resistance.](../resources/Figure_21_04_04.jpg 'A large resistance R placed in series with a galvanometer G produces a voltmeter, the full-scale deflection of which depends on the choice of ( R ) . The larger the voltage to be measured, the larger ( R ) must be. (Note that r  represents the internal resistance of the galvanometer.)')
+![A voltmeter V is equivalent to a large resistance R in series with a galvanometer G whose internal resistance is r.](../resources/Figure_21_04_04.svg 'A large resistance R placed in series with a galvanometer G produces a voltmeter, the full-scale deflection of which depends on the choice of ( R ) . The larger the voltage to be measured, the larger ( R ) must be. (Note that r  represents the internal resistance of the galvanometer.)')
 {: #Figure4}
 
 #### Galvanometer as Ammeter
@@ -111,7 +111,7 @@ These $$IR $$ drops are $$IR={I}_{\text{G}}r $$ so that $$IR=\frac{ {I}_{\text{G
 $$R=r\frac{ {I}_{\text{G}}}{I}=\left(25 \Omega \right)\frac{50 \text{μA}}{0.999950 \text{A}}= 1.25 \times 10^{-3} \Omega . $$
 </div>
 
-![A resistance R is placed in parallel with a galvanometer G having an internal resistance r to produce an ammeter.](../resources/Figure_21_04_05.jpg 'A small shunt resistance ( R ) placed in parallel with a galvanometer G produces an ammeter, the full-scale deflection of which depends on the choice of ( R ) . The larger the current to be measured, the smaller ( R ) must be. Most of the current (I) flowing through the meter is shunted through ( R ) to protect the galvanometer.  (Note that r  represents the internal resistance of the galvanometer.) Ammeters may also have multiple scales for greater flexibility in application. The various scales are achieved by switching various shunt resistances in parallel with the galvanometer—the greater the maximum current to be measured, the smaller the shunt resistance must be.')
+![Current I_tot enters on the left and divides. A small current I_G passes through the galvanometer G and its internal resistance r on the upper branch; most of the current, I, passes through the small shunt resistance R on the lower branch. The currents rejoin as I_tot on the right.](../resources/Figure_21_04_05.svg 'A small shunt resistance ( R ) placed in parallel with a galvanometer G produces an ammeter, the full-scale deflection of which depends on the choice of ( R ) . The larger the current to be measured, the smaller ( R ) must be. Most of the current (I) flowing through the meter is shunted through ( R ) to protect the galvanometer.  (Note that r  represents the internal resistance of the galvanometer.) Ammeters may also have multiple scales for greater flexibility in application. The various scales are achieved by switching various shunt resistances in parallel with the galvanometer—the greater the maximum current to be measured, the smaller the shunt resistance must be.')
 {: #Figure5}
 
 ### Taking Measurements Alters the Circuit
@@ -132,7 +132,7 @@ resistance, appreciably affecting the circuit. (See [[Figure 6]](#Figure6)(b).)
 The voltage across the device is not the same as when the voltmeter is out of
 the circuit.
 
-![Part a shows a desired case in which the resistance of a voltmeter connected in parallel with a load resistor is essentially equivalent to the resistance of the load resistor along as long as the voltmeter’s resistance is much greater than that of the load resistor. Part b shows the case when the voltmeter’s resistance is approximately the same as that of the load resistor. This case should be avoided because the effective resistance is half that of the load resistor.](../resources/Figure_21_04_06.jpg '(a) A voltmeter having a resistance much larger than the device \(R_{\text{Voltmeter}} \gg R\) with which it is in parallel produces a parallel resistance essentially the same as the device and does not appreciably affect the circuit being measured. (b) Here the voltmeter has the same resistance as the device \(R_{\text{Voltmeter}} \approx R\), so that the parallel resistance is half of what it is when the voltmeter is not connected. This is an example of a significant alteration of the circuit and is to be avoided.')
+![(a) Desired: a voltmeter in parallel with R, where the voltmeter resistance is much larger than R, so the combination is approximately R. (b) To be avoided: a voltmeter whose resistance equals R, so the combination R in parallel with R equals R/2.](../resources/Figure_21_04_06.svg '(a) A voltmeter having a resistance much larger than the device \(R_{\text{Voltmeter}} \gg R\) with which it is in parallel produces a parallel resistance essentially the same as the device and does not appreciably affect the circuit being measured. (b) Here the voltmeter has the same resistance as the device \(R_{\text{Voltmeter}} \approx R\), so that the parallel resistance is half of what it is when the voltmeter is not connected. This is an example of a significant alteration of the circuit and is to be avoided.')
 {: #Figure6}
 
 An ammeter is placed in series in the branch of the circuit being measured, so
@@ -150,7 +150,7 @@ possibly damage the meter; the low resistance of the ammeter would allow most of
 the current in the circuit to go through the galvanometer, and this current
 would be larger since the effective resistance is smaller.
 
-![The figure shows two cases in which an ammeter is connected in series with a load resistor. Part a shows the desired case in which the resistance of the ammeter is much smaller than that of the load, and the total resistance is about the same as the load resistance. Part b shows the case to be avoided in which the ammeter has a resistance about the same as the load, and the total resistance is twice that of the load resistance.](../resources/Figure_21_04_07.jpg '(a) An ammeter normally has such a small resistance that the total series resistance in the branch being measured is not appreciably increased. The circuit is essentially unaltered compared with when the ammeter is absent. (b) Here the ammeter’s resistance is the same as that of the branch, so that the total resistance is doubled and the current is half what it is without the ammeter. This significant alteration of the circuit is to be avoided.')
+![(a) Desired: an ammeter in series with R, where the ammeter resistance is much smaller than R, so the total is approximately R. (b) To be avoided: an ammeter whose resistance equals R, so the total R + R equals 2R.](../resources/Figure_21_04_07.svg '(a) An ammeter normally has such a small resistance that the total series resistance in the branch being measured is not appreciably increased. The circuit is essentially unaltered compared with when the ammeter is absent. (b) Here the ammeter’s resistance is the same as that of the branch, so that the total resistance is doubled and the current is half what it is without the ammeter. This significant alteration of the circuit is to be avoided.')
 {: #Figure7}
 
 One solution to the problem of voltmeters and ammeters interfering with the
@@ -229,9 +229,9 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 
 ::: problem
 
-Why should you not connect an ammeter directly across a voltage source as shown in [[Figure 8]](#Figure8)? (Note that script E in the figure stands for emf.)
+Why should you not connect an ammeter directly across a voltage source as shown in [[Figure 8]](#Figure8)?
 
-![A circuit shows a connection of a cell of e m f script E and internal resistance r. Each terminal of the cell is connected to opposite ends of the ammeter. The circuit is closed.](../resources/Figure_21_04_08.jpg ' ')
+![A source of emf with internal resistance r on the left, connected directly to an ammeter A on the right with nothing else in the circuit. Labeled "Do not do this!"](../resources/Figure_21_04_08.svg ' ')
 {: #Figure8}
 
 :::
@@ -308,7 +308,7 @@ Specify the points to which you could connect a voltmeter to measure the followi
  and  $${R}_{3} $$ .
  Note that there may be more than one answer to each part.
 
-![This figure shows a circuit having a cell of e m f script E and internal resistance r connected in parallel to two arms, one arm containing resistor R sub one and a second arm containing a series of resistors R sub two and R sub three.](../resources/Figure_21_04_09.jpg ' ')
+![Top points a, b and c and bottom points h, g and f. The left branch from h to a has emf = 90 V with internal resistance r = 0.25 ohm. The middle branch from b to g has R1 = 3.0 ohms between points i and j. The right branch from c to f has R2 = 6.0 ohms, points d and e, then R3 = 1.5 ohms.](../resources/Figure_21_04_09.svg ' ')
 {: #Figure9}
 
 :::
@@ -623,7 +623,7 @@ Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an in
  by placing a  $$ 1.00\text{-k}\Omega  $$
  voltmeter across its terminals. (See [[Figure 10]](#Figure10).) (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.
 
-![The figure shows a circuit diagram that includes a battery with an internal resistance r and a voltmeter connected across its terminals. The current I is shown by an arrow pointing in a clockwise direction.](../resources/Figure_21_04_10.jpg ' ')
+![A source of emf with internal resistance r, with a voltmeter V connected across its terminals. Current I flows clockwise around the loop.](../resources/Figure_21_04_10.svg ' ')
 {: #Figure10}
 
 :::
@@ -778,7 +778,7 @@ A  $$0.0200\text{-Ω} $$
 
 (a)
 
-![The figure shows part of a circuit that includes an ammeter with internal resistance r connected in series with a load resistance R.](../resources/Figure_21_04_11.jpg ' ')
+![An ammeter A with internal resistance r in series with a load resistance R.](../resources/Figure_21_04_11.svg ' ')
 
 (b) $$ 10.02 \Omega $$
 (c) 0.9980, or a $$2.0 \times 10^{-1} $$ percent decrease

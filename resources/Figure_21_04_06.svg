@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-labelledby="title desc">
+<title id="title">Effect of voltmeter resistance on the circuit</title>
+<desc id="desc">(a) Desired: a voltmeter in parallel with R, where the voltmeter resistance is much larger than R, so the combination is approximately R. (b) To be avoided: a voltmeter whose resistance equals R, so the combination R in parallel with R equals R/2.</desc>
+<rect width="800" height="300" fill="#ffffff"/>
+<polyline points="80,30 80,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="40,70 120,70 120,210 40,210 40,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="80,210 80,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="40" y1="118" x2="40" y2="162" stroke="#ffffff" stroke-width="7"/>
+<line x1="40" y1="110" x2="40" y2="118" stroke="#222222" stroke-width="2"/>
+<line x1="40" y1="162" x2="40" y2="170" stroke="#222222" stroke-width="2"/>
+<circle cx="40" cy="140" r="22" fill="#d4e8c2" stroke="#222222" stroke-width="2"/>
+<text x="40" y="146.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
+<line x1="120" y1="113" x2="120" y2="167" stroke="#ffffff" stroke-width="7"/>
+<line x1="120" y1="105" x2="120" y2="113" stroke="#222222" stroke-width="2"/>
+<line x1="120" y1="167" x2="120" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="120,113 109,117.5 131,126.5 109,135.5 131,144.5 109,153.5 131,162.5 120,167" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="136" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="165" y="149.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">≈</tspan></text>
+<polyline points="200,30 200,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="200" y1="113" x2="200" y2="167" stroke="#ffffff" stroke-width="7"/>
+<line x1="200" y1="105" x2="200" y2="113" stroke="#222222" stroke-width="2"/>
+<line x1="200" y1="167" x2="200" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="200,113 189,117.5 211,126.5 189,135.5 211,144.5 189,153.5 211,162.5 200,167" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="216" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="110" y="277.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Desired</tspan></text>
+<text x="110" y="297.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="290" y1="20" x2="290" y2="290" stroke="#cccccc" stroke-width="1"/>
+<polyline points="370,30 370,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="330,70 410,70 410,210 330,210 330,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="370,210 370,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="330" y1="118" x2="330" y2="162" stroke="#ffffff" stroke-width="7"/>
+<line x1="330" y1="110" x2="330" y2="118" stroke="#222222" stroke-width="2"/>
+<line x1="330" y1="162" x2="330" y2="170" stroke="#222222" stroke-width="2"/>
+<circle cx="330" cy="140" r="22" fill="#d4e8c2" stroke="#222222" stroke-width="2"/>
+<text x="330" y="146.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">V</tspan></text>
+<line x1="410" y1="113" x2="410" y2="167" stroke="#ffffff" stroke-width="7"/>
+<line x1="410" y1="105" x2="410" y2="113" stroke="#222222" stroke-width="2"/>
+<line x1="410" y1="167" x2="410" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="410,113 399,117.5 421,126.5 399,135.5 421,144.5 399,153.5 421,162.5 410,167" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="426" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="455" y="149.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<polyline points="520,30 520,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="480,70 560,70 560,210 480,210 480,70" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="520,210 520,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="480" y1="113" x2="480" y2="167" stroke="#ffffff" stroke-width="7"/>
+<line x1="480" y1="105" x2="480" y2="113" stroke="#222222" stroke-width="2"/>
+<line x1="480" y1="167" x2="480" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="480,113 469,117.5 491,126.5 469,135.5 491,144.5 469,153.5 491,162.5 480,167" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="496" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<line x1="560" y1="113" x2="560" y2="167" stroke="#ffffff" stroke-width="7"/>
+<line x1="560" y1="105" x2="560" y2="113" stroke="#222222" stroke-width="2"/>
+<line x1="560" y1="167" x2="560" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="560,113 549,117.5 571,126.5 549,135.5 571,144.5 549,153.5 571,162.5 560,167" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="576" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="605" y="149.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<polyline points="640,30 640,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="640" y1="113" x2="640" y2="167" stroke="#ffffff" stroke-width="7"/>
+<line x1="640" y1="105" x2="640" y2="113" stroke="#222222" stroke-width="2"/>
+<line x1="640" y1="167" x2="640" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="640,113 629,117.5 651,126.5 629,135.5 651,144.5 629,153.5 651,162.5 640,167" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="656" y="147.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal">/2</tspan></text>
+<text x="520" y="277.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">To</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">be</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">avoided</tspan></text>
+<text x="520" y="297.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

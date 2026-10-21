@@ -8,9 +8,20 @@
  * & Exercises. Ray diagrams apply Snell's law and the law of reflection to the
  * drawn geometry, so the angles in each picture are the ones the answers use.
  */
+import {
+  WIRE,
+  bulb,
+  cell,
+  currentArrow,
+  dot,
+  meter,
+  resistor,
+  switchSymbol,
+  unit,
+  wire,
+} from './circuit.js';
 import { COLORS, Plot, Svg, fmt, rad } from './svg.js';
 
-const WIRE = COLORS.black;
 const CURRENT = COLORS.blue;
 const FORCE = COLORS.red;
 const FIELD = '#c2185b';
@@ -25,124 +36,6 @@ function caption(svg, x0, text, { y = 24 } = {}) {
 /** A thin rule between panels. */
 function divider(svg, x, height) {
   svg.line(x, 10, x, height - 10, { color: '#cccccc', width: 1 });
-}
-
-// ---------------------------------------------------------------------------
-// Circuit symbols. Each element is drawn centered on the straight segment from
-// P to Q, with lead wires filling the rest of the segment.
-
-function unit(P, Q) {
-  const len = Math.hypot(Q[0] - P[0], Q[1] - P[1]);
-  return [(Q[0] - P[0]) / len, (Q[1] - P[1]) / len, len];
-}
-
-/** Lead wires from P and Q to an element of length `size` centered between them. */
-function leads(svg, P, Q, size) {
-  const [ux, uy, len] = unit(P, Q);
-  const a = (len - size) / 2;
-  const A = [P[0] + ux * a, P[1] + uy * a];
-  const B = [Q[0] - ux * a, Q[1] - uy * a];
-  svg.line(...P, ...A, { color: WIRE, width: 2 });
-  svg.line(...B, ...Q, { color: WIRE, width: 2 });
-  return { A, B, ux, uy, nx: -uy, ny: ux };
-}
-
-function wire(svg, points) {
-  svg.polyline(points, { color: WIRE, width: 2 });
-}
-
-function resistor(svg, P, Q, { size = 50, color = WIRE } = {}) {
-  const { A, ux, uy, nx, ny } = leads(svg, P, Q, size);
-  const pts = [A];
-  const n = 6;
-  for (let k = 0; k < n; k += 1) {
-    const t = (k + 0.5) * (size / n);
-    const s = k % 2 === 0 ? 8 : -8;
-    pts.push([A[0] + ux * t + nx * s, A[1] + uy * t + ny * s]);
-  }
-  pts.push([A[0] + ux * size, A[1] + uy * size]);
-  svg.polyline(pts, { color, width: 2 });
-}
-
-/** Cell with its positive (long) plate toward Q. */
-function cell(svg, P, Q, { gap = 10, long = 34, short = 18 } = {}) {
-  const { A, B, nx, ny } = leads(svg, P, Q, gap);
-  svg.line(
-    A[0] - (nx * short) / 2,
-    A[1] - (ny * short) / 2,
-    A[0] + (nx * short) / 2,
-    A[1] + (ny * short) / 2,
-    {
-      color: COLORS.red,
-      width: 5,
-    }
-  );
-  svg.line(
-    B[0] - (nx * long) / 2,
-    B[1] - (ny * long) / 2,
-    B[0] + (nx * long) / 2,
-    B[1] + (ny * long) / 2,
-    {
-      color: COLORS.red,
-      width: 3,
-    }
-  );
-}
-
-function switchSymbol(svg, P, Q, { closed = false, size = 46 } = {}) {
-  const { A, B, ux, uy, nx, ny } = leads(svg, P, Q, size);
-  svg.circle(...A, 3.5, { fill: WIRE });
-  svg.circle(...B, 3.5, { fill: WIRE });
-  if (closed) svg.line(...A, ...B, { color: WIRE, width: 2.5 });
-  else
-    svg.line(...A, A[0] + ux * size * 0.9 + nx * 20, A[1] + uy * size * 0.9 + ny * 20, {
-      color: WIRE,
-      width: 2.5,
-    });
-}
-
-function bulb(svg, P, Q, { lit = true, r = 20 } = {}) {
-  const { A, B } = leads(svg, P, Q, 2 * r);
-  const C = [(A[0] + B[0]) / 2, (A[1] + B[1]) / 2];
-  svg.circle(...C, r, { fill: lit ? '#fff3b0' : '#e6e6e6', stroke: WIRE, width: 2 });
-  if (lit) {
-    for (let a = 0; a < 360; a += 45) {
-      const c = Math.cos(rad(a));
-      const s = Math.sin(rad(a));
-      svg.line(C[0] + c * (r + 5), C[1] - s * (r + 5), C[0] + c * (r + 13), C[1] - s * (r + 13), {
-        color: COLORS.orange,
-        width: 2,
-      });
-    }
-  }
-  svg.polyline(
-    [
-      A,
-      [C[0], C[1] - r * 0.55],
-      [C[0] + 6, C[1] - r * 0.25],
-      [C[0] - 6, C[1]],
-      [C[0] + 6, C[1] + r * 0.25],
-      [C[0], C[1] + r * 0.55],
-      B,
-    ],
-    { color: WIRE, width: 1.8 }
-  );
-}
-
-function meter(svg, P, Q, letter, { r = 18 } = {}) {
-  const { A, B } = leads(svg, P, Q, 2 * r);
-  const C = [(A[0] + B[0]) / 2, (A[1] + B[1]) / 2];
-  svg.circle(...C, r, { fill: '#ffffff', stroke: WIRE, width: 2 });
-  svg.text(C[0], C[1], letter, { size: 18, math: false, weight: 'bold' });
-}
-
-function dot(svg, x, y) {
-  svg.circle(x, y, 4, { fill: WIRE });
-}
-
-/** Short current arrow along a wire. */
-function currentArrow(svg, x1, y1, x2, y2, { color = CURRENT } = {}) {
-  svg.arrow(x1, y1, x2, y2, { color, width: 3, head: 12 });
 }
 
 // ---------------------------------------------------------------------------

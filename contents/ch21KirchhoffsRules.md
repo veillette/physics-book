@@ -19,7 +19,7 @@ simple or complex. These rules are special cases of the laws of conservation of
 charge and conservation of energy. The rules are known as **Kirchhoff’s rules**,
 after their inventor Gustav Kirchhoff (1824–1887).
 
-![A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.](../resources/Figure_21_03_01.jpg 'This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)')
+![Three branches between two junctions on the left and right. The top branch has emf1 with internal resistance r1, joined to the left junction through R2. The middle branch is the single resistor R1. The bottom branch has emf2 with internal resistance r2, joined to the right junction through R3.](../resources/Figure_21_03_01.svg 'This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it.')
 {: #Figure1}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -56,7 +56,7 @@ Kirchhoff’s rules for circuit analysis are applications of **conservation laws
 
 :::
 
-![This schematic drawing shows a T-junction, with one current I sub one flowing into the T and two currents I sub two and I sub three flowing out of the T junction.](../resources/Figure_21_03_02.jpg 'The junction rule. The diagram shows an example of Kirchhoff’s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that ( I_1=I_2+I_3 ). Here ( I_{1} ) must be 11 A, since ( I_{2} ) is 7 A and ( I_{3} ) is 4 A.')
+![Current I1 = 11 A flows into junction a from the right. Current I2 = 7 A leaves upward and I3 = 4 A leaves downward, so I1 = I2 + I3.](../resources/Figure_21_03_02.svg 'The junction rule. The diagram shows an example of Kirchhoff’s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that ( I_1=I_2+I_3 ). Here ( I_{1} ) must be 11 A, since ( I_{2} ) is 7 A and ( I_{3} ) is 4 A.')
 {: #Figure2}
 
 ### Kirchhoff’s Second Rule
@@ -111,7 +111,7 @@ construct more than one loop. In traversing each loop, one needs to be
 consistent for the sign of the change in potential. (See [[Example 1]](#Example1)
 .)
 
-![This figure shows four situations where current flows through either a resistor or a source, and the calculation of the potential change across each. The first two diagrams show the potential drop across a resistor, with the current flowing from left to right or right to left. The other two diagrams show a potential drop across a voltage source, when the terminals are in one orientation and then another.](../resources/Figure_21_03_04.jpg "Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text. (Note that the script E stands for emf.)")
+![Four elements, each traversed from a to b. A resistor carrying current I from a to b: ΔV = Vb − Va = −IR. A resistor carrying current from b to a: ΔV = +IR. A source with its negative terminal toward a and positive toward b: ΔV = +emf. A source with its positive terminal toward a: ΔV = −emf.](../resources/Figure_21_03_04.svg "Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text.")
 {: #Figure4}
 
 * When a resistor is traversed in the same direction as the current, the change
@@ -135,7 +135,7 @@ Calculating Current: Using Kirchhoff’s Rules
 
 Find the currents flowing in the circuit in [[Figure 5]](#Figure5).
 
-![The diagram shows a complex circuit with two voltage sources E sub one and E sub two and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_05.jpg "This circuit is similar to that in Figure 1, but the resistances and emfs are specified. (Each emf is denoted by script E.) The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
+![Junctions a on the left and e on the right. Top branch from a: up through R2 = 2.5 ohms, then along the top through b, emf1 = 18 V with its positive terminal toward c, c, r1 = 0.5 ohm and d, then down to e. Middle branch: R1 = 6.0 ohms between a and e. Bottom branch from a: down, then along the bottom through h, emf2 = 45 V with its positive terminal toward g, g, r2 = 0.5 ohm and f, then up through R3 = 1.5 ohms to e. Assumed currents: I2 around the top branch from a toward e, I1 through R1 from e toward a, and I3 around the bottom branch from a toward e.](../resources/Figure_21_03_05.svg "This circuit is similar to that in Figure 1, but the resistances and emfs are specified. The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff&#x2019;s rules to find the currents.")
 {: #Figure5}
 
 **Strategy**
@@ -339,14 +339,14 @@ No, not all of the currents into the junction can be positive, because conservat
 
 </div>
 
-![The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.](../resources/Figure_21_03_06.jpg " ")
+![A T junction with I1 flowing in from above, I2 flowing in from the left, and I3 flowing in from the right.](../resources/Figure_21_03_06.svg " ")
 {: #Figure6}
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new information gained by applying the junction rule at e? (In the figure, each emf is represented by script E.)
+Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new information gained by applying the junction rule at e?
 
 :::
 
@@ -378,7 +378,7 @@ The junction rule at b gives $$ I_1 = I_2 + I_3 $$, and applying it at e gives n
 
 </div>
 
-![The diagram shows a complex circuit with four voltage sources: E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through g. The current in each branch is labeled separately.](../resources/Figure_21_03_07.jpg " ")
+![Corners a (top left), c (top right), d (bottom right) and f (bottom left), with junctions b on the top wire and e on the bottom wire joined by a middle branch. Left branch f to a: emf1 = 18 V with r1 = 0.5 ohm. Top: R1 = 20 ohms from a to b and R3 = 8 ohms from b to c. Middle branch b to e: R2 = 6 ohms, point g, emf2 = 3.0 V and r2 = 0.25 ohm. Right branch c to d: emf3 = 12 V and r3 = 0.5 ohm. Bottom: R4 = 15 ohms from f to e, then emf4 = 24 V and r4 = 0.75 ohm from e to d. Currents I1 flows from a toward b, then splits into I2 toward c and I3 down the middle branch.](../resources/Figure_21_03_07.svg " ")
 {: #Figure7}
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -658,7 +658,7 @@ Verified: $$+6(4.75) + 2(8.25) - 45 = 0$$.
 
 Apply the junction rule at point a in [[Figure 8]](#Figure8).
 
-![The diagram shows a complex circuit with four voltage sources E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and many junctions. Several points on the diagram are marked with letters a through j. The current in each branch is labeled separately.](../resources/Figure_21_03_08.jpg " ")
+![Junctions a on the left and e on the right are joined by three branches. Top branch, from a up through R1 = 5.0 ohms, along the top through points b, emf1 = 24.0 V, c, r1 = 0.10 ohm and d, then down through R5 = 20 ohms to e. Middle branch from a: emf2 = 48.0 V, point k, r2 = 0.50 ohm, point l and R2 = 40 ohms to e. Bottom branch from a down through R3 = 78 ohms, along the bottom through j, emf3 = 6.0 V, i, r3 = 0.05 ohm and h, then up through g, emf4 = 36.0 V, f and r4 = 0.20 ohm to e. Currents I1 flows up through R1, I2 to the right through the middle branch, and I3 up through R3.](../resources/Figure_21_03_08.svg " ")
 {: #Figure8}
 
 :::
@@ -812,7 +812,7 @@ Consider the circuit in [[Figure 9]](#Figure9), and suppose that the emfs are
 unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_{2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
-![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_09.jpg " ")
+![Junctions a on the left and e on the right. Top branch from a: up through R2 = 2.5 ohms, then along the top through b, emf1 = 18 V with its positive terminal toward c, c, r1 = 0.5 ohm and d, then down to e. Middle branch: R1 = 6.0 ohms between a and e. Bottom branch from a: down, then along the bottom through h, emf2 = 45 V with its positive terminal toward g, g, r2 = 0.5 ohm and f, then up through R3 = 1.5 ohms to e. Assumed currents: I2 around the top branch from a toward e, I1 through R1 from e toward a, and I3 around the bottom branch from a toward e.](../resources/Figure_21_03_09.svg " ")
 {: #Figure9}
 
 :::

@@ -155,7 +155,7 @@ is given by Ohm’s law to be
  $$I=\frac{\text{emf}}{ {R}_{\text{load}}+r}. $$
 </div>
 
-![This schematic drawing of an electrical circuit shows an e m f, labeled as script E, driving a current through a resistive load R sub load and through the internal resistance r of the voltage source. The current is shown flowing in a clockwise direction from the positive end of the source.](../resources/Figure_21_02_05.jpg 'Schematic of a voltage source and its load ( R_\\text{load} ). Since the internal resistance ( r ) is in series with the load, it can significantly affect the terminal voltage and current delivered to the load.  (Note that the script E stands for emf.)')
+![A source of emf with internal resistance r on the left drives current I clockwise through a load resistance R_load on the right. I = emf/(R_load + r).](../resources/Figure_21_02_05.svg 'Schematic of a voltage source and its load ( R_\\text{load} ). Since the internal resistance ( r ) is in series with the load, it can significantly affect the terminal voltage and current delivered to the load.')
 {: #Figure5}
 
 We see from this expression that the smaller the internal resistance $$r $$ ,
@@ -321,7 +321,7 @@ flows. See [[Figure 10]](#Figure10), for example, which shows a circuit exactly
 analogous to the battery charger discussed above. If two voltage sources in
 series with emfs in the same sense are connected to a load $${R}_{\text{load}} $$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+ {\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}+{R}_{\text{load}}} $$ flows. 
 
-![The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.](../resources/Figure_21_02_10.jpg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to \(I=\frac{\text{emf}_1-\text{emf}_2}{r_1+r_2}\) by the sum of the internal resistances. (Note that each emf is represented by script E in the figure.) A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
+![Two sources of emf, emf1 with internal resistance r1 on the left and emf2 with internal resistance r2 on the right, are joined in a loop with their positive terminals both at the top, so their emfs oppose. The current is I = (emf1 − emf2)/(r1 + r2).](../resources/Figure_21_02_10.svg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to \(I=\frac{\text{emf}_1-\text{emf}_2}{r_1+r_2}\) by the sum of the internal resistances. A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
 {: #Figure10}
 
 ![Part a shows a flashlight glowing when connected to two cells joined in series with the positive end of one cell connected to the negative end of the other. Part b shows the schematic circuit for part a. There is a series combination of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two connected to a load resistor R sub load.](../resources/Figure_21_02_11.jpg 'This schematic represents a flashlight with two cells (voltage sources) and a single bulb (load resistance) in series. The current that flows is \(I=\frac{\text{emf}_1+\text{emf}_2}{r_1+r_2+R_{\text{load}}}\). (Note that each emf is represented by script E in the figure.)')
@@ -348,7 +348,7 @@ individual batteries. For example, some diesel-powered cars use two 12-V
 batteries in parallel; they produce a total emf of 12 V but can deliver the
 larger current needed to start a diesel engine.
 
-![Part a shows parallel combination of two cells of e m f script E and internal resistance r sub one and internal resistance r sub two connected to a load resistor R sub load. Part b shows the combination of e m f of part a. The circuit has a cell of e m f script E with an internal resistance r sub tot and a load resistor R sub load. The resistance r sub tot is less than either r sub one or r sub two.](../resources/Figure_21_02_12.jpg 'Two voltage sources with identical emfs (each labeled by script E) connected in parallel produce the same emf but have a smaller total internal resistance than the individual sources. Parallel combinations are often used to deliver more current. Here \(I=\frac{\text{emf}}{r_{\text{tot}}+R_{\text{load}}}\) flows through the load.')
+![Top: two sources, each with the same emf, with internal resistances r1 and r2, connected in parallel across a load R_load. An arrow points to the equivalent circuit below: a single source of the same emf with a total internal resistance r_tot across R_load, where r_tot is less than r1 or r2.](../resources/Figure_21_02_12.svg 'Two voltage sources with identical emfs connected in parallel produce the same emf but have a smaller total internal resistance than the individual sources. Parallel combinations are often used to deliver more current. Here \(I=\frac{\text{emf}}{r_{\text{tot}}+R_{\text{load}}}\) flows through the load.')
 {: #Figure12}
 
 ### Animals as Electrical Detectors
@@ -505,7 +505,7 @@ The 18.0-V battery is doing the charging and the 12.0-V battery is being charged
 
 </div>
 
-![The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.](../resources/Figure_21_02_14.jpg ' ')
+![A loop with two sources whose positive terminals are both at the top: emf1 = 12.0 V with internal resistance r1 = 1.0 ohm on the left, and emf2 = 18.0 V with internal resistance r2 = 0.5 ohm on the right.](../resources/Figure_21_02_14.svg ' ')
 {: #Figure14}
 
 <div class="exercise" data-element-type="conceptual-questions">

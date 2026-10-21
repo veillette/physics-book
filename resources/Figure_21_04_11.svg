@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="110" viewBox="0 0 440 110" role="img" aria-labelledby="title desc">
+<title id="title">An ammeter with internal resistance in series with a load</title>
+<desc id="desc">An ammeter A with internal resistance r in series with a load resistance R.</desc>
+<rect width="440" height="110" fill="#ffffff"/>
+<polyline points="20,50 420,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="92" y1="50" x2="148" y2="50" stroke="#ffffff" stroke-width="7"/>
+<line x1="80" y1="50" x2="92" y2="50" stroke="#222222" stroke-width="2"/>
+<line x1="148" y1="50" x2="160" y2="50" stroke="#222222" stroke-width="2"/>
+<circle cx="120" cy="50" r="28" fill="#c9cfe6" stroke="#222222" stroke-width="2"/>
+<text x="120" y="56.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<line x1="212" y1="50" x2="268" y2="50" stroke="#ffffff" stroke-width="7"/>
+<line x1="200" y1="50" x2="212" y2="50" stroke="#222222" stroke-width="2"/>
+<line x1="268" y1="50" x2="280" y2="50" stroke="#222222" stroke-width="2"/>
+<polyline points="212,50 216.67,61 226,39 235.33,61 244.67,39 254,61 263.33,39 268,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="240" y="91.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<line x1="322" y1="50" x2="378" y2="50" stroke="#ffffff" stroke-width="7"/>
+<line x1="310" y1="50" x2="322" y2="50" stroke="#222222" stroke-width="2"/>
+<line x1="378" y1="50" x2="390" y2="50" stroke="#222222" stroke-width="2"/>
+<polyline points="322,50 326.67,61 336,39 345.33,61 354.67,39 364,61 373.33,39 378,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="350" y="91.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+</svg>

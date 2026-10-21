@@ -20,7 +20,7 @@ of resistors are the series and parallel connections illustrated
 in [[Figure 1]](#Figure1). The total resistance of a combination of resistors
 depends on both their individual values and how they are connected.
 
-![In part a of the figure, resistors labeled R sub 1, R sub 2, R sub 3, and R sub 4 are connected in series along one path of a circuit. In part b of the figure, the same resistors are connected along parallel paths of a circuit.](../resources/Figure_21_01_01.jpg '(a) A series connection of resistors. (b) A parallel connection of resistors.')
+![(a) Four resistors, R1 through R4, connected end to end along a single path. (b) The same four resistors connected side by side between two common wires, so each has its own path.](../resources/Figure_21_01_01.svg '(a) A series connection of resistors. (b) A parallel connection of resistors.')
 {: #Figure1}
 
 ### Resistors in Series
@@ -41,7 +41,7 @@ high-resistance rubber-soled shoes. It could be a disadvantage if one of the
 resistances were a faulty high-resistance cord to an appliance that would reduce
 the operating current.)
 
-![Two electrical circuits are compared. The first one has three resistors, R sub one, R sub two, and R sub three, connected in series with a voltage source V to form a closed circuit. The first circuit is equivalent to the second circuit, which has a single resistor R sub s connected to a voltage source V. Both circuits carry a current I, which starts from the positive end of the voltage source and moves in a clockwise direction around the circuit.](../resources/Figure_21_01_02.jpg 'Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).')
+![Left: a voltage source V drives a current I clockwise through R1 on the top, R2 on the right, and R3 on the bottom. Right, after an equals sign: the same source drives the same current I through a single resistance Rs.](../resources/Figure_21_01_02.svg 'Three resistors connected in series to a battery (left) and the equivalent single or series resistance (right).')
 {: #Figure2}
 
 To verify that resistances in series do indeed add, let us consider the loss of
@@ -459,7 +459,7 @@ parts are identified as either series or parallel, reduced to their equivalents,
 and further reduced until a single resistance is left. The process is more time
 consuming than difficult.
 
-![The diagram has a set of five circuits. The first circuit has a combination of seven resistors in series and parallel combinations. It has a resistor R sub one in series with a set of three resistors R sub two, R sub three, and R sub four in parallel and connected in series with a combination of resistors R sub five and R sub six, which are parallel. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The second circuit calculates combinations of all parallel resistors in circuit one and replaces them with their equivalent resistance. It has a resistor R sub one in series with R sub p and R sub p prime. A resistor R sub seven is connected in parallel to R sub one and the voltage source. The third circuit takes the combination of the series resistors R sub p and R sub p prime and replaces it with R sub s. It has a resistor R sub one in series with R sub s. A resistor R sub seven is connected in parallel to R sub s and the voltage source. The fourth circuit shows a parallel combination of R sub seven and R sub s are calculated and replaced by R sub p double prime. The circuit now has a series combination voltage source, R sub one and R sub p double prime. The fifth circuit shows the final equivalent of the first circuit. It has a voltage source connecting across a final equivalent resistance R sub s prime.](../resources/Figure_21_01_04.jpg "This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.")
+![Five circuits connected by arrows. First: a source feeds R1, then R7 to the bottom wire, then R2, R3 and R4 in parallel (circled as Rp), then R5 and R6 in parallel (circled as Rp′). Second: Rp and Rp′ replace those groups and are circled together as their series sum Rs. Third: R7 and Rs are circled as their parallel combination Rp″. Fourth: R1 and Rp″ are circled as their series sum Rs′. Fifth: the source drives the single equivalent resistance Rs′.](../resources/Figure_21_01_04.svg "This combination of seven resistors has both series and parallel parts. Each is identified and reduced to an equivalent resistance, and these are further reduced until a single equivalent resistance is reached.")
 {: #Figure4}
 
 The simplest combination of series and parallel resistance, shown
@@ -485,7 +485,7 @@ Drop, Current, and Power Dissipation: Combining Series and Parallel Circuits
  through  $${R}_{2} $$ .
  (d) What power is dissipated by  $${R}_{2} $$ ?
 
-![Circuit diagram in which a battery of twelve point zero volts is connected to a combination of three resistors. Resistors R sub two and R sub three are connected in parallel to each other, and their combination is connected in series to resistor R sub one. R sub one has a resistance of one point zero zero ohms, R sub two has a resistance of six point zero zero ohms, and R sub three has a resistance of thirteen point zero ohms.](../resources/Figure_21_01_05.jpg "These three resistors are connected to a voltage source so that \( R_{2} \) and \( R_{3} \) are in parallel with one another and that combination is in series with \( R_{1} \) .")
+![A 12.0 V source on the left drives current I through R1 = 1.00 ohm on the top wire. The current then splits into I2 through R2 = 6.00 ohms and I3 through R3 = 13.0 ohms, which are in parallel on the right. The voltage V1 across R1 and the voltage Vp = V − V1 across the parallel pair are unknown.](../resources/Figure_21_01_05.svg "These three resistors are connected to a voltage source so that \( R_{2} \) and \( R_{3} \) are in parallel with one another and that combination is in series with \( R_{1} \) .")
 {: #Figure5}
 
 **Strategy and Solution for (a)**
@@ -686,7 +686,7 @@ Problem-Solving Strategies for Series and Parallel Resistors
 
 A switch has a variable resistance that is nearly zero when closed and extremely large when open, and it is placed in series with the device it controls. Explain the effect the switch in [[Figure 7]](#Figure7) has on current when open and when closed.
 
-![The diagram shows a circuit with a voltage source and internal resistance small r connected in series with a resistance R and a switch.](../resources/Figure_21_01_07.jpg "A switch is ordinarily in series with a resistance and voltage source. Ideally, the switch has nearly zero resistance when closed but has an extremely large resistance when open. (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
+![A source of emf with internal resistance r on the left, a resistance R on the top wire, and an open switch on the right wire, all in one loop.](../resources/Figure_21_01_07.svg "A switch is ordinarily in series with a resistance and voltage source. Ideally, the switch has nearly zero resistance when closed but has an extremely large resistance when open.")
 {: #Figure7}
 
 :::
@@ -827,7 +827,7 @@ The power dissipated by a closed switch is small because, although the full curr
 
 A student in a physics lab mistakenly wired a light bulb, battery, and switch as shown in [[Figure 8]](#Figure8). Explain why the bulb is on when the switch is open, and off when the switch is closed. (Do not try this—it is hard on the battery!)
 
-![This diagram shows a circuit with a voltage source and internal resistance small r. A resistance R and an open switch are connected in parallel to it.](../resources/Figure_21_01_08.jpg "A wiring mistake put this switch in parallel with the device represented by \( R \) . (Note that in this diagram, the script E represents the voltage (or electromotive force) of the battery.)")
+![A source of emf with internal resistance r on the left. The resistance R and an open switch are connected side by side across the source, so closing the switch would short out R.](../resources/Figure_21_01_08.svg "A wiring mistake put this switch in parallel with the device represented by \( R \) .")
 {: #Figure8}
 
 :::

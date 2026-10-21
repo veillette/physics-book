@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="320" viewBox="0 0 560 320" role="img" aria-labelledby="title desc">
+<title id="title">Three currents entering a T junction</title>
+<desc id="desc">A T junction with I1 flowing in from above, I2 flowing in from the left, and I3 flowing in from the right.</desc>
+<rect width="560" height="320" fill="#ffffff"/>
+<polyline points="40,260 520,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="280,30 280,260" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="280" cy="260" r="4.5" fill="#7b1145"/>
+<line x1="280" y1="90" x2="280" y2="153" stroke="#1f77c8" stroke-width="4"/>
+<polygon points="280,170 272.8,152 287.2,152" fill="#1f77c8"/>
+<line x1="80" y1="260" x2="163" y2="260" stroke="#1f77c8" stroke-width="4"/>
+<polygon points="180,260 162,267.2 162,252.8" fill="#1f77c8"/>
+<line x1="480" y1="260" x2="397" y2="260" stroke="#1f77c8" stroke-width="4"/>
+<polygon points="380,260 398,252.8 398,267.2" fill="#1f77c8"/>
+<text x="302" y="118.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="130" y="238.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="430" y="238.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+</svg>
