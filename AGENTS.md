@@ -6,7 +6,7 @@ This file guides AI assistants (Claude, Codex, Cursor, etc.) working in this rep
 
 **For Quick Understanding:**
 
-- **What**: Open-source, algebra-based college physics textbook with 280+ sections.
+- **What**: Open-source, algebra-based college physics textbook with 34 chapters and 241 sections.
 - **Tech**: Eleventy v4 (Node), markdown-it, MathJax v4, Vercel, GitHub Pages.
 - **Live Sites**:
   - **Vercel (Primary)**: https://physics-book.vercel.app/
@@ -19,7 +19,7 @@ This file guides AI assistants (Claude, Codex, Cursor, etc.) working in this rep
 
 - **Add content**: Update `contents/` + `SUMMARY.md`.
 - **Fix links**: Use root-relative `/path` (the build adds the `/physics-book` prefix).
-- **Run full check**: Run `npm run audit` to check links, orphans, and figures.
+- **Run full check**: Run `npm run audit` for content checks, or `npm run check:all` to add physics checks and unit tests.
 - **Check math**: Run `npm run check:math` to validate delimiter balance.
 - **Generate PDFs**: Run `npm run generate:pdf` or use GitHub Actions workflow for automated generation.
 
@@ -78,15 +78,15 @@ Content is structured modularly in the `contents/` directory.
 
 - **File Naming**: `ch[NUMBER][DescriptiveName].md` (e.g., `ch2TimeVelocityAndSpeed.md`).
 - **Chapter Structure**: Each chapter has a main file (`ch2Kinematics.md`) and separate files for each section.
-- **Solutions**: Worked solutions for practice problems are placed in the same file as the problems, under a `### Solutions` heading.
+- **Solutions**: Keep each problem and its `::: solution` container in the same exercise block. Use Strategy, Solution, and Discussion labels plus a final Answer; see `CONTRIBUTE.md` for a complete example. Run `npm run check:solutions` to report incomplete solutions.
 
 ## Mathematics and Equations
 
 - **Engine**: MathJax v4, self-hosted under `assets/js/mathjax/` and rendered client-side.
 - **Configuration**: `assets/js/math-config.js` (delimiters, macros, `processEscapes`).
 - **Delimiters** (configured in `math-config.js`, emitted by the markdown pipeline):
-  - Inline math: `$...$` or `\\(...\\)`
-  - Display math: `$$...$$` or `\\[...\\]`
+  - Inline math: `$...$` or `\(...\)`
+  - Display math: `$$...$$` or `\[...\]`
 - The build passes math through verbatim (no markdown escaping inside `$$…$$`), so backslashes and LaTeX arrays survive.
 - **Validation**: Use `npm run check:math` to find unbalanced delimiters before committing.
 
@@ -132,15 +132,19 @@ The project is configured for dual deployment and robust quality assurance.
 ### Deployment Workflows
 
 - **Vercel**: The `main` branch is automatically deployed to production via the Vercel GitHub integration. The build process is defined in `vercel.json` (`npm run build`).
-- **GitHub Actions**: A workflow in `.github/workflows/deploy.yml` builds the site with Eleventy and deploys it to the `gh-pages` branch, which serves the GitHub Pages site.
+- **GitHub Actions**: `.github/workflows/deploy.yml` builds the site and chapter PDFs, uploads a Pages artifact, and publishes it with `actions/deploy-pages`. No deployment branch is used.
 
 ### Automated Quality Checks
 
 On every pull request, GitHub Actions run a series of checks:
 
-1.  **Eleventy Build**: Validates that the site builds successfully.
-2.  **Link Checking**: `npm run test:ci` validates all internal and external links to prevent broken ones.
-3.  **Content Auditing**: `npm run audit` runs a comprehensive check for broken links, orphaned files, and figure reference issues.
+1. **Lint and formatting**: ESLint and Prettier checks.
+2. **Content checks**: Math delimiters, orphaned assets, figures, YAML, accessibility, cross-references, and equations.
+3. **Physics checks**: Python unit tests, an arithmetic scan, and strict source-bound physics cases with coverage enforcement.
+4. **Link checking**: `npm run test:ci` checks internal and external links.
+5. **Build and unit tests**: JavaScript unit tests, an Eleventy build, and checks for leftover Kramdown/Liquid markers.
+
+CI runs selected checks individually; it does not invoke the full `npm run audit` command.
 
 **Best Practice:** Always check your changes locally before pushing:
 
@@ -161,8 +165,8 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 ### Key Scripts
 
-- **`npm run audit`**: The most important script for general quality control. It runs `check-links`, `check-orphans`, and `check-figures` together.
-- **`check-orphans.js`**: Scans for unreferenced files in `assets/` and `resources/`. It's smart enough to parse Markdown, HTML, CSS, JS, and JSON files to find references. Use `npm run check-orphans:cleanup` to generate a script to remove orphan files.
+- **`npm run audit`**: Runs links, orphans, figures, YAML, accessibility, math delimiters, content, structure, cross-reference, and equation checks. `npm run check:all` also runs the physics checker and JavaScript/Python unit tests.
+- **`check-orphans.js`**: Scans for unreferenced files in `assets/` and `resources/`. It's smart enough to parse Markdown, HTML, CSS, JS, and JSON files to find references. Use `npm run check:orphans:cleanup` to generate a script to remove orphan files.
 - **PDF Generation**: `npm run generate:pdf:book` creates a single PDF of the entire book. `npm run generate:pdf:combined` creates one combined PDF per chapter. Requires Playwright (`npm run generate:pdf:install`). To generate a combined PDF for a specific chapter (e.g., Chapter 1) using the correct base URL: `npm run generate:pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book`.
 
 ## Common Issues and Solutions
@@ -176,7 +180,7 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 - **Symptom**: Offline mode isn't working or content is stale.
 - **Solution**:
-  1.  The service worker is served as `/sw.js` (its source is `sw.njk` at the repo root).
+  1.  The service worker source is `sw.njk`; it is served at `/physics-book/sw.js` on GitHub Pages and `/sw.js` on Vercel.
   2.  Check the browser DevTools (Application → Service Workers) to inspect its status and clear storage if needed.
   3.  Service workers require HTTPS or localhost to function.
 
@@ -186,7 +190,7 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 - **File**: `sw.njk` at the repo root (built to `/sw.js`).
 - **Functionality**: Caches visited pages and assets for offline access.
-- **Scope**: The root-level scope allows it to control all pages under the site's domain.
+- **Scope**: `register-sw.njk` registers the worker for `/physics-book/` on GitHub Pages and `/` on Vercel.
 
 ### Content Validation Suite
 
@@ -199,43 +203,15 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 
 This comprehensive suite, run via `npm run audit` and other commands, ensures high-quality, maintainable content.
 
-## Recent Improvements
+## PDF Automation
 
-### December 2025 Updates
+GitHub Pages deploys generate section, chapter-intro, and combined chapter PDFs
+through `.github/actions/generate-chapter-pdfs/`. The quarterly/manual
+`.github/workflows/generate-pdfs.yml` workflow also generates the complete book
+and publishes individual PDF assets to the `pdfs` GitHub Release. Vercel builds
+do not generate PDFs. See `assets/pdf/README.md` for generation and hosting details.
 
-**Accessibility Enhancements:**
-
-- Complete removal of Font Awesome dependency (~200KB savings)
-- Replaced icon fonts with Unicode symbols and CSS2 for better performance
-- Added comprehensive ARIA labels throughout the site
-- Implemented skip navigation links for keyboard users
-- Enhanced semantic HTML structure
-- Improved focus management and keyboard navigation
-- Better screen reader support with descriptive labels
-
-**PDF Generation:**
-
-- Implemented parallel PDF generation system (`scripts/generate-pdf-parallel.js`)
-- Automated weekly PDF regeneration via GitHub Actions
-- 3-phase generation: sections → chapter intros → combined chapters
-- Configurable concurrency (4 parallel for sections, 2 for combined)
-- Automatic failure recovery with `scripts/regenerate-failed-pdfs.js`
-- 309 PDFs (587MB total) available for download
-- Performance: ~30 minutes locally, ~60 minutes on GitHub Actions
-
-**Infrastructure:**
-
-- Enhanced `.github/workflows/generate-pdfs.yml` with parallel processing
-- Automated PDF deployment and versioning
-- Improved service worker caching strategy
-- Better offline support with versioned cache management
-
-**Quality Assurance:**
-
-- Comprehensive link checking and fixing across all content
-- Liquid syntax conflict detection and auto-fixing
-- Enhanced math delimiter validation
-- Automated content quality checks via GitHub Actions
+Historical changes are recorded in [`CHANGELOG.md`](./CHANGELOG.md).
 
 ## Documentation Notes
 

@@ -89,7 +89,7 @@ To contribute to this project, you'll need:
    ```bash
    npm run build
    npm run check:links
-   npm run check-math
+   npm run check:math
    ```
 
 4. **Commit your changes** with a clear message:
@@ -142,7 +142,7 @@ layout: page
 - Use MathJax notation for all mathematical content
 - Inline math: `$E = mc^2$`
 - Display math: `$$E = mc^2$$`
-- Always escape backslashes: `\\frac` not `\frac`
+- Use ordinary LaTeX backslashes inside math, such as `\frac{a}{b}`; the Markdown pipeline preserves them.
 - Test equation rendering locally before committing
 
 #### Lists
@@ -168,32 +168,42 @@ layout: page
 
 Many chapter sections include "Problems & Exercises" and "Conceptual Questions" at the end. When contributing solutions:
 
-1. **Add solutions in the same file** as the problems
-2. **Use a `### Solutions` heading** to separate solutions from problems
-3. **Number solutions** to match problem numbers
-4. **Show all work**:
-   - State what is given
-   - Identify relevant equations or principles
-   - Show step-by-step calculations
-   - State the final answer clearly
-5. **Explain your reasoning**: Include brief explanations of your approach
-6. **Use proper notation**: Apply MathJax for all equations
+1. **Keep each solution with its problem** in the same exercise block.
+2. **Use `::: problem` and `::: solution` containers** inside a `<div class="exercise">`. Set `data-element-type` to `problems-exercises` or `conceptual-questions` as appropriate.
+3. **Include Strategy, Solution, and Discussion labels** inside the solution, followed by a clear final Answer. Explain the method, show the calculations, and interpret the result.
+4. **Use MathJax notation** for equations and units.
+5. **Run `npm run check:solutions`** to report missing or incomplete solutions.
 
 **Example**:
 
 ```markdown
-### Solutions
+<div class="exercise" data-element-type="problems-exercises">
 
-**1.**
-Given: $m = 5 \text{ kg}$, $a = 3 \text{ m/s}^2$
+::: problem
 
-Find: Force $F$
+Find the net force on a $5 \text{ kg}$ object accelerating at $3 \text{ m/s}^2$.
 
-Using Newton's second law: $F = ma$
+:::
+
+::: solution
+
+**Strategy**
+
+Use Newton's second law, $F = ma$.
+
+**Solution**
 
 $$F = (5 \text{ kg})(3 \text{ m/s}^2) = 15 \text{ N}$$
 
+**Discussion**
+
+The net force points in the direction of the acceleration.
+
 **Answer**: The force is 15 N.
+
+:::
+
+</div>
 ```
 
 ## Technical Guidelines
@@ -231,8 +241,8 @@ When adding new content files:
 
 ### Physics Notation
 
-- **Vectors**: Use arrow notation `$\\vec{F}$` → $\vec{F}$
-- **Units**: Use `\\text{}` for units: `$5 \\text{ m/s}$` → $5 \text{ m/s}$
+- **Vectors**: Use arrow notation `$\vec{F}$` → $\vec{F}$
+- **Units**: Use `\text{}` for units: `$5 \text{ m/s}$` → $5 \text{ m/s}$
 - **Variables**: Italicize variables in text using `$v$` for velocity, etc.
 - **Subscripts/Superscripts**: Use `$v_0$` for initial velocity, `$x^2$` for squared
 

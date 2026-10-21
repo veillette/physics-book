@@ -155,15 +155,11 @@ See `roadmap.md` for the current build architecture.
 - Weekly automated PDF regeneration
 - 100% PDF success rate (310/310)
 
-### Future Plans
+### Subsequent PDF Hosting Changes
 
-See [`.github/workflows/FUTURE-PLAN.md`](.github/workflows/FUTURE-PLAN.md) for planned improvements:
-
-- **Repository Optimization**: Exclude PDFs from git tracking
-  - Current: 594MB of PDFs in repository
-  - Future: Generate PDFs dynamically during deployment
-  - Expected: Repository size reduction from ~600MB to ~40MB
-  - Benefit: Faster clones, no binary merge conflicts
+PDFs were later removed from Git tracking and moved to deployment-time generation
+and quarterly release assets. See [`roadmap.md`](./roadmap.md#pdf-generation)
+for the current architecture.
 
 ---
 

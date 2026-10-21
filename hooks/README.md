@@ -8,9 +8,11 @@ The pre-commit hook automatically runs before each commit to ensure code quality
 
 ### What it does
 
-1. **ESLint**: Runs `npm run lint:fix` on staged JavaScript files to check and auto-fix linting issues
-2. **Prettier**: Runs `npm run format` to format all code files according to the project's style guide
-3. **Auto-stage**: Automatically stages any files that were modified by the formatters
+The hook runs `npx lint-staged` using the configuration in `package.json`:
+
+1. **ESLint**: Checks and auto-fixes staged JavaScript files, with zero warnings allowed.
+2. **Prettier**: Formats staged JavaScript, JSON, Markdown, and YAML files, respecting `.prettierignore`.
+3. **Auto-stage**: Includes formatter changes in the commit. Changes to partially staged files that were not staged are hidden during the tasks and restored afterward.
 
 If ESLint finds errors that cannot be auto-fixed, the commit will be blocked until you fix them manually.
 

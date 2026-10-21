@@ -19,7 +19,7 @@ full migration record.
 
 ```
 physics-book/
-├── contents/              # Textbook markdown (280+ sections)
+├── contents/              # Textbook markdown (34 chapters, 241 sections)
 ├── _includes/             # Nunjucks layouts and partials
 │   └── layouts/default.njk
 ├── _data/site.js          # Site metadata (title, description, repository URL)
@@ -71,7 +71,7 @@ Markdown bodies are rendered with **no template engine** (`markdownTemplateEngin
 so Nunjucks/Liquid never touches math or brace-heavy LaTeX. Custom plugins in
 `lib/eleventy/` provide Kramdown-compatible behavior:
 
-- Math delimiter conversion (`markdown-it-kramdown-math.js` → MathJax `\\(...\\)` / `\\[...\\]`)
+- Math delimiter conversion (`markdown-it-kramdown-math.js` → MathJax `\(...\)` / `\[...\]`)
 - Heading slug algorithm (`kramdown-slugify.js`)
 - Block containers (`problem`, `solution`, `example`, `note`, `glossary`, …)
 - Definition lists and footnotes
@@ -80,13 +80,13 @@ Pipeline behavior is covered by unit tests in `tests/markdown-pipeline.test.js`.
 
 ## Deployment
 
-| Platform     | Config                         | Build                               |
-| ------------ | ------------------------------ | ----------------------------------- |
-| Vercel       | `vercel.json`                  | `npm run build` (sets `VERCEL=1`)   |
-| GitHub Pages | `.github/workflows/deploy.yml` | `npx @11ty/eleventy` + search index |
+| Platform     | Config                         | Build                                           |
+| ------------ | ------------------------------ | ----------------------------------------------- |
+| Vercel       | `vercel.json`                  | `npm run build` (Vercel supplies `VERCEL=1`)    |
+| GitHub Pages | `.github/workflows/deploy.yml` | Build → chapter PDFs → rebuild → Pages artifact |
 
-CI (`.github/workflows/ci.yml`) runs linting, content checks, and an Eleventy build on
-every pull request. The build job also greps `_site/` for leftover Kramdown/Liquid markers.
+CI (`.github/workflows/ci.yml`) runs linting, formatting, content and link checks,
+physics verification, unit tests, and an Eleventy build on every pull request and push to `main`. The build job also greps `_site/` for leftover Kramdown/Liquid markers.
 
 ## Quality Assurance
 
@@ -95,7 +95,7 @@ Common commands:
 ```bash
 npm run audit          # Links, orphans, figures, YAML, accessibility, content, …
 npm run check:all      # Full validation suite
-npm run test:unit      # Markdown pipeline unit tests
+npm run test:unit      # JavaScript unit tests
 npm run crawl          # Playwright crawl of all pages (requires npm run serve)
 ```
 
@@ -110,10 +110,21 @@ npm run serve                              # Terminal 1
 node scripts/generate-pdf-parallel.js      # Terminal 2
 ```
 
-PDFs are gitignored under `assets/pdf/` and generated dynamically during GitHub Pages
-deploy (`.github/workflows/deploy.yml`). A quarterly workflow
-(`.github/workflows/generate-pdfs.yml`) also publishes them to the `pdfs` GitHub Release
-as a downloadable archive.
+The generators write to `pdf-output/`. To serve locally generated chapter PDFs,
+copy them to `assets/pdf/`; both directories contain gitignored build artifacts.
+
+GitHub Pages deployment (`.github/workflows/deploy.yml`) uses the shared
+`.github/actions/generate-chapter-pdfs/` action to start a server, generate chapter
+PDFs, and copy them into `assets/pdf/`. A final Eleventy build includes them in
+the uploaded Pages artifact, which `actions/deploy-pages` publishes. Vercel builds
+do not generate PDFs.
+
+The quarterly/manual `.github/workflows/generate-pdfs.yml` workflow uses the same
+action with `complete-book: "true"`. It also generates `complete-book.pdf` and its
+page manifest, then publishes individual PDFs to the `pdfs` GitHub Release. The
+Pages deployment leaves complete-book generation disabled. Both workflows allow
+120 minutes for the build/generation job. See
+[`assets/pdf/README.md`](./assets/pdf/README.md) for manual commands and download availability.
 
 ## Further Reading
 

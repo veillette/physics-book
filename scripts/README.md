@@ -61,7 +61,7 @@ All scripts follow a consistent naming convention using colons as separators:
 
 ## Shared Utilities Library
 
-All scripts use a shared utilities library in `scripts/lib/`:
+Many JavaScript scripts use a shared utilities library in `scripts/lib/`:
 
 ```
 scripts/lib/
@@ -172,8 +172,12 @@ npm run check:links:fast         # Faster with shorter timeouts
 **Options:**
 
 - `--timeout <ms>` - Request timeout (default: 10000)
-- `--retries <num>` - Retries for failed requests (default: 2)
-- `--concurrent <num>` - Max concurrent requests (default: 10)
+- `--no-cache` - Disable persistent caching
+- `--cache-ttl <days>` - Cache lifetime (default: 7 days)
+- `--no-gitignore-skip` - Fail on missing gitignored build artifacts instead of skipping them
+
+Use `node scripts/check-links.js --help` for supported flags. Retry and concurrency
+settings are not exposed as CLI options.
 
 ### check-orphans.js
 
@@ -457,10 +461,10 @@ npm run lint:markdown:strict     # Strict mode
 Generates PDF versions of chapters using Playwright.
 
 ```bash
-npm run generate:pdf             # All chapters separately
+npm run generate:pdf             # Separate section and chapter-intro PDFs
 npm run generate:pdf:combined    # One combined PDF per chapter
 npm run generate:pdf:book        # Entire textbook in pdf-output/complete-book.pdf
-npm run generate:pdf:chapter     # Specific chapter
+npm run generate:pdf:chapter -- 1 # Chapter 1 introduction and sections
 npm run generate:pdf:install     # Install Playwright browsers
 ```
 
@@ -474,10 +478,10 @@ source's page range and the total page count.
 
 ### generate-pdf-parallel.js
 
-Optimized parallel PDF generation with configurable concurrency. Generates all PDFs in three phases for maximum efficiency.
+Parallel chapter and section PDF generation with configurable concurrency. Complete-book generation uses the separate `npm run generate:pdf:book` command.
 
 ```bash
-# Generate all PDFs with parallel processing (default: 4 concurrent)
+# Generate chapter and section PDFs (default: 4 concurrent)
 node scripts/generate-pdf-parallel.js
 
 # With custom concurrency
@@ -486,22 +490,20 @@ MAX_CONCURRENCY=8 node scripts/generate-pdf-parallel.js
 
 **Features:**
 
-- **Phase 1**: Section PDFs (241 items, 4 parallel) - ~683s
-- **Phase 2**: Chapter intro PDFs (34 items, 4 parallel) - ~32s
-- **Phase 3**: Combined chapter PDFs (34 items, 2 parallel) - ~1094s
-- Automatic error handling and retry logic
-- Real-time progress reporting
-- Total generation: ~30 minutes for 309 PDFs
+- **Phase 1**: Section PDFs (241 in the current table of contents).
+- **Phase 2**: Chapter-intro PDFs (34).
+- **Phase 3**: Combined chapter PDFs (34).
+- Reuses browser instances across batches and reports progress and failure counts.
+- Returns a nonzero exit status when a PDF task fails.
 
-**Performance:**
-
-- 4x-8x faster than sequential generation
-- Memory-optimized with controlled concurrency
-- Reuses browser instances across batches
+Section and intro concurrency follows `MAX_CONCURRENCY` (default 4). Combined
+chapter concurrency is half that value, rounded down, with a minimum of two.
+Generation time depends on the content and machine. The script writes to
+`pdf-output/`; copy PDFs to `assets/pdf/` to serve them locally.
 
 ### regenerate-failed-pdfs.js
 
-Recovery script for failed PDF generations. Automatically regenerates problematic combined chapter PDFs with extended timeouts.
+Recovery script for a fixed list of historically problematic combined chapters (9, 16, 23, 24, and 29). It does not discover failed PDFs or retry section/intro PDFs.
 
 ```bash
 # Regenerate failed PDFs (hardcoded list)
@@ -510,8 +512,7 @@ node scripts/regenerate-failed-pdfs.js
 
 **Features:**
 
-- Extended timeout (300s vs standard 180s)
-- No strict networkidle requirements for large content
+- Waits for `networkidle`, with a 120-second timeout per source page and a 180-second timeout for the assembled document
 - Sequential processing to avoid resource contention
 - Detailed progress logging
 
@@ -707,19 +708,20 @@ Full audit of the project:
 npm run audit
 ```
 
-This runs all validation scripts:
+This runs the following content checks in sequence, stopping on the first failure:
 
 1. `check:links` - Link validation
 2. `check:orphans` - Orphan file detection
 3. `check:figures` - Figure validation
 4. `check:yaml` - YAML front matter validation
 5. `check:accessibility` - Accessibility checks
-6. `check:content` - Content quality validation
-7. `check:structure` - Document structure validation
-8. `check:cross-refs` - Cross-reference validation
-9. `check:equations` - Equation validation
+6. `check:math` - Math delimiter validation
+7. `check:content` - Content quality validation
+8. `check:structure` - Document structure validation
+9. `check:cross-refs` - Cross-reference validation
+10. `check:equations` - Equation validation
 
-For a comprehensive check including all validations:
+To also run physics verification and JavaScript/Python unit tests:
 
 ```bash
 npm run check:all
