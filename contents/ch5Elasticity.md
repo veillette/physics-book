@@ -1270,12 +1270,12 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(5.89 \times 10^5 \N)(6.00 \m)}{(1.96 \t
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{3.53 \times 10^6 \text{N}\cdot\text{m}}{4.12 \times 10^8 \N} = 8.59 \times 10^{-3} \m = 8.59 \text{ mm} $$
+$$ \Delta L = \frac{3.53 \times 10^6 \text{N}\cdot\text{m}}{4.12 \times 10^8 \N} = 8.57 \times 10^{-3} \m = 8.57 \text{ mm} $$
 </div>
 
 **Discussion**
 
-The 6-meter section of drill pipe stretches by $$ 8.59 \text{ mm} $$ while supporting 3 km of pipe and a drill bit. This represents a strain of about 0.14%, which is within steel's elastic limit. In deep drilling operations, engineers must account for the cumulative stretch of thousands of meters of pipe, which can add up to several meters of total elongation.
+The 6-meter section of drill pipe stretches by $$ 8.57 \text{ mm} $$ while supporting 3 km of pipe and a drill bit. This represents a strain of about 0.14%, which is within steel's elastic limit. In deep drilling operations, engineers must account for the cumulative stretch of thousands of meters of pipe, which can add up to several meters of total elongation.
 
 ::::
 

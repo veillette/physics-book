@@ -1040,18 +1040,18 @@ $$ L_{\text{orbit}} = Mvr = (7.35 \times 10^{22} \kg)(1022 \text{ m/s})(3.84 \ti
 
 Moon's radius R = 1.74 × 10⁶ m. The Moon rotates once per orbit (27.3 days) to keep one face toward Earth.
 
-Moment of inertia (sphere): $$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.87 \times 10^{34} \kg \cdot \mm $$
+Moment of inertia (sphere): $$ I = \frac{2}{5}MR^{2} = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.90 \times 10^{34} \kg \cdot \mm $$
 
 Rotational angular momentum:
 
 <div class="equation">
-$$ L_{\text{spin}} = I\omega = (8.87 \times 10^{34} \kg \cdot \mm)(2.66 \times 10^{-6} \text{ rad/s}) = 2.36 \times 10^{29} \kg \cdot \mms $$
+$$ L_{\text{spin}} = I\omega = (8.90 \times 10^{34} \kg \cdot \mm)(2.66 \times 10^{-6} \text{ rad/s}) = 2.37 \times 10^{29} \kg \cdot \mms $$
 </div>
 
 The ratio:
 
 <div class="equation">
-$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s}}{2.36 \times 10^{29} \text{kg}\cdot\text{m}^2/\text{s}} = 1.22 \times 10^5 $$
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s}}{2.37 \times 10^{29} \text{kg}\cdot\text{m}^2/\text{s}} = 1.22 \times 10^5 $$
 </div>
 
 **(c)** The orbital angular momentum is about 122,000 times larger than the rotational angular momentum. This is consistent with tidal locking. Tidal forces from Earth exerted torques on the Moon's rotation, gradually slowing it until the rotational period matched the orbital period. The much smaller rotational angular momentum compared to orbital angular momentum meant the Moon's rotation was relatively easy for Earth's tidal forces to alter, while the orbital angular momentum remained largely unchanged.
@@ -1064,7 +1064,7 @@ The vast difference between the Moon's orbital and rotational angular momenta il
 
 (a) The Moon's orbital angular momentum is **2.89 × 10³⁴ kg·m²/s**.
 
-(b) This is about **122,000 times larger** than the Moon's rotational angular momentum (2.36 × 10²⁹ kg·m²/s).
+(b) This is about **122,000 times larger** than the Moon's rotational angular momentum (2.37 × 10²⁹ kg·m²/s).
 
 (c) Yes, these values are consistent with tidal locking. The much smaller rotational angular momentum was more easily altered by Earth's tidal torques, while the dominant orbital angular momentum remained essentially constant.
 
@@ -1304,16 +1304,16 @@ $$ \omega_{f} = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
 Change in angular momentum:
 
 <div class="equation">
-$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(18.8\rads - 37.7\rads) = -7.56 \kg \cdot \mms $$
+$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(6.00\pi\rads - 12.0\pi\rads) = -7.54 \kg \cdot \mms $$
 </div>
 
 Average torque:
 
 <div class="equation">
-$$ \tau = \frac{\Delta L}{\Delta t} = \frac{-7.56 \kg \cdot \mms}{15.0 \s} = -0.504 \N \cdot \m $$
+$$ \tau = \frac{\Delta L}{\Delta t} = \frac{-7.54 \kg \cdot \mms}{15.0 \s} = -0.503 \N \cdot \m $$
 </div>
 
-The magnitude is 0.504 N·m.
+The magnitude is 0.503 N·m.
 
 **Discussion**
 
@@ -1329,7 +1329,7 @@ The magnitude is 0.504 N·m.
 
 (b) The moment of inertia when slowed to 1.25 rev/s is **1.92 kg·m²**.
 
-(c) The average torque from friction is **−0.504 N·m** (magnitude 0.504 N·m).
+(c) The average torque from friction is **−0.503 N·m** (magnitude 0.503 N·m).
 
 :::
 

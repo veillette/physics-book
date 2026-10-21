@@ -229,7 +229,7 @@ This is the average of the torque's effect over half a period; the actual torque
 
 **(c)**
 <div class="equation">
-$$ F = \frac{\tau}{R} = \frac{1.39 \times 10^{22} \N \cdot \m}{6.376 \times 10^{6} \m} = 2.17 \times 10^{15} \N $$
+$$ F = \frac{\tau}{R} = \frac{1.386 \times 10^{22} \N \cdot \m}{6.376 \times 10^{6} \m} = 2.17 \times 10^{15} \N $$ (using the unrounded torque from (b))
 </div>
 
 **Discussion**

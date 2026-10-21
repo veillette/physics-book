@@ -562,10 +562,10 @@ The cannon recoils at 2.26 m/s in the direction opposite to the horizontal compo
 Part (b): The kinetic energy of the cannon is:
 
 <div class="equation">
- $$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
+ $$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.255 \ms)^2 = 7.63 \times 10^{3} \J $$ (using the unrounded recoil speed, 2.255 m/s)
 </div>
 
-The kinetic energy of the cannon is approximately $$ 7.66 \times 10^{3} \J $$ (7.66 kJ).
+The kinetic energy of the cannon is approximately $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
 
 Part (c): The vertical component of the shell's momentum is:
 
@@ -577,7 +577,7 @@ Since the cannon cannot move vertically, this momentum is transferred to the Ear
 
 **Discussion**
 
-The cannon's recoil energy (7.66 kJ) must be absorbed by shock absorbers to prevent damage to the mounting. The shell's total kinetic energy is much larger:
+The cannon's recoil energy (7.63 kJ) must be absorbed by shock absorbers to prevent damage to the mounting. The shell's total kinetic energy is much larger:
 
 <div class="equation">
  $$ \KE_{\text{shell}} = \frac{1}{2}(15.0 \kg)(480 \ms)^2 = 1.73 \times 10^6 \J $$
@@ -588,7 +588,7 @@ Thus, the cannon receives only about 0.44% of the total energy—the rest goes t
 **Answer**
 
 (a) The cannon recoils at 2.26 m/s in the direction opposite to the shell's horizontal motion.
-(b) The kinetic energy of the recoiling cannon is $$ 7.66 \times 10^{3} \J $$ (7.66 kJ).
+(b) The kinetic energy of the recoiling cannon is $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
 (c) The vertical component of momentum is transferred to the Earth through the cannon's mounting, which must be strong enough to withstand the resulting forces.
 
 :::
@@ -670,17 +670,17 @@ The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
 Part (b): Calculate the initial kinetic energy:
 
 <div class="equation">
- $$ \KE_{i} = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 223 \J $$
+ $$ \KE_{i} = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 222.75 \J \approx 223 \J $$
 </div>
 
 Calculate the final kinetic energy:
 
 <div class="equation">
- $$ \KE_{f} = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.10\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
+ $$ \KE_{f} = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.096\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
 </div>
 
 <div class="equation">
- $$ \KE_{f} = 228 \J + 95.6 \J = 324 \J $$
+ $$ \KE_{f} = 227.5 \J + 95.6 \J = 323 \J $$
 </div>
 
 Since $$ \KE_{f} > \KE_{i} $$, the translational kinetic energy is not conserved, so the collision is not elastic in the point-mass (translational) sense. The linear kinetic energy actually increased!
@@ -688,7 +688,7 @@ Since $$ \KE_{f} > \KE_{i} $$, the translational kinetic energy is not conserved
 Part (c): The increase in linear kinetic energy is:
 
 <div class="equation">
- $$ \Delta \KE = \KE_{f} - \KE_{i} = 324 \J - 223 \J = 101 \J $$
+ $$ \Delta \KE = \KE_{f} - \KE_{i} = 323.2 \J - 222.75 \J = 100 \J $$
 </div>
 
 A possible source of this increase is the rotational kinetic energy of the spinning bowling ball: during the collision, friction between the ball and pin could convert some of the ball's spin energy into linear kinetic energy of both objects. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact, making strikes more likely.
@@ -700,8 +700,8 @@ In the point-mass sense this is a "superelastic" collision: translational kineti
 **Answer**
 
 (a) The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal (or at $$ -14.7^\circ $$).
-(b) The collision is not elastic in the translational sense, because the translational kinetic energy increased from 223 J to 324 J.
-(c) The 101 J increase in linear kinetic energy can come from the rotational kinetic energy of the spinning bowling ball, converted through friction during the collision.
+(b) The collision is not elastic in the translational sense, because the translational kinetic energy increased from 223 J to 323 J.
+(c) The 100 J increase in linear kinetic energy can come from the rotational kinetic energy of the spinning bowling ball, converted through friction during the collision.
 
 :::
 
@@ -792,7 +792,7 @@ The helium nucleus, after scattering at 120°, has a final speed of approximatel
 Part (b): The final kinetic energy of the helium nucleus is:
 
 <div class="equation">
- $$ \KE'_{\text{He}} = 7.52\times 10^{-13}\J $$
+ $$ \KE'_{\text{He}} = 7.53\times 10^{-13}\J $$ (from the unrounded speed $$1.501 \times 10^{7}$$ m/s)
 </div>
 
 This represents approximately 94% of the initial energy of $$ 8.00\times 10^{-13}\J $$. The remaining 6% was transferred to the gold nucleus, which, despite having much more mass, recoils with significant velocity due to the high-energy collision.
@@ -804,7 +804,7 @@ This problem demonstrates Rutherford scattering, which was crucial in discoverin
 **Answer**
 
 (a) The gold nucleus has a final velocity of $$ 5.36\times 10^{5} \ms $$ at $$ -29.5^\circ $$ (below the horizontal). The helium nucleus has a final speed of approximately $$ 1.50\times 10^{7} \ms $$.
-(b) The final kinetic energy of the helium nucleus is $$ 7.52\times 10^{-13} \J $$, which is approximately 94% of its initial energy.
+(b) The final kinetic energy of the helium nucleus is $$ 7.53\times 10^{-13} \J $$, which is approximately 94.1% of its initial energy.
 
 :::
 
@@ -910,7 +910,7 @@ Approximately 87.8 kJ of kinetic energy is lost in the collision.
 
 **Discussion**
 
-Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 13 m/s (47 km/h). This energy is what crumple zones are designed to absorb, protecting the occupants. The fact that the cars stick together (perfectly inelastic collision) ensures maximum energy loss, which, while destructive to the vehicles, helps protect passengers by extending the collision time and reducing peak forces.
+Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 13 m/s (47 km/h). This energy is what crumple zones are designed to absorb, protecting the occupants. For these incoming momenta, sticking together (a perfectly inelastic collision) produces the largest possible kinetic-energy loss. Whether it also lengthens the collision or lowers the peak force depends on how the cars deform, which this momentum calculation does not determine.
 
 **Answer**
 

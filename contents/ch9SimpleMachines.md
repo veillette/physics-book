@@ -557,7 +557,7 @@ $$ F_i + F_N + W = N $$
 where $$ N $$ is the normal force from the supporting surface (upward).
 
 <div class="equation">
-$$ N = F_i + F_N + W = 50\text{ N} + 1250\text{ N} + 20.6\text{ N} = 1321\text{ N} \approx 1.3 \times 10^3\text{ N} $$
+$$ N = F_i + F_N + W = 50\text{ N} + 1250\text{ N} + 20.6\text{ N} = 1321\text{ N} \approx 1.32 \times 10^3\text{ N} $$
 </div>
 
 By Newton's third law, the nail puller exerts a force of **1.3 × 10³ N** downward on the supporting surface.
@@ -568,7 +568,7 @@ The supporting surface must bear the brunt of the forces - it supports not only 
 
 **Answer**
 
-The nail puller exerts $$ 1.3 \times 10^3\text{ N} $$ on the supporting surface.
+The nail puller exerts $$ 1.32 \times 10^3\text{ N} $$ on the supporting surface.
 
 :::
 
@@ -621,7 +621,7 @@ The ceiling must support the upper pulley, which has three rope forces acting on
 All three rope segments pull down on the upper pulley, so the ceiling must supply an upward force:
 
 <div class="equation">
-$$ F_{\text{ceiling}} = 3T = 3(564 \N) = 1690 \N $$
+$$ F_{\text{ceiling}} = 3T = \frac{3(1127 \N)}{2} = 1690 \N $$ (using the unrounded tension $$T = 1127 \N/2 = 563.5 \N$$)
 </div>
 
 The ceiling must supply **1690 N** (or $$ 1.69 \times 10^{3} \N $$) upward.

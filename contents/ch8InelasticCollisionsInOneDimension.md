@@ -432,11 +432,11 @@ For part (a), we use the impulse-momentum theorem. The ball reverses direction, 
 
 Let positive be the initial direction of motion. The ball reverses direction, so the final velocity is negative.
 
-$$ \Delta p = m(v_f - v_i) = (0.240 \kg)(-2.40 \ms - 3.00 \ms) = (0.240 \kg)(-5.40 \ms) = -1.30 \kg \cdot \ms $$
+$$ \Delta p = m(v_f - v_i) = (0.240 \kg)(-2.40 \ms - 3.00 \ms) = (0.240 \kg)(-5.40 \ms) = -1.296 \kg \cdot \ms $$
 
 Apply the impulse-momentum theorem:
 
-$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.296 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
 
 The average force on the ball is 86.4 N directed away from the bumper (opposite to the ball's initial motion).
 
@@ -825,21 +825,21 @@ The final velocity of the loaded freight car is 0.182 m/s.
 
 Initial kinetic energy:
 
-$$ \KE_{i} = \frac{1}{2}(30000 \kg)(0.850 \ms)^2 = 10800 \J $$
+$$ \KE_{i} = \frac{1}{2}(30000 \kg)(0.850 \ms)^2 = 10\,838 \J $$
 
 Final kinetic energy:
 
-$$ \KE_{f} = \frac{1}{2}(140000 \kg)(0.182 \ms)^2 = 2320 \J $$
+$$ \KE_{f} = \frac{1}{2}(140000 \kg)(0.1821 \ms)^2 = 2322 \J $$
 
 Kinetic energy lost:
 
-$$ \Delta \KE = \KE_{f} - \KE_{i} = 2320 \J - 10800 \J = -8480 \J $$
+$$ \Delta \KE = \KE_{f} - \KE_{i} = 2322 \J - 10\,838 \J = -8516 \J \approx -8.52 \times 10^{3} \J $$
 
 Approximately 8500 J of kinetic energy is lost.
 
 **Discussion**
 
-The car slows dramatically from 0.850 m/s to 0.182 m/s—a reduction of nearly 80%—because the added mass is almost 4 times the original car mass. About 78% of the kinetic energy is lost, converted to heat and sound as the scrap metal settles and deforms in the car.
+The car slows dramatically from 0.850 m/s to 0.182 m/s—a reduction of nearly 80%—because the added mass is almost 4 times the original car mass. About 79% of the kinetic energy is lost, converted to heat and sound as the scrap metal settles and deforms in the car.
 
 :::
 
@@ -1028,11 +1028,13 @@ The helium nucleus moves at $$ 1.57 \times 10^{7} \ms $$ and the uranium nucleus
 
 **Part (b)**
 
-$$ \KE_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
+$$ \KE_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.26 \times 10^{-13} \J $$
+
+(computed without rounding the speed; because the momenta are equal and opposite, the energy divides as $$ \KE_{\text{He}} = E\,m_{\text{U}}/(m_{\text{He}} + m_{\text{U}}) $$, so the two shares add to exactly $$ 8.40 \times 10^{-13} $$ J)
 
 $$ \KE_{\text{U}} = \frac{1}{2}(3.92 \times 10^{-25} \kg)(2.68 \times 10^{5} \ms)^2 = 1.41 \times 10^{-14} \J $$
 
-The helium nucleus carries away $$ 8.23 \times 10^{-13} \J $$ (98%) and the uranium nucleus carries away $$ 1.41 \times 10^{-14} \J $$ (2%).
+The helium nucleus carries away $$ 8.26 \times 10^{-13} \J $$ (98%) and the uranium nucleus carries away $$ 1.41 \times 10^{-14} \J $$ (2%).
 
 **Discussion**
 
@@ -1238,7 +1240,7 @@ The speed of the garbage truck after hitting the trash can is 24.8 m/s.
 
 **Discussion**
 
-The truck barely slows down (from 25.0 to 24.8 m/s, a decrease of only 0.8%) because the trash can's mass is only 0.67% of the truck's mass. The trash can has negligible effect on the massive truck's motion. This example illustrates why it's important for pedestrians and small objects to stay clear of large moving vehicles—the vehicle's motion is essentially unaffected while the smaller object absorbs enormous energy changes.
+The truck barely slows down (from 25.0 to 24.83 m/s, a decrease of only 0.66%) because the trash can's mass is only 0.67% of the truck's mass. The trash can has negligible effect on the massive truck's motion. This example illustrates why it's important for pedestrians and small objects to stay clear of large moving vehicles—the vehicle's motion is essentially unaffected while the smaller object absorbs enormous energy changes.
 
 :::
 

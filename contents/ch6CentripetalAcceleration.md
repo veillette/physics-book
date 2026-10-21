@@ -432,18 +432,20 @@ $$ v = r\omega = (1.15\text{ m})(126\text{ rad/s}) = 145\text{ m/s} $$
 (c) Calculate the centripetal acceleration:
 
 <div class="equation">
-$$ a_c = r\omega^{2} = (1.15\text{ m})(126\text{ rad/s})^2 = (1.15\text{ m})(15{,}876\text{ rad}^2\text{/s}^2) = 1.83 \times 10^4\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (1.15\text{ m})(125.66\text{ rad/s})^2 = (1.15\text{ m})(15{,}791\text{ rad}^2\text{/s}^2) = 1.82 \times 10^4\text{ m/s}^2 $$
+
+(using the unrounded $$ \omega = 40\pi\text{ rad/s} = 125.66\text{ rad/s} $$; squaring the rounded 126 rad/s would overstate $$ a_c $$)
 </div>
 
 Express as a multiple of g:
 
 <div class="equation">
-$$ \frac{a_c}{g} = \frac{1.83 \times 10^4\text{ m/s}^2}{9.80\text{ m/s}^2} = 1.87 \times 10^3 = 1870 $$
+$$ \frac{a_c}{g} = \frac{1.816 \times 10^4\text{ m/s}^2}{9.80\text{ m/s}^2} = 1.85 \times 10^3 = 1850 $$
 </div>
 
 **Discussion**
 
-The propeller tip has an angular velocity of 126 rad/s and moves at a linear speed of 145 m/s. The centripetal acceleration at the tip is $$ 1.83 \times 10^4 $$ m/s², which is approximately 1870 times the acceleration due to gravity. This enormous acceleration places tremendous stress on the propeller blades, which is why they must be constructed from very strong materials.
+The propeller tip has an angular velocity of 126 rad/s and moves at a linear speed of 145 m/s. The centripetal acceleration at the tip is $$ 1.82 \times 10^4 $$ m/s², which is approximately 1850 times the acceleration due to gravity. This enormous acceleration places tremendous stress on the propeller blades, which is why they must be constructed from very strong materials.
 
 ::::
 
@@ -841,12 +843,12 @@ $$ w = mg = (1.00 \times 10^{-15}\text{ kg})(9.80\text{ m/s}^2) = 9.80 \times 10
 </div>
 
 <div class="equation">
-$$ \frac{F_c}{w} = \frac{8.47 \times 10^{-12}\text{ N}}{9.80 \times 10^{-15}\text{ N}} = 865 $$
+$$ \frac{F_c}{w} = \frac{8.47 \times 10^{-12}\text{ N}}{9.80 \times 10^{-15}\text{ N}} = 864 $$
 </div>
 
 **Discussion**
 
-At takeoff, the jet's tires rotate at 1,350 rpm with a centripetal acceleration of 8,470 m/s² (about 865g) at the edge. A bacterium clinging to the rim must withstand a force 865 times its weight to avoid being flung off. This enormous centripetal acceleration demonstrates the extreme forces experienced by rotating objects at high speeds, which is why tire integrity is critical for aircraft safety.
+At takeoff, the jet's tires rotate at 1,350 rpm with a centripetal acceleration of 8,470 m/s² (about 864g) at the edge. A bacterium clinging to the rim must withstand a force 864 times its weight to avoid being flung off. This enormous centripetal acceleration demonstrates the extreme forces experienced by rotating objects at high speeds, which is why tire integrity is critical for aircraft safety.
 
 ::::
 

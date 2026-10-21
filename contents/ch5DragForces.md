@@ -619,7 +619,7 @@ $$ v_{t,60} = \sqrt{\frac{2(60 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14
 </div>
 
 <div class="equation">
-$$ v_{t,60} = \sqrt{\frac{1176 \N}{0.1187 \text{ kg/m}}} = \sqrt{9907 \text{ m}^2/\text{s}^2} = 99.5 \ms $$
+$$ v_{t,60} = \sqrt{\frac{1176 \N}{0.1186 \text{ kg/m}}} = \sqrt{9917 \text{ m}^2/\text{s}^2} = 99.6 \ms $$
 </div>
 
 For the 90-kg skydiver:
@@ -629,7 +629,7 @@ $$ v_{t,90} = \sqrt{\frac{2(90 \kg)(9.80 \mss)}{(0.70)(1.21 \text{ kg/m}^3)(0.14
 </div>
 
 <div class="equation">
-$$ v_{t,90} = \sqrt{\frac{1764 \N}{0.1187 \text{ kg/m}}} = \sqrt{14860 \text{ m}^2/\text{s}^2} = 122 \ms $$
+$$ v_{t,90} = \sqrt{\frac{1764 \N}{0.1186 \text{ kg/m}}} = \sqrt{14870 \text{ m}^2/\text{s}^2} = 122 \ms $$
 </div>
 
 Time to reach ground (distance = 6000 m):
@@ -637,7 +637,7 @@ Time to reach ground (distance = 6000 m):
 For 60-kg skydiver:
 
 <div class="equation">
-$$ t_{60} = \frac{6000 \m}{99.5 \ms} = 60.3 \s $$
+$$ t_{60} = \frac{6000 \m}{99.6 \ms} = 60.2 \s $$
 </div>
 
 For 90-kg skydiver:
@@ -648,7 +648,7 @@ $$ t_{90} = \frac{6000 \m}{122 \ms} = 49.2 \s $$
 
 **Discussion**
 
-The 60-kg skydiver has a terminal velocity of $$ 99.5 \ms $$ and reaches the ground in about $$ 60 \s $$. The 90-kg skydiver has a terminal velocity of $$ 122 \ms $$ and reaches the ground in about $$ 49 \s $$. The heavier skydiver falls faster because their weight increases more than their drag force (same area). This is why heavier skydivers must account for the difference when doing formation jumps with lighter partners.
+The 60-kg skydiver has a terminal velocity of $$ 99.6 \ms $$ and reaches the ground in about $$ 60 \s $$. The 90-kg skydiver has a terminal velocity of $$ 122 \ms $$ and reaches the ground in about $$ 49 \s $$. The heavier skydiver falls faster because their weight increases more than their drag force (same area). This is why heavier skydivers must account for the difference when doing formation jumps with lighter partners.
 
 ::::
 
@@ -867,7 +867,7 @@ $$ v_t = \sqrt{\frac{6.57 \times 10^{-4} \N}{6.85 \times 10^{-6} \text{ kg/m}}} 
 
 **Discussion**
 
-Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—comparable to the speed of sound in air (about 340 m/s at room temperature). With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. The raindrop reaches terminal velocity within the first few hundred meters of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
+Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—comparable to the speed of sound in air (about 340 m/s at room temperature). With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. With quadratic drag the raindrop reaches 99% of its terminal velocity within roughly the first 20 m of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
 
 ::::
 
@@ -970,7 +970,7 @@ $$ v_t = \frac{W_{\text{eff}}}{6\pi r\eta} = \frac{4.11 \times 10^{-15} \N}{6\pi
 </div>
 
 <div class="equation">
-$$ v_t = \frac{4.11 \times 10^{-15} \N}{1.89 \times 10^{-8} \text{N}\cdot\text{s/m}} = 2.18 \times 10^{-7} \ms = 0.218 \text{ μm/s} $$
+$$ v_t = \frac{4.11 \times 10^{-15} \N}{1.89 \times 10^{-8} \text{N}\cdot\text{s/m}} = 2.17 \times 10^{-7} \ms = 0.217 \text{ μm/s} $$
 </div>
 
 **Discussion**

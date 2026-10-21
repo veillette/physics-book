@@ -968,9 +968,9 @@ $$F_{\text{tot}} = \sqrt{F_1^2 + F_2^2} = \sqrt{(26.4 \N)^2 + (18.6 \N)^2}$$
 $$F_{\text{tot}} = \sqrt{697.0 \N^2 + 346.0 \N^2} = \sqrt{1043 \N^2} = 32.3 \N$$
 </div>
 
-2. Find the direction (angle above the horizontal, measured from $$F_1$$):
+2. Find the direction (in the overhead view, the angle measured from $$F_1$$ toward $$F_2$$):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6 \N}{26.4 \N}\right) = \tan^{-1}(0.704) = 35.1°$$
+$$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6 \N}{26.4 \N}\right) = \tan^{-1}(0.7045) = 35.2°$$
 </div>
 
 (b) Initial acceleration (starting from rest):
@@ -989,7 +989,7 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.04)(637 \N) = 25.5 \N$$
 
 4. Once motion begins, kinetic friction applies:
 <div class="equation">
-$$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.7 \N$$
+$$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.74 \N$$
 </div>
 
 5. Calculate the net force. Choose $$+x$$ along $$\vb{F}_{\text{tot}}$$ and $$+y$$ upward. Friction opposes the motion, so it points along $$-x$$:
@@ -997,12 +997,12 @@ $$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.7 \N$$
    ![Free-body diagram of the skater with +x along the total push and +y up: F sub tot along +x, kinetic friction f sub k along -x, N up, w down; acceleration along +x.](../resources/fbd_05_01_p07.svg){: .fbd}
 
 <div class="equation">
-$$\sum F_x = F_{\text{tot}} - f_{\text{k}} = 32.3 \N - 12.7 \N = 19.6 \N$$
+$$\sum F_x = F_{\text{tot}} - f_{\text{k}} = 32.29 \N - 12.74 \N = 19.55 \N$$
 </div>
 
 6. Calculate the initial acceleration:
 <div class="equation">
-$$a = \frac{F_{\text{net}}}{m} = \frac{19.6 \N}{65.0 \kg} = 0.302 \mss$$
+$$a = \frac{F_{\text{net}}}{m} = \frac{19.55 \N}{65.0 \kg} = 0.301 \mss$$
 </div>
 
 (c) Acceleration while already moving:
@@ -1010,12 +1010,12 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{19.6 \N}{65.0 \kg} = 0.302 \mss$$
 The calculation is identical to part (b) once motion has begun, since kinetic friction applies in both cases:
 
 <div class="equation">
-$$a = 0.302 \mss$$
+$$a = 0.301 \mss$$
 </div>
 
 **Discussion**
 
-The total force on the skater is $$32.3 \N$$ at an angle of $$35.1°$$ above the horizontal (from $$F_1$$). Her acceleration is $$0.302 \mss$$ in both cases (b) and (c) because once she begins moving, kinetic friction determines the friction force regardless of whether she just started or was already moving. The very low coefficient of friction on ice (0.02 kinetic) allows even modest forces to produce noticeable acceleration.
+The total force on the skater is $$32.3 \N$$ at an angle of $$35.2°$$ from $$F_1$$ toward $$F_2$$ (both pushes are horizontal; the figure is an overhead view). Her acceleration is $$0.301 \mss$$ in both cases (b) and (c) because once she begins moving, kinetic friction determines the friction force regardless of whether she just started or was already moving. The very low coefficient of friction on ice (0.02 kinetic) allows even modest forces to produce noticeable acceleration.
 
 ::::
 
@@ -1268,7 +1268,7 @@ $$a = (9.80 \mss)(0.1736 - 0.0985)$$
 </div>
 
 <div class="equation">
-$$a = (9.80 \mss)(0.0751) = 0.736 \mss$$
+$$a = (9.80 \mss)(0.07517) = 0.737 \mss$$
 </div>
 
 (b) Angle for constant velocity (zero acceleration):
@@ -1299,7 +1299,7 @@ $$\theta = \tan^{-1}(0.1) = 5.71°$$
 
 **Discussion**
 
-The skier accelerates at $$0.736 \mss$$ on the $$10.0°$$ slope. To coast at constant velocity, the skier would need a slope of $$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$\tan\theta = \mu_{\text{k}}$$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
+The skier accelerates at $$0.737 \mss$$ on the $$10.0°$$ slope. To coast at constant velocity, the skier would need a slope of $$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$\tan\theta = \mu_{\text{k}}$$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
 
 ::::
 
@@ -1936,7 +1936,7 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{32.3 \N}{45.0 \kg} = 0.718 \mss \approx 0
 
 **Discussion**
 
-The minimum force required to start the block moving is $$51.0 \N$$. Once moving, maintaining this force produces an acceleration of $$0.720 \mss$$. The acceleration is possible because kinetic friction ($$\mu_{\text{k}} = 0.03$$) is less than static friction ($$\mu_{\text{k}} = 0.1$$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
+The minimum force required to start the block moving is $$51.0 \N$$. Once moving, maintaining this force produces an acceleration of $$0.720 \mss$$. The acceleration is possible because kinetic friction ($$\mu_{\text{k}} = 0.03$$) is less than static friction ($$\mu_{\text{s}} = 0.1$$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
 
 ::::
 
@@ -2025,17 +2025,17 @@ $$f_{\text{k}} = \mu_{\text{k}}\mag{N} = (0.03)(421.3 \N) = 12.6 \N$$
 
 3. Calculate the net horizontal force:
 <div class="equation">
-$$\sum F_x = F\cos 25° - f_{\text{k}} = (46.5 \N)(0.9063) - 12.6 \N = 42.1 \N - 12.6 \N = 29.5 \N$$
+$$\sum F_x = F\cos 25° - f_{\text{k}} = (46.49 \N)(0.9063) - 12.64 \N = 42.13 \N - 12.64 \N = 29.49 \N$$ (keeping guard digits from the unrounded pull $$F = 46.49 \N$$)
 </div>
 
 4. Calculate the acceleration:
 <div class="equation">
-$$a = \frac{F_{\text{net}}}{m} = \frac{29.5 \N}{45.0 \kg} = 0.656 \mss$$
+$$a = \frac{F_{\text{net}}}{m} = \frac{29.49 \N}{45.0 \kg} = 0.655 \mss$$
 </div>
 
 **Discussion**
 
-When pulling, the minimum force required is $$46.5 \N$$, and the acceleration once moving is $$0.656 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
+When pulling, the minimum force required is $$46.5 \N$$, and the acceleration once moving is $$0.655 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
 
 ::::
 

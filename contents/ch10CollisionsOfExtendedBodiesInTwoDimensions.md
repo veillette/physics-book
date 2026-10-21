@@ -771,7 +771,7 @@ $$ KE_{i} = \frac{1}{2}mv^{2} = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22
 Final kinetic energy (translational plus rotational about CM):
 
 <div class="equation">
-$$ KE_{f} = 2.04 \J $$
+$$ KE_{f} = 2.05 \J $$
 </div>
 
 **(c)** Linear momentum is conserved:
@@ -782,13 +782,13 @@ $$ p_f = p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
 
 **Discussion**
 
-When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating at **3.41 rad/s**—substantially faster than the **1.74 rad/s** in Example 1 because rotation is now about the shifted center of mass with a smaller moment of inertia. Energy is still largely lost in the inelastic collision (22.5 - 2.04 = 20.5 J lost, or 91% loss).
+When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating at **3.41 rad/s**—substantially faster than the **1.74 rad/s** in Example 1 because rotation is now about the shifted center of mass with a smaller moment of inertia. Energy is still largely lost in the inelastic collision (22.5 J − 2.05 J = 20.5 J lost, or 91% loss).
 
 **Answer**
 
 (a) The system's center-of-mass velocity is **0.732 m/s**, and the angular velocity is **3.41 rad/s**.
 
-(b) Initial kinetic energy is 22.5 J; final kinetic energy is 2.04 J. About 91% of the energy is lost.
+(b) Initial kinetic energy is 22.5 J; final kinetic energy is 2.05 J. About 91% of the energy is lost.
 
 (c) Linear momentum is conserved at **1.50 kg·m/s** (unlike the nailed case where external forces act).
 

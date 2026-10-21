@@ -749,7 +749,7 @@ $$ g_{\text{Mars}} = \frac{4.28 \times 10^{13} \text{m}^3/\text{s}^2}{1.14 \time
 
 **Discussion**
 
-The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The relatively low gravity on both bodies also explains why neither has been able to retain a substantial atmosphere—the escape velocity is lower, allowing atmospheric gases to more easily escape into space.
+The Moon's surface gravity (1.62 m/s²) is about 16.5% of Earth's gravity (9.80 m/s²). This is why astronauts could make such dramatic leaps on the lunar surface—their weight was only about 1/6 of what it is on Earth. Mars' surface gravity (3.75 m/s²) is about 38% of Earth's gravity, making it significantly stronger than the Moon's but still much weaker than Earth's. This has important implications for future Mars missions: astronauts would weigh roughly 2/5 of their Earth weight, making movement easier than on Earth but not as dramatically different as on the Moon. The low gravity also helps explain why the Moon has essentially no atmosphere and Mars has only a thin one (a surface pressure of about 600 Pa, less than 1% of Earth's): a lower escape velocity lets atmospheric gases escape into space more easily.
 
 ::::
 
@@ -785,18 +785,18 @@ $$ g_{\text{Sun}} = G\frac{M_{\text{Sun}}}{r_{\text{Sun}}^2} = (6.67 \times 10^{
 </div>
 
 <div class="equation">
-$$ g_{\text{Sun}} = \frac{1.33 \times 10^{20} \text{m}^3/\text{s}^2}{4.84 \times 10^{17} \mm} = 275\text{ m/s}^2 $$
+$$ g_{\text{Sun}} = \frac{1.33 \times 10^{20} \text{m}^3/\text{s}^2}{4.84 \times 10^{17} \mm} = 274\text{ m/s}^2 $$ (computed from the unrounded values $$ GM/R^2 = (6.67 \times 10^{-11})(1.99 \times 10^{30})/(6.96 \times 10^{8})^2 $$)
 </div>
 
 (b) Calculate the factor by which weight would increase:
 
 <div class="equation">
-$$ \frac{g_{\text{Sun}}}{g_{\text{Earth}}} = \frac{275\text{ m/s}^2}{9.80\text{ m/s}^2} = 28.1 $$
+$$ \frac{g_{\text{Sun}}}{g_{\text{Earth}}} = \frac{274\text{ m/s}^2}{9.80\text{ m/s}^2} = 28.0 $$
 </div>
 
 **Discussion**
 
-The acceleration due to gravity on the Sun's surface is 275 m/s², which is about 28 times stronger than Earth's gravity. If you could somehow stand on the Sun's surface, your weight would increase by a factor of 28.1. This means that if you weigh 70 kg (about 154 lb) on Earth, you would weigh nearly 2000 kg (about 4300 lb) on the Sun - far too much for your body to support, even before considering the intense heat and radiation!
+The acceleration due to gravity on the Sun's surface is 274 m/s², which is about 28 times stronger than Earth's gravity. If you could somehow stand on the Sun's surface, your weight would increase by a factor of 28.0. A 70-kg person, who weighs about 690 N (154 lb) on Earth, would weigh about $$1.9 \times 10^{4}$$ N (about 4300 lb) on the Sun; their mass would still be 70 kg - far too much for your body to support, even before considering the intense heat and radiation!
 
 ::::
 

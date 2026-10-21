@@ -440,7 +440,7 @@ The magnitudes are: $$ F_1 = 196 \N $$ (pushing down) and $$ F_2 = 392 \N $$ (pu
 
 **Discussion**
 
-Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $$ F_2 $$ must not only support the weight but also counteract the downward push of $$ F_1 $$. The hand at position 2 acts as a fulcrum, and the system behaves like a lever. The fact that $$ F_2 = 2W $$ makes sense given the geometry: the cg is twice as far from $$ F_2 $$ as it is from where $$ F_2 $$ is applied. This carrying technique is common for long boards, but it requires significant force from the supporting hand.
+Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $$ F_2 $$ must not only support the weight but also counteract the downward push of $$ F_1 $$. The hand at position 2 acts as a fulcrum, and the system behaves like a lever. The fact that $$ F_2 = 2W $$ makes sense given the geometry: measured from the end where $$ F_1 $$ is applied, the weight acts at 1.00 m while $$ F_2 $$ acts at only 0.500 m, so with half the weight's lever arm $$ F_2 $$ must be twice the weight: $$ F_2 \times 0.500 \m = W \times 1.00 \m $$. This carrying technique is common for long boards, but it requires significant force from the supporting hand.
 
 :::
 
@@ -519,8 +519,8 @@ Given:
 
 Taking torques about the pivot point (the foot):
 
-- The weight creates a clockwise torque: $$ \tau_{W} = W \times d_x $$
-- The wind force creates a counterclockwise torque: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
+- The foot is 9.0 cm to the right of the cg, so the weight, acting to the left of the pivot, creates a counterclockwise torque that would tip the chicken over to the left: $$ \tau_{W} = W \times d_x $$
+- The wind pushes to the right at a height $$ h $$ above the foot, creating a clockwise torque that holds the chicken up: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
 
 For equilibrium:
 
@@ -548,13 +548,13 @@ The ratio of wind force to weight is **0.45**, or about 45%.
 
 **Solution for (c)**
 
-Yes, this supports the contention that the chicken has a relatively stable construction. Even when displaced significantly from equilibrium (with the cg 9.0 cm away from the foot), only a moderate wind force—less than half the chicken's weight—is needed to maintain balance.
+Yes, in the sense that the chicken can lean its center of gravity well past its single supporting foot, 9.0 cm, and be held there by a wind force less than half its weight. The ratio is small because the wind acts on the longer lever arm: $$ F_{\text{wind}}/W = d_x/h = (0.090 \m)/(0.20 \m) = 0.45 $$.
 
-This is because the chicken's cg is relatively low (only 20 cm above the ground), creating a short lever arm for the wind force, while the horizontal displacement creates a modest restoring torque from gravity. If the chicken's cg were higher (like a human's), a much smaller wind force relative to weight would cause tipping.
+Note that a *lower* center of gravity would not make this easier: it would shorten the wind's lever arm $$ h $$ and so *raise* the wind force needed to support the same lean. The weight's torque is the one that tips the chicken further over; the wind is what holds it up.
 
 **Discussion**
 
-This problem illustrates why chickens are remarkably stable birds. Their low center of gravity and wide stance create a geometry where large displacements require proportionally larger disturbing forces. Compare this to a human, whose high cg means that even small displacements can lead to falling. This stable construction allows chickens to maintain balance easily while pecking at the ground or when buffeted by wind.
+The torque balance about the foot compares two lever arms: 9.0 cm for the weight and 20 cm for the wind. A horizontal push applied high up has a large lever arm, so a modest force can balance a large lean. The same geometry works the other way for a disturbing force: a push applied high on a body is the most effective way to tip it, which is one reason a low center of gravity and a wide base of support make an object hard to knock over when it stands normally on both feet.
 
 :::
 

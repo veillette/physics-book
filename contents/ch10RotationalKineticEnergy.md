@@ -820,7 +820,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{86400 \s} = 7.27 \times 10^{-5} \text{ 
 Rotational kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37} \text{kg}\cdot\text{m}^2)(7.27 \times 10^{-5} \rads)^2 = 2.57 \times 10^{29} \J $$
+$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37} \text{kg}\cdot\text{m}^2)(7.27 \times 10^{-5} \rads)^2 = 2.56 \times 10^{29} \J $$
 </div>
 
 **(b)** Earth's orbital kinetic energy:
@@ -830,24 +830,24 @@ Orbital radius: r = 1.50 × 10¹¹ m, orbital period: T = 365.25 days = 3.156 ×
 Orbital velocity:
 
 <div class="equation">
-$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.98 \times 10^4 \text{ m/s} $$
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.99 \times 10^4 \text{ m/s} $$
 </div>
 
 Orbital kinetic energy (translational):
 
 <div class="equation">
-$$ KE_{\text{orbital}} = \frac{1}{2}Mv^{2} = \frac{1}{2}(5.97 \times 10^{24} \kg)(2.98 \times 10^4 \text{ m/s})^2 = 2.65 \times 10^{33} \J $$
+$$ KE_{\text{orbital}} = \frac{1}{2}Mv^{2} = \frac{1}{2}(5.97 \times 10^{24} \kg)(2.986 \times 10^4 \text{ m/s})^2 = 2.66 \times 10^{33} \J $$
 </div>
 
 **Discussion**
 
-Earth's orbital kinetic energy (2.65 × 10³³ J) is about 10,000 times larger than its rotational kinetic energy (2.57 × 10²⁹ J). This makes sense because Earth travels at 30 km/s in its orbit, which is much faster than the surface rotation speed (about 465 m/s at the equator). Both energies are enormous and extremely well conserved over astronomical timescales.
+Earth's orbital kinetic energy (2.66 × 10³³ J) is about 10,000 times larger than its rotational kinetic energy (2.56 × 10²⁹ J). This makes sense because Earth travels at 30 km/s in its orbit, which is much faster than the surface rotation speed (about 465 m/s at the equator). Both energies are enormous and extremely well conserved over astronomical timescales.
 
 **Answer**
 
-(a) Earth's rotational kinetic energy is **2.57 × 10²⁹ J**.
+(a) Earth's rotational kinetic energy is **2.56 × 10²⁹ J**.
 
-(b) Earth's orbital kinetic energy is **2.65 × 10³³ J**, about 10,000 times larger.
+(b) Earth's orbital kinetic energy is **2.66 × 10³³ J**, about 10,000 times larger.
 
 ::::
 

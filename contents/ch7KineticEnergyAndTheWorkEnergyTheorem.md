@@ -527,7 +527,7 @@ Convert speeds to m/s:
 
 <div class="equation">
 $$ \begin{array}{lll}
-v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.6\ms\\
+v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.56\ms\\
 v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\ms
 \end{array} $$
 </div>
@@ -535,7 +535,7 @@ v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\m
 Kinetic energy of truck:
 
 <div class="equation">
- $$ \KE_{\text{truck}} = \frac{1}{2}(20000\kg)(30.6\ms)^{2} = 9.37 \times 10^{6}\J $$
+ $$ \KE_{\text{truck}} = \frac{1}{2}(20000\kg)(30.56\ms)^{2} = 9.34 \times 10^{6}\J $$
 </div>
 
 Kinetic energy of astronaut:
@@ -547,7 +547,9 @@ Kinetic energy of astronaut:
 The ratio is:
 
 <div class="equation">
- $$ \frac{\KE_{\text{truck}}}{\KE_{\text{astronaut}}} = \frac{9.37 \times 10^{6}\J}{2.33 \times 10^{9}\J} = 4.02 \times 10^{-3} \approx \frac{1}{250} $$
+ $$ \frac{\KE_{\text{truck}}}{\KE_{\text{astronaut}}} = \frac{9.34 \times 10^{6}\J}{2.33 \times 10^{9}\J} = 4.00 \times 10^{-3} = \frac{1}{250} $$
+
+The ratio is exactly 1/250: the truck's mass is 250 times the astronaut's and the astronaut's speed is 250 times the truck's, so $$\KE_{\text{truck}}/\KE_{\text{astronaut}} = 250 \times (1/250)^2 = 1/250$$.
 </div>
 
 **Discussion**
@@ -556,7 +558,7 @@ The truck's kinetic energy is only 1/250th that of the astronaut in orbit. Even 
 
 **Answer**
 
-The truck has a kinetic energy of $$ 9.37 \times 10^{6} \J $$, while the astronaut has $$ 2.33 \times 10^{9} \J $$. The astronaut's kinetic energy is approximately 250 times greater than the truck's.
+The truck has a kinetic energy of $$ 9.34 \times 10^{6} \J $$, while the astronaut has $$ 2.33 \times 10^{9} \J $$. The astronaut's kinetic energy is approximately 250 times greater than the truck's.
 
 :::
 

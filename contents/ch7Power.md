@@ -713,32 +713,32 @@ The work done against friction is:
 The total work done by the dragster is:
 
 <div class="equation">
- $$ W_{\text{total}} = \Delta \KE + W_{f} = 3.03 \times 10^{6}\J + 4.80 \times 10^{5}\J = 3.51 \times 10^{6}\J $$
+ $$ W_{\text{total}} = \Delta \KE + W_{f} = 3.025 \times 10^{6}\J + 4.80 \times 10^{5}\J = 3.505 \times 10^{6}\J $$
 </div>
 
 The average power output is:
 
 <div class="equation">
- $$ P = \frac{W}{t} = \frac{3.51 \times 10^{6}\J}{7.30\s} = 4.81 \times 10^{5}\text{ W} = 481\text{ kW} $$
+ $$ P = \frac{W}{t} = \frac{3.505 \times 10^{6}\J}{7.30\s} = 4.80 \times 10^{5}\text{ W} = 480\text{ kW} $$
 </div>
 
 Converting to horsepower:
 
 <div class="equation">
- $$ P = \frac{4.81 \times 10^{5}\text{ W}}{746\text{ W/hp}} = 645\text{ hp} $$
+ $$ P = \frac{4.80 \times 10^{5}\text{ W}}{746\text{ W/hp}} = 644\text{ hp} $$
 </div>
 
 **Discussion**
 
-The dragster's average power output of 481 kW (645 hp) is reasonable for a high-performance racing vehicle, though it's worth noting this is the average power over the acceleration period. Top fuel dragsters can actually produce peak powers exceeding 10,000 hp (7.5 MW), but this calculation gives us the average sustained power needed to achieve the stated performance.
+The dragster's average power output of 480 kW (644 hp) is reasonable for a high-performance racing vehicle, though it's worth noting this is the average power over the acceleration period. Top fuel dragsters can actually produce peak powers exceeding 10,000 hp (7.5 MW), but this calculation gives us the average sustained power needed to achieve the stated performance.
 
 The total work done by the dragster is 3.51 MJ, with about 86% going into kinetic energy and 14% overcoming friction. This shows that even with the significant frictional force of 1200 N over 400 m, the dominant energy requirement is still accelerating the dragster's mass to 110 m/s (nearly 250 mph).
 
-The power output of 645 hp is actually modest by drag racing standards, suggesting this might be a lower-class dragster rather than a top fuel dragster. Professional top fuel dragsters can accelerate even faster (covering a quarter mile in under 4 seconds at over 330 mph), requiring the much higher peak powers mentioned above. This problem illustrates how power requirements scale with both the desired speed and the time available to reach it—faster acceleration times demand proportionally greater power.
+The power output of 644 hp is actually modest by drag racing standards, suggesting this might be a lower-class dragster rather than a top fuel dragster. Professional top fuel dragsters can accelerate even faster (covering a quarter mile in under 4 seconds at over 330 mph), requiring the much higher peak powers mentioned above. This problem illustrates how power requirements scale with both the desired speed and the time available to reach it—faster acceleration times demand proportionally greater power.
 
 **Answer**
 
-The average power output is approximately $$ 4.81 \times 10^{5} $$ W (481 kW) or 645 hp.
+The average power output is approximately $$ 4.80 \times 10^{5} $$ W (480 kW) or 644 hp.
 
 :::
 
@@ -840,13 +840,13 @@ Work to accelerate the system:
 Total work:
 
 <div class="equation">
- $$ W_{\text{total}} = 8.58 \times 10^{5}\J + 8.00 \times 10^{4}\J = 9.38 \times 10^{5}\J $$
+ $$ W_{\text{total}} = 8.575 \times 10^{5}\J + 8.00 \times 10^{4}\J = 9.375 \times 10^{5}\J $$
 </div>
 
 Power output:
 
 <div class="equation">
- $$ P = \frac{W}{t} = \frac{9.38 \times 10^{5}\J}{12.0\s} = 7.82 \times 10^{4}\text{ W} = 78.2\text{ kW} $$
+ $$ P = \frac{W}{t} = \frac{9.375 \times 10^{5}\J}{12.0\s} = 7.81 \times 10^{4}\text{ W} = 78.1\text{ kW} $$
 </div>
 
 **Solution for (b)**
@@ -854,7 +854,7 @@ Power output:
 Energy consumed in kW·h:
 
 <div class="equation">
- $$ E = Pt = (78.2\text{ kW})\left(\frac{12.0\s}{3600\s/\text{h}}\right) = (78.2\text{ kW})(0.00333\text{ h}) = 0.260\text{ kW}\cdot\text{h} $$
+ $$ E = Pt = (78.1\text{ kW})\left(\frac{12.0\s}{3600\s/\text{h}}\right) = (78.1\text{ kW})(0.00333\text{ h}) = 0.260\text{ kW}\cdot\text{h} $$
 </div>
 
 Cost:
@@ -865,7 +865,7 @@ Cost:
 
 **Discussion**
 
-Part (a): The elevator motor's useful power output is 78.2 kW (approximately 105 hp), which is reasonable for a commercial elevator. The majority of the work (858 kJ out of 938 kJ total, or 91%) goes into lifting the 2500-kg load against gravity, while only 9% goes into accelerating the 10,000-kg system to its final speed of 4.00 m/s. This distribution is typical for elevators, where the primary energy expenditure is overcoming gravitational potential energy.
+Part (a): The elevator motor's useful power output is 78.1 kW (approximately 105 hp), which is reasonable for a commercial elevator. The majority of the work (858 kJ out of 938 kJ total, or 91%) goes into lifting the 2500-kg load against gravity, while only 9% goes into accelerating the 10,000-kg system to its final speed of 4.00 m/s. This distribution is typical for elevators, where the primary energy expenditure is overcoming gravitational potential energy.
 
 The counterbalancing system is an important practical feature mentioned in this problem. By counterbalancing most of the elevator's weight, the system ensures that the motor only needs to lift the net load (2500 kg) rather than the entire elevator plus passengers. However, the full mass (10,000 kg) must still be accelerated and decelerated, which is why we use the total mass when calculating kinetic energy. Without counterbalancing, elevator motors would need to be much more powerful and would consume far more energy.
 
@@ -873,7 +873,7 @@ Part (b): The electricity cost for this single elevator trip is approximately 2.
 
 **Answer**
 
-(a) The useful power output is approximately 78.2 kW.
+(a) The useful power output is approximately 78.1 kW.
 (b) The electricity cost for this elevator trip is approximately \$0.023 (2.3 cents).
 
 :::
@@ -902,13 +902,13 @@ For part (a), use $$ E = Pt $$ where the clock runs for 18 months, taking each m
 **(a)** Convert 18 months to seconds:
 
 <div class="equation">
-$$ t = 18\text{ months} \times \frac{30\text{ days}}{1\text{ month}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\s}{1\text{ h}} = 4.67 \times 10^{7}\s $$
+$$ t = 18\text{ months} \times \frac{30\text{ days}}{1\text{ month}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\s}{1\text{ h}} = 4.666 \times 10^{7}\s $$
 </div>
 
 Energy content of the battery:
 
 <div class="equation">
-$$ E = Pt = (2.00\text{ W})(4.67 \times 10^{7}\s) = 9.34 \times 10^{7}\J $$
+$$ E = Pt = (2.00\text{ W})(4.666 \times 10^{7}\s) = 9.33 \times 10^{7}\J $$
 </div>
 
 **(b)** Calculate how long the calculator can run:
@@ -925,7 +925,7 @@ $$ t = \frac{8.00 \times 10^{7}\s}{3.156 \times 10^{7}\text{ s/year}} = 2.54\tex
 
 **Discussion**
 
-Part (a): The battery contains approximately $$ 9.34 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.78 gallons (about 3 liters) of gasoline, using $$ 1.2 \times 10^{8} $$ J/gal. A battery storing 26 kW·h is far from a small clock battery; it is comparable to the battery pack of a small electric car. Real clocks use far less than 2.00 W, which is why their small batteries last so long. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
+Part (a): The battery contains approximately $$ 9.33 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.78 gallons (about 3 liters) of gasoline, using $$ 1.2 \times 10^{8} $$ J/gal. A battery storing 26 kW·h is far from a small clock battery; it is comparable to the battery pack of a small electric car. Real clocks use far less than 2.00 W, which is why their small batteries last so long. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
 
 Part (b): The calculator can run for $$ 8.00 \times 10^{7} $$ s, which is approximately 2.54 years of continuous operation. This extraordinarily long runtime is possible because pocket calculators consume power at an extremely low rate—only 1.00 mW (0.001 W). Modern calculator chips use CMOS technology specifically designed for minimal power consumption. In practice, calculators often last even longer than this calculation suggests because they spend much of their time in sleep mode, consuming even less power. Additionally, many calculators use solar cells that recharge the battery during use.
 
@@ -933,7 +933,7 @@ The stark contrast between the clock battery (2 W for 18 months) and the calcula
 
 **Answer**
 
-(a) The battery contains approximately $$ 9.34 \times 10^{7} $$ J of energy.
+(a) The battery contains approximately $$ 9.33 \times 10^{7} $$ J of energy.
 (b) The battery can run the calculator for approximately $$ 8.00 \times 10^{7} $$ s, or about 2.54 years.
 
 :::

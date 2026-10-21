@@ -896,7 +896,7 @@ The average force exerted on the pier is $$ 4.69 \times 10^{5} \N $$ (about 105,
 
 **Discussion**
 
-Despite the relatively slow speed of 0.750 m/s (about 1.5 mph—walking pace), the ship's enormous mass results in a force of nearly half a million newtons! The 16-second stopping time helps reduce this force—if the ship stopped more abruptly (say, in 1 second), the force would be 16 times larger (7.5 million N). This illustrates why docking procedures are so careful and why tugboats are essential for maneuvering large vessels.
+Despite the relatively slow speed of 0.750 m/s (about 1.68 mph—a slow walking pace), the ship's enormous mass results in a force of nearly half a million newtons! The 16-second stopping time helps reduce this force—if the ship stopped more abruptly (say, in 1 second), the force would be 16 times larger (7.5 million N). This illustrates why docking procedures are so careful and why tugboats are essential for maneuvering large vessels.
 
 :::
 
@@ -941,7 +941,7 @@ The final speed of the rugby player is 0.80 m/s, moving backward (away from the 
 
 **Discussion**
 
-The player not only stops but bounces back at 0.80 m/s. The impulse of 968 kg·m/s is larger than the initial momentum of 880 kg·m/s, causing the reversal. The padded goalpost extends the collision time to 55 ms, limiting the force to about 17,600 N—still a substantial 16 times body weight, but survivable due to the padding. Without padding, the collision time would be much shorter and the force could cause serious injury.
+The player not only stops but bounces back at 0.80 m/s. The impulse of 968 kg·m/s is larger than the initial momentum of 880 kg·m/s, causing the reversal. The padded goalpost extends the collision time to 55 ms, limiting the force to about 17,600 N—still a substantial 16 times body weight. This average force alone does not tell us whether the impact is survivable; that depends on how the force is distributed over the body and on its peak value. Without padding, the collision time would be much shorter and the force could cause serious injury.
 
 :::
 
@@ -1178,7 +1178,7 @@ The mass of the tennis ball is 60.0 g.
 
 **Discussion**
 
-This result is consistent with official tennis ball specifications, which require balls to have a mass between 56.0 and 59.4 grams. Our calculated value of 60.0 g is very close to this range. The short contact time of 5 ms, combined with the 540 N force, produces an impulse sufficient to accelerate this light ball to serve speeds of 45 m/s (162 km/h or about 100 mph)—a respectable recreational serve.
+Official tennis ball specifications require a mass between 56.0 and 59.4 grams, so our calculated 60.0 g lies just above that range: a reasonable value, given the rounded force and contact time, but not within the specification. The short contact time of 5 ms, combined with the 540 N force, produces an impulse sufficient to accelerate this light ball to serve speeds of 45 m/s (162 km/h or about 100 mph)—a respectable recreational serve.
 
 :::
 
@@ -1229,11 +1229,11 @@ $$ J_y = p_{fy} - p_{iy} = 1.11 \text{kg}\cdot\text{m/s} - (-0.332 \text{kg}\cdo
 
 Find the magnitude and direction:
 
-$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.775 \text{kg}\cdot\text{m/s})^2 + (1.44 \text{kg}\cdot\text{m/s})^2} = 1.64 \kg \cdot \ms $$
+$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.7743 \text{kg}\cdot\text{m/s})^2 + (1.4379 \text{kg}\cdot\text{m/s})^2} = 1.63 \kg \cdot \ms $$ (using the unrounded components)
 
 $$ \theta = \tan^{-1}\left(\frac{J_y}{J_x}\right) = \tan^{-1}\left(\frac{1.44 \text{kg}\cdot\text{m/s}}{0.775 \text{kg}\cdot\text{m/s}}\right) = 61.7^\circ $$
 
-The impulse delivered by the foot is 1.64 kg·m/s at 61.7° above the horizontal.
+The impulse delivered by the foot is 1.63 kg·m/s at 61.7° above the horizontal.
 
 **Discussion**
 

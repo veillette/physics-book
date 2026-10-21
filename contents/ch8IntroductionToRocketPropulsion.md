@@ -744,9 +744,9 @@ Solve for the mass ratio:
 
 $$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3} \ms}{2.20 \times 10^{3} \ms} = 3.636 $$
 
-$$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.9 $$
+$$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.95 $$
 
-$$ m_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
+$$ m_{\text{r}} = \frac{m_0}{37.95} = \frac{100\,000 \kg}{37.95} = 2.63 \times 10^{3} \kg $$
 
 The mass that can be anything but fuel is $$ 2.63 \times 10^{3} \kg $$ (2630 kg), which is only 2.63% of the total rocket mass.
 

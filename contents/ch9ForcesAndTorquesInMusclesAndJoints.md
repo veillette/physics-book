@@ -628,7 +628,7 @@ $$ F_{\text{E}} = F_{\text{B}} - w_{\text{a}} - w_{\text{b}} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{E}} = 470 \N - 24.5 \N - 39.2 \N = 406.3 \N \approx 407 \N $$
+$$ F_{\text{E}} = 470.4 \N - 24.5 \N - 39.2 \N = 406.7 \N \approx 407 \N $$ (using the unrounded biceps force, 470.4 N)
 </div>
 
 Alternatively, using the torque method shown in the original solution:
@@ -883,7 +883,7 @@ Three forces act on the head: the weight (50 N downward), the muscle force (60 N
 
 **Solution**
 
-Take positive $$x$$ to the right (toward the neck in Figure 8) and positive $$y$$ upward.
+Take positive $$x$$ to the right (toward the face in Figure 8) and positive $$y$$ upward.
 
 From [Figure 8](#Figure8):
 - Weight: $$ W = 50 \N $$ (downward)
@@ -1426,7 +1426,7 @@ The triceps force is **1680 N**, which is **3.4 times her weight**.
 Work done equals the change in gravitational potential energy:
 
 <div class="equation">
-$$ W_{\text{done}} = mgh = \frac{490 \N}{9.80 \mss} \times 9.80 \mss \times 0.240 \m = (490 \N)(0.240 \m) = 118 \text{ J} $$
+$$ W_{\text{done}} = mgh = \frac{490 \N}{9.80 \mss} \times 9.80 \mss \times 0.240 \m = (490 \N)(0.240 \m) = 117.6 \text{ J} \approx 118 \text{ J} $$
 </div>
 
 **Solution for (d)**
@@ -1434,16 +1434,16 @@ $$ W_{\text{done}} = mgh = \frac{490 \N}{9.80 \mss} \times 9.80 \mss \times 0.24
 For 25 pushups in 60 seconds:
 
 <div class="equation">
-$$ \text{Total work} = 25 \times 118 \text{ J} = 2950 \text{ J} $$
+$$ \text{Total work} = 25 \times 117.6 \text{ J} = 2940 \text{ J} $$
 </div>
 
 <div class="equation">
-$$ P = \frac{\text{Work}}{\text{time}} = \frac{2950 \text{ J}}{60 \s} = 49.2 \text{W} \approx 49.0 \text{W} $$
+$$ P = \frac{\text{Work}}{\text{time}} = \frac{2940 \text{ J}}{60 \s} = 49.0 \text{W} $$
 </div>
 
 **Discussion**
 
-The pushup is an excellent exercise that demonstrates several biomechanical principles. Part (a) shows that each hand supports only 30% of body weight due to the lever advantage—the center of gravity is closer to the feet than to the hands. However, part (b) reveals the cost: the triceps must exert 3.4 times body weight (over 1600 N!) because of the poor mechanical advantage at the elbow. This extreme muscle force explains why pushups are so effective for building upper body strength. The work calculation in part (c) accounts only for raising the center of mass, not the total metabolic energy expended, which would be several times higher due to muscle inefficiency. The power output of 49 W is modest but sustained over many repetitions makes pushups an effective exercise.
+The pushup is an excellent exercise that demonstrates several biomechanical principles. Part (a) shows that the two hands together support 60% of body weight (30% each), because the center of gravity is closer to the hands (0.60 m) than to the feet (0.90 m); the feet support the remaining 40%. However, part (b) reveals the cost: the triceps must exert 3.4 times body weight (over 1600 N!) because of the poor mechanical advantage at the elbow. This extreme muscle force explains why pushups are so effective for building upper body strength. The work calculation in part (c) accounts only for raising the center of mass, not the total metabolic energy expended, which would be several times higher due to muscle inefficiency. The power output of 49 W is modest but sustained over many repetitions makes pushups an effective exercise.
 
 **Answer**
 

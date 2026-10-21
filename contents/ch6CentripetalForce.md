@@ -711,7 +711,7 @@ $$\omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0 \kg)(1.25 \m)(17.6 \text{s}^{-2}) = 483\text{ N}$$
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.189\text{ rad/s})^2 = (22.0 \kg)(1.25 \m)(17.55 \text{s}^{-2}) = 483\text{ N}$$
 </div>
 
 (b) For the amusement park ride:
@@ -735,12 +735,12 @@ $$\frac{F_{c,a}}{w} = \frac{483\text{ N}}{216\text{ N}} = 2.24$$
 </div>
 
 <div class="equation">
-$$\frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0807$$
+$$\frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0806$$
 </div>
 
 **Discussion**
 
-On the playground merry-go-round, the ride (through her grip and the seat) must exert an inward centripetal force of 483 N **on her**, which is 2.24 times her weight, so she would need to hold on tightly. By Newton's third law she pulls outward on the ride with an equal force; that outward force acts on the ride, not on her. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0807 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
+On the playground merry-go-round, the ride (through her grip and the seat) must exert an inward centripetal force of 483 N **on her**, which is 2.24 times her weight, so she would need to hold on tightly. By Newton's third law she pulls outward on the ride with an equal force; that outward force acts on the ride, not on her. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0806 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
 
 :::
 
@@ -1246,11 +1246,11 @@ $$a_c = \frac{v^2}{r}$$
 </div>
 
 <div class="equation">
-$$v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 221\text{ m}^2\text{/s}^2$$
+$$v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 220.5\text{ m}^2\text{/s}^2$$
 </div>
 
 <div class="equation">
-$$v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s}$$
+$$v = \sqrt{220.5\text{ m}^2\text{/s}^2} = 14.8\text{ m/s}$$
 </div>
 
 **Free-body diagram of a passenger at the top**
@@ -1265,7 +1265,7 @@ $$\sum F_y = -N - mg = m(-1.50g) \quad\Rightarrow\quad N = 0.50mg$$
 
 **Discussion**
 
-The speed of the roller coaster at the top of the loop is 14.9 m/s (about 54 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, so the **net** downward force on each passenger is $$ 1.50mg $$. Gravity supplies $$ mg $$ of this; the seat (above them, since they are upside down) pushes down on them with the remaining $$ 0.50mg $$. That contact force of half their weight is what keeps them pressed into their seats at the top of the loop.
+The speed of the roller coaster at the top of the loop is 14.8 m/s (about 53 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, so the **net** downward force on each passenger is $$ 1.50mg $$. Gravity supplies $$ mg $$ of this; the seat (above them, since they are upside down) pushes down on them with the remaining $$ 0.50mg $$. That contact force of half their weight is what keeps them pressed into their seats at the top of the loop.
 
 :::
 

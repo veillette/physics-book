@@ -607,8 +607,8 @@ $$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{r_{\text{Io}}^3 / T_{\text
 </div>
 
 From Table 1, we can read the $$r^3/T^2$$ values directly:
-- Moon: $$r^3/T^2 = 1.01 \times 10^{19} \text{m}^3/\text{s}^2$$ km³/y²
-- Io: $$r^3/T^2 = 3.19 \times 10^{21} \text{m}^3/\text{s}^2$$ km³/y²
+- Moon: $$r^3/T^2 = 1.01 \times 10^{19} \text{ km}^3/\text{y}^2$$
+- Io: $$r^3/T^2 = 3.19 \times 10^{21} \text{ km}^3/\text{y}^2$$
 
 <div class="equation">
 $$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21} \text{m}^3/\text{s}^2}{1.01 \times 10^{19} \text{m}^3/\text{s}^2} = 316$$
@@ -737,28 +737,30 @@ $$v = \sqrt{\frac{GM_{\text{Earth}}}{r}} = \sqrt{\frac{(6.674 \times 10^{-11} \t
 
 <div class="equation">
 $$v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3 \ms)\sqrt{2} = 1.05 \times 10^4\text{ m/s}$$
+
+The next steps keep a guard digit, $$v_{\text{rel}} = 1.046 \times 10^4\text{ m/s}$$, so that rounding does not shift the third figure of later results.
 </div>
 
 (c) Collision duration (time for rivet to pass through):
 
 <div class="equation">
-$$\Delta t = \frac{d}{v_{\text{rel}}} = \frac{3.00 \times 10^{-3}\text{ m}}{1.05 \times 10^4\text{ m/s}} = 2.86 \times 10^{-7}\text{ s}$$
+$$\Delta t = \frac{d}{v_{\text{rel}}} = \frac{3.00 \times 10^{-3}\text{ m}}{1.046 \times 10^4\text{ m/s}} = 2.87 \times 10^{-7}\text{ s}$$
 </div>
 
 (d) Average force using impulse-momentum theorem:
 
 <div class="equation">
-$$F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{m v_{\text{rel}}}{\Delta t} = \frac{(0.500 \times 10^{-3}\text{ kg})(1.05 \times 10^4\text{ m/s})}{2.86 \times 10^{-7}\text{ s}}$$
+$$F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{m v_{\text{rel}}}{\Delta t} = \frac{(0.500 \times 10^{-3}\text{ kg})(1.046 \times 10^4\text{ m/s})}{2.867 \times 10^{-7}\text{ s}}$$
 </div>
 
 <div class="equation">
-$$F_{\text{avg}} = \frac{5.25 \text{kg}\cdot\text{m/s}}{2.86 \times 10^{-7} \s} = 1.84 \times 10^7\text{ N}$$
+$$F_{\text{avg}} = \frac{5.23 \text{kg}\cdot\text{m/s}}{2.867 \times 10^{-7} \s} = 1.82 \times 10^7\text{ N}$$
 </div>
 
 (e) Energy generated (kinetic energy of rivet in satellite's reference frame):
 
 <div class="equation">
-$$E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3} \kg)(1.05 \times 10^4 \ms)^2 = (2.50 \times 10^{-4} \kg)(1.10 \times 10^8 \mmss) = 2.76 \times 10^4\text{ J}$$
+$$E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3} \kg)(1.046 \times 10^4 \ms)^2 = (2.50 \times 10^{-4} \kg)(1.095 \times 10^8 \mmss) = 2.74 \times 10^4\text{ J}$$
 </div>
 
 **Discussion**
