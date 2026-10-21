@@ -392,7 +392,7 @@ $$Z=10 $$ , the atomic number for neon. Thus the $${\beta }^{+} $$ decay
 equation for $${}^{22}\text{Na} $$ is
 
 <div class="equation" >
- $${}_{11}^{22}{\text{Na}}_{11}\to {}_10^{22}{\text{Ne}}_{12}+{\beta }^{+}+{\nu }_{e}. $$
+ $${}_{11}^{22}{\text{Na}}_{11}\to {}_{10}^{22}{\text{Ne}}_{12}+{\beta }^{+}+{\nu }_{e}. $$
 </div>
 
 In $${\beta }^{+} $$ decay, it is as if one of the protons in the parent nucleus

@@ -76,22 +76,29 @@ describe('EquationProcessor.validateMathSpans', () => {
 });
 
 describe('fixSubSupBraces', () => {
-  it('wraps multi-character subscripts', () => {
-    expect(fixSubSupBraces(String.raw`\tau_L = F_L \times 2d`)).toBe(
-      String.raw`\tau_{L} = F_L \times 2d`
+  it('wraps multi-digit subscripts', () => {
+    expect(fixSubSupBraces(String.raw`{}_10^{22}\text{Ne}`)).toBe(
+      String.raw`{}_{10}^{22}\text{Ne}`
     );
   });
 
-  it('wraps multi-character superscripts', () => {
-    expect(fixSubSupBraces(String.raw`\frac{1}{2}mv^2`)).toBe(String.raw`\frac{1}{2}mv^{2}`);
+  it('wraps signed and decimal superscripts', () => {
+    expect(fixSubSupBraces('10^-3 + x^2.5')).toBe('10^{-3} + x^{2.5}');
   });
 
-  it('leaves single-character scripts unchanged', () => {
-    expect(fixSubSupBraces(String.raw`x_1 + y^2`)).toBe(String.raw`x_1 + y^2`);
+  it('leaves single-token scripts unchanged, even after a multi-letter base', () => {
+    const s = String.raw`\mu_s N = mv^2 + x_1 + \tau_L`;
+    expect(fixSubSupBraces(s)).toBe(s);
   });
 
-  it('does not double-wrap already-braced scripts', () => {
-    expect(fixSubSupBraces(String.raw`\tau_{1} + mv^{2}`)).toBe(String.raw`\tau_{1} + mv^{2}`);
+  it('leaves tight products of single-letter subscripts unchanged', () => {
+    const s = String.raw`m_1v_1 = m_ec^{2} + k_BT`;
+    expect(fixSubSupBraces(s)).toBe(s);
+  });
+
+  it('does not double-wrap already-braced scripts or touch escaped underscores', () => {
+    const s = String.raw`x_{10} + 10^{-3} + \_10`;
+    expect(fixSubSupBraces(s)).toBe(s);
   });
 });
 
@@ -103,15 +110,15 @@ describe('EquationProcessor.fixSubSupInMathSpans', () => {
   });
 
   it('fixes only inside $$ spans, not URLs or prose', () => {
-    const content = ['see lunar-lander_en.html for the sim.', '$$ \\tau_L = F_L $$'].join('\n');
+    const content = ['see page_10.html for the sim.', '$$ x_10 = F_L $$'].join('\n');
     const { content: fixed, fixes } = proc.fixSubSupInMathSpans(content, 't.md');
-    expect(fixed).toContain(String.raw`\tau_{L} = F_L`);
-    expect(fixed).toContain('lunar-lander_en.html');
+    expect(fixed).toContain('x_{10} = F_L');
+    expect(fixed).toContain('page_10.html');
     expect(fixes).toHaveLength(1);
   });
 
   it('ignores sub/sup issues inside fenced code blocks', () => {
-    const content = ['```', String.raw`$$\tau_L$$`, '```'].join('\n');
+    const content = ['```', '$$x_10$$', '```'].join('\n');
     const { content: fixed, fixes } = proc.fixSubSupInMathSpans(content, 't.md');
     expect(fixed).toBe(content);
     expect(fixes).toHaveLength(0);
@@ -126,8 +133,13 @@ describe('EquationProcessor sub/sup warnings', () => {
   });
 
   it('warns inside math spans', () => {
-    proc.validateMathSpans('t.md', String.raw`$$ \tau_L = 1 $$`);
+    proc.validateMathSpans('t.md', '$$ x_10 = 1 $$');
     expect(proc.warnings.some(w => w.message.includes('subscript'))).toBe(true);
+  });
+
+  it('does not warn on single-token scripts after a multi-letter base', () => {
+    proc.validateMathSpans('t.md', String.raw`$$ mg \le \mu_s N = \mu_s m r\omega^2 $$`);
+    expect(proc.warnings).toHaveLength(0);
   });
 
   it('does not warn on iframe URLs outside math', () => {
