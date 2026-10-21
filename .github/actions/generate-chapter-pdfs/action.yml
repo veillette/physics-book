@@ -9,6 +9,11 @@ inputs:
     required: false
     default: "4"
 
+  complete-book:
+    description: Also generate the complete book PDF before stopping the server
+    required: false
+    default: "false"
+
 runs:
   using: composite
   steps:
@@ -51,6 +56,10 @@ runs:
         mkdir -p assets/pdf
         if compgen -G "pdf-output/*.pdf" > /dev/null; then
           cp -v pdf-output/*.pdf assets/pdf/
+        fi
+        if [ "${{ inputs.complete-book }}" = "true" ]; then
+          npm run generate:pdf:book
+          cp -v pdf-output/complete-book.pdf pdf-output/complete-book.json assets/pdf/
         fi
         pdf_count=$(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l || echo 0)
         echo "Copied ${pdf_count} PDF(s) to assets/pdf/"

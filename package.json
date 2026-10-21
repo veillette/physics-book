@@ -38,6 +38,7 @@
     "fix:equations": "node scripts/equations.js --fix",
     "generate:pdf": "node scripts/generate-pdf.js --all",
     "generate:pdf:combined": "node scripts/generate-pdf.js --combined",
+    "generate:pdf:book": "node scripts/generate-pdf.js --book",
     "generate:pdf:chapter": "node scripts/generate-pdf.js --chapter",
     "generate:pdf:help": "node scripts/generate-pdf.js --help",
     "generate:pdf:install": "npx playwright install chromium",
@@ -115,7 +116,8 @@
     "sharp": "^0.35.5",
     "simple-git": "^4.0.2",
     "vitest": "^5.0.5",
-    "lint-staged": "^17.4.1"
+    "lint-staged": "^17.4.1",
+    "pdf-lib": "^1.17.1"
   },
   "lint-staged": {
     "*.js": [

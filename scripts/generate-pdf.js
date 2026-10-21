@@ -21,20 +21,22 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'node:url';
 import { chromium } from '@playwright/test';
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
 import { runCli } from './lib/cli.js';
 import { getBaseDir, readFile } from './lib/files.js';
 import { extractPageContent, injectMathCss } from './lib/pdf-content.js';
+import { assembleBook, bookFiles } from './lib/pdf-book.js';
 
 /**
  * PDF generator class.
  */
-class PDFGenerator {
+export class PDFGenerator {
   constructor(options = {}) {
     this.baseDir = getBaseDir(import.meta.url);
     this.outputDir = path.join(this.baseDir, 'pdf-output');
-    this.baseUrl = options.baseUrl || 'http://localhost:4000/physics-book';
+    this.baseUrl = (options.baseUrl || 'http://localhost:4000/physics-book').replace(/\/+$/, '');
     this.chapter = options.chapter || null;
     this.all = options.all || false;
     this.combined = options.combined || false;
@@ -65,7 +67,6 @@ class PDFGenerator {
       `,
     };
     this.mathJaxWaitTime = 2000;
-    this.additionalWait = 1000;
 
     this.stats = {
       success: 0,
@@ -103,14 +104,14 @@ class PDFGenerator {
         // Generate PDF from specific URL
         const outputName = this.output || 'custom-output.pdf';
         await this.generateUrlPdf(this.url, outputName);
+      } else if (this.book) {
+        await this.generateCompleteBookPdf();
       } else {
         // Load book structure
         const chapters = this.loadBookStructure();
         console.log(`Loaded ${chapters.length} chapters from summary.json\n`);
 
-        if (this.book) {
-          await this.generateCompletBookPdf(chapters);
-        } else if (this.combined) {
+        if (this.combined) {
           await this.generateCombinedPdfs(chapters);
         } else if (this.all || this.chapter !== null) {
           await this.generateChapterPdfs(chapters);
@@ -144,8 +145,10 @@ class PDFGenerator {
   async checkServer(retries = 5, delay = 2000) {
     for (let i = 0; i < retries; i++) {
       try {
-        const response = await fetch(this.baseUrl);
-        if (response.ok || response.status === 404) {
+        const response = await fetch(`${this.baseUrl}/`, {
+          signal: globalThis.AbortSignal.timeout(10000),
+        });
+        if (response.ok) {
           return true;
         }
       } catch (_e) {
@@ -158,40 +161,30 @@ class PDFGenerator {
   }
 
   async waitForMathJax(page) {
-    try {
-      // First, wait for MathJax to be available
-      await page.waitForFunction(
-        () => {
-          if (typeof MathJax !== 'undefined') {
-            if (MathJax.Hub && MathJax.Hub.Queue) {
-              return (
-                MathJax.Hub.getAllJax().length === 0 ||
-                document.querySelectorAll('.MathJax_Processing').length === 0
-              );
-            } else if (MathJax.startup) {
-              return MathJax.startup.promise !== undefined;
-            }
-          }
-          return true;
-        },
-        { timeout: 10000 }
+    await page.waitForFunction(
+      () => window.MathJax?.startup?.promise && document.querySelector('.contents'),
+      null,
+      { timeout: 60000 }
+    );
+    await page.evaluate(async () => {
+      await window.MathJax.startup.promise;
+      // The viewer adds captions and queues another typeset after startup.
+      await new Promise(resolve => window.requestAnimationFrame(resolve));
+      await window.MathJax.typesetPromise();
+      await document.fonts.ready;
+    });
+  }
+
+  async waitForImages(page) {
+    await page.evaluate(async () => {
+      const images = [...document.querySelectorAll('main img')];
+      await Promise.all(
+        images.map(async image => {
+          image.loading = 'eager';
+          await image.decode();
+        })
       );
-
-      // Then wait for actual MathJax elements to be rendered
-      const hasMath = await page.evaluate(() => {
-        return document.querySelectorAll('mjx-container, .MathJax, .mjx-chtml').length > 0;
-      });
-
-      if (hasMath) {
-        // Wait for MathJax rendering to complete
-        await page.waitForSelector('mjx-container, .MathJax, .mjx-chtml', { timeout: 5000 });
-        // Brief additional wait for layout stabilization
-        await page.waitForTimeout(500);
-      }
-    } catch (_e) {
-      // If no math detected or timeout, use fallback wait
-      await page.waitForTimeout(this.mathJaxWaitTime);
-    }
+    });
   }
 
   async preparePage(page, injectCSS = false) {
@@ -217,7 +210,6 @@ class PDFGenerator {
         'header nav',
         'footer nav',
         '.book-menu',
-        '.summary',
         'aside',
         '.toc',
         '.table-of-contents',
@@ -245,19 +237,20 @@ class PDFGenerator {
     console.log(`  Navigating to: ${url}`);
 
     try {
-      await page.goto(url, {
-        waitUntil: 'networkidle',
+      const response = await page.goto(url, {
+        waitUntil: 'load',
         timeout: 60000,
       });
+      if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'no response'}`);
     } catch (e) {
       console.error(`  Failed to load page: ${e.message}`);
       return false;
     }
 
-    await this.preparePage(page);
     console.log('  Waiting for MathJax rendering...');
     await this.waitForMathJax(page);
-    await page.waitForTimeout(this.additionalWait);
+    await this.preparePage(page);
+    await this.waitForImages(page);
 
     console.log(`  Generating PDF: ${outputPath}`);
     await page.pdf({
@@ -399,87 +392,57 @@ class PDFGenerator {
     await context.close();
   }
 
-  async generateCompletBookPdf(chapters) {
-    const context = await this.browser.newContext();
-    const page = await context.newPage();
-    await page.setViewportSize(this.viewport);
-
+  async generateCompleteBookPdf() {
     const outputPath = path.join(this.outputDir, 'complete-book.pdf');
-    const startTime = Date.now();
+    const urls = bookFiles(readFile(path.join(this.baseDir, 'SUMMARY.md'))).map(file =>
+      this.fileToUrl(file)
+    );
 
-    console.log('\nGenerating complete book PDF with all chapters');
+    console.log(`\nGenerating complete book from ${urls.length} sources`);
+    const manifest = await assembleBook(
+      urls,
+      async (url, index) => {
+        console.log(`  Rendering (${index + 1}/${urls.length}): ${url}`);
+        // A fresh context releases each section's DOM, MathJax state, and fonts.
+        const context = await this.browser.newContext({ serviceWorkers: 'block' });
+        try {
+          const page = await context.newPage();
+          await page.setViewportSize(this.viewport);
+          await page.emulateMedia({ media: 'print' });
+          const response = await page.goto(url, { waitUntil: 'load', timeout: 60000 });
+          if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'no response'}`);
+          await this.waitForMathJax(page);
+          await this.preparePage(page);
+          await this.waitForImages(page);
+          const details = await page.evaluate(() => ({
+            title: document.title.trim(),
+            images: document.querySelectorAll('main img').length,
+            equations: document.querySelectorAll('main mjx-container').length,
+          }));
+          const bytes = await page.pdf({
+            ...this.pdfOptions,
+            // The assembler adds page numbers for the whole book.
+            displayHeaderFooter: false,
+            timeout: 120000,
+          });
+          return { bytes, ...details };
+        } catch (error) {
+          throw new Error(`Failed to render ${url}: ${error.message}`, { cause: error });
+        } finally {
+          await context.close();
+        }
+      },
+      outputPath
+    );
 
-    // Collect all URLs for preface and all chapters
-    const urls = [];
-
-    // Add preface if it exists
-    const prefacePath = path.join(this.baseDir, 'contents', 'preface.md');
-    if (fs.existsSync(prefacePath)) {
-      urls.push(`${this.baseUrl}/contents/preface.html`);
-    }
-
-    // Add all chapters and their sections
-    for (const chapter of chapters) {
-      urls.push(this.fileToUrl(chapter.chapterFile));
-      for (const section of chapter.sections) {
-        urls.push(this.fileToUrl(section.sectionFile));
-      }
-    }
-
-    const mathCss = new Set();
-    let combinedHtml = `
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>General Physics - Complete Book</title>
-        <style>
-          body { font-family: serif; }
-          .chapter-break { page-break-before: always; }
-          h1 { font-size: 24pt; }
-          h2 { font-size: 18pt; }
-        </style>
-      </head>
-      <body>
-    `;
-
-    for (let i = 0; i < urls.length; i++) {
-      const progress = Math.round(((i + 1) / urls.length) * 100);
-      const elapsed = i > 0 ? Math.round((Date.now() - startTime) / 1000) : 0;
-      const avgTime = i > 0 ? elapsed / i : 0;
-      const remaining = i > 0 ? Math.round(avgTime * (urls.length - i)) : 0;
-
-      console.log(
-        `  Loading (${i + 1}/${urls.length} - ${progress}%${remaining > 0 ? `, ~${remaining}s remaining` : ''}): ${urls[i]}`
-      );
-      try {
-        await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
-        await this.waitForMathJax(page);
-
-        const content = await extractPageContent(page, mathCss);
-
-        combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
-      } catch (e) {
-        console.error(`  Failed to load: ${urls[i]} - ${e.message}`);
-      }
-    }
-
-    combinedHtml += '</body></html>';
-    combinedHtml = injectMathCss(combinedHtml, mathCss);
-
-    await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
-    await this.preparePage(page, true);
-    await page.waitForTimeout(this.mathJaxWaitTime);
-
-    console.log(`  Generating PDF: ${outputPath}`);
-    await page.pdf({
-      ...this.pdfOptions,
-      path: outputPath,
-    });
-
-    console.log(`  Generated: ${outputPath}`);
+    fs.writeFileSync(
+      outputPath.replace(/\.pdf$/, '.json'),
+      `${JSON.stringify(manifest, null, 2)}\n`
+    );
+    console.log(
+      `  Generated: ${outputPath} (${manifest.pageCount} pages, ${manifest.sourceCount} sources)`
+    );
     this.stats.success++;
-
-    await context.close();
   }
 
   async generateUrlPdf(url, outputName) {
@@ -518,9 +481,10 @@ class PDFGenerator {
 }
 
 // CLI Configuration
-runCli({
-  name: 'generate-pdf',
-  description: `Generates PDF files from the Eleventy-built physics textbook using Playwright.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  runCli({
+    name: 'generate-pdf',
+    description: `Generates PDF files from the Eleventy-built physics textbook using Playwright.
 
 Modes:
 - --all: Generate separate PDFs for all chapters and sections
@@ -532,53 +496,54 @@ Modes:
 Prerequisites:
 - Eleventy dev server must be running: npm run serve
 - Playwright browsers installed: npx playwright install chromium`,
-  flags: {
-    chapter: {
-      flag: ['-c', '--chapter'],
-      description: 'Generate PDF for specific chapter number',
-      type: 'number',
+    flags: {
+      chapter: {
+        flag: ['-c', '--chapter'],
+        description: 'Generate PDF for specific chapter number',
+        type: 'number',
+      },
+      all: {
+        flag: ['-a', '--all'],
+        description: 'Generate separate PDFs for all chapters and sections',
+        default: false,
+      },
+      combined: {
+        flag: '--combined',
+        description: 'Generate combined PDFs (one per chapter with all sections)',
+        default: false,
+      },
+      book: {
+        flag: '--book',
+        description: 'Generate complete book PDF (all chapters)',
+        default: false,
+      },
+      url: {
+        flag: ['-u', '--url'],
+        description: 'Generate PDF from a specific URL',
+        type: 'string',
+      },
+      output: {
+        flag: ['-o', '--output'],
+        description: 'Output filename (for --url mode)',
+        type: 'string',
+      },
+      baseUrl: {
+        flag: ['-b', '--base-url'],
+        description: 'Base URL for dev server (default: http://localhost:4000/physics-book)',
+        type: 'string',
+        default: 'http://localhost:4000/physics-book',
+      },
     },
-    all: {
-      flag: ['-a', '--all'],
-      description: 'Generate separate PDFs for all chapters and sections',
-      default: false,
+    examples: [
+      'node scripts/generate-pdf.js --all',
+      'node scripts/generate-pdf.js --chapter 5',
+      'node scripts/generate-pdf.js --combined',
+      'node scripts/generate-pdf.js --book',
+      'node scripts/generate-pdf.js --url http://localhost:4000/physics-book/contents/ch1PhysicsAnIntroduction.html',
+    ],
+    run: async options => {
+      const generator = new PDFGenerator(options);
+      return generator.run();
     },
-    combined: {
-      flag: '--combined',
-      description: 'Generate combined PDFs (one per chapter with all sections)',
-      default: false,
-    },
-    book: {
-      flag: '--book',
-      description: 'Generate complete book PDF (all chapters)',
-      default: false,
-    },
-    url: {
-      flag: ['-u', '--url'],
-      description: 'Generate PDF from a specific URL',
-      type: 'string',
-    },
-    output: {
-      flag: ['-o', '--output'],
-      description: 'Output filename (for --url mode)',
-      type: 'string',
-    },
-    baseUrl: {
-      flag: ['-b', '--base-url'],
-      description: 'Base URL for dev server (default: http://localhost:4000/physics-book)',
-      type: 'string',
-      default: 'http://localhost:4000/physics-book',
-    },
-  },
-  examples: [
-    'node scripts/generate-pdf.js --all',
-    'node scripts/generate-pdf.js --chapter 5',
-    'node scripts/generate-pdf.js --combined',
-    'node scripts/generate-pdf.js --book',
-    'node scripts/generate-pdf.js --url http://localhost:4000/physics-book/contents/ch1PhysicsAnIntroduction.html',
-  ],
-  run: async options => {
-    const generator = new PDFGenerator(options);
-    return generator.run();
-  },
-});
+  });
+}

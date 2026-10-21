@@ -408,10 +408,19 @@ Generates PDF versions of chapters using Playwright.
 
 ```bash
 npm run generate:pdf             # All chapters separately
-npm run generate:pdf:combined    # All chapters in one PDF
+npm run generate:pdf:combined    # One combined PDF per chapter
+npm run generate:pdf:book        # Entire textbook in pdf-output/complete-book.pdf
 npm run generate:pdf:chapter     # Specific chapter
 npm run generate:pdf:install     # Install Playwright browsers
 ```
+
+The dev server must be running (`npm run serve`). The complete book includes the
+preface, all chapter introductions and sections, and both appendices in
+`SUMMARY.md` order.
+It renders each source separately, waits for MathJax, fonts, and images, then
+assembles the PDFs with continuous page numbers. A failed source stops the run
+without replacing the previous book. `pdf-output/complete-book.json` records each
+source's page range and the total page count.
 
 ### generate-pdf-parallel.js
 
