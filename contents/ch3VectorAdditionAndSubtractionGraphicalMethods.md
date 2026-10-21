@@ -470,7 +470,7 @@ spot on a lake, each taking a different path, as illustrated below.
 The total distance traveled along Path 1 is 7.5 km, and that along
 Path 2 is 8.2 km. What is the final displacement of each camper?
 
-![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes traveled from the cabin to the lake.](../resources/Figure_03_02_18.jpg)
+![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes traveled from the cabin to the lake.](/resources/Figure_03_02_18.svg)
 {: #Figure18}
 
 ::::

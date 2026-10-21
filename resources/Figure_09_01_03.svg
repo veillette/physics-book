@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="620" viewBox="0 0 780 620" role="img" aria-labelledby="title desc">
+<title id="title">Equal and opposite forces on one line hold a hockey stick in equilibrium</title>
+<desc id="desc">A hockey stick lies flat on frictionless ice. Two equal horizontal forces F push on opposite sides of the shaft along the same line of action, so the net force is zero and there is no torque; the stick remains stationary. The free-body diagram shows the two forces F in opposite directions.</desc>
+<rect width="780" height="620" fill="#ffffff"/>
+<text x="390" y="47.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Equilibrium</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">remains</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">stationary</tspan></text>
+<polygon points="122.03,532 122.03,578 347.97,578 466.02,104.53 456.56,94.95 442.98,101.87 434,90.36 421.39,93.4 312.03,532" fill="#f4d48f" stroke="#c49a50" stroke-width="2"/>
+<polygon points="371.3,281.88 421.76,294.46 454.42,163.47 403.96,150.89" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="373.24" y1="274.12" x2="423.69" y2="286.7" stroke="#878c93" stroke-width="1.3"/>
+<line x1="375.41" y1="265.38" x2="425.87" y2="277.96" stroke="#878c93" stroke-width="1.3"/>
+<line x1="377.59" y1="256.65" x2="428.05" y2="269.23" stroke="#878c93" stroke-width="1.3"/>
+<line x1="379.77" y1="247.92" x2="430.22" y2="260.5" stroke="#878c93" stroke-width="1.3"/>
+<line x1="381.95" y1="239.19" x2="432.4" y2="251.77" stroke="#878c93" stroke-width="1.3"/>
+<line x1="384.12" y1="230.45" x2="434.58" y2="243.03" stroke="#878c93" stroke-width="1.3"/>
+<line x1="386.3" y1="221.72" x2="436.76" y2="234.3" stroke="#878c93" stroke-width="1.3"/>
+<line x1="388.48" y1="212.99" x2="438.93" y2="225.57" stroke="#878c93" stroke-width="1.3"/>
+<line x1="390.65" y1="204.26" x2="441.11" y2="216.83" stroke="#878c93" stroke-width="1.3"/>
+<line x1="392.83" y1="195.52" x2="443.29" y2="208.1" stroke="#878c93" stroke-width="1.3"/>
+<line x1="395.01" y1="186.79" x2="445.46" y2="199.37" stroke="#878c93" stroke-width="1.3"/>
+<line x1="397.19" y1="178.06" x2="447.64" y2="190.64" stroke="#878c93" stroke-width="1.3"/>
+<line x1="399.36" y1="169.32" x2="449.82" y2="181.9" stroke="#878c93" stroke-width="1.3"/>
+<line x1="401.54" y1="160.59" x2="452" y2="173.17" stroke="#878c93" stroke-width="1.3"/>
+<polygon points="333.8,432.27 384.26,444.85 394.42,404.1 343.96,391.52" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="335.74" y1="424.51" x2="386.19" y2="437.09" stroke="#878c93" stroke-width="1.3"/>
+<line x1="337.92" y1="415.78" x2="388.37" y2="428.36" stroke="#878c93" stroke-width="1.3"/>
+<line x1="340.09" y1="407.05" x2="390.55" y2="419.63" stroke="#878c93" stroke-width="1.3"/>
+<line x1="342.27" y1="398.31" x2="392.73" y2="410.89" stroke="#878c93" stroke-width="1.3"/>
+<g id="left-force">
+<line x1="166.68" y1="360.94" x2="330.68" y2="360.94" stroke="#d52350" stroke-width="5"/>
+<polygon points="351.68,360.94 329.68,369.74 329.68,352.14" fill="#d52350"/>
+</g>
+<text x="259.18" y="408.74" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="17.36" font-weight="normal" dx="-17.23" dy="-22.96">→</tspan><tspan dx="-0.13" dy="22.96">​</tspan></tspan></text>
+<g id="right-force">
+<line x1="590.09" y1="360.94" x2="426.09" y2="360.94" stroke="#d52350" stroke-width="5"/>
+<polygon points="405.09,360.94 427.09,352.14 427.09,369.74" fill="#d52350"/>
+</g>
+<text x="497.59" y="408.74" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="17.36" font-weight="normal" dx="-17.23" dy="-22.96">→</tspan><tspan dx="-0.13" dy="22.96">​</tspan></tspan></text>
+<text x="300" y="159.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">net</tspan><tspan font-style="normal"> </tspan><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="610" y="481.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
+<line x1="602" y1="525" x2="508" y2="525" stroke="#222222" stroke-width="2"/>
+<polygon points="495,525 509,519.4 509,530.6" fill="#222222"/>
+<line x1="618" y1="525" x2="712" y2="525" stroke="#222222" stroke-width="2"/>
+<polygon points="725,525 711,530.6 711,519.4" fill="#222222"/>
+<circle cx="610" cy="525" r="8" fill="#b01e2f"/>
+<text x="545" y="566.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="675" y="566.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+</svg>

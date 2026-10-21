@@ -550,7 +550,11 @@ Generates the line-art figures (graphs, vector diagrams, geometry) that replaced
 raster originals throughout the book. Each figure is a function in the chapter
 modules under `scripts/figures/`, keyed by its file name, and is written to
 `resources/Figure_CC_SS_NN.svg`. `mechanics-line-art.js` supplies the free-fall,
-relative-velocity, elasticity, and stability diagrams in chapters 2–9; `ch10.js`
+relative-velocity, elasticity, and stability diagrams in chapters 2–9;
+`mechanics-sketches.js` supplies the geometric sketches in chapters 3–9 (the
+cabin-to-lake displacement, dipole field, rough surfaces, sheared nail, vinyl
+record, Earth–Moon orbits and tides, erasing paths, 5° slope, and hockey-stick
+torque diagrams); `ch10.js`
 supplies circular-motion vectors and the rotational-inertia reference chart.
 The drawing helpers live in
 `scripts/figures/svg.js`: `Svg` (primitives, arrows, labels), `Frame` (math

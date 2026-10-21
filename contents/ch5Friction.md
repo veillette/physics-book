@@ -351,7 +351,7 @@ area since only high spots touch. When a greater normal force is exerted, the
 actual contact area increases, and it is found that the friction is proportional
 to this area.
 
-![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](../resources/Figure_05_01_04.jpg 'Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.')
+![This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.](/resources/Figure_05_01_04.svg 'Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.')
 {: #Figure4}
 
 But the atomic-scale view promises to explain far more than the simpler features

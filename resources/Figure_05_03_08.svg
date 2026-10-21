@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="740" viewBox="0 0 760 740" role="img" aria-labelledby="title desc">
+<title id="title">A nail bent in shear by a hanging picture</title>
+<desc id="desc">Side view of a nail 1.50 mm thick through a wall, with L₀ = 5.00 mm sticking out and a picture hanger at its head. The weight w of the picture pulls the head down, and the wall pushes up with an equal force w at the wall face, so equal and opposite forces act across opposite cross sections. Dashed lines show the unbent nail; the head drops by Δx = 1.80 μm, drawn greatly exaggerated.</desc>
+<rect width="760" height="740" fill="#ffffff"/>
+<rect x="285" y="20" width="60" height="680" fill="#ecd6a8" stroke="#c7a96b" stroke-width="1.5"/>
+<polygon points="15,310 62,284 345,284 520,306 520,358 345,336 62,336" fill="#bccde0" stroke="#5f7690" stroke-width="1.8"/>
+<line x1="345" y1="284" x2="520" y2="284" stroke="#666666" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="345" y1="336" x2="625" y2="336" stroke="#666666" stroke-width="1.4" stroke-dasharray="6 5"/>
+<rect x="520" y="235" width="36" height="245" rx="4" fill="#a8783f" stroke="#6f4a22" stroke-width="1.5"/>
+<rect x="558" y="272" width="34" height="120" rx="9" fill="#b3c5da" stroke="#5f7690" stroke-width="1.8"/>
+<line x1="592" y1="358" x2="625" y2="358" stroke="#222222" stroke-width="1.4"/>
+<line x1="215" y1="284" x2="229" y2="284" stroke="#222222" stroke-width="1.5"/>
+<line x1="215" y1="336" x2="229" y2="336" stroke="#222222" stroke-width="1.5"/>
+<line x1="222" y1="296" x2="222" y2="324" stroke="#222222" stroke-width="1.5"/>
+<polygon points="222,335 217.2,323 226.8,323" fill="#222222"/>
+<polygon points="222,285 226.8,297 217.2,297" fill="#222222"/>
+<text x="150" y="317.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.50 </tspan><tspan font-style="normal">mm</tspan></text>
+<text x="615" y="217.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> = 1.80 </tspan><tspan font-style="normal">μm</tspan></text>
+<polyline points="690,228 687.31,229.62 684.7,231.29 682.25,233.04 680.02,234.9 678.06,236.91 676.43,239.09 675.13,241.44 674.18,243.96 673.55,246.66 673.21,249.51 673.12,252.49 673.2,255.56 673.39,258.69 673.61,261.83 673.78,264.94 673.81,267.98 673.64,270.92 673.21,273.72 672.48,276.37 671.41,278.83 670,281.13 668.25,283.24 666.2,285.2 663.89,287.02 661.38,288.74 658.73,290.39 656.03,292.01 653.36,293.64 650.8,295.33 648.41,297.11 646.27,299.02 644.42,301.08 642.89,303.32 641.71,305.73 640.86,308.31 640.34,311.06 640.09,313.96 640.06,316.97 640.19,320.06 640.4,323.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="640.4" y1="323.2" x2="632.16" y2="339.02" stroke="#222222" stroke-width="1.4"/>
+<polygon points="628,347 629.07,336.28 636.17,339.98" fill="#222222"/>
+<line x1="620" y1="306" x2="620" y2="327" stroke="#222222" stroke-width="1.4"/>
+<polygon points="620,336 616,326 624,326" fill="#222222"/>
+<line x1="620" y1="388" x2="620" y2="367" stroke="#222222" stroke-width="1.4"/>
+<polygon points="620,358 624,368 616,368" fill="#222222"/>
+<line x1="357" y1="420" x2="508" y2="420" stroke="#222222" stroke-width="1.6"/>
+<polygon points="519,420 507,424.8 507,415.2" fill="#222222"/>
+<polygon points="346,420 358,415.2 358,424.8" fill="#222222"/>
+<line x1="345" y1="400" x2="345" y2="440" stroke="#222222" stroke-width="1.4"/>
+<line x1="520" y1="400" x2="520" y2="440" stroke="#222222" stroke-width="1.4"/>
+<polyline points="415,685 417.84,680.15 420.48,675.28 422.71,670.34 424.4,665.34 425.44,660.24 425.8,655.06 425.51,649.78 424.68,644.44 423.44,639.03 422,633.6 420.56,628.17 419.32,622.76 418.49,617.42 418.2,612.14 418.56,606.96 419.6,601.86 421.29,596.86 423.52,591.92 426.16,587.05 429,582.2 431.84,577.35 434.48,572.48 436.71,567.54 438.4,562.54 439.44,557.44 439.8,552.26 439.51,546.98 438.68,541.64 437.44,536.23 436,530.8 434.56,525.37 433.32,519.96 432.49,514.62 432.2,509.34 432.56,504.16 433.6,499.06 435.29,494.06 437.52,489.12 440.16,484.25 443,479.4" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="443" y1="479.4" x2="448.79" y2="436.92" stroke="#222222" stroke-width="1.4"/>
+<polygon points="450,428 452.61,438.45 444.69,437.37" fill="#222222"/>
+<text x="450" y="720.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 5.00 </tspan><tspan font-style="normal">mm</tspan></text>
+<g id="wall-force">
+<line x1="345" y1="560" x2="345" y2="358" stroke="#ef7f8f" stroke-width="5"/>
+<polygon points="345,339 353,359 337,359" fill="#ef7f8f"/>
+</g>
+<g id="weight">
+<line x1="538" y1="480" x2="538" y2="631" stroke="#d52350" stroke-width="5"/>
+<polygon points="538,650 530,630 546,630" fill="#d52350"/>
+</g>
+<text x="315" y="489.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="16.12" font-weight="normal" dx="-17.45" dy="-13.52">→</tspan><tspan dx="1.33" dy="13.52">​</tspan></tspan></text>
+<text x="570" y="609.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="16.12" font-weight="normal" dx="-17.45" dy="-13.52">→</tspan><tspan dx="1.33" dy="13.52">​</tspan></tspan></text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Equal and opposite forces on different lines make a hockey stick rotate</title>
+<desc id="desc">The same two forces F act on the shaft at different heights: the upper one pushes right on the left side and the lower one pushes left on the right side. The net force is still zero, but together they produce a clockwise torque, so the stick’s rotation accelerates clockwise. The free-body diagram is unchanged.</desc>
+<rect width="1000" height="620" fill="#ffffff"/>
+<text x="500" y="47.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Nonequilibrium</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">rotation</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">accelerates</tspan></text>
+<polygon points="172.03,537 172.03,583 397.97,583 516.02,109.53 506.56,99.95 492.98,106.87 484,95.36 471.39,98.4 362.03,537" fill="#f4d48f" stroke="#c49a50" stroke-width="2"/>
+<polygon points="421.3,286.88 471.76,299.46 504.42,168.47 453.96,155.89" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="423.24" y1="279.12" x2="473.69" y2="291.7" stroke="#878c93" stroke-width="1.3"/>
+<line x1="425.41" y1="270.38" x2="475.87" y2="282.96" stroke="#878c93" stroke-width="1.3"/>
+<line x1="427.59" y1="261.65" x2="478.05" y2="274.23" stroke="#878c93" stroke-width="1.3"/>
+<line x1="429.77" y1="252.92" x2="480.22" y2="265.5" stroke="#878c93" stroke-width="1.3"/>
+<line x1="431.95" y1="244.19" x2="482.4" y2="256.77" stroke="#878c93" stroke-width="1.3"/>
+<line x1="434.12" y1="235.45" x2="484.58" y2="248.03" stroke="#878c93" stroke-width="1.3"/>
+<line x1="436.3" y1="226.72" x2="486.76" y2="239.3" stroke="#878c93" stroke-width="1.3"/>
+<line x1="438.48" y1="217.99" x2="488.93" y2="230.57" stroke="#878c93" stroke-width="1.3"/>
+<line x1="440.65" y1="209.26" x2="491.11" y2="221.83" stroke="#878c93" stroke-width="1.3"/>
+<line x1="442.83" y1="200.52" x2="493.29" y2="213.1" stroke="#878c93" stroke-width="1.3"/>
+<line x1="445.01" y1="191.79" x2="495.46" y2="204.37" stroke="#878c93" stroke-width="1.3"/>
+<line x1="447.19" y1="183.06" x2="497.64" y2="195.64" stroke="#878c93" stroke-width="1.3"/>
+<line x1="449.36" y1="174.32" x2="499.82" y2="186.9" stroke="#878c93" stroke-width="1.3"/>
+<line x1="451.54" y1="165.59" x2="502" y2="178.17" stroke="#878c93" stroke-width="1.3"/>
+<polygon points="383.8,437.27 434.26,449.85 444.42,409.1 393.96,396.52" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="385.74" y1="429.51" x2="436.19" y2="442.09" stroke="#878c93" stroke-width="1.3"/>
+<line x1="387.92" y1="420.78" x2="438.37" y2="433.36" stroke="#878c93" stroke-width="1.3"/>
+<line x1="390.09" y1="412.05" x2="440.55" y2="424.63" stroke="#878c93" stroke-width="1.3"/>
+<line x1="392.27" y1="403.31" x2="442.73" y2="415.89" stroke="#878c93" stroke-width="1.3"/>
+<g id="upper-force">
+<line x1="255.39" y1="210.69" x2="419.39" y2="210.69" stroke="#d52350" stroke-width="5"/>
+<polygon points="440.39,210.69 418.39,219.49 418.39,201.89" fill="#d52350"/>
+</g>
+<g id="lower-force">
+<line x1="614.69" y1="467.82" x2="450.69" y2="467.82" stroke="#d52350" stroke-width="5"/>
+<polygon points="429.69,467.82 451.69,459.02 451.69,476.62" fill="#d52350"/>
+</g>
+<text x="347.89" y="258.49" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="17.36" font-weight="normal" dx="-17.23" dy="-22.96">→</tspan><tspan dx="-0.13" dy="22.96">​</tspan></tspan></text>
+<text x="522.19" y="515.62" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="17.36" font-weight="normal" dx="-17.23" dy="-22.96">→</tspan><tspan dx="-0.13" dy="22.96">​</tspan></tspan></text>
+<line x1="407.97" y1="299.01" x2="439.42" y2="172.88" stroke="#8f959c" stroke-width="1.4"/>
+<line x1="401.66" y1="287.13" x2="428.27" y2="180.4" stroke="#8f959c" stroke-width="1.4"/>
+<line x1="395.34" y1="275.25" x2="417.12" y2="187.93" stroke="#8f959c" stroke-width="1.4"/>
+<line x1="422.19" y1="539.6" x2="453.64" y2="413.46" stroke="#8f959c" stroke-width="1.4"/>
+<line x1="433.34" y1="532.07" x2="459.95" y2="425.34" stroke="#8f959c" stroke-width="1.4"/>
+<line x1="444.49" y1="524.55" x2="466.27" y2="437.22" stroke="#8f959c" stroke-width="1.4"/>
+<g id="spin">
+<polyline points="565.96,89.17 570.52,91.65 575.04,94.22 579.51,96.88 583.93,99.62 588.3,102.44 592.61,105.35 596.87,108.33 601.07,111.4 605.21,114.54 609.29,117.76 613.31,121.06 617.27,124.44 621.16,127.88 624.99,131.4 628.74,135 632.43,138.66 636.05,142.39 639.6,146.19 643.08,150.06 646.48,153.99 649.81,157.99 653.06,162.04 656.24,166.16 659.33,170.34 662.35,174.57 665.28,178.87 668.14,183.21 670.91,187.61 673.6,192.06 676.2,196.56 678.72,201.11 681.15,205.71 683.49,210.35 685.75,215.04 687.91,219.76 689.99,224.53 691.98,229.33 693.87,234.18 695.68,239.05 697.39,243.96 699,248.91 699.12,249.28" fill="none" stroke="#7b1d4f" stroke-width="4" stroke-linejoin="round"/>
+<line x1="699.12" y1="249.28" x2="703.16" y2="265.77" stroke="#7b1d4f" stroke-width="4"/>
+<polygon points="707.67,284.23 695.15,266.7 710.69,262.9" fill="#7b1d4f"/>
+<polyline points="232.49,515.99 229.04,512.09 225.68,508.13 222.38,504.11 219.17,500.02 216.03,495.88 212.97,491.67 209.99,487.41 207.09,483.1 204.28,478.72 201.54,474.3 198.89,469.83 196.33,465.3 193.85,460.73 191.46,456.11 189.16,451.45 186.95,446.75 184.82,442 182.78,437.22 180.84,432.4 178.99,427.54 177.23,422.65 175.56,417.72 173.99,412.77 172.5,407.78 171.12,402.77 169.83,397.73 168.63,392.67 167.53,387.59 166.53,382.49 165.62,377.37 164.81,372.23 164.1,367.08 163.49,361.92 162.97,356.75 162.55,351.56 162.23,346.37 162.01,341.18 161.88,335.98 161.85,330.78 161.93,325.58 162.1,320.38 162.11,319.99" fill="none" stroke="#7b1d4f" stroke-width="4" stroke-linejoin="round"/>
+<line x1="162.11" y1="319.99" x2="163.96" y2="303.11" stroke="#7b1d4f" stroke-width="4"/>
+<polygon points="166.03,284.23 171.8,304.98 155.9,303.24" fill="#7b1d4f"/>
+</g>
+<text x="310" y="159.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">net</tspan><tspan font-style="normal"> </tspan><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="815" y="436.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
+<line x1="807" y1="480" x2="713" y2="480" stroke="#222222" stroke-width="2"/>
+<polygon points="700,480 714,474.4 714,485.6" fill="#222222"/>
+<line x1="823" y1="480" x2="917" y2="480" stroke="#222222" stroke-width="2"/>
+<polygon points="930,480 916,485.6 916,474.4" fill="#222222"/>
+<circle cx="815" cy="480" r="8" fill="#b01e2f"/>
+<text x="750" y="521.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="880" y="521.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+</svg>

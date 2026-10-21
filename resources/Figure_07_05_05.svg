@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="270" viewBox="0 0 980 270" role="img" aria-labelledby="title desc">
+<title id="title">A player slides to a stop up a 5° slope</title>
+<desc id="desc">A baseball player slides head first up a hill inclined at 5.00° and stops after sliding a distance d along it. A right triangle has hypotenuse d along the slope, the 5° angle at its lower right, and vertical side h = d sin 5°, the height gained.</desc>
+<rect width="980" height="270" fill="#ffffff"/>
+<polygon points="0,0 980,0 980,207.62 0,121.89" fill="#bfe3c9"/>
+<polygon points="0,121.89 980,207.62 980,270 0,270" fill="#eadcc5"/>
+<line x1="106.01" y1="119.11" x2="216.46" y2="118.74" stroke="#2b3e52" stroke-width="17" stroke-linecap="round"/>
+<line x1="106.01" y1="119.11" x2="216.46" y2="118.74" stroke="#f0c9a4" stroke-width="13" stroke-linecap="round"/>
+<line x1="226.77" y1="115.63" x2="366.59" y2="123.84" stroke="#2b3e52" stroke-width="38" stroke-linecap="round"/>
+<line x1="226.77" y1="115.63" x2="366.59" y2="123.84" stroke="#f3f5f8" stroke-width="34" stroke-linecap="round"/>
+<line x1="366.59" y1="123.84" x2="465.86" y2="136.54" stroke="#2b3e52" stroke-width="28" stroke-linecap="round"/>
+<line x1="366.59" y1="123.84" x2="465.86" y2="136.54" stroke="#f3f5f8" stroke-width="24" stroke-linecap="round"/>
+<line x1="465.86" y1="136.54" x2="499.23" y2="99.31" stroke="#2b3e52" stroke-width="22" stroke-linecap="round"/>
+<line x1="465.86" y1="136.54" x2="499.23" y2="99.31" stroke="#2f6fb2" stroke-width="18" stroke-linecap="round"/>
+<line x1="497.24" y1="99.14" x2="530.16" y2="89.97" stroke="#2b3e52" stroke-width="16" stroke-linecap="round"/>
+<line x1="497.24" y1="99.14" x2="530.16" y2="89.97" stroke="#2b3e52" stroke-width="12" stroke-linecap="round"/>
+<circle cx="216.91" cy="90.67" r="21" fill="#2f6fb2" stroke="#1f4777" stroke-width="2"/>
+<circle cx="201.44" cy="95.34" r="9" fill="#f0c9a4"/>
+<line x1="35.23" y1="124.97" x2="330" y2="150.76" stroke="#222222" stroke-width="3.5" stroke-dasharray="14 9"/>
+<g id="slope">
+<line x1="330" y1="150.76" x2="950" y2="205" stroke="#222222" stroke-width="3.5"/>
+<line x1="330" y1="150.76" x2="330" y2="205" stroke="#222222" stroke-width="3.5"/>
+<line x1="330" y1="205" x2="950" y2="205" stroke="#222222" stroke-width="3.5"/>
+</g>
+<path d="M 740.8 186.7 A 210 210 0 0 0 740 205" fill="none" stroke="#333333" stroke-width="2" stroke-linejoin="round"/>
+<text x="660" y="154.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<text x="175" y="184.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">d</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 5°</tspan></text>
+<line x1="260" y1="175" x2="313" y2="175" stroke="#222222" stroke-width="1.6"/>
+<polygon points="324,175 312,179.8 312,170.2" fill="#222222"/>
+<text x="625" y="253.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5°</tspan></text>
+<line x1="650" y1="238" x2="734.94" y2="200.45" stroke="#222222" stroke-width="1.6"/>
+<polygon points="745,196 735.97,205.24 732.08,196.46" fill="#222222"/>
+</svg>

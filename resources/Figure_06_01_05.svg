@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+<title id="title">Velocity of a fly on a rotating record</title>
+<desc id="desc">A record turns clockwise with angular velocity ω. Flies sit at the top and right edge, each a distance r from the center. Each fly’s velocity v is tangent to the circle and perpendicular to its radius: to the right at the top and downward at the right edge.</desc>
+<rect width="760" height="760" fill="#ffffff"/>
+<circle cx="360" cy="400" r="330" fill="#77797c" stroke="#4f5154" stroke-width="2"/>
+<circle cx="360" cy="400" r="300" fill="none" stroke="#5f6164" stroke-width="1.2"/>
+<circle cx="360" cy="400" r="270" fill="none" stroke="#5f6164" stroke-width="1.2"/>
+<circle cx="360" cy="400" r="238" fill="none" stroke="#5f6164" stroke-width="1.2"/>
+<circle cx="360" cy="400" r="205" fill="none" stroke="#5f6164" stroke-width="1.2"/>
+<circle cx="360" cy="400" r="175" fill="none" stroke="#5f6164" stroke-width="1.2"/>
+<circle cx="360" cy="400" r="142" fill="#2f3133"/>
+<circle cx="360" cy="400" r="125" fill="#e07c62"/>
+<circle cx="360" cy="400" r="5" fill="#ffffff" stroke="#222222" stroke-width="1"/>
+<line x1="360" y1="400" x2="360" y2="55" stroke="#222222" stroke-width="2.5"/>
+<line x1="360" y1="400" x2="705" y2="400" stroke="#222222" stroke-width="2.5"/>
+<text x="335" y="320.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="445" y="385.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<g transform="translate(360 92) rotate(0)">
+<ellipse cx="-9" cy="-8" rx="13" ry="7" fill="#ffffff" stroke="#222222" stroke-width="1.2"/>
+<ellipse cx="-9" cy="8" rx="13" ry="7" fill="#ffffff" stroke="#222222" stroke-width="1.2"/>
+<ellipse cx="-4" cy="0" rx="13" ry="6" fill="#2f6b3d" stroke="#222222" stroke-width="1.2"/>
+<circle cx="11" cy="0" r="6" fill="#e8e8e8" stroke="#222222" stroke-width="1.2"/>
+</g>
+<g transform="translate(668 400) rotate(90)">
+<ellipse cx="-9" cy="-8" rx="13" ry="7" fill="#ffffff" stroke="#222222" stroke-width="1.2"/>
+<ellipse cx="-9" cy="8" rx="13" ry="7" fill="#ffffff" stroke="#222222" stroke-width="1.2"/>
+<ellipse cx="-4" cy="0" rx="13" ry="6" fill="#2f6b3d" stroke="#222222" stroke-width="1.2"/>
+<circle cx="11" cy="0" r="6" fill="#e8e8e8" stroke="#222222" stroke-width="1.2"/>
+</g>
+<g id="top-velocity">
+<line x1="360" y1="55" x2="511" y2="55" stroke="#4aa52e" stroke-width="4"/>
+<polygon points="530,55 510,63 510,47" fill="#4aa52e"/>
+</g>
+<g id="right-velocity">
+<line x1="705" y1="400" x2="705" y2="551" stroke="#4aa52e" stroke-width="4"/>
+<polygon points="705,570 697,550 713,550" fill="#4aa52e"/>
+</g>
+<text x="445" y="38.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<text x="730" y="510.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<g id="spin">
+<polyline points="435.18,427.36 433.69,431.15 432.01,434.86 430.14,438.48 428.09,442 425.86,445.41 423.47,448.7 420.91,451.87 418.19,454.9 415.32,457.79 412.31,460.53 409.16,463.11 405.89,465.53 402.49,467.78 398.99,469.86 395.38,471.75 391.69,473.46 387.91,474.97 384.06,476.3 380.14,477.42 376.18,478.35 372.17,479.07 368.13,479.59 364.07,479.9 360,480 355.93,479.9 351.87,479.59 347.83,479.07 343.82,478.35 339.86,477.42 335.94,476.3 332.09,474.97 328.31,473.46 324.62,471.75 321.01,469.86 317.51,467.78 314.11,465.53 310.84,463.11 307.69,460.53 304.68,457.79 304.21,457.34" fill="none" stroke="#1b9ad6" stroke-width="5" stroke-linejoin="round"/>
+<line x1="304.21" y1="457.34" x2="295.14" y2="443.32" stroke="#1b9ad6" stroke-width="5"/>
+<polygon points="284.82,427.36 302.4,439.81 288.97,448.5" fill="#1b9ad6"/>
+</g>
+<text x="385" y="455.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">ω</tspan></text>
+</svg>

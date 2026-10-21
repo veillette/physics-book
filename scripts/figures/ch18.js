@@ -93,7 +93,7 @@ function pcharge(svg, x, y, s, { r = 11, fill = GOLD } = {}) {
 }
 
 /** Red (positive) or blue (negative) point charge, as in the computed figures. */
-function signedCharge(svg, x, y, q, { r = 12 } = {}) {
+export function signedCharge(svg, x, y, q, { r = 12 } = {}) {
   svg.circle(x, y, r, { fill: q > 0 ? COLORS.red : COLORS.blue, stroke: COLORS.black, width: 1 });
   svg.text(x, y, q > 0 ? '+' : '−', {
     size: 16,
@@ -129,7 +129,7 @@ function fieldLine(svg, pts, { reverse = false, at = 0.5, color = FIELD, width =
  * are traced back from it (the rest are lines already drawn from positive
  * charges). `inside(x, y)` stops lines at a conductor.
  */
-function pointLines(svg, charges, box, opts = {}) {
+export function pointLines(svg, charges, box, opts = {}) {
   const {
     per = 4,
     at = 0.5,

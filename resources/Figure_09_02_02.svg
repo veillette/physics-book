@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="650" viewBox="0 0 960 650" role="img" aria-labelledby="title desc">
+<title id="title">Torque on a hockey stick about two pivots</title>
+<desc id="desc">(a) A nail at A near the end of the blade is the pivot. A force F pushes left and slightly up on the shaft. r runs from A to the point of application, θ is the angle between F and the line from that point to A, and r⊥ is the perpendicular distance from A to the line of action of F. The stick would rotate counterclockwise about A. (b) With the nail at B near the top of the shaft and the same force applied below it, the perpendicular distance r⊥ runs down the shaft and the stick would rotate clockwise about B.</desc>
+<rect width="960" height="650" fill="#ffffff"/>
+<polygon points="157.03,537 157.03,583 382.97,583 488.92,158.04 479.46,148.47 465.88,155.39 456.9,143.87 444.29,146.91 347.03,537" fill="#f4d48f" stroke="#c49a50" stroke-width="2"/>
+<polygon points="402.67,301.43 453.13,314.01 484.58,187.87 434.12,175.29" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="404.61" y1="293.67" x2="455.06" y2="306.25" stroke="#878c93" stroke-width="1.3"/>
+<line x1="406.78" y1="284.94" x2="457.24" y2="297.52" stroke="#878c93" stroke-width="1.3"/>
+<line x1="408.96" y1="276.21" x2="459.42" y2="288.79" stroke="#878c93" stroke-width="1.3"/>
+<line x1="411.14" y1="267.47" x2="461.59" y2="280.05" stroke="#878c93" stroke-width="1.3"/>
+<line x1="413.32" y1="258.74" x2="463.77" y2="271.32" stroke="#878c93" stroke-width="1.3"/>
+<line x1="415.49" y1="250.01" x2="465.95" y2="262.59" stroke="#878c93" stroke-width="1.3"/>
+<line x1="417.67" y1="241.27" x2="468.13" y2="253.85" stroke="#878c93" stroke-width="1.3"/>
+<line x1="419.85" y1="232.54" x2="470.3" y2="245.12" stroke="#878c93" stroke-width="1.3"/>
+<line x1="422.03" y1="223.81" x2="472.48" y2="236.39" stroke="#878c93" stroke-width="1.3"/>
+<line x1="424.2" y1="215.08" x2="474.66" y2="227.66" stroke="#878c93" stroke-width="1.3"/>
+<line x1="426.38" y1="206.34" x2="476.84" y2="218.92" stroke="#878c93" stroke-width="1.3"/>
+<line x1="428.56" y1="197.61" x2="479.01" y2="210.19" stroke="#878c93" stroke-width="1.3"/>
+<line x1="430.73" y1="188.88" x2="481.19" y2="201.46" stroke="#878c93" stroke-width="1.3"/>
+<line x1="432.91" y1="180.15" x2="483.37" y2="192.73" stroke="#878c93" stroke-width="1.3"/>
+<polygon points="361.55,466.38 412,478.96 421.68,440.15 371.22,427.57" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="363.48" y1="458.62" x2="413.94" y2="471.2" stroke="#878c93" stroke-width="1.3"/>
+<line x1="365.66" y1="449.89" x2="416.11" y2="462.47" stroke="#878c93" stroke-width="1.3"/>
+<line x1="367.84" y1="441.16" x2="418.29" y2="453.74" stroke="#878c93" stroke-width="1.3"/>
+<line x1="370.01" y1="432.42" x2="420.47" y2="445" stroke="#878c93" stroke-width="1.3"/>
+<g id="force-A">
+<line x1="561.84" y1="381.02" x2="463.91" y2="348.94" stroke="#d52350" stroke-width="5"/>
+<polygon points="443.96,342.4 467.61,340.88 462.12,357.61" fill="#d52350"/>
+</g>
+<text x="534.96" y="408.2" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="17.36" font-weight="normal" dx="-17.23" dy="-22.96">→</tspan><tspan dx="-0.13" dy="22.96">​</tspan></tspan></text>
+<line x1="442.96" y1="342.4" x2="301.31" y2="296.37" stroke="#222222" stroke-width="2"/>
+<line x1="215" y1="562" x2="301.31" y2="296.37" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<g id="pivot-A">
+<circle cx="215" cy="562" r="10" fill="#c5c9ce" stroke="#5d6269" stroke-width="2"/>
+</g>
+<line x1="215" y1="562" x2="442.96" y2="342.4" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 399.21 328.18 A 46 46 0 0 0 409.83 374.31" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="378.64" y="366.3" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="320.18" y="507.96" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="236.15" y="438.99" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<g id="spin-A">
+<polyline points="201.4,367.48 196.24,367.9 191.09,368.47 185.97,369.17 180.86,370.01 175.78,370.99 170.72,372.09 165.7,373.34 160.71,374.71 155.75,376.22 150.84,377.86 145.98,379.62 141.16,381.52 136.4,383.54 131.69,385.69 127.04,387.96 122.45,390.36 117.93,392.88 113.48,395.51 109.09,398.27 104.78,401.13 100.55,404.12 96.4,407.21 92.34,410.41 88.36,413.72 84.47,417.13 80.67,420.65 76.96,424.26 73.36,427.98 69.85,431.78 66.44,435.68 63.14,439.67 59.95,443.74 56.87,447.9 53.89,452.14 51.04,456.45 48.29,460.84 45.67,465.3 43.16,469.83 40.77,474.42 38.51,479.08 36.37,483.79 36.28,484" fill="none" stroke="#7b1d4f" stroke-width="4" stroke-linejoin="round"/>
+<line x1="36.28" y1="484" x2="30.96" y2="500.09" stroke="#7b1d4f" stroke-width="4"/>
+<polygon points="25,518.13 23.68,496.63 38.87,501.66" fill="#7b1d4f"/>
+</g>
+<text x="245" y="575.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="145" y="495.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Nail</tspan></text>
+<polyline points="160,504 159.64,506.09 159.35,508.12 159.2,510.03 159.23,511.78 159.5,513.32 160.05,514.64 160.88,515.7 162,516.51 163.4,517.08 165.05,517.43 166.91,517.61 168.92,517.65 171.02,517.62 173.15,517.56 175.23,517.55 177.2,517.63 178.99,517.86 180.56,518.29 181.87,518.93 182.9,519.83 183.63,520.97 184.08,522.37 184.27,523.98 184.24,525.79 184.03,527.75 183.71,529.8 183.34,531.9 183,533.97 182.75,535.97 182.65,537.83 182.76,539.52 183.12,540.99 183.76,542.22 184.69,543.2 185.9,543.92 187.39,544.42 189.12,544.71 191.03,544.84 193.08,544.85 195.2,544.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="195.2" y1="544.8" x2="199.37" y2="549.64" stroke="#222222" stroke-width="1.4"/>
+<polygon points="204,555 196.27,550.99 201.17,546.77" fill="#222222"/>
+<text x="300" y="640.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<polygon points="515.01,552 515.01,598 764.99,598 826.23,162.29 815.81,153.76 803.04,162.06 792.9,151.55 780.68,155.89 725.01,552" fill="#f4d48f" stroke="#c49a50" stroke-width="2"/>
+<polygon points="747.09,373.33 798.58,380.56 816.67,251.83 765.18,244.59" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="748.2" y1="365.41" x2="799.69" y2="372.64" stroke="#878c93" stroke-width="1.3"/>
+<line x1="749.45" y1="356.49" x2="800.95" y2="363.73" stroke="#878c93" stroke-width="1.3"/>
+<line x1="750.71" y1="347.58" x2="802.2" y2="354.82" stroke="#878c93" stroke-width="1.3"/>
+<line x1="751.96" y1="338.67" x2="803.45" y2="345.91" stroke="#878c93" stroke-width="1.3"/>
+<line x1="753.21" y1="329.76" x2="804.71" y2="336.99" stroke="#878c93" stroke-width="1.3"/>
+<line x1="754.46" y1="320.84" x2="805.96" y2="328.08" stroke="#878c93" stroke-width="1.3"/>
+<line x1="755.72" y1="311.93" x2="807.21" y2="319.17" stroke="#878c93" stroke-width="1.3"/>
+<line x1="756.97" y1="303.02" x2="808.46" y2="310.26" stroke="#878c93" stroke-width="1.3"/>
+<line x1="758.22" y1="294.11" x2="809.72" y2="301.34" stroke="#878c93" stroke-width="1.3"/>
+<line x1="759.47" y1="285.19" x2="810.97" y2="292.43" stroke="#878c93" stroke-width="1.3"/>
+<line x1="760.73" y1="276.28" x2="812.22" y2="283.52" stroke="#878c93" stroke-width="1.3"/>
+<line x1="761.98" y1="267.37" x2="813.47" y2="274.61" stroke="#878c93" stroke-width="1.3"/>
+<line x1="763.23" y1="258.46" x2="814.73" y2="265.69" stroke="#878c93" stroke-width="1.3"/>
+<line x1="764.48" y1="249.54" x2="815.98" y2="256.78" stroke="#878c93" stroke-width="1.3"/>
+<polygon points="729,502.06 780.49,509.3 786.75,464.74 735.26,457.5" fill="#aeb3b9" stroke="#6e737a" stroke-width="2"/>
+<line x1="730.11" y1="494.14" x2="781.6" y2="501.38" stroke="#878c93" stroke-width="1.3"/>
+<line x1="731.36" y1="485.23" x2="782.86" y2="492.47" stroke="#878c93" stroke-width="1.3"/>
+<line x1="732.61" y1="476.32" x2="784.11" y2="483.55" stroke="#878c93" stroke-width="1.3"/>
+<line x1="733.87" y1="467.4" x2="785.36" y2="474.64" stroke="#878c93" stroke-width="1.3"/>
+<g id="force-B">
+<line x1="908.93" y1="458.39" x2="811" y2="426.3" stroke="#d52350" stroke-width="5"/>
+<polygon points="791.04,419.76 814.69,418.25 809.21,434.97" fill="#d52350"/>
+</g>
+<text x="882.04" y="485.56" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="17.36" font-weight="normal" dx="-17.23" dy="-22.96">→</tspan><tspan dx="-0.13" dy="22.96">​</tspan></tspan></text>
+<line x1="790.04" y1="419.76" x2="729.69" y2="400.15" stroke="#222222" stroke-width="2"/>
+<line x1="799.97" y1="183.84" x2="729.69" y2="400.15" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<g id="pivot-B">
+<circle cx="799.97" cy="183.84" r="10" fill="#c5c9ce" stroke="#5d6269" stroke-width="2"/>
+</g>
+<text x="739.97" y="301.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<g id="spin-B">
+<polyline points="685.29,264.14 682.59,260.14 680.02,256.04 677.6,251.85 675.33,247.58 673.2,243.24 671.22,238.83 669.4,234.35 667.73,229.81 666.23,225.21 664.88,220.57 663.69,215.88 662.66,211.16 661.8,206.4 661.11,201.61 660.57,196.81 660.21,191.98 660.01,187.15 659.98,182.32 660.12,177.48 660.42,172.66 660.89,167.84 661.53,163.05 662.33,158.28 663.29,153.54 664.42,148.84 665.71,144.18 667.16,139.57 668.77,135.01 670.53,130.5 672.45,126.07 674.52,121.7 676.75,117.4 679.11,113.18 681.63,109.05 684.28,105.01 687.07,101.06 690,97.21 693.06,93.46 696.24,89.83 699.55,86.3 701.44,84.39" fill="none" stroke="#7b1d4f" stroke-width="4" stroke-linejoin="round"/>
+<line x1="701.44" y1="84.39" x2="714.87" y2="74.13" stroke="#7b1d4f" stroke-width="4"/>
+<polygon points="729.97,62.6 718.93,81.1 709.22,68.38" fill="#7b1d4f"/>
+</g>
+<text x="833.97" y="196.94" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<text x="899.97" y="107.24" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Nail</tspan></text>
+<polyline points="884.97,115.84 882.44,115.76 879.96,115.75 877.6,115.88 875.38,116.2 873.37,116.77 871.57,117.62 870.01,118.77 868.69,120.22 867.6,121.96 866.71,123.96 865.99,126.17 865.39,128.55 864.87,131.01 864.37,133.5 863.83,135.95 863.2,138.27 862.43,140.42 861.48,142.34 860.31,143.99 858.91,145.34 857.27,146.39 855.4,147.14 853.31,147.62 851.04,147.87 848.63,147.95 846.13,147.9 843.59,147.81 841.07,147.75 838.63,147.77 836.31,147.96 834.16,148.36 832.21,149.02 830.49,149.97 829.01,151.22 827.77,152.77 826.74,154.6 825.92,156.68 825.24,158.95 824.68,161.36 824.17,163.84" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="824.17" y1="163.84" x2="816.04" y2="170.27" stroke="#222222" stroke-width="1.4"/>
+<polygon points="808.97,175.84 814.34,166.51 819.3,172.79" fill="#222222"/>
+<text x="730" y="640.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

@@ -129,8 +129,9 @@ section.normal > .title {
 /* Diagrams whose labels are unreadable at half a column. Natural width, capped
    at the column, both before and after the viewer wraps images in figures.
    Chapters 7–10 and the electromagnetic spectrum are whole sets. The chapter
-   1–5 names are graphs, component diagrams, and elasticity diagrams; simple sketches
-   and the tall stacked graphs in those chapters stay at half a column. */
+   1–6 names are graphs, component diagrams, elasticity diagrams, and wide
+   labelled sketches; simple sketches and the tall stacked graphs in those
+   chapters stay at half a column. */
 .book .book-body .page-wrapper .page-inner section.normal
   img:is(
     [src*='Figure_01_02_04.'],
@@ -156,6 +157,7 @@ section.normal > .title {
     [src*='Figure_03_02_04.'],
     [src*='Figure_03_02_08.'],
     [src*='Figure_03_02_11.'],
+    [src*='Figure_03_02_18.'],
     [src*='Figure_03_03_03.'],
     [src*='Figure_03_03_06.'],
     [src*='Figure_03_03_07.'],
@@ -166,9 +168,14 @@ section.normal > .title {
     [src*='Figure_03_05_04.'],
     [src*='Figure_03_05_09.'],
     [src*='Figure_04_05_07.'],
+    [src*='Figure_05_01_04.'],
     [src*='Figure_05_03_02.'],
     [src*='Figure_05_03_03.'],
+    [src*='Figure_05_03_08.'],
     [src*='Figure_05_03_09.'],
+    [src*='Figure_06_05_04.'],
+    [src*='Figure_06_05_05.'],
+    [src*='Figure_06_05_06.'],
     [src*='Figure_07_'],
     [src*='Figure_08_'],
     [src*='Figure_09_'],

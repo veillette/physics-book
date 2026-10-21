@@ -138,7 +138,7 @@ for gravity, this yields $$ w=mg $$ at Earth’s surface), and motions can be
 calculated from these equations. (
 See [Figure 1](#Figure1).)
 
-![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](../resources/Figure_04_08_01.jpg 'The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.')
+![The electric force field between a positively charged particle and a negatively charged particle. Electric field lines start from the positive charge and end at the negative charge, and each line is represented as a curved arrow.](/resources/Figure_04_08_01.svg 'The electric force field between a positively charged particle and a negatively charged particle. When a positive test charge is placed in the field, the charge will experience a force in the direction of the force field lines.')
 {: #Figure1}
 
 ::: note {"class":"note","data-label":""}

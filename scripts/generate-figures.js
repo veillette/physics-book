@@ -34,6 +34,7 @@ import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
 import ch10 from './figures/ch10.js';
 import mechanicsLineArt from './figures/mechanics-line-art.js';
+import mechanicsSketches from './figures/mechanics-sketches.js';
 import ch11to12 from './figures/ch11to12.js';
 import ch16 from './figures/ch16.js';
 import ch17 from './figures/ch17.js';
@@ -62,6 +63,7 @@ const figures = {
   ...ch09,
   ...ch10,
   ...mechanicsLineArt,
+  ...mechanicsSketches,
   ...ch11to12,
   ...ch16,
   ...ch17,

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" role="img" aria-labelledby="title desc">
+<title id="title">Spring and neap tides</title>
+<desc id="desc">The Sun is far to the right in each panel. (a) New moon: the Moon lies between Earth and the Sun, and the two tides add to a large bulge along the Sun–Earth line, a spring tide. (b) Full moon: the Moon is on the far side, and the bulge is again along that line, another spring tide. (c) Quarter moon: the Moon is at right angles to the Sun line; the smaller solar tide partly cancels the lunar one, and the weaker bulge points toward the Moon, a neap tide. The Moon moves counterclockwise and is lit on the side facing the Sun.</desc>
+<rect width="760" height="640" fill="#ffffff"/>
+<g id="bulge-a">
+<ellipse cx="150" cy="85" rx="82" ry="56" fill="#a8d4f0" stroke="#6aa9d1" stroke-width="1.5"/>
+<circle cx="150" cy="85" r="46" fill="#e3e8d1" stroke="#6aa9d1" stroke-width="1.5"/>
+<text x="150" y="78.9" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<polyline points="132.45,113.09 133.11,113.49 133.77,113.87 134.45,114.24 135.14,114.6 135.83,114.93 136.53,115.26 137.24,115.56 137.95,115.85 138.67,116.12 139.4,116.38 140.13,116.62 140.87,116.84 141.61,117.04 142.36,117.23 143.11,117.4 143.34,117.44" fill="none" stroke="#1b9ad6" stroke-width="3.5" stroke-linejoin="round"/>
+<line x1="143.34" y1="117.44" x2="154.76" y2="115.39" stroke="#1b9ad6" stroke-width="3.5"/>
+<polygon points="167.55,113.09 154.76,121.08 152.78,110.06" fill="#1b9ad6"/>
+</g>
+<circle cx="262" cy="85" r="15" fill="#55595f" stroke="#33363a" stroke-width="1.2"/>
+<polygon points="262,100 263.57,99.92 265.12,99.67 266.64,99.27 268.1,98.7 269.5,97.99 270.82,97.14 272.04,96.15 273.15,95.04 274.14,93.82 274.99,92.5 275.7,91.1 276.27,89.64 276.67,88.12 276.92,86.57 277,85 276.92,83.43 276.67,81.88 276.27,80.36 275.7,78.9 274.99,77.5 274.14,76.18 273.15,74.96 272.04,73.85 270.82,72.86 269.5,72.01 268.1,71.3 266.64,70.73 265.12,70.33 263.57,70.08 262,70" fill="#e6e8eb"/>
+<circle cx="257.5" cy="79.75" r="2.4" fill="#9ca1a8"/>
+<circle cx="266.5" cy="83.5" r="1.8" fill="#9ca1a8"/>
+<circle cx="260.5" cy="90.25" r="2.1" fill="#9ca1a8"/>
+<circle cx="267.7" cy="91" r="1.5" fill="#9ca1a8"/>
+<circle cx="262" cy="85" r="15" fill="none" stroke="#33363a" stroke-width="1.2"/>
+<line x1="262" y1="68" x2="262" y2="36" stroke="#4aa52e" stroke-width="3"/>
+<polygon points="262,23 267.6,37 256.4,37" fill="#4aa52e"/>
+<text x="262" y="134" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Moon</tspan></text>
+<text x="150" y="174" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">spring</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tide</tspan></text>
+<text x="440" y="162" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<polygon points="742,75 724.16,65.45 737.66,50.37 717.63,47.5 725.16,28.72 705.35,32.87 706,12.65 688.81,23.32 682.5,4.09 670,20 657.5,4.09 651.19,23.32 634,12.65 634.65,32.87 614.84,28.72 622.37,47.5 602.34,50.37 615.84,65.45 598,75 615.84,84.55 602.34,99.63 622.37,102.5 614.84,121.28 634.65,117.13 634,137.35 651.19,126.68 657.5,145.91 670,130 682.5,145.91 688.81,126.68 706,137.35 705.35,117.13 725.16,121.28 717.63,102.5 737.66,99.63 724.16,84.55" fill="#efbd37" stroke="#c8901a" stroke-width="1.2"/>
+<circle cx="670" cy="75" r="52" fill="#d8b65e"/>
+<text x="670" y="82.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Sun</tspan></text>
+<g id="bulge-b">
+<ellipse cx="150" cy="270" rx="82" ry="56" fill="#a8d4f0" stroke="#6aa9d1" stroke-width="1.5"/>
+<circle cx="150" cy="270" r="46" fill="#e3e8d1" stroke="#6aa9d1" stroke-width="1.5"/>
+<text x="150" y="263.9" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<polyline points="132.45,298.09 133.11,298.49 133.77,298.87 134.45,299.24 135.14,299.6 135.83,299.93 136.53,300.26 137.24,300.56 137.95,300.85 138.67,301.12 139.4,301.38 140.13,301.62 140.87,301.84 141.61,302.04 142.36,302.23 143.11,302.4 143.34,302.44" fill="none" stroke="#1b9ad6" stroke-width="3.5" stroke-linejoin="round"/>
+<line x1="143.34" y1="302.44" x2="154.76" y2="300.39" stroke="#1b9ad6" stroke-width="3.5"/>
+<polygon points="167.55,298.09 154.76,306.08 152.78,295.06" fill="#1b9ad6"/>
+</g>
+<circle cx="32" cy="265" r="15" fill="#55595f" stroke="#33363a" stroke-width="1.2"/>
+<polygon points="32,280 33.57,279.92 35.12,279.67 36.64,279.27 38.1,278.7 39.5,277.99 40.82,277.14 42.04,276.15 43.15,275.04 44.14,273.82 44.99,272.5 45.7,271.1 46.27,269.64 46.67,268.12 46.92,266.57 47,265 46.92,263.43 46.67,261.88 46.27,260.36 45.7,258.9 44.99,257.5 44.14,256.18 43.15,254.96 42.04,253.85 40.82,252.86 39.5,252.01 38.1,251.3 36.64,250.73 35.12,250.33 33.57,250.08 32,250" fill="#e6e8eb"/>
+<circle cx="27.5" cy="259.75" r="2.4" fill="#9ca1a8"/>
+<circle cx="36.5" cy="263.5" r="1.8" fill="#9ca1a8"/>
+<circle cx="30.5" cy="270.25" r="2.1" fill="#9ca1a8"/>
+<circle cx="37.7" cy="271" r="1.5" fill="#9ca1a8"/>
+<circle cx="32" cy="265" r="15" fill="none" stroke="#33363a" stroke-width="1.2"/>
+<line x1="32" y1="282" x2="32" y2="314" stroke="#4aa52e" stroke-width="3"/>
+<polygon points="32,327 26.4,313 37.6,313" fill="#4aa52e"/>
+<text x="32" y="342" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Moon</tspan></text>
+<text x="150" y="359" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">spring</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tide</tspan></text>
+<text x="440" y="347" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<polygon points="742,260 724.16,250.45 737.66,235.37 717.63,232.5 725.16,213.72 705.35,217.87 706,197.65 688.81,208.32 682.5,189.09 670,205 657.5,189.09 651.19,208.32 634,197.65 634.65,217.87 614.84,213.72 622.37,232.5 602.34,235.37 615.84,250.45 598,260 615.84,269.55 602.34,284.63 622.37,287.5 614.84,306.28 634.65,302.13 634,322.35 651.19,311.68 657.5,330.91 670,315 682.5,330.91 688.81,311.68 706,322.35 705.35,302.13 725.16,306.28 717.63,287.5 737.66,284.63 724.16,269.55" fill="#efbd37" stroke="#c8901a" stroke-width="1.2"/>
+<circle cx="670" cy="260" r="52" fill="#d8b65e"/>
+<text x="670" y="267.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Sun</tspan></text>
+<g id="bulge-c">
+<ellipse cx="150" cy="450" rx="60" ry="70" fill="#a8d4f0" stroke="#6aa9d1" stroke-width="1.5"/>
+<circle cx="150" cy="450" r="46" fill="#e3e8d1" stroke="#6aa9d1" stroke-width="1.5"/>
+<text x="150" y="443.9" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<polyline points="132.45,478.09 133.11,478.49 133.77,478.87 134.45,479.24 135.14,479.6 135.83,479.93 136.53,480.26 137.24,480.56 137.95,480.85 138.67,481.12 139.4,481.38 140.13,481.62 140.87,481.84 141.61,482.04 142.36,482.23 143.11,482.4 143.34,482.44" fill="none" stroke="#1b9ad6" stroke-width="3.5" stroke-linejoin="round"/>
+<line x1="143.34" y1="482.44" x2="154.76" y2="480.39" stroke="#1b9ad6" stroke-width="3.5"/>
+<polygon points="167.55,478.09 154.76,486.08 152.78,475.06" fill="#1b9ad6"/>
+</g>
+<circle cx="148" cy="578" r="15" fill="#55595f" stroke="#33363a" stroke-width="1.2"/>
+<polygon points="148,593 149.57,592.92 151.12,592.67 152.64,592.27 154.1,591.7 155.5,590.99 156.82,590.14 158.04,589.15 159.15,588.04 160.14,586.82 160.99,585.5 161.7,584.1 162.27,582.64 162.67,581.12 162.92,579.57 163,578 162.92,576.43 162.67,574.88 162.27,573.36 161.7,571.9 160.99,570.5 160.14,569.18 159.15,567.96 158.04,566.85 156.82,565.86 155.5,565.01 154.1,564.3 152.64,563.73 151.12,563.33 149.57,563.08 148,563" fill="#e6e8eb"/>
+<circle cx="143.5" cy="572.75" r="2.4" fill="#9ca1a8"/>
+<circle cx="152.5" cy="576.5" r="1.8" fill="#9ca1a8"/>
+<circle cx="146.5" cy="583.25" r="2.1" fill="#9ca1a8"/>
+<circle cx="153.7" cy="584" r="1.5" fill="#9ca1a8"/>
+<circle cx="148" cy="578" r="15" fill="none" stroke="#33363a" stroke-width="1.2"/>
+<line x1="165" y1="578" x2="197" y2="578" stroke="#4aa52e" stroke-width="3"/>
+<polygon points="210,578 196,583.6 196,572.4" fill="#4aa52e"/>
+<text x="148" y="627" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Moon</tspan></text>
+<text x="150" y="549" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">neap</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tide</tspan></text>
+<text x="440" y="527" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<polygon points="742,440 724.16,430.45 737.66,415.37 717.63,412.5 725.16,393.72 705.35,397.87 706,377.65 688.81,388.32 682.5,369.09 670,385 657.5,369.09 651.19,388.32 634,377.65 634.65,397.87 614.84,393.72 622.37,412.5 602.34,415.37 615.84,430.45 598,440 615.84,449.55 602.34,464.63 622.37,467.5 614.84,486.28 634.65,482.13 634,502.35 651.19,491.68 657.5,510.91 670,495 682.5,510.91 688.81,491.68 706,502.35 705.35,482.13 725.16,486.28 717.63,467.5 737.66,464.63 724.16,449.55" fill="#efbd37" stroke="#c8901a" stroke-width="1.2"/>
+<circle cx="670" cy="440" r="52" fill="#d8b65e"/>
+<text x="670" y="447.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Sun</tspan></text>
+</svg>
