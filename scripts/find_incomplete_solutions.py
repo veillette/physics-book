@@ -2,11 +2,12 @@
 """
 Find incomplete solutions in physics book markdown files.
 
-Every end-of-section problem (an exercise block whose data-element-type is
-"problems-exercises", or an untyped exercise under a "Problems & Exercises"
-heading) should carry a solution with Strategy, Solution, and Discussion
-parts. This script reports each problem that has no solution block, an empty
-one, or a solution missing any of those parts.
+Every end-of-section problem or conceptual question should carry a solution
+with Strategy, Solution, and Discussion parts. Exercise blocks are identified
+by data-element-type ("problems-exercises" or "conceptual-questions"), falling
+back to the section heading for untyped blocks. This script reports each
+exercise that has no solution block, an empty one, or a solution missing any
+of those parts.
 
 Both markups found in contents/ are understood:
     ::: problem / ::: solution            (markdown-it containers, any fence length)
@@ -25,6 +26,7 @@ Usage:
     python scripts/find_incomplete_solutions.py --range 1-6 --range 20-25
     python scripts/find_incomplete_solutions.py --summary    # Per-chapter counts only
     python scripts/find_incomplete_solutions.py --json       # Machine-readable output
+    python scripts/find_incomplete_solutions.py --type conceptual-questions --missing no-solution
     python scripts/find_incomplete_solutions.py --strict     # Exit 1 if anything is incomplete
 """
 
@@ -39,10 +41,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONTENTS_DIR = REPO_ROOT / 'contents'
 
 PARTS = ('strategy', 'solution', 'discussion')
+EXERCISE_TYPES = ('problems-exercises', 'conceptual-questions')
 
 CHAPTER_FILE_RE = re.compile(r'^ch(\d+)[A-Z].*\.md$')
-HEADING_RE = re.compile(r'^#{2,3}\s+(.*)$')
+HEADING_RE = re.compile(r'^#{2,6}\s+(.*)$')
 PROBLEMS_HEADING_RE = re.compile(r'problems?\s+(?:(?:&amp;|&|and)\s+)?exercises', re.IGNORECASE)
+CONCEPTUAL_HEADING_RE = re.compile(r'conceptual\s+questions', re.IGNORECASE)
 EXERCISE_OPEN_RE = re.compile(r'<div\b[^>]*\bclass="exercise"[^>]*>', re.IGNORECASE)
 ELEMENT_TYPE_RE = re.compile(r'data-element-type="([^"]*)"', re.IGNORECASE)
 PROBLEM_TYPE_RE = re.compile(r'^problems?-exercises$', re.IGNORECASE)
@@ -74,6 +78,7 @@ class Problem:
     present: list = field(default_factory=list)
     missing: list = field(default_factory=list)
     unclosed: list = field(default_factory=list)
+    exercise_type: str = 'problems-exercises'
 
     @property
     def complete(self):
@@ -98,14 +103,23 @@ def div_delta(line):
 
 
 def iter_exercises(lines):
-    """Yield (start_line_index, body_lines, is_problem) for each exercise block."""
-    in_problems_section = False
+    """Yield (start_line_index, body_lines, exercise_type) for each exercise block.
+
+    exercise_type is None for blocks outside the supported end-of-section types.
+    """
+    section_type = None
     i = 0
     while i < len(lines):
         line = lines[i]
         heading = HEADING_RE.match(line)
         if heading:
-            in_problems_section = bool(PROBLEMS_HEADING_RE.search(heading.group(1)))
+            title = heading.group(1)
+            if PROBLEMS_HEADING_RE.search(title):
+                section_type = 'problems-exercises'
+            elif CONCEPTUAL_HEADING_RE.search(title):
+                section_type = 'conceptual-questions'
+            else:
+                section_type = None
 
         opener = EXERCISE_OPEN_RE.search(line)
         if not opener:
@@ -114,9 +128,12 @@ def iter_exercises(lines):
 
         type_match = ELEMENT_TYPE_RE.search(opener.group(0))
         if type_match:
-            is_problem = bool(PROBLEM_TYPE_RE.match(type_match.group(1).strip()))
+            declared_type = type_match.group(1).strip().lower()
+            if PROBLEM_TYPE_RE.match(declared_type):
+                declared_type = 'problems-exercises'
+            exercise_type = declared_type if declared_type in EXERCISE_TYPES else None
         else:
-            is_problem = in_problems_section
+            exercise_type = section_type
 
         # Collect lines until the exercise div closes.
         start = i
@@ -128,7 +145,7 @@ def iter_exercises(lines):
             if depth > 0:
                 body.append(lines[i])
             i += 1
-        yield start, body, is_problem
+        yield start, body, exercise_type
 
 
 def extract_blocks(body):
@@ -198,7 +215,7 @@ def make_preview(text, width=80):
     return text if len(text) <= width else text[:width - 1].rstrip() + '…'
 
 
-def analyze_file(path, chapter, display_root):
+def analyze_file(path, chapter, display_root, exercise_type='all'):
     lines = path.read_text(encoding='utf-8').splitlines()
     try:
         display = str(path.resolve().relative_to(display_root))
@@ -206,8 +223,9 @@ def analyze_file(path, chapter, display_root):
         display = str(path)
 
     problems = []
-    for start, body, is_problem in iter_exercises(lines):
-        if not is_problem:
+    counts = dict.fromkeys(EXERCISE_TYPES, 0)
+    for start, body, block_type in iter_exercises(lines):
+        if block_type is None or (exercise_type != 'all' and block_type != exercise_type):
             continue
         blocks, unclosed = extract_blocks(body)
         if not blocks['problem']:
@@ -216,16 +234,18 @@ def analyze_file(path, chapter, display_root):
         solution_text = '\n'.join(blocks['solution'])
         has_block = bool(blocks['solution'])
         present = find_parts(solution_text)
+        counts[block_type] += 1
         problems.append(Problem(
             file=display,
             line=start + 1,
             chapter=chapter,
-            number=len(problems) + 1,
+            number=counts[block_type],
             preview=make_preview(blocks['problem'][0]),
             has_solution_block=has_block and bool(solution_text.strip()),
             present=[p for p in PARTS if p in present],
             missing=[p for p in PARTS if p not in present],
             unclosed=unclosed,
+            exercise_type=block_type,
         ))
     return problems
 
@@ -277,23 +297,24 @@ def print_report(results, summary_only, reported):
             if p.file != current_file:
                 current_file = p.file
                 print(f"\n{p.file}:")
-            print(f"  {p.file}:{p.line}  Problem {p.number}: {describe(p)}")
+            label = 'Conceptual question' if p.exercise_type == 'conceptual-questions' else 'Problem'
+            print(f"  {p.file}:{p.line}  {label} {p.number}: {describe(p)}")
             print(f"    {p.preview}")
 
     print(f"\n{'=' * 60}\nSUMMARY\n{'=' * 60}")
-    print(f"{'Chapter':>7}  {'Problems':>8}  {'Incomplete':>10}  {'No solution':>11}  {'Complete':>8}")
+    print(f"{'Chapter':>7}  {'Exercises':>9}  {'Incomplete':>10}  {'No solution':>11}  {'Complete':>8}")
     for chapter, total, incomplete, no_solution in per_chapter:
         pct = 100 * (total - incomplete) / total if total else 100
-        print(f"{chapter:>7}  {total:>8}  {incomplete:>10}  {no_solution:>11}  {pct:>7.0f}%")
+        print(f"{chapter:>7}  {total:>9}  {incomplete:>10}  {no_solution:>11}  {pct:>7.0f}%")
     total = totals['problems']
     pct = 100 * (total - totals['incomplete']) / total if total else 100
-    print(f"{'Total':>7}  {total:>8}  {totals['incomplete']:>10}  {totals['no_solution']:>11}  {pct:>7.0f}%")
+    print(f"{'Total':>7}  {total:>9}  {totals['incomplete']:>10}  {totals['no_solution']:>11}  {pct:>7.0f}%")
     return totals
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Find incomplete solutions in physics book chapters.',
+        description='Find incomplete solutions for problems and conceptual questions in physics book chapters.',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -302,6 +323,8 @@ Examples:
   %(prog)s --range 1-10         Analyze chapters 1 through 10
   %(prog)s --range 1-6 --range 20-25   Analyze multiple ranges
   %(prog)s --missing discussion Only report problems lacking a Discussion
+  %(prog)s --type conceptual-questions --missing no-solution
+                               Only report unanswered conceptual questions
         """,
     )
     parser.add_argument('chapters', nargs='*', type=int, help='Specific chapter numbers to analyze')
@@ -313,6 +336,8 @@ Examples:
                         help='Only list problems missing this part, or with no solution at all; '
                              'repeatable. Summary totals still cover every problem.')
     parser.add_argument('--summary', '-s', action='store_true', help='Print only the per-chapter summary')
+    parser.add_argument('--type', choices=('all',) + EXERCISE_TYPES, default='all',
+                        help='Exercise type to analyze (default: all)')
     parser.add_argument('--json', action='store_true', help='Print incomplete problems as JSON')
     parser.add_argument('--strict', action='store_true', help='Exit with status 1 if any problem is incomplete')
     args = parser.parse_args()
@@ -332,7 +357,8 @@ Examples:
 
     results = {}
     for chapter, paths in files.items():
-        results[chapter] = [p for path in paths for p in analyze_file(path, chapter, Path.cwd())]
+        results[chapter] = [p for path in paths
+                            for p in analyze_file(path, chapter, Path.cwd(), args.type)]
 
     def reported(p):
         if not args.missing:

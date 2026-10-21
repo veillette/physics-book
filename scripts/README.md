@@ -4,34 +4,35 @@ Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
-| Script                  | Command                           | Description                         |
-| ----------------------- | --------------------------------- | ----------------------------------- |
-| content                 | `npm run check:content`           | Validate and fix content quality    |
-| equations               | `npm run check:equations`         | Validate and fix equations          |
-| check-links             | `npm run check:links`             | Validate internal/external links    |
-| check-orphans           | `npm run check:orphans`           | Find unreferenced files             |
-| check-figures           | `npm run check:figures`           | Validate figure references          |
-| check-math              | `npm run check:math`              | Check LaTeX delimiter balance       |
-| check_math              | `npm run check:physics`           | Verify arithmetic and physics cases |
-| find-unrendered-latex   | `npm run find:latex`              | Check math rendering in Chromium    |
-| check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility    |
-| check-yaml              | `npm run check:yaml`              | Validate YAML front matter          |
-| check-structure         | `npm run check:structure`         | Validate document structure         |
-| check-cross-references  | `npm run check:cross-refs`        | Validate cross-references           |
-| lint-markdown           | `npm run lint:markdown`           | Lint markdown files                 |
-| generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters            |
-| generate-icons          | `npm run generate:icons`          | Generate PWA icons                  |
-| generate-fbd            | `npm run generate:fbd`            | Generate free-body diagram SVGs     |
-| generate-figures        | `npm run generate:figures`        | Generate line-art figure SVGs       |
-| generate-sketches       | `npm run generate:sketches`       | Generate kinematics sketch SVGs     |
-| build-index             | `npm run generate:search-index`   | Generate search index               |
-| parse-summary           | `npm run parse:summary`           | Generate summary.json               |
-| update-front-matter     | `npm run update:front-matter`     | Update YAML front matter            |
-| rename-figures          | `npm run update:figures`          | Rename figures and update refs      |
-| convert-webp            | `npm run convert:webp`            | Convert images to WebP              |
-| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters            |
-| validate-deploy         | `npm run deploy:validate`         | Validate deployment                 |
-| crawl-all-pages         | `npm run crawl`                   | Navigate all pages to find errors   |
+| Script                    | Command                           | Description                                     |
+| ------------------------- | --------------------------------- | ----------------------------------------------- |
+| content                   | `npm run check:content`           | Validate and fix content quality                |
+| equations                 | `npm run check:equations`         | Validate and fix equations                      |
+| check-links               | `npm run check:links`             | Validate internal/external links                |
+| check-orphans             | `npm run check:orphans`           | Find unreferenced files                         |
+| check-figures             | `npm run check:figures`           | Validate figure references                      |
+| check-math                | `npm run check:math`              | Check LaTeX delimiter balance                   |
+| check_math                | `npm run check:physics`           | Verify arithmetic and physics cases             |
+| find_incomplete_solutions | `npm run check:solutions`         | Check problem and conceptual question solutions |
+| find-unrendered-latex     | `npm run find:latex`              | Check math rendering in Chromium                |
+| check-accessibility       | `npm run check:accessibility`     | Check alt text and accessibility                |
+| check-yaml                | `npm run check:yaml`              | Validate YAML front matter                      |
+| check-structure           | `npm run check:structure`         | Validate document structure                     |
+| check-cross-references    | `npm run check:cross-refs`        | Validate cross-references                       |
+| lint-markdown             | `npm run lint:markdown`           | Lint markdown files                             |
+| generate-pdf              | `npm run generate:pdf`            | Generate PDF of chapters                        |
+| generate-icons            | `npm run generate:icons`          | Generate PWA icons                              |
+| generate-fbd              | `npm run generate:fbd`            | Generate free-body diagram SVGs                 |
+| generate-figures          | `npm run generate:figures`        | Generate line-art figure SVGs                   |
+| generate-sketches         | `npm run generate:sketches`       | Generate kinematics sketch SVGs                 |
+| build-index               | `npm run generate:search-index`   | Generate search index                           |
+| parse-summary             | `npm run parse:summary`           | Generate summary.json                           |
+| update-front-matter       | `npm run update:front-matter`     | Update YAML front matter                        |
+| rename-figures            | `npm run update:figures`          | Rename figures and update refs                  |
+| convert-webp              | `npm run convert:webp`            | Convert images to WebP                          |
+| convert-math-delimiters   | `npm run convert:math-delimiters` | Convert LaTeX delimiters                        |
+| validate-deploy           | `npm run deploy:validate`         | Validate deployment                             |
+| crawl-all-pages           | `npm run crawl`                   | Navigate all pages to find errors               |
 
 ---
 
@@ -87,6 +88,23 @@ import { printHeader, printResults } from './lib/reporter.js';
 ---
 
 ## Consolidated Scripts
+
+### find_incomplete_solutions.py
+
+Checks both Problems & Exercises and Conceptual Questions for absent or empty
+solutions and missing Strategy, Solution, or Discussion labels. Explicit exercise
+types take precedence over section headings. Question numbers are counted
+separately for each type within each file; JSON results include `exercise_type`.
+
+```bash
+npm run check:solutions
+python3 -B scripts/find_incomplete_solutions.py --type conceptual-questions --missing no-solution
+python3 -B scripts/find_incomplete_solutions.py --type problems-exercises --summary
+python3 -B scripts/find_incomplete_solutions.py --type conceptual-questions --missing no-solution --json
+```
+
+`--type` defaults to `all`. The `--missing` option filters detailed listings and
+JSON results; summary totals still include every exercise of the selected type.
 
 ### content.js
 
