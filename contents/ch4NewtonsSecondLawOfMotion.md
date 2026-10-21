@@ -284,7 +284,7 @@ Earth as on the Moon?
 
 :::
 
-::: example
+::: example {"class":"example","id":"lawn-mower"}
 
 <div class="title">
 What Acceleration Can a Person Produce when Pushing a Lawn Mower?
@@ -313,6 +313,7 @@ Entering known values gives
 Substituting the units $$ \kg \cdot \mss $$ for N yields
 
 <div class="equation">
+ <!-- physics: eq-7 -->
  $$ a=\frac{51 \kg \cdot \mss }{24 \kg }=2.13 \mss . $$
 </div>
 
@@ -341,7 +342,7 @@ Prior to manned space flights, rocket sleds were used to test aircraft, missile 
 human subjects at high speeds. They consisted of a platform that was mounted on one or two rails and propelled by
 several rockets. Calculate the magnitude of force exerted by each rocket, called its thrust $$ \vb{T} $$, for the
 four-rocket propulsion system shown in [Figure 4](#Figure4). The
-sled’s initial acceleration is $$ 49\mss $$,
+sled’s initial acceleration is <!-- physics: eq-1 -->$$ 49\mss $$,
 the mass of the system is 2100 kg, and the force of friction opposing the motion
 is known to be 650 N.
 
@@ -397,12 +398,14 @@ Substituting known values yields
 So the total thrust is
 
 <div class="equation">
+ <!-- physics: eq-9 -->
  $$ 4T=1.0\times 10^{5}\N , $$
 </div>
 
 and the individual thrusts are
 
 <div class="equation">
+ <!-- physics: eq-10 -->
  $$ T=\frac{1.0\times 10^{5}\N }{4}=2.6\times 10^{4}\N . $$
 </div>
 
@@ -772,11 +775,11 @@ While the shown horizontal push acts, including gravity makes the basketball’s
 
 **You may assume data taken from illustrations is accurate to three digits.**
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="sprinter">
 
 ::: problem
 
-A 63.0-kg sprinter starts a race with an acceleration of $$ 4.20 \mss $$.
+A 63.0-kg sprinter starts a race with an acceleration of <!-- physics: eq-0 -->$$ 4.20 \mss $$.
 What is the net external force on him?
 
 :::
@@ -795,6 +798,7 @@ Apply Newton's second law directly. Given mass and acceleration, calculate the n
 
 2. Apply Newton's second law:
 <div class="equation">
+<!-- physics: eq-4 -->
 $$ F_{net} = ma = (63.0 \kg)(4.20 \mss) = 265 \N $$
 </div>
 
@@ -867,7 +871,7 @@ The sprinter's time for the 100-m dash would be approximately $$ 9.26 \s $$.
 
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="laundry-cart">
 
 ::: problem
 
@@ -890,6 +894,7 @@ Use Newton's second law to find acceleration when force and mass are given. Rear
 
 2. Rearrange Newton's second law to solve for acceleration:
 <div class="equation">
+<!-- physics: eq-4 -->
 $$ a = \frac{F_{net}}{m} = \frac{60.0 \N}{4.50 \kg} = \frac{60.0 \kg \cdot \mss}{4.50 \kg} = 13.3 \mss $$
 </div>
 

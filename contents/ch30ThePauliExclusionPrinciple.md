@@ -1459,13 +1459,13 @@ For stars moving **toward** us at $$v=200 \text{ km/s}=2.00\times 10^{5} \text{ 
 </div>
 
 <div class="equation" >
- $${\lambda }_{\text{blue}}={\lambda }_{0}-\Delta \lambda =656.0-0.437=655.6 \text{ nm} $$
+ $${\lambda }_{\text{blue}}={\lambda }_{0}-\Delta \lambda =656.0 \text{ nm} - 0.437 \text{ nm}=655.6 \text{ nm} $$
 </div>
 
 For stars moving **away** from us at $$v=200 \text{ km/s} $$ :
 
 <div class="equation" >
- $${\lambda }_{\text{red}}={\lambda }_{0}+\Delta \lambda =656.0+0.437=656.4 \text{ nm} $$
+ $${\lambda }_{\text{red}}={\lambda }_{0}+\Delta \lambda =656.0 \text{ nm} + 0.437 \text{ nm}=656.4 \text{ nm} $$
 </div>
 
 The observed wavelength range is **655.6 nm to 656.4 nm**.
@@ -1687,7 +1687,7 @@ For hydrogen-like ions, the wavelengths are modified by $$Z^2 $$ :
 </div>
 
 <div class="equation" >
- $$\frac{1}{\lambda }=4\left( 1.097\times 10^{7}\right)\left(\frac{3}{4}\right)= 3.29\times 10^{7} {\text{ m}}^{-1} $$
+ $$\frac{1}{\lambda }=4\left( 1.097\times 10^{7} {\text{ m}}^{-1}\right)\left(\frac{3}{4}\right)= 3.29\times 10^{7} {\text{ m}}^{-1} $$
 </div>
 
 <div class="equation" >
@@ -1697,7 +1697,7 @@ For hydrogen-like ions, the wavelengths are modified by $$Z^2 $$ :
 **Part (b):** Calculate the photon energy for this transition.
 
 <div class="equation" >
- $$E=\frac{hc}{\lambda }=\frac{\left( 6.63\times 10^{-34}\right)\left( 3.00\times 10^{8}\right)}{30.4\times 10^{-9}}= 6.54\times 10^{-18} \text{ J}=40.9 \text{ eV} $$
+ $$E=\frac{hc}{\lambda }=\frac{\left( 6.63\times 10^{-34} \text{ J·s}\right)\left( 3.00\times 10^{8} \text{ m/s}\right)}{30.4\times 10^{-9} \text{ m}}= 6.54\times 10^{-18} \text{ J}=40.9 \text{ eV} $$
 </div>
 
 **Discussion**
@@ -1741,19 +1741,19 @@ For non-relativistic Doppler shift: $${\lambda }_{\text{observed}}={\lambda }_{0
 First Balmer line ( $$n=3 $$ to $$n=2 $$ ): $${\lambda }_{0}=656 \text{ nm} $$
 
 <div class="equation" >
- $${\lambda }_{\text{obs}}=656\left(1+0.050\right)=656\times 1.050=689 \text{ nm} $$
+ $${\lambda }_{\text{obs}}=(656 \text{ nm})\left(1+0.050\right)=656 \text{ nm}\times 1.050=689 \text{ nm} $$
 </div>
 
 Second Balmer line ( $$n=4 $$ to $$n=2 $$ ): $${\lambda }_{0}=486 \text{ nm} $$
 
 <div class="equation" >
- $${\lambda }_{\text{obs}}=486\times 1.050=510 \text{ nm} $$
+ $${\lambda }_{\text{obs}}=486 \text{ nm}\times 1.050=510 \text{ nm} $$
 </div>
 
 Third Balmer line ( $$n=5 $$ to $$n=2 $$ ): $${\lambda }_{0}=434 \text{ nm} $$
 
 <div class="equation" >
- $${\lambda }_{\text{obs}}=434\times 1.050=456 \text{ nm} $$
+ $${\lambda }_{\text{obs}}=434 \text{ nm}\times 1.050=456 \text{ nm} $$
 </div>
 
 **Part (b):** Determine if these wavelengths follow $$\frac{1}{\lambda }=R\text{'}\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ with a modified Rydberg constant $$R\text{'} $$ .

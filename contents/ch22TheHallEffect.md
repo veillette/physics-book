@@ -443,9 +443,9 @@ $$V_H=\frac{BdI}{neA}.$$
 
 With $$d=2.588\times10^{-3}\ \text{m}$$, $$A=\pi d^2/4=5.26\times10^{-6}\ \text{m}^2$$, and $$n=8.34\times10^{28}\ \text{m}^{-3}$$,
 
-$$v_d=\frac{20.0}{(8.34\times10^{28})(1.60\times10^{-19})(5.26\times10^{-6})}=2.85\times10^{-4}\ \text{m/s},$$
+$$v_d=\frac{20.0\ \text{A}}{(8.34\times10^{28}\ \text{m}^{-3})(1.60\times10^{-19}\ \text{C})(5.26\times10^{-6}\ \text{m}^2)}=2.85\times10^{-4}\ \text{m/s},$$
 
-$$V_H=(2.00)(2.588\times10^{-3})(2.85\times10^{-4})=1.47\times10^{-6}\ \text{V}=1.47\ \mu\text{V}.$$
+$$V_H=(2.00\ \text{T})(2.588\times10^{-3}\ \text{m})(2.85\times10^{-4}\ \text{m/s})=1.47\times10^{-6}\ \text{V}=1.47\ \mu\text{V}.$$
 
 The large carrier density in copper makes this voltage very small.
 

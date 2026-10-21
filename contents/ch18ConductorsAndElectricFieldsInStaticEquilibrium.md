@@ -1197,7 +1197,7 @@ with positions $$a_i$$ in centimeters and charge multiples $$(a_i, c_i) = (1, -2
  $$-\frac{2}{(x-1.00)^2} + \frac{1}{(x-5.00)^2} - \frac{3}{(8.00-x)^2} + \frac{1}{(14.0-x)^2} = 0 \quad\Rightarrow\quad x = 6.07 \text{ cm}$$
 </div>
 
-Check at $$x = 6.07$$ cm: $$-0.0778 + 0.873 - 0.805 + 0.0159 = 0.006 \text{ cm}^{-2}$$, which is small compared with the individual terms; the unrounded root is 6.0725 cm.
+Check at $$x = 6.07$$ cm: $$ -0.0778 \text{ cm}^{-2} + 0.873 \text{ cm}^{-2} - 0.805 \text{ cm}^{-2} + 0.0159 \text{ cm}^{-2} = 0.006 \text{ cm}^{-2}$$, which is small compared with the individual terms; the unrounded root is 6.0725 cm.
 
 **Interval** $$8 < x < 14$$ **cm:** The field points right near both ends (away from $$+3q$$ and toward $$-q$$) and stays rightward, so there is no zero.
 
@@ -1413,7 +1413,7 @@ The electric field at the location of $$q_a$$ is **412 N/C directed at 135° fro
 
 The field at $$q_a$$ results from four contributions. The three positive corner charges all repel, so their fields at $$q_a$$ point away from them, outward from the square. The negative central charge attracts, so its field points toward the center. By symmetry, $$q_b$$ and $$q_c$$ are at equal distances along perpendicular edges and $$q_d$$ and $$q$$ lie on the diagonal through $$q_a$$, so the net field must lie along that diagonal.
 
-The negative central charge significantly affects the result. Without it, the field would be $$(609 \text{ N/C})\sqrt{2} = 861$$ N/C, pointing outward along the same diagonal. The central charge cancels about half of this, but not enough to reverse the direction. This demonstrates superposition: the total field is the vector sum of all individual contributions.
+The negative central charge significantly affects the result. Without it, the field would be $$(609 \text{ N/C})\sqrt{2} = 861\,\text{A}^{-1}\cdot\text{m}\cdot\text{kg}\cdot\text{s}^{-3}$$ N/C, pointing outward along the same diagonal. The central charge cancels about half of this, but not enough to reverse the direction. This demonstrates superposition: the total field is the vector sum of all individual contributions.
 
 :::
 

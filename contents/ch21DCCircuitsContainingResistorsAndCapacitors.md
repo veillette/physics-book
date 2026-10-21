@@ -810,26 +810,26 @@ Find the two possible capacitances (series and parallel) and the two possible re
 **Solution**
 
 **Capacitors:**
-- Parallel: $$C_p = C_1 + C_2 = 2.00 + 7.50 = 9.50 \text{ μF}$$
-- Series: $$\frac{1}{C_s} = \frac{1}{2.00} + \frac{1}{7.50} = 0.500 + 0.133 = 0.633 \text{ μF}^{-1}$$
+- Parallel: $$C_p = C_1 + C_2 = 2.00 \text{ μF} + 7.50 \text{ μF} = 9.50 \text{ μF}$$
+- Series: $$\frac{1}{C_s} = \frac{1}{2.00 \text{ μF}} + \frac{1}{7.50 \text{ μF}} = 0.500 \text{ μF}^{-1} + 0.133 \text{ μF}^{-1} = 0.633 \text{ μF}^{-1}$$
 
   $$C_s = 1.58 \text{ μF}$$
 
 **Resistors:**
-- Series: $$R_s = R_1 + R_2 = 25.0 + 100 = 125 \text{ kΩ}$$
-- Parallel: $$\frac{1}{R_p} = \frac{1}{25.0} + \frac{1}{100} = 0.0400 + 0.0100 = 0.0500 \text{ kΩ}^{-1}$$
+- Series: $$R_s = R_1 + R_2 = 25.0 \text{ kΩ} + 100 \text{ kΩ} = 125 \text{ kΩ}$$
+- Parallel: $$\frac{1}{R_p} = \frac{1}{25.0 \text{ kΩ}} + \frac{1}{100 \text{ kΩ}} = 0.0400 \text{ kΩ}^{-1} + 0.0100 \text{ kΩ}^{-1} = 0.0500 \text{ kΩ}^{-1}$$
 
   $$R_p = 20.0 \text{ kΩ}$$
 
 **Four time constants:**
 
-1. $$\tau_{1} = R_s C_p = (125 \times 10^{3})(9.50 \times 10^{-6}) = 1.19 \text{ s}$$
+1. $$\tau_{1} = R_s C_p = (125 \times 10^{3} \text{ Ω})(9.50 \times 10^{-6} \text{ F}) = 1.19 \text{ s}$$
 
-2. $$\tau_{2} = R_s C_s = (125 \times 10^{3})(1.58 \times 10^{-6}) = 0.198 \text{ s}$$
+2. $$\tau_{2} = R_s C_s = (125 \times 10^{3} \text{ Ω})(1.58 \times 10^{-6} \text{ F}) = 0.198 \text{ s}$$
 
-3. $$\tau_{3} = R_p C_p = (20.0 \times 10^{3})(9.50 \times 10^{-6}) = 0.190 \text{ s}$$
+3. $$\tau_{3} = R_p C_p = (20.0 \times 10^{3} \text{ Ω})(9.50 \times 10^{-6} \text{ F}) = 0.190 \text{ s}$$
 
-4. $$\tau_{4} = R_p C_s = (20.0 \times 10^{3})(1.58 \times 10^{-6}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
+4. $$\tau_{4} = R_p C_s = (20.0 \times 10^{3} \text{ Ω})(1.58 \times 10^{-6} \text{ F}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
 
 **Discussion**
 
@@ -1035,7 +1035,7 @@ $$RC = (500 \text{ Ω})(250 \times 10^{-6} \text{ F}) = 0.125 \text{ s}$$
 </div>
 
 <div class="equation">
-$$t = (0.125 \text{ s}) \ln(100) = (0.125)(4.605) = 0.576 \text{ s}$$
+$$t = (0.125 \text{ s}) \ln(100) = (0.125 \text{ s})(4.605) = 0.576 \text{ s}$$
 </div>
 
 **Discussion**
@@ -1080,11 +1080,11 @@ $$t = -RC \ln(0.100) = RC \ln(10)$$
 
 Calculate $$RC$$:
 <div class="equation">
-$$RC = (75.0 \times 10^{6})(100 \times 10^{-12}) = 7.50 \times 10^{-3} \text{ s}$$
+$$RC = (75.0 \times 10^{6} \text{ Ω})(100 \times 10^{-12} \text{ F}) = 7.50 \times 10^{-3} \text{ s}$$
 </div>
 
 <div class="equation">
-$$t = (7.50 \times 10^{-3}) \ln(10) = (7.50 \times 10^{-3})(2.303) = 1.73 \times 10^{-2} \text{ s}$$
+$$t = (7.50 \times 10^{-3} \text{ s}) \ln(10) = (7.50 \times 10^{-3} \text{ s})(2.303) = 1.73 \times 10^{-2} \text{ s}$$
 </div>
 
 **Discussion**

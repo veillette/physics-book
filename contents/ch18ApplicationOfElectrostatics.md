@@ -1559,27 +1559,27 @@ We chose nanocoulomb charges deliberately. With $$\pm 10.0 \text{ μC}$$, the fi
 
 (a) Midpoint, $$x = 0.150$$ m. Both fields point toward B:
 
-$$E = +\frac{89.9}{(0.150)^2} + \frac{89.9}{(0.150)^2} = 4.00 \times 10^{3} + 4.00 \times 10^{3} = +7.99 \times 10^{3} \text{ N/C}$$
+$$E = +\frac{89.9 \text{ N·m}^2/\text{C}}{(0.150 \text{ m})^2} + \frac{89.9 \text{ N·m}^2/\text{C}}{(0.150 \text{ m})^2} = 4.00 \times 10^{3} \text{ N/C} + 4.00 \times 10^{3} \text{ N/C} = +7.99 \times 10^{3} \text{ N/C}$$
 
 (b) Just outside A, $$x = 0.0500$$ m. Both fields point toward B:
 
-$$E = +\frac{89.9}{(0.0500)^2} + \frac{89.9}{(0.250)^2} = 3.60 \times 10^{4} + 1.44 \times 10^{3} = +3.74 \times 10^{4} \text{ N/C}$$
+$$E = +\frac{89.9 \text{ N·m}^2/\text{C}}{(0.0500 \text{ m})^2} + \frac{89.9 \text{ N·m}^2/\text{C}}{(0.250 \text{ m})^2} = 3.60 \times 10^{4} \text{ N/C} + 1.44 \times 10^{3} \text{ N/C} = +3.74 \times 10^{4} \text{ N/C}$$
 
 (c) Center of A, $$x = 0$$. Ball A's own field is zero inside it, so only B contributes:
 
-$$E = 0 + \frac{89.9}{(0.300)^2} = +999 \text{ N/C}$$
+$$E = 0 + \frac{89.9 \text{ N·m}^2/\text{C}}{(0.300 \text{ m})^2} = +999 \text{ N/C}$$
 
 (d) $$x = -0.100$$ m. A's field points away from A (in the $$-x$$ direction); B's field points toward B ($$+x$$):
 
-$$E = -\frac{89.9}{(0.100)^2} + \frac{89.9}{(0.400)^2} = -8.99 \times 10^{3} + 562 = -8.43 \times 10^{3} \text{ N/C}$$
+$$E = -\frac{89.9 \text{ N·m}^2/\text{C}}{(0.100 \text{ m})^2} + \frac{89.9 \text{ N·m}^2/\text{C}}{(0.400 \text{ m})^2} = -8.99 \times 10^{3} \text{ N/C} + 562 \text{ N/C} = -8.43 \times 10^{3} \text{ N/C}$$
 
 (e) $$x = -3.00$$ m:
 
-$$E = -\frac{89.9}{(3.00)^2} + \frac{89.9}{(3.30)^2} = -9.99 + 8.26 = -1.73 \text{ N/C}$$
+$$E = -\frac{89.9 \text{ N·m}^2/\text{C}}{(3.00 \text{ m})^2} + \frac{89.9 \text{ N·m}^2/\text{C}}{(3.30 \text{ m})^2} = -9.99 \text{ N/C} + 8.26 \text{ N/C} = -1.73 \text{ N/C}$$
 
 (f) $$x = -30.0$$ m:
 
-$$E = -\frac{89.9}{(30.0)^2} + \frac{89.9}{(30.3)^2} = -0.0999 + 0.0979 = -1.97 \times 10^{-3} \text{ N/C}$$
+$$E = -\frac{89.9 \text{ N·m}^2/\text{C}}{(30.0 \text{ m})^2} + \frac{89.9 \text{ N·m}^2/\text{C}}{(30.3 \text{ m})^2} = -0.0999 \text{ N/C} + 0.0979 \text{ N/C} = -1.97 \times 10^{-3} \text{ N/C}$$
 
 **Discussion**
 

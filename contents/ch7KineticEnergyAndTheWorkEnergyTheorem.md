@@ -153,7 +153,7 @@ has at 50 km/h, helping to explain why high-speed collisions are so devastating.
 We will now consider a series of examples to illustrate various aspects of work
 and energy.
 
-::: example
+::: example {"class":"example","id":"package-energy"}
 
 <div class="title">
 Calculating the Kinetic Energy of a Package
@@ -183,6 +183,7 @@ Entering known values gives
 which yields
 
 <div class="equation">
+ <!-- physics: eq-5 -->
  $$ \KE=3.75 \kg \cdot \mmss=3.75 \J . $$
 </div>
 
@@ -196,7 +197,7 @@ can move packages like this without exhausting themselves.
 
 :::
 
-::: example
+::: example {"class":"example","id":"package-work"}
 
 <div class="title">
 Determining the Work to Accelerate a Package
@@ -221,6 +222,7 @@ distance.
 The net force is the push force minus friction, or $$ F_{\text{net}} = 120 N - 5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
+<!-- physics: eq-1 -->
 $$ \begin{array}{lll}
 W_{\text{net}}&=& F_{\text{net}}d=\left(115 \N \right)\left(0.800 \m \right)\\
 W_{\text{net}}&=& 92.0 \N \cdot \m=92.0 \J .
@@ -320,12 +322,14 @@ Solving for $$ \frac{1}{2}m v^{2} $$ gives
 Thus,
 
 <div class="equation">
+ <!-- physics: eq-7 -->
  $$ \frac{1}{2}m v^{2}=92.0 \J+3.75 \J =95.75 \J . $$
 </div>
 
 Solving for the final speed as requested and entering known values gives
 
 <div class="equation">
+<!-- physics: eq-8 -->
 $$ \begin{array}{lll}
 v&=& \sqrt{\frac{2\text{(95.75 J)}}{m}}=\sqrt{\frac{191.5 \kg \cdot \mmss }{30.0 \kg }}\\
 v&=& 2.53 \ms .
@@ -340,7 +344,7 @@ the package. This means that the work indeed adds to the energy of the package.
 
 :::
 
-::: example
+::: example {"class":"example","id":"package-coast"}
 
 <div class="title">
 Work and Energy Can Reveal Distance, Too
@@ -364,16 +368,18 @@ horizontal friction force is then the net force, and it acts opposite to the
 displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
 package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
-due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
+due to the pushing. Thus <!-- physics: eq-2 -->$$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
 is the distance it takes to stop. Thus,
 
 <div class="equation">
+ <!-- physics: eq-5 -->
  $$ d^{\prime} =-\frac{ W_{\text{fr}}}{f}=-\frac{-95.75 \J }{5.00 \N }, $$
 </div>
 
 and so
 
 <div class="equation">
+ <!-- physics: eq-6 -->
  $$ d^{\prime} =19.2 \m . $$
 </div>
 

@@ -569,7 +569,7 @@ $$B = \mu_{0} n I$$
 
 $$I = \frac{B}{\mu_{0} n} = \frac{1.20 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(400 \text{ m}^{-1})}$$
 
-$$I = \frac{1.20}{5.03 \times 10^{-4}} = 2390 \text{ A}$$
+$$I = \frac{1.20 \text{ T}}{5.03 \times 10^{-4} \text{ T/A}} = 2390 \text{ A}$$
 
 This is an enormous current, which is why MRI machines use superconducting coils and iron cores to enhance the field.
 
@@ -579,7 +579,7 @@ For a circular current loop, the field at the center is:
 
 $$B_p = \frac{\mu_{0} I_p}{2r_p} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1.05 \times 10^{4} \text{ A})}{2(0.650 \times 10^{-15} \text{ m})}$$
 
-$$B_p = \frac{1.32 \times 10^{-2}}{1.30 \times 10^{-15}} = 1.01 \times 10^{13} \text{ T}$$
+$$B_p = \frac{1.32 \times 10^{-2} \text{ T·m}}{1.30 \times 10^{-15} \text{ m}} = 1.01 \times 10^{13} \text{ T}$$
 
 **Discussion**
 
@@ -619,9 +619,9 @@ $$B = \frac{N\mu_{0} I}{2r}$$
 
 $$B = \frac{(250)(4\pi \times 10^{-7} \text{ T·m/A})(30.0 \text{ A})}{2(0.100 \text{ m})}$$
 
-$$B = \frac{(250)(1.257 \times 10^{-6})(30.0)}{0.200}$$
+$$B = \frac{(250)(1.257 \times 10^{-6} \text{ T·m/A})(30.0 \text{ A})}{0.200 \text{ m}}$$
 
-$$B = \frac{9.42 \times 10^{-3}}{0.200} = 4.71 \times 10^{-2} \text{ T}$$
+$$B = \frac{9.42 \times 10^{-3} \text{ T·m}}{0.200 \text{ m}} = 4.71 \times 10^{-2} \text{ T}$$
 
 **Discussion**
 
@@ -659,7 +659,7 @@ For part (a), we use the formula for the magnetic field around a long straight w
 
 $$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{2\pi (0.500 \text{ m})}$$
 
-$$B = \frac{(4 \times 10^{-7})(1200)}{1.00} = 4.80 \times 10^{-4} \text{ T}$$
+$$B = \frac{(4 \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{1.00 \text{ m}} = 4.80 \times 10^{-4} \text{ T}$$
 
 **(b)** When the outgoing and return wires are side by side, they carry equal currents in opposite directions. At any point equidistant from both wires, the magnetic fields point in opposite directions and **cancel completely**:
 
@@ -731,11 +731,11 @@ What current is needed in the solenoid of the preceding problem, with 10 000 tur
 
 The preceding solenoid has $$n=10\,000\ \text{turns/m}$$. The desired field is
 
-$$B=10^4(5.00\times10^{-5})=0.500\ \text{T}.$$
+$$B=(10^4\ \text{A/m})(5.00\times10^{-5}\ \text{T}\cdot\text{m/A})=0.500\ \text{T}.$$
 
 From $$B=\mu_0nI$$,
 
-$$I=\frac{0.500}{(4\pi\times10^{-7})(10^4)}=39.8\ \text{A}.$$
+$$I=\frac{0.500\ \text{T}}{(4\pi\times10^{-7}\ \text{T}\cdot\text{m/A})(10^4\ \text{m}^{-1})}=39.8\ \text{A}.$$
 
 This uses the ideal long-solenoid approximation.
 
@@ -812,7 +812,7 @@ For part (a), we calculate the magnetic field at the center of a current loop us
 
 $$B_{\text{loop}} = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(5.00 \text{ A})}{2(0.100 \text{ m})}$$
 
-$$B_{\text{loop}} = \frac{6.28 \times 10^{-6}}{0.200} = 3.14 \times 10^{-5} \text{ T}$$
+$$B_{\text{loop}} = \frac{6.28 \times 10^{-6} \text{ T·m}}{0.200 \text{ m}} = 3.14 \times 10^{-5} \text{ T}$$
 
 **(b)** The loop's field must be less than 0.0100% of the measured field:
 
@@ -904,7 +904,7 @@ Each wire is $$r=s/\sqrt2=0.1414\ \text{m}$$ from the center of the 0.200-m squa
 
 For each horizontal pair, vertical field components cancel. The horizontal components all point rightward. Each top wire contributes $$1.00\times10^{-5}\ \text{T}$$ rightward and each bottom wire $$5.00\times10^{-6}\ \text{T}$$. Hence
 
-$$B_x=2(1.00\times10^{-5})+2(5.00\times10^{-6})=3.00\times10^{-5}\ \text{T},\qquad B_y=0.$$
+$$B_x=2(1.00\times10^{-5}\ \text{T})+2(5.00\times10^{-6}\ \text{T})=3.00\times10^{-5}\ \text{T},\qquad B_y=0.$$
 
 The field is **3.00 × 10⁻⁵ T toward the right**, parallel to the square's top and bottom sides.
 
@@ -959,7 +959,7 @@ $$I = \frac{P}{V} = \frac{4.50 \times 10^8 \text{ W}}{3.00 \times 10^5 \text{ V}
 
 $$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1500 \text{ A})}{2\pi (20 \text{ m})}$$
 
-$$B = \frac{(4 \times 10^{-7})(1500)}{40} = \frac{6.00 \times 10^{-4}}{40} = 1.50 \times 10^{-5} \text{ T}$$
+$$B = \frac{(4 \times 10^{-7} \text{ T·m/A})(1500 \text{ A})}{40 \text{ m}} = \frac{6.00 \times 10^{-4} \text{ T·m}}{40 \text{ m}} = 1.50 \times 10^{-5} \text{ T}$$
 
 **Discussion**
 
@@ -1009,7 +1009,7 @@ This is an integrated concepts problem combining energy conservation (to find th
 **(a)** *Step 1: Find the velocity at the bottom using energy conservation*
 
 $$mgh = \frac{1}{2}mv^{2}$$
-$$v = \sqrt{2gh} = \sqrt{2(9.80)(0.300)} = \sqrt{5.88} = 2.42 \text{ m/s}$$
+$$v = \sqrt{2gh} = \sqrt{2(9.80 \text{ m/s}^2)(0.300 \text{ m})} = \sqrt{5.88 \text{ m}^2/\text{s}^2} = 2.42 \text{ m/s}$$
 
 *Step 2: Calculate the magnetic force*
 
@@ -1072,21 +1072,21 @@ of an electron accelerated through the same potential.
 
 $$eV = \frac{1}{2}m_e v_e^2$$
 
-$$V = \frac{m_e v_e^2}{2e} = \frac{(9.11 \times 10^{-31})(6.00 \times 10^{7})^2}{2(1.60 \times 10^{-19})}$$
+$$V = \frac{m_e v_e^2}{2e} = \frac{(9.11 \times 10^{-31} \text{ kg})(6.00 \times 10^{7} \text{ m/s})^2}{2(1.60 \times 10^{-19} \text{ C})}$$
 
-$$V = \frac{(9.11 \times 10^{-31})(3.60 \times 10^{15})}{3.20 \times 10^{-19}} = \frac{3.28 \times 10^{-15}}{3.20 \times 10^{-19}} = 1.02 \times 10^{4} \text{ V}$$
+$$V = \frac{(9.11 \times 10^{-31} \text{ kg})(3.60 \times 10^{15} \text{ m}^2/\text{s}^2)}{3.20 \times 10^{-19} \text{ C}} = \frac{3.28 \times 10^{-15} \text{ J}}{3.20 \times 10^{-19} \text{ C}} = 1.02 \times 10^{4} \text{ V}$$
 
 **(b)** For the proton accelerated through the same voltage:
 
-$$v_p = \sqrt{\frac{2eV}{m_p}} = \sqrt{\frac{2(1.60 \times 10^{-19})(1.02 \times 10^{4})}{1.67 \times 10^{-27}}}$$
+$$v_p = \sqrt{\frac{2eV}{m_p}} = \sqrt{\frac{2(1.60 \times 10^{-19} \text{ C})(1.02 \times 10^{4} \text{ V})}{1.67 \times 10^{-27} \text{ kg}}}$$
 
-$$v_p = \sqrt{\frac{3.26 \times 10^{-15}}{1.67 \times 10^{-27}}} = \sqrt{1.95 \times 10^{12}} = 1.40 \times 10^{6} \text{ m/s}$$
+$$v_p = \sqrt{\frac{3.26 \times 10^{-15} \text{ J}}{1.67 \times 10^{-27} \text{ kg}}} = \sqrt{1.95 \times 10^{12} \text{ m}^2/\text{s}^2} = 1.40 \times 10^{6} \text{ m/s}$$
 
 Radius of proton path:
-$$r_p = \frac{m_p v_p}{eB} = \frac{(1.67 \times 10^{-27})(1.40 \times 10^{6})}{(1.60 \times 10^{-19})(0.500)} = \frac{2.34 \times 10^{-21}}{8.00 \times 10^{-20}} = 0.0292 \text{ m}$$
+$$r_p = \frac{m_p v_p}{eB} = \frac{(1.67 \times 10^{-27} \text{ kg})(1.40 \times 10^{6} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.500 \text{ T})} = \frac{2.34 \times 10^{-21} \text{ kg·m/s}}{8.00 \times 10^{-20} \text{ C·T}} = 0.0292 \text{ m}$$
 
 Radius of electron path:
-$$r_e = \frac{m_e v_e}{eB} = \frac{(9.11 \times 10^{-31})(6.00 \times 10^{7})}{(1.60 \times 10^{-19})(0.500)} = \frac{5.47 \times 10^{-23}}{8.00 \times 10^{-20}} = 6.83 \times 10^{-4} \text{ m}$$
+$$r_e = \frac{m_e v_e}{eB} = \frac{(9.11 \times 10^{-31} \text{ kg})(6.00 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.500 \text{ T})} = \frac{5.47 \times 10^{-23} \text{ kg·m/s}}{8.00 \times 10^{-20} \text{ C·T}} = 6.83 \times 10^{-4} \text{ m}$$
 
 Ratio:
 $$\frac{r_p}{r_e} = \frac{0.0292}{6.83 \times 10^{-4}} = 42.8$$
@@ -1130,15 +1130,15 @@ For a charged particle in a magnetic field, the radius of the circular path is $
 
 $$KE = \frac{1}{2}m_p v^2$$
 
-$$v = \sqrt{\frac{2 \times KE}{m_p}} = \sqrt{\frac{2(4.00 \times 10^{-12})}{1.67 \times 10^{-27}}}$$
+$$v = \sqrt{\frac{2 \times KE}{m_p}} = \sqrt{\frac{2(4.00 \times 10^{-12} \text{ J})}{1.67 \times 10^{-27} \text{ kg}}}$$
 
-$$v = \sqrt{4.79 \times 10^{15}} = 6.92 \times 10^{7} \text{ m/s}$$
+$$v = \sqrt{4.79 \times 10^{15} \text{ m}^2/\text{s}^2} = 6.92 \times 10^{7} \text{ m/s}$$
 
 *Step 2: Calculate the radius of curvature*
 
 $$r = \frac{m_p v}{qB} = \frac{(1.67 \times 10^{-27} \text{ kg})(6.92 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(1.20 \text{ T})}$$
 
-$$r = \frac{1.16 \times 10^{-19}}{1.92 \times 10^{-19}} = 0.602 \text{ m} = 60.2 \text{ cm}$$
+$$r = \frac{1.16 \times 10^{-19} \text{ kg·m/s}}{1.92 \times 10^{-19} \text{ C·T}} = 0.602 \text{ m} = 60.2 \text{ cm}$$
 
 **Discussion**
 
@@ -1181,7 +1181,7 @@ This is an electromagnetic flow meter. The Hall voltage is $\varepsilon = Bvd$ w
 **(a)** From the Hall voltage formula:
 
 $$\varepsilon = Bvd$$
-$$v = \frac{\varepsilon}{Bd} = \frac{0.0600 \text{ V}}{(0.500 \text{ T})(0.0300 \text{ m})} = \frac{0.0600}{0.0150} = 4.00 \text{ m/s}$$
+$$v = \frac{\varepsilon}{Bd} = \frac{0.0600 \text{ V}}{(0.500 \text{ T})(0.0300 \text{ m})} = \frac{0.0600 \text{ V}}{0.0150 \text{ T·m}} = 4.00 \text{ m/s}$$
 
 The cross-sectional area:
 $$A = \pi r^2 = \pi (0.0150 \text{ m})^2 = 7.07 \times 10^{-4} \text{ m}^2$$
@@ -1194,9 +1194,9 @@ $$Q = 2.83 \times 10^{-3} \text{ m}^3/\text{s} \times \frac{1000 \text{ L}}{1 \t
 
 **(b)** For the same flow rate through the larger pipe:
 
-$$v_2 = \frac{Q}{A_2} = \frac{2.83 \times 10^{-3}}{\pi(0.0500)^2} = \frac{2.83 \times 10^{-3}}{7.85 \times 10^{-3}} = 0.360 \text{ m/s}$$
+$$v_2 = \frac{Q}{A_2} = \frac{2.83 \times 10^{-3} \text{ m}^3/\text{s}}{\pi(0.0500 \text{ m})^2} = \frac{2.83 \times 10^{-3} \text{ m}^3/\text{s}}{7.85 \times 10^{-3} \text{ m}^2} = 0.360 \text{ m/s}$$
 
-$$\varepsilon_{2} = Bv_{2} d_2 = (0.500)(0.360)(0.100) = 0.0180 \text{ V} = 18.0 \text{ mV}$$
+$$\varepsilon_{2} = Bv_{2} d_2 = (0.500 \text{ T})(0.360 \text{ m/s})(0.100 \text{ m}) = 0.0180 \text{ V} = 18.0 \text{ mV}$$
 
 **Discussion**
 
@@ -1294,7 +1294,7 @@ rotation and is stretched by the $$60 ^\circ $$ arc moved?
 - Angular deflection: $\theta = 60° = \pi/3 \text{ rad}$
 
 **(a)** The coil area:
-$$A = \pi r^2 = \pi (0.0150)^2 = 7.07 \times 10^{-4} \text{ m}^2$$
+$$A = \pi r^2 = \pi (0.0150 \text{ m})^2 = 7.07 \times 10^{-4} \text{ m}^2$$
 
 Maximum torque:
 $$\tau_{\text{max}} = NIAB = (50)(5.0 \times 10^{-5})(7.07 \times 10^{-4})(0.500)$$
@@ -1460,7 +1460,7 @@ The cyclotron frequency:
 
 $$f = \frac{qB}{2\pi m} = \frac{(1.60 \times 10^{-19} \text{ C})(1.20 \text{ T})}{2\pi (1.67 \times 10^{-27} \text{ kg})}$$
 
-$$f = \frac{1.92 \times 10^{-19}}{1.05 \times 10^{-26}} = 1.83 \times 10^{7} \text{ Hz} = 18.3 \text{ MHz}$$
+$$f = \frac{1.92 \times 10^{-19} \text{ C·T}}{1.05 \times 10^{-26} \text{ kg}} = 1.83 \times 10^{7} \text{ Hz} = 18.3 \text{ MHz}$$
 
 **Discussion**
 
@@ -1503,19 +1503,19 @@ First calculate the magnetic force on the charged baseball, then find the accele
 
 **(a)** *Step 1: Calculate the magnetic force*
 
-$$F = qvB = (1.00 \times 10^{-7})(40.0)(5.00 \times 10^{-5}) = 2.00 \times 10^{-10} \text{ N}$$
+$$F = qvB = (1.00 \times 10^{-7} \text{ C})(40.0 \text{ m/s})(5.00 \times 10^{-5} \text{ T}) = 2.00 \times 10^{-10} \text{ N}$$
 
 *Step 2: Find the acceleration*
 
-$$a = \frac{F}{m} = \frac{2.00 \times 10^{-10}}{0.140} = 1.43 \times 10^{-9} \text{ m/s}^2$$
+$$a = \frac{F}{m} = \frac{2.00 \times 10^{-10} \text{ N}}{0.140 \text{ kg}} = 1.43 \times 10^{-9} \text{ m/s}^2$$
 
 *Step 3: Find the time of flight*
 
-$$t = \frac{x}{v} = \frac{30.0}{40.0} = 0.750 \text{ s}$$
+$$t = \frac{x}{v} = \frac{30.0 \text{ m}}{40.0 \text{ m/s}} = 0.750 \text{ s}$$
 
 *Step 4: Calculate the deflection*
 
-$$y = \frac{1}{2}at^{2} = \frac{1}{2}(1.43 \times 10^{-9})(0.750)^2 = 4.02 \times 10^{-10} \text{ m}$$
+$$y = \frac{1}{2}at^{2} = \frac{1}{2}(1.43 \times 10^{-9} \text{ m/s}^2)(0.750 \text{ s})^2 = 4.02 \times 10^{-10} \text{ m}$$
 
 **(b)** The deflection is about $4 \times 10^{-10}$ m, or 0.4 nanometers—about the size of a few atoms! This is completely undetectable and utterly useless as a technique for throwing curve balls. **No, this would not work as a secret pitching technique.**
 
@@ -1550,7 +1550,7 @@ Calculate the resistance per meter and the voltage per meter needed.
 
 **(b)**
 
-$$F/L=IB=(20.0)(3.00\times10^{-5})=6.00\times10^{-4}\ \text{N/m}.$$
+$$F/L=IB=(20.0\ \text{A})(3.00\times10^{-5}\ \text{T})=6.00\times10^{-4}\ \text{N/m}.$$
 
 **(c)** Using copper density $$\rho_m=8960\ \text{kg/m}^3$$, weight balance gives
 
@@ -1595,7 +1595,7 @@ Thus $$I_2=(w/L)/B_1=1.73\times10^3\ \text{A}$$.
 
 **(b)** Orient the wires so Earth's horizontal field adds to the lower wire's field at the upper wire:
 
-$$I_{2,\min}=\frac{w/L}{B_1+B_E}=\frac{0.462}{2.67\times10^{-4}+3.00\times10^{-5}}=1.56\times10^3\ \text{A}.$$
+$$I_{2,\min}=\frac{w/L}{B_1+B_E}=\frac{0.462\ \text{N/m}}{2.67\times10^{-4}\ \text{T}+3.00\times10^{-5}\ \text{T}}=1.56\times10^3\ \text{A}.$$
 
 This is about a 10% reduction and is not negligible.
 
@@ -1636,7 +1636,7 @@ $$F = qvB$$
 
 $$q = \frac{F}{vB} = \frac{1.00 \text{ N}}{(35.0 \text{ m/s})(5.00 \times 10^{-5} \text{ T})}$$
 
-$$q = \frac{1.00}{1.75 \times 10^{-3}} = 571 \text{ C}$$
+$$q = \frac{1.00 \text{ N}}{1.75 \times 10^{-3} \text{ T·m/s}} = 571 \text{ C}$$
 
 **(b)** This charge of 571 coulombs is **completely unreasonable**. For comparison:
 - Lightning bolts transfer about 5 C
@@ -1689,9 +1689,9 @@ Use the radius formula for circular motion in a magnetic field: $r = mv/(qB)$. S
 
 $$r = \frac{mv}{qB}$$
 
-$$q = \frac{mv}{rB} = \frac{(6.64 \times 10^{-27})(8.70 \times 10^{5})}{(0.0160)(1.50)}$$
+$$q = \frac{mv}{rB} = \frac{(6.64 \times 10^{-27} \text{ kg})(8.70 \times 10^{5} \text{ m/s})}{(0.0160 \text{ m})(1.50 \text{ T})}$$
 
-$$q = \frac{5.78 \times 10^{-21}}{0.0240} = 2.41 \times 10^{-19} \text{ C}$$
+$$q = \frac{5.78 \times 10^{-21} \text{ kg·m/s}}{0.0240 \text{ T·m}} = 2.41 \times 10^{-19} \text{ C}$$
 
 In units of elementary charges:
 $$\frac{q}{e} = \frac{2.41 \times 10^{-19}}{1.60 \times 10^{-19}} = 1.51$$
@@ -1750,7 +1750,7 @@ $$\varepsilon = BLv$$
 
 $$v = \frac{\varepsilon}{BL} = \frac{120 \text{ V}}{(5.00 \times 10^{-5} \text{ T})(1.00 \text{ m})}$$
 
-$$v = \frac{120}{5.00 \times 10^{-5}} = 2.40 \times 10^{6} \text{ m/s}$$
+$$v = \frac{120 \text{ V}}{5.00 \times 10^{-5} \text{ T·m}} = 2.40 \times 10^{6} \text{ m/s}$$
 
 **(b)** This speed is unreasonable because:
 - It equals $\frac{2.40 \times 10^6}{3.00 \times 10^8} = 0.80\%$ of the speed of light
@@ -1803,7 +1803,7 @@ $$\varepsilon = Bvd$$
 
 $$B = \frac{\varepsilon}{vd} = \frac{0.500 \text{ V}}{(0.300 \text{ m/s})(0.0150 \text{ m})}$$
 
-$$B = \frac{0.500}{4.50 \times 10^{-3}} = 111 \text{ T}$$
+$$B = \frac{0.500 \text{ V}}{4.50 \times 10^{-3} \text{ m}^2/\text{s}} = 111 \text{ T}$$
 
 **(b)** A field of 111 T is **completely unreasonable**:
 - The strongest continuous magnetic field ever produced is about 45 T
@@ -1855,9 +1855,9 @@ Use the straight wire magnetic field formula $B = \mu_0 I/(2\pi r)$ to find the 
 
 $$B = \frac{\mu_{0} I}{2\pi r}$$
 
-$$I = \frac{2\pi r B}{\mu_{0}} = \frac{2\pi (100)(5.00 \times 10^{-5})}{4\pi \times 10^{-7}}$$
+$$I = \frac{2\pi r B}{\mu_{0}} = \frac{2\pi (100 \text{ m})(5.00 \times 10^{-5} \text{ T})}{4\pi \times 10^{-7} \text{ T·m/A}}$$
 
-$$I = \frac{2 \times 100 \times 5.00 \times 10^{-5}}{4 \times 10^{-7}} = \frac{0.0100}{4 \times 10^{-7}} = 25{,}000 \text{ A} = 25.0 \text{ kA}$$
+$$I = \frac{2 (100 \text{ m})(5.00 \times 10^{-5} \text{ T})}{4 \times 10^{-7} \text{ T·m/A}} = \frac{0.0100 \text{ T·m}}{4 \times 10^{-7} \text{ T·m/A}} = 25{,}000 \text{ A} = 25.0 \text{ kA}$$
 
 **(b)** This current is unreasonably high:
 - At 200 kV, this implies power: $P = IV = (25{,}000)(200{,}000) = 5.0 \times 10^9 \text{ W} = 5.0 \text{ GW}$
@@ -1916,19 +1916,19 @@ point where they are detected.
 
 **(a)** From $r = mv/(qB)$:
 
-$$B = \frac{m_{238}v}{qr_{238}} = \frac{(3.95 \times 10^{-25})(1.00 \times 10^5)}{(1.60 \times 10^{-19})(0.500)}$$
+$$B = \frac{m_{238}v}{qr_{238}} = \frac{(3.95 \times 10^{-25} \text{ kg})(1.00 \times 10^5 \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.500 \text{ m})}$$
 
-$$B = \frac{3.95 \times 10^{-20}}{8.00 \times 10^{-20}} = 0.494 \text{ T}$$
+$$B = \frac{3.95 \times 10^{-20} \text{ kg·m/s}}{8.00 \times 10^{-20} \text{ C·m}} = 0.494 \text{ T}$$
 
 **(b)** Radius for U-235:
 
-$$r_{235} = \frac{m_{235}v}{qB} = \frac{(3.90 \times 10^{-25})(1.00 \times 10^5)}{(1.60 \times 10^{-19})(0.494)}$$
+$$r_{235} = \frac{m_{235}v}{qB} = \frac{(3.90 \times 10^{-25} \text{ kg})(1.00 \times 10^5 \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.494 \text{ T})}$$
 
-$$r_{235} = \frac{3.90 \times 10^{-20}}{7.90 \times 10^{-20}} = 0.494 \text{ m}$$
+$$r_{235} = \frac{3.90 \times 10^{-20} \text{ kg·m/s}}{7.90 \times 10^{-20} \text{ C·T}} = 0.494 \text{ m}$$
 
 **(c)** After a semicircle, the separation is twice the difference in radii:
 
-$$\Delta = 2(r_{238} - r_{235}) = 2(0.500 - 0.494) = 0.012 \text{ m} = 1.2 \text{ cm}$$
+$$\Delta = 2(r_{238} - r_{235}) = 2(0.500 \text{ m} - 0.494 \text{ m}) = 0.012 \text{ m} = 1.2 \text{ cm}$$
 
 **Discussion**
 
@@ -1976,9 +1976,9 @@ coil on the surroundings that could affect detection of the small field.
 
 $$\tau_{\text{max}} = NIAB = NI(\pi r^2)B$$
 
-$$\tau_{\text{max}} = (100)(0.0100)\pi(0.0500)^2(1.00 \times 10^{-6})$$
+$$\tau_{\text{max}} = (100)(0.0100 \text{ A})\pi(0.0500 \text{ m})^2(1.00 \times 10^{-6} \text{ T})$$
 
-$$\tau_{\text{max}} = (1.00)(7.85 \times 10^{-3})(1.00 \times 10^{-6}) = 7.85 \times 10^{-9} \text{ N·m}$$
+$$\tau_{\text{max}} = (1.00 \text{ A})(7.85 \times 10^{-3} \text{ m}^2)(1.00 \times 10^{-6} \text{ T}) = 7.85 \times 10^{-9} \text{ N·m}$$
 
 **(b)** Measurability analysis:
 
@@ -1990,9 +1990,9 @@ This torque of about 8 nN·m is extremely small but detectable with modern instr
 
 **(c)** Coil's self-generated field at center:
 
-$$B_{\text{coil}} = \frac{N\mu_{0} I}{2r} = \frac{(100)(4\pi \times 10^{-7})(0.0100)}{2(0.0500)}$$
+$$B_{\text{coil}} = \frac{N\mu_{0} I}{2r} = \frac{(100)(4\pi \times 10^{-7} \text{ T·m/A})(0.0100 \text{ A})}{2(0.0500 \text{ m})}$$
 
-$$B_{\text{coil}} = \frac{1.26 \times 10^{-6}}{0.100} = 1.26 \times 10^{-5} \text{ T} = 12.6 \text{ μT}$$
+$$B_{\text{coil}} = \frac{1.26 \times 10^{-6} \text{ T·m}}{0.100 \text{ m}} = 1.26 \times 10^{-5} \text{ T} = 12.6 \text{ μT}$$
 
 This is 12.6 times larger than the field being detected! To avoid perturbing the measured field, the magnetometer should:
 - Use the coil only briefly

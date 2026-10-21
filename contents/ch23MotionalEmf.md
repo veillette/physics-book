@@ -457,7 +457,7 @@ Rearrange $$\text{emf}=B\ell v $$ to solve for $$ v $$.
 Given: $$\text{emf} = 1.00 \text{ V}$$, $$ B = 1.50 \text{ T}$$, $$\ell = 30.0 \text{ cm} = 0.300 \text{ m}$$
 
 <div class="equation">
-$$ v=\frac{\text{emf}}{B\ell}=\frac{1.00 \text{ V}}{(1.50 \text{ T})(0.300 \text{ m})}=\frac{1.00}{0.450}=2.22 \text{ m/s}$$
+$$ v=\frac{\text{emf}}{B\ell}=\frac{1.00 \text{ V}}{(1.50 \text{ T})(0.300 \text{ m})}=\frac{1.00 \text{ V}}{0.450 \text{ T·m}}=2.22 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -491,7 +491,7 @@ Rearrange $$\text{emf}=B\ell v $$ to solve for $$ B $$.
 Given: $$\ell = 12.0 \text{ cm} = 0.120 \text{ m}$$, $$ v = 4.00 \text{ m/s}$$, $$\text{emf} = 95.0 \text{ V}$$
 
 <div class="equation">
-$$ B=\frac{\text{emf}}{\ell v}=\frac{95.0 \text{ V}}{(0.120 \text{ m})(4.00 \text{ m/s})}=\frac{95.0}{0.480}=198 \text{ T}$$
+$$ B=\frac{\text{emf}}{\ell v}=\frac{95.0 \text{ V}}{(0.120 \text{ m})(4.00 \text{ m/s})}=\frac{95.0 \text{ V}}{0.480 \text{ m}^2/\text{s}}=198 \text{ T}$$
 </div>
 
 **Discussion**
@@ -695,11 +695,11 @@ much energy is stored in it when stretched by the 100 N force?
 **(a)** Given:
 - $$ F = 100 \text{ N}$$
 - $$ L_0 = 20.0 \text{ km} = 2.00 \times 10^4 \text{ m}$$
-- $$ d = 2.50 \text{ mm}$$, so $$ A = \pi r^2 = \pi(1.25 \times 10^{-3})^2 = 4.91 \times 10^{-6} \text{ m}^2$$
+- $$ d = 2.50 \text{ mm}$$, so $$ A = \pi r^2 = \pi(1.25 \times 10^{-3} \text{ m})^2 = 4.91 \times 10^{-6} \text{ m}^2$$
 - $$ Y = 2.0 \times 10^{11} \text{ N/m}^2$$
 
 <div class="equation">
-$$\Delta L=\frac{FL_{0}}{YA}=\frac{(100)(2.00 \times 10^4)}{(2.0 \times 10^{11})(4.91 \times 10^{-6})}=\frac{2.00 \times 10^6}{9.82 \times 10^5}=2.04 \text{ m}$$
+$$\Delta L=\frac{FL_{0}}{YA}=\frac{(100 \text{ N})(2.00 \times 10^4 \text{ m})}{(2.0 \times 10^{11} \text{ N/m}^2)(4.91 \times 10^{-6} \text{ m}^2)}=\frac{2.00 \times 10^6 \text{ N·m}}{9.82 \times 10^5 \text{ N}}=2.04 \text{ m}$$
 </div>
 
 **(b)**
@@ -711,7 +711,7 @@ $$ k=\frac{F}{\Delta L}=\frac{100 \text{ N}}{2.04 \text{ m}}=49.0 \text{ N/m}$$
 **(c)**
 
 <div class="equation">
-$$ E=\frac{1}{2}k(\Delta L)^2=\frac{1}{2}(49.0)(2.04)^2=102 \text{ J}$$
+$$ E=\frac{1}{2}k(\Delta L)^2=\frac{1}{2}(49.0 \text{ N/m})(2.04 \text{ m})^2=102 \text{ J}$$
 </div>
 
 **Discussion**
@@ -783,7 +783,7 @@ $$ E = \frac{1}{2}m(v_i^2 - v_f^2) \approx m v \Delta v $$
 For small changes where $$\Delta v \ll v $$:
 
 <div class="equation">
-$$\Delta v = \frac{E}{mv} = \frac{2.81 \times 10^8}{(1.00 \times 10^5)(7.80 \times 10^3)} = \frac{2.81 \times 10^8}{7.80 \times 10^8} = 0.360 \text{ m/s}$$
+$$\Delta v = \frac{E}{mv} = \frac{2.81 \times 10^8 \text{ J}}{(1.00 \times 10^5 \text{ kg})(7.80 \times 10^3 \text{ m/s})} = \frac{2.81 \times 10^8 \text{ J}}{7.80 \times 10^8 \text{ kg·m/s}} = 0.360 \text{ m/s}$$
 </div>
 
 **(d)** For a week-long mission (168 hours):

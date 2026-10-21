@@ -548,7 +548,7 @@ $$f=\frac{{X}_{L}}{2\pi L}$$
 Substituting the values:
 
 <div class="equation">
-$$f=\frac{100 \text{ Ω}}{2\pi (30.0 \times 10^{-3} \text{ H})}=\frac{100}{6.28 \times 0.0300}=\frac{100}{0.188}=531 \text{ Hz}$$
+$$f=\frac{100 \text{ Ω}}{2\pi (30.0 \times 10^{-3} \text{ H})}=\frac{100 \text{ Ω}}{6.28 \times 0.0300 \text{ H}}=\frac{100 \text{ Ω}}{0.188 \text{ H}}=531 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -593,7 +593,7 @@ $$L=\frac{{X}_{L}}{2\pi f}$$
 Substituting the values:
 
 <div class="equation">
-$$L=\frac{20.0 \times 10^3 \text{ Ω}}{2\pi (500 \text{ Hz})}=\frac{20000}{3140}=6.37 \text{ H}$$
+$$L=\frac{20.0 \times 10^3 \text{ Ω}}{2\pi (500 \text{ Hz})}=\frac{20000 \text{ Ω}}{3140 \text{ Hz}}=6.37 \text{ H}$$
 </div>
 
 **Discussion**
@@ -638,7 +638,7 @@ $$C=\frac{1}{2\pi f{X}_{C}}$$
 Substituting the values:
 
 <div class="equation">
-$$C=\frac{1}{2\pi (60.0 \text{ Hz})(2.00 \times 10^6 \text{ Ω})}=\frac{1}{7.54 \times 10^8}=1.33 \times 10^{-9} \text{ F}=1.33 \text{ nF}$$
+$$C=\frac{1}{2\pi (60.0 \text{ Hz})(2.00 \times 10^6 \text{ Ω})}=\frac{1}{7.54 \times 10^8 \text{ Ω/s}}=1.33 \times 10^{-9} \text{ F}=1.33 \text{ nF}$$
 </div>
 
 **Discussion**
@@ -682,7 +682,7 @@ $$f=\frac{1}{2\pi C{X}_{C}}$$
 Substituting the values:
 
 <div class="equation">
-$$f=\frac{1}{2\pi (0.0800 \text{ F})(0.250 \text{ Ω})}=\frac{1}{0.126}=7.96 \text{ Hz}$$
+$$f=\frac{1}{2\pi (0.0800 \text{ F})(0.250 \text{ Ω})}=\frac{1}{0.126 \text{ s}}=7.96 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -781,7 +781,7 @@ The inductor exhibits dramatically different behavior at the two frequencies. At
 First, calculate the capacitive reactance:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{9.42 \times 10^{-5}}=1.06 \times 10^4 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{9.42 \times 10^{-5} \text{ Ω}^{-1}}=1.06 \times 10^4 \text{ Ω}$$
 </div>
 
 Now find the current:
@@ -793,7 +793,7 @@ $$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \
 **(b)** At $$f = 25.0 \text{ kHz} = 2.50 \times 10^4 \text{ Hz}$$:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{0.0393}=25.5 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{0.0393 \text{ Ω}^{-1}}=25.5 \text{ Ω}$$
 </div>
 
 <div class="equation">
@@ -844,7 +844,7 @@ $${X}_{L}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \text{ A}}=8.00 \text{ Ω}$$
 Now solve for inductance:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00 \text{ Ω}}{1.26 \times 10^5 \text{ Hz}}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
 </div>
 
 **Discussion**
@@ -889,7 +889,7 @@ $${X}_{C}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \times 10^{-3} \text{ A}}=8.00 
 Now solve for capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (20.0 \text{ Hz})(8.00 \times 10^3 \text{ Ω})}=\frac{1}{1.01 \times 10^6}=9.95 \times 10^{-7} \text{ F}=0.995 \text{ µF}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (20.0 \text{ Hz})(8.00 \times 10^3 \text{ Ω})}=\frac{1}{1.01 \times 10^6 \text{ Ω/s}}=9.95 \times 10^{-7} \text{ F}=0.995 \text{ µF}$$
 </div>
 
 **Discussion**
@@ -929,7 +929,7 @@ This is a reasonable capacitance value, just under 1 microfarad. At the low freq
 Solving for inductance:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$$
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000 \text{ Ω}}{9.42 \times 10^4 \text{ Hz}}=0.0212 \text{ H}=21.2 \text{ mH}$$
 </div>
 
 **(b)** At $$f = 60.0 \text{ Hz}$$:
@@ -978,13 +978,13 @@ The capacitor in [[Figure 4]](#Figure4)(a) is designed to filter low-frequency s
 Solving for capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (120 \text{ Hz})(1.00 \times 10^5 \text{ Ω})}=\frac{1}{7.54 \times 10^7}=1.33 \times 10^{-8} \text{ F}=13.3 \text{ nF}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (120 \text{ Hz})(1.00 \times 10^5 \text{ Ω})}=\frac{1}{7.54 \times 10^7 \text{ Ω/s}}=1.33 \times 10^{-8} \text{ F}=13.3 \text{ nF}$$
 </div>
 
 **(b)** At $$f = 1.00 \text{ MHz} = 1.00 \times 10^6 \text{ Hz}$$:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (1.00 \times 10^6 \text{ Hz})(1.33 \times 10^{-8} \text{ F})}=\frac{1}{0.0836}=12.0 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (1.00 \times 10^6 \text{ Hz})(1.33 \times 10^{-8} \text{ F})}=\frac{1}{0.0836 \text{ Ω}^{-1}}=12.0 \text{ Ω}$$
 </div>
 
 **(c)** At the low frequency of 120 Hz, the capacitor has a very high reactance of 100 kΩ, effectively blocking the signal from passing between circuits (acting as an open circuit). However, at the high frequency of 1.00 MHz, the reactance drops to only 12.0 Ω—over 8000 times smaller. This low reactance allows high-frequency signals to pass through easily (nearly like a short circuit). This capacitor therefore functions as a high-pass filter, blocking low frequencies while allowing high frequencies to pass.
@@ -1031,13 +1031,13 @@ The capacitor in [[Figure 4]](#Figure4)(b) will filter high-frequency signals by
 Solving for capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (5.00 \times 10^3 \text{ Hz})(1.00 \times 10^{-2} \text{ Ω})}=\frac{1}{314}=3.18 \times 10^{-3} \text{ F}=3.18 \text{ mF}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (5.00 \times 10^3 \text{ Hz})(1.00 \times 10^{-2} \text{ Ω})}=\frac{1}{314 \text{ Ω/s}}=3.18 \times 10^{-3} \text{ F}=3.18 \text{ mF}$$
 </div>
 
 **(b)** At $$f = 3.00 \text{ Hz}$$:
 
 <div class="equation">
-$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (3.00 \text{ Hz})(3.18 \times 10^{-3} \text{ F})}=\frac{1}{0.0599}=16.7 \text{ Ω}$$
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (3.00 \text{ Hz})(3.18 \times 10^{-3} \text{ F})}=\frac{1}{0.0599 \text{ Ω}^{-1}}=16.7 \text{ Ω}$$
 </div>
 
 **(c)** At the high frequency of 5.00 kHz, the capacitor has an extremely low reactance of only 10.0 mΩ (essentially a short circuit to ground), effectively shunting high-frequency signals to ground and preventing them from passing through the circuit. At the low frequency of 3.00 Hz, the reactance increases to 16.7 Ω—over 1600 times higher. While still relatively low, this higher reactance is much less effective at shunting low-frequency signals to ground, allowing them to pass through the circuit with less attenuation. This capacitor therefore functions as a low-pass filter in the shunt configuration, removing high-frequency noise while preserving low-frequency signals.
@@ -1095,7 +1095,7 @@ $${X}_{C}=\frac{V}{I}=\frac{1.00 \times 10^{-2} \text{ V}}{0.100 \text{ A}}=0.10
 Now find the capacitance:
 
 <div class="equation">
-$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (0.500 \text{ Hz})(0.100 \text{ Ω})}=\frac{1}{0.314}=3.18 \text{ F}$$
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (0.500 \text{ Hz})(0.100 \text{ Ω})}=\frac{1}{0.314 \text{ Ω/s}}=3.18 \text{ F}$$
 </div>
 
 **(b)** A capacitance of 3.18 farads is unreasonably large for an EEG measurement circuit. Typical EEG equipment uses capacitances in the picofarad to microfarad range—millions of times smaller than this value. A 3.18 F capacitor would be physically enormous (like a supercapacitor used in power applications) and completely impractical for medical instrumentation. Furthermore, such a large capacitor would store a huge amount of charge and energy, which would be dangerous in a medical setting.

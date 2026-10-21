@@ -642,7 +642,7 @@ This must be inverted to find  $${d}_{\text{i}} $$
 Or
 
 <div class="equation" >
- $${d}_{\text{i}}=\frac{\left( 7.5\right)\left(-10\right)}{\left( 7.5-\left(-10\right)\right)}=-75/ 17.5=-4.29 \text{cm}\text{.} $$
+ $${d}_{\text{i}}=\frac{\left( 7.5 \text{ cm}\right)\left(-10 \text{ cm}\right)}{ 7.5 \text{ cm}-\left(-10 \text{ cm}\right)}=\left(-75 \text{ cm}^2\right)/\left( 17.5 \text{ cm}\right)=-4.29 \text{cm}\text{.} $$
 </div>
 
 Now the magnification equation can be used to find the magnification  $$m $$ ,
@@ -1158,11 +1158,11 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{3.50 \text{ cm}} - \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = 0.2857 - 0.0133 = 0.2724 \text{ cm}^{-1}$$
+$$\frac{1}{d_i} = 0.2857 \text{ cm}^{-1} - 0.0133 \text{ cm}^{-1} = 0.2724 \text{ cm}^{-1}$$
 </div>
 
 <div class="equation">
-$$d_i = \frac{1}{0.2724} = 3.67 \text{ cm} = 36.7 \text{ mm}$$
+$$d_i = \frac{1}{0.2724 \text{ cm}^{-1}} = 3.67 \text{ cm} = 36.7 \text{ mm}$$
 </div>
 
 **Step 7:** This is reasonable—the film must be slightly farther from the lens than the focal length when photographing an object at finite distance. The image distance (36.7 mm) is only slightly more than the focal length (35.0 mm), which makes sense for an object relatively far away.
@@ -1253,7 +1253,7 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{50.0 \text{ mm}} - \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = 0.0200 - 0.000333 = 0.01967 \text{ mm}^{-1}$$
+$$\frac{1}{d_i} = 0.0200 \text{ mm}^{-1} - 0.000333 \text{ mm}^{-1} = 0.01967 \text{ mm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1327,7 +1327,7 @@ $$\frac{1}{d_o} = \frac{1}{f} - \frac{1}{d_i} = \frac{1}{50.0 \text{ mm}} - \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{d_o} = 0.0200 - 0.0196 = 0.000392 \text{ mm}^{-1}$$
+$$\frac{1}{d_o} = 0.0200 \text{ mm}^{-1} - 0.0196 \text{ mm}^{-1} = 0.000392 \text{ mm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1399,7 +1399,7 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{-25.0 \text{ cm}} - \fr
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = -0.0400 - 0.0400 = -0.0800 \text{ cm}^{-1}$$
+$$\frac{1}{d_i} = -0.0400 \text{ cm}^{-1} - 0.0400 \text{ cm}^{-1} = -0.0800 \text{ cm}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1464,7 +1464,7 @@ $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{200 \text{ mm}} - \frac
 </div>
 
 <div class="equation">
-$$\frac{1}{d_i} = 0.00500 - 0.0000001 = 0.0049999 \text{ mm}^{-1}$$
+$$\frac{1}{d_i} = 0.00500 \text{ mm}^{-1} - 0.0000001 \text{ mm}^{-1} = 0.0049999 \text{ mm}^{-1}$$
 </div>
 
 <div class="equation">

@@ -1184,21 +1184,21 @@ For resistors in series, the total resistance is the sum of individual resistanc
 Convert all to the same units: $$R_1 = 100 \text{ Ω}$$, $$R_2 = 2500 \text{ Ω}$$, $$R_3 = 4000 \text{ Ω}$$
 
 <div class="equation">
-$$R_s = R_1 + R_2 + R_3 = 100 + 2500 + 4000 = 6600 \text{ Ω} = 6.60 \text{ kΩ}$$
+$$R_s = R_1 + R_2 + R_3 = 100 \text{ Ω} + 2500 \text{ Ω} + 4000 \text{ Ω} = 6600 \text{ Ω} = 6.60 \text{ kΩ}$$
 </div>
 
 **(b)** For parallel connection:
 
 <div class="equation">
-$$\frac{1}{R_p} = \frac{1}{100} + \frac{1}{2500} + \frac{1}{4000}$$
+$$\frac{1}{R_p} = \frac{1}{100 \text{ Ω}} + \frac{1}{2500 \text{ Ω}} + \frac{1}{4000 \text{ Ω}}$$
 </div>
 
 <div class="equation">
-$$\frac{1}{R_p} = 0.0100 + 0.000400 + 0.000250 = 0.01065 \text{ Ω}^{-1}$$
+$$\frac{1}{R_p} = 0.0100 \text{ Ω}^{-1} + 0.000400 \text{ Ω}^{-1} + 0.000250 \text{ Ω}^{-1} = 0.01065 \text{ Ω}^{-1}$$
 </div>
 
 <div class="equation">
-$$R_p = \frac{1}{0.01065} = 93.9 \text{ Ω}$$
+$$R_p = \frac{1}{0.01065 \text{ Ω}^{-1}} = 93.9 \text{ Ω}$$
 </div>
 
 **Discussion**
@@ -1233,21 +1233,21 @@ The largest resistance is obtained by connecting all resistors in series (resist
 **Largest resistance (series connection):**
 
 <div class="equation">
-$$R_{\text{max}} = R_1 + R_2 + R_3 = 36.0 + 50.0 + 700 = 786 \text{ Ω}$$
+$$R_{\text{max}} = R_1 + R_2 + R_3 = 36.0 \text{ Ω} + 50.0 \text{ Ω} + 700 \text{ Ω} = 786 \text{ Ω}$$
 </div>
 
 **Smallest resistance (parallel connection):**
 
 <div class="equation">
-$$\frac{1}{R_{\text{min}}} = \frac{1}{36.0} + \frac{1}{50.0} + \frac{1}{700}$$
+$$\frac{1}{R_{\text{min}}} = \frac{1}{36.0 \text{ Ω}} + \frac{1}{50.0 \text{ Ω}} + \frac{1}{700 \text{ Ω}}$$
 </div>
 
 <div class="equation">
-$$\frac{1}{R_{\text{min}}} = 0.02778 + 0.02000 + 0.001429 = 0.04921 \text{ Ω}^{-1}$$
+$$\frac{1}{R_{\text{min}}} = 0.02778 \text{ Ω}^{-1} + 0.02000 \text{ Ω}^{-1} + 0.001429 \text{ Ω}^{-1} = 0.04921 \text{ Ω}^{-1}$$
 </div>
 
 <div class="equation">
-$$R_{\text{min}} = \frac{1}{0.04921} = 20.3 \text{ Ω}$$
+$$R_{\text{min}} = \frac{1}{0.04921 \text{ Ω}^{-1}} = 20.3 \text{ Ω}$$
 </div>
 
 **Discussion**
@@ -1295,7 +1295,7 @@ $$I_{\text{lamp}} = \frac{75 \text{ W}}{120 \text{ V}} = 0.625 \text{ A}$$
 
 **(b)** Total current in parallel:
 <div class="equation">
-$$I_{\text{total}} = I_{\text{toaster}} + I_{\text{pan}} + I_{\text{lamp}} = 15.0 + 11.7 + 0.625 = 27.3 \text{ A}$$
+$$I_{\text{total}} = I_{\text{toaster}} + I_{\text{pan}} + I_{\text{lamp}} = 15.0 \text{ A} + 11.7 \text{ A} + 0.625 \text{ A} = 27.3 \text{ A}$$
 </div>
 
 Since 27.3 A > 15 A, **yes, this combination will blow the 15-A fuse**.
@@ -1330,18 +1330,18 @@ First, find the resistance of each device using $$P = V^2/R$$ when operating nor
 
 Headlight resistance:
 <div class="equation">
-$$R_{\text{head}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{30.0 \text{ W}} = \frac{144}{30.0} = 4.80 \text{ Ω}$$
+$$R_{\text{head}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{30.0 \text{ W}} = \frac{144 \text{ V}^2}{30.0 \text{ W}} = 4.80 \text{ Ω}$$
 </div>
 
 Starter resistance:
 <div class="equation">
-$$R_{\text{starter}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{2400 \text{ W}} = \frac{144}{2400} = 0.0600 \text{ Ω}$$
+$$R_{\text{starter}} = \frac{V^2}{P} = \frac{(12.0 \text{ V})^2}{2400 \text{ W}} = \frac{144 \text{ V}^2}{2400 \text{ W}} = 0.0600 \text{ Ω}$$
 </div>
 
 **Step 2:** Find total resistance and current in series.
 
 <div class="equation">
-$$R_{\text{total}} = R_{\text{head}} + R_{\text{starter}} = 4.80 + 0.0600 = 4.86 \text{ Ω}$$
+$$R_{\text{total}} = R_{\text{head}} + R_{\text{starter}} = 4.80 \text{ Ω} + 0.0600 \text{ Ω} = 4.86 \text{ Ω}$$
 </div>
 
 <div class="equation">
@@ -1386,7 +1386,7 @@ For series: Find total resistance, then current (same through both), then use $$
 
 Total resistance:
 <div class="equation">
-$$R_s = R_1 + R_2 = 24.0 + 96.0 = 120.0 \text{ Ω}$$
+$$R_s = R_1 + R_2 = 24.0 \text{ Ω} + 96.0 \text{ Ω} = 120.0 \text{ Ω}$$
 </div>
 
 Current (same through both resistors):
@@ -1518,7 +1518,7 @@ Referring to [[Figure 5]](#Figure5): (a) Calculate  $${P}_{3} $$
 
 Figure 5 has $$R_1=1.00\ \Omega$$ in series with the parallel pair $$R_2=6.00\ \Omega$$ and $$R_3=13.0\ \Omega$$, across 12.0 V.
 
-$$R_{\text{eq}}=1.00+\frac{6.00(13.0)}{6.00+13.0}=5.105\ \Omega,\qquad I=\frac{12.0}{R_{\text{eq}}}=2.35\ \text{A}.$$
+$$R_{\text{eq}}=1.00\ \Omega+\frac{(6.00\ \Omega)(13.0\ \Omega)}{6.00\ \Omega+13.0\ \Omega}=5.105\ \Omega,\qquad I=\frac{12.0\ \text{V}}{R_{\text{eq}}}=2.35\ \text{A}.$$
 
 The voltage across the parallel pair is $$V_p=12.0-I(1.00)=9.65\ \text{V}$$.
 
@@ -1530,7 +1530,7 @@ This is between the earlier series result of 4.68 W and parallel result of 11.1 
 
 **(b)**
 
-$$P_{\text{source}}=VI=(12.0)(2.35)=28.2\ \text{W}.$$
+$$P_{\text{source}}=VI=(12.0\ \text{V})(2.35\ \text{A})=28.2\ \text{W}.$$
 
 The individual powers are $$P_1=I^2R_1=5.52\ \text{W}$$, $$P_2=V_p^2/R_2=15.6\ \text{W}$$, and $$P_3=7.16\ \text{W}$$. Their sum agrees with 28.2 W within rounding.
 
@@ -1581,7 +1581,7 @@ $$I_{\text{bulb}} = \frac{V_{\text{bulb}}}{R_{\text{bulb}}} = \frac{114 \text{ V
 
 The motor current is:
 <div class="equation">
-$$I_{\text{motor}} = I_{\text{total}} - I_{\text{bulb}} = 15.0 - 0.594 = 14.4 \text{ A}$$
+$$I_{\text{motor}} = I_{\text{total}} - I_{\text{bulb}} = 15.0 \text{ A} - 0.594 \text{ A} = 14.4 \text{ A}$$
 </div>
 
 Power consumed by the motor:
@@ -1591,10 +1591,10 @@ $$P_{\text{motor}} = I_{\text{motor}} V_{\text{bulb}} = (14.4 \text{ A})(114 \te
 
 Check using total power:
 <div class="equation">
-$$P_{\text{total}} = IV_{\text{source}} - I^2 R_{\text{wire}} = (15.0)(120) - (15.0)^2(0.400) = 1800 - 90 = 1710 \text{ W}$$
+$$P_{\text{total}} = IV_{\text{source}} - I^2 R_{\text{wire}} = (15.0 \text{ A})(120 \text{ V}) - (15.0 \text{ A})^2(0.400 \text{ Ω}) = 1800 \text{ W} - 90 \text{ W} = 1710 \text{ W}$$
 </div>
 
-This equals $$P_{\text{bulb}} + P_{\text{motor}} = 67.7 + 1640 = 1708 \text{ W}$$ to within rounding ✓
+This equals $$P_{\text{bulb}} + P_{\text{motor}} = 67.7 \text{ W} + 1640 \text{ W} = 1708 \text{ W}$$ to within rounding ✓
 
 **Discussion**
 
@@ -1634,13 +1634,13 @@ $$\frac{1}{R_p} = \frac{100}{R} = \frac{100}{1.00 \times 10^{9} \text{ Ω}}$$
 </div>
 
 <div class="equation">
-$$R_p = \frac{1.00 \times 10^{9}}{100} = 1.00 \times 10^{7} \text{ Ω} = 10.0 \text{ MΩ}$$
+$$R_p = \frac{1.00 \times 10^{9} \text{ Ω}}{100} = 1.00 \times 10^{7} \text{ Ω} = 10.0 \text{ MΩ}$$
 </div>
 
 **(b)** Power dissipated by the 100 insulators (using line voltage 240 kV):
 
 <div class="equation">
-$$P = \frac{V^2}{R_p} = \frac{(2.40 \times 10^{5} \text{ V})^2}{1.00 \times 10^{7} \text{ Ω}} = \frac{5.76 \times 10^{10}}{1.00 \times 10^{7}} = 5.76 \times 10^{3} \text{ W} = 5.76 \text{ kW}$$
+$$P = \frac{V^2}{R_p} = \frac{(2.40 \times 10^{5} \text{ V})^2}{1.00 \times 10^{7} \text{ Ω}} = \frac{5.76 \times 10^{10} \text{ V}^2}{1.00 \times 10^{7} \text{ Ω}} = 5.76 \times 10^{3} \text{ W} = 5.76 \text{ kW}$$
 </div>
 
 **(c)** Total power carried by line:
@@ -1717,11 +1717,11 @@ $$\frac{1}{150} = \frac{1}{145} + \frac{1}{R_2}$$
 
 Solve for $$1/R_2$$:
 <div class="equation">
-$$\frac{1}{R_2} = \frac{1}{150} - \frac{1}{145} = \frac{145 - 150}{150 \times 145} = \frac{-5}{21750} = -2.30 \times 10^{-4} \text{ Ω}^{-1}$$
+$$\frac{1}{R_2} = \frac{1}{150 \text{ Ω}} - \frac{1}{145 \text{ Ω}} = \frac{145 \text{ Ω} - 150 \text{ Ω}}{(150 \text{ Ω})(145 \text{ Ω})} = \frac{-5 \text{ Ω}}{21750 \text{ Ω}^2} = -2.30 \times 10^{-4} \text{ Ω}^{-1}$$
 </div>
 
 <div class="equation">
-$$R_2 = \frac{1}{-2.30 \times 10^{-4}} = -4350 \text{ Ω}$$
+$$R_2 = \frac{1}{-2.30 \times 10^{-4} \text{ Ω}^{-1}} = -4350 \text{ Ω}$$
 </div>
 
 **(b)** **This result is unreasonable because resistance cannot be negative.** Resistance is a physical property that represents opposition to current flow and must always be positive (or zero for a perfect conductor).

@@ -439,6 +439,7 @@ Given:
 
 Temperature difference:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_1 - T_2 = 5.00\text{ºC} - (-10.0\text{ºC}) = 15.0\text{ºC}$$
 </div>
 
@@ -501,6 +502,7 @@ Given:
 
 Temperature difference:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_{core} - T_{skin} = 37.0\text{ºC} - 34.0\text{ºC} = 3.0\text{ºC}$$
 </div>
 
@@ -571,7 +573,7 @@ Given for both materials:
 - Thickness: $$d = 2.00 \text{ cm} = 0.0200 \text{ m}$$
 - Top temperature: $$T_1 = 33.0\text{ºC}$$
 - Bottom temperature: $$T_2 = 10.0\text{ºC}$$
-- Temperature difference: $$\Delta T = 33.0\text{ºC} - 10.0\text{ºC} = 23.0\text{ºC}$$
+- Temperature difference: <!-- physics-scan: temperature=interval -->$$\Delta T = 33.0\text{ºC} - 10.0\text{ºC} = 23.0\text{ºC}$$
 
 From Table 1:
 
@@ -757,6 +759,7 @@ Given:
 
 Temperature difference:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_{skin} - T_{air} = 32.0\text{ºC} - (-5.00\text{ºC}) = 37.0\text{ºC}$$
 </div>
 
@@ -773,7 +776,7 @@ $$\frac{Q}{t} = \frac{1.1914 \text{ J}\cdot\text{m/s}}{0.0300 \text{ m}} = 39.7 
 
 Energy lost in one day:
 <div class="equation">
-$$Q_{day} = P \times t = (39.7 \text{ W})(86400 \text{ s/day}) = 3430080 \text{ J}$$
+$$Q_{day} = P \times t = (39.7 \text{ W})(86400 \text{ s}) = 3430080 \text{ J}$$
 </div>
 
 Convert to kilocalories (1 kcal = 4186 J):
@@ -853,6 +856,7 @@ Given:
 
 Temperature difference:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_{core} - T_{water} = 37.0\text{ºC} - (-1.00\text{ºC}) = 38.0\text{ºC}$$
 </div>
 
@@ -1055,6 +1059,7 @@ $$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(2256 \text{ J/s})(0.00600 \text{ 
 </div>
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{13.536 \text{ J}\cdot\text{m/s}}{0.01294 \text{ J}\cdot\text{m}/(\text{s}\cdot\text{ºC})} = 1046 \text{ºC} = 1046 \text{ K}$$
 </div>
 
@@ -1216,7 +1221,7 @@ Given:
 - Air gap thickness: $$d_a = 1.00 \text{ cm} = 0.0100 \text{ m}$$
 - Inside temperature: $$T_{in} = 15.0\text{ºC}$$
 - Outside temperature: $$T_{out} = -10.0\text{ºC}$$
-- Temperature difference: $$\Delta T_{total} = 15.0\text{ºC} - (-10.0\text{ºC}) = 25.0\text{ºC}$$
+- Temperature difference: <!-- physics-scan: temperature=interval -->$$\Delta T_{total} = 15.0\text{ºC} - (-10.0\text{ºC}) = 25.0\text{ºC}$$
 - Thermal conductivity of glass: $$k_g = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 - Thermal conductivity of air: $$k_a = 0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 
@@ -1260,6 +1265,7 @@ $$\Delta T_g = 0.525\text{ºC}$$
 </div>
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T_a = 45.65 \times 0.525\text{ºC} = 23.95\text{ºC}$$
 </div>
 
@@ -1335,6 +1341,7 @@ for the 120 day heating season to be $$15.0\text{ºC} $$.
 
 The installation costs $$150\ \text{m}^2\times\$4.00/\text{m}^2=\$600$$. The reduction in heat-loss rate is
 
+<!-- physics-scan: temperature=interval -->
 $$\Delta P=kA\Delta T\left(\frac1{d_1}-\frac1{d_2}\right)=(0.042\ \text{J/s}\cdot\text{m}\cdot\text{ºC})(150\ \text{m}^2)(15.0\text{ºC})\left(\frac{1}{0.15\ \text{m}}-\frac{1}{0.23\ \text{m}}\right)=219\ \text{W}.$$
 
 Over the 120-day heating season, this saves $$2.27\times10^9\ \text{J}$$, worth \$2270 at the stated energy price. Thus

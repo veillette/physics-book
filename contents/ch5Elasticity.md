@@ -916,6 +916,7 @@ Compare how much the vinegar and the bottle expand when heated. Then use the bul
 Suppose the bottle warms by $$ \Delta T = 20 \text{ °C} $$. Vinegar (mostly water) expands by a fraction of about $$ 2.1 \times 10^{-4} \text{ per °C} $$, while the glass's volume grows by only about $$ 2.7 \times 10^{-5} \text{ per °C} $$. The vinegar's volume grows more than the bottle's by a fraction of
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$ \frac{\Delta V}{V} = (2.1 \times 10^{-4} \text{ °C}^{-1} - 2.7 \times 10^{-5} \text{ °C}^{-1})(20 \text{ °C}) = 3.7 \times 10^{-3} $$
 </div>
 

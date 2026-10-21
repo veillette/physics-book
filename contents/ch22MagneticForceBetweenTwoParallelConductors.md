@@ -385,11 +385,11 @@ $$\frac{F}{L} = \frac{\mu_{0} I^2}{2\pi r}$$
 
 $$I^2 = \frac{2\pi r (F/L)}{\mu_{0}}$$
 
-$$I = \sqrt{\frac{2\pi (0.0200)(0.225)}{4\pi \times 10^{-7}}}$$
+$$I = \sqrt{\frac{2\pi (0.0200 \text{ m})(0.225 \text{ N/m})}{4\pi \times 10^{-7} \text{ T·m/A}}}$$
 
-$$I = \sqrt{\frac{0.0283}{4\pi \times 10^{-7}}} = \sqrt{\frac{0.0283}{1.26 \times 10^{-6}}}$$
+$$I = \sqrt{\frac{0.0283 \text{ N}}{4\pi \times 10^{-7} \text{ T·m/A}}} = \sqrt{\frac{0.0283 \text{ N}}{1.26 \times 10^{-6} \text{ T·m/A}}}$$
 
-$$I = \sqrt{2.25 \times 10^{4}} = 150 \text{ A}$$
+$$I = \sqrt{2.25 \times 10^{4} \text{ A}^2} = 150 \text{ A}$$
 
 **(b) Force direction:**
 
@@ -431,9 +431,9 @@ We use $$F = \frac{\mu_{0} I_1 I_2 L}{2\pi r}$$ and solve for $$I_2$$. Since the
 
 $$I_2 = \frac{2\pi r F}{\mu_{0} I_1 L}$$
 
-$$I_2 = \frac{2\pi (0.0500)(4.00)}{(4\pi \times 10^{-7})(1000)(2.50)}$$
+$$I_2 = \frac{2\pi (0.0500 \text{ m})(4.00 \text{ N})}{(4\pi \times 10^{-7} \text{ T·m/A})(1000 \text{ A})(2.50 \text{ m})}$$
 
-$$I_2 = \frac{1.26}{3.14 \times 10^{-3}} = 400 \text{ A}$$
+$$I_2 = \frac{1.26 \text{ N·m}}{3.14 \times 10^{-3} \text{ T·m}^2} = 400 \text{ A}$$
 
 Since the force is repulsive, the currents flow in **opposite directions**.
 
@@ -473,13 +473,13 @@ We use $$\frac{F}{L} = \frac{\mu_{0} I_1 I_2}{2\pi r}$$ and solve for $$r$$. The
 
 $$r = \frac{\mu_{0} I_1 I_2}{2\pi (F/L)}$$
 
-$$r = \frac{(4\pi \times 10^{-7})(400)(5.00)}{2\pi (4.00 \times 10^{-3})}$$
+$$r = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(400 \text{ A})(5.00 \text{ A})}{2\pi (4.00 \times 10^{-3} \text{ N/m})}$$
 
-$$r = \frac{(4\pi \times 10^{-7})(2000)}{2\pi (4.00 \times 10^{-3})}$$
+$$r = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(2000 \text{ A}^2)}{2\pi (4.00 \times 10^{-3} \text{ N/m})}$$
 
-$$r = \frac{2 \times 10^{-7} \times 2000}{4.00 \times 10^{-3}}$$
+$$r = \frac{(2 \times 10^{-7} \text{ T·m/A})(2000 \text{ A}^2)}{4.00 \times 10^{-3} \text{ N/m}}$$
 
-$$r = \frac{4.00 \times 10^{-4}}{4.00 \times 10^{-3}} = 0.100 \text{ m} = 10.0 \text{ cm}$$
+$$r = \frac{4.00 \times 10^{-4} \text{ N}}{4.00 \times 10^{-3} \text{ N/m}} = 0.100 \text{ m} = 10.0 \text{ cm}$$
 
 **(b) Current directions:**
 
@@ -526,9 +526,9 @@ $$\frac{F_{avg}}{L} = \frac{\mu_{0} I_{rms}^2}{2\pi r}$$
 
 $$\frac{F_{avg}}{L} = \frac{(4\pi \times 10^{-7})(5.00)^2}{2\pi (0.00300)}$$
 
-$$\frac{F_{avg}}{L} = \frac{(4\pi \times 10^{-7})(25.0)}{2\pi (0.00300)}$$
+$$\frac{F_{avg}}{L} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(25.0 \text{ A}^2)}{2\pi (0.00300 \text{ m})}$$
 
-$$\frac{F_{avg}}{L} = \frac{2 \times 10^{-7} \times 25.0}{0.00300} = 1.67 \times 10^{-3} \text{ N/m}$$
+$$\frac{F_{avg}}{L} = \frac{(2 \times 10^{-7} \text{ T·m/A})(25.0 \text{ A}^2)}{0.00300 \text{ m}} = 1.67 \times 10^{-3} \text{ N/m}$$
 
 **(b) Maximum force per meter:**
 
@@ -536,7 +536,7 @@ Maximum occurs when $$I = I_0 = \sqrt{2} I_{rms}$$:
 
 $$\frac{F_{max}}{L} = \frac{\mu_{0} I_0^2}{2\pi r} = 2 \times \frac{F_{avg}}{L}$$
 
-$$\frac{F_{max}}{L} = 2 \times 1.67 \times 10^{-3} = 3.33 \times 10^{-3} \text{ N/m}$$
+$$\frac{F_{max}}{L} = 2 \times 1.67 \times 10^{-3} \text{ N/m} = 3.33 \times 10^{-3} \text{ N/m}$$
 
 **(c) Direction:**
 
@@ -593,19 +593,19 @@ We calculate the force on each segment of the loop due to the long straight wire
 
 Top segment: Current flows right-to-left, same direction as $$I_1$$ is irrelevant—we check: in the top segment of the loop, current flows **left** (opposite to $$I_1$$). Force is **repulsive** (away from wire = downward).
 
-$$F_{top} = \frac{\mu_{0} I_1 I_2 L}{2\pi r_1} = \frac{(4\pi \times 10^{-7})(15.0)(30.0)(0.300)}{2\pi (0.0750)}$$
+$$F_{top} = \frac{\mu_{0} I_1 I_2 L}{2\pi r_1} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(15.0 \text{ A})(30.0 \text{ A})(0.300 \text{ m})}{2\pi (0.0750 \text{ m})}$$
 
-$$F_{top} = \frac{2 \times 10^{-7} \times 15.0 \times 30.0 \times 0.300}{0.0750} = 3.60 \times 10^{-4} \text{ N}$$ (downward)
+$$F_{top} = \frac{(2 \times 10^{-7} \text{ T·m/A})(15.0 \text{ A})(30.0 \text{ A})(0.300 \text{ m})}{0.0750 \text{ m}} = 3.60 \times 10^{-4} \text{ N}$$ (downward)
 
 Bottom segment: Current flows **right** (same as $$I_1$$). Force is **attractive** (toward wire = upward).
 
-$$F_{bottom} = \frac{\mu_{0} I_1 I_2 L}{2\pi r_2} = \frac{(4\pi \times 10^{-7})(15.0)(30.0)(0.300)}{2\pi (0.175)}$$
+$$F_{bottom} = \frac{\mu_{0} I_1 I_2 L}{2\pi r_2} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(15.0 \text{ A})(30.0 \text{ A})(0.300 \text{ m})}{2\pi (0.175 \text{ m})}$$
 
-$$F_{bottom} = \frac{2 \times 10^{-7} \times 15.0 \times 30.0 \times 0.300}{0.175} = 1.54 \times 10^{-4} \text{ N}$$ (upward)
+$$F_{bottom} = \frac{(2 \times 10^{-7} \text{ T·m/A})(15.0 \text{ A})(30.0 \text{ A})(0.300 \text{ m})}{0.175 \text{ m}} = 1.54 \times 10^{-4} \text{ N}$$ (upward)
 
 **Net force:**
 
-$$F_{net} = F_{top} - F_{bottom} = 3.60 \times 10^{-4} - 1.54 \times 10^{-4} = 2.06 \times 10^{-4} \text{ N}$$
+$$F_{net} = F_{top} - F_{bottom} = 3.60 \times 10^{-4} \text{ N} - 1.54 \times 10^{-4} \text{ N} = 2.06 \times 10^{-4} \text{ N}$$
 
 Direction: **downward** (away from the wire)
 

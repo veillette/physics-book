@@ -478,7 +478,7 @@ This complex circuit has three branches in parallel. We need to find the equival
 
 **Left Branch** (5.0 μF and 3.5 μF in series):
 
-$$\frac{1}{C_{\text{left}}} = \frac{1}{5.0 \text{ μF}} + \frac{1}{3.5 \text{ μF}} = 0.200 + 0.286 = 0.486 \text{ μF}^{-1}$$
+$$\frac{1}{C_{\text{left}}} = \frac{1}{5.0 \text{ μF}} + \frac{1}{3.5 \text{ μF}} = 0.200 \text{ μF}^{-1} + 0.286 \text{ μF}^{-1} = 0.486 \text{ μF}^{-1}$$
 
 $$C_{\text{left}} = 2.06 \text{ μF}$$
 
@@ -492,7 +492,7 @@ Parallel combination of 0.75 μF and 15 μF:
 $$C_{\text{p}} = 0.75 \text{ μF} + 15 \text{ μF} = 15.75 \text{ μF}$$
 
 This is in series with 1.5 μF:
-$$\frac{1}{C_{\text{right}}} = \frac{1}{15.75 \text{ μF}} + \frac{1}{1.5 \text{ μF}} = 0.0635 + 0.667 = 0.730 \text{ μF}^{-1}$$
+$$\frac{1}{C_{\text{right}}} = \frac{1}{15.75 \text{ μF}} + \frac{1}{1.5 \text{ μF}} = 0.0635 \text{ μF}^{-1} + 0.667 \text{ μF}^{-1} = 0.730 \text{ μF}^{-1}$$
 
 $$C_{\text{right}} = 1.37 \text{ μF}$$
 
@@ -553,7 +553,7 @@ Since 5.00 μF < 8.00 μF, a parallel connection is impossible. The capacitors m
 
 $$\frac{1}{C_{\text{S}}} = \frac{1}{8.00 \text{ μF}} + \frac{1}{C_2}$$
 
-$$\frac{1}{C_2} = \frac{1}{5.00 \text{ μF}} - \frac{1}{8.00 \text{ μF}} = 0.200 - 0.125 = 0.075 \text{ μF}^{-1}$$
+$$\frac{1}{C_2} = \frac{1}{5.00 \text{ μF}} - \frac{1}{8.00 \text{ μF}} = 0.200 \text{ μF}^{-1} - 0.125 \text{ μF}^{-1} = 0.075 \text{ μF}^{-1}$$
 
 $$C_2 = 13.3 \text{ μF}$$
 

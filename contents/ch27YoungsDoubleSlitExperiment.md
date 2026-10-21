@@ -409,7 +409,7 @@ $$d \sin \theta = m\lambda$$
 Solving for $$d$$:
 
 <div class="equation">
-$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(610 \times 10^{-9} \text{ m})}{\sin 30.0°} = \frac{610 \times 10^{-9}}{0.500}$$
+$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(610 \times 10^{-9} \text{ m})}{\sin 30.0°} = \frac{610 \times 10^{-9} \text{ m}}{0.500}$$
 </div>
 
 <div class="equation">
@@ -460,7 +460,7 @@ $$d = \frac{\lambda}{2 \sin \theta} = \frac{410 \times 10^{-9} \text{ m}}{2 \sin
 </div>
 
 <div class="equation">
-$$d = \frac{410 \times 10^{-9}}{1.4142} = 2.90 \times 10^{-7} \text{ m} = 290 \text{ nm}$$
+$$d = \frac{410 \times 10^{-9} \text{ m}}{1.4142} = 2.90 \times 10^{-7} \text{ m} = 290 \text{ nm}$$
 </div>
 
 **Discussion**

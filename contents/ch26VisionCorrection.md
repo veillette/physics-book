@@ -683,7 +683,7 @@ Part (a): A ±0.45 D uncertainty range is relatively small and clinically accept
 
 Many patients in this range choose not to wear glasses for everyday activities, though they might use them for specific tasks like night driving or extended reading.
 
-Part (b): The 9.00 D correction is substantial, indicating significant myopia before surgery. This person likely had a far point of about 11 cm (calculation: $$d_o = 1/(9.00 + 50.0 - 50.0) \approx 0.11 \text{ m}$$), meaning they could see clearly only up to about 11 cm without glasses—severely limiting their activities without correction. The LASIK procedure dramatically improved their quality of life by enabling normal distant vision, even with the small uncertainty.
+Part (b): The 9.00 D correction is substantial, indicating significant myopia before surgery. This person likely had a far point of about 11 cm (calculation: $$d_o = 1/(9.00 \text{ D} + 50.0 \text{ D} - 50.0 \text{ D}) \approx 0.11 \text{ m}$$), meaning they could see clearly only up to about 11 cm without glasses—severely limiting their activities without correction. The LASIK procedure dramatically improved their quality of life by enabling normal distant vision, even with the small uncertainty.
 
 This problem illustrates why LASIK uncertainty specifications are important. A 5% uncertainty might seem small, but for large corrections like 9.00 D, it translates to nearly half a diopter of potential residual error. This is why careful pre-operative assessment and conservative treatment planning are essential.
 
@@ -1122,7 +1122,7 @@ The previous problem involved a myopic man with a far point of 20.0 cm who neede
 Given values:
 - Far point from eye: 20.0 cm
 - Spectacle distance from eye: 1.50 cm
-- Image distance from spectacle: $$d_i = -(20.0 - 1.50) = -18.5 \text{ cm} = -0.185 \text{ m}$$
+- Image distance from spectacle: $$d_i = -(20.0 \text{ cm} - 1.50 \text{ cm}) = -18.5 \text{ cm} = -0.185 \text{ m}$$
 - Object distance: $$d_o = \infty$$ (distant objects)
 
 The negative image distance indicates the image is on the same side as the object (virtual image).
@@ -1224,7 +1224,7 @@ The previous problem involved a myopic person with a -4.00 D contact lens prescr
 Given values:
 - Far point from eye: 25.0 cm
 - Spectacle distance from eye: 1.75 cm
-- Image distance from spectacle: $$d_i = -(25.0 - 1.75) = -23.25 \text{ cm} = -0.2325 \text{ m}$$
+- Image distance from spectacle: $$d_i = -(25.0 \text{ cm} - 1.75 \text{ cm}) = -23.25 \text{ cm} = -0.2325 \text{ m}$$
 - Object distance: $$d_o = \infty$$ (distant objects)
 
 Using the power equation:
@@ -1448,9 +1448,9 @@ The previous problem involved a child with a +0.750 D contact lens prescription 
 **Solution**
 
 Given values:
-- Normal near point (object distance from spectacle): $$d_o = 25.0 - 2.20 = 22.8 \text{ cm} = 0.228 \text{ m}$$
+- Normal near point (object distance from spectacle): $$d_o = 25.0 \text{ cm} - 2.20 \text{ cm} = 22.8 \text{ cm} = 0.228 \text{ m}$$
 - Child's near point from eye: 30.8 cm
-- Image distance from spectacle: $$d_i = -(30.8 - 2.20) = -28.6 \text{ cm} = -0.286 \text{ m}$$
+- Image distance from spectacle: $$d_i = -(30.8 \text{ cm} - 2.20 \text{ cm}) = -28.6 \text{ cm} = -0.286 \text{ m}$$
 
 The negative image distance indicates a virtual image on the same side as the object.
 

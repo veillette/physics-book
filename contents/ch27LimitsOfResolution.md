@@ -320,7 +320,7 @@ $$r = 2 \times 10^6 \text{ ly} \times 9.46 \times 10^{15} \text{ m/ly} = 1.89 \t
 </div>
 
 <div class="equation">
-$$s = r\theta = (1.89 \times 10^{22})(1.63 \times 10^{-4}) = 3.08 \times 10^{18} \text{ m}$$
+$$s = r\theta = (1.89 \times 10^{22} \text{ m})(1.63 \times 10^{-4} \text{ rad}) = 3.08 \times 10^{18} \text{ m}$$
 </div>
 
 Converting back to light years:
@@ -536,19 +536,19 @@ everyday circumstances?
 
 **(a) Minimum resolvable angle:**
 <div class="equation">
-$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{550 \times 10^{-9}}{3.00 \times 10^{-3}} = 2.24 \times 10^{-4} \text{ rad}$$
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{550 \times 10^{-9} \text{ m}}{3.00 \times 10^{-3} \text{ m}} = 2.24 \times 10^{-4} \text{ rad}$$
 </div>
 
 Converting: θ = 2.24 × 10⁻⁴ rad × (180/π) × 60 = 0.77 arcmin ≈ **46 arcseconds**
 
 **(b) Maximum distance to resolve headlights:**
 <div class="equation">
-$$r = \frac{s}{\theta} = \frac{1.30}{2.24 \times 10^{-4}} = 5800 \text{ m} = 5.8 \text{ km}$$
+$$r = \frac{s}{\theta} = \frac{1.30 \text{ m}}{2.24 \times 10^{-4} \text{ rad}} = 5800 \text{ m} = 5.8 \text{ km}$$
 </div>
 
 **(c) Separation at arm's length:**
 <div class="equation">
-$$s = r\theta = (0.800)(2.24 \times 10^{-4}) = 1.79 \times 10^{-4} \text{ m} = 0.18 \text{ mm}$$
+$$s = r\theta = (0.800 \text{ m})(2.24 \times 10^{-4} \text{ rad}) = 1.79 \times 10^{-4} \text{ m} = 0.18 \text{ mm}$$
 </div>
 
 **(d) Comparison:** 0.18 mm is about twice the width of a human hair (~0.1 mm) and matches our everyday experience - we can barely distinguish two dots separated by this distance at arm's length. This is consistent with typical human visual acuity of about 20/20 vision.
@@ -589,11 +589,11 @@ $$\theta = \frac{s}{r} = \frac{5000}{3.84 \times 10^8} = 1.302 \times 10^{-5} \t
 Using θ = 1.22λ/D:
 
 <div class="equation">
-$$D = \frac{1.22\lambda}{\theta} = \frac{1.22 \times 550 \times 10^{-9}}{1.302 \times 10^{-5}}$$
+$$D = \frac{1.22\lambda}{\theta} = \frac{1.22 \times 550 \times 10^{-9} \text{ m}}{1.302 \times 10^{-5} \text{ rad}}$$
 </div>
 
 <div class="equation">
-$$D = \frac{6.71 \times 10^{-7}}{1.302 \times 10^{-5}} = 0.0515 \text{ m} = 5.15 \text{ cm}$$
+$$D = \frac{6.71 \times 10^{-7} \text{ m}}{1.302 \times 10^{-5} \text{ rad}} = 0.0515 \text{ m} = 5.15 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -623,11 +623,11 @@ Find the minimum resolvable angle θ = 1.22λ/D, then find the maximum distance 
 **Solution**
 
 <div class="equation">
-$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{555 \times 10^{-9}}{5.0 \times 10^{-3}} = 1.35 \times 10^{-4} \text{ rad}$$
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{555 \times 10^{-9} \text{ m}}{5.0 \times 10^{-3} \text{ m}} = 1.35 \times 10^{-4} \text{ rad}$$
 </div>
 
 <div class="equation">
-$$r = \frac{s}{\theta} = \frac{0.065}{1.35 \times 10^{-4}} = 481 \text{ m}$$
+$$r = \frac{s}{\theta} = \frac{0.065 \text{ m}}{1.35 \times 10^{-4} \text{ rad}} = 481 \text{ m}$$
 </div>
 
 **Discussion**
@@ -720,11 +720,11 @@ Use θ = 1.22λ/D with λ ≈ 550 nm, D = 0.40 cm = 4.0 mm, then r = s/θ.
 **Solution**
 
 <div class="equation">
-$$\theta = 1.22\frac{550 \times 10^{-9}}{4.0 \times 10^{-3}} = 1.68 \times 10^{-4} \text{ rad}$$
+$$\theta = 1.22\frac{550 \times 10^{-9} \text{ m}}{4.0 \times 10^{-3} \text{ m}} = 1.68 \times 10^{-4} \text{ rad}$$
 </div>
 
 <div class="equation">
-$$r = \frac{s}{\theta} = \frac{1.3}{1.68 \times 10^{-4}} = 7740 \text{ m} \approx 7.7 \text{ km}$$
+$$r = \frac{s}{\theta} = \frac{1.3 \text{ m}}{1.68 \times 10^{-4} \text{ rad}} = 7740 \text{ m} \approx 7.7 \text{ km}$$
 </div>
 
 **Discussion**
@@ -752,11 +752,11 @@ Find θ = 1.22λ/D, then minimum separation s = rθ at distance r = 35 cm. Conve
 **Solution**
 
 <div class="equation">
-$$\theta = 1.22\frac{550 \times 10^{-9}}{3.0 \times 10^{-3}} = 2.24 \times 10^{-4} \text{ rad}$$
+$$\theta = 1.22\frac{550 \times 10^{-9} \text{ m}}{3.0 \times 10^{-3} \text{ m}} = 2.24 \times 10^{-4} \text{ rad}$$
 </div>
 
 <div class="equation">
-$$s = r\theta = (0.35)(2.24 \times 10^{-4}) = 7.84 \times 10^{-5} \text{ m} = 78.4 \text{ μm}$$
+$$s = r\theta = (0.35 \text{ m})(2.24 \times 10^{-4} \text{ rad}) = 7.84 \times 10^{-5} \text{ m} = 78.4 \text{ μm}$$
 </div>
 
 Dots per inch:
@@ -804,13 +804,13 @@ Use Rayleigh criterion θ = 1.22λ/D and s = rθ to find required D.
 Given: s = 1.00 m, r = 7.50 × 10⁸ km = 7.50 × 10¹¹ m, λ = 600 nm
 
 <div class="equation">
-$$\theta = \frac{s}{r} = \frac{1.00}{7.50 \times 10^{11}} = 1.33 \times 10^{-12} \text{ rad}$$
+$$\theta = \frac{s}{r} = \frac{1.00 \text{ m}}{7.50 \times 10^{11} \text{ m}} = 1.33 \times 10^{-12} \text{ rad}$$
 </div>
 
 Using θ = 1.22λ/D:
 
 <div class="equation">
-$$D = \frac{1.22\lambda}{\theta} = \frac{1.22 \times 600 \times 10^{-9}}{1.33 \times 10^{-12}} = 5.50 \times 10^5 \text{ m} = 550 \text{ km}$$
+$$D = \frac{1.22\lambda}{\theta} = \frac{1.22 \times 600 \times 10^{-9} \text{ m}}{1.33 \times 10^{-12} \text{ rad}} = 5.50 \times 10^5 \text{ m} = 550 \text{ km}$$
 </div>
 
 **(b) What is unreasonable?**

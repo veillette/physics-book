@@ -608,6 +608,7 @@ Given:
 
 **(a)** Heat to be removed from body:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q = Mc\Delta T = (60.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(0.750\text{ºC}) = 157500 \text{ J} = 157.5 \text{ kJ}$$
 </div>
 
@@ -780,6 +781,7 @@ $$m = \rho V = (1.29 \text{ kg/m}^3)(500 \text{ m}^3) = 645 \text{ kg}$$
 
 Calculate heat needed to warm this air:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q = mc\Delta T = (645 \text{ kg})(1000 \text{ J/kg}\cdot\text{ºC})(10.0\text{ºC}) = 6.45 \times 10^6 \text{ J}$$
 </div>
 
@@ -875,6 +877,7 @@ $$m = \rho V = (1050 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3) = 2.10 \te
 
 Calculate heat removed per minute:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q = mc\Delta T = (2.10 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(2.00\text{ºC}) = 17,581 \text{ J}$$
 </div>
 

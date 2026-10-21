@@ -753,7 +753,7 @@ Use $$V = \text{emf} - Ir$$ for terminal voltage. Power produced by the cell is 
 
 **(a)** Terminal voltage:
 <div class="equation">
-$$V = \text{emf} - Ir = 1.54 \text{ V} - (2.00 \text{ A})(0.100 \text{ Ω}) = 1.54 - 0.200 = 1.34 \text{ V}$$
+$$V = \text{emf} - Ir = 1.54 \text{ V} - (2.00 \text{ A})(0.100 \text{ Ω}) = 1.54 \text{ V} - 0.200 \text{ V} = 1.34 \text{ V}$$
 </div>
 
 **(b)** Power produced by the cell:
@@ -768,10 +768,10 @@ $$P_{\text{load}} = IV = (2.00 \text{ A})(1.34 \text{ V}) = 2.68 \text{ W}$$
 
 Alternatively, we can calculate the power dissipated internally:
 <div class="equation">
-$$P_{\text{internal}} = I^2 r = (2.00)^2(0.100) = 0.400 \text{ W}$$
+$$P_{\text{internal}} = I^2 r = (2.00 \text{ A})^2(0.100 \text{ Ω}) = 0.400 \text{ W}$$
 </div>
 
-Check: $$P_{\text{load}} + P_{\text{internal}} = 2.68 + 0.40 = 3.08 \text{ W} = P_{\text{cell}}$$ ✓
+Check: $$P_{\text{load}} + P_{\text{internal}} = 2.68 \text{ W} + 0.40 \text{ W} = 3.08 \text{ W} = P_{\text{cell}}$$ ✓
 
 **Discussion**
 
@@ -818,7 +818,7 @@ When a battery is being charged, current flows into it (opposite to discharge di
 
 **(a)** Terminal voltage during charging:
 <div class="equation">
-$$V = \text{emf} + Ir = 12.0 \text{ V} + (10.0 \text{ A})(0.600 \text{ Ω}) = 12.0 + 6.00 = 18.0 \text{ V}$$
+$$V = \text{emf} + Ir = 12.0 \text{ V} + (10.0 \text{ A})(0.600 \text{ Ω}) = 12.0 \text{ V} + 6.00 \text{ V} = 18.0 \text{ V}$$
 </div>
 
 **(b)** The battery charger output voltage must equal the battery's terminal voltage:
@@ -828,7 +828,7 @@ $$V_{\text{charger}} = 18.0 \text{ V}$$
 
 **Discussion**
 
-During charging, the 10.0 A current flows through the internal resistance in the direction that adds to the emf, making the terminal voltage 18.0 V (50% higher than the 12.0-V emf). The charger must provide this higher voltage to overcome both the battery's emf and push current through its internal resistance. The power dissipated internally is $$P = I^2r = (10.0)^2(0.600) = 60.0 \text{ W}$$, which heats the battery during charging—this is why batteries warm up when charging.
+During charging, the 10.0 A current flows through the internal resistance in the direction that adds to the emf, making the terminal voltage 18.0 V (50% higher than the 12.0-V emf). The charger must provide this higher voltage to overcome both the battery's emf and push current through its internal resistance. The power dissipated internally is $$P = I^2r = (10.0 \text{ A})^2(0.600 \text{ Ω}) = 60.0 \text{ W}$$, which heats the battery during charging—this is why batteries warm up when charging.
 
 (a) 18.0 V, (b) 18.0 V.
 
@@ -855,27 +855,27 @@ When charging: $$V = \text{emf} + Ir$$ (current into battery). When discharging:
 
 **(a)** Terminal voltage while charging:
 <div class="equation">
-$$V = \text{emf} + Ir = 12 + (60)(0.050) = 12 + 3.0 = 15 \text{ V}$$
+$$V = \text{emf} + Ir = 12 \text{ V} + (60 \text{ A})(0.050 \text{ Ω}) = 12 \text{ V} + 3.0 \text{ V} = 15 \text{ V}$$
 </div>
 
 **(b)** Rate of thermal energy dissipation:
 <div class="equation">
-$$P_{\text{thermal}} = I^2 r = (60)^2(0.050) = 180 \text{ W}$$
+$$P_{\text{thermal}} = I^2 r = (60 \text{ A})^2(0.050 \text{ Ω}) = 180 \text{ W}$$
 </div>
 
 **(c)** Rate of electrical-to-chemical energy conversion:
 <div class="equation">
-$$P_{\text{chemical}} = I \times \text{emf} = (60)(12) = 720 \text{ W}$$
+$$P_{\text{chemical}} = I \times \text{emf} = (60 \text{ A})(12 \text{ V}) = 720 \text{ W}$$
 </div>
 
-Check: Total input power = $$IV = (60)(15) = 900 \text{ W}$$
-Power balance: $$P_{\text{chemical}} + P_{\text{thermal}} = 720 + 180 = 900 \text{ W}$$ ✓
+Check: Total input power = $$IV = (60 \text{ A})(15 \text{ V}) = 900 \text{ W}$$
+Power balance: $$P_{\text{chemical}} + P_{\text{thermal}} = 720 \text{ W} + 180 \text{ W} = 900 \text{ W}$$ ✓
 
 **(d)** When supplying current (discharging):
 
 Terminal voltage:
 <div class="equation">
-$$V = \text{emf} - Ir = 12 - (60)(0.050) = 12 - 3.0 = 9.0 \text{ V}$$
+$$V = \text{emf} - Ir = 12 \text{ V} - (60 \text{ A})(0.050 \text{ Ω}) = 12 \text{ V} - 3.0 \text{ V} = 9.0 \text{ V}$$
 </div>
 
 Thermal dissipation (same as before):
@@ -938,18 +938,18 @@ Assume the radio uses two cells in series. Calculate total resistance, current, 
 **(a)** Circuit diagram (not drawn here, but would show): Two cells in series connected to the radio (3.20-Ω load resistor).
 
 **(b)** With two NiCad cells:
-- Total emf: $$\text{emf} = 2 \times 1.25 = 2.50 \text{ V}$$
-- Total internal resistance: $$r = 2 \times 0.0400 = 0.0800 \text{ Ω}$$
-- Total resistance: $$R_{\text{tot}} = 3.20 + 0.0800 = 3.28 \text{ Ω}$$
-- Current: $$I = 2.50/3.28 = 0.762 \text{ A}$$
-- Power to radio: $$P = I^2 R = (0.762)^2(3.20) = 1.86 \text{ W}$$
+- Total emf: $$\text{emf} = 2 \times 1.25 \text{ V} = 2.50 \text{ V}$$
+- Total internal resistance: $$r = 2 \times 0.0400 \text{ Ω} = 0.0800 \text{ Ω}$$
+- Total resistance: $$R_{\text{tot}} = 3.20 \text{ Ω} + 0.0800 \text{ Ω} = 3.28 \text{ Ω}$$
+- Current: $$I = (2.50 \text{ V})/(3.28 \text{ Ω}) = 0.762 \text{ A}$$
+- Power to radio: $$P = I^2 R = (0.762 \text{ A})^2(3.20 \text{ Ω}) = 1.86 \text{ W}$$
 
 **(c)** With two alkaline cells:
-- Total emf: $$\text{emf} = 2 \times 1.58 = 3.16 \text{ V}$$
-- Total internal resistance: $$r = 2 \times 0.200 = 0.400 \text{ Ω}$$
-- Total resistance: $$R_{\text{tot}} = 3.20 + 0.400 = 3.60 \text{ Ω}$$
-- Current: $$I = 3.16/3.60 = 0.878 \text{ A}$$
-- Power to radio: $$P = (0.878)^2(3.20) = 2.47 \text{ W}$$
+- Total emf: $$\text{emf} = 2 \times 1.58 \text{ V} = 3.16 \text{ V}$$
+- Total internal resistance: $$r = 2 \times 0.200 \text{ Ω} = 0.400 \text{ Ω}$$
+- Total resistance: $$R_{\text{tot}} = 3.20 \text{ Ω} + 0.400 \text{ Ω} = 3.60 \text{ Ω}$$
+- Current: $$I = (3.16 \text{ V})/(3.60 \text{ Ω}) = 0.878 \text{ A}$$
+- Power to radio: $$P = I^2 R = (0.878 \text{ A})^2(3.20 \text{ Ω}) = 2.47 \text{ W}$$
 
 **(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a larger fraction of the total. As the load resistance decreases from 3.20 Ω, the alkaline advantage shrinks; below about 1.4 Ω, the two NiCad cells deliver more load power. Load power does not increase indefinitely as load resistance decreases. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
 
@@ -1011,49 +1011,49 @@ Four cells in series: three identical 1.58-V cells and one 1.53-V cell. Add emfs
 
 **(b)** Total emf:
 <div class="equation">
-$$\text{emf}_{\text{total}} = 3(1.58) + 1.53 = 4.74 + 1.53 = 6.27 \text{ V}$$
+$$\text{emf}_{\text{total}} = 3(1.58 \text{ V}) + 1.53 \text{ V} = 4.74 \text{ V} + 1.53 \text{ V} = 6.27 \text{ V}$$
 </div>
 
 Total internal resistance:
 <div class="equation">
-$$r_{\text{total}} = 3(0.0200) + 0.100 = 0.0600 + 0.100 = 0.160 \text{ Ω}$$
+$$r_{\text{total}} = 3(0.0200 \text{ Ω}) + 0.100 \text{ Ω} = 0.0600 \text{ Ω} + 0.100 \text{ Ω} = 0.160 \text{ Ω}$$
 </div>
 
 Total resistance:
 <div class="equation">
-$$R_{\text{total}} = 10.0 + 0.160 = 10.16 \text{ Ω}$$
+$$R_{\text{total}} = 10.0 \text{ Ω} + 0.160 \text{ Ω} = 10.16 \text{ Ω}$$
 </div>
 
 Current:
 <div class="equation">
-$$I = \frac{6.27}{10.16} = 0.617 \text{ A}$$
+$$I = \frac{6.27 \text{ V}}{10.16 \text{ Ω}} = 0.617 \text{ A}$$
 </div>
 
 **(c)** Power to load:
 <div class="equation">
-$$P = I^2 R_{\text{load}} = (0.617)^2(10.0) = 3.81 \text{ W}$$
+$$P = I^2 R_{\text{load}} = (0.617 \text{ A})^2(10.0 \text{ Ω}) = 3.81 \text{ W}$$
 </div>
 
 **(d)** If power drops to 0.500 W, find new internal resistance of the bad cell. Let $$r_{\text{bad}}$$ be its new resistance.
 
 From $$P = I^2 R_{\text{load}}$$:
 <div class="equation">
-$$I = \sqrt{\frac{P}{R_{\text{load}}}} = \sqrt{\frac{0.500}{10.0}} = 0.224 \text{ A}$$
+$$I = \sqrt{\frac{P}{R_{\text{load}}}} = \sqrt{\frac{0.500 \text{ W}}{10.0 \text{ Ω}}} = 0.224 \text{ A}$$
 </div>
 
 New total resistance:
 <div class="equation">
-$$R_{\text{new}} = \frac{\text{emf}}{I} = \frac{6.27}{0.224} = 28.0 \text{ Ω}$$
+$$R_{\text{new}} = \frac{\text{emf}}{I} = \frac{6.27 \text{ V}}{0.224 \text{ A}} = 28.0 \text{ Ω}$$
 </div>
 
 New internal resistance:
 <div class="equation">
-$$r_{\text{new}} = 28.0 - 10.0 = 18.0 \text{ Ω}$$
+$$r_{\text{new}} = 28.0 \text{ Ω} - 10.0 \text{ Ω} = 18.0 \text{ Ω}$$
 </div>
 
 Bad cell's internal resistance:
 <div class="equation">
-$$r_{\text{bad}} = r_{\text{new}} - 3(0.0200) = 18.0 - 0.0600 = 17.9 \text{ Ω}$$
+$$r_{\text{bad}} = r_{\text{new}} - 3(0.0200 \text{ Ω}) = 18.0 \text{ Ω} - 0.0600 \text{ Ω} = 17.9 \text{ Ω}$$
 </div>
 
 **Discussion**
@@ -1104,33 +1104,33 @@ Model as series circuit with emf = 20.0 kV, internal resistance $$r$$, and body 
 
 **(a)** Circuit: 20.0-kV source with internal resistance $$r$$ in series with 10.0-kΩ body resistance.
 
-**(b)** Total resistance: $$R = 2000 + 10000 = 12000 \text{ Ω} = 12.0 \text{ kΩ}$$
+**(b)** Total resistance: $$R = 2000 \text{ Ω} + 10000 \text{ Ω} = 12000 \text{ Ω} = 12.0 \text{ kΩ}$$
 
 Current:
 <div class="equation">
-$$I = \frac{V}{R} = \frac{20000}{12000} = 1.67 \text{ A}$$
+$$I = \frac{V}{R} = \frac{20000 \text{ V}}{12000 \text{ Ω}} = 1.67 \text{ A}$$
 </div>
 
 **(c)** Power in body:
 <div class="equation">
-$$P = I^2 R_{\text{body}} = (1.67)^2(10000) = 27.9 \text{ kW}$$
+$$P = I^2 R_{\text{body}} = (1.67 \text{ A})^2(10000 \text{ Ω}) = 27.9 \text{ kW}$$
 </div>
 
 This is lethal—enough to cause immediate death!
 
 **(d)** For maximum current of 1.00 mA:
 <div class="equation">
-$$R_{\text{total}} = \frac{V}{I} = \frac{20000}{0.00100} = 20.0 \text{ MΩ}$$
+$$R_{\text{total}} = \frac{V}{I} = \frac{20000 \text{ V}}{0.00100 \text{ A}} = 20.0 \text{ MΩ}$$
 </div>
 
 Required internal resistance:
 <div class="equation">
-$$r = R_{\text{total}} - R_{\text{body}} = 20.0 \times 10^{6} - 10.0 \times 10^{3} \approx 20.0 \text{ MΩ}$$
+$$r = R_{\text{total}} - R_{\text{body}} = 20.0 \times 10^{6} \text{ Ω} - 10.0 \times 10^{3} \text{ Ω} \approx 20.0 \text{ MΩ}$$
 </div>
 
 **(e)** Yes, this would severely compromise effectiveness for low-resistance devices. For example, with a 1.00-Ω load:
-- Without modification: $$I = 20000/(2000+1) = 10.0 \text{ A}$$, $$P = 100 \text{ W}$$
-- With 20-MΩ internal resistance: $$I = 20000/(20 \times 10^{6} + 1) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ µW}$$
+- Without modification: $$I = (20000 \text{ V})/(2000 \text{ Ω} + 1 \text{ Ω}) = 10.0 \text{ A}$$, $$P = 100 \text{ W}$$
+- With 20-MΩ internal resistance: $$I = (20000 \text{ V})/(20 \times 10^{6} \text{ Ω} + 1 \text{ Ω}) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ µW}$$
 
 The power delivery drops by a factor of about 100 million! This makes the supply useless for most applications requiring significant power.
 
@@ -1234,6 +1234,7 @@ $$ Q = Pt = (40.0 \text{ J/s})(60.0 \s) = 2400 \J = \frac{2400 \J}{4186 \text{ J
 so the temperature rises by
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$ \Delta T = \frac{Q}{mc} = \frac{0.573 \text{ kcal}}{(20.0 \kg)(0.300 \text{ kcal/kg}\cdot\text{ºC})} = 0.0956 \text{ ºC} $$
 </div>
 

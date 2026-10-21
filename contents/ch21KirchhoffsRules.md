@@ -729,7 +729,7 @@ Use the labeled current directions in Figure 8, read each cell polarity from its
 
 **Solution**
 
-At junction a, $$I_3=I_1+I_2$$. The top branch has resistance $$5.0+0.10+20=25.1\ \Omega$$, the middle branch $$40+0.50=40.5\ \Omega$$, and the bottom branch $$78+0.05+0.20=78.25\ \Omega$$.
+At junction a, $$I_3=I_1+I_2$$. The top branch has resistance $$5.0\ \Omega+0.10\ \Omega+20\ \Omega=25.1\ \Omega$$, the middle branch $$40\ \Omega+0.50\ \Omega=40.5\ \Omega$$, and the bottom branch $$78\ \Omega+0.05\ \Omega+0.20\ \Omega=78.25\ \Omega$$.
 
 Loop akledcba gives
 

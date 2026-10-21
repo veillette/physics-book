@@ -252,7 +252,7 @@ The percent loss is the ratio of this lost power to the total or input power,
 multiplied by 100:
 
 <div class="equation" >
- $$ \% \text{loss}=\frac{250 \text{kW}}{100 \text{MW}} \times 100=0.250\%. $$
+ $$ \% \text{loss}=\frac{250 \text{kW}}{100 \text{MW}} \times 100\%=0.250\%. $$
 </div>
 
 **Discussion**

@@ -272,7 +272,7 @@ $$ E = 1.00 \text{ MT} = 4.184 \times 10^{15} \text{ J} $$
 Mass from $$E = mc^{2}$$:
 
 <div class="equation">
-$$ m = \frac{E}{c^{2}} = \frac{4.184 \times 10^{15}}{(3.00 \times 10^{8})^{2}} = 4.65 \times 10^{-2} \text{ kg} = 46.5 \text{ g} $$
+$$ m = \frac{E}{c^{2}} = \frac{4.184 \times 10^{15} \text{ J}}{(3.00 \times 10^{8} \text{ m/s})^{2}} = 4.65 \times 10^{-2} \text{ kg} = 46.5 \text{ g} $$
 </div>
 
 **Discussion**
@@ -393,19 +393,19 @@ $$ E = 20.0 \text{ kT} \times \frac{4.184 \times 10^{12} \text{ J}}{1 \text{ kT}
 Convert to MeV:
 
 <div class="equation">
-$$ E = \frac{8.368 \times 10^{13}}{1.602 \times 10^{-13}} = 5.22 \times 10^{26} \text{ MeV} $$
+$$ E = \frac{8.368 \times 10^{13} \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV}} = 5.22 \times 10^{26} \text{ MeV} $$
 </div>
 
 Number of fissions:
 
 <div class="equation">
-$$ N = \frac{5.22 \times 10^{26}}{200} = 2.61 \times 10^{24} \text{ fissions} $$
+$$ N = \frac{5.22 \times 10^{26} \text{ MeV}}{200 \text{ MeV/fission}} = 2.61 \times 10^{24} \text{ fissions} $$
 </div>
 
 (b) Mass:
 
 <div class="equation">
-$$ m = \frac{2.61 \times 10^{24}}{6.022 \times 10^{23}} \times 239 = 1.04 \times 10^{3} \text{ g} = 1.04 \text{ kg} $$
+$$ m = \frac{2.61 \times 10^{24}}{6.022 \times 10^{23} \text{ mol}^{-1}} \times 239 \text{ g/mol} = 1.04 \times 10^{3} \text{ g} = 1.04 \text{ kg} $$
 </div>
 
 **Discussion**
@@ -466,7 +466,7 @@ Use $$PE = mgh$$. Half the bomb energy (0.50 kT) goes into lifting. Convert to j
 Energy available for lifting:
 
 <div class="equation">
-$$ E = 0.50 \text{ kT} = 0.50 \times 4.184 \times 10^{12} = 2.09 \times 10^{12} \text{ J} $$
+$$ E = 0.50 \text{ kT} \times 4.184 \times 10^{12} \text{ J/kT} = 2.09 \times 10^{12} \text{ J} $$
 </div>
 
 Mass of carrier:
@@ -478,7 +478,7 @@ $$ m = 90,000 \text{ tons} \times \frac{907 \text{ kg}}{1 \text{ ton}} = 8.16 \t
 Height from $$PE = mgh$$:
 
 <div class="equation">
-$$ h = \frac{E}{mg} = \frac{2.09 \times 10^{12}}{(8.16 \times 10^{7})(9.8)} = 2.61 \times 10^{3} \text{ m} = 2.61 \text{ km} $$
+$$ h = \frac{E}{mg} = \frac{2.09 \times 10^{12} \text{ J}}{(8.16 \times 10^{7} \text{ kg})(9.8 \text{ m/s}^2)} = 2.61 \times 10^{3} \text{ m} = 2.61 \text{ km} $$
 </div>
 
 **Discussion**
@@ -531,13 +531,13 @@ cause in the affected tissue, assuming it is absorbed in a layer 1.00-cm deep?
 (a) Thermal energy:
 
 <div class="equation">
-$$ E = 0.250 \times 4.184 \times 10^{15} = 1.046 \times 10^{15} \text{ J} $$
+$$ E = 0.250 \times 4.184 \times 10^{15} \text{ J} = 1.046 \times 10^{15} \text{ J} $$
 </div>
 
 Convert to calories (1 cal = 4.184 J):
 
 <div class="equation">
-$$ E = \frac{1.046 \times 10^{15}}{4.184} = 2.50 \times 10^{14} \text{ cal} $$
+$$ E = \frac{1.046 \times 10^{15} \text{ J}}{4.184 \text{ J/cal}} = 2.50 \times 10^{14} \text{ cal} $$
 </div>
 
 Surface area at 10 km:
@@ -549,7 +549,7 @@ $$ A = 4\pi r^{2} = 4\pi(10 \times 10^{5} \text{ cm})^{2} = 1.26 \times 10^{13} 
 Energy per unit area:
 
 <div class="equation">
-$$ \frac{E}{A} = \frac{2.50 \times 10^{14}}{1.26 \times 10^{13}} = 19.8 \text{ cal/cm}^{2} $$
+$$ \frac{E}{A} = \frac{2.50 \times 10^{14} \text{ cal}}{1.26 \times 10^{13} \text{ cm}^{2}} = 19.8 \text{ cal/cm}^{2} $$
 </div>
 
 (b) For 1 cm² area, 1 cm deep: mass = 1 g (tissue density ≈ 1 g/cm³)

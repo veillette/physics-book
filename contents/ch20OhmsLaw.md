@@ -96,6 +96,7 @@ resistance.
 Rearranging $$I=V/R $$ and substituting known values gives
 
 <div class="equation" >
+ <!-- physics: eq-2 -->
  $$R=\frac{V}{I}=\frac{12.0 \text{V}}{2.50 \text{A}}=4.80 \text{Ω}\text{.} $$
 </div>
 
@@ -243,11 +244,11 @@ In steady flow, neither charge nor fluid is used up along the resistive element.
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="flashlight">
 
 ::: problem
 
-What current flows through the bulb of a 3.00-V flashlight when its hot resistance is $$3.60 \text{Ω} $$ ?
+What current flows through the bulb of a 3.00-V flashlight when its hot resistance is <!-- physics: eq-0 -->$$3.60 \text{Ω} $$ ?
 
 :::
 
@@ -262,6 +263,7 @@ Apply Ohm's law directly: $$I = V/R$$. All values are given in standard units.
 Using Ohm's law:
 
 <div class="equation">
+<!-- physics: eq-2 -->
 $$I = \frac{V}{R} = \frac{3.00 \text{ V}}{3.60 \text{ Ω}} = 0.833 \text{ A}$$
 </div>
 
@@ -428,8 +430,8 @@ The voltage available to the appliance is:
 
 For a 120 V source:
 
-- Good cord: $$V_{\text{appliance}} = 120 - 0.3 = 119.7 \text{ V}$$ (99.8% of source)
-- Cheap cord: $$V_{\text{appliance}} = 120 - 1.5 = 118.5 \text{ V}$$ (98.8% of source)
+- Good cord: $$V_{\text{appliance}} = 120 \text{ V} - 0.3 \text{ V} = 119.7 \text{ V}$$ (99.8% of source)
+- Cheap cord: $$V_{\text{appliance}} = 120 \text{ V} - 1.5 \text{ V} = 118.5 \text{ V}$$ (98.8% of source)
 
 The appliance power is $$P = V^2/R$$ (for constant appliance resistance), so:
 

@@ -309,12 +309,12 @@ $$N_s = N_p \times \frac{V_s}{V_p} = 400 \times \frac{9.00 \text{ V}}{120 \text{
 Solving for $$I_p$$:
 
 <div class="equation">
-$$I_p = I_s \times \frac{N_s}{N_p} = 1.30 \text{ A} \times \frac{30.0}{400} = 1.30 \times 0.0750 = 9.75 \times 10^{-2} \text{ A}$$
+$$I_p = I_s \times \frac{N_s}{N_p} = 1.30 \text{ A} \times \frac{30.0}{400} = 1.30 \text{ A} \times 0.0750 = 9.75 \times 10^{-2} \text{ A}$$
 </div>
 
 **Discussion**
 
-As expected for a step-down transformer, the number of turns in the secondary is much less than in the primary (30 vs 400). The input current is also much smaller than the output current, which is characteristic of step-down transformers. We can verify energy conservation: $$P_p = V_p I_p = (120)(0.0975) = 11.7 \text{ W}$$ and $$P_s = V_s I_s = (9.00)(1.30) = 11.7 \text{ W}$$, confirming our calculations.
+As expected for a step-down transformer, the number of turns in the secondary is much less than in the primary (30 vs 400). The input current is also much smaller than the output current, which is characteristic of step-down transformers. We can verify energy conservation: $$P_p = V_p I_p = (120 \text{ V})(0.0975 \text{ A}) = 11.7 \text{ W}$$ and $$P_s = V_s I_s = (9.00 \text{ V})(1.30 \text{ A}) = 11.7 \text{ W}$$, confirming our calculations.
 
 **Answer**
 
@@ -389,7 +389,7 @@ This is a step-down transformer (120 V to 12.0 V). For an ideal transformer, pow
 Using power conservation:
 
 <div class="equation">
-$$I_p = I_s \times \frac{V_s}{V_p} = 200 \text{ mA} \times \frac{12.0 \text{ V}}{120 \text{ V}} = 200 \times 0.100 = 20.0 \text{ mA}$$
+$$I_p = I_s \times \frac{V_s}{V_p} = 200 \text{ mA} \times \frac{12.0 \text{ V}}{120 \text{ V}} = 200 \text{ mA} \times 0.100 = 20.0 \text{ mA}$$
 </div>
 
 **Solution for (b)**
@@ -400,7 +400,7 @@ The power input is:
 $$P_p = V_p I_p = (120 \text{ V})(20.0 \times 10^{-3} \text{ A}) = 2.40 \text{ W}$$
 </div>
 
-We can verify with the output power: $$P_s = V_s I_s = (12.0)(0.200) = 2.40 \text{ W}$$ ✓
+We can verify with the output power: $$P_s = V_s I_s = (12.0 \text{ V})(0.200 \text{ A}) = 2.40 \text{ W}$$ ✓
 
 **Solution for (c)**
 
@@ -439,22 +439,22 @@ We use $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ for voltage, $$\frac{I_s}{I_p} = \f
 **Solution for (a)**
 
 <div class="equation">
-$$V_s = V_p \times \frac{N_s}{N_p} = 120 \times \frac{4}{500} = 120 \times 0.00800 = 0.960 \text{ V}$$
+$$V_s = V_p \times \frac{N_s}{N_p} = 120 \text{ V} \times \frac{4}{500} = 120 \text{ V} \times 0.00800 = 0.960 \text{ V}$$
 </div>
 
 **Solution for (b)**
 
 <div class="equation">
-$$I_p = I_s \times \frac{N_s}{N_p} = 4.00 \times \frac{4}{500} = 4.00 \times 0.00800 = 0.0320 \text{ A} = 32.0 \text{ mA}$$
+$$I_p = I_s \times \frac{N_s}{N_p} = 4.00 \text{ A} \times \frac{4}{500} = 4.00 \text{ A} \times 0.00800 = 0.0320 \text{ A} = 32.0 \text{ mA}$$
 </div>
 
 **Solution for (c)**
 
 <div class="equation">
-$$P = V_p I_p = (120)(0.0320) = 3.84 \text{ W}$$
+$$P = V_p I_p = (120 \text{ V})(0.0320 \text{ A}) = 3.84 \text{ W}$$
 </div>
 
-Or check with output: $$P = V_s I_s = (0.960)(4.00) = 3.84 \text{ W}$$ ✓
+Or check with output: $$P = V_s I_s = (0.960 \text{ V})(4.00 \text{ A}) = 3.84 \text{ W}$$ ✓
 
 **Discussion**
 
@@ -487,7 +487,7 @@ For part (a), we use power conservation for an ideal transformer: $$P_p = P_s$$,
 Using power conservation:
 
 <div class="equation">
-$$I_p = I_s \times \frac{V_s}{V_p} = 2.00 \text{ A} \times \frac{7.50 \text{ V}}{240 \text{ V}} = 2.00 \times 0.03125 = 0.0625 \text{ A}$$
+$$I_p = I_s \times \frac{V_s}{V_p} = 2.00 \text{ A} \times \frac{7.50 \text{ V}}{240 \text{ V}} = 2.00 \text{ A} \times 0.03125 = 0.0625 \text{ A}$$
 </div>
 
 Rounding to two significant figures: $$I_p = 0.063 \text{ A}$$ or 63 mA.
@@ -496,13 +496,13 @@ Rounding to two significant figures: $$I_p = 0.063 \text{ A}$$ or 63 mA.
 
 If the actual efficiency is less than 100%, the input current would need to be **greater**.
 
-Here's why: In a real transformer, some energy is lost to heat due to resistance in the coils and eddy currents in the core. If the output power must remain $$P_s = V_s I_s = (7.50)(2.00) = 15.0 \text{ W}$$, but the transformer is only, say, 90% efficient, then the input power must be:
+Here's why: In a real transformer, some energy is lost to heat due to resistance in the coils and eddy currents in the core. If the output power must remain $$P_s = V_s I_s = (7.50 \text{ V})(2.00 \text{ A}) = 15.0 \text{ W}$$, but the transformer is only, say, 90% efficient, then the input power must be:
 
 <div class="equation">
 $$P_p = \frac{P_s}{\text{efficiency}} = \frac{15.0 \text{ W}}{0.90} = 16.7 \text{ W}$$
 </div>
 
-This requires a larger input current: $$I_p = P_p/V_p = 16.7/240 = 0.070 \text{ A}$$, which is greater than 0.063 A.
+This requires a larger input current: $$I_p = P_p/V_p = (16.7 \text{ W})/(240 \text{ V}) = 0.070 \text{ A}$$, which is greater than 0.063 A.
 
 **Discussion**
 
@@ -557,19 +557,19 @@ $$N_s = 280 \times \frac{480}{240} = 280 \times 2.00 = 560 \text{ turns}$$
 For 5.60 V output:
 
 <div class="equation">
-$$I_s = 5.00 \times \frac{240}{5.60} = 5.00 \times 42.86 = 214 \text{ A}$$
+$$I_s = 5.00 \text{ A} \times \frac{240 \text{ V}}{5.60 \text{ V}} = 5.00 \text{ A} \times 42.86 = 214 \text{ A}$$
 </div>
 
 For 12.0 V output:
 
 <div class="equation">
-$$I_s = 5.00 \times \frac{240}{12.0} = 5.00 \times 20.0 = 100 \text{ A}$$
+$$I_s = 5.00 \text{ A} \times \frac{240 \text{ V}}{12.0 \text{ V}} = 5.00 \text{ A} \times 20.0 = 100 \text{ A}$$
 </div>
 
 For 480 V output:
 
 <div class="equation">
-$$I_s = 5.00 \times \frac{240}{480} = 5.00 \times 0.500 = 2.50 \text{ A}$$
+$$I_s = 5.00 \text{ A} \times \frac{240 \text{ V}}{480 \text{ V}} = 5.00 \text{ A} \times 0.500 = 2.50 \text{ A}$$
 </div>
 
 **Discussion**
@@ -660,21 +660,21 @@ From the previous problem, the old voltage was 335 kV and new voltage is 750 kV.
 Old system (335 kV):
 
 <div class="equation">
-$$I_{\text{old}} = \frac{P}{V} = \frac{1000 \times 10^6}{335 \times 10^3} = 2985 \text{ A}$$
+$$I_{\text{old}} = \frac{P}{V} = \frac{1000 \times 10^6 \text{ W}}{335 \times 10^3 \text{ V}} = 2985 \text{ A}$$
 </div>
 
 <div class="equation">
-$$P_{\text{loss,old}} = I^2 R = (2985)^2(2.00) = 17.8 \times 10^6 \text{ W} = 17.8 \text{ MW}$$
+$$P_{\text{loss,old}} = I^2 R = (2985 \text{ A})^2(2.00 \text{ Ω}) = 17.8 \times 10^6 \text{ W} = 17.8 \text{ MW}$$
 </div>
 
 New system (750 kV):
 
 <div class="equation">
-$$I_{\text{new}} = \frac{1000 \times 10^6}{750 \times 10^3} = 1333 \text{ A}$$
+$$I_{\text{new}} = \frac{1000 \times 10^6 \text{ W}}{750 \times 10^3 \text{ V}} = 1333 \text{ A}$$
 </div>
 
 <div class="equation">
-$$P_{\text{loss,new}} = (1333)^2(2.00) = 3.56 \times 10^6 \text{ W} = 3.56 \text{ MW}$$
+$$P_{\text{loss,new}} = (1333 \text{ A})^2(2.00 \text{ Ω}) = 3.56 \times 10^6 \text{ W} = 3.56 \text{ MW}$$
 </div>
 
 **Discussion**

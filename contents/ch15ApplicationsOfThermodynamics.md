@@ -639,7 +639,7 @@ Given values:
 Converting to kilocalories (1 kcal = 4186 J):
 
 <div class="equation">
- $$ Q_h = \frac{1.66 \times 10^{8}}{4186} = 3.97 \times 10^{4} \text{ kcal} $$
+ $$ Q_h = \frac{1.66 \times 10^{8} \text{ J}}{4186 \text{ J/kcal}} = 3.97 \times 10^{4} \text{ kcal} $$
 </div>
 
 **The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.**
@@ -808,13 +808,13 @@ Substituting values:
 </div>
 
 <div class="equation">
- $$ T_h = 263 \times 1.143 = 300.6 \text{ K} $$
+ $$ T_h = 263 \text{ K} \times 1.143 = 300.6 \text{ K} $$
 </div>
 
 Converting to Celsius:
 
 <div class="equation">
- $$ T_h = 300.6 - 273 = 27.6\text{°C} $$
+ $$ T_h = 300.6 \text{ K} = (300.6 - 273)\text{ °C} = 27.6\text{°C} $$
 </div>
 
 **The hot reservoir temperature must be 27.6 °C or 301 K.**

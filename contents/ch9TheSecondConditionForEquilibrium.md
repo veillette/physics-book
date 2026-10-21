@@ -216,6 +216,7 @@ Solve this for the unknown $$ r_{2} $$:
 The quantities on the right side of the equation are known; thus, $$ r_{2} $$ is
 
 <div class="equation">
+ <!-- physics: eq-18 -->
  $$ r_{2}=\left(1.60 \m \right)\frac{26.0 \kg }{32.0 \kg }=1.30 \m . $$
 </div>
 
@@ -257,6 +258,7 @@ $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 Entering known values gives
 
 <div class="equation">
+<!-- physics: eq-25 -->
 $$ \begin{array}{lll}
 F_{\text{p}}&=& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
 F_{\text{p}}&=& 568 \N .
@@ -465,7 +467,7 @@ A length of pipe over the wrench handle helps by increasing the lever arm, so th
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="door-torque">
 
 ::: problem
 
@@ -490,6 +492,7 @@ Looking down on the door, take $$ +x $$ along the door from the hinges and $$ +y
 
 **(a)** The force is horizontal and perpendicular to the door at a distance $$r=0.850\m$$ from the hinges, with magnitude $$F=55.0\N$$. Choose positive rotation in the opening direction. The torque magnitude about the vertical hinge axis is
 
+<!-- physics: eq-7 -->
 $$\tau=rF\sin90°=(0.850\m)(55.0\N)=46.75\N\cdot\m\approx46.8\N\cdot\m.$$
 
 The opening torque is 46.8 N·m.
@@ -557,7 +560,7 @@ This torque value is typical for tightening automotive fasteners. Many car manua
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="door-children">
 
 ::: problem
 
@@ -577,6 +580,7 @@ Take the door as the system and the hinges as the pivot, so the hinge forces pro
 **Solution**
 
 <div class="equation">
+<!-- physics: eq-0 -->
 $$ F_2 r_2 = F_1 r_1 \quad \Rightarrow \quad F_2 = \frac{F_1 r_1}{r_2} = \frac{(17.5 \N)(0.600 \m)}{0.450 \m} = 23.3 \N $$
 </div>
 
@@ -656,7 +660,7 @@ This result agrees with the answer obtained using the first condition for equili
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="seesaw-board">
 
 ::: problem
 
@@ -675,6 +679,7 @@ Balance torques about the pivot, including the seesaw’s offset weight, then ba
 Given:
 
 <div class="equation">
+<!-- physics: eq-0 -->
 $$ \begin{array}{ccc}
 m_{1}&=& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
 r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
@@ -694,6 +699,7 @@ $$ \begin{array}{l}
 So, solving for $$ r_{2} $$ gives:
 
 <div class="equation">
+<!-- physics: eq-3 -->
 $$ \begin{array}{lll}
 r_{2}&=& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
 r_{2}&=& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
@@ -713,6 +719,7 @@ $$ \begin{array}{l}
 So that
 
 <div class="equation">
+<!-- physics: eq-5 -->
 $$ \begin{array}{lll}
 F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
 F_{\text{p}}&=& 686 \N

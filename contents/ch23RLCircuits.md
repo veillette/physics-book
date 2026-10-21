@@ -208,13 +208,13 @@ We use $$\tau = L/R$$ to find $$L$$ in part (a) and $$R$$ in part (b).
 **Solution for (a)**
 
 <div class="equation">
-$$L = \tau R = (20.0 \times 10^{-9})(5.00 \times 10^6) = 0.100 \text{ H} = 100 \text{ mH}$$
+$$L = \tau R = (20.0 \times 10^{-9} \text{ s})(5.00 \times 10^6 \text{ Ω}) = 0.100 \text{ H} = 100 \text{ mH}$$
 </div>
 
 **Solution for (b)**
 
 <div class="equation">
-$$R = \frac{L}{\tau} = \frac{0.100}{1.00 \times 10^{-9}} = 1.00 \times 10^8 \Omega = 100 \text{ MΩ}$$
+$$R = \frac{L}{\tau} = \frac{0.100 \text{ H}}{1.00 \times 10^{-9} \text{ s}} = 1.00 \times 10^8 \Omega = 100 \text{ MΩ}$$
 </div>
 
 **Discussion**
@@ -262,11 +262,11 @@ From [[Example 1]](#Example1), $$\tau = 2.50 \text{ ms}$$ and $$I_0 = 10.0 \text
 **Solution**
 
 <div class="equation">
-$$I = I_0 e^{-t/\tau} = 10.0 \times e^{-10.0/2.50} = 10.0 \times e^{-4.00}$$
+$$I = I_0 e^{-t/\tau} = 10.0 \text{ A} \times e^{-10.0/2.50} = 10.0 \text{ A} \times e^{-4.00}$$
 </div>
 
 <div class="equation">
-$$I = 10.0 \times 0.0183 = 0.183 \text{ A}$$
+$$I = 10.0 \text{ A} \times 0.0183 = 0.183 \text{ A}$$
 </div>
 
 **Discussion**
@@ -324,7 +324,7 @@ We use $$\tau = L/R$$ for the time constant, and $$I = I_0(1 - e^{-t/\tau})$$ fo
 **Solution for (a)**
 
 <div class="equation">
-$$\tau = \frac{L}{R} = \frac{25.0 \times 10^{-3}}{4.00} = 6.25 \times 10^{-3} \text{ s} = 6.25 \text{ ms}$$
+$$\tau = \frac{L}{R} = \frac{25.0 \times 10^{-3} \text{ H}}{4.00 \text{ Ω}} = 6.25 \times 10^{-3} \text{ s} = 6.25 \text{ ms}$$
 </div>
 
 **Solution for (b)**
@@ -332,13 +332,13 @@ $$\tau = \frac{L}{R} = \frac{25.0 \times 10^{-3}}{4.00} = 6.25 \times 10^{-3} \t
 The final current is:
 
 <div class="equation">
-$$I_0 = \frac{V}{R} = \frac{12.0}{4.00} = 3.00 \text{ A}$$
+$$I_0 = \frac{V}{R} = \frac{12.0 \text{ V}}{4.00 \text{ Ω}} = 3.00 \text{ A}$$
 </div>
 
 At $$t = 12.5 \text{ ms} = 2\tau$$:
 
 <div class="equation">
-$$I = I_0(1 - e^{-t/\tau}) = 3.00(1 - e^{-2.00}) = 3.00(1 - 0.135) = 3.00(0.865) = 2.60 \text{ A}$$
+$$I = I_0(1 - e^{-t/\tau}) = (3.00 \text{ A})(1 - e^{-2.00}) = (3.00 \text{ A})(1 - 0.135) = (3.00 \text{ A})(0.865) = 2.60 \text{ A}$$
 </div>
 
 **Discussion**
@@ -389,12 +389,12 @@ Energy in an inductor is $$U = \frac{1}{2}LI^{2}$$. For decay, $$I = I_0 e^{-t/\
 **Solution for (a)**
 
 <div class="equation">
-$$U = \frac{1}{2}LI_{0}^2 = \frac{1}{2}(1.50)(5.00)^2 = \frac{1}{2}(1.50)(25.0) = 18.8 \text{ J}$$
+$$U = \frac{1}{2}LI_{0}^2 = \frac{1}{2}(1.50 \text{ H})(5.00 \text{ A})^2 = \frac{1}{2}(1.50 \text{ H})(25.0 \text{ A}^2) = 18.8 \text{ J}$$
 </div>
 
 **Solution for (b)**
 
-Time constant: $$\tau = L/R = 1.50/2.00 = 0.750 \text{ s}$$
+Time constant: $$\tau = L/R = (1.50 \text{ H})/(2.00 \text{ Ω}) = 0.750 \text{ s}$$
 
 When $$I = 0.0500 I_0$$:
 
@@ -407,7 +407,7 @@ $$\ln(0.0500) = -t/\tau$$
 </div>
 
 <div class="equation">
-$$t = -\tau \ln(0.0500) = -(0.750)(-2.996) = 2.25 \text{ s}$$
+$$t = -\tau \ln(0.0500) = -(0.750 \text{ s})(-2.996) = 2.25 \text{ s}$$
 </div>
 
 **Solution for (c)**
@@ -415,13 +415,13 @@ $$t = -\tau \ln(0.0500) = -(0.750)(-2.996) = 2.25 \text{ s}$$
 Average power over the decay:
 
 <div class="equation">
-$$P_{\text{avg}} = \frac{U}{t} = \frac{18.8}{2.25} = 8.36 \text{ W}$$
+$$P_{\text{avg}} = \frac{U}{t} = \frac{18.8 \text{ J}}{2.25 \text{ s}} = 8.36 \text{ W}$$
 </div>
 
 Initial power dissipated:
 
 <div class="equation">
-$$P_0 = I_0^2 R = (5.00)^2(2.00) = 50.0 \text{ W}$$
+$$P_0 = I_0^2 R = (5.00 \text{ A})^2(2.00 \text{ Ω}) = 50.0 \text{ W}$$
 </div>
 
 The ratio is $$P_{\text{avg}}/P_0 = 8.36/50.0 = 0.167$$ or about 1/6.
@@ -479,7 +479,7 @@ We use $$I = I_0 e^{-t/\tau}$$ with $$\tau = L/R$$. For 0.100%, $$I/I_0 = 0.0010
 
 **Solution for (a)**
 
-Time constant: $$\tau = L/R = 2.00/0.500 = 4.00 \text{ s}$$
+Time constant: $$\tau = L/R = (2.00 \text{ H})/(0.500 \text{ Ω}) = 4.00 \text{ s}$$
 
 <div class="equation">
 $$0.00100 = e^{-t/\tau}$$
@@ -490,7 +490,7 @@ $$\ln(0.00100) = -t/\tau$$
 </div>
 
 <div class="equation">
-$$t = -\tau \ln(0.00100) = -(4.00)(-6.908) = 27.6 \text{ s}$$
+$$t = -\tau \ln(0.00100) = -(4.00 \text{ s})(-6.908) = 27.6 \text{ s}$$
 </div>
 
 **Solution for (b)**
@@ -501,11 +501,11 @@ For 0.100% = 0.00100:
 - After 6τ: $$(0.368)^6 = 0.00248$$ (0.248%)
 - After 7τ: $$(0.368)^7 = 0.000912$$ (0.0912%)
 
-So we need 7 time constants: $$t \approx 7\tau = 7(4.00) = 28.0 \text{ s}$$
+So we need 7 time constants: $$t \approx 7\tau = 7(4.00 \text{ s}) = 28.0 \text{ s}$$
 
 **Solution for (c)**
 
-Difference: $$28.0 - 27.6 = 0.4 \text{ s}$$
+Difference: $$28.0 \text{ s} - 27.6 \text{ s} = 0.4 \text{ s}$$
 
 Percentage difference: $$\frac{0.4}{27.6} \times 100\% = 1.4\%$$
 

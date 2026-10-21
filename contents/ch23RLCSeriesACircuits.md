@@ -926,15 +926,15 @@ We use $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ where $$X_L = 2\pi fL$$ and $$X_C = 1/
 At 120 Hz:
 
 <div class="equation">
-$$X_L = 2\pi(120)(100 \times 10^{-6}) = 0.0754 \Omega$$
+$$X_L = 2\pi(120 \text{ Hz})(100 \times 10^{-6} \text{ H}) = 0.0754 \Omega$$
 </div>
 
 <div class="equation">
-$$X_C = \frac{1}{2\pi(120)(80.0 \times 10^{-6})} = 16.6 \Omega$$
+$$X_C = \frac{1}{2\pi(120 \text{ Hz})(80.0 \times 10^{-6} \text{ F})} = 16.6 \Omega$$
 </div>
 
 <div class="equation">
-$$Z = \sqrt{(2.50)^2 + (0.0754 - 16.6)^2} = \sqrt{6.25 + 272.6} = 16.7 \Omega$$
+$$Z = \sqrt{(2.50 \Omega)^2 + (0.0754 \Omega - 16.6 \Omega)^2} = \sqrt{6.25 \Omega^2 + 272.6 \Omega^2} = 16.7 \Omega$$
 </div>
 
 **Solution for (b)**
@@ -942,15 +942,15 @@ $$Z = \sqrt{(2.50)^2 + (0.0754 - 16.6)^2} = \sqrt{6.25 + 272.6} = 16.7 \Omega$$
 At 5.00 kHz:
 
 <div class="equation">
-$$X_L = 2\pi(5000)(100 \times 10^{-6}) = 3.14 \Omega$$
+$$X_L = 2\pi(5000 \text{ Hz})(100 \times 10^{-6} \text{ H}) = 3.14 \Omega$$
 </div>
 
 <div class="equation">
-$$X_C = \frac{1}{2\pi(5000)(80.0 \times 10^{-6})} = 0.398 \Omega$$
+$$X_C = \frac{1}{2\pi(5000 \text{ Hz})(80.0 \times 10^{-6} \text{ F})} = 0.398 \Omega$$
 </div>
 
 <div class="equation">
-$$Z = \sqrt{(2.50)^2 + (3.14 - 0.398)^2} = \sqrt{6.25 + 7.52} = 3.71 \Omega$$
+$$Z = \sqrt{(2.50 \Omega)^2 + (3.14 \Omega - 0.398 \Omega)^2} = \sqrt{6.25 \Omega^2 + 7.52 \Omega^2} = 3.71 \Omega$$
 </div>
 
 **Solution for (c)**
@@ -962,7 +962,7 @@ At 5.00 kHz: $$I_{\text{rms}} = \frac{5.60 \text{ V}}{3.71 \Omega} = 1.51 \text{
 **Solution for (d)**
 
 <div class="equation">
-$$f_0 = \frac{1}{2\pi\sqrt{LC}} = \frac{1}{2\pi\sqrt{(100 \times 10^{-6})(80.0 \times 10^{-6})}} = \frac{1}{2\pi(89.4 \times 10^{-6})} = 1.78 \text{ kHz}$$
+$$f_0 = \frac{1}{2\pi\sqrt{LC}} = \frac{1}{2\pi\sqrt{(100 \times 10^{-6} \text{ H})(80.0 \times 10^{-6} \text{ F})}} = \frac{1}{2\pi(89.4 \times 10^{-6} \text{ s})} = 1.78 \text{ kHz}$$
 </div>
 
 **Solution for (e)**
@@ -1012,7 +1012,7 @@ Use $$X_L=2\pi fL$$, $$X_C=1/(2\pi fC)$$, and $$Z=\sqrt{R^2+(X_L-X_C)^2}$$, with
 
 $$f_0=\frac1{2\pi\sqrt{LC}}=82.2\ \text{kHz}.$$
 
-**(e)** At resonance, the reactances cancel and $$Z=R$$, so $$I_{\text{rms}}=408/1000=0.408\ \text{A}$$. This is the maximum current for the fixed voltage and resistance.
+**(e)** At resonance, the reactances cancel and $$Z=R$$, so $$I_{\text{rms}}=(408\ \text{V})/(1000\ \Omega)=0.408\ \text{A}$$. This is the maximum current for the fixed voltage and resistance.
 
 :::
 </div>
@@ -1051,7 +1051,7 @@ $$\varphi = \cos^{-1}(0.150) = 81.4°$$
 **Solution for (c)**
 
 <div class="equation">
-$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.335)(5.60)(0.150) = 0.281 \text{ W}$$
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.335 \text{ A})(5.60 \text{ V})(0.150) = 0.281 \text{ W}$$
 </div>
 
 **Solution for (d)**
@@ -1059,7 +1059,7 @@ $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.335)(5.60)(0.150
 At resonance, $$\cos\varphi = 1$$ and $$I_{\text{rms}} = 2.24 \text{ A}$$ (from previous problem):
 
 <div class="equation">
-$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}} = (2.24)(5.60) = 12.5 \text{ W}$$
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}} = (2.24 \text{ A})(5.60 \text{ V}) = 12.5 \text{ W}$$
 </div>
 
 **Discussion**
@@ -1108,13 +1108,13 @@ $$\varphi = \cos^{-1}(0.763) = 40.3°$$
 The average power can be calculated using $$P_{\text{ave}} = I_{\text{rms}}^2 R$$ (since only the resistor dissipates power):
 
 <div class="equation">
-$$P_{\text{ave}} = (0.312)^2(1000) = 97.3 \text{ W}$$
+$$P_{\text{ave}} = (0.312 \text{ A})^2(1000 \text{ Ω}) = 97.3 \text{ W}$$
 </div>
 
 Alternatively, using $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi$$:
 
 <div class="equation">
-$$P_{\text{ave}} = (0.312)(408)(0.763) = 97.1 \text{ W}$$
+$$P_{\text{ave}} = (0.312 \text{ A})(408 \text{ V})(0.763) = 97.1 \text{ W}$$
 </div>
 
 **Solution for (d)**
@@ -1122,7 +1122,7 @@ $$P_{\text{ave}} = (0.312)(408)(0.763) = 97.1 \text{ W}$$
 At resonance (82.2 kHz), $$\cos\varphi = 1$$ and $$I_{\text{rms}} = 0.408 \text{ A}$$:
 
 <div class="equation">
-$$P_{\text{ave}} = I_{\text{rms}}^2 R = (0.408)^2(1000) = 166 \text{ W}$$
+$$P_{\text{ave}} = I_{\text{rms}}^2 R = (0.408 \text{ A})^2(1000 \text{ Ω}) = 166 \text{ W}$$
 </div>
 
 **Discussion**
@@ -1157,7 +1157,7 @@ We use $$\cos\varphi = R/Z$$ to find impedance. Then from $$Z = \sqrt{R^2 + (X_L
 **Solution for (a)**
 
 <div class="equation">
-$$Z = \frac{R}{\cos\varphi} = \frac{200 \Omega}{\cos 45.0°} = \frac{200}{0.707} = 283 \Omega$$
+$$Z = \frac{R}{\cos\varphi} = \frac{200 \Omega}{\cos 45.0°} = \frac{200 \Omega}{0.707} = 283 \Omega$$
 </div>
 
 **Solution for (b)**
@@ -1165,41 +1165,41 @@ $$Z = \frac{R}{\cos\varphi} = \frac{200 \Omega}{\cos 45.0°} = \frac{200}{0.707}
 First find $$X_L$$:
 
 <div class="equation">
-$$X_L = 2\pi fL = 2\pi(8000)(25.0 \times 10^{-3}) = 1257 \Omega$$
+$$X_L = 2\pi fL = 2\pi(8000 \text{ Hz})(25.0 \times 10^{-3} \text{ H}) = 1257 \Omega$$
 </div>
 
 From $$Z^2 = R^2 + (X_L - X_C)^2$$:
 
 <div class="equation">
-$$(283)^2 = (200)^2 + (X_L - X_C)^2$$
+$$(283 \Omega)^2 = (200 \Omega)^2 + (X_L - X_C)^2$$
 </div>
 
 <div class="equation">
-$$80089 = 40000 + (X_L - X_C)^2$$
+$$80089 \Omega^2 = 40000 \Omega^2 + (X_L - X_C)^2$$
 </div>
 
 <div class="equation">
-$$X_L - X_C = \sqrt{40089} = 200 \Omega$$
+$$X_L - X_C = \sqrt{40089 \Omega^2} = 200 \Omega$$
 </div>
 
 Since $$\varphi > 0$$, the circuit is inductive, so $$X_L > X_C$$:
 
 <div class="equation">
-$$X_C = X_L - 200 = 1257 - 200 = 1057 \Omega$$
+$$X_C = X_L - 200 \Omega = 1257 \Omega - 200 \Omega = 1057 \Omega$$
 </div>
 
 <div class="equation">
-$$C = \frac{1}{2\pi f X_C} = \frac{1}{2\pi(8000)(1057)} = 18.8 \times 10^{-9} \text{ F} = 18.8 \text{ nF}$$
+$$C = \frac{1}{2\pi f X_C} = \frac{1}{2\pi(8000 \text{ Hz})(1057 \Omega)} = 18.8 \times 10^{-9} \text{ F} = 18.8 \text{ nF}$$
 </div>
 
 **Solution for (c)**
 
 <div class="equation">
-$$I_{\text{rms}} = \frac{V_{\text{rms}}}{Z} = \frac{408}{283} = 1.44 \text{ A}$$
+$$I_{\text{rms}} = \frac{V_{\text{rms}}}{Z} = \frac{408 \text{ V}}{283 \Omega} = 1.44 \text{ A}$$
 </div>
 
 <div class="equation">
-$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (1.44)(408)(0.707) = 416 \text{ W}$$
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (1.44 \text{ A})(408 \text{ V})(0.707) = 416 \text{ W}$$
 </div>
 
 **Discussion**
@@ -1233,19 +1233,19 @@ From [[Example 3]](#Example3), the circuit has $$R = 40.0 \Omega$$, $$L = 3.00 \
 The average power is dissipated only in the resistor:
 
 <div class="equation">
-$$P_{\text{ave}} = I_{\text{rms}}^2 R = (0.633)^2(40.0) = 16.0 \text{ W}$$
+$$P_{\text{ave}} = I_{\text{rms}}^2 R = (0.633 \text{ A})^2(40.0 \Omega) = 16.0 \text{ W}$$
 </div>
 
 Alternatively, we can use the power factor approach. First find the power factor:
 
 <div class="equation">
-$$\cos\varphi = \frac{R}{Z} = \frac{40.0}{190} = 0.211$$
+$$\cos\varphi = \frac{R}{Z} = \frac{40.0 \Omega}{190 \Omega} = 0.211$$
 </div>
 
 Then:
 
 <div class="equation">
-$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.633)(120)(0.211) = 16.0 \text{ W}$$
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.633 \text{ A})(120 \text{ V})(0.211) = 16.0 \text{ W}$$
 </div>
 
 **Discussion**

@@ -290,7 +290,7 @@ Use the potentiometer ratio formula: $$\text{emf}_x/\text{emf}_s = R_x/R_s$$. Si
 **Solution**
 
 <div class="equation">
-$$\text{emf}_x = \text{emf}_s \frac{R_x}{R_s} = 1.600 \text{ V} \times \frac{1.200}{1.247} = 1.600 \times 0.9623 = 1.54 \text{ V}$$
+$$\text{emf}_x = \text{emf}_s \frac{R_x}{R_s} = 1.600 \text{ V} \times \frac{1.200 \text{ Ω}}{1.247 \text{ Ω}} = 1.600 \text{ V} \times 0.9623 = 1.54 \text{ V}$$
 </div>
 
 **Discussion**
@@ -347,7 +347,7 @@ Use the Wheatstone bridge balance condition: $$R_x = R_3 \times R_2/R_1$$ to sol
 
 From $$R_x = R_3 \frac{R_2}{R_1}$$, solve for $$R_3$$:
 <div class="equation">
-$$R_3 = R_x \frac{R_1}{R_2} = 100 \text{ Ω} \times \frac{50.0}{175} = 100 \times 0.2857 = 28.6 \text{ Ω}$$
+$$R_3 = R_x \frac{R_1}{R_2} = 100 \text{ Ω} \times \frac{50.0 \text{ Ω}}{175 \text{ Ω}} = 100 \text{ Ω} \times 0.2857 = 28.6 \text{ Ω}$$
 </div>
 
 **Discussion**

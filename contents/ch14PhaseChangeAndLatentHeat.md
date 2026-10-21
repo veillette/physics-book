@@ -898,11 +898,13 @@ Given:
 
 **Step 1:** Heat the aluminum pot from 30.0 °C to 100 °C:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_{Al} = m_{Al}c_{Al}\Delta T = (0.750 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC})(100\text{ºC} - 30.0\text{ºC}) = (0.750 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC})(70.0\text{ºC}) = 47250 \text{ J}$$
 </div>
 
 **Step 2:** Heat the water from 30.0 °C to 100 °C:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_w = m_w c_w \Delta T = (2.50 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(70.0\text{ºC}) = 732550 \text{ J}$$
 </div>
 
@@ -1555,6 +1557,7 @@ Given:
 
 Heat to warm ice from -30.0ºC to 0ºC:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_1 = m_{ice}c_{ice}\Delta T = (0.0500 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})(30.0\text{ºC}) = 3135 \text{ J}$$
 </div>
 
@@ -1571,6 +1574,7 @@ $$Q_{ice\to water} = Q_1 + Q_2 = 3135 \text{ J} + 16700 \text{ J} = 19835 \text{
 **Step 2:** Calculate maximum heat available from water cooling to 0ºC:
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_{available} = m_w c_w \Delta T = (0.400 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(35.0\text{ºC}) = 58604 \text{ J}$$
 </div>
 
@@ -1660,6 +1664,7 @@ Given:
 
 Heat from cooling water to 0ºC:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_1 = m_w c_w \Delta T = (0.0100 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(20.0\text{ºC}) = 837.2 \text{ J}$$
 </div>
 
@@ -1676,6 +1681,7 @@ $$Q_{water,total} = Q_1 + Q_2 = 837.2 \text{ J} + 3340 \text{ J} = 4177 \text{ J
 **Step 2:** Calculate heat needed to warm ice from -15ºC to 0ºC:
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_{ice} = m_{ice} c_{ice} \Delta T = (1.20 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})(15.0\text{ºC}) = 37620 \text{ J}$$
 </div>
 
@@ -1856,7 +1862,7 @@ Given (from Example 3):
 - Initial water temperature: $$T_{w,i} = 20.0\text{ºC}$$
 - Initial water mass: $$m_{w,initial} = 0.260 \text{ kg}$$
 - Mass evaporated: $$m_{evap} = 0.0100 \text{ kg}$$
-- Remaining water: $$m_w = 0.260 - 0.0100 = 0.250 \text{ kg}$$
+- Remaining water: $$m_w = 0.260 \text{ kg} - 0.0100 \text{ kg} = 0.250 \text{ kg}$$
 - Specific heat of aluminum: $$c_{Al} = 900 \text{ J/kg}\cdot\text{ºC}$$
 - Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
 - Latent heat of vaporization: $$L_v = 2256 \times 10^3 \text{ J/kg}$$
@@ -2000,6 +2006,7 @@ Given:
 **Step 1:** Heat solid lead from 25.0ºC to 327ºC:
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_1 = mc\Delta T = (0.500 \text{ kg})(128 \text{ J/kg}\cdot\text{ºC})(327\text{ºC} - 25.0\text{ºC}) = (0.500 \text{ kg})(128 \text{ J/kg}\cdot\text{ºC})(302\text{ºC})$$
 </div>
 

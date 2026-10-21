@@ -457,7 +457,7 @@ Given: $$W = 10.0 \text{ kJ}$$, $$Q_{out} = 8.50 \text{ kJ}$$
 **(a)** Heat input:
 
 <div class="equation">
- $$Q_{in} = W + Q_{out} = 10.0 + 8.50 = 18.5 \text{ kJ}$$
+ $$Q_{in} = W + Q_{out} = 10.0 \text{ kJ} + 8.50 \text{ kJ} = 18.5 \text{ kJ}$$
 </div>
 
 **(b)** Efficiency:
@@ -503,7 +503,7 @@ Given: $$Q_{in} = 2.56 \times 10^{6} \text{ J}$$, $$W = 1.50 \times 10^{5} \text
 **(b)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 2.56 \times 10^{6} - 1.50 \times 10^{5} = 2.41 \times 10^{6} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 2.56 \times 10^{6} \text{ J} - 1.50 \times 10^{5} \text{ J} = 2.41 \times 10^{6} \text{ J}$$
 </div>
 
 **Discussion**
@@ -536,13 +536,13 @@ Given: $$\eta = 22.0\% = 0.220$$, $$Q_{in} = 6.00 \times 10^{9} \text{ J}$$
 **(a)** Work output:
 
 <div class="equation">
- $$W = \eta \times Q_{in} = 0.220 \times 6.00 \times 10^{9} = 1.32 \times 10^{9} \text{ J}$$
+ $$W = \eta \times Q_{in} = 0.220 \times 6.00 \times 10^{9} \text{ J} = 1.32 \times 10^{9} \text{ J}$$
 </div>
 
 **(b)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 6.00 \times 10^{9} - 1.32 \times 10^{9} = 4.68 \times 10^{9} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 6.00 \times 10^{9} \text{ J} - 1.32 \times 10^{9} \text{ J} = 4.68 \times 10^{9} \text{ J}$$
 </div>
 
 **Discussion**
@@ -580,7 +580,7 @@ Given: $$Q_{out} = 75.0 \text{ kJ}$$ per $$Q_{in} = 95.0 \text{ kJ}$$
 **(b)** Work for 100 kJ input:
 
 <div class="equation">
- $$W = \eta \times Q_{in} = 0.211 \times 100 = 21.1 \text{ kJ}$$
+ $$W = \eta \times Q_{in} = 0.211 \times 100 \text{ kJ} = 21.1 \text{ kJ}$$
 </div>
 
 **Discussion**
@@ -614,13 +614,13 @@ Given: $$W = 2.00 \times 10^{8} \text{ J}$$, $$\eta = 5.00\% = 0.0500$$, energy 
 First find heat input:
 
 <div class="equation">
- $$Q_{in} = \frac{W}{\eta} = \frac{2.00 \times 10^{8}}{0.0500} = 4.00 \times 10^{9} \text{ J}$$
+ $$Q_{in} = \frac{W}{\eta} = \frac{2.00 \times 10^{8} \text{ J}}{0.0500} = 4.00 \times 10^{9} \text{ J}$$
 </div>
 
 **(a)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 4.00 \times 10^{9} - 2.00 \times 10^{8} = 3.80 \times 10^{9} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 4.00 \times 10^{9} \text{ J} - 2.00 \times 10^{8} \text{ J} = 3.80 \times 10^{9} \text{ J}$$
 </div>
 
 **(b)** Barrels consumed:
@@ -659,13 +659,13 @@ Given: $$Q_{in} = 1.25 \times 10^{14} \text{ J}$$, $$\eta = 42.0\% = 0.420$$
 **(c)** Work done:
 
 <div class="equation">
- $$W = \eta \times Q_{in} = 0.420 \times 1.25 \times 10^{14} = 5.25 \times 10^{13} \text{ J}$$
+ $$W = \eta \times Q_{in} = 0.420 \times 1.25 \times 10^{14} \text{ J} = 5.25 \times 10^{13} \text{ J}$$
 </div>
 
 **(a)** Heat to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 1.25 \times 10^{14} - 5.25 \times 10^{13} = 7.25 \times 10^{13} \text{ J}$$
+ $$Q_{out} = Q_{in} - W = 1.25 \times 10^{14} \text{ J} - 5.25 \times 10^{13} \text{ J} = 7.25 \times 10^{13} \text{ J}$$
 </div>
 
 **(b)** Ratio:
@@ -704,19 +704,19 @@ Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_{old} = 36\% = 0.36$$,
 **(a)** Work before upgrade:
 
 <div class="equation">
- $$W_{old} = 0.36 \times 2.50 \times 10^{14} = 9.00 \times 10^{13} \text{ J}$$
+ $$W_{old} = 0.36 \times 2.50 \times 10^{14} \text{ J} = 9.00 \times 10^{13} \text{ J}$$
 </div>
 
 Work after upgrade:
 
 <div class="equation">
- $$W_{new} = 0.3932 \times 2.50 \times 10^{14} = 9.83 \times 10^{13} \text{ J}$$
+ $$W_{new} = 0.3932 \times 2.50 \times 10^{14} \text{ J} = 9.83 \times 10^{13} \text{ J}$$
 </div>
 
 Additional electrical energy:
 
 <div class="equation">
- $$\Delta W = W_{new} - W_{old} = 9.83 \times 10^{13} - 9.00 \times 10^{13} = 8.30 \times 10^{12} \text{ J}$$
+ $$\Delta W = W_{new} - W_{old} = 9.83 \times 10^{13} \text{ J} - 9.00 \times 10^{13} \text{ J} = 8.30 \times 10^{12} \text{ J}$$
 </div>
 
 Note: $$8.30 \times 10^{12}$$ is exactly 3.32% of $$2.50 \times 10^{14}$$, confirming the efficiency increase.
@@ -759,35 +759,35 @@ Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_{1} = 34.0\% = 0.340$$
 Work from 34% efficient station:
 
 <div class="equation">
- $$W_1 = 0.340 \times 2.50 \times 10^{14} = 8.50 \times 10^{13} \text{ J}$$
+ $$W_1 = 0.340 \times 2.50 \times 10^{14} \text{ J} = 8.50 \times 10^{13} \text{ J}$$
 </div>
 
 Work from 40% efficient station:
 
 <div class="equation">
- $$W_2 = 0.400 \times 2.50 \times 10^{14} = 1.00 \times 10^{14} \text{ J}$$
+ $$W_2 = 0.400 \times 2.50 \times 10^{14} \text{ J} = 1.00 \times 10^{14} \text{ J}$$
 </div>
 
 **(a)** Additional electrical energy:
 
 <div class="equation">
- $$\Delta W = W_2 - W_1 = 1.00 \times 10^{14} - 8.50 \times 10^{13} = 1.50 \times 10^{13} \text{ J}$$
+ $$\Delta W = W_2 - W_1 = 1.00 \times 10^{14} \text{ J} - 8.50 \times 10^{13} \text{ J} = 1.50 \times 10^{13} \text{ J}$$
 </div>
 
 **(b)** Heat outputs to environment:
 
 <div class="equation">
- $$Q_{out,1} = Q_{in} - W_1 = 2.50 \times 10^{14} - 8.50 \times 10^{13} = 1.65 \times 10^{14} \text{ J}$$
+ $$Q_{out,1} = Q_{in} - W_1 = 2.50 \times 10^{14} \text{ J} - 8.50 \times 10^{13} \text{ J} = 1.65 \times 10^{14} \text{ J}$$
 </div>
 
 <div class="equation">
- $$Q_{out,2} = Q_{in} - W_2 = 2.50 \times 10^{14} - 1.00 \times 10^{14} = 1.50 \times 10^{14} \text{ J}$$
+ $$Q_{out,2} = Q_{in} - W_2 = 2.50 \times 10^{14} \text{ J} - 1.00 \times 10^{14} \text{ J} = 1.50 \times 10^{14} \text{ J}$$
 </div>
 
 Reduction in heat transfer:
 
 <div class="equation">
- $$\Delta Q_{out} = Q_{out,1} - Q_{out,2} = 1.65 \times 10^{14} - 1.50 \times 10^{14} = 1.50 \times 10^{13} \text{ J}$$
+ $$\Delta Q_{out} = Q_{out,1} - Q_{out,2} = 1.65 \times 10^{14} \text{ J} - 1.50 \times 10^{14} \text{ J} = 1.50 \times 10^{13} \text{ J}$$
 </div>
 
 **Discussion**

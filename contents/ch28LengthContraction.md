@@ -496,7 +496,7 @@ related when $$\text{γ} = 30.00 $$.
 
 **Strategy**
 
-First convert 100 yd to meters: $$100 \text{ yd} = 100 \times 0.9144 \text{ m} = 91.44$$ m. The proper length is $$L_0 = 100$$ m, and the contracted length is $$L = 91.44$$ m. Use $$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$ to find the required velocity.
+First convert 100 yd to meters: $$100 \text{ yd} = 100 \times 0.9144 \text{ m} = 91.44\,\text{m}$$ m. The proper length is $$L_0 = 100$$ m, and the contracted length is $$L = 91.44$$ m. Use $$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$ to find the required velocity.
 
 **Solution**
 

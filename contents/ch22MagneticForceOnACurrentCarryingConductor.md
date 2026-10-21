@@ -677,7 +677,7 @@ The left side carries downward current and feels a leftward force; the right sid
 
 **(b)**
 
-$$\frac FB=IL=(5.00)(0.200)=1.00\ \text{N/T}.$$
+$$\frac FB=IL=(5.00\ \text{A})(0.200\ \text{m})=1.00\ \text{N/T}.$$
 
 :::
 </div>

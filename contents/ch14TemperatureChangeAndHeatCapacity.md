@@ -590,6 +590,7 @@ Given:
 
 Calculate the temperature change:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_f - T_i = 95.0\text{ºC} - 22.0\text{ºC} = 73.0\text{ºC}$$
 </div>
 
@@ -645,6 +646,7 @@ $$\Delta T = \frac{Q}{mc}$$
 **(a) Water:** $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})} = 1.00\text{ºC}$$
 </div>
 
@@ -655,6 +657,7 @@ $$T_f = 20.0\text{ºC} + 1.00\text{ºC} = 21.0\text{ºC}$$
 **(b) Concrete:** $$c = 840 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(840 \text{ J/kg}\cdot\text{ºC})} = 4.98\text{ºC}$$
 </div>
 
@@ -665,6 +668,7 @@ $$T_f = 20.0\text{ºC} + 4.98\text{ºC} = 25.0\text{ºC}$$
 **(c) Steel:** $$c = 452 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(452 \text{ J/kg}\cdot\text{ºC})} = 9.26\text{ºC}$$
 </div>
 
@@ -675,6 +679,7 @@ $$T_f = 20.0\text{ºC} + 9.26\text{ºC} = 29.3\text{ºC}$$
 **(d) Mercury:** $$c = 139 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(139 \text{ J/kg}\cdot\text{ºC})} = 30.1\text{ºC}$$
 </div>
 
@@ -793,11 +798,13 @@ Given:
 
 Calculate the temperature change:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = T_f - T_i = 65.0\text{ºC} - 20.0\text{ºC} = 45.0\text{ºC}$$
 </div>
 
 Solve $$Q = mc\Delta T$$ for $$c$$:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$c = \frac{Q}{m\Delta T} = \frac{4350 \text{ J}}{(0.250 \text{ kg})(45.0\text{ºC})} = \frac{4350 \text{ J}}{11.25 \text{ kg}\cdot\text{ºC}} = 387 \text{ J/kg}\cdot\text{ºC}$$
 </div>
 
@@ -914,11 +921,13 @@ Given:
 
 **(a)** Calculate heat absorbed by water:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_w = m_w c_w \Delta T = (500 \text{ g})(1.00 \text{ cal/g}\cdot\text{ºC})(54.9\text{ºC}) = 27450 \text{ cal}$$
 </div>
 
 Calculate heat absorbed by aluminum cup:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q_{Al} = m_{Al} c_{Al} \Delta T = (100 \text{ g})(0.215 \text{ cal/g}\cdot\text{ºC})(54.9\text{ºC}) = 1180 \text{ cal}$$
 </div>
 

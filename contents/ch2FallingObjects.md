@@ -131,7 +131,7 @@ $$ y_{3} $$ and $$ v_{3} $$.
 
 **Solution for Position** $$ y_{1} $$
 
-1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
+1\. Identify the knowns. We know that <!-- physics: eq-10 -->$$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; <!-- physics: eq-12 -->$$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
 
 2\. Identify the best equation to use. We will use $$ y=y_{0}+v_{0}t+\frac{1}{2} at^{2} $$ because it includes only one unknown, $$ y $$ (or $$ y_{1} $$, here),
 which is the value we want to find.
@@ -175,9 +175,9 @@ in [Table 1](#Table1) and illustrated in [Figure 3](#Figure3).
 
 | Time, t      | Position, y   | Velocity, v    | Acceleration, a |
 | ------------ | ------------- | -------------- | --------------- |
-| $$1.00 \s $$ | $$8.10 \m $$  | $$3.20 \ms $$  | $$-9.80 \mss $$ |
-| $$2.00 \s $$ | $$6.40 \m $$  | $$-6.60 \ms $$ | $$-9.80 \mss $$ |
-| $$3.00 \s $$ | $$-5.10 \m $$ | $$-16.4 \ms $$ | $$-9.80 \mss $$ |
+| <!-- physics: eq-36 -->$$1.00 \s $$ | <!-- physics: eq-37 -->$$8.10 \m $$  | <!-- physics: eq-38 -->$$3.20 \ms $$  | $$-9.80 \mss $$ |
+| <!-- physics: eq-40 -->$$2.00 \s $$ | <!-- physics: eq-41 -->$$6.40 \m $$  | <!-- physics: eq-42 -->$$-6.60 \ms $$ | $$-9.80 \mss $$ |
+| <!-- physics: eq-44 -->$$3.00 \s $$ | <!-- physics: eq-45 -->$$-5.10 \m $$ | <!-- physics: eq-46 -->$$-16.4 \ms $$ | $$-9.80 \mss $$ |
 
 {: #Table1}
 
@@ -239,7 +239,7 @@ continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v_{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; <!-- physics: eq-2 -->$$ y_{1}=-5.10 \m $$; <!-- physics: eq-3 -->$$ v_{0}=-13.0 \ms $$; <!-- physics: eq-4 -->$$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
 The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
@@ -248,7 +248,8 @@ only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
 3\. Enter the known values
 
 <div class="equation">
- $$ v^{2}={\left(-13.0 \ms \right)}^{2}+ 2\left(-9.80 \mss \right) \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$ 
+ <!-- physics: eq-9 -->
+ $$ v^{2}={\left(-13.0 \ms \right)}^{2}+ 2\left(-9.80 \mss \right) \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$
 </div>
 
 where we have retained extra significant figures because this is an intermediate result.
@@ -295,7 +296,7 @@ speed with which it was initially thrown is the same.
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"measured-gravity"}
 
 <div class="title">
 Find *g* from Data on a Falling Object
@@ -322,7 +323,7 @@ is downward and therefore negative, as is acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
+1\. Identify the knowns. $$ y_{0}=0 $$; <!-- physics: eq-2 -->$$ y=-1.0000 \m $$; <!-- physics: eq-3 -->$$ t=0.45173 \s $$;
 $$ v_{0}=0 $$.
 
 2\. Choose the equation that allows you to solve for $$ a $$ using the known
@@ -347,7 +348,8 @@ Solving for $$ a $$ gives
 4\. Substitute known values yields
 
 <div class="equation">
- $$ a=\frac{2\left(-1.0000 \m - 0 \right)} {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$ 
+ <!-- physics: eq-13 -->
+ $$ a=\frac{2\left(-1.0000 \m - 0 \right)} {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$
 </div>
 
 so, because $$ a=-g $$ with the directions we have chosen,
@@ -367,7 +369,7 @@ for the acceleration due to gravity.
 
 ::::
 
-<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="exercise" data-element-type="check-understanding" data-label="" id="ice-drop">
 <div class="title">
 Check Your Understanding
 </div>
@@ -386,6 +388,7 @@ We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {
 $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
 
 <div class="equation">
+<!-- physics: eq-6 -->
 $$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
@@ -646,7 +649,7 @@ An astronaut with the same takeoff speed could rise six times as high on the Moo
 
 Assume air resistance is negligible unless otherwise stated.
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="ball-up-exercise">
 
 :::: problem
 
@@ -680,10 +683,12 @@ For velocity: $$ v = v_0 + at = v_0 - gt $$
 __(a) At t = 0.500 s:__
 
 <div class="equation">
+<!-- physics: eq-9 -->
 $$ y_1 = (15.0 \ms)(0.500 \s) - \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.50 \m - 1.23 \m = 6.28 \m $$
 </div>
 
 <div class="equation">
+<!-- physics: eq-10 -->
 $$ v_1 = 15.0 \ms - (9.80 \mss)(0.500 \s) = 15.0 \ms - 4.90 \ms = 10.1 \ms $$
 </div>
 

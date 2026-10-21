@@ -463,7 +463,7 @@ $$R_{\text{total}} = \frac{V}{I} = \frac{3000 \text{ V}}{50.0 \times 10^{-6} \te
 
 Series resistor required:
 <div class="equation">
-$$R = R_{\text{total}} - r = 60.0 \times 10^{6} - 25.0 \approx 60.0 \text{ MΩ}$$
+$$R = R_{\text{total}} - r = 60.0 \times 10^{6} \text{ Ω} - 25.0 \text{ Ω} \approx 60.0 \text{ MΩ}$$
 </div>
 
 (The galvanometer resistance is negligible compared to the series resistor.)
@@ -517,22 +517,22 @@ At full scale, 300 mA total current flows, with 50.0 μA through the galvanomete
 
 Current through shunt:
 <div class="equation">
-$$I_R = I_{\text{total}} - I_G = 300 \times 10^{-3} - 50.0 \times 10^{-6} \approx 0.300 \text{ A}$$
+$$I_R = I_{\text{total}} - I_G = 300 \times 10^{-3} \text{ A} - 50.0 \times 10^{-6} \text{ A} \approx 0.300 \text{ A}$$
 </div>
 
 Voltage across galvanometer:
 <div class="equation">
-$$V_G = I_G r = (50.0 \times 10^{-6})(25.0) = 1.25 \times 10^{-3} \text{ V} = 1.25 \text{ mV}$$
+$$V_G = I_G r = (50.0 \times 10^{-6} \text{ A})(25.0 \text{ Ω}) = 1.25 \times 10^{-3} \text{ V} = 1.25 \text{ mV}$$
 </div>
 
 Shunt resistance:
 <div class="equation">
-$$R = \frac{V_G}{I_R} = \frac{1.25 \times 10^{-3}}{0.300} = 4.17 \times 10^{-3} \text{ Ω} = 4.17 \text{ mΩ}$$
+$$R = \frac{V_G}{I_R} = \frac{1.25 \times 10^{-3} \text{ V}}{0.300 \text{ A}} = 4.17 \times 10^{-3} \text{ Ω} = 4.17 \text{ mΩ}$$
 </div>
 
 Alternatively, using the ratio formula:
 <div class="equation">
-$$R = r \frac{I_G}{I_R} = 25.0 \times \frac{50.0 \times 10^{-6}}{0.300} = 4.17 \text{ mΩ}$$
+$$R = r \frac{I_G}{I_R} = 25.0 \text{ Ω} \times \frac{50.0 \times 10^{-6} \text{ A}}{0.300 \text{ A}} = 4.17 \text{ mΩ}$$
 </div>
 
 **Discussion**
@@ -584,7 +584,7 @@ For each case, use $$R = r \times I_G/(I_{\text{total}} - I_G)$$ where most curr
 
 Galvanometer voltage at full scale:
 <div class="equation">
-$$V_G = I_G r = (100 \times 10^{-6})(10.0) = 1.00 \times 10^{-3} \text{ V} = 1.00 \text{ mV}$$
+$$V_G = I_G r = (100 \times 10^{-6} \text{ A})(10.0 \text{ Ω}) = 1.00 \times 10^{-3} \text{ V} = 1.00 \text{ mV}$$
 </div>
 
 **(a)** For 20.0-A full scale:
@@ -593,16 +593,16 @@ Current through shunt: $$I_R \approx 20.0 \text{ A}$$ (since $$I_G << I_{\text{t
 
 Shunt resistance:
 <div class="equation">
-$$R = \frac{V_G}{I_R} = \frac{1.00 \times 10^{-3}}{20.0} = 5.00 \times 10^{-5} \text{ Ω} = 50.0 \text{ μΩ}$$
+$$R = \frac{V_G}{I_R} = \frac{1.00 \times 10^{-3} \text{ V}}{20.0 \text{ A}} = 5.00 \times 10^{-5} \text{ Ω} = 50.0 \text{ μΩ}$$
 </div>
 
 **(b)** For 100-mA full scale:
 
-Current through shunt: $$I_R = 0.100 - 0.0001 \approx 0.0999 \text{ A}$$
+Current through shunt: $$I_R = 0.100 \text{ A} - 0.0001 \text{ A} \approx 0.0999 \text{ A}$$
 
 Shunt resistance:
 <div class="equation">
-$$R = \frac{V_G}{I_R} = \frac{1.00 \times 10^{-3}}{0.0999} = 1.00 \times 10^{-2} \text{ Ω} = 10.0 \text{ mΩ}$$
+$$R = \frac{V_G}{I_R} = \frac{1.00 \times 10^{-3} \text{ V}}{0.0999 \text{ A}} = 1.00 \times 10^{-2} \text{ Ω} = 10.0 \text{ mΩ}$$
 </div>
 
 **Discussion**

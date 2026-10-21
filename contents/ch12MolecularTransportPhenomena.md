@@ -537,7 +537,7 @@ After **0.391 seconds**, the hydrogen will have reached a point that the oxygen 
 **Verification:**
 - Distance traveled by H₂ in 0.391 s: $$x = \sqrt{2(6.4 \times 10^{-5} \text{ m}^2\text{/s})(0.391 \text{ s})} = 7.07 \times 10^{-3} \text{ m}$$
 - Time for O₂ to travel same distance: $$t = \frac{x^2}{2D_{\text{O}_2}} = \frac{(7.07 \times 10^{-3} \text{ m})^2}{2(1.8 \times 10^{-5} \text{ m}^2\text{/s})} = 1.39 \text{ s}$$
-- Difference: $$1.39 - 0.39 = 1.00 \text{ s}$$ ✓
+- Difference: $$1.39 \text{ s} - 0.39 \text{ s} = 1.00 \text{ s}$$ ✓
 
 **Discussion**
 

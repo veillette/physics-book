@@ -175,17 +175,20 @@ The equations given earlier include the dependence of friction on materials and
 the normal force. The direction of friction is always opposite that of the relative motion (or
 attempted relative motion) of the surfaces,
 parallel to the surface between objects, and perpendicular to the normal force.
+<!-- physics-scope: crate-friction -->
 For example, if the crate you try to push (with a force parallel to the floor)
 has a mass of 100 kg, then the normal force would be equal to its weight, $$w=mg=\left(100 \kg \right)\left( 9.80\mss \right)=980 \N$$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
-greater than $$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$ to move the crate. Once there is motion, friction is less and the
+greater than <!-- physics: eq-1 -->$$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$ to move the crate. Once there is motion, friction is less and the
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
+<!-- physics: eq-2 -->
 $$f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
 =290\N$$) would keep it moving at a constant speed. If the floor is
 lubricated, both coefficients are considerably less than they would be without
 lubrication. Coefficient of friction is a unit less quantity with a magnitude
 usually between 0 and 1.0. The coefficient of the friction depends on the two
 surfaces that are in contact.
+<!-- /physics-scope -->
 
 :::: note {"class":"note","data-label":""}
 
@@ -248,6 +251,7 @@ in [Figure 3](#Figure3).)
 That is,
 
 <div class="equation">
+ <!-- physics: eq-2 -->
  $$\mag{N}= w_{\perp }=w\cos{ 25^\circ }=mg \cos{ 25^\circ }.$$
 </div>
 
@@ -271,6 +275,7 @@ Solving for $$\mu_{\text{k} }$$ gives
 Substituting known values on the right-hand side of the equation,
 
 <div class="equation">
+ <!-- physics: eq-7 -->
  $$\mu_{\text{k}}=\frac{45.0 \N }{\left(62 \kg \right)\left(9.80 \mss \right)\left(0.906\right)}=0.082.$$
 </div>
 
@@ -565,7 +570,7 @@ The chalk screeches because it repeatedly sticks until static friction reaches i
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="spatula">
 
 :::: problem
 
@@ -578,7 +583,7 @@ spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of ki
 
 **Strategy**
 
-We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is $$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
+We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is <!-- physics: eq-0 -->$$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
 
 **Solution**
 
@@ -594,6 +599,7 @@ $$\mag{N} = \frac{f_{\text{k}}}{\mu_{\text{k}}}$$
 
 3. Substitute the known values:
 <div class="equation">
+<!-- physics: eq-3 -->
 $$\mag{N} = \frac{0.200 \N}{0.04} = 5.00 \N$$
 </div>
 
@@ -700,7 +706,7 @@ The maximum frictional force in the knee joint is $$10.3 \N$$ during normal stan
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problem-exercises" id="wooden-crate">
 
 :::: problem
 
@@ -714,7 +720,7 @@ Suppose you have a 120-kg wooden crate resting on a wood floor.
 
 **Strategy**
 
-For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, $$\mu_{\s} = 0.5$$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with $$\mu_{\text{k}} = 0.3$$. We use Newton's second law to find the acceleration.
+For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, <!-- physics: eq-0 -->$$\mu_{\s} = 0.5$$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with <!-- physics: eq-1 -->$$\mu_{\text{k}} = 0.3$$. We use Newton's second law to find the acceleration.
 
 **Solution**
 
@@ -733,6 +739,7 @@ $$\mag{N} = mg = (120 \kg)(9.80 \mss) = 1176 \N$$
 
 2. Calculate the maximum static friction force. In diagram (a), $$a = 0$$, so $$\sum F_x = F - f_{\s(\text{max})} = 0$$ and the largest push is $$F = f_{\s(\text{max})}$$:
 <div class="equation">
+<!-- physics: eq-10 -->
 $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.5)(1176 \N) = 588 \N$$
 </div>
 
@@ -750,6 +757,7 @@ $$\sum F_x = F - f_{\text{k}} = 588 \N - 352.8 \N = 235.2 \N$$
 
 3. Calculate the acceleration:
 <div class="equation">
+<!-- physics: eq-18 -->
 $$a_x = \frac{\sum F_x}{m} = \frac{235.2 \N}{120 \kg} = 1.96 \mss$$
 </div>
 

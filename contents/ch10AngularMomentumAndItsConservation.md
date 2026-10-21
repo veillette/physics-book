@@ -1286,7 +1286,7 @@ $$ L = L' \Rightarrow I\omega = I'\omega' $$
 Convert the new angular velocity:
 
 <div class="equation">
-$$ \omega' = 1.25 \text{ rev/s} \times 2\pi = 7.85 \text{ rad/s} $$
+$$ \omega' = 1.25 \text{ rev/s} \times \frac{2\pi\text{rad}}{1\text{rev}} = 7.85 \text{ rad/s} $$
 </div>
 
 Solving for I':
@@ -1298,7 +1298,7 @@ $$ I' = \frac{I\omega}{\omega'} = \frac{(0.400 \kg \cdot \mm)(37.7 \text{ rad/s}
 **(c)** The change in angular velocity:
 
 <div class="equation">
-$$ \omega_{f} = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
+$$ \omega_{f} = 3.00 \text{ rev/s} \times \frac{2\pi\text{rad}}{1\text{rev}} = 18.8 \text{ rad/s} $$
 </div>
 
 Change in angular momentum:

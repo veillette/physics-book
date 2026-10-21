@@ -261,7 +261,7 @@ $$\tau_{\max} = 389 \text{ N·m}$$
 
 $$\tau = NIAB\sin\theta = (389 \text{ N·m})(\sin 10.9°)$$
 
-$$\tau = (389)(0.189) = 73.5 \text{ N·m}$$
+$$\tau = (389 \text{ N·m})(0.189) = 73.5 \text{ N·m}$$
 
 **Discussion**
 
@@ -307,7 +307,7 @@ $$ I = \frac{\tau_{\max}}{NAB}$$
 
 $$ I = \frac{9.00 \text{ N·m}}{(50)(0.0225 \text{ m}^2)(0.800 \text{ T})}$$
 
-$$ I = \frac{9.00}{0.900} = 10.0 \text{ A}$$
+$$ I = \frac{9.00 \text{ N·m}}{0.900 \text{ T·m}^2} = 10.0 \text{ A}$$
 
 **Discussion**
 
@@ -348,7 +348,7 @@ $$ B = \frac{\tau_{\max}}{NIA}$$
 
 $$ B = \frac{300 \text{ N·m}}{(200)(25.0 \text{ A})(0.0400 \text{ m}^2)}$$
 
-$$ B = \frac{300}{200} = 1.50 \text{ T}$$
+$$ B = \frac{300 \text{ N·m}}{200 \text{ A·m}^2} = 1.50 \text{ T}$$
 
 **Discussion**
 
@@ -466,7 +466,7 @@ A proton has a magnetic field due to its spin on its axis. The field is similar 
 
 For the equivalent single current loop, the maximum torque is $$\tau_{\max}=IAB$$. Retaining the unrounded area,
 
-$$\tau_{\max}=I\pi r^2B=(1.05\times10^4)\pi(0.650\times10^{-15})^2(2.50)=3.48\times10^{-26}\ \text{N}\cdot\text{m}.$$
+$$\tau_{\max}=I\pi r^2B=(1.05\times10^4\ \text{A})\pi(0.650\times10^{-15}\ \text{m})^2(2.50\ \text{T})=3.48\times10^{-26}\ \text{N}\cdot\text{m}.$$
 
 This equivalent current-loop model describes the proton's magnetic moment, not literal rotation of a classical charged sphere.
 
@@ -497,7 +497,7 @@ The loop is vertical with its axis east-west, and the field points north. The ma
 - Magnetic field: $$ B = 3.00 \times 10^{-5} \text{ T}$$ (pointing north)
 
 *Area of the loop:*
-$$ A = \pi r^2 = \pi (0.500)^2 = 0.785 \text{ m}^2$$
+$$ A = \pi r^2 = \pi (0.500 \text{ m})^2 = 0.785 \text{ m}^2$$
 
 **(a) Magnitude and direction:**
 

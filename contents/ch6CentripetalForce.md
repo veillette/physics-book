@@ -57,7 +57,7 @@ causes a small radius of curvature—that is, a tight curve.
 ![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.svg 'The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the \( F_c \) , the smaller the radius of curvature \( r \) and the sharper the curve. The second curve has the same \( v \) , but a larger \( F_c \) produces a smaller \( r^\prime \) .')
 {: #Figure1}
 
-::: example
+::: example {"class":"example","id":"car-curve"}
 
 <div class="title">
 What Coefficient of Friction Do Car Tires Need on a Flat Curve?
@@ -74,6 +74,7 @@ car from slipping (see [Figure 2](#Figure2)).
 We know that $$F_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
 
 <div class="equation">
+<!-- physics: eq-1 -->
 $$F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
@@ -122,7 +123,8 @@ $$\mu_{\s}=\frac{ v^{2}}{rg}.$$
 Substituting the knowns,
 
 <div class="equation">
-$$\mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13.$$ 
+<!-- physics: eq-11 -->
+$$\mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13.$$
 </div>
 
 (Because
@@ -221,7 +223,7 @@ depend on the mass of the vehicle.
 ![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_06_03_03.jpg 'The car on this banked curve is moving away and turning to the left.')
 {: #Figure3}
 
-::: example
+::: example {"class":"example","id":"banked-curve"}
 
 <div class="title">
 What Is the Ideal Speed to Take a Steeply Banked Tight Curve?
@@ -252,6 +254,7 @@ we get
 Noting that $$\tan{65.0^\circ } = 2.14$$, we obtain
 
 <div class="equation">
+<!-- physics: eq-3 -->
 $$\begin{array}{lll}
 v&=& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
 v&=& 45.8 \ms .
@@ -677,7 +680,7 @@ The string is stretched by the outward pull of the mass on its end, which is the
 
 ### Problems Exercise
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="merry-go-round">
 
 ::: problem
 
@@ -711,6 +714,7 @@ $$\omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
+<!-- physics: eq-8 -->
 $$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.189\text{ rad/s})^2 = (22.0 \kg)(1.25 \m)(17.55 \text{s}^{-2}) = 483\text{ N}$$
 </div>
 
@@ -782,7 +786,7 @@ The centripetal force on the end of the wind turbine blade is approximately 3950
 
 </div>
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="highway-banking">
 
 ::: problem
 
@@ -829,6 +833,7 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\tex
 </div>
 
 <div class="equation">
+<!-- physics: eq-17 -->
 $$\theta = \tan^{-1}\left(\frac{853 \N}{11{,}760 \N}\right) = \tan^{-1}(0.0725) = 4.14°$$
 </div>
 

@@ -84,7 +84,7 @@ energies before the collision equals the sum after the collision. Thus,
 expresses the equation for conservation of internal kinetic energy in a
 one-dimensional collision.
 
-:::: example
+:::: example {"class":"example","id":"elastic-collision"}
 
 <div class="title">
 Calculating Velocities Following an Elastic Collision
@@ -93,6 +93,7 @@ Calculating Velocities Following an Elastic Collision
 Calculate the velocities of two objects following an elastic collision, given that
 
 <div class="equation">
+ <!-- physics: eq-0 -->
  $$ m_{1}=0.500 \kg , m_{2}=3.50 \kg , v_{1}=4.00 \ms, \text{ and } v_{2}=0. $$
 </div>
 
@@ -147,6 +148,7 @@ this example, they are
 and
 
 <div class="equation">
+ <!-- physics: eq-14 -->
  $$ v^{\prime}_{1}=-3.00 \ms . $$
 </div>
 
@@ -163,6 +165,7 @@ after the collision, we get
 or
 
 <div class="equation">
+ <!-- physics: eq-18 -->
  $$ v^{\prime}_{2}=1.00 \ms . $$
 </div>
 

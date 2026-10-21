@@ -950,7 +950,7 @@ _Known quantities:_
 
 - Specific heat of water: $$c = 4186 \text{ J/(kg·°C)}$$
 - Heat of vaporization of water: $$L_v = 2.26 \times 10^{6} \text{ J/kg}$$
-- Temperature change: $$\Delta T = 100°\text{C} - 15°\text{C} = 85°\text{C}$$
+- Temperature change: <!-- physics-scan: temperature=interval -->$$\Delta T = 100°\text{C} - 15°\text{C} = 85°\text{C}$$
 - Available energy: $$E = 2.00 \times 10^{9} \text{ J}$$
 
 The total energy required per kilogram of water:
@@ -1021,7 +1021,7 @@ _Known quantities:_
 - Mass of glass: $$m_g = 50.0 \text{ g} = 0.0500 \text{ kg}$$
 - Mass of formula: $$m_f = 250 \text{ g} = 0.250 \text{ kg}$$
 - Mass of aluminum: $$m_a = 200 \text{ g} = 0.200 \text{ kg}$$
-- Temperature change: $$\Delta T = 90.0°\text{C} - 20.0°\text{C} = 70.0°\text{C}$$
+- Temperature change: <!-- physics-scan: temperature=interval -->$$\Delta T = 90.0°\text{C} - 20.0°\text{C} = 70.0°\text{C}$$
 - Specific heats: $$c_g = 840 \text{ J/(kg·°C)}$$, $$c_f = c_{\text{water}} = 4186 \text{ J/(kg·°C)}$$, $$c_a = 900 \text{ J/(kg·°C)}$$
 
 Calculate the heat required for each material:

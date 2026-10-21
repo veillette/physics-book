@@ -802,7 +802,7 @@ $$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(1000)^
 </div>
 
 <div class="equation">
-$$L=\frac{(1.257 \times 10^{-6})(10^6)(7.85 \times 10^{-3})}{0.500}=\frac{9.87}{0.500}=19.7 \text{ mH}$$
+$$L=\frac{(1.257 \times 10^{-6} \text{ T·m/A})(10^6)(7.85 \times 10^{-3} \text{ m}^2)}{0.500 \text{ m}}=\frac{9.87 \times 10^{-3} \text{ H·m}}{0.500 \text{ m}}=19.7 \text{ mH}$$
 </div>
 
 **(b)** Using the energy formula with $$I = 20.0 \text{ A}$$:
@@ -812,13 +812,13 @@ $${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(
 </div>
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}(19.7 \times 10^{-3})(400)=3.94 \text{ J}$$
+$${E}_{\text{ind}}=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(400 \text{ A}^2)=3.94 \text{ J}$$
 </div>
 
 **(c)** Given that $$\left|\text{emf}\right| \leq 3.00 \text{ V}$$ and $$\Delta I = 20.0 \text{ A}$$:
 
 <div class="equation">
-$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}=\frac{(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})}{3.00 \text{ V}}=\frac{0.394}{3.00}=0.131 \text{ s}=131 \text{ ms}$$
+$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}=\frac{(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})}{3.00 \text{ V}}=\frac{0.394 \text{ V·s}}{3.00 \text{ V}}=0.131 \text{ s}=131 \text{ ms}$$
 </div>
 
 **Discussion**
@@ -867,7 +867,7 @@ $$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(500)^2
 </div>
 
 <div class="equation">
-$$L=\frac{(1.257 \times 10^{-6})(2.50 \times 10^5)(1.77 \times 10^{-4})}{0.0400}=\frac{5.56 \times 10^{-5}}{0.0400}=1.39 \times 10^{-3} \text{ H}=1.39 \text{ mH}$$
+$$L=\frac{(1.257 \times 10^{-6} \text{ T·m/A})(2.50 \times 10^5)(1.77 \times 10^{-4} \text{ m}^2)}{0.0400 \text{ m}}=\frac{5.56 \times 10^{-5} \text{ H·m}}{0.0400 \text{ m}}=1.39 \times 10^{-3} \text{ H}=1.39 \text{ mH}$$
 </div>
 
 **(b)** Given:
@@ -935,7 +935,7 @@ $$L=\frac{\mu_{0} N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(400)^2
 </div>
 
 <div class="equation">
-$$L=\frac{(1.257 \times 10^{-6})(1.60 \times 10^5)(5.03 \times 10^{-5})}{1.00}=1.01 \times 10^{-5} \text{ H}=10.1 \text{ μH}$$
+$$L=\frac{(1.257 \times 10^{-6} \text{ T·m/A})(1.60 \times 10^5)(5.03 \times 10^{-5} \text{ m}^2)}{1.00 \text{ m}}=1.01 \times 10^{-5} \text{ H}=10.1 \text{ μH}$$
 </div>
 
 **(b)** Using $$I = 6.00 \text{ A}$$:
@@ -945,7 +945,7 @@ $${E}_{\text{ind}}=\frac{1}{2}LI^{2}=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(
 </div>
 
 <div class="equation">
-$${E}_{\text{ind}}=\frac{1}{2}(1.01 \times 10^{-5})(36.0)=1.82 \times 10^{-4} \text{ J}=0.182 \text{ mJ}$$
+$${E}_{\text{ind}}=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(36.0 \text{ A}^2)=1.82 \times 10^{-4} \text{ J}=0.182 \text{ mJ}$$
 </div>
 
 **(c)** Given $$\Delta I = 6.00 \text{ A}$$ and $$\Delta t = 5.00 \text{ ms} = 5.00 \times 10^{-3} \text{ s}$$:
@@ -955,7 +955,7 @@ $$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(1.01 \times 10^{-5} \text{
 </div>
 
 <div class="equation">
-$$\left|\text{emf}\right|=(1.01 \times 10^{-5})(1200)=0.0121 \text{ V}=12.1 \text{ mV}$$
+$$\left|\text{emf}\right|=(1.01 \times 10^{-5} \text{ H})(1200 \text{ A/s})=0.0121 \text{ V}=12.1 \text{ mV}$$
 </div>
 
 **Discussion**
@@ -1054,7 +1054,7 @@ $$\Delta t=\frac{(0.250 \text{ H})(150 \text{ A})}{75.0 \text{ V}}=\frac{37.5 \t
 
 **Discussion**
 
-The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^{2} = \frac{1}{2}(0.250)(150)^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
+The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^{2} = \frac{1}{2}(0.250 \text{ H})(150 \text{ A})^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
 
 **Final Answer**
 
@@ -1169,10 +1169,10 @@ $$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(25.0 \text{ H})\frac{100 \
 </div>
 
 <div class="equation">
-$$\left|\text{emf}\right|=(25.0)(1.00 \times 10^5)=2.50 \times 10^6 \text{ V}=2.50 \text{ MV}$$
+$$\left|\text{emf}\right|=(25.0 \text{ H})(1.00 \times 10^5 \text{ A/s})=2.50 \times 10^6 \text{ V}=2.50 \text{ MV}$$
 </div>
 
-**(b)** This result is unreasonable because 2.50 million volts is an extremely high voltage that would cause massive electrical arcing through air (which breaks down at about 3 MV/m). Such a voltage would be extremely dangerous and impossible to contain with ordinary insulation. The energy stored in this inductor at 100 A is $$E = \frac{1}{2}(25.0)(100)^2 = 125 \text{ kJ}$$, and attempting to dissipate this in 1 ms would require a power of 125 MW, which is also unreasonable.
+**(b)** This result is unreasonable because 2.50 million volts is an extremely high voltage that would cause massive electrical arcing through air (which breaks down at about 3 MV/m). Such a voltage would be extremely dangerous and impossible to contain with ordinary insulation. The energy stored in this inductor at 100 A is $$E = \frac{1}{2}(25.0 \text{ H})(100 \text{ A})^2 = 125 \text{ kJ}$$, and attempting to dissipate this in 1 ms would require a power of 125 MW, which is also unreasonable.
 
 **(c)** The unreasonable assumption is the very short switching time of 1.00 ms. A 25.0 H inductor carrying 100 A cannot be switched off this quickly without generating destructive voltages. In practice, such large inductors require much longer shutdown times (on the order of seconds or even minutes) or specialized circuits to safely dissipate the stored energy. The combination of very large inductance (25.0 H) and very large current (100 A) also contributes to the problem.
 

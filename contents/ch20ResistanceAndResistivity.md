@@ -900,6 +900,7 @@ A 40.0% increase in resistance means $$R = 1.40 R_{0}$$. Using the temperature d
 The temperature change is:
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = 100 \text{ ºC} - 20.0 \text{ ºC} = 80.0 \text{ ºC}$$
 </div>
 
@@ -1013,6 +1014,7 @@ Comparing with [[Table 1]](#Table1), this resistivity matches **gold** ($$\rho =
 **(b)** Using the temperature coefficient for gold ($$\alpha = 3.4 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)):
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = 150 \text{ ºC} - 20.0 \text{ ºC} = 130 \text{ ºC}$$
 </div>
 
@@ -1053,6 +1055,7 @@ The maximum decrease occurs at the lowest achievable temperature, which is absol
 Calculate the temperature change to absolute zero:
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = -273.15 \text{ ºC} - 20.0 \text{ ºC} = -293 \text{ ºC}$$
 </div>
 

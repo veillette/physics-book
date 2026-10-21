@@ -448,7 +448,7 @@ What is the wavelength of EM radiation that ejects 2.00-eV electrons from calciu
 
 ::: solution
 
-The required photon energy is $$E=2.71+2.00=4.71\text{ eV}$$. Thus $$\lambda=hc/E=1240/4.71\text{ nm}=263\text{ nm}$$, in the ultraviolet.
+The required photon energy is $$E=2.71 \text{ eV} + 2.00 \text{ eV}=4.71\text{ eV}$$. Thus $$\lambda=hc/E=1240/4.71\text{ nm}=263\text{ nm}$$, in the ultraviolet.
 
 :::
 
@@ -464,7 +464,7 @@ Find the wavelength of photons that eject 0.100-eV electrons from potassium, giv
 
 ::: solution
 
-The required photon energy is $$E=2.24+0.100=2.34\text{ eV}$$, so $$\lambda=hc/E=1240/2.34\text{ nm}=530\text{ nm}$$. These photons are visible green light.
+The required photon energy is $$E=2.24 \text{ eV} + 0.100 \text{ eV}=2.34\text{ eV}$$, so $$\lambda=hc/E=1240/2.34\text{ nm}=530\text{ nm}$$. These photons are visible green light.
 
 :::
 
@@ -480,7 +480,7 @@ What is the maximum velocity of electrons ejected from a material by 80-nm photo
 
 ::: solution
 
-The maximum kinetic energy is $$K_{\max}=1240/80-4.73=10.77\text{ eV}$$. With $$m_e=9.11\times10^{-31}\text{ kg}$$,
+The maximum kinetic energy is $$K_{\max}=(1240\text{ eV·nm})/(80\text{ nm})-4.73\text{ eV}=10.77\text{ eV}$$. With $$m_e=9.11\times10^{-31}\text{ kg}$$,
 
 $$v_{\max}=\sqrt{\frac{2K_{\max}}{m_e}}=\sqrt{\frac{2(10.77)(1.602\times10^{-19}\text{ J})}{9.11\times10^{-31}\text{ kg}}}=1.95\times10^6\text{ m/s}.$$
 
@@ -500,7 +500,7 @@ Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 4
 
 ::: solution
 
-Retaining guard digits, $$K_{\max}=1240/420-2.71=0.24238\text{ eV}$$, so $$v_{\max}=\sqrt{2K_{\max}/m_e}=2.92\times10^5\text{ m/s}$$. For electrons with this maximum speed, traveling without an applied field,
+Retaining guard digits, $$K_{\max}=(1240\text{ eV·nm})/(420\text{ nm})-2.71\text{ eV}=0.24238\text{ eV}$$, so $$v_{\max}=\sqrt{2K_{\max}/m_e}=2.92\times10^5\text{ m/s}$$. For electrons with this maximum speed, traveling without an applied field,
 
 $$t=\frac{0.0250\text{ m}}{2.92\times10^5\text{ m/s}}=8.56\times10^{-8}\text{ s}=85.6\text{ ns}.$$
 
@@ -524,7 +524,7 @@ Assume one emitted electron per incident photon and use the maximum photoelectro
 
 **(a)** $$E_\gamma=hc/\lambda=3.10\text{ eV}=4.966\times10^{-19}\text{ J}$$, so $$\dot N=P/E_\gamma=4.03\times10^{15}\text{ electrons/s}$$.
 
-**(b)** $$K_{\max}=3.10-2.71=0.390\text{ eV}$$. The electron power in this ideal model is
+**(b)** $$K_{\max}=3.10 \text{ eV} - 2.71 \text{ eV}=0.390\text{ eV}$$. The electron power in this ideal model is
 
 $$P_e=P\frac{K_{\max}}{E_\gamma}=(2.00\text{ mW})\frac{0.390}{3.10}=0.252\text{ mW}.$$
 
@@ -555,7 +555,7 @@ Use $$h=6.626\times10^{-34}\text{ J·s}$$, $$c=2.998\times10^8\text{ m/s}$$, and
 
 $$\dot N=P_{\text{in}}/E_\gamma=3.27\times10^{15}\text{ electrons/s}.$$
 
-**(b)** $$K_{\max}=2.48-2.28=0.200\text{ eV}$$, so
+**(b)** $$K_{\max}=2.48 \text{ eV} - 2.28 \text{ eV}=0.200\text{ eV}$$, so
 
 $$P_e=P_{\text{in}}\frac{K_{\max}}{E_\gamma}=0.105\text{ mW}.$$
 
@@ -608,7 +608,7 @@ this result? (c) Which assumptions are unreasonable or inconsistent?
 
 ::: solution
 
-**(a)** $$\text{BE}=hc/\lambda-K_{\max}=1240/400-4.00=-0.900\text{ eV}$$.
+**(a)** $$\text{BE}=hc/\lambda-K_{\max}=(1240\text{ eV·nm})/(400\text{ nm})-4.00\text{ eV}=-0.900\text{ eV}$$.
 
 **(b)** The negative binding energy contradicts the premise that energy must be supplied to release a bound electron.
 

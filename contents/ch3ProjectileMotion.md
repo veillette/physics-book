@@ -165,14 +165,14 @@ of the velocity $$ \vb{v} $$.
 (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude but points in the opposite direction to the initial vertical velocity. (d) The x - and y -motions are recombined to give the total velocity at any given point on the trajectory.')
 {: #Figure2 height="600"}
 
-:::: example
+:::: example {"class":"example","id":"fireworks"}
 
 <div class="title">
 A Fireworks Projectile Explodes High and Away
 </div>
 
 During a fireworks display, a shell is shot into the air with an initial speed of
-70.0 m/s at an angle of $$ 75.0^\circ $$
+70.0 m/s at an angle of <!-- physics: eq-0 -->$$ 75.0^\circ $$
 above the horizontal, as illustrated in [Figure 3](#Figure3). The
 fuse is timed to ignite the shell just as it reaches its highest point above the
 ground.
@@ -215,7 +215,8 @@ Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
 <div class="equation">
- $$ v_{0y}=v_{0}\sin{\theta_{0}}= \left(70.0 \ms \right)\left(\sin{75^\circ }\right) =67.6 \ms . $$ 
+ <!-- physics: eq-18 -->
+ $$ v_{0y}=v_{0}\sin{\theta_{0}}= \left(70.0 \ms \right)\left(\sin{75^\circ }\right) =67.6 \ms . $$
 </div>
 
 and $$ y $$ is
@@ -227,6 +228,7 @@ and $$ y $$ is
 so that
 
 <div class="equation">
+ <!-- physics: eq-21 -->
  $$ y=233 \m . $$
 </div>
 
@@ -255,6 +257,7 @@ equation reduces to simply
 Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero. Thus,
 
 <div class="equation">
+<!-- physics: eq-26 -->
 $$ \begin{array}{lll}
 t&=& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
 t&=& 6.90 \s .
@@ -281,12 +284,14 @@ is equal to zero:
 where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_{0}\cos{\theta_{0}}$$. Now,
 
 <div class="equation">
+ <!-- physics: eq-35 -->
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(70.0 \ms \right)\left(\cos {75.0^\circ }\right)=18.1 m/s. $$
 </div>
 
 The time $$ t $$ for both motions is the same, and so $$ x $$ is
 
 <div class="equation">
+ <!-- physics: eq-38 -->
  $$ x=\left(18.1 \ms \right)\left(6.90 \s \right)=125 \m . $$
 </div>
 
@@ -336,7 +341,7 @@ $$ a_{y}=+g $$.
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"hot-rock"}
 
 <div class="title">
 Calculating Projectile Motion: Hot Rock Projectile
@@ -345,7 +350,7 @@ Calculating Projectile Motion: Hot Rock Projectile
 Kīlauea in Hawaii is one of the world’s most active volcanoes. Its runny basaltic magma usually erupts as
 red-hot rocks and lava rather than explosive clouds of ash.
 Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and
-at an angle $$ 35.0^\circ $$
+at an angle <!-- physics: eq-0 -->$$ 35.0^\circ $$
 above the horizontal, as shown in [Figure 4](#Figure4). The rock
 strikes the side of the volcano at an altitude 20.0 m lower than its starting
 point.
@@ -377,7 +382,7 @@ lower than its starting altitude. We can find the time for this by using
 
 If we take the initial position $$ y_{0} $$ to be zero, then the final position is
 $$ y=-20.0 \m $$. Now the initial vertical velocity is the vertical component of the initial velocity,
-found from $$ v_{0y}=v_{0}\sin{\theta_{0}} = ( 25.0 \ms  )( \sin{35.0^\circ } ) = 14.3 \ms $$. Substituting known values yields
+found from <!-- physics: eq-8 -->$$ v_{0y}=v_{0}\sin{\theta_{0}} = ( 25.0 \ms  )( \sin{35.0^\circ } ) = 14.3 \ms $$. Substituting known values yields
 
 <div class="equation">
  $$ -20.0 \m =\left(14.3 \ms \right)t-\left(4.90 \mss \right){t}^{2}. $$
@@ -404,6 +409,7 @@ motion, and so
 we discard it. Thus,
 
 <div class="equation">
+ <!-- physics: eq-21 -->
  $$ t=3.96 \s . $$
 </div>
 
@@ -423,6 +429,7 @@ horizontal location. In this case, we chose the starting point since we know
 both the initial velocity and initial angle. Therefore:
 
 <div class="equation">
+ <!-- physics: eq-27 -->
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(25.0 \ms \right)\left(\cos{35^\circ }\right)=20.5 \ms $$
 </div>
 
@@ -441,6 +448,7 @@ where $$ v_{0y} $$ was found in part (a) to be $$ 14.3 \ms $$. Thus,
 so that
 
 <div class="equation">
+ <!-- physics: eq-32 -->
  $$ v_{y}=-24.5 \ms $$
 </div>
 
@@ -455,6 +463,7 @@ perpendicular components, using the following equation:
 which gives
 
 <div class="equation">
+ <!-- physics: eq-35 -->
  $$ \mag{v}=31.9 \ms $$
 </div>
 
@@ -473,6 +482,7 @@ so that
 Thus,
 
 <div class="equation">
+ <!-- physics: eq-39 -->
  $$\theta_{v}=-50.1^\circ . $$
 </div>
 

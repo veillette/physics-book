@@ -1108,7 +1108,7 @@ $$\eta = \frac{2(8.0 \times 10^{-4} \text{ m})^2 (9.80 \text{ m/s}^2)(7860 - 880
 
 $$\eta = \frac{2(6.4 \times 10^{-7} \text{ m}^2)(9.80 \text{ m/s}^2)(6980 \text{ kg/m}^3)}{0.389 \text{ m/s}}$$
 
-$$\eta = \frac{8.74 \times 10^{-2} \text{ kg·m/s}^2}{0.389 \text{ m/s}} = 0.225 \text{ kg/(m·s)} = 0.225 \text{ Pa·s}$$
+$$\eta = \frac{8.74 \times 10^{-2} \text{ kg/s}^2}{0.389 \text{ m/s}} = 0.225 \text{ kg/(m·s)} = 0.225 \text{ Pa·s}$$
 
 Converting to mPa·s:
 $$\eta = 225 \text{ mPa·s}$$
@@ -1291,15 +1291,15 @@ New pressure from saline at 1.50 m:
 $$P_{\text{new}} = \rho g h = (1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(1.50 \text{ m}) = 1.507 \times 10^4 \text{ Pa}$$
 
 Pressure difference driving flow:
-$$\Delta P_{\text{new}} = P_{\text{new}} - P_{\text{vein}} = 1.507 \times 10^4 - 1.066 \times 10^3 = 1.400 \times 10^4 \text{ Pa}$$
+$$\Delta P_{\text{new}} = P_{\text{new}} - P_{\text{vein}} = 1.507 \times 10^4 \text{ Pa} - 1.066 \times 10^3 \text{ Pa} = 1.400 \times 10^4 \text{ Pa}$$
 
 From Example 2, the original pressure difference was:
-$$\Delta P_1 = 1.62 \times 10^4 - 1.066 \times 10^3 = 1.513 \times 10^4 \text{ Pa}$$
+$$\Delta P_1 = 1.62 \times 10^4 \text{ Pa} - 1.066 \times 10^3 \text{ Pa} = 1.513 \times 10^4 \text{ Pa}$$
 
 Since $$Q \propto \Delta P$$:
-$$Q_2 = Q_1 \times \frac{\Delta P_{\text{new}}}{\Delta P_1} = (0.120 \text{ cm}^3/\text{s}) \times \frac{1.400 \times 10^4}{1.513 \times 10^4}$$
+$$Q_2 = Q_1 \times \frac{\Delta P_{\text{new}}}{\Delta P_1} = (0.120 \text{ cm}^3/\text{s}) \times \frac{1.400 \times 10^4 \text{ Pa}}{1.513 \times 10^4 \text{ Pa}}$$
 
-$$Q_2 = 0.120 \times 0.925 = 0.111 \text{ cm}^3/\text{s}$$
+$$Q_2 = 0.120 \text{ cm}^3/\text{s} \times 0.925 = 0.111 \text{ cm}^3/\text{s}$$
 
 **(c) Height where flow reverses:**
 
@@ -1469,12 +1469,12 @@ $$\frac{Q_{main,2}}{Q_{main,1}} = \frac{\Delta P_2}{\Delta P_1} = \frac{3.80 \ti
 The water main flow increased by a factor of **1.90** (or 90%).
 
 New water main flow:
-$$Q_{main,2} = 1.90 \times 200 = 380 \text{ L/min}$$
+$$Q_{main,2} = 1.90 \times 200 \text{ L/min} = 380 \text{ L/min}$$
 
 **(c) Number of additional users:**
 
 Increase in total consumption:
-$$\Delta Q = 380 - 200 = 180 \text{ L/min}$$
+$$\Delta Q = 380 \text{ L/min} - 200 \text{ L/min} = 180 \text{ L/min}$$
 
 Each user consumes 20.0 L/min in the morning, so:
 $$\text{Number of additional users} = \frac{180 \text{ L/min}}{20.0 \text{ L/min per user}} = 9 \text{ users}$$
@@ -1514,7 +1514,7 @@ $$\Delta P_{\text{viscous}}=\frac{8\eta LQ}{\pi r^4}=3.54\times10^6\ \text{Pa}.$
 
 Bernoulli's equation with viscous losses between the pipe entrance and its atmospheric outlet gives
 
-$$P_{\text{gauge}}=\rho gL+\Delta P_{\text{viscous}}=4.41\times10^5+3.54\times10^6=3.98\times10^6\ \text{Pa}.$$
+$$P_{\text{gauge}}=\rho gL+\Delta P_{\text{viscous}}=4.41\times10^5\ \text{Pa}+3.54\times10^6\ \text{Pa}=3.98\times10^6\ \text{Pa}.$$
 
 **Discussion**
 

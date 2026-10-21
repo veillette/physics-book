@@ -117,7 +117,7 @@ energy in a vehicle, as seen in [Figure 3](#Figure3).
 ![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_10_04_03.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into \( \KE_{\text{rot}} \). It can also convert translational kinetic energy, when the bus stops, into \( \KE_{\text{rot}} \). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus moving against friction.")
 {: #Figure3}
 
-:::: example
+:::: example {"class":"example","id":"grindstone"}
 
 <div class="title">
 Calculating the Work and Energy for Spinning a Grindstone
@@ -127,7 +127,7 @@ Consider a person who spins a large grindstone by placing her hand on its edge a
 revolution as shown in [Figure 4](#Figure4). In this example,
 we verify that the work done by the torque she exerts equals the change in rotational energy.
 (a) How much work is done if she exerts a force of 200 N through
-a rotation of $$ 1.00 \text{rad}\left(57.3^\circ\right) $$?
+a rotation of <!-- physics: eq-0 -->$$ 1.00 \text{rad}\left(57.3^\circ\right) $$?
 The force is kept perpendicular to the grindstone’s 0.320-m radius at the
 point of application, and the effects of friction are negligible.
 (b) What is the final angular velocity if the grindstone has a mass of 85.0 kg?
@@ -164,6 +164,7 @@ $$ \begin{array}{lll}
 Noting that $$ 1 \N·\m =1 \J $$,
 
 <div class="equation">
+ <!-- physics: eq-10 -->
  $$ \text{net}W=64.0 \J . $$
 </div>
 
@@ -178,7 +179,7 @@ start with the kinematic relationship in the equation
  $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta. $$
 </div>
 
-Note that $$ \omega_{0}=0 $$ because we start from rest. Taking the square root of the resulting equation
+Note that <!-- physics: initial-omega -->$$ \omega_{0}=0 $$ because we start from rest. Taking the square root of the resulting equation
 gives
 
 <div class="equation">
@@ -201,6 +202,7 @@ The formula for the moment of inertia for a disk is found
 in [Figure 3 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure3) :
 
 <div class="equation">
+ <!-- physics: eq-18 -->
  $$ I=\frac{1}{2} MR^{2}=0.5\left(85.0 \kg \right){\left(0.320 \m \right)}^{2}=4.352 \kg \cdot \mm. $$
 </div>
 
@@ -208,6 +210,7 @@ Substituting the values of torque and moment of inertia into the expression for 
 we obtain
 
 <div class="equation">
+ <!-- physics: eq-20 -->
  $$ \alpha =\frac{64.0 \N \cdot \m }{4.352 \kg \cdot \mm}=14.7 \radss . $$
 </div>
 
@@ -215,7 +218,8 @@ Now, substitute this value and the given value for $$ \theta $$
 into the above expression for $$ \omega $$:
 
 <div class="equation">
- $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}= {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2} =5.42 \rads . $$ 
+ <!-- physics: eq-23 -->
+ $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}= {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2} =5.42 \rads . $$
 </div>
 
 **Solution for (c)**
@@ -276,7 +280,7 @@ Problem-Solving Strategy for Rotational Energy
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"helicopter"}
 
 <div class="title">
 Calculating Helicopter Energies
@@ -307,6 +311,7 @@ We must convert the angular velocity to radians per second and calculate the mom
 is
 
 <div class="equation">
+ <!-- physics: eq-3 -->
  $$ \omega =\frac{300 \text{rev}}{1.00 \text{min}}\cdot \frac{2 \pi \text{rad}}{1 \text{rev}}\cdot \frac{1.00 \text{min}}{60.0 \s }=31.4\frac{ \text{rad}}{\s}. $$
 </div>
 
@@ -315,12 +320,14 @@ found in [Figure 3 Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMoti
 is four times this moment of inertia, because there are four blades. Thus,
 
 <div class="equation">
+ <!-- physics: eq-5 -->
  $$ I=4\frac{ M\ell^{2}}{3}=4×\frac{ \left(50.0 \kg \right){\left(4.00 \m \right)}^{2}}{3}=1067 \kg \cdot \mm. $$
 </div>
 
 Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic energy gives
 
 <div class="equation">
+<!-- physics: eq-8 -->
 $$ \begin{array}{lll}
 \KE_{\text{rot}}&=& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
 \KE_{\text{rot}}&=& 5.26\times 10^{5} \J
@@ -333,6 +340,7 @@ Translational kinetic energy was defined
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem). Entering the given values of mass and velocity, we obtain
 
 <div class="equation">
+ <!-- physics: eq-9 -->
  $$ \KE_{\text{trans}}=\frac{1}{2}m v^{2}=\left(0.5\right)\left(1000 \kg \right){\left(20.0 \ms \right)}^{2}=2.00\times 10^{5} \J . $$
 </div>
 
@@ -360,6 +368,7 @@ or
 We now solve for $$ h $$ and substitute known values into the resulting equation
 
 <div class="equation">
+ <!-- physics: eq-14 -->
  $$ h=\frac{ \frac{1}{2} I \omega^{2} }{mg}=\frac{5.26\times 10^{5} \J }{\left(1000 \kg \right)\left(9.80\mss \right)}=53.7 \m . $$
 </div>
 
@@ -449,7 +458,7 @@ Locate several cans each containing different types of food. First, predict whic
 
 ::::
 
-:::: example
+:::: example {"class":"example","id":"rolling-cylinder"}
 
 <div class="title">
 Calculating the Speed of a Cylinder Rolling Down an Incline
@@ -496,6 +505,7 @@ Solving algebraically, the equation for the final velocity $$ v $$ gives
 Substituting known values into the resulting expression yields
 
 <div class="equation">
+ <!-- physics: eq-13 -->
  $$ v=\sqrt{ \frac{4\left(9.80\mss \right)\left(2.00 \m \right)}{3} }=5.11 \ms . $$
 </div>
 

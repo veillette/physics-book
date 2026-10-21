@@ -111,14 +111,14 @@ shape of a boat, and it will float. Because of its shape, the boat displaces
 more water than the lump and experiences a greater buoyant force. The same is
 true of steel ships.
 
-::: example
+::: example {"class":"example","id":"steel-boat"}
 
 <div class="title">
 Calculating buoyant force: dependency on shape
 </div>
 
-(a) Calculate the buoyant force on 10 000 metric tons  $$\left( 1.00 \times 10^{7}  \text{kg}\right) $$
- of solid steel completely submerged in water, and compare this with the steel’s weight. (b) What is the maximum buoyant force that water could exert on this same steel if it were shaped into a boat that could displace  $$ 1.00 \times 10^{5}  {\text{m}}^{3} $$
+(a) Calculate the buoyant force on 10 000 metric tons  <!-- physics: eq-0 -->$$\left( 1.00 \times 10^{7}  \text{kg}\right) $$
+ of solid steel completely submerged in water, and compare this with the steel’s weight. (b) What is the maximum buoyant force that water could exert on this same steel if it were shaped into a boat that could displace  <!-- physics: eq-1 -->$$ 1.00 \times 10^{5}  {\text{m}}^{3} $$
  of water?
 
 **Strategy for (a)**
@@ -135,6 +135,7 @@ First, we use the definition of density $$\rho =\frac{m}{V} $$ to find the
 steel’s volume, and then we substitute values for mass and density. This gives
 
 <div class="equation" >
+ <!-- physics: eq-3 -->
  $${V}_{\text{st}}=\frac{ {m}_{\text{st}}}{ {\rho }_{\text{st}}}=\frac{ 1.00 \times 10^{7}  \text{kg}}{ 7.8 \times 10^{3}  {\text{kg/m}}^{3}}= 1.28 \times 10^{3}  {\text{m}}^{3}. $$
 </div>
 
@@ -142,6 +143,7 @@ Because the steel is completely submerged, this is also the volume of water disp
  We can now find the mass of water displaced from the relationship between its volume and density, both of which are known. This gives
 
 <div class="equation" >
+ <!-- physics: eq-5 -->
  $$\begin{array}{lll}{m}_{w}& =& {\rho }_{w}{V}_{w}=\left( 1.000 \times 10^{3}  {\text{kg/m}}^{3}\right)\left( 1.28 \times 10^{3}  {m}^{3}\right)\\ & =&  1.28 \times 10^{6}  \text{kg} \text{.} \end{array} $$
 </div>
 
@@ -149,10 +151,11 @@ By Archimedes’ principle, the weight of water displaced is  $${m}_{\text{w}}g 
  so the buoyant force is
 
 <div class="equation" >
+ <!-- physics: eq-7 -->
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.28 \times 10^{6}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  1.3 \times 10^{7}  \text{N} \text{.} \end{array} $$
 </div>
 
-The steel’s weight is  $${m}_{\text{s}}g= 9.80 \times 10^{7}  \text{N} $$ ,
+The steel’s weight is  <!-- physics: eq-8 -->$${m}_{\text{s}}g= 9.80 \times 10^{7}  \text{N} $$ ,
  which is much greater than the buoyant force, so the steel will remain submerged. Note that the buoyant force is rounded to two digits because the density of steel is given to only two digits.
 
 **Strategy for (b)**
@@ -172,6 +175,7 @@ volume, both of which are known. That is,
 The maximum buoyant force is the weight of this much water, or
 
 <div class="equation" >
+ <!-- physics: eq-10 -->
  $$\begin{array}{lll}{F}_{B}& =& {w}_{w}={m}_{w}g=\left( 1.00 \times 10^{8}  \text{kg}\right)\left(9.80 {\text{m/s}}^{2}\right)\\ & =&  9.80 \times 10^{8}  \text{N} \text{.} \end{array} $$
 </div>
 
@@ -266,13 +270,13 @@ Specific gravity is the ratio of the density of an object to a fluid (usually wa
 ![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](../resources/Figure_11_07_05.jpg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
 {: #Figure5}
 
-::: example
+::: example {"class":"example","id":"floating-woman"}
 
 <div class="title">
 Calculating Average Density: Floating Woman
 </div>
 
-Suppose a 60.0-kg woman floats in freshwater with  $$97.0\% $$
+Suppose a 60.0-kg woman floats in freshwater with  <!-- physics: eq-0 -->$$97.0\% $$
  of her volume submerged when her lungs are full of air. What is her average density?
 
 **Strategy**
@@ -296,6 +300,7 @@ We know both the fraction submerged and the density of water, and so we can calc
 Entering the known values into the expression for her density, we obtain
 
 <div class="equation" >
+ <!-- physics: eq-3 -->
  $${\overline{\rho }}_{\text{person}}= 0.970\cdot \left(10^{3}\frac{\text{kg}}{ {\text{m}}^{3}}\right)=970\frac{\text{kg}}{ {\text{m}}^{3}}. $$
 </div>
 
@@ -350,13 +355,13 @@ or
 
 The next example illustrates the use of this technique.
 
-::: example
+::: example {"class":"example","id":"coin-density"}
 
 <div class="title">
 Calculating Density: Is the Coin Authentic?
 </div>
 
-The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[Figure 7]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  $$ 1.000 {\text{g/cm}}^{3} $$
+The mass of an ancient Greek coin is determined in air to be 8.630 g. When the coin is submerged in water as shown in [[Figure 7]](#Figure7), its apparent mass is 7.800 g. Calculate its density, given that water has a density of  <!-- physics: eq-0 -->$$ 1.000 {\text{g/cm}}^{3} $$
  and that effects caused by the wire suspending the coin are negligible.
 
 **Strategy**
@@ -376,6 +381,7 @@ the coin, since it is completely submerged. We can now find the density of the
 coin using the definition of density:
 
 <div class="equation" >
+ <!-- physics: eq-8 -->
  $${\rho }_{\text{c}}=\frac{ {m}_{\text{c}}}{ {V}_{c}}=\frac{8.630 \text{g}}{0.830\text{cm}^{3}}= 10.4 {\text{g/cm}}^{3}. $$
 </div>
 
@@ -571,11 +577,11 @@ This demonstrates that buoyancy is an internal force within the water-marble sys
 
 ### Problem Exercises
 
-<div class="exercise" data-element-type="problems-exercises">
+<div class="exercise" data-element-type="problems-exercises" id="floating-ice">
 
 ::: problem
 
-What fraction of ice is submerged when it floats in freshwater, given the density of water at 0ºC is very close to  $$1000 \text{kg}{\text{/m}}^{3} $$ ?
+What fraction of ice is submerged when it floats in freshwater, given the density of water at 0ºC is very close to  <!-- physics: eq-0 -->$$1000 \text{kg}{\text{/m}}^{3} $$ ?
 
 :::
 
@@ -585,9 +591,10 @@ What fraction of ice is submerged when it floats in freshwater, given the densit
 Use the relationship for floating objects: fraction submerged = $$ \rho_{\text{object}} / \rho_{\text{fluid}} $$.
 
 **Solution:**
-From Table 1, the density of ice at 0°C is $$ \rho_{\text{ice}} = 0.917 \times 10^{3} \text{ kg/m}^3 = 917 \text{ kg/m}^3 $$.
+From Table 1, the density of ice at 0°C is <!-- physics: eq-2 -->$$ \rho_{\text{ice}} = 0.917 \times 10^{3} \text{ kg/m}^3 = 917 \text{ kg/m}^3 $$.
 
 For a floating object:
+<!-- physics: eq-3 -->
 $$ \text{fraction submerged} = \frac{\rho_{\text{ice}}}{\rho_{\text{water}}} = \frac{917 \text{ kg/m}^3}{1000 \text{ kg/m}^3} = 0.917 = 91.7\% $$
 
 **Discussion:**
@@ -881,7 +888,7 @@ $$ m_{\text{He}} = (0.179 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3) = 3.5
 $$ W_{\text{He}} = (3.58 \times 10^{-4} \text{ kg})(9.80 \text{ m/s}^2) = 0.00351 \text{ N} $$
 
 Net upward force:
-$$ F_{\text{net}} = F_B - W_{\text{rubber}} - W_{\text{He}} = 0.0253 - 0.0147 - 0.00351 = 0.00709 \text{ N} $$
+$$ F_{\text{net}} = F_B - W_{\text{rubber}} - W_{\text{He}} = 0.0253 \text{ N} - 0.0147 \text{ N} - 0.00351 \text{ N} = 0.00709 \text{ N} $$
 
 $$ F_{\text{net}} \approx 7.1 \times 10^{-3} \text{ N} $$ (upward)
 
@@ -1138,7 +1145,7 @@ $$ V_{\text{empty}} = \frac{75.0 \text{ kg}}{(1000 \text{ kg/m}^3)(0.970)} = 0.0
 $$ V_{\text{full}} = \frac{75.0 \text{ kg}}{(1000 \text{ kg/m}^3)(0.950)} = 0.07895 \text{ m}^3 $$
 
 *Lung capacity:*
-$$ V_{\text{lungs}} = V_{\text{full}} - V_{\text{empty}} = 0.07895 - 0.07732 = 0.00163 \text{ m}^3 $$
+$$ V_{\text{lungs}} = V_{\text{full}} - V_{\text{empty}} = 0.07895 \text{ m}^3 - 0.07732 \text{ m}^3 = 0.00163 \text{ m}^3 $$
 
 $$ V_{\text{lungs}} = 1.63 \text{ L} $$
 

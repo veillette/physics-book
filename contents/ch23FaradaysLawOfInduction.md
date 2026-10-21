@@ -570,7 +570,7 @@ $$\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = B(0) - B(0.250) = -
 The magnitude of induced emf is:
 
 <div class="equation">
-$$|\text{emf}| = N\left|\frac{\Delta\Phi}{\Delta t}\right| = 50\left|\frac{-0.375 \text{ Wb}}{0.100 \text{ s}}\right| = 50(3.75) = 188 \text{ V}$$
+$$|\text{emf}| = N\left|\frac{\Delta\Phi}{\Delta t}\right| = 50\left|\frac{-0.375 \text{ Wb}}{0.100 \text{ s}}\right| = 50(3.75 \text{ Wb/s}) = 188 \text{ V}$$
 </div>
 
 For direction: The flux into the page is decreasing. By Lenz's law, the induced current must create a field into the page to oppose this decrease. By RHR-2, a clockwise current (viewed from above) creates a field into the page.
@@ -612,19 +612,19 @@ $$r = \frac{d}{2} = \frac{0.0220 \text{ m}}{2} = 0.0110 \text{ m}$$
 The ring's area is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.0110)^2 = 3.80 \times 10^{-4} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.0110 \text{ m})^2 = 3.80 \times 10^{-4} \text{ m}^2$$
 </div>
 
 The change in magnetic flux is:
 
 <div class="equation">
-$$\Delta\Phi = B_{\text{final}}A - B_{\text{initial}}A = (2.00)(3.80 \times 10^{-4}) - 0 = 7.60 \times 10^{-4} \text{ Wb}$$
+$$\Delta\Phi = B_{\text{final}}A - B_{\text{initial}}A = (2.00 \text{ T})(3.80 \times 10^{-4} \text{ m}^2) - 0 = 7.60 \times 10^{-4} \text{ Wb}$$
 </div>
 
 The magnitude of induced emf is:
 
 <div class="equation">
-$$|\text{emf}| = \frac{\Delta\Phi}{\Delta t} = \frac{7.60 \times 10^{-4}}{0.250} = 3.04 \times 10^{-3} \text{ V} = 3.04 \text{ mV}$$
+$$|\text{emf}| = \frac{\Delta\Phi}{\Delta t} = \frac{7.60 \times 10^{-4} \text{ Wb}}{0.250 \text{ s}} = 3.04 \times 10^{-3} \text{ V} = 3.04 \text{ mV}$$
 </div>
 
 **Solution for (b)**
@@ -634,19 +634,19 @@ To estimate heating, we need to know the ring's resistance. For a gold wedding r
 The induced current during the 0.250 s interval is:
 
 <div class="equation">
-$$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3}}{1.00 \times 10^{-3}} = 3.04 \text{ A}$$
+$$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3} \text{ V}}{1.00 \times 10^{-3} \text{ Ω}} = 3.04 \text{ A}$$
 </div>
 
 The energy dissipated as heat is:
 
 <div class="equation">
-$$Q = I^2 R t = (3.04)^2(1.00 \times 10^{-3})(0.250) = 2.31 \times 10^{-3} \text{ J} = 2.31 \text{ mJ}$$
+$$Q = I^2 R t = (3.04 \text{ A})^2(1.00 \times 10^{-3} \text{ Ω})(0.250 \text{ s}) = 2.31 \times 10^{-3} \text{ J} = 2.31 \text{ mJ}$$
 </div>
 
 This is a very small amount of energy. To put it in perspective, the specific heat of gold is about 129 J/(kg·°C). For a typical 5-gram ring:
 
 <div class="equation">
-$$\Delta T = \frac{Q}{mc} = \frac{2.31 \times 10^{-3}}{(0.005)(129)} \approx 0.0036 \text{ °C}$$
+$$\Delta T = \frac{Q}{mc} = \frac{2.31 \times 10^{-3} \text{ J}}{(0.005 \text{ kg})(129 \text{ J/(kg·°C)})} \approx 0.0036 \text{ °C}$$
 </div>
 
 This temperature rise is negligible and would not be noticeable.
@@ -696,17 +696,17 @@ $$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3} \text{ V}}{0.0100 \Omega}
 **Solution for (b)**
 
 <div class="equation">
-$$P = I^2 R = (0.304)^2(0.0100) = 9.24 \times 10^{-4} \text{ W} = 0.924 \text{ mW}$$
+$$P = I^2 R = (0.304 \text{ A})^2(0.0100 \text{ Ω}) = 9.24 \times 10^{-4} \text{ W} = 0.924 \text{ mW}$$
 </div>
 
-Alternatively: $$P = \frac{\text{emf}^2}{R} = \frac{(3.04 \times 10^{-3})^2}{0.0100} = 9.24 \times 10^{-4} \text{ W}$$
+Alternatively: $$P = \frac{\text{emf}^2}{R} = \frac{(3.04 \times 10^{-3} \text{ V})^2}{0.0100 \text{ Ω}} = 9.24 \times 10^{-4} \text{ W}$$
 
 **Solution for (c)**
 
-The radius is $$r = d/2 = 0.0220/2 = 0.0110 \text{ m}$$:
+The radius is $$r = d/2 = (0.0220 \text{ m})/2 = 0.0110 \text{ m}$$:
 
 <div class="equation">
-$$B = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7})(0.304)}{2(0.0110)} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
+$$B = \frac{\mu_{0} I}{2r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(0.304 \text{ A})}{2(0.0110 \text{ m})} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
 </div>
 
 **Solution for (d)**
@@ -751,13 +751,13 @@ $$r = \frac{d}{2} = \frac{0.200 \text{ m}}{2} = 0.100 \text{ m}$$
 The coil area is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.100)^2 = 0.0314 \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.100 \text{ m})^2 = 0.0314 \text{ m}^2$$
 </div>
 
 The initial flux (perpendicular orientation):
 
 <div class="equation">
-$$\Phi_{i} = BA = (5.00 \times 10^{-5})(0.0314) = 1.57 \times 10^{-6} \text{ Wb}$$
+$$\Phi_{i} = BA = (5.00 \times 10^{-5} \text{ T})(0.0314 \text{ m}^2) = 1.57 \times 10^{-6} \text{ Wb}$$
 </div>
 
 The final flux (parallel orientation):
@@ -769,17 +769,17 @@ $$\Phi_{f} = 0$$
 The change in flux:
 
 <div class="equation">
-$$\Delta\Phi = \Phi_{f} - \Phi_{i} = 0 - 1.57 \times 10^{-6} = -1.57 \times 10^{-6} \text{ Wb}$$
+$$\Delta\Phi = \Phi_{f} - \Phi_{i} = 0 \text{ Wb} - 1.57 \times 10^{-6} \text{ Wb} = -1.57 \times 10^{-6} \text{ Wb}$$
 </div>
 
 The magnitude of average induced emf:
 
 <div class="equation">
-$$|\text{emf}| = N\frac{|\Delta\Phi|}{\Delta t} = 1000 \times \frac{1.57 \times 10^{-6}}{10.0 \times 10^{-3}}$$
+$$|\text{emf}| = N\frac{|\Delta\Phi|}{\Delta t} = 1000 \times \frac{1.57 \times 10^{-6} \text{ Wb}}{10.0 \times 10^{-3} \text{ s}}$$
 </div>
 
 <div class="equation">
-$$|\text{emf}| = 1000 \times 1.57 \times 10^{-4} = 0.157 \text{ V}$$
+$$|\text{emf}| = 1000 \times 1.57 \times 10^{-4} \text{ Wb/s} = 0.157 \text{ V}$$
 </div>
 
 **Discussion**
@@ -813,7 +813,7 @@ When rotated one-fourth revolution from perpendicular to parallel, $$\Delta(BA\c
 The area of the coil is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.250)^2 = 0.196 \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.250 \text{ m})^2 = 0.196 \text{ m}^2$$
 </div>
 
 From Faraday's law:
@@ -829,7 +829,7 @@ $$B = \frac{\text{emf} \cdot \Delta t}{NA}$$
 </div>
 
 <div class="equation">
-$$B = \frac{(10000 \text{ V})(4.17 \times 10^{-3} \text{ s})}{(500)(0.196 \text{ m}^2)} = \frac{41.7}{98.0} = 0.425 \text{ T}$$
+$$B = \frac{(10000 \text{ V})(4.17 \times 10^{-3} \text{ s})}{(500)(0.196 \text{ m}^2)} = \frac{41.7 \text{ V·s}}{98.0 \text{ m}^2} = 0.425 \text{ T}$$
 </div>
 
 **Discussion**
@@ -929,13 +929,13 @@ consequences.
 
 **(a)** The loop is in a vertical plane containing the lightning channel, as in Figure 4(b). Since its 1.00-m diameter is small compared with its 50.0-m distance from the channel, approximate the field as uniform across it:
 
-$$B=\frac{\mu_0I}{2\pi r}=\frac{(2.00\times10^{-7})(2.00\times10^6)}{50.0}=8.00\times10^{-3}\ \text{T}.$$
+$$B=\frac{\mu_0I}{2\pi r}=\frac{(2.00\times10^{-7}\ \text{T}\cdot\text{m/A})(2.00\times10^6\ \text{A})}{50.0\ \text{m}}=8.00\times10^{-3}\ \text{T}.$$
 
-$$A=\pi(0.500)^2=0.7854\ \text{m}^2,\qquad |\Delta\Phi|=BA=6.28\times10^{-3}\ \text{Wb}.$$
+$$A=\pi(0.500\ \text{m})^2=0.7854\ \text{m}^2,\qquad |\Delta\Phi|=BA=6.28\times10^{-3}\ \text{Wb}.$$
 
 The magnitude of the average induced emf while the current falls to zero is
 
-$$|\overline{\mathcal E}|=\frac{|\Delta\Phi|}{\Delta t}=\frac{6.28\times10^{-3}}{25.0\times10^{-6}}=251\ \text{V}.$$
+$$|\overline{\mathcal E}|=\frac{|\Delta\Phi|}{\Delta t}=\frac{6.28\times10^{-3}\ \text{Wb}}{25.0\times10^{-6}\ \text{s}}=251\ \text{V}.$$
 
 **(b)** A 251-V transient can disturb or damage electronics connected to a conducting loop. The resulting current and deposited energy depend on the loop's resistance, inductance, and connected devices, as well as the pulse duration. The voltage alone does not establish whether a fuse trips or an air gap breaks down.
 

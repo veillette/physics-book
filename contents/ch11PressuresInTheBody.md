@@ -1034,7 +1034,7 @@ Calculate the pressure due to the ocean at the bottom of the Marianas Trench nea
 
 $$ P = \rho g h = (1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(11,000 \text{ m}) = 1.10 \times 10^{8} \text{ Pa} $$
 
-This equals about $$ \frac{1.10 \times 10^8}{1.013 \times 10^5} \approx 1090 \text{ atm} $$.
+This equals about $$ \frac{1.10 \times 10^8 \text{ Pa}}{1.013 \times 10^5 \text{ Pa/atm}} \approx 1090 \text{ atm} $$.
 
 (b) The bulk modulus of water is $$ B = 2.2 \times 10^{9} \text{ Pa} $$. The fractional volume decrease is:
 
@@ -1154,7 +1154,7 @@ We calculate the pressure needed to support a 90 m column of water using $$ P = 
 
 $$ P = \rho g h = (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(90 \text{ m}) = 8.82 \times 10^{5} \text{ Pa} $$
 
-Converting to atmospheres: $$ P = \frac{8.82 \times 10^5}{1.013 \times 10^5} = 8.71 \text{ atm} $$
+Converting to atmospheres: $$ P = \frac{8.82 \times 10^5 \text{ Pa}}{1.013 \times 10^5 \text{ Pa/atm}} = 8.71 \text{ atm} $$
 
 The required gauge pressure (suction) would need to be approximately **8.82 × 10⁵ Pa** or about **8.7 atm below atmospheric pressure**.
 
@@ -1262,7 +1262,7 @@ $$ F_{\text{buoyant, max}} = \rho_{\text{water}} V_{\text{log}} g = (1000 \text{
 
 The net upward force available to support people (when log is fully submerged):
 
-$$ F_{\text{available}} = F_{\text{buoyant, max}} - W_{\text{log}} = 3690 \text{ N} - (226 \text{ kg})(9.80 \text{ m/s}^2) = 3690 - 2215 = 1475 \text{ N} $$
+$$ F_{\text{available}} = F_{\text{buoyant, max}} - W_{\text{log}} = 3690 \text{ N} - (226 \text{ kg})(9.80 \text{ m/s}^2) = 3690 \text{ N} - 2215 \text{ N} = 1475 \text{ N} $$
 
 Each person needs 150 N of support. The number of people supported:
 

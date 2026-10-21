@@ -815,11 +815,11 @@ This tiny threshold voltage (6.00 mV) is about 20,000 times smaller than househo
 
 **(a)** The 220-V AC rating is rms. For a resistive short circuit, peak power is twice average power:
 
-$$P_{\text{peak}}=\frac{2V_{\text{rms}}^2}{R},\qquad R=\frac{2(220)^2}{96.8\times10^3}=1.00\ \Omega.$$
+$$P_{\text{peak}}=\frac{2V_{\text{rms}}^2}{R},\qquad R=\frac{2(220\ \text{V})^2}{96.8\times10^3\ \text{W}}=1.00\ \Omega.$$
 
 **(b)** At 120 V rms through the same resistance,
 
-$$P_{\text{avg}}=\frac{V_{\text{rms}}^2}{R}=\frac{120^2}{1.00}=14.4\ \text{kW}.$$
+$$P_{\text{avg}}=\frac{V_{\text{rms}}^2}{R}=\frac{(120\ \text{V})^2}{1.00\ \Omega}=14.4\ \text{kW}.$$
 
 At 220 V the average power was 48.4 kW. The ratio of average powers is $$(220/120)^2=3.36$$; comparing the original peak power to the new average introduces another factor of two.
 

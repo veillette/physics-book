@@ -735,9 +735,9 @@ $$ V_{\text{steel}} = \frac{m_{\text{steel}}}{\rho_{\text{steel}}} = \frac{2.50 
 
 *Step 3: Calculate average density*
 
-Total mass: $$ m_{\text{total}} = 2.50 + 13.6 = 16.1 \text{ kg} $$
+Total mass: $$ m_{\text{total}} = 2.50 \text{ kg} + 13.6 \text{ kg} = 16.1 \text{ kg} $$
 
-Total volume: $$ V_{\text{total}} = 0.0200 + 3.21 \times 10^{-4} = 0.0203 \text{ m}^3 $$
+Total volume: $$ V_{\text{total}} = 0.0200 \text{ m}^3 + 3.21 \times 10^{-4} \text{ m}^3 = 0.0203 \text{ m}^3 $$
 
 <div class="equation">
 $$ \rho_{\text{avg}} = \frac{m_{\text{total}}}{V_{\text{total}}} = \frac{16.1 \text{ kg}}{0.0203 \text{ m}^3} = 793 \text{ kg/m}^3 \approx 7.9 \times 10^{2} \text{ kg/m}^3 $$
@@ -793,7 +793,7 @@ $$ \rho_{\text{avg}} = \frac{m}{V_{\text{total}}} = \frac{1}{\frac{f_{\text{Au}}
 
 Substituting values:
 <div class="equation">
-$$ \rho_{\text{avg}} = \frac{1}{\frac{0.750}{19.32} + \frac{0.208}{10.5} + \frac{0.0417}{8.8}} = \frac{1}{0.03882 + 0.01981 + 0.00474} = \frac{1}{0.06337} = 15.8 \text{ g/cm}^3 $$
+$$ \rho_{\text{avg}} = \frac{1}{\frac{0.750}{19.32 \text{ g/cm}^3} + \frac{0.208}{10.5 \text{ g/cm}^3} + \frac{0.0417}{8.8 \text{ g/cm}^3}} = \frac{1}{0.03882 \text{ cm}^3/\text{g} + 0.01981 \text{ cm}^3/\text{g} + 0.00474 \text{ cm}^3/\text{g}} = \frac{1}{0.06337 \text{ cm}^3/\text{g}} = 15.8 \text{ g/cm}^3 $$
 </div>
 
 Keeping three significant figures (unrounded value 15.77 g/cm³): $$ \rho_{\text{avg}} \approx 15.8 \text{ g/cm}^3 $$
@@ -850,7 +850,7 @@ Mass of neutron star: $$ M = 10 M_{\text{Sun}} = 10(2.0 \times 10^{30} \text{ kg
 Using $$ \rho = M/V $$ and $$ V = \frac{4}{3}\pi r^3 $$:
 
 <div class="equation">
-$$ r^3 = \frac{3M}{4\pi \rho} = \frac{3(2.0 \times 10^{31} \text{ kg})}{4\pi (10^{18} \text{ kg/m}^3)} = \frac{6.0 \times 10^{31}}{1.26 \times 10^{19}} = 4.76 \times 10^{12} \text{ m}^3 $$
+$$ r^3 = \frac{3M}{4\pi \rho} = \frac{3(2.0 \times 10^{31} \text{ kg})}{4\pi (10^{18} \text{ kg/m}^3)} = \frac{6.0 \times 10^{31} \text{ kg}}{1.26 \times 10^{19} \text{ kg/m}^3} = 4.76 \times 10^{12} \text{ m}^3 $$
 </div>
 
 <div class="equation">

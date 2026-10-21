@@ -1124,7 +1124,7 @@ Since Sidekick is motionless:
 $$ \sum F_y = T_2 - m_S g = 0 $$
 </div>
 
-As a check, Superhero's diagram gives $$ \sum F_y = T_1 - w_H - T_2 = 1421 \N - 882 \N - 539 \N = 0 $$.
+As a check, Superhero's diagram gives $$ \sum F_y = T_1 - w_H - T_2 = 1421 \N - 882 \N - 539 \N = 0\,\text{N} $$.
 
 <div class="equation">
 $$ T_2 = m_S g = (55.0 \kg)(9.80 \mss) = 539 \N \approx 5.39 \times 10^{2} \N $$

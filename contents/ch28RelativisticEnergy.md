@@ -616,13 +616,13 @@ What is the rest energy of an electron, given its mass is  $$ 9.11 \times 10^{-3
 
 **Strategy**
 
-Use Einstein's rest energy formula $$E_0 = mc^{2}$$ and convert from joules to MeV using $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
+Use Einstein's rest energy formula $$E_0 = mc^{2}$$ and convert from joules to MeV using $$1 \text{ MeV} = 1.602 \times 10^{-13}\,\text{J}$$ J.
 
 **Solution**
 
 $$E_0 = mc^{2} = (9.11 \times 10^{-31} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
 
-$$E_0 = (9.11 \times 10^{-31})(9.00 \times 10^{16}) = 8.20 \times 10^{-14} \text{ J}$$
+$$E_0 = (9.11 \times 10^{-31} \text{ kg})(9.00 \times 10^{16} \text{ m}^2/\text{s}^2) = 8.20 \times 10^{-14} \text{ J}$$
 
 Converting to MeV:
 
@@ -648,13 +648,13 @@ Find the rest energy in joules and MeV of a proton, given its mass is  $$ 1.67 \
 
 **Strategy**
 
-Use Einstein's rest energy formula $$E_0 = mc^{2}$$ and convert the result from joules to MeV using the conversion factor $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
+Use Einstein's rest energy formula $$E_0 = mc^{2}$$ and convert the result from joules to MeV using the conversion factor $$1 \text{ MeV} = 1.602 \times 10^{-13}\,\text{J}$$ J.
 
 **Solution**
 
 $$E_0 = mc^{2} = (1.67 \times 10^{-27} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
 
-$$E_0 = (1.67 \times 10^{-27})(9.00 \times 10^{16}) = 1.503 \times 10^{-10} \text{ J}$$
+$$E_0 = (1.67 \times 10^{-27} \text{ kg})(9.00 \times 10^{16} \text{ m}^2/\text{s}^2) = 1.503 \times 10^{-10} \text{ J}$$
 
 Converting to MeV:
 
@@ -686,7 +686,7 @@ The mass difference corresponds to the energy difference through $$\Delta E = \D
 
 Energy difference:
 
-$$\Delta E = E_n - E_p = 939.6 - 938.3 = 1.3 \text{ MeV}$$
+$$\Delta E = E_n - E_p = 939.6 \text{ MeV} - 938.3 \text{ MeV} = 1.3 \text{ MeV}$$
 
 Converting to joules:
 
@@ -727,7 +727,7 @@ Energy per star:
 
 $$E_{\text{star}} = mc^{2} = (4.00 \times 10^{30} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
 
-$$E_{\text{star}} = (4.00 \times 10^{30})(9.00 \times 10^{16}) = 3.60 \times 10^{47} \text{ J}$$
+$$E_{\text{star}} = (4.00 \times 10^{30} \text{ kg})(9.00 \times 10^{16} \text{ m}^2/\text{s}^2) = 3.60 \times 10^{47} \text{ J}$$
 
 Number of stars:
 
@@ -768,7 +768,7 @@ A supernova explosion of a  $$ 2.00 \times 10^{31}  \text{kg} $$
 
 (a) Mass converted to energy:
 
-$$\Delta m = \frac{E}{c^2} = \frac{1.00 \times 10^{44} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{1.00 \times 10^{44}}{9.00 \times 10^{16}}$$
+$$\Delta m = \frac{E}{c^2} = \frac{1.00 \times 10^{44} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{1.00 \times 10^{44} \text{ J}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2}$$
 
 $$\Delta m = 1.11 \times 10^{27} \text{ kg}$$
 
@@ -806,7 +806,7 @@ From energy tables, uranium fission releases approximately $$8.0 \times 10^{13}$
 
 Mass converted to energy:
 
-$$\Delta m = \frac{E}{c^2} = \frac{8.0 \times 10^{13} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{8.0 \times 10^{13}}{9.00 \times 10^{16}} = 8.9 \times 10^{-4} \text{ kg}$$
+$$\Delta m = \frac{E}{c^2} = \frac{8.0 \times 10^{13} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{8.0 \times 10^{13} \text{ J}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 8.9 \times 10^{-4} \text{ kg}$$
 
 (b) Ratio of mass destroyed to original mass:
 
@@ -844,7 +844,7 @@ From energy tables, hydrogen fusion releases approximately $$6.4 \times 10^{14}$
 
 Mass converted to energy:
 
-$$\Delta m = \frac{E}{c^2} = \frac{6.4 \times 10^{14}}{(3.00 \times 10^8)^2} = \frac{6.4 \times 10^{14}}{9.00 \times 10^{16}} = 7.1 \times 10^{-3} \text{ kg}$$
+$$\Delta m = \frac{E}{c^2} = \frac{6.4 \times 10^{14} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{6.4 \times 10^{14} \text{ J}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 7.1 \times 10^{-3} \text{ kg}$$
 
 (b) Ratio of mass destroyed to original mass:
 
@@ -886,15 +886,15 @@ There is approximately  $${10}^{34} \text{J} $$
 
 (a) Mass decrease from energy utilization:
 
-$$\Delta m = \frac{E}{c^2} = \frac{10^{33} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{10^{33}}{9.00 \times 10^{16}} = 1.11 \times 10^{16} \text{ kg}$$
+$$\Delta m = \frac{E}{c^2} = \frac{10^{33} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{10^{33} \text{ J}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 1.11 \times 10^{16} \text{ kg}$$
 
 (b) If 0.08% of water mass converts to energy:
 
-$$m_{\text{water}} = \frac{\Delta m}{0.0008} = \frac{1.11 \times 10^{16}}{0.0008} = 1.39 \times 10^{19} \text{ kg}$$
+$$m_{\text{water}} = \frac{\Delta m}{0.0008} = \frac{1.11 \times 10^{16} \text{ kg}}{0.0008} = 1.39 \times 10^{19} \text{ kg}$$
 
 Volume (using density = 1000 kg/m³):
 
-$$V = \frac{m_{\text{water}}}{\rho} = \frac{1.39 \times 10^{19}}{1000} = 1.39 \times 10^{16} \text{ m}^3 = 1.39 \times 10^{7} \text{ km}^3$$
+$$V = \frac{m_{\text{water}}}{\rho} = \frac{1.39 \times 10^{19} \text{ kg}}{1000 \text{ kg/m}^3} = 1.39 \times 10^{16} \text{ m}^3 = 1.39 \times 10^{7} \text{ km}^3$$
 
 (c) The oceans contain approximately $$1.4 \times 10^{21}$$ kg of water. The fraction used:
 
@@ -927,7 +927,7 @@ The energy available for kinetic energy is the mass difference between muon and 
 
 (a) Kinetic energy of electron:
 
-$$KE = E_{\mu} - E_{e,\text{rest}} = 105.7 - 0.511 = 105.2 \text{ MeV}$$
+$$KE = E_{\mu} - E_{e,\text{rest}} = 105.7 \text{ MeV} - 0.511 \text{ MeV} = 105.2 \text{ MeV}$$
 
 Using $$KE = (\gamma - 1)m_ec^{2}$$:
 
@@ -980,7 +980,7 @@ Energy conservation: $$E_{\pi} = E_{\mu} + E_{\nu}$$. Since the $$\pi$$ is at re
 
 Kinetic energy of muon:
 
-$$KE_{\mu} = E_{\pi} - E_{\mu,\text{rest}} = 139.6 - 105.7 = 33.9 \text{ MeV}$$
+$$KE_{\mu} = E_{\pi} - E_{\mu,\text{rest}} = 139.6 \text{ MeV} - 105.7 \text{ MeV} = 33.9 \text{ MeV}$$
 
 Using $$KE = (\gamma - 1)mc^{2}$$:
 
@@ -1033,13 +1033,13 @@ $$\gamma = \frac{1}{\sqrt{1-0.4444}} = \frac{1}{\sqrt{0.5556}} = \frac{1}{0.7454
 
 Relativistic kinetic energy:
 
-$$KE_{\text{rel}} = (\gamma - 1)mc^{2} = (1.342 - 1)(1000)(45.0)^2$$
+$$KE_{\text{rel}} = (\gamma - 1)mc^{2} = (1.342 - 1)(1000 \text{ kg})(45.0 \text{ m/s})^2$$
 
-$$KE_{\text{rel}} = (0.342)(1000)(2025) = 6.92 \times 10^5 \text{ J}$$
+$$KE_{\text{rel}} = (0.342)(1000 \text{ kg})(2025 \text{ m}^2/\text{s}^2) = 6.92 \times 10^5 \text{ J}$$
 
 (b) Classical kinetic energy:
 
-$$KE_{\text{class}} = \frac{1}{2}mv^{2} = \frac{1}{2}(1000)(30.0)^2 = 4.50 \times 10^5 \text{ J}$$
+$$KE_{\text{class}} = \frac{1}{2}mv^{2} = \frac{1}{2}(1000 \text{ kg})(30.0 \text{ m/s})^2 = 4.50 \times 10^5 \text{ J}$$
 
 Ratio:
 
@@ -1074,17 +1074,17 @@ First check if relativistic treatment is needed by comparing KE to rest energy. 
 
 Rest energy of alpha particle:
 
-$$E_0 = mc^{2} = (6.80 \times 10^{-27})(3.00 \times 10^8)^2 = 6.12 \times 10^{-10} \text{ J}$$
+$$E_0 = mc^{2} = (6.80 \times 10^{-27} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2 = 6.12 \times 10^{-10} \text{ J}$$
 
-Converting to MeV: $$E_0 = \frac{6.12 \times 10^{-10}}{1.602 \times 10^{-13}} = 3820 \text{ MeV}$$
+Converting to MeV: $$E_0 = \frac{6.12 \times 10^{-10} \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV}} = 3820 \text{ MeV}$$
 
 Since $$KE = 5.00$$ MeV $$\ll 3820$$ MeV, classical treatment is adequate:
 
 $$KE = \frac{1}{2}mv^{2}$$
 
-$$v = \sqrt{\frac{2 \cdot KE}{m}} = \sqrt{\frac{2(5.00 \times 1.602 \times 10^{-13})}{6.80 \times 10^{-27}}}$$
+$$v = \sqrt{\frac{2 \cdot KE}{m}} = \sqrt{\frac{2(5.00 \times 1.602 \times 10^{-13} \text{ J})}{6.80 \times 10^{-27} \text{ kg}}}$$
 
-$$v = \sqrt{\frac{1.602 \times 10^{-12}}{6.80 \times 10^{-27}}} = \sqrt{2.356 \times 10^{14}} = 1.54 \times 10^7 \text{ m/s}$$
+$$v = \sqrt{\frac{1.602 \times 10^{-12} \text{ J}}{6.80 \times 10^{-27} \text{ kg}}} = \sqrt{2.356 \times 10^{14} \text{ m}^2/\text{s}^2} = 1.54 \times 10^7 \text{ m/s}$$
 
 As a fraction of $$c$$: $$v = \frac{1.54 \times 10^7}{3.00 \times 10^8} = 0.0513c$$
 
@@ -1162,9 +1162,9 @@ A positron is an antimatter version of the electron, having exactly the same mas
 
 (a) Energy released:
 
-$$E = 2m_ec^{2} = 2(9.11 \times 10^{-31})(3.00 \times 10^8)^2 = 1.64 \times 10^{-13} \text{ J}$$
+$$E = 2m_ec^{2} = 2(9.11 \times 10^{-31} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2 = 1.64 \times 10^{-13} \text{ J}$$
 
-In MeV: $$E = 2(0.511) = 1.02 \text{ MeV}$$
+In MeV: $$E = 2(0.511 \text{ MeV}) = 1.02 \text{ MeV}$$
 
 (b) For proton ($$m_p = 1.67 \times 10^{-27}$$ kg, rest energy 938 MeV):
 
@@ -1225,7 +1225,7 @@ Kinetic energy:
 
 $$KE = (\gamma - 1)mc^{2} = (1.667 - 1)(135 \text{ MeV})$$
 
-$$KE = (0.667)(135) = 90.0 \text{ MeV}$$
+$$KE = (0.667)(135 \text{ MeV}) = 90.0 \text{ MeV}$$
 
 **Discussion**
 
@@ -1261,7 +1261,7 @@ Kinetic energy:
 
 $$KE = (\gamma - 1)mc^{2} = (2.294 - 1)(939.6 \text{ MeV})$$
 
-$$KE = (1.294)(939.6) = 1216 \text{ MeV} = 1.22 \text{ GeV}$$
+$$KE = (1.294)(939.6 \text{ MeV}) = 1216 \text{ MeV} = 1.22 \text{ GeV}$$
 
 **Discussion**
 
@@ -1484,7 +1484,7 @@ Find the oil mass and use the table's specific energy, $$4.2\times10^7\text{ J/k
 
 **Solution**
 
-**(a)** $$m=\rho V=(750\text{ kg/m}^3)(0.200\text{ m}^3)=150\text{ kg}$$. The released energy is $$E=(150)(4.2\times10^7)=6.3\times10^9\text{ J}$$, so
+**(a)** $$m=\rho V=(750\text{ kg/m}^3)(0.200\text{ m}^3)=150\text{ kg}$$. The released energy is $$E=(150\text{ kg})(4.2\times10^7\text{ J/kg})=6.3\times10^9\text{ J}$$, so
 
 $$\Delta m=\frac{E}{c^2}=\frac{6.3\times10^9}{9.00\times10^{16}}\text{ kg}=7.0\times10^{-8}\text{ kg}.$$
 
@@ -1611,13 +1611,13 @@ Suppose you use an average of  $$500 kW·h $$
 
 (a) Energy from 1.00 g = $$10^{-3}$$ kg:
 
-$$E = mc^{2} = (10^{-3})(3.00 \times 10^8)^2 = 9.00 \times 10^{13} \text{ J}$$
+$$E = mc^{2} = (10^{-3} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2 = 9.00 \times 10^{13} \text{ J}$$
 
 Useful energy (38% efficient):
 
-$$E_{\text{useful}} = 0.38 \times 9.00 \times 10^{13} = 3.42 \times 10^{13} \text{ J}$$
+$$E_{\text{useful}} = 0.38 \times 9.00 \times 10^{13} \text{ J} = 3.42 \times 10^{13} \text{ J}$$
 
-Convert to kW·h: $$E_{\text{useful}} = \frac{3.42 \times 10^{13}}{3.6 \times 10^6} = 9.50 \times 10^{6} \text{ kW·h}$$
+Convert to kW·h: $$E_{\text{useful}} = \frac{3.42 \times 10^{13} \text{ J}}{3.6 \times 10^6 \text{ J/(kW·h)}} = 9.50 \times 10^{6} \text{ kW·h}$$
 
 Number of months:
 
@@ -1625,7 +1625,7 @@ $$t = \frac{9.50 \times 10^6}{500} = 19,000 \text{ months} = 1583 \text{ years}$
 
 (b) Energy needed for one home for one year:
 
-$$E_{\text{home/year}} = 500 \times 12 = 6000 \text{ kW·h}$$
+$$E_{\text{home/year}} = (500 \text{ kW·h/month})(12 \text{ months}) = 6000 \text{ kW·h}$$
 
 Number of homes for one year:
 
@@ -1659,15 +1659,15 @@ One gram of mass, converted to electricity at 38% efficiency (typical for a good
 
 $$E_{\text{elec}} = P \times t = (1000 \times 10^6 \text{ W})(365.25 \times 24 \times 3600 \text{ s})$$
 
-$$E_{\text{elec}} = (10^9)(3.156 \times 10^7) = 3.156 \times 10^{16} \text{ J}$$
+$$E_{\text{elec}} = (10^9 \text{ W})(3.156 \times 10^7 \text{ s}) = 3.156 \times 10^{16} \text{ J}$$
 
 Total nuclear energy needed (at 35% efficiency):
 
-$$E_{\text{total}} = \frac{E_{\text{elec}}}{0.35} = \frac{3.156 \times 10^{16}}{0.35} = 9.017 \times 10^{16} \text{ J}$$
+$$E_{\text{total}} = \frac{E_{\text{elec}}}{0.35} = \frac{3.156 \times 10^{16} \text{ J}}{0.35} = 9.017 \times 10^{16} \text{ J}$$
 
 Mass destroyed:
 
-$$\Delta m = \frac{E_{\text{total}}}{c^2} = \frac{9.017 \times 10^{16}}{(3.00 \times 10^8)^2} = \frac{9.017 \times 10^{16}}{9.00 \times 10^{16}} = 1.00 \text{ kg}$$
+$$\Delta m = \frac{E_{\text{total}}}{c^2} = \frac{9.017 \times 10^{16} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{9.017 \times 10^{16} \text{ J}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 1.00 \text{ kg}$$
 
 (b) Mass loss as percentage of fuel:
 
@@ -1699,17 +1699,17 @@ Nuclear-powered rockets were researched for some years before safety concerns be
 
 (a) Orbital velocity at radius $$r = R_E + h = 6.37 \times 10^6 + 2.5 \times 10^5 = 6.62 \times 10^6$$ m:
 
-$$v_{\text{orb}} = \sqrt{\frac{GM}{r}} = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{6.62 \times 10^6}} = \sqrt{6.01 \times 10^7} = 7750 \text{ m/s}$$
+$$v_{\text{orb}} = \sqrt{\frac{GM}{r}} = \sqrt{\frac{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(5.97 \times 10^{24} \text{ kg})}{6.62 \times 10^6 \text{ m}}} = \sqrt{6.01 \times 10^7 \text{ m}^2/\text{s}^2} = 7750 \text{ m/s}$$
 
 For 100,000 kg rocket:
 
-Kinetic energy: $$KE = \frac{1}{2}mv^{2} = \frac{1}{2}(10^5)(7750)^2 = 3.00 \times 10^{12} \text{ J}$$
+Kinetic energy: $$KE = \frac{1}{2}mv^{2} = \frac{1}{2}(10^5 \text{ kg})(7750 \text{ m/s})^2 = 3.00 \times 10^{12} \text{ J}$$
 
-Potential energy: $$PE = mgh = (10^5)(9.8)(2.5 \times 10^5) = 2.45 \times 10^{11} \text{ J}$$
+Potential energy: $$PE = mgh = (10^5 \text{ kg})(9.8 \text{ m/s}^2)(2.5 \times 10^5 \text{ m}) = 2.45 \times 10^{11} \text{ J}$$
 
-Total energy: $$E = 3.00 \times 10^{12} + 2.45 \times 10^{11} = 3.245 \times 10^{12} \text{ J}$$
+Total energy: $$E = 3.00 \times 10^{12} \text{ J} + 2.45 \times 10^{11} \text{ J} = 3.245 \times 10^{12} \text{ J}$$
 
-Mass to destroy: $$\Delta m = \frac{E}{c^2} = \frac{3.245 \times 10^{12}}{9.00 \times 10^{16}} = 3.61 \times 10^{-5} \text{ kg}$$
+Mass to destroy: $$\Delta m = \frac{E}{c^2} = \frac{3.245 \times 10^{12} \text{ J}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 3.61 \times 10^{-5} \text{ kg}$$
 
 Fraction: $$\frac{\Delta m}{m} = \frac{3.61 \times 10^{-5}}{10^5} = 3.61 \times 10^{-10}$$
 
@@ -1754,19 +1754,19 @@ The Sun produces energy at a rate of  $$ 4.00 \times 10^{26}  $$
 
 Mass converted per second:
 
-$$\Delta m = \frac{E}{c^2} = \frac{4.00 \times 10^{26}}{9.00 \times 10^{16}} = 4.44 \times 10^9 \text{ kg/s}$$
+$$\Delta m = \frac{E}{c^2} = \frac{4.00 \times 10^{26} \text{ J/s}}{9.00 \times 10^{16} \text{ m}^2/\text{s}^2} = 4.44 \times 10^9 \text{ kg/s}$$
 
 Since fusion converts 0.7% of hydrogen to energy ($$\Delta m/m = 0.007$$):
 
-Hydrogen fused per second: $$m_H = \frac{\Delta m}{0.007} = \frac{4.44 \times 10^9}{0.007} = 6.34 \times 10^{11} \text{ kg/s}$$
+Hydrogen fused per second: $$m_H = \frac{\Delta m}{0.007} = \frac{4.44 \times 10^9 \text{ kg/s}}{0.007} = 6.34 \times 10^{11} \text{ kg/s}$$
 
 (b) Sun's mass: $$M_{\odot} = 2.00 \times 10^{30}$$ kg
 
 Fusionable hydrogen: $$m_{\text{fusionable}} = 0.90 \times 0.50 \times 2.00 \times 10^{30} = 9.00 \times 10^{29}$$ kg
 
-Lifetime: $$t = \frac{m_{\text{fusionable}}}{m_H \text{ per second}} = \frac{9.00 \times 10^{29}}{6.34 \times 10^{11}} = 1.42 \times 10^{18} \text{ s}$$
+Lifetime: $$t = \frac{m_{\text{fusionable}}}{m_H \text{ per second}} = \frac{9.00 \times 10^{29} \text{ kg}}{6.34 \times 10^{11} \text{ kg/s}} = 1.42 \times 10^{18} \text{ s}$$
 
-Converting to years: $$t = \frac{1.42 \times 10^{18}}{3.156 \times 10^7} = 4.5 \times 10^{10} \text{ years}$$
+Converting to years: $$t = \frac{1.42 \times 10^{18} \text{ s}}{3.156 \times 10^7 \text{ s/year}} = 4.5 \times 10^{10} \text{ years}$$
 
 (c) From part (a): $$\Delta m = 4.44 \times 10^9$$ kg/s
 
@@ -1816,7 +1816,7 @@ $$E_0 = m_pc^{2} = 938 \text{ MeV}$$
 
 Kinetic energy:
 
-$$KE = E - E_0 = 50.0 - 938 = -888 \text{ MeV}$$
+$$KE = E - E_0 = 50.0 \text{ MeV} - 938 \text{ MeV} = -888 \text{ MeV}$$
 
 (b) **This result is unreasonable because kinetic energy cannot be negative.** Kinetic energy represents the energy of motion and must always be ≥ 0. A negative kinetic energy would imply that the proton has less than its rest energy, which violates the fundamental relation $$E = \gamma mc^{2}$$ where $$\gamma \geq 1$$.
 

@@ -437,11 +437,11 @@ For each reaction, calculate the mass defect and convert to energy using $$E = (
 Atomic masses include the electrons. The two $${}^{1}\text{H}$$ atoms on the left have two electrons, while the $${}^{2}\text{H}$$ atom on the right has only one. The products therefore contain one extra electron (left over from the hydrogen atoms) plus the positron, so we subtract $$2m_e$$:
 
 <div class="equation">
-$$ \Delta m = 2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e = 2(1.007825) - 2.014102 - 2(0.000549) = 0.000450 \text{ u} $$
+$$ \Delta m = 2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e = 2(1.007825 \text{ u}) - 2.014102 \text{ u} - 2(0.000549 \text{ u}) = 0.000450 \text{ u} $$
 </div>
 
 <div class="equation">
-$$ E_1 = (0.000450)(931.5) = 0.419 \text{ MeV} \approx 0.42 \text{ MeV} \quad \checkmark $$
+$$ E_1 = (0.000450 \text{ u})(931.5 \text{ MeV/u}) = 0.419 \text{ MeV} \approx 0.42 \text{ MeV} \quad \checkmark $$
 </div>
 
 This is the kinetic energy shared by the deuteron, positron, and neutrino. When the positron later annihilates with an electron, a further $$2m_ec^{2} = 1.022$$ MeV is released, but that is not part of this reaction's energy.
@@ -449,21 +449,21 @@ This is the kinetic energy shared by the deuteron, positron, and neutrino. When 
 **Reaction 2:** $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$
 
 <div class="equation">
-$$ \Delta m = [m({}^{1}\text{H}) + m({}^{2}\text{H})] - m({}^{3}\text{He}) = [1.007825 + 2.014102] - 3.016029 = 0.005898 \text{ u} $$
+$$ \Delta m = [m({}^{1}\text{H}) + m({}^{2}\text{H})] - m({}^{3}\text{He}) = [1.007825 \text{ u} + 2.014102 \text{ u}] - 3.016029 \text{ u} = 0.005898 \text{ u} $$
 </div>
 
 <div class="equation">
-$$ E_2 = (0.005898)(931.5) = 5.49 \text{ MeV} \quad \checkmark $$
+$$ E_2 = (0.005898 \text{ u})(931.5 \text{ MeV/u}) = 5.49 \text{ MeV} \quad \checkmark $$
 </div>
 
 **Reaction 3:** $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}$$
 
 <div class="equation">
-$$ \Delta m = 2m({}^{3}\text{He}) - [m({}^{4}\text{He}) + 2m({}^{1}\text{H})] = 2(3.016029) - [4.002603 + 2(1.007825)] = 0.013805 \text{ u} $$
+$$ \Delta m = 2m({}^{3}\text{He}) - [m({}^{4}\text{He}) + 2m({}^{1}\text{H})] = 2(3.016029 \text{ u}) - [4.002603 \text{ u} + 2(1.007825 \text{ u})] = 0.013805 \text{ u} $$
 </div>
 
 <div class="equation">
-$$ E_3 = (0.013805)(931.5) = 12.86 \text{ MeV} \quad \checkmark $$
+$$ E_3 = (0.013805 \text{ u})(931.5 \text{ MeV/u}) = 12.86 \text{ MeV} \quad \checkmark $$
 </div>
 
 **Discussion**
@@ -564,11 +564,11 @@ Calculate mass defect using atomic masses: $$m(n) = 1.008665$$ u, $$m({}^{2}\tex
 **Solution**
 
 <div class="equation">
-$$ \Delta m = [m(n) + m({}^{2}\text{H})] - m({}^{3}\text{H}) = [1.008665 + 2.014102] - 3.016049 = 0.006718 \text{ u} $$
+$$ \Delta m = [m(n) + m({}^{2}\text{H})] - m({}^{3}\text{H}) = [1.008665 \text{ u} + 2.014102 \text{ u}] - 3.016049 \text{ u} = 0.006718 \text{ u} $$
 </div>
 
 <div class="equation">
-$$ E = (0.006718)(931.5) = 6.26 \text{ MeV} $$
+$$ E = (0.006718 \text{ u})(931.5 \text{ MeV/u}) = 6.26 \text{ MeV} $$
 </div>
 
 **Discussion**
@@ -692,9 +692,9 @@ interacts, since large detectors observe very few per day.
 
 **Solution**
 
-(a) Power from p-p cycle: $$(0.90)(4 \times 10^{26}) = 3.6 \times 10^{26} \text{ W}$$
+(a) Power from p-p cycle: $$(0.90)(4 \times 10^{26} \text{ W}) = 3.6 \times 10^{26} \text{ W}$$
 
-Energy per cycle: $$26.7 \text{ MeV} = (26.7)(1.602 \times 10^{-13}) = 4.28 \times 10^{-12} \text{ J}$$
+Energy per cycle: $$26.7 \text{ MeV} = (26.7 \text{ MeV})(1.602 \times 10^{-13} \text{ J/MeV}) = 4.28 \times 10^{-12} \text{ J}$$
 
 Cycles per second: $$\frac{3.6 \times 10^{26}}{4.28 \times 10^{-12}} = 8.41 \times 10^{37} \text{ cycles/s}$$
 
@@ -702,7 +702,7 @@ Protons consumed per second: $$(8.41 \times 10^{37})(4) = 3.4 \times 10^{38} \te
 
 (b) Neutrinos produced per second: $$(8.41 \times 10^{37})(2) = 1.68 \times 10^{38} \text{ neutrinos/s}$$
 
-Surface area of sphere at Earth's orbit: $$A = 4\pi r^{2} = 4\pi(1.5 \times 10^{11})^{2} = 2.83 \times 10^{23} \text{ m}^{2}$$
+Surface area of sphere at Earth's orbit: $$A = 4\pi r^{2} = 4\pi(1.5 \times 10^{11} \text{ m})^{2} = 2.83 \times 10^{23} \text{ m}^{2}$$
 
 Neutrino flux at Earth: $$\frac{1.68 \times 10^{38}}{2.83 \times 10^{23}} = 5.9 \times 10^{14} \text{ neutrinos/(m}^{2}\cdot\text{s)}$$
 
@@ -828,13 +828,13 @@ deuterium nucleus?
 
 (a) $$P = \frac{100 \times 10^{3} \text{ J}}{1.00 \times 10^{-9} \text{ s}} = 1.0 \times 10^{14} \text{ W} = 100 \text{ TW}$$
 
-(b) $$E_{\gamma} = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^{8})}{1.06 \times 10^{-6}} = 1.88 \times 10^{-19} \text{ J}$$
+(b) $$E_{\gamma} = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34} \text{ J·s})(3.0 \times 10^{8} \text{ m/s})}{1.06 \times 10^{-6} \text{ m}} = 1.88 \times 10^{-19} \text{ J}$$
 
-Number: $$N = \frac{1.0 \times 10^{5}}{1.88 \times 10^{-19}} = 5.3 \times 10^{23} \text{ photons}$$
+Number: $$N = \frac{1.0 \times 10^{5} \text{ J}}{1.88 \times 10^{-19} \text{ J/photon}} = 5.3 \times 10^{23} \text{ photons}$$
 
-(c) $$p_{\text{total}} = \frac{E}{c} = \frac{1.0 \times 10^{5}}{3.0 \times 10^{8}} = 3.3 \times 10^{-4} \text{ kg·m/s}$$
+(c) $$p_{\text{total}} = \frac{E}{c} = \frac{1.0 \times 10^{5} \text{ J}}{3.0 \times 10^{8} \text{ m/s}} = 3.3 \times 10^{-4} \text{ kg·m/s}$$
 
-(d) $$p_D = \sqrt{2m_{D}KE} = \sqrt{2(2.014)(1.66 \times 10^{-27})(1.0)(1.602 \times 10^{-13})} = 3.27 \times 10^{-20} \text{ kg·m/s}$$
+(d) $$p_D = \sqrt{2m_{D}KE} = \sqrt{2(2.014 \text{ u})(1.66 \times 10^{-27} \text{ kg/u})(1.0 \text{ MeV})(1.602 \times 10^{-13} \text{ J/MeV})} = 3.27 \times 10^{-20} \text{ kg·m/s}$$
 
 Ratio: $$\frac{3.3 \times 10^{-4}}{3.27 \times 10^{-20}} = 1.0 \times 10^{16}$$
 

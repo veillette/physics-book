@@ -403,7 +403,7 @@ $$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(470 \times 10^{-9} \text{ m})}{\s
 </div>
 
 <div class="equation">
-$$d = \frac{470 \times 10^{-9}}{0.4226} = 1.112 \times 10^{-6} \text{ m}$$
+$$d = \frac{470 \times 10^{-9} \text{ m}}{0.4226} = 1.112 \times 10^{-6} \text{ m}$$
 </div>
 
 **Step 2: Find the number of lines per centimeter**
@@ -448,7 +448,7 @@ $$d = \frac{m\lambda}{\sin \theta} = \frac{2 \times 760 \times 10^{-9} \text{ m}
 </div>
 
 <div class="equation">
-$$d = \frac{1520 \times 10^{-9}}{0.8660} = 1.76 \times 10^{-6} \text{ m} = 1.76 \text{ μm}$$
+$$d = \frac{1520 \times 10^{-9} \text{ m}}{0.8660} = 1.76 \times 10^{-6} \text{ m} = 1.76 \text{ μm}$$
 </div>
 
 **Discussion**
@@ -769,7 +769,7 @@ $$\lambda_{1} = d \sin \theta_{1} = (1.00 \times 10^{-6} \text{ m}) \sin 36.093�
 </div>
 
 <div class="equation">
-$$\lambda_{1} = (1.00 \times 10^{-6})(0.58906) = 5.891 \times 10^{-7} \text{ m} = 589.1 \text{ nm}$$
+$$\lambda_{1} = (1.00 \times 10^{-6} \text{ m})(0.58906) = 5.891 \times 10^{-7} \text{ m} = 589.1 \text{ nm}$$
 </div>
 
 **Step 3: Find the second wavelength**
@@ -779,7 +779,7 @@ $$\lambda_{2} = d \sin \theta_{2} = (1.00 \times 10^{-6} \text{ m}) \sin 36.129�
 </div>
 
 <div class="equation">
-$$\lambda_{2} = (1.00 \times 10^{-6})(0.58963) = 5.896 \times 10^{-7} \text{ m} = 589.6 \text{ nm}$$
+$$\lambda_{2} = (1.00 \times 10^{-6} \text{ m})(0.58963) = 5.896 \times 10^{-7} \text{ m} = 589.6 \text{ nm}$$
 </div>
 
 **Discussion**
@@ -823,7 +823,7 @@ $$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(525 \times 10^{-9} \text{ m})}{\s
 </div>
 
 <div class="equation">
-$$d = \frac{525 \times 10^{-9}}{0.500} = 1.05 \times 10^{-6} \text{ m} = 1.05 \text{ μm}$$
+$$d = \frac{525 \times 10^{-9} \text{ m}}{0.500} = 1.05 \times 10^{-6} \text{ m} = 1.05 \text{ μm}$$
 </div>
 
 **Discussion**
@@ -1096,7 +1096,7 @@ $$d \sin \theta_{V} = m\lambda_{V}$$
 </div>
 
 <div class="equation">
-$$d = \frac{m\lambda_{V}}{\sin \theta_{V}} = \frac{(1)(380 \text{ nm})}{\sin 30.0°} = \frac{380}{0.500} = 760 \text{ nm}$$
+$$d = \frac{m\lambda_{V}}{\sin \theta_{V}} = \frac{(1)(380 \text{ nm})}{\sin 30.0°} = \frac{380 \text{ nm}}{0.500} = 760 \text{ nm}$$
 </div>
 
 **Step 2: Find the angle for red light**
@@ -1376,7 +1376,7 @@ $$\Delta y = \frac{(1.50 \text{ m})(600 \times 10^{-9} \text{ m})}{8.00 \times 1
 </div>
 
 <div class="equation">
-$$\Delta y = \frac{9.00 \times 10^{-7}}{8.00 \times 10^{-5}} = 1.125 \times 10^{-2} \text{ m}$$
+$$\Delta y = \frac{9.00 \times 10^{-7} \text{ m}^2}{8.00 \times 10^{-5} \text{ m}} = 1.125 \times 10^{-2} \text{ m}$$
 </div>
 
 <div class="equation">

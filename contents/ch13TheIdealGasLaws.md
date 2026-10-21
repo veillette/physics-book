@@ -1061,7 +1061,7 @@ Rearranging $$P=(N/V)k_{B}T$$ to solve for $$T$$:
 </div>
 
 <div class="equation" >
- $$T=\frac{ 2.75 \times 10^{-10}}{ 1.38 \times 10^{-12}}=199 \text{ K} $$
+ $$T=\frac{ 2.75 \times 10^{-10} \text{ Pa}}{ 1.38 \times 10^{-12} \text{ J/(K·m}^3\text{)}}=199 \text{ K} $$
 </div>
 
 Converting to Celsius:
@@ -1112,7 +1112,7 @@ Moles of air removed (at atmospheric pressure $$P_{\text{atm}}= 1.01 \times 10^{
 
 Final moles in tire:
 <div class="equation" >
- $$n_{f}=n_{i}-n_{\text{removed}}= 0.579- 0.00418= 0.575 \text{ mol} $$
+ $$n_{f}=n_{i}-n_{\text{removed}}= 0.579 \text{ mol} - 0.00418 \text{ mol}= 0.575 \text{ mol} $$
 </div>
 
 Final pressure in tire (same volume and temperature):
@@ -1277,7 +1277,7 @@ Gauge pressure:
 
 Total moles:
 <div class="equation" >
- $$n_{\text{total}}= 3.60+ 0.0408= 3.64 \text{ mol} $$
+ $$n_{\text{total}}= 3.60 \text{ mol} + 0.0408 \text{ mol}= 3.64 \text{ mol} $$
 </div>
 
 New absolute pressure:

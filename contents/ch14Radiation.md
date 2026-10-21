@@ -997,7 +997,7 @@ $$T_{sky} = (2.576 \times 10^{10} \text{ K}^4)^{1/4} = 401 \text{ K}$$
 
 Convert to Celsius:
 <div class="equation">
-$$T_{sky} = 401 - 273.15 = 128\text{ºC}$$
+$$T_{sky} = 401 \text{ K} = (401 - 273.15)\text{ ºC} = 128\text{ºC}$$
 </div>
 
 **Discussion**
@@ -1186,7 +1186,7 @@ This type of incident, while rare, has actually occurred and caused damage to pr
 - The danger of falling objects from high altitude
 - The significant energy involved in high-altitude, high-velocity objects
 
-If all the energy went into melting, we could melt: $$\frac{2.877 \times 10^6 \text{ J}}{334 \times 10^3 \text{ J/kg}} = 8.61$$ kg, which matches our answer since the ice starts at 0ºC (no cooling or heating needed before melting).
+If all the energy went into melting, we could melt: $$\frac{2.877 \times 10^6 \text{ J}}{334 \times 10^3 \text{ J/kg}} = 8.61\,\text{kg}$$ kg, which matches our answer since the ice starts at 0ºC (no cooling or heating needed before melting).
 
 **Answer**
 
@@ -1280,6 +1280,7 @@ Or: $$P_{waste} = (1 - \eta)P_{total} = (0.80)(1445 \text{ W}) = 1156 \text{ W}$
 
 Heat needed to raise temperature by 1.00ºC:
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$Q = mc\Delta T = (76.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(1.00\text{ºC}) = 266000 \text{ J}$$
 </div>
 
@@ -1513,6 +1514,7 @@ $$gh = c\Delta T$$
 </div>
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$\Delta T = \frac{gh}{c} = \frac{539 \text{ J/kg}}{4186 \text{ J/kg}\cdot\text{ºC}} = 0.129\text{ºC}$$
 </div>
 

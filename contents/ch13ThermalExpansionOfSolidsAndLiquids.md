@@ -281,6 +281,7 @@ change in temperature, $$\Delta T $$ , is $$55\text{ºC} $$.
 Plug all of the known values into the equation to solve for $$\Delta L $$.
 
 <div class="equation" >
+ <!-- physics-scan: temperature=interval -->
  $$\Delta L=\alpha L\Delta T=\left(\frac{12 \times 10^{-6} }{\text{ºC}}\right)\left(1275 \text{m}\right)\left(55\text{ºC}\right)=0.84 \text{m} \text{.}  $$
 </div>
 
@@ -796,7 +797,7 @@ Use the linear thermal expansion equation $$\Delta L=\alpha L\Delta T$$ with the
 **Solution:**
 From Table 1, for marble: $$\alpha = 7 \times 10^{-6} \text{/ºC}$$
 
-Given: $$L = 170 \text{ m}$$, $$\Delta T = -10.0\text{ºC} - 35.0\text{ºC} = -45.0\text{ºC}$$
+Given: $$L = 170 \text{ m}$$, <!-- physics-scan: temperature=interval -->$$\Delta T = -10.0\text{ºC} - 35.0\text{ºC} = -45.0\text{ºC}$$
 
 <div class="equation" >
  $$\Delta L=\alpha L\Delta T=\left( 7 \times 10^{-6} \text{/ºC}\right)\left(170 \text{ m}\right)\left(-45.0\text{ºC}\right)=-0.053 \text{ m} $$
@@ -1063,7 +1064,7 @@ From Table 1:
 - Water: $$\beta_{\text{water}} = 210 \times 10^{-6} \text{/ºC}$$
 - Glass (ordinary): $$\beta_{\text{glass}} = 27 \times 10^{-6} \text{/ºC}$$
 
-Given: $$V = 500 \text{ mL}$$, $$\Delta T = 22.0\text{ºC} - 5.00\text{ºC} = 17.0\text{ºC}$$
+Given: $$V = 500 \text{ mL}$$, <!-- physics-scan: temperature=interval -->$$\Delta T = 22.0\text{ºC} - 5.00\text{ºC} = 17.0\text{ºC}$$
 
 (a) Alcohol expansion:
 <div class="equation" >
@@ -1121,7 +1122,7 @@ Calculate the volume expansion of both the radiator (copper) and the fluid. The 
 **Solution:**
 From Table 1: $$\beta_{\text{copper}} = 51 \times 10^{-6} \text{/ºC}$$
 
-Given: $$\beta_{\text{fluid}} = 400 \times 10^{-6} \text{/ºC}$$, $$V = 16.0 \text{ L}$$, $$\Delta T = 95.0\text{ºC} - 10.0\text{ºC} = 85.0\text{ºC}$$
+Given: $$\beta_{\text{fluid}} = 400 \times 10^{-6} \text{/ºC}$$, $$V = 16.0 \text{ L}$$, <!-- physics-scan: temperature=interval -->$$\Delta T = 95.0\text{ºC} - 10.0\text{ºC} = 85.0\text{ºC}$$
 
 Fluid expansion:
 <div class="equation" >
@@ -1164,7 +1165,7 @@ Calculate the volume decrease due to thermal contraction of the coffee (treat as
 **Solution:**
 From Table 1, for water: $$\beta = 210 \times 10^{-6} \text{/ºC}$$
 
-Given: $$V = 350 \text{ cm}^{3}$$, $$\Delta T = 45.0\text{ºC} - 95.0\text{ºC} = -50.0\text{ºC}$$, diameter $$d = 7.00 \text{ cm}$$, radius $$r = 3.50 \text{ cm}$$
+Given: $$V = 350 \text{ cm}^{3}$$, <!-- physics-scan: temperature=interval -->$$\Delta T = 45.0\text{ºC} - 95.0\text{ºC} = -50.0\text{ºC}$$, diameter $$d = 7.00 \text{ cm}$$, radius $$r = 3.50 \text{ cm}$$
 
 Volume change due to thermal contraction:
 <div class="equation" >
@@ -1173,7 +1174,7 @@ Volume change due to thermal contraction:
 
 For a cylindrical cup, $$V=\pi r^{2}h$$, so:
 <div class="equation" >
- $$\Delta h=\frac{\Delta V}{\pi r^{2}}=\frac{-3.675 \text{ cm}^{3}}{\pi (3.50 \text{ cm})^{2}}=\frac{-3.675}{38.48}=-0.0955 \text{ cm}=-0.955 \text{ mm} $$
+ $$\Delta h=\frac{\Delta V}{\pi r^{2}}=\frac{-3.675 \text{ cm}^{3}}{\pi (3.50 \text{ cm})^{2}}=\frac{-3.675 \text{ cm}^{3}}{38.48 \text{ cm}^{2}}=-0.0955 \text{ cm}=-0.955 \text{ mm} $$
 </div>
 
 **Discussion:**
@@ -1210,7 +1211,7 @@ Volume of ice: $$V_{\text{ice}}=\frac{m}{\rho_{\text{ice}}}=\frac{1 \text{ kg}}{
 
 Volume change:
 <div class="equation" >
- $$\Delta V=V_{\text{ice}}-V_{\text{water}}= 1.091 \times 10^{-3} - 1.000 \times 10^{-3}= 9.1 \times 10^{-5}  \text{ m}^{3} $$
+ $$\Delta V=V_{\text{ice}}-V_{\text{water}}= 1.091 \times 10^{-3} \text{ m}^{3} - 1.000 \times 10^{-3} \text{ m}^{3}= 9.1 \times 10^{-5}  \text{ m}^{3} $$
 </div>
 
 Fractional volume change:

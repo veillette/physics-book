@@ -464,7 +464,7 @@ $$ P_{\text{g, jar}} = -h = -50.0 \text{ mm Hg} $$
 
 Absolute pressure:
 <div class="equation">
-$$ P_{\text{abs, jar}} = P_{\text{atm}} + P_{\text{g}} = 760 - 50.0 = 710 \text{ mm Hg} $$
+$$ P_{\text{abs, jar}} = P_{\text{atm}} + P_{\text{g}} = 760 \text{ mm Hg} - 50.0 \text{ mm Hg} = 710 \text{ mm Hg} $$
 </div>
 
 **Summary:**
@@ -655,8 +655,8 @@ $$ \Delta P = \frac{5145 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 38.7 \text{ mm Hg} 
 At heart level: 120/80 mm Hg
 
 At leg level (0.500 m below heart):
-- Systolic: $$ 120 + 38.7 = 158.7 \approx 159 \text{ mm Hg} $$
-- Diastolic: $$ 80 + 38.7 = 118.7 \approx 119 \text{ mm Hg} $$
+- Systolic: $$ 120 \text{ mm Hg} + 38.7 \text{ mm Hg} = 158.7\,\text{ mm Hg} \approx 159 \text{ mm Hg} $$
+- Diastolic: $$ 80 \text{ mm Hg} + 38.7 \text{ mm Hg} = 118.7\,\text{ mm Hg} \approx 119 \text{ mm Hg} $$
 
 <div class="equation">
 $$\begin{array}{l}\Delta P=38.7 \text{ mm Hg,}\\ \text{Leg blood pressure}=\frac{159}{119}\text{.}\end{array} $$
@@ -699,11 +699,11 @@ Using $$ \rho_{\text{seawater}} = 1.025 \times 10^3 \text{ kg/m}^3 $$:
 
 $$ P_{\text{water}} = 1.01 \times 10^5 \text{ Pa} + (1.025 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(25.0 \text{ m}) $$
 
-$$ P_{\text{water}} = 1.01 \times 10^5 + 2.51 \times 10^5 = 3.52 \times 10^5 \text{ Pa} $$
+$$ P_{\text{water}} = 1.01 \times 10^5 \text{ Pa} + 2.51 \times 10^5 \text{ Pa} = 3.52 \times 10^5 \text{ Pa} $$
 
 *Step 2: Calculate the pressure difference*
 
-$$ \Delta P = P_{\text{outside}} - P_{\text{inside}} = 3.52 \times 10^5 - 1.01 \times 10^5 = 2.51 \times 10^5 \text{ Pa} $$
+$$ \Delta P = P_{\text{outside}} - P_{\text{inside}} = 3.52 \times 10^5 \text{ Pa} - 1.01 \times 10^5 \text{ Pa} = 2.51 \times 10^5 \text{ Pa} $$
 
 *Step 3: Calculate the hatch area*
 

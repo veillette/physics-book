@@ -760,7 +760,7 @@ First, find the spring constant using the board's frequency without a diver. Fro
 When the 75.0-kg diver stands on the board, the total mass becomes:
 
 <div class="equation">
- $$m_{\text{total}} = 10.0 + 75.0 = 85.0 \text{ kg}$$
+ $$m_{\text{total}} = 10.0 \text{ kg} + 75.0 \text{ kg} = 85.0 \text{ kg}$$
 </div>
 
 The new frequency is:

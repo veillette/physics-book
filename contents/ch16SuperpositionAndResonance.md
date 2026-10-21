@@ -405,7 +405,7 @@ This absolute value equation has two solutions:
 </div>
 
 <div class="equation">
- $${f}_{2}=260.00+1.50=261.50 \text{ Hz}$$
+ $${f}_{2}=260.00 \text{ Hz} + 1.50 \text{ Hz}=261.50 \text{ Hz}$$
 </div>
 
 **Case 2:** $${f}_{2}$$ is lower than $${f}_{1}$$:
@@ -415,7 +415,7 @@ This absolute value equation has two solutions:
 </div>
 
 <div class="equation">
- $${f}_{2}=260.00-1.50=258.50 \text{ Hz}$$
+ $${f}_{2}=260.00 \text{ Hz} - 1.50 \text{ Hz}=258.50 \text{ Hz}$$
 </div>
 
 **The other string could have a frequency of either 258.50 Hz or 261.50 Hz.**
@@ -527,7 +527,7 @@ Now we have two equations with two unknowns. Adding them:
 From the first equation:
 
 <div class="equation">
- $${f}_{1}=8200-{f}_{2}=8200-4100.25=4099.75 \text{ Hz}$$
+ $${f}_{1}=8200-{f}_{2}=8200 \text{ Hz} - 4100.25 \text{ Hz}=4099.75 \text{ Hz}$$
 </div>
 
 **The two jet engines have frequencies of 4099.75 Hz and 4100.25 Hz (or 4.10 kHz ± 0.25 Hz).**

@@ -1080,7 +1080,7 @@ $$\Delta t = t_{\text{atm}} - t_{\text{vac}} = (2.0006 - 2.000) \times 10^{-4} \
 
 This corresponds to an apparent additional distance:
 <div class="equation">
-$$\Delta d = c \cdot \Delta t = (3.00 \times 10^{8})(6 \times 10^{-8}) = 18 \text{ m}$$
+$$\Delta d = c \cdot \Delta t = (3.00 \times 10^{8} \text{ m/s})(6 \times 10^{-8} \text{ s}) = 18 \text{ m}$$
 </div>
 
 Percent correction:

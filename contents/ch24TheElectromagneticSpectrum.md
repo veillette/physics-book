@@ -1219,6 +1219,7 @@ $$ E = Pt = (1000 \text{ W})(60.0 \s) = 6.00 \times 10^{4} \J $$
 to the food. If all of it goes into $$ 0.250 \kg $$ of water,
 
 <div class="equation">
+<!-- physics-scan: temperature=interval -->
 $$ \Delta T = \frac{Q}{mc} = \frac{6.00 \times 10^{4} \J}{(0.250 \kg)(4186 \text{ J/kg}\cdot\text{ºC})} = 57.3 \text{ ºC} $$
 </div>
 
@@ -2766,7 +2767,7 @@ Since this is power per unit area: $$I=3.5 \times 10^{2} \text{ W/m}^{2}$$
 
 With outward power defined positive, this is heat loss from Earth.
 
-**(b)** Incoming solar intensity (absorbed): $$I_{\text{sun}}=\frac{800}{2}=400 \text{ W/m}^{2}$$
+**(b)** Incoming solar intensity (absorbed): $$I_{\text{sun}}=\frac{800 \text{ W/m}^{2}}{2}=400 \text{ W/m}^{2}$$
 
 Ratio:
 
@@ -2787,17 +2788,17 @@ The relationship between intensity and electric field is:
 Solving for $$E_{\text{max}}$$:
 
 <div class="equation">
- $$E_{\text{max}}=\sqrt{2\mu _{0}cI}=\sqrt{2\left(4\pi \times 10^{-7}\right)\left(3.00 \times 10^{8}\right)\left(350\right)}$$
+ $$E_{\text{max}}=\sqrt{2\mu _{0}cI}=\sqrt{2\left(4\pi \times 10^{-7} \text{ T·m/A}\right)\left(3.00 \times 10^{8} \text{ m/s}\right)\left(350 \text{ W/m}^{2}\right)}$$
 </div>
 
 <div class="equation">
- $$E_{\text{max}}=\sqrt{2.64 \times 10^{5}}=514 \text{ V/m}$$
+ $$E_{\text{max}}=\sqrt{2.64 \times 10^{5} \text{ V}^{2}/\text{m}^{2}}=514 \text{ V/m}$$
 </div>
 
 Maximum magnetic field:
 
 <div class="equation">
- $$B_{\text{max}}=\frac{E_{\text{max}}}{c}=\frac{514}{3.00 \times 10^{8}}=1.7 \times 10^{-6} \text{ T}=1.7 \text{ }\mu\text{T}$$
+ $$B_{\text{max}}=\frac{E_{\text{max}}}{c}=\frac{514 \text{ V/m}}{3.00 \times 10^{8} \text{ m/s}}=1.7 \times 10^{-6} \text{ T}=1.7 \text{ }\mu\text{T}$$
 </div>
 
 <div class="title">

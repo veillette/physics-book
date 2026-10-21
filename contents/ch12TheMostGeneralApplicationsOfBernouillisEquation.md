@@ -112,7 +112,7 @@ Similarly, we find
 Substituting known values yields
 
 <div class="equation">
- $${P}_{2}= 1.62 \times 10^{6}  {\text{N/m}}^{2}+\frac{1}{2}\left(1000 {\text{kg/m}}^{3}\right)\left[  { \left( 12.4 \text{m/s} \right)}^{2}-{\left(  56.6 \text{m/s} \right)}^{2}\right]  -\left(1000 {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 10.0 \text{m}\right)=0\text{.} $$
+ $${P}_{2}= 1.62 \times 10^{6}  {\text{N/m}}^{2}+\frac{1}{2}\left(1000 {\text{kg/m}}^{3}\right)\left[  { \left( 12.4 \text{m/s} \right)}^{2}-{\left(  56.6 \text{m/s} \right)}^{2}\right]  -\left(1000 {\text{kg/m}}^{3}\right)\left( 9.80 {\text{m/s}}^{2}\right)\left( 10.0 \text{m}\right)=0 \text{ Pa}\text{.} $$
 </div>
 
 **Discussion**
@@ -415,7 +415,7 @@ $$v_{top} = \sqrt{(60.0 \text{ m/s})^2 + \frac{2(1000 \text{ N/m}^2)}{1.29 \text
 
 **(b)** At cruising altitude:
 - $$v_{bottom} = 245 \text{ m/s}$$
-- $$\rho = 1.29/4 = 0.323 \text{ kg/m}^3$$
+- $$\rho = (1.29 \text{ kg/m}^3)/4 = 0.323 \text{ kg/m}^3$$
 
 $$v_{top} = \sqrt{(245 \text{ m/s})^2 + \frac{2(1000 \text{ N/m}^2)}{0.323 \text{ kg/m}^3}} = \sqrt{60,025 \text{ m}^2/\text{s}^2 + 6192 \text{ m}^2/\text{s}^2} = \sqrt{66,217 \text{ m}^2/\text{s}^2} = 257 \text{ m/s}$$
 

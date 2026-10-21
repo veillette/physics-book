@@ -677,7 +677,7 @@ The two forces are symmetric, each making a 20° angle with the vertical. Use ve
 
 3. Add the components:
 <div class="equation">
-$$ F_{total,x} = F_{1x} + F_{2x} = 68.4 \N - 68.4 \N = 0 $$
+$$ F_{total,x} = F_{1x} + F_{2x} = 68.4 \N - 68.4 \N = 0\,\text{N} $$
 </div>
 
 <div class="equation">

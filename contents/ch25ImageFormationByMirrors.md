@@ -954,7 +954,7 @@ $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.120 \text{ m}} + \fra
 </div>
 
 <div class="equation">
-$$\frac{1}{f} = 8.333 - 5.556 = 2.778 \text{ m}^{-1}$$
+$$\frac{1}{f} = 8.333 \text{ m}^{-1} - 5.556 \text{ m}^{-1} = 2.778 \text{ m}^{-1}$$
 </div>
 
 <div class="equation">
@@ -1009,7 +1009,7 @@ $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{3.00 \text{ m}} + \frac
 </div>
 
 <div class="equation">
-$$\frac{1}{f} = 0.333 - 1.333 = -1.00 \text{ m}^{-1}$$
+$$\frac{1}{f} = 0.333 \text{ m}^{-1} - 1.333 \text{ m}^{-1} = -1.00 \text{ m}^{-1}$$
 </div>
 
 <div class="equation">

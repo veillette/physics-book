@@ -662,7 +662,7 @@ $$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.44 \m $$
 
 **Discussion**
 
-The field is slightly shorter than 100 meters. The length 100 yd is a defined distance, so it does not limit the significant figures. The given conversion has four significant figures, and $$ 300/3.281 = 91.44 \m $$.
+The field is slightly shorter than 100 meters. The length 100 yd is a defined distance, so it does not limit the significant figures. The given conversion has four significant figures, and $$ (300 \text{ ft})/(3.281 \text{ ft}/\m) = 91.44 \m $$.
 
 **Answer**
 

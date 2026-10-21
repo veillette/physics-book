@@ -319,19 +319,19 @@ We use the peak emf formula $$\text{emf}_0 = NAB\omega$$. First, we need to find
 The radius of the coil is:
 
 <div class="equation">
-$$r = \frac{d}{2} = \frac{0.100}{2} = 0.0500 \text{ m}$$
+$$r = \frac{d}{2} = \frac{0.100 \text{ m}}{2} = 0.0500 \text{ m}$$
 </div>
 
 The area is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.0500)^2 = 7.85 \times 10^{-3} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.0500 \text{ m})^2 = 7.85 \times 10^{-3} \text{ m}^2$$
 </div>
 
 Convert angular velocity from rpm to rad/s:
 
 <div class="equation">
-$$\omega = 3600 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \text{ s}} = \frac{3600 \times 2\pi}{60} = 377 \text{ rad/s}$$
+$$\omega = 3600 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \text{ s}} = \frac{3600 \times 2\pi \text{ rad}}{60 \text{ s}} = 377 \text{ rad/s}$$
 </div>
 
 Now calculate the peak emf:
@@ -371,19 +371,19 @@ We use $$\text{emf}_0 = NAB\omega$$ and solve for $$\omega$$, then convert from 
 The area of the coil is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.0400)^2 = 5.03 \times 10^{-3} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.0400 \text{ m})^2 = 5.03 \times 10^{-3} \text{ m}^2$$
 </div>
 
 From $$\text{emf}_0 = NAB\omega$$:
 
 <div class="equation">
-$$\omega = \frac{\text{emf}_0}{NAB} = \frac{480}{(500)(5.03 \times 10^{-3})(0.250)} = \frac{480}{0.629} = 763 \text{ rad/s}$$
+$$\omega = \frac{\text{emf}_0}{NAB} = \frac{480 \text{ V}}{(500)(5.03 \times 10^{-3} \text{ m}^2)(0.250 \text{ T})} = \frac{480 \text{ V}}{0.629 \text{ T·m}^2} = 763 \text{ rad/s}$$
 </div>
 
 Converting to rpm:
 
 <div class="equation">
-$$\omega = 763 \text{ rad/s} \times \frac{60 \text{ s}}{2\pi \text{ rad/rev}} = \frac{45780}{6.283} = 7.29 \times 10^3 \text{ rpm}$$
+$$\omega = 763 \text{ rad/s} \times \frac{60 \text{ s/min}}{2\pi \text{ rad/rev}} = \frac{45780 \text{ rad/min}}{6.283 \text{ rad/rev}} = 7.29 \times 10^3 \text{ rpm}$$
 </div>
 
 **Discussion**
@@ -418,19 +418,19 @@ We need to find $$\omega$$ from the rotation information (perpendicular to paral
 The radius of the coil is:
 
 <div class="equation">
-$$r = \frac{d}{2} = \frac{0.200}{2} = 0.100 \text{ m}$$
+$$r = \frac{d}{2} = \frac{0.200 \text{ m}}{2} = 0.100 \text{ m}$$
 </div>
 
 The area is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.100)^2 = 3.14 \times 10^{-2} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.100 \text{ m})^2 = 3.14 \times 10^{-2} \text{ m}^2$$
 </div>
 
 One-quarter revolution is $$\pi/2$$ radians in 10.0 ms:
 
 <div class="equation">
-$$\omega = \frac{\Delta \theta}{\Delta t} = \frac{\pi/2}{10.0 \times 10^{-3}} = \frac{1.571}{0.0100} = 157 \text{ rad/s}$$
+$$\omega = \frac{\Delta \theta}{\Delta t} = \frac{(\pi/2) \text{ rad}}{10.0 \times 10^{-3} \text{ s}} = \frac{1.571 \text{ rad}}{0.0100 \text{ s}} = 157 \text{ rad/s}$$
 </div>
 
 Calculate the peak emf:
@@ -470,13 +470,13 @@ This problem refers to a coil setup from a previous problem in the Faraday's law
 The area of the coil is:
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.250)^2 = 0.196 \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.250 \text{ m})^2 = 0.196 \text{ m}^2$$
 </div>
 
 The angular velocity can be found from the frequency. Since one-fourth revolution occurs in 4.17 ms, one complete revolution takes 4 × 4.17 = 16.68 ms, giving f = 60.0 Hz:
 
 <div class="equation">
-$$\omega = 2\pi f = 2\pi(60.0) = 377 \text{ rad/s}$$
+$$\omega = 2\pi f = 2\pi(60.0 \text{ Hz}) = 377 \text{ rad/s}$$
 </div>
 
 Using the magnetic field from the related problem (B = 0.425 T):
@@ -516,7 +516,7 @@ We use $$\text{emf}_0 = NAB\omega$$ and solve for N. The area of the rectangular
 The area of the rectangular coil is:
 
 <div class="equation">
-$$A = (0.0100)(0.0300) = 3.00 \times 10^{-4} \text{ m}^2$$
+$$A = (0.0100 \text{ m})(0.0300 \text{ m}) = 3.00 \times 10^{-4} \text{ m}^2$$
 </div>
 
 From $$\text{emf}_0 = NAB\omega$$, we solve for N:
@@ -534,13 +534,13 @@ $$N = \frac{18.0}{0.360} = 50 \text{ turns}$$
 For a rectangular coil of dimensions 1.00 cm by 3.00 cm, the perimeter is:
 
 <div class="equation">
-$$P = 2(1.00 + 3.00) = 8.00 \text{ cm}$$
+$$P = 2(1.00 \text{ cm} + 3.00 \text{ cm}) = 8.00 \text{ cm}$$
 </div>
 
 With 50 turns, the total length of wire is:
 
 <div class="equation">
-$$L = 50 \times 0.0800 = 4.00 \text{ m}$$
+$$L = 50 \times 0.0800 \text{ m} = 4.00 \text{ m}$$
 </div>
 
 This is a reasonable length of wire. If we use 0.5 mm diameter wire (typical for small coils), 50 turns would fit in a thickness of 25 mm = 2.5 cm, which could be accommodated in a compact bicycle generator housing.
@@ -582,7 +582,7 @@ The generator wheel rolls on the bicycle tire, so $$v = r\omega$$ where $$r$$ is
 **Solution for (a)**
 
 <div class="equation">
-$$v = r\omega = \frac{d}{2}\omega = \frac{0.0160}{2}(1875) = (0.00800)(1875) = 15.0 \text{ m/s}$$
+$$v = r\omega = \frac{d}{2}\omega = \frac{0.0160 \text{ m}}{2}(1875 \text{ rad/s}) = (0.00800 \text{ m})(1875 \text{ rad/s}) = 15.0 \text{ m/s}$$
 </div>
 
 **Solution for (b)**
@@ -594,7 +594,7 @@ $$\frac{\text{emf}_{\text{new}}}{\text{emf}_{\text{old}}} = \frac{v_{\text{new}}
 </div>
 
 <div class="equation">
-$$\text{emf}_{\text{new}} = \text{emf}_{\text{old}} \times \frac{v_{\text{new}}}{v_{\text{old}}} = 18.0 \times \frac{10.0}{15.0} = 12.0 \text{ V}$$
+$$\text{emf}_{\text{new}} = \text{emf}_{\text{old}} \times \frac{v_{\text{new}}}{v_{\text{old}}} = 18.0 \text{ V} \times \frac{10.0 \text{ m/s}}{15.0 \text{ m/s}} = 12.0 \text{ V}$$
 </div>
 
 **Solution for (c)**
@@ -602,7 +602,7 @@ $$\text{emf}_{\text{new}} = \text{emf}_{\text{old}} \times \frac{v_{\text{new}}}
 At 5.00 m/s, the emf without field adjustment would be:
 
 <div class="equation">
-$$\text{emf}_{5.00} = 18.0 \times \frac{5.00}{15.0} = 6.00 \text{ V}$$
+$$\text{emf}_{5.00} = 18.0 \text{ V} \times \frac{5.00 \text{ m/s}}{15.0 \text{ m/s}} = 6.00 \text{ V}$$
 </div>
 
 To get 9.00 V, the field must be increased by:
@@ -614,7 +614,7 @@ $$\frac{B_{\text{new}}}{B_{\text{old}}} = \frac{9.00}{6.00} = 1.50$$
 From the previous problem, $$B_{\text{old}} = 0.640 \text{ T}$$:
 
 <div class="equation">
-$$B_{\text{new}} = 1.50 \times 0.640 = 0.960 \text{ T}$$
+$$B_{\text{new}} = 1.50 \times 0.640 \text{ T} = 0.960 \text{ T}$$
 </div>
 
 **Discussion**
@@ -648,23 +648,23 @@ We use $$\text{emf}_0 = NAB\omega$$ and solve for B. First, we need to convert r
 The area of the rectangular coil is:
 
 <div class="equation">
-$$A = (0.0500)(0.0800) = 4.00 \times 10^{-3} \text{ m}^2$$
+$$A = (0.0500 \text{ m})(0.0800 \text{ m}) = 4.00 \times 10^{-3} \text{ m}^2$$
 </div>
 
 Convert angular velocity from rpm to rad/s:
 
 <div class="equation">
-$$\omega = 400 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \text{ s}} = \frac{800\pi}{60} = 41.9 \text{ rad/s}$$
+$$\omega = 400 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \text{ s}} = \frac{800\pi \text{ rad}}{60 \text{ s}} = 41.9 \text{ rad/s}$$
 </div>
 
 From $$\text{emf}_0 = NAB\omega$$, solve for B:
 
 <div class="equation">
-$$B = \frac{\text{emf}_0}{NA\omega} = \frac{24.0}{(300)(4.00 \times 10^{-3})(41.9)}$$
+$$B = \frac{\text{emf}_0}{NA\omega} = \frac{24.0 \text{ V}}{(300)(4.00 \times 10^{-3} \text{ m}^2)(41.9 \text{ rad/s})}$$
 </div>
 
 <div class="equation">
-$$B = \frac{24.0}{50.3} = 0.477 \text{ T}$$
+$$B = \frac{24.0 \text{ V}}{50.3 \text{ m}^2/\text{s}} = 0.477 \text{ T}$$
 </div>
 
 **Solution for (b)**
@@ -759,11 +759,11 @@ We use $$\text{emf}_0 = NAB\omega$$ for peak emf. The emf varies as $$\text{emf}
 The radius and area of the coil are:
 
 <div class="equation">
-$$r = \frac{d}{2} = \frac{0.100}{2} = 0.0500 \text{ m}$$
+$$r = \frac{d}{2} = \frac{0.100 \text{ m}}{2} = 0.0500 \text{ m}$$
 </div>
 
 <div class="equation">
-$$A = \pi r^2 = \pi(0.0500)^2 = 7.85 \times 10^{-3} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.0500 \text{ m})^2 = 7.85 \times 10^{-3} \text{ m}^2$$
 </div>
 
 The peak emf is:
@@ -781,13 +781,13 @@ Since the coil starts with its plane parallel to the field, the flux through it 
 Since the coil starts with its plane parallel to the field and has maximum emf at t = 0, the emf varies as $$\text{emf} = \text{emf}_0 \cos(\omega t)$$. The most negative value occurs when $$\cos(\omega t) = -1$$, which happens when $$\omega t = \pi$$:
 
 <div class="equation">
-$$t = \frac{\pi}{\omega} = \frac{\pi}{8.00} = \frac{3.142}{8.00} = 0.393 \text{ s}$$
+$$t = \frac{\pi}{\omega} = \frac{\pi \text{ rad}}{8.00 \text{ rad/s}} = \frac{3.142 \text{ rad}}{8.00 \text{ rad/s}} = 0.393 \text{ s}$$
 </div>
 
 **Solution for (d)**
 
 <div class="equation">
-$$T = \frac{2\pi}{\omega} = \frac{2\pi}{8.00} = \frac{6.283}{8.00} = 0.785 \text{ s}$$
+$$T = \frac{2\pi}{\omega} = \frac{2\pi \text{ rad}}{8.00 \text{ rad/s}} = \frac{6.283 \text{ rad}}{8.00 \text{ rad/s}} = 0.785 \text{ s}$$
 </div>
 
 **Discussion**
@@ -823,7 +823,7 @@ The emf is $$\text{emf} = \text{emf}_0 \sin(\omega t)$$. Starting at zero, it re
 At the first peak, $$\omega t = \pi/2$$:
 
 <div class="equation">
-$$\omega = \frac{\pi/2}{t} = \frac{\pi/2}{0.100 \times 10^{-3}} = \frac{1.571}{10^{-4}} = 1.57 \times 10^4 \text{ rad/s}$$
+$$\omega = \frac{\pi/2}{t} = \frac{(\pi/2) \text{ rad}}{0.100 \times 10^{-3} \text{ s}} = \frac{1.571 \text{ rad}}{10^{-4} \text{ s}} = 1.57 \times 10^4 \text{ rad/s}$$
 </div>
 
 **Solution for (b)**
@@ -831,13 +831,13 @@ $$\omega = \frac{\pi/2}{t} = \frac{\pi/2}{0.100 \times 10^{-3}} = \frac{1.571}{1
 The next maximum occurs when $$\omega t = \pi/2 + 2\pi = 5\pi/2$$:
 
 <div class="equation">
-$$t = \frac{5\pi/2}{\omega} = \frac{5\pi/2}{1.57 \times 10^4} = \frac{7.854}{1.57 \times 10^4} = 5.00 \times 10^{-4} \text{ s} = 0.500 \text{ ms}$$
+$$t = \frac{5\pi/2}{\omega} = \frac{(5\pi/2) \text{ rad}}{1.57 \times 10^4 \text{ rad/s}} = \frac{7.854 \text{ rad}}{1.57 \times 10^4 \text{ rad/s}} = 5.00 \times 10^{-4} \text{ s} = 0.500 \text{ ms}$$
 </div>
 
 **Solution for (c)**
 
 <div class="equation">
-$$T = \frac{2\pi}{\omega} = \frac{2\pi}{1.57 \times 10^4} = 4.00 \times 10^{-4} \text{ s} = 0.400 \text{ ms}$$
+$$T = \frac{2\pi}{\omega} = \frac{2\pi \text{ rad}}{1.57 \times 10^4 \text{ rad/s}} = 4.00 \times 10^{-4} \text{ s} = 0.400 \text{ ms}$$
 </div>
 
 **Solution for (d)**
@@ -853,7 +853,7 @@ $$\omega t = \sin^{-1}(0.25) = 0.2527 \text{ rad}$$
 </div>
 
 <div class="equation">
-$$t = \frac{0.2527}{1.57 \times 10^4} = 1.61 \times 10^{-5} \text{ s} = 0.0161 \text{ ms} = 16.1 \text{ μs}$$
+$$t = \frac{0.2527 \text{ rad}}{1.57 \times 10^4 \text{ rad/s}} = 1.61 \times 10^{-5} \text{ s} = 0.0161 \text{ ms} = 16.1 \text{ μs}$$
 </div>
 
 **Solution for (e)**
@@ -861,7 +861,7 @@ $$t = \frac{0.2527}{1.57 \times 10^4} = 1.61 \times 10^{-5} \text{ s} = 0.0161 \
 The next time occurs on the downslope at $$\omega t = \pi - 0.2527 = 2.889 \text{ rad}$$:
 
 <div class="equation">
-$$t = \frac{2.889}{1.57 \times 10^4} = 1.84 \times 10^{-4} \text{ s} = 0.184 \text{ ms}$$
+$$t = \frac{2.889 \text{ rad}}{1.57 \times 10^4 \text{ rad/s}} = 1.84 \times 10^{-4} \text{ s} = 0.184 \text{ ms}$$
 </div>
 
 **Discussion**
@@ -899,11 +899,11 @@ We use $$\text{emf}_0 = NAB\omega$$ and solve for $$\omega$$. Then we evaluate w
 From $$\text{emf}_0 = NAB\omega$$, solve for $$\omega$$:
 
 <div class="equation">
-$$\omega = \frac{\text{emf}_0}{NAB} = \frac{12.0 \times 10^3}{(500)(0.250)(5.00 \times 10^{-5})}$$
+$$\omega = \frac{\text{emf}_0}{NAB} = \frac{12.0 \times 10^3 \text{ V}}{(500)(0.250 \text{ m}^2)(5.00 \times 10^{-5} \text{ T})}$$
 </div>
 
 <div class="equation">
-$$\omega = \frac{12000}{6.25 \times 10^{-3}} = 1.92 \times 10^{6} \text{ rad/s}$$
+$$\omega = \frac{12000 \text{ V}}{6.25 \times 10^{-3} \text{ T·m}^2} = 1.92 \times 10^{6} \text{ rad/s}$$
 </div>
 
 **Solution for (b)**

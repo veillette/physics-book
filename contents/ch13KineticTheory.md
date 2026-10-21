@@ -349,7 +349,7 @@ the problem.
 4. Plug the known values into the equations and solve for the unknowns.
 
 <div class="equation" >
- $$m=\frac{\text{molar mass}}{\text{number of atoms per mole}}=\frac{ 4.0026 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{mol}}= 6.65 \times 10^{-27}  \text{kg} $$
+ $$m=\frac{\text{molar mass}}{\text{number of atoms per mole}}=\frac{ 4.0026 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{mol}^{-1}}= 6.65 \times 10^{-27}  \text{kg} $$
 </div>
 
 <div class="equation" >

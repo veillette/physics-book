@@ -622,7 +622,7 @@ What radius circular path does an electron travel if it moves at the same speed 
 
 In the stated nonrelativistic model, $$r=mv/(|q|B)$$. The electron and proton have the same speed, field, and charge magnitude, so
 
-$$r_e=\frac{m_e}{m_p}r_p=\frac{9.11\times10^{-31}}{1.67\times10^{-27}}(0.800)=4.36\times10^{-4}\ \text{m}=0.436\ \text{mm}.$$
+$$r_e=\frac{m_e}{m_p}r_p=\frac{9.11\times10^{-31}\ \text{kg}}{1.67\times10^{-27}\ \text{kg}}(0.800\ \text{m})=4.36\times10^{-4}\ \text{m}=0.436\ \text{mm}.$$
 
 This ratio avoids rounding the field from Exercise 2. The electron's path radius is about 1833 times smaller using these rounded masses.
 
@@ -778,7 +778,7 @@ If $$\frac{1}{2}m_p v_p^2 = \frac{1}{2}m_e v_e^2$$, then $$v_p = v_e\sqrt{m_e/m_
 
 $$r_p = \frac{m_p v_p}{qB} = \frac{m_p v_e \sqrt{m_e/m_p}}{qB} = r_e \times \frac{m_p}{m_e}\sqrt{\frac{m_e}{m_p}} = r_e\sqrt{\frac{m_p}{m_e}}$$
 
-$$r_p = 4.27 \text{ m} \times \sqrt{1836} = 4.27 \times 42.8 = 183 \text{ m}$$
+$$r_p = 4.27 \text{ m} \times \sqrt{1836} = 4.27 \text{ m} \times 42.8 = 183 \text{ m}$$
 
 **(d) Proton radius at same momentum:**
 
@@ -827,7 +827,7 @@ In a mass spectrometer, ions with the same charge and velocity but different mas
 
 *Known quantities:*
 - Mass of O-16: $$m_{16} = 2.66 \times 10^{-26} \text{ kg}$$
-- Mass ratio: $$m_{18}/m_{16} = 18/16$$, so $$m_{18} = 2.66 \times 10^{-26} \times (18/16) = 2.99 \times 10^{-26} \text{ kg}$$
+- Mass ratio: $$m_{18}/m_{16} = 18/16$$, so $$m_{18} = 2.66 \times 10^{-26} \text{ kg} \times (18/16) = 2.99 \times 10^{-26} \text{ kg}$$
 - Speed: $$v = 5.00 \times 10^{6} \text{ m/s}$$
 - Magnetic field: $$B = 1.20 \text{ T}$$
 - Charge: $$q = e = 1.60 \times 10^{-19} \text{ C}$$ (singly charged)
@@ -838,11 +838,11 @@ $$r_{16} = \frac{m_{16}v}{qB} = \frac{(2.66 \times 10^{-26} \text{ kg})(5.00 \ti
 
 $$r_{16} = \frac{1.33 \times 10^{-19} \text{ kg·m/s}}{1.92 \times 10^{-19} \text{ C·T}} = 0.693 \text{ m}$$
 
-$$r_{18} = r_{16} \times \frac{m_{18}}{m_{16}} = 0.693 \times \frac{18}{16} = 0.780 \text{ m}$$
+$$r_{18} = r_{16} \times \frac{m_{18}}{m_{16}} = 0.693 \text{ m} \times \frac{18}{16} = 0.780 \text{ m}$$
 
 *Separation after semicircle:*
 
-$$\text{Separation} = 2(r_{18} - r_{16}) = 2(0.780 - 0.693) = 2(0.0866) = 0.173 \text{ m}$$
+$$\text{Separation} = 2(r_{18} - r_{16}) = 2(0.780 \text{ m} - 0.693 \text{ m}) = 2(0.0866 \text{ m}) = 0.173 \text{ m}$$
 
 **Discussion**
 
@@ -892,7 +892,7 @@ $$r_{238} = \frac{1.185 \times 10^{-19} \text{ kg·m/s}}{1.20 \times 10^{-19} \t
 
 *Separation after semicircle:*
 
-$$\text{Separation} = 2(r_{238} - r_{235}) = 2(0.988 - 0.975) = 2(0.0125) = 0.025 \text{ m} = 2.5 \text{ cm}$$
+$$\text{Separation} = 2(r_{238} - r_{235}) = 2(0.988 \text{ m} - 0.975 \text{ m}) = 2(0.0125 \text{ m}) = 0.025 \text{ m} = 2.5 \text{ cm}$$
 
 **(b) Practical considerations:**
 

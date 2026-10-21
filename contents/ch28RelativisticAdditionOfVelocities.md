@@ -515,9 +515,9 @@ Use the relativistic velocity addition formula with $$c = 3000$$ m/s, $$v = 800$
 
 (a) Bullets' velocity relative to the target:
 
-$$u = \frac{v + u'}{1 + \frac{vu'}{c^2}} = \frac{800 + 1000}{1 + \frac{(800)(1000)}{(3000)^2}}$$
+$$u = \frac{v + u'}{1 + \frac{vu'}{c^2}} = \frac{800 \text{ m/s} + 1000 \text{ m/s}}{1 + \frac{(800 \text{ m/s})(1000 \text{ m/s})}{(3000 \text{ m/s})^2}}$$
 
-$$u = \frac{1800}{1 + \frac{800000}{9000000}} = \frac{1800}{1 + 0.0889} = \frac{1800}{1.0889} = 1653 \text{ m/s}$$
+$$u = \frac{1800 \text{ m/s}}{1 + \frac{800000 \text{ m}^2/\text{s}^2}{9000000 \text{ m}^2/\text{s}^2}} = \frac{1800 \text{ m/s}}{1 + 0.0889} = \frac{1800 \text{ m/s}}{1.0889} = 1653 \text{ m/s}$$
 
 Classically: $$u_{\text{classical}} = 800 + 1000 = 1800$$ m/s
 
@@ -866,7 +866,7 @@ Solving for $$v$$:
 
 $$v = \frac{\Delta f \cdot c}{2f_{\text{original}}} = \frac{(15.0 \times 10^3 \text{ Hz})(3.00 \times 10^8 \text{ m/s})}{2(100 \times 10^9 \text{ Hz})}$$
 
-$$v = \frac{4.50 \times 10^{12}}{2.00 \times 10^{11}} = 22.5 \text{ m/s}$$
+$$v = \frac{4.50 \times 10^{12} \text{ m/s}^2}{2.00 \times 10^{11} \text{ Hz}} = 22.5 \text{ m/s}$$
 
 Converting to more familiar units: $$v = 22.5 \text{ m/s} \times \frac{3600 \text{ s}}{1000 \text{ m}} \times \frac{1 \text{ km}}{1 \text{ km}} = 81.0 \text{ km/h}$$ or about 50.3 mph.
 
