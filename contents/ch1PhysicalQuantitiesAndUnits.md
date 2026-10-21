@@ -136,7 +136,7 @@ community adopted a more stable definition of the kilogram. The kilogram is now
 defined in terms of the second, the meter, and Planck's constant, $$h $$ (a
 quantum mechanical value that relates a photon's energy to its frequency).
 
-![Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.](../resources/Figure_01_02_04.jpg 'The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.')
+![A flashlight sends light along a meter stick from 0 to 100 cm. In a vacuum, light travels this one-meter distance in exactly 1/299 792 458 of a second. Distance equals speed multiplied by time.](/resources/Figure_01_02_04.svg 'The meter is defined to be the distance light travels in 1/299 792 458 of a second in a vacuum. Distance traveled is speed multiplied by time.')
 {: #Figure4}
 
 Electric current and its accompanying unit, the ampere, will be introduced in

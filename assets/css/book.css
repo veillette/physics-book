@@ -122,10 +122,11 @@ section.normal > .title {
 /* Diagrams whose labels are unreadable at half a column. Natural width, capped
    at the column, both before and after the viewer wraps images in figures.
    Chapters 7–9 and the electromagnetic spectrum are whole sets. The chapter
-   2–4 names are the short, wide graphs and component diagrams; simple sketches
+   1–4 names are the short, wide graphs and component diagrams; simple sketches
    and the tall stacked graphs in those chapters stay at half a column. */
 .book .book-body .page-wrapper .page-inner section.normal
   img:is(
+    [src*='Figure_01_02_04.'],
     [src*='Figure_02_04_06.'],
     [src*='Figure_02_05_13.'],
     [src*='Figure_02_08_02.'],
