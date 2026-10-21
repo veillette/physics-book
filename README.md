@@ -136,7 +136,7 @@ npm run fix:equations         # Fix equation issues
 # Generate assets
 npm run generate:icons        # Generate PWA icons
 npm run generate:pdf          # Generate PDF chapters (requires the dev server)
-npm run generate:search-index # Build search index
+npm run generate:search-index # Manually rebuild search index (automatic during build/serve)
 
 # Code quality
 npm run lint                  # ESLint check

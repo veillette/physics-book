@@ -47,8 +47,8 @@ export default function (eleventyConfig) {
   });
 
   // Automatically generate client-side search index after each build.
-  eleventyConfig.on('eleventy.after', async ({ dir }) => {
-    const siteDir = dir?.output || '_site';
+  eleventyConfig.on('eleventy.after', async ({ directories }) => {
+    const siteDir = directories.output;
     const success = await buildSearchIndex({
       siteDir,
       output: 'search_index.json',

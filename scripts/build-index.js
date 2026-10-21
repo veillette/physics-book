@@ -53,7 +53,7 @@ class SearchIndexBuilder {
       printHeader('🔍', 'Search Index Builder');
     }
 
-    const sitePath = path.join(this.baseDir, this.siteDir);
+    const sitePath = path.resolve(this.baseDir, this.siteDir);
 
     if (!fs.existsSync(sitePath)) {
       if (!this.silent) {
@@ -84,7 +84,7 @@ class SearchIndexBuilder {
     // Process each file
     let docId = 1;
     for (const filePath of htmlFiles) {
-      const fullPath = path.join(this.baseDir, filePath);
+      const fullPath = path.resolve(this.baseDir, filePath);
       const result = await this.processFile(fullPath, filePath, docId);
       if (result) {
         docId++;
@@ -128,7 +128,7 @@ class SearchIndexBuilder {
     };
 
     // Write to file
-    const outputPath = path.join(this.baseDir, this.siteDir, this.outputFile);
+    const outputPath = path.resolve(sitePath, this.outputFile);
     writeFile(outputPath, JSON.stringify(indexData));
 
     this.printResults(outputPath, JSON.stringify(indexData).length);
@@ -164,7 +164,9 @@ class SearchIndexBuilder {
       }
 
       // Generate URL path relative to site
-      let url = path.relative(this.siteDir, relativePath).replace(/\\/g, '/');
+      let url = path
+        .relative(path.resolve(this.baseDir, this.siteDir), fullPath)
+        .replace(/\\/g, '/');
       if (this.baseUrl) {
         const prefix = this.baseUrl.endsWith('/') ? this.baseUrl : `${this.baseUrl}/`;
         url = `${prefix}${url}`;

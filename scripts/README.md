@@ -535,3 +535,7 @@ Scripts use these npm packages:
 For physics calculation verification:
 
 - `python` - Python 3.x (for scripts/check_math.py)
+
+The build and development server generate the search index automatically. Run `npm run update:minisearch` after updating MiniSearch to refresh its self-hosted browser module and license.
+
+`npm run audit` runs the content checks. `npm run check:all` adds the physics checker and JavaScript/Python unit tests. `npm test` runs JavaScript unit tests; `npm run test:links` checks links. Python checkers live in `scripts/`. The `fix:content` and `fix:equations` commands remain compatibility aliases for `check:content:fix` and `check:equations:fix`.
