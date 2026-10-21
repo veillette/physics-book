@@ -33,7 +33,7 @@ chiefly the burning of fossil fuels, are causing global warming. Reducing
 these emissions requires changes in energy sources as well as more efficient
 energy use.
 
-![A pie chart of world total energy supply in 2025: oil 33.5%, coal 27.7%, natural gas 25.1%, nuclear 5.2%, hydroelectricity 2.7%, and other renewables 5.9%, from a total of 600.31 EJ. Shares use physical energy content accounting and may not sum to 100% because of rounding.](/resources/Figure_07_09_01.svg 'World total energy supply by source, 2025. Source: Energy Institute, Statistical Review of World Energy 2026, p. 24. Other renewables include wind, solar, geothermal, biomass electricity, and biofuels; hydroelectricity is shown separately.')
+![A pie chart of world total energy supply in 2025: oil 33.5%, coal 27.7%, natural gas 25.1%, nuclear 5.2%, hydroelectricity 2.7%, and other renewables 5.9%, from a total of 600.31 EJ. Shares use physical energy content accounting and may not sum to 100% because of rounding.](/resources/Figure_07_09_01.svg 'World total energy supply by source, 2025. Source: <a href="https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf#page=25">Energy Institute, Statistical Review of World Energy 2026, p. 24</a>. Other renewables include wind, solar, geothermal, biomass electricity, and biofuels; hydroelectricity is shown separately.')
 {: #Figure1}
 
 #### How energy accounting changes the picture
@@ -86,7 +86,7 @@ Institute series, so the two sources’ totals and growth rates should not be
 interchanged. The Energy Institute also adjusts its published growth rates for
 leap years, whereas Figure 2 plots the reported annual energy totals.
 
-![A line chart of world total energy supply from 2015 to 2025, rising from 523.80 EJ to 600.31 EJ, with a decline from 556.63 EJ in 2019 to 532.75 EJ in 2020. All years are historical estimates using physical energy content accounting.](/resources/Figure_07_09_02.svg 'World total energy supply, 2015–2025. Source: Energy Institute, Statistical Review of World Energy 2026, p. 23. The entire series uses the revised accounting method; no forecasts are shown.')
+![A line chart of world total energy supply from 2015 to 2025, rising from 523.80 EJ to 600.31 EJ, with a decline from 556.63 EJ in 2019 to 532.75 EJ in 2020. All years are historical estimates using physical energy content accounting.](/resources/Figure_07_09_02.svg 'World total energy supply, 2015–2025. Source: <a href="https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf#page=24">Energy Institute, Statistical Review of World Energy 2026, p. 23</a>. The entire series uses the revised accounting method; no forecasts are shown.')
 {: #Figure2}
 
 Countries’ energy mixes differ substantially. China and India remain major
@@ -160,12 +160,8 @@ is used.
 
 New and diversified energy sources can also affect economic opportunity and stability. Renewable energy has become a large and growing source of employment. A mix of energy sources can make a power system more resilient, because a disruption to one fuel supply or one type of plant does not shut down everything. The 21st century has already seen major economic impacts from energy disruptions: Hurricane Katrina, Superstorm Sandy, various wildfires, Hurricane Maria, and the 2021 Texas winter storm demonstrated the vulnerability of United States power systems. (During the Texas storm, natural gas, coal, nuclear, and wind generation all failed in the extreme cold, so resilience depends on how every source is designed and maintained.) Distributed generation, such as rooftop solar with battery storage and local microgrids, can keep critical services running when the main grid fails. And as critical information infrastructure, such as data centers, requires more of the world's energy, supplying those growing systems during normal operations and crises will be increasingly important.
 
-![A scatter plot for the eleven countries in Table 1 in 2025. GDP per person, adjusted for purchasing power and measured in constant 2021 international dollars, is on the horizontal axis. Annual total energy supply in kWh per person is on the vertical axis. Higher income generally accompanies higher energy use, with substantial variation between countries.](/resources/Figure_07_09_04.svg 'Annual energy use and GDP per person, 2025. Sources: Energy Institute, Statistical Review of World Energy 2026, p. 25, and World Bank, indicator NY.GDP.PCAP.PP.KD. Energy uses physical energy content accounting; GDP is adjusted for purchasing power.')
+![A scatter plot for the eleven countries in Table 1 in 2025. GDP per person, adjusted for purchasing power and measured in constant 2021 international dollars, is on the horizontal axis. Annual total energy supply in kWh per person is on the vertical axis. Higher income generally accompanies higher energy use, with substantial variation between countries.](/resources/Figure_07_09_04.svg 'Annual energy use and GDP per person, 2025. Sources: <a href="https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf#page=26">Energy Institute, Statistical Review of World Energy 2026, p. 25</a>, and <a href="https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD">World Bank GDP per capita, PPP (constant 2021 international dollars)</a>. Energy uses physical energy content accounting; GDP is adjusted for purchasing power. Data accessed October 21, 2026.')
 {: #Figure4}
-
-Sources for Figure 4: [Energy Institute, p. 25](https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf#page=26)
-and [World Bank GDP per capita, PPP (constant 2021 international dollars)](https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD).
-Data accessed October 21, 2026.
 
 ### Conserving Energy
 
