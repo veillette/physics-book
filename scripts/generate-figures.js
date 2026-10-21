@@ -22,6 +22,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import ch02 from './figures/ch02.js';
 import ch03 from './figures/ch03.js';
+import projectileToSatellite from './figures/projectile-to-satellite.js';
 import ch04to07 from './figures/ch04to07.js';
 import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
@@ -39,6 +40,7 @@ const filter = process.argv[2] || '';
 const figures = {
   ...ch02,
   ...ch03,
+  ...projectileToSatellite,
   ...ch04to07,
   ...ch08,
   ...ch09,

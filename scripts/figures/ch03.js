@@ -1130,61 +1130,97 @@ export default {
   // 3.4 — range for different speeds and angles
   Figure_03_04_05: () => {
     const g = 9.8;
+    // One physical clock for all six launches, followed by a landing pause.
+    const clock = (2 * 50 * Math.sin(rad(75))) / g + 1.2;
+    const duration = `${clock}s`;
     const svg = new Svg({
-      width: 620,
-      height: 640,
+      width: 1000,
+      height: 840,
       title: 'Range of a projectile on level ground',
-      desc: '(a) At 45°, launch speeds of 30, 40 and 50 m/s give ranges of 91.8 m, 163 m and 255 m. (b) At 50 m/s, launch angles of 15° and 75° both give a range of 128 m, and 45° gives the maximum range of 255 m.',
+      desc: '(a) At 45°, launch speeds of 30, 40 and 50 m/s give ranges of 91.8 m, 163 m and 255 m. (b) At 50 m/s, launch angles of 15° and 75° both give a range of 128 m, and 45° gives the maximum range of 255 m. All six projectiles launch together on a shared clock and stop on landing; the animation repeats. The 75° launch rises higher and stays aloft longer than the 15° launch. Air resistance is neglected.',
     });
+    const text = (x, y, label, options = {}) =>
+      svg.text(x, y, label, { size: 19, math: false, halo: false, anchor: 'start', ...options });
+    const launches = [];
     const traj = (f, v, deg, color) => {
-      const c = Math.cos(rad(deg));
-      const t = Math.tan(rad(deg));
-      const R = (v * v * Math.sin(rad(2 * deg))) / g;
-      const pts = [];
-      for (let k = 0; k <= 80; k += 1) {
-        const x = (R * k) / 80;
-        pts.push(f.p(x, x * t - (g * x * x) / (2 * v * v * c * c)));
-      }
-      svg.polyline(pts, { color, width: 2.5 });
-      const H = (v * v * Math.sin(rad(deg)) ** 2) / (2 * g);
-      f.line([R / 2, 0], [R / 2, H], { color: BLACK, width: 1, dash: '4 3' });
-      f.pvec([0, 0], v * 1.25, deg, { color, width: 3.5, head: 15 });
+      const vx = v * Math.cos(rad(deg));
+      const vy = v * Math.sin(rad(deg));
+      const flight = (2 * vy) / g;
+      const R = vx * flight;
+      // Sample equal times, then convert to path-length fractions for SMIL.
+      // Constant speed along the curve would give incorrect projectile motion.
+      const pts = Array.from({ length: 121 }, (_, k) => {
+        const t = (flight * k) / 120;
+        return f.p(vx * t, Math.max(0, vy * t - (g * t * t) / 2));
+      });
+      const path = timedPath(pts);
+      path.keyTimes = [...path.keyTimes.map(t => (t * flight) / clock), 1];
+      path.keyPoints.push(1);
+      svg.polyline(pts, { color, width: 3 });
+      f.line([R / 2, 0], [R / 2, (vy * vy) / (2 * g)], {
+        color: '#a5afb9',
+        width: 1,
+        dash: '4 5',
+      });
+      f.pvec([0, 0], v * 0.7, deg, { color, width: 2.5, head: 10 });
+      launches.push({ path, color, apex: pts[60] });
       return R;
     };
-    const span = (f, R, y, label) => {
-      f.line([0, y + 3], [0, y - 3], { color: BLACK, width: 1 });
-      f.line([R, y + 3], [R, y - 3], { color: BLACK, width: 1 });
-      f.vec([0, y], [R, y], { color: BLACK, width: 1.2, head: 9, start: true });
+    const span = (f, R, y, label, color) => {
+      f.line([0, y + 3], [0, y - 3], { color, width: 1 });
+      f.line([R, y + 3], [R, y - 3], { color, width: 1 });
+      f.vec([0, y], [R, y], { color, width: 1.2, head: 8, start: true });
       const [x, py] = f.p(R / 2, y);
-      svg.rect(x - 55, py - 10, 110, 20, { fill: '#ffffff' });
-      svg.text(x, py, label, { size: 16 });
+      svg.rect(x - 65, py - 12, 130, 24, { fill: '#ffffff' });
+      svg.text(x, py, label, { size: 18, color });
     };
-    const colors = [COLORS.red, COLORS.vector, COLORS.green];
-    // (a)
-    let f = new Frame(svg, { ox: 60, oy: 175, scale: 1.75 });
-    f.line([-5, 0], [300, 0], { color: BLACK, width: 1.5 });
-    [30, 40, 50].forEach((v, k) => {
-      traj(f, v, 45, colors[k]);
-      const [lx, ly] = f.p(...polar(v * 1.25, 45));
-      svg.text(lx - 12, ly - 2, `${v} \\rm{m/s}`, { size: 15, anchor: 'end' });
+    const colors = ['#c13747', '#2563b5', '#087e83'];
+    const legend = (y, k, label, detail) => {
+      svg.line(704, y - 6, 733, y - 6, { color: colors[k], width: 3 });
+      text(748, y, label, { color: colors[k], weight: 'bold' });
+      text(748, y + 27, detail, { size: 17, color: '#526173' });
+    };
+    text(30, 35, 'Trajectories on level ground', { size: 27, weight: 'bold' });
+    text(30, 66, 'All projectiles launch together and stop when they reach the ground.', {
+      size: 18,
+      color: '#526173',
     });
-    f.angle([0, 0], 0, 45, 30, '45°', { labelR: 20, dx: 30, dy: 2 });
-    span(f, 91.8, -14, 'R = 91.8 \\rm{m}');
-    span(f, 163, -28, 'R = 163 \\rm{m}');
-    span(f, 255, -42, 'R = 255 \\rm{m}');
-    svg.text(20, 270, '(a)', { size: 16, math: false });
-    svg.xyIndicator(530, 75, { len: 50, size: 16 });
+    // (a)
+    text(30, 108, '(a) Same angle: 45°', { size: 22, weight: 'bold' });
+    let f = new Frame(svg, { ox: 65, oy: 285, scale: 2.2 });
+    f.line([-5, 0], [275, 0], { color: BLACK, width: 1.5 });
+    [30, 40, 50].forEach((v, k) => {
+      const R = traj(f, v, 45, colors[k]);
+      span(f, R, -14 - k * 15, `R = ${k === 0 ? '91.8' : Math.round(R)} \\rm{m}`, colors[k]);
+      legend(163 + k * 74, k, `${v} m/s`, `Range: ${k === 0 ? '91.8' : Math.round(R)} m`);
+    });
+    f.angle([0, 0], 0, 45, 26, '45°', { labelR: 39 });
+    svg.xyIndicator(620, 177, { len: 32, size: 17 });
+    svg.line(30, 409, 970, 409, { color: '#dce3e9', width: 1 });
     // (b)
-    f = new Frame(svg, { ox: 60, oy: 520, scale: 1.75 });
-    f.line([-5, 0], [300, 0], { color: BLACK, width: 1.5 });
-    [15, 45, 75].forEach((deg, k) => traj(f, 50, deg, colors[k]));
-    f.angle([0, 0], 0, 15, 110, '15°', { labelR: 124 });
-    f.angle([0, 0], 0, 45, 80, '45°', { labelR: 94 });
-    f.angle([0, 0], 0, 75, 50, '75°', { labelR: 64, dx: 4 });
-    f.text(polar(66, 80), 'v_0 = 50 \\rm{m/s}', { dx: -6, dy: -8, size: 16, anchor: 'end' });
-    span(f, 128, -14, 'R = 128 \\rm{m}');
-    span(f, 255, -32, 'R = 255 \\rm{m}');
-    svg.text(20, 625, '(b)', { size: 16, math: false });
+    text(30, 446, '(b) Same initial speed: 50 m/s', { size: 22, weight: 'bold' });
+    f = new Frame(svg, { ox: 65, oy: 735, scale: 2.2 });
+    f.line([-5, 0], [275, 0], { color: BLACK, width: 1.5 });
+    const ranges = [15, 45, 75].map((deg, k) => {
+      const R = traj(f, 50, deg, colors[k]);
+      legend(496 + k * 74, k, `${deg}° launch`, `Range: ${Math.round(R)} m`);
+      return R;
+    });
+    span(f, ranges[0], -14, 'R = 128 \\rm{m}', colors[0]);
+    span(f, ranges[1], -29, 'R = 255 \\rm{m}', colors[1]);
+    text(704, 700, '15° and 75°: same range,', { size: 18, color: '#526173' });
+    text(704, 726, 'different heights and flight times.', { size: 18, color: '#526173' });
+    // Keep complete paths and apex markers in reduced motion and print.
+    launches.forEach(({ path, color, apex }) => {
+      svg.still(() => svg.circle(...apex, 7, { fill: color, stroke: '#ffffff', width: 2 }));
+      svg.motionGroup(
+        `<g>${smilMotion(path.path, { dur: duration, keyPoints: path.keyPoints, keyTimes: path.keyTimes })}<circle r="7" fill="${color}" stroke="#ffffff" stroke-width="2"/></g>`
+      );
+    });
+    text(30, 830, 'Animation repeats. Air resistance is neglected.', {
+      size: 16,
+      color: '#526173',
+    });
     return svg.render();
   },
 

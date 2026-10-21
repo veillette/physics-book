@@ -119,6 +119,13 @@ section.normal > .title {
   inline-size: 50%;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal img.figure-full-width {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 /* Diagrams whose labels are unreadable at half a column. Natural width, capped
    at the column, both before and after the viewer wraps images in figures.
    Chapters 7–9 and the electromagnetic spectrum are whole sets. The chapter

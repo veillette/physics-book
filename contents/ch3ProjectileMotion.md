@@ -496,10 +496,9 @@ aiming cannons. However, investigating the range of projectiles can shed light
 on other interesting phenomena, such as the orbits of satellites around the
 Earth. Let us consider projectile range further.
 
-![Part a of the figure shows three different trajectories of projectiles on level ground. In each case the projectiles makes an angle of forty five degrees with the horizontal axis. The first projectile of initial velocity thirty meters per second travels a horizontal distance of R equal to ninety one point eight meters. The second projectile of initial velocity forty meters per second travels a horizontal distance of R equal to one hundred sixty three meters. The third projectile of initial velocity fifty meters per second travels a horizontal distance of R equal to two hundred fifty five meters.](../resources/Figure_03_04_05.svg 'Trajectories of projectiles on level ground.
+![Animated projectile trajectories on level ground. (a) At 45 degrees, launch speeds of 30, 40, and 50 m/s give ranges of 91.8, 163, and 255 m. (b) At 50 m/s, launches at 15 and 75 degrees both travel 128 m, while the 45-degree launch travels 255 m. All launch together; the 75-degree projectile rises higher and lands later than the 15-degree projectile.](/resources/Figure_03_04_05.svg 'Trajectories of projectiles on level ground.
 (a) The greater the initial speed \( v_0 \), the greater the range for a given initial angle.
-(b) The effect of initial angle \( \theta_0 \) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.')
-{: #Figure5 height="300"}
+(b) The effect of initial angle \( \theta_0 \) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.'){: #Figure5 .figure-full-width}
 
 How does the initial velocity of a projectile affect its range? Obviously, the
 greater the initial speed $$ v_{0} $$, the greater the range, as shown
@@ -548,7 +547,7 @@ examine the addition of velocities, which is another important aspect of
 two-dimensional kinematics and will also yield insights beyond the immediate
 topic.
 
-![A figure of the Earth is shown and on top of it a very high tower is placed. A projectile satellite is launched from this very high tower with initial velocity of v zero in the horizontal direction. Several trajectories are shown with increasing range. A circular trajectory is shown indicating the satellite achieved its orbit and it is revolving around the Earth.](../resources/Figure_03_04_06.jpg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
+![Four projectiles launch horizontally from a high tower on Earth. Three increasing launch speeds produce progressively longer paths ending at the surface; at circular-orbit speed, the fourth projectile keeps circling Earth. A dashed level-ground comparison shows how Earth's curvature extends the range.](/resources/Figure_03_04_06.svg "Projectile to satellite. In each case shown here, a projectile is launched from a very high tower to avoid air resistance. With increasing initial speed, the range increases and becomes longer than it would be on level ground because the Earth curves away underneath its path. With a large enough initial speed, orbit is achieved.")
 {: #Figure6}
 
 :::: note {"class":"note","data-label":"PhET Exploration"}
