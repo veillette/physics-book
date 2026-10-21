@@ -7,16 +7,23 @@ Two kinds of check run against contents/:
 1. Equation scan (automatic). Every $$...$$ span is split at "=" and "\\approx".
    When one side is a purely numeric expression (numbers, units, \\frac,
    \\sqrt, powers, trig, ln) and the next side is a single stated number, the
-   expression is evaluated and compared with the stated value. Units are
-   stripped; anything with a variable left in it is skipped.
+   expression is evaluated and compared with the stated value. Anything with a
+   variable left in it is skipped. A space used as a thousands separator
+   (86 400) is part of the number, and a unit product such as N\\cdot m is a
+   unit, not extra arithmetic.
+
+   Two stated numbers are compared directly when they share a unit or a known
+   conversion: SI prefixes, rad/deg/rev, temperature, eV, and the other units
+   listed in parse_unit. Absolute temperatures and temperature intervals are
+   both accepted, so 20°C = 293 K and 10°C = 10 K both pass.
 
    The allowed difference is the largest of
      - the relative tolerance (--tolerance, default 1%; 5% for \\approx),
      - the rounding uncertainty carried by the decimal inputs, propagated
        through the expression, plus half a unit in the last place of the result.
-   A result that differs by an exact power of ten is treated as a unit-prefix
-   change (m -> mm, s -> ns) when units are present or the power is a multiple
-   of three.
+   On an expression (as opposed to two stated numbers), a result that differs
+   by an exact power of ten is treated as a unit-prefix change (m -> mm) when
+   units are present or the power is a multiple of three.
 
 2. Worked-example checks (hand-written). Multi-step physics that a single
    equation cannot show, such as recomputing an answer from the givens. Each
@@ -54,11 +61,19 @@ class Skip(Exception):
     """The segment is not a purely numeric expression."""
 
 
-# Unit macros defined in assets/js/math-config.js.
+# Unit macros defined in assets/js/math-config.js. Longest first, so \\mmss wins over \\m.
 UNIT_MACROS = ('mmss', 'mms', 'mss', 'radss', 'rads', 'kg', 'ms', 'mm', 'mph', 'mile', 'inch', 'N', 'J', 's', 'm')
+# What those macros mean. \\mm is square metres, not millimetres; \\ms is m/s, not milliseconds.
+MACRO_UNITS = {
+    'mmss': 'm^2/s^2', 'mms': 'm^2/s', 'mss': 'm/s^2', 'radss': 'rad/s^2', 'rads': 'rad/s',
+    'kg': 'kg', 'ms': 'm/s', 'mm': 'm^2', 'mph': 'mph', 'mile': 'mi', 'inch': 'in',
+    'N': 'N', 'J': 'J', 's': 's', 'm': 'm',
+}
 FUNCS = ('arcsin', 'arccos', 'arctan', 'sinh', 'cosh', 'tanh', 'sqrt', 'sin', 'cos', 'tan', 'exp', 'ln', 'log')
-UNIT_EXP = r'(?:\s*\^\s*(?:\{[^{}]*\}|-?\d))?'
-DEGREE = r'(?:°|º|\^\s*\{?\s*\\circ\s*\}?|\^\s*\{\s*o\s*\})'
+# A closing brace is part of ^{\circ} only when the opening brace was. Otherwise
+# \sin{20^\circ} loses the brace that closes the argument.
+DEGREE = r'(?:°|º|\^\s*\{\s*\\circ\s*\}|\^\s*\\circ|\\circ|\^\s*\{\s*o\s*\})'
+_EXP = r'(?:\s*\^\s*(?:\{(?P<br>[^{}]*)\}|(?P<raw>-?\d)))?'
 MATH_RE = re.compile(r'\$\$(.+?)\$\$', re.DOTALL)
 RELATION_RE = re.compile(
     r'=|\\approx\b|\\simeq\b|\\sim\b|\\Rightarrow\b|\\rightarrow\b|\\to\b|\\implies\b'
@@ -116,30 +131,71 @@ def expand_commands(s):
     return ''.join(out)
 
 
+def canonicalize_unit(text):
+    """Turn a unit fragment into a compact string parse_unit can read."""
+    t = text.strip()
+    t = t.replace('µ', 'μ').replace(r'\mu', 'μ').replace(r'\micro', 'μ')
+    t = t.replace(r'\Omega', 'Ω').replace(r'\ohm', 'Ω')
+    t = t.replace(r'\cdot', '·').replace(r'\times', '·').replace('*', '·')
+    t = re.sub(r'\^\s*\{([^{}]*)\}', r'^\1', t)
+    t = re.sub(r'\s+', '', t)
+    t = t.replace('−', '-')
+    t = t.replace('°C', 'degC').replace('ºC', 'degC').replace('°F', 'degF').replace('ºF', 'degF')
+    t = t.replace('°', 'deg').replace('º', 'deg')
+    t = t.rstrip('.')
+    aliases = {'hours': 'h', 'hour': 'h', 'minutes': 'min', 'minute': 'min', 'mins': 'min',
+               'seconds': 's', 'second': 's', 'sec': 's', 'amu': 'u', 'ohms': 'Ω', 'ohm': 'Ω'}
+    return aliases.get(t, '' if t in ('.', '·') else t)
+
+
+def _with_exp(body, exp):
+    body = canonicalize_unit(body)
+    if not body:
+        return ' '
+    if exp:
+        exp = exp.strip()
+        # \text{m/s}^2 and \text{g/cm}^3 mean m/s^2 and g/cm^3. A true (m/s)^2 is parenthesized.
+        body = f'{body}^{exp}' if '/' in body else f'({body})^{exp}'
+    return f' UNIT<{body}> '
+
+
 def unit_token(text):
-    return f' UNIT[{re.sub(r"[^A-Za-z0-9]", "", text)}] '
+    return _with_exp(text, None)
 
 
 def normalize(seg):
     s = seg
+    s = s.replace('×', '*').replace('·', '*').replace('−', '-')
     s = re.sub(r'\\(?:left|right|big|Big|bigg|Bigg)\b\s*([()\[\]|.]|\\[{}])?',
                lambda m: '' if m.group(1) in (None, '.') else m.group(1), s)
     for old, new in (('\\!', ''), ('\\,', ' '), ('\\;', ' '), ('\\:', ' '), ('\\ ', ' '), ('~', ' '),
                      ('\\displaystyle', ''), ('\\%', ' PCT ')):
         s = s.replace(old, new)
-    # Angles: \text{°} is an angle; °C / °F is a temperature unit.
-    s = re.sub(r'\\(?:text|mathrm)\s*\{\s*' + DEGREE + r'\s*\}', ' DEG ', s)
-    s = re.sub(DEGREE + r'\s*(?:\\(?:text|mathrm)\s*\{\s*([CF])\s*\}|([CF])\b)',
-               lambda m: unit_token('deg' + (m.group(1) or m.group(2))), s)
+    # Temperatures before generic \\text, so °C is not wrapped a second time.
+    s = re.sub(
+        r'\\(?:text|textrm|mathrm|rm|mbox)\s*\{\s*(?:°|º|\\circ\s*)?\s*([CFcf])\s*\.?\s*\}' + _EXP,
+        lambda m: _with_exp('deg' + m.group(1).upper(), m.group('br') or m.group('raw')), s)
+    s = re.sub(
+        r'\\(?:text|textrm|mathrm|rm|mbox)\s*\{\s*' + DEGREE + r'\s*\}', ' DEG ', s)
+    s = re.sub(
+        DEGREE + r'\s*(?:\\(?:text|textrm|mathrm|rm|mbox)\s*\{\s*([CFcf])\s*\.?\s*\}|([CFcf])\b)',
+        lambda m: unit_token('deg' + (m.group(1) or m.group(2)).upper()), s)
     # Units: \text{...}, \mathrm{...} (with any exponent) and the book's unit macros.
-    s = re.sub(r'\\(?:text|textrm|mathrm|rm|mbox)\s*\{([^{}]*)\}' + UNIT_EXP, lambda m: unit_token(m.group(1)), s)
-    s = re.sub(r'\\(' + '|'.join(UNIT_MACROS) + r')(?![A-Za-z])' + UNIT_EXP, lambda m: unit_token(m.group(1)), s)
-    s = re.sub(r'\\(?:Omega|mu|micro)(?![A-Za-z])', lambda m: unit_token(m.group(0)[1:]), s)
+    s = re.sub(
+        r'\\(?:text|textrm|mathrm|rm|mbox)\s*\{([^{}]*)\}' + _EXP,
+        lambda m: _with_exp(m.group(1), m.group('br') or m.group('raw')), s)
+    s = re.sub(
+        r'\\(' + '|'.join(UNIT_MACROS) + r')(?![A-Za-z])' + _EXP,
+        lambda m: _with_exp(MACRO_UNITS[m.group(1)], m.group('br') or m.group('raw')), s)
+    s = re.sub(r'\\Omega(?![A-Za-z])', lambda m: unit_token('Ω'), s)
+    s = re.sub(r'\\(?:mu|micro)(?![A-Za-z])', lambda m: unit_token('μ'), s)
     s = re.sub(DEGREE, ' DEG ', s)
     s = re.sub(r'\\(?:times|cdot|ast)(?![A-Za-z])', '*', s)
     s = s.replace('\\div', '/')
     s = re.sub(r'\\(?:arc)?(sin|cos|tan)\s*\^\s*\{?\s*-1\s*\}?', r' arc\1 ', s)
-    s = re.sub(r'\\(' + '|'.join(FUNCS) + r')(?![A-Za-z])', r' \1 ', s)
+    # \sqrt is expanded below, so its optional [n] index is not lost.
+    bare_funcs = '|'.join(f for f in FUNCS if f != 'sqrt')
+    s = re.sub(r'\\(' + bare_funcs + r')(?![A-Za-z])', r' \1 ', s)
     s = s.replace('\\pi', ' pi ')
     s = expand_commands(s)
     # Scientific notation binds as one number: a / 6.02 \times 10^{23} means a / (6.02e23).
@@ -147,12 +203,14 @@ def normalize(seg):
                lambda m: f'{m.group(1)}e{m.group(2) or m.group(3)}', s)
     s = re.sub(r'(?<![\d.e])10\s*\^\s*(?:\{\s*([-+]?\d+)\s*\}|([-+]?\d))',
                lambda m: f'1e{m.group(1) or m.group(2)}', s)
+    # SI thousands separator: 86 400 and 1 000 000. A group of exactly three digits.
+    s = re.sub(r'(?<=\d) (?=\d{3}(?!\d))', '', s)
     return s.replace('{', '(').replace('}', ')').replace('[', '(').replace(']', ')')
 
 
 TOKEN_RE = re.compile(
     r'\s*(?:(?P<num>(?:\d+(?:\.\d*)?|\.\d+)(?:e[-+]?\d+)?)'
-    r'|UNIT[\[(](?P<unit>\w*)[\])]'
+    r'|UNIT<(?P<unit>[^>]*)>'
     r'|(?P<word>DEG|PCT|pi|[A-Za-z]+)'
     r'|(?P<op>[-+*/^()])'
     r'|(?P<other>\S))'
@@ -179,6 +237,94 @@ def tokenize(s):
         elif m.group('other') is not None:
             raise Skip(f'symbol {m.group("other")}')
     return toks
+
+
+def match_paren(toks, i):
+    """toks[i] is '('; return the index just after the matching ')'."""
+    depth = 0
+    for j in range(i, len(toks)):
+        if toks[j] == ('op', '('):
+            depth += 1
+        elif toks[j] == ('op', ')'):
+            depth -= 1
+            if depth == 0:
+                return j + 1
+    return None
+
+
+def _exponent_end(toks, i):
+    """Index after a numeric exponent starting at i, or None."""
+    if i >= len(toks):
+        return None
+    if toks[i][0] == 'num':
+        return i + 1
+    if toks[i] == ('op', '-') and i + 1 < len(toks) and toks[i + 1][0] == 'num':
+        return i + 2
+    if toks[i] == ('op', '('):
+        end = match_paren(toks, i)
+        if end is None:
+            return None
+        inner = toks[i + 1:end - 1]
+        if inner and all(t[0] in ('num', 'op') for t in inner):
+            return end
+    return None
+
+
+def _unit_atom_end(toks, i):
+    """Index after one pure unit atom (a unit, or a parenthesised unit product), or None."""
+    if i >= len(toks):
+        return None
+    if toks[i][0] == 'unit':
+        end = i + 1
+    elif toks[i] == ('op', '('):
+        end = match_paren(toks, i)
+        if end is None or not _is_pure_unit_seq(toks[i + 1:end - 1]):
+            return None
+    else:
+        return None
+    if end < len(toks) and toks[end] == ('op', '^'):
+        exp = _exponent_end(toks, end + 1)
+        if exp is None:
+            return None
+        return exp
+    return end
+
+
+def pure_unit_factor_end(toks, i):
+    """If a pure unit factor starts at i, return the index just after it."""
+    end = _unit_atom_end(toks, i)
+    if end is None:
+        return None
+    while end < len(toks) and toks[end] in (('op', '*'), ('op', '/')):
+        nxt = _unit_atom_end(toks, end + 1)
+        if nxt is None:
+            break
+        end = nxt
+    return end
+
+
+def _is_pure_unit_seq(toks):
+    return bool(toks) and pure_unit_factor_end(toks, 0) == len(toks)
+
+
+def peel_unit_factors(toks):
+    """Drop unit tokens and unit-only factors so the numeric skeleton remains."""
+    out = []
+    i = 0
+    while i < len(toks):
+        if toks[i][0] == 'unit' or toks[i] == ('op', '('):
+            end = pure_unit_factor_end(toks, i)
+            if end is not None:
+                i = end
+                continue
+        if toks[i] in (('op', '*'), ('op', '/')):
+            end = pure_unit_factor_end(toks, i + 1)
+            if end is not None:
+                i = end
+                continue
+        out.append(toks[i])
+        i += 1
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -240,6 +386,7 @@ class Parser:
         self.i = 0
         self.ops = 0
         self.units = []
+        self.last = None
         self.inverse_trig_degrees = inverse_trig_degrees
 
     def peek(self):
@@ -255,6 +402,8 @@ class Parser:
     def take(self):
         tok = self.peek()
         self.i += 1
+        if tok and tok[0] != 'unit':
+            self.last = tok
         return tok
 
     def parse(self):
@@ -285,12 +434,26 @@ class Parser:
         while True:
             tok = self.peek()
             if tok in (('op', '*'), ('op', '/')):
+                end = pure_unit_factor_end(self.toks, self.i + 1)
+                if end is not None:
+                    self.i = end  # N·m is a unit, not a product of two numbers
+                    continue
                 self.take()
                 self.ops += 1
                 right = self.unary()
                 value = value * right if tok[1] == '*' else value / right
-            elif tok and (tok == ('op', '(') or tok[0] in ('func', 'pi')):
+            elif tok == ('op', '('):
+                end = pure_unit_factor_end(self.toks, self.i)
+                if end is not None:
+                    self.i = end
+                    continue
                 self.ops += 1
+                value = value * self.unary()
+            elif tok and tok[0] in ('func', 'pi'):
+                self.ops += 1
+                value = value * self.unary()
+            elif tok and tok[0] == 'num' and self.last == ('op', ')'):
+                self.ops += 1  # \frac{9}{5}25 and (1.2)3^{1/3}
                 value = value * self.unary()
             else:
                 return value
@@ -359,26 +522,329 @@ class Parser:
         return arg.apply(f)
 
 
-SIMPLE_RE = re.compile(r'^\s*([-+]?)\s*(\d+(?:\.\d*)?|\.\d+)(?:e([-+]?\d+))?\s*$')
+def ulp_of(text):
+    """Unit in the last place of a number token, matching the stated-number rules."""
+    mant, _, exp = text.partition('e')
+    exp_i = int(exp) if exp else 0
+    if '.' in mant:
+        return 10 ** (exp_i - len(mant.split('.')[1]))
+    ulp = 10 ** exp_i
+    if len(mant) > 1 and mant.endswith('0'):
+        ulp = 10 ** (exp_i + len(mant) - len(mant.rstrip('0')))  # trailing zeros: not significant
+    if mant == '1' and exp:
+        ulp = 2 * 10 ** exp_i  # a bare power of ten is an order-of-magnitude estimate
+    return ulp
+
+
+def _unwrap(toks):
+    while len(toks) >= 2 and toks[0] == ('op', '(') and match_paren(toks, 0) == len(toks):
+        toks = toks[1:-1]
+    return toks
+
+
+def simple_from_tokens(toks):
+    """A single signed number, once units have been peeled. None if it is an expression."""
+    if any(t[0] == 'PCT' for t in toks):
+        return None
+    has_deg = any(t[0] == 'DEG' for t in toks)
+    toks = _unwrap([t for t in toks if t[0] != 'DEG'])
+    sign = 1
+    if toks and toks[0] in (('op', '+'), ('op', '-')):
+        if toks[0][1] == '-':
+            sign = -1
+        toks = _unwrap(toks[1:])
+    if len(toks) == 1 and toks[0][0] == 'num':
+        text = toks[0][1]
+        mant, _, exp = text.partition('e')
+        return sign * float(mant) * 10 ** (int(exp) if exp else 0), ulp_of(text), has_deg
+    return None
+
+
+def unit_product(toks):
+    """The unit algebra of a token list, with the quantity's own number removed."""
+    parts = []
+    for t in toks:
+        if t[0] == 'unit':
+            parts.append(t[1])
+        elif t == ('op', '^'):
+            parts.append('^')
+        elif t[0] == 'num' and parts and parts[-1] == '^':
+            parts.append(t[1])
+        elif t == ('op', '*') and parts:
+            parts.append('·')
+        elif t == ('op', '/'):
+            parts.append('/')
+        elif t in (('op', '('), ('op', ')')):
+            parts.append(t[1])
+        elif t[0] == 'DEG':
+            parts.append('deg')
+    text = ''.join(parts).replace('μ·', 'μ').replace('µ·', 'μ')
+    text = re.sub(r'\(\)', '', text)
+    text = re.sub(r'^[·/]+', '', text)
+    text = text.replace('(·', '(')
+    return text.strip('·')
+
+
+@dataclass
+class Quantity:
+    """A stated number, its rounding unit, and the unit product attached to it."""
+    value: float
+    ulp: float
+    deg: bool
+    unit: str
+
+
+def stated_quantity(norm):
+    """If `norm` is one number with optional units, return that quantity."""
+    try:
+        toks = tokenize(norm)
+    except Skip:
+        return None
+    parsed = simple_from_tokens(peel_unit_factors(toks))
+    if not parsed:
+        return None
+    value, ulp, deg = parsed
+    unit = unit_product(toks)
+    if deg and not unit:
+        unit = 'deg'
+    return Quantity(value, ulp, deg or unit == 'deg', unit)
 
 
 def stated_number(norm):
     """If a normalized segment is one plain number, return (value, ulp, has_degrees)."""
-    has_deg = ' DEG ' in norm
-    stripped = re.sub(r'UNIT[\[(]\w*[\])]|\bDEG\b', ' ', norm)
-    m = SIMPLE_RE.match(stripped)
-    if not m:
+    quantity = stated_quantity(norm)
+    if not quantity:
         return None
-    sign, mant, exp = m.groups()
-    exp = int(exp) if exp else 0
-    decimals = len(mant.split('.')[1]) if '.' in mant else 0
-    value = float(mant) * 10 ** exp * (-1 if sign == '-' else 1)
-    ulp = 10 ** (exp - decimals)
-    if '.' not in mant and len(mant) > 1 and mant.endswith('0'):
-        ulp = 10 ** (exp + len(mant) - len(mant.rstrip('0')))  # trailing zeros: not significant
-    if mant == '1' and exp:
-        ulp = 2 * 10 ** exp  # a bare power of ten is an order-of-magnitude estimate
-    return value, ulp, has_deg
+    return quantity.value, quantity.ulp, quantity.deg
+
+
+# (symbol, scale to SI, dimension, absolute-temperature offset).
+# Mass is the kilogram, so the gram carries 10^-3. Offsets apply only when the
+# whole unit is a pure temperature; a per-degree unit drops the offset.
+_ENERGY = {'mass': 1, 'len': 2, 'time': -2}
+_FORCE = {'mass': 1, 'len': 1, 'time': -2}
+_POWER = {'mass': 1, 'len': 2, 'time': -3}
+_PRESSURE = {'mass': 1, 'len': -1, 'time': -2}
+_VOLT = {'mass': 1, 'len': 2, 'time': -3, 'current': -1}
+_OHM = {'mass': 1, 'len': 2, 'time': -3, 'current': -2}
+_BASES = {
+    'degC': (1.0, {'Th': 1}, 273.15),
+    'degF': (5.0 / 9.0, {'Th': 1}, 273.15 - 32 * 5.0 / 9.0),
+    'mmHg': (133.322, _PRESSURE, 0.0),
+    'kcal': (4184.0, _ENERGY, 0.0),
+    'eV': (1.602176634e-19, _ENERGY, 0.0),
+    'rpm': (2 * math.pi / 60, {'angle': 1, 'time': -1}, 0.0),
+    'rad': (1.0, {'angle': 1}, 0.0),
+    'rev': (2 * math.pi, {'angle': 1}, 0.0),
+    'min': (60.0, {'time': 1}, 0.0),
+    'mol': (1.0, {'amount': 1}, 0.0),
+    'mph': (0.44704, {'len': 1, 'time': -1}, 0.0),
+    'atm': (101325.0, _PRESSURE, 0.0),
+    'cal': (4.184, _ENERGY, 0.0),
+    'day': (86400.0, {'time': 1}, 0.0),
+    'Hz': (1.0, {'time': -1}, 0.0),
+    'Pa': (1.0, _PRESSURE, 0.0),
+    'hr': (3600.0, {'time': 1}, 0.0),
+    'mi': (1609.344, {'len': 1}, 0.0),
+    'ft': (0.3048, {'len': 1}, 0.0),
+    'in': (0.0254, {'len': 1}, 0.0),
+    'Ci': (3.7e10, {'time': -1}, 0.0),
+    'Bq': (1.0, {'time': -1}, 0.0),
+    'Wb': (1.0, {'mass': 1, 'len': 2, 'time': -2, 'current': -1}, 0.0),
+    'Ω': (1.0, _OHM, 0.0),
+    'N': (1.0, _FORCE, 0.0),
+    'J': (1.0, _ENERGY, 0.0),
+    'W': (1.0, _POWER, 0.0),
+    'V': (1.0, _VOLT, 0.0),
+    'A': (1.0, {'current': 1}, 0.0),
+    'C': (1.0, {'current': 1, 'time': 1}, 0.0),
+    'F': (1.0, {'mass': -1, 'len': -2, 'time': 4, 'current': 2}, 0.0),
+    'H': (1.0, {'mass': 1, 'len': 2, 'time': -2, 'current': -2}, 0.0),
+    'T': (1.0, {'mass': 1, 'time': -2, 'current': -1}, 0.0),
+    'K': (1.0, {'Th': 1}, 0.0),
+    'L': (1e-3, {'len': 3}, 0.0),
+    'g': (1e-3, {'mass': 1}, 0.0),
+    'm': (1.0, {'len': 1}, 0.0),
+    's': (1.0, {'time': 1}, 0.0),
+    'h': (3600.0, {'time': 1}, 0.0),
+    'u': (1.66053906660e-27, {'mass': 1}, 0.0),
+    'deg': (math.pi / 180, {'angle': 1}, 0.0),
+}
+_PREFIXES = (
+    ('da', 1e1), ('f', 1e-15), ('p', 1e-12), ('n', 1e-9), ('u', 1e-6), ('μ', 1e-6), ('µ', 1e-6),
+    ('m', 1e-3), ('c', 1e-2), ('d', 1e-1), ('k', 1e3), ('M', 1e6), ('G', 1e9), ('T', 1e12),
+)
+_NO_PREFIX = {'degC', 'degF', 'deg'}
+
+
+def _dim_key(dim):
+    return tuple(sorted((k, v) for k, v in dim.items() if v))
+
+
+def _add_dim(a, b, sign=1):
+    out = dict(a)
+    for k, v in b.items():
+        out[k] = out.get(k, 0) + sign * v
+    return out
+
+
+def _prefer_atom(best, cand):
+    """Longer match wins; a tie prefers the bare unit over a prefixed one (min, not milli-inch)."""
+    if best is None or cand[0] > best[0] or (cand[0] == best[0] and not cand[4] and best[4]):
+        return cand
+    return best
+
+
+def _best_atom(s, i):
+    best = None
+    for name, (scale, dim, offset) in _BASES.items():
+        if s.startswith(name, i):
+            best = _prefer_atom(best, (i + len(name), scale, dim, offset, False))
+    for pname, pscale in _PREFIXES:
+        if not s.startswith(pname, i):
+            continue
+        j = i + len(pname)
+        for name, (scale, dim, offset) in _BASES.items():
+            if name in _NO_PREFIX or offset:
+                continue
+            if s.startswith(name, j):
+                best = _prefer_atom(best, (j + len(name), pscale * scale, dim, 0.0, True))
+    return best
+
+
+def _parse_exp(s, i):
+    if i >= len(s) or s[i] != '^':
+        return None, i
+    i += 1
+    if i < len(s) and s[i] == '(':
+        end = s.find(')', i)
+        if end < 0:
+            raise ValueError('bad exponent')
+        exp = float(s[i + 1:end])
+        return exp, end + 1
+    m = re.match(r'[+-]?\d+', s[i:])
+    if not m:
+        raise ValueError('bad exponent')
+    return int(m.group(0)), i + m.end()
+
+
+def _parse_term(s, i):
+    if i < len(s) and s[i] == '(':
+        scale, dim, offset, j = _parse_uexpr(s, i + 1)
+        if j >= len(s) or s[j] != ')':
+            raise ValueError('unbalanced unit')
+        i = j + 1
+    else:
+        atom = _best_atom(s, i)
+        if atom is None:
+            raise ValueError('unknown unit')
+        i, scale, dim, offset, _prefixed = atom
+        dim = dict(dim)
+    exp, i = _parse_exp(s, i)
+    if exp is not None and exp != 1:
+        scale = scale ** exp
+        dim = {k: v * exp for k, v in dim.items()}
+        offset = 0.0
+    return scale, dim, offset, i
+
+
+def _parse_factor(s, i):
+    scale, dim, offset, i = _parse_term(s, i)
+    while i < len(s) and s[i] != '/':
+        if s[i] == '·':
+            i += 1
+        elif not (s[i].isalpha() or s[i] in 'μµΩ('):
+            break
+        scale2, dim2, _, i = _parse_term(s, i)
+        scale *= scale2
+        dim = _add_dim(dim, dim2)
+        offset = 0.0
+    return scale, dim, offset, i
+
+
+def _parse_uexpr(s, i):
+    scale, dim, offset, i = _parse_factor(s, i)
+    while i < len(s) and s[i] == '/':
+        scale2, dim2, _, i = _parse_factor(s, i + 1)
+        if scale2 == 0:
+            raise ValueError('unit division by zero')
+        scale /= scale2
+        dim = _add_dim(dim, dim2, sign=-1)
+        offset = 0.0
+    return scale, dim, offset, i
+
+
+def parse_unit(unit):
+    """Return (scale, dimension, offset) so that SI = value * scale + offset.
+
+    Dimension is a sorted tuple of (name, exponent). None if the unit is not
+    one this checker knows. An empty unit is dimensionless.
+    """
+    if unit is None:
+        return None
+    text = unit.strip()
+    if text == '':
+        return (1.0, (), 0.0)
+    try:
+        scale, dim, offset, i = _parse_uexpr(text, 0)
+    except (ValueError, OverflowError, ZeroDivisionError):
+        return None
+    if i != len(text) or not math.isfinite(scale):
+        return None
+    key = _dim_key(dim)
+    if key != (('Th', 1),):
+        offset = 0.0
+    return (scale, key, offset)
+
+
+def _within(left_si, left_ulp, right_si, right_ulp, rel_tol):
+    diff = abs(left_si - right_si)
+    allowed = max(rel_tol * abs(right_si), 0.5 * left_ulp + 0.5 * right_ulp)
+    return diff <= allowed, diff
+
+
+def compare_quantities(left, right, rel, tolerance):
+    """Compare two stated quantities. Return (computed, stated, error_pct), or None.
+
+    None means they agree, or the units are not a conversion this checker knows.
+    `computed` is expressed in the right-hand unit.
+    """
+    rel_tol = tolerance if rel == '=' else max(tolerance, 0.05)
+    lk, rk = parse_unit(left.unit), parse_unit(right.unit)
+    if lk and rk and lk[1] == rk[1]:
+        for interval in (False, True):
+            if interval and ((lk[2] == 0 and rk[2] == 0) or left.value == 0 or right.value == 0):
+                continue
+            loff = 0.0 if interval else lk[2]
+            roff = 0.0 if interval else rk[2]
+            lsi = left.value * lk[0] + loff
+            rsi = right.value * rk[0] + roff
+            ok, diff = _within(lsi, left.ulp * abs(lk[0]), rsi, right.ulp * abs(rk[0]), rel_tol)
+            if ok:
+                return None
+            if not interval:
+                computed = (lsi - roff) / rk[0] if rk[0] else lsi
+                error_pct = 100 * diff / abs(rsi) if rsi else math.inf
+                pending = (computed, right.value, error_pct)
+        return pending
+    if left.unit == right.unit:
+        ok, diff = _within(left.value, left.ulp, right.value, right.ulp, rel_tol)
+        if ok:
+            return None
+        error_pct = 100 * diff / abs(right.value) if right.value else math.inf
+        return left.value, right.value, error_pct
+    return None
+
+
+def prefix_change(computed, stated, allowed, has_units):
+    """True when the two values differ by a power of ten that is likely a prefix."""
+    if not computed or not stated:
+        return False
+    ratio = computed / stated
+    k = round(math.log10(abs(ratio)))
+    if not k:
+        return False
+    return abs(ratio / 10 ** k - 1) * abs(stated) <= allowed and (has_units or k % 3 == 0)
 
 
 def split_relations(src):
@@ -431,6 +897,31 @@ class Finding:
         return 'error' if self.error_pct >= LIKELY_ERROR_PCT else 'check'
 
 
+def _pure_angle(norm):
+    try:
+        parsed = parse_unit(unit_product(tokenize(norm)))
+    except Skip:
+        return False
+    return bool(parsed) and parsed[1] == (('angle', 1),)
+
+
+def _evaluate(norm, inverse_trig_degrees):
+    parser = Parser(tokenize(norm), inverse_trig_degrees=inverse_trig_degrees)
+    calc = parser.parse()
+    if isinstance(calc.v, complex) or not math.isfinite(calc.v):
+        raise Skip('non-finite')
+    return calc, parser.ops
+
+
+def _numbers_disagree(computed, stated, diff, rel, tolerance, uncertainty, has_units):
+    rel_tol = tolerance if rel == '=' else max(tolerance, 0.05)
+    allowed = max(rel_tol * abs(stated), uncertainty)
+    if diff <= allowed or prefix_change(computed, stated, allowed, has_units):
+        return None
+    error_pct = 100 * diff / abs(stated) if stated else math.inf
+    return computed, stated, error_pct
+
+
 def scan_math(src, tolerance):
     """Yield (expression, stated_text, computed, stated, error_pct) for each mismatch."""
     for parts in split_relations(src):
@@ -438,41 +929,40 @@ def scan_math(src, tolerance):
             if rel is None:
                 continue
             try:
-                rnorm = normalize(right)
-                stated = stated_number(rnorm)
-                if not stated:
-                    continue
-                stated_v, ulp, rhs_deg = stated
                 lnorm = normalize(left)
-                if stated_number(lnorm):
-                    continue  # a bare number restated, usually in other units
+                rnorm = normalize(right)
+            except Skip:
+                continue
+            show = (' '.join(left.split()), ' '.join(right.split()))
+            lq, rq = stated_quantity(lnorm), stated_quantity(rnorm)
+            if lq and rq:
+                mismatch = compare_quantities(lq, rq, rel, tolerance)
+                if mismatch:
+                    yield (*show, *mismatch)
+                continue
+            if not rq:
+                continue  # the right-hand side is still an expression, often a unit conversion
+            try:
+                has_units = 'UNIT' in lnorm or 'UNIT' in rnorm
                 inverse_trig = re.search(r'\barc(?:sin|cos|tan)\b', lnorm)
-                if rhs_deg and not inverse_trig and ' DEG ' not in lnorm:
-                    continue  # an angle conversion such as 2\pi rad = 360°
-                parser = Parser(tokenize(lnorm), inverse_trig_degrees=rhs_deg)
-                calc = parser.parse()
-                if parser.ops == 0 or isinstance(calc.v, complex) or not math.isfinite(calc.v):
+                left_calc, left_ops = _evaluate(lnorm, inverse_trig_degrees=rq.deg)
+                if left_ops == 0:
                     continue
+                computed = left_calc.v
+                if rq.deg and not inverse_trig and 'DEG' not in lnorm:
+                    if _pure_angle(lnorm):
+                        computed = computed * 180 / math.pi
+                    else:
+                        continue  # an angle assignment such as theta = 30°, not a conversion
+                diff = abs(computed - rq.value)
+                if inverse_trig and rq.deg and 'arctan' in lnorm:
+                    diff = min(diff, abs(computed + 180 - rq.value), abs(computed - 180 - rq.value))
+                mismatch = _numbers_disagree(
+                    computed, rq.value, diff, rel, tolerance, left_calc.e + 0.5 * rq.ulp, has_units)
+                if mismatch:
+                    yield (*show, *mismatch)
             except (Skip, ZeroDivisionError, OverflowError, ValueError):
                 continue
-
-            rel_tol = tolerance if rel == '=' else max(tolerance, 0.05)
-            allowed = max(rel_tol * abs(stated_v), calc.e + 0.5 * ulp)
-            diff = abs(calc.v - stated_v)
-            if inverse_trig and rhs_deg and 'arctan' in lnorm:
-                diff = min(diff, abs(calc.v + 180 - stated_v), abs(calc.v - 180 - stated_v))  # quadrant fix
-            if diff <= allowed:
-                continue
-            if calc.v and stated_v:
-                ratio = calc.v / stated_v
-                k = round(math.log10(abs(ratio)))
-                has_units = 'UNIT' in lnorm or 'UNIT' in rnorm
-                if k and abs(ratio / 10 ** k - 1) * abs(stated_v) <= allowed and (has_units or k % 3 == 0):
-                    continue  # unit-prefix change, e.g. 1.65e-3 m = 1.65 mm
-                error_pct = 100 * diff / abs(stated_v)
-            else:
-                error_pct = math.inf
-            yield ' '.join(left.split()), ' '.join(right.split()), calc.v, stated_v, error_pct
 
 
 def scan_file(path, display, tolerance):

@@ -87,6 +87,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Test the physics checker
+        run: python -m unittest tests/test_check_math.py
+
       - name: Verify physics calculations
         run: python check_math.py
 
