@@ -560,6 +560,15 @@ Graph data and vector magnitudes come from the text, so values read off a figure
 agree with the worked examples and solutions. Edit the spec and regenerate
 rather than editing an SVG by hand.
 
+World Energy Use Figures 1, 2, and 4 are defined in `world-energy.js`. Their
+dated source values, URLs, report page numbers, accounting conventions, and
+unit conversions are recorded in `data/world-energy.json`. To refresh them,
+update that snapshot and the matching country values in Table 1 of
+`contents/ch7WorldEnergyUse.md`, then run `npm run generate:figures -- 07_09`.
+Use the same energy accounting method throughout, and match the energy and GDP
+years in Figure 4. Figure 2 uses historical annual totals; the source report’s
+published growth rates additionally adjust for leap years.
+
 Label markup: `v_0` and `F_{app}` for subscripts, `m/s^2` for superscripts,
 `**A**` for a bold vector, `\bar{v}` for an overbar, `\rm{m/s}` for upright
 units, and `\it{t}` for an italic variable inside plain text.

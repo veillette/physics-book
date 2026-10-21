@@ -1,11 +1,10 @@
 /**
  * Chapters 4–7: force components, stress–strain curves, circular-motion and
- * gravitation geometry, Kepler's laws, work as an area, and world energy use.
+ * gravitation geometry, Kepler's laws, and work as an area.
  */
 import {
   COLORS,
   Frame,
-  Plot,
   Svg,
   fmt,
   localArrow,
@@ -1343,84 +1342,6 @@ export default {
       math: false,
     });
     svg.text(350, 595, 'OE_i + \\it{W}_{nc} = OE_f', { size: 40, math: false });
-    return svg.render();
-  },
-
-  // 7.9 — world primary energy consumption by source, 2010–2050
-  Figure_07_09_02: () => {
-    const svg = new Svg({
-      width: 1000,
-      height: 520,
-      title: 'Global primary energy consumption by energy source, 2010–2050',
-      desc: 'A stacked area chart in quadrillion British thermal units. Total use grows from about 540 in 2010 to about 600 in 2020 (history) and is projected to reach about 890 by 2050. Petroleum and other liquids, natural gas, coal and nuclear grow slowly; renewables grow fastest, from about 60 to about 235.',
-    });
-    // Cumulative tops of each layer (quadrillion Btu), read from the EIA chart.
-    const years = [
-      2010, 2012, 2014, 2016, 2018, 2019, 2020, 2021, 2025, 2030, 2035, 2040, 2045, 2050,
-    ];
-    const tops = {
-      nuclear: [28, 26, 27, 28, 28, 29, 28, 30, 31, 32, 33, 33, 33, 33],
-      coal: [185, 196, 199, 184, 193, 192, 183, 192, 190, 190, 196, 203, 208, 212],
-      gas: [305, 320, 325, 316, 338, 342, 330, 340, 347, 356, 368, 380, 393, 405],
-      oil: [483, 503, 512, 510, 535, 543, 513, 532, 556, 570, 590, 612, 633, 650],
-      renew: [540, 568, 583, 588, 620, 633, 600, 625, 670, 705, 750, 800, 845, 887],
-    };
-    const layers = [
-      ['renew', 'Renewables', '#5f9a32'],
-      ['oil', 'Petroleum and other liquids', '#bd732a'],
-      ['gas', 'Natural gas', '#0096d6'],
-      ['coal', 'Coal', '#333333'],
-      ['nuclear', 'Nuclear', '#a23340'],
-    ];
-    const g = new Plot(svg, {
-      x: 80,
-      y: 90,
-      w: 690,
-      h: 370,
-      xRange: [2010, 2050],
-      yRange: [0, 1000],
-      xTicks: [2010, 2020, 2030, 2040, 2050],
-      yTicks: [0, 200, 400, 600, 800, 1000],
-      yFormat: v => v.toLocaleString('en-US'),
-    });
-    g.axes({ grid: true, size: 15 });
-    const order = ['nuclear', 'coal', 'gas', 'oil', 'renew'];
-    for (const [key, , color] of layers) {
-      const below = order[order.indexOf(key) - 1];
-      const upper = years.map((y, k) => g.P(y, tops[key][k]));
-      const lower = years.map((y, k) => g.P(y, below ? tops[below][k] : 0)).reverse();
-      svg.polygon([...upper, ...lower], { fill: color });
-    }
-    g.line(2020, 0, 2020, 1000, { color: BLACK, width: 1.8, dash: '6 4' });
-    g.text(2019.3, 920, 'history', { size: 16, math: false, anchor: 'end' });
-    g.text(2020.7, 920, 'projection', { size: 16, math: false, anchor: 'start' });
-    const mid = key => {
-      const k = years.length - 1;
-      const below = order[order.indexOf(key) - 1];
-      return (tops[key][k] + (below ? tops[below][k] : 0)) / 2;
-    };
-    for (const [key, name] of layers) {
-      const y = g.Y(mid(key));
-      if (key === 'oil')
-        svg.lines(g.X(2050) + 10, y - 10, ['Petroleum and', 'other liquids'], {
-          size: 15,
-          math: false,
-          anchor: 'start',
-          gap: 20,
-        });
-      else svg.text(g.X(2050) + 10, y, name, { size: 15, math: false, anchor: 'start' });
-    }
-    svg.text(20, 30, 'Global primary energy consumption by energy source (2010–2050)', {
-      size: 17,
-      math: false,
-      weight: 'bold',
-      anchor: 'start',
-    });
-    svg.text(20, 55, 'quadrillion British thermal units', {
-      size: 15,
-      math: false,
-      anchor: 'start',
-    });
     return svg.render();
   },
 };

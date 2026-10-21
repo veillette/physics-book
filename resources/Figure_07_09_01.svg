@@ -1,27 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif">
-<rect width="1000" height="560" fill="#ffffff"/>
-<text x="500" y="40" font-size="26" text-anchor="middle" fill="#222">World Primary Energy Consumption by Source, 2020</text>
-<path d="M280,290 L280.0,70.0 A220,220 0 0 1 483.5,373.6 Z" fill="#4e79a7" stroke="#fff" stroke-width="3"/>
-<text x="404.3" y="215.7" font-size="26" font-weight="bold" text-anchor="middle" fill="#fff">31.2%</text>
-<path d="M280,290 L483.5,373.6 A220,220 0 0 1 169.2,480.1 Z" fill="#59595c" stroke="#fff" stroke-width="3"/>
-<text x="328.0" y="440.7" font-size="26" font-weight="bold" text-anchor="middle" fill="#fff">27.2%</text>
-<path d="M280,290 L169.2,480.1 A220,220 0 0 1 87.9,182.8 Z" fill="#f28e2b" stroke="#fff" stroke-width="3"/>
-<text x="135.7" y="338.5" font-size="26" font-weight="bold" text-anchor="middle" fill="#fff">24.7%</text>
-<path d="M280,290 L87.9,182.8 A220,220 0 0 1 150.7,112.0 Z" fill="#76b7b2" stroke="#fff" stroke-width="3"/>
-<path d="M280,290 L150.7,112.0 A220,220 0 0 1 221.3,78.0 Z" fill="#59a14f" stroke="#fff" stroke-width="3"/>
-<path d="M280,290 L221.3,78.0 A220,220 0 0 1 280.0,70.0 Z" fill="#b07aa1" stroke="#fff" stroke-width="3"/>
-<rect x="560" y="130" width="26" height="26" fill="#4e79a7"/>
-<text x="598" y="150" font-size="22" fill="#222">Oil: 31.2%</text>
-<rect x="560" y="182" width="26" height="26" fill="#59595c"/>
-<text x="598" y="202" font-size="22" fill="#222">Coal: 27.2%</text>
-<rect x="560" y="234" width="26" height="26" fill="#f28e2b"/>
-<text x="598" y="254" font-size="22" fill="#222">Natural gas: 24.7%</text>
-<rect x="560" y="286" width="26" height="26" fill="#76b7b2"/>
-<text x="598" y="306" font-size="22" fill="#222">Hydroelectricity: 6.9%</text>
-<rect x="560" y="338" width="26" height="26" fill="#59a14f"/>
-<text x="598" y="358" font-size="22" fill="#222">Other renewables: 5.7%</text>
-<rect x="560" y="390" width="26" height="26" fill="#b07aa1"/>
-<text x="598" y="410" font-size="22" fill="#222">Nuclear: 4.3%</text>
-<text x="560" y="482" font-size="17" fill="#555">Total: 557 EJ</text>
-<text x="560" y="508" font-size="17" fill="#555">Source: BP Statistical Review of</text><text x="560" y="532" font-size="17" fill="#555">World Energy 2021</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+<title id="title">World total energy supply by source, 2025</title>
+<desc id="desc">A pie chart of 600.31 exajoules of total energy supply: Oil 33.5%, Coal 27.7%, Natural gas 25.1%, Nuclear 5.2%, Hydroelectricity 2.7%, Other renewables 5.9%. Physical energy content accounting; percentages may not sum to 100 because of rounding.</desc>
+<rect width="1000" height="540" fill="#ffffff"/>
+<text x="30" y="39.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">World</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">total</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">supply</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">by</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">source</tspan><tspan font-style="normal">, 2025</tspan></text>
+<text x="30" y="73" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Total</tspan><tspan font-style="normal">: 600.31 </tspan><tspan font-style="normal">EJ</tspan><tspan font-style="normal"> (1 </tspan><tspan font-style="normal">EJ</tspan><tspan font-style="normal"> = 10¹⁸ </tspan><tspan font-style="normal">J</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 245 275 L 245 105 A 170 170 0 0 1 391.45 361.33 Z" fill="#ad6524" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<rect x="490" y="120" width="21" height="21" fill="#ad6524"/>
+<text x="525" y="137" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Oil</tspan></text>
+<text x="920" y="137" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">33.5%</tspan></text>
+<text x="920" y="157.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">200.97 </tspan><tspan font-style="normal">EJ</tspan></text>
+<path d="M 245 275 L 391.45 361.33 A 170 170 0 0 1 135.53 405.06 Z" fill="#434b53" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<rect x="490" y="175" width="21" height="21" fill="#434b53"/>
+<text x="525" y="192" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Coal</tspan></text>
+<text x="920" y="192" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">27.7%</tspan></text>
+<text x="920" y="212.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">166.03 </tspan><tspan font-style="normal">EJ</tspan></text>
+<path d="M 245 275 L 135.53 405.06 A 170 170 0 0 1 115.65 164.69 Z" fill="#1976ad" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<rect x="490" y="230" width="21" height="21" fill="#1976ad"/>
+<text x="525" y="247" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Natural</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">gas</tspan></text>
+<text x="920" y="247" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">25.1%</tspan></text>
+<text x="920" y="267.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">150.70 </tspan><tspan font-style="normal">EJ</tspan></text>
+<path d="M 245 275 L 115.65 164.69 A 170 170 0 0 1 157.63 129.17 Z" fill="#9b2858" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<rect x="490" y="285" width="21" height="21" fill="#9b2858"/>
+<text x="525" y="302" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Nuclear</tspan></text>
+<text x="920" y="302" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">5.2%</tspan></text>
+<text x="920" y="322.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">31.04 </tspan><tspan font-style="normal">EJ</tspan></text>
+<path d="M 245 275 L 157.63 129.17 A 170 170 0 0 1 183.36 116.57 Z" fill="#337f89" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<rect x="490" y="340" width="21" height="21" fill="#337f89"/>
+<text x="525" y="357" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Hydroelectricity</tspan></text>
+<text x="920" y="357" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">2.7%</tspan></text>
+<text x="920" y="377.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">16.12 </tspan><tspan font-style="normal">EJ</tspan></text>
+<path d="M 245 275 L 183.36 116.57 A 170 170 0 0 1 245 105 Z" fill="#56852a" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+<rect x="490" y="395" width="21" height="21" fill="#56852a"/>
+<text x="525" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Other</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">renewables</tspan></text>
+<text x="920" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">5.9%</tspan></text>
+<text x="920" y="432.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="normal">35.45 </tspan><tspan font-style="normal">EJ</tspan></text>
+<text x="30" y="484.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Physical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">content</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">wind</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">solar</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">PV</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">hydro</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">count</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">their</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">electricity</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">output</tspan><tspan font-style="normal">.</tspan></text>
+<text x="30" y="510.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Source</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">Energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Institute</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">Statistical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Review</tspan><tspan font-style="normal"> 2026, </tspan><tspan font-style="normal">p</tspan><tspan font-style="normal">. 24. </tspan><tspan font-style="normal">Shares</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rounded</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">independently</tspan><tspan font-style="normal">.</tspan></text>
 </svg>

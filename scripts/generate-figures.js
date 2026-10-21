@@ -29,6 +29,7 @@ import ch02 from './figures/ch02.js';
 import ch03 from './figures/ch03.js';
 import projectileToSatellite from './figures/projectile-to-satellite.js';
 import ch04to07 from './figures/ch04to07.js';
+import worldEnergy from './figures/world-energy.js';
 import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
 import ch10 from './figures/ch10.js';
@@ -56,6 +57,7 @@ const figures = {
   ...ch03,
   ...projectileToSatellite,
   ...ch04to07,
+  ...worldEnergy,
   ...ch08,
   ...ch09,
   ...ch10,

@@ -11,107 +11,161 @@ chapterNumber: 7
 
 :::
 
-Energy is an important ingredient in all phases of society. We live in a very
-interdependent world, and access to adequate and reliable energy resources is
-crucial for economic growth and for maintaining the quality of our lives. But
-current levels of energy consumption and production are not sustainable. About
-a third of the world’s energy comes from oil, and much of that goes to
-transportation uses. Oil prices are dependent as much upon new (or foreseen)
-discoveries as they are upon political events and situations around the world.
-The U.S., with about 4% of the world’s population, consumes about 20% of the
-world’s oil production per year.
+Energy is an important ingredient in all phases of society. Access to adequate
+and reliable energy resources is crucial for economic activity and quality of
+life. The sources of that energy also affect air quality, climate, and energy
+security. In 2025, oil supplied about one-third of the world’s commercially
+tracked total energy supply, and the United States accounted for about 18% of
+global oil consumption by energy content. These figures come from the
+[Energy Institute’s *Statistical Review of World Energy 2026*](https://www.energyinst.org/statistical-review/home).
 
 ### Renewable and Nonrenewable Energy Sources
 
 The principal energy resources used in the world are shown in [Figure 1](#Figure1).
-The fuel mix has changed over the years but now is dominated by oil, although
-natural gas and solar contributions are increasing. **Renewable forms of
-energy** come from sources that nature replenishes on human timescales, such
-as flowing water, wind, sunlight, and biomass. Renewable resources still need
-careful use: a forest, for example, can be depleted if trees are cut faster
-than they regrow. About 83% of our energy comes from nonrenewable
-**fossil fuels**—oil, natural gas, coal. Carbon dioxide and other greenhouse gases released by human
-activities, chiefly the burning of fossil fuels, are causing global warming. This
-has made a shift to non-fossil fuels of utmost importance—but it will not be easy.
+Oil remains the largest individual source. Together, the nonrenewable
+**fossil fuels**—oil, natural gas, and coal—supplied about 86% of the energy
+covered by this dataset in 2025. **Renewable forms of energy** come from
+sources that nature replenishes on human timescales, such as flowing water,
+wind, sunlight, and biomass. Renewable resources still need careful use: a
+forest, for example, can be depleted if trees are cut faster than they regrow.
+Carbon dioxide and other greenhouse gases released by human activities,
+chiefly the burning of fossil fuels, are causing global warming. Reducing
+these emissions requires changes in energy sources as well as more efficient
+energy use.
 
-![A pie chart of world primary energy consumption by source in 2020: oil 31.2 percent, coal 27.2 percent, natural gas 24.7 percent, hydroelectricity 6.9 percent, other renewables 5.7 percent, and nuclear 4.3 percent, out of a total of 557 exajoules.](../resources/Figure_07_09_01.svg 'World primary energy consumption by source, 2020, based on data from BP Statistical Review of World Energy 2021.')
+![A pie chart of world total energy supply in 2025: oil 33.5%, coal 27.7%, natural gas 25.1%, nuclear 5.2%, hydroelectricity 2.7%, and other renewables 5.9%, from a total of 600.31 EJ. Shares use physical energy content accounting and may not sum to 100% because of rounding.](/resources/Figure_07_09_01.svg 'World total energy supply by source, 2025. Source: Energy Institute, Statistical Review of World Energy 2026, p. 24. Other renewables include wind, solar, geothermal, biomass electricity, and biofuels; hydroelectricity is shown separately.')
 {: #Figure1}
+
+#### How energy accounting changes the picture
+
+Beginning with its 2025 edition, the Energy Institute adopted the **physical
+energy content** method for reporting **total energy supply (TES)**. Earlier
+editions used a **fossil-fuel-equivalent** method: electricity from non-fossil
+sources was expressed as the fuel input a reference fossil-fuel power plant
+would have needed to generate it. Under the new method, wind, solar
+photovoltaic (PV), and hydroelectric energy enter the accounts as the electricity
+they generate, without adding hypothetical thermal power plant losses.
+
+For example, 1 kWh of wind-generated electricity counts as 3.6 MJ in TES.
+A fossil-fuel-equivalent calculation assuming a 40% efficient reference plant
+would count that same electricity as 9.0 MJ of fuel input. For nuclear power,
+the physical energy content method counts the heat supplied to the turbines;
+the Energy Institute estimates this using a 33% conversion efficiency.
+Combustible biomass and other thermal sources also require heat-input
+accounting. Counting wind, solar PV, and hydro at their electrical output is
+an accounting convention, not a claim that their devices capture all the
+energy in the wind, sunlight, or flowing water.
+
+This change reduces the reported contribution of several renewables and the
+reported energy total relative to the older method, increasing the calculated
+fossil-fuel share even when physical production is unchanged. Thus the 86%
+shown here cannot be compared directly with the roughly 83% shown in this
+section’s former 2020 chart. Figures 1–2, [Table 1](#Table1), and the energy
+axis of [Figure 4](#Figure4) all use the revised method. The Energy Institute
+series covers commercially traded fuels, modern renewable electricity, and
+biofuels; it excludes traditional biomass such as wood and dung collected for
+household use. TES includes energy used or lost in conversion, so it differs
+from both electricity generation and the energy finally delivered to users.
+See the [Energy Institute’s methodology explanation](https://www.energyinst.org/statistical-review/about).
 
 ### The World’s Growing Energy Needs
 
-World energy consumption continues to rise, especially in the developing
-countries. ( See [Figure 2](#Figure2).)
-Global demand for energy has more than doubled in the past 50 years and is
-projected to keep growing. Much of this growth comes from the rapidly
-booming economies of China and India. Many of the developed countries,
-especially those in Europe, are hoping to meet their energy needs by expanding
-the use of renewable sources. Although still a modest share of primary energy,
-renewable energy is growing very fast, especially solar and wind energy. For example,
-Germany’s [renewable-electricity target for 2030](https://www.bundesregierung.de/breg-de/suche/bmwe-ausbau-eeg-bt-2454130)
-is at least 80% of gross electricity consumption. (
-See [Figure 3](#Figure3).) Energy is a key constraint in the rapid economic growth
-of China and India. China is the world’s second largest consumer of oil and
-imports about 70% of it. Unlike most Western countries, coal dominates China’s
-energy resources, accounting for more than half of its primary energy (about 57%
-in 2020; see [Table 1](#Table1)). Around 2006, China surpassed the United States
-as the largest emitter of $$ \text{CO}_{2} $$. In India, coal supplies more
-than half of primary energy, traditional biomass (wood and dung) remains
-important in homes, and about 85% of India’s oil is imported.
-About 70% of India’s electricity is generated by highly polluting coal. Yet
-there are sizable strides being made in renewable energy. India has a rapidly
-growing wind energy base, and it has the largest solar cooking program in the
-world. China has invested substantially in building solar collection farms as well as hydroelectric plants.
+[Figure 2](#Figure2) shows reported world total energy supply from 2015 through
+2025, with every year calculated on the same revised basis. Annual supply rose
+from 523.80 EJ to 600.31 EJ, an increase of about 15%, despite the decline in
+2020 during the COVID-19 pandemic. These are historical estimates, including
+2025, rather than projections; future demand depends on economic growth,
+technology, efficiency, and policy.
 
-![A bar graph depicting world energy consumption is shown. The year is listed on the horizontal axis and energy consumed is listed on the vertical axis. Energy consumption by the world is shown for different years. Energy consumption rises over time. In the year nineteen hundred and ninety it was three hundred seventy three multiplied by ten to the power eighteen joules, and the projection is that it will become eight hundred twelve multiplied by ten to the power eighteen joules by the year twenty thirty five.](../resources/Figure_07_09_02.svg 'Past and projected world energy use (source: Based on data from U.S. Energy Information Administration, 2021)')
+In its separate [*Global Energy Review 2026*](https://www.iea.org/reports/global-energy-review-2026/global-trends),
+the International Energy Agency (IEA) estimates that global energy demand grew
+by 1.3% in 2025. Solar PV supplied more than one-quarter of that growth, the
+largest contribution from any single source. The IEA’s broader coverage,
+including traditional biomass, and its estimates differ from the Energy
+Institute series, so the two sources’ totals and growth rates should not be
+interchanged. The Energy Institute also adjusts its published growth rates for
+leap years, whereas Figure 2 plots the reported annual energy totals.
+
+![A line chart of world total energy supply from 2015 to 2025, rising from 523.80 EJ to 600.31 EJ, with a decline from 556.63 EJ in 2019 to 532.75 EJ in 2020. All years are historical estimates using physical energy content accounting.](/resources/Figure_07_09_02.svg 'World total energy supply, 2015–2025. Source: Energy Institute, Statistical Review of World Energy 2026, p. 23. The entire series uses the revised accounting method; no forecasts are shown.')
 {: #Figure2}
 
-![Solar cell arrays lined up in a field.](../resources/Figure_07_09_03.jpg 'Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)')
+Countries’ energy mixes differ substantially. China and India remain major
+consumers of coal: in 2025, coal supplied about 57% of China’s TES and 59% of
+India’s TES in [Table 1](#Table1). Coal also generated about 71% of India’s
+electricity that year. Both countries are expanding renewable generation,
+including solar and wind, while remaining dependent on imported oil. The
+[Energy Institute’s 2026 summary](https://energyinst.org/__data/assets/pdf_file/0004/1822009/Statistical-Review-of-World-Energy-2026-Summary-version.pdf)
+reports oil import dependence of about 73% for China and 86% for India in 2025.
+Germany’s [renewable-electricity target for 2030](https://www.bundesregierung.de/breg-de/suche/bmwe-ausbau-eeg-bt-2454130)
+is at least 80% of gross electricity consumption. Solar arrays such as those
+in [Figure 3](#Figure3) illustrate one way to supply renewable electricity.
+
+![Solar cell arrays lined up in a field.](/resources/Figure_07_09_03.jpg 'Solar cell arrays in Manchester, Vermont, USA (credit: MarkBuckawicki, Wikimedia)')
 {: #Figure3}
 
-[Table 1](#Table1) displays the 2020 commercial energy mix by country for some
-of the prime energy users in the world. While non-renewable sources dominate,
-some countries get a sizable percentage of their electricity from renewable
-resources. For example, about two-thirds of New Zealand’s electricity demand is
-met by hydroelectric. In 2020, about 20% of U.S. electricity was generated by renewable
-resources, with wind now the largest of these, ahead of hydroelectric. It is difficult to determine total sources
-and consumers of energy in many countries, and estimates vary somewhat by data source and type of measurement.
+[Table 1](#Table1) compares the 2025 energy mix of selected countries using the
+same source and accounting method as Figure 1. Renewable shares of total energy
+supply can be much smaller than renewable shares of electricity generation,
+because transport, industry, and heating also consume fuels directly. For
+example, hydroelectricity and other renewables together supplied about 7.2% of
+U.S. TES in the table. In contrast, renewables generated about 24% of U.S.
+**utility-scale electricity** in 2025, according to the
+[U.S. Energy Information Administration](https://www.eia.gov/energyexplained/electricity/electricity-in-the-us.php).
+Utility-scale plants have a generating capacity of at least 1 MW; this
+percentage excludes small-scale systems such as most rooftop solar arrays.
 
-#### Table: Primary Energy Consumption—Selected Countries (2020)
+#### Table: Total Energy Supply—Selected Countries (2025)
 
 {: #Table1}
 
-| Country        | Consumption in EJ ($$10^{18}$$ J) | Oil (EJ) | Natural Gas (EJ) | Coal (EJ) | Nuclear (EJ) | Hydro (EJ) | Other Renewables (EJ) |
-| -------------- | --------------------------------- | -------- | ---------------- | --------- | ------------ | ---------- | --------------------- |
-| Australia      | 5.6                               | 1.8      | 1.5              | 1.7       | 0            | 0.1        | 0.5                   |
-| Brazil         | 12.0                              | 4.6      | 1.2              | 0.6       | 0.1          | 3.5        | 2.0                   |
-| China          | 145.5                             | 28.5     | 11.9             | 82.3      | 3.3          | 11.7       | 7.8                   |
-| Egypt          | 3.7                               | 1.3      | 2.1              | 0.03      | 0            | 0.1        | 0.09                  |
-| Germany        | 12.1                              | 4.2      | 3.1              | 1.8       | 0.6          | 0.2        | 2.2                   |
-| India          | 32.0                              | 9.0      | 2.2              | 17.5      | 0.4          | 1.5        | 1.4                   |
-| Indonesia      | 7.6                               | 2.3      | 1.5              | 3.3       | 0            | 0.2        | 0.4                   |
-| Japan          | 17.0                              | 6.5      | 3.8              | 4.6       | 0.4          | 0.7        | 1.1                   |
-| United Kingdom | 6.9                               | 2.4      | 2.6              | 0.2       | 0.5          | 0.06       | 1.2                   |
-| Russia         | 28.3                              | 6.4      | 14.8             | 3.3       | 1.9          | 1.9        | 0.04                  |
-| U.S.           | 87.8                              | 32.5     | 30.0             | 9.2       | 7.4          | 2.6        | 6.2                   |
+| Country | Total in EJ ($$10^{18}$$ J) | Oil (EJ) | Natural Gas (EJ) | Coal (EJ) | Nuclear (EJ) | Hydro (EJ) | Other Renewables (EJ) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Australia | 5.53 | 2.24 | 1.39 | 1.46 | 0.00 | 0.05 | 0.39 |
+| Brazil | 11.19 | 5.19 | 1.20 | 0.59 | 0.17 | 1.43 | 2.61 |
+| China | 162.19 | 33.85 | 15.91 | 92.24 | 5.29 | 5.01 | 9.89 |
+| Egypt | 3.97 | 1.57 | 2.21 | 0.06 | 0.00 | 0.05 | 0.07 |
+| Germany | 10.04 | 4.20 | 2.83 | 1.49 | 0.00 | 0.06 | 1.46 |
+| India | 39.10 | 10.89 | 2.40 | 23.07 | 0.59 | 0.64 | 1.51 |
+| Indonesia | 11.52 | 3.28 | 1.74 | 5.15 | 0.00 | 0.11 | 1.23 |
+| Japan | 16.48 | 6.51 | 3.25 | 4.36 | 1.03 | 0.27 | 1.07 |
+| United Kingdom | 6.29 | 2.71 | 2.20 | 0.05 | 0.39 | 0.02 | 0.92 |
+| Russia | 31.19 | 7.18 | 17.28 | 3.56 | 2.38 | 0.72 | 0.07 |
+| U.S. | 93.83 | 36.42 | 32.88 | 8.73 | 9.01 | 0.88 | 5.90 |
 
-Source: [BP, *Statistical Review of World Energy 2021*, p. 11](https://energy-analytics-institute.org/wp-content/uploads/2021/07/bp-stats-review-2021-full-report.pdf#page=13).
-These are primary-energy estimates, using the report’s input-equivalent
-accounting for non-fossil electricity. They are not shares of electricity
-generation. Totals may differ slightly from the sums because of rounding.
+Source: [Energy Institute, *Statistical Review of World Energy 2026*, p. 24](https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf#page=25).
+All entries use physical energy content accounting. Other renewables include
+biofuels and renewable electricity other than hydro. A value of 0.00 denotes
+no reported contribution in these rows. Totals may differ slightly from the
+sums because of rounding. These figures have the commercially traded energy
+coverage described above; they are not electricity-generation totals.
 
 ### Energy and Economic Well-being
 
-Energy use per person varies widely from country to country. Economic well-being is dependent upon energy use, and in most countries
-higher standards of living, as measured by GDP (gross domestic product) per
-capita, are matched by higher levels of energy consumption per capita. This is
-borne out in [Figure 4](#Figure4). Increased efficiency of energy use will change
-this dependency. A global problem is balancing energy resource development
-against the harmful effects upon the environment in its extraction and use.
+Energy use per person varies widely between countries. Higher GDP per person
+generally accompanies higher energy use per person, as illustrated by the
+selected countries in [Figure 4](#Figure4). GDP is adjusted for **purchasing
+power parity (PPP)**, which accounts for differences in price levels between
+countries, and expressed in constant 2021 international dollars. Both axes
+use 2025 data. Energy is annual TES per person, converted from gigajoules to
+kilowatt-hours using 1 kWh = 0.0036 GJ; it includes fuels as well as electricity.
+A kilowatt-hour measures energy, whereas a kilowatt measures power.
+
+The association is not a fixed requirement: countries with similar incomes can
+use different amounts of energy because of climate, industrial activity,
+transport, and efficiency. For example, Germany has higher GDP per person
+than Russia but lower energy use per person. This comparison does not by
+itself establish causation. Improving well-being while limiting environmental
+damage requires attention to both energy sources and how effectively energy
+is used.
 
 New and diversified energy sources can also affect economic opportunity and stability. Renewable energy has become a large and growing source of employment. A mix of energy sources can make a power system more resilient, because a disruption to one fuel supply or one type of plant does not shut down everything. The 21st century has already seen major economic impacts from energy disruptions: Hurricane Katrina, Superstorm Sandy, various wildfires, Hurricane Maria, and the 2021 Texas winter storm demonstrated the vulnerability of United States power systems. (During the Texas storm, natural gas, coal, nuclear, and wind generation all failed in the extreme cold, so resilience depends on how every source is designed and maintained.) Distributed generation, such as rooftop solar with battery storage and local microgrids, can keep critical services running when the main grid fails. And as critical information infrastructure, such as data centers, requires more of the world's energy, supplying those growing systems during normal operations and crises will be increasingly important.
 
-![A scatter plot of power consumption per capita versus G D P per capita for various countries. Power consumption in kilowatt per capita is shown along the horizontal axis and G D P per capita is show alon g the vertical axis.](../resources/Figure_07_09_04.svg 'Power consumption per capita versus GDP per capita for various countries. Note the increase in energy usage with increasing GDP. (2015, credit: International Energy Agency (IEA) via The World Bank)')
+![A scatter plot for the eleven countries in Table 1 in 2025. GDP per person, adjusted for purchasing power and measured in constant 2021 international dollars, is on the horizontal axis. Annual total energy supply in kWh per person is on the vertical axis. Higher income generally accompanies higher energy use, with substantial variation between countries.](/resources/Figure_07_09_04.svg 'Annual energy use and GDP per person, 2025. Sources: Energy Institute, Statistical Review of World Energy 2026, p. 25, and World Bank, indicator NY.GDP.PCAP.PP.KD. Energy uses physical energy content accounting; GDP is adjusted for purchasing power.')
 {: #Figure4}
+
+Sources for Figure 4: [Energy Institute, p. 25](https://www.energyinst.org/__data/assets/file/0004/1827616/Statistical-Review-of-World-Energy-PDF-Report.pdf#page=26)
+and [World Bank GDP per capita, PPP (constant 2021 international dollars)](https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD).
+Data accessed October 21, 2026.
 
 ### Conserving Energy
 
@@ -140,22 +194,21 @@ transformation.
 
 ### Section Summary
 
-- The relative use of different fuels to provide energy has changed over the
-  years, but fuel use is currently dominated by oil, although natural gas and
-  solar contributions are increasing.
-- Although non-renewable sources dominate, some countries meet a sizable
-  percentage of their electricity needs from renewable resources.
-- In the 2020 primary-energy figures in [Table 1](#Table1), hydroelectricity
-  and other renewables together supplied about 10% of U.S. energy. Renewables
-  supplied about 20% of its electricity; the two percentages describe
-  different measures of energy use.
-- Economic well-being is dependent upon energy use, and in most countries higher
-  standards of living, as measured by GDP (Gross Domestic Product) per capita,
-  are matched by higher levels of energy consumption per capita.
-- Even though, in accordance with the law of conservation of energy, energy can
-  never be created or destroyed, real energy-use processes commonly
-  convert some energy into less useful forms, such as waste heat released
-  to the environment.
+- Fossil fuels supplied about 86% of the commercially tracked total energy
+  supply in 2025 under physical energy content accounting. This percentage
+  cannot be compared directly with shares calculated using the older
+  fossil-fuel-equivalent method.
+- The physical energy content method counts wind, solar PV, and hydroelectric
+  electricity at their electrical output, while thermal sources such as
+  nuclear power are counted at their heat input.
+- Renewable shares depend on what is measured: hydroelectricity and other
+  renewables supplied about 7.2% of U.S. TES in [Table 1](#Table1), while
+  renewables generated about 24% of U.S. utility-scale electricity in 2025.
+- Higher GDP per person generally accompanies higher annual energy use per
+  person, but climate, industry, transport, and efficiency also matter.
+- Even though energy can never be created or destroyed, real energy-use
+  processes commonly convert some energy into less useful forms, such as
+  waste heat released to the environment.
 
 ### Conceptual Questions
 
