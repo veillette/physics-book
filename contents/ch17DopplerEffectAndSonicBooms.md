@@ -314,6 +314,27 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Doppler Effect
+</div>
+
+Move a source, an observer, or both, and watch the wavelength bunch up ahead of the motion and stretch out behind it. The heard frequency shifts with that wavelength.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/DopplerEffect/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Doppler effect
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * The Doppler effect is an alteration in the observed frequency of a sound due

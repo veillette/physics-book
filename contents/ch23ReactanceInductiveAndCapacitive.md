@@ -285,6 +285,27 @@ When a sinusoidal voltage is applied to a resistor, the voltage is exactly in ph
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Reactance of a Single Element
+</div>
+
+Drive a resistor, an inductor, or a capacitor with an AC voltage. The current stays in phase with the voltage only for the resistor. Inductive and capacitive reactance set both the phase and the amplitude.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/ACPhasor/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Reactance of one circuit element
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * For inductors in AC circuits, we find that when a sinusoidal voltage is

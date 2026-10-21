@@ -115,6 +115,48 @@ The performer must be singing a note that corresponds to the natural frequency o
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Driven Oscillator
+</div>
+
+Drive a mass on a spring and sweep the driving frequency. The amplitude is largest when the drive matches the natural frequency.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/Resonance/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Driven oscillator
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Phase of a Driven Oscillator
+</div>
+
+Watch the lag between the driver and the mass. Below resonance they move together. Above resonance the mass lags by about half a cycle.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/Resonance/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Phase of a driven oscillator
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - A system’s natural frequency is the frequency at which the system will

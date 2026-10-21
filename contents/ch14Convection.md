@@ -394,6 +394,27 @@ Using a fan increases the flow of air: warm air near your body is replaced by co
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Convection
+</div>
+
+Heat a fluid from below and watch it rise, cool, and sink. That circulation carries heat much faster than conduction through the fluid alone.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/HeatTransfer/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Convection
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Summary
 
 - Convection is heat transfer by the macroscopic movement of mass. Convection can be natural or forced and generally transfers thermal energy faster than conduction. [[Table 1]](#Table1) gives wind-chill factors, indicating that

@@ -318,6 +318,27 @@ No, the range of perceptible sound is based in the range of human hearing. Many 
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Wind Instruments
+</div>
+
+See how the length of a pipe and whether its ends are open or closed set the notes it can play. Those are the same harmonics the ear sorts into pitch.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Wind instruments
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - The range of audible frequencies is 20 to 20 000 Hz.

@@ -18,6 +18,33 @@ and no equivalent published PhET HTML5 version was found.
 | Radio Waves                                                    | https://openlyceum.github.io/RadioWaves/            |
 | Lunar Lander                                                   | https://openlyceum.github.io/LunarLander/           |
 
+`?screens=` is 1-based. These embeds show one screen of an original (not PhET) simulation.
+
+| Section                                      | Screen                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Simultaneity and Time Dilation               | Special Relativity, light clock (`screens=1`) and twin paradox (`screens=4`)               |
+| Length Contraction                           | Special Relativity, length contraction (`screens=3`)                                       |
+| Carnot’s Perfect Heat Engine                 | Carnot Heat Engine, cycle (`screens=1`) and efficiency (`screens=2`)                       |
+| Heat Pumps and Refrigerators                 | Carnot Heat Engine, reversed cycle (`screens=3`)                                           |
+| Doppler Effect and Sonic Booms               | Doppler Effect (`screens=1`)                                                               |
+| Reactance, Inductive and Capacitive          | AC Phasor, one element (`screens=1`)                                                       |
+| RLC Series AC Circuits                       | AC Phasor, series (`screens=2`), resonance (`screens=3`), and power (`screens=4`)          |
+| Viscosity and Laminar Flow                   | Fluid Dynamics, intro (`screens=1`)                                                        |
+| The Onset of Turbulence                      | Fluid Dynamics, lab (`screens=2`)                                                          |
+| Gyroscopic Effects                           | Precession, steady precession (`screens=1`)                                                |
+| Standing Waves in Air Columns                | Standing Waves, reflection (`screens=1`), phase (`screens=2`), and harmonics (`screens=3`) |
+| Hearing                                      | Standing Waves, instruments (`screens=4`)                                                  |
+| Forced Oscillations and Resonance            | Resonance, driven oscillator (`screens=1`) and phase (`screens=3`)                         |
+| Polarization                                 | Light Propagation, one wave (`screens=1`) and polarizers (`screens=2`)                     |
+| Conduction                                   | Heat Transfer, conduction (`screens=2`)                                                    |
+| Convection                                   | Heat Transfer, convection (`screens=3`)                                                    |
+| Heat Transfer Methods                        | Heat Transfer, combined (`screens=4`)                                                      |
+| Multiple Slit Diffraction                    | Optics Lab, gratings (`screens=4`)                                                         |
+| Image Formation by Mirrors                   | Optics Lab, presets (`screens=3`)                                                          |
+| Complexity and Chaos                         | Oscillations and Chaos, double pendulum (`screens=4`)                                      |
+| Graphical Analysis of One-Dimensional Motion | Motion Match, pointer matching (`screens=1`)                                               |
+| Capacitors in Series and Parallel            | Capacitor Lab, combinations (`screens=3`)                                                  |
+
 Catalog and source: https://github.com/OpenLyceum
 
 ## Retained legacy activities

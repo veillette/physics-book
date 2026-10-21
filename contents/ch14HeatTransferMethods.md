@@ -67,6 +67,27 @@ Radiation: Reheating a cold cup of coffee in a microwave oven.
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Conduction and Convection Together
+</div>
+
+Turn conduction and convection on separately, then together, and compare how fast the temperature field evens out.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/HeatTransfer/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Conduction and convection
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Summary
 
 - Heat is transferred by three different methods: conduction, convection, and

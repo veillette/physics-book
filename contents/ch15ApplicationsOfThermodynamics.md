@@ -248,6 +248,27 @@ Problem-Solving Strategies for Thermodynamics
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Refrigerator and Heat Pump
+</div>
+
+Run the Carnot cycle backwards. The same device refrigerates or heats a space, and the coefficient of performance is set by the two reservoir temperatures.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CarnotHeatEngine/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Reversed Carnot cycle
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - An artifact of the second law of thermodynamics is the ability to heat an

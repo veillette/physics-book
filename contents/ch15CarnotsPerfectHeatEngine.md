@@ -157,6 +157,48 @@ in [[Figure 5]](#Figure5)(b).
 ![Part a of the diagram shows a combustion engine represented as a circle to compare the efficiency of real and Carnot engines. The hot reservoir is a rectangular section above the circle shown at temperature T sub h. A cold reservoir is shown as a rectangular section below the circle at temperature T sub c. Heat Q sub h enters the heat engine as shown by a bold arrow. For a real engine a small part of it is shown to be expelled as output from the engine shown as a bold arrow leaving the circle and for a Carnot engine larger part of it is shown to leave as work shown by a dashed arrow leaving the circle. The remaining heat is shown to be returned back to the cold reservoir as shown by bold arrow toward it for real engines and comparatively lesser heat is given by the Carnot engine shown by a dashed arrow. Part b of the diagram shows an internal combustion engine represented as a circle to study friction and other dissipative processes in the output mechanisms of a heat engine. The hot reservoir is a rectangular section above the circle shown at temperature T sub h. A cold reservoir is shown as a rectangular section below the circle at temperature T sub c. Heat Q sub h enters the heat engine as shown by a bold arrow, work W is produced as output, shown leaving the system, and the remaining heat Q sub c and Q sub f are returned back to the cold reservoir as shown by bold arrows toward it. Q sub f is heat due to friction. The work done against friction goes as heat Q sub f to the cold reservoir.](../resources/Figure_15_04_05.jpg 'Real heat engines are less efficient than Carnot engines. (a) Real engines use irreversible processes, reducing the heat transfer to work. Solid lines represent the actual process; the dashed lines are what a Carnot engine would do between the same two reservoirs. (b) Friction and other dissipative processes in the output mechanisms of a heat engine convert some of its work output into heat transfer to the environment.')
 {: #Figure5}
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Carnot Cycle
+</div>
+
+Step a piston through the four legs of a Carnot cycle and watch the matching PV diagram. Two isotherms and two adiabats bound the work done by the engine.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CarnotHeatEngine/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Carnot cycle
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Carnot Efficiency
+</div>
+
+Compare the heat absorbed from the hot reservoir with the heat rejected to the cold one. The efficiency depends only on those two temperatures.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CarnotHeatEngine/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Carnot efficiency
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - The Carnot cycle is a theoretical cycle that is the most efficient cyclical
