@@ -237,22 +237,20 @@ export default {
     const s1 = 80;
     const s2 = 115; // the cube root of 3 times s1
     // Animation: the Before blocks run from where they are drawn until m1
-    // meets m2, then the After blocks leave that contact and stop where they
-    // are drawn. One speed scale serves both panels, so the motion keeps the
-    // ratios of the arrows. The Before arrows fade as the blocks start, before
-    // the long v1 arrow can run over m2.
+    // meets m2 at x = contact, then the After blocks leave that same contact
+    // and stop where they are drawn, so the After panel starts exactly where
+    // the Before panel ends. One speed scale serves both panels, so the motion
+    // keeps the ratios of the arrows. The Before arrows fade as the blocks
+    // start, before the long v1 arrow can run over m2.
     const speed = 30; // pixels per second per velocity unit
-    const before = [130, 410];
-    const after = [170, 460];
-    const tIn = (before[1] - before[0] - s1) / (3.5 * speed);
-    const tOut = (after[1] - after[0] - s1) / (3.5 * speed);
+    const [tIn, tOut] = [1.8, 1.8];
+    const contact = 90 + 4 * speed * tIn;
+    const moveIn = t => [contact - 4 * speed * (tIn - t), contact + s1 - 0.5 * speed * (tIn - t)];
+    const moveOut = t => [contact - 1.25 * speed * t, contact + s1 + 2.25 * speed * t];
+    const before = moveIn(0);
+    const after = moveOut(tOut);
     const [hold, fade, T] = [0.6, 0.45, 7];
     const dur = `${T}s`;
-    const moveIn = t => [before[0] + 4 * speed * t, before[1] + 0.5 * speed * t];
-    const moveOut = t => [
-      after[0] + 1.25 * speed * (tOut - t),
-      after[1] - 2.25 * speed * (tOut - t),
-    ];
     const pair = (base, isAfter, [x1, x2, shown]) => {
       block(svg, x1, base, s1, 'm_1');
       block(svg, x2, base, s2, 'm_2');
@@ -284,17 +282,17 @@ export default {
       svg.text(380, base + 28, 'Frictionless surface', { size: 22, math: false });
       const draw = f => pair(base, isAfter, f);
       if (isAfter) {
-        const contact = [...moveOut(0), 1];
+        const met = [...moveOut(0), 1];
         const end = [...after, 1];
-        svg.animated(draw, [contact, contact, end, end], {
+        svg.animated(draw, [met, met, end, end], {
           still: 2,
           dur,
           keyTimes: [0, (hold + tIn) / T, (hold + tIn + tOut) / T, 1],
         });
       } else {
         const start = [...before, 1];
-        const contact = [...moveIn(tIn), 0];
-        svg.animated(draw, [start, start, [...moveIn(fade), 0], contact, contact], {
+        const met = [...moveIn(tIn), 0];
+        svg.animated(draw, [start, start, [...moveIn(fade), 0], met, met], {
           dur,
           keyTimes: [0, hold / T, (hold + fade) / T, (hold + tIn) / T, 1],
         });
