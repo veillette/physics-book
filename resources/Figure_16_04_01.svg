@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520" role="img" aria-labelledby="title desc">
+<title id="title">Forces on a simple pendulum</title>
+<desc id="desc">A pendulum bob of mass m hangs from a string of length L, displaced by angle θ from the vertical dashed equilibrium line; s is the arc length from equilibrium. The tension T acts along the string toward the pivot and the weight w = mg acts straight down. The component of the weight perpendicular to the string, −mg sin θ, points along the arc toward equilibrium: it is the restoring force.</desc>
+<rect width="560" height="520" fill="#ffffff"/>
+<rect x="20" y="18" width="520" height="22" fill="#b9bcc2"/>
+<line x1="210" y1="40" x2="210" y2="380" stroke="#7b1145" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="210" y1="40" x2="322.38" y2="318.16" stroke="#222222" stroke-width="2.2"/>
+<path d="M 210 100 A 60 60 0 0 0 232.48 95.63" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="222" y="131.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="280.19" y="176.78" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan></text>
+<path d="M 210 340 A 300 300 0 0 0 322.38 318.16" fill="none" stroke="#7b1145" stroke-width="1.8" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<text x="271.44" y="363.78" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">s</tspan></text>
+<line x1="316.39" y1="303.32" x2="291.29" y2="241.2" stroke="#e0245e" stroke-width="4"/>
+<polygon points="284.92,225.44 298.34,239.43 284.99,244.82" fill="#e0245e"/>
+<text x="318.16" y="260.95" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan></text>
+<line x1="322.38" y1="334.16" x2="322.38" y2="451.16" stroke="#e0245e" stroke-width="4"/>
+<polygon points="322.38,468.16 315.18,450.16 329.58,450.16" fill="#e0245e"/>
+<text x="336.38" y="465.86" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mg</tspan></text>
+<line x1="307.55" y1="324.15" x2="268.43" y2="339.95" stroke="#e0245e" stroke-width="3"/>
+<polygon points="255.45,345.2 267.11,334.02 271.6,345.14" fill="#e0245e"/>
+<text x="251.45" y="396.9" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<line x1="322.38" y1="318.16" x2="363.59" y2="420.15" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 4"/>
+<path d="M 322.38 372.16 A 54 54 0 0 0 342.61 368.22" fill="none" stroke="#222222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="332.38" y="399.16" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<circle cx="322.38" cy="318.16" r="16" fill="#3d7fc0" stroke="#1d4f80" stroke-width="1.5"/>
+<text x="344.38" y="319.86" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+</svg>
