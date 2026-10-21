@@ -199,6 +199,7 @@ python3 -B scripts/check_math.py --file contents/ch2FallingObjects.md
 python3 -B scripts/check_math.py --details
 python3 -B scripts/check_math.py --json > physics-report.json
 python3 -B scripts/check_math.py --no-scan --strict
+python3 -B scripts/check_math.py --no-scan --strict --check-coverage
 python3 -B -m unittest tests/test_check_math.py
 ```
 
@@ -217,7 +218,11 @@ a checked numeric comparison. Counts describe comparisons and standalone math
 spans, not the number of exercises proven correct. The summary groups skip
 reasons; `--details` and `--json` include each result and its specific reason.
 JSON output is an object with `summary` and `results`, including successful and
-skipped results. Numeric diagnostics use SI values.
+skipped results. `summary.case_coverage` lists the number of cases and assertions
+and the chapter numbers covered. Numeric diagnostics use SI values. The scanner
+recognizes `$...$`, `$$...$$`, `\(...\)`, and `\[...\]`, ignoring escaped dollars,
+HTML comments, and fenced or inline code. Single-dollar spans cannot cross a
+blank paragraph or a display-math block.
 
 `--strict` exits 1 if any result failed; skips alone do not fail the command.
 `--min-error` filters displayed numeric failures without changing coverage or
@@ -227,6 +232,14 @@ both the scan and cases. A whole-book run includes required cases whose source
 files have disappeared. CI requires the source-bound cases to pass; the broader
 automatic scan remains a review report because some equations use conventions
 or notation that need interpretation.
+
+CI also uses `--check-coverage` to require every case/check ID recorded in
+`scripts/physics-coverage.json`. Removing or renaming an assertion fails even
+when another assertion replaces it and the total count stays the same. New
+cases are allowed; record their IDs in the baseline to protect them too. An
+intentional removal requires a reviewed baseline edit. `--check-coverage PATH`
+uses a custom baseline. Coverage enforcement requires a whole-book run with
+cases enabled, and empty case documents and empty baselines are rejected.
 
 The evaluator preserves dimensions and converts units to SI throughout addition,
 multiplication, division, powers, roots, and supported functions. Both sides may
@@ -242,14 +255,33 @@ be chosen from the meaning of the equation; it should not be applied to an
 absolute temperature or an absolute-plus-interval calculation. Unknown
 annotation values fail visibly.
 
+Unit identifiers must match a known symbol or an allowed prefix plus symbol.
+Unknown words are not split into accidental unit products. Write compound units
+with spaces or multiplication dots, such as `J s` or `N·m`; conventional `Wh`,
+`Ah`, and `VA` symbols and their prefixes are also supported. `Gy` and `Sv`
+denote radiation dose units, including `mGy` and `μSv`. `rad` retains its angle
+meaning; ambiguous legacy radiation notation needs an explicit interpretation.
+
 Decimal literals carry half a unit in the last printed place. Relation
 coefficients, integer inputs, and exponents are exact; a standalone displayed
-integer answer may be rounded to the nearest unit. Rounding bounds propagate
+integer answer on the right side may be rounded to the nearest unit. The left
+side does not gain an integer-answer rounding allowance, so `1 m = 2 m` fails.
+An integer zero stays exact and may omit its unit in an equality, but explicitly
+incompatible zero units still fail. Rounding bounds propagate
 through operations and SI conversions. `exact: true` overrides rounding for an
 exact source quantity. The relative tolerance defaults to 1% (`--tolerance PCT`)
 and at least 5% for approximate equalities. A check may set its own `tolerance`
 in percent. These bounds accommodate printed precision; they do not establish
 that the physical model or reasoning is appropriate.
+
+For inverse sine and cosine, a valid central argument at `-1` or `1` may have a
+rounding interval extending beyond the domain; only the part inside the domain
+contributes to the output bound. A central argument outside the domain still
+fails. Trigonometric calculations also carry a small floating-point allowance
+scaled to the argument and derivative, so identities such as `cos(90°) = 0`
+do not require a fixed absolute tolerance in SI units.
+If the estimated floating-point error in a trigonometric value exceeds `1e-6`,
+the calculation is skipped rather than receiving an arbitrarily large allowance.
 
 #### Adding a source-bound case
 

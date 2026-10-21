@@ -22,6 +22,31 @@ def flags(src, tolerance=0.01):
 
 
 class UnitParserTests(unittest.TestCase):
+    def test_radiation_dose_units_and_prefixes(self):
+        expected = cm.parse_unit('J/kg')[1]
+        for unit, scale in [('Gy', 1), ('mGy', 1e-3), ('μGy', 1e-6), ('Sv', 1), ('mSv', 1e-3)]:
+            with self.subTest(unit=unit):
+                parsed = cm.parse_unit(unit)
+                self.assertEqual(parsed[1], expected)
+                self.assertEqual(parsed[0], scale)
+        self.assertEqual(cm.parse_unit('rad')[1], (('angle', 1),))
+
+    def test_unknown_words_are_not_decomposed_into_unit_products(self):
+        for unit in ('spin', 'using', 'sum', 'Mgh', 'Au', 'Hg', 'mday', 'Gyear',
+                     'mmin', 'kft', 'mGyunknown', 'kgfurlong'):
+            with self.subTest(unit=unit):
+                self.assertIsNone(cm.parse_unit(unit))
+        self.assertEqual(cm.parse_unit('kWh')[0], 3.6e6)
+        self.assertEqual(cm.parse_unit('mAh')[0], 3.6)
+        self.assertEqual(cm.parse_unit('hg')[0], 0.1)
+        self.assertEqual(cm.parse_unit('My')[0], 1e6 * cm.parse_unit('year')[0])
+        self.assertEqual(evaluate(r'2\text{J s}').dim, cm.parse_unit('J·s')[1])
+        self.assertEqual(evaluate(r'2\text{J / kg K}').dim, cm.parse_unit('J/kg·K')[1])
+        self.assertEqual(evaluate(r'1\text{mm Hg}').dim, cm.parse_unit('Pa')[1])
+        self.assertEqual(evaluate(r'1\text{Pa/mm Hg}').dim, ())
+        self.assertAlmostEqual(evaluate(r'365.25\text{days/year}').v, 1)
+        self.assertEqual(evaluate(r'365.25\text{days/year}').dim, ())
+
     def test_prefixes_and_compound_units(self):
         self.assertEqual(cm.parse_unit('mm')[0], 1e-3)
         self.assertEqual(cm.parse_unit('cm')[1], (('len', 1),))
@@ -116,6 +141,73 @@ class AngleConversionTests(unittest.TestCase):
 class QuantityVerificationTests(unittest.TestCase):
     def status(self, expression):
         return next(cm.verify_math(expression)).status
+
+    def test_integer_inputs_cannot_borrow_answer_rounding(self):
+        for expression in (r'1\m=2\m', r'2\m=1\m', '1=2', '0=1', '-1=-2',
+                           r'100\text{cm}=200\text{cm}', r'1\m=200\text{cm}'):
+            with self.subTest(expression=expression):
+                self.assertEqual(self.status(expression), 'failed')
+        self.assertEqual(self.status('31.62=32'), 'checked')
+        self.assertEqual(self.status('1.41=1.4'), 'checked')
+        self.assertEqual(self.status(r'100\text{cm}=1\m'), 'checked')
+        self.assertEqual(evaluate('1', stated=True).e, 0.5)
+        self.assertEqual(evaluate('1', exact_literals=True, stated=True).e, 0)
+
+    def test_bare_zero_can_omit_units_without_hiding_errors(self):
+        for expression in (r'2\m-2\m=0', r'0=2\m-2\m', r'0\J=0',
+                           r'0=0\text{N}', r'(2\kg)(0\mss)=0',
+                           r'\cos(90^\circ)=0', r'\sin(180^\circ)=0',
+                           r'(98\N)(8.0\m)\cos(90^\circ)=0\J'):
+            with self.subTest(expression=expression):
+                self.assertEqual(self.status(expression), 'checked')
+        for expression in (r'1\m=0', r'0.01\m=0', r'0=1\m', r'0\m=0\s',
+                           r'0\text{°C}=0', r'0\m=0^\circ', r'\cos(90^\circ)=0.01',
+                           r'5.0\times10^{-30}\J=0'):
+            with self.subTest(expression=expression):
+                self.assertEqual(self.status(expression), 'failed')
+
+    def test_inverse_trig_rounding_at_domain_boundaries(self):
+        for expression in (r'\arcsin(1.00)=90^\circ', r'\arcsin(-1.00)=-90^\circ',
+                           r'\arccos(1.00)=0^\circ', r'\arccos(-1.00)=180^\circ',
+                           r'\arcsin(0.00)=0^\circ'):
+            with self.subTest(expression=expression):
+                self.assertEqual(self.status(expression), 'checked')
+        for expression in (r'\arcsin(1.001)=90^\circ', r'\arccos(-1.001)=180^\circ',
+                           r'\arcsin(1.00)=45^\circ', r'\ln(0)=0'):
+            with self.subTest(expression=expression):
+                self.assertEqual(self.status(expression), 'failed')
+
+    def test_large_trig_arguments_do_not_gain_unbounded_roundoff_allowances(self):
+        result = next(cm.verify_math(r'\sin(10^{100})=1000'))
+        self.assertEqual(result.status, 'skipped')
+        self.assertIn('floating-point precision', result.reason)
+
+    def test_dose_equations_and_unsupported_units(self):
+        self.assertEqual(self.status(r'1\text{Gy}=1\text{J/kg}'), 'checked')
+        self.assertEqual(self.status(r'2\text{mGy}=0.002\text{J/kg}'), 'checked')
+        self.assertEqual(self.status(r'1\text{Gy}=1\s'), 'failed')
+        self.assertEqual(self.status(r'1\text{spin}=1\s'), 'skipped')
+        self.assertEqual(self.status(r'1\text{mm Hg}=133\text{Pa}'), 'checked')
+
+    def test_single_dollar_spans_and_offsets(self):
+        source = r'Before $2+2=5$, $$3+3=6$$, \(4=4\), \[5=5\], $x=2$.'
+        spans = list(cm.math_spans(source))
+        self.assertEqual([body for _, body in spans], ['2+2=5', '3+3=6', '4=4', '5=5', 'x=2'])
+        self.assertEqual([source[start] for start, _ in spans], ['$', '$', '\\', '\\', '$'])
+        self.assertEqual(next(cm.verify_math(spans[0][1])).status, 'failed')
+
+    def test_inline_math_ignores_escaped_currency_comments_and_code(self):
+        source = (r'Price \$5 and \$10. $2+2=4$ and $5\text{USD}+\$1=6$.'
+                  '\n<!-- $1=2$ -->\n`$1=2$`\n``code `$1=2$` code``\n```tex\n$1=2$\n```\n'
+                  + r'\\$3=3$ and \$not math\$')
+        self.assertEqual([body for _, body in cm.math_spans(source)],
+                         ['2+2=4', r'5\text{USD}+\$1=6', '3=3'])
+        self.assertEqual(list(cm.math_spans('$unclosed\n\n$$4=4$$')), [(11, '4=4')])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'inline.md'
+            path.write_text('An inline error:\n$2+2=5$\n')
+            results = cm.scan_file(path, str(path), 0.01)
+            self.assertEqual([(r.line, r.status) for r in results], [(2, 'failed')])
 
     def test_demonstrated_false_negatives_are_detected(self):
         for expression in (r'2\times3=6000', r'2\m+3\m=500\m',
@@ -283,6 +375,10 @@ class DeclarativeCaseTests(unittest.TestCase):
         self.assertEqual([result.status for result in results], ['checked'])
         self.assertEqual(results[0].line, 5)
 
+    def test_source_bound_markers_support_single_dollar_math(self):
+        self.path.write_text(MOTION_SOURCE.replace('$$', '$'))
+        self.assertEqual(self.run_cases()[0].status, 'checked')
+
     def test_mutations_of_sign_exponent_unit_given_and_answer(self):
         for name, old, new in (
             ('sign', 'v=-6.60', 'v=+6.60'),
@@ -336,6 +432,7 @@ class DeclarativeCaseTests(unittest.TestCase):
 
     def test_actual_book_cases_all_pass(self):
         document = json.loads(cm.DEFAULT_CASES.read_text())
+        cm.validate_coverage(document, json.loads(cm.DEFAULT_COVERAGE.read_text()))
         results = run_cases(document, cm.DEFAULT_CONTENTS_DIR, None, cm.Verification,
                             cm.compare, cm.math_spans, cm.split_relations)
         self.assertEqual(len(results), sum(len(case['checks']) for case in document['cases']))
@@ -384,6 +481,55 @@ class DeclarativeCaseTests(unittest.TestCase):
         self.document['cases'].append(copy.deepcopy(self.document['cases'][0]))
         with self.assertRaisesRegex(ValueError, 'duplicate case ID'):
             cm.validate_cases(self.document)
+
+    def test_empty_case_documents_are_rejected(self):
+        document = copy.deepcopy(self.document)
+        document['cases'] = []
+        with self.assertRaisesRegex(ValueError, 'at least one case'):
+            cm.validate_cases(document)
+
+    def test_coverage_protects_identities_and_allows_additions(self):
+        baseline = {'version': 1, 'required_checks': {'motion': ['velocity']}}
+        cm.validate_coverage(self.document, baseline)
+        addition = copy.deepcopy(self.document['cases'][0])
+        addition['id'] = 'more-motion'
+        self.document['cases'].append(addition)
+        cm.validate_coverage(self.document, baseline)
+        self.document['cases'][0]['checks'][0]['id'] = 'replacement'
+        with self.assertRaisesRegex(ValueError, 'motion/velocity'):
+            cm.validate_coverage(self.document, baseline)
+        self.document['cases'].pop(0)
+        with self.assertRaisesRegex(ValueError, 'motion/velocity'):
+            cm.validate_coverage(self.document, baseline)
+
+    def test_coverage_baseline_cannot_be_empty_or_malformed(self):
+        for baseline in ({}, {'version': 1, 'required_checks': {}},
+                         {'version': 1, 'required_checks': {'motion': []}},
+                         {'version': 1, 'required_checks': {'motion': ['velocity', 'velocity']}},
+                         {'version': 1, 'required_checks': {'motion': [None]}}):
+            with self.subTest(baseline=baseline), self.assertRaises(ValueError):
+                cm.validate_coverage(self.document, baseline)
+
+    def test_cli_enforces_coverage_even_without_strict(self):
+        document_path = self.root / 'cases.json'
+        baseline_path = self.root / 'coverage.json'
+        document_path.write_text(json.dumps(self.document))
+        baseline_path.write_text(json.dumps({'version': 1, 'required_checks': {'motion': ['velocity']}}))
+        args = ['--contents-dir', str(self.root), '--cases', str(document_path),
+                '--check-coverage', str(baseline_path), '--no-scan', '--json']
+        with contextlib.redirect_stdout(io.StringIO()) as output:
+            self.assertEqual(cm.main(args), 0)
+        self.assertEqual(json.loads(output.getvalue())['summary']['case_coverage'],
+                         {'cases': 1, 'assertions': 1, 'chapters': [2]})
+        self.document['cases'][0]['checks'][0]['id'] = 'replacement'
+        document_path.write_text(json.dumps(self.document))
+        with contextlib.redirect_stderr(io.StringIO()) as errors, self.assertRaises(SystemExit) as exit_status:
+            cm.main(args)
+        self.assertEqual(exit_status.exception.code, 2)
+        self.assertIn('required case checks missing', errors.getvalue())
+        for extra in (['--file', str(self.path)], ['--range', '2-3'], ['--no-cases']):
+            with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                cm.main(args + extra)
 
     def test_schema_rejects_malformed_inputs_and_tolerances(self):
         self.document['cases'][0]['inputs'] = []

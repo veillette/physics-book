@@ -1022,7 +1022,7 @@ $$F = 9.08 \times 10^{-7} \text{ N} \approx 9.09 \times 10^{-7} \text{ N}$$
 *Direction:* Using RHR-1 for a positive charge moving horizontally through a horizontal magnetic field, the force is **upward** (perpendicular to both $\vec{v}$ and $\vec{B}$).
 
 **(b)** *Free-body diagram at the bottom:*
-- Weight: $W = mg = (0.0300)(9.80) = 0.294 \text{ N}$ (downward)
+- Weight: $W = mg = (0.0300 \text{ kg})(9.80 \text{ m/s}^2) = 0.294 \text{ N}$ (downward)
 - Tension: $T$ (upward along the string, but the bob is at the bottom of its swing)
 - Magnetic force: $F_B = 9.09 \times 10^{-7} \text{ N}$ (upward)
 
@@ -1860,7 +1860,7 @@ $$I = \frac{2\pi r B}{\mu_{0}} = \frac{2\pi (100 \text{ m})(5.00 \times 10^{-5} 
 $$I = \frac{2 (100 \text{ m})(5.00 \times 10^{-5} \text{ T})}{4 \times 10^{-7} \text{ T·m/A}} = \frac{0.0100 \text{ T·m}}{4 \times 10^{-7} \text{ T·m/A}} = 25{,}000 \text{ A} = 25.0 \text{ kA}$$
 
 **(b)** This current is unreasonably high:
-- At 200 kV, this implies power: $P = IV = (25{,}000)(200{,}000) = 5.0 \times 10^9 \text{ W} = 5.0 \text{ GW}$
+- At 200 kV, this implies power: $P = IV = (25{,}000 \text{ A})(200{,}000 \text{ V}) = 5.0 \times 10^9 \text{ W} = 5.0 \text{ GW}$
 - This is about 5 times the output of a large nuclear power plant
 - No single transmission line carries this much power
 - Typical high-voltage lines carry hundreds of MW, not GW
@@ -1908,8 +1908,8 @@ point where they are detected.
 **Solution**
 
 *Known quantities:*
-- Mass of U-238: $m_{238} = 238 \times 1.66 \times 10^{-27} = 3.95 \times 10^{-25} \text{ kg}$
-- Mass of U-235: $m_{235} = 235 \times 1.66 \times 10^{-27} = 3.90 \times 10^{-25} \text{ kg}$
+- Mass of U-238: $m_{238} = 238 \times 1.66 \times 10^{-27} \text{ kg} = 3.95 \times 10^{-25} \text{ kg}$
+- Mass of U-235: $m_{235} = 235 \times 1.66 \times 10^{-27} \text{ kg} = 3.90 \times 10^{-25} \text{ kg}$
 - Velocity: $v = 1.00 \times 10^5 \text{ m/s}$
 - Charge: $q = 1.60 \times 10^{-19} \text{ C}$
 - Desired radius for U-238: $r_{238} = 0.500 \text{ m}$

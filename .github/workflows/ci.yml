@@ -94,7 +94,7 @@ jobs:
         run: python -B scripts/check_math.py
 
       - name: Verify source-bound physics cases
-        run: python -B scripts/check_math.py --no-scan --strict
+        run: python -B scripts/check_math.py --no-scan --strict --check-coverage
 
   link-check:
     name: Link Check

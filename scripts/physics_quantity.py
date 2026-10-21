@@ -132,7 +132,7 @@ def number_value(text, exact=False, stated=False):
     mantissa, _, exponent = text.lower().partition('e')
     scale = 10.0 ** int(exponent) if exponent else 1.0
     error = 0.0
-    if not exact and ('.' in mantissa or stated):
+    if not exact and ('.' in mantissa or (stated and float(text) != 0)):
         decimals = len(mantissa.split('.')[1]) if '.' in mantissa else 0
         error = 0.5 * 10.0 ** -decimals * abs(scale)
     return Value(float(text), error)
@@ -319,8 +319,16 @@ class Parser:
         if name == 'tan' and math.floor((arg.v - arg.e + math.pi / 2) / math.pi) != math.floor(
                 (arg.v + arg.e + math.pi / 2) / math.pi):
             raise Invalid('tangent rounding interval crosses a pole')
-        # Endpoint sampling also catches domain errors in the rounding interval.
-        values = [function(arg.v), function(arg.v - arg.e), function(arg.v + arg.e)]
+        # A rounded value at +/-1 is valid for inverse sine/cosine. Restrict
+        # its uncertainty to the function's domain, without clamping an
+        # actually invalid central value. These functions are monotonic;
+        # their endpoints bound the output even where the derivative diverges.
+        low, high = arg.v - arg.e, arg.v + arg.e
+        if name in ('arcsin', 'arccos'):
+            if not -1 <= arg.v <= 1:
+                raise Invalid(f'{name} argument must be in [-1, 1]')
+            low, high = max(-1.0, low), min(1.0, high)
+        values = [function(arg.v), function(low), function(high)]
         if name in ('sin', 'cos'):
             start = math.ceil((arg.v - arg.e) / (math.pi / 2))
             end = math.floor((arg.v + arg.e) / (math.pi / 2))
@@ -329,8 +337,16 @@ class Parser:
             else:
                 values.extend(function(k * math.pi / 2) for k in range(start, end + 1))
         error = max(abs(value - values[0]) for value in values)
-        if arg.e:
+        if arg.e and name not in ('arcsin', 'arccos'):
             error = max(error, abs(derivative(arg.v)) * arg.e)
+        if name in ('sin', 'cos', 'tan'):
+            # E.g. cos(pi/2) is about 6e-17 in binary floating point. Scale
+            # this allowance to the argument and derivative, never to a fixed
+            # SI epsilon that would hide errors in tiny energies or charges.
+            roundoff = 4 * (abs(derivative(arg.v)) * math.ulp(arg.v) + math.ulp(values[0]))
+            if roundoff > 1e-6:
+                raise Skip('insufficient floating-point precision for trigonometric argument')
+            error += roundoff
         return Value(values[0], error, angle=name.startswith('arc'))
 
 

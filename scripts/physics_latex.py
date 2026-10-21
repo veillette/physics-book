@@ -87,14 +87,23 @@ def canonicalize_unit(text):
     t = t.replace(r'\Omega', 'Ω').replace(r'\ohm', 'Ω')
     t = t.replace(r'\cdot', '·').replace(r'\times', '·').replace('*', '·')
     t = re.sub(r'\^\s*\{([^{}]*)\}', r'^\1', t)
-    t = re.sub(r'\s+', '', t)
     t = t.replace('−', '-')
     t = t.replace('°C', 'degC').replace('ºC', 'degC').replace('°F', 'degF').replace('ºF', 'degF')
     t = t.replace('°', 'deg').replace('º', 'deg')
     t = t.rstrip('.')
+    # A conventional pressure symbol may include a space before mercury.
+    t = re.sub(r'\bmm\s+Hg\b', 'mmHg', t)
     aliases = {'meters': 'm', 'meter': 'm', 'hours': 'h', 'hour': 'h', 'minutes': 'min', 'minute': 'min', 'mins': 'min',
-               'years': 'year', 'days': 'day', 'seconds': 's', 'second': 's', 'sec': 's', 'amu': 'u', 'ohms': 'Ω', 'ohm': 'Ω'}
-    return aliases.get(t, '' if t in ('.', '·', ',', ';', ':') else t)
+               'years': 'year', 'days': 'day', 'seconds': 's', 'second': 's', 'sec': 's', 'amu': 'u', 'ohms': 'Ω', 'ohm': 'Ω',
+               'inch': 'in', 'inches': 'in', 'gray': 'Gy', 'grays': 'Gy', 'sievert': 'Sv', 'sieverts': 'Sv'}
+    if t in aliases:
+        return aliases[t]
+    t = re.sub(r'[A-Za-zμµΩ]+', lambda match: aliases.get(match[0], match[0]), t)
+    # Preserve the distinction between a unit product (J s) and an unknown
+    # word (e.g. "spin"). Operators may have surrounding TeX whitespace.
+    t = re.sub(r'\s*([/·^()])\s*', r'\1', t)
+    t = re.sub(r'\s+', '·', t)
+    return '' if t in ('.', '·', ',', ';', ':') else t
 
 
 def _with_exp(body, exp):
@@ -205,6 +214,7 @@ _POWER = {'mass': 1, 'len': 2, 'time': -3}
 _PRESSURE = {'mass': 1, 'len': -1, 'time': -2}
 _VOLT = {'mass': 1, 'len': 2, 'time': -3, 'current': -1}
 _OHM = {'mass': 1, 'len': 2, 'time': -3, 'current': -2}
+_DOSE = {'len': 2, 'time': -2}
 _BASES = {
     '%': (0.01, {}, 0.0),
     'degC': (1.0, {'Th': 1}, 273.15),
@@ -222,6 +232,7 @@ _BASES = {
     'cal': (4.184, _ENERGY, 0.0),
     'year': (31557600.0, {'time': 1}, 0.0),
     'y': (31557600.0, {'time': 1}, 0.0),
+    'My': (31557600.0 * 1e6, {'time': 1}, 0.0),
     'day': (86400.0, {'time': 1}, 0.0),
     'Hz': (1.0, {'time': -1}, 0.0),
     'Pa': (1.0, _PRESSURE, 0.0),
@@ -231,6 +242,12 @@ _BASES = {
     'in': (0.0254, {'len': 1}, 0.0),
     'Ci': (3.7e10, {'time': -1}, 0.0),
     'Bq': (1.0, {'time': -1}, 0.0),
+    'Gy': (1.0, _DOSE, 0.0),
+    'Sv': (1.0, _DOSE, 0.0),
+    # Conventional compact unit symbols; other products need a separator.
+    'Wh': (3600.0, _ENERGY, 0.0),
+    'Ah': (3600.0, {'current': 1, 'time': 1}, 0.0),
+    'VA': (1.0, _POWER, 0.0),
     'Wb': (1.0, {'mass': 1, 'len': 2, 'time': -2, 'current': -1}, 0.0),
     'Ω': (1.0, _OHM, 0.0),
     'N': (1.0, _FORCE, 0.0),
@@ -253,9 +270,10 @@ _BASES = {
 }
 _PREFIXES = (
     ('da', 1e1), ('f', 1e-15), ('p', 1e-12), ('n', 1e-9), ('u', 1e-6), ('μ', 1e-6), ('µ', 1e-6),
-    ('m', 1e-3), ('c', 1e-2), ('d', 1e-1), ('k', 1e3), ('M', 1e6), ('G', 1e9), ('T', 1e12),
+    ('m', 1e-3), ('c', 1e-2), ('d', 1e-1), ('h', 1e2), ('k', 1e3), ('M', 1e6), ('G', 1e9), ('T', 1e12),
 )
-_NO_PREFIX = {'degC', 'degF', 'deg'}
+_PREFIXABLE = {'m', 'g', 's', 'A', 'K', 'mol', 'Hz', 'Pa', 'N', 'J', 'W', 'V', 'C', 'F', 'H',
+               'T', 'L', 'Ω', 'Bq', 'Wb', 'Gy', 'Sv', 'rad', 'eV', 'Ci', 'cal', 'Wh', 'Ah', 'VA'}
 
 
 def _dim_key(dim):
@@ -277,18 +295,24 @@ def _prefer_atom(best, cand):
 
 
 def _best_atom(s, i):
+    # Match the entire identifier. Splitting arbitrary words into units made
+    # "spin" look like seconds * pico-inches and "Gy" like giga-years.
+    word = re.match(r'[A-Za-zμµΩ]+|%', s[i:])
+    if word is None:
+        return None
+    symbol = word[0]
     best = None
     for name, (scale, dim, offset) in _BASES.items():
-        if s.startswith(name, i):
+        if symbol == name:
             best = _prefer_atom(best, (i + len(name), scale, dim, offset, False))
     for pname, pscale in _PREFIXES:
         if not s.startswith(pname, i):
             continue
         j = i + len(pname)
         for name, (scale, dim, offset) in _BASES.items():
-            if name in _NO_PREFIX or offset:
+            if name not in _PREFIXABLE or offset:
                 continue
-            if s.startswith(name, j):
+            if symbol == pname + name:
                 best = _prefer_atom(best, (j + len(name), pscale * scale, dim, 0.0, True))
     return best
 
