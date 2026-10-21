@@ -25,6 +25,7 @@ import { chromium } from '@playwright/test';
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
 import { runCli } from './lib/cli.js';
 import { getBaseDir, readFile } from './lib/files.js';
+import { extractPageContent, injectMathCss } from './lib/pdf-content.js';
 
 /**
  * PDF generator class.
@@ -349,6 +350,7 @@ class PDFGenerator {
       urls.push(this.fileToUrl(section.sectionFile));
     }
 
+    const mathCss = new Set();
     let combinedHtml = `
       <!DOCTYPE html>
       <html>
@@ -371,14 +373,7 @@ class PDFGenerator {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
         await this.waitForMathJax(page);
 
-        const content = await page.evaluate(() => {
-          const main =
-            document.querySelector('.markdown-section') ||
-            document.querySelector('main') ||
-            document.querySelector('article') ||
-            document.body;
-          return main.innerHTML;
-        });
+        const content = await extractPageContent(page, mathCss);
 
         combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
       } catch (_e) {
@@ -387,6 +382,7 @@ class PDFGenerator {
     }
 
     combinedHtml += '</body></html>';
+    combinedHtml = injectMathCss(combinedHtml, mathCss);
 
     await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
     await this.preparePage(page, true);
@@ -430,6 +426,7 @@ class PDFGenerator {
       }
     }
 
+    const mathCss = new Set();
     let combinedHtml = `
       <!DOCTYPE html>
       <html>
@@ -458,14 +455,7 @@ class PDFGenerator {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
         await this.waitForMathJax(page);
 
-        const content = await page.evaluate(() => {
-          const main =
-            document.querySelector('.markdown-section') ||
-            document.querySelector('main') ||
-            document.querySelector('article') ||
-            document.body;
-          return main.innerHTML;
-        });
+        const content = await extractPageContent(page, mathCss);
 
         combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
       } catch (e) {
@@ -474,6 +464,7 @@ class PDFGenerator {
     }
 
     combinedHtml += '</body></html>';
+    combinedHtml = injectMathCss(combinedHtml, mathCss);
 
     await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
     await this.preparePage(page, true);
