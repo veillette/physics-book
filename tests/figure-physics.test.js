@@ -8,6 +8,8 @@ import fbd06 from '../scripts/fbd/ch06.js';
 import ch02 from '../scripts/figures/ch02.js';
 import ch03 from '../scripts/figures/ch03.js';
 import ch04to07 from '../scripts/figures/ch04to07.js';
+import ch08 from '../scripts/figures/ch08.js';
+import ch09 from '../scripts/figures/ch09.js';
 
 // Measure the rendered arrow from the shaft's start to the triangular head's tip.
 // SVG y points down; return vectors in math coordinates so force sums use +y up.
@@ -153,7 +155,7 @@ it('places the ellipse foci so the sum of distances is constant', () => {
 });
 
 it('keeps the checked-in SVGs identical to their generator output', () => {
-  const figures = { ...ch02, ...ch03, ...ch04to07, ...fbd04, ...fbd05, ...fbd06 };
+  const figures = { ...ch02, ...ch03, ...ch04to07, ...ch08, ...ch09, ...fbd04, ...fbd05, ...fbd06 };
   for (const [name, build] of Object.entries(figures)) {
     const svg = readFileSync(new URL(`../resources/${name}.svg`, import.meta.url), 'utf8');
     expect(svg, name).toBe(build());

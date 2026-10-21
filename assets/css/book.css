@@ -119,6 +119,15 @@ section.normal > .title {
   inline-size: 50%;
 }
 
+/* Converted chapter 7–9 diagrams need their labels readable at page width,
+   both before and after the viewer wraps images in figures. */
+.book .book-body .page-wrapper .page-inner section.normal
+  img:is([src*='Figure_07_'], [src*='Figure_08_'], [src*='Figure_09_'])[src$='.svg'] {
+  inline-size: auto;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 .book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
   font-weight: bold;
   font-size: small;

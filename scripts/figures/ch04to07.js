@@ -1048,9 +1048,7 @@ export default {
     }
 
     const h = 965;
-    svg.arrow(h, high - 0.5, h, high + 26, { color: BLACK, width: 1.4, head: 9, start: false });
-    svg.line(h, high + 26, h, base - 26, { color: BLACK, width: 1.4 });
-    svg.arrow(h, base - 26, h, base, { color: BLACK, width: 1.4, head: 9 });
+    svg.vdimension(h, high, base, '');
     svg.text(950, 55, 'h = 18 \\rm{cm}', { size: 21, anchor: 'end' });
     svg.text(495, 22, 'Path of the Car', { size: 19, math: false });
     svg.squiggle(565, 40, 600, path.y(600) - 3, { waves: 1, amp: 5 });
@@ -1174,7 +1172,7 @@ export default {
       width: 1030,
       height: 640,
       title: 'Energy conversion in humans',
-      desc: 'Food energy, the initial other energy OEi, branches into three forms: work, which is nonconservative work Wnc and is negative; thermal energy; and stored fat. Thermal energy and stored fat together make up the final other energy OEf. So OEi + Wnc = OEf.',
+      desc: 'Food energy, the initial other energy OEi, branches into three forms: work, which is nonconservative work Wnc and is negative; thermal energy; and stored fat. Arrows are schematic; their widths do not represent energy fractions. Thermal energy and stored fat together make up the final other energy OEf. So OEi + Wnc = OEf.',
     });
     const box = (x, y, w, h, fill, stroke, lines) => {
       svg.rect(x, y, w, h, { fill, stroke, width: 2.5 });
@@ -1228,6 +1226,10 @@ export default {
       { color: BLACK, width: 2.5 }
     );
     svg.text(bx + depth + 10, m, 'OE_f', { size: 40, math: false, anchor: 'start' });
+    svg.text(515, 551, 'Arrows are schematic; widths do not represent energy fractions.', {
+      size: 25,
+      math: false,
+    });
     svg.text(350, 595, 'OE_i + \\it{W}_{nc} = OE_f', { size: 40, math: false });
     return svg.render();
   },
