@@ -278,9 +278,10 @@ class LinkChecker {
         redirect: 'follow',
       });
 
-      // Some servers reject HEAD or non-browser clients; retry once with GET
-      // and a browser User-Agent before deciding the link is broken.
-      if (response.status === 403 || response.status === 405) {
+      // Some servers reject HEAD or non-browser clients (nvlpubs.nist.gov
+      // answers HEAD with 404); retry once with GET and a browser User-Agent
+      // before deciding the link is broken.
+      if ([403, 404, 405].includes(response.status)) {
         response = await fetch(url, {
           method: 'GET',
           headers: { 'User-Agent': BROWSER_USER_AGENT, Accept: '*/*' },
@@ -312,6 +313,14 @@ class LinkChecker {
 
       if (error.name === 'AbortError') {
         errorMessage = `Timeout after ${this.timeout}ms`;
+        isNetworkError = true;
+      } else if (
+        ['UND_ERR_CONNECT_TIMEOUT', 'ETIMEDOUT'].includes(error.cause?.code) ||
+        error.cause?.errors?.some(e => e.code === 'ETIMEDOUT')
+      ) {
+        // undici reports a TCP connect timeout as "fetch failed"; like a
+        // request timeout, an unreachable host is transient, not a dead link.
+        errorMessage = `Connect timeout: ${error.cause.code ?? 'ETIMEDOUT'}`;
         isNetworkError = true;
       } else if (
         error.code?.includes('ENOTFOUND') ||
