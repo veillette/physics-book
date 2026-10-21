@@ -118,14 +118,14 @@ export default {
   Figure_09_02_01: () => {
     const svg = new Svg({
       width: 960,
-      height: 760,
+      height: 775,
       title: 'Torque on a door seen from above',
       desc: 'Six overhead views of a door hinged on the left and opened 25° from the wall. (a) A force F pushes perpendicular to the door at distance r from the hinge, so r = r⊥ and the torque is counterclockwise. (b) A smaller force F′ at the same point gives a smaller counterclockwise torque. (c) The same force at a smaller distance r′ = r′⊥ gives a smaller counterclockwise torque. (d) The force −F, opposite to (a), gives a clockwise torque. (e) A horizontal force of the same magnitude at the same point makes angle θ with the door; the perpendicular distance from the hinge to its line of action is r⊥ = r sin θ, so the counterclockwise torque is smaller. (f) A force pulling straight along the door away from the hinge has θ = 0° and r⊥ = 0, so it produces no torque.',
     });
     const deg = 25;
     const r = 225;
     const panel = (col, row) => [190 + col * 455, 200 + row * 245];
-    const caption = (H, label) => svg.text(H[0] + 100, H[1] + 48, label, { size: 20, math: false });
+    const caption = (H, label) => svg.text(H[0] + 100, H[1] + 62, label, { size: 20, math: false });
     const push = (d, u, len, sign = 1) => {
       // Perpendicular push on the face; sign = 1 pushes toward +v (counterclockwise).
       const tip = d.at(u, -sign * 12);
@@ -133,51 +133,100 @@ export default {
       svg.arrow(...tail, ...tip, { color: FORCE, width: 4, head: 18 });
       return tail;
     };
+    // Animation: each door starts from rest and turns with angular
+    // acceleration in proportion to its torque, (a) turning 10° in 2.5 s. In
+    // (e) the torque follows r⊥ = r sin θ as the door turns. The doors hold,
+    // then swing back.
+    const [hold, pushT, rest, T] = [0.5, 2.5, 1.5, 6.5];
+    const step = 0.25;
+    const swing = (torque, draw) => {
+      const c = (2 * 10) / pushT ** 2; // degrees per second squared for the torque in (a)
+      const sub = 40;
+      let [a, w] = [deg, 0];
+      const angles = [a];
+      for (let k = 0; k < pushT / step; k += 1) {
+        for (let j = 0; j < sub; j += 1) {
+          w += c * torque(a) * (step / sub);
+          a += w * (step / sub);
+        }
+        angles.push(a);
+      }
+      const times = angles.map((_, k) => hold + k * step);
+      svg.animated(draw, [deg, ...angles, a, deg, deg], {
+        dur: `${T}s`,
+        keyTimes: [0, ...times, hold + pushT + rest, T - 0.4, T].map(t => t / T),
+      });
+    };
     // (a)
     let H = panel(0, 0);
-    let d = door(svg, H, { deg });
-    doorDimension(svg, d, r, 40, 'r = r_⊥');
-    let tail = push(d, r, 80);
-    svg.text(tail[0] + 18, tail[1], '**F**', { size: 24, anchor: 'start' });
+    swing(
+      () => 1,
+      a => {
+        const d = door(svg, H, { deg: a });
+        doorDimension(svg, d, r, 40, 'r = r_⊥');
+        const tail = push(d, r, 80);
+        svg.text(tail[0] + 18, tail[1], '**F**', { size: 24, anchor: 'start' });
+      }
+    );
     caption(H, '(a)');
     // (b)
     H = panel(0, 1);
-    d = door(svg, H, { deg });
-    doorDimension(svg, d, r, 40, 'r = r_⊥');
-    tail = push(d, r, 48);
-    svg.text(tail[0] + 18, tail[1], '**F′**', { size: 24, anchor: 'start' });
+    swing(
+      () => 48 / 80,
+      a => {
+        const d = door(svg, H, { deg: a });
+        doorDimension(svg, d, r, 40, 'r = r_⊥');
+        const tail = push(d, r, 48);
+        svg.text(tail[0] + 18, tail[1], '**F′**', { size: 24, anchor: 'start' });
+      }
+    );
     caption(H, '(b)');
     // (c)
     H = panel(0, 2);
-    d = door(svg, H, { deg });
-    doorDimension(svg, d, 140, 40, 'r′ = r′_⊥');
-    tail = push(d, 140, 80);
-    svg.text(tail[0] + 18, tail[1], '**F**', { size: 24, anchor: 'start' });
+    swing(
+      () => 140 / r,
+      a => {
+        const d = door(svg, H, { deg: a });
+        doorDimension(svg, d, 140, 40, 'r′ = r′_⊥');
+        const tail = push(d, 140, 80);
+        svg.text(tail[0] + 18, tail[1], '**F**', { size: 24, anchor: 'start' });
+      }
+    );
     caption(H, '(c)');
     // (d)
     H = panel(1, 0);
-    d = door(svg, H, { deg });
-    doorDimension(svg, d, r, -40, 'r = r_⊥', { labelV: -62 });
-    tail = push(d, r, 80, -1);
-    svg.text(tail[0] - 14, tail[1], '−**F**', { size: 24, anchor: 'end' });
+    swing(
+      () => -1,
+      a => {
+        const d = door(svg, H, { deg: a });
+        doorDimension(svg, d, r, -40, 'r = r_⊥', { labelV: -62 });
+        const tail = push(d, r, 80, -1);
+        svg.text(tail[0] - 14, tail[1], '−**F**', { size: 24, anchor: 'end' });
+      }
+    );
     caption(H, '(d)');
     // (e) A horizontal force; θ is measured between the door and the line of action.
     H = panel(1, 1);
-    d = door(svg, H, { deg });
-    const P = d.at(r, 0);
     const guide = { color: BLACK, width: 1.4, dash: '6 4' };
-    svg.line(H[0], P[1], P[0], P[1], guide);
-    svg.line(...H, H[0], P[1], guide);
-    svg.arrow(P[0] + 92, P[1], P[0] + 2, P[1], { color: FORCE, width: 4, head: 18 });
-    svg.text(P[0] + 60, P[1] + 26, '**F**', { size: 24 });
-    svg.arc(...P, 80, 180, 180 + deg, { color: BLACK, width: 1.6 });
-    svg.text(P[0] - 100, P[1] + 14, 'θ', { size: 22 });
-    svg.text(H[0] - 10, (H[1] + P[1]) / 2, 'r_⊥ = r sin θ', { size: 22, anchor: 'end' });
-    doorDimension(svg, d, r, -40, 'r', { labelV: -60 });
+    swing(
+      a => Math.sin(rad(a)),
+      a => {
+        const d = door(svg, H, { deg: a });
+        const P = d.at(r, 0);
+        svg.line(H[0], P[1], P[0], P[1], guide);
+        svg.line(...H, H[0], P[1], guide);
+        svg.arrow(P[0] + 92, P[1], P[0] + 2, P[1], { color: FORCE, width: 4, head: 18 });
+        svg.text(P[0] + 60, P[1] + 26, '**F**', { size: 24 });
+        svg.arc(...P, 80, 180, 180 + a, { color: BLACK, width: 1.6 });
+        svg.text(P[0] - 100, P[1] + 14, 'θ', { size: 22 });
+        svg.text(H[0] - 10, (H[1] + P[1]) / 2, 'r_⊥ = r sin θ', { size: 22, anchor: 'end' });
+        doorDimension(svg, d, r, -40, 'r', { labelV: -60 });
+      }
+    );
     caption(H, '(e)');
-    // (f) A pull straight along the door.
+    // (f) A pull straight along the door: no torque, so no animation.
     H = panel(1, 2);
-    d = door(svg, H, { deg });
+    const d = door(svg, H, { deg });
     const Q = d.at(r, 0);
     svg.line(...H, ...Q, guide);
     svg.arrow(...Q, ...d.at(r + 95, 0), { color: FORCE, width: 4, head: 18 });
@@ -188,7 +237,6 @@ export default {
     caption(H, '(f)');
     return svg.render();
   },
-
   // 9.3 Problem — a wall under construction held by 10 braces against the wind
   Figure_09_03_11: () => {
     const svg = new Svg({
@@ -316,24 +364,60 @@ export default {
     });
     const R = 46;
     const wrap = R + 3;
+    // Animation: in every panel the load rises by the same height while a
+    // mark on the free end of the rope travels MA times as far. The rope runs
+    // on out of the picture, so its drawn free end stays put. A dashed line
+    // marks where the bottom of the load started.
+    const lift = 28;
+    const [hold, rise, rest, T] = [0.6, 3, 1.5, 6.5];
+    const lifts = [0, 0, 0.25, 0.5, 0.75, 1, 1, 0].map(s => s * lift);
+    const keyTimes = [0, hold, hold + rise / 4, hold + rise / 2, hold + (3 * rise) / 4];
+    keyTimes.push(hold + rise, hold + rise + rest, T);
+    const up = (p, h) => [p[0], p[1] - h];
+    const mark = (p, q, from) => {
+      // A dark band across the rope, `from` pixels along it from p toward q.
+      const len = Math.hypot(q[0] - p[0], q[1] - p[1]);
+      const [ux, uy] = [(q[0] - p[0]) / len, (q[1] - p[1]) / len];
+      const [mx, my] = [p[0] + ux * from, p[1] + uy * from];
+      svg.line(mx + uy * 9, my - ux * 9, mx - uy * 9, my + ux * 9, { color: '#7a1f1f', width: 4 });
+    };
+    const lifted = draw => {
+      svg.animated(draw, lifts, { dur: `${T}s`, keyTimes: keyTimes.map(t => t / T) });
+    };
+    const startLine = (x, B) => {
+      svg.motionGroup(
+        svg.capture(() =>
+          svg.line(x - 70, B[1] + 160, x + 70, B[1] + 160, {
+            color: BLACK,
+            width: 1.4,
+            dash: '6 4',
+          })
+        )
+      );
+    };
     // (a)
     let A = [135, 110];
     let B = [135, 410];
     ceilingMount(svg, ...A);
     pulley(svg, ...A, R);
-    pulley(svg, ...B, R);
-    load(svg, ...B);
     let K = [A[0], A[1] + R + 4];
     let leave = onCircle(A, wrap, 120);
     let free = [leave[0] - 112 * Math.cos(rad(30)), leave[1] + 112 * Math.sin(rad(30))];
-    rope(
-      svg,
-      `M ${K[0]} ${K[1]} L ${B[0] - wrap} ${B[1]} A ${wrap} ${wrap} 0 0 0 ${B[0] + wrap} ${B[1]} L ${A[0] + wrap} ${A[1]} A ${wrap} ${wrap} 0 0 0 ${leave[0]} ${leave[1]} L ${free[0]} ${free[1]}`
-    );
-    svg.circle(...K, 6, { fill: '#c9a45c', stroke: '#8a6a2c', width: 1.5 });
-    tension(svg, leave, free, 0.45, 1, { dx: -4, dy: -22 });
-    tension(svg, [B[0] - wrap, B[1]], K, 0.15, 0.5);
-    tension(svg, [B[0] + wrap, B[1]], [A[0] + wrap, A[1]], 0.15, 0.45, { dx: 20 });
+    lifted((h, moving) => {
+      const Bh = up(B, h);
+      pulley(svg, ...Bh, R);
+      load(svg, ...Bh);
+      rope(
+        svg,
+        `M ${K[0]} ${K[1]} L ${Bh[0] - wrap} ${Bh[1]} A ${wrap} ${wrap} 0 0 0 ${Bh[0] + wrap} ${Bh[1]} L ${A[0] + wrap} ${A[1]} A ${wrap} ${wrap} 0 0 0 ${leave[0]} ${leave[1]} L ${free[0]} ${free[1]}`
+      );
+      if (moving) mark(leave, free, 10 + 2 * h);
+      svg.circle(...K, 6, { fill: '#c9a45c', stroke: '#8a6a2c', width: 1.5 });
+      tension(svg, leave, free, 0.45, 1, { dx: -4, dy: -22 });
+      tension(svg, [Bh[0] - wrap, Bh[1]], up(K, h), 0.15, 0.5);
+      tension(svg, [Bh[0] + wrap, Bh[1]], [A[0] + wrap, A[1] - h], 0.15, 0.45, { dx: 20 });
+    });
+    startLine(B[0], B);
     svg.text(200, 160, 'MA ≈ 2', { size: 22, math: false, anchor: 'start' });
     pulleyFbd(svg, 262, 2);
     svg.text(B[0], 610, '(a)', { size: 20, math: false });
@@ -347,20 +431,25 @@ export default {
     svg.line(...A, ...C, { color: '#a9acb1', width: 12 });
     pulley(svg, ...A, R);
     pulley(svg, ...C, r);
-    pulley(svg, ...B, R);
-    load(svg, ...B);
     leave = onCircle(A, wrap, 120);
     free = [leave[0] - 112 * Math.cos(rad(30)), leave[1] + 112 * Math.sin(rad(30))];
-    K = [B[0] + 12, B[1] - R - 3];
-    rope(
-      svg,
-      `M ${free[0]} ${free[1]} L ${leave[0]} ${leave[1]} A ${wrap} ${wrap} 0 0 1 ${A[0] + wrap} ${A[1]} L ${B[0] + wrap} ${B[1]} A ${wrap} ${wrap} 0 0 1 ${B[0] - wrap} ${B[1]} L ${C[0] - r - 3} ${C[1]} A ${r + 3} ${r + 3} 0 0 1 ${C[0] + r + 3} ${C[1]} L ${K[0]} ${K[1]}`
-    );
-    svg.circle(...K, 6, { fill: '#c9a45c', stroke: '#8a6a2c', width: 1.5 });
-    tension(svg, leave, free, 0.45, 1, { dx: -4, dy: -22 });
-    tension(svg, [B[0] - wrap, B[1]], [C[0] - r - 3, C[1]], 0.15, 0.5);
-    tension(svg, K, [C[0] + r + 3, C[1]], 0.1, 0.45, { dx: -16 });
-    tension(svg, [B[0] + wrap, B[1]], [A[0] + wrap, A[1]], 0.15, 0.45, { dx: 20 });
+    lifted((h, moving) => {
+      const Bh = up(B, h);
+      pulley(svg, ...Bh, R);
+      load(svg, ...Bh);
+      const Kh = [Bh[0] + 12, Bh[1] - R - 3];
+      rope(
+        svg,
+        `M ${free[0]} ${free[1]} L ${leave[0]} ${leave[1]} A ${wrap} ${wrap} 0 0 1 ${A[0] + wrap} ${A[1]} L ${Bh[0] + wrap} ${Bh[1]} A ${wrap} ${wrap} 0 0 1 ${Bh[0] - wrap} ${Bh[1]} L ${C[0] - r - 3} ${C[1]} A ${r + 3} ${r + 3} 0 0 1 ${C[0] + r + 3} ${C[1]} L ${Kh[0]} ${Kh[1]}`
+      );
+      if (moving) mark(leave, free, 10 + 3 * h);
+      svg.circle(...Kh, 6, { fill: '#c9a45c', stroke: '#8a6a2c', width: 1.5 });
+      tension(svg, leave, free, 0.45, 1, { dx: -4, dy: -22 });
+      tension(svg, [Bh[0] - wrap, Bh[1]], [C[0] - r - 3, C[1] - h], 0.15, 0.5);
+      tension(svg, Kh, [C[0] + r + 3, C[1] - h], 0.1, 0.45, { dx: -16 });
+      tension(svg, [Bh[0] + wrap, Bh[1]], [A[0] + wrap, A[1] - h], 0.15, 0.45, { dx: 20 });
+    });
+    startLine(B[0], B);
     svg.text(565, 160, 'MA ≈ 3', { size: 22, math: false, anchor: 'start' });
     pulleyFbd(svg, 632, 3);
     svg.text(B[0], 610, '(b)', { size: 20, math: false });
@@ -373,21 +462,31 @@ export default {
     const rc = 26;
     ceilingMount(svg, ...A);
     pulley(svg, ...A, R);
-    svg.line(...D, ...B, { color: '#a9acb1', width: 12 });
-    pulley(svg, ...D, rc);
-    pulley(svg, ...B, rb);
-    load(svg, ...B);
     K = [A[0], A[1] + R + 4];
     const top = [B[0] - rb - 30, 225];
-    rope(
-      svg,
-      `M ${K[0]} ${K[1]} L ${D[0] + rc + 3} ${D[1]} A ${rc + 3} ${rc + 3} 0 0 1 ${D[0] - rc - 3} ${D[1]} L ${A[0] - wrap} ${A[1]} A ${wrap} ${wrap} 0 0 1 ${A[0] + wrap} ${A[1]} L ${B[0] + rb + 3} ${B[1]} A ${rb + 3} ${rb + 3} 0 0 1 ${B[0] - rb - 3} ${B[1]} L ${top[0]} ${top[1]}`
-    );
-    svg.circle(...K, 6, { fill: '#c9a45c', stroke: '#8a6a2c', width: 1.5 });
-    tension(svg, [B[0] - rb - 3, B[1]], top, 0.35, 1.08, { dx: -18 });
-    tension(svg, [D[0] - rc - 3, D[1]], [A[0] - wrap, A[1]], 0.15, 0.5, { dx: -20 });
-    tension(svg, [D[0] + rc + 3, D[1]], K, 0.12, 0.5, { dx: -14, dy: -6 });
-    tension(svg, [B[0] + rb + 3, B[1]], [A[0] + wrap, A[1]], 0.15, 0.45, { dx: 20 });
+    const reach = Math.hypot(top[0] - (B[0] - rb - 3), top[1] - B[1]);
+    lifted((h, moving) => {
+      const [Bh, Dh] = [up(B, h), up(D, h)];
+      svg.line(...Dh, ...Bh, { color: '#a9acb1', width: 12 });
+      pulley(svg, ...Dh, rc);
+      pulley(svg, ...Bh, rb);
+      load(svg, ...Bh);
+      const low = [Bh[0] - rb - 3, Bh[1]];
+      rope(
+        svg,
+        `M ${K[0]} ${K[1]} L ${Dh[0] + rc + 3} ${Dh[1]} A ${rc + 3} ${rc + 3} 0 0 1 ${Dh[0] - rc - 3} ${Dh[1]} L ${A[0] - wrap} ${A[1]} A ${wrap} ${wrap} 0 0 1 ${A[0] + wrap} ${A[1]} L ${Bh[0] + rb + 3} ${Bh[1]} A ${rb + 3} ${rb + 3} 0 0 1 ${low[0]} ${low[1]} L ${top[0]} ${top[1]}`
+      );
+      // The free run shortens as the block rises; its arrow and mark keep
+      // their distances from the top.
+      const len = Math.hypot(top[0] - low[0], top[1] - low[1]);
+      if (moving) mark(top, low, reach - 15 - 4 * h);
+      svg.circle(...K, 6, { fill: '#c9a45c', stroke: '#8a6a2c', width: 1.5 });
+      tension(svg, low, top, 1 - (0.65 * reach) / len, 1 + (0.08 * reach) / len, { dx: -18 });
+      tension(svg, [Dh[0] - rc - 3, Dh[1]], [A[0] - wrap, A[1] - h], 0.15, 0.5, { dx: -20 });
+      tension(svg, [Dh[0] + rc + 3, Dh[1]], up(K, h), 0.12, 0.5, { dx: -14, dy: -6 });
+      tension(svg, [Bh[0] + rb + 3, Bh[1]], [A[0] + wrap, A[1] - h], 0.15, 0.45, { dx: 20 });
+    });
+    startLine(B[0], B);
     svg.text(925, 200, 'MA ≈ 4', { size: 22, math: false, anchor: 'start' });
     pulleyFbd(svg, 988, 4);
     svg.text(B[0], 610, '(c)', { size: 20, math: false });

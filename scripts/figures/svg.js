@@ -163,6 +163,42 @@ export function localArrow(
   const { base, points } = frames[0];
   return `<line x1="0" y1="0" x2="${fmt(base[0])}" y2="${fmt(base[1])}" stroke="${color}" stroke-width="${width}" stroke-linecap="round">${shaft}</line><polygon points="${points}" fill="${color}">${headAnim}</polygon>`;
 }
+
+/**
+ * One drawing that moves through `frames`: markup snapshots with the same
+ * elements and text, differing only in attribute values. Each attribute that
+ * changes gets an <animate> through its values, in step with `dur`.
+ */
+export function morph(frames, { dur = '8s', keyTimes } = {}) {
+  const TAG = /<[^>]+>/g;
+  const ATTR = /([\w:-]+)="([^"]*)"/g;
+  const parts = frames.map(f => ({ tags: f.match(TAG) || [], texts: f.split(TAG) }));
+  const [first] = parts;
+  for (const p of parts) {
+    if (p.tags.length !== first.tags.length || p.texts.join('\0') !== first.texts.join('\0')) {
+      throw new Error('morph: frames differ in structure or text');
+    }
+  }
+  let out = first.texts[0];
+  first.tags.forEach((tag, i) => {
+    const names = [...tag.matchAll(ATTR)].map(m => m[1]);
+    const lists = parts.map(p => [...p.tags[i].matchAll(ATTR)].map(m => m[2]));
+    const anims = names
+      .map((name, k) => {
+        const values = lists.map(l => l[k]);
+        if (values.every(v => v === values[0])) return '';
+        if (name === 'transform') throw new Error('morph: transform cannot be animated');
+        return smilAnimate(name, values, { dur, keyTimes });
+      })
+      .join('');
+    if (!anims) out += tag;
+    else if (tag.endsWith('/>'))
+      out += `${tag.slice(0, -2)}>${anims}</${tag.match(/^<([\w:-]+)/)[1]}>`;
+    else out += `${tag}${anims}`;
+    out += first.texts[i + 1];
+  });
+  return out;
+}
 export const escapeXml = s =>
   String(s)
     .replace(/&/g, '&amp;')
@@ -357,6 +393,40 @@ export class Svg {
     Object.assign(this, { width, height, title, desc });
     this.items = [];
     this.motion = false;
+    this.stills = false;
+  }
+
+  /** Markup that `draw` adds, returned instead of kept. */
+  capture(draw) {
+    const kept = this.items;
+    this.items = [];
+    try {
+      draw();
+      return this.items.join('');
+    } finally {
+      this.items = kept;
+    }
+  }
+
+  /** Part of the still figure that a motion overlay replaces while it plays. */
+  still(draw) {
+    this.stills = true;
+    return this.add(`<g class="still">${this.capture(draw)}</g>`);
+  }
+
+  /**
+   * `draw(frame, moving)` through `frames`. The still figure shows
+   * `frames[still]`; the overlay morphs through all of them, drawn with
+   * `moving` true so it can add marks that only matter in motion.
+   */
+  animated(draw, frames, { still = 0, dur = '8s', keyTimes } = {}) {
+    this.still(() => draw(frames[still], false));
+    return this.motionGroup(
+      morph(
+        frames.map(f => this.capture(() => draw(f, true))),
+        { dur, keyTimes }
+      )
+    );
   }
 
   /**
@@ -648,8 +718,8 @@ export class Svg {
     const style = this.motion
       ? `<style>
 .motion{opacity:0}
-@media (prefers-reduced-motion:no-preference){.motion{opacity:1}}
-@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}${this.stills ? '.still{opacity:0}' : ''}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}${this.stills ? '.still{opacity:1 !important}' : ''}}
 </style>`
       : '';
     return [

@@ -4,7 +4,7 @@
  * inelastic collisions, and the two-dimensional collision diagrams of
  * section 8.6.
  */
-import { COLORS, Plot, Svg, rad } from './svg.js';
+import { COLORS, Plot, Svg, morph, rad } from './svg.js';
 
 const BLACK = COLORS.black;
 const VEL = COLORS.velocity;
@@ -236,32 +236,68 @@ export default {
     const unit = 40;
     const s1 = 80;
     const s2 = 115; // the cube root of 3 times s1
-    const panel = (y0, after) => {
-      system(svg, 380, y0 + 245, 360, 128, { label: [590, y0 + 30], at: 38 });
-      svg.text(85, y0 + 128, after ? 'After' : 'Before', {
-        size: 24,
-        math: false,
-        anchor: 'start',
-      });
-      svg.text(380, y0 + 160, after ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 + p_2 = p_{tot}', {
-        size: 26,
-      });
-      const base = y0 + 322;
-      surface(svg, 70, 715, base);
-      svg.text(380, base + 28, 'Frictionless surface', { size: 22, math: false });
-      const x1 = after ? 170 : 130;
-      const x2 = after ? 460 : 410;
+    // Animation: the Before blocks run from where they are drawn until m1
+    // meets m2, then the After blocks leave that contact and stop where they
+    // are drawn. One speed scale serves both panels, so the motion keeps the
+    // ratios of the arrows. The Before arrows fade as the blocks start, before
+    // the long v1 arrow can run over m2.
+    const speed = 30; // pixels per second per velocity unit
+    const before = [130, 410];
+    const after = [170, 460];
+    const tIn = (before[1] - before[0] - s1) / (3.5 * speed);
+    const tOut = (after[1] - after[0] - s1) / (3.5 * speed);
+    const [hold, fade, T] = [0.6, 0.45, 7];
+    const dur = `${T}s`;
+    const moveIn = t => [before[0] + 4 * speed * t, before[1] + 0.5 * speed * t];
+    const moveOut = t => [
+      after[0] + 1.25 * speed * (tOut - t),
+      after[1] - 2.25 * speed * (tOut - t),
+    ];
+    const pair = (base, isAfter, [x1, x2, shown]) => {
       block(svg, x1, base, s1, 'm_1');
       block(svg, x2, base, s2, 'm_2');
       const y1 = base - s1 / 2;
       const y2 = base - s2 / 2;
-      if (after) {
+      svg.add(`<g opacity="${shown}">`);
+      if (isAfter) {
         velocity(svg, x1, x1 - 1.25 * unit, y1, 'v′_1');
         velocity(svg, x2 + s2, x2 + s2 + 2.25 * unit, y2, 'v′_2');
       } else {
         velocity(svg, x1 + s1, x1 + s1 + 4 * unit, y1, 'v_1');
         velocity(svg, x2 + s2, x2 + s2 + 0.5 * unit, y2);
         svg.text(x2 + s2 + 0.5 * unit + 8, y2, 'v_2', { size: 24, anchor: 'start' });
+      }
+      svg.add('</g>');
+    };
+    const panel = (y0, isAfter) => {
+      system(svg, 380, y0 + 245, 360, 128, { label: [590, y0 + 30], at: 38 });
+      svg.text(85, y0 + 128, isAfter ? 'After' : 'Before', {
+        size: 24,
+        math: false,
+        anchor: 'start',
+      });
+      svg.text(380, y0 + 160, isAfter ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 + p_2 = p_{tot}', {
+        size: 26,
+      });
+      const base = y0 + 322;
+      surface(svg, 70, 715, base);
+      svg.text(380, base + 28, 'Frictionless surface', { size: 22, math: false });
+      const draw = f => pair(base, isAfter, f);
+      if (isAfter) {
+        const contact = [...moveOut(0), 1];
+        const end = [...after, 1];
+        svg.animated(draw, [contact, contact, end, end], {
+          still: 2,
+          dur,
+          keyTimes: [0, (hold + tIn) / T, (hold + tIn + tOut) / T, 1],
+        });
+      } else {
+        const start = [...before, 1];
+        const contact = [...moveIn(tIn), 0];
+        svg.animated(draw, [start, start, [...moveIn(fade), 0], contact, contact], {
+          dur,
+          keyTimes: [0, hold / T, (hold + fade) / T, (hold + tIn) / T, 1],
+        });
       }
     };
     panel(0, false);
@@ -291,10 +327,34 @@ export default {
     svg.text(470, 84, 'net **F** = 0', { size: 24, math: false });
     svg.text(235, 155, 'p_1 + p_2 = 0', { size: 25 });
     surface(svg, 55, 520, base);
-    block(svg, 75, base, s, 'm');
-    block(svg, 405, base, s, 'm');
-    velocity(svg, 75 + s, 245, base - s / 2, 'v');
-    velocity(svg, 395, 325, base - s / 2, '−v');
+    // Animation: each block closes the gap at speed v until they meet. The
+    // arrows fade before their heads cross.
+    const speed = 60; // pixels per second
+    const gap = 405 - (75 + s);
+    const [hold, fade, T] = [0.6, 0.5, 5.5];
+    const meet = hold + gap / (2 * speed);
+    const toward = ([dx, shown]) => {
+      block(svg, 75 + dx, base, s, 'm');
+      block(svg, 405 - dx, base, s, 'm');
+      svg.add(`<g opacity="${shown}">`);
+      velocity(svg, 75 + s + dx, 245 + dx, base - s / 2, 'v');
+      velocity(svg, 395 - dx, 325 - dx, base - s / 2, '−v');
+      svg.add('</g>');
+    };
+    svg.animated(
+      toward,
+      [
+        [0, 1],
+        [0, 1],
+        [speed * fade, 0],
+        [gap / 2, 0],
+        [gap / 2, 0],
+      ],
+      {
+        dur: `${T}s`,
+        keyTimes: [0, hold / T, (hold + fade) / T, meet / T, 1],
+      }
+    );
     svg.text(285, 300, 'Frictionless surface', { size: 22, math: false });
     svg.text(285, 352, '(a)', { size: 22, math: false });
     // (b)
@@ -320,24 +380,59 @@ export default {
       desc: 'Before: on a frictionless air track, glider m1, carrying a compressed spring, moves right with velocity v1 = 2.00 m/s toward glider m2, which moves left with v2 = −0.500 m/s. Net F = 0 and p1 + p2 = ptot. After: the spring has uncoiled, m1 moves left with v1′ = −4.00 m/s, and m2 moves right with v2′ = 3.70 m/s; p1′ + p2′ = ptot and KE′int > KEint. The velocity arrows are drawn to scale. Each panel is circled as the system of interest.',
     });
     const unit = 45; // pixels per m/s
-    const panel = (y0, after) => {
+    // Animation: the Before gliders close until the spring touches m2; the
+    // After gliders leave that contact, the spring uncoiling against m2 until
+    // it reaches full length, and stop where they are drawn.
+    const speed = 30; // pixels per second per m/s
+    const before = [95, 555];
+    const after = [185, 560];
+    const [short, long] = [110, 200]; // spring length, compressed and uncoiled
+    const tIn = (before[1] - before[0] - 150 - short) / (2.5 * speed);
+    const tOut = (after[1] - after[0] - 150 - short) / (7.7 * speed);
+    const tFull = (long - short) / (7.7 * speed);
+    const [hold, T] = [0.6, 5.5];
+    const dur = `${T}s`;
+    const moveIn = t => [before[0] + 2 * speed * t, before[1] - 0.5 * speed * t, short];
+    const moveOut = t => {
+      const x1 = after[0] + 4 * speed * (tOut - t);
+      const x2 = after[1] - 3.7 * speed * (tOut - t);
+      return [x1, x2, Math.min(x2 - x1 - 150, long)];
+    };
+    const pair = (base, isAfter, [x1, x2, length]) => {
+      glider(svg, x1, base, 'm_1');
+      glider(svg, x2, base, 'm_2');
+      svg.spring(x1 + 150, x1 + 150 + length, base - 34);
+      const vy = base - 80;
+      const [v1, v2] = isAfter ? [-4, 3.7] : [2, -0.5];
+      velocity(svg, x1 + 75, x1 + 75 + v1 * unit, vy, isAfter ? 'v′_1' : 'v_1');
+      velocity(svg, x2 + 75, x2 + 75 + v2 * unit, vy, isAfter ? 'v′_2' : 'v_2');
+    };
+    const panel = (y0, isAfter) => {
       const [cx, cy, rx, ry] = [440, y0 + 195, 370, 145];
       system(svg, cx, cy, rx, ry, { label: [820, y0 + 22], at: 35 });
-      svg.text(160, y0 + 22, after ? 'After' : 'Before', { size: 24, math: false });
-      svg.text(440, y0 + 98, after ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 + p_2 = p_{tot}', {
+      svg.text(160, y0 + 22, isAfter ? 'After' : 'Before', { size: 24, math: false });
+      svg.text(440, y0 + 98, isAfter ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 + p_2 = p_{tot}', {
         size: 26,
       });
       const base = y0 + 225;
       track(svg, 60, 800, base);
-      const x1 = after ? 185 : 95;
-      const x2 = after ? 560 : 555;
-      glider(svg, x1, base, 'm_1');
-      glider(svg, x2, base, 'm_2');
-      svg.spring(x1 + 150, x1 + (after ? 350 : 260), base - 34);
-      const vy = base - 80;
-      const [v1, v2] = after ? [-4, 3.7] : [2, -0.5];
-      velocity(svg, x1 + 75, x1 + 75 + v1 * unit, vy, after ? 'v′_1' : 'v_1');
-      velocity(svg, x2 + 75, x2 + 75 + v2 * unit, vy, after ? 'v′_2' : 'v_2');
+      const draw = f => pair(base, isAfter, f);
+      if (isAfter) {
+        const contact = moveOut(0);
+        const end = moveOut(tOut);
+        svg.animated(draw, [contact, contact, moveOut(tFull), end, end], {
+          still: 3,
+          dur,
+          keyTimes: [0, (hold + tIn) / T, (hold + tIn + tFull) / T, (hold + tIn + tOut) / T, 1],
+        });
+      } else {
+        const start = moveIn(0);
+        const contact = moveIn(tIn);
+        svg.animated(draw, [start, start, contact, contact], {
+          dur,
+          keyTimes: [0, hold / T, (hold + tIn) / T, 1],
+        });
+      }
       svg.text(700, base + 75, 'Frictionless surface', { size: 22, math: false });
       svg.squiggle(610, base + 66, 470, base + 4);
       return base;
@@ -368,30 +463,97 @@ export default {
     svg.line(O[0] - 92, O[1], 770, O[1], guide);
 
     const along = (deg, d) => [O[0] + d * Math.cos(rad(deg)), O[1] - d * Math.sin(rad(deg))];
-    const leg = (deg, d, color, ghost, label) => {
-      svg.line(...O, ...along(deg, d - r), guide);
-      mass(svg, ...along(deg, d - 70), '', { r, color: ghost });
-      mass(svg, ...along(deg, d - 35), '', { r, color: ghost });
-      mass(svg, ...along(deg, d), label, { r, color });
-      const tip = along(deg, d + 105);
-      svg.arrow(...along(deg, d + r + 4), ...tip, { color: VEL, width: 4, head: 18 });
-      return tip;
+    svg.line(...O, ...along(32, 250 - r), guide);
+    svg.line(...O, ...along(-26, 250 - r), guide);
+    svg.still(() => {
+      const leg = (deg, d, color, ghost, label) => {
+        mass(svg, ...along(deg, d - 70), '', { r, color: ghost });
+        mass(svg, ...along(deg, d - 35), '', { r, color: ghost });
+        mass(svg, ...along(deg, d), label, { r, color });
+        const tip = along(deg, d + 105);
+        svg.arrow(...along(deg, d + r + 4), ...tip, { color: VEL, width: 4, head: 18 });
+        return tip;
+      };
+      const t1 = leg(32, 250, PURPLE, GHOST, 'm_1');
+      const t2 = leg(-26, 250, ORANGE, GHOST_ORANGE, 'm_2');
+      svg.text(t1[0] - 50, t1[1] - 18, '**v′**_1', { size: 26 });
+      svg.text(t2[0] + 10, t2[1] - 12, '**v′**_2', { size: 26, anchor: 'start' });
+      mass(svg, 55, O[1], '', { r, color: GHOST });
+      mass(svg, 90, O[1], '', { r, color: GHOST });
+      mass(svg, 125, O[1], 'm_1', { r });
+      svg.arrow(125 + r + 4, O[1], 320, O[1], { color: VEL, width: 4, head: 18 });
+      svg.text(245, O[1] - 30, '**v**_1', { size: 26 });
+      mass(svg, ...O, 'm_2', { r, color: ORANGE });
+    });
+
+    // Animation: m1 comes in along the axis until it touches m2, then both
+    // leave and reach the places the still draws them at the same time. The
+    // masses are point-like in the drawing, so m1 leaves from its contact
+    // point at about 25° and meets the θ1 line where it is drawn. The speeds
+    // conserve momentum along both axes for m2 ≈ 1.2 m1 (the figure leaves the
+    // masses unstated), so m1 comes in about twice as fast as either leaves.
+    const start = [125, O[1]];
+    const contact = [O[0] - 2 * r, O[1]];
+    const end1 = along(32, 250);
+    const end2 = along(-26, 250);
+    const tOut = 3;
+    const out1 = [end1[0] - contact[0], end1[1] - contact[1]];
+    const v1Out = Math.hypot(...out1) / tOut;
+    const v2Out = 250 / tOut;
+    const away = Math.atan2(-out1[1], out1[0]);
+    const m2PerM1 = (v1Out * Math.sin(away)) / (v2Out * Math.sin(rad(26)));
+    const v1In = v1Out * Math.cos(away) + m2PerM1 * v2Out * Math.cos(rad(26));
+    const tIn = (contact[0] - start[0]) / v1In;
+    const [hold, T] = [0.6, 6];
+    const dir1 = [Math.cos(away), -Math.sin(away)];
+    const dir2 = [Math.cos(rad(-26)), -Math.sin(rad(-26))];
+    const ray = (p, u, d) => [p[0] + u[0] * d, p[1] + u[1] * d];
+    const lerp = (p, q, s) => [p[0] + (q[0] - p[0]) * s, p[1] + (q[1] - p[1]) * s];
+    const scene = ([p1, p2, shownIn, shownOut]) => {
+      svg.add(`<g opacity="${shownIn}">`);
+      svg.arrow(p1[0] + r + 4, p1[1], p1[0] + 195, p1[1], { color: VEL, width: 4, head: 18 });
+      svg.text(p1[0] + 120, p1[1] - 30, '**v**_1', { size: 26 });
+      svg.add(`</g><g opacity="${shownOut}">`);
+      const t1 = ray(p1, dir1, 105);
+      const t2 = ray(p2, dir2, 105);
+      svg.arrow(...ray(p1, dir1, r + 4), ...t1, { color: VEL, width: 4, head: 18 });
+      svg.arrow(...ray(p2, dir2, r + 4), ...t2, { color: VEL, width: 4, head: 18 });
+      svg.text(t1[0] - 50, t1[1] - 18, '**v′**_1', { size: 26 });
+      svg.text(t2[0] + 10, t2[1] - 12, '**v′**_2', { size: 26, anchor: 'start' });
+      svg.add('</g>');
+      mass(svg, ...p1, 'm_1', { r });
+      mass(svg, ...p2, 'm_2', { r, color: ORANGE });
     };
-    const t1 = leg(32, 250, PURPLE, GHOST, 'm_1');
-    const t2 = leg(-26, 250, ORANGE, GHOST_ORANGE, 'm_2');
-    svg.text(t1[0] - 50, t1[1] - 18, '**v′**_1', { size: 26 });
-    svg.text(t2[0] + 10, t2[1] - 12, '**v′**_2', { size: 26, anchor: 'start' });
+    // The incoming arrow fades as its head nears m2; the outgoing ones appear
+    // just after contact.
+    const fadeFrom = (150 - start[0]) / v1In;
+    const fadeTo = (190 - start[0]) / v1In;
+    const inAt = t => [lerp(start, contact, t / tIn), O];
+    const outAt = s => [lerp(contact, end1, s), lerp(O, end2, s)];
+    const frames = [
+      [...inAt(0), 1, 0],
+      [...inAt(0), 1, 0],
+      [...inAt(fadeFrom), 1, 0],
+      [...inAt(fadeTo), 0, 0],
+      [...inAt(tIn), 0, 0],
+      [...outAt(0.1 / tOut), 0, 1],
+      [...outAt(1), 0, 1],
+      [...outAt(1), 0, 1],
+    ];
+    const times = [0, hold, hold + fadeFrom, hold + fadeTo, hold + tIn, hold + tIn + 0.1];
+    times.push(hold + tIn + tOut, T);
+    svg.motionGroup(
+      morph(
+        frames.map(f => svg.capture(() => scene(f))),
+        { dur: `${T}s`, keyTimes: times.map(t => t / T) }
+      )
+    );
+    // Angles on top, so the moving masses pass under them.
     svg.arc(...O, 95, 0, 32, { color: BLACK, width: 2 });
     svg.arc(...O, 95, -26, 0, { color: BLACK, width: 2 });
     svg.text(O[0] + 120 * Math.cos(rad(16)), O[1] - 120 * Math.sin(rad(16)), 'θ_1', { size: 26 });
     svg.text(O[0] + 120 * Math.cos(rad(-13)), O[1] - 120 * Math.sin(rad(-13)), 'θ_2', { size: 26 });
 
-    mass(svg, 55, O[1], '', { r, color: GHOST });
-    mass(svg, 90, O[1], '', { r, color: GHOST });
-    mass(svg, 125, O[1], 'm_1', { r });
-    svg.arrow(125 + r + 4, O[1], 320, O[1], { color: VEL, width: 4, head: 18 });
-    svg.text(245, O[1] - 30, '**v**_1', { size: 26 });
-    mass(svg, ...O, 'm_2', { r, color: ORANGE });
     svg.text(235, 212, '**v**_2 = 0', { size: 26 });
     svg.text(235, 380, 'net **F** = 0', { size: 26, math: false });
 
@@ -406,7 +568,6 @@ export default {
     svg.squiggle(850, 442, 765, 380, { waves: 1, amp: 6 });
     return svg.render();
   },
-
   // 8.6 — Example 1: m1 scatters off an unseen m2 inside a dark room
   Figure_08_06_02: () => {
     const svg = new Svg({

@@ -7,7 +7,9 @@ import {
   Frame,
   Plot,
   Svg,
+  fmt,
   localArrow,
+  morph,
   pathThrough,
   rad,
   smilMotion,
@@ -934,10 +936,45 @@ export default {
     svg.add('</g>');
     svg.path(track.d, { color: BLACK, width: 10 });
     svg.path(track.d, { color: '#3f9a2b', width: 5 });
+    // The car, drawn about the middle of its wheelbase on the track.
+    const car = () => {
+      svg.rect(-27, -30, 54, 22, { fill: '#f2a7a0', stroke: '#b5544b', width: 2, rx: 8 });
+      svg.circle(-15, -7, 6, { fill: '#555555' });
+      svg.circle(15, -7, 6, { fill: '#555555' });
+    };
     // The car at the start, sitting on the crest.
-    svg.rect(124, top - 30, 54, 22, { fill: '#f2a7a0', stroke: '#b5544b', width: 2, rx: 8 });
-    svg.circle(136, top - 7, 6, { fill: '#555555' });
-    svg.circle(166, top - 7, 6, { fill: '#555555' });
+    svg.still(() => {
+      svg.add(`<g transform="translate(151 ${top})">`);
+      car();
+      svg.add('</g>');
+    });
+    // Animation: after a moment at rest, the car rolls off the crest with
+    // v = √(2g Δh) in real time at the drawn scale, from a nudge of 2 m/s, and
+    // leaves at the right edge. Samples are equal times apart.
+    const g = 9.8;
+    const nudge = 2;
+    const [hold, dt] = [0.8, 0.04];
+    const xs = [];
+    for (let x = 151; x <= 1080; x += 1) xs.push(x);
+    const ys = xs.map(x => (x > 1020 ? finish : track.y(x)));
+    const ts = [0];
+    for (let k = 1; k < xs.length; k += 1) {
+      const ds = Math.hypot(xs[k] - xs[k - 1], ys[k] - ys[k - 1]) / scale;
+      const v = Math.sqrt(nudge ** 2 + (2 * g * ((ys[k] + ys[k - 1]) / 2 - top)) / scale);
+      ts.push(ts[k - 1] + ds / v);
+    }
+    const ride = Array.from({ length: Math.round(hold / dt) }, () => [xs[0], ys[0]]);
+    for (let t = 0, k = 0; t < ts.at(-1); t += dt) {
+      while (ts[k + 1] < t) k += 1;
+      const u = (t - ts[k]) / (ts[k + 1] - ts[k]);
+      ride.push([xs[k] + (xs[k + 1] - xs[k]) * u, ys[k] + (ys[k + 1] - ys[k]) * u]);
+    }
+    ride.push([xs.at(-1), ys.at(-1)]);
+    const run = timedPath(ride);
+    const runDur = `${fmt(dt * (ride.length - 1))}s`;
+    svg.motionGroup(
+      `<g>${smilMotion(run.path, { dur: runDur, rotate: 'auto', keyPoints: run.keyPoints, keyTimes: run.keyTimes })}${svg.capture(car)}</g>`
+    );
     svg.text(151, 18, 'Start', { size: 22, math: false });
     svg.text(200, top - 16, 'v_0 = 0', { size: 22, anchor: 'start' });
 
@@ -983,10 +1020,22 @@ export default {
     const x1 = x0 + stretch;
     svg.polygon(wall(355), WALL);
     svg.line(410, 68, 420, 68, { color: '#333333', width: 2.2 });
-    svg.spring(420, x1 - 14, 68, { n: 10, r: 12 });
-    svg.line(x1 - 14, 68, x1 - 4, 68, { color: '#333333', width: 2.2 });
-    svg.circle(x1, 68, 6, end);
-    svg.line(x1, 75, x1, 225, guide);
+    // Animation: the spring stretches steadily from 0 to x, while in (c) the
+    // area under F = kx fills in up to the same point; then it relaxes.
+    const T = 7;
+    const stretches = [0, 0, stretch, stretch, 0];
+    const timing = { dur: `${T}s`, keyTimes: [0, 0.6, 3.4, 5.6, T].map(t => t / T) };
+    svg.animated(
+      s => {
+        const xs = x0 + s;
+        svg.spring(420, xs - 14, 68, { n: 10, r: 12 });
+        svg.line(xs - 14, 68, xs - 4, 68, { color: '#333333', width: 2.2 });
+        svg.circle(xs, 68, 6, end);
+        svg.line(xs, 75, xs, 225, guide);
+      },
+      stretches,
+      { still: 2, ...timing }
+    );
     svg.line(x0, 190, x0, 225, guide);
     svg.arrow(x0 + 1, 202, x1 - 1, 202, { color: BLACK, width: 1.3, head: 9, start: true });
     svg.rect((x0 + x1) / 2 - 9, 192, 18, 20, { fill: WALL.fill });
@@ -1007,18 +1056,40 @@ export default {
     const k = 0.787; // slope of the line in pixels
     const X = 905;
     const Y = O[1] - k * (X - O[0]);
-    svg.polygon(
-      [
-        [O[0], O[1]],
-        [X, O[1]],
-        [X, Y],
-      ],
-      { fill: '#b9dde2' }
+    const reach = s => O[0] + ((X - O[0]) * s) / stretch;
+    svg.animated(
+      s => {
+        const Xs = reach(s);
+        svg.polygon(
+          [
+            [O[0], O[1]],
+            [Xs, O[1]],
+            [Xs, O[1] - k * (Xs - O[0])],
+          ],
+          { fill: '#b9dde2' }
+        );
+      },
+      stretches,
+      { still: 2, ...timing }
     );
     svg.arrow(O[0], O[1], 985, O[1], { color: BLACK, width: 1.5, head: 12 });
     svg.arrow(O[0], O[1], O[0], 8, { color: BLACK, width: 1.5, head: 12 });
     svg.line(...O, 972, O[1] - k * (972 - O[0]), { color: '#a01b3c', width: 4 });
     svg.line(X, Y, X, O[1], { color: '#2b8a99', width: 2.5, dash: '7 4' });
+    svg.motionGroup(
+      morph(
+        stretches.map(s =>
+          svg.capture(() =>
+            svg.circle(reach(s), O[1] - k * (reach(s) - O[0]), 6, {
+              fill: '#a01b3c',
+              stroke: '#ffffff',
+              width: 2,
+            })
+          )
+        ),
+        timing
+      )
+    );
     svg.vdimension(927, Y, O[1], '', { tick: 16 });
     svg.text(948, (Y + O[1]) / 2, 'kx', { size: 22 });
     svg.line(O[0], O[1] + 6, O[0], O[1] + 30, { color: BLACK, width: 1.3 });
