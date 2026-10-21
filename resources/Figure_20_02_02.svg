@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="380" viewBox="0 0 680 380" role="img" aria-labelledby="title desc">
+<title id="title">The voltage across the resistor equals the battery voltage</title>
+<desc id="desc">A battery drives current I = V/R clockwise through a resistor R. A voltmeter connected across the resistor reads the voltage drop V = IR = 18 V, which equals the battery’s output voltage.</desc>
+<rect width="680" height="380" fill="#ffffff"/>
+<polyline points="170,40 400,40 400,300 170,300 170,40" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="170" y1="150" x2="170" y2="110" stroke="#ffffff" stroke-width="7"/>
+<line x1="170" y1="150" x2="170" y2="137" stroke="#222222" stroke-width="2"/>
+<line x1="170" y1="123" x2="170" y2="110" stroke="#222222" stroke-width="2"/>
+<line x1="153" y1="137" x2="187" y2="137" stroke="#c62828" stroke-width="5"/>
+<line x1="140" y1="123" x2="200" y2="123" stroke="#c62828" stroke-width="3"/>
+<text x="130" y="104.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="140" y="174.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<line x1="400" y1="85" x2="400" y2="175" stroke="#ffffff" stroke-width="7"/>
+<line x1="400" y1="85" x2="400" y2="95" stroke="#222222" stroke-width="2"/>
+<line x1="400" y1="165" x2="400" y2="175" stroke="#222222" stroke-width="2"/>
+<polyline points="400,95 388,100.83 412,112.5 388,124.17 412,135.83 388,147.5 412,159.17 400,165" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="420" y="138.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<polyline points="228.72,88.58 231.81,85.1 235.1,81.81 238.58,78.72 242.23,75.83 246.04,73.16 250,70.72 254.1,68.51 258.31,66.54 262.64,64.82 267.06,63.36 271.55,62.16 276.11,61.22 280.71,60.54 285.35,60.14 290,60 294.65,60.14 299.29,60.54 303.89,61.22 308.45,62.16 312.94,63.36 317.36,64.82 321.69,66.54 325.9,68.51 330,70.72 333.96,73.16 337.77,75.83 341.42,78.72" fill="none" stroke="#1f77c8" stroke-width="4" stroke-linejoin="round"/>
+<line x1="337.77" y1="75.83" x2="343.9" y2="81.62" stroke="#1f77c8" stroke-width="4"/>
+<polygon points="351.28,88.58 340.12,84.17 346.24,77.69" fill="#1f77c8"/>
+<polyline points="400,70 620,70 620,150" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="400,190 470,190 470,262 560,262 560,230" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<rect x="500" y="150" width="160" height="80" fill="#dbe6f2" stroke="#5f7a99" stroke-width="1.8"/>
+<rect x="545" y="162" width="70" height="34" fill="#ffffff" stroke="#444444" stroke-width="1.4"/>
+<line x1="560" y1="190" x2="600" y2="172" stroke="#222222" stroke-width="1.5"/>
+<text x="580" y="220.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Voltmeter</tspan></text>
+<text x="416" y="65.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="416" y="211.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="40" y="69.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="90" y="52.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="75" y1="63" x2="105" y2="63" stroke="#222222" stroke-width="1.6"/>
+<text x="90" y="92.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="285" y="358.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">IR</tspan><tspan font-style="normal"> = 18 </tspan><tspan font-style="normal">V</tspan></text>
+</svg>

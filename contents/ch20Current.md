@@ -39,7 +39,7 @@ named for the French physicist André-Marie Ampère (1775–1836). Since $$I=\De
 Not only are fuses and circuit breakers rated in amperes (or amps), so are many
 electrical appliances.
 
-![Charges are shown as small spheres moving through a section of a conducting wire. The direction of movement of charge is indicated by arrows along the length of the conductor toward the right. The cross-sectional area of the wire is labeled as A. The current is equal to the flow of charge.](../resources/Figure_20_01_01.jpg 'The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.')
+![Charges q move to the right along a section of wire and pass through a cross-sectional area A. The current is the charge that flows through A per unit time; one ampere is one coulomb through the area each second.](../resources/Figure_20_01_01.svg 'The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.')
 {: #Figure1}
 
 ::: example {"id":"Example1","class":"example"}
@@ -144,7 +144,7 @@ other; electrons flow due to mutually repulsive electrostatic forces.
 
 :::
 
-![In part a, positive charges move toward the right through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, in the same direction as movement of positive charge. The current direction is also toward the right, shown by an arrow. In part b, negative charges move toward the left through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, opposite the direction of movement of negative charge. The current direction is also toward the right, shown by an arrow.](../resources/Figure_20_01_03.jpg 'Current ( I ) is the rate at which charge moves through an area ( A ) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ')
+![(a) Positive charges move to the right, in the direction of the electric field E, through a cross-sectional area A of a wire; the conventional current I is also to the right. (b) Negative charges move to the left, opposite the field, through the area A; the conventional current I is still to the right, in the direction of the field.](../resources/Figure_20_01_03.svg 'Current ( I ) is the rate at which charge moves through an area ( A ) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ')
 {: #Figure3}
 
 ::: example {"id":"Example2","class":"example"}
@@ -229,7 +229,7 @@ an estimate of the density of free electrons in a conductor, we can calculate
 the drift velocity for a given current. The larger the density, the lower the
 velocity required for a given current.
 
-![The diagram shows a section of a conducting wire. A free electron is shown in the wire, and the path of the electron is shown as zigzag arrows along the length of the wire. The path is shown beginning at one end of the wire and ending at the other end. The drift velocity, v sub d, is indicated by an arrow toward the right, opposite the direction of the electric field E and the current I.](../resources/Figure_20_01_05.jpg 'Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of the free charges is called the drift velocity, ( v_{d} ), and it is in the direction opposite to the electric field for electrons. The collisions normally transfer energy to the conductor, requiring a constant supply of energy to maintain a steady current.')
+![A free electron e⁻ in a wire moves along a random zigzag path, changing direction at each collision with other electrons and atoms. Its average velocity, the drift velocity v_d, is to the right, opposite the electric field E, which points left. The conventional current I is in the direction of E.](../resources/Figure_20_01_05.svg 'Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of the free charges is called the drift velocity, ( v_{d} ), and it is in the direction opposite to the electric field for electrons. The collisions normally transfer energy to the conductor, requiring a constant supply of energy to maintain a steady current.')
 {: #Figure5}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -290,7 +290,7 @@ where $$I $$ is the current through a wire of cross-sectional area $$A $$ made
 of a material with a free charge density $$n $$ . The carriers of the current
 each have charge $$q $$ and move with a drift velocity of magnitude $${v}_{\text{d}} $$.
 
-![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg 'All the charges in the shaded volume of this wire move out in a time ( t ) , having a drift velocity of magnitude ( v_\\text{d}=x/t ) . See text for further discussion.')
+![Charges q drift to the right with drift velocity v_d through a wire of cross-sectional area A. All the charges in the shaded volume Ax, between the cross section at the left and the dashed cross section a distance x = v_d t to its right, pass through the right-hand cross section in time t.](../resources/Figure_20_01_06.svg 'All the charges in the shaded volume of this wire move out in a time ( t ) , having a drift velocity of magnitude ( v_\\text{d}=x/t ) . See text for further discussion.')
 {: #Figure6}
 
 Note that simple drift velocity is not the entire story. The speed of an

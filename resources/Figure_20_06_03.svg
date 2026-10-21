@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380" role="img" aria-labelledby="title desc">
+<title id="title">A circuit with a fuse or circuit breaker</title>
+<desc id="desc">An AC voltage source V, a fuse or circuit breaker, and a resistance R connected in series. The fuse or breaker acts as an automatic switch that opens when the sustained current is too large.</desc>
+<rect width="520" height="380" fill="#ffffff"/>
+<polyline points="80,70 80,30 420,30 420,350 80,350 80,270" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="80" y1="270" x2="80" y2="196" stroke="#ffffff" stroke-width="7"/>
+<line x1="80" y1="270" x2="80" y2="259" stroke="#222222" stroke-width="2"/>
+<line x1="80" y1="207" x2="80" y2="196" stroke="#222222" stroke-width="2"/>
+<circle cx="80" cy="233" r="26" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<polyline points="64.4,233 65.7,230.64 67,228.45 68.3,226.57 69.6,225.12 70.9,224.21 72.2,223.9 73.5,224.21 74.8,225.12 76.1,226.57 77.4,228.45 78.7,230.64 80,233 81.3,235.36 82.6,237.55 83.9,239.43 85.2,240.88 86.5,241.79 87.8,242.1 89.1,241.79 90.4,240.88 91.7,239.43 93,237.55 94.3,235.36 95.6,233" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="80,196 80,150" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 80 150 C 40 135 40 100 80 85 C 120 70 120 40 80 70" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="80" cy="70" r="7" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<circle cx="80" cy="150" r="7" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<text x="120" y="90.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fuse</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">or</tspan></text>
+<text x="120" y="130.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">circuit</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">breaker</tspan></text>
+<line x1="420" y1="160" x2="420" y2="290" stroke="#ffffff" stroke-width="7"/>
+<line x1="420" y1="160" x2="420" y2="175" stroke="#222222" stroke-width="2"/>
+<line x1="420" y1="275" x2="420" y2="290" stroke="#222222" stroke-width="2"/>
+<polyline points="420,175 398,183.33 442,200 398,216.67 442,233.33 398,250 442,266.67 420,275" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="454" y="235.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="40" y="243.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+</svg>

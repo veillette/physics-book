@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="340" viewBox="0 0 680 340" role="img" aria-labelledby="title desc">
+<title id="title">Current is the rate of flow of charge</title>
+<desc id="desc">Charges q move to the right along a section of wire and pass through a cross-sectional area A. The current is the charge that flows through A per unit time; one ampere is one coulomb through the area each second.</desc>
+<rect width="680" height="340" fill="#ffffff"/>
+<text x="340" y="37.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Current</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">flow</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">charge</tspan></text>
+<defs><linearGradient id="cyl20_1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 40 100 L 630 100 A 35 100 0 0 1 630 300 L 40 300 Z" fill="url(#cyl20_1)" stroke="#9a94a3" stroke-width="1.5"/>
+<ellipse cx="40" cy="200" rx="35" ry="100" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
+<ellipse cx="320" cy="200" rx="35" ry="100" fill="#ffffff" fill-opacity="0.35" stroke="#9a94a3" stroke-width="1.5"/>
+<circle cx="270" cy="145" r="20" fill="#5b8fd1" stroke="#3a5a8a" stroke-width="1"/>
+<text x="270" y="153.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<line x1="288" y1="145" x2="476" y2="145" stroke="#222222" stroke-width="2"/>
+<polygon points="490,145 475,151 475,139" fill="#222222"/>
+<circle cx="140" cy="175" r="20" fill="#5b8fd1" stroke="#3a5a8a" stroke-width="1"/>
+<text x="140" y="183.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<line x1="158" y1="175" x2="346" y2="175" stroke="#222222" stroke-width="2"/>
+<polygon points="360,175 345,181 345,169" fill="#222222"/>
+<circle cx="195" cy="235" r="20" fill="#5b8fd1" stroke="#3a5a8a" stroke-width="1"/>
+<text x="195" y="243.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<line x1="213" y1="235" x2="401" y2="235" stroke="#222222" stroke-width="2"/>
+<polygon points="415,235 400,241 400,229" fill="#222222"/>
+<circle cx="230" cy="275" r="20" fill="#5b8fd1" stroke="#3a5a8a" stroke-width="1"/>
+<text x="230" y="283.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">q</tspan></text>
+<line x1="248" y1="275" x2="436" y2="275" stroke="#222222" stroke-width="2"/>
+<polygon points="450,275 435,281 435,269" fill="#222222"/>
+<path d="M 470 72 Q 386.6 68.2 347.57 133.98" fill="none" stroke="#333333" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="348.59" y1="132.26" x2="346.25" y2="136.22" stroke="#333333" stroke-width="1.6"/>
+<polygon points="344,140 344.9,134.25 348.61,136.46" fill="#333333"/>
+<text x="480" y="74.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="460" viewBox="0 0 680 460" role="img" aria-labelledby="title desc">
+<title id="title">Shock-current thresholds versus frequency</title>
+<desc id="desc">Average current in milliamperes versus frequency from 10 Hz to 10 000 Hz on a logarithmic scale. The threshold of sensation is lowest, about 1 mA, near 60 to 100 Hz and rises to about 14 mA at 10 000 Hz. The “can’t let go” current is about 15 mA near 60 to 100 Hz, rising to about 25 mA at 1000 Hz and about 75 mA at 10 000 Hz. The lower the value, the more sensitive the body is at that frequency; the body is most sensitive near the 50 to 60 Hz of household power.</desc>
+<rect width="680" height="460" fill="#ffffff"/>
+<line x1="231.59" y1="370" x2="231.59" y2="53.18" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="266.25" y1="370" x2="266.25" y2="53.18" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="422.5" y1="370" x2="422.5" y2="53.18" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="578.75" y1="370" x2="578.75" y2="53.18" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="331.36" x2="578.75" y2="331.36" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="292.73" x2="578.75" y2="292.73" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="254.09" x2="578.75" y2="254.09" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="215.45" x2="578.75" y2="215.45" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="176.82" x2="578.75" y2="176.82" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="138.18" x2="578.75" y2="138.18" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="99.55" x2="578.75" y2="99.55" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="60.91" x2="578.75" y2="60.91" stroke="#222222" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="110" y1="370" x2="615" y2="370" stroke="#333333" stroke-width="1.5"/>
+<polygon points="624,370 614,374 614,366" fill="#333333"/>
+<line x1="110" y1="370" x2="110" y2="25" stroke="#333333" stroke-width="1.5"/>
+<polygon points="110,16 114,26 106,26" fill="#333333"/>
+<text x="100" y="377" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="100" y="338.36" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<text x="100" y="299.73" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20</tspan></text>
+<text x="100" y="261.09" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30</tspan></text>
+<text x="100" y="222.45" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">40</tspan></text>
+<text x="100" y="183.82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">50</tspan></text>
+<text x="100" y="145.18" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60</tspan></text>
+<text x="100" y="106.55" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">70</tspan></text>
+<text x="100" y="67.91" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">80</tspan></text>
+<text x="110" y="401" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<text x="221.59" y="401" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60</tspan></text>
+<text x="278.25" y="401" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<text x="422.5" y="401" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1000</tspan></text>
+<text x="578.75" y="401" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10 000</tspan></text>
+<text x="344.38" y="435" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Frequency</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">Hz</tspan><tspan font-style="normal">)</tspan></text>
+<text x="40" y="222.45" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" transform="rotate(-90 40 215.45)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Current</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">mA</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 110 302.39 C 122.43 303.48 164.29 307.34 184.55 308.95 C 204.81 310.56 217.97 311.66 231.59 312.05 C 245.2 312.43 248.05 312.88 266.25 311.27 C 284.45 309.66 314.76 308.7 340.8 302.39 C 366.84 296.08 396.46 289.19 422.5 273.41 C 448.54 257.63 471.01 240.57 497.05 207.73 C 523.09 174.89 565.13 98.26 578.75 76.36" fill="none" stroke="#3fae8a" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M 110 353.77 C 122.43 354.87 164.29 358.47 184.55 360.34 C 204.81 362.21 217.97 364.27 231.59 364.98 C 245.2 365.69 248.05 365.23 266.25 364.59 C 284.45 363.95 314.76 362.79 340.8 361.11 C 366.84 359.44 396.46 357.89 422.5 354.55 C 448.54 351.2 471.01 347.46 497.05 341.02 C 523.09 334.58 565.13 320.09 578.75 315.91" fill="none" stroke="#7b1145" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="414.69" y="145.18" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Can</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">t</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">let</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">go</tspan></text>
+<path d="M 430.31 153.64 Q 437.93 197.61 473.66 209.4" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="471.77" y1="208.77" x2="476.13" y2="210.21" stroke="#333333" stroke-width="1.4"/>
+<polygon points="480.31,211.59 474.51,211.95 475.86,207.85" fill="#333333"/>
+<text x="485" y="264.95" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Threshold</tspan></text>
+<text x="485" y="288.14" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sensation</tspan></text>
+<path d="M 500.63 296.59 Q 502.49 320.04 517.64 326.64" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="515.81" y1="325.84" x2="520.03" y2="327.68" stroke="#333333" stroke-width="1.4"/>
+<polygon points="524.06,329.43 518.25,329.26 519.97,325.3" fill="#333333"/>
+</svg>

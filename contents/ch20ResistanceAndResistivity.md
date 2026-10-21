@@ -25,7 +25,7 @@ with its atoms. The greater the diameter of the cylinder, the more current it
 can carry (again similar to the flow of fluid through a pipe). In fact, $$R $$
 is inversely proportional to the cylinder’s cross-sectional area $$A $$.
 
-![A cylindrical conductor of length L and cross section A is shown. The resistivity of the cylindrical section is represented as rho. The resistance of this cross section R is equal to rho L divided by A. The section of length L of cylindrical conductor is shown equivalent to a resistor represented by symbol R.](../resources/Figure_20_03_01.jpg 'A uniform cylinder of length ( L ) and cross-sectional area ( A ) . Its resistance to the flow of current is similar to the resistance posed by a pipe to fluid flow. The longer the cylinder, the greater its resistance. The larger its cross-sectional area ( A ) , the smaller its resistance.')
+![A uniform cylinder of length L, cross-sectional area A and resistivity ρ is equivalent to a resistor R = ρL/A. The longer the cylinder, the greater its resistance; the larger its area, the smaller its resistance.](../resources/Figure_20_03_01.svg 'A uniform cylinder of length ( L ) and cross-sectional area ( A ) . Its resistance to the flow of current is similar to the resistance posed by a pipe to fluid flow. The longer the cylinder, the greater its resistance. The larger its cross-sectional area ( A ) , the smaller its resistance.')
 {: #Figure1}
 
 For a given shape, the resistance depends on the material of which the object is
@@ -282,7 +282,7 @@ temperature dependence. Manganin (which is made of copper, manganese and nickel)
 its resistivity varies only slightly with temperature. This is useful for making
 a temperature-independent resistance standard, for example.
 
-![A graph for variation of resistance R with temperature T for a mercury sample is shown. The temperature T is plotted along the x axis and is measured in Kelvin, and the resistance R is plotted along the y axis and is measured in ohms. The curve starts at x equals zero and y equals zero, and coincides with the X axis until the value of temperature is four point two Kelvin, known as the critical temperature T sub c. At temperature T sub c, the curve shows a vertical rise, represented by a dotted line, until the resistance is about zero point one one ohms. After this temperature the resistance shows a nearly linear increase with temperature T.](../resources/Figure_20_03_02.jpg 'The resistance of a sample of mercury is zero at very low temperatures—it is a superconductor up to about 4.2 K. Above that critical temperature, its resistance makes a sudden jump and then increases nearly linearly with temperature.')
+![Resistance R in ohms of a mercury sample versus temperature T from 4.0 to 4.4 K. Below the critical temperature Tc of about 4.2 K the resistance is zero: mercury is a superconductor. At Tc the resistance jumps, shown dashed, to about 0.11 Ω, and above it rises nearly linearly with temperature, to about 0.135 Ω at 4.37 K. Dots mark measured points.](../resources/Figure_20_03_02.svg 'The resistance of a sample of mercury is zero at very low temperatures—it is a superconductor up to about 4.2 K. Above that critical temperature, its resistance makes a sudden jump and then increases nearly linearly with temperature.')
 {: #Figure2}
 
 <table id="Table2" aria-describedby="Table 21_03_02"><caption><span class="title">Temperature Coefficients of Resistivity    $$\alpha  $$     </span></caption><thead><tr>

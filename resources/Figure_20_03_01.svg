@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="320" viewBox="0 0 680 320" role="img" aria-labelledby="title desc">
+<title id="title">Resistance of a uniform cylinder</title>
+<desc id="desc">A uniform cylinder of length L, cross-sectional area A and resistivity ρ is equivalent to a resistor R = ρL/A. The longer the cylinder, the greater its resistance; the larger its area, the smaller its resistance.</desc>
+<rect width="680" height="320" fill="#ffffff"/>
+<defs><linearGradient id="cyl20_6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b78c2"/><stop offset="0.35" stop-color="#d9ecfb"/><stop offset="0.7" stop-color="#d9ecfb"/><stop offset="1" stop-color="#3b78c2"/></linearGradient></defs>
+<path d="M 90 105 L 520 105 A 22.75 65 0 0 1 520 235 L 90 235 Z" fill="url(#cyl20_6)" stroke="#9a94a3" stroke-width="1.5"/>
+<ellipse cx="90" cy="170" rx="22.75" ry="65" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
+<ellipse cx="90" cy="170" rx="23" ry="65" fill="#e8f3fc" stroke="#2e64a6" stroke-width="2"/>
+<ellipse cx="520" cy="170" rx="23" ry="65" fill="none" stroke="#2e64a6" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="300" y="181.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ρ</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">resistivity</tspan></text>
+<line x1="105" y1="72" x2="505" y2="72" stroke="#222222" stroke-width="1.8"/>
+<polygon points="518,72 504,77.6 504,66.4" fill="#222222"/>
+<polygon points="92,72 106,66.4 106,77.6" fill="#222222"/>
+<line x1="90" y1="56" x2="90" y2="104" stroke="#222222" stroke-width="1.6"/>
+<line x1="520" y1="56" x2="520" y2="104" stroke="#222222" stroke-width="1.6"/>
+<text x="300" y="63.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">length</tspan></text>
+<text x="20" y="45.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">area</tspan></text>
+<path d="M 50 54 Q 98.8 90 91.02 143.07" fill="none" stroke="#333333" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="91.31" y1="141.1" x2="90.64" y2="145.65" stroke="#333333" stroke-width="1.6"/>
+<polygon points="90,150 88.65,144.34 92.92,144.97" fill="#333333"/>
+<text x="560" y="183.2" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">=</tspan></text>
+<polyline points="580,170 670,170" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="590" y1="170" x2="660" y2="170" stroke="#ffffff" stroke-width="7"/>
+<line x1="590" y1="170" x2="597" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="653" y1="170" x2="660" y2="170" stroke="#222222" stroke-width="2"/>
+<polyline points="597,170 601.67,184 611,156 620.33,184 629.67,156 639,184 648.33,156 653,170" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="625" y="223.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="300" y="279.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">ρ</tspan></text>
+<text x="322" y="259.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan></text>
+<line x1="306" y1="272" x2="338" y2="272" stroke="#222222" stroke-width="1.8"/>
+<text x="322" y="305.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+</svg>

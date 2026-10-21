@@ -34,6 +34,7 @@ import ch16 from './figures/ch16.js';
 import ch17 from './figures/ch17.js';
 import ch18 from './figures/ch18.js';
 import ch19 from './figures/ch19.js';
+import ch20 from './figures/ch20.js';
 import ch21 from './figures/ch21.js';
 import ch29 from './figures/ch29.js';
 import concepts from './figures/concepts.js';
@@ -57,6 +58,7 @@ const figures = {
   ...ch17,
   ...ch18,
   ...ch19,
+  ...ch20,
   ...ch21,
   ...ch29,
   ...concepts,
