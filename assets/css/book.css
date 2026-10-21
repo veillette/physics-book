@@ -119,11 +119,38 @@ section.normal > .title {
   inline-size: 50%;
 }
 
-/* Converted chapter 7–9 diagrams and the wide EM spectrum (29.3) need their
-   labels readable at page width, both before and after the viewer wraps
-   images in figures. */
+/* Diagrams whose labels are unreadable at half a column. Natural width, capped
+   at the column, both before and after the viewer wraps images in figures.
+   Chapters 7–9 and the electromagnetic spectrum are whole sets. The chapter
+   2–4 names are the short, wide graphs and component diagrams; simple sketches
+   and the tall stacked graphs in those chapters stay at half a column. */
 .book .book-body .page-wrapper .page-inner section.normal
   img:is(
+    [src*='Figure_02_04_06.'],
+    [src*='Figure_02_05_13.'],
+    [src*='Figure_02_08_02.'],
+    [src*='Figure_02_08_05.'],
+    [src*='Figure_02_08_13.'],
+    [src*='Figure_02_08_14.'],
+    [src*='Figure_02_08_15.'],
+    [src*='Figure_02_08_16.'],
+    [src*='Figure_02_08_17.'],
+    [src*='Figure_02_08_18.'],
+    [src*='Figure_02_08_19.'],
+    [src*='Figure_02_08_20.'],
+    [src*='Figure_02_08_21.'],
+    [src*='Figure_02_08_22.'],
+    [src*='Figure_02_08_23.'],
+    [src*='Figure_03_01_02.'],
+    [src*='Figure_03_01_04.'],
+    [src*='Figure_03_02_02.'],
+    [src*='Figure_03_02_08.'],
+    [src*='Figure_03_03_03.'],
+    [src*='Figure_03_03_06.'],
+    [src*='Figure_03_03_07.'],
+    [src*='Figure_03_03_08.'],
+    [src*='Figure_03_03_09.'],
+    [src*='Figure_04_05_07.'],
     [src*='Figure_07_'],
     [src*='Figure_08_'],
     [src*='Figure_09_'],
