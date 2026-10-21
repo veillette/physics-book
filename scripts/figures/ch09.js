@@ -136,8 +136,9 @@ export default {
     // Animation: each door starts from rest and turns with angular
     // acceleration in proportion to its torque, (a) turning 10° in 2.5 s. In
     // (e) the torque follows r⊥ = r sin θ as the door turns. The doors hold,
-    // then swing back.
-    const [hold, pushT, rest, T] = [0.5, 2.5, 1.5, 6.5];
+    // then fade out and reappear at the start, since swinging back would look
+    // like a torque in the opposite direction.
+    const [hold, pushT, rest, fade, T] = [0.5, 2.5, 1, 0.4, 5.5];
     const step = 0.25;
     const swing = (torque, draw) => {
       const c = (2 * 10) / pushT ** 2; // degrees per second squared for the torque in (a)
@@ -152,10 +153,20 @@ export default {
         angles.push(a);
       }
       const times = angles.map((_, k) => hold + k * step);
-      svg.animated(draw, [deg, ...angles, a, deg, deg], {
-        dur: `${T}s`,
-        keyTimes: [0, ...times, hold + pushT + rest, T - 0.4, T].map(t => t / T),
-      });
+      const out = hold + pushT + rest + fade;
+      const frames = [deg, ...angles, a].map(f => [f, 1]);
+      svg.animated(
+        ([f, shown]) => {
+          svg.add(`<g opacity="${shown}">`);
+          draw(f);
+          svg.add('</g>');
+        },
+        [...frames, [a, 0], [deg, 0], [deg, 1], [deg, 1]],
+        {
+          dur: `${T}s`,
+          keyTimes: [0, ...times, out - fade, out, out + 0.001, out + fade, T].map(t => t / T),
+        }
+      );
     };
     // (a)
     let H = panel(0, 0);
