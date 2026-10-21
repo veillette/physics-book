@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="560" viewBox="0 0 320 560" role="img" aria-labelledby="title desc">
+<title id="title">Parallel plates accelerating an electron</title>
+<desc id="desc">A negatively charged plate on the left and a positively charged plate on the right with a hole in its middle. The field lines run straight from the positive plate to the negative plate, pointing left, and bow outward at the top and bottom ends. An electron e⁻ between the plates is accelerated to the right, toward the hole.</desc>
+<rect width="320" height="560" fill="#ffffff"/>
+<rect x="20" y="20" width="22" height="520" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="250" y="20" width="22" height="235" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<rect x="250" y="305" width="22" height="235" fill="#cfd3da" stroke="#8a9099" stroke-width="1.5"/>
+<line x1="250" y1="80" x2="42" y2="80" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="80" x2="147.4" y2="80" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,80 148.4,74.24 148.4,85.76" fill="#1f77c8"/>
+<line x1="250" y1="130" x2="42" y2="130" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="130" x2="147.4" y2="130" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,130 148.4,124.24 148.4,135.76" fill="#1f77c8"/>
+<line x1="250" y1="180" x2="42" y2="180" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="180" x2="147.4" y2="180" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,180 148.4,174.24 148.4,185.76" fill="#1f77c8"/>
+<line x1="250" y1="230" x2="42" y2="230" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="230" x2="147.4" y2="230" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,230 148.4,224.24 148.4,235.76" fill="#1f77c8"/>
+<line x1="250" y1="330" x2="42" y2="330" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="330" x2="147.4" y2="330" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,330 148.4,324.24 148.4,335.76" fill="#1f77c8"/>
+<line x1="250" y1="380" x2="42" y2="380" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="380" x2="147.4" y2="380" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,380 148.4,374.24 148.4,385.76" fill="#1f77c8"/>
+<line x1="250" y1="430" x2="42" y2="430" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="430" x2="147.4" y2="430" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,430 148.4,424.24 148.4,435.76" fill="#1f77c8"/>
+<line x1="250" y1="480" x2="42" y2="480" stroke="#1f77c8" stroke-width="2"/>
+<line x1="158" y1="480" x2="147.4" y2="480" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,480 148.4,474.24 148.4,485.76" fill="#1f77c8"/>
+<path d="M 250 36 C 198 36 187.6 14 146 14 S 94 36 42 36" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="158" y1="14" x2="147.4" y2="14" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,14 148.4,8.24 148.4,19.76" fill="#1f77c8"/>
+<path d="M 250 524 C 198 524 187.6 546 146 546 S 94 524 42 524" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="158" y1="546" x2="147.4" y2="546" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="134,546 148.4,540.24 148.4,551.76" fill="#1f77c8"/>
+<text x="31" y="37" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="31" y="537" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="261" y="43" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="87" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="137" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="187" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="237" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="337" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="387" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="437" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="487" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="261" y="531" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<circle cx="90" cy="280" r="14" fill="#a98bd0" stroke="#6b4f99" stroke-width="1.5"/>
+<text x="90" y="285.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">−</tspan></tspan><tspan dy="6.4">​</tspan></text>
+<line x1="106" y1="280" x2="302" y2="280" stroke="#222222" stroke-width="2"/>
+<polygon points="316,280 301,286 301,274" fill="#222222"/>
+</svg>

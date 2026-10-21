@@ -447,7 +447,7 @@ This is why atomic structure is determined entirely by electromagnetic forces—
 A simple and common technique for accelerating electrons is shown in [[Figure 6]](#Figure6), where there is a uniform electric field between two plates. Electrons are released, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to continue moving. (a) Calculate the acceleration of the electron if the field strength is  $$2.50 \times 10^{4}  \text{N/C} $$ .
  (b) Explain why the electron will not be pulled back to the positive plate once it moves through the hole.
 
-![Parallel conducting plates with opposite charges are shown and electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates but curved at the corner.](../resources/Figure_18_08_07.jpg 'Parallel conducting plates with opposite charges on them create a relatively uniform electric field used to accelerate electrons to the right. Those that go through the hole can be used to make a TV or computer screen glow or to produce X-rays.')
+![A negatively charged plate on the left and a positively charged plate on the right with a hole in its middle. The field lines run straight from the positive plate to the negative plate, pointing left, and bow outward at the top and bottom ends. An electron e⁻ between the plates is accelerated to the right, toward the hole.](../resources/Figure_18_08_07.svg 'Parallel conducting plates with opposite charges on them create a relatively uniform electric field used to accelerate electrons to the right. Those that go through the hole can be used to make a TV or computer screen glow or to produce X-rays.')
 {: #Figure6}
 
 ::::
@@ -1012,7 +1012,7 @@ A 5.00 g charged insulating ball hangs on a 30.0 cm long string in a uniform
 horizontal electric field as shown in [[Figure 7]](#Figure7). Given the charge
 on the ball is $$1.00 \mu \text{C} $$ , find the strength of the field.
 
-![A charged ball is hung from a string making an angle of eight degree toward right with the vertical. The external electric field lines represented by arrows, are from left to right.](../resources/Figure_18_08_08.jpg 'A horizontal electric field causes the charged ball to hang at an angle of 8.00º.')
+![A charged ball q hangs from a string attached to a support. A horizontal electric field points to the right, and the ball is pushed to the right so that the string makes an angle of 8.00° with the vertical.](../resources/Figure_18_08_08.svg 'A horizontal electric field causes the charged ball to hang at an angle of 8.00º.')
 {: #Figure7}
 
 ::::
@@ -1098,7 +1098,7 @@ travels in the uniform field is 4.00 cm. (a) What is its vertical deflection? (
 b) What is the vertical component of its final velocity? (c) At what angle does
 it exit? Neglect any edge effects.
 
-![Two oppositely charged plates are parallel to each other. The path of an electron is shown passing from left to right between the plates. It deflects toward positive plate as it emerges from the plate with velocity vector making an angle theta with the horizontal.](../resources/Figure_18_08_10.jpg ' ')
+![Two parallel horizontal plates, positive on top and negative on the bottom, with the field between them pointing down. An electron enters from the left moving horizontally with velocity v0. The upward electric force bends its path into a parabola curving toward the positive plate, and it leaves with velocity v1 at an angle θ above the horizontal.](../resources/Figure_18_08_10.svg ' ')
 {: #Figure8}
 
 ::::
@@ -1196,7 +1196,7 @@ radius and have a density of $$920 kg/{m}^{3} $$:
 (a) Find the weight of the drop.
 (b) If the drop has a single excess electron, find the electric field strength needed to balance its weight.
 
-![Two parallel conducting plates with opposite charges are shown and the electric field lines are emerging from the positive plate and entering the negative plate. These lines are parallel between the plates and a charged particle is in between the plates. An observer is watching it through a microscope.](../resources/Figure_18_08_11.jpg 'In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.')
+![A small oil drop carrying charge q0 floats between two horizontal plates, positive on top and negative on the bottom, whose field points down. Because the drop’s excess charge is negative, the electric force on it is upward and can balance its weight. An observer watches the drop through a microscope from the side.](../resources/Figure_18_08_11.svg 'In the Millikan oil drop experiment, small drops can be suspended in an electric field by the force exerted on a single excess electron. Classically, this experiment was used to determine the electron charge qe by measuring the electric field and mass of the drop.')
 {: #Figure9}
 
 ::::
@@ -1284,7 +1284,7 @@ Determine the magnitude of $$q $$ in terms of $$Q $$ , $$m $$ , and $$d $$ , if
 the Coulomb force is to equal the weight of $$m $$ .
 (b) Is this equilibrium stable or unstable? Discuss.
 
-![Four charged particles each having same magnitude q are placed at the corner of a parallelogram. The sides have length d and fifth charge Q is at a distance d above the plane of intersection of the diagonal of this parallelogram.](../resources/Figure_18_08_12.jpg 'Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.')
+![Four equal charges q on the corners of a horizontal square of side d, drawn in perspective, with dashed sides and diagonals. A fifth charge Q sits directly above the center of the square at a height d.](../resources/Figure_18_08_12.svg 'Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.')
 {: #Figure10}
 
 :::

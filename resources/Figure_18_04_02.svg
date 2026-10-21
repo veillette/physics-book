@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320" role="img" aria-labelledby="title desc">
+<title id="title">The Coulomb force field of a positive charge acting on two test charges</title>
+<desc id="desc">(a) A positive test charge q1 a distance r from a positive charge Q is repelled: the force F1 points away from Q. (b) A negative test charge q2, larger in magnitude than q1, at the same distance r is attracted: the force F2 points toward Q and is larger than F1.</desc>
+<rect width="520" height="320" fill="#ffffff"/>
+<circle cx="60" cy="100" r="13" fill="#c62828" stroke="#222222" stroke-width="1"/>
+<text x="60" y="105.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="60" y="141.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<circle cx="360" cy="100" r="14" fill="#f2a7a7" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="360" y="105.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">++</tspan></text>
+<text x="360" y="143.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="376" y1="100" x2="457" y2="100" stroke="#e0245e" stroke-width="5"/>
+<polygon points="476,100 456,108 456,92" fill="#e0245e"/>
+<text x="426" y="79.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="70" y1="52" x2="350" y2="52" stroke="#222222" stroke-width="1.4"/>
+<polygon points="360,52 349,56.4 349,47.6" fill="#222222"/>
+<polygon points="60,52 71,47.6 71,56.4" fill="#222222"/>
+<line x1="60" y1="42" x2="60" y2="62" stroke="#222222" stroke-width="1.2"/>
+<line x1="360" y1="42" x2="360" y2="62" stroke="#222222" stroke-width="1.2"/>
+<text x="210" y="43" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="210" y="141.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<circle cx="60" cy="250" r="13" fill="#c62828" stroke="#222222" stroke-width="1"/>
+<text x="60" y="255.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="60" y="291.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<circle cx="360" cy="250" r="14" fill="#a9c4ea" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="360" y="255.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−−</tspan></text>
+<text x="360" y="293.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="344" y1="250" x2="193" y2="250" stroke="#e0245e" stroke-width="5"/>
+<polygon points="174,250 194,242 194,258" fill="#e0245e"/>
+<text x="259" y="229.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="70" y1="202" x2="350" y2="202" stroke="#222222" stroke-width="1.4"/>
+<polygon points="360,202 349,206.4 349,197.6" fill="#222222"/>
+<polygon points="60,202 71,197.6 71,206.4" fill="#222222"/>
+<line x1="60" y1="192" x2="60" y2="212" stroke="#222222" stroke-width="1.2"/>
+<line x1="360" y1="192" x2="360" y2="212" stroke="#222222" stroke-width="1.2"/>
+<text x="210" y="193" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="210" y="291.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

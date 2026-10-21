@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" role="img" aria-labelledby="title desc">
+<title id="title">Two representations of the field of a positive charge</title>
+<desc id="desc">(a) Arrows show the field of a positive charge Q at two distances in eight directions: the arrows point away from Q and are much shorter farther out, since the field falls off as 1/r². (b) The standard representation: continuous field lines radiating from Q, with arrows showing the field direction. The lines are closer together where the field is stronger.</desc>
+<rect width="800" height="400" fill="#ffffff"/>
+<line x1="232" y1="200" x2="290" y2="200" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="304,200 289,206 289,194" fill="#1f77c8"/>
+<line x1="330" y1="200" x2="336.24" y2="200" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="343.09,200 335.24,203.14 335.24,196.86" fill="#1f77c8"/>
+<line x1="222.63" y1="222.63" x2="263.64" y2="263.64" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="273.54,273.54 258.69,267.18 267.18,258.69" fill="#1f77c8"/>
+<line x1="291.92" y1="291.92" x2="296.33" y2="296.33" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="301.18,301.18 293.4,297.85 297.85,293.4" fill="#1f77c8"/>
+<line x1="200" y1="232" x2="200" y2="290" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="200,304 194,289 206,289" fill="#1f77c8"/>
+<line x1="200" y1="330" x2="200" y2="336.24" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="200,343.09 196.86,335.24 203.14,335.24" fill="#1f77c8"/>
+<line x1="177.37" y1="222.63" x2="136.36" y2="263.64" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="126.46,273.54 132.82,258.69 141.31,267.18" fill="#1f77c8"/>
+<line x1="108.08" y1="291.92" x2="103.67" y2="296.33" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="98.82,301.18 102.15,293.4 106.6,297.85" fill="#1f77c8"/>
+<line x1="168" y1="200" x2="110" y2="200" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="96,200 111,194 111,206" fill="#1f77c8"/>
+<line x1="70" y1="200" x2="63.76" y2="200" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="56.91,200 64.76,196.86 64.76,203.14" fill="#1f77c8"/>
+<line x1="177.37" y1="177.37" x2="136.36" y2="136.36" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="126.46,126.46 141.31,132.82 132.82,141.31" fill="#1f77c8"/>
+<line x1="108.08" y1="108.08" x2="103.67" y2="103.67" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="98.82,98.82 106.6,102.15 102.15,106.6" fill="#1f77c8"/>
+<line x1="200" y1="168" x2="200" y2="110" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="200,96 206,111 194,111" fill="#1f77c8"/>
+<line x1="200" y1="70" x2="200" y2="63.76" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="200,56.91 203.14,64.76 196.86,64.76" fill="#1f77c8"/>
+<line x1="222.63" y1="177.37" x2="263.64" y2="136.36" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="273.54,126.46 267.18,141.31 258.69,132.82" fill="#1f77c8"/>
+<line x1="291.92" y1="108.08" x2="296.33" y2="103.67" stroke="#1f77c8" stroke-width="2" stroke-dasharray="5 3"/>
+<polygon points="301.18,98.82 297.85,106.6 293.4,102.15" fill="#1f77c8"/>
+<circle cx="200" cy="200" r="12" fill="#c62828" stroke="#222222" stroke-width="1"/>
+<text x="200" y="205.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="186" y="183.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<text x="200" y="392.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="616" y1="200" x2="780" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<line x1="696.2" y1="200" x2="705.2" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="716.2,200 704.2,204.8 704.2,195.2" fill="#1f77c8"/>
+<line x1="611.31" y1="211.31" x2="727.28" y2="327.28" stroke="#1f77c8" stroke-width="2"/>
+<line x1="668.02" y1="268.02" x2="674.39" y2="274.39" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="682.17,282.17 670.29,277.07 677.07,270.29" fill="#1f77c8"/>
+<line x1="600" y1="216" x2="600" y2="380" stroke="#1f77c8" stroke-width="2"/>
+<line x1="600" y1="296.2" x2="600" y2="305.2" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="600,316.2 595.2,304.2 604.8,304.2" fill="#1f77c8"/>
+<line x1="588.69" y1="211.31" x2="472.72" y2="327.28" stroke="#1f77c8" stroke-width="2"/>
+<line x1="531.98" y1="268.02" x2="525.61" y2="274.39" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="517.83,282.17 522.93,270.29 529.71,277.07" fill="#1f77c8"/>
+<line x1="584" y1="200" x2="420" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<line x1="503.8" y1="200" x2="494.8" y2="200" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="483.8,200 495.8,195.2 495.8,204.8" fill="#1f77c8"/>
+<line x1="588.69" y1="188.69" x2="472.72" y2="72.72" stroke="#1f77c8" stroke-width="2"/>
+<line x1="531.98" y1="131.98" x2="525.61" y2="125.61" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="517.83,117.83 529.71,122.93 522.93,129.71" fill="#1f77c8"/>
+<line x1="600" y1="184" x2="600" y2="20" stroke="#1f77c8" stroke-width="2"/>
+<line x1="600" y1="103.8" x2="600" y2="94.8" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="600,83.8 604.8,95.8 595.2,95.8" fill="#1f77c8"/>
+<line x1="611.31" y1="188.69" x2="727.28" y2="72.72" stroke="#1f77c8" stroke-width="2"/>
+<line x1="668.02" y1="131.98" x2="674.39" y2="125.61" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="682.17,117.83 677.07,129.71 670.29,122.93" fill="#1f77c8"/>
+<circle cx="600" cy="200" r="12" fill="#c62828" stroke="#222222" stroke-width="1"/>
+<text x="600" y="205.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="586" y="183.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<text x="600" y="392.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

@@ -27,7 +27,7 @@ lines. [[Figure 1]](#Figure1) (a) shows numerous individual arrows with each
 arrow representing the force on a test charge $$q $$ . Field lines are
 essentially a map of infinitesimal force vectors.
 
-![In part a, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space. In part b, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space.](../resources/Figure_18_05_02.jpg 'Two equivalent representations of the electric field due to a positive charge ( Q ) . (a) Arrows representing the electric field’s magnitude and direction. (b) In the standard representation, the arrows are replaced by continuous field lines having the same direction at any point as the electric field. The closeness of the lines is directly related to the strength of the electric field. A test charge placed anywhere will feel a force in the direction of the field line; this force will have a strength proportional to the density of the lines (being greater near the charge, for example).')
+![(a) Arrows show the field of a positive charge Q at two distances in eight directions: the arrows point away from Q and are much shorter farther out, since the field falls off as 1/r². (b) The standard representation: continuous field lines radiating from Q, with arrows showing the field direction. The lines are closer together where the field is stronger.](../resources/Figure_18_05_02.svg 'Two equivalent representations of the electric field due to a positive charge ( Q ) . (a) Arrows representing the electric field’s magnitude and direction. (b) In the standard representation, the arrows are replaced by continuous field lines having the same direction at any point as the electric field. The closeness of the lines is directly related to the strength of the electric field. A test charge placed anywhere will feel a force in the direction of the field line; this force will have a strength proportional to the density of the lines (being greater near the charge, for example).')
 {: #Figure1}
 
 Note that the electric field is defined for a positive test charge $$q $$ , so
@@ -40,7 +40,7 @@ lines represent the direction and their closeness (that is, their areal density
 or the number of lines crossing a unit area) represents strength, is used for
 all fields: electrostatic, gravitational, magnetic, and others.
 
-![In part a, electric field lines emanating from a positive charge is shown by the vector arrows in all direction of two dimensional space and the density of these field lines is less. In part b, electric field lines entering the negative charge is shown by the vector arrows coming from all direction of two dimensional space and the density of these field lines is less. In part c, electric field lines entering the negative charge is shown by the vector arrows coming from all direction of two dimensional space and the density of these field lines is large.](../resources/Figure_18_05_03.jpg 'The electric field surrounding three different point charges. (a) A positive charge. (b) A negative charge of equal magnitude. (c) A larger negative charge.')
+![(a) A positive charge: eight field lines point radially outward. (b) A negative charge of equal magnitude: eight field lines point radially inward. (c) A larger negative charge: twice as many lines point inward, showing the stronger field.](../resources/Figure_18_05_03.svg 'The electric field surrounding three different point charges. (a) A positive charge. (b) A negative charge of equal magnitude. (c) A larger negative charge.')
 {: #Figure2}
 
 In many situations, there are multiple charges. The total electric field created
@@ -57,7 +57,7 @@ Find the magnitude and direction of the total electric field due to the two poin
 and $${q}_{2} $$ ,
 at the origin of the coordinate system as shown in [[Figure 3]](#Figure3).
 
-![Two charges are placed on a coordinate axes. Q two is at the position x equals 4 and y equals 0 centimeters. Q one is at the position x equals 0 and y equals two centimeters. Charge on q one is plus five point zero nano coulomb and charge on q two is plus ten nano coulomb. The electric field, E one having a magnitude of one point one three multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow along positive y axis starting from the origin. The electric field, E two having magnitude zero point five six multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow along negative x axis starting from the origin. The resultant field makes an angle of sixty three point four degree above the negative y axis having magnitude one point two six multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow pointing away from the origin in the second quadrant.](../resources/Figure_18_05_04.jpg 'The electric fields ( E_{1} ) and ( E_{2} ) at the origin O add to ( E_\\text{tot} ).')
+![Charge q1 = +5.0 nC is on the y axis 2.00 cm below the origin O, and q2 = +10 nC is on the x axis 4.00 cm to the right of O. At O the field E1 = 1.13 × 10⁵ N/C from q1 points in the +y direction, and the field E2 = 0.56 × 10⁵ N/C from q2 points in the −x direction. They add to E_tot = 1.26 × 10⁵ N/C, pointing up and to the left at 63.4° above the −x axis.](../resources/Figure_18_05_04.svg 'The electric fields ( E_{1} ) and ( E_{2} ) at the origin O add to ( E_\\text{tot} ).')
 {: #Figure3}
 
 **Strategy**
@@ -143,10 +143,10 @@ charges are in opposite directions and so their strengths subtract. At very
 large distances, the field of two unlike charges looks like that of a smaller
 single charge.
 
-![Two charges q one and q two are placed at a distance and their field lines shown by curved arrows move away from each other. At a point P on the field lines emanating from q one, the resultant electric field is represented by a vector arrow tangent to the curve representing this field line. A point P prime on a field line emanating from the charge q two and the resultant electric field is represented by a vector arrow tangent to the curve representing this field line.](../resources/Figure_18_05_05.jpg 'Two positive point charges ( q_{1} ) and ( q_{2} ) produce the resultant electric field shown. The field is calculated at representative points and then smooth field lines drawn following the rules outlined in the text.')
+![Computed field lines of two positive charges q1 and q2. At a point P above q1, the fields E1 from q1 and E2 from q2 add to a total field E that is tangent to the field line through P. At a point P′ below and between the charges, E′1 and E′2 add to E′, again tangent to the line there.](../resources/Figure_18_05_05.svg 'Two positive point charges ( q_{1} ) and ( q_{2} ) produce the resultant electric field shown. The field is calculated at representative points and then smooth field lines drawn following the rules outlined in the text.')
 {: #Figure4}
 
-![In part a, two negative charges of magnitude minus q are placed at some distance. Their field lines are represented by curved arrows terminating into the negative charges. The curves are divergent. In part b, two charges are placed at a distance where one is positive labeled as plus q and other is negative labeled as minus q. The field lines represented by curved arrows start from the positive charge and end at the negative charge. The curves are convergent.](../resources/Figure_18_05_06.jpg '(a) Two negative charges produce the fields shown. It is very similar to the field produced by two positive charges, except that the directions are reversed. The field is clearly weaker between the charges. The individual forces on a test charge in that region are in opposite directions. (b) Two opposite charges produce the field shown, which is stronger in the region between the charges.')
+![(a) Two negative charges −q: computed field lines come in from all directions and end on the charges, curving away from the region between them, where the field is weak. (b) A positive charge +q and a negative charge −q: field lines leave +q and curve around to end on −q; the field between them is strong.](../resources/Figure_18_05_06.svg '(a) Two negative charges produce the fields shown. It is very similar to the field produced by two positive charges, except that the directions are reversed. The field is clearly weaker between the charges. The individual forces on a test charge in that region are in opposite directions. (b) Two opposite charges produce the field shown, which is stronger in the region between the charges.')
 {: #Figure5}
 
 We use electric field lines to visualize and analyze electric fields (the lines
@@ -235,7 +235,7 @@ The curves are the same as the electric-field curves for a fixed test charge; th
 
 [[Figure 6]](#Figure6) shows an electric field extending over three regions, labeled I, II, and III. Answer the following questions. (a) Are there any isolated charges? If so, in what region and what are their signs? (b) Where is the field strongest? (c) Where is it weakest? (d) Where is the field the most uniform?
 
-![Five field lines represented by long arrows horizontally from left to right are shown. Two arrows diverge from other three, one arrow runs straight toward right and two arrows end abruptly.](../resources/Figure_18_05_07.jpg ' ')
+![Five field lines run from left to right through regions I, II and III. In region I they are straight, parallel and closely spaced. In region II two of the lines end at points, which are negative charges. The middle line continues straight. In region III the top and bottom lines curve away from the middle, so the lines are farther apart and the field is weaker.](../resources/Figure_18_05_07.svg ' ')
 {: #Figure6}
 
 :::
@@ -325,7 +325,7 @@ The monopole term falls as $$1/r^2$$, while the equal-and-opposite pair’s lead
 and $${q}_{2} $$ .
 What is the ratio of their magnitudes? (b) Sketch the electric field lines a long distance from the charges shown in the figure.
 
-![Field lines between a positive and a negative charge represented by curved lines is shown](../resources/Figure_18_05_08.jpg 'The electric field near two charges.')
+![A small positive charge on the left and a larger negatively charged conducting sphere on the right. Field lines leave the positive charge in all directions. About half of them curve over and end on the sphere, meeting its surface at right angles; the rest go off to large distances. Twice as many lines leave the point charge as end on the sphere.](../resources/Figure_18_05_08.svg 'The electric field near two charges.')
 {: #Figure7}
 
 :::

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+<title id="title">A charged insulating rod</title>
+<desc id="desc">A diagonal insulating rod marked with plus signs. Most of the positive charge is crowded near its upper-right end, a few charges are in the middle, and one is at the lower-left end.</desc>
+<rect width="480" height="480" fill="#ffffff"/>
+<line x1="40" y1="450" x2="440" y2="40" stroke="#9ad0e6" stroke-width="16" stroke-linecap="round"/>
+<line x1="40" y1="450" x2="440" y2="40" stroke="#5aa9c9" stroke-width="1.5" stroke-linecap="round"/>
+<text x="48" y="447.75" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="200" y="291.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="216" y="275.55" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="308" y="181.25" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="368" y="119.75" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="380" y="107.45" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="392" y="95.15" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="400" y="86.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="408" y="78.75" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="416" y="70.55" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="424" y="62.35" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="432" y="54.15" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+</svg>

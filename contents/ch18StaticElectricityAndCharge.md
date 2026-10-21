@@ -82,7 +82,7 @@ charge-carrying particles are observed in cosmic rays and nuclear decay, and are
 created in particle accelerators. All but the electron and proton survive only a
 short time and are quite rare by comparison.
 
-![Three electrons are shown moving in different direction around the nucleus and their motion is similar to planetary motion.](../resources/Figure_18_01_03.jpg 'This simplified (and not to scale) view of an atom is called the planetary model of the atom. Negative electrons orbit a much heavier positive nucleus, as the planets orbit the much heavier sun. There the similarity ends, because forces in the atom are electromagnetic, whereas those in the planetary system are gravitational. Normal macroscopic amounts of matter contain immense numbers of atoms and molecules and, hence, even greater numbers of individual negative and positive charges.')
+![A simplified, not-to-scale atom: a small positive nucleus of protons and neutrons at the center, with three negative electrons e⁻ moving on elliptical orbits around it in different planes, like planets around the sun.](../resources/Figure_18_01_03.svg 'This simplified (and not to scale) view of an atom is called the planetary model of the atom. Negative electrons orbit a much heavier positive nucleus, as the planets orbit the much heavier sun. There the similarity ends, because forces in the atom are electromagnetic, whereas those in the planetary system are gravitational. Normal macroscopic amounts of matter contain immense numbers of atoms and molecules and, hence, even greater numbers of individual negative and positive charges.')
 {: #Figure3}
 
 The charges of electrons and protons are identical in magnitude but opposite in

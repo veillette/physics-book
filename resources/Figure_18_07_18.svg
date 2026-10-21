@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="380" viewBox="0 0 400 380" role="img" aria-labelledby="title desc">
+<title id="title">Point charges at the corners of an equilateral triangle</title>
+<desc id="desc">Point charges qa at the top corner, qb at the lower right corner and qc at the lower left corner of an equilateral triangle 25.0 cm on a side.</desc>
+<rect width="400" height="380" fill="#ffffff"/>
+<polygon points="200,50 350,309.81 50,309.81" fill="none" stroke="#999999" stroke-width="1.2"/>
+<circle cx="200" cy="50" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="220" y="63.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">a</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<circle cx="350" cy="309.81" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="370" y="322.91" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">b</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<circle cx="50" cy="309.81" r="13" fill="#f7e24a" stroke="#a07a1c" stroke-width="1.5"/>
+<text x="30" y="322.91" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">q</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">c</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+</svg>

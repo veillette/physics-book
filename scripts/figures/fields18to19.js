@@ -11,8 +11,8 @@
  * seen end-on), which is enough for a qualitative sketch.
  *
  * Names follow concept_CC_SS_pNN for the NNth problem of section CC.SS. The
- * point-charge, contour, and field-line helpers are exported for the chapter
- * 19 figures (scripts/figures/ch19.js).
+ * point-charge, contour, field-line and Laplace-solver helpers are exported
+ * for the chapter 18 and 19 figures (scripts/figures/ch18.js and ch19.js).
  */
 import { COLORS, Svg } from './svg.js';
 
@@ -299,7 +299,7 @@ function inside(poly, x, y) {
   return c;
 }
 
-function signedArea(poly) {
+export function signedArea(poly) {
   let a = 0;
   for (let i = 0, j = poly.length - 1; i < poly.length; j = i, i += 1) {
     a += poly[j][0] * poly[i][1] - poly[i][0] * poly[j][1];
@@ -312,7 +312,7 @@ function signedArea(poly) {
 // { poly, V }; `outer(x, y)` gives the potential on the domain boundary, and
 // cells farther than `radius` from the centre (if given) are held at it too.
 
-function solveLaplace({ box, step, conductors, outer, radius, iters = 4000, omega = 1.94 }) {
+export function solveLaplace({ box, step, conductors, outer, radius, iters = 4000, omega = 1.94 }) {
   const nx = Math.round(box.w / step) + 1;
   const ny = Math.round(box.h / step) + 1;
   const v = new Float64Array(nx * ny);
@@ -376,7 +376,7 @@ function solveLaplace({ box, step, conductors, outer, radius, iters = 4000, omeg
  * Surface-charge marks: walk the outline and drop a "+" or "−" each time the
  * accumulated |E·n| ds reaches `quantum`, so mark spacing shows the density.
  */
-function chargeMarks(svg, poly, E, { count, offset = 4, inset = 9, size = 15 }) {
+export function chargeMarks(svg, poly, E, { count, offset = 4, inset = 9, size = 15 }) {
   const orient = signedArea(poly) > 0 ? 1 : -1;
   const sigmaAt = (x, y, nx, ny) => {
     const [ex, ey] = E(x + nx * offset, y + ny * offset);
@@ -405,7 +405,7 @@ function chargeMarks(svg, poly, E, { count, offset = 4, inset = 9, size = 15 }) 
 }
 
 /** Call fn(x, y, nx, ny, ds) at small steps around the outline (outward normal). */
-function walkOutline(poly, orient, fn) {
+export function walkOutline(poly, orient, fn) {
   for (let i = 0; i < poly.length; i += 1) {
     const P = poly[i];
     const Q = poly[(i + 1) % poly.length];
@@ -524,7 +524,7 @@ function rodFieldLines(svg, charges, box, { perCharge = 5 } = {}) {
 
 // Positions along the rod from its lower-left end (0) to its upper-right end
 // (1), read from the question figures.
-const ROD_18 = [0.02, 0.4, 0.44, 0.67, 0.82, 0.85, 0.88, 0.9, 0.92, 0.94, 0.96, 0.98];
+export const ROD_18 = [0.02, 0.4, 0.44, 0.67, 0.82, 0.85, 0.88, 0.9, 0.92, 0.94, 0.96, 0.98];
 export const ROD_19 = [0.02, 0.38, 0.42, 0.45, 0.6, 0.82, 0.86, 0.88, 0.91, 0.94, 0.96, 0.98];
 
 // ---------------------------------------------------------------------------
