@@ -4,33 +4,34 @@ Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
-| Script                  | Command                           | Description                       |
-| ----------------------- | --------------------------------- | --------------------------------- |
-| content                 | `npm run check:content`           | Validate and fix content quality  |
-| equations               | `npm run check:equations`         | Validate and fix equations        |
-| check-links             | `npm run check:links`             | Validate internal/external links  |
-| check-orphans           | `npm run check:orphans`           | Find unreferenced files           |
-| check-figures           | `npm run check:figures`           | Validate figure references        |
-| check-math              | `npm run check:math`              | Check LaTeX delimiter balance     |
-| find-unrendered-latex   | `npm run find:latex`              | Check math rendering in Chromium  |
-| check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility  |
-| check-yaml              | `npm run check:yaml`              | Validate YAML front matter        |
-| check-structure         | `npm run check:structure`         | Validate document structure       |
-| check-cross-references  | `npm run check:cross-refs`        | Validate cross-references         |
-| lint-markdown           | `npm run lint:markdown`           | Lint markdown files               |
-| generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters          |
-| generate-icons          | `npm run generate:icons`          | Generate PWA icons                |
-| generate-fbd            | `npm run generate:fbd`            | Generate free-body diagram SVGs   |
-| generate-figures        | `npm run generate:figures`        | Generate line-art figure SVGs     |
-| generate-sketches       | `npm run generate:sketches`       | Generate kinematics sketch SVGs   |
-| build-index             | `npm run generate:search-index`   | Generate search index             |
-| parse-summary           | `npm run parse:summary`           | Generate summary.json             |
-| update-front-matter     | `npm run update:front-matter`     | Update YAML front matter          |
-| rename-figures          | `npm run update:figures`          | Rename figures and update refs    |
-| convert-webp            | `npm run convert:webp`            | Convert images to WebP            |
-| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters          |
-| validate-deploy         | `npm run deploy:validate`         | Validate deployment               |
-| crawl-all-pages         | `npm run crawl`                   | Navigate all pages to find errors |
+| Script                  | Command                           | Description                         |
+| ----------------------- | --------------------------------- | ----------------------------------- |
+| content                 | `npm run check:content`           | Validate and fix content quality    |
+| equations               | `npm run check:equations`         | Validate and fix equations          |
+| check-links             | `npm run check:links`             | Validate internal/external links    |
+| check-orphans           | `npm run check:orphans`           | Find unreferenced files             |
+| check-figures           | `npm run check:figures`           | Validate figure references          |
+| check-math              | `npm run check:math`              | Check LaTeX delimiter balance       |
+| check_math              | `npm run check:physics`           | Verify arithmetic and physics cases |
+| find-unrendered-latex   | `npm run find:latex`              | Check math rendering in Chromium    |
+| check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility    |
+| check-yaml              | `npm run check:yaml`              | Validate YAML front matter          |
+| check-structure         | `npm run check:structure`         | Validate document structure         |
+| check-cross-references  | `npm run check:cross-refs`        | Validate cross-references           |
+| lint-markdown           | `npm run lint:markdown`           | Lint markdown files                 |
+| generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters            |
+| generate-icons          | `npm run generate:icons`          | Generate PWA icons                  |
+| generate-fbd            | `npm run generate:fbd`            | Generate free-body diagram SVGs     |
+| generate-figures        | `npm run generate:figures`        | Generate line-art figure SVGs       |
+| generate-sketches       | `npm run generate:sketches`       | Generate kinematics sketch SVGs     |
+| build-index             | `npm run generate:search-index`   | Generate search index               |
+| parse-summary           | `npm run parse:summary`           | Generate summary.json               |
+| update-front-matter     | `npm run update:front-matter`     | Update YAML front matter            |
+| rename-figures          | `npm run update:figures`          | Rename figures and update refs      |
+| convert-webp            | `npm run convert:webp`            | Convert images to WebP              |
+| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters            |
+| validate-deploy         | `npm run deploy:validate`         | Validate deployment                 |
+| crawl-all-pages         | `npm run crawl`                   | Navigate all pages to find errors   |
 
 ---
 
@@ -182,6 +183,139 @@ Checks for unbalanced LaTeX math delimiters.
 ```bash
 npm run check:math               # Check contents/ directory
 ```
+
+### check_math.py
+
+Verifies numerical equalities with units and recomputes selected example and
+exercise answers using reusable physics relations. It uses only the Python
+standard library. `physics_latex.py` handles supported LaTeX and the unit registry,
+`physics_quantity.py` evaluates quantities, and `physics_cases.py` binds cases to
+their textbook sources. The relations and cases live in `physics-cases.json`.
+
+```bash
+npm run check:physics
+python3 -B scripts/check_math.py --range 1-10
+python3 -B scripts/check_math.py --file contents/ch2FallingObjects.md
+python3 -B scripts/check_math.py --details
+python3 -B scripts/check_math.py --json > physics-report.json
+python3 -B scripts/check_math.py --no-scan --strict
+python3 -B -m unittest tests/test_check_math.py
+```
+
+The report distinguishes three outcomes:
+
+- **checked**: both sides were evaluated, their dimensions agree, and their SI
+  values agree within rounding and tolerance.
+- **failed**: the numeric values or dimensions disagree, a calculation is
+  undefined, or a required case cannot resolve its source references.
+- **skipped**: automatic verification could not evaluate the notation, such as an
+  unbound variable or unknown unit. Each result carries a reason. A math span
+  without a supported equality is also counted as skipped.
+
+A chain such as `v = 2 m + 3 m = 5 m` produces a skipped symbolic comparison and
+a checked numeric comparison. Counts describe comparisons and standalone math
+spans, not the number of exercises proven correct. The summary groups skip
+reasons; `--details` and `--json` include each result and its specific reason.
+JSON output is an object with `summary` and `results`, including successful and
+skipped results. Numeric diagnostics use SI values.
+
+`--strict` exits 1 if any result failed; skips alone do not fail the command.
+`--min-error` filters displayed numeric failures without changing coverage or
+strict exit status. `--no-cases` (also `--no-worked`) disables declarative cases.
+`--cases PATH` supplies another case document. File and chapter filters apply to
+both the scan and cases. A whole-book run includes required cases whose source
+files have disappeared. CI requires the source-bound cases to pass; the broader
+automatic scan remains a review report because some equations use conventions
+or notation that need interpretation.
+
+The evaluator preserves dimensions and converts units to SI throughout addition,
+multiplication, division, powers, roots, and supported functions. Both sides may
+be expressions. It never accepts an unexplained power-of-ten difference as a
+prefix conversion. Radians are dimensionless in SI, with angle conversions
+preserved. Celsius and Fahrenheit literals denote absolute temperatures;
+`temperature: "interval"` explicitly marks temperature differences in cases.
+There is no automatic retry under a different temperature interpretation.
+For an equation explicitly calculating a temperature change, an invisible
+`<!-- physics-scan: temperature=interval -->` comment immediately before its
+math span selects interval units for the automatic scan. This annotation must
+be chosen from the meaning of the equation; it should not be applied to an
+absolute temperature or an absolute-plus-interval calculation. Unknown
+annotation values fail visibly.
+
+Decimal literals carry half a unit in the last printed place. Relation
+coefficients, integer inputs, and exponents are exact; a standalone displayed
+integer answer may be rounded to the nearest unit. Rounding bounds propagate
+through operations and SI conversions. `exact: true` overrides rounding for an
+exact source quantity. The relative tolerance defaults to 1% (`--tolerance PCT`)
+and at least 5% for approximate equalities. A check may set its own `tolerance`
+in percent. These bounds accommodate printed precision; they do not establish
+that the physical model or reasoning is appropriate.
+
+#### Adding a source-bound case
+
+Give the example container or exercise div a stable, unique ID. Existing IDs
+are preserved. Add invisible markers immediately before the math quantities
+needed by the case:
+
+```markdown
+:::: example {"class":"example","id":"constant-acceleration-demo"}
+
+<!-- physics: initial -->$$v_0=13.0\ms$$
+<!-- physics: acceleration -->$$a=-9.80\mss$$
+<!-- physics: time -->$$t=2.00\s$$
+<!-- physics: answer -->$$v=-6.60\ms$$
+
+::::
+```
+
+Add a case to `physics-cases.json` using the existing relation:
+
+```json
+{
+  "id": "constant-acceleration-demo",
+  "file": "ch2FallingObjects.md",
+  "source_id": "constant-acceleration-demo",
+  "inputs": {
+    "v0": { "marker": "initial" },
+    "a": { "marker": "acceleration" },
+    "t": { "marker": "time" }
+  },
+  "checks": [
+    {
+      "id": "velocity",
+      "relation": "constant_acceleration_velocity",
+      "arguments": { "v0": "v0", "a": "a", "t": "t" },
+      "expected": { "marker": "answer" }
+    }
+  ]
+}
+```
+
+Inputs and expected answers come from the referenced source block. Markers and
+patterns must match exactly once within that block. A missing or duplicated
+source ID, marker, or pattern fails visibly, even if the same number appears
+elsewhere. References read the last nonempty equality segment by default.
+`segment` selects another segment; multi-row equations require an explicit `row`
+(negative indices count from the end).
+
+A reference may instead provide a `pattern` with a named `(?P<value>...)`
+capture. `{number}` in patterns expands to the shared signed-number pattern.
+`format: "prose"` reads a number and unit from prose; `format: "count"` reads an
+exact spelled-out count from one through four. A `unit` annotation supplies an
+omitted unit only when the captured expression has no unit. It cannot override
+an explicit unit. For a narrative example outside an existing container, an
+invisible `<!-- physics-scope: unique-id -->` / `<!-- /physics-scope -->` pair can
+define the source block without changing the layout.
+
+Each relation declares its `inputs` and an arithmetic `expression`. Expressions
+use a restricted parser, without Python `eval`, arbitrary functions, or imports.
+Case `arguments` bind source inputs to the relation's parameters. Optional
+`derived` quantities apply relations in declaration order for multistep models.
+`constants` records exact model assumptions or definitions, such as the chosen
+standard gravitational acceleration; it should not duplicate problem givens or
+expected answers. Existing relations cover kinematics, energy, forces, circuits,
+and radioactive decay. The tests deliberately alter signs, exponents, units,
+givens, answers, and source bindings in temporary fixtures to verify detection.
 
 ### find-unrendered-latex.js
 
@@ -534,7 +668,7 @@ Scripts use these npm packages:
 
 For physics calculation verification:
 
-- `python` - Python 3.x (for scripts/check_math.py)
+- `python` - Python 3.10 or newer (for scripts/check_math.py; CI uses Python 3.12)
 
 The build and development server generate the search index automatically. Run `npm run update:minisearch` after updating MiniSearch to refresh its self-hosted browser module and license.
 

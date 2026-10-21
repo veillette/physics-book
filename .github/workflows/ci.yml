@@ -90,8 +90,11 @@ jobs:
       - name: Test the physics checker
         run: python -B -m unittest tests/test_check_math.py
 
-      - name: Verify physics calculations
+      - name: Scan equations and report coverage
         run: python -B scripts/check_math.py
+
+      - name: Verify source-bound physics cases
+        run: python -B scripts/check_math.py --no-scan --strict
 
   link-check:
     name: Link Check

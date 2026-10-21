@@ -76,6 +76,15 @@ describe('math rendering with Kramdown-compatible delimiters', () => {
     expect(out).toContain(span('x^2_0'));
   });
 
+  it('preserves math rendering beside physics verification annotations', () => {
+    const display = md.render('<!-- physics: answer -->\n$$x^2$$');
+    expect(display).toContain(blockDiv('x^2'));
+    const interval = md.render('<!-- physics-scan: temperature=interval -->\n$$20-10=10$$');
+    expect(interval).toContain(blockDiv('20-10=10'));
+    const table = md.render('| Answer |\n| --- |\n| <!-- physics: answer -->$$x^2$$ |');
+    expect(load(table)('td').text()).toBe(span('x^2'));
+  });
+
   it('renders math inside a container', () => {
     const out = md.render(['::: example', '', 'Energy is $$E=mc^2$$.', '', ':::'].join('\n'));
     expect(out).toContain('<div class="example">');

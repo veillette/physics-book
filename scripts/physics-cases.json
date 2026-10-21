@@ -1,0 +1,2066 @@
+{
+  "version": 1,
+  "relations": {
+    "constant_acceleration_velocity": {
+      "inputs": ["v0", "a", "t"],
+      "expression": "v0+a*t"
+    },
+    "constant_acceleration_position": {
+      "inputs": ["y0", "v0", "a", "t"],
+      "expression": "y0+v0*t+a*t^2/2"
+    },
+    "constant_acceleration_speed_squared": {
+      "inputs": ["v0", "a", "displacement"],
+      "expression": "v0^2+2*a*displacement"
+    },
+    "acceleration_from_drop": {
+      "inputs": ["displacement", "t"],
+      "expression": "2*displacement/t^2"
+    },
+    "free_fall_time": {
+      "inputs": ["height", "g"],
+      "expression": "sqrt(2*height/g)"
+    },
+    "vertical_component": {
+      "inputs": ["speed", "angle"],
+      "expression": "speed*sin(angle)"
+    },
+    "horizontal_component": {
+      "inputs": ["speed", "angle"],
+      "expression": "speed*cos(angle)"
+    },
+    "projectile_height": {
+      "inputs": ["vy", "g"],
+      "expression": "vy^2/(2*g)"
+    },
+    "ascent_time": {
+      "inputs": ["vy", "g"],
+      "expression": "vy/g"
+    },
+    "displacement": {
+      "inputs": ["speed", "t"],
+      "expression": "speed*t"
+    },
+    "projectile_time": {
+      "inputs": ["vy", "height", "g"],
+      "expression": "(vy+sqrt(vy^2+2*g*height))/g"
+    },
+    "speed_from_components": {
+      "inputs": ["vx", "vy"],
+      "expression": "sqrt(vx^2+vy^2)"
+    },
+    "velocity_angle": {
+      "inputs": ["vx", "vy"],
+      "expression": "arctan(vy/vx)"
+    },
+    "newton_acceleration": {
+      "inputs": ["force", "mass"],
+      "expression": "force/mass"
+    },
+    "newton_force": {
+      "inputs": ["mass", "acceleration"],
+      "expression": "mass*acceleration"
+    },
+    "thrust": {
+      "inputs": ["mass", "acceleration", "friction"],
+      "expression": "mass*acceleration+friction"
+    },
+    "divide": {
+      "inputs": ["value", "divisor"],
+      "expression": "value/divisor"
+    },
+    "multiply": {
+      "inputs": ["left", "right"],
+      "expression": "left*right"
+    },
+    "friction_coefficient": {
+      "inputs": ["force", "mass", "g", "angle"],
+      "expression": "force/(mass*g*cos(angle))"
+    },
+    "friction_force": {
+      "inputs": ["coefficient", "mass", "g"],
+      "expression": "coefficient*mass*g"
+    },
+    "crate_acceleration": {
+      "inputs": ["static", "kinetic", "g"],
+      "expression": "(static-kinetic)*g"
+    },
+    "centripetal_force": {
+      "inputs": ["mass", "speed", "radius"],
+      "expression": "mass*speed^2/radius"
+    },
+    "centripetal_angular_force": {
+      "inputs": ["mass", "radius", "omega"],
+      "expression": "mass*radius*omega^2"
+    },
+    "curve_friction": {
+      "inputs": ["speed", "radius", "g"],
+      "expression": "speed^2/(radius*g)"
+    },
+    "banked_speed": {
+      "inputs": ["radius", "g", "angle"],
+      "expression": "sqrt(radius*g*tan(angle))"
+    },
+    "banking_angle": {
+      "inputs": ["speed", "radius", "g"],
+      "expression": "arctan(speed^2/(radius*g))"
+    },
+    "kinetic_energy": {
+      "inputs": ["mass", "speed"],
+      "expression": "mass*speed^2/2"
+    },
+    "net_work": {
+      "inputs": ["applied", "friction", "distance"],
+      "expression": "(applied-friction)*distance"
+    },
+    "energy_speed": {
+      "inputs": ["mass", "initial_energy", "work"],
+      "expression": "sqrt(2*(initial_energy+work)/mass)"
+    },
+    "coasting_distance": {
+      "inputs": ["energy", "friction"],
+      "expression": "energy/friction"
+    },
+    "elastic_first_velocity": {
+      "inputs": ["m1", "m2", "v1", "v2"],
+      "expression": "((m1-m2)*v1+2*m2*v2)/(m1+m2)"
+    },
+    "elastic_second_velocity": {
+      "inputs": ["m1", "m2", "v1", "v2"],
+      "expression": "(2*m1*v1+(m2-m1)*v2)/(m1+m2)"
+    },
+    "seesaw_distance": {
+      "inputs": ["m1", "r1", "m2"],
+      "expression": "m1*r1/m2"
+    },
+    "support_force": {
+      "inputs": ["mass", "g"],
+      "expression": "mass*g"
+    },
+    "seesaw_board_distance": {
+      "inputs": ["m1", "r1", "board_mass", "board_offset", "m2"],
+      "expression": "(m1*r1+board_mass*board_offset)/m2"
+    },
+    "torque": {
+      "inputs": ["force", "radius"],
+      "expression": "force*radius"
+    },
+    "door_balance": {
+      "inputs": ["force", "radius", "other_radius"],
+      "expression": "force*radius/other_radius"
+    },
+    "rotational_work": {
+      "inputs": ["force", "radius", "angle"],
+      "expression": "force*radius*angle"
+    },
+    "disk_inertia": {
+      "inputs": ["mass", "radius"],
+      "expression": "mass*radius^2/2"
+    },
+    "angular_acceleration": {
+      "inputs": ["torque", "inertia"],
+      "expression": "torque/inertia"
+    },
+    "angular_velocity": {
+      "inputs": ["omega0", "acceleration", "angle"],
+      "expression": "sqrt(omega0^2+2*acceleration*angle)"
+    },
+    "rod_inertia": {
+      "inputs": ["count", "mass", "length"],
+      "expression": "count*mass*length^2/3"
+    },
+    "gravitational_height": {
+      "inputs": ["energy", "mass", "g"],
+      "expression": "energy/(mass*g)"
+    },
+    "rolling_cylinder_speed": {
+      "inputs": ["g", "height"],
+      "expression": "sqrt(4*g*height/3)"
+    },
+    "volume_from_density": {
+      "inputs": ["mass", "density"],
+      "expression": "mass/density"
+    },
+    "buoyant_force": {
+      "inputs": ["density", "volume", "g"],
+      "expression": "density*volume*g"
+    },
+    "hydrostatic_density": {
+      "inputs": ["mass", "apparent", "water_density"],
+      "expression": "water_density*mass/(mass-apparent)"
+    },
+    "ohms_law": {
+      "inputs": ["voltage", "resistance"],
+      "expression": "voltage/resistance"
+    },
+    "electrical_power": {
+      "inputs": ["voltage", "current"],
+      "expression": "voltage*current"
+    },
+    "radioactive_decay": {
+      "inputs": ["initial", "time", "half_life"],
+      "expression": "initial*exp(-ln(2)*time/half_life)"
+    },
+    "radioactive_activity": {
+      "inputs": ["number", "half_life"],
+      "expression": "ln(2)*number/half_life"
+    },
+    "ohm_resistance": {
+      "inputs": ["voltage", "current"],
+      "expression": "voltage/current"
+    },
+    "decay_age": {
+      "inputs": ["fraction", "half_life"],
+      "expression": "-ln(fraction)*half_life/ln(2)"
+    },
+    "two_body_kinetic_energy": {
+      "inputs": ["m1", "m2", "v1", "v2"],
+      "expression": "(m1*v1^2+m2*v2^2)/2"
+    }
+  },
+  "cases": [
+    {
+      "id": "rock-up",
+      "file": "ch2FallingObjects.md",
+      "source_id": "example1",
+      "inputs": {
+        "v0": {
+          "pattern": "initial velocity of (?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        },
+        "a": {
+          "marker": "eq-12"
+        },
+        "y0": {
+          "marker": "eq-10",
+          "unit": "m"
+        },
+        "t1": {
+          "marker": "eq-36"
+        },
+        "t2": {
+          "marker": "eq-40"
+        },
+        "t3": {
+          "marker": "eq-44"
+        }
+      },
+      "checks": [
+        {
+          "id": "position-1",
+          "relation": "constant_acceleration_position",
+          "arguments": {
+            "y0": "y0",
+            "v0": "v0",
+            "a": "a",
+            "t": "t1"
+          },
+          "expected": {
+            "marker": "eq-37"
+          }
+        },
+        {
+          "id": "velocity-1",
+          "relation": "constant_acceleration_velocity",
+          "arguments": {
+            "v0": "v0",
+            "a": "a",
+            "t": "t1"
+          },
+          "expected": {
+            "marker": "eq-38"
+          }
+        },
+        {
+          "id": "position-2",
+          "relation": "constant_acceleration_position",
+          "arguments": {
+            "y0": "y0",
+            "v0": "v0",
+            "a": "a",
+            "t": "t2"
+          },
+          "expected": {
+            "marker": "eq-41"
+          }
+        },
+        {
+          "id": "velocity-2",
+          "relation": "constant_acceleration_velocity",
+          "arguments": {
+            "v0": "v0",
+            "a": "a",
+            "t": "t2"
+          },
+          "expected": {
+            "marker": "eq-42"
+          }
+        },
+        {
+          "id": "position-3",
+          "relation": "constant_acceleration_position",
+          "arguments": {
+            "y0": "y0",
+            "v0": "v0",
+            "a": "a",
+            "t": "t3"
+          },
+          "expected": {
+            "marker": "eq-45"
+          }
+        },
+        {
+          "id": "velocity-3",
+          "relation": "constant_acceleration_velocity",
+          "arguments": {
+            "v0": "v0",
+            "a": "a",
+            "t": "t3"
+          },
+          "expected": {
+            "marker": "eq-46"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rock-down",
+      "file": "ch2FallingObjects.md",
+      "source_id": "example2",
+      "inputs": {
+        "v0": {
+          "marker": "eq-3"
+        },
+        "a": {
+          "marker": "eq-4"
+        },
+        "dy": {
+          "marker": "eq-2"
+        },
+        "y0": {
+          "pattern": "Identify the knowns\\.\\s*\\$\\$\\s*y_\\{0\\}\\s*=\\s*(?P<value>{number})",
+          "unit": "m"
+        }
+      },
+      "checks": [
+        {
+          "id": "speed-squared",
+          "relation": "constant_acceleration_speed_squared",
+          "arguments": {
+            "v0": "v0",
+            "a": "a",
+            "displacement": "dy-y0"
+          },
+          "expected": {
+            "marker": "eq-9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "measured-gravity",
+      "file": "ch2FallingObjects.md",
+      "source_id": "measured-gravity",
+      "inputs": {
+        "dy": {
+          "marker": "eq-2"
+        },
+        "t": {
+          "marker": "eq-3"
+        },
+        "y0": {
+          "pattern": "Identify the knowns\\.\\s*\\$\\$\\s*y_\\{0\\}\\s*=\\s*(?P<value>{number})",
+          "unit": "m"
+        }
+      },
+      "checks": [
+        {
+          "id": "acceleration",
+          "relation": "acceleration_from_drop",
+          "arguments": {
+            "displacement": "dy-y0",
+            "t": "t"
+          },
+          "expected": {
+            "marker": "eq-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-drop",
+      "file": "ch2FallingObjects.md",
+      "source_id": "ice-drop",
+      "inputs": {
+        "height": {
+          "pattern": "falls (?P<value>{number}\\s*-?\\s*meters)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "fall-time",
+          "relation": "free_fall_time",
+          "arguments": {
+            "height": "height",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-6",
+            "row": -1,
+            "segment": -2
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "ball-up-exercise",
+      "file": "ch2FallingObjects.md",
+      "source_id": "ball-up-exercise",
+      "inputs": {
+        "v0": {
+          "pattern": "initial velocity of (?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        },
+        "a": {
+          "pattern": "a\\s*=\\s*-g\\s*=\\s*(?P<value>[^$]+)\\$\\$\\)\\."
+        },
+        "t": {
+          "pattern": "\\(a\\) (?P<value>{number}),",
+          "unit": "s"
+        },
+        "y0": {
+          "pattern": "Take the point of release to be\\s*\\$\\$\\s*y_\\{0\\}\\s*=\\s*(?P<value>{number})",
+          "unit": "m"
+        }
+      },
+      "checks": [
+        {
+          "id": "position",
+          "relation": "constant_acceleration_position",
+          "arguments": {
+            "v0": "v0",
+            "a": "a",
+            "t": "t",
+            "y0": "y0"
+          },
+          "expected": {
+            "marker": "eq-9"
+          }
+        },
+        {
+          "id": "velocity",
+          "relation": "constant_acceleration_velocity",
+          "arguments": {
+            "v0": "v0",
+            "a": "a",
+            "t": "t"
+          },
+          "expected": {
+            "marker": "eq-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "file": "ch3ProjectileMotion.md",
+      "source_id": "fireworks",
+      "inputs": {
+        "speed": {
+          "pattern": "initial speed of\\s+(?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        },
+        "angle": {
+          "marker": "eq-0"
+        }
+      },
+      "checks": [
+        {
+          "id": "vertical-speed",
+          "relation": "vertical_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          },
+          "expected": {
+            "marker": "eq-18"
+          }
+        },
+        {
+          "id": "height",
+          "relation": "projectile_height",
+          "arguments": {
+            "vy": "vy",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-21"
+          }
+        },
+        {
+          "id": "time",
+          "relation": "ascent_time",
+          "arguments": {
+            "vy": "vy",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-26",
+            "row": -1
+          }
+        },
+        {
+          "id": "horizontal-speed",
+          "relation": "horizontal_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          },
+          "expected": {
+            "marker": "eq-35",
+            "pattern": "=\\s*(?P<value>{number}\\s*m/s)\\.",
+            "format": "prose"
+          }
+        },
+        {
+          "id": "range",
+          "relation": "displacement",
+          "arguments": {
+            "speed": "vx",
+            "t": "time"
+          },
+          "expected": {
+            "marker": "eq-38"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      },
+      "derived": {
+        "vy": {
+          "relation": "vertical_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          }
+        },
+        "vx": {
+          "relation": "horizontal_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          }
+        },
+        "time": {
+          "relation": "ascent_time",
+          "arguments": {
+            "vy": "vy",
+            "g": "g"
+          }
+        }
+      }
+    },
+    {
+      "id": "hot-rock",
+      "file": "ch3ProjectileMotion.md",
+      "source_id": "hot-rock",
+      "inputs": {
+        "speed": {
+          "pattern": "with a speed of (?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        },
+        "angle": {
+          "marker": "eq-0"
+        },
+        "height": {
+          "pattern": "an altitude (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "vertical-speed",
+          "relation": "vertical_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          },
+          "expected": {
+            "marker": "eq-8"
+          }
+        },
+        {
+          "id": "horizontal-speed",
+          "relation": "horizontal_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          },
+          "expected": {
+            "marker": "eq-27"
+          }
+        },
+        {
+          "id": "flight-time",
+          "relation": "projectile_time",
+          "arguments": {
+            "vy": "vy0",
+            "height": "height",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-21"
+          }
+        },
+        {
+          "id": "final-vy",
+          "relation": "constant_acceleration_velocity",
+          "arguments": {
+            "v0": "vy0",
+            "a": "-g",
+            "t": "time"
+          },
+          "expected": {
+            "marker": "eq-32"
+          }
+        },
+        {
+          "id": "final-speed",
+          "relation": "speed_from_components",
+          "arguments": {
+            "vx": "vx",
+            "vy": "vy"
+          },
+          "expected": {
+            "marker": "eq-35"
+          }
+        },
+        {
+          "id": "final-angle",
+          "relation": "velocity_angle",
+          "arguments": {
+            "vx": "vx",
+            "vy": "vy"
+          },
+          "expected": {
+            "marker": "eq-39"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      },
+      "derived": {
+        "vy0": {
+          "relation": "vertical_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          }
+        },
+        "vx": {
+          "relation": "horizontal_component",
+          "arguments": {
+            "speed": "speed",
+            "angle": "angle"
+          }
+        },
+        "time": {
+          "relation": "projectile_time",
+          "arguments": {
+            "vy": "vy0",
+            "height": "height",
+            "g": "g"
+          }
+        },
+        "vy": {
+          "relation": "constant_acceleration_velocity",
+          "arguments": {
+            "v0": "vy0",
+            "a": "-g",
+            "t": "time"
+          }
+        }
+      }
+    },
+    {
+      "id": "lawn-mower",
+      "file": "ch4NewtonsSecondLawOfMotion.md",
+      "source_id": "lawn-mower",
+      "inputs": {
+        "force": {
+          "pattern": "exerted on a lawn mower is (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "mass": {
+          "pattern": "mass of the mower is (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "acceleration",
+          "relation": "newton_acceleration",
+          "arguments": {
+            "force": "force",
+            "mass": "mass"
+          },
+          "expected": {
+            "marker": "eq-7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rocket-sled",
+      "file": "ch4NewtonsSecondLawOfMotion.md",
+      "source_id": "example2",
+      "inputs": {
+        "mass": {
+          "pattern": "mass of the system is (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "acceleration": {
+          "marker": "eq-1"
+        },
+        "friction": {
+          "pattern": "known to be\\s+(?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "count": {
+          "pattern": "the\\s+(?P<value>four)-rocket",
+          "format": "count"
+        }
+      },
+      "checks": [
+        {
+          "id": "total-thrust",
+          "relation": "thrust",
+          "arguments": {
+            "mass": "mass",
+            "acceleration": "acceleration",
+            "friction": "friction"
+          },
+          "expected": {
+            "marker": "eq-9"
+          },
+          "tolerance": 4
+        },
+        {
+          "id": "per-engine",
+          "relation": "divide",
+          "arguments": {
+            "value": "total",
+            "divisor": "count"
+          },
+          "expected": {
+            "marker": "eq-10"
+          }
+        }
+      ],
+      "derived": {
+        "total": {
+          "relation": "thrust",
+          "arguments": {
+            "mass": "mass",
+            "acceleration": "acceleration",
+            "friction": "friction"
+          }
+        }
+      }
+    },
+    {
+      "id": "sprinter",
+      "file": "ch4NewtonsSecondLawOfMotion.md",
+      "source_id": "sprinter",
+      "inputs": {
+        "mass": {
+          "pattern": "A (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "acceleration": {
+          "marker": "eq-0"
+        }
+      },
+      "checks": [
+        {
+          "id": "answer",
+          "relation": "newton_force",
+          "arguments": {
+            "mass": "mass",
+            "acceleration": "acceleration"
+          },
+          "expected": {
+            "marker": "eq-4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "laundry-cart",
+      "file": "ch4NewtonsSecondLawOfMotion.md",
+      "source_id": "laundry-cart",
+      "inputs": {
+        "mass": {
+          "pattern": "pushes a (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "force": {
+          "pattern": "force on it is (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "answer",
+          "relation": "newton_acceleration",
+          "arguments": {
+            "force": "force",
+            "mass": "mass"
+          },
+          "expected": {
+            "marker": "eq-4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "skier",
+      "file": "ch5Friction.md",
+      "source_id": "example1",
+      "inputs": {
+        "mass": {
+          "pattern": "mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "force": {
+          "pattern": "known to be (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "angle": {
+          "marker": "eq-2",
+          "pattern": "^\\s*\\\\mag\\{N\\}=.*?cos\\{\\s*(?P<value>{number}\\^\\\\circ)\\s*\\}"
+        }
+      },
+      "checks": [
+        {
+          "id": "coefficient",
+          "relation": "friction_coefficient",
+          "arguments": {
+            "force": "force",
+            "mass": "mass",
+            "g": "g",
+            "angle": "angle"
+          },
+          "expected": {
+            "marker": "eq-7"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "crate-friction",
+      "file": "ch5Friction.md",
+      "source_id": "crate-friction",
+      "inputs": {
+        "mass": {
+          "pattern": "mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "static": {
+          "pattern": "static friction is (?P<value>{number}),"
+        },
+        "kinetic": {
+          "pattern": "kinetic friction might be (?P<value>{number}),"
+        }
+      },
+      "checks": [
+        {
+          "id": "static-friction",
+          "relation": "friction_force",
+          "arguments": {
+            "coefficient": "static",
+            "mass": "mass",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-1"
+          },
+          "tolerance": 2
+        },
+        {
+          "id": "kinetic-friction",
+          "relation": "friction_force",
+          "arguments": {
+            "coefficient": "kinetic",
+            "mass": "mass",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-2"
+          },
+          "tolerance": 2
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "spatula",
+      "file": "ch5Friction.md",
+      "source_id": "spatula",
+      "inputs": {
+        "force": {
+          "pattern": "is only (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "coefficient": {
+          "marker": "eq-0"
+        }
+      },
+      "checks": [
+        {
+          "id": "normal-force",
+          "relation": "divide",
+          "arguments": {
+            "value": "force",
+            "divisor": "coefficient"
+          },
+          "expected": {
+            "marker": "eq-3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wooden-crate",
+      "file": "ch5Friction.md",
+      "source_id": "wooden-crate",
+      "inputs": {
+        "mass": {
+          "pattern": "have a (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "static": {
+          "marker": "eq-0"
+        },
+        "kinetic": {
+          "marker": "eq-1"
+        }
+      },
+      "checks": [
+        {
+          "id": "static-force",
+          "relation": "friction_force",
+          "arguments": {
+            "coefficient": "static",
+            "mass": "mass",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-10"
+          }
+        },
+        {
+          "id": "acceleration",
+          "relation": "crate_acceleration",
+          "arguments": {
+            "static": "static",
+            "kinetic": "kinetic",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-18"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "car-curve",
+      "file": "ch6CentripetalForce.md",
+      "source_id": "car-curve",
+      "inputs": {
+        "mass": {
+          "pattern": "on a (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "radius": {
+          "pattern": "a (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "speed": {
+          "pattern": "curve at (?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "centripetal-force",
+          "relation": "centripetal_force",
+          "arguments": {
+            "mass": "mass",
+            "speed": "speed",
+            "radius": "radius"
+          },
+          "expected": {
+            "marker": "eq-1"
+          }
+        },
+        {
+          "id": "friction",
+          "relation": "curve_friction",
+          "arguments": {
+            "speed": "speed",
+            "radius": "radius",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-11"
+          },
+          "tolerance": 2
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "banked-curve",
+      "file": "ch6CentripetalForce.md",
+      "source_id": "banked-curve",
+      "inputs": {
+        "radius": {
+          "pattern": "a (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "angle": {
+          "pattern": "banked at (?P<value>{number}\\s*-?\\s*°)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "speed",
+          "relation": "banked_speed",
+          "arguments": {
+            "radius": "radius",
+            "angle": "angle",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-3",
+            "row": -1
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "merry-go-round",
+      "file": "ch6CentripetalForce.md",
+      "source_id": "merry-go-round",
+      "inputs": {
+        "mass": {
+          "pattern": "A (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "radius": {
+          "pattern": "moving in a circle if she is (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "omega": {
+          "pattern": "rotating at (?P<value>{number}\\s*-?\\s*rev/min)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "force",
+          "relation": "centripetal_angular_force",
+          "arguments": {
+            "mass": "mass",
+            "radius": "radius",
+            "omega": "omega"
+          },
+          "expected": {
+            "marker": "eq-8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "highway-banking",
+      "file": "ch6CentripetalForce.md",
+      "source_id": "highway-banking",
+      "inputs": {
+        "radius": {
+          "pattern": "turn of (?P<value>{number}\\s*-?\\s*km)",
+          "format": "prose"
+        },
+        "speed": {
+          "pattern": "with a (?P<value>{number}\\s*-?\\s*km/h)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "angle",
+          "relation": "banking_angle",
+          "arguments": {
+            "radius": "radius",
+            "speed": "speed",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-17"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "package-energy",
+      "file": "ch7KineticEnergyAndTheWorkEnergyTheorem.md",
+      "source_id": "package-energy",
+      "inputs": {
+        "mass": {
+          "pattern": "Suppose a (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "speed": {
+          "pattern": "moving at (?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "energy",
+          "relation": "kinetic_energy",
+          "arguments": {
+            "mass": "mass",
+            "speed": "speed"
+          },
+          "expected": {
+            "marker": "eq-5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "package-work",
+      "file": "ch7KineticEnergyAndTheWorkEnergyTheorem.md",
+      "source_id": "package-work",
+      "inputs": {
+        "applied": {
+          "pattern": "constant force of (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "distance": {
+          "pattern": "distance of (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "friction": {
+          "pattern": "averages (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "net-work",
+          "relation": "net_work",
+          "arguments": {
+            "applied": "applied",
+            "distance": "distance",
+            "friction": "friction"
+          },
+          "expected": {
+            "marker": "eq-1",
+            "row": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "package-speed",
+      "file": "ch7KineticEnergyAndTheWorkEnergyTheorem.md",
+      "source_id": "example3",
+      "inputs": {
+        "initial": {
+          "marker": "eq-7",
+          "pattern": "\\+\\s*(?P<value>{number}\\s*\\\\J)"
+        },
+        "work": {
+          "marker": "eq-7",
+          "pattern": "=\\s*(?P<value>{number}\\s*\\\\J)\\+"
+        },
+        "mass": {
+          "marker": "eq-8",
+          "pattern": "\\}\\{(?P<value>{number}\\s*\\\\kg)"
+        }
+      },
+      "checks": [
+        {
+          "id": "speed",
+          "relation": "energy_speed",
+          "arguments": {
+            "mass": "mass",
+            "initial_energy": "initial",
+            "work": "work"
+          },
+          "expected": {
+            "marker": "eq-8",
+            "row": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "package-coast",
+      "file": "ch7KineticEnergyAndTheWorkEnergyTheorem.md",
+      "source_id": "package-coast",
+      "inputs": {
+        "work": {
+          "marker": "eq-2"
+        },
+        "friction": {
+          "marker": "eq-5",
+          "pattern": "\\}\\{(?P<value>{number}\\s*\\\\N)"
+        }
+      },
+      "checks": [
+        {
+          "id": "distance",
+          "relation": "coasting_distance",
+          "arguments": {
+            "energy": "-work",
+            "friction": "friction"
+          },
+          "expected": {
+            "marker": "eq-6"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elastic-collision",
+      "file": "ch8ElasticCollisionsInOneDimension.md",
+      "source_id": "elastic-collision",
+      "inputs": {
+        "m1": {
+          "marker": "eq-0",
+          "pattern": "m_\\{1\\}=(?P<value>[^,]+)"
+        },
+        "m2": {
+          "marker": "eq-0",
+          "pattern": "m_\\{2\\}=(?P<value>[^,]+)"
+        },
+        "v1": {
+          "marker": "eq-0",
+          "pattern": "v_\\{1\\}=(?P<value>[^,]+)"
+        },
+        "v2": {
+          "marker": "eq-0",
+          "pattern": "v_\\{2\\}\\s*=\\s*(?P<value>{number})\\s*\\.",
+          "unit": "m/s"
+        }
+      },
+      "checks": [
+        {
+          "id": "first-velocity",
+          "relation": "elastic_first_velocity",
+          "arguments": {
+            "m1": "m1",
+            "m2": "m2",
+            "v1": "v1",
+            "v2": "v2"
+          },
+          "expected": {
+            "marker": "eq-14"
+          }
+        },
+        {
+          "id": "second-velocity",
+          "relation": "elastic_second_velocity",
+          "arguments": {
+            "m1": "m1",
+            "m2": "m2",
+            "v1": "v1",
+            "v2": "v2"
+          },
+          "expected": {
+            "marker": "eq-18"
+          }
+        },
+        {
+          "id": "kinetic-energy",
+          "relation": "two_body_kinetic_energy",
+          "arguments": {
+            "m1": "m1",
+            "m2": "m2",
+            "v1": "v1",
+            "v2": "v2"
+          },
+          "expected": {
+            "pattern": "unchanged at (?P<value>{number}\\s*-?\\s*J)",
+            "format": "prose"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seesaw",
+      "file": "ch9TheSecondConditionForEquilibrium.md",
+      "source_id": "example1",
+      "inputs": {
+        "m1": {
+          "pattern": "first child has a mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "m2": {
+          "pattern": "second child has a mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "r1": {
+          "pattern": "sits (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "distance",
+          "relation": "seesaw_distance",
+          "arguments": {
+            "m1": "m1",
+            "r1": "r1",
+            "m2": "m2"
+          },
+          "expected": {
+            "marker": "eq-18"
+          }
+        },
+        {
+          "id": "pivot-force",
+          "relation": "support_force",
+          "arguments": {
+            "mass": "m1+m2",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-25",
+            "row": -1
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "seesaw-board",
+      "file": "ch9TheSecondConditionForEquilibrium.md",
+      "source_id": "seesaw-board",
+      "inputs": {
+        "m1": {
+          "marker": "eq-0",
+          "pattern": "m_\\{1\\}&=&\\s*(?P<value>[^,]+)"
+        },
+        "m2": {
+          "marker": "eq-0",
+          "pattern": "m_\\{2\\}=\\s*(?P<value>[^,]+)"
+        },
+        "board": {
+          "pattern": "a mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "offset": {
+          "pattern": "seesaw (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "r1": {
+          "marker": "eq-0",
+          "pattern": "r_\\{1\\}&=&\\s*(?P<value>[^,]+)"
+        }
+      },
+      "checks": [
+        {
+          "id": "distance",
+          "relation": "seesaw_board_distance",
+          "arguments": {
+            "m1": "m1",
+            "r1": "r1",
+            "m2": "m2",
+            "board_mass": "board",
+            "board_offset": "offset"
+          },
+          "expected": {
+            "marker": "eq-3",
+            "row": -1
+          }
+        },
+        {
+          "id": "pivot-force",
+          "relation": "support_force",
+          "arguments": {
+            "mass": "m1+m2+board",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-5",
+            "row": -1
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "door-torque",
+      "file": "ch9TheSecondConditionForEquilibrium.md",
+      "source_id": "door-torque",
+      "inputs": {
+        "force": {
+          "pattern": "force of (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "radius": {
+          "pattern": "distance of (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "torque",
+          "relation": "torque",
+          "arguments": {
+            "force": "force",
+            "radius": "radius"
+          },
+          "expected": {
+            "marker": "eq-7"
+          }
+        }
+      ]
+    },
+    {
+      "id": "door-children",
+      "file": "ch9TheSecondConditionForEquilibrium.md",
+      "source_id": "door-children",
+      "inputs": {
+        "force": {
+          "pattern": "force of (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "radius": {
+          "pattern": "One child pushes with a force of {number} N at a distance of (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "other_radius": {
+          "pattern": "second child pushes at a distance of (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "force",
+          "relation": "door_balance",
+          "arguments": {
+            "force": "force",
+            "radius": "radius",
+            "other_radius": "other_radius"
+          },
+          "expected": {
+            "marker": "eq-0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grindstone",
+      "file": "ch10RotationalKineticEnergy.md",
+      "source_id": "grindstone",
+      "inputs": {
+        "force": {
+          "pattern": "force of (?P<value>{number}\\s*-?\\s*N)",
+          "format": "prose"
+        },
+        "radius": {
+          "pattern": "grindstone’s (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "mass": {
+          "pattern": "mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "angle": {
+          "marker": "eq-0",
+          "pattern": "^\\s*(?P<value>{number}\\s*\\\\text\\{rad\\})"
+        },
+        "omega0": {
+          "marker": "initial-omega",
+          "unit": "rad/s"
+        }
+      },
+      "checks": [
+        {
+          "id": "work",
+          "relation": "rotational_work",
+          "arguments": {
+            "force": "force",
+            "radius": "radius",
+            "angle": "angle"
+          },
+          "expected": {
+            "marker": "eq-10"
+          }
+        },
+        {
+          "id": "inertia",
+          "relation": "disk_inertia",
+          "arguments": {
+            "mass": "mass",
+            "radius": "radius"
+          },
+          "expected": {
+            "marker": "eq-18"
+          }
+        },
+        {
+          "id": "acceleration",
+          "relation": "angular_acceleration",
+          "arguments": {
+            "torque": "torque",
+            "inertia": "inertia"
+          },
+          "expected": {
+            "marker": "eq-20"
+          }
+        },
+        {
+          "id": "angular-velocity",
+          "relation": "angular_velocity",
+          "arguments": {
+            "acceleration": "alpha",
+            "angle": "angle",
+            "omega0": "omega0"
+          },
+          "expected": {
+            "marker": "eq-23"
+          }
+        }
+      ],
+      "derived": {
+        "torque": {
+          "relation": "torque",
+          "arguments": {
+            "force": "force",
+            "radius": "radius"
+          }
+        },
+        "inertia": {
+          "relation": "disk_inertia",
+          "arguments": {
+            "mass": "mass",
+            "radius": "radius"
+          }
+        },
+        "alpha": {
+          "relation": "angular_acceleration",
+          "arguments": {
+            "torque": "torque",
+            "inertia": "inertia"
+          }
+        }
+      }
+    },
+    {
+      "id": "helicopter",
+      "file": "ch10RotationalKineticEnergy.md",
+      "source_id": "helicopter",
+      "inputs": {
+        "blade_mass": {
+          "pattern": "long and has a mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "length": {
+          "pattern": "each is (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        },
+        "mass": {
+          "pattern": "loaded mass of (?P<value>{number}\\s*-?\\s*kg)",
+          "format": "prose"
+        },
+        "omega": {
+          "pattern": "rotate at (?P<value>{number}\\s*-?\\s*rpm)",
+          "format": "prose"
+        },
+        "speed": {
+          "pattern": "flies at (?P<value>{number}\\s*-?\\s*m/s)",
+          "format": "prose"
+        },
+        "count": {
+          "pattern": "has\\s+(?P<value>four) blades",
+          "format": "count"
+        }
+      },
+      "checks": [
+        {
+          "id": "omega",
+          "relation": "multiply",
+          "arguments": {
+            "left": "omega",
+            "right": "1"
+          },
+          "expected": {
+            "marker": "eq-3"
+          }
+        },
+        {
+          "id": "inertia",
+          "relation": "rod_inertia",
+          "arguments": {
+            "count": "count",
+            "mass": "blade_mass",
+            "length": "length"
+          },
+          "expected": {
+            "marker": "eq-5"
+          }
+        },
+        {
+          "id": "rotational-energy",
+          "relation": "kinetic_energy",
+          "arguments": {
+            "mass": "inertia",
+            "speed": "omega"
+          },
+          "expected": {
+            "marker": "eq-8",
+            "row": -1
+          }
+        },
+        {
+          "id": "translational-energy",
+          "relation": "kinetic_energy",
+          "arguments": {
+            "mass": "mass",
+            "speed": "speed"
+          },
+          "expected": {
+            "marker": "eq-9"
+          }
+        },
+        {
+          "id": "height",
+          "relation": "gravitational_height",
+          "arguments": {
+            "energy": "energy",
+            "mass": "mass",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-14"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      },
+      "derived": {
+        "inertia": {
+          "relation": "rod_inertia",
+          "arguments": {
+            "count": "count",
+            "mass": "blade_mass",
+            "length": "length"
+          }
+        },
+        "energy": {
+          "relation": "kinetic_energy",
+          "arguments": {
+            "mass": "inertia",
+            "speed": "omega"
+          }
+        }
+      }
+    },
+    {
+      "id": "rolling-cylinder",
+      "file": "ch10RotationalKineticEnergy.md",
+      "source_id": "rolling-cylinder",
+      "inputs": {
+        "height": {
+          "pattern": "down a (?P<value>{number}\\s*-?\\s*m)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "speed",
+          "relation": "rolling_cylinder_speed",
+          "arguments": {
+            "height": "height",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-13"
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      }
+    },
+    {
+      "id": "steel-boat",
+      "file": "ch11ArchimedesPrinciple.md",
+      "source_id": "steel-boat",
+      "inputs": {
+        "mass": {
+          "marker": "eq-0"
+        },
+        "hull_volume": {
+          "marker": "eq-1"
+        },
+        "steel_density": {
+          "marker": "eq-3",
+          "pattern": "\\}\\{\\s*(?P<value>[^{}]+\\\\times[^{}]+\\{3\\}\\s*\\{\\\\text\\{kg/m\\}\\}\\^\\{3\\})"
+        },
+        "water_density": {
+          "marker": "eq-5",
+          "pattern": "\\\\left\\(\\s*(?P<value>[^()]*?\\\\text\\{kg/m\\}[^()]*?)\\\\right\\)"
+        }
+      },
+      "checks": [
+        {
+          "id": "steel-volume",
+          "relation": "volume_from_density",
+          "arguments": {
+            "mass": "mass",
+            "density": "steel_density"
+          },
+          "expected": {
+            "marker": "eq-3"
+          }
+        },
+        {
+          "id": "displaced-mass",
+          "relation": "multiply",
+          "arguments": {
+            "left": "water_density",
+            "right": "volume"
+          },
+          "expected": {
+            "marker": "eq-5",
+            "row": -1
+          }
+        },
+        {
+          "id": "buoyancy",
+          "relation": "support_force",
+          "arguments": {
+            "mass": "water_mass",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-7",
+            "row": -1
+          },
+          "tolerance": 4
+        },
+        {
+          "id": "weight",
+          "relation": "support_force",
+          "arguments": {
+            "mass": "mass",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-8"
+          }
+        },
+        {
+          "id": "hull-buoyancy",
+          "relation": "buoyant_force",
+          "arguments": {
+            "density": "water_density",
+            "volume": "hull_volume",
+            "g": "g"
+          },
+          "expected": {
+            "marker": "eq-10",
+            "row": -1
+          }
+        }
+      ],
+      "constants": {
+        "g": "9.80\\mss"
+      },
+      "derived": {
+        "volume": {
+          "relation": "volume_from_density",
+          "arguments": {
+            "mass": "mass",
+            "density": "steel_density"
+          }
+        },
+        "water_mass": {
+          "relation": "multiply",
+          "arguments": {
+            "left": "water_density",
+            "right": "volume"
+          }
+        }
+      }
+    },
+    {
+      "id": "floating-woman",
+      "file": "ch11ArchimedesPrinciple.md",
+      "source_id": "floating-woman",
+      "inputs": {
+        "fraction": {
+          "marker": "eq-0"
+        },
+        "water_density": {
+          "marker": "eq-3",
+          "pattern": "\\\\left\\((?P<value>.*?)\\\\right\\)"
+        }
+      },
+      "checks": [
+        {
+          "id": "density",
+          "relation": "multiply",
+          "arguments": {
+            "left": "fraction",
+            "right": "water_density"
+          },
+          "expected": {
+            "marker": "eq-3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coin-density",
+      "file": "ch11ArchimedesPrinciple.md",
+      "source_id": "coin-density",
+      "inputs": {
+        "mass": {
+          "pattern": "in air to be (?P<value>{number}\\s*-?\\s*g)",
+          "format": "prose"
+        },
+        "apparent": {
+          "pattern": "apparent mass is (?P<value>{number}\\s*-?\\s*g)",
+          "format": "prose"
+        },
+        "water_density": {
+          "marker": "eq-0"
+        }
+      },
+      "checks": [
+        {
+          "id": "density",
+          "relation": "hydrostatic_density",
+          "arguments": {
+            "mass": "mass",
+            "apparent": "apparent",
+            "water_density": "water_density"
+          },
+          "expected": {
+            "marker": "eq-8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "floating-ice",
+      "file": "ch11ArchimedesPrinciple.md",
+      "source_id": "floating-ice",
+      "inputs": {
+        "water_density": {
+          "marker": "eq-0"
+        },
+        "ice_density": {
+          "marker": "eq-2"
+        }
+      },
+      "checks": [
+        {
+          "id": "submerged-fraction",
+          "relation": "divide",
+          "arguments": {
+            "value": "ice_density",
+            "divisor": "water_density"
+          },
+          "expected": {
+            "marker": "eq-3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "headlight",
+      "file": "ch20OhmsLaw.md",
+      "source_id": "Example1",
+      "inputs": {
+        "voltage": {
+          "pattern": "when (?P<value>{number}\\s*-?\\s*V)",
+          "format": "prose"
+        },
+        "current": {
+          "pattern": "through which (?P<value>{number}\\s*-?\\s*A)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "resistance",
+          "relation": "ohm_resistance",
+          "arguments": {
+            "voltage": "voltage",
+            "current": "current"
+          },
+          "expected": {
+            "marker": "eq-2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flashlight",
+      "file": "ch20OhmsLaw.md",
+      "source_id": "flashlight",
+      "inputs": {
+        "voltage": {
+          "pattern": "bulb of a (?P<value>{number}\\s*-?\\s*V)",
+          "format": "prose"
+        },
+        "resistance": {
+          "marker": "eq-0"
+        }
+      },
+      "checks": [
+        {
+          "id": "current",
+          "relation": "ohms_law",
+          "arguments": {
+            "voltage": "voltage",
+            "resistance": "resistance"
+          },
+          "expected": {
+            "marker": "eq-2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shroud-dating",
+      "file": "ch31HalfLifeAndActivity.md",
+      "source_id": "shroud-dating",
+      "inputs": {
+        "fraction": {
+          "pattern": "found in it is (?P<value>{number}\\s*-?\\s*%)",
+          "format": "prose"
+        },
+        "half_life": {
+          "pattern": "is\\s+(?P<value>{number}\\s*-?\\s*y)",
+          "format": "prose"
+        },
+        "time": {
+          "marker": "eq-25"
+        }
+      },
+      "checks": [
+        {
+          "id": "age",
+          "relation": "decay_age",
+          "arguments": {
+            "fraction": "fraction",
+            "half_life": "half_life"
+          },
+          "expected": {
+            "marker": "eq-25"
+          }
+        },
+        {
+          "id": "remaining-fraction",
+          "relation": "radioactive_decay",
+          "arguments": {
+            "initial": "1",
+            "time": "time",
+            "half_life": "half_life"
+          },
+          "expected": {
+            "pattern": "found in it is (?P<value>{number}\\s*-?\\s*%)",
+            "format": "prose"
+          }
+        }
+      ]
+    },
+    {
+      "id": "carbon-activity",
+      "file": "ch31HalfLifeAndActivity.md",
+      "source_id": "carbon-activity",
+      "inputs": {
+        "number": {
+          "marker": "eq-16"
+        },
+        "half_life": {
+          "pattern": "stated above as (?P<value>{number}\\s*-?\\s*y)",
+          "format": "prose"
+        }
+      },
+      "checks": [
+        {
+          "id": "activity-bq",
+          "relation": "radioactive_activity",
+          "arguments": {
+            "number": "number",
+            "half_life": "half_life"
+          },
+          "expected": {
+            "marker": "eq-21"
+          }
+        },
+        {
+          "id": "activity-ci",
+          "relation": "radioactive_activity",
+          "arguments": {
+            "number": "number",
+            "half_life": "half_life"
+          },
+          "expected": {
+            "marker": "eq-23"
+          }
+        },
+        {
+          "id": "activity-nci",
+          "relation": "radioactive_activity",
+          "arguments": {
+            "number": "number",
+            "half_life": "half_life"
+          },
+          "expected": {
+            "marker": "eq-24"
+          }
+        }
+      ]
+    }
+  ]
+}
