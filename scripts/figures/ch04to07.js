@@ -742,8 +742,9 @@ export default {
     // Decreasing anomaly follows the velocity arrow already drawn on the planet.
     const N = 72;
     const samples = [];
+    const initialMean = mean(Pe);
     for (let k = 0; k <= N; k += 1) {
-      samples.push(at(eccentricAnomaly((-2 * Math.PI * k) / N, e)));
+      samples.push(at(eccentricAnomaly(initialMean - (2 * Math.PI * k) / N, e)));
     }
     const speeds = [];
     for (let k = 0; k < N; k += 1) {
@@ -755,7 +756,7 @@ export default {
     const orbit = timedPath(samples);
     const orbitDur = '14s';
     svg.motionGroup(
-      `${smilMotion(orbit.path, { dur: orbitDur, rotate: 'auto', keyPoints: orbit.keyPoints, keyTimes: orbit.keyTimes })}<circle r="11" fill="#c9d3e6" stroke="#5b6f99" stroke-width="2"/>${localArrow(1, 0, GREEN, { lengths, dur: orbitDur, width: 4, head: 20 })}`
+      `${smilMotion(orbit.path, { dur: orbitDur, rotate: 'auto', keyPoints: orbit.keyPoints, keyTimes: orbit.keyTimes })}<circle r="22" fill="#c9d3e6" stroke="#5b6f99" stroke-width="2"/>${localArrow(1, 0, GREEN, { lengths, dur: orbitDur, width: 4, head: 20 })}`
     );
     return svg.render();
   },
