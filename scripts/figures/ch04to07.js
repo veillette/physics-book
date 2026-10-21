@@ -737,10 +737,11 @@ export default {
     svg.text(P[0] + 40, P[1] + 20, 'm', { size: 23 });
     svg.text(P[0] - 150, P[1] + 30, '**v**', { size: 23 });
     // Equal mean-anomaly steps are equal times, so the planet is fastest at perihelion.
+    // Decreasing anomaly follows the velocity arrow already drawn on the planet.
     const N = 72;
     const samples = [];
     for (let k = 0; k <= N; k += 1) {
-      samples.push(at(eccentricAnomaly((2 * Math.PI * k) / N, e)));
+      samples.push(at(eccentricAnomaly((-2 * Math.PI * k) / N, e)));
     }
     const speeds = [];
     for (let k = 0; k < N; k += 1) {
@@ -748,11 +749,11 @@ export default {
     }
     speeds.push(speeds[0]);
     const maxSpeed = Math.max(...speeds);
-    const lengths = speeds.map(s => 26 + (s / maxSpeed) * 64);
+    const lengths = speeds.map(s => 80 + (s / maxSpeed) * 160);
     const orbit = timedPath(samples);
     const orbitDur = '14s';
     svg.motionGroup(
-      `${smilMotion(orbit.path, { dur: orbitDur, rotate: 'auto', keyPoints: orbit.keyPoints, keyTimes: orbit.keyTimes })}<circle r="11" fill="#c9d3e6" stroke="#5b6f99" stroke-width="2"/>${localArrow(1, 0, GREEN, { lengths, dur: orbitDur, width: 3.5, head: 14 })}`
+      `${smilMotion(orbit.path, { dur: orbitDur, rotate: 'auto', keyPoints: orbit.keyPoints, keyTimes: orbit.keyTimes })}<circle r="11" fill="#c9d3e6" stroke="#5b6f99" stroke-width="2"/>${localArrow(1, 0, GREEN, { lengths, dur: orbitDur, width: 4, head: 20 })}`
     );
     return svg.render();
   },
