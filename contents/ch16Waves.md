@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 9
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* State the characteristics of a wave.
-* Calculate the velocity of wave propagation.
+- State the characteristics of a wave.
+- Calculate the velocity of wave propagation.
 
 :::
 
@@ -212,6 +213,22 @@ Give one example of a transverse wave and another of a longitudinal wave, being 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the disturbance direction with the direction energy propagates.
+
+**Solution**
+
+On an ideal taut string, a wave can travel horizontally while each string element moves vertically; this is a transverse wave because the disturbance is perpendicular to propagation. In a sound wave in air, molecules move back and forth approximately parallel to the travel direction, creating compressions and rarefactions; this is a longitudinal wave.
+
+**Discussion**
+
+The material elements oscillate locally rather than traveling with the wave. A sideways-moving disturbance on a string is transverse, while pressure-wave motion in air is longitudinal.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -219,6 +236,22 @@ Give one example of a transverse wave and another of a longitudinal wave, being 
 ::: problem
 
 What is the difference between propagation speed and the frequency of a wave? Does one or both affect wavelength? If so, how?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish distance traveled per time from cycles completed per time.
+
+**Solution**
+
+Propagation speed $$v$$ is the rate at which a wave feature travels through the medium, measured in $$\text{m/s}$$. Frequency $$f$$ is the number of oscillations per second at a point, measured in $$\text{Hz}$$. They determine wavelength through $$\lambda=v/f$$. For an assumed sound speed $$343\text{ m/s}$$ and frequency $$343\text{ Hz}$$, $$\lambda=(343\text{ m/s})/(343\text{ s}^{-1})=1.00\text{ m}$$.
+
+**Discussion**
+
+At fixed frequency, increasing speed lengthens wavelength; at fixed speed, increasing frequency shortens it. Speed and frequency describe different aspects of a wave and both enter the wavelength relation.
 
 :::
 
@@ -506,8 +539,8 @@ The earthquake waves have a wavelength of 700 m and travel at the impressive spe
 
 ::: problem
 
-Radio waves transmitted through space at  $$ 3.00 \times 10^{8}  \text{m/s} $$
- by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?
+Radio waves transmitted through space at $$ 3.00 \times 10^{8}  \text{m/s} $$
+by the Voyager spacecraft have a wavelength of 0.120 m. What is their frequency?
 
 :::
 
@@ -623,6 +656,7 @@ The uncertainty in distance due to timing precision is:
 </div>
 
 (b) **Discussion**: A precision of ±0.90 km (±900 m) is quite good for locating earthquake epicenters or nuclear test sites. For detecting nuclear test ban violations, this precision is generally adequate because:
+
 - Test sites can typically be located within a region of a few square kilometers
 - Multiple seismograph stations can triangulate the location, improving precision
 - The goal is detection and approximate location, not pinpoint accuracy
@@ -643,6 +677,7 @@ However, this precision might be limiting if trying to distinguish between very 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 longitudinal wave

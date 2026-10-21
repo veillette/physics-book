@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 1
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Define heat as transfer of energy.
+- Define heat as transfer of energy.
 
 :::
 
@@ -43,7 +44,7 @@ kilograms, kilocalorie is commonly used. Food calories (given the notation Cal,
 and sometimes called “big calorie”) are actually kilocalories ( $$1 \text{kilocalorie} = 1000 \text{calories} $$ ), a fact not easily determined
 from package labeling.
 
-![In figure a there is a soft drink can and an ice cube placed on a surface at a distance from each other. The temperatures of the can and the ice cube are T one and T two, respectively, where T one is not equal to T two. In figure b, the soft drink can and the ice cube are placed in contact on the surface. The temperature of both is T prime. ](../resources/Figure_14_01_01.jpg 'In figure (a) the soft drink and the ice have different temperatures, \(T_1\) and \(T_2\), and are not in thermal equilibrium. In figure (b), when the soft drink and ice are allowed to interact, energy is transferred until they reach the same temperature \(T^\prime\), achieving equilibrium. Heat transfer occurs due to the difference in temperatures. In fact, since the soft drink and ice are both in contact with the surrounding air and bench, the equilibrium temperature will be the same for both.')
+![In figure a there is a soft drink can and an ice cube placed on a surface at a distance from each other. The temperatures of the can and the ice cube are T one and T two, respectively, where T one is not equal to T two. In figure b, the soft drink can and the ice cube are placed in contact on the surface. The temperature of both is T prime. ](../resources/Figure_14_01_01.jpg 'In figure (a) the soft drink and the ice have different temperatures, (T_1) and (T_2), and are not in thermal equilibrium. In figure (b), when the soft drink and ice are allowed to interact, energy is transferred until they reach the same temperature (T^\\prime), achieving equilibrium. Heat transfer occurs due to the difference in temperatures. In fact, since the soft drink and ice are both in contact with the surrounding air and bench, the equilibrium temperature will be the same for both.')
 {: #Figure1}
 
 ### Mechanical Equivalent of Heat
@@ -125,6 +126,22 @@ How is heat transfer related to temperature?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify the condition that drives spontaneous thermal energy transfer.
+
+**Solution**
+
+Heat transfer is energy crossing a boundary because of a temperature difference. Spontaneously, the net transfer is from hotter to colder regions; at thermal equilibrium there is no net heat flow. Its rate depends on the temperature difference and on material properties, area, and the transfer mechanism.
+
+**Discussion**
+
+A temperature difference can exist with little heat flow across good insulation, and heat transfer can occur without temperature change during a phase transition. Temperature difference drives heat transfer, but heat and temperature are different physical quantities.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -132,6 +149,22 @@ How is heat transfer related to temperature?
 ::: problem
 
 Describe a situation in which heat transfer occurs. What are the resulting forms of energy?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose a familiar hot-to-cold transfer and track the stored energy.
+
+**Solution**
+
+A hot metal spoon placed in cooler water transfers energy to the water by conduction at its surface and convection through the water. The spoon’s internal energy decreases while the water’s internal energy increases. For an assumed $$100\text{ J}$$ transferred with negligible work or outside losses, the changes are $$\Delta U_{\text{spoon}}=-100\text{ J}$$ and $$\Delta U_{\text{water}}=+100\text{ J}$$.
+
+**Discussion**
+
+The total energy is conserved. In this example, heat transfer redistributes internal energy from the hotter spoon to the cooler water until they approach thermal equilibrium.
 
 :::
 
@@ -145,11 +178,28 @@ When heat transfers into a system, is the energy stored as heat? Explain briefly
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish energy in transit from energy stored in a state.
+
+**Solution**
+
+No. Heat names the transfer of energy caused by a temperature difference. Once transferred into the system, the energy may increase microscopic kinetic or interaction energy, or it may leave through work or another transfer. For example, heating a rigid closed gas container raises its internal energy; the gas does not store a separate quantity called heat.
+
+**Discussion**
+
+Energy entering by heat transfer is stored as internal energy or converted to other forms, rather than being stored as heat.
+
+:::
+
 </div>
 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 heat

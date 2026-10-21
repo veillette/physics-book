@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 7
 chapterNumber: 14
 ---
+
 :::: abstract
 
-* Discuss heat transfer by radiation.
-* Explain the power of different materials.
+- Discuss heat transfer by radiation.
+- Explain the power of different materials.
 
 ::::
 
@@ -85,13 +86,13 @@ Take, for example, tungsten light bulb filaments which have an $$e $$ of about
 $$ 0.5 $$ , and carbon black (a material used in printer toner), which has the (
 greatest known) emissivity of about $$0.99 $$.
 
-The radiation rate is directly proportional to the *fourth power* of the
+The radiation rate is directly proportional to the _fourth power_ of the
 absolute temperature—a remarkably strong temperature dependence. Furthermore,
 the radiated heat is proportional to the surface area of the object. If you
 knock apart the coals of a fire, there is a noticeable increase in radiation due
 to an increase in radiating surface area.
 
-![A thermograph of part of a building is shown. The temperature variations are shown in different colors. The region near the windows is more yellowish green, with reddish frames, showing that the windows are major regions of radiative heat transfer.](../resources/Figure_14_07_05.jpg "A thermograph of part of a building shows temperature variations, indicating where heat transfer to the outside is most severe. Windows are a major region of heat transfer to the outside of homes. (credit: U.S. Army)")
+![A thermograph of part of a building is shown. The temperature variations are shown in different colors. The region near the windows is more yellowish green, with reddish frames, showing that the windows are major regions of radiative heat transfer.](../resources/Figure_14_07_05.jpg 'A thermograph of part of a building shows temperature variations, indicating where heat transfer to the outside is most severe. Windows are a major region of heat transfer to the outside of homes. (credit: U.S. Army)')
 {: #Figure5}
 
 Skin is a remarkably good absorber and emitter of infrared radiation, having an
@@ -100,14 +101,14 @@ in the infrared, in spite of the obvious variations in skin color. This high
 infrared emissivity is why we can so easily feel radiation on our skin. It is
 also the basis for the use of night scopes used by law enforcement and the
 military to detect human beings. Even small temperature variations can be
-detected because of the $${T}^{4} $$ dependence. Images, called *thermographs*,
+detected because of the $${T}^{4} $$ dependence. Images, called _thermographs_,
 can be used medically to detect regions of abnormally high temperature in the
 body, perhaps indicative of disease. Similar techniques can be used to detect
 heat leaks in homes [[Figure 5]](#Figure5), optimize performance of blast
 furnaces, improve comfort levels in work environments, and even remotely map the
 Earth’s temperature profile.
 
-All objects emit and absorb radiation. The *net* rate of heat transfer by
+All objects emit and absorb radiation. The _net_ rate of heat transfer by
 radiation (absorption minus emission) is related to both the temperature of the
 object and the temperature of its surroundings. Assuming that an object with a
 temperature $${T}_{1} $$ is surrounded by an environment with uniform
@@ -139,10 +140,10 @@ Place a thermometer out in the sunshine and shield it from direct sunlight using
 Calculate the Net Heat Transfer of a Person: Heat Transfer by Radiation
 </div>
 
-What is the rate of heat transfer by radiation, with an unclothed person standing in a dark room whose ambient temperature is  $$ 22.0\text{ºC} $$ .
- The person has a normal skin temperature of  $$ 33.0\text{ºC} $$
- and a surface area of  $$ 1.50 {\text{m}}^{2} $$ .
- The emissivity of skin is 0.97 in the infrared, where the radiation takes place.
+What is the rate of heat transfer by radiation, with an unclothed person standing in a dark room whose ambient temperature is $$ 22.0\text{ºC} $$ .
+The person has a normal skin temperature of $$ 33.0\text{ºC} $$
+and a surface area of $$ 1.50 {\text{m}}^{2} $$ .
+The emissivity of skin is 0.97 in the infrared, where the radiation takes place.
 
 **Strategy**
 
@@ -237,16 +238,16 @@ Check Your Understanding
 
 :::: problem
 
-What is the change in the rate of the radiated heat by a body at the temperature  $${T}_{1}=20\text{ºC} $$
- compared to when the body is at the temperature  $${T}_{2}=40\text{ºC} $$?
+What is the change in the rate of the radiated heat by a body at the temperature $${T}_{1}=20\text{ºC} $$
+compared to when the body is at the temperature $${T}_{2}=40\text{ºC} $$?
 
 ::::
 
 :::: solution
 
-The radiated heat is proportional to the fourth power of the *absolute temperature*. Because  $${T}_{1}=293\text{K} $$
- and  $${T}_{2}=313\text{K} $$ ,
- the rate of heat transfer increases by about 30 percent of the original rate.
+The radiated heat is proportional to the fourth power of the _absolute temperature_. Because $${T}_{1}=293\text{K} $$
+and $${T}_{2}=313\text{K} $$ ,
+the rate of heat transfer increases by about 30 percent of the original rate.
 
 ::::
 
@@ -268,19 +269,19 @@ The cost of energy is generally believed to remain very high for the foreseeable
 Problem-Solving Strategies for the Methods of Heat Transfer
 </div>
 
-1.   *Examine the situation to determine what type of heat transfer is involved.*
-2.   *Identify the type(s) of heat transfer—conduction, convection, or radiation.*
-3.   *Identify exactly what needs to be determined in the problem (identify the unknowns). A written list is very useful.*
-4.   *Make a list of what is given or can be inferred from the problem as stated (identify the knowns).*
-5.   *Solve the appropriate equation for the quantity to be determined (the unknown).*
-6.   For conduction, equation
-     $$\frac{Q}{t}=\frac{k_{B}A\left({T}_{2}-{T}_{1}\right)}{d} $$
-    is appropriate. [[Table 1]](../contents/ch14Conduction#Table1) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $$, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or  $$Q=m L_{\text{v}} $$
-        is appropriate to find the heat transfer involved in the phase change. [[Table1]](../contents/ch14HeatTransferMethods#Table1) lists information relevant to phase change. For radiation, equation
-     $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
-        gives the net heat transfer rate.
-7.   *Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units.*
-8.   *Check the answer to see if it is reasonable. Does it make sense?*
+1.  _Examine the situation to determine what type of heat transfer is involved._
+2.  _Identify the type(s) of heat transfer—conduction, convection, or radiation._
+3.  _Identify exactly what needs to be determined in the problem (identify the unknowns). A written list is very useful._
+4.  _Make a list of what is given or can be inferred from the problem as stated (identify the knowns)._
+5.  _Solve the appropriate equation for the quantity to be determined (the unknown)._
+6.  For conduction, equation
+    $$\frac{Q}{t}=\frac{k_{B}A\left({T}_{2}-{T}_{1}\right)}{d} $$
+    is appropriate. [[Table 1]](../contents/ch14Conduction#Table1) lists thermal conductivities. For convection, determine the amount of matter moved and use equation $$Q=mc\Delta T $$, to calculate the heat transfer involved in the temperature change of the fluid. If a phase change accompanies convection, equation $$Q=m L_{\text{f}} $$ or $$Q=m L_{\text{v}} $$
+    is appropriate to find the heat transfer involved in the phase change. [[Table1]](../contents/ch14HeatTransferMethods#Table1) lists information relevant to phase change. For radiation, equation
+    $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
+    gives the net heat transfer rate.
+7.  _Insert the knowns along with their units into the appropriate equation and obtain numerical solutions complete with units._
+8.  _Check the answer to see if it is reasonable. Does it make sense?_
 
 ::::
 
@@ -335,6 +336,22 @@ When watching a daytime circus in a large, dark-colored tent, you sense signific
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Follow sunlight absorbed by the fabric and energy emitted toward the audience.
+
+**Solution**
+
+Dark fabric generally absorbs a substantial fraction of the incident sunlight, raising the tent’s temperature. Its warm interior surface emits infrared radiation toward people and heats the enclosed air by convection. Reduced ventilation can let that warm air accumulate.
+
+**Discussion**
+
+The sensation is not sunlight passing directly through the dark canvas alone. The solar-heated tent transfers energy inward by infrared radiation and by warming the air, making spectators feel hot.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -342,6 +359,22 @@ When watching a daytime circus in a large, dark-colored tent, you sense signific
 :::: problem
 
 Satellites designed to observe the radiation from cold (3 K) dark space have sensors that are shaded from the Sun, Earth, and Moon and that are cooled to very low temperatures. Why must the sensors be at low temperature?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the weak incoming signal with the detector’s own thermal emission and noise.
+
+**Solution**
+
+A detector at room temperature emits much more thermal radiation than a very cold source. Its internal thermal motion also produces fluctuations that can mask a weak signal. Cooling the detector reduces both its thermal emission and relevant thermal noise, while shading prevents direct heating by bright nearby bodies. For the same ideal blackbody area, emission at $$300\text{ K}$$ versus $$3\text{ K}$$ has ratio $$(300\text{ K}/3\text{ K})^4=10^8$$.
+
+**Discussion**
+
+Actual detector response also depends on wavelength and design. Low sensor temperature is necessary to prevent the instrument’s own thermal background from overwhelming faint radiation from cold space.
 
 ::::
 
@@ -355,6 +388,22 @@ Why are cloudy nights generally warmer than clear ones?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Compare downward infrared radiation from clouds with that from a clear sky.
+
+**Solution**
+
+Cloud droplets and ice absorb and emit infrared radiation effectively. Clouds at atmospheric temperatures send more infrared radiation back toward the surface than the colder effective clear sky, reducing the surface’s net nighttime radiative heat loss. The ground then cools the near-surface air less rapidly.
+
+**Discussion**
+
+Clouds can reflect sunlight and cool the surface during daytime, but the nighttime comparison concerns outgoing radiation. Cloudy nights are generally warmer because clouds reduce net radiative cooling to space.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -362,6 +411,22 @@ Why are cloudy nights generally warmer than clear ones?
 :::: problem
 
 Why are thermometers that are used in weather stations shielded from the sunshine? What does a thermometer measure if it is shielded from the sunshine and also if it is not?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Consider all energy exchanges affecting the thermometer itself.
+
+**Solution**
+
+A properly ventilated radiation shield blocks direct sunlight while allowing the thermometer to exchange energy with the surrounding air, so its reading approximates air temperature. In direct sunlight, absorbed solar energy can raise the instrument above air temperature until radiation and convection balance the input. Its reading then depends on color, shape, airflow, and radiation as well as the air temperature.
+
+**Discussion**
+
+A sunlit thermometer does not measure a universal “temperature of sunshine.” Shielding lets it estimate air temperature; without shielding it measures its own radiation-influenced temperature, which can be higher than the air’s.
 
 ::::
 
@@ -375,6 +440,22 @@ On average, would Earth be warmer or cooler without the atmosphere? Explain your
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Compare the loss of the atmospheric greenhouse effect with changes in solar absorption.
+
+**Solution**
+
+The atmosphere absorbs and re-emits terrestrial infrared radiation, reducing heat loss from the surface for a given surface temperature. Removing that greenhouse effect would make the average surface substantially cooler under a comparable solar-energy budget. As an illustrative fixed-albedo estimate, Earth’s effective radiating temperature is about $$255\text{ K}$$, lower than the present mean surface temperature near $$288\text{ K}$$.
+
+**Discussion**
+
+The exact airless temperature would also depend on changed albedo, water, heat transport, and day–night variations, so the illustrative temperatures are not a complete prediction. On average Earth’s surface would be cooler without the atmosphere’s greenhouse warming.
+
+::::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -383,10 +464,10 @@ On average, would Earth be warmer or cooler without the atmosphere? Explain your
 
 ::: problem
 
-At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
- black roof on a night when the roof's temperature is  $$30.0\text{ºC} $$
- and the surrounding temperature is  $$15.0\text{ºC} $$ ?
- The emissivity of the roof is 0.900.
+At what net rate does heat radiate from a $$275{\text{-m}}^{2} $$
+black roof on a night when the roof's temperature is $$30.0\text{ºC} $$
+and the surrounding temperature is $$15.0\text{ºC} $$ ?
+The emissivity of the roof is 0.900.
 
 :::
 
@@ -407,10 +488,10 @@ Cool roofs combine high solar reflectance, which reduces absorbed sunlight, with
 
 :::: problem
 
-(a) Cherry-red embers in a fireplace are at  $$850\text{ºC} $$
- and have an exposed area of  $$ 0.200 {\text{m}}^{2} $$
- and an emissivity of 0.980. The surrounding room has a temperature of  $$ 18.0\text{ºC} $$ .
- If 50% of the radiant energy enters the room, what is the net rate of radiant heat transfer in kilowatts? (b) Does your answer support the contention that most of the heat transfer into a room by a fireplace comes from infrared radiation?
+(a) Cherry-red embers in a fireplace are at $$850\text{ºC} $$
+and have an exposed area of $$ 0.200 {\text{m}}^{2} $$
+and an emissivity of 0.980. The surrounding room has a temperature of $$ 18.0\text{ºC} $$ .
+If 50% of the radiant energy enters the room, what is the net rate of radiant heat transfer in kilowatts? (b) Does your answer support the contention that most of the heat transfer into a room by a fireplace comes from infrared radiation?
 
 ::::
 
@@ -423,6 +504,7 @@ We use the Stefan-Boltzmann law for net radiation: $$\frac{Q_{net}}{t} = \sigma 
 **Solution**
 
 Given:
+
 - Embers temperature: $$T_{embers} = 850\text{ºC} = 1123 \text{ K}$$
 - Room temperature: $$T_{room} = 18.0\text{ºC} = 291 \text{ K}$$
 - Area: $$A = 0.200 \text{ m}^2$$
@@ -440,6 +522,7 @@ $$\frac{Q_{net}}{t} = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(0.980)(
 </div>
 
 Calculate the fourth powers:
+
 - $$T_{embers}^4 = (1123 \text{ K})^4 = 1.592 \times 10^{12} \text{ K}^4$$
 - $$T_{room}^4 = (291 \text{ K})^4 = 7.166 \times 10^9 \text{ K}^4$$
 
@@ -457,6 +540,7 @@ $$\frac{Q_{room}}{t} = 0.50 \times 17,600 \text{ W} = 8,800 \text{ W} = 8.80 \te
 </div>
 
 **(b)** Yes, absolutely! The radiation alone transfers 8.80 kW into the room, which is substantial. For comparison:
+
 - A typical space heater produces 1-2 kW
 - This radiation is equivalent to 4-9 space heaters
 
@@ -465,6 +549,7 @@ This strongly supports that radiation is the dominant heat transfer mechanism fr
 **Discussion**
 
 The huge radiative power (17.6 kW total, 8.8 kW into room) demonstrates why:
+
 1. You can feel intense heat from across a room when near a fireplace
 2. Objects in line-of-sight with embers warm quickly
 3. Fireplaces can be uncomfortably hot when sitting close
@@ -487,16 +572,16 @@ Modern fireplace inserts and stoves capture more of this heat through convection
 
 :::: problem
 
-Radiation makes it impossible to stand close to a hot lava flow. Calculate the rate of heat transfer by radiation from  $$ 1.00 {\text{m}}^{2} $$
- of  $$1200\text{ºC} $$
- fresh lava into  $$ 30.0\text{ºC} $$
- surroundings, assuming lava’s emissivity is 1.00.
+Radiation makes it impossible to stand close to a hot lava flow. Calculate the rate of heat transfer by radiation from $$ 1.00 {\text{m}}^{2} $$
+of $$1200\text{ºC} $$
+fresh lava into $$ 30.0\text{ºC} $$
+surroundings, assuming lava’s emissivity is 1.00.
 
 ::::
 
 :::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
- $$-266\text{kW} $$
+$$-266\text{kW} $$
 
 ::::
 
@@ -506,11 +591,11 @@ Radiation makes it impossible to stand close to a hot lava flow. Calculate the r
 
 :::: problem
 
-(a) Calculate the rate of heat transfer by radiation from a car radiator at  $$110\text{ºC} $$
- into a  $$50.0\text{ºC} $$
- environment, if the radiator has an emissivity of 0.750 and a  $$1.20-m^{2} $$
- surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of  $$200 \text{hp} \left(\text{about }150 \text{kW}\right) $$
- and the efficiency of automobile engines as 25%.
+(a) Calculate the rate of heat transfer by radiation from a car radiator at $$110\text{ºC} $$
+into a $$50.0\text{ºC} $$
+environment, if the radiator has an emissivity of 0.750 and a $$1.20-m^{2} $$
+surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of $$200 \text{hp} \left(\text{about }150 \text{kW}\right) $$
+and the efficiency of automobile engines as 25%.
 
 ::::
 
@@ -523,6 +608,7 @@ For part (a), we use the Stefan-Boltzmann law for net radiation. For part (b), w
 **Solution**
 
 Given:
+
 - Radiator temperature: $$T_1 = 110\text{ºC} = 383 \text{ K}$$
 - Environment temperature: $$T_2 = 50.0\text{ºC} = 323 \text{ K}$$
 - Emissivity: $$e = 0.750$$
@@ -537,6 +623,7 @@ $$\frac{Q_{net}}{t} = \sigma eA(T_1^4 - T_2^4)$$
 </div>
 
 Calculate fourth powers:
+
 - $$T_1^4 = (383 \text{ K})^4 = 2.150 \times 10^{10} \text{ K}^4$$
 - $$T_2^4 = (323 \text{ K})^4 = 1.086 \times 10^{10} \text{ K}^4$$
 
@@ -567,16 +654,19 @@ No, radiative heat transfer is **not significant**—it represents only about 0.
 The calculation reveals why car radiators rely overwhelmingly on **convection**, not radiation:
 
 **(a)** The radiative heat transfer of only 543 W is relatively small. This occurs because:
+
 1. The temperature difference is modest (60ºC)
 2. The fourth-power dependence means moderate temperatures radiate weakly compared to very hot objects
 3. The emissivity (0.75) is good but not perfect
 
 **(b)** The engine produces 450 kW of waste heat—the radiation removes only 0.12% of it! The vast majority of cooling comes from:
+
 - **Forced convection:** Coolant (water/antifreeze mixture) circulating through the engine
 - **Air flow:** Fan-driven or motion-induced air flowing through radiator fins
 - **Conduction:** Heat transfer from coolant to radiator metal to air
 
 This is why:
+
 - Radiators have many thin fins (maximizing surface area for convection)
 - Coolant must circulate continuously
 - Fans are essential when the car isn't moving
@@ -597,15 +687,15 @@ A stationary car with the engine running will overheat in minutes without functi
 
 :::: problem
 
-Find the net rate of heat transfer by radiation from a skier standing in the shade, given the following. She is completely clothed in white (head to foot, including a ski mask), the clothes have an emissivity of 0.200 and a surface temperature of  $$ 10.0\text{ºC} $$ ,
- the surroundings are at  $$-15.0\text{ºC} $$ ,
- and her surface area is  $$ 1.60 {\text{m}}^{2} $$.
+Find the net rate of heat transfer by radiation from a skier standing in the shade, given the following. She is completely clothed in white (head to foot, including a ski mask), the clothes have an emissivity of 0.200 and a surface temperature of $$ 10.0\text{ºC} $$ ,
+the surroundings are at $$-15.0\text{ºC} $$ ,
+and her surface area is $$ 1.60 {\text{m}}^{2} $$.
 
 ::::
 
 :::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
- $$- 36.0\text{W} $$
+$$- 36.0\text{W} $$
 
 ::::
 
@@ -615,10 +705,10 @@ Find the net rate of heat transfer by radiation from a skier standing in the sha
 
 :::: problem
 
-Suppose you walk into a sauna that has an ambient temperature of  $$50.0\text{ºC} $$ .
- (a) Calculate the rate of heat transfer to you by radiation given your skin temperature is  $$37.0\text{ºC} $$ ,
- the emissivity of skin is 0.98, and the surface area of your body is  $$1.50 {\text{m}}^{2} $$ .
- (b) If all other forms of heat transfer are balanced (the net heat transfer is zero), at what rate will your body temperature increase if your mass is 75.0 kg?
+Suppose you walk into a sauna that has an ambient temperature of $$50.0\text{ºC} $$ .
+(a) Calculate the rate of heat transfer to you by radiation given your skin temperature is $$37.0\text{ºC} $$ ,
+the emissivity of skin is 0.98, and the surface area of your body is $$1.50 {\text{m}}^{2} $$ .
+(b) If all other forms of heat transfer are balanced (the net heat transfer is zero), at what rate will your body temperature increase if your mass is 75.0 kg?
 
 ::::
 
@@ -631,6 +721,7 @@ For part (a), we use the Stefan-Boltzmann law for net radiation: $$Q/t = \sigma 
 **Solution**
 
 Given:
+
 - Ambient temperature: $$T_{ambient} = 50.0\text{ºC} = 323.15 \text{ K}$$
 - Skin temperature: $$T_{skin} = 37.0\text{ºC} = 310.15 \text{ K}$$
 - Emissivity: $$e = 0.98$$
@@ -650,6 +741,7 @@ $$\frac{Q}{t} = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(0.98)(1.50 \t
 </div>
 
 Calculate the temperature powers:
+
 - $$(323.15 \text{ K})^4 = 1.0903 \times 10^{10} \text{ K}^4$$
 - $$(310.15 \text{ K})^4 = 9.245 \times 10^9 \text{ K}^4$$
 - Difference: $$1.0903 \times 10^{10} \text{ K}^4 - 9.245 \times 10^9 \text{ K}^4 = 1.658 \times 10^9 \text{ K}^4$$
@@ -680,6 +772,7 @@ $$\frac{\Delta T}{t} = 1.9 \text{ ºC/hour}$$
 **(a)** The body absorbs heat at a rate of 138 W from the hot sauna environment through radiation alone. This is significant—comparable to a moderate-powered light bulb. Since the sauna is hotter than your skin, you receive net heat transfer.
 
 **(b)** The rate of temperature increase of approximately 0.03ºC/min or 1.9ºC/hour seems reasonable for a sauna. In reality:
+
 - You wouldn't stay in a sauna long enough for your core temperature to rise dangerously
 - Your body activates cooling mechanisms (sweating) very quickly
 - Evaporative cooling from sweat can remove much more than 138 W
@@ -702,11 +795,11 @@ This calculation demonstrates why saunas are uncomfortable but tolerable: while 
 
 :::: problem
 
-Thermography is a technique for measuring radiant heat and detecting variations in surface temperatures that may be medically, environmentally, or militarily meaningful.(a) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of  $$34.0 \text{ºC} $$
- compared with that at  $$33.0\text{ºC} $$ ,
- such as on a person’s skin? (b) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of  $$34.0 \text{ºC} $$
- compared with that at  $$20.0 \text{ºC} $$ ,
- such as for warm and cool automobile hoods?
+Thermography is a technique for measuring radiant heat and detecting variations in surface temperatures that may be medically, environmentally, or militarily meaningful.(a) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of $$34.0 \text{ºC} $$
+compared with that at $$33.0\text{ºC} $$ ,
+such as on a person’s skin? (b) What is the percent increase in the rate of heat transfer by radiation from a given area at a temperature of $$34.0 \text{ºC} $$
+compared with that at $$20.0 \text{ºC} $$ ,
+such as for warm and cool automobile hoods?
 
 ![A thermograph of the chest area of a patient is shown. There are different colors showing different thermal regions.](../resources/Figure_14_07_09.jpg 'Artist’s rendition of a thermograph of a patient’s upper body, showing the distribution of heat represented by different colors.')
 {: #Figure8}
@@ -727,10 +820,10 @@ Thermography is a technique for measuring radiant heat and detecting variations 
 
 :::: problem
 
-The Sun radiates like a perfect black body with an emissivity of exactly 1. (a) Calculate the surface temperature of the Sun, given that it is a sphere with a  $$ 7.00 \times 10^{8} \text{-m} $$
- radius that radiates  $$ 3.80 \times 10^{26} \text{W} $$
- into 3-K space. (b) How much power does the Sun radiate per square meter of its surface? (c) How much power in watts per square meter is that value at the distance of Earth,  $$ 1.50 \times 10^{11} \text{m} $$
- away? (This number is called the solar constant.)
+The Sun radiates like a perfect black body with an emissivity of exactly 1. (a) Calculate the surface temperature of the Sun, given that it is a sphere with a $$ 7.00 \times 10^{8} \text{-m} $$
+radius that radiates $$ 3.80 \times 10^{26} \text{W} $$
+into 3-K space. (b) How much power does the Sun radiate per square meter of its surface? (c) How much power in watts per square meter is that value at the distance of Earth, $$ 1.50 \times 10^{11} \text{m} $$
+away? (This number is called the solar constant.)
 
 ::::
 
@@ -743,6 +836,7 @@ For part (a), we use Stefan-Boltzmann law $$P = \sigma eA T^4$$ and solve for $$
 **Solution**
 
 Given:
+
 - Sun's radius: $$R_s = 7.00 \times 10^8 \text{ m}$$
 - Total power radiated: $$P = 3.80 \times 10^{26} \text{ W}$$
 - Emissivity: $$e = 1.00$$
@@ -804,6 +898,7 @@ $$S = \frac{P}{A_E} = \frac{3.80 \times 10^{26} \text{ W}}{2.83 \times 10^{23} \
 **(b)** The Sun's surface radiates an incredible 61.7 million watts per square meter! This enormous power output is sustained by nuclear fusion in the Sun's core, where hydrogen fuses into helium at temperatures of about 15 million K.
 
 **(c)** The solar constant of approximately 1340 W/m² (often rounded to 1370 W/m² in current measurements) is fundamental to understanding Earth's climate and energy balance. This means:
+
 - Each square meter facing the Sun at Earth's distance receives about 1.34 kW
 - This drives photosynthesis, weather patterns, and ocean currents
 - Solar panels on Earth receive this maximum power (minus atmospheric absorption)
@@ -830,19 +925,19 @@ This illustrates the inverse square law: $$\left(\frac{R_E}{R_s}\right)^2 = \lef
 
 :::: problem
 
-A large body of lava from a volcano has stopped flowing and is slowly cooling. The interior of the lava is at  $$1200 \text{ºC} $$ ,
- its surface is at  $$450 \text{ºC} $$ ,
- and the surroundings are at  $$27.0\text{ºC} $$ .
- (a) Calculate the rate at which energy is transferred by radiation from  $$ 1.00 {\text{m}}^{2} $$
- of surface lava into the surroundings, assuming the emissivity is 1.00. (b) Suppose heat conduction to the surface occurs at the same rate. What is the thickness of the lava between the  $$450 \text{ºC} $$
- surface and the  $$1200 \text{ºC} $$
- interior, assuming that the lava’s conductivity is the same as that of brick?
+A large body of lava from a volcano has stopped flowing and is slowly cooling. The interior of the lava is at $$1200 \text{ºC} $$ ,
+its surface is at $$450 \text{ºC} $$ ,
+and the surroundings are at $$27.0\text{ºC} $$ .
+(a) Calculate the rate at which energy is transferred by radiation from $$ 1.00 {\text{m}}^{2} $$
+of surface lava into the surroundings, assuming the emissivity is 1.00. (b) Suppose heat conduction to the surface occurs at the same rate. What is the thickness of the lava between the $$450 \text{ºC} $$
+surface and the $$1200 \text{ºC} $$
+interior, assuming that the lava’s conductivity is the same as that of brick?
 
 ::::
 
 :::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
-(a)  $$-15.0\text{kW} $$
+(a) $$-15.0\text{kW} $$
 (b) 4.2 cm
 
 ::::
@@ -853,8 +948,8 @@ A large body of lava from a volcano has stopped flowing and is slowly cooling. T
 
 :::: problem
 
-Calculate the temperature the entire sky would have to be in order to transfer energy by radiation at  $$1000 {\text{W/m}}^{2} $$
- —about the rate at which the Sun radiates when it is directly overhead on a clear day. This value is the effective temperature of the sky, a kind of average that takes account of the fact that the Sun occupies only a small part of the sky but is much hotter than the rest. Assume that the body receiving the energy has a temperature of  $$27.0\text{ºC} $$.
+Calculate the temperature the entire sky would have to be in order to transfer energy by radiation at $$1000 {\text{W/m}}^{2} $$
+—about the rate at which the Sun radiates when it is directly overhead on a clear day. This value is the effective temperature of the sky, a kind of average that takes account of the fact that the Sun occupies only a small part of the sky but is much hotter than the rest. Assume that the body receiving the energy has a temperature of $$27.0\text{ºC} $$.
 
 ::::
 
@@ -867,6 +962,7 @@ We use the Stefan-Boltzmann law for net radiation: $$\frac{Q}{t \cdot A} = \sigm
 **Solution**
 
 Given:
+
 - Rate of energy transfer per unit area: $$\frac{Q}{t \cdot A} = 1000 \text{ W/m}^2$$
 - Body temperature: $$T_{body} = 27.0\text{ºC} = 300.15 \text{ K}$$
 - Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
@@ -914,11 +1010,13 @@ The effective temperature of the sky would need to be approximately 401 K (about
 - The "effective temperature" of 401 K represents a weighted average
 
 This effective temperature concept is useful for:
+
 1. **Solar engineering**: Designing solar collectors and thermal systems
 2. **Climate modeling**: Understanding Earth's radiative balance
 3. **Satellite thermal design**: Predicting heating/cooling in orbit
 
 The actual solar irradiance reaching Earth's surface is typically:
+
 - About 1000 W/m² on a clear day with the Sun directly overhead
 - This matches the problem setup
 - Lower at other times due to atmosphere, angle, clouds, etc.
@@ -937,18 +1035,18 @@ The effective temperature of the sky would be **401 K**, or about **128ºC**.
 
 :::: problem
 
-(a) A shirtless rider under a circus tent feels the heat radiating from the sunlit portion of the tent. Calculate the temperature of the tent canvas based on the following information: The shirtless rider’s skin temperature is  $$34.0\text{ºC} $$
- and has an emissivity of 0.970. The exposed area of skin is  $$ 0.400 {\text{m}}^{2} $$ .
- He receives radiation at the rate of 20.0 W—half what you would calculate if the entire region behind him was hot. The rest of the surroundings are at  $$34.0\text{ºC} $$ .
- (b) Discuss how this situation would change if the sunlit side of the tent was nearly pure white and if the rider was covered by a white tunic.
+(a) A shirtless rider under a circus tent feels the heat radiating from the sunlit portion of the tent. Calculate the temperature of the tent canvas based on the following information: The shirtless rider’s skin temperature is $$34.0\text{ºC} $$
+and has an emissivity of 0.970. The exposed area of skin is $$ 0.400 {\text{m}}^{2} $$ .
+He receives radiation at the rate of 20.0 W—half what you would calculate if the entire region behind him was hot. The rest of the surroundings are at $$34.0\text{ºC} $$ .
+(b) Discuss how this situation would change if the sunlit side of the tent was nearly pure white and if the rider was covered by a white tunic.
 
 ::::
 
 :::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
-(a)  $$ 48.5\text{ºC} $$
-(b) A pure white object reflects more of the radiant energy that hits it, so a white tent would prevent more of the sunlight from heating up the inside of the tent, and the white tunic would prevent that heat which entered the tent from heating the rider. Therefore, with a white tent, the temperature would be lower than  $$ 48.5\text{ºC} $$ ,
- and the rate of radiant heat transferred to the rider would be less than 20.0 W.
+(a) $$ 48.5\text{ºC} $$
+(b) A pure white object reflects more of the radiant energy that hits it, so a white tent would prevent more of the sunlight from heating up the inside of the tent, and the white tunic would prevent that heat which entered the tent from heating the rider. Therefore, with a white tent, the temperature would be lower than $$ 48.5\text{ºC} $$ ,
+and the rate of radiant heat transferred to the rider would be less than 20.0 W.
 
 ::::
 
@@ -1005,8 +1103,8 @@ ocean and the likely effects of that energy.
 
 :::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
-(a)  $$3 \times 10^{17}\text{J} $$
-(b)  $$1 \times 10^{13}\text{kg} $$
+(a) $$3 \times 10^{17}\text{J} $$
+(b) $$1 \times 10^{13}\text{kg} $$
 (c) When a large meteor hits the ocean, it causes great tidal waves, dissipating large amount of its energy in the form of kinetic energy of the water.
 
 ::::
@@ -1037,6 +1135,7 @@ The energy available for melting comes from: (1) loss of kinetic energy and (2) 
 **Solution**
 
 Given:
+
 - Mass: $$m = 20.0 \text{ kg}$$
 - Initial height: $$h_i = 12.0 \text{ km} = 12000 \text{ m}$$
 - Final height: $$h_f = 0 \text{ m}$$
@@ -1082,6 +1181,7 @@ About 8.61 kg of the 20.0 kg frozen waste can be melted, meaning about 43% melts
 The problem notes parenthetically that "less than 20.0 kg melts, a significant mess results"—our calculation confirms this. The 11.4 kg of remaining ice, combined with 8.6 kg of liquid water created from melting, would indeed create a substantial impact.
 
 This type of incident, while rare, has actually occurred and caused damage to property. It illustrates:
+
 - The importance of proper aircraft waste system maintenance
 - The danger of falling objects from high altitude
 - The significant energy involved in high-altitude, high-velocity objects
@@ -1146,6 +1246,7 @@ We first calculate the mechanical power output, then find total metabolic power 
 **Solution**
 
 Given:
+
 - Mass: $$m = 76.0 \text{ kg}$$
 - Stairs per minute: 116
 - Typical stair height: $$h = 0.20 \text{ m}$$ (assumption)
@@ -1188,6 +1289,7 @@ $$t = \frac{Q}{P_{waste}} = \frac{266000 \text{ J}}{1156 \text{ W}} = 230 \text{
 </div>
 
 **(b)** Yes, this is consistent with experience. When exercising vigorously:
+
 - You typically start feeling warmer within 3-5 minutes
 - Sweating usually begins around this time to dissipate the excess heat
 - The calculation assumes "all other forms of heat transfer are balanced," but in reality, your body quickly activates cooling mechanisms (sweating, increased blood flow to skin) to prevent dangerous temperature rise
@@ -1203,12 +1305,14 @@ The result of 3.83 minutes makes excellent physical sense. The calculation revea
 4. **Sweating is essential**: Without sweating and increased blood flow to skin, body temperature would rise dangerously within minutes
 
 In practice, your body prevents the full 1ºC rise by:
+
 - Increasing skin blood flow (vasodilation)
 - Sweating (evaporative cooling can remove 500+ W)
 - Increased respiration
 - Radiative and convective heat loss
 
 This problem illustrates why:
+
 - Athletes can exercise for hours without overheating (if properly hydrated)
 - Exercise in hot, humid conditions is dangerous (reduced cooling effectiveness)
 - Acclimatization to heat involves improved sweating response
@@ -1268,6 +1372,7 @@ For part (a), we use $$Q = mc\Delta T$$, where the mass is calculated from the v
 **Solution**
 
 Given:
+
 - Volume: $$V = 1.00 \text{ km}^3 = 1.00 \times 10^9 \text{ m}^3$$
 - Temperature change: $$\Delta T = 100\text{ºC}$$
 - Density of granite: $$\rho = 2700 \text{ kg/m}^3$$ (typical value)
@@ -1304,6 +1409,7 @@ $$t = \frac{7.56 \times 10^8 \text{ s}}{365.25 \times 24 \times 3600 \text{ s/ye
 **Discussion**
 
 **(a)** The heat energy stored in 1 km³ of hot granite is enormous: $$2.27 \times 10^{17}$$ joules or 227 petajoules (PJ). For perspective:
+
 - This equals about 63 billion kilowatt-hours of energy
 - Enough to power a city of 1 million people for several years
 - Equivalent to burning about 5 million tons of coal
@@ -1316,12 +1422,14 @@ $$t = \frac{7.56 \times 10^8 \text{ s}}{365.25 \times 24 \times 3600 \text{ s/ye
 4. **Clean energy**: No combustion, minimal emissions
 
 Real geothermal plants typically:
+
 - Extract heat more slowly to allow replenishment
 - Operate for 20-30 years or longer
 - Use multiple wells to access larger rock volumes
 - Account for heat conduction from surrounding regions
 
 Notable geothermal regions include:
+
 - Iceland (powers ~90% of homes with geothermal)
 - The Geysers, California (largest geothermal complex in the world)
 - New Zealand's Taupo Volcanic Zone
@@ -1386,6 +1494,7 @@ For part (a), gravitational potential energy converts to thermal energy. We use 
 **Solution**
 
 Given:
+
 - Height: $$h = 55.0 \text{ m}$$
 - Gravitational acceleration: $$g = 9.80 \text{ m/s}^2$$
 - Specific heat of water: $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
@@ -1436,17 +1545,20 @@ $$f = 0.0239\% \approx 0.024\%$$
 **Discussion**
 
 **(a)** The temperature increase of only 0.129ºC (about 0.13ºC) is surprisingly small for such a dramatic 55-meter drop. This demonstrates that:
+
 - Water has a very high specific heat (4186 J/kg·ºC)
 - Gravitational potential energy, while significant, produces only modest heating
 - The temperature change would be barely perceptible
 
 In reality, the temperature increase at the bottom of Niagara Falls is even less than calculated because:
+
 - Much energy goes into turbulence, sound, and spray
 - Evaporation occurs (cooling effect)
 - Mixing with cooler water
 - Air incorporation into the falling water
 
 **(b)** Only about 0.024% (roughly 1/4000th) of the water needs to evaporate to completely prevent temperature rise. This tiny fraction demonstrates:
+
 - The enormous energy required for phase changes (latent heat)
 - Why evaporation is such an effective cooling mechanism
 - How mist and spray at the base of waterfalls provide natural cooling
@@ -1459,6 +1571,7 @@ $$\text{Evaporation rate} = (2800 \text{ tonnes/s})(2.39 \times 10^{-4}) = 0.67 
 This creates the characteristic mist and contributes to the spectacular visual effect!
 
 The calculation also explains why:
+
 - Hydroelectric dams don't significantly heat rivers
 - Waterfalls are often surrounded by cool, moist microclimates
 - The energy from falling water is substantial but distributed across the large thermal capacity of water
@@ -1521,9 +1634,9 @@ responsible?
 
 :::: solution
 
-(a)  $$36\text{ºC} $$
-(b) Any temperature increase greater than about  $$3\text{ºC} $$
- would be unreasonably large. In this case the final temperature of the person would rise to  $$73\text{ºC} \left(163 \text{ºF}\right) $$.
+(a) $$36\text{ºC} $$
+(b) Any temperature increase greater than about $$3\text{ºC} $$
+would be unreasonably large. In this case the final temperature of the person would rise to $$73\text{ºC} \left(163 \text{ºF}\right) $$.
 
 (c) The assumption of $$95 \% $$ heat retention is unreasonable.
 
@@ -1557,6 +1670,7 @@ We calculate the waste heat from burning gasoline, then determine how much ice t
 **Solution**
 
 Given:
+
 - Volume of gasoline: $$V = 1.00 \text{ gal} = 3.785 \text{ L}$$
 - Density of gasoline: $$\rho = 0.75 \text{ kg/L}$$ (typical)
 - Energy content of gasoline: $$E = 46 \text{ MJ/kg}$$ (typical)
@@ -1588,6 +1702,7 @@ $$m_{ice} = \frac{Q_{waste}}{L_f} = \frac{1.05 \times 10^8 \text{ J}}{334 \times
 **(b)** No, this is NOT reasonable! Carrying 314 kg (about 692 pounds) of ice to cool the engine for burning just 1 gallon of gasoline is completely impractical.
 
 For perspective:
+
 - A typical car's fuel tank holds 12-15 gallons
 - This would require nearly 4000 kg (4 metric tons) of ice
 - The ice would weigh more than the car itself!
@@ -1605,6 +1720,7 @@ For perspective:
 **Discussion**
 
 This problem illustrates why conventional cooling systems exist. A water-cooled system:
+
 - Recirculates the same coolant repeatedly
 - Uses airflow through radiator to dissipate heat
 - Weighs only ~10-20 kg (coolant + radiator + pump)
@@ -1698,6 +1814,30 @@ time without a general conflagration.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Choose aircraft mass and speed, an absorbed energy fraction, and an effective brake heat capacity, then equate absorbed kinetic energy to thermal energy.
+
+**Solution**
+
+Assume an aircraft mass $$M=7.00\times10^4\text{ kg}$$, initial speed $$v=70.0\text{ m/s}$$, and 90% of its kinetic energy deposited in brakes and nearby material of effective mass $$m_b=600\text{ kg}$$ and specific heat $$c_b=500\text{ J/(kg}\cdot\text{K)}$$. Neglect heat loss during the stop and take initial temperature $$20\text{ °C}$$. Then
+
+$$K=\frac12 Mv^2=\frac12(7.00\times10^4\text{ kg})(70.0\text{ m/s})^2=1.715\times10^8\text{ J},$$
+
+$$Q_b=(0.90)(1.715\times10^8\text{ J})=1.54\times10^8\text{ J},$$
+
+$$\Delta T=\frac{Q_b}{m_bc_b}=\frac{1.54\times10^8\text{ J}}{(600\text{ kg})(500\text{ J/(kg}\cdot\text{K)})}=515\text{ K}.$$
+
+The estimated final temperature is $$T_f=20\text{ °C}+515\text{ °C}=535\text{ °C}$$, where the added Celsius value is a temperature interval.
+
+**Discussion**
+
+The absorbed energy per kilogram is about $$257\text{ kJ/kg}$$, consistent with a several-hundred-kelvin rise at the assumed heat capacity. Temperature-dependent heat capacities, nonuniform heating, radiation, and oxidation affect a real test. The calculation does not imply that every brake material ignites at this temperature. For the chosen example, the brakes warm by **about $$515\text{ K}$$** to **about $$535\text{ °C}$$**, showing why rejected-takeoff braking can create a severe thermal load.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1719,11 +1859,50 @@ presenting your results.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Choose a clothed-surface temperature and separate the parallel loss paths: convection and radiation from clothing, conduction through soles, respiratory warming, and evaporation. Do not count conduction through clothing again as an additional loss to the same surroundings.
+
+**Solution**
+
+Assume a $$70\text{ kg}$$ person with exposed clothing area $$A=1.70\text{ m}^2$$ and outer clothing temperature $$T_s=293.15\text{ K}$$, in calm air at $$T_a=278.15\text{ K}$$. Choose an effective radiative surroundings temperature $$T_r=273.15\text{ K}$$ for a partly sky-exposed setting, emissivity $$\epsilon=0.95$$, and convection coefficient $$h=3.0\text{ W/(m}^2\cdot\text{K)}$$. These are illustrative assumptions. The convection loss is
+
+$$P_{\text{conv}}=hA(T_s-T_a)=(3.0\text{ W/(m}^2\cdot\text{K)})(1.70\text{ m}^2)(15.0\text{ K})=76.5\text{ W}.$$
+
+The net radiation loss is
+
+$$P_{\text{rad}}=\epsilon\sigma A(T_s^4-T_r^4)=(0.95)(5.67\times10^{-8}\text{ W/(m}^2\cdot\text{K}^4))(1.70\text{ m}^2)[(293.15\text{ K})^4-(273.15\text{ K})^4]=167\text{ W}.$$
+
+For soles with total contact area $$0.030\text{ m}^2$$, thickness $$0.020\text{ m}$$, conductivity $$0.15\text{ W/(m}\cdot\text{K)}$$, and a $$25\text{ K}$$ foot-to-ground temperature difference,
+
+$$P_{\text{cond}}=\frac{kA\Delta T}{d}=\frac{(0.15\text{ W/(m}\cdot\text{K)})(0.030\text{ m}^2)(25\text{ K})}{0.020\text{ m}}=5.6\text{ W}.$$
+
+Assume ventilation $$8.0\text{ L/min}$$, air density $$1.2\text{ kg/m}^3$$, specific heat $$1000\text{ J/(kg}\cdot\text{K)}$$, and inhaled-to-exhaled warming $$32\text{ K}$$. Then
+
+$$P_{\text{breath}}=(1.2\text{ kg/m}^3)\frac{0.0080\text{ m}^3}{60\text{ s}}(1000\text{ J/(kg}\cdot\text{K)})(32\text{ K})=5.1\text{ W}.$$
+
+Let total evaporated water, including respiratory moisture, be $$0.020\text{ kg/h}$$ with latent heat $$2.43\times10^6\text{ J/kg}$$:
+
+$$P_{\text{evap}}=\frac{0.020\text{ kg}}{3600\text{ s}}(2.43\times10^6\text{ J/kg})=13.5\text{ W}.$$
+
+Using unrounded values, total loss is $$P_{\text{loss}}=267\text{ W}$$. With resting metabolic heat $$100\text{ W}$$, the initial cooling rate is $$267\text{ W}-100\text{ W}=167\text{ W}$$. Choose walking with an assumed 20% of total metabolic power exported as mechanical work; balance requires
+
+$$0.80P_{\text{met}}=267\text{ W},\qquad P_{\text{met}}=334\text{ W}.$$
+
+**Discussion**
+
+This is about $$4.8\text{ W/kg}$$ for the assumed person, a plausible walking-scale metabolic rate. A clothing thermal resistance of roughly $$0.091\text{ m}^2\cdot\text{K/W}$$ would support the chosen surface temperature from skin at $$33\text{ °C}$$, so the boundary assumptions are consistent with light insulation. Actual surface temperature, wind, ventilation, and evaporation change during exercise. Initially the person loses **about $$267\text{ W}$$** and cools at rest; walking that produces **about 267 W of metabolic heat**, corresponding to **$$334\text{ W}$$ total metabolic power** under the chosen efficiency, balances that loss in this model.
+
+::::
+
 </div>
 
 :::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 emissivity
@@ -1742,7 +1921,7 @@ radiation
 temperature difference
 
 Stefan-Boltzmann law of radiation
-:  $$\frac{Q}{t}=\sigma eA{T}^{4}, $$ where $$\sigma $$ is the Stefan-Boltzmann
+: $$\frac{Q}{t}=\sigma eA{T}^{4}, $$ where $$\sigma $$ is the Stefan-Boltzmann
 constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
 temperature, and $$e $$ is the emissivity
 

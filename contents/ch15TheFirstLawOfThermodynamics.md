@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 1
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* Define the first law of thermodynamics.
-* Describe how conservation of energy relates to the first law of thermodynamics.
-* Identify instances of the first law of thermodynamics working in everyday situations, including biological metabolism.
-* Calculate changes in the internal energy of a system, after accounting for heat transfer and work done.
+- Define the first law of thermodynamics.
+- Describe how conservation of energy relates to the first law of thermodynamics.
+- Identify instances of the first law of thermodynamics working in everyday situations, including biological metabolism.
+- Calculate changes in the internal energy of a system, after accounting for heat transfer and work done.
 
 :::
 
@@ -28,7 +29,7 @@ done **by** the system. In equation form, the first law of thermodynamics is
  $$\Delta U=Q-W\text{.} $$
 </div>
 
-Here $$\Delta U $$ is the *change in internal energy*  $$U $$ of the system. $$Q $$ is the **net heat transferred into the system**—that is, $$Q $$ is the sum of
+Here $$\Delta U $$ is the _change in internal energy_ $$U $$ of the system. $$Q $$ is the **net heat transferred into the system**—that is, $$Q $$ is the sum of
 all heat transfer into and out of the system. $$W $$ is the **net work done by
 the system**—that is, $$W $$ is the sum of all work done on or by the system. We
 use the following sign conventions: if $$Q $$ is positive, then there is a net
@@ -335,6 +336,22 @@ Describe the photo of the tea kettle at the beginning of this section in terms o
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose the kettle and its contents as the system, and track energy entering and leaving.
+
+**Solution**
+
+Energy reaches the kettle from the hotter stove by conduction, with convection distributing energy through the water; radiation can also contribute. Expanding vapor does work displacing the atmosphere and driving air through the whistle, producing motion and sound. During warming, energy accumulates as internal energy. During steady boiling, continuing input supplies vaporization, work, and losses to the surroundings.
+
+**Discussion**
+
+Because steam escapes, this is an open system: outgoing vapor also carries energy, and the total internal energy of the remaining contents need not stay constant as their mass decreases. The stove maintains the boiling temperature by continually replacing energy carried away through steam, work, and heat loss.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -346,15 +363,47 @@ discussed in [Conservation of Energy](../contents/ch7ConservationOfEnergy), are 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify which energy forms are grouped into internal energy in thermodynamics.
+
+**Solution**
+
+Conservation of energy includes all energy forms, such as bulk kinetic energy, gravitational potential energy, and microscopic kinetic and interaction energies. The first law groups the microscopic contributions into internal energy and describes its change through heat and work: for a closed system with negligible changes in bulk kinetic and potential energies, $$\Delta U=Q-W$$. If those bulk energies change, they must also be included.
+
+**Discussion**
+
+The first law is conservation of energy organized for thermodynamic systems, explicitly including internal energy and energy transfers by heat and work.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Heat transfer  $$Q $$ and work done  $$W $$
- are always energy in transit, whereas internal energy  $$U $$
- is energy stored in a system. Give an example of each type of energy, and state specifically how it is either in transit or resides in a system.
+Heat transfer $$Q $$ and work done $$W $$
+are always energy in transit, whereas internal energy $$U $$
+is energy stored in a system. Give an example of each type of energy, and state specifically how it is either in transit or resides in a system.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Classify energy by whether it resides in the system or crosses its boundary.
+
+**Solution**
+
+Heat transfer occurs when a hotter stove delivers energy to cooler water because of their temperature difference. Work occurs when a moving piston compresses gas, transferring energy through an organized force and displacement. Internal energy is the microscopic kinetic and interaction energy residing in the water or gas after either transfer. For example, an insulated gas receiving $$100\text{ J}$$ of compression work gains $$100\text{ J}$$ of internal energy if other energy changes are negligible.
+
+**Discussion**
+
+Heat and work label boundary-crossing processes; internal energy labels energy stored in the system’s microscopic state.
 
 :::
 
@@ -368,6 +417,22 @@ How do heat transfer and internal energy differ? In particular, which can be sto
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish a transfer mechanism from a state property.
+
+**Solution**
+
+Heat is energy transferred because of a temperature difference. Internal energy is energy associated with the microscopic motion and interactions of particles within a system. Once energy has entered, it contributes to internal energy regardless of whether it arrived by heating or by work; the system does not retain separate stores of “heat” and “work.”
+
+**Discussion**
+
+Internal energy can be stored in a system, but heat cannot be stored as heat because it describes energy in transit.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -375,6 +440,22 @@ How do heat transfer and internal energy differ? In particular, which can be sto
 ::: problem
 
 If you run down some stairs and stop, what happens to your kinetic energy and your initial gravitational potential energy?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Include the person, stairs, Earth, and surroundings in the energy accounting.
+
+**Solution**
+
+As you descend, gravitational potential energy decreases and can temporarily increase your kinetic energy. On stopping, your bulk kinetic energy returns to zero. Muscular braking, deformation, and friction transfer the released mechanical energy mainly into internal energy of your body, shoes, stairs, and surroundings, with some sound. For an assumed $$60\text{ kg}$$ person descending $$3.0\text{ m}$$, the potential-energy decrease has magnitude $$mgh=(60\text{ kg})(9.8\text{ m/s}^2)(3.0\text{ m})=1.8\times10^3\text{ J}$$.
+
+**Discussion**
+
+Metabolism also supplies energy during the descent. Your lost gravitational energy and any transient kinetic energy ultimately appear chiefly as internal energy when you stop.
 
 :::
 
@@ -388,6 +469,22 @@ Give an explanation of how food energy (calories) can be viewed as molecular pot
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the chemical energy of food plus oxygen with that of the reaction products.
+
+**Solution**
+
+Food molecules and oxygen form a reactant system whose molecular and electronic configuration has more chemical potential energy than the products of metabolism, principally carbon dioxide and water. Rearranging atoms into those lower-energy products releases energy that can power cellular processes or increase internal energy. Breaking bonds alone requires energy; the net release comes from the entire reaction, including forming product bonds.
+
+**Discussion**
+
+A food Calorie is an energy unit, $$1\text{ Cal}=4184\text{ J}$$. Food energy is therefore a difference in molecular potential energy available through metabolic reactions, not heat already stored in food.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -395,6 +492,22 @@ Give an explanation of how food energy (calories) can be viewed as molecular pot
 ::: problem
 
 Identify the type of energy transferred to your body in each of the following as either internal energy, heat transfer, or doing work: (a) basking in sunlight; (b) eating food; (c) riding an elevator to a higher floor.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify the mechanism by which energy crosses the body’s boundary in each case.
+
+**Solution**
+
+(a) Sunlight transfers energy by radiation and is classified here as heat transfer. (b) Food carries chemical internal energy into the body with matter; eating is not heat transfer merely because food has energy. (c) The elevator does mechanical work lifting the body, increasing its gravitational potential energy in the body–Earth system.
+
+**Discussion**
+
+The classifications are radiative heat transfer for basking, internal energy transported with food for eating, and mechanical work for riding upward in an elevator.
 
 :::
 
@@ -406,8 +519,8 @@ Identify the type of energy transferred to your body in each of the following as
 
 ::: problem
 
-What is the change in internal energy of a car if you put 12.0 gal of gasoline into its tank? The energy content of gasoline is  $$ 1.3 \times 10^{8}  \text{J/gal} $$ .
- All other factors, such as the car’s temperature, are constant.
+What is the change in internal energy of a car if you put 12.0 gal of gasoline into its tank? The energy content of gasoline is $$ 1.3 \times 10^{8}  \text{J/gal} $$ .
+All other factors, such as the car’s temperature, are constant.
 
 :::
 
@@ -420,6 +533,7 @@ To find the change in internal energy when gasoline is added to the tank, we rec
 **Solution**
 
 Given values:
+
 - Volume of gasoline: $$V = 12.0 \text{ gal}$$
 - Energy content of gasoline: $$E_{\text{density}} = 1.3 \times 10^{8} \text{ J/gal}$$
 
@@ -470,6 +584,7 @@ We use the first law of thermodynamics, $$\Delta U = Q - W$$, to find the heat t
 **Solution**
 
 Given values:
+
 - Change in internal energy: $$\Delta U = -150 \text{ J}$$ (decrease)
 - Work done by the system: $$W = 30.0 \text{ J}$$
 
@@ -509,9 +624,9 @@ The system loses 120 J of energy as heat transfer to the environment. This makes
 
 ::: problem
 
-A system does  $$ 1.80 \times 10^{8}  \text{J} $$
- of work while  $$ 7.50 \times 10^{8}  \text{J} $$
- of heat transfer occurs to the environment. What is the change in internal energy of the system assuming no other changes (such as in temperature or by the addition of fuel)?
+A system does $$ 1.80 \times 10^{8}  \text{J} $$
+of work while $$ 7.50 \times 10^{8}  \text{J} $$
+of heat transfer occurs to the environment. What is the change in internal energy of the system assuming no other changes (such as in temperature or by the addition of fuel)?
 
 :::
 
@@ -524,6 +639,7 @@ We apply the first law of thermodynamics, $$\Delta U = Q - W$$. The system does 
 **Solution**
 
 Given values:
+
 - Work done by the system: $$W = 1.80 \times 10^{8} \text{ J}$$
 - Heat transfer to the environment: $$7.50 \times 10^{8} \text{ J}$$ (leaving the system)
 
@@ -565,10 +681,10 @@ The change in internal energy is $$-9.30 \times 10^{8}$$ J, or $$-930$$ megajoul
 
 ::: problem
 
-What is the change in internal energy of a system which does  $$ 4.50 \times 10^{5}  \text{J} $$
- of work while  $$ 3.00 \times 10^{6}  \text{J} $$
- of heat transfer occurs into the system, and  $$ 8.00 \times 10^{6}  \text{J} $$
- of heat transfer occurs to the environment?
+What is the change in internal energy of a system which does $$ 4.50 \times 10^{5}  \text{J} $$
+of work while $$ 3.00 \times 10^{6}  \text{J} $$
+of heat transfer occurs into the system, and $$ 8.00 \times 10^{6}  \text{J} $$
+of heat transfer occurs to the environment?
 
 :::
 
@@ -581,6 +697,7 @@ We use the first law of thermodynamics, $$\Delta U = Q - W$$. First, we must cal
 **Solution**
 
 Given values:
+
 - Work done by the system: $$W = 4.50 \times 10^{5} \text{ J}$$
 - Heat transfer into the system: $$Q_{\text{in}} = 3.00 \times 10^{6} \text{ J}$$
 - Heat transfer out of the system: $$Q_{\text{out}} = 8.00 \times 10^{6} \text{ J}$$
@@ -642,6 +759,7 @@ For part (a), we use the first law of thermodynamics, $$\Delta U = Q - W$$. The 
 **Solution**
 
 Given values:
+
 - Work done by the woman: $$W = 500 \text{ J}$$
 - Heat transfer to environment: $$Q = -9500 \text{ J}$$
 
@@ -698,11 +816,12 @@ in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsO
 
 **Strategy**
 
-For part (a), efficiency is defined as $$\text{Eff} = \frac{W}{E_{\text{metabolized}}}$$, where $$W$$ is useful work and $$E_{\text{metabolized}}$$ is total food energy metabolized. We solve for $$E_{\text{metabolized}}$$. For part (b), we use the first law of thermodynamics, $$\Delta U = Q - W$$, for the man's body. Constant temperature means the body's *thermal* energy does not change, but its stored chemical energy does: metabolizing food lowers the body's internal energy by the energy metabolized, so $$\Delta U = -E_{\text{metabolized}}$$, not zero. We solve for $$Q$$.
+For part (a), efficiency is defined as $$\text{Eff} = \frac{W}{E_{\text{metabolized}}}$$, where $$W$$ is useful work and $$E_{\text{metabolized}}$$ is total food energy metabolized. We solve for $$E_{\text{metabolized}}$$. For part (b), we use the first law of thermodynamics, $$\Delta U = Q - W$$, for the man's body. Constant temperature means the body's _thermal_ energy does not change, but its stored chemical energy does: metabolizing food lowers the body's internal energy by the energy metabolized, so $$\Delta U = -E_{\text{metabolized}}$$, not zero. We solve for $$Q$$.
 
 **Solution**
 
 Given values:
+
 - Work done: $$W = 35.0 \text{ kJ} = 35{,}000 \text{ J}$$
 - Efficiency: $$\text{Eff} = 5.00\% = 0.0500$$
 
@@ -755,6 +874,7 @@ Part (a): The man must metabolize 700 kJ of food energy to perform 35.0 kJ of wo
 Part (b): Of the 700 kJ metabolized, only 35.0 kJ (5%) becomes useful work, while 665 kJ (95%) is released as heat to the environment. This large heat output must be dissipated to keep body temperature constant. The body achieves this through several mechanisms: evaporative cooling (sweating), increased blood flow to the skin (radiation and convection), and increased breathing rate (evaporation from lungs). This explains why physical activity makes us feel warm and why we sweat during exercise—the body must actively cool itself to prevent overheating.
 
 Following the thermodynamics problem-solving strategy:
+
 1. **Identify the system**: The man's body
 2. **Identify the process**: Metabolism of food to do work while maintaining constant temperature
 3. **Apply relevant principles**: Efficiency definition and first law with $$\Delta U = -700 \text{ kJ}$$ (stored chemical energy used up; thermal energy constant)
@@ -782,6 +902,7 @@ For part (a), metabolic rate is power, which is energy per unit time. We divide 
 **Solution**
 
 Given values:
+
 - Food energy metabolized: $$E = 10{,}500 \text{ kJ} = 1.05 \times 10^{7} \text{ J}$$
 - Time period: $$t = 1 \text{ day} = 24 \text{ hours} = 86{,}400 \text{ s}$$
 - Maximum efficiency: $$\text{Eff} = 20.0\% = 0.200$$
@@ -866,6 +987,7 @@ For part (a), we need to find how long the yogurt's energy lasts. At 20.0% effic
 **Solution**
 
 Given values:
+
 - Energy in yogurt: $$E = 1470 \text{ kJ} = 1{,}470{,}000 \text{ J}$$
 - Work power output: $$P_{\text{work}} = 150 \text{ W}$$
 - Efficiency: $$\text{Eff} = 20.0\% = 0.200$$
@@ -906,9 +1028,10 @@ Converting to minutes:
 
 Part (a): The energy in a single cup of yogurt (350 dietary Calories) will sustain about 33 minutes of vigorous stair climbing. This might seem like a reasonable duration, but consider the effort level—leisurely stair climbing at 150 W work output is actually quite demanding exercise. For context, this is roughly equivalent to climbing about 170 flights of stairs, each 3 m high, for a 60-kg person.
 
-Part (b): This calculation illustrates a fundamental challenge in weight management: the asymmetry between energy intake and expenditure. The yogurt is consumed in perhaps 2-3 minutes, but requires 33 minutes of sustained, moderately vigorous exercise to burn off. Moreover, this assumes the exercise is the *only* energy expenditure beyond basal metabolism.
+Part (b): This calculation illustrates a fundamental challenge in weight management: the asymmetry between energy intake and expenditure. The yogurt is consumed in perhaps 2-3 minutes, but requires 33 minutes of sustained, moderately vigorous exercise to burn off. Moreover, this assumes the exercise is the _only_ energy expenditure beyond basal metabolism.
 
 Consider further implications:
+
 - At 20% efficiency with 150 W work output, 80% (600 W) becomes heat—this is why stair climbing makes you hot and sweaty
 - A typical meal might contain 2,000-3,000 kJ, requiring about 44–67 minutes at the stated metabolic rate to burn off
 - Many people cannot sustain 150 W of work output for 33 minutes
@@ -924,8 +1047,8 @@ This explains why diet is often more effective than exercise alone for weight lo
 
 ::: problem
 
-(a) A woman climbing the Washington Monument metabolizes  $$ 6.00 \times 10^{2}  \text{kJ} $$
- of food energy. If her efficiency is 18.0%, how much heat transfer occurs to the environment to keep her temperature constant? (b) Discuss the amount of heat transfer found in (a). Is it consistent with the fact that you quickly warm up when exercising?
+(a) A woman climbing the Washington Monument metabolizes $$ 6.00 \times 10^{2}  \text{kJ} $$
+of food energy. If her efficiency is 18.0%, how much heat transfer occurs to the environment to keep her temperature constant? (b) Discuss the amount of heat transfer found in (a). Is it consistent with the fact that you quickly warm up when exercising?
 
 :::
 
@@ -938,6 +1061,7 @@ For part (a), we use the relationship between metabolized energy, work done, and
 **Solution**
 
 Given values:
+
 - Energy metabolized: $$E_{\text{metabolized}} = 6.00 \times 10^{2} \text{ kJ} = 600 \text{ kJ}$$
 - Efficiency: $$\text{Eff} = 18.0\% = 0.180$$
 
@@ -972,6 +1096,7 @@ Calculate the heat transfer to the environment:
 Part (a): Of the 600 kJ metabolized while climbing the Washington Monument, 108 kJ (18%) performs the mechanical work of lifting the woman's body against gravity, while 492 kJ (82%) is released as heat to the environment. This 492 kJ is a substantial amount of thermal energy that must be dissipated to prevent the body from overheating.
 
 Part (b): The large heat output (492 kJ) strongly explains why you warm up quickly when exercising. To put this in perspective:
+
 - 492 kJ is enough energy to raise the temperature of 10 liters of water by about 12 °C
 - If this heat weren't dissipated, it would raise the body temperature of a 60-kg woman by approximately 2 °C, which would be dangerous (normal body temperature is 37 °C)
 - The body must actively cool itself through multiple mechanisms:
@@ -989,6 +1114,7 @@ The Washington Monument is 169 meters (555 feet) tall with 897 steps. For a 60-k
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 first law of thermodynamics

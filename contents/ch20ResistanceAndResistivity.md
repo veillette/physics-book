@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Explain the concept of resistivity.
-* Use resistivity to calculate the resistance of specified configurations of material.
-* Use the thermal coefficient of resistivity to calculate the change of resistance with temperature.
+- Explain the concept of resistivity.
+- Use resistivity to calculate the resistance of specified configurations of material.
+- Use the thermal coefficient of resistivity to calculate the change of resistance with temperature.
 
 :::
 
@@ -211,8 +212,8 @@ will be explored in later chapters.
 Calculating Resistor Diameter: A Headlight Filament
 </div>
 
-A car headlight filament is made of tungsten and has a cold resistance of  $$ 0.350 \Omega  $$ .
- If the filament is a cylinder 4.00 cm long (it may be coiled to save space), what is its diameter?
+A car headlight filament is made of tungsten and has a cold resistance of $$ 0.350 \Omega  $$ .
+If the filament is a cylinder 4.00 cm long (it may be coiled to save space), what is its diameter?
 
 **Strategy**
 
@@ -229,21 +230,21 @@ of a cylinder given in $$R=\frac{\rho L}{A} $$, is
  $$A=\frac{\rho L}{R}\text{.} $$
 </div>
 
-Substituting the given values, and taking  $$\rho  $$
- from [[Table 1]](#Table1), yields
+Substituting the given values, and taking $$\rho  $$
+from [[Table 1]](#Table1), yields
 
 <div class="equation" >
  $$\begin{array}{lll}A& =& \frac{\left(5.6 \times 10^{-8} \Omega \cdot \text{m}\right)\left(4.00 \times 10^{-2} \text{m}\right)}{0.350 \Omega }\\ & =& 6.40 \times 10^{-9} {\text{m}}^{2}\text{.}\end{array} $$
 </div>
 
-The area of a circle is related to its diameter  $$D $$  by
+The area of a circle is related to its diameter $$D $$ by
 
 <div class="equation" >
  $$A=\frac{ \pi D^{2}}{4}\text{.} $$
 </div>
 
-Solving for the diameter  $$D $$ ,
- and substituting the value found for  $$A $$, gives
+Solving for the diameter $$D $$ ,
+and substituting the value found for $$A $$, gives
 <div class="equation" >
  $$\begin{array}{lll}D& =& 2{\left(\frac{A}{p}\right)}^{\frac{1}{2}}=2{\left(\frac{6.40 \times 10^{-9} {\text{m}}^{2}}{3.14}\right)}^{\frac{1}{2}}\\ & =& 9.0 \times 10^{-5} \text{m}\text{.}\end{array} $$
 </div>
@@ -412,11 +413,11 @@ Calculating Resistance: Hot-Filament Resistance
 
 <span id="HotFilamentResistance"></span>
 
-Although caution must be used in applying  $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right) $$
- and  $$R={R}_{0}\left(1+\alpha \Delta T\right) $$
- for temperature changes greater than  $$100 \text{ºC} $$ ,
- for tungsten the equations work reasonably well for very large temperature changes. What, then, is the resistance of the tungsten filament in the previous example if its temperature is increased from room temperature ( $$20 \text{ºC} $$ ) 
-to a typical operating temperature of  $$2850 \text{ºC} $$ ?
+Although caution must be used in applying $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right) $$
+and $$R={R}_{0}\left(1+\alpha \Delta T\right) $$
+for temperature changes greater than $$100 \text{ºC} $$ ,
+for tungsten the equations work reasonably well for very large temperature changes. What, then, is the resistance of the tungsten filament in the previous example if its temperature is increased from room temperature ( $$20 \text{ºC} $$ )
+to a typical operating temperature of $$2850 \text{ºC} $$ ?
 
 **Strategy**
 
@@ -481,6 +482,22 @@ In which of the three semiconducting materials listed in [[Table 1]](#Table1) do
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare each pure material’s resistivity with its listed range.
+
+**Solution**
+
+Table 1 lists pure germanium and silicon at the high-resistivity ends of their ranges; adding suitable impurities can reduce their resistivity, consistent with supplying mobile electrons or holes. Pure carbon is at the low-resistivity end of its listed range, so the table instead shows impurities increasing resistance there.
+
+**Discussion**
+
+Resistivity depends on mobility as well as carrier density, so the table alone is evidence of the intended behavior rather than a direct count of carriers. Germanium and silicon are the materials in which the listed impurity effect is consistent with supplying free charge carriers.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -494,6 +511,22 @@ Does the resistance of an object depend on the path current takes through it? Co
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the distance traveled and the cross-sectional area perpendicular to current.
+
+**Solution**
+
+For a uniform rectangular bar with length $$L$$, width $$w$$, and thickness $$t$$, resistance along the length is $$R_L=\rho L/(wt)$$. Across the width it is $$R_w=\rho w/(Lt)$$, so $$R_L/R_w=(L/w)^2$$. If the assumed length is five times the width, the lengthwise resistance is twenty-five times the widthwise resistance.
+
+**Discussion**
+
+This calculation assumes electrodes cover the opposite faces, producing approximately uniform flow. Resistance depends on the current path because changing direction changes both path length and available cross-sectional area.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -504,16 +537,52 @@ If aluminum and copper wires of the same length have the same resistance, which 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Set the resistances equal and compare the tabulated resistivities.
+
+**Solution**
+
+At equal length and resistance, $$\rho_{\text{Al}}/A_{\text{Al}}=\rho_{\text{Cu}}/A_{\text{Cu}}$$. For circular wires,
+
+$$\frac{d_{\text{Al}}}{d_{\text{Cu}}}=\sqrt{\frac{\rho_{\text{Al}}}{\rho_{\text{Cu}}}}=\sqrt{\frac{2.65\times10^{-8}\text{ Ω}\cdot\text{m}}{1.72\times10^{-8}\text{ Ω}\cdot\text{m}}}=1.24.$$
+
+Aluminum’s greater resistivity therefore requires a greater area.
+
+**Discussion**
+
+The resistivities are the table’s values at the same temperature. The aluminum wire must have the larger diameter, about 24% larger than the copper wire.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Explain why  $$R={R}_{0}\left(1+\alpha \Delta T\right) $$
- for the temperature variation of the resistance  $$R $$
- of an object is not as accurate as  $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right) $$ ,
- which gives the temperature variation of resistivity  $$\rho  $$.
+Explain why $$R={R}_{0}\left(1+\alpha \Delta T\right) $$
+for the temperature variation of the resistance $$R $$
+of an object is not as accurate as $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right) $$ ,
+which gives the temperature variation of resistivity $$\rho  $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Include the temperature dependence of the object’s dimensions in $$R=\rho L/A$$.
+
+**Solution**
+
+The resistivity formula describes the material’s response. Resistance also changes because heating changes length and cross-sectional area. For an isotropic material with linear expansion coefficient $$\alpha_L$$, $$L\approx L_0(1+\alpha_L\Delta T)$$ and $$A\approx A_0(1+2\alpha_L\Delta T)$$. Therefore, using $$\alpha_\rho$$ for the resistivity coefficient, $$R\approx R_0[1+(\alpha_\rho-\alpha_L)\Delta T]$$ to first order.
+
+**Discussion**
+
+Both linear laws are approximate over limited temperature ranges, and a separately measured resistance coefficient can include expansion. Using the same coefficient in both expressions neglects geometry changes, making the resistance expression less accurate.
 
 :::
 
@@ -601,9 +670,9 @@ The resistance of a 1.00-km length of 0-gauge copper wire is 0.322 Ω.
 
 ::: problem
 
-If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistance of  $$0.200 \text{Ω} $$
- at  $$ 20.0\text{ºC} $$ ,
- how long should it be?
+If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistance of $$0.200 \text{Ω} $$
+at $$ 20.0\text{ºC} $$ ,
+how long should it be?
 
 :::
 
@@ -674,8 +743,8 @@ The aluminum wire must have a diameter 1.24 times that of the copper wire to ach
 
 ::: problem
 
-What current flows through a 2.54-cm-diameter rod of pure silicon that is 20.0 cm long, when  $$1.00 \times 10^{3} \text{V} $$
- is applied to it? (Such a rod may be used to make nuclear-particle detectors, for example.)
+What current flows through a 2.54-cm-diameter rod of pure silicon that is 20.0 cm long, when $$1.00 \times 10^{3} \text{V} $$
+is applied to it? (Such a rod may be used to make nuclear-particle detectors, for example.)
 
 :::
 
@@ -719,8 +788,8 @@ A current of 1.10 mA flows through the silicon rod.
 
 ::: problem
 
-(a) To what temperature must you raise a copper wire, originally at  $$20.0 \text{ºC} $$ ,
- to double its resistance, neglecting any changes in dimensions? (b) Does this happen in household wiring under ordinary circumstances?
+(a) To what temperature must you raise a copper wire, originally at $$20.0 \text{ºC} $$ ,
+to double its resistance, neglecting any changes in dimensions? (b) Does this happen in household wiring under ordinary circumstances?
 
 :::
 
@@ -768,8 +837,8 @@ This problem illustrates why overloaded circuits are fire hazards. A wire carryi
 
 ::: problem
 
-A resistor made of Nichrome wire is used in an application where its resistance cannot change more than 1.00% from its value at  $$ 20.0\text{ºC} $$ .
- Over what temperature range can it be used?
+A resistor made of Nichrome wire is used in an application where its resistance cannot change more than 1.00% from its value at $$ 20.0\text{ºC} $$ .
+Over what temperature range can it be used?
 
 :::
 
@@ -815,8 +884,8 @@ The Nichrome resistor can be used over the temperature range of -5 °C to 45 °C
 
 ::: problem
 
-Of what material is a resistor made if its resistance is 40.0% greater at  $$100 \text{ºC} $$
- than at  $$ 20.0\text{ºC} $$ ?
+Of what material is a resistor made if its resistance is 40.0% greater at $$100 \text{ºC} $$
+than at $$ 20.0\text{ºC} $$ ?
 
 :::
 
@@ -864,8 +933,8 @@ The resistor is made of iron, which has a temperature coefficient of resistivity
 
 ::: problem
 
-An electronic device designed to operate at any temperature in the range from  $$-10.0\text{ºC} \text{to} 55.0\text{ºC} $$
- contains pure carbon resistors. By what factor does their resistance increase over this range?
+An electronic device designed to operate at any temperature in the range from $$-10.0\text{ºC} \text{to} 55.0\text{ºC} $$
+contains pure carbon resistors. By what factor does their resistance increase over this range?
 
 :::
 
@@ -873,7 +942,7 @@ An electronic device designed to operate at any temperature in the range from  $
 
 **Strategy**
 
-Use $$R = R_{0}(1 + \alpha \Delta T)$$ with carbon's negative temperature coefficient ($$\alpha = -0.5 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)). Note that for carbon, resistance *decreases* with increasing temperature. We compare resistance at the two temperature extremes. Because the resistance *falls* as the device warms, the increase the question asks about happens as the temperature goes from the top of the range (55.0 °C) to the bottom (−10.0 °C).
+Use $$R = R_{0}(1 + \alpha \Delta T)$$ with carbon's negative temperature coefficient ($$\alpha = -0.5 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)). Note that for carbon, resistance _decreases_ with increasing temperature. We compare resistance at the two temperature extremes. Because the resistance _falls_ as the device warms, the increase the question asks about happens as the temperature goes from the top of the range (55.0 °C) to the bottom (−10.0 °C).
 
 **Solution**
 
@@ -913,9 +982,9 @@ The resistance increases by a factor of 1.03 (about 3%) as the temperature drops
 
 ::: problem
 
-(a) Of what material is a wire made, if it is 25.0 m long with a 0.100 mm diameter and has a resistance of  $$ 77.7 \Omega  $$
- at  $$ 20.0\text{ºC} $$ ?
- (b) What is its resistance at  $$150 \text{ºC} $$ ?
+(a) Of what material is a wire made, if it is 25.0 m long with a 0.100 mm diameter and has a resistance of $$ 77.7 \Omega  $$
+at $$ 20.0\text{ºC} $$ ?
+(b) What is its resistance at $$150 \text{ºC} $$ ?
 
 :::
 
@@ -969,7 +1038,7 @@ The very thin wire (0.100 mm diameter) combined with a 25-meter length and relat
 
 ::: problem
 
-Assuming a constant temperature coefficient of resistivity, what is the maximum percent decrease in the resistance of a constantan wire starting at  $$ 20.0\text{ºC} $$ ?
+Assuming a constant temperature coefficient of resistivity, what is the maximum percent decrease in the resistance of a constantan wire starting at $$ 20.0\text{ºC} $$ ?
 
 :::
 
@@ -1067,10 +1136,10 @@ The resistance increases by a factor of 16.
 
 ::: problem
 
-A copper wire has a resistance of  $$ 0.500 \Omega  $$
- at  $$ 20.0\text{ºC} $$ ,
- and an iron wire has a resistance of  $$ 0.525 \Omega  $$
- at the same temperature. At what temperature are their resistances equal?
+A copper wire has a resistance of $$ 0.500 \Omega  $$
+at $$ 20.0\text{ºC} $$ ,
+and an iron wire has a resistance of $$ 0.525 \Omega  $$
+at the same temperature. At what temperature are their resistances equal?
 
 :::
 
@@ -1134,9 +1203,9 @@ The resistances are equal at -17 °C.
 
 ::: problem
 
-(a) Digital medical thermometers determine temperature by measuring the resistance of a semiconductor device called a thermistor (which has  $$\alpha = - 0.0600/\text{ºC} $$ )
-when it is at the same temperature as the patient. What is a patient's temperature if the thermistor's resistance at that temperature is 82.0% of its value at  $$ 37.0\text{ºC} $$
- (normal body temperature)? (b) The negative value for  $$\alpha  $$ cannot be used as a constant in the linear resistance model at arbitrarily high temperatures. Discuss why and whether this is the case here. (Hint: Resistance can't become negative.)
+(a) Digital medical thermometers determine temperature by measuring the resistance of a semiconductor device called a thermistor (which has $$\alpha = - 0.0600/\text{ºC} $$ )
+when it is at the same temperature as the patient. What is a patient's temperature if the thermistor's resistance at that temperature is 82.0% of its value at $$ 37.0\text{ºC} $$
+(normal body temperature)? (b) The negative value for $$\alpha  $$ cannot be used as a constant in the linear resistance model at arbitrarily high temperatures. Discuss why and whether this is the case here. (Hint: Resistance can't become negative.)
 
 :::
 
@@ -1267,6 +1336,7 @@ $$\Delta T = \frac{-0.5}{\alpha} = \frac{-0.5}{2 \times 10^{-6} \text{ /ºC}} = 
 Starting from 20 °C: $$T = 20 \text{ ºC} - 250\,000 \text{ ºC} = -249\,980 \text{ ºC}$$
 
 **(c)** Both results are unreasonable:
+
 - To double the resistance would require heating to 500,020 °C, which is approximately 90 times hotter than the surface of the Sun (about 5,500 °C). Constantan would vaporize long before reaching such temperatures—its melting point is around 1,220 °C.
 - To halve the resistance would require cooling to -249,980 °C, which is about 250,000 degrees below absolute zero (-273.15 °C). This is physically impossible since absolute zero is the lowest possible temperature.
 
@@ -1285,6 +1355,7 @@ This problem illustrates why constantan and similar alloys (like Manganin) are v
 ::: footnote-refs
 
 ### Footnotes
+
 {: class="footnote-refs-title"}
 
 - [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">Values depend strongly
@@ -1297,6 +1368,7 @@ This problem illustrates why constantan and similar alloys (like Manganin) are v
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 resistivity

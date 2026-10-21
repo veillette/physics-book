@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Define electric current, ampere, and drift velocity
-* Describe the direction of charge flow in conventional current.
-* Use drift velocity to calculate current and vice versa.
+- Define electric current, ampere, and drift velocity
+- Describe the direction of charge flow in conventional current.
+- Use drift velocity to calculate current and vice versa.
 
 :::
 
@@ -267,7 +268,7 @@ We can obtain an expression for the relationship between current and drift
 velocity by considering the number of free charges in a segment of wire, as
 illustrated in [[Figure 6]](#Figure6). **The number of free charges per unit
 volume** is given the symbol $$n $$ and depends on the material. The shaded
-segment has a volume $$A x $$ , so that the number of free charges in it is 
+segment has a volume $$A x $$ , so that the number of free charges in it is
 $$ nAx $$ . The charge $$\Delta Q $$ in this segment is thus $$qnAx $$ ,
 where $$q $$ is the amount of charge on each carrier. (Recall that for
 electrons, $$q $$ is $$ -1.60 \times 10^{-19} \text{C} $$ .)
@@ -312,7 +313,7 @@ atoms and the structure do not allow for such free electrons.
 Calculating Drift Velocity in a Common Wire
 </div>
 
-Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a diameter of 2.053 mm) carrying a 20.0-A current, given that there is one free electron per copper atom. (Household wiring often contains 12-gauge copper wire, and the maximum current allowed in such wire is usually 20 A.) The density of copper is  $$ 8.80 \times 10^{3}  {\text{kg/m}}^{3} $$.
+Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a diameter of 2.053 mm) carrying a 20.0-A current, given that there is one free electron per copper atom. (Household wiring often contains 12-gauge copper wire, and the maximum current allowed in such wire is usually 20 A.) The density of copper is $$ 8.80 \times 10^{3}  {\text{kg/m}}^{3} $$.
 
 **Strategy**
 
@@ -332,7 +333,7 @@ electron per copper atom. Therefore, is the same as the number of copper atoms
 per $$\text{m}^{3} $$ . We can now find $$n $$ as follows:
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23} \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3} \text{kg}}{ {1 \text{m}}^{3}}\\ n & =& 8.342 \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array} $$ 
+ $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23} \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3} \text{kg}}{ {1 \text{m}}^{3}}\\ n & =& 8.342 \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array} $$
 
 </div>
 
@@ -342,7 +343,7 @@ The cross-sectional area of the wire is
  $$\begin{array}{lll}A& =& \pi {r}^{2}\\ A& =& \pi {\left(\frac{ 2.053 \times 10^{-3} \text{m}}{2}\right)}^{2}\\ A& =& 3.310 \times 10^{-6} {\text{m}}^{2}\text{.}\end{array} $$ 
 </div>
 
-Rearranging  $$I=nqA{v}_{\text{d}} $$  to isolate drift velocity gives
+Rearranging $$I=nqA{v}_{\text{d}} $$ to isolate drift velocity gives
 
 <div class="equation" >
 $$\begin{array}{lll}
@@ -370,9 +371,9 @@ than the charges that carry it.
    $$I=\frac{\Delta Q}{\Delta t}\text{,} $$
   </div>
 
-     where
-   $$\Delta Q $$ is the amount of charge passing through an area in time
-   $$\Delta t $$ .
+  where
+  $$\Delta Q $$ is the amount of charge passing through an area in time
+  $$\Delta t $$ .
 
 - The direction of conventional current is taken as the direction in which
   positive charge moves.
@@ -399,6 +400,22 @@ Can a wire carry a current and still be neutral—that is, have a total charge o
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish total charge from charge transported through a cross section per second.
+
+**Solution**
+
+Yes. In a metal wire, the negative conduction electrons can drift through a stationary positive ion lattice while their total charges balance. Current measures the rate of charge flow, $$I=dQ/dt$$, rather than the net charge stored in the wire. Electrons entering one end are balanced by electrons leaving the other during steady operation.
+
+**Discussion**
+
+Small surface-charge distributions establish the field that drives the current, but a large net charge is unnecessary. A wire can therefore be neutral overall and still carry a current.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -410,15 +427,47 @@ To what physical quantity do ampere-hours correspond (voltage, charge, ...), and
 
 :::
 
+::: solution
+
+**Strategy**
+
+Convert ampere-hours into charge, then multiply by voltage to estimate energy.
+
+**Solution**
+
+Since $$1\text{ A}=1\text{ C/s}$$, $$1\text{ A}\cdot\text{h}=(1\text{ C/s})(3600\text{ s})=3600\text{ C}$$. An assumed $$50\text{ A}\cdot\text{h}$$ battery supplies charge $$Q=1.8\times10^5\text{ C}$$ under its rating conditions. At an approximately constant $$12\text{ V}$$, its energy is $$E\approx VQ=(12\text{ J/C})(1.8\times10^5\text{ C})=2.2\times10^6\text{ J}$$, or $$600\text{ W}\cdot\text{h}$$.
+
+**Discussion**
+
+Actual delivered energy depends on voltage variation, discharge rate, and operating conditions. Ampere-hours measure charge capacity, and energy capacity additionally requires the voltage over the discharge.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-If two different wires having identical cross-sectional areas carry the same current, will the drift velocity be higher or lower in the better conductor? Explain in terms of the equation  $${v}_{\text{d}}=\frac{I}{nqA} $$ ,
- by considering how the density of charge carriers  $$n $$
- relates to whether or not a material is a good conductor.
+If two different wires having identical cross-sectional areas carry the same current, will the drift velocity be higher or lower in the better conductor? Explain in terms of the equation $${v}_{\text{d}}=\frac{I}{nqA} $$ ,
+by considering how the density of charge carriers $$n $$
+relates to whether or not a material is a good conductor.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare carrier density and mobility separately.
+
+**Solution**
+
+At equal current, area, and carrier-charge magnitude, $$v_d=I/(n|q|A)$$ shows that the wire with larger carrier density has smaller drift speed. Thus, if the better conductor has higher conductivity because it has more carriers, its drift speed is lower. But conductivity is $$\sigma=n|q|\mu$$, where $$\mu$$ is mobility: better conduction can instead result from greater mobility, even with the same or a smaller carrier density.
+
+**Discussion**
+
+The premise that “better conductor” alone fixes carrier density is incomplete. Drift speed is lower for higher carrier density at fixed current and area, but conductivity by itself does not determine which wire has the greater drift speed.
 
 :::
 
@@ -432,6 +481,22 @@ Why are two conducting paths from a voltage source to an electrical device neede
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply charge conservation to a device connected to a source.
+
+**Solution**
+
+Continuous current requires a complete path: charge enters the device through one connection and leaves through another, returning to the source. With only one isolated connection, charge can accumulate briefly, changing potentials until the transient stops. A steady current cannot continually add charge to an isolated device without changing its state.
+
+**Discussion**
+
+The paths can be separate wires or another conductor serving as a return. Two conducting paths are needed to close the circuit and sustain current through the device.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -442,6 +507,22 @@ In cars, one battery terminal is connected to the metal body. How does this allo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Trace the return current through the vehicle body.
+
+**Solution**
+
+One terminal of a device is supplied by an insulated wire from the ungrounded battery terminal. The other is bonded to the conducting body or chassis, which is connected to the battery’s other terminal. Current therefore returns through the metal structure instead of a second dedicated supply wire.
+
+**Discussion**
+
+The body must have reliable conducting connections, and some devices still use separate return wires. A single supply wire works because the car’s metal body supplies the second path back to the battery.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -449,6 +530,22 @@ In cars, one battery terminal is connected to the metal body. How does this allo
 ::: problem
 
 Why isn’t a bird sitting on a high-voltage power line electrocuted? Contrast this with the situation in which a large bird hits two wires simultaneously with its wings.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the voltage between the bird’s contact points rather than the line’s voltage relative to ground.
+
+**Solution**
+
+A bird sitting on one wire has its feet at nearly the same potential. The wire segment between the feet has very low resistance, so little voltage appears across the bird and little current flows through its body. If its wings simultaneously contact two wires at different potentials, or a wire and grounded structure, a much larger voltage can appear across the body and drive a lethal current.
+
+**Discussion**
+
+Two wires at the same potential would not create the same danger merely by being separate. The bird avoids electrocution on a single wire because its contact-point voltage is small, but bridging different potentials can be fatal.
 
 :::
 
@@ -536,8 +633,8 @@ The average current of 0.333 A through the flashlight is reasonable for illumina
 
 ::: problem
 
-What is the current when a typical static charge of  $$ 0.250 \mu \text{C} $$
- moves from your finger to a metal doorknob in  $$1.00 \mu \text{s} $$ ?
+What is the current when a typical static charge of $$ 0.250 \mu \text{C} $$
+moves from your finger to a metal doorknob in $$1.00 \mu \text{s} $$ ?
 
 :::
 
@@ -579,8 +676,8 @@ The current during the static discharge is 0.250 A.
 
 ::: problem
 
-Find the current when 2.00 nC jumps between your comb and hair over a  $$0.500 \text{-} \mu \text{s} $$
- time interval.
+Find the current when 2.00 nC jumps between your comb and hair over a $$0.500 \text{-} \mu \text{s} $$
+time interval.
 
 :::
 
@@ -692,7 +789,7 @@ The spark lasts for 1.50 μs, which is sufficient to ignite the fuel-air mixture
 
 ::: problem
 
-(a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10 000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power:  $$P={I}^{2}R $$ .)
+(a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10 000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power: $$P={I}^{2}R $$ .)
 
 ![Figure represents a defibrillation unit used on a patient. The circuit is also represented. It shows a capacitor driving a current through the chest of a patient. The opposite plates of the capacitor are marked as positive Q and negative Q. The direction of current in the connecting wires from the capacitor to the defibrillation unit is shown in a clockwise direction with an arrow on the wire, and the direction of electrons is shown opposite to this direction with an arrow.](../resources/Figure_20_01_07.jpg 'The capacitor in a defibrillation unit drives a current through the heart of a patient.')
 {: #Figure7}
@@ -758,6 +855,7 @@ Part (b): Without conducting gel, skin resistance alone can exceed 100 kΩ. If t
 3. **Ineffective defibrillation**: The current path would be poorly defined, with most current taking surface paths rather than passing through the heart muscle.
 
 The conducting gel reduces skin resistance from ~100 kΩ to ~1 kΩ, a 100-fold reduction. This allows:
+
 - Safe voltage levels (10 kV instead of 1 MV)
 - Controlled current delivery to the heart
 - Minimal skin burns
@@ -773,8 +871,8 @@ The conducting gel reduces skin resistance from ~100 kΩ to ~1 kΩ, a 100-fold r
 
 ::: problem
 
-During open-heart surgery, a defibrillator can be used to bring a patient out of cardiac arrest. The resistance of the path is  $$500 \text{Ω} $$
- and a 10.0-mA current is needed. What voltage should be applied?
+During open-heart surgery, a defibrillator can be used to bring a patient out of cardiac arrest. The resistance of the path is $$500 \text{Ω} $$
+and a 10.0-mA current is needed. What voltage should be applied?
 
 :::
 
@@ -853,6 +951,7 @@ Solving for charge:
 Part (a): The charge of 0.120 C is substantial—equivalent to the charge stored in a moderate-sized capacitor. During the brief 10-millisecond pulse, this charge flows through the patient's torso to depolarize the heart muscle and restore normal rhythm. The short duration is important: it delivers enough charge to be therapeutic without causing tissue damage from prolonged current flow.
 
 Part (b): The number $$7.50 \times 10^{17}$$ electrons is enormous—750 quadrillion electrons! To put this in perspective:
+
 - This is about 1 millionth of a mole of electrons
 - If these electrons were lined up, they'd stretch many times across the solar system
 - Yet the total mass of these electrons is only about $$6.8 \times 10^{-13}$$ kg (less than a nanogram)
@@ -919,7 +1018,7 @@ The clock running for about 7.7 months on a single battery is quite reasonable f
 
 ::: problem
 
-The batteries of a submerged non-nuclear submarine supply 1000 A at full speed ahead. How long does it take to move Avogadro’s number ( $$ 6.02 \times 10^{23}  $$ ) 
+The batteries of a submerged non-nuclear submarine supply 1000 A at full speed ahead. How long does it take to move Avogadro’s number ( $$ 6.02 \times 10^{23}  $$ )
 of electrons at this rate?
 
 :::
@@ -1000,10 +1099,10 @@ The electron gun in an X-ray tube produces over 3 quadrillion electrons per seco
 
 ::: problem
 
-A large cyclotron directs a beam of  $${\text{He}}^{++} $$
- nuclei onto a target with a beam current of 0.250 mA. (a) How many  $${\text{He}}^{++} $$
- nuclei per second is this? (b) How long does it take for 1.00 C to strike the target? (c) How long before 1.00 mol of  $${\text{He}}^{++} $$
- nuclei strike the target?
+A large cyclotron directs a beam of $${\text{He}}^{++} $$
+nuclei onto a target with a beam current of 0.250 mA. (a) How many $${\text{He}}^{++} $$
+nuclei per second is this? (b) How long does it take for 1.00 C to strike the target? (c) How long before 1.00 mol of $${\text{He}}^{++} $$
+nuclei strike the target?
 
 :::
 
@@ -1286,6 +1385,7 @@ The SPEAR storage ring contains approximately $$9.42 \times 10^{13}$$ electrons.
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 electric current

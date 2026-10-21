@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 6
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Discuss the method of heat transfer by convection.
+- Discuss the method of heat transfer by convection.
 
 :::
 
@@ -55,9 +56,9 @@ Take two small pots of water and use an eye dropper to place a drop of food colo
 Calculating Heat Transfer by Convection: Convection of Air Through the Walls of a House
 </div>
 
-Most houses are not airtight: air goes in and out around doors and windows, through cracks and crevices, following wiring to switches and outlets, and so on. The air in a typical house is completely replaced in less than an hour. Suppose that a moderately-sized house has inside dimensions  $$12.0\text{m}×18.0\text{m}×3.00\text{m} $$
- high, and that all air is replaced in 30.0 min. Calculate the heat transfer per unit time in watts needed to warm the incoming cold air by  $$ 10.0\text{ºC} $$ ,
- thus replacing the heat transferred by convection alone.
+Most houses are not airtight: air goes in and out around doors and windows, through cracks and crevices, following wiring to switches and outlets, and so on. The air in a typical house is completely replaced in less than an hour. Suppose that a moderately-sized house has inside dimensions $$12.0\text{m}×18.0\text{m}×3.00\text{m} $$
+high, and that all air is replaced in 30.0 min. Calculate the heat transfer per unit time in watts needed to warm the incoming cold air by $$ 10.0\text{ºC} $$ ,
+thus replacing the heat transferred by convection alone.
 
 **Strategy**
 
@@ -321,8 +322,8 @@ loss per unit time is
  $$\frac{Q}{t}=\frac{ m L_{\text{v}}}{t}=120 \text{W}=120 \text{J/s} \text{.}  $$
 </div>
 
-We divide both sides of the equation by  $${L}_{\text{v}} $$
- to find that the mass evaporated per unit time is
+We divide both sides of the equation by $${L}_{\text{v}} $$
+to find that the mass evaporated per unit time is
 
 <div class="equation" >
  $$\frac{m}{t}=\frac{120\text{J/s}}{ {L}_{\text{v}}}\text{.} $$
@@ -409,6 +410,22 @@ One way to make a fireplace more energy efficient is to have an external air sup
 
 :::
 
+::: solution
+
+**Strategy**
+
+Trace the combustion-air path separately from the room-air heating path.
+
+**Solution**
+
+An external combustion-air supply sends outdoor air directly to the fire. This reduces the amount of already heated room air lost up the chimney and the replacement cold air drawn into the building. Circulating room air around the outside of a sealed firebox transfers energy from hot gases and the firebox by convection and conduction through the wall, then returns warmed room air by natural or forced convection. The hot exterior also radiates into the room.
+
+**Discussion**
+
+The air streams should remain separate. External combustion air reduces ventilation heat loss, while room-air circulation recovers more firebox heat for the room.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -416,6 +433,22 @@ One way to make a fireplace more energy efficient is to have an external air sup
 ::: problem
 
 On cold, clear nights horses will sleep under the cover of large trees. How does this help them keep warm?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the infrared environment beneath a tree with that beneath a clear sky.
+
+**Solution**
+
+A horse emits infrared radiation to its surroundings. A clear sky has a much lower effective radiative temperature than nearby trees, so it sends less infrared energy back. Tree cover replaces part of the cold sky with warmer branches and leaves, increasing incoming radiation and reducing the horse’s net radiative loss. Trees may also reduce wind and convective cooling.
+
+**Discussion**
+
+The cover need not be warmer than the horse to help. Sleeping beneath a large tree reduces net radiative cooling to the clear sky and can also reduce wind exposure.
 
 :::
 
@@ -427,8 +460,8 @@ On cold, clear nights horses will sleep under the cover of large trees. How does
 
 ::: problem
 
-At what wind speed does  $$-10 \text{ºC} $$
- air cause the same chill factor as still air at  $$-29 \text{ºC} $$ ?
+At what wind speed does $$-10 \text{ºC} $$
+air cause the same chill factor as still air at $$-29 \text{ºC} $$ ?
 
 :::
 
@@ -443,6 +476,7 @@ We use Table 1 (Wind-Chill Factors) to find the wind speed at which $$-10\text{�
 From Table 1, we need to find the wind-chill factor of $$-29\text{ºC}$$ in the row for moving air temperature $$-10\text{ºC}$$.
 
 Looking at the row for $$-10\text{ºC}$$:
+
 - At 0 m/s (still air): $$-10\text{ºC}$$
 - At 2 m/s: $$-12\text{ºC}$$
 - At 5 m/s: $$-21\text{ºC}$$
@@ -457,11 +491,13 @@ The wind speed is **10 m/s**.
 This result shows that $$-10\text{ºC}$$ air moving at 10 m/s feels as cold as still air at $$-29\text{ºC}$$—a 19-degree difference in perceived temperature! This demonstrates the dramatic impact of wind on heat loss from exposed skin.
 
 Wind speed of 10 m/s equals:
+
 - **36 km/h** (22 mph)
 - A moderate to fresh breeze
 - Enough to raise dust and loose paper; small branches begin to move
 
 At this combination (-10 °C and 10 m/s wind), exposed skin faces serious frostbite risk:
+
 - Frostbite can occur in 10-30 minutes on exposed skin
 - Proper protection (hat, gloves, scarf covering face) is essential
 - Outdoor activities should be limited
@@ -469,6 +505,7 @@ At this combination (-10 °C and 10 m/s wind), exposed skin faces serious frostb
 The wind-chill effect occurs because convection continuously removes the warm boundary layer of air near the skin. In still air, this boundary layer provides some insulation. Moving air strips away this layer, exposing skin directly to colder air and dramatically increasing heat loss.
 
 This is why:
+
 1. **Windbreaks matter**: Standing behind a wall or in a forest significantly reduces wind chill
 2. **Clothing works**: Wind-resistant outer layers trap still air and block convection
 3. **Activity helps**: Moving generates metabolic heat to offset increased losses
@@ -486,8 +523,8 @@ The wind speed is **10 m/s** (36 km/h or 22 mph).
 
 ::: problem
 
-At what temperature does still air cause the same chill factor as  $$-5\text{ºC} $$
- air moving at 15 m/s?
+At what temperature does still air cause the same chill factor as $$-5\text{ºC} $$
+air moving at 15 m/s?
 
 :::
 
@@ -508,6 +545,7 @@ The wind-chill factor (equivalent still air temperature) is: $$-26\text{ºC}$$
 This dramatic result shows that $$-5\text{ºC}$$ air moving at 15 m/s feels as cold as still air at $$-26\text{ºC}$$—a difference of 21 degrees! This demonstrates the powerful effect of convection on heat loss from the body.
 
 The wind-chill effect occurs because:
+
 1. Moving air continuously replaces the thin, warmer boundary layer of air next to your skin with colder air
 2. This increases the temperature gradient at the skin surface
 3. Higher temperature gradients increase the rate of heat conduction from skin to air
@@ -529,14 +567,14 @@ Still air at **-26ºC** causes the same chill factor as -5ºC air moving at 15 m
 
 ::: problem
 
-The “steam” above a freshly made cup of instant coffee is really water vapor droplets condensing after evaporating from the hot coffee. What is the final temperature of 250 g of hot coffee initially at  $$90.0\text{ºC} $$
- if 2.00 g evaporates from it? The coffee is in a Styrofoam cup, so other methods of heat transfer can be neglected.
+The “steam” above a freshly made cup of instant coffee is really water vapor droplets condensing after evaporating from the hot coffee. What is the final temperature of 250 g of hot coffee initially at $$90.0\text{ºC} $$
+if 2.00 g evaporates from it? The coffee is in a Styrofoam cup, so other methods of heat transfer can be neglected.
 
 :::
 
 ::: solution
 
- $$ 85.7\text{ºC} $$
+$$ 85.7\text{ºC} $$
 
 :::
 
@@ -546,7 +584,7 @@ The “steam” above a freshly made cup of instant coffee is really water vapor
 
 ::: problem
 
-(a) How many kilograms of water must evaporate from a 60.0-kg woman to lower her body temperature by  $$0.750\text{ºC} $$ ?
+(a) How many kilograms of water must evaporate from a 60.0-kg woman to lower her body temperature by $$0.750\text{ºC} $$ ?
 
 (b) Is this a reasonable amount of water to evaporate in the form of
 perspiration, assuming the relative humidity of the surrounding air is low?
@@ -562,6 +600,7 @@ The heat removed by evaporation ($$Q = mL_{v}$$) must equal the heat lost from t
 **Solution**
 
 Given:
+
 - Mass of woman: $$M = 60.0 \text{ kg}$$
 - Temperature decrease: $$\Delta T = 0.750\text{ºC}$$
 - Specific heat of human body: $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$
@@ -589,6 +628,7 @@ $$m_{evap} = \frac{Q}{L_v} = \frac{157.5 \text{ kJ}}{2430 \text{ kJ/kg}} = 0.064
 The result shows that evaporation is an extremely efficient cooling mechanism. Only 64.8 g of water evaporation can lower body temperature by 0.75ºC for a 60-kg person—demonstrating water's remarkable latent heat of vaporization.
 
 This calculation explains several physiological phenomena:
+
 1. **Why we sweat:** It's the body's primary cooling mechanism during heat stress or exercise
 2. **Importance of hydration:** We must replace lost water to maintain cooling capacity
 3. **Humidity effects:** In high humidity, sweat doesn't evaporate efficiently, reducing cooling and causing overheating
@@ -611,9 +651,9 @@ In low humidity environments (deserts), this small amount of perspiration can ev
 
 ::: problem
 
-On a hot dry day, evaporation from a lake has just enough heat transfer to balance the  $$ 1.00{\text{kW/m}}^{2} $$
- of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you 
-follow the steps in the 
+On a hot dry day, evaporation from a lake has just enough heat transfer to balance the $$ 1.00{\text{kW/m}}^{2} $$
+of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you
+follow the steps in the
 [Problem-Solving Strategies for the Effects of Heat Transfer](../contents/ch14PhaseChangeAndLatentHeat#Note1).
 
 :::
@@ -636,6 +676,7 @@ This involves a phase change (liquid water to vapor), so we use the latent heat 
 We need to find the mass of water evaporated per square meter in 1.00 hour.
 
 **Step 4: List knowns**
+
 - Solar heat input rate: $$\frac{Q}{t} = 1.00 \text{ kW/m}^2 = 1000 \text{ W/m}^2$$
 - Time: $$t = 1.00 \text{ h} = 3600 \text{ s}$$
 - Area: $$A = 1.00 \text{ m}^2$$
@@ -692,6 +733,7 @@ The result of approximately 1.5 kg of water evaporating per square meter per hou
    - This shows latent heat of vaporization is much larger than sensible heat
 
 The problem illustrates why:
+
 - Desert lakes and reservoirs lose enormous amounts of water
 - Covered reservoirs save water in arid regions
 - Swimming pools use covers at night to reduce evaporation
@@ -709,9 +751,9 @@ Approximately **1.48 kg** (or 1.5 kg) of water evaporates per square meter in 1.
 
 ::: problem
 
-One winter day, the climate control system of a large university classroom building malfunctions. As a result,  $$500 {\text{m}}^{3} $$
- of excess cold air is brought in each minute. At what rate in kilowatts must heat transfer occur to warm this air by  $$10.0\text{ºC} $$
- (that is, to bring the air to room temperature)?
+One winter day, the climate control system of a large university classroom building malfunctions. As a result, $$500 {\text{m}}^{3} $$
+of excess cold air is brought in each minute. At what rate in kilowatts must heat transfer occur to warm this air by $$10.0\text{ºC} $$
+(that is, to bring the air to room temperature)?
 
 :::
 
@@ -724,6 +766,7 @@ We need to calculate the mass of air brought in per minute, then use $$Q = mc\De
 **Solution**
 
 Given:
+
 - Volume of air per minute: $$V = 500 \text{ m}^3$$
 - Temperature increase: $$\Delta T = 10.0\text{ºC}$$
 - Time: $$t = 1.00 \text{ min} = 60.0 \text{ s}$$
@@ -755,6 +798,7 @@ $$P = 108 \text{ kW}$$
 The required heating rate of approximately 108 kW (or about 108,000 watts) is substantial—equivalent to running about 1080 hundred-watt light bulbs or about 50 typical home space heaters (2 kW each) simultaneously! This demonstrates why HVAC (heating, ventilation, and air conditioning) systems for large buildings must be very powerful.
 
 The malfunction bringing in 500 m³ of cold air per minute represents a significant air exchange rate. For context:
+
 - A typical classroom might be 10 m × 10 m × 3 m = 300 m³
 - This malfunction completely replaces 1.67 classroom volumes per minute
 - That's an air change every 36 seconds—far too rapid!
@@ -780,11 +824,11 @@ Heat must be transferred at a rate of approximately **108 kW** to warm the incom
 
 ::: problem
 
-The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$5 \times 10^{5}  {\text{m}}^{3} $$
- of  $$1200 \text{ºC} $$
- lava per day. What is the rate of heat transfer out of Earth by convection if this lava has a density of  $$2700 {\text{kg/m}}^{3} $$
- and eventually cools to  $$30 \text{ºC} $$ ?
- Assume that the specific heat of lava is the same as that of granite.
+The Kilauea volcano in Hawaii is the world’s most active, disgorging about $$5 \times 10^{5}  {\text{m}}^{3} $$
+of $$1200 \text{ºC} $$
+lava per day. What is the rate of heat transfer out of Earth by convection if this lava has a density of $$2700 {\text{kg/m}}^{3} $$
+and eventually cools to $$30 \text{ºC} $$ ?
+Assume that the specific heat of lava is the same as that of granite.
 
 ![A view of a lava flow on the Kilauea volcano of Hawaii.](../resources/Figure_14_06_07.jpg 'Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)')
 {: #Figure7}
@@ -793,7 +837,7 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
 
 ::: solution
 
- $$2 \times 10^{4} \text{MW} $$
+$$2 \times 10^{4} \text{MW} $$
 
 :::
 
@@ -803,8 +847,8 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
 
 ::: problem
 
-During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by  $$2.00\text{ºC} $$ .
- What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is  $$1050{\text{kg/m}}^{3} $$ ?
+During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by $$2.00\text{ºC} $$ .
+What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is $$1050{\text{kg/m}}^{3} $$ ?
 
 :::
 
@@ -817,6 +861,7 @@ We calculate the mass of blood pumped per minute using its density and volume, t
 **Solution**
 
 Given:
+
 - Volume of blood per minute: $$V = 2.00 \text{ L} = 2.00 \times 10^{-3} \text{ m}^3$$
 - Temperature decrease: $$\Delta T = 2.00\text{ºC}$$
 - Time: $$t = 1.00 \text{ min} = 60.0 \text{ s}$$
@@ -843,23 +888,27 @@ $$P = \frac{Q}{t} = \frac{17,581 \text{ J}}{60.0 \text{ s}} = 293 \text{ W}$$
 The rate of heat removal by blood circulation to the skin during exercise is approximately 293 W. This is a substantial cooling mechanism. During heavy exercise, the body can produce 500-1000 W of metabolic heat, so this circulatory cooling represents a significant portion of the body's heat dissipation capability.
 
 The circulatory system is remarkably efficient at heat transfer:
+
 - Blood is pumped from the hot core (muscles, organs) to the skin surface
 - At the skin, heat is transferred to the environment by convection, radiation, and evaporation
 - Cooled blood returns to the core to absorb more heat
 - This continuous cycle transfers heat much faster than conduction through tissue alone
 
 The 2 °C temperature drop (from ~37 °C core to ~35 °C at skin surface) seems modest, but because 2.10 kg of blood circulates every minute, the cumulative effect is significant. The body enhances this during exercise by:
+
 - **Vasodilation**: Blood vessels near the skin expand, increasing blood flow from ~0.5 L/min at rest to 2+ L/min during exercise
 - **Increased cardiac output**: Heart rate and stroke volume both increase
 - **Blood redistribution**: Blood is diverted from digestive organs to muscles and skin
 
 For comparison:
+
 - Basal metabolic rate: ~80-100 W
 - Light exercise: ~200-300 W
 - Heavy exercise: ~500-1000 W
 - This circulatory cooling: 293 W
 
 Since this accounts for only part of the total cooling needed during heavy exercise, the body must also rely on:
+
 - Evaporative cooling (sweating): Most important, can remove 500+ W
 - Radiation and convection from skin: 100-200 W
 - Respiratory heat loss: 20-50 W
@@ -878,9 +927,9 @@ The rate of heat transfer by forced convection through blood circulation is appr
 
 ::: problem
 
-A person inhales and exhales 2.00 L of  $$37.0\text{ºC} $$
- air, evaporating  $$ 4.00 \times 10^{-2} \text{g} $$
- of water from the lungs and breathing passages with each breath.
+A person inhales and exhales 2.00 L of $$37.0\text{ºC} $$
+air, evaporating $$ 4.00 \times 10^{-2} \text{g} $$
+of water from the lungs and breathing passages with each breath.
 
 (a) How much heat transfer occurs due to evaporation in each breath?
 
@@ -936,6 +985,7 @@ For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta
 **Solution**
 
 Given:
+
 - Diameter: $$D = 9.00 \text{ cm} = 0.0900 \text{ m}$$
 - Radius: $$r = 4.50 \text{ cm} = 0.0450 \text{ m}$$
 - Thickness: $$d = 3.00 \text{ mm} = 0.00300 \text{ m}$$
@@ -993,6 +1043,7 @@ $$m_{hour} = (1.28 \text{ g/min})(60 \text{ min}) = 76.8 \text{ g} \approx 77 \t
 For a typical coffee pot holding 1-2 liters, losing 77 mL per hour (about 4-8% of volume) would be noticeable but acceptable for keeping coffee warm for an hour or two. This explains why coffee pots left on warming plates gradually concentrate and become stronger—water evaporates while the coffee solids remain.
 
 The calculation assumes all heat goes into evaporation, which is reasonable if:
+
 - The pot is well-insulated on the sides and top (only bottom heated)
 - The coffee is already at steady-state temperature
 - Heat loss by radiation and convection is minimal

@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.
-* Calculate the electrostatic force between two charged point forces, such as electrons or protons.
-* Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
+- State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.
+- Calculate the electrostatic force between two charged point forces, such as electrons or protons.
+- Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.
 
 :::
 
@@ -32,8 +33,8 @@ Coulomb’s Law
  $$F=k\frac{\|{q}_{1}{q}_{2}\|}{ {r}^{2}}. $$
 </div>
 
-Coulomb’s law calculates the *magnitude* of the force  $$F $$ between two point charges,  $${q}_{1} $$ and  $${q}_{2} $$, separated by a distance  $$r $$ .
- In SI units, the constant  $$k $$  is equal to
+Coulomb’s law calculates the _magnitude_ of the force $$F $$ between two point charges, $${q}_{1} $$ and $${q}_{2} $$, separated by a distance $$r $$ .
+In SI units, the constant $$k $$ is equal to
 
 <div class="equation" >
  $$k= 8.988 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}\approx  8.99 \times 10^{9} \frac{\text{N}\cdot {\text{m}}^{2}}{ {\text{C}}^{2}}. $$
@@ -59,8 +60,8 @@ have ever been found, even at the small distances within the atom.
 How Strong is the Coulomb Force Relative to the Gravitational Force?
 </div>
 
-Compare the electrostatic force between an electron and proton separated by  $$ 0.530 \times 10^{-10}  \text{m} $$
- with the gravitational force between them. This distance is their average separation in a hydrogen atom.
+Compare the electrostatic force between an electron and proton separated by $$ 0.530 \times 10^{-10}  \text{m} $$
+with the gravitational force between them. This distance is their average separation in a hydrogen atom.
 
 **Strategy**
 
@@ -88,16 +89,16 @@ Thus the Coulomb force is
  $$F=8.19 \times 10^{-8} \text{N}. $$
 </div>
 
-The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of  $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
+The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of $$ 8.99 \times 10^{22}  \text{m}/{\text{s}}^{2} $$
 (verification is left as an end-of-section problem). The magnitude of the gravitational force is given by Newton’s law of gravitation as:
 
 <div class="equation" >
  $${F}_{G}=G\frac{mM}{ {r}^{2}}, $$
 </div>
 
-where  $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $$ .
- Here  $$m $$  and  $$M $$
- represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields
+where $$G= 6.67 \times 10^{-11}  \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2} $$ .
+Here $$m $$ and $$M $$
+represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields
 
 <div class="equation" >
  $${F}_{G}=\left(6.67 \times 10^{-11} \text{N}\cdot {\text{m}}^{2}/{\text{kg}}^{2}\right)×\frac{\left(9.11 \times 10^{-31} \text{kg}\right)\left(1.67 \times 10^{-27} \text{kg}\right)}{ {\left(0.530 \times 10^{-10} \text{m}\right)}^{2}}=3.61 \times 10^{-47} \text{N} $$
@@ -162,6 +163,22 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\t
 
 :::
 
+::: solution
+
+**Strategy**
+
+Connect water’s polarity with surface adsorption and charge mobility.
+
+**Solution**
+
+Polar water molecules are attracted to charged surfaces. In humid air, adsorbed moisture can form a thin surface film; dissolved ions and contaminants in that film provide a path for charge to leak to the surroundings or ground. Dry insulating surfaces generally retain excess charge much longer.
+
+**Discussion**
+
+Water molecules do not destroy electric charge, and pure water is a relatively poor conductor. Humidity usually removes static charge faster by increasing surface leakage through adsorbed moisture.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -169,6 +186,22 @@ distance $$r $$ , and $$k\approx 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\t
 ::: problem
 
 Using [[Figure 3]](#Figure3), explain, in terms of Coulomb’s law, why a polar molecule (such as in [[Figure 3]](#Figure3)) is attracted by both positive and negative charges.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the distances of the two ends of the molecular dipole from the source charge.
+
+**Solution**
+
+Near a positive source, water tends to orient its partially negative oxygen end toward the source; near a negative source, its partially positive hydrogen side tends to face the source. In each case, the opposite-sign end is closer. Since the Coulomb force varies as $$1/r^2$$, the nearer attraction exceeds the farther repulsion in the nonuniform field.
+
+**Discussion**
+
+A uniform field can exert a torque without a net force on a dipole. Near an isolated charge, the field is nonuniform, so either sign attracts an appropriately oriented polar water molecule.
 
 :::
 
@@ -182,6 +215,22 @@ Given the polar character of water molecules, explain how ions in the air form n
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply ion–dipole attraction to water vapor near an ion.
+
+**Solution**
+
+An ion orients nearby water molecules with their oppositely charged ends facing it and attracts them. This stabilizes a small cluster of water molecules, lowering the barrier to forming a droplet compared with homogeneous nucleation under otherwise similar conditions. Additional molecules can then join the cluster if the humidity and temperature favor condensation.
+
+**Discussion**
+
+An ion is a possible nucleation center, not a guarantee of rain in unsaturated air. Its electric field attracts polar water molecules and can help a condensation droplet form.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -190,7 +239,7 @@ Given the polar character of water molecules, explain how ions in the air form n
 
 ::: problem
 
-What is the repulsive force between two pith balls that are 8.00 cm apart and have equal charges of  - 30.0 nC?
+What is the repulsive force between two pith balls that are 8.00 cm apart and have equal charges of - 30.0 nC?
 
 :::
 
@@ -242,9 +291,9 @@ The repulsive force between the two pith balls is 1.26 × 10⁻³ N, or 1.26 mil
 
 ::: problem
 
-(a) How strong is the attractive force between a glass rod with a  $$0.700 \mu \text{C} $$
- charge and a silk cloth with a  $$-0.600 \mu \text{C} $$
- charge, which are 12.0 cm apart, using the approximation that they act like point charges? (b) Discuss how the answer to this problem might be affected if the charges are distributed over some area and do not act like point charges.
+(a) How strong is the attractive force between a glass rod with a $$0.700 \mu \text{C} $$
+charge and a silk cloth with a $$-0.600 \mu \text{C} $$
+charge, which are 12.0 cm apart, using the approximation that they act like point charges? (b) Discuss how the answer to this problem might be affected if the charges are distributed over some area and do not act like point charges.
 
 :::
 
@@ -544,11 +593,11 @@ In everyday static electricity, charges are typically measured in nanocoulombs (
 
 ::: problem
 
-A test charge of  $$+2 \mu \text{C} $$
- is placed halfway between a charge of  $$+6 \mu \text{C} $$
- and another of  $$+4 \mu \text{C} $$
- separated by 10 cm. (a) What is the magnitude of the force on the test charge? (b) What is the direction of this force (away from or toward the  $$+6 \mu \text{C} $$
- charge)?
+A test charge of $$+2 \mu \text{C} $$
+is placed halfway between a charge of $$+6 \mu \text{C} $$
+and another of $$+4 \mu \text{C} $$
+separated by 10 cm. (a) What is the magnitude of the force on the test charge? (b) What is the direction of this force (away from or toward the $$+6 \mu \text{C} $$
+charge)?
 
 :::
 
@@ -629,6 +678,7 @@ Bare free charges do not remain stationary when close together. To illustrate th
 **Strategy**
 
 We follow the problem-solving strategy for electrostatics:
+
 1. Identify the charges and their separation distance
 2. Calculate the electrostatic force using Coulomb's law
 3. Use Newton's second law ($$F = ma$$) to find the acceleration
@@ -758,8 +808,8 @@ Part (b): Whether the distance increases or decreases by a factor of 3.2, the fo
 
 ::: problem
 
-Suppose you have a total charge  $${q}_{\text{tot}} $$
- that you can split in any manner. Once split, the separation distance is fixed. How do you split the charge to achieve the greatest force?
+Suppose you have a total charge $${q}_{\text{tot}} $$
+that you can split in any manner. Once split, the separation distance is fixed. How do you split the charge to achieve the greatest force?
 
 :::
 
@@ -928,6 +978,7 @@ For both electrons and protons, we calculate the ratio of electrostatic force to
 **Solution**
 
 Known constants:
+
 - $$k = 8.99 \times 10^9 \text{ N·m}^2/\text{C}^2$$
 - $$G = 6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2$$
 - $$e = 1.60 \times 10^{-19} \text{ C}$$
@@ -1021,6 +1072,7 @@ Solve for $$r$$:
 </div>
 
 Substitute the values:
+
 - $$k = 8.99 \times 10^9 \text{ N·m}^2/\text{C}^2$$
 - $$e = 1.60 \times 10^{-19} \text{ C}$$
 - $$m_p = 1.67 \times 10^{-27} \text{ kg}$$
@@ -1140,8 +1192,8 @@ Even though we're only removing about 14.6 trillion electrons (which sounds like
 
 ::: problem
 
-(a) Two point charges totaling  $$8.00 µ\text{C} $$
- exert a repulsive force of 0.150 N on one another when separated by 0.500 m. What is the charge on each? (b) What is the charge on each if the force is attractive?
+(a) Two point charges totaling $$8.00 µ\text{C} $$
+exert a repulsive force of 0.150 N on one another when separated by 0.500 m. What is the charge on each? (b) What is the charge on each if the force is attractive?
 
 :::
 
@@ -1170,9 +1222,9 @@ giving **+8.49 µC** and **−0.491 µC**. Their unrounded sum is 8.00 µC and t
 
 ::: problem
 
-Point charges of  $$5.00 µ\text{C} $$
- and  $$-3.00 µ\text{C} $$
- are placed 0.250 m apart. (a) Where can a third charge be placed so that the net force on it is zero? (b) What if both charges are positive?
+Point charges of $$5.00 µ\text{C} $$
+and $$-3.00 µ\text{C} $$
+are placed 0.250 m apart. (a) Where can a third charge be placed so that the net force on it is zero? (b) What if both charges are positive?
 
 :::
 
@@ -1304,9 +1356,9 @@ These problems demonstrate the principle of superposition—the net force is the
 
 ::: problem
 
-Two point charges  $${q}_{1} $$  and  $${q}_{2} $$  are  $$3.00 \text{m} $$
- apart, and their total charge is  $$20 µ\text{C} $$ .
- (a) If the force of repulsion between them is 0.075 N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525 N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
+Two point charges $${q}_{1} $$ and $${q}_{2} $$ are $$3.00 \text{m} $$
+apart, and their total charge is $$20 µ\text{C} $$ .
+(a) If the force of repulsion between them is 0.075 N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525 N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.
 
 :::
 
@@ -1319,6 +1371,7 @@ This is similar to Problem 15. We have two equations: $$q_1 + q_2 = 20 \text{ μ
 **Solution**
 
 Given:
+
 - $$r = 3.00 \text{ m}$$
 - Total charge magnitude = $$20 \times 10^{-6} \text{ C}$$
 
@@ -1433,6 +1486,7 @@ Notice that the attractive force case requires much larger individual charges th
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 Coulomb’s law

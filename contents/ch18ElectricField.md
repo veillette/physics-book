@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* Describe a force field and calculate the strength of an electric field due to a point charge.
-* Calculate the force exerted on a test charge by an electric field.
-* Explain the relationship between electrical force (F) on a test charge and electrical field strength (E).
+- Describe a force field and calculate the strength of an electric field due to a point charge.
+- Calculate the force exerted on a test charge by an electric field.
+- Explain the relationship between electrical force (F) on a test charge and electrical field strength (E).
 
 :::
 
@@ -85,8 +86,8 @@ distance $$r $$ ; it is completely independent of the test charge $$q $$.
 Calculating the Electric Field of a Point Charge
 </div>
 
-Calculate the strength and direction of the electric field  $$E $$
- due to a point charge of 2.00 nC (nano-Coulombs) at a distance of 5.00 mm from the charge.
+Calculate the strength and direction of the electric field $$E $$
+due to a point charge of 2.00 nC (nano-Coulombs) at a distance of 5.00 mm from the charge.
 
 **Strategy**
 
@@ -116,7 +117,7 @@ direction pointing away from the charge $$Q $$ .
 Calculating the Force Exerted on a Point Charge by an Electric Field
 </div>
 
-What force does the electric field found in the previous example exert on a point charge of  $$-0.250 \mu \text{C} $$ ?
+What force does the electric field found in the previous example exert on a point charge of $$-0.250 \mu \text{C} $$ ?
 
 **Strategy**
 
@@ -134,7 +135,7 @@ field of strength $$E= 7.20 \times 10^{5} $$ N/C is thus,
  $$\begin{array}{lll}F& =& -qE\\ & =& \left(0.250 \times 10^{-6} \text{C}\right)\left( 7.20 \times 10^{5} \text{N/C}\right)\\ F& =& 0.180 \text{N} \text{.} \end{array} $$ 
 </div>
 
-Because  $$q $$  is negative, the force is directed opposite to the direction of the field.
+Because $$q $$ is negative, the force is directed opposite to the direction of the field.
 
 **Discussion**
 
@@ -182,7 +183,7 @@ small positive test charge $$q $$ . $$\vb{E} $$ has units of N/C.
    $$|\vb{E}|=k\frac{\|Q\|}{ {r}^{2}}. $$
   </div>
 
-  where  $$r $$ is the distance from $$Q $$. The electric field  $$\vb{E} $$
+  where $$r $$ is the distance from $$Q $$. The electric field $$\vb{E} $$
   is a vector and fields due to multiple charges add like vectors.
 
 ### Conceptual Questions
@@ -191,8 +192,24 @@ small positive test charge $$q $$ . $$\vb{E} $$ has units of N/C.
 
 ::: problem
 
-Why must the test charge  $$q $$
- in the definition of the electric field be vanishingly small?
+Why must the test charge $$q $$
+in the definition of the electric field be vanishingly small?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Ask whether the measuring charge changes the sources of the field.
+
+**Solution**
+
+The source field is defined by $$\vec E=\lim_{q\to0}\vec F/q$$. A finite test charge can push source charges around, particularly in nearby conductors, and then the measured force includes the change it caused. Taking the test charge sufficiently small makes that disturbance negligible.
+
+**Discussion**
+
+The limiting procedure is a definition; a practical measurement uses a small finite charge. The test charge must be vanishingly small so the measurement describes the original electric field.
 
 :::
 
@@ -206,6 +223,22 @@ Are the direction and magnitude of the Coulomb force unique at a given point in 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish the source field from the force on a particular test charge.
+
+**Solution**
+
+For a fixed source configuration, the vector sum of the source fields gives one electric field at each nonsingular point. The force is $$\vec F=q\vec E$$, so a specified test charge also has one force there. However, different test charges experience different magnitudes, and reversing the charge reverses the force; the force is not a property of position alone.
+
+**Discussion**
+
+At a zero-field point the vector is uniquely zero, although it has no direction. The electric field is unique for the sources, while the Coulomb force is unique only after the test charge is specified.
+
+:::
+
 </div>
 
 ### Problem Exercises
@@ -214,9 +247,29 @@ Are the direction and magnitude of the Coulomb force unique at a given point in 
 
 ::: problem
 
-What is the magnitude and direction of an electric field that exerts a  $$ 2.00 \times 10^{-5}  \text{N} $$
- upward force on a  $$-1.75 \mu \text{C} $$
- charge?
+What is the magnitude and direction of an electric field that exerts a $$ 2.00 \times 10^{-5}  \text{N} $$
+upward force on a $$-1.75 \mu \text{C} $$
+charge?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use $$\vec E=\vec F/q$$ and account for the negative sign of the charge.
+
+**Solution**
+
+Convert the charge to $$q=-1.75\times10^{-6}\text{ C}$$. The field magnitude is
+
+$$E=\frac{F}{|q|}=\frac{2.00\times10^{-5}\text{ N}}{1.75\times10^{-6}\text{ C}}=11.4\text{ N/C}.$$
+
+A negative charge experiences a force opposite the field; the upward force therefore requires a downward field.
+
+**Discussion**
+
+Checking gives a force magnitude $$(1.75\times10^{-6}\text{ C})(11.4\text{ N/C})=2.00\times10^{-5}\text{ N}$$ to the stated precision. The electric field is **$$11.4\text{ N/C}$$ downward**.
 
 :::
 
@@ -226,8 +279,8 @@ What is the magnitude and direction of an electric field that exerts a  $$ 2.00 
 
 ::: problem
 
-What is the magnitude and direction of the force exerted on a  $$3.50 \mu \text{C} $$
- charge by a 250 N/C electric field that points due east?
+What is the magnitude and direction of the force exerted on a $$3.50 \mu \text{C} $$
+charge by a 250 N/C electric field that points due east?
 
 :::
 
@@ -259,6 +312,24 @@ Calculate the magnitude of the electric field 2.00 m from a point charge of 5.00
 
 :::
 
+::: solution
+
+**Strategy**
+
+Treat the source as a point charge and use $$E=k|Q|/r^2$$.
+
+**Solution**
+
+With $$Q=5.00\times10^{-3}\text{ C}$$ and $$r=2.00\text{ m}$$,
+
+$$E=\frac{(8.99\times10^9\text{ N}\cdot\text{m}^2/\text{C}^2)(5.00\times10^{-3}\text{ C})}{(2.00\text{ m})^2}=1.12\times10^7\text{ N/C}.$$
+
+**Discussion**
+
+The inverse-square dependence predicts one quarter this field at twice the distance. The field magnitude is **$$1.12\times10^7\text{ N/C}$$**, directed radially outward for the stated positive charge; practical air breakdown can limit such a field in air.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -271,8 +342,8 @@ Calculate the magnitude of the electric field 2.00 m from a point charge of 5.00
 
 ::: solution
 
-(a)  $$ 6.94 \times 10^{-8}  \text{C} $$
-(b)  $$ 6.25 \text{N/C} $$
+(a) $$ 6.94 \times 10^{-8}  \text{C} $$
+(b) $$ 6.25 \text{N/C} $$
 
 :::
 
@@ -282,26 +353,48 @@ Calculate the magnitude of the electric field 2.00 m from a point charge of 5.00
 
 ::: problem
 
-Calculate the initial (from rest) acceleration of a proton in a  $$ 5.00 \times 10^{6}  \text{N/C} $$
- electric field (such as created by a research Van de Graaff). Explicitly show how you follow the steps in the Problem-Solving Strategy for electrostatics.
-
-:::
-
-</div>
-
-<div class="exercise" data-element-type="problems-exercises">
-
-::: problem
-
-(a) Find the magnitude and direction of an electric field that exerts a  $$ 4.80 \times 10^{-17}  \text{N} $$
- westward force on an electron. (b) What magnitude and direction force does this field exert on a proton?
+Calculate the initial (from rest) acceleration of a proton in a $$ 5.00 \times 10^{6}  \text{N/C} $$
+electric field (such as created by a research Van de Graaff). Explicitly show how you follow the steps in the Problem-Solving Strategy for electrostatics.
 
 :::
 
 ::: solution
 
-(a)  $$300 \text{N/C} \left(\text{east}\right) $$
-(b)  $$ 4.80 \times 10^{-17}  \text{N} \left(\text{east}\right) $$
+**Strategy**
+
+Identify the proton as the object of interest, draw its electric force along the given field, and apply $$\vec F=q\vec E$$ followed by Newton’s second law. Use $$q=+1.602\times10^{-19}\text{ C}$$ and $$m_p=1.673\times10^{-27}\text{ kg}$$.
+
+**Solution**
+
+The force magnitude is
+
+$$F=qE=(1.602\times10^{-19}\text{ C})(5.00\times10^6\text{ N/C})=8.01\times10^{-13}\text{ N}.$$
+
+Thus the initial acceleration is
+
+$$a=\frac{F}{m_p}=\frac{8.01\times10^{-13}\text{ N}}{1.673\times10^{-27}\text{ kg}}=4.79\times10^{14}\text{ m/s}^2.$$
+
+**Discussion**
+
+The units reduce to acceleration, and the positive proton accelerates along the field. Gravity is negligible here, and the initial rest condition makes the nonrelativistic equation appropriate initially; this acceleration cannot be extrapolated unchanged to relativistic speeds. The initial acceleration is **$$4.79\times10^{14}\text{ m/s}^2$$ along the electric field**.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+(a) Find the magnitude and direction of an electric field that exerts a $$ 4.80 \times 10^{-17}  \text{N} $$
+westward force on an electron. (b) What magnitude and direction force does this field exert on a proton?
+
+:::
+
+::: solution
+
+(a) $$300 \text{N/C} \left(\text{east}\right) $$
+(b) $$ 4.80 \times 10^{-17}  \text{N} \left(\text{east}\right) $$
 
 :::
 
@@ -310,6 +403,7 @@ Calculate the initial (from rest) acceleration of a proton in a  $$ 5.00 \times 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 field

@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* Calculate the total force (magnitude and direction) exerted on a test charge from more than one charge
-* Describe an electric field diagram of a positive point charge; of a negative point charge with twice the magnitude of positive charge
-* Draw the electric field lines between two points of the same charge; between two points of opposite charge.
+- Calculate the total force (magnitude and direction) exerted on a test charge from more than one charge
+- Describe an electric field diagram of a positive point charge; of a negative point charge with twice the magnitude of positive charge
+- Draw the electric field lines between two points of the same charge; between two points of opposite charge.
 
 :::
 
@@ -52,9 +53,9 @@ charge. The following example shows how to add electric field vectors.
 Adding Electric Fields
 </div>
 
-Find the magnitude and direction of the total electric field due to the two point charges,  $${q}_{1} $$
- and  $${q}_{2} $$ ,
- at the origin of the coordinate system as shown in [[Figure 3]](#Figure3).
+Find the magnitude and direction of the total electric field due to the two point charges, $${q}_{1} $$
+and $${q}_{2} $$ ,
+at the origin of the coordinate system as shown in [[Figure 3]](#Figure3).
 
 ![Two charges are placed on a coordinate axes. Q two is at the position x equals 4 and y equals 0 centimeters. Q one is at the position x equals 0 and y equals two centimeters. Charge on q one is plus five point zero nano coulomb and charge on q two is plus ten nano coulomb. The electric field, E one having a magnitude of one point one three multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow along positive y axis starting from the origin. The electric field, E two having magnitude zero point five six multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow along negative x axis starting from the origin. The resultant field makes an angle of sixty three point four degree above the negative y axis having magnitude one point two six multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow pointing away from the origin in the second quadrant.](../resources/Figure_18_05_04.jpg 'The electric fields ( E_{1} ) and ( E_{2} ) at the origin O add to ( E_\\text{tot} ).')
 {: #Figure3}
@@ -78,20 +79,20 @@ The electric field strength at the origin due to $${q}_{1} $$ is labeled $${E}_{
  $$\begin{array}{l}{E}_{1}=k\frac{ {q}_{1}}{ {r}_{1}^{2}}=\left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right) \frac{\left( 5.00 \times 10^{-9} \text{C}\right)}{ {\left( 2.00 \times 10^{-2} \text{m} \right)}^{2}}\\ {E}_{1}= 1.124 \times 10^{5} \text{N/C}.\end{array} $$ 
 </div>
 
-Similarly,  $${E}_{2} $$  is
+Similarly, $${E}_{2} $$ is
 
 <div class="equation" >
  $$\begin{array}{l}{E}_{2}=k\frac{ {q}_{2}}{ {r}_{2}^{2}}=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)\frac{\left( 10.0 \times 10^{-9}  \text{C}\right)}{ {\left( 4.00 \times 10^{-2}  \text{m}\right)}^{2}}\\ {E}_{2}= 0.5619 \times 10^{5}  \text{N/C}.\end{array} $$
 </div>
 
-Four digits have been retained in this solution to illustrate that  $${E}_{1} $$
- is exactly twice the magnitude of  $${E}_{2} $$ .
- Now arrows are drawn to represent the magnitudes and directions of  $${\vb{E}}_{1} $$
- and  $${\vb{E}}_{2} $$ .
- (See [[Figure 3]](#Figure3).) The direction of the electric field is that of the force on a positive charge so both arrows point directly away from the positive charges that create them. The arrow for  $${\vb{E}}_{1} $$
- is exactly twice the length of that for  $${\vb{E}}_{2} $$ .
- The arrows form a right triangle in this case and can be added using the Pythagorean theorem. The magnitude of the total field  $${E}_{\text{tot}} $$
- is
+Four digits have been retained in this solution to illustrate that $${E}_{1} $$
+is exactly twice the magnitude of $${E}_{2} $$ .
+Now arrows are drawn to represent the magnitudes and directions of $${\vb{E}}_{1} $$
+and $${\vb{E}}_{2} $$ .
+(See [[Figure 3]](#Figure3).) The direction of the electric field is that of the force on a positive charge so both arrows point directly away from the positive charges that create them. The arrow for $${\vb{E}}_{1} $$
+is exactly twice the length of that for $${\vb{E}}_{2} $$ .
+The arrows form a right triangle in this case and can be added using the Pythagorean theorem. The magnitude of the total field $${E}_{\text{tot}} $$
+is
 
 <div class="equation" >
 $$\begin{array}{lll}
@@ -106,7 +107,7 @@ The direction is
  $$\begin{array}{lll}\theta & =& {\tan}^{-1}\left(\frac{ {E}_{1}}{ {E}_{2}}\right)\\ \theta & =& {\tan}^{-1}\left(\frac{ 1.124 \times 10^{5} \text{N/C}}{ 0.5619 \times 10^{5} \text{N/C}} \right)\\ \theta & =& 63.4º,\end{array} $$ 
 </div>
 
-or  $$63.4º $$ above the *x*-axis.
+or $$63.4º $$ above the _x_-axis.
 
 **Discussion**
 
@@ -206,6 +207,26 @@ Compare and contrast the Coulomb force field and the electric field. To do this,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Define a force field for one fixed, nonzero test charge using $$\vec F=q\vec E$$, and compare the five field-line rules.
+
+**Solution**
+
+1. For positive $$q$$, force lines start on positive sources and end on negative sources or infinity; for negative $$q$$, their arrows reverse.
+2. With a fixed drawing convention, the number of force lines is proportional to source-charge magnitude, just as for electric field lines.
+3. Line density indicates force magnitude for a fixed test charge, since $$|\vec F|=|q||\vec E|$$.
+4. The force is tangent to its force lines, as the electric field is tangent to its lines.
+5. Force lines cannot cross at a point with nonzero force, because the force there has a unique direction.
+
+**Discussion**
+
+The curves are the same as the electric-field curves for a fixed test charge; their arrow directions reverse for negative charge and their magnitude scale depends on the test charge. Thus all five rules have direct force-field counterparts once the test charge is specified.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -219,6 +240,22 @@ Compare and contrast the Coulomb force field and the electric field. To do this,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Look for line endpoints, line spacing, and parallelism in Figure 6.
+
+**Solution**
+
+(a) Two lines terminate at the two marked points in region II, so those isolated charges are negative. No positive source is shown. (b) The field is strongest near those point charges, where lines converge; among the broad regions away from the charges, region I has the greatest line density. (c) Region III has the widest spacing and weakest field away from the charges. (d) Region I has the straightest, most nearly equally spaced parallel lines and is the most uniform.
+
+**Discussion**
+
+The field is not uniform near the negative charges in region II, and ideal point-charge fields grow without bound at their positions. The diagram therefore shows two negative charges in II, a strong nearly uniform incoming field in I, and a weaker spreading field in III.
+
+:::
+
 </div>
 
 ### Problem Exercises
@@ -227,8 +264,26 @@ Compare and contrast the Coulomb force field and the electric field. To do this,
 
 ::: problem
 
-(a) Sketch the electric field lines near a point charge  $$+q $$ .
- (b) Do the same for a point charge  $$-3.00q $$.
+(a) Sketch the electric field lines near a point charge $$+q $$ .
+(b) Do the same for a point charge $$-3.00q $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use radial symmetry and draw numbers of lines proportional to charge magnitude on the same scale.
+
+**Solution**
+
+For $$+q$$, draw radial arrows away from the charge. For $$-3.00q$$, draw three times as many radial arrows, directed toward the charge. The sketch uses eight outgoing and twenty-four incoming lines, respectively.
+
+![Two separate point-charge sketches on the same line-count scale: eight equally spaced radial electric field lines point outward from positive q, and twenty-four equally spaced radial lines point inward toward negative 3q.](../resources/concept_18_05_p01.svg)
+
+**Discussion**
+
+The chosen number of lines is arbitrary, but its ratio and the arrow directions are not. The positive charge has an outward radial field, and the negative charge has an inward radial field with three times the magnitude at the same distance.
 
 :::
 
@@ -238,7 +293,25 @@ Compare and contrast the Coulomb force field and the electric field. To do this,
 
 ::: problem
 
-Sketch the electric field lines a long distance from the charge distributions shown in [[Figure 4]](#Figure4) (a) and (b)
+Sketch the electric field lines a long distance from the charge distributions shown in [[Figure 5]](#Figure5) (a) and (b)
+
+:::
+
+::: solution
+
+**Strategy**
+
+At distances much greater than the charge separation, first examine the total charge.
+
+**Solution**
+
+For Figure 5(a), the two charges $$-q$$ have total charge $$-2q$$, so the far field is approximately radial inward. For Figure 5(b), $$+q$$ and $$-q$$ have zero net charge, so the leading far field is a dipole: its lines emerge from the positive side and curve toward the negative side, rather than becoming a radial monopole field. For comparison, the two positive charges of Figure 4 give an approximately radial outward far field of charge $$q_1+q_2$$.
+
+![Far-field sketches for Figure 5, with Figure 4 for comparison: two equal negative charges act approximately like a single negative 2q charge with inward radial lines; an equal positive and negative pair has curved dipole lines from positive to negative; two positive charges act approximately like their positive total charge with outward radial lines.](../resources/concept_18_05_p02.svg)
+
+**Discussion**
+
+The monopole term falls as $$1/r^2$$, while the equal-and-opposite pair’s leading dipole field falls as $$1/r^3$$. Thus two like charges have a radial far field set by their sum, but the neutral pair retains a weaker dipole pattern.
 
 :::
 
@@ -248,12 +321,30 @@ Sketch the electric field lines a long distance from the charge distributions sh
 
 ::: problem
 
-[[Figure 7]](#Figure7) shows the electric field lines near two charges  $${q}_{1} $$
- and  $${q}_{2} $$ .
- What is the ratio of their magnitudes? (b) Sketch the electric field lines a long distance from the charges shown in the figure.
+[[Figure 7]](#Figure7) shows the electric field lines near two charges $${q}_{1} $$
+and $${q}_{2} $$ .
+What is the ratio of their magnitudes? (b) Sketch the electric field lines a long distance from the charges shown in the figure.
 
 ![Field lines between a positive and a negative charge represented by curved lines is shown](../resources/Figure_18_05_08.jpg 'The electric field near two charges.')
 {: #Figure7}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Count the lines terminating on each charge using the same line-count convention, and then find the sign of the net charge.
+
+**Solution**
+
+(a) In the figure the arrowheads point away from the small red charge, so it is positive; the lines end on the large sphere, which is negative. About twice as many lines leave the positive charge as end on the sphere (roughly half of them go off to infinity), so the magnitude ratio is $$|q_{\text{positive}}|/|q_{\text{negative}}|=2$$. (b) Write these as $$+2Q$$ and $$-Q$$. The total charge is $$+Q$$, and at distances much larger than their separation the field is approximately radial outward.
+
+![A distant view of a positive 2Q and negative Q pair: the unresolved pair is marked with net charge positive Q, and radial electric field arrows point outward from it, showing the leading far field.](../resources/concept_18_05_p03.svg)
+
+**Discussion**
+
+The near field is asymmetric, but its distant leading term is the field of the net negative charge. The positive charge has twice the negative charge’s magnitude, and the far-field arrows point outward.
 
 :::
 
@@ -267,11 +358,30 @@ Sketch the electric field lines in the vicinity of two opposite charges, where t
 
 :::
 
+::: solution
+
+**Strategy**
+
+Trace the sum of the two point-charge fields, and use three times as many lines at the negative charge.
+
+**Solution**
+
+Choose six representative lines leaving $$+q$$ and eighteen entering $$-3q$$. All six outgoing lines terminate on the negative charge; twelve additional lines enter from infinity. The arrows point from the positive charge toward the negative charge, or from infinity toward the negative charge.
+
+![Electric field lines computed from a positive q point charge on the left and a negative 3q point charge on the right. Six lines leave the positive charge and terminate on the negative charge, while twelve additional lines arrive from the outer boundary, so three times as many lines enter the negative charge as leave the positive charge.](../resources/concept_18_05_p04.svg)
+
+**Discussion**
+
+The total charge is $$-2q$$, consistent with an inward far field and an excess of incoming lines. The required sketch therefore has connecting lines from $$+q$$ to $$-3q$$ and twice as many additional lines arriving from infinity.
+
+:::
+
 </div>
 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 electric field

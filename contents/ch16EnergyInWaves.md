@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 11
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Calculate the intensity and the power of rays and waves.
+- Calculate the intensity and the power of rays and waves.
 
 :::
 
@@ -65,7 +66,7 @@ later chapter.
 Calculating intensity and power: How much energy is in a ray of sunlight?
 </div>
 
-The average intensity of sunlight on Earth’s surface is about  $$700 {\text{W/m}}^{2} $$.
+The average intensity of sunlight on Earth’s surface is about $$700 {\text{W/m}}^{2} $$.
 
 (a) Calculate the amount of energy that falls on a solar collector having an
 area of $$ 0.500 {\text{m}}^{2} $$ in $$ 4.00 \text{h} $$.
@@ -159,8 +160,8 @@ concentrated sunlight could even start a fire.
 Determine the combined intensity of two waves: Perfect constructive interference
 </div>
 
-If two identical waves, each having an intensity of  $$ 1.00 {\text{W/m}}^{2} $$ ,
- interfere perfectly constructively, what is the intensity of the resulting wave?
+If two identical waves, each having an intensity of $$ 1.00 {\text{W/m}}^{2} $$ ,
+interfere perfectly constructively, what is the intensity of the resulting wave?
 
 **Strategy**
 
@@ -251,6 +252,22 @@ Two identical waves undergo pure constructive interference. Is the resultant int
 
 :::
 
+::: solution
+
+**Strategy**
+
+Add amplitudes first, then use intensity’s dependence on amplitude squared.
+
+**Solution**
+
+At a location of pure constructive interference, two identical coherent waves with amplitude $$A$$ give resultant amplitude $$2A$$. Since $$I\propto A^2$$, the intensity is $$I_{\text{resultant}}=(2A/A)^2I=4I$$, not $$2I$$. For an illustrative individual intensity $$1.0\text{ W/m}^2$$, the constructive-interference intensity is $$4.0\text{ W/m}^2$$.
+
+**Discussion**
+
+This does not create energy: the full interference pattern and source interactions must be included, and enhanced intensity can be balanced by reduced intensity elsewhere. Two identical waves in pure constructive interference give four times one wave’s local intensity.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -258,6 +275,22 @@ Two identical waves undergo pure constructive interference. Is the resultant int
 ::: problem
 
 Circular water waves decrease in amplitude as they move away from where a rock is dropped. Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Spread approximately conserved wave power over an expanding circumference.
+
+**Solution**
+
+As circular ripples move outward, the same wave power is distributed over a circumference $$2\pi r$$. In an ideal nondissipative region of constant depth and wave speed, energy transport per unit crest length therefore scales as $$1/r$$. Since that transport is proportional to amplitude squared, $$A\propto1/\sqrt r$$; increasing radius by a factor of four halves the amplitude.
+
+**Discussion**
+
+Viscosity and other losses reduce amplitude further in real water. Circular ripples weaken primarily because their energy spreads over a progressively larger wavefront, with dissipation adding further decay.
 
 :::
 
@@ -327,8 +360,8 @@ The power output of 0.225 W (or 225 mW) is typical for medical ultrasound imagin
 
 ::: problem
 
-The low-frequency speaker of a stereo set has a surface area of  $$ 0.05 {\text{m}}^{2} $$
- and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity  $$ 0.1 {\text{W/m}}^{2} $$ ?
+The low-frequency speaker of a stereo set has a surface area of $$ 0.05 {\text{m}}^{2} $$
+and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker projects sound uniformly in all directions, at what distance from the speaker is the intensity $$ 0.1 {\text{W/m}}^{2} $$ ?
 
 :::
 
@@ -492,6 +525,7 @@ From $$I = \frac{E}{At}$$, we solve for $$t$$:
 </div>
 
 Substitute the known values:
+
 - $$E = 1.8 \times 10^9$$ J
 - $$I = 1.30$$ kW/m² = $$1.30 \times 10^3$$ W/m²
 - $$A = 1.00$$ m²
@@ -551,6 +585,7 @@ where $$h$$ is the wave height. Taking the ratio:
 </div>
 
 Substitute the values:
+
 - $$P_1 = 10.0$$ kW (when $$h_1 = 1.20$$ m)
 - $$h_2 = 0.600$$ m
 
@@ -645,8 +680,8 @@ An array area of 1.43 m² (about 1.2 m × 1.2 m) is quite modest and could fit o
 
 ::: problem
 
-A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally  $$2.00 \times 10^{-5} {\text{W/m}}^{2}, $$
- but is turned up until the amplitude increases by 30.0%, what is the new intensity?
+A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally $$2.00 \times 10^{-5} {\text{W/m}}^{2}, $$
+but is turned up until the amplitude increases by 30.0%, what is the new intensity?
 
 :::
 
@@ -766,6 +801,7 @@ This illustrates why medical lasers require extreme safety precautions, protecti
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 intensity

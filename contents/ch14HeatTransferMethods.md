@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 4
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Discuss the different methods of heat transfer.
+- Discuss the different methods of heat transfer.
 
 :::
 
@@ -81,6 +82,22 @@ What are the main methods of heat transfer from the hot core of Earth to its sur
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish heat transport through matter from transport across empty space.
+
+**Solution**
+
+Within Earth, convection transports energy through the moving fluid outer core and slowly deforming mantle, while conduction carries heat through solid material, especially the relatively rigid crust. Near-surface fluids can add convective transport. From Earth to outer space, the net energy transfer is principally electromagnetic radiation, because vacuum contains no material for conduction or convection.
+
+**Discussion**
+
+The dominant interior-to-surface mechanisms are convection and conduction, while radiation carries energy from Earth into space.
+
+:::
+
 </div>
 
 When our bodies get too warm, they respond by sweating and increasing blood
@@ -99,6 +116,7 @@ the air layer, and the stopper.
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 conduction

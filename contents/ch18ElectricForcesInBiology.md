@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* Describe how a water molecule is polar.
-* Explain electrostatic screening by a water molecule within a living cell.
+- Describe how a water molecule is polar.
+- Explain electrostatic screening by a water molecule within a living cell.
 
 :::
 
@@ -99,9 +100,31 @@ While far more research is required to understand the triggering and response me
 
 ::: problem
 
-A cell membrane is a thin layer enveloping a cell. The thickness of the membrane is much less than the size of the cell. In a static situation the membrane has a charge distribution of  $$ -2.5 \times 10^{-6}  $$
-C/m <sup>2</sup> on its inner surface and  $$+ 2.5 \times 10^{-6}  $$
- C/m<sup>2</sup> on its outer surface. Draw a diagram of the cell and the surrounding cell membrane. Include on this diagram the charge distribution and the corresponding electric field. Is there any electric field inside the cell? Is there any electric field outside the cell?
+A cell membrane is a thin layer enveloping a cell. The thickness of the membrane is much less than the size of the cell. In a static situation the membrane has a charge distribution of $$ -2.5 \times 10^{-6}  $$
+C/m <sup>2</sup> on its inner surface and $$+ 2.5 \times 10^{-6}  $$
+C/m<sup>2</sup> on its outer surface. Draw a diagram of the cell and the surrounding cell membrane. Include on this diagram the charge distribution and the corresponding electric field. Is there any electric field inside the cell? Is there any electric field outside the cell?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use a spherical cell with a locally planar, thin membrane and equal and opposite total charges on the membrane faces.
+
+**Solution**
+
+The outer face is positive and the inner face negative, so the field within the membrane points inward, from outside toward the cytoplasm. For the ideal planar-sheet model in vacuum, the two sheets reinforce between them and cancel elsewhere:
+
+$$E_{\text{membrane}}=\frac{\sigma}{\epsilon_0}=\frac{2.5\times10^{-6}\text{ C/m}^2}{8.85\times10^{-12}\text{ C}^2/(\text{N}\cdot\text{m}^2)}=2.8\times10^5\text{ N/C}.$$
+
+A dielectric reduces this value by its relative permittivity. By spherical symmetry the field in the cell interior is zero, and the external field is zero when the two surfaces carry equal and opposite total charges.
+
+![A spherical cell cross section has negative charge on the inner membrane surface and positive charge on the outer surface. Electric field arrows point radially inward only within the thin membrane; the cytoplasm and exterior are labeled zero field in the equal-and-opposite-total-charge thin-membrane model.](../resources/concept_18_06_q01.svg)
+
+**Discussion**
+
+The zero external field uses the thin-membrane approximation. For finite concentric radii, exactly equal and opposite surface charge densities act on unequal areas, leaving a small net positive charge and a nonzero exterior field; exact cancellation requires equal and opposite total charges. In the stated thin-membrane idealization, the field is inward in the membrane and zero both inside the cell and outside it.
 
 :::
 
@@ -110,6 +133,7 @@ C/m <sup>2</sup> on its inner surface and  $$+ 2.5 \times 10^{-6}  $$
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 dipole

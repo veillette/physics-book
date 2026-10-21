@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Explain the process by which electric signals are transmitted along a neuron.
-* Explain the effects myelin sheaths have on signal propagation.
-* Explain what the features of an ECG signal indicate.
+- Explain the process by which electric signals are transmitted along a neuron.
+- Explain the effects myelin sheaths have on signal propagation.
+- Explain what the features of an ECG signal indicate.
 
 :::
 
@@ -63,10 +64,10 @@ force. A tiny fraction of the charges move across and the fluids remain
 neutral (other ions are present), while a separation of charge and a voltage
 have been created across the membrane.
 
-![The semipermeable membrane of a cell is shown, with different concentrations of potassium cations, sodium cations, and chloride anions inside and outside the cell. The ions are represented by small, colored circles. In its resting state, the cell membrane is permeable to potassium and chloride ions, but it is impermeable to sodium ions. By diffusion, potassium cations travel out of the cell, going through the cell membrane and forming a layer of positive charge on the outer surface of the membrane. By diffusion, chloride anions go into the cell, going through the cell membrane and forming a layer of negative charge on the inner surface of the membrane. As a result, a voltage is set up across the cell membrane. The Coulomb force prevents all the ions from crossing the membrane.](../resources/Figure_20_07_02.jpg "The semipermeable membrane of a cell has different concentrations of ions inside and out. Diffusion moves the \( \text{K}^{+} \) and \( \text{Cl}^{-} \) ions in the direction shown, until the Coulomb force halts further transfer. This results in a layer of positive charge on the outside, a layer of negative charge on the inside, and thus a voltage across the cell membrane. The membrane is normally impermeable to \( \text{Na}^{+} \) .")
+![The semipermeable membrane of a cell is shown, with different concentrations of potassium cations, sodium cations, and chloride anions inside and outside the cell. The ions are represented by small, colored circles. In its resting state, the cell membrane is permeable to potassium and chloride ions, but it is impermeable to sodium ions. By diffusion, potassium cations travel out of the cell, going through the cell membrane and forming a layer of positive charge on the outer surface of the membrane. By diffusion, chloride anions go into the cell, going through the cell membrane and forming a layer of negative charge on the inner surface of the membrane. As a result, a voltage is set up across the cell membrane. The Coulomb force prevents all the ions from crossing the membrane.](../resources/Figure_20_07_02.jpg 'The semipermeable membrane of a cell has different concentrations of ions inside and out. Diffusion moves the ( \\text{K}^{+} ) and ( \\text{Cl}^{-} ) ions in the direction shown, until the Coulomb force halts further transfer. This results in a layer of positive charge on the outside, a layer of negative charge on the inside, and thus a voltage across the cell membrane. The membrane is normally impermeable to ( \\text{Na}^{+} ) .')
 {: #Figure2}
 
-![This is a graphical representation of a pulse of voltage, or action potential, inside a nerve cell. The voltage in millivolts is plotted along the vertical axis and the time in milliseconds is plotted along the horizontal axis. Initially, between zero and about two point eight milliseconds, the voltage is a constant at about minus ninety millivolts, corresponding to the resting state. Above this section of the graph, a window shows a small cross-section of the cell membrane, with a positively charged outer surface, a negatively charged inner surface, and no ions moving across the membrane. Between two point eight and four point two milliseconds, the voltage increases to a peak of fifty millivolts, corresponding to depolarization of the membrane. A window above this section shows sodium cations crossing the membrane, from outside to inside the cell, so that the membrane&#x2019;s inner surface acquires a positive charge and its outer surface has a negative charge. Between about four point two and about five point five milliseconds, the voltage drops to a low of about minus one hundred and ten millivolts, corresponding to repolarization of the membrane. A window above this section shows potassium cations crossing the membrane, from inside to outside the cell, so that the membrane&#x2019;s outer surface again acquires a positive charge and its inner surface has a negative charge. After that, the voltage rises slightly, going back to a constant of about minus ninety millivolts, corresponding to the resting state. This movement of sodium and potassium ions across the membrane is called active transport, and long-term active transport is shown in a window above the final part of the curve.](../resources/Figure_20_07_03.jpg "An action potential is the pulse of voltage inside a nerve cell graphed here. It is caused by movements of ions across the cell membrane as shown. Depolarization occurs when a stimulus makes the membrane permeable to \( \text{Na}^{+} \) ions. Repolarization follows as the membrane again becomes impermeable to \( \text{Na}^{+} \) and \( \text{K}^{+} \) moves from high to low concentration. In the long term, active transport slowly maintains the concentration differences, but the cell may fire hundreds of times in rapid succession without seriously depleting them.")
+![This is a graphical representation of a pulse of voltage, or action potential, inside a nerve cell. The voltage in millivolts is plotted along the vertical axis and the time in milliseconds is plotted along the horizontal axis. Initially, between zero and about two point eight milliseconds, the voltage is a constant at about minus ninety millivolts, corresponding to the resting state. Above this section of the graph, a window shows a small cross-section of the cell membrane, with a positively charged outer surface, a negatively charged inner surface, and no ions moving across the membrane. Between two point eight and four point two milliseconds, the voltage increases to a peak of fifty millivolts, corresponding to depolarization of the membrane. A window above this section shows sodium cations crossing the membrane, from outside to inside the cell, so that the membrane&#x2019;s inner surface acquires a positive charge and its outer surface has a negative charge. Between about four point two and about five point five milliseconds, the voltage drops to a low of about minus one hundred and ten millivolts, corresponding to repolarization of the membrane. A window above this section shows potassium cations crossing the membrane, from inside to outside the cell, so that the membrane&#x2019;s outer surface again acquires a positive charge and its inner surface has a negative charge. After that, the voltage rises slightly, going back to a constant of about minus ninety millivolts, corresponding to the resting state. This movement of sodium and potassium ions across the membrane is called active transport, and long-term active transport is shown in a window above the final part of the curve.](../resources/Figure_20_07_03.jpg 'An action potential is the pulse of voltage inside a nerve cell graphed here. It is caused by movements of ions across the cell membrane as shown. Depolarization occurs when a stimulus makes the membrane permeable to ( \\text{Na}^{+} ) ions. Repolarization follows as the membrane again becomes impermeable to ( \\text{Na}^{+} ) and ( \\text{K}^{+} ) moves from high to low concentration. In the long term, active transport slowly maintains the concentration differences, but the cell may fire hundreds of times in rapid succession without seriously depleting them.')
 {: #Figure3}
 
 The separation of charge creates a potential difference of 70 to 90 mV across
@@ -88,7 +89,7 @@ neutralizes the inside membrane, or **depolarizes** it, and then makes it
 slightly positive. The depolarization causes the membrane to again become
 impermeable to $${\text{Na}}^{+} $$ , and the movement of $${\text{K}}^{+} $$
 quickly returns the cell to its resting potential, or **repolarizes** it. This
-sequence of events results in a voltage pulse, called the *action potential*. (
+sequence of events results in a voltage pulse, called the _action potential_. (
 See [[Figure 3]](#Figure3).) Only small fractions of the ions move, so that the
 cell can fire many hundreds of times without depleting the excess concentrations
 of $${\text{Na}}^{+} $$ and $${\text{K}}^{+} $$ . Eventually, the cell must
@@ -106,7 +107,7 @@ further down, and so on, as illustrated in [[Figure 4]](#Figure4). Thus the
 action potential stimulated at one location triggers a **nerve impulse** that
 moves slowly (about 1 m/s) along the cell membrane.
 
-![The figure describes the propagation of an action potential, or voltage pulse, along a cell membrane. The cell membrane, represented by a horizontal, blue strip, is shown in five stages, with the electrical signal moving along its length from left to right. Initially, the membrane is in the resting state, with a uniform distribution of positive charges along the outer surface and negative charges along the inner surface. A sodium cation is shown outside the cell, and a potassium cation is shown inside the cell. A small part of the membrane near the left end receives a stimulus, making that part permeable to sodium ions. In the second stage, sodium ions cross the membrane in that area, represented by a white opening in the membrane. The charge distribution in that section of the membrane is reversed; this process is called depolarization. At the same time, an adjacent part of the membrane is stimulated. In the third stage, the depolarized area undergoes repolarization, with potassium ions crossing the membrane from inside to outside the cell. Repolarization is represented by a box containing tiny triangles. At the same time, sodium ions enter the cell through the adjacent area that was stimulated in the second stage. As the cycle is repeated, the electrical signal moves along the membrane, from left to right.](../resources/Figure_20_07_04.jpg "A nerve impulse is the propagation of an action potential along a cell membrane. A stimulus causes an action potential at one location, which changes the permeability of the adjacent membrane, causing an action potential there. This in turn affects the membrane further down, so that the action potential moves slowly (in electrical terms) along the cell membrane. Although the impulse is due to \( \text{Na}^{+} \) and \( \text{K}^{+} \) going across the membrane, it is equivalent to a wave of charge moving along the outside and inside of the membrane.")
+![The figure describes the propagation of an action potential, or voltage pulse, along a cell membrane. The cell membrane, represented by a horizontal, blue strip, is shown in five stages, with the electrical signal moving along its length from left to right. Initially, the membrane is in the resting state, with a uniform distribution of positive charges along the outer surface and negative charges along the inner surface. A sodium cation is shown outside the cell, and a potassium cation is shown inside the cell. A small part of the membrane near the left end receives a stimulus, making that part permeable to sodium ions. In the second stage, sodium ions cross the membrane in that area, represented by a white opening in the membrane. The charge distribution in that section of the membrane is reversed; this process is called depolarization. At the same time, an adjacent part of the membrane is stimulated. In the third stage, the depolarized area undergoes repolarization, with potassium ions crossing the membrane from inside to outside the cell. Repolarization is represented by a box containing tiny triangles. At the same time, sodium ions enter the cell through the adjacent area that was stimulated in the second stage. As the cycle is repeated, the electrical signal moves along the membrane, from left to right.](../resources/Figure_20_07_04.jpg 'A nerve impulse is the propagation of an action potential along a cell membrane. A stimulus causes an action potential at one location, which changes the permeability of the adjacent membrane, causing an action potential there. This in turn affects the membrane further down, so that the action potential moves slowly (in electrical terms) along the cell membrane. Although the impulse is due to ( \\text{Na}^{+} ) and ( \\text{K}^{+} ) going across the membrane, it is equivalent to a wave of charge moving along the outside and inside of the membrane.')
 {: #Figure4}
 
 Some axons, like that in [[Figure 1]](#Figure1), are sheathed with **myelin**,
@@ -143,10 +144,10 @@ muscles. Some animals, like the infamous electric eel (
 see [[Figure 6]](#Figure6)), use muscles ganged so that their voltages add in
 order to create a shock great enough to stun prey.
 
-![The figure describes the propagation of a nerve impulse, or voltage pulse, down a myelinated axon, from left to right. A cross-section of the axon is shown as a long, horizontally oriented rectangular strip, with a membrane on each side. The axon is covered with myelin sheaths separated by gaps known as nodes of Ranvier. Three gaps are shown. Most of the inner surface of the membrane is negatively charged, and the outer surface is positively charged. The gap on the left is labeled as depolarized, where the charge distribution along the membrane surface is reversed. As the voltage pulse moves from left to right through the first myelinated region, it loses voltage. The gap in the middle, labeled as depolarizing, shows sodium cations crossing the membrane from the outside to the inside of the axon. This regenerates the voltage pulse, which continues to move along the axon. The third gap is labeled as still polarized, because the signal has yet to reach that gap.](../resources/Figure_20_07_05.jpg "Propagation of a nerve impulse down a myelinated axon, from left to right. The signal travels very ast and without energy input in the myelinated regions, but it loses voltage. It is regenerated in the gaps. The signal moves faster than in unmyelinated axons and is insulated from signals in other nerves, limiting cross talk.")
+![The figure describes the propagation of a nerve impulse, or voltage pulse, down a myelinated axon, from left to right. A cross-section of the axon is shown as a long, horizontally oriented rectangular strip, with a membrane on each side. The axon is covered with myelin sheaths separated by gaps known as nodes of Ranvier. Three gaps are shown. Most of the inner surface of the membrane is negatively charged, and the outer surface is positively charged. The gap on the left is labeled as depolarized, where the charge distribution along the membrane surface is reversed. As the voltage pulse moves from left to right through the first myelinated region, it loses voltage. The gap in the middle, labeled as depolarizing, shows sodium cations crossing the membrane from the outside to the inside of the axon. This regenerates the voltage pulse, which continues to move along the axon. The third gap is labeled as still polarized, because the signal has yet to reach that gap.](../resources/Figure_20_07_05.jpg 'Propagation of a nerve impulse down a myelinated axon, from left to right. The signal travels very ast and without energy input in the myelinated regions, but it loses voltage. It is regenerated in the gaps. The signal moves faster than in unmyelinated axons and is insulated from signals in other nerves, limiting cross talk.')
 {: #Figure5}
 
-![Photograph of an electric eel.](../resources/Figure_20_07_06.jpg "An electric eel flexes its muscles to create a voltage that stuns prey. (credit: chrisbb, Flickr)")
+![Photograph of an electric eel.](../resources/Figure_20_07_06.jpg 'An electric eel flexes its muscles to create a voltage that stuns prey. (credit: chrisbb, Flickr)')
 {: #Figure6}
 
 ### Electrocardiograms
@@ -157,10 +158,10 @@ stimulate adjacent muscle cells to depolarize (fire) and contract. Thus, a
 depolarization wave can be sent across the heart, coordinating its rhythmic
 contractions and enabling it to perform its vital function of propelling blood
 through the circulatory system. [[Figure 7]](#Figure7) is a simplified graphic
-of a depolarization wave spreading across the heart from the *sinoatrial (SA)
-node*  the heart's natural pacemaker.
+of a depolarization wave spreading across the heart from the _sinoatrial (SA)
+node_ the heart's natural pacemaker.
 
-![The figure shows that the charge distribution on the outer surface of the heart changes from positive to negative during depolarization. This wave of depolarization, spreading from the upper right toward the lower left of the heart, is represented by a vector pointing in the direction of the wave. The components of this vector are measured by placing electrodes on the patient&#x2019;s chest. The figure shows three electrodes, labeled R A, L A, and L L, placed to form a triangle around the heart. The electrode R A is close to the right atrium, L A is close to the left atrium, and L L is just below the heart. R A and L A form a pair called lead one, R A and L L form a second pair called lead two, and L A and L L form a third pair called lead three. Each pair of electrodes measures a component of the depolarization vector.](../resources/Figure_20_07_07.jpg "The outer surface of the heart changes from positive to negative during depolarization. This wave of depolarization is spreading from the top of the heart and is represented by a vector pointing in the direction of the wave. This vector is a voltage (potential difference) vector. Three electrodes, labeled RA, LA, and LL, are placed on the patient. Each pair (called leads I, II, and III) measures a component of the depolarization vector and is graphed in an ECG.")
+![The figure shows that the charge distribution on the outer surface of the heart changes from positive to negative during depolarization. This wave of depolarization, spreading from the upper right toward the lower left of the heart, is represented by a vector pointing in the direction of the wave. The components of this vector are measured by placing electrodes on the patient&#x2019;s chest. The figure shows three electrodes, labeled R A, L A, and L L, placed to form a triangle around the heart. The electrode R A is close to the right atrium, L A is close to the left atrium, and L L is just below the heart. R A and L A form a pair called lead one, R A and L L form a second pair called lead two, and L A and L L form a third pair called lead three. Each pair of electrodes measures a component of the depolarization vector.](../resources/Figure_20_07_07.jpg 'The outer surface of the heart changes from positive to negative during depolarization. This wave of depolarization is spreading from the top of the heart and is represented by a vector pointing in the direction of the wave. This vector is a voltage (potential difference) vector. Three electrodes, labeled RA, LA, and LL, are placed on the patient. Each pair (called leads I, II, and III) measures a component of the depolarization vector and is graphed in an ECG.')
 {: #Figure7}
 
 An **electrocardiogram (ECG)** is a record of the voltages created by the wave
@@ -169,8 +170,8 @@ pairs of electrodes placed on the chest are vector components of the voltage
 wave on the heart. Standard ECGs have 12 or more electrodes, but only three are
 shown in [[Figure 7]](#Figure7) for clarity. Decades ago, three-electrode ECGs
 were performed by placing electrodes on the left and right arms and the left
-leg. The voltage between the right arm and the left leg is called the *lead II
-potential* and is the most often graphed. We shall examine the lead II potential
+leg. The voltage between the right arm and the left leg is called the _lead II
+potential_ and is the most often graphed. We shall examine the lead II potential
 as an indicator of heart-muscle function and see that it is coordinated with
 arterial blood pressure as well.
 
@@ -187,19 +188,19 @@ heart.
 
 [[Figure 8]](#Figure8) shows an ECG of the lead II potential and a graph of the
 corresponding arterial blood pressure. The major features are labeled P, Q, R,
-S, and T. The *P wave* is generated by the depolarization and contraction of the
-atria as they pump blood into the ventricles. The *QRS complex* is created by
+S, and T. The _P wave_ is generated by the depolarization and contraction of the
+atria as they pump blood into the ventricles. The _QRS complex_ is created by
 the depolarization of the ventricles as they pump blood to the lungs and body.
 Since the shape of the heart and the path of the depolarization wave are not
 simple, the QRS complex has this typical shape and time span. The lead II QRS
 signal also masks the repolarization of the atria, which occur at the same time.
-Finally, the *T wave* is generated by the repolarization of the ventricles and
+Finally, the _T wave_ is generated by the repolarization of the ventricles and
 is followed by the next P wave in the next heartbeat. Arterial blood pressure
 varies with each part of the heartbeat, with systolic (maximum) pressure
 occurring closely after the QRS complex, which signals contraction of the
 ventricles.
 
-![This figure has two graphs, placed one below the other. The lower graph shows an E C G of the lead two potential, and the upper graph shows the corresponding changes in arterial blood pressure. In each case, time is plotted on the horizontal axis, in seconds. The vertical axis of the upper graph shows the arterial blood pressure in millimeters of mercury, and the vertical axis of the lower graph shows the lead two voltage in millivolts. The upper graph is roughly sinusoidal, showing the diastolic or minimum blood pressure at about eighty millimeters of mercury, and the systolic or maximum blood pressure at about one hundred twenty millimeters of mercury. For the lower graph, the main features are labeled P, Q, R, S, and T. The P wave is a smooth curve that rises from zero millivolts to a peak of about zero point two five millivolts and falls to just below zero millivolts when it reaches point Q. From point Q to point R, the voltage rises steeply to about one millivolt, and then drops equally sharply to point S, at negative zero point three millivolts. This is followed by the T wave, which is a smooth curve, broader than the P wave, with a peak of comparable height. All of this is completed in less than seven-tenths of a second, with the voltage returning to zero millivolts. After about one-tenth of a second, the cycle begins again. The systolic blood pressure follows soon after the QRS complex.](../resources/Figure_20_07_08.jpg "A lead II ECG with corresponding arterial blood pressure. The QRS complex is created by the depolarization and contraction of the ventricles and is followed shortly by the maximum or systolic blood pressure. See text for further description.")
+![This figure has two graphs, placed one below the other. The lower graph shows an E C G of the lead two potential, and the upper graph shows the corresponding changes in arterial blood pressure. In each case, time is plotted on the horizontal axis, in seconds. The vertical axis of the upper graph shows the arterial blood pressure in millimeters of mercury, and the vertical axis of the lower graph shows the lead two voltage in millivolts. The upper graph is roughly sinusoidal, showing the diastolic or minimum blood pressure at about eighty millimeters of mercury, and the systolic or maximum blood pressure at about one hundred twenty millimeters of mercury. For the lower graph, the main features are labeled P, Q, R, S, and T. The P wave is a smooth curve that rises from zero millivolts to a peak of about zero point two five millivolts and falls to just below zero millivolts when it reaches point Q. From point Q to point R, the voltage rises steeply to about one millivolt, and then drops equally sharply to point S, at negative zero point three millivolts. This is followed by the T wave, which is a smooth curve, broader than the P wave, with a peak of comparable height. All of this is completed in less than seven-tenths of a second, with the voltage returning to zero millivolts. After about one-tenth of a second, the cycle begins again. The systolic blood pressure follows soon after the QRS complex.](../resources/Figure_20_07_08.jpg 'A lead II ECG with corresponding arterial blood pressure. The QRS complex is created by the depolarization and contraction of the ventricles and is followed shortly by the maximum or systolic blood pressure. See text for further description.')
 {: #Figure8}
 
 Taken together, the 12 leads of a state-of-the-art ECG can yield a wealth of
@@ -213,7 +214,7 @@ to the point where a portable ECG monitor with a liquid crystal instant display
 and a printer can be carried to patients\' homes or used in emergency vehicles.
 See [[Figure 9]](#Figure9).
 
-![Photograph of a NASA scientist in an underwater habitat recording her vital signs using a portable device and a laptop computer.](../resources/Figure_20_07_09.jpg "This NASA scientist and NEEMO 5 aquanaut&#x2019;s heart rate and other vital signs are being recorded by a portable device while living in an underwater habitat. (credit: NASA, Life Sciences Data Archive at Johnson Space Center, Houston, Texas)")
+![Photograph of a NASA scientist in an underwater habitat recording her vital signs using a portable device and a laptop computer.](../resources/Figure_20_07_09.jpg 'This NASA scientist and NEEMO 5 aquanaut’s heart rate and other vital signs are being recorded by a portable device while living in an underwater habitat. (credit: NASA, Life Sciences Data Archive at Johnson Space Center, Houston, Texas)')
 {: #Figure9}
 
 ::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
@@ -233,12 +234,12 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 
 ### Section Summary
 
-* Electric potentials in neurons and other cells are created by ionic
+- Electric potentials in neurons and other cells are created by ionic
   concentration differences across semipermeable membranes.
-* Stimuli change the permeability and create action potentials that propagate
+- Stimuli change the permeability and create action potentials that propagate
   along neurons.
-* Myelin sheaths speed this process and reduce the needed energy input.
-* This process in the heart can be measured with an electrocardiogram (ECG).
+- Myelin sheaths speed this process and reduce the needed energy input.
+- This process in the heart can be measured with an electrocardiogram (ECG).
 
 ### Conceptual Questions
 
@@ -246,8 +247,24 @@ Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in 
 
 ::: problem
 
-Note that in [[Figure 2]](#Figure2), both the concentration gradient and the Coulomb force tend to move  $${\text{Na}}^{+} $$
- ions into the cell. What prevents this?
+Note that in [[Figure 2]](#Figure2), both the concentration gradient and the Coulomb force tend to move $${\text{Na}}^{+} $$
+ions into the cell. What prevents this?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish the driving forces on ions from membrane permeability.
+
+**Solution**
+
+The concentration gradient and inward electric force favor sodium entry at rest, but most sodium channels are closed and the membrane’s lipid interior strongly resists passage of charged ions. Small leakage still occurs. The sodium–potassium pump uses metabolic energy to transport sodium outward and maintain the gradient over time.
+
+**Discussion**
+
+Opening sodium channels during excitation greatly increases entry. Sodium does not rush inward at rest because the membrane has low sodium permeability, while active transport compensates for continuing leakage.
 
 :::
 
@@ -261,6 +278,22 @@ Define depolarization, repolarization, and the action potential.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Describe the membrane voltage relative to its resting value over one excitation cycle.
+
+**Solution**
+
+Depolarization is a reduction in the magnitude of the usual negative interior membrane voltage, potentially taking it through zero to a positive value. Repolarization is the return toward the resting negative voltage, principally as sodium entry subsides and potassium leaves. An action potential is the brief, regenerative, approximately all-or-none change of membrane voltage that propagates along an excitable cell.
+
+**Discussion**
+
+Longer-term ion pumping maintains the gradients rather than directly causing each fast voltage swing. Depolarization moves voltage away from its negative resting value, repolarization restores it, and their regenerative traveling sequence forms an action potential.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -268,6 +301,22 @@ Define depolarization, repolarization, and the action potential.
 ::: problem
 
 Explain the properties of myelinated nerves in terms of the insulating properties of myelin.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Model myelin as additional electrical insulation around the axon.
+
+**Solution**
+
+Myelin raises membrane resistance, reducing leakage of current across the insulated segments, and lowers capacitance per unit length, reducing the charge needed to change voltage. Local current can therefore spread farther and charge the next exposed node more quickly. Action potentials are regenerated at nodes of Ranvier, producing saltatory conduction.
+
+**Discussion**
+
+The impulse does not physically jump through empty space; passive current spreads under the sheath between active nodes. Myelin increases conduction speed and reduces the ion exchange needed along the axon by limiting leakage and capacitive charging.
 
 :::
 
@@ -345,6 +394,7 @@ The 200 ms lag is clinically significant. Changes in this interval can indicate 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 nerve conduction

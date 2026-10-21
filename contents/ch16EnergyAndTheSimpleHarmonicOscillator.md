@@ -4,9 +4,10 @@ layout: page
 sectionNumber: 5
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Determine the maximum speed of an oscillating system.
+- Determine the maximum speed of an oscillating system.
 
 :::
 
@@ -122,8 +123,8 @@ A similar calculation for the simple pendulum produces a similar result, namely:
 Determine the Maximum Speed of an Oscillating System: A Bumpy Road
 </div>
 
-Suppose that a car is 900 kg and has a suspension system that has a force constant  $$k= 6.53 \times 10^{4}  \text{N/m} $$ .
- The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?
+Suppose that a car is 900 kg and has a suspension system that has a force constant $$k= 6.53 \times 10^{4}  \text{N/m} $$ .
+The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?
 
 **Strategy**
 
@@ -157,10 +158,10 @@ starting from its equilibrium position, is given as
  $$y\left(t\right)=a \sin \omega t, $$
 </div>
 
-where  $$a $$
- is the amplitude,  $$\omega  $$  is the angular velocity and  $$t $$
- is the time taken. Substituting  $$\omega =\frac{2\pi }{T} $$ ,
- we have
+where $$a $$
+is the amplitude, $$\omega  $$ is the angular velocity and $$t $$
+is the time taken. Substituting $$\omega =\frac{2\pi }{T} $$ ,
+we have
 
 <div class="equation" >
  $$y\left(t\right)=a \sin\left(\frac{2\pi t}{T}\right). $$
@@ -243,6 +244,22 @@ Explain in terms of energy how dissipative forces such as friction reduce the am
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate oscillator energy to amplitude and track energy lost or supplied each cycle.
+
+**Solution**
+
+For a linear oscillator, $$E=\tfrac12kA^2$$. Friction and drag convert mechanical energy to internal energy, so the amplitude decreases as energy is lost. If energy falls to one quarter of its original value, amplitude falls to one half. A driving mechanism, such as the escapement in a pendulum clock, supplies timed impulses that replace the dissipated energy.
+
+**Discussion**
+
+The driver needs a continuing energy source. Dissipative forces reduce amplitude by removing mechanical energy, while a driver can maintain amplitude by supplying equal energy on average.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -251,7 +268,7 @@ Explain in terms of energy how dissipative forces such as friction reduce the am
 
 ::: problem
 
-The length of nylon rope from which a mountain climber is suspended has a force constant of  $$ 1.40 \times 10^{4}  \text{N/m} $$.
+The length of nylon rope from which a mountain climber is suspended has a force constant of $$ 1.40 \times 10^{4}  \text{N/m} $$.
 
 (a) What is the frequency at which he bounces, given his mass plus and the mass
 of his equipment are 90.0 kg?

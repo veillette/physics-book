@@ -4,18 +4,19 @@ layout: page
 sectionNumber: 2
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* Describe the relationship between voltage and electric field.
-* Derive an expression for the electric potential and electric field.
-* Calculate electric field strength given distance and voltage.
+- Describe the relationship between voltage and electric field.
+- Derive an expression for the electric potential and electric field.
+- Calculate electric field strength given distance and voltage.
 
 :::
 
 In the previous section, we explored the relationship between voltage and
 energy. In this section, we will explore the relationship between voltage and
 electric field. For example, a uniform electric field $$\vb{E} $$ is
-produced by placing a potential difference (or voltage)  $$\Delta V $$ across
+produced by placing a potential difference (or voltage) $$\Delta V $$ across
 two parallel metal plates, labeled A and B. (See [[Figure 1]](#Figure1).)
 Examining this will tell us what voltage is needed to produce a certain electric
 field strength; it will also reveal a more fundamental relationship between
@@ -102,7 +103,7 @@ E=\frac{ V_\text{AB} }{d}
 \end{array} $$
 </div>
 
-where  $$d $$  is the distance from A to B, or the distance between the plates.
+where $$d $$ is the distance from A to B, or the distance between the plates.
 
 :::
 
@@ -112,8 +113,8 @@ where  $$d $$  is the distance from A to B, or the distance between the plates.
 What Is the Highest Voltage Possible between Two Plates?
 </div>
 
-Dry air will support a maximum electric field strength of about  $$ 3.0 \times 10^{6}  \text{V/m} $$ .
- Above that value, the field creates enough ionization in the air to make the air a conductor. This allows a discharge or spark that reduces the field. What, then, is the maximum voltage between two parallel conducting plates separated by 2.5 cm of dry air?
+Dry air will support a maximum electric field strength of about $$ 3.0 \times 10^{6}  \text{V/m} $$ .
+Above that value, the field creates enough ionization in the air to make the air a conductor. This allows a discharge or spark that reduces the field. What, then, is the maximum voltage between two parallel conducting plates separated by 2.5 cm of dry air?
 
 **Strategy**
 
@@ -129,7 +130,7 @@ The potential difference or voltage between the plates is
  $${\text{V}}_{\text{AB}}=Ed. $$
 </div>
 
-Entering the given values for  $$E $$  and  $$d $$  gives
+Entering the given values for $$E $$ and $$d $$ gives
 
 <div class="equation" >
  $${V}_{\text{AB}}=\left( 3.0 \times 10^{6}  \text{V/m}\right)\left(0.025 m\right)= 7.5 \times 10^{4}  V $$
@@ -165,8 +166,8 @@ electricity, on dry days.
 Field and Force inside an Electron Gun
 </div>
 
-(a) An electron gun has parallel plates separated by 4.00 cm and gives electrons 25.0 keV of energy. What is the electric field strength between the plates? (b) What force would this field exert on a piece of plastic with a  $$0.500 \text{μC} $$
- charge that gets between the plates?
+(a) An electron gun has parallel plates separated by 4.00 cm and gives electrons 25.0 keV of energy. What is the electric field strength between the plates? (b) What force would this field exert on a piece of plastic with a $$0.500 \text{μC} $$
+charge that gets between the plates?
 
 **Strategy**
 
@@ -186,8 +187,8 @@ plates is
  $$E=\frac{ {V}_{\text{AB}}}{d}. $$
 </div>
 
-Since the electron is a single charge and is given 25.0 keV of energy, the potential difference must be 25.0 kV. Entering this value for  $${V}_{\text{AB}} $$
- and the plate separation of 0.0400 m, we obtain
+Since the electron is a single charge and is given 25.0 keV of energy, the potential difference must be 25.0 kV. Entering this value for $${V}_{\text{AB}} $$
+and the plate separation of 0.0400 m, we obtain
 
 <div class="equation" >
  $$E=\frac{25.0 \text{kV}}{0.0400 \text{m}}= 6.25 \times 10^{5}  \text{V/m}. $$
@@ -244,10 +245,10 @@ In equation form, the general relationship between voltage and electric field is
  $$E= -\frac{\Delta V}{\Delta s}, $$
 </div>
 
-where  $$\Delta s $$
- is the distance over which the change in potential,  $$\Delta V $$ ,
- takes place. The minus sign tells us that  $$\vb{E} $$
- points in the direction of decreasing potential. The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
+where $$\Delta s $$
+is the distance over which the change in potential, $$\Delta V $$ ,
+takes place. The minus sign tells us that $$\vb{E} $$
+points in the direction of decreasing potential. The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
 
 :::
 
@@ -268,7 +269,8 @@ electric field.
     \end{array} $$
     </div>
 
-     where $$d $$ is the distance from A to B, or the distance between the plates.
+  where $$d $$ is the distance from A to B, or the distance between the plates.
+
 - In equation form, the general relationship between voltage and electric field is
   <div class="equation" >
   $$E= -\frac{\Delta V}{\Delta s}, $$
@@ -287,6 +289,22 @@ Discuss how potential difference and electric field strength are related. Give a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate the electric field to the spatial rate of change of potential.
+
+**Solution**
+
+The field points toward decreasing potential, with $$\vec E=-\nabla V$$. For a uniform field, $$\Delta V=-\vec E\cdot\Delta\vec r$$. If an assumed pair of plates has a $$12\text{ V}$$ difference across $$0.0030\text{ m}$$, the field magnitude away from edges is $$E=(12\text{ V})/(0.0030\text{ m})=4.0\times10^3\text{ V/m}=4.0\times10^3\text{ N/C}$$.
+
+**Discussion**
+
+A displacement perpendicular to the field has zero potential change. Electric field strength measures how rapidly potential falls with distance along the field.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -297,6 +315,22 @@ What is the strength of the electric field in a region where the electric potent
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the gradient of potential throughout the region.
+
+**Solution**
+
+If potential is constant throughout a three-dimensional region, every spatial derivative is zero, so $$\vec E=-\nabla V=0$$ there. This differs from being constant only along a line or surface; an equipotential surface can have a nonzero field perpendicular to it.
+
+**Discussion**
+
+The electric field is zero in a region where the potential is spatially constant in every direction.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -304,6 +338,22 @@ What is the strength of the electric field in a region where the electric potent
 ::: problem
 
 Will a negative charge, initially at rest, move toward higher or lower potential? Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use both the force direction and the sign of electric potential energy.
+
+**Solution**
+
+A negative charge feels a force opposite $$\vec E$$. Since the field points toward decreasing potential, the negative charge initially accelerates toward increasing potential. Its potential energy decreases because $$\Delta U=q\Delta V<0$$ when $$q<0$$ and $$\Delta V>0$$, and this energy becomes kinetic energy.
+
+**Discussion**
+
+This assumes a nonzero field and no other forces or constraints. A negative charge released from rest initially moves toward higher electric potential while losing electric potential energy.
 
 :::
 
@@ -366,7 +416,7 @@ Both definitions describe the same physical quantity—the electric field streng
 
 ::: problem
 
-What is the strength of the electric field between two parallel conducting plates separated by 1.00 cm and having a potential difference (voltage) between them of  $$ 1.50 \times 10^{4}  V $$ ?
+What is the strength of the electric field between two parallel conducting plates separated by 1.00 cm and having a potential difference (voltage) between them of $$ 1.50 \times 10^{4}  V $$ ?
 
 :::
 
@@ -378,7 +428,8 @@ For a uniform electric field between parallel plates, the relationship between v
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Plate separation: $$d = 1.00 \text{ cm} = 0.0100 \text{ m}$$
 - Potential difference: $$V = 1.50 \times 10^{4} \text{ V}$$
 
@@ -402,8 +453,8 @@ This is a strong electric field—about half the breakdown strength of air ($$3.
 
 ::: problem
 
-The electric field strength between two parallel conducting plates separated by 4.00 cm is  $$ 7.50 \times 10^{4}  \text{V/m} $$ .
- (a) What is the potential difference between the plates? (b) The plate with the lowest potential is taken to be at zero volts. What is the potential 1.00 cm from that plate (and 3.00 cm from the other)?
+The electric field strength between two parallel conducting plates separated by 4.00 cm is $$ 7.50 \times 10^{4}  \text{V/m} $$ .
+(a) What is the potential difference between the plates? (b) The plate with the lowest potential is taken to be at zero volts. What is the potential 1.00 cm from that plate (and 3.00 cm from the other)?
 
 :::
 
@@ -415,7 +466,8 @@ For parallel plates with a uniform electric field, the potential varies linearly
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Plate separation: $$d = 4.00 \text{ cm} = 0.0400 \text{ m}$$
 - Electric field strength: $$E = 7.50 \times 10^{4} \text{ V/m}$$
 
@@ -447,8 +499,8 @@ The potential increases uniformly from 0 V at the grounded plate to 3000 V at th
 
 ::: problem
 
-How far apart are two conducting plates that have an electric field strength of  $$ 4.50 \times 10^{3}  \text{V/m} $$
- between them, if their potential difference is 15.0 kV?
+How far apart are two conducting plates that have an electric field strength of $$ 4.50 \times 10^{3}  \text{V/m} $$
+between them, if their potential difference is 15.0 kV?
 
 :::
 
@@ -460,7 +512,8 @@ Using the relationship $$V = Ed$$ for a uniform electric field, we solve for the
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Electric field strength: $$E = 4.50 \times 10^{3} \text{ V/m}$$
 - Potential difference: $$V = 15.0 \text{ kV} = 15,000 \text{ V}$$
 
@@ -483,8 +536,8 @@ This is a large plate separation of over 3 meters. The electric field strength i
 ::: problem
 
 (a) Will the electric field strength between two parallel conducting plates exceed the breakdown strength for air ( $$ 3.0 \times 10^{6}  \text{V/m} $$ )
-if the plates are separated by 2.00 mm and a potential difference of  $$ 5.0 \times 10^{3}  \text{V} $$
- is applied? (b) How close together can the plates be with this applied voltage?
+if the plates are separated by 2.00 mm and a potential difference of $$ 5.0 \times 10^{3}  \text{V} $$
+is applied? (b) How close together can the plates be with this applied voltage?
 
 :::
 
@@ -498,7 +551,8 @@ For part (a), calculate the electric field using $$E = V/d$$ and compare to the 
 
 **(a) Check for breakdown:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Plate separation: $$d = 2.00 \text{ mm} = 2.00 \times 10^{-3} \text{ m}$$
 - Potential difference: $$V = 5.0 \times 10^{3} \text{ V}$$
 - Breakdown strength of air: $$E_{\text{breakdown}} = 3.0 \times 10^{6} \text{ V/m}$$
@@ -549,7 +603,8 @@ Apply the relationship $$E = V/d$$ for a uniform electric field across the membr
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Membrane voltage: $$V = 80.0 \text{ mV} = 80.0 \times 10^{-3} \text{ V} = 0.0800 \text{ V}$$
 - Membrane thickness: $$d = 9.00 \text{ nm} = 9.00 \times 10^{-9} \text{ m}$$
 
@@ -593,7 +648,8 @@ Use the relationship $$V = Ed$$ for a uniform electric field to find the voltage
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Membrane thickness: $$d = 8.00 \text{ nm} = 8.00 \times 10^{-9} \text{ m}$$
 - Electric field strength: $$E = 5.50 \text{ MV/m} = 5.50 \times 10^{6} \text{ V/m}$$
 
@@ -629,7 +685,8 @@ In a uniform electric field, the potential increases linearly with distance from
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Plate separation: $$d = 10.0 \text{ cm} = 0.100 \text{ m}$$
 - Distance from zero-volt plate to measurement point: $$x = 8.00 \text{ cm} = 0.0800 \text{ m}$$
 - Potential at that point: $$V_x = 450 \text{ V}$$
@@ -664,7 +721,7 @@ We can verify this result: at 8.00 cm (80% of the way across), the potential sho
 
 ::: problem
 
-Find the maximum potential difference between two parallel conducting plates separated by 0.500 cm of air, given the maximum sustainable electric field strength in air to be  $$ 3.0 \times 10^{6}  \text{V/m} $$.
+Find the maximum potential difference between two parallel conducting plates separated by 0.500 cm of air, given the maximum sustainable electric field strength in air to be $$ 3.0 \times 10^{6}  \text{V/m} $$.
 
 :::
 
@@ -676,7 +733,8 @@ The maximum voltage occurs when the electric field reaches the breakdown strengt
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Plate separation: $$d = 0.500 \text{ cm} = 5.00 \times 10^{-3} \text{ m}$$
 - Maximum field strength (breakdown): $$E_{\max} = 3.0 \times 10^{6} \text{ V/m}$$
 
@@ -712,7 +770,8 @@ A doubly charged ion has charge $$q = 2e$$. The kinetic energy gained equals $$q
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$q = 2e = 2(1.60 \times 10^{-19} \text{ C}) = 3.20 \times 10^{-19} \text{ C}$$
 - Kinetic energy: $$\text{KE} = 32.0 \text{ keV} = 32,000 \text{ eV}$$
 - Plate separation: $$d = 2.00 \text{ cm} = 0.0200 \text{ m}$$
@@ -747,8 +806,8 @@ The doubly charged ion gains twice as much energy per volt as a singly charged p
 
 ::: problem
 
-An electron is to be accelerated in a uniform electric field having a strength of  $$ 2.00 \times 10^{6}  \text{V/m} $$ .
- (a) What energy in keV is given to the electron if it is accelerated through 0.400 m? (b) Over what distance would it have to be accelerated to increase its energy by 50.0 GeV?
+An electron is to be accelerated in a uniform electric field having a strength of $$ 2.00 \times 10^{6}  \text{V/m} $$ .
+(a) What energy in keV is given to the electron if it is accelerated through 0.400 m? (b) Over what distance would it have to be accelerated to increase its energy by 50.0 GeV?
 
 :::
 
@@ -760,7 +819,8 @@ The voltage across a distance $$d$$ in a uniform field is $$V = Ed$$. An electro
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Electric field strength: $$E = 2.00 \times 10^{6} \text{ V/m}$$
 - Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
 
@@ -811,6 +871,7 @@ The Stanford Linear Collider achieved about 17 MeV/m average gradient, compared 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 scalar

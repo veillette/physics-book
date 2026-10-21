@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 6
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Define thermal hazard, shock hazard, and short circuit.
-* Explain what effects various levels of current have on the human body.
+- Define thermal hazard, shock hazard, and short circuit.
+- Explain what effects various levels of current have on the human body.
 
 :::
 
@@ -225,16 +226,16 @@ Electrical safety devices and techniques are discussed in detail
 in [Electrical Safety: Systems and Devices](../contents/ch23ElectricalSafetySystemsAndDevices)
 .
 
-![Photograph of an electric arc produced between two multi stranded wires close to each other but not in contact.](../resources/Figure_20_06_06.jpg "Is this electric arc dangerous? The answer depends on the AC frequency and the power involved. (credit: Khimich Alex, Wikimedia Commons)")
+![Photograph of an electric arc produced between two multi stranded wires close to each other but not in contact.](../resources/Figure_20_06_06.jpg 'Is this electric arc dangerous? The answer depends on the AC frequency and the power involved. (credit: Khimich Alex, Wikimedia Commons)')
 {: #Figure6}
 
 ### Section Summary
 
-* The two types of electric hazards are thermal (excessive power) and shock (
+- The two types of electric hazards are thermal (excessive power) and shock (
   current through a person).
-* Shock severity is determined by current, path, duration, and AC frequency.
-* [[Table 1]](#Table1) lists shock hazards as a function of current.
-* [[Figure 5]](#Figure5) graphs the threshold current for two hazards as a
+- Shock severity is determined by current, path, duration, and AC frequency.
+- [[Table 1]](#Table1) lists shock hazards as a function of current.
+- [[Figure 5]](#Figure5) graphs the threshold current for two hazards as a
   function of frequency.
 
 ### Conceptual Questions
@@ -244,6 +245,22 @@ in [Electrical Safety: Systems and Devices](../contents/ch23ElectricalSafetySyst
 ::: problem
 
 Using an ohmmeter, a student measures the resistance between various points on his body. He finds that the resistance between two points on the same finger is about the same as the resistance between two points on opposite hands—both are several hundred thousand ohms. Furthermore, the resistance decreases when more skin is brought into contact with the probes of the ohmmeter. Finally, there is a dramatic drop in resistance (to a few thousand ohms) when the skin is wet. Explain these observations and their implications regarding skin and internal resistance of the human body.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Model the measured resistance as two skin contacts in series with the internal tissues.
+
+**Solution**
+
+Dry skin can dominate the total resistance so strongly that changing the internal path from one finger to opposite hands makes little difference to a low-voltage ohmmeter reading. Larger contact area offers more parallel conducting paths and lowers contact resistance. Moisture hydrates the skin and supplies ionic conducting paths, sharply lowering its resistance; internal fluids already conduct relatively well.
+
+**Discussion**
+
+Body resistance is not a fixed value and can fall further with skin damage or high voltage. The observations show that dry skin contacts dominate the measurement, while wet skin exposes the much lower internal resistance and can allow a more hazardous current at the same voltage.
 
 :::
 
@@ -257,6 +274,22 @@ What are the two major hazards of electricity?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Separate current’s physiological effects from electrical heating.
+
+**Solution**
+
+The two broad hazards are electric shock, in which current interferes with nerves, muscles, breathing, or heart rhythm, and thermal injury or fire, caused by Joule heating, hot conductors, or electric arcs. A single incident can produce both. The [NIOSH electrical safety overview](https://www.cdc.gov/niosh/electrical-safety/about/) identifies shock, burns, and arc-related injury among these hazards.
+
+**Discussion**
+
+The major hazards are harmful current through the body and heating that produces burns or fires.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -264,6 +297,22 @@ What are the two major hazards of electricity?
 ::: problem
 
 Why isn’t a short circuit a shock hazard?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish the small voltage across an ideal short from the hazards of a real energized circuit.
+
+**Solution**
+
+An ideal zero-resistance short has $$\Delta V=IR=0$$ across it, so a person connected only between its endpoints would have essentially no voltage driving body current. That limited model does not make real short circuits safe: their conductors may be at a dangerous voltage relative to ground, and large fault currents can cause severe heating and arc flash.
+
+**Discussion**
+
+The question’s blanket premise is false. A short may have little voltage across its own endpoints, but a real short circuit can present shock, burn, and fire hazards.
 
 :::
 
@@ -277,6 +326,22 @@ What determines the severity of a shock? Can you say that a certain voltage is h
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use current magnitude and path, then include exposure time and waveform.
+
+**Solution**
+
+Shock severity depends on the current through the body, its route, duration, and frequency, as well as individual and contact conditions. Voltage helps determine current through the effective body impedance. As an illustration of the variation, $$I=(120\text{ V})/(100000\text{ Ω})=1.2\text{ mA}$$, whereas $$I=(120\text{ V})/(1000\text{ Ω})=120\text{ mA}$$; these are assumed resistances, not fixed human-body values.
+
+**Discussion**
+
+A sufficiently high voltage is hazardous under plausible contact conditions, but voltage alone does not specify an injury outcome. The severity is governed by the actual body current, current path, time, and waveform, all of which require more information.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -284,6 +349,22 @@ What determines the severity of a shock? Can you say that a certain voltage is h
 ::: problem
 
 An electrified needle is used to burn off warts, with the circuit being completed by having the patient sit on a large butt plate. Why is this plate large?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare current density at the treatment tip and at the return electrode.
+
+**Solution**
+
+The same total current must return through the large plate, but its current density is $$J=I/A$$. A large, well-contacted return area spreads the current and reduces local heating; the small needle deliberately concentrates current to heat the target tissue. If effective contact area becomes small, unintended heating can occur at the return site. The [FDA description of electrosurgery](https://www.accessdata.fda.gov/CDRH510K/K981916.pdf) makes this concentration-versus-dispersion distinction.
+
+**Discussion**
+
+The return plate is large to distribute current over a broad area and reduce the risk of burns away from the treatment site.
 
 :::
 
@@ -297,6 +378,22 @@ Some surgery is performed with high-voltage electricity passing from a metal sca
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate sharp curvature to strong surface fields and high local current density.
+
+**Solution**
+
+The scalpel’s sharp edge concentrates surface charge and the nearby electric field. In tissue this produces a high local current density, approximately $$\vec J=\sigma\vec E$$ in a conductive model, and localized heating that cuts or coagulates tissue. Electrosurgery uses high-frequency AC, which reduces nerve and muscle stimulation compared with mains-frequency current while retaining the thermal effect; see the [FDA electrosurgical-device guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/premarket-notification-510k-submissions-electrosurgical-devices-general-surgery).
+
+**Discussion**
+
+High frequency does not eliminate heating or burn hazards. Most treatment current is concentrated near the sharp active edge, and high-frequency AC is used to produce localized heating with less neuromuscular stimulation.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -304,6 +401,22 @@ Some surgery is performed with high-voltage electricity passing from a metal sca
 ::: problem
 
 Some devices often used in bathrooms, such as hairdryers, often have safety messages saying “Do not use when the bathtub or basin is full of water.” Why is this so?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider simultaneous contact with an energized appliance and a water-connected return path.
+
+**Solution**
+
+Water containing dissolved ions conducts, and wet skin has much less resistance than dry skin. A person in a bath or touching wet plumbing can therefore provide a conducting path from a faulty energized appliance to ground or another conductor. A small distance between the device and water can be bridged by splashes or by dropping the device.
+
+**Discussion**
+
+The warning addresses the combination of reduced body resistance and an accessible return path. Electrical appliances near a filled bath or basin can drive dangerous current through a wet person and must be kept away from the water.
 
 :::
 
@@ -317,6 +430,22 @@ We are often advised to not flick electric switches with wet hands, dry your han
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify how ordinary water changes resistance and available current paths.
+
+**Solution**
+
+Wet hands lower skin contact resistance, making contact with an energized fault more dangerous. Water thrown onto energized electrical equipment can spread across conductors and surfaces, providing a path through the person applying it or through surrounding objects. It can also spread the electrical fault.
+
+**Discussion**
+
+Drying hands reduces one risk but does not make faulty equipment safe, and the relevant fire distinction is whether equipment remains energized. These precautions prevent ordinary water from creating low-resistance paths that increase shock and fault hazards.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -324,6 +453,22 @@ We are often advised to not flick electric switches with wet hands, dry your han
 ::: problem
 
 Before working on a power transmission line, linemen will touch the line with the back of the hand as a final check that the voltage is zero. Why the back of the hand?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Explain the historical muscle-contraction argument while rejecting touch as a voltage test.
+
+**Solution**
+
+The historical rationale is that current-induced contraction may close a hand around a conductor touched with the palm; contact on the back of the hand was thought less likely to produce that grip. Neither contact is an acceptable test: dangerous current can flow before a person can withdraw. Absence of voltage must be verified with suitable test equipment by a qualified person, as described in [OSHA’s deenergization requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333).
+
+**Discussion**
+
+The question describes an unsafe practice. The back-of-hand argument concerns involuntary gripping, but a power line must never be tested by touching it with any part of the hand.
 
 :::
 
@@ -337,6 +482,22 @@ Why is the resistance of wet skin so much smaller than dry, and why do blood and
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify the carriers of current in water-containing tissues.
+
+**Solution**
+
+Dry outer skin forms a relatively resistive barrier. Wetting hydrates that barrier, increases effective contact area, and introduces water with dissolved ions, providing easier paths for current. Blood and other body fluids contain dissolved electrolytes such as sodium, potassium, and chloride ions, which carry charge under an applied field.
+
+**Discussion**
+
+The conduction is ionic rather than electron drift through a metal. Wet skin and body fluids have lower resistance because mobile ions and hydrated conducting paths allow current to flow much more readily than through dry outer skin.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -344,6 +505,22 @@ Why is the resistance of wet skin so much smaller than dry, and why do blood and
 ::: problem
 
 Could a person on intravenous infusion (an IV) be microshock sensitive?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Ask whether the infusion creates a conducting path that bypasses skin and approaches the heart.
+
+**Solution**
+
+Yes, an invasive conductive connection can increase electrical vulnerability. Microshock specifically concerns very small currents delivered to or near the heart, particularly through intracardiac or central vascular connections. An ordinary peripheral IV does not automatically create the same direct cardiac path; susceptibility depends on the catheter, fluid column, location, and connected equipment. Experimental evidence for the importance of cardiac catheter paths is described in the [microshock study](https://pubmed.ncbi.nlm.nih.gov/3705907/).
+
+**Discussion**
+
+An IV patient can be microshock sensitive if a suitable conductive path reaches the heart, but the presence of any IV alone is insufficient to establish that condition.
 
 :::
 
@@ -357,6 +534,22 @@ In view of the small currents that cause shock hazards and the larger currents t
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare what overcurrent protection detects with the current that can injure a person.
+
+**Solution**
+
+Ordinary fuses and breakers protect wiring by interrupting large overload or short-circuit currents. They can reduce shock risk indirectly when a low-resistance equipment-grounding path makes a fault draw enough current to trip, but a dangerous body current may be far below their rating. A ground-fault circuit interrupter instead detects an imbalance between outgoing and returning current and can interrupt small leakage currents; see the [NIOSH electrical-safety manual](https://www.cdc.gov/niosh/docs/2009-113/pdfs/2009-113.pdf).
+
+**Discussion**
+
+Neither type makes all contact safe. Fuses and breakers mainly prevent overheating and clear sufficiently large faults, while ground-fault protection addresses leakage currents too small to operate ordinary overcurrent devices.
+
+:::
+
 </div>
 
 ### Problem Exercises
@@ -365,7 +558,7 @@ In view of the small currents that cause shock hazards and the larger currents t
 
 ::: problem
 
-(a) How much power is dissipated in a short circuit of 240-V AC through a resistance of  $$ 0.250 \Omega  $$?
+(a) How much power is dissipated in a short circuit of 240-V AC through a resistance of $$ 0.250 \Omega  $$?
 (b) What current flows?
 
 :::
@@ -410,7 +603,7 @@ The power dissipated in this short circuit (230 kW) is enormous—equivalent to 
 
 ::: problem
 
-What voltage is involved in a 1.44-kW short circuit through a  $$ 0.100 \text{-} \Omega  $$ resistance?
+What voltage is involved in a 1.44-kW short circuit through a $$ 0.100 \text{-} \Omega  $$ resistance?
 
 :::
 
@@ -446,7 +639,7 @@ The voltage involved in the short circuit is 12.0 V.
 
 ::: problem
 
-Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of $$300 \text{k}\Omega  $$ ;  (b) if she is standing barefoot on wet grass and has a resistance of only  $$4500 \Omega  $$.
+Find the current through a person and identify the likely effect on her if she touches a 120-V AC source: (a) if she is standing on a rubber mat and offers a total resistance of $$300 \text{k}\Omega  $$ ; (b) if she is standing barefoot on wet grass and has a resistance of only $$4500 \Omega  $$.
 
 :::
 
@@ -490,7 +683,7 @@ This problem dramatically illustrates the critical importance of resistance in e
 
 ::: problem
 
-While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of  $$4000 \Omega  $$. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?
+While taking a bath, a person touches the metal case of a radio. The path through the person to the drainpipe and ground has a resistance of $$4000 \Omega  $$. What is the smallest voltage on the case of the radio that could cause ventricular fibrillation?
 
 :::
 
@@ -568,9 +761,9 @@ The minimum resistance of the path through the person is **120 kΩ** (or $$1.20 
 
 ::: problem
 
-(a) During surgery, a current as small as  $$20.0 \text{μA} $$
- applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is  $$300 \Omega  $$ ,
- what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?
+(a) During surgery, a current as small as $$20.0 \text{μA} $$
+applied directly to the heart may cause ventricular fibrillation. If the resistance of the exposed heart is $$300 \Omega  $$ ,
+what is the smallest voltage that poses this danger? (b) Does your answer imply that special electrical safety precautions are needed?
 
 :::
 
@@ -593,6 +786,7 @@ $$V = 6.00 \times 10^{-3} \text{ V} = 6.00 \text{ mV}$$
 </div>
 
 **(b)** Yes, special electrical safety precautions are absolutely essential during surgery. A voltage of only 6.00 mV can be lethal when applied directly to the heart. This is an extraordinarily small voltage—far below what can be felt through intact skin, and easily produced by:
+
 - Stray electromagnetic fields from nearby equipment
 - Ground loops between different pieces of equipment
 - Static electricity buildup
@@ -738,6 +932,7 @@ $$\Delta T = \frac{Q}{mc} = \frac{1440 \text{ J}}{(2.00 \text{ g})(0.837 \text{ 
 **Discussion**
 
 A temperature rise of 860 °C in just 0.0500 seconds is catastrophic. This would:
+
 - Instantly melt most plastics and insulating materials (which typically melt at 100-300 °C)
 - Vaporize water and organic materials
 - Ignite flammable materials (paper ignites around 230 °C)
@@ -770,14 +965,41 @@ unfelt, …).
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose an exposure voltage and an illustrative current target, and model insulation and body resistance in series. The target is a calculation assumption, not a universal safe-current threshold.
+
+**Solution**
+
+Assume exposure to $$120\text{ V}$$ rms, a wet-contact body resistance $$R_b=1000\text{ Ω}$$, and target current no greater than $$I_t=0.100\text{ mA}=1.00\times10^{-4}\text{ A}$$. In a purely resistive model,
+
+$$I=\frac{V}{R_i+R_b},\qquad R_i\ge\frac{V}{I_t}-R_b=\frac{120\text{ V}}{1.00\times10^{-4}\text{ A}}-1000\text{ Ω}=1.199\times10^6\text{ Ω}.$$
+
+Choosing $$R_i=1.20\times10^6\text{ Ω}$$ gives
+
+$$I_{\text{wet}}=\frac{120\text{ V}}{1.20\times10^6\text{ Ω}+1000\text{ Ω}}=9.99\times10^{-5}\text{ A}=0.0999\text{ mA}.$$
+
+With an assumed dry-contact resistance of $$100000\text{ Ω}$$,
+
+$$I_{\text{dry}}=\frac{120\text{ V}}{1.20\times10^6\text{ Ω}+100000\text{ Ω}}=0.0923\text{ mA}.$$
+
+**Discussion**
+
+The wet-contact result is just below the chosen target, while the dry-contact result is lower, as expected. A target this small is below typical external-contact perception levels, but current path, duration, waveform, and invasive connections matter. Real insulation must also withstand the voltage and remain effective when wet or damaged; capacitance and alternate paths can defeat the series-resistance model. For the stated illustrative model, the required insulation resistance is **at least $$1.199\text{ MΩ}$$**, and **$$1.20\text{ MΩ}$$** meets the chosen current target in both assumed contact cases.
+
+:::
+
 </div>
 
 ::: footnote-refs
 
 ### Footnotes
+
 {: class="footnote-refs-title"}
 
-* [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">For an average male
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">For an average male
   shocked through trunk of body for 1 s by 60-Hz AC. Values for females are
   60–80% of those listed.</span>
   { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
@@ -787,6 +1009,7 @@ unfelt, …).
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 thermal hazard

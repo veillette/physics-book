@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 3
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* Explain point charges and express the equation for electric potential of a point charge.
-* Distinguish between electric potential and electric field.
-* Determine the electric potential of a point charge given charge and distance.
+- Explain point charges and express the equation for electric potential of a point charge.
+- Distinguish between electric potential and electric field.
+- Determine the electric potential of a point charge given charge and distance.
 
 :::
 
@@ -33,7 +34,7 @@ where _k_ is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·} {\text{
 Electric Potential  $$V $$ of a Point Charge
 </div>
 
-The electric potential  $$V $$  of a point charge is given by
+The electric potential $$V $$ of a point charge is given by
 
 <div class="equation" >
  $$V=\frac{kQ}{r} \left(\text{Point Charge}\right). $$
@@ -63,10 +64,10 @@ $$\vb{E} $$ is closely associated with force, a vector.
 What Voltage Is Produced by a Small Charge on a Metal Sphere?
 </div>
 
-Charges in static electricity are typically in the nanocoulomb  $$\left(\text{nC}\right) $$
- to microcoulomb  $$\left(\text{µC}\right) $$
- range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a  $$-3.00 \text{nC} $$
- static charge?
+Charges in static electricity are typically in the nanocoulomb $$\left(\text{nC}\right) $$
+to microcoulomb $$\left(\text{µC}\right) $$
+range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a $$-3.00 \text{nC} $$
+static charge?
 
 **Strategy**
 
@@ -158,6 +159,22 @@ In what region of space is the potential due to a uniformly charged sphere the s
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use spherical symmetry outside the sphere and compare the interior fields.
+
+**Solution**
+
+For a spherically symmetric sphere of radius $$R$$ and total charge $$Q$$, choosing zero at infinity gives $$V=kQ/r$$ for $$r\ge R$$, identical to a point charge at its center. Inside a uniformly charged solid insulating sphere, $$V=kQ(3-r^2/R^2)/(2R)$$, which remains finite. Inside a charged conducting sphere or spherical shell, $$V=kQ/R$$ is constant.
+
+**Discussion**
+
+The word “sphere” can mean a solid charge distribution or a charged surface, but both have the point-charge potential outside and a different, finite potential inside.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -165,6 +182,22 @@ In what region of space is the potential due to a uniformly charged sphere the s
 ::: problem
 
 Can the potential of a non-uniformly charged sphere be the same as that of a point charge? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish nonuniform radial density from a nonspherical charge pattern.
+
+**Solution**
+
+Yes. A sphere can have charge density that varies with radius while remaining spherically symmetric. Its external potential is still $$V=kQ/r$$, because the external field depends only on its total enclosed charge. Its interior potential generally differs from a point charge. A charge distribution that varies with angle is not generally equivalent to a central point charge outside, because additional multipole terms can remain.
+
+**Discussion**
+
+Nonuniform charge density therefore can give the same external potential as a point charge when spherical symmetry is preserved; nonuniformity alone does not decide the answer.
 
 :::
 
@@ -188,7 +221,8 @@ For a uniformly charged sphere, the electric potential at or outside its surface
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Diameter: $$d = 0.500 \text{ cm}$$, so radius $$r = 0.250 \text{ cm} = 2.50 \times 10^{-3} \text{ m}$$
 - Charge: $$Q = 40.0 \text{ pC} = 40.0 \times 10^{-12} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -213,8 +247,8 @@ This is a modest voltage that is easily achieved in static electricity demonstra
 
 ::: problem
 
-What is the potential  $$ 0.530 \times 10^{-10} \text{m} $$
- from a proton (the average distance between the proton and electron in a hydrogen atom)?
+What is the potential $$ 0.530 \times 10^{-10} \text{m} $$
+from a proton (the average distance between the proton and electron in a hydrogen atom)?
 
 :::
 
@@ -226,7 +260,8 @@ Use the point charge potential formula $$V = kQ/r$$ with the proton charge and t
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Distance: $$r = 0.530 \times 10^{-10} \text{ m} = 5.30 \times 10^{-11} \text{ m}$$ (Bohr radius)
 - Proton charge: $$Q = +e = 1.60 \times 10^{-19} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -263,7 +298,8 @@ Use the point charge potential formula $$V = kQ/r$$ and solve for distance $$r$$
 
 **(a) Distance calculation:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$Q = 1.00 \text{ C}$$
 - Potential: $$V = 5.00 \text{ MV} = 5.00 \times 10^{6} \text{ V}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -310,8 +346,8 @@ This problem illustrates why the coulomb is such a large unit of charge for elec
 
 ::: problem
 
-How far from a  $$1.00 \text{µC} $$
- point charge will the potential be 100 V? At what distance will it be  $$ 2.00 \times 10^{2}  \text{V}$$ ?
+How far from a $$1.00 \text{µC} $$
+point charge will the potential be 100 V? At what distance will it be $$ 2.00 \times 10^{2}  \text{V}$$ ?
 
 :::
 
@@ -323,7 +359,8 @@ Use $$V = kQ/r$$ and solve for $$r$$ at each potential value.
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$Q = 1.00 \text{ µC} = 1.00 \times 10^{-6} \text{ C}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
 
@@ -353,8 +390,8 @@ Notice that doubling the potential halves the distance. This inverse relationshi
 
 ::: problem
 
-What are the sign and magnitude of a point charge that produces a potential of  $$-2.00 \text{V} $$
- at a distance of 1.00 mm?
+What are the sign and magnitude of a point charge that produces a potential of $$-2.00 \text{V} $$
+at a distance of 1.00 mm?
 
 :::
 
@@ -366,7 +403,8 @@ The negative potential indicates a negative charge. Use $$V = kQ/r$$ and solve f
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Potential: $$V = -2.00 \text{ V}$$
 - Distance: $$r = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -387,8 +425,8 @@ The charge is negative (as expected from the negative potential) and very small�
 
 ::: problem
 
-If the potential due to a point charge is  $$ 5.00 \times 10^{2}  \text{V} $$
- at a distance of 15.0 m, what are the sign and magnitude of the charge?
+If the potential due to a point charge is $$ 5.00 \times 10^{2}  \text{V} $$
+at a distance of 15.0 m, what are the sign and magnitude of the charge?
 
 :::
 
@@ -400,7 +438,8 @@ Use $$V = kQ/r$$ and solve for $$Q$$. The positive potential indicates a positiv
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Potential: $$V = 500 \text{ V}$$
 - Distance: $$r = 15.0 \text{ m}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
@@ -423,8 +462,8 @@ The charge is positive (matching the positive potential) and is about 0.83 micro
 
 ::: problem
 
-In nuclear fission, a nucleus splits roughly in half. (a) What is the potential  $$ 2.00 \times 10^{-14} \text{m} $$
- from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?
+In nuclear fission, a nucleus splits roughly in half. (a) What is the potential $$ 2.00 \times 10^{-14} \text{m} $$
+from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?
 
 :::
 
@@ -436,7 +475,8 @@ The fission fragment with 46 protons has a charge of $$+46e$$. Use $$V = kQ/r$$ 
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Number of protons: $$Z = 46$$
 - Charge of fragment: $$Q = 46e = 46(1.60 \times 10^{-19} \text{ C}) = 7.36 \times 10^{-18} \text{ C}$$
 - Distance: $$r = 2.00 \times 10^{-14} \text{ m}$$
@@ -513,7 +553,8 @@ For part (a), use $$V = kQ/r$$ to find the charge on the sphere. For part (b), u
 
 **(a) Charge on the sphere:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Diameter: $$d = 0.200 \text{ m}$$, radius $$r = 0.100 \text{ m}$$
 - Potential: $$V = 25.0 \text{ kV} = 2.50 \times 10^{4} \text{ V}$$
 
@@ -521,7 +562,8 @@ $$Q = \frac{Vr}{k} = \frac{(2.50 \times 10^{4} \text{ V})(0.100 \text{ m})}{8.99
 
 **(b) Charge on paint droplet:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Mass of droplet: $$m = 0.100 \text{ mg} = 1.00 \times 10^{-7} \text{ kg}$$
 - Final speed: $$v = 10.0 \text{ m/s}$$
 
@@ -559,7 +601,8 @@ This is Rutherford's famous gold foil experiment. At the distance of closest app
 
 **Solution**
 
-*Known quantities:*
+_Known quantities:_
+
 - Alpha particle charge: $$q_\alpha = 2e = 3.20 \times 10^{-19} \text{ C}$$
 - Gold nucleus charge: $$Q_{Au} = 79e = 1.264 \times 10^{-17} \text{ C}$$
 - Initial kinetic energy: $$\text{KE} = 5.00 \text{ MeV} = 5.00 \times 10^{6} \text{ eV} = 8.00 \times 10^{-13} \text{ J}$$
@@ -586,8 +629,8 @@ This distance (about 45 femtometers) is larger than the gold nucleus radius (~7 
 
 ::: problem
 
-(a) What is the potential between two points situated 10 cm and 20 cm from a  $$ 3.0 µC $$
- point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?
+(a) What is the potential between two points situated 10 cm and 20 cm from a $$ 3.0 µC $$
+point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?
 
 :::
 
@@ -601,7 +644,8 @@ The potential difference between two points is $$\Delta V = V_1 - V_2 = kQ(1/r_1
 
 **(a) Potential difference:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Charge: $$Q = 3.0 \text{ µC} = 3.0 \times 10^{-6} \text{ C}$$
 - $$r_1 = 10 \text{ cm} = 0.10 \text{ m}$$
 - $$r_2 = 20 \text{ cm} = 0.20 \text{ m}$$
@@ -661,7 +705,8 @@ This is an "Unreasonable Results" problem. We'll perform the classical (non-rela
 
 **(a) Classical calculation of electron speed:**
 
-*Known quantities:*
+_Known quantities:_
+
 - Voltage: $$V = 25.0 \text{ MV} = 2.50 \times 10^{7} \text{ V}$$
 - Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
 - Electron charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
@@ -681,10 +726,12 @@ This calculated velocity is about **10 times the speed of light** ($$c = 3.00 \t
 **(c) Which assumptions are responsible:**
 
 The unreasonable assumption is using **classical (Newtonian) mechanics** for a highly relativistic situation. Classical mechanics assumes:
+
 - Kinetic energy = $$\frac{1}{2}mv^{2}$$
 - Mass is constant
 
 For electrons accelerated through 25 MV, the kinetic energy (25 MeV) is about 50 times the electron's rest mass energy (0.511 MeV). At such high energies, relativistic effects dominate:
+
 - The electron's mass effectively increases
 - The kinetic energy formula becomes $$KE = (\gamma - 1)m_0c^2$$
 - The actual speed approaches but never reaches $$c$$

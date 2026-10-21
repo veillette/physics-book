@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Calculate thermal conductivity.
-* Observe conduction of heat in collisions.
-* Study thermal conductivities of common substances.
+- Calculate thermal conductivity.
+- Observe conduction of heat in collisions.
+- Study thermal conductivities of common substances.
 
 :::
 
@@ -74,9 +75,9 @@ slab. [[Table 1]](#Table1) gives representative values of thermal conductivity.
 Calculating Heat Transfer Through Conduction: Conduction Rate Through an Ice Box
 </div>
 
-A Styrofoam ice box has a total area of  $$0.950 {\text{m}}^{2} $$
- and walls with an average thickness of 2.50 cm. The box contains ice, water, and canned beverages at  $$0 \text{ºC} $$ .
- The inside of the box is kept cold by melting ice. How much ice melts in one day if the ice box is kept in the trunk of a car at  $$35.0\text{ºC} $$ ?
+A Styrofoam ice box has a total area of $$0.950 {\text{m}}^{2} $$
+and walls with an average thickness of 2.50 cm. The box contains ice, water, and canned beverages at $$0 \text{ºC} $$ .
+The inside of the box is kept cold by melting ice. How much ice melts in one day if the ice box is kept in the trunk of a car at $$35.0\text{ºC} $$ ?
 
 **Strategy**
 
@@ -88,6 +89,7 @@ heat transfer by conduction and multiplying by time.
 **Solution**
 
 1. Identify the knowns.
+
 <div class="equation">
 $$A= 0.950{\text{m}}^{2}\mathrm{; }d= 2.50\text{cm}=0.0250\text{ m;} {T}_{1}=0º\text{C;} {T}_{2}=  35.0º\text{C} \text{,}  t=1 \text{day}=24 \text{ hours}=86 400 \text{s} \text{.}  $$
 </div>
@@ -253,8 +255,7 @@ temperature difference.
 1. Identify the knowns and convert them to the SI units. The thickness of the
    pan, $$d=0.800\text{cm}= 8.0 \times 10^{-3} \text{m} \text{,} $$
 
- the area of the pan, $$A=\pi {\left(0.14/2 \right)}^{2} {\text{m}}^{2}= 1.54 \times 10^{-2} {\text{m}}^{2}$$, and the thermal conductivity, $$k=220 \text{J/s}\cdot \text{m}\cdot ºC.$$
-2. Calculate the necessary heat of vaporization of 1 g of water:
+the area of the pan, $$A=\pi {\left(0.14/2 \right)}^{2} {\text{m}}^{2}= 1.54 \times 10^{-2} {\text{m}}^{2}$$, and the thermal conductivity, $$k=220 \text{J/s}\cdot \text{m}\cdot ºC.$$ 2. Calculate the necessary heat of vaporization of 1 g of water:
 
    <div class="equation">
    $$Q=m L_{\text{v}}=\left( 1.00 \times 10^{-3} \text{kg}\right)\left(2256 \times 10^{3} \text{J/kg}\right)=2256\mathrm{ J.}$$
@@ -305,8 +306,8 @@ How does the rate of heat transfer by conduction change when all spatial dimensi
 
 ::: solution
 
-Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled  $$\left({A}_{\text{final}}=\left(2d\right)^{2}=4{d}^{2}=4{A}_{\text{initial}}\right) $$ .
- The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:
+Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled $$\left({A}_{\text{final}}=\left(2d\right)^{2}=4{d}^{2}=4{A}_{\text{initial}}\right) $$ .
+The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:
 
 <div class="equation">
  $${\left(\frac{Q}{t}\right)}_{\text{final}}=\frac{ kA_{\text{final}}\left({T}_{2}-{T}_{1}\right)}{ {d}_{\text{final}}}=\frac{k\left({4 \text{A}}_{\text{initial}}\right)\left({T}_{2}-{T}_{1}\right)}{ {2d}_{\text{initial}}}=2\frac{ kA_{\text{initial}}\left({T}_{2}-{T}_{1}\right)}{ {d}_{\text{initial}}}=2{\left(\frac{Q}{t}\right)}_{\text{initial}}\text{.} $$
@@ -338,6 +339,22 @@ Some electric stoves have a flat ceramic surface with heating elements hidden be
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the short vertical path to the pot with the longer lateral path across the cooktop.
+
+**Solution**
+
+The ceramic surface is thin, allowing substantial upward conduction over the heating element, but its relatively low thermal conductivity limits lateral spreading compared with metal. Its high-temperature durability also makes it practical. The surface outside the element can therefore remain much cooler, while the pot receives heat through the nearby surface; radiation can contribute as well.
+
+**Discussion**
+
+The question overstates touch safety: hot cookware and lateral conduction can still heat nearby ceramic. Ceramic’s intermediate conductivity helps deliver heat over the element while limiting heat spreading, but nearby areas are not guaranteed safe to touch.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -351,6 +368,22 @@ Loose-fitting white clothing covering most of the body is ideal for desert dwell
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider solar radiation and heat transfer through the air layer trapped by clothing.
+
+**Solution**
+
+White fabric reflects much of the incoming sunlight and absorbs less solar energy than a dark fabric of similar construction. Loose clothing shades the skin and traps an insulating air layer that reduces direct conductive heat exchange, while ventilation can remove moisture and support evaporation. At night, covering the body reduces exposure to moving cold air and limits heat loss through the insulating layer.
+
+**Discussion**
+
+Visible whiteness alone does not determine infrared emissivity, and excessive ventilation can increase nighttime cooling. Loose, light-colored covering is advantageous because it reduces solar heating by day and provides adjustable insulation against cold conditions at night.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -359,16 +392,16 @@ Loose-fitting white clothing covering most of the body is ideal for desert dwell
 
 ::: problem
 
-(a) Calculate the rate of heat conduction through house walls that are 13.0 cm thick and that have an average thermal conductivity twice that of glass wool. Assume there are no windows or doors. The surface area of the walls is  $$120 {\text{m}}^{2} $$
- and their inside surface is at  $$18.0\text{ºC} $$ ,
- while their outside surface is at  $$5.00\text{ºC} $$ .
- (b) How many 1-kW room heaters would be needed to balance the heat transfer due to conduction?
+(a) Calculate the rate of heat conduction through house walls that are 13.0 cm thick and that have an average thermal conductivity twice that of glass wool. Assume there are no windows or doors. The surface area of the walls is $$120 {\text{m}}^{2} $$
+and their inside surface is at $$18.0\text{ºC} $$ ,
+while their outside surface is at $$5.00\text{ºC} $$ .
+(b) How many 1-kW room heaters would be needed to balance the heat transfer due to conduction?
 
 :::
 
 ::: solution
 
-(a)  $$1.01 \times 10^{3}  $$  W
+(a) $$1.01 \times 10^{3}  $$ W
 
 (b) One
 
@@ -380,11 +413,11 @@ Loose-fitting white clothing covering most of the body is ideal for desert dwell
 
 ::: problem
 
-The rate of heat conduction out of a window on a winter day is rapid enough to chill the air next to it. To see just how rapidly the windows transfer heat by conduction, calculate the rate of conduction in watts through a  $$3.00 {\text{-m}}^{2} $$
- window that is  $$0.635\text{cm} $$
- thick (1/4 in) if the temperatures of the inner and outer surfaces are  $$5.00\text{ºC} $$
- and  $$- 10.0\text{ºC} $$ ,
- respectively. This rapid rate will not be maintained—the inner surface will cool, and even result in frost formation.
+The rate of heat conduction out of a window on a winter day is rapid enough to chill the air next to it. To see just how rapidly the windows transfer heat by conduction, calculate the rate of conduction in watts through a $$3.00 {\text{-m}}^{2} $$
+window that is $$0.635\text{cm} $$
+thick (1/4 in) if the temperatures of the inner and outer surfaces are $$5.00\text{ºC} $$
+and $$- 10.0\text{ºC} $$ ,
+respectively. This rapid rate will not be maintained—the inner surface will cool, and even result in frost formation.
 
 :::
 
@@ -397,6 +430,7 @@ We use the equation for heat conduction: $$\frac{Q}{t} = \frac{kA(T_2 - T_1)}{d}
 **Solution**
 
 Given:
+
 - Area: $$A = 3.00 \text{ m}^2$$
 - Thickness: $$d = 0.635 \text{ cm} = 0.00635 \text{ m}$$
 - Inner temperature: $$T_1 = 5.00\text{ºC}$$
@@ -422,6 +456,7 @@ $$\frac{Q}{t} = \frac{37.8 \text{ J}\cdot\text{m/s}}{0.00635 \text{ m}} = 5950 \
 The heat loss rate of 5.95 kW is enormous—equivalent to running almost six 1000-watt space heaters continuously! This explains why single-pane windows are such poor insulators and why the air near windows feels cold on winter days. The high heat loss rate also explains why frost and condensation readily form on the inner surface: the window surface temperature drops rapidly as heat flows outward.
 
 This dramatic heat loss is why:
+
 1. Modern buildings use double or triple-pane windows with air or gas-filled gaps
 2. Window treatments (curtains, blinds) significantly reduce heat loss
 3. Windows represent major sources of energy loss in homes
@@ -441,10 +476,10 @@ The rate of heat conduction through the window is **5.95 kW** or approximately *
 
 ::: problem
 
-Calculate the rate of heat conduction out of the human body, assuming that the core internal temperature is  $$ 37.0\text{ºC} $$ ,
- the skin temperature is  $$ 34.0\text{ºC} $$ ,
- the thickness of the tissues between averages  $$1.00\text{cm} $$ ,
- and the surface area is  $$ 1.40 {\text{m}}^{2} $$.
+Calculate the rate of heat conduction out of the human body, assuming that the core internal temperature is $$ 37.0\text{ºC} $$ ,
+the skin temperature is $$ 34.0\text{ºC} $$ ,
+the thickness of the tissues between averages $$1.00\text{cm} $$ ,
+and the surface area is $$ 1.40 {\text{m}}^{2} $$.
 
 :::
 
@@ -457,6 +492,7 @@ We use the heat conduction equation: $$\frac{Q}{t} = \frac{kA(T_2 - T_1)}{d}$$, 
 **Solution**
 
 Given:
+
 - Core temperature: $$T_{core} = 37.0\text{ºC}$$
 - Skin temperature: $$T_{skin} = 34.0\text{ºC}$$
 - Tissue thickness: $$d = 1.00 \text{ cm} = 0.0100 \text{ m}$$
@@ -482,18 +518,21 @@ $$\frac{Q}{t} = \frac{0.84 \text{ J}\cdot\text{m/s}}{0.0100 \text{ m}} = 84.0 \t
 The heat conduction rate of 84.0 W represents the power that must be dissipated from the body's surface to maintain thermal equilibrium. For a resting person, the basal metabolic rate is typically around 80-100 W, so this conduction rate is perfectly consistent with maintaining body temperature.
 
 This calculation assumes:
+
 1. Average tissue properties (actual human tissue varies in composition)
 2. Steady-state conditions (constant temperatures)
 3. One-dimensional heat flow perpendicular to skin
 4. No blood flow effects (which significantly enhance heat transfer in reality)
 
 In practice, the body uses multiple mechanisms to transfer this heat to the environment:
+
 - **Conduction** through tissues (84 W calculated here)
 - **Convection** from skin surface to surrounding air
 - **Radiation** from skin to cooler surroundings
 - **Evaporation** of perspiration when needed
 
 The 3 °C temperature difference between core and skin is typical for resting conditions in a comfortable environment. During:
+
 - **Exercise**: Core temperature can rise to 39-40 °C, increasing the temperature gradient and heat flow
 - **Cold exposure**: Skin temperature drops, increasing the gradient but requiring more metabolic heat production
 - **Fever**: Core temperature rises, requiring enhanced cooling mechanisms
@@ -512,9 +551,9 @@ The rate of heat conduction out of the human body is **84.0 W**.
 
 ::: problem
 
-Suppose you stand with one foot on ceramic flooring and one foot on a wool carpet, making contact over an area of  $$ 80.0 {\text{cm}}^{2} $$
- with each foot. Both the ceramic and the carpet are 2.00 cm thick and are  $$10.0\text{ºC} $$
- on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at  $$ 33.0\text{ºC} $$ ? For ceramic, use the thermal conductivity for glass.
+Suppose you stand with one foot on ceramic flooring and one foot on a wool carpet, making contact over an area of $$ 80.0 {\text{cm}}^{2} $$
+with each foot. Both the ceramic and the carpet are 2.00 cm thick and are $$10.0\text{ºC} $$
+on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at $$ 33.0\text{ºC} $$ ? For ceramic, use the thermal conductivity for glass.
 
 :::
 
@@ -527,6 +566,7 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA(T_2 - T_1)}{d}$$ se
 **Solution**
 
 Given for both materials:
+
 - Contact area: $$A = 80.0 \text{ cm}^2 = 80.0 \times 10^{-4} \text{ m}^2 = 0.00800 \text{ m}^2$$
 - Thickness: $$d = 2.00 \text{ cm} = 0.0200 \text{ m}$$
 - Top temperature: $$T_1 = 33.0\text{ºC}$$
@@ -534,6 +574,7 @@ Given for both materials:
 - Temperature difference: $$\Delta T = 33.0\text{ºC} - 10.0\text{ºC} = 23.0\text{ºC}$$
 
 From Table 1:
+
 - Thermal conductivity of glass (ceramic): $$k_{ceramic} = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 - Thermal conductivity of wool: $$k_{wool} = 0.04 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 
@@ -567,6 +608,7 @@ The ceramic floor conducts heat away from your foot **21 times faster** than the
 The sensation of "coldness" is actually the sensation of rapid heat loss from your skin. Good conductors like ceramic, metal, and stone feel cold because they efficiently conduct heat away from your body. Good insulators like wool, wood, and cork feel warm because they conduct heat poorly, allowing your skin to maintain its temperature.
 
 This is why:
+
 - Tile bathrooms feel cold in winter
 - Wooden floors are preferred barefoot
 - Rugs and carpets make rooms feel warmer
@@ -577,6 +619,7 @@ The human body continuously produces heat (~100 W at rest), so we can easily sus
 **Answer**
 
 Heat must transfer from the foot at:
+
 - Ceramic floor: **7.73 W**
 - Wool carpet: **0.368 W**
 
@@ -603,6 +646,7 @@ Half of the food energy (3000 kcal) is lost through water evaporation. We use $$
 **Solution**
 
 Given:
+
 - Total food energy: $$E_{food} = 3000 \text{ kcal}$$
 - Energy lost by evaporation: $$Q = \frac{1}{2} \times 3000 \text{ kcal} = 1500 \text{ kcal}$$
 - Latent heat of vaporization at body temperature (37°C): $$L_v = 580 \text{ kcal/kg}$$ (from Ch 14, Section 3 footnote)
@@ -625,11 +669,13 @@ The result of 2.59 kg (approximately 2.6 liters) of water evaporated per day is 
 Total: ~2.0-2.8 kg/day, which matches our calculation.
 
 This illustrates why:
+
 - **Hydration is crucial**: You must replace this 2.6 L of water daily through drinking fluids and eating food (which contains water)
 - **Evaporative cooling is efficient**: Half of your metabolic heat is removed by evaporating just 2.6 kg of water, thanks to water's very high latent heat of vaporization (580 kcal/kg at body temperature)
 - **Dehydration is dangerous**: Losing just 2-3% of body water (1.5-2 kg for a 70-kg person) impairs performance and thermoregulation
 
 For comparison:
+
 - **Sedentary person in cool climate**: ~1.5-2.0 L/day
 - **Moderate activity or warm climate**: ~2.5-3.0 L/day
 - **Athlete in hot conditions**: 5-10 L/day or more
@@ -650,10 +696,10 @@ Approximately **2.59 kg** (or **2.6 liters**) of water evaporates per day.
 
 ::: problem
 
-(a) A firewalker runs across a bed of hot coals without sustaining burns. Calculate the heat transferred by conduction into the sole of one foot of a firewalker given that the bottom of the foot is a 3.00-mm-thick callus with a conductivity at the low end of the range for wood and its density is  $$300{\text{kg/m}}^{3} $$ .
- The area of contact is  $$ 25.0{\text{cm}}^{2} $$ ,
- the temperature of the coals is  $$700\text{ºC} $$ ,
- and the time in contact is 1.00 s.
+(a) A firewalker runs across a bed of hot coals without sustaining burns. Calculate the heat transferred by conduction into the sole of one foot of a firewalker given that the bottom of the foot is a 3.00-mm-thick callus with a conductivity at the low end of the range for wood and its density is $$300{\text{kg/m}}^{3} $$ .
+The area of contact is $$ 25.0{\text{cm}}^{2} $$ ,
+the temperature of the coals is $$700\text{ºC} $$ ,
+and the time in contact is 1.00 s.
 
 (b) What temperature increase is produced in the $$ 25.0{\text{cm}}^{3} $$ of
 tissue affected?
@@ -684,10 +730,10 @@ $$\Delta T=\frac{Q}{mc}=\frac{44.2\ \text{J}}{(0.00750\ \text{kg})(3500\ \text{J
 
 ::: problem
 
-(a) What is the rate of heat conduction through the 3.00-cm-thick fur of a large animal having a  $$1.40 {\text{-m}}^{2} $$
- surface area? Assume that the animal's skin temperature is  $$ 32.0\text{ºC} $$ ,
- that the air temperature is  $$-5.00\text{ºC} $$ ,
- and that fur has the same thermal conductivity as air. (b) What food intake will the animal need in one day to replace this heat transfer?
+(a) What is the rate of heat conduction through the 3.00-cm-thick fur of a large animal having a $$1.40 {\text{-m}}^{2} $$
+surface area? Assume that the animal's skin temperature is $$ 32.0\text{ºC} $$ ,
+that the air temperature is $$-5.00\text{ºC} $$ ,
+and that fur has the same thermal conductivity as air. (b) What food intake will the animal need in one day to replace this heat transfer?
 
 :::
 
@@ -700,6 +746,7 @@ For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta
 **Solution**
 
 Given:
+
 - Surface area: $$A = 1.40 \text{ m}^2$$
 - Fur thickness: $$d = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 - Skin temperature: $$T_{skin} = 32.0\text{ºC}$$
@@ -744,16 +791,19 @@ $$R = \frac{d}{k} = \frac{0.03 \text{ m}}{0.023 \text{ J/s}\cdot\text{m}\cdot\te
 </div>
 
 For comparison with human clothing:
+
 - **3 cm of fur**: 39.7 W heat loss
 - **Heavy winter coat** (similar thickness): Comparable insulation
 - **No insulation** (bare skin): Would lose >1000 W in -5 °C air (life-threatening)
 
 The daily food requirement of 820 kcal is substantial but manageable for a large animal. For context:
+
 - This is roughly 30-40% of a typical large mammal's daily energy budget
 - Additional energy is needed for activity, digestion, and other bodily functions
 - Total daily intake might be 2000-3000 kcal for a large herbivore
 
 Arctic and cold-climate animals have evolved several adaptations:
+
 1. **Thick fur** (polar bears: 5-10 cm; musk oxen: up to 60 cm including guard hairs)
 2. **Fat layer (blubber)** beneath skin for additional insulation
 3. **Countercurrent heat exchange** in limbs to conserve core heat
@@ -775,10 +825,10 @@ This problem explains why Arctic mammals can survive extreme cold—their fur cr
 
 ::: problem
 
-A walrus transfers energy by conduction through its blubber at the rate of 150 W when immersed in  $$-1.00\text{ºC} $$
- water. The walrus's internal core temperature is  $$37.0\text{ºC} $$ ,
- and it has a surface area of  $$2.00 {\text{m}}^{2} $$ .
- What is the average thickness of its blubber, which has the conductivity of fatty tissues without blood?
+A walrus transfers energy by conduction through its blubber at the rate of 150 W when immersed in $$-1.00\text{ºC} $$
+water. The walrus's internal core temperature is $$37.0\text{ºC} $$ ,
+and it has a surface area of $$2.00 {\text{m}}^{2} $$ .
+What is the average thickness of its blubber, which has the conductivity of fatty tissues without blood?
 
 ![The figure shows a walrus on an ice bank near the water. The tusks the walrus are visible.](../resources/Figure_14_05_07.jpg 'Walrus on ice. (credit: Captain Budd Christman, NOAA Corps)')
 {: #Figure6}
@@ -794,6 +844,7 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and s
 **Solution**
 
 Given:
+
 - Rate of heat transfer: $$\frac{Q}{t} = 150 \text{ W}$$
 - Core temperature: $$T_{core} = 37.0\text{ºC}$$
 - Water temperature: $$T_{water} = -1.00\text{ºC}$$
@@ -842,9 +893,9 @@ The average thickness of the walrus's blubber is **10.1 cm** or **0.101 m**.
 
 ::: problem
 
-Compare the rate of heat conduction through a 13.0-cm-thick wall that has an area of  $$ 10.0{\text{m}}^{2} $$
- and a thermal conductivity twice that of glass wool with the rate of heat conduction through a window that is 0.750 cm thick and that has an area of  $$ 2.00{\text{m}}^{2} $$ ,
- assuming the same temperature difference across each.
+Compare the rate of heat conduction through a 13.0-cm-thick wall that has an area of $$ 10.0{\text{m}}^{2} $$
+and a thermal conductivity twice that of glass wool with the rate of heat conduction through a window that is 0.750 cm thick and that has an area of $$ 2.00{\text{m}}^{2} $$ ,
+assuming the same temperature difference across each.
 
 :::
 
@@ -857,6 +908,7 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ for b
 **Solution**
 
 Given:
+
 - Wall thickness: $$d_w = 13.0 \text{ cm} = 0.130 \text{ m}$$
 - Wall area: $$A_w = 10.0 \text{ m}^2$$
 - Wall thermal conductivity: $$k_w = 2k_{glass\ wool} = 2(0.042 \text{ J/s}\cdot\text{m}\cdot\text{ºC}) = 0.084 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
@@ -896,6 +948,7 @@ The window conducts heat at about 35 times the rate of the wall, even though the
 3. **Combined effect**: The ratio $$\frac{k}{d}$$ for the window is about 170 times larger than for the wall, but the wall's larger area (5×) reduces this to about 35×
 
 This calculation demonstrates why:
+
 - Windows are major sources of heat loss in buildings
 - Double or triple-pane windows with air gaps dramatically improve insulation
 - Energy-efficient homes minimize window area in cold climates
@@ -916,7 +969,7 @@ The window conducts heat at approximately **35 times the rate** of the wall (rat
 
 ::: problem
 
-Suppose a person is covered head to foot by wool clothing with average thickness of 2.00 cm and is transferring energy by conduction through the clothing at the rate of 50.0 W. What is the temperature difference across the clothing, given the surface area is  $$ 1.40{\text{m}}^{2} $$ ?
+Suppose a person is covered head to foot by wool clothing with average thickness of 2.00 cm and is transferring energy by conduction through the clothing at the rate of 50.0 W. What is the temperature difference across the clothing, given the surface area is $$ 1.40{\text{m}}^{2} $$ ?
 
 :::
 
@@ -929,6 +982,7 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and s
 **Solution**
 
 Given:
+
 - Rate of heat transfer: $$\frac{Q}{t} = 50.0 \text{ W}$$
 - Thickness: $$d = 2.00 \text{ cm} = 0.0200 \text{ m}$$
 - Surface area: $$A = 1.40 \text{ m}^2$$
@@ -954,6 +1008,7 @@ The temperature difference of about 18ºC across the wool clothing is quite reas
 The heat loss rate of 50 W is modest compared to typical human metabolic rates (basal rate ~80-100 W at rest). This means the wool clothing is doing an excellent job of retaining body heat. The low thermal conductivity of wool (0.04 J/s·m·ºC) combined with the 2-cm thickness creates effective insulation. Wool achieves this by trapping air in the spaces between fibers—air itself being a poor conductor (k = 0.023 J/s·m·ºC).
 
 This calculation explains why:
+
 - Wool is preferred for cold-weather clothing
 - Layering (increasing total thickness) significantly improves insulation
 - Wet wool loses much of its insulating ability (water fills the air spaces and has higher conductivity)
@@ -984,6 +1039,7 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and s
 **Solution**
 
 Given (from Example 2):
+
 - Rate of heat transfer: $$\frac{Q}{t} = 2256 \text{ J/s}$$
 - Area: $$A = 1.54 \times 10^{-2} \text{ m}^2$$
 - Ceramic thickness: $$d = 0.600 \text{ cm} = 0.00600 \text{ m}$$
@@ -1016,18 +1072,21 @@ The temperature difference of approximately 1050ºC (or 1050 K, since temperatur
 3. **Red-hot elements**: Electric stove burners glow red-hot (around 800-1200ºC) to transfer heat through ceramic
 
 The calculation demonstrates why ceramic cooktops:
+
 - Take longer to heat up than direct metal contact
 - Have much hotter heating elements than metal pans
 - Require special flat-bottomed cookware for good thermal contact
 - Stay hot longer after turning off (thermal mass retains heat)
 
 Comparing to Example 2:
+
 - Aluminum: $$\Delta T = 5.3\text{ºC}$$ across 0.8 cm
 - Ceramic: $$\Delta T = 1050\text{ºC}$$ across 0.6 cm
 
 The ceramic requires about 200 times larger temperature difference! This is because aluminum's thermal conductivity (220 J/s·m·ºC) is about 260 times greater than ceramic's (0.84 J/s·m·ºC).
 
 Despite the poor conductivity, ceramic cooktops are popular because:
+
 - Smooth surface is easy to clean
 - Aesthetic appeal
 - Even heat distribution once warmed up
@@ -1060,6 +1119,7 @@ We need to calculate the heat loss through all surfaces before and after adding 
 **Solution**
 
 Given:
+
 - House dimensions: 10 m × 15 m × 3.0 m
 - Original attic insulation: $$d_1 = 15 \text{ cm} = 0.15 \text{ m}$$
 - Additional attic insulation: $$8.0 \text{ cm}$$
@@ -1068,6 +1128,7 @@ Given:
 - Thermal conductivity of glass wool (fiberglass): $$k = 0.042 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1)
 
 Calculate surface areas:
+
 - Attic (ceiling): $$A_{attic} = 10 \text{ m} \times 15 \text{ m} = 150 \text{ m}^2$$
 - Two long walls: $$A_{long} = 2 \times (15 \text{ m} \times 3.0 \text{ m}) = 90 \text{ m}^2$$
 - Two short walls: $$A_{short} = 2 \times (10 \text{ m} \times 3.0 \text{ m}) = 60 \text{ m}^2$$
@@ -1108,6 +1169,7 @@ $$\text{Reduction} = \frac{3000 \text{ m} - 2652 \text{ m}}{3000 \text{ m}} \tim
 Adding 8.0 cm of fiberglass insulation to the attic reduces heating costs by approximately 11.6%. While this might seem modest, it represents significant savings over the lifetime of a house. The attic accounts for one-third of the total surface area, so improving its insulation from 15 cm to 23 cm (a 53% increase in thickness) reduces its heat loss by 35% [(1000-652)/1000 = 34.8%].
 
 The overall reduction is smaller (11.6%) because the walls and floor still lose heat at the original rate. To achieve greater savings, one would need to insulate all surfaces more heavily. However, attic insulation is often prioritized because:
+
 - Hot air rises, concentrating heat loss through the ceiling
 - Attics are easier to access and insulate than walls
 - The cost-effectiveness is high (discussed in the next problem)
@@ -1126,10 +1188,10 @@ Heating costs would drop by approximately **11.6%** or about **12%**.
 
 ::: problem
 
-(a) Calculate the rate of heat conduction through a double-paned window that has a  $$ 1.50{\text{-m}}^{2} $$
- area and is made of two panes of 0.800-cm-thick glass separated by a 1.00-cm air gap. The inside surface temperature is  $$ 15.0\text{ºC} $$ ,
- while that on the outside is  $$- 10.0\text{ºC} $$ .
- (Hint: There are identical temperature drops across the two glass panes. First find these and then the temperature drop across the air gap. This problem ignores the increased heat transfer in the air gap due to convection.)
+(a) Calculate the rate of heat conduction through a double-paned window that has a $$ 1.50{\text{-m}}^{2} $$
+area and is made of two panes of 0.800-cm-thick glass separated by a 1.00-cm air gap. The inside surface temperature is $$ 15.0\text{ºC} $$ ,
+while that on the outside is $$- 10.0\text{ºC} $$ .
+(Hint: There are identical temperature drops across the two glass panes. First find these and then the temperature drop across the air gap. This problem ignores the increased heat transfer in the air gap due to convection.)
 
 (b) Calculate the rate of heat conduction through a 1.60-cm-thick window of the
 same area and with the same temperatures. Compare your answer with that for
@@ -1148,6 +1210,7 @@ For part (b), we calculate heat conduction through a single 1.60-cm thick glass 
 **Solution**
 
 Given:
+
 - Window area: $$A = 1.50 \text{ m}^2$$
 - Glass pane thickness: $$d_g = 0.800 \text{ cm} = 0.00800 \text{ m}$$
 - Air gap thickness: $$d_a = 1.00 \text{ cm} = 0.0100 \text{ m}$$
@@ -1210,6 +1273,7 @@ $$\frac{Q}{t} = \frac{0.6615 \text{ J}\cdot\text{m/s}}{0.00800 \text{ m}} = 82.7
 </div>
 
 **(b)** For a single 1.60-cm thick glass window:
+
 - Thickness: $$d = 1.60 \text{ cm} = 0.0160 \text{ m}$$
 
 <div class="equation">
@@ -1242,6 +1306,7 @@ $$\frac{Q_{single}}{Q_{double}} = \frac{1969 \text{ W}}{82.7 \text{ W}} = 23.8 \
 - Low-E coatings further reduce heat transfer by radiation
 
 Energy savings calculation:
+
 - Difference: 2000 W - 83 W = 1917 W per window
 - Over a 6-month heating season (4320 hours): $$1917 \text{ W} \times 4320 \text{ h} = 8.28 \times 10^6 \text{ Wh} = 8280 \text{ kWh}$$
 - At \$0.12/kWh: savings of about \$994 per window per year!
@@ -1261,8 +1326,8 @@ This problem demonstrates why the air gap in double-pane windows is the crucial 
 
 ::: problem
 
-Many decisions are made on the basis of the payback period: the time it will take through savings to equal the capital cost of an investment. Acceptable payback times depend upon the business or philosophy one has. (For some industries, a payback period is as small as two years.) Suppose you wish to install the extra insulation in [[Exercise 12]](#Exercise12). If energy cost  \$1.00 per million joules and the insulation was  \$4.00 per square meter, then calculate the simple payback time. Take the average  $$\Delta T $$
- for the 120 day heating season to be  $$15.0\text{ºC} $$.
+Many decisions are made on the basis of the payback period: the time it will take through savings to equal the capital cost of an investment. Acceptable payback times depend upon the business or philosophy one has. (For some industries, a payback period is as small as two years.) Suppose you wish to install the extra insulation in [[Exercise 12]](#Exercise12). If energy cost \$1.00 per million joules and the insulation was \$4.00 per square meter, then calculate the simple payback time. Take the average $$\Delta T $$
+for the 120 day heating season to be $$15.0\text{ºC} $$.
 
 :::
 
@@ -1285,9 +1350,9 @@ Starting at the beginning of the season, the investment pays back in about **32 
 
 ::: problem
 
-For the human body, what is the rate of heat transfer by conduction through the body’s tissue with the following conditions: the tissue thickness is 3.00 cm, the change in temperature is  $$2.00\text{ºC} $$ ,
- and the skin area is  $$ 1.50 {\text{m}}^{2} $$ .
- How does this compare with the average heat transfer rate to the body resulting from an energy intake of about 2400 kcal per day? (No exercise is included.)
+For the human body, what is the rate of heat transfer by conduction through the body’s tissue with the following conditions: the tissue thickness is 3.00 cm, the change in temperature is $$2.00\text{ºC} $$ ,
+and the skin area is $$ 1.50 {\text{m}}^{2} $$ .
+How does this compare with the average heat transfer rate to the body resulting from an energy intake of about 2400 kcal per day? (No exercise is included.)
 
 :::
 
@@ -1300,6 +1365,7 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ with 
 **Solution**
 
 Given:
+
 - Tissue thickness: $$d = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 - Temperature difference: $$\Delta T = 2.00\text{ºC}$$
 - Skin area: $$A = 1.50 \text{ m}^2$$
@@ -1354,6 +1420,7 @@ The heat conduction rate through body tissue is 20.0 W, which represents about 1
 4. **Metabolic rate**: The 2400 kcal/day (116 W) represents basal metabolic rate plus light activity. During rest, BMR is about 80-100 W; the remainder comes from movement and digestion.
 
 Real-world considerations:
+
 - Blood circulation greatly enhances heat transport (beyond pure conduction)
 - Clothing adds insulation layers, reducing overall heat loss
 - Environmental temperature affects skin temperature and thus $$\Delta T$$
@@ -1372,6 +1439,7 @@ The rate of heat transfer by conduction is **20.0 W**, which is approximately **
 ::: footnote-refs
 
 ### Footnotes
+
 {: class="footnote-refs-title"}
 
 - [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">At temperatures near
@@ -1383,6 +1451,7 @@ The rate of heat transfer by conduction is **20.0 W**, which is approximately **
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 _R_ factor

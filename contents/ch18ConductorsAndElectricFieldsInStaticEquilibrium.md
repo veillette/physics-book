@@ -4,15 +4,16 @@ layout: page
 sectionNumber: 7
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* List the three properties of a conductor in electrostatic equilibrium.
-* Explain the effect of an electric field on free charges in a conductor.
-* Explain why no electric field may exist inside a conductor.
-* Describe the electric field surrounding Earth.
-* Explain what happens to an electric field applied to an irregular conductor.
-* Describe how a lightning rod works.
-* Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car.
+- List the three properties of a conductor in electrostatic equilibrium.
+- Explain the effect of an electric field on free charges in a conductor.
+- Explain why no electric field may exist inside a conductor.
+- Describe the electric field surrounding Earth.
+- Explain what happens to an electric field applied to an irregular conductor.
+- Describe how a lightning rod works.
+- Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car.
 
 :::
 
@@ -59,9 +60,9 @@ Excess charges placed on a spherical conductor repel and move until they are eve
 Properties of a Conductor in Electrostatic Equilibrium
 </div>
 
-1.   The electric field is zero inside a conductor.
-2.   Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
-3.   Any excess charge resides entirely on the surface or surfaces of a conductor.
+1.  The electric field is zero inside a conductor.
+2.  Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.
+3.  Any excess charge resides entirely on the surface or surfaces of a conductor.
 
 :::
 
@@ -196,6 +197,22 @@ Is the object in [[Figure 9]](#Figure9) a conductor or an insulator? Justify you
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the electrostatic boundary conditions for a conductor.
+
+**Solution**
+
+An equilibrium conductor has zero field in its material, and its external field is perpendicular to its surface. In Figure 9, field lines enter and leave the object at oblique angles and pass through its interior. Mobile charge in a conductor would redistribute until those tangential and interior fields vanished.
+
+**Discussion**
+
+Under the section’s static-equilibrium assumption, the illustrated object must be an insulator, since it supports a nonzero interior field and oblique surface field.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -203,6 +220,22 @@ Is the object in [[Figure 9]](#Figure9) a conductor or an insulator? Justify you
 ::: problem
 
 If the electric field lines in the figure above were perpendicular to the object, would it necessarily be a conductor? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Decide whether one necessary boundary condition is sufficient to identify a material.
+
+**Solution**
+
+Perpendicular external field is necessary at the surface of a conductor in electrostatic equilibrium, but an insulator can also have this field geometry. For example, a spherically symmetric charged insulating sphere has radial field, perpendicular to its spherical surface, even though charges cannot move freely through it.
+
+**Discussion**
+
+One must also establish charge mobility and the appropriate zero interior field. Perpendicular field lines alone therefore do not prove that the object is a conductor.
 
 :::
 
@@ -216,6 +249,22 @@ The discussion of the electric field between two parallel conducting plates, in 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare plate separation with the plates’ lateral dimensions.
+
+**Solution**
+
+For plates with characteristic width $$L$$ and separation $$d$$, edge effects are small over most of the area when $$d/L\ll1$$. For square plates of area $$A$$, this becomes $$d/\sqrt A\ll1$$, rather than the dimensionful ratio $$d/A$$. Assumed square plates $$0.10\text{ m}$$ wide and $$0.001\text{ m}$$ apart have $$d/L=0.01$$.
+
+**Discussion**
+
+The field still bends near the edges. “Close” means that separation is small compared with the plate width or other lateral dimensions, not that the separation alone has a particular absolute value.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -223,6 +272,22 @@ The discussion of the electric field between two parallel conducting plates, in 
 ::: problem
 
 Would the self-created electric field at the end of a pointed conductor, such as a lightning rod, remove positive or negative charge from the conductor? Would the same sign charge be removed from a neutral pointed conductor by the application of a similar externally created electric field? (The answers to both questions have implications for charge transfer utilizing points.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Follow the direction of the local field and of forces on positive ions and electrons.
+
+**Solution**
+
+A positively charged sharp tip produces a strong outward field: positive air ions are repelled outward and electrons are attracted inward, reducing the tip’s positive charge. A negative tip has the reverse field and loses negative charge through outward-moving negative carriers or inward-moving positive ions. For a neutral conductor, an external field polarizes it, concentrating one sign at each end; an outward field at a particular tip can likewise carry positive charge outward, and an inward field can carry negative charge outward.
+
+**Discussion**
+
+A solid metal generally retains its positive lattice ions; charge transfer occurs through electrons and ionized air. The sign removed is determined by the local field direction, so a similarly directed external field can remove the same sign from an initially neutral pointed conductor.
 
 :::
 
@@ -236,6 +301,22 @@ Why is a golfer with a metal club over her shoulder vulnerable to lightning in a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider both height and electric-field concentration at a pointed conducting object.
+
+**Solution**
+
+In an open fairway the golfer and raised club form a relatively high, narrow feature. Charge concentrates near the club’s tip, enhancing the local field and favoring discharge as a lightning channel approaches. A tree is also a likely strike point, and a strike can reach a nearby person by side flash or through the ground.
+
+**Discussion**
+
+A metal club does not attract lightning from an unlimited distance, and shelter under a tree is unsafe; see the [National Weather Service lightning guidance](https://www.weather.gov/mqt/lightningtips). The golfer is vulnerable in the open and should seek a substantial enclosed building or enclosed metal-topped vehicle rather than stand under a tree.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -243,6 +324,22 @@ Why is a golfer with a metal club over her shoulder vulnerable to lightning in a
 ::: problem
 
 Can the belt of a Van de Graaff accelerator be a conductor? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The belt must transport charge between regions at very different potentials.
+
+**Solution**
+
+A Van de Graaff belt picks up charge near one roller, carries it to the high-voltage terminal, and gives it up there. If a continuous conducting belt connected those regions, charge could flow along it and leak back, tending to equalize their potentials instead of building up the terminal voltage.
+
+**Discussion**
+
+The rollers and charge-collecting combs can be conductors, but the charge-carrying belt must be sufficiently insulating to maintain the charge separation.
 
 :::
 
@@ -256,6 +353,22 @@ Are you relatively safe from lightning inside an automobile? Give two reasons.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the redistribution of charge and current on a continuous metal enclosure.
+
+**Solution**
+
+An enclosed metal-topped automobile provides a conducting shell that largely shields the passenger compartment from external electric fields. If struck, much of the lightning current travels through the metal body around the occupants and then to ground, rather than through their bodies. Stay inside with windows closed and avoid contact with conducting parts connected to the exterior.
+
+**Discussion**
+
+The tires are not the main protection, and a convertible or open vehicle lacks the same enclosure; see the [National Weather Service explanation of lightning and cars](https://www.weather.gov/safety/lightning-cars). A closed metal-topped car is relatively safe because of electric shielding and the current path through its metal shell.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -266,13 +379,45 @@ Discuss pros and cons of a lightning rod being grounded versus simply being atta
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the available path for lightning current after a strike.
+
+**Solution**
+
+A properly grounded lightning rod is connected by a designed low-impedance conductor to an earth termination, giving strike current a path that limits passage through the building. A rod merely attached to a building can receive a strike without providing a controlled path to ground; current may then arc through structural materials and start a fire. A grounded system requires suitable installation and maintenance.
+
+**Discussion**
+
+The rod does not guarantee prevention of a strike. Grounding is the essential advantage because it provides a planned current path; an ungrounded rod attached to a building offers no comparable protection.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-Using the symmetry of the arrangement, show that the net Coulomb force on the charge  $$q $$  at the center of the square below ([[Figure 10]](#Figure10)) is zero if the charges on the four corners are exactly equal.
+Using the symmetry of the arrangement, show that the net Coulomb force on the charge $$q $$ at the center of the square below ([[Figure 10]](#Figure10)) is zero if the charges on the four corners are exactly equal.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Pair each corner with the diagonally opposite corner.
+
+**Solution**
+
+All four corners are the same distance from the center. Equal corner charges therefore exert equal-magnitude forces on the central charge. The forces from $$q_a$$ and $$q_d$$ are opposite and cancel; the same is true for $$q_b$$ and $$q_c$$. Thus $$\vec F_a+\vec F_d=0$$ and $$\vec F_b+\vec F_c=0$$.
+
+**Discussion**
+
+This cancellation holds whether the central charge is positive or negative. The net Coulomb force on the central charge is zero because both diagonal force pairs cancel.
 
 :::
 
@@ -285,8 +430,24 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 
 ::: problem
 
-(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 10]](#Figure10) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which  $${q}_{a}={q}_{d} $$
- and  $${q}_{b}={q}_{c} $$
+(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in [[Figure 10]](#Figure10) is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which $${q}_{a}={q}_{d} $$
+and $${q}_{b}={q}_{c} $$
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply superposition to diagonally opposite charges at equal distances.
+
+**Solution**
+
+(a) With four equal charges, each corner’s electric field at the center is equal and opposite to that from the opposite corner, so the total is zero. (b) The same cancellation works independently for each diagonal: $$q_a=q_d$$ gives $$\vec E_a+\vec E_d=0$$, and $$q_b=q_c$$ gives $$\vec E_b+\vec E_c=0$$. The two diagonal pairs need not have the same magnitude or sign.
+
+**Discussion**
+
+The field cancellation does not depend on the central test charge. The center has zero electric field whenever the charges at opposite ends of each diagonal are equal.
 
 :::
 
@@ -296,11 +457,27 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 
 ::: problem
 
-(a) What is the direction of the total Coulomb force on  $$q $$
- in [[Figure 10]](#Figure10) if  $$q $$
- is negative,  $${q}_{a}={q}_{c} $$
- and both are negative, and  $${q}_{b}={q}_{d} $$
- and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
+(a) What is the direction of the total Coulomb force on $$q $$
+in [[Figure 10]](#Figure10) if $$q $$
+is negative, $${q}_{a}={q}_{c} $$
+and both are negative, and $${q}_{b}={q}_{d} $$
+and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the corrected signs: both left-hand charges are negative, and both right-hand charges are positive.
+
+**Solution**
+
+(a) The negative central charge is repelled to the right by the negative left-hand pair and attracted to the right by the positive right-hand pair. Within each vertical pair, the upward and downward force components cancel. The total force is therefore horizontally rightward. (b) The electric field points opposite the force on a negative test charge, so it is horizontally leftward.
+
+**Discussion**
+
+The equality $$q_b=q_d$$ ensures cancellation of the right pair’s vertical components; their magnitude need not equal the left pair’s. The central negative charge feels a rightward force, while the electric field at the center points left.
 
 :::
 
@@ -310,9 +487,25 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 
 ::: problem
 
-Considering [[Figure 10]](#Figure10), suppose that  $${q}_{a}={q}_{d} $$
- and  $${q}_{b}={q}_{c} $$ .
- First show that  $$q $$  is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of  $$q $$  from the center of the square.
+Considering [[Figure 10]](#Figure10), suppose that $${q}_{a}={q}_{d} $$
+and $${q}_{b}={q}_{c} $$ .
+First show that $$q $$ is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of $$q $$ from the center of the square.
+
+:::
+
+::: solution
+
+**Strategy**
+
+First cancel opposite diagonal pairs, then examine small displacements rather than only the central force.
+
+**Solution**
+
+At the center, $$q_a=q_d$$ and $$q_b=q_c$$ make both diagonal field pairs cancel, giving $$\vec F=0$$. For an illustrative case with all four corner charges positive and the central charge positive, a small displacement within the square produces a restoring force. A displacement perpendicular to the square instead gives a force away from the plane, so that equilibrium is unstable in three dimensions. Reversing the central charge reverses these stability directions. Unequal diagonal pairs can also give different stability along different directions within the plane.
+
+**Discussion**
+
+For fixed electrostatic sources in a charge-free neighborhood, the potential obeys Laplace’s equation and cannot have a strict local minimum or maximum there. Thus the center is an equilibrium, but it cannot be a fully stable three-dimensional electrostatic trap for a nonzero test charge; the restoring or destabilizing directions depend on the charge signs and magnitudes.
 
 :::
 
@@ -322,8 +515,24 @@ Considering [[Figure 10]](#Figure10), suppose that  $${q}_{a}={q}_{d} $$
 
 ::: problem
 
-If  $${q}_{a}=0 $$
- in [[Figure 10]](#Figure10), under what conditions will there be no net Coulomb force on  $$q $$ ?
+If $${q}_{a}=0 $$
+in [[Figure 10]](#Figure10), under what conditions will there be no net Coulomb force on $$q $$ ?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Set the two in-plane field components at the center to zero.
+
+**Solution**
+
+Choose the center as the origin with corners $$a=(-s,s)$$, $$b=(s,s)$$, $$c=(-s,-s)$$, and $$d=(s,-s)$$. Their equal distances give $$E_x\propto q_a-q_b+q_c-q_d$$ and $$E_y\propto-q_a-q_b+q_c+q_d$$. With $$q_a=0$$, requiring both components to vanish yields $$q_d=0$$ and $$q_b=q_c$$.
+
+**Discussion**
+
+These conditions apply to a nonzero central charge with no other fields; a neutral central object has zero point-charge force trivially. There is no net Coulomb force on a nonzero central charge when $$q_d=0$$ and the remaining diagonal pair satisfies $$q_b=q_c$$.
 
 :::
 
@@ -337,6 +546,22 @@ In regions of low humidity, one develops a special “grip” when opening car d
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare localized fields and current density at a fingertip with those over a broad contact.
+
+**Solution**
+
+A charged hand induces opposite charge on the nearby metal. A fingertip’s small radius concentrates the field and favors a spark across the last air gap. Approaching with a broader part of the hand reduces this concentration, and a broad contact spreads the transient discharge current over more skin, reducing its local intensity and discomfort.
+
+**Discussion**
+
+The total charge to be discharged is not eliminated by changing the grip. A broad contact makes a static discharge less localized and often less painful than a fingertip spark.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -344,6 +569,22 @@ In regions of low humidity, one develops a special “grip” when opening car d
 ::: problem
 
 Tollbooth stations on roadways and bridges usually have a piece of wire stuck in the pavement before them that will touch a car as it approaches. Why is this done?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider charge accumulated on a car isolated by its tires.
+
+**Solution**
+
+A grounded wire that actually contacts the car’s conducting body provides a path for excess static charge to flow to Earth. This reduces the potential difference between the car and the tollbooth attendant or equipment before a person touches the vehicle.
+
+**Discussion**
+
+The explanation assumes the wire is grounded and makes conducting contact; contact only with insulating rubber would not reliably discharge the body. Such a wire is used to drain static charge and reduce sparks at the booth.
 
 :::
 
@@ -355,6 +596,22 @@ Tollbooth stations on roadways and bridges usually have a piece of wire stuck in
 
 Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are
 the consequences if they simply walks away?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Trace possible conductive paths from the person to ground.
+
+**Solution**
+
+To retain charge while standing on the ground, the person needs sufficiently insulating, dry footwear; wet or conductive soles let charge leak away. A suitable conducting connection to ground discharges the person by allowing electrons to enter or leave until the potential difference is removed. If the person simply walks away while insulated, the charge can remain and may produce a later spark on approaching a conductor; shoe–floor contact can also add or remove charge.
+
+**Discussion**
+
+Charge retention depends on footwear, moisture, and surrounding leakage paths. Arbitrary shoes do not ensure insulation, and walking away does not by itself guarantee discharge.
 
 :::
 
@@ -575,8 +832,8 @@ The field line pattern directly reflects the charge distribution: more lines whe
 
 ::: problem
 
-What is the force on the charge located at  $$x=8.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(a) given that  $$q=1.00 \text{μC} $$ ?
+What is the force on the charge located at $$x=8.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(a) given that $$q=1.00 \text{μC} $$ ?
 
 ![Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.](../resources/Figure_18_07_17.jpg '(a) Point charges located at 3.00, 8.00, and 11.0 cm along the x-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the x-axis.')
 {: #Figure15}
@@ -592,6 +849,7 @@ The charge at $$x = 8.00$$ cm has charge $$-2q$$. It experiences forces from the
 **Solution**
 
 Given:
+
 - $$q = 1.00 \text{ μC} = 1.00 \times 10^{-6} \text{ C}$$
 - Charge at $$x = 8.00$$ cm: $$q_2 = -2q = -2.00 \times 10^{-6} \text{ C}$$
 - Charge at $$x = 3.00$$ cm: $$q_1 = +q = +1.00 \times 10^{-6} \text{ C}$$
@@ -658,10 +916,10 @@ The net force of 12.8 N to the right means the $$-2q$$ charge would accelerate t
 
 ::: problem
 
-(a) Find the total electric field at  $$x=1.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(b) given that  $$q=5.00 \text{nC} $$ .
- (b) Find the total electric field at  $$x=11.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
+(a) Find the total electric field at $$x=1.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(b) given that $$q=5.00 \text{nC} $$ .
+(b) Find the total electric field at $$x=11.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)
 
 :::
 
@@ -669,11 +927,12 @@ The net force of 12.8 N to the right means the $$-2q$$ charge would accelerate t
 
 **Strategy**
 
-For part (a), we note that $$x = 1.00$$ cm is the exact location of the $$-2q$$ charge. The total field is undefined there, so we report the field produced at that point by the *other three* charges, which is the field that acts on the $$-2q$$ charge. For part (b), we calculate the electric field at $$x = 11.00$$ cm by summing the vector contributions from all four charges using $$E = k\frac{q}{r^2}$$, with the direction determined by whether each charge is positive (field points away) or negative (field points toward). For part (c), we apply conservation of charge to determine the final configuration.
+For part (a), we note that $$x = 1.00$$ cm is the exact location of the $$-2q$$ charge. The total field is undefined there, so we report the field produced at that point by the _other three_ charges, which is the field that acts on the $$-2q$$ charge. For part (b), we calculate the electric field at $$x = 11.00$$ cm by summing the vector contributions from all four charges using $$E = k\frac{q}{r^2}$$, with the direction determined by whether each charge is positive (field points away) or negative (field points toward). For part (c), we apply conservation of charge to determine the final configuration.
 
 **Solution**
 
 From [[Figure 15]](#Figure15)(b), the charges are:
+
 - At $$x = 1.00$$ cm: $$-2q = -10.0 \text{ nC}$$
 - At $$x = 5.00$$ cm: $$+q = +5.00 \text{ nC}$$
 - At $$x = 8.00$$ cm: $$+3q = +15.0 \text{ nC}$$
@@ -683,7 +942,7 @@ From [[Figure 15]](#Figure15)(b), the charges are:
 
 The point $$x = 1.00$$ cm is the exact location of the $$-2q$$ charge. The electric field of a point charge is undefined at the location of the charge itself (it approaches infinity as $$r \to 0$$).
 
-The field of the $$-2q$$ charge itself grows without limit as we approach it, and it points in opposite directions on the two sides (toward the charge from either side). So the *total* field has no value at $$x = 1.00$$ cm. It is neither $$+\infty$$ nor $$-\infty$$; it is undefined.
+The field of the $$-2q$$ charge itself grows without limit as we approach it, and it points in opposite directions on the two sides (toward the charge from either side). So the _total_ field has no value at $$x = 1.00$$ cm. It is neither $$+\infty$$ nor $$-\infty$$; it is undefined.
 
 What is well defined is the field from the other three charges at this point, the field that exerts a force on the $$-2q$$ charge. Taking rightward as positive:
 
@@ -793,10 +1052,10 @@ Part (c): When conductors carrying different charges are brought into contact, c
 
 ::: problem
 
-(a) Find the electric field at  $$x=5.00 \text{cm} $$
- in [[Figure 15]](#Figure15)(a), given that  $$q=1.00 \text{μC} $$ .
- (b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for  $$-2q $$
- alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of *x* , the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)
+(a) Find the electric field at $$x=5.00 \text{cm} $$
+in [[Figure 15]](#Figure15)(a), given that $$q=1.00 \text{μC} $$ .
+(b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for $$-2q $$
+alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of _x_ , the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)
 
 :::
 
@@ -829,9 +1088,9 @@ with all distances in centimeters. Numerical solution gives **30.6 cm**. Substit
 
 ::: problem
 
-(a) Find the total Coulomb force on a charge of 2.00 nC located at  $$x=4.00 \text{cm} $$
- in [[Figure 15]](#Figure15) (b), given that  $$q=1.00 \text{μC} $$ .
- (b) Find the *x*-position at which the electric field is zero in [[Figure 15]](#Figure15) (b).
+(a) Find the total Coulomb force on a charge of 2.00 nC located at $$x=4.00 \text{cm} $$
+in [[Figure 15]](#Figure15) (b), given that $$q=1.00 \text{μC} $$ .
+(b) Find the _x_-position at which the electric field is zero in [[Figure 15]](#Figure15) (b).
 
 :::
 
@@ -844,6 +1103,7 @@ For part (a), we calculate the force on a test charge (2.00 nC) at $$x = 4.00$$ 
 **Solution**
 
 From [[Figure 15]](#Figure15)(b), the charges are:
+
 - At $$x = 1.00$$ cm: $$-2q = -2.00 \text{ μC}$$
 - At $$x = 5.00$$ cm: $$+q = +1.00 \text{ μC}$$
 - At $$x = 8.00$$ cm: $$+3q = +3.00 \text{ μC}$$
@@ -973,10 +1233,10 @@ Part (b): The zero at $$x = 6.07$$ cm lies between the $$+q$$ and $$+3q$$ charge
 
 ::: problem
 
-Using the symmetry of the arrangement, determine the direction of the force on  $$q $$
- in the figure below, given that  $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
- and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
- (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0 cm on a side and  $$q=2.00 \text{μC} $$.
+Using the symmetry of the arrangement, determine the direction of the force on $$q $$
+in the figure below, given that $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
+and $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
+(b) Calculate the magnitude of the force on the charge $$q $$ , given that the square is 10.0 cm on a side and $$q=2.00 \text{μC} $$.
 
 ![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg ' ')
 {: #Figure16}
@@ -992,6 +1252,7 @@ The charge $$q$$ is at the center of a square with charges at the corners. We us
 **Solution**
 
 Given:
+
 - $$q_a = q_b = +7.50 \text{ μC}$$ (top corners)
 - $$q_c = q_d = -7.50 \text{ μC}$$ (bottom corners)
 - $$q = 2.00 \text{ μC}$$ (at center)
@@ -1000,6 +1261,7 @@ Given:
 **(a) Direction of force using symmetry:**
 
 The arrangement has two-fold symmetry about both horizontal and vertical axes through the center. Consider the forces:
+
 - $$q_a$$ (top-left, positive) and $$q_b$$ (top-right, positive) both repel $$q$$ (positive). Their forces point away from the top, with horizontal components canceling and vertical components adding downward.
 - $$q_c$$ (bottom-left, negative) and $$q_d$$ (bottom-right, negative) both attract $$q$$ (positive). Their forces point toward the bottom, with horizontal components canceling and vertical components adding downward.
 
@@ -1049,10 +1311,10 @@ Part (b): The force of 76.4 N is substantial for microcoulomb-scale charges sepa
 
 ::: problem
 
-(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 16]](#Figure16), given that  $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
- and  $${q}_{c}={q}_{d}=+1.00 \text{μC} $$ .
- (b) Calculate the magnitude of the electric field at the location of  $$q $$ ,
- given that the square is 5.00 cm on a side.
+(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in [[Figure 16]](#Figure16), given that $${q}_{a}={q}_{b}=-1.00 \text{μC} $$
+and $${q}_{c}={q}_{d}=+1.00 \text{μC} $$ .
+(b) Calculate the magnitude of the electric field at the location of $$q $$ ,
+given that the square is 5.00 cm on a side.
 
 :::
 
@@ -1073,9 +1335,9 @@ Use the exact geometric distance before rounding.
 
 ::: problem
 
-Find the electric field at the location of  $${q}_{a} $$
- in [[Figure 16]](#Figure16) given that  $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
-  $$q=-1.00 \text{nC} $$ ,  and the square is 20.0 cm on a side.
+Find the electric field at the location of $${q}_{a} $$
+in [[Figure 16]](#Figure16) given that $${q}_{b}={q}_{c}={q}_{d}=+2.00 \text{nC} $$ ,
+$$q=-1.00 \text{nC} $$ , and the square is 20.0 cm on a side.
 
 :::
 
@@ -1088,11 +1350,13 @@ The electric field at $$q_a$$ is due to the other three corner charges ($$q_b$$,
 **Solution**
 
 Given:
+
 - $$q_b = q_c = q_d = +2.00 \text{ nC} = 2.00 \times 10^{-9} \text{ C}$$
 - $$q = -1.00 \text{ nC} = -1.00 \times 10^{-9} \text{ C}$$
 - Square side length: $$s = 20.0 \text{ cm} = 0.200 \text{ m}$$
 
 In Figure 16, $$q_a$$ is at the upper-left corner, $$q_b$$ at the upper-right, $$q_c$$ at the lower-left, and $$q_d$$ at the lower-right. Place $$q_a$$ at the origin, with $$+x$$ to the right and $$+y$$ upward, as in the figure:
+
 - $$q_a$$ at (0, 0)
 - $$q_b$$ at (0.200 m, 0), a distance $$s = 0.200$$ m to the right
 - $$q_c$$ at (0, −0.200 m), a distance $$s = 0.200$$ m below
@@ -1100,25 +1364,25 @@ In Figure 16, $$q_a$$ is at the upper-left corner, $$q_b$$ at the upper-right, $
 - $$q$$ at the center (0.100 m, −0.100 m), a distance $$\frac{s}{\sqrt{2}} = 0.141$$ m
 
 **From** $$q_b$$ **at** $$(0.200 \text{ m}, 0)$$:
- $$E_b = k\frac{q_b}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-9} \text{ C})}{(0.200 \text{ m})^2} = \frac{17.98 \text{ N·m}^2/\text{C}}{0.0400 \text{ m}^2} = 450 \text{ N/C}$$
+$$E_b = k\frac{q_b}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-9} \text{ C})}{(0.200 \text{ m})^2} = \frac{17.98 \text{ N·m}^2/\text{C}}{0.0400 \text{ m}^2} = 450 \text{ N/C}$$
 
 Direction: away from the positive $$q_b$$, toward the left.
 $$\vec{E}_b = (-450 \text{ N/C})\hat{x}$$
 
 **From** $$q_c$$ **at** $$(0, -0.200 \text{ m})$$:
- $$E_c = k\frac{q_c}{s^2} = 450 \text{ N/C}$$
+$$E_c = k\frac{q_c}{s^2} = 450 \text{ N/C}$$
 
 Direction: away from the positive $$q_c$$, which is directly below, so upward.
 $$\vec{E}_c = (+450 \text{ N/C})\hat{y}$$
 
 **From** $$q_d$$ **at** $$(0.200 \text{ m}, -0.200 \text{ m})$$:
- $$E_d = k\frac{q_d}{(s\sqrt{2})^2} = k\frac{q_d}{2s^2} = \frac{450 \text{ N/C}}{2} = 225 \text{ N/C}$$
+$$E_d = k\frac{q_d}{(s\sqrt{2})^2} = k\frac{q_d}{2s^2} = \frac{450 \text{ N/C}}{2} = 225 \text{ N/C}$$
 
 Direction: away from $$q_d$$, toward the upper left, along $$(-\hat{x} + \hat{y})/\sqrt{2}$$.
 $$\vec{E}_d = (225 \text{ N/C}) \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = (-159 \text{ N/C})\hat{x} + (159 \text{ N/C})\hat{y}$$
 
 **From** $$q$$ **at the center** $$(0.100 \text{ m}, -0.100 \text{ m})$$:
- $$E_q = k\frac{|q|}{(s/\sqrt{2})^2} = k\frac{|q|}{s^2/2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-9} \text{ C})}{0.0200 \text{ m}^2} = 450 \text{ N/C}$$
+$$E_q = k\frac{|q|}{(s/\sqrt{2})^2} = k\frac{|q|}{s^2/2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-9} \text{ C})}{0.0200 \text{ m}^2} = 450 \text{ N/C}$$
 
 Direction: toward the negative charge $$q$$, that is, toward the lower right, along $$(\hat{x} - \hat{y})/\sqrt{2}$$.
 $$\vec{E}_q = (450 \text{ N/C}) \times \frac{\hat{x} - \hat{y}}{\sqrt{2}} = (318 \text{ N/C})\hat{x} - (318 \text{ N/C})\hat{y}$$
@@ -1159,13 +1423,13 @@ The negative central charge significantly affects the result. Without it, the fi
 
 ::: problem
 
-Find the total Coulomb force on the charge  $$q $$
- in [[Figure 16]](#Figure16), given that  $$q=1.00 \text{μC} $$ ,
-  $${q}_{a}=2.00 \text{μC} $$ ,
-  $${q}_{b}=-3.00 \text{μC} $$ ,
-  $${q}_{c}=-4.00 \text{μC} $$ ,
- and  $${q}_{d}=+1.00 \text{μC} $$ .
- The square is 50.0 cm on a side.
+Find the total Coulomb force on the charge $$q $$
+in [[Figure 16]](#Figure16), given that $$q=1.00 \text{μC} $$ ,
+$${q}_{a}=2.00 \text{μC} $$ ,
+$${q}_{b}=-3.00 \text{μC} $$ ,
+$${q}_{c}=-4.00 \text{μC} $$ ,
+and $${q}_{d}=+1.00 \text{μC} $$ .
+The square is 50.0 cm on a side.
 
 :::
 
@@ -1178,6 +1442,7 @@ The central charge $$q$$ experiences forces from all four corner charges. We cal
 **Solution**
 
 Given:
+
 - $$q = 1.00 \text{ μC} = 1.00 \times 10^{-6} \text{ C}$$ (at center)
 - $$q_a = 2.00 \text{ μC}$$ (top-left)
 - $$q_b = -3.00 \text{ μC}$$ (top-right)
@@ -1257,11 +1522,11 @@ The relatively small magnitude (0.102 N) despite large charges (up to 4.00 μC) 
 
 ::: problem
 
-(a) Find the electric field at the location of  $${q}_{a} $$
- in [[Figure 17]](#Figure17), given that  $${q}_{\text{b}}=+10.00 \mu \text{C} $$
- and  $${q}_{\text{c}}= -5.00 \mu \text{C} $$ .
- (b) What is the force on  $${q}_{a} $$ ,
- given that  $${q}_{\text{a}}=+1.50 \text{nC} $$ ?
+(a) Find the electric field at the location of $${q}_{a} $$
+in [[Figure 17]](#Figure17), given that $${q}_{\text{b}}=+10.00 \mu \text{C} $$
+and $${q}_{\text{c}}= -5.00 \mu \text{C} $$ .
+(b) What is the force on $${q}_{a} $$ ,
+given that $${q}_{\text{a}}=+1.50 \text{nC} $$ ?
 
 ![Three point charges located at the corners of an equilateral triangle.](../resources/Figure_18_07_18.jpg 'Point charges located at the corners of an equilateral triangle 25.0 cm on a side.')
 {: #Figure17}
@@ -1277,6 +1542,7 @@ The charges are at the corners of an equilateral triangle with side length 25.0 
 **Solution**
 
 Given:
+
 - $$q_b = +10.00 \text{ μC} = 1.00 \times 10^{-5} \text{ C}$$
 - $$q_c = -5.00 \text{ μC} = -5.00 \times 10^{-6} \text{ C}$$
 - $$q_a = +1.50 \text{ nC} = 1.50 \times 10^{-9} \text{ C}$$
@@ -1342,11 +1608,11 @@ Part (b): The force on the positive $$q_a$$ is in the same direction as the elec
 
 ::: problem
 
-(a) Find the electric field at the center of the triangular configuration of charges in [[Figure 17]](#Figure17), given that  $${q}_{a}=+2.50 \text{nC} $$ ,
-  $${q}_{b}=-8.00 \text{nC} $$ ,
- and  $${q}_{c}=+1.50 \text{nC} $$ .
- (b) Is there any combination of charges, other than  $${q}_{a}={q}_{b}={q}_{c} $$ ,
- that will produce a zero strength electric field at the center of the triangular configuration?
+(a) Find the electric field at the center of the triangular configuration of charges in [[Figure 17]](#Figure17), given that $${q}_{a}=+2.50 \text{nC} $$ ,
+$${q}_{b}=-8.00 \text{nC} $$ ,
+and $${q}_{c}=+1.50 \text{nC} $$ .
+(b) Is there any combination of charges, other than $${q}_{a}={q}_{b}={q}_{c} $$ ,
+that will produce a zero strength electric field at the center of the triangular configuration?
 
 :::
 
@@ -1368,6 +1634,7 @@ Thus $$E=4.33\times10^3\ \text{N/C}$$, directed **35.0° below the horizontal to
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 conductor

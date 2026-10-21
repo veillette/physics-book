@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 7
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Compare and discuss underdamped and overdamped oscillating systems.
-* Explain critically damped system.
+- Compare and discuss underdamped and overdamped oscillating systems.
+- Explain critically damped system.
 
 :::
 
@@ -77,9 +78,9 @@ proportional to velocity.
 Damping an Oscillatory Motion: Friction on an Object Connected to a Spring
 </div>
 
-Damping oscillatory motion is important in many systems, and the ability to control the damping is even more so. This is generally attained using non-conservative forces such as the friction between surfaces, and viscosity for objects moving through fluids. The following example considers friction. Suppose a 0.200-kg object is connected to a spring as shown in [[Figure 4]](#Figure4), but there is simple friction between the object and the surface, and the coefficient of friction  $${\mu }_{k} $$
- is equal to 0.0800. (a) What is the frictional force between the surfaces? (b) What total distance does the object travel if it is released 0.100 m from equilibrium, starting at  $$v=0 $$ ?
- The force constant of the spring is  $$k= 50.0 \text{N/m}  $$.
+Damping oscillatory motion is important in many systems, and the ability to control the damping is even more so. This is generally attained using non-conservative forces such as the friction between surfaces, and viscosity for objects moving through fluids. The following example considers friction. Suppose a 0.200-kg object is connected to a spring as shown in [[Figure 4]](#Figure4), but there is simple friction between the object and the surface, and the coefficient of friction $${\mu }_{k} $$
+is equal to 0.0800. (a) What is the frictional force between the surfaces? (b) What total distance does the object travel if it is released 0.100 m from equilibrium, starting at $$v=0 $$ ?
+The force constant of the spring is $$k= 50.0 \text{N/m}  $$.
 
 ![ The given figure (a) shows a spring on a frictionless surface attached to a bar or wall from the left side and on the right side of the spring, there is an object attached with mass m. Its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, represented by a red arrow pointing toward the left and velocity v is equal to zero. An arrow showing the direction of force is also given alongside this figure as well as with the other four figures. The energy of the object is half k x squared. In the given figure (b), after force is applied, the object moves to the left, compressing the spring slightly. The displacement of the object from its initial position is indicated by dots. The force F, here is equal to zero and velocity v, is maximum in the negative direction or the left. The energy of the object in this case is half m times negative v-max whole squared. In the given figure (c), the spring has been compressed the maximum limit, and the amplitude is minus X. Now the force is toward the right, indicated here with a red arrow pointing to the right and the velocity, v, is zero. The energy of the object now is half k times negative x whole squared. In the given figure (d), the spring is shown released from its compressed position and the object has moved toward the right side to reach the equilibrium level. Here, F is equal to zero, and the velocity, v, is the maximum. The energy of the object becomes half k times v max squared. In the given figure (e), the spring has been stretched loose to the maximum possible limit and the object has moved to the far right. Now the velocity v, here is equal to zero and the direction of force is toward the left. As shown here, F is equal to zero. The energy of the object in this case is half k times x squared.](../resources/Figure_16_07_04.jpg 'The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.')
 {: #Figure4}
@@ -105,7 +106,7 @@ the question.
 2. Identify the known values.
 3. Enter the known values into the equation:
    <div class="equation" >
-   $$f=(0.0800)\left(0.200\text{kg}\right) \left( 9.80\text{m}/{\text{s}}^{2}\right). $$ &lt;/div&gt; 4. Calculate and convert units: $$f=0.157 \text{N}. $$ 
+   $$f=(0.0800)\left(0.200\text{kg}\right) \left( 9.80\text{m}/{\text{s}}^{2}\right). $$ &lt;/div&gt; 4. Calculate and convert units: $$f=0.157 \text{N}. $$
 
    **Discussion a**
 
@@ -116,63 +117,63 @@ the question.
    Identify the known:
 
    - The system involves elastic potential energy as the spring compresses and
-   expands, friction that is related to the work done, and the kinetic energy as
-   the body speeds up and slows down.
+     expands, friction that is related to the work done, and the kinetic energy as
+     the body speeds up and slows down.
    - Energy is not conserved as the mass oscillates because friction is a
-   non-conservative force.
+     non-conservative force.
    - The motion is horizontal, so gravitational potential energy does not need to
-   be considered.
+     be considered.
    - Because the motion starts from rest, the energy in the system is initially
-   $${\text{PE}}_{\text{el,i}}=\left(1/2\right){\text{kX}}^{2} $$ . This energy
-   is removed by work done by friction $${W}_{\text{nc}}=-\text{fd} $$ , where
-   $$d $$ is the total distance traveled and $$f={\mu }_{\text{k}}mg $$ is the
-   force of friction. When the system stops moving, the friction force will
-   balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left( 1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
+     $${\text{PE}}_{\text{el,i}}=\left(1/2\right){\text{kX}}^{2} $$ . This energy
+     is removed by work done by friction $${W}_{\text{nc}}=-\text{fd} $$ , where
+     $$d $$ is the total distance traveled and $$f={\mu }_{\text{k}}mg $$ is the
+     force of friction. When the system stops moving, the friction force will
+     balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left( 1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
+
    <div class="equation" >
    $$\begin{array}{lll}{F}_{\text{el}}& =& f\\ kx& =& {\mu }_{\text{k}}mg\\ x& =& \frac{ {\mu }_{\text{k}}mg}{k}\end{array}. $$
    </div>
-
    1. By equating the work done to the energy removed, solve for the distance $$d $$
 
    .
 
    2. The work done by the non-conservative forces equals the initial, stored
-   elastic potential energy. Identify the correct equation to use:
+      elastic potential energy. Identify the correct equation to use:
+
    <div class="equation" >
     $${\text{W}}_{\text{nc}}=\Delta \left(\text{KE}+\text{PE}\right)={\text{PE}}_{\text{el,f}}-{\text{PE}}_{\text{el,i}}=\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right). $$
    </div>
-
    3. Recall that $${W}_{\text{nc}}=-fd $$ .
-
    4. Enter the friction as $$f={\mu }_{\text{k}}mg $$
-   into $${W}_{\text{nc}}=-fd $$ , thus
+      into $${W}_{\text{nc}}=-fd $$ , thus
+
    <div class="equation" >
     $${W}_{\text{nc}}={-\mu }_{\text{k}} mgd. $$
    </div>
-
    5. Combine these two equations to find
+
    <div class="equation" >
     $$\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right)=-{\mu }_{\text{k}} mgd. $$
    </div>
-
    6. Solve the equation for $$d $$
-   \:
+      \:
+
    <div class="equation" >
     $$d=\frac{\text{k}}{ {2\mu }_{\text{k}}mg}\left({X}^{2}-{\left(\frac{ {\mu }_{\text{k}}mg}{k}\right)}^{2}\right). $$
    </div>
-
    7. Enter the known values into the resulting equation:
+
    <div class="equation" >
     $$d=\frac{ 50.0 \text{N/m} }{2\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}\left({\left( 0.100 \text{m}\right)}^{2}-{\left(\frac{\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}{ 50.0 \text{N/m}}\right)}^{2}\right). $$
    </div>
-
    8. Calculate $$d $$
-   and convert units:
+      and convert units:
+
    <div class="equation" >
     $$d= 1.59 \text{m}. $$
    </div>
 
-   __Discussion b__
+   **Discussion b**
 
    This is the total distance traveled back and forth across $$x=0 $$ , which is
    the undamped equilibrium position. The number of oscillations about the
@@ -204,13 +205,13 @@ the question.
 
 ::: problem
 
-   Why are completely undamped harmonic oscillators so rare?
+Why are completely undamped harmonic oscillators so rare?
 
 :::
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-   Friction often comes into play whenever an object is moving. Friction causes damping in a harmonic oscillator.
+Friction often comes into play whenever an object is moving. Friction causes damping in a harmonic oscillator.
 
 :::
 
@@ -223,92 +224,140 @@ the question.
 
 ::: problem
 
-   Describe the difference between overdamping, underdamping, and critical damping.
+Describe the difference between overdamping, underdamping, and critical damping.
 
 :::
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-   An overdamped system moves slowly toward equilibrium. An underdamped system moves quickly to equilibrium, but will oscillate about the equilibrium point as it does so. A critically damped system moves as quickly as possible toward equilibrium without oscillating about the equilibrium.
+An overdamped system moves slowly toward equilibrium. An underdamped system moves quickly to equilibrium, but will oscillate about the equilibrium point as it does so. A critically damped system moves as quickly as possible toward equilibrium without oscillating about the equilibrium.
 
 :::
 
    </div>
 
-   ### Section Summary
+### Section Summary
 
-   - Damped harmonic oscillators have non-conservative forces that dissipate their
-   energy.
-   - Critical damping returns the system to equilibrium as fast as possible without
-   overshooting.
-   - An underdamped system will oscillate through the equilibrium position.
-   - An overdamped system moves more slowly toward equilibrium than one that is
-   critically damped.
+- Damped harmonic oscillators have non-conservative forces that dissipate their
+  energy.
+- Critical damping returns the system to equilibrium as fast as possible without
+  overshooting.
+- An underdamped system will oscillate through the equilibrium position.
+- An overdamped system moves more slowly toward equilibrium than one that is
+  critically damped.
 
-   ### Conceptual Questions
+### Conceptual Questions
 
    <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-   Give an example of a damped harmonic oscillator. (They are more common than undamped or simple harmonic oscillators.)
-
-:::
-
-   </div>
-
-   <div class="exercise" data-element-type="conceptual-questions">
-
-::: problem
-
-   How would a car bounce after a bump under each of these conditions?
-
-   - overdamping
-   - underdamping
-   - critical damping
-
-:::
-
-   </div>
-
-   <div class="exercise" data-element-type="conceptual-questions">
-
-::: problem
-
-   Most harmonic oscillators are damped and, if undriven, eventually come to a stop. How is this observation related to the second law of thermodynamics?
-
-:::
-
-   </div>
-
-   ### Problems &amp; Exercises
-
-   <div class="exercise" data-element-type="problems-exercises">
-
-::: problem
-
-   The amplitude of a lightly damped oscillator decreases by  $$ 3.0%  $$
-   during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?
+Give an example of a damped harmonic oscillator. (They are more common than undamped or simple harmonic oscillators.)
 
 :::
 
 ::: solution
 
-   **Strategy**
+**Strategy**
 
-   The mechanical energy of a harmonic oscillator is proportional to the square of the amplitude: $$E = \frac{1}{2}kA^{2}$$. If the amplitude decreases by 3.0%, the new amplitude is 97.0% of the original. We calculate the energy after one cycle and find the percentage decrease.
+Choose an oscillator with a restoring force and an energy-loss mechanism.
 
-   **Solution**
+**Solution**
 
-   Let the initial amplitude be $$A_0$$ and the initial energy be $$E_0 = \frac{1}{2}kA_{0}^2$$.
+A car’s suspension after a bump is a damped oscillator. Springs provide the restoring force, the vehicle body supplies inertia, and shock absorbers dissipate mechanical energy through fluid motion and friction. The displacement approaches its equilibrium value instead of continuing with constant amplitude.
 
-   After one cycle, the amplitude decreases by 3.0%, so:
+**Discussion**
+
+Depending on damping strength, the return may include oscillations or occur without them. A spring-supported car body with shock absorbers is a practical example of a damped harmonic-oscillator system.
+
+:::
+
+   </div>
+
+   <div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+How would a car bounce after a bump under each of these conditions?
+
+- overdamping
+- underdamping
+- critical damping
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the damping strength with the critical value for the suspension mode.
+
+**Solution**
+
+With overdamping, the car returns slowly toward equilibrium without repeated bouncing. With underdamping, it overshoots equilibrium and bounces several times with decreasing amplitude. With critical damping, it returns as rapidly as possible without oscillation for the usual release-from-displacement comparison.
+
+**Discussion**
+
+Exact trajectories also depend on the initial velocity supplied by the bump. Overdamping gives a sluggish nonoscillatory return, underdamping gives decaying bounces, and critical damping provides the fastest nonoscillatory settling in the standard model.
+
+:::
+
+   </div>
+
+   <div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Most harmonic oscillators are damped and, if undriven, eventually come to a stop. How is this observation related to the second law of thermodynamics?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Track mechanical energy and entropy together.
+
+**Solution**
+
+Damping transfers organized oscillatory motion into microscopic internal energy of the oscillator and surroundings. Total energy is conserved, but the mechanical energy available in the coherent oscillation decreases. Frictional dissipation generates entropy, so the oscillator plus surroundings evolve toward thermal equilibrium rather than spontaneously reconstructing a large coherent vibration.
+
+**Discussion**
+
+Thermal fluctuations can remain at equilibrium, but they are not the original macroscopic oscillation. The decay of an undriven damped oscillator is an example of the second law’s irreversible conversion of organized mechanical energy into internal energy.
+
+:::
+
+   </div>
+
+### Problems &amp; Exercises
+
+   <div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+The amplitude of a lightly damped oscillator decreases by $$ 3.0%  $$
+during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The mechanical energy of a harmonic oscillator is proportional to the square of the amplitude: $$E = \frac{1}{2}kA^{2}$$. If the amplitude decreases by 3.0%, the new amplitude is 97.0% of the original. We calculate the energy after one cycle and find the percentage decrease.
+
+**Solution**
+
+Let the initial amplitude be $$A_0$$ and the initial energy be $$E_0 = \frac{1}{2}kA_{0}^2$$.
+
+After one cycle, the amplitude decreases by 3.0%, so:
 
    <div class="equation">
    $$A_1 = A_0(1 - 0.030) = 0.970 A_0$$
    </div>
 
-   The energy after one cycle is:
+The energy after one cycle is:
 
    <div class="equation">
    $$E_1 = \frac{1}{2}kA_{1}^2 = \frac{1}{2}k(0.970 A_0)^2 = \frac{1}{2}k(0.9409)A_0^2$$
@@ -318,29 +367,29 @@ the question.
    $$E_1 = 0.9409 E_0$$
    </div>
 
-   The energy lost is:
+The energy lost is:
 
    <div class="equation">
    $$\Delta E = E_0 - E_1 = E_0 - 0.9409 E_0 = 0.0591 E_0$$
    </div>
 
-   The percentage of energy lost is:
+The percentage of energy lost is:
 
    <div class="equation">
    $$\frac{\Delta E}{E_0} \times 100\% = 5.91\% \approx 5.9\%$$
    </div>
 
-   **Approximately 5.9% of the mechanical energy is lost in each cycle.**
+**Approximately 5.9% of the mechanical energy is lost in each cycle.**
 
-   **Discussion**
+**Discussion**
 
-   The energy loss (5.9%) is nearly twice the amplitude loss (3.0%) because energy is proportional to the square of amplitude. This quadratic relationship is fundamental to understanding damped oscillations.
+The energy loss (5.9%) is nearly twice the amplitude loss (3.0%) because energy is proportional to the square of amplitude. This quadratic relationship is fundamental to understanding damped oscillations.
 
-   For lightly damped systems, this energy is dissipated primarily as heat through friction, air resistance, and other non-conservative forces. Over many cycles, the oscillator will gradually come to rest as all its mechanical energy is converted to thermal energy.
+For lightly damped systems, this energy is dissipated primarily as heat through friction, air resistance, and other non-conservative forces. Over many cycles, the oscillator will gradually come to rest as all its mechanical energy is converted to thermal energy.
 
-   The fact that the energy decreases by about 6% per cycle means the oscillator loses roughly half its energy in about 12 cycles (since $$(0.94)^{12} \approx 0.47$$). This relatively slow decay is characteristic of light damping, which is why a plucked guitar string or a struck tuning fork can oscillate audibly for several seconds.
+The fact that the energy decreases by about 6% per cycle means the oscillator loses roughly half its energy in about 12 cycles (since $$(0.94)^{12} \approx 0.47$$). This relatively slow decay is characteristic of light damping, which is why a plucked guitar string or a struck tuning fork can oscillate audibly for several seconds.
 
-   In contrast, a heavily damped system (like a car's shock absorbers) is designed to dissipate energy much more quickly to prevent prolonged oscillations.
+In contrast, a heavily damped system (like a car's shock absorbers) is designed to dissipate energy much more quickly to prevent prolonged oscillations.
 
 :::
 
@@ -348,23 +397,24 @@ the question.
 
 ::: glossary
 
-   ### Glossary
-   {: class="glossary-title"}
+### Glossary
 
-   critical damping
-   : the condition in which the damping of an oscillator causes it to return as
-   quickly as possible to its equilibrium position without oscillating back and
-   forth about this position
+{: class="glossary-title"}
 
-   over damping
-   : the condition in which damping of an oscillator causes it to return to
-   equilibrium without oscillating; oscillator moves more slowly toward equilibrium
-   than in the critically damped system
+critical damping
+: the condition in which the damping of an oscillator causes it to return as
+quickly as possible to its equilibrium position without oscillating back and
+forth about this position
 
-   under damping
-   : the condition in which damping of an oscillator causes it to return to
-   equilibrium with the amplitude gradually decreasing to zero; system returns to
-   equilibrium faster but overshoots and crosses the equilibrium position one or
-   more times
+over damping
+: the condition in which damping of an oscillator causes it to return to
+equilibrium without oscillating; oscillator moves more slowly toward equilibrium
+than in the critically damped system
+
+under damping
+: the condition in which damping of an oscillator causes it to return to
+equilibrium with the amplitude gradually decreasing to zero; system returns to
+equilibrium faster but overshoots and crosses the equilibrium position one or
+more times
 
 :::

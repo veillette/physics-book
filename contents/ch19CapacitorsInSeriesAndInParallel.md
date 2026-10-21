@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 6
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* Derive expressions for total capacitance in series and in parallel.
-* Identify series and parallel parts in the combination of connection of capacitors.
-* Calculate the effective capacitance in series and parallel given individual capacitances.
+- Derive expressions for total capacitance in series and in parallel.
+- Identify series and parallel parts in the combination of connection of capacitors.
+- Calculate the effective capacitance in series and parallel given individual capacitances.
 
 :::
 
@@ -83,7 +84,7 @@ Total Capacitance in Series,
  $${C}_{\text{s}} $$
 </div>
 
-Total capacitance in series:  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}}+\text{...} $$
+Total capacitance in series: $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}}+\text{...} $$
 
 :::
 
@@ -93,7 +94,7 @@ Total capacitance in series:  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\fr
 What Is the Series Capacitance?
 </div>
 
-Find the total capacitance for three capacitors connected in series, given their individual capacitances are 1.000, 5.000, and 8.000  $$\text{µF} $$.
+Find the total capacitance for three capacitors connected in series, given their individual capacitances are 1.000, 5.000, and 8.000 $$\text{µF} $$.
 
 **Strategy**
 
@@ -108,8 +109,8 @@ Entering the given capacitances into the expression for $$\frac{1}{ {C}_{\text{S
 $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
 </div>
 
-Inverting to find  $${C}_{\text{S}} $$  yields 
- $${C}_{\text{S}}=\frac{\text{µF}}{ 1.325}=0.755 \text{µF} $$.
+Inverting to find $${C}_{\text{S}} $$ yields
+$${C}_{\text{S}}=\frac{\text{µF}}{ 1.325}=0.755 \text{µF} $$.
 
 **Discussion**
 
@@ -185,7 +186,7 @@ Total Capacitance in Parallel,
  $${C}_{\text{p}} $$
 </div>
 
-Total capacitance in parallel  $${C}_{\text{p}}={C}_{1}+{C}_{2}+{C}_{3}+\text{...} $$
+Total capacitance in parallel $${C}_{\text{p}}={C}_{1}+{C}_{2}+{C}_{3}+\text{...} $$
 
 :::
 
@@ -203,9 +204,9 @@ capacitances, and then find the total.
 A Mixture of Series and Parallel Capacitance
 </div>
 
-Find the total capacitance of the combination of capacitors shown in [[Figure 3]](#Figure3). Assume the capacitances in [[Figure 3]](#Figure3) are known to three decimal places (  $${C}_{1}=1.000 µF $$ ,
-  $${C}_{2}=5.000 µF $$ ,
- and  $${C}_{3}=8.000 µF $$ ), 
+Find the total capacitance of the combination of capacitors shown in [[Figure 3]](#Figure3). Assume the capacitances in [[Figure 3]](#Figure3) are known to three decimal places ( $${C}_{1}=1.000 µF $$ ,
+$${C}_{2}=5.000 µF $$ ,
+and $${C}_{3}=8.000 µF $$ ),
 and round your answer to three decimal places.
 
 **Strategy**
@@ -259,6 +260,22 @@ a total is obtained can be applied to larger combinations of capacitors.
 ::: problem
 
 If you wish to store a large amount of energy in a capacitor bank, would you connect capacitors in series or parallel? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Specify what is held fixed when comparing stored energy.
+
+**Solution**
+
+For capacitors charged to the same available supply voltage, $$U=\tfrac12 C_{\text{eq}}V^2$$, so parallel connection stores more energy because capacitances add. For two assumed $$100\,\mu\text{F}$$ capacitors on a $$10\text{ V}$$ source, the parallel bank stores $$U=\tfrac12(200\times10^{-6}\text{ F})(10\text{ V})^2=0.010\text{ J}$$. In series, $$C_{\text{eq}}=50\,\mu\text{F}$$ and $$U=0.0025\text{ J}$$.
+
+**Discussion**
+
+Series connection can be useful when a higher bank voltage rating is required; the choice is not independent of voltage constraints. At a fixed supply voltage within each capacitor’s rating, parallel connection stores more energy.
 
 :::
 
@@ -355,9 +372,9 @@ The smallest number needed is **500 capacitors**, and they must all be connected
 
 ::: problem
 
-What total capacitances can you make by connecting a  $$5.00 \text{µF} $$
- and an  $$8.00 \text{µF} $$
- capacitor together?
+What total capacitances can you make by connecting a $$5.00 \text{µF} $$
+and an $$8.00 \text{µF} $$
+capacitor together?
 
 :::
 
@@ -452,6 +469,7 @@ Find the total capacitance of the combination of capacitors shown in [[Figure 6]
 **Strategy**
 
 This complex circuit has three branches in parallel. We need to find the equivalent capacitance of each branch, then add them together:
+
 - Left branch: 5.0 μF and 3.5 μF in series
 - Middle branch: 8.0 μF alone
 - Right branch: (0.75 μF parallel with 15 μF) in series with 1.5 μF
@@ -527,11 +545,11 @@ $$C_2 = C_{\text{total}} - C_1 = 5.00 \text{ μF} - 8.00 \text{ μF} = -3.00 \te
 
 **(b)** A negative capacitance is physically impossible. Capacitance is defined as $$C = Q/V$$, and since charge and voltage have the same sign relationship (positive charge at higher potential), capacitance must always be positive. There is no physical device that stores negative charge per volt.
 
-**(c)** The assumption that the capacitors are connected in parallel is inconsistent with the given data. For a parallel connection, the total capacitance must always be *greater* than any individual capacitance:
+**(c)** The assumption that the capacitors are connected in parallel is inconsistent with the given data. For a parallel connection, the total capacitance must always be _greater_ than any individual capacitance:
 
 $$C_{\text{parallel}} = C_1 + C_2 > C_1 \text{ (always, since } C_2 > 0\text{)}$$
 
-Since 5.00 μF < 8.00 μF, a parallel connection is impossible. The capacitors must be connected in *series*. Let's verify:
+Since 5.00 μF < 8.00 μF, a parallel connection is impossible. The capacitors must be connected in _series_. Let's verify:
 
 $$\frac{1}{C_{\text{S}}} = \frac{1}{8.00 \text{ μF}} + \frac{1}{C_2}$$
 

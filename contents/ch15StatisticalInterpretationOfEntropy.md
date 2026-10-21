@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 7
 chapterNumber: 15
 ---
+
 ::: abstract
 
-* Identify probabilities in entropy.
-* Analyze statistical probabilities in entropic systems.
+- Identify probabilities in entropy.
+- Analyze statistical probabilities in entropic systems.
 
 :::
 
@@ -325,8 +326,8 @@ The change in entropy is
  $$\Delta S={S}_{\text{f}}-{S}_{\text{i}}=k_{B}\ln {W}_{\text{f}}-k_{B}\ln {W}_{\text{i},} $$
 </div>
 
-where the subscript i stands for the initial 60 heads and 40 tails state, and the subscript f for the final 50 heads and 50 tails state. Substituting the values for  $$W $$
- from [[Table 2]](#Table2) gives
+where the subscript i stands for the initial 60 heads and 40 tails state, and the subscript f for the final 50 heads and 50 tails state. Substituting the values for $$W $$
+from [[Table 2]](#Table2) gives
 
 <div class="equation" >
  $$\begin{array}{lll}\Delta S& =& \left( 1.38 \times 10^{-23} \text{J/K}\right)\left[ \ln \left( 1.0 \times 10^{29} \right)-\ln \left( 1.4 \times 10^{28} \right)\right]  \\ & =& 2.7 \times 10^{-23} \text{J/K}\end{array} $$
@@ -358,13 +359,13 @@ refreeze is impossible.
 Problem-Solving Strategies for Entropy
 </div>
 
-1.   *Examine the situation to determine if entropy is involved.*
-2.   *Identify the system of interest and draw a labeled diagram of the system showing energy flow.*
-3.   *Identify exactly what needs to be determined in the problem (identify the unknowns).* A written list is useful.
-4.   *Make a list of what is given or can be inferred from the problem as stated (identify the knowns).* You must carefully identify the heat transfer, if any, and the temperature at which the process takes place. It is also important to identify the initial and final states.
-5.   *Solve the appropriate equation for the quantity to be determined (the unknown).* Note that the change in entropy can be determined between any states by calculating it for a reversible process.
-6.   *Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units.*
-7.   *To see if it is reasonable: Does it make sense?* For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.
+1.  _Examine the situation to determine if entropy is involved._
+2.  _Identify the system of interest and draw a labeled diagram of the system showing energy flow._
+3.  _Identify exactly what needs to be determined in the problem (identify the unknowns)._ A written list is useful.
+4.  _Make a list of what is given or can be inferred from the problem as stated (identify the knowns)._ You must carefully identify the heat transfer, if any, and the temperature at which the process takes place. It is also important to identify the initial and final states.
+5.  _Solve the appropriate equation for the quantity to be determined (the unknown)._ Note that the change in entropy can be determined between any states by calculating it for a reversible process.
+6.  _Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units._
+7.  _To see if it is reasonable: Does it make sense?_ For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.
 
 :::
 
@@ -376,10 +377,10 @@ Problem-Solving Strategies for Entropy
    $$S=k_{B} \ln W, $$
   </div>
 
-     where
-   $$k_{B} =1.38 \times 10^{-23} \text{J/K} $$ is Boltzmann’s constant, and
-   $$\ln W $$ is the natural logarithm of the number of microstates
-   $$W $$ corresponding to the given macrostate.
+  where
+  $$k_{B} =1.38 \times 10^{-23} \text{J/K} $$ is Boltzmann’s constant, and
+  $$\ln W $$ is the natural logarithm of the number of microstates
+  $$W $$ corresponding to the given macrostate.
 
 ### Conceptual Questions
 
@@ -391,6 +392,22 @@ Explain why a building made of bricks has smaller entropy than the same bricks i
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply Boltzmann’s relation to the configurations allowed by each macrostate.
+
+**Solution**
+
+The specified building constrains the bricks to particular positions and orientations; a disorganized pile permits far more possible arrangements. Thus $$\Omega_{\text{pile}}>\Omega_{\text{building}}$$ and $$S_{\text{pile}}-S_{\text{building}}=k_B\ln(\Omega_{\text{pile}}/\Omega_{\text{building}})>0$$ for this configurational comparison.
+
+**Discussion**
+
+This is a comparison of coarse-grained configurational entropy, not a complete calculation of the bricks’ thermal entropy. The building has smaller configurational entropy because fewer microstates satisfy its structural constraints than satisfy the description of a disorganized pile.
+
+:::
+
 </div>
 
 ### Problem Exercises
@@ -399,16 +416,16 @@ Explain why a building made of bricks has smaller entropy than the same bricks i
 
 ::: problem
 
-Using [[Table 2]](#Table2), verify the contention that if you toss 100 coins each second, you can expect to get 100 heads or 100 tails once in  $$2 \times 10^{22} $$
- years; calculate the time to two-digit accuracy.
+Using [[Table 2]](#Table2), verify the contention that if you toss 100 coins each second, you can expect to get 100 heads or 100 tails once in $$2 \times 10^{22} $$
+years; calculate the time to two-digit accuracy.
 
 :::
 
 ::: solution
 
-It should happen twice in every  $$ 1.27 \times 10^{30}  \text{s} $$
- or once in every  $$ 6.35 \times 10^{29}  \text{s} $$
-  $$\begin{array}{ll}\left( 6.35 \times 10^{29}  \text{s}\right)\left(\frac{1 \text{h}}{3600 \text{s}}\right)& \left(\frac{1 \text{d}}{24 \text{h}}\right)\left(\frac{1 \text{y}}{365.25 \text{d}}\right)\\ =&  2.0 \times 10^{22}  \text{y}\end{array} $$
+It should happen twice in every $$ 1.27 \times 10^{30}  \text{s} $$
+or once in every $$ 6.35 \times 10^{29}  \text{s} $$
+$$\begin{array}{ll}\left( 6.35 \times 10^{29}  \text{s}\right)\left(\frac{1 \text{h}}{3600 \text{s}}\right)& \left(\frac{1 \text{d}}{24 \text{h}}\right)\left(\frac{1 \text{y}}{365.25 \text{d}}\right)\\ =&  2.0 \times 10^{22}  \text{y}\end{array} $$
 
 :::
 
@@ -418,8 +435,8 @@ It should happen twice in every  $$ 1.27 \times 10^{30}  \text{s} $$
 
 ::: problem
 
-What percent of the time will you get something in the range from 60 heads and 40 tails through 40 heads and 60 tails when tossing 100 coins? The total number of microstates in that range is  $$ 1.22 \times 10^{30}  $$ .
- (Consult [[Table 2]](#Table2).)
+What percent of the time will you get something in the range from 60 heads and 40 tails through 40 heads and 60 tails when tossing 100 coins? The total number of microstates in that range is $$ 1.22 \times 10^{30}  $$ .
+(Consult [[Table 2]](#Table2).)
 
 :::
 
@@ -432,6 +449,7 @@ The probability of getting a result in the specified range equals the ratio of m
 **Solution**
 
 Given values:
+
 - Microstates in range (40H/60T through 60H/40T): $$ W_{\text{range}} = 1.22 \times 10^{30} $$
 - Total microstates for 100 coins: $$ W_{\text{total}} = 1.27 \times 10^{30} $$
 
@@ -473,7 +491,7 @@ This remarkably high percentage (96.1%) demonstrates that the vast majority of o
 
 ::: solution
 
-(a)  $$ 3.0 \times 10^{29}  $$
+(a) $$ 3.0 \times 10^{29}  $$
 (b) 24%
 
 :::
@@ -497,6 +515,7 @@ We use Boltzmann's entropy formula $$ S = k_B \ln W $$ to calculate entropy chan
 **Solution**
 
 From Table 2:
+
 - Initial state (45 H, 55 T): $$ W_i = 6.1 \times 10^{28} $$
 - Final state (51 H, 49 T): $$ W_{f1} = 9.9 \times 10^{28} $$
 - Alternative final state (75 H, 25 T): $$ W_{f2} = 2.4 \times 10^{23} $$
@@ -569,7 +588,7 @@ This problem beautifully illustrates the statistical nature of entropy. The 51H/
 
 ::: solution
 
-(a)  $$ -2.38 \times 10^{-23} \text{J/K} $$
+(a) $$ -2.38 \times 10^{-23} \text{J/K} $$
 (b) 5.6 times more likely
 
 (c) No. There are 45 outcomes with two heads and eight tails among 1024 equally likely outcomes. The other 979 outcomes lose the bet, so fair odds against this result are 979 to 45. The ratio 252 to 45 compares only the five-head and two-head macrostates. A payout at odds of 252 to 45 gives a negative expected return.
@@ -652,6 +671,7 @@ For part (a), we use Table 3 to find the number of microstates for each of the t
 **Solution**
 
 **(a)** From Table 3:
+
 - 6 heads, 4 tails: $$ W_1 = 210 $$ microstates
 - 5 heads, 5 tails: $$ W_2 = 252 $$ microstates
 - 4 heads, 6 tails: $$ W_3 = 210 $$ microstates
@@ -673,6 +693,7 @@ Converting to percentage:
 **You will get one of the three most likely macrostates 65.6% of the time.**
 
 **(b)** The probability of getting either 10 heads or 10 tails:
+
 - 10 heads, 0 tails: 1 microstate
 - 0 heads, 10 tails: 1 microstate
 - Total: 2 microstates out of 1024
@@ -721,16 +742,16 @@ Part (a) shows that nearly two-thirds of all tosses produce one of the three mos
 
 (a) Each microstate is an ordered list of the six results (first coin, second coin, …). The macrostate is the number of heads; its number of microstates is the number of ways to choose which coins show heads, $$ W = \binom{6}{n_H} $$.
 
-| Heads | Tails | Microstates | Number of microstates (*W*) |
-| ---: | ---: | --- | ---: |
-| 6 | 0 | HHHHHH | 1 |
-| 5 | 1 | HHHHHT, HHHHTH, HHHTHH, HHTHHH, HTHHHH, THHHHH | 6 |
-| 4 | 2 | HHHHTT, HHHTHT, HHHTTH, HHTHHT, HHTHTH, HHTTHH, HTHHHT, HTHHTH, HTHTHH, HTTHHH, THHHHT, THHHTH, THHTHH, THTHHH, TTHHHH | 15 |
-| 3 | 3 | HHHTTT, HHTHTT, HHTTHT, HHTTTH, HTHHTT, HTHTHT, HTHTTH, HTTHHT, HTTHTH, HTTTHH, THHHTT, THHTHT, THHTTH, THTHHT, THTHTH, THTTHH, TTHHHT, TTHHTH, TTHTHH, TTTHHH | 20 |
-| 2 | 4 | HHTTTT, HTHTTT, HTTHTT, HTTTHT, HTTTTH, THHTTT, THTHTT, THTTHT, THTTTH, TTHHTT, TTHTHT, TTHTTH, TTTHHT, TTTHTH, TTTTHH | 15 |
-| 1 | 5 | HTTTTT, THTTTT, TTHTTT, TTTHTT, TTTTHT, TTTTTH | 6 |
-| 0 | 6 | TTTTTT | 1 |
-|  |  | **Total** | **64** |
+| Heads | Tails | Microstates                                                                                                                                                    | Number of microstates (_W_) |
+| ----: | ----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------: |
+|     6 |     0 | HHHHHH                                                                                                                                                         |                           1 |
+|     5 |     1 | HHHHHT, HHHHTH, HHHTHH, HHTHHH, HTHHHH, THHHHH                                                                                                                 |                           6 |
+|     4 |     2 | HHHHTT, HHHTHT, HHHTTH, HHTHHT, HHTHTH, HHTTHH, HTHHHT, HTHHTH, HTHTHH, HTTHHH, THHHHT, THHHTH, THHTHH, THTHHH, TTHHHH                                         |                          15 |
+|     3 |     3 | HHHTTT, HHTHTT, HHTTHT, HHTTTH, HTHHTT, HTHTHT, HTHTTH, HTTHHT, HTTHTH, HTTTHH, THHHTT, THHTHT, THHTTH, THTHHT, THTHTH, THTTHH, TTHHHT, TTHHTH, TTHTHH, TTTHHH |                          20 |
+|     2 |     4 | HHTTTT, HTHTTT, HTTHTT, HTTTHT, HTTTTH, THHTTT, THTHTT, THTTHT, THTTTH, TTHHTT, TTHTHT, TTHTTH, TTTHHT, TTTHTH, TTTTHH                                         |                          15 |
+|     1 |     5 | HTTTTT, THTTTT, TTHTTT, TTTHTT, TTTTHT, TTTTTH                                                                                                                 |                           6 |
+|     0 |     6 | TTTTTT                                                                                                                                                         |                           1 |
+|       |       | **Total**                                                                                                                                                      |                      **64** |
 
 (b) 7
 
@@ -778,6 +799,7 @@ A refrigerator can remove more heat than the work it consumes: $$\mathrm{COP}=Q_
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 macrostate

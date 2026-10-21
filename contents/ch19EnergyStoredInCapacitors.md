@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 7
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* List some uses of capacitors.
-* Express in equation form the energy stored in a capacitor.
-* Explain the function of a defibrillator.
+- List some uses of capacitors.
+- Express in equation form the energy stored in a capacitor.
+- Explain the function of a defibrillator.
 
 :::
 
@@ -34,20 +35,20 @@ stored in a capacitor, $${E}_{\text{cap}} $$, is
  $${E}_{\text{cap}}=\frac{QV}{2}, $$
 </div>
 
-where  $$Q $$  is the charge on a capacitor with a voltage  $$V $$
- applied. (Note that the energy is not  $$QV $$ ,
- but  $$QV/2 $$ .)
- Charge and voltage are related to the capacitance  $$C $$
- of a capacitor by  $$Q=CV $$ ,
- and so the expression for  $${E}_{\text{cap}} $$
- can be algebraically manipulated into three equivalent expressions:
+where $$Q $$ is the charge on a capacitor with a voltage $$V $$
+applied. (Note that the energy is not $$QV $$ ,
+but $$QV/2 $$ .)
+Charge and voltage are related to the capacitance $$C $$
+of a capacitor by $$Q=CV $$ ,
+and so the expression for $${E}_{\text{cap}} $$
+can be algebraically manipulated into three equivalent expressions:
 
 <div class="equation" >
  $${E}_{\text{cap}}=\frac{QV}{2}=\frac{ C V^{2}}{2}=\frac{ {Q}^{2}}{2C}, $$
 </div>
 
-where  $$Q $$  is the charge and  $$V $$  the voltage on a capacitor  $$C $$ .
- The energy is in joules for a charge in coulombs, voltage in volts, and capacitance in farads.
+where $$Q $$ is the charge and $$V $$ the voltage on a capacitor $$C $$ .
+The energy is in joules for a charge in coulombs, voltage in volts, and capacitance in farads.
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
@@ -61,8 +62,8 @@ The energy stored in a capacitor can be expressed in three ways:
  $${E}_{\text{cap}}=\frac{QV}{2}=\frac{ C V^{2}}{2}=\frac{ {Q}^{2}}{2C}, $$
 </div>
 
-where  $$Q $$  is the charge,  $$V $$  is the voltage, and  $$C $$
- is the capacitance of the capacitor. The energy is in joules for a charge in coulombs, voltage in volts, and capacitance in farads.
+where $$Q $$ is the charge, $$V $$ is the voltage, and $$C $$
+is the capacitance of the capacitor. The energy is in joules for a charge in coulombs, voltage in volts, and capacitance in farads.
 
 :::
 
@@ -77,9 +78,9 @@ In a defibrillator, the delivery of a large charge in a short burst to a set of 
 Capacitance in a Heart Defibrillator
 </div>
 
-A heart defibrillator delivers  $$ 4.00 \times 10^{2}  \text{J} $$
- of energy by discharging a capacitor initially at  $$ 1.00 \times 10^{4}  \text{V} $$ .
- What is its capacitance?
+A heart defibrillator delivers $$ 4.00 \times 10^{2}  \text{J} $$
+of energy by discharging a capacitor initially at $$ 1.00 \times 10^{4}  \text{V} $$ .
+What is its capacitance?
 
 **Strategy**
 
@@ -114,9 +115,9 @@ This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4} \te
    $${E}_{\text{cap}}=\frac{QV}{2}=\frac{ C V^{2}}{2}=\frac{ {Q}^{2}}{2C}, $$
   </div>
 
-     where    $$Q $$ is the charge,
-   $$V $$ is the voltage, and
-   $$C $$ is the capacitance of the capacitor. The energy is in joules when the charge is in coulombs, voltage is in volts, and capacitance is in farads.
+  where $$Q $$ is the charge,
+  $$V $$ is the voltage, and
+  $$C $$ is the capacitance of the capacitor. The energy is in joules when the charge is in coulombs, voltage is in volts, and capacitance is in farads.
 
 ### Conceptual Questions
 
@@ -125,6 +126,22 @@ This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4} \te
 ::: problem
 
 How does the energy contained in a charged capacitor change when a dielectric is inserted, assuming the capacitor is isolated and its charge is constant? Does this imply that work was done?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Hold charge fixed and increase capacitance by the dielectric constant.
+
+**Solution**
+
+If a dielectric of relative permittivity $$\kappa$$ fully fills the capacitor, $$C_f=\kappa C_i$$. Since $$Q$$ stays fixed, $$U_f=Q^2/(2C_f)=U_i/\kappa$$. For assumed $$\kappa=4$$ and $$U_i=8.0\text{ mJ}$$, the final energy is $$U_f=(8.0\text{ mJ})/4=2.0\text{ mJ}$$, a decrease of $$6.0\text{ mJ}$$.
+
+**Discussion**
+
+The field pulls the dielectric in; its lost stored energy can become mechanical work, kinetic energy, or dissipated heat. For slow controlled insertion, the field does positive work and the restraining agent does negative work. The isolated capacitor’s energy decreases, demonstrating energy transfer during insertion.
 
 :::
 
@@ -138,6 +155,22 @@ What happens to the energy stored in a capacitor connected to a battery when a d
 
 :::
 
+::: solution
+
+**Strategy**
+
+Keep voltage fixed and include energy exchanged with the battery.
+
+**Solution**
+
+Full insertion gives $$C_f=\kappa C_i$$, so $$U_f=\tfrac12 C_fV^2=\kappa U_i$$. The battery supplies additional charge $$\Delta Q=(C_f-C_i)V$$ and energy $$W_{\text{battery}}=V\Delta Q=(C_f-C_i)V^2=2\Delta U$$. In a slow, lossless insertion, half this battery energy raises the capacitor’s stored energy and half becomes mechanical work done by the field pulling the dielectric inward.
+
+**Discussion**
+
+For example, if $$\kappa=4$$ and $$U_i=2.0\text{ mJ}$$, the stored energy rises to $$8.0\text{ mJ}$$; the battery supplies $$12\text{ mJ}$$ and the field does $$6.0\text{ mJ}$$ of mechanical work. The connected capacitor’s energy increases, and work is done by both the battery and the electric field during insertion.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -146,9 +179,9 @@ What happens to the energy stored in a capacitor connected to a battery when a d
 
 ::: problem
 
-(a) What is the energy stored in the  $$10.0 \text{μF} $$
- capacitor of a heart defibrillator charged to  $$ 9.00 \times 10^{3}  \text{V} $$ ?
- (b) Find the amount of stored charge.
+(a) What is the energy stored in the $$10.0 \text{μF} $$
+capacitor of a heart defibrillator charged to $$ 9.00 \times 10^{3}  \text{V} $$ ?
+(b) Find the amount of stored charge.
 
 :::
 
@@ -194,8 +227,8 @@ The 405 J of stored energy is typical for a defibrillator and represents the ene
 
 ::: problem
 
-In open-heart surgery, a much smaller amount of energy will defibrillate the heart. (a) What voltage is applied to the  $$8.00 \text{μF} $$
- capacitor of a heart defibrillator that stores 40.0 J of energy? (b) Find the amount of stored charge.
+In open-heart surgery, a much smaller amount of energy will defibrillate the heart. (a) What voltage is applied to the $$8.00 \text{μF} $$
+capacitor of a heart defibrillator that stores 40.0 J of energy? (b) Find the amount of stored charge.
 
 :::
 
@@ -243,8 +276,8 @@ During open-heart surgery, the defibrillator paddles are applied directly to the
 
 ::: problem
 
-A  $$165 \text{µF} $$
- capacitor is used in conjunction with a motor. How much energy is stored in it when 119 V is applied?
+A $$165 \text{µF} $$
+capacitor is used in conjunction with a motor. How much energy is stored in it when 119 V is applied?
 
 :::
 
@@ -280,9 +313,9 @@ The energy stored in the 165 μF capacitor at 119 V is **1.17 J**.
 
 ::: problem
 
-Suppose you have a 9.00 V battery, a  $$2.00 \text{μF} $$
- capacitor, and a  $$7.40 \text{μF} $$
- capacitor. (a) Find the charge and energy stored if the capacitors are connected to the battery in series. (b) Do the same for a parallel connection.
+Suppose you have a 9.00 V battery, a $$2.00 \text{μF} $$
+capacitor, and a $$7.40 \text{μF} $$
+capacitor. (a) Find the charge and energy stored if the capacitors are connected to the battery in series. (b) Do the same for a parallel connection.
 
 :::
 
@@ -342,8 +375,8 @@ The parallel connection stores about 6 times more charge and energy than the ser
 
 ::: problem
 
-A nervous physicist worries that the two metal shelves of his wood frame bookcase might obtain a high voltage if charged by static electricity, perhaps produced by friction. (a) What is the capacitance of the empty shelves if they have area  $$ 1.00 \times 10^{-1}  {\text{m}}^{2} $$
- and are 0.200 m apart? (b) What is the voltage between them if opposite charges of magnitude 2.00 nC are placed on them? (c) To show that this voltage poses a small hazard, calculate the energy stored.
+A nervous physicist worries that the two metal shelves of his wood frame bookcase might obtain a high voltage if charged by static electricity, perhaps produced by friction. (a) What is the capacitance of the empty shelves if they have area $$ 1.00 \times 10^{-1}  {\text{m}}^{2} $$
+and are 0.200 m apart? (b) What is the voltage between them if opposite charges of magnitude 2.00 nC are placed on them? (c) To show that this voltage poses a small hazard, calculate the energy stored.
 
 :::
 
@@ -538,6 +571,7 @@ $$C=\frac{2E}{V^2}=\frac{2(9.60\times10^3\ \text{J})}{(12.0\ \text{V})^2}=133\ \
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 defibrillator

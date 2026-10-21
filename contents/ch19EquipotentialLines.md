@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 4
 chapterNumber: 19
 ---
+
 ::: abstract
 
-* Explain equipotential lines and equipotential surfaces.
-* Describe the action of grounding an electrical appliance.
-* Compare electric field and equipotential lines.
+- Explain equipotential lines and equipotential surfaces.
+- Describe the action of grounding an electrical appliance.
+- Compare electric field and equipotential lines.
 
 :::
 
@@ -147,6 +148,22 @@ What is an equipotential line? What is an equipotential surface?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Define sets of points sharing a potential value.
+
+**Solution**
+
+An equipotential line is a curve along which electric potential is constant; an equipotential surface is a two-dimensional surface on which potential is constant. Moving a fixed charge between two points on either gives $$\Delta U=q\Delta V=0$$. For a single point charge, spherical surfaces centered on the charge are equipotentials, and their intersections with a plane through the charge are circles.
+
+**Discussion**
+
+An equipotential line or surface thus connects points with the same electric potential, so the electric field does no work along it.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -154,6 +171,22 @@ What is an equipotential line? What is an equipotential surface?
 ::: problem
 
 Explain in your own words why equipotential lines and surfaces must be perpendicular to electric field lines.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Test whether the field could have any component tangent to an equipotential.
+
+**Solution**
+
+For a small tangential displacement, $$dV=-\vec E\cdot d\vec r=0$$. If the field had a tangential component, this dot product would be nonzero for some displacement along the equipotential, contradicting its constant potential. The nonzero field must therefore be normal to the equipotential.
+
+**Discussion**
+
+At a zero-field point the field has no direction, so the perpendicularity statement applies where the field is nonzero. Equipotentials are perpendicular to field lines because there can be no electric force component doing work along an equipotential.
 
 :::
 
@@ -167,6 +200,22 @@ Can different equipotential lines cross? Explain.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Ask whether one point can have two different potentials.
+
+**Solution**
+
+Equipotential lines representing different potential values cannot cross: their intersection would assign two potentials to the same point. Curves representing the same value are parts of the same level set; such a set can meet itself at a critical point where $$\vec E=0$$, as in a saddle-point contour.
+
+**Discussion**
+
+Thus different-valued equipotentials never cross, although branches of a single equipotential can meet at a zero-field point.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -175,7 +224,7 @@ Can different equipotential lines cross? Explain.
 
 ::: problem
 
-(a) Sketch the equipotential lines near a point charge   $$+q $$ . Indicate the direction of increasing potential. (b) Do the same for a point charge  $$-3 \text{q} $$.
+(a) Sketch the equipotential lines near a point charge $$+q $$ . Indicate the direction of increasing potential. (b) Do the same for a point charge $$-3 \text{q} $$.
 
 :::
 
@@ -190,6 +239,7 @@ Equipotential lines for a point charge are concentric circles (spheres in 3D) ce
 **(a) For charge +q:**
 
 The equipotential lines are concentric circles centered on the positive charge. Since $$V = kq/r$$:
+
 - The potential is positive everywhere
 - Potential **increases** as you move **toward** the charge (smaller $$r$$)
 - The innermost circles have the highest potential
@@ -198,6 +248,7 @@ The equipotential lines are concentric circles centered on the positive charge. 
 **(b) For charge -3q:**
 
 The equipotential lines are also concentric circles, but:
+
 - The potential is negative everywhere (since $$Q < 0$$)
 - The magnitude of potential increases as you move toward the charge
 - Potential **increases** (becomes less negative) as you move **away** from the charge
@@ -239,7 +290,7 @@ The equipotential lines must be perpendicular to the electric field lines at eve
 
 1. **Near each charge:** The equipotential lines are nearly circular, centered on each charge individually.
 
-2. **In the region between the charges:** Let the charges be a distance $$2a$$ apart. At the midpoint, the fields cancel and the potential is $$V_0 = 2kq/a$$. The midpoint is a **saddle point** of the potential. Along the line joining the charges, $$V$$ is lowest at the midpoint and rises toward each charge. Along the perpendicular bisector, $$V$$ is *highest* at the midpoint and falls off as $$V(0, y) = 2kq/\sqrt{a^2 + y^2}$$. The perpendicular bisector is therefore **not** an equipotential. The equipotentials are:
+2. **In the region between the charges:** Let the charges be a distance $$2a$$ apart. At the midpoint, the fields cancel and the potential is $$V_0 = 2kq/a$$. The midpoint is a **saddle point** of the potential. Along the line joining the charges, $$V$$ is lowest at the midpoint and rises toward each charge. Along the perpendicular bisector, $$V$$ is _highest_ at the midpoint and falls off as $$V(0, y) = 2kq/\sqrt{a^2 + y^2}$$. The perpendicular bisector is therefore **not** an equipotential. The equipotentials are:
    - $$V > V_0$$: two separate closed loops, one around each charge;
    - $$V = V_0$$: a single figure-eight curve whose two lobes enclose the two charges and cross each other at the midpoint;
    - $$V < V_0$$: single closed curves enclosing both charges. Just below $$V_0$$ they are pinched at the waist (peanut-shaped); at lower potentials they become ovals and then circles.
@@ -264,9 +315,9 @@ The equipotential lines form closed curves that must either encircle one charge 
 
 ::: problem
 
-[[Figure 6]](#Figure6) shows the electric field lines near two charges  $${q}_{1} $$
- and  $${q}_{2} $$ ,
- the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential.
+[[Figure 6]](#Figure6) shows the electric field lines near two charges $${q}_{1} $$
+and $${q}_{2} $$ ,
+the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential.
 
 :::
 
@@ -286,7 +337,7 @@ From the figure, $$q_1$$ is negative (field lines point toward it) and $$q_2$$ i
 
 2. **Near $$q_2$$ (positive, smaller):** Equipotential lines are nearly circular but more widely spaced. Potential is positive but smaller in magnitude.
 
-3. **Between the charges:** No equipotential connects the two charges, because the potential goes to $$-\infty$$ at $$q_1$$ and to $$+\infty$$ at $$q_2$$, so no single finite value can reach both. (It is the *field lines* that run from one charge to the other.) The $$V = 0$$ equipotential is the set of points where $$k|q_1|/r_1 = kq_2/r_2$$, that is, $$r_1 = 4r_2$$. This is a **circle around the smaller positive charge** (a sphere in three dimensions). If the charges are a distance $$d$$ apart, the circle crosses the line joining them at $$d/5$$ from $$q_2$$ on the side toward $$q_1$$, and at $$d/3$$ from $$q_2$$ on the far side. Its radius is $$4d/15$$. Inside this circle the equipotentials are positive closed loops around $$q_2$$. Outside it they are negative: small loops around $$q_1$$ close to it, and, farther out, closed curves that enclose both charges and the zero circle.
+3. **Between the charges:** No equipotential connects the two charges, because the potential goes to $$-\infty$$ at $$q_1$$ and to $$+\infty$$ at $$q_2$$, so no single finite value can reach both. (It is the _field lines_ that run from one charge to the other.) The $$V = 0$$ equipotential is the set of points where $$k|q_1|/r_1 = kq_2/r_2$$, that is, $$r_1 = 4r_2$$. This is a **circle around the smaller positive charge** (a sphere in three dimensions). If the charges are a distance $$d$$ apart, the circle crosses the line joining them at $$d/5$$ from $$q_2$$ on the side toward $$q_1$$, and at $$d/3$$ from $$q_2$$ on the far side. Its radius is $$4d/15$$. Inside this circle the equipotentials are positive closed loops around $$q_2$$. Outside it they are negative: small loops around $$q_1$$ close to it, and, farther out, closed curves that enclose both charges and the zero circle.
 
 4. **Direction of increasing potential:** Arrows point **away from $$q_1$$** (the negative charge) and **toward $$q_2$$** (the positive charge).
 
@@ -315,7 +366,7 @@ Sketch the equipotential lines a long distance from the charges shown in [[Figur
 
 **Strategy**
 
-At large distances from any charge configuration, the system appears as a single point charge with net charge $$Q_{\text{net}} = q_1 + q_2$$. The equipotential lines become spherical surfaces (circles in 2D) centered on the charge system. We use the far-field approximation $$V \approx kQ_{\text{net}}/r$$, which produces circular equipotentials. Because $$V$$ depends on $$1/r$$, equipotentials drawn at equal voltage intervals are *not* evenly spaced in radius.
+At large distances from any charge configuration, the system appears as a single point charge with net charge $$Q_{\text{net}} = q_1 + q_2$$. The equipotential lines become spherical surfaces (circles in 2D) centered on the charge system. We use the far-field approximation $$V \approx kQ_{\text{net}}/r$$, which produces circular equipotentials. Because $$V$$ depends on $$1/r$$, equipotentials drawn at equal voltage intervals are _not_ evenly spaced in radius.
 
 **Solution**
 
@@ -497,6 +548,7 @@ Unlike conductors, insulators can maintain non-uniform charge distributions. Fie
 **(a) Electric field lines:**
 
 The electric field lines radiate outward from the positive charges, with density proportional to charge density:
+
 - **Near the heavily charged end:** Many field lines radiate outward in all directions, closely spaced.
 - **Near the middle:** Fewer field lines, more widely spaced.
 - **Near the lightly charged end:** Very few field lines.
@@ -526,8 +578,8 @@ Unlike conductors, insulators can maintain non-uniform charge distributions. The
 
 ::: problem
 
-The naturally occurring charge on the ground on a fine day out in the open country is  $$-1.00 {\text{nC/m}}^{2} $$ .
- (a) What is the electric field relative to ground at a height of 3.00 m? (b) Calculate the electric potential at this height. (c) Sketch electric field and equipotential lines for this scenario.
+The naturally occurring charge on the ground on a fine day out in the open country is $$-1.00 {\text{nC/m}}^{2} $$ .
+(a) What is the electric field relative to ground at a height of 3.00 m? (b) Calculate the electric potential at this height. (c) Sketch electric field and equipotential lines for this scenario.
 
 :::
 
@@ -611,6 +663,7 @@ The ray acts like an electric dipole with positive charge on its head and negati
 **(b) Equipotentials near a conducting ship:**
 
 When the ray approaches a conducting surface:
+
 - The ship's conducting hull is an **equipotential**: in electrostatic equilibrium the whole surface is at one potential. Its value is a boundary condition, not something conductivity sets by itself. If the hull is effectively grounded through the surrounding seawater, we can take it as $$V = 0$$.
 - **Field lines** meet the conductor perpendicularly. The **equipotential lines** near the hull run parallel to its surface, hugging its shape, because the surface is itself one of them.
 - Charges induced on the hull (negative near the ray's head, positive near its tail) distort the dipole pattern: equipotentials between the ray and the hull are squeezed and flattened to follow the hull, and the field there is strengthened. The image-charge method models this by replacing the hull with a mirror-image dipole.
@@ -640,6 +693,7 @@ Electric rays and other electric fish have specialized electric organs made of m
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 equipotential line

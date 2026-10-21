@@ -4,12 +4,13 @@ layout: page
 sectionNumber: 2
 chapterNumber: 18
 ---
+
 ::: abstract
 
-* Define conductor and insulator, explain the difference, and give examples of each.
-* Describe three methods for charging an object.
-* Explain what happens to an electric force as you move farther from the source.
-* Define polarization.
+- Define conductor and insulator, explain the difference, and give examples of each.
+- Describe three methods for charging an object.
+- Explain what happens to an electric force as you move farther from the source.
+- Define polarization.
 
 :::
 
@@ -181,6 +182,22 @@ An eccentric inventor attempts to levitate by first placing a large negative cha
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply like-charge repulsion to the inventor and the clothing.
+
+**Solution**
+
+Electrons deposited on the inventor and his insulating clothes can leave both negatively charged. Like charges on the fabric repel one another, and the clothing is repelled by the charged body. Loose fabric has a small weight and can move appreciably before enough charge is accumulated to lift the much heavier inventor toward the ceiling.
+
+**Discussion**
+
+Charge can also escape by air discharge before levitation is achieved. His clothes fly outward because electrostatic repulsion acts on the negatively charged fabric.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -188,6 +205,22 @@ An eccentric inventor attempts to levitate by first placing a large negative cha
 ::: problem
 
 If you have charged an electroscope by contact with a positively charged object, describe how you could use it to determine the charge of other objects. Specifically, what would the leaves of the electroscope do if other charged objects were brought near its knob?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Follow redistribution of charge within the initially positive electroscope without allowing contact.
+
+**Solution**
+
+A nearby positive object attracts electrons toward the knob, leaving the leaves more positive, so their separation increases. A nearby negative object repels electrons toward the leaves, initially reducing their positive charge and making them approach one another. If a strong negative object is brought very close, the leaves can become negative and spread again.
+
+**Discussion**
+
+Use the initial change as the object approaches from far away: increased separation indicates positive charge, while an initial decrease indicates negative charge; spreading at one very close position alone is ambiguous.
 
 :::
 
@@ -201,6 +234,22 @@ When a glass rod is rubbed with silk, it becomes positive and the silk becomes n
 
 :::
 
+::: solution
+
+**Strategy**
+
+Allow the charge in neutral dust to redistribute or polarize.
+
+**Solution**
+
+A charged rod or silk polarizes a neutral dust grain. Opposite charge is displaced toward the nearby charged object and like charge away. Because the attractive charge is closer, its Coulomb attraction exceeds the repulsion of the farther charge. Reversing the source charge reverses the polarization but leaves the net force attractive.
+
+**Discussion**
+
+No third type of charge is needed: neutral, polarizable dust can be attracted by either a positive glass rod or negative silk.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -208,6 +257,22 @@ When a glass rod is rubbed with silk, it becomes positive and the silk becomes n
 ::: problem
 
 Why does a car always attract dust right after it is polished? (Note that car wax and car tires are insulators.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Combine charging by rubbing with the insulating character of wax and tires.
+
+**Solution**
+
+Polishing can transfer electrons between the cloth and the car surface. An insulating wax coating can retain localized charge, and insulating tires impede its discharge to the ground. The charged surface polarizes nearby dust particles and attracts their nearer, oppositely charged sides more strongly than it repels their farther sides.
+
+**Discussion**
+
+The effect diminishes as charge leaks away, particularly in damp conditions. A freshly polished car attracts dust because polishing can leave persistent surface charge that attracts polarizable dust.
 
 :::
 
@@ -221,6 +286,22 @@ Describe how a positively charged object can be used to give another object a ne
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use a ground connection to supply electrons while the positive object is nearby.
+
+**Solution**
+
+Bring the positively charged object near a neutral conductor without touching it. Electrons in the conductor move toward the object. Ground the conductor so that additional electrons can enter from Earth; disconnect the ground first, and then remove the positive object. The extra electrons remain and redistribute over the conductor.
+
+**Discussion**
+
+The order of disconnection matters: removing the inducing object while the ground remains attached lets the excess charge escape. This process is charging by induction, and it leaves the conductor negatively charged.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -228,6 +309,22 @@ Describe how a positively charged object can be used to give another object a ne
 ::: problem
 
 What is grounding? What effect does it have on a charged conductor? On a charged insulator?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish charge mobility within a conductor from charge trapped in an insulator.
+
+**Solution**
+
+Grounding connects an object electrically to Earth, a large reservoir that can supply or accept electrons with little change in its potential. Excess mobile charge on an isolated charged conductor can flow through this connection until the conductor reaches ground potential. In a charged insulator, charge far from the contact cannot readily move, so grounding one point need not discharge the entire object.
+
+**Discussion**
+
+External inducing charges may leave a grounded conductor with nonzero induced charge. Grounding ordinarily discharges a conductor in the absence of such sources, but it does not necessarily neutralize a charged insulator.
 
 :::
 
@@ -239,8 +336,8 @@ What is grounding? What effect does it have on a charged conductor? On a charged
 
 ::: problem
 
-Suppose a speck of dust in an electrostatic precipitator has  $$ 1.0000 \times 10^{12}  $$
- protons in it and has a net charge of –5.00 nC (a very large charge for a small speck). How many electrons does it have?
+Suppose a speck of dust in an electrostatic precipitator has $$ 1.0000 \times 10^{12}  $$
+protons in it and has a net charge of –5.00 nC (a very large charge for a small speck). How many electrons does it have?
 
 :::
 
@@ -292,8 +389,8 @@ This problem illustrates several fundamental principles of charge and atomic str
 
 ::: problem
 
-An amoeba has  $$1.00 \times 10^{16}  $$
- protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?
+An amoeba has $$1.00 \times 10^{16}  $$
+protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?
 
 :::
 
@@ -339,8 +436,8 @@ This problem demonstrates the extreme degree of electrical neutrality in biologi
 
 ::: problem
 
-A 50.0 g ball of copper has a net charge of  $$2.00 µ\text{C} $$ .
- What fraction of the copper's electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)
+A 50.0 g ball of copper has a net charge of $$2.00 µ\text{C} $$ .
+What fraction of the copper's electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)
 
 :::
 
@@ -402,8 +499,8 @@ This problem illustrates the vast number of electrons in macroscopic objects and
 
 ::: problem
 
-What net charge would you place on a 100 g piece of sulfur if you put an extra electron on 1 in  $$ 10^{12} $$
- of its atoms? (Sulfur has an atomic mass of 32.1.)
+What net charge would you place on a 100 g piece of sulfur if you put an extra electron on 1 in $$ 10^{12} $$
+of its atoms? (Sulfur has an atomic mass of 32.1.)
 
 :::
 
@@ -514,6 +611,7 @@ This problem reveals the staggering amount of charge contained in ordinary matte
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 free electron

@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 5
 chapterNumber: 20
 ---
+
 ::: abstract
 
-* Explain the differences and similarities between AC and DC current.
-* Calculate rms voltage, current, and average power.
-* Explain why AC current is used for power transmission.
+- Explain the differences and similarities between AC and DC current.
+- Calculate rms voltage, current, and average power.
+- Explain why AC current is used for power transmission.
 
 :::
 
@@ -71,7 +72,7 @@ in [[Figure 3]](#Figure3).
 Making Connections: Take-Home Experiment—AC/DC Lights
 </div>
 
-Wave your hand back and forth between your face and a fluorescent light bulb. Do you observe the same thing with the headlights on your car? Explain what you observe. *Warning: Do not look directly at very bright light*.
+Wave your hand back and forth between your face and a fluorescent light bulb. Do you observe the same thing with the headlights on your car? Explain what you observe. _Warning: Do not look directly at very bright light_.
 
 :::
 
@@ -117,7 +118,7 @@ which gives
 </div>
 
 as stated above. It is standard practice to quote $${I}_{\text{rms}} $$ , $${V}_{\text{rms}} $$ , and $${P}_{\text{ave}} $$ rather than the peak values. For
-example, most household electricity is 120 V AC, which means that $${V}_{\text{rms}} $$ ** is 120 V. The common 10-A circuit breaker will interrupt a sustained $${I}_{\text{rms}} $$ ** greater than 10 A. Your 1.0-kW microwave oven consumes $${P}_{\text{ave}}=1.0 \text{kW} $$ , and so on. You can think of these rms and average values as the 
+example, most household electricity is 120 V AC, which means that $${V}_{\text{rms}} $$ ** is 120 V. The common 10-A circuit breaker will interrupt a sustained $${I}_{\text{rms}} $$ ** greater than 10 A. Your 1.0-kW microwave oven consumes $${P}_{\text{ave}}=1.0 \text{kW} $$ , and so on. You can think of these rms and average values as the
 equivalent DC values for a simple resistive circuit.
 
 To summarize, when dealing with AC, Ohm’s law and the equations for power are
@@ -217,8 +218,8 @@ distribution systems.
 Power Losses Are Less for High-Voltage Transmission
 </div>
 
-(a) What current is needed to transmit 100 MW of power at 200 kV? (b) What is the power dissipated by the transmission lines if they have a resistance of  $$ 1.00 \Omega  $$ ?
- (c) What percentage of the power is lost in the transmission lines?
+(a) What current is needed to transmit 100 MW of power at 200 kV? (b) What is the power dissipated by the transmission lines if they have a resistance of $$ 1.00 \Omega  $$ ?
+(c) What percentage of the power is lost in the transmission lines?
 
 **Strategy**
 
@@ -308,7 +309,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 - Ohm’s law for AC is $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{R} $$ .
 
-- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{ 2}}{R} $$ , and $${P}_{\text{ave}}={I}_{\text{rms}}^{ 2}R $$ , analogous to 
+- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{ 2}}{R} $$ , and $${P}_{\text{ave}}={I}_{\text{rms}}^{ 2}R $$ , analogous to
   the expressions for DC circuits.
 
 ### Conceptual Questions
@@ -318,6 +319,22 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 ::: problem
 
 Give an example of a use of AC power other than in the household. Similarly, give an example of a use of DC power other than that supplied by batteries.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose examples based on current direction rather than the original energy source.
+
+**Solution**
+
+Alternating current powers industrial three-phase motors, such as pumps and machine tools. Direct current can come from a photovoltaic panel or a rectified AC supply, for example to power electronic equipment or electroplating. These are uses outside ordinary household AC and sources of DC other than batteries.
+
+**Discussion**
+
+Industrial motors illustrate AC use, while solar-powered electronics or rectifier-fed electroplating illustrate DC supplied without batteries.
 
 :::
 
@@ -331,13 +348,45 @@ Why do voltage, current, and power go through zero 120 times per second for 60-H
 
 :::
 
+::: solution
+
+**Strategy**
+
+Count zero crossings of a sinusoid and specify a resistive load.
+
+**Solution**
+
+A $$60\text{ Hz}$$ voltage completes sixty cycles per second and crosses zero twice per cycle, giving $$120\text{ zero crossings/s}$$. For a purely resistive load, $$I=V/R$$ is in phase with voltage and has the same zero crossings. Power is $$P=V^2/R$$, so it reaches zero at those same instants, twice each cycle, although it never becomes negative.
+
+**Discussion**
+
+For reactive loads, current and voltage need not cross zero together and instantaneous power has a different pattern. The stated 120 simultaneous zeros per second apply to sinusoidal voltage and current in a resistive load.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-You are riding in a train, gazing into the distance through its window. As close objects streak by, you notice that the nearby fluorescent lights make *dashed* streaks. Explain.
+You are riding in a train, gazing into the distance through its window. As close objects streak by, you notice that the nearby fluorescent lights make _dashed_ streaks. Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Combine periodic light output with the moving image on the retina.
+
+**Solution**
+
+A fluorescent lamp with a conventional mains-frequency ballast can brighten and dim twice during each AC cycle, producing roughly $$120$$ light pulses per second on a $$60\text{ Hz}$$ supply. Relative motion sweeps the lamp’s image across the retina, so bright intervals form dashes and dim intervals form gaps. For an assumed transverse relative speed of $$20\text{ m/s}$$, successive bright regions correspond to a travel distance $$\Delta x=(20\text{ m/s})/(120\text{ s}^{-1})=0.17\text{ m}$$.
+
+**Discussion**
+
+Phosphor persistence and modern high-frequency ballasts can weaken or eliminate the visible effect. The dashed streaks result from periodic lamp brightness being mapped into spatially separated bright images by motion.
 
 :::
 
@@ -349,8 +398,8 @@ You are riding in a train, gazing into the distance through its window. As close
 
 ::: problem
 
-(a) What is the hot resistance of a 25-W light bulb that runs on 120-V AC? (b) If the bulb's operating temperature is  $$2700 \text{ºC} $$ ,
- what is its resistance at  $$2600 \text{ºC} $$ ?
+(a) What is the hot resistance of a 25-W light bulb that runs on 120-V AC? (b) If the bulb's operating temperature is $$2700 \text{ºC} $$ ,
+what is its resistance at $$2600 \text{ºC} $$ ?
 
 :::
 
@@ -489,8 +538,8 @@ The razor consumes 100 W when connected to 240 V AC, which is four times its rat
 
 ::: problem
 
-In this problem, you will verify statements made at the end of the power losses for [[Example 2]](#Example2). (a) What current is needed to transmit 100 MW of power at a voltage of 25.0 kV? (b) Find the power loss in a  $$1.00 \text{-} \Omega  $$
- transmission line. (c) What percent loss does this represent?
+In this problem, you will verify statements made at the end of the power losses for [[Example 2]](#Example2). (a) What current is needed to transmit 100 MW of power at a voltage of 25.0 kV? (b) Find the power loss in a $$1.00 \text{-} \Omega  $$
+transmission line. (c) What percent loss does this represent?
 
 :::
 
@@ -510,7 +559,7 @@ In this problem, you will verify statements made at the end of the power losses 
 
 ::: problem
 
-A small office-building air conditioner operates on 408-V AC and consumes 50.0 kW. (a) What is its effective resistance? (b) What is the cost of running the air conditioner during a hot summer month when it is on 8.00 h per day for 30 days and electricity costs  $$9.00 \text{cents/kW}\cdot \text{h} $$ ?
+A small office-building air conditioner operates on 408-V AC and consumes 50.0 kW. (a) What is its effective resistance? (b) What is the cost of running the air conditioner during a hot summer month when it is on 8.00 h per day for 30 days and electricity costs $$9.00 \text{cents/kW}\cdot \text{h} $$ ?
 
 :::
 
@@ -630,9 +679,9 @@ Two different electrical devices have the same power consumption, but one is mea
 
 ::: problem
 
-Nichrome wire is used in some radiative heaters. (a) Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. (b) What length of Nichrome wire, having a cross-sectional area of  $$5.00{\text{mm}}^{2} $$ ,
- is needed if the operating temperature is  $$500 \text{ºC} $$ ?
- (c) What power will it draw when first switched on?
+Nichrome wire is used in some radiative heaters. (a) Find the resistance needed if the average power output is to be 1.00 kW utilizing 120-V AC. (b) What length of Nichrome wire, having a cross-sectional area of $$5.00{\text{mm}}^{2} $$ ,
+is needed if the operating temperature is $$500 \text{ºC} $$ ?
+(c) What power will it draw when first switched on?
 
 :::
 
@@ -692,10 +741,10 @@ The heater requires 60.5 m of Nichrome wire, which is typically wound into a com
 
 ::: problem
 
-Find the time after  $$t=0 $$
- when the instantaneous voltage of 60-Hz AC first reaches the following values: (a)  $${V}_{0}/2 $$
- (b)  $${V}_{0} $$
- (c) 0.
+Find the time after $$t=0 $$
+when the instantaneous voltage of 60-Hz AC first reaches the following values: (a) $${V}_{0}/2 $$
+(b) $${V}_{0} $$
+(c) 0.
 
 :::
 
@@ -715,9 +764,9 @@ Find the time after  $$t=0 $$
 
 ::: problem
 
-(a) At what two times in the first period following  $$t=0 $$
- does the instantaneous voltage in 60-Hz AC equal  $${V}_{\text{rms}} $$ ?
- (b) $$-{V}_{\text{rms}} $$ ?
+(a) At what two times in the first period following $$t=0 $$
+does the instantaneous voltage in 60-Hz AC equal $${V}_{\text{rms}} $$ ?
+(b) $$-{V}_{\text{rms}} $$ ?
 
 :::
 
@@ -790,6 +839,7 @@ These times divide the period into eight equal parts of 2.08 ms each. The rms vo
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 direct current

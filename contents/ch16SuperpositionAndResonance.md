@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 10
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Explain standing waves.
-* Describe the mathematical representation of overtones and beat frequency.
+- Explain standing waves.
+- Describe the mathematical representation of overtones and beat frequency.
 
 :::
 
@@ -196,10 +197,10 @@ frequency that gets louder and softer (or warbles) at the beat frequency.
 Making Career Connections
 </div>
 
-Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a  $$256 \text{Hz} $$
- frequency and two beats per second are heard, then the other frequency is either  $$254 $$
- or  $$258 \text{Hz} $$ .
- Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.
+Piano tuners use beats routinely in their work. When comparing a note with a tuning fork, they listen for beats and adjust the string until the beats go away (to zero frequency). For example, if the tuning fork has a $$256 \text{Hz} $$
+frequency and two beats per second are heard, then the other frequency is either $$254 $$
+or $$258 \text{Hz} $$ .
+Most keys hit multiple strings, and these strings are actually adjusted until they have nearly the same frequency and give a slow beat for richness. Twelve-string guitars and mandolins are also tuned using beats.
 
 :::
 
@@ -281,19 +282,19 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 
 ### Section Summary
 
-* Superposition is the combination of two waves at the same location.
-* Constructive interference occurs when two identical waves are superimposed in
+- Superposition is the combination of two waves at the same location.
+- Constructive interference occurs when two identical waves are superimposed in
   phase.
-* Destructive interference occurs when two identical waves are superimposed
+- Destructive interference occurs when two identical waves are superimposed
   exactly out of phase.
-* A standing wave is one in which two waves superimpose to produce a wave that
+- A standing wave is one in which two waves superimpose to produce a wave that
   varies in amplitude but does not propagate.
-* Nodes are points of no motion in standing waves.
-* An antinode is the location of maximum amplitude of a standing wave.
-* Waves on a string are resonant standing waves with a fundamental frequency and
+- Nodes are points of no motion in standing waves.
+- An antinode is the location of maximum amplitude of a standing wave.
+- Waves on a string are resonant standing waves with a fundamental frequency and
   can occur at higher multiples of the fundamental, called overtones or
   harmonics.
-* Beats occur when waves of similar frequencies $${f}_{1} $$ and $${f}_{2} $$
+- Beats occur when waves of similar frequencies $${f}_{1} $$ and $${f}_{2} $$
   are superimposed. The resulting amplitude oscillates with a beat frequency
   given by
 
@@ -308,6 +309,22 @@ Make waves with a dripping faucet, audio speaker, or laser! Add a second source 
 ::: problem
 
 Speakers in stereo systems have two color-coded terminals to indicate how to hook up the wires. If the wires are reversed, the speaker moves in a direction opposite that of a properly connected speaker. Explain why it is important to have both speakers connected the same way.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the relative phase of the two speaker diaphragms for the same electrical signal.
+
+**Solution**
+
+With consistent wiring, matching signals make the speakers move in the same direction and emit sound with the intended relative phase. Reversing one speaker reverses its pressure variation, adding a phase difference of $$180^\circ$$. Where the path lengths are similar, common signal components can then interfere destructively, weakening sound, particularly bass whose wavelength is large compared with listener-position differences.
+
+**Discussion**
+
+Room reflections and distinct stereo signals keep cancellation from being perfect everywhere. Both speakers should be connected with the same polarity to preserve the intended phase relationship and avoid unintended cancellation.
 
 :::
 
@@ -604,6 +621,7 @@ When three frequencies are present simultaneously, beats occur between each pair
 **Solution**
 
 The three frequencies are:
+
 - F: $${f}_{1}=349$$ Hz
 - F-sharp: $${f}_{2}=370$$ Hz
 - G: $${f}_{3}=392$$ Hz
@@ -645,6 +663,7 @@ Musicians and piano tuners can hear these beats clearly when tuning adjacent not
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 antinode

@@ -2,7 +2,7 @@
 
 Reviewed **2026-10-20**, against the working-tree content associated with HEAD `21bb448a`. **Updated 2026-10-20** to record the corrections made in commits `d701d26e`, `44b502cc`, and `1c9c5e3a`, and the second opinions of two further reviewers (Codex and Cursor) on the findings left open. The original findings are kept below, each with a status line.
 
-**Current status.** Of the 39 numbered findings, 34 have been fixed, 4 were declined after review (F08, F09, F13, F29), and 1 was withdrawn (F12). All rows of the smaller-corrections table have been fixed. The 14 requested sketches in 18.7 and 19.4, the worked example in 18.8 P17, and the three incomplete answers in A02 (14.3 P7, 15.7 P7, 18.4 P2) have been supplied. **Still open: 15 problems and 168 conceptual questions with no answer** (A01 and the section ledger), plus the field-line sketches in 18.5 P1–P4 and the diagram in 18.6 C1, which are among them.
+**Current status.** Of the 39 numbered findings, 34 have been fixed, 4 were declined after review (F08, F09, F13, F29), and 1 was withdrawn (F12). All rows of the smaller-corrections table have been fixed. The 14 requested sketches in 18.7 and 19.4, the worked example in 18.8 P17, and the three incomplete answers in A02 (14.3 P7, 15.7 P7, 18.4 P2) have been supplied. The 15 problems and 168 conceptual questions that had no answer (A01 and the section ledger), including the field-line sketches in 18.5 P1–P4 and the diagram in 18.6 C1, have since been answered; see `doc/ch11-20-missing-answers-report.md`.
 
 _Original summary:_ The answer set needs correction and completion. The review records **39 numbered findings**, plus smaller corrections below. There are **183 exercises with no supplied answer**: **15 numerical/sketch/constructed problems** and **168 conceptual questions**. Some supplied answers also omit requested subparts or diagrams.
 
@@ -394,7 +394,7 @@ The distance **1.80 km** is correct for the exterior point-charge model. The exp
 
 ### A01 — Fifteen problems have no solution block
 
-**Status:** still open. Recommended order (from the Codex and Cursor reviews): 18.4 P1, P3, P5 (short numerical answers); the 18.5 P1–P4 sketches (reuse `scripts/figures/fields18to19.js`); then the eight Construct Your Own Problem exercises with worked illustrative examples. Two unanswered conceptual questions need attention first: 18.7 C11 had contradictory charge signs (fixed in `1c9c5e3a`), and 18.6 C1 should state its thin-membrane approximation when answered.
+**Status:** answered (see `doc/ch11-20-missing-answers-report.md`). The notes below were the plan. Recommended order (from the Codex and Cursor reviews): 18.4 P1, P3, P5 (short numerical answers); the 18.5 P1–P4 sketches (reuse `scripts/figures/fields18to19.js`); then the eight Construct Your Own Problem exercises with worked illustrative examples. Two unanswered conceptual questions need attention first: 18.7 C11 had contradictory charge signs (fixed in `1c9c5e3a`), and 18.6 C1 should state its thin-membrane approximation when answered.
 
 These are missing answers, including open-ended problems for which a worked illustrative answer can be supplied. They are not included among the 39 numbered correctness/model findings above.
 

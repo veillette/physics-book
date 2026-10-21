@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 8
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Observe resonance of a paddle ball on a string.
-* Observe amplitude of a damped harmonic oscillator.
+- Observe resonance of a paddle ball on a string.
+- Observe amplitude of a damped harmonic oscillator.
 
 :::
 
@@ -134,6 +135,22 @@ Why are soldiers in general ordered to “route step” (walk out of step) acros
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare synchronized footfalls with periodic forcing near a natural frequency.
+
+**Solution**
+
+If soldiers march in step, many footfalls apply force with the same timing. A strong periodic driving component close to a bridge’s natural frequency can transfer energy coherently and build up vibration through resonance. Walking out of step spreads the timing of the loads and reduces the coherent periodic force.
+
+**Discussion**
+
+Damping and bridge design also control the response. Soldiers use route step to reduce synchronized forcing that could excite a dangerous bridge resonance.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -186,8 +203,8 @@ The shock absorbers must dissipate 384 J of energy to completely damp the bounce
 
 ::: problem
 
-If a car has a suspension system with a force constant of  $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
- how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
+If a car has a suspension system with a force constant of $$ 5.00 \times 10^{4}  \text{N/m} $$ ,
+how much energy must the car's shocks remove to dampen an oscillation starting with a maximum displacement of 0.0750 m?
 
 :::
 
@@ -268,6 +285,7 @@ For part (a), when the object hangs motionless, the spring force balances the we
 </div>
 
 Comparing energies:
+
 - Gravitational PE lost: 0.600 J
 - Elastic PE stored: 0.300 J
 - Energy unaccounted for: 0.300 J
@@ -294,9 +312,9 @@ In a real scenario where the mass is simply released, it would initially oversho
 
 ::: problem
 
-Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction  $${\mu }_{\text{s}}=0.100 $$ .
- (a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is  $${\mu }_{\text{k}}=0.0850 $$ ,
- what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
+Suppose you have a 0.750-kg object on a horizontal surface connected to a spring that has a force constant of 150 N/m. There is simple friction between the object and surface with a static coefficient of friction $${\mu }_{\text{s}}=0.100 $$ .
+(a) How far can the spring be stretched without moving the mass? (b) If the object is set into oscillation with an amplitude twice the distance found in part (a), and the kinetic coefficient of friction is $${\mu }_{\text{k}}=0.0850 $$ ,
+what total distance does it travel before stopping? Assume it starts at the maximum amplitude.
 
 :::
 
@@ -327,9 +345,9 @@ Some elastic energy remains in the spring. Assuming that all initial elastic ene
 
 ::: problem
 
-Engineering Application: A suspension bridge oscillates with an effective force constant of  $$ 1.00 \times 10^{8}  \text{N/m} $$ .
- (a) How much energy is needed to make it oscillate with an amplitude of 0.100 m? (b) If soldiers march across the bridge with a cadence equal to the bridge’s natural frequency and impart  $$ 1.00 \times 10^{4}  \text{J} $$
- of energy each second, how long does it take for the bridge’s oscillations to go from 0.100 m to 0.500 m amplitude?
+Engineering Application: A suspension bridge oscillates with an effective force constant of $$ 1.00 \times 10^{8}  \text{N/m} $$ .
+(a) How much energy is needed to make it oscillate with an amplitude of 0.100 m? (b) If soldiers march across the bridge with a cadence equal to the bridge’s natural frequency and impart $$ 1.00 \times 10^{4}  \text{J} $$
+of energy each second, how long does it take for the bridge’s oscillations to go from 0.100 m to 0.500 m amplitude?
 
 :::
 
@@ -390,6 +408,7 @@ Part (a) shows that even a 10 cm oscillation of a massive bridge requires 500,00
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 natural frequency

@@ -4,11 +4,12 @@ layout: page
 sectionNumber: 1
 chapterNumber: 16
 ---
+
 ::: abstract
 
-* Explain Newton’s third law of motion with respect to stress and deformation.
-* Describe the restoration of force and displacement.
-* Calculate the energy in Hook’s Law of deformation, and the stored energy in a string.
+- Explain Newton’s third law of motion with respect to stress and deformation.
+- Describe the restoration of force and displacement.
+- Calculate the energy in Hook’s Law of deformation, and the stored energy in a string.
 
 :::
 
@@ -65,7 +66,7 @@ Hooke’s law, and calculate their force constants if they do.
 How Stiff Are Car Springs?
 </div>
 
-![The figure shows the left side of a hatchback car&#x2019;s back area, showing the font of its rear wheel. There is an arrow on road pointing its head toward this wheel.](../resources/Figure_16_01_04.jpg "The mass of a car increases due to the introduction of a passenger. This affects the displacement of the car on its suspension system. (credit: exfordy on Flickr)")
+![The figure shows the left side of a hatchback car&#x2019;s back area, showing the font of its rear wheel. There is an arrow on road pointing its head toward this wheel.](../resources/Figure_16_01_04.jpg 'The mass of a car increases due to the introduction of a passenger. This affects the displacement of the car on its suspension system. (credit: exfordy on Flickr)')
 
 What is the force constant for the suspension system of a car that settles 1.20
 cm when an 80.0-kg person gets in?
@@ -131,7 +132,7 @@ for a system that can be described by Hooke’s law. Work done on the system is
 force multiplied by distance, which equals the area under the curve or $$\left( 1/2\right)kx^{2} $$ (Method A in the figure). Another way to determine the work
 is to note that the force increases linearly from 0 to $$kx $$ , so that the
 average force is $$\left(1/2\right) kx $$ , the distance moved is $$x $$ , and
-thus $$W={F}_{\text{app}}d=\left[ \left(1/2\right) k x \right] \left(x\right) =\left(1/2\right)kx^{2} $$ 
+thus $$W={F}_{\text{app}}d=\left[ \left(1/2\right) k x \right] \left(x\right) =\left(1/2\right)kx^{2} $$
 
 (Method B in the figure).
 
@@ -250,7 +251,7 @@ It was stored in the object as potential energy.
    $$F=-kx, $$
   </div>
 
-  where $$F $$ is the restoring force,  $$x $$ is the displacement from equilibrium or deformation, and  $$k $$ is the force constant of the system.
+  where $$F $$ is the restoring force, $$x $$ is the displacement from equilibrium or deformation, and $$k $$ is the force constant of the system.
 
 - Elastic potential energy $${\text{PE}}_{\text{el}} $$ stored in the
   deformation of a system that can be described by Hooke’s law is given by
@@ -265,6 +266,22 @@ It was stored in the object as potential energy.
 ::: problem
 
 Describe a system in which elastic potential energy is stored.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose an elastic deformation and calculate its stored potential energy.
+
+**Solution**
+
+A compressed spring stores elastic potential energy because its restoring force opposes the compression. For an assumed spring constant $$k=200\text{ N/m}$$ compressed by $$x=0.050\text{ m}$$, $$U=\tfrac12kx^2=\tfrac12(200\text{ N/m})(0.050\text{ m})^2=0.25\text{ J}$$. Releasing it can convert this energy into kinetic energy.
+
+**Discussion**
+
+The spring must remain within its elastic range. A compressed or stretched spring is a system that stores energy in elastic deformation.
 
 :::
 
@@ -412,8 +429,8 @@ The plunger's final speed of 20.0 m/s (72 km/h or 45 mph) is quite fast, demonst
 
 ::: problem
 
-(a) The springs of a pickup truck act like a single spring with a force constant of  $$ 1.30 \times 10^{5}  \text{N/m} $$ .
- By how much will the truck be depressed by its maximum load of 1000 kg?
+(a) The springs of a pickup truck act like a single spring with a force constant of $$ 1.30 \times 10^{5}  \text{N/m} $$ .
+By how much will the truck be depressed by its maximum load of 1000 kg?
 
 (b) If the pickup truck has four identical springs, what is the force constant
 of each?
@@ -512,6 +529,7 @@ When hopping, the man lands with downward velocity. This kinetic energy must be 
 Part (a): The spring constant of 6,530 N/m indicates a fairly stiff spring, appropriate for supporting an 80 kg person while still providing enough "give" for bouncing. The 12 cm compression represents a reasonable balance—enough to store elastic energy for bouncing, but not so much that the user bottoms out the spring.
 
 Part (b): The spring compression during hopping exceeds the static value for several reasons:
+
 1. **Landing velocity**: When the person lands, they have downward kinetic energy (typically several hundred joules) that must be absorbed by additional spring compression.
 2. **Impact forces**: Dynamic forces during landing can be 2-3 times static weight (1,600-2,400 N vs. 784 N static).
 3. **Momentum transfer**: The abrupt deceleration when landing requires greater force than simply supporting static weight.
@@ -601,6 +619,7 @@ The spring constant of 29.4 N/m indicates a relatively soft spring, which makes 
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 deformation

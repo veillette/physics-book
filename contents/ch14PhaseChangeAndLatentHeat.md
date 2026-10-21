@@ -4,10 +4,11 @@ layout: page
 sectionNumber: 3
 chapterNumber: 14
 ---
+
 ::: abstract
 
-* Examine heat transfer.
-* Calculate final temperature from heat transfer.
+- Examine heat transfer.
+- Calculate final temperature from heat transfer.
 
 :::
 
@@ -273,10 +274,10 @@ unevaporated sweat on your brow.
 Calculate Final Temperature from Phase Change: Cooling Soda with Ice Cubes
 </div>
 
-Three ice cubes are used to chill a soda at  $$20\text{ºC} $$
- with mass  $${m}_{\text{soda}}=0.25 \text{kg} $$ .
- The ice is at  $$0\text{ºC} $$
- and each ice cube has a mass of 6.0 g. Assume that the soda is kept in a foam container so that heat loss can be ignored. Assume the soda has the same heat capacity as water. Find the final temperature when all ice has melted.
+Three ice cubes are used to chill a soda at $$20\text{ºC} $$
+with mass $${m}_{\text{soda}}=0.25 \text{kg} $$ .
+The ice is at $$0\text{ºC} $$
+and each ice cube has a mass of 6.0 g. Assume that the soda is kept in a foam container so that heat loss can be ignored. Assume the soda has the same heat capacity as water. Find the final temperature when all ice has melted.
 
 **Strategy**
 
@@ -291,17 +292,17 @@ soda to this water until the water plus soda system reaches thermal equilibrium,
  $${Q}_{\text{ice}}=-{Q}_{\text{soda}}\text{.} $$
 </div>
 
-The heat transferred to the ice is  $${Q}_{\text{ice}}={m}_{\text{ice}}{L}_{\text{f}}+{m}_{\text{ice}}{c}_{\text{W}}\left({T}_{\text{f}}-0\text{ºC}\right) $$ .
- The heat given off by the soda is  $${Q}_{\text{soda}}={m}_{\text{soda}}{c}_{\text{W}}\left({T}_{\text{f}}-20\text{ºC}\right) $$ .
- Since no heat is lost,  $${Q}_{\text{ice}}=-{Q}_{\text{soda}} $$ ,
- so that
+The heat transferred to the ice is $${Q}_{\text{ice}}={m}_{\text{ice}}{L}_{\text{f}}+{m}_{\text{ice}}{c}_{\text{W}}\left({T}_{\text{f}}-0\text{ºC}\right) $$ .
+The heat given off by the soda is $${Q}_{\text{soda}}={m}_{\text{soda}}{c}_{\text{W}}\left({T}_{\text{f}}-20\text{ºC}\right) $$ .
+Since no heat is lost, $${Q}_{\text{ice}}=-{Q}_{\text{soda}} $$ ,
+so that
 
 <div class="equation" >
  $${m}_{\text{ice}}{L}_{\text{f}}+{m}_{\text{ice}}{c}_{W}\left({T}_{\text{f}}-0\text{ºC}\right)=-{m}_{\text{soda}}{c}_{W}\left({T}_{\text{f}}-20\text{ºC}\right)\text{.} $$
 </div>
 
-Bring all terms involving  $${T}_{\text{f}} $$
- on the left-hand-side and all other terms on the right-hand-side. Solve for the unknown quantity  $${T}_{\text{f}} $$
+Bring all terms involving $${T}_{\text{f}} $$
+on the left-hand-side and all other terms on the right-hand-side. Solve for the unknown quantity $${T}_{\text{f}} $$
 \:
 
 <div class="equation" >
@@ -363,8 +364,8 @@ liquid to vapor, and so it can be calculated from $$Q=m L_{\text{v}} $$.
 Real-World Application
 </div>
 
-Energy is also released when a liquid freezes. This phenomenon is used by fruit growers in Florida to protect oranges when the temperature is close to the freezing point  $$\left(0\text{ºC}\right) $$ .
- Growers spray water on the plants in orchards so that the water freezes and heat is released to the growing oranges on the trees. This prevents the temperature inside the orange from dropping below freezing, which would damage the fruit.
+Energy is also released when a liquid freezes. This phenomenon is used by fruit growers in Florida to protect oranges when the temperature is close to the freezing point $$\left(0\text{ºC}\right) $$ .
+Growers spray water on the plants in orchards so that the water freezes and heat is released to the growing oranges on the trees. This prevents the temperature inside the orange from dropping below freezing, which would damage the fruit.
 
 ![The figure shows bare tree branches covered with ice and icicles.](../resources/Figure_14_03_05.jpg 'The ice on these trees released large amounts of energy when it froze, helping to prevent the temperature of the trees from dropping below ( 0 \\text{ºC} ). Water is intentionally sprayed on orchards to help prevent hard frosts. (credit: Hermann Hammer)')
 {: #Figure5}
@@ -423,8 +424,8 @@ transfer and work can cause both temperature and phase changes.
    unknown)._ If there is a temperature change, the transferred heat depends on
    the specific heat (
    see [[Table 1](../contents/ch14TemperatureChangeAndHeatCapacity#Table1))
-whereas, for a phase change, the transferred heat depends on the latent heat.
-See [[Table 1]](#Table1).
+   whereas, for a phase change, the transferred heat depends on the latent heat.
+   See [[Table 1]](#Table1).
 6. _Substitute the knowns along with their units into the appropriate equation
    and obtain numerical solutions complete with units._ You will need to do this
    in steps if there is more than one stage to the process (such as a
@@ -446,8 +447,8 @@ Why does snow remain on mountain slopes even when daytime temperatures are highe
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-Snow is formed from ice crystals and thus is the solid phase of water. Because enormous heat is necessary for phase changes, it takes a certain amount of time for this heat to be accumulated from the air, even if the air is above  $$0\text{ºC} $$ .
- The warmer the air is, the faster this heat exchange occurs and the faster the snow melts.
+Snow is formed from ice crystals and thus is the solid phase of water. Because enormous heat is necessary for phase changes, it takes a certain amount of time for this heat to be accumulated from the air, even if the air is above $$0\text{ºC} $$ .
+The warmer the air is, the faster this heat exchange occurs and the faster the snow melts.
 
 :::
 
@@ -466,7 +467,7 @@ Snow is formed from ice crystals and thus is the solid phase of water. Because e
    $$Q=\text{mL} \text{,}  $$
   </div>
 
-     where  $$L $$      is the latent heat coefficient.
+  where $$L $$ is the latent heat coefficient.
 
 ### Conceptual Questions
 
@@ -478,14 +479,46 @@ Heat transfer can cause temperature and phase changes. What else can cause these
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider work and pressure changes as alternatives to heat transfer.
+
+**Solution**
+
+Mechanical work can change temperature: rapid compression warms a gas and expansion while doing work can cool it. Pressure changes can also induce phase changes by shifting equilibrium boundaries, such as lowering the pressure over liquid water enough for it to boil. Friction can raise temperature through work without heat transfer into the object.
+
+**Discussion**
+
+Heat transfer is therefore not the only cause; work and changes of pressure can produce temperature changes or phase transitions.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-How does the latent heat of fusion of water help slow the decrease of air temperatures, perhaps preventing temperatures from falling significantly below  $$0 \text{ºC} $$ ,
- in the vicinity of large bodies of water?
+How does the latent heat of fusion of water help slow the decrease of air temperatures, perhaps preventing temperatures from falling significantly below $$0 \text{ºC} $$ ,
+in the vicinity of large bodies of water?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Account for the latent heat released when water freezes.
+
+**Solution**
+
+As a large body of water begins freezing near $$0\text{ °C}$$, each kilogram releases about $$334\text{ kJ}$$ while the freezing water remains near its melting temperature. This energy can warm the adjacent air and replace energy lost to the colder surroundings. Freezing an assumed $$1000\text{ kg}$$ releases $$Q=(1000\text{ kg})(334\text{ kJ/kg})=334\text{ MJ}$$.
+
+**Discussion**
+
+Once freezing is complete, the ice can cool below zero. Latent heat temporarily slows cooling near a large freezing body of water and can delay nearby air temperatures falling much below the freezing point.
 
 :::
 
@@ -499,15 +532,47 @@ What is the temperature of ice right after it is formed by freezing water?
 
 :::
 
+::: solution
+
+**Strategy**
+
+State the ordinary pressure and equilibrium assumption.
+
+**Solution**
+
+For pure water freezing slowly at normal atmospheric pressure, newly formed ice is at approximately $$0\text{ °C}$$, the equilibrium melting/freezing temperature. Continued energy removal can cool the ice below zero after formation. Supercooled water can initially freeze under nonequilibrium conditions, and dissolved solutes or different pressures change the freezing temperature.
+
+**Discussion**
+
+Under the usual pure-water, atmospheric-pressure conditions, ice is approximately at $$0\text{ °C}$$ immediately as it forms.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-If you place  $$0 \text{ºC} $$
- ice into  $$0 \text{ºC} $$
- water in an insulated container, what will happen? Will some ice melt, will more water freeze, or will neither take place?
+If you place $$0 \text{ºC} $$
+ice into $$0 \text{ºC} $$
+water in an insulated container, what will happen? Will some ice melt, will more water freeze, or will neither take place?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Check both thermal equilibrium and the energy required for net phase change.
+
+**Solution**
+
+Pure ice and liquid water at $$0\text{ °C}$$ can coexist in equilibrium at normal atmospheric pressure. In an insulated container there is no external heat supply to melt a net amount of ice and no heat sink to freeze a net amount of water. Molecules continue exchanging between phases microscopically, but the macroscopic amounts remain constant.
+
+**Discussion**
+
+Neglecting impurities, pressure shifts, and surface effects, neither net melting nor net freezing occurs because the mixture is already in thermal and phase equilibrium.
 
 :::
 
@@ -521,14 +586,46 @@ What effect does condensation on a glass of ice water have on the rate at which 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Account for the energy released by water vapor as it condenses.
+
+**Solution**
+
+Condensation on the cold glass releases latent heat. Some of that energy flows through the glass into the ice-water mixture and melts additional ice. For illustration, condensing $$1.0\text{ g}$$ of vapor with an assumed latent heat $$2.4\text{ MJ/kg}$$ releases $$Q=(0.0010\text{ kg})(2.4\times10^6\text{ J/kg})=2.4\times10^3\text{ J}$$, enough in principle to melt $$m=Q/L_f=(2.4\times10^3\text{ J})/(334\times10^3\text{ J/kg})=0.0072\text{ kg}$$ of ice.
+
+**Discussion**
+
+The exact fraction reaching the ice depends on the surroundings, but condensation adds energy to the cold glass. It therefore tends to speed up the ice’s melting.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 
 ::: problem
 
-In very humid climates where there are numerous bodies of water, such as in Florida, it is unusual for temperatures to rise above about  $$35\text{ºC}\left(95 \text{ºF}\right) $$ .
- In deserts, however, temperatures can rise far above this. Explain how the evaporation of water helps limit high temperatures in humid climates.
+In very humid climates where there are numerous bodies of water, such as in Florida, it is unusual for temperatures to rise above about $$35\text{ºC}\left(95 \text{ºF}\right) $$ .
+In deserts, however, temperatures can rise far above this. Explain how the evaporation of water helps limit high temperatures in humid climates.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare how available energy is divided between evaporation and sensible warming.
+
+**Solution**
+
+Where liquid water and vegetation are abundant, much incoming solar energy can evaporate water rather than raise surface and air temperatures. Evaporating an assumed $$1.0\text{ kg}$$ with latent heat $$2.4\text{ MJ/kg}$$ takes $$2.4\text{ MJ}$$ from the local energy budget. Dry desert surfaces have less water available, so more input produces sensible warming. Water’s large heat capacity also moderates nearby temperatures.
+
+**Discussion**
+
+High humidity itself suppresses evaporation, and the quoted temperature is not a strict limit. Available water, evaporation, and thermal storage help limit daytime heating in wet climates compared with dry deserts.
 
 :::
 
@@ -542,6 +639,22 @@ In winters, it is often warmer in San Francisco than in nearby Sacramento, 150 k
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the thermal storage of water with that of dry land.
+
+**Solution**
+
+The ocean’s large mass and high specific heat allow it to absorb substantial energy with only a modest temperature rise in summer and to release stored energy as the land cools in winter. Evaporation and mixing strengthen the moderation, and marine air carries this influence over San Francisco. Inland Sacramento is less directly coupled to the ocean and its land surface responds more rapidly to seasonal heating and cooling.
+
+**Discussion**
+
+The nearby water therefore keeps San Francisco relatively cooler in summer and warmer in winter by storing and slowly exchanging thermal energy.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -549,6 +662,22 @@ In winters, it is often warmer in San Francisco than in nearby Sacramento, 150 k
 ::: problem
 
 Putting a lid on a boiling pot greatly reduces the heat transfer necessary to keep it boiling. Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify the heat losses that the lid reduces.
+
+**Solution**
+
+An uncovered boiling pot continually loses energy as vapor carries latent heat away, as warm air rises, and by radiation. A lid traps warm humid air, reduces exchange with cooler room air, and lets much of the vapor condense on the lid, returning part of its energy to the pot. Less burner power is then needed to maintain the water near its boiling temperature.
+
+**Discussion**
+
+A loose lid does not remove the latent-heat requirement for vapor that actually escapes. It reduces the heat input needed mainly by reducing net vapor loss and convective cooling.
 
 :::
 
@@ -562,6 +691,22 @@ Freeze-dried foods have been dehydrated in a vacuum. During the process, the foo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Follow evaporative cooling and the removal of water vapor under low pressure.
+
+**Solution**
+
+Lowering the pressure encourages rapid evaporation, which removes latent heat and cools the remaining water until it can freeze. During freeze-drying, the low water-vapor pressure maintained by pumping permits ice to sublime directly into vapor. Sublimation also requires energy, so heat must be supplied to keep dehydration progressing instead of allowing the food to become too cold.
+
+**Discussion**
+
+Commercial processes may freeze the food before evacuation. Vacuum speeds dehydration by removing vapor and enabling sublimation, while the latent energy carried away can cause freezing and makes controlled heating necessary during drying.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -569,6 +714,22 @@ Freeze-dried foods have been dehydrated in a vacuum. During the process, the foo
 ::: problem
 
 When still air cools by radiating at night, it is unusual for temperatures to fall below the dew point. Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Include the latent heat released once vapor begins to condense.
+
+**Solution**
+
+On a clear night, the ground and objects often cool radiatively and then cool nearby air. As that air reaches its dew point, condensation produces dew or fog and releases latent heat, buffering further cooling. Fog can also increase downward infrared radiation. Air itself is not always the main radiating body in the surface-cooling process.
+
+**Discussion**
+
+The dew point can change as moisture is removed, and air can cool below its original dew point. Condensation’s latent-heat release slows the fall, explaining why temperatures often level near the dew point rather than treating it as an absolute lower bound.
 
 :::
 
@@ -582,6 +743,22 @@ In a physics classroom demonstration, an instructor inflates a balloon by mouth 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare liquid-nitrogen temperature with the normal melting and boiling points, and identify condensable constituents of exhaled air.
+
+**Solution**
+
+The light-blue liquid is oxygen-rich liquid oxygen. Table 1 gives oxygen’s normal boiling point as $$-183.0\text{ °C}$$ and melting point as $$-218.8\text{ °C}$$; liquid nitrogen near $$-195.8\text{ °C}$$ lies between them. Nitrogen is near its own normal boiling point and much of it remains gaseous in the flexible balloon. The white solids are frozen carbon dioxide from the breath and water ice. On warming at about atmospheric pressure, carbon dioxide sublimes, whereas water ice persists until it melts near $$0\text{ °C}$$.
+
+**Discussion**
+
+Partial pressures and mixing affect exact condensation temperatures, so this is a qualitative identification, and Table 1 does not list carbon dioxide. The observed blue liquid is oxygen-rich condensate, the disappearing crystals are carbon dioxide, and the later-melting crystals are water ice.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -590,8 +767,8 @@ In a physics classroom demonstration, an instructor inflates a balloon by mouth 
 
 ::: problem
 
-How much heat transfer (in kilocalories) is required to thaw a 0.450-kg package of frozen vegetables originally at  $$0\text{ºC} $$
- if their heat of fusion is the same as that of water?
+How much heat transfer (in kilocalories) is required to thaw a 0.450-kg package of frozen vegetables originally at $$0\text{ºC} $$
+if their heat of fusion is the same as that of water?
 
 :::
 
@@ -607,9 +784,9 @@ How much heat transfer (in kilocalories) is required to thaw a 0.450-kg package 
 
 ::: problem
 
-A bag containing  $$0\text{ºC} $$
- ice is much more effective in absorbing energy than one containing the same amount of  $$0\text{ºC} $$
- water.
+A bag containing $$0\text{ºC} $$
+ice is much more effective in absorbing energy than one containing the same amount of $$0\text{ºC} $$
+water.
 
 1. How much heat transfer is necessary to raise the temperature of 0.800 kg of
    water from $$0\text{ºC}$$ to $$30.0\text{ºC}$$ ?
@@ -629,6 +806,7 @@ For part (a), we use $$Q = mc\Delta T$$ to find the heat needed to warm water. F
 **Solution**
 
 Given:
+
 - Mass: $$m = 0.800 \text{ kg}$$
 - Initial temperature: $$T_i = 0\text{ºC}$$
 - Final temperature: $$T_f = 30.0\text{ºC}$$
@@ -686,8 +864,8 @@ The high latent heat of fusion also explains why ice on lakes takes a long time 
 
 ::: problem
 
-(a) How much heat transfer is required to raise the temperature of a 0.750-kg aluminum pot containing 2.50 kg of water from  $$ 30.0\text{ºC} $$
- to the boiling point and then boil away 0.750 kg of water? (b) How long does this take if the rate of heat transfer is 500 W  $$1\text{watt} = 1 \text{joule/second} \left(1 \text{W} =1 \text{J/s}\right) $$ ?
+(a) How much heat transfer is required to raise the temperature of a 0.750-kg aluminum pot containing 2.50 kg of water from $$ 30.0\text{ºC} $$
+to the boiling point and then boil away 0.750 kg of water? (b) How long does this take if the rate of heat transfer is 500 W $$1\text{watt} = 1 \text{joule/second} \left(1 \text{W} =1 \text{J/s}\right) $$ ?
 
 :::
 
@@ -696,6 +874,7 @@ The high latent heat of fusion also explains why ice on lakes takes a long time 
 **Strategy**
 
 This problem involves both heating (temperature change) and phase change (boiling). We must:
+
 1. Heat both the aluminum pot and water from 30.0 °C to 100 °C using $$Q = mc\Delta T$$
 2. Boil away 0.750 kg of water using $$Q = mL_{v}$$
 3. Sum all heat transfers
@@ -704,6 +883,7 @@ This problem involves both heating (temperature change) and phase change (boilin
 **Solution**
 
 Given:
+
 - Mass of aluminum pot: $$m_{Al} = 0.750 \text{ kg}$$
 - Mass of water: $$m_w = 2.50 \text{ kg}$$
 - Initial temperature: $$T_i = 30.0\text{ºC}$$
@@ -757,6 +937,7 @@ $$t = \frac{4944 \text{ s}}{60 \text{ s/min}} = 82.4 \text{ min} \approx 1 \text
 The calculation shows that about 68% of the energy (1.69 MJ out of 2.47 MJ) goes into evaporating the water, while only 32% goes into heating. This illustrates the enormous energy required for phase changes compared to temperature changes.
 
 Breaking down the heating phase:
+
 - Aluminum pot: 47.3 kJ (1.9%)
 - Water: 733 kJ (29.7%)
 - Evaporation: 1692 kJ (68.4%)
@@ -791,6 +972,7 @@ When water vapor condenses, it releases energy equal to $$Q = mL_{v}$$. This ene
 **Solution**
 
 Given:
+
 - Mass of condensation: $$m_{cond} = 8.00 \text{ g} = 0.00800 \text{ kg}$$
 - Latent heat of vaporization (at body/room temp): $$L_v \approx 2430 \text{ kJ/kg}$$
 - Latent heat of fusion: $$L_f = 334 \text{ kJ/kg}$$
@@ -830,9 +1012,9 @@ This principle also applies to meteorology: when water vapor condenses to form r
 
 ::: problem
 
-On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in your cooler. What is the average power in watts entering the ice if it starts at  $$0\text{ºC} $$
- and completely melts to  $$0\text{ºC} $$
- water in exactly one day  $$1 \text{watt} =1 \text{joule/second} \left(1 \text{W} =1 \text{J/s}\right) $$ ?
+On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in your cooler. What is the average power in watts entering the ice if it starts at $$0\text{ºC} $$
+and completely melts to $$0\text{ºC} $$
+water in exactly one day $$1 \text{watt} =1 \text{joule/second} \left(1 \text{W} =1 \text{J/s}\right) $$ ?
 
 :::
 
@@ -845,6 +1027,7 @@ The ice melts at constant temperature (0 °C), so all the heat entering the cool
 **Solution**
 
 Given:
+
 - Mass of ice: $$m = 3.50 \text{ kg}$$
 - Time: $$t = 1 \text{ day} = 24 \text{ hours} = 86400 \text{ s}$$
 - Latent heat of fusion: $$L_f = 334 \text{ kJ/kg} = 334000 \text{ J/kg}$$
@@ -864,6 +1047,7 @@ $$P = \frac{Q}{t} = \frac{1169000 \text{ J}}{86400 \text{ s}} = 13.5 \text{ W}$$
 The average power of 13.5 W represents the rate at which heat leaks into the cooler from the warmer surroundings. This is roughly equivalent to the power of a small LED night light, which seems quite reasonable for a typical cooler.
 
 This heat enters through several mechanisms:
+
 1. **Conduction** through the cooler walls (dominant pathway)
 2. **Convection** when you open the cooler lid
 3. **Radiation** from warm objects placed in the cooler
@@ -871,11 +1055,13 @@ This heat enters through several mechanisms:
 The fact that a 3.50-kg bag of ice lasts exactly one day gives us useful information about cooler performance. Better-insulated coolers (with thicker walls, better seals, and reflective surfaces) would have lower heat leak rates and make ice last longer.
 
 For comparison:
+
 - A well-insulated premium cooler: ~5-10 W (ice lasts 3-4 days)
 - Average cooler (this problem): ~13.5 W (ice lasts 1 day)
 - Poorly insulated cooler: ~25-40 W (ice lasts 12 hours or less)
 
 To make ice last longer, you can:
+
 - Use a better-insulated cooler
 - Minimize opening the lid
 - Pre-chill items before placing in cooler
@@ -894,8 +1080,8 @@ The average power entering the ice is **13.5 W**.
 
 ::: problem
 
-On a certain dry sunny day, a swimming pool's temperature would rise by  $$1.50\text{ºC} $$
- if not for evaporation. What fraction of the water must evaporate to carry away precisely enough energy to keep the temperature constant?
+On a certain dry sunny day, a swimming pool's temperature would rise by $$1.50\text{ºC} $$
+if not for evaporation. What fraction of the water must evaporate to carry away precisely enough energy to keep the temperature constant?
 
 :::
 
@@ -931,6 +1117,7 @@ $$f = \frac{c\Delta T}{L_v}$$
 </div>
 
 Using values:
+
 - $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
 - $$\Delta T = 1.50\text{ºC}$$
 - $$L_v = 2256 \text{ kJ/kg} = 2.256 \times 10^6 \text{ J/kg}$$
@@ -959,9 +1146,9 @@ On humid days when evaporation is reduced, pools warm up more quickly, and peopl
 
 ::: problem
 
-(a) How much heat transfer is necessary to raise the temperature of a 0.200-kg piece of ice from  $$-20.0\text{ºC} $$
- to  $$130\text{ºC} $$ ,
- including the energy needed for phase changes?
+(a) How much heat transfer is necessary to raise the temperature of a 0.200-kg piece of ice from $$-20.0\text{ºC} $$
+to $$130\text{ºC} $$ ,
+including the energy needed for phase changes?
 {: class="newline"}
 
 (b) How much time is required for each stage, assuming a constant 20.0 kJ/s rate
@@ -1011,6 +1198,7 @@ We calculate the volume from given dimensions, then mass from density. The heat 
 **Solution**
 
 Given:
+
 - Dimensions: $$L = 160 \text{ km} = 1.60 \times 10^5 \text{ m}$$, $$W = 40.0 \text{ km} = 4.00 \times 10^4 \text{ m}$$, $$h = 250 \text{ m}$$
 - Density of ice: $$\rho = 917 \text{ kg/m}^3$$
 - Latent heat of fusion: $$L_f = 334 \text{ kJ/kg} = 3.34 \times 10^5 \text{ J/kg}$$
@@ -1068,9 +1256,9 @@ The enormous mass (1.47 trillion metric tons) and energy requirement (4.91 × 10
 
 ::: problem
 
-How many grams of coffee must evaporate from 350 g of coffee in a 100-g glass cup to cool the coffee from  $$ 95.0\text{ºC} $$
- to  $$ 45.0\text{ºC} $$ ?
- You may assume the coffee has the same thermal properties as water and that the average heat of vaporization is 2340 kJ/kg (560 cal/g). (You may neglect the change in mass of the coffee as it cools, which will give you an answer that is slightly larger than correct.)
+How many grams of coffee must evaporate from 350 g of coffee in a 100-g glass cup to cool the coffee from $$ 95.0\text{ºC} $$
+to $$ 45.0\text{ºC} $$ ?
+You may assume the coffee has the same thermal properties as water and that the average heat of vaporization is 2340 kJ/kg (560 cal/g). (You may neglect the change in mass of the coffee as it cools, which will give you an answer that is slightly larger than correct.)
 
 :::
 
@@ -1086,11 +1274,11 @@ How many grams of coffee must evaporate from 350 g of coffee in a 100-g glass cu
 
 ::: problem
 
-(a) It is difficult to extinguish a fire on a crude oil tanker, because each liter of crude oil releases  $$ 2.80 \times 10^{7}  \text{J} $$
- of energy when burned. To illustrate this difficulty, calculate the number of liters of water that must be expended to absorb the energy released by burning 1.00 L of crude oil, if the water has its temperature raised from  $$ 20.0\text{ºC} $$
- to  $$100\text{ºC} $$ ,
- it boils, and the resulting steam is raised to  $$300\text{ºC} $$ .
- (b) Discuss additional complications caused by the fact that crude oil has a smaller density than water.
+(a) It is difficult to extinguish a fire on a crude oil tanker, because each liter of crude oil releases $$ 2.80 \times 10^{7}  \text{J} $$
+of energy when burned. To illustrate this difficulty, calculate the number of liters of water that must be expended to absorb the energy released by burning 1.00 L of crude oil, if the water has its temperature raised from $$ 20.0\text{ºC} $$
+to $$100\text{ºC} $$ ,
+it boils, and the resulting steam is raised to $$300\text{ºC} $$ .
+(b) Discuss additional complications caused by the fact that crude oil has a smaller density than water.
 
 :::
 
@@ -1124,6 +1312,7 @@ We calculate the volume and mass of water precipitated, then use $$Q = mL_{v}$$ 
 **Solution**
 
 Given:
+
 - Radius of storm: $$r = 1 \text{ km} = 1000 \text{ m}$$
 - Depth of rain: $$h = 1.0 \text{ cm} = 0.010 \text{ m}$$
 - Density of water: $$\rho = 1000 \text{ kg/m}^3$$
@@ -1159,6 +1348,7 @@ The energy released is approximately $$7.1 \times 10^{13}$$ joules, which is eno
 - It's equivalent to detonating about **17 kilotons of TNT** (1 ton TNT ≈ 4.2 × 10⁹ J)
 
 This demonstrates why thunderstorms are such powerful weather phenomena. The energy released through condensation:
+
 1. **Drives updrafts**: Rising warm, moist air provides the engine for storm development
 2. **Creates violent weather**: This energy powers strong winds, hail, lightning, and tornadoes
 3. **Positive feedback**: Released energy warms the air, causing more rising and more condensation
@@ -1184,8 +1374,8 @@ The energy released into the atmosphere is approximately **7.1 × 10¹³ J** or 
 
 ::: problem
 
-To help prevent frost damage, 4.00 kg of  $$0\text{ºC} $$
- water is sprayed onto a fruit tree.
+To help prevent frost damage, 4.00 kg of $$0\text{ºC} $$
+water is sprayed onto a fruit tree.
 
 (a) How much heat transfer occurs as the water freezes?
 
@@ -1209,8 +1399,8 @@ b) $$2.00\text{ºC} $$
 
 ::: problem
 
-A 0.250-kg aluminum bowl holding 0.800 kg of soup at  $$ 25.0\text{ºC} $$
- is placed in a freezer. What is the final temperature if 377 kJ of energy is transferred from the bowl and soup, assuming the soup's thermal properties are the same as that of water?
+A 0.250-kg aluminum bowl holding 0.800 kg of soup at $$ 25.0\text{ºC} $$
+is placed in a freezer. What is the final temperature if 377 kJ of energy is transferred from the bowl and soup, assuming the soup's thermal properties are the same as that of water?
 Explicitly show how you follow the steps in [ Problem-Solving Strategies for the Effects of Heat Transfer](#Note1).
 
 :::
@@ -1220,6 +1410,7 @@ Explicitly show how you follow the steps in [ Problem-Solving Strategies for the
 **Strategy**
 
 Following the Problem-Solving Strategies:
+
 1. Heat is transferred OUT of the system (bowl + soup)
 2. Objects changing temperature: aluminum bowl and soup (water)
 3. Unknown: Final temperature $$T_f$$
@@ -1230,6 +1421,7 @@ Following the Problem-Solving Strategies:
 **Solution**
 
 Given:
+
 - Mass of aluminum bowl: $$m_{Al} = 0.250 \text{ kg}$$
 - Mass of soup: $$m_w = 0.800 \text{ kg}$$
 - Initial temperature: $$T_i = 25.0\text{ºC}$$
@@ -1298,6 +1490,7 @@ $$Q_{remaining} = -377000 \text{ J} - (-356550 \text{ J}) = -20450 \text{ J}$$
 </div>
 
 **(e)** Cool below 0ºC with new heat capacity:
+
 - Specific heat of ice: $$c_{ice} = 2090 \text{ J/kg}\cdot\text{ºC}$$
 - New heat capacity: $$C_{frozen} = m_{Al}c_{Al} + m_w c_{ice} = (0.250 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC}) + (0.800 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC}) = 225 \text{ J/ºC} + 1672 \text{ J/ºC} = 1897 \text{ J/ºC}$$
 
@@ -1314,10 +1507,11 @@ $$T_f = 0 + \Delta T_{below} = -10.8\text{ºC}$$
 **Discussion**
 
 The final temperature of **-10.8ºC** makes sense. The 377 kJ of heat removed is enough to:
+
 1. Cool the bowl and soup from 25ºC to 0ºC (89.4 kJ)
 2. Freeze all the soup (267.2 kJ)
 3. Cool the frozen system to -10.8ºC (20.5 kJ)
-Total: 377 kJ ✓
+   Total: 377 kJ ✓
 
 This problem demonstrates the importance of checking for phase changes. The soup completely freezes because sufficient energy is removed. The answer also seems reasonable for a home freezer, which typically operates around -18ºC to -20ºC, so reaching -10.8ºC partway through cooling is plausible.
 
@@ -1333,9 +1527,9 @@ The final temperature is **-10.8ºC** (or approximately **-11ºC**).
 
 ::: problem
 
-A 0.0500-kg ice cube at  $$- 30.0\text{ºC} $$
- is placed in 0.400 kg of  $$ 35.0\text{ºC} $$
- water in a very well-insulated container. What is the final temperature?
+A 0.0500-kg ice cube at $$- 30.0\text{ºC} $$
+is placed in 0.400 kg of $$ 35.0\text{ºC} $$
+water in a very well-insulated container. What is the final temperature?
 
 :::
 
@@ -1348,6 +1542,7 @@ We must determine if the ice completely melts and find the equilibrium temperatu
 **Solution**
 
 Given:
+
 - Mass of ice: $$m_{ice} = 0.0500 \text{ kg}$$
 - Initial temperature of ice: $$T_{ice,i} = -30.0\text{ºC}$$
 - Mass of water: $$m_w = 0.400 \text{ kg}$$
@@ -1417,6 +1612,7 @@ $$T_f = \frac{38769 \text{ J}}{1883.7 \text{ J/ºC}} = 20.6\text{ºC}$$
 The final temperature of 20.6ºC is reasonable. The warm water (0.400 kg at 35ºC) has much more thermal energy than the cold ice (0.050 kg at -30ºC), so we expect the final temperature to be closer to the initial water temperature than to 0ºC.
 
 Energy balance check:
+
 - Heat lost by water: $$(0.400 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(35.0\text{ºC} - 20.6\text{ºC}) = 24,110 \text{ J}$$
 - Heat gained by ice: $$3135 \text{ J} + 16700 \text{ J} + (0.0500 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(20.6\text{ºC}) = 3135 \text{ J} + 16700 \text{ J} + 4312 \text{ J} = 24,147 \text{ J}$$
 
@@ -1436,8 +1632,8 @@ The final temperature is **20.6ºC**.
 
 ::: problem
 
-If you pour 0.0100 kg of  $$ 20.0\text{ºC} $$
- water onto a 1.20-kg block of ice (which is initially at  $$- 15.0\text{ºC} $$ ),
+If you pour 0.0100 kg of $$ 20.0\text{ºC} $$
+water onto a 1.20-kg block of ice (which is initially at $$- 15.0\text{ºC} $$ ),
 what is the final temperature? You may assume that the water cools so rapidly that effects of the surroundings are negligible.
 
 :::
@@ -1451,6 +1647,7 @@ The warm water will cool and may freeze, transferring heat to the cold ice block
 **Solution**
 
 Given:
+
 - Mass of water: $$m_w = 0.0100 \text{ kg} = 10.0 \text{ g}$$
 - Initial water temperature: $$T_{w,i} = 20.0\text{ºC}$$
 - Mass of ice: $$m_{ice} = 1.20 \text{ kg}$$
@@ -1530,6 +1727,7 @@ $$T_f = \frac{-33442.8 \text{ J}}{2528.9 \text{ J/ºC}} = -13.2\text{ºC}$$
 The final temperature of -13.2ºC makes sense. The small amount of warm water (10 g at 20ºC) has very little thermal energy compared to the large, cold ice block (1200 g at -15ºC). The mass ratio is 120:1 in favor of the ice!
 
 The water quickly freezes and slightly warms the ice block from -15.0ºC to -13.2ºC—a mere 1.8ºC increase. This demonstrates:
+
 1. **Thermal mass matters**: The 120× larger mass of ice dominates the final temperature
 2. **Phase change helps**: The 3340 J from freezing provides most of the heating (80% of total)
 3. **Limited effect**: Despite releasing 4177 J, this only warms 1.2 kg of ice by 1.8ºC
@@ -1548,10 +1746,10 @@ The final temperature is **-13.2ºC** or approximately **-13ºC**.
 
 ::: problem
 
-Indigenous people sometimes cook in watertight baskets by placing hot rocks into water to bring it to a boil. What mass of  $$500\text{ºC} $$
- rock must be placed in 4.00 kg of  $$ 15.0\text{ºC} $$
- water to bring its temperature to  $$100\text{ºC} $$ ,
- if 0.0250 kg of water escapes as vapor from the initial sizzle? You may neglect the effects of the surroundings and take the average specific heat of the rocks to be that of granite.
+Indigenous people sometimes cook in watertight baskets by placing hot rocks into water to bring it to a boil. What mass of $$500\text{ºC} $$
+rock must be placed in 4.00 kg of $$ 15.0\text{ºC} $$
+water to bring its temperature to $$100\text{ºC} $$ ,
+if 0.0250 kg of water escapes as vapor from the initial sizzle? You may neglect the effects of the surroundings and take the average specific heat of the rocks to be that of granite.
 
 :::
 
@@ -1564,6 +1762,7 @@ The hot rocks transfer heat to the water through two processes: raising the wate
 **Solution**
 
 Given:
+
 - Mass of water: $$m_w = 4.00 \text{ kg}$$
 - Initial water temperature: $$T_{w,i} = 15.0\text{ºC}$$
 - Final water temperature: $$T_f = 100\text{ºC}$$
@@ -1620,6 +1819,7 @@ The result of approximately 4.4 kg of rocks to heat 4.0 kg of water makes sense 
 2. Some energy is "lost" to vaporizing 25 g of water, which requires significant energy (56.4 kJ)
 
 This ancient cooking method was ingenious and widely used by indigenous peoples worldwide, including Native American tribes in regions where fire-safe cooking vessels were unavailable. The technique demonstrates sophisticated understanding of heat transfer. Modern applications of this principle include:
+
 - Sous-vide cooking with hot water baths
 - Thermal mass in passive solar heating
 - Stone massage therapy
@@ -1650,6 +1850,7 @@ From Example 3 in Ch14TemperatureChangeAndHeatCapacity, we have a 0.500-kg alumi
 **Solution**
 
 Given (from Example 3):
+
 - Mass of aluminum pan: $$m_{Al} = 0.500 \text{ kg}$$
 - Initial pan temperature: $$T_{pan,i} = 150\text{ºC}$$
 - Initial water temperature: $$T_{w,i} = 20.0\text{ºC}$$
@@ -1678,6 +1879,7 @@ $$Q_{evap} = 3348.8 \text{ J} + 22560 \text{ J} = 25909 \text{ J}$$
 **Step 2:** Find final temperature of pan and remaining water:
 
 The pan cools from 150ºC to $$T_f$$, losing heat that:
+
 1. Evaporates 0.0100 kg of water (25,909 J)
 2. Heats remaining 0.250 kg from 20.0ºC to $$T_f$$
 
@@ -1722,10 +1924,12 @@ The final temperature of 41.8ºC is significantly lower than the 59.1ºC found i
 2. **Same final water mass**: Despite starting with 0.260 kg, we end with 0.250 kg (same as Example 3), but significant energy went into the phase change rather than temperature change
 
 Comparing to Example 3:
+
 - Example 3: 0.250 kg water added → final temp 59.1ºC
 - This problem: 0.260 kg added, 0.010 kg evaporates → final temp 41.8ºC
 
 The 17.3ºC lower final temperature demonstrates the enormous cooling power of evaporation. This is why:
+
 - Sweating is so effective for cooling the human body
 - Evaporative coolers work in dry climates
 - A wet towel feels much cooler than a dry one
@@ -1745,7 +1949,7 @@ The final temperature is **41.8ºC** or approximately **42ºC**.
 
 ::: problem
 
-In some countries, liquid nitrogen is used on dairy trucks instead of mechanical refrigerators. A 3.00-hour delivery trip requires 200 L of liquid nitrogen, which has a density of  $$808{\text{kg/m}}^{3} $$.
+In some countries, liquid nitrogen is used on dairy trucks instead of mechanical refrigerators. A 3.00-hour delivery trip requires 200 L of liquid nitrogen, which has a density of $$808{\text{kg/m}}^{3} $$.
 
 (a) Calculate the heat transfer necessary to evaporate this amount of liquid
 nitrogen and raise its temperature to $$3.00\text{ºC} $$ .
@@ -1761,9 +1965,9 @@ $$0\text{ºC} $$ ice with that from evaporating the liquid nitrogen.
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
-(a)  $$ 1.57 \times 10^{4}  \text{kcal} $$
-(b)  $$18.3\text{ kW}\cdot \text{h} $$ of heat transfer, supplied at an average rate of $$ 18.3 \text{ kW}\cdot\text{h}/3.00 \text{ h} = 6.10 \text{ kW} $$
-(c)  $$ 1.29 \times 10^{4}  \text{kcal} $$
+(a) $$ 1.57 \times 10^{4}  \text{kcal} $$
+(b) $$18.3\text{ kW}\cdot \text{h} $$ of heat transfer, supplied at an average rate of $$ 18.3 \text{ kW}\cdot\text{h}/3.00 \text{ h} = 6.10 \text{ kW} $$
+(c) $$ 1.29 \times 10^{4}  \text{kcal} $$
 
 :::
 
@@ -1773,7 +1977,7 @@ $$0\text{ºC} $$ ice with that from evaporating the liquid nitrogen.
 
 ::: problem
 
-Some gun fanciers make their own bullets, which involves melting and casting the lead slugs. How much heat transfer is needed to raise the temperature and melt 0.500 kg of lead, starting from  $$ 25.0\text{ºC} $$ ?
+Some gun fanciers make their own bullets, which involves melting and casting the lead slugs. How much heat transfer is needed to raise the temperature and melt 0.500 kg of lead, starting from $$ 25.0\text{ºC} $$ ?
 
 :::
 
@@ -1786,6 +1990,7 @@ We need to calculate heat in two stages: (1) raising the temperature of solid le
 **Solution**
 
 Given:
+
 - Mass of lead: $$m = 0.500 \text{ kg}$$
 - Initial temperature: $$T_i = 25.0\text{ºC}$$
 - Melting point of lead: $$T_m = 327\text{ºC}$$
@@ -1817,20 +2022,24 @@ $$Q_{total} = Q_1 + Q_2 = 19328 \text{ J} + 12250 \text{ J} = 31578 \text{ J} = 
 **Discussion**
 
 The total heat required is approximately 31.6 kJ to melt 0.500 kg of lead. This breaks down as:
+
 - Heating from 25ºC to 327ºC: 19.3 kJ (61% of total)
 - Melting at 327ºC: 12.3 kJ (39% of total)
 
 Lead has relatively low values for both specific heat (128 J/kg·ºC) and latent heat of fusion (24.5 kJ/kg) compared to many other materials. For comparison:
+
 - Water's specific heat: 4186 J/kg·ºC (33× higher than lead)
 - Ice's latent heat of fusion: 334 kJ/kg (14× higher than lead)
 
 This means lead is relatively easy to melt, which is one reason it has historically been used for:
+
 - Bullet casting (as in this problem)
 - Plumbing (from Latin "plumbum" = lead, though no longer used due to toxicity)
 - Solder (now replaced by lead-free alternatives)
 - Fishing sinkers and weights
 
 For bullet casting, 31.6 kJ for 0.5 kg is quite manageable. This could be provided by:
+
 - A small propane torch in minutes
 - A hot plate or furnace
 - Even a campfire with sufficient time
@@ -1850,6 +2059,7 @@ The heat transfer needed is approximately **31.6 kJ** or **3.16 × 10⁴ J**.
 ::: footnote-refs
 
 ### Footnotes
+
 {: class="footnote-refs-title"}
 
 - [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">Values quoted at the
@@ -1868,6 +2078,7 @@ The heat transfer needed is approximately **31.6 kJ** or **3.16 × 10⁴ J**.
 ::: glossary
 
 ### Glossary
+
 {: class="glossary-title"}
 
 heat of sublimation
