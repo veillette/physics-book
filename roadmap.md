@@ -123,5 +123,5 @@ as a downloadable archive.
 
 - [`README.md`](./README.md) — project overview and getting started
 - [`CONTRIBUTE.md`](./CONTRIBUTE.md) — contribution guidelines
-- [`claude.md`](./claude.md) — detailed project context for developers
+- [`AGENTS.md`](./AGENTS.md) — detailed project context for developers
 - [`doc/SEARCH.md`](./doc/SEARCH.md) — client-side search feature

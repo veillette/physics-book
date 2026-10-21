@@ -366,7 +366,7 @@ This project is an educational resource. We expect all contributors to:
 
 If you have questions about contributing:
 
-1. Check the [claude.md](./claude.md) file for technical details
+1. Check the [AGENTS.md](./AGENTS.md) file for technical details
 2. Review the [README.md](./README.md) for project overview
 3. Look through existing pull requests for examples
 4. Open an issue on GitHub to ask for clarification

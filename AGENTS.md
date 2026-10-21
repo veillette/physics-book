@@ -1,4 +1,6 @@
-# Claude Context for Physics Book Project
+# Agent Context for the Physics Book Project
+
+This file guides AI assistants (Claude, Codex, Cursor, etc.) working in this repo.
 
 ## Quick Start
 
@@ -11,7 +13,7 @@
   - **GitHub Pages**: https://veillette.github.io/physics-book2/
 - **Local Dev**: `npm run serve` → `http://localhost:4000/physics-book2/` (Node ≥ 22.15).
 - **Structure**: Content in `contents/`, scripts in `scripts/`, service worker `sw.njk` in root.
-- **Key Files**: `SUMMARY.md` (TOC), `eleventy.config.js` (build), `vercel.json` (Vercel), `claude.md` (this file).
+- **Key Files**: `SUMMARY.md` (TOC), `eleventy.config.js` (build), `vercel.json` (Vercel), `AGENTS.md` (this file).
 
 **Common Tasks:**
 
@@ -235,6 +237,10 @@ This comprehensive suite, run via `npm run audit` and other commands, ensures hi
 - Enhanced math delimiter validation
 - Automated content quality checks via GitHub Actions
 
+## Documentation Notes
+
+- Keep `AGENTS.md` as the single source of agent/developer context (this file); `CONTRIBUTE.md` covers contributor workflow and `README.md` the general overview. Don't add a separate `CLAUDE.md`.
+
 ## Contributing
 
 This is an open educational resource. When contributing, please adhere to the following guidelines.
@@ -248,7 +254,7 @@ This is an open educational resource. When contributing, please adhere to the fo
 
 ### Code Review
 
-- Review the Testing Checklist in `claude.md` before submitting a PR.
+- Review the checks listed in `AGENTS.md` before submitting a PR.
 - Address any failures from the automated checks in your PR.
 - Be prepared for feedback and collaborative iteration.
 

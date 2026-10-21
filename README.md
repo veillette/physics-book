@@ -176,7 +176,7 @@ We welcome contributions from the physics education community! Your help makes t
 - **Enhance Visuals**: Create or improve diagrams, illustrations, and figures.
 - **Report Issues**: Found a bug or broken link? [Open an issue](https://github.com/veillette/physics-book2/issues).
 
-For detailed project conventions, see [`claude.md`](./claude.md).
+For detailed project conventions, see [`AGENTS.md`](./AGENTS.md).
 
 ## 🎉 Recent Improvements
 
@@ -214,7 +214,7 @@ For detailed project conventions, see [`claude.md`](./claude.md).
 - Better offline support
 - Automated quality checks (links, accessibility, content)
 
-See [`claude.md`](./claude.md) for complete details on recent improvements.
+See [`AGENTS.md`](./AGENTS.md) for complete details on recent improvements.
 
 ## 📝 License
 
