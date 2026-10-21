@@ -233,14 +233,16 @@ $$N $$ is the same for all types or mixtures of gases.
 ### Moles and Avogadro’s Number
 
 It is sometimes convenient to work with a unit other than molecules when
-measuring the amount of substance. A **mole** (abbreviated mol) is defined to be
-the amount of a substance that contains as many atoms or molecules as there are
-atoms in exactly 12 grams (0.012 kg) of carbon-12. The actual number of atoms or
-molecules in one mole is called **Avogadro’s number** $$\left({N}_{\text{A}}\right) $$ , in recognition of Italian scientist Amedeo Avogadro (
-1776–1856). He developed the concept of the mole, based on the hypothesis that
-equal volumes of gas, at the same pressure and temperature, contain equal
-numbers of molecules. That is, the number is independent of the type of gas.
-This hypothesis has been confirmed, and the value of Avogadro's number is
+measuring the amount of substance. The **mole** (abbreviated mol) is the SI unit
+for the amount of a substance. This number is also **Avogadro’s number**
+$$\left({N}_{\text{A}}\right)$$, in recognition of Italian scientist Amedeo
+Avogadro (1776–1856), who developed the concept of the mole, based on the
+hypothesis that equal volumes of gas, at the same pressure and temperature,
+contain equal numbers of molecules, independent of the type of gas. This
+hypothesis has been confirmed. Originally defined<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup>
+as the number of atoms in 12 grams of carbon-12, as of 2019, a mole is defined
+as exactly $$6.02214076 \times 10^{23}$$ elementary entities, so that to three
+significant figures Avogadro’s number is
 
 <div class="equation" >
  $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}\text{.}$$
@@ -550,7 +552,8 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
    $$k_{B}= 1.38 \times 10^{-23} \text{J/K}.$$
   </div>
 
-- A mole is the number of atoms in a 12-g sample of carbon-12.
+- As of 2019, a mole is defined as exactly $$6.02214076 \times 10^{23}$$
+  elementary entities.
 - The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}} $$
 
   ,
@@ -1316,6 +1319,17 @@ is occupied by 1 mol of gas? (c) If this volume is a cube, what is the length of
 :::
 
 </div>
+
+::: footnote-refs
+
+### Footnotes
+
+{: class="footnote-refs-title"}
+
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content"><a href="https://www.bipm.org/en/measurement-units">https://www.bipm.org/en/measurement-units</a></span>
+  { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote1}
+
+:::
 
 ::: glossary
 
