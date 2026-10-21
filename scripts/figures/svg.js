@@ -426,6 +426,15 @@ export class Svg {
     return this.polyline(pts, { color, width });
   }
 
+  /** Vertical dimension line from y1 to y2 at x, with end ticks and a centered label. */
+  vdimension(x, y1, y2, label, { size = 22, tick = 22, color = COLORS.black } = {}) {
+    this.line(x - tick / 2, y1, x + tick / 2, y1, { color, width: 1.5 });
+    this.line(x - tick / 2, y2, x + tick / 2, y2, { color, width: 1.5 });
+    this.arrow(x, y1 + 1, x, y2 - 1, { color, width: 1.5, head: 12, start: true });
+    if (label) this.text(x, (y1 + y2) / 2, label, { size });
+    return this;
+  }
+
   /** Horizontal curly brace from x1 to x2 at height y; `up` opens downward. */
   brace(x1, x2, y, { up = true, depth = 10, color = COLORS.axis, width = 1.5 } = {}) {
     const s = up ? -1 : 1;

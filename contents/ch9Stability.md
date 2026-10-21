@@ -476,7 +476,7 @@ Notice that $$ F_2 $$ is greater than the weight of the plank! This is because $
 
 A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown in [Figure 11](#Figure11). The wall is in stable equilibrium without the bracing but can pivot at its base. Calculate the force exerted by each of the 10 braces if a strong wind exerts a horizontal force of 650 N on each square meter of the wall. Assume that the net force from the wind acts at a height halfway up the wall and that all braces exert equal forces parallel to their lengths. Neglect the thickness of the wall.
 
-![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_11.jpg ' ')
+![A seventeen meter high wall is standing on the ground with ten braces to support it. At the base of the figure a brown colored ground is visible. Only one brace is visible from a side. A brace makes an angle of thirty five degree with the wall. The point of contact of the brace is eight point five meters high. You have to find the force exerted by this brace on the wall to support.](../resources/Figure_09_03_11.svg ' ')
 {: #Figure11}
 
 :::
@@ -731,7 +731,7 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 (a) Calculate the tension in the chain assuming no friction between the legs and the sidewalk.
 (b) What force is exerted by each side on the hinge?
 
-![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_14.jpg 'A sandwich board advertising sign demonstrates tension.')
+![A sandwich board advertising sign is in form of a triangle. The base of the triangle is one point one zero meters. The other two sides are connected with a hinge at the top. A horizontal chain is connected to the two legs at zero point five zero meters below the hinge. The height of the hinge above the base is one point three zero meters. The centers of the gravity of the two legs are shown at their midpoints. The figure is labeled at uniform board with c g at the center.](../resources/Figure_09_03_14.svg 'A sandwich board advertising sign demonstrates tension.')
 {: #Figure14}
 
 :::

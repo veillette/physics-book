@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="760" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+<title id="title">Torque on a door seen from above</title>
+<desc id="desc">Six overhead views of a door hinged on the left and opened 25° from the wall. (a) A force F pushes perpendicular to the door at distance r from the hinge, so r = r⊥ and the torque is counterclockwise. (b) A smaller force F′ at the same point gives a smaller counterclockwise torque. (c) The same force at a smaller distance r′ = r′⊥ gives a smaller counterclockwise torque. (d) The force −F, opposite to (a), gives a clockwise torque. (e) A horizontal force of the same magnitude at the same point makes angle θ with the door; the perpendicular distance from the hinge to its line of action is r⊥ = r sin θ, so the counterclockwise torque is smaller. (f) A force pulling straight along the door away from the hinge has θ = 0° and r⊥ = 0, so it produces no torque.</desc>
+<rect width="960" height="760" fill="#ffffff"/>
+<rect x="20" y="196" width="160" height="14" fill="#efdcb2" stroke="#a7803d" stroke-width="1"/>
+<polygon points="195.07,210.88 448.84,92.54 438.69,70.79 184.93,189.12" fill="#dcb878" stroke="#a7803d" stroke-width="1.5"/>
+<line x1="416.94" y1="80.93" x2="413.56" y2="73.68" stroke="#9a7a12" stroke-width="3"/>
+<circle cx="411.03" cy="68.25" r="7" fill="#e8c547" stroke="#9a7a12" stroke-width="1.5"/>
+<circle cx="190" cy="200" r="7" fill="#c9a227" stroke="#7a5e10" stroke-width="1.5"/>
+<line x1="177.32" y1="172.81" x2="168.87" y2="154.68" stroke="#222222" stroke-width="1.3"/>
+<line x1="381.24" y1="77.72" x2="372.79" y2="59.6" stroke="#222222" stroke-width="1.3"/>
+<line x1="182.16" y1="159.52" x2="367.95" y2="72.88" stroke="#222222" stroke-width="1.3"/>
+<polygon points="376.11,69.08 368.74,76.93 365.35,69.68" fill="#222222"/>
+<polygon points="174,163.33 181.37,155.47 184.76,162.72" fill="#222222"/>
+<text x="266.6" y="105.78" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="432.8" y1="188.29" x2="406.18" y2="131.19" stroke="#e0245e" stroke-width="4"/>
+<polygon points="398.99,115.79 413.12,129.06 400.07,135.14" fill="#e0245e"/>
+<text x="450.8" y="196.69" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.18" dy="-14.88">→</tspan><tspan dx="0.49" dy="14.88">​</tspan></tspan></text>
+<text x="290" y="255" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="20" y="441" width="160" height="14" fill="#efdcb2" stroke="#a7803d" stroke-width="1"/>
+<polygon points="195.07,455.88 448.84,337.54 438.69,315.79 184.93,434.12" fill="#dcb878" stroke="#a7803d" stroke-width="1.5"/>
+<line x1="416.94" y1="325.93" x2="413.56" y2="318.68" stroke="#9a7a12" stroke-width="3"/>
+<circle cx="411.03" cy="313.25" r="7" fill="#e8c547" stroke="#9a7a12" stroke-width="1.5"/>
+<circle cx="190" cy="445" r="7" fill="#c9a227" stroke="#7a5e10" stroke-width="1.5"/>
+<line x1="177.32" y1="417.81" x2="168.87" y2="399.68" stroke="#222222" stroke-width="1.3"/>
+<line x1="381.24" y1="322.72" x2="372.79" y2="304.6" stroke="#222222" stroke-width="1.3"/>
+<line x1="182.16" y1="404.52" x2="367.95" y2="317.88" stroke="#222222" stroke-width="1.3"/>
+<polygon points="376.11,314.08 368.74,321.93 365.35,314.68" fill="#222222"/>
+<polygon points="174,408.33 181.37,400.47 184.76,407.72" fill="#222222"/>
+<text x="266.6" y="350.78" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="419.28" y1="404.29" x2="406.18" y2="376.19" stroke="#e0245e" stroke-width="4"/>
+<polygon points="398.99,360.79 413.12,374.06 400.07,380.14" fill="#e0245e"/>
+<text x="437.28" y="412.69" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.18" dy="-14.88">→</tspan><tspan dx="0.49" dy="14.88">​</tspan><tspan font-style="normal">′</tspan></tspan></text>
+<text x="290" y="500" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="20" y="686" width="160" height="14" fill="#efdcb2" stroke="#a7803d" stroke-width="1"/>
+<polygon points="195.07,700.88 448.84,582.54 438.69,560.79 184.93,679.12" fill="#dcb878" stroke="#a7803d" stroke-width="1.5"/>
+<line x1="416.94" y1="570.93" x2="413.56" y2="563.68" stroke="#9a7a12" stroke-width="3"/>
+<circle cx="411.03" cy="558.25" r="7" fill="#e8c547" stroke="#9a7a12" stroke-width="1.5"/>
+<circle cx="190" cy="690" r="7" fill="#c9a227" stroke="#7a5e10" stroke-width="1.5"/>
+<line x1="177.32" y1="662.81" x2="168.87" y2="644.68" stroke="#222222" stroke-width="1.3"/>
+<line x1="304.2" y1="603.64" x2="295.75" y2="585.52" stroke="#222222" stroke-width="1.3"/>
+<line x1="182.16" y1="649.52" x2="290.92" y2="598.81" stroke="#222222" stroke-width="1.3"/>
+<polygon points="299.07,595 291.7,602.86 288.32,595.6" fill="#222222"/>
+<polygon points="174,653.33 181.37,645.47 184.76,652.72" fill="#222222"/>
+<text x="228.08" y="613.74" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-style="normal">′ = </tspan><tspan font-style="italic">r</tspan><tspan font-style="normal">′</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="355.76" y1="714.21" x2="329.14" y2="657.12" stroke="#e0245e" stroke-width="4"/>
+<polygon points="321.95,641.71 336.09,654.98 323.04,661.07" fill="#e0245e"/>
+<text x="373.76" y="722.61" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.18" dy="-14.88">→</tspan><tspan dx="0.49" dy="14.88">​</tspan></tspan></text>
+<text x="290" y="745" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="475" y="196" width="160" height="14" fill="#efdcb2" stroke="#a7803d" stroke-width="1"/>
+<polygon points="650.07,210.88 903.84,92.54 893.69,70.79 639.93,189.12" fill="#dcb878" stroke="#a7803d" stroke-width="1.5"/>
+<line x1="871.94" y1="80.93" x2="868.56" y2="73.68" stroke="#9a7a12" stroke-width="3"/>
+<circle cx="866.03" cy="68.25" r="7" fill="#e8c547" stroke="#9a7a12" stroke-width="1.5"/>
+<circle cx="645" cy="200" r="7" fill="#c9a227" stroke="#7a5e10" stroke-width="1.5"/>
+<line x1="666.13" y1="245.32" x2="657.68" y2="227.19" stroke="#222222" stroke-width="1.3"/>
+<line x1="870.05" y1="150.23" x2="861.6" y2="132.1" stroke="#222222" stroke-width="1.3"/>
+<line x1="670.97" y1="232.03" x2="856.76" y2="145.39" stroke="#222222" stroke-width="1.3"/>
+<polygon points="864.92,141.59 857.55,149.44 854.16,142.19" fill="#222222"/>
+<polygon points="662.81,235.83 670.18,227.98 673.56,235.23" fill="#222222"/>
+<text x="773.16" y="216.35" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="810.04" y1="21.53" x2="836.66" y2="78.63" stroke="#e0245e" stroke-width="4"/>
+<polygon points="843.85,94.04 829.72,80.76 842.77,74.68" fill="#e0245e"/>
+<text x="796.04" y="29.93" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.18" dy="-14.88">→</tspan><tspan dx="0.49" dy="14.88">​</tspan></tspan></text>
+<text x="745" y="255" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="475" y="441" width="160" height="14" fill="#efdcb2" stroke="#a7803d" stroke-width="1"/>
+<polygon points="650.07,455.88 903.84,337.54 893.69,315.79 639.93,434.12" fill="#dcb878" stroke="#a7803d" stroke-width="1.5"/>
+<line x1="871.94" y1="325.93" x2="868.56" y2="318.68" stroke="#9a7a12" stroke-width="3"/>
+<circle cx="866.03" cy="313.25" r="7" fill="#e8c547" stroke="#9a7a12" stroke-width="1.5"/>
+<circle cx="645" cy="445" r="7" fill="#c9a227" stroke="#7a5e10" stroke-width="1.5"/>
+<line x1="645" y1="349.91" x2="848.92" y2="349.91" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 4"/>
+<line x1="645" y1="445" x2="645" y2="349.91" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 4"/>
+<line x1="940.92" y1="349.91" x2="867.92" y2="349.91" stroke="#e0245e" stroke-width="4"/>
+<polygon points="850.92,349.91 868.92,342.71 868.92,357.11" fill="#e0245e"/>
+<text x="908.92" y="384.31" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.18" dy="-14.88">→</tspan><tspan dx="0.49" dy="14.88">​</tspan></tspan></text>
+<path d="M 768.92 349.91 A 80 80 0 0 0 776.41 383.72" fill="none" stroke="#222222" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="748.92" y="371.61" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="635" y="405.16" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">r</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<line x1="666.13" y1="490.32" x2="657.68" y2="472.19" stroke="#222222" stroke-width="1.3"/>
+<line x1="870.05" y1="395.23" x2="861.6" y2="377.1" stroke="#222222" stroke-width="1.3"/>
+<line x1="670.97" y1="477.03" x2="856.76" y2="390.39" stroke="#222222" stroke-width="1.3"/>
+<polygon points="864.92,386.59 857.55,394.44 854.16,387.19" fill="#222222"/>
+<polygon points="662.81,480.83 670.18,472.98 673.56,480.23" fill="#222222"/>
+<text x="772.32" y="459.53" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="745" y="500" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">e</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="475" y="686" width="160" height="14" fill="#efdcb2" stroke="#a7803d" stroke-width="1"/>
+<polygon points="650.07,700.88 903.84,582.54 893.69,560.79 639.93,679.12" fill="#dcb878" stroke="#a7803d" stroke-width="1.5"/>
+<line x1="871.94" y1="570.93" x2="868.56" y2="563.68" stroke="#9a7a12" stroke-width="3"/>
+<circle cx="866.03" cy="558.25" r="7" fill="#e8c547" stroke="#9a7a12" stroke-width="1.5"/>
+<circle cx="645" cy="690" r="7" fill="#c9a227" stroke="#7a5e10" stroke-width="1.5"/>
+<line x1="645" y1="690" x2="848.92" y2="594.91" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 4"/>
+<line x1="848.92" y1="594.91" x2="919.61" y2="561.95" stroke="#e0245e" stroke-width="4"/>
+<polygon points="935.02,554.76 921.75,568.89 915.66,555.84" fill="#e0245e"/>
+<text x="909.59" y="544.12" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.18" dy="-14.88">→</tspan><tspan dx="0.49" dy="14.88">​</tspan></tspan></text>
+<line x1="632.32" y1="662.81" x2="623.87" y2="644.68" stroke="#222222" stroke-width="1.3"/>
+<line x1="836.24" y1="567.72" x2="827.79" y2="549.6" stroke="#222222" stroke-width="1.3"/>
+<line x1="637.16" y1="649.52" x2="822.95" y2="562.88" stroke="#222222" stroke-width="1.3"/>
+<polygon points="831.11,559.08 823.74,566.93 820.35,559.68" fill="#222222"/>
+<polygon points="629,653.33 636.37,645.47 639.76,652.72" fill="#222222"/>
+<text x="721.6" y="595.78" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="633" y="671.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = 0°</tspan></text>
+<text x="795" y="719.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="745" y="745" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">f</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

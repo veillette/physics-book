@@ -71,14 +71,6 @@ function profile(segments) {
   return { d, y, slope };
 }
 
-/** Vertical dimension line from y1 to y2 at x, with end ticks and a label on a white patch. */
-function vdimension(svg, x, y1, y2, label, { size = 22, tick = 22 } = {}) {
-  svg.line(x - tick / 2, y1, x + tick / 2, y1, { color: BLACK, width: 1.5 });
-  svg.line(x - tick / 2, y2, x + tick / 2, y2, { color: BLACK, width: 1.5 });
-  svg.arrow(x, y1 + 1, x, y2 - 1, { color: BLACK, width: 1.5, head: 12, start: true });
-  if (label) svg.text(x, (y1 + y2) / 2, label, { size });
-}
-
 export default {
   // 4.5 — weight resolved parallel and perpendicular to an incline
   Figure_04_05_03: () => {
@@ -910,8 +902,8 @@ export default {
     svg.text(200, top - 16, 'v_0 = 0', { size: 22, anchor: 'start' });
 
     svg.line(190, top, 1020, top, { color: BLACK, width: 1.5, dash: '6 5' });
-    vdimension(svg, 390, top, bottom - 4, 'h = 25 \\rm{m}', { size: 24 });
-    vdimension(svg, 815, top, finish - 4, 'h = 20 \\rm{m}', { size: 24 });
+    svg.vdimension(390, top, bottom - 4, 'h = 25 \\rm{m}', { size: 24 });
+    svg.vdimension(815, top, finish - 4, 'h = 20 \\rm{m}', { size: 24 });
     svg.text(962, finish - 62, 'Finish', { size: 22, math: false });
     svg.text(962, finish - 32, 'v = ?', { size: 22 });
     return svg.render();
@@ -987,7 +979,7 @@ export default {
     svg.arrow(O[0], O[1], O[0], 8, { color: BLACK, width: 1.5, head: 12 });
     svg.line(...O, 972, O[1] - k * (972 - O[0]), { color: '#a01b3c', width: 4 });
     svg.line(X, Y, X, O[1], { color: '#2b8a99', width: 2.5, dash: '7 4' });
-    vdimension(svg, 927, Y, O[1], '', { tick: 16 });
+    svg.vdimension(927, Y, O[1], '', { tick: 16 });
     svg.text(948, (Y + O[1]) / 2, 'kx', { size: 22 });
     svg.line(O[0], O[1] + 6, O[0], O[1] + 30, { color: BLACK, width: 1.3 });
     svg.line(X, O[1] + 6, X, O[1] + 30, { color: BLACK, width: 1.3 });
