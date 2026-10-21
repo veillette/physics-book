@@ -607,6 +607,12 @@ stated in the text.
 
 We use the first condition for equilibrium (net force equals zero) to find the force at the elbow joint. The vertical forces acting on the forearm are the biceps force (upward), the elbow joint force (downward), and the weights of the forearm and book (both downward). Since we know the biceps force from the example, we can solve for the elbow joint force.
 
+**Free-body diagram**
+
+![The forearm pivots at the elbow (the origin). +x points from the elbow toward the hand and +y up, and counterclockwise torques are positive. The biceps pulls up with F_B = 470 N, 4.00 cm from the elbow; the forearm’s weight w_a = 24.5 N acts down at 16.0 cm and the book’s weight w_b = 39.2 N at 38.0 cm; the elbow joint pushes down on the forearm with F_E.](../resources/sketch_09_06_p01.svg){: .sketch}
+
+Take $$ +x $$ from the elbow toward the hand, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the elbow. The biceps force points along $$ +y $$, while $$ F_{\text{E}} $$, $$ w_{\text{a}} $$, and $$ w_{\text{b}} $$ point along $$ -y $$, so $$ \sum F_y = F_{\text{B}} - F_{\text{E}} - w_{\text{a}} - w_{\text{b}} = 0 $$.
+
 **Solution**
 
 From [Figure 1](#Figure1) and Example 1:
@@ -678,6 +684,12 @@ Two muscles in the back of the leg pull on the Achilles tendon as shown in [Figu
 
 The two muscles pull on the Achilles tendon at equal angles of 20° from the vertical (from the figure). Each muscle exerts a force of 200 N. We need to find the vector sum of these two forces, which requires adding their components.
 
+**Vector diagram**
+
+![Axes with +x to the right and +y up (along the leg). Each muscle pulls on the tendon with 200 N, one at 20° to the left of +y and one at 20° to the right of +y. Their x-components, −68.4 N and +68.4 N, cancel; their y-components add along +y.](../resources/sketch_09_06_p02.svg){: .sketch}
+
+Take $$ +x $$ to the right and $$ +y $$ upward along the leg. The two 200-N forces lie 20° on either side of $$ +y $$, so their $$ x $$-components have opposite signs and cancel, while their $$ y $$-components are both positive.
+
 **Solution**
 
 From [Figure 5](#Figure5), each muscle exerts 200 N at an angle of 20° from vertical.
@@ -734,6 +746,12 @@ The upper leg muscle (quadriceps) exerts a force of 1250 N, which is carried by 
 **Strategy**
 
 The kneecap acts as a pulley that changes the direction of the tendon force. The quadriceps exerts a tension force of 1250 N at 55° above horizontal, and this same tension continues through the kneecap at 75° below horizontal. The kneecap must exert a force on the femur to maintain equilibrium. We use vector addition to find the net force the kneecap exerts on the femur.
+
+**Vector diagram**
+
+![Axes with +x to the right and +y up. Both tendon forces on the kneecap have magnitude 1250 N and point to the left (−x side): T_1 toward the quadriceps at 55° above the −x axis, and T_2 toward the lower leg at 75° below the −x axis. Their resultant F points 10° below −x (190° from +x).](../resources/sketch_09_06_p03.svg){: .sketch}
+
+Take $$ +x $$ to the right and $$ +y $$ upward, as in the figure. Both tendon forces on the kneecap point to the left: $$ \vb{T}_1 $$ at 55° above the $$ -x $$ axis and $$ \vb{T}_2 $$ at 75° below it, so both $$ x $$-components are negative and their $$ y $$-components have opposite signs.
 
 **Solution**
 
@@ -810,6 +828,12 @@ in [Applications of Statics, Including Problem-Solving Strategies](./ch9Applicat
 
 Choose the lower leg as the system and take torques about the knee so the unknown joint reaction has zero lever arm.
 
+**Free-body diagram**
+
+![The lower leg is a vertical lever pivoting at the knee (the origin). +x points to the right and +y up, and counterclockwise torques are positive. The muscle force F_M pulls along −x at r′⊥ = 2.0 cm above the pivot (counterclockwise torque); the machine’s tension T = 98 N pulls along −x at r⊥ = 35 cm below the pivot (clockwise torque).](../resources/sketch_09_06_p04.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the knee. Both forces point along $$ -x $$: $$ F_{\text{M}} $$ acts 2.0 cm above the pivot (counterclockwise, positive) and $$ T $$ acts 35 cm below it (clockwise, negative), so $$ F_{\text{M}} r'_{\perp} - T r_{\perp} = 0 $$.
+
 **Solution**
 
 **Following the Problem-Solving Strategy for Static Equilibrium:**
@@ -881,6 +905,12 @@ head in place.")
 
 Three forces act on the head: the weight (50 N downward), the muscle force (60 N at 33° below the horizontal, as shown in the figure), and the vertebral force $$ \vb{F}_{\text{V}} $$. All three act through the center of mass, so there is no net torque; we only need the first condition for equilibrium. We break all forces into components and solve for the magnitude and direction of $$ \vb{F}_{\text{V}} $$.
 
+**Vector diagram**
+
+![Axes with +x to the right (toward the face) and +y up. All three forces act through the center of mass: the weight W = 50 N along −y; the muscle force F_M = 60 N at 33° below +x; and the unknown vertebral force F_V, up and to the left at an unknown angle θ above the −x axis.](../resources/sketch_09_06_p05.svg){: .sketch}
+
+Take $$ +x $$ to the right (toward the face) and $$ +y $$ upward. The weight points along $$ -y $$ and the muscle force has components $$ (+F_{\text{M}}\cos{33^\circ}, -F_{\text{M}}\sin{33^\circ}) $$, so $$ \vb{F}_{\text{V}} $$ must have a negative $$ x $$-component and a positive $$ y $$-component.
+
 **Solution**
 
 Take positive $$x$$ to the right (toward the face in Figure 8) and positive $$y$$ upward.
@@ -945,6 +975,12 @@ and the forearm is in a downward position.
 
 Keep the same idealization as [Figure 1](#Figure1): the biceps force remains **vertical**. When the forearm rotates to 120° between forearm and upper arm (30° below horizontal), the perpendicular lever arms of the vertical biceps force and of the vertically downward weights all acquire the same $$ \cos{30°} $$ factor about the elbow. Those factors cancel in the torque balance, so the required biceps force is unchanged from the 90° case.
 
+**Free-body diagram**
+
+![The forearm pivots at the elbow (the origin) and points 30° below the horizontal. +x points to the right and +y up, and counterclockwise torques are positive. As in Figure 1, the biceps force F_B is vertical (up, 4.00 cm along the forearm) and the weights w_a (at 16.0 cm) and w_b (at 38.0 cm) are vertical (down). The perpendicular lever arm of each vertical force is its distance along the forearm times cos 30°.](../resources/sketch_09_06_p06.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the elbow. Every force is vertical, so each perpendicular lever arm is the horizontal distance from the elbow, that is, the distance along the forearm times $$ \cos{30^\circ} $$.
+
 **Solution**
 
 From [Figure 1](#Figure1):
@@ -1002,6 +1038,12 @@ Even when the head is held erect, as in [Figure 9](#Figure9), its center of mass
 
 The head is in equilibrium under three forces: its weight (50 N), the muscle force at the back of the neck, and the force from the atlanto-occipital joint (pivot). We use the second condition for equilibrium (net torque = 0) with the pivot as the reference point to find the muscle force in part (a), then use the first condition for equilibrium (net force = 0) to find the joint force in part (b).
 
+**Free-body diagram**
+
+![Torques are taken about the atlanto-occipital joint (the origin), with the face to the right. +x points toward the face and +y up, and counterclockwise torques are positive. The weight W = 50 N acts down 2.5 cm in front of the pivot (clockwise torque); the neck muscles pull down with F_m 5.0 cm behind it (counterclockwise torque); the joint pushes up with F_J at the pivot.](../resources/sketch_09_06_p07.svg){: .sketch}
+
+Take $$ +x $$ toward the face, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the joint. The weight (down, 2.5 cm in front) gives a clockwise (negative) torque and the muscle force (down, 5.0 cm behind) a counterclockwise (positive) one; vertically, $$ F_J - W - F_m = 0 $$.
+
 **Solution for (a)**
 
 From [Figure 9](#Figure9):
@@ -1009,7 +1051,7 @@ From [Figure 9](#Figure9):
 - Muscle force: $$ F_m $$ at $$ r_m = 5.0 \text{ cm} = 0.050 \m $$ behind pivot
 - Joint force: $$ F_J $$ at the pivot (zero lever arm)
 
-Taking torques about the pivot (clockwise positive):
+Taking torques about the pivot, with counterclockwise positive as in the sketch, the weight's torque is clockwise (negative). Its magnitude is
 
 <div class="equation">
 $$ \tau_{\text{weight}} = W \times r_w = (50 \N)(0.025 \m) = 1.25 \text{ N·m} \text{ (clockwise)} $$
@@ -1021,7 +1063,7 @@ The muscle must provide a counterclockwise torque. Since the muscle force is sho
 $$ \tau_{\text{muscle}} = F_m \times r_m = F_m (0.050 \m) \text{ (counterclockwise)} $$
 </div>
 
-For equilibrium:
+For equilibrium, the net torque is zero, $$ +F_m r_m - W r_w = 0 $$, so the two magnitudes are equal:
 
 <div class="equation">
 $$ \tau_{\text{muscle}} = \tau_{\text{weight}} $$
@@ -1083,6 +1125,12 @@ A 75-kg man stands on his toes by exerting an upward force through the Achilles 
 **Strategy**
 
 The man stands on one foot, so the normal force from the ground equals his full weight. We use the lever system shown in the figure, with the ball of the foot (where the toes touch the ground) providing the normal force, the ankle joint as the pivot, and the Achilles tendon pulling upward at the back. For part (a), we use torque equilibrium to find the Achilles tendon force. For part (b), we use force equilibrium to find the ankle joint force.
+
+**Free-body diagram**
+
+![Torques are taken about the ankle pivot (the origin), with the toes to the right. +x points toward the toes and +y up, and counterclockwise torques are positive. The Achilles tendon pulls up with F_A, 4.0 cm behind the pivot (clockwise torque); the floor pushes up on the ball of the foot with N = 735 N, 12 cm in front of it (counterclockwise torque); the pivot force F_P on the foot points down.](../resources/sketch_09_06_p08.svg){: .sketch}
+
+Take $$ +x $$ toward the toes, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the ankle. The floor's push $$ N $$ (up, 12 cm in front) gives a positive torque and the Achilles force $$ F_A $$ (up, 4.0 cm behind) a negative one; vertically, $$ F_A + N - F_P = 0 $$.
 
 **Solution for (a)**
 
@@ -1147,6 +1195,12 @@ A father lifts his child as shown in [Figure 11](#Figure11). What force should t
 **Strategy**
 
 We apply the conditions for equilibrium (constant speed means equilibrium). The knee is the pivot point. We must account for the torques from the child's weight, the leg's weight, and the quadriceps muscle force.
+
+**Free-body diagram**
+
+![The lower leg pivots at the knee (the origin). +x points from the knee toward the foot and +y up, and counterclockwise torques are positive. The quadriceps force F_Q acts 2.0 cm from the knee (perpendicular lever arm) and gives a counterclockwise torque; the leg’s weight w_leg = 39.2 N acts down at 20.0 cm and the child’s weight w_child = 98 N at 38.0 cm (clockwise torques).](../resources/sketch_09_06_p09.svg){: .sketch}
+
+Take $$ +x $$ from the knee toward the foot, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the knee. The quadriceps force gives a positive torque with its 2.0-cm perpendicular lever arm; the two weights, acting down at 20.0 cm and 38.0 cm, give negative torques.
 
 **Solution**
 
@@ -1213,6 +1267,12 @@ is attached relatively far from the joint, enabling large forces to be exerted b
 **Strategy**
 
 The masseter muscle attaches relatively far from the jaw joint compared with most muscles. We use torque equilibrium about the jaw joint to find the force on the bullet in part (a), and force equilibrium to find the joint force in part (b).
+
+**Free-body diagram**
+
+![The jaw pivots at the jaw joint (the origin), with the teeth to the right. +x points toward the teeth and +y up, and counterclockwise torques are positive. The masseter pulls up with F_M = 200 N, 2.9 cm from the joint (counterclockwise torque); the bullet pushes down on the teeth with F_T, 5.0 cm from the joint (clockwise torque); the joint pushes down with F_J.](../resources/sketch_09_06_p10.svg){: .sketch}
+
+Take $$ +x $$ from the jaw joint toward the teeth, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the joint. The masseter's upward pull at 2.9 cm gives a positive torque and the bullet's downward push on the teeth at 5.0 cm a negative one; vertically, $$ F_M - F_T - F_J = 0 $$.
 
 **Solution for (a)**
 
@@ -1377,6 +1437,12 @@ In part (a), the rope must stretch only 6.53 cm to replace the 4.0-kg book, demo
 
 For part (a), we treat the woman's body as a rigid lever with the toes as the pivot point. Using torque equilibrium, we find the force on her hands. For part (b), we analyze one arm as a lever system with the elbow as pivot to find the triceps force. For part (c), we calculate work done against gravity. For part (d), we find power from work and time.
 
+**Free-body diagram**
+
+![The body is a rigid lever pivoting at the toes (the origin). +x points from the feet toward the head and +y up, and counterclockwise torques are positive. Her weight W = 490 N acts down 0.90 m from the toes (clockwise torque); the floor pushes up on the two hands with a total of 2F_hand, 1.50 m from the toes (counterclockwise torque).](../resources/sketch_09_06_p12.svg){: .sketch}
+
+For part (a), take $$ +x $$ from the toes toward the head, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the toes. The floor's upward push on both hands, $$ 2F_{\text{hand}} $$ at 1.50 m, gives a positive torque and the weight at 0.90 m a negative one.
+
 **Solution for (a)**
 
 From [Figure 13](#Figure13):
@@ -1476,6 +1542,12 @@ You have just planted a sturdy 2-m-tall palm tree in your front lawn for your mo
 
 For part (a), we use the impulse-momentum theorem to find the force from the ball. For part (b), we apply torque equilibrium about the pivot point (base of tree) to find the force the roots must provide. Part (c) requires practical application of statics principles.
 
+**Free-body diagram**
+
+![The tree pivots about its base at ground level (the origin). +x points in the direction the ball was moving and +y up, and counterclockwise torques are positive. The ball pushes the top of the tree along +x with F_ball = 250 N, 2.0 m above the base (clockwise torque); the soil pushes the root tip along +x with F_root, 0.20 m below the base (counterclockwise torque).](../resources/sketch_09_06_p13.svg){: .sketch}
+
+Take $$ +x $$ in the direction the ball was moving, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the base of the trunk. The ball's push along $$ +x $$ at the top, 2.0 m up, gives a clockwise (negative) torque. The soil's push on the root tip, 0.20 m below the base, must also point along $$ +x $$ to give the balancing counterclockwise (positive) torque.
+
 **Solution for (a)**
 
 Using the impulse-momentum theorem: $$ F \Delta t = \Delta p $$
@@ -1564,6 +1636,12 @@ center of mass over the pivot. The first child has a mass of 30.0 kg and sits
 **Strategy**
 
 We use torque equilibrium about the pivot to find where the second child must sit. Since the seesaw is uniform with its center of mass at the pivot, the seesaw's weight creates no torque. We then examine whether the calculated position is physically possible given the length of the seesaw.
+
+**Free-body diagram**
+
+![The 3.00-m seesaw pivots at its center (the origin), so each side is 1.50 m long. +x points to the right and +y up, and counterclockwise torques are positive. The 30.0-kg child sits 1.40 m to the left of the pivot (counterclockwise torque); the 18.0-kg child would have to sit r_2 to the right (clockwise torque), beyond the 1.50-m end of the board.](../resources/sketch_09_06_p14.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the center of the seesaw and the 30.0-kg child on the left. Then $$ m_1 g r_1 - m_2 g r_2 = 0 $$, and the sketch shows the answer $$ r_2 $$ landing past the 1.50-m end of the board.
 
 **Solution for (a)**
 

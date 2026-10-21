@@ -426,6 +426,12 @@ A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool
 
 For part (a), we use the impulse-momentum theorem. The ball reverses direction, so the change in momentum includes both the original momentum and the rebound momentum. For parts (b) and (c), we compare kinetic energies before and after.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the ball’s initial direction, toward the bumper. Before: v_i = +3.00 m/s. During the 0.0150-s contact the bumper pushes the ball along −x. After: v_f = −2.40 m/s, moving away from the bumper.](../resources/sketch_08_05_p01.svg){: .sketch}
+
+Take $$ +x $$ in the ball's initial direction, toward the bumper. Then $$ v_i = +3.00\ms $$ and the rebound velocity is $$ v_f = -2.40\ms $$; a negative average force means the bumper pushes the ball along $$ -x $$, away from the bumper.
+
 **Solution**
 
 **Part (a)**
@@ -485,6 +491,12 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 **Strategy**
 
 This is a perfectly inelastic collision where the skaters stick together. We use conservation of momentum to find the final velocity, then compare kinetic energies.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the leaping skater’s direction of motion. Before: skater 1 (60.0 kg) moves at v_1 = +4.00 m/s and skater 2 (75.0 kg) is at rest. After the catch they move together with unknown velocity v_f.](../resources/sketch_08_05_p02.svg){: .sketch}
+
+Take $$ +x $$ in the leaping skater's direction of motion, so $$ v_1 = +4.00\ms $$ and $$ v_2 = 0 $$. A positive $$ v_f $$ means the pair moves the way the leaping skater was going.
 
 **Solution**
 
@@ -625,6 +637,12 @@ energy released by the gun powder—significant heat transfer occurs.
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum for part (a) and calculate the total kinetic energy after firing for part (b).
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the shell is fired (toward the rear of the ship). Before: ship and shell are at rest. After: the shell moves at v_shell = +575 m/s and the ship recoils with unknown velocity v_ship (along −x).](../resources/sketch_08_05_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction the shell is fired (toward the rear of the ship), so $$ v_{\text{shell}} = +575\ms $$. Since the total momentum stays zero, $$ v_{\text{ship}} $$ comes out negative: the ship recoils along $$ -x $$, toward its bow.
+
 **Solution**
 
 **Part (a)**
@@ -685,6 +703,12 @@ both.
 **Strategy**
 
 This is a perfectly inelastic collision (docking). We analyze it in two different reference frames. In each frame, we apply conservation of momentum to find the final velocity, then calculate the kinetic energy loss. The key insight is that while velocities are frame-dependent, energy loss is the same in all inertial frames.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points from satellite 2 toward satellite 1 in both frames. (a) Frame where satellite 1 is at rest: satellite 2 (7.50 × 10³ kg) approaches at v_2 = +0.250 m/s; after docking both move at unknown v_f. (c) Frame where satellite 2 is at rest: satellite 1 (4.00 × 10³ kg) approaches at v_1 = −0.250 m/s; after docking both move at unknown v_f.](../resources/sketch_08_05_p05.svg){: .sketch}
+
+In both frames take $$ +x $$ from satellite 2 toward satellite 1. In the frame of part (a), satellite 2 approaches with $$ v_2 = +0.250\ms $$; in the frame of part (c), satellite 1 approaches with $$ v_1 = -0.250\ms $$. The sign of $$ v_f $$ then tells which way the docked pair moves in each frame.
 
 **Solution**
 
@@ -805,6 +829,12 @@ a hopper that dumps 110 000 kg of scrap metal into it.
 
 This is a perfectly inelastic collision where the scrap metal (initially at rest horizontally) joins the moving freight car. We apply conservation of horizontal momentum.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the freight car coasts. Before: the car (30 000 kg) moves at +0.850 m/s, and the scrap (110 000 kg) falls straight down, so its x-velocity is zero. After: the loaded car moves with unknown velocity v_f.](../resources/sketch_08_05_p06.svg){: .sketch}
+
+Take $$ +x $$ in the direction the freight car coasts, so $$ v_{\text{car}} = +0.850\ms $$. The scrap falls straight down, so its $$ x $$-velocity is zero; only $$ x $$-momentum is conserved, because the track supplies the vertical forces.
+
 **Solution**
 
 **Part (a)**
@@ -865,6 +895,12 @@ the frame of reference in which they were at rest before separation?
 
 This is an "explosion" problem where initial momentum is zero and energy is added. We use two equations: conservation of momentum (gives relationship between velocities) and the kinetic energy equation (gives magnitudes).
 
+**Sketch and coordinate system**
+
+![Frame in which both are at rest before separation. A horizontal +x axis points in the direction the satellite moves after separation. After: the satellite (4800 kg) moves with v_1 along +x and the launcher (1500 kg) with v_2 along −x; both are unknown, and 5000 J of kinetic energy is supplied.](../resources/sketch_08_05_p07.svg){: .sketch}
+
+Take $$ +x $$ in the direction the satellite moves after separation, in the frame where both parts start at rest. Then $$ v_1 $$ is positive, and conservation of momentum makes the launcher's velocity $$ v_2 = -3.2\,v_1 $$ negative.
+
 **Solution**
 
 Conservation of momentum (initial momentum = 0):
@@ -922,6 +958,12 @@ A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg r
 **Strategy**
 
 We use conservation of momentum to find recoil velocities. The rifle (or rifle-shoulder system) recoils with momentum equal and opposite to the bullet. Then we calculate kinetic energies.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the bullet is fired. Before: rifle and bullet are at rest. After: the bullet (0.0250 kg) moves at +550 m/s and the rifle (3.00 kg, or 28.0 kg held against the shoulder) recoils with unknown velocity along −x.](../resources/sketch_08_05_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction the bullet is fired, so $$ v_{\text{bullet}} = +550\ms $$. The total momentum stays zero, so the rifle's velocity comes out negative: it recoils along $$ -x $$.
 
 **Solution**
 
@@ -997,6 +1039,12 @@ given here are accurate to three digits only.
 **Strategy**
 
 This is similar to an explosion problem: initial momentum is zero, and energy is released. We use conservation of momentum and the kinetic energy equation to solve for both velocities.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the helium nucleus moves. Before: the plutonium-239 nucleus is at rest. After: the helium-4 nucleus moves with v_He along +x and the uranium-235 nucleus recoils with v_U along −x; both are unknown.](../resources/sketch_08_05_p09.svg){: .sketch}
+
+Take $$ +x $$ in the direction the helium nucleus moves, so $$ v_{\text{He}} $$ is positive. With the plutonium nucleus initially at rest, $$ v_{\text{U}} = -(m_{\text{He}}/m_{\text{U}})\,v_{\text{He}} $$ is negative: the uranium nucleus recoils along $$ -x $$.
 
 **Solution**
 
@@ -1183,6 +1231,12 @@ is their velocity just after impact if they cling together?
 
 This is a perfectly inelastic collision where the players stick together. We apply conservation of momentum, noting that they are moving in opposite directions.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the first player’s direction of motion. Before: player 1 (95.0 kg) moves at v_1 = +6.00 m/s and player 2 (115 kg) at v_2 = −3.50 m/s, toward each other. After, they cling together with unknown velocity v_f.](../resources/sketch_08_05_p11.svg){: .sketch}
+
+Take $$ +x $$ in the first player's direction of motion, as the problem's signs already do, so $$ v_1 = +6.00\ms $$ and $$ v_2 = -3.50\ms $$. A positive $$ v_f $$ means the pair moves the way the first player was going.
+
 **Solution**
 
 Apply conservation of momentum:
@@ -1260,6 +1314,12 @@ During a circus act, an elderly performer thrills the crowd by catching a cannon
 
 This is a perfectly inelastic collision. The performer (initially at rest on frictionless roller skates) catches and holds the cannon ball. We apply conservation of horizontal momentum.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction of the cannon ball’s horizontal motion. Before: the ball (10.0 kg) moves at v_x = +8.00 m/s and the performer (65.0 kg) is at rest on roller skates. After the catch they move together with unknown velocity v_f.](../resources/sketch_08_05_p13.svg){: .sketch}
+
+Take $$ +x $$ in the direction of the cannon ball's horizontal motion, so $$ v_{\text{ball}} = +8.00\ms $$ and the performer starts with $$ v = 0 $$. Only horizontal momentum is conserved, since the ground supplies the vertical forces.
+
 **Solution**
 
 Apply conservation of momentum:
@@ -1299,6 +1359,12 @@ The performer recoils at a modest 1.07 m/s (about 3.8 km/h or walking speed) des
 **Strategy**
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum to find the barbell's mass, then calculate the total kinetic energy gained.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the barbell is thrown. Before: the clown (80.0 kg) and barbell are at rest. After: the barbell moves at +10.0 m/s and the clown recoils at −0.500 m/s; the barbell’s mass is unknown.](../resources/sketch_08_05_p14.svg){: .sketch}
+
+Take $$ +x $$ in the direction the barbell is thrown, so $$ v_{\text{barbell}} = +10.0\ms $$ and the clown's recoil velocity is $$ v_{\text{clown}} = -0.500\ms $$.
 
 **Solution**
 

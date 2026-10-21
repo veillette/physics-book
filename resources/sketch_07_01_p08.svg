@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="330" viewBox="0 0 620 330" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the rescue sled lowered down the slope</title>
+<desc id="desc">A 60.0° slope descends to the right. Tilted axes: +x points down the slope, the direction of motion, and +y points perpendicular to the slope, away from it. Forces on the sled: rope tension T and friction f point up the slope (−x), the normal force N along +y, and the weight w straight down, whose component along +x is mg sin 60.0°. The displacement d = 30.0 m points along +x; the speed is constant.</desc>
+<rect width="620" height="330" fill="#ffffff"/>
+<polygon points="400,300 250,300 250,40.19" fill="#efe6dc" stroke="#8d6e63" stroke-width="1.5"/>
+<path d="M 381 267.09 A 38 38 0 0 0 362 300" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="351.5" y="277.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60.0°</tspan></text>
+<polygon points="321.79,146.54 343.79,184.65 362.85,173.65 340.85,135.54" fill="#d6e4f0" stroke="#1f3a5f" stroke-width="2"/>
+<text x="382.32" y="166.65" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">sled</tspan></text>
+<line x1="342.32" y1="160.1" x2="376.4" y2="219.12" stroke="#c0675e" stroke-width="2.2" stroke-dasharray="6 4"/>
+<polygon points="381.32,227.65 372.15,220.43 379.66,216.09" fill="#c0675e"/>
+<text x="392" y="246.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#c0675e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 60.0°</tspan></text>
+<line x1="342.32" y1="160.1" x2="342.32" y2="223.5" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="342.32,235.1 337.28,222.5 347.36,222.5" fill="#b03a2e"/>
+<text x="332.32" y="237.7" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mg</tspan></text>
+<line x1="342.32" y1="160.1" x2="377.31" y2="139.9" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="387.35,134.1 378.96,144.76 373.92,136.03" fill="#b03a2e"/>
+<text x="398.61" y="132.2" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<line x1="342.32" y1="160.1" x2="312.12" y2="107.79" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="306.32,97.74 316.99,106.13 308.26,111.17" fill="#b03a2e"/>
+<text x="299.82" y="90.35" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<line x1="337.46" y1="183.68" x2="323.26" y2="159.09" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="317.46,149.04 328.13,157.44 319.4,162.48" fill="#b03a2e"/>
+<text x="294.96" y="145.65" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<line x1="341.78" y1="39.16" x2="420.98" y2="176.34" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="426.78,186.39 416.12,178 424.85,172.96" fill="#1f77c8"/>
+<text x="410.93" y="114.54" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="440" y1="80" x2="475.5" y2="141.49" stroke="#555555" stroke-width="1.5"/>
+<polygon points="480,149.28 471.54,142.62 478.46,138.62" fill="#555555"/>
+<text x="488" y="169.09" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="488" y="184.51" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">down</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">slope</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="440" y1="80" x2="484.17" y2="54.5" stroke="#555555" stroke-width="1.5"/>
+<polygon points="491.96,50 485.3,58.46 481.3,51.54" fill="#555555"/>
+<text x="505.82" y="47.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="505.82" y="63.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">out</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">slope</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

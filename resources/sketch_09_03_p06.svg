@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the chicken leaning into the wind</title>
+<desc id="desc">The chicken pivots about its foot (the origin). +x points to the right, the direction the wind blows, and +y up, and counterclockwise torques are positive. The center of gravity is 9.0 cm to the left of the foot and 20 cm above it. The weight W, acting down at the center of gravity, gives a counterclockwise torque; the wind force F_wind, pushing along +x at the height of the center of gravity, gives a clockwise torque.</desc>
+<rect width="560" height="300" fill="#ffffff"/>
+<line x1="60" y1="260" x2="520" y2="260" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="66" y1="260" x2="58" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="80" y1="260" x2="72" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="94" y1="260" x2="86" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="108" y1="260" x2="100" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="122" y1="260" x2="114" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="136" y1="260" x2="128" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="150" y1="260" x2="142" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="164" y1="260" x2="156" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="178" y1="260" x2="170" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="192" y1="260" x2="184" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="206" y1="260" x2="198" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="220" y1="260" x2="212" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="234" y1="260" x2="226" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="248" y1="260" x2="240" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="262" y1="260" x2="254" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="276" y1="260" x2="268" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="290" y1="260" x2="282" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="304" y1="260" x2="296" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="318" y1="260" x2="310" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="332" y1="260" x2="324" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="346" y1="260" x2="338" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="360" y1="260" x2="352" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="374" y1="260" x2="366" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="388" y1="260" x2="380" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="402" y1="260" x2="394" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="416" y1="260" x2="408" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="430" y1="260" x2="422" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="444" y1="260" x2="436" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="458" y1="260" x2="450" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="472" y1="260" x2="464" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="486" y1="260" x2="478" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="500" y1="260" x2="492" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="514" y1="260" x2="506" y2="269" stroke="#8d6e63" stroke-width="1.1"/>
+<polygon points="340,248 331.6,260 348.4,260" fill="#999999" stroke="#555555" stroke-width="1.2"/>
+<line x1="340" y1="260" x2="259" y2="80" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="259" cy="80" r="7" fill="#1f3a5f"/>
+<text x="259" y="68.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cg</tspan></text>
+<line x1="259" y1="80" x2="259" y2="128.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="259,140 253.96,127.4 264.04,127.4" fill="#b03a2e"/>
+<text x="249" y="141.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> = 24.5 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="139" y1="80" x2="237.4" y2="80" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="249,80 236.4,85.04 236.4,74.96" fill="#b03a2e"/>
+<text x="189" y="69.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">wind</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="266" y1="286" x2="333" y2="286" stroke="#444444" stroke-width="1.2"/>
+<polygon points="340,286 332,289.2 332,282.8" fill="#444444"/>
+<polygon points="259,286 267,282.8 267,289.2" fill="#444444"/>
+<text x="299.5" y="280.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">9.0 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="259" y1="140" x2="259" y2="292" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="390" y1="253" x2="390" y2="87" stroke="#444444" stroke-width="1.2"/>
+<polygon points="390,80 393.2,88 386.8,88" fill="#444444"/>
+<polygon points="390,260 386.8,252 393.2,252" fill="#444444"/>
+<text x="398" y="175.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="267" y1="80" x2="396" y2="80" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="354" y="248.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">foot</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">pivot</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="440" y1="90" x2="477" y2="90" stroke="#555555" stroke-width="1.5"/>
+<polygon points="486,90 476,94 476,86" fill="#555555"/>
+<text x="502" y="95.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="440" y1="90" x2="440" y2="53" stroke="#555555" stroke-width="1.5"/>
+<polygon points="440,44 444,54 436,54" fill="#555555"/>
+<text x="440" y="33.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 44.96 45.47 A 16 16 0 1 0 65.47 24.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="71.11" y1="27.02" x2="67.16" y2="25.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="63.59,24.28 68.76,24.12 67.45,27.73" fill="#555555"/>
+<text x="84" y="44.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

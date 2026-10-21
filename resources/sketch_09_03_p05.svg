@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the braced wall in the wind</title>
+<desc id="desc">Side view of the 17.0-m wall, pivoting at its base (the origin). +x points to the right (the direction the wind pushes) and +y up, and counterclockwise torques are positive. The wind force F_wind acts along +x halfway up, 8.50 m above the base (clockwise torque). Each brace pushes on the wall at 8.50 m along the brace, 35.0° from the wall, up and to the left; its horizontal component F_B sin 35.0° points along −x (counterclockwise torque).</desc>
+<rect width="560" height="360" fill="#ffffff"/>
+<line x1="40" y1="320" x2="520" y2="320" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="46" y1="320" x2="38" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="60" y1="320" x2="52" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="74" y1="320" x2="66" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="88" y1="320" x2="80" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="102" y1="320" x2="94" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="116" y1="320" x2="108" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="130" y1="320" x2="122" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="144" y1="320" x2="136" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="158" y1="320" x2="150" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="172" y1="320" x2="164" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="186" y1="320" x2="178" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="200" y1="320" x2="192" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="214" y1="320" x2="206" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="228" y1="320" x2="220" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="242" y1="320" x2="234" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="256" y1="320" x2="248" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="270" y1="320" x2="262" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="284" y1="320" x2="276" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="298" y1="320" x2="290" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="312" y1="320" x2="304" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="326" y1="320" x2="318" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="340" y1="320" x2="332" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="354" y1="320" x2="346" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="368" y1="320" x2="360" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="382" y1="320" x2="374" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="396" y1="320" x2="388" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="410" y1="320" x2="402" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="424" y1="320" x2="416" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="438" y1="320" x2="430" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="452" y1="320" x2="444" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="466" y1="320" x2="458" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="480" y1="320" x2="472" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="494" y1="320" x2="486" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="508" y1="320" x2="500" y2="329" stroke="#8d6e63" stroke-width="1.1"/>
+<rect x="252" y="48" width="16" height="272" fill="#e8dcd0" stroke="#8d6e63" stroke-width="1.5"/>
+<polygon points="260,318 253,328 267,328" fill="#999999" stroke="#555555" stroke-width="1.2"/>
+<line x1="150" y1="184" x2="240.4" y2="184" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="252,184 239.4,189.04 239.4,178.96" fill="#b03a2e"/>
+<text x="170" y="173.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">wind</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="268" y1="184" x2="382.72" y2="347.83" stroke="#8d6e63" stroke-width="6"/>
+<line x1="268" y1="184" x2="228.77" y2="127.97" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="222.11,118.47 233.47,125.9 225.21,131.68" fill="#b03a2e"/>
+<text x="210" y="119.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">B</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="268" y1="198" x2="231.84" y2="198" stroke="#c0675e" stroke-width="2.2" stroke-dasharray="6 4"/>
+<polygon points="222,198 232.84,193.66 232.84,202.34" fill="#c0675e"/>
+<text x="220" y="228.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#c0675e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">B</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 35.0°</tspan></text>
+<line x1="268" y1="114" x2="268" y2="184" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 268 224 A 40 40 0 0 0 290.94 216.77" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="285.44" y="244.57" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">35.0°</tspan></text>
+<line x1="320" y1="313" x2="320" y2="191" stroke="#444444" stroke-width="1.2"/>
+<polygon points="320,184 323.2,192 316.8,192" fill="#444444"/>
+<polygon points="320,320 316.8,312 323.2,312" fill="#444444"/>
+<text x="328" y="257.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8.50 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="260" y="346.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">pivot</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">base</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="60" y1="90" x2="97" y2="90" stroke="#555555" stroke-width="1.5"/>
+<polygon points="106,90 96,94 96,86" fill="#555555"/>
+<text x="122" y="95.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="60" y1="90" x2="60" y2="53" stroke="#555555" stroke-width="1.5"/>
+<polygon points="60,44 64,54 56,54" fill="#555555"/>
+<text x="60" y="33.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 124.96 55.47 A 16 16 0 1 0 145.47 34.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="151.11" y1="37.02" x2="147.16" y2="35.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="143.59,34.28 148.76,34.12 147.45,37.73" fill="#555555"/>
+<text x="164" y="54.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+<text x="380" y="308.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">brace</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">one</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> 10)</tspan></text>
+</svg>

@@ -251,6 +251,12 @@ in [Work, Energy, and Power in Humans](./ch7WorkEnergyAndPowerInHumans)
 
 For part (a), use torque equilibrium about the feet to find the force on the arms. From the figure, her mass is 50.0 kg, the center of gravity is 0.900 m from the feet, and the arms support the body at 1.50 m from the feet. For part (b), calculate work done against gravity as the center of mass rises. For part (c), find power from total work done in a given time.
 
+**Sketch and coordinate system**
+
+![The woman’s body is a rigid plank pivoting at her feet. +x points to the right (from feet toward head), +y points up, and counterclockwise torques are positive. Her weight w = 490 N acts down at 0.900 m from the feet, giving a clockwise (negative) torque; the floor pushes up on her hands with F at 1.50 m from the feet, giving a counterclockwise (positive) torque.](../resources/sketch_07_09_p01.svg){: .sketch}
+
+Take $$ +x $$ from the feet toward the head, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the feet. The upward force $$ F $$ on the hands then gives a positive torque $$ +F(1.50\m) $$ and the weight gives a negative torque $$ -w(0.900\m) $$.
+
 **Solution**
 
 **(a)** Taking torques about the feet (where normal force acts), with counterclockwise positive:
@@ -332,6 +338,12 @@ velocity of 10.0 m/s?
 **Strategy**
 
 For part (a), at constant speed, the skier must exert force to overcome both the component of gravity down the slope and air resistance. Power is $$ P = Fv $$.
+
+**Sketch and coordinate system**
+
+![Two panels. (a) On the 3.0° slope (drawn steeper): +x points up the slope, the direction of motion. The snow pushes the skier forward with F along +x (the reaction to his backward push); air resistance F_air = 25.0 N and the weight component mg sin θ point along −x. He moves at a constant 2.00 m/s. (c) On level snow: +x points in the direction of motion; F along +x and F_air along −x; the speed rises from 2.00 m/s to 10.0 m/s.](../resources/sketch_07_09_p02.svg){: .sketch}
+
+On the slope take $$ +x $$ up the incline, the direction of motion. The snow's forward push $$ F $$ on the skier points along $$ +x $$, while air resistance and the weight component $$ F_g = mg\sin{\theta} $$ point along $$ -x $$; at constant speed, $$ F - F_g - F_{\text{air}} = 0 $$. On the level, $$ +x $$ is still the direction of motion and $$ F_{\text{net}} = F - F_{\text{air}} $$.
 
 **Solution**
 
@@ -424,6 +436,12 @@ each 1.80 m long stroke.
 **Strategy**
 
 Use Newton's second law for parts (a) and (b). For part (a), find the initial acceleration. For part (b), use kinematics and work-energy considerations.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the swimmer moves. The water pushes him forward with F = 80.0 N along +x (the reaction to the backward push of his arms); water resistance, 45.0 N at the start, points along −x. His speed rises from 1.25 m/s to 2.50 m/s in 5.00 s.](../resources/sketch_07_09_p03.svg){: .sketch}
+
+Take $$ +x $$ in the direction the swimmer moves. The water's forward push on the swimmer (the reaction to his 80.0-N backward push) points along $$ +x $$ and the resistance along $$ -x $$, so $$ F_{\text{net}} = 80.0\N - F_{\text{resist}} $$.
 
 **Solution**
 
@@ -594,6 +612,12 @@ elevator is 1500 kg?
 **Strategy**
 
 Use Newton's second law for part (a). For parts (b)-(d), use work-energy relationships.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the elevator’s starting position (at rest) and a tick at 20.0 m. Forces on the elevator: cable force F_cable along +y, weight w = mg and friction f = 200 N along −y. The acceleration a = +0.800 m/s² points along +y; the displacement d = 20.0 m points along +y; the final speed is unknown.](../resources/sketch_07_09_p05.svg){: .sketch}
+
+Take $$ +y $$ upward. The cable force points along $$ +y $$, and the weight and the friction force point along $$ -y $$; the acceleration $$ a = +0.800\mss $$ and the displacement $$ d = +20.0\m $$ both point along $$ +y $$. Newton's second law is then $$ F_{\text{cable}} - mg - f = ma $$.
 
 **Solution**
 
@@ -971,6 +995,12 @@ support their weight as well as that to accelerate them.)
 **Strategy**
 
 Use energy conservation for part (a). For part (b), use work-energy theorem over the crouch distance. For part (c), calculate power from work and time.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the center of gravity’s normal standing height, where the feet leave the floor. Crouched: y = −0.400 m, at rest. Leaving the floor: y = 0, speed v unknown, directed along +y. Top of the jump: y = +0.950 m, v = 0. During the push-off the floor pushes up with F along +y and the weight w = mg points along −y.](../resources/sketch_07_09_p10.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the normal standing height, where the feet leave the floor. The push-off covers $$ \Delta y = +0.400\m $$ (from $$ -0.400\m $$ to 0), during which the floor's force $$ F $$ points along $$ +y $$ and the weight along $$ -y $$. Afterward the player rises to $$ y = +0.950\m $$, where $$ v = 0 $$.
 
 **Solution**
 

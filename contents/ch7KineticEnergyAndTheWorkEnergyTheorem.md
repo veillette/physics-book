@@ -684,6 +684,12 @@ The kinetic energy of the aircraft carrier is $$ 1.1 \times 10^{10} \J $$ (11 bi
 
 We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$. We apply this to both scenarios—normal braking and hitting an abutment—to compare the forces.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the car moves, with the origin where the stopping force starts to act. The car starts with v_0 = +25.0 m/s (90.0 km/h) and stops (v = 0) after a distance d: 120 m in part (a), 2.00 m in part (b). The stopping force F on the car points along −x, opposite to the displacement.](../resources/sketch_07_02_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car moves. The displacement is $$ +d $$ and the stopping force points along $$ -x $$, so its work is $$ W = -Fd $$, which must equal $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} $$.
+
 **Solution**
 
 First, convert the speed: $$ v_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
@@ -875,6 +881,12 @@ force of 30.0 N against him.
 **Strategy**
 
 The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F_{\text{wind}})d = \Delta \KE $$.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the sprinter runs. Over d = 25.0 m the speed rises from v_i = +2.00 m/s to v_f = +8.00 m/s. Forces on the sprinter along x: the track pushes forward with F_sprinter along +x (the reaction to his backward push on the track) and the headwind pushes back with F_wind = 30.0 N along −x.](../resources/sketch_07_02_p07.svg){: .sketch}
+
+Take $$ +x $$ in the direction the sprinter runs. The track's forward push on the sprinter, $$ F_{\text{sprinter}} $$ (equal in size to his backward push on the track), points along $$ +x $$ and the headwind force along $$ -x $$, so the net work over $$ d = +25.0\m $$ is $$ (F_{\text{sprinter}} - F_{\text{wind}})d $$.
 
 **Solution**
 

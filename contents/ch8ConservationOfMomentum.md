@@ -516,6 +516,12 @@ What is their final velocity?
 
 When the cars couple together, they undergo a perfectly inelastic collision. We apply conservation of momentum, with the final velocity being the same for both cars since they stick together.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the first car moves. Before: car 1 (150 000 kg) moves at v_1 = +0.300 m/s and car 2 (110 000 kg) moves toward it at v_2 = −0.120 m/s. After coupling they move together with unknown velocity v_f.](../resources/sketch_08_03_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction the first car moves, as the problem's signs already do. Then $$ v_1 = +0.300\ms $$ and $$ v_2 = -0.120\ms $$; a positive $$ v_f $$ means the coupled cars move the way the first car was going.
+
 **Solution**
 
 Apply conservation of momentum:
@@ -561,6 +567,12 @@ Both being soft clay, they naturally stick together. What is their final velocit
 **Strategy**
 
 This is a perfectly inelastic collision where two objects stick together. We apply conservation of momentum, recognizing that one object is initially at rest.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the first model slides. Before: model 1 (0.200 kg) moves at v_1 = +0.750 m/s and model 2 (0.350 kg) is at rest. After they stick, they move together with unknown velocity v_f.](../resources/sketch_08_03_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the first model slides. Then $$ v_1 = +0.750\ms $$ and $$ v_2 = 0 $$, and a positive $$ v_f $$ means the pair keeps moving that way.
 
 **Solution**
 
@@ -654,6 +666,12 @@ What is the velocity of a 900-kg car initially moving at 30.0 m/s, just after it
 **Strategy**
 
 This is a perfectly inelastic collision where the deer remains on the car. Both objects are moving in the same direction initially. We apply conservation of momentum.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction both are moving. Before: the car (900 kg) moves at +30.0 m/s and the deer (150 kg) ahead of it at +12.0 m/s. After, the deer stays on the car and they move together with unknown velocity v_f.](../resources/sketch_08_03_p04.svg){: .sketch}
+
+Take $$ +x $$ in the direction both the car and the deer are moving, so both initial velocities are positive: $$ v_{\text{car}} = +30.0\ms $$ and $$ v_{\text{deer}} = +12.0\ms $$.
 
 **Solution**
 

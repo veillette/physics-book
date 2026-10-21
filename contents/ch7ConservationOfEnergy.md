@@ -493,6 +493,12 @@ Using energy considerations and assuming negligible air resistance, show that a 
 
 Use conservation of mechanical energy. Since air resistance is negligible, only conservative forces act (gravity), so the total mechanical energy is conserved: $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$. The initial kinetic energy depends only on the magnitude of velocity, not its direction, and the change in potential energy depends only on the vertical height change.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the water surface and 20.0 m at the bridge. The rock leaves the bridge at v_0 = 15.0 m/s, thrown upward at an angle, horizontally, or downward at an angle; each path ends at the water (y = 0) with an unknown speed v_f.](../resources/sketch_07_06_p02.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the water, so the rock starts at $$ h = +20.0\m $$ and ends at $$ 0 $$. Energy is a scalar, so only the speed $$ v_0 $$ and the drop in height enter, not the direction of the throw.
+
 **Solution**
 
 Starting with conservation of energy:

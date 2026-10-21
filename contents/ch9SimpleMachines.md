@@ -331,6 +331,12 @@ to the nail?
 
 Use the mechanical advantage formula for a lever: $$ \text{MA} = \frac{l_i}{l_o} = \frac{F_o}{F_i} $$, where $$ l_i $$ is the distance from pivot to input force and $$ l_o $$ is the distance from pivot to output force.
 
+**Free-body diagram**
+
+![The nail puller pivots where it rests on the board (the origin), with the handle to the left. +x points from the handle toward the claw and +y up, and counterclockwise torques are positive. Your hand pushes down with F_i at l_i = 45 cm from the pivot (counterclockwise torque); the nail pushes down on the claw with F_n at l_o = 1.8 cm on the other side (clockwise torque). The puller in turn pulls up on the nail with F_o = 1250 N.](../resources/sketch_09_05_p01.svg){: .sketch}
+
+Take $$ +x $$ from the handle toward the claw, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot where the puller rests on the board. Your downward push at $$ l_i $$ (on the $$ -x $$ side) gives a positive torque; the nail's downward push on the claw at $$ l_o $$ (on the $$ +x $$ side) gives a negative one. So $$ F_i l_i = F_n l_o $$, and the puller pulls up on the nail with $$ F_o = F_n $$.
+
 **Solution**
 
 **Given:**
@@ -373,6 +379,12 @@ Suppose you needed to raise a 250-kg mower a distance of 6.0 cm above the ground
 **Strategy**
 
 This is a lever problem where we need to find the position of the fulcrum. We use the mechanical advantage relationship: $$ \text{MA} = \frac{F_o}{F_i} = \frac{l_i}{l_o} $$. The total length of the lever is the sum of the input and output lever arms: $$ l_i + l_o = 2.0 \m $$.
+
+**Free-body diagram**
+
+![The 2.0-m lever pivots on the fulcrum (the origin). +x points from the mower end toward your hands and +y up, and counterclockwise torques are positive. The mower pushes down on the left end with F_o = 2450 N at l_o (counterclockwise torque); you push down on the right end with F_i = 300 N at l_i (clockwise torque); l_o + l_i = 2.0 m.](../resources/sketch_09_05_p02.svg){: .sketch}
+
+Take $$ +x $$ from the mower end toward your hands, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the fulcrum. The mower's downward push at $$ l_o $$ (on the $$ -x $$ side) gives a positive torque and your downward push at $$ l_i $$ (on the $$ +x $$ side) a negative one, so $$ F_o l_o = F_i l_i $$.
 
 **Solution**
 
@@ -441,6 +453,12 @@ This result makes sense: to lift a heavy load with a small force, the fulcrum mu
 **Strategy**
 
 For a wheelbarrow, the mechanical advantage is the ratio of lever arms. Use $$ \text{MA} = \frac{l_i}{l_o} $$. For parts (b) and (c), apply equilibrium conditions.
+
+**Free-body diagram**
+
+![Torques are taken about the wheel’s axle (the origin). +x points from the handles toward the wheel and +y up, and counterclockwise torques are positive. The weight w = 539 N acts down 5.50 cm to the left of the axle (counterclockwise torque); you lift with F_i at the handles, 1.02 m to the left of the axle (clockwise torque); the ground pushes up on the wheel with N.](../resources/sketch_09_05_p03.svg){: .sketch}
+
+Take $$ +x $$ from the handles toward the wheel, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the wheel's axle. The weight (down, 5.50 cm on the $$ -x $$ side) gives a positive torque and your upward lift (1.02 m on the $$ -x $$ side) a negative one; vertically, $$ F_i + N - w = 0 $$.
 
 **Solution**
 
@@ -541,6 +559,12 @@ surface? The nail puller has a mass of 2.10 kg. Use the forces from Problem 1.
 
 Apply the equilibrium condition: the sum of all forces on the nail puller must equal zero. Use the values from Problem 1, where we found the mechanical advantage is 25 and the output force on the nail is 1250 N.
 
+**Free-body diagram**
+
+![Vertical forces on the nail puller, with +y up. Your hand pushes down with F_i = 50 N at the handle; the nail pushes down on the claw with F_n = 1250 N (the reaction to the 1250-N pull on the nail); the puller’s weight W = 20.6 N acts down; the supporting surface pushes up at the pivot with N.](../resources/sketch_09_05_p05.svg){: .sketch}
+
+Take $$ +y $$ upward. The hand's push, the nail's push on the claw, and the puller's weight all point along $$ -y $$, and the supporting surface pushes along $$ +y $$, so $$ \sum F_y = N - F_i - F_N - W = 0 $$.
+
 **Solution**
 
 **Given (from Problem 1 and figure):**
@@ -591,6 +615,12 @@ Neglect the pulley system's mass.
 **Strategy**
 
 The pulley system in [Figure 4](#Figure4)(a) has two rope segments pulling up on the load, giving it a mechanical advantage of approximately 2. The tension in the rope is uniform throughout (for an ideal, frictionless pulley). For part (b), we apply force equilibrium to the upper pulley.
+
+**Free-body diagram**
+
+![Two free-body diagrams with +y up. Lower pulley and engine: two rope segments pull up, each with tension T, and the weight W = 1127 N pulls down. Upper pulley: the two segments to the lower pulley and the segment you pull straight down all pull down with T, and the ceiling pushes up with F_ceiling.](../resources/sketch_09_05_p06.svg){: .sketch}
+
+Take $$ +y $$ upward. For the lower pulley and engine, $$ \sum F_y = 2T - W = 0 $$. For the upper pulley, the three rope segments (including the one you pull straight down) all pull along $$ -y $$ and the ceiling pushes along $$ +y $$, so $$ F_{\text{ceiling}} - 3T = 0 $$.
 
 **Solution for (a)**
 
@@ -648,6 +678,12 @@ assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00
 **Strategy**
 
 For [Figure 4](#Figure4)(c), this is a more complex pulley system with a mechanical advantage of 4 (four rope segments support the load). The total weight includes the engine plus the pulley system. Since you pull straight up, your force adds to the ceiling support.
+
+**Free-body diagram**
+
+![Two free-body diagrams with +y up. Lower block (engine and its pulleys): four rope segments pull up, each with tension T, and the weight W = 1196 N (engine plus pulleys) pulls down. Whole system (engine, pulleys, and rope): the ceiling pushes up with F_ceiling, your upward pull T acts along +y, and W pulls down.](../resources/sketch_09_05_p07.svg){: .sketch}
+
+Take $$ +y $$ upward. For the lower block, $$ \sum F_y = 4T - W = 0 $$. For the whole system, the ceiling's force and your upward pull $$ T $$ both point along $$ +y $$ and the weight along $$ -y $$, so $$ F_{\text{ceiling}} + T - W = 0 $$.
 
 **Solution**
 

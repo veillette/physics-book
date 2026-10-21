@@ -618,6 +618,12 @@ A 100-g toy car is propelled by a compressed spring that starts it moving. The c
 
 Use conservation of mechanical energy for a frictionless surface. The initial kinetic energy plus initial gravitational potential energy equals the final kinetic energy plus final gravitational potential energy. Since the car goes up, it gains gravitational potential energy and loses kinetic energy.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the car’s starting level and a tick at 0.180 m. The car starts with v_0 = 2.00 m/s and coasts up the frictionless track to a point 0.180 m higher, where its speed v_f is unknown.](../resources/sketch_07_03_p05.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the car's starting level, so $$ h_0 = 0 $$ and the final height is $$ h = +0.180\m $$; the potential energy $$ mgh $$ increases as the car climbs.
+
 **Solution**
 
 **Given:**
@@ -683,6 +689,12 @@ slope neglecting friction:
 **Strategy**
 
 We use conservation of energy: $$\KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}}$$. The height descended is $$h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m$$. For the time, we use kinematics with constant acceleration $$a = g\sin{\theta}$$ down the slope.
+
+**Sketch and coordinate system**
+
+![A frictionless 30° slope descends to the right. A vertical +y axis (up) measures height, with y = 0 at the bottom and 35.0 m at the start. A tilted +x axis points down the slope, the direction of motion. The skier travels d = 70.0 m along +x, starting with v_0 = 0 in part (a) or 2.50 m/s in part (b); the final speed v and time t are unknown. The acceleration a = g sin 30° points along +x.](../resources/sketch_07_03_p06.svg){: .sketch}
+
+Measure heights along $$ +y $$ (upward) from the bottom of the run, so the skier starts at $$ h = +35.0\m $$ and ends at $$ 0 $$. For the time, take $$ +x $$ down the slope: the velocity and the acceleration $$ a = g\sin{30^\circ} = +4.90\mss $$ both point along $$ +x $$.
 
 **Solution for (a)**
 

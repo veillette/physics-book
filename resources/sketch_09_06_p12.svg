@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the push-up</title>
+<desc id="desc">The body is a rigid lever pivoting at the toes (the origin). +x points from the feet toward the head and +y up, and counterclockwise torques are positive. Her weight W = 490 N acts down 0.90 m from the toes (clockwise torque); the floor pushes up on the two hands with a total of 2F_hand, 1.50 m from the toes (counterclockwise torque).</desc>
+<rect width="600" height="320" fill="#ffffff"/>
+<line x1="90" y1="190" x2="486.39" y2="120.11" stroke="#a9c2d9" stroke-width="10" stroke-linecap="round"/>
+<line x1="90" y1="190" x2="486.39" y2="120.11" stroke="#1f3a5f" stroke-width="1.4"/>
+<polygon points="90,195 80.9,208 99.1,208" fill="#999999" stroke="#555555" stroke-width="1.2"/>
+<line x1="90" y1="196" x2="90" y2="256" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="293.86" y1="160.05" x2="293.86" y2="256" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="97" y1="250" x2="286.86" y2="250" stroke="#444444" stroke-width="1.2"/>
+<polygon points="293.86,250 285.86,253.2 285.86,246.8" fill="#444444"/>
+<polygon points="90,250 98,246.8 98,253.2" fill="#444444"/>
+<text x="191.93" y="244.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.90 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="90" y1="196" x2="90" y2="284" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="429.76" y1="136.09" x2="429.76" y2="284" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="97" y1="278" x2="422.76" y2="278" stroke="#444444" stroke-width="1.2"/>
+<polygon points="429.76,278 421.76,281.2 421.76,274.8" fill="#444444"/>
+<polygon points="90,278 98,274.8 98,281.2" fill="#444444"/>
+<text x="259.88" y="272.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.50 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="293.86" y1="154.05" x2="293.86" y2="202.45" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="293.86,214.05 288.82,201.45 298.9,201.45" fill="#b03a2e"/>
+<text x="310" y="215.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> = 490 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="429.76" y1="130.09" x2="429.76" y2="51.69" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="429.76,40.09 434.8,52.69 424.72,52.69" fill="#b03a2e"/>
+<text x="440" y="55.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">hand</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="520" y1="210" x2="557" y2="210" stroke="#555555" stroke-width="1.5"/>
+<polygon points="566,210 556,214 556,206" fill="#555555"/>
+<text x="582" y="215.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="520" y1="210" x2="520" y2="173" stroke="#555555" stroke-width="1.5"/>
+<polygon points="520,164 524,174 516,174" fill="#555555"/>
+<text x="520" y="153.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 104.96 55.47 A 16 16 0 1 0 125.47 34.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="131.11" y1="37.02" x2="127.16" y2="35.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="123.59,34.28 128.76,34.12 127.45,37.73" fill="#555555"/>
+<text x="144" y="54.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+<text x="90" y="234.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">toes</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">pivot</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

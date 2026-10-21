@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the crate pushed up the ramp</title>
+<desc id="desc">A ramp rises at 20.0° to the right. +x points up the ramp, the direction of the push and of the motion; a vertical +y axis (up) measures height, with 0 at the bottom of the ramp and 1.37 m at the top. The crate moves d = 4.00 m along +x while the man pushes it with F = 500 N, also along +x. Both the crate and the man rise h = d sin 20.0° = 1.37 m.</desc>
+<rect width="620" height="300" fill="#ffffff"/>
+<polygon points="60,250 440,250 440,111.69" fill="#efe6dc" stroke="#8d6e63" stroke-width="1.5"/>
+<path d="M 104 250 A 44 44 0 0 0 101.35 234.95" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="123.03" y="244.14" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20.0°</tspan></text>
+<polygon points="69.05,245.64 106.64,231.96 95.01,200.01 57.43,213.69" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<polygon points="390.43,128.67 428.02,114.99 416.39,83.04 378.8,96.72" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<polygon points="247.6,180.66 285.18,166.98 273.56,135.03 235.97,148.71" fill="#d6e4f0" stroke="#1f3a5f" stroke-width="2"/>
+<text x="260.58" y="132.39" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">crate</tspan></text>
+<circle cx="211.63" cy="184.17" r="7" fill="#1f3a5f"/>
+<text x="211.63" y="170.72" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">man</tspan></text>
+<line x1="280.58" y1="150.84" x2="335.45" y2="130.87" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="346.35,126.9 336.24,135.95 332.79,126.47" fill="#b03a2e"/>
+<text x="330.58" y="185.44" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = 500 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="63.57" y1="172.08" x2="374.04" y2="59.08" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="384.94,55.11 374.82,64.16 371.38,54.68" fill="#1f77c8"/>
+<text x="216.47" y="100.74" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = 4.00 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="70" y1="70" x2="136.72" y2="45.72" stroke="#555555" stroke-width="1.5"/>
+<polygon points="145.18,42.64 137.15,49.82 134.41,42.3" fill="#555555"/>
+<text x="160.21" y="43.12" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="160.21" y="58.54" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">ramp</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="520" y1="270" x2="520" y2="70" stroke="#555555" stroke-width="1.6"/>
+<polygon points="520,60 524.4,71 515.6,71" fill="#555555"/>
+<text x="520" y="47.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="536" y="46.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="515" y1="250" x2="525" y2="250" stroke="#555555" stroke-width="1.6"/>
+<text x="510" y="254.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="515" y1="112" x2="525" y2="112" stroke="#555555" stroke-width="1.6"/>
+<text x="530" y="116.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-style="normal"> = 1.37 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="440" y1="112" x2="514" y2="112" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+</svg>

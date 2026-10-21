@@ -272,6 +272,12 @@ Two identical objects (such as billiard balls) have a one-dimensional collision 
 
 We need to verify that the total momentum before equals the total momentum after, and that the total kinetic energy before equals the total kinetic energy after.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction object 1 moves. Before: object 1 (mass m) moves at +v and object 2 (mass m) is at rest. After: object 1 is at rest and object 2 moves at +v.](../resources/sketch_08_04_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction object 1 moves. Before the collision, $$ v_1 = +v $$ and $$ v_2 = 0 $$; after it, $$ v'_1 = 0 $$ and $$ v'_2 = +v $$.
+
 **Solution**
 
 Let both objects have mass $$ m $$. Let the initial velocity of object 1 be $$ v $$ and object 2 be at rest.
@@ -327,6 +333,12 @@ elastically rather than dock, what is their final relative velocity?
 
 In an elastic collision, both momentum and kinetic energy are conserved. A fundamental property of elastic collisions is that the relative velocity of approach equals the relative velocity of separation (but in the opposite direction).
 
+**Sketch and coordinate system**
+
+![Frame in which satellite 2 is at rest before the collision. A horizontal +x axis points in the direction satellite 1 approaches. Before: satellite 1 (4.00 × 10³ kg) moves at v_1 = +0.250 m/s and satellite 2 (7.50 × 10³ kg) is at rest. After: the velocities v′_1 and v′_2 are unknown; their difference is the final relative velocity.](../resources/sketch_08_04_p02.svg){: .sketch}
+
+Work in the frame where satellite 2 is initially at rest, and take $$ +x $$ in the direction satellite 1 approaches, so $$ v_1 = +0.250\ms $$ and $$ v_2 = 0 $$. The final relative velocity is $$ v'_2 - v'_1 $$.
+
 **Solution**
 
 For any elastic collision, the relative velocity of approach equals the relative velocity of separation:
@@ -376,6 +388,12 @@ A 70.0-kg ice hockey goalie, originally at rest, catches a 0.150-kg hockey puck 
 **Strategy**
 
 For an elastic collision with one object initially at rest, we use the equations derived from conservation of momentum and kinetic energy. For a small mass bouncing off a much larger stationary mass, the small mass rebounds with nearly the same speed while the large mass gains a small velocity.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the puck’s initial direction, toward the goalie. Before: the puck (0.150 kg) moves at v_1 = +35.0 m/s and the goalie (70.0 kg) is at rest. After the elastic collision the puck rebounds (v′_1 negative) and the goalie moves along +x; both velocities are unknown.](../resources/sketch_08_04_p03.svg){: .sketch}
+
+Take $$ +x $$ in the puck's initial direction, toward the goalie, so $$ v_1 = +35.0\ms $$ and $$ v_2 = 0 $$. A negative $$ v'_1 $$ means the puck rebounds back toward the shooter, and a positive $$ v'_2 $$ means the goalie moves the way the puck was going.
 
 **Solution**
 

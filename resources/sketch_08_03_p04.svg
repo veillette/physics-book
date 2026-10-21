@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="284" viewBox="0 0 620 284" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the car hitting the deer</title>
+<desc id="desc">A horizontal +x axis points in the direction both are moving. Before: the car (900 kg) moves at +30.0 m/s and the deer (150 kg) ahead of it at +12.0 m/s. After, the deer stays on the car and they move together with unknown velocity v_f.</desc>
+<rect width="620" height="284" fill="#ffffff"/>
+<line x1="40" y1="86" x2="480" y2="86" stroke="#8d6e63" stroke-width="2.2"/>
+<text x="14" y="30.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">before</tspan></text>
+<polygon points="135,86 205,86 205,60 135,60" fill="#d6e4f0" stroke="#1f3a5f" stroke-width="2"/>
+<text x="170" y="108.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">car</tspan></text>
+<line x1="125" y1="44" x2="203.4" y2="44" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="215,44 202.4,49.04 202.4,38.96" fill="#3f8a1e"/>
+<text x="170" y="31.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">car</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = +30.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<polygon points="352,86 388,86 388,60 352,60" fill="#d6e4f0" stroke="#1f3a5f" stroke-width="2"/>
+<text x="370" y="108.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">deer</tspan></text>
+<line x1="350" y1="44" x2="378.4" y2="44" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="390,44 377.4,49.04 377.4,38.96" fill="#3f8a1e"/>
+<text x="370" y="31.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">deer</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = +12.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="40" y1="198" x2="480" y2="198" stroke="#8d6e63" stroke-width="2.2"/>
+<text x="14" y="142.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">after</tspan></text>
+<polygon points="275,198 365,198 365,172 275,172" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="320" y="220.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">car</tspan><tspan font-style="normal"> + </tspan><tspan font-style="normal">deer</tspan></text>
+<text x="320" y="157.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">f</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="40" y1="244" x2="460" y2="244" stroke="#555555" stroke-width="1.6"/>
+<polygon points="470,244 459,248.4 459,239.6" fill="#555555"/>
+<text x="478" y="249.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="478" y="266.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">direction</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

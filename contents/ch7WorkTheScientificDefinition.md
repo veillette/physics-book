@@ -389,6 +389,12 @@ The work done to lift the person climbing stairs is **$$1.84 \times 10^{3}$$ J**
 
 At constant speed, the net force is zero. The cable must pull upward with a force equal to the weight of the elevator plus the friction force. For part (a), we calculate the work done by the cable using $$W = Fd$$. For part (b), gravity does negative work since it acts downward while the displacement is upward. For part (c), we sum all work done on the elevator.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the car’s starting position and a tick at 40.0 m. The car rises 40.0 m: the displacement d points along +y. Forces on the car: cable tension T along +y, weight w = mg and friction f along −y. The speed is constant, so a = 0.](../resources/sketch_07_01_p03.svg){: .sketch}
+
+Take $$ +y $$ upward, the direction of motion. The cable tension $$ T $$ points along $$ +y $$, parallel to the displacement ($$ \theta = 0^\circ $$, positive work), while the weight $$ w = mg $$ and friction $$ f $$ point along $$ -y $$, opposite to it ($$ \theta = 180^\circ $$, negative work).
+
 **Solution**
 
 **Part (a): Work done by the cable**
@@ -568,6 +574,12 @@ include the work he does on the crate *and* on his body to get up the ramp.
 
 The total work includes: (1) work done pushing the crate with force 500 N through distance 4.00 m, and (2) work done raising his own body mass. The vertical height gained is $$h = d\sin{\theta} = (4.00\m)\sin{20.0^\circ}$$.
 
+**Sketch and coordinate system**
+
+![A ramp rises at 20.0° to the right. +x points up the ramp, the direction of the push and of the motion; a vertical +y axis (up) measures height, with 0 at the bottom of the ramp and 1.37 m at the top. The crate moves d = 4.00 m along +x while the man pushes it with F = 500 N, also along +x. Both the crate and the man rise h = d sin 20.0° = 1.37 m.](../resources/sketch_07_01_p05.svg){: .sketch}
+
+Take $$ +x $$ up the ramp, the direction of the push and of the motion, and measure heights along $$ +y $$ (upward) from the bottom of the ramp. The push $$ F $$ and the displacement $$ d $$ both point along $$ +x $$, so $$ W_{\text{crate}} = +Fd $$; the man and the crate both rise $$ h = d\sin{20.0^\circ} $$ along $$ +y $$.
+
 **Solution**
 
 Work done pushing the crate:
@@ -633,6 +645,12 @@ in [Figure 3](#Figure3)? Assume no friction acts on the wagon.
 
 The work done is given by $$W = Fd\cos{\theta}$$, where $$F = 50.0\N$$ is the magnitude of the pulling force, $$d = 30.0\m$$ is the displacement, and $$\theta = 30.0^\circ$$ is the angle between the force and the horizontal displacement.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of motion and +y up. The pull F = 50.0 N points 30.0° above +x; its x-component F cos 30.0° lies along +x. The displacement d = 30.0 m lies along +x.](../resources/sketch_07_01_p06.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ upward. The displacement lies along $$ +x $$, so only the $$ x $$-component of the pull, $$ F\cos{30.0^\circ} $$, does work; the $$ y $$-component is perpendicular to the motion.
+
 **Solution**
 
 Substituting the known values into the work equation:
@@ -680,6 +698,12 @@ below the horizontal.
 **Strategy**
 
 For constant speed, the net force is zero. The friction force opposes motion ($$\theta = 180^\circ$$), gravity is perpendicular to motion, and the shopper pushes at $$25.0^\circ$$ below horizontal. We use $$W = Fd\cos{\theta}$$ for each force.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of motion and +y up. The shopper’s push F points 25.0° below +x. Friction f = 35.0 N points along −x, the weight w along −y, and the normal force N along +y. The displacement d = 20.0 m lies along +x; the speed is constant.](../resources/sketch_07_01_p07.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ upward. The displacement $$ d $$ and the $$ x $$-component of the push, $$ F\cos{25.0^\circ} $$, point along $$ +x $$, while friction points along $$ -x $$. The weight and the normal force lie along the $$ y $$-axis, perpendicular to the motion, so they do no work.
 
 **Solution for (a)**
 
@@ -774,6 +798,12 @@ coefficient of friction between the sled and the snow is 0.100.
 **Strategy**
 
 First, we need to find the forces acting on the sled. The normal force is $$N = mg\cos{\theta}$$. The friction force is $$f = \mu_{k}N = \mu_{k}mg\cos{\theta}$$. Since the sled moves down the slope at constant speed, the net force is zero. The component of weight down the slope is $$mg\sin{\theta}$$. We can use $$W = Fd\cos{\alpha}$$ for each force, where $$\alpha$$ is the angle between the force and displacement.
+
+**Sketch and coordinate system**
+
+![A 60.0° slope descends to the right. Tilted axes: +x points down the slope, the direction of motion, and +y points perpendicular to the slope, away from it. Forces on the sled: rope tension T and friction f point up the slope (−x), the normal force N along +y, and the weight w straight down, whose component along +x is mg sin 60.0°. The displacement d = 30.0 m points along +x; the speed is constant.](../resources/sketch_07_01_p08.svg){: .sketch}
+
+Use tilted axes: $$ +x $$ down the slope, the direction of motion, and $$ +y $$ perpendicular to the slope. The displacement is $$ d = +30.0\m $$ along $$ +x $$. The weight's component $$ mg\sin{60.0^\circ} $$ points along $$ +x $$ (positive work), the rope tension $$ T $$ and friction $$ f $$ point along $$ -x $$ (negative work), and $$ N $$ along $$ +y $$ does no work. With $$ a = 0 $$, $$ \sum F_x = mg\sin{\theta} - T - f = 0 $$.
 
 **Solution for (a)**
 

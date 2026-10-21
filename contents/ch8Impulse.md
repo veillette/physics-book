@@ -401,6 +401,12 @@ mass of the passenger is 70 kg.
 
 We apply the impulse-momentum theorem. The passenger has initial momentum from moving with the car and must be brought to rest. The seat belt provides the force over the collision time to change the passenger's momentum.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the car was moving. The passenger starts with v_i = +10 m/s; the seat belt pushes on him along −x. After Δt = 0.26 s he is at rest, v_f = 0.](../resources/sketch_08_02_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car was moving. The passenger's velocity goes from $$ +10\ms $$ to $$ 0 $$, so $$ \Delta p $$ is negative, and the seat-belt force on him points along $$ -x $$.
+
 **Solution**
 
 Calculate the initial momentum of the passenger:
@@ -590,6 +596,12 @@ between the car and floor.
 **Strategy**
 
 For part (a), impulse is force times time. For part (b), we apply the impulse-momentum theorem, noting that the force from the wall opposes the car's motion.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points toward the rail, the bumper car’s initial direction of motion. Before: v_i = +2.80 m/s. During the 0.200-s contact the rail pushes on the car with F = 4000 N along −x. After: the velocity v_f is unknown (it turns out negative, away from the rail).](../resources/sketch_08_02_p05.svg){: .sketch}
+
+Take $$ +x $$ toward the rail, the car's initial direction of motion. Then $$ v_i = +2.80\ms $$, and the rail pushes the car along $$ -x $$, so the impulse is $$ J = -800\kg\cdot\ms $$. A negative $$ v_f $$ means the car moves away from the rail.
 
 **Solution**
 
@@ -919,6 +931,12 @@ for $$ 5.50\times 10^{-2}\s $$.
 
 We apply the impulse-momentum theorem. The backward force produces a negative impulse that changes the player's momentum. We calculate the impulse and use it to find the change in velocity.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the player’s initial direction of motion, toward the goalpost. Before: v_i = +8.00 m/s. During the collision the post pushes back on him with F = 1.76 × 10⁴ N along −x for 5.50 × 10⁻² s. After: the velocity v_f is unknown.](../resources/sketch_08_02_p10.svg){: .sketch}
+
+Take $$ +x $$ in the player's initial direction of motion, toward the goalpost. Then $$ v_i = +8.00\ms $$ and the backward force from the post is along $$ -x $$, so the impulse $$ J $$ is negative. A negative $$ v_f $$ means the player bounces back.
+
 **Solution**
 
 Calculate the impulse (force is backward, so negative):
@@ -963,6 +981,12 @@ momentum is reduced to zero.
 **Strategy**
 
 This is a continuous flow problem. We use the rate form of Newton's second law: $$ F = \frac{\Delta p}{\Delta t} = \frac{\Delta m}{\Delta t} \times \Delta v $$. The mass flow rate and velocity change give us the force directly.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points from the hose toward the wall. The water arrives with v_i = +42.0 m/s at 50.0 kg/s and is stopped (v_f = 0). The wall pushes on the water along −x; by Newton’s third law the water pushes on the wall along +x.](../resources/sketch_08_02_p11.svg){: .sketch}
+
+Take $$ +x $$ from the hose toward the wall. Each bit of water goes from $$ v_i = +42.0\ms $$ to $$ v_f = 0 $$, so $$ \Delta v $$ is negative and the wall pushes the water along $$ -x $$. By Newton's third law, the water pushes the wall along $$ +x $$, away from the hose.
 
 **Solution**
 
@@ -1106,6 +1130,12 @@ impulse delivered by the wall?
 
 The impulse equals the change in momentum: $$ \vb{J} = \Delta \vb{p} = \vb{p}_f - \vb{p}_i $$. We need to find the x and y components of momentum before and after the collision, then calculate the change.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the wall and +y up. The ball arrives with v_i = 10 m/s at 60° above +x and leaves with v_f = 10 m/s at 60° above −x. The y-components are equal; the x-component reverses from +5.00 m/s to −5.00 m/s, so the impulse J from the wall points along −x.](../resources/sketch_08_02_p14.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the wall and $$ +y $$ upward, as the problem does. The ball arrives moving up and toward the wall and leaves moving up and away from it, so $$ v_y $$ is unchanged while $$ v_x $$ changes from $$ +5.00\ms $$ to $$ -5.00\ms $$. The impulse from the wall therefore points along $$ -x $$.
+
 **Solution**
 
 Convert mass to kg: $$ m = 55 \text{ g} = 0.055 \kg $$
@@ -1200,6 +1230,12 @@ direction)?
 **Strategy**
 
 We need to find the ball's velocity just before impact (using free fall kinematics), then calculate the change in momentum vector from just before to just after the kick.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the kick and +y up. Just before the kick the ball moves straight down at v_i = 4.43 m/s (after falling 1.00 m from rest), so v_iy is negative. Just after, it moves at v_f = 18 m/s at 55° above +x. The impulse J from the foot, of unknown size, points up and forward at an unknown angle θ.](../resources/sketch_08_02_p16.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of the kick and $$ +y $$ upward. Just before the kick the ball falls straight down, so $$ v_{iy} = -4.43\ms $$ and $$ v_{ix} = 0 $$. Just after, both components of $$ \vb{v}_f $$ are positive, so both components of the impulse are positive.
 
 **Solution**
 

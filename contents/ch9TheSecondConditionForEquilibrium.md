@@ -480,6 +480,12 @@ A length of pipe over the wrench handle helps by increasing the lever arm, so th
 
 Calculate torque about the door’s vertical hinge axis using the perpendicular distance to that axis.
 
+**Free-body diagram**
+
+![Top view of the door, hinged at the origin. +x points along the door from the hinges; +y points in the direction of the push, perpendicular to the door. The push F = 55.0 N acts 0.850 m from the hinges, so it turns the door counterclockwise as seen from above (the opening direction), which is taken as positive.](../resources/sketch_09_02_p01.svg){: .sketch}
+
+Looking down on the door, take $$ +x $$ along the door from the hinges and $$ +y $$ in the direction of the push, with counterclockwise torques as positive (the opening direction). The push is along $$ +y $$ at $$ x = 0.850\m $$, so its torque $$ \tau = +rF $$ is positive.
+
 **Solution**
 
 **(a)** The force is horizontal and perpendicular to the door at a distance $$r=0.850\m$$ from the hinges, with magnitude $$F=55.0\N$$. Choose positive rotation in the opening direction. The torque magnitude about the vertical hinge axis is

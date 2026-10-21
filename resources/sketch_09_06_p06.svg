@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="420" viewBox="0 0 620 420" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the forearm lowered 30° below the horizontal</title>
+<desc id="desc">The forearm pivots at the elbow (the origin) and points 30° below the horizontal. +x points to the right and +y up, and counterclockwise torques are positive. As in Figure 1, the biceps force F_B is vertical (up, 4.00 cm along the forearm) and the weights w_a (at 16.0 cm) and w_b (at 38.0 cm) are vertical (down). The perpendicular lever arm of each vertical force is its distance along the forearm times cos 30°.</desc>
+<rect width="620" height="420" fill="#ffffff"/>
+<line x1="90.47" y1="104.5" x2="481.05" y2="330" stroke="#a9c2d9" stroke-width="10" stroke-linecap="round"/>
+<line x1="90.47" y1="104.5" x2="481.05" y2="330" stroke="#1f3a5f" stroke-width="1.4"/>
+<circle cx="100" cy="110" r="6" fill="#ffffff" stroke="#555555" stroke-width="2"/>
+<circle cx="100" cy="110" r="1.8" fill="#555555"/>
+<line x1="100" y1="116" x2="100" y2="336" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="138.11" y1="138" x2="138.11" y2="336" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="107" y1="330" x2="131.11" y2="330" stroke="#444444" stroke-width="1.2"/>
+<polygon points="138.11,330 130.11,333.2 130.11,326.8" fill="#444444"/>
+<polygon points="100,330 108,326.8 108,333.2" fill="#444444"/>
+<line x1="100" y1="116" x2="100" y2="364" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="252.42" y1="204" x2="252.42" y2="364" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="107" y1="358" x2="245.42" y2="358" stroke="#444444" stroke-width="1.2"/>
+<polygon points="252.42,358 244.42,361.2 244.42,354.8" fill="#444444"/>
+<polygon points="100,358 108,354.8 108,361.2" fill="#444444"/>
+<text x="176.21" y="352.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(16.0 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 30°</tspan></text>
+<line x1="100" y1="116" x2="100" y2="392" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="462" y1="325" x2="462" y2="392" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="107" y1="386" x2="455" y2="386" stroke="#444444" stroke-width="1.2"/>
+<polygon points="462,386 454,389.2 454,382.8" fill="#444444"/>
+<polygon points="100,386 108,382.8 108,389.2" fill="#444444"/>
+<text x="281" y="380.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(38.0 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 30°</tspan></text>
+<line x1="138.11" y1="132" x2="138.11" y2="53.6" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="138.11,42 143.15,54.6 133.07,54.6" fill="#b03a2e"/>
+<text x="148.11" y="45.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">B</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 470 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="252.42" y1="198" x2="252.42" y2="226.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="252.42,238 247.38,225.4 257.46,225.4" fill="#b03a2e"/>
+<text x="262.42" y="243.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">a</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="462" y1="319" x2="462" y2="362.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="462,374 456.96,361.4 467.04,361.4" fill="#b03a2e"/>
+<text x="472" y="374.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">b</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="100" y1="110" x2="100" y2="168.4" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="100,180 94.96,167.4 105.04,167.4" fill="#b03a2e"/>
+<text x="80" y="185.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">E</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="520" y1="80" x2="557" y2="80" stroke="#555555" stroke-width="1.5"/>
+<polygon points="566,80 556,84 556,76" fill="#555555"/>
+<text x="582" y="85.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="520" y1="80" x2="520" y2="43" stroke="#555555" stroke-width="1.5"/>
+<polygon points="520,34 524,44 516,44" fill="#555555"/>
+<text x="520" y="23.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<path d="M 284.96 45.47 A 16 16 0 1 0 305.47 24.96" fill="none" stroke="#555555" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="311.11" y1="27.02" x2="307.16" y2="25.58" stroke="#555555" stroke-width="1.6"/>
+<polygon points="303.59,24.28 308.76,24.12 307.45,27.73" fill="#555555"/>
+<text x="324" y="44.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+  (</tspan><tspan font-style="normal">counterclockwise</tspan><tspan font-style="normal">)</tspan></text>
+<text x="100" y="96.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">elbow</tspan></text>
+<text x="146.11" y="336.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(4.00 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 30°</tspan></text>
+</svg>

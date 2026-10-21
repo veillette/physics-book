@@ -344,6 +344,12 @@ assuming a straight-line path as shown in the figure.)
 
 Use the work-energy theorem including friction. The initial kinetic energy is converted to gravitational potential energy plus thermal energy (work done against friction). First find the distance traveled along the incline using trigonometry, then apply energy conservation.
 
+**Sketch and coordinate system**
+
+![A slope rises at 35° to a height of 2.50 m. A vertical +y axis (up) has y = 0 at the bottom and 2.50 m at the top. A tilted +x axis points up the slope, the direction of motion. The skier starts at the bottom with v_i = 12.0 m/s and travels d = 4.36 m along the slope; kinetic friction f points down the slope (−x). The final speed v_f at the top is unknown.](../resources/sketch_07_05_p01.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the bottom of the rise, so the skier gains $$ mgh $$ with $$ h = +2.50\m $$. Along the slope take $$ +x $$ up the incline, the direction of motion: the displacement is $$ d = +4.36\m $$ and kinetic friction points along $$ -x $$, so $$ W_f = -f_k d $$ is negative.
+
 **Solution**
 
 **Given:**
@@ -431,6 +437,12 @@ For part (a), with no friction, all kinetic energy converts to gravitational pot
 For part (b), the difference between the initial kinetic energy and final potential energy equals the thermal energy generated.
 
 For part (c), we use the work-energy theorem including friction over the distance traveled along the slope.
+
+**Sketch and coordinate system**
+
+![A hill rises at 2.5° (drawn steeper for clarity). A vertical +y axis (up) has y = 0 at the starting point. A tilted +x axis points up the hill, the direction of motion. The car starts with v_i = 110 km/h = 30.6 m/s and coasts until it stops (v = 0) at height h: 47.6 m without friction (a), 22.0 m in reality (b), after d = 504 m along the slope. Friction f points down the slope (−x).](../resources/sketch_07_05_p02.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the starting point, so the car rises to $$ h = +22.0\m $$ (or $$ 47.6\m $$ without friction). Along the slope take $$ +x $$ up the hill, the direction of motion. Friction points along $$ -x $$, opposite to the displacement $$ d $$, so it removes mechanical energy as thermal energy.
 
 **Solution for (a)**
 

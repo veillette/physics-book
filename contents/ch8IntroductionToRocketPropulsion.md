@@ -404,6 +404,12 @@ of gas per second at an exhaust velocity of $$ 2.20\times 10^{3}\ms $$ ?
 
 Use the rocket acceleration equation with the Moon's gravitational acceleration instead of Earth's. The lower gravity on the Moon means rockets can achieve higher net acceleration with the same thrust.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up. The thrust F_thrust on the rocket points along +y; the weight mg, with g = 1.6 m/s² on the Moon, points along −y; the exhaust gas leaves along −y at v_e = 2.20 × 10³ m/s. The acceleration a points along +y.](../resources/sketch_08_07_p02.svg){: .sketch}
+
+Take $$ +y $$ upward. The thrust on the rocket points along $$ +y $$ and its weight along $$ -y $$ (the exhaust gas moves along $$ -y $$), so $$ \sum F_y = v_{\text{e}}\frac{\Delta m}{\Delta t} - mg = ma $$, and a positive $$ a $$ means the rocket speeds up as it rises.
+
 **Solution**
 
 Given:
@@ -560,6 +566,12 @@ Derive the equation for the vertical acceleration of a rocket.
 
 To derive the rocket acceleration equation, we analyze the forces on the ejected gas and apply Newton's third law to find the thrust force on the rocket. Then we apply Newton's second law to the rocket, accounting for both the thrust force (upward) and gravitational force (downward).
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up. The thrust F_thrust = v_e Δm/Δt on the rocket points along +y; the weight mg points along −y; the exhaust gas leaves along −y at speed v_e. The acceleration a points along +y.](../resources/sketch_08_07_p05.svg){: .sketch}
+
+Take $$ +y $$ upward, the direction of the rocket's motion. The exhaust gas is pushed along $$ -y $$, so by Newton's third law the thrust on the rocket points along $$ +y $$, while the weight $$ mg $$ points along $$ -y $$.
+
 **Solution**
 
 Consider a small mass $$ \Delta m $$ of gas ejected in a small time interval $$ \Delta t $$. The force needed to give this mass an acceleration $$ a_{\Delta m} $$ is:
@@ -623,6 +635,12 @@ on Earth's surface $$ \left( 9.80\mss \right) $$.
 **Strategy**
 
 For part (a), use the rocket acceleration equation and solve for the mass expulsion rate, setting the acceleration to 7g (seven times gravitational acceleration). For part (b), consider the physical and physiological limitations that would necessitate limiting acceleration.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up. The thrust F_thrust on the rocket points along +y; the weight mg points along −y; the exhaust gas leaves along −y at v_e = 2.40 × 10³ m/s. The acceleration a = 7g = +68.6 m/s² points along +y.](../resources/sketch_08_07_p06.svg){: .sketch}
+
+Take $$ +y $$ upward. The thrust points along $$ +y $$, the weight along $$ -y $$, and the acceleration $$ a = +7g $$ along $$ +y $$, so $$ \sum F_y = v_{\text{e}}\frac{\Delta m}{\Delta t} - mg = ma $$.
 
 **Solution**
 
@@ -776,6 +794,12 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 **Strategy**
 
 Take the lab frame in which the squid is initially at rest. The ejected fluid leaves at $$ 10.0 \ms $$ in the direction opposite the squid’s recoil (that is, $$ v_{\text{fluid}}=-10.0 \ms $$ if recoil is positive). After ejection the squid’s mass is $$ m_{\text{f}}=5.00 \kg-0.250 \kg=4.75 \kg $$. Use momentum conservation for the ejection, then subtract the external impulse from friction over $$ \Delta t=0.100 \s $$. For part (b), estimate friction work from the distance traveled during ejection, assuming roughly constant acceleration so the average speed is half the final recoil speed.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the squid recoils. Before: the squid is at rest. During and after the 0.100-s ejection, 0.250 kg of fluid moves along −x at 10.0 m/s, friction f = 5.00 N on the squid points along −x, and the squid (4.75 kg after ejection) moves along +x with unknown velocity v.](../resources/sketch_08_07_p09.svg){: .sketch}
+
+Take $$ +x $$ in the direction the squid recoils. The ejected fluid moves along $$ -x $$ ($$ v_{\text{fluid}} = -10.0\ms $$), and friction on the squid also points along $$ -x $$, so its impulse subtracts from the squid's forward momentum.
 
 **Solution**
 

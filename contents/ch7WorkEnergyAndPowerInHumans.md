@@ -431,6 +431,12 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 
 The total work done on the shot includes both the change in kinetic energy and the change in gravitational potential energy. Power is the total work divided by time.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 where the shot starts from rest. After 1.20 s it is released 0.800 m higher, at y = +0.800 m, moving at 14.0 m/s.](../resources/sketch_07_08_p03.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ where the shot starts from rest, so it rises $$ \Delta y = +0.800\m $$ and $$ \Delta \PE = mg\,\Delta y $$ is positive.
+
 **Solution**
 
 Change in kinetic energy:
@@ -764,6 +770,12 @@ Very large forces are produced in joints when a person jumps from some height to
 **Strategy**
 
 We use the work-energy theorem. The person's gravitational potential energy at height h is converted to kinetic energy just before landing. During the stopping phase the person moves downward through distance $$ d $$ while an upward normal force $$ N $$ and downward weight act. With upward positive, the net force along the displacement is $$ mg-N $$, so $$ (mg-N)d=-\KE $$ and $$ N=mg+\KE/d $$.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at ground level where the feet first touch. The person starts at rest 0.600 m up, falls to the ground, then stops while moving a further distance d down (1.50 cm in part a, 0.300 m in part b; drawn larger). During the stop the displacement points along −y; the ground pushes up with N along +y and the weight w = mg points along −y.](../resources/sketch_07_08_p09.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ where the feet touch the ground. During the stop the displacement is $$ -d $$ (downward), the normal force $$ N $$ points along $$ +y $$, and the weight along $$ -y $$. So $$ \sum F_y = N - mg $$, and the net work is $$ (N - mg)(-d) = (mg - N)d $$, which must equal $$ -\KE $$.
 
 **Solution**
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="290" viewBox="0 0 460 290" role="img" aria-labelledby="title desc">
+<title id="title">Vector diagram of the two muscle forces on the Achilles tendon</title>
+<desc id="desc">Axes with +x to the right and +y up (along the leg). Each muscle pulls on the tendon with 200 N, one at 20° to the left of +y and one at 20° to the right of +y. Their x-components, −68.4 N and +68.4 N, cancel; their y-components add along +y.</desc>
+<rect width="460" height="290" fill="#ffffff"/>
+<line x1="60" y1="230" x2="391" y2="230" stroke="#555555" stroke-width="1.5"/>
+<polygon points="400,230 390,234 390,226" fill="#555555"/>
+<text x="416" y="235.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="230" y1="270" x2="230" y2="39" stroke="#555555" stroke-width="1.5"/>
+<polygon points="230,30 234,40 226,40" fill="#555555"/>
+<text x="230" y="19.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="244" y="18.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">leg</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="230" y1="230" x2="179.24" y2="90.55" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="175.28,79.65 184.32,89.77 174.85,93.21" fill="#b03a2e"/>
+<text x="170.83" y="71.15" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">200 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="230" y1="230" x2="280.76" y2="90.55" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="284.72,79.65 285.15,93.21 275.68,89.77" fill="#b03a2e"/>
+<text x="289.17" y="71.15" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">200 </tspan><tspan font-style="normal">N</tspan></text>
+<circle cx="230" cy="230" r="6" fill="#1f3a5f"/>
+<path d="M 230 160 A 70 70 0 0 0 206.06 164.22" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="214.72" y="148.59" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20°</tspan></text>
+<path d="M 253.94 164.22 A 70 70 0 0 0 230 160" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="245.28" y="148.59" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20°</tspan></text>
+<text x="244" y="256.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">tendon</tspan></text>
+</svg>

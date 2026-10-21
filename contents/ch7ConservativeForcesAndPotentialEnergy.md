@@ -469,6 +469,12 @@ of the spring?
 
 The kinetic energy of the moving train is converted entirely into elastic potential energy stored in the spring when the train comes to rest. Use conservation of energy: $$ \frac{1}{2}mv^{2} = \frac{1}{2}kx^{2} $$.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the train moves, with the origin where the train first touches the spring. At first contact the train moves with v = +0.500 m/s. When it stops (v = 0), it has moved x = 0.400 m along +x and compressed the spring by that amount; the spring force on the train points along −x.](../resources/sketch_07_04_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction the train moves, with $$ x = 0 $$ where it first touches the spring. The train comes to rest at $$ x = +0.400\m $$, the spring's compression. The spring force on the train points along $$ -x $$, opposite to the motion, which is why it removes the train's kinetic energy.
+
 **Solution**
 
 **Given:**
@@ -538,6 +544,12 @@ $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$
 **Step 4:** Not needed here since all forces are conservative.
 
 **Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE_{\text{i}} = \KE_{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and $$ \PE_{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE_{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE_{\text{s,f}} = 0 $$ at maximum height.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with y = 0 at the child’s position when the spring is fully compressed by 0.120 m. There the child is momentarily at rest (v = 0). At the top of the jump, at the unknown height y = h, the child is again at rest.](../resources/sketch_07_04_p02.svg){: .sketch}
+
+Take $$ +y $$ upward with $$ y = 0 $$ at the fully compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and the child rises to $$ y = +h $$. The child is momentarily at rest at both points.
 
 **Solution**
 

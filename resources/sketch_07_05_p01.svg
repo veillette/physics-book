@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the skier coasting up the rise</title>
+<desc id="desc">A slope rises at 35° to a height of 2.50 m. A vertical +y axis (up) has y = 0 at the bottom and 2.50 m at the top. A tilted +x axis points up the slope, the direction of motion. The skier starts at the bottom with v_i = 12.0 m/s and travels d = 4.36 m along the slope; kinetic friction f points down the slope (−x). The final speed v_f at the top is unknown.</desc>
+<rect width="560" height="300" fill="#ffffff"/>
+<polygon points="150,250 380,250 380,88.95" fill="#efe6dc" stroke="#8d6e63" stroke-width="1.5"/>
+<line x1="86" y1="250" x2="150" y2="250" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="380" y1="88.95" x2="530" y2="88.95" stroke="#8d6e63" stroke-width="2.2"/>
+<path d="M 194 250 A 44 44 0 0 0 186.04 224.76" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="209.13" y="236.61" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">35°</tspan></text>
+<line x1="76" y1="280" x2="76" y2="44" stroke="#555555" stroke-width="1.6"/>
+<polygon points="76,34 80.4,45 71.6,45" fill="#555555"/>
+<text x="76" y="21.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="92" y="20.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="71" y1="250" x2="81" y2="250" stroke="#555555" stroke-width="1.6"/>
+<text x="66" y="254.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="71" y1="88.95" x2="81" y2="88.95" stroke="#555555" stroke-width="1.6"/>
+<text x="66" y="93.85" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.50 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="82" y1="88.95" x2="380" y2="88.95" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="110" cy="242" r="7" fill="#1f3a5f"/>
+<text x="110" y="270.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">skier</tspan></text>
+<line x1="100" y1="216" x2="138.4" y2="216" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="150,216 137.4,221.04 137.4,210.96" fill="#3f8a1e"/>
+<text x="96" y="203.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">i</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 12.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<circle cx="260.09" cy="163.15" r="5" fill="#1f3a5f"/>
+<line x1="260.09" y1="163.15" x2="228.64" y2="185.17" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="219.14,191.82 226.57,180.47 232.35,188.73" fill="#b03a2e"/>
+<text x="208.49" y="212.03" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<circle cx="440" cy="80.95" r="7" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="440" y="64.55" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">f</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="215.37" y1="221.32" x2="349.22" y2="127.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="358.72,120.94 351.29,132.3 345.51,124.04" fill="#1f77c8"/>
+<text x="309.9" y="187.58" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = 4.36 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="400" y1="232" x2="449.97" y2="197.01" stroke="#555555" stroke-width="1.5"/>
+<polygon points="457.34,191.85 451.44,200.86 446.85,194.31" fill="#555555"/>
+<text x="470.45" y="188.62" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="470.45" y="204.05" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">slope</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

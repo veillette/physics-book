@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="270" viewBox="0 0 500 270" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the wagon pulled at an angle</title>
+<desc id="desc">Axes with +x horizontal in the direction of motion and +y up. The pull F = 50.0 N points 30.0° above +x; its x-component F cos 30.0° lies along +x. The displacement d = 30.0 m lies along +x.</desc>
+<rect width="500" height="270" fill="#ffffff"/>
+<line x1="60" y1="200" x2="360" y2="200" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="60" y1="240" x2="60" y2="240" stroke="#555555" stroke-width="1.6"/>
+<line x1="60" y1="240" x2="350" y2="240" stroke="#555555" stroke-width="1.6"/>
+<polygon points="360,240 349,244.4 349,235.6" fill="#555555"/>
+<line x1="60" y1="240" x2="60" y2="240" stroke="#555555" stroke-width="1.6"/>
+<line x1="60" y1="240" x2="60" y2="60" stroke="#555555" stroke-width="1.6"/>
+<polygon points="60,50 64.4,61 55.6,61" fill="#555555"/>
+<text x="368" y="245.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="368" y="262.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">direction</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan><tspan font-style="normal">)</tspan></text>
+<text x="60" y="43.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="76" y="42.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<text x="52" y="258.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<polygon points="143,198 217,198 217,168 143,168" fill="#d6e4f0" stroke="#1f3a5f" stroke-width="2"/>
+<text x="180" y="161.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">wagon</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">child</tspan></text>
+<line x1="217" y1="175" x2="337" y2="175" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="217" y1="175" x2="302.16" y2="175" stroke="#c0675e" stroke-width="2.2" stroke-dasharray="6 4"/>
+<polygon points="312,175 301.16,179.34 301.16,170.66" fill="#c0675e"/>
+<text x="267" y="195.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#c0675e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 30.0°</tspan></text>
+<line x1="217" y1="175" x2="306.55" y2="123.3" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="316.59,117.5 308.2,128.16 303.16,119.44" fill="#b03a2e"/>
+<text x="327.85" y="115.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = 50.0 </tspan><tspan font-style="normal">N</tspan></text>
+<path d="M 257 175 A 40 40 0 0 0 251.64 155" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="273.02" y="165.24" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30.0°</tspan></text>
+<line x1="150" y1="60" x2="378.4" y2="60" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="390,60 377.4,65.04 377.4,54.96" fill="#1f77c8"/>
+<text x="270" y="49.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

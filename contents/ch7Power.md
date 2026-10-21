@@ -696,6 +696,12 @@ A 500-kg dragster accelerates from rest to a final speed of 110 m/s in 400 m (ab
 
 The total work done by the dragster equals the change in kinetic energy plus the work done against friction. Power is the total work divided by time.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the dragster moves, with the origin at the start. It starts from rest and reaches v = +110 m/s at x = 400 m after 7.30 s. Forces along x: the driving force F along +x and friction f = 1200 N along −x.](../resources/sketch_07_07_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction of motion. The driving force acts along $$ +x $$ and friction along $$ -x $$, so the dragster must supply the kinetic energy it gains plus the work $$ fd $$ done against friction over $$ d = +400\m $$.
+
 **Solution**
 
 The change in kinetic energy is:
@@ -1061,6 +1067,12 @@ Following the problem-solving strategy for energy:
 1. **Identify knowns**: $$ m = 950 $$ kg, slope angle $$ \theta = 2.00^\circ $$, constant velocity $$ v = 30.0 $$ m/s, resistive forces $$ f = 600 $$ N
 2. **Identify unknowns**: power output $$ P $$ of the car
 3. **Choose relevant principle**: Since velocity is constant, the car is in equilibrium. The driving force must equal the sum of resistive forces (friction/air resistance) plus the component of gravity along the slope. Power is force times velocity: $$ P = Fv $$.
+
+**Sketch and coordinate system**
+
+![A slope rises to the right at 2.00° (drawn steeper for clarity). Tilted axes: +x points up the slope, the direction of motion, and +y perpendicular to the slope. Forces on the car: the driving force F along +x; friction and air resistance f = 600 N along −x; the weight w straight down, with component mg sin θ along −x; and the normal force N along +y. The velocity v = 30.0 m/s along +x is constant, so a = 0.](../resources/sketch_07_07_p13.svg){: .sketch}
+
+Use tilted axes with $$ +x $$ up the slope (the direction of motion) and $$ +y $$ perpendicular to it. With $$ a = 0 $$, $$ \sum F_x = F - f - mg\sin{\theta} = 0 $$, so $$ F = f + mg\sin{\theta} $$, and the power is $$ P = Fv $$ with $$ v = +30.0\ms $$ along $$ +x $$.
 
 **Solution**
 

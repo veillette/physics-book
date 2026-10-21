@@ -669,6 +669,12 @@ to rest.
 
 We use Newton's second law in terms of momentum: $$ F_{\text{net}} = \frac{\Delta p}{\Delta t} $$. The train must lose all its momentum, so we calculate the initial momentum and then find the time required for the given force to produce this change in momentum.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the train car moves. Initially it moves at v_i = +5.4 m/s; the stopping force F = 1500 N acts on it along −x. Finally it is at rest, v_f = 0, after an unknown time Δt.](../resources/sketch_08_01_p05.svg){: .sketch}
+
+Take $$ +x $$ in the direction the train car moves. Then $$ v_i = +5.4\ms $$, $$ v_f = 0 $$, and the stopping force points along $$ -x $$, so $$ F_{\text{net}} = -1500\N $$ and $$ \Delta p $$ is negative.
+
 **Solution**
 
 First, calculate the initial momentum of the train car:

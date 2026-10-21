@@ -377,6 +377,12 @@ for elastic collisions of objects that have identical masses.)
 
 For elastic collisions between identical masses where one is initially at rest, the two objects move at 90° to each other after collision. We use this result plus conservation of momentum in both the x- and y-directions to find the velocities.
 
+**Sketch and coordinate system**
+
+![Axes with +x along the incoming puck’s velocity and +y perpendicular to it on the table, origin at the collision point. Before: puck 1 moves at v_1 = 6.00 m/s along +x toward puck 2 at rest. After: puck 1 moves at θ_1 = 30.0° above +x with unknown speed v′_1, and puck 2 moves at θ_2 = −60.0°, that is 60.0° below +x, with unknown speed v′_2.](../resources/sketch_08_06_p01.svg){: .sketch}
+
+Take $$ +x $$ along the incoming puck's velocity and $$ +y $$ perpendicular to it on the table. Puck 1 leaves at $$ \theta_{1} = +30.0^\circ $$ (above the $$ x $$-axis) and puck 2 at $$ \theta_{2} = -60.0^\circ $$ (below it), so their $$ y $$-momenta have opposite signs and cancel.
+
 **Solution**
 
 Part (a): Given that $$ \theta_{1} = 30.0^\circ $$ above the x-axis and using the result that $$ \theta_{1} - \theta_{2} = 90^\circ $$ for elastic collisions of identical masses:
@@ -537,6 +543,12 @@ when it is fired?
 
 Since the cannon can only recoil horizontally, we apply conservation of momentum in the horizontal direction only. The shell's velocity has horizontal and vertical components; only the horizontal component affects the cannon's recoil. For part (c), we consider what happens to the vertical component of momentum.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the shell’s horizontal motion and +y up. Before: cannon and shell are at rest. After: the shell (15.0 kg) leaves at 480 m/s, 20.0° above +x, with components v_x = v cos 20.0° along +x and v_y along +y; the cannon (3000 kg) recoils horizontally with unknown velocity along −x.](../resources/sketch_08_06_p03.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of the shell's horizontal motion and $$ +y $$ upward. The shell's components are $$ v_x = +v\cos{20.0^\circ} $$ and $$ v_y = +v\sin{20.0^\circ} $$. The cannon can move only along $$ x $$, so its recoil velocity comes out negative.
+
 **Solution**
 
 Part (a): First, find the horizontal component of the shell's velocity:
@@ -616,6 +628,12 @@ the ball might be converted to linear kinetic energy in the collision.
 **Strategy**
 
 We apply conservation of momentum in both x and y directions to find the ball's final velocity components. Then we compare kinetic energies to determine if the collision is elastic. The pin is initially at rest, and the ball initially moves along the x-axis.
+
+**Sketch and coordinate system**
+
+![Axes with +x along the ball’s initial velocity and +y perpendicular to it on the lane, origin at the collision. Before: the ball (5.50 kg) moves at 9.00 m/s along +x; the pin (0.850 kg) is at rest. After: the pin moves at 15.0 m/s at 85.0° above +x; the ball’s final velocity (magnitude v′ and angle θ, expected below +x) is unknown.](../resources/sketch_08_06_p04.svg){: .sketch}
+
+Take $$ +x $$ along the ball's initial velocity and $$ +y $$ perpendicular to it, on the side toward which the pin scatters, so the pin moves at $$ +85.0^\circ $$. Conservation of $$ y $$-momentum then makes $$ v'_{\text{ball},y} $$ negative: the ball is deflected below the $$ x $$-axis.
 
 **Solution**
 
@@ -733,6 +751,12 @@ magnitude and direction) of the gold nucleus.
 
 This is an elastic collision between a light helium nucleus and a much heavier gold nucleus (initially at rest). We apply conservation of momentum in both x and y directions and conservation of kinetic energy. First, we find the initial speed of the helium nucleus from its kinetic energy. Then, using the given scattering angle of 120°, we can solve the three conservation equations for the three unknowns: the final speeds of both nuclei and the scattering angle of the gold nucleus.
 
+**Sketch and coordinate system**
+
+![Axes with +x along the helium nucleus’s initial velocity and +y perpendicular to it, origin at the gold nucleus, initially at rest. After the elastic collision the helium nucleus moves at 120° from +x (above the axis) with unknown speed v′_He; the gold nucleus recoils at an unknown angle θ_Au, below +x, with unknown speed v′_Au.](../resources/sketch_08_06_p05.svg){: .sketch}
+
+Take $$ +x $$ along the helium nucleus's initial velocity and $$ +y $$ perpendicular to it, on the side toward which it scatters, so it leaves at $$ 120^\circ $$ from $$ +x $$. Conservation of $$ y $$-momentum then makes $$ \theta_{\text{Au}} $$ negative: the gold nucleus recoils below the $$ x $$-axis.
+
 **Solution**
 
 Part (a): First, find the initial speed of the helium nucleus from its kinetic energy:
@@ -833,6 +857,12 @@ starts at rest.
 **Strategy**
 
 Define coordinates: let +x be east and +y be north. Car 1 moves south (-y direction), Car 2 moves west (-x direction). Since the cars stick together, this is a perfectly inelastic collision. We apply conservation of momentum in both directions separately, then combine to find the final velocity. Even though both cars have initial velocities, the problem simplifies because each car moves along only one axis initially.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the intersection. Car 1 (1200 kg) approaches moving due south, v_1y = −8.00 m/s. Car 2 (850 kg) approaches moving due west, v_2x = −17.0 m/s. After they stick together, they move with unknown velocity v_f at an unknown angle θ south of west.](../resources/sketch_08_06_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the intersection. Car 1 moves south, so $$ v_{1y} = -8.00\ms $$; car 2 moves west, so $$ v_{2x} = -17.0\ms $$. Both final components therefore come out negative, so the wreck moves south of west.
 
 **Solution**
 
@@ -1021,6 +1051,12 @@ away?
 **Strategy**
 
 First, use conservation of momentum to find the player's recoil velocity. Then calculate the time for the puck to reach the goal, and use this time to find how far the player moves.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the puck moves, toward the goal 15.0 m away. Before: player and puck are at rest. After: the puck (0.150 kg) moves at +45.0 m/s and the player (90.0 kg) recoils with unknown velocity along −x; the distance he recoils while the puck travels 15.0 m is unknown.](../resources/sketch_08_06_p08.svg){: .sketch}
+
+Take $$ +x $$ in the direction the puck moves, toward the goal, so $$ v_{\text{puck}} = +45.0\ms $$. The total momentum stays zero, so the player's velocity is negative: he recoils along $$ -x $$, away from the goal.
 
 **Solution**
 

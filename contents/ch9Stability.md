@@ -226,6 +226,12 @@ Suppose a horse leans against a wall as in [Figure 10](#Figure10). Calculate the
 
 Take the horse and rider as the system and choose the pivot at the horse's feet, so the unknown ground forces produce no torque. Only two forces then produce torques: the weight $$ w $$, acting 0.35 m horizontally from the feet, and the horizontal wall force, acting 1.2 m above the ground. Setting the net torque to zero gives the wall force.
 
+**Free-body diagram**
+
+![Rear view with the wall on the left. Torques are taken about the horse’s feet (the origin). +x points away from the wall and +y up, and counterclockwise torques are positive. The weight w = 4900 N acts down 0.35 m from the feet, on the wall side (counterclockwise torque); the wall pushes horizontally along +x with F_wall, 1.2 m above the ground (clockwise torque).](../resources/sketch_09_03_p01.svg){: .sketch}
+
+Take $$ +x $$ away from the wall, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the horse's feet. The weight acts on the wall side of the feet, so its torque $$ +w(0.350\m) $$ is counterclockwise; the wall force points along $$ +x $$, 1.20 m up, so its torque $$ -F_{\text{wall}}(1.20\m) $$ is clockwise. Setting the sum to zero gives the equation below.
+
 **Solution**
 
 The weight is $$ w = mg = (500 \kg)(9.80 \mss) = 4900 \N $$. Its line of action is 0.35 m from the feet (on the wall side), so it tends to rotate the horse toward the wall. The horizontal wall force, applied 1.2 m above the feet, tends to rotate the horse away from the wall. For equilibrium:
@@ -259,6 +265,12 @@ Two children of mass 20.0 kg and 30.0 kg sit balanced on a seesaw with the pivot
 **Strategy**
 
 For the seesaw to be balanced, the net torque about the pivot must be zero. We use the second condition for equilibrium: $$ \text{net}\tau = 0 $$. Let $$ r_1 $$ be the distance of the smaller child from the pivot and $$ r_2 $$ be the distance of the larger child. We know that $$ r_1 + r_2 = 3.00 \m $$.
+
+**Free-body diagram**
+
+![The seesaw pivots at its center (the origin). +x points to the right and +y up, and counterclockwise torques are positive. The 20.0-kg child sits r_1 to the left of the pivot, so the weight m_1 g gives a counterclockwise (positive) torque; the 30.0-kg child sits r_2 to the right, so m_2 g gives a clockwise (negative) torque. The children are 3.00 m apart.](../resources/sketch_09_03_p02.svg){: .sketch}
+
+Take $$ +x $$ to the right, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the center of the seesaw and the smaller child on the left. Then $$ \sum \tau = m_1 g r_1 - m_2 g r_2 = 0 $$, which is the balance $$ \tau_{1} = \tau_{2} $$ used below.
 
 **Solution**
 
@@ -335,6 +347,12 @@ As expected, the lighter child must sit farther from the pivot to balance the he
 
 Use the first condition for equilibrium on the horse and rider. The wall force from the previous problem, $$ F_{\text{wall}} = 1.43 \times 10^{3} \N $$, is horizontal and points away from the wall, so the ground must supply an equal horizontal friction force toward the wall. With the center of mass midway between the two feet on the ground, each foot carries half the weight and, by symmetry, half the friction.
 
+**Free-body diagram**
+
+![Rear view with the wall on the left. +x points away from the wall and +y up. On the horse and rider: the wall pushes along +x with F_wall = 1.43 × 10³ N, 1.2 m up; the weight w = 4900 N acts down; each of the two feet on the ground gets N_foot along +y and friction f_foot along −x, toward the wall. The force on each foot, F_foot, is the sum of N_foot and f_foot, tilted from the vertical toward the wall by θ.](../resources/sketch_09_03_p03.svg){: .sketch}
+
+Take $$ +x $$ away from the wall and $$ +y $$ upward. The wall pushes the horse along $$ +x $$, so the friction on the two feet must point along $$ -x $$, toward the wall, and $$ \sum F_x = F_{\text{wall}} - 2f_{\text{foot}} = 0 $$. Vertically, $$ \sum F_y = 2N_{\text{foot}} - w = 0 $$.
+
 **Solution**
 
 **(a)** Each foot:
@@ -386,6 +404,12 @@ and $$ \vb{F}_{2} $$ ?
 **Strategy**
 
 We apply both conditions for equilibrium. The first condition (net force = 0) relates the forces, and the second condition (net torque = 0) allows us to solve for one of the unknown forces. We choose the pivot point at the location of one hand to eliminate one unknown from the torque equation.
+
+**Free-body diagram**
+
+![The plank is 2.00 m long. The origin (pivot for torques) is at the left end, where F_1 pushes down. +x points along the plank and +y up, and counterclockwise torques are positive. F_2 pushes up 0.500 m from the end (counterclockwise torque), and the weight W = 196 N acts down at the middle, 1.00 m from the end (clockwise torque).](../resources/sketch_09_03_p04.svg){: .sketch}
+
+Take $$ +x $$ along the plank from the end where $$ F_1 $$ pushes, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at that end. Then $$ F_2 $$ (up, at 0.500 m) gives a positive torque and $$ W $$ (down, at 1.00 m) a negative one, and for forces $$ \sum F_y = F_2 - F_1 - W = 0 $$.
 
 **Solution**
 
@@ -463,6 +487,12 @@ A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown 
 
 Take the wall as the system and choose its base as the pivot, so the forces at the base produce no torque. Because the wall's thickness is neglected, its weight also acts along the pivot line and produces no torque. The wind produces a torque about the base; the braces, pushing on the wall along their lengths at 35° from the wall, produce the opposing torque through their horizontal components.
 
+**Free-body diagram**
+
+![Side view of the 17.0-m wall, pivoting at its base (the origin). +x points to the right (the direction the wind pushes) and +y up, and counterclockwise torques are positive. The wind force F_wind acts along +x halfway up, 8.50 m above the base (clockwise torque). Each brace pushes on the wall at 8.50 m along the brace, 35.0° from the wall, up and to the left; its horizontal component F_B sin 35.0° points along −x (counterclockwise torque).](../resources/sketch_09_03_p05.svg){: .sketch}
+
+Take $$ +x $$ in the direction the wind pushes, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the base of the wall. The wind force along $$ +x $$ at 8.50 m gives a clockwise (negative) torque; each brace's horizontal component $$ F_B\sin{35.0^\circ} $$ points along $$ -x $$ at the same height and gives a counterclockwise (positive) torque.
+
 **Solution**
 
 Total wind force on the 17.0 m × 11.0 m wall, acting halfway up (8.50 m):
@@ -507,6 +537,12 @@ $$ F_{\text{B}}=2.12\times 10^{4}\N $$ on each brace
 **Strategy**
 
 For the chicken to be in equilibrium while displaced, the torques about the pivot point (the foot) must sum to zero. The weight creates a torque about the foot, and the wind force must create an equal and opposite torque. From the figure, the center of gravity is 9.0 cm horizontally from the foot and 20 cm above the ground.
+
+**Free-body diagram**
+
+![The chicken pivots about its foot (the origin). +x points to the right, the direction the wind blows, and +y up, and counterclockwise torques are positive. The center of gravity is 9.0 cm to the left of the foot and 20 cm above it. The weight W, acting down at the center of gravity, gives a counterclockwise torque; the wind force F_wind, pushing along +x at the height of the center of gravity, gives a clockwise torque.](../resources/sketch_09_03_p06.svg){: .sketch}
+
+Take $$ +x $$ in the direction the wind blows, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the foot. The weight acts 9.0 cm to the $$ -x $$ side of the foot, giving a positive torque $$ +W(0.090\m) $$; the wind pushes along $$ +x $$ 0.20 m up, giving a negative torque $$ -F_{\text{wind}}(0.20\m) $$.
 
 **Solution for (a)**
 
@@ -579,6 +615,12 @@ Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported enti
 
 Take the bridge as the system, with the cables slack. The forces on it are its weight at the center of gravity, the upward support of the opposite shore at the cable attachment, and the hinge force. Choose the hinge as the pivot to find the shore's support, then use the first condition for equilibrium for the hinge force. From Figure 13, the center of gravity is 1.5 m from the hinges, and the 7.5-m dimension runs from the center of gravity to the cable attachment, so the shore support is 9.0 m from the hinges.
 
+**Free-body diagram**
+
+![The bridge pivots at its hinge (the origin). +x points from the hinge toward the opposite shore and +y up, and counterclockwise torques are positive. The weight w acts down 1.5 m from the hinge (clockwise torque); the shore pushes up with F_shore 9.0 m from the hinge (counterclockwise torque); the hinge force F_hinge acts at the origin.](../resources/sketch_09_03_p07.svg){: .sketch}
+
+Take $$ +x $$ from the hinge toward the opposite shore, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the hinge. The shore's upward push at 9.0 m gives a positive torque and the weight at 1.5 m a negative one; vertically, $$ F_{\text{hinge}} + F_{\text{shore}} - w = 0 $$.
+
 **Solution**
 
 **(a)** Torques about the hinge:
@@ -622,6 +664,12 @@ Suppose a 900-kg car is on the bridge in [Figure 13](#Figure13) with its center 
 **Strategy**
 
 Use the geometry in [Figure 13](#Figure13): the bridge’s center of gravity is **1.5 m** from the hinges, and the 7.5-m dimension runs from the center of gravity to the cable attachment, so the cable attaches **1.5 m + 7.5 m = 9.0 m** from the hinges at **40°** above horizontal, and the car’s center of mass is **3.75 m** from the hinges. Apply $$ \sum F = 0 $$ and $$ \sum \tau = 0 $$ about the hinge for the bridge (2500 kg) plus car (900 kg).
+
+**Free-body diagram**
+
+![The bridge pivots at its hinge (the origin). +x points from the hinge toward the opposite shore and +y up, and counterclockwise torques are positive. The bridge’s weight w_b acts down 1.50 m from the hinge and the car’s weight w_c 3.75 m from it (both clockwise torques). The cable tension T acts 9.00 m from the hinge, 40° above the horizontal and back toward the hinge (counterclockwise torque). The hinge force has components F_hx along +x and F_hy along +y.](../resources/sketch_09_03_p08.svg){: .sketch}
+
+Take $$ +x $$ from the hinge toward the opposite shore, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the hinge. The cable pulls up and back toward the hinge at 40°, so its components are $$ -T\cos{40^\circ} $$ and $$ +T\sin{40^\circ} $$, and its torque $$ +T\sin{40^\circ}(9.00\m) $$ is positive; the two weights give negative torques. The hinge components $$ F_{hx} $$ and $$ F_{hy} $$ are drawn along $$ +x $$ and $$ +y $$, and positive answers confirm those directions.
 
 **Solution for (a)**
 
@@ -694,6 +742,12 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 
 By symmetry, each half of the sign carries half the weight, $$ w/2 = (4.00 \kg)(9.80 \mss) = 39.2 \N $$, and with no friction the ground pushes straight up on each foot with $$ N = 39.2 \N $$. Analyze one half (say, the right one), with the hinge as the pivot. From Figure 14, the foot is 0.550 m horizontally from the hinge, the half's center of gravity is midway along it (0.275 m horizontally from the hinge), and the horizontal chain is attached 0.500 m below the hinge.
 
+**Free-body diagram**
+
+![Right half of the sign, with torques taken about the hinge (the origin) at the top. +x points to the right (outward) and +y up, and counterclockwise torques are positive. The foot is 0.550 m right of and 1.30 m below the hinge; the ground pushes up there with N = 39.2 N (counterclockwise torque). The half’s weight w/2 = 39.2 N acts down 0.275 m right of the hinge, and the chain pulls along −x with T, 0.500 m below the hinge (both clockwise torques). The other half pushes on the hinge along +x.](../resources/sketch_09_03_p09.svg){: .sketch}
+
+Take $$ +x $$ to the right (outward from the center of the sign), $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the hinge on the right half. The normal force (up, 0.550 m to the right) gives a positive torque; the half's weight (down, 0.275 m to the right) and the chain's pull (along $$ -x $$, 0.500 m below the hinge) give negative torques: $$ N(0.550\m) - \frac{w}{2}(0.275\m) - T(0.500\m) = 0 $$.
+
 **Solution**
 
 **(a)** Torques about the hinge on the right half: the normal force at the foot tends to rotate it one way; the weight and the chain's inward pull tend to rotate it the other way.
@@ -745,6 +799,12 @@ From Figure 14:
 - Height of hinge: 1.30 m
 - Chain is at 0.50 m below hinge (but chain is broken)
 - Center of gravity of each leg is at its geometric center
+
+**Free-body diagram**
+
+![Left half of the sign with the chain broken, torques taken about its foot (the origin). +x points to the right (toward the center) and +y up, and counterclockwise torques are positive. The weight W = 39.2 N acts down 0.275 m right of the foot (clockwise torque); the other half pushes horizontally along −x on the hinge, 1.30 m above the foot (counterclockwise torque); friction f on the foot points along +x and N along +y.](../resources/sketch_09_03_p10.svg){: .sketch}
+
+Analyze the left half, taking $$ +x $$ to the right (toward the center of the sign), $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at its foot. The weight (down, 0.275 m to the right of the foot) gives a clockwise torque; the other half pushes the hinge along $$ -x $$, 1.30 m up, giving a counterclockwise torque. Friction on the foot must then point along $$ +x $$.
 
 **Solution for (a)**
 
@@ -840,6 +900,12 @@ A gymnast is attempting to perform splits. From the information given in [Figure
 **Strategy**
 
 Take the gymnast as the system. From Figure 15, her feet are symmetric about her center of gravity, each 0.90 m from it horizontally. Choose one foot as the pivot, use the torque condition to find the force on the other foot, and then the force condition. Assume the floor exerts no horizontal force on her feet (any equal and opposite horizontal friction forces at the two feet cannot be determined from equilibrium alone, so we take them to be zero).
+
+**Free-body diagram**
+
+![The gymnast is treated as a rigid body, with torques taken about her left foot (the origin). +x points from the left foot toward the right foot and +y up, and counterclockwise torques are positive. Her weight, 700 N, acts down 0.90 m from the left foot (clockwise torque); the floor pushes up on the right foot with N_R, 1.80 m from the left foot (counterclockwise torque), and on the left foot with N_L.](../resources/sketch_09_03_p11.svg){: .sketch}
+
+Take $$ +x $$ from the left foot toward the right foot, $$ +y $$ upward, and counterclockwise torques as positive, with the pivot at the left foot. The floor's push $$ N_R $$ (up, at 1.80 m) gives a positive torque and the weight (down, at 0.90 m) a negative one; vertically, $$ N_L + N_R - w = 0 $$.
 
 **Solution**
 

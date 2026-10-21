@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the ball bouncing off the wall</title>
+<desc id="desc">Axes with +x horizontal toward the wall and +y up. The ball arrives with v_i = 10 m/s at 60° above +x and leaves with v_f = 10 m/s at 60° above −x. The y-components are equal; the x-component reverses from +5.00 m/s to −5.00 m/s, so the impulse J from the wall points along −x.</desc>
+<rect width="600" height="330" fill="#ffffff"/>
+<line x1="400" y1="40" x2="400" y2="310" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="400" y1="44" x2="409" y2="36" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="56" x2="409" y2="48" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="68" x2="409" y2="60" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="80" x2="409" y2="72" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="92" x2="409" y2="84" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="104" x2="409" y2="96" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="116" x2="409" y2="108" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="128" x2="409" y2="120" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="140" x2="409" y2="132" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="152" x2="409" y2="144" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="164" x2="409" y2="156" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="176" x2="409" y2="168" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="188" x2="409" y2="180" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="200" x2="409" y2="192" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="212" x2="409" y2="204" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="224" x2="409" y2="216" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="236" x2="409" y2="228" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="248" x2="409" y2="240" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="260" x2="409" y2="252" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="272" x2="409" y2="264" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="284" x2="409" y2="276" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="296" x2="409" y2="288" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="400" y1="308" x2="409" y2="300" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="60" y1="290" x2="131" y2="290" stroke="#555555" stroke-width="1.5"/>
+<polygon points="140,290 130,294 130,286" fill="#555555"/>
+<text x="156" y="295.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="156" y="311.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">toward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wall</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="60" y1="290" x2="60" y2="229" stroke="#555555" stroke-width="1.5"/>
+<polygon points="60,220 64,230 56,230" fill="#555555"/>
+<text x="60" y="209.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="74" y="208.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<polyline points="334,283.92 394,180" fill="none" stroke="#7f8c8d" stroke-width="1.8" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<circle cx="334" cy="283.92" r="6" fill="#1f3a5f"/>
+<line x1="334" y1="283.92" x2="356.2" y2="245.47" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="362,235.43 360.06,248.86 351.34,243.82" fill="#3f8a1e"/>
+<text x="364.5" y="228.04" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">i</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="334" y1="283.92" x2="378" y2="283.92" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 364 283.92 A 30 30 0 0 0 349 257.94" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="373.84" y="266.17" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+<polyline points="394,180 334,76.08" fill="none" stroke="#7f8c8d" stroke-width="1.8" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<circle cx="334" cy="76.08" r="6" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<line x1="334" y1="76.08" x2="311.8" y2="37.63" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="306,27.58 316.66,35.97 307.94,41.01" fill="#3f8a1e"/>
+<text x="303.5" y="20.19" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">f</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<line x1="334" y1="76.08" x2="290" y2="76.08" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 319 50.1 A 30 30 0 0 0 304 76.08" fill="none" stroke="#555555" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="294.16" y="58.33" font-family="'Times New Roman', Times, serif" font-size="15" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+<line x1="390" y1="180" x2="341.6" y2="180" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="330,180 342.6,174.96 342.6,185.04" fill="#b03a2e"/>
+<text x="320" y="185.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">J</tspan></text>
+<text x="320" y="204.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">impulse</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wall</tspan><tspan font-style="normal">)</tspan></text>
+<text x="424" y="115.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">i</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 10 </tspan><tspan font-style="normal">m/s</tspan></text>
+<text x="424" y="137.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">f</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 10 </tspan><tspan font-style="normal">m/s</tspan></text>
+<text x="424" y="159.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan><tspan font-style="normal"> = 0.055 </tspan><tspan font-style="normal">kg</tspan></text>
+</svg>
