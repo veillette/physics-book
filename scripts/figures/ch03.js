@@ -10,6 +10,7 @@ import {
   COLORS,
   Frame,
   Svg,
+  fmt,
   localArrow,
   rad,
   smilAnimate,
@@ -237,6 +238,80 @@ function components({ level, numbers, scaleA = EX_A, scaleB = EX_B, title, desc 
 }
 
 /** A vector with dashed x and y components (Figures 3.3.1, 3.3.2 and 3.3.4). */
+/**
+ * Two identical balls released together, one from rest and one with a
+ * horizontal velocity, drawn at five equal time steps. Positions and arrows use
+ * one clock: x = vx·t, y = g·t²/2, and each arrow is its velocity times `k`, so
+ * the vertical arrows grow in step with the drop between positions.
+ */
+function fallSideBySide() {
+  const svg = new Svg({
+    width: 375,
+    height: 585,
+    title: 'A dropped ball and a ball thrown horizontally',
+    desc: 'Two identical balls fall side by side, shown at five equal time intervals. The red ball on the left falls from rest; the blue ball on the right has a constant horizontal velocity. At each instant both balls are at the same height with the same, steadily growing, downward velocity, so the vertical motion does not depend on the horizontal motion.',
+  });
+  const GREEN = COLORS.green;
+  const RED_FILL = '#f28b82';
+  const BLUE_FILL = '#6cc4e8';
+  const vx = 48; // px per time unit
+  const g = 28; // px per time unit squared
+  const k = 0.8; // arrow length per (px per time unit)
+  const xr = 30;
+  const x0 = xr + 30; // the blue ball starts just right of the red one
+  const y0 = 22;
+  const times = [1.5, 2.5, 3.5, 4.5, 5.5];
+  const y = t => y0 + (g * t * t) / 2;
+  const xb = t => x0 + vx * t;
+  const ball = (x, yy, fill, stroke) =>
+    `<circle cx="${fmt(x)}" cy="${fmt(yy)}" r="11" fill="${fill}" stroke="${stroke}" stroke-width="2"/>`;
+
+  // One strobe position: dotted level line, velocity arrows, then the balls on top.
+  const position = t => {
+    const yy = y(t);
+    svg.line(xr, yy, xb(t), yy, { color: '#999999', width: 3, dash: '3 5' });
+    svg.arrow(xr, yy, xr, yy + g * t * k, { color: GREEN, width: 3.5, head: 15 });
+    svg.arrow(xb(t), yy, xb(t), yy + g * t * k, { color: GREEN, width: 3.5, head: 15 });
+    svg.arrow(xb(t), yy, xb(t) + vx * k, yy, { color: BLACK, width: 3.5, head: 15 });
+    svg.add(ball(xr, yy, RED_FILL, RED));
+    svg.add(ball(xb(t), yy, BLUE_FILL, BLUE));
+  };
+  svg.still(() => times.forEach(position));
+
+  // Both balls fall from the top for 5.5 time units, then hold. Each strobe
+  // position appears as the moving balls reach it and stays until the loop ends.
+  const T = 8;
+  const S = 1.1; // seconds per time unit
+  const DUR = `${T}s`;
+  const at = t => (t * S) / T;
+  const samples = [];
+  for (let t = 0; t <= 5.5 + 1e-9; t += 0.1) samples.push(t);
+  const keyTimes = [...samples.map(at), 1];
+  const hold = list => [...list, list.at(-1)];
+  const opt = { dur: DUR, keyTimes };
+  const ghosts = times
+    .map(t => {
+      const show = at(t);
+      const drawn = svg.capture(() => position(t));
+      return `<g opacity="0">${smilAnimate('opacity', [0, 0, 1, 1], { dur: DUR, keyTimes: [0, show, show + 0.0001, 1] })}${drawn}</g>`;
+    })
+    .join('');
+  const fall = hold(samples.map(t => [0, y(t)]));
+  const across = hold(samples.map(t => [xb(t) - xr, y(t)]));
+  const vyArrow = localArrow(0, 1, GREEN, {
+    width: 3.5,
+    head: 15,
+    lengths: hold(samples.map(t => g * t * k)),
+    ...opt,
+  });
+  const vxArrow = localArrow(vx * k, 0, BLACK, { width: 3.5, head: 15 });
+  const level = `<line x1="0" y1="0" x2="${x0 - xr}" y2="0" stroke="#999999" stroke-width="3" stroke-dasharray="3 5">${smilAnimate('x2', hold(samples.map(t => xb(t) - xr)), opt)}</line>`;
+  svg.motionGroup(
+    `${ghosts}<g transform="translate(${xr} 0)"><g>${smilTranslate(fall, opt)}${level}${vyArrow}${ball(0, 0, RED_FILL, RED)}</g><g>${smilTranslate(across, opt)}${vyArrow}${vxArrow}${ball(0, 0, BLUE_FILL, BLUE)}</g></g>`
+  );
+  return svg.render();
+}
+
 function resolve({ title, desc, xLabel, yLabel, extra }) {
   const svg = new Svg({ width: 340, height: 400, title, desc });
   const f = new Frame(svg, { ox: 38, oy: 350, scale: 1 });
@@ -279,6 +354,9 @@ export default {
     diagonal(f, 'Path 10.3 blocks');
     return svg.render();
   },
+
+  // 3.1 — a dropped ball and a ball thrown horizontally fall side by side
+  Figure_03_01_05: () => fallSideBySide(),
 
   // 3.2 — a displacement vector of 10.3 blocks at 29.1°
   Figure_03_02_02: () => {
