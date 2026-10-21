@@ -993,7 +993,6 @@ $$ T = \frac{F}{2\sin(\theta)} = \frac{F_{\perp}}{2\sin(\theta)} $$
 This formula reveals an important principle: as the angle $$ \theta $$ decreases (rope becomes more horizontal), the denominator $$ 2\sin(\theta) $$ becomes smaller, so the tension $$ T $$ must increase to support the same perpendicular force. This explains why:
 
 - A perfectly horizontal wire would require infinite tension to support any load
-- Tightrope walkers use long poles to increase their sag angle, reducing cable tension
 - Power lines and suspension bridges are designed with appropriate sag
 
 For small angles, $$ \sin(\theta) \approx \theta $$ (in radians), and tension increases roughly as $$ 1/\theta $$.

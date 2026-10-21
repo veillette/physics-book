@@ -1133,7 +1133,7 @@ orientation of the third side $$ \text{C} $$. What is her result?
 
 **Strategy**
 
-The three sides form a closed triangle: A + B + C = 0, so C = -(A + B). Find components of A and B, sum them, then find the magnitude and direction of -C.
+The three sides form a closed triangle: A + B + C = 0, so C = -(A + B). Find components of A and B, sum them, then negate the sum to find the closing side C and its magnitude and direction.
 
 **Sketch and coordinate system**
 
@@ -1305,7 +1305,7 @@ $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly cal
 
 **Strategy**
 
-For a closed quadrilateral, A + B + C + D = 0, so D = -(A + B + C). Calculate components of A, B, and C, sum them, then find -D.
+For a closed quadrilateral, A + B + C + D = 0, so D = -(A + B + C). Calculate components of A, B, and C, sum them, then negate the sum to find the closing side D.
 
 **Sketch and coordinate system**
 

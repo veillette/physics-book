@@ -1031,7 +1031,7 @@ Identify the system and external forces, choose axes consistent with the stated 
 
 **Discussion**
 
-The applied force on the tooth (12.9 N) is approximately half the tension in the wire (25.0 N) because only the vertical components of the two symmetric tensions contribute to moving the tooth. The horizontal components cancel due to symmetry, which is why the wire is oriented at equal angles on both sides. Orthodontic treatments use small, sustained forces over long periods to gradually reposition teeth. The 12.9 N force is reasonable for this purpose—strong enough to be effective but gentle enough to avoid damaging the tooth or surrounding tissue.
+The applied force on the tooth (12.9 N) is about half the tension in the wire (25.0 N). The horizontal components cancel, while the two vertical components add. This calculation finds the resultant wire force; it does not assess its suitability for a particular treatment.
 
 :::
 
@@ -1312,7 +1312,7 @@ During upward acceleration, the cable tension exceeds the elevator's weight beca
 
 When the elevator reaches cruising velocity and moves at constant speed, $$ a = 0 $$, so the tension equals the weight: $$ T = mg $$. During downward acceleration (when starting to descend), the tension is less than the weight: $$ T = m(g - a) $$, which is why you feel lighter.
 
-The safety factor for elevator cables is typically 10-12, meaning cables are designed to support 10-12 times the maximum expected tension. For our example, the cable would be rated for at least 130,000-160,000 N to ensure passenger safety.
+This is an idealized force calculation. Designing an elevator cable also requires accounting for the cable arrangement, operating conditions, and applicable engineering standards.
 
 **Answer**
 

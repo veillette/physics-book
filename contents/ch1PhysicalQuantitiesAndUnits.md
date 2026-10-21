@@ -453,8 +453,7 @@ One cubic centimeter is equal to one milliliter. What does this tell you about t
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a
-milliliter is dependent on the measure of a centimeter.
+Volume is derived from length: the SI unit of volume is the cubic meter. Metric units fit together by powers of ten, so $$ 1 \text{ cm}^{3} = 1 \text{ mL} $$ and $$ 1 \text{ L} = 1 \text{ dm}^{3} = 10^{-3} \text{ m}^{3} $$. The liter is accepted for use with SI.
 
 :::
 
@@ -663,7 +662,7 @@ $$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.4 \m $$
 
 **Discussion**
 
-The result shows that an American football field is slightly less than 100 meters long, which provides a useful reference point for estimating distances. The conversion required using two factors: first yards to feet (3 ft/yd), then feet to meters. The answer of 91.4 m is given to three significant figures because the 100-yd field length is a defined dimension, effectively exact; a measured “100 yd” written without a decimal point would be ambiguous, and $$ 1.00 \times 10^{2} $$ yd would state three significant figures explicitly.
+The field is slightly shorter than 100 meters. Here 91.4 m is a convenient approximation. Treating the defined field length as exact and using all four significant figures of the supplied conversion gives 91.44 m.
 
 **Answer**
 
@@ -693,11 +692,11 @@ Convert from meters to feet using the conversion factor 1 m = 3.281 ft, then con
 **Length (115 m):**
 
 <div class="equation">
-$$ 115 \m \times \frac{3.281 \text{ ft}}{1 \m} = 377 \text{ ft} $$
+$$ 115 \m \times \frac{3.281 \text{ ft}}{1 \m} = 377.315 \text{ ft} \approx 377\text{ ft} $$
 </div>
 
 <div class="equation">
-$$ 377 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 4.53 \times 10^{3} \text{ in.} $$
+$$ 377.315 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 4.53 \times 10^{3} \text{ in.} $$
 </div>
 
 **Width (85 m):**

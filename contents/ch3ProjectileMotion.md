@@ -1012,11 +1012,9 @@ The magnitude is $$ 34.3 \ms $$ (downward).
 
 The horizontal component remains: $$ v_x = 28.6 \ms $$
 
-Magnitude:
+Magnitude (using unrounded velocity components):
 
-<div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(28.6 \ms)^2 + (34.3 \ms)^2} = \sqrt{818 \mmss + 1176 \mmss} = 44.7 \ms $$
-</div>
+$$ v = \sqrt{v_x^2+v_y^2} \approx 44.6 \ms $$
 
 Direction (angle below horizontal):
 
@@ -1034,7 +1032,7 @@ The ball accelerates only in the vertical direction, so it falls faster and fast
 
 (c) The vertical velocity just before impact is $$ 34.3 \ms $$ downward.
 
-(d) The total velocity is $$ 44.7 \ms $$ at $$ 50.2° $$ below horizontal.
+(d) The total velocity is $$ 44.6 \ms $$ at $$ 50.2° $$ below horizontal.
 
 ::::
 
@@ -1192,7 +1190,7 @@ $$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1 \ms)(1.13 \s) - \frac{1}{2}(9.80 \mss
 **High trajectory (θ = 71.6°):**
 
 <div class="equation">
-$$ v_{0x} = 35.0 \s \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5 \m}{11.0 \ms} = 3.41 \s $$
+$$ v_{0x} = 35.0 \ms \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5 \m}{11.0 \ms} = 3.41 \s $$
 </div>
 
 <div class="equation">
@@ -1289,27 +1287,17 @@ This angle would not be used because:
 
 **(c) Time of flight:**
 
-First, find the vertical component of initial velocity:
+Use the horizontal motion to find the flight time for the smaller angle:
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = (12.0 \ms)(\sin 14.2°) = (12.0 \ms)(0.245) = 2.94 \ms $$
+$$ t = \frac{R}{v_0\cos\theta} = \frac{7.00\m}{(12.0\ms)\cos\theta} \approx 0.602\s. $$
 </div>
 
-At maximum height, $$ v_y = 0 $$. Time to reach maximum height:
-
-<div class="equation">
-$$ t_{up} = \frac{v_{0y}}{g} = \frac{2.94 \ms}{9.80 \mss} = 0.300 \s $$
-</div>
-
-By symmetry, total flight time:
-
-<div class="equation">
-$$ t_{total} = 2 \times t_{up} = 2 \times 0.300 \s = 0.600 \s $$
-</div>
+Here the unrounded value of $$ \theta = \frac{1}{2}\sin^{-1}(Rg/v_0^2) $$ is used in the calculation.
 
 **Discussion**
 
-The short flight time (0.600 s) confirms that the smaller angle produces a quick, flat pass that minimizes the opportunity for interception. The complementary angle (75.8°) would result in a much longer flight time of about 2.4 s, which would be impractical in a fast-paced rugby match.
+The short flight time (0.602 s) confirms that the smaller angle produces a quick, flat pass that minimizes the opportunity for interception. The complementary angle (75.8°) would result in a much longer flight time of about 2.4 s, which would be impractical in a fast-paced rugby match.
 
 **Answer**
 
@@ -1317,7 +1305,7 @@ The short flight time (0.600 s) confirms that the smaller angle produces a quick
 
 (b) The other angle is **75.8°**. This angle would not be used because it results in a much longer flight time, making the pass easier to intercept and harder to catch.
 
-(c) The pass took **0.600 s**.
+(c) The pass took **0.602 s**.
 
 ::::
 
@@ -1600,99 +1588,41 @@ Take $$ +x $$ horizontal toward the cliff and $$ +y $$ up, with the origin on th
 
 **Solution**
 
-Given: $$ y_0 = 1.5 \m $$, $$ v_0 = 30 \ms $$, $$ \theta = 60° $$, $$ t = 4.0 \s $$
-
-First, find the initial velocity components:
-
-<div class="equation">
-$$ v_{0x} = v_0 \cos(60°) = 30 \ms \times 0.500 = 15 \ms $$
-</div>
-
-<div class="equation">
-$$ v_{0y} = v_0 \sin(60°) = 30 \ms \times 0.866 = 26.0 \ms $$
-</div>
+Given $$ y_0 = 1.5\m $$, $$ v_0 = 30\ms $$, $$ \theta = 60° $$, and $$ t = 4.0\s $$, the initial components are $$ v_{0x} = v_0\cos60° = 15\ms $$ and $$ v_{0y} = v_0\sin60° \approx 26\ms $$. Keep the unrounded components in the calculations.
 
 **(a) Height of the cliff:**
 
-Using the vertical position equation:
-
 <div class="equation">
-$$ y = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
+$$ H = y_0 + v_0\sin60°\,t - \frac{1}{2}gt^2 = 1.5\m + (30\ms)\sin60°(4.0\s) - \frac{1}{2}(9.80\mss)(4.0\s)^2 \approx 27\m. $$
 </div>
 
-<div class="equation">
-$$ y = 1.5 \m + (26.0 \ms)(4.0 \s) - \frac{1}{2}(9.80 \mss)(4.0 \s)^2 $$
-</div>
+**(b) Maximum height:**
+
+At the top, $$ v_y = 0 $$. Therefore,
 
 <div class="equation">
-$$ y = 1.5 \m + 104.0 \m - \frac{1}{2}(9.80 \mss)(16.0 \text{s}^2) $$
-</div>
-
-<div class="equation">
-$$ y = 1.5 \m + 104.0 \m - 78.4 \m = 27.1 \m $$
-</div>
-
-The cliff height is **H = 27.1 m**.
-
-**(b) Maximum height reached:**
-
-The maximum height occurs when $$ v_y = 0 $$. Using:
-
-<div class="equation">
-$$ v_y^2 = v_{0y}^2 - 2g(y_{max} - y_0) $$
-</div>
-
-Setting $$ v_y = 0 $$:
-
-<div class="equation">
-$$ 0 = (26.0 \ms)^2 - 2(9.80 \mss)(y_{max} - 1.5 \m) $$
-</div>
-
-<div class="equation">
-$$ 2(9.80 \mss)(y_{max} - 1.5 \m) = 676 \mmss $$
-</div>
-
-<div class="equation">
-$$ y_{max} - 1.5 \m = \frac{676 \mmss}{19.6 \mss} = 34.5 \m $$
-</div>
-
-<div class="equation">
-$$ y_{max} = 34.5 \m + 1.5 \m = 36.0 \m $$
+$$ y_{\max} = y_0 + \frac{(v_0\sin60°)^2}{2g} \approx 36\m. $$
 </div>
 
 **(c) Impact speed:**
 
-At impact (t = 4.0 s), the horizontal velocity remains constant:
+At $$ t = 4.0\s $$, $$ v_x = 15\ms $$ and $$ v_y = v_0\sin60°-gt \approx -13\ms $$. Thus,
 
 <div class="equation">
-$$ v_x = v_{0x} = 15 \ms $$
-</div>
-
-The vertical velocity at impact:
-
-<div class="equation">
-$$ v_y = v_{0y} - gt = 26.0 \ms - (9.80 \mss)(4.0 \s) = 26.0 \ms - 39.2 \ms = -13.2 \ms $$
-</div>
-
-The speed (magnitude of velocity):
-
-<div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15 \ms)^2 + (-13.2 \ms)^2} = \sqrt{225 \mmss + 174 \mmss} = \sqrt{399 \mmss} = 20.0 \ms $$
+$$ v = \sqrt{v_x^2+v_y^2} \approx 20\ms. $$
 </div>
 
 **Discussion**
 
-The arrow reaches a maximum height of 36.0 m, which is 8.9 m higher than the cliff top (27.1 m). This means the arrow is falling when it hits the cliff, which explains why the vertical velocity component is negative (-13.2 m/s).
-
-The impact speed of 20.0 m/s is less than the initial speed of 30 m/s, which makes sense because the arrow is still moving upward relative to its launch point (the cliff at 27.1 m is higher than the launch height of 1.5 m by 25.6 m).
+The negative vertical velocity means the arrow is falling when it strikes the cliff. Its impact speed is less than its launch speed because the cliff top is above the launch point.
 
 **Answer**
 
-(a) The height of the cliff is **27.1 m**.
+(a) The height of the cliff is **27 m**.
 
-(b) The maximum height reached by the arrow is **36.0 m** above the ground.
+(b) The maximum height reached by the arrow is **36 m** above the ground.
 
-(c) The arrow's impact speed is **20.0 m/s**.
+(c) The arrow's impact speed is **20 m/s**.
 
 ::::
 
@@ -1818,7 +1748,7 @@ $$ R_{max} = \frac{v_0^2}{g} = \frac{(9.5 \ms)^2}{9.80 \mss} = \frac{90.25 \mmss
 
 **Discussion**
 
-The calculated maximum range of 9.21 m is remarkably close to the actual world record of 8.95 m, which validates our assumptions. The slight difference (0.26 m or about 3%) can be attributed to several factors:
+The calculated maximum range of 9.21 m is remarkably close to the actual world record of 8.95 m, showing that this simple model gives a comparable distance. The slight difference (0.26 m or about 3%) can be attributed to several factors:
 
 1. **Launch angle**: Long jumpers typically use angles of 20-25° rather than 45°. This is because:
    - They want to maximize horizontal velocity
@@ -2225,7 +2155,7 @@ $$ v_y^2 = v_{0y}^2 - 2g\Delta y = 0^2 - 2(9.80 \mss)(-5.00 \m) = 98.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_y = \sqrt{98.0 \mmss} = 9.90 \ms $$ (downward)
+$$ v_y = -\sqrt{98.0 \mmss} = -9.90 \ms $$ (downward)
 </div>
 
 **Step 2: Find horizontal velocity component**
@@ -2247,7 +2177,7 @@ $$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00 \ms)^2 + (9.90 \ms)^2} = \sqrt{9.00 \m
 The angle below horizontal is:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{9.90 \ms}{3.00 \ms}\right) = \tan^{-1}(3.30) = 73.1° $$
+$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{9.90 \ms}{3.00 \ms}\right) = \tan^{-1}(3.30) = 73.1° $$
 </div>
 
 **Discussion**
@@ -2626,61 +2556,23 @@ $$ 0.61 \m = 8.15 \ms\sin\theta \cdot t - \frac{1}{2}(9.80 \mss)t^2 $$
 
 **Step 5: Substitute and solve for θ**
 
-Substitute the expression for t from horizontal motion:
+Substituting the horizontal flight time into the vertical equation gives
 
 <div class="equation">
-$$ 0.61 \m = 8.15 \ms\sin\theta \left(\frac{4.57 \m}{8.15 \ms\cos\theta}\right) - 4.90 \mss\left(\frac{4.57 \m}{8.15 \ms\cos\theta}\right)^2 $$
+$$ \Delta y = x\tan\theta - \frac{gx^2}{2v_0^2}(1+\tan^2\theta). $$
 </div>
+
+Let $$ u = \tan\theta $$ and $$ K = gx^2/(2v_0^2) $$. Then
 
 <div class="equation">
-$$ 0.61 \m = 4.57 \m\tan\theta - 4.90 \mss\left(\frac{20.9 \mm}{66.4 \mmss\cos^{2}\theta}\right) $$
+$$ Ku^2-xu+(K+\Delta y)=0, \qquad u=\frac{x\pm\sqrt{x^2-4K(K+\Delta y)}}{2K}. $$
 </div>
 
-<div class="equation">
-$$ 0.61 \m = 4.57 \m\tan\theta - \frac{102.4 \text{m}^3/\text{s}^2}{66.4 \mmss\cos^{2}\theta} $$
-</div>
-
-Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$, so $$ \frac{1}{\cos^{2}\theta} = 1 + \tan^{2}\theta $$:
-
-<div class="equation">
-$$ 0.61 \m = 4.57 \m\tan\theta - 1.54 \m(1 + \tan^{2}\theta) $$
-</div>
-
-<div class="equation">
-$$ 0.61 \m = 4.57 \m\tan\theta - 1.54 \m - 1.54 \m\tan^{2}\theta $$
-</div>
-
-<div class="equation">
-$$ 1.54 \m\tan^{2}\theta - 4.57 \m\tan\theta + (1.54 \m + 0.61 \m) = 0 $$
-</div>
-
-<div class="equation">
-$$ 1.54 \m\tan^{2}\theta - 4.57 \m\tan\theta + 2.15 \m = 0 $$
-</div>
-
-Using the quadratic formula with $$ u = \tan\theta $$:
-
-<div class="equation">
-$$ u = \frac{4.57 \m \pm \sqrt{(4.57 \m)^2 - 4(1.54 \m)(2.15 \m)}}{2(1.54 \m)} $$
-</div>
-
-<div class="equation">
-$$ u = \frac{4.57 \m \pm \sqrt{20.9 \mm - 13.2 \mm}}{3.08 \m} = \frac{4.57 \m \pm \sqrt{7.7 \mm}}{3.08 \m} = \frac{4.57 \m \pm 2.77 \m}{3.08 \m} $$
-</div>
-
-Two solutions:
-
-<div class="equation">
-$$ u_1 = \frac{4.57 \m + 2.77 \m}{3.08 \m} = \frac{7.34 \m}{3.08 \m} = 2.38 \Rightarrow \theta_{1} = \tan^{-1}(2.38) = 67.2° $$
-</div>
-
-<div class="equation">
-$$ u_2 = \frac{4.57 \m - 2.77 \m}{3.08 \m} = \frac{1.80 \m}{3.08 \m} = 0.584 \Rightarrow \theta_{2} = \tan^{-1}(0.584) = 30.3° $$
-</div>
+Using $$ x=4.57\m $$, $$ v_0=8.15\ms $$, and $$ \Delta y=0.61\m $$, and retaining guard digits, the two angles are $$ 30.4° $$ and $$ 67.2° $$.
 
 **Discussion**
 
-There are two possible angles: **30.3°** (flatter trajectory) and **67.2°** (higher arc). Players typically use the larger angle (around 50-55° in practice) because:
+There are two possible angles: **30.4°** (flatter trajectory) and **67.2°** (higher arc). Players typically use the larger angle (around 50-55° in practice) because:
 
 1. **Larger target area**: The basket appears larger from above
 2. **Margin for error**: Small variations in speed or angle are more forgiving
@@ -2691,7 +2583,7 @@ The 67.2° angle is closer to the preferred technique, though in practice, playe
 
 **Answer**
 
-The ball can be thrown at either **30.3°** or **67.2°** above horizontal. Most players use the larger angle because it allows for a larger margin of error and a better chance of the ball going in even if it hits the rim.
+The ball can be thrown at either **30.4°** or **67.2°** above horizontal. Most players use the larger angle because it allows for a larger margin of error and a better chance of the ball going in even if it hits the rim.
 
 ::::
 

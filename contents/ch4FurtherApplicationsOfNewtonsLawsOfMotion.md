@@ -755,30 +755,22 @@ From the horizontal equation:
 $$ T_2 = \frac{T_1\sin(15°)}{\cos(10°)} = \frac{T_1(0.2588)}{0.9848} = 0.2627T_1 $$
 </div>
 
-Substitute into vertical equation:
+Substituting into the vertical equation gives
 
 <div class="equation">
-$$ T_1\cos(15°) + (0.2627T_1)\sin(10°) = 745 \N $$
+$$ T_1\left(\cos15°+\sin15°\tan10°\right)=mg. $$
 </div>
 
-<div class="equation">
-$$ T_1(0.9659) + 0.2627T_1(0.1736) = 745 \N $$
-</div>
+Thus,
 
 <div class="equation">
-$$ T_1(0.9659 + 0.0456) = 745 \N $$
+$$ T_1=\frac{(76.0\kg)(9.80\mss)}{\cos15°+\sin15°\tan10°}\approx736\N. $$
 </div>
 
-<div class="equation">
-$$ T_1(1.0115) = 745 \N $$
-</div>
+Using the unrounded value of $$ T_1 $$,
 
 <div class="equation">
-$$ T_1 = \frac{745 \N}{1.0115} = 736 \N $$
-</div>
-
-<div class="equation">
-$$ T_2 = 0.2627 \times 736 \N = 193 \N \approx 194 \N $$
+$$ T_2=\frac{T_1\sin15°}{\cos10°}\approx194\N. $$
 </div>
 
 **Discussion**
@@ -865,7 +857,7 @@ backward on the ground for 0.800 s.
 
 **Strategy**
 
-By Newton's third law, the ground pushes forward on the sprinter with 650 N. Use Newton's second law to find acceleration, then use kinematics to find final speed and distance.
+By Newton's third law, the ground pushes forward on the sprinter with an average force of 650 N. Neglect air resistance and approximate this force as constant during the 0.800 s interval. Use Newton's second law and constant-acceleration kinematics to estimate the final speed and distance.
 
 **Solution**
 
@@ -914,7 +906,7 @@ The sprinter's acceleration (9.29 m/s²) is slightly less than gravity (9.8 m/s�
 
 (a) The sprinter's final speed is **7.43 m/s**.
 
-(b) The sprinter travels **2.97 m** during the acceleration phase.
+(b) With the constant-force approximation, the sprinter travels **2.97 m** during the acceleration phase.
 
 :::
 
@@ -1143,11 +1135,7 @@ Using $$ v^2 = v_0^2 + 2a\Delta x $$ with:
 - Distance: $$ \Delta x = 0.450 \m $$
 
 <div class="equation">
-$$ (46.4 \ms)^2 = 0 + 2a(0.450 \m) $$
-</div>
-
-<div class="equation">
-$$ a = \frac{(46.4 \ms)^2}{2(0.450 \m)} = \frac{2153 \mmss}{0.900 \m} = 2.39 \times 10^3 \mss $$
+$$ a = \frac{v_0^2}{2\Delta x} = \frac{2156\mmss}{2(0.450\m)} \approx 2.40\times10^3\mss. $$
 </div>
 
 **(c) Average force on the shell:**
@@ -1165,7 +1153,7 @@ $$ F_{applied} = ma + mg = m(a + g) $$
 </div>
 
 <div class="equation">
-$$ F_{applied} = (2.50 \kg)(2390 \mss + 9.80 \mss) = (2.50 \kg)(2400 \mss) = 6.00 \times 10^3 \N $$
+$$ F_{applied} = m\left(\frac{2156\mmss}{0.900\m}+g\right) \approx 6.01\times10^3\N $$
 </div>
 
 Weight of shell:
@@ -1177,7 +1165,7 @@ $$ w = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
 Ratio:
 
 <div class="equation">
-$$ \frac{F_{applied}}{w} = \frac{6000 \N}{24.5 \N} = 245 $$
+$$ \frac{F_{applied}}{w} = \frac{6.01\times10^3\N}{24.5\N} \approx 245 $$
 </div>
 
 **Discussion**
@@ -1188,9 +1176,9 @@ The enormous acceleration (about 244 times g) requires a force 245 times the she
 
 (a) The shell's velocity when leaving the mortar is **46.4 m/s**.
 
-(b) The average acceleration in the tube is **2.39 × 10³ m/s²** (or **244g**).
+(b) The average acceleration in the tube is **2.40 × 10³ m/s²** (or **244g**).
 
-(c) The average force is **6.00 × 10³ N**, which is **245 times** the shell's weight.
+(c) The average force is **6.01 × 10³ N**, which is **245 times** the shell's weight.
 
 :::
 
@@ -1453,10 +1441,10 @@ The negative final velocity means the car is moving backward at 6.1 m/s. This is
 The time of 50.0 s is unreasonably long for this deceleration. Let's find when the car actually stops:
 
 <div class="equation">
-$$ t_{stop} = \frac{v_0}{|a|} = \frac{13.9 \ms}{0.400 \mss} = 34.8 \s $$
+$$ t_{stop} = \frac{v_0}{|a|} = \frac{(50.0/3.6)\ms}{0.400\mss} \approx 34.7\s $$
 </div>
 
-The car stops after 34.8 s, so continuing the deceleration for 50.0 s is physically impossible—the car cannot decelerate for 15.2 s after it has already stopped.
+The car stops after 34.7 s, so continuing the deceleration for 50.0 s is physically impossible—the car cannot decelerate for 15.3 s after it has already stopped.
 
 **Discussion**
 
@@ -1468,7 +1456,7 @@ This problem illustrates the importance of checking whether calculated results m
 
 (b) A negative velocity means the car is moving backward, which is unreasonable for a braking car.
 
-(c) The time of **50.0 s is unreasonably long**—the car would have stopped at 34.8 s and cannot continue decelerating after that.
+(c) The time of **50.0 s is unreasonably long**—the car would have stopped at 34.7 s and cannot continue decelerating after that.
 
 :::
 

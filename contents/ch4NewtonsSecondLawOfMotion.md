@@ -1153,7 +1153,7 @@ Our calculated acceleration (12.0 m/s²) is close to but slightly less than one-
 
 **Discussion**
 
-This problem illustrates an important principle: when both driving and opposing forces are present, reducing the driving force doesn't reduce the acceleration proportionally. The friction force remains constant regardless of thrust, so it has a larger relative impact when thrust is reduced. This is why vehicles need disproportionately more power to achieve higher speeds—resistance forces remain significant throughout.
+When both driving and opposing forces are present, reducing the driving force does not reduce the acceleration in the same proportion. Here the friction force stays constant, so it takes up a larger fraction of the thrust when fewer rockets are burning.
 
 **Answer**
 
@@ -1248,10 +1248,10 @@ The system is the child in the wagon plus the wagon. This is the object whose ac
 
 ![Free-body diagram of the child plus wagon with +x to the right and +y up: F sub 2 to the right, a slightly shorter F sub 1 to the left, a short friction force f to the left, normal force N up, and weight w down. The acceleration points to the right.](../resources/fbd_04_03_p09.svg){: .fbd #Figure7}
 
-We choose $$ +x $$ to the right (the direction of the larger push) and $$ +y $$ upward. The diagram shows:
+We choose $$ +x $$ to the right (the direction of the larger push) and $$ +y $$ upward. Assume the wagon is moving to the right, so friction acts to the left. The diagram shows:
 - $$ F_2 = 90.0 \N $$, along $$ +x $$
 - $$ F_1 = 75.0 \N $$, along $$ -x $$
-- $$ f = 12.0 \N $$ (friction opposes the motion, which is along $$ +x $$ since the net push is rightward), along $$ -x $$
+- $$ f = 12.0 \N $$ (opposing the assumed rightward motion), along $$ -x $$
 - $$ w $$ (weight), along $$ -y $$
 - $$ N $$ (normal force), along $$ +y $$; since there is no vertical acceleration, $$ \sum F_y = N - w = 0 $$
 
@@ -1388,7 +1388,7 @@ For part (a), use Newton's second law to find the horizontal force needed to acc
 
 ![Free-body diagram of the passenger with +x forward (to the right) and +y up: the seat force F sub total points forward and slightly upward at angle theta above +x, with dashed components F sub x along +x and F sub y along +y; the weight w points down. The acceleration points to the right.](../resources/fbd_04_03_p11.svg){: .fbd}
 
-Only two objects touch the passenger: the Earth (weight $$ w $$, along $$ -y $$) and the seat, whose single force $$ F_{\text{total}} $$ we split into components $$ F_x $$ and $$ F_y $$ along the axes shown. The acceleration is along $$ +x $$, so $$ a_x = 49.0 \mss $$ and $$ a_y = 0 $$.
+Two other bodies interact with the passenger: the Earth (weight $$ w $$, along $$ -y $$) and the seat, whose single force $$ F_{\text{total}} $$ we split into components $$ F_x $$ and $$ F_y $$ along the axes shown. The acceleration is along $$ +x $$, so $$ a_x = 49.0 \mss $$ and $$ a_y = 0 $$.
 
 **Solution**
 
@@ -1525,7 +1525,7 @@ $$ \theta = \tan^{-1}\left(\frac{F_y}{|F_x|}\right) = \tan^{-1}\left(\frac{735 \
 
 **Discussion**
 
-During deceleration, the seat and belts push **backward** on the passenger with a horizontal component over 20 times his weight, while also supporting his weight with an upward component. The total force on the passenger is therefore directed **backward and slightly upward**—**2.79° above the backward horizontal**.
+During deceleration, the seat and belts push **backward** on the passenger with a horizontal component over 20 times his weight, while also supporting his weight with an upward component. The contact force from the seat and belt on the passenger is therefore directed **backward and slightly upward**—**2.79° above the backward horizontal**.
 
 **Answer**
 

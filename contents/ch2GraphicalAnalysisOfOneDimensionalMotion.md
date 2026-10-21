@@ -768,8 +768,7 @@ The velocity at $$ t = 30.0 \s $$ is approximately $$ 0.24 \ms $$, verified by c
 
 ::: problem
 
-By taking the slope of the curve in [Figure 17](#Figure17), verify
-that the acceleration is $$ 3.2 \mss $$ at $$ t=10 \s $$.
+Use the slope of the velocity graph in [Figure 17](#Figure17) to estimate the acceleration near $$ t=10 \s $$. Treat the connected data points as samples of a smooth motion and check that the estimate is about $$ 3.2 \mss $$.
 
 ![Line graph of velocity versus time. Line has a positive slope that decreases over time until the line flattens out.](../resources/Figure_02_08_17.svg)
 {: #Figure17}
@@ -780,35 +779,25 @@ that the acceleration is $$ 3.2 \mss $$ at $$ t=10 \s $$.
 
 **Strategy**
 
-The slope of a velocity vs. time graph gives the acceleration. Since the curve in Figure 17 is not a straight line, the acceleration varies with time. To find the instantaneous acceleration at $$ t = 10 \s $$, we need to draw a tangent line to the curve at that point and calculate the slope of the tangent line using $$ a = \frac{\Delta v}{\Delta t} $$.
+Acceleration is the slope of a velocity-time graph. Estimate the slope near $$ t = 10 \s $$ using data points on either side of that time.
 
 **Solution**
 
-To find the acceleration at $$ t = 10 \s $$, we draw a tangent line to the curve at that point. From Figure 17, the curve passes through about $$ (10 \s,\ 210 \ms) $$, so the tangent line must pass through that point.
-
-Reading two points on the tangent line, on either side of $$ t = 10 \s $$:
-
-At $$ t_1 \approx 5 \s $$, the tangent line gives $$ v_1 \approx 194 \ms $$
-
-At $$ t_2 \approx 20 \s $$, the tangent line gives $$ v_2 \approx 242 \ms $$
-
-Now calculate the slope of the tangent line:
+From Figure 17, the velocity is about $$ 165 \ms $$ at $$ t = 0 \s $$ and $$ 228 \ms $$ at $$ t = 20 \s $$. The average acceleration over this interval is
 
 <div class="equation">
-$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{242 \ms - 194 \ms}{20 \s - 5 \s} $$
+$$ a_{\text{avg}} = \frac{228 \ms - 165 \ms}{20 \s - 0 \s} = 3.15 \mss \approx 3.2 \mss. $$
 </div>
 
-<div class="equation">
-$$ a = \frac{48 \ms}{15 \s} = 3.2 \mss $$
-</div>
+This gives an estimate of the acceleration near the midpoint, $$ t = 10 \s $$.
 
 **Discussion**
 
-Because the tangent is drawn by eye, readings that differ by a few m/s change the slope noticeably; any value near 3 m/s² is a reasonable estimate. (The plotted curve bends at the data point at 10 s, with slopes of about 4.5 m/s² just before and 1.8 m/s² just after, so the tangent there is an average of the two.) The acceleration at $$ t = 10 \s $$ is positive, indicating that the velocity is increasing at this time. However, the curve shows that the slope (acceleration) is decreasing as time progresses, eventually approaching zero when the velocity becomes constant. This represents a situation where an object is speeding up but the rate at which it speeds up is decreasing over time. This could represent a car accelerating but approaching its maximum speed, or an object experiencing increasing air resistance as it speeds up.
+The graph joins the data points with straight segments. Treating these as samples of a smooth motion gives an acceleration estimate of about $$ 3 \mss $$ near 10 s. The corner itself has no single tangent, so $$ 3.2 \mss $$ is an estimate rather than an exact instantaneous value. The positive slope means the object is speeding up; the decreasing slope later in the graph means it speeds up more slowly.
 
 **Answer**
 
-The acceleration at $$ t = 10 \s $$ is $$ 3.2 \mss $$, which verifies the given value.
+The estimated acceleration near $$ t = 10 \s $$ is about $$ 3.2 \mss $$.
 
 :::
 

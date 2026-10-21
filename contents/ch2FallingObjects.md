@@ -1660,38 +1660,23 @@ $$ v = \sqrt{1470 \mmss} = 38.3 \ms $$
 
 __(c) Distance traveled during the last second:__
 
-First, find the total time to fall 75.0 m:
-
-1. Use the kinematic equation:
-<div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
-</div>
+The total fall time is
 
 <div class="equation">
-$$ 75.0 \m = 0 + 0 + \frac{1}{2}(9.80 \mss)t^2 $$
+$$ t_f = \sqrt{\frac{2(75.0 \m)}{9.80 \mss}} \approx 3.9123 \s. $$
 </div>
 
-<div class="equation">
-$$ t^2 = \frac{2(75.0 \m)}{9.80 \mss} = 15.31 \s^2 $$
-</div>
+During the last second, the displacement is
 
 <div class="equation">
-$$ t = 3.91 \s $$
+$$ \Delta y = \frac{1}{2}g\left[t_f^2-(t_f-1.00 \s)^2\right] = gt_f(1.00 \s)-\frac{1}{2}g(1.00 \s)^2 \approx 33.4 \m. $$
 </div>
 
-2. Now find the distance fallen at $$ t = 2.91 \s $$ (one second before hitting the ground):
-<div class="equation">
-$$ y_{2.91} = \frac{1}{2}(9.80 \mss)(2.91 \s)^2 = \frac{1}{2}(9.80 \mss)(8.468 \text{s}^2) = 41.5 \m $$
-</div>
-
-3. The distance traveled during the last second is:
-<div class="equation">
-$$ \Delta y = 75.0 \m - 41.5 \m = 33.5 \m $$
-</div>
+Keep the unrounded fall time until the final step.
 
 **Discussion**
 
-The object falls only 4.90 m in the first second but travels 33.5 m in the last second - nearly 7 times as far! This illustrates how falling objects accelerate continuously. The final velocity of 38.3 m/s (about 138 km/h or 86 mph) is quite fast, which explains why falling from such heights is dangerous. The asymmetry between the first and last seconds demonstrates that the object is continuously gaining speed as it falls.
+The object falls only 4.90 m in the first second but travels 33.4 m in the last second - nearly 7 times as far! This illustrates how falling objects accelerate continuously. The final velocity of 38.3 m/s (about 138 km/h or 86 mph) is quite fast, which explains why falling from such heights is dangerous. The asymmetry between the first and last seconds demonstrates that the object is continuously gaining speed as it falls.
 
 **Answer**
 
@@ -1699,7 +1684,7 @@ The object falls only 4.90 m in the first second but travels 33.5 m in the last 
 
 (b) The final velocity when hitting the ground is $$ 38.3 \ms $$ (downward).
 
-(c) The object travels $$ 33.5 \m $$ during the last second of motion before hitting the ground.
+(c) The object travels $$ 33.4 \m $$ during the last second of motion before hitting the ground.
 
 ::::
 
@@ -2396,33 +2381,18 @@ $$ v_0 = \sqrt{21.56 \mmss} = +4.64 \ms $$
 
 __(c) Acceleration during contact with the floor:__
 
-During the collision, the ball's velocity changes from -5.42 m/s to +4.64 m/s.
-
-1. Identify the known values:
-   - Initial velocity: $$ v_0 = -5.42 \ms $$
-   - Final velocity: $$ v = +4.64 \ms $$
-   - Time of contact: $$ t = 3.50 \times 10^{-3} \s $$
-
-2. Use the kinematic equation:
-<div class="equation">
-$$ v = v_0 + at $$
-</div>
-
-3. Solve for acceleration:
-<div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{4.64 \ms - (-5.42 \ms)}{3.50 \times 10^{-3} \s} $$
-</div>
+During contact, the ball changes from downward to upward motion. Use the unrounded velocities from parts (a) and (b):
 
 <div class="equation">
-$$ a = \frac{10.06 \ms}{3.50 \times 10^{-3} \s} = 2.87 \times 10^{3} \mss $$
+$$ a_{\text{avg}} = \frac{v_f-v_i}{\Delta t} = \frac{\sqrt{21.56 \mmss}+\sqrt{29.4 \mmss}}{3.50\times10^{-3}\s} \approx 2.88\times10^3\mss. $$
 </div>
 
 __(d) Maximum compression during collision:__
 
-As for the steel ball, the average acceleration in (c) applies to the whole contact interval. Maximum compression is the distance traveled while the ball slows from $$ -5.42 \ms $$ to rest. With the same constant-upward-acceleration idealization and $$ a = 2.87 \times 10^{3} \mss $$:
+As for the steel ball, maximum compression occurs when the ball has slowed to rest. Assume a constant upward acceleration equal to the average in part (c) and retain its unrounded value when calculating the stopping distance:
 
 <div class="equation">
-$$ d_{\max} = \frac{(5.42 \ms)^{2}}{2(2.87 \times 10^{3} \mss)} = 5.11 \times 10^{-3} \m = 5.11 \text{ mm} $$
+$$ d_{\max} = \frac{v_i^{2}}{2a_{\text{avg}}} \approx 5.11 \times 10^{-3} \m = 5.11 \text{ mm} $$
 </div>
 
 As before, this is an estimate that depends on the assumed constant acceleration, not a value fixed by the speeds and contact time alone.
@@ -2437,7 +2407,7 @@ The soft tennis ball shows markedly different behavior from the steel ball. It h
 
 (b) The velocity just after leaving the floor is $$ 4.64 \ms $$ upward.
 
-(c) The acceleration during contact with the floor is $$ 2.87 \times 10^{3} \mss $$ (upward, or about 293 g's).
+(c) The acceleration during contact with the floor is $$ 2.88 \times 10^{3} \mss $$ (upward, or about 293 g's).
 
 (d) Assuming constant upward acceleration equal to the magnitude in (c) until the ball stops, maximum compression is approximately $$ 5.11 \text{ mm} $$.
 

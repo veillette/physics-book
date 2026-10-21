@@ -700,7 +700,7 @@ $$ \overline{a} = \frac{30.0 \ms - 0}{7.00 \s} = \frac{30.0 \ms}{7.00 \s} = 4.29
 
 **Discussion**
 
-The cheetah's acceleration of 4.29 m/s² is impressive—it increases its speed by 4.29 m/s every second. This is about 0.44 times the acceleration due to gravity (g = 9.80 m/s²).
+The cheetah's acceleration of 4.29 m/s² is impressive—its speed increases by 4.29 m/s per second on average. This is about 0.44 times the acceleration due to gravity (g = 9.80 m/s²).
 
 The cheetah's acceleration is $$ 4.29 \mss $$.
 
@@ -772,7 +772,7 @@ $$ \frac{|a|}{g} = \frac{201 \mss}{9.80 \mss} = 20.5 $$
 
 **Discussion**
 
-These accelerations are extreme. During acceleration, Dr. Stapp experienced about 5.76g, which is uncomfortable but tolerable. During deceleration, he experienced about 20.5g, which is at the limit of human tolerance. Such experiments helped establish safety standards for ejection seats and crash protection.
+These are large average accelerations. The stopping acceleration is especially large because the change in velocity occurs over only 1.40 s. Such experiments helped researchers study the effects of deceleration and improve crash protection.
 
 (a) Dr. Stapp's acceleration was $$ 56.4 \mss $$, or $$ 5.76g $$.
 
@@ -887,7 +887,7 @@ $$ \frac{\overline{a}}{g} = \frac{108 \mss}{9.80 \mss} = 11.0 $$
 
 **Discussion**
 
-This is an enormous acceleration—about 11 times the acceleration due to gravity. The missile's velocity increases by 108 m/s every second during the boost phase. Such high accelerations require robust engineering to protect the missile's components and payload.
+This is an enormous acceleration—about 11 times the acceleration due to gravity. The missile's velocity increases by 108 m/s per second on average during the boost phase. Such high accelerations require robust engineering to protect the missile's components and payload.
 
 The missile's average acceleration is $$ 108 \mss $$, which is equivalent to $$ 11.0g $$.
 

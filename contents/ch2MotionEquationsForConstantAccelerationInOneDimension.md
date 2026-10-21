@@ -1031,7 +1031,7 @@ $$ v = v_0 + at $$
 
 4. Solve for time:
 <div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{22.2 \ms - 0}{1.35 \mss} = 16.4 \s \approx 16.5 \s $$
+$$ t = \frac{v - v_0}{a} = \frac{(80.0/3.6)\ms}{1.35\mss} \approx 16.5\s $$
 </div>
 
 **(b) Time to come to a stop:**
@@ -1055,14 +1055,14 @@ $$ t = \frac{v - v_0}{a} = \frac{0 - 22.2 \ms}{-1.65 \mss} = \frac{-22.2 \ms}{-1
 
 2. Solve for acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{0 - 22.2 \ms}{8.30 \s} = -2.67 \mss \approx -2.68 \mss $$
+$$ a = \frac{v - v_0}{t} = \frac{0-(80.0/3.6)\ms}{8.30\s} \approx -2.68\mss $$
 </div>
 
 The negative sign indicates deceleration.
 
 **Discussion**
 
-The train takes about 16.5 seconds to accelerate to its top speed and 13.5 seconds to decelerate normally - the deceleration is faster because the braking rate ($$ 1.65 \mss $$) is greater than the acceleration rate ($$ 1.35 \mss $$). In emergency situations, the train can decelerate even more rapidly at $$ 2.68 \mss $$, which is about 62% faster than normal braking. This emergency deceleration stops the train in only 8.30 seconds compared to 13.5 seconds for normal braking - significantly reducing stopping distance in critical situations. These accelerations are all relatively gentle (well under 1g), ensuring passenger comfort and safety.
+The train takes about 16.5 seconds to accelerate to its top speed and 13.5 seconds to decelerate normally - the deceleration is faster because the braking rate ($$ 1.65 \mss $$) is greater than the acceleration rate ($$ 1.35 \mss $$). In emergency situations, the train can decelerate even more rapidly at $$ 2.68 \mss $$, which is about 62% faster than normal braking. This emergency deceleration stops the train in only 8.30 seconds compared to 13.5 seconds for normal braking - significantly reducing stopping distance in critical situations. All three acceleration magnitudes are less than $$ g $$; the emergency deceleration is larger than the normal braking deceleration.
 
 **Answer**
 
@@ -1907,13 +1907,7 @@ The brain experiences a deceleration of $$ 40.0 \mss $$ or $$ 4.08g $$.
 
 **Discussion**
 
-These results reveal the remarkable biomechanical engineering of the woodpecker's anatomy. The head decelerates at 9.18g—nearly 10 times the acceleration due to gravity! This would cause severe brain injury in most animals.
-
-However, the tendon-like attachments allow the brain to decelerate over a distance 2.25 times greater than the head (4.50 mm vs. 2.00 mm). This reduces the brain's deceleration to 4.08g—less than half the head's deceleration. While still substantial, this is within a survivable range, especially with the woodpecker's other adaptations (compact brain, minimal cerebrospinal fluid, specialized skull structure).
-
-The stopping time of 6.67 ms is extremely brief—less than one-hundredth of a second. Woodpeckers can peck 15-20 times per second, so this rapid deceleration is essential for their feeding and territorial behaviors.
-
-For comparison, race car drivers experience decelerations up to about 5-6g during crashes (with safety equipment), and fighter pilots can experience 9g during high-performance maneuvers. The woodpecker's head exceeds this regularly, highlighting the extraordinary evolutionary adaptation.
+In the model given in the question, the brain stops over a distance 2.25 times as large as the head's stopping distance. Its deceleration is therefore smaller by the same factor: $$ 9.18/2.25 = 4.08 $$ times $$ g $$. This illustrates how increasing the stopping distance reduces deceleration for a fixed initial speed. The calculation alone does not determine injury risk.
 
 **Answer**
 
@@ -1990,15 +1984,7 @@ $$ t = \frac{v - v_0}{a} = \frac{0 - 7.50 \ms}{-80.4 \mss} = \frac{-7.50 \ms}{-8
 
 **Discussion**
 
-The player experiences a deceleration of $$ 80.4 \mss $$, which is:
-
-<div class="equation">
-$$ \frac{80.4 \mss}{9.80 \mss} = 8.2 $$
-</div>
-
-This is about 8.2 times gravitational acceleration - a very significant force! However, this is survivable thanks to the padding on the goalpost and the player's own protective equipment. The padding allows the player to decelerate over 0.350 m (about 14 inches) rather than stopping nearly instantly against a rigid surface. Without padding, the stopping distance might be only a few centimeters, resulting in decelerations of 50-100g or more - enough to cause serious injury.
-
-The collision lasts about 93 milliseconds (less than one-tenth of a second), which is too fast for the player to react but slow enough (thanks to the padding) to reduce peak forces. This demonstrates the importance of proper safety equipment and padding in contact sports.
+The deceleration magnitude is about $$ 8.2g $$. The padding increases the stopping distance, reducing the deceleration compared with a shorter stop at the same initial speed. The constant-acceleration model estimates a collision duration of about 0.093 s; it does not describe how the force varies during the actual impact.
 
 **Answer**
 
@@ -2082,28 +2068,7 @@ The pilot experienced a deceleration of approximately 50g.
 
 **Discussion**
 
-A deceleration of 486 m/s² (about 50g) is extraordinary and would normally be fatal. For comparison:
-
-- Modern fighter pilots can withstand up to about 9g with special suits
-- Race car drivers in severe crashes experience 20-40g (often with serious injuries)
-- The human body can survive very brief exposures to high g-forces if properly oriented
-
-The survival of these airmen is remarkable and can be attributed to several factors:
-
-1. **Gradual deceleration**: The 3.0 m stopping distance, provided by tree branches and snow, distributed the impact force over a much longer distance than hitting hard ground (which might provide only 0.1-0.2 m of deceleration).
-
-2. **Body orientation**: If the pilot landed feet-first or in a horizontal position, the forces would be distributed more favorably than head-first impact.
-
-3. **Sequential impacts**: Tree branches would have provided multiple smaller impacts rather than one catastrophic stop, further distributing the deceleration.
-
-4. **Duration**: We can calculate the stopping time using $$ v = v_0 + at $$:
-<div class="equation">
-$$ t = \frac{v - v_0}{a} = \frac{0 - 54 \ms}{-486 \mss} = 0.11 \s $$
-</div>
-
-The deceleration lasted about 0.11 seconds—long enough to be survivable, though still extremely dangerous.
-
-Without the trees and snow, stopping over just 0.1 m would produce a deceleration of about 14,600 m/s² (1490g)—absolutely unsurvivable. The 3.0 m stopping distance reduced the deceleration by a factor of 30, making survival possible, though still requiring extraordinary luck.
+The estimated deceleration is about $$ 50g $$. For a fixed impact speed, the constant-acceleration model gives a deceleration inversely proportional to stopping distance. Stopping over 3.0 m rather than 0.10 m reduces this estimate by a factor of 30. This explains why branches and snow can lessen an impact, although the calculation alone cannot predict whether a person survives.
 
 **Answer**
 
@@ -2565,7 +2530,7 @@ $$ \Delta t = 26.1 \s - 20.8 \s = 5.3 \s $$
 
 **(c) Comparison with other racer:**
 
-The other racer starts 5.00 m ahead of the winner, so when the winner begins to accelerate he is 5.00 m behind the finish line. The other racer therefore has $$ 300 \m - 5.00 \m = 295 \m $$ remaining to the finish.
+The other racer starts 5.00 m ahead of the winner, so when the winner begins to accelerate he is 5.00 m ahead of the other cyclist, or 295 m from the finish line. The other racer therefore has $$ 300 \m - 5.00 \m = 295 \m $$ remaining to the finish.
 
 **Winner's finish time** (from part (b)):
 

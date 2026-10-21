@@ -779,7 +779,7 @@ The seagull's velocity relative to the Earth is its velocity relative to the air
 
 ![A +x axis points in the direction the seagull first flies, into the wind. The gull’s velocity relative to the air is +9.00 m/s; the wind’s velocity relative to the Earth is negative (it blows toward −x) with unknown magnitude; the gull’s velocity relative to the Earth is +5.00 m/s (6.00 km in 20.0 min). On the return trip the gull flies toward −x, with the wind.](../resources/sketch_03_05_p02.svg){: .sketch}
 
-Take $$ +x $$ in the direction the gull first flies (into the wind). Then the gull's velocity relative to the air is $$ +9.00 \ms $$, relative to the Earth $$ +5.00 \ms $$, and the wind's velocity is negative; the solution works with its magnitude, $$ v_{\text{wind}} $$. On the way back every velocity reverses sign.
+Take $$ +x $$ in the direction the gull first flies (into the wind). Then the gull's velocity relative to the air is $$ +9.00 \ms $$, relative to the Earth $$ +5.00 \ms $$, and the wind's velocity is negative; the solution works with its magnitude, $$ v_{\text{wind}} $$. On the way back the gull flies toward $$ -x $$, but the wind keeps the same velocity, $$ -4.00 \ms $$. Its return ground velocity is therefore $$ -9.00 \ms - 4.00 \ms = -13.0 \ms $$; below we use the speed, $$ 13.0 \ms $$, to find the travel time.
 
 **Solution**
 
@@ -892,47 +892,10 @@ Since $$ t_2 < t_1 $$, the **second runner wins**.
 
 **(c) Distance ahead at finish:**
 
-When the second runner finishes (at $$ t = 70.2 \s $$), the front runner has traveled:
+When the second runner finishes, the elapsed time is $$ t_2 = 295\m/(4.20\ms) $$. In that time the front runner covers $$ v_1t_2 $$. Retaining the unrounded time, the distance still to go is
 
 <div class="equation">
-$$ d_1 = v_1 \times t_2 = (3.50 \ms)(70.2 \s) = 246 \m $$
-</div>
-
-Distance remaining for front runner:
-
-<div class="equation">
-$$ d_{remaining} = 250 \m - 246 \m = 4.0 \m $$
-</div>
-
-Alternatively, using relative velocity:
-Time to close the 45.0 m gap:
-
-<div class="equation">
-$$ t_{catch} = \frac{45.0 \m}{0.70 \ms} = 64.3 \s $$
-</div>
-
-After catching up, the second runner still has:
-
-<div class="equation">
-$$ d = 250 \m - (3.50 \ms)(64.3 \s) = 250 \m - 225 \m = 25 \m $$ to go
-</div>
-
-Time to cover this distance:
-
-<div class="equation">
-$$ t_{final} = \frac{25 \m}{4.20 \ms} = 5.95 \s $$
-</div>
-
-During this time, the front runner covers:
-
-<div class="equation">
-$$ d_1 = (3.50 \ms)(5.95 \s) = 20.8 \m $$
-</div>
-
-Gap at finish:
-
-<div class="equation">
-$$ 25.0 \m - 20.8 \m = 4.2 \m \approx 4.17 \m $$
+$$ d_{\text{remaining}} = 250\m-(3.50\ms)\left(\frac{295\m}{4.20\ms}\right) \approx 4.17\m. $$
 </div>
 
 **Discussion**
@@ -983,7 +946,7 @@ In the Earth's frame, take $$ +x $$ in the airplane's direction of motion and $$
 
 1. Find the time to fall 1.50 m using free-fall equation (starting from rest vertically):
 <div class="equation">
-$$ y = \frac{1}{2}gt^{2} \Rightarrow t = \sqrt{\frac{2y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
+$$ \Delta y = -\frac{1}{2}gt^{2}, \quad \Delta y = -1.50 \m, \quad t = \sqrt{\frac{-2\Delta y}{g}} = \sqrt{\frac{2(1.50 \m)}{9.80 \mss}} = \sqrt{0.306 \s^2} = 0.553 \s $$
 </div>
 
 2. Calculate horizontal distance using the plane's velocity:
@@ -1501,7 +1464,7 @@ $$ v_{p/E} = \frac{20.9 \ms}{0.707} = 29.6 \ms $$
 
 **Discussion**
 
-The airplane must fly at 63.5 m/s relative to the air mass (its airspeed) to achieve a ground track of 45° south of west. Due to the jet stream blowing from the west-southwest, the airplane's ground speed (29.6 m/s) is much less than its airspeed. This illustrates how headwinds can significantly reduce an aircraft's speed over the ground, leading to longer flight times when flying into the wind.
+The airplane must fly at 63.5 m/s relative to the air mass (its airspeed) to achieve a ground track of 45° south of west. Due to the jet stream blowing from 20° north of west (approximately west-northwest), the airplane's ground speed (29.6 m/s) is much less than its airspeed. This illustrates how headwinds can significantly reduce an aircraft's speed over the ground, leading to longer flight times when flying into the wind.
 
 **Answer**
 
@@ -1894,9 +1857,9 @@ $$ t = \frac{6.36 \times 10^{17} \text{ s}}{3.156 \times 10^{7} \text{ s/year}} 
 
 The Hubble constant is remarkably consistent across different galaxies, supporting Hubble's discovery that the universe is expanding uniformly. The value of about 15 km/s per Mly means that for every million light years of distance, galaxies recede 15 km/s faster.
 
-The estimated age of 20.2 billion years is called the Hubble time. However, this is an overestimate because it assumes the expansion rate has been constant since the Big Bang. In reality, gravity slowed the expansion in the early universe, while dark energy has been accelerating it more recently. Current best estimates for the age of the universe are about 13.8 billion years.
+The estimated 20.2 billion years is the **Hubble time**, found by assuming that the galaxies have moved at constant velocities. It is a rough extrapolation, not a precise age of the universe.
 
-The Hubble constant is more commonly expressed in modern units as about 70 km/s per megaparsec (Mpc), where 1 Mpc ≈ 3.26 Mly.
+Using $$ 1 \text{ Mpc} \approx 3.26 \text{ Mly} $$, the value from this figure is $$ 14.9 \times 3.26 \approx 48.6 \text{ km/s per Mpc} $$. These illustrative data and the constant-velocity assumption limit the estimate.
 
 **Answer**
 
@@ -2210,7 +2173,7 @@ Use kinematic equations to find the launch velocity needed for the supplies to r
 
 ![A vertical +y axis points up, with the origin at the launch point on the Earth’s surface. Launch: y₀ = 0, v₀ unknown (upward). Top: y = 36 000 km = 3.6 × 10⁷ m, v = 0. The model assumes constant a = −9.80 m/s².](../resources/sketch_03_05_p17.svg){: .sketch}
 
-Take $$ +y $$ up, with the origin at the launch point. Then $$ v = 0 $$ at $$ y = h = 3.6 \times 10^{7} \m $$ and $$ a = -9.80 \mss $$, assuming (unreasonably, as the problem asks you to notice) that $$ g $$ stays constant all the way up.
+Neglect Earth's rotation and measure velocities in a frame centered on Earth that does not rotate. Take $$ +y $$ up, with the origin at the launch point. Then $$ v = 0 $$ at $$ y = h = 3.6 \times 10^{7} \m $$ and $$ a = -9.80 \mss $$, assuming (unreasonably, as the problem asks you to notice) that $$ g $$ stays constant all the way up.
 
 **Solution**
 
@@ -2246,7 +2209,7 @@ This velocity is **extremely high**:
 
 Yes, there's a **major problem**. When the supplies reach maximum height (36,000 km):
 
-- The supplies will have **zero velocity** relative to Earth's surface
+- The supplies will have **zero velocity** in this nonrotating frame at the top of their straight-up path
 - The astronauts are in **orbit** at this altitude, moving at orbital velocity
 
 Orbital velocity at this altitude:
@@ -2391,39 +2354,17 @@ $$ \theta = \tan^{-1}\left(\frac{48.5 \ms}{274 \ms}\right) = \tan^{-1}(0.177) = 
 
 **(c) What is unreasonable about these velocities?**
 
-Both velocities are **extremely unreasonable** for the stated scenario:
+The ground speed of 556 m/s can be reconciled with the given airspeed of 280 m/s only by a wind of about 278 m/s (1000 km/h). Such a tailwind is unreasonable for an ordinary commercial flight.
 
-**Ground velocity (556 m/s = 2000 km/h):**
-
-- This ground speed follows from flying 3000 km in 1.50 h and is far above typical commercial cruise speeds (about 800–900 km/h)
-- Aerodynamic drag and shock behavior depend on **speed relative to the air**, not ground speed. The given **airspeed of 280 m/s** (about Mach 0.82 at sea level) is already near transonic speeds for a commercial jet
-- A very strong tailwind can make ground speed exceed the local speed of sound even when airspeed stays subsonic; the problem here is not that ground speed above sound is forbidden, but that the **required tailwind** is impossibly large
-
-**Wind velocity (278 m/s = 1000 km/h):**
-
-- This is equivalent to approximately **Mach 0.82**
-- The strongest jet streams are typically 200-300 km/h (56-83 m/s)
-- Hurricane winds rarely exceed 85 m/s (300 km/h)
-- A 1000 km/h wind would be catastrophic and is meteorologically impossible on Earth
-- Such wind speeds don't exist in Earth's atmosphere under normal conditions
+Aerodynamic effects depend on speed relative to the air. A tailwind increases ground speed without increasing airspeed, so a high ground speed alone does not imply supersonic flight.
 
 **(d) Which premise is unreasonable?**
 
-The **unreasonable premise** is the combination of:
-
-1. **The distance traveled (3000 km) in the time given (1.50 h)**
-
-This implies a ground speed of 2000 km/h, which is impossible for a commercial airplane. Possible scenarios that would be reasonable:
-
-- Reduce the distance to ~1200-1350 km for 1.50 h
-- Increase the time to ~3.5-4.0 h for 3000 km
-- Use a supersonic military jet instead of a commercial airplane
-
-The stated **airspeed of 280 m/s** (1008 km/h) is high for a typical commercial airliner (though not impossible in a strong tailwind scenario) and is already in a Mach-sensitive regime relative to the air.
+The combination of traveling 3000 km in 1.50 h and an airspeed of 280 m/s requires the unreasonable wind found above. A longer travel time or a shorter distance would make the scenario more realistic.
 
 **Discussion**
 
-This problem demonstrates the importance of checking whether calculated results make physical sense. The vector addition is correct, but the implied **278 m/s tailwind** is far beyond anything observed in Earth's atmosphere, and the distance–time data demand a ground speed no commercial flight could sustain. Mach number should be judged from airspeed, not ground speed alone.
+The vector addition is consistent, but the required wind makes the scenario unrealistic. This illustrates how a correct calculation can reveal a problem with the starting assumptions.
 
 **Answer**
 
@@ -2431,7 +2372,7 @@ This problem demonstrates the importance of checking whether calculated results 
 
 (b) The tailwind velocity is **278 m/s** (1000 km/h) at **10° south of east**
 
-(c) Both velocities are unreasonably high for this scenario. The required tailwind is many times stronger than the strongest jet streams ever recorded; the airspeed of 280 m/s is already transonic relative to the air.
+(c) The ground speed requires an unreasonably large tailwind of about 278 m/s. Ground speed alone does not determine whether flight is supersonic.
 
 (d) The unreasonable premise is the distance-time relationship (3000 km in 1.50 h) combined with the extreme tailwind needed to reconcile it with the given airspeed—not a prohibition on ground speed exceeding the speed of sound when a tailwind is present.
 

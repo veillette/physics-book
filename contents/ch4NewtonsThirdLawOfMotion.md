@@ -386,7 +386,7 @@ Choose the lineman alone as the system and draw his free-body diagram, with $$ +
 
 ![Free-body diagram of the lineman, with +x forward and +y up: the opponent pushes him backward with force P, the ground pushes his feet forward with static friction f, which is longer than P; the normal force N points up and the weight w points down. The acceleration points forward.](../resources/fbd_04_04_q05.svg){: .fbd}
 
-The third-law pair (his push on the opponent and the opponent's push $$ P $$ on him) act on **different** objects, so they never cancel each other. The lineman's acceleration depends on all the external forces on him, including the forward static friction $$ f $$ that the ground exerts on his feet as he drives backward against it. Newton's second law for the lineman is
+The third-law pair (his push on the opponent and the opponent's push $$ P $$ on him) act on **different** objects, so they do not cancel in the force sum for either object separately. The lineman's acceleration depends on all the external forces on him, including the forward static friction $$ f $$ that the ground exerts on his feet as he drives backward against it. Newton's second law for the lineman is
 
 <div class="equation">
 $$ F_{\text{net},x} = f - P = ma $$

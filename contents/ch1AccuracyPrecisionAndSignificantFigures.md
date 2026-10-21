@@ -488,23 +488,15 @@ Look up what a diopter measures, then find typical values for how finely an eye 
 
 **Solution**
 
-This is a sample answer. A short search will turn up slightly different numbers, and that is fine for this question.
+A **diopter** (D) measures lens power: $$ P=1/f $$ when the focal length $$ f $$ is in meters. Thus $$ 1\text{ D}=1\text{ m}^{-1} $$, and a lens with $$ f=0.50\m $$ has power $$ +2.0\text{ D} $$. A greater magnitude of power means a stronger lens.
 
-A **diopter** (D) is a unit of lens strength. It is one inverse meter: if a lens has focal length $$f$$ in meters, its strength is $$1/f$$. A lens with $$f = 0.50\text{ m}$$ has strength
+There is no single minimum uncertainty for all eye exams. For example, a [study of prescription reproducibility](https://pubmed.ncbi.nlm.nih.gov/19319010/) found that the measured corrections were within $$ \pm0.25\text{ D} $$ of a reference value in 81% of cases and within $$ \pm0.50\text{ D} $$ in 97% of cases. These results describe that study, rather than an uncertainty guaranteed for every prescription.
 
-$$
-\frac{1}{0.50\text{ m}} = 2.0\text{ D}.
-$$
-
-A larger number means a stronger lens. The optics behind that definition come later in the book; only the unit and its uncertainty matter here.
-
-Prescriptions are usually written in steps of $$0.25\text{ D}$$. That step is the smallest change the exam commonly offers. It is not the uncertainty in the measurement. The same person can get results a few tenths of a diopter apart on different days, because they are judging which lens looks clearer, and the eye and the testing procedure are not perfectly repeatable.
-
-The finished lens is a separate measurement. For an ordinary prescription it is typically made to within about $$0.1\text{ D}$$ of the number ordered, so a lens marked $$2.0\text{ D}$$ is expected to be close to that value, much closer than the exam itself can pin down.
+Lens manufacture has a separate tolerance. As one documented example, the Vision Council's [2015 lens-standard summary](https://opticianworks.com/wp-content/uploads/2015/10/ANSI-Z80-1-2015_Quick-Reference-v2.pdf) specified a sphere-power tolerance of $$ \pm0.13\text{ D} $$ for single-vision lenses between $$ -6.50\text{ D} $$ and $$ +6.50\text{ D} $$. Other lens types and powers have different tolerances. A manufacturing tolerance is an allowed departure from the ordered power, not the uncertainty in deciding what correction the eye needs.
 
 Uncertainty in the prescription comes mainly from the patient's answers and from small changes in the eye during the exam. Uncertainty in the lens comes from shaping its surface, small differences in the glass or plastic, and the check of the finished lens.
 
-A diopter is an inverse meter. The exam usually reports the correction to the nearest quarter diopter, while the lens is typically made to about a tenth of a diopter.
+A diopter is an inverse meter. The uncertainty in determining a prescription and the tolerance in manufacturing the lens are different quantities; both depend on the method and conditions used.
 
 ::::
 

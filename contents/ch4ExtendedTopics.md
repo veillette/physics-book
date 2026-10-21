@@ -276,7 +276,7 @@ Gravity is extremely weak between individual particles, but it has three propert
 
 - **It is always attractive.** There is no negative mass, so the gravitational pulls of all $$ 6.0 \times 10^{24} \text{ kg} $$ of the Earth add up instead of canceling.
 - **It has an infinite range**, decreasing only as $$ 1/r^{2} $$, so the whole Earth, not just nearby matter, pulls on you.
-- **The other forces cancel or do not reach us.** The electromagnetic force is far stronger, but matter has nearly equal amounts of positive and negative charge, so attractions and repulsions cancel over large distances. The strong and weak nuclear forces have very short ranges (about $$ 10^{-15} \m $$ and $$ 10^{-18} \m $$) and act only inside nuclei.
+- **The other forces cancel or do not reach us.** The electromagnetic force is far stronger, but matter has nearly equal amounts of positive and negative charge, so attractions and repulsions cancel over large distances. The strong and weak nuclear forces have very short ranges (about $$ 10^{-15} \m $$ and $$ 10^{-18} \m $$) and do not produce appreciable forces between distant objects.
 
 The result is a large net force: the weight of a $$ 70 \text{ kg} $$ person is $$ (70 \text{ kg})(9.80 \mss) = 690 \N $$.
 
@@ -378,7 +378,7 @@ $$ \frac{\text{weak nuclear}}{\text{electromagnetic}} = \frac{10^{-6}}{10^{-2}} 
 
 The weak nuclear force is extremely feeble compared to the strong nuclear force (about $$ 10^{-6} $$ as strong on the scale of Table 1) and to the electromagnetic force (about $$ 10^{-4} $$ as strong). Despite its weakness, the weak force is crucial because it's responsible for beta decay, where neutrons transform into protons (or vice versa), releasing electrons or positrons and neutrinos. This process cannot occur via the strong or electromagnetic forces due to conservation laws.
 
-The weak force's extremely short range (about $$ 10^{-18} $$ m, even shorter than the strong force's range of $$ 10^{-15} $$ m) means it only acts within nuclei. Its discovery through beta decay was a triumph of experimental physics, as it revealed a fundamental force acting at scales too small to observe directly.
+The weak force has an extremely short range, about $$ 10^{-18} \m $$. It is responsible for beta decay both in some nuclei and in free neutrons. A short range limits the distance over which an interaction acts, rather than confining it to a nucleus.
 
 **Answer**
 
@@ -434,16 +434,11 @@ These ratios show that gravity is extraordinarily weak compared to all other fun
 - Gravity is $$ 10^{32} $$ times weaker than the weak nuclear force
 - Gravity is $$ 10^{36} $$ times weaker than the electromagnetic force
 
-At the scale of atomic nuclei (or even atoms and molecules), the gravitational force is completely negligible. The electromagnetic and nuclear forces dominate at these scales. Gravity only becomes significant when dealing with astronomical amounts of mass, where its always-attractive nature and infinite range allow it to accumulate over vast distances.
+The mutual gravitational forces between the particles in an atomic nucleus are negligible compared with the electromagnetic and nuclear forces.
 
 **Discussion**
 
-The weakness of gravity at the atomic scale means that:
-
-- Nuclear structure is determined entirely by the strong nuclear force and electromagnetic repulsion between protons
-- Chemical bonding is purely electromagnetic in nature
-- We can completely ignore gravity in particle physics and quantum mechanics
-- Only on astronomical scales (planets, stars, galaxies) does gravity become the dominant force
+For nuclear structure, the strong force binds nucleons while the electromagnetic force repels protons. The ratios calculated here explain why gravity can be neglected when comparing these interactions within a nucleus.
 
 **Answer**
 
@@ -503,13 +498,7 @@ As nuclei grow larger:
 - The electromagnetic repulsion accumulates globally (all protons)
 - Eventually, the total electromagnetic repulsion becomes comparable to the strong force binding
 
-This is why:
-
-- Elements heavier than iron (Fe, 26 protons) release energy when split (fission) rather than when combined
-- The heaviest naturally stable element is lead (Pb, 82 protons)
-- Elements heavier than uranium (U, 92 protons) are unstable and decay radioactively
-
-The 100:1 ratio sets the fundamental scale for nuclear stability and determines which elements can exist in nature.
+This competition helps explain why some very heavy nuclei can release energy by splitting into smaller nuclei. Whether a particular split releases energy depends on the nuclei involved; it cannot be decided from the force-strength ratio alone. Nuclear binding and fission are discussed later in the book.
 
 **Answer**
 

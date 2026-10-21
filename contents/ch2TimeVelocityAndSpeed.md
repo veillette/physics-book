@@ -453,7 +453,7 @@ $$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{t} = 0 \text{ m/s} $$
 
 **Discussion**
 
-This problem illustrates the fundamental difference between speed and velocity. Earth travels an enormous distance (9.42 × 10¹¹ m) in one year, moving at approximately 30 km/s relative to the Sun—faster than any human-made vehicle. Yet its average velocity over a complete orbit is zero because it returns to its starting position, making the displacement zero.
+This problem illustrates the fundamental difference between speed and velocity. Earth travels an enormous distance (9.42 × 10¹¹ m) in one year, moving at approximately 30 km/s relative to the Sun. Yet its average velocity over a complete orbit is zero because it returns to its starting position, making the displacement zero.
 
 This distinction is crucial in physics: speed depends only on the distance traveled (a scalar quantity), while velocity depends on displacement (a vector quantity with both magnitude and direction). For any complete orbit or round trip, average velocity is always zero regardless of how fast the object moves, while average speed depends on the total distance covered.
 
@@ -925,7 +925,7 @@ $$ d_{Earth-Moon} = 3.84 \times 10^{8} \m \times \frac{1 \text{ km}}{1000 \m} = 
 
 This result of 384,000 km matches the well-known average Earth-Moon distance quite well. The echo delay of 2.56 seconds was a characteristic feature of lunar communications during the Apollo missions. This delay was noticeable in conversations and required astronauts and mission control to adapt their communication style – they couldn't have natural back-and-forth conversations but had to wait for responses.
 
-The calculation assumes the radio waves travel at the speed of light in vacuum, which is a good approximation since most of the path is through the vacuum of space. This method of using signal travel time to measure distances is fundamental in astronomy and is how we measure distances to planets, spacecraft, and even nearby stars (using radar or laser ranging).
+The calculation assumes the radio waves travel at the speed of light in vacuum, which is a good approximation since most of the path is through the vacuum of space. This method of using signal travel time to measure distances is fundamental in astronomy and is how we measure distances to planets and spacecraft (using radar or laser ranging).
 
 **Answer**
 
@@ -1004,7 +1004,7 @@ $$ \overline{v}_{\text{total}} = \frac{\Delta x_{\text{total}}}{\Delta t_{\text{
 
 **Discussion**
 
-The negative velocity in interval 2 indicates backward motion. The average velocity for the entire motion (3.49 m/s) is less than the average of the three interval velocities because the quarterback spent more time in the slower interval 3. The net displacement is 33.0 m forward, which makes sense: he moved forward 15.0 m, then backward 3.00 m (net 12.0 m forward so far), then forward another 21.0 m, giving a total of 33.0 m forward. This speed of 3.49 m/s is reasonable for a quarterback navigating through defenders – it's much slower than his sprint speed but accounts for the backward motion and the time spent breaking tackles.
+The negative velocity in interval 2 indicates backward motion. For the entire trip, divide the total displacement, 33.0 m, by the total time, 9.45 s, to obtain 3.49 m/s forward. This is a time-weighted average of the interval velocities: the intervals have different durations, so simply adding their velocities and dividing by three would not give the trip average.
 
 **Answer**
 
