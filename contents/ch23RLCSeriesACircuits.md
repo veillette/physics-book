@@ -404,6 +404,69 @@ Build circuits with capacitors, inductors, resistors and AC or DC voltage source
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Series RLC Phasors
+</div>
+
+Add the resistor, inductor, and capacitor voltages as phasors. Their vector sum is the source voltage, and the impedance sets the current.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/ACPhasor/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Series RLC phasors
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Resonance in a Series RLC Circuit
+</div>
+
+Sweep the driving frequency and watch the current peak. The phase passes through zero at that same resonant frequency.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/ACPhasor/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Series RLC resonance
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Power in an AC Circuit
+</div>
+
+Watch instantaneous power swing between energy delivered to the circuit and energy returned to the source. The average power depends on the power factor, $$\cos\phi $$.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/ACPhasor/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+AC power
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * The AC analogy to resistance is impedance $$Z $$ , the combined effect of

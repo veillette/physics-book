@@ -317,6 +317,27 @@ The distance, however, simply doubles. Because the temperature difference and th
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Conduction
+</div>
+
+Hold the two ends of a bar at different temperatures and watch heat flow through the material. The flow is larger when the temperature difference is larger and when the material conducts well.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/HeatTransfer/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Conduction
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Summary
 
 - Heat conduction is the transfer of heat between two objects in direct contact

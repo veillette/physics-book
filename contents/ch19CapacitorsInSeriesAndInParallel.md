@@ -244,6 +244,27 @@ a total is obtained can be applied to larger combinations of capacitors.
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Capacitors in Series and Parallel
+</div>
+
+Combine capacitors and compare the total capacitance with one capacitor alone. Parallel combinations add. Series combinations add as reciprocals.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/CapacitorLab/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Capacitors in combination
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Total capacitance in series $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}}+\text{...} $$

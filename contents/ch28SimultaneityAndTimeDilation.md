@@ -402,6 +402,48 @@ Check Your Understanding
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Light Clock
+</div>
+
+Watch a light clock tick in a moving frame and compare its period with a clock at rest. The moving clock runs slow.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/SpecialRelativity/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Light clock
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Twin Paradox
+</div>
+
+Send one twin on a high-speed round trip and compare the two clocks when they meet again. The traveling twin ages less.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/SpecialRelativity/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Twin paradox
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Two events are defined to be simultaneous if an observer measures them as

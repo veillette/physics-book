@@ -105,6 +105,27 @@ effect on the flow. Phenomena as disparate as turbulence, the orbit of Pluto,
 and the onset of irregular heartbeats are chaotic and can be analyzed with
 similar techniques.
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+From Laminar Flow to Turbulence
+</div>
+
+Follow the wake of an obstacle as the flow goes from smooth streamlines to a vortex street and then to a turbulent wake.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/FluidDynamics/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Onset of turbulence
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - The Reynolds number $${N}_{\text{R}} $$ can reveal whether flow is laminar or

@@ -100,6 +100,27 @@ No, energy is always a scalar whether motion is involved or not. No form of ener
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Steady Precession
+</div>
+
+Spin a gyroscope and watch its axis sweep steadily around the vertical under gravity. The precession rate depends on the spin and on the torque.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/Precession/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Steady precession
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Torque is perpendicular to the plane formed by $$ r $$ and $$ \vb{F} $$ and is

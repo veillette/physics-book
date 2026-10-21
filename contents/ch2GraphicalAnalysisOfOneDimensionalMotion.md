@@ -357,6 +357,27 @@ negative acceleration.
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Match the Motion Graph
+</div>
+
+Move the character so the position or velocity graph matches the target. The slope of the position graph is the velocity, and the slope of the velocity graph is the acceleration.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/MotionMatch/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Matching a motion graph
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * Graphs of motion can be used to analyze motion.

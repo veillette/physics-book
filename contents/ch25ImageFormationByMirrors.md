@@ -378,6 +378,27 @@ the [Problem-Solving Strategies for Lenses](../contents/ch25ImageFormationByLens
 strategies are valid for mirrors as for lenses with one qualification—use the
 ray tracing rules for mirrors listed earlier in this section.
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Image Formation by Mirrors
+</div>
+
+Place a curved mirror in a beam and trace the reflected rays. Move the object and compare where the image forms with the mirror equation.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/OpticsLab/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Mirrors on an optical bench
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * The characteristics of an image formed by a flat mirror are: (a) The image and

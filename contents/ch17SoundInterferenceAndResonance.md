@@ -356,6 +356,69 @@ Explore sound waves by adjusting the frequency and amplitude. Compare the wave d
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Reflection at an Open or Closed End
+</div>
+
+Send a pulse down a pipe. A closed end holds the air still and reflects the displacement pulse inverted. An open end is a pressure node and reflects it upright.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Reflection at a pipe end
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Displacement and Pressure
+</div>
+
+Compare the displacement of the air with the pressure variation in the same wave. A pressure node sits where the displacement is largest.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Displacement and pressure phase
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Standing Waves in a Pipe
+</div>
+
+Drive an open pipe and a stopped pipe. The open pipe supports every harmonic. The stopped pipe supports only the odd ones.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/StandingWaves/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Harmonics of open and stopped pipes
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Sound interference and resonance have the same properties as defined for all

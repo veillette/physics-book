@@ -478,6 +478,27 @@ is about 25 cm/s, while in the capillaries ( $$20\mu \text{m} $$ in diameter)
 the velocity is about 1 mm/s. This reduced velocity allows the blood to exchange
 substances with the cells in the capillaries and alveoli in particular.
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Laminar Flow past an Obstacle
+</div>
+
+Watch streamlines around an obstacle. At low speed the flow stays smooth. Raise the speed and the wake begins to waver.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/FluidDynamics/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Laminar flow past an obstacle
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Laminar flow is characterized by smooth flow of the fluid in layers that do

@@ -268,6 +268,27 @@ Answer
 
 </div>
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Length Contraction
+</div>
+
+Watch a rod shorten along its direction of motion, and try to fit a moving ladder into a barn. Length perpendicular to the motion does not change.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/SpecialRelativity/?screens=3" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Length contraction
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Summary
 
 - Two inertial observers agree on the magnitude of their mutual relative velocity.

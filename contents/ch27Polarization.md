@@ -386,6 +386,48 @@ to further pursue the numerous properties of materials related to polarization.
 ![The schematic shows an unpolarized ray of light incident on a block of transparent material The ray is perpendicular to the face of the material. Upon entering the material, part of the ray continues straight on. This ray is horizontally polarized and is labeled o. Another part of the incident ray is deviated at an angle upon entering the material. This ray is vertically polarized and is labeled e.](../resources/Figure_27_08_15.jpg "Birefringent materials, such as the common mineral calcite, split unpolarized beams of light into two. The ordinary ray behaves as expected, but the extraordinary ray does not obey Snell&#x2019;s law.")
 {: #Figure15}
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+A Polarized Wave
+</div>
+
+Watch a single electromagnetic wave and set the direction of its electric field. That direction is the polarization.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/LightPropagation/?screens=1" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+One polarized wave
+</figcaption>
+</div>
+
+:::
+
+::::
+
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Polarizers
+</div>
+
+Send the wave through one polarizer, then add a second. Crossed polarizers block the light. A third polarizer placed between them lets some of it through.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/LightPropagation/?screens=2" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Polarizers
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 * Polarization is the attribute that wave oscillations have a definite direction

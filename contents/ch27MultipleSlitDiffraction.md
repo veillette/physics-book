@@ -184,6 +184,27 @@ having closely spaced lines.
 
 :::
 
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
+
+<div class="title">
+Diffraction Gratings
+</div>
+
+Send light through a transmission or reflection grating. The orders spread apart by wavelength, which is why a grating can serve as a spectrometer.
+
+::: figure {}
+
+<div class="figure">
+<iframe loading="lazy" src="https://openlyceum.github.io/OpticsLab/?screens=4" width="800" height="600" allowfullscreen></iframe>
+<figcaption>
+Diffraction gratings
+</figcaption>
+</div>
+
+:::
+
+::::
+
 ### Section Summary
 
 - A diffraction grating is a large collection of evenly spaced parallel slits
