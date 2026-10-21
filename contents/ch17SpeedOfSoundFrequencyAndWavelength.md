@@ -43,7 +43,7 @@ identical parts of a wave—for example, between adjacent compressions as
 illustrated in [[Figure 2]](#Figure2). The frequency is the same as that of the
 source and is the number of waves that pass a point per unit time.
 
-![A picture of a vibrating tuning fork is shown. The sound wave compressions and rarefactions are shown to emanate from the fork on both the sides as semicircular arcs of alternate bold and dotted lines. The wavelength is marked as the distance between two successive bold arcs. The frequency of the vibrations is shown as f and velocity of the wave represented by v sub w.](../resources/Figure_17_02_02.jpg "A sound wave emanates from a source vibrating at a frequency \( f \), propagates at \( v_w \) , and has a wavelength \( \lambda \).")
+![A tuning fork vibrating at frequency f sends out sound to both sides as curved bands of compression (solid arcs) and rarefaction (dashed arcs). The wave travels outward at speed v_w on each side, and the distance between neighboring compressions is the wavelength λ.](../resources/Figure_17_02_02.svg "A sound wave emanates from a source vibrating at a frequency \( f \), propagates at \( v_w \) , and has a wavelength \( \lambda \).")
 {: #Figure2}
 
 [[Table 1]](#Table1) makes it apparent that the speed of sound varies greatly in

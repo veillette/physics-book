@@ -2,7 +2,8 @@
 /**
  * Generate the line-art figures (graphs, vector diagrams, geometry) that
  * replaced raster originals in chapters 2–9, the oscillation and wave figures
- * of chapter 16, the electrostatics figures of
+ * of chapter 16, the sound and hearing figures of chapter 17, the
+ * electrostatics figures of
  * chapter 18, the field, equipotential and capacitor figures of chapter 19, the circuit diagrams of chapter 21
  * (whose symbols live in scripts/figures/circuit.js), and the electromagnetic
  * spectrum of section 29.3, plus the figures in the answers to
@@ -30,6 +31,7 @@ import ch04to07 from './figures/ch04to07.js';
 import ch08 from './figures/ch08.js';
 import ch09 from './figures/ch09.js';
 import ch16 from './figures/ch16.js';
+import ch17 from './figures/ch17.js';
 import ch18 from './figures/ch18.js';
 import ch19 from './figures/ch19.js';
 import ch21 from './figures/ch21.js';
@@ -52,6 +54,7 @@ const figures = {
   ...ch08,
   ...ch09,
   ...ch16,
+  ...ch17,
   ...ch18,
   ...ch19,
   ...ch21,

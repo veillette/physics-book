@@ -41,13 +41,13 @@ almost no shear strength. In solids, sound waves can be both transverse and
 longitudinal.) [[Figure 4]](#Figure4) shows a graph of gauge pressure versus
 distance from the vibrating string.
 
-![Diagram of a vibrating string held fixed at both ends. The string is shown to move toward the right. The compression and rarefaction of air is shown as bold and dotted line arcs around the string.](../resources/Figure_17_01_02.jpg 'A vibrating string moving to the right compresses the air in front of it and expands the air behind it.')
+![A string held between two clamps bows to the right as it moves right. It squeezes the air just ahead of it into a compression, a darker band whose center is the solid line, and leaves a rarefaction, a paler band with a dashed center, behind it on the left.](../resources/Figure_17_01_02.svg 'A vibrating string moving to the right compresses the air in front of it and expands the air behind it.')
 {: #Figure2}
 
-![Diagram of a vibrating string held fixed at both the ends. The string is shown to move toward the left. The compression and rarefaction of air is shown as bold and dotted arcs around the string.](../resources/Figure_17_01_03.jpg 'As the string moves to the left, it creates another compression and rarefaction as the ones on the right move away from the string.')
+![Half a cycle later the string bows to the left as it moves left. It now compresses the air on its left and leaves a rarefaction on its right, while the first compression and rarefaction, shown by the solid and dashed lines farther out, have moved away from the string to the right.](../resources/Figure_17_01_03.svg 'As the string moves to the left, it creates another compression and rarefaction as the ones on the right move away from the string.')
 {: #Figure3}
 
-![Part a of the diagram shows a vibrating string held fixed at both the ends. The string is shown to vibrate to and fro toward left and right. The compression and rarefaction of air is shown as bold and dotted arcs around the string. Part b shows a graph of pressure versus distance from the source. The pressure is along the y axis and the distance is along the x axis. The graph is a sine wave along the x axis.](../resources/Figure_17_01_04.jpg 'After many vibrations, there are a series of compressions and rarefactions moving out from the string as a sound wave. The graph shows gauge pressure versus distance from the source. Pressures vary only slightly from atmospheric for ordinary sounds.')
+![After many vibrations, the string, shown at several positions as it swings left and right, has sent out a series of compressions (darker bands, solid lines) and rarefactions (paler bands, dashed lines) on both sides. Below, a graph of gauge pressure P_gauge versus distance x from the string is a sine wave: positive at compressions, negative at rarefactions, and only slightly different from atmospheric pressure for ordinary sounds.](../resources/Figure_17_01_04.svg 'After many vibrations, there are a series of compressions and rarefactions moving out from the string as a sound wave. The graph shows gauge pressure versus distance from the source. Pressures vary only slightly from atmospheric for ordinary sounds.')
 {: #Figure4}
 
 The amplitude of a sound wave decreases with distance from its source, because
