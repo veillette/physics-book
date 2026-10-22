@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="560" viewBox="0 0 660 560" role="img" aria-labelledby="title desc">
+<title id="title">Polarization by reflection</title>
+<desc id="desc">Unpolarized light in air strikes a glass surface. The reflected light is partially polarized, mostly perpendicular to the plane of the paper (dots), and the refracted light is partially polarized, mostly in the plane of the paper (arrows). At Brewster’s angle, θ = arctan 1.5 = 56.3°, the reflected and refracted rays are perpendicular and the reflected light is completely polarized.</desc>
+<rect width="660" height="560" fill="#ffffff"/>
+<rect x="10" y="300" width="640" height="250" fill="#a9dde3" stroke="#5ab4c0" stroke-width="1.5"/>
+<line x1="-44.58" y1="116.95" x2="230" y2="300" stroke="#222222" stroke-width="2"/>
+<line x1="130.15" y1="233.44" x2="137.64" y2="238.43" stroke="#222222" stroke-width="2"/>
+<polygon points="146.79,244.53 134.15,241.87 139.47,233.88" fill="#222222"/>
+<line x1="230" y1="300" x2="504.58" y2="116.95" stroke="#222222" stroke-width="2"/>
+<line x1="479.62" y1="133.59" x2="495.42" y2="123.05" stroke="#222222" stroke-width="2"/>
+<polygon points="504.58,116.95 497.25,127.6 491.93,119.61" fill="#222222"/>
+<line x1="230" y1="300" x2="357.58" y2="491.37" stroke="#222222" stroke-width="2"/>
+<line x1="346.49" y1="474.73" x2="354.81" y2="487.21" stroke="#222222" stroke-width="2"/>
+<polygon points="360.91,496.36 350.26,489.04 358.25,483.72" fill="#222222"/>
+<line x1="5.04" y1="192.37" x2="105.49" y2="174.66" stroke="#222222" stroke-width="1.8"/>
+<polygon points="114.36,173.09 105.2,178.77 103.82,170.89" fill="#222222"/>
+<polygon points="-3.82,193.93 5.33,188.26 6.72,196.13" fill="#222222"/>
+<line x1="26.02" y1="225.29" x2="84.52" y2="141.74" stroke="#222222" stroke-width="1.8"/>
+<polygon points="89.68,134.36 87.22,144.85 80.67,140.26" fill="#222222"/>
+<polygon points="20.85,232.66 23.31,222.18 29.87,226.76" fill="#222222"/>
+<line x1="64.13" y1="233.74" x2="46.41" y2="133.29" stroke="#222222" stroke-width="1.8"/>
+<polygon points="44.85,124.42 50.53,133.58 42.65,134.97" fill="#222222"/>
+<polygon points="65.69,242.6 60.01,233.45 67.89,232.06" fill="#222222"/>
+<line x1="97.05" y1="212.77" x2="13.49" y2="154.26" stroke="#222222" stroke-width="1.8"/>
+<polygon points="6.12,149.1 16.61,151.56 12.02,158.11" fill="#222222"/>
+<polygon points="104.42,217.93 93.93,215.47 98.52,208.92" fill="#222222"/>
+<circle cx="279.92" cy="266.72" r="6" fill="#222222"/>
+<line x1="273.82" y1="257.57" x2="286.02" y2="275.87" stroke="#222222" stroke-width="1.6"/>
+<polygon points="289.91,281.69 282.81,276.81 288.13,273.26" fill="#222222"/>
+<polygon points="269.94,251.74 277.04,256.62 271.71,260.17" fill="#222222"/>
+<circle cx="329.85" cy="233.44" r="6" fill="#222222"/>
+<line x1="323.74" y1="224.28" x2="335.95" y2="242.59" stroke="#222222" stroke-width="1.6"/>
+<polygon points="339.83,248.41 332.73,243.53 338.06,239.98" fill="#222222"/>
+<polygon points="319.86,218.46 326.96,223.34 321.64,226.89" fill="#222222"/>
+<circle cx="379.77" cy="200.15" r="6" fill="#222222"/>
+<line x1="373.67" y1="191" x2="385.87" y2="209.31" stroke="#222222" stroke-width="1.6"/>
+<polygon points="389.75,215.13 382.65,210.25 387.98,206.7" fill="#222222"/>
+<polygon points="369.78,185.18 376.88,190.06 371.56,193.61" fill="#222222"/>
+<circle cx="429.69" cy="166.87" r="6" fill="#222222"/>
+<line x1="423.59" y1="157.72" x2="435.79" y2="176.02" stroke="#222222" stroke-width="1.6"/>
+<polygon points="439.68,181.85 432.58,176.97 437.9,173.42" fill="#222222"/>
+<polygon points="419.71,151.9 426.81,156.78 421.48,160.33" fill="#222222"/>
+<circle cx="248.86" cy="328.29" r="4" fill="#222222"/>
+<line x1="270.49" y1="313.87" x2="227.23" y2="342.71" stroke="#222222" stroke-width="1.6"/>
+<polygon points="220.57,347.15 226.06,339.16 230.06,345.15" fill="#222222"/>
+<polygon points="277.15,309.43 271.66,317.42 267.66,311.43" fill="#222222"/>
+<circle cx="267.72" cy="356.58" r="4" fill="#222222"/>
+<line x1="289.35" y1="342.16" x2="246.09" y2="371" stroke="#222222" stroke-width="1.6"/>
+<polygon points="239.43,375.44 244.92,367.45 248.92,373.44" fill="#222222"/>
+<polygon points="296.01,337.72 290.52,345.71 286.52,339.72" fill="#222222"/>
+<circle cx="286.58" cy="384.87" r="4" fill="#222222"/>
+<line x1="308.21" y1="370.45" x2="264.95" y2="399.29" stroke="#222222" stroke-width="1.6"/>
+<polygon points="258.29,403.73 263.78,395.74 267.78,401.73" fill="#222222"/>
+<polygon points="314.87,366.01 309.38,374 305.38,368.01" fill="#222222"/>
+<circle cx="305.44" cy="413.16" r="4" fill="#222222"/>
+<line x1="327.07" y1="398.74" x2="283.81" y2="427.58" stroke="#222222" stroke-width="1.6"/>
+<polygon points="277.15,432.02 282.64,424.03 286.63,430.02" fill="#222222"/>
+<polygon points="333.73,394.3 328.24,402.29 324.24,396.3" fill="#222222"/>
+<circle cx="324.3" cy="441.45" r="4" fill="#222222"/>
+<line x1="345.93" y1="427.03" x2="302.67" y2="455.87" stroke="#222222" stroke-width="1.6"/>
+<polygon points="296.01,460.31 301.5,452.32 305.49,458.31" fill="#222222"/>
+<polygon points="352.59,422.59 347.1,430.58 343.1,424.59" fill="#222222"/>
+<text x="120" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Unpolarized</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">light</tspan></text>
+<text x="520" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Partially</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">polarized</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">light</tspan></text>
+<text x="520" y="243.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Perpendicular</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">to</tspan></text>
+<text x="520" y="269.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">plane</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">paper</tspan></text>
+<polyline points="436,236 434.07,235.56 432.14,235.13 430.21,234.72 428.28,234.35 426.35,234.02 424.43,233.75 422.5,233.53 420.57,233.38 418.65,233.3 416.72,233.29 414.8,233.35 412.88,233.49 410.96,233.7 409.04,233.98 407.12,234.31 405.2,234.7 403.29,235.13 401.37,235.59 399.45,236.08 397.54,236.57 395.62,237.07 393.71,237.56 391.79,238.02 389.87,238.45 387.95,238.84 386.04,239.17 384.12,239.45 382.2,239.66 380.27,239.8 378.35,239.86 376.43,239.85 374.5,239.77 372.58,239.62 370.65,239.4 368.72,239.13 366.8,238.8 364.87,238.42 362.94,238.02 361.01,237.59 359.08,237.15" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="359.08" y1="237.15" x2="348.85" y2="237.3" stroke="#222222" stroke-width="1.4"/>
+<polygon points="339.85,237.44 349.79,233.29 349.9,241.29" fill="#222222"/>
+<text x="60" y="285.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Air</tspan></text>
+<text x="60" y="333.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Glass</tspan></text>
+<text x="470" y="507.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Partially</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">polarized</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">light</tspan></text>
+</svg>

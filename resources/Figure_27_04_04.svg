@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="820" viewBox="0 0 520 820" role="img" aria-labelledby="title desc">
+<title id="title">Path differences for a diffraction grating</title>
+<desc id="desc">Rays arrive at a grating whose slits are a distance d apart and leave at angle θ. Each ray travels Δℓ = d sin θ farther than the one below it, so the waves from every slit arrive in phase when d sin θ = mλ.</desc>
+<rect width="520" height="820" fill="#ffffff"/>
+<line x1="190" y1="40" x2="190" y2="114" stroke="#222222" stroke-width="6"/>
+<line x1="190" y1="126" x2="190" y2="214" stroke="#222222" stroke-width="6"/>
+<line x1="190" y1="226" x2="190" y2="314" stroke="#222222" stroke-width="6"/>
+<line x1="190" y1="326" x2="190" y2="414" stroke="#222222" stroke-width="6"/>
+<line x1="190" y1="426" x2="190" y2="514" stroke="#222222" stroke-width="6"/>
+<line x1="190" y1="526" x2="190" y2="760" stroke="#222222" stroke-width="6"/>
+<line x1="190" y1="120" x2="500" y2="120" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="40" y1="120" x2="186" y2="120" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="146.8" y1="120" x2="154.2" y2="120" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="162.8,120 153.2,123.84 153.2,116.16" fill="#1fa8d8"/>
+<line x1="190" y1="120" x2="481.25" y2="331.6" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="356.66" y1="241.08" x2="362.64" y2="245.43" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="369.6,250.49 359.58,247.95 364.09,241.74" fill="#1fa8d8"/>
+<line x1="40" y1="220" x2="186" y2="220" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="146.8" y1="220" x2="154.2" y2="220" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="162.8,220 153.2,223.84 153.2,216.16" fill="#1fa8d8"/>
+<line x1="190" y1="220" x2="481.25" y2="431.6" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="356.66" y1="341.08" x2="362.64" y2="345.43" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="369.6,350.49 359.58,347.95 364.09,341.74" fill="#1fa8d8"/>
+<line x1="40" y1="320" x2="186" y2="320" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="146.8" y1="320" x2="154.2" y2="320" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="162.8,320 153.2,323.84 153.2,316.16" fill="#1fa8d8"/>
+<line x1="190" y1="320" x2="481.25" y2="531.6" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="356.66" y1="441.08" x2="362.64" y2="445.43" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="369.6,450.49 359.58,447.95 364.09,441.74" fill="#1fa8d8"/>
+<line x1="40" y1="420" x2="186" y2="420" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="146.8" y1="420" x2="154.2" y2="420" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="162.8,420 153.2,423.84 153.2,416.16" fill="#1fa8d8"/>
+<line x1="190" y1="420" x2="481.25" y2="631.6" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="356.66" y1="541.08" x2="362.64" y2="545.43" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="369.6,550.49 359.58,547.95 364.09,541.74" fill="#1fa8d8"/>
+<line x1="40" y1="520" x2="186" y2="520" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="146.8" y1="520" x2="154.2" y2="520" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="162.8,520 153.2,523.84 153.2,516.16" fill="#1fa8d8"/>
+<line x1="190" y1="520" x2="481.25" y2="731.6" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="356.66" y1="641.08" x2="362.64" y2="645.43" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="369.6,650.49 359.58,647.95 364.09,641.74" fill="#1fa8d8"/>
+<line x1="190" y1="220" x2="237.55" y2="154.55" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="211.75" y1="103.67" x2="246.36" y2="128.81" stroke="#222222" stroke-width="1.4"/>
+<polygon points="252.84,133.51 243.44,131.14 247.67,125.31" fill="#222222"/>
+<polygon points="205.28,98.97 214.68,101.34 210.45,107.17" fill="#222222"/>
+<line x1="190" y1="120" x2="209.98" y2="92.49" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="237.55" y1="154.55" x2="257.54" y2="127.04" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="190" y1="320" x2="237.55" y2="254.55" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="202.35" y1="216.61" x2="236.96" y2="241.76" stroke="#222222" stroke-width="1.4"/>
+<polygon points="243.43,246.46 234.03,244.08 238.27,238.26" fill="#222222"/>
+<polygon points="195.88,211.91 205.28,214.29 201.04,220.11" fill="#222222"/>
+<text x="231.41" y="220.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">ℓ</tspan></text>
+<line x1="190" y1="420" x2="237.55" y2="354.55" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="202.35" y1="316.61" x2="236.96" y2="341.76" stroke="#222222" stroke-width="1.4"/>
+<polygon points="243.43,346.46 234.03,344.08 238.27,338.26" fill="#222222"/>
+<polygon points="195.88,311.91 205.28,314.29 201.04,320.11" fill="#222222"/>
+<text x="231.41" y="320.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">ℓ</tspan></text>
+<line x1="190" y1="520" x2="237.55" y2="454.55" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="202.35" y1="416.61" x2="236.96" y2="441.76" stroke="#222222" stroke-width="1.4"/>
+<polygon points="243.43,446.46 234.03,444.08 238.27,438.26" fill="#222222"/>
+<polygon points="195.88,411.91 205.28,414.29 201.04,420.11" fill="#222222"/>
+<text x="231.41" y="420.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">ℓ</tspan></text>
+<text x="390" y="42.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">ℓ = </tspan><tspan font-style="italic">d</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<path d="M 246.63 161.14 A 70 70 0 0 0 260 120" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="279.4" y="156.75" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<path d="M 213.51 487.64 A 40 40 0 0 0 190 480" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="207.92" y="472.54" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<line x1="170" y1="235" x2="170" y2="305" stroke="#222222" stroke-width="1.4"/>
+<polygon points="170,314 166,304 174,304" fill="#222222"/>
+<polygon points="170,226 174,236 166,236" fill="#222222"/>
+<text x="154" y="279.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+</svg>

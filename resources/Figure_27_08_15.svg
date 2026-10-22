@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+<title id="title">Birefringence</title>
+<desc id="desc">An unpolarized beam enters a birefringent crystal such as calcite and splits in two. The ordinary ray o goes straight through, polarized perpendicular to the page; the extraordinary ray e is bent, polarized in the plane of the page, and leaves parallel to the o ray but displaced.</desc>
+<rect width="760" height="360" fill="#ffffff"/>
+<polygon points="300,110 390,50 590,50 500,110" fill="#f6ead2" stroke="#c9b07a" stroke-width="1.5"/>
+<polygon points="500,110 590,50 590,270 500,330" fill="#ecdcb9" stroke="#c9b07a" stroke-width="1.5"/>
+<rect x="300" y="110" width="200" height="220" fill="#f3e5c6" fill-opacity="0.8" stroke="#c9b07a" stroke-width="1.5"/>
+<line x1="20" y1="180" x2="740" y2="180" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="300" y1="180" x2="420" y2="250" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="420" y1="250" x2="740" y2="250" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="60" y1="208" x2="60" y2="152" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="60,144 63.6,153 56.4,153" fill="#1fa8d8"/>
+<polygon points="60,216 56.4,207 63.6,207" fill="#1fa8d8"/>
+<line x1="68.69" y1="194.81" x2="111.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="117.88,160.62 112.54,168.71 108.44,162.8" fill="#1fa8d8"/>
+<polygon points="62.12,199.38 67.46,191.29 71.56,197.2" fill="#1fa8d8"/>
+<line x1="160" y1="208" x2="160" y2="152" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="160,144 163.6,153 156.4,153" fill="#1fa8d8"/>
+<polygon points="160,216 156.4,207 163.6,207" fill="#1fa8d8"/>
+<line x1="168.69" y1="194.81" x2="211.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="217.88,160.62 212.54,168.71 208.44,162.8" fill="#1fa8d8"/>
+<polygon points="162.12,199.38 167.46,191.29 171.56,197.2" fill="#1fa8d8"/>
+<line x1="230" y1="208" x2="230" y2="152" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="230,144 233.6,153 226.4,153" fill="#1fa8d8"/>
+<polygon points="230,216 226.4,207 233.6,207" fill="#1fa8d8"/>
+<line x1="238.69" y1="194.81" x2="281.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="287.88,160.62 282.54,168.71 278.44,162.8" fill="#1fa8d8"/>
+<polygon points="232.12,199.38 237.46,191.29 241.56,197.2" fill="#1fa8d8"/>
+<line x1="378.69" y1="194.81" x2="421.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="427.88,160.62 422.54,168.71 418.44,162.8" fill="#1fa8d8"/>
+<polygon points="372.12,199.38 377.46,191.29 381.56,197.2" fill="#1fa8d8"/>
+<line x1="458.69" y1="194.81" x2="501.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="507.88,160.62 502.54,168.71 498.44,162.8" fill="#1fa8d8"/>
+<polygon points="452.12,199.38 457.46,191.29 461.56,197.2" fill="#1fa8d8"/>
+<line x1="538.69" y1="194.81" x2="581.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="587.88,160.62 582.54,168.71 578.44,162.8" fill="#1fa8d8"/>
+<polygon points="532.12,199.38 537.46,191.29 541.56,197.2" fill="#1fa8d8"/>
+<line x1="618.69" y1="194.81" x2="661.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="667.88,160.62 662.54,168.71 658.44,162.8" fill="#1fa8d8"/>
+<polygon points="612.12,199.38 617.46,191.29 621.56,197.2" fill="#1fa8d8"/>
+<line x1="678.69" y1="194.81" x2="721.31" y2="165.19" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="727.88,160.62 722.54,168.71 718.44,162.8" fill="#1fa8d8"/>
+<polygon points="672.12,199.38 677.46,191.29 681.56,197.2" fill="#1fa8d8"/>
+<line x1="360" y1="278" x2="360" y2="222" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="360,214 363.6,223 356.4,223" fill="#1fa8d8"/>
+<polygon points="360,286 356.4,277 363.6,277" fill="#1fa8d8"/>
+<line x1="440" y1="278" x2="440" y2="222" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="440,214 443.6,223 436.4,223" fill="#1fa8d8"/>
+<polygon points="440,286 436.4,277 443.6,277" fill="#1fa8d8"/>
+<line x1="520" y1="278" x2="520" y2="222" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="520,214 523.6,223 516.4,223" fill="#1fa8d8"/>
+<polygon points="520,286 516.4,277 523.6,277" fill="#1fa8d8"/>
+<line x1="600" y1="278" x2="600" y2="222" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="600,214 603.6,223 596.4,223" fill="#1fa8d8"/>
+<polygon points="600,286 596.4,277 603.6,277" fill="#1fa8d8"/>
+<line x1="680" y1="278" x2="680" y2="222" stroke="#1fa8d8" stroke-width="2"/>
+<polygon points="680,214 683.6,223 676.4,223" fill="#1fa8d8"/>
+<polygon points="680,286 676.4,277 683.6,277" fill="#1fa8d8"/>
+<text x="748" y="193.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">o</tspan></text>
+<text x="748" y="263.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan></text>
+</svg>

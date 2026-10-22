@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="780" viewBox="0 0 400 780" role="img" aria-labelledby="title desc">
+<title id="title">Huygens’s principle applied to a straight wavefront</title>
+<desc id="desc">Each point on an old straight wavefront is a source of a semicircular wavelet of radius s = vt. The new wavefront, a time t later, is the line tangent to all the wavelets, a distance s = vt ahead, and the wave moves in the direction of the arrow.</desc>
+<rect width="400" height="780" fill="#ffffff"/>
+<line x1="170" y1="30" x2="170" y2="750" stroke="#1fa8d8" stroke-width="3"/>
+<line x1="220" y1="30" x2="220" y2="750" stroke="#1fa8d8" stroke-width="3"/>
+<path d="M 170 160 A 50 50 0 0 0 170 60" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="110" r="6" fill="#1a9aa0"/>
+<path d="M 170 240 A 50 50 0 0 0 170 140" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="190" r="6" fill="#1a9aa0"/>
+<path d="M 170 320 A 50 50 0 0 0 170 220" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="270" r="6" fill="#1a9aa0"/>
+<path d="M 170 400 A 50 50 0 0 0 170 300" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="350" r="6" fill="#1a9aa0"/>
+<path d="M 170 480 A 50 50 0 0 0 170 380" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="430" r="6" fill="#1a9aa0"/>
+<path d="M 170 560 A 50 50 0 0 0 170 460" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="510" r="6" fill="#1a9aa0"/>
+<path d="M 170 640 A 50 50 0 0 0 170 540" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="590" r="6" fill="#1a9aa0"/>
+<path d="M 170 720 A 50 50 0 0 0 170 620" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="170" cy="670" r="6" fill="#1a9aa0"/>
+<line x1="70" y1="390" x2="287" y2="390" stroke="#222222" stroke-width="2"/>
+<polygon points="300,390 286,395.6 286,384.4" fill="#222222"/>
+<line x1="174" y1="184" x2="203.92" y2="168.23" stroke="#222222" stroke-width="1.4"/>
+<polygon points="211.88,164.03 204.9,172.23 201.17,165.15" fill="#222222"/>
+<text x="310" y="243.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">s</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">vt</tspan></text>
+<polyline points="304,236 302.25,234.19 300.49,232.39 298.71,230.61 296.91,228.88 295.08,227.19 293.22,225.56 291.31,224 289.35,222.52 287.35,221.12 285.3,219.79 283.19,218.56 281.03,217.4 278.83,216.32 276.58,215.32 274.28,214.39 271.95,213.52 269.59,212.69 267.21,211.91 264.81,211.15 262.4,210.4 259.99,209.65 257.59,208.89 255.21,208.11 252.85,207.28 250.52,206.41 248.22,205.48 245.97,204.48 243.77,203.4 241.61,202.24 239.5,201.01 237.45,199.68 235.45,198.28 233.49,196.8 231.58,195.24 229.72,193.61 227.89,191.92 226.09,190.19 224.31,188.41 222.55,186.61 220.8,184.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="220.8" y1="184.8" x2="207.66" y2="176.72" stroke="#222222" stroke-width="1.4"/>
+<polygon points="200,172 210.61,173.83 206.42,180.65" fill="#222222"/>
+<text x="270" y="27.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">New</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wavefront</tspan></text>
+<polyline points="276,32 274.39,33.43 272.79,34.87 271.21,36.33 269.68,37.81 268.19,39.32 266.76,40.87 265.4,42.46 264.12,44.09 262.91,45.77 261.79,47.51 260.75,49.29 259.8,51.13 258.92,53.02 258.12,54.95 257.39,56.92 256.72,58.93 256.09,60.97 255.51,63.03 254.95,65.11 254.4,67.2 253.85,69.29 253.29,71.37 252.71,73.43 252.08,75.47 251.41,77.48 250.68,79.45 249.88,81.38 249,83.27 248.05,85.11 247.01,86.89 245.89,88.63 244.68,90.31 243.4,91.94 242.04,93.53 240.61,95.08 239.12,96.59 237.59,98.07 236.01,99.53 234.41,100.97 232.8,102.4" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="232.8" y1="102.4" x2="226.71" y2="112.33" stroke="#222222" stroke-width="1.4"/>
+<polygon points="222,120 223.82,109.38 230.64,113.57" fill="#222222"/>
+<text x="90" y="287.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Old</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wavefront</tspan></text>
+<polyline points="110,264 111.82,262.06 113.63,260.12 115.4,258.16 117.12,256.18 118.77,254.16 120.35,252.1 121.84,250 123.23,247.86 124.51,245.66 125.69,243.4 126.75,241.1 127.71,238.74 128.56,236.32 129.31,233.86 129.97,231.36 130.56,228.82 131.08,226.24 131.55,223.64 131.98,221.02 132.4,218.4 132.82,215.78 133.25,213.16 133.72,210.56 134.24,207.98 134.83,205.44 135.49,202.94 136.24,200.48 137.09,198.06 138.05,195.7 139.11,193.4 140.29,191.14 141.57,188.94 142.96,186.8 144.45,184.7 146.03,182.64 147.68,180.62 149.4,178.64 151.17,176.68 152.98,174.74 154.8,172.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="154.8" y1="172.8" x2="162.03" y2="158.08" stroke="#222222" stroke-width="1.4"/>
+<polygon points="166,150 165.18,160.74 158,157.21" fill="#222222"/>
+</svg>

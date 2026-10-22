@@ -9,8 +9,8 @@
  * (whose symbols live in scripts/figures/circuit.js), the magnetic-force figures
  * of chapter 22, the induction and AC-circuit figures of chapter 23, the
  * electromagnetic-wave figures of chapter 24, the ray-optics figures of
- * chapter 25, the vision and optical-instrument figures of chapter 26, and the
- * electromagnetic
+ * chapter 25, the vision and optical-instrument figures of chapter 26, the
+ * wave-optics figures of chapter 27, and the electromagnetic
  * spectrum of section 29.3, plus the figures in the answers to
  * the Conceptual Questions of chapters 1–9 (scripts/figures/concepts.js) and
  * chapters 21–25 (scripts/figures/concepts21to25.js), and the field-line and
@@ -51,6 +51,7 @@ import ch23 from './figures/ch23.js';
 import ch24 from './figures/ch24.js';
 import ch25 from './figures/ch25.js';
 import ch26 from './figures/ch26.js';
+import ch27 from './figures/ch27.js';
 import ch29 from './figures/ch29.js';
 import concepts from './figures/concepts.js';
 import concepts21to25 from './figures/concepts21to25.js';
@@ -85,6 +86,7 @@ const figures = {
   ...ch24,
   ...ch25,
   ...ch26,
+  ...ch27,
   ...ch29,
   ...concepts,
   ...concepts21to25,

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img" aria-labelledby="title desc">
+<title id="title">Diffraction grating orders</title>
+<desc id="desc">(a) White light falls on a diffraction grating, a barrier with many evenly spaced slits, and leaves in several directions. (b) Straight through is the central white maximum; on either side are first-order rainbows and, farther out, fainter and broader second-order rainbows.</desc>
+<rect width="880" height="520" fill="#ffffff"/>
+<rect x="130" y="140" width="20" height="88" fill="#e9d7ad" stroke="#b8a073" stroke-width="1"/>
+<rect x="130" y="236" width="20" height="8" fill="#e9d7ad" stroke="#b8a073" stroke-width="1"/>
+<rect x="130" y="252" width="20" height="8" fill="#e9d7ad" stroke="#b8a073" stroke-width="1"/>
+<rect x="130" y="268" width="20" height="8" fill="#e9d7ad" stroke="#b8a073" stroke-width="1"/>
+<rect x="130" y="284" width="20" height="8" fill="#e9d7ad" stroke="#b8a073" stroke-width="1"/>
+<rect x="130" y="300" width="20" height="80" fill="#e9d7ad" stroke="#b8a073" stroke-width="1"/>
+<line x1="10" y1="264" x2="128" y2="264" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="70.8" y1="264" x2="78.2" y2="264" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="86.8,264 77.2,267.84 77.2,260.16" fill="#1fa8d8"/>
+<line x1="152" y1="250.08" x2="452" y2="90" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="434.18" y1="99.51" x2="440.71" y2="96.03" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="448.29,91.98 441.63,99.89 438.02,93.11" fill="#1fa8d8"/>
+<rect x="480" y="69.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="0.5"/>
+<rect x="480" y="75.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="0.5"/>
+<rect x="480" y="81.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="0.5"/>
+<rect x="480" y="87.0" width="50" height="6" fill="rgb(129,255,0)" fill-opacity="0.5"/>
+<rect x="480" y="93.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="0.5"/>
+<rect x="480" y="99.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="0.5"/>
+<rect x="480" y="105.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="0.5"/>
+<text x="550" y="85.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Second</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">order</tspan></text>
+<text x="550" y="111.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rainbow</tspan></text>
+<line x1="152" y1="257.28" x2="452" y2="180" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="433.32" y1="184.81" x2="440.48" y2="182.97" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="448.81,180.82 440.47,186.94 438.56,179.5" fill="#1fa8d8"/>
+<rect x="480" y="159.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="1"/>
+<rect x="480" y="165.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="1"/>
+<rect x="480" y="171.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="1"/>
+<rect x="480" y="177.0" width="50" height="6" fill="rgb(129,255,0)" fill-opacity="1"/>
+<rect x="480" y="183.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="1"/>
+<rect x="480" y="189.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="1"/>
+<rect x="480" y="195.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="1"/>
+<text x="550" y="175.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">First</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">order</tspan></text>
+<text x="550" y="201.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rainbow</tspan></text>
+<line x1="152" y1="264" x2="452" y2="264" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="433" y1="264" x2="440.4" y2="264" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="449,264 439.4,267.84 439.4,260.16" fill="#1fa8d8"/>
+<rect x="480" y="252" width="50" height="24" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<text x="550" y="259.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Central</tspan></text>
+<text x="550" y="285.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">white</tspan></text>
+<line x1="152" y1="270.88" x2="452" y2="350" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="433.33" y1="345.08" x2="440.49" y2="346.96" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="448.8,349.16 438.54,350.42 440.5,343" fill="#1fa8d8"/>
+<rect x="480" y="329.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="1"/>
+<rect x="480" y="335.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="1"/>
+<rect x="480" y="341.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="1"/>
+<rect x="480" y="347.0" width="50" height="6" fill="rgb(129,255,0)" fill-opacity="1"/>
+<rect x="480" y="353.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="1"/>
+<rect x="480" y="359.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="1"/>
+<rect x="480" y="365.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="1"/>
+<text x="550" y="345.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">First</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">order</tspan></text>
+<text x="550" y="371.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rainbow</tspan></text>
+<line x1="152" y1="278.08" x2="452" y2="440" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="434.2" y1="430.39" x2="440.71" y2="433.91" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="448.28,437.99 438.01,436.81 441.66,430.05" fill="#1fa8d8"/>
+<rect x="480" y="419.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="0.5"/>
+<rect x="480" y="425.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="0.5"/>
+<rect x="480" y="431.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="0.5"/>
+<rect x="480" y="437.0" width="50" height="6" fill="rgb(129,255,0)" fill-opacity="0.5"/>
+<rect x="480" y="443.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="0.5"/>
+<rect x="480" y="449.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="0.5"/>
+<rect x="480" y="455.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="0.5"/>
+<text x="550" y="435.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Second</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">order</tspan></text>
+<text x="550" y="461.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rainbow</tspan></text>
+<text x="140" y="487" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="600" y="507" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>
