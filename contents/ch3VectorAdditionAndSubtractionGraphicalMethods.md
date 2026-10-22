@@ -508,7 +508,7 @@ get from San Francisco to Sacramento, explain why he could end up
 anywhere on the circle shown in [Figure 19](#Figure19).
 What other information would he need to get to Sacramento?
 
-![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19.jpg)
+![A schematic displacement diagram with a circle of radius 123 km centered on San Francisco. Sacramento lies on the circumference 45 degrees north of east. A compass indicates the cardinal directions.](/resources/Figure_03_02_19.svg)
 {: #Figure19 height="300"}
 
 ::::

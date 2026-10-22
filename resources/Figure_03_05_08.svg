@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+<title id="title">Hockey player shoots backward relative to north to hit an eastward goal</title>
+<desc id="desc">Player velocity is 8.00 m/s north. The puck velocity relative to the player is 29.0 m/s, with components about 27.9 m/s east and 8.00 m/s south. Head-to-tail addition gives a purely eastward velocity toward the center of the goal. θ is measured from north, about 106°.</desc>
+<rect width="720" height="400" fill="#ffffff"/>
+<line x1="159" y1="225" x2="631" y2="225" stroke="#333333" stroke-width="1.5"/>
+<polygon points="640,225 630,229 630,221" fill="#333333"/>
+<line x1="185" y1="316" x2="185" y2="65" stroke="#333333" stroke-width="1.5"/>
+<polygon points="185,56 189,66 181,66" fill="#333333"/>
+<text x="644" y="247.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="171" y="68.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<rect x="547.37" y="193" width="48" height="64" fill="#fff" stroke="#cc0000" stroke-width="3"/>
+<line x1="547.37" y1="209" x2="595.37" y2="209" stroke="#cc0000" stroke-width="1"/>
+<line x1="559.37" y1="193" x2="559.37" y2="257" stroke="#cc0000" stroke-width="1"/>
+<line x1="547.37" y1="225" x2="595.37" y2="225" stroke="#cc0000" stroke-width="1"/>
+<line x1="571.37" y1="193" x2="571.37" y2="257" stroke="#cc0000" stroke-width="1"/>
+<line x1="547.37" y1="241" x2="595.37" y2="241" stroke="#cc0000" stroke-width="1"/>
+<line x1="583.37" y1="193" x2="583.37" y2="257" stroke="#cc0000" stroke-width="1"/>
+<text x="610.37" y="230.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Goal</tspan></text>
+<circle cx="168" cy="208.8" r="8.8" fill="#5ba3d0" stroke="#8b4513" stroke-width="1.65"/>
+<line x1="168" y1="217.6" x2="168" y2="235.2" stroke="#8b4513" stroke-width="2.75"/>
+<line x1="168" y1="235.2" x2="161.4" y2="252.8" stroke="#8b4513" stroke-width="2.75"/>
+<line x1="168" y1="235.2" x2="174.6" y2="252.8" stroke="#8b4513" stroke-width="2.75"/>
+<line x1="168" y1="224.2" x2="181.2" y2="233" stroke="#8b4513" stroke-width="2.75"/>
+<line x1="168" y1="224.2" x2="159.2" y2="230.8" stroke="#8b4513" stroke-width="2.75"/>
+<line x1="177" y1="239" x2="187" y2="226" stroke="#8b6f47" stroke-width="3"/>
+<circle cx="185" cy="225" r="4" fill="#222222"/>
+<line x1="185" y1="225" x2="185" y2="134" stroke="#5cb531" stroke-width="3.5"/>
+<polygon points="185,121 190.6,135 179.4,135" fill="#5cb531"/>
+<line x1="185" y1="121" x2="534.88" y2="221.41" stroke="#7b1145" stroke-width="3.5"/>
+<polygon points="547.37,225 532.37,226.52 535.46,215.76" fill="#7b1145"/>
+<line x1="185" y1="225" x2="534.37" y2="225" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="547.37,225 533.37,230.6 533.37,219.4" fill="#8e4f8e"/>
+<text x="157" y="169.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.16" font-weight="normal" dx="-10.08" dy="-9.36">→</tspan><tspan dx="-1.08" dy="9.36">​</tspan></tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">player</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="157" y="192.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8.00 </tspan><tspan font-style="normal">m/s</tspan></text>
+<text x="372.81" y="156.23" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.16" font-weight="normal" dx="-10.08" dy="-9.36">→</tspan><tspan dx="-1.08" dy="9.36">​</tspan></tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">puck</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = 29.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<text x="366.19" y="259.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.16" font-weight="normal" dx="-10.08" dy="-9.36">→</tspan><tspan dx="-1.08" dy="9.36">​</tspan></tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="366.19" y="281.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">relative to ice</tspan></text>
+<line x1="185" y1="121" x2="185" y2="65.1" stroke="#222222" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="185" y1="121" x2="547.37" y2="121" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M 225.37 132.59 A 42 42 0 0 0 185 79" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="239.31" y="86.38" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = ?</tspan></text>
+<polyline points="199,225 199,211 185,211" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="636" y1="90" x2="684" y2="90" stroke="#333333" stroke-width="1.3"/>
+<line x1="660" y1="114" x2="660" y2="74" stroke="#333333" stroke-width="1.3"/>
+<polygon points="660,66 663.6,75 656.4,75" fill="#333333"/>
+<text x="660" y="60.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">N</tspan></text>
+<text x="660" y="130.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">S</tspan></text>
+<text x="690" y="95.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">E</tspan></text>
+<text x="630" y="95.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">W</tspan></text>
+<text x="360" y="33.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.78" font-weight="normal" dx="-10.64" dy="-9.88">→</tspan><tspan dx="-1.14" dy="9.88">​</tspan></tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">player</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> + </tspan><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.78" font-weight="normal" dx="-10.64" dy="-9.88">→</tspan><tspan dx="-1.14" dy="9.88">​</tspan></tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">puck</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = </tspan><tspan font-weight="bold" font-style="normal">v<tspan font-size="11.78" font-weight="normal" dx="-10.64" dy="-9.88">→</tspan><tspan dx="-1.14" dy="9.88">​</tspan></tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-5.32">​</tspan></text>
+</svg>

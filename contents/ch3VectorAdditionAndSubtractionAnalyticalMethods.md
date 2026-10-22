@@ -725,7 +725,7 @@ The total distance (1560 m) is much greater than the displacement magnitude (646
 
 Find the north and east components of the displacement from San Francisco to Sacramento shown in [Figure 12](#Figure12).
 
-![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_03_12.jpg)
+![A schematic displacement diagram with a circle of radius 123 km centered on San Francisco. Sacramento lies on the circumference 45 degrees north of east. A compass indicates the cardinal directions.](/resources/Figure_03_03_12.svg)
 {: #Figure12}
 
 ::::

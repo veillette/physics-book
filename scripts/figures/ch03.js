@@ -1244,6 +1244,433 @@ export default {
     f.text([v[0], v[1] / 2], '**v**_y', { dx: 14, size: 20, anchor: 'start' });
     return svg.render();
   },
+
+  // 3.2 / 3.3 — shared displacement diagram
+  Figure_03_02_19: () => sanFranciscoSacramentoMap(),
+  Figure_03_03_12: () => sanFranciscoSacramentoMap(),
+
+  // 3.4 — displacement and its components on a projectile trajectory
+  Figure_03_04_01: () => {
+    const svg = new Svg({
+      width: 540,
+      height: 340,
+      title: 'Soccer ball projectile trajectory',
+      desc: 'A soccer player kicks a ball along a parabola. The displacement s to a ball on the descending path makes angle θ above horizontal, with horizontal component x and vertical component y.',
+    });
+    const f = new Frame(svg, { ox: 80, oy: 280, scale: 30 });
+    f.axes({ xMin: 0, xMax: 14, yMin: 0, yMax: 8, xLabel: 'x', yLabel: 'y' });
+    const v0 = 12;
+    const vx = v0 * Math.cos(rad(60));
+    const vy0 = v0 * Math.sin(rad(60));
+    const g = 9.8;
+    const tMax = (2 * vy0) / g;
+    const position = t => [vx * t, vy0 * t - 0.5 * g * t * t];
+    svg.polyline(
+      Array.from({ length: 61 }, (_, k) => f.p(...position((tMax * k) / 60))),
+      {
+        color: RED,
+        width: 2.5,
+      }
+    );
+    drawPerson(svg, 62, 268, { size: 1.2, bodyColor: '#5ba3d0', facing: 'right' });
+    const [x, y] = position(tMax * 0.65);
+    f.vec([0, 0], [x, 0], { color: VEC, width: 2.5, head: 12, dash: '5 4' });
+    f.vec([x, 0], [x, y], { color: VEC, width: 2.5, head: 12, dash: '5 4' });
+    f.vec([0, 0], [x, y], { color: VEC, width: 3.5, head: 14 });
+    f.rightAngle([x, 0], 180, 90, 12);
+    f.angle([0, 0], 0, dir([x, y]), 45, 'θ', { labelR: 65, size: 18 });
+    f.text([x / 2, 0], 'x', { dy: 22, size: 20 });
+    f.text([x, y / 2], 'y', { dx: 20, size: 20 });
+    f.labelSeg([0, 0], [x, y], '**s**', { off: 18, along: 0.65, size: 20 });
+    // Successive positions and the black panels retain the soccer-ball context.
+    for (const fraction of [0.16, 0.32, 0.48, 0.65]) {
+      const [px, py] = f.p(...position(tMax * fraction));
+      svg.circle(px, py, 9, { fill: '#ffffff', stroke: BLACK, width: 1.8 });
+      svg.polygon(
+        Array.from({ length: 5 }, (_, k) => [
+          px + 3.5 * Math.cos(rad(72 * k - 90)),
+          py + 3.5 * Math.sin(rad(72 * k - 90)),
+        ]),
+        { fill: BLACK }
+      );
+      for (let angle = -90; angle < 270; angle += 72) {
+        svg.line(
+          px + 3.5 * Math.cos(rad(angle)),
+          py + 3.5 * Math.sin(rad(angle)),
+          px + 8.5 * Math.cos(rad(angle)),
+          py + 8.5 * Math.sin(rad(angle)),
+          { color: BLACK, width: 1 }
+        );
+      }
+    }
+    return svg.render();
+  },
+
+  // 3.4 — the hot-rock example, with one scale for positions and one for velocities
+  Figure_03_04_04: () => {
+    const svg = new Svg({
+      width: 740,
+      height: 430,
+      title: 'Volcano rock trajectory',
+      desc: 'A rock launches at 25.0 m/s, 35° above horizontal, and strikes the slope 20.0 m below launch after about 3.96 s. The impact velocity points about 50.1° below horizontal. Both velocity arrows share a scale.',
+    });
+    const vx = 25 * Math.cos(rad(35));
+    const vy0 = 25 * Math.sin(rad(35));
+    const g = 9.8;
+    const yEnd = -20;
+    const t = (vy0 + Math.sqrt(vy0 * vy0 - 2 * g * yEnd)) / g;
+    const xEnd = vx * t;
+    const vyEnd = vy0 - g * t;
+    const f = new Frame(svg, { ox: 85, oy: 130, scale: 5.5 });
+    const terrain = [
+      [-10, -4],
+      [-5, -2],
+      [0, 0],
+      [7, -2],
+      [14, -6],
+      [28, -9],
+      [45, -12],
+      [62, -16],
+      [xEnd, yEnd],
+      [105, -20],
+      [105, -48],
+      [-10, -48],
+    ];
+    svg.polygon(
+      terrain.map(p => f.p(...p)),
+      { fill: '#d4a373', stroke: '#8b6f47', width: 1.8 }
+    );
+    svg.polygon(
+      [
+        [28, -9],
+        [45, -12],
+        [62, -16],
+        [xEnd, yEnd],
+        [105, -20],
+        [105, -25],
+        [xEnd, -24],
+        [62, -20],
+        [45, -16],
+      ].map(p => f.p(...p)),
+      { fill: '#9fc784', stroke: 'none' }
+    );
+    svg.xyIndicator(34, 85, { len: 35, size: 16 });
+    f.line([0, 0], [xEnd + 15, 0], { color: BLACK, width: 1.2, dash: '5 4' });
+    f.line([xEnd, yEnd], [xEnd + 15, yEnd], { color: BLACK, width: 1.2, dash: '5 4' });
+    svg.vdimension(...f.p(xEnd + 15, 0), f.p(0, yEnd)[1], '', { tick: 14 });
+    f.text([xEnd + 15, yEnd / 2], '20.0 \\rm{m}', { dx: 16, size: 17, anchor: 'start' });
+    svg.polyline(
+      Array.from({ length: 61 }, (_, k) => {
+        const tk = (t * k) / 60;
+        return f.p(vx * tk, vy0 * tk - 0.5 * g * tk * tk);
+      }),
+      { color: RED, width: 2.8 }
+    );
+    svg.circle(...f.p(0, 0), 4, { fill: BLACK });
+    svg.polygon(
+      [
+        [-1.8, 0],
+        [-1.2, 1.2],
+        [0.5, 1.4],
+        [1.7, 0.2],
+        [1, -1.1],
+        [-1, -1.3],
+      ].map(([x, y]) => f.p(xEnd + x, yEnd + y)),
+      { fill: '#a69c86', stroke: '#756b59' }
+    );
+    const vScale = 0.65;
+    f.vec([0, 0], [vx * vScale, vy0 * vScale], { color: VEC, width: 3, head: 13 });
+    f.vec([xEnd, yEnd], [xEnd + vx * vScale, yEnd + vyEnd * vScale], {
+      color: VEC,
+      width: 3,
+      head: 13,
+    });
+    f.angle([0, 0], 0, 35, 40, '35°', { labelR: 62, size: 16 });
+    // Svg.arc sweeps counterclockwise: start below horizontal for the small impact angle.
+    f.angle([xEnd, yEnd], dir([vx, vyEnd]), 0, 32, 'θ', { labelR: 48, size: 18 });
+    f.text([vx * vScale * 0.6, vy0 * vScale * 0.6], '**v**_0 = 25.0 \\rm{m/s}', {
+      dx: 22,
+      dy: -34,
+      size: 17,
+    });
+    f.text([xEnd + vx * vScale * 0.6, yEnd + vyEnd * vScale * 0.6], '**v**', {
+      dx: -18,
+      dy: 8,
+      size: 20,
+    });
+    return svg.render();
+  },
+
+  // 3.5 — the ship frame and the shore frame show the same landing event
+  Figure_03_05_05: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 430,
+      title: 'Binoculars dropped from a moving ship',
+      desc: 'Left: in the ship frame, binoculars fall vertically onto the mast base. Right: in the shore frame, a faded ship marks release and a solid ship marks impact. The binoculars follow a parabola to the advancing mast base.',
+    });
+    svg.rect(0, 300, 760, 130, { fill: '#5ba3d0' });
+    svg.rect(0, 365, 760, 65, { fill: '#3d7ba8' });
+    for (const y of [352, 382, 412]) {
+      svg.polyline(
+        Array.from({ length: 191 }, (_, k) => [4 * k, y + 4 * Math.sin(k / 4)]),
+        { color: '#bce6f5', width: 1.8 }
+      );
+    }
+    svg.line(355, 50, 355, 345, { color: '#a0a0a0', width: 1, dash: '4 4' });
+    svg.text(175, 28, '(a) Observer on ship', { size: 18, math: false, weight: 'bold' });
+    svg.text(550, 28, '(b) Observer on shore', { size: 18, math: false, weight: 'bold' });
+    const top = 125;
+    const deck = 290;
+    function ship(mastX, faded = false) {
+      const art = svg.capture(() => {
+        svg.polygon(
+          [
+            [mastX - 85, deck],
+            [mastX + 90, deck],
+            [mastX + 65, 324],
+            [mastX - 60, 324],
+          ],
+          { fill: '#cd8b62', stroke: '#8b5a3c', width: 2 }
+        );
+        svg.line(mastX, deck, mastX, top - 15, { color: '#5d4e37', width: 4 });
+        svg.polygon(
+          [
+            [mastX + 5, top + 8],
+            [mastX + 65, deck - 8],
+            [mastX + 5, deck - 8],
+          ],
+          { fill: '#f4e7d7', stroke: '#8b7355', width: 1.5 }
+        );
+        svg.polygon(
+          [
+            [mastX - 7, top + 20],
+            [mastX - 60, deck - 8],
+            [mastX - 7, deck - 8],
+          ],
+          { fill: '#f9eddc', stroke: '#8b7355', width: 1.5 }
+        );
+        drawPerson(svg, mastX - 12, top - 5, { size: 0.65, bodyColor: '#89c5e8', facing: 'right' });
+      });
+      svg.add(
+        `<g opacity="${faded ? 0.3 : 1}" aria-label="${faded ? 'Ship at release' : 'Ship at impact'}">${art}</g>`
+      );
+    }
+    ship(180);
+    const initialMast = 465;
+    const advance = 175;
+    ship(initialMast, true);
+    ship(initialMast + advance);
+    svg.polyline(
+      [
+        [180, top],
+        [180, deck],
+      ],
+      { color: BLUE, width: 2.8, dash: '6 4' }
+    );
+    const path = Array.from({ length: 41 }, (_, k) => {
+      const t = k / 40;
+      return [initialMast + advance * t, top + (deck - top) * t * t];
+    });
+    svg.polyline(path, { color: RED, width: 2.8, dash: '6 4' });
+    for (const t of [0, 0.35, 0.7, 1]) {
+      binoculars(svg, 180, top + (deck - top) * t * t);
+      binoculars(svg, initialMast + advance * t, top + (deck - top) * t * t);
+    }
+    svg.arrow(180, 185, 180, 228, { color: BLUE, width: 2.5, head: 11 });
+    svg.arrow(initialMast, 345, initialMast + advance, 345, { color: BLACK, width: 2, head: 12 });
+    svg.text(550, 364, 'Ship advances during the fall', { size: 14, math: false });
+    svg.text(initialMast, 65, 'Release', { size: 14, math: false });
+    svg.text(initialMast + advance, 65, 'Impact', { size: 14, math: false });
+    svg.rect(0, 392, 118, 38, { fill: '#7cb665' });
+    drawPerson(svg, 64, 409, { size: 0.9, bodyColor: '#e89', facing: 'right' });
+    return svg.render();
+  },
+
+  // 3.5 — magnified cabin inset and an equal-scale Earth-frame trajectory
+  Figure_03_05_06: () => {
+    const svg = new Svg({
+      width: 780,
+      height: 500,
+      title: 'Coin dropped in an airplane, viewed in two frames',
+      desc: 'A magnified cabin shows a vertical 1.50 m drop in the plane frame. In the ground frame the plane advances about 144 m while the coin falls 1.50 m along a nearly horizontal parabola, ending at the floor of the advanced cabin. Ground-frame horizontal and vertical distances use the same scale.',
+    });
+    svg.text(390, 25, '(a) Observer in plane — magnified cabin', {
+      size: 18,
+      math: false,
+      weight: 'bold',
+    });
+    svg.rect(90, 55, 230, 145, { fill: '#eeeeee', stroke: '#666666', width: 2 });
+    svg.rect(105, 65, 85, 42, { fill: '#b8d4f0', stroke: '#6699cc', width: 1.5 });
+    svg.rect(210, 65, 95, 42, { fill: '#b8d4f0', stroke: '#6699cc', width: 1.5 });
+    svg.rect(110, 143, 55, 13, { fill: '#d4a373', stroke: '#8b6f47' });
+    svg.line(110, 156, 110, 190, { color: '#666666', width: 3 });
+    drawPerson(svg, 150, 145, { size: 0.9, bodyColor: '#f4a9b8', facing: 'right', sitting: true });
+    const release = 125;
+    const floor = 190;
+    svg.line(95, floor, 315, floor, { color: '#666666', width: 3 });
+    svg.polyline(
+      [
+        [188, release],
+        [188, floor],
+      ],
+      { color: RED, width: 2.5, dash: '4 3' }
+    );
+    for (const t of [0, 0.5, 1])
+      svg.circle(188, release + (floor - release) * t * t, 3, {
+        fill: '#ffd700',
+        stroke: '#946300',
+        width: 1,
+      });
+    svg.arrow(210, 142, 210, 182, { color: BLUE, width: 2.5, head: 10 });
+    svg.text(235, 162, '**v**', { size: 18 });
+    svg.vdimension(350, release, floor, '', { tick: 12 });
+    svg.text(370, 155, '1.50 \\rm{m}', { size: 16, anchor: 'start' });
+    svg.text(480, 120, 'v_y = −5.42 \\rm{m/s}', { size: 18, anchor: 'start' });
+    svg.text(480, 150, 'Straight down to the floor', { size: 16, math: false, anchor: 'start' });
+    svg.text(390, 235, '(b) Observer on ground — equal distance scales', {
+      size: 18,
+      math: false,
+      weight: 'bold',
+    });
+    const g = 9.8;
+    const duration = Math.sqrt((2 * 1.5) / g);
+    const scale = 2.8;
+    const advance = 260 * duration * scale;
+    const coinX = 170;
+    const coinY = 325.8;
+    const floorY = coinY + 1.5 * scale;
+    function plane(x, faded = false) {
+      const art = svg.capture(() => {
+        svg.polygon(
+          [
+            [x, 303],
+            [x + 25, 309],
+            [x + 190, 309],
+            [x + 230, 326],
+            [x + 194, 342],
+            [x + 20, 342],
+            [x + 7, 333],
+          ],
+          { fill: '#eeeeee', stroke: '#666666', width: 1.5 }
+        );
+        svg.polygon(
+          [
+            [x + 80, 337],
+            [x + 125, 366],
+            [x + 145, 366],
+            [x + 120, 337],
+          ],
+          { fill: '#bbbbbb', stroke: '#777777', width: 1.2 }
+        );
+        for (let wx = 45; wx <= 180; wx += 23)
+          svg.rect(x + wx, 314, 12, 7, { fill: '#b8d4f0', stroke: '#6699cc', width: 0.8 });
+        svg.line(x + 90, floorY, x + 170, floorY, { color: '#555555', width: 1.6 });
+        drawPerson(svg, x + 123, floorY - 2, { size: 0.16, bodyColor: '#f4a9b8', facing: 'right' });
+      });
+      svg.add(
+        `<g opacity="${faded ? 0.35 : 1}" aria-label="Plane at ${faded ? 'release' : 'impact'}">${art}</g>`
+      );
+    }
+    plane(40, true);
+    plane(40 + advance);
+    const path = Array.from({ length: 61 }, (_, k) => {
+      const t = (duration * k) / 60;
+      return [coinX + scale * 260 * t, coinY + scale * 0.5 * g * t * t];
+    });
+    svg.polyline(path, { color: RED, width: 2.5 });
+    svg.circle(coinX, coinY, 3, { fill: '#ffd700', stroke: '#946300', width: 1 });
+    svg.circle(coinX + advance, floorY, 3, { fill: '#ffd700', stroke: '#946300', width: 1 });
+    svg.arrow(540, 275, 650, 275, { color: BLUE, width: 2.5, head: 12 });
+    svg.text(595, 258, '260 \\rm{m/s}', { size: 16 });
+    svg.text(170, 286, 'Release', { size: 14, math: false });
+    svg.text(coinX + advance, 390, 'Coin reaches cabin floor', { size: 15, math: false });
+    svg.leader(coinX + advance, 376, coinX + advance, floorY + 4, { bend: 0.12 });
+    svg.text(355, 410, '≈144 m forward; 1.50 m down', { size: 16, math: false });
+    svg.rect(0, 478, 780, 22, { fill: '#7cb665' });
+    drawPerson(svg, 70, 470, { size: 0.9, bodyColor: '#ffa07a', facing: 'right' });
+    return svg.render();
+  },
+
+  // 3.5 — signed distances and recession velocities relative to the Milky Way
+  Figure_03_05_07: () => {
+    const svg = new Svg({
+      width: 1150,
+      height: 210,
+      title: 'Five galaxies along a line showing Hubble expansion',
+      desc: 'Galaxies 1 and 2 lie 300 and 150 Mly left of the Milky Way; galaxies 4 and 5 lie 190 and 450 Mly right. Velocities are −4500, −2200, 0, +2830, and +6700 km/s. Positions and velocity arrows each share a scale.',
+    });
+    svg.line(45, 105, 1125, 105, { color: '#999999', width: 1, dash: '3 5' });
+    const galaxies = [
+      { d: -300, v: -4500, label: '1' },
+      { d: -150, v: -2200, label: '2' },
+      { d: 0, v: 0, label: '3' },
+      { d: 190, v: 2830, label: '4' },
+      { d: 450, v: 6700, label: '5' },
+    ];
+    for (const galaxy of galaxies) {
+      const x = 470 + 1.25 * galaxy.d;
+      drawGalaxy(svg, x, 105);
+      svg.text(x, 28, `Galaxy ${galaxy.label}`, { size: 17, math: false });
+      svg.text(x, 52, galaxy.d === 0 ? 'MW' : `${Math.abs(galaxy.d)} Mly`, {
+        size: 16,
+        math: false,
+      });
+      if (galaxy.v)
+        svg.arrow(x, 105, x + 0.012 * galaxy.v, 105, { color: VEL3, width: 3, head: 9 });
+      svg.text(x, 175, `v_{${galaxy.label}} = ${galaxy.v} \\rm{km/s}`, { size: 16 });
+    }
+    return svg.render();
+  },
+
+  // 3.5 — player plus southeast puck velocity gives an eastward resultant
+  Figure_03_05_08: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 400,
+      title: 'Hockey player shoots backward relative to north to hit an eastward goal',
+      desc: 'Player velocity is 8.00 m/s north. The puck velocity relative to the player is 29.0 m/s, with components about 27.9 m/s east and 8.00 m/s south. Head-to-tail addition gives a purely eastward velocity toward the center of the goal. θ is measured from north, about 106°.',
+    });
+    const f = new Frame(svg, { ox: 185, oy: 225, scale: 13 });
+    f.axes({ xMin: -2, xMax: 35, yMin: -7, yMax: 13, xLabel: 'x', yLabel: 'y' });
+    const vx = Math.sqrt(29 ** 2 - 8 ** 2);
+    const origin = [0, 0];
+    const playerTip = [0, 8];
+    const resultTip = [vx, 0];
+    const [goalX, goalY] = f.p(...resultTip);
+    svg.rect(goalX, goalY - 32, 48, 64, { fill: '#fff', stroke: '#cc0000', width: 3 });
+    for (let k = 1; k < 4; k += 1) {
+      svg.line(goalX, goalY - 32 + 16 * k, goalX + 48, goalY - 32 + 16 * k, {
+        color: '#cc0000',
+        width: 1,
+      });
+      svg.line(goalX + 12 * k, goalY - 32, goalX + 12 * k, goalY + 32, {
+        color: '#cc0000',
+        width: 1,
+      });
+    }
+    svg.text(goalX + 63, goalY, 'Goal', { size: 17, math: false, anchor: 'start' });
+    drawPerson(svg, 168, 244, { size: 1.1, bodyColor: '#5ba3d0', facing: 'right' });
+    svg.line(177, 239, 187, 226, { color: '#8b6f47', width: 3 });
+    svg.circle(...f.p(...origin), 4, { fill: BLACK });
+    f.vec(origin, playerTip, { color: VEL3, width: 3.5, head: 14 });
+    f.vec(playerTip, resultTip, { color: MAROON, width: 3.5, head: 14 });
+    f.vec(origin, resultTip, { color: VEC, width: 3.5, head: 14 });
+    f.text([0, 4], '**v**_{\\rm{player}}', { dx: -28, dy: -10, size: 18, anchor: 'end' });
+    f.text([0, 4], '8.00 \\rm{m/s}', { dx: -28, dy: 14, size: 16, anchor: 'end' });
+    f.labelSeg(playerTip, resultTip, '**v**_{\\rm{puck}} = 29.0 \\rm{m/s}', { off: 24, size: 18 });
+    f.text([vx / 2, 0], '**v**_{\\rm{tot}}', { dy: 28, size: 18 });
+    f.text([vx / 2, 0], '\\rm{relative to ice}', { dy: 51, size: 16 });
+    f.line(playerTip, [0, 12.3], { color: BLACK, width: 1.2, dash: '4 3' });
+    f.line(playerTip, [vx, 8], { color: '#888888', width: 1, dash: '4 3' });
+    f.angle(playerTip, dir([vx, -8]), 90, 42, 'θ = ?', { labelR: 68, size: 18 });
+    f.rightAngle(origin, 0, 90, 14);
+    svg.compass(660, 90, { r: 24, size: 15 });
+    svg.text(360, 27, '**v**_{\\rm{player}} + **v**_{\\rm{puck}} = **v**_{\\rm{tot}}', {
+      size: 19,
+    });
+    return svg.render();
+  },
 };
 
 const VEL3 = '#5cb531';
@@ -1507,4 +1934,92 @@ function projectileComponents() {
     `<circle cx="${dx}" cy="${dy}" r="18" fill="none" stroke="${PURPLE}" stroke-width="3" opacity="0">${smilAnimate('opacity', [0, 0, 1, 0], { dur: DUR, keyTimes: [0, 0.78, 0.92, 1] })}</circle>`
   );
   return svg.render();
+}
+
+/** San Francisco to Sacramento map (Figures 3.2.19 and 3.3.12). */
+function sanFranciscoSacramentoMap() {
+  const svg = new Svg({
+    width: 460,
+    height: 420,
+    title: 'San Francisco to Sacramento displacement',
+    desc: 'A circle of radius 123 km centered on San Francisco. Sacramento lies on the circumference at 45° north of east. A compass rose shows cardinal directions.',
+  });
+  const cx = 200;
+  const cy = 220;
+  const r = 123;
+  const scale = 1.3;
+  const rPx = r * scale;
+  svg.circle(cx, cy, rPx, { fill: 'none', stroke: BLACK, width: 2 });
+  svg.circle(cx, cy, 5, { fill: RED, stroke: 'none' });
+  svg.text(cx, cy + 20, 'San Francisco', { size: 15, anchor: 'middle', math: false });
+  const angle = 45;
+  const sacX = cx + rPx * Math.cos(rad(angle));
+  const sacY = cy - rPx * Math.sin(rad(angle));
+  svg.circle(sacX, sacY, 5, { fill: RED, stroke: 'none' });
+  svg.text(sacX, sacY - 12, 'Sacramento', { size: 15, anchor: 'middle', math: false });
+  svg.arrow(cx, cy, sacX, sacY, { color: BLUE, width: 3, head: 14 });
+  svg.text((cx + sacX) / 2 - 30, (cy + sacY) / 2 - 28, 'S', { size: 18, weight: 'bold' });
+  svg.text((cx + sacX) / 2 - 30, (cy + sacY) / 2 - 10, 'S = 123 km', {
+    size: 14,
+    anchor: 'middle',
+    math: false,
+  });
+  const arcR = 50;
+  svg.arc(cx, cy, arcR, 0, angle, { color: BLACK, width: 1.5 });
+  svg.text(cx + arcR + 22, cy - 10, '45°', { size: 15, math: false });
+  svg.text(cx + 120, cy + 16, 'East', { size: 14, math: false });
+  svg.line(cx, cy, cx + 120, cy, { color: BLACK, width: 1.5, dash: '5 4' });
+  svg.compass(395, 65, { r: 32, size: 16 });
+  return svg.render();
+}
+
+/** Helper to draw a simple stick figure person. */
+function drawPerson(
+  svg,
+  x,
+  y,
+  { size = 1, bodyColor = '#ffa07a', facing = 'left', sitting = false } = {}
+) {
+  const s = size;
+  svg.circle(x, y - 32 * s, 8 * s, { fill: bodyColor, stroke: '#8b4513', width: 1.5 * s });
+  svg.line(x, y - 24 * s, x, y - 8 * s, { color: '#8b4513', width: 2.5 * s });
+  if (sitting) {
+    svg.line(x, y - 8 * s, x - 10 * s, y, { color: '#8b4513', width: 2.5 * s });
+    svg.line(x, y - 8 * s, x + 10 * s, y, { color: '#8b4513', width: 2.5 * s });
+  } else {
+    svg.line(x, y - 8 * s, x - 6 * s, y + 8 * s, { color: '#8b4513', width: 2.5 * s });
+    svg.line(x, y - 8 * s, x + 6 * s, y + 8 * s, { color: '#8b4513', width: 2.5 * s });
+  }
+  const armDir = facing === 'right' ? 1 : -1;
+  svg.line(x, y - 18 * s, x + armDir * 12 * s, y - 10 * s, { color: '#8b4513', width: 2.5 * s });
+  svg.line(x, y - 18 * s, x - armDir * 8 * s, y - 12 * s, { color: '#8b4513', width: 2.5 * s });
+}
+
+/** Helper to draw a stylized spiral galaxy. */
+function drawGalaxy(svg, x, y) {
+  const spiral = [];
+  for (let t = 0; t <= 12; t += 0.2) {
+    const r = 2 + t * 1.5;
+    const angle = t * 0.8;
+    spiral.push([x + r * Math.cos(angle), y + r * Math.sin(angle)]);
+  }
+  svg.polyline(spiral, { color: '#9db4d0', width: 2, fill: 'none' });
+  const spiral2 = [];
+  for (let t = 0; t <= 12; t += 0.2) {
+    const r = 2 + t * 1.5;
+    const angle = t * 0.8 + Math.PI;
+    spiral2.push([x + r * Math.cos(angle), y + r * Math.sin(angle)]);
+  }
+  svg.polyline(spiral2, { color: '#9db4d0', width: 2, fill: 'none' });
+  svg.circle(x, y, 6, { fill: '#e8d4a0', stroke: 'none' });
+  svg.circle(x, y, 3, { fill: '#ffffff', stroke: 'none', opacity: 0.8 });
+}
+
+/** A recognizable binocular marker centered on the falling object's position. */
+function binoculars(svg, x, y) {
+  svg.line(x - 4, y, x + 4, y, { color: '#263e49', width: 3 });
+  for (const dx of [-4, 4]) {
+    svg.rect(x + dx - 2.5, y - 4, 5, 8, { fill: '#4a90a4', stroke: '#263e49', width: 1 });
+    svg.circle(x + dx, y + 3, 2.5, { fill: '#b8d4f0', stroke: '#263e49', width: 1 });
+  }
 }

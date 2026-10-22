@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="340" viewBox="0 0 540 340" role="img" aria-labelledby="title desc">
+<title id="title">Soccer ball projectile trajectory</title>
+<desc id="desc">A soccer player kicks a ball along a parabola. The displacement s to a ball on the descending path makes angle θ above horizontal, with horizontal component x and vertical component y.</desc>
+<rect width="540" height="340" fill="#ffffff"/>
+<line x1="80" y1="280" x2="491" y2="280" stroke="#333333" stroke-width="1.5"/>
+<polygon points="500,280 490,284 490,276" fill="#333333"/>
+<line x1="80" y1="280" x2="80" y2="49" stroke="#333333" stroke-width="1.5"/>
+<polygon points="80,40 84,50 76,50" fill="#333333"/>
+<text x="504" y="302.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="66" y="52.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<polyline points="80,280 86.36,269.16 92.73,258.69 99.09,248.59 105.45,238.86 111.81,229.49 118.18,220.49 124.54,211.86 130.9,203.59 137.26,195.69 143.63,188.16 149.99,181 156.35,174.2 162.71,167.78 169.08,161.71 175.44,156.02 181.8,150.69 188.16,145.73 194.53,141.14 200.89,136.92 207.25,133.06 213.62,129.57 219.98,126.45 226.34,123.69 232.7,121.31 239.07,119.29 245.43,117.63 251.79,116.35 258.15,115.43 264.52,114.88 270.88,114.69 277.24,114.88 283.6,115.43 289.97,116.35 296.33,117.63 302.69,119.29 309.05,121.31 315.42,123.69 321.78,126.45 328.14,129.57 334.51,133.06 340.87,136.92 347.23,141.14 353.59,145.73 359.96,150.69 366.32,156.02 372.68,161.71 379.04,167.78 385.41,174.2 391.77,181 398.13,188.16 404.49,195.69 410.86,203.59 417.22,211.86 423.58,220.49 429.94,229.49 436.31,238.86 442.67,248.59 449.03,258.69 455.4,269.16 461.76,280" fill="none" stroke="#c62828" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="62" cy="229.6" r="9.6" fill="#5ba3d0" stroke="#8b4513" stroke-width="1.8"/>
+<line x1="62" y1="239.2" x2="62" y2="258.4" stroke="#8b4513" stroke-width="3"/>
+<line x1="62" y1="258.4" x2="54.8" y2="277.6" stroke="#8b4513" stroke-width="3"/>
+<line x1="62" y1="258.4" x2="69.2" y2="277.6" stroke="#8b4513" stroke-width="3"/>
+<line x1="62" y1="246.4" x2="76.4" y2="256" stroke="#8b4513" stroke-width="3"/>
+<line x1="62" y1="246.4" x2="52.4" y2="253.6" stroke="#8b4513" stroke-width="3"/>
+<line x1="80" y1="280" x2="317.14" y2="280" stroke="#8e4f8e" stroke-width="2.5" stroke-dasharray="5 4"/>
+<polygon points="328.14,280 316.14,284.8 316.14,275.2" fill="#8e4f8e"/>
+<line x1="328.14" y1="280" x2="328.14" y2="140.57" stroke="#8e4f8e" stroke-width="2.5" stroke-dasharray="5 4"/>
+<polygon points="328.14,129.57 332.94,141.57 323.34,141.57" fill="#8e4f8e"/>
+<line x1="80" y1="280" x2="317.03" y2="136.31" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="328.14,129.57 319.07,141.62 313.27,132.04" fill="#8e4f8e"/>
+<polyline points="316.14,280 316.14,268 328.14,268" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 125 280 A 45 45 0 0 0 118.48 256.67" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="142.6" y="268.81" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="204.07" y="309" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="348.14" y="211.79" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<text x="231.96" y="173.83" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">s<tspan font-size="12.4" font-weight="normal" dx="-10.09" dy="-10.4">→</tspan><tspan dx="-2.31" dy="10.4">​</tspan></tspan></text>
+<circle cx="141.08" cy="191.13" r="9" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
+<polygon points="141.08,187.63 144.41,190.05 143.14,193.96 139.02,193.96 137.75,190.05" fill="#222222"/>
+<line x1="141.08" y1="187.63" x2="141.08" y2="182.63" stroke="#222222" stroke-width="1"/>
+<line x1="144.41" y1="190.05" x2="149.17" y2="188.5" stroke="#222222" stroke-width="1"/>
+<line x1="143.14" y1="193.96" x2="146.08" y2="198.01" stroke="#222222" stroke-width="1"/>
+<line x1="139.02" y1="193.96" x2="136.09" y2="198.01" stroke="#222222" stroke-width="1"/>
+<line x1="137.75" y1="190.05" x2="133" y2="188.5" stroke="#222222" stroke-width="1"/>
+<circle cx="202.16" cy="136.12" r="9" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
+<polygon points="202.16,132.62 205.49,135.04 204.22,138.95 200.11,138.95 198.83,135.04" fill="#222222"/>
+<line x1="202.16" y1="132.62" x2="202.16" y2="127.62" stroke="#222222" stroke-width="1"/>
+<line x1="205.49" y1="135.04" x2="210.25" y2="133.49" stroke="#222222" stroke-width="1"/>
+<line x1="204.22" y1="138.95" x2="207.16" y2="142.99" stroke="#222222" stroke-width="1"/>
+<line x1="200.11" y1="138.95" x2="197.17" y2="142.99" stroke="#222222" stroke-width="1"/>
+<line x1="198.83" y1="135.04" x2="194.08" y2="133.49" stroke="#222222" stroke-width="1"/>
+<circle cx="263.24" cy="114.96" r="9" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
+<polygon points="263.24,111.46 266.57,113.88 265.3,117.79 261.19,117.79 259.92,113.88" fill="#222222"/>
+<line x1="263.24" y1="111.46" x2="263.24" y2="106.46" stroke="#222222" stroke-width="1"/>
+<line x1="266.57" y1="113.88" x2="271.33" y2="112.33" stroke="#222222" stroke-width="1"/>
+<line x1="265.3" y1="117.79" x2="268.24" y2="121.84" stroke="#222222" stroke-width="1"/>
+<line x1="261.19" y1="117.79" x2="258.25" y2="121.84" stroke="#222222" stroke-width="1"/>
+<line x1="259.92" y1="113.88" x2="255.16" y2="112.33" stroke="#222222" stroke-width="1"/>
+<circle cx="328.14" cy="129.57" r="9" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
+<polygon points="328.14,126.07 331.47,128.49 330.2,132.4 326.09,132.4 324.81,128.49" fill="#222222"/>
+<line x1="328.14" y1="126.07" x2="328.14" y2="121.07" stroke="#222222" stroke-width="1"/>
+<line x1="331.47" y1="128.49" x2="336.23" y2="126.94" stroke="#222222" stroke-width="1"/>
+<line x1="330.2" y1="132.4" x2="333.14" y2="136.45" stroke="#222222" stroke-width="1"/>
+<line x1="326.09" y1="132.4" x2="323.15" y2="136.45" stroke="#222222" stroke-width="1"/>
+<line x1="324.81" y1="128.49" x2="320.06" y2="126.94" stroke="#222222" stroke-width="1"/>
+</svg>

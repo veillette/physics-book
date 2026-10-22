@@ -328,7 +328,7 @@ different observers, each sees the same result—the binoculars hit at the base 
 the mast and not behind it. To get the correct description, it is crucial to
 correctly specify the velocities relative to the observer.
 
-![A person is observing a moving ship from the shore. Another person is on top of ship’s mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.](../resources/Figure_03_05_05.jpg 'Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)')
+![A person is observing a moving ship from the shore. Another person is on top of ship's mast. The person in the ship drops binoculars and sees it dropping straight. The person on the shore sees the binoculars taking a curved trajectory.](/resources/Figure_03_05_05.svg 'Classical relativity. The same motion as viewed by two different observers. An observer on the moving ship sees the binoculars dropped from the top of its mast fall straight down. An observer on shore sees the binoculars take the curved path, moving forward with the ship. Both observers see the binoculars strike the deck at the base of the mast. The initial horizontal velocity is different relative to the two observers. (The ship is shown moving rather fast to emphasize the effect.)')
 {: #Figure6}
 
 :::: example {"class":"example","id":"example3"}
@@ -340,7 +340,7 @@ Calculating Relative Velocity: An Airline Passenger Drops a Coin
 An airline passenger drops a coin while the plane is moving at 260 m/s. What is the velocity of the coin when it strikes the floor 1.50 m below its point of release: (a) Measured relative to the plane?
 (b) Measured relative to the Earth?
 
-![A person standing on ground is observing an airplane. Inside the airplane a woman is sitting on seat. The airplane is moving in the right direction. The woman drops the coin which is vertically downwards for her but the person on ground sees the coin moving horizontally towards right.](../resources/Figure_03_05_06.jpg 'The motion of a coin dropped inside an airplane as viewed by two different observers. (a) An observer in the plane sees the coin fall straight down.
+![A person standing on ground is observing an airplane. Inside the airplane a woman is sitting on seat. The airplane is moving in the right direction. The woman drops the coin which is vertically downwards for her but the person on ground sees the coin moving horizontally towards right.](/resources/Figure_03_05_06.svg 'The motion of a coin dropped inside an airplane as viewed by two different observers. (a) An observer in the plane sees the coin fall straight down.
 (b) An observer on the ground sees the coin move almost horizontally.')
 {: #Figure7 height="350"}
 
@@ -1675,7 +1675,7 @@ distances. It appears to an observer on the Earth that we are at the center of a
 (a) relative to galaxy 2 and
 (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.
 
-![Five galaxies on a horizontal straight line are shown. The left most galaxy one has distance of three hundred millions of light years and it is moving towards left. The second and third galaxies in the figure have shown no velocities. The velocities of fourth and fifth galaxies are towards right.](../resources/Figure_03_05_07.jpg 'Five galaxies on a straight line, showing their distances and velocities relative to the Milky Way (MW) Galaxy. The distances are in millions of light years (Mly), where a light year is the distance light travels in one year. The velocities are nearly proportional to the distances. The sizes of the galaxies are greatly exaggerated; an average galaxy is about 0.1 Mly across.')
+![Five galaxies on a horizontal straight line are shown. The left most galaxy one has distance of three hundred millions of light years and it is moving towards left. The second and third galaxies in the figure have shown no velocities. The velocities of fourth and fifth galaxies are towards right.](/resources/Figure_03_05_07.svg 'Five galaxies on a straight line, showing their distances and velocities relative to the Milky Way (MW) Galaxy. The distances are in millions of light years (Mly), where a light year is the distance light travels in one year. The velocities are nearly proportional to the distances. The sizes of the galaxies are greatly exaggerated; an average galaxy is about 0.1 Mly across.')
 {: #Figure9}
 
 ::::
@@ -2054,7 +2054,7 @@ angle relative to his path as shown in [Figure 10](#Figure10). What
 angle must the puck's velocity make relative to the player (in his frame of
 reference) to hit the center of the goal?
 
-![An ice hockey player is moving across the rink with velocity v player towards north direction. The goal post is in east direction. To hit the goal the hockey player must hit with velocity of puck v puck making an angle theta with the horizontal axis so that its direction is towards south east.](../resources/Figure_03_05_08.jpg 'An ice hockey player moving across the rink must shoot backward to give the puck a velocity toward the goal.')
+![A hockey player moves north at 8.00 m/s. Added head to tail, the puck velocity relative to the player points southeast at 29.0 m/s, at angle theta measured from north. Its southward component cancels the player velocity, so the resultant points east to the center of the goal.](/resources/Figure_03_05_08.svg 'An ice hockey player moving across the rink must shoot backward to give the puck a velocity toward the goal.')
 {: #Figure10}
 
 ::::
