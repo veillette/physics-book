@@ -2,7 +2,7 @@
  * Chapter 8: impulse as the area under a force–time graph, scattering from a
  * proton, the "system of interest" diagrams of one-dimensional elastic and
  * inelastic collisions, and the two-dimensional collision diagrams of
- * section 8.6.
+ * section 8.6, conservation of momentum, and rocket propulsion.
  */
 import { COLORS, Plot, Svg, morph, rad } from './svg.js';
 
@@ -711,6 +711,435 @@ export default {
     );
     svg.text(after[0] + 70, after[1] + 10, '**v′**_1', { size: 25, anchor: 'start' });
     svg.xyIndicator(790, 268, { len: 110, size: 25 });
+    return svg.render();
+  },
+
+  // 8.3 — two-car collision diagram (conservation of momentum)
+  Figure_08_03_01: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 860,
+      title: 'Two cars colliding on a frictionless surface',
+      desc: 'Before: car m1 (brown) moves right with velocity v1 and momentum p1, catching up to car m2 (tan) moving right more slowly with velocity v2 and momentum p2. The system of interest (both cars) is circled; net F = 0 and p1 + p2 = ptot. After: m1 moves right more slowly with v1′ and p1′, and m2 moves right faster with v2′ and p2′; p1′ + p2′ = ptot.',
+    });
+    // Car: a simple SUV drawn with polygons.
+    const car = (x, y, color, label, vLabel, vx) => {
+      const c1 = color === 'brown' ? '#a0532c' : '#d4c4a0';
+      const c2 = color === 'brown' ? '#7b3d1f' : '#b39f7a';
+      const glass = '#b8d9e8';
+      // Roof, windshield and hood distinguish the right-facing SUV.
+      svg.polygon(
+        [
+          [x, y + 22],
+          [x + 12, y],
+          [x + 95, y],
+          [x + 112, y + 25],
+          [x + 135, y + 30],
+          [x + 140, y + 40],
+          [x + 140, y + 60],
+          [x, y + 60],
+        ],
+        { fill: c1, stroke: c2, width: 2 }
+      );
+      // Windows
+      svg.polygon(
+        [
+          [x + 20, y + 8],
+          [x + 45, y + 8],
+          [x + 45, y + 35],
+          [x + 22, y + 35],
+        ],
+        { fill: glass, stroke: c2, width: 1.5 }
+      );
+      svg.polygon(
+        [
+          [x + 52, y + 8],
+          [x + 75, y + 8],
+          [x + 73, y + 35],
+          [x + 52, y + 35],
+        ],
+        { fill: glass, stroke: c2, width: 1.5 }
+      );
+      svg.polygon(
+        [
+          [x + 82, y + 8],
+          [x + 92, y + 8],
+          [x + 103, y + 27],
+          [x + 82, y + 27],
+        ],
+        { fill: glass, stroke: c2, width: 1.5 }
+      );
+      // Wheels
+      svg.circle(x + 30, y + 60, 12, { fill: '#333333', stroke: '#000000', width: 2 });
+      svg.circle(x + 110, y + 60, 12, { fill: '#333333', stroke: '#000000', width: 2 });
+      svg.circle(x + 30, y + 60, 6, { fill: '#bbbbbb' });
+      svg.circle(x + 110, y + 60, 6, { fill: '#bbbbbb' });
+      svg.rect(x + 130, y + 36, 9, 8, { fill: '#fff0b3', stroke: c2, width: 1 });
+      svg.line(x + 128, y + 54, x + 142, y + 54, { color: '#555555', width: 4 });
+      // Motion blur
+      for (let i = 0; i < 3; i++) {
+        svg.line(x - 25 - i * 15, y + 30, x - 10 - i * 15, y + 30, {
+          color: c1,
+          width: 2,
+          opacity: 0.4 - i * 0.1,
+        });
+      }
+      // Label on car
+      svg.circle(x + 70, y + 35, 18, { fill: PURPLE, stroke: '#ffffff', width: 2 });
+      svg.text(x + 70, y + 35, label, { size: 20, halo: false, color: '#ffffff' });
+      // Velocity arrow and label
+      svg.arrow(x + 140, y + 30, x + 140 + vx, y + 30, { color: VEL, width: 4, head: 16 });
+      svg.text(x + 140 + vx / 2, y + 5, vLabel, { size: 24 });
+    };
+
+    // Before panel
+    svg.text(80, 75, 'Before', { size: 26, math: false, anchor: 'start' });
+    svg.rect(50, 105, 900, 250, { stroke: BLACK, width: 2, rx: 60 });
+    svg.text(800, 30, 'System of interest', { size: 22, math: false });
+    svg.arrow(800, 48, 800, 105, { color: BLACK, width: 1.5, head: 8 });
+    svg.text(500, 135, 'p_1 + p_2 = p_{tot}', { size: 26 });
+    svg.text(730, 80, 'net **F** = 0', { size: 24, math: false });
+    surface(svg, 50, 950, 340);
+    car(120, 260, 'brown', 'm_1', '**v**_1', 90);
+    car(450, 260, 'tan', 'm_2', '**v**_2', 60);
+
+    // After panel
+    svg.text(80, 530, 'After', { size: 26, math: false, anchor: 'start' });
+    svg.rect(50, 560, 900, 250, { stroke: BLACK, width: 2, rx: 60 });
+    svg.text(800, 485, 'System of interest', { size: 22, math: false });
+    svg.arrow(800, 503, 800, 560, { color: BLACK, width: 1.5, head: 8 });
+    svg.text(500, 590, 'p′_1 + p′_2 = p_{tot}', { size: 26 });
+    surface(svg, 50, 950, 795);
+    car(150, 715, 'brown', 'm_1', '**v′**_1', 70);
+    car(480, 715, 'tan', 'm_2', '**v′**_2', 80);
+    return svg.render();
+  },
+
+  // 8.3 — space probe projectile motion with separation
+  Figure_08_03_02: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 800,
+      title: 'Space probe separating in flight',
+      desc: 'With no air resistance, gravity bends the trajectory downward. Before separation the probe center of mass lies on the parabola. After separation, two equal-mass fragments lie on opposite sides of their combined center of mass, which continues on the same parabola. Total horizontal momentum remains constant; vertical momentum changes under the downward external force −Mg, with y positive upward.',
+    });
+    // SVG y increases downward: positive curvature represents downward gravity.
+    const yAt = x => 180 + 0.0019 * (x - 500) ** 2;
+    const trajectory = [];
+    for (let x = 100; x <= 900; x += 5) trajectory.push([x, yAt(x)]);
+    svg.add('<g id="cm-trajectory">');
+    svg.polyline(trajectory, { color: '#777777', width: 2, dash: '6 4' });
+    svg.add('</g>');
+
+    // The intact probe and its two fragments retain the same orientation.
+    const angle = (Math.atan(2 * 0.0019 * (260 - 500)) * 180) / Math.PI;
+    const fragment = (x, y, front) => {
+      svg.add(`<g transform="translate(${x} ${y}) rotate(${angle})">`);
+      svg.rect(-27, -16, 54, 32, { fill: '#b5bec4', stroke: '#555555', width: 2 });
+      svg.line(-15, -11, -15, 11, { color: '#666666', width: 3 });
+      if (front) {
+        svg.polygon(
+          [
+            [27, -16],
+            [55, 0],
+            [27, 16],
+          ],
+          { fill: '#3b7ea8', stroke: '#285873' }
+        );
+      } else {
+        svg.polygon(
+          [
+            [-27, -12],
+            [-45, -28],
+            [-45, 28],
+            [-27, 12],
+          ],
+          {
+            fill: '#3b7ea8',
+            stroke: '#285873',
+          }
+        );
+      }
+      svg.add('</g>');
+    };
+    const cmDot = (x, y, id) => {
+      svg.add(`<g id="${id}">`);
+      svg.circle(x, y, 5, { fill: ORANGE, stroke: '#ffffff', width: 1 });
+      svg.text(x + 16, y + 8, 'CM', { size: 22, math: false, anchor: 'start' });
+      svg.add('</g>');
+    };
+
+    svg.text(140, 70, 'Before separation', { size: 26, math: false, anchor: 'start' });
+    svg.ellipse(260, yAt(260), 110, 105, { stroke: BLACK, width: 2 });
+    svg.add(`<g id="intact-probe" transform="translate(260 ${yAt(260)}) rotate(${angle})">`);
+    svg.rect(-54, -16, 108, 32, { fill: '#b5bec4', stroke: '#555555', width: 2 });
+    svg.polygon(
+      [
+        [54, -16],
+        [82, 0],
+        [54, 16],
+      ],
+      { fill: '#3b7ea8', stroke: '#285873' }
+    );
+    svg.polygon(
+      [
+        [-54, -12],
+        [-72, -28],
+        [-72, 28],
+        [-54, 12],
+      ],
+      {
+        fill: '#3b7ea8',
+        stroke: '#285873',
+      }
+    );
+    svg.line(0, -16, 0, 16, { color: '#555555', width: 2 });
+    svg.add('</g>');
+    cmDot(260, yAt(260), 'before-cm');
+    svg.text(185, 420, 'System of interest', { size: 21, math: false });
+    svg.arrow(225, 404, 240, yAt(260) + 105, { color: BLACK, width: 1.5, head: 8 });
+
+    const [cx, cy] = [735, yAt(735)];
+    svg.text(620, 70, 'After separation', { size: 26, math: false, anchor: 'start' });
+    svg.ellipse(cx, cy, 145, 165, { stroke: TEAL, width: 2 });
+    // Equal masses make the combined CM the midpoint, not either fragment.
+    const pieces = [
+      [cx - 50, cy + 55],
+      [cx + 50, cy - 55],
+    ];
+    svg.line(...pieces[0], ...pieces[1], { color: TEAL, width: 1.5, dash: '4 4' });
+    svg.add('<g id="probe-fragments">');
+    pieces.forEach(([x, y], i) => {
+      fragment(x, y, i === 1);
+      svg.circle(x, y, 3, { fill: BLACK });
+      svg.text(x - 40, y - 30, 'm', { size: 22 });
+    });
+    svg.add('</g>');
+    cmDot(cx, cy, 'after-cm');
+    svg.text(720, 490, 'System: both fragments', { size: 21, math: false });
+    svg.arrow(730, 472, 735, cy + 165, { color: TEAL, width: 1.5, head: 8 });
+
+    for (const x of [145, 600]) {
+      svg.text(x, 565, 'p_x = constant', { size: 25, anchor: 'start' });
+      svg.text(x, 610, 'F_{x,net} = 0', { size: 25, anchor: 'start' });
+      svg.text(x, 665, 'p_y ≠ constant', { size: 25, anchor: 'start' });
+      svg.text(x, 710, 'F_{y,net} = −Mg ≠ 0', { size: 25, anchor: 'start' });
+    }
+    svg.arrow(45, 500, 115, 500, { color: BLACK, width: 2, head: 10 });
+    svg.arrow(45, 500, 45, 430, { color: BLACK, width: 2, head: 10 });
+    svg.text(120, 520, 'x', { size: 21 });
+    svg.text(45, 414, 'y', { size: 21 });
+    svg.text(
+      500,
+      770,
+      'M = total probe mass; equal-mass fragments shown; air resistance neglected',
+      {
+        size: 20,
+        math: false,
+      }
+    );
+    return svg.render();
+  },
+
+  // 8.5 — the puck and goalie in the worked inelastic-collision example
+  Figure_08_05_02: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 900,
+      title: 'A goalie catches a hockey puck',
+      desc: 'Before: a 0.150-kg puck moves right at 35.0 m/s toward a stationary 70.0-kg goalie on frictionless ice. After catching the puck, the goalie and puck move together to the right at 0.0748 m/s. Total momentum is conserved. Kinetic energy decreases from 91.9 J to 0.196 J, with about 91.7 J converted to thermal energy and sound. Velocity arrows show direction only, not a common scale.',
+    });
+    const puck = (x, y) => {
+      svg.rect(x - 14, y - 5, 28, 10, { fill: '#222222', stroke: '#000000' });
+      svg.ellipse(x, y - 5, 14, 4, { fill: '#555555', stroke: '#000000', width: 1 });
+    };
+    // Crouching goalie, facing left: helmet, mask, catching glove, pads and stick.
+    const goalie = (x, base, caught) => {
+      const green = '#2d7a4f';
+      const edge = '#193e2b';
+      svg.polygon(
+        [
+          [x + 5, base - 125],
+          [x + 65, base - 140],
+          [x + 105, base - 65],
+          [x + 42, base - 45],
+          [x - 15, base - 85],
+        ],
+        { fill: green, stroke: edge, width: 3 }
+      );
+      svg.line(x + 12, base - 110, x + 78, base - 75, { color: '#ffffff', width: 6 });
+      svg.circle(x - 12, base - 125, 26, { fill: green, stroke: edge, width: 3 });
+      svg.rect(x - 35, base - 138, 25, 35, { fill: '#dfdfc4', stroke: edge, width: 2, rx: 7 });
+      for (const d of [0, 10, 20]) {
+        svg.line(x - 34, base - 133 + d, x - 10, base - 133 + d, { color: '#777777', width: 1 });
+      }
+      svg.polyline(
+        [
+          [x + 14, base - 94],
+          [x - 32, base - 65],
+          [x - 84, base - 44],
+        ],
+        {
+          color: edge,
+          width: 24,
+        }
+      );
+      svg.ellipse(x - 100, base - 40, 30, 23, { fill: green, stroke: edge, width: 3 });
+      svg.rect(x + 15, base - 48, 110, 38, { fill: green, stroke: edge, width: 3, rx: 16 });
+      svg.rect(x - 5, base - 30, 125, 27, { fill: '#4a9068', stroke: edge, width: 3, rx: 12 });
+      for (const dx of [20, 45, 70, 95]) {
+        svg.line(x + dx, base - 43, x + dx + 8, base - 13, { color: '#bbd8c7', width: 2 });
+      }
+      svg.line(x + 5, base + 1, x + 125, base + 1, { color: BLACK, width: 4 });
+      svg.polyline(
+        [
+          [x - 40, base - 48],
+          [x - 150, base + 2],
+          [x - 185, base + 2],
+        ],
+        {
+          color: '#a88c51',
+          width: 6,
+        }
+      );
+      svg.text(x + 48, base - 99, 'm_2', { size: 24, color: '#ffffff', halo: false });
+      if (caught) puck(x - 112, base - 40);
+    };
+    for (const [base, after] of [
+      [350, false],
+      [760, true],
+    ]) {
+      svg.text(70, base - 300, after ? 'After the catch' : 'Before the catch', {
+        size: 26,
+        math: false,
+        anchor: 'start',
+      });
+      svg.text(790, base - 300, 'System: puck + goalie', { size: 22, math: false });
+      svg.rect(60, base - 255, 880, 280, { stroke: BLACK, width: 2, rx: 65 });
+      surface(svg, 80, 920, base + 18);
+      svg.text(
+        500,
+        base - 220,
+        after ? 'p′_1 + p′_2 = p_{tot}' : 'p_1 = p_{tot};   F_{x,net} = 0',
+        { size: 26 }
+      );
+      svg.text(
+        500,
+        base - 175,
+        after ? '\\rm{KE}′ = 0.196 \\rm{J} < \\rm{KE}' : '\\rm{KE} = ½m_1v_1^2 = 91.9 \\rm{J}',
+        { size: 24 }
+      );
+      goalie(610, base, after);
+      svg.text(800, base - 105, 'm_2 = 70.0 \\rm{kg}', { size: 23 });
+      if (after) {
+        svg.text(340, base - 75, 'Caught puck', { size: 22, math: false });
+        svg.arrow(420, base - 65, 484, base - 40, { color: BLACK, width: 1.5, head: 8 });
+        velocity(svg, 755, 815, base - 35, 'v′', { size: 24 });
+        svg.text(500, base + 68, 'v′_1 = v′_2 = v′ = 0.0748 \\rm{m/s}', { size: 25 });
+      } else {
+        puck(190, base - 8);
+        svg.text(220, base - 95, 'm_1 = 0.150 \\rm{kg}', { size: 23 });
+        velocity(svg, 210, 385, base - 8, 'v_1 = 35.0 \\rm{m/s}', { size: 24, dy: -37 });
+        svg.text(810, base - 45, 'v_2 = 0', { size: 25 });
+        svg.text(500, base + 68, 'Frictionless ice surface', { size: 22, math: false });
+      }
+    }
+    svg.text(500, 874, 'Velocity arrows indicate direction; lengths are not to scale.', {
+      size: 21,
+      math: false,
+    });
+    return svg.render();
+  },
+
+  // 8.7 — rocket + gas system and the equal-and-opposite internal forces
+  Figure_08_07_01: () => {
+    const svg = new Svg({
+      width: 1100,
+      height: 950,
+      title: 'Rocket propulsion and Newton’s third law',
+      desc: 'At time t, the rocket and fuel have mass m and upward Earth-frame velocity v. At t + Δt, the rocket has mass m − Δm and velocity v + Δv; the expelled gas has mass Δm and Earth-frame velocity v − ve, downward in this example. The net external force on the whole rocket-plus-gas system is −mg. The gas pushes the rocket upward with Freac; the rocket pushes the gas downward with Fexpel of the same magnitude. Rocket and gas weights both point downward. Exhaust speed ve is measured relative to the rocket.',
+    });
+    svg.add(
+      '<defs><radialGradient id="exhaust-08-07-01"><stop offset="0" stop-color="#fff5e6"/><stop offset="0.5" stop-color="#ffcc66"/><stop offset="1" stop-color="#ff8800" stop-opacity="0"/></radialGradient></defs>'
+    );
+    const rocket = (x, y, label) => {
+      svg.ellipse(x, y + 150, 45, 65, { fill: 'url(#exhaust-08-07-01)', stroke: 'none' });
+      svg.rect(x - 30, y, 60, 120, { fill: '#c0c0c0', stroke: '#666666', width: 2 });
+      svg.polygon(
+        [
+          [x, y - 40],
+          [x - 30, y],
+          [x + 30, y],
+        ],
+        { fill: '#e0e0e0', stroke: '#666666', width: 2 }
+      );
+      svg.circle(x, y + 30, 12, { fill: '#4a90e2', stroke: '#2a5a8a', width: 2 });
+      for (const sign of [-1, 1]) {
+        svg.polygon(
+          [
+            [x + sign * 30, y + 100],
+            [x + sign * 55, y + 130],
+            [x + sign * 30, y + 120],
+          ],
+          {
+            fill: '#a0a0a0',
+            stroke: '#666666',
+            width: 2,
+          }
+        );
+      }
+      // Put long mass labels beside the body rather than squeezing them into it.
+      svg.text(x - 55, y + 65, label, { size: 25, anchor: 'end' });
+    };
+    svg.text(220, 55, '(a) At time t', { size: 26, math: false });
+    svg.text(640, 55, '(b) At time t + Δt', { size: 26, math: false });
+    svg.rect(80, 130, 280, 420, { stroke: BLACK, width: 2, rx: 110 });
+    svg.rect(470, 115, 350, 435, { stroke: TEAL, width: 2, rx: 100 });
+    rocket(220, 220, 'm');
+    rocket(630, 185, 'm − Δm');
+    svg.arrow(300, 310, 300, 210, { color: VEL, width: 4, head: 16 });
+    svg.text(320, 255, '**v**', { size: 26, anchor: 'start' });
+    svg.arrow(740, 275, 740, 135, { color: VEL, width: 4, head: 16 });
+    svg.text(765, 205, '**v** + Δ**v**', { size: 25, anchor: 'start' });
+    svg.circle(630, 465, 30, { fill: '#ffcc66', stroke: ORANGE, width: 2 });
+    svg.text(630, 465, 'Δm', { size: 23, halo: false });
+    svg.arrow(700, 455, 700, 530, { color: VEL, width: 4, head: 16 });
+    svg.text(725, 495, '**v** − **v**_e', { size: 24, anchor: 'start' });
+    svg.text(220, 585, 'System: rocket + fuel', { size: 23, math: false });
+    svg.text(650, 585, 'System: rocket + expelled gas', { size: 23, math: false });
+    svg.lines(950, 245, ['Net external force', 'on the whole system'], {
+      size: 21,
+      math: false,
+      gap: 30,
+    });
+    svg.arrow(950, 315, 950, 420, { color: COLORS.blue, width: 4, head: 16 });
+    svg.text(950, 450, 'F_{y,net} = −mg', { size: 25 });
+
+    svg.text(280, 650, 'Rocket free-body diagram', { size: 24, math: false });
+    svg.circle(280, 785, 7, { fill: BLACK });
+    svg.add('<g id="rocket-reaction">');
+    svg.arrow(280, 785, 280, 685, { color: ORANGE, width: 4, head: 16 });
+    svg.text(315, 730, '**F**_{reac}', { size: 25, anchor: 'start' });
+    svg.add('</g>');
+    svg.arrow(280, 785, 280, 845, { color: COLORS.blue, width: 4, head: 16 });
+    svg.text(315, 825, 'w_r = (m − Δm)g', { size: 24, anchor: 'start' });
+
+    svg.text(780, 650, 'Forces on expelled gas', { size: 24, math: false });
+    svg.ellipse(780, 740, 40, 20, { fill: '#ffcc66', stroke: ORANGE, width: 2 });
+    svg.text(780, 738, 'Δm', { size: 21, halo: false });
+    svg.add('<g id="gas-expulsion">');
+    svg.arrow(760, 760, 760, 860, { color: ORANGE, width: 4, head: 16 });
+    svg.text(735, 815, '**F**_{expel}', { size: 25, anchor: 'end' });
+    svg.add('</g>');
+    svg.arrow(800, 760, 800, 805, { color: COLORS.blue, width: 4, head: 16 });
+    svg.text(825, 790, 'w_g = Δmg', { size: 24, anchor: 'start' });
+    svg.text(550, 895, '**F**_{reac} = −**F**_{expel}', { size: 25 });
+    svg.text(
+      550,
+      930,
+      'Velocities are relative to Earth; exhaust speed vₑ is relative to the rocket.',
+      { size: 19, math: false }
+    );
     return svg.render();
   },
 };

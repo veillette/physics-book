@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800" role="img" aria-labelledby="title desc">
+<title id="title">Space probe separating in flight</title>
+<desc id="desc">With no air resistance, gravity bends the trajectory downward. Before separation the probe center of mass lies on the parabola. After separation, two equal-mass fragments lie on opposite sides of their combined center of mass, which continues on the same parabola. Total horizontal momentum remains constant; vertical momentum changes under the downward external force −Mg, with y positive upward.</desc>
+<rect width="1000" height="800" fill="#ffffff"/>
+<g id="cm-trajectory">
+<polyline points="100,484 105,476.45 110,468.99 115,461.63 120,454.36 125,447.19 130,440.11 135,433.13 140,426.24 145,419.45 150,412.75 155,406.15 160,399.64 165,393.23 170,386.91 175,380.69 180,374.56 185,368.53 190,362.59 195,356.75 200,351 205,345.35 210,339.79 215,334.33 220,328.96 225,323.69 230,318.51 235,313.43 240,308.44 245,303.55 250,298.75 255,294.05 260,289.44 265,284.93 270,280.51 275,276.19 280,271.96 285,267.83 290,263.79 295,259.85 300,256 305,252.25 310,248.59 315,245.03 320,241.56 325,238.19 330,234.91 335,231.73 340,228.64 345,225.65 350,222.75 355,219.95 360,217.24 365,214.63 370,212.11 375,209.69 380,207.36 385,205.13 390,202.99 395,200.95 400,199 405,197.15 410,195.39 415,193.73 420,192.16 425,190.69 430,189.31 435,188.03 440,186.84 445,185.75 450,184.75 455,183.85 460,183.04 465,182.33 470,181.71 475,181.19 480,180.76 485,180.43 490,180.19 495,180.05 500,180 505,180.05 510,180.19 515,180.43 520,180.76 525,181.19 530,181.71 535,182.33 540,183.04 545,183.85 550,184.75 555,185.75 560,186.84 565,188.03 570,189.31 575,190.69 580,192.16 585,193.73 590,195.39 595,197.15 600,199 605,200.95 610,202.99 615,205.13 620,207.36 625,209.69 630,212.11 635,214.63 640,217.24 645,219.95 650,222.75 655,225.65 660,228.64 665,231.73 670,234.91 675,238.19 680,241.56 685,245.03 690,248.59 695,252.25 700,256 705,259.85 710,263.79 715,267.83 720,271.96 725,276.19 730,280.51 735,284.93 740,289.44 745,294.05 750,298.75 755,303.55 760,308.44 765,313.43 770,318.51 775,323.69 780,328.96 785,334.33 790,339.79 795,345.35 800,351 805,356.75 810,362.59 815,368.53 820,374.56 825,380.69 830,386.91 835,393.23 840,399.64 845,406.15 850,412.75 855,419.45 860,426.24 865,433.13 870,440.11 875,447.19 880,454.36 885,461.63 890,468.99 895,476.45 900,484" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="6 4" stroke-linejoin="round"/>
+</g>
+<text x="140" y="79.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Before</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">separation</tspan></text>
+<ellipse cx="260" cy="289.44" rx="110" ry="105" fill="none" stroke="#222222" stroke-width="2"/>
+<g id="intact-probe" transform="translate(260 289.44) rotate(-42.36481541754858)">
+<rect x="-54" y="-16" width="108" height="32" fill="#b5bec4" stroke="#555555" stroke-width="2"/>
+<polygon points="54,-16 82,0 54,16" fill="#3b7ea8" stroke="#285873" stroke-width="1.5"/>
+<polygon points="-54,-12 -72,-28 -72,28 -54,12" fill="#3b7ea8" stroke="#285873" stroke-width="1.5"/>
+<line x1="0" y1="-16" x2="0" y2="16" stroke="#555555" stroke-width="2"/>
+</g>
+<g id="before-cm">
+<circle cx="260" cy="289.44" r="5" fill="#d9532b" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="305.14" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CM</tspan></text>
+</g>
+<text x="185" y="427.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">System</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">interest</tspan></text>
+<line x1="225" y1="404" x2="234.1" y2="398.2" stroke="#222222" stroke-width="1.5"/>
+<polygon points="240,394.44 234.97,401.44 231.53,396.04" fill="#222222"/>
+<text x="620" y="79.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">After</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">separation</tspan></text>
+<ellipse cx="735" cy="284.93" rx="145" ry="165" fill="none" stroke="#2aa1b3" stroke-width="2"/>
+<line x1="685" y1="339.93" x2="785" y2="229.93" stroke="#2aa1b3" stroke-width="1.5" stroke-dasharray="4 4"/>
+<g id="probe-fragments">
+<g transform="translate(685 339.9275) rotate(-42.36481541754858)">
+<rect x="-27" y="-16" width="54" height="32" fill="#b5bec4" stroke="#555555" stroke-width="2"/>
+<line x1="-15" y1="-11" x2="-15" y2="11" stroke="#666666" stroke-width="3"/>
+<polygon points="-27,-12 -45,-28 -45,28 -27,12" fill="#3b7ea8" stroke="#285873" stroke-width="1.5"/>
+</g>
+<circle cx="685" cy="339.93" r="3" fill="#222222"/>
+<text x="645" y="317.63" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<g transform="translate(785 229.9275) rotate(-42.36481541754858)">
+<rect x="-27" y="-16" width="54" height="32" fill="#b5bec4" stroke="#555555" stroke-width="2"/>
+<line x1="-15" y1="-11" x2="-15" y2="11" stroke="#666666" stroke-width="3"/>
+<polygon points="27,-16 55,0 27,16" fill="#3b7ea8" stroke="#285873" stroke-width="1.5"/>
+</g>
+<circle cx="785" cy="229.93" r="3" fill="#222222"/>
+<text x="745" y="207.63" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+</g>
+<g id="after-cm">
+<circle cx="735" cy="284.93" r="5" fill="#d9532b" stroke="#ffffff" stroke-width="1"/>
+<text x="751" y="300.63" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CM</tspan></text>
+</g>
+<text x="720" y="497.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">System</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">both</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">fragments</tspan></text>
+<line x1="730" y1="472" x2="733.45" y2="456.75" stroke="#2aa1b3" stroke-width="1.5"/>
+<polygon points="735,449.93 736.35,458.44 730.11,457.02" fill="#2aa1b3"/>
+<text x="145" y="573.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">p</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">x</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">constant</tspan></text>
+<text x="145" y="618.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">x</tspan><tspan font-style="normal">,</tspan><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="145" y="673.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">p</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">y</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> ≠ </tspan><tspan font-style="normal">constant</tspan></text>
+<text x="145" y="718.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">y</tspan><tspan font-style="normal">,</tspan><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="italic">Mg</tspan><tspan font-style="normal"> ≠ 0</tspan></text>
+<text x="600" y="573.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">p</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">x</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">constant</tspan></text>
+<text x="600" y="618.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">x</tspan><tspan font-style="normal">,</tspan><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="600" y="673.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">p</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">y</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> ≠ </tspan><tspan font-style="normal">constant</tspan></text>
+<text x="600" y="718.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">y</tspan><tspan font-style="normal">,</tspan><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="italic">Mg</tspan><tspan font-style="normal"> ≠ 0</tspan></text>
+<line x1="45" y1="500" x2="106" y2="500" stroke="#222222" stroke-width="2"/>
+<polygon points="115,500 105,504 105,496" fill="#222222"/>
+<line x1="45" y1="500" x2="45" y2="439" stroke="#222222" stroke-width="2"/>
+<polygon points="45,430 49,440 41,440" fill="#222222"/>
+<text x="120" y="527.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="45" y="421.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<text x="500" y="777" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">M</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">total</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">probe</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">mass</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">equal</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">mass</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">fragments</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">shown</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">air</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">resistance</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">neglected</tspan></text>
+</svg>
