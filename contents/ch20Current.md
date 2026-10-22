@@ -213,7 +213,7 @@ passed on rapidly. The resulting electrical shock wave moves through the system
 at nearly the speed of light. To be precise, this rapidly moving signal or shock
 wave is a rapidly propagating change in electric field.
 
-![Negatively charged electrons move through a conducting wire. Two electrons are shown entering the wire from one end, and two electrons are shown leaving the wire at the other end. The direction of movement of charge is indicated by arrows along the length of the wire toward the right. Some electrons are shown inside the wire.](../resources/Figure_20_01_04.jpg 'When charged particles are forced into this volume of a conductor, an equal number are quickly forced to leave. The repulsion between like charges makes it difficult to increase the number of charges in a volume. Thus, as one charge enters, another leaves almost immediately, carrying the signal rapidly forward.')
+![Negatively charged electrons move through a conducting wire. Two electrons are shown entering the wire from one end, and two electrons are shown leaving the wire at the other end. The direction of movement of charge is indicated by arrows along the length of the wire toward the right. Some electrons are shown inside the wire.](../resources/Figure_20_01_04.svg 'When charged particles are forced into this volume of a conductor, an equal number are quickly forced to leave. The repulsion between like charges makes it difficult to increase the number of charges in a volume. Thus, as one charge enters, another leaves almost immediately, carrying the signal rapidly forward.')
 {: #Figure4}
 
 Good conductors have large numbers of free charges in them. In metals, the free

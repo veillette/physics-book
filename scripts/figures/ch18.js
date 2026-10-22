@@ -323,6 +323,131 @@ export default {
     return svg.render();
   },
 
+  // 18.1 Fig. 5 — fractional quark charges inside a proton
+  Figure_18_01_05: () => {
+    const svg = new Svg({
+      width: 420,
+      height: 520,
+      title: 'Quark charges inside a proton',
+      desc: 'A proton and an electron are drawn small at the bottom. An arrow leads from the proton to a magnified view of part of it, which holds three quarks: two up quarks u, each with charge +2/3 qe, and a down quark d with charge −1/3 qe. Together they total +1 qe, the proton’s charge.',
+    });
+    svg.rect(10, 10, 400, 500, { stroke: COLORS.black, width: 2.5 });
+    const [L, T, R, B] = [120, 35, 400, 385];
+    svg.add(
+      `<defs><clipPath id="zoom"><rect x="${L}" y="${T}" width="${R - L}" height="${B - T}"/></clipPath><radialGradient id="proton_in" gradientUnits="userSpaceOnUse" cx="${L}" cy="${B + 40}" r="380"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#bfe2f2"/><stop offset="1" stop-color="#1d8cc0"/></radialGradient></defs>`
+    );
+    svg.add(
+      `<circle cx="${L}" cy="${B + 40}" r="380" fill="url(#proton_in)" clip-path="url(#zoom)"/>`
+    );
+    svg.rect(L, T, R - L, B - T, { stroke: COLORS.black, width: 1.5 });
+    const ball = (x, y, r, color, id) => {
+      svg.add(
+        `<defs><radialGradient id="${id}" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="${color}"/><stop offset="1" stop-color="${color}" stop-opacity="0.85"/></radialGradient></defs>`
+      );
+      svg.circle(x, y, r, { fill: `url(#${id})`, stroke: '#4a4a4a', width: 0.8 });
+    };
+    // u + u + d = 2/3 + 2/3 − 1/3 = +1, in units of qe.
+    for (const [x, y, color, id, q, flavor] of [
+      [200, 150, '#cf7a3c', 'quark_u1', '+⅔ q_e', 'u'],
+      [305, 225, '#2fa84f', 'quark_u2', '+⅔ q_e', 'u'],
+      [215, 295, '#2e86d6', 'quark_d', '−⅓ q_e', 'd'],
+    ]) {
+      ball(x, y, 36, color, id);
+      lab(svg, x, y, q, { size: 18, halo: false });
+      lab(svg, x + 44, y + 34, flavor, { size: 20 });
+    }
+    lab(svg, (L + R) / 2, T + 22, '\\rm{Total} = 1q_e', { size: 18 });
+    note(svg, (L + R) / 2, B + 20, 'Proton', { size: 18 });
+    svg.path('M 92 432 Q 80 330 150 248', { color: '#6f7378', width: 5 });
+    svg.arrow(136, 268, 158, 238, { color: '#6f7378', width: 5, head: 20 });
+    ball(110, 460, 22, '#4f7fa8', 'small_p');
+    sign(svg, 110, 460, '+', { size: 18 });
+    ball(170, 456, 10, '#9a7ec4', 'small_e');
+    sign(svg, 170, 456, '−', { size: 14 });
+    note(svg, 110, 494, 'Proton', { size: 17 });
+    note(svg, 180, 494, 'Electron', { size: 17 });
+    return svg.render();
+  },
+
+  // 18.1 Fig. 7 — pair production and annihilation conserve charge
+  Figure_18_01_07: () => {
+    const svg = new Svg({
+      width: 640,
+      height: 920,
+      title: 'Pair production and annihilation',
+      desc: '(a) A burst of energy E is converted into matter: an electron e− and an antielectron e+ fly apart from the point where the energy arrives. The mass created is Δm = 2me = E/c². The total charge is zero before and after. (b) An electron and an antielectron collide and annihilate, leaving a burst of energy E. Again the total charge is zero before and after.',
+    });
+    svg.add(
+      '<defs><linearGradient id="energy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ef8a6a" stop-opacity="0"/><stop offset="1" stop-color="#ef8a6a"/></linearGradient></defs>'
+    );
+    const energy = (x0, x1, y) =>
+      svg.polygon(
+        [
+          [x0, y - 18],
+          [x1 - 40, y - 18],
+          [x1 - 40, y - 38],
+          [x1, y],
+          [x1 - 40, y + 38],
+          [x1 - 40, y + 18],
+          [x0, y + 18],
+        ],
+        { fill: 'url(#energy)' }
+      );
+    const burst = (x, y) => {
+      const star = s =>
+        Array.from({ length: 14 }, (_, i) => {
+          const a = rad(i * (360 / 14));
+          const r = (i % 2 ? 0.45 : 1) * s;
+          return [x + r * 0.7 * Math.cos(a), y + r * Math.sin(a)];
+        });
+      svg.polygon(star(42), { fill: '#ffe81a' });
+      svg.polygon(star(30), { fill: '#e8473c' });
+      svg.polygon(star(14), { fill: '#f6a33a' });
+    };
+    const particle = (x, y, anti) => {
+      svg.circle(x, y, 17, {
+        fill: anti ? '#ef6f5e' : '#a18ccc',
+        stroke: anti ? '#b8322a' : '#6f5aa0',
+        width: 1.2,
+      });
+      lab(svg, x, y, anti ? 'e^+' : 'e^−', { size: 20, halo: false, color: '#ffffff' });
+    };
+    const ledger = y0 => {
+      note(svg, 80, y0, 'Before', { anchor: 'start', size: 24 });
+      lab(svg, 80, y0 + 36, 'q_{tot} = 0', { anchor: 'start', size: 24 });
+      note(svg, 440, y0, 'After', { anchor: 'start', size: 24 });
+      lab(svg, 440, y0 + 36, 'q_{tot} = 0', { anchor: 'start', size: 24 });
+    };
+    // (a) Energy in, a pair out.
+    const ya = 150;
+    energy(0, 290, ya);
+    lab(svg, 190, ya - 58, 'E', { size: 26 });
+    burst(340, ya);
+    svg.arrow(372, ya - 12, 600, ya - 92, { color: COLORS.black, width: 1.6, head: 14 });
+    svg.arrow(372, ya + 12, 600, ya + 92, { color: COLORS.black, width: 1.6, head: 14 });
+    particle(612, ya - 120, false);
+    note(svg, 586, ya - 120, 'electron', { anchor: 'end', size: 22 });
+    particle(612, ya + 122, true);
+    note(svg, 586, ya + 122, 'antielectron', { anchor: 'end', size: 22 });
+    lab(svg, 290, ya + 82, 'Δm = 2m_e = E/c^2', { size: 24 });
+    ledger(ya + 175);
+    caption(svg, 340, ya + 262, '(a)');
+    // (b) A pair in, energy out.
+    const yb = 610;
+    svg.arrow(0, yb - 92, 266, yb - 10, { color: COLORS.black, width: 1.6, head: 14 });
+    svg.arrow(0, yb + 92, 266, yb + 10, { color: COLORS.black, width: 1.6, head: 14 });
+    particle(150, yb - 96, false);
+    note(svg, 180, yb - 96, 'electron', { anchor: 'start', size: 22 });
+    particle(150, yb + 98, true);
+    note(svg, 180, yb + 98, 'antielectron', { anchor: 'start', size: 22 });
+    burst(300, yb);
+    energy(330, 630, yb);
+    lab(svg, 380, yb - 58, 'E', { size: 26 });
+    ledger(yb + 165);
+    caption(svg, 340, yb + 252, '(b)');
+    return svg.render();
+  },
+
   // 18.2 Fig. 3 — charging two spheres by induction
   Figure_18_02_03: () => {
     const svg = new Svg({

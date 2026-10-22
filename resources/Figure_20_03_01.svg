@@ -2,8 +2,8 @@
 <title id="title">Resistance of a uniform cylinder</title>
 <desc id="desc">A uniform cylinder of length L, cross-sectional area A and resistivity ρ is equivalent to a resistor R = ρL/A. The longer the cylinder, the greater its resistance; the larger its area, the smaller its resistance.</desc>
 <rect width="680" height="320" fill="#ffffff"/>
-<defs><linearGradient id="cyl20_6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b78c2"/><stop offset="0.35" stop-color="#d9ecfb"/><stop offset="0.7" stop-color="#d9ecfb"/><stop offset="1" stop-color="#3b78c2"/></linearGradient></defs>
-<path d="M 90 105 L 520 105 A 22.75 65 0 0 1 520 235 L 90 235 Z" fill="url(#cyl20_6)" stroke="#9a94a3" stroke-width="1.5"/>
+<defs><linearGradient id="cyl20_90_520_170_65" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b78c2"/><stop offset="0.35" stop-color="#d9ecfb"/><stop offset="0.7" stop-color="#d9ecfb"/><stop offset="1" stop-color="#3b78c2"/></linearGradient></defs>
+<path d="M 90 105 L 520 105 A 22.75 65 0 0 1 520 235 L 90 235 Z" fill="url(#cyl20_90_520_170_65)" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="90" cy="170" rx="22.75" ry="65" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="90" cy="170" rx="23" ry="65" fill="#e8f3fc" stroke="#2e64a6" stroke-width="2"/>
 <ellipse cx="520" cy="170" rx="23" ry="65" fill="none" stroke="#2e64a6" stroke-width="1.6" stroke-dasharray="6 5"/>

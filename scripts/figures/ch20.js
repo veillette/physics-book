@@ -20,8 +20,6 @@ const CURVE = COLORS.maroon;
 const GREEN = '#5aa832';
 const HEART = '#ef8a6a';
 
-let gid = 0;
-
 function lab(svg, x, y, s, o = {}) {
   svg.text(x, y, s, { size: 25, ...o });
 }
@@ -40,8 +38,8 @@ function caption(svg, x, y, s) {
  * curved break at the right.
  */
 function cylinder(svg, x0, x1, yc, r, { fill = ['#f2f1f4', '#bdb8c4'] } = {}) {
-  gid += 1;
-  const id = `cyl20_${gid}`;
+  // IDs depend on geometry, so filtered and full generation produce identical files.
+  const id = `cyl20_${x0}_${x1}_${yc}_${r}`;
   svg.add(
     `<defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${fill[1]}"/><stop offset="0.35" stop-color="${fill[0]}"/><stop offset="0.7" stop-color="${fill[0]}"/><stop offset="1" stop-color="${fill[1]}"/></linearGradient></defs>`
   );
@@ -195,6 +193,45 @@ export default {
       lab(svg, 470, y0 + 8, 'A', { anchor: 'start' });
       caption(svg, 34, yc + 110, cap);
     }
+    return svg.render();
+  },
+
+  // 20.1 Fig. 4 — as one electron is pushed in, another leaves
+  Figure_20_01_04: () => {
+    const svg = new Svg({
+      width: 680,
+      height: 280,
+      title: 'Electrons entering and leaving a length of wire',
+      desc: 'A length of wire holds free electrons. Two electrons are being pushed in at the left end, each with a faded trail and an arrow to the right, and at the same moment two electrons leave at the right end, also moving right. The other electrons inside stay spread out, because their mutual repulsion lets the number in the wire change hardly at all.',
+    });
+    cylinder(svg, 70, 600, 140, 105);
+    const electron = (x, y, { moving = false } = {}) => {
+      if (moving)
+        for (const [dx, op] of [
+          [-26, 0.25],
+          [-13, 0.5],
+        ])
+          svg.add(
+            `<circle cx="${x + dx}" cy="${y}" r="17" fill="${NEG}" fill-opacity="${op}" stroke="${NEG}" stroke-opacity="${op}"/>`
+          );
+      charge(svg, x, y, 'e^−', { fill: NEG, r: 17 });
+      if (moving) svg.arrow(x + 20, y, x + 84, y, { color: WIRE, width: 2, head: 13 });
+    };
+    // Entering at the left, leaving at the right.
+    electron(70, 92, { moving: true });
+    electron(110, 196, { moving: true });
+    electron(560, 86, { moving: true });
+    electron(585, 186, { moving: true });
+    for (const [x, y] of [
+      [300, 60],
+      [380, 104],
+      [220, 140],
+      [400, 172],
+      [290, 214],
+      [480, 226],
+      [500, 120],
+    ])
+      electron(x, y);
     return svg.render();
   },
 

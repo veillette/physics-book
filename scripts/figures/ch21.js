@@ -25,7 +25,7 @@ import {
   switchSymbol,
   wire,
 } from './circuit.js';
-import { COLORS, Plot, Svg } from './svg.js';
+import { COLORS, Plot, Svg, rad } from './svg.js';
 
 const NODE = COLORS.maroon;
 const SHADE = '#dcecf7';
@@ -164,6 +164,47 @@ function sourceLeft(svg, x, yTop, yBot, { emf = 'emf', r = 'r', plusSign = true,
     on(svg, 'R', [x, ry - 35], [x, ry + 35]);
     lab(svg, x - 18, ry, rLabel || r, { anchor: 'end' });
   }
+}
+
+/**
+ * A dry cell standing upright, seen slightly from above: gray body, gold band
+ * with a chevron edge, and the positive nub at (cx, top).
+ */
+function dryCell(svg, cx, top, h, r) {
+  if (!svg.cellDefs) {
+    svg.cellDefs = true;
+    const grad = (id, stops) =>
+      `<linearGradient id="${id}" x1="0" y1="0" x2="1" y2="0">${stops
+        .map(([o, c]) => `<stop offset="${o}" stop-color="${c}"/>`)
+        .join('')}</linearGradient>`;
+    svg.add(
+      `<defs>${grad('cell_body', [
+        [0, '#8c8f96'],
+        [0.35, '#eceef2'],
+        [0.7, '#b3b6bd'],
+        [1, '#7a7d84'],
+      ])}${grad('cell_gold', [
+        [0, '#b8892a'],
+        [0.35, '#f6d684'],
+        [0.7, '#dcae45'],
+        [1, '#a8791c'],
+      ])}</defs>`
+    );
+  }
+  const e = r * 0.28;
+  const edge = '#6f7178';
+  svg.path(
+    `M ${cx - r} ${top} L ${cx - r} ${top + h} A ${r} ${e} 0 0 0 ${cx + r} ${top + h} L ${cx + r} ${top} Z`,
+    { color: edge, width: 1.2, fill: 'url(#cell_body)' }
+  );
+  const band = h * 0.38;
+  svg.path(
+    `M ${cx - r} ${top} L ${cx - r} ${top + band} L ${cx} ${top + band + r * 0.32} L ${cx + r} ${top + band} L ${cx + r} ${top} Z`,
+    { color: '#9a7420', width: 1, fill: 'url(#cell_gold)' }
+  );
+  svg.ellipse(cx, top, r, e, { fill: '#c9ccd2', stroke: edge, width: 1.2 });
+  svg.ellipse(cx, top, r * 0.82, e * 0.82, { fill: '#dfe1e5', stroke: '#a6a9b0', width: 1 });
+  svg.ellipse(cx, top, r * 0.14, e * 0.4, { fill: '#7f93a8', stroke: '#56687c', width: 1 });
 }
 
 // ---------------------------------------------------------------------------
@@ -737,6 +778,139 @@ export default {
     return svg.render();
   },
 
+  // 21.2 Fig. 2 — a dry cell's emf and internal resistance
+  Figure_21_02_02: () => {
+    const svg = new Svg({
+      width: 620,
+      height: 640,
+      title: 'A dry cell modeled as an emf and an internal resistance',
+      desc: 'A carbon-zinc dry cell is drawn beside its schematic: a source of emf (long plate positive, at the top) in series with an internal resistance r, between the two output terminals. The terminal voltage V measured across the terminals is V = emf − Ir, where I is the current through the cell, shown flowing up.',
+    });
+    const x = 330;
+    const [tTop, tBot] = [90, 470];
+    svg.line(120, 150, x, tTop, { color: WIRE, width: 1.6 });
+    svg.line(120, 400, x, tBot, { color: WIRE, width: 1.6 });
+    dryCell(svg, 120, 150, 250, 95);
+    wire(svg, [
+      [x, 0],
+      [x, 640],
+    ]);
+    on(svg, 'cell', [x, 225], [x, 175]);
+    plus(svg, x + 38, 162);
+    plus(svg, x + 38, 230, '−');
+    lab(svg, x + 50, 200, 'emf', { anchor: 'start' });
+    on(svg, 'R', [x, 285], [x, 375]);
+    lab(svg, x + 22, 330, 'r', { anchor: 'start' });
+    node(svg, x, tTop);
+    node(svg, x, tBot);
+    svg.arrow(510, tTop + 10, 510, tBot - 10, {
+      color: COLORS.black,
+      width: 1.8,
+      head: 14,
+      start: true,
+    });
+    lab(svg, 510, (tTop + tBot) / 2, 'V = emf − Ir', { size: 24 });
+    currentArrow(svg, x + 18, 620, x + 18, 550);
+    lab(svg, x + 36, 590, 'I', { anchor: 'start' });
+    return svg.render();
+  },
+
+  // 21.2 Fig. 8 — two cells in series
+  Figure_21_02_08: () => {
+    const svg = new Svg({
+      width: 560,
+      height: 640,
+      title: 'Two voltage sources in series',
+      desc: 'Two dry cells are stacked, the positive terminal of the lower one touching the negative end of the upper one. Beside them, the schematic shows the same series connection: emf1 with internal resistance r1, then emf2 with internal resistance r2. The emfs add and so do the internal resistances.',
+    });
+    const x = 400;
+    const [tTop, tBot] = [50, 600];
+    svg.line(110, 170, x, tTop, { color: WIRE, width: 1.6 });
+    svg.line(110, 450, x, tBot, { color: WIRE, width: 1.6 });
+    dryCell(svg, 110, 310, 140, 55);
+    dryCell(svg, 110, 170, 140, 55);
+    wire(svg, [
+      [x, tTop],
+      [x, tBot],
+    ]);
+    on(svg, 'cell', [x, 130], [x, 80]);
+    lab(svg, x + 40, 104, 'emf_1', { anchor: 'start' });
+    on(svg, 'R', [x, 180], [x, 270]);
+    lab(svg, x + 22, 225, 'r_1', { anchor: 'start' });
+    on(svg, 'cell', [x, 360], [x, 310]);
+    lab(svg, x + 40, 334, 'emf_2', { anchor: 'start' });
+    on(svg, 'R', [x, 420], [x, 510]);
+    lab(svg, x + 22, 465, 'r_2', { anchor: 'start' });
+    for (const y of [tTop, 155, 290, 385, tBot]) node(svg, x, y);
+    return svg.render();
+  },
+
+  // 21.2 Fig. 11 — a two-cell flashlight and its schematic
+  Figure_21_02_11: () => {
+    const svg = new Svg({
+      width: 900,
+      height: 440,
+      title: 'A flashlight with two cells in series',
+      desc: 'Left: two dry cells stacked in series light a bulb connected across them. Right: the schematic, with emf1 and internal resistance r1 in series with emf2 and internal resistance r2, driving current I through the load resistance R_load. I = (emf1 + emf2)/(r1 + r2 + R_load).',
+    });
+    // (a) The flashlight.
+    const bx = 230;
+    wire(svg, [
+      [80, 70],
+      [80, 34],
+      [bx, 34],
+      [bx, 174],
+    ]);
+    wire(svg, [
+      [bx, 244],
+      [bx, 400],
+      [80, 400],
+      [80, 320],
+    ]);
+    dryCell(svg, 80, 195, 125, 48);
+    dryCell(svg, 80, 70, 125, 48);
+    for (let a = 0; a < 360; a += 30) {
+      const c = Math.cos(rad(a));
+      const s = Math.sin(rad(a));
+      if (s > 0.6) continue;
+      svg.line(bx + c * 30, 196 - s * 30, bx + c * 42, 196 - s * 42, {
+        color: COLORS.orange,
+        width: 2,
+      });
+    }
+    svg.circle(bx, 196, 22, { fill: '#fff1a8', stroke: '#c9a227', width: 1.5 });
+    svg.path(`M ${bx - 6} 214 L ${bx - 4} 194 L ${bx + 4} 194 L ${bx + 6} 214`, {
+      color: '#8a6d1a',
+      width: 1.4,
+    });
+    svg.rect(bx - 11, 216, 22, 26, { fill: '#a9acb3', stroke: '#6f7178', width: 1.2, rx: 2 });
+    for (const y of [222, 229, 236])
+      svg.line(bx - 11, y, bx + 11, y, { color: '#6f7178', width: 1 });
+    svg.path('M 272 262 Q 320 300 372 226', { color: '#555555', width: 5 });
+    svg.arrow(360, 246, 378, 216, { color: '#555555', width: 5, head: 20 });
+
+    // (b) The schematic.
+    const [L, T, R, B] = [440, 30, 620, 420];
+    box(svg, L, T, R, B);
+    on(svg, 'cell', [L, 150], [L, 100]);
+    lab(svg, L + 40, 124, 'emf_1', { anchor: 'start' });
+    on(svg, 'R', [L, 170], [L, 240]);
+    lab(svg, L + 20, 205, 'r_1', { anchor: 'start' });
+    on(svg, 'cell', [L, 300], [L, 250]);
+    lab(svg, L + 40, 274, 'emf_2', { anchor: 'start' });
+    on(svg, 'R', [L, 330], [L, 400]);
+    lab(svg, L + 20, 365, 'r_2', { anchor: 'start' });
+    on(svg, 'R', [R, 185], [R, 265]);
+    lab(svg, R + 18, 225, 'R_{load}', { anchor: 'start' });
+    loopArrow(svg, 540, 130, 70, 150, 30);
+    lab(svg, 540, 46, 'I');
+    lab(svg, 704, 62, 'I = ', { anchor: 'end' });
+    svg.text(792, 46, 'emf_1 + emf_2', { size: 20 });
+    svg.line(708, 64, 878, 64, { color: COLORS.text, width: 1.5 });
+    svg.text(792, 84, 'r_1 + r_2 + R_{load}', { size: 20 });
+    return svg.render();
+  },
+
   // 21.2 Fig. 5 — a voltage source and its load
   Figure_21_02_05: () => {
     const svg = new Svg({
@@ -929,6 +1103,120 @@ export default {
     lab(svg, 330, a[1] - 34, 'I_1 = 11 \\rm{A}', { anchor: 'start', size: 24 });
     lab(svg, a[0] + 22, 290, 'I_3 = 4 \\rm{A}', { anchor: 'start', size: 24 });
     lab(svg, 40, 362, 'I_1 = I_2 + I_3', { anchor: 'start', size: 26 });
+    return svg.render();
+  },
+
+  // 21.3 Fig. 3 — the loop rule, as a schematic and as a potential "roller coaster"
+  Figure_21_03_03: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 1040,
+      title: 'The loop rule',
+      desc: '(a) A series circuit: an 18 V emf with internal resistance r = 0.5 Ω drives a current I = 2.0 A clockwise through R1 = 6.0 Ω and R2 = 2.5 Ω. The potential is 0 V on the negative side of the emf and 18 V on its positive side, 17 V after r, 5 V after R1, and 0 V again after R2, so the 18 V rise is matched by drops of 1 V, 12 V and 5 V. (b) The same loop in perspective, with the height of a wall above each point of the circuit showing the potential there: the emf raises the charge from 0 to 18 V, and r, R1 and R2 lower it back to 0, like a roller coaster.',
+    });
+    // Potentials follow from I = 2.0 A: drops of 1 V across r, 12 V across R1, 5 V across R2.
+    const I = 2.0;
+    const Vr = 18 - I * 0.5;
+    const V1 = Vr - I * 6.0;
+    // (a) Schematic.
+    const [L, T, R, B] = [150, 70, 650, 460];
+    box(svg, L, T, R, B);
+    on(svg, 'cell', [300, T], [350, T]);
+    on(svg, 'R', [420, T], [540, T], { size: 70 });
+    on(svg, 'R', [330, B], [460, B], { size: 70 });
+    on(svg, 'R', [L, 200], [L, 320], { size: 70 });
+    for (const [x, y, s, dx, dy] of [
+      [250, T, '0 \\rm{V}', 0, 26],
+      [390, T, '18 \\rm{V}', 0, 26],
+      [560, T, `${Vr} \\rm{V}`, 0, 26],
+      [310, B, `${V1} \\rm{V}`, 0, 26],
+      [480, B, `${Vr} \\rm{V}`, 0, 26],
+      [L, 175, '0 \\rm{V}', -14, 0],
+      [L, 345, `${V1} \\rm{V}`, -14, 0],
+    ]) {
+      node(svg, x, y);
+      val(svg, x + dx, y + dy, s, { anchor: dx < 0 ? 'end' : 'middle' });
+    }
+    lab(svg, 480, T - 30, 'r = 0.5 Ω');
+    lab(svg, 395, B - 36, 'R_1 = 6.0 Ω');
+    lab(svg, L + 26, 260, 'R_2 = 2.5 Ω', { anchor: 'start' });
+    loopArrow(svg, 400, 300, 180, 150, 30);
+    lab(svg, 400, 160, 'emf = 18 \\rm{V}');
+    lab(svg, 560, 240, 'I = 2.0 \\rm{A}', { anchor: 'start' });
+    caption(svg, 400, 510, '(a)');
+
+    // (b) Each point of the loop (u along, v into the page) raised by its potential.
+    const [W, D, k] = [500, 330, 9];
+    const P = (u, v, V = 0) => [40 + u + 0.5 * v, 770 + 0.5 * v - k * V];
+    const [c0, r0, r1, a0, a1, b0, b1] = [150, 260, 400, 380, 170, 230, 100];
+    // Corners and element ends, clockwise from the back left corner: [u, v, V, element to next].
+    const loop = [
+      [0, 0, 0, 'w'],
+      [c0 - 14, 0, 0, 'cell'],
+      [c0 + 14, 0, 18, 'w'],
+      [r0, 0, 18, 'R'],
+      [r1, 0, Vr, 'w'],
+      [W, 0, Vr, 'w'],
+      [W, D, Vr, 'w'],
+      [a0, D, Vr, 'R'],
+      [a1, D, V1, 'w'],
+      [0, D, V1, 'w'],
+      [0, b0, V1, 'R'],
+      [0, b1, 0, 'w'],
+      [0, 0, 0, 'w'],
+    ];
+    svg.add(
+      '<defs><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7ec9c"/><stop offset="1" stop-color="#fffbe6"/></linearGradient></defs>'
+    );
+    const wall = i => {
+      const [[pu, pv, pV], [qu, qv, qV]] = [loop[i], loop[i + 1]];
+      svg.polygon([P(pu, pv), P(qu, qv), P(qu, qv, qV), P(pu, pv, pV)], {
+        fill: 'url(#wall)',
+        stroke: '#6b6033',
+        width: 1.2,
+      });
+    };
+    // Back walls first, then the sides, then the front ones, so nearer walls cover farther ones.
+    for (const i of [0, 1, 2, 3, 4, 9, 10, 11, 5, 6, 7, 8]) wall(i);
+    for (let i = 0; i < loop.length - 1; i += 1) {
+      const [p, q] = [loop[i], loop[i + 1]];
+      const [A, Bq] = [P(p[0], p[1]), P(q[0], q[1])];
+      if (p[3] === 'R')
+        resistor(svg, A, Bq, { size: Math.hypot(Bq[0] - A[0], Bq[1] - A[1]) * 0.7 });
+      else if (p[3] === 'cell') cell(svg, A, Bq, { gap: 10, long: 46, short: 24 });
+      else svg.line(...A, ...Bq, { color: WIRE, width: 2 });
+    }
+    for (const [u, v, V, s, dx, dy] of [
+      [c0 - 14, 0, 0, '0', -6, 22],
+      [c0 + 14, 0, 18, '18 \\rm{V}', 10, 22],
+      [r1, 0, Vr, `${Vr} \\rm{V}`, 0, 22],
+      [a0, D, Vr, `${Vr} \\rm{V}`, 0, 22],
+      [a1, D, V1, `${V1} \\rm{V}`, 0, 22],
+      [0, b0, V1, `${V1} \\rm{V}`, -14, 10],
+      [0, b1, 0, '0', -14, 4],
+    ]) {
+      const base = P(u, v);
+      const high = P(u, v, V);
+      if (V > 0) svg.line(...base, ...high, { color: '#6b6033', width: 1.2 });
+      node(svg, ...high);
+      if (V > 0) node(svg, ...base);
+      val(svg, base[0] + dx, base[1] + dy, s, { anchor: dx < 0 ? 'end' : 'middle' });
+    }
+    lab(svg, ...P(c0 - 24, 0, 7), 'emf', { size: 20, anchor: 'end' });
+    lab(svg, ...P((r0 + r1) / 2, -34, 0), 'r', { size: 20 });
+    lab(svg, ...P((a0 + a1) / 2, D + 50, 0), 'R_1', { size: 20 });
+    lab(svg, ...P(-34, (b0 + b1) / 2, 0), 'R_2', { size: 20 });
+    const [s0, s1] = [P(170, 120), P(390, 120)];
+    svg.path(
+      `M ${s0[0]} ${s0[1]} Q ${(s0[0] + s1[0]) / 2} ${s0[1] - 70} ${s1[0] - 8} ${s1[1] - 6}`,
+      {
+        color: CURRENT,
+        width: 3.5,
+      }
+    );
+    svg.arrow(s1[0] - 22, s1[1] - 16, s1[0], s1[1], { color: CURRENT, width: 3.5, head: 15 });
+    lab(svg, s1[0] + 14, s1[1] + 4, 'I = 2.0 \\rm{A}', { anchor: 'start' });
+    caption(svg, 400, 1020, '(b)');
     return svg.render();
   },
 

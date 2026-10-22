@@ -3,8 +3,8 @@
 <desc id="desc">Charges q move to the right along a section of wire and pass through a cross-sectional area A. The current is the charge that flows through A per unit time; one ampere is one coulomb through the area each second.</desc>
 <rect width="680" height="340" fill="#ffffff"/>
 <text x="340" y="37.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Current</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">flow</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">charge</tspan></text>
-<defs><linearGradient id="cyl20_1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
-<path d="M 40 100 L 630 100 A 35 100 0 0 1 630 300 L 40 300 Z" fill="url(#cyl20_1)" stroke="#9a94a3" stroke-width="1.5"/>
+<defs><linearGradient id="cyl20_40_630_200_100" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 40 100 L 630 100 A 35 100 0 0 1 630 300 L 40 300 Z" fill="url(#cyl20_40_630_200_100)" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="40" cy="200" rx="35" ry="100" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="320" cy="200" rx="35" ry="100" fill="#ffffff" fill-opacity="0.35" stroke="#9a94a3" stroke-width="1.5"/>
 <circle cx="270" cy="145" r="20" fill="#5b8fd1" stroke="#3a5a8a" stroke-width="1"/>

@@ -2,8 +2,8 @@
 <title id="title">Positive and negative charges give the same conventional current</title>
 <desc id="desc">(a) Positive charges move to the right, in the direction of the electric field E, through a cross-sectional area A of a wire; the conventional current I is also to the right. (b) Negative charges move to the left, opposite the field, through the area A; the conventional current I is still to the right, in the direction of the field.</desc>
 <rect width="640" height="620" fill="#ffffff"/>
-<defs><linearGradient id="cyl20_2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
-<path d="M 70 85 L 560 85 A 29.749999999999996 85 0 0 1 560 255 L 70 255 Z" fill="url(#cyl20_2)" stroke="#9a94a3" stroke-width="1.5"/>
+<defs><linearGradient id="cyl20_70_560_170_85" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 70 85 L 560 85 A 29.749999999999996 85 0 0 1 560 255 L 70 255 Z" fill="url(#cyl20_70_560_170_85)" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="70" cy="170" rx="29.75" ry="85" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="300" cy="170" rx="29.749999999999996" ry="85" fill="#ffffff" fill-opacity="0.35" stroke="#9a94a3" stroke-width="1.5"/>
 <circle cx="140" cy="120" r="11" fill="#ffffff" stroke="#2a9fae" stroke-width="3.5"/>
@@ -37,8 +37,8 @@
 <polygon points="308,120 309.32,114.34 312.86,116.81" fill="#333333"/>
 <text x="470" y="56.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
 <text x="34" y="287" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
-<defs><linearGradient id="cyl20_3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
-<path d="M 70 385 L 560 385 A 29.749999999999996 85 0 0 1 560 555 L 70 555 Z" fill="url(#cyl20_3)" stroke="#9a94a3" stroke-width="1.5"/>
+<defs><linearGradient id="cyl20_70_560_470_85" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 70 385 L 560 385 A 29.749999999999996 85 0 0 1 560 555 L 70 555 Z" fill="url(#cyl20_70_560_470_85)" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="70" cy="470" rx="29.75" ry="85" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="300" cy="470" rx="29.749999999999996" ry="85" fill="#ffffff" fill-opacity="0.35" stroke="#9a94a3" stroke-width="1.5"/>
 <circle cx="140" cy="420" r="11" fill="#ffffff" stroke="#e0245e" stroke-width="3.5"/>

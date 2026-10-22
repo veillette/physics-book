@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="280" viewBox="0 0 680 280" role="img" aria-labelledby="title desc">
+<title id="title">Electrons entering and leaving a length of wire</title>
+<desc id="desc">A length of wire holds free electrons. Two electrons are being pushed in at the left end, each with a faded trail and an arrow to the right, and at the same moment two electrons leave at the right end, also moving right. The other electrons inside stay spread out, because their mutual repulsion lets the number in the wire change hardly at all.</desc>
+<rect width="680" height="280" fill="#ffffff"/>
+<defs><linearGradient id="cyl20_70_600_140_105" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 70 35 L 600 35 A 36.75 105 0 0 1 600 245 L 70 245 Z" fill="url(#cyl20_70_600_140_105)" stroke="#9a94a3" stroke-width="1.5"/>
+<ellipse cx="70" cy="140" rx="36.75" ry="105" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
+<circle cx="44" cy="92" r="17" fill="#e0245e" fill-opacity="0.25" stroke="#e0245e" stroke-opacity="0.25"/>
+<circle cx="57" cy="92" r="17" fill="#e0245e" fill-opacity="0.5" stroke="#e0245e" stroke-opacity="0.5"/>
+<circle cx="70" cy="92" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="70" y="99.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<line x1="90" y1="92" x2="142" y2="92" stroke="#222222" stroke-width="2"/>
+<polygon points="154,92 141,97.2 141,86.8" fill="#222222"/>
+<circle cx="84" cy="196" r="17" fill="#e0245e" fill-opacity="0.25" stroke="#e0245e" stroke-opacity="0.25"/>
+<circle cx="97" cy="196" r="17" fill="#e0245e" fill-opacity="0.5" stroke="#e0245e" stroke-opacity="0.5"/>
+<circle cx="110" cy="196" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="110" y="203.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<line x1="130" y1="196" x2="182" y2="196" stroke="#222222" stroke-width="2"/>
+<polygon points="194,196 181,201.2 181,190.8" fill="#222222"/>
+<circle cx="534" cy="86" r="17" fill="#e0245e" fill-opacity="0.25" stroke="#e0245e" stroke-opacity="0.25"/>
+<circle cx="547" cy="86" r="17" fill="#e0245e" fill-opacity="0.5" stroke="#e0245e" stroke-opacity="0.5"/>
+<circle cx="560" cy="86" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="560" y="93.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<line x1="580" y1="86" x2="632" y2="86" stroke="#222222" stroke-width="2"/>
+<polygon points="644,86 631,91.2 631,80.8" fill="#222222"/>
+<circle cx="559" cy="186" r="17" fill="#e0245e" fill-opacity="0.25" stroke="#e0245e" stroke-opacity="0.25"/>
+<circle cx="572" cy="186" r="17" fill="#e0245e" fill-opacity="0.5" stroke="#e0245e" stroke-opacity="0.5"/>
+<circle cx="585" cy="186" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="585" y="193.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<line x1="605" y1="186" x2="657" y2="186" stroke="#222222" stroke-width="2"/>
+<polygon points="669,186 656,191.2 656,180.8" fill="#222222"/>
+<circle cx="300" cy="60" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="300" y="67.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<circle cx="380" cy="104" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="380" y="111.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<circle cx="220" cy="140" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="220" y="147.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<circle cx="400" cy="172" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="400" y="179.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<circle cx="290" cy="214" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="290" y="221.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<circle cx="480" cy="226" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="480" y="233.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<circle cx="500" cy="120" r="17" fill="#e0245e" stroke="#3a5a8a" stroke-width="1"/>
+<text x="500" y="127.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+</svg>

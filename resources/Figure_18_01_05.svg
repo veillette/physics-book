@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520" role="img" aria-labelledby="title desc">
+<title id="title">Quark charges inside a proton</title>
+<desc id="desc">A proton and an electron are drawn small at the bottom. An arrow leads from the proton to a magnified view of part of it, which holds three quarks: two up quarks u, each with charge +2/3 qe, and a down quark d with charge −1/3 qe. Together they total +1 qe, the proton’s charge.</desc>
+<rect width="420" height="520" fill="#ffffff"/>
+<rect x="10" y="10" width="400" height="500" fill="none" stroke="#222222" stroke-width="2.5"/>
+<defs><clipPath id="zoom"><rect x="120" y="35" width="280" height="350"/></clipPath><radialGradient id="proton_in" gradientUnits="userSpaceOnUse" cx="120" cy="425" r="380"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#bfe2f2"/><stop offset="1" stop-color="#1d8cc0"/></radialGradient></defs>
+<circle cx="120" cy="425" r="380" fill="url(#proton_in)" clip-path="url(#zoom)"/>
+<rect x="120" y="35" width="280" height="350" fill="none" stroke="#222222" stroke-width="1.5"/>
+<defs><radialGradient id="quark_u1" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#cf7a3c"/><stop offset="1" stop-color="#cf7a3c" stop-opacity="0.85"/></radialGradient></defs>
+<circle cx="200" cy="150" r="36" fill="url(#quark_u1)" stroke="#4a4a4a" stroke-width="0.8"/>
+<text x="200" y="156.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+⅔ </tspan><tspan font-style="italic">q</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">e</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="244" y="191" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">u</tspan></text>
+<defs><radialGradient id="quark_u2" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#2fa84f"/><stop offset="1" stop-color="#2fa84f" stop-opacity="0.85"/></radialGradient></defs>
+<circle cx="305" cy="225" r="36" fill="url(#quark_u2)" stroke="#4a4a4a" stroke-width="0.8"/>
+<text x="305" y="231.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+⅔ </tspan><tspan font-style="italic">q</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">e</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="349" y="266" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">u</tspan></text>
+<defs><radialGradient id="quark_d" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#2e86d6"/><stop offset="1" stop-color="#2e86d6" stop-opacity="0.85"/></radialGradient></defs>
+<circle cx="215" cy="295" r="36" fill="url(#quark_d)" stroke="#4a4a4a" stroke-width="0.8"/>
+<text x="215" y="301.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−⅓ </tspan><tspan font-style="italic">q</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">e</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="259" y="336" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<text x="260" y="63.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Total</tspan><tspan font-style="normal"> = 1</tspan><tspan font-style="italic">q</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">e</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="260" y="411.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Proton</tspan></text>
+<path d="M 92 432 Q 80 330 150 248" fill="none" stroke="#6f7378" stroke-width="5" stroke-linejoin="round"/>
+<line x1="136" y1="268" x2="146.76" y2="253.32" stroke="#6f7378" stroke-width="5"/>
+<polygon points="158,238 152.62,258.86 139.72,249.4" fill="#6f7378"/>
+<defs><radialGradient id="small_p" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#4f7fa8"/><stop offset="1" stop-color="#4f7fa8" stop-opacity="0.85"/></radialGradient></defs>
+<circle cx="110" cy="460" r="22" fill="url(#small_p)" stroke="#4a4a4a" stroke-width="0.8"/>
+<text x="110" y="466.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<defs><radialGradient id="small_e" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#9a7ec4"/><stop offset="1" stop-color="#9a7ec4" stop-opacity="0.85"/></radialGradient></defs>
+<circle cx="170" cy="456" r="10" fill="url(#small_e)" stroke="#4a4a4a" stroke-width="0.8"/>
+<text x="170" y="460.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="110" y="499.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Proton</tspan></text>
+<text x="180" y="499.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Electron</tspan></text>
+</svg>

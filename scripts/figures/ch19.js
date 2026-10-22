@@ -210,6 +210,59 @@ function stepArrow(svg, x1, y1, x2, y2, bend) {
 }
 
 export default {
+  // 19.1 Fig. 1 — a charge between plates is like a mass rolling downhill
+  Figure_19_01_01: () => {
+    const svg = new Svg({
+      width: 700,
+      height: 770,
+      title: 'A charge accelerated by an electric field, compared with a mass rolling downhill',
+      desc: 'Top: a positive charge +q starts at point A near a positively charged plate on the left and is pushed by the uniform field, drawn as blue field lines running right, toward point B at a hole in the negatively charged plate on the right. The electric potential energy it loses becomes kinetic energy: ΔPE_elec = ΔKE. Bottom: a mass m rolling down a grassy slope converts gravitational potential energy to kinetic energy in the same way: ΔPE_grav = ΔKE.',
+    });
+    const [xl, xr] = [60, 650];
+    svg.add(
+      '<defs><linearGradient id="plate19" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4c4cc"/><stop offset="0.5" stop-color="#ececf0"/><stop offset="1" stop-color="#b4b4be"/></linearGradient></defs>'
+    );
+    svg.rect(6, 50, xl - 6, 500, { fill: 'url(#plate19)', stroke: METAL_EDGE, width: 1.2 });
+    svg.rect(xr, 50, 50, 252, { fill: 'url(#plate19)', stroke: METAL_EDGE, width: 1.2 });
+    svg.rect(xr, 346, 50, 204, { fill: 'url(#plate19)', stroke: METAL_EDGE, width: 1.2 });
+    fringe(svg, xl, xr, 104, -40);
+    for (const y of [184, 254, 372, 464]) hLine(svg, xl, xr, y);
+    fringe(svg, xl, xr, 522, 40);
+    for (const y of [104, 184, 254, 372, 464, 522]) {
+      sign(svg, 33, y, '+');
+      sign(svg, xr + 25, y, '−');
+    }
+    svg.circle(200, 324, 26, { fill: '#f2a3ae', stroke: '#c0566a', width: 1.5 });
+    lab(svg, 200, 324, '+q', { size: 24, halo: false });
+    svg.arrow(228, 324, xr, 324, { color: COLORS.black, width: 1.8, head: 14 });
+    note(svg, 200, 282, 'A', { size: 26 });
+    note(svg, xr - 18, 286, 'B', { size: 26 });
+    note(svg, 520, 24, 'ΔPE_{elec} = ΔKE', { size: 26 });
+    // The hill.
+    svg.path(
+      'M 0 638 C 60 620 140 615 200 640 C 270 668 300 715 360 735 C 450 742 600 738 700 742 L 700 770 L 0 770 Z',
+      { color: 'none', width: 0, fill: '#4a8a5c' }
+    );
+    for (const [x, y] of [
+      [72, 626],
+      [410, 739],
+      [460, 739],
+      [672, 740],
+    ])
+      svg.path(
+        `M ${x - 10} ${y} Q ${x - 4} ${y - 14} ${x - 14} ${y - 22} M ${x} ${y} Q ${x + 2} ${y - 16} ${x + 10} ${y - 24} M ${x + 8} ${y} Q ${x + 14} ${y - 10} ${x + 22} ${y - 12}`,
+        {
+          color: '#4a8a5c',
+          width: 2,
+        }
+      );
+    svg.circle(205, 664 - 24, 23, { fill: '#f4a77e', stroke: '#c46a3c', width: 1.5 });
+    lab(svg, 205, 640, 'm', { size: 24, halo: false });
+    svg.arrow(232, 652, 318, 690, { color: COLORS.black, width: 1.8, head: 14 });
+    note(svg, 565, 668, 'ΔPE_{grav} = ΔKE', { size: 26 });
+    return svg.render();
+  },
+
   // 19.1 Fig. 3 — an electron gun
   Figure_19_01_03: () => {
     const svg = new Svg({

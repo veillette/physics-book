@@ -22,7 +22,7 @@ is converted to kinetic energy. Let us explore the work done on a charge $$q $$
 by the electric field in this process, so that we may develop a definition of
 electric potential energy.
 
-![A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.](../resources/Figure_19_01_01.jpg 'A charge accelerated by an electric field is analogous to a mass going down a hill. In both cases potential energy is converted to another form. Work is done by a force, but since this force is conservative, we can write ( W = - \\Delta PE ).')
+![A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.](../resources/Figure_19_01_01.svg 'A charge accelerated by an electric field is analogous to a mass going down a hill. In both cases potential energy is converted to another form. Work is done by a force, but since this force is conservative, we can write ( W = - \\Delta PE ).')
 {: #Figure1}
 
 The electrostatic or Coulomb force is conservative, which means that the work
