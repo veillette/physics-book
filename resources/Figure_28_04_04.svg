@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+<title id="title">Laser light from moving spaceships</title>
+<desc id="desc">Top: a spaceship moving right at v = 0.500c fires laser light ahead of it, which travels at c. Bottom: a spaceship moving left at v = 0.500c fires laser light ahead of it, to the left, also at c.</desc>
+<rect width="620" height="360" fill="#ffffff"/>
+<polygon points="112,90 82,56 72,56 88,84" fill="#9aa0a8" stroke="#5f656c" stroke-width="1.2"/>
+<polygon points="112,90 82,124 72,124 88,96" fill="#9aa0a8" stroke="#5f656c" stroke-width="1.2"/>
+<polygon points="200,90 170,75 90,74 82,78 82,102 90,106 170,105" fill="#e6eef2" stroke="#6f7a80" stroke-width="1.5"/>
+<polygon points="200,90 170,75 170,105" fill="#b9c2c8" stroke="#6f7a80" stroke-width="1.2"/>
+<line x1="82" y1="90" x2="66" y2="90" stroke="#6f7a80" stroke-width="2"/>
+<line x1="200" y1="100" x2="460" y2="100" stroke="#e0245e" stroke-width="2.5"/>
+<text x="270" y="84.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">laser</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">light</tspan></text>
+<line x1="460" y1="84" x2="543" y2="84" stroke="#1f78c8" stroke-width="3"/>
+<polygon points="560,84 542,91.2 542,76.8" fill="#1f78c8"/>
+<text x="506" y="70.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">c</tspan></text>
+<line x1="110" y1="150" x2="203" y2="150" stroke="#7cb82f" stroke-width="3"/>
+<polygon points="220,150 202,157.2 202,142.8" fill="#7cb82f"/>
+<text x="166" y="192.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = 0.500</tspan><tspan font-style="italic">c</tspan></text>
+<polygon points="508,260 538,226 548,226 532,254" fill="#9aa0a8" stroke="#5f656c" stroke-width="1.2"/>
+<polygon points="508,260 538,294 548,294 532,266" fill="#9aa0a8" stroke="#5f656c" stroke-width="1.2"/>
+<polygon points="420,260 450,245 530,244 538,248 538,272 530,276 450,275" fill="#e6eef2" stroke="#6f7a80" stroke-width="1.5"/>
+<polygon points="420,260 450,245 450,275" fill="#b9c2c8" stroke="#6f7a80" stroke-width="1.2"/>
+<line x1="538" y1="260" x2="554" y2="260" stroke="#6f7a80" stroke-width="2"/>
+<line x1="160" y1="270" x2="420" y2="270" stroke="#e0245e" stroke-width="2.5"/>
+<text x="200" y="254.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">laser</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">light</tspan></text>
+<line x1="160" y1="254" x2="77" y2="254" stroke="#1f78c8" stroke-width="3"/>
+<polygon points="60,254 78,246.8 78,261.2" fill="#1f78c8"/>
+<text x="110" y="240.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">c</tspan></text>
+<line x1="510" y1="320" x2="417" y2="320" stroke="#7cb82f" stroke-width="3"/>
+<polygon points="400,320 418,312.8 418,327.2" fill="#7cb82f"/>
+<text x="456" y="356.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = 0.500</tspan><tspan font-style="italic">c</tspan></text>
+</svg>

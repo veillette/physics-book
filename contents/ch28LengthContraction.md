@@ -240,7 +240,7 @@ be as precisely aimed to get down a short pipe as it would down one 3 km long.
 This, again, is an experimental verification of the Special Theory of
 Relativity.
 
-![An electron traveling with velocity v to the right through a horizontal pipe. The electric field lines enter it radially.](../resources/Figure_28_03_04.jpg 'The electric field lines of a high-velocity charged particle are compressed along the direction of motion by length contraction. This produces a different signal when the particle goes through a coil, an experimentally verified effect of length contraction.')
+![An electron traveling with velocity v to the right through a horizontal pipe. The electric field lines enter it radially.](../resources/Figure_28_03_04.svg 'The electric field lines of a high-velocity charged particle are compressed along the direction of motion by length contraction. This produces a different signal when the particle goes through a coil, an experimentally verified effect of length contraction.')
 {: #Figure4}
 
 <div class="exercise"  data-label="">

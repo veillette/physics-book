@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" role="img" aria-labelledby="title desc">
+<title id="title">Field lines of a fast-moving electron</title>
+<desc id="desc">An electron moves at high velocity v to the right through a tube. Its electric field lines, which point radially in toward it, are bunched toward the plane perpendicular to its motion by length contraction, so few lines point forward or backward.</desc>
+<rect width="560" height="400" fill="#ffffff"/>
+<defs><linearGradient id="tube28" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fb2e3"/><stop offset="0.45" stop-color="#eef6fd"/><stop offset="1" stop-color="#5b97d1"/></linearGradient><linearGradient id="fade28" x1="0" y1="0" x2="1" y2="0"><stop offset="0.7" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<polygon points="20,238 560,168 560,208 20,296" fill="url(#tube28)"/>
+<ellipse cx="22" cy="267" rx="12" ry="29" fill="#6fa5dc" stroke="#3f78b0" stroke-width="1.5"/>
+<polygon points="380,160 560,160 560,240 380,240" fill="url(#fade28)"/>
+<line x1="314.09" y1="59.04" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="282.89" y1="132.71" x2="278.99" y2="141.92" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="275.09,151.12 275.33,139.28 283.43,142.71" fill="#1f78c8"/>
+<line x1="314.09" y1="408.96" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="282.89" y1="335.29" x2="278.99" y2="326.08" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="275.09,316.88 283.43,325.29 275.33,328.72" fill="#1f78c8"/>
+<line x1="285.8" y1="49.6" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="266.52" y1="127.24" x2="264.11" y2="136.95" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="261.7,146.65 260.08,134.92 268.62,137.04" fill="#1f78c8"/>
+<line x1="285.8" y1="418.4" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="266.52" y1="340.76" x2="264.11" y2="331.05" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="261.7,321.35 268.62,330.96 260.08,333.08" fill="#1f78c8"/>
+<line x1="265.29" y1="45.69" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="254.64" y1="124.98" x2="253.31" y2="134.89" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="251.98,144.8 249.08,133.31 257.81,134.48" fill="#1f78c8"/>
+<line x1="265.29" y1="422.31" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="254.64" y1="343.02" x2="253.31" y2="333.11" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="251.98,323.2 257.81,333.52 249.08,334.69" fill="#1f78c8"/>
+<line x1="248.95" y1="44.21" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="245.18" y1="124.12" x2="244.71" y2="134.11" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="244.24,144.1 240.36,132.9 249.15,133.32" fill="#1f78c8"/>
+<line x1="248.95" y1="423.79" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="245.18" y1="343.88" x2="244.71" y2="333.89" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="244.24,323.9 249.15,334.68 240.36,335.1" fill="#1f78c8"/>
+<line x1="231.05" y1="44.21" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="234.82" y1="124.12" x2="235.29" y2="134.11" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="235.76,144.1 230.85,133.32 239.64,132.9" fill="#1f78c8"/>
+<line x1="231.05" y1="423.79" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="234.82" y1="343.88" x2="235.29" y2="333.89" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="235.76,323.9 239.64,335.1 230.85,334.68" fill="#1f78c8"/>
+<line x1="214.71" y1="45.69" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="225.36" y1="124.98" x2="226.69" y2="134.89" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="228.02,144.8 222.19,134.48 230.92,133.31" fill="#1f78c8"/>
+<line x1="214.71" y1="422.31" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="225.36" y1="343.02" x2="226.69" y2="333.11" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="228.02,323.2 230.92,334.69 222.19,333.52" fill="#1f78c8"/>
+<line x1="194.2" y1="49.6" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="213.48" y1="127.24" x2="215.89" y2="136.95" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="218.3,146.65 211.38,137.04 219.92,134.92" fill="#1f78c8"/>
+<line x1="194.2" y1="418.4" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="213.48" y1="340.76" x2="215.89" y2="331.05" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="218.3,321.35 219.92,333.08 211.38,330.96" fill="#1f78c8"/>
+<line x1="165.91" y1="59.04" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="197.11" y1="132.71" x2="201.01" y2="141.92" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="204.91,151.12 196.57,142.71 204.67,139.28" fill="#1f78c8"/>
+<line x1="165.91" y1="408.96" x2="240" y2="234" stroke="#1f78c8" stroke-width="1.6"/>
+<line x1="197.11" y1="335.29" x2="201.01" y2="326.08" stroke="#1f78c8" stroke-width="1.6"/>
+<polygon points="204.91,316.88 204.67,328.72 196.57,325.29" fill="#1f78c8"/>
+<circle cx="240" cy="234" r="12" fill="#f07b3f" stroke="#c2471a" stroke-width="1.5"/>
+<circle cx="237" cy="231" r="4" fill="#ffd0a8"/>
+<line x1="254" y1="232" x2="366.14" y2="215.98" stroke="#7cb82f" stroke-width="3"/>
+<polygon points="380,214 366,222.06 364.3,210.18" fill="#7cb82f"/>
+<text x="210" y="238.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−</tspan></tspan><tspan dy="9.6">​</tspan></text>
+<text x="340" y="268.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+</svg>
