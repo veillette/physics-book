@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520" role="img" aria-labelledby="title desc">
+<title id="title">Two charged particles circling in a magnetic field</title>
+<desc id="desc">A magnetic field points out of the page. Particle a, moving up from the bottom, curves clockwise along an arc of large radius. Particle b curves clockwise along an arc of much smaller radius.</desc>
+<rect width="560" height="520" fill="#ffffff"/>
+<circle cx="50" cy="50" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="50" r="17.16" fill="#fbd3ba"/>
+<circle cx="50" cy="50" r="5.2" fill="#222222"/>
+<circle cx="50" cy="190" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="190" r="17.16" fill="#fbd3ba"/>
+<circle cx="50" cy="190" r="5.2" fill="#222222"/>
+<circle cx="50" cy="330" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="330" r="17.16" fill="#fbd3ba"/>
+<circle cx="50" cy="330" r="5.2" fill="#222222"/>
+<circle cx="50" cy="470" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="470" r="17.16" fill="#fbd3ba"/>
+<circle cx="50" cy="470" r="5.2" fill="#222222"/>
+<circle cx="172" cy="50" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="172" cy="50" r="17.16" fill="#fbd3ba"/>
+<circle cx="172" cy="50" r="5.2" fill="#222222"/>
+<circle cx="172" cy="190" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="172" cy="190" r="17.16" fill="#fbd3ba"/>
+<circle cx="172" cy="190" r="5.2" fill="#222222"/>
+<circle cx="172" cy="330" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="172" cy="330" r="17.16" fill="#fbd3ba"/>
+<circle cx="172" cy="330" r="5.2" fill="#222222"/>
+<circle cx="172" cy="470" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="172" cy="470" r="17.16" fill="#fbd3ba"/>
+<circle cx="172" cy="470" r="5.2" fill="#222222"/>
+<circle cx="294" cy="50" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="294" cy="50" r="17.16" fill="#fbd3ba"/>
+<circle cx="294" cy="50" r="5.2" fill="#222222"/>
+<circle cx="294" cy="190" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="294" cy="190" r="17.16" fill="#fbd3ba"/>
+<circle cx="294" cy="190" r="5.2" fill="#222222"/>
+<circle cx="294" cy="330" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="294" cy="330" r="17.16" fill="#fbd3ba"/>
+<circle cx="294" cy="330" r="5.2" fill="#222222"/>
+<circle cx="294" cy="470" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="294" cy="470" r="17.16" fill="#fbd3ba"/>
+<circle cx="294" cy="470" r="5.2" fill="#222222"/>
+<circle cx="416" cy="50" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="416" cy="50" r="17.16" fill="#fbd3ba"/>
+<circle cx="416" cy="50" r="5.2" fill="#222222"/>
+<circle cx="416" cy="190" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="416" cy="190" r="17.16" fill="#fbd3ba"/>
+<circle cx="416" cy="190" r="5.2" fill="#222222"/>
+<circle cx="416" cy="330" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="416" cy="330" r="17.16" fill="#fbd3ba"/>
+<circle cx="416" cy="330" r="5.2" fill="#222222"/>
+<circle cx="416" cy="470" r="26" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="416" cy="470" r="17.16" fill="#fbd3ba"/>
+<circle cx="416" cy="470" r="5.2" fill="#222222"/>
+<text x="470" y="59.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="16.12" font-weight="normal" dx="-16.73" dy="-21.32">→</tspan><tspan dx="0.61" dy="21.32">​</tspan></tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">out</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<polyline points="110,400 110.01,395.55 110.04,391.1 110.1,386.65 110.18,382.2 110.28,377.75 110.4,373.3 110.54,368.85 110.7,364.4 110.89,359.96 111.1,355.51 111.33,351.07 111.58,346.62 111.86,342.18 112.16,337.74 112.47,333.3 112.82,328.86 113.18,324.43 113.56,320 113.97,315.56 114.4,311.13 114.85,306.71 115.32,302.28 115.82,297.86 116.33,293.44 116.87,289.02 117.43,284.6 118.01,280.19 118.61,275.78 119.24,271.37 119.89,266.97 120.55,262.57 121.24,258.17 121.96,253.78 122.69,249.39 123.45,245.01 124.22,240.62 125.02,236.25 125.84,231.87 126.69,227.5 127.55,223.14 128.43,218.77 129.34,214.42 130.27,210.06 131.22,205.72 132.19,201.37 133.18,197.03 134.2,192.7 135.24,188.37 136.29,184.05 137.37,179.73 138.47,175.42 139.59,171.11 140.73,166.81 141.9,162.51 143.08,158.22 144.29,153.94 145.52,149.66 146.77,145.39" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="145.52" y1="149.66" x2="147.33" y2="143.59" stroke="#222222" stroke-width="1.8"/>
+<polygon points="149.33,136.87 150.11,145.46 143.97,143.63" fill="#222222"/>
+<polyline points="242.55,314.16 239.07,314.66 235.56,314.94 232.04,314.99 228.53,314.82 225.03,314.42 221.56,313.8 218.15,312.96 214.79,311.9 211.51,310.63 208.32,309.15 205.22,307.47 202.24,305.6 199.39,303.54 196.68,301.3 194.11,298.89 191.7,296.32 189.46,293.61 187.4,290.76 185.53,287.78 183.85,284.68 182.37,281.49 181.1,278.21 180.04,274.85 179.2,271.44 178.58,267.97 178.18,264.47 178.01,260.96 178.06,257.44 178.34,253.93 178.84,250.45 179.56,247 180.5,243.61 181.65,240.29 183.02,237.05 184.59,233.9 186.36,230.85 188.32,227.93 190.46,225.14 192.78,222.49 195.26,219.99 197.89,217.66 200.67,215.5 203.58,213.53 206.62,211.74 209.76,210.15 212.99,208.77 216.31,207.59 219.69,206.63 223.13,205.89 226.61,205.37 230.12,205.08 233.64,205 237.16,205.16 240.65,205.54 244.12,206.14 247.54,206.96 250.91,208 254.2,209.25" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="250.91" y1="208" x2="255.65" y2="210.16" stroke="#222222" stroke-width="1.8"/>
+<polygon points="260.5,212.37 253.69,212.05 255.79,207.44" fill="#222222"/>
+<text x="112" y="449.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="252" y="347.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">b</tspan></text>
+</svg>

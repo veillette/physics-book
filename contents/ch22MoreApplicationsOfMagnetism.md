@@ -428,7 +428,7 @@ Gravitational field lines all end on masses, which only attract; electric field 
 
 Indicate whether the magnetic field created in each of the three situations shown in [[Figure 3]](#Figure3) is into or out of the page on the left and right of the current.
 
-![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_22_11_03.jpg ' ')
+![Figure a shows current I running from bottom to top. Figure b shows an electron moving with velocity v from bottom to top. Figure c shows current I running from top to bottom.](../resources/Figure_22_11_03.svg ' ')
 {: #Figure3}
 
 :::
@@ -841,7 +841,7 @@ This problem illustrates an important principle in measurement science: the meas
  in the straight wire have to create a field at the center of the loop in the direction opposite to that created by the loop? (b) What is the ratio of  $${I}_{1}/{I}_{2} $$
  that gives zero field strength at the center of the loop? (c) What is the direction of the field directly above the loop under this circumstance?
 
-![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_22_11_06.jpg ' ')
+![Two wires are shown. Wire one is in a loop of radios R and has a current I one. Wire two is straight and runs diagonally from the lower left to the upper right with current I two](../resources/Figure_22_11_06.svg ' ')
 {: #Figure6}
 
 :::
