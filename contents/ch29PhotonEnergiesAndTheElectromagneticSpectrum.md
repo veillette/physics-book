@@ -185,7 +185,7 @@ therefore differing abilities to penetrate, can be generated.
 
 :::
 
-![A graph for X-ray intensity versus frequency is shown. Frequency is plotted along x axis and intensity along y axis. The curve has a smooth rise up then at highest point it has two peaks and ends smoothly at f sub max. q V is equal to h f sub max is written in the graph.](../resources/Figure_29_03_04.jpg 'X-ray spectrum obtained when energetic electrons strike a material. The smooth part of the spectrum is bremsstrahlung, while the peaks are characteristic of the anode material. Both are atomic processes that produce energetic photons known as x-ray photons.')
+![A graph for X-ray intensity versus frequency is shown. Frequency is plotted along x axis and intensity along y axis. The curve has a smooth rise up then at highest point it has two peaks and ends smoothly at f sub max. q V is equal to h f sub max is written in the graph.](../resources/Figure_29_03_04.svg 'X-ray spectrum obtained when energetic electrons strike a material. The smooth part of the spectrum is bremsstrahlung, while the peaks are characteristic of the anode material. Both are atomic processes that produce energetic photons known as x-ray photons.')
 {: #Figure4}
 
 [[Figure 4]](#Figure4) shows the spectrum of X-rays obtained from an x-ray tube.

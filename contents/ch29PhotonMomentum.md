@@ -69,7 +69,7 @@ where $$h $$ is Planck’s constant and $$\lambda $$ is the photon wavelength. (
 Note that relativistic momentum given as $$p=\gamma \text{mu} $$ is valid only
 for particles having mass.)
 
-![Collision of an electron with a photon of energy E equal to h f is shown. The electron is represented as a spherical ball and the photon as an ellipse enclosing a wave. After collision the energy of the photon becomes E prime equal to h f prime and the final energy of an electron K E sub e is equal to E minus E prime. The direction of electron and photon before and after collision is represented by arrows.](../resources/Figure_29_04_02.jpg 'The Compton effect is the name given to the scattering of a photon by an electron. Energy and momentum are conserved, resulting in a reduction of both for the scattered photon. Studying this effect, Compton verified that photons have momentum.')
+![Collision of an electron with a photon of energy E equal to h f is shown. The electron is represented as a spherical ball and the photon as an ellipse enclosing a wave. After collision the energy of the photon becomes E prime equal to h f prime and the final energy of an electron K E sub e is equal to E minus E prime. The direction of electron and photon before and after collision is represented by arrows.](../resources/Figure_29_04_02.svg 'The Compton effect is the name given to the scattering of a photon by an electron. Energy and momentum are conserved, resulting in a reduction of both for the scattered photon. Studying this effect, Compton verified that photons have momentum.')
 {: #Figure2}
 
 We can see that photon momentum is small, since $$p=h/\lambda $$ and $$h $$ is
