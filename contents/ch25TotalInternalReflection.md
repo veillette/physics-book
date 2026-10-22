@@ -618,7 +618,7 @@ The critical angle changes significantly depending on the surrounding medium. Wh
 
 A ray of light, emitted beneath the surface of an unknown liquid with air above it, undergoes total internal reflection as shown in [[Figure 9]](#Figure9). What is the index of refraction for the liquid and its likely identification?
 
-![A light ray travels from an object placed in a denser medium n1 at 15.0 centimeter from the boundary and on hitting the boundary gets totally internally reflected with theta c as critical angle. The horizontal distance between the object and the point of incidence is 13.4 centimeters.](../resources/Figure_25_04_09.jpg 'A light ray inside a liquid strikes the surface at the critical angle and undergoes total internal reflection.')
+![A light ray travels from an object placed in a denser medium n1 at 15.0 centimeter from the boundary and on hitting the boundary gets totally internally reflected with theta c as critical angle. The horizontal distance between the object and the point of incidence is 13.4 centimeters.](../resources/Figure_25_04_09.svg 'A light ray inside a liquid strikes the surface at the critical angle and undergoes total internal reflection.')
 {: #Figure9}
 
 :::
@@ -637,7 +637,7 @@ A ray of light, emitted beneath the surface of an unknown liquid with air above 
 
 A light ray entering an optical fiber surrounded by air is first refracted and then reflected as shown in [[Figure 10]](#Figure10). Show that if the fiber is made from crown glass, any incident ray will be totally internally reflected.
 
-![The figure shows light traveling from n1 to n2 is incident on a rectangular transparent object at an angle of incidence theta 1. The angle of refraction is theta 2. On refraction, the ray falls onto the long side and gets totally internally reflected with theta 3 as the angle of incidence.](../resources/Figure_25_04_10.jpg 'A light ray enters the end of a fiber, the surface of which is perpendicular to its sides. Examine the conditions under which it may be totally internally reflected.')
+![The figure shows light traveling from n1 to n2 is incident on a rectangular transparent object at an angle of incidence theta 1. The angle of refraction is theta 2. On refraction, the ray falls onto the long side and gets totally internally reflected with theta 3 as the angle of incidence.](../resources/Figure_25_04_10.svg 'A light ray enters the end of a fiber, the surface of which is perpendicular to its sides. Examine the conditions under which it may be totally internally reflected.')
 {: #Figure10}
 
 :::

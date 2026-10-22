@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="500" viewBox="0 0 620 500" role="img" aria-labelledby="title desc">
+<title id="title">The law of reflection</title>
+<desc id="desc">A ray strikes a flat surface and reflects. The incident ray makes angle θi with the perpendicular to the surface at the point where it strikes, and the reflected ray makes angle θr with the same perpendicular, on the other side; θr = θi.</desc>
+<rect width="620" height="500" fill="#ffffff"/>
+<polygon points="265,405 155,214.47 265,169 375,214.47" fill="#c4e6f6"/>
+<polygon points="10,385 390,385 520,435 140,435" fill="#e3ecf7" stroke="#7d93bf" stroke-width="1.5"/>
+<polygon points="140,435 520,435 520,458 140,458" fill="#8fa6d3" stroke="#6b80ad" stroke-width="1.5"/>
+<polygon points="10,385 140,435 140,458 10,408" fill="#a9bce0" stroke="#6b80ad" stroke-width="1.5"/>
+<line x1="265" y1="405" x2="265" y2="92" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="100" y1="119.21" x2="265" y2="405" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="114.8" y1="144.85" x2="118.5" y2="151.25" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="122.8,158.7 114.67,152.31 121.33,148.47" fill="#1fa8d8"/>
+<line x1="265" y1="405" x2="430" y2="119.21" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="411.8" y1="150.73" x2="415.5" y2="144.33" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="419.8,136.88 418.33,147.11 411.67,143.27" fill="#1fa8d8"/>
+<path d="M 265 200 A 205 205 0 0 0 162.5 227.46" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M 367.5 227.46 A 205 205 0 0 0 265 200" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="175.13" y1="220.75" x2="169.2" y2="223.9" stroke="#222222" stroke-width="2.5"/>
+<polygon points="162.5,227.46 168.47,220.4 171.69,226.47" fill="#222222"/>
+<line x1="354.87" y1="220.75" x2="360.8" y2="223.9" stroke="#222222" stroke-width="2.5"/>
+<polygon points="367.5,227.46 358.31,226.47 361.53,220.4" fill="#222222"/>
+<text x="205.73" y="192.2" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">i</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="324.27" y="192.2" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">r</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="265" y="37.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Perpendicular</tspan></text>
+<text x="265" y="71.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">to</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surface</tspan></text>
+<text x="130" y="115.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Incident</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">ray</tspan></text>
+<text x="404" y="115.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Reflected</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">ray</tspan></text>
+<text x="58" y="361.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Surface</tspan></text>
+</svg>

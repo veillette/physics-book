@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="920" viewBox="0 0 420 920" role="img" aria-labelledby="title desc">
+<title id="title">Rays through the centers of thin lenses</title>
+<desc id="desc">(a) A ray through the center of a converging lens and (b) a ray through the center of a diverging lens are each shifted only slightly and emerge parallel to their original paths, shown as shaded lines; for a thin lens the shift is neglected.</desc>
+<rect width="420" height="920" fill="#ffffff"/>
+<defs><linearGradient id="lens_210_220_200" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9cfc3"/><stop offset="0.45" stop-color="#eef4f0"/><stop offset="1" stop-color="#b9cfc3"/></linearGradient></defs>
+<path d="M 210 20 Q 278 220 210 420 Q 142 220 210 20 Z" fill="url(#lens_210_220_200)" stroke="#6f8f80" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="-19.81" y1="412.84" x2="439.81" y2="27.16" stroke="#bfe6f5" stroke-width="7"/>
+<line x1="-19.81" y1="412.84" x2="187.02" y2="239.28" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="75.94" y1="332.49" x2="81.61" y2="327.73" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="88.2,322.2 83.31,331.32 78.38,325.43" fill="#1fa8d8"/>
+<line x1="187.02" y1="239.28" x2="237.98" y2="205.72" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="237.98" y1="205.72" x2="444.81" y2="32.16" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="354.42" y1="108.01" x2="360.09" y2="103.26" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="366.68,97.73 361.79,106.84 356.85,100.96" fill="#1fa8d8"/>
+<defs><linearGradient id="lens_210_690_200" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9cfc3"/><stop offset="0.45" stop-color="#eef4f0"/><stop offset="1" stop-color="#b9cfc3"/></linearGradient></defs>
+<path d="M 180 490 L 240 490 Q 214.5 690 240 890 L 180 890 Q 205.5 690 180 490 Z" fill="url(#lens_210_690_200)" stroke="#6f8f80" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="-19.81" y1="882.84" x2="439.81" y2="497.16" stroke="#bfe6f5" stroke-width="7"/>
+<line x1="-19.81" y1="882.84" x2="187.02" y2="709.28" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="75.94" y1="802.49" x2="81.61" y2="797.73" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="88.2,792.2 83.31,801.32 78.38,795.43" fill="#1fa8d8"/>
+<line x1="187.02" y1="709.28" x2="237.98" y2="675.72" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="237.98" y1="675.72" x2="444.81" y2="502.16" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="354.42" y1="578.01" x2="360.09" y2="573.26" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="366.68,567.73 361.79,576.84 356.85,570.96" fill="#1fa8d8"/>
+</svg>

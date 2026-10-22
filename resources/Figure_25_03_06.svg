@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="720" viewBox="0 0 700 720" role="img" aria-labelledby="title desc">
+<title id="title">Refraction through an intermediate medium</title>
+<desc id="desc">A ray in medium n1 strikes a layer of medium n2 at angle θ1, bends toward the normal to θ2, and then enters medium n3 at angle θ3. A dashed line shows the path the ray would take if medium n2 were not there: it has the same final direction θ3, but the actual ray is displaced sideways by Δx (exaggerated).</desc>
+<rect width="700" height="720" fill="#ffffff"/>
+<rect x="30" y="200" width="640" height="220" fill="#e6ebf7"/>
+<rect x="30" y="420" width="640" height="280" fill="#e2e2e2"/>
+<line x1="30" y1="200" x2="670" y2="200" stroke="#222222" stroke-width="1.5"/>
+<line x1="30" y1="420" x2="670" y2="420" stroke="#222222" stroke-width="1.5"/>
+<line x1="102.16" y1="23.81" x2="250" y2="200" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="169.65" y1="104.24" x2="174.41" y2="109.91" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="179.94,116.5 170.82,111.62 176.71,106.68" fill="#1fa8d8"/>
+<line x1="250" y1="200" x2="346.51" y2="420" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="318.37" y1="355.84" x2="321.34" y2="362.62" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="324.8,370.49 317.42,363.25 324.46,360.16" fill="#1fa8d8"/>
+<line x1="346.51" y1="420" x2="498.76" y2="660" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="432.5" y1="555.56" x2="436.47" y2="561.8" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="441.07,569.07 432.69,563.02 439.17,558.9" fill="#1fa8d8"/>
+<line x1="250" y1="200" x2="541.79" y2="660" stroke="#1fa8d8" stroke-width="2.4" stroke-dasharray="8 6"/>
+<line x1="425.56" y1="476.76" x2="429.52" y2="483" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="434.13,490.27 425.74,484.22 432.23,480.1" fill="#1fa8d8"/>
+<line x1="250" y1="164" x2="250" y2="236" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="346.51" y1="384" x2="346.51" y2="456" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="389.55" y1="384" x2="389.55" y2="456" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 250 170 A 30 30 0 0 0 230.72 177.02" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="232.21" y="158.84" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 250 230 A 30 30 0 0 0 262.05 227.47" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="260.67" y="258.59" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 346.51 390 A 30 30 0 0 0 334.46 392.53" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="335.84" y="376.81" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 346.51 450 A 30 30 0 0 0 362.58 445.33" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="361.02" y="477.64" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 389.55 450 A 30 30 0 0 0 405.62 445.33" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="404.06" y="477.64" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="508.76" y1="680" x2="531.79" y2="680" stroke="#222222" stroke-width="1.4"/>
+<polygon points="540.79,680 530.79,684 530.79,676" fill="#222222"/>
+<polygon points="499.76,680 509.76,676 509.76,684" fill="#222222"/>
+<line x1="498.76" y1="671" x2="498.76" y2="689" stroke="#222222" stroke-width="1.3"/>
+<line x1="541.79" y1="671" x2="541.79" y2="689" stroke="#222222" stroke-width="1.3"/>
+<text x="520.27" y="709.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan></text>
+<text x="46" y="186.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="46" y="298.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="46" y="452.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+</svg>

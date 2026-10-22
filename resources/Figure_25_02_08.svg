@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc">
+<title id="title">Reflection from a flat mirror</title>
+<desc id="desc">Two rays leave a point at angle θ to each other and strike a flat mirror at two places, each reflecting with equal angles to the normal (θ1 and θ1, θ2 and θ2). The reflected rays still diverge at angle θ. Extended backward as dashed lines, they meet at a point behind the mirror, where they also make angle θ.</desc>
+<rect width="1000" height="640" fill="#ffffff"/>
+<rect x="60" y="300" width="930" height="26" fill="#c9d6ec" stroke="#7d93bf" stroke-width="1.5"/>
+<line x1="60" y1="300" x2="990" y2="300" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="110" y1="40" x2="380" y2="300" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="251.3" y1="176.06" x2="256.63" y2="181.2" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="262.82,187.16 253.24,183.27 258.57,177.74" fill="#1fa8d8"/>
+<line x1="380" y1="300" x2="639.32" y2="50.29" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="489.49" y1="194.57" x2="494.82" y2="189.43" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="501.01,183.47 496.76,192.89 491.44,187.36" fill="#1fa8d8"/>
+<line x1="380" y1="300" x2="110" y2="560" stroke="#1fa8d8" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="380" y1="300" x2="380" y2="240" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 380 268 A 32 32 0 0 0 356.95 277.8" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="358.08" y="256.17" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 403.05 277.8 A 32 32 0 0 0 380 268" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="401.92" y="256.17" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="110" y1="40" x2="620" y2="300" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="381.59" y1="178.46" x2="388.18" y2="181.82" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="395.85,185.73 385.55,184.79 389.04,177.94" fill="#1fa8d8"/>
+<line x1="620" y1="300" x2="940.73" y2="136.49" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="755.42" y1="230.96" x2="762.01" y2="227.6" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="769.67,223.7 762.86,231.48 759.38,224.64" fill="#1fa8d8"/>
+<line x1="620" y1="300" x2="110" y2="560" stroke="#1fa8d8" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="620" y1="300" x2="620" y2="240" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 620 268 A 32 32 0 0 0 591.49 285.47" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="590.75" y="259.95" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 648.51 285.47 A 32 32 0 0 0 620 268" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="649.25" y="259.95" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 160.42 88.55 A 70 70 0 0 0 172.36 71.79" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="260" y="55.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<polyline points="248,46 246.22,46.29 244.44,46.59 242.68,46.9 240.93,47.25 239.19,47.64 237.48,48.08 235.79,48.57 234.13,49.12 232.5,49.74 230.9,50.42 229.32,51.17 227.78,51.99 226.27,52.86 224.78,53.8 223.32,54.8 221.88,55.84 220.46,56.92 219.05,58.03 217.65,59.17 216.26,60.31 214.86,61.45 213.46,62.59 212.05,63.7 210.63,64.78 209.19,65.82 207.73,66.82 206.24,67.76 204.73,68.64 203.19,69.45 201.62,70.2 200.02,70.88 198.38,71.5 196.72,72.05 195.03,72.54 193.32,72.98 191.59,73.37 189.83,73.72 188.07,74.03 186.29,74.33 184.51,74.62" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="184.51" y1="74.62" x2="176.85" y2="78.08" stroke="#222222" stroke-width="1.4"/>
+<polygon points="168.64,81.78 176.11,74.02 179.4,81.31" fill="#222222"/>
+<path d="M 172.36 528.21 A 70 70 0 0 0 160.42 511.45" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="260" y="563.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<polyline points="248,554 246.61,552.86 245.21,551.72 243.8,550.61 242.38,549.53 240.94,548.49 239.47,547.49 237.99,546.55 236.48,545.67 234.93,544.86 233.36,544.11 231.76,543.43 230.13,542.81 228.47,542.26 226.78,541.77 225.06,541.33 223.33,540.94 221.58,540.59 219.81,540.28 218.04,539.98 216.26,539.69 214.48,539.4 212.7,539.1 210.94,538.78 209.18,538.44 207.45,538.05 205.74,537.61 204.05,537.12 202.39,536.57 200.75,535.95 199.15,535.27 197.58,534.52 196.04,533.7 194.52,532.82 193.04,531.89 191.58,530.89 190.14,529.85 188.71,528.77 187.31,527.66 185.91,526.52 184.51,525.38" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="184.51" y1="525.38" x2="176.85" y2="521.92" stroke="#222222" stroke-width="1.4"/>
+<polygon points="168.64,518.22 179.4,518.69 176.11,525.98" fill="#222222"/>
+<circle cx="110" cy="40" r="7" fill="#1fa8d8"/>
+</svg>
