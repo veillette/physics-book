@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="860" viewBox="0 0 460 860" role="img" aria-labelledby="title desc">
+<title id="title">A parallel-plate capacitor</title>
+<desc id="desc">Two parallel plates, each of area A, face each other a distance d apart, with a uniform electric field drawn as arrows from the left plate to the right plate. The left plate is wired to the battery’s positive terminal and carries +Q; the right plate is wired to the negative terminal and carries −Q.</desc>
+<rect width="460" height="860" fill="#ffffff"/>
+<defs><linearGradient id="cap_plate" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4c5a86"/><stop offset="1" stop-color="#9aa6c8"/></linearGradient></defs>
+<defs><linearGradient id="batt_front" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b6b6b9"/><stop offset="1" stop-color="#8e8e92"/></linearGradient><linearGradient id="batt_gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c99a2e"/><stop offset="0.4" stop-color="#f6dc8a"/><stop offset="1" stop-color="#b8892a"/></linearGradient></defs>
+<g transform="translate(110 650) scale(0.6)"><polygon points="380,26 520,-36 520,218 380,280" fill="#a9a9ad" stroke="#4a4a4e" stroke-width="2"/><polygon points="405.2,40.84 499,-0.7 499,187.3 405.2,228.84" fill="#cdb9de" stroke="#7d6a93" stroke-width="1.5"/><polygon points="0,26 380,26 380,280 354,280 344,266 36,266 26,280 0,280" fill="url(#batt_front)" stroke="#4a4a4e" stroke-width="2"/><rect x="30" y="50" width="10" height="188" rx="5" fill="#45454a"/><rect x="82" y="50" width="10" height="188" rx="5" fill="#45454a"/><rect x="134" y="50" width="10" height="188" rx="5" fill="#45454a"/><rect x="186" y="50" width="10" height="188" rx="5" fill="#45454a"/><rect x="238" y="50" width="10" height="188" rx="5" fill="#45454a"/><rect x="290" y="50" width="10" height="188" rx="5" fill="#45454a"/><rect x="342" y="50" width="10" height="188" rx="5" fill="#45454a"/><polygon points="0,0 380,0 380,26 0,26" fill="#3d3d41" stroke="#4a4a4e" stroke-width="2"/><polygon points="380,0 520,-62 520,-36 380,26" fill="#2c2c30" stroke="#4a4a4e" stroke-width="2"/><polygon points="0,0 380,0 520,-62 140,-62" fill="#dcdadc" stroke="#4a4a4e" stroke-width="2"/><polygon points="152.4,-13.64 274,-13.64 352.4,-48.36 230.8,-48.36" fill="#b9a0d6" stroke="#8a74a8" stroke-width="1.2"/><ellipse cx="366.8" cy="-44.64" rx="9" ry="4.5" fill="#4cbb4c" stroke="#2f7d2f" stroke-width="1"/><ellipse cx="137.8" cy="-34.1" rx="16" ry="6" fill="#bdbbbd" stroke="#8a8a8e" stroke-width="1"/><rect x="128.8" y="-58.1" width="18" height="24" fill="url(#batt_gold)" stroke="#9a7420" stroke-width="1"/><ellipse cx="137.8" cy="-58.1" rx="9" ry="3.5" fill="#f6e3a4" stroke="#9a7420" stroke-width="1"/><text x="111.8" y="-52.2" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text><ellipse cx="396.2" cy="-34.1" rx="16" ry="6" fill="#bdbbbd" stroke="#8a8a8e" stroke-width="1"/><rect x="387.2" y="-58.1" width="18" height="24" fill="url(#batt_gold)" stroke="#9a7420" stroke-width="1"/><ellipse cx="396.2" cy="-58.1" rx="9" ry="3.5" fill="#f6e3a4" stroke="#9a7420" stroke-width="1"/><text x="370.2" y="-52.2" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text></g>
+<polyline points="192.68,615.14 192.68,520 150,520 150,385" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="347.72,615.14 347.72,520 430,520 430,330" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="150,95 200,40 200,330 150,385" fill="url(#cap_plate)" fill-opacity="1" stroke="#3c4668" stroke-width="1.5"/>
+<line x1="180" y1="110" x2="388" y2="110" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,110 387,115.2 387,104.8" fill="#1f77c8"/>
+<line x1="180" y1="146" x2="388" y2="146" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,146 387,151.2 387,140.8" fill="#1f77c8"/>
+<line x1="180" y1="182" x2="388" y2="182" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,182 387,187.2 387,176.8" fill="#1f77c8"/>
+<line x1="180" y1="218" x2="388" y2="218" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,218 387,223.2 387,212.8" fill="#1f77c8"/>
+<line x1="180" y1="254" x2="388" y2="254" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,254 387,259.2 387,248.8" fill="#1f77c8"/>
+<line x1="180" y1="290" x2="388" y2="290" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,290 387,295.2 387,284.8" fill="#1f77c8"/>
+<line x1="180" y1="326" x2="388" y2="326" stroke="#1f77c8" stroke-width="2"/>
+<polygon points="400,326 387,331.2 387,320.8" fill="#1f77c8"/>
+<polygon points="380,95 430,40 430,330 380,385" fill="url(#cap_plate)" fill-opacity="0.8" stroke="#3c4668" stroke-width="1.5"/>
+<line x1="186" y1="18" x2="394" y2="18" stroke="#222222" stroke-width="1.5"/>
+<polygon points="404,18 393,22.4 393,13.6" fill="#222222"/>
+<polygon points="176,18 187,13.6 187,22.4" fill="#222222"/>
+<line x1="175" y1="8" x2="175" y2="28" stroke="#222222" stroke-width="1.4"/>
+<line x1="405" y1="8" x2="405" y2="28" stroke="#222222" stroke-width="1.4"/>
+<text x="290" y="47" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Separation</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">d</tspan></text>
+<text x="150" y="419.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">Q</tspan></text>
+<text x="432" y="419.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-style="italic">Q</tspan></text>
+<text x="290" y="457" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">plate</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">area</tspan></text>
+<path d="M 330 436 Q 339.8 373 393.39 354.31" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="391.5" y1="354.96" x2="395.85" y2="353.45" stroke="#333333" stroke-width="1.5"/>
+<polygon points="400,352 395.61,355.82 394.19,351.74" fill="#333333"/>
+<text x="266" y="852" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">battery</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

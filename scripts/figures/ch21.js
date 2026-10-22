@@ -936,6 +936,80 @@ export default {
     return svg.render();
   },
 
+  // 21.2 Fig. 9 — early batteries: voltaic piles and a crown of cups
+  Figure_21_02_09: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 230,
+      title: 'Batteries made of many cells',
+      desc: 'Left: two voltaic piles, stacks of alternating copper and zinc disks, joined at the top by a metal bar, with strips from their bases dipping into cups of electrolyte. Right: a crown of cups, a row of cups of electrolyte joined by arched strips that are copper at one end and zinc at the other, so each cup holds a copper plate and a zinc plate and the cells are in series.',
+    });
+    const COPPER = '#c8643c';
+    const ZINC = '#b4b6bb';
+    const cup = (x, w, top, h) => {
+      const inset = w * 0.12;
+      svg.path(
+        `M ${x} ${top} L ${x + inset} ${top + h} Q ${x + w / 2} ${top + h + 10} ${x + w - inset} ${top + h} L ${x + w} ${top} Z`,
+        { color: '#c99a2e', width: 1.5, fill: '#f7e3a3' }
+      );
+      svg.ellipse(x + w / 2, top + 4, w / 2 - 2, 6, {
+        fill: '#fbefc6',
+        stroke: '#c99a2e',
+        width: 1,
+      });
+      svg.ellipse(x + w / 2, top, w / 2, 7, { stroke: '#8ec5dc', width: 1.6 });
+    };
+    // Voltaic piles: copper and zinc disks, alternating.
+    const pile = (cx, base) => {
+      svg.ellipse(cx, base + 6, 42, 9, { fill: '#4a4a4e', stroke: '#2e2e30', width: 1 });
+      for (let k = 0; k < 16; k += 1) {
+        const y = base - k * 10;
+        const fill = k % 2 ? ZINC : COPPER;
+        svg.rect(cx - 36, y - 8, 72, 8, { fill, stroke: '#6d5040', width: 0.8 });
+        svg.ellipse(cx, y - 8, 36, 7, {
+          fill: k % 2 ? '#dedfe2' : '#e09a78',
+          stroke: '#6d5040',
+          width: 0.8,
+        });
+      }
+    };
+    cup(10, 100, 150, 55);
+    cup(340, 105, 150, 55);
+    svg.path('M 140 168 Q 100 150 70 210', { color: '#8a4a2a', width: 9 });
+    svg.path('M 140 168 Q 100 150 70 210', { color: COPPER, width: 6 });
+    svg.path('M 305 168 Q 345 150 372 210', { color: '#77797e', width: 9 });
+    svg.path('M 305 168 Q 345 150 372 210', { color: '#d9dadd', width: 6 });
+    pile(168, 176);
+    pile(272, 176);
+    svg.rect(166, 14, 108, 6, { fill: '#3d3d41' });
+    // Crown of cups: each arch is a copper–zinc strip, so the cells add in series.
+    const cups = [
+      [488, 108],
+      [622, 70],
+      [712, 70],
+      [802, 70],
+      [892, 108],
+    ];
+    const plates = cups.map(([x, w], i) => {
+      cup(x, w, 140, 72);
+      const out = [];
+      if (i > 0) out.push([x + w * 0.32, ZINC]);
+      if (i < cups.length - 1) out.push([x + w * (i === 0 ? 0.78 : 0.68), COPPER]);
+      return out;
+    });
+    for (let i = 0; i < cups.length - 1; i += 1) {
+      const [xa] = plates[i].at(-1);
+      const [xb] = plates[i + 1][0];
+      const mid = (xa + xb) / 2;
+      svg.path(`M ${xa} 160 L ${xa} 128 Q ${xa} 96 ${mid} 96`, { color: COPPER, width: 6 });
+      svg.path(`M ${mid} 96 Q ${xb} 96 ${xb} 128 L ${xb} 160`, { color: '#8f9196', width: 6 });
+    }
+    for (const list of plates)
+      for (const [x, color] of list)
+        svg.rect(x - 6, 152, 12, 26, { fill: color, stroke: '#4a4a4e', width: 1, rx: 2 });
+    return svg.render();
+  },
+
   // 21.2 Fig. 10 — two sources with opposing emfs
   Figure_21_02_10: () => {
     const svg = new Svg({

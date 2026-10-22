@@ -38,7 +38,7 @@ See [[Figure 1]](#Figure1)(b).) Larger plate separation means smaller
 capacitance. It is a general feature of series connections of capacitors that
 the total capacitance is less than any of the individual capacitances.
 
-![When capacitors are connected in series, an equivalent capacitor would have a plate separation that is greater than that of any individual capacitor. Hence the series connections produce a resultant capacitance less than that of the individual capacitors.](../resources/Figure_19_06_01.jpg '(a) Capacitors connected in series. The magnitude of the charge on each plate is ( Q ) . (b) An equivalent capacitor has a larger plate separation ( d ) . Series connections produce a total capacitance that is less than that of any of the individual capacitors.')
+![When capacitors are connected in series, an equivalent capacitor would have a plate separation that is greater than that of any individual capacitor. Hence the series connections produce a resultant capacitance less than that of the individual capacitors.](../resources/Figure_19_06_01.svg '(a) Capacitors connected in series. The magnitude of the charge on each plate is ( Q ) . (b) An equivalent capacitor has a larger plate separation ( d ) . Series connections produce a total capacitance that is less than that of any of the individual capacitors.')
 {: #Figure1}
 
 We can find an expression for the total capacitance by considering the voltage
@@ -149,7 +149,7 @@ charge $$Q $$ is the sum of the individual charges:
  $$Q={Q}_{1}+{Q}_{2}+{Q}_{3}. $$
 </div>
 
-![Part a of the figure shows three capacitors connected in parallel to each other and to the applied voltage. The total capacitance when they are connected in parallel is simply the sum of the individual capacitances. Part b of the figure shows the larger equivalent plate area of the capacitors connected in parallel, which in turn can hold more charge than the individual capacitors.](../resources/Figure_19_06_02.jpg '(a) Capacitors in parallel. Each is connected directly to the voltage source just as if it were all alone, and so the total capacitance in parallel is just the sum of the individual capacitances. (b) The equivalent capacitor has a larger plate area and can therefore hold more charge than the individual capacitors. ')
+![Part a of the figure shows three capacitors connected in parallel to each other and to the applied voltage. The total capacitance when they are connected in parallel is simply the sum of the individual capacitances. Part b of the figure shows the larger equivalent plate area of the capacitors connected in parallel, which in turn can hold more charge than the individual capacitors.](../resources/Figure_19_06_02.svg '(a) Capacitors in parallel. Each is connected directly to the voltage source just as if it were all alone, and so the total capacitance in parallel is just the sum of the individual capacitances. (b) The equivalent capacitor has a larger plate area and can therefore hold more charge than the individual capacitors. ')
 {: #Figure2}
 
 Using the relationship $$Q=CV $$ , we see that the total charge is $$Q={C}_{\text{p}}V $$ , and the individual charges are $${Q}_{1}={C}_{1}V $$ <em>, </em> $${Q}_{2}={C}_{2}V $$

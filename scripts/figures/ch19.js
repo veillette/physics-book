@@ -9,7 +9,7 @@
  * shows the field strength. Field lines are blue and equipotentials green, as
  * the captions describe.
  */
-import { CAPACITOR, cell, wire } from './circuit.js';
+import { CAPACITOR, cable, carBattery, cell, headlight, wire } from './circuit.js';
 import {
   ROD_19,
   capsule,
@@ -25,7 +25,7 @@ import {
   solveLaplace,
   trace,
 } from './fields18to19.js';
-import { COLORS, Svg } from './svg.js';
+import { COLORS, Svg, rad } from './svg.js';
 
 const FIELD = COLORS.blue;
 const EQUIP = '#2e9a5e';
@@ -260,6 +260,28 @@ export default {
     lab(svg, 205, 640, 'm', { size: 24, halo: false });
     svg.arrow(232, 652, 318, 690, { color: COLORS.black, width: 1.8, head: 14 });
     note(svg, 565, 668, 'ΔPE_{grav} = ΔKE', { size: 26 });
+    return svg.render();
+  },
+
+  // 19.1 Fig. 2 — a battery drives negative charge through a headlight
+  Figure_19_01_02: () => {
+    const svg = new Svg({
+      width: 840,
+      height: 770,
+      title: 'A battery lighting a headlight',
+      desc: 'A 12 V car battery is wired to a headlight. Negative charge −q leaves the battery’s negative terminal A, travels up the wire, through the headlight, and back down the other wire into the positive terminal B. The positive terminal is at the higher potential.',
+    });
+    const { pos, neg } = carBattery(svg, 0, 470, { left: '−', label: '12 \\rm{V}' });
+    headlight(svg, 520, 172, { s: 1 });
+    cable(svg, [neg, [neg[0], 157], [520, 157]], { width: 6 });
+    cable(svg, [pos, [pos[0], 187], [520, 187]], { width: 6 });
+    svg.arrow(186, 236, 192, 170, { color: COLORS.black, width: 2, head: 14 });
+    lab(svg, 176, 270, '−q', { size: 30 });
+    svg.arrow(458, 262, 458, 326, { color: COLORS.black, width: 2, head: 14 });
+    lab(svg, 470, 228, '−q', { size: 30 });
+    note(svg, 205, 352, 'A', { size: 30 });
+    note(svg, 470, 360, 'B', { size: 30 });
+    note(svg, 690, 362, 'Headlight', { size: 30 });
     return svg.render();
   },
 
@@ -575,6 +597,84 @@ export default {
     return svg.render();
   },
 
+  // 19.5 Fig. 1 — a parallel-plate capacitor and a rolled capacitor, both charged
+  Figure_19_05_01: () => {
+    const svg = new Svg({
+      width: 620,
+      height: 1190,
+      title: 'A parallel-plate capacitor and a rolled capacitor',
+      desc: '(a) Two tall metal plates of area A stand a distance d apart. Wires connect the left plate to the battery’s positive terminal and the right plate to its negative terminal, so the plates carry charges +Q and −Q. (b) A rolled capacitor: two conducting sheets with insulating gaps between them are wound into a spiral. The outer sheet is wired to the positive terminal and carries +Q; the inner sheet is wired to the negative terminal and carries −Q.',
+    });
+    svg.add(
+      '<defs><linearGradient id="slab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eceef3"/><stop offset="0.3" stop-color="#c7cad3"/><stop offset="0.5" stop-color="#eef0f4"/><stop offset="0.75" stop-color="#c3c6cf"/><stop offset="1" stop-color="#eceef3"/></linearGradient></defs>'
+    );
+    // (a) Two plates a distance d apart.
+    const slab = x => {
+      svg.polygon(
+        [
+          [x, 30],
+          [x + 12, 20],
+          [x + 12, 500],
+          [x, 510],
+        ],
+        { fill: '#f6f7f9', stroke: '#9a9ea8', width: 1 }
+      );
+      svg.rect(x - 30, 30, 30, 480, { fill: 'url(#slab)', stroke: '#9a9ea8', width: 1 });
+      svg.polygon(
+        [
+          [x - 30, 30],
+          [x - 18, 20],
+          [x + 12, 20],
+          [x, 30],
+        ],
+        { fill: '#ffffff', stroke: '#9a9ea8', width: 1 }
+      );
+    };
+    const a = carBattery(svg, 205, 615, { s: 0.5 });
+    wire(svg, [[200, 230], [140, 230], [140, 560], [a.pos[0], 560], a.pos]);
+    wire(svg, [[390, 230], [470, 230], [470, 560], [a.neg[0], 560], a.neg]);
+    slab(230);
+    slab(390);
+    lab(svg, 165, 210, '+Q');
+    lab(svg, 432, 210, '−Q');
+    lab(svg, 216, 240, 'A', { halo: false });
+    svg.arrow(231, 525, 359, 525, { color: COLORS.black, width: 1.6, head: 12, start: true });
+    for (const x of [230, 360]) svg.line(x, 512, x, 538, { color: COLORS.black, width: 1.4 });
+    lab(svg, 295, 505, 'd');
+    caption(svg, 310, 785, '(a)');
+
+    // (b) Two sheets wound into a spiral with insulating gaps between them.
+    const [cx, cy, pitch] = [460, 1035, 44];
+    const turns = 2.5 * 2 * Math.PI;
+    // Angle runs opposite to θ; the inner sheet ends at the top, the outer a little before it.
+    const at = (r, t) => [
+      cx + r * Math.cos(-Math.PI / 2 + turns - t),
+      cy + r * Math.sin(-Math.PI / 2 + turns - t),
+    ];
+    const sheet = (offset, t1, color) => {
+      const pts = [];
+      for (let t = 0.8; t <= t1 + 1e-9; t += (t1 - 0.8) / 240)
+        pts.push(at(12 + offset + (pitch * t) / (2 * Math.PI), t));
+      svg.polyline(pts, { color, width: 14, join: 'round' });
+      return pts.at(-1);
+    };
+    svg.circle(cx, cy, 150, { fill: '#f4f5f8', stroke: '#b0b3bb', width: 1.5 });
+    const inner = sheet(0, turns, '#ef9a7f');
+    const outer = sheet(pitch / 2, turns - 0.6, '#c3c6cf');
+    const b = carBattery(svg, 5, 1010, { s: 0.5 });
+    wire(svg, [b.pos, [b.pos[0], 850], [outer[0], 850], outer]);
+    wire(svg, [b.neg, [b.neg[0], 880], [inner[0], 880], inner]);
+    lab(svg, outer[0] + 36, outer[1] + 20, '+Q', { anchor: 'start' });
+    lab(svg, inner[0] - 70, inner[1] + 20, '−Q', { anchor: 'end' });
+    svg.squiggle(inner[0] - 64, inner[1] + 20, inner[0] - 10, inner[1] + 4, { waves: 1, amp: 4 });
+    // The gap between the sheets at the bottom of the roll.
+    const gap = at(12 + 2 * pitch + pitch / 4, 4 * Math.PI);
+    note(svg, 612, 1176, 'Insulator', { size: 22, anchor: 'end' });
+    svg.leader(560, 1162, gap[0] + 4, gap[1] + 2, { bend: -0.3, width: 1.5 });
+    caption(svg, 310, 1176, '(b)');
+    return svg.render();
+  },
+
   // 19.5 Fig. 2 — field lines in a parallel-plate capacitor
   Figure_19_05_02: () => {
     const svg = new Svg({
@@ -609,6 +709,39 @@ export default {
     note(svg, 160, yb - 44, '+', { size: 22 });
     note(svg, 240, yb - 44, '−', { size: 22 });
     note(svg, 200, yb + 50, 'battery');
+    return svg.render();
+  },
+
+  // 19.5 Fig. 4 — a parallel-plate capacitor of plate area A and separation d
+  Figure_19_05_04: () => {
+    const svg = new Svg({
+      width: 460,
+      height: 860,
+      title: 'A parallel-plate capacitor',
+      desc: 'Two parallel plates, each of area A, face each other a distance d apart, with a uniform electric field drawn as arrows from the left plate to the right plate. The left plate is wired to the battery’s positive terminal and carries +Q; the right plate is wired to the negative terminal and carries −Q.',
+    });
+    svg.add(
+      '<defs><linearGradient id="cap_plate" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4c5a86"/><stop offset="1" stop-color="#9aa6c8"/></linearGradient></defs>'
+    );
+    const plate = (x, opacity) =>
+      svg.add(
+        `<polygon points="${x},95 ${x + 50},40 ${x + 50},330 ${x},385" fill="url(#cap_plate)" fill-opacity="${opacity}" stroke="#3c4668" stroke-width="1.5"/>`
+      );
+    const { pos, neg } = carBattery(svg, 110, 650, { s: 0.6 });
+    wire(svg, [pos, [pos[0], 520], [150, 520], [150, 385]]);
+    wire(svg, [neg, [neg[0], 520], [430, 520], [430, 330]]);
+    plate(150, 1);
+    for (let y = 110; y <= 330; y += 36)
+      svg.arrow(180, y, 400, y, { color: FIELD, width: 2, head: 13 });
+    plate(380, 0.8);
+    svg.arrow(176, 18, 404, 18, { color: COLORS.black, width: 1.5, head: 11, start: true });
+    for (const x of [175, 405]) svg.line(x, 8, x, 28, { color: COLORS.black, width: 1.4 });
+    note(svg, 290, 0 + 40, 'Separation \\it{d}', { size: 20 });
+    lab(svg, 150, 410, '+Q');
+    lab(svg, 432, 410, '−Q');
+    note(svg, 290, 450, '\\it{A}, plate area', { size: 20 });
+    svg.leader(330, 436, 400, 352, { bend: -0.3, width: 1.5 });
+    note(svg, 266, 845, '\\it{V} (battery)', { size: 20 });
     return svg.render();
   },
 
@@ -681,6 +814,183 @@ export default {
       }
       caption(svg, 340, 1046, '(b)');
     }
+    return svg.render();
+  },
+
+  // 19.5 Fig. 6 — an atom polarized by external charges
+  Figure_19_05_06: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 770,
+      title: 'A polarized atom',
+      desc: 'Top: an unpolarized atom, its electron cloud a ring centered on the nucleus. Middle: with a negative external charge on the left and a positive one on the right, the electron cloud is pulled toward the positive charge and the nucleus toward the negative one, so the cloud is thick on the right and thin on the left (exaggerated). Bottom: from far away the polarized atom looks like a positive end facing the negative charge and a negative end facing the positive charge.',
+    });
+    const TEAL = '#2a9a98';
+    const nucleus = (x, y) => {
+      for (const [dx, dy, p] of [
+        [0, -14, 0],
+        [-12, -7, 1],
+        [12, -7, 1],
+        [-12, 7, 0],
+        [12, 7, 1],
+        [0, 14, 0],
+        [0, 0, 1],
+        [-22, 0, 0],
+        [22, 0, 1],
+      ]) {
+        svg.circle(x + dx, y + dy, 8, {
+          fill: p ? TEAL : '#8592cc',
+          stroke: '#3c4a7a',
+          width: 0.8,
+        });
+        if (p) sign(svg, x + dx, y + dy, '+', { size: 12, color: '#ffffff' });
+      }
+    };
+    const electron = (x, y) => lab(svg, x, y, 'e^−', { size: 24 });
+    // Unpolarized: a ring of charge centered on the nucleus.
+    svg.add(
+      `<defs><radialGradient id="ring" gradientUnits="userSpaceOnUse" cx="350" cy="135" r="125"><stop offset="0.6" stop-color="${TEAL}" stop-opacity="0"/><stop offset="0.8" stop-color="${TEAL}" stop-opacity="0.9"/><stop offset="1" stop-color="${TEAL}" stop-opacity="0"/></radialGradient></defs>`
+    );
+    svg.circle(350, 135, 125, { fill: 'url(#ring)' });
+    nucleus(350, 135);
+    for (const a of [270, 165, 15, 125, 55])
+      electron(350 + 100 * Math.cos(rad(a)), 135 + 100 * Math.sin(rad(a)));
+    note(svg, 610, 132, 'Unpolarized', { size: 26 });
+    // Polarized: the electrons crowd toward the positive charge on the right.
+    svg.add(
+      `<defs><radialGradient id="cloud_out" cx="0.7" cy="0.5" r="0.62"><stop offset="0" stop-color="${TEAL}" stop-opacity="1"/><stop offset="0.8" stop-color="${TEAL}" stop-opacity="0.75"/><stop offset="1" stop-color="${TEAL}" stop-opacity="0.05"/></radialGradient><radialGradient id="cloud_in"><stop offset="0" stop-color="#ffffff"/><stop offset="0.85" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>`
+    );
+    svg.ellipse(360, 400, 175, 112, { fill: 'url(#cloud_out)', stroke: 'none' });
+    svg.ellipse(314, 400, 128, 94, { fill: 'url(#cloud_in)', stroke: 'none' });
+    nucleus(244, 400);
+    electron(194, 398);
+    for (const [x, y] of [
+      [405, 305],
+      [470, 352],
+      [470, 437],
+      [405, 485],
+    ])
+      electron(x, y);
+    note(svg, 610, 305, 'Polarized', { size: 26 });
+    svg.circle(75, 400, 15, { fill: '#ef7d7d', stroke: '#b23b3b', width: 2 });
+    sign(svg, 75, 400, '−', { size: 22 });
+    svg.circle(620, 400, 15, { fill: TEAL, stroke: '#1b6a68', width: 2 });
+    sign(svg, 620, 400, '+', { size: 22, color: '#ffffff' });
+    for (const [x, y] of [
+      [75, 445],
+      [620, 445],
+    ]) {
+      note(svg, x, y, 'External', { size: 26 });
+      note(svg, x, y + 32, 'charge', { size: 26 });
+    }
+    // From far away: a dipole.
+    svg.ellipse(350, 655, 52, 33, { fill: '#aab6e0', stroke: '#6b78ad', width: 1.5 });
+    sign(svg, 325, 655, '+', { size: 26 });
+    sign(svg, 378, 655, '−', { size: 26 });
+    svg.circle(268, 655, 9, { fill: '#ef7d7d', stroke: '#b23b3b', width: 1.5 });
+    sign(svg, 268, 620, '−', { size: 24 });
+    svg.circle(432, 655, 9, { fill: TEAL, stroke: '#1b6a68', width: 1.5 });
+    sign(svg, 432, 620, '+', { size: 24 });
+    note(svg, 360, 742, 'Large-scale view of polarized atom', { size: 26 });
+    return svg.render();
+  },
+
+  // 19.5 Fig. 7 — the water molecule is polar
+  Figure_19_05_07: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 540,
+      title: 'The polar water molecule',
+      desc: 'Left: a schematic water molecule, an oxygen atom O bonded to two hydrogen atoms H with 104.5° between the bonds. Right: its electron cloud, drawn as shading that is densest around the oxygen nucleus. Electrons crowd toward the oxygen, leaving a net positive charge near the two hydrogen nuclei, marked +. Bottom left: the molecule as a whole has an inherent separation of charge, positive on one side and negative on the other.',
+    });
+    const half = 104.5 / 2;
+    // Schematic: bonds 104.5° apart, opening to the left of O.
+    const O = [200, 265];
+    const H = [1, -1].map(s => [
+      O[0] + 140 * Math.cos(rad(180 - s * half)),
+      O[1] - 140 * Math.sin(rad(180 - s * half)),
+    ]);
+    for (const h of H) svg.line(...O, ...h, { color: COLORS.black, width: 1.6 });
+    svg.add(
+      `<path d="M ${O[0] + 72 * Math.cos(rad(180 - half))} ${O[1] - 72 * Math.sin(rad(180 - half))} A 72 72 0 0 0 ${O[0] + 72 * Math.cos(rad(180 + half))} ${O[1] - 72 * Math.sin(rad(180 + half))}" fill="none" stroke="${COLORS.black}" stroke-width="3"/>`
+    );
+    svg.circle(...O, 34, { fill: '#e6e6e6' });
+    note(svg, ...O, 'O', { size: 26 });
+    for (const h of H) {
+      svg.circle(...h, 26, { fill: '#a9d8f2' });
+      note(svg, ...h, 'H', { size: 26 });
+    }
+    note(svg, O[0] - 84, O[1] + 2, '104.5°', { anchor: 'end', size: 24 });
+    note(svg, 310, 262, 'Schematic', { anchor: 'start', size: 26 });
+    // Electron cloud: densest around the oxygen nucleus, with the hydrogen lobes at the same angle.
+    const C = [665, 212];
+    const lobes = [1, -1].map(s => [
+      C[0] + 150 * Math.cos(rad(180 - s * half)),
+      C[1] - 150 * Math.sin(rad(180 - s * half)),
+    ]);
+    const outline = [
+      [lobes[0][0] - 40, lobes[0][1] - 30],
+      [lobes[0][0] + 40, lobes[0][1] - 40],
+      [C[0] + 40, C[1] - 70],
+      [C[0] + 105, C[1] - 10],
+      [C[0] + 40, C[1] + 65],
+      [lobes[1][0] + 40, lobes[1][1] + 45],
+      [lobes[1][0] - 40, lobes[1][1] + 35],
+      [lobes[1][0] - 55, lobes[1][1] - 40],
+      [C[0] - 140, C[1]],
+      [lobes[0][0] - 55, lobes[0][1] + 45],
+    ];
+    const n = outline.length;
+    const Pk = k => outline[(k + n) % n];
+    let d = `M ${outline[0].join(' ')}`;
+    for (let k = 0; k < n; k += 1) {
+      const [p0, p1, p2, p3] = [Pk(k - 1), Pk(k), Pk(k + 1), Pk(k + 2)];
+      const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6];
+      const c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
+      d += ` C ${c1.map(v => v.toFixed(1)).join(' ')} ${c2.map(v => v.toFixed(1)).join(' ')} ${p2.join(' ')}`;
+    }
+    svg.add(
+      `<defs><radialGradient id="h2o" gradientUnits="userSpaceOnUse" cx="${C[0]}" cy="${C[1]}" r="230"><stop offset="0" stop-color="#4f8a92"/><stop offset="0.45" stop-color="#8fb4ba"/><stop offset="1" stop-color="#e3eef0"/></radialGradient></defs>`
+    );
+    svg.path(`${d} Z`, { color: 'none', width: 0, fill: 'url(#h2o)' });
+    for (const l of lobes) sign(svg, ...l, '+', { size: 28 });
+    svg.circle(...C, 11, { fill: '#1f6fae' });
+    for (const [dx, dy] of [
+      [-4, -3],
+      [4, -2],
+      [0, 4],
+    ])
+      sign(svg, C[0] + dx, C[1] + dy, '+', { size: 16, color: '#ffffff' });
+    for (const [x, y] of [
+      [C[0] - 22, C[1] - 64],
+      [C[0] + 38, C[1] - 68],
+      [C[0] + 4, C[1] - 44],
+      [C[0] + 56, C[1] - 36],
+      [C[0] - 44, C[1] - 4],
+      [C[0] + 34, C[1] - 2],
+      [C[0] + 64, C[1] + 2],
+      [C[0] - 4, C[1] + 32],
+      [C[0] + 48, C[1] + 44],
+      [C[0] + 8, C[1] + 72],
+      [C[0] - 120, C[1] - 18],
+    ])
+      lab(svg, x, y, 'e^−', { size: 22, halo: false });
+    note(svg, 800, 205, 'Electron cloud', { anchor: 'start', size: 26 });
+    // The net effect: a permanent dipole.
+    svg.circle(60, 470, 50, { fill: 'none', stroke: '#3e9a9a', width: 9 });
+    for (const [r, op] of [
+      [30, 0.25],
+      [20, 0.45],
+      [10, 0.8],
+    ])
+      svg.add(`<circle cx="62" cy="470" r="${r}" fill="#3e9a9a" fill-opacity="${op}"/>`);
+    sign(svg, 26, 470, '+', { size: 22 });
+    sign(svg, 96, 470, '−', { size: 22 });
+    svg.lines(300, 440, ['Inherent (polar)', 'separation', 'of charge'], {
+      size: 26,
+      math: false,
+      anchor: 'start',
+    });
     return svg.render();
   },
 
@@ -774,6 +1084,114 @@ export default {
     note(svg, 905, 200, 'Inside', { size: 26, weight: 'bold' });
     note(svg, 905, 24, 'Membrane', { size: 24 });
     svg.squiggle(840, 26, 708, 92, { amp: 6 });
+    return svg.render();
+  },
+
+  // 19.6 Fig. 1 — capacitors in series, and the equivalent capacitor
+  Figure_19_06_01: () => {
+    const svg = new Svg({
+      width: 500,
+      height: 1260,
+      title: 'Capacitors in series',
+      desc: '(a) Three capacitors C1, C2 and C3 connected in series across a battery of voltage V. Each has charge +Q on one plate and −Q on the other. (b) The equivalent capacitor Cs, with the same charges ±Q, has a larger plate separation d, so its capacitance is less than that of any of the individual capacitors.',
+    });
+    const x = 420;
+    // (a)
+    const a = carBattery(svg, 0, 290, { s: 0.5, label: 'V' });
+    cable(svg, [
+      a.pos,
+      [a.pos[0], 20],
+      [x, 20],
+      [x, 600],
+      [310, 600],
+      [310, 245],
+      [a.neg[0], 245],
+      a.neg,
+    ]);
+    [125, 275, 425].forEach((y, i) => {
+      cap(svg, [x, y - 40], [x, y + 40], { plate: 120, gap: 44 });
+      lab(svg, 362, y - 38, '+Q', { anchor: 'start' });
+      lab(svg, 362, y + 40, '−Q', { anchor: 'start' });
+      lab(svg, 444, y, `C_${i + 1}`, { anchor: 'start' });
+    });
+    caption(svg, 250, 640, '(a)');
+    // (b)
+    const b = carBattery(svg, 0, 950, { s: 0.5, label: 'V' });
+    cable(svg, [
+      b.pos,
+      [b.pos[0], 680],
+      [x, 680],
+      [x, 1200],
+      [310, 1200],
+      [310, 905],
+      [b.neg[0], 905],
+      b.neg,
+    ]);
+    cap(svg, [x, 700], [x, 1150], { plate: 120, gap: 370 });
+    svg.arrow(395, 743, 395, 1107, { color: COLORS.black, width: 1.6, head: 12, start: true });
+    lab(svg, 378, 925, 'd', { anchor: 'end' });
+    lab(svg, 362, 722, '+Q', { anchor: 'start' });
+    lab(svg, 362, 1130, '−Q', { anchor: 'start' });
+    lab(svg, 450, 925, 'C_s', { anchor: 'start' });
+    caption(svg, 250, 1245, '(b)');
+    return svg.render();
+  },
+
+  // 19.6 Fig. 2 — capacitors in parallel, and the equivalent capacitor
+  Figure_19_06_02: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 830,
+      title: 'Capacitors in parallel',
+      desc: '(a) Three capacitors C1, C2 and C3 connected in parallel across a battery of voltage V, each holding its own charge, ±Q1, ±Q2 and ±Q3. (b) The equivalent capacitor Cp = C1 + C2 + C3 has a larger plate area and holds the total charge +Q = Q1 + Q2 + Q3 on one plate and −Q = −Q1 − Q2 − Q3 on the other.',
+    });
+    // (a)
+    const a = carBattery(svg, 0, 140, { s: 0.68 });
+    const xs = [455, 690, 925];
+    cable(svg, [
+      a.pos,
+      [a.pos[0], 10],
+      [xs[2], 10],
+      [xs[2], 345],
+      [372, 345],
+      [372, a.neg[1] - 15],
+      [a.neg[0], a.neg[1] - 15],
+      a.neg,
+    ]);
+    for (const x of xs.slice(0, 2))
+      cable(
+        svg,
+        [
+          [x, 10],
+          [x, 345],
+        ],
+        { r: 0 }
+      );
+    xs.forEach((x, i) => {
+      cap(svg, [x, 120], [x, 210], { plate: 130, gap: 70 });
+      lab(svg, x - 64, 112, `+Q_${i + 1}`, { anchor: 'start' });
+      lab(svg, x - 64, 222, `−Q_${i + 1}`, { anchor: 'start' });
+      lab(svg, x + 30, 165, `C_${i + 1}`, { anchor: 'start' });
+    });
+    lab(svg, 120, 370, 'V');
+    caption(svg, 630, 385, '(a)');
+    // (b)
+    const b = carBattery(svg, 0, 570, { s: 0.68 });
+    cable(svg, [b.pos, [b.pos[0], 440], [715, 440], [715, 563]]);
+    cable(svg, [
+      [715, 630],
+      [715, 780],
+      [372, 780],
+      [372, b.neg[1] - 15],
+      [b.neg[0], b.neg[1] - 15],
+      b.neg,
+    ]);
+    for (const y of [563, 630]) svg.line(372, y, 950, y, { color: CAPACITOR, width: 4.5 });
+    lab(svg, 380, 540, '+Q = Q_1 + Q_2 + Q_3', { anchor: 'start' });
+    lab(svg, 380, 656, '−Q = −Q_1 − Q_2 − Q_3', { anchor: 'start' });
+    lab(svg, 740, 597, 'C_p = C_1 + C_2 + C_3', { anchor: 'start' });
+    lab(svg, 120, 800, 'V');
+    caption(svg, 630, 812, '(b)');
     return svg.render();
   },
 

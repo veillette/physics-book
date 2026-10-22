@@ -311,7 +311,7 @@ in starting the engine.
 ![This diagram shows two typical batteries in series, with the positive terminal of the first touching the negative terminal of the second. The schematic diagram of the electric current flowing through them is shown as current I passing through the series of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two.](../resources/Figure_21_02_08.svg 'A series connection of two voltage sources. The emfs (each labeled with a script E) and internal resistances add, giving a total emf of ( \\text{emf}_1+\\text{emf}_2 ) and a total internal resistance of ( r_1 +r_2 ).')
 {: #Figure8}
 
-![The left side of the diagram shows a battery that contains a combination of a large number of cells. The right side shows a set of cells combined in series to form a battery.](../resources/Figure_21_02_09.jpg 'Batteries are multiple connections of individual cells, as shown in this modern rendition of an old print. Single cells, such as AA or C cells, are commonly called batteries, although this is technically incorrect.')
+![The left side of the diagram shows a battery that contains a combination of a large number of cells. The right side shows a set of cells combined in series to form a battery.](../resources/Figure_21_02_09.svg 'Batteries are multiple connections of individual cells, as shown in this modern rendition of an old print. Single cells, such as AA or C cells, are commonly called batteries, although this is technically incorrect.')
 {: #Figure9}
 
 If the _series_ connection of two voltage sources is made into a complete
