@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+<title id="title">Car turning left on level ground</title>
+<desc id="desc">Rear view of a car turning left. Normal force balances weight; static friction points left, toward the turn center. The separate free-body diagram shows the same three forces. Static friction is at most μsN.</desc>
+<rect width="720" height="430" fill="#ffffff"/>
+<polygon points="134,275 160,275 160,310 134,310" fill="#303030" stroke="#222222" stroke-width="1.5"/>
+<polygon points="240,275 266,275 266,310 240,310" fill="#303030" stroke="#222222" stroke-width="1.5"/>
+<polygon points="130,287 270,287 265,245 243,210 157,210 135,245" fill="#c0392b" stroke="#222222" stroke-width="2"/>
+<polygon points="152,245 248,245 234,221 166,221" fill="#c1dce8" stroke="#222222" stroke-width="1.2"/>
+<line x1="200" y1="222" x2="200" y2="245" stroke="#222222" stroke-width="1.2"/>
+<polygon points="145,257 157,257 157,275 145,275" fill="#f4ad93" stroke="#222222" stroke-width="1"/>
+<polygon points="243,257 255,257 255,275 243,275" fill="#f4ad93" stroke="#222222" stroke-width="1"/>
+<polygon points="133,280 267,280 267,288 133,288" fill="#cccccc" stroke="#222222" stroke-width="1"/>
+<polygon points="185,262 215,262 215,276 185,276" fill="#f5e3bc" stroke="#222222" stroke-width="1"/>
+<line x1="45" y1="310" x2="345" y2="310" stroke="#222222" stroke-width="3"/>
+<text x="200" y="52.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Rear</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan></text>
+<text x="535" y="52.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
+<g id="car-normal">
+<line x1="200" y1="250" x2="200" y2="151" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="200,140 204.8,152 195.2,152" fill="#b03a2e"/>
+</g>
+<g id="car-weight">
+<line x1="200" y1="250" x2="200" y2="349" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="200,360 195.2,348 204.8,348" fill="#b03a2e"/>
+</g>
+<g id="car-friction">
+<line x1="200" y1="250" x2="101" y2="250" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="90,250 102,245.2 102,254.8" fill="#b03a2e"/>
+</g>
+<circle cx="200" cy="250" r="5" fill="#222222"/>
+<text x="220" y="148.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-18.86">→</tspan><tspan dx="1.17" dy="18.86">​</tspan></tspan></text>
+<text x="220" y="368.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-11.96">→</tspan><tspan dx="1.17" dy="11.96">​</tspan></tspan></text>
+<text x="100" y="236.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">f<tspan font-size="14.26" font-weight="normal" dx="-10.96" dy="-18.86">→</tspan><tspan dx="-3.3" dy="18.86">​</tspan></tspan></text>
+<g id="fbd-normal">
+<line x1="535" y1="235" x2="535" y2="156" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="535,145 539.8,157 530.2,157" fill="#b03a2e"/>
+</g>
+<g id="fbd-weight">
+<line x1="535" y1="235" x2="535" y2="314" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="535,325 530.2,313 539.8,313" fill="#b03a2e"/>
+</g>
+<g id="fbd-friction">
+<line x1="535" y1="235" x2="456" y2="235" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="445,235 457,230.2 457,239.8" fill="#b03a2e"/>
+</g>
+<circle cx="535" cy="235" r="5" fill="#222222"/>
+<text x="555" y="153.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-18.86">→</tspan><tspan dx="1.17" dy="18.86">​</tspan></tspan></text>
+<text x="555" y="333.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-11.96">→</tspan><tspan dx="1.17" dy="11.96">​</tspan></tspan></text>
+<text x="455" y="221.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">f<tspan font-size="14.26" font-weight="normal" dx="-10.96" dy="-18.86">→</tspan><tspan dx="-3.3" dy="18.86">​</tspan></tspan></text>
+<text x="535" y="393.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">c</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> ≤ </tspan><tspan font-style="italic">μ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">s</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">N</tspan></text>
+<text x="200" y="404.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Turn</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">center</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">is</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">to</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">left</tspan></text>
+</svg>

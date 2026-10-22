@@ -24,6 +24,84 @@ const GREEN = '#4caf3d';
 const MAROON = COLORS.maroon;
 const PINK = '#e0245e';
 
+// Rear-view car geometry for the chapter 6 redraws. The local baseline is the
+// tire contact line, so rotating the whole drawing keeps both tires on the road.
+function rearCar6(svg, x, y, angle, color) {
+  const c = Math.cos(rad(angle)),
+    s = Math.sin(rad(angle));
+  const p = (dx, dy) => [x + dx * c - dy * s, y + dx * s + dy * c];
+  const poly = (points, options) =>
+    svg.polygon(
+      points.map(([dx, dy]) => p(dx, dy)),
+      options
+    );
+  for (const dx of [-53, 53])
+    poly(
+      [
+        [dx - 13, -35],
+        [dx + 13, -35],
+        [dx + 13, 0],
+        [dx - 13, 0],
+      ],
+      { fill: '#303030', stroke: BLACK, width: 1.5 }
+    );
+  poly(
+    [
+      [-70, -23],
+      [70, -23],
+      [65, -65],
+      [43, -100],
+      [-43, -100],
+      [-65, -65],
+    ],
+    { fill: color, stroke: BLACK, width: 2 }
+  );
+  poly(
+    [
+      [-48, -65],
+      [48, -65],
+      [34, -89],
+      [-34, -89],
+    ],
+    { fill: '#c1dce8', stroke: BLACK, width: 1.2 }
+  );
+  svg.line(...p(0, -88), ...p(0, -65), { color: BLACK, width: 1.2 });
+  for (const dx of [-55, 43])
+    poly(
+      [
+        [dx, -53],
+        [dx + 12, -53],
+        [dx + 12, -35],
+        [dx, -35],
+      ],
+      { fill: '#f4ad93', stroke: BLACK, width: 1 }
+    );
+  poly(
+    [
+      [-67, -30],
+      [67, -30],
+      [67, -22],
+      [-67, -22],
+    ],
+    { fill: '#cccccc', stroke: BLACK, width: 1 }
+  );
+  poly(
+    [
+      [-15, -48],
+      [15, -48],
+      [15, -34],
+      [-15, -34],
+    ],
+    { fill: '#f5e3bc', stroke: BLACK, width: 1 }
+  );
+}
+
+function group6(svg, id, draw) {
+  svg.add(`<g id="${id}">`);
+  draw();
+  svg.add('</g>');
+}
+
 const polar = Frame.polar;
 const add = (...vs) => vs.reduce(([a, b], [c, d]) => [a + c, b + d], [0, 0]);
 
@@ -1823,6 +1901,657 @@ export default {
       math: false,
     });
     svg.text(350, 595, 'OE_i + \\it{W}_{nc} = OE_f', { size: 40, math: false });
+    return svg.render();
+  },
+
+  // 6.3 — Friction supplies the inward force; it reaches μsN only at the limit.
+  Figure_06_03_02: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 430,
+      title: 'Car turning left on level ground',
+      desc: 'Rear view of a car turning left. Normal force balances weight; static friction points left, toward the turn center. The separate free-body diagram shows the same three forces. Static friction is at most μsN.',
+    });
+    rearCar6(svg, 200, 310, 0, '#c0392b');
+    svg.line(45, 310, 345, 310, { color: BLACK, width: 3 });
+    svg.text(200, 45, 'Rear view', { size: 21, math: false });
+    svg.text(535, 45, 'Free-body diagram', { size: 21, math: false });
+    for (const [id, x, y, length] of [
+      ['car', 200, 250, 110],
+      ['fbd', 535, 235, 90],
+    ]) {
+      group6(svg, `${id}-normal`, () =>
+        svg.arrow(x, y, x, y - length, { color: FORCE, width: 3, head: 12 })
+      );
+      group6(svg, `${id}-weight`, () =>
+        svg.arrow(x, y, x, y + length, { color: FORCE, width: 3, head: 12 })
+      );
+      group6(svg, `${id}-friction`, () =>
+        svg.arrow(x, y, x - length, y, { color: FORCE, width: 3, head: 12 })
+      );
+      svg.circle(x, y, 5, { fill: BLACK });
+      svg.text(x + 20, y - length, '**N**', { size: 23 });
+      svg.text(x + 20, y + length, '**w**', { size: 23 });
+      svg.text(x - length + 10, y - 22, '**f**', { size: 23 });
+    }
+    svg.text(535, 385, 'f = F_c ≤ μ_s N', { size: 24 });
+    svg.text(200, 398, 'Turn center is to the left', { size: 18, math: false });
+    return svg.render();
+  },
+
+  // 6.3 — Both θ arcs measure the same acute banking angle.
+  Figure_06_03_03: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 520,
+      title: 'Car on a frictionless banked curve',
+      desc: 'The car and road rise to the right by θ. The normal force is perpendicular to the road, tilted left of upward vertical by θ. Its upward component balances weight and its leftward component supplies the centripetal force.',
+    });
+    const theta = 22;
+    const slope = Math.tan(rad(theta));
+    const road = [65, 410];
+    const right = [695, 410 - 630 * slope];
+    group6(svg, 'banked-road', () =>
+      svg.polygon([road, right, [right[0], right[1] + 24], [65, 434]], {
+        fill: '#aaaaaa',
+        stroke: BLACK,
+        width: 2,
+      })
+    );
+    const carX = 395;
+    const baseY = road[1] - (carX - road[0]) * slope;
+    group6(svg, 'banked-car', () => rearCar6(svg, carX, baseY, -theta, '#3aa7dc'));
+    // Transform the local car center with exactly the same rotation as the wheels.
+    const x = carX - 58 * Math.sin(rad(theta));
+    const y = baseY - 58 * Math.cos(rad(theta));
+    const n = 140;
+    const nx = x - n * Math.sin(rad(theta));
+    const ny = y - n * Math.cos(rad(theta));
+    svg.line(x, y, x, ny - 24, { color: COLORS.guide, dash: '5 4' });
+    svg.line(nx, ny, x, ny, { color: COLORS.guide, dash: '5 4' });
+    group6(svg, 'normal', () => svg.arrow(x, y, nx, ny, { color: FORCE, width: 3.5, head: 13 }));
+    group6(svg, 'weight', () =>
+      svg.arrow(x, y, x, y + n * Math.cos(rad(theta)), { color: FORCE, width: 3.5, head: 13 })
+    );
+    // Dashed component is part of N, not an additional external force.
+    group6(svg, 'inward-component', () =>
+      svg.arrow(x, y, nx, y, { color: FORCE_LIGHT, width: 2, dash: '5 4', head: 9 })
+    );
+    svg.circle(x, y, 5, { fill: BLACK });
+    svg.text(nx - 18, ny - 12, '**N**', { size: 24 });
+    svg.text(x + 22, y + 110, '**w**', { size: 24 });
+    group6(svg, 'normal-angle', () =>
+      svg.arc(x, y, 48, 90, 90 + theta, { color: BLACK, width: 1.5 })
+    );
+    svg.text(x - 13, y - 65, 'θ', { size: 22 });
+    svg.line(...road, 260, road[1], { color: BLACK, width: 1.5 });
+    group6(svg, 'road-angle', () => svg.arc(...road, 70, 0, theta, { color: BLACK, width: 1.5 }));
+    svg.text(155, 393, 'θ', { size: 22 });
+    svg.text(585, 335, 'N cos θ = w', { size: 24 });
+    svg.text(585, 382, 'N sin θ = F_c = F_{net}', { size: 24 });
+    svg.text(380, 480, 'Leftward net force: toward the center of the turn', {
+      size: 19,
+      math: false,
+    });
+    return svg.render();
+  },
+
+  // 6.3 — A racing line uses the road width; its center differs from the bend's.
+  Figure_06_03_04: () => {
+    const svg = new Svg({
+      width: 660,
+      height: 660,
+      title: 'Cutting the corner increases the turning radius',
+      desc: 'Top view of a left turn. Path 2 follows the road bend. Path 1 starts wide, passes close to the inside edge at the apex, and exits wide. The corner-cutting arc has a larger radius than Path 2, allowing a greater speed for the same available friction.',
+    });
+    svg.rect(35, 40, 540, 535, { fill: '#dce8bd' });
+    svg.path(
+      'M 360 550 L 360 300 A 60 60 0 0 0 300 240 L 60 240 L 60 60 L 300 60 A 240 240 0 0 1 540 300 L 540 550 Z',
+      { fill: '#b7b7b7', color: BLACK, width: 2.5 }
+    );
+    svg.path('M 450 550 L 450 300 A 150 150 0 0 0 300 150 L 60 150', {
+      color: '#ffffff',
+      width: 3,
+      dash: '17 12',
+    });
+    group6(svg, 'path-2', () =>
+      svg.path('M 450 550 L 450 300 A 150 150 0 0 0 300 150 L 60 150', {
+        color: '#1f77c8',
+        width: 3,
+      })
+    );
+    // Radius 440, centered at (60,550), passes near the inside apex. It is
+    // deliberately not concentric with the 150-pixel road-following curve.
+    const race = Array.from({ length: 181 }, (_, i) => {
+      const a = rad(i / 2);
+      return [60 + 440 * Math.cos(a), 550 - 440 * Math.sin(a)];
+    });
+    group6(svg, 'path-1', () => svg.polyline(race, { color: FORCE, width: 3.5 }));
+    const topCar = (cx, cy, angle, color) => {
+      const p = (x, y) => [
+        cx + x * Math.cos(rad(angle)) - y * Math.sin(rad(angle)),
+        cy + x * Math.sin(rad(angle)) + y * Math.cos(rad(angle)),
+      ];
+      for (const x of [-16, 16])
+        for (const y of [-15, 15])
+          svg.polygon([p(x - 7, y - 3), p(x + 7, y - 3), p(x + 7, y + 3), p(x - 7, y + 3)], {
+            fill: BLACK,
+          });
+      svg.polygon([p(-29, -13), p(29, -13), p(29, 13), p(-29, 13)], {
+        fill: color,
+        stroke: BLACK,
+        width: 1.5,
+      });
+      svg.polygon([p(-8, -10), p(13, -10), p(13, 10), p(-8, 10)], {
+        fill: '#cce4ee',
+        stroke: BLACK,
+        width: 1,
+      });
+      svg.line(...p(21, -10), ...p(21, 10), { color: '#ffffff', width: 2 });
+    };
+    topCar(450, 460, -90, '#3aa7dc');
+    const a = rad(22);
+    topCar(60 + 440 * Math.cos(a), 550 - 440 * Math.sin(a), -112, '#e27468');
+    for (const angle of [14, 65]) {
+      const t = rad(angle);
+      const p = [60 + 440 * Math.cos(t), 550 - 440 * Math.sin(t)];
+      svg.arrow(...p, p[0] - 25 * Math.sin(t), p[1] - 25 * Math.cos(t), {
+        color: FORCE,
+        width: 3,
+        head: 12,
+      });
+    }
+    svg.arrow(450, 340, 450, 312, { color: '#1f77c8', width: 3, head: 12 });
+    svg.arrow(150, 150, 120, 150, { color: '#1f77c8', width: 3, head: 12 });
+    svg.text(275, 300, 'Path 1', { size: 21, math: false, color: FORCE });
+    svg.leader(315, 289, race[90][0], race[90][1], { bend: 0.05 });
+    svg.text(587, 323, 'Path 2', { size: 21, math: false, color: '#1f77c8' });
+    svg.leader(552, 320, 452, 350, { bend: 0.05 });
+    svg.text(330, 597, 'Cut the inside apex, enter and exit wide', { size: 21, math: false });
+    svg.text(330, 631, 'r_1 > r_2     ⇒     v_{max,1} > v_{max,2}', { size: 24 });
+    return svg.render();
+  },
+
+  // 6.3 — A pair of clothoids: curvature grows continuously to the crown.
+  Figure_06_03_10: () => {
+    const svg = new Svg({
+      width: 780,
+      height: 650,
+      title: 'Teardrop roller-coaster loop',
+      desc: 'A teardrop loop runs leftward from entrance A at the lower right, up the left side past B, over the crown, down the right side past C, and out at D at the lower left. Curvature grows smoothly from zero at entry to its maximum at the crown; the radius is smallest at the top and larger near the base.',
+    });
+    const length = 1100;
+    const steps = 1000;
+    const heading = u =>
+      u <= 0.5 ? Math.PI - 4 * Math.PI * u * u : -Math.PI + 4 * Math.PI * (1 - u) ** 2;
+    const points = [[610, 480]];
+    for (let k = 0; k < steps; k++) {
+      const a = heading((k + 0.5) / steps);
+      const p = points.at(-1);
+      points.push([p[0] + (length / steps) * Math.cos(a), p[1] - (length / steps) * Math.sin(a)]);
+    }
+    // Trestle and bracing attach to the track, behind the two rails.
+    for (let x = 175; x <= 625; x += 50) {
+      svg.line(x, 486, x, 615, { color: '#c9a962', width: 5 });
+      if (x < 625) {
+        svg.line(x, 486, x + 50, 615, { color: '#dbc386', width: 3 });
+        svg.line(x + 50, 486, x, 615, { color: '#dbc386', width: 3 });
+      }
+    }
+    for (const i of [310, 690]) {
+      const [x, y] = points[i];
+      svg.line(x, y + 6, x, 615, { color: '#b78e49', width: 7 });
+      svg.line(x, y + 6, x + (i < 500 ? -45 : 45), 615, { color: '#b78e49', width: 4 });
+    }
+    for (const y of [515, 565, 615]) svg.line(160, y, 640, y, { color: '#c9a962', width: 4 });
+    svg.line(100, 620, 700, 620, { color: BLACK, width: 3 });
+    svg.line(610, 480, 660, 480, { color: '#327b35', width: 12 });
+    svg.line(150, 480, points.at(-1)[0], 480, { color: '#327b35', width: 12 });
+    group6(svg, 'loop-centerline', () => svg.polyline(points, { color: '#327b35', width: 12 }));
+    for (const offset of [-6, 6]) {
+      const rail = points.map(([x, y], k) => {
+        const a = heading(k / steps);
+        return [x + offset * Math.sin(a), y + offset * Math.cos(a)];
+      });
+      svg.polyline(rail, { color: BLACK, width: 1.7 });
+      svg.line(610, 480 + offset, 660, 480 + offset, { color: BLACK, width: 1.7 });
+      svg.line(150, 480 + offset, points.at(-1)[0], 480 + offset, { color: BLACK, width: 1.7 });
+    }
+    for (const [name, i, dx, dy] of [
+      ['A', 0, 35, 28],
+      ['B', 360, -27, -5],
+      ['C', 640, 28, -5],
+      ['D', 1000, -30, 28],
+    ]) {
+      const [x, y] = points[i];
+      svg.text(x + dx, y + dy, name, { size: 24, math: false, weight: 'bold' });
+    }
+    // Radius arrows use the local osculating centers, not a common loop center.
+    for (const [id, i] of [
+      ['minimum-radius', 500],
+      ['base-radius', 220],
+    ]) {
+      const u = i / steps;
+      const r = length / (8 * Math.PI * Math.min(u, 1 - u));
+      const a = heading(u);
+      const [x, y] = points[i];
+      const center = [x + r * Math.sin(a), y + r * Math.cos(a)];
+      svg.circle(...center, 3, { fill: MAROON });
+      group6(svg, id, () => svg.arrow(...center, x, y, { color: MAROON, width: 2, head: 10 }));
+    }
+    svg.text(320, 177, 'r_{minimum}', { size: 22 });
+    svg.leader(355, 185, points[500][0], points[500][1] + 40, { bend: 0.1 });
+    svg.lines(620, 325, ['Larger radius', 'near the base'], { size: 20, math: false });
+    svg.leader(553, 345, 440, 353, { bend: 0.05 });
+    svg.text(400, 55, 'Straight entry and exit: curvature → 0', { size: 20, math: false });
+    for (const i of [70, 330, 510, 670, 930]) {
+      const [x, y] = points[i];
+      const a = heading(i / steps);
+      svg.arrow(x, y, x + 24 * Math.cos(a), y - 24 * Math.sin(a), {
+        color: BLACK,
+        width: 2,
+        head: 10,
+      });
+    }
+    return svg.render();
+  },
+
+  // 6.4 — A separate released rider follows a tangent in the inertial frame.
+  Figure_06_04_02: () => {
+    const svg = new Svg({
+      width: 1120,
+      height: 520,
+      title: 'Rotating and inertial views of a merry-go-round',
+      desc: 'Top views of counterclockwise rotation. In the rotating frame an outward fictitious centrifugal force balances the inward real force for a rider at rest. In the inertial frame a held rider has a real inward centripetal force; a separate unshaded released rider has zero net horizontal force and follows a straight tangent.',
+    });
+    const rider = (x, y, shaded) => {
+      svg.ellipse(x, y, 25, 10, {
+        fill: shaded ? '#dfb080' : '#ffffff',
+        stroke: BLACK,
+        width: 1.5,
+      });
+      svg.circle(x + 21, y - 7, 7, { fill: shaded ? '#dfb080' : '#ffffff', stroke: BLACK });
+      for (const dx of [-16, 15])
+        svg.line(x + dx, y + 6, x + dx - 5, y + 16, { color: BLACK, width: 2 });
+      svg.ellipse(x - 4, y - 4, 9, 13, {
+        fill: shaded ? '#ce6b9d' : '#ffffff',
+        stroke: BLACK,
+        width: 1.5,
+      });
+      svg.circle(x - 5, y - 17, 8, { fill: shaded ? '#f4cbaa' : '#ffffff', stroke: BLACK });
+      svg.circle(x, y, 3, { fill: '#d1aa34' });
+    };
+    for (const [id, cx] of [
+      ['rotating', 250],
+      ['inertial', 800],
+    ]) {
+      const cy = 285;
+      group6(svg, `${id}-platform`, () =>
+        svg.circle(cx, cy, 155, { fill: '#f5d4be', stroke: '#b9865e', width: 2.5 })
+      );
+      for (let a = 0; a < 360; a += 30)
+        svg.line(cx, cy, cx + 155 * Math.cos(rad(a)), cy - 155 * Math.sin(rad(a)), {
+          color: '#dfb99b',
+          width: 1.5,
+        });
+      svg.circle(cx, cy, 120, { fill: 'none', stroke: COLORS.guide, dash: '4 5', width: 1 });
+      svg.circle(cx, cy, 7, { fill: '#d1aa34', stroke: BLACK });
+      svg.arc(cx, cy, 139, 110, 165, { color: TEAL, width: 3 });
+      const end = [cx + 139 * Math.cos(rad(165)), cy - 139 * Math.sin(rad(165))];
+      svg.arrow(end[0] + 5, end[1] - 20, ...end, { color: TEAL, width: 3, head: 11 });
+      svg.text(cx - 128, cy - 83, 'ω', { size: 23, color: TEAL });
+      const unit = [Math.cos(rad(35)), -Math.sin(rad(35))];
+      const p = [cx + 120 * unit[0], cy + 120 * unit[1]];
+      svg.line(cx, cy, ...p, { color: BLACK, dash: '5 4' });
+      group6(svg, `${id}-held-rider`, () => rider(...p, true));
+      if (id === 'rotating') {
+        group6(svg, 'fictitious-force', () =>
+          svg.arrow(...p, p[0] + 90 * unit[0], p[1] + 90 * unit[1], {
+            color: FORCE,
+            width: 3.5,
+            head: 12,
+          })
+        );
+        svg.text(cx, 90, 'F_{fict} = F_{centrifugal}', { size: 24 });
+        svg.leader(350, 103, p[0] + 55 * unit[0], p[1] + 55 * unit[1], { bend: 0.1 });
+      } else {
+        group6(svg, 'centripetal-force', () =>
+          svg.arrow(...p, cx + 20 * unit[0], cy + 20 * unit[1], {
+            color: FORCE,
+            width: 3.5,
+            head: 12,
+          })
+        );
+        svg.text(760, 358, 'F_{net} = F_{centripetal}', { size: 23 });
+        svg.leader(820, 342, cx + 65 * unit[0], cy + 65 * unit[1], { bend: 0.05 });
+        // Release at the rightmost point of the circular orbit: v points up.
+        group6(svg, 'released-trajectory', () =>
+          svg.arrow(cx + 120, cy, cx + 120, 65, { color: TEAL, width: 2.5, dash: '7 5', head: 12 })
+        );
+        svg.circle(cx + 120, cy, 4, { fill: BLACK });
+        group6(svg, 'released-rider', () => rider(cx + 120, 110, false));
+        svg.text(1030, 108, 'F_{net} = 0', { size: 23 });
+        svg.text(1030, 140, 'Released rider', { size: 17, math: false });
+        svg.text(1020, 290, 'Release', { size: 17, math: false });
+        svg.leader(980, 290, cx + 120, cy, { bend: 0.05 });
+      }
+    }
+    svg.text(250, 35, '(a) Rotating frame', { size: 24, math: false });
+    svg.text(800, 35, '(b) Inertial frame', { size: 24, math: false });
+    svg.text(250, 487, 'Outward fictitious force', { size: 20, math: false });
+    svg.text(800, 487, 'Real force inward; released motion straight', { size: 20, math: false });
+    return svg.render();
+  },
+
+  // 6.5 — A cutaway and a magnified surface view show r ≈ re.
+  Figure_06_05_03: () => {
+    const svg = new Svg({
+      width: 790,
+      height: 480,
+      title: 'Distance from Earth’s center to a surface object',
+      desc: 'Earth with a cutaway of its interior, its center of mass, and a radius to an object at the surface. A magnified circular inset shows a building above the curved surface. The building height is negligible compared with Earth’s radius, so the center-to-object distance is approximately the radius of Earth.',
+    });
+    const cx = 205,
+      cy = 240,
+      r = 150;
+    svg.circle(cx, cy, r, { fill: '#96c9d3', stroke: '#487f8a', width: 2 });
+    svg.path(
+      'M 125 220 L 146 197 L 183 202 L 200 227 L 224 247 L 218 279 L 198 303 L 189 336 L 171 316 L 165 281 L 145 266 L 127 240 Z',
+      { fill: '#cfb079', color: '#987b45', width: 1.5 }
+    );
+    for (const [radius, fill] of [
+      [150, '#e7d6af'],
+      [100, '#ddbd6b'],
+      [47, '#c58246'],
+    ])
+      svg.arc(cx, cy, radius, 0, 90, { fill, color: '#aa945d', width: 1 });
+    const surface = [cx + r / Math.SQRT2, cy - r / Math.SQRT2];
+    svg.circle(cx, cy, 5, { fill: BLACK });
+    svg.text(cx - 18, cy + 24, 'CM', { size: 21, math: false });
+    group6(svg, 'earth-radius', () =>
+      svg.arrow(cx, cy, ...surface, { color: FORCE, width: 2.5, head: 10 })
+    );
+    svg.text(cx + 70, cy - 40, 'r_e', { size: 24 });
+    svg.circle(...surface, 5, { fill: FORCE });
+    svg.text(cx - 40, cy + 113, 'Earth', { size: 24, math: false });
+    const zx = 585,
+      zy = 235,
+      zr = 133;
+    svg.line(...surface, 494, 138, { color: BLACK, width: 1.2 });
+    svg.line(...surface, 454, 260, { color: BLACK, width: 1.2 });
+    svg.add(
+      '<defs><clipPath id="surface-zoom"><circle cx="585" cy="235" r="133"/></clipPath></defs>'
+    );
+    svg.circle(zx, zy, zr, { fill: '#ffffff', stroke: BLACK, width: 2 });
+    svg.add('<g clip-path="url(#surface-zoom)">');
+    svg.circle(zx, 655, 410, { fill: '#dfc787', stroke: '#aa945d', width: 2 });
+    svg.add('</g>');
+    // The building is at the TOP of the surface; its vertical axis is radial.
+    group6(svg, 'surface-building', () => {
+      svg.rect(563, 182, 44, 63, { fill: '#ae4d3c', stroke: BLACK, width: 1.5 });
+      svg.polygon(
+        [
+          [558, 182],
+          [585, 164],
+          [612, 182],
+        ],
+        { fill: '#71392e', stroke: BLACK }
+      );
+      for (let row = 0; row < 3; row++)
+        for (let col = 0; col < 2; col++)
+          svg.rect(570 + col * 20, 191 + row * 15, 8, 9, {
+            fill: '#e4edf6',
+            stroke: BLACK,
+            width: 0.7,
+          });
+      svg.rect(581, 230, 8, 15, { fill: '#5c342a', stroke: BLACK, width: 0.7 });
+    });
+    svg.circle(zx, 245, 3, { fill: BLACK });
+    group6(svg, 'zoom-radius', () =>
+      svg.arrow(zx, 245, zx, 345, { color: FORCE, width: 2, head: 9 })
+    );
+    svg.path('M 578 298 l 5 -4 l 5 8 l 5 -4 M 578 305 l 5 -4 l 5 8 l 5 -4', {
+      color: BLACK,
+      width: 1.5,
+    });
+    svg.text(612, 282, 'r_e', { size: 24 });
+    svg.text(zx, 398, 'Toward Earth’s center', { size: 19, math: false });
+    svg.text(395, 450, 'Object near the surface: r ≈ r_e', { size: 24 });
+    return svg.render();
+  },
+
+  // 6.5 — Opposite-side attracting masses give torques of the same sign.
+  Figure_06_05_09: () => {
+    const svg = new Svg({
+      width: 900,
+      height: 580,
+      title: 'Cavendish torsion balance',
+      desc: 'A top view shows two small masses on a suspended rod. The large attracting masses lie on opposite sides of the rod, so their attractions produce torques in the same counterclockwise direction. A mirror on the suspension reflects a light beam onto a scale. A side inset shows the fiber and suspended rod.',
+    });
+    svg.text(275, 35, 'Top view: gravitational torques add', { size: 22, math: false });
+    // The separate stand carries M; the light suspended rod carries m.
+    svg.line(130, 380, 390, 160, { color: '#bbbbbb', width: 18 });
+    group6(svg, 'suspended-rod', () =>
+      svg.line(130, 270, 390, 270, { color: '#555555', width: 6 })
+    );
+    for (const [id, x, y] of [
+      ['left', 130, 380],
+      ['right', 390, 160],
+    ]) {
+      group6(svg, `${id}-large-mass`, () =>
+        svg.circle(x, y, 35, { fill: '#34495e', stroke: BLACK, width: 2 })
+      );
+      svg.text(x, y, 'M', { size: 26, color: '#ffffff', halo: false });
+    }
+    for (const [id, x, sign] of [
+      ['left', 130, 1],
+      ['right', 390, -1],
+    ]) {
+      group6(svg, `${id}-small-mass`, () =>
+        svg.circle(x, 270, 19, { fill: '#c5cdd1', stroke: BLACK, width: 2 })
+      );
+      svg.text(x, 270, 'm', { size: 23 });
+      group6(svg, `${id}-attraction`, () =>
+        svg.arrow(x, 270, x, 270 + sign * 65, { color: FORCE, width: 3, head: 11 })
+      );
+      svg.text(x + 25, 270 + sign * 46, '**F**', { size: 22 });
+    }
+    svg.circle(260, 270, 7, { fill: '#f5d37b', stroke: BLACK });
+    svg.text(220, 320, 'Pivot', { size: 18, math: false });
+    svg.leader(232, 307, 260, 270, { bend: 0.05 });
+    svg.arc(260, 270, 54, 40, 140, { color: TEAL, width: 2.5 });
+    const turn = [260 + 54 * Math.cos(rad(140)), 270 - 54 * Math.sin(rad(140))];
+    svg.arrow(turn[0] + 10, turn[1] - 12, ...turn, { color: TEAL, width: 2.5, head: 10 });
+    // Specular reflection: mirror tangent is perpendicular to (outgoing − incoming).
+    const source = [650, 300],
+      mirror = [260, 270],
+      scale = [650, 470];
+    const unit = (a, b) => {
+      const d = Math.hypot(b[0] - a[0], b[1] - a[1]);
+      return [(b[0] - a[0]) / d, (b[1] - a[1]) / d];
+    };
+    const incoming = unit(source, mirror),
+      outgoing = unit(mirror, scale);
+    const normal = [outgoing[0] - incoming[0], outgoing[1] - incoming[1]];
+    const norm = Math.hypot(...normal);
+    const tangent = [-normal[1] / norm, normal[0] / norm];
+    group6(svg, 'mirror', () =>
+      svg.line(
+        mirror[0] - 17 * tangent[0],
+        mirror[1] - 17 * tangent[1],
+        mirror[0] + 17 * tangent[0],
+        mirror[1] + 17 * tangent[1],
+        { color: '#4793a6', width: 5 }
+      )
+    );
+    svg.text(324, 225, 'Mirror', { size: 18, math: false });
+    svg.leader(304, 238, ...mirror, { bend: 0.05 });
+    group6(svg, 'incident-ray', () => svg.line(...source, ...mirror, { color: TEAL, width: 2 }));
+    group6(svg, 'reflected-ray', () => svg.line(...mirror, ...scale, { color: TEAL, width: 2 }));
+    svg.arrow(495, 288.08, 450, 284.62, { color: TEAL, width: 2, head: 10 });
+    svg.arrow(455, 370, 494, 390, { color: TEAL, width: 2, head: 10 });
+    svg.rect(650, 282, 90, 36, { fill: '#e4e8eb', stroke: BLACK, width: 1.5, rx: 4 });
+    svg.text(695, 343, 'Light source', { size: 19, math: false });
+    svg.rect(570, 453, 160, 34, { fill: '#f3f3ef', stroke: BLACK, width: 1.5 });
+    for (let i = 0; i <= 10; i++)
+      svg.line(580 + 14 * i, 457, 580 + 14 * i, i % 5 === 0 ? 484 : 475, {
+        color: BLACK,
+        width: 1,
+      });
+    svg.text(650, 512, 'Scale', { size: 19, math: false });
+    svg.circle(...scale, 4, { fill: TEAL });
+    // Side inset makes clear that the rod is suspended by a fiber.
+    svg.text(730, 45, 'Side view', { size: 21, math: false });
+    svg.line(650, 80, 810, 80, { color: BLACK, width: 4 });
+    svg.line(730, 80, 730, 210, { color: '#777777', width: 2 });
+    svg.line(675, 210, 785, 210, { color: '#555555', width: 4 });
+    for (const x of [675, 785]) svg.circle(x, 210, 11, { fill: '#c5cdd1', stroke: BLACK });
+    svg.rect(725, 175, 10, 20, { fill: '#cbe3ec', stroke: BLACK });
+    svg.text(792, 130, 'Fiber', { size: 18, math: false });
+    svg.leader(770, 140, 730, 140, { bend: 0.05 });
+    svg.text(275, 548, 'Twisting of the fiber shifts the reflected spot', {
+      size: 20,
+      math: false,
+    });
+    return svg.render();
+  },
+
+  // 6.6 — Historical schematic models, with every planet on its own path.
+  Figure_06_06_03: () => {
+    const svg = new Svg({
+      width: 1160,
+      height: 730,
+      title: 'Ptolemaic and Copernican models',
+      desc: 'Left: the geocentric Ptolemaic model has Earth at the center, the Moon and Sun on circular paths, and Mercury, Venus, Mars, Jupiter, and Saturn on epicycles whose centers move around Earth. Stars surround the system. Right: the heliocentric Copernican model has the Sun at the center, with Mercury, Venus, Earth and its Moon, Mars, Jupiter, and Saturn orbiting it. Schematic, not to scale.',
+    });
+    svg.text(290, 35, '(a) Ptolemaic view', { size: 25, math: false });
+    svg.text(870, 35, '(b) Copernican view', { size: 25, math: false });
+    svg.line(580, 90, 580, 665, { color: '#bbbbbb', width: 1 });
+    const px = 290,
+      py = 375;
+    svg.circle(px, py, 18, { fill: '#87ceeb', stroke: '#4682b4', width: 2 });
+    svg.text(px, py + 31, 'Earth', { size: 17, math: false });
+    const geo = [
+      { name: 'Moon', r: 40, a: 0, epi: 0, color: '#bbbbbb', size: 6, label: [349, 396] },
+      {
+        name: 'Mercury',
+        r: 70,
+        a: 60,
+        epi: 14,
+        phase: 0,
+        color: '#999999',
+        size: 5,
+        label: [384, 285],
+      },
+      {
+        name: 'Venus',
+        r: 103,
+        a: 150,
+        epi: 17,
+        phase: 140,
+        color: '#d5ac65',
+        size: 6,
+        label: [161, 288],
+      },
+      { name: 'Sun', r: 137, a: 270, epi: 0, color: '#f3cb3d', size: 13, label: [338, 512] },
+      {
+        name: 'Mars',
+        r: 170,
+        a: 0,
+        epi: 22,
+        phase: 0,
+        color: '#c65c47',
+        size: 6,
+        label: [490, 407],
+      },
+      {
+        name: 'Jupiter',
+        r: 205,
+        a: 210,
+        epi: 20,
+        phase: 220,
+        color: '#cda148',
+        size: 9,
+        label: [95, 523],
+      },
+      {
+        name: 'Saturn',
+        r: 235,
+        a: 100,
+        epi: 23,
+        phase: 40,
+        color: '#d49f65',
+        size: 8,
+        label: [312, 125],
+      },
+    ];
+    for (const planet of geo) {
+      const { name, r, a, epi, phase = 0, color, size, label } = planet;
+      svg.circle(px, py, r, { fill: 'none', stroke: '#aaaaaa', width: 1.2, dash: '4 4' });
+      const center = [px + r * Math.cos(rad(a)), py - r * Math.sin(rad(a))];
+      if (epi) {
+        group6(svg, `epicycle-${name}`, () =>
+          svg.circle(...center, epi, { fill: 'none', stroke: '#38894b', width: 2 })
+        );
+        svg.circle(...center, 2, { fill: '#38894b' });
+      }
+      const point = [
+        center[0] + epi * Math.cos(rad(phase)),
+        center[1] - epi * Math.sin(rad(phase)),
+      ];
+      group6(svg, `geocentric-${name}`, () =>
+        svg.circle(...point, size, { fill: color, stroke: BLACK, width: 1 })
+      );
+      svg.text(...label, name, { size: 17, math: false });
+      svg.line(label[0], label[1] + (label[1] < point[1] ? 11 : -11), ...point, {
+        color: COLORS.guide,
+        width: 0.8,
+      });
+    }
+    svg.text(497, 304, 'Epicycle', { size: 17, math: false });
+    svg.leader(486, 318, 474, 358, { bend: 0.05 });
+    for (let a = 0; a < 360; a += 24)
+      svg.circle(px + 274 * Math.cos(rad(a)), py - 274 * Math.sin(rad(a)), 2.7, {
+        fill: '#a65e55',
+      });
+    svg.text(290, 680, 'Stars', { size: 19, math: false });
+    svg.arc(px, py, 281, 70, 113, { color: BLACK, width: 1.5 });
+    const end = [px + 281 * Math.cos(rad(113)), py - 281 * Math.sin(rad(113))];
+    svg.arrow(end[0] + 17, end[1] - 7, ...end, { color: BLACK, width: 1.5, head: 9 });
+    svg.text(290, 78, 'Primary motion', { size: 17, math: false });
+    const cx = 870,
+      cy = 375;
+    svg.circle(cx, cy, 20, { fill: '#f3cb3d', stroke: '#b5972c', width: 2 });
+    svg.text(cx, cy + 33, 'Sun', { size: 18, math: false });
+    const helio = [
+      { name: 'Mercury', r: 45, a: 25, color: '#999999', size: 5, label: [974, 347] },
+      { name: 'Venus', r: 77, a: 115, color: '#d5ac65', size: 6, label: [815, 274] },
+      { name: 'Earth', r: 110, a: 205, color: '#87ceeb', size: 7, label: [735, 453] },
+      { name: 'Mars', r: 150, a: 300, color: '#c65c47', size: 6, label: [978, 528] },
+      { name: 'Jupiter', r: 195, a: 45, color: '#cda148', size: 10, label: [1058, 220] },
+      { name: 'Saturn', r: 235, a: 145, color: '#d49f65', size: 9, label: [648, 211] },
+    ];
+    for (const { name, r, a, color, size, label } of helio) {
+      svg.circle(cx, cy, r, { fill: 'none', stroke: '#aaaaaa', width: 1.2 });
+      const point = [cx + r * Math.cos(rad(a)), cy - r * Math.sin(rad(a))];
+      group6(svg, `heliocentric-${name}`, () =>
+        svg.circle(...point, size, { fill: color, stroke: BLACK, width: 1 })
+      );
+      if (name === 'Earth') {
+        svg.circle(...point, 15, { fill: 'none', stroke: '#aaaaaa', width: 1 });
+        svg.circle(point[0], point[1] - 15, 3, { fill: '#aaaaaa', stroke: BLACK, width: 0.5 });
+      }
+      if (name === 'Saturn') svg.ellipse(...point, 17, 4, { stroke: '#856f4b', width: 1.5 });
+      svg.text(...label, name, { size: 17, math: false });
+      svg.line(label[0], label[1] + (label[1] < point[1] ? 11 : -11), ...point, {
+        color: COLORS.guide,
+        width: 0.8,
+      });
+    }
+    svg.text(580, 710, 'Schematic models — sizes and distances are not to scale', {
+      size: 19,
+      math: false,
+    });
     return svg.render();
   },
 };

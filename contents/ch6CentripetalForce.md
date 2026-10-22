@@ -147,7 +147,7 @@ normal force would be greater than the weight, as will be discussed below.
 
 :::
 
-![In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.](../resources/Figure_06_03_02.jpg 'This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.')
+![Rear view of a car turning left on level ground and a matching free-body diagram. Normal force N points up, weight w points down, and static friction f points left toward the turn center. The frictional force supplies F_c and cannot exceed μ_s N.](/resources/Figure_06_03_02.svg 'This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.')
 {: #Figure2}
 
 Let us now consider **banked curves**, where the slope of the road helps you
@@ -220,7 +220,7 @@ curves. Friction helps, because it allows you to take the curve at greater or
 lower speed than if the curve is frictionless. Note that $$\theta$$ does not
 depend on the mass of the vehicle.
 
-![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_06_03_03.jpg 'The car on this banked curve is moving away and turning to the left.')
+![A rear-view car and the road beneath it both rise to the right at angle θ. The normal force N points up and left, perpendicular to the road; weight w points down. One θ arc lies between N and upward vertical, and another lies between the road and horizontal. N cos θ = w and N sin θ = F_c = F_net.](/resources/Figure_06_03_03.svg 'The car on this banked curve is moving away and turning to the left.')
 {: #Figure3}
 
 ::: example {"class":"example","id":"banked-curve"}
@@ -412,7 +412,7 @@ You feel thrown outward because your inertia keeps you moving in a straight line
 
 Race car drivers routinely cut corners as shown in [Figure 4](#Figure4). Explain how this allows the curve to be taken at the greatest speed.
 
-![In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.](../resources/Figure_06_03_04.jpg 'Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.')
+![Two cars follow a left-hand bend viewed from above. Blue Path 2 follows the road bend. Red Path 1 enters wide, passes closer to the inside edge at the apex, and exits wide. Path 1 has the larger turning radius and permits the higher maximum speed.](/resources/Figure_06_03_04.svg 'Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.')
 {: #Figure4}
 
 :::
@@ -1221,11 +1221,7 @@ The ideal speed for this banked curve is 16.2 m/s (about 58 km/h), at which no f
 
 Modern roller coasters have vertical loops like the one shown in [Figure 10](#Figure10). The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 g?
 
-![A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.](../resources/Figure_06_03_10.jpg 'Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than
-
-g
-
-so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.')
+![A teardrop roller-coaster loop with two rails and a braced support structure. Entrance A is at the lower right, B is on the rising left side, C is on the descending right side, and exit D is at the lower left. Arrows show leftward entry and exit and rightward motion over the crown. Local radius arrows show the smallest radius at the top and a larger radius near the base.](/resources/Figure_06_03_10.svg 'Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than \( g \) so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.')
 {: #Figure10}
 
 :::

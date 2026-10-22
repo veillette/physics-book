@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<title id="title">Car on a frictionless banked curve</title>
+<desc id="desc">The car and road rise to the right by θ. The normal force is perpendicular to the road, tilted left of upward vertical by θ. Its upward component balances weight and its leftward component supplies the centripetal force.</desc>
+<rect width="760" height="520" fill="#ffffff"/>
+<g id="banked-road">
+<polygon points="65,410 695,155.46 695,179.46 65,434" fill="#aaaaaa" stroke="#222222" stroke-width="2"/>
+</g>
+<g id="banked-car">
+<polygon points="320.69,268.94 344.8,259.2 357.91,291.66 333.81,301.4" fill="#303030" stroke="#222222" stroke-width="1.5"/>
+<polygon points="418.98,229.24 443.08,219.5 456.19,251.95 432.09,261.69" fill="#303030" stroke="#222222" stroke-width="1.5"/>
+<polygon points="321.48,281.57 451.29,229.12 430.92,192.05 397.41,167.84 317.67,200.06 310.38,240.75" fill="#3aa7dc" stroke="#222222" stroke-width="2"/>
+<polygon points="326.15,234.39 415.16,198.42 393.18,181.42 330.14,206.89" fill="#c1dce8" stroke="#222222" stroke-width="1.2"/>
+<line x1="362.03" y1="195.08" x2="370.65" y2="216.4" stroke="#222222" stroke-width="1.2"/>
+<polygon points="324.15,248.13 335.28,243.64 342.02,260.33 330.89,264.82" fill="#f4ad93" stroke="#222222" stroke-width="1"/>
+<polygon points="415.01,211.42 426.14,206.93 432.88,223.62 421.76,228.11" fill="#f4ad93" stroke="#222222" stroke-width="1"/>
+<polygon points="321.64,273.95 445.88,223.76 448.88,231.17 324.64,281.37" fill="#cccccc" stroke="#222222" stroke-width="1"/>
+<polygon points="363.11,237.79 390.93,226.55 396.17,239.53 368.36,250.77" fill="#f5e3bc" stroke="#222222" stroke-width="1"/>
+</g>
+<line x1="373.27" y1="222.89" x2="373.27" y2="69.09" stroke="#666666" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="320.83" y1="93.09" x2="373.27" y2="93.09" stroke="#666666" stroke-width="1.5" stroke-dasharray="5 4"/>
+<g id="normal">
+<line x1="373.27" y1="222.89" x2="325.32" y2="104.22" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="320.83,93.09 330.52,103.19 320.88,107.09" fill="#b03a2e"/>
+</g>
+<g id="weight">
+<line x1="373.27" y1="222.89" x2="373.27" y2="340.7" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="373.27,352.7 368.07,339.7 378.47,339.7" fill="#b03a2e"/>
+</g>
+<g id="inward-component">
+<line x1="373.27" y1="222.89" x2="328.83" y2="222.89" stroke="#d98b84" stroke-width="2" stroke-dasharray="5 4"/>
+<polygon points="320.83,222.89 329.83,219.29 329.83,226.49" fill="#d98b84"/>
+</g>
+<circle cx="373.27" cy="222.89" r="5" fill="#222222"/>
+<text x="302.83" y="89.49" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="14.88" font-weight="normal" dx="-16.1" dy="-19.68">→</tspan><tspan dx="1.22" dy="19.68">​</tspan></tspan></text>
+<text x="395.27" y="341.29" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.88" font-weight="normal" dx="-16.1" dy="-12.48">→</tspan><tspan dx="1.22" dy="12.48">​</tspan></tspan></text>
+<g id="normal-angle">
+<path d="M 373.27 174.89 A 48 48 0 0 0 355.29 178.39" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<text x="360.27" y="165.59" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<line x1="65" y1="410" x2="260" y2="410" stroke="#222222" stroke-width="1.5"/>
+<g id="road-angle">
+<path d="M 135 410 A 70 70 0 0 0 129.9 383.78" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<text x="155" y="400.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="585" y="343.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">w</tspan></text>
+<text x="585" y="390.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">c</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">net</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="380" y="486.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Leftward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">net</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">toward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">center</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">turn</tspan></text>
+</svg>
