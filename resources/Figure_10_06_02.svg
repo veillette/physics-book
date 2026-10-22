@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="390" viewBox="0 0 800 390" role="img" aria-labelledby="title desc">
+<title id="title">An inelastic collision between a disk and a pivoted stick</title>
+<desc id="desc">Top views of a frictionless surface. (a) Before: disk m moves right with velocity v toward the upper tip of a stationary stick M of length r, nailed at its lower end. (b) After: the disk adheres to the tip and the stick and disk rotate clockwise together about the nail with angular velocity ω.</desc>
+<rect width="800" height="390" fill="#ffffff"/>
+<text x="205" y="46.75" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Before</tspan></text>
+<text x="600" y="46.75" font-family="Helvetica, Arial, sans-serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">After</tspan></text>
+<rect x="35" y="70" width="340" height="260" rx="5" fill="#faf4df" stroke="#c7b784" stroke-width="2"/>
+<rect x="425" y="70" width="340" height="260" rx="5" fill="#faf4df" stroke="#c7b784" stroke-width="2"/>
+<text x="400" y="374.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Top</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">frictionless</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surface</tspan></text>
+<g id="stick-before">
+<rect x="241" y="115" width="18" height="155" fill="#dcb878" stroke="#a7803d" stroke-width="2"/>
+</g>
+<text x="218" y="202.45" font-family="'Times New Roman', Times, serif" font-size="27" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">M</tspan></text>
+<g id="disk-before">
+<circle cx="92" cy="115" r="19" fill="#b9dce7" stroke="#437b91" stroke-width="2"/>
+<text x="92" y="123.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+</g>
+<g id="incident-velocity">
+<line x1="123" y1="115" x2="212.3" y2="115" stroke="#5e9e1e" stroke-width="3.5"/>
+<polygon points="225,115 211.3,120.48 211.3,109.52" fill="#5e9e1e"/>
+</g>
+<text x="174" y="101.45" font-family="'Times New Roman', Times, serif" font-size="27" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<line x1="265" y1="115" x2="317" y2="115" stroke="#777777" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="265" y1="270" x2="317" y2="270" stroke="#777777" stroke-width="1.3" stroke-dasharray="6 5"/>
+<line x1="296" y1="115" x2="318" y2="115" stroke="#222222" stroke-width="1.5"/>
+<line x1="296" y1="270" x2="318" y2="270" stroke="#222222" stroke-width="1.5"/>
+<line x1="307" y1="127" x2="307" y2="258" stroke="#222222" stroke-width="1.5"/>
+<polygon points="307,269 302.2,257 311.8,257" fill="#222222"/>
+<polygon points="307,116 311.8,128 302.2,128" fill="#222222"/>
+<text x="307" y="201.6" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<circle cx="250" cy="270" r="7" fill="#777777" stroke="#222222" stroke-width="2"/>
+<text x="166" y="310.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Nail</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">pivot</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 226 299 Q 240.9 286.9 246.68 276.16" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="245.73" y1="277.92" x2="247.91" y2="273.87" stroke="#333333" stroke-width="1.2"/>
+<polygon points="250,270 249.34,275.78 245.54,273.73" fill="#333333"/>
+<g id="stick-after">
+<polygon points="559.63,264.84 648.53,137.87 663.28,148.19 574.37,275.16" fill="#dcb878" stroke="#a7803d" stroke-width="2"/>
+</g>
+<text x="586.45" y="205.97" font-family="'Times New Roman', Times, serif" font-size="27" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">M</tspan></text>
+<g id="disk-after">
+<circle cx="655.9" cy="143.03" r="19" fill="#b9dce7" stroke="#437b91" stroke-width="2"/>
+<text x="655.9" y="151.78" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+</g>
+<circle cx="567" cy="270" r="7" fill="#777777" stroke="#222222" stroke-width="2"/>
+<text x="481" y="310.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Nail</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">pivot</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 541 299 Q 556.9 287.1 563.44 276.03" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="562.42" y1="277.75" x2="564.76" y2="273.79" stroke="#333333" stroke-width="1.2"/>
+<polygon points="567,270 566.11,275.75 562.39,273.55" fill="#333333"/>
+<g id="collision-rotation">
+<path d="M 678.61 287.68 A 113 113 0 0 0 650.98 194.39" fill="none" stroke="#1f77c8" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="679.86" y1="275.66" x2="678.7" y2="284.57" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="677.53,293.49 674.86,283.06 682.79,284.1" fill="#1f77c8"/>
+</g>
+<text x="711" y="250.15" font-family="'Times New Roman', Times, serif" font-size="29" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ω</tspan></text>
+<text x="660" y="99" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Disk</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">adheres</tspan></text>
+<path d="M 660 108 Q 656.35 115.61 656.27 117.04" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="656.38" y1="115.04" x2="656.14" y2="119.64" stroke="#333333" stroke-width="1.2"/>
+<polygon points="655.9,124.03 654.03,118.53 658.35,118.75" fill="#333333"/>
+</svg>

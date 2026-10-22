@@ -1,4 +1,4 @@
-/** Chapter 10: circular-motion vectors and the rotational-inertia reference. */
+/** Chapter 10: rotational motion, energy, collisions, and torque vectors. */
 import { COLORS, Svg, rad } from './svg.js';
 
 const INK = COLORS.black;
@@ -7,11 +7,20 @@ const AXIS = '#438a32';
 const PURPLE = '#c7b2d9';
 const EDGE = '#77528c';
 const GUIDE = { color: '#777777', width: 1.3, dash: '6 5' };
+const WOOD = '#dcb878';
+const WOOD_EDGE = '#a7803d';
 const point = (cx, cy, r, angle) => [cx + r * Math.cos(rad(angle)), cy - r * Math.sin(rad(angle))];
 
 function arcArrow(svg, cx, cy, r, start, end, color = COLORS.blue) {
-  svg.arc(cx, cy, r, start, end - 3, { color, width: 2.5 });
-  svg.arrow(...point(cx, cy, r, end - 4), ...point(cx, cy, r, end), {
+  const direction = Math.sign(end - start);
+  // Svg.arc traces counterclockwise; reverse the undirected arc for clockwise motion.
+  const stop = end - direction * 3;
+  svg.arc(cx, cy, r, direction > 0 ? start : stop, direction > 0 ? stop : start, {
+    color,
+    width: 2.5,
+  });
+  const headAngle = (18 / r) * (180 / Math.PI);
+  svg.arrow(...point(cx, cy, r, end - direction * headAngle), ...point(cx, cy, r, end), {
     color,
     width: 2.5,
     head: 10,
@@ -312,10 +321,343 @@ function inertiaChart() {
   return svg.render();
 }
 
+function fishingReel() {
+  const svg = new Svg({
+    width: 760,
+    height: 460,
+    title: 'Fishing line unwinding from a rotating reel',
+    desc: 'A fishing reel rotates counterclockwise, unwinding line tangentially to the right from a radius r = 4.5 cm. Rotational quantities θ, ω, α describe the reel; linear quantities x, v, a describe the fishing line. The line speed is v = rω.',
+  });
+  const [cx, cy, r] = [220, 205, 105];
+  // Reel mount, rod, and crank distinguish the reel from a bare disk.
+  svg.rect(195, 285, 48, 83, { fill: '#8b959d', stroke: '#56616b', width: 2, rx: 8 });
+  svg.rect(70, 363, 300, 16, { fill: '#c7ced3', stroke: '#56616b', width: 2, rx: 6 });
+  svg.rect(72, 355, 65, 32, { fill: WOOD, stroke: WOOD_EDGE, width: 2, rx: 8 });
+  svg.circle(cx, cy, r + 14, { fill: '#c7ced3', stroke: '#56616b', width: 2.5 });
+  svg.circle(cx, cy, r, { fill: '#edf2df', stroke: '#7d8c65', width: 2 });
+  [97, 89, 81].forEach(radius => {
+    svg.circle(cx, cy, radius, { fill: 'none', stroke: '#a6b58a', width: 1.5 });
+  });
+  svg.line(cx, cy, 150, 244, { color: '#56616b', width: 12, cap: 'round' });
+  svg.ellipse(150, 244, 13, 22, { fill: WOOD, stroke: WOOD_EDGE, width: 2 });
+  svg.circle(cx, cy, 17, { fill: '#8b959d', stroke: '#56616b', width: 2 });
+
+  svg.add('<g id="reel-radius">');
+  svg.arrow(cx, cy, ...point(cx, cy, r, 35), { width: 2, head: 9 });
+  svg.text(286, 223, 'r = 4.5 \\rm{cm}', { size: 24 });
+  svg.add('</g>');
+  svg.add('<g id="reel-rotation">');
+  arcArrow(svg, cx, cy, 145, -35, 85, COLORS.blue);
+  svg.add('</g>');
+  svg.text(85, 55, 'Reel', { size: 23, math: false });
+  svg.leader(114, 62, 137, 119, { bend: 0.2 });
+  svg.text(510, 75, 'Rotational quantities', { size: 23, math: false });
+  svg.text(510, 110, 'θ, ω, α', { size: 29, color: COLORS.blue });
+  svg.leader(410, 120, 362, 183, { bend: 0.2 });
+  svg.text(510, 185, 'Counterclockwise', { size: 21, math: false, color: COLORS.blue });
+
+  // At the bottom of a counterclockwise reel, the tangent points right.
+  svg.add('<g id="fishing-line">');
+  svg.line(cx, cy + r, 680, cy + r, { color: '#65754b', width: 3 });
+  svg.add('</g>');
+  svg.text(548, 251, 'Fishing line', { size: 23, math: false });
+  svg.leader(548, 270, 555, cy + r, { bend: -0.3 });
+  svg.add('<g id="line-motion">');
+  svg.arrow(425, 350, 660, 350, { color: COLORS.velocity, width: 3.5 });
+  svg.add('</g>');
+  svg.text(544, 382, 'x, v, a', { size: 29, color: COLORS.velocity });
+  svg.text(544, 423, 'Linear quantities', { size: 23, math: false });
+  svg.text(214, 423, 'v = rω', { size: 27 });
+  return svg.render();
+}
+
+function rollingCans() {
+  const svg = new Svg({
+    width: 820,
+    height: 470,
+    title: 'Soup cans racing down an incline: sliding versus rolling',
+    desc: 'Three equal-mass cans start from rest at the same height h in separate lanes. Can 1 slides without rotating and is farthest downhill, finishing first. Can 2 rolls with thin soup that does not rotate, finishing second. Can 3 rolls with thick soup rotating with the can and finishes third. Clockwise arrows mark rotation only on cans 2 and 3.',
+  });
+  const top = [100, 160];
+  const across = [240, -90];
+  const downhill = [360, 220];
+  const at = (lane, distance) => [
+    top[0] + lane * across[0] + distance * downhill[0],
+    top[1] + lane * across[1] + distance * downhill[1],
+  ];
+  svg.polygon([at(0, 0), at(1, 0), at(1, 1), at(0, 1)], {
+    fill: '#e2eaf3',
+    stroke: '#7991ac',
+    width: 2,
+  });
+  [1 / 3, 2 / 3].forEach(lane => {
+    svg.line(...at(lane, 0), ...at(lane, 1), { color: '#a5b5c7', dash: '7 5' });
+  });
+  svg.line(50, 160, 100, 160, GUIDE);
+  svg.line(50, 380, 460, 380, GUIDE);
+  svg.vdimension(55, 160, 380, 'h', { size: 26 });
+  svg.text(230, 40, 'Common start', { size: 21, math: false });
+  svg.text(640, 355, 'Finish', { size: 21, math: false });
+  svg.line(...at(0, 1), ...at(1, 1), { color: '#56616b', width: 4 });
+
+  // The projected can faces are tangent to the downhill direction. Their
+  // support points lie on the ramp; all three cans have the same dimensions.
+  const rx = 14;
+  const ry = 19;
+  const normal = [-downhill[1], downhill[0]];
+  const support = Math.hypot(rx * normal[0], ry * normal[1]);
+  const offset = [(rx ** 2 * normal[0]) / support, (ry ** 2 * normal[1]) / support];
+  const cans = [
+    { number: 3, lane: 5 / 6, distance: 0.24, fill: '#ded0e8', edge: EDGE },
+    { number: 2, lane: 1 / 2, distance: 0.53, fill: '#c9e7df', edge: '#438b77' },
+    { number: 1, lane: 1 / 6, distance: 0.84, fill: '#ffddd0', edge: '#c85d42' },
+  ];
+  for (const can of cans) {
+    const ground = at(can.lane, can.distance);
+    const [x, y] = [ground[0] - offset[0], ground[1] - offset[1]];
+    const [bx, by] = [x + 30, y - 12];
+    svg.add(`<g id="can-${can.number}">`);
+    svg.ellipse(bx, by, rx, ry, { fill: can.fill, stroke: can.edge, width: 2 });
+    svg.path(
+      `M ${x} ${y - ry} L ${bx} ${by - ry} A ${rx} ${ry} 0 0 1 ${bx} ${by + ry} L ${x} ${y + ry} Z`,
+      {
+        fill: can.fill,
+        color: can.edge,
+        width: 2,
+      }
+    );
+    svg.ellipse(x, y, rx, ry, { fill: can.fill, stroke: can.edge, width: 2 });
+    svg.text(x, y, String(can.number), { size: 20, math: false, halo: false });
+    svg.add('</g>');
+    if (can.number !== 1) {
+      svg.add(`<g id="can-${can.number}-rotation">`);
+      arcArrow(svg, x, y, 29, 120, -60, can.edge);
+      svg.add('</g>');
+    }
+    const start = at(can.lane, 0.06);
+    const stop = at(can.lane, can.distance - 0.09);
+    svg.arrow(...start, ...stop, { color: INK, width: 2.5, head: 10 });
+    svg.arrow(ground[0] + 40, ground[1] + 15, ground[0] + 84, ground[1] + 42, {
+      color: INK,
+      width: 2,
+      head: 9,
+    });
+  }
+  svg.text(160, 421, '1: first — slides', { size: 22, math: false });
+  svg.text(160, 450, 'No rotation', { size: 19, math: false });
+  svg.text(420, 421, '2: second — rolls', { size: 22, math: false });
+  svg.text(420, 450, 'Thin soup', { size: 19, math: false });
+  svg.text(680, 421, '3: third — rolls', { size: 22, math: false });
+  svg.text(680, 450, 'Thick soup', { size: 19, math: false });
+  return svg.render();
+}
+
+function diskStickCollision() {
+  const svg = new Svg({
+    width: 800,
+    height: 390,
+    title: 'An inelastic collision between a disk and a pivoted stick',
+    desc: 'Top views of a frictionless surface. (a) Before: disk m moves right with velocity v toward the upper tip of a stationary stick M of length r, nailed at its lower end. (b) After: the disk adheres to the tip and the stick and disk rotate clockwise together about the nail with angular velocity ω.',
+  });
+  svg.text(205, 38, '(a) Before', { size: 25, math: false });
+  svg.text(600, 38, '(b) After', { size: 25, math: false });
+  [35, 425].forEach(x => {
+    svg.rect(x, 70, 340, 260, { fill: '#faf4df', stroke: '#c7b784', width: 2, rx: 5 });
+  });
+  svg.text(400, 366, 'Top view: frictionless surface', { size: 23, math: false });
+  const [px, py, length] = [250, 270, 155];
+  svg.add('<g id="stick-before">');
+  svg.rect(px - 9, py - length, 18, length, { fill: WOOD, stroke: WOOD_EDGE, width: 2 });
+  svg.add('</g>');
+  svg.text(218, 193, 'M', { size: 27 });
+  svg.add('<g id="disk-before">');
+  svg.circle(92, py - length, 19, { fill: '#b9dce7', stroke: '#437b91', width: 2 });
+  svg.text(92, py - length, 'm', { size: 25, halo: false });
+  svg.add('</g>');
+  svg.add('<g id="incident-velocity">');
+  svg.arrow(123, py - length, 225, py - length, { color: COLORS.velocity, width: 3.5 });
+  svg.add('</g>');
+  svg.text(174, 92, 'v', { size: 27, color: COLORS.velocity });
+  svg.line(px + 15, py - length, 317, py - length, GUIDE);
+  svg.line(px + 15, py, 317, py, GUIDE);
+  svg.vdimension(307, py - length, py, 'r', { size: 26 });
+  svg.circle(px, py, 7, { fill: '#777777', stroke: INK, width: 2 });
+  svg.text(166, 303, 'Nail (pivot)', { size: 21, math: false });
+  svg.leader(226, 299, px, py, { bend: 0.1 });
+
+  const [qx, qy, angle] = [567, py, 55];
+  const end = point(qx, qy, length, angle);
+  const normal = [Math.sin(rad(angle)), Math.cos(rad(angle))];
+  svg.add('<g id="stick-after">');
+  svg.polygon(
+    [
+      [qx - 9 * normal[0], qy - 9 * normal[1]],
+      [end[0] - 9 * normal[0], end[1] - 9 * normal[1]],
+      [end[0] + 9 * normal[0], end[1] + 9 * normal[1]],
+      [qx + 9 * normal[0], qy + 9 * normal[1]],
+    ],
+    { fill: WOOD, stroke: WOOD_EDGE, width: 2 }
+  );
+  svg.add('</g>');
+  svg.text((qx + end[0]) / 2 - 25, (qy + end[1]) / 2 - 10, 'M', { size: 27 });
+  svg.add('<g id="disk-after">');
+  svg.circle(...end, 19, { fill: '#b9dce7', stroke: '#437b91', width: 2 });
+  svg.text(...end, 'm', { size: 25, halo: false });
+  svg.add('</g>');
+  svg.circle(qx, qy, 7, { fill: '#777777', stroke: INK, width: 2 });
+  svg.text(481, 303, 'Nail (pivot)', { size: 21, math: false });
+  svg.leader(541, 299, qx, qy, { bend: 0.1 });
+  svg.add('<g id="collision-rotation">');
+  arcArrow(svg, qx, qy, 113, 42, -12, COLORS.blue);
+  svg.add('</g>');
+  svg.text(711, 240, 'ω', { size: 29, color: COLORS.blue });
+  svg.text(660, 92, 'Disk adheres', { size: 20, math: false });
+  svg.leader(660, 108, end[0], end[1] - 19, { bend: 0.1 });
+  return svg.render();
+}
+
+function torqueVectorDiagram() {
+  const svg = new Svg({
+    width: 880,
+    height: 430,
+    title: 'Torque and the direction of change in angular momentum',
+    desc: '(a) The position vector r runs from a pivot to the point where force F acts in a plane. Their cross product τ points upward, perpendicular to that plane. (b) A child rides a carousel horse on a merry-go-round. A tangential force F at radius r produces upward torque, parallel to the change in angular momentum. For the counterclockwise rotation viewed from above, ω and L also point upward.',
+  });
+  svg.text(222, 45, '(a) Torque direction', { size: 24, math: false });
+  svg.polygon(
+    [
+      [40, 330],
+      [270, 330],
+      [410, 185],
+      [180, 185],
+    ],
+    {
+      fill: '#fbe6da',
+      stroke: '#c9a896',
+      width: 2,
+    }
+  );
+  svg.circle(160, 270, 5, { fill: INK });
+  svg.add('<g id="plane-radius">');
+  svg.arrow(160, 270, 295, 245, { color: COLORS.blue, width: 3 });
+  svg.add('</g>');
+  svg.text(224, 243, 'r', { size: 27, color: COLORS.blue });
+  svg.add('<g id="plane-force">');
+  svg.arrow(295, 245, 240, 190, { color: FORCE, width: 4 });
+  svg.add('</g>');
+  svg.text(280, 197, 'F', { size: 28, color: FORCE });
+  svg.add('<g id="plane-torque">');
+  svg.arrow(160, 270, 160, 115, { color: COLORS.orange, width: 4 });
+  svg.add('</g>');
+  svg.text(135, 154, 'τ', { size: 29, color: COLORS.orange });
+  svg.polyline(
+    [
+      [160, 251],
+      [178, 248],
+      [178, 267],
+    ],
+    { width: 1.2 }
+  );
+  svg.text(224, 367, 'Plane formed by r and F', { size: 22, math: false });
+  svg.text(224, 405, 'τ = r × F', { size: 27 });
+
+  svg.text(650, 45, '(b) Merry-go-round', { size: 24, math: false });
+  const [cx, cy] = [635, 280];
+  svg.ellipse(cx, cy + 12, 165, 68, { fill: '#dea58c', stroke: '#c9856b', width: 2 });
+  svg.ellipse(cx, cy, 165, 68, { fill: '#fbe6da', stroke: '#c9856b', width: 2 });
+  // A point on the projected rim: (cos θ, sin θ) = (0.8, -0.6).
+  // Its counterclockwise tangent has positive x and negative screen y.
+  const rim = [cx + 165 * 0.8, cy + 68 * 0.6];
+  svg.add('<g id="carousel-radius">');
+  svg.arrow(cx, cy, ...rim, { color: COLORS.blue, width: 2.5 });
+  svg.add('</g>');
+  svg.text(690, 321, 'r', { size: 26, color: COLORS.blue });
+  svg.line(750, 127, 750, 311, { color: '#d7b052', width: 5 });
+  // Carousel horse, saddle, bridle, and seated child.
+  svg.path('M 714 275 Q 700 261 696 282 Q 692 296 685 291', { color: EDGE, width: 6 });
+  svg.ellipse(744, 277, 38, 15, { fill: PURPLE, stroke: EDGE, width: 2 });
+  svg.polygon(
+    [
+      [765, 277],
+      [772, 252],
+      [786, 243],
+      [802, 252],
+      [793, 264],
+      [785, 284],
+    ],
+    {
+      fill: PURPLE,
+      stroke: EDGE,
+      width: 2,
+    }
+  );
+  svg.polygon(
+    [
+      [783, 246],
+      [782, 233],
+      [790, 243],
+    ],
+    { fill: PURPLE, stroke: EDGE, width: 1.5 }
+  );
+  svg.circle(790, 252, 2.3, { fill: INK });
+  svg.line(789, 258, 798, 260, { color: '#d7b052', width: 3 });
+  svg.polyline([[771, 285], [779, 299], rim], { color: EDGE, width: 6 });
+  svg.polyline(
+    [
+      [723, 286],
+      [709, 303],
+      [717, 314],
+    ],
+    { color: EDGE, width: 6 }
+  );
+  svg.rect(729, 261, 26, 9, { fill: '#ca864d', stroke: '#935d31', width: 1.5, rx: 3 });
+  svg.circle(742, 214, 10, { fill: '#e9bb8b', stroke: '#9a6b45', width: 1.5 });
+  svg.path('M 735 233 L 739 255 L 752 255 L 750 232 Z', {
+    fill: '#ea9893',
+    color: '#a45557',
+    width: 2,
+  });
+  svg.polyline(
+    [
+      [749, 236],
+      [759, 247],
+      [777, 252],
+    ],
+    { color: '#9a6b45', width: 4 }
+  );
+  svg.polyline(
+    [
+      [742, 257],
+      [760, 279],
+      [752, 294],
+    ],
+    { color: '#456c9f', width: 7 }
+  );
+
+  svg.add('<g id="carousel-force">');
+  svg.arrow(...rim, rim[0] + 165 * 0.6 * 0.65, rim[1] - 68 * 0.8 * 0.65, {
+    color: FORCE,
+    width: 4,
+  });
+  svg.add('</g>');
+  svg.text(829, 260, 'F', { size: 29, color: FORCE });
+  svg.circle(cx, cy, 5, { fill: INK });
+  svg.add('<g id="carousel-axis">');
+  svg.arrow(cx, cy, cx, 119, { color: COLORS.orange, width: 4 });
+  svg.add('</g>');
+  svg.text(cx, 90, 'τ, ω, L', { size: 28, color: COLORS.orange });
+  svg.text(650, 405, 'τ ∥ ΔL', { size: 27 });
+  return svg.render();
+}
+
 export default {
   Figure_10_01_01: uniformRotation,
   Figure_10_01_02: () => accelerations(false),
   Figure_10_01_03: () => accelerations(true),
+  Figure_10_02_01: fishingReel,
   Figure_10_03_06: inertiaChart,
   Figure_10_04_02: rotationalWork,
+  Figure_10_04_06: rollingCans,
+  Figure_10_06_02: diskStickCollision,
+  Figure_10_07_02: torqueVectorDiagram,
 };

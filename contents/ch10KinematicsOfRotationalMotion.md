@@ -216,7 +216,7 @@ fish bites.
 
 :::
 
-![The figure shows a fishing reel, with radius equal to 4.5 centimeters. The direction of rotation of the reel is counterclockwise. The rotational quantities are theta, omega and alpha, and x, v, a are linear or translational quantities. The reel, fishing line, and the direction of motion have been separately indicated by curved arrows pointing toward those parts.](../resources/Figure_10_02_01.jpg 'Fishing line coming off a rotating reel moves linearly. <a href="#example1">Example 1</a> and <a href="#example2">Example 2</a> consider relationships between rotational and linear quantities associated with a fishing reel.')
+![The figure shows a fishing reel, with radius equal to 4.5 centimeters. The direction of rotation of the reel is counterclockwise. The rotational quantities are theta, omega and alpha, and x, v, a are linear or translational quantities. The reel, fishing line, and the direction of motion have been separately indicated by curved arrows pointing toward those parts.](/resources/Figure_10_02_01.svg 'Fishing line coming off a rotating reel moves linearly. <a href="#example1">Example 1</a> and <a href="#example2">Example 2</a> consider relationships between rotational and linear quantities associated with a fishing reel.')
 {: #Figure1}
 
 ::: example {"class":"example","id":"example2"}
