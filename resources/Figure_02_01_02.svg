@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="350" viewBox="0 0 680 350" role="img" aria-labelledby="title desc">
+<title id="title">Professor displacement along a whiteboard</title>
+<desc id="desc">The professor moves right from 1.5 m to 3.5 m, a displacement of +2.0 m.</desc>
+<rect width="680" height="350" fill="#ffffff"/>
+<rect x="120" y="25" width="450" height="180" fill="#e8f5e9" stroke="#333333" stroke-width="3"/>
+<text x="470" y="70.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Whiteboard</tspan></text>
+<circle cx="205" cy="118" r="12" fill="#ffcc99" stroke="#222222" stroke-width="1.5"/>
+<path d="M 193 118 Q 187 94 214 105" fill="none" stroke="#795548" stroke-width="6" stroke-linejoin="round"/>
+<rect x="191" y="134" width="28" height="39" rx="3" fill="#ff6b9d" stroke="#222222" stroke-width="1.5"/>
+<polyline points="197,173 193,200 185,200" fill="none" stroke="#607d8b" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="213,173 217,200 225,200" fill="none" stroke="#607d8b" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="219,143 232,152 242,135" fill="none" stroke="#ffcc99" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="345" cy="118" r="12" fill="#ffcc99" stroke="#222222" stroke-width="1.5"/>
+<path d="M 333 118 Q 327 94 354 105" fill="none" stroke="#795548" stroke-width="6" stroke-linejoin="round"/>
+<rect x="331" y="134" width="28" height="39" rx="3" fill="#ff6b9d" stroke="#222222" stroke-width="1.5"/>
+<polyline points="337,173 333,200 325,200" fill="none" stroke="#607d8b" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="353,173 357,200 365,200" fill="none" stroke="#607d8b" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="359,143 372,152 382,135" fill="none" stroke="#ffcc99" stroke-width="7" stroke-linejoin="round"/>
+<text x="205" y="230.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Initial</tspan></text>
+<text x="345" y="230.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Final</tspan></text>
+<line x1="205" y1="275" x2="331" y2="275" stroke="#c0392b" stroke-width="3"/>
+<polygon points="345,275 330,281 330,269" fill="#c0392b"/>
+<text x="275" y="256.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> − </tspan><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = +2.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="70" y1="290" x2="609" y2="290" stroke="#222222" stroke-width="2"/>
+<polygon points="620,290 608,294.8 608,285.2" fill="#222222"/>
+<text x="640" y="296.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="205" y1="284" x2="205" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="205" y="318.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="205" y="340.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.5 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="345" y1="284" x2="345" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="345" y="318.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="345" y="340.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3.5 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

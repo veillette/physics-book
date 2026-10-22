@@ -143,6 +143,153 @@ const range = (a, b, step) => {
   return out;
 };
 
+// Detailed scene helpers used by the chapter 2 redraws.
+function lecturer(svg, x, feet, shirt = '#ff6b9d') {
+  svg.circle(x, feet - 82, 12, { fill: '#ffcc99', stroke: COLORS.black });
+  svg.path(`M ${x - 12} ${feet - 82} Q ${x - 18} ${feet - 106} ${x + 9} ${feet - 95}`, {
+    color: '#795548',
+    width: 6,
+  });
+  svg.rect(x - 14, feet - 66, 28, 39, { fill: shirt, stroke: COLORS.black, rx: 3 });
+  svg.polyline(
+    [
+      [x - 8, feet - 27],
+      [x - 12, feet],
+      [x - 20, feet],
+    ],
+    { color: '#607d8b', width: 8 }
+  );
+  svg.polyline(
+    [
+      [x + 8, feet - 27],
+      [x + 12, feet],
+      [x + 20, feet],
+    ],
+    { color: '#607d8b', width: 8 }
+  );
+  svg.polyline(
+    [
+      [x + 14, feet - 57],
+      [x + 27, feet - 48],
+      [x + 37, feet - 65],
+    ],
+    { color: '#ffcc99', width: 7 }
+  );
+}
+
+function positionAxis(svg, X, y, positions) {
+  svg.arrow(70, y, 620, y, { color: COLORS.black, head: 12 });
+  svg.text(640, y, '+x', { size: 18 });
+  for (const [v, label] of positions) {
+    svg.line(X(v), y - 6, X(v), y + 6);
+    svg.text(X(v), y + 22, label, { size: 18 });
+    svg.text(X(v), y + 45, `${v.toFixed(1)} \\rm{m}`, { size: 17 });
+  }
+}
+
+function airplane(svg, x, y, scale = 1) {
+  const P = (a, b) => [x + a * scale, y + b * scale];
+  svg.polygon([P(-100, 0), P(-115, -30), P(-100, -30), P(-70, 0)], {
+    fill: '#90caf9',
+    stroke: COLORS.axis,
+  });
+  svg.ellipse(x, y, 120 * scale, 17 * scale, { fill: '#e3f2fd', stroke: COLORS.axis });
+  svg.polygon([P(-15, 0), P(-65, 35), P(-40, 35), P(35, 0)], {
+    fill: '#90caf9',
+    stroke: COLORS.axis,
+  });
+  for (let i = -65; i <= 65; i += 20) {
+    svg.rect(x + i * scale, y - 8 * scale, 9 * scale, 8 * scale, {
+      fill: '#ffffff',
+      stroke: COLORS.axis,
+      width: 1,
+    });
+  }
+  svg.ellipse(x + 95 * scale, y - 4 * scale, 9 * scale, 5 * scale, {
+    fill: '#81d4fa',
+    stroke: COLORS.axis,
+    width: 1,
+  });
+}
+
+function car(svg, x, y, color, facing = 1) {
+  svg.rect(x - 25, y - 12, 50, 24, { fill: color, stroke: COLORS.black, width: 2, rx: 3 });
+  svg.polygon(
+    [
+      [x - 17, y - 12],
+      [x - 12, y - 24],
+      [x + 10, y - 24],
+      [x + 20, y - 12],
+    ],
+    { fill: color, stroke: COLORS.black }
+  );
+  for (const dx of [-9, 4])
+    svg.rect(x + dx, y - 21, 9, 8, { fill: '#81d4fa', stroke: COLORS.black, width: 1 });
+  for (const dx of [-15, 15]) svg.circle(x + dx, y + 12, 6, { fill: COLORS.black });
+  svg.rect(x + facing * 23 - 2, y - 7, 4, 5, { fill: '#fff59d' });
+}
+
+function subway(both) {
+  const svg = new Svg({
+    width: 720,
+    height: both ? 440 : 230,
+    title: both ? 'Subway train displacements' : 'Leftward subway trip',
+    desc: both
+      ? 'The train moves from 4.70 to 6.70 km, displacement +2.00 km, and in a separate trip from 5.25 to 3.75 km, displacement −1.50 km. Train size and travel distance use different scales.'
+      : 'The train moves left from 5.25 km to 3.75 km, displacement −1.50 km. Train size and travel distance use different scales.',
+  });
+  const draw = (top, rightward) => {
+    const y = top + 110;
+    const initial = rightward ? 260 : 460;
+    const final = rightward ? 540 : 250;
+    const front = rightward ? initial : final;
+    const left = rightward ? front - 200 : front;
+    for (let i = 0; i < 3; i++) {
+      const cx = left + i * 68;
+      svg.rect(cx, y - 30, 62, 42, { fill: '#4fc3f7', stroke: COLORS.black, width: 2, rx: 5 });
+      for (const dx of [8, 35])
+        svg.rect(cx + dx, y - 23, 20, 22, {
+          fill: '#ffffff',
+          stroke: COLORS.black,
+          width: 1,
+          rx: 2,
+        });
+      for (const dx of [14, 48]) svg.circle(cx + dx, y + 17, 6, { fill: COLORS.black });
+    }
+    svg.line(45, y + 25, 655, y + 25, { color: '#8d6e63', width: 4 });
+    for (let x = 50; x < 650; x += 22)
+      svg.line(x, y + 22, x, y + 32, { color: '#8d6e63', width: 3 });
+    svg.arrow(45, y + 55, 660, y + 55, { head: 12 });
+    svg.text(685, y + 55, 'x (km)', { size: 16, math: false });
+    // Broken coordinate axis avoids suggesting the small origin-to-train gap
+    // shares the travel-distance scale.
+    svg.text(50, y + 78, '0', { size: 16 });
+    svg.text(115, y + 55, '//', { size: 20, math: false });
+    for (const [x, label] of [
+      [initial, rightward ? 'x_0 = 4.70 \\rm{km}' : 'x′_0 = 5.25 \\rm{km}'],
+      [final, rightward ? 'x_{\\rm{f}} = 6.70 \\rm{km}' : 'x′_{\\rm{f}} = 3.75 \\rm{km}'],
+    ]) {
+      svg.line(x, top + 65, x, y + 65, { color: COLORS.guide, dash: '4 4', width: 1 });
+      svg.text(x, y + 86, label, { size: 17 });
+    }
+    harrow(svg, initial, final, top + 60, POS);
+    svg.text(
+      (initial + final) / 2,
+      top + 32,
+      rightward ? 'Δx = +2.00 \\rm{km}' : 'Δx′ = −1.50 \\rm{km}',
+      { size: 19 }
+    );
+    if (both) svg.text(25, top + 30, rightward ? '(a)' : '(b)', { size: 20, math: false });
+  };
+  if (both) draw(0, true);
+  draw(both ? 210 : 0, false);
+  svg.text(360, both ? 428 : 218, 'Train size and travel distance use different scales.', {
+    size: 14,
+    math: false,
+  });
+  return svg.render();
+}
+
 export default {
   // 2.1 Check Your Understanding — two displacements along an east–west axis
   Figure_02_01_04: () => {
@@ -1739,4 +1886,355 @@ export default {
         ),
       { width: 680, height: 420 }
     ),
+
+  // 2.1 — Both figures use 70 px/m and the same viewport width, so the
+  // passenger's −4.0 m arrow is twice the professor's +2.0 m arrow.
+  Figure_02_01_02: () => {
+    const svg = new Svg({
+      width: 680,
+      height: 350,
+      title: 'Professor displacement along a whiteboard',
+      desc: 'The professor moves right from 1.5 m to 3.5 m, a displacement of +2.0 m.',
+    });
+    const X = v => 100 + v * 70;
+    svg.rect(120, 25, 450, 180, { fill: '#e8f5e9', stroke: COLORS.axis, width: 3 });
+    svg.text(470, 65, 'Whiteboard', { size: 16, math: false });
+    lecturer(svg, X(1.5), 200);
+    lecturer(svg, X(3.5), 200);
+    svg.text(X(1.5), 225, 'Initial', { size: 16, math: false });
+    svg.text(X(3.5), 225, 'Final', { size: 16, math: false });
+    harrow(svg, X(1.5), X(3.5), 275, POS);
+    svg.text(X(2.5), 250, 'Δx = x_{\\rm{f}} − x_0 = +2.0 \\rm{m}', { size: 18 });
+    positionAxis(svg, X, 290, [
+      [1.5, 'x_0'],
+      [3.5, 'x_{\\rm{f}}'],
+    ]);
+    return svg.render();
+  },
+
+  Figure_02_01_03: () => {
+    const svg = new Svg({
+      width: 680,
+      height: 350,
+      title: 'Passenger displacement relative to the airplane',
+      desc: 'A passenger moves from his seat at 6.0 m to the rear at 2.0 m. His displacement is −4.0 m, twice the magnitude of the professor’s displacement.',
+    });
+    const X = v => 100 + v * 70;
+    // Cabin cutaway, with the moving passenger at both actual endpoints.
+    svg.rect(180, 20, 420, 160, { fill: '#e3f2fd', stroke: COLORS.axis, width: 2, rx: 12 });
+    for (const x of [290, 370, 450, 530]) {
+      svg.rect(x, 45, 28, 30, { fill: '#ffffff', stroke: COLORS.axis, rx: 4 });
+      svg.rect(x - 5, 115, 16, 40, { fill: '#90a4ae', stroke: COLORS.axis, rx: 3 });
+      svg.rect(x, 145, 42, 12, { fill: '#90a4ae', stroke: COLORS.axis, rx: 3 });
+    }
+    lecturer(svg, X(2), 170, '#2196f3');
+    // Seated initial state, directly above x0.
+    svg.circle(X(6), 99, 11, { fill: '#ffcc99', stroke: COLORS.black });
+    svg.polyline(
+      [
+        [X(6), 113],
+        [X(6), 139],
+        [X(6) + 25, 139],
+        [X(6) + 28, 164],
+      ],
+      { color: '#2196f3', width: 9 }
+    );
+    svg.text(X(2), 195, 'Final: rear', { size: 16, math: false });
+    svg.text(X(6), 195, 'Initial: seat', { size: 16, math: false });
+    airplane(svg, 340, 218, 0.55);
+    harrow(svg, X(6), X(2), 275, POS);
+    svg.text(X(4), 250, 'Δx = x_{\\rm{f}} − x_0 = −4.0 \\rm{m}', { size: 18 });
+    positionAxis(svg, X, 290, [
+      [2, 'x_{\\rm{f}}'],
+      [6, 'x_0'],
+    ]);
+    return svg.render();
+  },
+
+  // 2.3 — Include the brief forward segment as well as rearward motion.
+  Figure_02_03_02: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 420,
+      title: 'Segments of an airplane passenger’s trip',
+      desc: 'The passenger moves rearward, rearward again, briefly forward, and then rearward to the final position. The sum of these four displacements is the net rearward displacement.',
+    });
+    airplane(svg, 360, 80, 2.3);
+    svg.text(120, 125, 'Rear', { size: 16, math: false });
+    svg.text(600, 125, 'Front', { size: 16, math: false });
+    const positions = [550, 440, 330, 420, 250];
+    const colors = [POS, COLORS.orange, COLORS.green, COLORS.blue];
+    positions.slice(0, -1).forEach((x, i) => {
+      const y = 170 + 45 * i;
+      harrow(svg, x, positions[i + 1], y, colors[i]);
+      svg.text((x + positions[i + 1]) / 2, y - 20, `Δx_{\\rm{${'abcd'[i]}}}`, { size: 17 });
+      if (i < 3)
+        svg.line(positions[i + 1], y + 5, positions[i + 1], y + 40, {
+          color: COLORS.guide,
+          dash: '4 4',
+          width: 1,
+        });
+    });
+    harrow(svg, positions[0], positions[4], 360, POS);
+    svg.text(400, 337, 'Δx_{\\rm{tot}}', { size: 18 });
+    svg.arrow(80, 380, 675, 380, { color: COLORS.black, head: 12 });
+    svg.text(690, 380, 'x', { size: 18 });
+    for (const [x, label] of [
+      [550, 'x_0'],
+      [250, 'x_{\\rm{f}}'],
+    ]) {
+      svg.line(x, 372, x, 388);
+      svg.text(x, 405, label, { size: 18 });
+    }
+    return svg.render();
+  },
+
+  Figure_02_03_03: () => {
+    const svg = new Svg({
+      width: 600,
+      height: 300,
+      title: 'Round trip to the store',
+      desc: 'Home and store are 3 km apart. The round trip covers 6 km in 30 min; net displacement and average velocity are zero.',
+    });
+    svg.rect(0, 225, 600, 75, { fill: '#c8e6c9' });
+    svg.rect(60, 180, 80, 50, { fill: '#ffd54f', stroke: COLORS.black, width: 2 });
+    svg.polygon(
+      [
+        [50, 180],
+        [100, 140],
+        [150, 180],
+      ],
+      { fill: '#ff6f00', stroke: COLORS.black, width: 2 }
+    );
+    for (const x of [75, 115]) svg.rect(x, 195, 14, 18, { fill: '#81d4fa', stroke: COLORS.black });
+    svg.rect(93, 202, 14, 28, { fill: '#8d6e63', stroke: COLORS.black });
+    svg.text(100, 260, 'Home', { size: 18, math: false });
+    svg.rect(430, 170, 100, 60, { fill: '#e1bee7', stroke: COLORS.black, width: 2 });
+    for (const x of [435, 485]) svg.rect(x, 175, 40, 30, { fill: '#81d4fa', stroke: COLORS.black });
+    svg.rect(468, 205, 24, 25, { fill: '#8d6e63', stroke: COLORS.black });
+    svg.text(480, 260, 'Store', { size: 18, math: false });
+    harrow(svg, 100, 480, 85, COLORS.black);
+    harrow(svg, 480, 100, 120, COLORS.black);
+    svg.text(290, 60, '3.0 \\rm{km} each way', { size: 18 });
+    svg.text(300, 25, 'Δx_{\\rm{tot}} = 0 \\rm{km}', { size: 20, color: POS });
+    svg.text(300, 285, 'Distance traveled = 6 km; elapsed time = 30 min', {
+      size: 16,
+      math: false,
+    });
+    return svg.render();
+  },
+
+  Figure_02_04_03: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 600,
+      title: 'Velocity and acceleration in four cases',
+      desc: 'Rightward motion speeds up with rightward acceleration and slows with leftward acceleration. Leftward motion slows with rightward acceleration and speeds up with leftward acceleration.',
+    });
+    const cases = [
+      [1, 1, 'Speeding up'],
+      [1, -1, 'Slowing down'],
+      [-1, 1, 'Slowing down'],
+      [-1, -1, 'Speeding up'],
+    ];
+    cases.forEach(([v, a, label], i) => {
+      const y = 85 + i * 140;
+      car(svg, 180, y, '#ff8a80', v);
+      svg.text(75, y, `(${'abcd'[i]})`, { size: 20, math: false });
+      // Common origins and separate rows keep arrows clear of the cars.
+      harrow(svg, 390, 390 + v * 85, y - 20, VEL);
+      harrow(svg, 390, 390 + a * 65, y + 30, ACC);
+      svg.text(500, y - 20, 'v', { size: 20, color: VEL });
+      svg.text(500, y + 30, 'a', { size: 20, color: ACC });
+      svg.text(600, y, label, { size: 16, math: false });
+    });
+    svg.arrow(560, 25, 650, 25, { head: 10 });
+    svg.text(680, 25, '+x', { size: 17 });
+    return svg.render();
+  },
+
+  Figure_02_04_07: () => subway(true),
+  Figure_02_04_11: () => subway(false),
+
+  Figure_02_05_05: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 330,
+      title: 'Airplane slowing under constant acceleration',
+      desc: 'At 0 s the velocity is +70.0 m/s; at 40.0 s it is +10.0 m/s. Equal leftward acceleration vectors represent −1.50 m/s² in both states. Velocity vectors have a 7:1 length ratio.',
+    });
+    [70, 10].forEach((v, i) => {
+      const y = 85 + 155 * i;
+      airplane(svg, 140, y, 0.9);
+      harrow(svg, 285, 285 + 4.5 * v, y - 10, VEL);
+      svg.text(285, y - 38, `${i ? 'v' : 'v_0'} = ${v.toFixed(1)} \\rm{m/s}`, {
+        size: 18,
+        anchor: 'start',
+        color: VEL,
+      });
+      harrow(svg, 365, 285, y + 40, ACC);
+      svg.text(390, y + 40, 'a = −1.50 \\rm{m/s}^2', { size: 18, anchor: 'start', color: ACC });
+      svg.text(140, y + 50, i ? 't = 40.0 \\rm{s}' : 't_0 = 0 \\rm{s}', { size: 18 });
+    });
+    return svg.render();
+  },
+
+  // 2.5 — All four stopping intervals share an origin and a 4.8 px/m scale.
+  Figure_02_05_11: () => {
+    const svg = new Svg({
+      width: 760,
+      height: 700,
+      title: 'Braking and total stopping distances',
+      desc: 'At 30.0 m/s, braking distances are 64.3 m dry and 90.0 m wet. A 0.500 s reaction adds 15.0 m, making total stopping distances 79.3 m and 105 m.',
+    });
+    const X = m => 160 + m * 4.8;
+    const cases = [
+      [64.3, false, 'Dry', POS],
+      [90, false, 'Wet', COLORS.blue],
+      [79.3, true, 'Dry', POS],
+      [105, true, 'Wet', COLORS.blue],
+    ];
+    svg.text(380, 25, 'Initial speed: 30.0 m/s', { size: 19, math: false });
+    cases.forEach(([total, reaction, road, color], i) => {
+      const y = 100 + i * 140;
+      svg.text(30, y - 22, road, { size: 18, math: false, anchor: 'start' });
+      svg.text(30, y + 3, reaction ? 'With reaction' : 'Braking only', {
+        size: 15,
+        math: false,
+        anchor: 'start',
+      });
+      svg.line(X(0) - 35, y + 20, X(110), y + 20, { color: COLORS.guide });
+      if (reaction) {
+        svg.rect(X(0), y - 35, X(15) - X(0), 55, { fill: '#fff9c4', stroke: COLORS.orange });
+        svg.text((X(0) + X(15)) / 2, y - 45, '15.0 m', { size: 16, math: false });
+        svg.line(X(15), y - 35, X(15), y + 27, { color: COLORS.orange, dash: '4 4' });
+      }
+      car(svg, X(0), y, color);
+      car(svg, X(total), y, color);
+      const brakeStart = reaction ? 15 : 0;
+      interval(svg, X(brakeStart), X(total), y + 40, { tick: 12 });
+      svg.text(
+        (X(brakeStart) + X(total)) / 2,
+        y + 60,
+        `${(total - brakeStart).toFixed(1)} m braking`,
+        { size: 16, math: false }
+      );
+      if (reaction) {
+        interval(svg, X(0), X(total), y + 83, { tick: 12 });
+        svg.text((X(0) + X(total)) / 2, y + 102, `${total} m total`, {
+          size: 17,
+          math: false,
+          color,
+        });
+      }
+    });
+    svg.arrow(X(0) - 25, 660, X(113), 660, { head: 10 });
+    for (const m of [0, 15, 50, 100]) {
+      svg.line(X(m), 654, X(m), 666);
+      svg.text(X(m), 682, String(m), { size: 16 });
+    }
+    svg.text(715, 660, 'x (m)', { size: 16, math: false });
+    return svg.render();
+  },
+
+  // 2.7 — The two launch directions from Examples 1 and 2.
+  Figure_02_07_05: () => {
+    const svg = new Svg({
+      width: 940,
+      height: 590,
+      title: 'Rocks thrown upward and downward from a cliff',
+      desc: 'Upward launch at +13.0 m/s: at 1, 2 and 3 s the positions are 8.10, 6.40 and −5.10 m and velocities are +3.20, −6.60 and −16.4 m/s. Downward launch at −13.0 m/s also reaches −5.10 m at −16.4 m/s. Up is positive; acceleration is −9.80 m/s² in both panels.',
+    });
+    const Y = m => 300 - m * 16;
+    const drawPanel = (offset, upward) => {
+      const L = x => offset + x;
+      svg.rect(L(12), 45, 446, 495, { fill: '#e3f2fd' });
+      svg.text(L(230), 25, upward ? '(a) Thrown upward' : '(b) Thrown downward', {
+        size: 20,
+        math: false,
+      });
+      svg.rect(L(30), 365, 115, 175, { fill: '#c8a882', stroke: COLORS.axis });
+      svg.rect(L(30), 365, 115, 10, { fill: '#8bc34a' });
+      lecturer(svg, L(115), 365, '#4db6ac');
+      // Hand and rock meet at the y = 0 reference level.
+      svg.polyline(
+        [
+          [L(125), 315],
+          [L(145), 300],
+          [L(180), 300],
+        ],
+        { color: '#ffcc99', width: 8 }
+      );
+      svg.arrow(L(40), 285, L(40), 65, { head: 10 });
+      svg.text(L(40), 55, '+y', { size: 17 });
+      svg.line(L(155), Y(0), L(430), Y(0), { color: POS, dash: '5 4' });
+      svg.text(L(425), Y(0) - 15, 'y_0 = 0', { size: 17, anchor: 'end' });
+      svg.line(L(155), Y(-5.1), L(430), Y(-5.1), { color: POS, dash: '5 4' });
+      svg.text(L(230), 512, 'a = −9.80 \\rm{m/s}^2', { size: 18, color: ACC });
+      if (upward) {
+        // Slight lateral separation makes the ascent/descent legible; motion
+        // is vertical, not a horizontal projectile (as in the raster original).
+        const apex = 13 ** 2 / (2 * 9.8);
+        svg.path(
+          `M ${L(180)} ${Y(0)} L ${L(180)} ${Y(apex) + 20} Q ${L(180)} ${Y(apex)} ${L(200)} ${Y(apex)} Q ${L(220)} ${Y(apex)} ${L(220)} ${Y(apex) + 20} L ${L(220)} 470`,
+          { color: COLORS.guide, width: 1.5 }
+        );
+        [
+          [0, 0, 13, 180],
+          [1, 8.1, 3.2, 180],
+          [2, 6.4, -6.6, 220],
+          [3, -5.1, -16.4, 220],
+        ].forEach(([t, pos, v, x]) => {
+          svg.circle(L(x), Y(pos), 5, { fill: COLORS.black });
+          varrow(svg, L(x), Y(pos), Y(pos) - v * 4, VEL);
+          const left = t < 2;
+          const labelY = t === 0 ? Y(pos) - 65 : Y(pos);
+          if (t === 0)
+            svg.line(L(165), labelY + 26, L(x) - 7, Y(pos) - 7, { color: COLORS.guide, width: 1 });
+          svg.text(L(left ? 165 : 245), labelY - 10, `t = ${t.toFixed(2)} \\rm{s}`, {
+            size: 15,
+            anchor: left ? 'end' : 'start',
+          });
+          svg.text(
+            L(left ? 165 : 245),
+            labelY + 12,
+            `v = ${v > 0 ? '+' : '−'}${Math.abs(v).toFixed(t === 3 ? 1 : 2)} \\rm{m/s}`,
+            { size: 15, anchor: left ? 'end' : 'start', color: VEL }
+          );
+          if (t > 0)
+            svg.text(
+              L(left ? 165 : 245),
+              Y(pos) + 34,
+              `y = ${pos < 0 ? '−' : ''}${Math.abs(pos).toFixed(2)} \\rm{m}`,
+              { size: 15, anchor: left ? 'end' : 'start' }
+            );
+        });
+      } else {
+        svg.line(L(180), Y(0), L(180), 470, { color: COLORS.guide });
+        for (const [pos, v] of [
+          [0, -13],
+          [-5.1, -Math.sqrt(13 ** 2 + 2 * 9.8 * 5.1)],
+        ]) {
+          svg.circle(L(180), Y(pos), 5, { fill: COLORS.black });
+          varrow(svg, L(180), Y(pos), Y(pos) - v * 4, VEL);
+          svg.text(L(205), Y(pos) + 20, `v = −${Math.abs(v).toFixed(1)} \\rm{m/s}`, {
+            size: 17,
+            anchor: 'start',
+            color: VEL,
+          });
+          if (pos)
+            svg.text(L(205), Y(pos) + 48, 'y = −5.10 \\rm{m}', { size: 17, anchor: 'start' });
+        }
+      }
+    };
+    drawPanel(0, true);
+    drawPanel(470, false);
+    svg.text(
+      470,
+      565,
+      'Same velocity at the same height below release; trajectory legs separated for clarity.',
+      { size: 17, math: false }
+    );
+    return svg.render();
+  },
 };

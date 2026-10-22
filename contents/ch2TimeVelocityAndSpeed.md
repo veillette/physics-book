@@ -115,7 +115,7 @@ momentarily or backs up before he goes to the back of the plane. To get more
 details, we must consider smaller segments of the trip over smaller time
 intervals.
 
-![Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger’s trip to the back of the plane.](../resources/Figure_02_03_02.jpg 'A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. ')
+![Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger’s trip to the back of the plane.](/resources/Figure_02_03_02.svg 'A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. ')
 {: #Figure2}
 
 The smaller the time intervals considered in a motion, the more detailed the
@@ -160,7 +160,7 @@ because your displacement for the round trip is zero. (Displacement is change in
 position and, thus, is zero for a round trip.) Thus average speed is _not_
 simply the magnitude of average velocity.
 
-![A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.](../resources/Figure_02_03_03.jpg 'During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. ')
+![A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the net displacement, delta x total, equals 0 kilometers.](/resources/Figure_02_03_03.svg 'During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. ')
 {: #Figure3}
 
 Another way of visualizing the motion of an object is to use a graph. A plot of

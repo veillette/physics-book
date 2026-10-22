@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Segments of an airplane passenger’s trip</title>
+<desc id="desc">The passenger moves rearward, rearward again, briefly forward, and then rearward to the final position. The sum of these four displacements is the net rearward displacement.</desc>
+<rect width="720" height="420" fill="#ffffff"/>
+<polygon points="130,80 95.5,11 130,11 199,80" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<ellipse cx="360" cy="80" rx="276" ry="39.1" fill="#e3f2fd" stroke="#333333" stroke-width="2"/>
+<polygon points="325.5,80 210.5,160.5 268,160.5 440.5,80" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<rect x="210.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="256.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="302.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="348.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="394.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="440.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="486.5" y="61.6" width="20.7" height="18.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<ellipse cx="578.5" cy="70.8" rx="20.7" ry="11.5" fill="#81d4fa" stroke="#333333" stroke-width="1"/>
+<text x="120" y="130.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Rear</tspan></text>
+<text x="600" y="130.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Front</tspan></text>
+<line x1="550" y1="170" x2="454" y2="170" stroke="#c0392b" stroke-width="3"/>
+<polygon points="440,170 455,164 455,176" fill="#c0392b"/>
+<text x="495" y="155.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-size="11.9" dy="4.76"><tspan font-style="normal">a</tspan></tspan><tspan dy="-4.76">​</tspan></text>
+<line x1="440" y1="175" x2="440" y2="210" stroke="#666666" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="440" y1="215" x2="344" y2="215" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="330,215 345,209 345,221" fill="#ef7d22"/>
+<text x="385" y="200.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-size="11.9" dy="4.76"><tspan font-style="normal">b</tspan></tspan><tspan dy="-4.76">​</tspan></text>
+<line x1="330" y1="220" x2="330" y2="255" stroke="#666666" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="330" y1="260" x2="406" y2="260" stroke="#3f9a2b" stroke-width="3"/>
+<polygon points="420,260 405,266 405,254" fill="#3f9a2b"/>
+<text x="375" y="245.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-size="11.9" dy="4.76"><tspan font-style="normal">c</tspan></tspan><tspan dy="-4.76">​</tspan></text>
+<line x1="420" y1="265" x2="420" y2="300" stroke="#666666" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="420" y1="305" x2="264" y2="305" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="250,305 265,299 265,311" fill="#1f77c8"/>
+<text x="335" y="290.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-size="11.9" dy="4.76"><tspan font-style="normal">d</tspan></tspan><tspan dy="-4.76">​</tspan></text>
+<line x1="550" y1="360" x2="264" y2="360" stroke="#c0392b" stroke-width="3"/>
+<polygon points="250,360 265,354 265,366" fill="#c0392b"/>
+<text x="400" y="343.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<line x1="80" y1="380" x2="664" y2="380" stroke="#222222" stroke-width="2"/>
+<polygon points="675,380 663,384.8 663,375.2" fill="#222222"/>
+<text x="690" y="386.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<line x1="550" y1="372" x2="550" y2="388" stroke="#333333" stroke-width="1.5"/>
+<text x="550" y="411.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<line x1="250" y1="372" x2="250" y2="388" stroke="#333333" stroke-width="1.5"/>
+<text x="250" y="411.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+</svg>

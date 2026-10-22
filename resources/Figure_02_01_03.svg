@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="350" viewBox="0 0 680 350" role="img" aria-labelledby="title desc">
+<title id="title">Passenger displacement relative to the airplane</title>
+<desc id="desc">A passenger moves from his seat at 6.0 m to the rear at 2.0 m. His displacement is −4.0 m, twice the magnitude of the professor’s displacement.</desc>
+<rect width="680" height="350" fill="#ffffff"/>
+<rect x="180" y="20" width="420" height="160" rx="12" fill="#e3f2fd" stroke="#333333" stroke-width="2"/>
+<rect x="290" y="45" width="28" height="30" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+<rect x="285" y="115" width="16" height="40" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="290" y="145" width="42" height="12" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="370" y="45" width="28" height="30" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+<rect x="365" y="115" width="16" height="40" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="370" y="145" width="42" height="12" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="450" y="45" width="28" height="30" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+<rect x="445" y="115" width="16" height="40" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="450" y="145" width="42" height="12" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="530" y="45" width="28" height="30" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+<rect x="525" y="115" width="16" height="40" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<rect x="530" y="145" width="42" height="12" rx="3" fill="#90a4ae" stroke="#333333" stroke-width="1.5"/>
+<circle cx="240" cy="88" r="12" fill="#ffcc99" stroke="#222222" stroke-width="1.5"/>
+<path d="M 228 88 Q 222 64 249 75" fill="none" stroke="#795548" stroke-width="6" stroke-linejoin="round"/>
+<rect x="226" y="104" width="28" height="39" rx="3" fill="#2196f3" stroke="#222222" stroke-width="1.5"/>
+<polyline points="232,143 228,170 220,170" fill="none" stroke="#607d8b" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="248,143 252,170 260,170" fill="none" stroke="#607d8b" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="254,113 267,122 277,105" fill="none" stroke="#ffcc99" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="520" cy="99" r="11" fill="#ffcc99" stroke="#222222" stroke-width="1.5"/>
+<polyline points="520,113 520,139 545,139 548,164" fill="none" stroke="#2196f3" stroke-width="9" stroke-linejoin="round"/>
+<text x="240" y="200.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Final</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">rear</tspan></text>
+<text x="520" y="200.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Initial</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">seat</tspan></text>
+<polygon points="285,218 276.75,201.5 285,201.5 301.5,218" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<ellipse cx="340" cy="218" rx="66" ry="9.35" fill="#e3f2fd" stroke="#333333" stroke-width="2"/>
+<polygon points="331.75,218 304.25,237.25 318,237.25 359.25,218" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<rect x="304.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="315.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="326.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="337.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="348.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="359.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="370.25" y="213.6" width="4.95" height="4.4" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<ellipse cx="392.25" cy="215.8" rx="4.95" ry="2.75" fill="#81d4fa" stroke="#333333" stroke-width="1"/>
+<line x1="520" y1="275" x2="254" y2="275" stroke="#c0392b" stroke-width="3"/>
+<polygon points="240,275 255,269 255,281" fill="#c0392b"/>
+<text x="380" y="256.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> − </tspan><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = −4.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="70" y1="290" x2="609" y2="290" stroke="#222222" stroke-width="2"/>
+<polygon points="620,290 608,294.8 608,285.2" fill="#222222"/>
+<text x="640" y="296.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<line x1="240" y1="284" x2="240" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="240" y="318.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="240" y="340.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="520" y1="284" x2="520" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="520" y="318.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="520" y="340.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6.0 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>
