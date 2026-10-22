@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="860" viewBox="0 0 560 860" role="img" aria-labelledby="title desc">
+<title id="title">Hydrogen energy levels and spectral series</title>
+<desc id="desc">Hydrogen’s energy levels drawn to scale: −13.6 eV for n = 1, −3.40 eV for n = 2, −1.51 eV for n = 3, −0.85 eV for n = 4, −0.54 eV for n = 5, up to 0 for n = ∞. Downward arrows show transitions ending on n = 1 (the Lyman series), on n = 2 (the Balmer series) and on n = 3 (the Paschen series).</desc>
+<rect width="560" height="860" fill="#ffffff"/>
+<line x1="130" y1="840" x2="130" y2="27" stroke="#222222" stroke-width="1.6"/>
+<polygon points="130,18 134,28 126,28" fill="#222222"/>
+<text x="118" y="29" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">E</tspan></text>
+<line x1="130" y1="820" x2="430" y2="820" stroke="#a5182f" stroke-width="1.8"/>
+<line x1="130" y1="235" x2="430" y2="235" stroke="#a5182f" stroke-width="1.8"/>
+<line x1="130" y1="126.67" x2="430" y2="126.67" stroke="#a5182f" stroke-width="1.8"/>
+<line x1="130" y1="88.75" x2="430" y2="88.75" stroke="#a5182f" stroke-width="1.8"/>
+<line x1="130" y1="40.49" x2="430" y2="40.49" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.51" x2="430" y2="40.51" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.54" x2="430" y2="40.54" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.57" x2="430" y2="40.57" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.6" x2="430" y2="40.6" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.64" x2="430" y2="40.64" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.67" x2="430" y2="40.67" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.72" x2="430" y2="40.72" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.76" x2="430" y2="40.76" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.81" x2="430" y2="40.81" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.87" x2="430" y2="40.87" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.93" x2="430" y2="40.93" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="40.99" x2="430" y2="40.99" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.07" x2="430" y2="41.07" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.15" x2="430" y2="41.15" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.25" x2="430" y2="41.25" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.35" x2="430" y2="41.35" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.47" x2="430" y2="41.47" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.61" x2="430" y2="41.61" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.77" x2="430" y2="41.77" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="41.95" x2="430" y2="41.95" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="42.16" x2="430" y2="42.16" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="42.41" x2="430" y2="42.41" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="42.7" x2="430" y2="42.7" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="43.05" x2="430" y2="43.05" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="43.47" x2="430" y2="43.47" stroke="rgb(245,194,187)" stroke-width="1.6"/>
+<line x1="130" y1="43.98" x2="430" y2="43.98" stroke="rgb(237,177,173)" stroke-width="1.6"/>
+<line x1="130" y1="44.62" x2="430" y2="44.62" stroke="rgb(229,160,159)" stroke-width="1.6"/>
+<line x1="130" y1="45.42" x2="430" y2="45.42" stroke="rgb(221,143,145)" stroke-width="1.6"/>
+<line x1="130" y1="46.45" x2="430" y2="46.45" stroke="rgb(213,126,131)" stroke-width="1.6"/>
+<line x1="130" y1="47.8" x2="430" y2="47.8" stroke="rgb(205,109,117)" stroke-width="1.6"/>
+<line x1="130" y1="49.63" x2="430" y2="49.63" stroke="rgb(197,92,103)" stroke-width="1.6"/>
+<line x1="130" y1="52.19" x2="430" y2="52.19" stroke="rgb(189,75,89)" stroke-width="1.6"/>
+<line x1="130" y1="55.92" x2="430" y2="55.92" stroke="rgb(181,58,75)" stroke-width="1.6"/>
+<line x1="130" y1="61.67" x2="430" y2="61.67" stroke="rgb(173,41,61)" stroke-width="1.6"/>
+<line x1="130" y1="71.2" x2="430" y2="71.2" stroke="rgb(165,24,47)" stroke-width="1.6"/>
+<text x="124" y="825.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−13.6 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="440" y="825.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 1</tspan></text>
+<text x="124" y="240.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−3.40 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="440" y="240.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 2</tspan></text>
+<text x="124" y="132.27" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−1.51 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="440" y="132.27" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 3</tspan></text>
+<text x="124" y="94.35" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−0.85 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="440" y="94.35" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 4</tspan></text>
+<text x="124" y="70.8" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−0.54 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="440" y="70.8" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 5</tspan></text>
+<text x="124" y="41.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="440" y="35.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = ∞</tspan></text>
+<line x1="160" y1="235" x2="160" y2="814" stroke="#222222" stroke-width="1.1"/>
+<polygon points="160,820 157.2,813 162.8,813" fill="#222222"/>
+<line x1="167" y1="126.67" x2="167" y2="814" stroke="#222222" stroke-width="1.1"/>
+<polygon points="167,820 164.2,813 169.8,813" fill="#222222"/>
+<line x1="174" y1="88.75" x2="174" y2="814" stroke="#222222" stroke-width="1.1"/>
+<polygon points="174,820 171.2,813 176.8,813" fill="#222222"/>
+<line x1="181" y1="71.2" x2="181" y2="814" stroke="#222222" stroke-width="1.1"/>
+<polygon points="181,820 178.2,813 183.8,813" fill="#222222"/>
+<line x1="188" y1="61.67" x2="188" y2="814" stroke="#222222" stroke-width="1.1"/>
+<polygon points="188,820 185.2,813 190.8,813" fill="#222222"/>
+<text x="174" y="843.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Lyman</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">series</tspan></text>
+<line x1="260" y1="126.67" x2="260" y2="229" stroke="#222222" stroke-width="1.1"/>
+<polygon points="260,235 257.2,228 262.8,228" fill="#222222"/>
+<line x1="267" y1="88.75" x2="267" y2="229" stroke="#222222" stroke-width="1.1"/>
+<polygon points="267,235 264.2,228 269.8,228" fill="#222222"/>
+<line x1="274" y1="71.2" x2="274" y2="229" stroke="#222222" stroke-width="1.1"/>
+<polygon points="274,235 271.2,228 276.8,228" fill="#222222"/>
+<line x1="281" y1="61.67" x2="281" y2="229" stroke="#222222" stroke-width="1.1"/>
+<polygon points="281,235 278.2,228 283.8,228" fill="#222222"/>
+<line x1="288" y1="55.92" x2="288" y2="229" stroke="#222222" stroke-width="1.1"/>
+<polygon points="288,235 285.2,228 290.8,228" fill="#222222"/>
+<text x="274" y="260.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Balmer</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">series</tspan></text>
+<line x1="360" y1="88.75" x2="360" y2="120.67" stroke="#222222" stroke-width="1.1"/>
+<polygon points="360,126.67 357.2,119.67 362.8,119.67" fill="#222222"/>
+<line x1="367" y1="71.2" x2="367" y2="120.67" stroke="#222222" stroke-width="1.1"/>
+<polygon points="367,126.67 364.2,119.67 369.8,119.67" fill="#222222"/>
+<line x1="374" y1="61.67" x2="374" y2="120.67" stroke="#222222" stroke-width="1.1"/>
+<polygon points="374,126.67 371.2,119.67 376.8,119.67" fill="#222222"/>
+<line x1="381" y1="55.92" x2="381" y2="120.67" stroke="#222222" stroke-width="1.1"/>
+<polygon points="381,126.67 378.2,119.67 383.8,119.67" fill="#222222"/>
+<line x1="388" y1="52.19" x2="388" y2="120.67" stroke="#222222" stroke-width="1.1"/>
+<polygon points="388,126.67 385.2,119.67 390.8,119.67" fill="#222222"/>
+<text x="374" y="150.27" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Paschen</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">series</tspan></text>
+</svg>

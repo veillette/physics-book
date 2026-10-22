@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="760" viewBox="0 0 420 760" role="img" aria-labelledby="title desc">
+<title id="title">Allowed directions of orbital angular momentum</title>
+<desc id="desc">An external magnetic field B_ext lies along the z axis. The orbital angular momentum L_orb, of magnitude √6 ħ for ℓ = 2, can point only at angles whose cosines are mℓ/√6 for mℓ = 2, 1, 0, −1 and −2: about 35°, 66°, 90°, 114° and 145° from the field.</desc>
+<rect width="420" height="760" fill="#ffffff"/>
+<line x1="70" y1="740" x2="70" y2="43" stroke="#222222" stroke-width="2"/>
+<polygon points="70,30 75.6,44 64.4,44" fill="#222222"/>
+<text x="66" y="29.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">ext</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="76" y="59" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="italic">z</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">axis</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="70" y1="400" x2="233.39" y2="168.93" stroke="#f08ab0" stroke-width="2.5"/>
+<polygon points="243.21,155.05 238.69,173.9 226.93,165.59" fill="#f08ab0"/>
+<line x1="70" y1="400" x2="328.34" y2="284.47" stroke="#f08ab0" stroke-width="2.5"/>
+<polygon points="343.86,277.53 330.37,291.45 324.49,278.3" fill="#f08ab0"/>
+<line x1="70" y1="400" x2="353" y2="400" stroke="#f08ab0" stroke-width="2.5"/>
+<polygon points="370,400 352,407.2 352,392.8" fill="#f08ab0"/>
+<line x1="70" y1="400" x2="328.34" y2="515.53" stroke="#f08ab0" stroke-width="2.5"/>
+<polygon points="343.86,522.47 324.49,521.7 330.37,508.55" fill="#f08ab0"/>
+<line x1="70" y1="400" x2="233.39" y2="631.07" stroke="#f08ab0" stroke-width="2.5"/>
+<polygon points="243.21,644.95 226.93,634.41 238.69,626.1" fill="#f08ab0"/>
+<text x="233.21" y="203.45" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">orb</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+</svg>

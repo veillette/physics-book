@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-labelledby="title desc">
+<title id="title">Energy levels of a neodymium glass laser</title>
+<desc id="desc">Energy levels of neodymium ions in glass, drawn to scale: the ground state at 0 eV, a first state at 0.50 eV, a metastable second state at 1.67 eV and a group of levels near 2.1 eV. Atoms pumped into the group drop to the metastable state, then emit 1.17 eV photons (1.06 μm) as they drop to the first state.</desc>
+<rect width="640" height="520" fill="#ffffff"/>
+<line x1="180" y1="470" x2="440" y2="470" stroke="#a5182f" stroke-width="2.6"/>
+<line x1="180" y1="365" x2="440" y2="365" stroke="#a5182f" stroke-width="2.6"/>
+<line x1="180" y1="119.3" x2="440" y2="119.3" stroke="#a5182f" stroke-width="2.6"/>
+<line x1="180" y1="21" x2="440" y2="21" stroke="#a5182f" stroke-width="2.2"/>
+<line x1="180" y1="29" x2="440" y2="29" stroke="#a5182f" stroke-width="2.2"/>
+<line x1="180" y1="37" x2="440" y2="37" stroke="#a5182f" stroke-width="2.2"/>
+<text x="168" y="478.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="452" y="478.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ground</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">state</tspan></text>
+<text x="168" y="373.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.50 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="452" y="373.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">First</tspan></text>
+<text x="168" y="127.7" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.67 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="452" y="127.7" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Metastable</tspan></text>
+<text x="168" y="37.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.1 </tspan><tspan font-style="normal">eV</tspan></text>
+<text x="452" y="37.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Group</tspan></text>
+<text x="452" y="157.7" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">second</tspan></text>
+<line x1="250" y1="119.3" x2="250" y2="342" stroke="#222222" stroke-width="4"/>
+<polygon points="250,365 240.4,341 259.6,341" fill="#222222"/>
+<text x="266" y="190.55" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.17 </tspan><tspan font-style="normal">eV</tspan><tspan font-style="normal"> (1.06 </tspan><tspan font-style="normal">μm</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

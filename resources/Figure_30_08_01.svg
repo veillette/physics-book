@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="820" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+<title id="title">Space quantization of angular momentum</title>
+<desc id="desc">For ℓ = 1 the angular momentum L has magnitude √2 ħ and its z-component Lz can be only ħ, 0 or −ħ (mℓ = 1, 0, −1). L therefore lies at θ1 = 45°, θ2 = 90° or θ3 = 135° from the z axis, anywhere around a cone; the shaded circles show where the tip of L can be.</desc>
+<rect width="640" height="820" fill="#ffffff"/>
+<line x1="300" y1="800" x2="300" y2="31" stroke="#222222" stroke-width="1.6"/>
+<polygon points="300,20 304.8,32 295.2,32" fill="#222222"/>
+<text x="290" y="28.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">z</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">axis</tspan></text>
+<path d="M 116.15223689149764 236.15223689149767 A 183.84776310850236 29.41564209736038 0 0 0 300 265.56787898885807 L 300 206.7365947941373 A 183.84776310850236 29.41564209736038 0 0 0 116.15223689149764 236.15223689149767 Z" fill="#d6d6d6"/>
+<ellipse cx="300" cy="236.15" rx="183.85" ry="29.42" fill="none" stroke="#222222" stroke-width="1.6"/>
+<line x1="300" y1="420" x2="469" y2="251" stroke="#f08ab0" stroke-width="4"/>
+<polygon points="483.85,236.15 474.51,257.93 462.07,245.49" fill="#f08ab0"/>
+<line x1="300" y1="420" x2="300" y2="247.15" stroke="#f08ab0" stroke-width="1.8" stroke-dasharray="6 5"/>
+<polygon points="300,236.15 304.8,248.15 295.2,248.15" fill="#f08ab0"/>
+<line x1="300" y1="236.15" x2="483.85" y2="236.15" stroke="#222222" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="286" y="356.48" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">z</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="443.85" y="294.55" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan></text>
+<text x="286" y="284.55" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">ℓ</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 1</tspan></text>
+<path d="M 40 420 A 260 41.6 0 0 0 300 461.6 L 300 378.4 A 260 41.6 0 0 0 40 420 Z" fill="#d6d6d6"/>
+<ellipse cx="300" cy="420" rx="260" ry="41.6" fill="none" stroke="#222222" stroke-width="1.6"/>
+<line x1="300" y1="420" x2="539" y2="420" stroke="#f08ab0" stroke-width="4"/>
+<polygon points="560,420 538,428.8 538,411.2" fill="#f08ab0"/>
+<text x="520" y="408.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan></text>
+<text x="450" y="468.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">ℓ</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<path d="M 116.15223689149764 603.8477631085024 A 183.84776310850236 29.41564209736038 0 0 0 300 633.2634052058628 L 300 574.4321210111419 A 183.84776310850236 29.41564209736038 0 0 0 116.15223689149764 603.8477631085024 Z" fill="#d6d6d6"/>
+<ellipse cx="300" cy="603.85" rx="183.85" ry="29.42" fill="none" stroke="#222222" stroke-width="1.6"/>
+<line x1="300" y1="420" x2="469" y2="589" stroke="#f08ab0" stroke-width="4"/>
+<polygon points="483.85,603.85 462.07,594.51 474.51,582.07" fill="#f08ab0"/>
+<line x1="300" y1="420" x2="300" y2="592.85" stroke="#f08ab0" stroke-width="1.8" stroke-dasharray="6 5"/>
+<polygon points="300,603.85 295.2,591.85 304.8,591.85" fill="#f08ab0"/>
+<line x1="300" y1="603.85" x2="483.85" y2="603.85" stroke="#222222" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="286" y="500.32" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">z</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="443.85" y="562.25" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan></text>
+<text x="286" y="572.25" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">ℓ</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = −1</tspan></text>
+<path d="M 335.36 384.64 A 50 50 0 0 0 300 370" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="325.26" y="366.72" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 370 420 A 70 70 0 0 0 300 350" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="360.81" y="366.89" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 363.64 483.64 A 90 90 0 0 0 300 330" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="397.93" y="387.14" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</svg>

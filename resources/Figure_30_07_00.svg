@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<title id="title">The Zeeman effect</title>
+<desc id="desc">Two spectral lines (a) with no external magnetic field, (b) in a magnetic field, where the left line splits into three and the right line into five, and (c) in a large field, where the split lines are farther apart. The splitting grows in proportion to the field.</desc>
+<rect width="760" height="520" fill="#ffffff"/>
+<line x1="70" y1="40" x2="620" y2="40" stroke="#222222" stroke-width="1.6"/>
+<line x1="70" y1="150" x2="620" y2="150" stroke="#222222" stroke-width="1.6"/>
+<line x1="165" y1="40" x2="165" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="165" y1="40" x2="165" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="165" y1="40" x2="165" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="40" x2="520" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="40" x2="520" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="40" x2="520" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="40" x2="520" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="40" x2="520" y2="150" stroke="#d81b60" stroke-width="2.5"/>
+<text x="30" y="102" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="640" y="104.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">B</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">ext</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<line x1="70" y1="220" x2="620" y2="220" stroke="#222222" stroke-width="1.6"/>
+<line x1="70" y1="330" x2="620" y2="330" stroke="#222222" stroke-width="1.6"/>
+<line x1="159" y1="220" x2="159" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="165" y1="220" x2="165" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="171" y1="220" x2="171" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="508" y1="220" x2="508" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="514" y1="220" x2="514" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="220" x2="520" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="526" y1="220" x2="526" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="532" y1="220" x2="532" y2="330" stroke="#d81b60" stroke-width="2.5"/>
+<text x="30" y="282" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<text x="640" y="284.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">B</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">ext</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> ≠ 0</tspan></text>
+<line x1="70" y1="400" x2="620" y2="400" stroke="#222222" stroke-width="1.6"/>
+<line x1="70" y1="510" x2="620" y2="510" stroke="#222222" stroke-width="1.6"/>
+<line x1="151.8" y1="400" x2="151.8" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="165" y1="400" x2="165" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="178.2" y1="400" x2="178.2" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="493.6" y1="400" x2="493.6" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="506.8" y1="400" x2="506.8" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="520" y1="400" x2="520" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="533.2" y1="400" x2="533.2" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<line x1="546.4" y1="400" x2="546.4" y2="510" stroke="#d81b60" stroke-width="2.5"/>
+<text x="30" y="462" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<text x="640" y="464.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Large</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">B</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">ext</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<line x1="165" y1="150" x2="165" y2="220" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="165" y1="330" x2="165" y2="400" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="520" y1="150" x2="520" y2="220" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="520" y1="330" x2="520" y2="400" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+</svg>

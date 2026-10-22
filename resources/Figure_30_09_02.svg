@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="780" viewBox="0 0 640 780" role="img" aria-labelledby="title desc">
+<title id="title">The Pauli exclusion principle</title>
+<desc id="desc">Electrons drawn with arrows for spin up (ms = +1/2) or spin down (ms = −1/2) in the n = 1 and n = 2 shells. Allowed: one electron in n = 1 with either spin; two in n = 1 with opposite spins; and two opposite spins in n = 1 with a third electron, of either spin, in n = 2. Not allowed: two electrons in n = 1 with the same spin, or three electrons in n = 1, since n = 1 holds only two.</desc>
+<rect width="640" height="780" fill="#ffffff"/>
+<text x="110" y="68.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Key:</tspan></text>
+<line x1="150" y1="72" x2="150" y2="33" stroke="#222222" stroke-width="1.5"/>
+<polygon points="150,26 153.2,34 146.8,34" fill="#222222"/>
+<defs><radialGradient id="ball30_150_50_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="150" cy="50" r="11" fill="url(#ball30_150_50_11)"/>
+<text x="176" y="58.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Spin up</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">m</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">s</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = +½)</tspan></text>
+<line x1="150" y1="88" x2="150" y2="127" stroke="#222222" stroke-width="1.5"/>
+<polygon points="150,134 146.8,126 153.2,126" fill="#222222"/>
+<defs><radialGradient id="ball30_150_110_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="150" cy="110" r="11" fill="url(#ball30_150_110_11)"/>
+<text x="176" y="118.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Spin down</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">m</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">s</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = −½)</tspan></text>
+<text x="40" y="208.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Allowed</tspan></text>
+<text x="40" y="267.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 2</tspan></text>
+<text x="40" y="347.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 1</tspan></text>
+<line x1="130" y1="260" x2="214" y2="260" stroke="#222222" stroke-width="1.5"/>
+<line x1="130" y1="340" x2="214" y2="340" stroke="#222222" stroke-width="1.5"/>
+<line x1="172" y1="362" x2="172" y2="323" stroke="#222222" stroke-width="1.5"/>
+<polygon points="172,316 175.2,324 168.8,324" fill="#222222"/>
+<defs><radialGradient id="ball30_172_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="172" cy="340" r="11" fill="url(#ball30_172_340_11)"/>
+<line x1="232" y1="260" x2="316" y2="260" stroke="#222222" stroke-width="1.5"/>
+<line x1="232" y1="340" x2="316" y2="340" stroke="#222222" stroke-width="1.5"/>
+<line x1="274" y1="318" x2="274" y2="357" stroke="#222222" stroke-width="1.5"/>
+<polygon points="274,364 270.8,356 277.2,356" fill="#222222"/>
+<defs><radialGradient id="ball30_274_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="274" cy="340" r="11" fill="url(#ball30_274_340_11)"/>
+<line x1="334" y1="260" x2="418" y2="260" stroke="#222222" stroke-width="1.5"/>
+<line x1="334" y1="340" x2="418" y2="340" stroke="#222222" stroke-width="1.5"/>
+<line x1="363" y1="362" x2="363" y2="323" stroke="#222222" stroke-width="1.5"/>
+<polygon points="363,316 366.2,324 359.8,324" fill="#222222"/>
+<defs><radialGradient id="ball30_363_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="363" cy="340" r="11" fill="url(#ball30_363_340_11)"/>
+<line x1="389" y1="318" x2="389" y2="357" stroke="#222222" stroke-width="1.5"/>
+<polygon points="389,364 385.8,356 392.2,356" fill="#222222"/>
+<defs><radialGradient id="ball30_389_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="389" cy="340" r="11" fill="url(#ball30_389_340_11)"/>
+<line x1="436" y1="260" x2="520" y2="260" stroke="#222222" stroke-width="1.5"/>
+<line x1="478" y1="282" x2="478" y2="243" stroke="#222222" stroke-width="1.5"/>
+<polygon points="478,236 481.2,244 474.8,244" fill="#222222"/>
+<defs><radialGradient id="ball30_478_260_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="478" cy="260" r="11" fill="url(#ball30_478_260_11)"/>
+<line x1="436" y1="340" x2="520" y2="340" stroke="#222222" stroke-width="1.5"/>
+<line x1="465" y1="362" x2="465" y2="323" stroke="#222222" stroke-width="1.5"/>
+<polygon points="465,316 468.2,324 461.8,324" fill="#222222"/>
+<defs><radialGradient id="ball30_465_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="465" cy="340" r="11" fill="url(#ball30_465_340_11)"/>
+<line x1="491" y1="318" x2="491" y2="357" stroke="#222222" stroke-width="1.5"/>
+<polygon points="491,364 487.8,356 494.2,356" fill="#222222"/>
+<defs><radialGradient id="ball30_491_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="491" cy="340" r="11" fill="url(#ball30_491_340_11)"/>
+<line x1="538" y1="260" x2="622" y2="260" stroke="#222222" stroke-width="1.5"/>
+<line x1="580" y1="238" x2="580" y2="277" stroke="#222222" stroke-width="1.5"/>
+<polygon points="580,284 576.8,276 583.2,276" fill="#222222"/>
+<defs><radialGradient id="ball30_580_260_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="580" cy="260" r="11" fill="url(#ball30_580_260_11)"/>
+<line x1="538" y1="340" x2="622" y2="340" stroke="#222222" stroke-width="1.5"/>
+<line x1="567" y1="362" x2="567" y2="323" stroke="#222222" stroke-width="1.5"/>
+<polygon points="567,316 570.2,324 563.8,324" fill="#222222"/>
+<defs><radialGradient id="ball30_567_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="567" cy="340" r="11" fill="url(#ball30_567_340_11)"/>
+<line x1="593" y1="318" x2="593" y2="357" stroke="#222222" stroke-width="1.5"/>
+<polygon points="593,364 589.8,356 596.2,356" fill="#222222"/>
+<defs><radialGradient id="ball30_593_340_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="593" cy="340" r="11" fill="url(#ball30_593_340_11)"/>
+<text x="40" y="488.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Not</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">allowed</tspan></text>
+<text x="40" y="547.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 2</tspan></text>
+<text x="40" y="627.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 1</tspan></text>
+<line x1="130" y1="540" x2="214" y2="540" stroke="#222222" stroke-width="1.5"/>
+<line x1="130" y1="620" x2="214" y2="620" stroke="#222222" stroke-width="1.5"/>
+<line x1="159" y1="642" x2="159" y2="603" stroke="#222222" stroke-width="1.5"/>
+<polygon points="159,596 162.2,604 155.8,604" fill="#222222"/>
+<defs><radialGradient id="ball30_159_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="159" cy="620" r="11" fill="url(#ball30_159_620_11)"/>
+<line x1="185" y1="642" x2="185" y2="603" stroke="#222222" stroke-width="1.5"/>
+<polygon points="185,596 188.2,604 181.8,604" fill="#222222"/>
+<defs><radialGradient id="ball30_185_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="185" cy="620" r="11" fill="url(#ball30_185_620_11)"/>
+<line x1="232" y1="540" x2="316" y2="540" stroke="#222222" stroke-width="1.5"/>
+<line x1="232" y1="620" x2="316" y2="620" stroke="#222222" stroke-width="1.5"/>
+<line x1="261" y1="598" x2="261" y2="637" stroke="#222222" stroke-width="1.5"/>
+<polygon points="261,644 257.8,636 264.2,636" fill="#222222"/>
+<defs><radialGradient id="ball30_261_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="261" cy="620" r="11" fill="url(#ball30_261_620_11)"/>
+<line x1="287" y1="598" x2="287" y2="637" stroke="#222222" stroke-width="1.5"/>
+<polygon points="287,644 283.8,636 290.2,636" fill="#222222"/>
+<defs><radialGradient id="ball30_287_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="287" cy="620" r="11" fill="url(#ball30_287_620_11)"/>
+<line x1="334" y1="540" x2="418" y2="540" stroke="#222222" stroke-width="1.5"/>
+<line x1="334" y1="620" x2="418" y2="620" stroke="#222222" stroke-width="1.5"/>
+<line x1="350" y1="642" x2="350" y2="603" stroke="#222222" stroke-width="1.5"/>
+<polygon points="350,596 353.2,604 346.8,604" fill="#222222"/>
+<defs><radialGradient id="ball30_350_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="350" cy="620" r="11" fill="url(#ball30_350_620_11)"/>
+<line x1="376" y1="598" x2="376" y2="637" stroke="#222222" stroke-width="1.5"/>
+<polygon points="376,644 372.8,636 379.2,636" fill="#222222"/>
+<defs><radialGradient id="ball30_376_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="376" cy="620" r="11" fill="url(#ball30_376_620_11)"/>
+<line x1="402" y1="642" x2="402" y2="603" stroke="#222222" stroke-width="1.5"/>
+<polygon points="402,596 405.2,604 398.8,604" fill="#222222"/>
+<defs><radialGradient id="ball30_402_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="402" cy="620" r="11" fill="url(#ball30_402_620_11)"/>
+<line x1="436" y1="540" x2="520" y2="540" stroke="#222222" stroke-width="1.5"/>
+<line x1="436" y1="620" x2="520" y2="620" stroke="#222222" stroke-width="1.5"/>
+<line x1="452" y1="642" x2="452" y2="603" stroke="#222222" stroke-width="1.5"/>
+<polygon points="452,596 455.2,604 448.8,604" fill="#222222"/>
+<defs><radialGradient id="ball30_452_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="452" cy="620" r="11" fill="url(#ball30_452_620_11)"/>
+<line x1="478" y1="598" x2="478" y2="637" stroke="#222222" stroke-width="1.5"/>
+<polygon points="478,644 474.8,636 481.2,636" fill="#222222"/>
+<defs><radialGradient id="ball30_478_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="478" cy="620" r="11" fill="url(#ball30_478_620_11)"/>
+<line x1="504" y1="598" x2="504" y2="637" stroke="#222222" stroke-width="1.5"/>
+<polygon points="504,644 500.8,636 507.2,636" fill="#222222"/>
+<defs><radialGradient id="ball30_504_620_11" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="504" cy="620" r="11" fill="url(#ball30_504_620_11)"/>
+</svg>

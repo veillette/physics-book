@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="600" viewBox="0 0 640 600" role="img" aria-labelledby="title desc">
+<title id="title">Alpha particles passing through gold atoms</title>
+<desc id="desc">An expanded view of the atoms in a gold foil, drawn as circles about 10^−10 m across with a dot at each center for the nucleus (much larger than scale). Most alpha particles pass straight through; one passing close to a nucleus is deflected, and one striking a nucleus nearly head on bounces back.</desc>
+<rect width="640" height="600" fill="#ffffff"/>
+<circle cx="246" cy="130" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="246" cy="130" r="4" fill="#2f4f6a"/>
+<circle cx="342" cy="130" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="342" cy="130" r="4" fill="#2f4f6a"/>
+<circle cx="438" cy="130" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="438" cy="130" r="4" fill="#2f4f6a"/>
+<circle cx="198" cy="213.14" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="198" cy="213.14" r="4" fill="#2f4f6a"/>
+<circle cx="294" cy="213.14" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="294" cy="213.14" r="4" fill="#2f4f6a"/>
+<circle cx="390" cy="213.14" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="390" cy="213.14" r="4" fill="#2f4f6a"/>
+<circle cx="486" cy="213.14" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="486" cy="213.14" r="4" fill="#2f4f6a"/>
+<circle cx="150" cy="296.28" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="150" cy="296.28" r="4" fill="#2f4f6a"/>
+<circle cx="246" cy="296.28" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="246" cy="296.28" r="4" fill="#2f4f6a"/>
+<circle cx="342" cy="296.28" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="342" cy="296.28" r="4" fill="#2f4f6a"/>
+<circle cx="438" cy="296.28" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="438" cy="296.28" r="4" fill="#2f4f6a"/>
+<circle cx="534" cy="296.28" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="534" cy="296.28" r="4" fill="#2f4f6a"/>
+<circle cx="198" cy="379.42" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="198" cy="379.42" r="4" fill="#2f4f6a"/>
+<circle cx="294" cy="379.42" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="294" cy="379.42" r="4" fill="#2f4f6a"/>
+<circle cx="390" cy="379.42" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="390" cy="379.42" r="4" fill="#2f4f6a"/>
+<circle cx="486" cy="379.42" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="486" cy="379.42" r="4" fill="#2f4f6a"/>
+<circle cx="246" cy="462.55" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="246" cy="462.55" r="4" fill="#2f4f6a"/>
+<circle cx="342" cy="462.55" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="342" cy="462.55" r="4" fill="#2f4f6a"/>
+<circle cx="438" cy="462.55" r="48" fill="#a98ccb" stroke="#6f5aa0" stroke-width="1.5"/>
+<circle cx="438" cy="462.55" r="4" fill="#2f4f6a"/>
+<line x1="20" y1="254.71" x2="595" y2="254.71" stroke="#222222" stroke-width="2"/>
+<polygon points="610,254.71 594,261.11 594,248.31" fill="#222222"/>
+<line x1="20" y1="126" x2="322" y2="126" stroke="#222222" stroke-width="2"/>
+<line x1="322" y1="126" x2="559.23" y2="272.13" stroke="#222222" stroke-width="2"/>
+<polygon points="572,280 555.02,277.06 561.73,266.16" fill="#222222"/>
+<line x1="40" y1="462.55" x2="246" y2="462.55" stroke="#222222" stroke-width="2"/>
+<line x1="246" y1="462.55" x2="138.96" y2="525" stroke="#222222" stroke-width="2"/>
+<polygon points="126,532.55 136.6,518.96 143.05,530.02" fill="#222222"/>
+<line x1="210" y1="50" x2="282" y2="50" stroke="#222222" stroke-width="1.8"/>
+<polygon points="293,50 281,54.8 281,45.2" fill="#222222"/>
+<polygon points="199,50 211,45.2 211,54.8" fill="#222222"/>
+<line x1="198" y1="36" x2="198" y2="130" stroke="#222222" stroke-width="1.4"/>
+<line x1="294" y1="36" x2="294" y2="130" stroke="#222222" stroke-width="1.4"/>
+<text x="246" y="31.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="18.2" dy="-10.4"><tspan font-style="normal">−10</tspan></tspan><tspan dy="10.4">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

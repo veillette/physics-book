@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="700" viewBox="0 0 680 700" role="img" aria-labelledby="title desc">
+<title id="title">Orbital angular momentum and magnetic field</title>
+<desc id="desc">An electron e− circles a nucleus in an orbit of radius r, drawn in perspective. As a current loop it produces a magnetic field B_orb along its axis. B_orb points along the same line as the orbital angular momentum L_orb but in the opposite direction, because the electron’s charge is negative.</desc>
+<rect width="680" height="700" fill="#ffffff"/>
+<ellipse cx="300" cy="330" rx="270" ry="80" transform="rotate(-16 300 330)" fill="none" stroke="#222222" stroke-width="2.5"/>
+<line x1="300" y1="330" x2="362.21" y2="88.93" stroke="#f08ab0" stroke-width="5"/>
+<polygon points="369.46,60.85 373.58,92.89 350.34,86.9" fill="#f08ab0"/>
+<line x1="300" y1="330" x2="232.82" y2="590.3" stroke="#d81b60" stroke-width="5"/>
+<polygon points="225.58,618.38 221.46,586.33 244.69,592.33" fill="#d81b60"/>
+<line x1="300" y1="330" x2="492.03" y2="312.81" stroke="#222222" stroke-width="2"/>
+<polygon points="504.97,311.65 491.53,318.48 490.53,307.32" fill="#222222"/>
+<circle cx="300" cy="330" r="7" fill="#222222"/>
+<line x1="542.97" y1="305.65" x2="621.68" y2="264.59" stroke="#4caf2a" stroke-width="3"/>
+<polygon points="634.97,257.65 623.75,270.73 617.83,259.38" fill="#4caf2a"/>
+<defs><radialGradient id="ball30_525_312_18" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="524.97" cy="311.65" r="18" fill="url(#ball30_525_312_18)"/>
+<text x="524.97" y="320.35" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<text x="422.49" y="296.15" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<text x="409.46" y="82.05" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">L<tspan font-size="19.84" font-weight="normal" dx="-20.59" dy="-26.24">→</tspan><tspan dx="0.75" dy="26.24">​</tspan></tspan><tspan font-size="22.4" dy="8.96"><tspan font-style="normal">orb</tspan></tspan><tspan dy="-8.96">​</tspan></text>
+<text x="281.58" y="613.58" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="19.84" font-weight="normal" dx="-20.59" dy="-26.24">→</tspan><tspan dx="0.75" dy="26.24">​</tspan></tspan><tspan font-size="22.4" dy="8.96"><tspan font-style="normal">orb</tspan></tspan><tspan dy="-8.96">​</tspan></text>
+</svg>
