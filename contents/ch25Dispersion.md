@@ -43,7 +43,7 @@ Dispersion is defined to be the spreading of white light into its full spectrum 
 
 :::
 
-![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.jpg 'Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.')
+![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.svg 'Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.')
 {: #Figure2}
 
 Refraction is responsible for dispersion in rainbows and many other situations.

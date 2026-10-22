@@ -110,7 +110,7 @@ electromagnetic spectrum. Many of the characteristics of the various types of
 electromagnetic waves are related to their frequencies and wavelengths, as we
 shall see.
 
-![An electromagnetic spectrum is shown. Different wave category regions are indicated using double sided arrows based on the values of their wavelength, energy, and frequency; the visual strip is also shown. The radio wave region is further segmented into AM radio, FM radio, and microwaves bands.](../resources/Figure_24_03_01.jpg 'The electromagnetic spectrum, showing the major categories of electromagnetic waves. The range of frequencies and wavelengths is remarkable. The dividing line between some categories is distinct, whereas other categories overlap.')
+![An electromagnetic spectrum is shown. Different wave category regions are indicated using double sided arrows based on the values of their wavelength, energy, and frequency; the visual strip is also shown. The radio wave region is further segmented into AM radio, FM radio, and microwaves bands.](../resources/Figure_24_03_01.svg 'The electromagnetic spectrum, showing the major categories of electromagnetic waves. The range of frequencies and wavelengths is remarkable. The dividing line between some categories is distinct, whereas other categories overlap.')
 {: #Figure1}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -188,7 +188,7 @@ is a good conductor, radio waves are strongly absorbed by it, and very long
 wavelengths are needed to reach a submarine under the surface. (
 See [[Figure 3]](#Figure3).)
 
-![The picture of a submarine under water is shown. The submarine is shown to receive extremely low frequency signals shown as a curvy line from the ocean surface to the submarine in the ocean depth.](../resources/Figure_24_03_04.jpg 'Very long wavelength radio waves are needed to reach this submarine, requiring extremely low frequency signals (ELF). Shorter wavelengths do not penetrate to any significant depth.')
+![The picture of a submarine under water is shown. The submarine is shown to receive extremely low frequency signals shown as a curvy line from the ocean surface to the submarine in the ocean depth.](../resources/Figure_24_03_04.svg 'Very long wavelength radio waves are needed to reach this submarine, requiring extremely low frequency signals (ELF). Shorter wavelengths do not penetrate to any significant depth.')
 {: #Figure3}
 
 AM radio waves are used to carry commercial radio signals in the frequency range
@@ -204,7 +204,7 @@ its antenna. The receiver’s circuitry is designed to respond to variations in
 amplitude of the carrier wave to replicate the original audio signal. That audio
 signal is amplified to drive a speaker or perhaps to be recorded.
 
-![Part a of the diagram shows a carrier wave along the horizontal axis. The wave is shown to have a high frequency as the vibrations are closely spaced. The wave has constant amplitude represented by uniform height of crest and trough. Part b of the diagram shows an audio wave with a lower frequency. The wave is on the upper side of horizontal axis. The amplitude of the wave is not uniform. It has an initial small rise and fall followed by a steep rise and a gradual fall in the wave. Part c of the diagram shows the amplitude modulated wave. It is the resultant wave obtained by mixing of the waves in part a and part b. The amplitude of the resultant wave is non uniform, similar to the audio wave. The frequency of the amplitude modulated wave is equal to the frequency of the carrier wave. The wave spreads on both sides of the horizontal axis.](../resources/Figure_24_03_05.jpg 'Amplitude modulation for AM radio. (a) A carrier wave at the station’s basic frequency. (b) An audio signal at much lower audible frequencies. (c) The amplitude of the carrier is modulated by the audio signal without changing its basic frequency.')
+![Part a of the diagram shows a carrier wave along the horizontal axis. The wave is shown to have a high frequency as the vibrations are closely spaced. The wave has constant amplitude represented by uniform height of crest and trough. Part b of the diagram shows an audio wave with a lower frequency. The wave is on the upper side of horizontal axis. The amplitude of the wave is not uniform. It has an initial small rise and fall followed by a steep rise and a gradual fall in the wave. Part c of the diagram shows the amplitude modulated wave. It is the resultant wave obtained by mixing of the waves in part a and part b. The amplitude of the resultant wave is non uniform, similar to the audio wave. The frequency of the amplitude modulated wave is equal to the frequency of the carrier wave. The wave spreads on both sides of the horizontal axis.](../resources/Figure_24_03_05.svg 'Amplitude modulation for AM radio. (a) A carrier wave at the station’s basic frequency. (b) An audio signal at much lower audible frequencies. (c) The amplitude of the carrier is modulated by the audio signal without changing its basic frequency.')
 {: #Figure4}
 
 ### FM Radio Waves
@@ -216,7 +216,7 @@ carrier wave having the basic frequency of the radio station, perhaps 105.1 MHz,
 is modulated in frequency by the audio signal, producing a wave of constant
 amplitude but varying frequency.
 
-![Part a of the diagram shows a carrier wave along the horizontal axis. The wave is shown to have a high frequency as the vibrations are closely spaced. The wave has constant amplitude represented by uniform height of crest and trough. Part b of the diagram shows an audio wave with a lower frequency as shown by widely spaced vibrations. The wave has constant amplitude, represented by uniform length of crest and trough. Part c shows the frequency modulated wave obtained from waves in part a and part b. The amplitude of the resultant wave is similar to the source waves but the frequency varies. Frequency maxima are shown as closely spaced vibrations and frequency minima are shown as widely spaced vibrations. These maxima and minima are shown to alternate.](../resources/Figure_24_03_06.jpg 'Frequency modulation for FM radio. (a) A carrier wave at the station’s basic frequency. (b) An audio signal at much lower audible frequencies. (c) The frequency of the carrier is modulated by the audio signal without changing its amplitude.')
+![Part a of the diagram shows a carrier wave along the horizontal axis. The wave is shown to have a high frequency as the vibrations are closely spaced. The wave has constant amplitude represented by uniform height of crest and trough. Part b of the diagram shows an audio wave with a lower frequency as shown by widely spaced vibrations. The wave has constant amplitude, represented by uniform length of crest and trough. Part c shows the frequency modulated wave obtained from waves in part a and part b. The amplitude of the resultant wave is similar to the source waves but the frequency varies. Frequency maxima are shown as closely spaced vibrations and frequency minima are shown as widely spaced vibrations. These maxima and minima are shown to alternate.](../resources/Figure_24_03_06.svg 'Frequency modulation for FM radio. (a) A carrier wave at the station’s basic frequency. (b) An audio signal at much lower audible frequencies. (c) The frequency of the carrier is modulated by the audio signal without changing its amplitude.')
 {: #Figure5}
 
 Since audible frequencies range up to 20 kHz (or 0.020 MHz) at most, the
@@ -489,7 +489,7 @@ the highest frequencies and shortest wavelengths. Blackbody radiation from the
 Sun peaks in the visible part of the spectrum but is more intense in the red
 than in the violet, making the Sun yellowish in appearance.
 
-![The visible strip of the electromagnetic spectrum is highlighted and shown in the picture. The wave length range is from eight hundred nanometers on the left to three hundred nanometers on the right. The divisions between infrared, visible, and ultraviolet are not perfectly distinct. The colors in the visible strip are also not perfectly distinct; they are marked as bands labeled from red on the left to violet on the right.](../resources/Figure_24_03_10.jpg "A small part of the electromagnetic spectrum that includes its visible components. The divisions between infrared, visible, and ultraviolet are not perfectly distinct, nor are those between the seven rainbow colors.")
+![The visible strip of the electromagnetic spectrum is highlighted and shown in the picture. The wave length range is from eight hundred nanometers on the left to three hundred nanometers on the right. The divisions between infrared, visible, and ultraviolet are not perfectly distinct. The colors in the visible strip are also not perfectly distinct; they are marked as bands labeled from red on the left to violet on the right.](../resources/Figure_24_03_10.svg "A small part of the electromagnetic spectrum that includes its visible components. The divisions between infrared, visible, and ultraviolet are not perfectly distinct, nor are those between the seven rainbow colors.")
 {: #Figure8}
 
 Living things—plants and animals—have evolved to utilize and respond to parts of
@@ -743,7 +743,7 @@ interacts with charges in the material as it penetrates. These collisions
 transfer kinetic energy from the electron to the electrons and atoms in the
 material.
 
-![A picture showing an electron represented as a tiny sphere shown to strike the atoms in the material represented as spheres slightly larger in size than the electron. A ray of X ray is shown to come out from the material shown by a wavy arrow.](../resources/Figure_24_03_14.jpg 'Artist’s conception of an electron being slowed by collisions in a material and emitting X-ray radiation. This energetic electron makes numerous collisions with electrons and atoms in a material it penetrates. An accelerated charge radiates EM waves, a second method by which X-rays are created.')
+![A picture showing an electron represented as a tiny sphere shown to strike the atoms in the material represented as spheres slightly larger in size than the electron. A ray of X ray is shown to come out from the material shown by a wavy arrow.](../resources/Figure_24_03_14.svg 'Artist’s conception of an electron being slowed by collisions in a material and emitting X-ray radiation. This energetic electron makes numerous collisions with electrons and atoms in a material it penetrates. An accelerated charge radiates EM waves, a second method by which X-rays are created.')
 {: #Figure11}
 
 A loss of kinetic energy implies an acceleration, in this case decreasing the

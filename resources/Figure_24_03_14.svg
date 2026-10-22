@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="520" viewBox="0 0 560 520" role="img" aria-labelledby="title desc">
+<title id="title">An electron emitting an X ray as it is slowed</title>
+<desc id="desc">An energetic electron e− enters a material made of atoms and electrons, drawn as green and purple circles, and is slowed by a collision. The accelerated charge radiates, sending out an X ray shown as a wavy red arrow.</desc>
+<rect width="560" height="520" fill="#ffffff"/>
+<defs><radialGradient id="glow24" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6c9bf" stop-opacity="0.9"/><stop offset="1" stop-color="#f6c9bf" stop-opacity="0"/></radialGradient></defs>
+<circle cx="290" cy="310" r="230" fill="url(#glow24)"/>
+<circle cx="160" cy="40" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="490" cy="100" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="380" cy="150" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="270" cy="200" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="180" cy="240" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="410" cy="270" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="480" cy="330" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="160" cy="370" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="355" cy="390" r="22" fill="#7bc86c" stroke="#3c8f3a" stroke-width="1.5"/>
+<circle cx="340" cy="80" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="260" cy="140" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="110" cy="180" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="350" cy="200" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="485" cy="225" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="295" cy="315" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="270" cy="455" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="460" cy="430" r="22" fill="#b89ad4" stroke="#6f4c9a" stroke-width="1.5"/>
+<circle cx="20" cy="255" r="9" fill="#a01c38"/>
+<text x="20" y="234.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−</tspan></tspan><tspan dy="9.6">​</tspan></text>
+<line x1="30" y1="257" x2="255.31" y2="307.17" stroke="#222222" stroke-width="1.6"/>
+<polygon points="268,310 253.12,312.42 255.55,301.49" fill="#222222"/>
+<polyline points="225,330 228.08,329.84 231.1,329.76 233.98,329.86 236.67,330.21 239.13,330.88 241.32,331.9 243.22,333.31 244.83,335.11 246.16,337.28 247.24,339.79 248.1,342.58 248.81,345.59 249.42,348.72 249.99,351.9 250.61,355.03 251.32,358.02 252.2,360.79 253.29,363.28 254.64,365.42 256.27,367.19 258.19,368.57 260.4,369.57 262.88,370.21 265.59,370.55 268.49,370.63 271.51,370.55 274.59,370.38 277.67,370.22 280.68,370.15 283.55,370.27 286.23,370.64 288.67,371.33 290.84,372.39 292.72,373.82 294.3,375.65 295.61,377.85 296.67,380.38 297.53,383.19 298.22,386.2 298.83,389.34 299.4,392.52 300.02,395.64 300.75,398.62 301.64,401.37 302.75,403.83 304.12,405.95 305.77,407.7 307.71,409.05 309.94,410.02 312.44,410.64 315.16,410.95 318.07,411.02 321.1,410.93 324.18,410.76 327.26,410.6 330.26,410.55" fill="none" stroke="#e0245e" stroke-width="4" stroke-linejoin="round"/>
+<line x1="321.1" y1="410.93" x2="331.41" y2="420.02" stroke="#e0245e" stroke-width="4"/>
+<polygon points="345,432 325.6,425.09 335.71,413.62" fill="#e0245e"/>
+<text x="372" y="456.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">x</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">ray</tspan></text>
+</svg>

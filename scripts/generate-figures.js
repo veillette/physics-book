@@ -7,7 +7,8 @@
  * electrostatics figures of
  * chapter 18, the field, equipotential and capacitor figures of chapter 19, the circuit diagrams of chapter 21
  * (whose symbols live in scripts/figures/circuit.js), the magnetic-force figures
- * of chapter 22, the induction and AC-circuit figures of chapter 23, and the electromagnetic
+ * of chapter 22, the induction and AC-circuit figures of chapter 23, the
+ * electromagnetic-wave figures of chapter 24, and the electromagnetic
  * spectrum of section 29.3, plus the figures in the answers to
  * the Conceptual Questions of chapters 1–9 (scripts/figures/concepts.js) and
  * chapters 21–25 (scripts/figures/concepts21to25.js), and the field-line and
@@ -45,6 +46,7 @@ import ch20 from './figures/ch20.js';
 import ch21 from './figures/ch21.js';
 import ch22 from './figures/ch22.js';
 import ch23 from './figures/ch23.js';
+import ch24 from './figures/ch24.js';
 import ch29 from './figures/ch29.js';
 import concepts from './figures/concepts.js';
 import concepts21to25 from './figures/concepts21to25.js';
@@ -76,6 +78,7 @@ const figures = {
   ...ch21,
   ...ch22,
   ...ch23,
+  ...ch24,
   ...ch29,
   ...concepts,
   ...concepts21to25,

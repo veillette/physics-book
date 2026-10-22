@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560" role="img" aria-labelledby="title desc">
+<title id="title">Extremely low frequency radio reaching a submarine</title>
+<desc id="desc">A submarine deep under the sea surface receives a radio wave of very long wavelength (extremely low frequency, ELF) coming down from the air above. Shorter wavelengths do not penetrate to any significant depth.</desc>
+<rect width="560" height="560" fill="#ffffff"/>
+<defs><linearGradient id="sea24" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#e3f1f8"/><stop offset="1" stop-color="#c9e4f1"/></linearGradient><linearGradient id="hull" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a4b6d6"/><stop offset="0.5" stop-color="#7488b4"/><stop offset="1" stop-color="#4f6290"/></linearGradient></defs>
+<rect x="0" y="50" width="560" height="510" fill="url(#sea24)"/>
+<polyline points="0,50 10,52.41 20,51.29 30,48.28 40,47.79 50,50.54 60,52.5 70,50.8 80,47.93 90,48.1 100,51.05 110,52.47 120,50.27 130,47.68 140,48.49 150,51.51 160,52.32 170,49.73 180,47.53 190,48.95 200,51.91 210,52.07 220,49.2 230,47.5 240,49.46 250,52.21 260,51.72 270,48.71 280,47.59 290,50 300,52.41 310,51.29 320,48.28 330,47.79 340,50.54 350,52.5 360,50.8 370,47.93 380,48.1 390,51.05 400,52.47 410,50.27 420,47.68 430,48.49 440,51.52 450,52.32 460,49.73 470,47.53 480,48.95 490,51.91 500,52.07 510,49.2 520,47.5 530,49.47 540,52.21 550,51.72 560,48.71" fill="none" stroke="#6e9fb5" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 490 0 C 470 40 430 60 330 92 C 230 130 180 200 172 300 L 170 440" fill="none" stroke="#1aa6b7" stroke-width="6" stroke-linejoin="round"/>
+<path d="M 60 470 Q 60 452 90 450 L 310 446 Q 345 448 345 470 Q 345 492 310 494 L 90 492 Q 60 490 60 470 Z" fill="url(#hull)" stroke="#3f5080" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 190 450 L 196 420 L 232 420 L 236 448 Z" fill="#6a7eab" stroke="#3f5080" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="222" y1="420" x2="222" y2="404" stroke="#3f5080" stroke-width="3"/>
+<line x1="110" y1="466" x2="117" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="124" y1="466" x2="131" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="138" y1="466" x2="145" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="152" y1="466" x2="159" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="166" y1="466" x2="173" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="180" y1="466" x2="187" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="194" y1="466" x2="201" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="208" y1="466" x2="215" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="222" y1="466" x2="229" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="236" y1="466" x2="243" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="250" y1="466" x2="257" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="264" y1="466" x2="271" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="278" y1="466" x2="285" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<line x1="292" y1="466" x2="299" y2="466" stroke="#3f5080" stroke-width="1.5"/>
+<text x="410" y="255.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">ELF</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radio</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wave</tspan></text>
+<polyline points="400,222 400.53,218.53 400.97,215.12 401.2,211.81 401.15,208.66 400.74,205.69 399.93,202.94 398.68,200.42 397,198.14 394.89,196.07 392.42,194.21 389.63,192.51 386.62,190.93 383.46,189.43 380.28,187.94 377.16,186.42 374.21,184.81 371.52,183.06 369.16,181.13 367.19,178.99 365.66,176.63 364.55,174.03 363.88,171.21 363.6,168.18 363.65,164.97 363.96,161.62 364.44,158.18 364.98,154.71 365.5,151.25 365.87,147.87 366.02,144.61 365.85,141.51 365.32,138.62 364.36,135.94 362.97,133.5 361.14,131.29 358.91,129.3 356.32,127.49 353.45,125.84 350.37,124.29 347.2,122.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="347.2" y1="122.8" x2="338.23" y2="105.94" stroke="#222222" stroke-width="1.4"/>
+<polygon points="334,98 342.23,104.95 335.17,108.71" fill="#222222"/>
+</svg>
