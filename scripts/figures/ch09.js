@@ -1,6 +1,6 @@
 /**
  * Chapter 9: torque on a door, a braced wall, a sandwich-board sign, and
- * pulley systems with their mechanical advantage.
+ * simple machines, and pulley systems with their mechanical advantage.
  */
 import { COLORS, Svg, rad } from './svg.js';
 
@@ -113,7 +113,359 @@ function ceilingMount(svg, x, y) {
 /** Point on a circle at math angle `deg` (y up), radius r. */
 const onCircle = (c, r, deg) => [c[0] + r * Math.cos(rad(deg)), c[1] - r * Math.sin(rad(deg))];
 
+/** A force arrow, grouped so its point of application can be checked separately. */
+function machineForce(svg, name, from, to, labelAt, { color = BLACK, dash } = {}) {
+  svg.add(`<g data-force="${name}">`);
+  svg.arrow(...from, ...to, { color, width: 4, head: 14, dash });
+  svg.text(...labelAt, name === 'w' ? 'w' : name === 'N' ? '**N**' : `**F**_{${name}}`, {
+    size: 25,
+  });
+  svg.add('</g>');
+}
+
+/** Horizontal perpendicular distance between two vertical lines of action. */
+function machineArm(svg, x1, x2, y, label) {
+  svg.add(`<g data-arm="${label}">`);
+  svg.line(x1, y - 9, x1, y + 9, { color: BLACK });
+  svg.line(x2, y - 9, x2, y + 9, { color: BLACK });
+  svg.arrow(x1 + 1, y, x2 - 1, y, { color: BLACK, width: 1.5, head: 9, start: true });
+  svg.text((x1 + x2) / 2, y + 24, label, { size: 24 });
+  svg.add('</g>');
+}
+
+/** Parallel vertical forces, with the same relative lengths as in the scene. */
+function machineFbd(svg, x, y, forces) {
+  svg.add('<g data-diagram="fbd">');
+  svg.text(x, y - 160, 'Free-body diagram', { size: 20, math: false });
+  for (const [name, offset, length] of forces) {
+    machineForce(
+      svg,
+      name,
+      [x + offset, y],
+      [x + offset, y - length],
+      [x + offset + (offset < 0 ? (name === 'pivot' ? -50 : -28) : 30), y - length / 2],
+      { color: name === 'i' ? FORCE : BLACK }
+    );
+  }
+  svg.circle(x, y, 6, { fill: '#9b1b1b' });
+  svg.add('</g>');
+}
+
 export default {
+  // 9.5 — nail puller as a lever with large mechanical advantage
+  Figure_09_05_01: () => {
+    const svg = new Svg({
+      width: 740,
+      height: 670,
+      title: 'Nail puller lever',
+      desc: 'The hand pushes down with F_i at the long handle. The puller rests directly on the plank at the pivot, which supplies upward N. The nail pushes down on the claw with F_n. Horizontal perpendicular arms l_i and l_o straddle the pivot, with l_i much longer. The dashed upward F_o acts on the nail, not on the puller, and equals F_n in magnitude. The separate free-body diagram includes only the three forces on the puller.',
+    });
+    const handle = [100, 240];
+    const pivot = [445, 444];
+    const nail = [500, 420];
+    // Use one force scale: F_i l_i = F_n l_o and N = F_i + F_n.
+    const fi = 28;
+    const fn = (fi * (pivot[0] - handle[0])) / (nail[0] - pivot[0]);
+    const normal = fi + fn;
+    const guide = { color: '#888888', width: 1.2, dash: '5 4' };
+
+    svg.add('<g data-diagram="puller">');
+    svg.rect(45, pivot[1], 650, 62, { fill: WOOD, stroke: WOOD_EDGE, width: 2 });
+    for (let x = 65; x < 670; x += 45) {
+      svg.line(x, 460, x + 22, 490, { color: WOOD_EDGE, width: 0.8 });
+    }
+    svg.rect(nail[0] - 4, nail[1], 8, 65, { fill: STEEL, stroke: STEEL_EDGE });
+    svg.ellipse(...nail, 14, 5, { fill: STEEL, stroke: STEEL_EDGE });
+    // The rounded heel touches the plank; the claw reaches under the nail head.
+    svg.path('M 80 268 Q 85 235 100 240 L 417 420 Q 436 437 445 435 Q 469 432 500 425', {
+      color: '#5a6268',
+      width: 18,
+    });
+    svg.line(488, 421, 506, 419, { color: '#5a6268', width: 5 });
+    svg.polygon(
+      [
+        [57, 197],
+        [80, 175],
+        [119, 214],
+        [96, 244],
+      ],
+      {
+        fill: '#f4c2a0',
+        stroke: '#d4a280',
+        width: 1.5,
+      }
+    );
+    svg.ellipse(114, 238, 27, 19, { fill: '#f4c2a0', stroke: '#d4a280', width: 1.5 });
+    for (let x = 105; x <= 129; x += 8) {
+      svg.line(x, 231, x + 5, 249, { color: '#d4a280', width: 1.2 });
+    }
+
+    machineForce(svg, 'i', [handle[0], handle[1] - fi], handle, [65, 218], { color: FORCE });
+    machineForce(svg, 'n', [nail[0], nail[1] - fn], nail, [535, 330], { color: FORCE });
+    machineForce(svg, 'N', pivot, [pivot[0], pivot[1] - normal], [412, 320]);
+    machineForce(svg, 'o', [nail[0], nail[1] + fn], nail, [535, 545], {
+      color: FORCE,
+      dash: '7 5',
+    });
+    svg.text(610, 590, 'Force on nail', { size: 19, math: false });
+    svg.line(handle[0], 280, handle[0], 550, guide);
+    svg.line(pivot[0], 450, pivot[0], 630, guide);
+    machineArm(svg, handle[0], pivot[0], 535, 'l_i');
+    machineArm(svg, pivot[0], nail[0], 625, 'l_o');
+    svg.circle(...pivot, 5, { fill: '#d4a017', stroke: '#8b6914' });
+    svg.text(365, 485, 'Pivot', { size: 19, math: false });
+    svg.leader(390, 477, 440, 447);
+    svg.add('</g>');
+    machineFbd(svg, 625, 200, [
+      ['i', -18, -fi * 0.6],
+      ['n', 18, -fn * 0.6],
+      ['N', 0, normal * 0.6],
+    ]);
+    return svg.render();
+  },
+
+  // 9.5 — wheelbarrow and shovel as levers
+  Figure_09_05_02: () => {
+    const svg = new Svg({
+      width: 1080,
+      height: 900,
+      title: 'Wheelbarrow and shovel as levers',
+      desc: '(a) The wheelbarrow load at CG lies between the handles and the wheel axle. F_i and ground reaction N point up; weight w points down. R_i is longer than R_o, giving MA greater than one. (b) Two hands hold a shovel: the right hand at the handle end is the pivot and pushes down, while the hand nearer the blade supplies upward F_i. The load weight points down beyond the input, with R_i shorter than R_o and MA less than one. Separate free-body diagrams show the same force directions. F_o is the upward force supporting each load and equals w in magnitude.',
+    });
+    const guide = { color: '#888888', width: 1.2, dash: '5 4' };
+    const wheel = [560, 320];
+    const handle = [100, 220];
+    const cg = [500, 210];
+    const w = 184;
+    const fi = (w * (wheel[0] - cg[0])) / (wheel[0] - handle[0]);
+    const normal = w - fi;
+
+    svg.text(345, 30, '(a) Wheelbarrow: MA > 1', { size: 24, math: false });
+    svg.add('<g data-diagram="wheelbarrow">');
+    svg.rect(45, 365, 650, 24, { fill: '#e4e9cc' });
+    svg.line(45, 365, 695, 365, { color: '#6c9248', width: 2 });
+    svg.circle(...wheel, 45, { fill: '#4a4a4a', stroke: BLACK, width: 2.5 });
+    svg.circle(...wheel, 34, { fill: '#e8e8e8', stroke: BLACK });
+    svg.circle(...wheel, 9, { fill: STEEL, stroke: BLACK });
+    svg.path('M 270 250 L 285 304 Q 295 326 311 304 L 350 265', { color: STEEL_EDGE, width: 9 });
+    svg.line(75, 215, 560, 300, { color: WOOD_EDGE, width: 11, cap: 'round' });
+    svg.line(560, 270, ...wheel, { color: WOOD_EDGE, width: 12 });
+    svg.polygon(
+      [
+        [260, 160],
+        [625, 160],
+        [555, 270],
+        [300, 235],
+      ],
+      {
+        fill: '#c94c38',
+        stroke: '#8b3426',
+        width: 2,
+      }
+    );
+    svg.path('M 440 159 L 450 127 L 477 137 L 497 118 L 523 134 L 548 128 L 570 159 Z', {
+      fill: '#8b7355',
+      color: '#5a4a38',
+      width: 1.5,
+    });
+    svg.circle(...cg, 5, { fill: BLACK });
+    svg.text(466, 210, 'CG', { size: 18, math: false });
+    machineForce(svg, 'i', [handle[0], handle[1] + fi], handle, [65, 250], { color: FORCE });
+    machineForce(svg, 'w', [cg[0], cg[1] - w], cg, [530, 77]);
+    machineForce(svg, 'N', [wheel[0], 365], [wheel[0], 365 - normal], [590, 300]);
+    svg.text(626, 329, 'Pivot', { size: 18, math: false });
+    svg.leader(608, 325, 571, 320);
+    svg.line(handle[0], 260, handle[0], 414, guide);
+    svg.line(wheel[0], 370, wheel[0], 465, guide);
+    svg.line(cg[0], 220, cg[0], 465, guide);
+    machineArm(svg, handle[0], wheel[0], 405, 'R_i');
+    machineArm(svg, cg[0], wheel[0], 455, 'R_o');
+    svg.add('</g>');
+    machineFbd(svg, 850, 225, [
+      ['i', -18, fi * 0.8],
+      ['N', 0, normal * 0.8],
+      ['w', 18, -w * 0.8],
+    ]);
+    svg.text(850, 433, 'Load: F_o = w', { size: 23 });
+
+    // Horizontal shovel: hand positions and CG also fix the lever-arm ratio.
+    const pivot = [110, 680];
+    const input = [330, 680];
+    const loadPoint = [560, 665];
+    const shovelFi = 132;
+    const shovelW = (shovelFi * (input[0] - pivot[0])) / (loadPoint[0] - pivot[0]);
+    const reaction = shovelFi - shovelW;
+    svg.text(345, 510, '(b) Shovel: MA < 1', { size: 24, math: false });
+    svg.add('<g data-diagram="shovel">');
+    svg.line(...pivot, 530, 680, { color: WOOD_EDGE, width: 12, cap: 'round' });
+    svg.rect(110, 673, 75, 14, { fill: '#c94c38', stroke: '#8b3426', rx: 5 });
+    svg.polygon(
+      [
+        [515, 668],
+        [619, 650],
+        [648, 687],
+        [535, 701],
+      ],
+      {
+        fill: STEEL,
+        stroke: STEEL_EDGE,
+        width: 2,
+      }
+    );
+    svg.path('M 527 668 L 530 642 L 549 628 L 568 638 L 587 634 L 608 662 Z', {
+      fill: '#b59b72',
+      color: '#8b7355',
+      width: 1.5,
+    });
+    for (const [hx, hy] of [pivot, input]) {
+      svg.polygon(
+        [
+          [hx - 32, hy - 55],
+          [hx - 7, hy - 65],
+          [hx + 20, hy - 12],
+          [hx - 4, hy + 3],
+        ],
+        {
+          fill: '#f4c2a0',
+          stroke: '#d4a280',
+          width: 1.5,
+        }
+      );
+      svg.ellipse(hx, hy, 27, 17, { fill: '#f4c2a0', stroke: '#d4a280', width: 1.5 });
+      for (let dx = -12; dx <= 12; dx += 8) {
+        svg.line(hx + dx, hy - 7, hx + dx + 3, hy + 10, { color: '#d4a280', width: 1.2 });
+      }
+    }
+    machineForce(svg, 'i', input, [input[0], input[1] - shovelFi], [365, 585], { color: FORCE });
+    machineForce(svg, 'pivot', pivot, [pivot[0], pivot[1] + reaction], [63, 722]);
+    machineForce(svg, 'w', loadPoint, [loadPoint[0], loadPoint[1] + shovelW], [592, 716]);
+    svg.circle(...loadPoint, 5, { fill: BLACK });
+    svg.text(598, 619, 'CG', { size: 18, math: false });
+    svg.leader(586, 631, 565, 660);
+    svg.circle(...pivot, 5, { fill: '#d4a017', stroke: '#8b6914' });
+    svg.text(102, 589, 'Pivot', { size: 18, math: false });
+    svg.leader(122, 600, 111, 674);
+    for (const [x, y] of [pivot, input, loadPoint]) svg.line(x, y + 80, x, 848, guide);
+    machineArm(svg, pivot[0], input[0], 787, 'R_i');
+    machineArm(svg, pivot[0], loadPoint[0], 840, 'R_o');
+    svg.add('</g>');
+    machineFbd(svg, 850, 710, [
+      ['i', 0, shovelFi],
+      ['pivot', -18, -reaction],
+      ['w', 18, -shovelW],
+    ]);
+    svg.text(850, 842, 'Load: F_o = w', { size: 23 });
+    return svg.render();
+  },
+
+  // 9.5 — crank, car axle, and single pulley
+  Figure_09_05_03: () => {
+    const svg = new Svg({
+      width: 1080,
+      height: 560,
+      title: 'Crank, car axle, and pulley as simple machines',
+      desc: '(a) A crank with a long input radius R_i and a short but nonzero output shaft radius R_o. Both delivered forces are tangential and drive clockwise rotation; F_o is the force on the driven shaft. (b) A small axle drives a larger wheel: F_i is tangential at the top of the axle and F_o is the leftward force delivered to the road at the bottom of the wheel. Both radii are perpendicular to their forces. (c) A single fixed pulley carries one continuous rope over its upper rim, with the input pulled down on the left and a connected load supported on the right. Equal lever arms give F_i = F_o = T and MA = 1.',
+    });
+    const guide = { color: '#888888', width: 1.2, dash: '5 4' };
+    const center = [170, 260];
+    const ri = 110;
+    const ro = 25;
+    svg.text(170, 35, '(a) Crank', { size: 24, math: false });
+    svg.text(170, 73, 'MA > 1', { size: 23, math: false });
+    svg.add('<g data-diagram="crank">');
+    svg.circle(...center, ri, { fill: 'none', stroke: '#cccccc', width: 2, dash: '8 6' });
+    svg.line(...center, center[0], center[1] - ri, { color: STEEL_EDGE, width: 14, cap: 'round' });
+    svg.circle(...center, ro, { fill: STEEL, stroke: STEEL_EDGE, width: 2 });
+    svg.circle(...center, 5, { fill: BLACK });
+    svg.circle(center[0], center[1] - ri, 16, { fill: '#e74c3c', stroke: '#c0392b', width: 2 });
+    svg.ellipse(center[0] - 12, center[1] - ri, 26, 20, {
+      fill: '#f4c2a0',
+      stroke: '#d4a280',
+      width: 1.5,
+    });
+    machineForce(svg, 'i', [170, 150], [206, 150], [238, 143], { color: FORCE });
+    machineForce(svg, 'o', [170, 235], [170 + (36 * ri) / ro, 235], [292, 210]);
+    svg.line(50, 150, 157, 150, guide);
+    svg.line(50, 260, 235, 260, guide);
+    svg.add('<g data-arm="R_i">');
+    svg.vdimension(55, 150, 260, '');
+    svg.text(29, 205, 'R_i', { size: 23 });
+    svg.add('</g>');
+    svg.add('<g data-arm="R_o">');
+    svg.vdimension(225, 235, 260, '', { tick: 16 });
+    svg.text(254, 255, 'R_o', { size: 23 });
+    svg.add('</g>');
+    svg.text(170, 398, 'Pivot', { size: 18, math: false });
+    svg.leader(170, 382, 170, 270);
+    svg.lines(180, 450, ['F_o acts on the driven shaft', '(reaction on crank not shown)'], {
+      size: 17,
+      math: false,
+      gap: 24,
+    });
+    svg.add('</g>');
+
+    const axle = [540, 260];
+    const axleR = 24;
+    const wheelR = 108;
+    svg.text(540, 35, '(b) Wheel and axle', { size: 24, math: false });
+    svg.text(540, 73, 'MA < 1', { size: 23, math: false });
+    svg.add('<g data-diagram="axle">');
+    svg.circle(...axle, wheelR, { fill: '#e8e8e8', stroke: BLACK, width: 2.5 });
+    svg.circle(...axle, wheelR - 15, { fill: 'none', stroke: '#999999' });
+    for (let angle = 0; angle < 360; angle += 60) {
+      svg.line(...onCircle(axle, axleR + 4, angle), ...onCircle(axle, wheelR - 15, angle), {
+        color: '#999999',
+        width: 2.5,
+      });
+    }
+    svg.circle(...axle, axleR, { fill: STEEL, stroke: STEEL_EDGE, width: 2 });
+    svg.circle(...axle, 4, { fill: BLACK });
+    svg.rect(420, 368, 250, 27, { fill: '#a8875f', stroke: '#8b6f47' });
+    svg.line(420, 368, 670, 368, { color: '#6c9248', width: 2 });
+    machineForce(svg, 'i', [540, 260 - axleR], [630, 260 - axleR], [603, 211], { color: FORCE });
+    machineForce(
+      svg,
+      'o',
+      [540, 260 + wheelR],
+      [540 - (90 * axleR) / wheelR, 260 + wheelR],
+      [493, 343]
+    );
+    for (const y of [260 - axleR, 260, 260 + wheelR]) svg.line(545, y, 672, y, guide);
+    svg.add('<g data-arm="R_i">');
+    svg.vdimension(663, 260 - axleR, 260, '', { tick: 16 });
+    svg.text(692, 245, 'R_i', { size: 23 });
+    svg.add('</g>');
+    svg.add('<g data-arm="R_o">');
+    svg.vdimension(663, 260, 260 + wheelR, '', { tick: 16 });
+    svg.text(692, 314, 'R_o', { size: 23 });
+    svg.add('</g>');
+    svg.lines(540, 450, ['F_o acts on the road', '(reaction on wheel not shown)'], {
+      size: 17,
+      math: false,
+      gap: 24,
+    });
+    svg.add('</g>');
+
+    const p = [900, 240];
+    const wrap = 54;
+    svg.text(900, 35, '(c) Fixed pulley', { size: 24, math: false });
+    svg.text(900, 73, 'MA = 1', { size: 23, math: false });
+    svg.add('<g data-diagram="pulley">');
+    svg.rect(860, 105, 80, 22, { fill: '#c08a4a', stroke: '#8a5e2c' });
+    svg.line(900, 127, ...p, { color: STEEL_EDGE, width: 8 });
+    pulley(svg, ...p, 50);
+    // One continuous rope: down the left, over the top, down the right to the load.
+    rope(svg, `M 846 390 L 846 240 A ${wrap} ${wrap} 0 0 1 954 240 L 954 420`);
+    svg.rect(932, 420, 44, 55, { fill: '#bfc1c5', stroke: STEEL_EDGE, width: 1.5 });
+    machineForce(svg, 'i', [846, 330], [846, 390], [815, 360], { color: FORCE });
+    machineForce(svg, 'o', [954, 420], [954, 360], [990, 390]);
+    machineArm(svg, p[0] - wrap, p[0], p[1], 'R_i');
+    machineArm(svg, p[0], p[0] + wrap, p[1], 'R_o');
+    svg.text(900, 520, 'F_i = F_o = T', { size: 25 });
+    svg.add('</g>');
+    return svg.render();
+  },
+
   // 9.2 — torque on a door depends on F, r, and the angle between them
   Figure_09_02_01: () => {
     const svg = new Svg({
