@@ -181,7 +181,7 @@ that there is a relationship between $$f $$ and $$\lambda $$ ; the higher the
 frequency, the smaller the wavelength. See [[Figure 4]](#Figure4) and consider
 the following example.
 
-![Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.](../resources/Figure_17_02_04.jpg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
+![A speaker cabinet with a small tweeter above a large woofer. High-frequency sound from the tweeter is shown as closely spaced rings; low-frequency sound from the woofer is shown as rings spaced farther apart.](../resources/Figure_17_02_04.svg "Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.")
 {: #Figure4}
 
 ::: example

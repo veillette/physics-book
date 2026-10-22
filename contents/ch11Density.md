@@ -239,7 +239,7 @@ cm<sup>3</sup>.
           </tr>
 </tbody></table>
 
-![A pile of feathers measuring a ton and a ton of bricks are placed on either side of a plank that is balanced on a small support.](../resources/Figure_11_02_01.jpg 'A ton of feathers and a ton of bricks have the same mass, but the feathers make a much bigger pile because they have a much lower density.')
+![A pile of feathers measuring a ton and a ton of bricks are placed on either side of a plank that is balanced on a small support.](../resources/Figure_11_02_01.svg 'A ton of feathers and a ton of bricks have the same mass, but the feathers make a much bigger pile because they have a much lower density.')
 {: #Figure1}
 
 As you can see by examining [[Table 1]](#Table1), the density of an object

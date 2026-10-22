@@ -171,7 +171,7 @@ the membrane while moving across. Membrane function, in fact, is the subject of
 much current research, involving not only physiology but also chemistry and
 physics.
 
-![Part a of the figure shows a semi permeable membrane shown as small rectangular sections in a vertical line, separated by small gaps called as pores. Molecules are shown in all shapes on both the sides of the membranes. Some molecules are shown to diffuse through the pores. Part b of the diagram shows molecules in the form of small spheres packed on both sides of a single vertical rectangular membrane. Some molecules are shown to dissolve in this membrane and diffuse across it.](../resources/Figure_12_07_03.jpg '(a) A semipermeable membrane with small pores that allow only small molecules to pass through. (b) Certain molecules dissolve in this membrane and diffuse across it.')
+![Part a of the figure shows a semi permeable membrane shown as small rectangular sections in a vertical line, separated by small gaps called as pores. Molecules are shown in all shapes on both the sides of the membranes. Some molecules are shown to diffuse through the pores. Part b of the diagram shows molecules in the form of small spheres packed on both sides of a single vertical rectangular membrane. Some molecules are shown to dissolve in this membrane and diffuse across it.](../resources/Figure_12_07_03.svg '(a) A semipermeable membrane with small pores that allow only small molecules to pass through. (b) Certain molecules dissolve in this membrane and diffuse across it.')
 {: #Figure3}
 
 **Osmosis** is the transport of water through a semipermeable membrane from a

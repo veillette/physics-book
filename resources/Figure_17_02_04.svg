@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-labelledby="title desc">
+<title id="title">Wavelengths from a tweeter and a woofer</title>
+<desc id="desc">A loudspeaker cabinet with a small speaker, the tweeter, above a large one, the woofer. Sound waves leave both to the right, drawn as rings: solid rings are compressions and dashed rings rarefactions. The tweeter’s rings are closely spaced (high frequency, small wavelength); the woofer’s are about two and a half times farther apart (small frequency, large wavelength), since both travel at the same speed.</desc>
+<rect width="640" height="520" fill="#ffffff"/>
+<defs><linearGradient id="cab_side" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d4d6d9"/><stop offset="1" stop-color="#a9acb1"/></linearGradient><linearGradient id="cab_front" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a9da2"/><stop offset="1" stop-color="#7d8086"/></linearGradient><radialGradient id="cone" cx="0.45" cy="0.45" r="0.6"><stop offset="0" stop-color="#5c6068"/><stop offset="0.7" stop-color="#202226"/><stop offset="1" stop-color="#101113"/></radialGradient></defs>
+<polygon points="20,110 160,30 160,505 20,440" fill="url(#cab_side)" stroke="#3a3c40" stroke-width="3"/>
+<polygon points="160,30 300,50 300,470 160,505" fill="url(#cab_front)" stroke="#3a3c40" stroke-width="3"/>
+<ellipse cx="232" cy="150" rx="36" ry="58" fill="url(#cone)" stroke="#2a2c30" stroke-width="2"/>
+<ellipse cx="226.6" cy="147.1" rx="11.52" ry="12.76" fill="#c9d3ea" stroke="#8a96b4" stroke-width="1.2"/>
+<ellipse cx="232" cy="340" rx="52" ry="104" fill="url(#cone)" stroke="#2a2c30" stroke-width="2"/>
+<ellipse cx="224.2" cy="334.8" rx="16.64" ry="22.88" fill="#c9d3ea" stroke="#8a96b4" stroke-width="1.2"/>
+<ellipse cx="262" cy="150" rx="10.08" ry="28" fill="none" stroke="#5b7fb8" stroke-width="3"/>
+<ellipse cx="282" cy="150" rx="13.32" ry="37" fill="none" stroke="#7a4fa6" stroke-width="2.4" stroke-dasharray="7 5"/>
+<ellipse cx="302" cy="150" rx="16.56" ry="46" fill="none" stroke="#5b7fb8" stroke-width="3"/>
+<ellipse cx="322" cy="150" rx="19.8" ry="55" fill="none" stroke="#7a4fa6" stroke-width="2.4" stroke-dasharray="7 5"/>
+<ellipse cx="342" cy="150" rx="23.04" ry="64" fill="none" stroke="#5b7fb8" stroke-width="3"/>
+<ellipse cx="362" cy="150" rx="26.28" ry="73" fill="none" stroke="#7a4fa6" stroke-width="2.4" stroke-dasharray="7 5"/>
+<ellipse cx="286" cy="340" rx="23.76" ry="66" fill="none" stroke="#5b7fb8" stroke-width="3"/>
+<ellipse cx="336" cy="340" rx="31.68" ry="88" fill="none" stroke="#7a4fa6" stroke-width="2.4" stroke-dasharray="7 5"/>
+<ellipse cx="386" cy="340" rx="39.6" ry="110" fill="none" stroke="#5b7fb8" stroke-width="3"/>
+<text x="490" y="70.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">High</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">f</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">small</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">λ</tspan></text>
+<text x="490" y="496.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Small</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">f</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">large</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">λ</tspan></text>
+</svg>
