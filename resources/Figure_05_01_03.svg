@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="470" viewBox="0 0 950 470" role="img" aria-labelledby="title desc">
+<title id="title">Skier on slope with force components</title>
+<desc id="desc">A skier descends left down a 25° slope. Weight w points vertically down, normal force N points outward, and friction f points uphill. Dashed weight components w perpendicular and w parallel sum to w. The x axis points downhill and the y axis outward. The free-body diagram repeats the same three forces at the same scale.</desc>
+<rect width="950" height="470" fill="#ffffff"/>
+<polygon points="30,396 550,153.52 550,396" fill="#edf5ee" stroke="#4a7c5a" stroke-width="2.5"/>
+<path d="M 92 396 A 62 62 0 0 0 86.19 369.8" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="112" y="383.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25°</tspan></text>
+<line x1="142" y1="243" x2="82.18" y2="270.89" stroke="#222222" stroke-width="1.8"/>
+<polygon points="74.03,274.7 81.4,266.84 84.78,274.1" fill="#222222"/>
+<text x="62.03" y="290.7" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<line x1="142" y1="243" x2="114.11" y2="183.18" stroke="#222222" stroke-width="1.8"/>
+<polygon points="110.3,175.03 118.16,182.4 110.9,185.78" fill="#222222"/>
+<text x="102.3" y="168.03" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<line x1="288" y1="275.69" x2="425" y2="211.81" stroke="#277e9e" stroke-width="5"/>
+<line x1="298" y1="278.03" x2="431" y2="216.01" stroke="#277e9e" stroke-width="4"/>
+<polyline points="375,194.45 387,216.45 355,244.45" fill="none" stroke="#c99c49" stroke-width="15" stroke-linejoin="round"/>
+<polyline points="375,194.45 349,211.45 348,247.45" fill="none" stroke="#d4ad64" stroke-width="12" stroke-linejoin="round"/>
+<line x1="375" y1="194.45" x2="342" y2="157.45" stroke="#4b87ad" stroke-width="24"/>
+<polyline points="342,161.45 330,191.45 308,201.45" fill="none" stroke="#4b87ad" stroke-width="10" stroke-linejoin="round"/>
+<line x1="308" y1="201.45" x2="392" y2="115.45" stroke="#555555" stroke-width="2"/>
+<circle cx="327" cy="140.45" r="15" fill="#f1d1aa" stroke="#222222" stroke-width="1.2"/>
+<path d="M 312 140.45001109962547 Q 312 116.45001109962547 337 126.45001109962547 L 342 140.45001109962547 Z" fill="#e4bc38" stroke="#222222" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="314" y1="140.45" x2="330" y2="144.45" stroke="#222222" stroke-width="4"/>
+<g id="skier-forces">
+<line x1="355" y1="244.45" x2="294.54" y2="114.78" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="289.89,104.81 299.31,113.66 290.61,117.72" fill="#b03a2e"/>
+<line x1="355" y1="244.45" x2="362.18" y2="241.1" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="366.41,239.13 362.23,243.58 360.32,239.47" fill="#b03a2e"/>
+<line x1="355" y1="244.45" x2="355" y2="403.45" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="355,414.45 350.2,402.45 359.8,402.45" fill="#b03a2e"/>
+<circle cx="355" cy="244.45" r="4" fill="#222222"/>
+<text x="279.89" y="96.51" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-18.04">→</tspan><tspan dx="1.12" dy="18.04">​</tspan></tspan></text>
+<text x="337" y="412.15" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-11.44">→</tspan><tspan dx="1.12" dy="11.44">​</tspan></tspan></text>
+<text x="407" y="219.15" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">f<tspan font-size="13.64" font-weight="normal" dx="-10.48" dy="-18.04">→</tspan><tspan dx="-3.16" dy="18.04">​</tspan></tspan></text>
+<path d="M 398 223.45 Q 381.96 235.78 362.42 240.99" fill="none" stroke="#333333" stroke-width="1" stroke-linejoin="round"/>
+</g>
+<g id="weight-components">
+<line x1="355" y1="244.45" x2="416.31" y2="375.93" stroke="#d98b84" stroke-width="2.4" stroke-dasharray="6 4"/>
+<polygon points="420.11,384.09 412.26,376.71 419.51,373.33" fill="#d98b84"/>
+<line x1="420.11" y1="384.09" x2="355" y2="414.45" stroke="#d98b84" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="355" y1="244.45" x2="298.04" y2="271.01" stroke="#d98b84" stroke-width="2.4" stroke-dasharray="6 4"/>
+<polygon points="289.89,274.81 297.26,266.96 300.64,274.21" fill="#d98b84"/>
+<line x1="289.89" y1="274.81" x2="355" y2="414.45" stroke="#d98b84" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="445" y="353.15" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="293" y="307.15" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">∥</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 355 286.45 A 42 42 0 0 0 372.75 282.51" fill="none" stroke="#222222" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="372" y="314.05" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25°</tspan></text>
+</g>
+<text x="745" y="51" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
+<g id="skier-free-body">
+<line x1="745" y1="244.45" x2="684.54" y2="114.78" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="679.89,104.81 689.31,113.66 680.61,117.72" fill="#b03a2e"/>
+<line x1="745" y1="244.45" x2="752.18" y2="241.1" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="756.41,239.13 752.23,243.58 750.32,239.47" fill="#b03a2e"/>
+<line x1="745" y1="244.45" x2="745" y2="403.45" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="745,414.45 740.2,402.45 749.8,402.45" fill="#b03a2e"/>
+<circle cx="745" cy="244.45" r="4" fill="#222222"/>
+<text x="669.89" y="96.51" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-18.04">→</tspan><tspan dx="1.12" dy="18.04">​</tspan></tspan></text>
+<text x="727" y="412.15" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-11.44">→</tspan><tspan dx="1.12" dy="11.44">​</tspan></tspan></text>
+<text x="797" y="219.15" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">f<tspan font-size="13.64" font-weight="normal" dx="-10.48" dy="-18.04">→</tspan><tspan dx="-3.16" dy="18.04">​</tspan></tspan></text>
+<path d="M 788 223.45 Q 771.96 235.78 752.42 240.99" fill="none" stroke="#333333" stroke-width="1" stroke-linejoin="round"/>
+</g>
+</svg>

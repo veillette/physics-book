@@ -286,32 +286,513 @@ export default {
     return svg.render();
   },
 
-  // 5.3 — stretch versus force for a tendon
+  // 5.1 — crate with friction on rough surface
+  Figure_05_01_01: () => {
+    const svg = new Svg({
+      width: 740,
+      height: 430,
+      title: 'Friction between crate and surface',
+      desc: 'A crate moves or attempts to move right, while friction acts left at the contact surface. A magnified inset shows rough upper and lower surfaces touching at their peaks.',
+    });
+    const surfaceY = 350;
+    svg.line(25, surfaceY, 710, surfaceY, { color: '#4a7c5a', width: 6 });
+    svg.rect(140, 210, 180, 140, { fill: '#c89550', stroke: BLACK, width: 2.5 });
+    for (let i = 1; i < 7; i++) {
+      svg.line(150, 210 + i * 20, 310, 210 + i * 20, { color: '#8b6f3f', width: 1.2 });
+    }
+    svg.arrow(160, 175, 320, 175, { color: BLACK, width: 2.5, head: 14 });
+    svg.lines(240, 130, ['Direction of motion', 'or attempted motion'], {
+      size: 17,
+      math: false,
+      gap: 21,
+    });
+    svg.arrow(170, surfaceY - 5, 65, surfaceY - 5, { color: FORCE, width: 3.5, head: 14 });
+    svg.text(102, surfaceY - 27, '**f**', { size: 23, color: FORCE });
+
+    // The entire inset, including its stroke, lies inside the viewBox.
+    const cx = 545;
+    const cy = 140;
+    svg.circle(cx, cy, 100, { fill: '#ffffff', stroke: BLACK, width: 2 });
+    svg.circle(cx, cy, 104, { fill: 'none', stroke: BLACK, width: 1.2 });
+    const upper = [];
+    const lower = [];
+    for (let i = 0; i < 7; i++) {
+      const x = cx - 70 + i * 20;
+      // Both surfaces meet at y = cy, but otherwise leave gaps.
+      upper.push([x, cy - 15 - 5 * Math.sin(i)], [x + 10, cy]);
+      lower.push([x, cy + 14 + 5 * Math.cos(i)], [x + 10, cy]);
+    }
+    svg.polygon([[cx - 70, cy - 45], [cx + 70, cy - 45], ...upper.slice().reverse()], {
+      fill: '#c89550',
+      stroke: BLACK,
+      width: 1.5,
+    });
+    svg.polygon([...lower, [cx + 70, cy + 45], [cx - 70, cy + 45]], {
+      fill: '#4a7c5a',
+      stroke: BLACK,
+      width: 1.5,
+    });
+    // A connector identifies the actual crate/surface interface, without a misleading arrowhead.
+    svg.circle(316, surfaceY - 3, 11, { fill: 'none', stroke: BLACK, width: 1.5 });
+    svg.line(325, surfaceY - 10, cx - 70, cy + 75, { color: BLACK, width: 1.3, dash: '5 4' });
+    svg.text(cx, 19, 'Magnified contact', { size: 17, math: false });
+    return svg.render();
+  },
+
+  // 5.1 — skier on a 25° slope, with x downhill and y outward
+  Figure_05_01_03: () => {
+    const svg = new Svg({
+      width: 950,
+      height: 470,
+      title: 'Skier on slope with force components',
+      desc: 'A skier descends left down a 25° slope. Weight w points vertically down, normal force N points outward, and friction f points uphill. Dashed weight components w perpendicular and w parallel sum to w. The x axis points downhill and the y axis outward. The free-body diagram repeats the same three forces at the same scale.',
+    });
+    const angle = 25;
+    const theta = rad(angle);
+    const origin = [355, 396 - (355 - 30) * Math.tan(theta)];
+    const downhill = [-Math.cos(theta), Math.sin(theta)];
+    const outward = [-Math.sin(theta), -Math.cos(theta)];
+    // All forces use one scale, including the example's 45 N friction and 62 kg mass.
+    const weight = 170;
+    const w = [0, weight];
+    const N = outward.map(v => v * weight * Math.cos(theta));
+    const friction = downhill.map(v => (-v * weight * 45) / (62 * 9.8));
+    const wPerp = N.map(v => -v);
+    const wPar = downhill.map(v => v * weight * Math.sin(theta));
+
+    svg.polygon(
+      [
+        [30, 396],
+        [550, 396 - 520 * Math.tan(theta)],
+        [550, 396],
+      ],
+      {
+        fill: '#edf5ee',
+        stroke: '#4a7c5a',
+        width: 2.5,
+      }
+    );
+    svg.arc(30, 396, 62, 0, angle, { color: BLACK });
+    svg.text(112, 377, '25°', { size: 18 });
+    const axes = [142, 243];
+    for (const [v, label, length, offset] of [
+      [downhill, 'x', 75, [-12, 9]],
+      [outward, 'y', 75, [-8, -14]],
+    ]) {
+      const end = add(
+        axes,
+        v.map(a => a * length)
+      );
+      svg.arrow(...axes, ...end, { color: BLACK, width: 1.8, head: 10 });
+      svg.text(...add(end, offset), label, { size: 20 });
+    }
+
+    // Bent knees, arms, helmet, pole, and two skis keep the skier recognizable.
+    const [sx, sy] = origin;
+    svg.line(sx - 67, sy + 67 * Math.tan(theta), sx + 70, sy - 70 * Math.tan(theta), {
+      color: '#277e9e',
+      width: 5,
+    });
+    svg.line(sx - 57, sy + 57 * Math.tan(theta) + 7, sx + 76, sy - 76 * Math.tan(theta) + 7, {
+      color: '#277e9e',
+      width: 4,
+    });
+    svg.polyline(
+      [
+        [sx + 20, sy - 50],
+        [sx + 32, sy - 28],
+        [sx, sy],
+      ],
+      { color: '#c99c49', width: 15 }
+    );
+    svg.polyline(
+      [
+        [sx + 20, sy - 50],
+        [sx - 6, sy - 33],
+        [sx - 7, sy + 3],
+      ],
+      { color: '#d4ad64', width: 12 }
+    );
+    svg.line(sx + 20, sy - 50, sx - 13, sy - 87, { color: '#4b87ad', width: 24 });
+    svg.polyline(
+      [
+        [sx - 13, sy - 83],
+        [sx - 25, sy - 53],
+        [sx - 47, sy - 43],
+      ],
+      { color: '#4b87ad', width: 10 }
+    );
+    svg.line(sx - 47, sy - 43, sx + 37, sy - 129, { color: '#555555', width: 2 });
+    svg.circle(sx - 28, sy - 104, 15, { fill: '#f1d1aa', stroke: BLACK, width: 1.2 });
+    svg.path(
+      `M ${sx - 43} ${sy - 104} Q ${sx - 43} ${sy - 128} ${sx - 18} ${sy - 118} L ${sx - 13} ${sy - 104} Z`,
+      { fill: '#e4bc38', color: BLACK, width: 1.2 }
+    );
+    svg.line(sx - 41, sy - 104, sx - 25, sy - 100, { color: BLACK, width: 4 });
+
+    const forces = at => {
+      for (const v of [N, friction, w]) {
+        svg.arrow(...at, ...add(at, v), {
+          color: FORCE,
+          width: 3,
+          head: Math.min(12, Math.hypot(...v) * 0.45),
+        });
+      }
+      svg.circle(...at, 4, { fill: BLACK });
+      svg.text(...add(at, add(N, [-10, -16])), '**N**', { size: 22, color: FORCE });
+      svg.text(...add(at, [-18, weight - 10]), '**w**', { size: 22, color: FORCE });
+      // The short friction vector is to scale; its callout ends at its shaft.
+      svg.text(...add(at, [52, -33]), '**f**', { size: 22, color: FORCE });
+      svg.leader(
+        ...add(at, [43, -21]),
+        ...add(
+          at,
+          friction.map(v => v * 0.65)
+        ),
+        { arrow: false, bend: -0.1, width: 1 }
+      );
+    };
+    svg.add('<g id="skier-forces">');
+    forces(origin);
+    svg.add('</g>');
+    svg.add('<g id="weight-components">');
+    for (const v of [wPerp, wPar]) {
+      svg.arrow(...origin, ...add(origin, v), {
+        color: FORCE_LIGHT,
+        width: 2.4,
+        dash: '6 4',
+        head: 10,
+      });
+      svg.line(...add(origin, v), ...add(origin, w), {
+        color: FORCE_LIGHT,
+        width: 1.5,
+        dash: '5 4',
+      });
+    }
+    svg.text(...add(origin, [90, 101]), 'w_⊥', { size: 22, color: FORCE });
+    svg.text(...add(origin, [-62, 55]), 'w_∥', { size: 22, color: FORCE });
+    svg.arc(...origin, 42, 270, 270 + angle, { color: BLACK, width: 1.2 });
+    svg.text(...add(origin, [17, 64]), '25°', { size: 16 });
+    svg.add('</g>');
+    svg.text(745, 44, 'Free-body diagram', { size: 20, math: false });
+    svg.add('<g id="skier-free-body">');
+    forces([745, origin[1]]);
+    svg.add('</g>');
+    return svg.render();
+  },
+
+  // 5.1 — an inverted atomic probe contacting a three-dimensional substrate
+  Figure_05_01_05: () => {
+    const svg = new Svg({
+      width: 700,
+      height: 440,
+      title: 'Atomic force microscopy probe',
+      desc: 'An inverted, flat-tipped pyramid of atoms contacts a rectangular substrate of atoms. The probe moves right. Friction on its tip points left, and the tip bends left relative to the broad upper end. A callout identifies the atomic and molecular interactions at the contact.',
+    });
+    const atom = (x, y, color, highlight) => {
+      svg.circle(x, y, 8, { fill: color, stroke: '#584663', width: 1 });
+      svg.circle(x - 2, y - 2, 3, { fill: highlight });
+    };
+    // Draw the back rows first and the top layer last, forming a solid prism.
+    svg.add('<g id="substrate-atoms">');
+    for (let layer = 4; layer >= 0; layer--) {
+      for (let depth = 3; depth >= 0; depth--) {
+        for (let col = 0; col < 20; col++) {
+          atom(150 + col * 18 + depth * 12, 300 + layer * 18 - depth * 8, '#8b4789', '#c799c5');
+        }
+      }
+    }
+    svg.add('</g>');
+    // Broad at the top, narrowing to two atoms at the contacting, flattened tip.
+    svg.add('<g id="probe-atoms">');
+    for (let row = 0; row < 10; row++) {
+      const count = 20 - row * 2;
+      const center = 345 - (24 * row) / 9;
+      const color = ['#e88139', '#c95132', '#d8ae38'][row % 3];
+      for (let depth = 2; depth >= 0; depth--) {
+        for (let col = 0; col < count; col++) {
+          atom(
+            center - (count - 1) * 9 + col * 18 + depth * 12,
+            122 + row * 18 - depth * 8,
+            color,
+            '#f8d69d'
+          );
+        }
+      }
+    }
+    svg.add('</g>');
+    svg.arrow(290, 51, 430, 51, { color: BLACK, width: 2.5, head: 12 });
+    svg.text(360, 27, 'Motion of probe', { size: 18, math: false });
+    svg.add('<g id="probe-friction">');
+    // A halo keeps the contact force legible over the substrate atoms.
+    svg.arrow(321, 284, 237, 284, { color: '#ffffff', width: 7, head: 18 });
+    svg.arrow(321, 284, 237, 284, { color: FORCE, width: 3, head: 12 });
+    svg.text(237, 259, '**f**', { size: 22, color: FORCE });
+    svg.lines(24, 325, ['Friction on', 'probe'], {
+      size: 16,
+      math: false,
+      anchor: 'start',
+      gap: 21,
+    });
+    svg.add('</g>');
+    svg.lines(20, 190, ['Atomic and', 'molecular', 'interactions'], {
+      size: 16,
+      math: false,
+      anchor: 'start',
+      gap: 21,
+    });
+    svg.leader(132, 235, 312, 292, { bend: 0.16 });
+    svg.text(350, 413, 'Substrate', { size: 18, math: false });
+    return svg.render();
+  },
+
+  // 5.1 — retain the skaters, the vector sum, and the opposing friction
+  Figure_05_01_06: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 435,
+      title: 'Ice skaters pushing with two forces',
+      desc: 'Panel a is an overhead view of two skaters pushing a third, with F₁ rightward and F₂ upward along their arms. Her skate blades point along the northeast resultant. A head-to-tail triangle adds the two pushes. Panel b shows the horizontal forces on her: F₁, F₂, and friction opposite the motion or attempted motion. The vertical weight and normal force balance out of the page.',
+    });
+    const F1 = 26.4 * 5;
+    const F2 = 18.6 * 5;
+    const pushAngle = Math.atan2(F2, F1);
+    const skater = (x, y, rotation, color) => {
+      svg.add(`<g class="skater" transform="translate(${x} ${y}) rotate(${rotation})">`);
+      svg.polyline(
+        [
+          [-12, 22],
+          [-14, 40],
+          [-12, 52],
+        ],
+        { color: '#334e69', width: 10 }
+      );
+      svg.polyline(
+        [
+          [12, 22],
+          [14, 40],
+          [12, 52],
+        ],
+        { color: '#334e69', width: 10 }
+      );
+      for (const side of [-1, 1]) {
+        svg.line(side * 12, 42, side * 12, 63, { color: BLACK, width: 3 });
+        svg.polyline(
+          [
+            [side * 21, -12],
+            [side * 31, -38],
+            [side * 22, -66],
+          ],
+          { color, width: 10 }
+        );
+        svg.circle(side * 22, -66, 5, { fill: '#f1d1aa', stroke: BLACK, width: 1 });
+      }
+      svg.ellipse(0, 0, 28, 24, { fill: color, stroke: BLACK, width: 1.5 });
+      svg.circle(0, -7, 16, { fill: '#805b32', stroke: BLACK, width: 1 });
+      svg.path('M -14 -12 Q 0 -31 14 -12', { color: '#493b2e', width: 5 });
+      svg.add('</g>');
+    };
+    svg.text(34, 27, '(a)', { size: 21, math: false, weight: 'bold' });
+    svg.text(250, 55, 'Overhead view', { size: 19, math: false });
+    svg.add('<g id="skaters">');
+    skater(160, 220, 90, '#a96d90');
+    skater(260, 310, 0, '#5590b3');
+    skater(260, 220, 90 - (pushAngle * 180) / Math.PI, '#e6bd49');
+    svg.arrow(175, 220, 239, 220, { color: FORCE, width: 3.5, head: 13 });
+    svg.text(182, 176, '**F**_1', { size: 22, color: FORCE });
+    svg.arrow(260, 300, 260, 244, { color: FORCE, width: 3.5, head: 13 });
+    svg.text(288, 282, '**F**_2', { size: 22, color: FORCE });
+    svg.add('</g>');
+    svg.text(502, 105, 'Vector addition', { size: 18, math: false });
+    const origin = [420, 245];
+    svg.add('<g id="skater-vector-sum">');
+    svg.arrow(...origin, 420 + F1, 245, { color: FORCE, width: 3, head: 12 });
+    svg.arrow(420 + F1, 245, 420 + F1, 245 - F2, { color: FORCE, width: 3, head: 12 });
+    svg.arrow(...origin, 420 + F1, 245 - F2, { color: MAROON, width: 3, head: 12 });
+    svg.polyline(
+      [
+        [420 + F1 - 13, 245],
+        [420 + F1 - 13, 232],
+        [420 + F1, 232],
+      ],
+      { color: BLACK, width: 1.2 }
+    );
+    svg.text(486, 271, '**F**_1', { size: 22 });
+    svg.text(578, 200, '**F**_2', { size: 22 });
+    svg.text(469, 173, '**F**_{tot}', { size: 22, color: MAROON });
+    svg.add('</g>');
+
+    svg.line(638, 65, 638, 365, { color: '#cccccc', width: 1 });
+    svg.text(668, 27, '(b)', { size: 21, math: false, weight: 'bold' });
+    svg.text(807, 66, 'Horizontal free-body diagram', { size: 18, math: false });
+    const at = [800, 245];
+    const friction = 0.02 * 65 * 9.8 * 5;
+    svg.add('<g id="skater-free-body">');
+    svg.arrow(...at, 800 + F1, 245, { color: FORCE, width: 3, head: 12 });
+    svg.arrow(...at, 800, 245 - F2, { color: FORCE, width: 3, head: 12 });
+    svg.arrow(...at, 800 - friction * Math.cos(pushAngle), 245 + friction * Math.sin(pushAngle), {
+      color: FORCE,
+      width: 3,
+      head: 12,
+    });
+    svg.circle(...at, 5, { fill: BLACK });
+    svg.text(928, 271, '**F**_1', { size: 22 });
+    svg.text(824, 151, '**F**_2', { size: 22 });
+    svg.text(724, 294, '**f**', { size: 22, color: FORCE });
+    svg.add('</g>');
+    svg.arrow(850, 347, 915, 347 - 65 * Math.tan(pushAngle), {
+      color: BLACK,
+      width: 1.8,
+      head: 10,
+    });
+    svg.text(858, 371, 'Motion or attempted motion', { size: 15, math: false });
+    svg.text(800, 408, 'Friction opposes motion; weight and normal balance.', {
+      size: 14,
+      math: false,
+    });
+    return svg.render();
+  },
+
+  // 5.3 — a spatial bend, with true angles in plan and elevation views
+  Figure_05_03_10: () => {
+    const svg = new Svg({
+      width: 1040,
+      height: 530,
+      title: 'Telephone pole at a right-angle bend with a guy wire',
+      desc: 'An oblique view shows two power lines and a guy wire attached at the top of a pole. The plan view shows perpendicular horizontal line directions and a guy wire opposite their bisector. The elevation of either power line shows 80° to the downward vertical; the guy-wire elevation shows 30° to the vertical. Every tension arrow follows its wire away from the pole.',
+    });
+    // Orthogonal horizontal directions in 3D, each 80° from downward vertical.
+    // Oblique projection is intentionally accompanied by true-angle views.
+    const height = 320;
+    const lineLength = 200;
+    const horizontal = lineLength * Math.sin(rad(80));
+    const drop = lineLength * Math.cos(rad(80));
+    const top = [245, 90];
+    const project = ([x, y, z]) => [top[0] + x + 0.62 * y, top[1] + 0.24 * x - 0.36 * y - z];
+    const wires = [
+      [horizontal, 0, -drop],
+      [0, horizontal, -drop],
+    ];
+    const guyHorizontal = (height * Math.tan(rad(30))) / Math.sqrt(2);
+    const anchor = project([-guyHorizontal, -guyHorizontal, -height]);
+    const foot = project([0, 0, -height]);
+    svg.text(265, 25, 'Oblique view', { size: 20, math: false });
+    const groundY = x => foot[1] + ((x - foot[0]) * (anchor[1] - foot[1])) / (anchor[0] - foot[0]);
+    svg.line(20, groundY(20), 496, groundY(496), { color: '#75866a', width: 2 });
+    svg.rect(top[0] - 16, top[1], 32, height, { fill: '#bd955d', stroke: BLACK, width: 2 });
+    svg.ellipse(...top, 16, 6, { fill: '#d6b17a', stroke: BLACK, width: 1.5 });
+    for (const x of [-9, -2, 7]) {
+      svg.line(top[0] + x, top[1] + 10, foot[0] + x, foot[1] - 6, { color: '#9c7549', width: 1 });
+    }
+    for (let i = 0; i < 5; i++) {
+      const y = 170 + i * 42;
+      svg.polyline(
+        [
+          [229, y],
+          [216, y + 4],
+          [216, y - 7],
+        ],
+        { color: '#555555', width: 3 }
+      );
+    }
+    svg.add('<g id="pole-wires">');
+    for (const [i, wire] of wires.entries()) {
+      const end = project(wire);
+      svg.line(...top, ...end, { color: '#444444', width: 2.5 });
+      svg.arrow(...project(wire.map(v => v * 0.22)), ...project(wire.map(v => v * 0.8)), {
+        color: FORCE,
+        width: 3.5,
+        head: 14,
+      });
+      svg.text(...add(end, [i ? 5 : 16, i ? -20 : 14]), '**T**', { size: 24, color: FORCE });
+    }
+    svg.line(...top, ...anchor, { color: '#444444', width: 2.5 });
+    const guyVector = [-guyHorizontal, -guyHorizontal, -height];
+    svg.arrow(...project(guyVector.map(v => v * 0.22)), ...project(guyVector.map(v => v * 0.72)), {
+      color: FORCE,
+      width: 3.5,
+      head: 14,
+    });
+    svg.text(98, 273, '**T**_{gw}', { size: 23, color: FORCE });
+    svg.rect(anchor[0] - 12, anchor[1] - 4, 24, 12, { fill: '#999999', stroke: BLACK });
+    svg.circle(...top, 5, { fill: '#444444', stroke: BLACK });
+    svg.add('</g>');
+    svg.text(280, 460, 'All three wires attach at the pole top.', { size: 17, math: false });
+
+    svg.text(780, 25, 'Plan view (from above)', { size: 19, math: false });
+    svg.add('<g id="pole-plan">');
+    const plan = [760, 180];
+    svg.arrow(...plan, 900, 180, { color: FORCE, width: 3, head: 12 });
+    svg.arrow(...plan, 760, 40, { color: FORCE, width: 3, head: 12 });
+    svg.arrow(...plan, 684, 256, { color: FORCE, width: 3, head: 12 });
+    svg.polyline(
+      [
+        [778, 180],
+        [778, 162],
+        [760, 162],
+      ],
+      { color: BLACK, width: 1.2 }
+    );
+    svg.text(812, 161, '90°', { size: 19 });
+    svg.text(917, 180, '**T**', { size: 23, color: FORCE });
+    svg.text(735, 61, '**T**', { size: 23, color: FORCE });
+    svg.text(663, 244, '**T**_{gw}', { size: 22, color: FORCE, anchor: 'end' });
+    svg.arrow(...plan, 830, 110, { color: '#666666', width: 1.5, head: 9, dash: '4 4' });
+    svg.lines(855, 88, ['Direction', 'of bend'], {
+      size: 15,
+      math: false,
+      anchor: 'start',
+      gap: 19,
+    });
+    svg.circle(...plan, 5, { fill: BLACK });
+    svg.add('</g>');
+
+    svg.text(680, 304, 'Elevation of either power line', { size: 17, math: false });
+    svg.add('<g id="power-line-elevation">');
+    const lineTop = [610, 350];
+    const lineEnd = [790, 350 + 180 / Math.tan(rad(80))];
+    svg.line(610, 350, 610, 505, { color: '#9c7549', width: 7 });
+    svg.line(...lineTop, ...lineEnd, { color: '#444444', width: 2 });
+    svg.arrow(...lineTop, ...lineEnd, { color: FORCE, width: 2.5, head: 12 });
+    svg.arc(...lineTop, 55, 270, 350, { color: BLACK });
+    svg.text(666, 405, '80°', { size: 20 });
+    svg.text(780, 359, '**T**', { size: 22, color: FORCE });
+    svg.text(614, 520, 'Vertical pole', { size: 14, math: false });
+    svg.add('</g>');
+
+    svg.text(927, 304, 'Guy-wire elevation', { size: 17, math: false });
+    svg.add('<g id="guy-wire-elevation">');
+    const guyTop = [968, 350];
+    const guyEnd = [968 - 155 * Math.tan(rad(30)), 505];
+    svg.line(...guyTop, 968, 505, { color: '#9c7549', width: 7 });
+    svg.line(...guyTop, ...guyEnd, { color: '#444444', width: 2 });
+    svg.arrow(...guyTop, ...guyEnd, { color: FORCE, width: 2.5, head: 12 });
+    svg.arc(...guyTop, 55, 240, 270, { color: BLACK });
+    svg.text(941, 430, '30°', { size: 20 });
+    svg.text(891, 451, '**T**_{gw}', { size: 21, color: FORCE, anchor: 'end' });
+    svg.line(858, 505, 998, 505, { color: '#75866a', width: 2 });
+    svg.add('</g>');
+    return svg.render();
+  },
+
+  // 5.3 — stress versus strain for a tendon
   Figure_05_03_05: () => {
     const svg = new Svg({
-      width: 560,
+      width: 595,
       height: 400,
-      title: 'Stretch versus force for a mammalian tendon',
-      desc: 'In the toe region the tendon stretches easily; in the linear region ΔL grows in proportion to F; in the failure region the curve peaks and falls as fibers tear.',
+      title: 'Tensile stress versus strain for a mammalian tendon',
+      desc: 'Tensile stress increases gradually with strain in the toe region, then proportionally in the linear region. In the failure region the stress peaks and falls as fibers tear.',
     });
     const ox = 58;
     const oy = 315;
     svg.line(ox, oy, 520, oy, { color: BLACK, width: 2 });
     svg.line(ox, oy, ox, 10, { color: BLACK, width: 2 });
-    svg.text(ox - 10, 22, 'ΔL', { size: 20, anchor: 'end' });
-    svg.text(525, 352, 'F', { size: 20 });
-    const pts = [
-      [ox, oy],
-      [130, oy - 25],
-      [196, oy - 52],
-      [290, oy - 145],
-      [370, oy - 233],
-      [400, oy - 248],
-      [460, oy - 175],
-      [510, oy - 112],
-      [540, oy - 115],
-    ];
-    svg.path(smoothPath(pts, 0.45), { color: BLACK, width: 3.5 });
+    svg.text(22, 175, 'Tensile stress', { size: 19, math: false, rotate: -90 });
+    svg.text(520, 314, 'Strain', { size: 18, math: false, anchor: 'start' });
+    svg.path(
+      `M ${ox} ${oy} C 123 ${oy} 164 ${oy - 18} 196 ${oy - 52} L 370 ${oy - 233} C 390 60 413 51 440 91 C 466 129 499 195 540 200`,
+      { color: BLACK, width: 3.5 }
+    );
     svg.line(196, oy - 52, 196, oy, { color: BLACK, width: 2.5, dash: '3 3' });
     svg.line(370, oy - 233, 370, oy, { color: BLACK, width: 2.5, dash: '3 3' });
     svg.lines(125, 348, ['Toe', 'region'], { size: 19, math: false, gap: 26 });

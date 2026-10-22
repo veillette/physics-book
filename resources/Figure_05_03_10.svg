@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="530" viewBox="0 0 1040 530" role="img" aria-labelledby="title desc">
+<title id="title">Telephone pole at a right-angle bend with a guy wire</title>
+<desc id="desc">An oblique view shows two power lines and a guy wire attached at the top of a pole. The plan view shows perpendicular horizontal line directions and a guy wire opposite their bisector. The elevation of either power line shows 80° to the downward vertical; the guy-wire elevation shows 30° to the vertical. Every tension arrow follows its wire away from the pole.</desc>
+<rect width="1040" height="530" fill="#ffffff"/>
+<text x="265" y="32" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Oblique</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan></text>
+<line x1="20" y1="426.67" x2="496" y2="391.41" stroke="#75866a" stroke-width="2"/>
+<rect x="229" y="90" width="32" height="320" fill="#bd955d" stroke="#222222" stroke-width="2"/>
+<ellipse cx="245" cy="90" rx="16" ry="6" fill="#d6b17a" stroke="#222222" stroke-width="1.5"/>
+<line x1="236" y1="100" x2="236" y2="404" stroke="#9c7549" stroke-width="1"/>
+<line x1="243" y1="100" x2="243" y2="404" stroke="#9c7549" stroke-width="1"/>
+<line x1="252" y1="100" x2="252" y2="404" stroke="#9c7549" stroke-width="1"/>
+<polyline points="229,170 216,174 216,163" fill="none" stroke="#555555" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="229,212 216,216 216,205" fill="none" stroke="#555555" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="229,254 216,258 216,247" fill="none" stroke="#555555" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="229,296 216,300 216,289" fill="none" stroke="#555555" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="229,338 216,342 216,331" fill="none" stroke="#555555" stroke-width="3" stroke-linejoin="round"/>
+<g id="pole-wires">
+<line x1="245" y1="90" x2="441.96" y2="172" stroke="#444444" stroke-width="2.5"/>
+<line x1="288.33" y1="108.04" x2="390.57" y2="150.6" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="402.57,155.6 387.49,155.39 391.8,145.05" fill="#b03a2e"/>
+<text x="457.96" y="194.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan></text>
+<line x1="245" y1="90" x2="367.12" y2="53.82" stroke="#444444" stroke-width="2.5"/>
+<line x1="271.87" y1="82.04" x2="330.23" y2="64.75" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="342.69,61.06 330.86,70.4 327.68,59.67" fill="#b03a2e"/>
+<text x="372.12" y="42.22" font-family="'Times New Roman', Times, serif" font-size="24" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan></text>
+<line x1="245" y1="90" x2="33.36" y2="425.68" stroke="#444444" stroke-width="2.5"/>
+<line x1="198.44" y1="163.85" x2="99.56" y2="320.69" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="92.62,331.69 95.35,316.86 104.83,322.83" fill="#b03a2e"/>
+<text x="98" y="281.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="14.26" font-weight="normal" dx="-14.8" dy="-18.86">→</tspan><tspan dx="0.54" dy="18.86">​</tspan></tspan><tspan font-size="16.1" dy="6.44"><tspan font-style="normal">gw</tspan></tspan><tspan dy="-6.44">​</tspan></text>
+<rect x="21.36" y="421.68" width="24" height="12" fill="#999999" stroke="#222222" stroke-width="1.5"/>
+<circle cx="245" cy="90" r="5" fill="#444444" stroke="#222222" stroke-width="1.5"/>
+</g>
+<text x="280" y="465.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">All</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">three</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wires</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">attach</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pole</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">top</tspan><tspan font-style="normal">.</tspan></text>
+<text x="780" y="31.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Plan</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">above</tspan><tspan font-style="normal">)</tspan></text>
+<g id="pole-plan">
+<line x1="760" y1="180" x2="889" y2="180" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="900,180 888,184.8 888,175.2" fill="#b03a2e"/>
+<line x1="760" y1="180" x2="760" y2="51" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="760,40 764.8,52 755.2,52" fill="#b03a2e"/>
+<line x1="760" y1="180" x2="691.78" y2="248.22" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="684,256 689.09,244.12 695.88,250.91" fill="#b03a2e"/>
+<polyline points="778,180 778,162 760,162" fill="none" stroke="#222222" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="812" y="167.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">90°</tspan></text>
+<text x="917" y="188.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="14.26" font-weight="normal" dx="-14.8" dy="-18.86">→</tspan><tspan dx="0.54" dy="18.86">​</tspan></tspan></text>
+<text x="735" y="69.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="14.26" font-weight="normal" dx="-14.8" dy="-18.86">→</tspan><tspan dx="0.54" dy="18.86">​</tspan></tspan></text>
+<text x="663" y="251.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">gw</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="760" y1="180" x2="824.34" y2="115.66" stroke="#666666" stroke-width="1.5" stroke-dasharray="4 4"/>
+<polygon points="830,110 826.18,118.91 821.09,113.82" fill="#666666"/>
+<text x="855" y="93.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Direction</tspan></text>
+<text x="855" y="112.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">bend</tspan></text>
+<circle cx="760" cy="180" r="5" fill="#222222"/>
+</g>
+<text x="680" y="309.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Elevation</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">either</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">power</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">line</tspan></text>
+<g id="power-line-elevation">
+<line x1="610" y1="350" x2="610" y2="505" stroke="#9c7549" stroke-width="7"/>
+<line x1="610" y1="350" x2="790" y2="381.74" stroke="#444444" stroke-width="2"/>
+<line x1="610" y1="350" x2="779.17" y2="379.83" stroke="#b03a2e" stroke-width="2.5"/>
+<polygon points="790,381.74 777.35,384.38 779.02,374.93" fill="#b03a2e"/>
+<path d="M 610 405 A 55 55 0 0 0 664.16 359.55" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="666" y="412" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">80°</tspan></text>
+<text x="780" y="366.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="13.64" font-weight="normal" dx="-14.16" dy="-18.04">→</tspan><tspan dx="0.52" dy="18.04">​</tspan></tspan></text>
+<text x="614" y="524.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Vertical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pole</tspan></text>
+</g>
+<text x="927" y="309.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Guy</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">wire</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">elevation</tspan></text>
+<g id="guy-wire-elevation">
+<line x1="968" y1="350" x2="968" y2="505" stroke="#9c7549" stroke-width="7"/>
+<line x1="968" y1="350" x2="878.51" y2="505" stroke="#444444" stroke-width="2"/>
+<line x1="968" y1="350" x2="884.01" y2="495.47" stroke="#b03a2e" stroke-width="2.5"/>
+<polygon points="878.51,505 880.35,492.21 888.67,497.01" fill="#b03a2e"/>
+<path d="M 940.5 397.63 A 55 55 0 0 0 968 405" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="941" y="437" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30°</tspan></text>
+<text x="891" y="458.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#b03a2e" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">T<tspan font-size="13.02" font-weight="normal" dx="-13.51" dy="-17.22">→</tspan><tspan dx="0.49" dy="17.22">​</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">gw</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<line x1="858" y1="505" x2="998" y2="505" stroke="#75866a" stroke-width="2"/>
+</g>
+</svg>

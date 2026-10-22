@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="435" viewBox="0 0 1000 435" role="img" aria-labelledby="title desc">
+<title id="title">Ice skaters pushing with two forces</title>
+<desc id="desc">Panel a is an overhead view of two skaters pushing a third, with F₁ rightward and F₂ upward along their arms. Her skate blades point along the northeast resultant. A head-to-tail triangle adds the two pushes. Panel b shows the horizontal forces on her: F₁, F₂, and friction opposite the motion or attempted motion. The vertical weight and normal force balance out of the page.</desc>
+<rect width="1000" height="435" fill="#ffffff"/>
+<text x="34" y="34.35" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="250" y="61.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Overhead</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan></text>
+<g id="skaters">
+<g class="skater" transform="translate(160 220) rotate(90)">
+<polyline points="-12,22 -14,40 -12,52" fill="none" stroke="#334e69" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="12,22 14,40 12,52" fill="none" stroke="#334e69" stroke-width="10" stroke-linejoin="round"/>
+<line x1="-12" y1="42" x2="-12" y2="63" stroke="#222222" stroke-width="3"/>
+<polyline points="-21,-12 -31,-38 -22,-66" fill="none" stroke="#a96d90" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="-22" cy="-66" r="5" fill="#f1d1aa" stroke="#222222" stroke-width="1"/>
+<line x1="12" y1="42" x2="12" y2="63" stroke="#222222" stroke-width="3"/>
+<polyline points="21,-12 31,-38 22,-66" fill="none" stroke="#a96d90" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="22" cy="-66" r="5" fill="#f1d1aa" stroke="#222222" stroke-width="1"/>
+<ellipse cx="0" cy="0" rx="28" ry="24" fill="#a96d90" stroke="#222222" stroke-width="1.5"/>
+<circle cx="0" cy="-7" r="16" fill="#805b32" stroke="#222222" stroke-width="1"/>
+<path d="M -14 -12 Q 0 -31 14 -12" fill="none" stroke="#493b2e" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<g class="skater" transform="translate(260 310) rotate(0)">
+<polyline points="-12,22 -14,40 -12,52" fill="none" stroke="#334e69" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="12,22 14,40 12,52" fill="none" stroke="#334e69" stroke-width="10" stroke-linejoin="round"/>
+<line x1="-12" y1="42" x2="-12" y2="63" stroke="#222222" stroke-width="3"/>
+<polyline points="-21,-12 -31,-38 -22,-66" fill="none" stroke="#5590b3" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="-22" cy="-66" r="5" fill="#f1d1aa" stroke="#222222" stroke-width="1"/>
+<line x1="12" y1="42" x2="12" y2="63" stroke="#222222" stroke-width="3"/>
+<polyline points="21,-12 31,-38 22,-66" fill="none" stroke="#5590b3" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="22" cy="-66" r="5" fill="#f1d1aa" stroke="#222222" stroke-width="1"/>
+<ellipse cx="0" cy="0" rx="28" ry="24" fill="#5590b3" stroke="#222222" stroke-width="1.5"/>
+<circle cx="0" cy="-7" r="16" fill="#805b32" stroke="#222222" stroke-width="1"/>
+<path d="M -14 -12 Q 0 -31 14 -12" fill="none" stroke="#493b2e" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<g class="skater" transform="translate(260 220) rotate(54.833563964207116)">
+<polyline points="-12,22 -14,40 -12,52" fill="none" stroke="#334e69" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="12,22 14,40 12,52" fill="none" stroke="#334e69" stroke-width="10" stroke-linejoin="round"/>
+<line x1="-12" y1="42" x2="-12" y2="63" stroke="#222222" stroke-width="3"/>
+<polyline points="-21,-12 -31,-38 -22,-66" fill="none" stroke="#e6bd49" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="-22" cy="-66" r="5" fill="#f1d1aa" stroke="#222222" stroke-width="1"/>
+<line x1="12" y1="42" x2="12" y2="63" stroke="#222222" stroke-width="3"/>
+<polyline points="21,-12 31,-38 22,-66" fill="none" stroke="#e6bd49" stroke-width="10" stroke-linejoin="round"/>
+<circle cx="22" cy="-66" r="5" fill="#f1d1aa" stroke="#222222" stroke-width="1"/>
+<ellipse cx="0" cy="0" rx="28" ry="24" fill="#e6bd49" stroke="#222222" stroke-width="1.5"/>
+<circle cx="0" cy="-7" r="16" fill="#805b32" stroke="#222222" stroke-width="1"/>
+<path d="M -14 -12 Q 0 -31 14 -12" fill="none" stroke="#493b2e" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<line x1="175" y1="220" x2="227" y2="220" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="239,220 226,225.2 226,214.8" fill="#b03a2e"/>
+<text x="182" y="183.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="260" y1="300" x2="260" y2="256" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="260,244 265.2,257 254.8,257" fill="#b03a2e"/>
+<text x="288" y="289.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</g>
+<text x="502" y="111.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Vector</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">addition</tspan></text>
+<g id="skater-vector-sum">
+<line x1="420" y1="245" x2="541" y2="245" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="552,245 540,249.8 540,240.2" fill="#b03a2e"/>
+<line x1="552" y1="245" x2="552" y2="163" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="552,152 556.8,164 547.2,164" fill="#b03a2e"/>
+<line x1="420" y1="245" x2="543.01" y2="158.34" stroke="#7b1145" stroke-width="3"/>
+<polygon points="552,152 544.95,162.84 539.43,154.99" fill="#7b1145"/>
+<polyline points="539,245 539,232 552,232" fill="none" stroke="#222222" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="486" y="278.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="578" y="207.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="469" y="180.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#7b1145" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</g>
+<line x1="638" y1="65" x2="638" y2="365" stroke="#cccccc" stroke-width="1"/>
+<text x="668" y="34.35" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<text x="807" y="72.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Horizontal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
+<g id="skater-free-body">
+<line x1="800" y1="245" x2="921" y2="245" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="932,245 920,249.8 920,240.2" fill="#b03a2e"/>
+<line x1="800" y1="245" x2="800" y2="163" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="800,152 804.8,164 795.2,164" fill="#b03a2e"/>
+<line x1="800" y1="245" x2="756.92" y2="275.35" stroke="#b03a2e" stroke-width="3"/>
+<polygon points="747.93,281.69 754.97,270.85 760.5,278.7" fill="#b03a2e"/>
+<circle cx="800" cy="245" r="5" fill="#222222"/>
+<text x="928" y="278.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="824" y="158.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="724" y="301.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">f<tspan font-size="13.64" font-weight="normal" dx="-10.48" dy="-18.04">→</tspan><tspan dx="-3.16" dy="18.04">​</tspan></tspan></text>
+</g>
+<line x1="850" y1="347" x2="907.64" y2="306.39" stroke="#222222" stroke-width="1.8"/>
+<polygon points="915,301.2 909.13,310.23 904.52,303.69" fill="#222222"/>
+<text x="858" y="376.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Motion</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">or</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">attempted</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan></text>
+<text x="800" y="412.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Friction</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">opposes</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">weight</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">normal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">balance</tspan><tspan font-style="normal">.</tspan></text>
+</svg>
