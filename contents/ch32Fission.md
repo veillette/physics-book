@@ -142,10 +142,10 @@ $$92+0=56+36 $$ . Also, as far as whole numbers are concerned, the mass is
 constant:  $$1+235=142+91+3 $$ . This is not true when we consider the masses
 out to 6 or 7 significant places, as in the previous example.
 
-![A neutron gets absorbed in a nucleus, making it narrower in the middle, then finally breaking into two parts and ejecting some neutrons.](../resources/Figure_32_06_02.jpg "Neutron-induced fission is shown. First, energy is put into this large nucleus when it absorbs a neutron. Acting like a struck liquid drop, the nucleus deforms and begins to narrow in the middle. Since fewer nucleons are in contact, the repulsive Coulomb force is able to break the nucleus into two parts with some neutrons also flying away.")
+![A neutron gets absorbed in a nucleus, making it narrower in the middle, then finally breaking into two parts and ejecting some neutrons.](../resources/Figure_32_06_02.svg "Neutron-induced fission is shown. First, energy is put into this large nucleus when it absorbs a neutron. Acting like a struck liquid drop, the nucleus deforms and begins to narrow in the middle. Since fewer nucleons are in contact, the repulsive Coulomb force is able to break the nucleus into two parts with some neutrons also flying away.")
 {: #Figure2}
 
-![A uranium nucleus struck by a neutron produces two fragments and three neutrons, two of which continue to strike two other uranium nuclei and hence, initiate a chain reaction.](../resources/Figure_32_06_03.jpg "A chain reaction can produce self-sustained fission if each fission produces enough neutrons to induce at least one more fission. This depends on several factors, including how many neutrons are produced in an average fission and how easy it is to make a particular type of nuclide fission.")
+![A uranium nucleus struck by a neutron produces two fragments and three neutrons, two of which continue to strike two other uranium nuclei and hence, initiate a chain reaction.](../resources/Figure_32_06_03.svg "A chain reaction can produce self-sustained fission if each fission produces enough neutrons to induce at least one more fission. This depends on several factors, including how many neutrons are produced in an average fission and how easy it is to make a particular type of nuclide fission.")
 {: #Figure3}
 
 Not every neutron produced by fission induces fission. Some neutrons escape the

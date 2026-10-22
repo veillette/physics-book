@@ -13,8 +13,8 @@
  */
 import { COLORS, Plot, Svg } from './svg.js';
 
-const PROTON = ['#7d93c9', '#1f2f5f'];
-const NEUTRON = ['#b6e09a', '#3f8f3a'];
+export const PROTON = ['#7d93c9', '#1f2f5f'];
+export const NEUTRON = ['#b6e09a', '#3f8f3a'];
 const CURVE = COLORS.maroon;
 const GO = '#4caf2a';
 const ALPHA = '#c0222f';
@@ -29,7 +29,7 @@ function note(svg, x, y, s, o = {}) {
 }
 
 /** One shaded nucleon (or other particle) of radius r. */
-function nucleon(svg, x, y, r, [mid, edge]) {
+export function nucleon(svg, x, y, r, [mid, edge]) {
   // IDs depend on geometry, so filtered and full generation produce identical files.
   const id = `n31_${Math.round(x * 10)}_${Math.round(y * 10)}_${r}_${mid.slice(1)}`;
   svg.add(
@@ -43,7 +43,7 @@ function nucleon(svg, x, y, r, [mid, edge]) {
  * ball, drawn back to front around (cx, cy) with nucleon radius r. The packing
  * and the proton positions are fixed by `seed`, so files regenerate identically.
  */
-function nucleus(svg, cx, cy, count, protons, { r = 12, seed = 1 } = {}) {
+export function nucleus(svg, cx, cy, count, protons, { r = 12, seed = 1 } = {}) {
   const pts = [];
   // Face-centered cubic lattice points, nearest to the center first.
   for (let i = -4; i <= 4; i += 1)
@@ -93,7 +93,8 @@ function decayPanels(svg, { title, parent, daughter, extras }) {
   extras();
 }
 
-const BE = [
+/** Measured binding energy per nucleon (MeV) of stable nuclides: [name, A, BE/A]. */
+export const BE = [
   ['2H', 2, 1.112],
   ['3He', 3, 2.573],
   ['4He', 4, 7.074],
@@ -149,6 +150,94 @@ const BE = [
   ['232Th', 232, 7.615],
   ['238U', 238, 7.57],
 ];
+
+/**
+ * Binding energy per nucleon versus mass number for stable nuclides. `fusion`, if given, is
+ * called with the Svg and Plot to add annotations (31.6 Fig. 3 uses none; 32.5 Fig. 2 adds one).
+ */
+export function bindingEnergy({ title = 'Binding energy per nucleon', desc, fusion } = {}) {
+  const svg = new Svg({
+    width: 760,
+    height: 600,
+    title,
+    desc:
+      desc ??
+      'Average binding energy per nucleon, BE/A in MeV, versus mass number A for stable nuclei. It rises steeply from 1.1 MeV for ²H, with a spike at ⁴He (7.07 MeV) above ⁶Li and ⁷Li, to a broad peak of about 8.8 MeV near A = 60 (⁵⁶Fe and ⁶²Ni), then falls slowly to 7.6 MeV at ²³⁸U as Coulomb repulsion grows.',
+  });
+  const g = new Plot(svg, {
+    x: 110,
+    y: 50,
+    w: 600,
+    h: 440,
+    xRange: [0, 250],
+    yRange: [0, 9.8],
+    xTicks: [0, 50, 100, 150, 200],
+    yTicks: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  });
+  g.axes({ arrows: true, size: 18 });
+  g.series(
+    BE.map(([, A, v]) => [A, v]),
+    { color: COLORS.black, width: 1.6 }
+  );
+  for (const [, A, v] of BE) svg.circle(...g.P(A, v), 2.6, { fill: COLORS.black });
+  const tagged = {
+    '2H': [14, 6],
+    '3He': [16, 0],
+    '4He': [-2, -16],
+    '6Li': [14, 10],
+    '7Li': [14, 0],
+    '11B': [14, 8],
+    '12C': [-6, -14],
+    '16O': [-8, -14],
+    '20Ne': [-12, -22],
+    '24Mg': [0, -30],
+    '40Ca': [0, 22],
+    '56Fe': [0, 22],
+    '62Ni': [4, -22],
+    '64Zn': [10, 22],
+    '84Kr': [0, 22],
+    '98Mo': [0, 22],
+    '130Te': [0, 22],
+    '152Sm': [0, 22],
+    '175Lu': [0, 22],
+    '200Hg': [0, 22],
+    '226Ra': [0, 22],
+    '238U': [6, 22],
+  };
+  for (const [name, A, v] of BE) {
+    const t = tagged[name];
+    if (!t) continue;
+    const [, mass, sym] = name.match(/^(\d+)([A-Za-z]+)$/);
+    const withMass = [
+      '2H',
+      '3He',
+      '4He',
+      '6Li',
+      '7Li',
+      '11B',
+      '12C',
+      '16O',
+      '20Ne',
+      '24Mg',
+      '62Ni',
+      '238U',
+    ].includes(name);
+    const [x, y] = g.P(A, v);
+    svg.text(x + t[0], y + t[1], withMass ? `^{${mass}}\\rm{${sym}}` : `\\rm{${sym}}`, {
+      size: 16,
+      anchor: t[0] > 8 ? 'start' : t[0] < -4 ? 'end' : 'middle',
+    });
+  }
+  svg.text(g.X(250) + 20, g.Y(0) + 4, 'A', { size: 22, anchor: 'start' });
+  svg.text(g.X(125), g.Y(0) + 54, 'Mass number', { size: 20, math: false });
+  svg.text(40, g.Y(4.9), 'Binding energy per nucleon, BE/\\it{A} (MeV)', {
+    size: 20,
+    math: false,
+    rotate: -90,
+  });
+  if (fusion) fusion(svg, g);
+  return svg.render();
+}
 
 export default {
   // 31.3 Fig. 2 — a model of the nucleus
@@ -414,86 +503,7 @@ export default {
   },
 
   // 31.6 Fig. 3 — binding energy per nucleon
-  Figure_31_06_03: () => {
-    const svg = new Svg({
-      width: 760,
-      height: 600,
-      title: 'Binding energy per nucleon',
-      desc: 'Average binding energy per nucleon, BE/A in MeV, versus mass number A for stable nuclei. It rises steeply from 1.1 MeV for ²H, with a spike at ⁴He (7.07 MeV) above ⁶Li and ⁷Li, to a broad peak of about 8.8 MeV near A = 60 (⁵⁶Fe and ⁶²Ni), then falls slowly to 7.6 MeV at ²³⁸U as Coulomb repulsion grows.',
-    });
-    const g = new Plot(svg, {
-      x: 110,
-      y: 50,
-      w: 600,
-      h: 440,
-      xRange: [0, 250],
-      yRange: [0, 9.8],
-      xTicks: [0, 50, 100, 150, 200],
-      yTicks: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    });
-    g.axes({ arrows: true, size: 18 });
-    g.series(
-      BE.map(([, A, v]) => [A, v]),
-      { color: COLORS.black, width: 1.6 }
-    );
-    for (const [, A, v] of BE) svg.circle(...g.P(A, v), 2.6, { fill: COLORS.black });
-    const tagged = {
-      '2H': [14, 6],
-      '3He': [16, 0],
-      '4He': [-2, -16],
-      '6Li': [14, 10],
-      '7Li': [14, 0],
-      '11B': [14, 8],
-      '12C': [-6, -14],
-      '16O': [-8, -14],
-      '20Ne': [-12, -22],
-      '24Mg': [0, -30],
-      '40Ca': [0, 22],
-      '56Fe': [0, 22],
-      '62Ni': [4, -22],
-      '64Zn': [10, 22],
-      '84Kr': [0, 22],
-      '98Mo': [0, 22],
-      '130Te': [0, 22],
-      '152Sm': [0, 22],
-      '175Lu': [0, 22],
-      '200Hg': [0, 22],
-      '226Ra': [0, 22],
-      '238U': [6, 22],
-    };
-    for (const [name, A, v] of BE) {
-      const t = tagged[name];
-      if (!t) continue;
-      const [, mass, sym] = name.match(/^(\d+)([A-Za-z]+)$/);
-      const withMass = [
-        '2H',
-        '3He',
-        '4He',
-        '6Li',
-        '7Li',
-        '11B',
-        '12C',
-        '16O',
-        '20Ne',
-        '24Mg',
-        '62Ni',
-        '238U',
-      ].includes(name);
-      const [x, y] = g.P(A, v);
-      svg.text(x + t[0], y + t[1], withMass ? `^{${mass}}\\rm{${sym}}` : `\\rm{${sym}}`, {
-        size: 16,
-        anchor: t[0] > 8 ? 'start' : t[0] < -4 ? 'end' : 'middle',
-      });
-    }
-    svg.text(g.X(250) + 20, g.Y(0) + 4, 'A', { size: 22, anchor: 'start' });
-    svg.text(g.X(125), g.Y(0) + 54, 'Mass number', { size: 20, math: false });
-    svg.text(40, g.Y(4.9), 'Binding energy per nucleon, BE/\\it{A} (MeV)', {
-      size: 20,
-      math: false,
-      rotate: -90,
-    });
-    return svg.render();
-  },
+  Figure_31_06_03: () => bindingEnergy(),
 
   // 31.6 Fig. 4 — the short range of the nuclear force
   Figure_31_06_04: () => {

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+<title id="title">Binding energy per nucleon and fusion</title>
+<desc id="desc">Binding energy per nucleon, BE/A, versus mass number A for stable nuclei. A brace spans the light nuclei, from ²H up toward A ≈ 20, labeled “Fusion produces energy”: fusing light nuclei into heavier ones raises BE/A, so mass is converted to energy.</desc>
+<rect width="760" height="600" fill="#ffffff"/>
+<line x1="110" y1="490" x2="715" y2="490" stroke="#333333" stroke-width="1.5"/>
+<polygon points="724,490 714,494 714,486" fill="#333333"/>
+<line x1="110" y1="490" x2="110" y2="45" stroke="#333333" stroke-width="1.5"/>
+<polygon points="110,36 114,46 106,46" fill="#333333"/>
+<line x1="110" y1="490" x2="110" y2="495" stroke="#333333" stroke-width="1.2"/>
+<text x="110" y="513.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="230" y1="490" x2="230" y2="495" stroke="#333333" stroke-width="1.2"/>
+<text x="230" y="513.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">50</tspan></text>
+<line x1="350" y1="490" x2="350" y2="495" stroke="#333333" stroke-width="1.2"/>
+<text x="350" y="513.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<line x1="470" y1="490" x2="470" y2="495" stroke="#333333" stroke-width="1.2"/>
+<text x="470" y="513.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">150</tspan></text>
+<line x1="590" y1="490" x2="590" y2="495" stroke="#333333" stroke-width="1.2"/>
+<text x="590" y="513.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">200</tspan></text>
+<line x1="105" y1="445.1" x2="110" y2="445.1" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="451.4" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="105" y1="400.2" x2="110" y2="400.2" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="406.5" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="105" y1="355.31" x2="110" y2="355.31" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="361.61" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<line x1="105" y1="310.41" x2="110" y2="310.41" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="316.71" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="105" y1="265.51" x2="110" y2="265.51" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="271.81" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="105" y1="220.61" x2="110" y2="220.61" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="226.91" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="105" y1="175.71" x2="110" y2="175.71" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="182.01" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">7</tspan></text>
+<line x1="105" y1="130.82" x2="110" y2="130.82" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="137.12" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8</tspan></text>
+<line x1="105" y1="85.92" x2="110" y2="85.92" stroke="#333333" stroke-width="1.2"/>
+<text x="101" y="92.22" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">9</tspan></text>
+<polyline points="114.8,440.07 117.2,374.48 119.6,172.39 124.4,250.6 126.8,238.3 131.6,199.82 134,199.29 136.4,178.95 138.8,145.18 143.6,154.34 148.4,131.89 155.6,140.74 158,129.38 165.2,125.79 167.6,119.1 174.8,115.91 177.2,110.7 184.4,109.22 186.8,108.68 194,107.47 206,106.08 218,103.02 225.2,98.36 232.4,97.5 234.8,95.98 242,96.47 244.4,95.35 251.6,96.33 258.8,95.12 261.2,97.05 263.6,97.77 287.6,98.27 302,98.89 311.6,98.62 321.2,97.91 326,98.94 345.2,102.31 366.8,105.94 398,108.14 422,111.51 441.2,113.17 446,113.93 474.8,119.86 489.2,121.75 530,127.72 542,129.24 551.6,130.59 582.8,134.59 590,135.04 609.2,136.74 611.6,137.64 652.4,145.99 666.8,148.1 681.2,150.12" fill="none" stroke="#222222" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="114.8" cy="440.07" r="2.6" fill="#222222"/>
+<circle cx="117.2" cy="374.48" r="2.6" fill="#222222"/>
+<circle cx="119.6" cy="172.39" r="2.6" fill="#222222"/>
+<circle cx="124.4" cy="250.6" r="2.6" fill="#222222"/>
+<circle cx="126.8" cy="238.3" r="2.6" fill="#222222"/>
+<circle cx="131.6" cy="199.82" r="2.6" fill="#222222"/>
+<circle cx="134" cy="199.29" r="2.6" fill="#222222"/>
+<circle cx="136.4" cy="178.95" r="2.6" fill="#222222"/>
+<circle cx="138.8" cy="145.18" r="2.6" fill="#222222"/>
+<circle cx="143.6" cy="154.34" r="2.6" fill="#222222"/>
+<circle cx="148.4" cy="131.89" r="2.6" fill="#222222"/>
+<circle cx="155.6" cy="140.74" r="2.6" fill="#222222"/>
+<circle cx="158" cy="129.38" r="2.6" fill="#222222"/>
+<circle cx="165.2" cy="125.79" r="2.6" fill="#222222"/>
+<circle cx="167.6" cy="119.1" r="2.6" fill="#222222"/>
+<circle cx="174.8" cy="115.91" r="2.6" fill="#222222"/>
+<circle cx="177.2" cy="110.7" r="2.6" fill="#222222"/>
+<circle cx="184.4" cy="109.22" r="2.6" fill="#222222"/>
+<circle cx="186.8" cy="108.68" r="2.6" fill="#222222"/>
+<circle cx="194" cy="107.47" r="2.6" fill="#222222"/>
+<circle cx="206" cy="106.08" r="2.6" fill="#222222"/>
+<circle cx="218" cy="103.02" r="2.6" fill="#222222"/>
+<circle cx="225.2" cy="98.36" r="2.6" fill="#222222"/>
+<circle cx="232.4" cy="97.5" r="2.6" fill="#222222"/>
+<circle cx="234.8" cy="95.98" r="2.6" fill="#222222"/>
+<circle cx="242" cy="96.47" r="2.6" fill="#222222"/>
+<circle cx="244.4" cy="95.35" r="2.6" fill="#222222"/>
+<circle cx="251.6" cy="96.33" r="2.6" fill="#222222"/>
+<circle cx="258.8" cy="95.12" r="2.6" fill="#222222"/>
+<circle cx="261.2" cy="97.05" r="2.6" fill="#222222"/>
+<circle cx="263.6" cy="97.77" r="2.6" fill="#222222"/>
+<circle cx="287.6" cy="98.27" r="2.6" fill="#222222"/>
+<circle cx="302" cy="98.89" r="2.6" fill="#222222"/>
+<circle cx="311.6" cy="98.62" r="2.6" fill="#222222"/>
+<circle cx="321.2" cy="97.91" r="2.6" fill="#222222"/>
+<circle cx="326" cy="98.94" r="2.6" fill="#222222"/>
+<circle cx="345.2" cy="102.31" r="2.6" fill="#222222"/>
+<circle cx="366.8" cy="105.94" r="2.6" fill="#222222"/>
+<circle cx="398" cy="108.14" r="2.6" fill="#222222"/>
+<circle cx="422" cy="111.51" r="2.6" fill="#222222"/>
+<circle cx="441.2" cy="113.17" r="2.6" fill="#222222"/>
+<circle cx="446" cy="113.93" r="2.6" fill="#222222"/>
+<circle cx="474.8" cy="119.86" r="2.6" fill="#222222"/>
+<circle cx="489.2" cy="121.75" r="2.6" fill="#222222"/>
+<circle cx="530" cy="127.72" r="2.6" fill="#222222"/>
+<circle cx="542" cy="129.24" r="2.6" fill="#222222"/>
+<circle cx="551.6" cy="130.59" r="2.6" fill="#222222"/>
+<circle cx="582.8" cy="134.59" r="2.6" fill="#222222"/>
+<circle cx="590" cy="135.04" r="2.6" fill="#222222"/>
+<circle cx="609.2" cy="136.74" r="2.6" fill="#222222"/>
+<circle cx="611.6" cy="137.64" r="2.6" fill="#222222"/>
+<circle cx="652.4" cy="145.99" r="2.6" fill="#222222"/>
+<circle cx="666.8" cy="148.1" r="2.6" fill="#222222"/>
+<circle cx="681.2" cy="150.12" r="2.6" fill="#222222"/>
+<text x="128.8" y="451.67" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">2</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">H</tspan></text>
+<text x="133.2" y="380.08" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">3</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">He</tspan></text>
+<text x="117.6" y="161.99" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">4</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">He</tspan></text>
+<text x="138.4" y="266.2" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">6</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">Li</tspan></text>
+<text x="140.8" y="243.9" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">7</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">Li</tspan></text>
+<text x="150.4" y="192.55" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">11</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">B</tspan></text>
+<text x="132.8" y="136.78" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">12</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">C</tspan></text>
+<text x="140.4" y="123.49" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">16</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">O</tspan></text>
+<text x="146" y="112.98" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">20</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">Ne</tspan></text>
+<text x="167.6" y="94.7" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">24</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">Mg</tspan></text>
+<text x="206" y="133.68" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ca</tspan></text>
+<text x="244.4" y="122.95" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fe</tspan></text>
+<text x="262.8" y="78.72" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">62</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">Ni</tspan></text>
+<text x="273.6" y="125.37" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Zn</tspan></text>
+<text x="311.6" y="126.22" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Kr</tspan></text>
+<text x="345.2" y="129.91" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Mo</tspan></text>
+<text x="422" y="139.11" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Te</tspan></text>
+<text x="474.8" y="147.46" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Sm</tspan></text>
+<text x="530" y="155.32" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Lu</tspan></text>
+<text x="590" y="162.64" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Hg</tspan></text>
+<text x="652.4" y="173.59" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ra</tspan></text>
+<text x="687.2" y="177.72" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-size="11.2" dy="-6.4"><tspan font-style="normal">238</tspan></tspan><tspan dy="6.4">​</tspan><tspan font-style="normal">U</tspan></text>
+<text x="730" y="501.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<text x="410" y="551" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Mass</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">number</tspan></text>
+<text x="40" y="277" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" transform="rotate(-90 40 270)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Binding</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">per</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">nucleon</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">BE</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">A</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">MeV</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 148.4 157.75510204081633 Q 158.4 157.75510204081633 158.4 167.75510204081633 L 158.4 288.9387755102041 L 166.4 296.9387755102041 L 158.4 304.9387755102041 L 158.4 426.12244897959187 Q 158.4 436.12244897959187 148.4 436.12244897959187" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="178.4" y="277.94" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fusion</tspan></text>
+<text x="178.4" y="303.94" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">produces</tspan></text>
+<text x="178.4" y="329.94" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">energy</tspan></text>
+</svg>

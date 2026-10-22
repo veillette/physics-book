@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="1100" viewBox="0 0 560 1100" role="img" aria-labelledby="title desc">
+<title id="title">Energy output of conventional and nuclear weapons</title>
+<desc id="desc">(a) A conventional chemical bomb: 90% blast and 10% thermal. (b) A conventional nuclear bomb: 50% blast, 35% thermal, 10% delayed radiation and 5% prompt radiation. (c) A radiation-enhanced nuclear bomb (neutron bomb): 40% blast, 25% thermal, 5% delayed radiation and 30% prompt radiation.</desc>
+<rect width="560" height="1100" fill="#ffffff"/>
+<text x="30" y="41.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="220" y="42" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Conventional</tspan></text>
+<text x="220" y="68" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">chemical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">bomb</tspan></text>
+<path d="M 220 210 L 220 120 A 90 90 0 0 1 272.90067270632255 137.18847050625473 Z" fill="#f7c6cf" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 210 L 272.90067270632255 137.18847050625473 A 90 90 0 1 1 219.99999999999997 120 Z" fill="#e8534a" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 324 134 Q 281.24 117.32 248.2 137.83" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="249.9" y1="136.78" x2="245.99" y2="139.2" stroke="#333333" stroke-width="1.2"/>
+<polygon points="242.25,141.52 245.7,136.84 247.98,140.51" fill="#333333"/>
+<text x="330" y="137.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Thermal</tspan></text>
+<text x="330" y="160.05" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10%</tspan></text>
+<text x="206.09" y="248.75" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Blast</tspan></text>
+<text x="206.09" y="270.85" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">90%</tspan></text>
+<text x="30" y="391.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<text x="220" y="392" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Conventional</tspan></text>
+<text x="220" y="418" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">nuclear</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">bomb</tspan></text>
+<path d="M 220 560 L 220 470 A 90 90 0 0 1 292.8115294937453 612.9006727063226 Z" fill="#f7c6cf" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 560 L 292.8115294937453 612.9006727063226 A 90 90 0 0 1 247.81152949374527 645.5950864665638 Z" fill="#b8742a" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 560 L 247.81152949374527 645.5950864665638 A 90 90 0 0 1 220 650 Z" fill="#e6cfa6" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 560 L 220 650 A 90 90 0 0 1 219.99999999999997 470 Z" fill="#e8534a" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="260.1" y="535.52" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Thermal</tspan></text>
+<text x="260.1" y="557.62" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">35%</tspan></text>
+<path d="M 324 634 Q 297.1 610.7 269.16 616.77" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="271.12" y1="616.34" x2="266.62" y2="617.32" stroke="#333333" stroke-width="1.2"/>
+<polygon points="262.32,618.25 267.14,614.99 268.06,619.22" fill="#333333"/>
+<text x="330" y="637.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Delayed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radiation</tspan></text>
+<text x="330" y="660.05" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10%</tspan></text>
+<path d="M 186 684 Q 221.85 668.87 229.57 637.91" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="229.09" y1="639.85" x2="230.2" y2="635.38" stroke="#333333" stroke-width="1.2"/>
+<polygon points="231.26,631.11 232.05,636.88 227.86,635.83" fill="#333333"/>
+<text x="180" y="687.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Prompt</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radiation</tspan></text>
+<text x="180" y="710.05" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5%</tspan></text>
+<text x="175" y="555.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Blast</tspan></text>
+<text x="175" y="578.05" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">50%</tspan></text>
+<text x="30" y="751.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<text x="220" y="752" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Radiation</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">enhanced</tspan></text>
+<text x="220" y="778" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">nuclear</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">bomb</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">neutron</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">bomb</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 220 920 L 220 830 A 90 90 0 0 1 310 920 Z" fill="#f7c6cf" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 920 L 310 920 A 90 90 0 0 1 305.5950864665638 947.8115294937453 Z" fill="#b8742a" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 920 L 305.5950864665638 947.8115294937453 A 90 90 0 0 1 167.09932729367742 992.8115294937453 Z" fill="#e6cfa6" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 220 920 L 167.09932729367742 992.8115294937453 A 90 90 0 0 1 219.99999999999997 830 Z" fill="#e8534a" stroke="#5a1a1a" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="251.82" y="884.13" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Thermal</tspan></text>
+<text x="251.82" y="906.23" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">25%</tspan></text>
+<path d="M 334 944 Q 315.74 926.91 298.01 930.04" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="299.98" y1="929.7" x2="295.45" y2="930.5" stroke="#333333" stroke-width="1.2"/>
+<polygon points="291.11,931.26 296.06,928.2 296.81,932.45" fill="#333333"/>
+<text x="340" y="947.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Delayed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radiation</tspan></text>
+<text x="340" y="970.05" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5%</tspan></text>
+<text x="233.91" y="958.75" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Prompt</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">radiation</tspan></text>
+<text x="233.91" y="980.85" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">30%</tspan></text>
+<text x="177.2" y="902.04" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Blast</tspan></text>
+<text x="177.2" y="924.14" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">40%</tspan></text>
+</svg>

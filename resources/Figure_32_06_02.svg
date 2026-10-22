@@ -1,0 +1,373 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="1000" viewBox="0 0 660 1000" role="img" aria-labelledby="title desc">
+<title id="title">Neutron-induced fission</title>
+<desc id="desc">(a) A neutron strikes a large nucleus and is absorbed. (b) The nucleus deforms like a struck liquid drop and narrows in the middle. (c) With fewer nucleons in contact, the Coulomb repulsion between the positively charged halves pushes them apart. (d) The nucleus splits into two fission fragments, FF1 and FF2, and some neutrons fly away.</desc>
+<rect width="660" height="1000" fill="#ffffff"/>
+<defs><radialGradient id="n31_1500_900_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="150" cy="90" r="12" fill="url(#n31_1500_900_12_b6e09a)"/>
+<line x1="150" y1="90" x2="247.46" y2="116.58" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="260,120 245.02,121.72 247.97,110.91" fill="#5ab43c"/>
+<defs><radialGradient id="n31_3182_1485_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="318.17" cy="148.45" r="13" fill="url(#n31_3182_1485_13_b6e09a)"/>
+<defs><radialGradient id="n31_3013_1316_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="301.27" cy="131.55" r="13" fill="url(#n31_3013_1316_13_b6e09a)"/>
+<defs><radialGradient id="n31_3351_1316_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="335.07" cy="131.55" r="13" fill="url(#n31_3351_1316_13_b6e09a)"/>
+<defs><radialGradient id="n31_3013_1654_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="301.27" cy="165.35" r="13" fill="url(#n31_3013_1654_13_b6e09a)"/>
+<defs><radialGradient id="n31_3351_1654_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="335.07" cy="165.35" r="13" fill="url(#n31_3351_1654_13_7d93c9)"/>
+<defs><radialGradient id="n31_3410_1442_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="340.99" cy="144.22" r="13" fill="url(#n31_3410_1442_13_7d93c9)"/>
+<defs><radialGradient id="n31_3241_1273_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="324.08" cy="127.33" r="13" fill="url(#n31_3241_1273_13_7d93c9)"/>
+<defs><radialGradient id="n31_3241_1611_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="324.08" cy="161.13" r="13" fill="url(#n31_3241_1611_13_b6e09a)"/>
+<defs><radialGradient id="n31_3072_1442_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="307.19" cy="144.22" r="13" fill="url(#n31_3072_1442_13_b6e09a)"/>
+<defs><radialGradient id="n31_2903_1273_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="290.28" cy="127.33" r="13" fill="url(#n31_2903_1273_13_b6e09a)"/>
+<defs><radialGradient id="n31_3579_1611_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="357.88" cy="161.13" r="13" fill="url(#n31_3579_1611_13_b6e09a)"/>
+<defs><radialGradient id="n31_3072_1104_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="307.19" cy="110.42" r="13" fill="url(#n31_3072_1104_13_b6e09a)"/>
+<defs><radialGradient id="n31_3072_1780_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="307.19" cy="178.03" r="13" fill="url(#n31_3072_1780_13_7d93c9)"/>
+<defs><radialGradient id="n31_2903_1611_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="290.28" cy="161.13" r="13" fill="url(#n31_2903_1611_13_b6e09a)"/>
+<defs><radialGradient id="n31_3579_1273_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="357.88" cy="127.33" r="13" fill="url(#n31_3579_1273_13_b6e09a)"/>
+<defs><radialGradient id="n31_3410_1104_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="340.99" cy="110.42" r="13" fill="url(#n31_3410_1104_13_b6e09a)"/>
+<defs><radialGradient id="n31_3410_1780_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="340.99" cy="178.03" r="13" fill="url(#n31_3410_1780_13_b6e09a)"/>
+<defs><radialGradient id="n31_3300_1400_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="330" cy="140" r="13" fill="url(#n31_3300_1400_13_b6e09a)"/>
+<defs><radialGradient id="n31_3131_1231_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="313.1" cy="123.1" r="13" fill="url(#n31_3131_1231_13_b6e09a)"/>
+<defs><radialGradient id="n31_3469_1231_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="346.9" cy="123.1" r="13" fill="url(#n31_3469_1231_13_b6e09a)"/>
+<defs><radialGradient id="n31_3131_1569_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="313.1" cy="156.9" r="13" fill="url(#n31_3131_1569_13_b6e09a)"/>
+<defs><radialGradient id="n31_3469_1569_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="346.9" cy="156.9" r="13" fill="url(#n31_3469_1569_13_7d93c9)"/>
+<defs><radialGradient id="n31_3638_1400_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="363.8" cy="140" r="13" fill="url(#n31_3638_1400_13_b6e09a)"/>
+<defs><radialGradient id="n31_3300_1062_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="330" cy="106.2" r="13" fill="url(#n31_3300_1062_13_7d93c9)"/>
+<defs><radialGradient id="n31_3300_1738_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="330" cy="173.8" r="13" fill="url(#n31_3300_1738_13_7d93c9)"/>
+<defs><radialGradient id="n31_2962_1400_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="296.2" cy="140" r="13" fill="url(#n31_2962_1400_13_7d93c9)"/>
+<defs><radialGradient id="n31_3528_1358_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="352.81" cy="135.78" r="13" fill="url(#n31_3528_1358_13_b6e09a)"/>
+<defs><radialGradient id="n31_3359_1189_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="335.92" cy="118.88" r="13" fill="url(#n31_3359_1189_13_7d93c9)"/>
+<defs><radialGradient id="n31_3359_1527_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="335.92" cy="152.68" r="13" fill="url(#n31_3359_1527_13_7d93c9)"/>
+<defs><radialGradient id="n31_3190_1358_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="319.01" cy="135.78" r="13" fill="url(#n31_3190_1358_13_b6e09a)"/>
+<defs><radialGradient id="n31_3190_1020_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="319.01" cy="101.97" r="13" fill="url(#n31_3190_1020_13_7d93c9)"/>
+<defs><radialGradient id="n31_3190_1696_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="319.01" cy="169.57" r="13" fill="url(#n31_3190_1696_13_7d93c9)"/>
+<defs><radialGradient id="n31_3021_1527_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="302.12" cy="152.68" r="13" fill="url(#n31_3021_1527_13_7d93c9)"/>
+<defs><radialGradient id="n31_3697_1189_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="369.72" cy="118.88" r="13" fill="url(#n31_3697_1189_13_b6e09a)"/>
+<defs><radialGradient id="n31_3528_1020_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="352.81" cy="101.97" r="13" fill="url(#n31_3528_1020_13_b6e09a)"/>
+<defs><radialGradient id="n31_3528_1696_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="352.81" cy="169.57" r="13" fill="url(#n31_3528_1696_13_b6e09a)"/>
+<defs><radialGradient id="n31_3021_1189_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="302.12" cy="118.88" r="13" fill="url(#n31_3021_1189_13_7d93c9)"/>
+<defs><radialGradient id="n31_3418_1316_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="341.83" cy="131.55" r="13" fill="url(#n31_3418_1316_13_7d93c9)"/>
+<defs><radialGradient id="n31_3587_1147_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="358.73" cy="114.65" r="13" fill="url(#n31_3587_1147_13_b6e09a)"/>
+<defs><radialGradient id="n31_3249_1485_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="324.93" cy="148.45" r="13" fill="url(#n31_3249_1485_13_7d93c9)"/>
+<defs><radialGradient id="n31_3587_1485_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="358.73" cy="148.45" r="13" fill="url(#n31_3587_1485_13_b6e09a)"/>
+<defs><radialGradient id="n31_3249_1147_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="324.93" cy="114.65" r="13" fill="url(#n31_3249_1147_13_7d93c9)"/>
+<text x="60" y="197" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<defs><radialGradient id="n31_2432_3785_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="243.17" cy="378.45" r="13" fill="url(#n31_2432_3785_13_7d93c9)"/>
+<defs><radialGradient id="n31_2660_3742_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="265.99" cy="374.23" r="13" fill="url(#n31_2660_3742_13_b6e09a)"/>
+<defs><radialGradient id="n31_2491_3573_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="249.09" cy="357.32" r="13" fill="url(#n31_2491_3573_13_b6e09a)"/>
+<defs><radialGradient id="n31_2491_3911_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="249.09" cy="391.13" r="13" fill="url(#n31_2491_3911_13_7d93c9)"/>
+<defs><radialGradient id="n31_2322_3742_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="232.19" cy="374.23" r="13" fill="url(#n31_2322_3742_13_b6e09a)"/>
+<defs><radialGradient id="n31_2550_3700_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="255" cy="370" r="13" fill="url(#n31_2550_3700_13_b6e09a)"/>
+<defs><radialGradient id="n31_2381_3531_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="238.1" cy="353.1" r="13" fill="url(#n31_2381_3531_13_b6e09a)"/>
+<defs><radialGradient id="n31_2719_3531_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="271.9" cy="353.1" r="13" fill="url(#n31_2719_3531_13_7d93c9)"/>
+<defs><radialGradient id="n31_2381_3869_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="238.1" cy="386.9" r="13" fill="url(#n31_2381_3869_13_b6e09a)"/>
+<defs><radialGradient id="n31_2719_3869_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="271.9" cy="386.9" r="13" fill="url(#n31_2719_3869_13_b6e09a)"/>
+<defs><radialGradient id="n31_2888_3700_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="288.8" cy="370" r="13" fill="url(#n31_2888_3700_13_b6e09a)"/>
+<defs><radialGradient id="n31_2550_3362_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="255" cy="336.2" r="13" fill="url(#n31_2550_3362_13_b6e09a)"/>
+<defs><radialGradient id="n31_2550_4038_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="255" cy="403.8" r="13" fill="url(#n31_2550_4038_13_7d93c9)"/>
+<defs><radialGradient id="n31_2212_3700_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="221.2" cy="370" r="13" fill="url(#n31_2212_3700_13_b6e09a)"/>
+<defs><radialGradient id="n31_2778_3658_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="277.81" cy="365.77" r="13" fill="url(#n31_2778_3658_13_7d93c9)"/>
+<defs><radialGradient id="n31_2609_3489_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="260.92" cy="348.88" r="13" fill="url(#n31_2609_3489_13_b6e09a)"/>
+<defs><radialGradient id="n31_2609_3827_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="260.92" cy="382.68" r="13" fill="url(#n31_2609_3827_13_7d93c9)"/>
+<defs><radialGradient id="n31_2440_3658_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="244.01" cy="365.77" r="13" fill="url(#n31_2440_3658_13_7d93c9)"/>
+<defs><radialGradient id="n31_2668_3616_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="266.83" cy="361.55" r="13" fill="url(#n31_2668_3616_13_7d93c9)"/>
+<defs><radialGradient id="n31_3089_3759_12_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="308.94" cy="375.9" r="12" fill="url(#n31_3089_3759_12_7d93c9)"/>
+<defs><radialGradient id="n31_3300_3720_12_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="330" cy="372" r="12" fill="url(#n31_3300_3720_12_7d93c9)"/>
+<defs><radialGradient id="n31_3456_3876_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="345.6" cy="387.6" r="12" fill="url(#n31_3456_3876_12_b6e09a)"/>
+<defs><radialGradient id="n31_3144_3564_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="314.4" cy="356.4" r="12" fill="url(#n31_3144_3564_12_b6e09a)"/>
+<defs><radialGradient id="n31_3511_3681_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="351.06" cy="368.1" r="12" fill="url(#n31_3511_3681_12_b6e09a)"/>
+<defs><radialGradient id="n31_3355_3525_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="335.46" cy="352.5" r="12" fill="url(#n31_3355_3525_12_b6e09a)"/>
+<defs><radialGradient id="n31_3932_3785_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="393.17" cy="378.45" r="13" fill="url(#n31_3932_3785_13_7d93c9)"/>
+<defs><radialGradient id="n31_3991_3911_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="399.08" cy="391.13" r="13" fill="url(#n31_3991_3911_13_7d93c9)"/>
+<defs><radialGradient id="n31_3822_3742_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="382.19" cy="374.23" r="13" fill="url(#n31_3822_3742_13_b6e09a)"/>
+<defs><radialGradient id="n31_4160_3742_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="415.99" cy="374.23" r="13" fill="url(#n31_4160_3742_13_b6e09a)"/>
+<defs><radialGradient id="n31_3991_3573_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="399.08" cy="357.32" r="13" fill="url(#n31_3991_3573_13_b6e09a)"/>
+<defs><radialGradient id="n31_4050_3700_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="405" cy="370" r="13" fill="url(#n31_4050_3700_13_7d93c9)"/>
+<defs><radialGradient id="n31_4219_3869_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="421.9" cy="386.9" r="13" fill="url(#n31_4219_3869_13_7d93c9)"/>
+<defs><radialGradient id="n31_3881_3531_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="388.1" cy="353.1" r="13" fill="url(#n31_3881_3531_13_b6e09a)"/>
+<defs><radialGradient id="n31_4219_3531_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="421.9" cy="353.1" r="13" fill="url(#n31_4219_3531_13_7d93c9)"/>
+<defs><radialGradient id="n31_3881_3869_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="388.1" cy="386.9" r="13" fill="url(#n31_3881_3869_13_b6e09a)"/>
+<defs><radialGradient id="n31_4388_3700_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="438.8" cy="370" r="13" fill="url(#n31_4388_3700_13_7d93c9)"/>
+<defs><radialGradient id="n31_4050_3362_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="405" cy="336.2" r="13" fill="url(#n31_4050_3362_13_7d93c9)"/>
+<defs><radialGradient id="n31_4050_4038_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="405" cy="403.8" r="13" fill="url(#n31_4050_4038_13_b6e09a)"/>
+<defs><radialGradient id="n31_3712_3700_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="371.2" cy="370" r="13" fill="url(#n31_3712_3700_13_b6e09a)"/>
+<defs><radialGradient id="n31_3940_3658_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="394.01" cy="365.77" r="13" fill="url(#n31_3940_3658_13_b6e09a)"/>
+<defs><radialGradient id="n31_4278_3658_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="427.81" cy="365.77" r="13" fill="url(#n31_4278_3658_13_b6e09a)"/>
+<defs><radialGradient id="n31_4109_3489_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="410.92" cy="348.88" r="13" fill="url(#n31_4109_3489_13_b6e09a)"/>
+<defs><radialGradient id="n31_4109_3827_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="410.92" cy="382.68" r="13" fill="url(#n31_4109_3827_13_b6e09a)"/>
+<defs><radialGradient id="n31_4168_3616_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="416.83" cy="361.55" r="13" fill="url(#n31_4168_3616_13_b6e09a)"/>
+<text x="60" y="427" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<defs><radialGradient id="n31_2182_6085_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="218.17" cy="608.45" r="13" fill="url(#n31_2182_6085_13_7d93c9)"/>
+<defs><radialGradient id="n31_2410_6042_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="240.99" cy="604.23" r="13" fill="url(#n31_2410_6042_13_b6e09a)"/>
+<defs><radialGradient id="n31_2241_5873_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="224.09" cy="587.33" r="13" fill="url(#n31_2241_5873_13_b6e09a)"/>
+<defs><radialGradient id="n31_2241_6211_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="224.09" cy="621.13" r="13" fill="url(#n31_2241_6211_13_7d93c9)"/>
+<defs><radialGradient id="n31_2072_6042_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="207.19" cy="604.23" r="13" fill="url(#n31_2072_6042_13_b6e09a)"/>
+<defs><radialGradient id="n31_1903_5873_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="190.28" cy="587.33" r="13" fill="url(#n31_1903_5873_13_7d93c9)"/>
+<defs><radialGradient id="n31_2300_6000_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="230" cy="600" r="13" fill="url(#n31_2300_6000_13_b6e09a)"/>
+<defs><radialGradient id="n31_2131_5831_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="213.1" cy="583.1" r="13" fill="url(#n31_2131_5831_13_b6e09a)"/>
+<defs><radialGradient id="n31_2469_5831_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="246.9" cy="583.1" r="13" fill="url(#n31_2469_5831_13_7d93c9)"/>
+<defs><radialGradient id="n31_2131_6169_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="213.1" cy="616.9" r="13" fill="url(#n31_2131_6169_13_b6e09a)"/>
+<defs><radialGradient id="n31_2469_6169_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="246.9" cy="616.9" r="13" fill="url(#n31_2469_6169_13_b6e09a)"/>
+<defs><radialGradient id="n31_2638_6000_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="263.8" cy="600" r="13" fill="url(#n31_2638_6000_13_b6e09a)"/>
+<defs><radialGradient id="n31_2300_5662_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="230" cy="566.2" r="13" fill="url(#n31_2300_5662_13_b6e09a)"/>
+<defs><radialGradient id="n31_2300_6338_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="230" cy="633.8" r="13" fill="url(#n31_2300_6338_13_7d93c9)"/>
+<defs><radialGradient id="n31_1962_6000_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="196.2" cy="600" r="13" fill="url(#n31_1962_6000_13_b6e09a)"/>
+<defs><radialGradient id="n31_2528_5958_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="252.81" cy="595.77" r="13" fill="url(#n31_2528_5958_13_7d93c9)"/>
+<defs><radialGradient id="n31_2359_5789_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="235.91" cy="578.88" r="13" fill="url(#n31_2359_5789_13_b6e09a)"/>
+<defs><radialGradient id="n31_2359_6127_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="235.91" cy="612.67" r="13" fill="url(#n31_2359_6127_13_7d93c9)"/>
+<defs><radialGradient id="n31_2190_5958_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="219.01" cy="595.77" r="13" fill="url(#n31_2190_5958_13_7d93c9)"/>
+<defs><radialGradient id="n31_2418_5916_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="241.83" cy="591.55" r="13" fill="url(#n31_2418_5916_13_7d93c9)"/>
+<defs><radialGradient id="n31_2249_5747_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="224.93" cy="574.65" r="13" fill="url(#n31_2249_5747_13_b6e09a)"/>
+<defs><radialGradient id="n31_4182_6085_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="418.17" cy="608.45" r="13" fill="url(#n31_4182_6085_13_7d93c9)"/>
+<defs><radialGradient id="n31_4241_6211_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="424.08" cy="621.13" r="13" fill="url(#n31_4241_6211_13_7d93c9)"/>
+<defs><radialGradient id="n31_4072_6042_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="407.19" cy="604.23" r="13" fill="url(#n31_4072_6042_13_b6e09a)"/>
+<defs><radialGradient id="n31_4410_6042_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="440.99" cy="604.23" r="13" fill="url(#n31_4410_6042_13_b6e09a)"/>
+<defs><radialGradient id="n31_4241_5873_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="424.08" cy="587.33" r="13" fill="url(#n31_4241_5873_13_7d93c9)"/>
+<defs><radialGradient id="n31_4300_6000_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="430" cy="600" r="13" fill="url(#n31_4300_6000_13_7d93c9)"/>
+<defs><radialGradient id="n31_4469_6169_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="446.9" cy="616.9" r="13" fill="url(#n31_4469_6169_13_7d93c9)"/>
+<defs><radialGradient id="n31_4131_5831_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="413.1" cy="583.1" r="13" fill="url(#n31_4131_5831_13_b6e09a)"/>
+<defs><radialGradient id="n31_4469_5831_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="446.9" cy="583.1" r="13" fill="url(#n31_4469_5831_13_7d93c9)"/>
+<defs><radialGradient id="n31_4131_6169_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="413.1" cy="616.9" r="13" fill="url(#n31_4131_6169_13_b6e09a)"/>
+<defs><radialGradient id="n31_4638_6000_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="463.8" cy="600" r="13" fill="url(#n31_4638_6000_13_7d93c9)"/>
+<defs><radialGradient id="n31_4300_5662_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="430" cy="566.2" r="13" fill="url(#n31_4300_5662_13_7d93c9)"/>
+<defs><radialGradient id="n31_4300_6338_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="430" cy="633.8" r="13" fill="url(#n31_4300_6338_13_b6e09a)"/>
+<defs><radialGradient id="n31_3962_6000_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="396.2" cy="600" r="13" fill="url(#n31_3962_6000_13_b6e09a)"/>
+<defs><radialGradient id="n31_4190_5958_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="419.01" cy="595.77" r="13" fill="url(#n31_4190_5958_13_b6e09a)"/>
+<defs><radialGradient id="n31_4528_5958_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="452.81" cy="595.77" r="13" fill="url(#n31_4528_5958_13_b6e09a)"/>
+<defs><radialGradient id="n31_4359_5789_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="435.92" cy="578.88" r="13" fill="url(#n31_4359_5789_13_b6e09a)"/>
+<defs><radialGradient id="n31_4359_6127_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="435.92" cy="612.67" r="13" fill="url(#n31_4359_6127_13_b6e09a)"/>
+<defs><radialGradient id="n31_4021_5789_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="402.12" cy="578.88" r="13" fill="url(#n31_4021_5789_13_b6e09a)"/>
+<defs><radialGradient id="n31_4418_5916_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="441.83" cy="591.55" r="13" fill="url(#n31_4418_5916_13_b6e09a)"/>
+<defs><radialGradient id="n31_4587_6085_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="458.73" cy="608.45" r="13" fill="url(#n31_4587_6085_13_b6e09a)"/>
+<text x="220" y="551.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="440" y="551.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<line x1="190" y1="620" x2="88.02" y2="653.99" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="70,660 86.44,646.09 91.5,661.26" fill="#5ab43c"/>
+<line x1="470" y1="580" x2="581.84" y2="545.59" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="600,540 583.24,553.53 578.53,538.24" fill="#5ab43c"/>
+<text x="60" y="657" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<defs><radialGradient id="n31_2082_8685_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="208.17" cy="868.45" r="13" fill="url(#n31_2082_8685_13_7d93c9)"/>
+<defs><radialGradient id="n31_1913_8854_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="191.27" cy="885.35" r="13" fill="url(#n31_1913_8854_13_b6e09a)"/>
+<defs><radialGradient id="n31_2141_8811_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="214.09" cy="881.13" r="13" fill="url(#n31_2141_8811_13_b6e09a)"/>
+<defs><radialGradient id="n31_1972_8642_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="197.19" cy="864.23" r="13" fill="url(#n31_1972_8642_13_b6e09a)"/>
+<defs><radialGradient id="n31_2310_8642_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="230.99" cy="864.23" r="13" fill="url(#n31_2310_8642_13_7d93c9)"/>
+<defs><radialGradient id="n31_2141_8473_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="214.09" cy="847.33" r="13" fill="url(#n31_2141_8473_13_b6e09a)"/>
+<defs><radialGradient id="n31_2200_8600_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="220" cy="860" r="13" fill="url(#n31_2200_8600_13_7d93c9)"/>
+<defs><radialGradient id="n31_2369_8769_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="236.9" cy="876.9" r="13" fill="url(#n31_2369_8769_13_b6e09a)"/>
+<defs><radialGradient id="n31_2031_8431_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="203.1" cy="843.1" r="13" fill="url(#n31_2031_8431_13_7d93c9)"/>
+<defs><radialGradient id="n31_2369_8431_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="236.9" cy="843.1" r="13" fill="url(#n31_2369_8431_13_b6e09a)"/>
+<defs><radialGradient id="n31_2031_8769_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="203.1" cy="876.9" r="13" fill="url(#n31_2031_8769_13_7d93c9)"/>
+<defs><radialGradient id="n31_1862_8600_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="186.2" cy="860" r="13" fill="url(#n31_1862_8600_13_7d93c9)"/>
+<defs><radialGradient id="n31_2538_8600_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="253.8" cy="860" r="13" fill="url(#n31_2538_8600_13_b6e09a)"/>
+<defs><radialGradient id="n31_2200_8262_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="220" cy="826.2" r="13" fill="url(#n31_2200_8262_13_b6e09a)"/>
+<defs><radialGradient id="n31_2200_8938_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="220" cy="893.8" r="13" fill="url(#n31_2200_8938_13_b6e09a)"/>
+<defs><radialGradient id="n31_2259_8727_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="225.91" cy="872.67" r="13" fill="url(#n31_2259_8727_13_7d93c9)"/>
+<defs><radialGradient id="n31_2090_8558_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="209.01" cy="855.77" r="13" fill="url(#n31_2090_8558_13_7d93c9)"/>
+<defs><radialGradient id="n31_2428_8558_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="242.81" cy="855.77" r="13" fill="url(#n31_2428_8558_13_7d93c9)"/>
+<defs><radialGradient id="n31_2259_8389_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="225.91" cy="838.88" r="13" fill="url(#n31_2259_8389_13_b6e09a)"/>
+<defs><radialGradient id="n31_2318_8516_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="231.83" cy="851.55" r="13" fill="url(#n31_2318_8516_13_b6e09a)"/>
+<defs><radialGradient id="n31_4282_8685_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="428.17" cy="868.45" r="13" fill="url(#n31_4282_8685_13_b6e09a)"/>
+<defs><radialGradient id="n31_4341_8811_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="434.08" cy="881.13" r="13" fill="url(#n31_4341_8811_13_b6e09a)"/>
+<defs><radialGradient id="n31_4172_8642_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="417.19" cy="864.23" r="13" fill="url(#n31_4172_8642_13_7d93c9)"/>
+<defs><radialGradient id="n31_4510_8642_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="450.99" cy="864.23" r="13" fill="url(#n31_4510_8642_13_b6e09a)"/>
+<defs><radialGradient id="n31_4341_8473_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="434.08" cy="847.33" r="13" fill="url(#n31_4341_8473_13_7d93c9)"/>
+<defs><radialGradient id="n31_4510_8304_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="450.99" cy="830.42" r="13" fill="url(#n31_4510_8304_13_b6e09a)"/>
+<defs><radialGradient id="n31_4400_8600_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="440" cy="860" r="13" fill="url(#n31_4400_8600_13_b6e09a)"/>
+<defs><radialGradient id="n31_4231_8769_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="423.1" cy="876.9" r="13" fill="url(#n31_4231_8769_13_b6e09a)"/>
+<defs><radialGradient id="n31_4569_8769_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="456.9" cy="876.9" r="13" fill="url(#n31_4569_8769_13_b6e09a)"/>
+<defs><radialGradient id="n31_4231_8431_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="423.1" cy="843.1" r="13" fill="url(#n31_4231_8431_13_7d93c9)"/>
+<defs><radialGradient id="n31_4569_8431_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="456.9" cy="843.1" r="13" fill="url(#n31_4569_8431_13_7d93c9)"/>
+<defs><radialGradient id="n31_4062_8600_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="406.2" cy="860" r="13" fill="url(#n31_4062_8600_13_b6e09a)"/>
+<defs><radialGradient id="n31_4738_8600_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="473.8" cy="860" r="13" fill="url(#n31_4738_8600_13_7d93c9)"/>
+<defs><radialGradient id="n31_4400_8262_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="440" cy="826.2" r="13" fill="url(#n31_4400_8262_13_7d93c9)"/>
+<defs><radialGradient id="n31_4400_8938_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="440" cy="893.8" r="13" fill="url(#n31_4400_8938_13_7d93c9)"/>
+<defs><radialGradient id="n31_4459_8727_13_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="445.92" cy="872.67" r="13" fill="url(#n31_4459_8727_13_7d93c9)"/>
+<defs><radialGradient id="n31_4290_8558_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="429.01" cy="855.77" r="13" fill="url(#n31_4290_8558_13_b6e09a)"/>
+<defs><radialGradient id="n31_4628_8558_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="462.81" cy="855.77" r="13" fill="url(#n31_4628_8558_13_b6e09a)"/>
+<defs><radialGradient id="n31_4459_8389_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="445.92" cy="838.88" r="13" fill="url(#n31_4459_8389_13_b6e09a)"/>
+<defs><radialGradient id="n31_4518_8516_13_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="451.83" cy="851.55" r="13" fill="url(#n31_4518_8516_13_b6e09a)"/>
+<line x1="180" y1="880" x2="68.16" y2="914.41" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="50,920 66.76,906.47 71.47,921.76" fill="#5ab43c"/>
+<line x1="480" y1="840" x2="591.84" y2="805.59" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="610,800 593.24,813.53 588.53,798.24" fill="#5ab43c"/>
+<defs><radialGradient id="n31_3000_7400_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="300" cy="740" r="12" fill="url(#n31_3000_7400_12_b6e09a)"/>
+<line x1="300" y1="740" x2="222.69" y2="722.82" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="210,720 224.88,717.57 222.45,728.5" fill="#5ab43c"/>
+<defs><radialGradient id="n31_3500_7600_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="350" cy="760" r="12" fill="url(#n31_3500_7600_12_b6e09a)"/>
+<line x1="350" y1="760" x2="390.81" y2="719.19" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="400,710 394.06,723.86 386.14,715.94" fill="#5ab43c"/>
+<defs><radialGradient id="n31_3400_9400_12_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="340" cy="940" r="12" fill="url(#n31_3400_9400_12_b6e09a)"/>
+<line x1="340" y1="940" x2="398.71" y2="973.55" stroke="#5ab43c" stroke-width="4"/>
+<polygon points="410,980 395.07,977.92 400.62,968.19" fill="#5ab43c"/>
+<text x="220" y="960.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">FF</tspan><tspan font-size="21" dy="8.4"><tspan font-style="normal">1</tspan></tspan><tspan dy="-8.4">​</tspan></text>
+<text x="440" y="960.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">FF</tspan><tspan font-size="21" dy="8.4"><tspan font-style="normal">2</tspan></tspan><tspan dy="-8.4">​</tspan></text>
+<text x="60" y="967" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">)</tspan></text>
+</svg>
