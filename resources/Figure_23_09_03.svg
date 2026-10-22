@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" role="img" aria-labelledby="title desc">
+<title id="title">Charging a capacitor by switching an inductor</title>
+<desc id="desc">An inductor L joins two switch points. From each, a switch blade connects either to a capacitor C (solid arrows) or to a battery of voltage V (dashed arrows). Rapidly switching the inductor from the battery to the capacitor induces an emf of several thousand volts, which charges the capacitor.</desc>
+<rect width="560" height="470" fill="#ffffff"/>
+<polyline points="30,250 30,40 530,40 530,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="205" y1="40" x2="355" y2="40" stroke="#ffffff" stroke-width="8"/>
+<line x1="205" y1="40" x2="205" y2="40" stroke="#222222" stroke-width="2"/>
+<line x1="355" y1="40" x2="355" y2="40" stroke="#222222" stroke-width="2"/>
+<path d="M 205 40 A 25 25 0 0 1 255 40 A 25 25 0 0 1 305 40 A 25 25 0 0 1 355 40" fill="none" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>
+<text x="280" y="95.9" font-family="'Times New Roman', Times, serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan></text>
+<polyline points="110,180 450,180" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="270" y1="180" x2="290" y2="180" stroke="#ffffff" stroke-width="8"/>
+<line x1="270" y1="180" x2="270" y2="180" stroke="#222222" stroke-width="2"/>
+<line x1="290" y1="180" x2="290" y2="180" stroke="#222222" stroke-width="2"/>
+<line x1="270" y1="150" x2="270" y2="210" stroke="#1b7a4a" stroke-width="4"/>
+<line x1="290" y1="150" x2="290" y2="210" stroke="#1b7a4a" stroke-width="4"/>
+<text x="280" y="247.9" font-family="'Times New Roman', Times, serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan></text>
+<polyline points="110,330 450,330" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="270" y1="330" x2="290" y2="330" stroke="#ffffff" stroke-width="8"/>
+<line x1="270" y1="330" x2="270" y2="330" stroke="#222222" stroke-width="2"/>
+<line x1="290" y1="330" x2="290" y2="330" stroke="#222222" stroke-width="2"/>
+<line x1="270" y1="305" x2="270" y2="355" stroke="#c62828" stroke-width="5"/>
+<line x1="290" y1="280" x2="290" y2="380" stroke="#c62828" stroke-width="3"/>
+<text x="280" y="421.9" font-family="'Times New Roman', Times, serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<circle cx="30" cy="250" r="6" fill="#a01c38"/>
+<line x1="36" y1="244" x2="98.15" y2="190.48" stroke="#222222" stroke-width="2"/>
+<polygon points="108,182 101.05,195.38 93.74,186.89" fill="#222222"/>
+<line x1="36" y1="256" x2="98.81" y2="318.81" stroke="#222222" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="108,328 94.14,322.06 102.06,314.14" fill="#222222"/>
+<circle cx="530" cy="250" r="6" fill="#a01c38"/>
+<line x1="524" y1="244" x2="461.85" y2="190.48" stroke="#222222" stroke-width="2"/>
+<polygon points="452,182 466.26,186.89 458.95,195.38" fill="#222222"/>
+<line x1="524" y1="256" x2="461.19" y2="318.81" stroke="#222222" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="452,328 457.94,314.14 465.86,322.06" fill="#222222"/>
+</svg>

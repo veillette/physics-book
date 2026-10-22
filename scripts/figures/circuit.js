@@ -342,3 +342,21 @@ export function headlight(svg, x, y, { s = 1 } = {}) {
   });
   svg.add(`<g transform="translate(${x} ${y}) scale(${s})">${inner}</g>`);
 }
+
+/**
+ * Inductor: n half-loops between P and Q, bulging to the side opposite the
+ * segment's left-hand normal (above a left-to-right wire) unless `flip`.
+ */
+export function inductor(
+  svg,
+  P,
+  Q,
+  { size = 66, n = 3, color = WIRE, width = 2.5, flip = false } = {}
+) {
+  const { A, ux, uy } = leads(svg, P, Q, size);
+  const r = size / (2 * n);
+  let d = `M ${A[0]} ${A[1]}`;
+  for (let k = 1; k <= n; k += 1)
+    d += ` A ${r} ${r} 0 0 ${flip ? 0 : 1} ${A[0] + ux * 2 * r * k} ${A[1] + uy * 2 * r * k}`;
+  svg.path(d, { color, width });
+}

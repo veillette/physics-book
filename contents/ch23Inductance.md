@@ -82,7 +82,7 @@ where $$L $$ is the self-inductance of the device. A device that exhibits signif
 self-inductance is called an **inductor**, and given the symbol
 in [[Figure 3]](#Figure3).
 
-![Two straight lines connected by three half-circles adjacent to each other.](../resources/Figure_23_09_05.jpg " ")
+![Two straight lines connected by three half-circles adjacent to each other.](../resources/Figure_23_09_05.svg " ")
 {: #Figure3}
 
 The minus sign is an expression of Lenz’s law, indicating that emf opposes the
@@ -111,7 +111,7 @@ boosted to over one thousand volts. (You may hear the high pitched whine from
 the transformer as the capacitor is being charged.) A capacitor stores the high
 voltage for later use in powering the flash. (See [[Figure 4]](#Figure4).)
 
-![The figure describes an inductor L which is connected in parallel to a capacitor C through a variable switch. There is a cell of voltage V placed parallel to the capacitor. The ends of switch can be removed from the capacitor and connected to Cell V for charging. This variable connection is shown as dashed arrows.](../resources/Figure_23_09_03.jpg "Through rapid switching of an inductor, 1.5 V batteries can be used to induce emfs of several thousand volts. This voltage can be used to store charge in a capacitor for later use, such as in a camera flash attachment.")
+![The figure describes an inductor L which is connected in parallel to a capacitor C through a variable switch. There is a cell of voltage V placed parallel to the capacitor. The ends of switch can be removed from the capacitor and connected to Cell V for charging. This variable connection is shown as dashed arrows.](../resources/Figure_23_09_03.svg "Through rapid switching of an inductor, 1.5 V batteries can be used to induce emfs of several thousand volts. This voltage can be used to store charge in a capacitor for later use, such as in a camera flash attachment.")
 {: #Figure4}
 
 It is possible to calculate $$L $$ for an inductor given its geometry (size and

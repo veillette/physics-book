@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="560" viewBox="0 0 620 560" role="img" aria-labelledby="title desc">
+<title id="title">Capacitors coupling two circuits</title>
+<desc id="desc">(a) Circuit 1 sends a signal to circuit 2 through a capacitor C connected in series between them. (b) Circuit 1 is wired directly to circuit 2, and a capacitor C connects the line between them to ground. Each circuit is grounded.</desc>
+<rect width="620" height="560" fill="#ffffff"/>
+<rect x="40" y="30" width="120" height="120" fill="#d5daf0" stroke="#6b76a8" stroke-width="1.5"/>
+<rect x="440" y="30" width="120" height="120" fill="#d9e9b8" stroke="#7d9a46" stroke-width="1.5"/>
+<text x="100" y="85" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Circuit</tspan></text>
+<text x="100" y="111" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="500" y="85" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Circuit</tspan></text>
+<text x="500" y="111" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="100" y1="150" x2="100" y2="172" stroke="#222222" stroke-width="2"/>
+<line x1="86" y1="172" x2="114" y2="172" stroke="#222222" stroke-width="2"/>
+<line x1="91" y1="178" x2="109" y2="178" stroke="#222222" stroke-width="2"/>
+<line x1="96" y1="184" x2="104" y2="184" stroke="#222222" stroke-width="2"/>
+<line x1="500" y1="150" x2="500" y2="172" stroke="#222222" stroke-width="2"/>
+<line x1="486" y1="172" x2="514" y2="172" stroke="#222222" stroke-width="2"/>
+<line x1="491" y1="178" x2="509" y2="178" stroke="#222222" stroke-width="2"/>
+<line x1="496" y1="184" x2="504" y2="184" stroke="#222222" stroke-width="2"/>
+<polyline points="160,90 440,90" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="293" y1="90" x2="307" y2="90" stroke="#ffffff" stroke-width="8"/>
+<line x1="293" y1="90" x2="293" y2="90" stroke="#222222" stroke-width="2"/>
+<line x1="307" y1="90" x2="307" y2="90" stroke="#222222" stroke-width="2"/>
+<line x1="293" y1="70" x2="293" y2="110" stroke="#1b7a4a" stroke-width="4"/>
+<line x1="307" y1="70" x2="307" y2="110" stroke="#1b7a4a" stroke-width="4"/>
+<text x="300" y="60.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan></text>
+<line x1="176" y1="108" x2="227" y2="108" stroke="#222222" stroke-width="1.4"/>
+<polygon points="236,108 226,112 226,104" fill="#222222"/>
+<text x="206" y="138.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Signal</tspan></text>
+<text x="300" y="246.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="40" y="300" width="120" height="120" fill="#d5daf0" stroke="#6b76a8" stroke-width="1.5"/>
+<rect x="440" y="300" width="120" height="120" fill="#d9e9b8" stroke="#7d9a46" stroke-width="1.5"/>
+<text x="100" y="355" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Circuit</tspan></text>
+<text x="100" y="381" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="500" y="355" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Circuit</tspan></text>
+<text x="500" y="381" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="100" y1="420" x2="100" y2="442" stroke="#222222" stroke-width="2"/>
+<line x1="86" y1="442" x2="114" y2="442" stroke="#222222" stroke-width="2"/>
+<line x1="91" y1="448" x2="109" y2="448" stroke="#222222" stroke-width="2"/>
+<line x1="96" y1="454" x2="104" y2="454" stroke="#222222" stroke-width="2"/>
+<line x1="500" y1="420" x2="500" y2="442" stroke="#222222" stroke-width="2"/>
+<line x1="486" y1="442" x2="514" y2="442" stroke="#222222" stroke-width="2"/>
+<line x1="491" y1="448" x2="509" y2="448" stroke="#222222" stroke-width="2"/>
+<line x1="496" y1="454" x2="504" y2="454" stroke="#222222" stroke-width="2"/>
+<polyline points="160,360 440,360" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="300,360 300,434" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="300" cy="360" r="4" fill="#222222"/>
+<line x1="300" y1="434" x2="300" y2="442" stroke="#222222" stroke-width="2"/>
+<line x1="300" y1="456" x2="300" y2="464" stroke="#222222" stroke-width="2"/>
+<line x1="320" y1="442" x2="280" y2="442" stroke="#1b7a4a" stroke-width="4"/>
+<line x1="320" y1="456" x2="280" y2="456" stroke="#1b7a4a" stroke-width="4"/>
+<line x1="300" y1="464" x2="300" y2="474" stroke="#222222" stroke-width="2"/>
+<line x1="286" y1="474" x2="314" y2="474" stroke="#222222" stroke-width="2"/>
+<line x1="291" y1="480" x2="309" y2="480" stroke="#222222" stroke-width="2"/>
+<line x1="296" y1="486" x2="304" y2="486" stroke="#222222" stroke-width="2"/>
+<text x="330" y="464.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">C</tspan></text>
+<line x1="176" y1="378" x2="227" y2="378" stroke="#222222" stroke-width="1.4"/>
+<polygon points="236,378 226,382 226,374" fill="#222222"/>
+<text x="206" y="408.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Signal</tspan></text>
+<text x="300" y="551.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

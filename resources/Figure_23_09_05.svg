@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="92" viewBox="0 0 500 92" role="img" aria-labelledby="title desc">
+<title id="title">Circuit symbol for an inductor</title>
+<desc id="desc">The circuit symbol for an inductor: a straight lead, three adjoining half-loops, and another straight lead.</desc>
+<rect width="500" height="92" fill="#ffffff"/>
+<line x1="10" y1="70" x2="160" y2="70" stroke="#222222" stroke-width="2"/>
+<line x1="340" y1="70" x2="490" y2="70" stroke="#222222" stroke-width="2"/>
+<path d="M 160 70 A 30 30 0 0 1 220 70 A 30 30 0 0 1 280 70 A 30 30 0 0 1 340 70" fill="none" stroke="#222222" stroke-width="4" stroke-linejoin="round"/>
+<line x1="10" y1="70" x2="160" y2="70" stroke="#222222" stroke-width="4"/>
+<line x1="340" y1="70" x2="490" y2="70" stroke="#222222" stroke-width="4"/>
+</svg>

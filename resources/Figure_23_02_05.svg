@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="440" viewBox="0 0 520 440" role="img" aria-labelledby="title desc">
+<title id="title">Three loops near a coil</title>
+<desc id="desc">A coil of many turns is in a circuit with a cell and an open switch. Three single loops lie nearby: loop 1 to the left of the coil, loop 2 to the right, and loop 3 above it.</desc>
+<rect width="520" height="440" fill="#ffffff"/>
+<polyline points="80,210 420,210 420,380 80,380 80,210" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="185" y1="210" x2="315" y2="210" stroke="#ffffff" stroke-width="8"/>
+<polyline points="185,210 186.11,201.72 187.61,194 189.47,187.37 191.61,182.29 193.96,179.09 196.42,178 198.87,179.09 201.22,182.29 203.37,187.37 205.22,194 206.73,201.72 207.83,210 208.53,218.28 208.84,226 208.78,232.63 208.44,237.71 207.9,240.91 207.25,242 206.6,240.91 206.06,237.71 205.72,232.63 205.66,226 205.97,218.28 206.67,210 207.77,201.72 209.28,194 211.13,187.37 213.28,182.29 215.63,179.09 218.08,178 220.54,179.09 222.89,182.29 225.03,187.37 226.89,194 228.39,201.72 229.5,210 230.2,218.28 230.5,226 230.45,232.63 230.11,237.71 229.57,240.91 228.92,242 228.27,240.91 227.72,237.71 227.38,232.63 227.33,226 227.64,218.28 228.33,210 229.44,201.72 230.94,194 232.8,187.37 234.94,182.29 237.29,179.09 239.75,178 242.21,179.09 244.56,182.29 246.7,187.37 248.56,194 250.06,201.72 251.17,210 251.86,218.28 252.17,226 252.12,232.63 251.78,237.71 251.23,240.91 250.58,242 249.93,240.91 249.39,237.71 249.05,232.63 249,226 249.3,218.28 250,210 251.11,201.72 252.61,194 254.47,187.37 256.61,182.29 258.96,179.09 261.42,178 263.87,179.09 266.22,182.29 268.37,187.37 270.22,194 271.73,201.72 272.83,210 273.53,218.28 273.84,226 273.78,232.63 273.44,237.71 272.9,240.91 272.25,242 271.6,240.91 271.06,237.71 270.72,232.63 270.66,226 270.97,218.28 271.67,210 272.77,201.72 274.28,194 276.13,187.37 278.28,182.29 280.63,179.09 283.08,178 285.54,179.09 287.89,182.29 290.03,187.37 291.89,194 293.39,201.72 294.5,210 295.2,218.28 295.5,226 295.45,232.63 295.11,237.71 294.57,240.91 293.92,242 293.27,240.91 292.72,237.71 292.38,232.63 292.33,226 292.64,218.28 293.33,210 294.44,201.72 295.94,194 297.8,187.37 299.94,182.29 302.29,179.09 304.75,178 307.21,179.09 309.56,182.29 311.7,187.37 313.56,194 315.06,201.72 316.17,210 316.86,218.28 317.17,226 317.12,232.63 316.78,237.71 316.23,240.91 315.58,242 314.93,240.91 314.39,237.71 314.05,232.63 314,226 314.3,218.28 315,210" fill="none" stroke="#333333" stroke-width="3" stroke-linejoin="round"/>
+<line x1="130" y1="380" x2="190" y2="380" stroke="#ffffff" stroke-width="8"/>
+<circle cx="130" cy="380" r="5" fill="#a01c38"/>
+<circle cx="190" cy="380" r="5" fill="#a01c38"/>
+<line x1="130" y1="380" x2="186" y2="354" stroke="#222222" stroke-width="2.5"/>
+<line x1="255" y1="380" x2="275" y2="380" stroke="#ffffff" stroke-width="8"/>
+<line x1="255" y1="380" x2="257" y2="380" stroke="#222222" stroke-width="2"/>
+<line x1="273" y1="380" x2="275" y2="380" stroke="#222222" stroke-width="2"/>
+<line x1="257" y1="362" x2="257" y2="398" stroke="#c62828" stroke-width="5"/>
+<line x1="273" y1="347" x2="273" y2="413" stroke="#c62828" stroke-width="3"/>
+<text x="238" y="364.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="296" y="362.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<ellipse cx="36" cy="272" rx="20" ry="46" fill="none" stroke="#777777" stroke-width="9"/>
+<ellipse cx="36" cy="272" rx="20" ry="46" fill="none" stroke="#d4d4d4" stroke-width="4"/>
+<ellipse cx="468" cy="280" rx="20" ry="46" fill="none" stroke="#777777" stroke-width="9"/>
+<ellipse cx="468" cy="280" rx="20" ry="46" fill="none" stroke="#d4d4d4" stroke-width="4"/>
+<ellipse cx="250" cy="72" rx="20" ry="46" fill="none" stroke="#777777" stroke-width="9"/>
+<ellipse cx="250" cy="72" rx="20" ry="46" fill="none" stroke="#d4d4d4" stroke-width="4"/>
+<text x="28" y="347.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="462" y="355.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<text x="250" y="149.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+</svg>

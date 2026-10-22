@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" role="img" aria-labelledby="title desc">
+<title id="title">Back emf in a DC motor</title>
+<desc id="desc">A series circuit: a 120 V driving emf, an open switch, the resistance R of the motor coil, and a variable back emf drawn opposite to the driving emf. The back emf ranges from 0 to 120 V and could be greater if the motor is overspun.</desc>
+<rect width="560" height="470" fill="#ffffff"/>
+<polyline points="70,170 400,170 400,360 70,360 70,170" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="115" y1="170" x2="175" y2="170" stroke="#ffffff" stroke-width="8"/>
+<line x1="110" y1="170" x2="115" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="175" y1="170" x2="180" y2="170" stroke="#222222" stroke-width="2"/>
+<polyline points="115,170 120,181 130,159 140,181 150,159 160,181 170,159 175,170" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="145" y="214.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<line x1="300" y1="170" x2="276" y2="170" stroke="#ffffff" stroke-width="8"/>
+<line x1="300" y1="170" x2="299" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="277" y1="170" x2="276" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="299" y1="193" x2="299" y2="147" stroke="#c62828" stroke-width="5"/>
+<line x1="277" y1="215" x2="277" y2="125" stroke="#c62828" stroke-width="3"/>
+<line x1="240" y1="200" x2="335.19" y2="146.35" stroke="#222222" stroke-width="2.5"/>
+<polygon points="350,138 337.85,153.11 330.78,140.57" fill="#222222"/>
+<text x="330" y="248.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Back</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">emf</tspan></text>
+<text x="290" y="54.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0 ⟶ 120 </tspan><tspan font-style="normal">V</tspan></text>
+<text x="290" y="88.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Could</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">be</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">greater</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">if</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">overspun</tspan></text>
+<line x1="120" y1="360" x2="180" y2="360" stroke="#ffffff" stroke-width="8"/>
+<circle cx="120" cy="360" r="5" fill="#a01c38"/>
+<circle cx="180" cy="360" r="5" fill="#a01c38"/>
+<line x1="120" y1="360" x2="176" y2="334" stroke="#222222" stroke-width="2.5"/>
+<line x1="300" y1="360" x2="276" y2="360" stroke="#ffffff" stroke-width="8"/>
+<line x1="300" y1="360" x2="299" y2="360" stroke="#222222" stroke-width="2"/>
+<line x1="277" y1="360" x2="276" y2="360" stroke="#222222" stroke-width="2"/>
+<line x1="299" y1="383" x2="299" y2="337" stroke="#c62828" stroke-width="5"/>
+<line x1="277" y1="415" x2="277" y2="305" stroke="#c62828" stroke-width="3"/>
+<text x="312" y="390.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">120 </tspan><tspan font-style="normal">V</tspan></text>
+<text x="300" y="448.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Driving</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">emf</tspan></text>
+</svg>
