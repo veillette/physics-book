@@ -69,7 +69,7 @@ function planeWave(svg, ox, oy, { len, lambda, A, halfPlane = 1.35 }) {
 }
 
 /** sRGB color of light of wavelength `nm`, dimmed toward the ends of the visible range. */
-function spectral(nm) {
+export function spectral(nm) {
   let r;
   let g;
   let b;

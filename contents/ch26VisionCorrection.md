@@ -157,7 +157,7 @@ eyeglass prescription has a cylindrical correction, it is there to correct
 astigmatism. The normal corrections for short- or farsightedness are spherical
 corrections, uniform along all axes.
 
-![A circle without border and a cross sign in between. A wheel type structure is shown with parallel lines coming from the border of the circle.](../resources/Figure_26_02_04.jpg 'This chart can detect astigmatism, unevenness in the focus of the eye. Check each of your eyes separately by looking at the center cross (without spectacles if you wear them). If lines along some axes appear darker or clearer than others, you have an astigmatism.')
+![A circle without border and a cross sign in between. A wheel type structure is shown with parallel lines coming from the border of the circle.](../resources/Figure_26_02_04.svg 'This chart can detect astigmatism, unevenness in the focus of the eye. Check each of your eyes separately by looking at the center cross (without spectacles if you wear them). If lines along some axes appear darker or clearer than others, you have an astigmatism.')
 {: #Figure4}
 
 Contact lenses have advantages over glasses beyond their cosmetic aspects. One

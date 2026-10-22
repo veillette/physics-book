@@ -204,7 +204,7 @@ $$\theta $$ increases, $$\text{NA} $$ becomes larger and more light is gathered
 from a smaller focal region giving higher resolution. A $$0.75\text{NA} $$
 objective gives more detail than a $$0.10\text{NA} $$ objective.
 
-![Part a of the figure shows a horizontal dotted line, a point P on the line and an objective lens at a distance from the point such that a triangle is formed from point P to the edges of the lens. An angle theta is shown at point P, representing the maximum cone of rays entering the lens from point P. Part b of the figure shows light rays from a specimen entering a camera lens held above it. The rays form an inverted cone.](../resources/Figure_26_04_03.jpg '(a) The numerical aperture (NA)  of a microscope objective lens refers to the light-gathering ability of the lens and is calculated using half the angle of acceptance ( \\theta ). (b) Here, ( \\alpha ); is half the acceptance angle for light rays from a specimen entering a camera lens, and ( D ) is the diameter of the aperture that controls the light entering the lens.')
+![Part a of the figure shows a horizontal dotted line, a point P on the line and an objective lens at a distance from the point such that a triangle is formed from point P to the edges of the lens. An angle theta is shown at point P, representing the maximum cone of rays entering the lens from point P. Part b of the figure shows light rays from a specimen entering a camera lens held above it. The rays form an inverted cone.](../resources/Figure_26_04_03.svg '(a) The numerical aperture (NA)  of a microscope objective lens refers to the light-gathering ability of the lens and is calculated using half the angle of acceptance ( \\theta ). (b) Here, ( \\alpha ); is half the acceptance angle for light rays from a specimen entering a camera lens, and ( D ) is the diameter of the aperture that controls the light entering the lens.')
 {: #Figure3}
 
 While the numerical aperture can be used to compare resolutions of various
@@ -240,7 +240,7 @@ diameter is small. In optical fibers, light needs to be focused into the
 fiber. [[Figure 4]](#Figure4) shows the angle used in calculating the
 $$\text{NA} $$ of an optical fiber.
 
-![Image of a multimode optical fiber in the form of a rectangle is shown. From the edges two diverging lines are coming out, forming the full acceptance angle. A ray of light below the optical axis is entering the fiber. Half of the acceptance angle is shown as alpha max. Inside the fiber, the ray of light strikes the cladding around the fiber and is reflected back into the fiber.](../resources/Figure_26_04_04.jpg "Light rays enter an optical fiber. The numerical aperture of the optical fiber can be determined by using the angle \( \alpha \);max.")
+![Image of a multimode optical fiber in the form of a rectangle is shown. From the edges two diverging lines are coming out, forming the full acceptance angle. A ray of light below the optical axis is entering the fiber. Half of the acceptance angle is shown as alpha max. Inside the fiber, the ray of light strikes the cladding around the fiber and is reflected back into the fiber.](../resources/Figure_26_04_04.svg "Light rays enter an optical fiber. The numerical aperture of the optical fiber can be determined by using the angle \( \alpha \);max.")
 {: #Figure4}
 
 Can the $$\text{NA} $$ be larger than 1.00? The answer is ‘yes’ if we use
@@ -251,7 +251,7 @@ providing a greater light-gathering ability and an increase in
 resolution. [[Figure 5]](#Figure5) shows light rays when using air and immersion
 lenses.
 
-![Diagram of paths of light from a specimen and refracting through air, water, and oil.](../resources/Figure_26_04_05.jpg "Light rays from a specimen entering the objective. Paths for immersion medium of air (a), water (b) \( (n=1.33) \)), and  oil (c)  \( (n=1.51) \) are shown. The water and oil immersions allow more rays to enter the objective, increasing the resolution.")
+![Diagram of paths of light from a specimen and refracting through air, water, and oil.](../resources/Figure_26_04_05.svg "Light rays from a specimen entering the objective. Paths for immersion medium of air (a), water (b) \( (n=1.33) \)), and  oil (c)  \( (n=1.51) \) are shown. The water and oil immersions allow more rays to enter the objective, increasing the resolution.")
 {: #Figure5}
 
 When using a microscope we do not see the entire extent of the sample. Depending

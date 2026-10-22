@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270" role="img" aria-labelledby="title desc">
+<title id="title">Acceptance angle of an optical fiber</title>
+<desc id="desc">A ray enters the end of an optical fiber at the edge of its cone of acceptance, making angle αmax with the axis, and is guided along the core by reflection at the cladding. The two lines bounding the full acceptance angle meet at the fiber’s end.</desc>
+<rect width="880" height="270" fill="#ffffff"/>
+<defs><linearGradient id="core26" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb4c9"/><stop offset="0.12" stop-color="#d9eff7"/><stop offset="0.5" stop-color="#f4fbfd"/><stop offset="0.88" stop-color="#d9eff7"/><stop offset="1" stop-color="#9fb4c9"/></linearGradient></defs>
+<rect x="440" y="90" width="430" height="120" rx="8" fill="url(#core26)" stroke="#8aa0b5" stroke-width="1.5"/>
+<line x1="440" y1="150" x2="110" y2="61.58" stroke="#222222" stroke-width="1.5"/>
+<line x1="440" y1="150" x2="110" y2="238.42" stroke="#222222" stroke-width="1.5"/>
+<line x1="180" y1="150" x2="440" y2="150" stroke="#222222" stroke-width="1.5" stroke-dasharray="8 6"/>
+<line x1="111.59" y1="260" x2="440" y2="172" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="298.97" y1="209.79" x2="306.12" y2="207.87" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="314.43,205.65 306.15,211.84 304.16,204.42" fill="#1fa8d8"/>
+<line x1="440" y1="172" x2="851.02" y2="100" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="676.76" y1="130.53" x2="684.05" y2="129.25" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="692.52,127.76 683.73,133.2 682.4,125.64" fill="#1fa8d8"/>
+<line x1="851.02" y1="100" x2="1008.62" y2="127.61" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="959.37" y1="118.98" x2="966.66" y2="120.26" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="975.13,121.74 965.01,123.87 966.34,116.3" fill="#1fa8d8"/>
+<path d="M 150.22 72.35 A 300 300 0 0 0 150.22 227.65" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 290 150 A 150 150 0 0 0 295.11 188.82" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="250" y="183" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">α</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">max</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="60" y="126.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">full</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">acceptance</tspan></text>
+<text x="60" y="148.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">angle</tspan></text>
+<text x="520" y="66.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cladding</tspan></text>
+<line x1="530" y1="70" x2="540" y2="90" stroke="#222222" stroke-width="1.2"/>
+<text x="500" y="256.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">core</tspan></text>
+<line x1="505" y1="236" x2="530" y2="175" stroke="#222222" stroke-width="1.2"/>
+</svg>

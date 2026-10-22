@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470" role="img" aria-labelledby="title desc">
+<title id="title">Acceptance angle of a microscope objective</title>
+<desc id="desc">(a) Rays from a point P spread to the edges of an objective lens; θ is half the angle of the cone of rays the lens accepts, measured from the axis. The numerical aperture is NA = n sin θ. (b) A cone of light from a specimen enters a microscope objective of diameter D; α is half the acceptance angle.</desc>
+<rect width="760" height="470" fill="#ffffff"/>
+<line x1="80" y1="90" x2="80" y2="330" stroke="#222222" stroke-width="2"/>
+<line x1="80" y1="210" x2="420" y2="210" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 5"/>
+<defs><linearGradient id="tlens_330_210" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9cfc3"/><stop offset="0.5" stop-color="#eef4f0"/><stop offset="1" stop-color="#b9cfc3"/></linearGradient></defs>
+<path d="M 330 115 Q 382 210 330 305 Q 278 210 330 115 Z" fill="url(#tlens_330_210)" stroke="#6f8f80" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="80" y1="210" x2="324" y2="115" stroke="#1fa8d8" stroke-width="2"/>
+<line x1="80" y1="210" x2="324" y2="305" stroke="#1fa8d8" stroke-width="2"/>
+<circle cx="80" cy="210" r="6" fill="#222222"/>
+<path d="M 163.87 242.65 A 90 90 0 0 0 170 210" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="186" y="240.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="58" y="200.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<text x="240" y="447" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<defs><linearGradient id="cone26" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6b25c"/><stop offset="0.5" stop-color="#fde3b9"/><stop offset="1" stop-color="#f6b25c"/></linearGradient></defs>
+<rect x="530" y="40" width="140" height="30" fill="#bcc8d6" stroke="#7d8aa6" stroke-width="1.2"/>
+<rect x="544" y="70" width="112" height="80" fill="#d9b98d" stroke="#8a6a40" stroke-width="1.2"/>
+<rect x="538" y="148" width="124" height="26" fill="#5b9fd8" stroke="#2f6aa0" stroke-width="1.5"/>
+<polygon points="550,174 650,174 600,380" fill="url(#cone26)" fill-opacity="0.9"/>
+<rect x="500" y="380" width="200" height="14" fill="#5b7fc4" stroke="#2f4f8a" stroke-width="1.2"/>
+<line x1="600" y1="20" x2="600" y2="410" stroke="#222222" stroke-width="1.4"/>
+<line x1="569" y1="216" x2="631" y2="216" stroke="#222222" stroke-width="1.6"/>
+<polygon points="640,216 630,220 630,212" fill="#222222"/>
+<polygon points="560,216 570,212 570,220" fill="#222222"/>
+<text x="664" y="224.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">D</tspan></text>
+<path d="M 600 260 A 120 120 0 0 0 571.7 263.39" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="640" y1="260" x2="614" y2="260" stroke="#222222" stroke-width="1.4"/>
+<polygon points="606,260 615,256.4 615,263.6" fill="#222222"/>
+<text x="654" y="268.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">α</tspan></text>
+<text x="480" y="267" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Light</tspan></text>
+<text x="480" y="293" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Cone</tspan></text>
+<line x1="488" y1="266" x2="574" y2="266" stroke="#222222" stroke-width="1.4"/>
+<text x="600" y="447" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>
