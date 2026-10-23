@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="615" viewBox="0 0 560 615" role="img" aria-labelledby="title desc">
+<title id="title">Feynman diagram of virtual Z⁰ exchange</title>
+<desc id="desc">A Feynman diagram with time t up and position x to the right. An electron and an electron neutrino approach each other, exchange a virtual Z⁰ boson, and move apart: the weak nuclear force acting between them.</desc>
+<rect width="560" height="615" fill="#ffffff"/>
+<line x1="30" y1="570" x2="535" y2="570" stroke="#222222" stroke-width="2"/>
+<polygon points="550,570 534,576.4 534,563.6" fill="#222222"/>
+<line x1="30" y1="570" x2="30" y2="25" stroke="#222222" stroke-width="2"/>
+<polygon points="30,10 36.4,26 23.6,26" fill="#222222"/>
+<text x="24" y="22.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan></text>
+<text x="550" y="604.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<line x1="100" y1="525" x2="225" y2="330" stroke="#a5182f" stroke-width="4"/>
+<line x1="505" y1="480" x2="395" y2="290" stroke="#a5182f" stroke-width="4"/>
+<line x1="225" y1="330" x2="101.7" y2="97.09" stroke="#a5182f" stroke-width="4"/>
+<polygon points="90,75 111.36,93.11 92.97,102.84" fill="#a5182f"/>
+<line x1="395" y1="290" x2="499.2" y2="72.55" stroke="#a5182f" stroke-width="4"/>
+<polygon points="510,50 508.14,77.94 489.39,68.95" fill="#a5182f"/>
+<line x1="225" y1="330" x2="395" y2="290" stroke="#a5182f" stroke-width="4"/>
+<polygon points="183.98,394 179.11,419.38 162.94,409.02" fill="#a5182f"/>
+<polygon points="438.49,365.11 458.82,381.08 442.2,390.7" fill="#a5182f"/>
+<polygon points="372.68,295.25 351.52,310.09 347.12,291.4" fill="#a5182f"/>
+<circle cx="301.5" cy="312" r="9" fill="#1aa68a"/>
+<text x="295" y="355.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Z</tspan><tspan font-size="21" dy="-12"><tspan font-style="normal">0</tspan></tspan><tspan dy="12">​</tspan></text>
+<defs><radialGradient id="n31_1375_4665_26_e2d2f2" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#e2d2f2"/><stop offset="1" stop-color="#8a6bb8"/></radialGradient></defs>
+<circle cx="137.5" cy="466.5" r="26" fill="url(#n31_1375_4665_26_e2d2f2)"/>
+<text x="147.5" y="527" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="21" dy="-12"><tspan font-style="normal">−</tspan></tspan><tspan dy="12">​</tspan></text>
+<defs><radialGradient id="n31_1413_1719_26_e2d2f2" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#e2d2f2"/><stop offset="1" stop-color="#8a6bb8"/></radialGradient></defs>
+<circle cx="141.3" cy="171.9" r="26" fill="url(#n31_1413_1719_26_e2d2f2)"/>
+<text x="173.3" y="107.4" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="21" dy="-12"><tspan font-style="normal">−</tspan></tspan><tspan dy="12">​</tspan></text>
+<defs><radialGradient id="n31_4830_4420_14_d9934a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#d9934a"/><stop offset="1" stop-color="#5a3208"/></radialGradient></defs>
+<circle cx="483" cy="442" r="14" fill="url(#n31_4830_4420_14_d9934a)"/>
+<text x="491" y="494.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ν</tspan><tspan font-size="21" dy="8.4"><tspan font-style="normal">e</tspan></tspan><tspan dy="-8.4">​</tspan></text>
+<defs><radialGradient id="n31_4698_1340_14_d9934a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#d9934a"/><stop offset="1" stop-color="#5a3208"/></radialGradient></defs>
+<circle cx="469.75" cy="134" r="14" fill="url(#n31_4698_1340_14_d9934a)"/>
+<text x="519.75" y="72.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ν</tspan><tspan font-size="21" dy="8.4"><tspan font-style="normal">e</tspan></tspan><tspan dy="-8.4">​</tspan></text>
+</svg>

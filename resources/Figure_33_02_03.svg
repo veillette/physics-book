@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="615" viewBox="0 0 560 615" role="img" aria-labelledby="title desc">
+<title id="title">Feynman diagram of virtual pion exchange</title>
+<desc id="desc">A Feynman diagram with time t up and position x to the right. A proton and a neutron approach each other and exchange a virtual positive pion. The proton becomes a neutron at the first vertex, and the neutron becomes a proton when it absorbs the pion: the strong nuclear force is carried by the pion.</desc>
+<rect width="560" height="615" fill="#ffffff"/>
+<line x1="30" y1="570" x2="535" y2="570" stroke="#222222" stroke-width="2"/>
+<polygon points="550,570 534,576.4 534,563.6" fill="#222222"/>
+<line x1="30" y1="570" x2="30" y2="25" stroke="#222222" stroke-width="2"/>
+<polygon points="30,10 36.4,26 23.6,26" fill="#222222"/>
+<text x="24" y="22.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan></text>
+<text x="550" y="604.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<line x1="100" y1="525" x2="225" y2="330" stroke="#a5182f" stroke-width="4"/>
+<line x1="505" y1="480" x2="395" y2="290" stroke="#a5182f" stroke-width="4"/>
+<line x1="225" y1="330" x2="101.7" y2="97.09" stroke="#a5182f" stroke-width="4"/>
+<polygon points="90,75 111.36,93.11 92.97,102.84" fill="#a5182f"/>
+<line x1="395" y1="290" x2="499.2" y2="72.55" stroke="#a5182f" stroke-width="4"/>
+<polygon points="510,50 508.14,77.94 489.39,68.95" fill="#a5182f"/>
+<line x1="225" y1="330" x2="395" y2="290" stroke="#a5182f" stroke-width="4"/>
+<polygon points="183.98,394 179.11,419.38 162.94,409.02" fill="#a5182f"/>
+<polygon points="438.49,365.11 458.82,381.08 442.2,390.7" fill="#a5182f"/>
+<polygon points="372.68,295.25 351.52,310.09 347.12,291.4" fill="#a5182f"/>
+<defs><radialGradient id="n31_3015_3120_22_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs>
+<circle cx="301.5" cy="312" r="22" fill="url(#n31_3015_3120_22_f4a3b0)"/>
+<text x="301.5" y="320.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">π</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<text x="320" y="379.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Virtual</tspan></text>
+<defs><radialGradient id="n31_1375_4665_30_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="137.5" cy="466.5" r="30" fill="url(#n31_1375_4665_30_7d93c9)"/>
+<text x="137.5" y="478.7" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">p</tspan></text>
+<defs><radialGradient id="n31_1413_1719_30_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="141.3" cy="171.9" r="30" fill="url(#n31_1413_1719_30_b6e09a)"/>
+<text x="141.3" y="184.1" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<defs><radialGradient id="n31_4830_4420_30_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="483" cy="442" r="30" fill="url(#n31_4830_4420_30_b6e09a)"/>
+<text x="483" y="454.2" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<defs><radialGradient id="n31_4698_1340_30_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="469.75" cy="134" r="30" fill="url(#n31_4698_1340_30_7d93c9)"/>
+<text x="469.75" y="146.2" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">p</tspan></text>
+</svg>

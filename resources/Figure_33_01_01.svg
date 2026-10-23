@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="610" viewBox="0 0 460 610" role="img" aria-labelledby="title desc">
+<title id="title">Pion exchange between a proton and a neutron</title>
+<desc id="desc">Four snapshots, top to bottom, of a proton on the left and a neutron on the right. The proton creates a positive pion and becomes a neutron; the pion travels to the right and is absorbed by the neutron, which becomes a proton.</desc>
+<rect width="460" height="610" fill="#ffffff"/>
+<defs><radialGradient id="n31_700_600_46_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="70" cy="60" r="46" fill="url(#n31_700_600_46_7d93c9)"/>
+<text x="70" y="77.91" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">p</tspan></text>
+<defs><radialGradient id="n31_3900_600_46_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="390" cy="60" r="46" fill="url(#n31_3900_600_46_b6e09a)"/>
+<text x="390" y="77.91" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<defs><radialGradient id="n31_700_2150_46_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="70" cy="215" r="46" fill="url(#n31_700_2150_46_b6e09a)"/>
+<text x="70" y="232.91" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<g opacity="0.2"><defs><radialGradient id="n31_1501_2150_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs><circle cx="150.1" cy="215" r="38" fill="url(#n31_1501_2150_38_f4a3b0)"/></g>
+<g opacity="0.35"><defs><radialGradient id="n31_1634_2150_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs><circle cx="163.4" cy="215" r="38" fill="url(#n31_1634_2150_38_f4a3b0)"/></g>
+<g opacity="0.55"><defs><radialGradient id="n31_1767_2150_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs><circle cx="176.7" cy="215" r="38" fill="url(#n31_1767_2150_38_f4a3b0)"/></g>
+<defs><radialGradient id="n31_1900_2150_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs>
+<circle cx="190" cy="215" r="38" fill="url(#n31_1900_2150_38_f4a3b0)"/>
+<text x="190" y="229.97" font-family="'Times New Roman', Times, serif" font-size="39.9" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">π</tspan><tspan font-size="27.93" dy="-15.96"><tspan font-style="normal">+</tspan></tspan><tspan dy="15.96">​</tspan></text>
+<line x1="230" y1="215" x2="281" y2="215" stroke="#222222" stroke-width="2.5"/>
+<polygon points="300,215 280,223 280,207" fill="#222222"/>
+<defs><radialGradient id="n31_3900_2150_46_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="390" cy="215" r="46" fill="url(#n31_3900_2150_46_b6e09a)"/>
+<text x="390" y="232.91" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<defs><radialGradient id="n31_700_3750_46_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="70" cy="375" r="46" fill="url(#n31_700_3750_46_b6e09a)"/>
+<text x="70" y="392.9" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<g opacity="0.2"><defs><radialGradient id="n31_2301_3750_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs><circle cx="230.1" cy="375" r="38" fill="url(#n31_2301_3750_38_f4a3b0)"/></g>
+<g opacity="0.35"><defs><radialGradient id="n31_2434_3750_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs><circle cx="243.4" cy="375" r="38" fill="url(#n31_2434_3750_38_f4a3b0)"/></g>
+<g opacity="0.55"><defs><radialGradient id="n31_2567_3750_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs><circle cx="256.7" cy="375" r="38" fill="url(#n31_2567_3750_38_f4a3b0)"/></g>
+<defs><radialGradient id="n31_2700_3750_38_f4a3b0" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#f4a3b0"/><stop offset="1" stop-color="#b8233c"/></radialGradient></defs>
+<circle cx="270" cy="375" r="38" fill="url(#n31_2700_3750_38_f4a3b0)"/>
+<text x="270" y="389.96" font-family="'Times New Roman', Times, serif" font-size="39.9" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">π</tspan><tspan font-size="27.93" dy="-15.96"><tspan font-style="normal">+</tspan></tspan><tspan dy="15.96">​</tspan></text>
+<line x1="310" y1="375" x2="323.8" y2="375" stroke="#222222" stroke-width="2.5"/>
+<polygon points="342,375 322.8,382.68 322.8,367.32" fill="#222222"/>
+<defs><radialGradient id="n31_3900_3750_46_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="390" cy="375" r="46" fill="url(#n31_3900_3750_46_b6e09a)"/>
+<text x="390" y="392.9" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<defs><radialGradient id="n31_700_5400_46_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>
+<circle cx="70" cy="540" r="46" fill="url(#n31_700_5400_46_b6e09a)"/>
+<text x="70" y="557.9" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">n</tspan></text>
+<defs><radialGradient id="n31_3900_5400_46_7d93c9" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#7d93c9"/><stop offset="1" stop-color="#1f2f5f"/></radialGradient></defs>
+<circle cx="390" cy="540" r="46" fill="url(#n31_3900_5400_46_7d93c9)"/>
+<text x="390" y="557.9" font-family="'Times New Roman', Times, serif" font-size="48.3" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">p</tspan></text>
+</svg>

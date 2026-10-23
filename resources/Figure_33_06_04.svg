@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450" viewBox="0 0 900 450" role="img" aria-labelledby="title desc">
+<title id="title">Unification of the forces at high energy</title>
+<desc id="desc">A schematic of the relative strengths of the four forces versus energy on a logarithmic scale. The electromagnetic and weak forces merge into the electroweak force near 100 GeV. The electroweak and strong forces are proposed to merge (GUT) near 10^15 GeV, and all four, including gravity, might merge (TOE) near 10^19 GeV.</desc>
+<rect width="900" height="450" fill="#ffffff"/>
+<line x1="120" y1="350" x2="825" y2="350" stroke="#333333" stroke-width="1.5"/>
+<polygon points="834,350 824,354 824,346" fill="#333333"/>
+<line x1="120" y1="350" x2="120" y2="25" stroke="#333333" stroke-width="1.5"/>
+<polygon points="120,16 124,26 116,26" fill="#333333"/>
+<path d="M 145.45 50.71 C 173.03 64.2 256.82 110 310.91 131.65 C 365 153.29 416.97 167.1 470 180.59 C 523.03 194.08 581.36 202.55 629.09 212.59 C 676.82 222.63 724.55 233.29 756.36 240.82 C 788.18 248.35 809.39 254.94 820 257.76" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 145.45 206 C 151.82 208.04 171.97 215.25 183.64 218.24 C 195.3 221.22 210.15 222.94 215.45 223.88" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 145.45 274.71 C 151.29 269.06 168.79 249.29 180.45 240.82 C 192.12 232.35 209.62 226.71 215.45 223.88" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 215.45 223.88 C 247.27 223.88 337.42 225.76 406.36 223.88 C 475.3 222 591.97 214.47 629.09 212.59" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 145.45 333.06 C 178.33 325.22 272.73 299.33 342.73 286 C 412.73 272.67 496.52 260.59 565.45 253.06 C 634.39 245.53 724.55 242.86 756.36 240.82" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="215.45" cy="223.88" r="5.5" fill="#222222"/>
+<circle cx="629.09" cy="212.59" r="5.5" fill="#222222"/>
+<circle cx="756.36" cy="240.82" r="5.5" fill="#222222"/>
+<line x1="215.45" y1="350" x2="215.45" y2="357" stroke="#333333" stroke-width="1.5"/>
+<text x="215.45" y="387.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<line x1="629.09" y1="350" x2="629.09" y2="357" stroke="#333333" stroke-width="1.5"/>
+<text x="629.09" y="387.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">15</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<line x1="756.36" y1="350" x2="756.36" y2="357" stroke="#333333" stroke-width="1.5"/>
+<text x="756.36" y="387.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">19</tspan></tspan><tspan dy="8.8">​</tspan></text>
+<text x="231.36" y="75.35" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Strong</tspan></text>
+<text x="183.64" y="192.99" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">EM</tspan></text>
+<text x="209.09" y="282.41" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Weak</tspan></text>
+<text x="406.36" y="208.99" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Electroweak</tspan></text>
+<text x="470" y="301.23" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gravity</tspan></text>
+<text x="629.09" y="192.99" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">GUT</tspan></text>
+<text x="762.73" y="221.23" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">TOE</tspan></text>
+<text x="840" y="361.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">GeV</tspan></text>
+<text x="470" y="437.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Energy</tspan></text>
+<text x="108" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Strength</tspan></text>
+</svg>

@@ -58,7 +58,7 @@ function continuum(svg, x1, x2, Y, { from = 5 } = {}) {
 }
 
 /** A photon drawn as a wave packet at (cx, cy), tilted by `angle` degrees. */
-function photon(svg, cx, cy, angle = 0, { rx = 40, ry = 16, cycles = 3 } = {}) {
+export function photon(svg, cx, cy, angle = 0, { rx = 40, ry = 16, cycles = 3 } = {}) {
   const pts = [];
   for (let k = 0; k <= 80; k += 1) {
     const t = -1 + (2 * k) / 80;

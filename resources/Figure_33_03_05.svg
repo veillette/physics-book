@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="590" viewBox="0 0 720 590" role="img" aria-labelledby="title desc">
+<title id="title">The Stanford Linear Collider</title>
+<desc id="desc">A schematic of SLAC. Electrons from an electron booster and positrons made at a positron source travel down a 3.2-kilometer linear accelerator, after the positrons are cooled in damping rings. At the end, magnets bend the electrons one way and the positrons the other around two arcs, so the beams meet head on inside the Mark II particle detector. Solid lines are electrons and dashed lines positrons.</desc>
+<rect width="720" height="590" fill="#ffffff"/>
+<line x1="560" y1="55" x2="255" y2="300" stroke="#1f86c8" stroke-width="2.5"/>
+<polygon points="447.79,145.13 455.2,132 462.21,140.73" fill="#1f86c8"/>
+<path d="M 255 300 C 330 370, 330 470, 200 440" fill="none" stroke="#1f86c8" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="236.9,445.24 250.84,439.49 250.96,450.69" fill="#1f86c8"/>
+<polyline points="371.94,206.06 384.47,221.65 553.03,86.25" fill="none" stroke="#1f86c8" stroke-width="2" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<polygon points="474.21,149.57 466.8,162.7 459.79,153.97" fill="#1f86c8"/>
+<line x1="553.03" y1="86.25" x2="538.15" y2="59.73" stroke="#1f86c8" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="538.15" y1="59.73" x2="248.74" y2="292.2" stroke="#1f86c8" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="359.04,203.6 366.45,190.46 373.46,199.2" fill="#1f86c8"/>
+<path d="M 248.73747579576016 292.20379639880343 C 120 250, -10 300, 100 405" fill="none" stroke="#1f86c8" stroke-width="2.5" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<polygon points="72.79,373.15 60.96,363.8 70.67,358.22" fill="#1f86c8"/>
+<g transform="translate(300.76 366.78) rotate(71.2)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<g transform="translate(304.38 407.5) rotate(102.91)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<g transform="translate(283.38 436.22) rotate(149.46)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<g transform="translate(166.16 277.34) rotate(-178.33)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<g transform="translate(103.73 285.06) rotate(161.8)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<g transform="translate(67.76 307.78) rotate(128.25)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<g transform="translate(58.94 339.42) rotate(83.5)"><rect x="-16" y="-8" width="32" height="16" fill="#c8ccd3" stroke="#6f7580" stroke-width="1.2"/><polygon points="-16,-8 -10,-13 22,-13 16,-8" fill="#e6e8ec" stroke="#6f7580" stroke-width="1"/></g>
+<polygon points="213.82,438.73 186.98,472.28 149.02,472.28 122.18,438.73 122.18,391.27 149.02,357.72 186.98,357.72 213.82,391.27" fill="#a3a8b1" stroke="#5f656c" stroke-width="1.2"/>
+<polygon points="195.82,448.73 168.98,482.28 131.02,482.28 104.18,448.73 104.18,401.27 131.02,367.72 168.98,367.72 195.82,401.27" fill="#d3d6dc" stroke="#5f656c" stroke-width="1.2"/>
+<ellipse cx="150" cy="425" rx="28" ry="36" fill="#8f949c" stroke="#5f656c" stroke-width="1.2"/>
+<ellipse cx="150" cy="425" rx="24" ry="7" transform="rotate(0 150 425)" fill="none" stroke="#1f86c8" stroke-width="1.3"/>
+<ellipse cx="150" cy="425" rx="24" ry="7" transform="rotate(30 150 425)" fill="none" stroke="#1f86c8" stroke-width="1.3"/>
+<ellipse cx="150" cy="425" rx="24" ry="7" transform="rotate(60 150 425)" fill="none" stroke="#1f86c8" stroke-width="1.3"/>
+<ellipse cx="150" cy="425" rx="24" ry="7" transform="rotate(90 150 425)" fill="none" stroke="#1f86c8" stroke-width="1.3"/>
+<ellipse cx="150" cy="425" rx="24" ry="7" transform="rotate(120 150 425)" fill="none" stroke="#1f86c8" stroke-width="1.3"/>
+<ellipse cx="150" cy="425" rx="24" ry="7" transform="rotate(150 150 425)" fill="none" stroke="#1f86c8" stroke-width="1.3"/>
+<text x="145" y="519" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Mark</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">II</tspan></text>
+<text x="145" y="545" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">particle</tspan></text>
+<text x="145" y="571" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">detector</tspan></text>
+<g transform="translate(577.15 41.22) rotate(-38.77)"><rect x="-18" y="-9" width="36" height="18" fill="#d3d6dc" stroke="#5f656c" stroke-width="1.2"/></g>
+<circle cx="371.94" cy="206.06" r="13" fill="#c8ccd3" stroke="#5f656c" stroke-width="1.2"/>
+<circle cx="371.94" cy="206.06" r="6" fill="#8f949c"/>
+<ellipse cx="572.91" cy="106.2" rx="16" ry="9" fill="none" stroke="#1f86c8" stroke-width="2"/>
+<ellipse cx="572.91" cy="101.2" rx="16" ry="9" fill="none" stroke="#1f86c8" stroke-width="1.2"/>
+<line x1="553.03" y1="86.25" x2="578.91" y2="114.2" stroke="#1f86c8" stroke-width="1.5"/>
+<line x1="224.94" y1="262.58" x2="209.91" y2="243.87" stroke="#222222" stroke-width="2"/>
+<line x1="529.94" y1="17.58" x2="514.91" y2="-1.13" stroke="#222222" stroke-width="2"/>
+<line x1="230.68" y1="242.58" x2="509.17" y2="18.87" stroke="#222222" stroke-width="2"/>
+<polygon points="520.87,9.48 512.4,24.48 504.38,14.51" fill="#222222"/>
+<polygon points="218.98,251.97 227.45,236.96 235.47,246.94" fill="#222222"/>
+<text x="285" y="92" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Linear</tspan></text>
+<text x="285" y="118" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">accelerator</tspan></text>
+<text x="285" y="144" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3.2 </tspan><tspan font-style="normal">km</tspan></text>
+<text x="640" y="37" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Electron</tspan></text>
+<text x="640" y="61" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">booster</tspan></text>
+<polyline points="636,34 635.17,33.41 634.33,32.84 633.49,32.29 632.65,31.77 631.8,31.29 630.95,30.87 630.08,30.5 629.21,30.2 628.33,29.97 627.44,29.82 626.54,29.73 625.63,29.72 624.71,29.78 623.78,29.9 622.84,30.08 621.9,30.32 620.95,30.59 619.99,30.9 619.03,31.24 618.07,31.58 617.11,31.92 616.16,32.26 615.2,32.57 614.25,32.84 613.31,33.08 612.37,33.26 611.44,33.38 610.52,33.44 609.61,33.43 608.71,33.34 607.82,33.19 606.94,32.96 606.06,32.66 605.2,32.29 604.35,31.87 603.5,31.39 602.65,30.87 601.82,30.32 600.98,29.75 600.15,29.16" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="600.15" y1="29.16" x2="595.57" y2="28.54" stroke="#222222" stroke-width="1.4"/>
+<polygon points="591.18,27.95 596.85,26.52 596.27,30.83" fill="#222222"/>
+<text x="590" y="119" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Damping</tspan></text>
+<text x="590" y="145" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rings</tspan></text>
+<polyline points="586,112 586.46,112.19 586.9,112.37 587.33,112.53 587.74,112.68 588.11,112.79 588.44,112.87 588.73,112.91 588.96,112.91 589.15,112.87 589.27,112.78 589.34,112.64 589.36,112.45 589.32,112.22 589.23,111.94 589.09,111.63 588.92,111.28 588.71,110.91 588.47,110.51 588.22,110.1 587.96,109.68 587.7,109.26 587.45,108.85 587.22,108.45 587.01,108.08 586.83,107.73 586.7,107.42 586.61,107.14 586.57,106.91 586.58,106.72 586.65,106.58 586.78,106.49 586.96,106.44 587.2,106.44 587.49,106.49 587.82,106.57 588.19,106.68 588.59,106.83 589.02,106.99 589.47,107.17 589.93,107.36" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="589.93" y1="107.36" x2="590.97" y2="106.13" stroke="#222222" stroke-width="1.4"/>
+<polygon points="590.91,106.2 590.6,107.13 590.04,106.66" fill="#222222"/>
+<text x="400" y="262" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Positron</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">source</tspan></text>
+<polyline points="398,252 398.21,251.07 398.41,250.13 398.58,249.21 398.72,248.3 398.83,247.39 398.88,246.51 398.87,245.64 398.8,244.79 398.67,243.95 398.46,243.15 398.18,242.36 397.84,241.59 397.42,240.84 396.95,240.12 396.41,239.41 395.83,238.71 395.2,238.03 394.55,237.35 393.87,236.69 393.18,236.02 392.49,235.36 391.81,234.7 391.15,234.02 390.52,233.34 389.94,232.64 389.41,231.93 388.93,231.21 388.52,230.46 388.17,229.69 387.89,228.9 387.69,228.09 387.55,227.26 387.48,226.41 387.48,225.54 387.53,224.66 387.63,223.75 387.77,222.84 387.95,221.92 388.15,220.98 388.35,220.05" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="388.35" y1="220.05" x2="387.1" y2="215.9" stroke="#222222" stroke-width="1.4"/>
+<polygon points="385.94,212.06 389.31,216.28 385.47,217.43" fill="#222222"/>
+<text x="456.72" y="198.84" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8">​</tspan></text>
+<text x="282.99" y="246.04" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8">​</tspan></text>
+<text x="350" y="437" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8">​</tspan></text>
+<text x="15" y="387" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8">​</tspan></text>
+<text x="160" y="229" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Magnets</tspan></text>
+<polyline points="160,236 159.76,236.77 159.52,237.54 159.31,238.3 159.14,239.05 159,239.79 158.91,240.51 158.88,241.21 158.91,241.89 159.01,242.55 159.18,243.19 159.42,243.81 159.72,244.4 160.1,244.97 160.53,245.52 161.03,246.06 161.57,246.57 162.16,247.08 162.77,247.57 163.41,248.05 164.06,248.54 164.71,249.02 165.35,249.5 165.97,250 166.55,250.5 167.1,251.02 167.59,251.55 168.03,252.1 168.4,252.67 168.71,253.26 168.95,253.88 169.12,254.52 169.21,255.18 169.25,255.86 169.22,256.56 169.13,257.28 168.99,258.02 168.81,258.77 168.6,259.53 168.37,260.3 168.13,261.07" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="168.13" y1="261.07" x2="169.25" y2="264.53" stroke="#222222" stroke-width="1.4"/>
+<polygon points="170.16,267.34 167.43,264.07 170.44,263.09" fill="#222222"/>
+<line x1="445" y1="405" x2="507" y2="405" stroke="#1f86c8" stroke-width="2.5"/>
+<polygon points="520,405 506,410.6 506,399.4" fill="#1f86c8"/>
+<line x1="445" y1="440" x2="507" y2="440" stroke="#1f86c8" stroke-width="2" stroke-dasharray="7 5"/>
+<polygon points="520,440 506,445.6 506,434.4" fill="#1f86c8"/>
+<text x="530" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Electrons</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8">​</tspan><tspan font-style="normal">)</tspan></text>
+<text x="530" y="447" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Positrons</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8">​</tspan><tspan font-style="normal">)</tspan></text>
+</svg>
