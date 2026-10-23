@@ -1364,7 +1364,7 @@ This is a common navigation problem - sailors and pilots must constantly adjust 
 :::: problem
 
 (a) Another airplane is flying in a jet stream that is blowing at 45.0 m/s
-in a direction $$ 20^\circ $$ south of east (as in [Figure 5](#Figure5)). Its direction of motion relative to
+in a direction $$ 20^\circ $$ south of east. Its direction of motion relative to
 the Earth is $$ 45.0^\circ $$ south of west, while its direction of travel
 relative to the air is $$ 5.00^\circ $$ south of west. What is the airplane’s
 speed relative to the air mass?

@@ -558,7 +558,7 @@ The bird does significantly more work lifting itself (8.6 J) than lifting the sn
 ::: problem
 
 In [Example 2](#example2), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
-than when it started from rest. This implies that $$\Delta \PE \gg \KE_{\text{i}}$$. Confirm this statement by taking the ratio of $$\Delta \PE$$
+than when it started from rest. This implies that $$|\Delta \PE| \gg \KE_{\text{i}}$$. Confirm this statement by taking the ratio of $$|\Delta \PE|$$
 to $$\KE_{\text{i}}$$. (Note that mass cancels.)
 
 :::
@@ -567,14 +567,14 @@ to $$\KE_{\text{i}}$$. (Note that mass cancels.)
 
 **Strategy**
 
-We calculate the change in potential energy $$\Delta \PE = mg\mid h\mid$$ and the initial kinetic energy $$\KE_{\text{i}} = \frac{1}{2}mv_{0}^{2}$$, then find their ratio. The mass will cancel out.
+The coaster descends, so its potential energy decreases: $$\Delta \PE = -mg\mid h\mid$$. We compare the size of this loss, $$|\Delta \PE| = mg\mid h\mid$$, with the initial kinetic energy $$\KE_{\text{i}} = \frac{1}{2}mv_{0}^{2}$$, then find their ratio. The mass will cancel out.
 
 **Solution**
 
-The change in potential energy is:
+The size of the potential-energy loss is:
 
 <div class="equation">
- $$\Delta \PE = mg\mid h\mid = m(9.80\mss)(20.0\m) = m(196\text{ m}^{2}/\text{s}^{2})$$
+ $$|\Delta \PE| = mg\mid h\mid = m(9.80\mss)(20.0\m) = m(196\text{ m}^{2}/\text{s}^{2})$$
 </div>
 
 The initial kinetic energy is:
@@ -586,16 +586,16 @@ The initial kinetic energy is:
 The ratio is:
 
 <div class="equation">
- $$\frac{\Delta \PE}{\KE_{\text{i}}} = \frac{m(196\text{ m}^{2}/\text{s}^{2})}{m(12.5\text{ m}^{2}/\text{s}^{2})} = \frac{196}{12.5} = 15.7 \approx 16$$
+ $$\frac{|\Delta \PE|}{\KE_{\text{i}}} = \frac{m(196\text{ m}^{2}/\text{s}^{2})}{m(12.5\text{ m}^{2}/\text{s}^{2})} = \frac{196}{12.5} = 15.7 \approx 16$$
 </div>
 
 **Discussion**
 
-The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$\Delta \PE \gg \KE_{\text{i}}$$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial velocity has little effect on the final velocity.
+The potential-energy loss is approximately 16 times the initial kinetic energy, confirming that $$|\Delta \PE| \gg \KE_{\text{i}}$$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial speed has little effect on the final speed.
 
 **Answer**
 
-The ratio is **15.7** (approximately **16**), confirming that $$\Delta \PE \gg \KE_{\text{i}}$$.
+The ratio is **15.7** (approximately **16**), confirming that $$|\Delta \PE| \gg \KE_{\text{i}}$$.
 
 :::
 
@@ -676,7 +676,7 @@ The final speed is $$v_f = 0.687\ms$$, as required.
 ::: problem
 
 In a downhill ski race, surprisingly, little advantage is gained by getting a running start.
-(This is because the initial kinetic energy is small compared with the gain in gravitational potential energy on even small hills.) To demonstrate this, find the final speed and the time taken for a skier who skies 70.0 m along a $$30^\circ$$
+(This is because the initial kinetic energy is small compared with the gravitational potential energy lost on even small hills.) To demonstrate this, find the final speed and the time taken for a skier who skies 70.0 m along a $$30^\circ$$
 slope neglecting friction:
 (a) Starting from rest.
 (b) Starting with an initial  speed of 2.50 m/s.
@@ -708,7 +708,7 @@ v &=& \sqrt{686\text{ m}^{2}/\text{s}^{2}} = 26.2\ms
 \end{array}$$
 </div>
 
-For time, using $$v^{2} = v_{0}^{2} + 2ad$$ with $$a = g\sin{30^\circ} = 4.90\mss$$:
+For time, using $$v = v_{0} + at$$ with $$a = g\sin{30^\circ} = 4.90\mss$$:
 
 <div class="equation">
  $$v = v_{0} + at \Rightarrow t = \frac{v-v_{0}}{a} = \frac{26.2\ms}{4.90\mss} = 5.35\s$$
@@ -736,7 +736,7 @@ For time, using $$v = v_{0} + at$$:
 
 **Discussion for (c)**
 
-The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course. The small difference in final speeds confirms the statement that $$\Delta \PE \gg \KE_{\text{i}}$$ for the descent.
+The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course. The small difference in final speeds confirms the statement that $$|\Delta \PE| \gg \KE_{\text{i}}$$ for the descent.
 
 **Answer**
 

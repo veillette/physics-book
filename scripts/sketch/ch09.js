@@ -122,6 +122,39 @@ export default {
       extra: s => s.note(300, 30, 'top view (looking down on the door)'),
     }),
 
+  // 9.2 Problem 5 — seesaw whose center of mass is off the pivot
+  sketch_09_02_p05: () =>
+    lever({
+      title: 'Free-body diagram of the seesaw and both children',
+      desc: `The seesaw and both children form the system, with torques taken about the pivot (the origin). +x points from the pivot toward the heavier child and +y up, and ${WHY}. The lighter child’s weight w_1 = 255 N acts down 1.60 m left of the pivot and the seesaw’s weight w_s = 118 N acts down 0.160 m left of the pivot (both counterclockwise torques); the heavier child’s weight w_2 = 314 N acts down at the unknown distance r_2 right of the pivot (clockwise torque); the pivot pushes up on the seesaw with F_p.`,
+      width: 680,
+      height: 370,
+      x0: 340,
+      y: 170,
+      scale: 150,
+      bar: [-1.9, 1.9],
+      forces: [
+        { at: -1.6, a: 270, len: 70, label: 'w_1 = 255 \\rm{N}', lab: [110, 252] },
+        { at: -0.16, a: 270, len: 70, label: 'w_s = 118 \\rm{N}', lab: [304, 252], anchor: 'end' },
+        { at: 1.36, a: 270, len: 70, label: 'w_2 = 314 \\rm{N}', lab: [554, 252] },
+        { at: 0, a: 90, len: 80, label: 'F_p', lab: [352, 104] },
+      ],
+      dims: [
+        { from: -0.16, to: 0, label: '' },
+        { from: -1.6, to: 0, label: '1.60 \\rm{m}', row: 1 },
+        { from: 0, to: 1.36, label: 'r_2 = ?', row: 1 },
+      ],
+      dimY: 292,
+      axes: [590, 80],
+      ccwAt: [180, 60],
+      extra: s => {
+        s.note(100, 140, 'lighter child');
+        s.note(544, 140, 'heavier child');
+        s.note(356, 200, 'pivot', { anchor: 'start' });
+        s.note(306, 298, '0.160 m', { anchor: 'end' });
+      },
+    }),
+
   // 9.3 Problem 1 — horse leaning against a wall: torques about its feet
   sketch_09_03_p01: () => horseSketch(false),
 

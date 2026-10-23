@@ -302,7 +302,7 @@ Find the speed of the package in [Figure 2](#Figure2) at the end of the push, us
 **Strategy**
 
 Here the work-energy theorem can be used, because we have just calculated the
-net work, $$ W_{\text{net}} $$, and the initial kinetic energy, $$ \frac{1}{2}{mv_{0}}^{2} $$. These calculations allow us to find the final
+net work, $$ W_{\text{net}} $$, and the initial kinetic energy, $$ \frac{1}{2}m v_{0}^{2} $$. These calculations allow us to find the final
 kinetic energy, $$ \frac{1}{2}m v^{2} $$, and thus the final speed $$ v $$.
 
 **Solution**
@@ -310,13 +310,13 @@ kinetic energy, $$ \frac{1}{2}m v^{2} $$, and thus the final speed $$ v $$.
 The work-energy theorem in equation form is
 
 <div class="equation">
- $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2}{m v_{0}}^{2}. $$
+ $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}. $$
 </div>
 
 Solving for $$ \frac{1}{2}m v^{2} $$ gives
 
 <div class="equation">
- $$ \frac{1}{2}m v^{2}=W_{\text{net}}+\frac{1}{2}{m v_{0}}^{2}. $$
+ $$ \frac{1}{2}m v^{2}=W_{\text{net}}+\frac{1}{2}m v_{0}^{2}. $$
 </div>
 
 Thus,

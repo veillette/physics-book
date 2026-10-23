@@ -73,7 +73,7 @@ universal gravitational constant—that is, it is thought to be the same
 everywhere in the universe. It has been measured experimentally to be
 
 <div class="equation">
- $$ G=6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\frac{ \N \cdot \mm}{ {\kg }^{2}} $$
+ $$ G=6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2 $$
 </div>
 
 in SI units. Note that the units of $$ G $$ are such that a force in newtons is
@@ -107,7 +107,7 @@ Substituting known values for Earth’s mass and radius (to three significant
 figures),
 
 <div class="equation">
- $$ g=\left(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(6.38 \times 10^{6}\m \right)^{2}}, $$
+ $$ g=\left(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\right)×\frac{5.98 \times 10^{24}\kg }{\left(6.38 \times 10^{6}\m \right)^{2}}, $$
 </div>
 
 and we obtain a value for the acceleration of a falling body:
@@ -180,7 +180,7 @@ remembering that $$ M $$ is the mass of Earth not the Moon, yields
 
 <div class="equation">
 $$ \begin{array}{lll}
-g&=& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
+g&=& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
 g&=& 2.70 \times 10^{-3}\mss .
 \end{array} $$
 </div>
