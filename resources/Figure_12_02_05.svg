@@ -26,16 +26,20 @@
 <polygon points="388,254.24 378.4,258.08 378.4,250.4" fill="#1aa0b0"/>
 <line x1="612" y1="289.3" x2="619.4" y2="289.3" stroke="#1aa0b0" stroke-width="3"/>
 <polygon points="628,289.3 618.4,293.14 618.4,285.46" fill="#1aa0b0"/>
-<polyline points="380,50 380.07,70.55 380.27,79.07 380.62,85.6 381.1,91.11 381.72,95.96 382.48,100.34 383.37,104.36 384.4,108.09 385.57,111.59 386.88,114.87 388.32,117.98 389.9,120.92 391.62,123.7 393.48,126.33 395.47,128.82 397.6,131.17 399.87,133.38 402.27,135.44 404.82,137.35 407.5,139.11 410.32,140.7 413.27,142.13 416.37,143.39 419.6,144.47 422.97,145.35 426.48,146.04 430.12,146.54 433.9,146.83 437.82,146.91 441.88,146.78 446.07,146.45 450.4,145.92 454.87,145.2 459.48,144.31 464.22,143.25 469.1,142.04 474.12,140.73 479.27,139.33 484.57,137.89 490,136.44" fill="none" stroke="#1aa0b0" stroke-width="3" stroke-linejoin="round"/>
-<line x1="386.88" y1="114.87" x2="390.01" y2="120.32" stroke="#1aa0b0" stroke-width="3"/>
-<polygon points="393.48,126.33 386.76,121.04 392.27,117.87" fill="#1aa0b0"/>
+<polyline points="380,50 380,54 380,58 380,62 380,66 380,70 380,74 380,78 380,82 380,86 380,90 380,94 380,98 380,102 380,106 380,110 380,114 380,118 380,122 380,126 380,130 380,134 380,138 380,142 380,146 380,151.5 380.46,156.18 381.83,160.68 384.04,164.83 387.03,168.47 390.67,171.46 394.82,173.67 399.32,175.04 404,175.5 408,174.66 412,173.71 416,172.65 420,171.48 424,170.22 428,168.88 432,167.45 436,165.96 440,164.4 444,162.79 448,161.14 452,159.46 456,157.75 460,156.04 464,154.33 468,152.62 472,150.94 476,149.29 480,147.68 484,146.12 488,144.63 492,143.2 496,141.86 500,140.6 504,139.43 508,138.37 512,137.42 516,136.58 520,135.86 524,135.27 528,134.8 532,134.47 536,134.27 540,134.2 544,134.2 548,134.2 552,134.2 556,134.2 560,134.2 564,134.2 568,134.2 572,134.2 576,134.2 580,134.2 584,134.2 588,134.2 592,134.2 596,134.2 600,134.2 604,134.2 608,134.2 612,134.2 616,134.2 620,134.2 624,134.2 628,134.2 632,134.2 636,134.2 640,134.2 644,134.2 648,134.2 652,134.2 656,134.2 660,134.2 664,134.2 668,134.2 672,134.2 676,134.2 680,134.2 684,134.2 688,134.2 692,134.2 696,134.2 700,134.2 704,134.2 708,134.2 712,134.2 716,134.2 720,134.2" fill="none" stroke="#1aa0b0" stroke-width="3" stroke-linejoin="round"/>
+<line x1="380" y1="94" x2="380" y2="101.4" stroke="#1aa0b0" stroke-width="3"/>
+<polygon points="380,110 376.16,100.4 383.84,100.4" fill="#1aa0b0"/>
+<line x1="544" y1="134.2" x2="551.4" y2="134.2" stroke="#1aa0b0" stroke-width="3"/>
+<polygon points="560,134.2 550.4,138.04 550.4,130.36" fill="#1aa0b0"/>
+<line x1="668" y1="134.2" x2="675.4" y2="134.2" stroke="#1aa0b0" stroke-width="3"/>
+<polygon points="684,134.2 674.4,138.04 674.4,130.36" fill="#1aa0b0"/>
 <text x="430" y="39.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Entrained</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">fluid</tspan></text>
 <path d="M 426 30 Q 397 33 388.64 53.52" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
 <line x1="389.4" y1="51.67" x2="387.66" y2="55.93" stroke="#333333" stroke-width="1.5"/>
 <polygon points="386,60 386.04,54.18 390.04,55.81" fill="#333333"/>
-<text x="70" y="149.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fluid</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">flow</tspan></text>
-<line x1="210" y1="140" x2="289.64" y2="168.31" stroke="#222222" stroke-width="1.8"/>
-<polygon points="300,172 287.09,172.5 290.3,163.46" fill="#222222"/>
+<text x="70" y="89.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fluid</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">flow</tspan></text>
+<line x1="150" y1="96" x2="220.67" y2="140.17" stroke="#222222" stroke-width="1.8"/>
+<polygon points="230,146 217.28,143.71 222.37,135.57" fill="#222222"/>
 <text x="380" y="389.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Venturi</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">constriction</tspan></text>
 <path d="M 380 356 Q 403.4 317 383.6 284" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
 <line x1="384.63" y1="285.72" x2="382.26" y2="281.77" stroke="#333333" stroke-width="1.5"/>

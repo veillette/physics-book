@@ -1311,12 +1311,13 @@ export default {
     note(svg, ...a.at(0.425, 0.55), 'Liquid', { anchor: 'start', size: 18 });
     note(svg, ...a.at(7.6, 0.72), 'Vapor');
     svg.leader(...add2(a.at(7.6, 0.72), [-8, 10]), ...a.at(5.3, 0.29), { bend: -0.2 });
-    svg.lines(...a.at(5, 1.42), ['Liquid–vapor', 'equilibrium', 'region'], {
+    // Inside the dome, below the lowest tie line: a leader from outside would
+    // have to cross the column of isotherm labels.
+    svg.lines(...a.at(1.4, 0.24), ['Liquid–vapor', 'equilibrium region'], {
       size: 19,
       italic: false,
       gap: 22,
     });
-    svg.squiggle(...add2(a.at(5, 1.42), [0, 58]), ...a.at(1.25, 0.3), { waves: 2.5, amp: 7 });
     caption(svg, 30, 565, '(a)');
 
     // (b) Close to the critical point.
@@ -1329,7 +1330,7 @@ export default {
     svg.line(cx, cy, cx, b.g.y + b.g.h, { color: COLORS.black, width: 1.5, dash: '6 5' });
     svg.circle(cx, cy, 6.5, { fill: COLORS.black });
     note(svg, cx + 10, cy - 20, 'Critical point', { anchor: 'start' });
-    svg.lines(...add2(b.at(0.5, 0.95), [6, 0]), ['Liquid', 'region'], {
+    svg.lines(...add2(b.at(0.5, 0.95), [30, 0]), ['Liquid', 'region'], {
       size: 19,
       italic: false,
       anchor: 'start',
@@ -1337,7 +1338,7 @@ export default {
     });
     note(svg, ...b.at(1, 0.42), 'Liquid–vapor region');
 
-    note(svg, ...b.at(2.1, 1.5), 'True but not ideal gas');
+    note(svg, ...add2(b.at(2.1, 1.5), [24, 0]), 'True but not ideal gas');
     // Labels that run along a curve, rotated to its slope at v.
     const along = (f, v, label, off) => {
       const [x1, y1] = b.at(v * 0.97, f(v * 0.97));

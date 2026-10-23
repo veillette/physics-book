@@ -112,7 +112,7 @@
 <line x1="222" y1="140" x2="206.66" y2="153.95" stroke="#222222" stroke-width="1.8"/>
 <polygon points="200,160 204.71,150.31 210.09,156.23" fill="#222222"/>
 <text x="625" y="25" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Spark</tspan></text>
-<text x="745" y="217.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">PA</tspan></text>
+<text x="713" y="217.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">PA</tspan></text>
 <line x1="955" y1="92" x2="990" y2="92" stroke="#222222" stroke-width="2"/>
 <polygon points="1000,92 989,96.4 989,87.6" fill="#222222"/>
 <text x="935" y="25" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Exhaust</tspan></text>

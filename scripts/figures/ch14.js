@@ -1119,9 +1119,10 @@ export default {
         });
       }
       svg.polygon(top, { fill: '#fdf5d6', stroke: '#c9a25c', width: 1.5 });
-      // Fibers on the top face.
-      for (let k = 0; k < 14; k += 1) {
-        const [u, v] = [0.1 + rand() * 0.75, 0.15 + rand() * 0.7];
+      // Fibers on the top face, jittered on a grid so they don't clump.
+      for (let k = 0; k < 12; k += 1) {
+        const [i, j] = [k % 4, Math.floor(k / 4)];
+        const [u, v] = [0.08 + (i + rand() * 0.5) * 0.2, 0.2 + (j + rand() * 0.5) * 0.22];
         const x = p[0] + a[0] * u + b[0] * v;
         const y = p[1] + a[1] * u + b[1] * v;
         svg.path(`M ${fmt(x)} ${fmt(y)} q 6 -6 12 0 t 12 0`, { color: '#f0b928', width: 1.6 });

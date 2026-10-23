@@ -105,7 +105,9 @@ export default {
       svg.circle(px, py, 3.5, { fill: COLORS.red });
     }
     g.text(2.1, 12, 'ice melts', { size: 13, math: false });
-    g.text(1.4, -12, 'ice warms', { size: 13, math: false, anchor: 'start' });
+    // The ice-warming segment is too short to label beside, so point at it.
+    g.line(1.1, -17, 0.32, -6, { color: COLORS.axis, width: 1 });
+    g.text(1.25, -19, 'ice warms', { size: 13, math: false, anchor: 'start' });
     g.text(6.6, 50, 'water warms', { size: 13, math: false, anchor: 'start' });
     g.text(19.2, 110, 'water boils (22.6 s)', { size: 13, math: false });
     g.text(30.4, 136, 'steam warms', { size: 13, math: false, anchor: 'end' });

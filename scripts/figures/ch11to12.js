@@ -461,7 +461,8 @@ export default {
     }
     svg.leader(270, 180, x0 + w + d + 4, 186, { bend: 0.4, width: 1.6 });
     lab(svg, 280, 180, 'w = 1.01 × 10^5 \\rm{N}', { anchor: 'start', size: 26 });
-    lab(svg, x0 + w + d + 24, g - 4, '1 \\rm{m}^2', { anchor: 'start', size: 26 });
+    // Beside the base, on the ground rather than across the ground line.
+    lab(svg, x0 + w + 14, g + 24, '1 \\rm{m}^2', { anchor: 'start', size: 26 });
     return svg.render();
   },
 
@@ -580,7 +581,8 @@ export default {
     lab(svg, 480, 310, 'P_2');
     lab(svg, 200, 290, 'A_1', { anchor: 'start', size: 22 });
     svg.leader(200, 280, 140, yP + 28, { bend: 0.3, width: 1.3 });
-    lab(svg, 380, 300, 'A_2', { anchor: 'end', size: 22 });
+    lab(svg, 352, 292, 'A_2', { anchor: 'end', size: 22 });
+    svg.leader(356, 282, 440, yP + 28, { bend: -0.3, width: 1.3 });
     lab(svg, 304, 404, 'P_1 = P_2');
     return svg.render();
   },
@@ -702,7 +704,7 @@ export default {
     lab(svg, 100, 380, 'P_{atm}');
     note(svg, tx + 2, dish + 10, '×', { size: 22 });
     svg.leader(330, 440, tx + 8, dish + 4, { bend: 0.3, width: 1.4 });
-    lab(svg, 340, 436, 'P_{abs} = hρg = P_{atm}', { anchor: 'start', size: 22 });
+    lab(svg, 340, 436, 'P_{abs} = \\it{hρg} = P_{atm}', { anchor: 'start', size: 22 });
     lab(svg, 400, 520, '\\rm{Hg}');
     return svg.render();
   },
@@ -711,7 +713,7 @@ export default {
   Figure_11_07_02: () => {
     const svg = new Svg({
       width: 700,
-      height: 560,
+      height: 590,
       title: 'Origin of the buoyant force',
       desc: 'A cylinder of cross-sectional area A is submerged in a fluid of density ρ, with its top at depth h1 and its bottom at depth h2. The fluid pushes down on the top with force F1 = P1A = h1ρgA and up on the bottom with the larger force F2 = P2A = h2ρgA, because pressure increases with depth. Their difference is the buoyant force, F_B = F2 − F1. The horizontal forces cancel.',
     });
@@ -719,6 +721,8 @@ export default {
     const x1 = 330;
     const surf = 110;
     svg.rect(x0, surf, x1 - x0, 410, { fill: '#a9c9dc' });
+    // The fluid fills the rounded bottom too.
+    svg.add(`<path d="M ${x0} 520 A ${(x1 - x0) / 2} 28 0 0 0 ${x1} 520 Z" fill="#a9c9dc"/>`);
     svg.ellipse((x0 + x1) / 2, surf, (x1 - x0) / 2, 24, {
       fill: '#b7d6ea',
       stroke: WATER_EDGE,
@@ -741,16 +745,18 @@ export default {
     svg.arrow(cx, yB + 120, cx, yB + 4, { color: FORCE, width: 5, head: 20 });
     lab(svg, cx + 18, yT - 60, '**F**_1', { anchor: 'start' });
     lab(svg, cx + 18, yB + 90, '**F**_2', { anchor: 'start' });
-    vdim(svg, 60, surf, yT, 'h_1', { side: 1 });
-    vdim(svg, 90, surf, yB, 'h_2', { side: 1 });
+    // Far enough apart that the h_1 label clears the h_2 line.
+    vdim(svg, 50, surf, yT, 'h_1', { side: 1 });
+    vdim(svg, 102, surf, yB, 'h_2', { side: 1 });
     svg.leader(150, 180, cx - 40, yT - 8, { bend: -0.3, width: 1.4 });
     lab(svg, 140, 178, 'A', { anchor: 'end' });
     svg.leader(140, 450, cx - 40, yB + 10, { bend: 0.3, width: 1.4 });
     lab(svg, 130, 452, 'A', { anchor: 'end' });
-    lab(svg, 360, 200, 'F_1 = P_1A = h_1ρgA', { anchor: 'start' });
+    lab(svg, 360, 200, 'F_1 = P_1A = h_1\\it{ρgA}', { anchor: 'start' });
     lab(svg, 400, 320, 'F_B = F_2 − F_1', { anchor: 'start' });
-    lab(svg, 360, 460, 'F_2 = P_2A = h_2ρgA', { anchor: 'start' });
-    note(svg, 100, 548, 'Fluid of density ρ', { anchor: 'start', size: 22 });
+    lab(svg, 360, 460, 'F_2 = P_2A = h_2\\it{ρgA}', { anchor: 'start' });
+    // Below the vessel's rounded bottom.
+    note(svg, 180, 574, 'Fluid of density \\it{ρ}', { size: 22 });
     return svg.render();
   },
 
@@ -785,7 +791,11 @@ export default {
       const wLen = obj ? 110 : 56;
       svg.arrow(cx - 30, 290, cx - 30, 290 + wLen, { color: FORCE, width: 4, head: 16 });
       svg.arrow(cx + 40, 350, cx + 40, 294, { color: FORCE, width: 4, head: 16 });
-      lab(svg, cx - 30, 290 + wLen + 22, obj ? '**w**_{obj}' : '**w**_{fl}', { size: 21 });
+      // Beside the arrow tip, inside the frame.
+      lab(svg, cx - 44, 290 + wLen - 12, obj ? '**w**_{obj}' : '**w**_{fl}', {
+        size: 21,
+        anchor: 'end',
+      });
       lab(svg, cx + 40, 374, '**F**_B', { size: 21 });
       note(svg, x0 + 250, 50, 'Free-body', { size: 18 });
       note(svg, x0 + 250, 72, 'diagram', { size: 18 });
@@ -824,8 +834,11 @@ export default {
       svg.line(232, y, 232 + (k % 5 ? 10 : 18), y, { color: '#4a6a94', width: 1.5 });
       if (k % 5 === 0) svg.text(256, y, sg.toFixed(2), { size: 24, math: false, anchor: 'start' });
     }
-    note(svg, 340, Y(1.0) + 160, 'lead', { anchor: 'start' });
-    note(svg, 340, 120, 'air', { anchor: 'start' });
+    // Leaders: the air is inside the glass, not the space above the fluid.
+    note(svg, 350, Y(1.0) + 165, 'lead', { anchor: 'start' });
+    svg.leader(344, Y(1.0) + 160, 288, Y(1.0) + 150, { bend: 0.2, width: 1.3 });
+    note(svg, 350, Y(1.0) + 60, 'air', { anchor: 'start' });
+    svg.leader(344, Y(1.0) + 60, 290, Y(1.0) + 85, { bend: -0.2, width: 1.3 });
     return svg.render();
   },
 
@@ -858,10 +871,15 @@ export default {
     note(svg, 420, 420, 'Wire', { size: 22 });
     svg.leader(420, 404, 376, 362, { bend: 0.3, width: 1.4 });
     // Side view.
+    // Two film surfaces that thin toward the middle but never meet.
+    svg.path('M 130 534 Q 300 542 470 534 L 470 546 Q 300 538 130 546 Z', {
+      color: 'none',
+      fill: '#cbd2ec',
+    });
+    svg.path('M 130 534 Q 300 542 470 534', { color: '#5b8fd1', width: 2 });
+    svg.path('M 130 546 Q 300 538 470 546', { color: '#5b8fd1', width: 2 });
     svg.circle(120, 540, 12, { fill: '#cccccc', stroke: '#777777', width: 1.2 });
     svg.circle(480, 540, 12, { fill: '#cccccc', stroke: '#777777', width: 1.2 });
-    svg.path('M 130 534 Q 300 546 470 534', { color: '#5b8fd1', width: 2 });
-    svg.path('M 130 546 Q 300 534 470 546', { color: '#5b8fd1', width: 2 });
     note(svg, 300, 580, 'Side view', { size: 22 });
     return svg.render();
   },
@@ -951,8 +969,12 @@ export default {
       beaker(svg, 30, 330, 200, 420, level, { fill: '#cbd8ea' });
       svg.rect(140, level, 70, 120, { fill: '#cbd8ea' });
       svg.rect(140, level - 10, 70, 10, { fill: '#ffffff' });
-      svg.rect(140, level + h - 10, 70, 10, { fill: '#cbd8ea' });
-      svg.rect(140, level, 70, h - 10, { fill: '#ffffff' });
+      // Inside the tube the mercury stands h lower and bulges up into a
+      // convex meniscus.
+      svg.rect(140, level, 70, h, { fill: '#ffffff' });
+      svg.add(
+        `<path d="M 140 ${level + h} L 142 ${level + h} Q 175 ${level + h - 22} 208 ${level + h} L 210 ${level + h} Z" fill="#cbd8ea"/>`
+      );
       for (const x of [140, 210]) svg.line(x, 60, x, 400, { color: GLASS, width: 4 });
       svg.path(`M 142 ${level + h} Q 175 ${level + h - 22} 208 ${level + h}`, {
         color: '#4a3a8a',
@@ -1246,7 +1268,8 @@ export default {
       const left = x0 + 240;
       const right = x0 + 320;
       const stagnationY = pitot ? 120 : 160;
-      const staticY = pitot ? 98 : 60;
+      // In (a) the static tube lies in the gap between streamlines.
+      const staticY = pitot ? 98 : 95;
       const channel = d => {
         svg.path(d, { color: '#9a8bb0', width: 20 });
         svg.path(d, { color: '#eee8f4', width: 16 });
@@ -1269,9 +1292,11 @@ export default {
       svg.line(left - 10, 185, right + 30, 185, { color: COLORS.black, width: 1.2, dash: '5 4' });
       vdim(svg, right + 30, 145, 185, 'h', { size: 20 });
       lab(svg, x0 + 48, stagnationY, '1', { anchor: 'end', size: 18, math: false });
-      lab(svg, x0 + 140, staticY - 22, '2', { size: 18, math: false });
-      lab(svg, x0 + 20, 220, 'v_1 = 0', { anchor: 'start', size: 18 });
-      lab(svg, x0 + 120, 26, 'v_2', { size: 18 });
+      lab(svg, x0 + 132, staticY - 18, '2', { size: 18, math: false });
+      lab(svg, x0 + 20, 222, 'v_1 = 0', { anchor: 'start', size: 18 });
+      svg.leader(x0 + 30, 210, x0 + 52, stagnationY + 8, { bend: -0.3, width: 1.2 });
+      lab(svg, x0 + 176, 22, 'v_2', { anchor: 'start', size: 18 });
+      svg.leader(x0 + 172, 24, x0 + 120, staticY - 14, { bend: 0.25, width: 1.2 });
       caption(svg, x0 + 190, 316, cap);
     };
     panel(10, false, '(a)');
@@ -1313,18 +1338,21 @@ export default {
       );
     }
     // The entrained fluid comes down the side tube and turns to join the flow.
+    // It runs down the side tube, turns the corner, and flows on with the
+    // main stream just inside the upper wall.
     const ent = [];
-    for (let k = 0; k <= 40; k += 1) {
-      const u = k / 40;
-      const x = 380 + 110 * u ** 2;
-      const yTop = yc - r(x) + 14;
-      ent.push([x, 50 + (yTop - 50) * Math.sqrt(u)]);
+    for (let y = 50; y < 150; y += 4) ent.push([380, y]);
+    for (let k = 0; k <= 8; k += 1) {
+      const a = (k / 8) * (Math.PI / 2);
+      ent.push([380 + 24 * (1 - Math.cos(a)), 151.5 + 24 * Math.sin(a)]);
     }
-    streamline(svg, ent, { width: 3, at: [0.3] });
+    for (let x = 408; x <= 720; x += 4) ent.push([x, yc - 0.78 * r(x)]);
+    streamline(svg, ent, { width: 3, at: [0.12, 0.62, 0.9] });
     note(svg, 430, 30, 'Entrained fluid', { anchor: 'start', size: 26 });
     svg.leader(426, 30, 386, 60, { bend: 0.3, width: 1.5 });
-    note(svg, 70, 140, 'Fluid flow', { anchor: 'start', size: 26 });
-    svg.arrow(210, 140, 300, 172, { color: COLORS.black, width: 1.8, head: 12 });
+    // Above the tube, so no streamline runs through the label.
+    note(svg, 70, 80, 'Fluid flow', { anchor: 'start', size: 26 });
+    svg.arrow(150, 96, 230, 146, { color: COLORS.black, width: 1.8, head: 12 });
     note(svg, 380, 380, 'Venturi constriction', { size: 26 });
     svg.leader(380, 356, 380, yc + r(380) + 4, { bend: 0.3, width: 1.5 });
     return svg.render();
@@ -1601,6 +1629,8 @@ export default {
     svg.add(`<path d="${center}" fill="none" stroke="#80858c" stroke-width="104"/>`);
     svg.add(`<path d="${center}" fill="none" stroke="${METAL}" stroke-width="100"/>`);
     svg.add(`<path d="${center}" fill="none" stroke="${PIPEW}" stroke-width="78"/>`);
+    // The air tube opens into the pipe: water rises a little into its base.
+    svg.rect(227, 350, 91, 28, { fill: PIPEW });
     // Union nut on the pipe
     svg.rect(395, 355, 40, 16, { fill: METAL, stroke: '#80858c', width: 1.2 });
     svg.rect(395, 459, 40, 16, { fill: METAL, stroke: '#80858c', width: 1.2 });

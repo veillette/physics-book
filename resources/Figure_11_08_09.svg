@@ -6,8 +6,8 @@
 <polyline points="30,200 30,420 330,420 330,200" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
 <rect x="140" y="300" width="70" height="120" fill="#cbd8ea"/>
 <rect x="140" y="290" width="70" height="10" fill="#ffffff"/>
-<rect x="140" y="320" width="70" height="10" fill="#cbd8ea"/>
-<rect x="140" y="300" width="70" height="20" fill="#ffffff"/>
+<rect x="140" y="300" width="70" height="30" fill="#ffffff"/>
+<path d="M 140 330 L 142 330 Q 175 308 208 330 L 210 330 Z" fill="#cbd8ea"/>
 <line x1="140" y1="60" x2="140" y2="400" stroke="#9fd0de" stroke-width="4"/>
 <line x1="210" y1="60" x2="210" y2="400" stroke="#9fd0de" stroke-width="4"/>
 <path d="M 142 330 Q 175 308 208 330" fill="none" stroke="#4a3a8a" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round"/>

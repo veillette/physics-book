@@ -49,6 +49,12 @@
 <line x1="232" y1="337.43" x2="242" y2="337.43" stroke="#4a6a94" stroke-width="1.5"/>
 <line x1="232" y1="345" x2="250" y2="345" stroke="#4a6a94" stroke-width="1.5"/>
 <text x="256" y="353.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.00</tspan></text>
-<text x="340" y="512" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">lead</tspan></text>
-<text x="340" y="127" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">air</tspan></text>
+<text x="350" y="517" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">lead</tspan></text>
+<path d="M 344 505 Q 318 488.8 294.86 493.58" fill="none" stroke="#333333" stroke-width="1.3" stroke-linejoin="round"/>
+<line x1="296.81" y1="493.18" x2="292.31" y2="494.11" stroke="#333333" stroke-width="1.3"/>
+<polygon points="288,495 292.85,491.79 293.73,496.02" fill="#333333"/>
+<text x="350" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">air</tspan></text>
+<path d="M 344 405 Q 322 428.3 296.99 429.63" fill="none" stroke="#333333" stroke-width="1.3" stroke-linejoin="round"/>
+<line x1="298.99" y1="429.52" x2="294.39" y2="429.77" stroke="#333333" stroke-width="1.3"/>
+<polygon points="290,430 295.28,427.56 295.51,431.87" fill="#333333"/>
 </svg>

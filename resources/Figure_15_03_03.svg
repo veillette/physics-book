@@ -23,9 +23,9 @@
 <text x="412" y="411" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">c</tspan></tspan><tspan dy="-5.6">​</tspan></text>
 <text x="596" y="245.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">W</tspan></text>
 <text x="640" y="197.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Heat</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">engine</tspan></text>
-<path d="M 600 205 Q 554.5 224.5 524.88 254.98" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
-<line x1="526.27" y1="253.55" x2="523.07" y2="256.84" stroke="#333333" stroke-width="1.2"/>
-<polygon points="520,260 522.21,254.62 525.31,257.63" fill="#333333"/>
+<path d="M 590 200 Q 550.7 172.95 510 172.14" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="512" y1="172.18" x2="507.4" y2="172.09" stroke="#333333" stroke-width="1.2"/>
+<polygon points="503,172 508.44,169.95 508.36,174.27" fill="#333333"/>
 <text x="580" y="332.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">h</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> − </tspan><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">c</tspan></tspan><tspan dy="-6.16">​</tspan></text>
 <text x="430" y="552" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
 </svg>

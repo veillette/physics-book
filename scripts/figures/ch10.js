@@ -81,23 +81,24 @@ function accelerations(centripetal) {
   svg.circle(...p, 4, { fill: INK });
   svg.text(285, 275, 'r', { size: 24 });
   arcArrow(svg, cx, cy, r, 100, 125, INK);
-  // Offset v radially so parallel velocity and acceleration arrows stay legible.
-  const vStart = [p[0] - 19 * normal[0], p[1] - 19 * normal[1]];
-  svg.arrow(...vStart, vStart[0] + 115 * tangent[0], vStart[1] + 115 * tangent[1], {
+  // v starts at the particle; a_t, parallel to it, is offset outward so both
+  // arrows stay legible.
+  svg.arrow(...p, p[0] + 115 * tangent[0], p[1] + 115 * tangent[1], {
     color: COLORS.velocity,
     width: 3.5,
   });
-  svg.text(vStart[0] + 125 * tangent[0] - 14, vStart[1] + 125 * tangent[1], 'v', {
+  svg.text(p[0] + 125 * tangent[0] - 14, p[1] + 125 * tangent[1], 'v', {
     size: 26,
     color: COLORS.velocity,
   });
+  const aStart = [p[0] + 19 * normal[0], p[1] + 19 * normal[1]];
   svg.add('<g id="tangential-acceleration">');
-  svg.arrow(...p, p[0] + 85 * tangent[0], p[1] + 85 * tangent[1], {
+  svg.arrow(...aStart, aStart[0] + 85 * tangent[0], aStart[1] + 85 * tangent[1], {
     color: COLORS.orange,
     width: 4,
   });
   svg.add('</g>');
-  svg.text(p[0] + 67 * tangent[0] + 29, p[1] + 67 * tangent[1] - 8, 'a_t', {
+  svg.text(aStart[0] + 67 * tangent[0] + 26, aStart[1] + 67 * tangent[1] - 4, 'a_t', {
     size: 26,
     color: COLORS.orange,
   });
@@ -127,13 +128,13 @@ function accelerations(centripetal) {
       ],
       { color: INK, width: 1.3 }
     );
-    svg.lines(345, 418, ['a_t changes speed', 'a_c changes direction'], {
+    svg.lines(345, 418, ['\\it{a}_t changes speed', '\\it{a}_c changes direction'], {
       size: 23,
       math: false,
       gap: 32,
     });
   } else {
-    svg.text(345, 430, 'a_t changes speed', { size: 23, math: false });
+    svg.text(345, 430, '\\it{a}_t changes speed', { size: 23, math: false });
   }
   return svg.render();
 }
@@ -548,15 +549,15 @@ function torqueVectorDiagram() {
   svg.add('<g id="plane-radius">');
   svg.arrow(160, 270, 295, 245, { color: COLORS.blue, width: 3 });
   svg.add('</g>');
-  svg.text(224, 243, 'r', { size: 27, color: COLORS.blue });
+  svg.text(224, 243, '**r**', { size: 27, color: COLORS.blue });
   svg.add('<g id="plane-force">');
   svg.arrow(295, 245, 240, 190, { color: FORCE, width: 4 });
   svg.add('</g>');
-  svg.text(280, 197, 'F', { size: 28, color: FORCE });
+  svg.text(280, 197, '**F**', { size: 28, color: FORCE });
   svg.add('<g id="plane-torque">');
   svg.arrow(160, 270, 160, 115, { color: COLORS.orange, width: 4 });
   svg.add('</g>');
-  svg.text(135, 154, 'τ', { size: 29, color: COLORS.orange });
+  svg.text(135, 154, '**τ**', { size: 29, color: COLORS.orange });
   svg.polyline(
     [
       [160, 251],
@@ -565,8 +566,8 @@ function torqueVectorDiagram() {
     ],
     { width: 1.2 }
   );
-  svg.text(224, 367, 'Plane formed by r and F', { size: 22, math: false });
-  svg.text(224, 405, 'τ = r × F', { size: 27 });
+  svg.text(224, 367, 'Plane formed by **r** and **F**', { size: 22, math: false });
+  svg.text(224, 405, '**τ** = **r** × **F**', { size: 27 });
 
   svg.text(650, 45, '(b) Merry-go-round', { size: 24, math: false });
   const [cx, cy] = [635, 280];
@@ -578,7 +579,7 @@ function torqueVectorDiagram() {
   svg.add('<g id="carousel-radius">');
   svg.arrow(cx, cy, ...rim, { color: COLORS.blue, width: 2.5 });
   svg.add('</g>');
-  svg.text(690, 321, 'r', { size: 26, color: COLORS.blue });
+  svg.text(690, 321, '**r**', { size: 26, color: COLORS.blue });
   svg.line(750, 127, 750, 311, { color: '#d7b052', width: 5 });
   // Carousel horse, saddle, bridle, and seated child.
   svg.path('M 714 275 Q 700 261 696 282 Q 692 296 685 291', { color: EDGE, width: 6 });
@@ -647,13 +648,13 @@ function torqueVectorDiagram() {
     width: 4,
   });
   svg.add('</g>');
-  svg.text(829, 260, 'F', { size: 29, color: FORCE });
+  svg.text(829, 260, '**F**', { size: 29, color: FORCE });
   svg.circle(cx, cy, 5, { fill: INK });
   svg.add('<g id="carousel-axis">');
   svg.arrow(cx, cy, cx, 119, { color: COLORS.orange, width: 4 });
   svg.add('</g>');
-  svg.text(cx, 90, 'τ, ω, L', { size: 28, color: COLORS.orange });
-  svg.text(650, 405, 'τ ∥ ΔL', { size: 27 });
+  svg.text(cx, 90, '**τ**, **ω**, **L**', { size: 28, color: COLORS.orange });
+  svg.text(650, 405, '**τ** ∥ Δ**L**', { size: 27 });
   return svg.render();
 }
 

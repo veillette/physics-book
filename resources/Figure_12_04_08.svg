@@ -7,6 +7,7 @@
 <path d="M 0 415 L 520 415 Q 640 415 668 520" fill="none" stroke="#80858c" stroke-width="104"/>
 <path d="M 0 415 L 520 415 Q 640 415 668 520" fill="none" stroke="#b8bcc2" stroke-width="100"/>
 <path d="M 0 415 L 520 415 Q 640 415 668 520" fill="none" stroke="#c7e3f3" stroke-width="78"/>
+<rect x="227" y="350" width="91" height="28" fill="#c7e3f3"/>
 <rect x="395" y="355" width="40" height="16" fill="#b8bcc2" stroke="#80858c" stroke-width="1.2"/>
 <rect x="395" y="459" width="40" height="16" fill="#b8bcc2" stroke="#80858c" stroke-width="1.2"/>
 <rect x="520" y="300" width="64" height="66" rx="4" fill="#b8bcc2" stroke="#80858c" stroke-width="1.5"/>

@@ -542,10 +542,11 @@ function carnotLabels(svg, g, cyc, reversed) {
     cyc.BC[40]
   );
   note(g.X(4.25), g.Y(0.22), ['Isotherm \\it{T}_c'], cyc.CD[25]);
+  // In the shaded area under the cycle: left of the line at A there is no room.
   labs(
     svg,
-    g.X(0.52),
-    g.Y(0.42),
+    g.X(1.08),
+    g.Y(0.2),
     reversed ? ['Adiabatic', 'expansion'] : ['Adiabatic', 'compression'],
     {
       anchor: 'start',
@@ -554,7 +555,7 @@ function carnotLabels(svg, g, cyc, reversed) {
       gap: 24,
     }
   );
-  svg.squiggle(g.X(0.62), g.Y(0.36), ...cyc.DA[55], { waves: 1, amp: 4 });
+  svg.squiggle(g.X(1.2), g.Y(0.2) - 14, ...cyc.DA[55], { waves: 1, amp: 4 });
 }
 
 /** A sun: a disk with a ring of pointed rays. */
@@ -650,7 +651,7 @@ export default {
     );
     lab(svg, 20, 345, `Q_{out} = −25${J}`, { anchor: 'start' });
     vbrace(svg, 285, 160, 360, 1);
-    labs(svg, 320, 245, [`15${J}`, 'in'], { size: 22 });
+    labs(svg, 320, 245, [`15${J}`, '\\rm{in}'], { size: 22 });
     workArrow(svg, [650, 80], [530, 165], 18);
     lab(svg, 690, 42, `W_{in} = −4${J}`, { anchor: 'end' });
     workArrow(svg, [540, 265], [675, 335], 36);
@@ -664,7 +665,7 @@ export default {
     lab(svg, 340, 660, 'System', { size: 22 });
     workArrow(svg, [610, 660], [470, 770], 50);
     lab(svg, 690, 630, `W = −159${J}`, { anchor: 'end' });
-    labs(svg, 440, 800, [`159${J}`, 'in'], { size: 22 });
+    labs(svg, 440, 800, [`159${J}`, '\\rm{in}'], { size: 22 });
     heatArrow(
       svg,
       [
@@ -674,7 +675,7 @@ export default {
       { w: 46 }
     );
     lab(svg, 30, 1020, `Q_{out} = −150${J}`, { anchor: 'start' });
-    labs(svg, 300, 845, [`150${J}`, 'out'], { size: 22 });
+    labs(svg, 345, 895, [`150${J}`, 'out'], { size: 22 });
     lab(svg, 340, 1070, `Δ\\it{U} = \\it{Q} − \\it{W} = −150${J} − (−159${J}) = +9${J}`, {
       size: 22,
     });
@@ -1078,7 +1079,7 @@ export default {
       }
       lab(svg, 290, 15, 'Isobaric', { italic: false });
       svg.squiggle(270, 30, 250, yAB - 4, { waves: 1, amp: 4 });
-      svg.leader(305, 32, 290, yDC - 4, { bend: -0.15 });
+      svg.leader(305, 32, 275, yDC - 4, { bend: 0.08 });
       lab(svg, 400, 268, 'Isochoric', { italic: false, anchor: 'start' });
       svg.squiggle(395, 268, xB + 4, yDC + 22, { waves: 1, amp: 4 });
       svg.squiggle(395, 280, xA + 6, 280, { waves: 1, amp: 4 });
@@ -1117,12 +1118,12 @@ export default {
       }
       for (const y of [yAB, yCD])
         svg.line(g.x, y, xA, y, { color: ARROW, width: 1.5, dash: '6 5' });
-      labs(svg, g.x + 8, yAB - 52, ['\\it{P}_{AB}', '1.5 × 10^6 N/m^2'], {
+      labs(svg, g.x + 8, yAB - 52, ['\\it{P}_{AB}', '1.5 × 10^6 \\rm{N/m}^2'], {
         anchor: 'start',
         size: 20,
         gap: 24,
       });
-      labs(svg, g.x + 8, yCD - 52, ['\\it{P}_{CD}', '2 × 10^5 N/m^2'], {
+      labs(svg, g.x + 8, yCD - 52, ['\\it{P}_{CD}', '2 × 10^5 \\rm{N/m}^2'], {
         anchor: 'start',
         size: 20,
         gap: 24,
@@ -1141,7 +1142,7 @@ export default {
         start: true,
       });
       svg.rect((xA + xB) / 2 - 85, g.Y(0) + 40, 170, 30, { fill: '#ffffff' });
-      lab(svg, (xA + xB) / 2, g.Y(0) + 56, 'Δ\\it{V} = 500 cm^3');
+      lab(svg, (xA + xB) / 2, g.Y(0) + 56, 'Δ\\it{V} = 500 \\rm{cm}^3');
       caption(svg, 310, 860, '(b)');
     }
     // (c)
@@ -1207,12 +1208,17 @@ export default {
         waves: 1,
         amp: 4,
       });
-      lab(svg, g.X(1.25), g.Y(0.16), 'Adiabatic', { italic: false });
-      svg.squiggle(g.X(1.65), g.Y(0.16), ...trace(g, v => v ** -GAMMA, 2.0, 2.0, 1)[0], {
+      // Clear of the vertical line at A.
+      lab(svg, g.X(1.6), g.Y(0.08), 'Adiabatic', { italic: false });
+      svg.squiggle(g.X(1.97), g.Y(0.1), ...trace(g, v => v ** -GAMMA, 2.4, 2.4, 1)[0], {
         waves: 1,
         amp: 4,
       });
-      if (cycle) lab(svg, g.X(3.4) - 12, g.Y(0.2), 'Isochoric', { italic: false, anchor: 'end' });
+      // Below the adiabat, pointing at BC: inside the band it would sit on the curve.
+      if (cycle) {
+        lab(svg, g.X(2.9), g.Y(0.08), 'Isochoric', { italic: false });
+        svg.squiggle(g.X(3.08), g.Y(0.13), g.X(3.4) - 3, g.Y(0.24), { waves: 1, amp: 4 });
+      }
     };
     panel(0, false);
     caption(svg, 320, 545, '(a)');
@@ -1406,7 +1412,8 @@ export default {
     caption(svg, 130, 545, '(a)');
     engine(svg, 430, 10, { qc: 34, w: 36, reach: 200 });
     lab(svg, 640, 190, 'Heat engine', { italic: false });
-    svg.leader(600, 205, 520, 260, { bend: 0.1 });
+    // To the rim of the disc, above the work arrow.
+    svg.leader(590, 200, 503, 172, { bend: 0.15 });
     lab(svg, 580, 325, '\\it{W} = \\it{Q}_h − \\it{Q}_c', { anchor: 'start' });
     caption(svg, 430, 545, '(b)');
     return svg.render();
@@ -1429,7 +1436,8 @@ export default {
     lab(svg, 225, 140, 'Piston', { italic: false, size: 20, anchor: 'start' });
     svg.arrow(222, 140, 200, 160, { color: ARROW, width: 1.8, head: 10 });
     lab(svg, 625, 18, 'Spark', { italic: false, size: 20 });
-    lab(svg, 745, 210, '\\it{F} = \\it{PA}', { size: 22, anchor: 'end' });
+    // In the gap between panels (c) and (d), clear of both cylinder walls.
+    lab(svg, 713, 210, '\\it{F} = \\it{PA}', { size: 21, anchor: 'start' });
     svg.arrow(955, 92, 1000, 92, { color: ARROW, width: 2, head: 11 });
     lab(svg, 935, 18, 'Exhaust', { italic: false, size: 20 });
     svg.leader(935, 32, 960, 88, { bend: -0.3, arrow: false });
@@ -1486,11 +1494,17 @@ export default {
     });
     lab(svg, 680, 25, 'T_h');
     labs(svg, 680, 72, ['Δ\\it{U}', 'creates', '\\it{Q}_h'], { size: 19, gap: 22, halo: false });
-    labs(svg, 890, 335, ['\\it{W} proportional', 'to shaded area', 'of \\it{PV} diagram'], {
-      anchor: 'end',
-      size: 19,
-      gap: 23,
-    });
+    labs(
+      svg,
+      890,
+      335,
+      ['\\it{W} proportional', '\\rm{to} shaded area', '\\rm{of} \\it{PV} diagram'],
+      {
+        anchor: 'end',
+        size: 19,
+        gap: 23,
+      }
+    );
     return svg.render();
   },
 
@@ -1967,18 +1981,8 @@ export default {
     };
     box(195, 225, '#a9b9e0', '#a9b9e0', '#cfd8ef', '#7a8fc8');
     box(420, 140, '#f3a585', '#f6c1a9', '#fbd7c6', '#e07a52');
-    // Wall in front of the boxes on the near side.
-    svg.polygon(
-      [
-        [265, 445],
-        [330, 477],
-        [330, 530],
-        [265, 500],
-      ],
-      { fill: '#fdeccb' }
-    );
-    lab(svg, 310, 333, '\\it{T}_c = −15°C', { size: 22, halo: false, rotate: -5 });
-    lab(svg, 490, 318, '\\it{T}_h = 45°C', { size: 22, halo: false, rotate: -5 });
+    lab(svg, 310, 333, '\\it{T}_c = −15\\rm{°C}', { size: 22, halo: false, rotate: -5 });
+    lab(svg, 490, 318, '\\it{T}_h = 45\\rm{°C}', { size: 22, halo: false, rotate: -5 });
     heatArrow(
       svg,
       [
@@ -2086,7 +2090,7 @@ export default {
     lab(svg, 160, 130, 'Q', { halo: false, size: 26 });
     lab(svg, 160, 505, 'Q', { halo: false, size: 26 });
     lab(svg, 160, 585, 'T_c', { halo: false, size: 26 });
-    labs(svg, 185, 290, ['Direct from', '\\it{T}_h to \\it{T}_c'], {
+    labs(svg, 185, 290, ['Direct from', '\\it{T}_h \\rm{to} \\it{T}_c'], {
       anchor: 'start',
       size: 26,
       gap: 32,
