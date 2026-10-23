@@ -87,7 +87,11 @@ it('keeps tangential and centripetal accelerations perpendicular with the latter
   const $ = load(ch10.Figure_10_01_03(), { xmlMode: true });
   const t = arrow($, 'tangential-acceleration');
   const c = arrow($, 'centripetal-acceleration');
-  expect(t.start).toEqual(c.start);
+  // a_t is drawn offset radially outward from the particle, clear of v.
+  const offset = [t.start[0] - c.start[0], c.start[1] - t.start[1]];
+  const offsetLength = Math.hypot(...offset) * Math.hypot(c.dx, c.dy);
+  expect((offset[0] * c.dy - offset[1] * c.dx) / offsetLength).toBeCloseTo(0, 3);
+  expect((offset[0] * c.dx + offset[1] * c.dy) / offsetLength).toBeCloseTo(-1, 3);
   expect((t.dx * c.dx + t.dy * c.dy) / Math.hypot(t.dx, t.dy) / Math.hypot(c.dx, c.dy)).toBeCloseTo(
     0,
     3
