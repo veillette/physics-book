@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="680" viewBox="0 0 880 680" role="img" aria-labelledby="title desc">
+<title id="title">Isobaric process on a PV diagram</title>
+<desc id="desc">A PV diagram of an isobaric (constant-pressure) process from A to B at pressure P. The work done, the area of the rectangle under the line AB, is Area = PΔV = Work, where ΔV is the change in volume.</desc>
+<rect width="880" height="680" fill="#ffffff"/>
+<rect x="330" y="300" width="430" height="300" fill="#c4aad3"/>
+<line x1="110" y1="600" x2="823" y2="600" stroke="#222222" stroke-width="2.5"/>
+<polygon points="840,600 822,607.2 822,592.8" fill="#222222"/>
+<line x1="110" y1="600" x2="110" y2="47" stroke="#222222" stroke-width="2.5"/>
+<polygon points="110,30 117.2,48 102.8,48" fill="#222222"/>
+<text x="80" y="51.2" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<text x="840" y="571.2" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="110" y1="300" x2="330" y2="300" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="85" y="311.2" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<line x1="330" y1="300" x2="760" y2="300" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="598.8,300 580.8,307.2 580.8,292.8" fill="#6a3d9a"/>
+<circle cx="330" cy="300" r="6" fill="#222222"/>
+<circle cx="760" cy="300" r="6" fill="#222222"/>
+<text x="330" y="280.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="760" y="280.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<text x="520" y="196.2" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Isobaric</tspan></text>
+<polyline points="470,205 468.51,206.53 467.04,208.06 465.61,209.61 464.25,211.18 462.97,212.77 461.79,214.4 460.72,216.07 459.78,217.77 458.97,219.52 458.3,221.32 457.77,223.16 457.38,225.05 457.12,226.99 456.99,228.96 456.97,230.97 457.05,233.02 457.21,235.09 457.44,237.18 457.71,239.29 458,241.4 458.29,243.51 458.56,245.62 458.79,247.71 458.95,249.78 459.03,251.83 459.01,253.84 458.88,255.81 458.62,257.75 458.23,259.64 457.7,261.48 457.03,263.28 456.22,265.03 455.28,266.73 454.21,268.4 453.03,270.03 451.75,271.62 450.39,273.19 448.96,274.74 447.49,276.27 446,277.8" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="446" y1="277.8" x2="442.82" y2="287.45" stroke="#222222" stroke-width="1.4"/>
+<polygon points="440,296 439.33,285.25 446.93,287.76" fill="#222222"/>
+<line x1="355" y1="317" x2="355" y2="583" stroke="#222222" stroke-width="1.8"/>
+<polygon points="355,596 349.4,582 360.6,582" fill="#222222"/>
+<polygon points="355,304 360.6,318 349.4,318" fill="#222222"/>
+<rect x="342" y="425" width="28" height="34" fill="#c4aad3"/>
+<text x="356" y="452.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<text x="560" y="450.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Area</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">P</tspan><tspan font-style="normal">Δ</tspan><tspan font-style="italic">V</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">Work</tspan></text>
+<line x1="330" y1="600" x2="330" y2="655" stroke="#222222" stroke-width="1.5"/>
+<line x1="760" y1="600" x2="760" y2="655" stroke="#222222" stroke-width="1.5"/>
+<line x1="345" y1="640" x2="745" y2="640" stroke="#222222" stroke-width="1.8"/>
+<polygon points="758,640 744,645.6 744,634.4" fill="#222222"/>
+<polygon points="332,640 346,634.4 346,645.6" fill="#222222"/>
+<rect x="505" y="622" width="80" height="36" fill="#ffffff"/>
+<text x="545" y="650.5" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">V</tspan></text>
+</svg>

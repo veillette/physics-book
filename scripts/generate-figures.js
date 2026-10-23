@@ -3,8 +3,8 @@
  * Generate the line-art figures (graphs, vector diagrams, geometry) that
  * replaced raster originals in chapters 2–10, the fluids figures of chapters 11
  * and 12, the temperature, gas-law, and kinetic-theory figures of chapter 13,
- * the heat and heat-transfer figures of chapter 14, the oscillation and wave
- * figures
+ * the heat and heat-transfer figures of chapter 14, the thermodynamics figures
+ * of chapter 15, the oscillation and wave figures
  * of chapter 16, the sound and hearing figures of chapter 17, the
  * electrostatics figures of
  * chapter 18, the field, equipotential and capacitor figures of chapter 19, the circuit diagrams of chapter 21
@@ -48,6 +48,7 @@ import mechanicsSketches from './figures/mechanics-sketches.js';
 import ch11to12 from './figures/ch11to12.js';
 import ch13 from './figures/ch13.js';
 import ch14 from './figures/ch14.js';
+import ch15 from './figures/ch15.js';
 import ch16 from './figures/ch16.js';
 import ch17 from './figures/ch17.js';
 import ch18 from './figures/ch18.js';
@@ -93,6 +94,7 @@ const modules = {
   ch11to12,
   ch13,
   ch14,
+  ch15,
   ch16,
   ch17,
   ch18,

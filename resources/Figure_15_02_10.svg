@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="470" viewBox="0 0 640 470" role="img" aria-labelledby="title desc">
+<title id="title">Two cyclical processes</title>
+<desc id="desc">A PV diagram with two cycles that start and end at A: ABCFA, a rectangle, and ABDEA, a slightly taller rectangle reaching down to a lower pressure along DE. The extra strip FCDE lies below the first rectangle.</desc>
+<rect width="640" height="470" fill="#ffffff"/>
+<line x1="40" y1="420" x2="615" y2="420" stroke="#333333" stroke-width="1.6"/>
+<polygon points="626,420 614,424.8 614,415.2" fill="#333333"/>
+<line x1="40" y1="420" x2="40" y2="25" stroke="#333333" stroke-width="1.6"/>
+<polygon points="40,14 44.8,26 35.2,26" fill="#333333"/>
+<text x="26" y="27.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<text x="624" y="453.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<rect x="142.6" y="49.5" width="285" height="253.5" fill="#c4aad3" stroke="#222222" stroke-width="1.5"/>
+<rect x="142.6" y="303" width="285" height="54.6" fill="#e4d9ec" stroke="#222222" stroke-width="1.5"/>
+<text x="128.6" y="58.6" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="441.6" y="58.6" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<text x="441.6" y="312.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">C</tspan></text>
+<text x="441.6" y="366.7" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">D</tspan></text>
+<text x="128.6" y="366.7" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">E</tspan></text>
+<text x="128.6" y="312.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan></text>
+</svg>
