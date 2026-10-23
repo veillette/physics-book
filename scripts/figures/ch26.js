@@ -280,23 +280,20 @@ export default {
     g.fn(nm => (193 * planck(nm)) / planck(700), 400, 700, { n: 200, color: '#1aa6a6', width: 3 });
     g.series(SOURCES.sun, { color: '#ef7d57', width: 2.6 });
     g.series(SOURCES.fluorescent, { color: '#5ab43c', width: 2.6 });
-    // D: the He-Ne line at 632.8 nm.
-    g.series(
-      [
-        [631, 0],
-        [631.8, 160],
-        [632.8, 208],
-        [633.8, 160],
-        [634.6, 0],
-      ],
-      { color: '#8b1a2b', width: 3, smooth: true }
-    );
+    // D: the He-Ne line at 632.8 nm, a narrow peak that stays above the axis
+    // (a smoothed polyline overshot below zero).
+    g.fn(nm => 208 * Math.exp(-(((nm - 632.8) / 1.1) ** 2)), 628.8, 636.8, {
+      n: 120,
+      color: '#8b1a2b',
+      width: 3,
+    });
     note(svg, g.X(480), g.Y(160), 'A (sun)', { size: 22 });
     svg.squiggle(g.X(480), g.Y(150), g.X(478), g.Y(128), { waves: 1, amp: 4 });
     note(svg, g.X(555), g.Y(218), 'B (fluorescent)', { size: 22 });
     svg.squiggle(g.X(545), g.Y(208), g.X(549), g.Y(184), { waves: 1, amp: 4 });
     note(svg, g.X(560), g.Y(15), 'C (incandescent)', { size: 22 });
-    svg.squiggle(g.X(545), g.Y(28), g.X(552), g.Y(58), { waves: 1, amp: 4 });
+    // Curve C passes 88 at 552 nm, so the leader stops just under it.
+    svg.squiggle(g.X(545), g.Y(28), g.X(552), g.Y(82), { waves: 1, amp: 4 });
     note(svg, g.X(650), g.Y(227), 'D (He-Ne)', { size: 22 });
     svg.squiggle(g.X(642), g.Y(218), g.X(635), g.Y(200), { waves: 1, amp: 4 });
     return svg.render();
@@ -407,13 +404,17 @@ export default {
       width: 880,
       height: 270,
       title: 'Acceptance angle of an optical fiber',
-      desc: 'A ray enters the end of an optical fiber at the edge of its cone of acceptance, making angle αmax with the axis, and is guided along the core by reflection at the cladding. The two lines bounding the full acceptance angle meet at the fiber’s end.',
+      desc: 'A ray enters the end of an optical fiber at the edge of its cone of acceptance, making angle αmax with the axis, bends toward the axis as it enters the core, and is guided along the core by total internal reflection at the boundary with the cladding. The two lines bounding the full acceptance angle meet at the fiber’s end.',
     });
     svg.add(
       '<defs><linearGradient id="core26" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb4c9"/><stop offset="0.12" stop-color="#d9eff7"/><stop offset="0.5" stop-color="#f4fbfd"/><stop offset="0.88" stop-color="#d9eff7"/><stop offset="1" stop-color="#9fb4c9"/></linearGradient></defs>'
     );
     const [L, T, B] = [440, 90, 210];
-    svg.rect(L, T, 430, B - T, { fill: 'url(#core26)', stroke: '#8aa0b5', width: 1.5, rx: 8 });
+    // Cladding around a core of higher index; the ray reflects at their boundary.
+    const clad = 16;
+    const [cT, cB] = [T + clad, B - clad];
+    svg.rect(L, T, 430, B - T, { fill: '#b4c6d4', stroke: '#8aa0b5', width: 1.5, rx: 8 });
+    svg.rect(L, cT, 430, cB - cT, { fill: 'url(#core26)' });
     const C = [L, 150];
     // The acceptance cone: lines at ±αmax from the center of the fiber's end.
     const a = 15;
@@ -421,23 +422,26 @@ export default {
     svg.line(...C, C[0] - 330, C[1] - 330 * t, { color: COLORS.black, width: 1.5 });
     svg.line(...C, C[0] - 330, C[1] + 330 * t, { color: COLORS.black, width: 1.5 });
     svg.line(C[0] - 260, C[1], C[0], C[1], { color: COLORS.black, width: 1.5, dash: '8 6' });
-    // The ray enters at αmax to the axis, below it, and reflects at the cladding.
-    const E = [L, 172];
+    // The ray arrives at αmax, just inside the lower edge of the cone, refracts
+    // toward the axis at the end face and reflects totally at the cladding.
+    const E = [L, 136];
     const dIn = unit([1, -t]);
     ray(svg, sub(E, mul(dIn, 340)), E, { arrow: 0.6 });
     const d1 = refract(dIn, [-1, 0], 1, 1.5);
-    const H = add(E, mul(d1, (T + 10 - E[1]) / d1[1]));
+    const H = add(E, mul(d1, (cT - E[1]) / d1[1]));
     ray(svg, E, H, { arrow: 0.6 });
-    ray(svg, H, add(H, mul([d1[0], -d1[1]], 160)), { arrow: 0.75 });
+    const d2 = [d1[0], -d1[1]];
+    ray(svg, H, add(H, mul(d2, (L + 424 - H[0]) / d2[0])), { arrow: 0.6 });
     svg.arc(...C, 300, 180 - a, 180 + a, { color: COLORS.black, width: 1.5 });
-    svg.arc(...C, 150, 180, 180 + a, { color: COLORS.black, width: 1.5 });
-    lab(svg, C[0] - 190, C[1] + 26, 'α_{max}', { size: 20 });
+    // αmax is marked on the upper half of the cone, clear of the ray below.
+    svg.arc(...C, 150, 180 - a, 180, { color: COLORS.black, width: 1.5 });
+    lab(svg, C[0] - 196, C[1] - 18, 'α_{max}', { size: 20 });
     note(svg, 60, 120, 'full acceptance', { size: 18 });
     note(svg, 60, 142, 'angle', { size: 18 });
     note(svg, 520, 60, 'cladding', { size: 18 });
-    svg.line(530, 70, 540, T, { color: COLORS.black, width: 1.2 });
+    svg.line(530, 70, 540, T + 8, { color: COLORS.black, width: 1.2 });
     note(svg, 500, 250, 'core', { size: 18 });
-    svg.line(505, 236, 530, 175, { color: COLORS.black, width: 1.2 });
+    svg.line(505, 236, 530, 180, { color: COLORS.black, width: 1.2 });
     return svg.render();
   },
 

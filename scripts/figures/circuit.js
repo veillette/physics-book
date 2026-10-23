@@ -307,7 +307,18 @@ export function carBattery(svg, x, y, { s = 1, left = '+', label, signs = true }
         svg.text(bx - 26, by - 30, sign, { size: 34, math: false });
       }
     });
-    if (label) svg.text(W * 0.42, H * 0.6, label, { size: 44, halo: false });
+    if (label) {
+      // A light plate behind the label keeps it readable over the dark ribs.
+      const chars = label.replace(/\\rm\{([^}]*)\}/g, '$1').length;
+      const pw = chars * 24 + 28;
+      svg.rect(W * 0.42 - pw / 2, H * 0.6 - 32, pw, 64, {
+        fill: '#e4e4e7',
+        stroke: '#6a6a6e',
+        width: 1.5,
+        rx: 6,
+      });
+      svg.text(W * 0.42, H * 0.6, label, { size: 44, halo: false });
+    }
   });
   svg.add(`<g transform="translate(${x} ${y}) scale(${s})">${inner}</g>`);
   const [lp, rp] = posts.map(([bx, by]) => [x + s * bx, y + s * (by - 24)]);

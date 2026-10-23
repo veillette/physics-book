@@ -290,6 +290,30 @@ function vectorArrow(letter, size) {
   );
 }
 
+/**
+ * An overbar over the Greek letter just written. A combining macron works on
+ * Latin letters, but serif fonts without Greek mark anchors (Liberation Serif)
+ * hang it off the right of an italic ν or μ, where ν̄ reads as ν⁻. So draw a
+ * spacing macron the way `vectorArrow` draws its arrow: step back over the
+ * letter, shifted right for the italic slant, and step forward again.
+ */
+function greekBar(letter, size) {
+  const barSize = size * 0.8;
+  const letterWidth = (GREEK_WIDTH[letter] ?? 0.5) * size;
+  // The spacing macron is 0.5 em wide in Times and Liberation Serif and sits
+  // above cap height, so lower it to clear an x-height letter.
+  const barWidth = 0.5 * barSize;
+  const back = -(letterWidth + barWidth) / 2 + 0.1 * size;
+  const drop = 0.05 * size;
+  return (
+    `<tspan font-size="${fmt(barSize)}" font-style="normal" dx="${fmt(back)}" dy="${fmt(drop)}">¯</tspan>` +
+    `<tspan dx="${fmt(-back - barWidth)}" dy="${fmt(-drop)}">${ZWSP}</tspan>`
+  );
+}
+
+// Advance widths (em) of the Times italic Greek letters that take an overbar.
+const GREEK_WIDTH = { ν: 0.44, μ: 0.5, π: 0.5 };
+
 const LETTER = /[A-Za-zͰ-Ͽ]/;
 
 /** Read a `{...}` group or a single character starting at index i. */
@@ -373,7 +397,14 @@ export function renderLabel(markup, size, { italic = true } = {}) {
       i = next;
     } else if (markup.startsWith('\\bar', i)) {
       const [group, next] = readGroup(markup, i + 4);
-      plain += `${group}̄`;
+      if (/^[\u03b1-\u03c9]$/.test(group)) {
+        flushPlain();
+        out.push(
+          `<tspan font-style="${italic ? 'italic' : 'normal'}">${group}</tspan>${greekBar(group, size)}`
+        );
+      } else {
+        plain += `${group}̄`;
+      }
       i = next;
     } else {
       plain += ch;

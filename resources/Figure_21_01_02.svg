@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="290" viewBox="0 0 720 290" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="310" viewBox="0 0 720 310" role="img" aria-labelledby="title desc">
 <title id="title">Three resistors in series and the equivalent series resistance</title>
 <desc id="desc">Left: a voltage source V drives a current I clockwise through R1 on the top, R2 on the right, and R3 on the bottom. Right, after an equals sign: the same source drives the same current I through a single resistance Rs.</desc>
-<rect width="720" height="290" fill="#ffffff"/>
+<rect width="720" height="310" fill="#ffffff"/>
 <polyline points="60,50 290,50 290,250 60,250 60,50" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
 <line x1="60" y1="160" x2="60" y2="140" stroke="#ffffff" stroke-width="7"/>
 <line x1="60" y1="175" x2="60" y2="156.5" stroke="#222222" stroke-width="2"/>

@@ -23,9 +23,7 @@
 <path d="M 40 155 L 152 155 Q 166 155 166 141 L 166 114 Q 166 100 180 100 L 440 100 Q 454 100 454 114 L 454 141 Q 454 155 468 155 L 570 155" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
 <line x1="566" y1="155" x2="572.6" y2="155" stroke="#1f77c8" stroke-width="3"/>
 <polygon points="580,155 571.6,158.36 571.6,151.64" fill="#1f77c8"/>
-<path d="M 166 175 L 166 222 Q 166 236 180 236 L 440 236 Q 454 236 454 222 L 454 185" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
-<line x1="454" y1="189" x2="454" y2="182.4" stroke="#1f77c8" stroke-width="3"/>
-<polygon points="454,175 457.36,183.4 450.64,183.4" fill="#1f77c8"/>
+<path d="M 166 155 L 166 222 Q 166 236 180 236 L 440 236 Q 454 236 454 222 L 454 155" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
 <line x1="290" y1="100" x2="316" y2="100" stroke="#1f77c8" stroke-width="3"/>
 <polygon points="330,100 315,106 315,94" fill="#1f77c8"/>
 <line x1="290" y1="236" x2="316" y2="236" stroke="#1f77c8" stroke-width="3"/>

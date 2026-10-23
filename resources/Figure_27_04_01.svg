@@ -44,25 +44,25 @@
 <line x1="152" y1="270.88" x2="452" y2="350" stroke="#1fa8d8" stroke-width="2.2"/>
 <line x1="433.33" y1="345.08" x2="440.49" y2="346.96" stroke="#1fa8d8" stroke-width="2.2"/>
 <polygon points="448.8,349.16 438.54,350.42 440.5,343" fill="#1fa8d8"/>
-<rect x="480" y="329.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="1"/>
-<rect x="480" y="335.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="1"/>
-<rect x="480" y="341.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="1"/>
+<rect x="480" y="329.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="1"/>
+<rect x="480" y="335.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="1"/>
+<rect x="480" y="341.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="1"/>
 <rect x="480" y="347.0" width="50" height="6" fill="rgb(129,255,0)" fill-opacity="1"/>
-<rect x="480" y="353.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="1"/>
-<rect x="480" y="359.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="1"/>
-<rect x="480" y="365.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="1"/>
+<rect x="480" y="353.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="1"/>
+<rect x="480" y="359.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="1"/>
+<rect x="480" y="365.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="1"/>
 <text x="550" y="345.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">First</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">order</tspan></text>
 <text x="550" y="371.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rainbow</tspan></text>
 <line x1="152" y1="278.08" x2="452" y2="440" stroke="#1fa8d8" stroke-width="2.2"/>
 <line x1="434.2" y1="430.39" x2="440.71" y2="433.91" stroke="#1fa8d8" stroke-width="2.2"/>
 <polygon points="448.28,437.99 438.01,436.81 441.66,430.05" fill="#1fa8d8"/>
-<rect x="480" y="419.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="0.5"/>
-<rect x="480" y="425.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="0.5"/>
-<rect x="480" y="431.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="0.5"/>
+<rect x="480" y="419.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="0.5"/>
+<rect x="480" y="425.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="0.5"/>
+<rect x="480" y="431.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="0.5"/>
 <rect x="480" y="437.0" width="50" height="6" fill="rgb(129,255,0)" fill-opacity="0.5"/>
-<rect x="480" y="443.0" width="50" height="6" fill="rgb(0,255,255)" fill-opacity="0.5"/>
-<rect x="480" y="449.0" width="50" height="6" fill="rgb(0,0,255)" fill-opacity="0.5"/>
-<rect x="480" y="455.0" width="50" height="6" fill="rgb(150,0,208)" fill-opacity="0.5"/>
+<rect x="480" y="443.0" width="50" height="6" fill="rgb(255,255,0)" fill-opacity="0.5"/>
+<rect x="480" y="449.0" width="50" height="6" fill="rgb(255,119,0)" fill-opacity="0.5"/>
+<rect x="480" y="455.0" width="50" height="6" fill="rgb(255,0,0)" fill-opacity="0.5"/>
 <text x="550" y="435.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Second</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">order</tspan></text>
 <text x="550" y="461.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rainbow</tspan></text>
 <text x="140" y="487" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>

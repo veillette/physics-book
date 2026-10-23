@@ -5,16 +5,13 @@
 <rect x="20" y="240" width="720" height="220" fill="#d9efe1"/>
 <line x1="20" y1="240" x2="740" y2="240" stroke="#1fa8d8" stroke-width="3"/>
 <line x1="400" y1="40" x2="400" y2="440" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
-<line x1="121.05" y1="240" x2="-75.55" y2="377.66" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="121.05" y1="240" x2="339.98" y2="141.67" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="260.52" y1="240" x2="63.93" y2="377.66" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="260.52" y1="240" x2="479.46" y2="141.67" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="400" y1="240" x2="203.4" y2="377.66" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="400" y1="240" x2="618.93" y2="141.67" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="539.48" y1="240" x2="342.88" y2="377.66" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="539.48" y1="240" x2="758.41" y2="141.67" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="678.95" y1="240" x2="482.35" y2="377.66" stroke="#6a3d9a" stroke-width="1.6"/>
-<line x1="678.95" y1="240" x2="897.88" y2="141.67" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="121.05" y1="240" x2="284.88" y2="125.28" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="260.52" y1="240" x2="424.35" y2="125.28" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="400" y1="240" x2="563.83" y2="125.28" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="539.48" y1="240" x2="703.31" y2="125.28" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="260.52" y1="240" x2="78.08" y2="321.94" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="400" y1="240" x2="217.56" y2="321.94" stroke="#6a3d9a" stroke-width="1.6"/>
+<line x1="539.48" y1="240" x2="357.03" y2="321.94" stroke="#6a3d9a" stroke-width="1.6"/>
 <line x1="268.08" y1="51.6" x2="400" y2="240" stroke="#1fa8d8" stroke-width="3"/>
 <line x1="341.5" y1="156.45" x2="345.74" y2="162.51" stroke="#1fa8d8" stroke-width="3"/>
 <polygon points="350.67,169.55 342.02,163.89 348.31,159.49" fill="#1fa8d8"/>
@@ -26,16 +23,16 @@
 <text x="365.72" y="138.98" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
 <path d="M 400 300 A 60 60 0 0 0 424.58 294.73" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
 <text x="417.18" y="327.88" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
-<line x1="475.16" y1="107.37" x2="510.72" y2="158.16" stroke="#222222" stroke-width="1.5"/>
-<polygon points="515.89,165.53 506.87,159.63 513.43,155.05" fill="#222222"/>
-<polygon points="470,100 479.01,105.9 472.46,110.49" fill="#222222"/>
-<text x="514" y="152.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="italic">t</tspan></text>
+<line x1="528.03" y1="161.34" x2="563.6" y2="212.12" stroke="#222222" stroke-width="1.5"/>
+<polygon points="568.76,219.5 559.75,213.6 566.3,209.01" fill="#222222"/>
+<polygon points="522.87,153.96 531.89,159.86 525.33,164.45" fill="#222222"/>
+<text x="558.87" y="192.36" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="italic">t</tspan></text>
 <line x1="255.09" y1="252.31" x2="271.13" y2="288.01" stroke="#222222" stroke-width="1.5"/>
 <polygon points="274.81,296.22 267.07,288.74 274.37,285.46" fill="#222222"/>
 <polygon points="251.4,244.1 259.15,251.58 251.85,254.86" fill="#222222"/>
-<text x="231.4" y="292.5" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="italic">t</tspan></text>
-<text x="180" y="128.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ray</tspan></text>
-<text x="640" y="68.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Wavefront</tspan></text>
+<text x="217.4" y="292.5" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="italic">t</tspan></text>
+<text x="262" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ray</tspan></text>
+<text x="660" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Wavefront</tspan></text>
 <text x="90" y="230.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Surface</tspan></text>
 <text x="660" y="230.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Medium</tspan><tspan font-style="normal"> 1</tspan></text>
 <text x="660" y="272.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Medium</tspan><tspan font-style="normal"> 2</tspan></text>

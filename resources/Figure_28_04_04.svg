@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
 <title id="title">Laser light from moving spaceships</title>
-<desc id="desc">Top: a spaceship moving right at v = 0.500c fires laser light ahead of it, which travels at c. Bottom: a spaceship moving left at v = 0.500c fires laser light ahead of it, to the left, also at c.</desc>
-<rect width="620" height="360" fill="#ffffff"/>
+<desc id="desc">Top: a spaceship moving right at v = 0.500c, toward the Earth, fires laser light ahead of it, which travels at c. Bottom: a spaceship moving left at v = 0.500c, away from the Earth, fires laser light ahead of it, to the left, also at c.</desc>
+<rect width="760" height="380" fill="#ffffff"/>
+<circle cx="680" cy="92" r="44" fill="#58a6dd" stroke="#2f6f9e" stroke-width="1.5"/>
+<path d="M 653.6 78.8 q 15.399999999999999 -22 30.799999999999997 0 q -6.16 19.8 -18.479999999999997 17.6 z" fill="#9ccf4a" stroke="#4f8f2f" stroke-width="0.8" stroke-linejoin="round"/>
+<path d="M 684.4 70 q 13.2 -15.399999999999999 26.4 0 q -5.28 13.86 -15.839999999999998 12.32 z" fill="#9ccf4a" stroke="#4f8f2f" stroke-width="0.8" stroke-linejoin="round"/>
+<path d="M 675.6 103 q 12.100000000000001 -26.4 24.200000000000003 0 q -4.840000000000001 23.759999999999998 -14.520000000000001 21.12 z" fill="#9ccf4a" stroke="#4f8f2f" stroke-width="0.8" stroke-linejoin="round"/>
+<circle cx="680" cy="262" r="44" fill="#58a6dd" stroke="#2f6f9e" stroke-width="1.5"/>
+<path d="M 653.6 248.8 q 15.399999999999999 -22 30.799999999999997 0 q -6.16 19.8 -18.479999999999997 17.6 z" fill="#9ccf4a" stroke="#4f8f2f" stroke-width="0.8" stroke-linejoin="round"/>
+<path d="M 684.4 240 q 13.2 -15.399999999999999 26.4 0 q -5.28 13.86 -15.839999999999998 12.32 z" fill="#9ccf4a" stroke="#4f8f2f" stroke-width="0.8" stroke-linejoin="round"/>
+<path d="M 675.6 273 q 12.100000000000001 -26.4 24.200000000000003 0 q -4.840000000000001 23.759999999999998 -14.520000000000001 21.12 z" fill="#9ccf4a" stroke="#4f8f2f" stroke-width="0.8" stroke-linejoin="round"/>
 <polygon points="112,90 82,56 72,56 88,84" fill="#9aa0a8" stroke="#5f656c" stroke-width="1.2"/>
 <polygon points="112,90 82,124 72,124 88,96" fill="#9aa0a8" stroke="#5f656c" stroke-width="1.2"/>
 <polygon points="200,90 170,75 90,74 82,78 82,102 90,106 170,105" fill="#e6eef2" stroke="#6f7a80" stroke-width="1.5"/>

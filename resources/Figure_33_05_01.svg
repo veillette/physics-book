@@ -54,12 +54,12 @@
 <polygon points="880,32 884,42 876,42" fill="#222222"/>
 <circle cx="880" cy="80" r="14" fill="#c9b8e6" stroke="#c2338f" stroke-width="2"/>
 <text x="880" y="88" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">ū</tspan></text>
-<text x="880" y="113" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c2338f" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">G</tspan></text>
+<text x="880" y="113" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c2338f" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Ḡ</tspan></text>
 <line x1="943" y1="92" x2="943" y2="119" stroke="#222222" stroke-width="1.6"/>
 <polygon points="943,128 939,118 947,118" fill="#222222"/>
-<circle cx="943" cy="80" r="14" fill="#c9b8e6" stroke="#c2338f" stroke-width="2"/>
+<circle cx="943" cy="80" r="14" fill="#bfe5d2" stroke="#2f9a6a" stroke-width="2"/>
 <text x="943" y="88" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
-<text x="943" y="61" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c2338f" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Ḡ</tspan></text>
+<text x="943" y="61" font-family="'Times New Roman', Times, serif" font-size="20" fill="#2f9a6a" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">G</tspan></text>
 <text x="20" y="237" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Spin</tspan></text>
 <text x="20" y="307" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Charge</tspan></text>
 <text x="225" y="187.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Proton</tspan></text>

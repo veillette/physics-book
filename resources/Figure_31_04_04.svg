@@ -121,5 +121,5 @@
 <circle cx="395" cy="220" r="8" fill="url(#n31_3950_2200_8_d2a46a)"/>
 <line x1="410" y1="232.5" x2="441.94" y2="259.12" stroke="#4caf2a" stroke-width="3.5"/>
 <polygon points="455,270 436.56,264.01 445.78,252.95" fill="#4caf2a"/>
-<text x="465" y="275.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ν̄</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">e</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<text x="465" y="275.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ν</tspan><tspan font-size="20.8" font-style="normal" dx="-8.32" dy="1.3">¯</tspan><tspan dx="-2.08" dy="-1.3">​</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">e</tspan></tspan><tspan dy="-7.28">​</tspan></text>
 </svg>

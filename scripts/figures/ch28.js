@@ -137,11 +137,13 @@ export default {
   // 28.4 problem — laser light from ships moving toward and away from Earth
   Figure_28_04_04: () => {
     const svg = new Svg({
-      width: 620,
-      height: 360,
+      width: 760,
+      height: 380,
       title: 'Laser light from moving spaceships',
-      desc: 'Top: a spaceship moving right at v = 0.500c fires laser light ahead of it, which travels at c. Bottom: a spaceship moving left at v = 0.500c fires laser light ahead of it, to the left, also at c.',
+      desc: 'Top: a spaceship moving right at v = 0.500c, toward the Earth, fires laser light ahead of it, which travels at c. Bottom: a spaceship moving left at v = 0.500c, away from the Earth, fires laser light ahead of it, to the left, also at c.',
     });
+    earth(svg, 680, 92, 44);
+    earth(svg, 680, 262, 44);
     rocket(svg, 200, 90, { dir: 1 });
     svg.line(200, 100, 460, 100, { color: LASER, width: 2.5 });
     note(svg, 270, 76, 'laser light', { anchor: 'start', size: 24 });

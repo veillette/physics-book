@@ -304,15 +304,19 @@ export default {
     lab(svg, 66, 30, 'E', { anchor: 'end' });
     for (let n = 1; n <= 4; n += 1) level(svg, 80, 520, Y(n));
     continuum(svg, 80, 520, Y);
-    for (const [n, s] of [
-      [1, 'n = 1'],
-      [2, 'n = 2'],
-      [3, 'n = 3'],
-      [4, 'n = 4'],
-      [5, 'n = 5'],
-    ])
-      lab(svg, 540, Y(n) + (n === 5 ? -4 : 0), s, { anchor: 'start', size: 22 });
-    lab(svg, 540, Y(1e6) - 14, 'n = ∞', { anchor: 'start', size: 22 });
+    // Levels 4, 5 and ∞ are closer together than a line of text, so their labels
+    // are spread apart and tied to their levels by short leaders.
+    for (const [n, s, dy] of [
+      [1, 'n = 1', 0],
+      [2, 'n = 2', 0],
+      [3, 'n = 3', 0],
+      [4, 'n = 4', 2],
+      [5, 'n = 5', -9],
+      [1e6, 'n = ∞', -30],
+    ]) {
+      if (dy) svg.line(522, Y(n), 546, Y(n) + dy, { color: COLORS.guide, width: 1 });
+      lab(svg, dy ? 550 : 540, Y(n) + dy, s, { anchor: 'start', size: 22 });
+    }
     svg.arrow(260, Y(4), 260, Y(2), { color: COLORS.black, width: 1.6, head: 12 });
     lab(svg, 276, (Y(4) + Y(2)) / 2, 'E_4 → E_2', { anchor: 'start', size: 22 });
     return svg.render();
@@ -519,7 +523,7 @@ export default {
   // 30.6 Fig. 0 — standing waves on a string and on orbits
   Figure_30_06_00: () => {
     const svg = new Svg({
-      width: 960,
+      width: 1000,
       height: 500,
       title: 'Electron waves on orbits',
       desc: '(a) Standing waves on a string fixed at both ends. (b) An allowed orbit: the electron’s wave fits a whole number of wavelengths around the circumference, 2πr = nλ, and joins itself smoothly (constructive interference). (c) A forbidden orbit: the circumference is not a whole number of wavelengths, 2πr′ ≠ nλ′, so the wave does not join up and cancels itself (destructive interference).',
@@ -561,7 +565,7 @@ export default {
     // Allowed: exactly 4 wavelengths around. Forbidden: 4.6, traced twice so the mismatch shows.
     orbit(170, 330, 100, 4, 1, '(b)', ['Allowed orbit,', 'constructive interference'], '2πr = nλ');
     orbit(
-      560,
+      640,
       330,
       110,
       4.6,
@@ -836,14 +840,16 @@ export default {
         }
       );
     }
+    // Each label sits in the last 45° of its own arc, so the three land in
+    // different gaps between the L vectors instead of on top of one another.
     for (const [m, r, s] of [
       [1, 50, 'θ_1'],
-      [0, 70, 'θ_2'],
-      [-1, 90, 'θ_3'],
+      [0, 76, 'θ_2'],
+      [-1, 102, 'θ_3'],
     ]) {
       const th = (Math.acos(m / Math.sqrt(2)) * 180) / Math.PI;
       svg.arc(...O, r, 90 - th, 90, { color: COLORS.black, width: 1.5 });
-      const a = rad(90 - th / 2);
+      const a = rad(90 - th + 22.5);
       lab(svg, O[0] + (r + 16) * Math.cos(a), O[1] - (r + 16) * Math.sin(a), s, { size: 22 });
     }
     return svg.render();

@@ -1186,13 +1186,13 @@ export default {
   Figure_18_07_08: () => {
     const svg = new Svg({
       width: 380,
-      height: 560,
+      height: 600,
       title: 'A very pointed charged conductor',
       desc: 'A tall, cone-shaped positively charged conductor. Most of the excess charge is crowded at the sharp tip, and the field lines there are densely packed, fanning out from the point, so the field is very strong at the tip. Along the broad lower part a few charges are spread out and a few field lines leave the surface at right angles, so the field there is weak.',
     });
-    const tip = [190, 150];
-    const baseL = [158, 540];
-    const baseR = [222, 540];
+    const tip = [190, 190];
+    const baseL = [158, 580];
+    const baseR = [222, 580];
     // A dense fan of lines from the tip, each leaving the rounded point radially.
     for (let k = 0; k < 15; k += 1) {
       const a = rad(12 + (156 * k) / 14);
@@ -1208,6 +1208,9 @@ export default {
         head: 12,
       });
     }
+    // The central line runs on past the fan to carry the label for the total field.
+    svg.arrow(tip[0], tip[1] - 150, tip[0], tip[1] - 180, { color: FIELD, width: 1.8, head: 12 });
+    lab(svg, tip[0] + 10, tip[1] - 168, '**E**_{tot}', { anchor: 'start', size: 18 });
     // Sparse lines leaving the sides at right angles.
     const side = (P, Q, t, s) => {
       const x = P[0] + (Q[0] - P[0]) * t;

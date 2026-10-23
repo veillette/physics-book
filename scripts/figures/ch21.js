@@ -130,7 +130,7 @@ function hbrace(svg, x1, x2, y, { depth = 10 } = {}) {
 }
 
 /** Rounded current path through `points` (corners rounded with radius rr). */
-function roundFlow(svg, points, { rr = 14, color = CURRENT, width = 3 } = {}) {
+function roundFlow(svg, points, { rr = 14, color = CURRENT, width = 3, head = true } = {}) {
   let d = `M ${points[0][0]} ${points[0][1]}`;
   for (let k = 1; k < points.length - 1; k += 1) {
     const [px, py] = points[k - 1];
@@ -147,6 +147,10 @@ function roundFlow(svg, points, { rr = 14, color = CURRENT, width = 3 } = {}) {
   const l = Math.hypot(ex - qx, ey - qy);
   const ux = (ex - qx) / l;
   const uy = (ey - qy) / l;
+  if (!head) {
+    svg.path(`${d} L ${ex} ${ey}`, { color, width });
+    return;
+  }
   d += ` L ${ex - ux * 10} ${ey - uy * 10}`;
   svg.path(d, { color, width });
   svg.arrow(ex - ux * 14, ey - uy * 14, ex, ey, { color, width, head: 13 });
@@ -399,7 +403,7 @@ export default {
   Figure_21_01_02: () => {
     const svg = new Svg({
       width: 720,
-      height: 290,
+      height: 310,
       title: 'Three resistors in series and the equivalent series resistance',
       desc: 'Left: a voltage source V drives a current I clockwise through R1 on the top, R2 on the right, and R3 on the bottom. Right, after an equals sign: the same source drives the same current I through a single resistance Rs.',
     });
@@ -540,7 +544,7 @@ export default {
       box(svg, L, T, R, B);
       src(L, T, B);
       on(svg, 'R', [L + 15, T], [n1 - 15, T], { size: S });
-      lab(svg, (L + n1) / 2, T - 18, 'R_1', { size: 18 });
+      lab(svg, (L + n1) / 2, T - 28, 'R_1', { size: 18 });
       wire(svg, [
         [n1, T],
         [n1, B],
@@ -548,9 +552,9 @@ export default {
       on(svg, 'R', [n1, T + 40], [n1, B - 40], { size: S });
       lab(svg, n1 + 16, (T + B) / 2, 'R_7', { size: 18, anchor: 'start' });
       on(svg, 'R', [640, T], [700, T], { size: S });
-      lab(svg, 664, T - 22, 'R_p', { size: 18 });
+      lab(svg, 670, T - 30, 'R_p', { size: 18 });
       on(svg, 'R', [R, 130], [R, 190], { size: S });
-      lab(svg, R - 14, 172, 'R′_p', { size: 18, anchor: 'end' });
+      lab(svg, R - 22, 196, 'R′_p', { size: 18, anchor: 'end' });
       ring(694, 138, 72, 28, 50, 'R_s', 744, 84);
     }
     step(752, 228, 742, 288, [22, 0]);
@@ -565,7 +569,7 @@ export default {
       box(svg, L, T, R, B);
       src(L, T, B);
       on(svg, 'R', [L + 15, T], [n1 - 15, T], { size: S });
-      lab(svg, (L + n1) / 2, T - 18, 'R_1', { size: 18 });
+      lab(svg, (L + n1) / 2, T - 28, 'R_1', { size: 18 });
       wire(svg, [
         [n1, T],
         [n1, B],
@@ -587,7 +591,7 @@ export default {
       box(svg, L, T, R, B);
       src(L, T, B);
       on(svg, 'R', [L + 40, T], [R - 40, T], { size: S });
-      lab(svg, (L + R) / 2, T + 24, 'R_1', { size: 18 });
+      lab(svg, (L + R) / 2 - 30, T + 24, 'R_1', { size: 18 });
       on(svg, 'R', [R, T + 25], [R, B - 25], { size: S });
       lab(svg, R - 14, (T + B) / 2 + 2, 'R″_p', { size: 18, anchor: 'end' });
       ring(525, 500, 70, 34, 42, 'R′_s', 584, 520);
@@ -1610,12 +1614,18 @@ export default {
       [R - 16, y - 10],
       [580, y - 10],
     ]);
-    roundFlow(svg, [
-      [L + 16, y + 10],
-      [L + 16, B - 34],
-      [R - 16, B - 34],
-      [R - 16, y + 10],
-    ]);
+    // The lower branch splits off the incoming current and rejoins it, so it
+    // starts and ends on the upper path instead of carrying its own arrowhead.
+    roundFlow(
+      svg,
+      [
+        [L + 16, y - 10],
+        [L + 16, B - 34],
+        [R - 16, B - 34],
+        [R - 16, y - 10],
+      ],
+      { head: false }
+    );
     for (const yy of [T + 40, B - 34]) {
       svg.arrow(290, yy, 330, yy, { color: CURRENT, width: 3, head: 15 });
     }
@@ -1926,7 +1936,7 @@ export default {
       lab(svg, xs + 20, 635, 'r_G', { anchor: 'start' });
       on(svg, 'cell', [L + 80, yb], [L + 40, yb]);
       plus(svg, L + 30, yb + 32);
-      lab(svg, L + 80, yb + 38, 'emf_x', { anchor: 'start' });
+      lab(svg, L + 60, yb - 40, 'emf_x');
       lab(svg, 650, 540, 'emf_x = IR_x', { anchor: 'start' });
       lab(svg, 650, 575, '\\rm{if} G = 0', { anchor: 'start' });
       caption(svg, 610, 730, '(b)');

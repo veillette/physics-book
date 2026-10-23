@@ -125,9 +125,9 @@ function threeForces(about) {
     desc: `(a) Field B out of the page and force F up. (b) Field B to the right and force F up. (c) Field B into the page and force F to the left.`,
   });
   grid(svg, 50, 90, 4, 3, true, { dx: 72, dy: 104, r: 22 });
-  arrow(svg, 158, 330, 158, 30, FORCE, 3.5);
-  lab(svg, 158, 16, '**F**', { size: 26 });
-  lab(svg, 290, 312, '**B**_{out}', { anchor: 'start', size: 24 });
+  arrow(svg, 158, 330, 158, 40, FORCE, 3.5);
+  lab(svg, 158, 26, '**F**', { size: 26 });
+  lab(svg, 298, 324, '**B**_{out}', { anchor: 'start', size: 24 });
   caption(svg, 160, 400, '(a)');
   lines(svg, 3, [340, 110], [480, 110], [0, 96]);
   arrow(svg, 400, 340, 400, 46, FORCE, 3.5);
@@ -135,7 +135,7 @@ function threeForces(about) {
   lab(svg, 492, 94, '**B**', { anchor: 'start', size: 24 });
   caption(svg, 410, 400, '(b)');
   grid(svg, 590, 80, 3, 4, false, { dx: 66, dy: 82, r: 22 });
-  lab(svg, 746, 80, '**B**_{in}', { anchor: 'start', size: 24 });
+  lab(svg, 754, 80, '**B**_{in}', { anchor: 'start', size: 24 });
   arrow(svg, 780, 203, 586, 203, FORCE, 3.5);
   lab(svg, 572, 203, '**F**', { anchor: 'end', size: 26 });
   caption(svg, 656, 400, '(c)');
@@ -333,14 +333,15 @@ export default {
     lab(svg, R + 12, (70 + T) / 2, '7.50 \\rm{cm}', { anchor: 'start', size: 22 });
     dimV(L - 30, T, B);
     lab(svg, L - 44, (T + B) / 2, '10.0 \\rm{cm}', { anchor: 'end', size: 22 });
-    svg.arrow(L + 1, B + 40, R - 1, B + 40, {
-      color: COLORS.black,
-      width: 1.4,
-      head: 10,
-      start: true,
-    });
+    // The dimension line breaks around its label instead of running through it.
+    const mid = (L + R) / 2;
+    for (const [from, to] of [
+      [mid - 48, L + 1],
+      [mid + 48, R - 1],
+    ])
+      svg.arrow(from, B + 40, to, B + 40, { color: COLORS.black, width: 1.4, head: 10 });
     for (const x of [L, R]) svg.line(x, B + 30, x, B + 50, { color: COLORS.black, width: 1.4 });
-    lab(svg, (L + R) / 2, B + 40, '30.0 \\rm{cm}', { size: 22 });
+    lab(svg, mid, B + 40, '30.0 \\rm{cm}', { size: 22 });
     return svg.render();
   },
 

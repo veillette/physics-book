@@ -28,7 +28,7 @@
 <line x1="338.75" y1="300" x2="338.75" y2="397.5" stroke="#d9a21b" stroke-width="4"/>
 <polygon points="338.75,412.5 332.35,396.5 345.15,396.5" fill="#d9a21b"/>
 <circle cx="620" cy="300" r="5.5" fill="#c0392b" stroke="#7b1c14" stroke-width="1"/>
-<text x="620" y="283.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan></text>
+<text x="612" y="331.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan></text>
 <text x="526" y="278.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">o</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 <text x="324.75" y="364.65" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">i</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 <line x1="550" y1="170" x2="760" y2="170" stroke="#222222" stroke-width="1.4"/>
@@ -52,7 +52,7 @@
 <text x="695" y="231.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
 <text x="625" y="263.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
 <text x="576" y="253.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
-<text x="498.75" y="366.2" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
-<text x="568.75" y="414.2" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<text x="498.75" y="340.2" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="568.75" y="378.2" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
 <text x="538.75" y="440.2" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
 </svg>

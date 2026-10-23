@@ -203,10 +203,16 @@ export default {
     const step = lam1 / Math.sin(th1);
     const perpIn = [dIn[1], -dIn[0]];
     const perpOut = [dOut[1], -dOut[0]];
-    for (let k = -2; k <= 2; k += 1) {
+    // perpIn points up and to the right, so each medium-1 front runs up from the
+    // surface and each medium-2 front, perpendicular to the refracted ray, runs
+    // down. Fronts that would leave the panel or cross the labels are dropped.
+    for (let k = -2; k <= 1; k += 1) {
       const P = [O[0] + k * step, ys];
-      svg.line(...P, ...add(P, mul(perpIn, -240)), { color: '#6a3d9a', width: 1.6 });
-      svg.line(...P, ...add(P, mul(perpOut, 240)), { color: '#6a3d9a', width: 1.6 });
+      svg.line(...P, ...add(P, mul(perpIn, 200)), { color: '#6a3d9a', width: 1.6 });
+    }
+    for (let k = -1; k <= 1; k += 1) {
+      const P = [O[0] + k * step, ys];
+      svg.line(...P, ...add(P, mul(perpOut, -200)), { color: '#6a3d9a', width: 1.6 });
     }
     ray(svg, sub(O, mul(dIn, 230)), O, { arrow: 0.6, width: 3 });
     ray(svg, O, add(O, mul(dOut, 200)), { arrow: 0.7, width: 3 });
@@ -215,14 +221,16 @@ export default {
     svg.arc(...Pw, lam2, 180, 360, { color: '#6a3d9a', width: 2 });
     angle(svg, O, [0, -1], mul(dIn, -1), 90, 'θ_1', { labelR: 114 });
     angle(svg, O, [0, 1], dOut, 60, 'θ_2', { labelR: 82 });
-    const W1 = [O[0] + 70, ys - 140];
+    // From a point on the front through O, one λ1 along the ray lands on the
+    // next front, as v2t does below the surface.
+    const W1 = add(O, mul(perpIn, 150));
     svg.arrow(...W1, ...add(W1, mul(dIn, lam1)), {
       color: COLORS.black,
       width: 1.5,
       head: 10,
       start: true,
     });
-    lab(svg, W1[0] + 44, W1[1] + 44, 'v_1t', { anchor: 'start' });
+    lab(svg, W1[0] + 36, W1[1] + 30, 'v_1t', { anchor: 'start' });
     const W2 = add(Pw, mul(perpOut, -10));
     svg.arrow(...W2, ...add(W2, mul(dOut, lam2)), {
       color: COLORS.black,
@@ -230,9 +238,9 @@ export default {
       head: 10,
       start: true,
     });
-    lab(svg, W2[0] - 20, W2[1] + 40, 'v_2t', { anchor: 'end' });
-    note(svg, 180, 120, 'Ray', { size: 24 });
-    note(svg, 640, 60, 'Wavefront', { size: 24 });
+    lab(svg, W2[0] - 34, W2[1] + 40, 'v_2t', { anchor: 'end' });
+    note(svg, 262, 100, 'Ray', { size: 24, anchor: 'end' });
+    note(svg, 660, 100, 'Wavefront', { size: 24 });
     note(svg, 90, ys - 18, 'Surface', { size: 24 });
     note(svg, 660, ys - 18, 'Medium 1', { size: 24 });
     note(svg, 660, ys + 24, 'Medium 2', { size: 24 });
@@ -575,12 +583,17 @@ export default {
       const bx = 480;
       if (order === 0)
         svg.rect(bx, y - 12, 50, 24, { fill: '#ffffff', stroke: COLORS.black, width: 1.5 });
-      else
-        [700, 620, 580, 540, 490, 440, 400].forEach((nm, k) => {
+      else {
+        // Red diffracts through the larger angle, so it lies on the far side of
+        // each rainbow from the central maximum, above it and below it alike.
+        const band = [700, 620, 580, 540, 490, 440, 400];
+        if (y > 264) band.reverse();
+        band.forEach((nm, k) => {
           svg.add(
             `<rect x="${bx}" y="${(y - 21 + k * 6).toFixed(1)}" width="50" height="6" fill="${spectral(nm)}" fill-opacity="${order === 2 ? 0.5 : 1}"/>`
           );
         });
+      }
       note(svg, 550, y - 12, s1, { anchor: 'start', size: 22 });
       note(svg, 550, y + 14, s2, { anchor: 'start', size: 22 });
     }
@@ -720,15 +733,20 @@ export default {
     }
     angle(svg, G, [1, 0], unit([2 * k, -yR]), 120, '', {});
     angle(svg, G, [1, 0], unit([2 * k, -yV]), 80, '', {});
-    lab(svg, G[0] + 92, G[1] - 120, 'θ_R = ?', { anchor: 'start', size: 22 });
-    lab(svg, G[0] + 100, G[1] - 22, 'θ_V = ?', { anchor: 'start', size: 22 });
-    svg.arrow(G[0] + 2, G[1] + 40, sx - 2, G[1] + 40, {
+    lab(svg, G[0] + 124, G[1] - 112, 'θ_R = ?', { anchor: 'start', size: 22 });
+    // Beyond both arcs (the θR arc also starts on the axis), under the violet ray.
+    lab(svg, G[0] + 136, G[1] - 16, 'θ_V = ?', { anchor: 'start', size: 22 });
+    // The distance x is dimensioned below the lower spectrum, clear of the rays,
+    // with an extension line down from the grating.
+    const yx = G[1] + 310;
+    svg.line(G[0], 500, G[0], yx + 10, { color: COLORS.black, width: 1, dash: '4 4' });
+    svg.arrow(G[0] + 2, yx, sx - 2, yx, {
       color: COLORS.black,
       width: 1.4,
       head: 10,
       start: true,
     });
-    lab(svg, G[0] + k, G[1] + 64, 'x = 2.00 \\rm{m}', { size: 22 });
+    lab(svg, G[0] + k, yx + 24, 'x = 2.00 \\rm{m}', { size: 22 });
     for (const [y, x, s] of [
       [yV, sx + 70, 'y_V = ?'],
       [yR, sx + 140, 'y_R = ?'],
@@ -744,7 +762,7 @@ export default {
       lab(svg, x - 12, G[1] - y / 2, s, { anchor: 'end', size: 22 });
     }
     note(svg, G[0] + 10, 280, 'Grating', { size: 22 });
-    note(svg, sx, 776 - 6, 'Screen', { size: 22 });
+    note(svg, sx + 12, 764, 'Screen', { size: 22, anchor: 'start' });
     return svg.render();
   },
 
@@ -846,7 +864,7 @@ export default {
     angle(svg, O, [1, 0], unit([L, -L]), 130, '', {});
     angle(svg, O, [1, 0], unit([L, -L * Math.tan(th1)]), 90, '', {});
     lab(svg, O[0] + 132, O[1] - 104, 'θ_2 = 45°', { anchor: 'start', size: 20 });
-    lab(svg, O[0] + 98, O[1] - 18, 'θ_1 = ?', { anchor: 'start', size: 20 });
+    lab(svg, O[0] + 138, O[1] - 16, 'θ_1 = ?', { anchor: 'start', size: 20 });
     svg.arrow(O[0] - 18, 388, O[0] - 18, 412, {
       color: COLORS.black,
       width: 1.2,
@@ -855,8 +873,8 @@ export default {
     });
     lab(svg, O[0] - 32, O[1] + 34, 'D', { size: 22 });
     note(svg, sx - 20, 30, 'Screen', { size: 20 });
-    note(svg, sx + 30, 730, 'Intensity', { size: 20 });
-    note(svg, sx + 30, 754, 'on screen', { size: 20 });
+    note(svg, sx + 8, 730, 'Intensity', { size: 20, anchor: 'start' });
+    note(svg, sx + 8, 754, 'on screen', { size: 20, anchor: 'start' });
     return svg.render();
   },
 

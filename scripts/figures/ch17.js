@@ -481,7 +481,8 @@ export default {
       title: 'Sound waves from a source moving faster than sound',
       desc: 'A source moving to the right at speed v_s greater than the speed of sound v_w emitted a sound wave at each of the numbered positions 1 to 6. Each wave is a circle centered on the point where it was emitted, and the source has moved ahead of all of them. The circles all touch two straight lines that meet at the source; along these lines, actually a cone in three dimensions, the waves interfere constructively to form a shock wave. The cone’s angle is θ, with sin(θ/2) = v_w/v_s, so a faster source makes a narrower cone.',
     });
-    const ratio = 1.6;
+    // v_s = 2.4 v_w keeps the cone narrow enough to enclose every wave front.
+    const ratio = 2.4;
     const y = 230;
     const S = [640, y];
     const step = 52;
@@ -499,7 +500,9 @@ export default {
         math: false,
       });
     }
-    const len = (S[0] - 30) / Math.cos(half);
+    // The cone's edges stop at the top and bottom of the figure, past the points
+    // where they touch the circles.
+    const len = (y - 12) / Math.sin(half);
     for (const s of [1, -1]) {
       svg.line(S[0], y, S[0] - len * Math.cos(half), y - s * len * Math.sin(half), {
         color: COLORS.maroon,
@@ -509,12 +512,13 @@ export default {
     svg.line(30, y, S[0], y, { color: COLORS.black, width: 1.2 });
     svg.arrow(S[0] - 4, y, S[0] + 30, y, { color: COLORS.green, width: 5, head: 18 });
     lab(svg, S[0] - 6, y + 44, 'v_s > v_w', { anchor: 'start' });
-    const ar = 560;
+    // The arc marking θ meets both edges of the cone inside the figure.
+    const ar = 450;
     svg.arc(...S, ar, 180 - (half * 180) / Math.PI, 180 + (half * 180) / Math.PI, {
       color: COLORS.black,
       width: 1.8,
     });
-    lab(svg, S[0] - ar + 22, y - 40, 'θ', { anchor: 'start' });
+    lab(svg, S[0] - ar - 10, y - 40, 'θ', { anchor: 'end', size: 24 });
     svg.circle(...S, 6, { fill: COLORS.black });
     return svg.render();
   },

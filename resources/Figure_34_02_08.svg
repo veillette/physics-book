@@ -296,7 +296,7 @@
 <line x1="276.32" y1="242.61" x2="280.76" y2="243.83" stroke="#333333" stroke-width="2"/>
 <polygon points="285,245 279.22,245.65 280.37,241.48" fill="#333333"/>
 <text x="420" y="404.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">μ</tspan></text>
-<text x="470" y="369.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">μ̄</tspan></text>
+<text x="470" y="369.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">μ</tspan><tspan font-size="20.8" font-style="normal" dx="-9.1" dy="1.3">¯</tspan><tspan dx="-1.3" dy="-1.3">​</tspan></text>
 <path d="M 412 380 Q 411 350.6 395 334.9" fill="none" stroke="#333333" stroke-width="2" stroke-linejoin="round"/>
 <line x1="396.42" y1="336.3" x2="393.14" y2="333.08" stroke="#333333" stroke-width="2"/>
 <polygon points="390,330 395.37,332.24 392.34,335.32" fill="#333333"/>

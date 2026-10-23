@@ -113,8 +113,13 @@ export default {
       const [x, y] = g.P(r, pe(r));
       svg.circle(x, y - 8, 9, { fill: '#5ba7dc', stroke: '#1f5f8a', width: 2 });
       svg.circle(x - 3, y - 11, 3, { fill: '#ffffff' });
+      // A short arrow down the slope; on the steep inner wall a fixed step in r
+      // would run the arrow far past the ball.
       const [x2, y2] = g.P(r + dir * 0.18, pe(r + dir * 0.18));
-      svg.arrow(x + dir * 6, y + 6, x2 + dir * 4, y2 + 12, {
+      const len = Math.hypot(x2 - x, y2 - y);
+      const [ux, uy] = [(x2 - x) / len, (y2 - y) / len];
+      const [sx, sy] = [x + ux * 12, y - 8 + uy * 12];
+      svg.arrow(sx + dir * 4, sy + 4, sx + dir * 4 + ux * 42, sy + 4 + uy * 42, {
         color: COLORS.black,
         width: 2,
         head: 12,
@@ -242,7 +247,7 @@ export default {
   Figure_32_06_03: () => {
     const svg = new Svg({
       width: 680,
-      height: 800,
+      height: 820,
       title: 'A fission chain reaction',
       desc: 'A neutron strikes a uranium-235 nucleus, which splits into two fission fragments and three neutrons. Two of those neutrons strike other uranium-235 nuclei, which split in turn, and so on: each generation doubles the number of fissions, so the reaction sustains itself.',
     });

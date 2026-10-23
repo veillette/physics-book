@@ -311,7 +311,7 @@ export default {
     svg.text(84, 390, 'e^−', { size: 18, halo: false });
     svg.arrow(104, 390, 520, 390, { color: COLORS.black, width: 2, head: 16 });
     lab(svg, 440, 360, '\\rm{KE} = qV');
-    lab(svg, ax + w / 2, 340, '\\rm{A}');
+    lab(svg, ax + w + 11, 390, '\\rm{A}');
     lab(svg, bx + w / 2, 470, '\\rm{B}', { halo: false });
     return svg.render();
   },
@@ -1063,7 +1063,9 @@ export default {
         [r1 - 18, '−'],
       ]) {
         const [x, y] = [cx + r * Math.cos(t), cy + r * Math.sin(t)];
-        if (y > 20 && y < H - 10) sign(svg, x, y, s, { size: 24 });
+        // Skip signs that would fall off the right edge or under the “Membrane” label.
+        const hidden = x > W - 16 || (x > 840 && y < 60);
+        if (y > 20 && y < H - 10 && !hidden) sign(svg, x, y, s, { size: 24 });
       }
     }
     for (const [x, y, kind, label] of labeled) {

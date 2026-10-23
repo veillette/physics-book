@@ -1664,9 +1664,18 @@ export default {
       const pts = top.filter(([x]) => x < 360).map(([x]) => [x, yc + f * r(x)]);
       streamline(svg, pts, { at: [0.35, 0.8] });
     }
+    // Eddies, kept off the v2 and v3 arrows and the v3 label.
     const rnd = rng(5);
-    for (let k = 0; k < 16; k += 1)
-      eddy(svg, 380 + 340 * rnd(), yc + (rnd() - 0.5) * 80, rnd() > 0.5 ? 1 : -1);
+    const clear = [
+      [350, 425, yc - 4, yc + 30],
+      [525, 605, yc - 12, yc + 46],
+    ];
+    for (let k = 0; k < 16;) {
+      const [x, y, turn] = [380 + 340 * rnd(), yc + (rnd() - 0.5) * 80, rnd() > 0.5 ? 1 : -1];
+      if (clear.some(([x1, x2, y1, y2]) => x > x1 && x < x2 && y > y1 && y < y2)) continue;
+      eddy(svg, x, y, turn);
+      k += 1;
+    }
     svg.arrow(70, yc + 20, 120, yc + 20, { color: GREEN, width: 3.5, head: 14 });
     lab(svg, 130, yc + 20, 'v_1', { anchor: 'start' });
     svg.arrow(360, yc + 14, 410, yc + 14, { color: GREEN, width: 3.5, head: 14 });
@@ -1760,10 +1769,14 @@ export default {
       if (kind !== 'a') {
         const rnd = rng(kind === 'b' ? 3 : 9);
         const n = kind === 'b' ? 7 : 22;
-        for (let i = 0; i < n; i += 1) {
+        for (let i = 0; i < n;) {
           const x = c[0] - R - 8 - rnd() * (kind === 'b' ? 50 : 100);
           const y = c[1] + (rnd() - 0.5) * (kind === 'b' ? 80 : 150);
-          eddy(svg, x, y, rnd() > 0.5 ? 1 : -1);
+          const turn = rnd() > 0.5 ? 1 : -1;
+          // Leave the drag arrow and its label clear.
+          if (y > c[1] - 12 && y < c[1] + 38) continue;
+          eddy(svg, x, y, turn);
+          i += 1;
         }
       }
       svg.circle(...c, R, { fill: '#f2b3b8', stroke: '#b46b72', width: 1.5 });
@@ -2033,7 +2046,7 @@ export default {
   Figure_12_07_04: () => {
     const svg = new Svg({
       width: 810,
-      height: 410,
+      height: 440,
       title: 'Osmosis through a semipermeable membrane',
       desc: '(a) Two sugar-water solutions, separated by a semipermeable membrane that passes water (small blue dots) but not sugar (larger red dots). The right side has more sugar, so its water is less concentrated, and water moves by osmosis to the right. (b) The right-hand level rises until the back pressure hρg from the height difference h balances the osmotic flow.',
     });
@@ -2070,7 +2083,7 @@ export default {
     svg.circle(220, 360, 3, { fill: '#2a9fd0' });
     svg.arrow(232, 360, 290, 360, { color: '#2a9fd0', width: 3, head: 12 });
     note(svg, 300, 360, 'Osmosis', { anchor: 'start', size: 20 });
-    caption(svg, 185, 392, '(a)');
+    caption(svg, 185, 418, '(a)');
     tank(410, 230, 110, 14, 40);
     vdim(svg, 560, 110, 230, 'h', { side: 1 });
     svg.circle(430, 352, 3, { fill: '#2a9fd0' });
@@ -2078,7 +2091,7 @@ export default {
     note(svg, 510, 352, 'Osmosis', { anchor: 'start', size: 20 });
     svg.arrow(500, 376, 440, 376, { color: '#e2694a', width: 3, head: 12 });
     note(svg, 510, 376, 'Back pressure = \\it{hρg}', { anchor: 'start', size: 20 });
-    caption(svg, 575, 396, '(b)');
+    caption(svg, 575, 418, '(b)');
     return svg.render();
   },
 };

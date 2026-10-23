@@ -187,10 +187,12 @@ export function bindingEnergy({ title = 'Binding energy per nucleon', desc, fusi
     '6Li': [14, 10],
     '7Li': [14, 0],
     '11B': [14, 8],
-    '12C': [-6, -14],
-    '16O': [-8, -14],
-    '20Ne': [-12, -22],
-    '24Mg': [0, -30],
+    '12C': [-5, -12],
+    // ¹⁶O, ²⁰Ne and ²⁴Mg sit a few pixels apart, so their labels are lifted
+    // clear of each other and tied to their points by leaders (third entry).
+    '16O': [-12, -26, true],
+    '20Ne': [-2, -44, true],
+    '24Mg': [16, -38, true],
     '40Ca': [0, 22],
     '56Fe': [0, 22],
     '62Ni': [4, -22],
@@ -223,6 +225,14 @@ export function bindingEnergy({ title = 'Binding energy per nucleon', desc, fusi
       '238U',
     ].includes(name);
     const [x, y] = g.P(A, v);
+    if (t[2]) {
+      const len = Math.hypot(t[0], t[1]);
+      const [ux, uy] = [t[0] / len, t[1] / len];
+      svg.line(x + ux * 4, y + uy * 4, x + t[0] - ux * 2, y + t[1] + 4 - uy * 2, {
+        color: COLORS.guide,
+        width: 1,
+      });
+    }
     svg.text(x + t[0], y + t[1], withMass ? `^{${mass}}\\rm{${sym}}` : `\\rm{${sym}}`, {
       size: 16,
       anchor: t[0] > 8 ? 'start' : t[0] < -4 ? 'end' : 'middle',
@@ -259,13 +269,13 @@ export default {
   // 31.4 Fig. 1 — the uranium-238 decay series
   Figure_31_04_01: () => {
     const svg = new Svg({
-      width: 680,
-      height: 1000,
+      width: 720,
+      height: 1050,
       title: 'The uranium-238 decay series',
       desc: 'Nuclides of the uranium-238 decay series plotted by proton number Z (80 to 92) and neutron number N (124 to 146). Alpha decays (red arrows) lower Z and N by 2 each; beta decays (purple arrows) raise Z by 1 and lower N by 1. 238U (4.5 × 10^9 y) α→ 234Th (24 d) β→ 234Pa (6.7 h) β→ 234U (2.5 × 10^5 y) α→ 230Th (7.5 × 10^4 y) α→ 226Ra (1600 y) α→ 222Rn (3.8 d) α→ 218Po (3.1 m), which branches by α to 214Pb or by β to 218At (2 s). The chain continues through 214Bi, 214Po, 210Tl, 210Pb (22 y), 210Bi (5 d), 206Hg, 206Tl and 210Po (138 d) to stable 206Pb.',
     });
     const X = z => 70 + (z - 79) * 42;
-    const Y = n => 960 - (n - 123) * 40;
+    const Y = n => 1000 - (n - 123) * 40;
     svg.arrow(X(79), Y(123), X(79), Y(147) - 6, { color: COLORS.black, width: 1.5, head: 10 });
     svg.arrow(X(79), Y(123), X(93) + 14, Y(123), { color: COLORS.black, width: 1.5, head: 10 });
     for (let z = 80; z <= 92; z += 1) {
@@ -312,10 +322,10 @@ export default {
       ['Rn222', 'Po218', '3.8 \\rm{d}', [30, 6]],
       ['Po218', 'Pb214', '3.1 \\rm{m}', [-30, -14]],
       ['Po218', 'At218', '', [0, 0]],
-      ['At218', 'Bi214', '2 \\rm{s}', [-14, 14]],
+      ['At218', 'Bi214', '2 \\rm{s}', [16, 14]],
       ['At218', 'Rn218', '2 \\rm{s}', [20, -6]],
       ['Rn218', 'Po214', '35 \\rm{ms}', [30, 6]],
-      ['Pb214', 'Bi214', '27 \\rm{m}', [6, -10]],
+      ['Pb214', 'Bi214', '27 \\rm{m}', [-24, 6]],
       ['Bi214', 'Po214', '21 \\rm{m}', [14, -14]],
       ['Bi214', 'Tl210', '21 \\rm{m}', [-30, 0]],
       ['Po214', 'Pb210', '0.16 \\rm{ms}', [40, 6]],
@@ -356,7 +366,10 @@ export default {
         'Tl206',
         'Pb206',
       ].includes(k);
-      svg.text(x + (right ? 8 : -8), y - 12, `^{${A}}\\rm{${sym}}`, {
+      // ²¹⁴Bi has arrows arriving above it on both sides, so its label sits level
+      // with it, in the gap between the arrows on its left.
+      const level = k === 'Bi214';
+      svg.text(x + (right ? 8 : level ? -18 : -8), level ? y + 4 : y - 12, `^{${A}}\\rm{${sym}}`, {
         size: 16,
         anchor: right ? 'start' : 'end',
       });
@@ -536,18 +549,37 @@ export default {
     svg.add(
       '<defs><linearGradient id="volcano31" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3b48f"/><stop offset="1" stop-color="#fde7da"/></linearGradient></defs>'
     );
-    svg.path('M 0 290 L 250 40 Q 320 110 390 40 L 640 290 Z', {
+    // Rim at y = 40; the crater is the quadratic 40 + 220t(1 − t), 95 deep at the middle.
+    svg.path('M 0 290 L 250 40 Q 320 150 390 40 L 640 290 Z', {
       color: '#c97a4a',
       width: 1.5,
       fill: 'url(#volcano31)',
     });
     // The marble reaches the height of the dashed line, below the rim.
-    svg.line(255, 54, 385, 54, { color: COLORS.black, width: 1.4, dash: '6 4' });
-    svg.add('<path d="M 352 64 L 392 64 L 414 86 L 372 86 Z" fill="#9a9a9a" opacity="0.85"/>');
-    for (let x = 356; x < 412; x += 6) svg.line(x, 64, x + 18, 86, { color: '#5a5a5a', width: 1 });
-    svg.circle(272, 66, 11, { fill: '#7ac06a', stroke: '#3f7f3a', width: 1.5 });
-    svg.circle(430, 112, 11, { fill: '#7ac06a', stroke: '#3f7f3a', width: 1.5 });
-    svg.arrow(432, 126, 446, 150, { color: COLORS.black, width: 2, head: 11 });
+    svg.line(255, 50, 385, 50, { color: COLORS.black, width: 1.4, dash: '6 4' });
+    // The tunnel runs level through the rim, from the crater wall to the outer slope.
+    const tunnel = [
+      [381.9, 52],
+      [402, 52],
+      [418, 68],
+      [368.8, 68],
+    ];
+    svg.add(
+      `<defs><clipPath id="tunnel31"><polygon points="${tunnel.map(p => p.join(',')).join(' ')}"/></clipPath></defs>`
+    );
+    svg.polygon(tunnel, { fill: '#9a9a9a' });
+    const hatch = [];
+    for (let x = 350; x < 420; x += 6)
+      hatch.push(
+        `<line x1="${x}" y1="52" x2="${x + 16}" y2="68" stroke="#5a5a5a" stroke-width="1"/>`
+      );
+    svg.add(`<g clip-path="url(#tunnel31)">${hatch.join('')}</g>`);
+    // Inside, resting against the crater wall just below the dashed line.
+    svg.circle(277.5, 58.8, 11, { fill: '#7ac06a', stroke: '#3f7f3a', width: 1.5 });
+    svg.arrow(291, 66, 306, 78, { color: COLORS.black, width: 2, head: 11 });
+    // Outside, rolling down the outer slope after tunneling through.
+    svg.circle(467.8, 102.2, 11, { fill: '#7ac06a', stroke: '#3f7f3a', width: 1.5 });
+    svg.arrow(480, 118, 500, 138, { color: COLORS.black, width: 2, head: 11 });
     return svg.render();
   },
 

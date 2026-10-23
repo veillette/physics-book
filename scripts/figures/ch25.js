@@ -169,17 +169,13 @@ export default {
     const th = 30;
     const inc = add(O, mul(dir(90 + th), 330));
     const ref = add(O, mul(dir(90 - th), 330));
-    svg.polygon(
-      [
-        O,
-        add(O, mul(dir(90 + th), 220)),
-        add(O, mul(dir(90), 236)),
-        add(O, mul(dir(90 - th), 220)),
-      ],
-      {
-        fill: '#c4e6f6',
-      }
-    );
+    // The shaded sector between the rays is bounded by a circular arc.
+    const [sl, sr] = [add(O, mul(dir(90 + th), 220)), add(O, mul(dir(90 - th), 220))];
+    svg.path(`M ${O[0]} ${O[1]} L ${sl[0]} ${sl[1]} A 220 220 0 0 1 ${sr[0]} ${sr[1]} Z`, {
+      color: 'none',
+      width: 0,
+      fill: '#c4e6f6',
+    });
     svg.polygon(
       [
         [10, 385],
@@ -535,21 +531,23 @@ export default {
       title: 'Parallel rays through a diverging lens',
       desc: 'Top: an expanded view of ray 1 crossing a wedge of diverging-lens glass; it bends at each face so that it is turned away from the axis. Bottom: rays 1, 2 and 3 enter a diverging lens parallel to its axis; ray 2 on the axis is undeviated, and rays 1 and 3 spread out as if they came from the focal point F, a distance f in front of the lens. The dashed lines are extensions, not rays.',
     });
+    // The wedge is wide enough to keep θ2 and θ'2 apart, and the exit ray stops
+    // before it leaves the top of the figure.
     const s = lensSlice(svg, {
-      top: 30,
-      x1: 360,
-      x2: 520,
+      top: 50,
+      x1: 340,
+      x2: 580,
       len: 160,
       tilt: -14,
-      y: 100,
+      y: 120,
       xStart: 80,
-      xEnd: 840,
+      xEnd: 820,
     });
     angle(svg, s.H1, s.nL, mul(s.d0, -1), 40, 'θ_1', { labelR: 62, size: 22 });
     angle(svg, s.H1, mul(s.nL, -1), s.d1, 40, 'θ_2', { labelR: 62, size: 22 });
     angle(svg, s.H2, mul(s.nR, -1), mul(s.d1, -1), 40, "θ'_2", { labelR: 62, size: 22 });
     angle(svg, s.H2, s.nR, s.d2, 40, "θ'_1", { labelR: 62, size: 22 });
-    note(svg, 100, 80, '1', { size: 24 });
+    note(svg, 100, 100, '1', { size: 24 });
     note(svg, s.E[0], s.E[1] - 22, '1', { size: 24 });
     // Main lens: f = 190.
     const [cx, cy, f] = [450, 560, 190];
@@ -567,7 +565,10 @@ export default {
       ray(svg, P, end, { arrow: 0.6 });
       if (h) svg.line(...F, ...P, { color: LIGHT, width: 2, dash: '8 6' });
       note(svg, 150, cy + h - 22, l, { size: 24 });
-      note(svg, end[0] + 4, end[1] + (h < 0 ? -18 : h > 0 ? 22 : -20), l, { size: 24 });
+      // Ray 3 runs to the bottom edge, so its label sits beside its end instead of below.
+      const [lx, ly] =
+        h > 0 ? [end[0] + 22, end[1] - 8] : [end[0] + 4, end[1] + (h < 0 ? -18 : -20)];
+      note(svg, lx, ly, l, { size: 24 });
     }
     note(svg, 92, cy, 'Axis', { size: 24 });
     note(svg, 840, cy + 50, 'Axis', { size: 24 });
@@ -768,7 +769,8 @@ export default {
     objArrow(O, hO, '#d9a21b');
     objArrow(I, hI, '#d9a21b');
     dot2(svg, F);
-    note(svg, F[0], F[1] - 24, 'F', { size: 22 });
+    // Below the axis, in the gap between reflected rays 1 and 3.
+    note(svg, F[0] - 8, F[1] + 24, 'F', { size: 22 });
     lab(svg, O[0] - 14, O[1] - hO / 2, 'h_o', { anchor: 'end' });
     lab(svg, I[0] - 14, I[1] - hI / 2, 'h_i', { anchor: 'end' });
     hdim(svg, O[0], V[0], 170, 'd_o');
@@ -778,8 +780,10 @@ export default {
       [[(tip[0] + M1[0]) / 2 + 40, tip[1] - 16], '1'],
       [[(tip[0] + V[0]) / 2 - 30, (tip[1] + V[1]) / 2 - 14], '2'],
       [[tip[0] + 36, tip[1] + 6], '3'],
-      [[itip[0] + 160, itip[1] - 54], '1'],
-      [[itip[0] + 230, itip[1] - 6], '2'],
+      // Reflected rays 1 and 2 converge on the image tip from above, 1 steeper
+      // than 2, so 1 is labeled above itself and 2 below itself.
+      [[itip[0] + 160, itip[1] - 80], '1'],
+      [[itip[0] + 230, itip[1] - 42], '2'],
       [[itip[0] + 200, M3[1] + 20], '3'],
     ])
       note(svg, ...P, l, { size: 22 });

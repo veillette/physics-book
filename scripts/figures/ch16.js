@@ -205,7 +205,7 @@ export default {
   // 16.1 Fig. 1 — a ruler oscillating about equilibrium
   Figure_16_01_02: () => {
     const svg = new Svg({
-      width: 960,
+      width: 1000,
       height: 300,
       title: 'A plastic ruler oscillating about its equilibrium position',
       desc: 'Five stages of a ruler clamped at its lower end. (a) Released from the left of equilibrium, the restoring force F points right. (b) At the equilibrium position the force is zero but the ruler moves right with velocity v. (c) Displaced to the right, the restoring force points left and slows it. (d) At equilibrium again, the force is zero and it moves left. (e) Back at the starting position, ready to repeat; without damping the motion continues.',
@@ -218,7 +218,7 @@ export default {
       { d: -60, F: 1, v: 0, cap: '(e)' },
     ];
     stages.forEach((s, i) => {
-      const x = 120 + i * 186;
+      const x = 140 + i * 196;
       const base = 250;
       const top = 70;
       svg.line(x, base, x, top - 10, { color: '#999999', width: 1.2, dash: '5 4' });
@@ -245,7 +245,7 @@ export default {
       }
       caption(svg, x, 290, s.cap);
     });
-    svg.leader(40, 214, 96, 190, { bend: -0.3, width: 1.3 });
+    svg.leader(70, 214, 136, 190, { bend: -0.3, width: 1.3 });
     note(svg, 8, 232, 'Equilibrium', { anchor: 'start', size: 15 });
     note(svg, 8, 250, 'position', { anchor: 'start', size: 15 });
     return svg.render();
@@ -403,7 +403,7 @@ export default {
       desc: 'Five stages of a block of mass m on a spring of force constant k on a frictionless surface, each with its free-body diagram. (a) At x = X the block is momentarily at rest and the spring force F points left, toward equilibrium. (b) At x = 0 the force is zero and the block moves left at its maximum speed, −v_max. (c) At x = −X it is momentarily at rest and F points right. (d) At x = 0 the force is zero and it moves right at +v_max. (e) Back at x = X, the cycle repeats. In every stage the normal force N and the weight w balance.',
     });
     springStages(svg, { energy: false });
-    note(svg, 470, 22, 'Free-body diagrams', { anchor: 'end', size: 17 });
+    note(svg, 430, 12, 'Free-body diagrams', { size: 17 });
     return svg.render();
   },
 
@@ -710,12 +710,14 @@ export default {
       });
       lab(svg, V[0] - 8, V[1] - 16, '**v**_{max}', { anchor: 'end' });
       lab(svg, (P[0] + V[0]) / 2, P[1] + 24, '**v**', { size: 20 });
+      // The side labels travel with P, so the animation keeps them too; the θ
+      // arc changes shape as θ passes 180°, so only the still shows it.
+      lab(svg, (c[0] + P[0]) / 2 - 22, (c[1] + P[1]) / 2, 'X', { anchor: 'end' });
+      lab(svg, (c[0] + F[0]) / 2, c[1] + 26, 'x');
+      lab(svg, P[0] + 12, (P[1] + c[1]) / 2, '√(X^2 − x^2)', { anchor: 'start' });
       if (!moving) {
         svg.arc(...c, 46, 0, deg, { color: COLORS.black, width: 1.8 });
         lab(svg, c[0] + 56 * Math.cos(a / 2), c[1] - 56 * Math.sin(a / 2), 'θ');
-        lab(svg, (c[0] + P[0]) / 2 - 22, (c[1] + P[1]) / 2, 'X', { anchor: 'end' });
-        lab(svg, (c[0] + F[0]) / 2, c[1] + 26, 'x');
-        lab(svg, P[0] + 12, (P[1] + c[1]) / 2, '√(X^2 − x^2)', { anchor: 'start' });
       }
     };
     const frames = [];
@@ -1014,7 +1016,7 @@ export default {
     const times = ['0', 'T/4', 'T/2', '3T/4', 'T'];
     times.forEach((tl, i) => {
       const t = i / 4;
-      const x0 = 70 + i * 166;
+      const x0 = 90 + i * 160;
       const w = 140;
       const w1 = x => Math.sin(2 * Math.PI * (x + t));
       const w2 = x => Math.sin(2 * Math.PI * (x - t));
@@ -1042,7 +1044,7 @@ export default {
       [170, 'Wave 2'],
       [295, 'Resultant'],
     ]) {
-      note(svg, 60, y, l, { anchor: 'end', size: 15 });
+      note(svg, 82, y, l, { anchor: 'end', size: 15 });
     }
     return svg.render();
   },
@@ -1051,7 +1053,7 @@ export default {
   Figure_16_10_06: () => {
     const svg = new Svg({
       width: 820,
-      height: 400,
+      height: 420,
       title: 'A string vibrating at its fundamental frequency',
       desc: 'A string of length L fixed at both ends vibrates in a single loop: nodes at the ends and an antinode in the middle. Its wavelength is λ1 = 2L, twice the string length, shown by the dashed continuation of the wave beyond the right end, and its frequency is f1 = v_w/2L.',
     });
@@ -1078,8 +1080,8 @@ export default {
     lab(svg, x0 + 280, 390, 'λ_1 = 2L', { size: 21 });
     svg.leader(x0 + 40, 70, x0 + 30, yc - 14, { bend: -0.3, width: 1.3 });
     note(svg, x0 + 40, 62, 'Loop', { anchor: 'start' });
-    svg.leader(x0 + L / 2 - 20, 64, x0 + L / 2, yc - A - 4, { bend: 0.3, width: 1.3 });
-    note(svg, x0 + L / 2 - 30, 56, 'Antinode', { anchor: 'end' });
+    svg.leader(x0 + L / 2, 66, x0 + L / 2 + 4, yc - A - 4, { bend: 0.3, width: 1.3 });
+    note(svg, x0 + L / 2, 54, 'Antinode');
     svg.leader(x0 + L - 40, 64, x0 + L - 4, yc - 4, { bend: 0.3, width: 1.3 });
     note(svg, x0 + L - 40, 56, 'Node', { anchor: 'middle' });
     return svg.render();

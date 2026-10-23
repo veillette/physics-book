@@ -2,37 +2,37 @@
 <title id="title">Sound waves from a source moving faster than sound</title>
 <desc id="desc">A source moving to the right at speed v_s greater than the speed of sound v_w emitted a sound wave at each of the numbered positions 1 to 6. Each wave is a circle centered on the point where it was emitted, and the source has moved ahead of all of them. The circles all touch two straight lines that meet at the source; along these lines, actually a cone in three dimensions, the waves interfere constructively to form a shock wave. The cone’s angle is θ, with sin(θ/2) = v_w/v_s, so a faster source makes a narrower cone.</desc>
 <rect width="700" height="460" fill="#ffffff"/>
-<circle cx="328" cy="230" r="195" fill="none" stroke="#7b4fa6" stroke-width="2"/>
+<circle cx="328" cy="230" r="130" fill="none" stroke="#7b4fa6" stroke-width="2"/>
 <circle cx="328" cy="230" r="6" fill="#222222"/>
 <text x="328" y="261" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
-<text x="197.38" y="73.15" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
-<circle cx="380" cy="230" r="162.5" fill="none" stroke="#7b4fa6" stroke-width="2"/>
+<text x="268" y="105.4" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<circle cx="380" cy="230" r="108.33" fill="none" stroke="#7b4fa6" stroke-width="2"/>
 <circle cx="380" cy="230" r="6" fill="#222222"/>
 <text x="380" y="261" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
-<text x="269.69" y="98.52" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
-<circle cx="432" cy="230" r="130" fill="none" stroke="#7b4fa6" stroke-width="2"/>
+<text x="329.03" y="125.09" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<circle cx="432" cy="230" r="86.67" fill="none" stroke="#7b4fa6" stroke-width="2"/>
 <circle cx="432" cy="230" r="6" fill="#222222"/>
 <text x="432" y="261" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
-<text x="342" y="123.89" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
-<circle cx="484" cy="230" r="97.5" fill="none" stroke="#7b4fa6" stroke-width="2"/>
+<text x="390.06" y="144.79" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<circle cx="484" cy="230" r="65" fill="none" stroke="#7b4fa6" stroke-width="2"/>
 <circle cx="484" cy="230" r="6" fill="#222222"/>
 <text x="484" y="261" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
-<text x="414.31" y="149.26" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
-<circle cx="536" cy="230" r="65" fill="none" stroke="#7b4fa6" stroke-width="2"/>
+<text x="451.08" y="164.48" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<circle cx="536" cy="230" r="43.33" fill="none" stroke="#7b4fa6" stroke-width="2"/>
 <circle cx="536" cy="230" r="6" fill="#222222"/>
 <text x="536" y="261" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
-<text x="486.63" y="174.63" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
-<circle cx="588" cy="230" r="32.5" fill="none" stroke="#7b4fa6" stroke-width="2"/>
+<text x="512.11" y="184.18" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<circle cx="588" cy="230" r="21.67" fill="none" stroke="#7b4fa6" stroke-width="2"/>
 <circle cx="588" cy="230" r="6" fill="#222222"/>
 <text x="588" y="261" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
-<text x="558.94" y="200" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
-<line x1="640" y1="230" x2="30" y2="-258.39" stroke="#7b1145" stroke-width="3"/>
-<line x1="640" y1="230" x2="30" y2="718.39" stroke="#7b1145" stroke-width="3"/>
+<text x="573.14" y="203.88" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="640" y1="230" x2="164.38" y2="12" stroke="#7b1145" stroke-width="3"/>
+<line x1="640" y1="230" x2="164.38" y2="448" stroke="#7b1145" stroke-width="3"/>
 <line x1="30" y1="230" x2="640" y2="230" stroke="#222222" stroke-width="1.2"/>
 <line x1="636" y1="230" x2="653" y2="230" stroke="#3f9a2b" stroke-width="5"/>
 <polygon points="670,230 652,237.2 652,222.8" fill="#3f9a2b"/>
 <text x="634" y="281.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">s</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> &gt; </tspan><tspan font-style="italic">v</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">w</tspan></tspan><tspan dy="-6.16">​</tspan></text>
-<path d="M 202.85 -120 A 560 560 0 0 0 202.85 580" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
-<text x="102" y="197.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<path d="M 230.92 42.5 A 450 450 0 0 0 230.92 417.5" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="180" y="198.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
 <circle cx="640" cy="230" r="6" fill="#222222"/>
 </svg>

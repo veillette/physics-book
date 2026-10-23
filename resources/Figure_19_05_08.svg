@@ -115,8 +115,6 @@
 <text x="718.1" y="31.58" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
 <text x="784.63" y="126.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
 <text x="850.95" y="85.96" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
-<text x="921.72" y="53.71" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
-<text x="995.9" y="30.32" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
 <circle cx="350" cy="145" r="26" fill="#c9e4e1" stroke="#3a9a96" stroke-width="1.5"/>
 <text x="350" y="152.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Na</tspan><tspan font-size="15.4" dy="-8.8"><tspan font-style="normal">+</tspan></tspan><tspan dy="8.8">​</tspan></text>
 <circle cx="740" cy="340" r="26" fill="#f7b8a6" stroke="#c62828" stroke-width="3"/>

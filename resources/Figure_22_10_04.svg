@@ -24,9 +24,10 @@
 <line x1="160" y1="182.5" x2="180" y2="182.5" stroke="#222222" stroke-width="1.4"/>
 <line x1="160" y1="332.5" x2="180" y2="332.5" stroke="#222222" stroke-width="1.4"/>
 <text x="156" y="265.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10.0 </tspan><tspan font-style="normal">cm</tspan></text>
-<line x1="210" y1="372.5" x2="640" y2="372.5" stroke="#222222" stroke-width="1.4"/>
-<polygon points="649,372.5 639,376.5 639,368.5" fill="#222222"/>
+<line x1="377" y1="372.5" x2="210" y2="372.5" stroke="#222222" stroke-width="1.4"/>
 <polygon points="201,372.5 211,368.5 211,376.5" fill="#222222"/>
+<line x1="473" y1="372.5" x2="640" y2="372.5" stroke="#222222" stroke-width="1.4"/>
+<polygon points="649,372.5 639,376.5 639,368.5" fill="#222222"/>
 <line x1="200" y1="362.5" x2="200" y2="382.5" stroke="#222222" stroke-width="1.4"/>
 <line x1="650" y1="362.5" x2="650" y2="382.5" stroke="#222222" stroke-width="1.4"/>
 <text x="425" y="380.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30.0 </tspan><tspan font-style="normal">cm</tspan></text>

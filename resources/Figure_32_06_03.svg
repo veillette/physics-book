@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="800" viewBox="0 0 680 800" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="820" viewBox="0 0 680 820" role="img" aria-labelledby="title desc">
 <title id="title">A fission chain reaction</title>
 <desc id="desc">A neutron strikes a uranium-235 nucleus, which splits into two fission fragments and three neutrons. Two of those neutrons strike other uranium-235 nuclei, which split in turn, and so on: each generation doubles the number of fissions, so the reaction sustains itself.</desc>
-<rect width="680" height="800" fill="#ffffff"/>
+<rect width="680" height="820" fill="#ffffff"/>
 <line x1="20" y1="380" x2="70" y2="380" stroke="#222222" stroke-width="1.5"/>
 <polygon points="80,380 69,384.4 69,375.6" fill="#222222"/>
 <defs><radialGradient id="n31_900_3800_6_b6e09a" cx="0.36" cy="0.32" r="0.72"><stop offset="0" stop-color="#ffffff"/><stop offset="0.4" stop-color="#b6e09a"/><stop offset="1" stop-color="#3f8f3a"/></radialGradient></defs>

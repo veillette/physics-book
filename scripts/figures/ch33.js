@@ -956,8 +956,9 @@ export default {
     q(690, 80, 'u', 'R', true, 'R', [0, 26]);
     q(752, 80, '\\bar{d}', 'aR', false, '\\bar{R}', [0, -26]);
     big(915, ['#f6cfae', '#d49a72']);
-    q(880, 80, '\\bar{u}', 'aG', true, 'G', [0, 26]);
-    q(943, 80, 'd', 'aG', false, '\\bar{G}', [0, -26]);
+    // The antiquark carries the anticolor, as the d̄ of the π⁺ does.
+    q(880, 80, '\\bar{u}', 'aG', true, '\\bar{G}', [0, 26]);
+    q(943, 80, 'd', 'G', false, 'G', [0, -26]);
     // Names, spins and charges.
     note(svg, 20, 230, 'Spin', { anchor: 'start', size: 20 });
     note(svg, 20, 300, 'Charge', { anchor: 'start', size: 20 });

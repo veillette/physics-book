@@ -749,7 +749,7 @@ export default {
     lab(svg, a.X(0) - 12, a.Y(0), '0', { anchor: 'end' });
     lab(svg, a.X(1.05) + 4, a.Y(0) + 26, 't');
     lab(svg, a.X(0), a.Y(1.05) - 18, 'V, I');
-    caption(svg, 60, 60, '(a)');
+    caption(svg, 30, 30, '(a)');
     const b = new Plot(svg, {
       x: 120,
       y: 370,
@@ -775,7 +775,7 @@ export default {
     }
     lab(svg, b.X(1.05) + 4, b.Y(0) + 26, 't');
     lab(svg, b.X(0), b.Y(1.2) - 18, 'V, I');
-    caption(svg, 60, 390, '(b)');
+    caption(svg, 30, 340, '(b)');
     return svg.render();
   },
 
@@ -990,9 +990,10 @@ export default {
     );
     note(svg, g.X(2.95), g.Y(60), 'Can’t let go', { size: 20 });
     svg.leader(g.X(3.05), g.Y(56), g.X(3.37), g.Y(41), { bend: 0.3, width: 1.4 });
-    note(svg, g.X(3.4), g.Y(29), 'Threshold', { size: 20 });
-    note(svg, g.X(3.4), g.Y(23), 'of sensation', { size: 20 });
-    svg.leader(g.X(3.5), g.Y(19), g.X(3.65), g.Y(10.5), { bend: 0.3, width: 1.4 });
+    // Placed under the "can't let go" curve, clear of it.
+    note(svg, g.X(2.45), g.Y(11.5), 'Threshold', { size: 20 });
+    note(svg, g.X(2.45), g.Y(6.3), 'of sensation', { size: 20 });
+    svg.leader(g.X(2.9), g.Y(8), g.X(3.45), g.Y(7.6), { bend: -0.25, width: 1.4 });
     return svg.render();
   },
 

@@ -2,7 +2,7 @@
 <title id="title">The law of reflection</title>
 <desc id="desc">A ray strikes a flat surface and reflects. The incident ray makes angle θi with the perpendicular to the surface at the point where it strikes, and the reflected ray makes angle θr with the same perpendicular, on the other side; θr = θi.</desc>
 <rect width="620" height="500" fill="#ffffff"/>
-<polygon points="265,405 155,214.47 265,169 375,214.47" fill="#c4e6f6"/>
+<path d="M 265 405 L 155.00000000000006 214.47441116742348 A 220 220 0 0 1 375 214.4744111674235 Z" fill="#c4e6f6" stroke="none" stroke-width="0" stroke-linejoin="round"/>
 <polygon points="10,385 390,385 520,435 140,435" fill="#e3ecf7" stroke="#7d93bf" stroke-width="1.5"/>
 <polygon points="140,435 520,435 520,458 140,458" fill="#8fa6d3" stroke="#6b80ad" stroke-width="1.5"/>
 <polygon points="10,385 140,435 140,458 10,408" fill="#a9bce0" stroke="#6b80ad" stroke-width="1.5"/>
