@@ -26,7 +26,7 @@ import { chromium } from '@playwright/test';
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
 import { runCli } from './lib/cli.js';
 import { getBaseDir, readFile } from './lib/files.js';
-import { extractPageContent, injectMathCss } from './lib/pdf-content.js';
+import { addPageContent, createCombinedDocument, renderCombinedHtml } from './lib/pdf-content.js';
 import { assembleBook, bookFiles } from './lib/pdf-book.js';
 
 /**
@@ -187,7 +187,7 @@ export class PDFGenerator {
     });
   }
 
-  async preparePage(page, injectCSS = false) {
+  async preparePage(page) {
     await page.evaluate(() => {
       const selectorsToRemove = [
         'nav',
@@ -223,14 +223,6 @@ export class PDFGenerator {
         elements.forEach(el => el.remove());
       });
     });
-
-    if (injectCSS) {
-      const printCssPath = path.join(this.baseDir, 'assets', 'css', 'print.css');
-      if (fs.existsSync(printCssPath)) {
-        const cssContent = readFile(printCssPath);
-        await page.addStyleTag({ content: cssContent });
-      }
-    }
   }
 
   async generatePagePdf(page, url, outputPath, _title) {
@@ -343,21 +335,7 @@ export class PDFGenerator {
       urls.push(this.fileToUrl(section.sectionFile));
     }
 
-    const mathCss = new Set();
-    let combinedHtml = `
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}</title>
-        <style>
-          body { font-family: serif; }
-          .chapter-break { page-break-before: always; }
-          h1 { font-size: 24pt; }
-          h2 { font-size: 18pt; }
-        </style>
-      </head>
-      <body>
-    `;
+    const doc = createCombinedDocument(`Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}`);
 
     for (let i = 0; i < urls.length; i++) {
       const progress = Math.round(((i + 1) / urls.length) * 100);
@@ -365,20 +343,15 @@ export class PDFGenerator {
       try {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
         await this.waitForMathJax(page);
-
-        const content = await extractPageContent(page, mathCss);
-
-        combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
+        await addPageContent(page, doc);
       } catch (_e) {
         console.error(`  Failed to load: ${urls[i]}`);
       }
     }
 
-    combinedHtml += '</body></html>';
-    combinedHtml = injectMathCss(combinedHtml, mathCss);
-
-    await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
-    await this.preparePage(page, true);
+    await page.setContent(renderCombinedHtml(doc), { waitUntil: 'networkidle' });
+    await this.preparePage(page);
+    await this.waitForImages(page);
     await page.waitForTimeout(this.mathJaxWaitTime);
 
     await page.pdf({

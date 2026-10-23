@@ -12,7 +12,7 @@ import fs from 'fs';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { chromium } from '@playwright/test';
-import { extractPageContent, injectMathCss } from './lib/pdf-content.js';
+import { addPageContent, createCombinedDocument, renderCombinedHtml } from './lib/pdf-content.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -178,39 +178,22 @@ class ParallelPDFGenerator {
         urls.push(this.fileToUrl(section.sectionFile));
       }
 
-      const mathCss = new Set();
-      let combinedHtml = `
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <title>Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}</title>
-          <style>
-            body { font-family: serif; }
-            .chapter-break { page-break-before: always; }
-            h1 { font-size: 24pt; }
-            h2 { font-size: 18pt; }
-          </style>
-        </head>
-        <body>
-      `;
+      const doc = createCombinedDocument(
+        `Chapter ${chapter.chapterNumber}: ${chapter.chapterTitle}`
+      );
 
-      for (let i = 0; i < urls.length; i++) {
+      for (const url of urls) {
         try {
-          await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
+          await page.goto(url, { waitUntil: 'networkidle', timeout: 200000 });
           await this.waitForMathJax(page);
-
-          const content = await extractPageContent(page, mathCss);
-
-          combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
+          await addPageContent(page, doc);
         } catch (_e) {
           // Skip failed sections
         }
       }
 
-      combinedHtml += '</body></html>';
-      combinedHtml = injectMathCss(combinedHtml, mathCss);
-
-      await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
+      await page.setContent(renderCombinedHtml(doc), { waitUntil: 'networkidle' });
+      await this.preparePage(page);
       await page.waitForTimeout(this.mathJaxWaitTime);
 
       await page.pdf({

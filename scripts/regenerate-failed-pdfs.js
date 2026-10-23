@@ -20,7 +20,7 @@ import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import { chromium } from '@playwright/test';
-import { extractPageContent, injectMathCss } from './lib/pdf-content.js';
+import { addPageContent, createCombinedDocument, renderCombinedHtml } from './lib/pdf-content.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -122,21 +122,7 @@ async function generateCombinedPdf(browser, chapter) {
       urls.push(`${baseUrl}/contents/${section}.html`);
     }
 
-    const mathCss = new Set();
-    let combinedHtml = `
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>Chapter ${chapter.num}: ${chapter.title}</title>
-        <style>
-          body { font-family: serif; }
-          .chapter-break { page-break-before: always; }
-          h1 { font-size: 24pt; }
-          h2 { font-size: 18pt; }
-        </style>
-      </head>
-      <body>
-    `;
+    const doc = createCombinedDocument(`Chapter ${chapter.num}: ${chapter.title}`);
 
     for (let i = 0; i < urls.length; i++) {
       try {
@@ -158,18 +144,14 @@ async function generateCombinedPdf(browser, chapter) {
 
         await page.waitForTimeout(2000);
 
-        const content = await extractPageContent(page, mathCss);
-
-        combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
+        const content = await addPageContent(page, doc);
         console.log(`    ✓ Loaded ${(content.length / 1024).toFixed(1)}KB`);
       } catch (e) {
         console.error(`    ✗ Failed to load: ${e.message}`);
       }
     }
 
-    combinedHtml += '</body></html>';
-    combinedHtml = injectMathCss(combinedHtml, mathCss);
-
+    const combinedHtml = renderCombinedHtml(doc);
     console.log(`  Setting content (${(combinedHtml.length / 1024).toFixed(1)}KB)...`);
     await page.setContent(combinedHtml, { waitUntil: 'networkidle', timeout: 180000 });
     await page.waitForTimeout(3000);
