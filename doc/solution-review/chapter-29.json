@@ -1,0 +1,3147 @@
+{
+  "chapter": 29,
+  "checked_at": "2026-10-23T18:50:09+00:00",
+  "summary": {
+    "total": 1027,
+    "checked": 172,
+    "failed": 8,
+    "skipped": 847,
+    "by_kind": {
+      "equation": {
+        "checked": 172,
+        "failed": 8,
+        "skipped": 847
+      },
+      "case": {
+        "checked": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 0,
+      "assertions": 0,
+      "chapters": []
+    },
+    "skip_reasons": {
+      "unsupported symbol": 129,
+      "unbound variable": 364,
+      "no supported equality": 305,
+      "unit-only expression or text label needs a numeric value": 38,
+      "unknown unit": 11
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md#Example1",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 91,
+      "end_line": 182,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "c342457bc9bfc724ad6eb9c4f61ca92a2854cafb4f6de4bb6df6bd75fef8fc65",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Recoil of a Dust Particle after Absorbing a Photon The following topics are involved in this integrated concepts worked example: To…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 192,
+      "end_line": 200,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "6279773f44dc3c71704d62573cb736c53f428b57a0b3998f1d61b9836a87dec4",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "In what ways are matter and energy related that were not known before the development of relativity and quantum mechanics?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 204,
+      "end_line": 238,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "270193973c1a445359115062d1f495cd09d0c9dfd19e9fd036b5f9466a012063",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** The 54.0-eV electron in [[Example 1]](../contents/ch29TheWaveNatureOfMatter#Example1) has a 0.167-nm wavelength. If such electrons are passed through a dou…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 240,
+      "end_line": 280,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "72d65ecd1e9115a4ccd24649fb62e521c3b789734fe4f21ffc5eeec22727d584",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** An electron microscope produces electrons with a 2.00-pm wavelength. If these are passed through a 1.00-nm single slit, at what angle will the first diffra…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 282,
+      "end_line": 305,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "9e7cd82b68f3fbbd43c3699140ce15aa3b545ba0262124c75080c1f786cd9b96",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** A certain heat lamp emits 200 W of mostly IR radiation averaging 1500 nm in wavelength. (a) What is the average photon energy in joules? (b) How many of th…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:4",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 307,
+      "end_line": 380,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "dc5e0baf8085c57d5e8793e60cbc41ce48155c278a5d18711e48735b85899ea2",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** On its high power setting, a microwave oven produces 900 W of 2560 MHz microwaves. (a) How many photons per second is this? (b) How many photons are requir…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 24,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:5",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 382,
+      "end_line": 405,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "d0ebb61b201b7b4d8afbb69c33474b8f37927478e5ddd956f9d01faca81ed895",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** (a) Calculate the amount of microwave energy in joules needed to raise the temperature of 1.00 kg of soup from $$ 20.0\\text{ºC} $$ to $$100\\text{ºC} $$ . (…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:6",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 407,
+      "end_line": 457,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "b00cb91e8f16fd0dedbec9fc44da50e9ac807323d3d83bc81a6e24f3636f8cc5",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** (a) What is $$\\gamma $$ for an electron emerging from the Stanford Linear Accelerator with a total energy of 50.0 GeV? (b) Find its momentum. (c) What is t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:7",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 459,
+      "end_line": 479,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "80fb3b45337fe811c0907b3c3ff656035b577d0fa9306faa6c0e82898fad62f8",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** (a) What is $$\\gamma $$ for a proton having an energy of 1.00 TeV, produced by the Fermilab accelerator? (b) Find its momentum. (c) What is the proton’s wa…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:8",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 481,
+      "end_line": 525,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "2311413ccbb4617d956a9cbfaaec44fd4a01b41f3911fad8f1fd6d2d08553dae",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** An electron microscope passes 1.00-pm-wavelength electrons through a circular aperture $$2.00 \\text{μm} $$ in diameter. What is the angle between two just-…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:9",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 527,
+      "end_line": 554,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "248749cbbef5423108f8094cdc06bed48798db986e7bcb19ce27cf5c7b609511",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** (a) Calculate the velocity of electrons that form the same pattern as 450-nm light when passed through a double slit. (b) Calculate the kinetic energy of e…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:10",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 556,
+      "end_line": 580,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "5082216be775a6eac0cf320f51c6dbb56107bcf37e2d5bb6ed3ac69db49f0687",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** (a) What is the separation between double slits that produces a second-order minimum at $$ 45.0º $$ for 650-nm light? (b) What slit separation is needed to…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:11",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 582,
+      "end_line": 673,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "e319b19dd5a4139361ff0c25ad2e587c6684a17be6d3805cff2c9d3030c45c97",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected onto calcium metal. (a) How many electrons per second are ejected? (b) What p…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 26,
+        "checked": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:12",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 675,
+      "end_line": 697,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "fdeab616fbb74a41979412f206f39ca034e77e39fdf3129da5765ac558a0eca6",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** One problem with X-rays is that they are not sensed. Calculate the temperature increase of a researcher exposed in a few seconds to a nearly fatal accident…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:13",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 699,
+      "end_line": 772,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "5b3017ffb378e71e8a8e5eeac5f0ea422403eb9641c1e27b6f17399b73fbd690",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** A 1.00-fm photon has a wavelength short enough to detect some information about nuclei. (a) What is the photon momentum? (b) What is its energy in joules a…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 25,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:14",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 774,
+      "end_line": 800,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "3e81da5ed347f2dd6e4d6563380ddeb8ae7a3ab7becc3909d4a54c54cd91c60f",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** The momentum of light is exactly reversed when reflected straight back from a mirror, assuming negligible recoil of the mirror. Thus the change in momentum…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:15",
+      "chapter": 29,
+      "file": "contents/ch29ParticleWaveDualityReviewed.md",
+      "line": 802,
+      "end_line": 867,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "8d94a45fa7b5f501878881c42e1d5883e5b7aba2ec995f1e3998431a01839a61",
+      "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+      "preview": "**Integrated Concepts** Sunlight above the Earth's atmosphere has an intensity of $$ 1.30 {\\text{kW/m}}^{2} $$ . If this is reflected straight back from a mirror that has only a s…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md#Example1",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 140,
+      "end_line": 186,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "70501857180900d559d232dfc1eff3a5425f0ffeb7253871cd27461f68138fde",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} X-ray Photon Energy and X-ray Tube Voltage Find the maximum energy in eV of an x-ray photon produced by electrons accelerated throu…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::worked-example:2",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 218,
+      "end_line": 258,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "7f7acdcf8118270c3c808992581cda13ee7413c6f56af29af7b89d66debf721b",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "::: example Photon Energy and Effects for UV Short-wavelength UV is sometimes called vacuum UV, because it is strongly absorbed by air and must be studied in a vacuum. Calculate t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::worked-example:3",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 302,
+      "end_line": 347,
+      "kind": "worked-example",
+      "ordinal": 3,
+      "source_sha256": "3d0ef161dae808e508ca8d184ca48133fc90e9090a93a10d8569481a4b719383",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "::: example How Many Photons per Second Does a Typical Light Bulb Produce? Assuming that 10.0% of a 100-W light bulb’s energy output is in the visible range (typical for incandesc…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 426,
+      "end_line": 435,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "ea01d8609b436600fd5732351d43bb4ff20a200ad32cffc45adecddeeada1a4c",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Why are UV, X-rays, and $$\\gamma $$ rays called ionizing radiation?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:2",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 437,
+      "end_line": 445,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "8fda1a39385f04fd4e0ec74f84220929b230f6d94db8cf06ff0e248641ffae00",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "How can treating food with ionizing radiation help keep it from spoiling? UV is not very penetrating. What else could be used?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:3",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 447,
+      "end_line": 455,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "8117144a7639f14a49074ca145f33374dcad554f6a15545f3bc59f48358b951f",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Some television tubes are CRTs. They use an approximately 30-kV accelerating potential to send electrons to the screen, where the electrons stimulate phosphors to emit the light t…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:4",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 457,
+      "end_line": 465,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "eee294cd78aaa4a0b85889656863a49f0e14b1d4ac88c086a0cd1d72c4520775",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Tanning salons use “safe” UV with a longer wavelength than some of the UV in sunlight. This “safe” UV has enough photon energy to trigger the tanning mechanism. Is it likely to be…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:5",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 467,
+      "end_line": 475,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "7177c04b4cb5f4ef59a83794f9c5632f8297f0e93836574bf7fefe25ed83cd29",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Your pupils dilate when visible light intensity is reduced. Does wearing sunglasses that lack UV blockers increase or decrease the UV hazard to your eyes? Explain.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:6",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 477,
+      "end_line": 486,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "14ed85826e63f807163bce76f40ef173b16ae976c85b6f14e2b6422fac90cb51",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "One could feel heat transfer in the form of infrared radiation from a large nuclear bomb detonated in the atmosphere 75 km from you. However, none of the profusely emitted X-rays…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:7",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 488,
+      "end_line": 496,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "067f46aac89cb253b5b4a35d1cd940f114dca29432d9895ead940437e2578591",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Can a single microwave photon cause cell damage? Explain.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::conceptual-questions:8",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 498,
+      "end_line": 508,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "68219d25c21bf3e62299f8342e7b0b0d0e55bf6623afb2386e1a5369acea4fe9",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "In an x-ray tube, the maximum photon energy is given by $$ hf=qV. $$ Would it be technically more correct to say $$ hf=qV+\\text{BE} \\text{,} $$ where BE is the binding energy of e…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 512,
+      "end_line": 528,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "3fa7ba5cd95322927fc09d1ff55212a979cac72ba8487c045e7f164845303f9b",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "What is the energy in joules and eV of a photon in a radio wave from an AM station that has a 1530-kHz broadcast frequency?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 530,
+      "end_line": 546,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "844a19ebf8d0f4eac84306c3261a63a6d7c75c7a7ab61c98b2598489bc5957f0",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) Find the energy in joules and eV of photons in radio waves from an FM station that has a 90.0-MHz broadcast frequency. (b) What does this imply about the number of photons per…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 548,
+      "end_line": 565,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "b21e59b21c089ac50d3320244f015095345053b1dcd9dab8426e447e6cabc6f3",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Calculate the frequency in hertz of a 1.00-MeV $$\\gamma $$ -ray photon.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:4",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 567,
+      "end_line": 587,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "82caad6d65b45c54e4c46165e8193c6929f71142344bc827cf6091a71224deda",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) What is the wavelength of a 1.00-eV photon? (b) Find its frequency in hertz. (c) Identify the type of EM radiation.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:5",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 589,
+      "end_line": 605,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "77b52e38480089d12f54accb4cb70d0e1ac813caf649ab63a419138cad2ec361",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Do the unit conversions necessary to show that $$hc=1240 \\text{eV}\\cdot \\text{nm} \\text{,} $$ as stated in the text.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:6",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 607,
+      "end_line": 625,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "70816a24e0d51bc81421b76296853d8a888854938633128f4d0fd8cf62392946",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Confirm the statement in the text that the range of photon energies for visible light is 1.63 to 3.26 eV, given that the range of visible wavelengths is 380 to 760 nm.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:7",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 627,
+      "end_line": 652,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "01c9de4b231d21f39358e5dec9d99f358ccd0fcb423ce9a3cb9ebfa56ac78311",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) Calculate the energy in eV of an IR photon of frequency $$ 2.00 \\times 10^{13} \\text{Hz} \\text{.} $$ (b) How many of these photons would need to be absorbed simultaneously by…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:8",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 654,
+      "end_line": 669,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "d7dc402902bdc7411cdf44ca8cd3693774ff5eb2f9c74fd7b747bda811ee09cb",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Prove that, to three-digit accuracy, $$h= 4.14 \\times 10^{-15} \\text{eV}\\cdot s, $$ as stated in the text.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:9",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 671,
+      "end_line": 686,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "96b84648b3e79bb7f8bdff0b5ba407a1d5d1f97ca99b936b4b35b76f14ee04c6",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) What is the maximum energy in eV of photons produced in a CRT using a 25.0-kV accelerating potential, such as a color TV? (b) What is their frequency?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:10",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 688,
+      "end_line": 704,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "1728904d26bb3e88690b2fef4276784ed272a9ff6e8ed60a3b461a3032cf4e78",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "What is the accelerating voltage of an x-ray tube that produces X-rays with a shortest wavelength of 0.0103 nm?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:11",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 706,
+      "end_line": 722,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "9e751000484d3b2c6245283c1e6b63fe98bb8b35d449772007e3922b6078e9a9",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) What is the ratio of power outputs by two microwave ovens having frequencies of 950 and 2560 MHz, if they emit the same number of photons per second? (b) What is the ratio of…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:12",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 724,
+      "end_line": 740,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "a78de0ce0029a6d89d9d61584a9f362627fad83013adfec641cfa688170db534",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "How many photons per second are emitted by the antenna of a microwave oven, if its power output is 1.00 kW at a frequency of 2560 MHz?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:13",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 742,
+      "end_line": 760,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "f37233e4d115130996d07792031f82dd4b9817994e47f5f36cf2d35ba5b53105",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Some satellites use nuclear power. (a) If such a satellite emits a 1.00-W flux of $$\\gamma $$ rays having an average energy of 0.500 MeV, how many are emitted per second? (b) Thes…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:14",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 762,
+      "end_line": 782,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "e735a54266103668c5ed4ed77e25bb5c3dad450c9ea5de757030094596ff63ba",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) If the power output of a 650-kHz radio station is 50.0 kW, how many photons per second are produced? (b) If the radio waves are broadcast uniformly in all directions, find the…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:15",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 784,
+      "end_line": 798,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "23daa0bd2365c1e2de2caa827a6d37ec70c71ea3c9a1b8583dc4ad129f4728ed",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "How many x-ray photons per second are created by an x-ray tube that produces a flux of X-rays having a power of 1.00 W? Assume the average energy per photon is 75.0 keV.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 2,
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:16",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 800,
+      "end_line": 818,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "881571e6654b2ae5223799147a55f9fc826dc322a7d9c5cff645f04d8eed5e5a",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "(a) How far away must you be from a 650-kHz radio station with power 50.0 kW for there to be only one photon per second per square meter? Assume no reflections or absorption, as i…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:17",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 820,
+      "end_line": 834,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "7aa5f7e46936e9694f18edd0353f93fb8cb648287ad45980bc7f22fa5a71c0a5",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "Assuming that 10.0% of a 100-W light bulb’s energy output is in the visible range (typical for incandescent bulbs) with an average wavelength of 580 nm, and that the photons sprea…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md::problems-exercises:18",
+      "chapter": 29,
+      "file": "contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md",
+      "line": 836,
+      "end_line": 853,
+      "kind": "problems-exercises",
+      "ordinal": 18,
+      "source_sha256": "d2b3ef6f584ff22fc2115fdf3e99ee1b2703b8337fbb810a0b821a06ea673151",
+      "file_sha256": "10bfce6ff2b0d6bd589d6634a37948615d73fc2a1426f3ec25a7fea08cd98212",
+      "preview": "**Construct Your Own Problem** Consider a laser pen. Construct a problem in which you calculate the number of photons per second emitted by the pen. Among the things to be conside…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md#Example1",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 82,
+      "end_line": 165,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "b5d41c45bc12ccc0241b00804a129828f8b40f9802bfb83ae62b3f851cb879ad",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Electron and Photon Momentum Compared (a) Calculate the momentum of a visible photon that has a wavelength of 500 nm. (b) Find the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md#Example2",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 207,
+      "end_line": 238,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "5a076fc4d71649ce03ba6c19935b2f88224c179366515e7448029c5111095c60",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Photon Energy and Momentum Show that $$p=E/c $$ for the photon considered in the [[Example 1]](#Example1). **Strategy** We will tak…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 260,
+      "end_line": 268,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "7a44b2cd48ffe86e254568363379aaf76df5a0d969e19a1a5a6b0bd39241cdb9",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "Which formula may be used for the momentum of all particles, with or without mass?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::conceptual-questions:2",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 270,
+      "end_line": 278,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "98b8a8dd531dd258cc344037ea2a18c082efdac1da0bc40c20cb20c691b130bd",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "Is there any measurable difference between the momentum of a photon and the momentum of matter?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::conceptual-questions:3",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 280,
+      "end_line": 288,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "53c7eecab9176b3950afa4e59aaf06233a7984bcec22a9d12646f673d71e7b30",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "Why don’t we feel the momentum of sunlight when we are on the beach?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 292,
+      "end_line": 324,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "b659e8701c39b92d60f16d79da3e1db69554e9411c1b0dff975cd0703be7aa3e",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) Find the momentum of a 4.00-cm-wavelength microwave photon. (b) Discuss why you expect the answer to (a) to be very small.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 326,
+      "end_line": 372,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "9cc063a64b4e9b7c6a91c8a41fa0cf0d86299871a129d086c55ce94d6afd7681",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) What is the momentum of a 0.0100-nm-wavelength photon that could detect details of an atom? (b) What is its energy in MeV?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 374,
+      "end_line": 417,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "eb7a75303f615593c47003fd4c63256baa86feb3ba06f49149dfe759a4eb9f47",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) What is the wavelength of a photon that has a momentum of $$ 5.00 \\times 10^{-29} \\text{kg}\\cdot \\text{m/s} $$ ? (b) Find its energy in eV.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:4",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 419,
+      "end_line": 467,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "4ca45803712621354e2e5da20e5b5a49de512f3569a483c8bba61228caf5e931",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) A $$\\gamma $$ -ray photon has a momentum of $$ 8.00 \\times 10^{-21} \\text{kg}\\cdot \\text{m/s} $$ . What is its wavelength? (b) Calculate its energy in MeV.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:5",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 469,
+      "end_line": 487,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "173fee0d8adca142fb649dc06bfbb2777e2ec8a934b9b819cb92e955d3f1585c",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) Calculate the momentum of a photon having a wavelength of $$2.50 \\text{μm} $$ . (b) Find the velocity of an electron having the same momentum. (c) What is the kinetic energy o…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:6",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 489,
+      "end_line": 551,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "ba200e0604d2f01aa0e1cf6b163c04e15b8a43a4535833d55189416da9b2dcd7",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "Repeat the previous problem for a 10.0-nm-wavelength photon.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:7",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 553,
+      "end_line": 570,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "5a3348532c31701dd468ed8bf9c6833b372f2b73fe922cc3d8e2df80e6083a2c",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) Calculate the wavelength of a photon that has the same momentum as a proton moving at 1.00% of the speed of light. (b) What is the energy of the photon in MeV? (c) What is the…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:8",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 572,
+      "end_line": 628,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "72401764fdc6cc0e3e16cb5d162e456e4eb2125849b31099f4af1929a7a2ab03",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "(a) Find the momentum of a 100-keV x-ray photon. (b) Find the equivalent velocity of a neutron with the same momentum. (c) What is the neutron's kinetic energy in keV?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:9",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 630,
+      "end_line": 661,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "153a35d3ac8574f27dde2de16d6976d3d7319938bd17f1eb7d9fbc584b1e58fd",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "Take the ratio of relativistic rest energy, $$E=\\gamma mc^{2} $$ , to relativistic momentum, $$p=\\gamma \\text{mu} $$ , and show that in the limit that mass approaches zero, you fi…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:10",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 663,
+      "end_line": 679,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "e8c1dad1e88c86c5007a247bc66bc0d7b5d5a9f4036dca16cfeec3969a8dfad7",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "**Construct Your Own Problem** Consider a space sail such as mentioned in [[Example 1]](#Example1). Construct a problem in which you calculate the light pressure on the sail in $$…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29PhotonMomentum.md::problems-exercises:11",
+      "chapter": 29,
+      "file": "contents/ch29PhotonMomentum.md",
+      "line": 681,
+      "end_line": 703,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "2866e1b9af23d078a7ac8eb41ddb4c1ff82b77655ac8ce955fc337df81014c7a",
+      "file_sha256": "e09e37ec95e19acd88a1b7fa8464ac25325ad607243534174e5f190621c997eb",
+      "preview": "**Unreasonable Results** A car feels a small force due to the light it sends out from its headlights, equal to the momentum of the light divided by the time in which it is emitted…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md#Example1",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 105,
+      "end_line": 169,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "fbe50a58269bf6d5359160e71be1245f2289bf9d12264e8f99f9e8ebfce7dd21",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Heisenberg Uncertainty Principle in Position and Momentum for an Atom (a) If the position of an electron in an atom is measured to…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md#Example2",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 197,
+      "end_line": 236,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "f236292c503e2c5da13ec827ca095cd1aa8bab6c7131b1b9d8cdf2be91c2edce",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Heisenberg Uncertainty Principle for Energy and Time for an Atom An atom in an excited state temporarily stores energy. If the life…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 277,
+      "end_line": 285,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "8869de59dee43ebadf422b01906f857345f4a068a1fff3320277bf1ee00f638c",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "What is the Heisenberg uncertainty principle? Does it place limits on what can be known?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 289,
+      "end_line": 310,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "db4ae9c79271d7433bc73a371c888a4f89ea63eddb3e59eea0f7d46c50606e7c",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "(a) If the position of an electron in a membrane is measured to an accuracy of $$1.00 \\text{μm} $$ , what is the electron’s minimum uncertainty in velocity? (b) If the electron ha…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 312,
+      "end_line": 358,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "0b30825e04539927e4343bf28b149a673fc6559af68634b5dbfba3de8834b92b",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "(a) If the position of a chlorine ion in a membrane is measured to an accuracy of $$1.00 \\text{μm} $$ , what is its minimum uncertainty in velocity, given its mass is $$ 5.86 \\tim…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 360,
+      "end_line": 403,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "13befa4a30630101b84bf852124686e3b8dfd13088a4424cfc50766a0718d78e",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "Suppose the velocity of an electron in an atom is known to an accuracy of $$ 2.0 \\times 10^{3} \\text{m/s} $$ (reasonably accurate compared with orbital velocities). What is the el…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:4",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 405,
+      "end_line": 441,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "2c8529762c9069aff17887db985661679bbd703682dba4f2eb1bf2d4e46867bc",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "The velocity of a proton in an accelerator is known to an accuracy of 0.250% of the speed of light. (This could be small compared with its velocity.) What is the smallest possible…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:5",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 443,
+      "end_line": 477,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "0926e366cecffa485b52a212d298415730c806531fdf4202ff7f62bed58e2dc7",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "A relatively long-lived excited state of an atom has a lifetime of 3.00 ms. What is the minimum uncertainty in its energy?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:6",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 479,
+      "end_line": 522,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "cd920e2ea22cd08717ef5526b81340195be501521090624a2697f29fb25964a9",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "(a) The lifetime of a highly unstable nucleus is $$ 10^{-20} \\text{s} $$ . What is the smallest uncertainty in its decay energy? (b) Compare this with the rest energy of an electr…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:7",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 524,
+      "end_line": 560,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "9070fb6a9bab564c62bed92c4572df2473df15f9b758dfd6e99fab1f9c426083",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "The decay energy of a short-lived particle has an uncertainty of 1.0 MeV due to its short lifetime. What is the smallest lifetime it can have?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:8",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 562,
+      "end_line": 602,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "2cee0023db313bb0af5262e47d7f2cac3bb56f8edace8d74021bf1c6124a24a9",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "The decay energy of a short-lived nuclear excited state has an uncertainty of 2.0 eV due to its short lifetime. What is the smallest lifetime it can have?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:9",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 604,
+      "end_line": 640,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "483ab9dca459c8bb2f9b35c64e052bb7833a5d33ab32682b7c5285d8899c51bd",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "What is the approximate uncertainty in the mass of a muon, as determined from its decay lifetime?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29Probability.md::problems-exercises:10",
+      "chapter": 29,
+      "file": "contents/ch29Probability.md",
+      "line": 642,
+      "end_line": 696,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "044fff219b2a0a0badd7b16f742db93aedfc41cbd4ff0f54abceea5b088fb4d9",
+      "file_sha256": "c5c7847f7b77ca5bbeff6e6bda2381cceba98d4da503c0ae78c4b79dc2d5a1cd",
+      "preview": "Derive the approximate form of Heisenberg's uncertainty principle for energy and time, $$\\Delta E\\Delta t\\approx h $$ , using the following arguments: Since the position of a part…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 25
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 176,
+      "end_line": 184,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "eb34a82357d9ac6527686a0bd36f2c5c128c19e71ebacb3c907b078e24367893",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "Give an example of a physical entity that is quantized. State specifically what the entity is and what the limits are on its values.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::conceptual-questions:2",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 186,
+      "end_line": 194,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "802f44d19ec78dc6c36b145f185712fa7627aa3841297224363007c07145f0ad",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "Give an example of a physical entity that is not quantized, in that it is continuous and may have a continuous range of values.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::conceptual-questions:3",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 196,
+      "end_line": 204,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "a92ec1ac7dab73c2c7306b455d11e0544bc403d293a038f0ee62f20d16a56f73",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in its atoms and molecules?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::conceptual-questions:4",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 206,
+      "end_line": 215,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "d5d8dd95eb3918bbe6b81897bd0e0f3726d70b21fa095ee8076af2bf9013c056",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "If Planck’s constant were large, say $$ 10^{34} $$ times greater than it is, we would observe macroscopic entities to be quantized. Describe the motions of a child’s swing under s…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::conceptual-questions:5",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 217,
+      "end_line": 225,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "7ebc28c2398c6ddf1efbe29b803faa8bdb9e43b26b22ae1e6fa2dcc18925e752",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "Why don’t we notice quantization in everyday events?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 229,
+      "end_line": 273,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "4c74dcba346ae55e51ce45f2087252285f6e89006599becc138558bd51fd7d8d",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "A LiBr molecule oscillates with a frequency of $$ 1.7 \\times 10^{13} \\text{Hz} \\text{.} $$ (a) What is the difference in energy in eV between allowed oscillator states? (b) What i…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 275,
+      "end_line": 317,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "1b0a32f327ea27b7b66d24e272b5569d297327c69fe897a44c4ef8848893e760",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "The difference in energy between allowed oscillator states in HBr molecules is 0.330 eV. What is the oscillation frequency of this molecule?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29QuantizationOfEnergy.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29QuantizationOfEnergy.md",
+      "line": 319,
+      "end_line": 370,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "4ba76e04b90ee085c7f1abe88e407e8a47c13bbdc499cab2fb874429927dff96",
+      "file_sha256": "5b9f2db2ad8e44e42ea97474dc854e4139187211d45d04b907014ac28c9cee88",
+      "preview": "A physicist is watching a 15-kg orangutan at a zoo swing lazily in a tire at the end of a rope. He (the physicist) notices that each oscillation takes 3.00 s and hypothesizes that…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 22,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::worked-example:1",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 146,
+      "end_line": 223,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "b488f1325bc228317b7315e3f5ea0fc884e813d53581b8bbc4c2c04c8e52ae6d",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "::: example Calculating Photon Energy and the Photoelectric Effect: A Violet Light (a) What is the energy in joules and electron volts of a photon of 420-nm violet light? (b) What…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 257,
+      "end_line": 265,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "be1bf593e24bb44d9578d89bbf31bb2780ff1b5d288861c8b2b0c71b29b24302",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Is visible light the only type of EM radiation that can cause the photoelectric effect?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::conceptual-questions:2",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 267,
+      "end_line": 275,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "42a5bf2cb1e561d13b603de7b871309fd69430a22d51323f9fd920eec1f0c3ab",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Which aspects of the photoelectric effect cannot be explained without photons? Which can be explained without photons? Are the latter inconsistent with the existence of photons?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::conceptual-questions:3",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 277,
+      "end_line": 285,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "b253ba4a495667e1bf01ba19d65359550a2ff77d942d5c1034f947708402d0d2",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Is the photoelectric effect a direct consequence of the wave character of EM radiation or of the particle character of EM radiation? Explain briefly.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::conceptual-questions:4",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 287,
+      "end_line": 295,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "0018390e2cef21d3d9f08ccc1ca09081ec21cb277d9fd03ad04cdc7c4c87b76c",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Insulators (nonmetals) have a higher BE than metals, and it is more difficult for photons to eject electrons from insulators. Discuss how this relates to the free charges in metal…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::conceptual-questions:5",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 297,
+      "end_line": 305,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "cb15d5d03f6ac333d70ede34db37c348201f9c0fb3a87505d8fa5dc90ae40ad3",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "If you pick up and shake a piece of metal that has electrons in it free to move as a current, no electrons fall out. Yet if you heat the metal, electrons can be boiled off. Explai…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 309,
+      "end_line": 323,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "4a8755dfa45a4255e9a637c702646259cb3799251f7c62b68dbe5259641a6512",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "What is the longest-wavelength EM radiation that can eject a photoelectron from silver, given that the binding energy is 4.73 eV? Is this in the visible range?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 325,
+      "end_line": 339,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "8193883ef488d04cfee1af5a1e3c83e975dd943a9ff5e3347696c597750dd8c3",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Find the longest-wavelength photon that can eject an electron from potassium, given that the binding energy is 2.24 eV. Is this visible EM radiation?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 335,
+          "kind": "equation",
+          "expression": "1240/2.24\\text{ nm} = 554\\text{ nm}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('len', -1),) versus (('len', 1),)",
+          "computed": 553571428571.4285,
+          "stated": 5.54e-07,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 341,
+      "end_line": 355,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "48776249483b263b0b4fe8844bd073011c8a75a2da7fbfed1abcf1c9ca2127f8",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "What is the binding energy in eV of electrons in magnesium, if the longest-wavelength photon that can eject electrons is 337 nm?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 351,
+          "kind": "equation",
+          "expression": "1240/337\\text{ eV} = 3.68\\text{ eV}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('len', -2), ('mass', -1), ('time', 2)) versus (('len', 2), ('mass', 1), ('time', -2))",
+          "computed": 2.296579006626512e+19,
+          "stated": 5.89601001312e-19,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:4",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 357,
+      "end_line": 371,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "b2c95295db0b3c33fd3aa87d1176e021666631b5dbfaf78f76b4ba75356fb102",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Calculate the binding energy in eV of electrons in aluminum, if the longest-wavelength photon that can eject them is 304 nm.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 367,
+          "kind": "equation",
+          "expression": "1240/304\\text{ eV} = 4.08\\text{ eV}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('len', -2), ('mass', -1), ('time', 2)) versus (('len', 2), ('mass', 1), ('time', -2))",
+          "computed": 2.5458787014247846e+19,
+          "stated": 6.53688066672e-19,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:5",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 373,
+      "end_line": 391,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "80b1b8bf65b314b343ab2d230ad146e507dba74035b0c06e27454aff5b102d99",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "What is the maximum kinetic energy in eV of electrons ejected from sodium metal by 450-nm EM radiation, given that the binding energy is 2.28 eV?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:6",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 393,
+      "end_line": 407,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "7df30464f52a4dcbe02b8d6684adb0e0102f9eb2d01ab87ad5ae60bda39f1ea2",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "UV radiation having a wavelength of 120 nm falls on gold metal, to which electrons are bound by 4.82 eV. What is the maximum kinetic energy of the ejected photoelectrons?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 403,
+          "kind": "equation",
+          "expression": "1240/120\\text{ eV}-4.82\\text{ eV} = 5.51\\text{ eV}.",
+          "status": "failed",
+          "reason": "invalid calculation: incompatible dimensions: (('len', -2), ('mass', -1), ('time', 2)) and (('len', 2), ('mass', 1), ('time', -2))",
+          "computed": null,
+          "stated": null,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:7",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 409,
+      "end_line": 423,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "9ae7a14eeb7409452319b360d7c94cee9b8e1be4c85102565daf9aee4e287909",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Violet light of wavelength 400 nm ejects electrons with a maximum kinetic energy of 0.860 eV from sodium metal. What is the binding energy of electrons to sodium metal?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 419,
+          "kind": "equation",
+          "expression": "1240/400\\text{ eV}-0.860\\text{ eV} = 2.24\\text{ eV}.",
+          "status": "failed",
+          "reason": "invalid calculation: incompatible dimensions: (('len', -2), ('mass', -1), ('time', 2)) and (('len', 2), ('mass', 1), ('time', -2))",
+          "computed": null,
+          "stated": null,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:8",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 425,
+      "end_line": 439,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "847a883e4759d1d5d70e0b882fd0c30e6de320637a212608303eaa9e57bfd4c8",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "UV radiation having a 300-nm wavelength falls on uranium metal, ejecting 0.500-eV electrons. What is the binding energy of electrons to uranium metal?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 435,
+          "kind": "equation",
+          "expression": "1240/300\\text{ eV}-0.500\\text{ eV} = 3.63\\text{ eV}.",
+          "status": "failed",
+          "reason": "invalid calculation: incompatible dimensions: (('len', -2), ('mass', -1), ('time', 2)) and (('len', 2), ('mass', 1), ('time', -2))",
+          "computed": null,
+          "stated": null,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:9",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 441,
+      "end_line": 455,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "7e090ba9fd438deec5b8c44bc51667c0ccaff3d920f6dbdeb06532c1c6e98741",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "What is the wavelength of EM radiation that ejects 2.00-eV electrons from calcium metal, given that the binding energy is 2.71 eV? What type of EM radiation is this?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 1,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 451,
+          "kind": "equation",
+          "expression": "1240/4.71\\text{ nm} = 263\\text{ nm}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('len', -1),) versus (('len', 1),)",
+          "computed": 263269639065.81738,
+          "stated": 2.63e-07,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:10",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 457,
+      "end_line": 471,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "46c04957b589d5e0279e197ca7df889ecee74945c6a103e310d2fd1a9ae580f4",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Find the wavelength of photons that eject 0.100-eV electrons from potassium, given that the binding energy is 2.24 eV. Are these photons visible?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 1,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch29ThePhotoelectricEffect.md",
+          "line": 467,
+          "kind": "equation",
+          "expression": "1240/2.34\\text{ nm} = 530\\text{ nm}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('len', -1),) versus (('len', 1),)",
+          "computed": 529914529914.52985,
+          "stated": 5.3e-07,
+          "error_pct": null
+        }
+      ],
+      "review_status": "stale-review",
+      "review": null,
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:11",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 473,
+      "end_line": 491,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "1b6f1ad0cf50e40ea688c22433846bd32feb6c1c06b62a5ef196f41ea7705a83",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "What is the maximum velocity of electrons ejected from a material by 80-nm photons, if they are bound to the material by 4.73 eV?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:12",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 493,
+      "end_line": 511,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "f6561566f2cc9a855c59b5427591007c8e5861082fee5c9d4185d221297aee20",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 420-nm photons. Once ejected, how long does it take these electrons to travel 2.50 cm to a detection…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:13",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 513,
+      "end_line": 535,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "67ad287b25456690334235653a41732b5e5da5ef1e9080f3730d10d4307092c9",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected onto calcium metal. (a) How many electrons per second are ejected? (b) What power is carried away by…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:14",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 537,
+      "end_line": 570,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "986be2453c24f717c03011f67f539e0bb5feaffaded5bd686ab20a2c51c59493",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "(a) Calculate the number of photoelectrons per second ejected from a 1.00-mm 2 area of sodium metal by 500-nm EM radiation having an intensity of $$1.30 {\\text{kW/m}}^{2} $$ (the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:15",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 572,
+      "end_line": 595,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "62c683d01f7f67dae0baf63918f53499488763d54ec61dfea44531d1e6d2c708",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "**Unreasonable Results** Red light having a wavelength of 700 nm is projected onto magnesium metal to which electrons are bound by 3.68 eV. (a) Use $${\\text{KE}}_{e}= hf-\\text{BE}…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29ThePhotoelectricEffect.md::problems-exercises:16",
+      "chapter": 29,
+      "file": "contents/ch29ThePhotoelectricEffect.md",
+      "line": 597,
+      "end_line": 619,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "8a0544488d800c6888d630b9f3d55f8c5a38f2e1feafce6e9d834c958da1ea94",
+      "file_sha256": "8b311550f84a7f83cdf22adaa6dcd011c573abf2f011c84dbd6a7e6654f7c15d",
+      "preview": "**Unreasonable Results** (a) What is the binding energy of electrons to a material from which 4.00-eV electrons are ejected by 400-nm EM radiation? (b) What is unreasonable about…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md#Example1",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 91,
+      "end_line": 147,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "dbb06521ced849201b93db61e64c6197ae5aa9901c25012839bacc80b99091f0",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Electron Wavelength versus Velocity and Energy For an electron having a de Broglie wavelength of 0.167 nm (appropriate for interact…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::conceptual-questions:1",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 248,
+      "end_line": 256,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "dd988b440bbf2d82cde3053583333b68f58a6f84b1aec8c724a200fb38085cf7",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "How does the interference of water waves differ from the interference of electrons? How are they analogous?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::conceptual-questions:2",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 258,
+      "end_line": 266,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "c97e5997aa8cc7ba4cec0a59800c74cd027dd7ccad5053e09ef7053254c79736",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "Describe one type of evidence for the wave nature of matter.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::conceptual-questions:3",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 268,
+      "end_line": 276,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "accfba66b973bdcd3342b0c023a7d87c85d7ccc45358c2032a7257c4065fe07a",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "Describe one type of evidence for the particle nature of EM radiation.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:1",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 280,
+      "end_line": 294,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "5b6db1ede0f13e83c4d80304f4523a23a0978e21abab0f578318ddd764934c6e",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "At what velocity will an electron have a wavelength of 1.00 m?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:2",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 296,
+      "end_line": 332,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "5f8f4fa1ebb486b8ad3f02e0ca4a29c8460f3a5f2538a76728fa46469d9f9ed6",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "What is the wavelength of an electron moving at 3.00% of the speed of light?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:3",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 334,
+      "end_line": 348,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "b37159192b774ca63358d4f75a2a94d6abf96b3e1f5ffeebba18347559596f3a",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer = $$ 10^{-15} \\text{m} \\text{.} $$ )",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:4",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 350,
+      "end_line": 378,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "33f941180ab85c108d94c9368e98d586a7a2672b6c67fe4cf9b3642e776eb9d9",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "What is the velocity of a 0.400-kg billiard ball if its wavelength is 7.50 cm (large enough for it to interfere with other billiard balls)?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:5",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 380,
+      "end_line": 394,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "900b5c85678b1a77ef4d5fbc221a6acad9f9c67a7e059f44982ec52328d360ce",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "Find the wavelength of a proton moving at 1.00% of the speed of light.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:6",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 396,
+      "end_line": 438,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "98bef684babfbb604c21789e83dc4184de2d03a6cfdaa09d994067b3b87072f4",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "Experiments are performed with ultracold neutrons having velocities as small as 1.00 m/s. (a) What is the wavelength of such a neutron? (b) What is its kinetic energy in eV?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:7",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 440,
+      "end_line": 455,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "56c2375731c98cf79e51fea97ceef5ca34c517a4c9f493ec00125b8091b95d5a",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "(a) Find the velocity of a neutron that has a 6.00-fm wavelength (about the size of a nucleus). Assume the neutron is nonrelativistic. (b) What is the neutron's kinetic energy in…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:8",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 457,
+      "end_line": 499,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "28ee5202a9656e0328821916e3f30815b5f6150b50dd8bf29d025696faa14320",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "What is the wavelength of an electron accelerated through a 30.0-kV potential, as in a TV tube?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:9",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 501,
+      "end_line": 516,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "98390b7059023a1a6d72a5a3ddbc56e0b47d472e01a7b2d10b29afe5f04233e7",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:10",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 518,
+      "end_line": 561,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "ea45e18c52de65a959c16a7293b7d43b317352a1ac0c06b19b2d734a4884949a",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "(a) Calculate the velocity of an electron that has a wavelength of $$1.00 \\text{μm.} $$ (b) Through what voltage must the electron be accelerated to have this velocity?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:11",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 563,
+      "end_line": 580,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "ef474bf5ddabbeb9483ef0a28543b49cfeb0c1f2680159f224cb36c349a23505",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "The velocity of a proton emerging from a Van de Graaff accelerator is 25.0% of the speed of light. (a) What is the proton’s wavelength? (b) What is its kinetic energy, assuming it…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:12",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 582,
+      "end_line": 630,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "3b450ec29bcef673b8f5dc9961b9ee23fd2f7b65c4c00f42f9e91c2f0543e09e",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "The kinetic energy of an electron accelerated in an x-ray tube is 100 keV. Assuming it is nonrelativistic, what is its wavelength?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch29TheWaveNatureOfMatter.md::problems-exercises:13",
+      "chapter": 29,
+      "file": "contents/ch29TheWaveNatureOfMatter.md",
+      "line": 632,
+      "end_line": 655,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "caf47cc2ef4ad2733ce97110fbdd3de5598b4698d7576facdf501d4d6d4a5f58",
+      "file_sha256": "fe87afb28c41848e57f8f5a1c53d212c7a79788a97c8929e040c2d742f052b6a",
+      "preview": "**Unreasonable Results** (a) Assuming it is nonrelativistic, calculate the velocity of an electron with a 0.100-fm wavelength (small enough to detect details of a nucleus). (b) Wh…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    }
+  ]
+}

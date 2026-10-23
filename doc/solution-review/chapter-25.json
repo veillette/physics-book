@@ -1,0 +1,2534 @@
+{
+  "chapter": 25,
+  "checked_at": "2026-10-23T18:50:09+00:00",
+  "summary": {
+    "total": 1443,
+    "checked": 227,
+    "failed": 0,
+    "skipped": 1216,
+    "by_kind": {
+      "equation": {
+        "checked": 227,
+        "failed": 0,
+        "skipped": 1216
+      },
+      "case": {
+        "checked": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 0,
+      "assertions": 0,
+      "chapters": []
+    },
+    "skip_reasons": {
+      "no supported equality": 530,
+      "unbound variable": 546,
+      "unsupported symbol": 125,
+      "unknown unit": 10,
+      "unit-only expression or text label needs a numeric value": 3,
+      "unsupported operand": 2
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 185,
+      "end_line": 225,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "d06d52dc187e5f89fa30fec73a8c64467807fe72ce11e7fb943ee86e9963c16c",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "(a) What is the ratio of the speed of red light to violet light in diamond, based on [[Table 1]](#Table1)? (b) What is this ratio in polystyrene? (c) Which is more dispersive?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:2",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 227,
+      "end_line": 274,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "613b5a45e10f8da1893913805751f5ae91580a56248fd38cacb44e6b88bd0019",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "A beam of white light goes from air into water at an incident angle of $$ 75.0º $$ . At what angles are the red (660 nm) and violet (410 nm) parts of the light refracted?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:3",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 276,
+      "end_line": 319,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "7a777f9a5a2e359898ec9a44aa94d3a3cb63ff0f6e253e7d8feaa6a39c55f7d9",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "By how much do the critical angles for red (660 nm) and violet (410 nm) light differ in a diamond surrounded by air?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:4",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 321,
+      "end_line": 356,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "6bcf7d68fd0d092cb66a6b9ae124131eb47efc75de2b8aa679bb2a2e96d404ce",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "(a) A narrow beam of light containing yellow (580 nm) and green (550 nm) wavelengths goes from polystyrene to air, striking the surface at a $$ 30.0º $$ incident angle. What is th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:5",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 358,
+      "end_line": 410,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "f41c4449ed0e2dd9503c27fa34601aac6c13b6f169a017625f25395e41f14f0a",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "A parallel beam of light containing orange (610 nm) and violet (410 nm) wavelengths goes from fused quartz to water, striking the surface between them at a $$ 60.0º $$ incident an…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:6",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 412,
+      "end_line": 463,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "7035c4a21034b2f1d62371c5f2253d1bba488a7bd7ef6cb4a3b3b63c7da8aeb9",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "A ray of 610 nm light goes from air into fused quartz at an incident angle of $$ 55.0º $$ . At what incident angle must 470 nm light enter flint glass to have the same angle of re…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:7",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 465,
+      "end_line": 506,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "35be9fe22ff60ff6688e77ea2052e5a25e9a9810197decd0ec7a77e551600d21",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "A narrow beam of light containing red (660 nm) and blue (470 nm) wavelengths travels from air through a 1.00 cm thick flat piece of crown glass and back to air again. The beam str…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25Dispersion.md::problems-exercises:8",
+      "chapter": 25,
+      "file": "contents/ch25Dispersion.md",
+      "line": 508,
+      "end_line": 590,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "4b210229b9c74c88e12570845c08fc2c12f18f880c80d95eac57d6302383599f",
+      "file_sha256": "97ccdb2e3a9cb168b9e5ff144c8fdf845fc5b9b90da2fd3d8c7492c241d583eb",
+      "preview": "A narrow beam of white light enters a prism made of crown glass at a $$ 45.0º $$ incident angle, as shown in [[Figure 6]](#Figure6). At what angles, $${\\theta }_{\\text{R}} $$ and…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md#Example1",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 106,
+      "end_line": 147,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "eb7f1964306ee00949899b5b76b72db2cf853b513dbb4e6f9f6383991c51e3be",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} What is the Power of a Common Magnifying Glass? Suppose you take a magnifying glass out on a sunny day and you find that it concent…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md#Example2",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 373,
+      "end_line": 461,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "63a25aefc0f729d7308ff28886538b9dcb3df5b8a334ac93362dc92d4cf575ff",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Finding the Image of a Light Bulb Filament by Ray Tracing and by the Thin Lens Equations A clear glass light bulb is placed 0.750 m…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 23,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md#Example3",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 513,
+      "end_line": 580,
+      "kind": "worked-example",
+      "ordinal": 3,
+      "source_sha256": "e0be844837416a609cfabddd53d428073b571c136ee2fdc69d497ae6b09e4049",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "::: example {\"id\":\"Example3\",\"class\":\"example\"} Image Produced by a Magnifying Glass Suppose the book page in [[Figure 11]](#Figure11) (a) is held 7.50 cm from a convex lens of fo…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md#Example4",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 598,
+      "end_line": 671,
+      "kind": "worked-example",
+      "ordinal": 4,
+      "source_sha256": "a58c0663adb5b71afd78a8f5ab679ed0bbe57df2aa7547655726f3f81fed716c",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "::: example {\"id\":\"Example4\",\"class\":\"example\"} Image Produced by a Concave Lens Suppose an object such as a book page is held 7.50 cm from a concave lens of focal length –10.0 cm…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::conceptual-questions:1",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 817,
+      "end_line": 853,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "97da5168d98d1e96548e0947fd8f48bb1ea894ed24bf1fd906129835787dd9b0",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "It can be argued that a flat piece of glass, such as in a window, is like a lens with an infinite focal length. If so, where does it form an image? That is, how are $${d}_{\\text{i…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 24,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::conceptual-questions:2",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 855,
+      "end_line": 885,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "aaf854ed15ff468dffd7a996944b752f2a080a2b70c1192fec7ee0573104bfee",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "You can often see a reflection when looking at a sheet of glass, particularly if it is darker on the other side. Explain why you can often see a double image in such circumstances.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::conceptual-questions:3",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 887,
+      "end_line": 917,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "21477fd01ee6b6b8edf34dfcf4b741f93ffe5fe1a9a9614a7c176febf243898a",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "When you focus a camera, you adjust the distance of the lens from the film. If the camera lens acts like a thin lens, why can it not be a fixed distance from the film for both nea…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::conceptual-questions:4",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 919,
+      "end_line": 953,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "029b2adf8003ad034c15bac1d3116950c43c966b696251ce9b2f7fc970428228",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "A thin lens has two focal points, one on either side, at equal distances from its center, and should behave the same for light entering from either side. Look through your eyeglas…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::conceptual-questions:5",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 955,
+      "end_line": 987,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "f88e6618794ecf6cd03f154094d6e9cee5dea5726f519fb3a142631da8c03072",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "Will the focal length of a lens change when it is submerged in water? Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 991,
+      "end_line": 1025,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "5085b8b072d8ebf249c1e498eb51f3266178fa44137f280a70804f1d9e157a0f",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "What is the power in diopters of a camera lens that has a 50.0 mm focal length?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:2",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1027,
+      "end_line": 1069,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "338ffbcc6799cc2e7a6bd2216912116d23b5f5347deb48c2d05c87c218063e9a",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "Your camera's zoom lens has an adjustable focal length ranging from 80.0 to 200 mm. What is its range of powers?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:3",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1071,
+      "end_line": 1099,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "937159c11acd6459b27b9d7200e9827239c73644ff9fa8e18f050d4b31d5c0e9",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "What is the focal length of 1.75 D reading glasses found on the rack in a pharmacy?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:4",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1101,
+      "end_line": 1129,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "d33de0bcaef1467c6c738569acc10c7007c6827dfaf4fef94e099557b746cd96",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "You note that your prescription for new eyeglasses is –4.50 D. What will their focal length be?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:5",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1131,
+      "end_line": 1178,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "62d181e715aad050963dc88758c277b452bff22cf740e43b1122c46f73fd7d2e",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "How far from the lens must the film in a camera be, if the lens has a 35.0 mm focal length and is being used to photograph a flower 75.0 cm away? Explicitly show how you follow th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:6",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1180,
+      "end_line": 1196,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "de9fd46449fdb72de62601f1bf65b4648ba8800c16da3f733ec42140023bd310",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "A certain slide projector has a 100 mm focal length lens. (a) How far away is the screen, if a slide is placed 103 mm from the lens and produces a sharp image? (b) If the slide is…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:7",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1198,
+      "end_line": 1216,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "a079a6b7ef5b1272e3a8a625f3ec6c19458ada20cfd555e7c7e0364df8965c68",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "A doctor examines a mole with a 15.0 cm focal length magnifying glass held 13.5 cm from the mole (a) Where is the image? (b) What is its magnification? (c) How big is the image of…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:8",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1218,
+      "end_line": 1232,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "46fadccb30b2108c45a7ac44a2cb15c62fd36981667335bc236dd2d46b56a819",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "How far from a piece of paper must you hold your father’s 2.25 D reading glasses to try to burn a hole in the paper with sunlight?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:9",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1234,
+      "end_line": 1288,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "768802a7754223da9dc4e80a857bb8ac9568615eb380a4aa2796d534c4f21eb5",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "A camera with a 50.0 mm focal length lens is being used to photograph a person standing 3.00 m away. (a) How far from the lens must the film be? (b) If the film is 36.0 mm high, w…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:10",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1290,
+      "end_line": 1306,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "0b178f94165dd91b9af475dfd3cda957fd699f047038d95f89e66cda2487b7a9",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "A camera lens used for taking close-up photographs has a focal length of 22.0 mm. The farthest it can be placed from the film is 33.0 mm. (a) What is the closest object that can b…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:11",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1308,
+      "end_line": 1355,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "bf8183cf5c72566de13cd642d01d77b2f134d3717ba068aaa1d3b630f3382cf9",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "Suppose your 50.0 mm focal length camera lens is 51.0 mm away from the film in the camera. (a) How far away is an object that is in focus? (b) What is the height of the object if…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:12",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1357,
+      "end_line": 1373,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "0eea432ea41897b5ea35f958efc5a996417d4c51b2df007463e5425d28896650",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "(a) What is the focal length of a magnifying glass that produces a magnification of 3.00 when held 5.00 cm from an object, such as a rare coin? (b) Calculate the power of the magn…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:13",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1375,
+      "end_line": 1422,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "e5dff7e6ad728d05557d2219a64ec3de25ffcaf6d7af61fef0867590bca5464f",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "What magnification will be produced by a lens of power –4.00 D (such as might be used to correct myopia) if an object is held 25.0 cm away?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:14",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1424,
+      "end_line": 1443,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "d8b562d0096a5ccab6261fd1379e9d1c98973500156b9253711f954344ab5b31",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "In [[Example 4]](#Example4), the magnification of a book held 7.50 cm from a 10.0 cm focal length lens was found to be 3.00. (a) Find the magnification for the book when it is hel…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:15",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1445,
+      "end_line": 1494,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "dd8896ac8b3cabca4cdea42410047fd8bbe075267bcb1406875b74787d9e8af3",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "Suppose a 200 mm focal length telephoto lens is being used to photograph mountains 10.0 km away. (a) Where is the image? (b) What is the height of the image of a 1000 m high cliff…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:16",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1496,
+      "end_line": 1512,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "771ff3153fcff0c1193db69bc51567e164106f06167972647beea7e9b4d905d0",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "A camera with a 100 mm focal length lens is used to photograph the sun and moon. What is the height of the image of the sun on the film, given the sun is $$ 1.40 \\times 10^{6} \\te…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByLenses.md::problems-exercises:17",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByLenses.md",
+      "line": 1514,
+      "end_line": 1574,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "9bc5559864e489d83a0a646a8c5967ce12a886b11c114051928fddd1342ca83b",
+      "file_sha256": "41a15500c4439cec37b5fc544407ca17ea40663dc4b7e29e5bc30f6f84705b31",
+      "preview": "Combine thin lens equations to show that the magnification for a thin lens is determined by its focal length and the object distance and is given by $$m=f/\\left(f-{d}_{\\text{o}}\\r…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 25
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md#Example1",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 119,
+      "end_line": 184,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "791cbedcf426a2ab9c1e477ddeaf336f76d598ff71f8a9dab5ec50a886fbfcf4",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} A Concave Reflector Electric room heaters use a concave mirror to reflect infrared (IR) radiation from hot coils. Note that IR foll…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md#Example2",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 186,
+      "end_line": 287,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "2413c6e93b4fe5fdf5cbf45acc3d0821172a94cb7accaf193c722dc90cca40bb",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Solar Electric Generating System One of the solar technologies used today for generating electricity is a device (called a paraboli…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 24,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md#Example3",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 289,
+      "end_line": 358,
+      "kind": "worked-example",
+      "ordinal": 3,
+      "source_sha256": "846c25b2be2ae032000f04a2b7cbf86e8405facffe8a9ea33d1f4d8d972c5df8",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "::: example {\"id\":\"Example3\",\"class\":\"example\"} Image in a Convex Mirror A keratometer is a device used to measure the curvature of the cornea, particularly for fitting contact le…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:1",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 417,
+      "end_line": 455,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "b38bc4130d70f85aa055daf58429e27153b99f6ee3653d24bbf7d2072435e0ff",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "What are the differences between real and virtual images? How can you tell (by looking) whether an image formed by a single lens or mirror is real or virtual?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:2",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 457,
+      "end_line": 489,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "cc8f3db6a81c72c5f825dab517168771f3f3ee73687ac4be3293958f0ad55663",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Can you see a virtual image? Can you photograph one? Can one be projected onto a screen with additional lenses or mirrors? Explain your responses.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:3",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 491,
+      "end_line": 513,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "fc433bafa139780efd1dae82501a5d651f1eaadc87d10947929d7b51256ebd1c",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Is it necessary to project a real image onto a screen for it to exist?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:4",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 515,
+      "end_line": 539,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "c9e222edc79e09cdf4870da02e707771fa7e7a37aa98e0c641c369108f4143f2",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "At what distance is an image **always** located—at $${d}_{\\text{o}} $$ , $${d}_{\\text{i}} $$ , or $$f $$ ?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:5",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 541,
+      "end_line": 569,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "e77c8e715165bac0e495201a63282d5b6e2eb4d83178f467d9276c3a571e0de6",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Under what circumstances will an image be located at the focal point of a lens or mirror?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:6",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 571,
+      "end_line": 597,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "44dbbd919204c7689ed08fcaa4beaab44b0ad21b6b3d0b2b29a10efeaa80b86a",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "What is meant by a negative magnification? What is meant by a magnification that is less than 1 in magnitude?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:7",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 599,
+      "end_line": 629,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "e214e961fdbcd05cfb4e3c808b4b91598c270ebd3a3165282d5d97f1e627eb92",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Can a case 1 image be larger than the object even though its magnification is always negative? Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 22,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:8",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 631,
+      "end_line": 670,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "b8ea4590c82ca12cd95b007562a77699deae6fb682cc6e86ee9918d79a222a5f",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "[[Figure 8]](#Figure8) shows a light bulb between two mirrors. One mirror produces a beam of light with parallel rays; the other keeps light from escaping without being put into t…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:9",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 672,
+      "end_line": 696,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "1f4805a56e9b2d3d093b7922395a9b2b15b869182fd7656205a98b0e692dc914",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Devise an arrangement of mirrors allowing you to see the back of your head. What is the minimum number of mirrors needed for this task?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:10",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 698,
+      "end_line": 740,
+      "kind": "conceptual-questions",
+      "ordinal": 10,
+      "source_sha256": "d99cfd57021c87fc6bba0f1e60e22b5157bba77771c7c311e829f41a3f7e9045",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "If you wish to see your entire body in a flat mirror (from head to toe), how tall should the mirror be? Does its size depend upon your distance away from the mirror? Provide a ske…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:11",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 742,
+      "end_line": 776,
+      "kind": "conceptual-questions",
+      "ordinal": 11,
+      "source_sha256": "227e8ff363acdf547884344b17023bad79f222fdd33d9b08d20570b3f344d0cb",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "It can be argued that a flat mirror has an infinite focal length. If so, where does it form an image? That is, how are $${d}_{\\text{i}} $$ and $${d}_{\\text{o}} $$ related?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::conceptual-questions:12",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 778,
+      "end_line": 810,
+      "kind": "conceptual-questions",
+      "ordinal": 12,
+      "source_sha256": "7c163752919ccd958036ada663c8d3b2acebe7e78347620debfc2276f85bff80",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Why are diverging mirrors often used for rear-view mirrors in vehicles? What is the main disadvantage of using such a mirror compared with a flat one?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 814,
+      "end_line": 842,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "3ccf64dd46ef4c63b74b3e37d1376c36cb3cf8306c75d1b20c9c35b1bc8a0a52",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "What is the focal length of a makeup mirror that has a power of 1.50 D?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:2",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 844,
+      "end_line": 872,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "d3d2ad7fb9d6b95c2b3c9e83054d0e04544e73484a2850b47542120ca1906b88",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Some telephoto cameras use a mirror rather than a lens. What radius of curvature mirror is needed to replace a 800 mm focal length telephoto lens?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:3",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 874,
+      "end_line": 908,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "58ebd743f316b303d214d7608945d00101e22455ceecdc2eb3608ed7aa8eed35",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "(a) Calculate the focal length of the mirror formed by the shiny back of a spoon that has a 3.00 cm radius of curvature. (b) What is its power in diopters?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:4",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 910,
+      "end_line": 938,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "0270a1af27aedac74529771c606113182a9e32837bc9eef31f0995fdbdf11078",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Find the magnification of the heater element in [[Example 1]](#Example1). Note that its large magnitude helps spread out the reflected energy.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:5",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 940,
+      "end_line": 993,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "0a4aee6b66978abd3331a9177c734d2f104923a9b13a2a3193668598eb697472",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person's face is 12.0 cm away? Explicitly show how you follow the steps in the [Problem-So…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:6",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 995,
+      "end_line": 1053,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "dfa3c6a937bd159e6688eada8db03fbffe5a8b75dd325e44c65931dd19df1561",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "A shopper standing 3.00 m from a convex security mirror sees his image with a magnification of 0.250. (a) Where is his image? (b) What is the focal length of the mirror? (c) What…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:7",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 1055,
+      "end_line": 1077,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "8af4c250c3a8e4a08a5e027b5ebdc42502771f69028337e952f7fef57ffd2498",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "An object 1.50 cm high is held 3.00 cm from a person's cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c)…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:8",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 1079,
+      "end_line": 1119,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "4210d65ee237403f66a18a2a15094119dece4c0ed3236e44f2ad15c11d10724e",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Ray tracing for a flat mirror shows that the image is located a distance behind the mirror equal to the distance of the object from the mirror. This is stated $${d}_{\\text{i}}=-d_…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:9",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 1121,
+      "end_line": 1137,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "226260d85f21f41e650a7f164d051dfdc30947c08e7a0b97584f3b88a74837d3",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Show that for a flat mirror $${h}_{\\text{i}}={h}_{\\text{o}} $$ , knowing that the image is a distance behind the mirror equal in magnitude to the distance of the object from the m…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:10",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 1139,
+      "end_line": 1191,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "410118ad2e75759ad3bb4fffd802fb86bb783e8ae08aa123ab63c982a1da5df5",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Use the law of reflection to prove that the focal length of a mirror is half its radius of curvature. That is, prove that $$f=R/2 $$ . Note this is true for a spherical mirror onl…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:11",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 1193,
+      "end_line": 1225,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "8aae71f459e55aea5d22f8c27601e8ca4c573a46893f192e09524921d7130c47",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Referring to the electric room heater considered in the first example in this section, calculate the intensity of IR radiation in $${\\text{W/m}}^{2} $$ projected by the concave mi…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25ImageFormationByMirrors.md::problems-exercises:12",
+      "chapter": 25,
+      "file": "contents/ch25ImageFormationByMirrors.md",
+      "line": 1227,
+      "end_line": 1289,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "ce4a0a96895d012e4c688e01db05c18df5768e68b6f81e38ea4598273d40fe7f",
+      "file_sha256": "5ee5d74f6e441ceb7b4ad0b281bda5f6803d200f983bf2d7128e74d7138dedcb",
+      "preview": "Consider a 250-W heat lamp fixed to the ceiling in a bathroom. If the filament in one light burns out then the remaining three still work. Construct a problem in which you determi…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 29,
+        "checked": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfReflection.md::conceptual-questions:1",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfReflection.md",
+      "line": 94,
+      "end_line": 120,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "d2ac33328e19f4d71f284640f09aae6e8579c64d337ea4b61c63948694586706",
+      "file_sha256": "19d39a590bb49163dc4e5b929acc9e01501d455c37ede7d40b8bfd3fbf46eec0",
+      "preview": "Using the law of reflection, explain how powder takes the shine off of a person’s nose. What is the name of the optical effect?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfReflection.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfReflection.md",
+      "line": 124,
+      "end_line": 167,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "f824427fce21a9ed433da821626d9adf1ce35c7bd28965b77298da3824fc3737",
+      "file_sha256": "19d39a590bb49163dc4e5b929acc9e01501d455c37ede7d40b8bfd3fbf46eec0",
+      "preview": "Show that when light reflects from two mirrors that meet each other at a right angle, the outgoing ray is parallel to the incoming ray, as illustrated in the following figure. ![T…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfReflection.md::problems-exercises:2",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfReflection.md",
+      "line": 169,
+      "end_line": 214,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "cc74f895d916a654c5ffc22fe1f57258f70b3039d3266c35da9b77fd1c1757fa",
+      "file_sha256": "19d39a590bb49163dc4e5b929acc9e01501d455c37ede7d40b8bfd3fbf46eec0",
+      "preview": "Light shows staged with lasers use moving mirrors to swing beams and create colorful effects. Show that a light ray reflected from a mirror changes direction by $$2\\theta $$ when…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfReflection.md::problems-exercises:3",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfReflection.md",
+      "line": 216,
+      "end_line": 271,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "ee88041863d2c51fe21292d0617f5a502be7ebc2a23d2aa2a44718310b1bb963",
+      "file_sha256": "19d39a590bb49163dc4e5b929acc9e01501d455c37ede7d40b8bfd3fbf46eec0",
+      "preview": "A flat mirror is neither converging nor diverging. To prove this, consider two rays originating from the same point and diverging at an angle $$\\theta $$ . Show that after strikin…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md#Example1",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 231,
+      "end_line": 268,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "48241ecb6980955cb4d577c1cba2653b1a9c2e31a6a0ba3e6b30253bd57d5a2f",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Speed of Light in Matter Calculate the speed of light in zircon, a material used in jewelry to imitate diamond. **Strategy** The sp…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md#Example2",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 340,
+      "end_line": 386,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "226f27d5a8456417ce82f4dee5ece15dd240e56a7c480cc873c8a3a029640f72",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Determine the Index of Refraction from Refraction Data Find the index of refraction for medium 2 in [[Figure 3]](#Figure3)(a), assu…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::worked-example:3",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 388,
+      "end_line": 434,
+      "kind": "worked-example",
+      "ordinal": 3,
+      "source_sha256": "d80d641348eda2c461277d2e62c0aebbb3dba1a0ba48d9208022b81b37e9e5cd",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "::: example A Larger Change in Direction Suppose that in a situation like that in [[Example 2]](#Example2), light goes from air to diamond and that the incident angle is $$ 30.0º…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:1",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 447,
+      "end_line": 475,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "56c621e721d6fad9693ec9754524d9674b5f83171e9a2a7a497e41aee5ad93a3",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Diffusion by reflection from a rough surface is described in this chapter. Light can also be diffused by refraction. Describe how this occurs in a specific situation, such as ligh…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:2",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 477,
+      "end_line": 505,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "5cc3d21962c0dd348b29ba3b3a4acd1d9eeed4d560dc0fb126cfdbb87a10da2f",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Why is the index of refraction always greater than or equal to 1?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:3",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 507,
+      "end_line": 539,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "c52b9de7eef013e5e8d8c896f972bf2f7609f2ff7c52ada75caa42ee5f034117",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Does the fact that the light flash from lightning reaches you before its sound prove that the speed of light is extremely large or simply that it is greater than the speed of soun…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:4",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 541,
+      "end_line": 579,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "1a7072e09df6e89f69a542b6d25c5b426696483025449055275e296ca95358fa",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Will light change direction toward or away from the perpendicular when it goes from air to water? Water to glass? Glass to air?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:5",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 581,
+      "end_line": 611,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "a049be15412dfc8fdfd486d24e740c57a9d141990bfdde56f1ec6ef20da56c6e",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Explain why an object in water always appears to be at a depth shallower than it actually is? Why do people sometimes sustain neck and spinal injuries when diving into unfamiliar…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:6",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 613,
+      "end_line": 643,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "e53aea6d26a42892132888846978bd570b4200a257418178e1b0374fd7964389",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Explain why a person’s legs appear very short when wading in a pool. Justify your explanation with a ray diagram showing the path of rays from the feet to the eye of an observer w…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:7",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 645,
+      "end_line": 670,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "14e3ace3facbb93048ec808e2a181f7acd042ef0367e8127cb01de54277858fb",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Why is the front surface of a thermometer curved as shown? ![A triangular shaped transparent thermometer is shown.](../resources/Figure_25_03_04.jpg 'The curved surface of the the…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::conceptual-questions:8",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 672,
+      "end_line": 700,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "b95b5446cb3c9eaa174519d7f0ca594e7c7f909b64a1bc3bd4dc1c5f538a0b4d",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Suppose light were incident from air onto a material that had a negative index of refraction, say –1.3; where does the refracted light ray go?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 704,
+      "end_line": 738,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "b99d894e8012296b2c839e48b1046f20d170e13c156906e05977d398b75b8091",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "What is the speed of light in water? In glycerine?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:2",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 740,
+      "end_line": 774,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "97f542a116317bd7e2dc053a74f237b7baa6b93ffa577d7b21632b04159d0b7d",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "What is the speed of light in air? In crown glass?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:3",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 776,
+      "end_line": 807,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "9e100af9fc7dd91d2f64a7e966026dcd6de021f1eb9dfcad58493405599679c0",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Calculate the index of refraction for a medium in which the speed of light is $$ 2.012 \\times 10^{8} \\text{m/s} $$ , and identify the most likely substance based on [[Table 1]](#T…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:4",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 809,
+      "end_line": 840,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "6c140ace850193d55eb12a519c8c5a08ff5c6526048c5d1e6ef24d039c584930",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "In what substance in [[Table 1]](#Table1) is the speed of light $$ 2.290 \\times 10^{8} \\text{m/s} $$ ?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:5",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 842,
+      "end_line": 877,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "fae089174d235573952f6d50da57ec1029900ff9e6e3b3ed9bf7db42358b8528",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "There was a major collision of an asteroid with the Moon in medieval times. It was described by monks at Canterbury Cathedral in England as a red glow on and around the Moon. How…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:6",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 879,
+      "end_line": 925,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "fb40e5662f83d491b7fdd2c224abd7f8581b34dcbe94bba0493e634525f275e6",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor's face make with the perpendicular to the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:7",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 927,
+      "end_line": 962,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "0c1b13a63a2682ba44970bf897f85e92624267ec4ed487b43e11365e71cd423b",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Components of some computers communicate with each other through optical fibers having an index of refraction $$n= 1.55 $$ . What time in nanoseconds is required for a signal to t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:8",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 964,
+      "end_line": 1003,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "86eac4989c9c03443ec4fc7c9caf6487fabc192daf5a8f9d731b59ed53cac435",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "(a) Given that the angle between the ray in the water and the perpendicular to the water is $$ 25.0º $$ , and using information in [[Figure 5]](#Figure5), find the height of the i…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:9",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1005,
+      "end_line": 1042,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "76523c9163f3d6297caffb5d10a18b0eacfbb35f387bc1db2152e0726bed7b63",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Suppose you have an unknown clear substance immersed in water, and you wish to identify it by finding its index of refraction. You arrange to have a beam of light enter it at an a…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:10",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1044,
+      "end_line": 1099,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "c4eb9978d1eb00d999f1e724ccc3ce1276c461f7ed279af39e90a4749d55a61e",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "On the Moon's surface, lunar astronauts placed a corner reflector, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip tim…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:11",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1101,
+      "end_line": 1143,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "debe0a8478ee5a2648789091985982f5d209b4a757eeb8b363311daf59cc085b",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "Suppose [[Figure 6]](#Figure6) represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced b…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:12",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1145,
+      "end_line": 1199,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "4b75ca13006349fa85ae0f31298d2218b34a74793da4aaeece51534cc5fe7dde",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "[[Figure 6]](#Figure6) shows a ray of light passing from one medium into a second and then a third. Show that $${\\theta }_{3} $$ is the same as it would be if the second medium we…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:13",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1201,
+      "end_line": 1225,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "8a1c40c460054aef434fdab5e03f4f3f545d4abb2e2500aa2859baeeaef156f7",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "**Unreasonable Results** Suppose light travels from water to another substance, with an angle of incidence of $$ 10.0º $$ and an angle of refraction of $$ 14.9º $$ . (a) What is t…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:14",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1227,
+      "end_line": 1287,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "874af132086a584004d4b2682de93579f3f3fd091c2f38581bb092c3fc713d69",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "**Construct Your Own Problem** Consider sunlight entering the Earth’s atmosphere at sunrise and sunset—that is, at a $$90 ^\\circ $$ incident angle. Taking the boundary between nea…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 25,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheLawOfRefraction.md::problems-exercises:15",
+      "chapter": 25,
+      "file": "contents/ch25TheLawOfRefraction.md",
+      "line": 1289,
+      "end_line": 1310,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "c6e69682d94aa7cbd25184cbbb85453c8eecb6bb389dd4e758c91a984663dc2b",
+      "file_sha256": "3c8737f646e69d8ef0e435d212235bef86651ee346eb78b96d9c3d31b68d267e",
+      "preview": "**Unreasonable Results** Light traveling from water to a gemstone strikes the surface at an angle of $$ 80.0º $$ and has an angle of refraction of $$ 15.2º $$ . (a) What is the sp…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TheRayAspectOfLight.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25TheRayAspectOfLight.md",
+      "line": 78,
+      "end_line": 98,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "0c64cd10bec02ac1840ded2e40a96955713c1ccc0f65bb528f2319e9dbc333a8",
+      "file_sha256": "43d5cc6cefa500b59e675910492a7088856fc39d56b1534e05927d54b86570df",
+      "preview": "Suppose a man stands in front of a mirror as shown in [[Figure 2]](#Figure2). His eyes are 1.65 m above the floor, and the top of his head is 0.13 m higher. Find the height above…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md#Example1",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 71,
+      "end_line": 119,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "06f0d4a34435fe0e056d601f16ab2786b9cbe153cd44a683cf1bc94ff4243cc2",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} How Big is the Critical Angle Here? What is the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrou…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::conceptual-questions:1",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 293,
+      "end_line": 327,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "d41ee3593d6e5946aa0e1f1c2a836a970278643aae1696dfe47e4338479980cd",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "A ring with a colorless gemstone is dropped into water. The gemstone becomes invisible when submerged. Can it be a diamond? Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::conceptual-questions:2",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 329,
+      "end_line": 363,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "e2b250a3689729eab45f65dde319a4afcff6d15d9274697da143ac9d95cf16e2",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "A high-quality diamond may be quite clear and colorless, transmitting all visible wavelengths with little absorption. Explain how it can sparkle with flashes of brilliant color wh…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::conceptual-questions:3",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 365,
+      "end_line": 398,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "baee9915a193ce16646c62c660e63c6d66d9159802d00f253e7ed9600d62fcca",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "Is it possible that total internal reflection plays a role in rainbows? Explain in terms of indices of refraction and angles, perhaps referring to [[Figure 8]](#Figure8). Some of…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::conceptual-questions:4",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 400,
+      "end_line": 436,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "ea0d2108d3cc72096abac378e1d07e4f29918f2927112c5fc776e598fa091122",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "The most common type of mirage is an illusion that light from faraway objects is reflected by a pool of water that is not really there. Mirages are generally observed in deserts,…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:1",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 440,
+      "end_line": 471,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "efdbadc2017e0991194337f4c8b05140be474589db5f6e0f34254065d0149da4",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "Verify that the critical angle for light going from water to air is $$48.6 ^\\circ $$ , as discussed at the end of [[Example 1]](#Example1), regarding the critical angle for light…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:2",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 473,
+      "end_line": 508,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "ccf5968e64d0aface85ad43122f0da5d19d08b5ee1ee40b8d87051a309e51401",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "(a) At the end of [[Example 1]](#Example1), it was stated that the critical angle for light going from diamond to air is $$ 24.4º $$ . Verify this. (b) What is the critical angle…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:3",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 510,
+      "end_line": 524,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "204330b19287060d727a6108947a891a5084d655b39f40ab7e3f64f54dfc7b4a",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "An optical fiber uses flint glass clad with crown glass. What is the critical angle?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:4",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 526,
+      "end_line": 558,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "df5a314cefea4b2ef69e1b5cb9ac679f05a782064e9f8416e0b73215a5ef21bd",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "At what minimum angle will you get total internal reflection of light traveling in water and reflected from ice?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:5",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 560,
+      "end_line": 575,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "10b82aa295c5834bd359995272193e93cfab334484bf31276ce02f62ea6fdf52",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "Suppose you are using total internal reflection to make an efficient corner reflector. If there is air outside and the incident angle is $$ 45.0º $$ , what must be the minimum ind…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:6",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 577,
+      "end_line": 613,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "bcaeae8b3c4af5ab9275e203d0e05553e9c2d0498f5d4cd4042031f287c0c0be",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "You can determine the index of refraction of a substance by determining its critical angle. (a) What is the index of refraction of a substance that has a critical angle of $$ 68.4…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:7",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 615,
+      "end_line": 632,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "381234f06720531dacfbacc69ecf881e0e59a33aa5fc42c48299af8713051664",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "A ray of light, emitted beneath the surface of an unknown liquid with air above it, undergoes total internal reflection as shown in [[Figure 9]](#Figure9). What is the index of re…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch25TotalInternalReflection.md::problems-exercises:8",
+      "chapter": 25,
+      "file": "contents/ch25TotalInternalReflection.md",
+      "line": 634,
+      "end_line": 694,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "67120b824ed7f2fcbb2bffb77acddbf2f5284e528ae56f033e27c7ec1acba2df",
+      "file_sha256": "6840084a26ba66baa9b4a0e5ee0a808bc34ab8ae2d420826dbc2c944167cb5b2",
+      "preview": "A light ray entering an optical fiber surrounded by air is first refracted and then reflected as shown in [[Figure 10]](#Figure10). Show that if the fiber is made from crown glass…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    }
+  ]
+}

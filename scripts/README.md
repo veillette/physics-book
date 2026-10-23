@@ -589,10 +589,11 @@ Asks Claude for one chapter per hour, then asks Codex to review that
 chapter before anything is committed. Figure redraws run first. Solution
 updates start only after every chapter's figure pass has settled.
 
-Figure pass: Claude turns remaining line-art JPEGs into generated SVGs
-under `scripts/figures/`, leaves photographs as raster images, and does
-not commit. Codex reviews the diff. This script commits on the worktree
-branch only when the review accepts.
+Figure pass: Claude turns simple line-art JPEGs into generated SVGs
+under `scripts/figures/` and leaves photographs and complicated figures
+as raster images. It does not commit. Codex then fixes those drawings
+instead of rejecting them. This script commits that result on the worktree
+branch.
 
 Solution pass: Claude rewrites incomplete Problems & Exercises and
 Conceptual Questions into the layout `scripts/find_incomplete_solutions.py`

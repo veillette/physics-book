@@ -1,0 +1,1895 @@
+{
+  "chapter": 24,
+  "checked_at": "2026-10-23T18:50:09+00:00",
+  "summary": {
+    "total": 1419,
+    "checked": 230,
+    "failed": 0,
+    "skipped": 1189,
+    "by_kind": {
+      "equation": {
+        "checked": 230,
+        "failed": 0,
+        "skipped": 1189
+      },
+      "case": {
+        "checked": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 0,
+      "assertions": 0,
+      "chapters": []
+    },
+    "skip_reasons": {
+      "no supported equality": 503,
+      "unbound variable": 527,
+      "unsupported symbol": 115,
+      "unit-only expression or text label needs a numeric value": 40,
+      "unknown unit": 4
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::worked-example:1",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 95,
+      "end_line": 169,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "a11f9e4a94523f3fd3db6754b9d8d2bd05c717ccd3bc902306cf548bf0983a59",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "::: example Calculate Microwave Intensities and Fields On its highest power setting, a certain microwave oven projects 1.00 kW of microwaves onto a 30.0 by 40.0 cm area. (a) What…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:1",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 201,
+      "end_line": 250,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "9c0010a0ed5bf17e77ff25bb3228cdf21f8817fa032a654509b928e824556619",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "What is the intensity of an electromagnetic wave with a peak electric field strength of 125 V/m?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:2",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 252,
+      "end_line": 301,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "70421455a64c2537fcc566f9199afdb6b4e9a21084e50fafa42e1803ad24d878",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "Find the intensity of an electromagnetic wave having a peak magnetic field strength of $$ 4.00 \\times 10^{-9} \\text{T} $$.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:3",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 303,
+      "end_line": 365,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "63f447997c52a50987d0bb321e2886a977be91d70a65923a3880e9927f6da1be",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "Assume the helium-neon lasers commonly used in student physics laboratories have power outputs of 0.250 mW. (a) If such a laser beam is projected onto a circular spot 1.00 mm in d…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:4",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 367,
+      "end_line": 388,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "ce9cffc8ddcaf8b15e3913d2b8933ef73db74bbc16a58f4b663761bec7eeca8f",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions. (a) Assuming all of the radio waves that strike the ground are completely absorbed, and that there…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:5",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 390,
+      "end_line": 449,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "bd882dc37a039b088bec9ad3fd3e0558c0a1950ec6cdc14e7896afec1c6e4561",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "Suppose the maximum safe intensity of microwaves for human exposure is taken to be $$1.00 \\text{W}{\\text{/m}}^{2} $$ . (a) If a radar unit leaks 10.0 W of microwaves (other than t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:6",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 451,
+      "end_line": 522,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "90b28a9b0b24f0ead6d1699f817960fd4255e27d17c6813c0cd3195a7594b395",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "A 2.50-m-diameter university communications satellite dish receives TV signals that have a maximum electric field strength (for one channel) of $$ 7.50 \\mu V/m $$ . (See [[Figure…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 25,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:7",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 524,
+      "end_line": 592,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "a86fe82247dd0163dd9b4eb71a57964d3d5fa63fca50f70cb87ec7c3f4590aa6",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to ignite nuclear fusion, for example.…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:8",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 594,
+      "end_line": 679,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "d2d998a4d33abff384e311413673c048890ad9fa042cc1b6101662d7e8b0b04e",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "Show that for a continuous sinusoidal electromagnetic wave, the peak intensity is twice the average intensity ( $${I}_{0}={2I}_{\\text{ave}} $$ ), using either the fact that $${E}_…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:9",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 681,
+      "end_line": 770,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "df85d2698e37519f9e2e5f7f165875e6652e502196daf87ff8c0e1b1590d9c3a",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 24,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:10",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 772,
+      "end_line": 848,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "c6c2c3d26c0bb53eb0a725e2657bc89d1345fd00a79b5e143521ca345c632edb",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** An $$\\text{LC} $$ circuit with a 5.00-pF capacitor oscillates in such a manner as to radiate at a wavelength of 3.30 m. (a) What is the resonant frequency?…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:11",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 850,
+      "end_line": 867,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "a7664c92e0863bb49ed5a23a2a75ee1dafb2b1a33e8eed642a5ffff265b01256",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** What capacitance is needed in series with an $$800-\\mu \\text{H} $$ inductor to form a circuit that radiates a wavelength of 196 m?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:12",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 869,
+      "end_line": 948,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "278f5b76b679c452127036fad00cf57f6250a24d4566a319857de9f3ea1e2acc",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** Police radar determines the speed of motor vehicles using the same Doppler-shift technique employed for ultrasound in medical diagnostics. Beats are produc…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:13",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 950,
+      "end_line": 979,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "4c5385985d4abcacf61cd71781b927dd6b0d9f7bf637aa4a1588b7fd4264856b",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** Assume the mostly infrared radiation from a heat lamp acts like a continuous wave with wavelength $$1.50 \\mu \\text{m} $$ . (a) If the lamp’s 200-W output i…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:14",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 981,
+      "end_line": 1078,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "fac75cfe4e87c162b873eb6d8dbbda96c6d206039b1ea3a51a3c15b0ed6b3a56",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** On its highest power setting, a microwave oven increases the temperature of 0.400 kg of spaghetti by $$ 45.0\\text{ºC} $$ in 120 s. (a) What was the rate of…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 28,
+        "checked": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:15",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1080,
+      "end_line": 1102,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "582a2dc6e3dbadb930d49a37aafbba4353a9bf7f1ab00ea3e23dac74faf57ac5",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** Electromagnetic radiation from a 5.00-mW laser is concentrated on a $$1.00{\\text{-mm}}^{2}$$ area. (a) What is the intensity in $${\\text{W/m}}^{2}$$? (b) S…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:16",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1104,
+      "end_line": 1219,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "607c8f5452d224980c7c0df9792c145cd74211b600bf58a6ce9f9972219b5d37",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** A 200-turn flat coil of wire 30.0 cm in diameter acts as an antenna for FM radio at a frequency of 100 MHz. The magnetic field of the incoming electromagne…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 39,
+        "checked": 13
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:17",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1221,
+      "end_line": 1242,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "99736dfa8f42951bf997ac42595c25aea30deb83fdb9b602c1f117ee2d082a7e",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Integrated Concepts** If electric and magnetic field strengths vary sinusoidally in time, being zero at $$t=0 $$ , then $$E={E}_{0} \\sin 2\\pi \\text{ft} $$ and $$B={B}_{0} \\sin 2…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:18",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1244,
+      "end_line": 1322,
+      "kind": "problems-exercises",
+      "ordinal": 18,
+      "source_sha256": "098bd9d23c803cbc06306010d623a3a7aac6d6e029fba7ff95cc5dd9f1d871bc",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Unreasonable Results** A researcher measures the wavelength of a 1.20-GHz electromagnetic wave to be 0.500 m. (a) Calculate the speed at which this wave propagates. (b) What is…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:19",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1324,
+      "end_line": 1345,
+      "kind": "problems-exercises",
+      "ordinal": 19,
+      "source_sha256": "9a1d06906a9812ce4ae06497e1e6ac01584105ee73d3faeb6ed10f84375a2b8d",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Unreasonable Results** The peak magnetic field strength in a residential microwave oven is $$ 9.20 \\times 10^{-5} \\text{T} $$ . (a) What is the intensity of the microwave? (b) W…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:20",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1347,
+      "end_line": 1444,
+      "kind": "problems-exercises",
+      "ordinal": 20,
+      "source_sha256": "cebcde94611e36d291c22c14b44c9d8b19c356bc3b958cc2cbc6397362f1b4bc",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Unreasonable Results** An $$\\text{LC} $$ circuit containing a 2.00-H inductor oscillates at such a frequency that it radiates at a 1.00-m wavelength. (a) What is the capacitance…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 27,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:21",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1446,
+      "end_line": 1468,
+      "kind": "problems-exercises",
+      "ordinal": 21,
+      "source_sha256": "48c23a573ad28ee2eb69dc79f032cbcec569ef4aec9d2c730b23f46ab6a4ecc0",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Unreasonable Results** An $$\\text{LC} $$ circuit containing a 1.00-pF capacitor oscillates at such a frequency that it radiates at a 300-nm wavelength. (a) What is the inductanc…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:22",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1470,
+      "end_line": 1575,
+      "kind": "problems-exercises",
+      "ordinal": 22,
+      "source_sha256": "70bc5c42af96d9353797d7c74eeef8a713f4efbd6c12aa770e4e295124995aa7",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Create Your Own Problem** Consider electromagnetic fields produced by high voltage power lines. Construct a problem in which you calculate the intensity of this electromagnetic…",
+      "has_solution": true,
+      "missing_labels": [
+        "solution"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 23,
+        "checked": 10
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:23",
+      "chapter": 24,
+      "file": "contents/ch24EnergyInElectromagneticWaves.md",
+      "line": 1577,
+      "end_line": 1694,
+      "kind": "problems-exercises",
+      "ordinal": 23,
+      "source_sha256": "963ae6a1ad21938ba4fbf61254c9739794f60cd6632d829ef87bc25808536def",
+      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "preview": "**Create Your Own Problem** Consider the most recent generation of residential satellite dishes that are a little less than half a meter in diameter. Construct a problem in which…",
+      "has_solution": true,
+      "missing_labels": [
+        "solution"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24MaxwellsEquations.md::problems-exercises:1",
+      "chapter": 24,
+      "file": "contents/ch24MaxwellsEquations.md",
+      "line": 157,
+      "end_line": 230,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "cf2b680e9cb0a15f2b54ad26a7a21942ba4c3181bbfa38eaf937d260c813af55",
+      "file_sha256": "fcc5ac9c4b77a8cb02b579678a1407788c5d01714fc4124b98d0de0893577437",
+      "preview": "Verify that the correct value for the speed of light $$c $$ is obtained when numerical values for the permeability and permittivity of free space ( $${\\mu }_{0} $$ and $${\\epsilon…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 23,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24MaxwellsEquations.md::problems-exercises:2",
+      "chapter": 24,
+      "file": "contents/ch24MaxwellsEquations.md",
+      "line": 232,
+      "end_line": 309,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "1ec50185d7ca030adcf0adbf1c3051fc39e0f969036e14fd2135abfbaaf9c9be",
+      "file_sha256": "fcc5ac9c4b77a8cb02b579678a1407788c5d01714fc4124b98d0de0893577437",
+      "preview": "Show that, when SI units for $${\\mu }_{0} $$ and $${\\epsilon }_{0} $$ are entered, the units given by the right-hand side of the equation in the problem above are m/s.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 30,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md#Example1",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 135,
+      "end_line": 174,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "43489b27286987404970d70edbbcc3866440cb60b93ad1be367cfb24ea4d5cc8",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Calculating $$B $$ -Field Strength in an Electromagnetic Wave What is the maximum strength of the $$B $$ -field in an electromagnet…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:1",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 232,
+      "end_line": 258,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "ee06f8b2fa665d210b169fb4cb36eefc0278cfb792c3cf7219b9439e9dad5a7b",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "The direction of the electric field shown in each part of [[Figure 1]](#Figure1) is that produced by the charge distribution in the wire. Justify the direction shown in each part,…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 24,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:2",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 260,
+      "end_line": 282,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "0c7cb269da23ce5652539ace6e72068ff676c68aed86e242a10b0341c9e8feff",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Is the direction of the magnetic field shown in [[Figure 2]](#Figure2) (a) consistent with the right-hand rule for current (RHR-2) in the direction shown in the figure?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:3",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 284,
+      "end_line": 306,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "324206c94e096320df397256ce4fe9ef8e2b09958c6e4142ec8811ff9419f6ef",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Why is the direction of the current shown in each part of [[Figure 2]](#Figure2) opposite to the electric field produced by the wire’s charge separation?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:4",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 308,
+      "end_line": 339,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "b90757af95024736820268943f44453d9f9ec2bf2590de5df92dcfb635e24374",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "In which situation shown in [[Figure 4]](#Figure4) will the electromagnetic wave be more successful in inducing a current in the wire? Explain. ![Part a of the diagram shows an el…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:5",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 341,
+      "end_line": 372,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "778742527c5d65d2971ad44da7dbe603467465d4d9f6756489224300e694c796",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "In which situation shown in [[Figure 5]](#Figure5) will the electromagnetic wave be more successful in inducing a current in the loop? Explain. ![Part a of the diagram shows an el…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:6",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 374,
+      "end_line": 398,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "2fd2c49c0bfca3518dbe4bb37b629d343423e2be689a6846a25c3a74afe7a713",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Should the straight wire antenna of a radio be vertical or horizontal to best receive radio waves broadcast by a vertical transmitter antenna? How should a loop antenna be aligned…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:7",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 400,
+      "end_line": 428,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "8ee458f9652f0f5f33f5450ebe36c315640f712edb02ad1fbe08a4a11206322d",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Under what conditions might wires in a DC circuit emit electromagnetic waves?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:8",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 430,
+      "end_line": 460,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "41d79fbff8e8ecec4759ff9bf0342a8e50deb173b367996f2e94a70c04bab9b6",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Give an example of interference of electromagnetic waves.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:9",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 462,
+      "end_line": 495,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "c45c1ece752453ea06138bbc2eb6c242140bfd0f0b4432ed3e34f6b603a887c3",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "[[Figure 6]](#Figure6) shows the interference pattern of two radio antennas broadcasting the same signal. Explain how this is analogous to the interference pattern for sound produ…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:10",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 497,
+      "end_line": 527,
+      "kind": "conceptual-questions",
+      "ordinal": 10,
+      "source_sha256": "accf63814f7d49fe91a3bc2739eed0d8a900d36e29f7f1a2362d201461a781f9",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Can an antenna be any length? Explain your answer.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:1",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 531,
+      "end_line": 592,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "a539145dd7a526e35ab1f187e4010b4f85dca0e62fabb8680cc63f0b0a7477c7",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of $$ 5.00 \\times 10^{-4} \\text{T} $$ (about 10 times the Earth's…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:2",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 594,
+      "end_line": 659,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "ceefc40b03066f2fa1eb2c70a926aaf1de4d5f9de1ddb10fd26652795742d3b7",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "The maximum magnetic field strength of an electromagnetic field is $$5 \\times 10^{-6} \\text{T} $$ . Calculate the maximum electric field strength if the wave is traveling in a med…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 29,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:3",
+      "chapter": 24,
+      "file": "contents/ch24ProductionOfElectromagneticWaves.md",
+      "line": 661,
+      "end_line": 746,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "397420ea4343811dc06c060a0c60fd8cc11234bec9bac2622b4f424e708d73a1",
+      "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+      "preview": "Verify the units obtained for magnetic field strength $$B $$ in [[Example 1]](#Example1) (using the equation $$B=\\frac{E}{c} $$ ) are in fact teslas (T).",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 36
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::worked-example:1",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 250,
+      "end_line": 300,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "3340f9d69a5221922b12d18bce85c23732e2fe6a79ed07d956dbf5cf8969a5e9",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "::: example Calculating Wavelengths of Radio Waves Calculate the wavelengths of a 1530-kHz AM radio signal, a 105.1-MHz FM radio signal, and a 1.90-GHz cell phone signal. **Strate…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::worked-example:2",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 501,
+      "end_line": 572,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "41c33127e7c543aef3dc4dbdd3f345027dc5e8207abbb72666e694bdbcc3cd21",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "::: example Integrated Concept Problem: Correcting Vision with Lasers During laser vision correction, a brief burst of 193-nm ultraviolet light is projected onto the cornea of a p…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 28,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:1",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 914,
+      "end_line": 942,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "b59c7a5dcd5a71861194e48ca610aee438082df5e0057f356b88f9a596c5c463",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "If you live in a region that has a particular TV station, you can sometimes pick up some of its audio portion on your FM radio receiver. Explain how this is possible. Does it impl…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:2",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 944,
+      "end_line": 972,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "9a8c4fd9ec99e26d0334d78f13816ccb735ef2e5b34b4dbd046aee9849fb10f8",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Explain why people who have the lens of their eye removed because of cataracts are able to see low-frequency ultraviolet.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:3",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 974,
+      "end_line": 1002,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "b100f16752642e2de68a8bc9eb43a7e077deb91e429ec556c7bbb80bbf00d649",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "How do fluorescent soap residues make clothing look “brighter and whiter” in outdoor light? Would this be effective in candlelight?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:4",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1004,
+      "end_line": 1030,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "ee606432d31d4a31bc4cd1791cd534875e678d33100b9abf13616638f64ed692",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Give an example of resonance in the reception of electromagnetic waves.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:5",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1032,
+      "end_line": 1067,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "bc35245501f1626a5f44ed3a7bfeddbfe9e598f9fd765ded1bfdb2e6f59a8d77",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Illustrate that the size of details of an object that can be detected with electromagnetic waves is related to their wavelength, by comparing details observable with two different…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 5,
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:6",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1069,
+      "end_line": 1097,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "9647f0a3ff760f56d1a05d0c467f3c4db94dfe2417338ae1e5fa18fecd9573ca",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Why don’t buildings block radio waves as completely as they do visible light?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:7",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1099,
+      "end_line": 1133,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "4aaca9110c0e3b50c6ea72e44b5181552abc13748e8570c6e03487de420d3b4c",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Make a list of some everyday objects and decide whether they are transparent or opaque to each of the types of electromagnetic waves.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:8",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1135,
+      "end_line": 1157,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "0d3f973f108812d846f37554b439645a3656c457d326dfc3992d3d7d04e5fb50",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Your friend says that more patterns and colors can be seen on the wings of birds if viewed in ultraviolet light. Would you agree with your friend? Explain your answer.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:9",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1159,
+      "end_line": 1195,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "f72790b632ac3df26fe258dd8f863f3d7efd2e7fddd7addfb778fcb49e5ef6eb",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "The rate at which information can be transmitted on an electromagnetic wave is proportional to the frequency of the wave. Is this consistent with the fact that laser telephone tra…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:10",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1197,
+      "end_line": 1232,
+      "kind": "conceptual-questions",
+      "ordinal": 10,
+      "source_sha256": "a867a18d3e201349e8d7de6cffce0b1ebc1d0de8e85691c6aedfd1b4b989edc9",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Give an example of energy carried by an electromagnetic wave.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:11",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1234,
+      "end_line": 1264,
+      "kind": "conceptual-questions",
+      "ordinal": 11,
+      "source_sha256": "94457863cdd5f64cfb4ab7dfd0c693e7aad8fb882b6ff62241855d12092acc54",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "In an MRI scan, a higher magnetic field requires higher frequency radio waves to resonate with the nuclear type whose density and location is being imaged. What effect does going…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:12",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1266,
+      "end_line": 1296,
+      "kind": "conceptual-questions",
+      "ordinal": 12,
+      "source_sha256": "6ad03197b6970e3f2ad139197504b92d7588c1bdb00efbf830a576e3b3aa551f",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Laser vision correction often uses an excimer laser that produces 193-nm electromagnetic radiation. This wavelength is extremely strongly absorbed by the cornea and ablates it in…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:1",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1300,
+      "end_line": 1353,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "4171f374de7dc06e98f44cd3f4813a1324a05d05c7dd18158f9e62fc4e4d41f7",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "(a) Two microwave frequencies are authorized for use in microwave ovens: 900 and 2560 MHz. Calculate the wavelength of each. (b) Which frequency would produce closer together hot…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:2",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1355,
+      "end_line": 1425,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "37e0d3b7273a755de84bc427ffe20daa8c06c361f0bc0944c8441a1c6afc234e",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "(a) Calculate the range of wavelengths for AM radio given its frequency range is 540 to 1600 kHz. (b) Do the same for the FM frequency range of 88.0 to 108 MHz.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:3",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1427,
+      "end_line": 1477,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "f1cc5dab595c2e407aa03ad856f17305d2ab5eda1ace114a34eaece22332b192",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "A radio station utilizes frequencies between commercial AM and FM. What is the frequency of a 11.12-m-wavelength channel?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:4",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1479,
+      "end_line": 1529,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "e041d573eb0e71bfd00222ed65a2eb7bc3aa2813168ad13f5ee38a8865a69784",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Find the frequency range of visible light, given that it encompasses wavelengths from 380 to 760 nm.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:5",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1531,
+      "end_line": 1589,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "7bf3d33c98c1eae3d1a26ebc4eacc3a5e0484af0ab75bbd16e93bac68f1c44a4",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Combing your hair leads to excess electrons on the comb. How fast would you have to move the comb up and down to produce red light?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:6",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1591,
+      "end_line": 1646,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "ca369936ccfee626a6e3cf2df8c3f60ad27f32ac46d9b92c388945684e228a5b",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Electromagnetic radiation having a $$ 15.0-\\mu \\text{m} $$ wavelength is classified as infrared radiation. What is its frequency?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:7",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1648,
+      "end_line": 1710,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "b632b184a1445fa762da9ae01e49b0663a8cf8a277948d5f901a98426a227a77",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Approximately what is the smallest detail observable with a microscope that uses ultraviolet light of frequency $$ 1.20 \\times 10^{15} \\text{Hz} $$ ?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:8",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1712,
+      "end_line": 1767,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "5ccc1081b385d1f6df75f3bdb5e49ee73a0542d0e1c956132b141fe87dd91a92",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "A radar used to detect the presence of aircraft receives a pulse that has reflected off an object $$6 \\times 10^{-5} \\text{s} $$ after it was transmitted. What is the distance fro…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:9",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1769,
+      "end_line": 1825,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "a496f709515efeecd6b9aefce07448d640466e9253703ef51fa4d819a1916938",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Some radar systems detect the size and shape of objects such as aircraft and geological terrain. Approximately what is the smallest observable detail utilizing 500-MHz radar?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:10",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1827,
+      "end_line": 1886,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "60003482ffe31e92246cd6a58089ec2c35ca235463cca6419f0823ce24689d5a",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Determine the amount of time it takes for X-rays of frequency $$3 \\times 10^{18} \\text{Hz} $$ to travel (a) 1 mm and (b) 1 cm.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:11",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1888,
+      "end_line": 1943,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "03d166110a2348737b3a8c329547bd4a0a8a23c37cb7fd302e16da7cab782184",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "If you wish to detect details of the size of atoms (about $$1 \\times 10^{-10} \\text{m} $$ ) with electromagnetic radiation, it must have a wavelength of about this size. (a) What…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:12",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 1945,
+      "end_line": 2004,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "672fd871a11ff72d69433d3d5a5061057f6b1c40ec0da957a418044f7efd202b",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "If the Sun suddenly turned off, we would not know it until its light stopped coming. How long would that be, given that the Sun is $$ 1.50 \\times 10^{11} \\text{m} $$ away?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:13",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2006,
+      "end_line": 2070,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "836a4e17f93c46efc1035bea48a3adf72c4f420a1a66b2e744eb8bf61d2bf6be",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Distances in space are often quoted in units of light years, the distance light travels in one year. (a) How many meters is a light year? (b) How many meters is it to Andromeda, t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:14",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2072,
+      "end_line": 2134,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "9839fe3fa9a9bd8a3472af42427172bd47216d67bce22a896d321d76bfc9a280",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "A certain 50.0-Hz AC power line radiates an electromagnetic wave having a maximum electric field strength of 13.0 kV/m. (a) What is the wavelength of this very low frequency elect…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:15",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2136,
+      "end_line": 2197,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "b8dff96506ebfda214067de46336b054aad213ca66f2ac21f6f871280132373b",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "During normal beating, the heart creates a maximum 4.00-mV potential across 0.300 m of a person's chest, creating a 1.00-Hz electromagnetic wave. (a) What is the maximum electric…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:16",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2199,
+      "end_line": 2252,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "700c36adfa57d18dcf91b4b2581778baf617214e3726abcca20b2d483e5b0cec",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ( $$\\lambda /4 $$ ) of the electromagnetic radiation being sent…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:17",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2254,
+      "end_line": 2323,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "98e75c23663d7dd08b65256119f6559bd5c7506fa0174633d7a3a536b8bcc555",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "(a) What is the wavelength of 100-MHz radio waves used in an MRI unit? (b) If the frequencies are swept over a $$± 1.00\\ \\text{MHz} $$ range centered on 100 MHz, what is the range…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:18",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2325,
+      "end_line": 2385,
+      "kind": "problems-exercises",
+      "ordinal": 18,
+      "source_sha256": "0e077675bd5404161e4de4d901557a6bd2e937f3dfffd2e4b3e83357e964cb68",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "(a) What is the frequency of the 193-nm ultraviolet radiation used in laser eye surgery? (b) Assuming the accuracy with which this EM radiation can ablate the cornea is directly p…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:19",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2387,
+      "end_line": 2448,
+      "kind": "problems-exercises",
+      "ordinal": 19,
+      "source_sha256": "5ede83f967dcd2caeebd7e8a5e379db5099df028e10be25e4e328deb5865455a",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "TV-reception antennas for VHF are constructed with cross wires supported at their centers, as shown in [[Figure 14]](#Figure14). The ideal length for the cross wires is one-half t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:20",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2450,
+      "end_line": 2504,
+      "kind": "problems-exercises",
+      "ordinal": 20,
+      "source_sha256": "19d0077e5ff909cd3753058b8c1f46094fb829fa321b0e38daa6639d0abadeee",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Conversations with astronauts on lunar walks had an echo that was used to estimate the distance to the Moon. The sound spoken by the person on Earth was transformed into a radio s…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:21",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2506,
+      "end_line": 2569,
+      "kind": "problems-exercises",
+      "ordinal": 21,
+      "source_sha256": "60ad9676da9b1487427d1730ede94201f75a440e9878807022e74b0579801e39",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Lunar astronauts placed a reflector on the Moon's surface, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. (a) T…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:22",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2571,
+      "end_line": 2635,
+      "kind": "problems-exercises",
+      "ordinal": 22,
+      "source_sha256": "7db70a424cdc6164bff00162c7c0af324242600ab8ffcf6e637536ee2e1f1395",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "Radar is used to determine distances to various objects by measuring the round-trip time for an echo from the object. (a) How far away is the planet Venus if the echo time is 1000…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:23",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2637,
+      "end_line": 2710,
+      "kind": "problems-exercises",
+      "ordinal": 23,
+      "source_sha256": "dba42e1972907804072eeb9cb468b66b71c5e1790f1b5b1f187db6daee9d91a6",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "**Integrated Concepts** (a) Calculate the ratio of the highest to lowest frequencies of electromagnetic waves the eye can see, given the wavelength range of visible light is from…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:24",
+      "chapter": 24,
+      "file": "contents/ch24TheElectromagneticSpectrum.md",
+      "line": 2712,
+      "end_line": 2822,
+      "kind": "problems-exercises",
+      "ordinal": 24,
+      "source_sha256": "304cc198aeb519d6e3b377a490b72e2e06736d05e578477f9bbcbbb73f2a7213",
+      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "preview": "**Integrated Concepts** (a) Calculate the rate in watts at which heat transfer through radiation occurs (almost entirely in the infrared) from $$ 1.0 {\\text{m}}^{2} $$ of the Eart…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 29,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    }
+  ]
+}

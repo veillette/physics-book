@@ -38,3 +38,6 @@ assets/js/minisearch.js
 
 # Content markdown files - contains math equations sensitive to formatting
 contents/*.md
+
+# Generated solution-review snapshots preserve source math excerpts verbatim
+doc/solution-review/

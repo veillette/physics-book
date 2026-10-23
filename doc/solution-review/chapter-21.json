@@ -1,0 +1,3228 @@
+{
+  "chapter": 21,
+  "checked_at": "2026-10-23T18:50:08+00:00",
+  "summary": {
+    "total": 2393,
+    "checked": 358,
+    "failed": 1,
+    "skipped": 2034,
+    "by_kind": {
+      "equation": {
+        "checked": 358,
+        "failed": 1,
+        "skipped": 2034
+      },
+      "case": {
+        "checked": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 0,
+      "assertions": 0,
+      "chapters": []
+    },
+    "skip_reasons": {
+      "no supported equality": 1043,
+      "unbound variable": 876,
+      "unsupported symbol": 69,
+      "unknown unit": 9,
+      "unit-only expression or text label needs a numeric value": 37
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::worked-example:1",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 150,
+      "end_line": 210,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "93da8f281c375f26652b2f803317871528ec5a0221f7c32a1d322d30d0a60e90",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "::: example Integrated Concept Problem: Calculating Capacitor Size—Strobe Lights High-speed flash photography was pioneered by Doc Edgerton in the 1930s, while he was a professor…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 29,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::worked-example:2",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 235,
+      "end_line": 295,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "e20b5600dc8aa49b0d3458621b5f3c4157ecfa36d2843b1bcfd6f7fb14fb900a",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "::: example Calculating Time: *RC* Circuit in a Heart Defibrillator A heart defibrillator is used to resuscitate an accident victim by discharging a capacitor through the trunk of…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 23
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::check-understanding:1",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 297,
+      "end_line": 314,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "dca986427822ddec6773b9d0cc4efe9983e0598cad3470dbba234177f4671d79",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "When is the potential difference across a capacitor an emf?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:1",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 359,
+      "end_line": 386,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "bb8e7890290a6e50d282fe51a7b1d3af2872fc5cfb2fcf1027a6fd29b9b337dc",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "Regarding the units involved in the relationship $$\\tau =\\text{RC} $$ , verify that the units of resistance times capacitance are time, that is, $$\\Omega \\cdot F=s $$.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:2",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 388,
+      "end_line": 425,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "d2206824850dc07998a9331236369e7b4ed54c31532e0bcd954962e95addb8ef",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "The $$\\text{RC} $$ time constant in heart defibrillation is crucial to limiting the time the current flows. If the capacitance in the defibrillation unit is fixed, how would you m…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 33,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:3",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 427,
+      "end_line": 464,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "93b7215173cce08fd07e1f15597b2dd8bb5ab195011a1adcc6a7200783ad1ea6",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "When making an ECG measurement, it is important to measure voltage variations over small time intervals. The time is limited by the $$\\text{RC} $$ constant of the circuit—it is no…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 22,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:4",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 466,
+      "end_line": 500,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "003bb1c420726b636b9546d255c320220f31d2e33c2be601f9dac6b0ff65ad12",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "Draw two graphs of charge versus time on a capacitor. Draw one for charging an initially uncharged capacitor in series with a resistor, as in the circuit in [[Figure 1]](#Figure1)…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 44,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:5",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 502,
+      "end_line": 530,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "2e0136b99e3b2d957f8688e3c8a81dceaa99b346d35c47c838932f77d70d8fdb",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "When charging a capacitor, as discussed in conjunction with [[Figure 1]](#Figure1), how long does it take for the voltage on the capacitor to reach emf? Is this a problem?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:6",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 532,
+      "end_line": 566,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "0481fd9118e0528fc633f8fc2ff5292f2f53f7f25fa038284eb248186fd876bc",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "When discharging a capacitor, as discussed in conjunction with [[Figure 2]](#Figure2), how long does it take for the voltage on the capacitor to reach zero? Is this a problem?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:7",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 568,
+      "end_line": 599,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "e65561900fd32403dafa62ec3c17d6441a9de8fe781f0a2b902abd3190a4a204",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "Referring to [[Figure 1]](#Figure1), draw a graph of potential difference across the resistor versus time, showing at least two intervals of $$\\tau $$ . Also draw a graph of curre…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 25,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:8",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 601,
+      "end_line": 635,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "f8a42ca6bdec776754e03aedf2cc2803e23f0358fd283b320ab4da2024604f2d",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "A long, inexpensive extension cord is connected from inside the house to a refrigerator outside. The refrigerator doesn’t run as it should. What might be the problem?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:9",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 637,
+      "end_line": 671,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "69c41c6c23e8eb95435fb79b5ea27cea9952da2ec194bd32a109ff36e60e09e3",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "In [[Figure 4]](#Figure4), does the graph indicate the time constant is shorter for discharging than for charging? Would you expect ionized gas to have low resistance? How would y…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::conceptual-questions:10",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 673,
+      "end_line": 712,
+      "kind": "conceptual-questions",
+      "ordinal": 10,
+      "source_sha256": "95996587a8075b43cc1dfbbfc1a250fb69a8d1f0fd8e5e1766405ff210559c2d",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "An electronic apparatus may have large capacitors at high voltage in the power supply section, presenting a shock hazard even when the apparatus is switched off. A “bleeder resist…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:1",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 716,
+      "end_line": 733,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "3deda80b495fa5c82f1abf225e16dd2a33a1346a52b98471b3ebc344ec85fc33",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "The timing device in an automobile’s intermittent wiper system is based on an $$\\text{RC} $$ time constant and utilizes a $$0.500\\text{-μF} $$ capacitor and a variable resistor. O…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:2",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 735,
+      "end_line": 771,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "2795c6b48a9351a53540f3311198d0664c4579e67e17a14207efa3b011f7ef99",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "A heart pacemaker fires 72 times a minute, each time a 25.0-nF capacitor is charged (by a battery in series with a resistor) to 0.632 of its full voltage. What is the value of the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:3",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 773,
+      "end_line": 791,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "dd9200200787fbdb38b13e22b1cf9466ebdbfc9d4d5c763288f880350037a06b",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "The duration of a photographic flash is related to an $$\\text{RC} $$ time constant, which is $$0.100 \\text{μs} $$ for a certain camera. (a) If the resistance of the flash lamp is…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:4",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 793,
+      "end_line": 842,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "a8d1d6fe9ce70b577b358b96708ba7bcc0ccc00444ade73d6584b14ec17cd743",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "A 2.00- and a $$7.50\\text{-μF} $$ capacitor can be connected in series or parallel, as can a 25.0- and a $$100 \\text{-kΩ} $$ resistor. Calculate the four $$\\text{RC} $$ time const…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:5",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 844,
+      "end_line": 859,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "7dbf35f2f7da7b25ca6d4900da211532a538d9cdfc1479ebbf7e763ccfa3bafa",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "After two time constants, what percentage of the final voltage, emf, is on an initially uncharged capacitor $$C $$ , charged through a resistance $$R $$ ?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:6",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 861,
+      "end_line": 908,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "30533ae833a52a945d1398ea7519575f7943aed7c5b7faae04dba0adb76dc70b",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "A $$500 \\text{-Ω} $$ resistor, an uncharged $$1.50\\text{-μF} $$ capacitor, and a 6.16-V emf are connected in series. (a) What is the initial current? (b) What is the $$\\text{RC} $…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:7",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 910,
+      "end_line": 927,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "31cf099f852c3a79d4aaf9331c0d83f51f75f3725ca71e195e3f6558543795e9",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "A heart defibrillator being used on a patient has an $$\\text{RC} $$ time constant of 10.0 ms due to the resistance of the patient and the capacitance of the defibrillator. (a) If…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:8",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 929,
+      "end_line": 968,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "b36844bdd6c57f479e539fd8fbe9b4e60d2a170b697e361faf29bd3538fa093f",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "An ECG monitor must have an $$\\text{RC} $$ time constant less than $$1.00 \\times 10^{2} \\text{μs} $$ to be able to measure variations in voltage over small time intervals. (a) If…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:9",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 970,
+      "end_line": 994,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "902d3476e58591ff3e6f3b5d31e1e2f0edb10a03b52402a60c888b80c5967bf3",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "[[Figure 6]](#Figure6) shows how a bleeder resistor is used to discharge a capacitor after an electronic device is shut off, allowing a person to work on the electronics with less…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:10",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 996,
+      "end_line": 1049,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "a8ba63c0d900ab929ac24d3e28065d28d275bb39e90f96ba1362549f50dc40b9",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "Using the exact exponential treatment, find how much time is required to discharge a $$250 \\text{-μF} $$ capacitor through a $$500 \\text{-Ω} $$ resistor down to 1.00% of its origi…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:11",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1051,
+      "end_line": 1098,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "ee2b79053e87c329ca378f8ca586fc4904a1e4788fff3b92676fb5a9bbcdcd53",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "Using the exact exponential treatment, find how much time is required to charge an initially uncharged 100-pF capacitor through a $$ 75.0\\text{-M}\\Omega $$ resistor to 90.0% of it…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:12",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1100,
+      "end_line": 1121,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "75bde27794b14ad92a93dd175b848ec9f76446f1a57ec02991e50adadf40b729",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "**Integrated Concepts** If you wish to take a picture of a bullet traveling at 500 m/s, then a very brief flash of light produced by an $$\\text{RC} $$ discharge through a flash tu…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:13",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1123,
+      "end_line": 1177,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "918cf19727bd93083a6698204311529b6e35051aeca257306b494f96ef760adb",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "**Integrated Concepts** A flashing lamp in a Christmas earring is based on an $$\\text{RC} $$ discharge of a capacitor through its resistance. The effective duration of the flash i…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 22,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:14",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1179,
+      "end_line": 1205,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "836598ba4a44144d7778648bb105ee68cd42dd3d1596eb841b265848ad6cb6cd",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "**Integrated Concepts** A $$160 \\text{-μF} $$ capacitor charged to 450 V is discharged through a $$31.2\\text{-k}\\Omega $$ resistor. (a) Find the time constant. (b) Calculate the t…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:15",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1207,
+      "end_line": 1245,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "9d2d5853e2a7aa0950c05b6e17c311d7c101fa445d006d9f407b148ebdeff05c",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "**Unreasonable Results** (a) Calculate the capacitance needed to get an $$\\text{RC} $$ time constant of $$1.00 \\times 10^{3} \\text{s} $$ with a $$0.100\\text{-Ω} $$ resistor. (b) W…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:16",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1247,
+      "end_line": 1303,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "0a2b1438921165cf8f34c30e39b21cc3b1461c600c1e46e90aad83447ddb2c59",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "**Construct Your Own Problem** Consider a camera’s flash unit. Construct a problem in which you calculate the size of the capacitor that stores energy for the flash lamp. Among th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md::problems-exercises:17",
+      "chapter": 21,
+      "file": "contents/ch21DCCircuitsContainingResistorsAndCapacitors.md",
+      "line": 1305,
+      "end_line": 1358,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "3dd59bbba44d8fc8df6bb9c97622be91028c754bc57301e8ef3b907404f2c303",
+      "file_sha256": "2bcaa064f4388dcec571cbb256d6605ad5a44cb45cfc848dce31351d1c122272",
+      "preview": "**Construct Your Own Problem** Consider a rechargeable lithium cell that is to be used to power a camcorder. Construct a problem in which you calculate the internal resistance of…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::check-understanding:1",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 181,
+      "end_line": 198,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "c59fa84ff7a37023b153ce52e100f074bf7d0631cd56b2890d5213b2491521d7",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Digital meters are able to detect smaller currents than analog meters employing galvanometers. How does this explain their ability to measure voltage and current more accurately t…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::conceptual-questions:1",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 228,
+      "end_line": 263,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "40b22a700e390e45e5a730eaa6e5136b82130b2ff1696dbc3d18c84df67dbdc2",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Why should you not connect an ammeter directly across a voltage source as shown in [[Figure 8]](#Figure8)? ![A source of emf with internal resistance r on the left, connected dire…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::conceptual-questions:2",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 265,
+      "end_line": 301,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "ecad7b280a27b355d1993a9cf090083cc21bcfe0e04ead0c6ce05d7b34ec5946",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Suppose you are using a multimeter (one designed to measure a range of voltages, currents, and resistances) to measure current in a circuit and you inadvertently leave it in a vol…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::conceptual-questions:3",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 303,
+      "end_line": 338,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "4adca7fd5f96945d6994791ec42cb4a20c3992fbe883123e5a639de555ed1f30",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Specify the points to which you could connect a voltmeter to measure the following potential differences in [[Figure 9]](#Figure9): (a) the potential difference of the voltage sou…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 28,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::conceptual-questions:4",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 340,
+      "end_line": 369,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "3aaa2ac31b71ef7f81d934cab8eb8a4274eb123224ab7ab28d1a9c81dbbf6322",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "To measure currents in [[Figure 9]](#Figure9), you would replace a wire between two points with an ammeter. Specify the points between which you would place an ammeter to measure…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:1",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 373,
+      "end_line": 388,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "4fd252d75e6802ea4706f3b8c787f3288ccd27f1c670aa7914d6f121d9fa297f",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "What is the sensitivity of the galvanometer (that is, what current gives a full-scale deflection) inside a voltmeter that has a $$ 1.00\\text{-M}\\Omega $$ resistance on its 30.0-V…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:2",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 390,
+      "end_line": 419,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "ca98615050b352fe8443494575ef9a14d014991244e729011db635b7f8109942",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "What is the sensitivity of the galvanometer (that is, what current gives a full-scale deflection) inside a voltmeter that has a $$ 25.0\\text{-k}\\Omega $$ resistance on its 100-V s…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:3",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 421,
+      "end_line": 437,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "4a22675c33e3d3ee4fd7015bcac29b3893804da21828af24ab1aea1d9e5d5561",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Find the resistance that must be placed in series with a $$ 25.0-\\Omega $$ galvanometer having a $$50.0-\\mu A $$ sensitivity (the same as the one discussed in the text) to allow i…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:4",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 439,
+      "end_line": 479,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "8dfef15e7266d866ef3a8df5e7bec1f1a9e1528763a3e0938b67365bb67b18b3",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Find the resistance that must be placed in series with a $$ 25.0-\\Omega $$ galvanometer having a $$ 50.0-\\mu A $$ sensitivity (the same as the one discussed in the text) to allow…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:5",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 481,
+      "end_line": 498,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "8aa36911ad5739b7d0e75c80aaf20bb9a6a37e1dfa203fbe1c65c3c232cfcf48",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Find the resistance that must be placed in parallel with a $$ 25.0-\\Omega $$ galvanometer having a $$ 50.0-\\mu A $$ sensitivity (the same as the one discussed in the text) to allo…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:6",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 500,
+      "end_line": 546,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "2553e49596f8e555eda7d35761f729169330f38cca122d786bf30d10840a64db",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Find the resistance that must be placed in parallel with a $$ 25.0-\\Omega $$ galvanometer having a $$ 50.0-\\mu A $$ sensitivity (the same as the one discussed in the text) to allo…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:7",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 548,
+      "end_line": 565,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "3ee1a88d1c6da6d2f5ac0971fd0763229ba97e2621d793c67c3d92bf1d359488",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Find the resistance that must be placed in series with a $$ 10.0-\\Omega $$ galvanometer having a $$100 \\text{-μA} $$ sensitivity to allow it to be used as a voltmeter with: (a) a…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:8",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 567,
+      "end_line": 616,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "4713655b601111b83fca351354f9e00213314f86db91360d4ad59284c25fe7a8",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Find the resistance that must be placed in parallel with a $$ 10.0-\\Omega $$ galvanometer having a $$100 \\text{-μA} $$ sensitivity to allow it to be used as an ammeter with: (a) a…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:9",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 618,
+      "end_line": 641,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "647f55dd91b3412aec9aa3d1905e3a434c75a25fdd2a6797f3b527d54f2a7d5e",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an internal resistance of $$ 0.100 \\Omega $$ by placing a $$ 1.00\\text{-k}\\Omega $$ voltmeter across its…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:10",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 643,
+      "end_line": 687,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "891a198f5027b0b454d03bbca9cc49bfab1cf705ec3db9f2c4512e5d8638923b",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "Suppose you measure the terminal voltage of a 3.200-V lithium cell having an internal resistance of $$ 5.00 \\Omega $$ by placing a $$ 1.00\\text{-k}\\Omega $$ voltmeter across its t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:11",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 689,
+      "end_line": 705,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "76be9f14a59f7f83cd3e54373092142bac0ec626d088b678672f92efe36089d5",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "A certain ammeter has a resistance of $$ 5.00 \\times 10^{-5} \\Omega $$ on its 3.00-A scale and contains a $$ 10.0-\\Omega $$ galvanometer. What is the sensitivity of the galvanomet…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:12",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 707,
+      "end_line": 763,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "f89190cf262667fd84cad2dab8cdcbc0c63781369bf25a9590a13910f00e8026",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "A $$ 1.00\\text{-MΩ} $$ voltmeter is placed in parallel with a $$ 75.0\\text{-k}\\Omega $$ resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) What is the resist…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 26,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:13",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 765,
+      "end_line": 792,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "73fd49cea2c47a8a56e56a4ab9834e429a2dbba5a179d575e2e8e48303260fb8",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "A $$0.0200\\text{-Ω} $$ ammeter is placed in series with a $$10.00\\text{-Ω} $$ resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) Calculate the resistance of…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:14",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 794,
+      "end_line": 839,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "5d02f709e5a12ec977639600fb9144f4f3c0d441fe52c23907ad706e5869da2d",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "**Unreasonable Results** Suppose you have a $$ 40.0-\\Omega $$ galvanometer with a $$ 25.0-\\mu A $$ sensitivity. (a) What resistance would you put in series with it to allow it to…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:15",
+      "chapter": 21,
+      "file": "contents/ch21DCVoltmetersAndAmmeters.md",
+      "line": 841,
+      "end_line": 866,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "fd28bf7f7eb15466d672135c4e2997345e0db16578329bcee51a3c1c87113d6a",
+      "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+      "preview": "**Unreasonable Results** (a) What resistance would you put in parallel with a $$ 40.0-\\Omega $$ galvanometer having a $$25.0-\\mu A $$ sensitivity to allow it to be used as an amme…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::worked-example:1",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 166,
+      "end_line": 268,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "f012e7494e66c0f40d9c6bb29c5444929cf90c225c886a41de0ad492cf014f83",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "::: example Calculating Terminal Voltage, Power Dissipation, Current, and Resistance: Terminal Voltage and Load A certain battery has a 12.0-V emf and an internal resistance of $$…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 35,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:1",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 444,
+      "end_line": 468,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "f22a9f3b439e6563f2e0cfd9a4c47deca51464282e2887006570d0f360292f0b",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Is every emf a potential difference? Is every potential difference an emf? Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 2,
+        "skipped": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:2",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 470,
+      "end_line": 506,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "9d4112724c64edfcc593f183259875d8d270a497a4b018d9c93d0a27ea7e5f64",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Explain which battery is doing the charging and which is being charged in [[Figure 14]](#Figure14).",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:3",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 511,
+      "end_line": 541,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "599799e1d16506c8f8a83a11c3d34b15dfad25931d20f61417bcbaf407fa3db4",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Given a battery, an assortment of resistors, and a variety of voltage and current measuring devices, describe how you would determine the internal resistance of the battery.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:4",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 543,
+      "end_line": 575,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "364ac1fe93dc46893d95ec7564d7e7c01739179f997cadda4c80672ea2b63b8b",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Two different 12-V automobile batteries on a store shelf are rated at 600 and 850 “cold cranking amps.” Which has the smallest internal resistance?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:5",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 577,
+      "end_line": 607,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "f4a77f65c8800ecf8407bfc1f56ec37c16153f4fa4e76d1059ab250753b6d142",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "What are the advantages and disadvantages of connecting batteries in series? In parallel?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:6",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 609,
+      "end_line": 647,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "da68897e37633267b5dae375e397684c3596947e03992f0327ab193352ae9fbe",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Semitractor trucks use four large 12-V batteries. The starter system requires 24 V, while normal operation of the truck’s other electrical components utilizes 12 V. How could the…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:1",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 651,
+      "end_line": 665,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "b6981cab4d23757fc56de3e2023435a6b73fb1435a56b6a38f9d9315250e5b92",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Standard automobile batteries have six lead-acid cells in series, creating a total emf of 12.0 V. What is the emf of an individual lead-acid cell?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:2",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 667,
+      "end_line": 719,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "0a9214f58ed2502416c508d4cb0d632a0c3bbfe76fdbc009db18ca76312b7a40",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Carbon-zinc dry cells (sometimes referred to as non-alkaline cells) have an emf of 1.54 V, and they are produced as single cells or in various combinations to form other voltages.…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:3",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 721,
+      "end_line": 735,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "bb279aab34222f7b1991b38643bcf3d25070667c74d429654c8ebce78a0e5130",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "What is the output voltage of a 3.0000-V lithium cell in a digital wristwatch that draws 0.300 mA, if the cell’s internal resistance is $$ 2.00 \\Omega $$ ?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:4",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 737,
+      "end_line": 784,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "a9c5f90f385cadbdcb4d97f273394b91feeddbbdafc465ddfceb6121abad2241",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "(a) What is the terminal voltage of a large 1.54-V alkaline dry cell used in a physics lab to supply 2.00 A to a circuit, if the cell's internal resistance is $$0.100 \\text{Ω} $$…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:5",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 786,
+      "end_line": 800,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "f940ab1065aeb97fec0a90381d2939cf087a16ec9342a28c78b9f0297de31abe",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "What is the internal resistance of an automobile battery that has an emf of 12.0 V and a terminal voltage of 15.0 V while a current of 8.00 A is charging it?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:6",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 802,
+      "end_line": 837,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "4484ca229acf47c7247d9d1389c925514dea5916f863349fdec1abab0f08472c",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "(a) Find the terminal voltage of a 12.0-V motorcycle battery having a $$0.600\\text{-Ω} $$ internal resistance, if it is being charged by a current of 10.0 A. (b) What is the outpu…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:7",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 839,
+      "end_line": 894,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "69ae9eb8f9df0804fc48392b3db9800ef10b61e62a81a7246587e29ba61f9801",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "A car battery with a 12-V emf and an internal resistance of $$ 0.050 \\Omega $$ is being charged with a current of 60 A. Note that in this process the battery is being charged. (a)…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:8",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 896,
+      "end_line": 917,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "3fb15329085f2e0f25895c7aedb6771b5e628598c93ecd39414459b0f7f01943",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "The hot resistance of a flashlight bulb is $$ 2.30 \\Omega $$ , and it is run by a 1.58-V alkaline cell having a $$0.100\\text{-Ω} $$ internal resistance. (a) What current flows? (b…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:9",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 919,
+      "end_line": 964,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "dce3de6ef6ce244d08015ee3beec1a7e49e99dcf6d427e87203923e5f67d84fa",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "The label on a portable radio recommends the use of rechargeable nickel-cadmium cells (nicads), although they have a 1.25-V emf while alkaline cells have a 1.58-V emf. Assume the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 10
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:10",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 966,
+      "end_line": 989,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "2740db062b568e42fb2ee6e5782b2fa2df24cb5572ce94ee5698ada47215ffe0",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "An automobile starter motor has an equivalent resistance of $$ 0.0500 \\Omega $$ and is supplied by a 12.0-V battery with a $$0.0100\\text{-Ω} $$ internal resistance. (a) What is th…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:11",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 991,
+      "end_line": 1067,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "3888f1ce4bd05a6ba090b897ac7f570b41337e85d949c5c3c5f9a304799cd3d0",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "A child's electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of $$ 0.0200 \\Omega $$ in series with a 1.53-V alkaline dry cell having a $$0.100\\t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:12",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 1069,
+      "end_line": 1085,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "05a9c4b74071500212993eeafb4a55c7715864c17836afe22ea9f322cd8131a7",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "(a) What is the internal resistance of a voltage source if its terminal voltage drops by 2.00 V when the current supplied increases by 5.00 A? (b) Can the emf of the voltage sourc…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:13",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 1087,
+      "end_line": 1145,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "97224e51316a67703f34c7020fdfc459cbfff8b2f0d81b6c5a9497094c4d2b15",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "A person with body resistance between his hands of $$ 10.0 \\text{k}\\Omega $$ accidentally grasps the terminals of a 20.0-kV power supply. (Do NOT do this!) (a) Draw a circuit diag…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:14",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 1147,
+      "end_line": 1191,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "ab40b47800bf2f414a7d9cc11f13b988cd87c8621735aa5e890a3224aeddb4c7",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "Electric fish generate current with biological cells called electroplaques, which are physiological emf devices. The electroplaques in the South American eel are arranged in 140 r…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:15",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 1193,
+      "end_line": 1251,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "eeece6e089d5e30f5e2453296f405733b469131ac08260cc09e449523dc46ed0",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "**Integrated Concepts** A 12.0-V emf automobile battery has a terminal voltage of 16.0 V when being charged by a current of 10.0 A. (a) What is the battery’s internal resistance?…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:16",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 1253,
+      "end_line": 1278,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "a964b5895314124c3afcb90ffaa8792617740b68d4673e524dfc4f3f522d6eb5",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "**Unreasonable Results** A 1.58-V alkaline cell with a $$0.200\\text{-Ω} $$ internal resistance is supplying 8.50 A to a load. (a) What is its terminal voltage? (b) What is the val…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ElectromotiveForce.md::problems-exercises:17",
+      "chapter": 21,
+      "file": "contents/ch21ElectromotiveForce.md",
+      "line": 1280,
+      "end_line": 1330,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "ef22f5a702242f961c23f839b357ef5240258679e3cdbbdfd137745144296ed0",
+      "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+      "preview": "**Unreasonable Results** (a) What is the internal resistance of a 1.54-V dry cell that supplies 1.00 W of power to a $$ 15.0-\\Omega $$ bulb? (b) What is unreasonable about this re…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md#Example1",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 130,
+      "end_line": 254,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "a585ed0988a897c76dfb92da5c306b4bca7a4f5250bf93ec5f92bb924ef365b9",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Calculating Current: Using Kirchhoff’s Rules Find the currents flowing in the circuit in [[Figure 5]](#Figure5). ![Junctions a on t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 41
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::check-understanding:1",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 277,
+      "end_line": 294,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "732f070f8b43d31db748260368e894b8d79ec71f77f4e59e247fa4f82fe2648d",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Can Kirchhoff’s rules be applied to simple series and parallel circuits or are they restricted for use in more complicated circuits that are not combinations of series and paralle…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:1",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 312,
+      "end_line": 340,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "8e677b2c1d8bac6850b6055ecccc9f70eee1b1a6a8aebcb55ff363ede1844092",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Can all of the currents going into the junction in [[Figure 6]](#Figure6) be positive? Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:2",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 345,
+      "end_line": 379,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "6416e5bb41abd15384ad59736f4e6311ae7dc3c0ed5623d3ea1275495442f70f",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new information gained by applying the junction rule at e?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 16,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:3",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 384,
+      "end_line": 430,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "e17396c9339c03f54724d46f2561489f3b4107628029e0f06b12fbc9b9387d17",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "(a) What is the potential difference going from point a to point b in [[Figure 7]](#Figure7)? (b) What is the potential difference going from c to b? (c) From e to g? (d) From e t…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 45,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:4",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 432,
+      "end_line": 477,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "f093f4338f278c1ba354ae2f851ce530c69e35a2bc0b6aee13453cdeffd4ad5d",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the loop rule to loop afedcba in [[Figure 7]](#Figure7).",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 37,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:5",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 479,
+      "end_line": 528,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "8fab67871a6dd9bb9bbd0ba3f81a956f787bf0f329f2b38fafa56f694fcb7bb2",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the loop rule to loops abgefa and cbgedc in [[Figure 7]](#Figure7).",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 48,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:1",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 532,
+      "end_line": 547,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "98f845e077e0e28e6881fbe56755bb64dc0dd5ac07cda643f7f006539e7ff233",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the loop rule to loop abcdefgha in [[Figure 5]](#Figure5).",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:2",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 549,
+      "end_line": 590,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "290396dd3595114f16d8b49a9076301cbda3809d183604b4c5c2a4b5ed7c8250",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the loop rule to loop aedcba in [[Figure 5]](#Figure5).",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:3",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 592,
+      "end_line": 622,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "7c38fb96b8eabeeca6cc96f845dfc4b46e8e5d20fe1f983326abe6436f4b4db3",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Verify the second equation in [[Example 1]](#Example1) by substituting the values found for the currents $${I}_{1} $$ and $${I}_{2} $$.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:4",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 624,
+      "end_line": 653,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "73e7bfa0c8aafd35144413f8ca3c996d342344566d4e82a50b3cc6dfeefce688",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Verify the third equation in [[Example 1]](#Example1) by substituting the values found for the currents $${I}_{1} $$ and $${I}_{3} $$.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:5",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 655,
+      "end_line": 673,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "f276d8ef9a27be012e3ec3fb11a5cae1526be44ffa4bbc87c48650c946219fdb",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the junction rule at point a in [[Figure 8]](#Figure8). ![Junctions a on the left and e on the right are joined by three branches. Top branch, from a up through R1 = 5.0 ohm…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:6",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 675,
+      "end_line": 696,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "e58d2dcadb48b5a2b7e8a5ee076a032b928cb2f4e4dcadb4ac6ea8709fd73fd4",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the loop rule to loop abcdefghija in [[Figure 8]](#Figure8).",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:7",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 698,
+      "end_line": 713,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "7dba3ed7fcfdd21c477a86f0154243d932ae98352dd27c2d6f2b2bdafeb30c64",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Apply the loop rule to loop akledcba in [[Figure 8]](#Figure8).",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:8",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 715,
+      "end_line": 751,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "232618ca25b9d7b31b1f802c61fce5d6c6c9bf401ce04a06646af5154e96b7ee",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Parallel Resistors](…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:9",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 753,
+      "end_line": 770,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "912e09a9e23897048cbe169167e495637e1eb260219ddac77e625f588e88ae44",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the [Problem-Solving Strategies for Series and Paralle…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:10",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 772,
+      "end_line": 803,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "39d4ffcd3e0191a6e52ecbcb8d550d188caaa026f30056d70fc5fce87d7e32d6",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "Find the currents flowing in the circuit in [[Figure 7]](#Figure7).",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21KirchhoffsRules.md::problems-exercises:11",
+      "chapter": 21,
+      "file": "contents/ch21KirchhoffsRules.md",
+      "line": 805,
+      "end_line": 829,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "b0e097f21ae828523a0bc391f859fd943b564eb9e79529342a8e2313d4a597cc",
+      "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+      "preview": "**Unreasonable Results** Consider the circuit in [[Figure 9]](#Figure9), and suppose that the emfs are unknown and the currents are given to be $${I}_{1}=5.00 \\text{A} $$ , $${I}_…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::exercise:1",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 151,
+      "end_line": 168,
+      "kind": "exercise",
+      "ordinal": 1,
+      "source_sha256": "1b5233a13b97bdde9792213975c8f37f80ad78fd59483f5ea61c602c4186bd64",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "Identify other factors that might limit the accuracy of null measurements. Would the use of a digital device that is more sensitive than a galvanometer improve the accuracy of nul…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::conceptual-questions:1",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 182,
+      "end_line": 217,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "ff35b6562235c489017c2938e7511b044516fd7d02d699ba650d110ced871443",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "Why can a null measurement be more accurate than one using standard voltmeters and ammeters? What factors limit the accuracy of null measurements?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::conceptual-questions:2",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 219,
+      "end_line": 250,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "553be0abe4bf0a4c52fe5e18935687db8b6c2994e0b47c99b6b4a9d1cc60e2fe",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "If a potentiometer is used to measure cell emfs on the order of a few volts, why is it most accurate for the standard $${\\text{emf}}_{\\text{s}} $$ to be the same order of magnitud…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 28,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::problems-exercises:1",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 254,
+      "end_line": 270,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "286b9a3bad30ff036ce650f11735b8ac981fd041e8417cad2c92b61ff4614f95",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "What is the $${\\text{emf}}_{\\text{x}} $$ of a cell being measured in a potentiometer, if the standard cell’s emf is 12.0 V and the potentiometer balances for $${R}_{\\text{x}}= 5.0…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::problems-exercises:2",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 272,
+      "end_line": 303,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "cd5bfa07f593a14eb5347426e1a3215d82c51aeaaa49634216408a2094a5ad96",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "Calculate the $${\\text{emf}}_{\\text{x}} $$ of a dry cell for which a potentiometer is balanced when $${R}_{\\text{x}}= 1.200 \\Omega $$ , while an alkaline standard cell with an emf…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::problems-exercises:3",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 305,
+      "end_line": 323,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "d822816f1ac1e170affe47a2c3f2682fdf04b9499ebe3b8ad9398a0ec73c9bfc",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "When an unknown resistance $${R}_{\\text{x}} $$ is placed in a Wheatstone bridge, it is possible to balance the bridge by adjusting $${R}_{3} $$ to be $$2500 \\Omega $$ . What is $$…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::problems-exercises:4",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 325,
+      "end_line": 360,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "c8eab4e9c124937415c2312839c20e234f6bce05f3c777735d02f4ea70eae857",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "To what value must you adjust $${R}_{3} $$ to balance a Wheatstone bridge, if the unknown resistance $${R}_{\\text{x}} $$ is $$100 \\Omega $$ , $${R}_{1} $$ is $$ 50.0 \\Omega $$ , a…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 20,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::problems-exercises:5",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 362,
+      "end_line": 387,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "ec57c055975546d7db6133e45547e38d2ada24c7f3f88f10ea010e12245b5082",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "(a) What is the unknown $${\\text{emf}}_{\\text{x}} $$ in a potentiometer that balances when $${R}_{\\text{x}} $$ is $$ 10.0 \\Omega $$ , and balances when $${R}_{\\text{s}} $$ is $$ 1…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21NullMeasurements.md::problems-exercises:6",
+      "chapter": 21,
+      "file": "contents/ch21NullMeasurements.md",
+      "line": 389,
+      "end_line": 408,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "f0de51c407dca5ab3c2720836f8c41c5d1dcbeda08506913bd43c111bb4a8286",
+      "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+      "preview": "Suppose you want to measure resistances in the range from $$ 10.0 \\Omega $$ to $$ 10.0 k\\Omega $$ using a Wheatstone bridge that has $$\\frac{ {R}_{2}}{ {R}_{1}}= 2.000 $$ . Over w…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:1",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 114,
+      "end_line": 223,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "c05edb23de8279f854b9049599016551e451b84b255e64f994a7b3a6842b56b8",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "::: example Calculating Resistance, Current, Voltage Drop, and Power Dissipation: Analysis of a Series Circuit Suppose the voltage output of the battery in [[Figure 2]](#Figure2)…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 36,
+        "checked": 10
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:2",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 293,
+      "end_line": 434,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "bf80410a7c5edfb1b7fd687c5509aa5265e73555299d7b9096d36e13fdf0609d",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "::: example Calculating Resistance, Current, Power Dissipation, and Power Output: Analysis of a Parallel Circuit Let the voltage output of the battery and resistances in the paral…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 33,
+        "checked": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:3",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 472,
+      "end_line": 593,
+      "kind": "worked-example",
+      "ordinal": 3,
+      "source_sha256": "cc1b6fa2f9b6941a1fe018af7ff3c52cdaec0d82515ec3f7696eff2029f5a66f",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "::: example Calculating Resistance, $$IR $$ Drop, Current, and Power Dissipation: Combining Series and Parallel Circuits [[Figure 5]](#Figure5) shows the resistors from the previo…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 58,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::check-understanding:1",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 619,
+      "end_line": 636,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "2529505000f54547f997390e0f7f465e8fe6fe4cffa2b022859cf78e62a5838e",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Can any arbitrary combination of resistors be broken down into series and parallel combinations? See if you can draw a circuit diagram of resistors that cannot be broken down into…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:1",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 683,
+      "end_line": 722,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "1c2596a0899db7cb11d024611964561085beebe0f0233c8e677ec99a19fdcce0",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "A switch has a variable resistance that is nearly zero when closed and extremely large when open, and it is placed in series with the device it controls. Explain the effect the sw…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:2",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 724,
+      "end_line": 756,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "6921c67d108eb01658f128e60d3d1f15fde5c6ba24ee156aa05b50d9fa7f491d",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "What is the voltage across the open switch in [[Figure 7]](#Figure7)?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 2,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+          "line": 743,
+          "kind": "equation",
+          "expression": "1.2 \\times 10^{-10} \\text{ V} ≈ 0",
+          "status": "failed",
+          "reason": "numeric mismatch (SI values)",
+          "computed": 1.2e-10,
+          "stated": 0.0,
+          "error_pct": null
+        }
+      ],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:3",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 758,
+      "end_line": 786,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "6ab1f9470a0eeb36a1be39944be1b6fc6a8017936b50bb79a59a8cbf1487d93a",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "There is a voltage across an open switch, such as in [[Figure 7]](#Figure7). Why, then, is the power dissipated by the open switch small?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:4",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 788,
+      "end_line": 822,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "3f7571385129910cedbe470f7d9b4cd305012b0731530fdb0c54c5d6dc670f56",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Why is the power dissipated by a closed switch, such as in [[Figure 7]](#Figure7), small?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:5",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 824,
+      "end_line": 871,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "8210855a0423fb92de1c63dda73873c7b4d614caca54f4cbb720d5872e2b6bab",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "A student in a physics lab mistakenly wired a light bulb, battery, and switch as shown in [[Figure 8]](#Figure8). Explain why the bulb is on when the switch is open, and off when…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:6",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 873,
+      "end_line": 907,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "648a877a6dc889c59e63645e382a2fce1efcadf4b8b63edd9cdbd4d891f079a1",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Knowing that the severity of a shock depends on the magnitude of the current through your body, would you prefer to be in series or parallel with a resistance, such as the heating…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:7",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 909,
+      "end_line": 943,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "ffb42dd79cba9bc14efacff499c81695e431151282542a6d63cb8422879b1f73",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Would your headlights dim when you start your car’s engine if the wires in your automobile were superconductors? (Do not neglect the battery’s internal resistance.) Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:8",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 945,
+      "end_line": 979,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "a3fdc2cf8708ccbe74d4604c0799de0514abe06a15ba600b4fbe96e48d541752",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Some strings of holiday lights are wired in series to save wiring costs. An old version utilized bulbs that break the electrical connection, like an open switch, when they burn ou…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:9",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 981,
+      "end_line": 1017,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "e2ec4738d34a7d760f3f7b11b324fce218c85b77ad126f98443bb9d06cb3098e",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "If two household lightbulbs rated 60 W and 100 W are connected in series to household power, which will be brighter? Explain.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:10",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1019,
+      "end_line": 1047,
+      "kind": "conceptual-questions",
+      "ordinal": 10,
+      "source_sha256": "bc979ba4d482c88e2ba03f15cfcca4499905731f3845b3b7dbd70aa5f87be46d",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Suppose you are doing a physics lab that asks you to put a resistor into a circuit, but all the resistors supplied have a larger resistance than the requested value. How would you…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:11",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1049,
+      "end_line": 1083,
+      "kind": "conceptual-questions",
+      "ordinal": 11,
+      "source_sha256": "3eddd4fc89894ef5fd4c2fd2fb12e579ced58cff22b83a872c2c14a6d9d955d8",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Before World War II, some radios got power through a “resistance cord” that had a significant resistance. Such a resistance cord reduces the voltage to a desired level for the rad…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:12",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1085,
+      "end_line": 1113,
+      "kind": "conceptual-questions",
+      "ordinal": 12,
+      "source_sha256": "9901f2ed628d6b03d2596c3104ce26717fa3a1a064b425b3c34ad8e5023c8a8e",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Some light bulbs have three power settings (not including zero), obtained from multiple filaments that are individually switched and wired in parallel. What is the minimum number…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:1",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1120,
+      "end_line": 1161,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "a2103c161ca8efd24ba907009473a37e41a1a2409b4643f2a69d1dbcb7b9c1d4",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "(a) What is the resistance of ten $$275 \\text{-Ω} $$ resistors connected in series? (b) In parallel?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:2",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1163,
+      "end_line": 1212,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "8e74e889badef89e36b1e60df033826294bd8fdff832bf14d266755aa4d92039",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "(a) What is the resistance of a $$1.00 \\times 10^{2} -\\Omega $$ , a $$2.50\\text{-kΩ} $$ , and a $$4.00\\text{-k}\\Omega $$ resistor connected in series? (b) In parallel?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:3",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1214,
+      "end_line": 1261,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "feabd8000372d56b481a70773a5b2c3e4449c5fb22e1a91e33453553b9a8bc66",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "What are the largest and smallest resistances you can obtain by connecting a $$ 36.0-\\Omega $$ , a $$ 50.0-\\Omega $$ , and a $$700 \\text{-Ω} $$ resistor together?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:4",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1263,
+      "end_line": 1311,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "92d99569075c166f6c0d1590110506d0c5d8244fc75764bf6120bc07e4842287",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "An 1800-W toaster, a 1400-W electric frying pan, and a 75-W lamp are plugged into the same outlet in a 15-A, 120-V circuit. (The three devices are in parallel when plugged into th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:5",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1313,
+      "end_line": 1365,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "394b1ec9630f8307cfac59a8887f831848fcbbad5610f6e329fa369aedc85791",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Your car's 30.0-W headlight and 2.40-kW starter are ordinarily connected in parallel in a 12.0-V system. What power would one headlight and the starter consume if connected in ser…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:6",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1367,
+      "end_line": 1439,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "cf898854e11f7cf8bef4266e4ca6854ecb400721c78b2ad7b5e30d00c77fb1b2",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "(a) Given a 48.0-V battery and $$ 24.0-\\Omega $$ and $$ 96.0-\\Omega $$ resistors, find the current and power for each when connected in series. (b) Repeat when the resistances are…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:7",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1441,
+      "end_line": 1505,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "bed824777489d982201a25e9198b568e9c10cbec533a379c1cb3c5f0b3aaaf8f",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Referring to the example combining series and parallel circuits and [[Figure 5]](#Figure5), calculate $${I}_{3} $$ in the following two different ways: (a) from the known values o…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 36,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:8",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1507,
+      "end_line": 1538,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "46f2e87f472f8cacc8a9f14cf2c63972a2bdef276895b2bc12e764713bca2aae",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Referring to [[Figure 5]](#Figure5): (a) Calculate $${P}_{3} $$ and note how it compares with $${P}_{3} $$ found in the first two example problems in this module. (b) Find the tot…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 19,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:9",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1540,
+      "end_line": 1607,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "89a6cc3c00678c0368a0ac98e262aa4b7b67823f908704771b0b2f160e285d48",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Refer to [[Figure 6]](#Figure6) and the discussion of lights dimming when a heavy appliance comes on. (a) Given the voltage source is 120 V, the wire resistance is $$ 0.400 \\Omega…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 11
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:10",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1609,
+      "end_line": 1665,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "f2717ba3abe1e7e691527579135aee6fa45bd1c422ba984b59f020c83a5e7e37",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "A 240-kV power transmission line carrying $$5.00 \\times 10^{2} \\text{A} $$ is hung from grounded metal towers by ceramic insulators, each having a $$ 1.00 \\times 10^{9} -\\Omega $$…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:11",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1667,
+      "end_line": 1689,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "7859b4d7fb66ea09fdaace3a044de48cd8dd46bdfa9b2a85e7d816ce42a94082",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "Show that if two resistors $${R}_{1} $$ and $${R}_{2} $$ are combined and one is much greater than the other ( $${R}_{1} \\gg {R}_{2} $$ ) : (a) Their series resistance is very nea…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:12",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1691,
+      "end_line": 1741,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "d838e34b29b2bdb61c66ebbb72e49b42a4245c6e26396b7754d871cbfb1b613f",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "**Unreasonable Results** Two resistors, one having a resistance of $$145 \\Omega $$ , are connected in parallel to produce a total resistance of $$150 \\Omega $$ . (a) What is the v…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:13",
+      "chapter": 21,
+      "file": "contents/ch21ResistorsInSeriesAndInParallel.md",
+      "line": 1743,
+      "end_line": 1766,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "de284a8998d04a99a9aad38965fa3b205f4d0e1f6d6cc2f2c29e6a8474db3c4a",
+      "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+      "preview": "**Unreasonable Results** Two resistors, one having a resistance of $$900 \\text{kΩ} $$ , are connected in series to produce a total resistance of $$0.500 \\text{MΩ} $$ . (a) What is…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    }
+  ]
+}

@@ -1,0 +1,2405 @@
+{
+  "chapter": 32,
+  "checked_at": "2026-10-23T18:50:10+00:00",
+  "summary": {
+    "total": 905,
+    "checked": 162,
+    "failed": 10,
+    "skipped": 733,
+    "by_kind": {
+      "equation": {
+        "checked": 162,
+        "failed": 10,
+        "skipped": 733
+      },
+      "case": {
+        "checked": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 0,
+      "assertions": 0,
+      "chapters": []
+    },
+    "skip_reasons": {
+      "no supported equality": 403,
+      "unbound variable": 238,
+      "unknown unit": 41,
+      "unit-only expression or text label needs a numeric value": 30,
+      "unsupported symbol": 21
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::worked-example:1",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 519,
+      "end_line": 578,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "828fde83adb1b70d1694c651d0daa401699c2b886804b7ed2dc3b34d34c67f09",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "::: example Dose from Inhaled Plutonium Calculate the dose in rem/y for the lungs of a weapons plant employee who inhales and retains an activity of $$1.00 \\text{μCi of} {}^{239}\\…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 3,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+          "line": 539,
+          "kind": "equation",
+          "expression": "3.70 \\times 10^{4} \\text{Bq} = 3.70 \\times 10^{4}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('time', -1),) versus dimensionless",
+          "computed": 37000.0,
+          "stated": 37000.0,
+          "error_pct": null
+        }
+      ],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 610,
+      "end_line": 620,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "5240a3ebd8fa18268c474732fe49a16db61872ff9b942c1e95bea59aab430d1b",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Isotopes that emit $$\\alpha $$ radiation are relatively safe outside the body and exceptionally hazardous inside. Yet those that emit $$\\gamma $$ radiation are hazardous outside a…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:2",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 622,
+      "end_line": 630,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "363c3754effedef3cdd564cbd5b0eb30bc9bc39e1581f66bc8141e3d641cc973",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Why is radon more closely associated with inducing lung cancer than other types of cancer?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:3",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 632,
+      "end_line": 642,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "91f4543d88c4f8500abbe1e9045bae19ce56521f5bd0c55693428a8365f73429",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "The RBE for low-energy $$\\beta $$ s is 1.7, whereas that for higher-energy $$\\beta $$ s is only 1. Explain why, considering how the range of radiation depends on its energy.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:4",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 644,
+      "end_line": 657,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "b6f01a0c5504b0d44f14304b3946f0a4ed3e05c992d44868ec540fd5ca14525f",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Which methods of radiation protection were used in the device shown in the first photo in [[Figure 3]](#Figure3)? Which were used in the situation shown in the second photo? (a) !…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:5",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 659,
+      "end_line": 667,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "f5b564d15b3d001ddbbefa77982f9cbbf3cca1c043830e39ee38a95abe5daf76",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "What radioisotope could be a problem in homes built of cinder blocks made from uranium mine tailings? (This is true of homes and schools in certain regions near uranium mines.)",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:6",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 669,
+      "end_line": 677,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "0789a967631d5f1d30fa199aef3e1a78ac34c540954e6e786505d8371872a220",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Are some types of cancer more sensitive to radiation than others? If so, what makes them more sensitive?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:7",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 679,
+      "end_line": 687,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "bec3ff9ae557e9bb6c5b7acbb9bc9a1a75ed2483d197013dcadb26c4a35f3813",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Suppose a person swallows some radioactive material by accident. What information is needed to be able to assess possible damage?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:1",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 691,
+      "end_line": 712,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "4188b84768d65e03f79494f048e9ca1511b5fe6a2954cb8cd5a6fe1e9ceb747c",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "What is the equivalent dose in mSv for: (a) 0.1 Gy of x-rays? (b) 2.5 mGy of neutrons, assuming $$w_R=10$$ at the neutron energy used? (c) 1.5 mGy of $$\\alpha $$ exposure?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:2",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 714,
+      "end_line": 746,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "d0762425704cb91573a9884402bb0dfebdef5237c23b0ae151e9663d3eec4a19",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Find the radiation dose in Gy for: (a) A 10-mSv fluoroscopic x-ray series. (b) 50 mSv of skin exposure by an $$\\alpha $$ emitter. (c) 160 mSv of $${\\beta }^{-} $$ and $$\\gamma $$…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:3",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 748,
+      "end_line": 762,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "56eb6e5a85b2d510633ba5826f9c2383d0d399f9ed53bc813aa2c85b982cdeb5",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "What absorbed dose in Gy corresponds to an equivalent dose of 40 mSv from alpha particles? Use the radiation weighting factor in Table 1.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:4",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 764,
+      "end_line": 780,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "4df9059f4068411549566776d9e44496539d0e8fca6bfa3b4cab92305c246488",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "A localized gamma-ray treatment delivers an absorbed dose of 2.00 Gy per fraction to a tumor. How many fractions deliver 60.0 Gy? Explain why absorbed dose in Gy is used for this…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:5",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 782,
+      "end_line": 800,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "824635f1bee62d40474c69a567b4851d0ca7991ebe215ac38ff1769f8a1c0168",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "One half the $$\\gamma $$ rays from $${}^{99 \\text{m}}\\text{Tc} $$ are absorbed by a 0.170-mm-thick lead shielding. Half of the $$\\gamma $$ rays that pass through the first layer o…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:6",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 802,
+      "end_line": 846,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "cfa2b54a58e2dcbf5d45454fc74742cd307116c7f958985761a24f56ef66c2f3",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "A plumber at a nuclear power plant receives a whole-body dose of 30 mSv in 15 minutes while repairing a crucial valve. Find the radiation-induced yearly risk of death from cancer…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:7",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 848,
+      "end_line": 862,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "85671baaa0b4af8d4cec009f2f636dc8c5ec6be551ecfd719ac9118d7302202f",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "In the 1980s, the term picowave was used to describe food irradiation in order to overcome public resistance by playing on the well-known safety of microwave radiation. Find the e…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:8",
+      "chapter": 32,
+      "file": "contents/ch32BiologicalEffectsAndIonizingRadiation.md",
+      "line": 864,
+      "end_line": 917,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "78170772ddb588b199d20218ef20909e0ec9e90753c293db1fe19740c632957b",
+      "file_sha256": "700d4355b9b7992d34cbaa0d8bbc7a8c45a26e54e54e5a4ce45993dbe0f85c96",
+      "preview": "Find the mass of $${}^{239}\\text{Pu} $$ that has an activity of $$1.00 \\text{μCi} $$.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md#Example1",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 47,
+      "end_line": 103,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "008323fec767db70209a864a36942e12166418fc601ed8b902af9a4b8297c520",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Calculating Energy Released by Fission Calculate the energy released in the following spontaneous fission reaction: $${}^{238}\\text…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 17
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md#Example2",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 211,
+      "end_line": 255,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "a06e5f416ef597f34783f0763eb5b8690e408051c3d2784a8b1af6607622b8d4",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Calculating Energy from a Kilogram of Fissionable Fuel Calculate the amount of energy produced by the fission of 1.00 kg of $${}^{2…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 329,
+      "end_line": 337,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "da644afbd939235cf4c5844a8dbb152b3fc0d9ee5c97aa246c17e0ac7ebe8ab9",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Explain why the fission of heavy nuclei releases energy. Similarly, why is it that energy input is required to fission light nuclei?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:2",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 339,
+      "end_line": 347,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "fca97596a4f70399e523ca3b23241b7c41c34a9ef33cd4042f1588e65410a948",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Explain, in terms of conservation of momentum and energy, why collisions of neutrons with protons will thermalize neutrons better than collisions with oxygen.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:3",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 349,
+      "end_line": 357,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "6754df3d77ddc1f0dfca939a9dc4ebbdf9a479908305cc9ca6be9fc0b1fc3817",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "The ruins of the Chernobyl reactor are enclosed in a huge concrete structure built around it after the accident. Some rain penetrates the building in winter, and radioactivity fro…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:4",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 359,
+      "end_line": 367,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "0db7b1266e17ae5f1baa859cedf9ba5abe200122f7f39788f03233a892d44fc2",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Since the uranium or plutonium nucleus fissions into several fission fragments whose mass distribution covers a wide range of pieces, would you expect more residual radioactivity…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:5",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 369,
+      "end_line": 377,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "a569ade1d66d644980d211eec7152a6887049cd9af2472fccb6c1ae8095445c0",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "The core of a nuclear reactor generates a large amount of thermal energy from the decay of fission products, even when the power-producing fission chain reaction is turned off. Wo…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:6",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 379,
+      "end_line": 387,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "7cace09d9d656f5b87a0837334194f67d6de6fda1c40f240c51efb18276b3eef",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "How can a nuclear reactor contain many critical masses and not go supercritical? What methods are used to control the fission in the reactor?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:7",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 389,
+      "end_line": 397,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "85271bafb27ec7c3b8e75eca5aede4f12fb3f994ffd64590f55966ac4552a344",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Why can heavy nuclei with odd numbers of neutrons be induced to fission with thermal neutrons, whereas those with even numbers of neutrons require more energy input to induce fiss…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::conceptual-questions:8",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 399,
+      "end_line": 407,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "fa2b4a8db4d617f06e15725b235e28af26a669b53c413312f006744487ae07e6",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Why is a conventional fission nuclear reactor not able to explode as a bomb?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:1",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 411,
+      "end_line": 438,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "ca55bd34af8fae1e02da63fa0f52305cef3eaab9d7920811fd4df3b642c8bfcf",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "(a) Calculate the energy released in the neutron-induced fission (similar to the spontaneous fission in [[Example 1]](#Example1)) $$n+{}^{238}\\text{U}\\to {}^{96}\\text{Sr}+{}^{140}…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:2",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 440,
+      "end_line": 480,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "c8723b9dcec11b9f0ce370a75bb47c825a60df1e1f663054a917972a6bf5fa38",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "(a) Calculate the energy released in the neutron-induced fission reaction $$n+{}^{235}\\text{U}\\to {}^{92}\\text{Kr}+{}^{142}\\text{Ba}+2\\mathrm{n,} $$ given $$m\\left({}^{92}\\text{Kr…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:3",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 482,
+      "end_line": 508,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "98e63968703f7b811d660e7d8043fd8abe04aab278c1f587cc8ffd6ec04acbf5",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "(a) Calculate the energy released in the neutron-induced fission reaction $$n+{}^{239}\\text{Pu}\\to {}^{96}\\text{Sr}+{}^{140}\\text{Ba}+4n, $$ given $$m\\left({}^{96}\\text{Sr}\\right)…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:4",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 510,
+      "end_line": 546,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "c80c39c69f87d8418e568a9f21b8130d8cbe897c16a3e278cb15f5091d5a2761",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Confirm that each of the reactions listed for plutonium breeding just following [[Example 2]](#Example2) conserves the total number of nucleons, the total charge, and electron fam…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:5",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 548,
+      "end_line": 576,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "9deb3b75008898a1c10a49292b0c3684fc54077ced5bf3fc914e33e5f2d9a237",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "Breeding plutonium produces energy even before any plutonium is fissioned. Calculate the energy produced in each of the reactions listed for plutonium breeding just following [[Ex…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:6",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 578,
+      "end_line": 634,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "2284e68e119504f8246b4096cc075d4f8bb1c907e3e12c8ae9b603139210afd8",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "The naturally occurring radioactive isotope $${}^{232}\\text{Th} $$ does not make good fission fuel, because it has an even number of neutrons; however, it can be bred into a suita…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 32,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:7",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 636,
+      "end_line": 660,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "3c80457df4f492a4f709322ddb5ddb1c54c2f8c0704a1ca141c7ba6b79b7ce36",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "The electrical power output of a large nuclear reactor facility is 900 MW. It has a 35.0% efficiency in converting nuclear power to electrical. (a) What is the thermal nuclear pow…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fission.md::problems-exercises:8",
+      "chapter": 32,
+      "file": "contents/ch32Fission.md",
+      "line": 662,
+      "end_line": 708,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "22fe18137b7dcd91794888f99e4a25e911979317adb406a6f04f1bbed5f2ae00",
+      "file_sha256": "f5dc464f5a11ba50b7b2a9cbabbf1be4750dd5bb43fce91451446e05cee0f496",
+      "preview": "A large power reactor that has been in operation for some months is turned off, but residual activity in the core still produces 150 MW of power. If the average energy per decay o…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32FoodIrradiation.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32FoodIrradiation.md",
+      "line": 53,
+      "end_line": 61,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "136e5c506f00dbcf5a0437fe2000360c81ca1f158cad4efb74ff7c418aaaa40f",
+      "file_sha256": "eefb0cc7e1f6b1114e3ed3115f181127914f4e879ac1875aeb8cf61eca0c453b",
+      "preview": "Does food irradiation leave the food radioactive? To what extent is the food altered chemically for low and high doses in food irradiation?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32FoodIrradiation.md::conceptual-questions:2",
+      "chapter": 32,
+      "file": "contents/ch32FoodIrradiation.md",
+      "line": 63,
+      "end_line": 71,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "64f7a79dfbcfde2dfe2edc84ac518733284f8513ddbb8323f1f78ba0e491c49c",
+      "file_sha256": "eefb0cc7e1f6b1114e3ed3115f181127914f4e879ac1875aeb8cf61eca0c453b",
+      "preview": "Compare a low dose of radiation to a human with a low dose of radiation used in food treatment.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32FoodIrradiation.md::conceptual-questions:3",
+      "chapter": 32,
+      "file": "contents/ch32FoodIrradiation.md",
+      "line": 73,
+      "end_line": 85,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "45964e46bc97390907ed891bd137a758c3de01f063901ab8f0e264271cf81ae8",
+      "file_sha256": "eefb0cc7e1f6b1114e3ed3115f181127914f4e879ac1875aeb8cf61eca0c453b",
+      "preview": "Suppose one food irradiation plant uses a $${}^{137}\\text{Cs} $$ source while another uses an equal activity of $${}^{60}\\text{Co} $$ . Assuming equal fractions of the $$\\gamma $$…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md#Example1",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 228,
+      "end_line": 290,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "c857cc7309600d3dc4a3e884a670bd3428059499e076e79ef9b818b8151a1851",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Calculating Energy and Power from Fusion (a) Calculate the energy released by the fusion of a 1.00-kg mixture of deuterium and trit…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 334,
+      "end_line": 342,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "968d889300ab65e78ba46e86c7c0570ec97376a857110820ccba00d2420c2c60",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Why does the fusion of light nuclei into heavier nuclei release energy?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::conceptual-questions:2",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 344,
+      "end_line": 352,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "8982a60db92a2e83ca8e0b9ac409fa6f5fae30e8eb306e59ae2b97bccf878d1c",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Energy input is required to fuse medium-mass nuclei, such as iron or cobalt, into more massive nuclei. Explain why.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::conceptual-questions:3",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 354,
+      "end_line": 363,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "c2f63d390c6b0a4aefb49a5fd169bc14be4b54537558c5691a5b36773e8552c3",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "In considering potential fusion reactions, what is the advantage of the reaction $${}^{2}\\text{H}+{}^{3}\\text{H}\\to {}^{4}\\text{He}+n $$ over the reaction $${}^{2}\\text{H}+{}^{2}\\…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::conceptual-questions:4",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 365,
+      "end_line": 374,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "0b0a433284beaa0f1d3fe16e83115f73a72a8115cbd85555fbf1dec9baf6860f",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Give reasons justifying the contention made in the text that energy from the fusion reaction $${}^{2}\\text{H}+{}^{2}\\text{H}\\to {}^{4}\\text{He}+\\gamma $$ is relatively difficult t…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:1",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 378,
+      "end_line": 417,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "65a2b4d5b5743042a87592f6645ef2139aafbdabe725ab491536dff0ea6c9bdd",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the proton-proton cycle in {: class=\"newline\"}…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:2",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 419,
+      "end_line": 475,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "0f9afdb6f9a0ec44519a9fd54bdebfbaa40ecbf831521cd67d5e85d3e22d8224",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Calculate the energy output in each of the fusion reactions in the proton-proton cycle, and verify the values given in the above summary.",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 26,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:3",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 477,
+      "end_line": 494,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "bccbfb57bc23278f3c556354074198fcf6451e1a84523ffd89a1f0a5aa48be4f",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Show that the total energy released in the proton-proton cycle is 26.7 MeV, considering the overall effect in $${}^{1}\\text{H}+{}^{1}\\text{H}\\to {}^{2}\\text{H}+{e}^{+}+{v}_{\\text{…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:4",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 496,
+      "end_line": 530,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "d8db0c9af02e9e43987daa49d8fdccf065d9033341208164ea24894a5633d39c",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Verify by listing the number of nucleons, total charge, and electron family number before and after the cycle that these quantities are conserved in the overall proton-proton cycl…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:5",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 532,
+      "end_line": 547,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "26cb807512eacd619698ce262a35cb45a724ac6f4d818c32ad1b1384f98b03c9",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium was found in Example [Calculating Energy and Power from Fusion](#Example1). Approximately how many…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:6",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 549,
+      "end_line": 580,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "f7ea4e4163d36142fee5f2f2d5e3e5fb1a556cbe32db49c845cddc668efc4ac0",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Tritium is naturally rare, but can be produced by the reaction $$n+{}^{2}\\text{H}\\to {}^{3}\\text{H}+\\gamma $$ . How much energy in MeV is released in this neutron capture?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:7",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 582,
+      "end_line": 605,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "449fcc3ca6563779b3153956aea51de65269352f40d34698011512e95f1ce2b1",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Two fusion reactions mentioned in the text are $$n+{}^{3}\\text{He}\\to {}^{4}\\text{He}+\\gamma $$ and $$n+{}^{1}\\text{H}\\to {}^{2}\\text{H}+\\gamma $$. Both reactions release energy,…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:8",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 607,
+      "end_line": 654,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "72804260fe56834e417edef50781bed7ba6f8ddcc357c7721d6637487b96d472",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "(a) Calculate the number of grams of deuterium in an 80 000-L swimming pool, given deuterium is 0.0150% by number of natural hydrogen. (b) Find the energy released in joules if th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:9",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 656,
+      "end_line": 670,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "f1ce8867ccf87f232e971a87d12db978514daeab614152bedb05feaa2a64ce30",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "How many kilograms of water are needed to obtain the 198.8 mol of deuterium, assuming that deuterium is 0.01500% (by number) of natural hydrogen?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:10",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 672,
+      "end_line": 715,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "ff93ae5115aa3a0e2a1e6de6c8f63251aeeae5768149489eede5014c12264cc1",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "The power output of the Sun is $$4 \\times 10^{26} \\text{W} $$. (a) If 90% of this is supplied by the proton-proton cycle, how many protons are consumed per second? (b) How many ne…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:11",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 717,
+      "end_line": 741,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "96a7ba1fd56a914af706dfb38d38ae47dd47d6b31ebbfdf0ed6b4fb4e31def08",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Another set of reactions that result in the fusing of hydrogen into helium in the Sun and especially in hotter stars is called the carbon cycle. It is {: class=\"newline\"} $$\\begin…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:12",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 743,
+      "end_line": 767,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "55fd7a6fe2fa1d2ca52157f33168363df02ca39054b1c2afab9c8acde7893298",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "(a) Find the total energy released in MeV in each carbon cycle (elaborated in the above problem) including the annihilation energy. (b) How does this compare with the proton-proto…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:13",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 769,
+      "end_line": 800,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "833ec5888d5bc1f1229033356d5c1429936e8e5b790b0b7aa2e4d2d57077bd85",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the carbon cycle given in the above problem. (…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 18
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:14",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 802,
+      "end_line": 847,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "dbd6d607d4e0d618028b94badaa271f0a4a7f1c3e359f3fa4699949dc894ae2d",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "**Integrated Concepts** The laser system tested for inertial confinement can produce a 100-kJ pulse only 1.00 ns in duration. (a) What is the power output of the laser system duri…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:15",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 849,
+      "end_line": 870,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "c2302d79d49bd4248d20f38c895f1574c37336ebb0d7b5d2bfad426f23b908d2",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "**Integrated Concepts** Find the amount of energy given to the $${}^{4}\\text{He} $$ nucleus and to the $$\\gamma $$ ray in the reaction $$n{+}^{3}\\text{He}{\\to }^{4}\\text{He}+\\gamm…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:16",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 872,
+      "end_line": 910,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "0678e37769bcdf737f9f2502429925f173603d333fbc71811818e33db2b511be",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "**Integrated Concepts** (a) What temperature gas would have atoms moving fast enough to bring two $${}^{3}\\text{He} $$ nuclei into contact? Note that, because both are moving, the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32Fusion.md::problems-exercises:17",
+      "chapter": 32,
+      "file": "contents/ch32Fusion.md",
+      "line": 912,
+      "end_line": 938,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "6e6c9afcc9f5e374395d968240f0dae8c510a4b3421f26ec79147ea0714a719b",
+      "file_sha256": "6e55966d6c7d2bf53f65b860e80c8bf1af3c18200291a82e932003833db1c6c1",
+      "preview": "**Integrated Concepts** (a) Estimate the years that the deuterium fuel in the oceans could supply the energy needs of the world. Assume world energy consumption to be ten times th…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 284,
+      "end_line": 292,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "4a19522067818af8260f4cc712ea6481244a61f7ffeace3c8bacd7fed8d468fe",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "In terms of radiation dose, what is the major difference between medical diagnostic uses of radiation and medical therapeutic uses?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::conceptual-questions:2",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 294,
+      "end_line": 302,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "5658322535e899547b5082808f69aded4df5b41d9cedbee5dff719060f8d339d",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "One of the methods used to limit radiation dose to the patient in medical imaging is to employ isotopes with short half-lives. How would this limit the dose?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:1",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 306,
+      "end_line": 323,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "6187b961387714ce86ead5a3c0273790a068d589c928310900bd1201d7df6aaf",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "A neutron generator uses an $$\\alpha $$ source, such as radium, to bombard beryllium, inducing the reaction $${}^{4}\\text{He}+{}^{9}\\text{Be}\\to {}^{12}\\text{C}+n $$ . Such neutro…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:2",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 325,
+      "end_line": 374,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "8d8cda580840fa7b0fe311e37126452c720b7bfa97bac6838f3fea7b53ffb524",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "Neutrons from a source (perhaps the one discussed in the preceding problem) bombard natural molybdenum, which is 24 percent $${}^{98}\\text{Mo} $$ . What is the energy output of th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:3",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 376,
+      "end_line": 396,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "92ab53b267ebdefd12fa4e73ce2391d41e4c6f622137692a13aa874fca5d99a2",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "The purpose of producing $${}^{99}\\text{Mo} $$ (usually by neutron activation of natural molybdenum, as in the preceding problem) is to produce $${}^{99 \\text{m}}\\text{Tc} \\text{.…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:4",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 398,
+      "end_line": 426,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "a37ae5b8d356695f199fdb44febda763c1bc07f7c8f4dfb53cfb08ded1af94f7",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "(a) Two annihilation $$\\gamma $$ rays in a PET scan originate at the same point and travel to detectors on either side of the patient. If the point of origin is 9.00 cm closer to…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:5",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 428,
+      "end_line": 443,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "3396b67f59c5f1140e587cba1e61703e3723cfc6038d8bee71bd29ca30ea0ca5",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "[[Table 1]](#Table1) indicates that 7.50 mCi of $${}^{99 \\text{m}}\\text{Tc} $$ is used in a brain scan. What is the mass of technetium?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:6",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 445,
+      "end_line": 523,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "648e89cafd258162bae9d7481ac1b8e882a19e0665912d90866562907beb1e63",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "The activities of $${}^{131}\\text{I} $$ and $${}^{123}\\text{I} $$ used in thyroid scans are given in [[Table 1]](#Table1) to be 50 and $$70 \\text{μ}Ci $$ , respectively. Find and…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 30,
+        "checked": 8,
+        "failed": 2
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+          "line": 485,
+          "kind": "equation",
+          "expression": "\\frac{1.86 \\times 10^{12}}{6.022 \\times 10^{23}} \\times 131 \\text{ g/mol} = 4.05 \\times 10^{-10} \\text{ g}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('amount', -1), ('mass', 1)) versus (('mass', 1),)",
+          "computed": 4.0461640650946525e-13,
+          "stated": 4.05e-13,
+          "error_pct": null
+        },
+        {
+          "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+          "line": 507,
+          "kind": "equation",
+          "expression": "\\frac{1.78 \\times 10^{11}}{6.022 \\times 10^{23}} \\times 123 \\text{ g/mol} = 3.63 \\times 10^{-11} \\text{ g}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('amount', -1), ('mass', 1)) versus (('mass', 1),)",
+          "computed": 3.6356692128860844e-14,
+          "stated": 3.63e-14,
+          "error_pct": null
+        }
+      ],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32MedicalImagingAndDiagnostics.md::problems-exercises:7",
+      "chapter": 32,
+      "file": "contents/ch32MedicalImagingAndDiagnostics.md",
+      "line": 525,
+      "end_line": 548,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "0ac11ebb0028ed40d877d9d444e250ce8771cd4a1394983642df00759b0f9801",
+      "file_sha256": "cda0a885ce1e24aa6501f0d76f0438ae4f19d87fb32bfba268eedcdf95aba941",
+      "preview": "(a) Neutron activation of sodium, which is 100% $${}^{23}\\text{Na} $$ , produces $${}^{24}\\text{Na} $$ , which is used in some heart scans, as seen in [[Table 1]](#Table1). The eq…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 189,
+      "end_line": 197,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "67988d1fe4e7c1587c139cffa4b6fdb8ca4be6d5f4c288bb5f0aba541cbef759",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "What are some of the reasons that plutonium rather than uranium is used in all fission bombs and as the trigger in all fusion bombs?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::conceptual-questions:2",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 199,
+      "end_line": 207,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "2f76e3be2e163aa3913a441a301d94554e77f4f9e57fb82ceadcef2f100c73c0",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "Use the laws of conservation of momentum and energy to explain how a shape charge can direct most of the energy released in an explosion in a specific direction. (Note that this i…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::conceptual-questions:3",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 209,
+      "end_line": 218,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "60eb3133de063dcfb677534e7a397afc6d7a20b6288a951c669ac5d63893275d",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "How does the lithium deuteride in the thermonuclear bomb shown in [[Figure 5]](#Figure5) supply tritium $$\\left({}^{3}\\text{H}\\right) $$ as well as deuterium $$\\left({}^{2}\\text{H…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::conceptual-questions:4",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 220,
+      "end_line": 230,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "a8976afbf2df2877dcd0db2ba21acf0e23d407b134e039c124e37fc577dac73b",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "Fallout from nuclear weapons tests in the atmosphere is mainly $${}^{90}\\text{Sr} $$ and $${}^{137}\\text{Cs} $$ , which have 28.6- and 32.2-y half-lives, respectively. Atmospheric…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:1",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 234,
+      "end_line": 248,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "0af08edb37fbf5112b0856e44d9a571e6393629b043fa45cc3f1f86fe74c720e",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "Find the mass converted into energy by a 12.0-kT bomb.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:2",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 250,
+      "end_line": 284,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "3d9f9d92f4ef11ebe7630e3a8e210d5d1e2ec95866585e5cb4c3b646ac355c04",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "What mass is converted into energy by a 1.00-MT bomb?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "failed": 1,
+        "checked": 2
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch32NuclearWeapons.md",
+          "line": 269,
+          "kind": "equation",
+          "expression": "1.00 \\text{ MT} = 4.184 \\times 10^{15} \\text{ J}",
+          "status": "failed",
+          "reason": "incompatible dimensions: (('current', -1), ('mass', 1), ('time', -2)) versus (('len', 2), ('mass', 1), ('time', -2))",
+          "computed": 1000000.0,
+          "stated": 4184000000000000.0,
+          "error_pct": null
+        }
+      ],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:3",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 286,
+      "end_line": 301,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "ffd6704816a86870278f05079994597da18b63e876984de7965d16de51a85a4b",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "Fusion bombs use neutrons from their fission trigger to create tritium fuel in the reaction $$n{+}^{6}\\text{Li}{\\to }^{3}\\text{H}{+}^{4}\\text{He} $$ . What is the energy released…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:4",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 303,
+      "end_line": 348,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "5dc31f1346dc793ff09ef63eb47fa79798a46b012486568ee1873ca9feb1ac8c",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "It is estimated that the total explosive yield of all the nuclear bombs in existence currently is about 4 000 MT. (a) Convert this amount of energy to kilowatt-hours, noting that…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 3,
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:5",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 350,
+      "end_line": 368,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "21d7a4ca83f528168b5b05f80c38bb4c25659c3c301f9510501be2336743395f",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "A radiation-enhanced nuclear weapon (or neutron bomb) can have a smaller total yield and still produce more prompt radiation than a conventional nuclear bomb. This allows the use…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:6",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 370,
+      "end_line": 417,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "5c05415e05778c392cb917f69d33c0069c861dea8449d98823066028caab5880",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "(a) How many $${}^{239}\\text{Pu} $$ nuclei must fission to produce a 20.0-kT yield, assuming 200 MeV per fission? (b) What is the mass of this much $${}^{239}\\text{Pu} $$ ?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:7",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 419,
+      "end_line": 448,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "fd4167fc9e934e847ae17d576ac6bc92fb447d4c256c4b3172953f039db94124",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "Assume one-fourth of the yield of a typical 320-kT strategic bomb comes from fission reactions averaging 200 MeV and the remainder from fusion reactions averaging 20 MeV. (a) Calc…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:8",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 450,
+      "end_line": 490,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "a3b1f023abba8e3a65fbf6f841145125cc9cad2be186387c8d1a87ff67512440",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "This problem gives some idea of the magnitude of the energy yield of a small tactical bomb. Assume that half the energy of a 1.00-kT nuclear depth charge set off under an aircraft…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:9",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 492,
+      "end_line": 507,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "a20a7dc4ca1fde1c1a619eaa70f4c7f8ddc2e3afa6ce338f2c622917cb77cf7b",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "It is estimated that weapons tests in the atmosphere have deposited approximately 9 MCi of $${}^{90}\\text{Sr} $$ on the surface of the earth. Find the mass of this amount of $${}^…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:10",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 509,
+      "end_line": 567,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "48d4817717e2a5faa7c34a1338da1335884600f5c14b44d8afb71894d30cedb0",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "A 1.00-MT bomb exploded a few kilometers above the ground deposits 25.0% of its energy into radiant heat. (a) Find the calories per $${\\text{cm}}^{2} $$ at a distance of 10.0 km b…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32NuclearWeapons.md::problems-exercises:11",
+      "chapter": 32,
+      "file": "contents/ch32NuclearWeapons.md",
+      "line": 569,
+      "end_line": 594,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "c7e563fc046e108c12a8b624e5b84b85258fd45d54ce422848a7430895eccd14",
+      "file_sha256": "175004461ad7789fc42a64388dc54a376bec4528102c2c102cf5ada91d4286fc",
+      "preview": "**Integrated Concepts** One scheme to put nuclear weapons to nonmilitary use is to explode them underground in a geologically stable region and extract the geothermal energy for e…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::conceptual-questions:1",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 112,
+      "end_line": 120,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "f809730ff83a7c1527176cc69d1b2e618a740d34d03e1c3edb8a5e75ea72ee9c",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "Radiotherapy is more likely to be used to treat cancer in elderly patients than in young ones. Explain why. Why is radiotherapy used to treat young people at all?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:1",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 124,
+      "end_line": 142,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "390c843d1e31f3857150c5f1a42045a99f0852330ab50dcf7a60664280d3e940",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "A beam of 168-MeV nitrogen nuclei is used for cancer therapy. If this beam is directed onto a 0.200-kg tumor and gives it an absorbed dose of 2.00 Gy, how many nitrogen nuclei wer…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:2",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 144,
+      "end_line": 215,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "e5eb2e95c3777218f505e1ecfd9dda2e01ec761d0a97ad7c1712fff6a2fea4ee",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "(a) If the average molar mass of compounds in food is 50.0 g/mol, how many molecules are there in 1.00 kg of food? (b) How many ion pairs are created in 1.00 kg of food, if it is…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:3",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 217,
+      "end_line": 233,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "ee89c29bcc1032214e2c9d52bce686ab5d8a654e7c8feb001f758ab5a7818bdc",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "Calculate the dose in Sv to the chest of a patient given an x-ray under the following conditions. The x-ray beam intensity is $$1.50 \\text{W}{\\text{/m}}^{2} $$ , the area of the c…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:4",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 235,
+      "end_line": 265,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "e3e196917def581c444bb225d9b632c5692a602187d84d548ca3f71f30dfcf5c",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "(a) A cancer patient is exposed to $$\\gamma $$ rays from a 5000-Ci $${}^{60}\\text{Co} $$ transillumination unit for 32.0 s. The $$\\gamma $$ rays are collimated in such a manner th…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:5",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 267,
+      "end_line": 282,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "23c66509b4b7f27540150909a87e370c59edf9fa7ea16d40e47ed1f61d15245e",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "What is the mass of $${}^{60}\\text{Co} $$ in a cancer therapy transillumination unit containing 5.00 kCi of $${}^{60}\\text{Co} $$ ?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:6",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 284,
+      "end_line": 347,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "0dc49e8ed53644cd2a9bbe95bd4e18d02e278f0d94460f85006df3b265a1169d",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "Large amounts of $${}^{65}\\text{Zn} $$ are produced in copper exposed to accelerator beams. While machining contaminated copper, a physicist ingests $$50.0 \\mu Ci $$ of $${}^{65}\\…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 14,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:7",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 349,
+      "end_line": 367,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "f28fe5e2b776b1799e088789d3cf2ce8dbb9ef68c8037d2eeb251203a485c2d5",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "Naturally occurring $${}^{40}\\text{K} $$ is listed as responsible for 16 mrem/y of background radiation. Calculate the mass of $${}^{40}\\text{K} $$ that must be inside the 55-kg b…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:8",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 369,
+      "end_line": 403,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "3e89787ef2bfc8caf33854db2e002399040917d0ebde3a3b28dac056fca48eaf",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "(a) Background radiation due to $${}^{226}\\text{Ra} $$ averages only 0.01 mSv/y, but it can range upward depending on where a person lives. Find the mass of $${}^{226}\\text{Ra} $$…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:9",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 405,
+      "end_line": 432,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "6f80d9c9247287b33d937562fbf2bd61b045c58d521bbd8fdfcf1b6642b3ead3",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "The annual radiation dose from $${}^{14}\\text{C} $$ in our bodies is 0.01 mSv/y. Each $${}^{14}\\text{C} $$ decay emits a $${\\beta }^{-} $$ averaging 0.0750 MeV. Taking the fractio…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch32TherapeuticUsesOfIonizingRadiation.md::problems-exercises:10",
+      "chapter": 32,
+      "file": "contents/ch32TherapeuticUsesOfIonizingRadiation.md",
+      "line": 434,
+      "end_line": 455,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "8492ca51f9bc10aaaa16eb808006bd91ece40209e9b5043953da46f8ab546dcb",
+      "file_sha256": "68ea3ac98d87c8307ab11581318ffd6a0e3528d0160cd12c14cc7c7321661ecb",
+      "preview": "For an illustrative population model, take Australia's population to be 26.0 million and a baseline cancer mortality of 110 deaths per 100,000 people per year. Suppose everyone re…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "pending",
+      "review": null,
+      "previous_review_count": 0
+    }
+  ]
+}
