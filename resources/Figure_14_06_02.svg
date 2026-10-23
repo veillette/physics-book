@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="780" viewBox="0 0 820 780" role="img" aria-labelledby="title desc">
+<title id="title">Convection in a pot of water</title>
+<desc id="desc">A pot of water on a gas burner, its front cut away. Water heated at the bottom rises up the middle and sinks along the cooler sides, forming two circulating loops. A few bubbles are in the water.</desc>
+<rect width="820" height="780" fill="#ffffff"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a8c8f"/><stop offset="0.25" stop-color="#c7c8ca"/><stop offset="0.6" stop-color="#e6e7e8"/><stop offset="1" stop-color="#8a8c8f"/></linearGradient></defs>
+<ellipse cx="410" cy="690" rx="330" ry="50" fill="#9a9c9f" stroke="#555555" stroke-width="2"/>
+<ellipse cx="410" cy="680" rx="320" ry="46" fill="#e6e7e8" stroke="#6d6e71" stroke-width="1.5"/>
+<rect x="126" y="650" width="28" height="120" rx="6" fill="#555555"/>
+<rect x="666" y="650" width="28" height="120" rx="6" fill="#555555"/>
+<circle cx="150" cy="665" r="10" fill="#333333"/>
+<path d="M 143 655 Q 150 615 157 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="193" cy="667.07" r="10" fill="#333333"/>
+<path d="M 186 655 Q 193 615 200 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="236" cy="669" r="10" fill="#333333"/>
+<path d="M 229 655 Q 236 615 243 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="279" cy="670.66" r="10" fill="#333333"/>
+<path d="M 272 655 Q 279 615 286 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="322" cy="671.93" r="10" fill="#333333"/>
+<path d="M 315 655 Q 322 615 329 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="365" cy="672.73" r="10" fill="#333333"/>
+<path d="M 358 655 Q 365 615 372 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="408" cy="673" r="10" fill="#333333"/>
+<path d="M 401 655 Q 408 615 415 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="451" cy="672.73" r="10" fill="#333333"/>
+<path d="M 444 655 Q 451 615 458 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="494" cy="671.93" r="10" fill="#333333"/>
+<path d="M 487 655 Q 494 615 501 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="537" cy="670.66" r="10" fill="#333333"/>
+<path d="M 530 655 Q 537 615 544 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="580" cy="669" r="10" fill="#333333"/>
+<path d="M 573 655 Q 580 615 587 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="623" cy="667.07" r="10" fill="#333333"/>
+<path d="M 616 655 Q 623 615 630 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="666" cy="665" r="10" fill="#333333"/>
+<path d="M 659 655 Q 666 615 673 655 Z" fill="#bfe3f8" stroke="#6fb6e8" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 60 110 L 60 590 Q 410 680 760 590 L 760 110" fill="url(#g1)" stroke="#6d6e71" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="410" cy="110" rx="350" ry="70" fill="#9a9c9f" stroke="#6d6e71" stroke-width="2"/>
+<ellipse cx="410" cy="120" rx="330" ry="62" fill="#c9e7f7" stroke="#333333" stroke-width="2"/>
+<path d="M 90 235 Q 140 400 110 545 Q 410 620 720 520 Q 700 380 730 235 Q 410 300 90 235 Z" fill="#bfe1f4" stroke="#555555" stroke-width="6" stroke-linejoin="round"/>
+<path d="M 90 235 Q 410 300 730 235" fill="none" stroke="#a9d8f2" stroke-width="3" stroke-linejoin="round"/>
+<rect x="-30" y="90" width="90" height="22" rx="11" fill="#555555"/>
+<rect x="760" y="175" width="90" height="22" rx="11" fill="#555555"/>
+<polyline points="388.67,455.91 391.1,448.35 392.95,440.63 394.22,432.8 394.89,424.89 394.96,416.95 394.42,409.02 393.3,401.17 391.58,393.41 389.28,385.82 386.41,378.41 382.99,371.25 379.05,364.36 374.59,357.79 369.64,351.58 364.25,345.75 358.42,340.36 352.21,335.41 345.64,330.95 338.75,327.01 331.59,323.59 324.18,320.72 316.59,318.42 308.83,316.7 300.98,315.58 293.05,315.04 285.11,315.11 277.2,315.78 269.37,317.05" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="269.37" y1="317.05" x2="262.29" y2="319.03" stroke="#222222" stroke-width="2.5"/>
+<polygon points="254.09,321.33 262.23,315.09 264.28,322.43" fill="#222222"/>
+<polyline points="191.33,384.09 188.9,391.65 187.05,399.37 185.78,407.2 185.11,415.11 185.04,423.05 185.58,430.98 186.7,438.83 188.42,446.59 190.72,454.18 193.59,461.59 197.01,468.75 200.95,475.64 205.41,482.21 210.36,488.42 215.75,494.25 221.58,499.64 227.79,504.59 234.36,509.05 241.25,512.99 248.41,516.41 255.82,519.28 263.41,521.58 271.17,523.3 279.02,524.42 286.95,524.96 294.89,524.89 302.8,524.22 310.63,522.95" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="310.63" y1="522.95" x2="317.71" y2="520.97" stroke="#222222" stroke-width="2.5"/>
+<polygon points="325.91,518.67 317.77,524.91 315.72,517.57" fill="#222222"/>
+<polyline points="441.33,455.91 438.9,448.35 437.05,440.63 435.78,432.8 435.11,424.89 435.04,416.95 435.58,409.02 436.7,401.17 438.42,393.41 440.72,385.82 443.59,378.41 447.01,371.25 450.95,364.36 455.41,357.79 460.36,351.58 465.75,345.75 471.58,340.36 477.79,335.41 484.36,330.95 491.25,327.01 498.41,323.59 505.82,320.72 513.41,318.42 521.17,316.7 529.02,315.58 536.95,315.04 544.89,315.11 552.8,315.78 560.63,317.05" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="560.63" y1="317.05" x2="567.71" y2="319.03" stroke="#222222" stroke-width="2.5"/>
+<polygon points="575.91,321.33 565.72,322.43 567.77,315.09" fill="#222222"/>
+<polyline points="638.67,384.09 641.1,391.65 642.95,399.37 644.22,407.2 644.89,415.11 644.96,423.05 644.42,430.98 643.3,438.83 641.58,446.59 639.28,454.18 636.41,461.59 632.99,468.75 629.05,475.64 624.59,482.21 619.64,488.42 614.25,494.25 608.42,499.64 602.21,504.59 595.64,509.05 588.75,512.99 581.59,516.41 574.18,519.28 566.59,521.58 558.83,523.3 550.98,524.42 543.05,524.96 535.11,524.89 527.2,524.22 519.37,522.95" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="519.37" y1="522.95" x2="512.29" y2="520.97" stroke="#222222" stroke-width="2.5"/>
+<polygon points="504.09,518.67 514.28,517.57 512.23,524.91" fill="#222222"/>
+<circle cx="240" cy="300" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<circle cx="180" cy="360" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<circle cx="400" cy="345" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<circle cx="290" cy="430" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<circle cx="240" cy="490" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<circle cx="470" cy="465" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<circle cx="560" cy="455" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="560" viewBox="0 0 880 560" role="img" aria-labelledby="title desc">
+<title id="title">Temperature versus heat added to water</title>
+<desc id="desc">Temperature versus energy added per gram, ΔQ/m, starting with ice at −20 °C. The ice warms to 0 °C after 10 cal/g. The temperature stays at 0 °C while the ice melts, absorbing 79.8 cal/g, to about 90 cal/g. The liquid water then warms to 100 °C, reached at about 190 cal/g. The temperature stays at 100 °C while the water boils, absorbing 539 cal/g, to about 729 cal/g. The steam then warms to 120 °C at about 738 cal/g.</desc>
+<rect width="880" height="560" fill="#ffffff"/>
+<line x1="90" y1="470" x2="835" y2="470" stroke="#333333" stroke-width="1.5"/>
+<polygon points="844,470 834,474 834,466" fill="#333333"/>
+<line x1="90" y1="470" x2="90" y2="25" stroke="#333333" stroke-width="1.5"/>
+<polygon points="90,16 94,26 86,26" fill="#333333"/>
+<line x1="90" y1="470" x2="90" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="90" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="182.5" y1="470" x2="182.5" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="182.5" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<line x1="275" y1="470" x2="275" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="275" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">200</tspan></text>
+<line x1="367.5" y1="470" x2="367.5" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="367.5" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">300</tspan></text>
+<line x1="460" y1="470" x2="460" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="460" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">400</tspan></text>
+<line x1="552.5" y1="470" x2="552.5" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="552.5" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">500</tspan></text>
+<line x1="645" y1="470" x2="645" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="645" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">600</tspan></text>
+<line x1="737.5" y1="470" x2="737.5" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="737.5" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">700</tspan></text>
+<line x1="830" y1="470" x2="830" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="830" y="492.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">800</tspan></text>
+<line x1="85" y1="470" x2="90" y2="470" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="475.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−20</tspan></text>
+<line x1="85" y1="411.33" x2="90" y2="411.33" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="417.28" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="85" y1="352.67" x2="90" y2="352.67" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="358.62" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20</tspan></text>
+<line x1="85" y1="294" x2="90" y2="294" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="299.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">40</tspan></text>
+<line x1="85" y1="235.33" x2="90" y2="235.33" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="241.28" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60</tspan></text>
+<line x1="85" y1="176.67" x2="90" y2="176.67" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="182.62" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">80</tspan></text>
+<line x1="85" y1="118" x2="90" y2="118" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="123.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<line x1="85" y1="59.33" x2="90" y2="59.33" stroke="#333333" stroke-width="1.2"/>
+<text x="81" y="65.28" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">120</tspan></text>
+<text x="460" y="522.65" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">Q</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">m</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">cal</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">g</tspan><tspan font-style="normal">)</tspan></text>
+<text x="28" y="256.65" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 28 250)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal"> (°</tspan><tspan font-style="normal">C</tspan><tspan font-style="normal">)</tspan></text>
+<polyline points="90,470 99.25,411.33 173.06,411.33 265.57,118 764.14,118 773.06,59.33" fill="none" stroke="#c8102e" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="99.25" cy="411.33" r="6" fill="#222222"/>
+<circle cx="173.06" cy="411.33" r="6" fill="#222222"/>
+<circle cx="265.57" cy="118" r="6" fill="#222222"/>
+<circle cx="764.14" cy="118" r="6" fill="#222222"/>
+<text x="115.9" y="453.53" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ice</tspan></text>
+<text x="136.25" y="353.8" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ice</tspan></text>
+<text x="136.25" y="377.8" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="136.25" y="401.8" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Water</tspan></text>
+<text x="240.75" y="271.67" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Water</tspan></text>
+<text x="515.5" y="145.53" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Water</tspan><tspan font-style="normal"> + </tspan><tspan font-style="normal">Steam</tspan></text>
+<text x="765.06" y="60.47" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Steam</tspan></text>
+</svg>
