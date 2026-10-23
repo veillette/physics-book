@@ -74,6 +74,9 @@ The parallel generator covers sections, chapter introductions, and combined
 chapters in three phases. The complete book is a separate command. Combined
 chapter concurrency is half `MAX_CONCURRENCY`, rounded down, with a minimum of two.
 Navigation and PDF download controls are hidden in generated documents.
+Combined chapters reuse each page's stylesheets (`theme.css`, `book.css`, and
+`print.css`) and layout wrappers through `scripts/lib/pdf-content.js`, so they
+print with the same styling as the section and intro PDFs.
 
 See [scripts/README.md](../../scripts/README.md#generate-pdfjs) for complete-book
 assembly and failure behavior.

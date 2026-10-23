@@ -312,7 +312,7 @@
     page-break-inside: avoid !important;
   }
 
-  /* Scale down math to match text better */
+  /* Scale math up slightly so it reads at the same weight as body text */
   :is(
     mjx-container,
     mjx-container[display='true'],
@@ -323,17 +323,17 @@
     .katex,
     .katex-display
   ) {
-    font-size: 0.95em !important;
+    font-size: 1.1em !important;
   }
 
-  /* Inline math should be even smaller */
+  /* Inline math matches the surrounding text size */
   :is(
     mjx-container[display='false'],
     .MathJax:not(.MathJax_Display),
     .katex:not(.katex-display),
     span.math
   ) {
-    font-size: 0.9em !important;
+    font-size: 1em !important;
     vertical-align: baseline !important;
   }
 
