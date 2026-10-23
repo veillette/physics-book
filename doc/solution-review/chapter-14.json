@@ -1,6 +1,6 @@
 {
   "chapter": 14,
-  "checked_at": "2026-10-23T18:50:07+00:00",
+  "checked_at": "2026-10-23T19:53:59+00:00",
   "summary": {
     "total": 1882,
     "checked": 324,
@@ -52,9 +52,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md#Example1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Steady conduction through the walls supplies energy that melts ice at constant temperature. Combining P=kAΔT/d with Q=Pt=mLf gives m=kAΔTt/(dLf), matching the solution. Additional warm contents would require additional cooling energy, as the discussion states.",
+        "calculation_check": "Using the chapter's tabulated conductivity, P=0.010×0.950×35.0/0.0250=13.3 W; Q=13.3×86400=1,149,120 J; m=1,149,120/334000=3.44048 kg. This is about 7.59 lb.",
+        "assumptions": "Constant conductivity; approximately uniform wall thickness; wall surfaces effectively at 0 and 35 °C; enough ice remains to maintain 0 °C; negligible leakage, thermal bridges, and initial wall heating. Conductivity units are interpreted as W/(m·K).",
+        "notes": "The conduction and latent-heat calculation is correct under the stated idealization and chapter constants.",
+        "source_sha256": "3431d11102ab2860c11e2f615a530b39d93f8b5d6fd2be4abc85de500e8e990f",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md#Example2",
@@ -88,9 +101,22 @@
           "error_pct": 98.08710262863981
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md#Example2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The evaporation rate fixes the required power as P=ṁLv, and conduction through the aluminum gives ΔT=Pd/(kA). The numerical solution correctly finds the temperature difference between the bottom's outer and inner faces. The discussion incorrectly identifies this as the difference between the stove and the pan. Burner-to-pan contact resistance, gaps, and radiation can support a much larger temperature difference. A red-hot burner does not imply that the aluminum's outer face is red-hot. The broad claim that conduction is ineffective over macroscopic distances and short times also needs qualification by material diffusivity and length scale.",
+        "calculation_check": "A=π(0.0700)^2=0.0153938 m²; P=0.00100×2256000=2256 W; ΔT=2256×0.00800/(220×0.0153938)=5.329 °C. With the inner face near 100 °C, the ideal model places the outer aluminum face near 105.3 °C, not at the red-hot burner's temperature.",
+        "assumptions": "Steady, approximately uniform conduction through the full circular bottom; vaporization near atmospheric boiling conditions; negligible other heat losses and energy storage.",
+        "notes": "The 5.33 °C result is correct across the aluminum bottom. The discussion misidentifies its endpoints and overgeneralizes conduction's limitations.",
+        "source_sha256": "aeaf6188058caf43188bdbaf53326fcd9880e9539fd5718e030d6a4972c3fe75",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::check-understanding:1",
@@ -114,9 +140,22 @@
         "skipped": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::check-understanding:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For geometrically similar conductors, doubling every length multiplies conducting area by four and conduction distance by two. At unchanged conductivity and boundary temperatures, P=kAΔT/d therefore doubles.",
+        "calculation_check": "Pfinal/Pinitial=(Afinal/Ainitial)/(dfinal/dinitial)=4/2=2. More generally, uniform scaling by a factor λ gives Pfinal=λPinitial.",
+        "assumptions": "The material, imposed temperature difference, and steady conduction model remain unchanged. The result concerns total power, not heat flux per unit area or transient heating time.",
+        "notes": "The scaling argument and factor of two are correct.",
+        "source_sha256": "4cbf44f9b09d358fb4a10819e6cdea01addb241eaa88afbd5a684e4fa16dbd11",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::conceptual-questions:1",
@@ -134,9 +173,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Thermal resistance grows with path length and decreases with conducting area. A thin ceramic sheet can transmit heat upward over the element while its relatively low conductivity limits lateral spreading. The solution appropriately corrects the question's unconditional touch-safety premise and allows radiation to contribute.",
+        "calculation_check": "For each approximate conduction path, R=L/(kA). A short vertical path can have substantially lower resistance than a longer lateral path with a small conducting cross section. Conductivity alone cannot establish a safe temperature at a specified distance.",
+        "assumptions": "A thin, heat-resistant cooktop with localized heating; actual temperatures also depend on heating duration, cookware, radiation, and environmental cooling.",
+        "notes": "The explanation correctly combines geometry and conductivity and explicitly rejects guaranteed touch safety.",
+        "source_sha256": "21280682f08b78125535f131e492ce2b040791d68d06c305261b3033a98b41fc",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::conceptual-questions:2",
@@ -154,9 +206,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Light-colored fabric of comparable construction generally absorbs less sunlight, while coverage shades the skin. The clothing and enclosed air impede heat exchange, helping against external heat during the day and body heat loss during cold evenings. Ventilation can assist evaporation by day but increase cooling at night. The discussion correctly distinguishes visible reflectance from thermal-infrared emissivity.",
+        "calculation_check": "Absorbed solar power scales as αsolarIA, so lower solar absorptivity reduces heating. Conductive exchange scales as ΔT/R, so added thermal resistance reduces its magnitude whether the environment is hotter or colder than the skin.",
+        "assumptions": "Comparable fabric construction; useful solar reflectance; an insulating air layer; nighttime conditions colder than the body; ventilation adjusted to conditions. Evaporative effectiveness depends on humidity and airflow.",
+        "notes": "The solution explains both daytime and nighttime benefits without incorrectly equating whiteness with low infrared emissivity.",
+        "source_sha256": "2b65a9452c2d3ea6b9780dbea7244a210b08daef98df02bb434baae52b46e3cc",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:1",
@@ -180,9 +245,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The specified effective wall conductivity is twice the table's glass-wool value. Applying steady slab conduction gives the outward heat loss. Dividing by a heater's power gives approximately one heater at the precision intended by this estimate.",
+        "calculation_check": "k=2×0.042=0.084 W/(m·K); ΔT=18.0−5.00=13.0 K; P=0.084×120×13.0/0.130=1008 W≈1.01×10³ W. P/(1000 W)=1.008, approximately one heater.",
+        "assumptions": "Uniform effective wall properties and specified surface temperatures; only wall conduction is being balanced. Other building heat losses are excluded. The heater count is approximate.",
+        "notes": "Both answers are appropriate. The approximately 1% difference from one heater's nominal output is not a substantive discrepancy.",
+        "source_sha256": "c647663dd903ed961f6a21e85e8ecd23daafb6829335df7491cb5f559d499049",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:2",
@@ -203,9 +281,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "The worked calculation correctly uses the positive temperature-drop magnitude to obtain outward conduction through the glass. Cooling of the inner surface can reduce that gradient when its temperature is not maintained. Added air gaps and surface thermal resistance can reduce heat loss. Condensation requires the surface to fall below the dew point, and frost requires suitable moisture and freezing conditions; rapid heat loss alone does not establish either.",
+        "calculation_check": "P=0.84×3.00×[5.00−(−10.0)]/0.00635=5952.76 W, agreeing with 5.95 kW. At the stated initial inner-surface temperature of +5 °C, frost is not yet implied.",
+        "assumptions": "Uniform single-pane glass, prescribed instantaneous surface temperatures, and negligible edge effects. Sustained building heat loss also depends on room-side and outdoor heat transfer. Humidity is unspecified.",
+        "notes": "The requested 5.95 kW conduction result is correct. Frost onset is conditional; the discussion's claim of at least 50% storm-window savings was not independently verified and cannot be quantified from these givens.",
+        "source_sha256": "14b7fb0a326022d54c7c3574f990384b018cc91e511e7617fa7d2d025852b38d",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:3",
@@ -226,9 +317,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Treating the tissue as a uniform conducting layer gives an outward core-to-skin power of kA(Tcore−Tskin)/d. The solution uses the chapter's explicitly unperfused fatty-tissue conductivity and acknowledges that blood circulation changes actual heat transport. Its equilibrium interpretation applies to this simplified model; the numerical proximity to resting metabolic power is a consistency comparison rather than independent validation.",
+        "calculation_check": "P=0.200×1.40×(37.0−34.0)/0.0100=84.0 W. The units reduce from [W/(m·K)]m²K/m to watts.",
+        "assumptions": "Steady, approximately planar conduction; constant effective conductivity and temperatures; no blood-mediated heat transport. Physiological changes in perfusion can invalidate predictions based on the temperature gradient alone.",
+        "notes": "The 84.0 W result is correct for the expressly simplified tissue model. The solution appropriately acknowledges the major limitation from blood flow.",
+        "source_sha256": "8229a9e125e672933da54ecfdba006d048cf8c27777dd59272400ee9fc7988bf",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:4",
@@ -249,9 +353,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Each foot must supply the steady conduction loss through its respective layer to maintain the specified top temperature. Since geometry and temperature difference are identical, the power ratio equals the conductivity ratio. The qualitative contrast in cooling sensation is consistent with these results, although the exact ratio describes this steady model rather than every transient contact.",
+        "calculation_check": "A=80.0×10⁻⁴=0.00800 m² and ΔT=23.0 K. Pceramic=0.84×0.00800×23.0/0.0200=7.728 W; Pwool=0.040×0.00800×23.0/0.0200=0.368 W; their ratio is 21.0.",
+        "assumptions": "Steady one-dimensional conduction over the contact area; maintained top and bottom temperatures; negligible contact resistance and lateral spreading; the requested glass surrogate for ceramic. Local circulation determines whether a real foot can maintain the assumed temperature.",
+        "notes": "Both powers and their ratio are correct. Whole-body metabolic power alone does not guarantee local foot temperature, a limitation the discussion recognizes.",
+        "source_sha256": "2b86f9a18b3dfa53080f6178a3bf155e8608a55cbdea2e6e77791c948f7c3b79",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:5",
@@ -272,9 +389,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The requested calculation correctly assigns half the food energy to evaporation and uses the chapter's body-temperature latent heat. The discussion, however, confuses percentage loss of total body water with percentage loss of body mass when describing dehydration. It also presents several physiological water-loss ranges without supporting evidence in the supplied material.",
+        "calculation_check": "Q=3000/2=1500 kcal; m=1500/580=2.58621 kg, agreeing with 2.59 kg. A loss of 1.5–2 kg is 2.14–2.86% of a 70-kg person's total body mass. Its percentage of body water requires the person's water mass and is larger because that mass is less than 70 kg.",
+        "assumptions": "The stipulated half-energy fraction is accepted; evaporated water receives the relevant latent heat from the body; Lv≈580 kcal/kg. The volume conversion uses liquid-water density near 1 kg/L.",
+        "notes": "The evaporation answer is correct. The dehydration discussion uses the wrong percentage denominator; the detailed physiological loss ranges were not independently verified.",
+        "source_sha256": "6880b8ffec8333b4cd89f469d0128dc7d450d6805b4542d66108266a9e2f4558",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:6",
@@ -299,9 +429,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The arithmetic follows the intended steady slab formula and the subsequent lumped heat-capacity model. However, applying an established linear temperature gradient across a 3-mm callus for only one second is not justified for an initially body-temperature foot. The supplied properties imply a much longer thermal diffusion time. Heat entering the outer callus and heat reaching its inner face are different during this transient. The caution about local hot spots is useful but does not resolve the model's time-scale problem.",
+        "calculation_check": "The stated formulas give Q=0.08×0.00250×663/0.00300×1.00=44.2 J; m=300×25.0×10⁻⁶=0.00750 kg; ΔT=44.2/(0.00750×3500)=1.684 K. But α=k/(ρc)=7.62×10⁻⁸ m²/s, d²/α≈118 s, and √(αt)≈0.276 mm at one second, much smaller than the 3-mm callus.",
+        "assumptions": "The time-scale check uses the solution's effective conductivity, density, and specific heat, with an initially uniform 37 °C foot. The computed average warming additionally assigns those properties to the entire affected volume.",
+        "notes": "All numerical substitutions are correct, but the steady conduction model is inappropriate for the stated brief contact without an additional justification. The 44.2 J and 1.68 °C are conditional model results, not established transient predictions.",
+        "source_sha256": "34b36909dd8bbbb874d1bab3f39e63013520cfa0be5aabdf4c0ccb2b18dc8353",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:7",
@@ -322,9 +465,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:7",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Both requested results follow correctly from the stipulated air-like fur conductivity and daily energy replacement. The discussion goes beyond the givens when asserting that bare skin would necessarily lose over 1000 W in −5 °C air. Bare-skin heat loss requires convection, radiation, and possibly evaporation boundary conditions; air temperature alone is insufficient. The stated daily energy budgets for a generic large mammal or herbivore likewise cannot be inferred without its mass and physiology.",
+        "calculation_check": "P=0.023×1.40×37.0/0.0300=39.7133 W; daily energy=3.431232 MJ=819.69 kcal using 4186 J/kcal. R=d/k=1.30435 m²·K/W. For illustration, bare skin at 32 °C with emissivity 1 and surroundings at −5 °C radiates about 278 W; choosing h=5 W/(m²·K) adds 259 W of convection, totaling about 537 W before evaporation, demonstrating that over 1000 W is not forced.",
+        "assumptions": "Steady conduction with the fur's outer boundary approximated by ambient temperature; fixed skin temperature; negligible other losses in the requested calculation; food energy fully available to replace this particular loss. The bare-skin example is illustrative, not a prediction of unspecified conditions.",
+        "notes": "The answers, 39.7 W and about 820 kcal/day, are correct. The bare-skin heat-loss claim lacks necessary boundary conditions; the animal energy-budget and species-specific fur claims were not independently verified.",
+        "source_sha256": "a12278604abd2bb34ada613a763ceabfe24649d4550534d896bfedee35676c98",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:22:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:8",
@@ -345,9 +501,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:8",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Steady conduction through an equivalent uniform layer gives P=kA(Tcore−Twater)/d, so solving for thickness is correct. However, the discussion identifies the specified conductive loss as basal metabolic heat production without establishing whole-body energy balance. Other heat losses, heat storage, activity, and metabolism are unspecified; a particular conductive loss does not determine basal metabolic power.",
+        "calculation_check": "The chapter table gives k=0.2 W/(m K). Thus ΔT=38.0 K and d=0.2×2.00×38.0/150=0.10133 m=10.13 cm, agreeing with the answer. Conductivity must have units W/(m K), rather than the literal multiplied units printed in the solution.",
+        "assumptions": "Uniform effective thickness and conductivity, steady approximately planar conduction, negligible blood-mediated transport and other thermal resistances, and the entire core-to-water temperature difference across the blubber.",
+        "notes": "Thickness calculation is correct. The claim that 150 W represents basal metabolism is unsupported. Claimed species thickness ranges and the human heat-loss comparison were not independently established from the supplied or inspected local evidence.",
+        "source_sha256": "168bc0c0474865b41f95ca4d3c7cded02b82e9626e7098b704e444d79900404d",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:9",
@@ -368,9 +537,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For the same imposed temperature difference, conductive powers are proportional to kA/d. Taking the window as ordinary glass, its conductivity advantage and smaller thickness outweigh its smaller area. The solution correctly compares total powers rather than heat fluxes.",
+        "calculation_check": "Wall conductance is 0.084×10.0/0.130=6.4615 W/K; window conductance is 0.84×2.00/0.00750=224 W/K. Their ratio is 34.6667. At ΔT=20 K, the respective powers are 129.23 W and 4480 W. The window's k/d is 173.33 times larger, consistent with the discussion's rough estimate.",
+        "assumptions": "Steady one-dimensional conduction, homogeneous materials, ordinary glass, and identical temperature differences between material surfaces. Conductivities are interpreted in W/(m K).",
+        "notes": "Comparison and arithmetic are correct. The large illustrative window power requires the stated surface temperature difference; actual building losses also depend on surface convection and radiation. Claims that particular window technologies are essential are broader than this calculation establishes.",
+        "source_sha256": "652dc43e025bfa26740204b0dc74355ac821ca0a89b838eb7da20a3185fb6123",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:10",
@@ -391,9 +573,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Rearranging P=kAΔT/d gives ΔT=Pd/(kA), which answers the requested temperature difference. The discussion correctly identifies the outer clothing surface, rather than ambient air, as the endpoint of this calculated drop. Trapping air explains low effective conductivity, and additional thickness increases conduction resistance.",
+        "calculation_check": "Using the table's wool conductivity, ΔT=50.0×0.0200/(0.04×1.40)=17.857 K. If the inner surface is 33°C, the outer surface is 15.14°C, consistent with approximately 15°C. Units reduce to kelvins when k is expressed in W/(m K).",
+        "assumptions": "Dry wool represented by a uniform effective layer, steady outward conduction, negligible thermal bridges and airflow through the clothing, and inner clothing temperature approximately equal to skin temperature for the discussion's example.",
+        "notes": "The 17.9°C difference and accompanying surface-temperature example are correct. The calculation describes conduction through clothing; total body heat balance and performance when wet or windy require additional information.",
+        "source_sha256": "8e71acbeefe4eee8a4566ecd546be47a933e0c6afbc973fbf44510ed2245af6b",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:11",
@@ -414,9 +609,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:11",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The referenced Example 2 supplies P=2256 W and A≈0.0154 m². Applying the specified ceramic conductivity gives the stated large steady temperature difference. The discussion then infers transient heating and cooling behavior and explains lingering burn risk from that gradient. A steady conduction calculation supplies neither heat capacity nor cooling dynamics; the temperature difference alone cannot establish those claims.",
+        "calculation_check": "ΔT=2256×0.00600/(0.84×0.0154)=1046.38 K. Relative to the aluminum example, the required difference increases by (0.006/0.008)×(220/0.84)=196.43. Celsius and kelvin intervals are equal. A ceramic upper surface at 100°C would imply a lower surface near 1146°C under the assumed conduction-only model.",
+        "assumptions": "Constant specified conductivity even across the large temperature interval, steady one-dimensional conduction over the referenced area, and negligible additional resistance. Associating ceramic surface temperatures with water and heating-element temperatures additionally requires ideal thermal contact.",
+        "notes": "The requested approximately 1.05×10³ K result is correct. Claims about heat-up time, retained heat, and post-use burns require transient properties and boundary conditions absent from the calculation. Stated real burner temperature ranges were not independently verified.",
+        "source_sha256": "3b731710deaef942017f8049e7c3c290e143b73d8a4b67a7f66cccece97ef0bb",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md#Exercise12",
@@ -437,9 +645,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md#Exercise12",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The roof, floor, and combined walls each have area 150 m². With equal initial insulation and equal temperature differences, each contributes one-third of initial heat loss. Increasing only attic thickness multiplies its contribution by 15/23, so the total fractional saving is (1−15/23)/3. This agrees with the solution.",
+        "calculation_check": "Initial Σ(A/d)=3000 m. Final Σ(A/d)=150/0.23+300/0.15=2652.174 m. Reduction is (3000−2652.174)/3000=0.115942, or 11.59%. The attic's individual reduction is 34.78%.",
+        "assumptions": "All six faces, including the floor, are insulated and experience the same indoor-to-exterior temperature difference. Insulation dominates thermal resistance; indoor temperature, heating efficiency, and energy price remain fixed. Specified excluded losses are ignored.",
+        "notes": "The approximately 12% saving is correct under the uniform six-surface model. Ground-coupled floors can have different boundary temperatures. The discussion's rising-air explanation is additional qualitative context, not part of the equal-temperature conduction calculation.",
+        "source_sha256": "3e09f57bfbb8af2c9319fbbd5ebee55bed7583660faad61cbdcd97f017fef834",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:13",
@@ -460,9 +681,22 @@
         "checked": 13
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:13",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "In steady state the glass-air-glass resistances add, and equal panes have equal temperature drops. The solution correctly finds both powers and their ratio. However, its annual household savings claim extrapolates fixed window-surface temperature differences into real heating costs without accounting for surface-to-air resistances, varying weather, or radiative transfer across the gap. It is valid only as an additional idealized constant-boundary example.",
+        "calculation_check": "Rdouble=[2×0.00800/0.84+0.0100/0.023]/1.50=0.302553 K/W, giving Pdouble=82.630 W. Each pane drops 0.524635 K and the air drops 23.9507 K. Psingle=0.84×1.50×25/0.0160=1968.75 W; the ratio is 23.8261. Using unrounded powers for 4320 hours gives 8148 kWh and about $978; the quoted $994 follows its deliberately rounded 2000 W estimate and is not a substantive arithmetic error.",
+        "assumptions": "Steady one-dimensional conduction only, constant conductivities, no edge losses, no gap convection or radiation, and imposed temperatures at the outermost glass surfaces. Real annual savings require additional environmental and system data.",
+        "notes": "Both requested parts are correctly solved. The approximately $994 annual saving per window is presented too generally: the calculation supports only an idealized constant-surface-temperature extrapolation, not a real household savings prediction.",
+        "source_sha256": "8340ccc016082d20406a277a6ce319d3d4b2f869497073681d4bcf1a16dc1d83",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:14",
@@ -487,9 +721,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:14",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The financial benefit depends only on the reduction in attic conduction, so subtracting its before-and-after powers is sufficient. Dividing the installation cost by the resulting energy-cost saving per heating day correctly gives simple payback. The solution appropriately specifies a start at the beginning of the heating season.",
+        "calculation_check": "Installation costs 150×$4=$600. Saved power is 0.042×150×15×(1/0.15−1/0.23)=219.130 W. Over 120 days this saves 2.27194×10⁹ J, worth $2271.94. Payback is 600/2271.94=0.264091 heating seasons, or 31.6909 heating days.",
+        "assumptions": "The added insulation costs $4/m² in total; saved conductive energy is valued directly at $1 per million joules. Constant average thermal conditions and heating efficiency, no financing or maintenance costs, and no interruption of heating during the stated payback interval.",
+        "notes": "The approximately 32-heating-day payback is correct. The distinction between heating days and elapsed calendar time is handled explicitly.",
+        "source_sha256": "8828aa2b3c8026fa8eb198eb705ad03163a4b9d642b13ffed926bf3a481fb29f",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Conduction.md::problems-exercises:15",
@@ -510,9 +757,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Conduction.md::problems-exercises:15",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Using the table's conductivity for fatty tissue without blood yields the stated conduction rate and comparison with food-energy input. The discussion incorrectly treats this internal tissue-conduction rate as a competing fraction of external radiation, convection, and evaporation. Heat conducted to skin can subsequently leave by any of those surface mechanisms; these are different stages of transport. The strategy also calls tissue similar to water, although the table gives water a conductivity three times the value used.",
+        "calculation_check": "For k=0.20 W/(m K), P=0.20×1.50×2.00/0.0300=20.0 W. Food-energy power is 2400×4186/86400=116.278 W, so the ratio is 17.2002%. Using the table's water conductivity, 0.6 W/(m K), would instead give 60 W, demonstrating the significance of the material assumption.",
+        "assumptions": "The modeled tissue is nonperfused fatty tissue with uniform effective thickness and conductivity. Food energy is averaged over a day; interpreting it as steady metabolic heat further requires negligible energy storage and external work.",
+        "notes": "The 20 W and 17.2% arithmetic is correct for nonperfused fat. The discussion conflates internal heat transport with external heat-loss pathways, and its water analogy contradicts the conductivity used. Listed physiological percentages were not independently established.",
+        "source_sha256": "352a268e99911c9342c0cdad48359e1021fb478cbf00ed48323b801bc372ea3e",
+        "file_sha256": "dd1c41fb8d55222d3788302531972f85249b05e029f036955339cb43f5a075b1",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::worked-example:1",
@@ -546,9 +806,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Convection.md::worked-example:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For ventilation at approximately atmospheric pressure, incoming air requires an enthalpy increase cpΔT, giving P=ρVcpΔT/t. Thus using cp rather than cv is correct, and the stated heating power follows. The discussion's blanket assertion that turnover times longer than six hours are unhealthy does not follow from this energy balance: required fresh-air flow depends on occupancy, pollutant sources, house volume, and any controlled ventilation.",
+        "calculation_check": "V=12.0×18.0×3.00=648 m³; m=1.29×648=835.92 kg. P=835.92×1000×10.0/1800=4644 W, equivalent to 46.44 nominal 100 W bulbs. The local heat-capacity table supports cp≈1000 J/(kg K).",
+        "assumptions": "The stated turnover represents exchanged air volume at the chosen representative density, with balanced mass flow, constant pressure, no heat recovery, and negligible humidity-related latent heating.",
+        "notes": "The 4.64 kW calculation and use of cp are correct. The universal six-hour health cutoff lacks the needed occupancy and ventilation information; quoted typical building turnover times were not independently verified.",
+        "source_sha256": "0af6d2419c73f2a5e6acdb8e3a0b8716982fc817561af434e33420d879ef3e4e",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::worked-example:2",
@@ -569,9 +842,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Convection.md::worked-example:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The energy balance P=ṁLv is correct if evaporation removes all metabolic heat. However, the solution selects the latent heat at 100°C for evaporation from skin. The referenced phase-change table's footnote explicitly gives approximately 2430 kJ/kg at 37°C, and the surrounding phase-change text likewise distinguishes body-temperature evaporation from boiling.",
+        "calculation_check": "Using the solution's boiling-point value gives 120/2256=0.05319 g/s=3.19149 g/min, so its arithmetic is correct for that value. Using the locally documented body-temperature value gives 120/2430=0.04938 g/s=2.96296 g/min, or 177.78 g/hour. This is a temperature-dependent property-selection issue, not ordinary rounding.",
+        "assumptions": "Steady body temperature, all 120 W supplied to evaporation, effective skin-temperature latent heat, and sufficient evaporation capacity. Eliminating other heat-transfer mechanisms requires surrounding radiative surfaces as well as air to be at skin temperature.",
+        "notes": "Correct energy relation, but the wrong-temperature latent heat produces 3.19 rather than approximately 2.96 g/min. The discussion's rough 180 g/hour estimate happens to agree with the body-temperature calculation.",
+        "source_sha256": "ff74f01d496b94840b94db81774e103f51ab1e8e0da67ddc09871a0a6219cf27",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::check-understanding:1",
@@ -593,9 +879,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::check-understanding:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A fan disrupts the warm boundary layer near skin and increases forced convection. When room air is cooler than skin, this increases outward heat transfer and explains the refreshing sensation. The solution gives a valid mechanism, although enhanced sweat evaporation is another important contribution in summer.",
+        "calculation_check": "The conceptual relation Pconv=hA(Tskin−Tair) predicts greater cooling when airflow raises h and Tskin>Tair. At equal temperatures sensible convective cooling vanishes; when air is hotter than skin, convection instead adds heat, though evaporation may still cool the person.",
+        "assumptions": "The stated sensible-cooling explanation assumes ambient air cooler than skin. Evaporative benefit additionally requires moisture and an air humidity below saturation at the skin.",
+        "notes": "The forced-convection explanation is correct for ordinary cooler-than-skin indoor air. It omits enhanced evaporation and should not be interpreted as an unconditional cooling effect at every ambient temperature.",
+        "source_sha256": "234f9ace6fe638e0d1f6828dc6c6242919a949aef229ef1cc069a45f70a6b53c",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::conceptual-questions:1",
@@ -613,9 +912,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "An external combustion-air supply reduces the removal of heated indoor air and the consequent infiltration heating load. A separate room-air circulation path acquires heat at the firebox exterior and returns it to the room. The solution correctly identifies conduction through the firebox wall, convection on the gas and room-air sides, and radiation from the hot exterior while keeping the air streams separate.",
+        "calculation_check": "The avoided ventilation load scales as ṁcp(Troom−Tout). Heat recovered through a firebox follows successive gas-side transfer, wall conduction, and room-side transfer, with exterior radiation acting in parallel. These energy paths support both stated efficiency improvements without implying additional energy production.",
+        "assumptions": "Outdoor combustion air is delivered directly to a suitably isolated firebox, and the circulating room air remains separate from combustion products. Actual efficiency gains depend on installation, draft, and heat-exchanger performance.",
+        "notes": "Both requested modifications and their heat-transfer mechanisms are correctly explained. Hot combustion gases can also radiate to the firebox, an additional compatible transfer mechanism.",
+        "source_sha256": "614d0e3261b2b0249381a9011284dc9f84ad24d2bab038c54b410506eb07b52a",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:26:03+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::conceptual-questions:2",
@@ -633,9 +945,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Tree cover replaces part of the horse’s view of the radiatively cold clear sky with branches and leaves near the local air temperature. This increases absorbed infrared radiation and reduces net radiative cooling. The solution correctly explains why the tree need not be warmer than the horse. Reduced wind exposure is a possible additional benefit.",
+        "calculation_check": "For a fixed horse temperature, replacing sky temperature T_s with tree temperature T_t over view fraction f changes outward radiative power by approximately -epsilon*sigma*A*f*(T_t^4-T_s^4). This is negative when T_t>T_s, confirming reduced heat loss.",
+        "assumptions": "Branches and leaves intercept a significant sky view and have a higher effective infrared temperature than the clear sky. Wind protection depends on canopy geometry.",
+        "notes": "Correct radiative explanation, with appropriately qualified additional wind protection.",
+        "source_sha256": "9c054e8e0833a2456d49405db07ba6cbe333592565a28310fc44451469b5e7c6",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:1",
@@ -655,9 +980,22 @@
         "skipped": 15
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "ambiguous",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:1",
+        "verdict": "ambiguous",
+        "confidence": "low",
+        "reasoning_check": "The requested table lookup and boundary-layer explanation are correct. The local Wind-Chill Factors table gives -29 °C at an actual temperature of -10 °C and wind speed 10 m/s. However, that table supplies neither frostbite times nor wind-scale classifications. The discussion’s specific 10–30 minute frostbite assertion and wind descriptions could not be established from the permitted evidence, so the full discussion remains incompletely verified.",
+        "calculation_check": "The -10 °C row contains -12, -21, -29, -34, and -36 °C at 2, 5, 10, 15, and 20 m/s, respectively. Also, 10 m/s equals 36 km/h and approximately 22.4 mph. The apparent-temperature difference is 19 °C.",
+        "assumptions": "Use the chapter’s supplied wind-chill table and its exposed-skin cooling interpretation. Apparent temperature is not the actual air temperature or a universal prediction of individual injury.",
+        "notes": "Answer 10 m/s verified. Specific frostbite timing and wind-scale descriptions remain unchecked; full-discussion verification is incomplete.",
+        "source_sha256": "26198626d8fb1ff338006862bad4ff001cec14706080e29ca46f0c16c308b871",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:2",
@@ -677,9 +1015,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "The local table directly gives -26 °C for -5 °C air at 15 m/s. Increased forced convection reduces the thermal boundary-layer resistance, increasing outward heat transfer when skin is warmer than the air. The discussion correctly identifies evaporation as another reason fans can cool people.",
+        "calculation_check": "The -5 °C table row gives -7, -15, -22, -26, and -29 °C at increasing listed speeds; the 15 m/s entry is therefore -26 °C. The apparent-temperature decrease is 21 °C.",
+        "assumptions": "The chapter’s wind-chill model applies to exposed skin. Similar frostbite timing is only a qualitative inference under comparable exposure conditions, not an independently verified physiological prediction. Convective fan cooling requires air cooler than skin; evaporation can provide additional cooling.",
+        "notes": "Table answer and convection mechanism are sound. Empirical frostbite equivalence was not independently established.",
+        "source_sha256": "67e1feaec1aef78bd29956add91e98947951b8dbddb2f21521305f35e0036920",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:3",
@@ -703,9 +1054,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Evaporation removes latent heat from the remaining coffee. Equating this energy to the coffee’s sensible-energy decrease gives T_f approximately T_i-m_evap*L_v/(M*c). Treating coffee as water and using the chapter’s near-boiling latent heat reproduces the answer. The small mass loss does not materially change the result.",
+        "calculation_check": "Using L_v=2.256×10^6 J/kg and c=4186 J/(kg·K), T_f=90.0-(0.00200*2.256×10^6)/(0.250*4186)=85.688 °C. Using 0.248 kg for the remaining thermal mass gives 85.654 °C; both round to 85.7 °C.",
+        "assumptions": "Coffee has water’s specific heat and approximately water’s latent heat. Neglect cup heat capacity, other heat transfers, and the small temperature dependence of material properties. Escaped vapor does not return condensation heat to the coffee.",
+        "notes": "85.7 °C is consistent with the intended evaporative-cooling approximation.",
+        "source_sha256": "eef837effb5effaa3fb39b71a0d1f034cc0ded4c17e26eb2039d2bd5e9b6ce61",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:4",
@@ -726,9 +1090,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Both requested answers follow correctly from equating body sensible-energy loss to evaporative heat removal. However, the discussion’s assertion that removing 500–1000 W without evaporation would require unrealistic convective and radiative losses needs environmental restrictions. Such dry heat losses can occur in sufficiently cool surroundings. Low humidity alone also does not establish that the calculated sweat mass evaporates almost immediately.",
+        "calculation_check": "Q=60.0*3500*0.750=157500 J and m=157500/(2.430×10^6)=0.0648 kg. As an illustrative counterexample to the unconditional discussion claim, a 1.8 m² surface at 35 °C in 5 °C surroundings with h=10 W/(m²·K) loses 540 W by convection and about 294 W by radiation at emissivity 0.95.",
+        "assumptions": "The body is approximated as a uniform thermal mass, evaporation draws its energy from the body, and metabolic heating and other exchanges are neglected in calculating the temperature decrease. Actual evaporation rate depends on airflow, area, temperature, and humidity.",
+        "notes": "64.8 g and the qualitative reasonableness answer are correct. Discussion overstates the necessity of evaporation without specifying warm surroundings.",
+        "source_sha256": "8e093111562dfc7df2f44797510149e588eca22cddea3ea2c4e0bb881774f132",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:5",
@@ -749,9 +1126,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The hourly result follows correctly from the stipulated solar–evaporation energy balance, and the solution substantially follows the linked problem-solving steps. Two discussion claims exceed the givens: the lake temperature is not specified as near 37 °C, and the daily losses extrapolate peak sunlight continuously through 24 hours. The latter is inappropriate as an ordinary solar-driven daily prediction.",
+        "calculation_check": "For 1 m², Q=1000*3600=3.60×10^6 J and m=Q/(2.43×10^6)=1.481 kg. The stated 100 m² pond loss of 3.55 tonnes/day is precisely 1.481*100*24 kg, requiring the same heat flux all day and night. The sensible-heating comparison is correct: 3.60×10^6/(4186*100)=8.60 kg.",
+        "assumptions": "The stated incoming heat flux is absorbed and entirely balanced by evaporation during the specified hour. The 37 °C latent heat is an approximate nonboiling-water value, not evidence of the actual lake temperature.",
+        "notes": "Hourly answer 1.48 kg/m² is correct. Daily extrapolations assume uninterrupted full sunlight; lake temperature is also asserted without support.",
+        "source_sha256": "1fa29d62fbd114db7d20f9d0910e000e39f57abad7db27eb11f3a19f0788ece0",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:6",
@@ -772,9 +1162,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The heating calculation correctly uses the enthalpy increase of a steady air stream, P=rho*volume_flow*c_p*Delta T. The discussion incorrectly judges whole-building ventilation using the volume of one illustrative classroom. Building volume and occupancy are unavailable, so neither its building air-change rate nor the claimed factor of 100 excess ventilation follows.",
+        "calculation_check": "P=1.29*(500/60)*1000*10=107500 W=107.5 kW, agreeing with 108 kW. For the illustrative 300 m³ classroom, the flow would correspond to 100 air changes/hour. Relative to the discussion’s own 4–6 changes/hour comparison, that is approximately 17–25 times, not 100 times.",
+        "assumptions": "Steady flow near atmospheric pressure, representative air density 1.29 kg/m³, constant c_p=1000 J/(kg·K), and negligible kinetic-energy, humidity, and other building heat loads. The electricity-cost calculation assumes resistance heating at the stated hypothetical price.",
+        "notes": "108 kW is correct. Discussion uses an unjustified classroom-to-building comparison and an incorrect ventilation ratio.",
+        "source_sha256": "a87ed6554ddfdc3215a7b1d38dce8c4074d49dd7e199d0baffb946bdeef3a74f",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:7",
@@ -798,9 +1201,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "Using the given lava volume rate and density gives the mass transported out of Earth per unit time. Multiplying by the granite specific heat and the 1170 °C cooling interval gives the intended rough sensible-heat transport estimate. The supplied answer is consistent with the coarse precision of the eruption rate.",
+        "calculation_check": "The local specific-heat table gives granite c=840 J/(kg·K). P=(5×10^5*2700/86400)*840*(1200-30)=1.536×10^10 W=1.536×10^4 MW, which rounds to 2×10^4 MW at one significant figure.",
+        "assumptions": "Use constant granite specific heat throughout as requested and interpret the answer as a rough sensible-heat estimate. Lava solidification would release additional latent heat, which is not specified or included. Steady representative eruption rate is assumed; the historical activity claim was not externally verified. The photograph supplies no needed geometry.",
+        "notes": "Correct rough sensible-heat estimate. A more complete total would require solidification and temperature-dependent property data.",
+        "source_sha256": "73c7e5018bbbca65d2f27f595ccfae6fa2488134596518dfcb03dd61c188df96",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:8",
@@ -821,9 +1237,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:8",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The calculation correctly measures blood’s advective heat transport from core to skin. The discussion subsequently treats this transport as one cooling contribution and skin evaporation, radiation, and convection as additional contributions. These are connected stages of the same heat-removal pathway: blood delivers heat that the skin subsequently releases. They cannot generally be added as independent losses from the whole body.",
+        "calculation_check": "Mass flow is 1050*0.00200/60=0.0350 kg/s. Thus P=0.0350*4186*2.00=293.02 W. At steady skin temperature, heat delivered to the skin by blood contributes to the same surface energy balance as evaporation, radiation, and external convection.",
+        "assumptions": "The specified blood flow cools uniformly by 2.00 °C, with water’s specific heat. Distinguish internal core-to-skin transport from heat crossing the body’s external boundary. The quoted physiological flow ranges and hyperthermia timing were not independently verified.",
+        "notes": "293 W is correct. Discussion misleadingly counts internal blood transport and downstream skin losses as separate cooling contributions.",
+        "source_sha256": "22872f0a73148f92b9220104866af04adb792b4c81f72f1a3d372c93f8477885",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:9",
@@ -848,9 +1277,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Evaporation removes m*L_v per breath, and multiplication by breathing frequency gives its power. Sensible warming of the open airflow requires c_p rather than c_v. These are distinct sensible and latent contributions, so their sum is appropriate. Approximately 42 W is a substantial fraction of a resting metabolic rate near 100 W, answering the requested comparison.",
+        "calculation_check": "Q_evap=(4.00×10^-5)(2.43×10^6)=97.2 J/breath. Frequency=18/60=0.300 s^-1, giving 29.16 W. Air warming gives 1.29*0.00200*1000*17.0*0.300=13.158 W. Total=42.318 W, or about 42% of 100 W.",
+        "assumptions": "Use the chapter’s approximate air density and constant-pressure specific heat. Each breath has the stated volume and net evaporated water mass, with no further recovery correction. Actual air density depends on temperature, pressure, and humidity; actual metabolic rate is not given.",
+        "notes": "All four parts are answered correctly under the stated approximate airflow model.",
+        "source_sha256": "0bfdb931a76c96e3f3754c63b1483ef07bff3ab9996af4932d35cc7129e97bff",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Convection.md::problems-exercises:10",
@@ -895,9 +1337,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Convection.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Steady conduction through the glass requires its heater-facing surface to be hotter than its inside surface by P*d/(k*A). The solution uses the correct circular area and temperature sign. With constant coffee temperature and all supplied power assigned to evaporation, mass loss is P/L_v. The discussion appropriately identifies the idealized heat-loss assumptions.",
+        "calculation_check": "A=pi*(0.0450)^2=0.0063617 m². With k=0.84 W/(m·K), Delta T=50.0*0.00300/(0.84*A)=28.07 K, giving 88.07 °C. Evaporation is 50.0*60/(2.34×10^6)=0.001282 kg/min=1.28 g/min. The hourly loss is approximately 76.9 g.",
+        "assumptions": "Uniform one-dimensional conduction through the full bottom area, negligible contact resistance, inside glass surface at 60.0 °C, and steady conditions. Part (b) excludes other heat losses as stipulated. The conductivity unit is interpreted as W/(m·K), consistent with the referenced table.",
+        "notes": "Both 88.1 °C and 1.28 g/min are correct under the conduction and evaporation assumptions.",
+        "source_sha256": "709e2c2a7a59d816620d1175889cae1f6171f701f47f19e36f45ec44260de436",
+        "file_sha256": "9f0edc6e95307e2e860df037219fd8742c797fc31236fa3d0584f331c3b227ee",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Heat.md::check-understanding:1",
@@ -919,9 +1374,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Heat.md::check-understanding:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The intended lesson is valid: heat and work are transfer mechanisms, and a final equilibrium state does not generally identify the transfer history. However, the explanation incorrectly states that sample properties depend only on internal energy. Thermodynamic state also depends on variables such as volume and amount of substance. Equal heat and work inputs do not by themselves establish identical final states or even identical internal-energy increases if other exchanges occur.",
+        "calculation_check": "For a closed stationary system, Delta U=Q+W_on. Each input gives Delta U=10 kJ only when other transfers are absent. Even at equal U and particle number, an ideal gas can have different volumes and therefore different pressures, p=NkT/V; its entropy also depends on volume.",
+        "assumptions": "Indistinguishable outcomes require suitable common initial conditions, constraints, and complete thermalization of work. For example, identical rigid insulated samples receiving heat or dissipative stirring work can reach the same final state. Those conditions are not stated.",
+        "notes": "Valid intended heat–work equivalence, but the claim that all properties depend only on internal energy is false and the conclusion needs explicit conditions.",
+        "source_sha256": "d3a2f8b9ffbe7ccb7f51622d1babd0307109363e8c536116c60b160e97e1728d",
+        "file_sha256": "f938a78d62e9baabd346a2157ed6d5eddc060517b028601ca11a95f678d459d0",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:33:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Heat.md::conceptual-questions:1",
@@ -939,9 +1407,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Heat.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A temperature difference drives spontaneous net heat transfer between thermally coupled regions, with energy flowing from higher to lower temperature. The solution correctly distinguishes temperature, heat transfer, and transfer rate. Its insulation and phase-transition examples are consistent with that distinction.",
+        "calculation_check": "For conduction, Q/t = kAΔT/L illustrates the stated dependence on temperature difference, geometry, and material properties. During equilibrium melting, Q = mLf can be nonzero while the material's temperature remains constant.",
+        "assumptions": "Passive thermal contact without external refrigeration or other driven transport; thermal equilibrium for the phase-transition example. Equal temperatures imply zero net heat flow, although microscopic exchanges can continue.",
+        "notes": "Correctly explains the temperature difference driving heat transfer and distinguishes heat from temperature.",
+        "source_sha256": "21c235bf7f77ee1f8556ab5d38d917f75dc87878b2d9674012554d277d0ee4fd",
+        "file_sha256": "f938a78d62e9baabd346a2157ed6d5eddc060517b028601ca11a95f678d459d0",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Heat.md::conceptual-questions:2",
@@ -961,9 +1442,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Heat.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The hot spoon transfers energy across its interface to cooler water, and fluid motion distributes that energy through the water. With negligible work and external losses, the first law gives equal and opposite internal-energy changes. This answers both the requested example and the resulting energy forms.",
+        "calculation_check": "For the assumed transfer, ΔUspoon + ΔUwater = −100 J + 100 J = 0. Both changes have the correct signs.",
+        "assumptions": "The combined spoon-water system is effectively isolated; mechanical work, evaporation, and container energy changes are negligible.",
+        "notes": "The example, internal-energy accounting, and conservation claim are consistent.",
+        "source_sha256": "f740e2bc83cecded5777340d87c977d0fdb5a1c002b95f514ed77bca8a414eb0",
+        "file_sha256": "f938a78d62e9baabd346a2157ed6d5eddc060517b028601ca11a95f678d459d0",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Heat.md::conceptual-questions:3",
@@ -981,9 +1475,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Heat.md::conceptual-questions:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Heat describes energy crossing a boundary because of a temperature difference, rather than a stored state quantity. The solution correctly identifies internal energy as a possible destination and allows energy to leave through work or another transfer.",
+        "calculation_check": "For a closed rigid container with negligible other transfers, boundary work is zero and ΔU = Q. This supports the example without introducing a separate stored quantity called heat.",
+        "assumptions": "The illustrative container is closed and rigid, with no significant other energy transfers or changes in bulk kinetic or gravitational potential energy.",
+        "notes": "Correct distinction between energy transfer as heat and stored internal energy.",
+        "source_sha256": "3645fc00957c23699ab6a56dcbb2f03a67c1e8165b609c06617693f296e14ae6",
+        "file_sha256": "f938a78d62e9baabd346a2157ed6d5eddc060517b028601ca11a95f678d459d0",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14HeatTransferMethods.md::check-understanding:1",
@@ -1005,9 +1512,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14HeatTransferMethods.md::check-understanding:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Contact with a hot cup provides conduction into the hands. Injected steam and the resulting circulating milk provide energy transport by moving fluid, although condensation also contributes substantially. Microwave absorption is electromagnetic energy transfer and fits the surrounding chapter's explicitly broad radiation category. All three examples differ from the introductory examples.",
+        "calculation_check": "The mechanisms match their carriers: molecular interactions across contact for conduction, bulk fluid motion for convection, and electromagnetic fields for radiation. No numerical calculation is required.",
+        "assumptions": "The cup is hotter than the hands and steam is hotter than the milk. The chapter classifies microwave heating as radiation; a driven microwave field is not passive thermal emission.",
+        "notes": "Valid examples under the chapter's definitions. Steam heating combines convection with condensation.",
+        "source_sha256": "6b712b68470f32c17ab75e9d7c7fc545cbf13bdd7eac60226205d3d76a752abd",
+        "file_sha256": "11dcd2e3a21f7412b6da184e82b163382f9ff0caeaf95553713f06a8e060e7e8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14HeatTransferMethods.md::conceptual-questions:1",
@@ -1025,9 +1545,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14HeatTransferMethods.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Energy can be transported by convection in the fluid outer core and in mantle material that deforms over geological times. Conduction transports energy through material without requiring bulk motion and is especially important across the rigid outer layers. Radiation provides the principal route across the effectively empty region between Earth and space.",
+        "calculation_check": "Convective transport requires moving matter, whereas electromagnetic energy can propagate through vacuum. These requirements support the stated distinction between Earth's interior and its loss of energy to space.",
+        "assumptions": "Large-scale, long-term terrestrial heat transport; mantle convection occurs over geological times. Minor energy transport by escaping particles is neglected.",
+        "notes": "Correctly identifies interior conduction and convection and outward radiation.",
+        "source_sha256": "778b2522d1e81457bb84b863c8ecc12a26cf0566c8fb0573c00aa13a0cd06507",
+        "file_sha256": "11dcd2e3a21f7412b6da184e82b163382f9ff0caeaf95553713f06a8e060e7e8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::worked-example:1",
@@ -1072,9 +1605,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::worked-example:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The energy balance correctly includes melting 0.018 kg of ice and warming its meltwater while the soda cools. The available soda energy exceeds the melting requirement, so complete melting is self-consistent. The discussion's rejection of the prescribed 0°C ice temperature is unwarranted: ice can be at its melting temperature, and no freezer condition is specified. The claim that −6°C is typical is not established by the supplied material. Its conditional claim that using −6°C changes the answer little is supported.",
+        "calculation_check": "Using the stated constants gives available energy 20930 J, melting energy 6012 J, combined heat capacity 1121.848 J/°C, and Tf = 13.2977°C, consistent with 13°C. Using the chapter's ice specific heat, 2090 J/(kg·°C), initially −6°C ice requires an additional 225.72 J and gives Tf = 13.0965°C. The printed denominator substitution incorrectly gives specific-heat units with K in place of J; its numerical value uses the correct heat capacity.",
+        "assumptions": "Negligible container heat capacity and external losses; soda and meltwater have constant water-like specific heat; ordinary-pressure melting; negligible mixing, carbonation, and evaporation effects. The −6°C calculation is a hypothetical comparison.",
+        "notes": "The model and 13°C result are correct. The discussion incorrectly dismisses the stated 0°C condition; its claimed typical −6°C is unverified. The denominator also contains a specific-heat unit typo.",
+        "source_sha256": "f3c9ab09ad5753730c30ff6e411e000aabaca7644983bf2ef2c9d409e5939cee",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::check-understanding:1",
@@ -1098,9 +1644,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::check-understanding:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Above-freezing air does not instantaneously supply the latent energy needed to melt a snowpack. A finite heat-transfer rate and substantial latent heat allow snow to persist during a warm daytime interval. The statement that warmer air increases melting is valid with other heat-transfer conditions held comparable.",
+        "calculation_check": "Melting 1 kg of snow already at 0°C requires approximately 334000 J. At a net input P, its melting time is t = 334000/P seconds, so positive air temperature alone does not determine whether it melts during the day.",
+        "assumptions": "The explanation concerns finite-time melting with positive net heat input. Snow initially below zero also requires sensible warming. Radiation, wind, humidity, nighttime cooling, and snowpack mass affect actual persistence.",
+        "notes": "Correct latent-heat explanation; the warmer-air comparison assumes otherwise similar conditions.",
+        "source_sha256": "bd0afb6ab0924f49ebd2e72837af6ff3d5b5ea0fa131f3612bba2d209f4f6d84",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:1",
@@ -1118,9 +1677,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Mechanical work can change internal energy without heat entering the system. Approximately adiabatic compression warms an ordinary gas, while expansion doing work cools it. Pressure changes can cross a liquid-vapor equilibrium boundary, and frictional work can increase temperature. These examples answer both temperature and phase changes.",
+        "calculation_check": "With work defined as work done by the gas, ΔU = Q − W. For Q approximately zero, compression gives W < 0 and ΔU > 0; expansion gives W > 0 and ΔU < 0. Lowering pressure below the saturation pressure permits boiling at the initial liquid temperature.",
+        "assumptions": "The gas examples use ordinary ideal-gas-like behavior and negligible heat exchange. Depressurization-induced boiling can subsequently cool the liquid as vaporization consumes internal energy.",
+        "notes": "Correct alternatives to heat transfer, with appropriate work signs and pressure-induced phase behavior.",
+        "source_sha256": "b1ac6ec591a0fdde271aec4ac4b84a245afd050f104b0300da3447907dddda21",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:2",
@@ -1141,9 +1713,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Freezing releases latent energy while the freezing interface remains near the equilibrium freezing temperature. Transfer of some released energy to adjacent air offsets cooling and can delay a temperature decrease. The solution correctly describes a temporary buffer rather than an absolute lower temperature limit.",
+        "calculation_check": "Qreleased = mLf = 1000 kg × 334 kJ/kg = 334000 kJ = 334 MJ. The water loses this energy and its surroundings receive it.",
+        "assumptions": "Fresh water near ordinary pressure, active freezing, and thermal coupling to nearby air. Atmospheric transport and continuing environmental losses determine the actual air temperature.",
+        "notes": "Correct latent-energy magnitude and qualified explanation of local temperature buffering.",
+        "source_sha256": "77b049bec0b1847b8fa39a96b57a88eee6bc1f0d31e8d5dbd90be6b0499a578e",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:3",
@@ -1163,9 +1748,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At the equilibrium freezing interface of pure water at atmospheric pressure, newly formed ice is approximately at 0°C. Further energy removal can lower its temperature. The solution explicitly states the equilibrium assumption and recognizes supercooling, solutes, and pressure as qualifications.",
+        "calculation_check": "During equilibrium freezing, removing latent energy mLf changes phase at approximately constant temperature. Subsequent sensible cooling follows Q = mciceΔT and can produce temperatures below 0°C.",
+        "assumptions": "Pure water freezing slowly near normal atmospheric pressure; the stated temperature concerns newly formed ice at the interface, not every region of a growing ice layer.",
+        "notes": "Correct equilibrium answer with relevant limits and nonequilibrium qualifications.",
+        "source_sha256": "f9f8a236a865866af77fd93fb8051361bd3069399ca49d4a96f83da6edf9272f",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:4",
@@ -1185,9 +1783,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Pure ice and water at their ordinary-pressure coexistence temperature are already in thermal and phase equilibrium. With no additional energy source or sink, neither phase undergoes a net macroscopic conversion. The distinction between microscopic exchange and constant average phase amounts is correct.",
+        "calculation_check": "A net melted mass Δm would require latent energy ΔmLf. With zero available energy change and no sensible temperature change at coexistence, ΔmLf = 0 gives Δm = 0.",
+        "assumptions": "Normal pressure, pure water, negligible surface and pressure effects, no mechanical work, and a container initially at the same temperature or with negligible heat capacity.",
+        "notes": "Correctly predicts no net melting or freezing under the stated equilibrium idealization.",
+        "source_sha256": "c73a0d40cf72e43486cb65b1cdaa8a9022a59234ea6c7731b62acf7ed98a2d29",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:5",
@@ -1208,9 +1819,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Condensation releases latent energy at the cold glass. The portion conducted into the ice-water mixture supplies additional melting energy, so condensation tends to accelerate melting. The solution correctly treats complete delivery of that energy to the ice as an upper-limit illustration.",
+        "calculation_check": "Condensing 0.0010 kg at the assumed 2.4 × 10^6 J/kg releases 2400 J. Dividing by 334000 J/kg gives 0.00719 kg, or approximately 7.2 g, of potentially melted ice.",
+        "assumptions": "The glass is below the surrounding air's dew point, ice and water are near melting equilibrium, and other conditions are comparable. Only a fraction of the released energy may reach the ice.",
+        "notes": "Correct direction of the effect and correctly qualified 7.2 g melting estimate.",
+        "source_sha256": "2259ba6c12edfbb8df93a5ba256883b510ed27d2bc7db1e257b8c3a40ee7ac24",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:36:49+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:6",
@@ -1230,9 +1854,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The relevant surface energy balance divides incoming energy among sensible heating, thermal storage, and evaporation. Abundant available water allows a substantial latent-heat flux, reducing daytime surface warming and subsequent heating of the air. The solution correctly distinguishes water availability from humidity: higher humidity alone reduces the vapor-pressure gradient and suppresses evaporation. It also correctly rejects 35 °C as an absolute temperature ceiling.",
+        "calculation_check": "For the illustrative assumed mass, Q = mLv = (1.0 kg)(2.4 MJ/kg) = 2.4 MJ. The units and direction of energy transfer are correct: evaporation consumes energy that could otherwise increase temperature.",
+        "assumptions": "Comparable incoming energy and broadly comparable weather conditions; accessible liquid water or transpiring vegetation; sufficient vapor transport for evaporation. The numerical example illustrates an energy budget rather than predicting a particular climate's maximum temperature.",
+        "notes": "Correct latent-heat explanation with appropriate qualifications about humidity and the absence of a strict temperature limit.",
+        "source_sha256": "0d3e6099e4c5cf0551c737ef74e150e09f7e3b1f7e36e4ec9520ea65b75ac968",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:7",
@@ -1250,9 +1887,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a given seasonal energy exchange, a large effective heat capacity produces a smaller temperature change. Ocean mixing brings a substantial mass into thermal exchange, and marine air communicates the ocean's comparatively slow temperature response to San Francisco. Heat absorption during the warmer season and release during the colder season explain the stated contrast with inland Sacramento. Evaporation provides an additional cooling mechanism.",
+        "calculation_check": "From Q = mcΔT, ΔT = Q/(mc): increasing the participating water mass or specific heat reduces seasonal temperature excursions. Heat released during ocean cooling has the correct sign to moderate adjacent winter temperatures.",
+        "assumptions": "Seasonal thermal storage and atmospheric transport connect San Francisco to nearby ocean water; inland conditions are less directly influenced by marine air. Local circulation and topography can modify individual weather events.",
+        "notes": "Correct explanation of maritime moderation through thermal storage, mixing, evaporation, and marine air transport.",
+        "source_sha256": "1facee6c33f1e3dcfbd5f6b6b9f92a86f94f5f5447d03f99cac420ae1d2ad7fb",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:8",
@@ -1270,9 +1920,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Maintaining a pot near its boiling temperature requires replacing energy lost through escaping vapor and other heat-transfer pathways. A lid reduces ventilation and net vapor escape; internal condensation can return some energy to the contents, while some condensation energy still escapes through the lid. The solution correctly limits its claim to reduced losses and does not imply that escaped steam can be produced without supplying latent heat.",
+        "calculation_check": "A steady energy balance can be written Pinput = mdot_escape Lv + Qdot_other_losses. Reducing net escaping vapor and convective losses reduces the required input power. At a fixed net steam-production rate, the corresponding mdot_escape Lv requirement remains.",
+        "assumptions": "An ordinary loosely covered pot near atmospheric pressure, with comparable water temperature and no requirement to maintain the same rate of escaping steam. The lid exchanges heat with the room.",
+        "notes": "Correct loss-reduction explanation, including the continuing latent-heat requirement for vapor that escapes.",
+        "source_sha256": "30f424b8bcb4df2150378966fd3946ce42a4945e927ea0f2f13ada533054f95b",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:9",
@@ -1290,9 +1953,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Pumping maintains a low water-vapor pressure, allowing sustained net evaporation or sublimation. If initial evaporation removes energy faster than heat enters, the remaining food cools and its water can freeze. Subsequent sublimation also consumes latent energy; controlled heating sustains drying without allowing excessive cooling. The distinction between evaporation-induced freezing and commercial prefreezing is correctly stated.",
+        "calculation_check": "With negligible initial heat input, an approximate balance is CΔT = -mevap Lv, giving ΔT < 0. Once frozen, sustained sublimation requires heat input approximately Qdot = mdot_sub Ls, apart from sensible heating and losses. Both signs and dimensions agree with the explanation.",
+        "assumptions": "Continued vapor removal, sufficiently low pressure, and initially insufficient heat replenishment for evaporative cooling to produce freezing. Sublimation rate also depends on heat and mass transport.",
+        "notes": "Correctly explains vacuum-assisted dehydration, evaporative freezing, and the need for heat during sublimation.",
+        "source_sha256": "f094d8e630bfd888fb6a281208f98291e6d5c707835188698efecc9f589bb33f",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:10",
@@ -1310,9 +1986,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Radiatively cooling surfaces commonly cool adjacent still air. Once saturation is reached, condensation releases latent heat, offsetting part of the continuing energy loss and slowing cooling. Fog can additionally reduce net infrared cooling. The solution correctly explains that the original dew point is a buffer rather than a fixed lower bound, because continued condensation changes the vapor content and hence the dew point.",
+        "calculation_check": "For a cooling system, C dT/dt = -P_loss + Lv mdot_cond illustrates the effect: positive condensation reduces the magnitude of the negative cooling rate. Continued net energy loss can still lower temperature below the initial dew point.",
+        "assumptions": "Moist air near saturation, condensation on available surfaces or nuclei, and relatively weak mixing. The moisture content and radiative environment can evolve overnight.",
+        "notes": "Correct latent-heat buffering explanation with appropriate treatment of surface radiation and a changing dew point.",
+        "source_sha256": "10184b6b6020f3c7379c453b90a2cb11ce26c5e5fe48a68607ca3e6a47f98f32",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:11",
@@ -1332,9 +2021,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::conceptual-questions:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The observed blue condensate supports identification as oxygen-rich liquid. The inspected table places liquid-nitrogen temperature between oxygen's normal melting and boiling temperatures, so oxygen need not be solid there. Water from exhaled breath freezes and later melts; carbon dioxide forms a solid that sublimes during warming near atmospheric pressure. The surrounding chapter explicitly identifies dry ice as solid carbon dioxide and describes its sublimation. The solution appropriately acknowledges that pure-substance normal transition temperatures do not fully determine mixture condensation.",
+        "calculation_check": "The table gives -218.8 °C < -195.8 °C < -183.0 °C for oxygen's melting point, bath temperature, and oxygen's boiling point. Nitrogen's melting point, -210.0 °C, is below the bath temperature, excluding solid nitrogen under the stated ordinary conditions. Water's listed melting point is 0 °C, consistent with the lingering crystals becoming liquid.",
+        "assumptions": "A flexible balloon near atmospheric pressure containing ordinary exhaled air and approaching liquid-nitrogen temperature. Identification uses the observed color and warming behavior; exact condensate composition and condensation onset would require partial pressures and mixture vapor-pressure data not supplied.",
+        "notes": "Correct qualitative identifications. Table 1 lacks carbon dioxide data, but the surrounding chapter supports its sublimation; exact mixture condensation conditions remain unquantified.",
+        "source_sha256": "2ec54f626376345dd9047313c244bd0793559be63406c003314a11dac6e1e736",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:1",
@@ -1358,9 +2060,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The package starts at the assumed melting temperature, and only thawing is requested. Consequently the required heat is the latent heat of fusion, with no sensible-heating term. The stated answer matches that model.",
+        "calculation_check": "Using the chapter table, Q = mLf = (0.450 kg)(79.8 kcal/kg) = 35.91 kcal, or 35.9 kcal.",
+        "assumptions": "The stipulated water-like heat of fusion applies to the full package mass; complete thawing occurs at 0 °C; packaging heat capacity and heat losses are neglected.",
+        "notes": "Correct latent-heat calculation: 35.9 kcal.",
+        "source_sha256": "40513c92a6529befe76cedb3242579a998e1a14f37c5d8baca21be7bee9c2684",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:2",
@@ -1381,9 +2096,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "All three parts are answered using the same final state. Initially liquid water requires mcΔT, whereas initially frozen water additionally requires mLf. This additional positive latent-heat term explains both the greater total energy absorbed and the period of cooling at approximately constant melting temperature. The discussion's latent-energy dominance is supported by the calculation.",
+        "calculation_check": "Qwater = 0.800 × 4186 × 30.0 = 100464 J. Qmelt = 0.800 × 334000 = 267200 J. Qice,total = 367664 J. Their ratio is 3.660, and melting accounts for 72.68% of the total. The printed 101 kJ, 368 kJ, and ratio 3.64 are consistent at the exercise's approximate precision.",
+        "assumptions": "Pure water and ice near atmospheric pressure; constant specific heat and latent heat; negligible bag heat capacity and losses; both samples ultimately reach 30.0 °C.",
+        "notes": "Correct treatment of all parts and discussion. Small numerical differences arise from rounding.",
+        "source_sha256": "9569e497d6c066bfe1cc69290837f93d4c65605726c13b178fbdc6c464201042",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:3",
@@ -1404,9 +2132,22 @@
         "checked": 9
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The entire initial water mass and the aluminum pot must first reach the boiling temperature; only the specified evaporated mass then receives the latent heat of vaporization. The solution includes these three contributions and divides their sum by the supplied heat-transfer rate. Its energy percentages and conclusion that evaporation dominates are correct.",
+        "calculation_check": "Q = (0.750 × 900 + 2.50 × 4186) × 70.0 + 0.750 × 2256000 = 2471800 J. This is 590.49 kcal, consistent with the reported approximately 591 kcal. At 500 J/s, t = 4943.6 s = 82.39 min. Vaporization accounts for 68.45% of the energy.",
+        "assumptions": "Atmospheric boiling at 100 °C; approximately constant heat capacities; negligible evaporation during warmup and negligible additional losses. The 500 W is the effective heat-transfer rate into the modeled system, rather than an appliance rating before losses.",
+        "notes": "Correct energy balance, time, and energy breakdown. The discussion's typical burner-rating range is an empirical comparison not independently verified here.",
+        "source_sha256": "ec6ea3fb7b3d26abed23167bb916757c00b675efae915a5a6d1865a8eada6c92",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:4",
@@ -1427,9 +2168,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Condensation releases energy that melts ice while the ice-water mixture remains near 0 °C. Equating mcond Lv to mmelt Lf correctly gives the incremental melting attributable to condensation. The calculated melt is below the available 200 g, so the assumed coexistence of ice and water is self-consistent. The discussion correctly identifies the large latent-heat ratio as the cause.",
+        "calculation_check": "Q = 0.00800 × 2430 = 19.44 kJ, and mmelt = 19.44/334 = 0.0582036 kg = 58.2 g. The melted-to-condensed mass ratio is 7.276, and approximately 142 g of ice remains.",
+        "assumptions": "All modeled condensation heat reaches the ice-water mixture; no other heat transfer or appreciable container storage; sensible cooling of the incoming vapor is neglected. The stated 2430 kJ/kg is a low-temperature approximation: the chapter specifically tabulates it at 37 °C, and the vapor temperature is unspecified.",
+        "notes": "Correct heat balance and arithmetic using the stated approximate latent heat. The precise result depends on condensation temperature; climate comparisons assume other heat-transfer conditions are comparable.",
+        "source_sha256": "02612399cada6d696e7ace9716230e5c822c4c28d2a25ea24f5c702fea301e0b",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:5",
@@ -1450,9 +2204,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The requested average power entering the ice is correctly obtained from its latent-energy gain divided by one day. However, the discussion's cooler comparison gives lifetimes inconsistent with the same ice mass and its stated 5–10 W range. Also, lower ice surface area alone does not ensure longer total melting time when a fixed cooler heat leak is ultimately absorbed by the ice.",
+        "calculation_check": "Q = 3.50 × 334000 = 1169000 J, so P = 1169000/86400 = 13.53 W. At 5 W this mass lasts 2.71 days; at 10 W it lasts 1.35 days, rather than the stated 3–4 days for that range. A 3–4 day lifetime would require approximately 4.51–3.38 W. At 25–40 W, the calculated range is approximately 13.0–8.12 hours.",
+        "assumptions": "The same 3.50 kg initially at 0 °C is used for the discussion's comparisons, with constant average power and complete melting to 0 °C water. Equating ice power with the entire cooler's heat leak additionally requires negligible net energy storage in other contents.",
+        "notes": "The 13.5 W answer is correct, but the discussion's 5–10 W versus 3–4 day comparison fails the energy balance. Empirical cooler categories and the LED-night-light comparison were not independently established.",
+        "source_sha256": "adbaadef30f36144f6c4ff6682c2037457d778af529a558c042f2f1079908b6f",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:6",
@@ -1486,9 +2253,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The derivation mcΔT = fmLv and cancellation of pool mass are correct. The material issue is temperature applicability: the solution uses 2256 kJ/kg, which the inspected table specifies for water at its normal boiling point of 100 °C, for evaporation from a swimming pool. The chapter separately supplies 2430 kJ/kg at 37 °C. The pool temperature is unstated, so a temperature-appropriate latent heat should be specified or the result retained as f = cΔT/Lv(T).",
+        "calculation_check": "The required energy per initial kilogram is cΔT = 4186 × 1.50 = 6279 J/kg. Using 2256000 J/kg reproduces f = 0.002783 = 0.2783%. Using the chapter's 37 °C value gives f = 6279/2430000 = 0.002584 = 0.2584%, about 7.7% lower relative to the printed fraction. The discrepancy comes from using a boiling-temperature property, rather than arithmetic or rounding.",
+        "assumptions": "A well-mixed pool held at its initial temperature; the hypothetical net heat input remains unchanged; evaporation is the compensating energy loss; the evaporated fraction is small; latent heat is evaluated at the pool's actual temperature.",
+        "notes": "Correct relation and arithmetic, but the numerical answer and per-kilogram discussion use the 100 °C latent heat for pool-temperature evaporation without stating that approximation.",
+        "source_sha256": "ef77daa5baded3c8c64ea6144520ebc2c6e30cfb56fb7378dddb9fe189224d12",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:41:08+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:7",
@@ -1512,9 +2292,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:7",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The five-stage decomposition is correct: warm ice, melt it, warm liquid, vaporize it, and warm steam. However, the final stage uses the steam constant-volume specific heat without specifying a constant-volume constraint. The heat-capacity table and its footnote distinguish cv = 1520 from cp = 2020 J/(kg·°C). For the natural interpretation of heating at atmospheric pressure, including boiling at 100°C, cp applies. A separate constant-volume steam-heating stage could reproduce the answer, but that change of constraint is unstated. I inspected the SVG coordinates: the graph accurately depicts the supplied stage times, including the questionable final duration.",
+        "calculation_check": "The first four stage energies are 8.360, 66.800, 83.720, and 451.200 kJ, giving durations 0.418, 3.340, 4.186, and 22.560 s. Atmospheric-pressure steam heating requires 0.200(2020)(30) = 12.120 kJ, or 0.606 s, rather than 0.456 s. The total is then 622.200 kJ ≈ 148.64 kcal, with final time 31.110 s. Using cv reproduces 147.92 kcal and 30.960 s.",
+        "assumptions": "Pure water, negligible container heat capacity and heat losses, constant tabulated properties, atmospheric-pressure melting and boiling, and retention of the entire sample through vaporization. The corrected final stage assumes continued constant-pressure heating.",
+        "notes": "Stage structure and graph geometry are correct, but the final steam-heating time uses cv instead of cp under the implied atmospheric-pressure process; the required constraint is unstated.",
+        "source_sha256": "7f6ac8013f47a603056323be5c252f92dc0e9562489cdc0115032b1115e74c8c",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:8",
@@ -1535,9 +2328,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a rectangular iceberg, m = ρLWh. Melting ice initially at its melting point requires mLf. With sunlight absorbed over the horizontal area LW, the melting time reduces to ρhLf divided by the daily absorbed energy per unit area; the horizontal dimensions cancel. These are the relations used in all three parts. The discussion's real-world melting comparison is qualitative: ocean heat, radiation losses, initial subfreezing temperatures, and fragmentation can change the result, so a universally shorter actual lifetime is not established.",
+        "calculation_check": "V = 1.600×10^12 m³, m = 1.46720×10^15 kg, and Q = 4.900448×10^20 J. Daily solar absorption is 100(6.40×10^9)(43200) = 2.7648×10^16 J/day, giving 48.53 years. The reported 48.7 years follows from rounding intermediate quantities and is acceptable. The mass is 1.4672 trillion metric tons.",
+        "assumptions": "Ice starts at its melting temperature; all specified absorbed sunlight supplies latent heat; the illuminated horizontal area stays constant; no competing heat losses, sensible heating, or additional heat sources are included.",
+        "notes": "All requested calculations are correct within rounding for the ideal solar-only model. Actual iceberg lifetime and the asserted faster melting are not verified by this calculation.",
+        "source_sha256": "d6f0f33746b86448b5710c7b99473663b16a84dde8924a39813cba5dcf729191",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:9",
@@ -1561,9 +2367,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Evaporation must remove the sensible heat released by both the coffee and the glass cup: mevap Lv = (mcoffee cwater + mcup cglass)(95−45). Including the cup is necessary. The supplied answer agrees with this balance and the explicitly permitted approximation of constant coffee mass.",
+        "calculation_check": "Using the chapter's cglass = 840 J/(kg·°C), the heat removed is [0.350(4186)+0.100(840)]50 = 77455 J. Dividing by 2.340×10^6 J/kg gives 0.03310 kg = 33.1 g. Using the rounded calorie values gives (350+100×0.20)50/560 = 33.04 g, consistent with 33.0 g.",
+        "assumptions": "Cup and coffee initially share 95°C and cool together to 45°C; evaporation is the only net cooling mechanism; coffee behaves as water; its changing mass is neglected as authorized.",
+        "notes": "The answer correctly includes cooling of the glass cup and agrees with the specified latent heat.",
+        "source_sha256": "685c6aa5f9f44970b9ff145a78845eb932908767d5dcdf3debb6949eab412bd4",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:10",
@@ -1587,9 +2406,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:10",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The required balance is moil-energy = mwater[cwater(100−20)+Lv+csteam(300−100)]. The reported volume is reproduced by using steam cv = 1520 J/(kg·°C). Steam absorbing heat while expanding at atmospheric pressure requires cp = 2020 J/(kg·°C), as distinguished by the chapter table. A constrained constant-volume final stage is not stated and is not the natural model for steam produced during firefighting. Part (b) correctly identifies that floating oil remains exposed to oxygen and that water underneath need not contact the hottest burning region effectively.",
+        "calculation_check": "Using cv gives 28.0×10^6/[4186(80)+2.256×10^6+1520(200)] = 9.672 kg, reproducing 9.67 L. Using cp gives 9.349 kg, approximately 9.35 L for water density 1 kg/L. The distinction is a thermodynamic-path issue rather than numerical rounding.",
+        "assumptions": "All combustion energy is absorbed by the water, complete vaporization occurs near atmospheric pressure, steam leaves at 300°C, heat capacities are treated as constant, and liquid water has density approximately 1 kg/L.",
+        "notes": "Part (a) uses constant-volume steam heat capacity without the necessary constraint; atmospheric-pressure heating gives approximately 9.35 L. Part (b) is physically sound.",
+        "source_sha256": "c0781fb499fcbd536c7ccc769b5077510c6c624cb1683ff8db95322019be4516",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:11",
@@ -1610,9 +2442,22 @@
         "checked": 9
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The rain mass is ρπr²h, and condensation releases approximately that mass times the latent heat. The solution correctly computes this energy and its unit conversions. Its 2256 kJ/kg is the table's value at 100°C, so the result is a textbook estimate rather than a temperature-specific cloud calculation; lower-temperature condensation has a larger latent heat. Latent heating can support buoyancy and updrafts, but continued moist-air supply and suitable atmospheric conditions are required; the discussion's 'self-sustaining' language should be understood conditionally. The hurricane frequency analogy is unsupported by supplied storm data and remains unverified.",
+        "calculation_check": "The precipitation mass is 1000π(1000)²(0.010) = 3.14159×10^7 kg. With the selected latent heat, Q = 7.08743×10^13 J = 1.96873×10^7 kWh ≈ 16.9 kilotons TNT. At 30 kWh/day this corresponds to about 1797 years, and at 10^9 W to 19.69 hours. These agree with the stated comparisons.",
+        "assumptions": "Uniform circular rainfall footprint; precipitation mass represents the net vapor condensed; constant tabulated latent heat; no separate accounting for freezing, re-evaporation, or sensible heat. Energy comparisons do not imply that all released heat becomes useful work or wind energy.",
+        "notes": "The requested latent-energy estimate and numerical comparisons are correct. Cloud-temperature dependence and atmospheric conditions limit the interpretation; the hurricane analogy was not verified.",
+        "source_sha256": "357f2fe3b2f9b407924385c63292f500cbf16469746edc366676f76c790ed2e9",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:12",
@@ -1636,9 +2481,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:12",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Freezing releases latent heat of magnitude mLf. For the separate hypothetical in part (b), removing that same amount from the tree produces a decrease Q/(mtree ctree). The numerical answers correctly represent magnitudes. Physically, the freezing water releases heat to its surroundings and thereby helps protect the tree; part (b) explicitly asks about the opposite hypothetical transfer from the tree.",
+        "calculation_check": "The water releases 4.00(334 kJ/kg) = 1336 kJ = 319.16 kcal. The corresponding hypothetical tree cooling is 1336/[200(3.35)] = 1.994°C, consistent with 2.00°C.",
+        "assumptions": "All 4.00 kg freezes at 0°C; constant tree specific heat; uniform tree temperature; no tree phase change. Heat transfer for the freezing water itself is negative, with 319 kcal its released magnitude.",
+        "notes": "Both answers are correct; the freezing heat release and the hypothetical tree heat loss must be distinguished.",
+        "source_sha256": "209531d593a114452653ceaff612aa20db5de0254d1edb704dee3c4063744d89",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:13",
@@ -1672,9 +2530,22 @@
           "error_pct": 141.78562159356346
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:13",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The solution correctly follows the linked staged procedure. It first tests the no-phase-change result, then cools both bowl and soup to 0°C, checks whether the remaining energy removal freezes all the soup, and uses ice rather than liquid-water heat capacity below freezing. All heat-removal signs and the bowl contribution are consistent. The final state is completely frozen soup below 0°C, as required by the energy budget.",
+        "calculation_check": "Initial heat capacity is 0.250(900)+0.800(4186) = 3573.8 J/°C. Cooling to 0°C removes 89.345 kJ, and complete freezing removes 267.200 kJ. The remaining 20.455 kJ lowers the frozen system, whose heat capacity is 1897 J/°C, by 10.7828°C. Thus Tf = −10.8°C.",
+        "assumptions": "Soup has pure-water phase behavior and thermal properties, both materials remain in thermal equilibrium, all specified energy removal applies to bowl plus soup, heat capacities are constant, and supercooling is neglected.",
+        "notes": "Correct phase-state checks, energy accounting, and final temperature; the requested problem-solving steps are explicitly demonstrated.",
+        "source_sha256": "7647bfc24ff89dc83e5b5079b48828146b508c78bf017fa01a7ab842fbe5e8e0",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:14",
@@ -1708,9 +2579,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:14",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The phase check correctly compares heat available from cooling the warm water to 0°C with the energy required to warm and melt the ice. Since the former is greater, all ice melts. Conservation of energy then includes heating the melted ice to the common final temperature, producing the stated equation and answer. The discussion's mass and temperature comparison is qualitative: latent heat must be accounted for separately and cannot be inferred merely from temperature changes.",
+        "calculation_check": "Warming and melting the ice requires 0.0500(2090)(30)+0.0500(334000) = 19835 J. Cooling the original water to 0°C could supply 58604 J. Therefore Tf = (58604−19835)/[0.450(4186)] = 20.5813°C. At this temperature, each side of the heat-transfer balance is 24142.7 J. The reported small discrepancy using 20.6°C is ordinary rounding.",
+        "assumptions": "Negligible container heat capacity and external heat exchange, constant tabulated properties, normal melting temperature, and complete thermal equilibrium.",
+        "notes": "Correct complete-melting check and final temperature of 20.6°C. The phase change consumes energy without adding a temperature interval.",
+        "source_sha256": "e3283a6359c5e985cab9abd43290e6c28f22ebd9ee982723425a2016ecae914d",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:15",
@@ -1731,9 +2615,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:15",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The main solution is correct: cooling and freezing the small water sample cannot warm the block to 0°C, so all water freezes and then cools below 0°C. The final energy equation correctly includes this additional cooling. However, the discussion subsequently identifies 4177 J as the total heat released and attributes the block's 1.8°C warming to that amount alone. The newly frozen water releases additional sensible heat while cooling to the final temperature, contradicting that explanation.",
+        "calculation_check": "Tf = [0.0100(4186)(20)+0.0100(334000)−1.20(2090)(15)]/[1.210(2090)] = −13.2242°C. The newly frozen water then releases another 0.0100(2090)(13.2242) = 276.4 J, making total transfer to the original block 4453.6 J, equal to 1.20(2090)(1.77575). Freezing supplies approximately 75.0% of this total, rather than 80%; 80% refers only to cooling to 0°C plus freezing.",
+        "assumptions": "Negligible surroundings and container heat exchange, complete equilibrium, constant properties, normal freezing without persistent supercooling, and no evaporation.",
+        "notes": "The final temperature and main derivation are correct. The discussion omits 276 J from subsequent cooling of the frozen water and consequently misstates the total heating and latent-heat fraction.",
+        "source_sha256": "bb775a51d0dd33076651e1b3ef8048444eba1b4072f3ece607328e4479d01316",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:16",
@@ -1767,9 +2664,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:16",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Energy conservation requires the rocks' cooling energy to heat all initially present water from 15°C to 100°C and vaporize the escaping 0.0250 kg. Heating all 4.00 kg before adding the escaping fraction's latent heat correctly includes the initial sensible heating of that fraction; subtracting its mass from the sensible term would omit energy. The chapter table directly confirms the adopted average granite specific heat of 840 J/(kg·°C). The discussion's specific-heat comparison is consistent with the result. Its historical assertions were not independently established from the supplied sources.",
+        "calculation_check": "The required water heating is 4.00(4186)(85) = 1423240 J, and vaporization requires 0.0250(2256000) = 56400 J. Each kilogram of rock supplies 840(500−100) = 336000 J/kg. Thus mrock = 1479640/336000 = 4.40369 kg, agreeing with 4.40 kg.",
+        "assumptions": "Escaping vapor leaves near 100°C without appreciable superheating; rocks and remaining water finish at 100°C; basket heat capacity and surroundings are negligible; the stated average granite heat capacity applies over the cooling interval.",
+        "notes": "Correct energy balance and rock mass, including sensible heating of the evaporated water. Ancillary historical claims remain unverified.",
+        "source_sha256": "9a6169710a92a1cab5104e68d997dcb3f2c180033fd26a594222dfa2503db221",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:17",
@@ -1790,9 +2700,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:17",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "I checked the linked example: the pan mass, initial temperatures, material, and original 59.1°C result are correctly imported. Under the assumed escaping-vapor state of 100°C, the derivation correctly charges the evaporated portion for both sensible heating and vaporization, and heats only the remaining 0.250 kg to equilibrium. The final 41.8°C follows. However, the discussion's claim that evaporation takes about 29% of the pan's heat loss during cooling to approximately 42°C is incorrect; it takes about 53%.",
+        "calculation_check": "Qevap = 0.0100[4186(100−20)+2256000] = 25908.8 J. Tf = [0.500(900)(150)+0.250(4186)(20)−25908.8]/[0.500(900)+0.250(4186)] = 41.7783°C. The pan loses 0.500(900)(150−41.7783) = 48699.8 J, so Qevap/Qpan = 0.5320. The 29% figure instead approximates Qevap divided by the original example's 88430 J numerator, which is not the pan's heat loss.",
+        "assumptions": "Negligible heat exchange with surroundings apart from escaping vapor, constant heat capacities, no further evaporation, and vapor modeled as leaving at 100°C. Its actual departure state is unspecified, so the final temperature is conditional on that conventional idealization.",
+        "notes": "The referenced givens and final-temperature calculation are correct under the stated vapor assumption. The discussion's 29% energy fraction should be approximately 53%.",
+        "source_sha256": "85a63c2f302978ce9fa4afe226b4ac321441cf0bd5f0c30604b9854527fb008a",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:18",
@@ -1817,9 +2740,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:18",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The nitrogen mass is density times liquid volume. Starting at its normal boiling temperature, its cooling capacity is m[Lv+cp(3.00−Tboil)], including both vaporization and warming the gas. The linked chapter tables supply Tboil = −195.8°C, Lv = 201 kJ/kg, and cp = 1040 J/(kg·°C). These reproduce parts (a) and (b). Melting an identical mass of ice supplies mLf, reproducing part (c); it provides approximately 82% as much cooling as the nitrogen process. The solution gives the comparison numerically through the two energy values, although an explicit ratio would clarify it.",
+        "calculation_check": "m = 808(0.200) = 161.6 kg. Qnitrogen = 161.6[201000+1040(198.8)] = 65.8927 MJ = 15741 kcal = 18.3035 kWh. Over 3.00 h this gives 6.10118 kW. Qice = 161.6(334000) = 53.9744 MJ = 12894 kcal, and Qice/Qnitrogen = 0.8191.",
+        "assumptions": "Liquid nitrogen initially sits at its atmospheric-pressure boiling point, the gas warms at constant pressure with the explicitly stipulated constant cp, all absorbed heat supplies useful cooling, and the ice comparison includes melting at 0°C only.",
+        "notes": "All three numerical answers are correct. Melting the equal ice mass supplies about 82% of the nitrogen cooling, or nitrogen supplies about 22% more.",
+        "source_sha256": "458b07f39f3783bfc359809aeabc01e6fa526107407d7f8efe4ca9a41c53bbd1",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:45:32+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:19",
@@ -1840,9 +2776,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14PhaseChangeAndLatentHeat.md::problems-exercises:19",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Complete melting requires sensible heating to the melting point followed by latent heat: Q=m[c(Tm−Ti)+Lf]. Both stages are necessary and correctly included. The local chapter tables confirm c=128 J/(kg·K), Tm=327°C, and Lf=24.5 kJ/kg. The discussion's energy fractions and comparisons with water and ice follow from these values.",
+        "calculation_check": "Q1=0.500×128×302=19328 J; Q2=0.500×24500=12250 J; total=31578 J=31.6 kJ. The fractions are 61.2% and 38.8%; the comparison ratios are 4186/128=32.7 and 334/24.5=13.6.",
+        "assumptions": "Pure lead at ordinary pressure; constant tabulated specific heat; final state just fully molten at 327°C. Container heating, environmental losses, oxidation, and subsequent liquid heating are excluded.",
+        "notes": "Heating and melting model, arithmetic, and answer are correct. Equipment heating times, historical-use claims, and occupational-health statements are not established by the supplied data and were not externally verified.",
+        "source_sha256": "05daf361c740caf1efd7c06cbdeb1fc89addc0d1542aca634971d3e79d62fdbd",
+        "file_sha256": "7bfd5fef36af29517d47f374064e2bbc14dec713a35e982a57befd4b8d7420b4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::worked-example:1",
@@ -1863,9 +2812,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::worked-example:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The net radiation calculation correctly subtracts skin emission from absorbed environmental radiation, with negative heat flow into the person. The cooling interpretation and clothing's insulation benefits are reasonable. However, the discussion incorrectly treats clothing, especially white clothing, as generally having low thermal-infrared emissivity. Visible reflectance does not determine infrared emissivity; Kirchhoff's emission–absorption relation applies wavelength by wavelength. Clothing can reduce heat loss through insulation and a cooler outer surface without having low infrared emissivity.",
+        "calculation_check": "Using the stated rounded temperatures gives 5.67×10^−8×0.97×1.50×(295^4−306^4)=−98.53 W, consistent with −99 W. Using 295.15 and 306.15 K gives −98.68 W. The Stefan–Boltzmann constant must have units W/(m²·K⁴).",
+        "assumptions": "Skin temperature and emissivity are uniform; the person sees large surroundings at 22°C, with effective view factor one. Room air temperature is assumed equal to mean radiant temperature.",
+        "notes": "The −99 W result is correct. The discussion's claim that white clothing particularly reduces infrared emissivity is physically unjustified.",
+        "source_sha256": "000d1202dba616b33bdf3ffcd7fcbf19388f7f8eb8627240d78da65dc2a7dedd",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::check-understanding:1",
@@ -1889,9 +2851,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::check-understanding:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For unchanged area and emissivity, emitted power is eσAT^4. Thus raising the temperature from 20°C to 40°C increases emission by the ratio (313/293)^4. This correctly uses absolute temperature rather than doubling Celsius temperature.",
+        "calculation_check": "[(313/293)^4−1]×100%=30.23%, agreeing with about 30%.",
+        "assumptions": "The comparison concerns emitted radiation, with constant emitting area and emissivity. A percentage change in net exchange with surroundings would require their temperature and would generally differ.",
+        "notes": "Correct approximately 30% increase in emitted power; this percentage does not generally describe net radiative heat exchange.",
+        "source_sha256": "98dbabe793da20a1448a4a6654b77b13784954a3c67a09ba5f0fe068dbc1b6c2",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::conceptual-questions:1",
@@ -1909,9 +2884,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Absorbed solar energy heats the canvas. Its interior surface then emits thermal infrared radiation toward spectators and can warm the enclosed air. Restricted ventilation can increase air temperature. These mechanisms explain the sensation without requiring direct sunlight to pass through the fabric.",
+        "calculation_check": "For an interior surface hotter than its radiative surroundings, eσA(Ttent^4−Tsurr^4)>0 outward from the tent surface. A fabric surface hotter than adjacent air also transfers heat to that air by convection.",
+        "assumptions": "The dark fabric absorbs appreciable sunlight, solar heating reaches its interior surface, and the fabric has nonzero infrared emissivity. Actual temperatures depend on wind, ventilation, and construction.",
+        "notes": "Correct explanation through solar absorption, inward infrared radiation, and warming of enclosed air.",
+        "source_sha256": "52c771ed7fff2b11b59622bb189b489419adc157d51a8d69dd58594b8af0fdde",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::conceptual-questions:2",
@@ -1932,9 +2920,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Cooling reduces the instrument's thermal background and thermally generated detector fluctuations, improving sensitivity to weak radiation from cold space. Shading limits incident power from much brighter bodies. The solution correctly distinguishes its illustrative bolometric comparison from actual wavelength-dependent detector performance.",
+        "calculation_check": "For equal ideal blackbody areas, P300/P3=(300/3)^4=10^8. This is an integrated emission ratio, not necessarily the signal or noise ratio in a particular observing band.",
+        "assumptions": "The detector has thermal-background or thermal-noise limitations relevant to its observing band. Required operating temperature depends on detector technology, bandwidth, and surrounding optics.",
+        "notes": "Correct cooling rationale and blackbody ratio, with appropriate qualifications about wavelength and instrument design.",
+        "source_sha256": "64927562c7c64156d1284af0198dfca757313e564caa74d550458ae93bb7f93b",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::conceptual-questions:3",
@@ -1952,9 +2953,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::conceptual-questions:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Infrared-emitting clouds generally increase downward longwave radiation relative to a clear sky, reducing the surface's net radiative loss. Slower surface cooling then reduces cooling of near-surface air. The solution correctly distinguishes this nighttime effect from daytime solar reflection.",
+        "calculation_check": "At fixed surface temperature, net outward longwave flux is emitted surface flux minus absorbed downward flux. Increasing downward flux therefore decreases net cooling without requiring any change in surface emission initially.",
+        "assumptions": "Comparable nighttime weather conditions apart from cloud cover. Cloud temperature, optical thickness, humidity, and advection affect the size of the effect; it is a general tendency rather than a universal rule.",
+        "notes": "Correct explanation through increased downward infrared radiation and reduced nighttime surface cooling.",
+        "source_sha256": "2ed98dd09d1f3cbca26aace02158799197affd9aca439879ce537be0380ba9dd",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::conceptual-questions:4",
@@ -1972,9 +2986,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::conceptual-questions:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A thermometer measures its own temperature, determined by its energy exchanges. Ventilated shielding suppresses solar heating while encouraging equilibration with air. An exposed thermometer can instead settle above air temperature because absorbed sunlight must be balanced by convection, radiation, and other heat transfers. The solution answers both shielded and unshielded cases.",
+        "calculation_check": "A simplified steady balance is αGA+hA(Tair−Ttherm)+εσA(Trad^4−Ttherm^4)=0. Adding absorbed sunlight generally raises the equilibrium thermometer temperature; suppressing radiation errors and maintaining ventilation brings it toward air temperature.",
+        "assumptions": "The thermometer has reached approximate equilibrium, the shield is properly ventilated, and support conduction and instrument self-heating are small.",
+        "notes": "Correct distinction between estimating air temperature and measuring the instrument's solar-heated equilibrium temperature.",
+        "source_sha256": "102883d670f323d0ec16d7292530d0a40880514f6c89eaf89d989e38dbb87845",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::conceptual-questions:5",
@@ -1994,9 +3021,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::conceptual-questions:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Atmospheric absorption and downward re-emission of terrestrial infrared radiation permit a warmer surface for a given planetary energy balance. Removing that greenhouse effect gives a cooler surface under comparable solar absorption. The solution appropriately identifies 255 K as an effective radiating temperature and acknowledges that an actual airless Earth would have changed albedo and temperature distribution.",
+        "calculation_check": "The illustrative balance σTeff^4=(1−α)S/4 gives 254.5 K using α=0.30 and S=1360 W/m². A 255 K blackbody emits about 240 W/m², whereas a 288 K surface emits about 390 W/m²; atmospheric recycling makes the latter compatible with lower planetary outgoing flux.",
+        "assumptions": "The numerical comparison uses a simplified equilibrium model with fixed albedo and approximately blackbody thermal emission. Effective radiating temperature is not necessarily the arithmetic mean surface temperature.",
+        "notes": "Correct greenhouse explanation and appropriately qualified temperature illustration; it is not a complete prediction for an airless Earth.",
+        "source_sha256": "bfb2f2d5c4d8404c118d2e0ac57eb0a174fda24e6e178707a89fea7dbb763af8",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:1",
@@ -2021,9 +3061,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The requested outward net rate is emitted roof power minus absorbed environmental radiation. The solution uses the correct absolute temperatures and sign, and explicitly explains the equivalent negative inward rate. The cool-roof discussion correctly distinguishes solar reflectance from thermal-infrared emissivity.",
+        "calculation_check": "0.900×5.67×10^−8×275×(303.15^4−288.15^4)=21773 W=21.8 kW. The expression has power units when σ is interpreted as W/(m²·K⁴).",
+        "assumptions": "The roof has uniform temperature and emissivity and exchanges radiation with effective surroundings uniformly at 15°C. Air temperature alone would not determine radiative surroundings on an actual clear night.",
+        "notes": "Correct 21.8 kW outward net radiation. The linked external guide was not accessed; the accompanying physical explanation is independently consistent.",
+        "source_sha256": "e3855017807f0fafa3d424caada5dedb5e1cf6d38819d0d1c55455c7d3ba91b7",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:2",
@@ -2044,9 +3097,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Part (a) correctly applies net Stefan–Boltzmann exchange and the stated 50% room fraction. For part (b), this large radiant contribution supports the proposed explanation qualitatively. However, the solution repeatedly says it demonstrates that radiation is dominant. Neither comparison with space heaters nor the radiant power alone establishes the fraction of total heat entering the room; competing convective and conductive inputs are unspecified. Upward chimney convection explains why much hot-gas energy bypasses the room but does not quantify the missing comparison.",
+        "calculation_check": "0.50×5.67×10^−8×0.980×0.200×(1123^4−291^4)=8797.6 W=8.80 kW. The equal-emissivity emission ratio is (1123/291)^4=221.8. Wien's law gives a peak near 2.58 μm, consistent with predominantly infrared emission.",
+        "assumptions": "Uniform graybody embers, room-temperature incident radiation, and a 0.50 effective room view fraction applied to net exchange. No values are supplied for other heat-transfer mechanisms.",
+        "notes": "The 8.80 kW result and infrared discussion are correct. The categorical dominance claim exceeds what the supplied heat-transfer data establish.",
+        "source_sha256": "c59e8d54a5e6502fd1c4636ac2cab651fa5ee2922cfa8a98912036bd15c0720a",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:3",
@@ -2070,9 +3136,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Net exchange is determined by the difference of the lava and surroundings' fourth powers. The surrounding chapter defines net heat into the hot body as positive, so a negative answer correctly denotes lava cooling. The corresponding outward transfer into the surroundings is positive.",
+        "calculation_check": "With 1473.15 K and 303.15 K, σA(Tlava^4−Tsurr^4)=2.6656×10^5 W outward. Thus the inward rate is approximately −266 kW, consistent with the supplied answer within ordinary temperature-conversion and rounding differences.",
+        "assumptions": "Uniform blackbody lava surface of area 1.00 m² viewing large surroundings at 30°C. The answer concerns net radiation only, not the additional convective heat transfer or a nearby person's absorbed fraction.",
+        "notes": "Magnitude is correct; the negative sign follows the chapter's convention for heat entering the lava.",
+        "source_sha256": "63f2e6c4600440902f2396b2a2686abdeb15bfd5453fbac75bcc2384a0eda7b5",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:4",
@@ -2093,9 +3172,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Both requested calculations are correct: radiation is eσA(Trad^4−Tenv^4), and a 150 kW mechanical output at 25% efficiency implies 600 kW input and 450 kW total rejected heat. The comparison correctly shows radiation is small relative to total engine rejection. The discussion then conflates total rejected heat with the coolant/radiator load when attributing the vast majority of cooling to coolant circulation and radiator airflow. Energy can also leave in exhaust and through other paths; efficiency alone does not specify their shares. The universal claim of overheating within minutes also lacks operating-load and thermal-capacity information.",
+        "calculation_check": "Using 383 K and 323 K gives 542.61 W, matching 543 W. Rejected power is 150(1/0.25−1)=450 kW, and 542.61/450000×100%=0.1206%. The first-law balance fixes total rejection but cannot determine the fraction passing through the radiator.",
+        "assumptions": "The stated horsepower is mechanical output at the specified operating point; efficiency is 25%; radiator temperature and emissivity are uniform; effective radiative surroundings are at 50°C.",
+        "notes": "Correct 543 W and 0.12% comparison. Discussion overstates what total engine waste heat implies about radiator cooling and unsupported overheating times.",
+        "source_sha256": "d12221f8b840d7f2dde860ee34c8ad51123cccf1cb7be337c69ee733332f9393",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:49:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:5",
@@ -2119,9 +3211,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Using the chapter's convention that heat entering the skier is positive, the net radiative power is eσA(T_surroundings^4−T_clothes^4). The clothes are warmer than their surroundings, so the result must be negative. The supplied emissivity determines the calculation; visible whiteness requires no additional inference.",
+        "calculation_check": "With temperatures 258.15 K and 283.15 K, P=(0.200)(5.67×10^−8)(1.60)(258.15^4−283.15^4)=−36.05 W, agreeing with −36.0 W. The outward heat-loss magnitude is 36.0 W.",
+        "assumptions": "The stated surroundings provide a uniform thermal radiation field over the exposed clothing area; emissivity and absorptivity are represented by the supplied gray-body value. Direct sunlight is excluded.",
+        "notes": "Correct magnitude and sign under the chapter's heat-into-object convention.",
+        "source_sha256": "d6d9da0fe36c7b19ffbe04558c62eee2154f6beb4b7af133f1c25db0066131f5",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:6",
@@ -2142,9 +3247,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Both calculations follow correctly if the nonradiative contributions sum to zero: radiation supplies positive power, and mc dT/dt equals that power. The parenthetical 'net heat transfer is zero' must refer only to the other contributions; if it meant total heat transfer, there would be no temperature increase. The discussion goes beyond this model by asserting that exposure will end before dangerous heating and that sweating will maintain homeostasis. Neither follows without humidity, exposure duration, and physiological information. A whole-body heat-capacity calculation also does not establish an individual's core-temperature response or safety.",
+        "calculation_check": "P=(5.67×10^−8)(0.98)(1.50)(323.15^4−310.15^4)=137.67 W. Dividing by (75.0)(3500) gives 5.244×10^−4 °C/s=0.03147 °C/min=1.888 °C/hour. The stated answers agree within rounding.",
+        "assumptions": "Sauna surfaces have the stated ambient temperature and fill the radiative surroundings. The body has uniform effective temperature and constant specific heat. The result is an initial heating rate; changing skin temperature changes radiative input. All other net energy contributions are assumed balanced.",
+        "notes": "Numerical solution is correct. The discussion makes unsupported assurances about safe exposure and successful physiological cooling, and the problem's zero-net-transfer parenthesis needs a restricted interpretation.",
+        "source_sha256": "39b9dc572b4e1b32202a7c62300f935dd0d27f14354e908234f035b278e0e08a",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:7",
@@ -2168,9 +3286,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For emitted radiant power from equal areas with unchanged emissivity, P is proportional to absolute temperature to the fourth power. Thus each percentage increase is 100[(T_hot/T_cool)^4−1]. These are emitted-power comparisons, rather than net exchanges with unspecified surroundings. The thermograph supplies illustration rather than numerical geometry.",
+        "calculation_check": "Part (a): 100[(307.15/306.15)^4−1]=1.31296%. Part (b): 100[(307.15/293.15)^4−1]=20.5154%. Both supplied answers agree.",
+        "assumptions": "Equal emitting areas and equal, temperature-independent emissivities; comparison of total emitted radiation. A net-transfer comparison would require the surroundings' temperature.",
+        "notes": "Both percentages are correct for emitted radiant power with unchanged emissivity.",
+        "source_sha256": "9ed6dafe75f5ed90027899e22fa678fb65b383a243890b1b21d40ea30f2d08cf",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:8",
@@ -2204,9 +3335,22 @@
           "error_pct": 1.1551104340226883
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:8",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "The surface area is 4πR_s^2. Stefan–Boltzmann emission determines temperature, while dividing luminosity by spherical areas gives the surface flux and irradiance at Earth. Including 3-K background absorption adds only 81 K^4 to approximately 1.09×10^15 K^4, so neglecting it is justified. The inverse-square comparison is correct. Agreement with an asserted accepted temperature is a consistency check; calculating temperature using Stefan–Boltzmann does not itself independently validate that law.",
+        "calculation_check": "A_s=6.1575×10^18 m²; T=[P/(σA_s)+3^4]^(1/4)=5743.8 K; surface flux=6.1713×10^7 W/m²; Earth-distance flux=1343.98 W/m². The supplied 5760 K differs slightly, without materially changing the result. The dilution factor is (1.50×10^11/7.00×10^8)^2=4.59×10^4.",
+        "assumptions": "Spherical, isotropic black-body emission, unobstructed propagation, and Earth distance measured from the Sun's center. The solar constant describes a receiving plane normal to the rays outside the atmosphere.",
+        "notes": "All three requested results and the geometric model are sound within the permitted numerical tolerance. The asserted current measured solar constant was not externally verified; 1370 W/m² is not a rounding of the computed 1344 W/m².",
+        "source_sha256": "1a3a4fe83b305237bb2354efbd14b1060334849e2ff9c32a9cdc03b803c0f88f",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:9",
@@ -2230,9 +3374,22 @@
         "skipped": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Radiation depends on the surface temperature, not the hotter interior temperature. The outward rate is σA(T_surface^4−T_surroundings^4). Equating its magnitude to the conductive rate kA(T_interior−T_surface)/d determines the layer thickness. The local conduction table lists brick conductivity as 0.84 W/(m·K).",
+        "calculation_check": "Radiative loss=(5.67×10^−8)(1.00)(723.15^4−300.15^4)=15045.7 W. Therefore d=(0.84)(1.00)(1200−450)/15045.7=0.04187 m=4.19 cm. Both answers agree.",
+        "assumptions": "Black-body surface, uniform surroundings, approximately one-dimensional steady conduction, constant brick-like conductivity, and conduction supplying exactly the radiative loss. The negative power uses the chapter's heat-into-lava convention.",
+        "notes": "Correct radiative loss and conductive thickness; the minus sign denotes energy leaving the lava.",
+        "source_sha256": "212d1fe91c7dfb0277e2a11a1d5b0d887b6c8c3fb75c43608a06c725821e434d",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:10",
@@ -2253,9 +3410,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a black receiving surface viewing a uniform black-body sky, net incoming flux is σ(T_sky^4−T_body^4). Including the body's own emission is necessary because the problem supplies its temperature and asks for energy transfer to it. The resulting effective temperature represents equivalent bolometric irradiation, not an arithmetic average of sky temperatures or an equivalent spectrum.",
+        "calculation_check": "T_sky=[1000/(5.67×10^−8)+300.15^4]^(1/4)=400.596 K=127.446 °C. Rounding to 401 K and approximately 128 °C is acceptable. The body emits approximately 460 W/m², so the equivalent sky supplies approximately 1460 W/m² gross.",
+        "assumptions": "Unit receiving-surface absorptivity/emissivity, as explicitly introduced by the solution, and a sky filling its radiative field of view. Without absorptivity and viewing geometry, the result is conditional. The discussion's precise solar solid-angle estimate was not needed for the calculation.",
+        "notes": "Correct conditional black-body calculation. The effective average must be understood through radiation and fourth powers, and 1000 W/m² is net rather than gross irradiation here.",
+        "source_sha256": "7fa07eb61cc6fc602dfc79d6d30aea55d8e829921f16f2090344a836975e154b",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:11",
@@ -2279,9 +3449,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:11",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Part (a) uses the stated half-strength geometry: 20 W=(1/2)eσA(T_canvas^4−T_skin^4), because the remaining surroundings are at skin temperature and contribute zero net exchange. This gives the supplied canvas temperature. Part (b) correctly associates greater solar reflectance with reduced solar heating, other properties held fixed. However, it incorrectly extends visible whiteness to protection from the canvas's thermal infrared radiation. A visibly white tunic can strongly absorb infrared; its insulation and infrared optical properties, rather than its visible color alone, determine its effect.",
+        "calculation_check": "T_canvas=[307.15^4+20/((0.5)(0.970)(5.67×10^−8)(0.400))]^(1/4)=321.761 K=48.61 °C. Using integer kelvin temperatures gives approximately 48.6 °C, consistent with 48.5 °C. Canvas at about 322 K emits primarily near 9 μm, far outside visible wavelengths.",
+        "assumptions": "The stated factor of one-half incorporates viewing geometry; the hot canvas supplies the corresponding thermal radiation field. Lower tent temperature from whitening assumes increased solar reflectance without counteracting changes in thermal emissivity, transmission, or other heat transfer.",
+        "notes": "Part (a) is correct. Part (b) conflates visible reflectance with thermal-infrared reflectance; a white tunic's radiative protection is not established by its color.",
+        "source_sha256": "1645dab3041bb628a73021b28cd59066fcf2bbdbbbbadb6d6d09732bd152c951",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:12",
@@ -2306,9 +3489,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:12",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The vapor-density subtraction correctly gives condensed water for the fixed-volume interpretation. Condensation releases heat, and the hypothetical constant-pressure warming calculation correctly uses dry-air c_p. However, the selected latent heat is explicitly the local table's value at water's 100 °C boiling point, whereas condensation here occurs near room temperature. The chapter itself explains that latent heat is larger at lower temperatures and gives 2.428 MJ/kg even at 37 °C. Using 2.256 MJ/kg without acknowledging this temperature mismatch understates both released heat and hypothetical warming.",
+        "calculation_check": "Condensed mass=(0.750)(30.4)−17.2=5.6 g per m³. With the chosen latent heat, Q=12633.6 J and ΔT=12633.6/(1.20×1005)=10.476 °C, so the arithmetic is correct. Even using the chapter's 37 °C value gives Q=13596.8 J and ΔT=11.27 °C; the appropriate lower-temperature latent heat is larger still.",
+        "assumptions": "A fixed cubic meter without vapor exchange, ending saturated at 20 °C. Part (c) separately imagines transferring the released heat to 1.20 kg of dry air at constant pressure; it is not a coupled overnight cooling prediction. Exact room-temperature latent-heat data were not supplied in the inspected table.",
+        "notes": "Part (a) and the heat-capacity method are correct. Parts (b) and (c) use a 100 °C latent heat outside its stated temperature domain, producing a material underestimate.",
+        "source_sha256": "2f533bbdce11713964eb1c323c877d221c1734293389e72681f874c545712a7f",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:13",
@@ -2332,9 +3528,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:13",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "Part (a) follows from nonrelativistic kinetic energy. Part (b) equates 80% of that energy to m_water c_water ΔT and correctly describes an equivalent uniformly warmed mass. Part (c) reasonably identifies violent water motion and impact-generated waves as effects excluded from that simple heating calculation. More precisely, waves carry both kinetic and gravitational potential energy; that mechanical energy is subsequently dissipated. 'Tidal waves' is imprecise terminology for impact-generated waves.",
+        "calculation_check": "KE=(1/2)(10^9)(25000)^2=3.125×10^17 J. Heated-water mass=(0.80)(3.125×10^17)/(4186×5.0)=1.194×10^13 kg. The supplied one-significant-figure answers, 3×10^17 J and 1×10^13 kg, are consistent.",
+        "assumptions": "The specified 80% thermal allocation is imposed for part (b), water remains liquid in the equivalent heating calculation, and its specific heat is constant. Actual impact partition among shocks, vaporization, bulk motion, and waves cannot be quantified from these givens.",
+        "notes": "Numerical parts are correct at the stated precision. The qualitative wave explanation is reasonable but abbreviated; it establishes neither an energy fraction nor a quantitative impact prediction.",
+        "source_sha256": "cee05db72e83f04f3857c3f7c6cc0c5dba512243efc86710c7489dde57055fe8",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:14",
@@ -2355,9 +3564,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:14",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The decrease in mechanical energy before impact is mgh+(1/2)m(v_i²−v_f²). Dividing by latent heat correctly gives the maximum ice mass this energy could melt if entirely deposited in 0 °C ice. The discussion incorrectly treats this maximum as an actual prediction of 8.6 kg liquid and an 11.4 kg solid core. Drag also heats and moves surrounding air, and the supplied trajectory gives no partition into the ice. Residual kinetic energy at 100 m/s is appropriately excluded from the pre-impact loss, but any subsequent impact heating would require a separate allocation.",
+        "calculation_check": "Potential-energy loss=2.352 MJ; kinetic-energy decrease=0.525 MJ; total mechanical-energy decrease=2.877 MJ. Maximum melted mass=2.877×10^6/(334×10^3)=8.614 kg, or 43.1%. The kinetic-energy decrease is 1−(100/250)^2=84%, rather than the discussion's 82%.",
+        "assumptions": "Constant g, the stated mass used throughout the mechanical-energy calculation, and initially 0 °C pure-ice behavior. The melting result assumes all lost mechanical energy becomes latent heat in the ice, with no environmental heating, warming, evaporation, or lost melt.",
+        "notes": "The 8.61 kg result is correct as an idealized maximum. Claims that this amount actually melts and remains with an 11.4 kg core are unsupported by the energy-partition information.",
+        "source_sha256": "fb2c7e70fac42e567b3258f3fc8c020ab5d67711838b453c91d8c692b3175ac5",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:15",
@@ -2381,9 +3603,22 @@
         "skipped": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:15",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A steady air stream carrying away sensible heat at approximately constant pressure satisfies P=ṁc_pΔT=ρV̇c_pΔT. Thus the solution correctly uses c_p and divides by density to obtain volume flow. The enormous required flow is qualitatively consistent with large tower structures. The distinction between this sensible-heating model and evaporative cooling is physically appropriate.",
+        "calculation_check": "V̇=1.600×10^9/[(1.29)(1000)(5.00)]=2.4806×10^5 m³/s. The corresponding mass flow is 3.20×10^5 kg/s. Units reduce to (J/s)/[(kg/m³)(J/(kg·K))K]=m³/s.",
+        "assumptions": "Steady flow, representative constant air density and c_p, negligible changes in kinetic and potential energy, and all stated power removed through sensible warming in part (a). Density introduces a modest dependence on inlet conditions.",
+        "notes": "Correct flow calculation and appropriate discussion of tower scale and the additional role of evaporation.",
+        "source_sha256": "dac5ae6235d5ec0b064342f8362c80c44e2965e9b1da941ff59d8c57e12b05eb",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:16",
@@ -2404,9 +3639,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch14Radiation.md::problems-exercises:16",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The efficiency accounting is correct: mechanical power is mgh times the step frequency, and retained waste-heat power is P_mech(1/η−1). Equating its time integral to mcΔT gives t=cΔT/[(1/η−1)ghf], with body mass canceling. However, stair height is absent from the problem. The solution openly assumes 0.20 m, making its numerical result conditional rather than uniquely determined by the givens. The discussion also overstates physiological conclusions: feeling warm does not verify a 1 °C whole-body rise, and hydration alone does not ensure that prolonged exercise avoids overheating.",
+        "calculation_check": "For h=0.20 m and f=116/60 s^−1, P_mech=287.99 W, metabolic power=1439.95 W, and waste heat=1151.96 W. Heating 76.0 kg by 1.00 °C requires 266000 J, giving t=230.91 s=3.85 min, consistent with the supplied arithmetic. A 0.15 m step instead gives 307.88 s, demonstrating the missing-height dependence.",
+        "assumptions": "The additional 0.20 m step-height assumption, constant efficiency and body specific heat, mechanical work leaving the body, and balanced other energy contributions. The body is modeled as one uniform thermal reservoir, and baseline metabolism is assumed balanced or excluded.",
+        "notes": "Correct conditional calculation, but the problem lacks stair height and therefore has no unique numerical answer. Discussion equates subjective warmth with whole-body heating and gives overly broad assurances about cooling and hydration.",
+        "source_sha256": "7f1095dbc08109b526a5c9795ff90f5d20d5fd770dee3e1de8be4a2f9e16c509",
+        "file_sha256": "fde27f3ac0083653830802da8e62de42130b70a7ef652c02dc6e45f7a1c5bbc8",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-23T19:53:56+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch14Radiation.md::problems-exercises:17",

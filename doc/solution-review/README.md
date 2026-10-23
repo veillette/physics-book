@@ -1,8 +1,8 @@
 # Solution review ledger: chapters 1–34
 
-Last refresh: 2026-10-23T18:50:11+00:00. Source digest: `634d358c32656e25c48dfd0996eb864aac4fcab34f01b1d29c7f1af7b9eb89f1`.
+Last refresh: 2026-10-23T19:54:03+00:00. Source digest: `fe7427e3fc87178ce25965bbb3b91a4f949a4af84cc96074e3d0f1fea95aae2b`.
 
-**3561 inventoried items; 1159 current substantive reviews; 269 items without solution text.**
+**3561 inventoried items; 1347 current substantive reviews; 269 items without solution text.**
 
 **Status: automated screening covers all 34 chapters. The substantive reasoning review is in progress; pending entries have no correctness verdict.**
 
@@ -30,8 +30,8 @@ Automatic counts below cover the entire source block, sometimes including the pr
 | 10 | 100 | 100 | 100 | 0 | 0 | [Chapter 10](chapter-10.md) |
 | 11 | 139 | 139 | 139 | 0 | 3 | [Chapter 11](chapter-11.md) |
 | 12 | 110 | 110 | 110 | 0 | 1 | [Chapter 12](chapter-12.md) |
-| 13 | 116 | 116 | 24 | 92 | 26 | [Chapter 13](chapter-13.md) |
-| 14 | 123 | 123 | 0 | 123 | 17 | [Chapter 14](chapter-14.md) |
+| 13 | 116 | 116 | 116 | 0 | 26 | [Chapter 13](chapter-13.md) |
+| 14 | 123 | 123 | 96 | 27 | 17 | [Chapter 14](chapter-14.md) |
 | 15 | 110 | 110 | 0 | 110 | 4 | [Chapter 15](chapter-15.md) |
 | 16 | 116 | 116 | 1 | 115 | 2 | [Chapter 16](chapter-16.md) |
 | 17 | 117 | 117 | 0 | 117 | 11 | [Chapter 17](chapter-17.md) |
@@ -56,7 +56,7 @@ Automatic counts below cover the entire source block, sometimes including the pr
 ## Checks and evidence
 
 - Math delimiters: exit 0; [full output](math-delimiters.txt).
-- Physics/arithmetic scan: 8865 checked, 111 flagged, 48388 skipped across the chapter source files.
+- Physics/arithmetic scan: 8865 checked, 111 flagged, 48421 skipped across the chapter source files.
 - Existing source-bound cases provide only selected coverage; their per-chapter counts are in ledger.json. They do not cover every exercise.
 - [Contextual review of automatic flags](automatic-flag-review.md).
 - [Machine-readable ledger](ledger.json), append-only substantive judgments in [reviews.json](reviews.json), and [run history](runs.jsonl).

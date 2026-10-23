@@ -1,16 +1,16 @@
 {
   "chapter": 6,
-  "checked_at": "2026-10-23T18:50:06+00:00",
+  "checked_at": "2026-10-23T19:53:58+00:00",
   "summary": {
-    "total": 1725,
+    "total": 1732,
     "checked": 298,
     "failed": 0,
-    "skipped": 1427,
+    "skipped": 1434,
     "by_kind": {
       "equation": {
         "checked": 293,
         "failed": 0,
-        "skipped": 1427
+        "skipped": 1434
       },
       "case": {
         "checked": 5,
@@ -26,8 +26,8 @@
       ]
     },
     "skip_reasons": {
-      "no supported equality": 623,
-      "unsupported symbol": 156,
+      "no supported equality": 628,
+      "unsupported symbol": 158,
       "unbound variable": 630,
       "unsupported operand": 1,
       "unit-only expression or text label needs a numeric value": 7,
@@ -622,7 +622,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "95f4c79c44fe397aa6dd204b2b619f7cfa96db7e5d9c45b9d23237f8e2a7b6b4",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "::: example {\"class\":\"example\",\"id\":\"car-curve\"} What Coefficient of Friction Do Car Tires Need on a Flat Curve? (a) Calculate the centripetal force exerted on a 900 kg car that n…",
       "has_solution": true,
       "missing_labels": [],
@@ -635,19 +635,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6CentripetalForce.md#car-curve",
+        "source_sha256": "95f4c79c44fe397aa6dd204b2b619f7cfa96db7e5d9c45b9d23237f8e2a7b6b4",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For the unbanked curve, vertical balance gives N = mg, and inward static friction must equal mv²/r. The minimum coefficient follows from mv²/r ≤ μ_s mg, with equality at the threshold. The inspected Figure 2 correctly shows the force directions. The discussion correctly explains responsive static friction, increased allowable speed, and mass cancellation within this model. Its final statement that banking makes the normal force greater than weight needs a restriction to the ideal frictionless case; it is false for some frictional banked turns.",
         "calculation_check": "F_c = 900(25.0²)/500 = 1125 N and μ_min = 625/(500×9.80) = 0.127551, appropriately rounded to 0.13. For a frictional bank, projecting Newton's law perpendicular to the surface gives N/(mg) = cosθ + [v²/(rg)]sinθ. At the same speed and radius with θ = 30°, this is 0.9298, below unity; sufficient uphill static friction makes this motion possible.",
         "assumptions": "Constant-speed turning on a level surface, Coulomb static-friction model, no aerodynamic downforce, and no tipping. For a frictionless ideal bank only, N cosθ = mg implies N > mg.",
         "notes": "Both requested answers are correct. The discussion's banking claim is overgeneralized: N exceeds weight for an ideal frictionless bank, but need not do so with friction.",
-        "source_sha256": "95f4c79c44fe397aa6dd204b2b619f7cfa96db7e5d9c45b9d23237f8e2a7b6b4",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md#banked-curve",
@@ -658,7 +658,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "e78538a6fe4ea24e77c0ecf64eff11a946a0af2307db2d62d2b90c25fd3996a3",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "::: example {\"class\":\"example\",\"id\":\"banked-curve\"} What Is the Ideal Speed to Take a Steeply Banked Tight Curve? Curves on some test tracks and race courses, such as the Daytona…",
       "has_solution": true,
       "missing_labels": [],
@@ -671,19 +671,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md#banked-curve",
+        "source_sha256": "e78538a6fe4ea24e77c0ecf64eff11a946a0af2307db2d62d2b90c25fd3996a3",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With no friction and no vertical acceleration, N cosθ = mg while N sinθ = mv²/r. Dividing eliminates N and m, yielding tanθ = v²/(rg) and v = sqrt(rg tanθ). This directly answers the stated problem. Above the ideal speed, friction directed down the bank can increase the inward force, supporting the discussion's qualitative claim.",
         "calculation_check": "tan65.0° = 2.14451, so v = sqrt(100×9.80×2.14451) = 45.8434 m/s = 165.036 km/h. The reported 45.8 m/s and approximately 165 km/h agree. The quantity inside the square root has dimensions m²/s².",
         "assumptions": "A horizontal circular trajectory, bank angle measured from horizontal, negligible aerodynamic forces, and a vehicle stable against overturning. The requested result assumes zero friction; the higher-speed observation assumes sufficient available friction and stability.",
         "notes": "Correct force model, algebra, numerical speed, and qualitative friction discussion.",
-        "source_sha256": "e78538a6fe4ea24e77c0ecf64eff11a946a0af2307db2d62d2b90c25fd3996a3",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:1",
@@ -694,7 +694,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "dcc72cca4bb9e2938d7ec084ec4b284c1e6edbac3586ef771210b8e448ad74a1",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "If you wish to reduce the stress (which is related to centripetal force) on high-speed tires, would you use large- or small-diameter tires? Explain.",
       "has_solution": true,
       "missing_labels": [
@@ -709,19 +709,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:1",
+        "source_sha256": "dcc72cca4bb9e2938d7ec084ec4b284c1e6edbac3586ef771210b8e448ad74a1",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "At fixed rolling speed, the acceleration and required inward force on a fixed-mass tread piece do decrease as 1/r. However, the conclusion about lower tire stress does not follow: internal tensile stress also depends on the geometry and load distribution. A thin rotating hoop provides a direct counterexample. For a small angular segment, the inward resultant of hoop tension is T dθ, while its mass is ρAr dθ. Equating this to its mass times v²/r gives T = ρAv², hence stress T/A = ρv², independent of radius.",
         "calculation_check": "The example accelerations, 30²/0.30 = 3000 m/s² and 30²/0.40 = 2250 m/s², and the forces 30 N and 22.5 N on a 0.010 kg piece are correct. They do not establish the claimed stress reduction. The hoop result ρv² has pressure dimensions and contains no radius at fixed speed.",
         "assumptions": "Rolling without slipping at the same vehicle speed. The counterexample uses a uniform thin hoop of density ρ and cross-sectional area A with centrifugal loading supported by circumferential tension. Actual tire stress additionally depends on construction, pressure, dimensions, and rim support.",
         "notes": "Correct tread-acceleration arithmetic, but a substantive force-to-stress inference error. Larger diameter alone does not establish lower rotational tensile stress.",
-        "source_sha256": "dcc72cca4bb9e2938d7ec084ec4b284c1e6edbac3586ef771210b8e448ad74a1",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:2",
@@ -732,7 +732,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "3452ecf4080d2432a20cd369c74ff79d77b6b2beaabea58d7102ff830fe5566d",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Define centripetal force. Can any type of force (for example, tension, gravitational force, friction, and so on) be a centripetal force? Can any combination of forces be a centrip…",
       "has_solution": true,
       "missing_labels": [
@@ -747,19 +747,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:2",
+        "source_sha256": "3452ecf4080d2432a20cd369c74ff79d77b6b2beaabea58d7102ff830fe5566d",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly identifies centripetal force as a role of real forces rather than an additional interaction, and answers both questions about individual forces and combinations. Its statement that the net inward component matters accommodates circular motion with tangential acceleration. For uniform circular motion, that component is the entire net force. The listed tension, gravity, friction, normal-force, and combined-force examples illustrate this correctly.",
         "calculation_check": "The string example requires an inward force m v²/r = 1.0×4.0²/0.50 = 32 N. Also, substituting v = rω gives mv²/r = mrω², so the two displayed expressions are equivalent and have force dimensions.",
         "assumptions": "Inertial-frame Newtonian mechanics and instantaneous circular radius r. The horizontal-string example requires vertical support or an approximation neglecting gravity; 32 N is the radial tension under that condition. Nonuniform motion can also have a tangential net-force component.",
         "notes": "Correct definition and examples within the circular-motion model. The horizontal-string numerical illustration implicitly requires vertical force balance.",
-        "source_sha256": "3452ecf4080d2432a20cd369c74ff79d77b6b2beaabea58d7102ff830fe5566d",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:3",
@@ -770,7 +770,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "b3b5cc1201b43b664070b9019e50709405acb17224585b14d7ae45064ff4fefc",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "If centripetal force is directed toward the center, why do you feel that you are ‘thrown’ away from the center as a car goes around a curve? Explain.",
       "has_solution": true,
       "missing_labels": [
@@ -785,19 +785,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:3",
+        "source_sha256": "b3b5cc1201b43b664070b9019e50709405acb17224585b14d7ae45064ff4fefc",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Without a horizontal contact force, the passenger follows the instantaneous tangent while the car curves inward. Relative to the car, this produces apparent outward displacement until the seat, restraint, or door supplies inward force. The inspected SVG correctly draws the tangent and an inward force toward the center. The solution also correctly confines centrifugal force to the rotating-frame description.",
         "calculation_check": "The required horizontal force is 60×15²/50 = 270 N inward. As v approaches zero or r grows without bound, the required turning force approaches zero, consistent with the explanation.",
         "assumptions": "Approximately inertial Earth frame, a level constant-speed turn, and vertical forces balanced. The no-force tangent description means no horizontal force. The fictitious centrifugal-force statement concerns the car's rotating frame.",
         "notes": "Correct explanation of inertia, relative motion, force direction, and the numerical illustration; the diagram agrees.",
-        "source_sha256": "b3b5cc1201b43b664070b9019e50709405acb17224585b14d7ae45064ff4fefc",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:4",
@@ -807,8 +807,8 @@
       "end_line": 443,
       "kind": "conceptual-questions",
       "ordinal": 4,
-      "source_sha256": "0a68faa9e43c959164bf3c9ed843ac612303b6fe6396abb1c9782c374e5485fc",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "source_sha256": "6ad9d1d03100201efcd07db65f20a713eb1dbd4141b97d7a2bf34a0ac4020de9",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Race car drivers routinely cut corners as shown in [Figure 4](#Figure4). Explain how this allows the curve to be taken at the greatest speed. ![Two cars follow a left-hand bend vi…",
       "has_solution": true,
       "missing_labels": [
@@ -820,22 +820,19 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:4",
-        "verdict": "concern",
+        "source_sha256": "6ad9d1d03100201efcd07db65f20a713eb1dbd4141b97d7a2bf34a0ac4020de9",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The physical mechanism and limiting-speed relation are correct: for the same available lateral friction, increasing turning radius permits greater speed. However, the solution reverses the figure's path identities. The inspected SVG labels the red outside–inside–outside corner-cutting trajectory as Path 1 and the blue road-following trajectory as Path 2; its annotation explicitly states r1 > r2. The solution instead calls Path 1 the sharper small-radius route and Path 2 the corner-cutting route.",
-        "calculation_check": "From mv²/r ≤ μ_s mg, v_max = sqrt(μ_s rg). At μ_s = 1, the illustrative speeds are sqrt(50×9.80) = 22.136 m/s and sqrt(80×9.80) = 28.0 m/s. Thus the larger-radius route is faster, and the figure requires v_max,1 > v_max,2.",
-        "assumptions": "A flat track, equal static-friction availability on both paths, negligible aerodynamic effects, no tipping, and no competing braking or driving demand on tire friction. The comparison concerns available turning radius.",
-        "notes": "Correct law and numerical examples, but the solution reverses Paths 1 and 2 relative to the supplied figure. Path 1 is the larger-radius corner-cutting route.",
-        "source_sha256": "0a68faa9e43c959164bf3c9ed843ac612303b6fe6396abb1c9782c374e5485fc",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "notes": "Correct law v_max = sqrt(μ_s r g) and numerical examples. Fixed: path labels now match Figure 4: Path 2 follows the middle of the road with the smaller radius; Path 1 cuts the corner with the larger radius.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:5",
@@ -846,7 +843,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "4b51cbe5f162f1895080d03f9a4b3eecdc644210607d5f34eb95501db7816aac",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "A number of amusement parks have rides that make vertical loops like the one shown in [Figure 5](#Figure5). For safety, the cars are attached to the rails in such a way that they…",
       "has_solution": true,
       "missing_labels": [
@@ -861,19 +858,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:5",
+        "source_sha256": "4b51cbe5f162f1895080d03f9a4b3eecdc644210607d5f34eb95501db7816aac",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "At the top, acceleration is downward. With upward positive, F_track,y − mg = −mv²/r, so the track force is downward above sqrt(rg) and upward below it. These directions answer both parts. The inspected loop image supports the upside-down orientation, and the referenced free-body SVG correctly shows the two force cases. Rail capture permits the upward force required at low speed.",
         "calculation_check": "For r = 10 m, the gravity-only speed is sqrt(98) = 9.8995 m/s. For a 500 kg car, F_track,y = 4900 − 500(14²)/10 = −4900 N; at 7.0 m/s it is 4900 − 500(7²)/10 = +2450 N. At the threshold the track force vanishes, and as speed approaches zero it approaches +mg.",
         "assumptions": "The car follows the constrained path, r is the local radius at the top, and drag or tangential drive forces are neglected. The track and safety-wheel assembly can exert force in either radial direction.",
         "notes": "Both force directions, the threshold, illustrative calculations, and diagrams are correct.",
-        "source_sha256": "4b51cbe5f162f1895080d03f9a4b3eecdc644210607d5f34eb95501db7816aac",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:6",
@@ -884,7 +881,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "7abb3c241b1615d7416d222364ea1d68a2047a289868086796d5f9c9a8625153",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in [Figure 5](#Figure5) under the following circ…",
       "has_solution": true,
       "missing_labels": [
@@ -899,19 +896,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:6",
+        "source_sha256": "7abb3c241b1615d7416d222364ea1d68a2047a289868086796d5f9c9a8625153",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Applying Newton's law to the passenger gives F_car,y = mg − mv²/r. Consequently the car exerts zero force at the gravity-only speed, downward force at higher speed, and upward restraint force at lower speed. An inverted seat can push downward, while a harness or safety bar provides the upward force. The inspected passenger free-body SVG correctly distinguishes all three cases, and the weightlessness and loss-of-seat-contact explanations follow.",
         "calculation_check": "For m = 60 kg and r = 10 m, mg = 588 N and sqrt(rg) = 9.8995 m/s. The forces at 14 and 7.0 m/s are respectively −588 N and +294 N. Using the rounded 9.9 m/s gives −0.060 N rather than exact zero; this is harmless rounding of the threshold speed.",
         "assumptions": "The passenger remains constrained to the stated circular path, with their trajectory radius approximated by the ride's radius. Restraints can supply upward force; preload, aerodynamic forces, and finite car–passenger radius differences are neglected.",
         "notes": "All three cases are correctly explained and calculated. The tiny threshold residual is ordinary rounding, not a substantive error.",
-        "source_sha256": "7abb3c241b1615d7416d222364ea1d68a2047a289868086796d5f9c9a8625153",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:33:54+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:33:54+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:7",
@@ -922,7 +919,7 @@
       "kind": "conceptual-questions",
       "ordinal": 7,
       "source_sha256": "6b0804088760683c0dd495b4b4f155877ad1305f602af046f1f4059b697bee41",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "As a skater forms a circle, what force is responsible for making her turn? Use a free body diagram in your answer.",
       "has_solution": true,
       "missing_labels": [
@@ -937,19 +934,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:7",
+        "source_sha256": "6b0804088760683c0dd495b4b4f155877ad1305f602af046f1f4059b697bee41",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "The inward force exerted by the ice supplies the centripetal acceleration. The diagram correctly separates inward contact force, upward support, and weight, and the lean condition correctly prevents an overturning torque. However, the solution treats grip from a blade cutting into ice as ordinary static friction with an established coefficient of approximately 0.4. Groove contact and ice deformation require justification beyond a Coulomb friction model; the supplied material does not establish this coefficient.",
         "calculation_check": "The illustrative values give N = 55(9.80) = 539 N, inward force = 55(6.0)^2/10 = 198 N, and horizontal-to-vertical contact-force ratio 198/539 = 0.367. These calculations establish the required force ratio, not the available grip. Chapter 5 lists 0.04 for steel-on-ice static friction; that flat-contact value does not establish the coefficient for an embedded blade edge.",
         "assumptions": "Steady horizontal circular motion, negligible longitudinal resistance, no sideways slipping, and a lean that aligns the resultant ice force through the center of mass. The numerical example introduces givens absent from the question.",
         "notes": "Force direction and arithmetic are correct. The identification of edge grip with Coulomb static friction and the asserted coefficient of 0.4 lack support; the actual edge-contact capability remains unverified.",
-        "source_sha256": "6b0804088760683c0dd495b4b4f155877ad1305f602af046f1f4059b697bee41",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:8",
@@ -960,7 +957,7 @@
       "kind": "conceptual-questions",
       "ordinal": 8,
       "source_sha256": "abc5abd03cd5d9774fd4d75ba7f465df35c036cb28f84016000ac1d3b818521b",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Suppose a child is riding on a merry-go-round at a distance about halfway between its center and edge. She has a lunch box resting on wax paper, so that there is very little frict…",
       "has_solution": true,
       "missing_labels": [
@@ -975,19 +972,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:8",
+        "source_sha256": "abc5abd03cd5d9774fd4d75ba7f465df35c036cb28f84016000ac1d3b818521b",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With negligible horizontal force, the box retains its tangential release velocity in Earth's frame, selecting the straight path B in the inspected figure. To check the platform trail, take release position (r0,0) and clockwise angular speed omega. With u = omega t, platform coordinates are x = r0(cos u + u sin u), y = r0(sin u - u cos u). Their derivatives are proportional to (u cos u,u sin u), so the trail initially points outward and its tangent turns counterclockwise, giving leftward curvature. The supplied SVG agrees.",
         "calculation_check": "For the example, v = r0 omega = 1.0 m/s. The edge is reached when r0^2 + v^2 t^2 = R^2, giving t = sqrt(16 - 4) = 3.464 s. The platform turns 1.732 rad = 99.24 degrees. Both reported values are correct.",
         "assumptions": "Constant platform angular velocity, release without an additional push, negligible friction and air resistance, and continued support until the box reaches the edge. Relative velocity is initially zero; 'starts outward' describes the limiting trail direction.",
         "notes": "Correct Earth-frame path B, outward initial trail direction, leftward platform-frame curvature, and illustrative timing.",
-        "source_sha256": "abc5abd03cd5d9774fd4d75ba7f465df35c036cb28f84016000ac1d3b818521b",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:9",
@@ -998,7 +995,7 @@
       "kind": "conceptual-questions",
       "ordinal": 9,
       "source_sha256": "3826d270d6479afdb2b0883d557fa4d7dd0c4ae93425cc8d5f71f89b4dd93654",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Do you feel yourself thrown to either side when you negotiate a curve that is ideally banked for your car’s speed? What is the direction of the force exerted on you by the car sea…",
       "has_solution": true,
       "missing_labels": [
@@ -1013,19 +1010,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:9",
+        "source_sha256": "3826d270d6479afdb2b0883d557fa4d7dd0c4ae93425cc8d5f71f89b4dd93654",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a seat tilted with the ideally banked road, N cos theta = mg and N sin theta = mv^2/r. Thus tan theta = v^2/(rg), and the seat supplies the required acceleration without a force parallel to its surface. In the passenger's rotating frame, gravity and the outward inertial term combine perpendicular to the seat, explaining the absence of a sideways sliding sensation. The inspected diagram has the correct force directions.",
         "calculation_check": "For 70 kg and 20 degrees, N = 686/cos(20 degrees) = 730.03 N. The support-to-weight ratio is 1.06418, approximately 6.4 percent greater than ordinary weight.",
         "assumptions": "Steady circular motion at the ideal speed, seat bank angle equal to the road angle, negligible suspension roll, and no tangential acceleration. 'Down into the seat' is relative to the tilted seat.",
         "notes": "Correct support direction and explanation of why no sideways seat force is required; the numerical example checks.",
-        "source_sha256": "3826d270d6479afdb2b0883d557fa4d7dd0c4ae93425cc8d5f71f89b4dd93654",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::conceptual-questions:10",
@@ -1036,7 +1033,7 @@
       "kind": "conceptual-questions",
       "ordinal": 10,
       "source_sha256": "ca6b89e5232071f92162eec8f6997cab45ba3d72b00c9befa4e5efc02c709020",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Suppose a mass is moving in a circular path on a frictionless table as shown in figure. In the Earth’s frame of reference, there is no centrifugal force pulling the mass away from…",
       "has_solution": true,
       "missing_labels": [
@@ -1051,19 +1048,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::conceptual-questions:10",
+        "source_sha256": "ca6b89e5232071f92162eec8f6997cab45ba3d72b00c9befa4e5efc02c709020",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The string pulls inward on the mass, and the mass exerts the equal outward third-law reaction on the string. The nail supplies an inward force at the string's other end, producing tensile loading. These end forces act on the string; they do not constitute an outward centrifugal force on the mass in Earth's frame. The inspected figures support this distinction. Molecular electromagnetic interactions provide the contact and elastic restoring forces.",
         "calculation_check": "T = mv^2/r = 0.50(2.0)^2/0.40 = 5.0 N. Its units are kg m/s^2. Equal 5.0 N end pulls produce tension of 5.0 N, rather than 10 N.",
         "assumptions": "Negligible string mass, a taut string with small elastic extension, steady circular motion, and a fixed nail. Equal end tensions neglect the force needed to accelerate the string's own mass.",
         "notes": "Correct third-law explanation, physical origin of tension, and 5.0 N example.",
-        "source_sha256": "ca6b89e5232071f92162eec8f6997cab45ba3d72b00c9befa4e5efc02c709020",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md#merry-go-round",
@@ -1074,7 +1071,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "a39232e1f718845eacc90282a9445a3a5cebdf24154baa17033c098abc6fa5d8",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "(a) A 22.0 kg child is riding a playground merry-go-round that is rotating at 40.0 rev/min. What centripetal force must the merry-go-round exert on her to keep her moving in a cir…",
       "has_solution": true,
       "missing_labels": [],
@@ -1087,19 +1084,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md#merry-go-round",
+        "source_sha256": "a39232e1f718845eacc90282a9445a3a5cebdf24154baa17033c098abc6fa5d8",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The child's inward acceleration is r omega^2, so the required horizontal ride force is mr omega^2. Vertical support balances weight. Both rotations are converted correctly, and all three requested parts are answered. The discussion correctly places the outward third-law reaction on the ride. At fixed angular speed, increasing radius increases the required force, so the second ride's larger radius partially offsets its much smaller angular speed.",
         "calculation_check": "Using unrounded angular speeds gives omega_a = 4.18879 rad/s and omega_b = 0.314159 rad/s. Forces are 482.514 N and 17.3705 N. Weight is 215.6 N, giving ratios 2.23801 and 0.0805682, consistent with 483 N, 17.4 N, 2.24, and 0.0806.",
         "assumptions": "Uniform rotation on a horizontal platform, fixed rider radius, negligible other horizontal forces, and sufficient grip or restraint to transmit the calculated force.",
         "notes": "All parts, force comparisons, diagram directions, and third-law discussion are consistent.",
-        "source_sha256": "a39232e1f718845eacc90282a9445a3a5cebdf24154baa17033c098abc6fa5d8",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:2",
@@ -1110,7 +1107,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "158b6300f497815cb57e9d417b7efa5800c2582c760e6878e0c7a35b3a4b954d",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Calculate the centripetal force on the end of a 100 m (radius) wind turbine blade that is rotating at 0.5 rev/s. Assume the mass is 4 kg.",
       "has_solution": true,
       "missing_labels": [],
@@ -1123,19 +1120,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:2",
+        "source_sha256": "158b6300f497815cb57e9d417b7efa5800c2582c760e6878e0c7a35b3a4b954d",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A 4 kg mass concentrated at radius 100 m has inward acceleration r omega^2. Converting 0.5 rev/s to pi rad/s therefore gives the stated net centripetal force. The discussion correctly identifies the structural loading associated with maintaining circular motion and the advantage of reducing rotating mass. This calculation is not a distributed-blade stress analysis.",
         "calculation_check": "F = 4(100)(pi)^2 = 3947.84 N, or approximately 3.95 kN. The acceleration is 986.96 m/s^2, and kg m/s^2 gives newtons.",
         "assumptions": "The stated 4 kg represents a tip mass rather than the mass of an entire distributed blade. Rotation is steady. Gravity and aerodynamic forces would affect the structural force required around an actual turbine's rotation.",
         "notes": "Correct 3.95 kN net radial force for the tip-mass model. The specific claim about turbine composite construction was not independently verified.",
-        "source_sha256": "158b6300f497815cb57e9d417b7efa5800c2582c760e6878e0c7a35b3a4b954d",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md#highway-banking",
@@ -1145,8 +1142,8 @@
       "end_line": 846,
       "kind": "problems-exercises",
       "ordinal": 3,
-      "source_sha256": "2e4851cbbd2c94f37ed70e218ee288a06128d00612941f9e28c2682b4fd1dea0",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "source_sha256": "7f9be5110308f3be7aa25bfb54f7b05dc07e7da4347250ec76170612f4b2f1dc",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway with a 105 km/h speed limit (about 65 mi/h), assuming everyone travels at the limit?",
       "has_solution": true,
       "missing_labels": [],
@@ -1156,22 +1153,19 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md#highway-banking",
-        "verdict": "concern",
+        "source_sha256": "7f9be5110308f3be7aa25bfb54f7b05dc07e7da4347250ec76170612f4b2f1dc",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The force model and derivation are correct: N sin theta = mv^2/r and N cos theta = mg give tan theta = v^2/(rg). The inspected diagram correctly tilts the normal inward. The solution answers the requested angle, but its final substitution incorrectly labels both v^2 and rg as forces measured in newtons.",
-        "calculation_check": "105 km/h = 29.1667 m/s, so v^2 = 850.694 m^2/s^2 and rg = 11760 m^2/s^2. Their ratio is 0.0723380 and theta = 4.13745 degrees, agreeing with 4.14 degrees. Using rounded 29.2 m/s explains the displayed 853, but neither 853 nor 11760 has units of newtons here.",
-        "assumptions": "Steady horizontal circular motion at the stated speed, uniform bank angle, negligible tangential forces, and no tire friction needed. Actual highway design practice is outside this ideal model.",
-        "notes": "Correct model and final angle; the worked ratio contains incorrect physical units. The general claim about highway design practice was not independently verified.",
-        "source_sha256": "2e4851cbbd2c94f37ed70e218ee288a06128d00612941f9e28c2682b4fd1dea0",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "notes": "Correct model and 4.14° angle. Fixed: the ratio v²/(rg) is written in m²/s² instead of newtons. The closing remark about conservative highway banking is a qualitative aside.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:4",
@@ -1182,7 +1176,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "ec6377c7ac8f922cfdae2134e1cf38d3870f992a0534d408500026b5c91ed2a5",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?",
       "has_solution": true,
       "missing_labels": [],
@@ -1195,19 +1189,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:4",
+        "source_sha256": "ec6377c7ac8f922cfdae2134e1cf38d3870f992a0534d408500026b5c91ed2a5",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Resolving the road's normal force horizontally and vertically gives tan theta = v^2/(rg), hence v = sqrt(rg tan theta). The free-body diagram and algebra are consistent. Below the ideal speed, friction must act up the bank; above it, friction must act down the bank to maintain the same circular path, supporting the discussion.",
         "calculation_check": "v = sqrt[100(9.80)tan(20.0 degrees)] = 18.8863 m/s = 67.9905 km/h, approximately 42.25 mi/h. The square-root argument has units m^2/s^2.",
         "assumptions": "Constant-speed motion on a horizontal circular path, bank angle measured from horizontal, maintained road contact, and negligible drag or propulsion forces in the force balance.",
         "notes": "Correct ideal speed, units, force directions, and explanation of friction away from the ideal speed.",
-        "source_sha256": "ec6377c7ac8f922cfdae2134e1cf38d3870f992a0534d408500026b5c91ed2a5",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:5",
@@ -1218,7 +1212,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "2f77b30f9b528270cd65682c559ea09434621267a135d55b0743a0f9410c1c1b",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "(a) What is the radius of a bobsled turn banked at 75.0° and taken at 30.0 m/s, assuming it is ideally banked? (b) Calculate the centripetal acceleration. (c) Does this accelerati…",
       "has_solution": true,
       "missing_labels": [],
@@ -1231,19 +1225,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:5",
+        "source_sha256": "2f77b30f9b528270cd65682c559ea09434621267a135d55b0743a0f9410c1c1b",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The ideal-bank equations correctly give r = v^2/(g tan theta) and a_c = g tan theta, answering parts (a) and (b) and establishing that the acceleration is large. The discussion does not clearly distinguish horizontal net force from the total support load felt by riders. In the ideal banked configuration, support is normal to the banked surface, inward and upward; describing it as pushing riders into the side is misleading. Banking aligns the support with the required resultant but does not reduce the required acceleration at fixed speed and radius.",
         "calculation_check": "tan(75 degrees) = 3.73205, giving r = 24.6076 m and a_c = 36.5741 m/s^2 = 3.73205g. The total normal support is N = mg/cos(75 degrees) = 3.86370mg, distinct from the horizontal net force 3.73205mg. The displayed numerical answers are correct.",
         "assumptions": "Steady level circular motion, negligible friction, and a sled and rider supported in the banked configuration. Physiological tolerance depends on load direction, duration, and restraint and is not determined by this calculation.",
         "notes": "Numerical answers are correct. The discussion confuses rider support direction with horizontal centripetal force; claims about typical bobsled loads, training, and human tolerance remain unverified.",
-        "source_sha256": "2f77b30f9b528270cd65682c559ea09434621267a135d55b0743a0f9410c1c1b",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:6",
@@ -1253,8 +1247,8 @@
       "end_line": 1064,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "fc243efafcb2ef9652b794a6739a7dfeca9f438fb2d24d42ae0435a9b36b505e",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "source_sha256": "a85e1de40bf54a12178b88a5fd85e629cfb9cf588c950c13422afb92faa0b368",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [Figure 8](#Figure8). To be stable, the force exerted by the ground must be on a line…",
       "has_solution": true,
       "missing_labels": [],
@@ -1264,22 +1258,19 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:6",
-        "verdict": "concern",
+        "source_sha256": "a85e1de40bf54a12178b88a5fd85e629cfb9cf588c950c13422afb92faa0b368",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The inspected figure defines theta from vertical as used in the solution. With friction f = mv^2/r and vertical support N = mg, the ground-force direction satisfies tan theta = f/N = v^2/(rg). Aligning that force through the center of mass supplies the stated lean condition without an overturning torque in the simplified model. Both requested parts are answered correctly, but the numerical ratio incorrectly assigns newtons to v^2 and rg.",
-        "calculation_check": "v^2 = 144 m^2/s^2 and rg = 294 m^2/s^2, so theta = arctan(144/294) = 26.0954 degrees, agreeing with 26.1 degrees. The displayed '144 N/294 N' is dimensionally misidentified; neither quantity is a force.",
-        "assumptions": "Steady turning on level ground, sufficient tire grip, negligible aerodynamic forces and wheel gyroscopic corrections, and the supplied simplified condition that the resultant ground force passes through the center of mass.",
-        "notes": "Correct derivation, figure interpretation, and lean angle; incorrect newton units appear in the numerical substitution.",
-        "source_sha256": "fc243efafcb2ef9652b794a6739a7dfeca9f438fb2d24d42ae0435a9b36b505e",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "notes": "Correct derivation, figure interpretation, and 26.1° lean angle. Fixed: the substitution now uses m²/s² instead of newtons.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:7",
@@ -1290,7 +1281,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "7125b69f71498207f6de23071aaad6b38a89ab0c73a2bb32bcf6ab090e621937",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "A large centrifuge, like the one shown in [Figure 9](#Figure9)(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmos…",
       "has_solution": true,
       "missing_labels": [],
@@ -1303,19 +1294,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:7",
+        "source_sha256": "7125b69f71498207f6de23071aaad6b38a89ab0c73a2bb32bcf6ab090e621937",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly uses a_c = r omega^2 with the rider's actual radius. For part (b), the supporting force points inward and upward while the cage extends outward and downward from its pivot. Consequently F cos theta = ma_c and F sin theta = mg, so theta below horizontal satisfies tan theta = g/a_c. The inspected original figure and solution diagram agree with these directions. The alignment explanation is valid for steady rotation.",
         "calculation_check": "omega = sqrt(98.0/15.0) = 2.55604 rad/s = 24.4084 rpm. theta = arctan(1/10) = 5.71059 degrees. As a cross-check, the support magnitude is sqrt[(10mg)^2 + (mg)^2] = 10.0499mg.",
         "assumptions": "Steady rotation, no cage oscillation or tangential acceleration, freely pivoting cage with its support axis aligned through its center of mass, and 15.0 m measured to the rider rather than merely to the arm's pivot.",
         "notes": "Correct angular velocity, angle measured from horizontal, and force components. The claimed absence of sideways loading applies to steady operation, not arbitrary spin-up or swinging transients.",
-        "source_sha256": "7125b69f71498207f6de23071aaad6b38a89ab0c73a2bb32bcf6ab090e621937",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:8",
@@ -1326,7 +1317,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "33dd25dd4f2b6887edbe822151c803b9faf5613a9981a47cb0b29368acb7bf28",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "**Integrated Concepts** If a car takes a banked curve at less than the ideal speed, friction is needed to keep it from sliding toward the inside of the curve (a real problem on ic…",
       "has_solution": true,
       "missing_labels": [],
@@ -1339,19 +1330,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:8",
+        "source_sha256": "33dd25dd4f2b6887edbe822151c803b9faf5613a9981a47cb0b29368acb7bf28",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "At the ideal speed, the normal force alone supplies the horizontal acceleration while balancing weight vertically. At the lower speed, static friction acts up the bank, with outward horizontal and upward vertical components. The inspected diagram and equations have those signs correctly. Solving them gives f/N = (tan theta - q)/(1 + q tan theta), where q = v^2/(rg); this is the minimum coefficient required. Both requested parts and the inward-sliding explanation are consistent.",
         "calculation_check": "The ideal speed is sqrt[100(9.80)tan(15 degrees)] = 16.2046 m/s. At 20.0 km/h = 5.55556 m/s, q = 0.0314941 and mu_min = 0.234476, agreeing with 0.234. At zero speed the expression reduces to tan theta, and at the ideal speed it reduces to zero.",
         "assumptions": "Steady circular motion on a uniform bank, static tire contact without sliding, no braking or acceleration consuming additional grip, and sufficient stability against tipping. The stated sliding conclusion applies while maintaining the specified speed and turn.",
         "notes": "Correct ideal speed, uphill friction direction, minimum coefficient, and limiting behavior.",
-        "source_sha256": "33dd25dd4f2b6887edbe822151c803b9faf5613a9981a47cb0b29368acb7bf28",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:37:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:37:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:9",
@@ -1362,7 +1353,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "16380d7b8713276f2abdd26e3f9d7e34188136b9b3b7ed59403ae068d1634c72",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "Modern roller coasters have vertical loops like the one shown in [Figure 10](#Figure10). The radius of curvature is smaller at the top than on the sides so that the downward centr…",
       "has_solution": true,
       "missing_labels": [],
@@ -1375,19 +1366,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:9",
+        "source_sha256": "16380d7b8713276f2abdd26e3f9d7e34188136b9b3b7ed59403ae068d1634c72",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "At the crown, acceleration toward the local center is v²/r, so v = sqrt(1.50gr). The passenger's force balance is N + mg = 1.50mg, giving N = 0.50mg downward. The solution and the inspected free-body SVG correctly represent these forces. However, the problem's figure caption claims that decreasing radius necessarily makes centripetal acceleration reach its maximum at the crown. Since a_c = v²/r, this also depends on the speed profile; minimum radius alone does not establish maximum acceleration.",
         "calculation_check": "sqrt(1.50 × 9.80 × 15.0) = 14.8492 m/s, consistent with 14.8 m/s. The net force is 1.50mg and the seat force is 0.50mg. For illustration, a lossless coaster 15 m below the crown would have v² = 220.5 + 294; with local radius 30 m its acceleration would be 17.15 m/s², exceeding the crown's 14.7 m/s² despite the larger radius.",
         "assumptions": "The crown has a horizontal tangent, the passenger shares the car's acceleration, and seat contact is maintained. The illustrative comparison assumes negligible mechanical energy losses.",
         "notes": "Requested speed and passenger force balance are correct. The caption incorrectly infers maximum centripetal acceleration from minimum radius without establishing the speed profile.",
-        "source_sha256": "16380d7b8713276f2abdd26e3f9d7e34188136b9b3b7ed59403ae068d1634c72",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:41:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:41:04+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6CentripetalForce.md::problems-exercises:10",
@@ -1398,7 +1389,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "79d4dcec45b27849b5d99c950c61bb1ab415c0929ef3c5298202bc7af34961df",
-      "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
+      "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
       "preview": "**Unreasonable Results** (a) Calculate the minimum coefficient of friction needed for a car to negotiate an unbanked 50.0 m radius curve at 30.0 m/s. (b) What is unreasonable abou…",
       "has_solution": true,
       "missing_labels": [],
@@ -1411,19 +1402,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6CentripetalForce.md::problems-exercises:10",
+        "source_sha256": "79d4dcec45b27849b5d99c950c61bb1ab415c0929ef3c5298202bc7af34961df",
+        "file_sha256": "3114666dd910667286ff0fd38872000ed0ca62713d95eac4bcc2998411561e7c",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For a level, unbanked curve, N = mg and the required lateral static friction is mv²/r. Applying f ≤ μ_sN gives μ_s,min = v²/(rg), as calculated. The inspected SVG has the correct force directions. All subparts are addressed, and the conclusion that the speed demands unusually high traction is supported by the textbook's friction table. However, the categorical assertion that coefficients significantly greater than 1 are physically unachievable overstates the model: no physical law imposes μ_s ≤ 1, and impossibility requires specified tire and surface properties.",
         "calculation_check": "900/(50.0 × 9.80) = 1.83673. For μ_s = 0.7, sqrt(0.7 × 50.0 × 9.80) = 18.5203 m/s = 66.67 km/h. The local chapter 5 table lists illustrative static coefficients of 1.0 for rubber on dry concrete and 0.7 on wet concrete, supporting the comparison but not a universal upper bound.",
         "assumptions": "Steady circular motion, horizontal pavement, negligible aerodynamic downforce, and a lumped static-friction traction limit. The calculated maximum is an incipient-slip threshold rather than a speed incorporating a safety margin.",
         "notes": "Calculations are correct. Part (b) should distinguish unusually demanding traction from physical impossibility; μ_s has no universal upper bound of 1.",
-        "source_sha256": "79d4dcec45b27849b5d99c950c61bb1ab415c0929ef3c5298202bc7af34961df",
-        "file_sha256": "5619a210e2314b154194c7753033e0726137bc3097956514d8b85db4f067f00b",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:41:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:41:04+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6FictitiousForcesAndNonInertialFrames.md::conceptual-questions:1",
@@ -1661,8 +1652,8 @@
       "end_line": 243,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "d6bcf92a0a863a51d4def9c2ec2552af2e8d0e011a231ab2dabd1557ffe9e98c",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "source_sha256": "c3e5cc0b6441b888526c4cc276f20165cda87bbc1b1059e8cbc04c6f618d3b7f",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": ":::: example {\"class\":\"example\",\"id\":\"example1\"} Earth’s Gravitational Force Is the Centripetal Force Making the Moon Move in a Curved Path (a) Find the acceleration due to Earth’…",
       "has_solution": true,
       "missing_labels": [],
@@ -1671,22 +1662,19 @@
         "skipped": 18
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md#example1",
-        "verdict": "concern",
+        "source_sha256": "c3e5cc0b6441b888526c4cc276f20165cda87bbc1b1059e8cbc04c6f618d3b7f",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Both requested derivations are correct: terrestrial gravity at lunar distance is GM_E/r², while a circular orbit requires 4π²r/T². The comparison and discussion of the fixed-Earth approximation are appropriate. However, the displayed numerical substitution in part (a) multiplies two copies of the units of G: an explicit N·m²/kg² followed by another N·m²/kg² written with macros. As printed, that line is dimensionally incorrect despite the correct intended calculation.",
-        "calculation_check": "GM_E/r² = 2.70498 × 10^-3 m/s². With T = 2358720 s, ω = approximately 2.664 × 10^-6 rad/s and a_c = 2.72482 × 10^-3 m/s², a difference of 0.733%. A single factor of G gives acceleration dimensions; the duplicated units instead give m^4/(kg·s^4).",
-        "assumptions": "Newtonian gravity, approximately spherical Earth, center-to-center lunar distance, and the explicitly stated circular orbit about a fixed Earth for part (b). Real orbital ellipticity and Earth's barycentric motion limit exact agreement.",
-        "notes": "Physics model, numerical results, and comparison are correct. Part (a)'s displayed substitution duplicates G's units and is dimensionally invalid as written.",
-        "source_sha256": "d6bcf92a0a863a51d4def9c2ec2552af2e8d0e011a231ab2dabd1557ffe9e98c",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:41:04+00:00"
+        "notes": "Physics model, numerical results, and comparison are correct. Fixed: G's units were written twice in the substitution (and in two earlier displays in the same file); each now shows N·m²/kg² once.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:1",
@@ -1697,7 +1685,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "aa1fe02be9bd919855fd1a33db881486189458318c08f8fb607818c9be367996",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "Action at a distance, such as is the case for gravity, was once thought to be illogical and therefore untrue. What is the ultimate determinant of the truth in physics, and why was…",
       "has_solution": true,
       "missing_labels": [
@@ -1712,19 +1700,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:1",
+        "source_sha256": "aa1fe02be9bd919855fd1a33db881486189458318c08f8fb607818c9be367996",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "Agreement with observation and experiment correctly supplies the reason to accept gravitational predictions despite objections to action at a distance. Comparing inverse-square gravity at lunar distance with the Moon's orbital acceleration directly supports the argument. The qualification about later field and relativistic descriptions is appropriate.",
         "calculation_check": "9.80/60.3² = 2.69520 × 10^-3 m/s². Independently, 4π² × 3.84 × 10^8/(27.3 × 86400)² = 2.72482 × 10^-3 m/s². The stated rounded values and approximate agreement are correct.",
         "assumptions": "A Newtonian inverse-square model and approximately circular lunar motion. The specific historical dates concerning Halley's comet and Neptune were not independently verified from the available evidence.",
         "notes": "Sound explanation of empirical acceptance, supported by a correct lunar calculation. Historical chronology remains independently unverified.",
-        "source_sha256": "aa1fe02be9bd919855fd1a33db881486189458318c08f8fb607818c9be367996",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:41:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:41:04+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:2",
@@ -1735,7 +1723,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "f6b6ff9b81bcd49fde193580fb37a608a50e960a9faf56da6ebbaa09be9559fe",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in free…",
       "has_solution": true,
       "missing_labels": [
@@ -1750,19 +1738,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:2",
+        "source_sha256": "f6b6ff9b81bcd49fde193580fb37a608a50e960a9faf56da6ebbaa09be9559fe",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Anna's interpretation follows directly from the definition of free fall as motion under gravity alone. A lower value of GM/r² at orbital altitude changes the acceleration magnitude without changing this classification. The shared fall of station and astronauts correctly explains approximate weightlessness.",
         "calculation_check": "6.67 × 10^-11 × 5.98 × 10^24/(6.77 × 10^6)² = 8.70261 m/s², agreeing with 8.70 m/s². GM/r² has dimensions m/s² and decreases continuously with increasing distance.",
         "assumptions": "Coasting orbit, negligible atmospheric drag and thrust, approximately spherical Earth, and negligible tidal differences across the station.",
         "notes": "Correct free-fall definition, orbital reasoning, and gravity calculation; the small difference from a surface-g scaling calculation reflects the chosen constants.",
-        "source_sha256": "f6b6ff9b81bcd49fde193580fb37a608a50e960a9faf56da6ebbaa09be9559fe",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:41:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:41:04+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:3",
@@ -1773,7 +1761,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "79ef45aa0c7cc134b9572186d5f3610a883516ad294804fb0d90bedcac2cd417",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "Draw a free body diagram for a satellite in an elliptical orbit showing why its speed increases as it approaches its parent body and decreases as it moves away.",
       "has_solution": true,
       "missing_labels": [
@@ -1788,19 +1776,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:3",
+        "source_sha256": "79ef45aa0c7cc134b9572186d5f3610a883516ad294804fb0d90bedcac2cd417",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Gravity is the sole force in the assumed orbit and points toward the parent body at a focus. Its power is F·v = -(GMm/r²) dr/dt, which is positive during approach and negative during recession. This independently establishes the stated speed changes. At periapsis and apoapsis, dr/dt = 0 and force is perpendicular to velocity, consistent with maximum and minimum speed. Inspection of the SVG coordinates confirms the focus placement, tangential velocities, inward force arrows, and correctly directed parallel components.",
         "calculation_check": "GMm/r² = 6.67 × 10^-11 × 5.98 × 10^24 × 1000/(7.0 × 10^6)² = 8140.12 N. Doubling r reduces this to 2035.03 N, agreeing with 8.1 × 10^3 N and 2.0 × 10^3 N. Energy conservation also gives v² = GM(2/r - 1/a), confirming increasing speed as r decreases.",
         "assumptions": "A bound Newtonian elliptical orbit, negligible satellite mass relative to the parent, no thrust or drag, and velocity measured relative to the approximately fixed parent body.",
         "notes": "Correct force diagram, work-based explanation, orbital speed extrema, and inverse-square force calculations.",
-        "source_sha256": "79ef45aa0c7cc134b9572186d5f3610a883516ad294804fb0d90bedcac2cd417",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261022T192431Z-c679af",
-        "reviewed_at": "2026-10-22T21:41:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T21:41:04+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:4",
@@ -1811,7 +1799,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "d07a1a86371925f4453fcbf61af9f55bf47755e89f64c564f07db04d4ed2915e",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "Newton’s laws of motion and gravity were among the first to convincingly demonstrate the underlying simplicity and unity in nature. Many other examples have since been discovered,…",
       "has_solution": true,
       "missing_labels": [
@@ -1826,19 +1814,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::conceptual-questions:4",
+        "source_sha256": "d07a1a86371925f4453fcbf61af9f55bf47755e89f64c564f07db04d4ed2915e",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The central answer is sound: successful past unifications do not logically guarantee that future investigations will uncover simplicity. However, describing heat as random molecular motion conflates heat with microscopic internal energy. Heat is energy transferred because of a temperature difference; molecular motion helps explain thermal phenomena.",
         "calculation_check": "The inverse-square comparison gives 9.80/60^2 = 2.722 × 10^-3 m/s², consistent with the stated lunar acceleration.",
         "assumptions": "Newtonian gravity and an approximately spherical Earth support the illustrative calculation. Claims about the present status of unification theories and dark matter or dark energy were not independently verified under the restriction on external research.",
         "notes": "The induction argument and gravitational example are correct. The identification of heat with molecular motion introduces a thermodynamic misconception.",
-        "source_sha256": "d07a1a86371925f4453fcbf61af9f55bf47755e89f64c564f07db04d4ed2915e",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:1",
@@ -1849,7 +1837,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "d981a5a6c624817636d9bbab1dbcf2be65098858693c55da69e5b1586ae124d1",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "(a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is $$ 9.807 \\mss $$ and the radius of the Earth is 6372 km from center to pole. (b) Compare this…",
       "has_solution": true,
       "missing_labels": [],
@@ -1862,19 +1850,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:1",
+        "source_sha256": "d981a5a6c624817636d9bbab1dbcf2be65098858693c55da69e5b1586ae124d1",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Equating gravitational force GMm/r² with mg gives M = gr²/G, correctly eliminating the test mass. Both requested parts are answered. The discussion appropriately treats the agreement as approximate rather than independent proof.",
         "calculation_check": "Using the supplied values gives M = 5.9662508 × 10^24 kg, which is 0.09627% below 5.972 × 10^24 kg. Dimensions are (m/s²)m²/(m³ kg^-1 s^-2) = kg.",
         "assumptions": "The stated gravity and radius are accepted as approximate givens, with Earth represented by a spherical Newtonian source. Rotation produces no centrifugal acceleration at the pole; nonsphericity and local gravity variations limit the inference.",
         "notes": "Correct mass calculation and percentage comparison, with an appropriate explanation of the model's limits.",
-        "source_sha256": "d981a5a6c624817636d9bbab1dbcf2be65098858693c55da69e5b1586ae124d1",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:2",
@@ -1885,7 +1873,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "477f0112d0ef877fc132a70f4b413da01a879092d7351c098235876dfc7b761f",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "(a) Calculate the magnitude of the acceleration due to gravity on the surface of Earth due to the Moon. (b) Calculate the magnitude of the acceleration due to gravity at Earth due…",
       "has_solution": true,
       "missing_labels": [],
@@ -1898,19 +1886,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:2",
+        "source_sha256": "477f0112d0ef877fc132a70f4b413da01a879092d7351c098235876dfc7b761f",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Dividing GMm/r² by the test mass correctly gives each acceleration. The tidal explanation identifies the relevant spatial variation rather than the absolute field. Expanding GM/r² across Earth gives a tidal scale proportional to GM R_E/r³, establishing why the nearer Moon dominates.",
         "calculation_check": "The supplied constants give a_Moon = 3.32469 × 10^-5 m/s², a_Sun = 5.89924 × 10^-3 m/s², and a_Moon/a_Sun = 0.0056358. The lunar-to-solar tidal scale ratio is (a_Moon/a_Sun)(r_Sun/r_Moon) = 2.20.",
         "assumptions": "Mean center-to-center distances approximate the fields at Earth's surface; actual lunar acceleration varies by a few percent across Earth. The tidal comparison concerns forcing, while local ocean tides also depend on geography and dynamics.",
         "notes": "All parts are answered correctly. Independent gradient scaling confirms that lunar tidal forcing exceeds solar forcing despite the weaker absolute lunar field.",
-        "source_sha256": "477f0112d0ef877fc132a70f4b413da01a879092d7351c098235876dfc7b761f",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:3",
@@ -1921,7 +1909,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "9938409639ad4f613de3874650d2fc08a767532c359de0ec0dfb43155554769d",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "(a) What is the acceleration due to gravity on the surface of the Moon? (b) On the surface of Mars? The mass of Mars is $$ 6.418\\times 10^{23}\\kg $$ and its radius is $$ 3.38 \\tim…",
       "has_solution": true,
       "missing_labels": [],
@@ -1934,19 +1922,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:3",
+        "source_sha256": "9938409639ad4f613de3874650d2fc08a767532c359de0ec0dfb43155554769d",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For spherical bodies, surface gravity follows from mg = GMm/R². Both lunar and Martian results and their Earth-weight comparisons are correct. Lower escape speeds contribute to atmospheric loss, as the discussion states, although atmospheric retention also depends on temperature, composition, replenishment, and other loss processes.",
         "calculation_check": "Recomputation gives g_Moon = 1.62022 m/s² and g_Mars = 3.74932 m/s², respectively 16.53% and 38.26% of 9.80 m/s². The same masses and radii give escape speeds of 2.37 and 5.03 km/s. Taking the quoted pressure as given, 600/101325 = 0.00592, below 1%.",
         "assumptions": "Spherical Newtonian bodies, negligible rotational corrections, and unchanged astronaut mass. Reduced weight can ease lifting and jumping but does not reduce inertia. The approximate 600 Pa atmospheric pressure is supplied context, not independently verified observational data.",
         "notes": "Correct surface gravities and weight comparisons. The qualitative atmospheric explanation is reasonable as a contributing factor.",
-        "source_sha256": "9938409639ad4f613de3874650d2fc08a767532c359de0ec0dfb43155554769d",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:4",
@@ -1957,7 +1945,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "99ad8ed508faee7b865593c5ea042266f3cef4edab7cee0af8611432b1e7e841",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "(a) Calculate the acceleration due to gravity on the surface of the Sun. (b) By what factor would your weight increase if you could stand on the Sun? ( Never mind that you cannot.)",
       "has_solution": true,
       "missing_labels": [],
@@ -1970,19 +1958,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:4",
+        "source_sha256": "99ad8ed508faee7b865593c5ea042266f3cef4edab7cee0af8611432b1e7e841",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly uses GM/R² for solar surface gravity and cancels the person's unchanged mass when comparing weights. The illustrative person's weight, rather than mass, increases.",
         "calculation_check": "The supplied constants give g_Sun = 274.006 m/s² and g_Sun/9.80 = 27.9598. A 70 kg person would have gravitational weight 1.918 × 10^4 N, approximately 4310 pounds-force, consistent with the discussion.",
         "assumptions": "The solar surface is represented by the stated radius of a spherical Newtonian source. The hypothetical standing condition is accepted, with rotation and environmental effects excluded as intended.",
         "notes": "Both answers and the illustrative weight conversion are correct.",
-        "source_sha256": "99ad8ed508faee7b865593c5ea042266f3cef4edab7cee0af8611432b1e7e841",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:5",
@@ -1993,7 +1981,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "2f038a5bbc3e9f2b48914ae6f641578f58a773ac88e88ce57df3adacb3a815a6",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "The Moon and Earth rotate about their common center of mass, which is located about 4700 km from the center of Earth. (This is 1690 km below the surface.) (a) Calculate the magnit…",
       "has_solution": true,
       "missing_labels": [],
@@ -2006,19 +1994,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:5",
+        "source_sha256": "2f038a5bbc3e9f2b48914ae6f641578f58a773ac88e88ce57df3adacb3a815a6",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly evaluates the Moon's field at the barycenter using separation D − r_1. Part (b) evaluates the acceleration of Earth's center using its orbital radius r_1. These concern different locations, so equality is not required. Earth's center instead responds to the lunar field at distance D, which agrees with the calculated centripetal acceleration within the approximate givens.",
         "calculation_check": "With T = 27.3 × 86400 s, the barycenter field is 3.40963 × 10^-5 m/s² and Earth's centripetal acceleration is 3.33507 × 10^-5 m/s². The lunar field at Earth's center is 3.32668 × 10^-5 m/s². The field enhancement between the two locations is (3.84/3.793)^2 = 1.02494; the displayed percentage differences are consistent with rounded inputs.",
         "assumptions": "An approximately circular Earth–Moon orbit, spherical bodies, and a frame following the system's barycenter with common external acceleration removed. Part (a) asks only for the Moon's contribution, not the total field inside Earth.",
         "notes": "Correct distinction between barycenter field and Earth's center acceleration; the small difference has a physical explanation.",
-        "source_sha256": "2f038a5bbc3e9f2b48914ae6f641578f58a773ac88e88ce57df3adacb3a815a6",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:6",
@@ -2029,7 +2017,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "aaf3c8ab94928bf562a0bd24e5167f488f328a2b6301a8ff1b1916878e16b841",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "Solve part (b) of [Example 1](#example1) using $$ \\ac =v^2/r $$.",
       "has_solution": true,
       "missing_labels": [],
@@ -2042,19 +2030,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:6",
+        "source_sha256": "aaf3c8ab94928bf562a0bd24e5167f488f328a2b6301a8ff1b1916878e16b841",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The referenced Example 1 explicitly assumes a circular lunar orbit about a fixed Earth. Under that model, v = 2πr/T and a_c = v²/r reproduce a_c = rω² because v = rω. The supplied solution addresses the requested alternative method.",
         "calculation_check": "Using the unrounded period 2,358,720 s gives v = 1022.90 m/s and a_c = 2.72482 × 10^-3 m/s². Using the solution's rounded speed 1.02 × 10^3 m/s gives 2.70938 × 10^-3 m/s², explaining its 2.71 value.",
         "assumptions": "The fixed-Earth circular approximation stated in the referenced example; eccentricity and Earth's barycentric motion are excluded.",
         "notes": "Correct alternative derivation. The numerical difference from the example is ordinary intermediate rounding.",
-        "source_sha256": "aaf3c8ab94928bf562a0bd24e5167f488f328a2b6301a8ff1b1916878e16b841",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:7",
@@ -2065,7 +2053,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "e32eebd5a5669d0902eb3db7a68d0f00256f5cc8298d6e89d1c59a7130f96820",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "Astrology, that unlikely and vague pseudoscience, makes much of the position of the planets at the moment of one’s birth. The only known force a planet exerts on Earth is gravitat…",
       "has_solution": true,
       "missing_labels": [],
@@ -2078,19 +2066,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:7",
+        "source_sha256": "e32eebd5a5669d0902eb3db7a68d0f00256f5cc8298d6e89d1c59a7130f96820",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The force calculations and comparison are correct under the intended point-mass model. However, the discussion's assertion that this calculation thoroughly debunks astrological claims and establishes that any influence cannot be gravitational exceeds what the calculation demonstrates. Comparable local forces and small magnitudes establish a scale comparison; they do not, by themselves, prove a categorical impossibility without a proposed mechanism or response model.",
         "calculation_check": "F_father = 7.0077 × 10^-7 N, F_Jupiter = 1.34613 × 10^-6 N, and F_father/F_Jupiter = 0.52058. These are respectively 1.70 × 10^-8 and 3.27 × 10^-8 of the baby's Earth weight.",
         "assumptions": "The 0.200 m distance is treated as a separation between concentrated masses. An actual father's dimensions are not small compared with this separation, so an accurate physical force would require his mass distribution and the baby's location. Claims about empirical astrological evidence were not independently investigated.",
         "notes": "Arithmetic is correct under the intended idealization. The discussion overstates the logical conclusion, and the nearby father's point-mass model needs qualification.",
-        "source_sha256": "e32eebd5a5669d0902eb3db7a68d0f00256f5cc8298d6e89d1c59a7130f96820",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:8",
@@ -2101,7 +2089,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "93c22b3aec5625a9c0cd51b0c4a11ca8caf085443abd5b2d9b3c149ac05c33bc",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "The existence of the dwarf planet Pluto was proposed based on irregularities in Neptune's orbit. Pluto was subsequently discovered near its predicted position. But it now appears…",
       "has_solution": true,
       "missing_labels": [],
@@ -2114,19 +2102,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:8",
+        "source_sha256": "93c22b3aec5625a9c0cd51b0c4a11ca8caf085443abd5b2d9b3c149ac05c33bc",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Each requested acceleration follows directly from GM/r², independently of Neptune's mass. Their ratio correctly establishes that Uranus produces a much larger instantaneous acceleration at Neptune for the stated configuration. The historical narrative is context rather than something established quantitatively by these two field calculations alone.",
         "calculation_check": "a_Pluto = 4.61136 × 10^-14 m/s² and a_Uranus = 9.19926 × 10^-10 m/s². Their ratio is 1.99491 × 10^4, consistent with 20,000.",
         "assumptions": "The supplied separations are treated as stipulated configuration data, not verified present-day positions. Bodies are pointlike at these distances. A full orbital perturbation analysis would also include geometry, time dependence, and the Sun's response; the historical discovery account was not independently verified.",
         "notes": "Both accelerations and their comparison are correct. The calculation supports the stated relative field scale, with the historical account remaining unverified context.",
-        "source_sha256": "93c22b3aec5625a9c0cd51b0c4a11ca8caf085443abd5b2d9b3c149ac05c33bc",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:9",
@@ -2137,7 +2125,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "b3a5287d8b81a6454540fdaf5205bcb64a209e9cfebb70a37f84d3642ce61f21",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "(a) The Sun orbits the Milky Way galaxy once each $$ 2.60 \\times 10^{8}\\text{y} $$, with a roughly circular orbit averaging $$ 3.00 \\times 10^{4} $$ light years in radius. (A ligh…",
       "has_solution": true,
       "missing_labels": [],
@@ -2150,19 +2138,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:9",
+        "source_sha256": "b3a5287d8b81a6454540fdaf5205bcb64a209e9cfebb70a37f84d3642ce61f21",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For the stipulated circular orbit, circumference divided by period gives speed and v²/r gives acceleration. The extremely small galactic acceleration supports a nearly inertial, nonrotating Sun-centered frame for ordinary introductory mechanics. High speed alone does not prevent a frame from being inertial. The common galactic motion of the solar system is correctly described as bulk motion.",
         "calculation_check": "Using the stated year conversion gives r = 2.8404 × 10^20 m, T = 8.2056 × 10^15 s, a_c = 1.66540 × 10^-10 m/s², and v = 2.17495 × 10^5 m/s. Thus a_c/g = 1.69939 × 10^-11 and v/c = 0.0725%. Taking the quoted formation age as given yields 4.6 × 10^9/(2.60 × 10^8) = 17.7 orbits.",
         "assumptions": "A uniform circular galactic orbit and fixed axes. Near-inertial validity depends on the required accuracy, spatial extent, and timescale; it is not exact for galactic dynamics. Solar reflex motion is omitted. The formation age is supplied contextual information rather than independently verified here.",
         "notes": "Correct acceleration, speed, and interpretation within the ordinary mechanics approximation. The inertial-frame claim requires the stated accuracy and timescale limits.",
-        "source_sha256": "b3a5287d8b81a6454540fdaf5205bcb64a209e9cfebb70a37f84d3642ce61f21",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:10",
@@ -2173,7 +2161,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "b7243463ed25229009e3a38635c2074fdaca594ecf050654f72c16fdcdf9685f",
-      "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
+      "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
       "preview": "**Unreasonable Result** A mountain 10.0 km from a person exerts a gravitational force on him equal to 2.00% of his weight. (a) Calculate the mass of the mountain. (b) Compare the…",
       "has_solution": true,
       "missing_labels": [],
@@ -2186,19 +2174,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6NewtonsUniversalLawOfGravitation.md::problems-exercises:10",
+        "source_sha256": "b7243463ed25229009e3a38635c2074fdaca594ecf050654f72c16fdcdf9685f",
+        "file_sha256": "9075973d715c43fb1b38efebfe46facfa07859172ecb02de66199b2c5210ceb0",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Equating GMm/r² with 0.0200mg correctly determines the required mountain mass, and the qualitative conclusion that the premise demands an implausibly massive mountain is supported. However, the claims that realistic mountain forces at 10 km are typically below 0.001% of weight and that mountains exert forces millions of times weaker than Earth are unsupported generalizations. The solution's own illustrative Everest mass produces a larger effect than its stated threshold.",
         "calculation_check": "The required mass is 2.93677 × 10^17 kg, or 4.91756 × 10^-8 Earth masses. Taking the supplied Everest estimate 8.1 × 10^14 kg at 10 km gives F/(mg) = 5.516 × 10^-5 = 0.00552%, about 18,100 times weaker than Earth, not millions. Reaching 0.001% from 2.00% requires a reduction exceeding 2000, rather than the stated roughly 1000. At an illustrative rock density of 3000 kg/m³, the required mass occupies about 98,000 km³.",
         "assumptions": "A concentrated mountain mass at a 10 km center-to-center distance, with ordinary Earth gravity. Real mountain geometry matters, especially if the inferred object's dimensions approach the separation. The Everest mass estimate is used only as supplied evidence; its observational basis and mountain boundary definition were not verified.",
         "notes": "Parts (a) and (b) are correct, and the unreasonable premise is identified. Parts (c), (d), and the discussion contain unsupported or internally inconsistent numerical claims about realistic mountain gravity.",
-        "source_sha256": "b7243463ed25229009e3a38635c2074fdaca594ecf050654f72c16fdcdf9685f",
-        "file_sha256": "606d679852e1e3a1f4a485afbfe3c865ee2872b98ca8e033de6af93b83e40a60",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:05:39+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:05:39+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6RotationAngleAndAngularVelocity.md::worked-example:1",
@@ -2607,7 +2595,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "8eabb7186d62f7afbda2d1ed380af5e603d7c0b56db85683dafb74a6d912608d",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": ":::: example Find the Time for One Orbit of an Earth Satellite Given that the Moon orbits Earth each 27.3 d and that it is an average distance of $$3.84\\times 10^{8}\\m$$ from the…",
       "has_solution": true,
       "missing_labels": [],
@@ -2620,19 +2608,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::worked-example:1",
+        "source_sha256": "8eabb7186d62f7afbda2d1ed380af5e603d7c0b56db85683dafb74a6d912608d",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For small satellites orbiting the same central mass, T²/a³ is constant. The solution correctly adds Earth's radius to altitude, then scales the Moon's period by the orbital-size ratio to the three-halves power. The surrounding chapter explicitly defines the elliptical-orbit average radius as the semimajor axis, resolving the meaning of average altitude here. The discussion's equal-period claim holds for equal semimajor axes under the stated negligible-satellite-mass approximation.",
         "calculation_check": "The satellite's orbital size is 6380 + 1500 = 7880 km. T = 27.3 × 24 × (7880/384000)^(3/2) = 1.92604 h, rounding to 1.93 h. The radius ratio is dimensionless, so the resulting units are hours.",
         "assumptions": "Newtonian, approximately isolated Earth-centered orbits; satellite masses small compared with Earth's mass; average orbital size interpreted as semimajor axis. Lunar finite-mass and external perturbation corrections are neglected.",
         "notes": "Correct orbital-radius conversion, Kepler scaling, and 1.93 h result. Equal periods refer to equal semimajor axes within the central-mass approximation.",
-        "source_sha256": "8eabb7186d62f7afbda2d1ed380af5e603d7c0b56db85683dafb74a6d912608d",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:09:20+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:09:20+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::conceptual-questions:1",
@@ -2643,7 +2631,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "decc64f30ddc9d7adcecc15b550b6f2fe83d553ec684d49412b2bb9cf2bcb280",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "In what frame(s) of reference are Kepler’s laws valid? Are Kepler’s laws purely descriptive, or do they contain causal information?",
       "has_solution": true,
       "missing_labels": [
@@ -2658,19 +2646,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::conceptual-questions:1",
+        "source_sha256": "decc64f30ddc9d7adcecc15b550b6f2fe83d553ec684d49412b2bb9cf2bcb280",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Within the chapter's isolated, dominant-central-mass model, nonrotating central-body coordinates give the familiar Keplerian ellipses and equal-area law. A surface-fixed rotating frame generally changes those apparent paths and area rates. The solution correctly characterizes Kepler's original laws as descriptive and distinguishes Newton's dynamical explanation. Newtonian circular-orbit balance gives GM/r² = 4π²r/T² and hence the stated third-law constant; for ellipses, r means semimajor axis. The solar-system barycenter aside is a qualitative refinement, not an exact claim that all interacting planets trace Kepler ellipses about one common focus.",
         "calculation_check": "4π²/[(6.67 × 10^-11)(1.99 × 10^30)] = 2.97427 × 10^-19 s²/m³. Independently, (3.16 × 10^7)²/(1.50 × 10^11)³ = 2.95870 × 10^-19 s²/m³, consistent with the displayed values. GM has units m³/s².",
         "assumptions": "Nonrotating axes, dominant central mass, negligible perturbations, and Newtonian gravity. For an exact isolated two-body relative orbit the gravitational parameter is G(M + m); an actual many-body solar system is only approximately Keplerian.",
         "notes": "Correct frame identification, descriptive-versus-dynamical distinction, and numerical check within the chapter's approximations. Barycentric language should not be read as an exact many-body Kepler solution.",
-        "source_sha256": "decc64f30ddc9d7adcecc15b550b6f2fe83d553ec684d49412b2bb9cf2bcb280",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:09:20+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:09:20+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:1",
@@ -2681,7 +2669,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "7ef872f69806d82b2fff8019340882da4018e9842a817bb41e899700858c23fc",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "A geosynchronous Earth satellite is one that has an orbital period of precisely 1 day. Such orbits are useful for communication and weather observation because the satellite remai…",
       "has_solution": true,
       "missing_labels": [],
@@ -2694,19 +2682,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:1",
+        "source_sha256": "7ef872f69806d82b2fff8019340882da4018e9842a817bb41e899700858c23fc",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For satellites of the same dominant central mass, T²/r³ is constant, giving r_sat = r_Moon(T_sat/T_Moon)^(2/3). The solution correctly applies this relation and distinguishes radius from altitude. Remaining above one terrestrial point requires a circular, equatorial, prograde orbit with a sidereal-day period, as the problem states.",
         "calculation_check": "Using the quoted lunar values gives 384000(1/27.3)^(2/3) = 42354 km and altitude approximately 35954 km using Earth's 6400 km radius. These agree with the reported approximate results. A literal 24-hour period produces roughly 1 degree of daily longitude drift; exact stationarity requires the stated sidereal correction.",
         "assumptions": "Newtonian gravity, negligible satellite and lunar masses compared with Earth, negligible perturbations, and the explicitly permitted 24-hour approximation.",
         "notes": "Correct relation, radius, and altitude. The discussion's stationarity statement must be read subject to the problem's explicit sidereal-day and orbital-geometry qualifications.",
-        "source_sha256": "7ef872f69806d82b2fff8019340882da4018e9842a817bb41e899700858c23fc",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:13:35+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:2",
@@ -2717,7 +2705,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "a7d747cf24da7bfce444b849d960e3b72389ddf4218bffef1921ad0d7ef856c3",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "Calculate the mass of the Sun based on data for Earth's orbit and compare the value obtained with the Sun's actual mass.",
       "has_solution": true,
       "missing_labels": [],
@@ -2730,19 +2718,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:2",
+        "source_sha256": "a7d747cf24da7bfce444b849d960e3b72389ddf4218bffef1921ad0d7ef856c3",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Equating GMm/r² with m(2πr/T)² gives M = 4π²r³/(GT²). For Earth's slightly elliptical orbit, the same expression holds with semimajor axis replacing circular radius. The solution uses the correct relation and compares its result with the supplied accepted mass.",
         "calculation_check": "A Julian year is 31557600 s. With r = 1.50e11 m and G = 6.67e-11 SI, the mass is 2.006e30 kg, approximately 0.85% above 1.989e30 kg. The reported 2.00e30 kg is consistent with its rounded intermediate calculations. Dimensions are m³/[(m³ kg^-1 s^-2)s²] = kg.",
         "assumptions": "Earth's mass and external perturbations are negligible; radius represents the orbital semimajor axis. The quoted accepted solar mass is used as the comparison benchmark.",
         "notes": "Correct mass determination and close numerical agreement. The comparison establishes consistency; an independent experimental validation would also require independent provenance for the accepted mass.",
-        "source_sha256": "a7d747cf24da7bfce444b849d960e3b72389ddf4218bffef1921ad0d7ef856c3",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:13:35+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:3",
@@ -2753,7 +2741,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "ddf8505ff27fbc4d5e9e2f78692052dd458e363711650a4ff22a9dc8f1854f29",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "Find the mass of Jupiter based on data for the orbit of one of its moons, and compare your result with its actual mass.",
       "has_solution": true,
       "missing_labels": [],
@@ -2766,19 +2754,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:3",
+        "source_sha256": "ddf8505ff27fbc4d5e9e2f78692052dd458e363711650a4ff22a9dc8f1854f29",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Io's orbital period and semimajor axis determine Jupiter's gravitational parameter through GM = 4π²r³/T². The inspected table supplies the values used. Neglecting Io's mass gives Jupiter's mass to the precision required, and the solution completes the requested comparison.",
         "calculation_check": "T = 0.00485 × 365.25 × 86400 = 153054.36 s. Thus M = 4π²(4.22e8 m)³/[6.67e-11 × (153054.36 s)²] = 1.8988e27 kg, rounding to 1.90e27 kg. The stated three-significant-figure match is correct.",
         "assumptions": "Io's orbit is adequately described by an isolated Newtonian two-body model, with Io's mass negligible and orbital radius interpreted as semimajor axis. Historical claims about applications to other systems were not independently documented in the supplied material.",
         "notes": "Correct conversion, dynamical relation, arithmetic, and comparison. The technique generalizes when both orbital scale and period are known.",
-        "source_sha256": "ddf8505ff27fbc4d5e9e2f78692052dd458e363711650a4ff22a9dc8f1854f29",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:13:35+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:4",
@@ -2788,8 +2776,8 @@
       "end_line": 623,
       "kind": "problems-exercises",
       "ordinal": 4,
-      "source_sha256": "829ce682795387cd98852e5481548b995b24b7d850a1c5fc1408346e5adc06f9",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "source_sha256": "084671ced62ba28687be3e99bb9da1b7523fa3ac704a0942cacca2fd0884064e",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1](#Table1).",
       "has_solution": true,
       "missing_labels": [],
@@ -2799,22 +2787,19 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:4",
-        "verdict": "concern",
+        "source_sha256": "084671ced62ba28687be3e99bb9da1b7523fa3ac704a0942cacca2fd0884064e",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Taking the ratio of satellite r³/T² values correctly cancels G and 4π². However, the discussion incorrectly suggests that an exterior Sun–Jupiter barycenter makes the system almost a binary star system. Barycenter location does not make Jupiter a star or change the system's stellar classification. The calculation also relabels unchanged table values from km³/y² to m³/s².",
-        "calculation_check": "The tabulated ratio is 3.19e21/1.01e19 = 315.84, correctly reported as 316. Actual SI conversions give approximately 3.203e15 and 1.014e13 m³/s², preserving the ratio. Using the chapter's solar radius and Jupiter orbital distance gives a Sun–Jupiter barycenter about 7.42e8 m from the Sun's center, or 1.07 solar radii: the exterior-barycenter statement itself is supported.",
-        "assumptions": "Satellite masses and perturbations are neglected, including the small Earth–Moon two-body correction. The comparison concerns the isolated Sun–Jupiter barycenter. The claim about the combined masses of all other planets was not independently established from the inspected sources.",
-        "notes": "The requested ratio is correct. Material concern: the binary-star inference is physically misleading. The displayed ratio also contains incorrect unit labels, although they cancel numerically.",
-        "source_sha256": "829ce682795387cd98852e5481548b995b24b7d850a1c5fc1408346e5adc06f9",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "notes": "Correct Kepler's-third-law ratio of 316. Fixed: the ratio now carries the table's km³/y² labels, and the binary-star remark is replaced with the accurate statement that the Sun–Jupiter barycenter lies just outside the Sun's surface.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:5",
@@ -2824,8 +2809,8 @@
       "end_line": 688,
       "kind": "problems-exercises",
       "ordinal": 5,
-      "source_sha256": "abcffeea3742f5b92b99f1757f54449a998eac0e1df9945d255816f1d4d98e40",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "source_sha256": "0406d462f26cf8b2bef8a240fde80db4e258efb752d40ae24f41be0bf5f00f19",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "Astronomical observations of our Milky Way galaxy indicate that it has a mass of about $$8.0\\times 10^{11}$$ solar masses. A star orbiting on the galaxy's periphery is about $$6.0…",
       "has_solution": true,
       "missing_labels": [],
@@ -2838,66 +2823,60 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:5",
+        "source_sha256": "0406d462f26cf8b2bef8a240fde80db4e258efb752d40ae24f41be0bf5f00f19",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "concern",
         "confidence": "high",
-        "reasoning_check": "For a circular orbit in a spherical gravitational field, GM_enclosed/r² = 4π²r/T², which yields both stated results. This estimates enclosed mass, rather than automatically determining all mass in an extended galaxy. The discussion additionally calls the original 8.0e11 solar masses a stated visible mass, although the problem never identifies it that way. A discrepancy establishes disagreement with the assumed mass; attributing it to dark matter requires an independent estimate of luminous mass.",
-        "calculation_check": "With r = 5.676e20 m and M = 1.592e42 kg, T = 8.245e15 s = 2.613e8 years. For T = 6.0e7 years, M_enclosed = 3.018e43 kg = 1.517e13 solar masses, 18.96 times the initial mass. Both numerical answers are correct.",
-        "assumptions": "Circular orbit, Newtonian gravity, negligible stellar mass, and an approximately spherical mass distribution or centrally concentrated exterior-orbit approximation. A flattened galaxy does not generally obey the spherical enclosed-mass relation exactly.",
-        "notes": "Both calculations are correct under the intended model. The discussion introduces an unsupported visible-mass premise and consequently overstates what this hypothetical discrepancy establishes about dark matter.",
-        "source_sha256": "abcffeea3742f5b92b99f1757f54449a998eac0e1df9945d255816f1d4d98e40",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "notes": "Both calculations are correct under the intended model. Fixed: units typed twice after three displays (kg, m, s). Unchanged concern: the discussion calls the given 8.0×10^11 solar masses the 'visible' mass, a premise the problem does not state, so it overstates what the discrepancy shows about dark matter.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:6",
       "chapter": 6,
       "file": "contents/ch6SatellitesAndKeplersLaws.md",
       "line": 690,
-      "end_line": 772,
+      "end_line": 780,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "39ffd24627565022b0d61353ad19963893eee0615fb33dd788247ac99ad8b12e",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "source_sha256": "09dfdab7476f3e070c1369d41a3f6b9986dcfe870cb8621babce8880601402ce",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "__Integrated Concepts__ Space debris left from old satellites and their launchers is becoming a hazard to other satellites. (a) Calculate the speed of a satellite in an orbit 900…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 22,
+        "skipped": 29,
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:6",
-        "verdict": "concern",
+        "source_sha256": "09dfdab7476f3e070c1369d41a3f6b9986dcfe870cb8621babce8880601402ce",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The circular-orbit speed, perpendicular-velocity magnitude, prescribed contact-time estimate, impulse magnitude, and dissipated energy are correctly modeled. However, part (b) requests velocity, and the solution supplies only its magnitude. Choosing the satellite velocity as v x-hat and rivet velocity as v y-hat gives the missing vector v_relative = v(-x-hat + y-hat), directed 135 degrees from the satellite's forward direction toward the rivet's motion. The force exerted on the satellite points along this relative velocity.",
-        "calculation_check": "Independent results are v = 7398 m/s, relative speed = 10462 m/s, duration = 2.867e-7 s, average force magnitude = 1.824e7 N, and dissipated energy = 2.737e4 J. For finite satellite mass M, the exact dissipated energy is one-half the reduced mass times relative speed squared, approaching the solution's expression when M greatly exceeds the rivet mass. Discussion values differ only through ordinary rounding.",
-        "assumptions": "Both orbits are circular, their velocities intersect perpendicularly, sticking occurs, satellite mass greatly exceeds rivet mass, and contact time is defined by the problem's size-over-speed prescription. Historical spacecraft-damage examples were not independently verified.",
-        "notes": "All five numerical magnitudes and the collision-energy reasoning are sound. Material omission: part (b) gives relative speed without the requested velocity direction.",
-        "source_sha256": "39ffd24627565022b0d61353ad19963893eee0615fb33dd788247ac99ad8b12e",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "notes": "All five magnitudes are correct. Fixed: part (b) now gives the direction of the relative velocity (45° from the rivet's motion, 135° from the satellite's velocity), and the discussion figures now match the solution (18.2 MN, about 1,860 t, 27.4 kJ).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:7",
       "chapter": 6,
       "file": "contents/ch6SatellitesAndKeplersLaws.md",
-      "line": 774,
-      "end_line": 863,
+      "line": 782,
+      "end_line": 871,
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "49a35db142c8cc53c3b3626460cd4b724478a14985eb92a12faca37e97f7c5b9",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "__Unreasonable Results__ (a) Based on Kepler’s laws and information on the orbital characteristics of the Moon, calculate the orbital radius for an Earth satellite having a period…",
       "has_solution": true,
       "missing_labels": [],
@@ -2910,30 +2889,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:7",
+        "source_sha256": "49a35db142c8cc53c3b3626460cd4b724478a14985eb92a12faca37e97f7c5b9",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The exterior Kepler relation gives a one-hour orbit smaller than Earth, exposing the inconsistency rather than describing an admissible orbit. The minimum period of an exterior bound Kepler orbit occurs at the limiting circular orbit at the surface. Substituting M = (4π/3)ρR³ correctly gives T_min = sqrt(3π/(Gρ)). All requested parts are answered.",
         "calculation_check": "Using Earth's stated mass gives r = 5.077e6 m. Independently using the requested lunar reference gives r = 3.84e8[(1/24)/27.3]^(2/3) = 5.090e6 m, with the same conclusion. Both are below 6.371e6 m. The limiting surface period is 5061 s = 84.35 min, agreeing with 84.4 min.",
         "assumptions": "An ordinary satellite outside a spherical Earth, Newtonian gravity, negligible satellite mass, and no propulsion. Atmospheric drag is ignored for the theoretical lower bound; practical sustainable orbits require greater altitude.",
         "notes": "Correct radius, physical inconsistency, minimum period, and density dependence. Using Earth's mass instead of lunar calibration does not alter the substantive conclusion.",
-        "source_sha256": "49a35db142c8cc53c3b3626460cd4b724478a14985eb92a12faca37e97f7c5b9",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:13:35+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:8",
       "chapter": 6,
       "file": "contents/ch6SatellitesAndKeplersLaws.md",
-      "line": 865,
-      "end_line": 917,
+      "line": 873,
+      "end_line": 925,
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "0abdf47ac42b36aa9a9f0256577dc63b3eb0c304507f44bc48adca68b175c0f7",
-      "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
+      "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
       "preview": "__Construct Your Own Problem__ On February 14, 2000, the NEAR spacecraft was successfully inserted into orbit around Eros, becoming the first artificial satellite of an asteroid.…",
       "has_solution": true,
       "missing_labels": [],
@@ -2946,19 +2925,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch6SatellitesAndKeplersLaws.md::problems-exercises:8",
+        "source_sha256": "0abdf47ac42b36aa9a9f0256577dc63b3eb0c304507f44bc48adca68b175c0f7",
+        "file_sha256": "1efe47ed34b4831b37f9648a3d70e350dd15f4c6dfae1b9e2ff5557605c0fdab",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "The constructed problem supplies mass, an orbital radius outside the stated asteroid dimensions, and an effective surface radius. Gravity supplying centripetal acceleration gives the orbital speed and period; a spherical surrogate gives the surface gravity and escape speed. These are appropriate approximate textbook estimates. Actual gravity and escape energy on an elongated body's surface require its mass distribution and surface location, while operational orbital safety also requires rotational and perturbation information.",
         "calculation_check": "GM = 446490.6 m³/s². At 50000 m, v = 2.988 m/s and T = 105130 s = 29.20 h. At effective radius 8420 m, g = 0.006298 m/s² and escape speed = 10.298 m/s = 37.07 km/h. Surface gravity is approximately 1/1558 of Earth's, consistent with the rough 1/1600 description.",
         "assumptions": "Point-mass approximation for the orbit and a spherical, nonrotating surrogate for surface gravity and escape speed, with escape defined relative to an isolated asteroid. The supplied Eros mass, dimensions, effective radius, and NEAR mission history were not independently established by the inspected sources.",
         "notes": "All calculations are correct as approximate spherical-model estimates. Actual local surface values and orbital safety remain unverified; the 50 km orbit also falls short of the discussion's own heuristic of several times the 34 km largest dimension.",
-        "source_sha256": "0abdf47ac42b36aa9a9f0256577dc63b3eb0c304507f44bc48adca68b175c0f7",
-        "file_sha256": "4bb8f9547f16625c07fb1593bd6527b0a187ef4bd464162eba91545336618a8a",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:13:35+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:13:35+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     }
   ]
 }

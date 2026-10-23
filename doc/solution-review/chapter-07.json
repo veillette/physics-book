@@ -1,16 +1,16 @@
 {
   "chapter": 7,
-  "checked_at": "2026-10-23T18:50:06+00:00",
+  "checked_at": "2026-10-23T19:53:58+00:00",
   "summary": {
-    "total": 2205,
+    "total": 2208,
     "checked": 382,
     "failed": 2,
-    "skipped": 1821,
+    "skipped": 1824,
     "by_kind": {
       "equation": {
         "checked": 378,
         "failed": 2,
-        "skipped": 1821
+        "skipped": 1824
       },
       "case": {
         "checked": 4,
@@ -27,8 +27,8 @@
     },
     "skip_reasons": {
       "no supported equality": 757,
-      "unsupported symbol": 179,
-      "unbound variable": 816,
+      "unsupported symbol": 180,
+      "unbound variable": 818,
       "unit-only expression or text label needs a numeric value": 39,
       "unknown unit": 28,
       "trailing tokens": 1,
@@ -636,7 +636,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "5ec456245e8530faf91e62507368cd4eee200e91590f2aeab6afb24db3ecaec9",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "::: example {\"class\":\"example\",\"id\":\"example1\"} The Force to Stop Falling A 60.0-kg person jumps onto the floor from a height of 3.00 m. If he lands stiffly (with his knee joints…",
       "has_solution": true,
       "missing_labels": [],
@@ -648,19 +648,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md#example1",
+        "source_sha256": "5ec456245e8530faf91e62507368cd4eee200e91590f2aeab6afb24db3ecaec9",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The numerical result is a reasonable estimate of an effective average stopping force, but the explanation incorrectly identifies −Fd as actual work by a stationary floor on a deforming person. With planted, nonslipping feet, the floor's contact point does not move; the kinetic energy is converted into internal deformation and thermal energy within the person. A center-of-mass work-energy calculation can use the floor force times center-of-mass displacement as pseudowork, but that distinction is missing. Knee compression also determines neither the instantaneous peak force nor the force on each anatomical joint without additional modeling. The signed h convention is consistent with the surrounding chapter and is not a sign error.",
         "calculation_check": "The incident kinetic energy is 60.0(9.80)(3.00) = 1764 J. Dividing by 0.00500 m gives 352,800 N, matching the answer. If that distance is the center-of-mass stopping distance, including gravity gives an average support force of 1764/0.00500 + 588 = 353,388 N. At a 0.500 m stopping distance, the corresponding force is 4116 N, about 86 times smaller rather than exactly 100; the latter ratio follows only from continuing to neglect gravity.",
         "assumptions": "Fall from rest, negligible air resistance, and knee compression approximating center-of-mass stopping distance. The computed force is an effective displacement-averaged load. Injury thresholds and the zoological claims were not independently established.",
         "notes": "The force estimate is numerically sound under a lumped model, but actual floor work is confused with center-of-mass pseudowork, and average versus anatomical/peak force is unspecified.",
-        "source_sha256": "5ec456245e8530faf91e62507368cd4eee200e91590f2aeab6afb24db3ecaec9",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md#example2",
@@ -671,7 +671,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "ac07ca6e60521721710f1634f87529c792684b6723602b4c4d71a4cdedb9dddc",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "::: example {\"class\":\"example\",\"id\":\"example2\"} Finding the Speed of a Roller Coaster from its Height (a) What is the final speed of the roller coaster shown in [Figure 4](#Figure…",
       "has_solution": true,
       "missing_labels": [],
@@ -683,19 +683,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md#example2",
+        "source_sha256": "ac07ca6e60521721710f1634f87529c792684b6723602b4c4d71a4cdedb9dddc",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A stationary frictionless track exerts a normal force perpendicular to motion, so conservation gives vf² = vi² + 2g(yi − yf). This answers both parts and explains the mass cancellation and path independence of speed. Inspection of the SVG source confirms that the finish is 20 m below the start, while the intermediate lowest point is 25 m below it; using 20 m is therefore correct. The energy result remains valid along curved tracks with varying acceleration.",
         "calculation_check": "From rest, vf = sqrt(2(9.80)(20.0)) = 19.79899 m/s. With vi = 5.00 m/s, vf = sqrt(392 + 25) = 20.42058 m/s. Initial motion increases final speed by only 0.622 m/s, about 3.14%, because its contribution is added to speed squared.",
         "assumptions": "Uniform gravity, negligible friction and air resistance, a stationary track, and a particle model neglecting wheel rotation. The coaster must be able to reach the specified point; energy conservation alone does not establish track contact or passage over an intervening inaccessible crest.",
         "notes": "Both answers and the discussion are correct within the stated frictionless model; the figure supports the 20 m endpoint drop.",
-        "source_sha256": "ac07ca6e60521721710f1634f87529c792684b6723602b4c4d71a4cdedb9dddc",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::conceptual-questions:1",
@@ -706,7 +706,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "17ad54cd2446bc98cb2729320313b253dbd1efe67215474cfd36f6faa483cad1",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "In [Example 2](#example2), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster h…",
       "has_solution": true,
       "missing_labels": [
@@ -721,19 +721,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::conceptual-questions:1",
+        "source_sha256": "17ad54cd2446bc98cb2729320313b253dbd1efe67215474cfd36f6faa483cad1",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Reversing the initial direction preserves initial kinetic energy because K depends on speed squared. During the uphill excursion, kinetic energy becomes potential energy and is fully recovered on returning to the starting height. The coaster then has the same downhill speed and energy as the original example, so its speed at the final, lower point is unchanged. The explanation correctly addresses the turn-around as well as the final endpoint.",
         "calculation_check": "The additional climb is vi²/(2g) = 25/19.6 = 1.27551 m. Relative to the final point, initial energy per unit mass is 12.5 + 196 = 208.5 J/kg, giving vf = sqrt(2(208.5)) = 20.42058 m/s.",
         "assumptions": "The stipulated track permits the uphill excursion and return, the track does no work, dissipative losses are negligible, and rotational energy is neglected. Endpoint-height independence is understood for fixed initial speed.",
         "notes": "Correct explanation of direction independence, temporary energy storage, and the 20.4 m/s final speed.",
-        "source_sha256": "17ad54cd2446bc98cb2729320313b253dbd1efe67215474cfd36f6faa483cad1",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::conceptual-questions:2",
@@ -744,7 +744,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "d2c167ae559055e72a773aff21129b807e842f141ac297002a2cf1889b3f05eb",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "Does the work you do on a book when you lift it onto a shelf depend on the path taken? On the time taken? On the height of the shelf? On the mass of the book?",
       "has_solution": true,
       "missing_labels": [
@@ -759,19 +759,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::conceptual-questions:2",
+        "source_sha256": "d2c167ae559055e72a773aff21129b807e842f141ac297002a2cf1889b3f05eb",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For the book, ΔK = Wperson − mgΔy. With equal initial and final kinetic energies, Wperson = mgΔy regardless of intermediate path, acceleration, or duration, provided other forces do no work. The solution explicitly supplies rest endpoints and neglects friction, so all four dependence answers follow. Its power comparison correctly distinguishes energy transfer from transfer rate.",
         "calculation_check": "The example requires 1.5(9.80)(2.0) = 29.4 J. Over 1 s and 10 s, average powers are 29.4 W and 2.94 W. Halving the height gives 14.7 J, and doubling the mass gives 58.8 J, consistent with the rounded values.",
         "assumptions": "Uniform gravity; fixed starting level; equal endpoint speeds; no drag, friction, or other work-producing interaction. Work refers to mechanical work on the book rather than the person's metabolic expenditure. The relevant height is the shelf's rise above the starting position.",
         "notes": "All four requested dependencies and the numerical examples are correct under the stated endpoint and loss assumptions.",
-        "source_sha256": "d2c167ae559055e72a773aff21129b807e842f141ac297002a2cf1889b3f05eb",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:1",
@@ -782,7 +782,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "1e905eaff46e208a6ad449554a5cea596b8959efc371ba8b3c1b98bc92495581",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "A hydroelectric power facility (see [Figure 6](#Figure6)) converts the gravitational potential energy of water behind a dam to electric energy. (a) What is the gravitational poten…",
       "has_solution": true,
       "missing_labels": [],
@@ -795,19 +795,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:1",
+        "source_sha256": "1e905eaff46e208a6ad449554a5cea596b8959efc371ba8b3c1b98bc92495581",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For water distributed over different elevations, integrating gy dm gives Mg times its mass-weighted average height. Thus the supplied mass and average height are sufficient. Comparing this stored gravitational energy with the bomb's stated yield answers part (b). The discussion correctly distinguishes stored energy from the rate of release; actual electrical output would additionally require a conversion efficiency.",
         "calculation_check": "The volume is 50.0 × 10^9 m³, consistent with 5.00 × 10^13 kg at water density 1000 kg/m³. Potential energy is 5.00 × 10^13(9.80)(40.0) = 1.96 × 10^16 J. The stated TNT conversion gives 3.762 × 10^16 J for 9 megatons and a ratio of 0.5210. The neighboring energy table independently lists approximately 3.8 × 10^16 J for that bomb yield.",
         "assumptions": "Uniform gravity, the stated height interpreted as mass-weighted mean elevation, and generators defining zero potential. The Lake Mead capacity comparison was not independently verified; it does not enter either answer.",
         "notes": "Both requested results are correct. The incidental Lake Mead capacity claim remains unverified.",
-        "source_sha256": "1e905eaff46e208a6ad449554a5cea596b8959efc371ba8b3c1b98bc92495581",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:2",
@@ -818,7 +818,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "88cbb017b94eac72f85607bb89c6ad93b9eb3158c9877c8d4fe3ae3520044c6c",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "(a) How much gravitational potential energy (relative to the ground on which it is built) is stored in the Great Pyramid of Cheops, given that its mass is about $$7 \\times 10^{9}\\…",
       "has_solution": true,
       "missing_labels": [],
@@ -831,19 +831,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:2",
+        "source_sha256": "88cbb017b94eac72f85607bb89c6ad93b9eb3158c9877c8d4fe3ae3520044c6c",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "In uniform gravity, an extended structure's potential energy relative to a horizontal datum is Mg times its center-of-mass height. The solution therefore uses the correct height rather than the pyramid's full height. Its food-energy comparison uses the 1.2 × 10^7 J daily intake also supplied by the neighboring chapter table. The comparison represents energy equivalence, not a direct count of construction labor-days or metabolic expenditure.",
         "calculation_check": "U = 7 × 10^9(9.80)(36.5) = 2.5039 × 10^12 J. Dividing by 1.2 × 10^7 J/day gives 208,658 days, or about 572 years. The reported 210,000 days and roughly 575 years are consistent rough rounding. Using 4184 J/kcal, the assumed intake is about 2868 kcal.",
         "assumptions": "Uniform gravity, the supplied approximate mass and center-of-mass height, and the ground as potential-energy datum. Daily food intake is a representative comparison value. The historical construction duration was not independently established, and construction efficiency is not calculated.",
         "notes": "Correct extended-body potential energy and food-energy comparison; the year conversion is acceptable rounding. Historical duration remains unverified.",
-        "source_sha256": "88cbb017b94eac72f85607bb89c6ad93b9eb3158c9877c8d4fe3ae3520044c6c",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:3",
@@ -854,7 +854,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "06ec0a2353d01e531b743d6926151ca6feb42e1e4f530c514f76b4fc35dc7b2b",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and raises it 2.5 m from the ground to a branch. (a) How much work did the bird do on the snake? (b) How…",
       "has_solution": true,
       "missing_labels": [],
@@ -867,19 +867,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:3",
+        "source_sha256": "06ec0a2353d01e531b743d6926151ca6feb42e1e4f530c514f76b4fc35dc7b2b",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For equal endpoint speeds and negligible resistance on the snake, the bird's work on it is its increase in gravitational potential energy. The corresponding useful gravitational energy for the bird is also mgh, so both requested numerical answers are correct. However, the discussion extends these gravitational-energy calculations into claims about actual flight energy cost and a modest carrying burden. The sum 10.4 J measures the combined gravitational-energy increase, not total aerodynamic or metabolic flight expenditure. Those broader conclusions require information about flight mechanics, losses, and efficiency.",
         "calculation_check": "Snake: 0.075(9.80)(2.5) = 1.8375 J. Bird: 0.350(9.80)(2.5) = 8.575 J. Their sum is 10.4125 J. The payload-to-bird gravitational-work ratio is 0.075/0.350 = 0.2143, establishing a 21.4% increment in useful lifting energy, without establishing the increment in total flight expenditure.",
         "assumptions": "Both centers of mass rise 2.5 m, endpoint kinetic energies are unchanged, and the requested work is useful lifting work. Aerodynamic dissipation, wing motion, and metabolic efficiency are outside the supplied model. Species-specific strength and feeding claims were not independently verified.",
         "notes": "Both lifting-work answers are correct; the discussion overextends mgh into unsupported conclusions about total flight costs and carrying burden.",
-        "source_sha256": "06ec0a2353d01e531b743d6926151ca6feb42e1e4f530c514f76b4fc35dc7b2b",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:22:42+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:4",
@@ -889,33 +889,30 @@
       "end_line": 602,
       "kind": "problems-exercises",
       "ordinal": 4,
-      "source_sha256": "43639eeb978b51ebd16e69a56c02c8f71e87aeea5ae95d87ad92d2beae214e0b",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "source_sha256": "93d2771413e56b39ff5f02992dcb9b1d6c1802c68284d1c8200a8adccf80d8ba",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "In [Example 2](#example2), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s than when it st…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 15,
+        "skipped": 16,
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:4",
-        "verdict": "concern",
+        "source_sha256": "93d2771413e56b39ff5f02992dcb9b1d6c1802c68284d1c8200a8adccf80d8ba",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The intended comparison is between the magnitude of gravitational potential-energy loss and initial kinetic energy. For an actual 20.0 m descent, ΔU = Uf − Ui = −mg(20.0 m), not +mg|h|. Both the problem's inequality and the solution silently treat ΔU as a positive loss magnitude, contrary to the signed convention used in the chapter and referenced example. The physical conclusion about the dominance of released gravitational energy is correct when written |ΔU|/Ki or −ΔU/Ki. The final discussion should also refer to speed: energy alone does not determine final velocity direction.",
-        "calculation_check": "ΔU/m = −196 J/kg and Ki/m = 12.5 J/kg, so the requested signed ratio is −15.68. The magnitude ratio is +15.68, matching the reported 15.7. Consequently the additional initial kinetic energy raises final speed by sqrt(1 + 1/15.68) − 1 = 3.14%.",
-        "assumptions": "Uniform gravity, negligible nonconservative work, the same initial and final heights as Example 2, and initial speed 5.00 m/s. Initial speed has a small effect only when 2g times the drop greatly exceeds initial speed squared.",
-        "notes": "Magnitude calculation is correct, but ΔPE is assigned the wrong sign throughout. The comparison must use potential-energy loss magnitude; the discussion also conflates speed with velocity.",
-        "source_sha256": "43639eeb978b51ebd16e69a56c02c8f71e87aeea5ae95d87ad92d2beae214e0b",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:22:42+00:00"
+        "notes": "Correct ratio of about 16. Fixed: the problem statement and solution compare |ΔPE| = mg|h| with KE_i, noting that ΔPE = −mg|h| for the descent; the discussion now says speed rather than velocity.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:5",
@@ -926,7 +923,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "1482afbbdfd9aa0ace3474193a09a4832ba0bdfc35964741d60693809dba349d",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
       "preview": "A 100-g toy car is propelled by a compressed spring that starts it moving. The car follows the curved track in [Figure 7](#Figure7). Show that the final speed of the toy car is 0.…",
       "has_solution": true,
       "missing_labels": [],
@@ -939,19 +936,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:5",
+        "source_sha256": "1482afbbdfd9aa0ace3474193a09a4832ba0bdfc35964741d60693809dba349d",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "After the spring has finished propelling the car, conservation of mechanical energy gives v_f² = v_0² - 2gΔh. The track's curvature does not affect this result because the stationary track's normal force does no work. The solution uses the correct gravitational-energy increase and answers the question.",
         "calculation_check": "v_f = sqrt(4.00 - 2(9.80)(0.180)) = 0.687023 m/s. Initial kinetic energy is 0.200 J; the gravitational-energy increase is 0.1764 J, or 88.2%. The maximum reachable height is 0.204 m, exceeding the specified rise.",
         "assumptions": "No continuing spring work, dissipative losses, or changing rotational kinetic energy; uniform gravity and maintained track contact. The referenced photograph and coordinate sketch were inspected.",
         "notes": "The speed, energy-conversion percentage, and reachability of the stated height are correct under the intended translational model.",
-        "source_sha256": "1482afbbdfd9aa0ace3474193a09a4832ba0bdfc35964741d60693809dba349d",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:6",
@@ -961,9 +958,9 @@
       "end_line": 751,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "37cb1e27f6ee452744817f8d7ce1fdcdd1841c2579923e8f563e4a570c4a9966",
-      "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-      "preview": "In a downhill ski race, surprisingly, little advantage is gained by getting a running start. (This is because the initial kinetic energy is small compared with the gain in gravita…",
+      "source_sha256": "90dd8752598f98a2ca05c7823b0b6b44ed9b9ac85d963e4db8524f32d1338a8e",
+      "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
+      "preview": "In a downhill ski race, surprisingly, little advantage is gained by getting a running start. (This is because the initial kinetic energy is small compared with the gravitational p…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
@@ -972,22 +969,19 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch7GravitationalPotentialEnergy.md::problems-exercises:6",
-        "verdict": "concern",
+        "source_sha256": "90dd8752598f98a2ca05c7823b0b6b44ed9b9ac85d963e4db8524f32d1338a8e",
+        "file_sha256": "ffed9bb496a34e5aa9b80eaee08e1729396419d90274dc44a0d5433c66c9aa53",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "All requested speeds and times follow correctly from a = g sin 30° and v_f² = v_0² + 2ad. The competitive advantage discussion is supported by the time saved. However, the problem's parenthetical explanation incorrectly calls the downhill energy change a gain in gravitational potential energy. Gravitational potential energy decreases while kinetic energy increases. The discussion's comparison ΔPE >> KE_i likewise requires the magnitude of the potential-energy decrease.",
-        "calculation_check": "The vertical drop is 35.0 m and acceleration is 4.90 m/s². Starting from rest gives v_f = 26.1916 m/s and t = 5.34522 s. Starting at 2.50 m/s gives v_f = 26.3106 m/s and t = 4.85932 s. The time saving is 0.48591 s. ΔU/m = -343 J/kg, whereas K_i/m = 3.125 J/kg, giving |ΔU|/K_i = 109.76.",
-        "assumptions": "Straight constant-angle slope, initial velocity downhill, uniform gravity, and negligible friction and air resistance. The coordinate sketch supports the stated geometry.",
-        "notes": "All numerical answers are correct. The problem premise reverses the sign of the gravitational potential-energy change; the discussion also needs an absolute-value comparison.",
-        "source_sha256": "37cb1e27f6ee452744817f8d7ce1fdcdd1841c2579923e8f563e4a570c4a9966",
-        "file_sha256": "42c9a7fed71daa23e859deeede3f92276e4fb36706924b71df120c30acd15dcb",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "notes": "All numerical answers are correct. Fixed: the premise now refers to gravitational potential energy lost (not gained) during the descent, the discussion compares |ΔPE| with KE_i, and the time step names v = v0 + at, the equation it actually uses.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#package-energy",
@@ -998,7 +992,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "63df37562834079cba595f23262edf6b42a37626cedb40596d7a8bc59a6e0e3e",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "::: example {\"class\":\"example\",\"id\":\"package-energy\"} Calculating the Kinetic Energy of a Package Suppose a 30.0-kg package on the roller belt conveyor system in [Figure 2](#Figur…",
       "has_solution": true,
       "missing_labels": [],
@@ -1011,19 +1005,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#package-energy",
+        "source_sha256": "63df37562834079cba595f23262edf6b42a37626cedb40596d7a8bc59a6e0e3e",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The requested translational kinetic energy follows directly from K = mv²/2. The discussion reasonably identifies the small energy needed to establish this low speed, although this does not quantify sustained effort against resistance.",
         "calculation_check": "K = (1/2)(30.0)(0.500)² = 3.75 kg·m²/s² = 3.75 J.",
         "assumptions": "The package translates without appreciable rotation or deformation, and speed is measured in the conveyor's ground frame.",
         "notes": "The formula, arithmetic, units, and qualitative interpretation are appropriate.",
-        "source_sha256": "63df37562834079cba595f23262edf6b42a37626cedb40596d7a8bc59a6e0e3e",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#package-work",
@@ -1034,7 +1028,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "b64388ac614793c5c8b5d81b8d9df6005bf510a6f3f65766c6fb90773627f8ef",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "::: example {\"class\":\"example\",\"id\":\"package-work\"} Determining the Work to Accelerate a Package Suppose that you push on the 30.0-kg package in [Figure 2](#Figure2) with a consta…",
       "has_solution": true,
       "missing_labels": [],
@@ -1047,19 +1041,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#package-work",
+        "source_sha256": "b64388ac614793c5c8b5d81b8d9df6005bf510a6f3f65766c6fb90773627f8ef",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For horizontal displacement, gravity and the normal force each do zero work. The applied force does positive work and resistance does negative work. Summing individual works and using the displacement-averaged net force give the same result, satisfying both requested approaches.",
         "calculation_check": "Applied work is 120(0.800) = 96.0 J; frictional work is -5.00(0.800) = -4.00 J. Their sum is 92.0 J, also equal to (120 - 5.00)(0.800).",
         "assumptions": "Horizontal translation, horizontal push, and a friction average taken over displacement. The quoted 115 N is an average net force if friction varies. The referenced SVG confirms force directions.",
         "notes": "Both methods correctly give 92.0 J, with appropriate work signs and zero vertical-force contributions.",
-        "source_sha256": "b64388ac614793c5c8b5d81b8d9df6005bf510a6f3f65766c6fb90773627f8ef",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#example3",
@@ -1069,8 +1063,8 @@
       "end_line": 345,
       "kind": "worked-example",
       "ordinal": 3,
-      "source_sha256": "2ac3b925e90e3268243fefc4c8526c1677d2776c902aff670945da39998bf443",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "source_sha256": "135a39f79646f4bc0a88bfe6aaec0b55d4db08b2639af54589b4e64eccce1fbc",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "::: example {\"class\":\"example\",\"id\":\"example3\"} Determining Speed from Work and Energy Find the speed of the package in [Figure 2](#Figure2) at the end of the push, using work and…",
       "has_solution": true,
       "missing_labels": [],
@@ -1080,22 +1074,19 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#example3",
-        "verdict": "concern",
+        "source_sha256": "135a39f79646f4bc0a88bfe6aaec0b55d4db08b2639af54589b4e64eccce1fbc",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The intended work-energy calculation is correct: K_f = K_i + W_net, followed by v_f = sqrt(2K_f/m). However, the Strategy and two symbolic equations write the initial energy as one-half of (m v_0) squared. That squares the mass as well as the velocity and is not kinetic energy. The subsequent numerical substitution instead correctly uses m v_0²/2.",
-        "calculation_check": "K_i = (1/2)(30.0)(0.500)² = 3.75 J; K_f = 95.75 J; v_f = sqrt(191.5/30.0) = 2.52653 m/s. In contrast, (m v_0)²/2 has units kg²·m²/s², inconsistent with joules.",
-        "assumptions": "The example continues the preceding package examples, using the same 30.0 kg mass, 0.500 m/s initial speed, and 92.0 J net work.",
-        "notes": "The final speed is correct, but repeated initial-energy expressions incorrectly square the mass and are dimensionally invalid.",
-        "source_sha256": "2ac3b925e90e3268243fefc4c8526c1677d2776c902aff670945da39998bf443",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "notes": "Correct final speed of 2.53 m/s. Fixed: the initial kinetic energy is written ½mv0² instead of ½(mv0)², which squared the mass.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#package-coast",
@@ -1106,7 +1097,7 @@
       "kind": "worked-example",
       "ordinal": 4,
       "source_sha256": "1e794a649741ca7d3c743cdbf3434339bca3c882383a5b5c9ad865d717cb1b0a",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "::: example {\"class\":\"example\",\"id\":\"package-coast\"} Work and Energy Can Reveal Distance, Too How far does the package in [Figure 2](#Figure2) coast after the push, assuming frict…",
       "has_solution": true,
       "missing_labels": [],
@@ -1119,19 +1110,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md#package-coast",
+        "source_sha256": "1e794a649741ca7d3c743cdbf3434339bca3c882383a5b5c9ad865d717cb1b0a",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Once the push ends, the opposing friction force is the only force doing work. Setting -fd equal to the change from 95.75 J of kinetic energy to zero correctly gives the additional coasting distance.",
         "calculation_check": "d = 95.75/5.00 = 19.15 m, rounding to 19.2 m. Independently, a = -5.00/30.0 = -0.166667 m/s² and v_i² = 6.38333 m²/s² give d = -v_i²/(2a) = 19.15 m.",
         "assumptions": "The preceding numerical kinetic energy is used; resistance remains 5.00 N during horizontal coasting, with no conveyor drive or other longitudinal force.",
         "notes": "The stopping-distance calculation and interpretation of negative frictional work are correct.",
-        "source_sha256": "1e794a649741ca7d3c743cdbf3434339bca3c882383a5b5c9ad865d717cb1b0a",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::conceptual-questions:1",
@@ -1142,7 +1133,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "d77c85a6ffc6db93cb15a700e6bc60290b2ce5bd959f6ca189c01f47dc78ece8",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "The person in [Figure 3](#Figure3) does work on the lawn mower. Under what conditions would the mower gain energy? Under what conditions would it lose energy? ![A person pushing a…",
       "has_solution": true,
       "missing_labels": [
@@ -1157,19 +1148,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::conceptual-questions:1",
+        "source_sha256": "d77c85a6ffc6db93cb15a700e6bc60290b2ce5bd959f6ca189c01f47dc78ece8",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Within the chapter's translational model, the mower gains kinetic energy when the forward push does more work than opposing resistance removes, and loses kinetic energy when the balance reverses. Equality gives constant speed. The inspected figure supports a downward-angled push and horizontal displacement.",
         "calculation_check": "80 cos 30° = 69.282 N, so applied work over 10 m is 692.820 J. Net work is +92.820 J against 60 N resistance and -57.180 J against 75 N resistance, agreeing with the examples.",
         "assumptions": "Energy means translational kinetic energy here; horizontal motion, negligible changes in rotational or internal energy, and positive opposing resistance. The claim that pressing downward increases friction assumes load-dependent resistance.",
         "notes": "The conditions, signs, and numerical illustrations are correct under the stated mechanical model.",
-        "source_sha256": "d77c85a6ffc6db93cb15a700e6bc60290b2ce5bd959f6ca189c01f47dc78ece8",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::conceptual-questions:2",
@@ -1180,7 +1171,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "3543bae605d5cf62cd05db7b4aa07c1eee57d7c8a5be4408768d2e9a9e335fe3",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "Work done on a system puts energy into it. Work done by a system removes energy from it. Give an example for each statement.",
       "has_solution": true,
       "missing_labels": [
@@ -1195,19 +1186,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::conceptual-questions:2",
+        "source_sha256": "3543bae605d5cf62cd05db7b4aa07c1eee57d7c8a5be4408768d2e9a9e335fe3",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The cart example demonstrates positive external work increasing kinetic energy. The hammer example demonstrates energy leaving the hammer through work on the nail, with the opposing contact force reducing the hammer's kinetic energy. Equal and opposite contact work is justified when the contacting surfaces share the same displacement; Newton's third law alone would not suffice for arbitrary deforming systems.",
         "calculation_check": "Cart work is 50(4.0) = 200 J and its resulting speed is sqrt(400/10) = 6.32456 m/s. Hammer work is 500(0.020) = 10 J, with -10 J of corresponding contact work on the hammer under the shared-displacement approximation.",
         "assumptions": "Negligible cart resistance; the hammer and nail remain in contact through the stated displacement. Other hammer work and energy retained in hammer deformation or vibration are neglected; 500 N represents a displacement-averaged force.",
         "notes": "Both examples correctly illustrate work as energy transfer under their elementary mechanical assumptions.",
-        "source_sha256": "3543bae605d5cf62cd05db7b4aa07c1eee57d7c8a5be4408768d2e9a9e335fe3",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::conceptual-questions:3",
@@ -1218,7 +1209,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "825c7ed57a5c05bf6076dc38aa5f648dc7e3e23425e63665bce48306b593bd0e",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "When solving for speed in [Example 3](#example3), we kept only the positive root. Why?",
       "has_solution": true,
       "missing_labels": [
@@ -1233,19 +1224,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::conceptual-questions:3",
+        "source_sha256": "825c7ed57a5c05bf6076dc38aa5f648dc7e3e23425e63665bce48306b593bd0e",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Speed is the nonnegative magnitude of velocity, so only the nonnegative square root answers the question. A signed one-dimensional velocity could have either sign for a given kinetic energy; its direction must come from the motion and forces. The surrounding package setup establishes motion along the push.",
         "calculation_check": "2K/m = 191.5/30.0 = 6.38333 m²/s², yielding speed 2.52653 m/s. Both signed velocities have the same kinetic energy, confirming that energy alone does not determine direction.",
         "assumptions": "The preceding package example supplies the numerical energy and mass, and the stated initial motion and push establish direction.",
         "notes": "The explanation correctly distinguishes nonnegative speed from signed velocity and the directional limits of energy information.",
-        "source_sha256": "825c7ed57a5c05bf6076dc38aa5f648dc7e3e23425e63665bce48306b593bd0e",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:1",
@@ -1256,7 +1247,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "0e868d98636f73d2fa253bdf7ab79f780f5242735d755c28a7b100762818316e",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "Compare the kinetic energy of a 20 000-kg truck moving at 110 km/h with that of an 80.0-kg astronaut in orbit moving at 27 500 km/h.",
       "has_solution": true,
       "missing_labels": [],
@@ -1294,14 +1285,15 @@
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:1",
         "source_sha256": "0e868d98636f73d2fa253bdf7ab79f780f5242735d755c28a7b100762818316e",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "concern",
         "confidence": "high",
         "notes": "Physical model KE=mv²/2 and the 250:1 astronaut/truck energy ratio are correct. The written speed conversions multiply an already unit-bearing km/h quantity by 1000 m/(3600 s), a second velocity rather than a dimensionless unit ratio. Use separate distance and time conversion ratios when eventually correcting this process; numerical answers are sound.",
-        "reviewer": "Codex substantive source review",
-        "reviewed_at": "2026-10-22T19:07:10+00:00"
+        "reviewer": "Codex substantive source review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-22T19:07:10+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:2",
@@ -1312,7 +1304,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "1de7f7e36d1311f909f806d9da09b3937a254b5bb3482e8b1ba699162f0d118f",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "(a) How fast must a 3000-kg elephant move to have the same kinetic energy as a 65.0-kg sprinter running at 10.0 m/s? (b) Discuss how the larger energies needed for the movement of…",
       "has_solution": true,
       "missing_labels": [],
@@ -1325,19 +1317,19 @@
       "review_status": "ambiguous",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:2",
+        "source_sha256": "1de7f7e36d1311f909f806d9da09b3937a254b5bb3482e8b1ba699162f0d118f",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "ambiguous",
         "confidence": "low",
         "reasoning_check": "Part (a) is fully verified: equal kinetic energies require v_elephant = v_sprinter sqrt(m_sprinter/m_elephant). For part (b), accelerating a greater mass to the same speed requires more mechanical energy; greater metabolic power follows only with additional assumptions about acceleration time and efficiency. At the particular speeds in part (a), the two translational kinetic energies are equal. The added empirical three-quarter-power metabolic scaling, and its applicability to locomotion rather than basal metabolism, were not established from the available sources.",
         "calculation_check": "The sprinter has 3250 J of kinetic energy, and the elephant's required speed is sqrt(6500/3000) = 1.47196 m/s. If the asserted mass scaling is assumed, the metabolic-rate ratio is (3000/65)^0.75 = 17.71 and the rate per unit mass is about 0.384 times as large. These conditional calculations do not establish the biological law.",
         "assumptions": "Classical translational kinetic energy. Comparing metabolic power from mechanical energy additionally requires a specified activity, duration, and efficiency. No external verification was performed, as requested.",
         "notes": "Part (a) is correct. Part (b)'s empirical scaling and its extension to movement remain unchecked; kinetic energy alone does not determine metabolic rate.",
-        "source_sha256": "1de7f7e36d1311f909f806d9da09b3937a254b5bb3482e8b1ba699162f0d118f",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:3",
@@ -1348,7 +1340,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "c35af31395dda65d7b0a445f7d1674015618f6afb35d069981d54355c21b6b71",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "Confirm the value given for the kinetic energy of an aircraft carrier in [Table 1 of Conservation of Energy](./ch7ConservationOfEnergy#Table1). You will need to look up the defini…",
       "has_solution": true,
       "missing_labels": [],
@@ -1361,19 +1353,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:3",
+        "source_sha256": "c35af31395dda65d7b0a445f7d1674015618f6afb35d069981d54355c21b6b71",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Using the international nautical mile and the solution's metric-ton interpretation reproduces the referenced table's kinetic energy. The gasoline comparison also agrees with the table. However, the discussion infers the need for powerful propulsion from the large stored kinetic energy alone. Propulsion power requires an acceleration timescale or resistance at cruising speed; large kinetic energy by itself does not establish a high power requirement.",
         "calculation_check": "30(1852)/3600 = 15.4333 m/s. K = (1/2)(9.00×10^7)(15.4333)² = 1.071845×10^10 J, agreeing with 1.1×10^10 J in the inspected table. Dividing by its gasoline value, 1.2×10^8 J/gallon, gives 89.3 gallons. In the zero-resistance constant-speed limit, propulsion power is zero despite unchanged kinetic energy.",
         "assumptions": "One nautical mile is 1852 m; 'ton' is interpreted as 1000 kg. The gasoline equivalence compares stored energies, without claiming complete engine conversion efficiency.",
         "notes": "The requested energy confirmation and gasoline equivalence are correct. The discussion's propulsion-power inference needs resistance or an acceleration timescale.",
-        "source_sha256": "c35af31395dda65d7b0a445f7d1674015618f6afb35d069981d54355c21b6b71",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:4",
@@ -1384,7 +1376,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "1f383f588949c4277a4bf0127128c88d214eee9bc76c21424adcba1b8d1a3cd6",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "(a) Calculate the force needed to bring a 950-kg car to rest from a speed of 90.0 km/h in a distance of 120 m (a fairly typical distance for a non-panic stop). (b) Suppose instead…",
       "has_solution": true,
       "missing_labels": [],
@@ -1397,19 +1389,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:4",
+        "source_sha256": "1f383f588949c4277a4bf0127128c88d214eee9bc76c21424adcba1b8d1a3cd6",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Removing the same initial translational kinetic energy over either stopping distance requires an opposing displacement-averaged force of magnitude K_i/d. This gives the inverse-distance scaling and the stated factor of 60. The solution and inspected sketch consistently place the stopping force opposite the displacement.",
         "calculation_check": "90.0 km/h = 25.0 m/s and K_i = (1/2)(950)(25.0)² = 296875 J. Force magnitudes are 296875/120 = 2473.96 N and 296875/2.00 = 148437.5 N; their ratio is exactly 60.",
         "assumptions": "The distances describe stopping of the car's center of mass, with negligible competing work. Reported forces are constant-force equivalents or displacement averages, not collision peaks. Occupant forces depend additionally on their restraint and stopping motion.",
         "notes": "Both force magnitudes, opposing directions, and the factor-of-60 comparison are correct as average stopping forces.",
-        "source_sha256": "1f383f588949c4277a4bf0127128c88d214eee9bc76c21424adcba1b8d1a3cd6",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:26:00+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:26:00+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:5",
@@ -1420,7 +1412,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "8c96a524fde5a99a0f7abda88d228f104ee63c284801586fcd4c9640a7359ceb",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "A car's bumper is designed to withstand a 4.0-km/h (1.1-m/s) collision with an immovable object without damage to the body of the car. The bumper cushions the shock by absorbing t…",
       "has_solution": true,
       "missing_labels": [],
@@ -1433,19 +1425,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:5",
+        "source_sha256": "8c96a524fde5a99a0f7abda88d228f104ee63c284801586fcd4c9640a7359ceb",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The car loses its initial translational kinetic energy while stopping. In the stated effective stopping-distance model, the resisting force satisfies F_avg d = mv_i²/2. Its direction opposes motion; the requested magnitude is positive. Increasing the collapse distance reduces the required average force for the same initial energy, supporting the crumple-zone discussion.",
         "calculation_check": "Initial kinetic energy = 0.5(900)(1.1)² = 544.5 J. Thus F_avg = 544.5/0.200 = 2722.5 N, or 2.7 × 10³ N. This is approximately 612 pounds-force. The solution's intermediate rounding is immaterial.",
         "assumptions": "The collapse distance represents the effective stopping distance of the car; other resistance, rebound, and residual kinetic energy are negligible. The calculated force is averaged over stopping distance and does not determine the peak collision force.",
         "notes": "Correct energy model and force magnitude under the stated bumper-collapse idealization.",
-        "source_sha256": "8c96a524fde5a99a0f7abda88d228f104ee63c284801586fcd4c9640a7359ceb",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:30:49+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:6",
@@ -1456,7 +1448,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "faf047755c6e46b37ae2fc5dcb2eace207092a64c437ef761c2e749647c000a3",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "Boxing gloves are padded to lessen the force of a blow. (a) Calculate the force exerted by a boxing glove on an opponent's face, if the glove and face compress 7.50 cm during a bl…",
       "has_solution": true,
       "missing_labels": [],
@@ -1469,19 +1461,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:6",
+        "source_sha256": "faf047755c6e46b37ae2fc5dcb2eace207092a64c437ef761c2e749647c000a3",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "For the stipulated identical blows, stopping the effective 7.00-kg mass requires removing the same kinetic energy in each case. Dividing that energy by the combined compression distance gives the distance-averaged contact force; Newton's third law gives the equal opposing force on the face. All three parts are addressed. The conclusion that a substantial injury risk remains is qualitatively reasonable, but particular injuries cannot be predicted from average force alone.",
         "calculation_check": "K_i = 0.5(7.00)(10.0)² = 350 J. With gloves, F_avg = 350/0.0750 = 4666.7 N. Without gloves, F_avg = 350/0.0200 = 17500 N. Their ratio is 3.75, and the gloved force is approximately 1049 pounds-force.",
         "assumptions": "The same effective mass and initial speed apply to both blows; the given compressions are effective stopping distances. Continued muscular work and substantial head translation are neglected. Injury also depends on contact area, peak force, pulse duration, and head motion.",
         "notes": "Both force calculations and the remaining-danger conclusion are sound within the model. Specific injury claims and the asserted historical reason for glove regulations were not independently established.",
-        "source_sha256": "faf047755c6e46b37ae2fc5dcb2eace207092a64c437ef761c2e749647c000a3",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:30:49+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:7",
@@ -1492,7 +1484,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "3bb64dc0227c3ede909fce2ab30e365645b07131eb2c7127d7fb01cb2dc5cb61",
-      "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
+      "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
       "preview": "Using energy considerations, calculate the average force a 60.0-kg sprinter exerts backward on the track to accelerate from 2.00 to 8.00 m/s in a distance of 25.0 m, if he encount…",
       "has_solution": true,
       "missing_labels": [],
@@ -1505,19 +1497,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md::problems-exercises:7",
+        "source_sha256": "3bb64dc0227c3ede909fce2ab30e365645b07131eb2c7127d7fb01cb2dc5cb61",
+        "file_sha256": "ad469d858d940c466cb8473e5974c1933032ca406282e5b1c74a1faa7d518ce7",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Integrating the horizontal center-of-mass equation over distance gives (F_track,avg − F_wind,avg)d = ΔK_CM, so the calculated horizontal force is correct. Newton's third law correctly reverses its direction for the sprinter's force on the track. However, the solution presents this center-of-mass force-displacement relation as an ordinary work balance without qualification. With nonslipping feet on a stationary track, the contact point does not move, so the track supplies no actual mechanical work. The increased kinetic energy comes from internal chemical energy. The stated relation is center-of-mass pseudowork.",
         "calculation_check": "ΔK_CM = 0.5(60.0)(8.00² − 2.00²) = 1800 J. Net distance-averaged horizontal force = 1800/25.0 = 72.0 N. Adding 30.0 N of opposing wind gives 102 N forward on the sprinter and 102 N backward on the track.",
         "assumptions": "The requested force is the horizontal component averaged over center-of-mass displacement. The track is stationary, feet do not slip during contact, and vertical and limb-motion details are omitted. A time-averaged force requires additional motion information unless constant force or acceleration is assumed.",
         "notes": "The 102-N result is correct, but the explanation needs to distinguish center-of-mass pseudowork from actual work at the stationary foot-track contact.",
-        "source_sha256": "3bb64dc0227c3ede909fce2ab30e365645b07131eb2c7127d7fb01cb2dc5cb61",
-        "file_sha256": "0ff0bbb067f99f79470d1852a5b4346710728aed8fe8e1c183f8e2fe07bd3c46",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:30:49+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7NonconservativeForces.md::worked-example:1",
@@ -1528,7 +1520,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "6773e2973a6fc2e3877f4b19973288aac08c195679eb46ce510b4c6047e6c72e",
-      "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
+      "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
       "preview": ":::: example Calculating Distance Traveled: How Far a Baseball Player Slides Consider the situation shown in [Figure 4](#Figure4), where a baseball player slides to a stop on leve…",
       "has_solution": true,
       "missing_labels": [],
@@ -1540,19 +1532,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7NonconservativeForces.md::worked-example:1",
+        "source_sha256": "6773e2973a6fc2e3877f4b19973288aac08c195679eb46ce510b4c6047e6c72e",
+        "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "On level ground, gravitational potential energy is unchanged, and gravity and the normal force do no work along the slide. The inspected figure correctly shows friction opposite displacement. Constant friction removes the initial kinetic energy, giving −fd = −mv_i²/2 and d = mv_i²/(2f). The discussion correctly relates nonconservative work to the change in mechanical energy.",
         "calculation_check": "K_i = 0.5(65.0)(6.00)² = 1170 J. The stopping distance is 1170/450 = 2.60 m. Independently, a = −450/65.0 = −6.923 m/s² gives the same distance from v_f² = v_i² + 2ad.",
         "assumptions": "The player slides without propulsion or significant rotation on level ground, with constant 450-N friction. The truck-versus-mosquito comparison presumes comparable speeds; mass alone does not determine kinetic energy.",
         "notes": "Correct friction-work sign, stopping-distance calculation, and mechanical-energy interpretation.",
-        "source_sha256": "6773e2973a6fc2e3877f4b19973288aac08c195679eb46ce510b4c6047e6c72e",
-        "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:30:49+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7NonconservativeForces.md::worked-example:2",
@@ -1563,7 +1555,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "38b231b1e42c9f03df40c36d4cc157971cb3a0d9b69edc2515128c862491fb60",
-      "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
+      "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
       "preview": ":::: example Calculating Distance Traveled: Sliding Up an Incline Suppose that the player from the previous example is running up a hill having a $$ 5.00^\\circ $$ incline upward w…",
       "has_solution": true,
       "missing_labels": [],
@@ -1575,19 +1567,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7NonconservativeForces.md::worked-example:2",
+        "source_sha256": "38b231b1e42c9f03df40c36d4cc157971cb3a0d9b69edc2515128c862491fb60",
+        "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Both friction and the downhill component of gravity oppose the uphill slide. With h = d sin θ, the energy balance is mv_i²/2 = fd + mgd sin θ, yielding the stated denominator f + mg sin θ. The SVG source confirms the intended incline geometry. The discussion's force-based alternative is possible, although explicitly combining the normal-force vector is unnecessary: it does no work, and one can directly use the tangential gravitational component.",
         "calculation_check": "The initial energy is 1170 J. The downhill gravitational component is 65.0(9.80)sin 5.00° = 55.52 N. Therefore d = 1170/(450 + 55.52) = 2.31446 m, agreeing with 2.31 m. As θ approaches zero, this reduces to the preceding 2.60-m result.",
         "assumptions": "The mass and initial speed carry over from the preceding example. Friction remains explicitly fixed at 450 N, rather than being recalculated from an unchanged coefficient. Motion follows a straight incline, and the result concerns the first stopping point.",
         "notes": "Correct uphill energy balance and distance. The discussion overstates the complexity of a force-based calculation but introduces no substantive error.",
-        "source_sha256": "38b231b1e42c9f03df40c36d4cc157971cb3a0d9b69edc2515128c862491fb60",
-        "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:30:49+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7NonconservativeForces.md::problems-exercises:1",
@@ -1598,7 +1590,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "bf55424f40e4cfe3b5c6d529fa5c578e880be123ccaadeb928851dee08036e36",
-      "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
+      "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
       "preview": "A 60.0-kg skier with an initial speed of 12.0 m/s coasts up a 2.50-m-high rise as shown in [Figure 8](#Figure8). Find her final speed at the top, given that the coefficient of fri…",
       "has_solution": true,
       "missing_labels": [],
@@ -1611,19 +1603,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch7NonconservativeForces.md::problems-exercises:1",
+        "source_sha256": "bf55424f40e4cfe3b5c6d529fa5c578e880be123ccaadeb928851dee08036e36",
+        "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "The inspected figure supplies the 35° incline angle. Following the problem's straight-path instruction, d = h/sin θ and N = mg cos θ. Friction removes μmg cos θ times d, while gravity increases potential energy by mgh. Consequently v_f² = v_i² − 2gh − 2μgh cot θ. The positive result confirms that the skier reaches the top. The discussion's speed and energy fractions follow from this balance.",
         "calculation_check": "d = 4.35862 m; f_k = 38.5329 N; frictional energy loss = 167.950 J. Final kinetic energy = 4320 − 1470 − 167.950 = 2682.050 J, giving v_f = 9.45525 m/s. Retained kinetic energy is 62.08%; speed decreases 21.21%; friction accounts for 10.25% of the kinetic energy lost.",
         "assumptions": "Constant kinetic-friction coefficient, no propulsion or air drag, and a straight 35° incline with no transition losses. The figure's curved transitions are replaced by the explicitly requested straight-path approximation.",
         "notes": "Correct final speed and energy discussion. The local friction table lists 0.10 for waxed wood on wet snow, but the broader asserted 0.04–0.10 empirical range was not independently verified.",
-        "source_sha256": "bf55424f40e4cfe3b5c6d529fa5c578e880be123ccaadeb928851dee08036e36",
-        "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T13:30:49+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7NonconservativeForces.md::problems-exercises:2",
@@ -1633,33 +1625,30 @@
       "end_line": 520,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "3fccd09a7492714ebb808abf8733e2ec2290d110ba2790a7aaefe208a4401f2a",
-      "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
+      "source_sha256": "31800d08dba7536647fff4de1c7930713fb7500fb9f01446ce6f05e6c3709363",
+      "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
       "preview": "(a) How high a hill can a car coast up (engine disengaged) if work done by friction is negligible and its initial speed is 110 km/h? (b) If, in actuality, a 750-kg car with an ini…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 33,
+        "skipped": 35,
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch7NonconservativeForces.md::problems-exercises:2",
-        "verdict": "concern",
+        "source_sha256": "31800d08dba7536647fff4de1c7930713fb7500fb9f01446ce6f05e6c3709363",
+        "file_sha256": "0d4adb67f79dc336d9179292bf627f4640a5bf94f2ef2e1c1c63a71b71571e84",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "All three requested magnitudes follow correctly from the energy balance. At the highest point the car stops, so the frictionless height is v_i²/(2g), dissipated energy is mv_i²/2 − mgh, and the average resisting-force magnitude is that loss divided by h/sin θ. However, part (c) explicitly writes W_f = fd and identifies friction's work with positive thermal energy. With f defined as a positive magnitude opposing uphill displacement, the correct relation is W_f = −fd = −E_thermal. This contradicts the solution's own coordinate explanation. The vehicle-design discussion also should distinguish low rolling resistance from low tire-road traction.",
-        "calculation_check": "110 km/h = 30.55556 m/s. The frictionless height is 47.6348 m. Initial kinetic energy is 350115.74 J; potential-energy gain is 161700 J; thermal energy is 188415.74 J. The slope distance is 504.3629 m, giving f_avg = 373.5718 N. The dissipated fraction is 53.82%.",
-        "assumptions": "The car reaches rest at its maximum height, with negligible wheel rotational energy and no engine work. All missing mechanical energy is assigned to the modeled dissipative resistance. Part (c) assumes a straight, constant-angle slope and a distance-averaged resisting force.",
-        "notes": "All numerical answers are correct. Part (c) and the discussion give frictional work the wrong sign; positive thermal energy equals the magnitude of negative frictional work.",
-        "source_sha256": "3fccd09a7492714ebb808abf8733e2ec2290d110ba2790a7aaefe208a4401f2a",
-        "file_sha256": "8c5a14b273faf5b2e81f701ecab7dc8940729d4af30794b6ba44adcfa4c2f57c",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T13:30:49+00:00"
+        "notes": "All numerical answers are correct. Fixed: friction's work is negative, W_f = −fd, and the thermal energy equals −W_f = fd. The discussion's figures now match the solution (3.50×10^5 J, 47.6 m, 374 N).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch7Power.md::worked-example:1",

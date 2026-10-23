@@ -1,16 +1,16 @@
 {
   "chapter": 8,
-  "checked_at": "2026-10-23T18:50:06+00:00",
+  "checked_at": "2026-10-23T19:53:58+00:00",
   "summary": {
-    "total": 2018,
+    "total": 2019,
     "checked": 294,
     "failed": 1,
-    "skipped": 1723,
+    "skipped": 1724,
     "by_kind": {
       "equation": {
         "checked": 291,
         "failed": 1,
-        "skipped": 1723
+        "skipped": 1724
       },
       "case": {
         "checked": 3,
@@ -28,7 +28,7 @@
     "skip_reasons": {
       "unsupported symbol": 251,
       "no supported equality": 729,
-      "unbound variable": 738,
+      "unbound variable": 739,
       "unsupported operand": 1,
       "unknown unit": 2,
       "unit-only expression or text label needs a numeric value": 2
@@ -44,7 +44,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "b9f199eb84f91297c3a3253c5161b4bc2f7a05d1283fbb2443efb8d048ceaaef",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "::: example {\"class\":\"example\",\"id\":\"example1\"} Determining the Final Velocity of an Unseen Object from the Scattering of Another Object Suppose the following experiment is perfor…",
       "has_solution": true,
       "missing_labels": [],
@@ -57,19 +57,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md#example1",
+        "source_sha256": "b9f199eb84f91297c3a3253c5161b4bc2f7a05d1283fbb2443efb8d048ceaaef",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Momentum conservation gives v2x = (m1/m2)(v1 − v1′ cos45°) and v2y = −(m1/m2)v1′ sin45°. The positive x-component and negative y-component select the fourth quadrant, consistent with Figure 2's axes, inspected in its SVG source. The solution's tangent relation and final direction are correct. Both total translational kinetic energy and kinetic energy relative to the center of mass decrease, supporting the discussion's inelastic classification.",
         "calculation_check": "The independently calculated components are (0.587087, −0.662913) m/s, giving speed 0.885508 m/s and angle −48.4713° = 311.5287°. Initial and final translational kinetic energies are 0.500000 J and 0.438075 J. Subtracting the constant center-of-mass kinetic energy gives internal kinetic energies 0.307692 J and 0.245767 J.",
         "assumptions": "An inertial laboratory frame, negligible external horizontal impulse, and no unaccounted-for objects carrying momentum. The incoming direction is +x and object 1 scatters toward +y.",
         "notes": "Velocity, quadrant choice, and inelastic classification are supported by independent momentum and energy calculations.",
-        "source_sha256": "b9f199eb84f91297c3a3253c5161b4bc2f7a05d1283fbb2443efb8d048ceaaef",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::conceptual-questions:1",
@@ -80,7 +80,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "ad49d1c11f8767781560377f7b2904428e0c40c2b119c1f96cb0b64ec8ae2485",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "[Figure 3](#Figure3) shows a cube at rest and a small object heading toward it. (a) Describe the directions (angle $$\\theta_{1} $$) at which the small object can emerge after coll…",
       "has_solution": true,
       "missing_labels": [
@@ -94,19 +94,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::conceptual-questions:1",
+        "source_sha256": "ad49d1c11f8767781560377f7b2904428e0c40c2b119c1f96cb0b64ec8ae2485",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For smooth, elastic reflection from a stationary surface, v′ = v − 2(v·n)n: the normal component reverses and the tangential component remains unchanged. A flat face therefore gives an outgoing direction independent of impact position. The inspected SVG geometry confirms the struck face is inclined 30° above +x, giving 60° scattering; the other accessible face gives 240°. For a sphere, the changing normal gives θ1 = 180° − 2arcsin(b/R) for paths above the center. The distinction from Coulomb scattering is physically correct.",
         "calculation_check": "Reflection across a line inclined at α maps an incoming direction of 0° to 2α modulo 360°. For the sphere, b = 0, R/2, and b approaching R give 180°, 120°, and 0°, respectively. At b = 0.87R the angle is 59.08°, consistent with the deliberately rounded 60° example.",
         "assumptions": "A pointlike projectile, a smooth hard target with negligible tangential impulse, negligible target recoil and rotation, and impacts away from sharp edges. The sphere formula uses 0 ≤ b ≤ R above the center; trajectories below the center give mirrored directions.",
         "notes": "The cube's discrete directions and sphere's continuous scattering relation agree with the inspected figure geometry and the stated idealization.",
-        "source_sha256": "ad49d1c11f8767781560377f7b2904428e0c40c2b119c1f96cb0b64ec8ae2485",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:1",
@@ -117,7 +117,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "8d69157c4f0b52a442516e3703ce3e21d1d0e43a62968940d1c7b17a101527b6",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "Two identical pucks collide on an air hockey table. One puck was originally at rest. (a) If the incoming puck has a speed of 6.00 m/s and scatters to an angle of $$ 30.0^\\circ $$,…",
       "has_solution": true,
       "missing_labels": [],
@@ -130,19 +130,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:1",
+        "source_sha256": "8d69157c4f0b52a442516e3703ce3e21d1d0e43a62968940d1c7b17a101527b6",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Using the permitted elastic-collision relation gives θ2 = −60°. Resolving equal-mass momentum conservation then yields v1′ = 6cos30° and v2′ = 6sin30°. These velocities conserve kinetic energy and match the inspected sketch. Because the perpendicular-angle relation already assumes elasticity, part (b) checks consistency rather than establishing elasticity independently.",
         "calculation_check": "The speeds are v1′ = 5.19615 m/s and v2′ = 3.00000 m/s. Their components sum to (6.00000, 0) m/s after division of momentum by the common mass. The final squared speeds sum to 27 + 9 = 36 m²/s², equal to the initial squared speed; kinetic energy per unit common mass is 18.0 J/kg.",
         "assumptions": "Equal masses, negligible external horizontal impulse and rotational energy exchange, and the elastic idealization supplied through the question's hint. The 1 kg substitution illustrates energy equality without claiming the actual puck mass.",
         "notes": "Both requested parts are correct under the intended elastic assumption; the energy comparison is a consistency check.",
-        "source_sha256": "8d69157c4f0b52a442516e3703ce3e21d1d0e43a62968940d1c7b17a101527b6",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:2",
@@ -153,7 +153,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "2a7452c91454487e3583373442d40c25a62d9cf237ceb59890fb5129bbb7f1c8",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "Confirm that the results of the [Example 1](#example1) do conserve momentum in both the $$ x $$- and $$ y $$-directions.",
       "has_solution": true,
       "missing_labels": [],
@@ -166,19 +166,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:2",
+        "source_sha256": "2a7452c91454487e3583373442d40c25a62d9cf237ceb59890fb5129bbb7f1c8",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The correct test is to add both final momentum vectors and compare their Cartesian components with the initial vector (0.500, 0) kg·m/s. The solution uses the proper signs: object 1's positive y-momentum is canceled by object 2's negative y-momentum. Its rounded component sums agree with the independently derived example velocities.",
         "calculation_check": "Using the quoted rounded speed 0.886 m/s and angle −48.5° gives px,f = 0.4999976 kg·m/s and py,f = −0.0002649 kg·m/s. The small residual is rounding. Using the unrounded example components gives exactly (0.500000, 0) kg·m/s.",
         "assumptions": "The example's laboratory coordinates, masses, and negligible external horizontal impulse. The stationary second object contributes zero initial momentum.",
         "notes": "Both momentum components are conserved to the precision of the quoted example results.",
-        "source_sha256": "2a7452c91454487e3583373442d40c25a62d9cf237ceb59890fb5129bbb7f1c8",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:3",
@@ -189,7 +189,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "7f883defc029945483a8e8764f057acb286a64c02b555f762171abf5f5b67f88",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "A 3000-kg cannon is mounted so that it can recoil only in the horizontal direction. (a) Calculate its recoil velocity when it fires a 15.0-kg shell at 480 m/s at an angle of $$ 20…",
       "has_solution": true,
       "missing_labels": [],
@@ -202,19 +202,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:3",
+        "source_sha256": "7f883defc029945483a8e8764f057acb286a64c02b555f762171abf5f5b67f88",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Horizontal momentum conservation gives Vc = −(ms/Mc)vcos20°. The mounting supplies an upward impulse to prevent the cannon's downward recoil, and the cannon supplies an opposite downward impulse to Earth, balancing the shell's upward momentum when Earth is included. The solution correctly answers all three parts. Its 0.44% statement is valid for the combined shell-and-cannon kinetic energy, not the full chemical energy released.",
         "calculation_check": "Vc = −2.255262 m/s, Kc = 7629.31 J, and shell vertical momentum = +2462.55 kg·m/s. The firing-related momentum transferred to Earth is downward with that magnitude. The shell's kinetic energy is 1.72800 × 10^6 J; the cannon has 0.43957% of their combined kinetic energy.",
         "assumptions": "The shell speed is measured in the ground frame; external horizontal impulse is negligible during firing, before the absorbers stop recoil. Gravity's impulse during firing is negligible or its equilibrium contribution is subtracted. Exhaust momentum is neglected.",
         "notes": "Recoil, kinetic energy, and transfer of downward momentum to Earth are correct. Possible ground settling is an unverified engineering aside, not a consequence established by these calculations.",
-        "source_sha256": "7f883defc029945483a8e8764f057acb286a64c02b555f762171abf5f5b67f88",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:4",
@@ -225,7 +225,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "2ecaf7220e9d9e2ffde3ca5eb19ef1f69fa3a0f9924d3f367e5571978c282f8c",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "**Professional Application** A 5.50-kg bowling ball moving at 9.00 m/s collides with a 0.850-kg bowling pin, which is scattered at an angle of $$ 85.0^\\circ $$ to the initial dire…",
       "has_solution": true,
       "missing_labels": [],
@@ -238,19 +238,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:4",
+        "source_sha256": "2ecaf7220e9d9e2ffde3ca5eb19ef1f69fa3a0f9924d3f367e5571978c282f8c",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Subtracting the pin's final momentum from the ball's initial momentum determines the ball's final vector, including its negative transverse component. Translational kinetic energy increases, so the collision is superelastic in the chapter's point-mass sense. A tangential contact impulse can transfer rotational energy into translation, provided sufficient initial spin energy is available. The discussion correctly acknowledges that total kinetic-energy conservation cannot be determined without spin data.",
         "calculation_check": "The ball's components are (8.797957, −2.309360) m/s, giving 9.095999 m/s at −14.7077°. Initial translational kinetic energy is 222.750 J; final translational kinetic energy is 323.152 J, an increase of 100.402 J. If rotation is the only energy source, its net decrease must be at least 100.402 J, with any dissipation requiring additional energy.",
         "assumptions": "The pin is initially at rest, lane impulses are negligible during impact, and the quoted velocities are center-of-mass velocities. Sufficient unspecified rotational energy and suitable contact geometry are required for the proposed mechanism.",
         "notes": "All numerical results and the conditional spin-energy explanation are sound. Claims that this mechanism is common or explains bowlers' technique are not established by the supplied data and were not independently verified.",
-        "source_sha256": "2ecaf7220e9d9e2ffde3ca5eb19ef1f69fa3a0f9924d3f367e5571978c282f8c",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:5",
@@ -261,7 +261,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "2b35ee6ce92bfa0eaad8387b1c7b4010958b30ea730a97da69887d23da699e99",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "**Professional Application** Ernest Rutherford (the first New Zealander to be awarded the Nobel Prize in Chemistry) demonstrated that nuclei were very small and dense by scatterin…",
       "has_solution": true,
       "missing_labels": [],
@@ -274,19 +274,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:5",
+        "source_sha256": "2b35ee6ce92bfa0eaad8387b1c7b4010958b30ea730a97da69887d23da699e99",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Let m and M be the helium and gold masses, u the initial helium speed, and w its final speed. Eliminating the gold velocity with momentum conservation gives (M + m)w² − 2mu cos120° w + (m − M)u² = 0. The positive root determines w, and the gold components follow from Vx = (m/M)(u − wcos120°), Vy = −(m/M)wsin120°. This independently reproduces every requested result despite the solution omitting the quadratic's detailed evaluation.",
         "calculation_check": "u = 1.547646 × 10^7 m/s and w = 1.501215 × 10^7 m/s. Gold's components are (4.666364 × 10^5, −2.639697 × 10^5) m/s, giving 5.361245 × 10^5 m/s at −29.4962°. Final helium energy is 7.527178 × 10^−13 J, or 94.0897% of the initial energy. Gold receives 4.728215 × 10^−14 J; the energies sum to 8.00 × 10^−13 J.",
         "assumptions": "Gold initially at rest, an isolated elastic two-nucleus encounter, asymptotic velocities where interaction potential energy is negligible, and Newtonian mechanics. The initial helium speed is about 0.052c, making relativistic corrections small at the intended accuracy.",
         "notes": "Momentum, energy, recoil direction, and both requested final quantities are verified. Historical and Nobel attribution claims were not independently checked.",
-        "source_sha256": "2b35ee6ce92bfa0eaad8387b1c7b4010958b30ea730a97da69887d23da699e99",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:6",
@@ -297,7 +297,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "b01519d79526023f04512775cf50ee0ecb7df6ef6ccd59736f62a1d205c79599",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "**Professional Application** Two cars collide at an icy intersection and stick together afterward. The first car has a mass of 1200 kg and is approaching at $$ 8.00 \\ms $$ due sou…",
       "has_solution": true,
       "missing_labels": [],
@@ -310,19 +310,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:6",
+        "source_sha256": "b01519d79526023f04512775cf50ee0ecb7df6ef6ccd59736f62a1d205c79599",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Both initial momentum vectors must be included. Their sum divided by 2050 kg gives the common final velocity in the southwest quadrant, as shown in the inspected sketch. Subtracting final translational kinetic energy from the initial total gives the energy converted into other forms. At fixed total momentum and mass, common velocity minimizes translational kinetic energy, supporting the discussion's maximum-loss statement within this model.",
         "calculation_check": "The final components are (−7.048780, −4.682927) m/s, giving 8.462571 m/s at 33.5985° south of west. Ki = 161225 J, Kf = 73405.49 J, and loss = 87819.51 J = 54.4702% of Ki. This loss equals the kinetic energy of a 1000 kg car traveling at 13.2529 m/s, consistent with the rough comparison.",
         "assumptions": "Negligible external horizontal impulse during impact, constant masses, and a common final translational velocity. Rotation is neglected; any retained rotational kinetic energy would need a separate energy budget.",
         "notes": "Both initial momenta, final direction, energy loss, and discussion's translational-energy comparison are correct.",
-        "source_sha256": "b01519d79526023f04512775cf50ee0ecb7df6ef6ccd59736f62a1d205c79599",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:7",
@@ -332,32 +332,29 @@
       "end_line": 1034,
       "kind": "problems-exercises",
       "ordinal": 7,
-      "source_sha256": "c5e93522d76b2dcb669ab5baefa335deedcb53e8dd5b8dcbe2bdb99e02ebc9ae",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "source_sha256": "dea6e5af040ef48ec6b9d19a7443bc2224286446784b31703cfe92cf804447c7",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "Starting with equations $$ m_{1}v_{1}=m_{1}v^{\\prime}_{1}\\cos{\\theta_{1}}+m_{2}v^{\\prime}_{2}\\cos{\\theta_{2}} $$ and $$ 0=m_{1}v^{\\prime}_{1}\\sin{\\theta_{1}}+m_{2}v^{\\prime}_{2}\\s…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 21
+        "skipped": 22
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:7",
-        "verdict": "concern",
+        "source_sha256": "dea6e5af040ef48ec6b9d19a7443bc2224286446784b31703cfe92cf804447c7",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Squaring and adding the equal-mass momentum equations correctly gives v1² = v1′² + v2′² + 2v1′v2′cos(θ1 − θ2), independently of elasticity. Elasticity then implies v1′v2′cos(θ1 − θ2) = 0. The discussion incorrectly concludes that the cosine must always vanish: this requires both final speeds to be nonzero. A head-on elastic collision transfers the incoming velocity to the stationary object while the incoming object stops, so there are not two outgoing directions. Also, the problem's displayed target places m inside the squared factors; the solution correctly derives the dimensionally valid intended expression instead.",
-        "calculation_check": "Each term in the derived identity has units kg·m²/s² after multiplication by m/2. The problem's literal terms (mv1′)²/2 and (mv2′)²/2 instead have units kg²·m²/s². As a limiting-case check, v1′ = 0 and v2′ = v1 conserve momentum and energy with no defined direction for object 1, disproving the unconditional 90° conclusion.",
-        "assumptions": "Equal point masses, one initially stationary, an inertial frame, and negligible external impulse. Perpendicular nonzero outgoing velocities additionally require an elastic, nondegenerate collision.",
-        "notes": "The algebraic derivation is correct, but the universal 90° claim omits zero-speed cases. The problem's target equation also incorrectly squares the mass.",
-        "source_sha256": "c5e93522d76b2dcb669ab5baefa335deedcb53e8dd5b8dcbe2bdb99e02ebc9ae",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "notes": "Correct derivation. Fixed: the target equation no longer squares the mass, and the 90° conclusion now excludes the case where one object ends at rest (head-on collision).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:8",
@@ -368,7 +365,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "8acc7b209665f5ab9c8ef3d77281f1b6bcbbb68caf283ff6d29b70db8721dcd8",
-      "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
+      "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
       "preview": "**Integrated Concepts** A 90.0-kg ice hockey player hits a 0.150-kg puck, giving the puck a velocity of 45.0 m/s. If both are initially at rest and if the ice is frictionless, how…",
       "has_solution": true,
       "missing_labels": [],
@@ -381,19 +378,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch8CollisionsOfPointMassesInTwoDimensions.md::problems-exercises:8",
+        "source_sha256": "8acc7b209665f5ab9c8ef3d77281f1b6bcbbb68caf283ff6d29b70db8721dcd8",
+        "file_sha256": "ee36b95a2e376614685a34bdad4039bbbfe71946e29f09f0e03db4655bc8da64",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Zero initial horizontal momentum requires the player and puck to have equal and opposite final momenta. After the hit, their constant velocities give a common elapsed time to the puck's arrival at the goal. Eliminating time directly gives the player's recoil distance as the puck's travel distance multiplied by the puck-to-player mass ratio, independent of launch speed.",
         "calculation_check": "Vplayer = −(0.150/90.0)(45.0) = −0.0750 m/s. The puck takes 15.0/45.0 = 1/3 s, so the player moves 0.0250 m = 2.50 cm away from the goal. Independently, (0.150/90.0)(15.0 m) gives the same distance.",
         "assumptions": "Negligible external horizontal forces, a brief strike, constant velocities afterward, and 15.0 m measured from the puck's position after the strike. Player mass includes equipment moving with the player.",
         "notes": "The recoil velocity, elapsed time, distance, and mass-ratio explanation are correct.",
-        "source_sha256": "8acc7b209665f5ab9c8ef3d77281f1b6bcbbb68caf283ff6d29b70db8721dcd8",
-        "file_sha256": "8249ce6e7c0043e63113f5ca93d664c70f88b0a85794c34e2ff96a9cc9c08ced",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:00:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:00:16+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch8ConservationOfMomentum.md::conceptual-questions:1",

@@ -1,16 +1,16 @@
 {
   "chapter": 9,
-  "checked_at": "2026-10-23T18:50:06+00:00",
+  "checked_at": "2026-10-23T19:53:58+00:00",
   "summary": {
-    "total": 1485,
+    "total": 1507,
     "checked": 243,
     "failed": 0,
-    "skipped": 1242,
+    "skipped": 1264,
     "by_kind": {
       "equation": {
         "checked": 237,
         "failed": 0,
-        "skipped": 1242
+        "skipped": 1264
       },
       "case": {
         "checked": 6,
@@ -26,9 +26,9 @@
       ]
     },
     "skip_reasons": {
-      "unbound variable": 565,
-      "unsupported symbol": 132,
-      "no supported equality": 517,
+      "unbound variable": 572,
+      "unsupported symbol": 133,
+      "no supported equality": 531,
       "unknown unit": 7,
       "unit-only expression or text label needs a numeric value": 21
     }
@@ -2054,7 +2054,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "8feefd240ddb7f466fec6d2077c5500c4bdd7fd98069153db1403c0ab7d25e18",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "::: example {\"class\":\"example\",\"id\":\"example1\"} She Saw Torques On A Seesaw The two children shown in [Figure 3](#Figure3) are balanced on a seesaw of negligible mass. (This assum…",
       "has_solution": true,
       "missing_labels": [],
@@ -2067,19 +2067,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md#example1",
+        "source_sha256": "8feefd240ddb7f466fec6d2077c5500c4bdd7fd98069153db1403c0ab7d25e18",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The inspected seesaw figure places the children on opposite sides of the pivot. With negligible board mass, balancing their opposite weight torques gives m1gr1=m2gr2, and vertical force equilibrium gives Fp=(m1+m2)g. The heavier child therefore sits closer. Choosing a torque origin away from the physical pivot can also determine its supporting force, as the discussion states. The pivot force has zero moment because its position vector is zero; its angle need not be defined.",
         "calculation_check": "r2=1.60(26.0/32.0)=1.30 m. Fp=(26.0+32.0)(9.80)=568.4 N, consistent with 568 N. Both weight moments equal 407.68 N·m.",
         "assumptions": "Static horizontal seesaw of negligible mass; children modeled by their stated weight locations; ideal pivot with no resisting couple; uniform gravitational field.",
         "notes": "Both requested answers and the discussion are correct. The claimed 90° angle for the zero-radius pivot force is unnecessary and has no effect on the calculation.",
-        "source_sha256": "8feefd240ddb7f466fec6d2077c5500c4bdd7fd98069153db1403c0ab7d25e18",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:57:41+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:57:41+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md::conceptual-questions:1",
@@ -2090,7 +2090,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "d33f6063f914b1983b1795f07e69ecccb65a682049dd023fd7263cb29cfde71b",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "What three factors affect the torque created by a force relative to a specific pivot point?",
       "has_solution": true,
       "missing_labels": [
@@ -2105,19 +2105,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md::conceptual-questions:1",
+        "source_sha256": "d33f6063f914b1983b1795f07e69ecccb65a682049dd023fd7263cb29cfde71b",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The cross-product magnitude |r×F|=rF sin(theta) identifies force magnitude, application-point distance, and angle as the three factors. The solution correctly states the perpendicular maximum, radial zero, and equivalent perpendicular lever arm. Its door examples consistently illustrate these dependencies.",
         "calculation_check": "0.80(40)sin(90°)=32 N·m; 0.80(40)sin(30°)=16 N·m; and 0.20(40)=8.0 N·m. Doubling F or r at fixed angle doubles torque.",
         "assumptions": "A specified pivot and a single applied force; torque magnitude, with rotation sense handled separately. Door examples use forces in the plane perpendicular to the hinge axis.",
         "notes": "All three factors, limiting cases, and numerical examples are correct.",
-        "source_sha256": "d33f6063f914b1983b1795f07e69ecccb65a682049dd023fd7263cb29cfde71b",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:57:41+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:57:41+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md::conceptual-questions:2",
@@ -2128,7 +2128,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "d883473030d2dd060c413f5648e1f4946669e1a42399176f43deb0359a04c5d5",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "A wrecking ball is being used to knock down a building. One tall unsupported concrete wall remains standing. If the wrecking ball hits the wall near the top, is the wall more like…",
       "has_solution": true,
       "missing_labels": [
@@ -2143,19 +2143,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md::conceptual-questions:2",
+        "source_sha256": "d883473030d2dd060c413f5648e1f4946669e1a42399176f43deb0359a04c5d5",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The main lever-arm comparison is correct: a high horizontal blow produces a large overturning moment about a retained base, whereas a blow at that base produces little moment about it. The solution appropriately allows sliding or backward rotation when the base is kicked sideways. However, firm attachment alone does not establish that the blow crushes the base, removes support, or makes downward collapse most likely. A sufficiently strong connection can withstand the blow. The statement that an unsupported wall is held only by its weight also neglects the foundation restraint expressly allowed by the problem. These failure claims require conditions beyond the given geometry and force.",
         "calculation_check": "The illustrative top-hit torque is 8.0(2.0×10^4)=1.6×10^5 N·m. A base hit has approximately zero moment about the base, but a horizontal force F at the bottom of an approximately uniform wall has moment magnitude Fh/2 about its center of mass if the base can move. Thus zero base moment alone does not rule out rotation.",
         "assumptions": "Horizontal impact and an approximately rigid wall before failure. Overturning about the base assumes a retained pivot. Downward collapse additionally requires actual destruction or removal of load-bearing support; attachment strength, wall thickness, and impact history are unspecified.",
         "notes": "Lever-arm reasoning is correct, but the asserted crushing and straight-down collapse of a firmly attached wall are not established. Foundation restraint cannot generally be omitted.",
-        "source_sha256": "d883473030d2dd060c413f5648e1f4946669e1a42399176f43deb0359a04c5d5",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:57:41+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:57:41+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md::conceptual-questions:3",
@@ -2166,7 +2166,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "0c5989fc2a23f657a89fa6c902f6dcdef6df3f365b28b42a271aeb1c74476de2",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "Mechanics sometimes put a length of pipe over the handle of a wrench when trying to remove a very tight bolt. How does this help? (It is also hazardous since it can break the bolt…",
       "has_solution": true,
       "missing_labels": [
@@ -2181,19 +2181,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md::conceptual-questions:3",
+        "source_sha256": "0c5989fc2a23f657a89fa6c902f6dcdef6df3f365b28b42a271aeb1c74476de2",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Extending the handle increases the perpendicular distance between the bolt axis and the force's line of action, increasing torque for the same applied force. This directly explains the mechanical advantage and why a higher torque can exceed component strength. The listed slipping, fracture, and sudden-release hazards are physically consistent. The claim that bolts and wrenches are designed around a person's normal-handle torque is an oversimplification; actual allowable torques depend on component ratings.",
         "calculation_check": "A perpendicular 400 N push gives 0.25(400)=100 N·m at 0.25 m and 0.75(400)=300 N·m at 0.75 m. The torque triples because the lever arm triples.",
         "assumptions": "Same force applied perpendicular to a sufficiently rigid wrench and pipe; secure torque transfer; the illustrative 400 N is not a universal human-force limit. No specific component strength or design rating is provided or verified.",
         "notes": "The lever-arm explanation, arithmetic, and overload hazard are correct. The generalized design-rating explanation is only qualitative.",
-        "source_sha256": "0c5989fc2a23f657a89fa6c902f6dcdef6df3f365b28b42a271aeb1c74476de2",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:57:41+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:57:41+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md#door-torque",
@@ -2204,7 +2204,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "787b76949bceb16eca1bf9f864d83034008a91725a7be1bafcadae2ab95f563a",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "(a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850 m from the hinges. What torque are you exerting relative to the hinges? (b) D…",
       "has_solution": true,
       "missing_labels": [],
@@ -2217,19 +2217,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md#door-torque",
+        "source_sha256": "787b76949bceb16eca1bf9f864d83034008a91725a7be1bafcadae2ab95f563a",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The relevant quantity is torque about the door's vertical hinge axis. A horizontal force perpendicular to the door gives an axial torque equal to its magnitude times the horizontal distance from that axis. Moving the point vertically leaves this component unchanged, although it changes other components of the moment and hinge loading. The solution correctly distinguishes these effects and answers both parts.",
         "calculation_check": "The opening torque is 0.850(55.0)=46.75 N·m, rounding to 46.8 N·m. With position r=(0.850,0,z) and force F=(0,55.0,0), r×F=(-55.0z,0,46.75) N·m, so the vertical-axis component is independent of height.",
         "assumptions": "Rigid door constrained to rotate about a vertical hinge axis; horizontal push perpendicular to the door; fixed horizontal application distance and force magnitude.",
         "notes": "Both the 46.8 N·m result and its independence from pushing height are correct for the stated force direction.",
-        "source_sha256": "787b76949bceb16eca1bf9f864d83034008a91725a7be1bafcadae2ab95f563a",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:57:41+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:57:41+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md::problems-exercises:2",
@@ -2240,7 +2240,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "107dc1aa5a4e097874ff11f7e8560e48ef452b691e23a246e013f6297de0c040",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "When tightening a bolt, you push perpendicularly on a wrench with a force of 165 N at a distance of 0.140 m from the center of the bolt. (a) How much torque are you exerting in ne…",
       "has_solution": true,
       "missing_labels": [],
@@ -2253,19 +2253,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md::problems-exercises:2",
+        "source_sha256": "107dc1aa5a4e097874ff11f7e8560e48ef452b691e23a246e013f6297de0c040",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The force is perpendicular to the radius from the bolt center, so the torque magnitude is rF. The solution correctly answers both requested parts. The discussion correctly explains how excessive or insufficient tightening can damage or loosen fasteners. Its claims about typical automotive torque and regional unit usage are empirical generalizations not independently established here.",
         "calculation_check": "Torque = 165 × 0.140 = 23.1 N·m. Using 1 ft = 0.3048 m and 1 lbf = 4.4482216152605 N gives 1 ft·lbf = 1.3558179483 N·m, so 23.1 N·m = 17.0377 ft·lbf, rounding to 17.0 ft·lbf.",
         "assumptions": "The stated distance is measured from the bolt axis to the force application point; the force is perpendicular to that radius. Foot-pounds denotes foot–pound-force torque. Only torque magnitude is requested.",
         "notes": "Both torque calculations are correct. The broad automotive and regional-use claims remain unverified; they do not affect the physics result.",
-        "source_sha256": "107dc1aa5a4e097874ff11f7e8560e48ef452b691e23a246e013f6297de0c040",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:59:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:59:44+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md#door-children",
@@ -2276,7 +2276,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "c689e4225dc0944529368ba0d626a043e897d9a4f88f81c946d43a57e178c609",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "Two children push on opposite sides of a door during play. Both push horizontally and perpendicular to the door. One child pushes with a force of 17.5 N at a distance of 0.600 m f…",
       "has_solution": true,
       "missing_labels": [],
@@ -2289,19 +2289,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md#door-children",
+        "source_sha256": "c689e4225dc0944529368ba0d626a043e897d9a4f88f81c946d43a57e178c609",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "About the hinge axis, the opposing perpendicular pushes produce opposite torques. Setting their sum to zero gives F2 = F1 r1/r2. The nearer child must exert the larger force. The discussion correctly recognizes that equal torques do not require equal forces and that the hinges balance the remaining horizontal force.",
         "calculation_check": "The first torque is 17.5 × 0.600 = 10.5 N·m. Thus F2 = 10.5/0.450 = 23.3333 N, or 23.3 N. The required horizontal hinge reaction has magnitude 23.3333 − 17.5 = 5.8333 N, consistent with 5.8 N.",
         "assumptions": "The door starts at rest and is rigid, with a fixed vertical hinge axis and negligible resisting hinge torque. The distances are horizontal distances from that axis. The discussion's 5.8 N is the horizontal hinge-force component; the hinges also support the door's weight.",
         "notes": "Correct torque balance, force, and explanation of the horizontal hinge reaction.",
-        "source_sha256": "c689e4225dc0944529368ba0d626a043e897d9a4f88f81c946d43a57e178c609",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:59:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:59:44+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md::problems-exercises:4",
@@ -2312,7 +2312,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "4eae08b0c2026aa4568e08bcaef879d11312c468eec235c4c6698edca7cc40d5",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "Use the second condition for equilibrium $$ \\text{(net τ = 0)} $$ to calculate $$ F_{\\text{p}} $$ in [Example 1](#example1), employing any data given or solved for in part (a) of…",
       "has_solution": true,
       "missing_labels": [],
@@ -2325,55 +2325,54 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md::problems-exercises:4",
+        "source_sha256": "4eae08b0c2026aa4568e08bcaef879d11312c468eec235c4c6698edca7cc40d5",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Example 1 and its inspected figure place the 26.0 kg child left of the support and the 32.0 kg child right of it on a horizontal, negligible-mass seesaw. Taking moments about the lighter child's position eliminates that child's weight. The upward support force gives counterclockwise torque and the heavier child's weight gives clockwise torque, yielding Fp r1 = m2 g(r1 + r2). The stated signs, lever arms, and explanation of choosing another moment center are correct.",
         "calculation_check": "The example gives r2 = 26.0 × 1.60/32.0 = 1.30 m. Therefore Fp = 32.0 × 9.80 × 2.90/1.60 = 568.4 N, rounding to 568 N. Independently, the total weight is (26.0 + 32.0) × 9.80 = 568.4 N. The torque numerator is 909.44 N·m, consistent with the solution.",
         "assumptions": "The seesaw has negligible mass, the children and seesaw are stationary, gravity is uniform, and the support exerts no additional couple. The horizontal geometry is confirmed by the referenced figure.",
         "notes": "Correct alternative moment center, torque signs, and supporting force; independently agrees with vertical force balance.",
-        "source_sha256": "4eae08b0c2026aa4568e08bcaef879d11312c468eec235c4c6698edca7cc40d5",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:59:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T14:59:44+00:00",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch9TheSecondConditionForEquilibrium.md#seesaw-board",
       "chapter": 9,
       "file": "contents/ch9TheSecondConditionForEquilibrium.md",
       "line": 663,
-      "end_line": 738,
+      "end_line": 748,
       "kind": "problems-exercises",
       "ordinal": 5,
-      "source_sha256": "1bfc34a4e1d51e488a57d611f6e9d82efd77d4a1bfceb703d4d64a1ec133031f",
-      "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
+      "source_sha256": "386a5e86306ea961aeaa99af326f164db52394a3060030990d92cccf97c64480",
+      "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
       "preview": "Repeat the seesaw problem in [Example 1](#example1) with the center of mass of the seesaw 0.160 m to the left of the pivot (on the side of the lighter child) and assuming a mass o…",
       "has_solution": true,
-      "missing_labels": [],
+      "missing_labels": [
+        "solution"
+      ],
       "markup_flags": [],
       "automatic": {
-        "skipped": 18,
+        "skipped": 40,
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch9TheSecondConditionForEquilibrium.md#seesaw-board",
-        "verdict": "concern",
+        "source_sha256": "386a5e86306ea961aeaa99af326f164db52394a3060030990d92cccf97c64480",
+        "file_sha256": "acf394f1bb020ddf62802f607cff01d8277d93b5575b93ca30d732cded48fac7",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The physics and both numerical answers are correct. About the support, the lighter child's weight and the board's offset weight both produce counterclockwise torque, opposed by the heavier child's weight. Vertical force balance makes the support reaction equal to all three weights. However, the problem explicitly requests demonstration of the static-equilibrium strategy. The referenced strategy requires a labeled free-body diagram, which the supplied solution does not provide. This is an omitted requested component, rather than merely missing editorial labels.",
-        "calculation_check": "Torque balance gives r2 = (26.0 × 1.60 + 12.0 × 0.160)/32.0 = 1.36 m. The counterclockwise torques are 407.680 + 18.816 = 426.496 N·m, equal to 32.0 × 9.80 × 1.36 = 426.496 N·m clockwise. Fp = (26.0 + 32.0 + 12.0) × 9.80 = 686 N. The increase from 1.30 m to 1.36 m is consistent with the added torque on the lighter child's side.",
-        "assumptions": "The combined system is the stationary board and both children, with the horizontal geometry of Example 1. The board's weight acts 0.160 m left of the support, gravity is uniform, and the support supplies an upward force without an applied couple.",
-        "notes": "Correct model, reasoning, and answers: 1.36 m and 686 N upward. Completeness concern: the explicitly requested strategy demonstration omits the required labeled free-body diagram.",
-        "source_sha256": "1bfc34a4e1d51e488a57d611f6e9d82efd77d4a1bfceb703d4d64a1ec133031f",
-        "file_sha256": "d5deeef4cfc5139e5da5d7f2b4dbc3a6b5941de3f6c3b51d38209c6290016e9d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T14:59:44+00:00"
+        "notes": "Correct model and answers: 1.36 m and 686 N upward. Fixed: the requested demonstration now follows the four Problem-Solving Strategy steps, with a labeled free-body diagram (sketch_09_02_p05.svg) and a reasonableness check against Example 1's 1.30 m.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-23T19:27:48+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     }
   ]
 }

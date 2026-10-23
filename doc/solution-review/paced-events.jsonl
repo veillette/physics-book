@@ -217,3 +217,38 @@
 {"at": "2026-10-23T18:45:45+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"appropriate": 5, "concern": 7}}
 {"at": "2026-10-23T18:46:53+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 62, "target_interval_seconds": 196.4}
 {"at": "2026-10-23T18:50:04+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"concern": 4, "appropriate": 8}}
+{"at": "2026-10-23T18:51:11+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 63, "target_interval_seconds": 196.1}
+{"at": "2026-10-23T18:54:32+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"concern": 6, "appropriate": 6}}
+{"at": "2026-10-23T18:55:40+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 64, "target_interval_seconds": 195.7}
+{"at": "2026-10-23T18:58:16+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"appropriate": 7, "concern": 5}}
+{"at": "2026-10-23T18:59:23+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 65, "target_interval_seconds": 195.5}
+{"at": "2026-10-23T19:01:40+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"appropriate": 6, "concern": 5, "ambiguous": 1}}
+{"at": "2026-10-23T19:02:47+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 66, "target_interval_seconds": 195.5}
+{"at": "2026-10-23T19:04:59+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"concern": 2, "appropriate": 10}}
+{"at": "2026-10-23T19:06:06+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 67, "target_interval_seconds": 195.5}
+{"at": "2026-10-23T19:08:20+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"appropriate": 12}}
+{"at": "2026-10-23T19:09:27+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 68, "target_interval_seconds": 195.4}
+{"at": "2026-10-23T19:12:08+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"appropriate": 9, "concern": 3}}
+{"at": "2026-10-23T19:13:15+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 12, "attempt": 69, "target_interval_seconds": 195.2}
+{"at": "2026-10-23T19:15:44+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 12, "verdicts": {"concern": 4, "appropriate": 8}}
+{"at": "2026-10-23T19:16:51+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 13, "items": 8, "attempt": 70, "target_interval_seconds": 195.1}
+{"at": "2026-10-23T19:18:56+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 13, "items": 8, "verdicts": {"appropriate": 5, "concern": 3}}
+{"at": "2026-10-23T19:20:07+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 71, "target_interval_seconds": 195.1}
+{"at": "2026-10-23T19:22:48+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"appropriate": 8, "concern": 4}}
+{"at": "2026-10-23T19:23:55+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 72, "target_interval_seconds": 194.9}
+{"at": "2026-10-23T19:26:03+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"concern": 6, "appropriate": 6}}
+{"at": "2026-10-23T19:27:11+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 3, "items": 12, "attempt": 73, "target_interval_seconds": 179.7}
+{"at": "2026-10-23T19:29:33+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 3, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-23T19:30:40+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 74, "target_interval_seconds": 193.8}
+{"at": "2026-10-23T19:33:48+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"appropriate": 6, "ambiguous": 1, "concern": 5}}
+{"at": "2026-10-23T19:34:55+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 75, "target_interval_seconds": 193.4}
+{"at": "2026-10-23T19:36:49+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-23T19:38:09+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 76, "target_interval_seconds": 193.4}
+{"at": "2026-10-23T19:41:08+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"appropriate": 10, "concern": 2}}
+{"at": "2026-10-23T19:42:16+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 77, "target_interval_seconds": 193.1}
+{"at": "2026-10-23T19:45:32+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"concern": 4, "appropriate": 8}}
+{"at": "2026-10-23T19:46:40+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 78, "target_interval_seconds": 192.7}
+{"at": "2026-10-23T19:49:14+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"appropriate": 9, "concern": 3}}
+{"at": "2026-10-23T19:50:22+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 79, "target_interval_seconds": 192.5}
+{"at": "2026-10-23T19:53:56+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 14, "items": 12, "verdicts": {"appropriate": 7, "concern": 5}}
+{"at": "2026-10-23T19:55:03+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 14, "items": 12, "attempt": 80, "target_interval_seconds": 192.0}
