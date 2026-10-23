@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360" role="img" aria-labelledby="title desc">
+<title id="title">Blocks A and B</title>
+<desc id="desc">Block A has length L, width 2L, and height L; Block B has length, width, and height all 2L. The top face of each block, length × width, is shaded and labeled cross-sectional area.</desc>
+<rect width="840" height="360" fill="#ffffff"/>
+<polygon points="90,180 180,180 248.94,122.15 158.94,122.15" fill="#cfeaf8"/>
+<line x1="90" y1="270" x2="180" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="270" x2="180" y2="180" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="180" x2="90" y2="180" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="90" y1="180" x2="90" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="90" y1="180" x2="158.94" y2="122.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="180" x2="248.94" y2="122.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="270" x2="248.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="158.94" y1="122.15" x2="248.94" y2="122.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="248.94" y1="122.15" x2="248.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="90" y1="270" x2="180" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="270" x2="180" y2="180" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="180" x2="90" y2="180" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="90" y1="180" x2="90" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="90" y1="180" x2="158.94" y2="122.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="180" x2="248.94" y2="122.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="270" x2="248.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="158.94" y1="122.15" x2="248.94" y2="122.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="248.94" y1="122.15" x2="248.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<text x="135" y="299" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">length</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">L</tspan></text>
+<text x="260.94" y="156.15" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">height</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">L</tspan></text>
+<text x="114.47" y="154.07" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">width</tspan><tspan font-style="normal"> = 2</tspan><tspan font-style="italic">L</tspan></text>
+<text x="233.94" y="109.15" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cross</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">sectional</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">area</tspan></text>
+<text x="165" y="343" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Block</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">A</tspan></text>
+<polygon points="460,90 640,90 708.94,32.15 528.94,32.15" fill="#cfeaf8"/>
+<line x1="460" y1="270" x2="640" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="270" x2="640" y2="90" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="90" x2="460" y2="90" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="460" y1="90" x2="460" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="460" y1="90" x2="528.94" y2="32.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="90" x2="708.94" y2="32.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="270" x2="708.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="528.94" y1="32.15" x2="708.94" y2="32.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="708.94" y1="32.15" x2="708.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="460" y1="270" x2="640" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="270" x2="640" y2="90" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="90" x2="460" y2="90" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="460" y1="90" x2="460" y2="270" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="460" y1="90" x2="528.94" y2="32.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="90" x2="708.94" y2="32.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="640" y1="270" x2="708.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="528.94" y1="32.15" x2="708.94" y2="32.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="708.94" y1="32.15" x2="708.94" y2="212.15" stroke="#7cc6ea" stroke-width="2.5" stroke-linecap="round"/>
+<text x="550" y="299" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">length</tspan><tspan font-style="normal"> = 2</tspan><tspan font-style="italic">L</tspan></text>
+<text x="720.94" y="129.15" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">height</tspan><tspan font-style="normal"> = 2</tspan><tspan font-style="italic">L</tspan></text>
+<text x="484.47" y="64.07" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">width</tspan><tspan font-style="normal"> = 2</tspan><tspan font-style="italic">L</tspan></text>
+<text x="618.94" y="19.15" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cross</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">sectional</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">area</tspan></text>
+<text x="580" y="343" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Block</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">B</tspan></text>
+</svg>

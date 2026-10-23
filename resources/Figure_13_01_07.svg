@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="440" viewBox="0 0 480 440" role="img" aria-labelledby="title desc">
+<title id="title">Pressure versus temperature at constant volume</title>
+<desc id="desc">Pressure versus temperature for four gases held at constant volume. Each graph is a straight line; the lines have different slopes, but all extrapolate (dashed) to zero pressure at −273.15 °C.</desc>
+<rect width="480" height="440" fill="#ffffff"/>
+<line x1="70" y1="340" x2="404" y2="340" stroke="#333333" stroke-width="1.5"/>
+<polygon points="414,340 403,344.4 403,335.6" fill="#333333"/>
+<line x1="70" y1="340" x2="70" y2="36" stroke="#333333" stroke-width="1.5"/>
+<polygon points="70,26 74.4,37 65.6,37" fill="#333333"/>
+<line x1="102.21" y1="334" x2="102.21" y2="346" stroke="#333333" stroke-width="1.5"/>
+<line x1="152.5" y1="334" x2="152.5" y2="346" stroke="#333333" stroke-width="1.5"/>
+<line x1="221.25" y1="334" x2="221.25" y2="346" stroke="#333333" stroke-width="1.5"/>
+<line x1="290" y1="334" x2="290" y2="346" stroke="#333333" stroke-width="1.5"/>
+<line x1="358.75" y1="334" x2="358.75" y2="346" stroke="#333333" stroke-width="1.5"/>
+<text x="152.5" y="368.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−200</tspan></text>
+<text x="221.25" y="368.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−100</tspan></text>
+<text x="290" y="368.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="358.75" y="368.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<text x="102.21" y="392.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−273.15</tspan></text>
+<line x1="102.21" y1="340" x2="193.75" y2="248.13" stroke="#c8102e" stroke-width="2.5" stroke-dasharray="9 6"/>
+<line x1="193.75" y1="248.13" x2="386.25" y2="54.93" stroke="#c8102e" stroke-width="2.5"/>
+<text x="394.25" y="61.58" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gas</tspan><tspan font-style="normal"> 1</tspan></text>
+<line x1="102.21" y1="340" x2="193.75" y2="272.89" stroke="#c8102e" stroke-width="2.5" stroke-dasharray="9 6"/>
+<line x1="193.75" y1="272.89" x2="386.25" y2="131.77" stroke="#c8102e" stroke-width="2.5"/>
+<text x="394.25" y="138.42" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gas</tspan><tspan font-style="normal"> 2</tspan></text>
+<line x1="102.21" y1="340" x2="193.75" y2="295.26" stroke="#c8102e" stroke-width="2.5" stroke-dasharray="9 6"/>
+<line x1="193.75" y1="295.26" x2="386.25" y2="201.18" stroke="#c8102e" stroke-width="2.5"/>
+<text x="394.25" y="207.83" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gas</tspan><tspan font-style="normal"> 3</tspan></text>
+<line x1="102.21" y1="340" x2="193.75" y2="316.83" stroke="#c8102e" stroke-width="2.5" stroke-dasharray="9 6"/>
+<line x1="193.75" y1="316.83" x2="386.25" y2="268.11" stroke="#c8102e" stroke-width="2.5"/>
+<text x="394.25" y="274.76" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gas</tspan><tspan font-style="normal"> 4</tspan></text>
+<text x="235" y="426.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Temperature</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">T</tspan><tspan font-style="normal"> (°</tspan><tspan font-style="normal">C</tspan><tspan font-style="normal">)</tspan></text>
+<text x="48" y="196.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" transform="rotate(-90 48 190)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pressure</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">P</tspan></text>
+</svg>

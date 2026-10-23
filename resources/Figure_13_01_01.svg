@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="460" viewBox="0 0 340 460" role="img" aria-labelledby="title desc">
+<title id="title">Bimetallic strip</title>
+<desc id="desc">(a) A blue metal strip bonded lengthwise to a yellow one stands straight at temperature T₀. (b) At a higher temperature T the strip curves to the right: the blue metal on the left has expanded more than the yellow metal on the right.</desc>
+<rect width="340" height="460" fill="#ffffff"/>
+<rect x="60" y="40" width="20" height="360" fill="#8fd3f2" stroke="#4fb3df" stroke-width="1"/>
+<rect x="80" y="40" width="20" height="360" fill="#fbd24e" stroke="#e0b42a" stroke-width="1"/>
+<text x="110" y="209.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 180 400 A 580 580 0 0 1 295.78 52.3 L 311.78 64.29 A 560 560 0 0 0 200 400 Z" fill="#8fd3f2" stroke="#4fb3df" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 200 400 A 560 560 0 0 1 311.78 64.29 L 327.79 76.28 A 540 540 0 0 0 220 400 Z" fill="#fbd24e" stroke="#e0b42a" stroke-width="1" stroke-linejoin="round"/>
+<text x="267.4" y="220.72" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal"> &gt; </tspan><tspan font-style="italic">T</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">0</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="80" y="441" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="210" y="441" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

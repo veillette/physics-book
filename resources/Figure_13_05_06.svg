@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="500" viewBox="0 0 790 500" role="img" aria-labelledby="title desc">
+<title id="title">Liquid–vapor equilibrium at two temperatures</title>
+<desc id="desc">Two closed containers of liquid and its vapor, each with a pressure gauge and a thermometer. (a) The rate of vaporization (green arrow up) equals the rate of condensation (purple arrow down). (b) At a higher temperature, the pressure is higher and both rates are larger, but they are still equal.</desc>
+<rect width="790" height="500" fill="#ffffff"/>
+<rect x="10" y="285" width="370" height="140" rx="0" fill="#cfeaf8"/>
+<rect x="10" y="140" width="370" height="285" rx="12" fill="none" stroke="#7cc6ea" stroke-width="2.5"/>
+<line x1="10" y1="285" x2="380" y2="285" stroke="#8cc9e8" stroke-width="1.5"/>
+<rect x="124" y="116" width="12" height="16" fill="#7cc443" stroke="#4e8a22" stroke-width="1.2"/>
+<circle cx="130" cy="72" r="46" fill="#2fa58e" stroke="#1d7a68" stroke-width="1.5"/>
+<circle cx="130" cy="72" r="36.8" fill="#fdf6dc" stroke="#c9b98a" stroke-width="1"/>
+<line x1="109.83" y1="92.17" x2="104.63" y2="97.37" stroke="#222222" stroke-width="1.5"/>
+<line x1="101.48" y1="72" x2="94.12" y2="72" stroke="#222222" stroke-width="1.5"/>
+<line x1="109.83" y1="51.83" x2="104.63" y2="46.63" stroke="#222222" stroke-width="1.5"/>
+<line x1="130" y1="43.48" x2="130" y2="36.12" stroke="#222222" stroke-width="1.5"/>
+<line x1="150.17" y1="51.83" x2="155.37" y2="46.63" stroke="#222222" stroke-width="1.5"/>
+<line x1="158.52" y1="72" x2="165.88" y2="72" stroke="#222222" stroke-width="1.5"/>
+<line x1="150.17" y1="92.17" x2="155.37" y2="97.37" stroke="#222222" stroke-width="1.5"/>
+<line x1="130" y1="72" x2="122.78" y2="53.78" stroke="#e0533d" stroke-width="2.5"/>
+<polygon points="119.84,46.34 126.5,53.38 119.81,56.03" fill="#e0533d"/>
+<circle cx="130" cy="72" r="3" fill="#222222"/>
+<text x="169.1" y="35.3" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<rect x="319" y="40" width="22" height="260" rx="11" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<circle cx="330" cy="300" r="17" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<rect x="320.5" y="52" width="19" height="248" fill="#ffffff"/>
+<rect x="326" y="48" width="8" height="252" rx="4" fill="#9fd3f0"/>
+<rect x="326" y="196" width="8" height="104" fill="#f08a7a"/>
+<circle cx="330" cy="300" r="10" fill="#f08a7a" stroke="#9fd3f0" stroke-width="2"/>
+<line x1="341" y1="276" x2="349" y2="276" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="255.64" x2="349" y2="255.64" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="235.27" x2="349" y2="235.27" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="214.91" x2="349" y2="214.91" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="194.55" x2="349" y2="194.55" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="174.18" x2="349" y2="174.18" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="153.82" x2="349" y2="153.82" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="133.45" x2="349" y2="133.45" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="113.09" x2="349" y2="113.09" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="92.73" x2="349" y2="92.73" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="72.36" x2="349" y2="72.36" stroke="#222222" stroke-width="1.2"/>
+<line x1="341" y1="52" x2="349" y2="52" stroke="#222222" stroke-width="1.2"/>
+<text x="347" y="49" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<line x1="130" y1="320" x2="130" y2="233" stroke="#7ab32e" stroke-width="3"/>
+<polygon points="130,220 135.6,234 124.4,234" fill="#7ab32e"/>
+<line x1="200" y1="220" x2="200" y2="307" stroke="#5b3a99" stroke-width="3"/>
+<polygon points="200,320 194.4,306 205.6,306" fill="#5b3a99"/>
+<text x="122" y="236.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Vaporization</tspan></text>
+<text x="208" y="236.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Condensation</tspan></text>
+<rect x="410" y="285" width="370" height="140" rx="0" fill="#cfeaf8"/>
+<rect x="410" y="140" width="370" height="285" rx="12" fill="none" stroke="#7cc6ea" stroke-width="2.5"/>
+<line x1="410" y1="285" x2="780" y2="285" stroke="#8cc9e8" stroke-width="1.5"/>
+<rect x="524" y="116" width="12" height="16" fill="#7cc443" stroke="#4e8a22" stroke-width="1.2"/>
+<circle cx="530" cy="72" r="46" fill="#2fa58e" stroke="#1d7a68" stroke-width="1.5"/>
+<circle cx="530" cy="72" r="36.8" fill="#fdf6dc" stroke="#c9b98a" stroke-width="1"/>
+<line x1="509.83" y1="92.17" x2="504.63" y2="97.37" stroke="#222222" stroke-width="1.5"/>
+<line x1="501.48" y1="72" x2="494.12" y2="72" stroke="#222222" stroke-width="1.5"/>
+<line x1="509.83" y1="51.83" x2="504.63" y2="46.63" stroke="#222222" stroke-width="1.5"/>
+<line x1="530" y1="43.48" x2="530" y2="36.12" stroke="#222222" stroke-width="1.5"/>
+<line x1="550.17" y1="51.83" x2="555.37" y2="46.63" stroke="#222222" stroke-width="1.5"/>
+<line x1="558.52" y1="72" x2="565.88" y2="72" stroke="#222222" stroke-width="1.5"/>
+<line x1="550.17" y1="92.17" x2="555.37" y2="97.37" stroke="#222222" stroke-width="1.5"/>
+<line x1="530" y1="72" x2="540.5" y2="55.45" stroke="#e0533d" stroke-width="2.5"/>
+<polygon points="544.79,48.7 543.01,58.22 536.93,54.37" fill="#e0533d"/>
+<circle cx="530" cy="72" r="3" fill="#222222"/>
+<text x="569.1" y="35.3" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<rect x="719" y="40" width="22" height="260" rx="11" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<circle cx="730" cy="300" r="17" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<rect x="720.5" y="52" width="19" height="248" fill="#ffffff"/>
+<rect x="726" y="48" width="8" height="252" rx="4" fill="#9fd3f0"/>
+<rect x="726" y="92.5" width="8" height="207.5" fill="#f08a7a"/>
+<circle cx="730" cy="300" r="10" fill="#f08a7a" stroke="#9fd3f0" stroke-width="2"/>
+<line x1="741" y1="276" x2="749" y2="276" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="255.64" x2="749" y2="255.64" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="235.27" x2="749" y2="235.27" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="214.91" x2="749" y2="214.91" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="194.55" x2="749" y2="194.55" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="174.18" x2="749" y2="174.18" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="153.82" x2="749" y2="153.82" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="133.45" x2="749" y2="133.45" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="113.09" x2="749" y2="113.09" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="92.73" x2="749" y2="92.73" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="72.36" x2="749" y2="72.36" stroke="#222222" stroke-width="1.2"/>
+<line x1="741" y1="52" x2="749" y2="52" stroke="#222222" stroke-width="1.2"/>
+<text x="747" y="49" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<line x1="530" y1="355" x2="530" y2="168" stroke="#7ab32e" stroke-width="3"/>
+<polygon points="530,155 535.6,169 524.4,169" fill="#7ab32e"/>
+<line x1="600" y1="155" x2="600" y2="342" stroke="#5b3a99" stroke-width="3"/>
+<polygon points="600,355 594.4,341 605.6,341" fill="#5b3a99"/>
+<text x="522" y="171.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Vaporization</tspan></text>
+<text x="608" y="171.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Condensation</tspan></text>
+<text x="195" y="489" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="595" y="489" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

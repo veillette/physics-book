@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="340" viewBox="0 0 680 340" role="img" aria-labelledby="title desc">
+<title id="title">An air bubble in heated water</title>
+<desc id="desc">A beaker of water over a flame at three temperatures. (a) At 20 °C a small bubble sits on the bottom. (b) At 50 °C the bubble is larger. (c) At 100 °C the bubble is larger still and rises toward the surface.</desc>
+<rect width="680" height="340" fill="#ffffff"/>
+<rect x="37" y="48.5" width="156" height="154.5" fill="#cfeaf8"/>
+<path d="M 30 20 L 30 196 Q 30 210 44 210 L 186 210 Q 200 210 200 196 L 200 20" fill="none" stroke="#7cc6ea" stroke-width="7" stroke-linejoin="round"/>
+<line x1="37" y1="48.5" x2="193" y2="48.5" stroke="#8cc9e8" stroke-width="1.5"/>
+<text x="180" y="92" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20°</tspan><tspan font-style="normal">C</tspan></text>
+<circle cx="85" cy="198" r="5" fill="#a9daf5" stroke="#5fb4e0" stroke-width="1.5"/>
+<circle cx="83.25" cy="196.25" r="1.5" fill="#e9f6fd"/>
+<rect x="102" y="262" width="26" height="9" rx="2" fill="#c9c9c9" stroke="#8a8a8a" stroke-width="1"/>
+<rect x="105" y="271" width="20" height="26" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 102 262 C 96.8 240.4 112.4 233.2 116.3 214 C 118.9 230.8 134.5 240.4 128 262 Z" fill="#f26b3a" stroke="#f26b3a" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 107 262 C 103.8 247.6 113.4 242.8 115.8 230 C 117.4 241.2 127 247.6 123 262 Z" fill="#f9b233" stroke="#f9b233" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 111 262 C 109.4 254.8 114.2 252.4 115.4 246 C 116.2 251.6 121 254.8 119 262 Z" fill="#fde58a" stroke="#fde58a" stroke-width="1" stroke-linejoin="round"/>
+<text x="115" y="329" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="262" y="48.5" width="156" height="154.5" fill="#cfeaf8"/>
+<path d="M 255 20 L 255 196 Q 255 210 269 210 L 411 210 Q 425 210 425 196 L 425 20" fill="none" stroke="#7cc6ea" stroke-width="7" stroke-linejoin="round"/>
+<line x1="262" y1="48.5" x2="418" y2="48.5" stroke="#8cc9e8" stroke-width="1.5"/>
+<text x="405" y="92" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">50°</tspan><tspan font-style="normal">C</tspan></text>
+<circle cx="310" cy="195" r="8" fill="#a9daf5" stroke="#5fb4e0" stroke-width="1.5"/>
+<circle cx="307.2" cy="192.2" r="2.4" fill="#e9f6fd"/>
+<rect x="327" y="262" width="26" height="9" rx="2" fill="#c9c9c9" stroke="#8a8a8a" stroke-width="1"/>
+<rect x="330" y="271" width="20" height="26" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 327 262 C 321.8 240.4 337.4 233.2 341.3 214 C 343.9 230.8 359.5 240.4 353 262 Z" fill="#f26b3a" stroke="#f26b3a" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 332 262 C 328.8 247.6 338.4 242.8 340.8 230 C 342.4 241.2 352 247.6 348 262 Z" fill="#f9b233" stroke="#f9b233" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 336 262 C 334.4 254.8 339.2 252.4 340.4 246 C 341.2 251.6 346 254.8 344 262 Z" fill="#fde58a" stroke="#fde58a" stroke-width="1" stroke-linejoin="round"/>
+<text x="340" y="329" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="487" y="48.5" width="156" height="154.5" fill="#cfeaf8"/>
+<path d="M 480 20 L 480 196 Q 480 210 494 210 L 636 210 Q 650 210 650 196 L 650 20" fill="none" stroke="#7cc6ea" stroke-width="7" stroke-linejoin="round"/>
+<line x1="487" y1="48.5" x2="643" y2="48.5" stroke="#8cc9e8" stroke-width="1.5"/>
+<text x="630" y="92" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100°</tspan><tspan font-style="normal">C</tspan></text>
+<circle cx="530" cy="125" r="14" fill="#a9daf5" stroke="#5fb4e0" stroke-width="1.5"/>
+<circle cx="525.1" cy="120.1" r="4.2" fill="#e9f6fd"/>
+<line x1="530" y1="103" x2="530" y2="70" stroke="#222222" stroke-width="2"/>
+<polygon points="530,60 534.4,71 525.6,71" fill="#222222"/>
+<rect x="552" y="262" width="26" height="9" rx="2" fill="#c9c9c9" stroke="#8a8a8a" stroke-width="1"/>
+<rect x="555" y="271" width="20" height="26" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 552 262 C 546.8 240.4 562.4 233.2 566.3 214 C 568.9 230.8 584.5 240.4 578 262 Z" fill="#f26b3a" stroke="#f26b3a" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 557 262 C 553.8 247.6 563.4 242.8 565.8 230 C 567.4 241.2 577 247.6 573 262 Z" fill="#f9b233" stroke="#f9b233" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 561 262 C 559.4 254.8 564.2 252.4 565.4 246 C 566.2 251.6 571 254.8 569 262 Z" fill="#fde58a" stroke="#fde58a" stroke-width="1" stroke-linejoin="round"/>
+<text x="565" y="329" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

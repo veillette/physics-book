@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+<title id="title">Fahrenheit, Celsius, and Kelvin scales</title>
+<desc id="desc">Three horizontal temperature scales, one above the other, aligned. Absolute zero is −459.67 °F, −273.15 °C, and 0 K. 0 °F is −17.8 °C or 255.37 K. Water freezes at 32 °F, 0 °C, 273.15 K; normal body temperature is 98.6 °F, 37 °C, 310.15 K; water boils at 212 °F, 100 °C, 373.15 K. At the right, a span of 9 °F equals 5 °C and 5 K.</desc>
+<rect width="960" height="500" fill="#ffffff"/>
+<line x1="70" y1="190" x2="720" y2="190" stroke="#c8102e" stroke-width="2.2"/>
+<polygon points="735,190 719,196.4 719,183.6" fill="#c8102e"/>
+<rect x="156" y="178" width="9" height="24" fill="#ffffff"/>
+<path d="M 153 200 Q 160 190 155 180" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 161 200 Q 168 190 163 180" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="70" y1="181" x2="70" y2="199" stroke="#222222" stroke-width="1.8"/>
+<text x="70" y="222.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−459.67</tspan></text>
+<line x1="352" y1="181" x2="352" y2="199" stroke="#222222" stroke-width="1.8"/>
+<text x="352" y="222.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="400" y1="181" x2="400" y2="199" stroke="#222222" stroke-width="1.8"/>
+<text x="400" y="222.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">32</tspan></text>
+<line x1="499.9" y1="181" x2="499.9" y2="199" stroke="#222222" stroke-width="1.8"/>
+<text x="499.9" y="222.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">98.6</tspan></text>
+<line x1="670" y1="181" x2="670" y2="199" stroke="#222222" stroke-width="1.8"/>
+<text x="670" y="222.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">212</tspan></text>
+<text x="731" y="222.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">°</tspan><tspan font-style="normal">F</tspan></text>
+<line x1="70" y1="315" x2="720" y2="315" stroke="#c8102e" stroke-width="2.2"/>
+<polygon points="735,315 719,321.4 719,308.6" fill="#c8102e"/>
+<rect x="156" y="303" width="9" height="24" fill="#ffffff"/>
+<path d="M 153 325 Q 160 315 155 305" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 161 325 Q 168 315 163 305" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="70" y1="306" x2="70" y2="324" stroke="#222222" stroke-width="1.8"/>
+<text x="70" y="347.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−273.15</tspan></text>
+<line x1="351.99" y1="306" x2="351.99" y2="324" stroke="#222222" stroke-width="1.8"/>
+<text x="351.99" y="347.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−17.8</tspan></text>
+<line x1="400" y1="306" x2="400" y2="324" stroke="#222222" stroke-width="1.8"/>
+<text x="400" y="347.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="499.9" y1="306" x2="499.9" y2="324" stroke="#222222" stroke-width="1.8"/>
+<text x="499.9" y="347.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">37</tspan></text>
+<line x1="670" y1="306" x2="670" y2="324" stroke="#222222" stroke-width="1.8"/>
+<text x="670" y="347.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<text x="731" y="347.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">°</tspan><tspan font-style="normal">C</tspan></text>
+<line x1="70" y1="440" x2="720" y2="440" stroke="#c8102e" stroke-width="2.2"/>
+<polygon points="735,440 719,446.4 719,433.6" fill="#c8102e"/>
+<rect x="156" y="428" width="9" height="24" fill="#ffffff"/>
+<path d="M 153 450 Q 160 440 155 430" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 161 450 Q 168 440 163 430" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="70" y1="431" x2="70" y2="449" stroke="#222222" stroke-width="1.8"/>
+<text x="70" y="472.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="351.99" y1="431" x2="351.99" y2="449" stroke="#222222" stroke-width="1.8"/>
+<text x="351.99" y="422.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">255.37</tspan></text>
+<line x1="400" y1="431" x2="400" y2="449" stroke="#222222" stroke-width="1.8"/>
+<text x="400" y="472.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">273.15</tspan></text>
+<line x1="499.9" y1="431" x2="499.9" y2="449" stroke="#222222" stroke-width="1.8"/>
+<text x="499.9" y="422.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">310.15</tspan></text>
+<line x1="670" y1="431" x2="670" y2="449" stroke="#222222" stroke-width="1.8"/>
+<text x="670" y="472.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">373.15</tspan></text>
+<text x="731" y="472.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">K</tspan></text>
+<text x="76" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 76 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Absolute</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">zero</tspan></text>
+<text x="396" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 396 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Freezing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">point</tspan></text>
+<text x="417" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 417 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">water</tspan></text>
+<text x="495.9" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 495.9 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Normal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">body</tspan></text>
+<text x="516.9" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 516.9 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">temperature</tspan></text>
+<text x="666" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 666 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Boiling</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">point</tspan></text>
+<text x="687" y="174.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" transform="rotate(-90 687 168)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">water</tspan></text>
+<line x1="765" y1="190" x2="935" y2="190" stroke="#222222" stroke-width="1.8"/>
+<line x1="765" y1="154" x2="765" y2="199" stroke="#222222" stroke-width="1.8"/>
+<line x1="935" y1="154" x2="935" y2="199" stroke="#222222" stroke-width="1.8"/>
+<line x1="783.89" y1="181" x2="783.89" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="802.78" y1="181" x2="802.78" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="821.67" y1="181" x2="821.67" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="840.56" y1="181" x2="840.56" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="859.44" y1="181" x2="859.44" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="878.33" y1="181" x2="878.33" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="897.22" y1="181" x2="897.22" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="916.11" y1="181" x2="916.11" y2="199" stroke="#222222" stroke-width="1.5"/>
+<line x1="777" y1="166" x2="923" y2="166" stroke="#222222" stroke-width="1.5"/>
+<polygon points="933,166 922,170.4 922,161.6" fill="#222222"/>
+<polygon points="767,166 778,161.6 778,170.4" fill="#222222"/>
+<rect x="824" y="154" width="52" height="24" fill="#ffffff"/>
+<text x="850" y="172.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">9°</tspan><tspan font-style="normal">F</tspan></text>
+<line x1="765" y1="315" x2="935" y2="315" stroke="#222222" stroke-width="1.8"/>
+<line x1="765" y1="279" x2="765" y2="324" stroke="#222222" stroke-width="1.8"/>
+<line x1="935" y1="279" x2="935" y2="324" stroke="#222222" stroke-width="1.8"/>
+<line x1="799" y1="306" x2="799" y2="324" stroke="#222222" stroke-width="1.5"/>
+<line x1="833" y1="306" x2="833" y2="324" stroke="#222222" stroke-width="1.5"/>
+<line x1="867" y1="306" x2="867" y2="324" stroke="#222222" stroke-width="1.5"/>
+<line x1="901" y1="306" x2="901" y2="324" stroke="#222222" stroke-width="1.5"/>
+<line x1="777" y1="291" x2="923" y2="291" stroke="#222222" stroke-width="1.5"/>
+<polygon points="933,291 922,295.4 922,286.6" fill="#222222"/>
+<polygon points="767,291 778,286.6 778,295.4" fill="#222222"/>
+<rect x="824" y="279" width="52" height="24" fill="#ffffff"/>
+<text x="850" y="297.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5°</tspan><tspan font-style="normal">C</tspan></text>
+<line x1="765" y1="440" x2="935" y2="440" stroke="#222222" stroke-width="1.8"/>
+<line x1="765" y1="404" x2="765" y2="449" stroke="#222222" stroke-width="1.8"/>
+<line x1="935" y1="404" x2="935" y2="449" stroke="#222222" stroke-width="1.8"/>
+<line x1="799" y1="431" x2="799" y2="449" stroke="#222222" stroke-width="1.5"/>
+<line x1="833" y1="431" x2="833" y2="449" stroke="#222222" stroke-width="1.5"/>
+<line x1="867" y1="431" x2="867" y2="449" stroke="#222222" stroke-width="1.5"/>
+<line x1="901" y1="431" x2="901" y2="449" stroke="#222222" stroke-width="1.5"/>
+<line x1="777" y1="416" x2="923" y2="416" stroke="#222222" stroke-width="1.5"/>
+<polygon points="933,416 922,420.4 922,411.6" fill="#222222"/>
+<polygon points="767,416 778,411.6 778,420.4" fill="#222222"/>
+<rect x="824" y="404" width="52" height="24" fill="#ffffff"/>
+<text x="850" y="422.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5 </tspan><tspan font-style="normal">K</tspan></text>
+</svg>
