@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="810" viewBox="0 0 460 810" role="img" aria-labelledby="title desc">
+<title id="title">Parallax of a nearby star</title>
+<desc id="desc">A star 4 light years from the Sun, far above the plane of the Earth’s orbit (not to scale). From the Earth at opposite sides of its orbit, six months apart, the lines of sight to the star make angles θ1 and θ2 with the line through the Sun. The known diameter of the orbit and these angles fix the distance to the star.</desc>
+<rect width="460" height="810" fill="#ffffff"/>
+<ellipse cx="230" cy="690" rx="200" ry="40" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="30" y1="690" x2="430" y2="690" stroke="#222222" stroke-width="1.5"/>
+<line x1="230" y1="50" x2="30" y2="690" stroke="#222222" stroke-width="1.5"/>
+<line x1="230" y1="50" x2="430" y2="690" stroke="#222222" stroke-width="1.5"/>
+<line x1="150" y1="726.66" x2="164.03" y2="727.67" stroke="#222222" stroke-width="1.5"/>
+<polygon points="175,728.46 162.69,732.38 163.38,722.81" fill="#222222"/>
+<line x1="330" y1="655.36" x2="315.95" y2="653.99" stroke="#222222" stroke-width="1.5"/>
+<polygon points="305,652.92 317.41,649.31 316.48,658.86" fill="#222222"/>
+<line x1="230" y1="87" x2="230" y2="655" stroke="#222222" stroke-width="2"/>
+<polygon points="230,670 223.6,654 236.4,654" fill="#222222"/>
+<polygon points="230,72 236.4,88 223.6,88" fill="#222222"/>
+<text x="230" y="378.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4 </tspan><tspan font-style="normal">ly</tspan></text>
+<polyline points="230,672 248,672 248,690" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 76 690 A 46 46 0 0 0 43.72 646.09" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 416.28 646.09 A 46 46 0 0 0 384 690" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="90" y="646.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="370" y="646.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<polygon points="230,37 232.49,43.99 239.19,40.81 236.01,47.51 243,50 236.01,52.49 239.19,59.19 232.49,56.01 230,63 227.51,56.01 220.81,59.19 223.99,52.49 217,50 223.99,47.51 220.81,40.81 227.51,43.99" fill="#f6c844" stroke="#d08a10" stroke-width="1" opacity="1"/>
+<text x="252" y="57.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Star</tspan></text>
+<defs><radialGradient id="sun34" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f7b733"/><stop offset="0.65" stop-color="#fcd65c"/><stop offset="1" stop-color="#fff2b8"/></radialGradient></defs>
+<polygon points="244.3,690 242.21,691.61 243.81,693.7 241.38,694.71 242.38,697.15 239.77,697.5 240.11,700.11 237.5,699.77 237.15,702.38 234.71,701.38 233.7,703.81 231.61,702.21 230,704.3 228.39,702.21 226.3,703.81 225.29,701.38 222.85,702.38 222.5,699.77 219.89,700.11 220.23,697.5 217.62,697.15 218.62,694.71 216.19,693.7 217.79,691.61 215.7,690 217.79,688.39 216.19,686.3 218.62,685.29 217.62,682.85 220.23,682.5 219.89,679.89 222.5,680.23 222.85,677.62 225.29,678.62 226.3,676.19 228.39,677.79 230,675.7 231.61,677.79 233.7,676.19 234.71,678.62 237.15,677.62 237.5,680.23 240.11,679.89 239.77,682.5 242.38,682.85 241.38,685.29 243.81,686.3 242.21,688.39" fill="#fde69a"/>
+<circle cx="230" cy="690" r="12.1" fill="url(#sun34)"/>
+<text x="252" y="715.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Sun</tspan></text>
+<circle cx="428" cy="687" r="9" fill="#62b6e0" stroke="#2f6f9e" stroke-width="1.5"/>
+<text x="420" y="743.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<line x1="30" y1="755" x2="30" y2="779" stroke="#222222" stroke-width="2"/>
+<line x1="430" y1="755" x2="430" y2="779" stroke="#222222" stroke-width="2"/>
+<line x1="45" y1="767" x2="415" y2="767" stroke="#222222" stroke-width="2"/>
+<polygon points="428,767 414,772.6 414,761.4" fill="#222222"/>
+<polygon points="32,767 46,761.4 46,772.6" fill="#222222"/>
+<text x="230" y="803.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Diameter</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">orbit</tspan></text>
+</svg>

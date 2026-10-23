@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="560" viewBox="0 0 750 560" role="img" aria-labelledby="title desc">
+<title id="title">Resistance of mercury near 4.2 K</title>
+<desc id="desc">Resistance R of a mercury sample versus temperature T from 4.1 to 4.4 K. Above 4.2 K the resistance is about 0.12 to 0.14 Ω; at 4.2 K it drops abruptly to less than 10^−5 Ω, the superconducting transition.</desc>
+<rect width="750" height="560" fill="#ffffff"/>
+<line x1="130" y1="480" x2="705" y2="480" stroke="#333333" stroke-width="1.5"/>
+<polygon points="714,480 704,484 704,476" fill="#333333"/>
+<line x1="130" y1="480" x2="130" y2="35" stroke="#333333" stroke-width="1.5"/>
+<polygon points="130,26 134,36 126,36" fill="#333333"/>
+<line x1="222.79" y1="480" x2="222.79" y2="485" stroke="#333333" stroke-width="1.2"/>
+<text x="222.79" y="505.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.1</tspan></text>
+<line x1="355.35" y1="480" x2="355.35" y2="485" stroke="#333333" stroke-width="1.2"/>
+<text x="355.35" y="505.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.2</tspan></text>
+<line x1="487.91" y1="480" x2="487.91" y2="485" stroke="#333333" stroke-width="1.2"/>
+<text x="487.91" y="505.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.3</tspan></text>
+<line x1="620.47" y1="480" x2="620.47" y2="485" stroke="#333333" stroke-width="1.2"/>
+<text x="620.47" y="505.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.4</tspan></text>
+<line x1="125" y1="346.67" x2="130" y2="346.67" stroke="#333333" stroke-width="1.2"/>
+<text x="121" y="355.07" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.05</tspan></text>
+<line x1="125" y1="213.33" x2="130" y2="213.33" stroke="#333333" stroke-width="1.2"/>
+<text x="121" y="221.73" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.10</tspan></text>
+<line x1="125" y1="80" x2="130" y2="80" stroke="#333333" stroke-width="1.2"/>
+<text x="121" y="88.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.15</tspan></text>
+<text x="118" y="488.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="150.51" y1="490" x2="162.51" y2="470" stroke="#333333" stroke-width="1.5"/>
+<line x1="160.51" y1="490" x2="172.51" y2="470" stroke="#333333" stroke-width="1.5"/>
+<polyline points="308.95,474.67 332.81,474.67 356.67,456" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="356.67,456 399.09,165.33" fill="none" stroke="#7b1145" stroke-width="3" stroke-dasharray="8 6" stroke-linejoin="round"/>
+<polyline points="399.09,165.33 564.79,114.67 624.44,106.67" fill="none" stroke="#7b1145" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="308.95" cy="474.67" r="7" fill="#222222"/>
+<circle cx="332.81" cy="474.67" r="7" fill="#222222"/>
+<circle cx="356.67" cy="456" r="7" fill="#222222"/>
+<circle cx="399.09" cy="165.33" r="7" fill="#222222"/>
+<circle cx="564.79" cy="114.67" r="7" fill="#222222"/>
+<circle cx="624.44" cy="106.67" r="7" fill="#222222"/>
+<text x="249.3" y="223.13" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Mercury</tspan></text>
+<text x="169.77" y="401.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> &lt; 10</tspan><tspan font-size="18.2" dy="-10.4"><tspan font-style="normal">−5</tspan></tspan><tspan dy="10.4">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Ω</tspan></text>
+<polyline points="262.56,410.67 263.38,412.38 264.21,414.09 265.07,415.76 265.96,417.39 266.9,418.97 267.9,420.48 268.96,421.91 270.09,423.26 271.3,424.52 272.59,425.69 273.95,426.76 275.4,427.74 276.92,428.63 278.51,429.44 280.16,430.17 281.87,430.83 283.63,431.44 285.42,432.01 287.24,432.54 289.07,433.07 290.9,433.59 292.72,434.13 294.51,434.69 296.27,435.3 297.98,435.97 299.63,436.7 301.22,437.5 302.74,438.39 304.19,439.37 305.55,440.45 306.84,441.61 308.05,442.87 309.18,444.22 310.24,445.66 311.24,447.17 312.18,448.74 313.07,450.37 313.93,452.05 314.76,453.75 315.58,455.47" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="315.58" y1="455.47" x2="321.96" y2="460.86" stroke="#222222" stroke-width="1.4"/>
+<polygon points="328.84,466.67 318.62,463.27 323.78,457.16" fill="#222222"/>
+<text x="60" y="31.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">(Ω)</tspan></text>
+<text x="646.98" y="523.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">(K)</tspan></text>
+</svg>

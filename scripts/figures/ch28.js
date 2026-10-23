@@ -44,7 +44,7 @@ function rocket(svg, x, y, { dir = 1, s = 1 } = {}) {
 }
 
 /** The Earth: a blue disk with a few green continents. */
-function earth(svg, cx, cy, r) {
+export function earth(svg, cx, cy, r) {
   svg.circle(cx, cy, r, { fill: '#58a6dd', stroke: '#2f6f9e', width: 1.5 });
   const blob = (dx, dy, w, h) =>
     svg.path(
@@ -57,7 +57,7 @@ function earth(svg, cx, cy, r) {
 }
 
 /** A tiny observer standing on top of a point (x, y). */
-function observer(svg, x, y, s = 1) {
+export function observer(svg, x, y, s = 1) {
   svg.line(x - 3 * s, y, x - 2 * s, y - 14 * s, { color: '#333333', width: 2.5 * s });
   svg.line(x + 3 * s, y, x + 2 * s, y - 14 * s, { color: '#333333', width: 2.5 * s });
   svg.rect(x - 4 * s, y - 30 * s, 8 * s, 17 * s, { fill: '#c98a3a', rx: 2 * s });

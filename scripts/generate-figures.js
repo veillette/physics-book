@@ -12,7 +12,8 @@
  * chapter 25, the vision and optical-instrument figures of chapter 26, the
  * wave-optics figures of chapter 27, the relativity figures of chapter 28, the
  * atomic-physics figures of chapter 30, the nuclear-physics figures of chapters 31
- * and 32, the particle-physics figures of chapter 33, and the electromagnetic
+ * and 32, the particle-physics figures of chapter 33, the cosmology and
+ * frontier figures of chapter 34, and the electromagnetic
  * spectrum of section 29.3, plus the figures in the answers to
  * the Conceptual Questions of chapters 1–9 (scripts/figures/concepts.js) and
  * chapters 21–25 (scripts/figures/concepts21to25.js), and the field-line and
@@ -60,6 +61,7 @@ import ch30 from './figures/ch30.js';
 import ch31 from './figures/ch31.js';
 import ch32 from './figures/ch32.js';
 import ch33 from './figures/ch33.js';
+import ch34 from './figures/ch34.js';
 import concepts from './figures/concepts.js';
 import concepts21to25 from './figures/concepts21to25.js';
 import fields18to19 from './figures/fields18to19.js';
@@ -100,6 +102,7 @@ const figures = {
   ...ch31,
   ...ch32,
   ...ch33,
+  ...ch34,
   ...concepts,
   ...concepts21to25,
   ...fields18to19,

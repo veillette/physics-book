@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="855" viewBox="0 0 560 855" role="img" aria-labelledby="title desc">
+<title id="title">Light in an accelerating elevator and on the Earth</title>
+<desc id="desc">(a) A person in an elevator accelerating upward shines a flashlight horizontally at the far wall. The beam strikes the wall below the dashed horizontal line through the flashlight, because the elevator accelerates up while the light crosses it. (b) The same happens in a room at rest on the Earth: gravity bends the light downward by the same amount. The bending is greatly exaggerated.</desc>
+<rect width="560" height="855" fill="#ffffff"/>
+<rect x="30" y="70" width="500" height="290" fill="#eceaf0" stroke="#8a8f99" stroke-width="2"/>
+<rect x="30" y="360" width="500" height="12" fill="#b9b6c2" stroke="#8a8f99" stroke-width="1.5"/>
+<rect x="516" y="100" width="14" height="260" fill="#d4d8de" stroke="#8a8f99" stroke-width="1.2"/>
+<line x1="40" y1="386" x2="520" y2="386" stroke="#b9b6c2" stroke-width="2" stroke-dasharray="14 10"/>
+<line x1="40" y1="402" x2="520" y2="402" stroke="#b9b6c2" stroke-width="2" stroke-dasharray="14 10"/>
+<line x1="40" y1="418" x2="520" y2="418" stroke="#b9b6c2" stroke-width="2" stroke-dasharray="14 10"/>
+<line x1="280" y1="55" x2="280" y2="29" stroke="#ef8a1c" stroke-width="7"/>
+<polygon points="280,8 288.8,30 271.2,30" fill="#ef8a1c"/>
+<text x="300" y="31.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Accelerated</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+<polygon points="108,356 109,260 131,260 128,356" fill="#b0773c" stroke="#5a4632" stroke-width="1"/>
+<line x1="119" y1="355" x2="119" y2="265" stroke="#7a4f24" stroke-width="1"/>
+<polygon points="104,360 106,354 130,354 136,360" fill="#333333" stroke="#5a4632" stroke-width="1"/>
+<polygon points="104,268 102,185 112,174 128,174 136,188 134,268" fill="#f4f4f6" stroke="#9a9aa2" stroke-width="1"/>
+<polygon points="122,182 132,208 178,210 178,220 128,220 114,195" fill="#f4f4f6" stroke="#9a9aa2" stroke-width="1"/>
+<circle cx="182" cy="215" r="5" fill="#a8754a"/>
+<polygon points="116,176 116,164 125,164 125,176" fill="#a8754a" stroke="#5a4632" stroke-width="1"/>
+<circle cx="121" cy="152" r="14" fill="#a8754a"/>
+<path d="M 107,150 Q 114,132 130,140 L 124,148 Q 114,146 110,164 Z" fill="#3a2414" stroke="#3a2414" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="105" cy="146" r="7" fill="#3a2414"/>
+<polygon points="176,210 200,209 208,206 208,222 200,219 176,218" fill="#c9ccd2" stroke="#6f7580" stroke-width="1"/>
+<defs><linearGradient id="beamA34" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffe36b" stop-opacity="0.95"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0.75"/></linearGradient></defs>
+<polygon points="208,207 218.27,206.5 228.53,206.08 238.8,205.74 249.07,205.47 259.33,205.28 269.6,205.16 279.87,205.12 290.13,205.15 300.4,205.26 310.67,205.44 320.93,205.7 331.2,206.04 341.47,206.45 351.73,206.94 362,207.5 372.27,208.14 382.53,208.85 392.8,209.64 403.07,210.5 413.33,211.44 423.6,212.46 433.87,213.55 444.13,214.72 454.4,215.96 464.67,217.28 474.93,218.67 485.2,220.14 495.47,221.68 505.73,223.3 516,225 516,271 505.73,268.24 495.47,265.55 485.2,262.94 474.93,260.4 464.67,257.94 454.4,255.56 444.13,253.25 433.87,251.02 423.6,248.86 413.33,246.78 403.07,244.77 392.8,242.84 382.53,240.98 372.27,239.2 362,237.5 351.73,235.87 341.47,234.32 331.2,232.84 320.93,231.44 310.67,230.11 300.4,228.86 290.13,227.68 279.87,226.58 269.6,225.56 259.33,224.61 249.07,223.74 238.8,222.94 228.53,222.22 218.27,221.57 208,221" fill="url(#beamA34)"/>
+<ellipse cx="516" cy="248" rx="6" ry="23" fill="#ffe36b" stroke="#e0b52a" stroke-width="1"/>
+<line x1="208" y1="214" x2="516" y2="214" stroke="#222222" stroke-width="1.8" stroke-dasharray="8 6"/>
+<text x="22" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="30" y="490" width="500" height="290" fill="#fbe7c2" stroke="#8a8f99" stroke-width="2"/>
+<rect x="30" y="780" width="500" height="12" fill="#c9a46a" stroke="#8a8f99" stroke-width="1.5"/>
+<rect x="516" y="550" width="14" height="230" fill="#d8b48a" stroke="#8a6a44" stroke-width="1.2"/>
+<rect x="0" y="792" width="560" height="60" fill="#a9d88e"/>
+<text x="130" y="835.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<polygon points="108,776 109,680 131,680 128,776" fill="#b0773c" stroke="#5a4632" stroke-width="1"/>
+<line x1="119" y1="775" x2="119" y2="685" stroke="#7a4f24" stroke-width="1"/>
+<polygon points="104,780 106,774 130,774 136,780" fill="#333333" stroke="#5a4632" stroke-width="1"/>
+<polygon points="104,688 102,605 112,594 128,594 136,608 134,688" fill="#f4f4f6" stroke="#9a9aa2" stroke-width="1"/>
+<polygon points="122,602 132,628 178,630 178,640 128,640 114,615" fill="#f4f4f6" stroke="#9a9aa2" stroke-width="1"/>
+<circle cx="182" cy="635" r="5" fill="#a8754a"/>
+<polygon points="116,596 116,584 125,584 125,596" fill="#a8754a" stroke="#5a4632" stroke-width="1"/>
+<circle cx="121" cy="572" r="14" fill="#a8754a"/>
+<path d="M 107,570 Q 114,552 130,560 L 124,568 Q 114,566 110,584 Z" fill="#3a2414" stroke="#3a2414" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="105" cy="566" r="7" fill="#3a2414"/>
+<polygon points="176,630 200,629 208,626 208,642 200,639 176,638" fill="#c9ccd2" stroke="#6f7580" stroke-width="1"/>
+<defs><linearGradient id="beamB34" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffe36b" stop-opacity="0.95"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0.75"/></linearGradient></defs>
+<polygon points="208,627 218.27,626.5 228.53,626.08 238.8,625.74 249.07,625.47 259.33,625.28 269.6,625.16 279.87,625.12 290.13,625.15 300.4,625.26 310.67,625.44 320.93,625.7 331.2,626.04 341.47,626.45 351.73,626.94 362,627.5 372.27,628.14 382.53,628.85 392.8,629.64 403.07,630.5 413.33,631.44 423.6,632.46 433.87,633.55 444.13,634.72 454.4,635.96 464.67,637.28 474.93,638.67 485.2,640.14 495.47,641.68 505.73,643.3 516,645 516,691 505.73,688.24 495.47,685.55 485.2,682.94 474.93,680.4 464.67,677.94 454.4,675.56 444.13,673.25 433.87,671.02 423.6,668.86 413.33,666.78 403.07,664.77 392.8,662.84 382.53,660.98 372.27,659.2 362,657.5 351.73,655.87 341.47,654.32 331.2,652.84 320.93,651.44 310.67,650.11 300.4,648.86 290.13,647.68 279.87,646.58 269.6,645.56 259.33,644.61 249.07,643.74 238.8,642.94 228.53,642.22 218.27,641.57 208,641" fill="url(#beamB34)"/>
+<ellipse cx="516" cy="668" rx="6" ry="23" fill="#ffe36b" stroke="#e0b52a" stroke-width="1"/>
+<line x1="208" y1="634" x2="516" y2="634" stroke="#222222" stroke-width="1.8" stroke-dasharray="8 6"/>
+<text x="22" y="457.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>
