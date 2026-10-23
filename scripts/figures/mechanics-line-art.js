@@ -52,9 +52,9 @@ function riverVelocity(numeric) {
   group(svg, 'total-velocity', () =>
     svg.arrow(...start, ...end, { color: COLORS.green, width: 4 })
   );
-  svg.text(105, 280, numeric ? 'v_{boat} = 0.75 \\rm{m/s}' : 'v_{boat}', { size: 22 });
-  svg.text(400, 128, numeric ? 'v_{river} = 1.20 \\rm{m/s}' : 'v_{river}', { size: 22 });
-  svg.text(440, 305, 'v_{tot}', { size: 25, color: COLORS.green });
+  svg.text(105, 280, numeric ? 'v_{boat} = 0.75 \\rm{m/s}' : '**v**_{\\rm{boat}}', { size: 22 });
+  svg.text(400, 128, numeric ? 'v_{river} = 1.20 \\rm{m/s}' : '**v**_{\\rm{river}}', { size: 22 });
+  svg.text(440, 305, '**v**_{\\rm{tot}}', { size: 25, color: COLORS.green });
   svg.line(...start, start[0] + 125, start[1], GUIDE);
   svg.arc(...start, 73, 0, (Math.atan2(0.75, 1.2) * 180) / Math.PI);
   svg.text(287, 385, 'θ', { size: 24 });
@@ -99,7 +99,7 @@ function windVelocity(numeric) {
   const scale = 8;
   const north = [470, 500 - 45 * scale];
   const end = [470 - 38 * Math.sin(rad(20)) * scale, 500 - 38 * Math.cos(rad(20)) * scale];
-  for (const t of [0.18, 0.52, 0.86]) {
+  for (const t of [0.3, 0.58, 0.86]) {
     plane(svg, origin[0] + t * (end[0] - origin[0]), origin[1] + t * (end[1] - origin[1]));
   }
   group(svg, 'plane-velocity', () =>
@@ -113,23 +113,23 @@ function windVelocity(numeric) {
   );
   // Labels sit just beside their arrows: v_p to the right of the north arrow,
   // v_tot to the left of the ground-velocity arrow at 70% of its length.
-  svg.text(origin[0] + 14, 290, numeric ? 'v_p = 45.0 \\rm{m/s}' : 'v_p', {
+  svg.text(origin[0] + 14, 290, numeric ? 'v_p = 45.0 \\rm{m/s}' : '**v**_p', {
     size: 24,
     anchor: 'start',
   });
   const totAt = [origin[0] + 0.7 * (end[0] - origin[0]), origin[1] + 0.7 * (end[1] - origin[1])];
-  svg.text(totAt[0] - 16, totAt[1], numeric ? 'v_{tot} = 38.0 \\rm{m/s}' : 'v_{tot}', {
+  svg.text(totAt[0] - 16, totAt[1], numeric ? 'v_{tot} = 38.0 \\rm{m/s}' : '**v**_{\\rm{tot}}', {
     size: 24,
     anchor: 'end',
   });
-  svg.text(368, 153, 'v_w', { size: 24, color: COLORS.orange });
+  svg.text(368, 153, '**v**_w', { size: 24, color: COLORS.orange });
   svg.line(...north, north[0] - 150, north[1]);
   const windAngle = (Math.atan2(end[1] - north[1], north[0] - end[0]) * 180) / Math.PI;
   svg.arc(...north, 48, 180, 180 + windAngle);
   svg.text(409, 156, 'θ', { size: 23 });
   svg.line(origin[0] - 150, origin[1], origin[0] + 135, origin[1]);
-  svg.arc(...origin, 60, 90, 110);
-  svg.text(448, 420, numeric ? '20.0°' : '20°', { size: 21 });
+  svg.arc(...origin, 46, 90, 110);
+  svg.text(478, 462, numeric ? '20.0°' : '20°', { size: 21, anchor: 'start' });
   if (numeric) {
     svg.arc(...origin, 100, 0, 110);
     svg.text(540, 415, '110°', { size: 21 });
@@ -273,9 +273,9 @@ function strings() {
     svg.circle(x, end + 25, 7, { fill: 'none', stroke: INK });
     svg.rect(x - 34, end + 32, 68, 55, { fill: '#b8adb7', stroke: '#776d75' });
     svg.arrow(x, 130, x, 60, { color: FORCE, width: 3.5 });
-    svg.text(x + 21, 72, 'w', { size: 24 });
+    svg.text(x + 21, 72, '**w**', { size: 24 });
     svg.arrow(x, end + 87, x, end + 157, { color: FORCE, width: 3.5 });
-    svg.text(x + 21, end + 128, 'w', { size: 24 });
+    svg.text(x + 21, end + 128, '**w**', { size: 24 });
   });
   svg.vdimension(115, 130, initialEnd, 'L_0');
   svg.vdimension(115, initialEnd, initialEnd + 55, 'ΔL');
@@ -430,9 +430,9 @@ function stability({ angle = 0, tipDown = false, tilted = false, title, desc }) 
   group(svg, 'weight', () => svg.arrow(...cg, cg[0], cg[1] + 80, { color: FORCE, width: 4 }));
   svg.circle(...cg, 5, { fill: INK });
   svg.text(cg[0] + 31, cg[1] - 5, 'CG', { size: 20, math: false });
-  svg.text(cg[0] + 24, cg[1] + 58, 'w', { size: 25 });
+  svg.text(cg[0] + 24, cg[1] + 58, '**w**', { size: 25 });
   group(svg, 'normal', () => svg.arrow(pivot[0], 485, ...pivot, { color: FORCE, width: 4 }));
-  svg.text(pivot[0] + 29, 458, 'N', { size: 25 });
+  svg.text(pivot[0] + 29, 458, '**N**', { size: 25 });
   svg.circle(...pivot, 5, { fill: INK });
   svg.text(113, 363, 'Pivot point', { size: 20, math: false });
   svg.leader(160, 378, ...pivot);
@@ -443,8 +443,8 @@ function stability({ angle = 0, tipDown = false, tilted = false, title, desc }) 
   svg.arrow(555, 266, 555, 192, { width: 2 });
   svg.arrow(555, 266, 555, 340, { width: 2 });
   svg.circle(555, 266, 5, { fill: FORCE });
-  svg.text(582, 211, 'N', { size: 24 });
-  svg.text(582, 321, 'w', { size: 24 });
+  svg.text(582, 211, '**N**', { size: 24 });
+  svg.text(582, 321, '**w**', { size: 24 });
   return svg.render();
 }
 
@@ -484,9 +484,9 @@ function neutralStability() {
     svg.text(x - 30, y - 15, 'CG', { size: 19, math: false });
     const weightLength = Math.min(62, base - y - 3);
     svg.arrow(x, y, x, y + weightLength, { color: FORCE, width: 3.5 });
-    svg.text(x + 25, y + weightLength / 2, 'w', { size: 23 });
+    svg.text(x + 25, y + weightLength / 2, '**w**', { size: 23 });
     svg.arrow(x, base + 78, x, base, { color: FORCE, width: 3.5 });
-    svg.text(x + 25, base + 60, 'N', { size: 23 });
+    svg.text(x + 25, base + 60, '**N**', { size: 23 });
     svg.circle(x, base, 4, { fill: INK });
     svg.text(405, base + 45, 'Pivot point', { size: 18, math: false });
     svg.leader(365, base + 33, x, base);
@@ -495,8 +495,8 @@ function neutralStability() {
     svg.arrow(560, y + 30, 560, y - 20);
     svg.arrow(560, y + 30, 560, y + 80);
     svg.circle(560, y + 30, 4, { fill: FORCE });
-    svg.text(583, y - 5, 'N', { size: 22 });
-    svg.text(583, y + 65, 'w', { size: 22 });
+    svg.text(583, y - 5, '**N**', { size: 22 });
+    svg.text(583, y + 65, '**w**', { size: 22 });
     svg.text(560, y - 78, 'Free-body diagram', { size: 18, math: false });
   });
   return svg.render();

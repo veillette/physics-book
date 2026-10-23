@@ -345,8 +345,8 @@ function components({ level, numbers, scaleA = EX_A, scaleB = EX_B, title, desc 
   f.vec(scaleA, R, { color: BLUE, width: 3.5, head: 16 });
   f.vec([0, 0], R, { color: BLACK, width: 3.5, head: 16 });
   f.labelSeg([0, 0], scaleA, '**A**', {
-    off: numbers ? 16 : -18,
-    along: numbers ? 0.45 : 0.55,
+    off: numbers ? 14 : -18,
+    along: numbers ? 0.68 : 0.55,
     size: 18,
   });
   f.labelSeg(scaleA, R, '**B**', { off: -18, along: numbers ? 0.85 : 0.6, size: 18 });
@@ -354,8 +354,9 @@ function components({ level, numbers, scaleA = EX_A, scaleB = EX_B, title, desc 
   f.text([R[0] * 0.38, R[1] + 4], '**A** + **B** = **R**', { size: 18 });
   if (numbers) {
     f.angle([0, 0], 0, 20, 70, 'θ_\\rm{A} = 20.0°', { labelR: 92, dx: 26, dy: 2 });
-    f.angle([0, 0], 20, dir(R), 50, null);
-    f.text(polar(32, 52), 'θ = 36.6°', { size: 15, anchor: 'end' });
+    // θ is measured from the +x axis, outside the θA arc.
+    f.angle([0, 0], 0, dir(R), 118, null);
+    f.text(polar(33, 40), 'θ = 36.6°', { size: 15, anchor: 'end' });
     f.line(scaleA, add(scaleA, [10, 0]), { color: BLACK, width: 1 });
     f.angle(scaleA, 0, 63, 26, null);
     f.text([R[0] + 2, scaleA[1] + 4], 'θ_\\rm{B} = 63.0°', { size: 16, anchor: 'start' });

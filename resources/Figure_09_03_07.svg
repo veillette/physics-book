@@ -11,10 +11,10 @@
 <text x="215" y="101.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CG</tspan></text>
 <line x1="245" y1="110" x2="245" y2="159.3" stroke="#d52350" stroke-width="3.5"/>
 <polygon points="245,172 239.52,158.3 250.48,158.3" fill="#d52350"/>
-<text x="270" y="149.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="270" y="149.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-11.96">→</tspan><tspan dx="1.17" dy="11.96">​</tspan></tspan></text>
 <line x1="245" y1="263" x2="245" y2="197.7" stroke="#d52350" stroke-width="3.5"/>
 <polygon points="245,185 250.48,198.7 239.52,198.7" fill="#d52350"/>
-<text x="270" y="253.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="270" y="253.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-18.86">→</tspan><tspan dx="1.17" dy="18.86">​</tspan></tspan></text>
 <circle cx="245" cy="185" r="4" fill="#222222"/>
 <text x="405" y="236.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pivot</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">point</tspan></text>
 <path d="M 365 218 Q 316.55 159.5 251.59 182.65" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
@@ -27,17 +27,17 @@
 <line x1="560" y1="140" x2="560" y2="180.6" stroke="#333333" stroke-width="2"/>
 <polygon points="560,190 555.84,179.6 564.16,179.6" fill="#333333"/>
 <circle cx="560" cy="140" r="4" fill="#d52350"/>
-<text x="583" y="112.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
-<text x="583" y="182.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="583" y="112.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-18.04">→</tspan><tspan dx="1.12" dy="18.04">​</tspan></tspan></text>
+<text x="583" y="182.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-11.44">→</tspan><tspan dx="1.12" dy="11.44">​</tspan></tspan></text>
 <text x="560" y="38.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
 <circle cx="245" cy="435" r="5" fill="#222222"/>
 <text x="215" y="426.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CG</tspan></text>
 <line x1="245" y1="435" x2="245" y2="449.3" stroke="#d52350" stroke-width="3.5"/>
 <polygon points="245,462 239.52,448.3 250.48,448.3" fill="#d52350"/>
-<text x="270" y="456.55" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="270" y="456.55" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-11.96">→</tspan><tspan dx="1.17" dy="11.96">​</tspan></tspan></text>
 <line x1="245" y1="543" x2="245" y2="477.7" stroke="#d52350" stroke-width="3.5"/>
 <polygon points="245,465 250.48,478.7 239.52,478.7" fill="#d52350"/>
-<text x="270" y="533.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="270" y="533.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="14.26" font-weight="normal" dx="-15.43" dy="-18.86">→</tspan><tspan dx="1.17" dy="18.86">​</tspan></tspan></text>
 <circle cx="245" cy="465" r="4" fill="#222222"/>
 <text x="405" y="516.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pivot</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">point</tspan></text>
 <path d="M 365 498 Q 316.55 439.5 251.59 462.65" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
@@ -50,7 +50,7 @@
 <line x1="560" y1="465" x2="560" y2="505.6" stroke="#333333" stroke-width="2"/>
 <polygon points="560,515 555.84,504.6 564.16,504.6" fill="#333333"/>
 <circle cx="560" cy="465" r="4" fill="#d52350"/>
-<text x="583" y="437.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
-<text x="583" y="507.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="583" y="437.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">N<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-18.04">→</tspan><tspan dx="1.12" dy="18.04">​</tspan></tspan></text>
+<text x="583" y="507.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.64" font-weight="normal" dx="-14.76" dy="-11.44">→</tspan><tspan dx="1.12" dy="11.44">​</tspan></tspan></text>
 <text x="560" y="363.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="900" viewBox="0 0 1080 900" role="img" aria-labelledby="title desc">
 <title id="title">Wheelbarrow and shovel as levers</title>
-<desc id="desc">(a) The wheelbarrow load at CG lies between the handles and the wheel axle. F_i and ground reaction N point up; weight w points down. R_i is longer than R_o, giving MA greater than one. (b) Two hands hold a shovel: the right hand at the handle end is the pivot and pushes down, while the hand nearer the blade supplies upward F_i. The load weight points down beyond the input, with R_i shorter than R_o and MA less than one. Separate free-body diagrams show the same force directions. F_o is the upward force supporting each load and equals w in magnitude.</desc>
+<desc id="desc">(a) The wheelbarrow load at CG lies between the handles and the wheel axle. F_i and ground reaction N point up; weight w points down. l_i is longer than l_o, giving MA greater than one. (b) Two hands hold a shovel: the right hand at the handle end is the pivot and pushes down, while the hand nearer the blade supplies upward F_i. The load weight points down beyond the input, with l_i shorter than l_o and MA less than one. Separate free-body diagrams show the same force directions. F_o is the upward force supporting each load and equals w in magnitude.</desc>
 <rect width="1080" height="900" fill="#ffffff"/>
 <text x="345" y="38.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Wheelbarrow</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">MA</tspan><tspan font-style="normal"> &gt; 1</tspan></text>
 <g data-diagram="wheelbarrow">
@@ -24,7 +24,7 @@
 <g data-force="w">
 <line x1="500" y1="26" x2="500" y2="197" stroke="#222222" stroke-width="4"/>
 <polygon points="500,210 494.4,196 505.6,196" fill="#222222"/>
-<text x="530" y="85.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="530" y="85.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="15.5" font-weight="normal" dx="-16.77" dy="-13">→</tspan><tspan dx="1.27" dy="13">​</tspan></tspan></text>
 </g>
 <g data-force="N">
 <line x1="560" y1="365" x2="560" y2="218" stroke="#222222" stroke-width="4"/>
@@ -38,21 +38,21 @@
 <line x1="100" y1="260" x2="100" y2="414" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
 <line x1="560" y1="370" x2="560" y2="465" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
 <line x1="500" y1="220" x2="500" y2="465" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
-<g data-arm="R_i">
+<g data-arm="l_i">
 <line x1="100" y1="396" x2="100" y2="414" stroke="#222222" stroke-width="1.5"/>
 <line x1="560" y1="396" x2="560" y2="414" stroke="#222222" stroke-width="1.5"/>
 <line x1="109" y1="405" x2="551" y2="405" stroke="#222222" stroke-width="1.5"/>
 <polygon points="559,405 550,408.6 550,401.4" fill="#222222"/>
 <polygon points="101,405 110,401.4 110,408.6" fill="#222222"/>
-<text x="330" y="437.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">i</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="330" y="437.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">l</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">i</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 </g>
-<g data-arm="R_o">
+<g data-arm="l_o">
 <line x1="500" y1="446" x2="500" y2="464" stroke="#222222" stroke-width="1.5"/>
 <line x1="560" y1="446" x2="560" y2="464" stroke="#222222" stroke-width="1.5"/>
 <line x1="509" y1="455" x2="551" y2="455" stroke="#222222" stroke-width="1.5"/>
 <polygon points="559,455 550,458.6 550,451.4" fill="#222222"/>
 <polygon points="501,455 510,451.4 510,458.6" fill="#222222"/>
-<text x="530" y="487.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">o</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="530" y="487.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">l</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">o</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 </g>
 </g>
 <g data-diagram="fbd">
@@ -70,7 +70,7 @@
 <g data-force="w">
 <line x1="868" y1="225" x2="868" y2="359.2" stroke="#222222" stroke-width="4"/>
 <polygon points="868,372.2 862.4,358.2 873.6,358.2" fill="#222222"/>
-<text x="898" y="307.35" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="898" y="307.35" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="15.5" font-weight="normal" dx="-16.77" dy="-13">→</tspan><tspan dx="1.27" dy="13">​</tspan></tspan></text>
 </g>
 <circle cx="850" cy="225" r="6" fill="#9b1b1b"/>
 </g>
@@ -106,7 +106,7 @@
 <g data-force="w">
 <line x1="560" y1="665" x2="560" y2="716.53" stroke="#222222" stroke-width="4"/>
 <polygon points="560,729.53 554.4,715.53 565.6,715.53" fill="#222222"/>
-<text x="592" y="724.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="592" y="724.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="15.5" font-weight="normal" dx="-16.77" dy="-13">→</tspan><tspan dx="1.27" dy="13">​</tspan></tspan></text>
 </g>
 <circle cx="560" cy="665" r="5" fill="#222222"/>
 <text x="598" y="625.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CG</tspan></text>
@@ -121,21 +121,21 @@
 <line x1="110" y1="760" x2="110" y2="848" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
 <line x1="330" y1="760" x2="330" y2="848" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
 <line x1="560" y1="745" x2="560" y2="848" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
-<g data-arm="R_i">
+<g data-arm="l_i">
 <line x1="110" y1="778" x2="110" y2="796" stroke="#222222" stroke-width="1.5"/>
 <line x1="330" y1="778" x2="330" y2="796" stroke="#222222" stroke-width="1.5"/>
 <line x1="119" y1="787" x2="321" y2="787" stroke="#222222" stroke-width="1.5"/>
 <polygon points="329,787 320,790.6 320,783.4" fill="#222222"/>
 <polygon points="111,787 120,783.4 120,790.6" fill="#222222"/>
-<text x="220" y="819.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">i</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="220" y="819.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">l</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">i</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 </g>
-<g data-arm="R_o">
+<g data-arm="l_o">
 <line x1="110" y1="831" x2="110" y2="849" stroke="#222222" stroke-width="1.5"/>
 <line x1="560" y1="831" x2="560" y2="849" stroke="#222222" stroke-width="1.5"/>
 <line x1="119" y1="840" x2="551" y2="840" stroke="#222222" stroke-width="1.5"/>
 <polygon points="559,840 550,843.6 550,836.4" fill="#222222"/>
 <polygon points="111,840 120,836.4 120,843.6" fill="#222222"/>
-<text x="335" y="872.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">o</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="335" y="872.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">l</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">o</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 </g>
 </g>
 <g data-diagram="fbd">
@@ -153,7 +153,7 @@
 <g data-force="w">
 <line x1="868" y1="710" x2="868" y2="761.53" stroke="#222222" stroke-width="4"/>
 <polygon points="868,774.53 862.4,760.53 873.6,760.53" fill="#222222"/>
-<text x="898" y="751.02" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="898" y="751.02" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="15.5" font-weight="normal" dx="-16.77" dy="-13">→</tspan><tspan dx="1.27" dy="13">​</tspan></tspan></text>
 </g>
 <circle cx="850" cy="710" r="6" fill="#9b1b1b"/>
 </g>

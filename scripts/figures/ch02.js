@@ -1753,20 +1753,26 @@ export default {
       'Position rises from 0 to about 17.6 m at 5 s, falls to about 2.5 m between 10 and 12.5 s, then rises to 25 m at 20 s.',
       { xRange: [0, 25], yRange: [0, 30], xTicks: range(0, 25, 5), yTicks: range(0, 30, 5) },
       { title: 'Position vs. Time', xTitle: 'Time (s)', yTitle: 'Position (m)', yTitleOffset: 45 },
-      g =>
-        g.series(
-          [
-            [0, 0],
-            [2.5, 10],
-            [5.2, 17.6],
-            [7.7, 10],
-            [10.2, 2.5],
-            [12.6, 2.5],
-            [15, 5],
-            [20, 25],
-          ],
-          { color: POS, marker: 'diamond', markerSize: 6, smooth: true }
-        ),
+      g => {
+        const points = [
+          [0, 0],
+          [2.5, 10],
+          [5.2, 17.6],
+          [7.7, 10],
+          [10.2, 2.5],
+          [12.6, 2.5],
+          [15, 5],
+          [20, 25],
+        ];
+        // An unmarked knot at 17.5 s keeps the long last segment from bending
+        // the curve back down near 13 s; the slope then rises steadily, as the
+        // velocity graph (Figure 2.8.20) requires.
+        g.series([...points.slice(0, 7), [17.5, 13.6], points[7]], {
+          color: POS,
+          smooth: true,
+        });
+        for (const [t, x] of points) g.svg.marker(...g.P(t, x), 'diamond', { color: POS, size: 6 });
+      },
       { width: 640, height: 420 }
     ),
 
@@ -1827,7 +1833,7 @@ export default {
             [16, 0.5],
             [20, -0.1],
           ],
-          { color: ACC, marker: 'diamond', smooth: true }
+          { color: ACC, marker: 'diamond', smooth: true, horizontalTangents: [1, 3] } // extrema at 5 s and 8.75 s
         ),
       { width: 680, height: 460 }
     ),

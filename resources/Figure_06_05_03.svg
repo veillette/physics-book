@@ -36,11 +36,11 @@
 </g>
 <circle cx="585" cy="245" r="3" fill="#222222"/>
 <g id="zoom-radius">
-<line x1="585" y1="245" x2="585" y2="337" stroke="#b03a2e" stroke-width="2"/>
-<polygon points="585,345 581.4,336 588.6,336" fill="#b03a2e"/>
+<line x1="585" y1="368" x2="585" y2="255" stroke="#b03a2e" stroke-width="2"/>
+<polygon points="585,247 588.6,256 581.4,256" fill="#b03a2e"/>
 </g>
 <path d="M 578 298 l 5 -4 l 5 8 l 5 -4 M 578 305 l 5 -4 l 5 8 l 5 -4" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
 <text x="612" y="290.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">e</tspan></tspan><tspan dy="-6.72">​</tspan></text>
-<text x="585" y="404.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Toward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Earth</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">center</tspan></text>
+<text x="585" y="404.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">From</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Earth</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">center</tspan></text>
 <text x="395" y="458.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Object</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">near</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surface</tspan><tspan font-style="normal">: </tspan><tspan font-style="italic">r</tspan><tspan font-style="normal"> ≈ </tspan><tspan font-style="italic">r</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">e</tspan></tspan><tspan dy="-6.72">​</tspan></text>
 </svg>

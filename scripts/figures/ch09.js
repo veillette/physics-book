@@ -117,7 +117,7 @@ const onCircle = (c, r, deg) => [c[0] + r * Math.cos(rad(deg)), c[1] - r * Math.
 function machineForce(svg, name, from, to, labelAt, { color = BLACK, dash } = {}) {
   svg.add(`<g data-force="${name}">`);
   svg.arrow(...from, ...to, { color, width: 4, head: 14, dash });
-  svg.text(...labelAt, name === 'w' ? 'w' : name === 'N' ? '**N**' : `**F**_{${name}}`, {
+  svg.text(...labelAt, name === 'w' ? '**w**' : name === 'N' ? '**N**' : `**F**_{${name}}`, {
     size: 25,
   });
   svg.add('</g>');
@@ -230,7 +230,7 @@ export default {
       width: 1080,
       height: 900,
       title: 'Wheelbarrow and shovel as levers',
-      desc: '(a) The wheelbarrow load at CG lies between the handles and the wheel axle. F_i and ground reaction N point up; weight w points down. R_i is longer than R_o, giving MA greater than one. (b) Two hands hold a shovel: the right hand at the handle end is the pivot and pushes down, while the hand nearer the blade supplies upward F_i. The load weight points down beyond the input, with R_i shorter than R_o and MA less than one. Separate free-body diagrams show the same force directions. F_o is the upward force supporting each load and equals w in magnitude.',
+      desc: '(a) The wheelbarrow load at CG lies between the handles and the wheel axle. F_i and ground reaction N point up; weight w points down. l_i is longer than l_o, giving MA greater than one. (b) Two hands hold a shovel: the right hand at the handle end is the pivot and pushes down, while the hand nearer the blade supplies upward F_i. The load weight points down beyond the input, with l_i shorter than l_o and MA less than one. Separate free-body diagrams show the same force directions. F_o is the upward force supporting each load and equals w in magnitude.',
     });
     const guide = { color: '#888888', width: 1.2, dash: '5 4' };
     const wheel = [560, 320];
@@ -278,8 +278,8 @@ export default {
     svg.line(handle[0], 260, handle[0], 414, guide);
     svg.line(wheel[0], 370, wheel[0], 465, guide);
     svg.line(cg[0], 220, cg[0], 465, guide);
-    machineArm(svg, handle[0], wheel[0], 405, 'R_i');
-    machineArm(svg, cg[0], wheel[0], 455, 'R_o');
+    machineArm(svg, handle[0], wheel[0], 405, 'l_i');
+    machineArm(svg, cg[0], wheel[0], 455, 'l_o');
     svg.add('</g>');
     machineFbd(svg, 850, 225, [
       ['i', -18, fi * 0.8],
@@ -346,8 +346,8 @@ export default {
     svg.text(102, 589, 'Pivot', { size: 18, math: false });
     svg.leader(122, 600, 111, 674);
     for (const [x, y] of [pivot, input, loadPoint]) svg.line(x, y + 80, x, 848, guide);
-    machineArm(svg, pivot[0], input[0], 787, 'R_i');
-    machineArm(svg, pivot[0], loadPoint[0], 840, 'R_o');
+    machineArm(svg, pivot[0], input[0], 787, 'l_i');
+    machineArm(svg, pivot[0], loadPoint[0], 840, 'l_o');
     svg.add('</g>');
     machineFbd(svg, 850, 710, [
       ['i', 0, shovelFi],
@@ -364,7 +364,7 @@ export default {
       width: 1080,
       height: 560,
       title: 'Crank, car axle, and pulley as simple machines',
-      desc: '(a) A crank with a long input radius R_i and a short but nonzero output shaft radius R_o. Both delivered forces are tangential and drive clockwise rotation; F_o is the force on the driven shaft. (b) A small axle drives a larger wheel: F_i is tangential at the top of the axle and F_o is the leftward force delivered to the road at the bottom of the wheel. Both radii are perpendicular to their forces. (c) A single fixed pulley carries one continuous rope over its upper rim, with the input pulled down on the left and a connected load supported on the right. Equal lever arms give F_i = F_o = T and MA = 1.',
+      desc: '(a) A crank with a long input radius r_i and a short but nonzero output shaft radius r_o. Both delivered forces are tangential and drive clockwise rotation; F_o is the force on the driven shaft. (b) A small axle drives a larger wheel: F_i is tangential at the top of the axle and F_o is the leftward force delivered to the road at the bottom of the wheel. Both radii are perpendicular to their forces. (c) A single fixed pulley carries one continuous rope over its upper rim, with the input pulled down on the left and a connected load supported on the right. Equal lever arms give F_i = F_o = T and MA = 1.',
     });
     const guide = { color: '#888888', width: 1.2, dash: '5 4' };
     const center = [170, 260];
@@ -387,13 +387,13 @@ export default {
     machineForce(svg, 'o', [170, 235], [170 + (36 * ri) / ro, 235], [292, 210]);
     svg.line(50, 150, 157, 150, guide);
     svg.line(50, 260, 235, 260, guide);
-    svg.add('<g data-arm="R_i">');
+    svg.add('<g data-arm="r_i">');
     svg.vdimension(55, 150, 260, '');
-    svg.text(29, 205, 'R_i', { size: 23 });
+    svg.text(29, 205, 'r_i', { size: 23 });
     svg.add('</g>');
-    svg.add('<g data-arm="R_o">');
+    svg.add('<g data-arm="r_o">');
     svg.vdimension(225, 235, 260, '', { tick: 16 });
-    svg.text(254, 255, 'R_o', { size: 23 });
+    svg.text(254, 255, 'r_o', { size: 23 });
     svg.add('</g>');
     svg.text(170, 398, 'Pivot', { size: 18, math: false });
     svg.leader(170, 382, 170, 270);
@@ -431,13 +431,13 @@ export default {
       [493, 343]
     );
     for (const y of [260 - axleR, 260, 260 + wheelR]) svg.line(545, y, 672, y, guide);
-    svg.add('<g data-arm="R_i">');
+    svg.add('<g data-arm="r_i">');
     svg.vdimension(663, 260 - axleR, 260, '', { tick: 16 });
-    svg.text(692, 245, 'R_i', { size: 23 });
+    svg.text(692, 245, 'r_i', { size: 23 });
     svg.add('</g>');
-    svg.add('<g data-arm="R_o">');
+    svg.add('<g data-arm="r_o">');
     svg.vdimension(663, 260, 260 + wheelR, '', { tick: 16 });
-    svg.text(692, 314, 'R_o', { size: 23 });
+    svg.text(692, 314, 'r_o', { size: 23 });
     svg.add('</g>');
     svg.lines(540, 450, ['F_o acts on the road', '(reaction on wheel not shown)'], {
       size: 17,
@@ -459,8 +459,8 @@ export default {
     svg.rect(932, 420, 44, 55, { fill: '#bfc1c5', stroke: STEEL_EDGE, width: 1.5 });
     machineForce(svg, 'i', [846, 330], [846, 390], [815, 360], { color: FORCE });
     machineForce(svg, 'o', [954, 420], [954, 360], [990, 390]);
-    machineArm(svg, p[0] - wrap, p[0], p[1], 'R_i');
-    machineArm(svg, p[0], p[0] + wrap, p[1], 'R_o');
+    machineArm(svg, p[0] - wrap, p[0], p[1], 'r_i');
+    machineArm(svg, p[0], p[0] + wrap, p[1], 'r_o');
     svg.text(900, 520, 'F_i = F_o = T', { size: 25 });
     svg.add('</g>');
     return svg.render();

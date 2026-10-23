@@ -423,18 +423,20 @@ export default {
       width: 950,
       height: 470,
       title: 'Skier on slope with force components',
-      desc: 'A skier descends left down a 25° slope. Weight w points vertically down, normal force N points outward, and friction f points uphill. Dashed weight components w perpendicular and w parallel sum to w. The x axis points downhill and the y axis outward. The free-body diagram repeats the same three forces at the same scale.',
+      desc: 'A skier descends left down a 25° slope. Weight w points vertically down, normal force N points outward, and friction f points uphill. Dashed weight components w perpendicular and w parallel sum to w. The x axis points downhill and the y axis outward. The free-body diagram repeats the same three forces; N and w share one scale, and the 45 N friction is enlarged so it stays visible.',
     });
     const angle = 25;
     const theta = rad(angle);
     const origin = [355, 396 - (355 - 30) * Math.tan(theta)];
     const downhill = [-Math.cos(theta), Math.sin(theta)];
     const outward = [-Math.sin(theta), -Math.cos(theta)];
-    // All forces use one scale, including the example's 45 N friction and 62 kg mass.
+    // N and w share one scale. The example's 45 N friction would be a 13 px stub
+    // at that scale (w = 608 N), so it is drawn enlarged, as in the original art.
     const weight = 170;
     const w = [0, weight];
     const N = outward.map(v => v * weight * Math.cos(theta));
-    const friction = downhill.map(v => (-v * weight * 45) / (62 * 9.8));
+    const friction = downhill.map(v => -v * 48);
+    const uphill = downhill.map(v => -v);
     const wPerp = N.map(v => -v);
     const wPar = downhill.map(v => v * weight * Math.sin(theta));
 
@@ -508,30 +510,32 @@ export default {
     );
     svg.line(sx - 41, sy - 104, sx - 25, sy - 100, { color: BLACK, width: 4 });
 
-    const forces = at => {
-      for (const v of [N, friction, w]) {
-        svg.arrow(...at, ...add(at, v), {
-          color: FORCE,
-          width: 3,
-          head: Math.min(12, Math.hypot(...v) * 0.45),
-        });
+    // fFrom: where friction starts. In the scene it sits just above the skis,
+    // ahead of the skier, so the body does not hide it.
+    const forces = (at, fFrom = at) => {
+      for (const [from, v] of [
+        [at, N],
+        [fFrom, friction],
+        [at, w],
+      ]) {
+        svg.arrow(...from, ...add(from, v), { color: FORCE, width: 3, head: 12 });
       }
       svg.circle(...at, 4, { fill: BLACK });
       svg.text(...add(at, add(N, [-10, -16])), '**N**', { size: 22, color: FORCE });
       svg.text(...add(at, [-18, weight - 10]), '**w**', { size: 22, color: FORCE });
-      // The short friction vector is to scale; its callout ends at its shaft.
-      svg.text(...add(at, [52, -33]), '**f**', { size: 22, color: FORCE });
-      svg.leader(
-        ...add(at, [43, -21]),
-        ...add(
-          at,
-          friction.map(v => v * 0.65)
-        ),
-        { arrow: false, bend: -0.1, width: 1 }
-      );
+      svg.text(...add(fFrom, add(friction, [12, -14])), '**f**', { size: 22, color: FORCE });
     };
     svg.add('<g id="skier-forces">');
-    forces(origin);
+    forces(
+      origin,
+      add(
+        origin,
+        add(
+          uphill.map(v => v * 92),
+          outward.map(v => v * 14)
+        )
+      )
+    );
     svg.add('</g>');
     svg.add('<g id="weight-components">');
     for (const v of [wPerp, wPar]) {
@@ -556,6 +560,10 @@ export default {
     svg.add('<g id="skier-free-body">');
     forces([745, origin[1]]);
     svg.add('</g>');
+    svg.text(745, 452, 'f enlarged for visibility (45 N vs. w = 608 N)', {
+      size: 14,
+      math: false,
+    });
     return svg.render();
   },
 
@@ -2308,15 +2316,16 @@ export default {
       svg.rect(581, 230, 8, 15, { fill: '#5c342a', stroke: BLACK, width: 0.7 });
     });
     svg.circle(zx, 245, 3, { fill: BLACK });
+    // Like the main view, r_e points from Earth's center out to the object.
     group6(svg, 'zoom-radius', () =>
-      svg.arrow(zx, 245, zx, 345, { color: FORCE, width: 2, head: 9 })
+      svg.arrow(zx, 368, zx, 247, { color: FORCE, width: 2, head: 9 })
     );
     svg.path('M 578 298 l 5 -4 l 5 8 l 5 -4 M 578 305 l 5 -4 l 5 8 l 5 -4', {
       color: BLACK,
       width: 1.5,
     });
     svg.text(612, 282, 'r_e', { size: 24 });
-    svg.text(zx, 398, 'Toward Earth’s center', { size: 19, math: false });
+    svg.text(zx, 398, 'From Earth’s center', { size: 19, math: false });
     svg.text(395, 450, 'Object near the surface: r ≈ r_e', { size: 24 });
     return svg.render();
   },
@@ -2516,9 +2525,14 @@ export default {
         fill: '#a65e55',
       });
     svg.text(290, 680, 'Stars', { size: 19, math: false });
-    svg.arc(px, py, 281, 70, 113, { color: BLACK, width: 1.5 });
-    const end = [px + 281 * Math.cos(rad(113)), py - 281 * Math.sin(rad(113))];
-    svg.arrow(end[0] + 17, end[1] - 7, ...end, { color: BLACK, width: 1.5, head: 9 });
+    // The heavens turn clockwise (westward) as seen from above the north pole.
+    svg.arc(px, py, 281, 67, 110, { color: BLACK, width: 1.5 });
+    const end = [px + 281 * Math.cos(rad(67)), py - 281 * Math.sin(rad(67))];
+    svg.arrow(end[0] - 17 * Math.sin(rad(67)), end[1] - 17 * Math.cos(rad(67)), ...end, {
+      color: BLACK,
+      width: 1.5,
+      head: 9,
+    });
     svg.text(290, 78, 'Primary motion', { size: 17, math: false });
     const cx = 870,
       cy = 375;

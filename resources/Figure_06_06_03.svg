@@ -89,9 +89,9 @@
 <circle cx="473.34" cy="578.62" r="2.7" fill="#a65e55"/>
 <circle cx="540.31" cy="486.45" r="2.7" fill="#a65e55"/>
 <text x="290" y="686.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Stars</tspan></text>
-<path d="M 386.11 110.95 A 281 281 0 0 0 180.2 116.34" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
-<line x1="197.2" y1="109.34" x2="187.6" y2="113.29" stroke="#222222" stroke-width="1.5"/>
-<polygon points="180.2,116.34 187.16,109.58 189.9,116.24" fill="#222222"/>
+<path d="M 399.8 116.34 A 281 281 0 0 0 193.89 110.95" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="384.15" y1="109.7" x2="392.43" y2="113.21" stroke="#222222" stroke-width="1.5"/>
+<polygon points="399.8,116.34 390.1,116.14 392.92,109.51" fill="#222222"/>
 <text x="290" y="83.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Primary</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan></text>
 <circle cx="870" cy="375" r="20" fill="#f3cb3d" stroke="#b5972c" stroke-width="2"/>
 <text x="870" y="414.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Sun</tspan></text>
