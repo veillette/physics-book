@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="380" viewBox="0 0 560 380" role="img" aria-labelledby="title desc">
+<title id="title">A simple AC circuit</title>
+<desc id="desc">An AC voltage source V connected across a single resistance R, with no safety features.</desc>
+<rect width="560" height="380" fill="#ffffff"/>
+<polyline points="100,40 460,40 460,340 100,340 100,40" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="100" y1="162" x2="100" y2="218" stroke="#ffffff" stroke-width="8"/>
+<line x1="100" y1="160" x2="100" y2="162" stroke="#222222" stroke-width="2"/>
+<line x1="100" y1="218" x2="100" y2="220" stroke="#222222" stroke-width="2"/>
+<circle cx="100" cy="190" r="28" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<polyline points="83.2,190 84.6,187.46 86,185.1 87.4,183.07 88.8,181.51 90.2,180.53 91.6,180.2 93,180.53 94.4,181.51 95.8,183.07 97.2,185.1 98.6,187.46 100,190 101.4,192.54 102.8,194.9 104.2,196.93 105.6,198.49 107,199.47 108.4,199.8 109.8,199.47 111.2,198.49 112.6,196.93 114,194.9 115.4,192.54 116.8,190" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="60" y="201.2" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<line x1="460" y1="145" x2="460" y2="235" stroke="#ffffff" stroke-width="8"/>
+<line x1="460" y1="145" x2="460" y2="145" stroke="#222222" stroke-width="2"/>
+<line x1="460" y1="235" x2="460" y2="235" stroke="#222222" stroke-width="2"/>
+<polyline points="460,145 444,152.5 476,167.5 444,182.5 476,197.5 444,212.5 476,227.5 460,235" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="484" y="201.2" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+</svg>

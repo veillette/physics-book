@@ -2,8 +2,8 @@
 <title id="title">Charges in a volume Ax of wire</title>
 <desc id="desc">Charges q drift to the right with drift velocity v_d through a wire of cross-sectional area A. All the charges in the shaded volume Ax, between the cross section at the left and the dashed cross section a distance x = v_d t to its right, pass through the right-hand cross section in time t.</desc>
 <rect width="660" height="340" fill="#ffffff"/>
-<defs><linearGradient id="cyl20_5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
-<path d="M 30 85 L 640 85 A 40.25 115 0 0 1 640 315 L 30 315 Z" fill="url(#cyl20_5)" stroke="#9a94a3" stroke-width="1.5"/>
+<defs><linearGradient id="cyl20_30_640_200_115" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 30 85 L 640 85 A 40.25 115 0 0 1 640 315 L 30 315 Z" fill="url(#cyl20_30_640_200_115)" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="30" cy="200" rx="40.25" ry="115" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
 <rect x="160" y="85" width="250" height="230" fill="#c9cbe6" fill-opacity="0.45"/>
 <ellipse cx="160" cy="200" rx="40.25" ry="115" fill="#ffffff" fill-opacity="0.35" stroke="#9a94a3" stroke-width="1.5"/>

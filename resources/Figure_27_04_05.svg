@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="780" viewBox="0 0 560 780" role="img" aria-labelledby="title desc">
+<title id="title">First-order spectrum on a screen</title>
+<desc id="desc">White light leaves a grating with 10 000 lines per centimeter and falls on a screen 2.00 m away. In first order, violet light leaves at angle θV and red light at the larger angle θR, reaching distances yV and yR from the center of the screen; the rainbow between them appears above and below the center. The angles and distances are the quantities to find.</desc>
+<rect width="560" height="780" fill="#ffffff"/>
+<line x1="80" y1="300" x2="80" y2="500" stroke="#222222" stroke-width="6"/>
+<line x1="320" y1="40" x2="320" y2="760" stroke="#222222" stroke-width="2"/>
+<line x1="80" y1="400" x2="350" y2="400" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="80" y1="400" x2="320" y2="301.4" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="214.75" y1="344.64" x2="221.6" y2="341.83" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="229.55,338.56 222.13,345.76 219.21,338.66" fill="#1fa8d8"/>
+<line x1="80" y1="400" x2="320" y2="119.35" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="217.5" y1="239.21" x2="222.31" y2="233.59" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="227.9,227.05 224.58,236.84 218.74,231.85" fill="#1fa8d8"/>
+<rect x="320" y="298.35" width="26" height="3.65" fill="rgb(159,0,171)"/>
+<rect x="320" y="295.26" width="26" height="3.7" fill="rgb(156,0,196)"/>
+<rect x="320" y="292.12" width="26" height="3.74" fill="rgb(143,0,220)"/>
+<rect x="320" y="288.93" width="26" height="3.79" fill="rgb(121,0,243)"/>
+<rect x="320" y="285.69" width="26" height="3.84" fill="rgb(84,0,255)"/>
+<rect x="320" y="282.41" width="26" height="3.89" fill="rgb(35,0,255)"/>
+<rect x="320" y="279.06" width="26" height="3.94" fill="rgb(0,40,255)"/>
+<rect x="320" y="275.66" width="26" height="4" fill="rgb(0,97,255)"/>
+<rect x="320" y="272.21" width="26" height="4.06" fill="rgb(0,146,255)"/>
+<rect x="320" y="268.68" width="26" height="4.12" fill="rgb(0,192,255)"/>
+<rect x="320" y="265.09" width="26" height="4.19" fill="rgb(0,234,255)"/>
+<rect x="320" y="261.44" width="26" height="4.26" fill="rgb(0,255,203)"/>
+<rect x="320" y="257.7" width="26" height="4.33" fill="rgb(0,255,84)"/>
+<rect x="320" y="253.89" width="26" height="4.41" fill="rgb(31,255,0)"/>
+<rect x="320" y="250" width="26" height="4.49" fill="rgb(74,255,0)"/>
+<rect x="320" y="246.02" width="26" height="4.58" fill="rgb(112,255,0)"/>
+<rect x="320" y="241.95" width="26" height="4.67" fill="rgb(146,255,0)"/>
+<rect x="320" y="237.78" width="26" height="4.77" fill="rgb(179,255,0)"/>
+<rect x="320" y="233.5" width="26" height="4.87" fill="rgb(210,255,0)"/>
+<rect x="320" y="229.12" width="26" height="4.98" fill="rgb(240,255,0)"/>
+<rect x="320" y="224.62" width="26" height="5.1" fill="rgb(255,239,0)"/>
+<rect x="320" y="220" width="26" height="5.22" fill="rgb(255,207,0)"/>
+<rect x="320" y="215.25" width="26" height="5.35" fill="rgb(255,173,0)"/>
+<rect x="320" y="210.35" width="26" height="5.5" fill="rgb(255,137,0)"/>
+<rect x="320" y="205.3" width="26" height="5.65" fill="rgb(255,99,0)"/>
+<rect x="320" y="200.1" width="26" height="5.81" fill="rgb(255,57,0)"/>
+<rect x="320" y="194.72" width="26" height="5.98" fill="rgb(255,0,0)"/>
+<rect x="320" y="189.16" width="26" height="6.16" fill="rgb(255,0,0)"/>
+<rect x="320" y="183.39" width="26" height="6.36" fill="rgb(255,0,0)"/>
+<rect x="320" y="177.42" width="26" height="6.58" fill="rgb(255,0,0)"/>
+<rect x="320" y="171.21" width="26" height="6.81" fill="rgb(255,0,0)"/>
+<rect x="320" y="164.75" width="26" height="7.06" fill="rgb(255,0,0)"/>
+<rect x="320" y="158.02" width="26" height="7.33" fill="rgb(249,0,0)"/>
+<rect x="320" y="151" width="26" height="7.62" fill="rgb(238,0,0)"/>
+<rect x="320" y="143.65" width="26" height="7.95" fill="rgb(226,0,0)"/>
+<rect x="320" y="135.95" width="26" height="8.3" fill="rgb(214,0,0)"/>
+<rect x="320" y="127.87" width="26" height="8.69" fill="rgb(202,0,0)"/>
+<rect x="320" y="119.35" width="26" height="9.11" fill="rgb(190,0,0)"/>
+<line x1="80" y1="400" x2="320" y2="498.6" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="214.75" y1="455.36" x2="221.6" y2="458.17" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="229.55,461.44 219.21,461.34 222.13,454.24" fill="#1fa8d8"/>
+<line x1="80" y1="400" x2="320" y2="680.65" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="217.5" y1="560.79" x2="222.31" y2="566.41" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="227.9,572.95 218.74,568.15 224.58,563.16" fill="#1fa8d8"/>
+<rect x="320" y="498.6" width="26" height="3.65" fill="rgb(159,0,171)"/>
+<rect x="320" y="501.65" width="26" height="3.7" fill="rgb(156,0,196)"/>
+<rect x="320" y="504.74" width="26" height="3.74" fill="rgb(143,0,220)"/>
+<rect x="320" y="507.88" width="26" height="3.79" fill="rgb(121,0,243)"/>
+<rect x="320" y="511.07" width="26" height="3.84" fill="rgb(84,0,255)"/>
+<rect x="320" y="514.31" width="26" height="3.89" fill="rgb(35,0,255)"/>
+<rect x="320" y="517.59" width="26" height="3.94" fill="rgb(0,40,255)"/>
+<rect x="320" y="520.94" width="26" height="4" fill="rgb(0,97,255)"/>
+<rect x="320" y="524.34" width="26" height="4.06" fill="rgb(0,146,255)"/>
+<rect x="320" y="527.79" width="26" height="4.12" fill="rgb(0,192,255)"/>
+<rect x="320" y="531.32" width="26" height="4.19" fill="rgb(0,234,255)"/>
+<rect x="320" y="534.91" width="26" height="4.26" fill="rgb(0,255,203)"/>
+<rect x="320" y="538.56" width="26" height="4.33" fill="rgb(0,255,84)"/>
+<rect x="320" y="542.3" width="26" height="4.41" fill="rgb(31,255,0)"/>
+<rect x="320" y="546.11" width="26" height="4.49" fill="rgb(74,255,0)"/>
+<rect x="320" y="550" width="26" height="4.58" fill="rgb(112,255,0)"/>
+<rect x="320" y="553.98" width="26" height="4.67" fill="rgb(146,255,0)"/>
+<rect x="320" y="558.05" width="26" height="4.77" fill="rgb(179,255,0)"/>
+<rect x="320" y="562.22" width="26" height="4.87" fill="rgb(210,255,0)"/>
+<rect x="320" y="566.5" width="26" height="4.98" fill="rgb(240,255,0)"/>
+<rect x="320" y="570.88" width="26" height="5.1" fill="rgb(255,239,0)"/>
+<rect x="320" y="575.38" width="26" height="5.22" fill="rgb(255,207,0)"/>
+<rect x="320" y="580" width="26" height="5.35" fill="rgb(255,173,0)"/>
+<rect x="320" y="584.75" width="26" height="5.5" fill="rgb(255,137,0)"/>
+<rect x="320" y="589.65" width="26" height="5.65" fill="rgb(255,99,0)"/>
+<rect x="320" y="594.7" width="26" height="5.81" fill="rgb(255,57,0)"/>
+<rect x="320" y="599.9" width="26" height="5.98" fill="rgb(255,0,0)"/>
+<rect x="320" y="605.28" width="26" height="6.16" fill="rgb(255,0,0)"/>
+<rect x="320" y="610.84" width="26" height="6.36" fill="rgb(255,0,0)"/>
+<rect x="320" y="616.61" width="26" height="6.58" fill="rgb(255,0,0)"/>
+<rect x="320" y="622.58" width="26" height="6.81" fill="rgb(255,0,0)"/>
+<rect x="320" y="628.79" width="26" height="7.06" fill="rgb(255,0,0)"/>
+<rect x="320" y="635.25" width="26" height="7.33" fill="rgb(249,0,0)"/>
+<rect x="320" y="641.98" width="26" height="7.62" fill="rgb(238,0,0)"/>
+<rect x="320" y="649" width="26" height="7.95" fill="rgb(226,0,0)"/>
+<rect x="320" y="656.35" width="26" height="8.3" fill="rgb(214,0,0)"/>
+<rect x="320" y="664.05" width="26" height="8.69" fill="rgb(202,0,0)"/>
+<rect x="320" y="672.13" width="26" height="9.11" fill="rgb(190,0,0)"/>
+<path d="M 200 400 A 120 120 0 0 0 157.99 308.8" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 160 400 A 80 80 0 0 0 154 369.6" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="204" y="295.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">R</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<text x="216" y="391.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">V</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="80" y1="500" x2="80" y2="720" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="91" y1="710" x2="309" y2="710" stroke="#222222" stroke-width="1.4"/>
+<polygon points="318,710 308,714 308,706" fill="#222222"/>
+<polygon points="82,710 92,706 92,714" fill="#222222"/>
+<text x="200" y="741.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-style="normal"> = 2.00 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="390" y1="389" x2="390" y2="312.4" stroke="#222222" stroke-width="1.4"/>
+<polygon points="390,303.4 394,313.4 386,313.4" fill="#222222"/>
+<polygon points="390,398 386,388 394,388" fill="#222222"/>
+<line x1="378" y1="301.4" x2="402" y2="301.4" stroke="#222222" stroke-width="1.3"/>
+<line x1="378" y1="400" x2="402" y2="400" stroke="#222222" stroke-width="1.3"/>
+<text x="378" y="358.4" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">V</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="460" y1="389" x2="460" y2="130.35" stroke="#222222" stroke-width="1.4"/>
+<polygon points="460,121.35 464,131.35 456,131.35" fill="#222222"/>
+<polygon points="460,398 456,388 464,388" fill="#222222"/>
+<line x1="448" y1="119.35" x2="472" y2="119.35" stroke="#222222" stroke-width="1.3"/>
+<line x1="448" y1="400" x2="472" y2="400" stroke="#222222" stroke-width="1.3"/>
+<text x="448" y="267.38" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">R</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<text x="90" y="287.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Grating</tspan></text>
+<text x="332" y="771.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Screen</tspan></text>
+</svg>

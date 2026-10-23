@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="290" viewBox="0 0 640 290" role="img" aria-labelledby="title desc">
+<title id="title">Rutherford’s planetary model of the atom</title>
+<desc id="desc">Electrons e− circle a small, positive nucleus in orbits much larger than the nucleus, like planets around the Sun. Most of the atom is empty space.</desc>
+<rect width="640" height="290" fill="#ffffff"/>
+<ellipse cx="320" cy="140" rx="180" ry="72" fill="none" stroke="#222222" stroke-width="2"/>
+<ellipse cx="320" cy="140" rx="240" ry="104" fill="none" stroke="#222222" stroke-width="2"/>
+<ellipse cx="320" cy="140" rx="300" ry="134" fill="none" stroke="#222222" stroke-width="2"/>
+<defs><radialGradient id="ball30_330_140_7" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#9cc3e6"/><stop offset="1" stop-color="#2f5f8a"/></radialGradient></defs>
+<circle cx="330" cy="140" r="7" fill="url(#ball30_330_140_7)"/>
+<text x="310" y="150.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<line x1="386.47" y1="207.42" x2="415.31" y2="204.32" stroke="#222222" stroke-width="2"/>
+<polygon points="426.25,203.15 414.83,209.2 413.8,199.66" fill="#222222"/>
+<defs><radialGradient id="ball30_367_210_13" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="366.59" cy="209.55" r="13" fill="url(#ball30_367_210_13)"/>
+<text x="366.59" y="217.55" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8">​</tspan></text>
+<line x1="257.67" y1="39.16" x2="286.32" y2="34.64" stroke="#222222" stroke-width="2"/>
+<polygon points="297.18,32.92 286.08,39.54 284.58,30.05" fill="#222222"/>
+<defs><radialGradient id="ball30_238_42_13" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="237.92" cy="42.27" r="13" fill="url(#ball30_238_42_13)"/>
+<text x="237.92" y="50.27" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8">​</tspan></text>
+<line x1="442.35" y1="262.71" x2="470.97" y2="258.06" stroke="#222222" stroke-width="2"/>
+<polygon points="481.83,256.29 470.75,262.95 469.21,253.48" fill="#222222"/>
+<defs><radialGradient id="ball30_423_266_13" cx="0.38" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#c9b6e6"/><stop offset="1" stop-color="#7b5fae"/></radialGradient></defs>
+<circle cx="422.61" cy="265.92" r="13" fill="url(#ball30_423_266_13)"/>
+<text x="422.61" y="273.92" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14" dy="-8"><tspan font-style="normal">−</tspan></tspan><tspan dy="8">​</tspan></text>
+</svg>

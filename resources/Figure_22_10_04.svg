@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+<title id="title">A long straight wire near a rectangular current loop</title>
+<desc id="desc">A long straight wire at the top carries I1 = 15.0 A to the right. Below it, 7.50 cm away, is the top of a rectangular loop 30.0 cm wide and 10.0 cm tall carrying I2 = 30.0 A counterclockwise: right along the bottom, up the right side, left along the top and down the left side.</desc>
+<rect width="900" height="420" fill="#ffffff"/>
+<line x1="20" y1="70" x2="880" y2="70" stroke="#1f8fd1" stroke-width="2.5"/>
+<line x1="400" y1="70" x2="433" y2="70" stroke="#1f8fd1" stroke-width="2.5"/>
+<polygon points="450,70 432,77.2 432,62.8" fill="#1f8fd1"/>
+<text x="430" y="50.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 15.0 </tspan><tspan font-style="normal">A</tspan></text>
+<rect x="200" y="182.5" width="450" height="150" fill="none" stroke="#1f8fd1" stroke-width="2.5"/>
+<line x1="450" y1="182.5" x2="417" y2="182.5" stroke="#1f8fd1" stroke-width="2.5"/>
+<polygon points="400,182.5 418,175.3 418,189.7" fill="#1f8fd1"/>
+<line x1="400" y1="332.5" x2="433" y2="332.5" stroke="#1f8fd1" stroke-width="2.5"/>
+<polygon points="450,332.5 432,339.7 432,325.3" fill="#1f8fd1"/>
+<text x="425" y="314.9" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">A</tspan></text>
+<line x1="644" y1="80" x2="644" y2="172.5" stroke="#222222" stroke-width="1.4"/>
+<polygon points="644,181.5 640,171.5 648,171.5" fill="#222222"/>
+<polygon points="644,71 648,81 640,81" fill="#222222"/>
+<line x1="634" y1="70" x2="654" y2="70" stroke="#222222" stroke-width="1.4"/>
+<line x1="634" y1="182.5" x2="654" y2="182.5" stroke="#222222" stroke-width="1.4"/>
+<text x="662" y="133.95" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">7.50 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="170" y1="192.5" x2="170" y2="322.5" stroke="#222222" stroke-width="1.4"/>
+<polygon points="170,331.5 166,321.5 174,321.5" fill="#222222"/>
+<polygon points="170,183.5 174,193.5 166,193.5" fill="#222222"/>
+<line x1="160" y1="182.5" x2="180" y2="182.5" stroke="#222222" stroke-width="1.4"/>
+<line x1="160" y1="332.5" x2="180" y2="332.5" stroke="#222222" stroke-width="1.4"/>
+<text x="156" y="265.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10.0 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="377" y1="372.5" x2="210" y2="372.5" stroke="#222222" stroke-width="1.4"/>
+<polygon points="201,372.5 211,368.5 211,376.5" fill="#222222"/>
+<line x1="473" y1="372.5" x2="640" y2="372.5" stroke="#222222" stroke-width="1.4"/>
+<polygon points="649,372.5 639,376.5 639,368.5" fill="#222222"/>
+<line x1="200" y1="362.5" x2="200" y2="382.5" stroke="#222222" stroke-width="1.4"/>
+<line x1="650" y1="362.5" x2="650" y2="382.5" stroke="#222222" stroke-width="1.4"/>
+<text x="425" y="380.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">30.0 </tspan><tspan font-style="normal">cm</tspan></text>
+</svg>

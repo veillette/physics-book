@@ -2,8 +2,8 @@
 <title id="title">The path of a free electron in a conductor</title>
 <desc id="desc">A free electron e⁻ in a wire moves along a random zigzag path, changing direction at each collision with other electrons and atoms. Its average velocity, the drift velocity v_d, is to the right, opposite the electric field E, which points left. The conventional current I is in the direction of E.</desc>
 <rect width="680" height="380" fill="#ffffff"/>
-<defs><linearGradient id="cyl20_4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
-<path d="M 40 60 L 640 60 A 38.5 110 0 0 1 640 280 L 40 280 Z" fill="url(#cyl20_4)" stroke="#9a94a3" stroke-width="1.5"/>
+<defs><linearGradient id="cyl20_40_640_170_110" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
+<path d="M 40 60 L 640 60 A 38.5 110 0 0 1 640 280 L 40 280 Z" fill="url(#cyl20_40_640_170_110)" stroke="#9a94a3" stroke-width="1.5"/>
 <ellipse cx="40" cy="170" rx="38.5" ry="110" fill="#d9d6de" stroke="#9a94a3" stroke-width="1.5"/>
 <line x1="95" y1="210" x2="155.1" y2="117.55" stroke="#222222" stroke-width="1.6"/>
 <polygon points="160,110 157.9,120.56 151.2,116.2" fill="#222222"/>

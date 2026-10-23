@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="580" viewBox="0 0 640 580" role="img" aria-labelledby="title desc">
+<title id="title">Fine structure</title>
+<desc id="desc">Two spectral lines that look single at ordinary resolution are each revealed, under magnification, to be a close pair of lines: a doublet. The splitting comes from the interaction of the electron’s intrinsic magnetic field with its orbital magnetic field.</desc>
+<rect width="640" height="580" fill="#ffffff"/>
+<line x1="40" y1="30" x2="600" y2="30" stroke="#222222" stroke-width="2"/>
+<line x1="40" y1="170" x2="600" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="185" y1="30" x2="185" y2="170" stroke="#d81b60" stroke-width="3.5"/>
+<line x1="405" y1="30" x2="405" y2="170" stroke="#d81b60" stroke-width="3.5"/>
+<path d="M 195 176 Q 125 200 135 330" fill="none" stroke="#555555" stroke-width="10" stroke-linejoin="round"/>
+<line x1="131" y1="310" x2="132.68" y2="331" stroke="#555555" stroke-width="10"/>
+<polygon points="135,360 120.6,330.96 144.6,329.04" fill="#555555"/>
+<clipPath id="mag30_135"><circle cx="135" cy="460" r="100"/></clipPath>
+<circle cx="135" cy="460" r="100" fill="#ffffff" stroke="#222222" stroke-width="2.5"/>
+<g clip-path="url(#mag30_135)"><line x1="25" y1="400" x2="245" y2="400" stroke="#222222" stroke-width="2"/><line x1="25" y1="520" x2="245" y2="520" stroke="#222222" stroke-width="2"/><line x1="119" y1="400" x2="119" y2="520" stroke="#d81b60" stroke-width="3"/><line x1="131" y1="400" x2="131" y2="520" stroke="#d81b60" stroke-width="3"/></g>
+<path d="M 395 176 Q 495 200 485 330" fill="none" stroke="#555555" stroke-width="10" stroke-linejoin="round"/>
+<line x1="489" y1="310" x2="487.32" y2="331" stroke="#555555" stroke-width="10"/>
+<polygon points="485,360 475.4,329.04 499.4,330.96" fill="#555555"/>
+<clipPath id="mag30_485"><circle cx="485" cy="460" r="100"/></clipPath>
+<circle cx="485" cy="460" r="100" fill="#ffffff" stroke="#222222" stroke-width="2.5"/>
+<g clip-path="url(#mag30_485)"><line x1="375" y1="400" x2="595" y2="400" stroke="#222222" stroke-width="2"/><line x1="375" y1="520" x2="595" y2="520" stroke="#222222" stroke-width="2"/><line x1="469" y1="400" x2="469" y2="520" stroke="#d81b60" stroke-width="3"/><line x1="481" y1="400" x2="481" y2="520" stroke="#d81b60" stroke-width="3"/></g>
+</svg>

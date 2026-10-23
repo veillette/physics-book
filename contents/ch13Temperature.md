@@ -56,7 +56,7 @@ used to measure temperature include electrical resistance and color, as shown
 in [[Figure 2]](#Figure2), and the emission of infrared radiation, as shown
 in [[Figure 3]](#Figure3).
 
-![This figure has two parts, each of which shows a blue metallic strip attached lengthwise to a yellow metallic strip, thus forming a bimetallic strip. In part a, the bimetallic strip is straight and oriented vertically, and its temperature is given as T sub 0. In part b, the bimetallic strip is curving rightward away from the vertical, and its temperature is given as T, which is greater than T sub 0.](../resources/Figure_13_01_01.jpg 'The curvature of a bimetallic strip depends on temperature. (a) The strip is straight at the starting temperature, where its two components have the same length. (b) At a higher temperature, this strip bends to the right, because the metal on the left has expanded more than the metal on the right.')
+![This figure has two parts, each of which shows a blue metallic strip attached lengthwise to a yellow metallic strip, thus forming a bimetallic strip. In part a, the bimetallic strip is straight and oriented vertically, and its temperature is given as T sub 0. In part b, the bimetallic strip is curving rightward away from the vertical, and its temperature is given as T, which is greater than T sub 0.](../resources/Figure_13_01_01.svg 'The curvature of a bimetallic strip depends on temperature. (a) The strip is straight at the starting temperature, where its two components have the same length. (b) At a higher temperature, this strip bends to the right, because the metal on the left has expanded more than the metal on the right.')
 {: #Figure1}
 
 ![A flat plastic thermometer used to measure forehead temperature; the thermometer can measure between ninety-five and one-hundred four degrees Fahrenheit, or between thirty-five and forty degrees Celsius.](../resources/Figure_13_01_02.jpg 'Each of the six squares on this plastic (liquid crystal) thermometer contains a film of a different heat-sensitive liquid crystal material. Below ( 95 \\text{ºF} ), all six squares are black. When the plastic thermometer is exposed to temperature that increases to ( 95 \\text{ºF} ), the first liquid crystal square changes color. When the temperature increases above ( 96.8 \\text{ºF} ) the second liquid crystal square also changes color, and so forth. (credit: Arkrishna, Wikimedia Commons)')
@@ -96,7 +96,7 @@ because a number of physical quantities, such as the volume of an ideal gas, are
 directly related to absolute temperature. The kelvin is the SI unit used in
 scientific work.
 
-![Three temperature scales&#x2014;Fahrenheit, Celsius, and Kelvin&#x2014;are oriented horizontally, one below the other, and aligned to show how they relate to each other. Absolute zero is at negative four hundred fifty nine point six seven degrees F, negative two hundred seventy three point one five degrees C, and 0 K. Water freezes at thirty two degrees F, 0 degrees C, and two hundred seventy three point one five K. Water boils at two hundred twelve degrees F, one hundred degrees C, and three hundred seventy three point one five K. A temperature difference of 9 degrees F is the same as a temperature difference of 5 degrees C and 5 K.](../resources/Figure_13_01_04.jpg "Relationships between the Fahrenheit, Celsius, and Kelvin temperature scales, rounded to the nearest degree. The relative sizes of the scales are also shown.")
+![Three temperature scales&#x2014;Fahrenheit, Celsius, and Kelvin&#x2014;are oriented horizontally, one below the other, and aligned to show how they relate to each other. Absolute zero is at negative four hundred fifty nine point six seven degrees F, negative two hundred seventy three point one five degrees C, and 0 K. Water freezes at thirty two degrees F, 0 degrees C, and two hundred seventy three point one five K. Water boils at two hundred twelve degrees F, one hundred degrees C, and three hundred seventy three point one five K. A temperature difference of 9 degrees F is the same as a temperature difference of 5 degrees C and 5 K.](../resources/Figure_13_01_04.svg "Relationships between the Fahrenheit, Celsius, and Kelvin temperature scales, rounded to the nearest degree. The relative sizes of the scales are also shown.")
 {: #Figure4}
 
 The relationships between the three common temperature scales are shown
@@ -275,7 +275,7 @@ Earth’s surface is Vostok, Antarctica at 183 K $$\left(-89\text{ºC}\right) $$
 and the coldest place (outside the lab) known in the universe is the Boomerang
 Nebula, with a temperature of 1 K.
 
-![The figure is a single vertical axis showing a wide range of temperatures on a logarithmic scale, measured in kelvin. The temperature range goes from the lowest temperature achieved at ten to the power of negative ten kelvin up to the temperature in experiments at the Relativistic Heavy Ion Collider at ten to the power of positive twelve kelvin.](../resources/Figure_13_01_06.jpg "Each increment on this logarithmic scale indicates an increase by a factor of ten, and thus illustrates the tremendous range of temperatures in nature. Note that zero on a logarithmic scale would occur off the bottom of the page at infinity.")
+![The figure is a single vertical axis showing a wide range of temperatures on a logarithmic scale, measured in kelvin. The temperature range goes from the lowest temperature achieved at ten to the power of negative ten kelvin up to the temperature in experiments at the Relativistic Heavy Ion Collider at ten to the power of positive twelve kelvin.](../resources/Figure_13_01_06.svg "Each increment on this logarithmic scale indicates an increase by a factor of ten, and thus illustrates the tremendous range of temperatures in nature. Note that zero on a logarithmic scale would occur off the bottom of the page at infinity.")
 {: #Figure6}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -290,7 +290,7 @@ What is absolute zero? Absolute zero is the temperature at which all molecular m
 
 :::
 
-![Line graph of pressure versus temperature of five gases. Each graph is linear with a positive slope. Each line extrapolates to a pressure of zero at a temperature of negative two hundred seventy three point one five degrees Celsius.](../resources/Figure_13_01_07.jpg "Graph of pressure versus temperature for various gases kept at a constant volume. Note that all of the graphs extrapolate to zero pressure at the same temperature.")
+![Line graph of pressure versus temperature of four gases. Each graph is linear with a positive slope. Each line extrapolates to a pressure of zero at a temperature of negative two hundred seventy three point one five degrees Celsius.](../resources/Figure_13_01_07.svg "Graph of pressure versus temperature for various gases kept at a constant volume. Note that all of the graphs extrapolate to zero pressure at the same temperature.")
 {: #Figure7}
 
 #### Thermal Equilibrium and the Zeroth Law of Thermodynamics

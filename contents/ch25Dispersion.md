@@ -43,7 +43,7 @@ Dispersion is defined to be the spreading of white light into its full spectrum 
 
 :::
 
-![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.jpg 'Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.')
+![A continuous distribution of colors with their range of wavelength lambda in nanometers, starting with infrared at 800 nanometers. Following infrared is the visible region with red at 700 nanometers, orange, yellow at 600 nanometers, green, blue at 500 nanometers, and violet at 400 nanometers. The distribution ends with ultraviolet at 300 nanometers.](../resources/Figure_25_05_02.svg 'Even though rainbows are associated with seven colors, the rainbow is a continuous distribution of colors according to wavelengths.')
 {: #Figure2}
 
 Refraction is responsible for dispersion in rainbows and many other situations.
@@ -514,7 +514,7 @@ A narrow beam of white light enters a prism made of crown glass at a  $$ 45.0º 
  and  $${\theta }_{\text{V}} $$ ,
  do the red (660 nm) and violet (410 nm) components of the light emerge from the prism?
 
-![A blue incident light ray at an angle of incidence equal to 45 degrees falls on an equilateral triangular prism with angles each equal to 60 degrees. On falling onto the first surface, the ray refracts and splits into red and violet rays. These rays falling onto the second surface and emerge from the prism. Red with 660 nanometers and violet with 410 nanometers.](../resources/Figure_25_05_06.jpg 'This prism will disperse the white light into a rainbow of colors. The incident angle is 45.0º, and the angles at which the red and violet light emerge are ( \\theta_\\text{R} ) and ( \\theta_\\text{V} ) . ')
+![A blue incident light ray at an angle of incidence equal to 45 degrees falls on an equilateral triangular prism with angles each equal to 60 degrees. On falling onto the first surface, the ray refracts and splits into red and violet rays. These rays falling onto the second surface and emerge from the prism. Red with 660 nanometers and violet with 410 nanometers.](../resources/Figure_25_05_06.svg 'This prism will disperse the white light into a rainbow of colors. The incident angle is 45.0º, and the angles at which the red and violet light emerge are ( \\theta_\\text{R} ) and ( \\theta_\\text{V} ) . ')
 {: #Figure6}
 
 :::

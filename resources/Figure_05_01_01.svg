@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="430" viewBox="0 0 740 430" role="img" aria-labelledby="title desc">
+<title id="title">Friction between crate and surface</title>
+<desc id="desc">A crate moves or attempts to move right, while friction acts left at the contact surface. A magnified inset shows rough upper and lower surfaces touching at their peaks.</desc>
+<rect width="740" height="430" fill="#ffffff"/>
+<line x1="25" y1="350" x2="710" y2="350" stroke="#4a7c5a" stroke-width="6"/>
+<rect x="140" y="210" width="180" height="140" fill="#c89550" stroke="#222222" stroke-width="2.5"/>
+<line x1="150" y1="230" x2="310" y2="230" stroke="#8b6f3f" stroke-width="1.2"/>
+<line x1="150" y1="250" x2="310" y2="250" stroke="#8b6f3f" stroke-width="1.2"/>
+<line x1="150" y1="270" x2="310" y2="270" stroke="#8b6f3f" stroke-width="1.2"/>
+<line x1="150" y1="290" x2="310" y2="290" stroke="#8b6f3f" stroke-width="1.2"/>
+<line x1="150" y1="310" x2="310" y2="310" stroke="#8b6f3f" stroke-width="1.2"/>
+<line x1="150" y1="330" x2="310" y2="330" stroke="#8b6f3f" stroke-width="1.2"/>
+<line x1="160" y1="175" x2="307" y2="175" stroke="#222222" stroke-width="2.5"/>
+<polygon points="320,175 306,180.6 306,169.4" fill="#222222"/>
+<text x="240" y="135.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Direction</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan></text>
+<text x="240" y="156.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">or</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">attempted</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan></text>
+<line x1="170" y1="345" x2="78" y2="345" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="65,345 79,339.4 79,350.6" fill="#b03a2e"/>
+<text x="102" y="331.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#b03a2e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">f<tspan font-size="14.26" font-weight="normal" dx="-10.96" dy="-18.86">→</tspan><tspan dx="-3.3" dy="18.86">​</tspan></tspan></text>
+<circle cx="545" cy="140" r="100" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<circle cx="545" cy="140" r="104" fill="none" stroke="#222222" stroke-width="1.2"/>
+<polygon points="475,95 615,95 605,140 595,126.4 585,140 575,129.79 565,140 555,128.78 545,140 535,124.29 525,140 515,120.45 505,140 495,120.79 485,140 475,125" fill="#c89550" stroke="#222222" stroke-width="1.5"/>
+<polygon points="475,159 485,140 495,156.7 505,140 515,151.92 525,140 535,149.05 545,140 555,150.73 565,140 575,155.42 585,140 595,158.8 605,140 615,185 475,185" fill="#4a7c5a" stroke="#222222" stroke-width="1.5"/>
+<circle cx="316" cy="347" r="11" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="325" y1="340" x2="475" y2="215" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="545" y="24.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Magnified</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">contact</tspan></text>
+</svg>

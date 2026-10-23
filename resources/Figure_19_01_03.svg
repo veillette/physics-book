@@ -60,6 +60,6 @@
 <line x1="104" y1="390" x2="505" y2="390" stroke="#222222" stroke-width="2"/>
 <polygon points="520,390 504,396.4 504,383.6" fill="#222222"/>
 <text x="440" y="369.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">KE</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">qV</tspan></text>
-<text x="33" y="349.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="57" y="399.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
 <text x="313" y="479.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
 </svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="875" height="550" viewBox="0 0 875 550" role="img" aria-labelledby="title desc">
+<title id="title">A cosmic-ray air shower</title>
+<desc id="desc">An extremely energetic cosmic ray enters the Earth’s atmosphere and collides with a nucleus high above the ground, creating a spray of particles. Each of these creates further particles, so a shower spreading over a large area reaches the Earth’s surface.</desc>
+<rect width="875" height="550" fill="#ffffff"/>
+<defs><linearGradient id="sky33" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#cfe6f5"/><stop offset="0.75" stop-color="#f6dcd8"/></linearGradient><linearGradient id="sea33" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9dd0ee"/><stop offset="1" stop-color="#5aa8dc"/></linearGradient></defs>
+<rect x="0" y="0" width="875" height="550" fill="url(#sky33)"/>
+<circle cx="440" cy="2280" r="1900" fill="#96cc74"/>
+<circle cx="440" cy="2280" r="1878" fill="url(#sea33)"/>
+<ellipse cx="180" cy="470" rx="90" ry="30" fill="#a6d483" stroke="none" stroke-width="0"/>
+<ellipse cx="560" cy="455" rx="120" ry="40" fill="#a6d483" stroke="none" stroke-width="0"/>
+<ellipse cx="470" cy="520" rx="70" ry="25" fill="#a6d483" stroke="none" stroke-width="0"/>
+<ellipse cx="760" cy="500" rx="90" ry="45" fill="#a6d483" stroke="none" stroke-width="0"/>
+<line x1="570" y1="305" x2="517.29" y2="358.36" stroke="#222222" stroke-width="1.7"/>
+<line x1="517.29" y1="358.36" x2="505.67" y2="392.56" stroke="#222222" stroke-width="1.4"/>
+<line x1="505.67" y1="392.56" x2="505.81" y2="410.6" stroke="#222222" stroke-width="1.1"/>
+<line x1="505.67" y1="392.56" x2="498.4" y2="411.56" stroke="#222222" stroke-width="1.1"/>
+<line x1="505.67" y1="392.56" x2="493.21" y2="408.16" stroke="#222222" stroke-width="1.1"/>
+<line x1="517.29" y1="358.36" x2="486.5" y2="388.29" stroke="#222222" stroke-width="1.4"/>
+<line x1="486.5" y1="388.29" x2="472.81" y2="407.86" stroke="#222222" stroke-width="1.1"/>
+<line x1="486.5" y1="388.29" x2="469.96" y2="398.93" stroke="#222222" stroke-width="1.1"/>
+<line x1="517.29" y1="358.36" x2="480.57" y2="371.52" stroke="#222222" stroke-width="1.4"/>
+<line x1="480.57" y1="371.52" x2="465.88" y2="382.4" stroke="#222222" stroke-width="1.1"/>
+<line x1="480.57" y1="371.52" x2="458.94" y2="379.22" stroke="#222222" stroke-width="1.1"/>
+<line x1="480.57" y1="371.52" x2="459.25" y2="371" stroke="#222222" stroke-width="1.1"/>
+<line x1="570" y1="305" x2="524.77" y2="392.05" stroke="#222222" stroke-width="1.7"/>
+<line x1="524.77" y1="392.05" x2="518.81" y2="441.31" stroke="#222222" stroke-width="1.4"/>
+<line x1="518.81" y1="441.31" x2="518.78" y2="466.11" stroke="#222222" stroke-width="1.1"/>
+<line x1="518.81" y1="441.31" x2="513.01" y2="465.16" stroke="#222222" stroke-width="1.1"/>
+<line x1="524.77" y1="392.05" x2="502.88" y2="435.31" stroke="#222222" stroke-width="1.4"/>
+<line x1="502.88" y1="435.31" x2="499.17" y2="462.17" stroke="#222222" stroke-width="1.1"/>
+<line x1="502.88" y1="435.31" x2="491.73" y2="454.55" stroke="#222222" stroke-width="1.1"/>
+<line x1="502.88" y1="435.31" x2="484.77" y2="453.82" stroke="#222222" stroke-width="1.1"/>
+<line x1="524.77" y1="392.05" x2="485.32" y2="423.32" stroke="#222222" stroke-width="1.4"/>
+<line x1="485.32" y1="423.32" x2="468.9" y2="439.53" stroke="#222222" stroke-width="1.1"/>
+<line x1="485.32" y1="423.32" x2="463.41" y2="435.88" stroke="#222222" stroke-width="1.1"/>
+<line x1="570" y1="305" x2="546.92" y2="403.92" stroke="#222222" stroke-width="1.7"/>
+<line x1="546.92" y1="403.92" x2="555.96" y2="451.3" stroke="#222222" stroke-width="1.4"/>
+<line x1="555.96" y1="451.3" x2="565.24" y2="473.8" stroke="#222222" stroke-width="1.1"/>
+<line x1="555.96" y1="451.3" x2="556.69" y2="475.4" stroke="#222222" stroke-width="1.1"/>
+<line x1="546.92" y1="403.92" x2="534.16" y2="457.49" stroke="#222222" stroke-width="1.4"/>
+<line x1="534.16" y1="457.49" x2="530.6" y2="485.82" stroke="#222222" stroke-width="1.1"/>
+<line x1="534.16" y1="457.49" x2="520.87" y2="484.41" stroke="#222222" stroke-width="1.1"/>
+<line x1="546.92" y1="403.92" x2="513.68" y2="445.94" stroke="#222222" stroke-width="1.4"/>
+<line x1="513.68" y1="445.94" x2="502.59" y2="475.59" stroke="#222222" stroke-width="1.1"/>
+<line x1="513.68" y1="445.94" x2="495.55" y2="469.59" stroke="#222222" stroke-width="1.1"/>
+<line x1="513.68" y1="445.94" x2="489.87" y2="462.18" stroke="#222222" stroke-width="1.1"/>
+<line x1="570" y1="305" x2="571.85" y2="394" stroke="#222222" stroke-width="1.7"/>
+<line x1="571.85" y1="394" x2="584.24" y2="443.14" stroke="#222222" stroke-width="1.4"/>
+<line x1="584.24" y1="443.14" x2="601.71" y2="466.33" stroke="#222222" stroke-width="1.1"/>
+<line x1="584.24" y1="443.14" x2="592.15" y2="467.8" stroke="#222222" stroke-width="1.1"/>
+<line x1="584.24" y1="443.14" x2="583.29" y2="466.51" stroke="#222222" stroke-width="1.1"/>
+<line x1="571.85" y1="394" x2="560.65" y2="435.52" stroke="#222222" stroke-width="1.4"/>
+<line x1="560.65" y1="435.52" x2="563.53" y2="457.63" stroke="#222222" stroke-width="1.1"/>
+<line x1="560.65" y1="435.52" x2="555.1" y2="454.98" stroke="#222222" stroke-width="1.1"/>
+<line x1="560.65" y1="435.52" x2="545.15" y2="455.2" stroke="#222222" stroke-width="1.1"/>
+<line x1="570" y1="305" x2="599.59" y2="411.59" stroke="#222222" stroke-width="1.7"/>
+<line x1="599.59" y1="411.59" x2="636.34" y2="462.03" stroke="#222222" stroke-width="1.4"/>
+<line x1="636.34" y1="462.03" x2="659.64" y2="481.57" stroke="#222222" stroke-width="1.1"/>
+<line x1="636.34" y1="462.03" x2="650.38" y2="486.37" stroke="#222222" stroke-width="1.1"/>
+<line x1="599.59" y1="411.59" x2="613.03" y2="463.5" stroke="#222222" stroke-width="1.4"/>
+<line x1="613.03" y1="463.5" x2="629.65" y2="488.06" stroke="#222222" stroke-width="1.1"/>
+<line x1="613.03" y1="463.5" x2="622.03" y2="493.4" stroke="#222222" stroke-width="1.1"/>
+<line x1="613.03" y1="463.5" x2="611.75" y2="490.61" stroke="#222222" stroke-width="1.1"/>
+<line x1="599.59" y1="411.59" x2="588.89" y2="462.22" stroke="#222222" stroke-width="1.4"/>
+<line x1="588.89" y1="462.22" x2="589.99" y2="492.57" stroke="#222222" stroke-width="1.1"/>
+<line x1="588.89" y1="462.22" x2="577.07" y2="490.27" stroke="#222222" stroke-width="1.1"/>
+<line x1="570" y1="305" x2="607.74" y2="370.79" stroke="#222222" stroke-width="1.7"/>
+<line x1="607.74" y1="370.79" x2="645.42" y2="395.65" stroke="#222222" stroke-width="1.4"/>
+<line x1="645.42" y1="395.65" x2="666.74" y2="401.55" stroke="#222222" stroke-width="1.1"/>
+<line x1="645.42" y1="395.65" x2="664.04" y2="406.85" stroke="#222222" stroke-width="1.1"/>
+<line x1="645.42" y1="395.65" x2="657.73" y2="412.26" stroke="#222222" stroke-width="1.1"/>
+<line x1="607.74" y1="370.79" x2="627.19" y2="408.12" stroke="#222222" stroke-width="1.4"/>
+<line x1="627.19" y1="408.12" x2="641.2" y2="421.18" stroke="#222222" stroke-width="1.1"/>
+<line x1="627.19" y1="408.12" x2="639.89" y2="429.36" stroke="#222222" stroke-width="1.1"/>
+<line x1="627.19" y1="408.12" x2="631.72" y2="430.96" stroke="#222222" stroke-width="1.1"/>
+<line x1="607.74" y1="370.79" x2="609.18" y2="405.3" stroke="#222222" stroke-width="1.4"/>
+<line x1="609.18" y1="405.3" x2="615.84" y2="424.9" stroke="#222222" stroke-width="1.1"/>
+<line x1="609.18" y1="405.3" x2="608.67" y2="424.81" stroke="#222222" stroke-width="1.1"/>
+<line x1="609.18" y1="405.3" x2="604.43" y2="421.45" stroke="#222222" stroke-width="1.1"/>
+<line x1="570" y1="305" x2="646.17" y2="375.96" stroke="#222222" stroke-width="1.7"/>
+<line x1="646.17" y1="375.96" x2="694.21" y2="391.6" stroke="#222222" stroke-width="1.4"/>
+<line x1="694.21" y1="391.6" x2="720.62" y2="397.03" stroke="#222222" stroke-width="1.1"/>
+<line x1="694.21" y1="391.6" x2="718.76" y2="403.84" stroke="#222222" stroke-width="1.1"/>
+<line x1="646.17" y1="375.96" x2="683.01" y2="412.78" stroke="#222222" stroke-width="1.4"/>
+<line x1="683.01" y1="412.78" x2="705.68" y2="423.28" stroke="#222222" stroke-width="1.1"/>
+<line x1="683.01" y1="412.78" x2="705.64" y2="434.16" stroke="#222222" stroke-width="1.1"/>
+<line x1="683.01" y1="412.78" x2="693.3" y2="439.22" stroke="#222222" stroke-width="1.1"/>
+<line x1="646.17" y1="375.96" x2="666.87" y2="433.55" stroke="#222222" stroke-width="1.4"/>
+<line x1="666.87" y1="433.55" x2="680.49" y2="458.89" stroke="#222222" stroke-width="1.1"/>
+<line x1="666.87" y1="433.55" x2="672.56" y2="465.7" stroke="#222222" stroke-width="1.1"/>
+<line x1="805" y1="10" x2="570" y2="305" stroke="#222222" stroke-width="2"/>
+<polygon points="700.69,140.94 706.28,122.37 717.54,131.35" fill="#222222"/>
+<text x="710" y="168.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Extremely</tspan></text>
+<text x="710" y="199.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">energetic</tspan></text>
+<text x="710" y="230.8" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cosmic</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">ray</tspan></text>
+<text x="25" y="376.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Atmosphere</tspan></text>
+<text x="25" y="503.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Earth</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surface</tspan></text>
+</svg>

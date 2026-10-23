@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="880" viewBox="0 0 640 880" role="img" aria-labelledby="title desc">
+<title id="title">Isobaric expansion</title>
+<desc id="desc">A vertical cylinder of gas of volume V with a piston of area A on top. Heat Q_in flows into the gas, which pushes up on the piston with force F = PA and raises it a distance d at constant pressure. The volume increases by ΔV = Ad, and the work done is W_out = Fd = PAd = PΔV.</desc>
+<rect width="640" height="880" fill="#ffffff"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fcde8"/><stop offset="1" stop-color="#eaf5fb"/></linearGradient></defs>
+<rect x="70" y="130" width="480" height="620" fill="#c7c8ca" stroke="#8a8c8f" stroke-width="1.5"/>
+<rect x="100" y="130" width="420" height="620" fill="#6d6e71"/>
+<rect x="100" y="330" width="420" height="420" fill="url(#g1)"/>
+<ellipse cx="310" cy="750" rx="210" ry="46" fill="#eaf5fb" stroke="none" stroke-width="0"/>
+<path d="M 70 750 A 240 56 0 0 0 550 750 L 550 770 A 240 56 0 0 1 70 770 Z" fill="#c7c8ca" stroke="#8a8c8f" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="310" cy="410" rx="210" ry="46" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="7 5"/>
+<ellipse cx="310" cy="440" rx="210" ry="46" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="7 5"/>
+<path d="M 100 300 L 100 330 A 210 46 0 0 0 520 330 L 520 300 Z" fill="#a9d3ec" stroke="#6fa8cc" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="310" cy="300" rx="210" ry="46" fill="#cde6f5" stroke="#6fa8cc" stroke-width="1.5"/>
+<defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fbfdc"/><stop offset="0.5" stop-color="#eaf5fb"/><stop offset="1" stop-color="#8fbfdc"/></linearGradient></defs>
+<rect x="265" y="10" width="90" height="290" fill="url(#g2)" stroke="#6fa8cc" stroke-width="1.5"/>
+<ellipse cx="310" cy="10" rx="45" ry="12" fill="#cde6f5" stroke="#6fa8cc" stroke-width="1.5"/>
+<path d="M 70 130 A 240 56 0 0 0 550 130 L 550 150 A 240 56 0 0 1 70 150 Z" fill="#c7c8ca" stroke="#8a8c8f" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="310" cy="130" rx="240" ry="56" fill="none" stroke="#8a8c8f" stroke-width="1.5"/>
+<ellipse cx="310" cy="130" rx="210" ry="46" fill="none" stroke="#8a8c8f" stroke-width="1.5"/>
+<line x1="10" y1="330" x2="70" y2="330" stroke="#222222" stroke-width="1.2"/>
+<line x1="10" y1="440" x2="70" y2="440" stroke="#222222" stroke-width="1.2"/>
+<line x1="30" y1="342" x2="30" y2="428" stroke="#222222" stroke-width="1.5"/>
+<polygon points="30,438 25.6,427 34.4,427" fill="#222222"/>
+<polygon points="30,332 34.4,343 25.6,343" fill="#222222"/>
+<rect x="18" y="372" width="24" height="26" fill="#ffffff"/>
+<text x="30" y="392.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<line x1="300" y1="745" x2="300" y2="521" stroke="#e0155d" stroke-width="5"/>
+<polygon points="300,500 308.8,522 291.2,522" fill="#e0155d"/>
+<text x="270" y="699.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="420" y="579.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">PA</tspan></text>
+<text x="420" y="669.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">V</tspan></text>
+<text x="590" y="459.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<polyline points="575,450 572.83,448.83 570.66,447.68 568.49,446.56 566.3,445.5 564.11,444.52 561.89,443.61 559.66,442.81 557.41,442.12 555.15,441.53 552.86,441.07 550.55,440.73 548.21,440.52 545.86,440.41 543.49,440.41 541.11,440.52 538.7,440.7 536.29,440.96 533.86,441.28 531.43,441.63 529,442 526.57,442.37 524.14,442.72 521.71,443.04 519.3,443.3 516.89,443.48 514.51,443.59 512.14,443.59 509.79,443.48 507.45,443.27 505.14,442.93 502.85,442.47 500.59,441.88 498.34,441.19 496.11,440.39 493.89,439.48 491.7,438.5 489.51,437.44 487.34,436.32 485.17,435.17 483,434" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="483" y1="434" x2="468.87" y2="431.54" stroke="#222222" stroke-width="1.4"/>
+<polygon points="460,430 470.54,427.77 469.17,435.65" fill="#222222"/>
+<text x="560" y="69.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">V</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Ad</tspan></text>
+<path d="M 560 80 Q 593.75 260 474.73 389.84" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="476.08" y1="388.37" x2="472.97" y2="391.76" stroke="#333333" stroke-width="1.2"/>
+<polygon points="470,395 472.06,389.56 475.24,392.48" fill="#333333"/>
+<defs><linearGradient id="g3" x1="15" y1="815" x2="150" y2="660" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde6db"/><stop offset="1" stop-color="#ef8a68"/></linearGradient></defs>
+<polygon points="30.08,828.14 32.31,826.51 34.52,824.86 36.69,823.18 38.81,821.46 40.88,819.69 42.89,817.87 44.83,815.99 46.71,814.06 48.53,812.07 50.28,810.02 51.97,807.92 53.6,805.77 55.18,803.57 56.71,801.34 58.21,799.07 59.68,796.78 61.13,794.47 62.56,792.16 64,789.84 65.45,787.53 66.91,785.23 68.4,782.95 69.91,780.7 71.46,778.48 73.05,776.29 74.68,774.14 76.35,772.03 78.07,769.95 79.82,767.92 81.62,765.91 83.46,763.94 85.33,762 87.23,760.08 89.15,758.18 91.09,756.3 93.03,754.43 94.99,752.56 96.94,750.69 98.88,748.81 100.82,746.92 102.73,745.02 104.63,743.1 106.51,741.17 108.36,739.21 110.19,737.23 112,735.24 113.78,733.22 115.54,731.18 117.28,729.12 119,727.06 120.71,724.98 122.42,722.89 124.12,720.8 125.82,718.71 127.52,716.62 129.23,714.54 130.95,712.47 132.68,710.4 134.42,708.35 136.18,706.32 148.25,716.82 150,660 93.95,669.54 106.02,680.04 104.26,682.08 102.51,684.13 100.78,686.19 99.06,688.27 97.36,690.35 95.65,692.44 93.96,694.53 92.26,696.62 90.55,698.71 88.84,700.79 87.11,702.85 85.37,704.91 83.61,706.95 81.83,708.96 80.03,710.96 78.2,712.94 76.35,714.9 74.47,716.83 72.57,718.75 70.65,720.65 68.72,722.54 66.77,724.41 64.82,726.28 62.87,728.15 60.92,730.03 58.99,731.91 57.06,733.81 55.17,735.73 53.3,737.67 51.46,739.64 49.66,741.64 47.9,743.68 46.19,745.76 44.51,747.87 42.88,750.02 41.3,752.21 39.75,754.43 38.23,756.68 36.75,758.96 35.29,761.26 33.84,763.57 32.4,765.89 30.96,768.2 29.51,770.51 28.04,772.8 26.55,775.07 25.01,777.3 23.43,779.5 21.8,781.65 20.12,783.75 18.37,785.8 16.55,787.79 14.67,789.72 12.72,791.6 10.72,793.42 8.65,795.18 6.52,796.91 4.36,798.59 2.15,800.24 -0.08,801.86" fill="url(#g3)"/>
+<text x="30" y="853.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">in</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="310" y="871.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">out</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Fd</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">PAd</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">P</tspan><tspan font-style="normal">Δ</tspan><tspan font-style="italic">V</tspan></text>
+</svg>

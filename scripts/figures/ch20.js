@@ -9,7 +9,18 @@
  * let go" near 15 mA at 60 Hz). The ECG is a sum of smooth P, Q, R, S and T
  * pulses repeating at 80 beats per minute, the pace of the original trace.
  */
-import { CELL, CURRENT, WIRE, acSource, cell, resistor, wire } from './circuit.js';
+import {
+  CELL,
+  CURRENT,
+  WIRE,
+  acSource,
+  cable,
+  carBattery,
+  cell,
+  headlight,
+  resistor,
+  wire,
+} from './circuit.js';
 import { COLORS, Plot, Svg, rad } from './svg.js';
 
 const POS = '#2a9fae';
@@ -19,8 +30,6 @@ const FIELD = '#1f77c8';
 const CURVE = COLORS.maroon;
 const GREEN = '#5aa832';
 const HEART = '#ef8a6a';
-
-let gid = 0;
 
 function lab(svg, x, y, s, o = {}) {
   svg.text(x, y, s, { size: 25, ...o });
@@ -40,8 +49,8 @@ function caption(svg, x, y, s) {
  * curved break at the right.
  */
 function cylinder(svg, x0, x1, yc, r, { fill = ['#f2f1f4', '#bdb8c4'] } = {}) {
-  gid += 1;
-  const id = `cyl20_${gid}`;
+  // IDs depend on geometry, so filtered and full generation produce identical files.
+  const id = `cyl20_${x0}_${x1}_${yc}_${r}`;
   svg.add(
     `<defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${fill[1]}"/><stop offset="0.35" stop-color="${fill[0]}"/><stop offset="0.7" stop-color="${fill[0]}"/><stop offset="1" stop-color="${fill[1]}"/></linearGradient></defs>`
   );
@@ -160,6 +169,41 @@ export default {
     return svg.render();
   },
 
+  // 20.1 Fig. 2 — a battery lighting a headlight, and its schematic
+  Figure_20_01_02: () => {
+    const svg = new Svg({
+      width: 580,
+      height: 960,
+      title: 'A simple circuit and its schematic',
+      desc: '(a) A battery of voltage V lights a headlight through two wires. Conventional current I leaves the positive terminal, goes up through one wire and the headlight, and returns down the other wire to the negative terminal. (b) The schematic of the same circuit: the battery is the pair of parallel red lines, the wires are straight lines, and the load is a zigzag resistor. Current I circulates clockwise, out of the positive terminal and through the load.',
+    });
+    // (a) The picture.
+    const { pos, neg } = carBattery(svg, 110, 300, { s: 0.6 });
+    headlight(svg, 400, 92, { s: 0.45 });
+    cable(svg, [pos, [pos[0], 77], [400, 77]], { width: 5 });
+    cable(svg, [neg, [neg[0], 107], [400, 107]], { width: 5 });
+    svg.arrow(174, 210, 174, 146, { color: CURRENT, width: 3, head: 14 });
+    lab(svg, 156, 180, 'I', { anchor: 'end' });
+    svg.arrow(368, 160, 368, 224, { color: CURRENT, width: 3, head: 14 });
+    lab(svg, 386, 194, 'I', { anchor: 'start' });
+    note(svg, 480, 180, 'Headlight');
+    note(svg, 300, 490, '\\it{V} battery');
+    caption(svg, 50, 490, '(a)');
+    // (b) The schematic.
+    box(svg, 150, 580, 430, 900);
+    on(svg, (P, Q) => resistor(svg, P, Q, { size: 70, amp: 11 }), [250, 580], [330, 580]);
+    on(svg, (P, Q) => cell(svg, P, Q, { gap: 13, long: 60, short: 30 }), [310, 900], [250, 900]);
+    lab(svg, 258, 858, '+');
+    lab(svg, 304, 864, '−');
+    lab(svg, 280, 944, 'V');
+    arc(svg, 290, 740, 105, 235, 125);
+    arc(svg, 290, 740, 105, 55, -55);
+    lab(svg, 200, 740, 'I', { anchor: 'end' });
+    lab(svg, 380, 740, 'I', { anchor: 'start' });
+    caption(svg, 50, 944, '(b)');
+    return svg.render();
+  },
+
   // 20.1 Fig. 3 — positive and negative carriers, the same conventional current
   Figure_20_01_03: () => {
     const svg = new Svg({
@@ -195,6 +239,45 @@ export default {
       lab(svg, 470, y0 + 8, 'A', { anchor: 'start' });
       caption(svg, 34, yc + 110, cap);
     }
+    return svg.render();
+  },
+
+  // 20.1 Fig. 4 — as one electron is pushed in, another leaves
+  Figure_20_01_04: () => {
+    const svg = new Svg({
+      width: 680,
+      height: 280,
+      title: 'Electrons entering and leaving a length of wire',
+      desc: 'A length of wire holds free electrons. Two electrons are being pushed in at the left end, each with a faded trail and an arrow to the right, and at the same moment two electrons leave at the right end, also moving right. The other electrons inside stay spread out, because their mutual repulsion lets the number in the wire change hardly at all.',
+    });
+    cylinder(svg, 70, 600, 140, 105);
+    const electron = (x, y, { moving = false } = {}) => {
+      if (moving)
+        for (const [dx, op] of [
+          [-26, 0.25],
+          [-13, 0.5],
+        ])
+          svg.add(
+            `<circle cx="${x + dx}" cy="${y}" r="17" fill="${NEG}" fill-opacity="${op}" stroke="${NEG}" stroke-opacity="${op}"/>`
+          );
+      charge(svg, x, y, 'e^−', { fill: NEG, r: 17 });
+      if (moving) svg.arrow(x + 20, y, x + 84, y, { color: WIRE, width: 2, head: 13 });
+    };
+    // Entering at the left, leaving at the right.
+    electron(70, 92, { moving: true });
+    electron(110, 196, { moving: true });
+    electron(560, 86, { moving: true });
+    electron(585, 186, { moving: true });
+    for (const [x, y] of [
+      [300, 60],
+      [380, 104],
+      [220, 140],
+      [400, 172],
+      [290, 214],
+      [480, 226],
+      [500, 120],
+    ])
+      electron(x, y);
     return svg.render();
   },
 
@@ -666,7 +749,7 @@ export default {
     lab(svg, a.X(0) - 12, a.Y(0), '0', { anchor: 'end' });
     lab(svg, a.X(1.05) + 4, a.Y(0) + 26, 't');
     lab(svg, a.X(0), a.Y(1.05) - 18, 'V, I');
-    caption(svg, 60, 60, '(a)');
+    caption(svg, 30, 30, '(a)');
     const b = new Plot(svg, {
       x: 120,
       y: 370,
@@ -692,7 +775,7 @@ export default {
     }
     lab(svg, b.X(1.05) + 4, b.Y(0) + 26, 't');
     lab(svg, b.X(0), b.Y(1.2) - 18, 'V, I');
-    caption(svg, 60, 390, '(b)');
+    caption(svg, 30, 340, '(b)');
     return svg.render();
   },
 
@@ -907,9 +990,163 @@ export default {
     );
     note(svg, g.X(2.95), g.Y(60), 'Can’t let go', { size: 20 });
     svg.leader(g.X(3.05), g.Y(56), g.X(3.37), g.Y(41), { bend: 0.3, width: 1.4 });
-    note(svg, g.X(3.4), g.Y(29), 'Threshold', { size: 20 });
-    note(svg, g.X(3.4), g.Y(23), 'of sensation', { size: 20 });
-    svg.leader(g.X(3.5), g.Y(19), g.X(3.65), g.Y(10.5), { bend: 0.3, width: 1.4 });
+    // Placed under the "can't let go" curve, clear of it.
+    note(svg, g.X(2.45), g.Y(11.5), 'Threshold', { size: 20 });
+    note(svg, g.X(2.45), g.Y(6.3), 'of sensation', { size: 20 });
+    svg.leader(g.X(2.9), g.Y(8), g.X(3.45), g.Y(7.6), { bend: -0.25, width: 1.4 });
+    return svg.render();
+  },
+
+  // 20.7 Fig. 3 — the action potential and the ion movements behind it
+  Figure_20_07_03: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 620,
+      title: 'An action potential',
+      desc: 'The voltage inside a nerve cell, V_inside in millivolts, versus time t in milliseconds. It rests near −90 mV, then about 2.6 ms in rises steeply to a peak near +50 mV at about 4.1 ms (depolarization), falls to about −107 mV near 5.4 ms (repolarization), and recovers to its resting value. Windows above the curve show the membrane: at rest the outside is positive and the inside negative; during depolarization Na+ ions cross inward and the charges reverse; during repolarization K+ ions cross outward and the outside becomes positive again; over the long term, active transport pumps Na+ out and K+ back in.',
+    });
+    const g = new Plot(svg, {
+      x: 125,
+      y: 245,
+      w: 870,
+      h: 320,
+      xRange: [0, 8.6],
+      yRange: [-115, 62],
+      xTicks: [1, 2, 3, 4, 5, 6, 7, 8],
+      yTicks: [50, 25, 0, -25, -50, -75, -100],
+    });
+    g.axes({ arrows: true, xAxisAt: -115, size: 16 });
+    g.line(0, 0, 8.6, 0, { color: COLORS.axis, width: 1.2 });
+    lab(svg, 995, 604, 't \\rm{(ms)}', { size: 19, anchor: 'end' });
+    lab(svg, 30, 222, 'V_{inside} \\rm{(mV)}', { size: 19, anchor: 'start' });
+    for (const t of [0.5, 1.5, 2.9, 3.75, 4.5, 5.5])
+      svg.line(g.X(t), 202, g.X(t), g.Y(-115), { color: COLORS.black, width: 1.1, dash: '5 4' });
+    // Rest, the rise to the peak, the undershoot, and recovery (values from the text's description),
+    // joined by a monotone cubic so the curve never overshoots between points.
+    const knots = [
+      [0, -92],
+      [2.6, -92],
+      [2.95, -84],
+      [3.25, -60],
+      [3.55, -18],
+      [3.85, 25],
+      [4.1, 47],
+      [4.7, -22],
+      [5.0, -82],
+      [5.4, -107],
+      [5.8, -103],
+      [6.2, -97],
+      [6.6, -93],
+      [7.3, -94],
+      [8.6, -94],
+    ];
+    const slope = knots
+      .slice(0, -1)
+      .map(([t, v], i) => (knots[i + 1][1] - v) / (knots[i + 1][0] - t));
+    const m = knots.map((_, i) =>
+      i === 0 || i === knots.length - 1 || slope[i - 1] * slope[i] <= 0
+        ? 0
+        : 2 / (1 / slope[i - 1] + 1 / slope[i])
+    );
+    const V = t => {
+      let i = 0;
+      while (i < knots.length - 2 && t > knots[i + 1][0]) i += 1;
+      const [[t0, v0], [t1, v1]] = [knots[i], knots[i + 1]];
+      const h = t1 - t0;
+      const u = (t - t0) / h;
+      return (
+        (2 * u ** 3 - 3 * u ** 2 + 1) * v0 +
+        (u ** 3 - 2 * u ** 2 + u) * h * m[i] +
+        (-2 * u ** 3 + 3 * u ** 2) * v1 +
+        (u ** 3 - u ** 2) * h * m[i + 1]
+      );
+    };
+    g.fn(V, 0, 8.6, { n: 600, color: CURVE, width: 3 });
+
+    // Membrane windows.
+    let seed = 5;
+    const rnd = () => {
+      seed = (seed * 16807) % 2147483647;
+      return seed / 2147483647;
+    };
+    const ion = (x, y, kind) => {
+      const na = kind === 'Na';
+      svg.circle(x, y, 15, {
+        fill: na ? '#bfe3dd' : '#ef8f8f',
+        stroke: na ? '#3c9a8f' : '#b53b3b',
+        width: 1.5,
+      });
+      svg.text(x, y, na ? '\\rm{Na}^+' : '\\rm{K}^+', { size: 13, halo: false });
+    };
+    const pump = (x, y1, y2) =>
+      svg.arrow(x, y1, x, y2, { color: COLORS.black, width: 1.6, head: 11 });
+    const panel = (cx, i, outside) => {
+      const x0 = cx - 50;
+      svg.add(
+        `<defs><clipPath id="cell${i}"><rect x="${x0}" y="10" width="100" height="190"/></clipPath></defs>`
+      );
+      const bubbles = svg.capture(() => {
+        svg.rect(x0, 10, 100, 98, { fill: '#c6d7e6' });
+        svg.rect(x0, 133, 100, 67, { fill: '#f5cfa2' });
+        for (let k = 0; k < 14; k += 1)
+          svg.circle(x0 + 100 * rnd(), 10 + 98 * rnd(), 12 + 5 * rnd(), {
+            fill: '#dfeaf2',
+            stroke: '#a9c3d4',
+            width: 1,
+          });
+        for (let k = 0; k < 10; k += 1)
+          svg.circle(x0 + 100 * rnd(), 133 + 67 * rnd(), 12 + 5 * rnd(), {
+            fill: rnd() < 0.5 ? '#f2b49a' : '#f8dcc7',
+            stroke: '#e0a17f',
+            width: 1,
+          });
+      });
+      svg.add(`<g clip-path="url(#cell${i})">${bubbles}</g>`);
+      svg.rect(x0, 108, 100, 25, { fill: '#f3b6cf', stroke: '#d77aa3', width: 1.2 });
+      const [top, bottom] = outside === '+' ? ['+', '−'] : ['−', '+'];
+      for (let k = 0; k < 5; k += 1) {
+        svg.text(x0 + 12 + k * 19, 96, top, { size: 18, math: false, halo: false });
+        svg.text(x0 + 12 + k * 19, 146, bottom, { size: 18, math: false, halo: false });
+      }
+    };
+    panel(225, 0, '+');
+    ion(207, 50, 'Na');
+    ion(207, 178, 'K');
+    panel(460, 1, '−');
+    ion(470, 46, 'Na');
+    pump(470, 62, 160);
+    ion(470, 176, 'Na');
+    ion(432, 176, 'K');
+    panel(630, 2, '+');
+    ion(640, 36, 'K');
+    pump(640, 160, 52);
+    ion(640, 176, 'K');
+    ion(606, 60, 'Na');
+    ion(606, 176, 'Na');
+    // Long term: the pump moves Na+ back out and K+ back in.
+    panel(935, 3, '+');
+    ion(920, 48, 'Na');
+    pump(920, 164, 64);
+    ion(920, 180, 'Na');
+    ion(952, 32, 'K');
+    pump(952, 48, 162);
+    ion(952, 178, 'K');
+    svg.arrow(275, 120, 409, 120, { color: COLORS.black, width: 1.6, head: 12 });
+    svg.arrow(511, 120, 579, 120, { color: COLORS.black, width: 1.6, head: 12 });
+    for (const [x, y, s, bold] of [
+      [62, 64, 'Outside', true],
+      [76, 86, 'cell', false],
+      [52, 120, 'Membrane', false],
+      [62, 150, 'Inside', true],
+      [76, 172, 'cell', false],
+    ])
+      note(svg, x, y, s, { size: 17, weight: bold ? 'bold' : undefined });
+    for (const y of [75, 120, 161]) svg.squiggle(112, y, 172, y, { waves: 1.5, amp: 4 });
+    note(svg, 225, 220, 'Resting', { size: 17 });
+    note(svg, 460, 220, 'Depolarization', { size: 17 });
+    note(svg, 630, 220, 'Repolarization', { size: 17 });
+    note(svg, 935, 220, 'Long-term', { size: 17 });
+    note(svg, 935, 242, 'active transport', { size: 17 });
     return svg.render();
   },
 

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">Astigmatism test chart</title>
+<desc id="desc">A wheel of twelve spokes around a central cross, each spoke made of three parallel black lines. If the lines along some directions look darker or sharper than others, the eye has an astigmatism.</desc>
+<rect width="600" height="600" fill="#ffffff"/>
+<line x1="370" y1="288" x2="585" y2="288" stroke="#222222" stroke-width="5"/>
+<line x1="370" y1="300" x2="585" y2="300" stroke="#222222" stroke-width="5"/>
+<line x1="370" y1="312" x2="585" y2="312" stroke="#222222" stroke-width="5"/>
+<line x1="366.62" y1="324.61" x2="552.82" y2="432.11" stroke="#222222" stroke-width="5"/>
+<line x1="360.62" y1="335" x2="546.82" y2="442.5" stroke="#222222" stroke-width="5"/>
+<line x1="354.62" y1="345.39" x2="540.82" y2="452.89" stroke="#222222" stroke-width="5"/>
+<line x1="345.39" y1="354.62" x2="452.89" y2="540.82" stroke="#222222" stroke-width="5"/>
+<line x1="335" y1="360.62" x2="442.5" y2="546.82" stroke="#222222" stroke-width="5"/>
+<line x1="324.61" y1="366.62" x2="432.11" y2="552.82" stroke="#222222" stroke-width="5"/>
+<line x1="312" y1="370" x2="312" y2="585" stroke="#222222" stroke-width="5"/>
+<line x1="300" y1="370" x2="300" y2="585" stroke="#222222" stroke-width="5"/>
+<line x1="288" y1="370" x2="288" y2="585" stroke="#222222" stroke-width="5"/>
+<line x1="275.39" y1="366.62" x2="167.89" y2="552.82" stroke="#222222" stroke-width="5"/>
+<line x1="265" y1="360.62" x2="157.5" y2="546.82" stroke="#222222" stroke-width="5"/>
+<line x1="254.61" y1="354.62" x2="147.11" y2="540.82" stroke="#222222" stroke-width="5"/>
+<line x1="245.38" y1="345.39" x2="59.18" y2="452.89" stroke="#222222" stroke-width="5"/>
+<line x1="239.38" y1="335" x2="53.18" y2="442.5" stroke="#222222" stroke-width="5"/>
+<line x1="233.38" y1="324.61" x2="47.18" y2="432.11" stroke="#222222" stroke-width="5"/>
+<line x1="230" y1="312" x2="15" y2="312" stroke="#222222" stroke-width="5"/>
+<line x1="230" y1="300" x2="15" y2="300" stroke="#222222" stroke-width="5"/>
+<line x1="230" y1="288" x2="15" y2="288" stroke="#222222" stroke-width="5"/>
+<line x1="233.38" y1="275.39" x2="47.18" y2="167.89" stroke="#222222" stroke-width="5"/>
+<line x1="239.38" y1="265" x2="53.18" y2="157.5" stroke="#222222" stroke-width="5"/>
+<line x1="245.38" y1="254.61" x2="59.18" y2="147.11" stroke="#222222" stroke-width="5"/>
+<line x1="254.61" y1="245.38" x2="147.11" y2="59.18" stroke="#222222" stroke-width="5"/>
+<line x1="265" y1="239.38" x2="157.5" y2="53.18" stroke="#222222" stroke-width="5"/>
+<line x1="275.39" y1="233.38" x2="167.89" y2="47.18" stroke="#222222" stroke-width="5"/>
+<line x1="288" y1="230" x2="288" y2="15" stroke="#222222" stroke-width="5"/>
+<line x1="300" y1="230" x2="300" y2="15" stroke="#222222" stroke-width="5"/>
+<line x1="312" y1="230" x2="312" y2="15" stroke="#222222" stroke-width="5"/>
+<line x1="324.61" y1="233.38" x2="432.11" y2="47.18" stroke="#222222" stroke-width="5"/>
+<line x1="335" y1="239.38" x2="442.5" y2="53.18" stroke="#222222" stroke-width="5"/>
+<line x1="345.39" y1="245.38" x2="452.89" y2="59.18" stroke="#222222" stroke-width="5"/>
+<line x1="354.62" y1="254.61" x2="540.82" y2="147.11" stroke="#222222" stroke-width="5"/>
+<line x1="360.62" y1="265" x2="546.82" y2="157.5" stroke="#222222" stroke-width="5"/>
+<line x1="366.62" y1="275.39" x2="552.82" y2="167.89" stroke="#222222" stroke-width="5"/>
+<line x1="286" y1="300" x2="314" y2="300" stroke="#222222" stroke-width="2.5"/>
+<line x1="300" y1="286" x2="300" y2="314" stroke="#222222" stroke-width="2.5"/>
+</svg>

@@ -74,7 +74,7 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 
 ::::
 
-![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01.jpg '(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t \) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.')
+![At time t a rocket and fuel have mass m and upward velocity v. At t plus delta t the remaining rocket has mass m minus delta m and greater upward velocity, while gas is expelled downward. The gas pushes the rocket upward and the rocket pushes the gas downward with equal force. Gravity acts downward on the entire system.](/resources/Figure_08_07_01.svg '(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t \) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.')
 {: #Figure1}
 
 A rocket’s acceleration depends on three major factors, consistent with the

@@ -69,7 +69,7 @@
 <line x1="495" y1="90" x2="515" y2="90" stroke="#222222" stroke-width="2"/>
 <line x1="555" y1="90" x2="575" y2="90" stroke="#222222" stroke-width="2"/>
 <polyline points="515,90 518.33,101 525,79 531.67,101 538.33,79 545,101 551.67,79 555,90" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<text x="535" y="78.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="535" y="68.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.04">​</tspan></text>
 <polyline points="590,90 590,230" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
 <line x1="590" y1="140" x2="590" y2="180" stroke="#ffffff" stroke-width="7"/>
 <line x1="590" y1="130" x2="590" y2="140" stroke="#222222" stroke-width="2"/>
@@ -80,12 +80,12 @@
 <line x1="640" y1="90" x2="650" y2="90" stroke="#222222" stroke-width="2"/>
 <line x1="690" y1="90" x2="700" y2="90" stroke="#222222" stroke-width="2"/>
 <polyline points="650,90 653.33,101 660,79 666.67,101 673.33,79 680,101 686.67,79 690,90" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<text x="664" y="74.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">p</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="670" y="66.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">p</tspan></tspan><tspan dy="-5.04">​</tspan></text>
 <line x1="720" y1="140" x2="720" y2="180" stroke="#ffffff" stroke-width="7"/>
 <line x1="720" y1="130" x2="720" y2="140" stroke="#222222" stroke-width="2"/>
 <line x1="720" y1="180" x2="720" y2="190" stroke="#222222" stroke-width="2"/>
 <polyline points="720,140 709,143.33 731,150 709,156.67 731,163.33 709,170 731,176.67 720,180" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<text x="706" y="178.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal">′</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">p</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="698" y="202.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal">′</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">p</tspan></tspan><tspan dy="-5.04">​</tspan></text>
 <ellipse cx="694" cy="138" rx="72" ry="28" transform="rotate(50 694 138)" fill="none" stroke="#555555" stroke-width="1.6" stroke-dasharray="6 4"/>
 <text x="744" y="90.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">s</tspan></tspan><tspan dy="-5.32">​</tspan></text>
 <path d="M 752 228 Q 769 258 742 288" fill="none" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
@@ -101,7 +101,7 @@
 <line x1="495" y1="300" x2="515" y2="300" stroke="#222222" stroke-width="2"/>
 <line x1="555" y1="300" x2="575" y2="300" stroke="#222222" stroke-width="2"/>
 <polyline points="515,300 518.33,311 525,289 531.67,311 538.33,289 545,311 551.67,289 555,300" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<text x="535" y="288.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="535" y="278.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.04">​</tspan></text>
 <polyline points="590,300 590,430" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
 <line x1="590" y1="345" x2="590" y2="385" stroke="#ffffff" stroke-width="7"/>
 <line x1="590" y1="335" x2="590" y2="345" stroke="#222222" stroke-width="2"/>
@@ -128,7 +128,7 @@
 <line x1="450" y1="470" x2="465" y2="470" stroke="#222222" stroke-width="2"/>
 <line x1="505" y1="470" x2="520" y2="470" stroke="#222222" stroke-width="2"/>
 <polyline points="465,470 468.33,481 475,459 481.67,481 488.33,459 495,481 501.67,459 505,470" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
-<text x="485" y="500.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="455" y="500.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.04">​</tspan></text>
 <line x1="560" y1="505" x2="560" y2="545" stroke="#ffffff" stroke-width="7"/>
 <line x1="560" y1="495" x2="560" y2="505" stroke="#222222" stroke-width="2"/>
 <line x1="560" y1="545" x2="560" y2="555" stroke="#222222" stroke-width="2"/>

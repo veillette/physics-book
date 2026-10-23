@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">A ray entering the end of an optical fiber</title>
+<desc id="desc">A ray in medium n1 strikes the flat end of a fiber of index n2 at angle θ1 to the fiber’s axis, refracts to angle θ2, and then strikes the side of the fiber at angle θ3 to its normal, where it may be totally internally reflected.</desc>
+<rect width="1000" height="360" fill="#ffffff"/>
+<defs><linearGradient id="fiber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fa894"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#7fa894"/></linearGradient></defs>
+<rect x="260" y="100" width="740" height="200" fill="url(#fiber)" stroke="#5f7f70" stroke-width="2"/>
+<line x1="129.77" y1="339.27" x2="260" y2="230" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="200.25" y1="280.14" x2="205.92" y2="275.38" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="212.51,269.85 207.62,278.97 202.68,273.08" fill="#1fa8d8"/>
+<line x1="260" y1="230" x2="534.1" y2="100" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="401.72" y1="162.79" x2="408.41" y2="159.61" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="416.18,155.93 409.15,163.51 405.86,156.57" fill="#1fa8d8"/>
+<line x1="534.1" y1="100" x2="714.81" y2="185.71" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="660.59" y1="159.99" x2="667.28" y2="163.16" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="675.05,166.85 664.73,166.21 668.02,159.27" fill="#1fa8d8"/>
+<line x1="190" y1="230" x2="460" y2="230" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="534.1" y1="50" x2="534.1" y2="140" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 226 230 A 34 34 0 0 0 233.95 251.85" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="205.5" y="257.54" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 330 230 A 70 70 0 0 0 323.25 200" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="349.75" y="217.49" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 506.99 112.86 A 30 30 0 0 0 534.1 130" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="505.23" y="153.34" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="230" y="148.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="300" y="148.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+</svg>

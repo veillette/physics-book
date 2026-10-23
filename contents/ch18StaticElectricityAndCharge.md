@@ -143,7 +143,7 @@ or $$+\frac{2}{3} $$ . There are continuing attempts to observe fractional
 charge directly and to learn of the properties of quarks, which are perhaps the
 ultimate substructure of matter.
 
-![A magnified view of a fraction of proton is shown in an art having three quarks of spherical shape separated from each other.](../resources/Figure_18_01_05.jpg 'Artist’s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: ( -1/3q_e +2/3q_e +2/3q_e =+1q_e ).')
+![A magnified view of a fraction of proton is shown in an art having three quarks of spherical shape separated from each other.](../resources/Figure_18_01_05.svg 'Artist’s conception of fractional quark charges inside a proton. A group of three quark charges add up to the single positive charge on the proton: ( -1/3q_e +2/3q_e +2/3q_e =+1q_e ).')
 {: #Figure5}
 
 ### Separation of Charge in Atoms
@@ -203,7 +203,7 @@ Only a limited number of physical quantities are universally conserved. Charge i
 
 :::
 
-![Here energy is shown by a vector. Initially electrostatic charge q tot is equal to zero. Now energy gets converted into matter and creates one electron and antielectron pair but final electrostatic charge is equal to zero so change in mass delta m is equal to two m e, which is equal to E divided by c square. (b) In this figure, Electron and antielectron are colliding with each other. The electrostatic charge q tot before collision is zero and after collision it will remain zero.](../resources/Figure_18_01_07.jpg '(a) When enough energy is present, it can be converted into matter. Here the matter created is an electron–antielectron pair. (( m_{e} ) is the electron’s mass.) The total charge before and after this event is zero. (b) When matter and antimatter collide, they annihilate each other; the total charge is conserved at zero before and after the annihilation.')
+![Here energy is shown by a vector. Initially electrostatic charge q tot is equal to zero. Now energy gets converted into matter and creates one electron and antielectron pair but final electrostatic charge is equal to zero so change in mass delta m is equal to two m e, which is equal to E divided by c square. (b) In this figure, Electron and antielectron are colliding with each other. The electrostatic charge q tot before collision is zero and after collision it will remain zero.](../resources/Figure_18_01_07.svg '(a) When enough energy is present, it can be converted into matter. Here the matter created is an electron–antielectron pair. (( m_{e} ) is the electron’s mass.) The total charge before and after this event is zero. (b) When matter and antimatter collide, they annihilate each other; the total charge is conserved at zero before and after the annihilation.')
 {: #Figure7}
 
 The law of conservation of charge is absolute—it has never been observed to be

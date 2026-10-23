@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="620" viewBox="0 0 600 620" role="img" aria-labelledby="title desc">
+<title id="title">A corner reflector</title>
+<desc id="desc">Two mirrors meet at a right angle. A ray reflects from the lower mirror, making equal angles θ1 with its normal, then from the upper mirror, making equal angles θ2 with that normal, and leaves parallel to the incoming ray but traveling in the opposite direction.</desc>
+<rect width="600" height="620" fill="#ffffff"/>
+<polygon points="545,330 365,18.23 378.86,10.23 558.86,322" fill="#a9abb6" stroke="#6f7280" stroke-width="1.2"/>
+<line x1="545" y1="330" x2="365" y2="18.23" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="545,330 198.59,530 206.59,543.86 553,343.86" fill="#a9abb6" stroke="#6f7280" stroke-width="1.2"/>
+<line x1="545" y1="330" x2="198.59" y2="530" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="40" y1="420" x2="423.67" y2="400.05" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="241.03" y1="409.55" x2="248.42" y2="409.16" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="257.01,408.72 247.62,413.05 247.22,405.38" fill="#1fa8d8"/>
+<line x1="423.67" y1="400.05" x2="509.27" y2="268.11" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="509.27" y1="268.11" x2="59.88" y2="291.48" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="272.09" y1="280.45" x2="264.7" y2="280.83" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="256.11,281.28 265.5,276.94 265.9,284.61" fill="#1fa8d8"/>
+<line x1="423.67" y1="400.05" x2="393.67" y2="348.09" stroke="#222222" stroke-width="1.4"/>
+<path d="M 403.67 365.41 A 40 40 0 0 0 383.73 402.13" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="367.43" y="377.2" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 440 374.88 A 30 30 0 0 0 408.67 374.07" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="425.02" y="355.77" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="509.27" y1="268.11" x2="457.31" y2="298.11" stroke="#222222" stroke-width="1.4"/>
+<path d="M 474.63 288.11 A 40 40 0 0 0 487.5 301.67" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="462.86" y="319.88" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 479.31 269.67 A 30 30 0 0 0 483.29 283.11" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="459.41" y="290.57" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+</svg>

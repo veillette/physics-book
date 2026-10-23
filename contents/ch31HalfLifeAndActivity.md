@@ -39,7 +39,7 @@ surviving through one more. The probability of decay is the same no matter when
 you start counting. This is like random coin flipping. The chance of heads is
 50%, no matter what has happened before.
 
-![The figure shows a radioactive decay graph of number of nuclides in thousands versus time in multiples of half-life. The number of radioactive nuclei decreases exponentially and finally approaches zero after about ten half-lives.](../resources/Figure_31_05_01.jpg 'Radioactive decay reduces the number of radioactive nuclei over time. In one half-life ( t_{1/2} ), the number decreases to half of its original value. Half of what remains decay in the next half-life, and half of those in the next, and so on. This is an exponential decay, as seen in the graph of the number of nuclei present as a function of time.')
+![The figure shows a radioactive decay graph of number of nuclides in thousands versus time in multiples of half-life. The number of radioactive nuclei decreases exponentially and finally approaches zero after about ten half-lives.](../resources/Figure_31_05_01.svg 'Radioactive decay reduces the number of radioactive nuclei over time. In one half-life ( t_{1/2} ), the number decreases to half of its original value. Half of what remains decay in the next half-life, and half of those in the next, and so on. This is an exponential decay, as seen in the graph of the number of nuclei present as a function of time.')
 {: #Figure1}
 
 There is a tremendous range in the half-lives of various nuclides, from as short

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+<title id="title">Round trip to the store</title>
+<desc id="desc">Home and store are 3 km apart. The round trip covers 6 km in 30 min; net displacement and average velocity are zero.</desc>
+<rect width="600" height="300" fill="#ffffff"/>
+<rect x="0" y="225" width="600" height="75" fill="#c8e6c9"/>
+<rect x="60" y="180" width="80" height="50" fill="#ffd54f" stroke="#222222" stroke-width="2"/>
+<polygon points="50,180 100,140 150,180" fill="#ff6f00" stroke="#222222" stroke-width="2"/>
+<rect x="75" y="195" width="14" height="18" fill="#81d4fa" stroke="#222222" stroke-width="1.5"/>
+<rect x="115" y="195" width="14" height="18" fill="#81d4fa" stroke="#222222" stroke-width="1.5"/>
+<rect x="93" y="202" width="14" height="28" fill="#8d6e63" stroke="#222222" stroke-width="1.5"/>
+<text x="100" y="266.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Home</tspan></text>
+<rect x="430" y="170" width="100" height="60" fill="#e1bee7" stroke="#222222" stroke-width="2"/>
+<rect x="435" y="175" width="40" height="30" fill="#81d4fa" stroke="#222222" stroke-width="1.5"/>
+<rect x="485" y="175" width="40" height="30" fill="#81d4fa" stroke="#222222" stroke-width="1.5"/>
+<rect x="468" y="205" width="24" height="25" fill="#8d6e63" stroke="#222222" stroke-width="1.5"/>
+<text x="480" y="266.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Store</tspan></text>
+<line x1="100" y1="85" x2="466" y2="85" stroke="#222222" stroke-width="3"/>
+<polygon points="480,85 465,91 465,79" fill="#222222"/>
+<line x1="480" y1="120" x2="114" y2="120" stroke="#222222" stroke-width="3"/>
+<polygon points="100,120 115,114 115,126" fill="#222222"/>
+<text x="290" y="66.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3.0 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">each</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">way</tspan></text>
+<text x="300" y="32" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">tot</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> = 0 </tspan><tspan font-style="normal">km</tspan></text>
+<text x="300" y="290.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Distance</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">traveled</tspan><tspan font-style="normal"> = 6 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">elapsed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">time</tspan><tspan font-style="normal"> = 30 </tspan><tspan font-style="normal">min</tspan></text>
+</svg>

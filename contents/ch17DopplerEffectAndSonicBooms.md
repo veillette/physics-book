@@ -241,7 +241,7 @@ pressures in the sonic boom can be destructive and break windows as well as
 rattle nerves. Because of how destructive sonic booms can be, supersonic flights
 are banned over populated areas of the United States.
 
-![An airplane is shown to fly above three observers on the ground. There are two conical shock waves or sonic booms created by the nose and tail of the aircraft. The observer on the left is shown to receive the conical shock wave from the tail of the aircraft, the observer in the middle receives the conical shock wave from the nose of the aircraft, and the observer on the right has not heard any sound, she is just wondering what is happening.](../resources/Figure_17_04_06.jpg 'Two sonic booms, created by the nose and tail of an aircraft, are observed on the ground after the plane has passed by.')
+![An airplane is shown to fly above three observers on the ground. There are two conical shock waves or sonic booms created by the nose and tail of the aircraft. The observer on the left is shown to receive the conical shock wave from the tail of the aircraft, the observer in the middle receives the conical shock wave from the nose of the aircraft, and the observer on the right has not heard any sound, she is just wondering what is happening.](../resources/Figure_17_04_06.svg 'Two sonic booms, created by the nose and tail of an aircraft, are observed on the ground after the plane has passed by.')
 {: #Figure5}
 
 Sonic booms are one example of a broader phenomenon called bow wakes. A **bow

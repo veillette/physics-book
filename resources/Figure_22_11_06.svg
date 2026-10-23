@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+<title id="title">A current loop and a straight wire</title>
+<desc id="desc">A circular loop of radius R carries current I1, shown by an arrow circulating clockwise on the loop. A long straight wire carrying current I2 runs diagonally from lower left to upper right just below the loop, in the same plane; the direction of I2 is not shown.</desc>
+<rect width="640" height="400" fill="#ffffff"/>
+<circle cx="210" cy="175" r="120" fill="none" stroke="#1f8fd1" stroke-width="5"/>
+<line x1="296.32" y1="91.64" x2="306.2" y2="106.29" stroke="#1f8fd1" stroke-width="5"/>
+<polygon points="319.63,126.19 297.35,111.05 313.93,99.87" fill="#1f8fd1"/>
+<line x1="57.3" y1="417.25" x2="610.82" y2="57.78" stroke="#1f8fd1" stroke-width="5"/>
+<circle cx="210" cy="175" r="6" fill="#222222"/>
+<line x1="210" y1="175" x2="146.41" y2="276.77" stroke="#222222" stroke-width="2"/>
+<text x="218" y="252.9" font-family="'Times New Roman', Times, serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<text x="360" y="57.6" font-family="'Times New Roman', Times, serif" font-size="36" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">I<tspan font-size="22.32" font-weight="normal" dx="-18.16" dy="-29.52">→</tspan><tspan dx="-4.16" dy="29.52">​</tspan></tspan><tspan font-size="25.2" dy="10.08"><tspan font-style="normal">1</tspan></tspan><tspan dy="-10.08">​</tspan></text>
+<text x="500" y="232.6" font-family="'Times New Roman', Times, serif" font-size="36" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">I<tspan font-size="22.32" font-weight="normal" dx="-18.16" dy="-29.52">→</tspan><tspan dx="-4.16" dy="29.52">​</tspan></tspan><tspan font-size="25.2" dy="10.08"><tspan font-style="normal">2</tspan></tspan><tspan dy="-10.08">​</tspan></text>
+</svg>

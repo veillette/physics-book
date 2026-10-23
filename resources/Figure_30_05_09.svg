@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+<title id="title">Energy levels in a helium-neon laser</title>
+<desc id="desc">Helium’s first excited state is 20.61 eV above its ground state, and neon’s metastable state is 20.66 eV above its ground state, drawn to scale. A collision transfers energy from excited helium to neon, putting neon in its metastable state. Neon then drops 1.96 eV to a lower level, emitting laser light, before returning to its ground state.</desc>
+<rect width="800" height="420" fill="#ffffff"/>
+<line x1="150" y1="370" x2="330" y2="370" stroke="#a5182f" stroke-width="2.4"/>
+<line x1="150" y1="112.38" x2="330" y2="112.38" stroke="#a5182f" stroke-width="2.4"/>
+<line x1="400" y1="370" x2="580" y2="370" stroke="#a5182f" stroke-width="2.4"/>
+<line x1="400" y1="111.75" x2="580" y2="111.75" stroke="#a5182f" stroke-width="2.4"/>
+<line x1="400" y1="136.25" x2="580" y2="136.25" stroke="#a5182f" stroke-width="2.4"/>
+<line x1="190" y1="370" x2="190" y2="125.38" stroke="#222222" stroke-width="2"/>
+<polygon points="190,113.38 195.2,126.38 184.8,126.38" fill="#222222"/>
+<text x="196" y="251.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20.61 </tspan><tspan font-style="normal">eV</tspan></text>
+<line x1="430" y1="361" x2="430" y2="121.75" stroke="#222222" stroke-width="1.4"/>
+<polygon points="430,112.75 434,122.75 426,122.75" fill="#222222"/>
+<polygon points="430,370 426,360 434,360" fill="#222222"/>
+<text x="436" y="251.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20.66 </tspan><tspan font-style="normal">eV</tspan></text>
+<line x1="540" y1="111.75" x2="540" y2="125.25" stroke="#222222" stroke-width="2"/>
+<polygon points="540,136.25 535.2,124.25 544.8,124.25" fill="#222222"/>
+<text x="532" y="130.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.96 </tspan><tspan font-style="normal">eV</tspan></text>
+<line x1="560" y1="136.25" x2="560" y2="358" stroke="#222222" stroke-width="1.6"/>
+<polygon points="560,369 555.2,357 564.8,357" fill="#222222"/>
+<text x="140" y="118.67" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">First</tspan></text>
+<text x="140" y="376.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ground</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">state</tspan></text>
+<text x="590" y="118.05" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Metastable</tspan></text>
+<text x="240" y="398.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Helium</tspan></text>
+<text x="490" y="398.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Neon</tspan></text>
+<path d="M 300 101.25 Q 360 51.25 420 101.25" fill="none" stroke="#666666" stroke-width="4" stroke-linejoin="round"/>
+<line x1="406" y1="92.5" x2="413.19" y2="98.12" stroke="#666666" stroke-width="4"/>
+<polygon points="422,105 409.4,101.34 415.4,93.66" fill="#666666"/>
+<text x="360" y="45.8" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Collision</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">transfers</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan></text>
+</svg>

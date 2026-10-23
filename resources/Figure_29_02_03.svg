@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="600" viewBox="0 0 820 600" role="img" aria-labelledby="title desc">
+<title id="title">The photoelectric effect</title>
+<desc id="desc">Kinetic energy KE_e of ejected electrons versus the frequency f of the light. No electrons are ejected below the threshold frequency f0 = BE/h; above it, KE_e = hf − BE rises in a straight line whose slope is Planck’s constant h.</desc>
+<rect width="820" height="600" fill="#ffffff"/>
+<line x1="120" y1="460" x2="745" y2="460" stroke="#333333" stroke-width="1.5"/>
+<polygon points="754,460 744,464 744,456" fill="#333333"/>
+<line x1="120" y1="460" x2="120" y2="55" stroke="#333333" stroke-width="1.5"/>
+<polygon points="120,46 124,56 116,56" fill="#333333"/>
+<line x1="275" y1="460" x2="716.75" y2="80" stroke="#7b1145" stroke-width="4"/>
+<text x="106" y="469.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="120" y="505.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="764" y="474.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="116" y="48.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">KE</tspan><tspan font-size="21" dy="8.4"><tspan font-style="normal">e</tspan></tspan><tspan dy="-8.4">​</tspan></text>
+<text x="399" y="150.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">KE</tspan><tspan font-size="21" dy="8.4"><tspan font-style="normal">e</tspan></tspan><tspan dy="-8.4">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">hf</tspan><tspan font-style="normal"> − </tspan><tspan font-style="normal">BE</tspan></text>
+<text x="269" y="505.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">0</tspan></tspan><tspan dy="-7.84">​</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="297" y="491.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">BE</tspan></text>
+<line x1="269" y1="498" x2="325" y2="498" stroke="#222222" stroke-width="1.8"/>
+<text x="297" y="531.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan></text>
+</svg>

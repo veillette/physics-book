@@ -330,7 +330,7 @@ and are only slightly scattered by electrons. Occasionally, (about once in 8000
 times in Rutherford’s experiment), an alpha hits a nucleus head-on and is
 scattered straight backward.
 
-![The image shows an enlarged view of atoms in gold foil having a diameter of ten to the power minus ten meter and a dot within it representing the nucleus. A few alpha rays are shown passing through the atoms. Some are scattered as they hit the nuclei while some are just passing through.](../resources/Figure_30_02_08.jpg 'An expanded view of the atoms in the gold foil in Rutherford’s experiment. Circles represent the atoms (about ( 10^{-10}\\text{m} ) in diameter), while the dots represent the nuclei (about ( 10^{-15}\\text{m} ) in diameter). To be visible, the dots are much larger than scale. Most alpha particles crash through but are relatively unaffected because of their high energy and the electron’s small mass. Some, however, head straight toward a nucleus and are scattered straight back. A detailed analysis gives the size and mass of the nucleus.')
+![The image shows an enlarged view of atoms in gold foil having a diameter of ten to the power minus ten meter and a dot within it representing the nucleus. A few alpha rays are shown passing through the atoms. Some are scattered as they hit the nuclei while some are just passing through.](../resources/Figure_30_02_08.svg 'An expanded view of the atoms in the gold foil in Rutherford’s experiment. Circles represent the atoms (about ( 10^{-10}\\text{m} ) in diameter), while the dots represent the nuclei (about ( 10^{-15}\\text{m} ) in diameter). To be visible, the dots are much larger than scale. Most alpha particles crash through but are relatively unaffected because of their high energy and the electron’s small mass. Some, however, head straight toward a nucleus and are scattered straight back. A detailed analysis gives the size and mass of the nucleus.')
 {: #Figure8}
 
 Based on the size and mass of the nucleus revealed by his experiment, as well as
@@ -345,7 +345,7 @@ See [[Figure 9]](#Figure9).) Note that a model or mental picture is needed to
 explain experimental results, since the atom is too small to be directly
 observed with visible light.
 
-![The image shows three elliptical orbits showing electrons’ movement around a positive nucleus. The movement of the electrons in the orbit shown with arrows are opposite to each other.](../resources/Figure_30_02_09.jpg 'Rutherford’s planetary model of the atom incorporates the characteristics of the nucleus, electrons, and the size of the atom. This model was the first to recognize the structure of atoms, in which low-mass electrons orbit a very small, massive nucleus in orbits much larger than the nucleus. The atom is mostly empty and is analogous to our planetary system.')
+![The image shows three elliptical orbits showing electrons’ movement around a positive nucleus. The movement of the electrons in the orbit shown with arrows are opposite to each other.](../resources/Figure_30_02_09.svg 'Rutherford’s planetary model of the atom incorporates the characteristics of the nucleus, electrons, and the size of the atom. This model was the first to recognize the structure of atoms, in which low-mass electrons orbit a very small, massive nucleus in orbits much larger than the nucleus. The atom is mostly empty and is analogous to our planetary system.')
 {: #Figure9}
 
 Rutherford’s planetary model of the atom was crucial to understanding the

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" role="img" aria-labelledby="title desc">
+<title id="title">Airplane slowing under constant acceleration</title>
+<desc id="desc">At 0 s the velocity is +70.0 m/s; at 40.0 s it is +10.0 m/s. Equal leftward acceleration vectors represent −1.50 m/s² in both states. Velocity vectors have a 7:1 length ratio.</desc>
+<rect width="720" height="330" fill="#ffffff"/>
+<polygon points="50,85 36.5,58 50,58 77,85" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<ellipse cx="140" cy="85" rx="108" ry="15.3" fill="#e3f2fd" stroke="#333333" stroke-width="2"/>
+<polygon points="126.5,85 81.5,116.5 104,116.5 171.5,85" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<rect x="81.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="99.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="117.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="135.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="153.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="171.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="189.5" y="77.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<ellipse cx="225.5" cy="81.4" rx="8.1" ry="4.5" fill="#81d4fa" stroke="#333333" stroke-width="1"/>
+<line x1="285" y1="75" x2="586" y2="75" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="600,75 585,81 585,69" fill="#5e9e1e"/>
+<text x="285" y="53.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#5e9e1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = 70.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="365" y1="125" x2="299" y2="125" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="285,125 300,119 300,131" fill="#6a3d9a"/>
+<text x="390" y="131.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#6a3d9a" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = −1.50 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="12.6" dy="-7.2"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.2">​</tspan></text>
+<text x="140" y="141.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.04">​</tspan><tspan font-style="normal"> = 0 </tspan><tspan font-style="normal">s</tspan></text>
+<polygon points="50,240 36.5,213 50,213 77,240" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<ellipse cx="140" cy="240" rx="108" ry="15.3" fill="#e3f2fd" stroke="#333333" stroke-width="2"/>
+<polygon points="126.5,240 81.5,271.5 104,271.5 171.5,240" fill="#90caf9" stroke="#333333" stroke-width="1.5"/>
+<rect x="81.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="99.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="117.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="135.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="153.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="171.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<rect x="189.5" y="232.8" width="8.1" height="7.2" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<ellipse cx="225.5" cy="236.4" rx="8.1" ry="4.5" fill="#81d4fa" stroke="#333333" stroke-width="1"/>
+<line x1="285" y1="230" x2="316" y2="230" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="330,230 315,236 315,224" fill="#5e9e1e"/>
+<text x="285" y="208.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#5e9e1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = 10.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="365" y1="280" x2="299" y2="280" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="285,280 300,274 300,286" fill="#6a3d9a"/>
+<text x="390" y="286.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#6a3d9a" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = −1.50 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="12.6" dy="-7.2"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.2">​</tspan></text>
+<text x="140" y="296.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan><tspan font-style="normal"> = 40.0 </tspan><tspan font-style="normal">s</tspan></text>
+</svg>

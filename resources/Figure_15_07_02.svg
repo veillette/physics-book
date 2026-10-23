@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="1000" viewBox="0 0 620 1000" role="img" aria-labelledby="title desc">
+<title id="title">Likely and unlikely states of a gas</title>
+<desc id="desc">(a) Gas molecules spread at random through their container, moving in random directions: a likely state. (b) The same molecules all crowded into one corner of the container: a highly unlikely state.</desc>
+<rect width="620" height="1000" fill="#ffffff"/>
+<rect x="10" y="10" width="600" height="395" fill="none" stroke="#222222" stroke-width="2"/>
+<line x1="318.84" y1="309.65" x2="286.06" y2="318.42" stroke="#222222" stroke-width="1.8"/>
+<polygon points="275.44,321.26 285.79,313.52 288.27,322.8" fill="#222222"/>
+<line x1="62.59" y1="376.3" x2="93.34" y2="350.39" stroke="#222222" stroke-width="1.8"/>
+<polygon points="101.75,343.3 95.66,354.7 89.48,347.36" fill="#222222"/>
+<line x1="526.1" y1="55.6" x2="583" y2="33.92" stroke="#222222" stroke-width="1.8"/>
+<polygon points="593.28,30 583.77,38.76 580.36,29.79" fill="#222222"/>
+<line x1="506.51" y1="126.38" x2="593.89" y2="59.46" stroke="#222222" stroke-width="1.8"/>
+<polygon points="602.62,52.77 596.01,63.88 590.18,56.26" fill="#222222"/>
+<line x1="153.17" y1="252.99" x2="206.24" y2="313.99" stroke="#222222" stroke-width="1.8"/>
+<polygon points="213.46,322.29 201.96,316.38 209.21,310.08" fill="#222222"/>
+<line x1="372.61" y1="189.3" x2="361.33" y2="125.48" stroke="#222222" stroke-width="1.8"/>
+<polygon points="359.41,114.65 366.23,125.63 356.77,127.3" fill="#222222"/>
+<line x1="255.38" y1="155.68" x2="273.95" y2="209.43" stroke="#222222" stroke-width="1.8"/>
+<polygon points="277.54,219.82 269.08,210.05 278.16,206.91" fill="#222222"/>
+<line x1="456.35" y1="317.44" x2="396.78" y2="380.07" stroke="#222222" stroke-width="1.8"/>
+<polygon points="389.2,388.04 394,376.04 400.95,382.65" fill="#222222"/>
+<line x1="106.84" y1="87.41" x2="211.25" y2="146.57" stroke="#222222" stroke-width="1.8"/>
+<polygon points="220.83,151.99 208.02,150.25 212.75,141.9" fill="#222222"/>
+<line x1="54.78" y1="257.27" x2="181.62" y2="261.3" stroke="#222222" stroke-width="1.8"/>
+<polygon points="192.61,261.65 180.46,266.07 180.77,256.47" fill="#222222"/>
+<line x1="542.77" y1="213.13" x2="579.35" y2="139" stroke="#222222" stroke-width="1.8"/>
+<polygon points="584.22,129.14 583.21,142.03 574.6,137.78" fill="#222222"/>
+<line x1="375.06" y1="99.96" x2="409.37" y2="190.07" stroke="#222222" stroke-width="1.8"/>
+<polygon points="413.28,200.35 404.53,190.84 413.5,187.42" fill="#222222"/>
+<line x1="237.38" y1="66.65" x2="327.74" y2="39.03" stroke="#222222" stroke-width="1.8"/>
+<polygon points="338.26,35.82 328.19,43.91 325.38,34.73" fill="#222222"/>
+<line x1="305.5" y1="233.6" x2="320.83" y2="283.72" stroke="#222222" stroke-width="1.8"/>
+<polygon points="324.04,294.24 315.94,284.17 325.12,281.36" fill="#222222"/>
+<line x1="245.57" y1="311.85" x2="287.41" y2="284.16" stroke="#222222" stroke-width="1.8"/>
+<polygon points="296.58,278.09 289.22,288.72 283.93,280.71" fill="#222222"/>
+<circle cx="318.84" cy="309.65" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="62.59" cy="376.3" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="526.1" cy="55.6" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="506.51" cy="126.38" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="153.17" cy="252.99" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="372.61" cy="189.3" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="255.38" cy="155.68" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="456.35" cy="317.44" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="106.84" cy="87.41" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="54.78" cy="257.27" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="542.77" cy="213.13" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="375.06" cy="99.96" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="237.38" cy="66.65" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="305.5" cy="233.6" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="245.57" cy="311.85" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<text x="40" y="452" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="310" y="454.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Likely</tspan></text>
+<rect x="10" y="535" width="600" height="395" fill="none" stroke="#222222" stroke-width="2"/>
+<line x1="22.02" y1="873.6" x2="43.1" y2="830.82" stroke="#222222" stroke-width="1.8"/>
+<polygon points="47.96,820.96 46.96,833.84 38.35,829.6" fill="#222222"/>
+<line x1="179.42" y1="895.44" x2="146.65" y2="867.77" stroke="#222222" stroke-width="1.8"/>
+<polygon points="138.24,860.68 150.51,864.75 144.31,872.09" fill="#222222"/>
+<line x1="163.25" y1="784.16" x2="203.41" y2="780.5" stroke="#222222" stroke-width="1.8"/>
+<polygon points="214.37,779.5 202.85,785.37 201.98,775.81" fill="#222222"/>
+<line x1="158.43" y1="831.91" x2="143.19" y2="789.56" stroke="#222222" stroke-width="1.8"/>
+<polygon points="139.46,779.21 148.04,788.87 139.01,792.12" fill="#222222"/>
+<line x1="94.64" y1="908.49" x2="85.05" y2="894.04" stroke="#222222" stroke-width="1.8"/>
+<polygon points="78.96,884.87 89.6,892.21 81.6,897.52" fill="#222222"/>
+<line x1="91.36" y1="778.48" x2="114.47" y2="738.93" stroke="#222222" stroke-width="1.8"/>
+<polygon points="120.02,729.44 118.11,742.22 109.82,737.37" fill="#222222"/>
+<line x1="92.02" y1="858.73" x2="70.84" y2="848.91" stroke="#222222" stroke-width="1.8"/>
+<polygon points="60.86,844.29 73.76,844.98 69.73,853.69" fill="#222222"/>
+<line x1="60.13" y1="893.33" x2="90.05" y2="866.44" stroke="#222222" stroke-width="1.8"/>
+<polygon points="98.23,859.09 92.52,870.68 86.1,863.54" fill="#222222"/>
+<line x1="89.08" y1="886.98" x2="42.86" y2="895.88" stroke="#222222" stroke-width="1.8"/>
+<polygon points="32.05,897.95 42.93,890.97 44.74,900.4" fill="#222222"/>
+<line x1="185.95" y1="793.68" x2="214.61" y2="812.14" stroke="#222222" stroke-width="1.8"/>
+<polygon points="223.86,818.09 211.17,815.63 216.37,807.56" fill="#222222"/>
+<line x1="135.98" y1="786.33" x2="119.04" y2="819.72" stroke="#222222" stroke-width="1.8"/>
+<polygon points="114.06,829.53 115.21,816.65 123.77,821" fill="#222222"/>
+<line x1="124.35" y1="900.74" x2="135.95" y2="890.73" stroke="#222222" stroke-width="1.8"/>
+<polygon points="144.28,883.55 138.33,895.02 132.06,887.75" fill="#222222"/>
+<line x1="61.57" y1="864.17" x2="73.23" y2="855.66" stroke="#222222" stroke-width="1.8"/>
+<polygon points="82.12,849.18 75.25,860.13 69.6,852.37" fill="#222222"/>
+<line x1="151.48" y1="860.76" x2="164.29" y2="906.24" stroke="#222222" stroke-width="1.8"/>
+<polygon points="167.28,916.82 159.4,906.58 168.64,903.97" fill="#222222"/>
+<line x1="70.83" y1="789.45" x2="44.6" y2="776.92" stroke="#222222" stroke-width="1.8"/>
+<polygon points="34.68,772.18 47.57,773.02 43.44,781.69" fill="#222222"/>
+<line x1="190.8" y1="848.23" x2="238.23" y2="857.75" stroke="#222222" stroke-width="1.8"/>
+<polygon points="249.02,859.92 236.31,862.26 238.2,852.85" fill="#222222"/>
+<line x1="117.74" y1="867.61" x2="98.17" y2="822.78" stroke="#222222" stroke-width="1.8"/>
+<polygon points="93.77,812.69 102.97,821.77 94.17,825.61" fill="#222222"/>
+<line x1="107.19" y1="824.02" x2="124.02" y2="822.43" stroke="#222222" stroke-width="1.8"/>
+<polygon points="134.97,821.39 123.48,827.3 122.57,817.74" fill="#222222"/>
+<line x1="146.74" y1="810.92" x2="175.84" y2="810.62" stroke="#222222" stroke-width="1.8"/>
+<polygon points="186.84,810.51 174.89,815.43 174.79,805.83" fill="#222222"/>
+<circle cx="22.02" cy="873.6" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="179.42" cy="895.44" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="163.25" cy="784.16" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="158.43" cy="831.91" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="94.64" cy="908.49" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="91.36" cy="778.48" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="92.02" cy="858.73" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="60.13" cy="893.33" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="89.08" cy="886.98" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="185.95" cy="793.68" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="135.98" cy="786.33" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="124.35" cy="900.74" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="61.57" cy="864.17" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="151.48" cy="860.76" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="70.83" cy="789.45" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="190.8" cy="848.23" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="117.74" cy="867.61" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="107.19" cy="824.02" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<circle cx="146.74" cy="810.92" r="7" fill="#5a9e86" stroke="#2f6f58" stroke-width="1.5"/>
+<text x="40" y="977" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<text x="310" y="979.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Highly</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">unlikely</tspan></text>
+</svg>

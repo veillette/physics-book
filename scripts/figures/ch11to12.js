@@ -10,7 +10,7 @@
  * flow around a slowly moving sphere uses a qualitative, symmetric
  * streamline sketch. The higher-speed panels show separation and a wake.
  */
-import { COLORS, Svg, rad } from './svg.js';
+import { COLORS, Svg, fmt, rad } from './svg.js';
 
 const WATER = '#c7e3f3';
 const WATER_EDGE = '#7fb6d6';
@@ -181,7 +181,135 @@ function negativePressure() {
   return svg.render();
 }
 
+/** Catmull-Rom curve through the points, sampled `n` times per segment. */
+function through(points, n = 12) {
+  const P = k => points[Math.max(0, Math.min(points.length - 1, k))];
+  const out = [points[0]];
+  for (let k = 0; k < points.length - 1; k += 1) {
+    const [p0, p1, p2, p3] = [P(k - 1), P(k), P(k + 1), P(k + 2)];
+    for (let j = 1; j <= n; j += 1) {
+      const t = j / n;
+      const t2 = t * t;
+      const t3 = t2 * t;
+      out.push(
+        [0, 1].map(
+          i =>
+            0.5 *
+            (2 * p1[i] +
+              (p2[i] - p0[i]) * t +
+              (2 * p0[i] - 5 * p1[i] + 4 * p2[i] - p3[i]) * t2 +
+              (3 * p1[i] - p0[i] - 3 * p2[i] + p3[i]) * t3)
+        )
+      );
+    }
+  }
+  return out;
+}
+
+/** Curve through the points with an arrowhead at its end. */
+function flowArrow(svg, points, { color = FLOW, width = 2.5 } = {}) {
+  const pts = through(points);
+  svg.polyline(pts.slice(0, -2), { color, width });
+  svg.arrow(...pts.at(-4), ...pts.at(-1), { color, width, head: 14 });
+}
+
+/** A curling flow arrow: an arc of radius r about (x, y) from a1 to a2 (degrees, y down). */
+function curl(svg, x, y, r, a1, a2, { color = FLOW, width = 2.5 } = {}) {
+  const pts = [];
+  for (let k = 0; k <= 20; k += 1) {
+    const a = rad(a1 + ((a2 - a1) * k) / 20);
+    pts.push([x + r * Math.cos(a), y + r * Math.sin(a)]);
+  }
+  svg.polyline(pts.slice(0, -3), { color, width });
+  svg.arrow(...pts[16], ...pts[20], { color, width, head: 11 });
+}
+
+/** Smooth closed outline through n points around (cx, cy) at radii r(1 ± wobble). */
+function blobPath(cx, cy, r, rnd, { n = 7, wobble = 0.25, stretch = 1 } = {}) {
+  const pts = [];
+  for (let k = 0; k < n; k += 1) {
+    const a = (2 * Math.PI * k) / n;
+    const rr = r * (1 - wobble + 2 * wobble * rnd());
+    pts.push([cx + rr * stretch * Math.cos(a), cy + rr * Math.sin(a)]);
+  }
+  const P = k => pts[(k + n) % n];
+  const f = ([x, y]) => `${fmt(x)} ${fmt(y)}`;
+  let d = `M ${f(pts[0])}`;
+  for (let k = 0; k < n; k += 1) {
+    const [p0, p1, p2, p3] = [P(k - 1), P(k), P(k + 1), P(k + 2)];
+    const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6];
+    const c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
+    d += ` C ${f(c1)} ${f(c2)} ${f(p2)}`;
+  }
+  return `${d} Z`;
+}
+
+/** Radial gradient with a white highlight, for molecules drawn as shaded blobs. */
+function shadeDef(svg, id, mid, edge) {
+  svg.add(
+    `<defs><radialGradient id="${id}" cx="0.5" cy="0.45" r="0.55"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="${mid}"/><stop offset="1" stop-color="${edge}"/></radialGradient></defs>`
+  );
+}
+
 export default {
+  // 11.2 Fig. 1 — a ton of feathers balances a ton of bricks
+  Figure_11_02_01: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 350,
+      title: 'A ton of feathers and a ton of bricks',
+      desc: 'A plank rests on a small support at its middle. A tall, wide pile of feathers sits on the left end and a small stack of bricks on the right end, the same distance from the support, and the plank balances. The two loads have the same mass, but the feathers take up far more room because their density is much lower.',
+    });
+    const G = 300;
+    const rnd = rng(7);
+    svg.line(0, G, 1000, G, { color: '#7fae7f', width: 1.5 });
+    for (let x = 6; x < 1000; x += 7 + 6 * rnd()) {
+      const h = 4 + 8 * rnd();
+      svg.line(x, G, x + (rnd() - 0.5) * 8, G - h, { color: '#5f9a6a', width: 1.3 });
+    }
+    svg.polygon(
+      [
+        [500, 266],
+        [474, G],
+        [526, G],
+      ],
+      { fill: '#d8c79f', stroke: '#a8935f', width: 1.5 }
+    );
+    svg.rect(0, 250, 1000, 16, { fill: '#d8c79f', stroke: '#a8935f', width: 1.5 });
+    // Equal loads balance at equal distances: both centered 325 from the support.
+    svg.path('M 10 250 C 0 150 40 30 135 12 C 175 2 235 2 265 30 C 325 80 335 180 340 250 Z', {
+      color: '#c9a54a',
+      width: 1.5,
+      fill: '#f0dca0',
+    });
+    for (let k = 0; k < 110; k += 1) {
+      const y = 30 + 205 * rnd();
+      const half = 50 + ((y - 30) / 205) * 105;
+      const x = 175 + (2 * rnd() - 1) * half;
+      const a = 360 * rnd();
+      svg.add(
+        `<g transform="translate(${fmt(x)} ${fmt(y)}) rotate(${fmt(a)}) scale(${fmt(0.7 + 0.5 * rnd())})"><path d="M -12 0 Q 0 -6 12 0 Q 0 6 -12 0 Z" fill="#e3bd5c" stroke="#b98f2c" stroke-width="0.8"/><path d="M -16 0 L 12 0" stroke="#a37d24" stroke-width="1"/></g>`
+      );
+    }
+    const [bx, bw, rows, rh, brick] = [771, 108, 5, 12, 27];
+    svg.rect(bx, 250 - rows * rh, bw, rows * rh, { fill: '#f1d4d0' });
+    for (let r = 0; r < rows; r += 1) {
+      const y = 250 - (r + 1) * rh;
+      for (let x = bx - (r % 2 ? brick / 2 : 0); x < bx + bw; x += brick) {
+        const x0 = Math.max(bx, x);
+        const x1 = Math.min(bx + bw, x + brick);
+        svg.rect(x0 + 1, y + 1, x1 - x0 - 2, rh - 2, {
+          fill: '#c0504d',
+          stroke: '#8f2f2c',
+          width: 0.8,
+        });
+      }
+    }
+    note(svg, 175, 330, '1 ton of feathers', { size: 22 });
+    note(svg, 825, 330, '1 ton of bricks', { size: 22 });
+    return svg.render();
+  },
+
   // 11.4 Fig. 1 — the bottom supports the weight of the fluid
   Figure_11_04_01: () => {
     const svg = new Svg({
@@ -333,7 +461,8 @@ export default {
     }
     svg.leader(270, 180, x0 + w + d + 4, 186, { bend: 0.4, width: 1.6 });
     lab(svg, 280, 180, 'w = 1.01 × 10^5 \\rm{N}', { anchor: 'start', size: 26 });
-    lab(svg, x0 + w + d + 24, g - 4, '1 \\rm{m}^2', { anchor: 'start', size: 26 });
+    // Beside the base, on the ground rather than across the ground line.
+    lab(svg, x0 + w + 14, g + 24, '1 \\rm{m}^2', { anchor: 'start', size: 26 });
     return svg.render();
   },
 
@@ -452,7 +581,8 @@ export default {
     lab(svg, 480, 310, 'P_2');
     lab(svg, 200, 290, 'A_1', { anchor: 'start', size: 22 });
     svg.leader(200, 280, 140, yP + 28, { bend: 0.3, width: 1.3 });
-    lab(svg, 380, 300, 'A_2', { anchor: 'end', size: 22 });
+    lab(svg, 352, 292, 'A_2', { anchor: 'end', size: 22 });
+    svg.leader(356, 282, 440, yP + 28, { bend: -0.3, width: 1.3 });
     lab(svg, 304, 404, 'P_1 = P_2');
     return svg.render();
   },
@@ -574,7 +704,7 @@ export default {
     lab(svg, 100, 380, 'P_{atm}');
     note(svg, tx + 2, dish + 10, '×', { size: 22 });
     svg.leader(330, 440, tx + 8, dish + 4, { bend: 0.3, width: 1.4 });
-    lab(svg, 340, 436, 'P_{abs} = hρg = P_{atm}', { anchor: 'start', size: 22 });
+    lab(svg, 340, 436, 'P_{abs} = \\it{hρg} = P_{atm}', { anchor: 'start', size: 22 });
     lab(svg, 400, 520, '\\rm{Hg}');
     return svg.render();
   },
@@ -583,7 +713,7 @@ export default {
   Figure_11_07_02: () => {
     const svg = new Svg({
       width: 700,
-      height: 560,
+      height: 590,
       title: 'Origin of the buoyant force',
       desc: 'A cylinder of cross-sectional area A is submerged in a fluid of density ρ, with its top at depth h1 and its bottom at depth h2. The fluid pushes down on the top with force F1 = P1A = h1ρgA and up on the bottom with the larger force F2 = P2A = h2ρgA, because pressure increases with depth. Their difference is the buoyant force, F_B = F2 − F1. The horizontal forces cancel.',
     });
@@ -591,6 +721,8 @@ export default {
     const x1 = 330;
     const surf = 110;
     svg.rect(x0, surf, x1 - x0, 410, { fill: '#a9c9dc' });
+    // The fluid fills the rounded bottom too.
+    svg.add(`<path d="M ${x0} 520 A ${(x1 - x0) / 2} 28 0 0 0 ${x1} 520 Z" fill="#a9c9dc"/>`);
     svg.ellipse((x0 + x1) / 2, surf, (x1 - x0) / 2, 24, {
       fill: '#b7d6ea',
       stroke: WATER_EDGE,
@@ -613,16 +745,18 @@ export default {
     svg.arrow(cx, yB + 120, cx, yB + 4, { color: FORCE, width: 5, head: 20 });
     lab(svg, cx + 18, yT - 60, '**F**_1', { anchor: 'start' });
     lab(svg, cx + 18, yB + 90, '**F**_2', { anchor: 'start' });
-    vdim(svg, 60, surf, yT, 'h_1', { side: 1 });
-    vdim(svg, 90, surf, yB, 'h_2', { side: 1 });
+    // Far enough apart that the h_1 label clears the h_2 line.
+    vdim(svg, 50, surf, yT, 'h_1', { side: 1 });
+    vdim(svg, 102, surf, yB, 'h_2', { side: 1 });
     svg.leader(150, 180, cx - 40, yT - 8, { bend: -0.3, width: 1.4 });
     lab(svg, 140, 178, 'A', { anchor: 'end' });
     svg.leader(140, 450, cx - 40, yB + 10, { bend: 0.3, width: 1.4 });
     lab(svg, 130, 452, 'A', { anchor: 'end' });
-    lab(svg, 360, 200, 'F_1 = P_1A = h_1ρgA', { anchor: 'start' });
+    lab(svg, 360, 200, 'F_1 = P_1A = h_1\\it{ρgA}', { anchor: 'start' });
     lab(svg, 400, 320, 'F_B = F_2 − F_1', { anchor: 'start' });
-    lab(svg, 360, 460, 'F_2 = P_2A = h_2ρgA', { anchor: 'start' });
-    note(svg, 100, 548, 'Fluid of density ρ', { anchor: 'start', size: 22 });
+    lab(svg, 360, 460, 'F_2 = P_2A = h_2\\it{ρgA}', { anchor: 'start' });
+    // Below the vessel's rounded bottom.
+    note(svg, 180, 574, 'Fluid of density \\it{ρ}', { size: 22 });
     return svg.render();
   },
 
@@ -657,7 +791,11 @@ export default {
       const wLen = obj ? 110 : 56;
       svg.arrow(cx - 30, 290, cx - 30, 290 + wLen, { color: FORCE, width: 4, head: 16 });
       svg.arrow(cx + 40, 350, cx + 40, 294, { color: FORCE, width: 4, head: 16 });
-      lab(svg, cx - 30, 290 + wLen + 22, obj ? '**w**_{obj}' : '**w**_{fl}', { size: 21 });
+      // Beside the arrow tip, inside the frame.
+      lab(svg, cx - 44, 290 + wLen - 12, obj ? '**w**_{obj}' : '**w**_{fl}', {
+        size: 21,
+        anchor: 'end',
+      });
       lab(svg, cx + 40, 374, '**F**_B', { size: 21 });
       note(svg, x0 + 250, 50, 'Free-body', { size: 18 });
       note(svg, x0 + 250, 72, 'diagram', { size: 18 });
@@ -696,8 +834,11 @@ export default {
       svg.line(232, y, 232 + (k % 5 ? 10 : 18), y, { color: '#4a6a94', width: 1.5 });
       if (k % 5 === 0) svg.text(256, y, sg.toFixed(2), { size: 24, math: false, anchor: 'start' });
     }
-    note(svg, 340, Y(1.0) + 160, 'lead', { anchor: 'start' });
-    note(svg, 340, 120, 'air', { anchor: 'start' });
+    // Leaders: the air is inside the glass, not the space above the fluid.
+    note(svg, 350, Y(1.0) + 165, 'lead', { anchor: 'start' });
+    svg.leader(344, Y(1.0) + 160, 288, Y(1.0) + 150, { bend: 0.2, width: 1.3 });
+    note(svg, 350, Y(1.0) + 60, 'air', { anchor: 'start' });
+    svg.leader(344, Y(1.0) + 60, 290, Y(1.0) + 85, { bend: -0.2, width: 1.3 });
     return svg.render();
   },
 
@@ -730,10 +871,15 @@ export default {
     note(svg, 420, 420, 'Wire', { size: 22 });
     svg.leader(420, 404, 376, 362, { bend: 0.3, width: 1.4 });
     // Side view.
+    // Two film surfaces that thin toward the middle but never meet.
+    svg.path('M 130 534 Q 300 542 470 534 L 470 546 Q 300 538 130 546 Z', {
+      color: 'none',
+      fill: '#cbd2ec',
+    });
+    svg.path('M 130 534 Q 300 542 470 534', { color: '#5b8fd1', width: 2 });
+    svg.path('M 130 546 Q 300 538 470 546', { color: '#5b8fd1', width: 2 });
     svg.circle(120, 540, 12, { fill: '#cccccc', stroke: '#777777', width: 1.2 });
     svg.circle(480, 540, 12, { fill: '#cccccc', stroke: '#777777', width: 1.2 });
-    svg.path('M 130 534 Q 300 546 470 534', { color: '#5b8fd1', width: 2 });
-    svg.path('M 130 546 Q 300 534 470 546', { color: '#5b8fd1', width: 2 });
     note(svg, 300, 580, 'Side view', { size: 22 });
     return svg.render();
   },
@@ -823,8 +969,12 @@ export default {
       beaker(svg, 30, 330, 200, 420, level, { fill: '#cbd8ea' });
       svg.rect(140, level, 70, 120, { fill: '#cbd8ea' });
       svg.rect(140, level - 10, 70, 10, { fill: '#ffffff' });
-      svg.rect(140, level + h - 10, 70, 10, { fill: '#cbd8ea' });
-      svg.rect(140, level, 70, h - 10, { fill: '#ffffff' });
+      // Inside the tube the mercury stands h lower and bulges up into a
+      // convex meniscus.
+      svg.rect(140, level, 70, h, { fill: '#ffffff' });
+      svg.add(
+        `<path d="M 140 ${level + h} L 142 ${level + h} Q 175 ${level + h - 22} 208 ${level + h} L 210 ${level + h} Z" fill="#cbd8ea"/>`
+      );
       for (const x of [140, 210]) svg.line(x, 60, x, 400, { color: GLASS, width: 4 });
       svg.path(`M 142 ${level + h} Q 175 ${level + h - 22} 208 ${level + h}`, {
         color: '#4a3a8a',
@@ -1118,7 +1268,8 @@ export default {
       const left = x0 + 240;
       const right = x0 + 320;
       const stagnationY = pitot ? 120 : 160;
-      const staticY = pitot ? 98 : 60;
+      // In (a) the static tube lies in the gap between streamlines.
+      const staticY = pitot ? 98 : 95;
       const channel = d => {
         svg.path(d, { color: '#9a8bb0', width: 20 });
         svg.path(d, { color: '#eee8f4', width: 16 });
@@ -1141,9 +1292,11 @@ export default {
       svg.line(left - 10, 185, right + 30, 185, { color: COLORS.black, width: 1.2, dash: '5 4' });
       vdim(svg, right + 30, 145, 185, 'h', { size: 20 });
       lab(svg, x0 + 48, stagnationY, '1', { anchor: 'end', size: 18, math: false });
-      lab(svg, x0 + 140, staticY - 22, '2', { size: 18, math: false });
-      lab(svg, x0 + 20, 220, 'v_1 = 0', { anchor: 'start', size: 18 });
-      lab(svg, x0 + 120, 26, 'v_2', { size: 18 });
+      lab(svg, x0 + 132, staticY - 18, '2', { size: 18, math: false });
+      lab(svg, x0 + 20, 222, 'v_1 = 0', { anchor: 'start', size: 18 });
+      svg.leader(x0 + 30, 210, x0 + 52, stagnationY + 8, { bend: -0.3, width: 1.2 });
+      lab(svg, x0 + 176, 22, 'v_2', { anchor: 'start', size: 18 });
+      svg.leader(x0 + 172, 24, x0 + 120, staticY - 14, { bend: 0.25, width: 1.2 });
       caption(svg, x0 + 190, 316, cap);
     };
     panel(10, false, '(a)');
@@ -1185,18 +1338,21 @@ export default {
       );
     }
     // The entrained fluid comes down the side tube and turns to join the flow.
+    // It runs down the side tube, turns the corner, and flows on with the
+    // main stream just inside the upper wall.
     const ent = [];
-    for (let k = 0; k <= 40; k += 1) {
-      const u = k / 40;
-      const x = 380 + 110 * u ** 2;
-      const yTop = yc - r(x) + 14;
-      ent.push([x, 50 + (yTop - 50) * Math.sqrt(u)]);
+    for (let y = 50; y < 150; y += 4) ent.push([380, y]);
+    for (let k = 0; k <= 8; k += 1) {
+      const a = (k / 8) * (Math.PI / 2);
+      ent.push([380 + 24 * (1 - Math.cos(a)), 151.5 + 24 * Math.sin(a)]);
     }
-    streamline(svg, ent, { width: 3, at: [0.3] });
+    for (let x = 408; x <= 720; x += 4) ent.push([x, yc - 0.78 * r(x)]);
+    streamline(svg, ent, { width: 3, at: [0.12, 0.62, 0.9] });
     note(svg, 430, 30, 'Entrained fluid', { anchor: 'start', size: 26 });
     svg.leader(426, 30, 386, 60, { bend: 0.3, width: 1.5 });
-    note(svg, 70, 140, 'Fluid flow', { anchor: 'start', size: 26 });
-    svg.arrow(210, 140, 300, 172, { color: COLORS.black, width: 1.8, head: 12 });
+    // Above the tube, so no streamline runs through the label.
+    note(svg, 70, 80, 'Fluid flow', { anchor: 'start', size: 26 });
+    svg.arrow(150, 96, 230, 146, { color: COLORS.black, width: 1.8, head: 12 });
     note(svg, 380, 380, 'Venturi constriction', { size: 26 });
     svg.leader(380, 356, 380, yc + r(380) + 4, { bend: 0.3, width: 1.5 });
     return svg.render();
@@ -1234,6 +1390,136 @@ export default {
     jet(111, -1.7, 0.4, 55);
     note(svg, 620, 368, 'Leak 1', { size: 30 });
     note(svg, 70, 382, 'Leak 2', { size: 30 });
+    return svg.render();
+  },
+
+  // 12.4 Fig. 2 — laminar layers versus turbulence behind an obstruction
+  Figure_12_04_02: () => {
+    const svg = new Svg({
+      width: 930,
+      height: 350,
+      title: 'Laminar and turbulent flow',
+      desc: '(a) Laminar flow over a smooth fixed surface: the fluid moves right in layers that do not mix. The top layer moves fastest, at vt, and each layer below is slower, down to vb next to the surface, because friction acts between the layers and with the surface. (b) An obstruction on the bottom makes the flow turbulent: streamlines that start out smooth break into swirling eddies over and behind it. The fluid approaches at speed v both near the top and near the bottom.',
+    });
+    // (a) Five layers, slowest at the bottom.
+    const bands = ['#7d97c6', '#a3b5d6', '#bcc6e2', '#d6dcec', '#eef1f7'];
+    const [ax0, ax1, top, floor] = [5, 410, 10, 230];
+    const bh = (floor - top) / bands.length;
+    svg.add(
+      '<defs><linearGradient id="sand_a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e5bf5a"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>'
+    );
+    svg.rect(ax0, floor, ax1 - ax0, 35, { fill: 'url(#sand_a)' });
+    bands.forEach((c, k) => svg.rect(ax0, top + k * bh, ax1 - ax0, bh, { fill: c }));
+    const wavy = y =>
+      svg.polyline(
+        Array.from({ length: 41 }, (_, j) => [
+          ax0 + ((ax1 - ax0) * j) / 40,
+          y + 1.6 * Math.sin(j * 1.3) + Math.sin(j * 0.45),
+        ]),
+        { color: '#8a8f9a', width: 1.4 }
+      );
+    for (let k = 1; k <= bands.length; k += 1) wavy(top + k * bh);
+    bands.forEach((_, k) => {
+      const yc = top + (k + 0.5) * bh;
+      svg.arrow(98, yc, 98 + 40 + 0.6 * (floor - yc), yc, { color: GREEN, width: 2.5, head: 15 });
+    });
+    lab(svg, 72, top + bh / 2, 'v_t');
+    lab(svg, 72, floor - bh / 2, 'v_b');
+    svg.squiggle(330, 278, 330, top + 2 * bh, { waves: 2.5, amp: 5 });
+    svg.squiggle(378, 278, 378, top + 4 * bh, { waves: 2, amp: 5 });
+    note(svg, 300, 296, 'Friction between layers', { size: 20 });
+    caption(svg, 207, 334, '(a)');
+
+    // (b) Turbulence over and behind an obstruction.
+    svg.add(
+      '<defs><linearGradient id="fluid_b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3e6ee"/><stop offset="1" stop-color="#b9c2da"/></linearGradient></defs>'
+    );
+    svg.path('M 425 40 C 520 30 600 22 680 34 C 760 46 830 6 925 22 L 925 300 L 425 300 Z', {
+      color: '#9aa2b4',
+      width: 1.2,
+      fill: 'url(#fluid_b)',
+    });
+    const ground = [
+      [425, 240],
+      [560, 234],
+      [582, 212],
+      [610, 214],
+      [626, 190],
+      [652, 162],
+      [700, 166],
+      [722, 155],
+      [790, 158],
+      [806, 172],
+      [848, 268],
+      [925, 272],
+    ];
+    svg.polygon([...ground, [925, 300], [425, 300]], { fill: '#e5bf5a', stroke: '#c9a03b' });
+    const rnd = rng(11);
+    for (let k = 0; k < 26; k += 1) {
+      const x = 440 + 470 * rnd();
+      let y = 0;
+      for (let j = 0; j < ground.length - 1; j += 1)
+        if (x >= ground[j][0] && x <= ground[j + 1][0])
+          y =
+            ground[j][1] +
+            ((x - ground[j][0]) / (ground[j + 1][0] - ground[j][0])) *
+              (ground[j + 1][1] - ground[j][1]);
+      const yy = y + 12 + (295 - y - 18) * rnd();
+      svg.path(blobPath(x, yy, 4 + 4 * rnd(), rnd, { n: 5, wobble: 0.5, stretch: 2 }), {
+        color: 'none',
+        width: 0,
+        fill: '#c9a03b',
+      });
+    }
+    flowArrow(svg, [
+      [425, 52],
+      [600, 46],
+      [760, 52],
+      [925, 60],
+    ]);
+    flowArrow(svg, [
+      [425, 108],
+      [520, 84],
+      [630, 80],
+      [700, 92],
+      [736, 116],
+    ]);
+    flowArrow(svg, [
+      [425, 168],
+      [500, 128],
+      [580, 116],
+      [636, 136],
+    ]);
+    flowArrow(svg, [
+      [425, 226],
+      [462, 188],
+      [505, 182],
+      [544, 198],
+      [556, 216],
+    ]);
+    flowArrow(svg, [
+      [786, 98],
+      [850, 108],
+      [920, 150],
+    ]);
+    for (const [x, y, s] of [
+      [596, 210, 1],
+      [660, 136, -1],
+      [744, 128, 1],
+      [800, 140, -1],
+      [856, 186, 1],
+      [880, 236, -1],
+      [690, 44, 1],
+      [748, 82, -1],
+    ]) {
+      curl(svg, x, y, 15, s * -100, s * 110);
+      curl(svg, x + 4, y + 2, 11, s * 80 + 180, s * 280 + 180, { color: '#ffffff', width: 3 });
+    }
+    svg.arrow(445, 32, 630, 32, { color: GREEN, width: 3, head: 16 });
+    lab(svg, 436, 32, 'v', { anchor: 'end' });
+    svg.arrow(482, 226, 548, 226, { color: GREEN, width: 3, head: 16 });
+    lab(svg, 474, 226, 'v', { anchor: 'end' });
+    caption(svg, 675, 334, '(b)');
     return svg.render();
   },
 
@@ -1343,6 +1629,8 @@ export default {
     svg.add(`<path d="${center}" fill="none" stroke="#80858c" stroke-width="104"/>`);
     svg.add(`<path d="${center}" fill="none" stroke="${METAL}" stroke-width="100"/>`);
     svg.add(`<path d="${center}" fill="none" stroke="${PIPEW}" stroke-width="78"/>`);
+    // The air tube opens into the pipe: water rises a little into its base.
+    svg.rect(227, 350, 91, 28, { fill: PIPEW });
     // Union nut on the pipe
     svg.rect(395, 355, 40, 16, { fill: METAL, stroke: '#80858c', width: 1.2 });
     svg.rect(395, 459, 40, 16, { fill: METAL, stroke: '#80858c', width: 1.2 });
@@ -1406,9 +1694,18 @@ export default {
       const pts = top.filter(([x]) => x < 360).map(([x]) => [x, yc + f * r(x)]);
       streamline(svg, pts, { at: [0.35, 0.8] });
     }
+    // Eddies, kept off the v2 and v3 arrows and the v3 label.
     const rnd = rng(5);
-    for (let k = 0; k < 16; k += 1)
-      eddy(svg, 380 + 340 * rnd(), yc + (rnd() - 0.5) * 80, rnd() > 0.5 ? 1 : -1);
+    const clear = [
+      [350, 425, yc - 4, yc + 30],
+      [525, 605, yc - 12, yc + 46],
+    ];
+    for (let k = 0; k < 16;) {
+      const [x, y, turn] = [380 + 340 * rnd(), yc + (rnd() - 0.5) * 80, rnd() > 0.5 ? 1 : -1];
+      if (clear.some(([x1, x2, y1, y2]) => x > x1 && x < x2 && y > y1 && y < y2)) continue;
+      eddy(svg, x, y, turn);
+      k += 1;
+    }
     svg.arrow(70, yc + 20, 120, yc + 20, { color: GREEN, width: 3.5, head: 14 });
     lab(svg, 130, yc + 20, 'v_1', { anchor: 'start' });
     svg.arrow(360, yc + 14, 410, yc + 14, { color: GREEN, width: 3.5, head: 14 });
@@ -1502,10 +1799,14 @@ export default {
       if (kind !== 'a') {
         const rnd = rng(kind === 'b' ? 3 : 9);
         const n = kind === 'b' ? 7 : 22;
-        for (let i = 0; i < n; i += 1) {
+        for (let i = 0; i < n;) {
           const x = c[0] - R - 8 - rnd() * (kind === 'b' ? 50 : 100);
           const y = c[1] + (rnd() - 0.5) * (kind === 'b' ? 80 : 150);
-          eddy(svg, x, y, rnd() > 0.5 ? 1 : -1);
+          const turn = rnd() > 0.5 ? 1 : -1;
+          // Leave the drag arrow and its label clear.
+          if (y > c[1] - 12 && y < c[1] + 38) continue;
+          eddy(svg, x, y, turn);
+          i += 1;
         }
       }
       svg.circle(...c, R, { fill: '#f2b3b8', stroke: '#b46b72', width: 1.5 });
@@ -1670,11 +1971,112 @@ export default {
     return svg.render();
   },
 
+  // 12.7 Fig. 3 — passage through pores, and dissolving in the membrane
+  Figure_12_07_03: () => {
+    const svg = new Svg({
+      width: 875,
+      height: 545,
+      title: 'Two ways molecules cross a membrane',
+      desc: '(a) A semipermeable membrane drawn as a column of blocks separated by narrow gaps, the pores. Molecules of many sizes lie on both sides. Only the smallest fit through the pores: one small molecule passes right and another passes left, while the large molecules stay where they are. (b) Molecules packed closely on both sides of a solid membrane. A few of them have dissolved in the membrane and are diffusing across it.',
+    });
+    const BG = '#e3e7f3';
+    const MEM = '#a48fb8';
+    const MEM_EDGE = '#7d6a93';
+    shadeDef(svg, 'mol_pink', '#f6c4c9', '#e48893');
+    shadeDef(svg, 'mol_green', '#dcefc8', '#a3d27f');
+    const rnd = rng(5);
+    const big = (x, y, r, kind, stretch = 1) =>
+      svg.path(blobPath(x, y, r, rnd, { stretch }), {
+        color: kind === 'pink' ? '#c9606c' : '#6aa84f',
+        width: 1.5,
+        fill: `url(#mol_${kind})`,
+      });
+    const small = (x, y, kind) =>
+      kind === 'o'
+        ? svg.circle(x, y, 9, { fill: '#f4a46e', stroke: '#d9773e', width: 1.2 })
+        : svg.circle(x, y, 8, { fill: '#7cc3c3', stroke: '#3e8f92', width: 1.2 });
+
+    // (a) Pores pass only the small molecules.
+    svg.rect(0, 0, 410, 500, { fill: BG });
+    for (let y = -10; y < 500; y += 90)
+      svg.rect(184, y, 50, Math.min(65, 500 - y), { fill: MEM, stroke: MEM_EDGE, width: 1.2 });
+    big(60, 90, 30, 'pink');
+    big(150, 222, 20, 'pink', 0.7);
+    big(82, 400, 30, 'pink');
+    big(98, 462, 26, 'pink', 1.3);
+    big(338, 145, 32, 'green');
+    big(345, 335, 36, 'green', 0.85);
+    big(290, 455, 30, 'green');
+    svg.circle(145, 104, 8, { fill: '#fbe3e6', stroke: '#c9606c', width: 1.2 });
+    svg.circle(78, 186, 6, { fill: '#fbe3e6', stroke: '#c9606c', width: 1.2 });
+    svg.circle(140, 352, 12, { fill: '#fbe3e6', stroke: '#c9606c', width: 1.2 });
+    for (const [x, y, k] of [
+      [45, 240, 'o'],
+      [117, 253, 't'],
+      [24, 342, 'o'],
+      [150, 408, 'o'],
+      [316, 34, 'o'],
+      [380, 68, 't'],
+      [296, 258, 'o'],
+      [358, 270, 'o'],
+      [294, 390, 'o'],
+      [352, 462, 'o'],
+    ])
+      small(x, y, k);
+    // One small molecule crosses each way through the top two pores.
+    small(162, 66, 'o');
+    svg.arrow(174, 66, 264, 66, { color: '#5b3a7a', width: 2.2, head: 13 });
+    small(240, 156, 't');
+    svg.arrow(228, 156, 152, 156, { color: '#5b3a7a', width: 2.2, head: 13 });
+    note(svg, 282, 102, 'Membrane', { anchor: 'start', size: 22 });
+    svg.squiggle(278, 102, 238, 102, { waves: 1.5, amp: 4 });
+    note(svg, 286, 238, 'Pore', { anchor: 'start', size: 22 });
+    svg.squiggle(282, 238, 238, 246, { waves: 1.5, amp: 4 });
+    note(svg, 62, 300, 'Molecules', { size: 22 });
+    for (const [x, y] of [
+      [48, 254],
+      [110, 264],
+      [32, 334],
+      [128, 346],
+      [82, 368],
+    ])
+      svg.squiggle(62 + (x - 62) * 0.25, 300 + Math.sign(y - 300) * 14, x, y, { waves: 1, amp: 3 });
+    caption(svg, 205, 526, '(a)');
+
+    // (b) Molecules that dissolve in the membrane diffuse across it.
+    svg.rect(465, 0, 410, 500, { fill: BG });
+    svg.add(
+      `<defs><linearGradient id="mem_b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${MEM_EDGE}"/><stop offset="0.5" stop-color="${MEM}"/><stop offset="1" stop-color="${MEM_EDGE}"/></linearGradient></defs>`
+    );
+    svg.rect(640, 0, 50, 500, { fill: 'url(#mem_b)' });
+    const r = 11;
+    const inBlob = (x, y) => ((x - 566) / 32) ** 2 + ((y - 152) / 48) ** 2 < 1;
+    for (let row = 0; row * r * 1.75 < 240; row += 1) {
+      const y = 98 + row * r * 1.75;
+      for (let x = 512 + (row % 2) * r; x < 815; x += 2 * r) {
+        if ((x > 628 && x < 702) || inBlob(x, y)) continue;
+        small(x, y, rnd() < 0.12 ? 't' : 'o');
+      }
+    }
+    big(566, 152, 34, 'pink', 0.7);
+    for (const [x, y, k] of [
+      [652, 108, 'o'],
+      [663, 172, 't'],
+      [677, 216, 'o'],
+      [655, 242, 'o'],
+      [668, 282, 'o'],
+      [680, 326, 'o'],
+    ])
+      small(x, y, k);
+    caption(svg, 668, 526, '(b)');
+    return svg.render();
+  },
+
   // 12.7 Fig. 4 — osmosis through a semipermeable membrane
   Figure_12_07_04: () => {
     const svg = new Svg({
       width: 810,
-      height: 410,
+      height: 440,
       title: 'Osmosis through a semipermeable membrane',
       desc: '(a) Two sugar-water solutions, separated by a semipermeable membrane that passes water (small blue dots) but not sugar (larger red dots). The right side has more sugar, so its water is less concentrated, and water moves by osmosis to the right. (b) The right-hand level rises until the back pressure hρg from the height difference h balances the osmotic flow.',
     });
@@ -1711,7 +2113,7 @@ export default {
     svg.circle(220, 360, 3, { fill: '#2a9fd0' });
     svg.arrow(232, 360, 290, 360, { color: '#2a9fd0', width: 3, head: 12 });
     note(svg, 300, 360, 'Osmosis', { anchor: 'start', size: 20 });
-    caption(svg, 185, 392, '(a)');
+    caption(svg, 185, 418, '(a)');
     tank(410, 230, 110, 14, 40);
     vdim(svg, 560, 110, 230, 'h', { side: 1 });
     svg.circle(430, 352, 3, { fill: '#2a9fd0' });
@@ -1719,7 +2121,7 @@ export default {
     note(svg, 510, 352, 'Osmosis', { anchor: 'start', size: 20 });
     svg.arrow(500, 376, 440, 376, { color: '#e2694a', width: 3, head: 12 });
     note(svg, 510, 376, 'Back pressure = \\it{hρg}', { anchor: 'start', size: 20 });
-    caption(svg, 575, 396, '(b)');
+    caption(svg, 575, 418, '(b)');
     return svg.render();
   },
 };

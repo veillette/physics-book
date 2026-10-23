@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" role="img" aria-labelledby="title desc">
+<title id="title">Velocity and acceleration in four cases</title>
+<desc id="desc">Rightward motion speeds up with rightward acceleration and slows with leftward acceleration. Leftward motion slows with rightward acceleration and speeds up with leftward acceleration.</desc>
+<rect width="720" height="600" fill="#ffffff"/>
+<rect x="155" y="73" width="50" height="24" rx="3" fill="#ff8a80" stroke="#222222" stroke-width="2"/>
+<polygon points="163,73 168,61 190,61 200,73" fill="#ff8a80" stroke="#222222" stroke-width="1.5"/>
+<rect x="171" y="64" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<rect x="184" y="64" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<circle cx="165" cy="97" r="6" fill="#222222"/>
+<circle cx="195" cy="97" r="6" fill="#222222"/>
+<rect x="201" y="78" width="4" height="5" fill="#fff59d"/>
+<text x="75" y="92" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="390" y1="65" x2="461" y2="65" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="475,65 460,71 460,59" fill="#5e9e1e"/>
+<line x1="390" y1="115" x2="441" y2="115" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="455,115 440,121 440,109" fill="#6a3d9a"/>
+<text x="500" y="72" font-family="'Times New Roman', Times, serif" font-size="20" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<text x="500" y="122" font-family="'Times New Roman', Times, serif" font-size="20" fill="#6a3d9a" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="600" y="90.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Speeding</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+<rect x="155" y="213" width="50" height="24" rx="3" fill="#ff8a80" stroke="#222222" stroke-width="2"/>
+<polygon points="163,213 168,201 190,201 200,213" fill="#ff8a80" stroke="#222222" stroke-width="1.5"/>
+<rect x="171" y="204" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<rect x="184" y="204" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<circle cx="165" cy="237" r="6" fill="#222222"/>
+<circle cx="195" cy="237" r="6" fill="#222222"/>
+<rect x="201" y="218" width="4" height="5" fill="#fff59d"/>
+<text x="75" y="232" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="390" y1="205" x2="461" y2="205" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="475,205 460,211 460,199" fill="#5e9e1e"/>
+<line x1="390" y1="255" x2="339" y2="255" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="325,255 340,249 340,261" fill="#6a3d9a"/>
+<text x="500" y="212" font-family="'Times New Roman', Times, serif" font-size="20" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<text x="500" y="262" font-family="'Times New Roman', Times, serif" font-size="20" fill="#6a3d9a" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="600" y="230.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Slowing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan></text>
+<rect x="155" y="353" width="50" height="24" rx="3" fill="#ff8a80" stroke="#222222" stroke-width="2"/>
+<polygon points="163,353 168,341 190,341 200,353" fill="#ff8a80" stroke="#222222" stroke-width="1.5"/>
+<rect x="171" y="344" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<rect x="184" y="344" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<circle cx="165" cy="377" r="6" fill="#222222"/>
+<circle cx="195" cy="377" r="6" fill="#222222"/>
+<rect x="155" y="358" width="4" height="5" fill="#fff59d"/>
+<text x="75" y="372" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="390" y1="345" x2="319" y2="345" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="305,345 320,339 320,351" fill="#5e9e1e"/>
+<line x1="390" y1="395" x2="441" y2="395" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="455,395 440,401 440,389" fill="#6a3d9a"/>
+<text x="500" y="352" font-family="'Times New Roman', Times, serif" font-size="20" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<text x="500" y="402" font-family="'Times New Roman', Times, serif" font-size="20" fill="#6a3d9a" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="600" y="370.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Slowing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan></text>
+<rect x="155" y="493" width="50" height="24" rx="3" fill="#ff8a80" stroke="#222222" stroke-width="2"/>
+<polygon points="163,493 168,481 190,481 200,493" fill="#ff8a80" stroke="#222222" stroke-width="1.5"/>
+<rect x="171" y="484" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<rect x="184" y="484" width="9" height="8" fill="#81d4fa" stroke="#222222" stroke-width="1"/>
+<circle cx="165" cy="517" r="6" fill="#222222"/>
+<circle cx="195" cy="517" r="6" fill="#222222"/>
+<rect x="155" y="498" width="4" height="5" fill="#fff59d"/>
+<text x="75" y="512" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="390" y1="485" x2="319" y2="485" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="305,485 320,479 320,491" fill="#5e9e1e"/>
+<line x1="390" y1="535" x2="339" y2="535" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="325,535 340,529 340,541" fill="#6a3d9a"/>
+<text x="500" y="492" font-family="'Times New Roman', Times, serif" font-size="20" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<text x="500" y="542" font-family="'Times New Roman', Times, serif" font-size="20" fill="#6a3d9a" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="600" y="510.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Speeding</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+<line x1="560" y1="25" x2="641" y2="25" stroke="#333333" stroke-width="2"/>
+<polygon points="650,25 640,29 640,21" fill="#333333"/>
+<text x="680" y="30.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+</svg>

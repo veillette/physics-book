@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="810" height="410" viewBox="0 0 810 410" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="440" viewBox="0 0 810 440" role="img" aria-labelledby="title desc">
 <title id="title">Osmosis through a semipermeable membrane</title>
 <desc id="desc">(a) Two sugar-water solutions, separated by a semipermeable membrane that passes water (small blue dots) but not sugar (larger red dots). The right side has more sugar, so its water is less concentrated, and water moves by osmosis to the right. (b) The right-hand level rises until the back pressure hρg from the height difference h balances the osmotic flow.</desc>
-<rect width="810" height="410" fill="#ffffff"/>
+<rect width="810" height="440" fill="#ffffff"/>
 <rect x="20" y="180" width="165" height="150" fill="#cfe6f6"/>
 <rect x="185" y="180" width="165" height="150" fill="#cfe6f6"/>
 <circle cx="28.04" cy="198.41" r="3" fill="#2a9fd0"/>
@@ -129,7 +129,7 @@
 <line x1="232" y1="360" x2="279" y2="360" stroke="#2a9fd0" stroke-width="3"/>
 <polygon points="290,360 278,364.8 278,355.2" fill="#2a9fd0"/>
 <text x="300" y="367" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Osmosis</tspan></text>
-<text x="185" y="399" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="185" y="425" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
 <rect x="410" y="230" width="165" height="100" fill="#cfe6f6"/>
 <rect x="575" y="110" width="165" height="220" fill="#cfe6f6"/>
 <circle cx="445.74" cy="272.91" r="3" fill="#2a9fd0"/>
@@ -265,5 +265,5 @@
 <line x1="500" y1="376" x2="451" y2="376" stroke="#e2694a" stroke-width="3"/>
 <polygon points="440,376 452,371.2 452,380.8" fill="#e2694a"/>
 <text x="510" y="383" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Back</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pressure</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">hρg</tspan></text>
-<text x="575" y="403" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<text x="575" y="425" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
 </svg>

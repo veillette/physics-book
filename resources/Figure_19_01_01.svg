@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="770" viewBox="0 0 700 770" role="img" aria-labelledby="title desc">
+<title id="title">A charge accelerated by an electric field, compared with a mass rolling downhill</title>
+<desc id="desc">Top: a positive charge +q starts at point A near a positively charged plate on the left and is pushed by the uniform field, drawn as blue field lines running right, toward point B at a hole in the negatively charged plate on the right. The electric potential energy it loses becomes kinetic energy: ΔPE_elec = ΔKE. Bottom: a mass m rolling down a grassy slope converts gravitational potential energy to kinetic energy in the same way: ΔPE_grav = ΔKE.</desc>
+<rect width="700" height="770" fill="#ffffff"/>
+<defs><linearGradient id="plate19" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4c4cc"/><stop offset="0.5" stop-color="#ececf0"/><stop offset="1" stop-color="#b4b4be"/></linearGradient></defs>
+<rect x="6" y="50" width="54" height="500" fill="url(#plate19)" stroke="#8a9099" stroke-width="1.2"/>
+<rect x="650" y="50" width="50" height="252" fill="url(#plate19)" stroke="#8a9099" stroke-width="1.2"/>
+<rect x="650" y="346" width="50" height="204" fill="url(#plate19)" stroke="#8a9099" stroke-width="1.2"/>
+<path d="M 60 104 C 207.5 104 237 64 355 64 S 502.5 104 650 104" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="340" y1="64" x2="353" y2="64" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="370,64 352,71.2 352,56.8" fill="#1f77c8"/>
+<line x1="60" y1="184" x2="650" y2="184" stroke="#1f77c8" stroke-width="2"/>
+<line x1="340" y1="184" x2="353" y2="184" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="370,184 352,191.2 352,176.8" fill="#1f77c8"/>
+<line x1="60" y1="254" x2="650" y2="254" stroke="#1f77c8" stroke-width="2"/>
+<line x1="340" y1="254" x2="353" y2="254" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="370,254 352,261.2 352,246.8" fill="#1f77c8"/>
+<line x1="60" y1="372" x2="650" y2="372" stroke="#1f77c8" stroke-width="2"/>
+<line x1="340" y1="372" x2="353" y2="372" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="370,372 352,379.2 352,364.8" fill="#1f77c8"/>
+<line x1="60" y1="464" x2="650" y2="464" stroke="#1f77c8" stroke-width="2"/>
+<line x1="340" y1="464" x2="353" y2="464" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="370,464 352,471.2 352,456.8" fill="#1f77c8"/>
+<path d="M 60 522 C 207.5 522 237 562 355 562 S 502.5 522 650 522" fill="none" stroke="#1f77c8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="340" y1="562" x2="353" y2="562" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="370,562 352,569.2 352,554.8" fill="#1f77c8"/>
+<text x="33" y="113.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="675" y="113.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="33" y="193.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="675" y="193.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="33" y="263.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="675" y="263.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="33" y="381.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="675" y="381.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="33" y="473.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="675" y="473.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="33" y="531.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="675" y="531.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<circle cx="200" cy="324" r="26" fill="#f2a3ae" stroke="#c0566a" stroke-width="1.5"/>
+<text x="200" y="332.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">q</tspan></text>
+<line x1="228" y1="324" x2="637" y2="324" stroke="#222222" stroke-width="1.8"/>
+<polygon points="650,324 636,329.6 636,318.4" fill="#222222"/>
+<text x="200" y="291.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<text x="632" y="295.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<text x="520" y="33.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">PE</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">elec</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="normal">KE</tspan></text>
+<path d="M 0 638 C 60 620 140 615 200 640 C 270 668 300 715 360 735 C 450 742 600 738 700 742 L 700 770 L 0 770 Z" fill="#4a8a5c" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<path d="M 62 626 Q 68 612 58 604 M 72 626 Q 74 610 82 602 M 80 626 Q 86 616 94 614" fill="none" stroke="#4a8a5c" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 400 739 Q 406 725 396 717 M 410 739 Q 412 723 420 715 M 418 739 Q 424 729 432 727" fill="none" stroke="#4a8a5c" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 450 739 Q 456 725 446 717 M 460 739 Q 462 723 470 715 M 468 739 Q 474 729 482 727" fill="none" stroke="#4a8a5c" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 662 740 Q 668 726 658 718 M 672 740 Q 674 724 682 716 M 680 740 Q 686 730 694 728" fill="none" stroke="#4a8a5c" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="205" cy="640" r="23" fill="#f4a77e" stroke="#c46a3c" stroke-width="1.5"/>
+<text x="205" y="648.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<line x1="232" y1="652" x2="306.11" y2="684.75" stroke="#222222" stroke-width="1.8"/>
+<polygon points="318,690 302.93,689.46 307.46,679.22" fill="#222222"/>
+<text x="565" y="677.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">PE</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">grav</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="normal">KE</tspan></text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="380" viewBox="0 0 520 380" role="img" aria-labelledby="title desc">
+<title id="title">Redshift versus distance for galaxies</title>
+<desc id="desc">Redshift versus distance d for many galaxies. The points scatter about a straight line through the origin: the farther away a galaxy is, the larger its redshift, so the universe is expanding.</desc>
+<rect width="520" height="380" fill="#ffffff"/>
+<line x1="80" y1="316.79" x2="485" y2="316.79" stroke="#333333" stroke-width="1.5"/>
+<polygon points="494,316.79 484,320.79 484,312.79" fill="#333333"/>
+<line x1="80" y1="350" x2="80" y2="35" stroke="#333333" stroke-width="1.5"/>
+<polygon points="80,26 84,36 76,36" fill="#333333"/>
+<circle cx="92" cy="342.94" r="5" fill="#222222"/>
+<circle cx="110.35" cy="302.46" r="5" fill="#222222"/>
+<circle cx="126.24" cy="302.1" r="5" fill="#222222"/>
+<circle cx="141.32" cy="310.93" r="5" fill="#222222"/>
+<circle cx="155.9" cy="248.2" r="5" fill="#222222"/>
+<circle cx="170.11" cy="269.86" r="5" fill="#222222"/>
+<circle cx="184.04" cy="254.43" r="5" fill="#222222"/>
+<circle cx="197.73" cy="249.7" r="5" fill="#222222"/>
+<circle cx="211.24" cy="241.44" r="5" fill="#222222"/>
+<circle cx="224.57" cy="246.26" r="5" fill="#222222"/>
+<circle cx="237.76" cy="242.7" r="5" fill="#222222"/>
+<circle cx="250.81" cy="202.13" r="5" fill="#222222"/>
+<circle cx="263.75" cy="232.58" r="5" fill="#222222"/>
+<circle cx="276.58" cy="209.12" r="5" fill="#222222"/>
+<circle cx="289.31" cy="187.83" r="5" fill="#222222"/>
+<circle cx="301.95" cy="164.54" r="5" fill="#222222"/>
+<circle cx="314.5" cy="186.65" r="5" fill="#222222"/>
+<circle cx="326.98" cy="199.11" r="5" fill="#222222"/>
+<circle cx="339.38" cy="182.99" r="5" fill="#222222"/>
+<circle cx="351.72" cy="141.34" r="5" fill="#222222"/>
+<circle cx="363.99" cy="143.62" r="5" fill="#222222"/>
+<circle cx="376.2" cy="138.95" r="5" fill="#222222"/>
+<circle cx="388.35" cy="136.84" r="5" fill="#222222"/>
+<circle cx="400.45" cy="145.93" r="5" fill="#222222"/>
+<circle cx="412.49" cy="133.99" r="5" fill="#222222"/>
+<circle cx="424.48" cy="94.49" r="5" fill="#222222"/>
+<circle cx="436.43" cy="139.59" r="5" fill="#222222"/>
+<circle cx="448.33" cy="120.53" r="5" fill="#222222"/>
+<circle cx="460.19" cy="88.12" r="5" fill="#222222"/>
+<circle cx="472" cy="72.07" r="5" fill="#222222"/>
+<line x1="80" y1="316.79" x2="464" y2="89.82" stroke="#7b1145" stroke-width="3"/>
+<text x="70" y="324.49" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="70" y="37.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Red</tspan></text>
+<text x="70" y="66.3" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">shift</tspan></text>
+<text x="480" y="358.49" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Distance</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">d</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

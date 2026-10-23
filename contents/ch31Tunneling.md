@@ -20,7 +20,7 @@ rim, it would gain kinetic energy by rolling down outside. However classically,
 if the marble does not have enough kinetic energy to get over the rim, it
 remains forever trapped in its well.
 
-![The figure shows a marble rolling in a semicircular bowl at the top of a volcano. A dashed line is shown just below the top of the bowl indicating maximum distance the marble can travel. A tunnel is shown on one side of the top of the volcano through which the marble can roll downhill.](../resources/Figure_31_07_01.jpg 'The marble in this semicircular bowl at the top of a volcano has enough kinetic energy to get to the altitude of the dashed line, but not enough to get over the rim, so that it is trapped forever. If it could find a tunnel through the barrier, it would escape, roll downhill, and gain kinetic energy.')
+![The figure shows a marble rolling in a semicircular bowl at the top of a volcano. A dashed line is shown just below the top of the bowl indicating maximum distance the marble can travel. A tunnel is shown on one side of the top of the volcano through which the marble can roll downhill.](../resources/Figure_31_07_01.svg 'The marble in this semicircular bowl at the top of a volcano has enough kinetic energy to get to the altitude of the dashed line, but not enough to get over the rim, so that it is trapped forever. If it could find a tunnel through the barrier, it would escape, roll downhill, and gain kinetic energy.')
 {: #Figure1}
 
 In a nucleus, the attractive nuclear potential is analogous to the bowl at the
@@ -34,7 +34,7 @@ spontaneously break away as a $${}^{4}\text{He} $$ unit. Yet the protons and
 neutrons do not have enough kinetic energy to get over the rim. So how does the
 $$\alpha $$ particle get out?
 
-![The image shows potential energy curve. The curve starts from negative Y axis to positive Y axis and alpha particles are shown trapped inside the nucleus due to attractive nuclear force. The alpha particles outside the range of nuclear force experience the repulsive Coulomb force which keeps them outside the nucleus.](../resources/Figure_31_07_02.jpg 'Nucleons within an atomic nucleus are bound or trapped by the attractive nuclear force, as shown in this simplified potential energy curve. An ( \\alpha ) particle outside the range of the nuclear force feels the repulsive Coulomb force. The ( \\alpha ) particle inside the nucleus does not have enough kinetic energy to get over the rim, yet it does manage to get out by quantum mechanical tunneling.')
+![The image shows potential energy curve. The curve starts from negative Y axis to positive Y axis and alpha particles are shown trapped inside the nucleus due to attractive nuclear force. The alpha particles outside the range of nuclear force experience the repulsive Coulomb force which keeps them outside the nucleus.](../resources/Figure_31_07_02.svg 'Nucleons within an atomic nucleus are bound or trapped by the attractive nuclear force, as shown in this simplified potential energy curve. An ( \\alpha ) particle outside the range of the nuclear force feels the repulsive Coulomb force. The ( \\alpha ) particle inside the nucleus does not have enough kinetic energy to get over the rim, yet it does manage to get out by quantum mechanical tunneling.')
 {: #Figure2}
 
 The answer was supplied in 1928 by the Russian physicist George Gamow (
@@ -55,7 +55,7 @@ tunneling**. This concept was developed in theory by J. Robert Oppenheimer (who
 led the development of the first nuclear bombs during World War II) and was used
 by Gamow and others to describe $$\alpha $$ decay.
 
-![The image shows wave function curve and potential barrier quantum tunnel region. When the wave function curve passes through potential barrier it decreases exponentially.](../resources/Figure_31_07_03.jpg 'The wave function representing a quantum mechanical particle must vary smoothly, going from within the nucleus (to the left of the barrier) to outside the nucleus (to the right of the barrier). Inside the barrier, the wave function does not abruptly become zero; rather, it decreases exponentially. Outside the barrier, the wave function is small but finite, and there it smoothly becomes sinusoidal. Owing to the fact that there is a small probability of finding the particle outside the barrier, the particle can tunnel through the barrier.')
+![The image shows wave function curve and potential barrier quantum tunnel region. When the wave function curve passes through potential barrier it decreases exponentially.](../resources/Figure_31_07_03.svg 'The wave function representing a quantum mechanical particle must vary smoothly, going from within the nucleus (to the left of the barrier) to outside the nucleus (to the right of the barrier). Inside the barrier, the wave function does not abruptly become zero; rather, it decreases exponentially. Outside the barrier, the wave function is small but finite, and there it smoothly becomes sinusoidal. Owing to the fact that there is a small probability of finding the particle outside the barrier, the particle can tunnel through the barrier.')
 {: #Figure3}
 
 Good ideas explain more than one thing. In addition to qualitatively explaining

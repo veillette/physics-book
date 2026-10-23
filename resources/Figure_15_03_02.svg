@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="900" viewBox="0 0 880 900" role="img" aria-labelledby="title desc">
+<title id="title">Spontaneous one-way processes</title>
+<desc id="desc">(a) Heat Q flows by itself from a hot region to a cold one. (b) A car moving with velocity v brakes to a stop, v_f = 0, converting its kinetic energy to heat Q. (c) A puff of air released into an evacuated box spreads out to a uniform distribution. None of these happens in reverse on its own.</desc>
+<rect width="880" height="900" fill="#ffffff"/>
+<rect x="170" y="10" width="265" height="245" fill="#fde6e1"/>
+<rect x="435" y="10" width="265" height="245" fill="#e9eef5"/>
+<text x="300" y="59.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Hot</tspan></text>
+<text x="565" y="59.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Cold</tspan></text>
+<defs><linearGradient id="g1" x1="295" y1="155" x2="590" y2="155" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde6db"/><stop offset="1" stop-color="#ef8a68"/></linearGradient></defs>
+<polygon points="295,190 297.99,191.51 300.97,192.88 303.96,194.02 306.95,194.87 309.93,195.37 312.92,195.51 315.9,195.27 318.89,194.7 321.88,193.84 324.86,192.75 327.85,191.51 330.84,190.22 333.82,188.95 336.81,187.79 339.79,186.82 342.78,186.08 345.77,185.63 348.75,185.49 351.74,185.64 354.73,186.08 357.71,186.76 360.7,187.62 363.68,188.61 366.67,189.65 369.66,190.68 372.64,191.61 375.63,192.4 378.62,193 381.6,193.38 384.59,193.51 387.58,193.41 390.56,193.09 393.55,192.58 396.53,191.93 399.52,191.18 402.51,190.39 405.49,189.62 408.48,188.91 411.47,188.32 414.45,187.87 417.44,187.59 420.42,187.48 423.41,187.55 426.4,187.77 429.38,188.13 432.37,188.59 435.36,189.11 438.34,189.65 441.33,190.17 444.32,190.64 447.3,191.02 450.29,191.31 453.27,191.48 456.26,191.53 459.25,191.48 462.23,191.33 465.22,191.1 468.21,190.82 471.19,190.52 474.18,190.23 477.16,189.96 480.15,189.73 483.14,189.56 486.12,189.46 489.11,189.42 492.1,189.44 495.08,189.51 498.07,189.61 501.05,189.72 504.04,189.83 507.03,189.92 510.01,189.98 513,190 513,218 590,155 513,92 513,120 510.01,119.98 507.03,119.92 504.04,119.83 501.05,119.72 498.07,119.61 495.08,119.51 492.1,119.44 489.11,119.42 486.12,119.46 483.14,119.56 480.15,119.73 477.16,119.96 474.18,120.23 471.19,120.52 468.21,120.82 465.22,121.1 462.23,121.33 459.25,121.48 456.26,121.53 453.27,121.48 450.29,121.31 447.3,121.02 444.32,120.64 441.33,120.17 438.34,119.65 435.36,119.11 432.37,118.59 429.38,118.13 426.4,117.77 423.41,117.55 420.42,117.48 417.44,117.59 414.45,117.87 411.47,118.32 408.48,118.91 405.49,119.62 402.51,120.39 399.52,121.18 396.53,121.93 393.55,122.58 390.56,123.09 387.58,123.41 384.59,123.51 381.6,123.38 378.62,123 375.63,122.4 372.64,121.61 369.66,120.68 366.67,119.65 363.68,118.61 360.7,117.62 357.71,116.76 354.73,116.08 351.74,115.64 348.75,115.49 345.77,115.63 342.78,116.08 339.79,116.82 336.81,117.79 333.82,118.95 330.84,120.22 327.85,121.51 324.86,122.75 321.88,123.84 318.89,124.7 315.9,125.27 312.92,125.51 309.93,125.37 306.95,124.87 303.96,124.02 300.97,122.88 297.99,121.51 295,120" fill="url(#g1)"/>
+<text x="430" y="165.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Heat</tspan></text>
+<text x="525" y="165.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<text x="435" y="292" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="10" y="465" width="860" height="8" fill="#e8c79d"/>
+<path d="M 15 435 L 19 407 Q 45 399 85 395 L 125 357 Q 175 347 225 359 L 270 393 Q 315 399 327 415 L 331 439 Q 325 451 311 451 L 33 451 Q 15 451 15 435 Z" fill="#6fb3b8" stroke="#3f7f84" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 133 365 Q 155 357 183 359 L 183 391 L 107 393 Z" fill="#c9d8f0" stroke="#3f7f84" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 193 359 Q 225 361 255 391 L 193 391 Z" fill="#c9d8f0" stroke="#3f7f84" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="187" y1="391" x2="187" y2="445" stroke="#3f7f84" stroke-width="1.2"/>
+<circle cx="80" cy="443" r="24" fill="#3a3a3a"/>
+<circle cx="80" cy="443" r="13" fill="#c7c8ca"/>
+<circle cx="80" cy="443" r="5" fill="#6d6e71"/>
+<circle cx="270" cy="443" r="24" fill="#3a3a3a"/>
+<circle cx="270" cy="443" r="13" fill="#c7c8ca"/>
+<circle cx="270" cy="443" r="5" fill="#6d6e71"/>
+<line x1="325" y1="415" x2="406" y2="415" stroke="#4caf50" stroke-width="4"/>
+<polygon points="425,415 405,423 405,407" fill="#4caf50"/>
+<text x="355" y="392.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="13.64" font-weight="normal" dx="-12.32" dy="-11.44">→</tspan><tspan dx="-1.32" dy="11.44">​</tspan></tspan></text>
+<path d="M 480 435 L 484 407 Q 510 399 550 395 L 590 357 Q 640 347 690 359 L 735 393 Q 780 399 792 415 L 796 439 Q 790 451 776 451 L 498 451 Q 480 451 480 435 Z" fill="#6fb3b8" stroke="#3f7f84" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 598 365 Q 620 357 648 359 L 648 391 L 572 393 Z" fill="#c9d8f0" stroke="#3f7f84" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 658 359 Q 690 361 720 391 L 658 391 Z" fill="#c9d8f0" stroke="#3f7f84" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="652" y1="391" x2="652" y2="445" stroke="#3f7f84" stroke-width="1.2"/>
+<circle cx="545" cy="443" r="24" fill="#3a3a3a"/>
+<circle cx="545" cy="443" r="13" fill="#c7c8ca"/>
+<circle cx="545" cy="443" r="5" fill="#6d6e71"/>
+<circle cx="735" cy="443" r="24" fill="#3a3a3a"/>
+<circle cx="735" cy="443" r="13" fill="#c7c8ca"/>
+<circle cx="735" cy="443" r="5" fill="#6d6e71"/>
+<text x="805" y="382.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">f</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<defs><linearGradient id="g2" x1="745" y1="470" x2="815" y2="497" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde6db"/><stop offset="1" stop-color="#ef8a68"/></linearGradient></defs>
+<polygon points="741.4,479.33 742,480.22 742.62,481.08 743.25,481.89 743.91,482.65 744.59,483.34 745.3,483.96 746.04,484.49 746.81,484.95 747.61,485.33 748.45,485.62 749.31,485.84 750.2,485.99 751.12,486.07 752.05,486.1 753.01,486.08 753.97,486.03 754.95,485.95 755.93,485.86 756.91,485.77 757.89,485.69 758.86,485.63 759.82,485.6 760.77,485.6 761.7,485.65 762.61,485.74 763.5,485.89 764.37,486.09 765.22,486.34 766.05,486.65 766.86,487.01 767.65,487.41 768.43,487.85 769.19,488.33 769.94,488.84 770.69,489.36 771.42,489.9 772.16,490.45 772.9,490.99 773.64,491.53 774.38,492.05 775.14,492.55 775.9,493.03 776.67,493.49 777.46,493.91 778.25,494.3 779.06,494.66 779.88,495 780.71,495.31 781.54,495.59 782.39,495.85 783.24,496.1 784.1,496.34 784.95,496.57 785.81,496.81 786.67,497.04 787.52,497.29 788.37,497.54 789.21,497.82 790.05,498.1 790.88,498.41 788,505.88 815,497 800.95,472.29 798.07,479.75 797.24,479.44 796.41,479.16 795.57,478.88 794.72,478.63 793.87,478.38 793.01,478.15 792.15,477.91 791.29,477.68 790.44,477.44 789.59,477.19 788.74,476.93 787.9,476.65 787.08,476.34 786.26,476 785.45,475.64 784.65,475.25 783.87,474.83 783.1,474.37 782.33,473.89 781.58,473.39 780.84,472.87 780.1,472.33 779.36,471.79 778.62,471.24 777.88,470.7 777.14,470.18 776.39,469.67 775.62,469.19 774.85,468.75 774.06,468.35 773.25,467.99 772.42,467.68 771.57,467.43 770.7,467.23 769.81,467.08 768.9,466.99 767.97,466.94 767.02,466.94 766.06,466.97 765.09,467.03 764.11,467.11 763.13,467.2 762.15,467.29 761.17,467.37 760.2,467.42 759.25,467.44 758.31,467.41 757.4,467.33 756.51,467.18 755.64,466.96 754.81,466.67 754.01,466.29 753.24,465.83 752.5,465.3 751.79,464.68 751.11,463.99 750.45,463.23 749.82,462.42 749.2,461.56 748.6,460.67" fill="url(#g2)"/>
+<text x="830" y="507.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<text x="435" y="532" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="175" y="580" width="245" height="255" fill="#fad8a3" stroke="#e0b26a" stroke-width="1.5"/>
+<path d="M 185 832 L 185 735 Q 185 712 201 708 L 201 696 Q 205 690 209 696 L 209 708 Q 225 712 225 735 L 225 832 Z" fill="#d3c4e6" stroke="#8e6fb5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="280,660 267.39,664.66 275.98,675 262.73,672.73 265,685.98 254.66,677.39 250,690 245.34,677.39 235,685.98 237.27,672.73 224.02,675 232.61,664.66 220,660 232.61,655.34 224.02,645 237.27,647.27 235,634.02 245.34,642.61 250,630 254.66,642.61 265,634.02 262.73,647.27 275.98,645 267.39,655.34" fill="#8fd3f2"/>
+<circle cx="250" cy="660" r="14" fill="#ffffff"/>
+<line x1="208" y1="697" x2="236" y2="670" stroke="#8fd3f2" stroke-width="4"/>
+<polyline points="219.57,650.11 199.25,649.83 186.41,649.03 168.85,642.1" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="168.85" y1="642.1" x2="158.41" y2="635.53" stroke="#222222" stroke-width="1.3"/>
+<polygon points="152.48,631.8 160.96,633.35 157.55,638.77" fill="#222222"/>
+<polyline points="229.22,635.67 214.19,626.54 202.31,610.52 200.02,595.78" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="200.02" y1="595.78" x2="192.67" y2="586.19" stroke="#222222" stroke-width="1.3"/>
+<polygon points="188.42,580.63 195.82,585.03 190.74,588.93" fill="#222222"/>
+<polyline points="244.99,628.39 236.18,608.21 231.2,593 229.08,573.86" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="229.08" y1="573.86" x2="228.26" y2="567.8" stroke="#222222" stroke-width="1.3"/>
+<polygon points="227.36,561.19 231.43,568.38 225.35,569.2" fill="#222222"/>
+<polyline points="262.25,630.44 261.68,612.76 267.76,605.76 273.07,588.72" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="273.07" y1="588.72" x2="275.37" y2="583.03" stroke="#222222" stroke-width="1.3"/>
+<polygon points="277.89,576.81 277.85,585.12 272.14,582.8" fill="#222222"/>
+<polyline points="275.89,641.19 288.26,629.95 298.42,628.29 313.89,620.6" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="313.89" y1="620.6" x2="325.76" y2="612.13" stroke="#222222" stroke-width="1.3"/>
+<polygon points="331.46,608.06 326.81,615.31 323.09,610.1" fill="#222222"/>
+<polyline points="281.9,657.49 295.61,661.93 307.27,661.11 326.95,659.12" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="326.95" y1="659.12" x2="338.12" y2="656.77" stroke="#222222" stroke-width="1.3"/>
+<polygon points="344.97,655.33 337.8,660.11 336.48,653.85" fill="#222222"/>
+<polyline points="278.51,674.53 292.89,682.54 306.75,694.03 318.2,702.48" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="318.2" y1="702.48" x2="322.37" y2="709.75" stroke="#222222" stroke-width="1.3"/>
+<polygon points="325.85,715.82 319.1,710.47 324.65,707.29" fill="#222222"/>
+<polyline points="266.72,687.28 279.9,697.62 286.59,707.65 292.9,712.97" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="292.9" y1="712.97" x2="293.92" y2="723.73" stroke="#222222" stroke-width="1.3"/>
+<polygon points="294.58,730.7 290.64,723.04 297.01,722.43" fill="#222222"/>
+<polyline points="250,692 255.88,712.49 257.23,727.12 259.85,740.31" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="259.85" y1="740.31" x2="256.55" y2="745.67" stroke="#222222" stroke-width="1.3"/>
+<polygon points="252.91,751.58 254.37,743.15 259.77,746.48" fill="#222222"/>
+<text x="240" y="752.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Puff</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">air</tspan></text>
+<text x="245" y="819.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Vacuum</tspan></text>
+<rect x="460" y="580" width="245" height="255" fill="#fad8a3" stroke="#e0b26a" stroke-width="1.5"/>
+<path d="M 470 832 L 470 735 Q 470 712 486 708 L 486 696 Q 490 690 494 696 L 494 708 Q 510 712 510 735 L 510 832 Z" fill="#d3c4e6" stroke="#8e6fb5" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 480 600 Q 585 614 690 600" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 480 622 Q 585 636 690 622" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 480 644 Q 585 658 690 644" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 480 666 Q 585 680 690 666" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 480 688 Q 585 702 690 688" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 540 710 Q 615 724 690 710" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 540 732 Q 615 746 690 732" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 540 754 Q 615 768 690 754" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<path d="M 540 776 Q 615 790 690 776" fill="none" stroke="#222222" stroke-width="1.3" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<text x="640" y="797.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Uniform</tspan></text>
+<text x="640" y="823.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">distribution</tspan></text>
+<text x="435" y="887" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

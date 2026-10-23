@@ -14,7 +14,7 @@
  */
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import { COLORS, Plot, Svg, rad } from './svg.js';
+import { COLORS, Plot, Svg, fmt, rad } from './svg.js';
 
 const LOUDNESS = JSON.parse(
   fs.readFileSync(fileURLToPath(new URL('./data/equal-loudness.json', import.meta.url)), 'utf8')
@@ -417,6 +417,62 @@ export default {
     return svg.render();
   },
 
+  // 17.2 Fig. 4 — a tweeter's short waves and a woofer's long ones
+  Figure_17_02_04: () => {
+    const svg = new Svg({
+      width: 640,
+      height: 520,
+      title: 'Wavelengths from a tweeter and a woofer',
+      desc: 'A loudspeaker cabinet with a small speaker, the tweeter, above a large one, the woofer. Sound waves leave both to the right, drawn as rings: solid rings are compressions and dashed rings rarefactions. The tweeter’s rings are closely spaced (high frequency, small wavelength); the woofer’s are about two and a half times farther apart (small frequency, large wavelength), since both travel at the same speed.',
+    });
+    svg.add(
+      '<defs><linearGradient id="cab_side" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d4d6d9"/><stop offset="1" stop-color="#a9acb1"/></linearGradient><linearGradient id="cab_front" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a9da2"/><stop offset="1" stop-color="#7d8086"/></linearGradient><radialGradient id="cone" cx="0.45" cy="0.45" r="0.6"><stop offset="0" stop-color="#5c6068"/><stop offset="0.7" stop-color="#202226"/><stop offset="1" stop-color="#101113"/></radialGradient></defs>'
+    );
+    const edge = { stroke: '#3a3c40', width: 3 };
+    svg.polygon(
+      [
+        [20, 110],
+        [160, 30],
+        [160, 505],
+        [20, 440],
+      ],
+      { fill: 'url(#cab_side)', ...edge }
+    );
+    svg.polygon(
+      [
+        [160, 30],
+        [300, 50],
+        [300, 470],
+        [160, 505],
+      ],
+      { fill: 'url(#cab_front)', ...edge }
+    );
+    // Drivers on the front face, foreshortened into ellipses.
+    const driver = (x, y, rx, ry) => {
+      svg.ellipse(x, y, rx, ry, { fill: 'url(#cone)', stroke: '#2a2c30', width: 2 });
+      svg.ellipse(x - rx * 0.15, y - ry * 0.05, rx * 0.32, ry * 0.22, {
+        fill: '#c9d3ea',
+        stroke: '#8a96b4',
+        width: 1.2,
+      });
+    };
+    driver(232, 150, 36, 58);
+    driver(232, 340, 52, 104);
+    // Same speed, so wavelength ∝ 1/f: the woofer's is 2.5 times the tweeter's.
+    // Solid rings are compressions, dashed rings the rarefactions between them.
+    const ring = (x, cy, r, solid) =>
+      svg.add(
+        `<ellipse cx="${fmt(x)}" cy="${cy}" rx="${fmt(r * 0.36)}" ry="${r}" fill="none" stroke="${solid ? '#5b7fb8' : '#7a4fa6'}" stroke-width="${solid ? 3 : 2.4}"${solid ? '' : ' stroke-dasharray="7 5"'}/>`
+      );
+    const lamT = 40;
+    for (let k = 0; k < 6; k += 1) ring(262 + (k * lamT) / 2, 150, 28 + 9 * k, k % 2 === 0);
+    const lamW = 2.5 * lamT;
+    for (let k = 0; k < 3; k += 1) ring(286 + (k * lamW) / 2, 340, 66 + 22 * k, k % 2 === 0);
+    note(svg, 490, 62, 'High \\it{f}, small \\it{λ}', { size: 24 });
+    note(svg, 490, 488, 'Small \\it{f}, large \\it{λ}', { size: 24 });
+    return svg.render();
+  },
+
   // 17.4 Fig. 5 — the Mach cone of a supersonic source
   Figure_17_04_05: () => {
     const svg = new Svg({
@@ -425,7 +481,8 @@ export default {
       title: 'Sound waves from a source moving faster than sound',
       desc: 'A source moving to the right at speed v_s greater than the speed of sound v_w emitted a sound wave at each of the numbered positions 1 to 6. Each wave is a circle centered on the point where it was emitted, and the source has moved ahead of all of them. The circles all touch two straight lines that meet at the source; along these lines, actually a cone in three dimensions, the waves interfere constructively to form a shock wave. The cone’s angle is θ, with sin(θ/2) = v_w/v_s, so a faster source makes a narrower cone.',
     });
-    const ratio = 1.6;
+    // v_s = 2.4 v_w keeps the cone narrow enough to enclose every wave front.
+    const ratio = 2.4;
     const y = 230;
     const S = [640, y];
     const step = 52;
@@ -443,7 +500,9 @@ export default {
         math: false,
       });
     }
-    const len = (S[0] - 30) / Math.cos(half);
+    // The cone's edges stop at the top and bottom of the figure, past the points
+    // where they touch the circles.
+    const len = (y - 12) / Math.sin(half);
     for (const s of [1, -1]) {
       svg.line(S[0], y, S[0] - len * Math.cos(half), y - s * len * Math.sin(half), {
         color: COLORS.maroon,
@@ -453,13 +512,131 @@ export default {
     svg.line(30, y, S[0], y, { color: COLORS.black, width: 1.2 });
     svg.arrow(S[0] - 4, y, S[0] + 30, y, { color: COLORS.green, width: 5, head: 18 });
     lab(svg, S[0] - 6, y + 44, 'v_s > v_w', { anchor: 'start' });
-    const ar = 560;
+    // The arc marking θ meets both edges of the cone inside the figure.
+    const ar = 450;
     svg.arc(...S, ar, 180 - (half * 180) / Math.PI, 180 + (half * 180) / Math.PI, {
       color: COLORS.black,
       width: 1.8,
     });
-    lab(svg, S[0] - ar + 22, y - 40, 'θ', { anchor: 'start' });
+    lab(svg, S[0] - ar - 10, y - 40, 'θ', { anchor: 'end', size: 24 });
     svg.circle(...S, 6, { fill: COLORS.black });
+    return svg.render();
+  },
+
+  // 17.4 Fig. 6 — the nose and tail booms reach the ground after the plane passes
+  Figure_17_04_06: () => {
+    const svg = new Svg({
+      width: 780,
+      height: 700,
+      title: 'Two sonic booms from a supersonic aircraft',
+      desc: 'A jet flies to the right faster than sound. Two shock-wave cones trail behind it, one from its nose and one from its tail, drawn as shaded wedges that reach down to the ground behind the plane. The observer on the left, inside both cones, has heard both booms and covers their ears. The observer in the middle has just been reached by the nose boom and throws up their arms. The observer on the right, ahead of both cones, has heard nothing yet and wonders what is happening, even though the plane is already past.',
+    });
+    const G = 600;
+    // Mach 1.5: each cone's half-angle θ/2 has sin(θ/2) = vw/vs = 1/1.5.
+    const t = Math.tan(Math.asin(1 / 1.5));
+    const [nose, tail, y] = [740, 560, 150];
+    const cone = apex => [
+      [apex, y],
+      [apex - y / t, 0],
+      [0, 0],
+      [0, G],
+      [apex - (G - y) / t, G],
+    ];
+    svg.polygon(cone(nose), { fill: '#e3e6f3' });
+    svg.polygon(cone(tail), { fill: '#c6cce6' });
+    for (const [apex, color] of [
+      [nose, '#9a8fc2'],
+      [tail, '#7c6fae'],
+    ])
+      svg.polyline(
+        [
+          [apex - y / t, 0],
+          [apex, y],
+          [apex - (G - y) / t, G],
+        ],
+        { color, width: 2 }
+      );
+    svg.add(
+      '<defs><linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b5d38a"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>'
+    );
+    svg.rect(0, G, 780, 100, { fill: 'url(#grass)' });
+    // The jet spans the two apexes.
+    const jet = { fill: '#80858c', stroke: '#4f545b', width: 1.4 };
+    svg.polygon(
+      [
+        [tail - 10, y - 7],
+        [nose - 60, y - 9],
+        [nose, y],
+        [nose - 60, y + 7],
+        [tail - 4, y + 8],
+      ],
+      jet
+    );
+    svg.polygon(
+      [
+        [tail - 10, y - 7],
+        [tail - 8, y - 40],
+        [tail + 6, y - 40],
+        [tail + 30, y - 8],
+      ],
+      jet
+    );
+    svg.polygon(
+      [
+        [tail + 50, y + 2],
+        [tail + 120, y + 2],
+        [tail + 70, y + 12],
+        [tail + 40, y + 12],
+      ],
+      { ...jet, fill: '#6a6f76' }
+    );
+    svg.polygon(
+      [
+        [nose - 70, y - 8],
+        [nose - 40, y - 5],
+        [nose - 66, y - 2],
+      ],
+      { fill: '#c9d6e6', stroke: '#4f545b', width: 1 }
+    );
+    const person = (x, shirt, pants, pose) => {
+      const hip = G - 36;
+      const sh = G - 66;
+      for (const s of [-1, 1])
+        svg.line(x, hip, x + s * 7, G, { color: pants, width: 6, cap: 'round' });
+      svg.line(x, hip, x, sh, { color: shirt, width: 12, cap: 'round' });
+      const arm = {
+        ears: [
+          [14, -6],
+          [9, -16],
+        ],
+        up: [
+          [15, -14],
+          [22, -30],
+        ],
+        hips: [
+          [13, 12],
+          [5, 22],
+        ],
+      }[pose];
+      for (const s of [-1, 1])
+        svg.polyline(
+          [
+            [x + s * 5, sh + 2],
+            [x + s * arm[0][0], sh + arm[0][1]],
+            [x + s * arm[1][0], sh + arm[1][1]],
+          ],
+          { color: shirt, width: 5 }
+        );
+      svg.circle(x, sh - 14, 8, { fill: '#f1c9a5', stroke: '#9b6b4a', width: 1 });
+      svg.path(`M ${x - 8} ${sh - 15} Q ${x} ${sh - 28} ${x + 8} ${sh - 15}`, {
+        color: '#2a2320',
+        width: 4,
+      });
+    };
+    person(36, '#8a62a8', '#b07c2c', 'ears');
+    person(212, '#5f8f80', '#4f6fa8', 'up');
+    person(418, '#d97a8c', '#e09a3a', 'hips');
+    svg.text(418, 500, '?', { size: 34, math: false });
     return svg.render();
   },
 

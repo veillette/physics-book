@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+<title id="title">Nuclear power plant</title>
+<desc id="desc">Schematic of a pressurized water reactor power plant. Inside the containment structure, the core in the pressure vessel, with its control rods, heats water that is pumped in a closed loop through the steam generator. Steam from the generator goes along the steam line to the high- and low-pressure turbines, which turn the turbine generator. The spent steam is condensed by cooling water that circulates to the cooling tower, and the condensed water is pumped back to the steam generator.</desc>
+<rect width="900" height="680" fill="#ffffff"/>
+<path d="M 100 650 L 100 380 Q 100 300 180 300 L 340 300 Q 420 300 420 380 L 420 650 Z" fill="#ffffff" stroke="#9a9c9f" stroke-width="7" stroke-linejoin="round"/>
+<path d="M 115 640 L 115 385 Q 115 315 185 315 L 335 315 Q 405 315 405 385 L 405 640 Z" fill="none" stroke="#6d6e71" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="230,520 290,520" fill="none" stroke="#7fbfe3" stroke-width="16" stroke-linejoin="round"/>
+<polyline points="230,520 290,520" fill="none" stroke="#e3f3fb" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="300,580 300,615 140,615 140,545 178,545" fill="none" stroke="#7fbfe3" stroke-width="16" stroke-linejoin="round"/>
+<polyline points="300,580 300,615 140,615 140,545 178,545" fill="none" stroke="#e3f3fb" stroke-width="10" stroke-linejoin="round"/>
+<path d="M 175 455 Q 175 425 210 425 L 245 425 Q 280 425 280 455 L 280 575 Q 280 605 245 605 L 210 605 Q 175 605 175 575 Z" fill="#d6ecf8" stroke="#5aa0cf" stroke-width="3" stroke-linejoin="round"/>
+<rect x="210" y="505" width="36" height="36" fill="#8a8c8f" stroke="#555555" stroke-width="1.5"/>
+<line x1="218" y1="505" x2="218" y2="435" stroke="#333333" stroke-width="2.5"/>
+<line x1="228" y1="505" x2="228" y2="435" stroke="#333333" stroke-width="2.5"/>
+<line x1="238" y1="505" x2="238" y2="435" stroke="#333333" stroke-width="2.5"/>
+<path d="M 285 385 Q 285 350 320 350 L 330 350 Q 365 350 365 385 L 365 560 Q 365 590 330 590 L 320 590 Q 285 590 285 560 Z" fill="#d6ecf8" stroke="#5aa0cf" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="298" cy="365" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="312" cy="365" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="326" cy="365" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="340" cy="365" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="354" cy="365" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="298" cy="379" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="312" cy="379" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="326" cy="379" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="340" cy="379" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="354" cy="379" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="298" cy="393" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="312" cy="393" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="326" cy="393" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="340" cy="393" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="354" cy="393" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="298" cy="407" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="312" cy="407" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="326" cy="407" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="340" cy="407" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<circle cx="354" cy="407" r="6" fill="#ffffff" stroke="#c9e3f2" stroke-width="1"/>
+<polyline points="290,520 310,520 310,450 345,450 345,580" fill="none" stroke="#7fbfe3" stroke-width="14" stroke-linejoin="round"/>
+<polyline points="290,520 310,520 310,450 345,450 345,580" fill="none" stroke="#e3f3fb" stroke-width="8" stroke-linejoin="round"/>
+<line x1="150" y1="590" x2="150" y2="567" stroke="#1f6fb5" stroke-width="1.5"/>
+<polygon points="150,560 153.2,568 146.8,568" fill="#1f6fb5"/>
+<line x1="250" y1="616" x2="207" y2="616" stroke="#1f6fb5" stroke-width="1.5"/>
+<polygon points="200,616 208,612.8 208,619.2" fill="#1f6fb5"/>
+<polyline points="325,350 325,330 530,330 530,440" fill="none" stroke="#7fbfe3" stroke-width="16" stroke-linejoin="round"/>
+<polyline points="325,350 325,330 530,330 530,440" fill="none" stroke="#e3f3fb" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="475,615 475,545 365,545" fill="none" stroke="#7fbfe3" stroke-width="16" stroke-linejoin="round"/>
+<polyline points="475,615 475,545 365,545" fill="none" stroke="#e3f3fb" stroke-width="10" stroke-linejoin="round"/>
+<line x1="420" y1="331" x2="453" y2="331" stroke="#1f6fb5" stroke-width="1.5"/>
+<polygon points="460,331 452,334.2 452,327.8" fill="#1f6fb5"/>
+<line x1="420" y1="546" x2="397" y2="546" stroke="#1f6fb5" stroke-width="1.5"/>
+<polygon points="390,546 398,542.8 398,549.2" fill="#1f6fb5"/>
+<polygon points="460,440 690,440 690,640 460,640" fill="#eef6fb" stroke="#9a9c9f" stroke-width="2"/>
+<rect x="462" y="560" width="226" height="78" fill="#a9d8f2"/>
+<circle cx="472" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="488" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="504" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="520" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="536" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="552" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="568" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="584" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="600" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="616" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="632" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="648" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="664" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="680" cy="452" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="472" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="488" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="504" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="520" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="536" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="552" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="568" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="584" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="600" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="616" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="632" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="648" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="664" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<circle cx="680" cy="468" r="8" fill="#ffffff" stroke="#d6ecf8" stroke-width="1"/>
+<line x1="480" y1="500" x2="760" y2="500" stroke="#555555" stroke-width="3"/>
+<rect x="495" y="484" width="10" height="32" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="509" y="475" width="10" height="50" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="523" y="466" width="10" height="68" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="537" y="457" width="10" height="86" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="551" y="448" width="10" height="104" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="585" y="484" width="10" height="32" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="599" y="475" width="10" height="50" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="613" y="466" width="10" height="68" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="627" y="457" width="10" height="86" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="641" y="448" width="10" height="104" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="655" y="439" width="10" height="122" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="700" y="480" width="70" height="40" fill="#c7c8ca" stroke="#6d6e71" stroke-width="1.5"/>
+<rect x="708" y="486" width="6" height="28" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="719" y="486" width="6" height="28" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="730" y="486" width="6" height="28" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="741" y="486" width="6" height="28" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<rect x="752" y="486" width="6" height="28" fill="#ffffff" stroke="#6d6e71" stroke-width="0.8"/>
+<polyline points="530,600 790,600 840,560 840,300 790,220 760,200" fill="none" stroke="#7fbfe3" stroke-width="16" stroke-linejoin="round"/>
+<polyline points="530,600 790,600 840,560 840,300 790,220 760,200" fill="none" stroke="#e3f3fb" stroke-width="10" stroke-linejoin="round"/>
+<polyline points="540,585 775,585 815,550 815,300 770,230 740,205" fill="none" stroke="#7fbfe3" stroke-width="16" stroke-linejoin="round"/>
+<polyline points="540,585 775,585 815,550 815,300 770,230 740,205" fill="none" stroke="#e3f3fb" stroke-width="10" stroke-linejoin="round"/>
+<path d="M 650 200 Q 690 120 680 30 L 830 30 Q 820 120 860 200 Z" fill="#f6d78f" stroke="#d9a94a" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="755" cy="200" rx="105" ry="18" fill="#e9c06a" stroke="#d9a94a" stroke-width="1.5"/>
+<ellipse cx="755" cy="30" rx="75" ry="12" fill="#fbe6b5" stroke="#d9a94a" stroke-width="1.5"/>
+<text x="755" y="126.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Cooling</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tower</tspan></text>
+<text x="270" y="261.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Containment</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">structure</tspan></text>
+<polyline points="300,270 300.13,271.09 300.27,272.18 300.44,273.24 300.64,274.28 300.88,275.27 301.17,276.22 301.53,277.12 301.95,277.96 302.44,278.73 303,279.45 303.64,280.09 304.35,280.68 305.13,281.2 305.97,281.66 306.88,282.07 307.84,282.44 308.84,282.76 309.87,283.06 310.93,283.33 312,283.6 313.07,283.87 314.13,284.14 315.16,284.44 316.16,284.76 317.12,285.13 318.03,285.54 318.87,286 319.65,286.52 320.36,287.11 321,287.75 321.56,288.47 322.05,289.24 322.47,290.08 322.83,290.98 323.12,291.93 323.36,292.92 323.56,293.96 323.73,295.02 323.87,296.11 324,297.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="324" y1="297.2" x2="327.06" y2="300.67" stroke="#222222" stroke-width="1.4"/>
+<polygon points="330,304 324.77,301.36 328.03,298.48" fill="#222222"/>
+<text x="160" y="351.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Steel</tspan></text>
+<text x="160" y="372.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">containment</tspan></text>
+<polyline points="125,380 124.32,380.13 123.65,380.26 122.98,380.4 122.32,380.55 121.68,380.72 121.06,380.91 120.47,381.13 119.89,381.37 119.35,381.63 118.83,381.93 118.35,382.27 117.9,382.63 117.48,383.03 117.09,383.47 116.73,383.93 116.41,384.43 116.11,384.97 115.85,385.53 115.6,386.11 115.38,386.72 115.18,387.35 115,388 114.83,388.66 114.66,389.33 114.5,390 114.34,390.67 114.17,391.34 114,392 113.82,392.65 113.62,393.28 113.4,393.89 113.15,394.47 112.89,395.03 112.59,395.57 112.27,396.07 111.91,396.53 111.52,396.97 111.1,397.37 110.65,397.73 110.17,398.07" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="110.17" y1="398.07" x2="106.75" y2="399.14" stroke="#222222" stroke-width="1.4"/>
+<polygon points="104,400 107.24,397.36 108.16,400.32" fill="#222222"/>
+<text x="320" y="347.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Steam</tspan></text>
+<text x="225" y="405.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Control</tspan></text>
+<text x="225" y="426.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">rods</tspan></text>
+<text x="395" y="410.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Steam</tspan></text>
+<text x="395" y="431.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">generator</tspan></text>
+<polyline points="393,420 392.24,420.1 391.48,420.2 390.72,420.31 389.98,420.44 389.25,420.58 388.54,420.75 387.84,420.94 387.17,421.16 386.52,421.42 385.9,421.71 385.31,422.03 384.74,422.39 384.2,422.79 383.69,423.23 383.2,423.71 382.74,424.22 382.31,424.76 381.9,425.34 381.52,425.95 381.15,426.58 380.8,427.24 380.46,427.91 380.14,428.6 379.82,429.3 379.5,430 379.18,430.7 378.86,431.4 378.54,432.09 378.2,432.76 377.85,433.42 377.48,434.05 377.1,434.66 376.69,435.24 376.26,435.78 375.8,436.29 375.31,436.77 374.8,437.21 374.26,437.61 373.69,437.97 373.1,438.29" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="373.1" y1="438.29" x2="369.29" y2="439.21" stroke="#222222" stroke-width="1.4"/>
+<polygon points="366,440 369.85,437.27 370.67,440.68" fill="#222222"/>
+<text x="55" y="490.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pressure</tspan></text>
+<text x="55" y="511.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">vessel</tspan></text>
+<polyline points="90,490 91.62,490.76 93.24,491.51 94.86,492.24 96.49,492.94 98.13,493.59 99.78,494.19 101.44,494.73 103.1,495.21 104.79,495.62 106.48,495.95 108.19,496.22 109.9,496.41 111.64,496.53 113.38,496.59 115.13,496.59 116.89,496.54 118.66,496.44 120.44,496.31 122.22,496.16 124,496 125.78,495.84 127.56,495.69 129.34,495.56 131.11,495.46 132.87,495.41 134.62,495.41 136.36,495.47 138.1,495.59 139.81,495.78 141.52,496.05 143.21,496.38 144.9,496.79 146.56,497.27 148.22,497.81 149.87,498.41 151.51,499.06 153.14,499.76 154.76,500.49 156.38,501.24 158,502" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="158" y1="502" x2="166.14" y2="503.44" stroke="#222222" stroke-width="1.4"/>
+<polygon points="175,505 164.46,507.2 165.85,499.32" fill="#222222"/>
+<text x="227" y="585.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Core</tspan></text>
+<text x="440" y="320.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Steam</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">line</tspan></text>
+<text x="410" y="580.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pump</tspan></text>
+<text x="580" y="370.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">High</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">pressure</tspan></text>
+<text x="580" y="391.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">turbine</tspan></text>
+<path d="M 580 405 Q 552.5 438.5 542.02 473.3" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="542.6" y1="471.38" x2="541.27" y2="475.79" stroke="#333333" stroke-width="1.2"/>
+<polygon points="540,480 539.49,474.21 543.63,475.45" fill="#333333"/>
+<text x="690" y="405.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Low</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">pressure</tspan></text>
+<text x="690" y="426.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">turbine</tspan></text>
+<path d="M 690 440 Q 662 450 645.18 465.29" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="646.66" y1="463.95" x2="643.26" y2="467.04" stroke="#333333" stroke-width="1.2"/>
+<polygon points="640,470 642.54,464.77 645.45,467.97" fill="#333333"/>
+<text x="735" y="460.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Turbine</tspan></text>
+<text x="735" y="481.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">generator</tspan></text>
+<text x="790" y="640.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Condenser</tspan></text>
+<text x="790" y="661.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cooling</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">water</tspan></text>
+</svg>

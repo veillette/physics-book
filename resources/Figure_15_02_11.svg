@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="660" viewBox="0 0 760 660" role="img" aria-labelledby="title desc">
+<title id="title">Cycle on a PV diagram with values</title>
+<desc id="desc">A PV diagram with pressure in units of 10⁶ N/m² and volume in 10⁻³ m³. A is at (1.0, 2.6), B at (4.0, 2.0), C at (4.0, 0.6), and D at (1.0, 1.0). Straight lines join A to B, B to C, C to D, and D to A; a green line joins D to B.</desc>
+<rect width="760" height="660" fill="#ffffff"/>
+<line x1="190" y1="540" x2="703" y2="540" stroke="#222222" stroke-width="3"/>
+<polygon points="720,540 702,547.2 702,532.8" fill="#222222"/>
+<line x1="190" y1="540" x2="190" y2="47" stroke="#222222" stroke-width="3"/>
+<polygon points="190,30 197.2,48 182.8,48" fill="#222222"/>
+<line x1="246.52" y1="540" x2="246.52" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="303.04" y1="540" x2="303.04" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="359.57" y1="540" x2="359.57" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="416.09" y1="540" x2="416.09" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="472.61" y1="540" x2="472.61" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="529.13" y1="540" x2="529.13" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="585.65" y1="540" x2="585.65" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="642.17" y1="540" x2="642.17" y2="528" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="473.33" x2="202" y2="473.33" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="406.67" x2="202" y2="406.67" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="340" x2="202" y2="340" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="273.33" x2="202" y2="273.33" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="206.67" x2="202" y2="206.67" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="140" x2="202" y2="140" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="193.33" x2="303.04" y2="193.33" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="172" y="201.73" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.6</tspan></text>
+<line x1="190" y1="273.33" x2="642.17" y2="273.33" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="172" y="281.73" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2.0</tspan></text>
+<line x1="190" y1="460" x2="642.17" y2="460" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="172" y="468.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.6</tspan></text>
+<line x1="190" y1="406.67" x2="303.04" y2="406.67" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="172" y="415.07" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.0</tspan></text>
+<line x1="303.04" y1="406.67" x2="303.04" y2="540" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<line x1="642.17" y1="460" x2="642.17" y2="540" stroke="#222222" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="303.04" y="588.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.0</tspan></text>
+<text x="642.17" y="588.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4.0</tspan></text>
+<polyline points="303.04,193.33 642.17,273.33 642.17,460 303.04,406.67 303.04,193.33" fill="none" stroke="#6a3d9a" stroke-width="4" stroke-linejoin="round"/>
+<line x1="303.04" y1="406.67" x2="642.17" y2="273.33" stroke="#5ab43c" stroke-width="4"/>
+<circle cx="303.04" cy="193.33" r="8" fill="#222222"/>
+<text x="271.04" y="178.43" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan></text>
+<circle cx="642.17" cy="273.33" r="8" fill="#222222"/>
+<text x="672.17" y="282.43" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan></text>
+<circle cx="642.17" cy="460" r="8" fill="#222222"/>
+<text x="672.17" y="469.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">C</tspan></text>
+<circle cx="303.04" cy="406.67" r="8" fill="#222222"/>
+<text x="273.04" y="389.77" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">D</tspan></text>
+<text x="180" y="31.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
+<text x="120" y="68.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(10</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">6</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">N</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">m</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal">)</tspan></text>
+<text x="590" y="648.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> (10</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−3</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">3</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

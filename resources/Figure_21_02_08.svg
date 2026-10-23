@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="640" viewBox="0 0 560 640" role="img" aria-labelledby="title desc">
+<title id="title">Two voltage sources in series</title>
+<desc id="desc">Two dry cells are stacked, the positive terminal of the lower one touching the negative end of the upper one. Beside them, the schematic shows the same series connection: emf1 with internal resistance r1, then emf2 with internal resistance r2. The emfs add and so do the internal resistances.</desc>
+<rect width="560" height="640" fill="#ffffff"/>
+<line x1="110" y1="170" x2="400" y2="50" stroke="#222222" stroke-width="1.6"/>
+<line x1="110" y1="450" x2="400" y2="600" stroke="#222222" stroke-width="1.6"/>
+<defs><linearGradient id="cell_body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8c8f96"/><stop offset="0.35" stop-color="#eceef2"/><stop offset="0.7" stop-color="#b3b6bd"/><stop offset="1" stop-color="#7a7d84"/></linearGradient><linearGradient id="cell_gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8892a"/><stop offset="0.35" stop-color="#f6d684"/><stop offset="0.7" stop-color="#dcae45"/><stop offset="1" stop-color="#a8791c"/></linearGradient></defs>
+<path d="M 55 310 L 55 450 A 55 15.400000000000002 0 0 0 165 450 L 165 310 Z" fill="url(#cell_body)" stroke="#6f7178" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 55 310 L 55 363.2 L 110 380.8 L 165 363.2 L 165 310 Z" fill="url(#cell_gold)" stroke="#9a7420" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="110" cy="310" rx="55" ry="15.4" fill="#c9ccd2" stroke="#6f7178" stroke-width="1.2"/>
+<ellipse cx="110" cy="310" rx="45.1" ry="12.63" fill="#dfe1e5" stroke="#a6a9b0" stroke-width="1"/>
+<ellipse cx="110" cy="310" rx="7.7" ry="6.16" fill="#7f93a8" stroke="#56687c" stroke-width="1"/>
+<path d="M 55 170 L 55 310 A 55 15.400000000000002 0 0 0 165 310 L 165 170 Z" fill="url(#cell_body)" stroke="#6f7178" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 55 170 L 55 223.2 L 110 240.79999999999998 L 165 223.2 L 165 170 Z" fill="url(#cell_gold)" stroke="#9a7420" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="110" cy="170" rx="55" ry="15.4" fill="#c9ccd2" stroke="#6f7178" stroke-width="1.2"/>
+<ellipse cx="110" cy="170" rx="45.1" ry="12.63" fill="#dfe1e5" stroke="#a6a9b0" stroke-width="1"/>
+<ellipse cx="110" cy="170" rx="7.7" ry="6.16" fill="#7f93a8" stroke="#56687c" stroke-width="1"/>
+<polyline points="400,50 400,600" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="400" y1="115" x2="400" y2="95" stroke="#ffffff" stroke-width="7"/>
+<line x1="400" y1="130" x2="400" y2="111.5" stroke="#222222" stroke-width="2"/>
+<line x1="400" y1="98.5" x2="400" y2="80" stroke="#222222" stroke-width="2"/>
+<line x1="384" y1="111.5" x2="416" y2="111.5" stroke="#c62828" stroke-width="5"/>
+<line x1="368" y1="98.5" x2="432" y2="98.5" stroke="#c62828" stroke-width="3"/>
+<text x="440" y="111.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="400" y1="197" x2="400" y2="253" stroke="#ffffff" stroke-width="7"/>
+<line x1="400" y1="180" x2="400" y2="197" stroke="#222222" stroke-width="2"/>
+<line x1="400" y1="253" x2="400" y2="270" stroke="#222222" stroke-width="2"/>
+<polyline points="400,197 389,201.67 411,211 389,220.33 411,229.67 389,239 411,248.33 400,253" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="422" y="232.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="400" y1="345" x2="400" y2="325" stroke="#ffffff" stroke-width="7"/>
+<line x1="400" y1="360" x2="400" y2="341.5" stroke="#222222" stroke-width="2"/>
+<line x1="400" y1="328.5" x2="400" y2="310" stroke="#222222" stroke-width="2"/>
+<line x1="384" y1="341.5" x2="416" y2="341.5" stroke="#c62828" stroke-width="5"/>
+<line x1="368" y1="328.5" x2="432" y2="328.5" stroke="#c62828" stroke-width="3"/>
+<text x="440" y="341.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="400" y1="437" x2="400" y2="493" stroke="#ffffff" stroke-width="7"/>
+<line x1="400" y1="420" x2="400" y2="437" stroke="#222222" stroke-width="2"/>
+<line x1="400" y1="493" x2="400" y2="510" stroke="#222222" stroke-width="2"/>
+<polyline points="400,437 389,441.67 411,451 389,460.33 411,469.67 389,479 411,488.33 400,493" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="422" y="472.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<circle cx="400" cy="50" r="4.5" fill="#7b1145"/>
+<circle cx="400" cy="155" r="4.5" fill="#7b1145"/>
+<circle cx="400" cy="290" r="4.5" fill="#7b1145"/>
+<circle cx="400" cy="385" r="4.5" fill="#7b1145"/>
+<circle cx="400" cy="600" r="4.5" fill="#7b1145"/>
+</svg>

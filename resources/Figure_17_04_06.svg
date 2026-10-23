@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="700" viewBox="0 0 780 700" role="img" aria-labelledby="title desc">
+<title id="title">Two sonic booms from a supersonic aircraft</title>
+<desc id="desc">A jet flies to the right faster than sound. Two shock-wave cones trail behind it, one from its nose and one from its tail, drawn as shaded wedges that reach down to the ground behind the plane. The observer on the left, inside both cones, has heard both booms and covers their ears. The observer in the middle has just been reached by the nose boom and throws up their arms. The observer on the right, ahead of both cones, has heard nothing yet and wonders what is happening, even though the plane is already past.</desc>
+<rect width="780" height="700" fill="#ffffff"/>
+<polygon points="740,150 572.29,0 0,0 0,600 236.88,600" fill="#e3e6f3"/>
+<polygon points="560,150 392.29,0 0,0 0,600 56.88,600" fill="#c6cce6"/>
+<polyline points="572.29,0 740,150 236.88,600" fill="none" stroke="#9a8fc2" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="392.29,0 560,150 56.88,600" fill="none" stroke="#7c6fae" stroke-width="2" stroke-linejoin="round"/>
+<defs><linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b5d38a"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<rect x="0" y="600" width="780" height="100" fill="url(#grass)"/>
+<polygon points="550,143 680,141 740,150 680,157 556,158" fill="#80858c" stroke="#4f545b" stroke-width="1.4"/>
+<polygon points="550,143 552,110 566,110 590,142" fill="#80858c" stroke="#4f545b" stroke-width="1.4"/>
+<polygon points="610,152 680,152 630,162 600,162" fill="#6a6f76" stroke="#4f545b" stroke-width="1.4"/>
+<polygon points="670,142 700,145 674,148" fill="#c9d6e6" stroke="#4f545b" stroke-width="1"/>
+<line x1="36" y1="564" x2="29" y2="600" stroke="#b07c2c" stroke-width="6" stroke-linecap="round"/>
+<line x1="36" y1="564" x2="43" y2="600" stroke="#b07c2c" stroke-width="6" stroke-linecap="round"/>
+<line x1="36" y1="564" x2="36" y2="534" stroke="#8a62a8" stroke-width="12" stroke-linecap="round"/>
+<polyline points="31,536 22,528 27,518" fill="none" stroke="#8a62a8" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="41,536 50,528 45,518" fill="none" stroke="#8a62a8" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="36" cy="520" r="8" fill="#f1c9a5" stroke="#9b6b4a" stroke-width="1"/>
+<path d="M 28 519 Q 36 506 44 519" fill="none" stroke="#2a2320" stroke-width="4" stroke-linejoin="round"/>
+<line x1="212" y1="564" x2="205" y2="600" stroke="#4f6fa8" stroke-width="6" stroke-linecap="round"/>
+<line x1="212" y1="564" x2="219" y2="600" stroke="#4f6fa8" stroke-width="6" stroke-linecap="round"/>
+<line x1="212" y1="564" x2="212" y2="534" stroke="#5f8f80" stroke-width="12" stroke-linecap="round"/>
+<polyline points="207,536 197,520 190,504" fill="none" stroke="#5f8f80" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="217,536 227,520 234,504" fill="none" stroke="#5f8f80" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="212" cy="520" r="8" fill="#f1c9a5" stroke="#9b6b4a" stroke-width="1"/>
+<path d="M 204 519 Q 212 506 220 519" fill="none" stroke="#2a2320" stroke-width="4" stroke-linejoin="round"/>
+<line x1="418" y1="564" x2="411" y2="600" stroke="#e09a3a" stroke-width="6" stroke-linecap="round"/>
+<line x1="418" y1="564" x2="425" y2="600" stroke="#e09a3a" stroke-width="6" stroke-linecap="round"/>
+<line x1="418" y1="564" x2="418" y2="534" stroke="#d97a8c" stroke-width="12" stroke-linecap="round"/>
+<polyline points="413,536 405,546 413,556" fill="none" stroke="#d97a8c" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="423,536 431,546 423,556" fill="none" stroke="#d97a8c" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="418" cy="520" r="8" fill="#f1c9a5" stroke="#9b6b4a" stroke-width="1"/>
+<path d="M 410 519 Q 418 506 426 519" fill="none" stroke="#2a2320" stroke-width="4" stroke-linejoin="round"/>
+<text x="418" y="511.9" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">?</tspan></text>
+</svg>

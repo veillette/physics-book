@@ -30,9 +30,10 @@
 <path d="M 420 404 Q 410.6 369.8 382.83 363.54" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
 <line x1="384.78" y1="363.98" x2="380.29" y2="362.97" stroke="#333333" stroke-width="1.4"/>
 <polygon points="376,362 381.74,361.08 380.79,365.29" fill="#333333"/>
+<path d="M 130 534 Q 300 542 470 534 L 470 546 Q 300 538 130 546 Z" fill="#cbd2ec" stroke="none" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 130 534 Q 300 542 470 534" fill="none" stroke="#5b8fd1" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 130 546 Q 300 538 470 546" fill="none" stroke="#5b8fd1" stroke-width="2" stroke-linejoin="round"/>
 <circle cx="120" cy="540" r="12" fill="#cccccc" stroke="#777777" stroke-width="1.2"/>
 <circle cx="480" cy="540" r="12" fill="#cccccc" stroke="#777777" stroke-width="1.2"/>
-<path d="M 130 534 Q 300 546 470 534" fill="none" stroke="#5b8fd1" stroke-width="2" stroke-linejoin="round"/>
-<path d="M 130 546 Q 300 534 470 546" fill="none" stroke="#5b8fd1" stroke-width="2" stroke-linejoin="round"/>
 <text x="300" y="587.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Side</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">view</tspan></text>
 </svg>

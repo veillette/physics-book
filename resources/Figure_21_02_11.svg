@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+<title id="title">A flashlight with two cells in series</title>
+<desc id="desc">Left: two dry cells stacked in series light a bulb connected across them. Right: the schematic, with emf1 and internal resistance r1 in series with emf2 and internal resistance r2, driving current I through the load resistance R_load. I = (emf1 + emf2)/(r1 + r2 + R_load).</desc>
+<rect width="900" height="440" fill="#ffffff"/>
+<polyline points="80,70 80,34 230,34 230,174" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="230,244 230,400 80,400 80,320" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<defs><linearGradient id="cell_body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8c8f96"/><stop offset="0.35" stop-color="#eceef2"/><stop offset="0.7" stop-color="#b3b6bd"/><stop offset="1" stop-color="#7a7d84"/></linearGradient><linearGradient id="cell_gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8892a"/><stop offset="0.35" stop-color="#f6d684"/><stop offset="0.7" stop-color="#dcae45"/><stop offset="1" stop-color="#a8791c"/></linearGradient></defs>
+<path d="M 32 195 L 32 320 A 48 13.440000000000001 0 0 0 128 320 L 128 195 Z" fill="url(#cell_body)" stroke="#6f7178" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 32 195 L 32 242.5 L 80 257.86 L 128 242.5 L 128 195 Z" fill="url(#cell_gold)" stroke="#9a7420" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="80" cy="195" rx="48" ry="13.44" fill="#c9ccd2" stroke="#6f7178" stroke-width="1.2"/>
+<ellipse cx="80" cy="195" rx="39.36" ry="11.02" fill="#dfe1e5" stroke="#a6a9b0" stroke-width="1"/>
+<ellipse cx="80" cy="195" rx="6.72" ry="5.38" fill="#7f93a8" stroke="#56687c" stroke-width="1"/>
+<path d="M 32 70 L 32 195 A 48 13.440000000000001 0 0 0 128 195 L 128 70 Z" fill="url(#cell_body)" stroke="#6f7178" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 32 70 L 32 117.5 L 80 132.86 L 128 117.5 L 128 70 Z" fill="url(#cell_gold)" stroke="#9a7420" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="80" cy="70" rx="48" ry="13.44" fill="#c9ccd2" stroke="#6f7178" stroke-width="1.2"/>
+<ellipse cx="80" cy="70" rx="39.36" ry="11.02" fill="#dfe1e5" stroke="#a6a9b0" stroke-width="1"/>
+<ellipse cx="80" cy="70" rx="6.72" ry="5.38" fill="#7f93a8" stroke="#56687c" stroke-width="1"/>
+<line x1="260" y1="196" x2="272" y2="196" stroke="#ef7d22" stroke-width="2"/>
+<line x1="255.98" y1="181" x2="266.37" y2="175" stroke="#ef7d22" stroke-width="2"/>
+<line x1="204.02" y1="181" x2="193.63" y2="175" stroke="#ef7d22" stroke-width="2"/>
+<line x1="200" y1="196" x2="188" y2="196" stroke="#ef7d22" stroke-width="2"/>
+<line x1="204.02" y1="211" x2="193.63" y2="217" stroke="#ef7d22" stroke-width="2"/>
+<line x1="215" y1="221.98" x2="209" y2="232.37" stroke="#ef7d22" stroke-width="2"/>
+<line x1="230" y1="226" x2="230" y2="238" stroke="#ef7d22" stroke-width="2"/>
+<line x1="245" y1="221.98" x2="251" y2="232.37" stroke="#ef7d22" stroke-width="2"/>
+<line x1="255.98" y1="211" x2="266.37" y2="217" stroke="#ef7d22" stroke-width="2"/>
+<circle cx="230" cy="196" r="22" fill="#fff1a8" stroke="#c9a227" stroke-width="1.5"/>
+<path d="M 224 214 L 226 194 L 234 194 L 236 214" fill="none" stroke="#8a6d1a" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="219" y="216" width="22" height="26" rx="2" fill="#a9acb3" stroke="#6f7178" stroke-width="1.2"/>
+<line x1="219" y1="222" x2="241" y2="222" stroke="#6f7178" stroke-width="1"/>
+<line x1="219" y1="229" x2="241" y2="229" stroke="#6f7178" stroke-width="1"/>
+<line x1="219" y1="236" x2="241" y2="236" stroke="#6f7178" stroke-width="1"/>
+<path d="M 272 262 Q 320 300 372 226" fill="none" stroke="#555555" stroke-width="5" stroke-linejoin="round"/>
+<line x1="360" y1="246" x2="368.22" y2="232.29" stroke="#555555" stroke-width="5"/>
+<polygon points="378,216 374.57,237.27 360.85,229.03" fill="#555555"/>
+<polyline points="440,30 620,30 620,420 440,420 440,30" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="440" y1="135" x2="440" y2="115" stroke="#ffffff" stroke-width="7"/>
+<line x1="440" y1="150" x2="440" y2="131.5" stroke="#222222" stroke-width="2"/>
+<line x1="440" y1="118.5" x2="440" y2="100" stroke="#222222" stroke-width="2"/>
+<line x1="424" y1="131.5" x2="456" y2="131.5" stroke="#c62828" stroke-width="5"/>
+<line x1="408" y1="118.5" x2="472" y2="118.5" stroke="#c62828" stroke-width="3"/>
+<text x="480" y="131.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="440" y1="177" x2="440" y2="233" stroke="#ffffff" stroke-width="7"/>
+<line x1="440" y1="170" x2="440" y2="177" stroke="#222222" stroke-width="2"/>
+<line x1="440" y1="233" x2="440" y2="240" stroke="#222222" stroke-width="2"/>
+<polyline points="440,177 429,181.67 451,191 429,200.33 451,209.67 429,219 451,228.33 440,233" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="460" y="212.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="440" y1="285" x2="440" y2="265" stroke="#ffffff" stroke-width="7"/>
+<line x1="440" y1="300" x2="440" y2="281.5" stroke="#222222" stroke-width="2"/>
+<line x1="440" y1="268.5" x2="440" y2="250" stroke="#222222" stroke-width="2"/>
+<line x1="424" y1="281.5" x2="456" y2="281.5" stroke="#c62828" stroke-width="5"/>
+<line x1="408" y1="268.5" x2="472" y2="268.5" stroke="#c62828" stroke-width="3"/>
+<text x="480" y="281.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="440" y1="337" x2="440" y2="393" stroke="#ffffff" stroke-width="7"/>
+<line x1="440" y1="330" x2="440" y2="337" stroke="#222222" stroke-width="2"/>
+<line x1="440" y1="393" x2="440" y2="400" stroke="#222222" stroke-width="2"/>
+<polyline points="440,337 429,341.67 451,351 429,360.33 451,369.67 429,379 451,388.33 440,393" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="460" y="372.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="620" y1="197" x2="620" y2="253" stroke="#ffffff" stroke-width="7"/>
+<line x1="620" y1="185" x2="620" y2="197" stroke="#222222" stroke-width="2"/>
+<line x1="620" y1="253" x2="620" y2="265" stroke="#222222" stroke-width="2"/>
+<polyline points="620,197 609,201.67 631,211 609,220.33 631,229.67 609,239 631,248.33 620,253" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="638" y="232.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">load</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<polyline points="479.38,95 481.97,90.86 484.84,86.9 487.98,83.16 491.37,79.65 495,76.38 498.86,73.37 502.91,70.64 507.14,68.19 511.53,66.05 516.06,64.22 520.71,62.71 525.45,61.53 530.26,60.68 535.12,60.17 540,60 544.88,60.17 549.74,60.68 554.55,61.53 559.29,62.71 563.94,64.22 568.47,66.05 572.86,68.19 577.09,70.64 581.14,73.37 585,76.38 588.63,79.65 592.02,83.16 595.16,86.9" fill="none" stroke="#1f77c8" stroke-width="3" stroke-linejoin="round"/>
+<line x1="592.02" y1="83.16" x2="596.05" y2="88.71" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="600.62,95 592.62,89.96 598.3,85.83" fill="#1f77c8"/>
+<text x="540" y="53.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<text x="704" y="69.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="792" y="53" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="normal">emf</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<line x1="708" y1="64" x2="878" y2="64" stroke="#222222" stroke-width="1.5"/>
+<text x="792" y="91" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">1</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">r</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">R</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">load</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+</svg>

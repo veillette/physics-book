@@ -29,7 +29,7 @@ reflects light at specific angles, as illustrated in [[Figure 4]](#Figure4).
 When the moon reflects from a lake, as shown in [[Figure 5]](#Figure5), a
 combination of these effects takes place.
 
-![A light ray is incident on a smooth surface and is falling obliquely, making an angle theta i relative to a perpendicular line drawn to the surface at the point where the incident ray strikes. The light ray gets reflected making an angle theta r with the same perpendicular drawn to the surface.](../resources/Figure_25_02_01.jpg 'The law of reflection states that the angle of reflection equals the angle of incidence— ( \\theta_r = \\theta_i ). The angles are measured relative to the perpendicular to the surface at the point where the ray strikes the surface.')
+![A light ray is incident on a smooth surface and is falling obliquely, making an angle theta i relative to a perpendicular line drawn to the surface at the point where the incident ray strikes. The light ray gets reflected making an angle theta r with the same perpendicular drawn to the surface.](../resources/Figure_25_02_01.svg 'The law of reflection states that the angle of reflection equals the angle of incidence— ( \\theta_r = \\theta_i ). The angles are measured relative to the perpendicular to the surface at the point where the ray strikes the surface.')
 {: #Figure1}
 
 ![Parallel light rays falling on a rough surface get scattered at different angles.](../resources/Figure_25_02_02.jpg 'Light is diffused when it reflects from a rough surface. Here many parallel rays are incident, but they are reflected at many different angles since the surface is rough.')
@@ -127,7 +127,7 @@ Powder takes the shine off a nose because its randomly oriented grains make the 
 
 Show that when light reflects from two mirrors that meet each other at a right angle, the outgoing ray is parallel to the incoming ray, as illustrated in the following figure.
 
-![Two mirrors meet each other at a right angle. An incoming ray of light is reflected by one mirror and then the other, such that the outgoing ray is parallel to the incoming ray.](../resources/Figure_25_02_07.jpg 'A corner reflector sends the reflected ray back in a direction parallel to the incident ray, independent of incoming direction.')
+![Two mirrors meet each other at a right angle. An incoming ray of light is reflected by one mirror and then the other, such that the outgoing ray is parallel to the incoming ray.](../resources/Figure_25_02_07.svg 'A corner reflector sends the reflected ray back in a direction parallel to the incident ray, independent of incoming direction.')
 {: #Figure7}
 
 :::
@@ -220,7 +220,7 @@ This 2:1 relationship between mirror rotation and beam deflection is also used i
 A flat mirror is neither converging nor diverging. To prove this, consider two rays originating from the same point and diverging at an angle  $$\theta  $$ .
  Show that after striking a plane mirror, the angle between their directions remains  $$\theta  $$.
 
-![Light rays diverging from a point at an angle theta fall on a mirror at two different places and their reflected rays diverge. When the reflected rays are extended backwards from their points of reflection, they meet at a point behind the mirror, where they diverge from each other at the same angle theta.](../resources/Figure_25_02_08.jpg 'A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.')
+![Light rays diverging from a point at an angle theta fall on a mirror at two different places and their reflected rays diverge. When the reflected rays are extended backwards from their points of reflection, they meet at a point behind the mirror, where they diverge from each other at the same angle theta.](../resources/Figure_25_02_08.svg 'A flat mirror neither converges nor diverges light rays. Two rays continue to diverge at the same angle after reflection.')
 {: #Figure8}
 
 :::

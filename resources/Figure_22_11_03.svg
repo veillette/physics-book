@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500" role="img" aria-labelledby="title desc">
+<title id="title">Field on either side of a current</title>
+<desc id="desc">Three panels, each with a vertical line dividing Left from Right. (a) A current I runs up. (b) An electron moves up with velocity v. (c) A current I runs down.</desc>
+<rect width="600" height="500" fill="#ffffff"/>
+<text x="92" y="34.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Left</tspan></text>
+<text x="108" y="34.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Right</tspan></text>
+<line x1="100" y1="4" x2="100" y2="440" stroke="#222222" stroke-width="1.5"/>
+<line x1="100" y1="440" x2="100" y2="120" stroke="#1f8fd1" stroke-width="4"/>
+<line x1="100" y1="160" x2="100" y2="121" stroke="#1f8fd1" stroke-width="4"/>
+<polygon points="100,100 108.8,122 91.2,122" fill="#1f8fd1"/>
+<text x="124" y="124.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">I<tspan font-size="14.88" font-weight="normal" dx="-12.11" dy="-19.68">→</tspan><tspan dx="-2.77" dy="19.68">​</tspan></tspan></text>
+<text x="100" y="483" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<text x="292" y="34.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Left</tspan></text>
+<text x="308" y="34.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Right</tspan></text>
+<line x1="300" y1="4" x2="300" y2="440" stroke="#222222" stroke-width="1.5"/>
+<line x1="300" y1="440" x2="300" y2="120" stroke="#4caf2a" stroke-width="4"/>
+<line x1="300" y1="160" x2="300" y2="121" stroke="#4caf2a" stroke-width="4"/>
+<polygon points="300,100 308.8,122 291.2,122" fill="#4caf2a"/>
+<text x="324" y="124.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="14.88" font-weight="normal" dx="-13.44" dy="-12.48">→</tspan><tspan dx="-1.44" dy="12.48">​</tspan></tspan></text>
+<circle cx="300" cy="260" r="8" fill="#e67e22"/>
+<text x="322" y="264.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−</tspan></tspan><tspan dy="9.6">​</tspan></text>
+<text x="300" y="483" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<text x="492" y="34.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Left</tspan></text>
+<text x="508" y="34.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Right</tspan></text>
+<line x1="500" y1="4" x2="500" y2="440" stroke="#222222" stroke-width="1.5"/>
+<line x1="500" y1="4" x2="500" y2="340" stroke="#1f8fd1" stroke-width="4"/>
+<line x1="500" y1="290" x2="500" y2="329" stroke="#1f8fd1" stroke-width="4"/>
+<polygon points="500,350 491.2,328 508.8,328" fill="#1f8fd1"/>
+<text x="524" y="338.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">I<tspan font-size="14.88" font-weight="normal" dx="-12.11" dy="-19.68">→</tspan><tspan dx="-2.77" dy="19.68">​</tspan></tspan></text>
+<text x="500" y="483" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

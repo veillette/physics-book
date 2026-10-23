@@ -201,7 +201,8 @@ export default {
     f.vec([100, 0], [100, 125], { color: COLORS.velocity });
     f.text([100, 125], '**v**, +t', { dx: 20, size: 18, anchor: 'start' });
     f.vec([100, 0], [15, 0], { color: COLORS.accel });
-    f.text([45, 20], '**a**_c, +n inward', { size: 16 });
+    // Left of the right-angle mark at the particle.
+    f.text([38, 22], '**a**_c, +n inward', { size: 16 });
     svg.circle(...f.p(100, 0), 7, { fill: COLORS.orange });
     f.rightAngle([100, 0], 90, 180, 17);
     svg.text(260, 350, 'Local axes: +t along motion; +n toward the center.', {
@@ -316,7 +317,7 @@ export default {
     f.vec([0, 0], [0, -147], { color: COLORS.red });
     f.text([0, -95], 'mg', { dx: -25, size: 20 });
     f.vec([50, -175], [50, 50], { color: COLORS.red });
-    f.text([50, 50], 'N (board on feet)', { dx: 15, dy: -10, size: 18, anchor: 'start' });
+    f.text([50, -70], 'N (board \\rm{on} feet)', { dx: 12, dy: 0, size: 18, anchor: 'start' });
     f.line([0, 0], [50, 0], { color: COLORS.blue, width: 3, dash: '5 4' });
     f.text([25, 0], 'd', { dy: -14, size: 18 });
     svg.circle(...f.p(0, 0), 7, { fill: COLORS.black });
@@ -324,10 +325,17 @@ export default {
     f.text([0, 0], 'center of mass', { dx: -20, dy: -12, size: 14, math: false, anchor: 'end' });
     f.text([115, -200], 'board', { size: 15, math: false });
     f.angle([0, 0], 20, 100, 80, '+τ_z', { labelR: 110, size: 18 });
+    // Arrowhead at the end of the arc: positive torque is counterclockwise.
+    {
+      const [cx, cy] = f.p(0, 0);
+      const a = (100 * Math.PI) / 180;
+      const [ex, ey] = [cx + 80 * Math.cos(a), cy - 80 * Math.sin(a)];
+      svg.arrow(ex + 12 * Math.sin(a), ey + 12 * Math.cos(a), ex, ey, { head: 11, width: 1.5 });
+    }
     svg.text(
       310,
       40,
-      'During contact: τ_z = dN; weight has zero moment about the center of mass.',
+      'During contact: τ_z = dN; weight has zero moment about the center \\rm{of} mass.',
       { size: 15 }
     );
     svg.text(310, 472, '+z out of the page; positive torque is counterclockwise.', {

@@ -290,6 +290,30 @@ function vectorArrow(letter, size) {
   );
 }
 
+/**
+ * An overbar over the Greek letter just written. A combining macron works on
+ * Latin letters, but serif fonts without Greek mark anchors (Liberation Serif)
+ * hang it off the right of an italic ν or μ, where ν̄ reads as ν⁻. So draw a
+ * spacing macron the way `vectorArrow` draws its arrow: step back over the
+ * letter, shifted right for the italic slant, and step forward again.
+ */
+function greekBar(letter, size) {
+  const barSize = size * 0.8;
+  const letterWidth = (GREEK_WIDTH[letter] ?? 0.5) * size;
+  // The spacing macron is 0.5 em wide in Times and Liberation Serif and sits
+  // above cap height, so lower it to clear an x-height letter.
+  const barWidth = 0.5 * barSize;
+  const back = -(letterWidth + barWidth) / 2 + 0.1 * size;
+  const drop = 0.05 * size;
+  return (
+    `<tspan font-size="${fmt(barSize)}" font-style="normal" dx="${fmt(back)}" dy="${fmt(drop)}">¯</tspan>` +
+    `<tspan dx="${fmt(-back - barWidth)}" dy="${fmt(-drop)}">${ZWSP}</tspan>`
+  );
+}
+
+// Advance widths (em) of the Times italic Greek letters that take an overbar.
+const GREEK_WIDTH = { ν: 0.44, μ: 0.5, π: 0.5 };
+
 const LETTER = /[A-Za-zͰ-Ͽ]/;
 
 /** Read a `{...}` group or a single character starting at index i. */
@@ -373,7 +397,14 @@ export function renderLabel(markup, size, { italic = true } = {}) {
       i = next;
     } else if (markup.startsWith('\\bar', i)) {
       const [group, next] = readGroup(markup, i + 4);
-      plain += `${group}̄`;
+      if (/^[\u03b1-\u03c9]$/.test(group)) {
+        flushPlain();
+        out.push(
+          `<tspan font-style="${italic ? 'italic' : 'normal'}">${group}</tspan>${greekBar(group, size)}`
+        );
+      } else {
+        plain += `${group}̄`;
+      }
       i = next;
     } else {
       plain += ch;
@@ -556,7 +587,11 @@ export class Svg {
   /** Several lines of text, `gap` pixels apart, starting at y. */
   lines(x, y, list, opts = {}) {
     const gap = opts.gap || (opts.size || 16) * 1.3;
-    list.forEach((s, k) => this.text(x, y + k * gap, s, opts));
+    // Stack along the rotated "down" direction so rotated lines don't overlap.
+    const a = rad(opts.rotate || 0);
+    list.forEach((s, k) =>
+      this.text(x - k * gap * Math.sin(a), y + k * gap * Math.cos(a), s, opts)
+    );
     return this;
   }
 
@@ -705,11 +740,15 @@ export class Svg {
   }
 
   /** Small x–y axes indicator (an "L" of two arrows) with its corner at (x, y). */
-  xyIndicator(x, y, { len = 55, size = 17 } = {}) {
+  xyIndicator(x, y, { len = 55, size = 17, xLabel = 'x', yLabel = 'y' } = {}) {
     this.arrow(x, y, x + len, y, { color: COLORS.axis, width: 1.5, head: 9 });
     this.arrow(x, y, x, y - len, { color: COLORS.axis, width: 1.5, head: 9 });
-    this.text(x + len + 10, y, 'x', { size });
-    this.text(x, y - len - 12, 'y', { size });
+    // Longer labels such as "x (east)" start at the arrow tip instead of centering on it.
+    this.text(x + len + (xLabel.length > 1 ? 6 : 10), y, xLabel, {
+      size,
+      anchor: xLabel.length > 1 ? 'start' : 'middle',
+    });
+    this.text(x, y - len - 12, yLabel, { size });
     return this;
   }
 
@@ -769,8 +808,20 @@ export function splineSegments(points, tension = 0.5, { horizontalTangents = [] 
     const p3 = points[k + 2] || p2;
     const c1 = [p1[0] + (p2[0] - p0[0]) * t, p1[1] + (p2[1] - p0[1]) * t];
     const c2 = [p2[0] - (p3[0] - p1[0]) * t, p2[1] - (p3[1] - p1[1]) * t];
-    if (horizontalTangents.includes(k)) c1[1] = p1[1];
-    if (horizontalTangents.includes(k + 1)) c2[1] = p2[1];
+    // A horizontal tangent keeps the full handle length, not just its x part,
+    // so the extremum is rounded rather than pinched into a corner. Capping it
+    // at half the segment keeps the curve from doubling back in x.
+    const cap = Math.abs(p2[0] - p1[0]) / 2;
+    if (horizontalTangents.includes(k)) {
+      const len = Math.min(Math.hypot(p2[0] - p0[0], p2[1] - p0[1]) * t, cap);
+      c1[0] = p1[0] + Math.sign(p2[0] - p1[0]) * len;
+      c1[1] = p1[1];
+    }
+    if (horizontalTangents.includes(k + 1)) {
+      const len = Math.min(Math.hypot(p3[0] - p1[0], p3[1] - p1[1]) * t, cap);
+      c2[0] = p2[0] - Math.sign(p2[0] - p1[0]) * len;
+      c2[1] = p2[1];
+    }
     segments.push([p1, c1, c2, p2]);
   }
   return segments;

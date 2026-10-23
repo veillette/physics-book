@@ -16,8 +16,8 @@
 <path d="M 320 240 A 55 55 0 0 0 303.89 201.11" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
 <text x="350" y="215.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">θ</tspan></text>
 <path d="M 200.19 147.44 A 113 113 0 0 0 288.49 350.53" fill="none" stroke="#1f77c8" stroke-width="2.5" stroke-linejoin="round"/>
-<line x1="286.56" y1="350.92" x2="290.61" y2="349.99" stroke="#1f77c8" stroke-width="2.5"/>
-<polygon points="294.25,349.15 290.06,352.06 289.21,348.37" fill="#1f77c8"/>
+<line x1="276.56" y1="352.41" x2="285.4" y2="350.78" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="294.25,349.15 285.14,354.89 283.69,347.03" fill="#1f77c8"/>
 <text x="165" y="422.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Direction</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rotation</tspan></text>
 <text x="540" y="350.5" font-family="'Times New Roman', Times, serif" font-size="30" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ω</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">v</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">r</tspan></text>
 </svg>

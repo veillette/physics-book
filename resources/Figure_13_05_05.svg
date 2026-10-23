@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="520" viewBox="0 0 540 520" role="img" aria-labelledby="title desc">
+<title id="title">Phase diagram for water</title>
+<desc id="desc">Pressure versus temperature for water, with nonlinear axes not to scale. The solid (s), liquid (l), and vapor (v) regions meet at the triple point, 0.006 atm and 0.01 °C. The solid–liquid boundary rises steeply and leans to the left: raising the pressure lowers the melting point. The liquid–vapor boundary passes through 1 atm at 100 °C and ends at the critical point, 218 atm and 374 °C. Below the triple point, solid sublimes directly to vapor.</desc>
+<rect width="540" height="520" fill="#ffffff"/>
+<line x1="140" y1="82" x2="412" y2="82" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="140" y1="240" x2="350" y2="240" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="140" y1="310" x2="228" y2="310" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="228" y1="310" x2="228" y2="420" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="350" y1="240" x2="350" y2="420" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="412" y1="82" x2="412" y2="420" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 140 420 C 148.33 411.33 175.33 386.33 190 368 C 204.67 349.67 221.67 319.67 228 310" fill="none" stroke="#c8102e" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 228 310 C 225.67 291.67 217.67 240 214 200 C 210.33 160 207.33 91.67 206 70" fill="none" stroke="#c8102e" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 228 310 C 240 305 279.67 291.67 300 280 C 320.33 268.33 335.83 257.5 350 240 C 364.17 222.5 374.67 201.33 385 175 C 395.33 148.67 407.5 97.5 412 82" fill="none" stroke="#c8102e" stroke-width="3" stroke-linejoin="round"/>
+<line x1="140" y1="420" x2="523" y2="420" stroke="#333333" stroke-width="1.6"/>
+<polygon points="534,420 522,424.8 522,415.2" fill="#333333"/>
+<line x1="140" y1="420" x2="140" y2="37" stroke="#333333" stroke-width="1.6"/>
+<polygon points="140,26 144.8,38 135.2,38" fill="#333333"/>
+<line x1="133" y1="82" x2="140" y2="82" stroke="#333333" stroke-width="1.5"/>
+<text x="128" y="88.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">218</tspan></text>
+<line x1="133" y1="240" x2="140" y2="240" stroke="#333333" stroke-width="1.5"/>
+<text x="128" y="246.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="133" y1="310" x2="140" y2="310" stroke="#333333" stroke-width="1.5"/>
+<text x="128" y="316.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.006</tspan></text>
+<line x1="200" y1="420" x2="200" y2="427" stroke="#333333" stroke-width="1.5"/>
+<text x="200" y="452.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="228" y1="420" x2="228" y2="427" stroke="#333333" stroke-width="1.5"/>
+<text x="228" y="452.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.01</tspan></text>
+<line x1="350" y1="420" x2="350" y2="427" stroke="#333333" stroke-width="1.5"/>
+<text x="350" y="452.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100</tspan></text>
+<line x1="412" y1="420" x2="412" y2="427" stroke="#333333" stroke-width="1.5"/>
+<text x="412" y="452.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">374</tspan></text>
+<circle cx="228" cy="310" r="7" fill="#222222"/>
+<circle cx="412" cy="82" r="7" fill="#222222"/>
+<text x="404" y="38.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Critical</tspan></text>
+<text x="404" y="60.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">point</tspan></text>
+<text x="242" y="342.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Triple</tspan></text>
+<text x="242" y="364.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">point</tspan></text>
+<text x="256" y="51.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">H</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal">O</tspan></text>
+<text x="175" y="287.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">s</tspan></text>
+<text x="272" y="177.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">l</tspan></text>
+<text x="385" y="297.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">v</tspan></text>
+<text x="330" y="490.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Temperature</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">T</tspan><tspan font-style="normal"> (°</tspan><tspan font-style="normal">C</tspan><tspan font-style="normal">)</tspan></text>
+<text x="52" y="236.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" transform="rotate(-90 52 230)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pressure</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">P</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">atm</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

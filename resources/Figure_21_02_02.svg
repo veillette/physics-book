@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="640" viewBox="0 0 620 640" role="img" aria-labelledby="title desc">
+<title id="title">A dry cell modeled as an emf and an internal resistance</title>
+<desc id="desc">A carbon-zinc dry cell is drawn beside its schematic: a source of emf (long plate positive, at the top) in series with an internal resistance r, between the two output terminals. The terminal voltage V measured across the terminals is V = emf − Ir, where I is the current through the cell, shown flowing up.</desc>
+<rect width="620" height="640" fill="#ffffff"/>
+<line x1="120" y1="150" x2="330" y2="90" stroke="#222222" stroke-width="1.6"/>
+<line x1="120" y1="400" x2="330" y2="470" stroke="#222222" stroke-width="1.6"/>
+<defs><linearGradient id="cell_body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8c8f96"/><stop offset="0.35" stop-color="#eceef2"/><stop offset="0.7" stop-color="#b3b6bd"/><stop offset="1" stop-color="#7a7d84"/></linearGradient><linearGradient id="cell_gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8892a"/><stop offset="0.35" stop-color="#f6d684"/><stop offset="0.7" stop-color="#dcae45"/><stop offset="1" stop-color="#a8791c"/></linearGradient></defs>
+<path d="M 25 150 L 25 400 A 95 26.6 0 0 0 215 400 L 215 150 Z" fill="url(#cell_body)" stroke="#6f7178" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 25 150 L 25 245 L 120 275.4 L 215 245 L 215 150 Z" fill="url(#cell_gold)" stroke="#9a7420" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="120" cy="150" rx="95" ry="26.6" fill="#c9ccd2" stroke="#6f7178" stroke-width="1.2"/>
+<ellipse cx="120" cy="150" rx="77.9" ry="21.81" fill="#dfe1e5" stroke="#a6a9b0" stroke-width="1"/>
+<ellipse cx="120" cy="150" rx="13.3" ry="10.64" fill="#7f93a8" stroke="#56687c" stroke-width="1"/>
+<polyline points="330,0 330,640" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="330" y1="210" x2="330" y2="190" stroke="#ffffff" stroke-width="7"/>
+<line x1="330" y1="225" x2="330" y2="206.5" stroke="#222222" stroke-width="2"/>
+<line x1="330" y1="193.5" x2="330" y2="175" stroke="#222222" stroke-width="2"/>
+<line x1="314" y1="206.5" x2="346" y2="206.5" stroke="#c62828" stroke-width="5"/>
+<line x1="298" y1="193.5" x2="362" y2="193.5" stroke="#c62828" stroke-width="3"/>
+<text x="368" y="168.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="368" y="236.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="380" y="207.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan></text>
+<line x1="330" y1="302" x2="330" y2="358" stroke="#ffffff" stroke-width="7"/>
+<line x1="330" y1="285" x2="330" y2="302" stroke="#222222" stroke-width="2"/>
+<line x1="330" y1="358" x2="330" y2="375" stroke="#222222" stroke-width="2"/>
+<polyline points="330,302 319,306.67 341,316 319,325.33 341,334.67 319,344 341,353.33 330,358" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<text x="352" y="337.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
+<circle cx="330" cy="90" r="4.5" fill="#7b1145"/>
+<circle cx="330" cy="470" r="4.5" fill="#7b1145"/>
+<line x1="510" y1="113" x2="510" y2="447" stroke="#222222" stroke-width="1.8"/>
+<polygon points="510,460 504.4,446 515.6,446" fill="#222222"/>
+<polygon points="510,100 515.6,114 504.4,114" fill="#222222"/>
+<text x="510" y="288.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">emf</tspan><tspan font-style="normal"> − </tspan><tspan font-style="italic">Ir</tspan></text>
+<line x1="348" y1="620" x2="348" y2="561" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="348,550 352.8,562 343.2,562" fill="#1f77c8"/>
+<text x="366" y="597.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+</svg>

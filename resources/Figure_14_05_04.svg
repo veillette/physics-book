@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="360" viewBox="0 0 440 360" role="img" aria-labelledby="title desc">
+<title id="title">Fiberglass batts</title>
+<desc id="desc">Two thick rectangular pieces of fiberglass batt insulation, one lying on top of the other.</desc>
+<rect width="440" height="360" fill="#ffffff"/>
+<polygon points="70,300 190,350 430,285 420,240" fill="#e6e6e6"/>
+<polygon points="10,175 260,260 260,318 10,233" fill="#f9e7b0" stroke="#c9a25c" stroke-width="1.5"/>
+<polygon points="260,260 410,165 410,223 260,318" fill="#f6dd93" stroke="#c9a25c" stroke-width="1.5"/>
+<line x1="10" y1="181.44" x2="260" y2="266.44" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="266.44" x2="410" y2="171.44" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="187.89" x2="260" y2="272.89" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="272.89" x2="410" y2="177.89" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="194.33" x2="260" y2="279.33" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="279.33" x2="410" y2="184.33" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="200.78" x2="260" y2="285.78" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="285.78" x2="410" y2="190.78" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="207.22" x2="260" y2="292.22" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="292.22" x2="410" y2="197.22" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="213.67" x2="260" y2="298.67" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="298.67" x2="410" y2="203.67" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="220.11" x2="260" y2="305.11" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="305.11" x2="410" y2="210.11" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="10" y1="226.56" x2="260" y2="311.56" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="260" y1="311.56" x2="410" y2="216.56" stroke="#efc65a" stroke-width="0.8"/>
+<polygon points="10,175 260,260 410,165 160,80" fill="#fdf5d6" stroke="#c9a25c" stroke-width="1.5"/>
+<path d="M 66.51 158.68 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 122.87 178.14 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 185.8 195.02 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 214.13 214.62 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 107.21 133.82 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 155.97 154.35 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 207.03 179.01 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 256.73 188.11 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 126.72 120.87 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 183.06 137.18 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 233.31 156.52 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 308.23 170.25 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="30,100 285,115 285,170 30,155" fill="#f9e7b0" stroke="#c9a25c" stroke-width="1.5"/>
+<polygon points="285,115 380,20 380,75 285,170" fill="#f6dd93" stroke="#c9a25c" stroke-width="1.5"/>
+<line x1="30" y1="106.11" x2="285" y2="121.11" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="121.11" x2="380" y2="26.11" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="112.22" x2="285" y2="127.22" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="127.22" x2="380" y2="32.22" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="118.33" x2="285" y2="133.33" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="133.33" x2="380" y2="38.33" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="124.44" x2="285" y2="139.44" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="139.44" x2="380" y2="44.44" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="130.56" x2="285" y2="145.56" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="145.56" x2="380" y2="50.56" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="136.67" x2="285" y2="151.67" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="151.67" x2="380" y2="56.67" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="142.78" x2="285" y2="157.78" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="157.78" x2="380" y2="62.78" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="30" y1="148.89" x2="285" y2="163.89" stroke="#efc65a" stroke-width="0.8"/>
+<line x1="285" y1="163.89" x2="380" y2="68.89" stroke="#efc65a" stroke-width="0.8"/>
+<polygon points="30,100 285,115 380,20 125,5" fill="#fdf5d6" stroke="#c9a25c" stroke-width="1.5"/>
+<path d="M 89.2 76.94 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 137.49 75.56 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 178.81 87.49 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 244.03 89.3 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 111.87 60.99 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 156.9 54.32 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 218.01 65.83 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 269.12 70.76 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 140 31.61 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 169.2 40.93 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 239.82 45.55 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 293.86 43.91 q 6 -6 12 0 t 12 0" fill="none" stroke="#f0b928" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>

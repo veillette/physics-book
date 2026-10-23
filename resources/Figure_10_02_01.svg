@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+<title id="title">Fishing line unwinding from a rotating reel</title>
+<desc id="desc">A fishing reel rotates counterclockwise, unwinding line tangentially to the right from a radius r = 4.5 cm. Rotational quantities θ, ω, α describe the reel; linear quantities x, v, a describe the fishing line. The line speed is v = rω.</desc>
+<rect width="760" height="460" fill="#ffffff"/>
+<rect x="195" y="285" width="48" height="83" rx="8" fill="#8b959d" stroke="#56616b" stroke-width="2"/>
+<rect x="70" y="363" width="300" height="16" rx="6" fill="#c7ced3" stroke="#56616b" stroke-width="2"/>
+<rect x="72" y="355" width="65" height="32" rx="8" fill="#dcb878" stroke="#a7803d" stroke-width="2"/>
+<circle cx="220" cy="205" r="119" fill="#c7ced3" stroke="#56616b" stroke-width="2.5"/>
+<circle cx="220" cy="205" r="105" fill="#edf2df" stroke="#7d8c65" stroke-width="2"/>
+<circle cx="220" cy="205" r="97" fill="none" stroke="#a6b58a" stroke-width="1.5"/>
+<circle cx="220" cy="205" r="89" fill="none" stroke="#a6b58a" stroke-width="1.5"/>
+<circle cx="220" cy="205" r="81" fill="none" stroke="#a6b58a" stroke-width="1.5"/>
+<line x1="220" y1="205" x2="150" y2="244" stroke="#56616b" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="150" cy="244" rx="13" ry="22" fill="#dcb878" stroke="#a7803d" stroke-width="2"/>
+<circle cx="220" cy="205" r="17" fill="#8b959d" stroke="#56616b" stroke-width="2"/>
+<g id="reel-radius">
+<line x1="220" y1="205" x2="299.46" y2="149.36" stroke="#333333" stroke-width="2"/>
+<polygon points="306.01,144.77 300.7,152.89 296.57,146.99" fill="#333333"/>
+<text x="286" y="231.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-style="normal"> = 4.5 </tspan><tspan font-style="normal">cm</tspan></text>
+</g>
+<g id="reel-rotation">
+<path d="M 338.78 288.17 A 145 145 0 0 0 240.18 61.41" fill="none" stroke="#1f77c8" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="250.43" y1="63.23" x2="241.54" y2="61.89" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="232.64,60.55 243.12,58.08 241.93,66" fill="#1f77c8"/>
+</g>
+<text x="85" y="63.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Reel</tspan></text>
+<path d="M 114 62 Q 114.1 95.1 132.16 113.95" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="130.77" y1="112.5" x2="133.96" y2="115.82" stroke="#333333" stroke-width="1.2"/>
+<polygon points="137,119 131.7,116.6 134.82,113.61" fill="#333333"/>
+<text x="510" y="83.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Rotational</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">quantities</tspan></text>
+<text x="510" y="120.15" font-family="'Times New Roman', Times, serif" font-size="29" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">ω</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">α</tspan></text>
+<path d="M 410 120 Q 373.4 141.9 363.87 176.25" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="364.41" y1="174.33" x2="363.18" y2="178.76" stroke="#333333" stroke-width="1.2"/>
+<polygon points="362,183 361.36,177.22 365.52,178.37" fill="#333333"/>
+<text x="510" y="192.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Counterclockwise</tspan></text>
+<g id="fishing-line">
+<line x1="220" y1="310" x2="680" y2="310" stroke="#65754b" stroke-width="3"/>
+</g>
+<text x="548" y="259.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fishing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">line</tspan></text>
+<path d="M 548 270 Q 563.5 287.9 557.51 303.47" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="558.23" y1="301.6" x2="556.58" y2="305.89" stroke="#333333" stroke-width="1.2"/>
+<polygon points="555,310 554.92,304.18 558.95,305.74" fill="#333333"/>
+<g id="line-motion">
+<line x1="425" y1="350" x2="647.3" y2="350" stroke="#5e9e1e" stroke-width="3.5"/>
+<polygon points="660,350 646.3,355.48 646.3,344.52" fill="#5e9e1e"/>
+</g>
+<text x="544" y="392.15" font-family="'Times New Roman', Times, serif" font-size="29" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">v</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">a</tspan></text>
+<text x="544" y="431.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Linear</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">quantities</tspan></text>
+<text x="214" y="432.45" font-family="'Times New Roman', Times, serif" font-size="27" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">rω</tspan></text>
+</svg>

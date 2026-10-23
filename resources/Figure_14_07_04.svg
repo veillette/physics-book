@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1000" viewBox="0 0 780 1000" role="img" aria-labelledby="title desc">
+<title id="title">Absorption and radiation by black and silver surfaces</title>
+<desc id="desc">A black block absorbs most of the radiant energy that falls on it and reflects little; it also radiates well, emitting most of its energy and retaining little. A silver-coated block reflects most of the incident energy and absorbs little; it radiates poorly, emitting little and retaining most.</desc>
+<rect width="780" height="1000" fill="#ffffff"/>
+<text x="190" y="34.8" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Absorb</tspan></text>
+<text x="590" y="34.8" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Radiate</tspan></text>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4d4d4"/><stop offset="1" stop-color="#7a7a7a"/></linearGradient></defs>
+<polygon points="30,300 90,230 360,230 300,300" fill="#5a5a5a" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="300,300 360,230 360,370 300,440" fill="#6e6e6e" stroke="#9a9a9a" stroke-width="1"/>
+<rect x="30" y="300" width="270" height="140" fill="url(#g1)" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="19.18,206.82 118.81,270.87 110.16,284.33 170,280 149.09,223.76 140.44,237.22 40.82,173.18" fill="#b02a6a" fill-opacity="0.92"/>
+<polygon points="172,282.24 301.55,166.56 304.22,169.55 310,155 294.89,159.1 297.56,162.09 168,277.76" fill="#e0155d" fill-opacity="0.92"/>
+<polygon points="159.97,293.73 257.03,364.65 249,375.63 300,375 285.11,326.22 277.09,337.2 180.03,266.27" fill="#7b3fa0" fill-opacity="0.92"/>
+<text x="20" y="89.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Incident</tspan></text>
+<text x="20" y="119.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">radiant</tspan></text>
+<text x="20" y="149.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">energy</tspan></text>
+<text x="330" y="139.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Reflected</tspan></text>
+<text x="330" y="414.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Absorbed</tspan></text>
+<text x="165" y="484.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Black</tspan></text>
+<defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4d4d4"/><stop offset="1" stop-color="#7a7a7a"/></linearGradient></defs>
+<polygon points="420,300 480,230 750,230 690,300" fill="#5a5a5a" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="690,300 750,230 750,370 690,440" fill="#6e6e6e" stroke="#9a9a9a" stroke-width="1"/>
+<rect x="420" y="300" width="270" height="140" fill="url(#g2)" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="447.12,355.44 540.08,312.53 545.78,324.88 570,280 520.13,269.31 525.83,281.66 432.88,324.56" fill="#b02a6a" fill-opacity="0.92"/>
+<polygon points="579,292 710.2,193.6 717.4,203.2 730,160 685,160 692.2,169.6 561,268" fill="#e0155d" fill-opacity="0.92"/>
+<polygon points="568.15,282.36 672.13,363.73 669.66,366.88 685,370 678.29,355.86 675.82,359.01 571.85,277.64" fill="#7b3fa0" fill-opacity="0.92"/>
+<text x="680" y="144.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Emitted</tspan></text>
+<text x="695" y="409.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Retained</tspan></text>
+<text x="555" y="484.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Black</tspan></text>
+<defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe8ef"/><stop offset="1" stop-color="#a9bccb"/></linearGradient></defs>
+<polygon points="30,780 90,710 360,710 300,780" fill="#c9d7e2" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="300,780 360,710 360,850 300,920" fill="#b9cad8" stroke="#9a9a9a" stroke-width="1"/>
+<rect x="30" y="780" width="270" height="140" fill="url(#g3)" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="19.18,686.82 118.81,750.87 110.16,764.33 170,760 149.09,703.76 140.44,717.22 40.82,653.18" fill="#b02a6a" fill-opacity="0.92"/>
+<polygon points="181.32,772.68 290.89,674.85 299.95,685 310,635 259.19,639.35 268.24,649.49 158.68,747.32" fill="#e0155d" fill-opacity="0.92"/>
+<polygon points="168.23,762.42 286.93,849.16 284.57,852.39 300,855 292.83,841.09 290.47,844.32 171.77,757.58" fill="#7b3fa0" fill-opacity="0.92"/>
+<text x="20" y="569.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Incident</tspan></text>
+<text x="20" y="599.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">radiant</tspan></text>
+<text x="20" y="629.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">energy</tspan></text>
+<text x="330" y="619.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Reflected</tspan></text>
+<text x="330" y="894.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Absorbed</tspan></text>
+<text x="165" y="964.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Silver</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">coated</tspan></text>
+<defs><linearGradient id="g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe8ef"/><stop offset="1" stop-color="#a9bccb"/></linearGradient></defs>
+<polygon points="420,780 480,710 750,710 690,780" fill="#c9d7e2" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="690,780 750,710 750,850 690,920" fill="#b9cad8" stroke="#9a9a9a" stroke-width="1"/>
+<rect x="420" y="780" width="270" height="140" fill="url(#g4)" stroke="#9a9a9a" stroke-width="1"/>
+<polygon points="447.12,835.44 540.08,792.53 545.78,804.88 570,760 520.13,749.31 525.83,761.66 432.88,804.56" fill="#b02a6a" fill-opacity="0.92"/>
+<polygon points="571.8,762.4 720.6,650.8 723,654 730,640 714.6,642.8 717,646 568.2,757.6" fill="#e0155d" fill-opacity="0.92"/>
+<polygon points="560.76,771.81 647.41,839.63 640.01,849.08 685,850 673.29,806.55 665.89,816 579.24,748.19" fill="#7b3fa0" fill-opacity="0.92"/>
+<text x="680" y="624.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Emitted</tspan></text>
+<text x="695" y="889.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Retained</tspan></text>
+<text x="555" y="964.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Silver</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">coated</tspan></text>
+</svg>

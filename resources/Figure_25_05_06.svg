@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+<title id="title">Dispersion by a prism</title>
+<desc id="desc">White light strikes one face of an equilateral glass prism (all angles 60°) at an incident angle of 45°. Inside, it separates into colors; red light of 660 nm is bent least and violet light of 410 nm most, and they emerge from the far face at angles θR and θV. The spread is exaggerated for clarity.</desc>
+<rect width="1000" height="540" fill="#ffffff"/>
+<defs><linearGradient id="prism" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9fb8aa"/><stop offset="0.45" stop-color="#eef4f0"/><stop offset="1" stop-color="#8eab9c"/></linearGradient></defs>
+<polygon points="325,92.97 90,500 560,500" fill="url(#prism)" stroke="#6f8f80" stroke-width="2"/>
+<line x1="131.02" y1="230.96" x2="266.25" y2="194.73" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="188.98" y1="215.43" x2="196.12" y2="213.52" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="204.43,211.29 196.15,217.48 194.16,210.07" fill="#1fa8d8"/>
+<line x1="222.95" y1="169.73" x2="309.55" y2="219.73" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 236.81 177.73 A 34 34 0 0 0 233.41 203.53" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="208.75" y="194.86" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">45°</tspan></text>
+<line x1="266.25" y1="194.73" x2="384.77" y2="196.5" stroke="#e0245e" stroke-width="2.4"/>
+<line x1="327.37" y1="195.64" x2="334.76" y2="195.75" stroke="#e0245e" stroke-width="2.4"/>
+<polygon points="343.36,195.88 333.71,199.58 333.82,191.9" fill="#e0245e"/>
+<line x1="384.77" y1="196.5" x2="612.85" y2="271.2" stroke="#e0245e" stroke-width="2.4"/>
+<line x1="512.12" y1="238.21" x2="519.15" y2="240.51" stroke="#e0245e" stroke-width="2.4"/>
+<polygon points="527.32,243.19 517,243.85 519.39,236.55" fill="#e0245e"/>
+<text x="626.85" y="283.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Red</tspan></text>
+<text x="626.85" y="311.6" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(660 </tspan><tspan font-style="normal">nm</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="266.25" y1="194.73" x2="388.17" y2="202.38" stroke="#6a1b9a" stroke-width="2.4"/>
+<line x1="329.42" y1="198.69" x2="336.81" y2="199.16" stroke="#6a1b9a" stroke-width="2.4"/>
+<polygon points="345.39,199.7 335.57,202.93 336.05,195.26" fill="#6a1b9a"/>
+<line x1="388.17" y1="202.38" x2="592.56" y2="328.19" stroke="#6a1b9a" stroke-width="2.4"/>
+<line x1="502.29" y1="272.63" x2="508.59" y2="276.51" stroke="#6a1b9a" stroke-width="2.4"/>
+<polygon points="515.91,281.01 505.72,279.25 509.75,272.71" fill="#6a1b9a"/>
+<text x="606.56" y="340.59" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Violet</tspan></text>
+<text x="606.56" y="368.59" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(410 </tspan><tspan font-style="normal">nm</tspan><tspan font-style="normal">)</tspan></text>
+<text x="50" y="170.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Incident</tspan></text>
+<text x="50" y="198.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">light</tspan></text>
+<path d="M 305 127.61 A 40 40 0 0 0 345 127.61" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="325" y="162.67" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+<path d="M 130 500 A 40 40 0 0 0 110 465.36" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="143.69" y="476.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+<path d="M 540 465.36 A 40 40 0 0 0 520 500" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="506.31" y="476.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">60°</tspan></text>
+</svg>

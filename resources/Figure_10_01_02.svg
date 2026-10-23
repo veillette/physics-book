@@ -2,21 +2,21 @@
 <title id="title">Tangential acceleration changes the speed in circular motion</title>
 <desc id="desc">A radius r joins the center to a point on the circular path. Velocity v and tangential acceleration aₜ are parallel to the tangent, perpendicular to the radius. Here aₜ points along the velocity and the speed increases.</desc>
 <rect width="650" height="490" fill="#ffffff"/>
-<path d="M 336.67 411.67 A 165 165 0 1 0 70.46 225.27" fill="none" stroke="#87949d" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 365.69 372.46 A 165 165 0 1 0 70.46 225.27" fill="none" stroke="#87949d" stroke-width="2" stroke-linejoin="round"/>
 <line x1="220" y1="295" x2="362.89" y2="212.5" stroke="#333333" stroke-width="1.7"/>
 <circle cx="220" cy="295" r="4" fill="#222222"/>
 <circle cx="362.89" cy="212.5" r="4" fill="#222222"/>
 <text x="285" y="283.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
 <path d="M 191.35 132.51 A 165 165 0 0 0 132.56 155.07" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
-<line x1="135.02" y1="153.57" x2="130.32" y2="156.62" stroke="#222222" stroke-width="2.5"/>
-<polygon points="125.36,159.84 129.65,153.76 132.66,158.39" fill="#222222"/>
-<line x1="346.44" y1="222" x2="295.29" y2="133.41" stroke="#5e9e1e" stroke-width="3.5"/>
-<polygon points="288.94,122.41 300.54,131.53 291.04,137.01" fill="#5e9e1e"/>
-<text x="269.94" y="122.85" font-family="'Times New Roman', Times, serif" font-size="26" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<line x1="140.64" y1="150.34" x2="133" y2="155.09" stroke="#222222" stroke-width="2.5"/>
+<polygon points="125.36,159.84 131.74,151.16 135.96,157.96" fill="#222222"/>
+<line x1="362.89" y1="212.5" x2="311.74" y2="123.91" stroke="#5e9e1e" stroke-width="3.5"/>
+<polygon points="305.39,112.91 316.99,122.03 307.5,127.51" fill="#5e9e1e"/>
+<text x="286.39" y="113.35" font-family="'Times New Roman', Times, serif" font-size="26" fill="#5e9e1e" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
 <g id="tangential-acceleration">
-<line x1="362.89" y1="212.5" x2="327.29" y2="150.84" stroke="#ef7d22" stroke-width="4"/>
-<polygon points="320.39,138.89 332.92,148.75 322.67,154.67" fill="#ef7d22"/>
+<line x1="379.35" y1="203" x2="343.75" y2="141.34" stroke="#ef7d22" stroke-width="4"/>
+<polygon points="336.85,129.39 349.38,139.25 339.12,145.17" fill="#ef7d22"/>
 </g>
-<text x="358.39" y="155.58" font-family="'Times New Roman', Times, serif" font-size="26" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">t</tspan></tspan><tspan dy="-7.28">​</tspan></text>
-<text x="345" y="438.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">a</tspan><tspan font-size="16.1" dy="6.44"><tspan font-style="normal">t</tspan></tspan><tspan dy="-6.44">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">changes</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">speed</tspan></text>
+<text x="371.85" y="150.08" font-family="'Times New Roman', Times, serif" font-size="26" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">t</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<text x="345" y="438.05" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="16.1" dy="6.44"><tspan font-style="normal">t</tspan></tspan><tspan dy="-6.44">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">changes</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">speed</tspan></text>
 </svg>

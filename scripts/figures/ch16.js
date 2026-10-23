@@ -165,11 +165,47 @@ function ampMark(svg, g, x, v, label) {
   lab(svg, px + 8, g.Y(v / 2), label, { anchor: 'start', size: 18 });
 }
 
+/** Vertical double-headed dimension from y1 to y2 at x, with end ticks. */
+function vdim(svg, x, y1, y2, label, { side = 1, size = 22 } = {}) {
+  svg.arrow(x, y1 + 1, x, y2 - 1, { color: COLORS.black, width: 1.5, head: 11, start: true });
+  for (const y of [y1, y2]) svg.line(x - 10, y, x + 10, y, { color: COLORS.black, width: 1.4 });
+  lab(svg, x + side * 14, (y1 + y2) / 2, label, { anchor: side > 0 ? 'start' : 'end', size });
+}
+
+/** A gull floating with its waterline at (x, y), looking right. */
+function gull(svg, x, y, { dash } = {}) {
+  const edge = { color: '#555b63', width: 1.4, dash };
+  svg.path(
+    `M ${x - 30} ${y - 10} Q ${x - 26} ${y + 4} ${x} ${y + 4} Q ${x + 24} ${y + 3} ${x + 30} ${y - 12} Q ${x + 18} ${y - 22} ${x - 4} ${y - 21} Q ${x - 22} ${y - 20} ${x - 30} ${y - 10} Z`,
+    { ...edge, fill: '#ffffff' }
+  );
+  svg.path(
+    `M ${x - 34} ${y - 14} Q ${x - 8} ${y - 26} ${x + 14} ${y - 15} Q ${x - 4} ${y - 4} ${x - 34} ${y - 14} Z`,
+    { ...edge, fill: '#9aa0a8' }
+  );
+  for (const [dx, dy] of [
+    [-20, -14],
+    [-10, -16],
+    [0, -14],
+  ])
+    svg.circle(x + dx, y + dy, 2.2, { fill: '#4a4f57' });
+  svg.circle(x + 26, y - 28, 10, { fill: '#ffffff', stroke: '#555b63', width: 1.4 });
+  svg.polygon(
+    [
+      [x + 35, y - 31],
+      [x + 48, y - 27],
+      [x + 35, y - 24],
+    ],
+    { fill: '#f2c230', stroke: '#c9971a', width: 1 }
+  );
+  svg.circle(x + 29, y - 31, 1.8, { fill: COLORS.black });
+}
+
 export default {
   // 16.1 Fig. 1 — a ruler oscillating about equilibrium
   Figure_16_01_02: () => {
     const svg = new Svg({
-      width: 960,
+      width: 1000,
       height: 300,
       title: 'A plastic ruler oscillating about its equilibrium position',
       desc: 'Five stages of a ruler clamped at its lower end. (a) Released from the left of equilibrium, the restoring force F points right. (b) At the equilibrium position the force is zero but the ruler moves right with velocity v. (c) Displaced to the right, the restoring force points left and slows it. (d) At equilibrium again, the force is zero and it moves left. (e) Back at the starting position, ready to repeat; without damping the motion continues.',
@@ -182,7 +218,7 @@ export default {
       { d: -60, F: 1, v: 0, cap: '(e)' },
     ];
     stages.forEach((s, i) => {
-      const x = 120 + i * 186;
+      const x = 140 + i * 196;
       const base = 250;
       const top = 70;
       svg.line(x, base, x, top - 10, { color: '#999999', width: 1.2, dash: '5 4' });
@@ -209,7 +245,7 @@ export default {
       }
       caption(svg, x, 290, s.cap);
     });
-    svg.leader(40, 214, 96, 190, { bend: -0.3, width: 1.3 });
+    svg.leader(70, 214, 136, 190, { bend: -0.3, width: 1.3 });
     note(svg, 8, 232, 'Equilibrium', { anchor: 'start', size: 15 });
     note(svg, 8, 250, 'position', { anchor: 'start', size: 15 });
     return svg.render();
@@ -367,7 +403,7 @@ export default {
       desc: 'Five stages of a block of mass m on a spring of force constant k on a frictionless surface, each with its free-body diagram. (a) At x = X the block is momentarily at rest and the spring force F points left, toward equilibrium. (b) At x = 0 the force is zero and the block moves left at its maximum speed, −v_max. (c) At x = −X it is momentarily at rest and F points right. (d) At x = 0 the force is zero and it moves right at +v_max. (e) Back at x = X, the cycle repeats. In every stage the normal force N and the weight w balance.',
     });
     springStages(svg, { energy: false });
-    note(svg, 470, 22, 'Free-body diagrams', { anchor: 'end', size: 17 });
+    note(svg, 430, 12, 'Free-body diagrams', { size: 17 });
     return svg.render();
   },
 
@@ -674,12 +710,14 @@ export default {
       });
       lab(svg, V[0] - 8, V[1] - 16, '**v**_{max}', { anchor: 'end' });
       lab(svg, (P[0] + V[0]) / 2, P[1] + 24, '**v**', { size: 20 });
+      // The side labels travel with P, so the animation keeps them too; the θ
+      // arc changes shape as θ passes 180°, so only the still shows it.
+      lab(svg, (c[0] + P[0]) / 2 - 22, (c[1] + P[1]) / 2, 'X', { anchor: 'end' });
+      lab(svg, (c[0] + F[0]) / 2, c[1] + 26, 'x');
+      lab(svg, P[0] + 12, (P[1] + c[1]) / 2, '√(X^2 − x^2)', { anchor: 'start' });
       if (!moving) {
         svg.arc(...c, 46, 0, deg, { color: COLORS.black, width: 1.8 });
         lab(svg, c[0] + 56 * Math.cos(a / 2), c[1] - 56 * Math.sin(a / 2), 'θ');
-        lab(svg, (c[0] + P[0]) / 2 - 22, (c[1] + P[1]) / 2, 'X', { anchor: 'end' });
-        lab(svg, (c[0] + F[0]) / 2, c[1] + 26, 'x');
-        lab(svg, P[0] + 12, (P[1] + c[1]) / 2, '√(X^2 − x^2)', { anchor: 'start' });
       }
     };
     const frames = [];
@@ -862,6 +900,47 @@ export default {
     return svg.render();
   },
 
+  // 16.9 Fig. 2 — a gull bobbing on an idealized ocean wave
+  Figure_16_09_02: () => {
+    const svg = new Svg({
+      width: 880,
+      height: 400,
+      title: 'An idealized ocean wave',
+      desc: 'A sinusoidal water wave with two crests and two troughs moves right at speed vw. A dashed line marks the undisturbed water level. Crests rise a height X above it and troughs dip X below it, labeled −X, so a sea gull floating in a trough sits 2X below where it was on the crest; its earlier position is shown faded above. The wavelength λ is the distance between adjacent crests.',
+    });
+    const [y0, X, lam, x0] = [150, 72, 420, 120];
+    const Y = x => y0 - X * Math.cos((2 * Math.PI * (x - x0)) / lam);
+    const pts = Array.from({ length: 177 }, (_, k) => [5 * k, Y(5 * k)]);
+    svg.add(
+      '<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fcbee"/><stop offset="0.5" stop-color="#d2eaf8"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>'
+    );
+    svg.polygon([...pts, [880, 400], [0, 400]], { fill: 'url(#sea)' });
+    svg.polyline(pts, { color: '#1aa6b7', width: 2.5 });
+    svg.line(0, y0, 880, y0, { color: COLORS.black, width: 1.5, dash: '7 5' });
+    for (const x of [x0, x0 + lam])
+      svg.line(x, 22, x, y0 - X - 6, { color: COLORS.guide, width: 1, dash: '3 4' });
+    svg.arrow(x0 + 1, 22, x0 + lam - 1, 22, {
+      color: COLORS.black,
+      width: 1.5,
+      head: 12,
+      start: true,
+    });
+    for (const x of [x0, x0 + lam]) svg.line(x, 12, x, 32, { color: COLORS.black, width: 1.4 });
+    lab(svg, x0 + lam / 2, 22, 'λ');
+    vdim(svg, x0, y0 - X, y0, 'X');
+    vdim(svg, x0 + 1.5 * lam, y0, y0 + X, '−X', { side: -1 });
+    // The gull rides the surface: a full 2X from crest to trough.
+    const xg = 352;
+    svg.add(
+      `<g opacity="0.5">${svg.capture(() => gull(svg, xg, Y(xg) - 2 * X, { dash: '4 3' }))}</g>`
+    );
+    gull(svg, xg, Y(xg));
+    vdim(svg, 314, y0 - X, y0 + X, '2X', { side: -1 });
+    svg.arrow(610, 92, 710, 92, { color: COLORS.green, width: 3, head: 16 });
+    lab(svg, 652, 70, 'v_w');
+    return svg.render();
+  },
+
   // 16.10 Fig. 2 — pure constructive interference
   Figure_16_10_02: () => {
     const svg = new Svg({
@@ -937,7 +1016,7 @@ export default {
     const times = ['0', 'T/4', 'T/2', '3T/4', 'T'];
     times.forEach((tl, i) => {
       const t = i / 4;
-      const x0 = 70 + i * 166;
+      const x0 = 90 + i * 160;
       const w = 140;
       const w1 = x => Math.sin(2 * Math.PI * (x + t));
       const w2 = x => Math.sin(2 * Math.PI * (x - t));
@@ -965,7 +1044,7 @@ export default {
       [170, 'Wave 2'],
       [295, 'Resultant'],
     ]) {
-      note(svg, 60, y, l, { anchor: 'end', size: 15 });
+      note(svg, 82, y, l, { anchor: 'end', size: 15 });
     }
     return svg.render();
   },
@@ -974,7 +1053,7 @@ export default {
   Figure_16_10_06: () => {
     const svg = new Svg({
       width: 820,
-      height: 400,
+      height: 420,
       title: 'A string vibrating at its fundamental frequency',
       desc: 'A string of length L fixed at both ends vibrates in a single loop: nodes at the ends and an antinode in the middle. Its wavelength is λ1 = 2L, twice the string length, shown by the dashed continuation of the wave beyond the right end, and its frequency is f1 = v_w/2L.',
     });
@@ -1001,8 +1080,8 @@ export default {
     lab(svg, x0 + 280, 390, 'λ_1 = 2L', { size: 21 });
     svg.leader(x0 + 40, 70, x0 + 30, yc - 14, { bend: -0.3, width: 1.3 });
     note(svg, x0 + 40, 62, 'Loop', { anchor: 'start' });
-    svg.leader(x0 + L / 2 - 20, 64, x0 + L / 2, yc - A - 4, { bend: 0.3, width: 1.3 });
-    note(svg, x0 + L / 2 - 30, 56, 'Antinode', { anchor: 'end' });
+    svg.leader(x0 + L / 2, 66, x0 + L / 2 + 4, yc - A - 4, { bend: 0.3, width: 1.3 });
+    note(svg, x0 + L / 2, 54, 'Antinode');
     svg.leader(x0 + L - 40, 64, x0 + L - 4, yc - 4, { bend: 0.3, width: 1.3 });
     note(svg, x0 + L - 40, 56, 'Node', { anchor: 'middle' });
     return svg.render();
@@ -1082,6 +1161,78 @@ export default {
     note(svg, x0 + (w * 0.5) / 1.5, 246, 'Destructive', { size: 17 });
     note(svg, x0 + w / 1.5, 246, 'Constructive', { size: 17 });
     note(svg, x0 + w / 2, 280, 'Time', { size: 18 });
+    return svg.render();
+  },
+
+  // 16.11 Fig. 2 — two stereo speakers interfering in a room
+  Figure_16_11_02: () => {
+    const svg = new Svg({
+      width: 740,
+      height: 470,
+      title: 'Interference of sound from two speakers',
+      desc: 'Two speakers high in the left and right corners aim beams of sound down and toward each other. In each beam, solid arcs centered on its speaker are compressions and dashed arcs halfway between them are rarefactions. The shading of each beam is strongest near its speaker. Where the beams overlap, the points where a compression from one speaker meets a compression from the other are marked with glowing dots: there the waves interfere constructively.',
+    });
+    const [lam, r0, R, half] = [62, 46, 420, 24];
+    const sources = [
+      [64, 56, 54],
+      [576, 56, 126],
+    ];
+    const at = ([x, y], r, a) => [x + r * Math.cos(rad(a)), y + r * Math.sin(rad(a))];
+    const arcPts = (S, r, a) =>
+      Array.from({ length: 31 }, (_, k) => at(S, r, a - half + (2 * half * k) / 30));
+    sources.forEach(([x, y, a], i) => {
+      svg.add(
+        `<defs><radialGradient id="beam${i}" gradientUnits="userSpaceOnUse" cx="${x}" cy="${y}" r="${R}"><stop offset="0" stop-color="#7c8ccc" stop-opacity="0.75"/><stop offset="1" stop-color="#7c8ccc" stop-opacity="0.1"/></radialGradient></defs>`
+      );
+      svg.polygon([...arcPts([x, y], r0 - 20, a), ...arcPts([x, y], R, a).reverse()], {
+        fill: `url(#beam${i})`,
+      });
+    });
+    sources.forEach(([x, y, a]) => {
+      for (let r = r0; r <= R; r += lam) {
+        svg.polyline(arcPts([x, y], r, a), { color: '#4d5ea8', width: 1.8 });
+        if (r + lam / 2 <= R)
+          svg.polyline(arcPts([x, y], r + lam / 2, a), {
+            color: '#6a3d9a',
+            width: 1.8,
+            dash: '7 5',
+          });
+      }
+    });
+    // Compression meets compression: intersections of the two families of solid arcs.
+    const [[x1, y1], [x2]] = sources;
+    const d = x2 - x1;
+    const inside = ([x, y], [sx, sy, a]) => {
+      const ang = (Math.atan2(y - sy, x - sx) * 180) / Math.PI;
+      return Math.abs(ang - a) <= half && Math.hypot(x - sx, y - sy) <= R;
+    };
+    svg.add(
+      '<defs><radialGradient id="glow"><stop offset="0" stop-color="#c2185b" stop-opacity="0.75"/><stop offset="1" stop-color="#c2185b" stop-opacity="0"/></radialGradient></defs>'
+    );
+    const spot = (x, y) => {
+      svg.circle(x, y, 17, { fill: 'url(#glow)' });
+      svg.circle(x, y, 4.5, { fill: '#9b0d3a' });
+    };
+    for (let ra = r0; ra <= R; ra += lam)
+      for (let rb = r0; rb <= R; rb += lam) {
+        const u = (ra * ra - rb * rb + d * d) / (2 * d);
+        const h2 = ra * ra - u * u;
+        if (h2 <= 0) continue;
+        const P = [x1 + u, y1 + Math.sqrt(h2)];
+        if (inside(P, sources[0]) && inside(P, sources[1]) && P[1] < 450) spot(...P);
+      }
+    for (const [x, y, a] of sources)
+      svg.add(
+        `<g transform="translate(${x} ${y}) rotate(${a})"><rect x="-46" y="-28" width="44" height="56" rx="4" fill="#3b3b3d" stroke="#1e1e20" stroke-width="1.5"/><rect x="-6" y="-24" width="8" height="48" rx="2" fill="#8a8c90"/></g>`
+      );
+    const rare = at(sources[1], r0 + 1.5 * lam, 126 - half);
+    const comp = at(sources[1], r0 + 2 * lam, 126 - half);
+    note(svg, 600, rare[1] - 30, 'Rarefaction', { anchor: 'start', size: 20 });
+    svg.squiggle(640, rare[1] - 18, rare[0] + 4, rare[1], { waves: 1.5, amp: 4 });
+    note(svg, 600, comp[1] + 40, 'Compression', { anchor: 'start', size: 20 });
+    svg.squiggle(640, comp[1] + 28, comp[0] + 4, comp[1], { waves: 1.5, amp: 4 });
+    spot(545, 425);
+    note(svg, 568, 425, '= Constructive', { anchor: 'start', size: 20 });
     return svg.render();
   },
 };

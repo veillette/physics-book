@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="480" viewBox="0 0 790 480" role="img" aria-labelledby="title desc">
+<title id="title">Distance from Earth’s center to a surface object</title>
+<desc id="desc">Earth with a cutaway of its interior, its center of mass, and a radius to an object at the surface. A magnified circular inset shows a building above the curved surface. The building height is negligible compared with Earth’s radius, so the center-to-object distance is approximately the radius of Earth.</desc>
+<rect width="790" height="480" fill="#ffffff"/>
+<circle cx="205" cy="240" r="150" fill="#96c9d3" stroke="#487f8a" stroke-width="2"/>
+<path d="M 125 220 L 146 197 L 183 202 L 200 227 L 224 247 L 218 279 L 198 303 L 189 336 L 171 316 L 165 281 L 145 266 L 127 240 Z" fill="#cfb079" stroke="#987b45" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M 205 240 L 355 240 A 150 150 0 0 0 205 90 Z" fill="#e7d6af" stroke="#aa945d" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 205 240 L 305 240 A 100 100 0 0 0 205 140 Z" fill="#ddbd6b" stroke="#aa945d" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 205 240 L 252 240 A 47 47 0 0 0 205 193 Z" fill="#c58246" stroke="#aa945d" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="205" cy="240" r="5" fill="#222222"/>
+<text x="187" y="271.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">CM</tspan></text>
+<g id="earth-radius">
+<line x1="205" y1="240" x2="304.7" y2="140.3" stroke="#b03a2e" stroke-width="2.5"/>
+<polygon points="311.07,133.93 306.82,143.83 301.17,138.18" fill="#b03a2e"/>
+</g>
+<text x="275" y="208.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">e</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<circle cx="311.07" cy="133.93" r="5" fill="#b03a2e"/>
+<text x="165" y="361.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Earth</tspan></text>
+<line x1="311.07" y1="133.93" x2="494" y2="138" stroke="#222222" stroke-width="1.2"/>
+<line x1="311.07" y1="133.93" x2="454" y2="260" stroke="#222222" stroke-width="1.2"/>
+<defs><clipPath id="surface-zoom"><circle cx="585" cy="235" r="133"/></clipPath></defs>
+<circle cx="585" cy="235" r="133" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<g clip-path="url(#surface-zoom)">
+<circle cx="585" cy="655" r="410" fill="#dfc787" stroke="#aa945d" stroke-width="2"/>
+</g>
+<g id="surface-building">
+<rect x="563" y="182" width="44" height="63" fill="#ae4d3c" stroke="#222222" stroke-width="1.5"/>
+<polygon points="558,182 585,164 612,182" fill="#71392e" stroke="#222222" stroke-width="1.5"/>
+<rect x="570" y="191" width="8" height="9" fill="#e4edf6" stroke="#222222" stroke-width="0.7"/>
+<rect x="590" y="191" width="8" height="9" fill="#e4edf6" stroke="#222222" stroke-width="0.7"/>
+<rect x="570" y="206" width="8" height="9" fill="#e4edf6" stroke="#222222" stroke-width="0.7"/>
+<rect x="590" y="206" width="8" height="9" fill="#e4edf6" stroke="#222222" stroke-width="0.7"/>
+<rect x="570" y="221" width="8" height="9" fill="#e4edf6" stroke="#222222" stroke-width="0.7"/>
+<rect x="590" y="221" width="8" height="9" fill="#e4edf6" stroke="#222222" stroke-width="0.7"/>
+<rect x="581" y="230" width="8" height="15" fill="#5c342a" stroke="#222222" stroke-width="0.7"/>
+</g>
+<circle cx="585" cy="245" r="3" fill="#222222"/>
+<g id="zoom-radius">
+<line x1="585" y1="368" x2="585" y2="255" stroke="#b03a2e" stroke-width="2"/>
+<polygon points="585,247 588.6,256 581.4,256" fill="#b03a2e"/>
+</g>
+<path d="M 578 298 l 5 -4 l 5 8 l 5 -4 M 578 305 l 5 -4 l 5 8 l 5 -4" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="612" y="290.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">e</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="585" y="404.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">From</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Earth</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">center</tspan></text>
+<text x="395" y="458.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Object</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">near</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surface</tspan><tspan font-style="normal">: </tspan><tspan font-style="italic">r</tspan><tspan font-style="normal"> ≈ </tspan><tspan font-style="italic">r</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">e</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+</svg>

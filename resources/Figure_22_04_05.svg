@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" role="img" aria-labelledby="title desc">
+<title id="title">Forces on moving charges, field unknown</title>
+<desc id="desc">(a) Velocity v up and force F to the left. (b) Velocity v down and force F into the page. (c) Force F up and velocity v to the left.</desc>
+<rect width="860" height="360" fill="#ffffff"/>
+<line x1="230" y1="260" x2="230" y2="75" stroke="#4caf2a" stroke-width="3.5"/>
+<polygon points="230,60 236.4,76 223.6,76" fill="#4caf2a"/>
+<text x="252" y="85.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="16.12" font-weight="normal" dx="-14.56" dy="-13.52">→</tspan><tspan dx="-1.56" dy="13.52">​</tspan></tspan></text>
+<line x1="230" y1="260" x2="45" y2="260" stroke="#e0245e" stroke-width="3.5"/>
+<polygon points="30,260 46,253.6 46,266.4" fill="#e0245e"/>
+<text x="30" y="305.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="140" y="337" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="360" y1="50" x2="360" y2="247" stroke="#4caf2a" stroke-width="3.5"/>
+<polygon points="360,262 353.6,246 366.4,246" fill="#4caf2a"/>
+<circle cx="360" cy="34" r="15" fill="#e0245e"/>
+<circle cx="360" cy="34" r="9.5" fill="#f7b3c4"/>
+<line x1="354" y1="28" x2="366" y2="40" stroke="#222222" stroke-width="2"/>
+<line x1="354" y1="40" x2="366" y2="28" stroke="#222222" stroke-width="2"/>
+<text x="382" y="43.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">in</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<text x="382" y="169.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="16.12" font-weight="normal" dx="-14.56" dy="-13.52">→</tspan><tspan dx="-1.56" dy="13.52">​</tspan></tspan></text>
+<text x="360" y="337" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="760" y1="260" x2="760" y2="85" stroke="#e0245e" stroke-width="3.5"/>
+<polygon points="760,70 766.4,86 753.6,86" fill="#e0245e"/>
+<text x="782" y="91.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<line x1="760" y1="260" x2="535" y2="260" stroke="#4caf2a" stroke-width="3.5"/>
+<polygon points="520,260 536,253.6 536,266.4" fill="#4caf2a"/>
+<text x="520" y="305.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="16.12" font-weight="normal" dx="-14.56" dy="-13.52">→</tspan><tspan dx="-1.56" dy="13.52">​</tspan></tspan></text>
+<text x="640" y="337" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

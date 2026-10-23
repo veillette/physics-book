@@ -10,16 +10,16 @@
 <text x="333" y="233.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
 <text x="331" y="285.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan></text>
 <path d="M 432 255 A 177 177 0 0 0 386.54 136.56" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
-<line x1="388.58" y1="138.88" x2="384.53" y2="134.53" stroke="#222222" stroke-width="2.5"/>
-<polygon points="380.16,129.84 387.38,133.24 383.04,137.29" fill="#222222"/>
+<line x1="392.22" y1="143.19" x2="386.19" y2="136.52" stroke="#222222" stroke-width="2.5"/>
+<polygon points="380.16,129.84 389.83,134.58 383.89,139.94" fill="#222222"/>
 <text x="451" y="174.45" font-family="'Times New Roman', Times, serif" font-size="27" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan></text>
 <line x1="405" y1="255" x2="405" y2="161.8" stroke="#d52350" stroke-width="4"/>
 <polygon points="405,148 410.92,162.8 399.08,162.8" fill="#d52350"/>
 <text x="464" y="244.45" font-family="'Times New Roman', Times, serif" font-size="27" fill="#d52350" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="18.9" dy="7.56"><tspan font-style="normal">net</tspan></tspan><tspan dy="-7.56">​</tspan></text>
 <polyline points="387,255 387,237 405,237" fill="none" stroke="#333333" stroke-width="1.3" stroke-linejoin="round"/>
 <path d="M 186.86 173.8 A 106 106 0 0 0 240.25 359.97" fill="none" stroke="#1f77c8" stroke-width="2.5" stroke-linejoin="round"/>
-<line x1="238.42" y1="359.69" x2="242.35" y2="360.18" stroke="#1f77c8" stroke-width="2.5"/>
-<polygon points="245.76,360.6 241.14,361.82 241.57,358.29" fill="#1f77c8"/>
+<line x1="228.05" y1="357.52" x2="236.89" y2="359.05" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="245.76,360.6 235.22,362.82 236.59,354.94" fill="#1f77c8"/>
 <text x="330" y="463.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> ∥ </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan><tspan font-style="normal">,    </tspan><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> ⟂ </tspan><tspan font-style="italic">r</tspan></text>
 <text x="330" y="498.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">net</tspan></tspan><tspan dy="-7">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="italic">s</tspan></text>
 </svg>

@@ -179,7 +179,7 @@ volume of a sphere is $$V=\left(4/3\right)\pi r^{3} $$ , we see that $$V\propto 
 in it. This is what would happen if you pack nucleons so closely that there is
 no empty space between them.
 
-![This figure shows group of small green and blue spherical objects placed very close to each other forming a bigger sphere representing the nucleus. Blue spheres are labeled as protons and green spheres are labeled as neutrons.](../resources/Figure_31_03_02.jpg "A model of the nucleus.")
+![This figure shows group of small green and blue spherical objects placed very close to each other forming a bigger sphere representing the nucleus. Blue spheres are labeled as protons and green spheres are labeled as neutrons.](../resources/Figure_31_03_02.svg "A model of the nucleus.")
 {: #Figure2}
 
 Nucleons are held together by nuclear forces and resist both being pulled apart

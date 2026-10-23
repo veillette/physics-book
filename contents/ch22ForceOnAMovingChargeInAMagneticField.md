@@ -276,7 +276,7 @@ The proton is deflected toward the east, the electron toward the west, and the n
 
 What are the signs of the charges on the particles in [[Figure 9]](#Figure9)?
 
-![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_05_09.jpg ' ')
+![Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.](../resources/Figure_22_05_09.svg ' ')
 {: #Figure9}
 
 :::
@@ -305,7 +305,7 @@ Particle a is positive, particle b is uncharged (neutral), and particle c is neg
 
 Which of the particles in [[Figure 10]](#Figure10) has the greatest velocity, assuming they have identical charges and masses?
 
-![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_05_10.jpg ' ')
+![Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.](../resources/Figure_22_05_10.svg ' ')
 {: #Figure10}
 
 :::

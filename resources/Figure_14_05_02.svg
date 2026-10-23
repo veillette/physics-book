@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="720" viewBox="0 0 880 720" role="img" aria-labelledby="title desc">
+<title id="title">Conduction by molecular collisions</title>
+<desc id="desc">Two regions meet at a surface: higher temperature on the left, lower on the right. A high-energy molecule from the left collides at the surface with a low-energy molecule from the right. After the collision the left molecule moves back more slowly and the right one moves away faster, so energy has passed from the hot side to the cold side. The net effect is heat conduction, Q, to the right.</desc>
+<rect width="880" height="720" fill="#ffffff"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f8d5c3"/><stop offset="0.35" stop-color="#fdf3e2"/><stop offset="0.6" stop-color="#fdfbe9"/><stop offset="1" stop-color="#cfe6f6"/></linearGradient></defs>
+<rect x="0" y="85" width="880" height="510" fill="url(#g1)"/>
+<line x1="440" y1="85" x2="440" y2="580" stroke="#c28265" stroke-width="5"/>
+<text x="560" y="25" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Surface</tspan></text>
+<line x1="520" y1="30" x2="451.04" y2="77.74" stroke="#222222" stroke-width="1.8"/>
+<polygon points="442,84 449.13,73.22 454.6,81.12" fill="#222222"/>
+<line x1="390" y1="340" x2="440" y2="295" stroke="#222222" stroke-width="2" stroke-dasharray="7 6"/>
+<line x1="440" y1="295" x2="470" y2="255" stroke="#222222" stroke-width="2" stroke-dasharray="7 6"/>
+<line x1="440" y1="295" x2="370" y2="238" stroke="#222222" stroke-width="2" stroke-dasharray="7 6"/>
+<line x1="440" y1="295" x2="480" y2="355" stroke="#222222" stroke-width="2" stroke-dasharray="7 6"/>
+<line x1="260" y1="470" x2="374.56" y2="355.44" stroke="#7ab32e" stroke-width="4"/>
+<polygon points="388,342 379.51,361.8 368.2,350.49" fill="#7ab32e"/>
+<circle cx="240" cy="478" r="22" fill="#f39a7e" stroke="#d8664c" stroke-width="2"/>
+<circle cx="240" cy="478" r="10" fill="#fbd7c9"/>
+<circle cx="240" cy="478" r="4" fill="#ffffff"/>
+<line x1="505" y1="205" x2="481.35" y2="236.76" stroke="#7ab32e" stroke-width="4"/>
+<polygon points="470,252 475.53,231.18 488.36,240.74" fill="#7ab32e"/>
+<circle cx="512" cy="175" r="22" fill="#4fa9b8" stroke="#2f7f8c" stroke-width="2"/>
+<circle cx="512" cy="175" r="10" fill="#b5e1e8"/>
+<circle cx="512" cy="175" r="4" fill="#ffffff"/>
+<circle cx="375" cy="240" r="22" fill="#f39a7e" stroke="#d8664c" stroke-width="2"/>
+<circle cx="375" cy="240" r="10" fill="#fbd7c9"/>
+<circle cx="375" cy="240" r="4" fill="#ffffff"/>
+<line x1="357" y1="225" x2="313.67" y2="183.19" stroke="#7ab32e" stroke-width="4"/>
+<polygon points="300,170 319.95,178.13 308.84,189.64" fill="#7ab32e"/>
+<circle cx="480" cy="360" r="22" fill="#4fa9b8" stroke="#2f7f8c" stroke-width="2"/>
+<circle cx="480" cy="360" r="10" fill="#b5e1e8"/>
+<circle cx="480" cy="360" r="4" fill="#ffffff"/>
+<line x1="492" y1="382" x2="560.65" y2="503.46" stroke="#7ab32e" stroke-width="4"/>
+<polygon points="570,520 553.19,506.53 567.12,498.65" fill="#7ab32e"/>
+<text x="25" y="309.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Higher</tspan></text>
+<text x="25" y="341.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">temperature</tspan></text>
+<text x="835" y="309.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Lower</tspan></text>
+<text x="835" y="341.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">temperature</tspan></text>
+<text x="25" y="521.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">High</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan></text>
+<text x="25" y="553.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">before</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">collision</tspan></text>
+<text x="555" y="144.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Low</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan></text>
+<text x="555" y="176.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">before</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">collision</tspan></text>
+<defs><linearGradient id="g2" x1="310" y1="600" x2="570" y2="600" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ec8b6a"/><stop offset="1" stop-color="#cfe6f6"/></linearGradient></defs>
+<polygon points="310,620 313,620.64 316,621.26 319,621.83 322,622.36 325,622.83 328,623.24 331,623.58 334,623.85 337,624.04 340,624.16 343,624.2 346,624.17 349,624.06 352,623.89 355,623.66 358,623.37 361,623.03 364,622.65 367,622.24 370,621.81 373,621.36 376,620.9 379,620.44 382,620 385,619.57 388,619.17 391,618.8 394,618.47 397,618.18 400,617.94 403,617.74 406,617.59 409,617.5 412,617.45 415,617.45 418,617.5 421,617.59 424,617.72 427,617.88 430,618.08 433,618.29 436,618.53 439,618.77 442,619.03 445,619.28 448,619.53 451,619.77 454,620 457,620.21 460,620.4 463,620.56 466,620.69 469,620.8 472,620.88 475,620.94 478,620.96 481,620.96 484,620.94 487,620.9 490,620.83 493,620.76 496,620.67 499,620.58 502,620.48 505,620.39 508,620.29 511,620.21 514,620.14 517,620.08 520,620.04 523,620.01 526,620 526,636 570,600 526,564 526,580 523,580.01 520,580.04 517,580.08 514,580.14 511,580.21 508,580.29 505,580.39 502,580.48 499,580.58 496,580.67 493,580.76 490,580.83 487,580.9 484,580.94 481,580.96 478,580.96 475,580.94 472,580.88 469,580.8 466,580.69 463,580.56 460,580.4 457,580.21 454,580 451,579.77 448,579.53 445,579.28 442,579.03 439,578.77 436,578.53 433,578.29 430,578.08 427,577.88 424,577.72 421,577.59 418,577.5 415,577.45 412,577.45 409,577.5 406,577.59 403,577.74 400,577.94 397,578.18 394,578.47 391,578.8 388,579.17 385,579.57 382,580 379,580.44 376,580.9 373,581.36 370,581.81 367,582.24 364,582.65 361,583.03 358,583.37 355,583.66 352,583.89 349,584.06 346,584.17 343,584.2 340,584.16 337,584.04 334,583.85 331,583.58 328,583.24 325,582.83 322,582.36 319,581.83 316,581.26 313,580.64 310,580" fill="url(#g2)"/>
+<text x="440" y="611.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<text x="440" y="669.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Heat</tspan></text>
+<text x="440" y="701.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">conduction</tspan></text>
+</svg>

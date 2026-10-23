@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="520" viewBox="0 0 340 520" role="img" aria-labelledby="title desc">
+<title id="title">A molecule colliding with a wall</title>
+<desc id="desc">A wall seen at an angle. A molecule with velocity v strikes it and leaves with velocity v′: the component of its velocity perpendicular to the wall (the dashed normal) is reversed, while the component along the wall is unchanged. The molecule exerts a force F on the wall, pointing into it.</desc>
+<rect width="340" height="520" fill="#ffffff"/>
+<polygon points="36.46,487.28 36.46,137.28 254.86,19.68 254.86,369.68" fill="#e6c89a" stroke="#b58d5c" stroke-width="1"/>
+<polygon points="40.8,489.8 40.8,139.8 259.2,22.2 259.2,372.2" fill="#fdeccb" stroke="#c49a6c" stroke-width="1.5"/>
+<line x1="160.92" y1="243.12" x2="260.74" y2="301.08" stroke="#222222" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="139.22" y1="230.52" x2="160.92" y2="243.12" stroke="#222222" stroke-width="1.8"/>
+<line x1="227.14" y1="362.26" x2="167.24" y2="254.48" stroke="#7ab32e" stroke-width="2.6"/>
+<polygon points="160.92,243.12 172.62,252.64 162.83,258.08" fill="#7ab32e"/>
+<line x1="160.92" y1="243.12" x2="192.63" y2="215.26" stroke="#7ab32e" stroke-width="2.6"/>
+<polygon points="202.39,206.69 195.57,220.13 188.18,211.72" fill="#7ab32e"/>
+<line x1="164.2" y1="182.56" x2="125.08" y2="159.84" stroke="#c8102e" stroke-width="4"/>
+<polygon points="110.38,151.31 129.56,154.12 122.33,166.57" fill="#c8102e"/>
+<text x="213.34" y="322.35" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="13.64" font-weight="normal" dx="-12.32" dy="-11.44">→</tspan><tspan dx="-1.32" dy="11.44">​</tspan></tspan></text>
+<text x="177.04" y="211.39" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="13.64" font-weight="normal" dx="-12.32" dy="-11.44">→</tspan><tspan dx="-1.32" dy="11.44">​</tspan></tspan><tspan font-style="normal">′</tspan></text>
+<text x="139.82" y="150.62" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan></text>
+</svg>

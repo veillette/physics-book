@@ -46,7 +46,7 @@ another triumph of particle theory and experimental effort, resulting in the
 der Meer. Theorists Weinberg, Glashow, and Salam had already been honored with
 the 1979 Nobel Prize for other aspects of electroweak theory.
 
-![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_33_06_01.jpg 'The exchange of a virtual ( Z^0 ) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The ( Z^0 ) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ')
+![A Feynman diagram is shown in which time proceeds in along the vertical y axis and distance along the horizontal x axis. An electron and an electron neutrino are shown approaching each other, exchanging a virtual zee zero particle, then moving apart.](../resources/Figure_33_06_01.svg 'The exchange of a virtual ( Z^0 ) carries the weak nuclear force between an electron and a neutrino in this Feynman diagram. The ( Z^0 ) is one of the carrier particles for the weak nuclear force that has now been created in the laboratory with characteristics predicted by electroweak theory. ')
 {: #Figure1}
 
 Although the weak nuclear force is very short ranged ( $$< 10^{-18}\text{m} $$
@@ -84,7 +84,7 @@ The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
 force is transmitted.
 
-![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.jpg 'This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.')
+![The Feynman diagram shows a proton scattering from a neutron. In the process , the proton becomes a neutron and the neutron becomes a proton. The details of the interaction are explained in the text.](../resources/Figure_33_06_03.svg 'This Feynman diagram is the same interaction as shown in [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3) of the four basic forces, but it shows the quark and gluon details of the strong force interaction.')
 {: #Figure3}
 
 It is beyond the scope of this text to go into more detail on the types of quark
@@ -125,7 +125,7 @@ the strong and electroweak interactions. [[Figure 4]](#Figure4) sketches this
 idea. The proposed unification energies are far beyond those reached by present
 accelerators, and their values depend on the theory.
 
-![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "A schematic of possible unification at high energies. Electroweak unification is established, while the proposed joining with the strong interaction (GUT) and gravity (TOE) is speculative. The high-energy meeting points are model-dependent, not measurements.")
+![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.svg "A schematic of possible unification at high energies. Electroweak unification is established, while the proposed joining with the strong interaction (GUT) and gravity (TOE) is speculative. The high-energy meeting points are model-dependent, not measurements.")
 {: #Figure4}
 
 Grand unified theories can have consequences that are testable at lower
@@ -214,7 +214,7 @@ having an energy of $$ 10^{10} \text{GeV} $$ converts its energy into particles
 with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 (a) How many particles are created? (b) If the particles rain down on a $$1.00 {\text{-km} }^{2} $$ area, how many particles are there per square meter?
 
-![The figure shows an extremely energetic cosmic ray penetrating into the Earth’s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg 'An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about ( 10^{10} \\text{GeV} ) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ')
+![The figure shows an extremely energetic cosmic ray penetrating into the Earth’s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.svg 'An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about ( 10^{10} \\text{GeV} ) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ')
 {: #Figure6}
 
 :::

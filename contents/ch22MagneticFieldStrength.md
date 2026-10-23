@@ -191,7 +191,7 @@ No, a charged particle moving in a straight line does not mean the magnetic fiel
 
 What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases shown in [[Figure 3]](#Figure3)?
 
-![figure a shows magnetic field line direction symbols with solid circles labeled B out; a velocity vector points down; figure b shows B vectors pointing right and v vector pointing up; figure c shows B in and v to the right; figure d shows B vector pointing right and v vector pointing left; figure e shows B vectors up and v vector into the page; figure f shows B vectors pointing left and v vectors out of the page](../resources/Figure_22_04_03.jpg ' ')
+![figure a shows magnetic field line direction symbols with solid circles labeled B out; a velocity vector points down; figure b shows B vectors pointing right and v vector pointing up; figure c shows B in and v to the right; figure d shows B vector pointing right and v vector pointing left; figure e shows B vectors up and v vector into the page; figure f shows B vectors pointing left and v vectors out of the page](../resources/Figure_22_04_03.svg ' ')
 {: #Figure3 height="425"}
 
 :::
@@ -271,7 +271,7 @@ The reversal of force direction for negative charges is fundamental to understan
 ::: problem
 
 What is the direction of the velocity of a negative charge that experiences the magnetic force shown in each of the three cases in [[Figure 3]](#Figure3), assuming it moves perpendicular to  $$\vb{B}$$ ?
-![Figure a shows the force vector pointing up and B out of the page. Figure b shows the F vector pointing up and the B vector pointing to the right. Figure c shows the F vector pointing to the left and the B vector pointing into the page.](../resources/Figure_22_04_04.jpg " "){: #Figure3}
+![Figure a shows the force vector pointing up and B out of the page. Figure b shows the F vector pointing up and the B vector pointing to the right. Figure c shows the F vector pointing to the left and the B vector pointing into the page.](../resources/Figure_22_04_04.svg " "){: #Figure3}
 
 :::
 
@@ -340,7 +340,7 @@ Comparing the answers for positive and negative charges (Exercise 3 vs. Exercise
 What is the direction of the magnetic field that produces the magnetic force on a positive charge as shown in each of the three cases in the figure below, assuming  $$\vb{B} $$
  is perpendicular to  $$\vb{v} $$ ?
 
-![Figure a shows a force vector pointing toward the left and a velocity vector pointing up. Figure b shows the force vector pointing into the page and the velocity vector pointing down. Figure c shows the force vector pointing up and the velocity vector pointing to the left.](../resources/Figure_22_04_05.jpg ' ')
+![Figure a shows a force vector pointing toward the left and a velocity vector pointing up. Figure b shows the force vector pointing into the page and the velocity vector pointing down. Figure c shows the force vector pointing up and the velocity vector pointing to the left.](../resources/Figure_22_04_05.svg ' ')
 {: #Figure4}
 
 :::

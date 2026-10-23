@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img" aria-labelledby="title desc">
+<title id="title">Heat conduction through a slab</title>
+<desc id="desc">A bar of material with thermal conductivity k and cross-sectional area A connects a hot block at temperature T₂ to a cold block at T₁, a distance d apart, with T₂ &gt; T₁. Heat Q flows through the bar from the hot block to the cold block.</desc>
+<rect width="960" height="470" fill="#ffffff"/>
+<polygon points="0,180 105,180 200,100 95,100" fill="#f7c3a8"/>
+<polygon points="105,180 200,100 200,315 105,395" fill="#f5b394"/>
+<rect x="0" y="180" width="105" height="215" fill="#ee7a55"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8603c"/><stop offset="0.45" stop-color="#fde8de"/><stop offset="0.6" stop-color="#f4f6fb"/><stop offset="1" stop-color="#7f9ac8"/></linearGradient></defs>
+<polygon points="150,230 760,230 760,320 150,320" fill="url(#g1)"/>
+<polygon points="150,230 207,182 817,182 760,230" fill="url(#g1)" fill-opacity="0.6"/>
+<line x1="150" y1="230" x2="760" y2="230" stroke="#f7c3a8" stroke-width="3"/>
+<line x1="207" y1="182" x2="760" y2="182" stroke="#f7c3a8" stroke-width="3"/>
+<line x1="150" y1="320" x2="760" y2="320" stroke="#f7c3a8" stroke-width="2"/>
+<line x1="150" y1="230" x2="207" y2="182" stroke="#f7c3a8" stroke-width="2"/>
+<line x1="150" y1="230" x2="150" y2="320" stroke="#f7c3a8" stroke-width="2"/>
+<polygon points="420,230 477,182 477,272 420,320" fill="#7fb89c" fill-opacity="0.9"/>
+<defs><linearGradient id="g2" x1="215" y1="245" x2="415" y2="245" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde6db"/><stop offset="1" stop-color="#f9b9a1"/></linearGradient></defs>
+<polygon points="215,267 217.53,267.62 220.05,268.19 222.58,268.73 225.11,269.19 227.63,269.59 230.16,269.91 232.69,270.15 235.21,270.3 237.74,270.36 240.27,270.33 242.79,270.23 245.32,270.04 247.85,269.79 250.37,269.48 252.9,269.12 255.43,268.72 257.95,268.3 260.48,267.87 263.01,267.43 265.53,267 268.06,266.59 270.59,266.22 273.11,265.88 275.64,265.59 278.17,265.35 280.69,265.17 283.22,265.04 285.75,264.97 288.27,264.96 290.8,265 293.33,265.09 295.85,265.22 298.38,265.4 300.91,265.6 303.43,265.82 305.96,266.06 308.49,266.3 311.01,266.55 313.54,266.78 316.07,267 318.59,267.2 321.12,267.37 323.65,267.51 326.17,267.63 328.7,267.71 331.23,267.76 333.75,267.77 336.28,267.76 338.81,267.72 341.33,267.67 343.86,267.59 346.39,267.51 348.91,267.42 351.44,267.32 353.97,267.24 356.49,267.16 359.02,267.09 361.55,267.04 364.07,267.01 366.6,267 366.6,284.6 415,245 366.6,205.4 366.6,223 364.07,223.01 361.55,223.04 359.02,223.09 356.49,223.16 353.97,223.24 351.44,223.32 348.91,223.42 346.39,223.51 343.86,223.59 341.33,223.67 338.81,223.72 336.28,223.76 333.75,223.77 331.23,223.76 328.7,223.71 326.17,223.63 323.65,223.51 321.12,223.37 318.59,223.2 316.07,223 313.54,222.78 311.01,222.55 308.49,222.3 305.96,222.06 303.43,221.82 300.91,221.6 298.38,221.4 295.85,221.22 293.33,221.09 290.8,221 288.27,220.96 285.75,220.97 283.22,221.04 280.69,221.17 278.17,221.35 275.64,221.59 273.11,221.88 270.59,222.22 268.06,222.59 265.53,223 263.01,223.43 260.48,223.87 257.95,224.3 255.43,224.72 252.9,225.12 250.37,225.48 247.85,225.79 245.32,226.04 242.79,226.23 240.27,226.33 237.74,226.36 235.21,226.3 232.69,226.15 230.16,225.91 227.63,225.59 225.11,225.19 222.58,224.73 220.05,224.19 217.53,223.62 215,223" fill="url(#g2)"/>
+<text x="180" y="277.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan></text>
+<line x1="180" y1="268" x2="708" y2="268" stroke="#f3b29a" stroke-width="3" stroke-dasharray="10 8"/>
+<polygon points="708,180 813,180 908,100 803,100" fill="#c2cee9"/>
+<polygon points="813,180 908,100 908,315 813,395" fill="#a8b8dd"/>
+<rect x="708" y="180" width="105" height="215" fill="#7f9ac8"/>
+<text x="55" y="309.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">2</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="745" y="289.8" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-size="19.6" dy="7.84"><tspan font-style="normal">1</tspan></tspan><tspan dy="-7.84">​</tspan></text>
+<text x="360" y="38.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Material</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">having</tspan></text>
+<text x="360" y="66.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">thermal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">conductivity</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">k</tspan></text>
+<polyline points="380,90 377.76,91.25 375.59,92.53 373.55,93.89 371.7,95.34 370.09,96.92 368.76,98.64 367.71,100.51 366.95,102.54 366.47,104.72 366.25,107.02 366.23,109.44 366.36,111.94 366.58,114.48 366.83,117.04 367.03,119.57 367.12,122.04 367.04,124.42 366.73,126.69 366.16,128.82 365.31,130.79 364.16,132.62 362.73,134.29 361.04,135.82 359.12,137.24 357.03,138.57 354.83,139.84 352.58,141.08 350.36,142.34 348.23,143.64 346.25,145.02 344.47,146.52 342.95,148.14 341.71,149.91 340.76,151.84 340.09,153.92 339.7,156.14 339.55,158.49 339.59,160.93 339.76,163.45 340,166" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="340" y1="166" x2="334.19" y2="177.04" stroke="#222222" stroke-width="1.4"/>
+<polygon points="330,185 331.12,174.29 338.2,178.01" fill="#222222"/>
+<text x="600" y="103.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Area</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">A</tspan></text>
+<polyline points="565,112 562.07,112.63 559.16,113.29 556.3,114.02 553.49,114.84 550.78,115.78 548.15,116.87 545.64,118.11 543.24,119.52 540.96,121.11 538.8,122.88 536.75,124.81 534.8,126.89 532.95,129.11 531.18,131.45 529.46,133.87 527.78,136.34 526.11,138.83 524.44,141.31 522.73,143.75 520.98,146.12 519.16,148.38 517.24,150.51 515.23,152.5 513.11,154.32 510.87,155.97 508.51,157.44 506.03,158.74 503.44,159.87 500.76,160.86 497.98,161.72 495.13,162.47 492.24,163.15 489.31,163.79 486.38,164.42 483.46,165.07 480.58,165.77 477.75,166.55 475,167.45 472.35,168.49 469.8,169.68" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="469.8" y1="169.68" x2="456.28" y2="183.55" stroke="#222222" stroke-width="1.4"/>
+<polygon points="450,190 454.11,180.05 459.84,185.63" fill="#222222"/>
+<line x1="105" y1="375" x2="105" y2="420" stroke="#222222" stroke-width="1.5"/>
+<line x1="708" y1="375" x2="708" y2="420" stroke="#222222" stroke-width="1.5"/>
+<line x1="120" y1="405" x2="693" y2="405" stroke="#222222" stroke-width="1.8"/>
+<polygon points="706,405 692,410.6 692,399.4" fill="#222222"/>
+<polygon points="107,405 121,399.4 121,410.6" fill="#222222"/>
+<rect x="392" y="392" width="30" height="26" fill="#ffffff"/>
+<text x="407" y="414.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<rect x="345" y="425" width="125" height="38" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<text x="407" y="452.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> &gt; </tspan><tspan font-style="italic">T</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+</svg>

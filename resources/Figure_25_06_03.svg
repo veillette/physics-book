@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="860" viewBox="0 0 900 860" role="img" aria-labelledby="title desc">
+<title id="title">Parallel rays through a diverging lens</title>
+<desc id="desc">Top: an expanded view of ray 1 crossing a wedge of diverging-lens glass; it bends at each face so that it is turned away from the axis. Bottom: rays 1, 2 and 3 enter a diverging lens parallel to its axis; ray 2 on the axis is undeviated, and rays 1 and 3 spread out as if they came from the focal point F, a distance f in front of the lens. The dashed lines are extensions, not rays.</desc>
+<rect width="900" height="860" fill="#ffffff"/>
+<polygon points="340,50 580,50 541.29,205.25 378.71,205.25" fill="#b9cfc3" stroke="#6f8f80" stroke-width="1.5"/>
+<line x1="80" y1="120" x2="357.45" y2="120" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="222.6" y1="120" x2="230" y2="120" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="238.6,120 229,123.84 229,116.16" fill="#1fa8d8"/>
+<line x1="357.45" y1="120" x2="566.86" y2="102.71" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="566.86" y1="102.71" x2="820" y2="35.95" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="696.42" y1="68.54" x2="703.57" y2="66.66" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="711.89,64.46 703.58,70.62 701.63,63.2" fill="#1fa8d8"/>
+<line x1="312.82" y1="131.13" x2="402.09" y2="108.87" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="611.49" y1="113.84" x2="522.22" y2="91.59" stroke="#222222" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M 317.45 120 A 40 40 0 0 0 318.64 129.68" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="295.92" y="135.26" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 397.32 116.71 A 40 40 0 0 0 396.26 110.32" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="418.63" y="117.62" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 528.04 93.04 A 40 40 0 0 0 526.99 106.01" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="505.06" y="105.4" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal">'</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<path d="M 605.67 112.39 A 40 40 0 0 0 605.53 92.51" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="628.86" y="110" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal">'</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="100" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="820" y="22.35" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<defs><linearGradient id="lens_450_560_230" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9cfc3"/><stop offset="0.45" stop-color="#eef4f0"/><stop offset="1" stop-color="#b9cfc3"/></linearGradient></defs>
+<path d="M 410 330 L 490 330 Q 456 560 490 790 L 410 790 Q 444 560 410 330 Z" fill="url(#lens_450_560_230)" stroke="#6f8f80" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="140" y1="450" x2="450" y2="450" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="285" y1="450" x2="292.4" y2="450" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="301,450 291.4,453.84 291.4,446.16" fill="#1fa8d8"/>
+<line x1="450" y1="450" x2="761.55" y2="269.63" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="628.28" y1="346.79" x2="634.68" y2="343.08" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="642.12,338.77 635.74,346.9 631.89,340.26" fill="#1fa8d8"/>
+<line x1="260" y1="560" x2="450" y2="450" stroke="#1fa8d8" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="150" y="436.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="765.55" y="260.03" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="140" y1="560" x2="450" y2="560" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="285" y1="560" x2="292.4" y2="560" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="301,560 291.4,563.84 291.4,556.16" fill="#1fa8d8"/>
+<line x1="450" y1="560" x2="810" y2="560" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="656" y1="560" x2="663.4" y2="560" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="672,560 662.4,563.84 662.4,556.16" fill="#1fa8d8"/>
+<text x="150" y="546.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<text x="814" y="548.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="140" y1="670" x2="450" y2="670" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="285" y1="670" x2="292.4" y2="670" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="301,670 291.4,673.84 291.4,666.16" fill="#1fa8d8"/>
+<line x1="450" y1="670" x2="761.55" y2="850.37" stroke="#1fa8d8" stroke-width="2.4"/>
+<line x1="628.28" y1="773.21" x2="634.68" y2="776.92" stroke="#1fa8d8" stroke-width="2.4"/>
+<polygon points="642.12,781.23 631.89,779.74 635.74,773.1" fill="#1fa8d8"/>
+<line x1="260" y1="560" x2="450" y2="670" stroke="#1fa8d8" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="150" y="656.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<text x="783.55" y="850.77" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<text x="92" y="568.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Axis</tspan></text>
+<text x="840" y="618.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Axis</tspan></text>
+<polyline points="830,592 830.03,591.21 830.04,590.43 830.04,589.66 830.01,588.92 829.94,588.19 829.84,587.5 829.68,586.84 829.47,586.22 829.2,585.63 828.87,585.09 828.48,584.59 828.03,584.14 827.52,583.72 826.96,583.34 826.34,582.99 825.69,582.68 825,582.38 824.28,582.11 823.55,581.85 822.8,581.6 822.05,581.35 821.32,581.09 820.6,580.82 819.91,580.52 819.26,580.21 818.64,579.86 818.08,579.48 817.57,579.06 817.12,578.61 816.73,578.11 816.4,577.57 816.13,576.98 815.92,576.36 815.76,575.7 815.66,575.01 815.59,574.28 815.56,573.54 815.56,572.77 815.57,571.99 815.6,571.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="815.6" y1="571.2" x2="813.59" y2="568.3" stroke="#222222" stroke-width="1.4"/>
+<polygon points="812,566 815.41,568.26 812.91,569.98" fill="#222222"/>
+<circle cx="450" cy="560" r="5.5" fill="#c0392b" stroke="#7b1c14" stroke-width="1"/>
+<circle cx="260" cy="560" r="5.5" fill="#c0392b" stroke="#7b1c14" stroke-width="1"/>
+<text x="260" y="544.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan></text>
+<line x1="270" y1="586" x2="440" y2="586" stroke="#222222" stroke-width="1.4"/>
+<polygon points="449,586 439,590 439,582" fill="#222222"/>
+<polygon points="261,586 271,582 271,590" fill="#222222"/>
+<line x1="260" y1="577" x2="260" y2="595" stroke="#222222" stroke-width="1.3"/>
+<line x1="450" y1="577" x2="450" y2="595" stroke="#222222" stroke-width="1.3"/>
+<text x="355" y="615.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+</svg>

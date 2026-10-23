@@ -357,7 +357,7 @@ The wire in Figure 4(b) carries upward current, and its field through the coil t
 
 Referring to [[Figure 5]](#Figure5), what are the directions of the currents in coils 1, 2, and 3 (assume that the coils are lying in the plane of the circuit): (a) When the switch is first closed? (b) When the switch has been closed for a long time? (c) Just after the switch is opened?
 
-![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_23_02_05.jpg ' ')
+![The figure shows a closed circuit consisting of a main coil with many loops connected to a cell through a switch. Three single loop coils named one, two and three are also shown. Coil one is on left of the main coil, coil two on the right and coil three on top of the main coil.](../resources/Figure_23_02_05.svg ' ')
 {: #Figure5}
 
 :::

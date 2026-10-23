@@ -325,7 +325,7 @@ where  $$\Delta A $$  is the change in area  $$A $$ ,
 
 :::
 
-![Part a shows the outline of a flat metal plate before and after expansion. After expansion, it has the same shape and ratio of dimensions as before, but it takes up a greater area. Part b shows the outline of a flat metal plate with a hole in it, before and after expansion. The hole expands. Part c shows the outline of a rectangular box before and after expansion. After expansion, the box has the same proportions as before expansion, but it has a greater volume.](../resources/Figure_13_02_02.jpg 'In general, objects expand in all directions as temperature increases. In these drawings, the original boundaries of the objects are shown with solid lines, and the expanded boundaries with dashed lines. (a) Area increases because both length and width increase. The area of a circular plug also increases. (b) If the plug is removed, the hole it leaves becomes larger with increasing temperature, just as if the expanding plug were still in place. (c) Volume also increases, because all three dimensions increase.')
+![Part a shows the outline of a flat metal plate before and after expansion. After expansion, it has the same shape and ratio of dimensions as before, but it takes up a greater area. Part b shows the outline of a flat metal plate with a hole in it, before and after expansion. The hole expands. Part c shows the outline of a rectangular box before and after expansion. After expansion, the box has the same proportions as before expansion, but it has a greater volume.](../resources/Figure_13_02_02.svg 'In general, objects expand in all directions as temperature increases. In these drawings, the original boundaries of the objects are shown with solid lines, and the expanded boundaries with dashed lines. (a) Area increases because both length and width increase. The area of a circular plug also increases. (b) If the plug is removed, the hole it leaves becomes larger with increasing temperature, just as if the expanding plug were still in place. (c) Volume also increases, because all three dimensions increase.')
 {: #Figure2}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -366,7 +366,7 @@ water beneath ice, due to this unusual characteristic of water. It also produces
 circulation of water in the pond that is necessary for a healthy ecosystem of
 the body of water.
 
-![A graph of density of freshwater in grams per cubic centimeter versus temperature in degrees Celsius. The line is convex up. At zero degrees C, the density is just under zero point nine nine nine five grams per cubic centimeter. The density then increases at a decreasing rate until it hits a peak of about zero point nine nine nine nine seven grams per cubic centimeter at about four degrees C. Above four degrees C, the density decreases with increasing temperature.](../resources/Figure_13_02_03.jpg 'The density of water as a function of temperature. Note that the thermal expansion is actually very small. The maximum density at ( +4 \\text{ºC} ) is only 0.0075% greater than the density at ( 2 \\text{ºC} ), and 0.012% greater than that at ( 0 \\text{ºC} ).')
+![A graph of density of freshwater in grams per cubic centimeter versus temperature in degrees Celsius. The line is convex up. At zero degrees C, the density is just under zero point nine nine nine five grams per cubic centimeter. The density then increases at a decreasing rate until it hits a peak of about zero point nine nine nine nine seven grams per cubic centimeter at about four degrees C. Above four degrees C, the density decreases with increasing temperature.](../resources/Figure_13_02_03.svg 'The density of water as a function of temperature. Note that the thermal expansion is actually very small. The maximum density at ( +4 \\text{ºC} ) is only 0.0075% greater than the density at ( 2 \\text{ºC} ), and 0.012% greater than that at ( 0 \\text{ºC} ).')
 {: #Figure3}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -553,7 +553,7 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l�
  If the temperature changes, what is (a) the change in the volume of the two blocks, (b) the change in the cross-sectional area  $$l×w $$ ,
  and (c) the change in the height  $$h $$  of the two blocks?
 
-![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_13_02_06.jpg ' ')
+![There are two rectangular blocks. Block A has its dimensions labeled length equals L, width equals two times L, height equals L. Block B has its dimensions labeled length, width, and height all equal to two times L.](../resources/Figure_13_02_06.svg ' ')
 {: #Figure6}
 
 :::

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+<title id="title">Rotating and inertial views of a merry-go-round</title>
+<desc id="desc">Top views of counterclockwise rotation. In the rotating frame an outward fictitious centrifugal force balances the inward real force for a rider at rest. In the inertial frame a held rider has a real inward centripetal force; a separate unshaded released rider has zero net horizontal force and follows a straight tangent.</desc>
+<rect width="1120" height="520" fill="#ffffff"/>
+<g id="rotating-platform">
+<circle cx="250" cy="285" r="155" fill="#f5d4be" stroke="#b9865e" stroke-width="2.5"/>
+</g>
+<line x1="250" y1="285" x2="405" y2="285" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="384.23" y2="207.5" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="327.5" y2="150.77" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="250" y2="130" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="172.5" y2="150.77" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="115.77" y2="207.5" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="95" y2="285" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="115.77" y2="362.5" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="172.5" y2="419.23" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="250" y2="440" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="327.5" y2="419.23" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="250" y1="285" x2="384.23" y2="362.5" stroke="#dfb99b" stroke-width="1.5"/>
+<circle cx="250" cy="285" r="120" fill="none" stroke="#666666" stroke-width="1"/>
+<circle cx="250" cy="285" r="7" fill="#d1aa34" stroke="#222222" stroke-width="1.5"/>
+<path d="M 202.46 154.38 A 139 139 0 0 0 115.74 249.02" fill="none" stroke="#2aa1b3" stroke-width="3" stroke-linejoin="round"/>
+<line x1="120.74" y1="229.02" x2="118.16" y2="239.32" stroke="#2aa1b3" stroke-width="3"/>
+<polygon points="115.74,249.02 114.14,237.29 122.67,239.42" fill="#2aa1b3"/>
+<text x="122" y="210.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#2aa1b3" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ω</tspan></text>
+<line x1="250" y1="285" x2="348.3" y2="216.17" stroke="#222222" stroke-width="1.5" stroke-dasharray="5 4"/>
+<g id="rotating-held-rider">
+<ellipse cx="348.3" cy="216.17" rx="25" ry="10" fill="#dfb080" stroke="#222222" stroke-width="1.5"/>
+<circle cx="369.3" cy="209.17" r="7" fill="#dfb080" stroke="#222222" stroke-width="1.5"/>
+<line x1="332.3" y1="222.17" x2="327.3" y2="232.17" stroke="#222222" stroke-width="2"/>
+<line x1="363.3" y1="222.17" x2="358.3" y2="232.17" stroke="#222222" stroke-width="2"/>
+<ellipse cx="344.3" cy="212.17" rx="9" ry="13" fill="#ce6b9d" stroke="#222222" stroke-width="1.5"/>
+<circle cx="343.3" cy="199.17" r="8" fill="#f4cbaa" stroke="#222222" stroke-width="1.5"/>
+<circle cx="348.3" cy="216.17" r="3" fill="#d1aa34"/>
+</g>
+<g id="fictitious-force">
+<line x1="348.3" y1="216.17" x2="413.01" y2="170.86" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="422.02,164.55 414.95,175.36 409.44,167.5" fill="#b03a2e"/>
+</g>
+<text x="250" y="98.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">fict</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">centrifugal</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<path d="M 350 103 Q 363.51 148.15 388.92 179.21" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="387.65" y1="177.66" x2="390.57" y2="181.22" stroke="#333333" stroke-width="1.2"/>
+<polygon points="393.35,184.62 388.26,181.81 391.6,179.08" fill="#333333"/>
+<g id="inertial-platform">
+<circle cx="800" cy="285" r="155" fill="#f5d4be" stroke="#b9865e" stroke-width="2.5"/>
+</g>
+<line x1="800" y1="285" x2="955" y2="285" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="934.23" y2="207.5" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="877.5" y2="150.77" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="800" y2="130" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="722.5" y2="150.77" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="665.77" y2="207.5" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="645" y2="285" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="665.77" y2="362.5" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="722.5" y2="419.23" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="800" y2="440" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="877.5" y2="419.23" stroke="#dfb99b" stroke-width="1.5"/>
+<line x1="800" y1="285" x2="934.23" y2="362.5" stroke="#dfb99b" stroke-width="1.5"/>
+<circle cx="800" cy="285" r="120" fill="none" stroke="#666666" stroke-width="1"/>
+<circle cx="800" cy="285" r="7" fill="#d1aa34" stroke="#222222" stroke-width="1.5"/>
+<path d="M 752.46 154.38 A 139 139 0 0 0 665.74 249.02" fill="none" stroke="#2aa1b3" stroke-width="3" stroke-linejoin="round"/>
+<line x1="670.74" y1="229.02" x2="668.16" y2="239.32" stroke="#2aa1b3" stroke-width="3"/>
+<polygon points="665.74,249.02 664.14,237.29 672.67,239.42" fill="#2aa1b3"/>
+<text x="672" y="210.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#2aa1b3" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">ω</tspan></text>
+<line x1="800" y1="285" x2="898.3" y2="216.17" stroke="#222222" stroke-width="1.5" stroke-dasharray="5 4"/>
+<g id="inertial-held-rider">
+<ellipse cx="898.3" cy="216.17" rx="25" ry="10" fill="#dfb080" stroke="#222222" stroke-width="1.5"/>
+<circle cx="919.3" cy="209.17" r="7" fill="#dfb080" stroke="#222222" stroke-width="1.5"/>
+<line x1="882.3" y1="222.17" x2="877.3" y2="232.17" stroke="#222222" stroke-width="2"/>
+<line x1="913.3" y1="222.17" x2="908.3" y2="232.17" stroke="#222222" stroke-width="2"/>
+<ellipse cx="894.3" cy="212.17" rx="9" ry="13" fill="#ce6b9d" stroke="#222222" stroke-width="1.5"/>
+<circle cx="893.3" cy="199.17" r="8" fill="#f4cbaa" stroke="#222222" stroke-width="1.5"/>
+<circle cx="898.3" cy="216.17" r="3" fill="#d1aa34"/>
+</g>
+<g id="centripetal-force">
+<line x1="898.3" y1="216.17" x2="825.39" y2="267.22" stroke="#b03a2e" stroke-width="3.5"/>
+<polygon points="816.38,273.53 823.46,262.71 828.97,270.58" fill="#b03a2e"/>
+</g>
+<text x="760" y="366.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="16.1" dy="6.44"><tspan font-style="normal">net</tspan></tspan><tspan dy="-6.44">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.1" dy="6.44"><tspan font-style="normal">centripetal</tspan></tspan><tspan dy="-6.44">​</tspan></text>
+<path d="M 820 342 Q 841.34 296.52 851.59 254.52" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="851.11" y1="256.46" x2="852.2" y2="251.99" stroke="#333333" stroke-width="1.2"/>
+<polygon points="853.24,247.72 854.06,253.48 849.87,252.45" fill="#333333"/>
+<g id="released-trajectory">
+<line x1="920" y1="285" x2="920" y2="76" stroke="#2aa1b3" stroke-width="2.5" stroke-dasharray="7 5"/>
+<polygon points="920,65 924.8,77 915.2,77" fill="#2aa1b3"/>
+</g>
+<circle cx="920" cy="285" r="4" fill="#222222"/>
+<g id="released-rider">
+<ellipse cx="920" cy="110" rx="25" ry="10" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<circle cx="941" cy="103" r="7" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<line x1="904" y1="116" x2="899" y2="126" stroke="#222222" stroke-width="2"/>
+<line x1="935" y1="116" x2="930" y2="126" stroke="#222222" stroke-width="2"/>
+<ellipse cx="916" cy="106" rx="9" ry="13" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<circle cx="915" cy="93" r="8" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<circle cx="920" cy="110" r="3" fill="#d1aa34"/>
+</g>
+<text x="1030" y="116.05" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="16.1" dy="6.44"><tspan font-style="normal">net</tspan></tspan><tspan dy="-6.44">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="1030" y="145.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Released</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rider</tspan></text>
+<text x="1020" y="295.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Release</tspan></text>
+<path d="M 980 290 Q 950.25 284.5 927 284.88" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="929" y1="284.85" x2="924.4" y2="284.93" stroke="#333333" stroke-width="1.2"/>
+<polygon points="920,285 925.36,282.75 925.43,287.07" fill="#333333"/>
+<text x="250" y="43.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Rotating</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">frame</tspan></text>
+<text x="800" y="43.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Inertial</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">frame</tspan></text>
+<text x="250" y="494" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Outward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">fictitious</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan></text>
+<text x="800" y="494" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Real</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">inward</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">released</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">straight</tspan></text>
+</svg>

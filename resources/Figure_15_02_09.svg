@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="1250" viewBox="0 0 560 1250" role="img" aria-labelledby="title desc">
+<title id="title">Heat, work, and internal energy in a piston engine</title>
+<desc id="desc">(a) Heat Q_in is added to the gas while the piston is held still, so ΔU_a = Q_in; the gas pushes on the piston with force F = PA. (b) The gas expands, pushing the piston a distance d and doing work W_out = Fd on the crank, so ΔU_b = −W_out. (c) The piston is pushed back the distance d by a smaller force F′, so W_in = F′d with F′ &lt; F, while heat Q_out leaves the gas.</desc>
+<rect width="560" height="1250" fill="#ffffff"/>
+<rect x="70" y="135" width="105" height="170" fill="#fbe1d3"/>
+<path d="M 247 135 L 70 135 L 70 305 L 247 305" fill="none" stroke="#ee9a7a" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="402" y="158" width="56" height="124" rx="6" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<circle cx="430" cy="220" r="36" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<line x1="247" y1="220" x2="390.53" y2="234.36" stroke="#8a8c8f" stroke-width="18" stroke-linecap="round"/>
+<circle cx="390.53" cy="234.36" r="16" fill="#f3dcb0" stroke="#b98f50" stroke-width="1.5"/>
+<circle cx="390.53" cy="234.36" r="7" fill="#8a8c8f"/>
+<circle cx="430" cy="220" r="18" fill="#111111"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e2e2e"/><stop offset="0.35" stop-color="#9a9c9f"/><stop offset="0.6" stop-color="#e6e7e8"/><stop offset="1" stop-color="#6d6e71"/></linearGradient></defs>
+<rect x="175" y="137" width="72" height="166" fill="url(#g1)"/>
+<ellipse cx="247" cy="220" rx="16" ry="83" fill="#6d6e71" stroke="#333333" stroke-width="1"/>
+<ellipse cx="175" cy="220" rx="20" ry="83" fill="#f2f2f2" stroke="#6d6e71" stroke-width="1.5"/>
+<defs><linearGradient id="g2" x1="130" y1="0" x2="130" y2="190" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde6db"/><stop offset="1" stop-color="#ef8a68"/></linearGradient></defs>
+<polygon points="104,0 102.73,2.21 101.58,4.43 100.64,6.64 99.96,8.85 99.57,11.07 99.5,13.28 99.73,15.49 100.25,17.71 100.99,19.92 101.92,22.13 102.94,24.35 104,26.56 105.01,28.77 105.92,30.99 106.65,33.2 107.18,35.41 107.46,37.63 107.5,39.84 107.3,42.05 106.89,44.27 106.3,46.48 105.58,48.69 104.8,50.91 104,53.12 103.25,55.33 102.58,57.55 102.06,59.76 101.69,61.97 101.5,64.19 101.5,66.4 101.67,68.61 101.98,70.83 102.41,73.04 102.92,75.25 103.46,77.47 104,79.68 104.5,81.89 104.92,84.11 105.24,86.32 105.44,88.53 105.53,90.75 105.5,92.96 105.37,95.17 105.15,97.39 104.88,99.6 104.58,101.81 104.28,104.03 104,106.24 103.76,108.45 103.58,110.67 103.47,112.88 103.42,115.09 103.44,117.31 103.5,119.52 103.6,121.73 103.71,123.95 103.82,126.16 103.92,128.37 103.98,130.59 104,132.8 83.2,132.8 130,190 176.8,132.8 156,132.8 155.98,130.59 155.92,128.37 155.82,126.16 155.71,123.95 155.6,121.73 155.5,119.52 155.44,117.31 155.42,115.09 155.47,112.88 155.58,110.67 155.76,108.45 156,106.24 156.28,104.03 156.58,101.81 156.88,99.6 157.15,97.39 157.37,95.17 157.5,92.96 157.53,90.75 157.44,88.53 157.24,86.32 156.92,84.11 156.5,81.89 156,79.68 155.46,77.47 154.92,75.25 154.41,73.04 153.98,70.83 153.67,68.61 153.5,66.4 153.5,64.19 153.69,61.97 154.06,59.76 154.58,57.55 155.25,55.33 156,53.12 156.8,50.91 157.58,48.69 158.3,46.48 158.89,44.27 159.3,42.05 159.5,39.84 159.46,37.63 159.18,35.41 158.65,33.2 157.92,30.99 157.01,28.77 156,26.56 154.94,24.35 153.92,22.13 152.99,19.92 152.25,17.71 151.73,15.49 151.5,13.28 151.57,11.07 151.96,8.85 152.64,6.64 153.58,4.43 154.73,2.21 156,0" fill="url(#g2)"/>
+<text x="130" y="147.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">in</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<line x1="20" y1="235" x2="146" y2="235" stroke="#e0155d" stroke-width="4"/>
+<polygon points="165,235 145,243 145,227" fill="#e0155d"/>
+<text x="105" y="212.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan></text>
+<text x="130" y="282.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">PA</tspan></text>
+<text x="160" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">U</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">a</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">in</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="280" y="397" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="70" y="555" width="190" height="170" fill="#fbe1d3"/>
+<path d="M 332 555 L 70 555 L 70 725 L 332 725" fill="none" stroke="#ee9a7a" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="175" cy="640" rx="18" ry="81" fill="none" stroke="#9a8f99" stroke-width="2.5" stroke-dasharray="7 5"/>
+<rect x="402" y="578" width="56" height="124" rx="6" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<circle cx="430" cy="640" r="36" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<line x1="332" y1="640" x2="469.47" y2="654.36" stroke="#8a8c8f" stroke-width="18" stroke-linecap="round"/>
+<circle cx="469.47" cy="654.36" r="16" fill="#f3dcb0" stroke="#b98f50" stroke-width="1.5"/>
+<circle cx="469.47" cy="654.36" r="7" fill="#8a8c8f"/>
+<circle cx="430" cy="640" r="18" fill="#111111"/>
+<defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e2e2e"/><stop offset="0.35" stop-color="#9a9c9f"/><stop offset="0.6" stop-color="#e6e7e8"/><stop offset="1" stop-color="#6d6e71"/></linearGradient></defs>
+<rect x="260" y="557" width="72" height="166" fill="url(#g3)"/>
+<ellipse cx="332" cy="640" rx="16" ry="83" fill="#6d6e71" stroke="#333333" stroke-width="1"/>
+<ellipse cx="260" cy="640" rx="20" ry="83" fill="#f2f2f2" stroke="#6d6e71" stroke-width="1.5"/>
+<line x1="175" y1="521" x2="175" y2="555" stroke="#222222" stroke-width="1.2"/>
+<line x1="260" y1="521" x2="260" y2="555" stroke="#222222" stroke-width="1.2"/>
+<line x1="186" y1="535" x2="249" y2="535" stroke="#222222" stroke-width="1.5"/>
+<polygon points="258,535 248,539 248,531" fill="#222222"/>
+<polygon points="177,535 187,531 187,539" fill="#222222"/>
+<text x="217" y="522.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<line x1="30" y1="655" x2="231" y2="655" stroke="#e0155d" stroke-width="4"/>
+<polygon points="250,655 230,663 230,647" fill="#e0155d"/>
+<text x="200" y="632.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan></text>
+<text x="395" y="517.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Fd</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">W</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">out</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<polyline points="395,550 403.17,550.79 411.02,551.82 418.55,553.1 425.76,554.62 432.64,556.39 439.2,558.4 445.44,560.66 451.36,563.16 456.95,565.9 462.22,568.89 467.17,572.12 471.8,575.6 476.11,579.32 480.09,583.29 483.75,587.5 487.09,591.96 490.11,596.66 492.8,601.6 495.17,606.79 497.22,612.22 498.95,617.9 500.36,623.82 501.44,629.99 502.2,636.4 502.64,643.06 502.76,649.96 502.55,657.1 502.02,664.49" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="502.02" y1="664.49" x2="501.08" y2="671.68" stroke="#222222" stroke-width="1.8"/>
+<polygon points="500,680 497.49,670.21 504.94,671.18" fill="#222222"/>
+<text x="220" y="772.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">U</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">b</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = −</tspan><tspan font-style="italic">W</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">out</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="280" y="817" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="70" y="955" width="105" height="170" fill="#fbe1d3"/>
+<path d="M 247 955 L 70 955 L 70 1125 L 247 1125" fill="none" stroke="#ee9a7a" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="260" cy="1040" rx="18" ry="81" fill="none" stroke="#9a8f99" stroke-width="2.5" stroke-dasharray="7 5"/>
+<rect x="402" y="978" width="56" height="124" rx="6" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<circle cx="430" cy="1040" r="36" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<line x1="247" y1="1040" x2="390.53" y2="1054.36" stroke="#8a8c8f" stroke-width="18" stroke-linecap="round"/>
+<circle cx="390.53" cy="1054.36" r="16" fill="#f3dcb0" stroke="#b98f50" stroke-width="1.5"/>
+<circle cx="390.53" cy="1054.36" r="7" fill="#8a8c8f"/>
+<circle cx="430" cy="1040" r="18" fill="#111111"/>
+<defs><linearGradient id="g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e2e2e"/><stop offset="0.35" stop-color="#9a9c9f"/><stop offset="0.6" stop-color="#e6e7e8"/><stop offset="1" stop-color="#6d6e71"/></linearGradient></defs>
+<rect x="175" y="957" width="72" height="166" fill="url(#g4)"/>
+<ellipse cx="247" cy="1040" rx="16" ry="83" fill="#6d6e71" stroke="#333333" stroke-width="1"/>
+<ellipse cx="175" cy="1040" rx="20" ry="83" fill="#f2f2f2" stroke="#6d6e71" stroke-width="1.5"/>
+<line x1="175" y1="921" x2="175" y2="955" stroke="#222222" stroke-width="1.2"/>
+<line x1="260" y1="921" x2="260" y2="955" stroke="#222222" stroke-width="1.2"/>
+<line x1="186" y1="935" x2="249" y2="935" stroke="#222222" stroke-width="1.5"/>
+<polygon points="258,935 248,939 248,931" fill="#222222"/>
+<polygon points="177,935 187,931 187,939" fill="#222222"/>
+<text x="217" y="922.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<line x1="380" y1="1010" x2="284" y2="1010" stroke="#e0155d" stroke-width="4"/>
+<polygon points="265,1010 285,1002 285,1018" fill="#e0155d"/>
+<text x="340" y="989.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.64" font-weight="normal" dx="-13.54" dy="-18.04">→</tspan><tspan dx="-0.1" dy="18.04">​</tspan></tspan><tspan font-style="normal">′</tspan></text>
+<text x="470" y="897.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">in</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-style="normal">′</tspan><tspan font-style="italic">d</tspan></text>
+<text x="470" y="925.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal">′ &lt; </tspan><tspan font-style="italic">F</tspan></text>
+<polyline points="500,1080 499.89,1084.59 499.56,1089.02 499,1093.3 498.22,1097.42 497.22,1101.39 496,1105.2 494.56,1108.86 492.89,1112.36 491,1115.7 488.89,1118.89 486.56,1121.92 484,1124.8 481.22,1127.52 478.22,1130.09 475,1132.5 471.56,1134.76 467.89,1136.86 464,1138.8 459.89,1140.59 455.56,1142.22 451,1143.7 446.22,1145.02 441.22,1146.19 436,1147.2 430.56,1148.06 424.89,1148.76 419,1149.3 412.89,1149.69" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="412.89" y1="1149.69" x2="406.73" y2="1149.84" stroke="#222222" stroke-width="1.8"/>
+<polygon points="400,1150 407.66,1146.72 407.81,1152.91" fill="#222222"/>
+<defs><linearGradient id="g5" x1="160" y1="1030" x2="60" y2="1160" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fde6db"/><stop offset="1" stop-color="#ef8a68"/></linearGradient></defs>
+<polygon points="140.98,1015.37 139.24,1016.37 137.53,1017.39 135.88,1018.46 134.28,1019.57 132.76,1020.74 131.31,1021.96 129.95,1023.25 128.67,1024.61 127.48,1026.03 126.37,1027.52 125.35,1029.07 124.4,1030.68 123.52,1032.34 122.7,1034.04 121.92,1035.79 121.19,1037.56 120.48,1039.35 119.78,1041.15 119.08,1042.96 118.37,1044.75 117.65,1046.53 116.89,1048.29 116.09,1050.01 115.25,1051.7 114.36,1053.35 113.41,1054.96 112.41,1056.53 111.34,1058.05 110.23,1059.53 109.05,1060.97 107.84,1062.37 106.57,1063.73 105.27,1065.07 103.94,1066.39 102.59,1067.69 101.22,1068.97 99.85,1070.26 98.48,1071.54 97.12,1072.83 95.77,1074.13 94.45,1075.45 93.14,1076.79 91.87,1078.15 90.63,1079.53 89.42,1080.94 88.24,1082.37 87.1,1083.83 85.98,1085.31 84.88,1086.8 83.81,1088.32 82.75,1089.84 81.71,1091.38 80.67,1092.92 79.63,1094.45 78.59,1095.99 77.53,1097.52 76.47,1099.04 75.39,1100.55 74.29,1102.04 73.17,1103.52 57.95,1091.81 60,1160 126.43,1144.49 111.22,1132.78 112.34,1131.31 113.44,1129.81 114.52,1128.31 115.58,1126.79 116.63,1125.26 117.68,1123.72 118.71,1122.18 119.75,1120.64 120.8,1119.11 121.86,1117.58 122.93,1116.07 124.02,1114.57 125.14,1113.09 126.29,1111.64 127.47,1110.21 128.68,1108.8 129.92,1107.41 131.19,1106.06 132.49,1104.72 133.82,1103.4 135.17,1102.1 136.53,1100.81 137.9,1099.52 139.27,1098.24 140.64,1096.95 141.99,1095.65 143.32,1094.34 144.62,1093 145.88,1091.63 147.1,1090.23 148.27,1088.79 149.39,1087.32 150.45,1085.79 151.46,1084.23 152.4,1082.62 153.3,1080.97 154.14,1079.28 154.94,1077.55 155.69,1075.8 156.42,1074.02 157.13,1072.22 157.82,1070.42 158.52,1068.62 159.23,1066.83 159.97,1065.05 160.74,1063.31 161.57,1061.6 162.45,1059.94 163.39,1058.33 164.42,1056.78 165.52,1055.3 166.72,1053.87 167.99,1052.52 169.36,1051.23 170.8,1050 172.33,1048.84 173.92,1047.73 175.58,1046.66 177.28,1045.63 179.02,1044.63" fill="url(#g5)"/>
+<text x="130" y="1165.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">out</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<text x="280" y="1217" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

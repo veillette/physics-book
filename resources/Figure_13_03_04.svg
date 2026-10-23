@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="360" viewBox="0 0 790 360" role="img" aria-labelledby="title desc">
+<title id="title">A mole of table tennis balls</title>
+<desc id="desc">A cross-section of the ground with Mt. Everest drawn to scale. A layer of table tennis balls about 40 km deep, the depth one mole of them would cover the Earth to, rises far above the mountain, which is under 9 km tall.</desc>
+<rect width="790" height="360" fill="#ffffff"/>
+<defs><pattern id="balls" width="14" height="13" patternUnits="userSpaceOnUse"><rect width="14" height="13" fill="#fff6e8"/><circle cx="7" cy="6.5" r="5.2" fill="#fde3bf" stroke="#e9b778" stroke-width="0.9"/></pattern><linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ead2b0"/><stop offset="1" stop-color="#c49a6c"/></linearGradient></defs>
+<rect x="10" y="70" width="770" height="180" fill="url(#balls)"/>
+<line x1="10" y1="70" x2="780" y2="70" stroke="#e9b778" stroke-width="2"/>
+<polygon points="250,250 292,224.18 305,210.18 318,220.18 345,236.18 370,250" fill="#7f95a4" stroke="#4f6574" stroke-width="1.5"/>
+<polygon points="292,224.18 305,210.18 318,220.18 310,226.18 300,222.18" fill="#ffffff"/>
+<rect x="10" y="250" width="770" height="90" fill="url(#soil)"/>
+<line x1="10" y1="250" x2="780" y2="250" stroke="#9c7349" stroke-width="1.5"/>
+<line x1="460" y1="70" x2="480" y2="70" stroke="#222222" stroke-width="2"/>
+<line x1="460" y1="250" x2="480" y2="250" stroke="#222222" stroke-width="2"/>
+<line x1="470" y1="84" x2="470" y2="236" stroke="#222222" stroke-width="2"/>
+<polygon points="470,248 464.8,235 475.2,235" fill="#222222"/>
+<polygon points="470,72 475.2,85 464.8,85" fill="#222222"/>
+<rect x="484" y="136" width="210" height="52" fill="#fff6e8"/>
+<text x="490" y="157" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Table</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tennis</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">balls</tspan></text>
+<text x="490" y="181" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">about</tspan><tspan font-style="normal"> 40 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">deep</tspan></text>
+<line x1="305" y1="308" x2="305" y2="229.18" stroke="#222222" stroke-width="1.8"/>
+<polygon points="305,218.18 309.8,230.18 300.2,230.18" fill="#222222"/>
+<rect x="260" y="298" width="160" height="26" fill="none"/>
+<text x="305" y="327" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">Mt</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Everest</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">for</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">scale</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

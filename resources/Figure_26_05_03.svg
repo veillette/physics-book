@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="560" viewBox="0 0 680 560" role="img" aria-labelledby="title desc">
+<title id="title">A reflecting telescope</title>
+<desc id="desc">Parallel rays from a distant object strike a large concave mirror, the objective, which reflects them toward its focal point. A small flat mirror at 45° intercepts them and sends them down through an eyepiece lens, which makes them parallel again for the eye.</desc>
+<rect width="680" height="560" fill="#ffffff"/>
+<polygon points="617.11,50 619.37,59.5 621.51,69 623.53,78.5 625.43,88 627.21,97.5 628.87,107 630.41,116.5 631.84,126 633.15,135.5 634.34,145 635.42,154.5 636.38,164 637.23,173.5 637.97,183 638.59,192.5 639.1,202 639.49,211.5 639.77,221 639.94,230.5 640,240 639.94,249.5 639.77,259 639.49,268.5 639.1,278 638.59,287.5 637.97,297 637.23,306.5 636.38,316 635.42,325.5 634.34,335 633.15,344.5 631.84,354 630.41,363.5 628.87,373 627.21,382.5 625.43,392 623.53,401.5 621.51,411 619.37,420.5 617.11,430 639.11,430 641.37,420.5 643.51,411 645.53,401.5 647.43,392 649.21,382.5 650.87,373 652.41,363.5 653.84,354 655.15,344.5 656.34,335 657.42,325.5 658.38,316 659.23,306.5 659.97,297 660.59,287.5 661.1,278 661.49,268.5 661.77,259 661.94,249.5 662,240 661.94,230.5 661.77,221 661.49,211.5 661.1,202 660.59,192.5 659.97,183 659.23,173.5 658.38,164 657.42,154.5 656.34,145 655.15,135.5 653.84,126 652.41,116.5 650.87,107 649.21,97.5 647.43,88 645.53,78.5 643.51,69 641.37,59.5 639.11,50" fill="#c9cad2" stroke="#7d8090" stroke-width="1.2"/>
+<polyline points="617.11,50 619.37,59.5 621.51,69 623.53,78.5 625.43,88 627.21,97.5 628.87,107 630.41,116.5 631.84,126 633.15,135.5 634.34,145 635.42,154.5 636.38,164 637.23,173.5 637.97,183 638.59,192.5 639.1,202 639.49,211.5 639.77,221 639.94,230.5 640,240 639.94,249.5 639.77,259 639.49,268.5 639.1,278 638.59,287.5 637.97,297 637.23,306.5 636.38,316 635.42,325.5 634.34,335 633.15,344.5 631.84,354 630.41,363.5 628.87,373 627.21,382.5 625.43,392 623.53,401.5 621.51,411 619.37,420.5 617.11,430" fill="none" stroke="#1fa8d8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon points="312,288 412,188 402,178 302,278" fill="#c9cad2" stroke="#7d8090" stroke-width="1.2"/>
+<line x1="312" y1="288" x2="412" y2="188" stroke="#1fa8d8" stroke-width="2.4"/>
+<defs><linearGradient id="tlens_360_430" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9cfc3"/><stop offset="0.5" stop-color="#eef4f0"/><stop offset="1" stop-color="#b9cfc3"/></linearGradient></defs>
+<path d="M 270 430 Q 360 410 450 430 Q 360 450 270 430 Z" fill="url(#tlens_360_430)" stroke="#6f8f80" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="40" y1="110" x2="629.37" y2="110" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="354.15" y1="110" x2="361.55" y2="110" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="370.15,110 360.55,113.84 360.55,106.16" fill="#1fa8d8"/>
+<line x1="629.37" y1="110" x2="418.66" y2="181.34" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="533.49" y1="142.46" x2="526.48" y2="144.83" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="518.33,147.59 526.19,140.88 528.66,148.15" fill="#1fa8d8"/>
+<line x1="418.66" y1="181.34" x2="334.48" y2="430" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="392.41" y1="258.9" x2="390.03" y2="265.91" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="387.27,274.05 386.72,263.73 393.99,266.19" fill="#1fa8d8"/>
+<line x1="334.48" y1="430" x2="334.48" y2="540" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="334.48" y1="486" x2="334.48" y2="493.4" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="334.48,502 330.64,492.4 338.32,492.4" fill="#1fa8d8"/>
+<line x1="40" y1="370" x2="629.37" y2="370" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="354.15" y1="370" x2="361.55" y2="370" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="370.15,370 360.55,373.84 360.55,366.16" fill="#1fa8d8"/>
+<line x1="629.37" y1="370" x2="331.01" y2="268.99" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="489.66" y1="322.7" x2="482.65" y2="320.33" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="474.51,317.57 484.83,317.01 482.37,324.29" fill="#1fa8d8"/>
+<line x1="331.01" y1="268.99" x2="385.52" y2="430" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="346.88" y1="315.87" x2="349.26" y2="322.88" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="352.01,331.03 345.3,323.16 352.57,320.7" fill="#1fa8d8"/>
+<line x1="385.52" y1="430" x2="385.52" y2="540" stroke="#1fa8d8" stroke-width="2.2"/>
+<line x1="385.52" y1="486" x2="385.52" y2="493.4" stroke="#1fa8d8" stroke-width="2.2"/>
+<polygon points="385.52,502 381.68,492.4 389.36,492.4" fill="#1fa8d8"/>
+<text x="470" y="33.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Concave</tspan></text>
+<text x="470" y="59.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">mirror</tspan></text>
+<text x="470" y="85.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">objective</tspan><tspan font-style="normal">)</tspan></text>
+<text x="190" y="427.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Eyepiece</tspan></text>
+<text x="190" y="453.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">lens</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

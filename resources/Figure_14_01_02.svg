@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="760" viewBox="0 0 820 760" role="img" aria-labelledby="title desc">
+<title id="title">Joule’s experiment</title>
+<desc id="desc">Two masses m, each of weight w, hang from cords that pass over pulleys and wind around a roller. A crank on top winds them up; as they fall a measured height h, the roller turns paddles in an insulated container holding a known volume of water. A thermometer in the water measures the rise in temperature that the work produces.</desc>
+<rect width="820" height="760" fill="#ffffff"/>
+<polygon points="260,700 610,700 580,670 290,670" fill="#e7c48d" stroke="#b98f50" stroke-width="1.5"/>
+<rect x="260" y="700" width="350" height="30" fill="#d6ad6c" stroke="#b98f50" stroke-width="1.5"/>
+<rect x="305" y="488" width="230" height="202" fill="#bfe1f4"/>
+<ellipse cx="420" cy="690" rx="115" ry="16" fill="#bfe1f4" stroke="#7cc6ea" stroke-width="2"/>
+<rect x="306" y="488" width="228" height="202" fill="#bfe1f4"/>
+<ellipse cx="420" cy="488" rx="111" ry="14" fill="#d9eefa" stroke="#8cc9e8" stroke-width="1.5"/>
+<rect x="416" y="300" width="8" height="380" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1"/>
+<line x1="335" y1="508" x2="505" y2="532" stroke="#8a8c8f" stroke-width="3"/>
+<line x1="335" y1="532" x2="505" y2="508" stroke="#8a8c8f" stroke-width="3"/>
+<rect x="324" y="497" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="494" y="521" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="324" y="521" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="494" y="497" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<line x1="335" y1="587" x2="505" y2="563" stroke="#8a8c8f" stroke-width="3"/>
+<line x1="335" y1="563" x2="505" y2="587" stroke="#8a8c8f" stroke-width="3"/>
+<rect x="324" y="576" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="494" y="552" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="324" y="552" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="494" y="576" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<line x1="335" y1="618" x2="505" y2="642" stroke="#8a8c8f" stroke-width="3"/>
+<line x1="335" y1="642" x2="505" y2="618" stroke="#8a8c8f" stroke-width="3"/>
+<rect x="324" y="607" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="494" y="631" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="324" y="631" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<rect x="494" y="607" width="22" height="22" fill="#9a9c9f" stroke="#6d6e71" stroke-width="1"/>
+<polyline points="380,664 382.66,665.68 385.31,667.24 387.94,668.7 390.56,670.04 393.17,671.28 395.76,672.4 398.34,673.41 400.91,674.31 403.46,675.1 406,675.78 408.53,676.34 411.04,676.8 413.54,677.14 416.03,677.38 418.5,677.5 420.96,677.51 423.41,677.41 425.84,677.2 428.26,676.88 430.67,676.44 433.06,675.9 435.44,675.24 437.81,674.48 440.16,673.6 442.5,672.61 444.83,671.51 447.14,670.3 449.44,668.98" fill="none" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="449.44" y1="668.98" x2="452.1" y2="667.24" stroke="#222222" stroke-width="1.8"/>
+<polygon points="454,666 451.98,668.88 450.55,666.69" fill="#222222"/>
+<path d="M 305 488 L 305 690 M 535 488 L 535 690" fill="none" stroke="#7cc6ea" stroke-width="2" stroke-linejoin="round"/>
+<rect x="484" y="425" width="22" height="120" rx="11" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<circle cx="495" cy="545" r="17" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+<rect x="485.5" y="437" width="19" height="108" fill="#ffffff"/>
+<rect x="491" y="433" width="8" height="112" rx="4" fill="#9fd3f0"/>
+<rect x="491" y="501.5" width="8" height="43.5" fill="#f08a7a"/>
+<circle cx="495" cy="545" r="10" fill="#f08a7a" stroke="#9fd3f0" stroke-width="2"/>
+<line x1="506" y1="521" x2="514" y2="521" stroke="#222222" stroke-width="1.2"/>
+<line x1="506" y1="504.2" x2="514" y2="504.2" stroke="#222222" stroke-width="1.2"/>
+<line x1="506" y1="487.4" x2="514" y2="487.4" stroke="#222222" stroke-width="1.2"/>
+<line x1="506" y1="470.6" x2="514" y2="470.6" stroke="#222222" stroke-width="1.2"/>
+<line x1="506" y1="453.8" x2="514" y2="453.8" stroke="#222222" stroke-width="1.2"/>
+<line x1="506" y1="437" x2="514" y2="437" stroke="#222222" stroke-width="1.2"/>
+<rect x="404" y="385" width="32" height="70" rx="3" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.2"/>
+<rect x="390" y="110" width="60" height="175" rx="4" fill="#c7c8ca" stroke="#6d6e71" stroke-width="1.5"/>
+<rect x="387" y="130" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="143" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="156" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="169" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="182" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="195" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="208" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="221" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="234" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="247" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="387" y="260" width="66" height="6" rx="3" fill="#222222"/>
+<rect x="410" y="92" width="20" height="18" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1"/>
+<rect x="414" y="285" width="12" height="18" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1"/>
+<rect x="416" y="70" width="8" height="22" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1"/>
+<rect x="416" y="64" width="60" height="8" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1"/>
+<rect x="468" y="20" width="16" height="48" rx="8" fill="#c0873e" stroke="#8a5a20" stroke-width="1.2"/>
+<ellipse cx="420" cy="52" rx="110" ry="26" fill="none" stroke="#222222" stroke-width="1.8"/>
+<line x1="500" y1="30" x2="510.3" y2="32.57" stroke="#222222" stroke-width="1.8"/>
+<polygon points="520,35 508.26,36.6 510.4,28.06" fill="#222222"/>
+<circle cx="200" cy="270" r="34" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.5"/>
+<circle cx="200" cy="270" r="22" fill="#c7c8ca" stroke="#8a8c8f" stroke-width="1"/>
+<circle cx="200" cy="270" r="5" fill="#6d6e71"/>
+<circle cx="640" cy="150" r="34" fill="#a7a9ac" stroke="#6d6e71" stroke-width="1.5"/>
+<circle cx="640" cy="150" r="22" fill="#c7c8ca" stroke="#8a8c8f" stroke-width="1"/>
+<circle cx="640" cy="150" r="5" fill="#6d6e71"/>
+<line x1="200" y1="236" x2="390" y2="236" stroke="#222222" stroke-width="2.5"/>
+<line x1="640" y1="116" x2="450" y2="116" stroke="#222222" stroke-width="2.5"/>
+<line x1="166" y1="270" x2="166" y2="450" stroke="#222222" stroke-width="2.5"/>
+<line x1="674" y1="150" x2="674" y2="330" stroke="#222222" stroke-width="2.5"/>
+<path d="M 166 451 q 10 -4 6 -12" fill="none" stroke="#555555" stroke-width="2.5" stroke-linejoin="round"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a9c9f"/><stop offset="0.3333333333333333" stop-color="#e2e3e4"/><stop offset="0.6666666666666666" stop-color="#ffffff"/><stop offset="1" stop-color="#a7a9ac"/></linearGradient></defs>
+<path d="M 122 465 L 122 540 A 44 12.32 0 0 0 210 540 L 210 465 Z" fill="url(#g1)" stroke="#9a7322" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="166" cy="465" rx="44" ry="12.32" fill="#e2e3e4" stroke="#9a7322" stroke-width="1"/>
+<text x="166" y="516.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<line x1="166" y1="553" x2="166" y2="621" stroke="#d81b60" stroke-width="5"/>
+<polygon points="166,640 158,620 174,620" fill="#d81b60"/>
+<text x="196" y="603.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.88" font-weight="normal" dx="-16.1" dy="-12.48">→</tspan><tspan dx="1.22" dy="12.48">​</tspan></tspan></text>
+<path d="M 674 331 q 10 -4 6 -12" fill="none" stroke="#555555" stroke-width="2.5" stroke-linejoin="round"/>
+<defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a9c9f"/><stop offset="0.3333333333333333" stop-color="#e2e3e4"/><stop offset="0.6666666666666666" stop-color="#ffffff"/><stop offset="1" stop-color="#a7a9ac"/></linearGradient></defs>
+<path d="M 630 345 L 630 420 A 44 12.32 0 0 0 718 420 L 718 345 Z" fill="url(#g2)" stroke="#9a7322" stroke-width="1" stroke-linejoin="round"/>
+<ellipse cx="674" cy="345" rx="44" ry="12.32" fill="#e2e3e4" stroke="#9a7322" stroke-width="1"/>
+<text x="674" y="396.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
+<line x1="674" y1="433" x2="674" y2="501" stroke="#d81b60" stroke-width="5"/>
+<polygon points="674,520 666,500 682,500" fill="#d81b60"/>
+<text x="704" y="483.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="14.88" font-weight="normal" dx="-16.1" dy="-12.48">→</tspan><tspan dx="1.22" dy="12.48">​</tspan></tspan></text>
+<line x1="30" y1="400" x2="300" y2="400" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="30" y1="700" x2="300" y2="700" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="70" y1="415" x2="70" y2="685" stroke="#222222" stroke-width="2"/>
+<polygon points="70,698 64.4,684 75.6,684" fill="#222222"/>
+<polygon points="70,402 75.6,416 64.4,416" fill="#222222"/>
+<rect x="10" y="500" width="125" height="90" fill="#ffffff"/>
+<text x="72" y="522.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Measured</tspan></text>
+<text x="72" y="546.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">height</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan></text>
+<text x="72" y="570.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">descent</tspan></text>
+<line x1="580" y1="280" x2="800" y2="280" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="560" y1="580" x2="800" y2="580" stroke="#222222" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="770" y1="295" x2="770" y2="565" stroke="#222222" stroke-width="2"/>
+<polygon points="770,578 764.4,564 775.6,564" fill="#222222"/>
+<polygon points="770,282 775.6,296 764.4,296" fill="#222222"/>
+<rect x="758" y="415" width="26" height="30" fill="#ffffff"/>
+<text x="770" y="439.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan></text>
+<text x="580" y="347" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Thermometer</tspan></text>
+<polyline points="560,356 558.23,356.75 556.47,357.5 554.74,358.29 553.06,359.11 551.42,359.98 549.85,360.91 548.35,361.91 546.93,362.99 545.6,364.14 544.35,365.38 543.2,366.7 542.13,368.11 541.15,369.59 540.25,371.15 539.42,372.78 538.66,374.47 537.94,376.21 537.27,377.98 536.63,379.79 536,381.6 535.37,383.41 534.73,385.22 534.06,386.99 533.34,388.73 532.58,390.42 531.75,392.05 530.85,393.61 529.87,395.09 528.8,396.5 527.65,397.82 526.4,399.06 525.07,400.21 523.65,401.29 522.15,402.29 520.58,403.22 518.94,404.09 517.26,404.91 515.53,405.7 513.77,406.45 512,407.2" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="512" y1="407.2" x2="506.16" y2="413.43" stroke="#222222" stroke-width="1.4"/>
+<polygon points="500,420 503.92,409.97 509.76,415.44" fill="#222222"/>
+<text x="800" y="657" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Insulated</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">known</tspan></text>
+<text x="800" y="681" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">volume</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">water</tspan></text>
+<polyline points="650,660 647.92,658.83 645.83,657.68 643.74,656.57 641.64,655.51 639.53,654.52 637.4,653.62 635.25,652.82 633.08,652.12 630.9,651.54 628.69,651.08 626.46,650.74 624.2,650.52 621.93,650.42 619.64,650.42 617.33,650.52 615,650.71 612.66,650.97 610.31,651.28 607.96,651.63 605.6,652 603.24,652.37 600.89,652.72 598.54,653.03 596.2,653.29 593.87,653.48 591.56,653.58 589.27,653.58 587,653.48 584.74,653.26 582.51,652.92 580.3,652.46 578.12,651.88 575.95,651.18 573.8,650.38 571.67,649.48 569.56,648.49 567.46,647.43 565.37,646.32 563.28,645.17 561.2,644" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="561.2" y1="644" x2="547.86" y2="641.6" stroke="#222222" stroke-width="1.4"/>
+<polygon points="539,640 549.55,637.84 548.13,645.71" fill="#222222"/>
+</svg>

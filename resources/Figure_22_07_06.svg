@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+<title id="title">Magnetic forces on currents</title>
+<desc id="desc">(a) Field B out of the page and force F up. (b) Field B to the right and force F up. (c) Field B into the page and force F to the left.</desc>
+<rect width="900" height="420" fill="#ffffff"/>
+<circle cx="50" cy="90" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="90" r="14.52" fill="#fbd3ba"/>
+<circle cx="50" cy="90" r="4.4" fill="#222222"/>
+<circle cx="50" cy="194" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="194" r="14.52" fill="#fbd3ba"/>
+<circle cx="50" cy="194" r="4.4" fill="#222222"/>
+<circle cx="50" cy="298" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="50" cy="298" r="14.52" fill="#fbd3ba"/>
+<circle cx="50" cy="298" r="4.4" fill="#222222"/>
+<circle cx="122" cy="90" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="122" cy="90" r="14.52" fill="#fbd3ba"/>
+<circle cx="122" cy="90" r="4.4" fill="#222222"/>
+<circle cx="122" cy="194" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="122" cy="194" r="14.52" fill="#fbd3ba"/>
+<circle cx="122" cy="194" r="4.4" fill="#222222"/>
+<circle cx="122" cy="298" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="122" cy="298" r="14.52" fill="#fbd3ba"/>
+<circle cx="122" cy="298" r="4.4" fill="#222222"/>
+<circle cx="194" cy="90" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="194" cy="90" r="14.52" fill="#fbd3ba"/>
+<circle cx="194" cy="90" r="4.4" fill="#222222"/>
+<circle cx="194" cy="194" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="194" cy="194" r="14.52" fill="#fbd3ba"/>
+<circle cx="194" cy="194" r="4.4" fill="#222222"/>
+<circle cx="194" cy="298" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="194" cy="298" r="14.52" fill="#fbd3ba"/>
+<circle cx="194" cy="298" r="4.4" fill="#222222"/>
+<circle cx="266" cy="90" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="266" cy="90" r="14.52" fill="#fbd3ba"/>
+<circle cx="266" cy="90" r="4.4" fill="#222222"/>
+<circle cx="266" cy="194" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="266" cy="194" r="14.52" fill="#fbd3ba"/>
+<circle cx="266" cy="194" r="4.4" fill="#222222"/>
+<circle cx="266" cy="298" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="266" cy="298" r="14.52" fill="#fbd3ba"/>
+<circle cx="266" cy="298" r="4.4" fill="#222222"/>
+<line x1="158" y1="330" x2="158" y2="55" stroke="#e0245e" stroke-width="3.5"/>
+<polygon points="158,40 164.4,56 151.6,56" fill="#e0245e"/>
+<text x="158" y="35.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="298" y="332.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">out</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="160" y="407" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="340" y1="110" x2="465" y2="110" stroke="#d81b60" stroke-width="2"/>
+<polygon points="480,110 464,116.4 464,103.6" fill="#d81b60"/>
+<line x1="340" y1="206" x2="465" y2="206" stroke="#d81b60" stroke-width="2"/>
+<polygon points="480,206 464,212.4 464,199.6" fill="#d81b60"/>
+<line x1="340" y1="302" x2="465" y2="302" stroke="#d81b60" stroke-width="2"/>
+<polygon points="480,302 464,308.4 464,295.6" fill="#d81b60"/>
+<line x1="400" y1="340" x2="400" y2="61" stroke="#e0245e" stroke-width="3.5"/>
+<polygon points="400,46 406.4,62 393.6,62" fill="#e0245e"/>
+<text x="400" y="39.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="492" y="102.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan></text>
+<text x="410" y="407" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<circle cx="590" cy="80" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="590" cy="80" r="14.52" fill="#fbd3ba"/>
+<line x1="582.08" y1="72.08" x2="597.92" y2="87.92" stroke="#222222" stroke-width="2"/>
+<line x1="582.08" y1="87.92" x2="597.92" y2="72.08" stroke="#222222" stroke-width="2"/>
+<circle cx="590" cy="162" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="590" cy="162" r="14.52" fill="#fbd3ba"/>
+<line x1="582.08" y1="154.08" x2="597.92" y2="169.92" stroke="#222222" stroke-width="2"/>
+<line x1="582.08" y1="169.92" x2="597.92" y2="154.08" stroke="#222222" stroke-width="2"/>
+<circle cx="590" cy="244" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="590" cy="244" r="14.52" fill="#fbd3ba"/>
+<line x1="582.08" y1="236.08" x2="597.92" y2="251.92" stroke="#222222" stroke-width="2"/>
+<line x1="582.08" y1="251.92" x2="597.92" y2="236.08" stroke="#222222" stroke-width="2"/>
+<circle cx="590" cy="326" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="590" cy="326" r="14.52" fill="#fbd3ba"/>
+<line x1="582.08" y1="318.08" x2="597.92" y2="333.92" stroke="#222222" stroke-width="2"/>
+<line x1="582.08" y1="333.92" x2="597.92" y2="318.08" stroke="#222222" stroke-width="2"/>
+<circle cx="656" cy="80" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="656" cy="80" r="14.52" fill="#fbd3ba"/>
+<line x1="648.08" y1="72.08" x2="663.92" y2="87.92" stroke="#222222" stroke-width="2"/>
+<line x1="648.08" y1="87.92" x2="663.92" y2="72.08" stroke="#222222" stroke-width="2"/>
+<circle cx="656" cy="162" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="656" cy="162" r="14.52" fill="#fbd3ba"/>
+<line x1="648.08" y1="154.08" x2="663.92" y2="169.92" stroke="#222222" stroke-width="2"/>
+<line x1="648.08" y1="169.92" x2="663.92" y2="154.08" stroke="#222222" stroke-width="2"/>
+<circle cx="656" cy="244" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="656" cy="244" r="14.52" fill="#fbd3ba"/>
+<line x1="648.08" y1="236.08" x2="663.92" y2="251.92" stroke="#222222" stroke-width="2"/>
+<line x1="648.08" y1="251.92" x2="663.92" y2="236.08" stroke="#222222" stroke-width="2"/>
+<circle cx="656" cy="326" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="656" cy="326" r="14.52" fill="#fbd3ba"/>
+<line x1="648.08" y1="318.08" x2="663.92" y2="333.92" stroke="#222222" stroke-width="2"/>
+<line x1="648.08" y1="333.92" x2="663.92" y2="318.08" stroke="#222222" stroke-width="2"/>
+<circle cx="722" cy="80" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="722" cy="80" r="14.52" fill="#fbd3ba"/>
+<line x1="714.08" y1="72.08" x2="729.92" y2="87.92" stroke="#222222" stroke-width="2"/>
+<line x1="714.08" y1="87.92" x2="729.92" y2="72.08" stroke="#222222" stroke-width="2"/>
+<circle cx="722" cy="162" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="722" cy="162" r="14.52" fill="#fbd3ba"/>
+<line x1="714.08" y1="154.08" x2="729.92" y2="169.92" stroke="#222222" stroke-width="2"/>
+<line x1="714.08" y1="169.92" x2="729.92" y2="154.08" stroke="#222222" stroke-width="2"/>
+<circle cx="722" cy="244" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="722" cy="244" r="14.52" fill="#fbd3ba"/>
+<line x1="714.08" y1="236.08" x2="729.92" y2="251.92" stroke="#222222" stroke-width="2"/>
+<line x1="714.08" y1="251.92" x2="729.92" y2="236.08" stroke="#222222" stroke-width="2"/>
+<circle cx="722" cy="326" r="22" fill="#f2a07b" stroke="#d9733f" stroke-width="1.2"/>
+<circle cx="722" cy="326" r="14.52" fill="#fbd3ba"/>
+<line x1="714.08" y1="318.08" x2="729.92" y2="333.92" stroke="#222222" stroke-width="2"/>
+<line x1="714.08" y1="333.92" x2="729.92" y2="318.08" stroke="#222222" stroke-width="2"/>
+<text x="754" y="88.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="14.88" font-weight="normal" dx="-15.44" dy="-19.68">→</tspan><tspan dx="0.56" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">in</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="780" y1="203" x2="601" y2="203" stroke="#e0245e" stroke-width="3.5"/>
+<polygon points="586,203 602,196.6 602,209.4" fill="#e0245e"/>
+<text x="572" y="212.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan></text>
+<text x="656" y="407" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+</svg>
