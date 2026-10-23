@@ -49,6 +49,7 @@
     "update:figures": "node scripts/rename-figures.js",
     "generate:fbd": "node scripts/generate-fbd.js",
     "generate:figures": "node scripts/generate-figures.js",
+    "check:figures:generated": "node scripts/generate-figures.js --check",
     "generate:sketches": "node scripts/generate-sketches.js",
     "update:mathjax": "cp node_modules/mathjax/tex-chtml.js assets/js/mathjax/ && cp -r node_modules/mathjax/ui assets/js/mathjax/ && cp -r node_modules/mathjax/a11y assets/js/mathjax/ && cp -r node_modules/mathjax/sre assets/js/mathjax/ && mkdir -p assets/js/mathjax/input/tex/extensions && cp node_modules/mathjax/input/tex/extensions/boldsymbol.js assets/js/mathjax/input/tex/extensions/",
     "convert:webp": "node scripts/convert-webp.js",

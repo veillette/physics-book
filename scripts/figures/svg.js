@@ -556,7 +556,11 @@ export class Svg {
   /** Several lines of text, `gap` pixels apart, starting at y. */
   lines(x, y, list, opts = {}) {
     const gap = opts.gap || (opts.size || 16) * 1.3;
-    list.forEach((s, k) => this.text(x, y + k * gap, s, opts));
+    // Stack along the rotated "down" direction so rotated lines don't overlap.
+    const a = rad(opts.rotate || 0);
+    list.forEach((s, k) =>
+      this.text(x - k * gap * Math.sin(a), y + k * gap * Math.cos(a), s, opts)
+    );
     return this;
   }
 
@@ -705,11 +709,15 @@ export class Svg {
   }
 
   /** Small x–y axes indicator (an "L" of two arrows) with its corner at (x, y). */
-  xyIndicator(x, y, { len = 55, size = 17 } = {}) {
+  xyIndicator(x, y, { len = 55, size = 17, xLabel = 'x', yLabel = 'y' } = {}) {
     this.arrow(x, y, x + len, y, { color: COLORS.axis, width: 1.5, head: 9 });
     this.arrow(x, y, x, y - len, { color: COLORS.axis, width: 1.5, head: 9 });
-    this.text(x + len + 10, y, 'x', { size });
-    this.text(x, y - len - 12, 'y', { size });
+    // Longer labels such as "x (east)" start at the arrow tip instead of centering on it.
+    this.text(x + len + (xLabel.length > 1 ? 6 : 10), y, xLabel, {
+      size,
+      anchor: xLabel.length > 1 ? 'start' : 'middle',
+    });
+    this.text(x, y - len - 12, yLabel, { size });
     return this;
   }
 
@@ -769,8 +777,20 @@ export function splineSegments(points, tension = 0.5, { horizontalTangents = [] 
     const p3 = points[k + 2] || p2;
     const c1 = [p1[0] + (p2[0] - p0[0]) * t, p1[1] + (p2[1] - p0[1]) * t];
     const c2 = [p2[0] - (p3[0] - p1[0]) * t, p2[1] - (p3[1] - p1[1]) * t];
-    if (horizontalTangents.includes(k)) c1[1] = p1[1];
-    if (horizontalTangents.includes(k + 1)) c2[1] = p2[1];
+    // A horizontal tangent keeps the full handle length, not just its x part,
+    // so the extremum is rounded rather than pinched into a corner. Capping it
+    // at half the segment keeps the curve from doubling back in x.
+    const cap = Math.abs(p2[0] - p1[0]) / 2;
+    if (horizontalTangents.includes(k)) {
+      const len = Math.min(Math.hypot(p2[0] - p0[0], p2[1] - p0[1]) * t, cap);
+      c1[0] = p1[0] + Math.sign(p2[0] - p1[0]) * len;
+      c1[1] = p1[1];
+    }
+    if (horizontalTangents.includes(k + 1)) {
+      const len = Math.min(Math.hypot(p3[0] - p1[0], p3[1] - p1[1]) * t, cap);
+      c2[0] = p2[0] - Math.sign(p2[0] - p1[0]) * len;
+      c2[1] = p2[1];
+    }
     segments.push([p1, c1, c2, p2]);
   }
   return segments;

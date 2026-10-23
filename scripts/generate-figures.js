@@ -27,6 +27,7 @@
  * Usage:
  *   node scripts/generate-figures.js            # write every figure
  *   node scripts/generate-figures.js 02_08      # only names containing "02_08"
+ *   node scripts/generate-figures.js --check    # exit 1 if resources/ is out of date
  */
 
 import fs from 'fs';
@@ -70,49 +71,94 @@ import completion from './figures/solution-completion.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = path.join(root, 'resources');
-const filter = process.argv[2] || '';
+const args = process.argv.slice(2);
+const check = args.includes('--check');
+const filter = args.find(a => !a.startsWith('--')) || '';
 
-const figures = {
-  ...ch02,
-  ...ch03,
-  ...projectileToSatellite,
-  ...ch04to07,
-  ...worldEnergy,
-  ...ch08,
-  ...ch09,
-  ...ch10,
-  ...mechanicsLineArt,
-  ...mechanicsSketches,
-  ...ch11to12,
-  ...ch16,
-  ...ch17,
-  ...ch18,
-  ...ch19,
-  ...ch20,
-  ...ch21,
-  ...ch22,
-  ...ch23,
-  ...ch24,
-  ...ch25,
-  ...ch26,
-  ...ch27,
-  ...ch28,
-  ...ch29,
-  ...ch30,
-  ...ch31,
-  ...ch32,
-  ...ch33,
-  ...ch34,
-  ...concepts,
-  ...concepts21to25,
-  ...fields18to19,
-  ...answers11to20,
-  ...completion,
+const modules = {
+  ch02,
+  ch03,
+  projectileToSatellite,
+  ch04to07,
+  worldEnergy,
+  ch08,
+  ch09,
+  ch10,
+  mechanicsLineArt,
+  mechanicsSketches,
+  ch11to12,
+  ch16,
+  ch17,
+  ch18,
+  ch19,
+  ch20,
+  ch21,
+  ch22,
+  ch23,
+  ch24,
+  ch25,
+  ch26,
+  ch27,
+  ch28,
+  ch29,
+  ch30,
+  ch31,
+  ch32,
+  ch33,
+  ch34,
+  concepts,
+  concepts21to25,
+  fields18to19,
+  answers11to20,
+  completion,
 };
+
+// A plain object spread would let a later module silently replace a figure
+// with the same name, so merge by hand and refuse duplicates.
+const figures = {};
+const source = {};
+for (const [module, entries] of Object.entries(modules)) {
+  for (const [name, build] of Object.entries(entries)) {
+    if (source[name]) {
+      console.error(`Figure ${name} is defined in both ${source[name]} and ${module}.`);
+      process.exit(1);
+    }
+    figures[name] = build;
+    source[name] = module;
+  }
+}
+
 let count = 0;
+const stale = [];
+const leftovers = [];
 for (const [name, build] of Object.entries(figures)) {
   if (filter && !name.includes(filter)) continue;
-  fs.writeFileSync(path.join(outDir, `${name}.svg`), build());
+  const file = path.join(outDir, `${name}.svg`);
+  const svg = build();
+  if (check) {
+    if (!fs.existsSync(file) || fs.readFileSync(file, 'utf8') !== svg) stale.push(name);
+  } else {
+    fs.writeFileSync(file, svg);
+  }
+  // The raster a figure replaced should be deleted with the switch to SVG.
+  for (const ext of ['jpg', 'jpeg', 'png', 'webp', 'gif']) {
+    if (fs.existsSync(path.join(outDir, `${name}.${ext}`))) leftovers.push(`${name}.${ext}`);
+  }
   count += 1;
 }
-console.log(`Wrote ${count} figure(s) to resources/`);
+if (leftovers.length) {
+  console.warn(
+    `Rasters replaced by generated SVGs are still in resources/:\n  ${leftovers.join('\n  ')}`
+  );
+}
+if (check) {
+  if (stale.length) {
+    console.error(
+      `${stale.length} of ${count} figure(s) differ from the generator; run npm run generate:figures:\n  ${stale.join('\n  ')}`
+    );
+    process.exit(1);
+  }
+  console.log(`All ${count} figure(s) in resources/ match the generator.`);
+} else {
+  console.log(`Wrote ${count} figure(s) to resources/`);
+}

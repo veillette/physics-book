@@ -2,7 +2,7 @@
 <title id="title">Tangential acceleration changes the speed in circular motion</title>
 <desc id="desc">A radius r joins the center to a point on the circular path. Velocity v and tangential acceleration aₜ are parallel to the tangent, perpendicular to the radius. Here aₜ points along the velocity and the speed increases.</desc>
 <rect width="650" height="490" fill="#ffffff"/>
-<path d="M 336.67 411.67 A 165 165 0 1 0 70.46 225.27" fill="none" stroke="#87949d" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 365.69 372.46 A 165 165 0 1 0 70.46 225.27" fill="none" stroke="#87949d" stroke-width="2" stroke-linejoin="round"/>
 <line x1="220" y1="295" x2="362.89" y2="212.5" stroke="#333333" stroke-width="1.7"/>
 <circle cx="220" cy="295" r="4" fill="#222222"/>
 <circle cx="362.89" cy="212.5" r="4" fill="#222222"/>

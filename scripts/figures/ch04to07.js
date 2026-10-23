@@ -1031,8 +1031,9 @@ export default {
       desc: 'Top: a car on a curve of large radius r with velocity v tangent to the path; friction f points toward the center. Bottom: on a curve of smaller radius r′ at the same speed v, the centripetal force Fc must be larger. Since Fc = mac, f = Fc is parallel to ac.',
     });
     const turn = (cx, cy, r, fLen, labels) => {
-      // Path: an arc from about −50° to 135°, traveled counterclockwise.
-      svg.arc(cx, cy, r, -55, 140, { color: BLACK, width: 1.8 });
+      // Path: an arc from −40° to 140°, traveled counterclockwise; it stops
+      // short of the caption between the two turns.
+      svg.arc(cx, cy, r, -40, 140, { color: BLACK, width: 1.8 });
       const ap = 125;
       const ax = cx + r * Math.cos(rad(ap));
       const ay = cy - r * Math.sin(rad(ap));
@@ -1067,13 +1068,13 @@ export default {
         rotate: -50,
       });
     });
-    svg.text(280, 455, '**f** = **F**_c is parallel to **a**_c since **F**_c = \\it{m}**a**_c', {
+    svg.text(280, 480, '**f** = **F**_c is parallel to **a**_c since **F**_c = \\it{m}**a**_c', {
       size: 20,
       italic: false,
     });
-    turn(170, 690, 120, 150, (px, py, ux, uy) => {
+    turn(170, 720, 120, 150, (px, py, ux, uy) => {
       svg.text(px - 40, py - 85, '**v**', { size: 20 });
-      svg.text(170 + (px - 170) * 0.5 + 14, 690 + (py - 690) * 0.5 + 16, 'r′', { size: 21 });
+      svg.text(170 + (px - 170) * 0.5 + 14, 720 + (py - 720) * 0.5 + 16, 'r′', { size: 21 });
       svg.text(px + ux * 85 - 26, py + uy * 85 - 30, 'large **F**_\\rm{c}', {
         size: 20,
         math: false,

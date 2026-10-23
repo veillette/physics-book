@@ -74,7 +74,8 @@ function accelerations(centripetal) {
   const p = point(cx, cy, r, angle);
   const normal = [Math.cos(rad(angle)), -Math.sin(rad(angle))];
   const tangent = [-Math.sin(rad(angle)), -Math.cos(rad(angle))];
-  svg.arc(cx, cy, r, -45, 155, { color: '#87949d', width: 2 });
+  // The path stops short of the captions below it.
+  svg.arc(cx, cy, r, -28, 155, { color: '#87949d', width: 2 });
   svg.line(cx, cy, ...p, { width: 1.7 });
   svg.circle(cx, cy, 4, { fill: INK });
   svg.circle(...p, 4, { fill: INK });
@@ -107,10 +108,16 @@ function accelerations(centripetal) {
       width: 4,
     });
     svg.add('</g>');
-    svg.text(p[0] - 85 * normal[0], p[1] - 85 * normal[1] + 28, 'a_c', {
-      size: 26,
-      color: COLORS.accel,
-    });
+    // Above the a_c arrow, clear of the r label below the radius.
+    svg.text(
+      p[0] - 72 * normal[0] + 24 * tangent[0],
+      p[1] - 72 * normal[1] + 24 * tangent[1],
+      'a_c',
+      {
+        size: 26,
+        color: COLORS.accel,
+      }
+    );
     const a = 19;
     svg.polyline(
       [

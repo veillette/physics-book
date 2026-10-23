@@ -111,8 +111,17 @@ function windVelocity(numeric) {
   group(svg, 'total-velocity', () =>
     svg.arrow(...origin, ...end, { color: COLORS.green, width: 4 })
   );
-  svg.text(585, 290, numeric ? 'v_p = 45.0 \\rm{m/s}' : 'v_p', { size: 24 });
-  svg.text(265, 315, numeric ? 'v_{tot} = 38.0 \\rm{m/s}' : 'v_{tot}', { size: 24 });
+  // Labels sit just beside their arrows: v_p to the right of the north arrow,
+  // v_tot to the left of the ground-velocity arrow at 70% of its length.
+  svg.text(origin[0] + 14, 290, numeric ? 'v_p = 45.0 \\rm{m/s}' : 'v_p', {
+    size: 24,
+    anchor: 'start',
+  });
+  const totAt = [origin[0] + 0.7 * (end[0] - origin[0]), origin[1] + 0.7 * (end[1] - origin[1])];
+  svg.text(totAt[0] - 16, totAt[1], numeric ? 'v_{tot} = 38.0 \\rm{m/s}' : 'v_{tot}', {
+    size: 24,
+    anchor: 'end',
+  });
   svg.text(368, 153, 'v_w', { size: 24, color: COLORS.orange });
   svg.line(...north, north[0] - 150, north[1]);
   const windAngle = (Math.atan2(end[1] - north[1], north[0] - end[0]) * 180) / Math.PI;
@@ -127,9 +136,7 @@ function windVelocity(numeric) {
     svg.arc(...origin, 125, 110, 180);
     svg.text(350, 444, '70°', { size: 21 });
   }
-  svg.xyIndicator(95, 515, { len: 70 });
-  svg.text(170, 545, 'x (east)', { size: 18, math: false });
-  svg.text(95, 423, 'y (north)', { size: 18, math: false });
+  svg.xyIndicator(95, 515, { len: 70, size: 18, xLabel: 'x (east)', yLabel: 'y (north)' });
   return svg.render();
 }
 
