@@ -258,6 +258,11 @@ What Does the Bathroom Scale Read in an Elevator?
 (b) The free-body diagram shows only the external forces acting on the designated system of interest—the person.')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_04_07_elevator.svg" alt="A 75.0-kg person rides an elevator upward. The scale reads 825 N during upward acceleration, 735 N at constant speed, and 645 N while the elevator slows." class="figure-full-width">
+<figcaption>The animated companion isolates the person as the system. Weight remains 735 N while the scale reading changes with acceleration. The third phase, slowing while moving upward, extends the comparison beyond the two cases in the example.</figcaption>
+</figure>
+
 **Strategy**
 
 If the scale is accurate, its reading will equal $$ F_{\text{p}} $$, the

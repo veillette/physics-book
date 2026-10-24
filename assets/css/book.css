@@ -187,6 +187,12 @@ section.normal > .title {
   block-size: auto;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal img.figure-animated[src] {
+  inline-size: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 .book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
   font-weight: bold;
   font-size: small;
@@ -213,6 +219,39 @@ section.normal > .title {
 }
 
 /* ==================== Abstract / Learning Outcomes ==================== */
+
+.figure-animation-toggle {
+  display: block;
+  margin: 0.6rem auto;
+  padding: 0.5em 0.8em;
+  min-block-size: 44px;
+  font: inherit;
+  font-size: 0.85em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.figure-animation-open {
+  display: block;
+  margin-block-end: 0.6em;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+@media print {
+  .figure-animation-open {
+    display: none;
+  }
+}
+
+@media print, (prefers-reduced-motion: reduce) {
+  .figure-animation-toggle {
+    display: none;
+  }
+}
 
 .abstract {
   margin: var(--abstract-margin);

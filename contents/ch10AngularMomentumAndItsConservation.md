@@ -366,6 +366,11 @@ constant. The change can be dramatic, as the following example shows.
 ![The image a shows an ice skater spinning on the tip of her skate with both her arms and one leg extended. The image b shows the ice skater spinning on the tip of one skate, with her arms crossed and one leg supported on another.](../resources/Figure_10_05_03.jpg '(a) An ice skater is spinning on the tip of her skate with her arms extended. Her angular momentum is conserved because the net torque on her is negligibly small. In the next image, her rate of spin increases greatly when she pulls in her arms, decreasing her moment of inertia. The work she does to pull in her arms results in an increase in rotational kinetic energy.')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_10_05_skater.svg" alt="A top-view skater model consists of two rotating masses pulled inward symmetrically; angular speed increases as rotational inertia decreases." class="figure-full-width">
+<figcaption>The companion models the skater with two equal point masses and negligible central inertia. With negligible external torque, angular momentum remains constant. Internal work increases rotational kinetic energy as the masses move inward.</figcaption>
+</figure>
+
 ::: example
 
 <div class="title">

@@ -62,6 +62,11 @@ desired direction.
 ![A swimmer is exerting a force with her feet on a wall inside a swimming pool represented by an arrow labeled as vector F sub Feet on wall, pointing toward the right, and the wall is also exerting an equal force on her feet, represented by an arrow labeled as vector F sub Wall on feet, having the same length but pointing toward the left. The direction of acceleration of the swimmer is toward the left, shown by an arrow toward the left.](../resources/Figure_04_04_01.jpg 'When the swimmer exerts a force \( \vb{F}_\text{feet on wall} \) on the wall, she accelerates in the direction opposite to that of her push. This means the net external force on her is in the direction opposite to \( \vb{F}_\text{feet on wall} \) . This opposition occurs because, in accordance with Newton’s third law of motion, the wall exerts a force \( \vb{F}_\text{wall on feet} \) on her, equal in magnitude but in the direction opposite to the one she exerts on it. The line around the swimmer indicates the system of interest. Note that \( \vb{F}_\text{feet on wall} \) does not act on this system (the swimmer) and, thus, does not cancel \( \vb{F}_\text{wall on feet} \). Thus the free-body diagram shows only \( \vb{F}_\text{wall on feet} \), \( \vb{w} \), the gravitational force, and \( \vb{BF} \), the buoyant force of the water supporting the swimmer’s weight. The vertical forces \( \vb{w} \) and \( \vb{BF} \) cancel since there is no vertical motion.')
 {: #Figure1}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_04_04_swimmer.svg" alt="A schematic swimmer pushes against a wall with equal and opposite forces acting on the two bodies, then coasts after contact ends." class="figure-full-width">
+<figcaption>During contact, the force on the swimmer and the force on the wall form a third-law pair. On separation, both contact forces vanish. The coasting phase neglects water drag; vertical weight and buoyancy balance.</figcaption>
+</figure>
+
 Other examples of Newton’s third law are easy to find. As a professor paces in
 front of a whiteboard, she exerts a force backward on the floor. The floor
 exerts a reaction force forward on the professor that causes her to accelerate

@@ -349,6 +349,11 @@ is known to be 650 N.
 ![A sled is shown with four rockets, each producing the same thrust, represented by equal length arrows labeled as vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. A free-body diagram is also shown for the situation. Four arrows of equal length representing vector T point toward the right, a vector f represented by a smaller arrow points left, vector N is an arrow pointing upward, and the weight W is an arrow of equal length pointing downward.](../resources/Figure_04_03_04.jpg "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust \( \vb{T} \) . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force \( \vb{N} \) on the system that is equal in magnitude and opposite in direction to its weight, \( \vb{w} \) . The system here is the sled, its rockets, and rider, so none of the forces between these objects are considered. The arrow representing friction \( \vb{f} \) is drawn larger than scale.")
 {: #Figure4}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_04_03_sled.svg" alt="A schematic rocket sled accelerates to the right under four thrust forces opposed by friction; normal force and weight balance vertically." class="figure-full-width">
+<figcaption>The animated companion connects the force diagram with increasing speed. Over a short interval with approximately constant mass and net thrust, displacement grows with time squared. Vertical forces cancel.</figcaption>
+</figure>
+
 **Strategy**
 
 Although there are forces acting vertically and horizontally, we assume the

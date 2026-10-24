@@ -2,6 +2,7 @@ import { BookConfig } from '../js/book-config.js';
 import { removeTrailingSlash, addTrailingSlash, mdToHtmlFix } from '../js/util.js';
 import { getIcon } from '../js/icons.js';
 import { normalizeCaptionMath } from '../js/caption-math.js';
+import { addFigureAnimationControls } from '../js/figure-animations.js';
 
 const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
         <a href="#" class="btn toggle-summary" aria-label="Toggle navigation">
@@ -319,6 +320,8 @@ function parser() {
       }
       figure.setAttribute('id', id);
     });
+
+    addFigureAnimationControls(els);
 
     els.querySelectorAll('.example, .exercise, .note').forEach(el => {
       const contents = Array.from(el.childNodes).filter(node => {
