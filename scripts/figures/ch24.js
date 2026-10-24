@@ -9,8 +9,13 @@
  * along directions with d sin θ = mλ. The AM wave is the carrier times the
  * audio envelope; the FM wave's phase is the integral of a frequency that
  * follows the audio. Spectrum colors come from wavelength.
+ *
+ * For readers who allow motion, the plane waves travel along c, the fronts
+ * from the two antennas spread outward with their points of constructive
+ * interference, the ELF signal runs down to the submarine, a cursor reads
+ * across the AM and FM graphs, and the slowed electron sends out its X ray.
  */
-import { COLORS, Svg } from './svg.js';
+import { COLORS, Svg, fmt, marching, morph, smilAnimate, smilList } from './svg.js';
 
 const EFIELD = '#1f78c8';
 const BFIELD = '#e0246e';
@@ -34,8 +39,10 @@ function caption(svg, x, y, s) {
  * A stretch of plane wave in oblique view, starting at (ox, oy): x along the
  * direction of travel, y up (E), z toward the viewer (B), so E × B points
  * along +x. `len` is the length drawn and A the field amplitude, in pixels.
+ * With `animate`, readers who allow motion see the fields travel along +x,
+ * one wavelength every 2.4 s, the arrows at each x growing and shrinking.
  */
-function planeWave(svg, ox, oy, { len, lambda, A, halfPlane = 1.35 }) {
+function planeWave(svg, ox, oy, { len, lambda, A, halfPlane = 1.35, animate = false }) {
   const ex = [0.96, 0.27];
   const ez = [-0.5, 0.42];
   const P = (x, y, z) => [ox + x * ex[0] + z * ez[0], oy + x * ex[1] - y + z * ez[1]];
@@ -47,24 +54,69 @@ function planeWave(svg, ox, oy, { len, lambda, A, halfPlane = 1.35 }) {
     );
   plane([P(x0, 0, -h), P(x1, 0, -h), P(x1, 0, h), P(x0, 0, h)]);
   plane([P(x0, -h, 0), P(x1, -h, 0), P(x1, h, 0), P(x0, h, 0)]);
-  const f = x => A * Math.sin((2 * Math.PI * x) / lambda);
-  const curve = which =>
+  const f = (x, phase = 0) => A * Math.sin((2 * Math.PI * x) / lambda - phase);
+  const field = (which, x, v) => (which === 'E' ? P(x, v, 0) : P(x, 0, v));
+  const curve = (which, from = 0) =>
     Array.from({ length: 121 }, (_, i) => {
-      const x = (len * i) / 120;
-      return which === 'E' ? P(x, f(x), 0) : P(x, 0, f(x));
+      const x = from + ((len - from) * i) / 120;
+      return field(which, x, f(x));
     });
-  for (let i = 1; i < 18; i += 1) {
-    const x = (len * i) / 18;
-    if (Math.abs(f(x)) < A * 0.18) continue;
-    svg.arrow(...P(x, 0, 0), ...P(x, 0, f(x)), { color: BFIELD, width: 2.4, head: 12 });
+  // The moving frames draw every arrow, however short, so that each frame has
+  // the same elements.
+  const arrows = (which, phase, moving) => {
+    for (let i = 1; i < 18; i += 1) {
+      const x = (len * i) / 18;
+      let v = f(x, phase);
+      if (!moving && Math.abs(v) < A * 0.18) continue;
+      if (Math.abs(v) < 0.5) v = v < 0 ? -0.5 : 0.5;
+      svg.arrow(...P(x, 0, 0), ...field(which, x, v), {
+        color: which === 'E' ? EFIELD : BFIELD,
+        width: 2.4,
+        head: 12,
+      });
+    }
+  };
+  const still = () => {
+    arrows('B', 0, false);
+    svg.polyline(curve('B'), { color: BFIELD, width: 2.6 });
+    arrows('E', 0, false);
+    svg.polyline(curve('E'), { color: EFIELD, width: 2.6 });
+  };
+  if (!animate) {
+    still();
+    return { P, x0, x1, h };
   }
-  svg.polyline(curve('B'), { color: BFIELD, width: 2.6 });
-  for (let i = 1; i < 18; i += 1) {
-    const x = (len * i) / 18;
-    if (Math.abs(f(x)) < A * 0.18) continue;
-    svg.arrow(...P(x, 0, 0), ...P(x, f(x), 0), { color: EFIELD, width: 2.4, head: 12 });
-  }
-  svg.polyline(curve('E'), { color: EFIELD, width: 2.6 });
+  svg.still(still);
+  // A wavelength more of each curve slides along +x through a window over
+  // the drawn stretch: in the oblique view a shift along x is a translation.
+  svg.waves = (svg.waves || 0) + 1;
+  const id = `wave${svg.waves}`;
+  const window = which =>
+    [
+      field(which, 0, -2 * A),
+      field(which, len, -2 * A),
+      field(which, len, 2 * A),
+      field(which, 0, 2 * A),
+    ]
+      .map(p => p.map(fmt).join(','))
+      .join(' ');
+  svg.add(
+    `<defs><clipPath id="${id}E"><polygon points="${window('E')}"/></clipPath><clipPath id="${id}B"><polygon points="${window('B')}"/></clipPath></defs>`
+  );
+  const dur = '2.4s';
+  const [dx, dy] = [P(lambda, 0, 0)[0] - P(0, 0, 0)[0], P(lambda, 0, 0)[1] - P(0, 0, 0)[1]];
+  const slide = which =>
+    `<g clip-path="url(#${id}${which})"><g><animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" values="0 0;${fmt(dx)} ${fmt(dy)}"/>${svg.capture(
+      () =>
+        svg.polyline(curve(which, -lambda), { color: which === 'E' ? EFIELD : BFIELD, width: 2.6 })
+    )}</g></g>`;
+  const phases = Array.from({ length: 17 }, (_, k) => (2 * Math.PI * k) / 16);
+  const turning = which =>
+    morph(
+      phases.map(ph => svg.capture(() => arrows(which, ph, true))),
+      { dur }
+    );
+  svg.motionGroup(turning('B') + slide('B') + turning('E') + slide('E'));
   return { P, x0, x1, h };
 }
 
@@ -144,7 +196,7 @@ export default {
     svg.rect(92, 30, 14, 290, { fill: '#c9d3e6', stroke: '#7d8aa6', width: 1, rx: 6 });
     svg.circle(99, 150, 22, { fill: '#ffffff', stroke: COLORS.black, width: 2 });
     svg.path('M 87 150 Q 93 140 99 150 Q 105 160 111 150', { color: COLORS.black, width: 2 });
-    const { P } = planeWave(svg, 180, 200, { len: 430, lambda: 286, A: 92 });
+    const { P } = planeWave(svg, 180, 200, { len: 430, lambda: 286, A: 92, animate: true });
     svg.line(...P(0, 0, 0), ...P(430, 0, 0), { color: COLORS.black, width: 2 });
     svg.arrow(...P(430, 0, 0), ...P(520, 0, 0), { color: '#4caf2a', width: 3, head: 16 });
     lab(svg, ...P(546, 0, 0), 'c');
@@ -175,23 +227,61 @@ export default {
     svg.add(
       `<circle cx="${B[0]}" cy="${B[1]}" r="${Rmax}" fill="url(#ant1)" fill-opacity="0.75" stroke="#9fb0d4" stroke-width="1"/>`
     );
-    for (const S of [A, B])
-      for (const r of radii) {
-        svg.circle(...S, r, { fill: 'none', stroke: '#7d8fc6', width: 1.6 });
-        if (r + lam / 2 < Rmax)
-          svg.add(
-            `<circle cx="${S[0]}" cy="${S[1]}" r="${r + lam / 2}" fill="none" stroke="#6a3d9a" stroke-width="1.4" stroke-dasharray="6 5"/>`
-          );
-      }
-    // Crest meets crest: intersections of the two families of solid circles.
-    for (const ra of radii)
-      for (const rb of radii) {
-        const u = (ra * ra - rb * rb + d * d) / (2 * d);
-        const h2 = ra * ra - u * u;
-        if (h2 <= 0) continue;
-        for (const s of [1, -1])
-          svg.circle(A[0] + u, cy + s * Math.sqrt(h2), 6, { fill: '#a01c38' });
-      }
+    svg.still(() => {
+      for (const S of [A, B])
+        for (const r of radii) {
+          svg.circle(...S, r, { fill: 'none', stroke: '#7d8fc6', width: 1.6 });
+          if (r + lam / 2 < Rmax)
+            svg.add(
+              `<circle cx="${S[0]}" cy="${S[1]}" r="${r + lam / 2}" fill="none" stroke="#6a3d9a" stroke-width="1.4" stroke-dasharray="6 5"/>`
+            );
+        }
+      // Crest meets crest: intersections of the two families of solid circles.
+      for (const ra of radii)
+        for (const rb of radii) {
+          const u = (ra * ra - rb * rb + d * d) / (2 * d);
+          const h2 = ra * ra - u * u;
+          if (h2 <= 0) continue;
+          for (const s of [1, -1])
+            svg.circle(A[0] + u, cy + s * Math.sqrt(h2), 6, { fill: '#a01c38' });
+        }
+    });
+    // For readers who allow motion, every front grows by a wavelength each
+    // 3 s, fading in at the antenna and out at the edge, and the points where
+    // crest meets crest ride outward along the arrows. Crest k has radius
+    // 30 + 60k + s as s runs from 0 to λ; at s = λ crest k stands where crest
+    // k + 1 began, so the loop is seamless.
+    const ks = [-1, 0, 1, 2, 3, 4];
+    const seen = r => Math.max(0, Math.min(1, r / 20, (Rmax + 10 - r) / 30));
+    const ring = (S, r, dashed) =>
+      svg.add(
+        `<circle cx="${S[0]}" cy="${S[1]}" r="${fmt(Math.max(r, 0.5))}" fill="none" stroke="${dashed ? '#6a3d9a' : '#7d8fc6'}" stroke-width="${dashed ? 1.4 : 1.6}"${dashed ? ' stroke-dasharray="6 5"' : ''} opacity="${fmt(seen(r))}"/>`
+      );
+    const fronts = s => {
+      for (const S of [A, B])
+        for (const k of ks) {
+          ring(S, 30 + 60 * k + s, false);
+          ring(S, 60 + 60 * k + s, true);
+        }
+      for (const ka of ks)
+        for (const kb of ks) {
+          if (Math.abs(ka - kb) > 1) continue;
+          const [ra, rb] = [30 + 60 * ka + s, 30 + 60 * kb + s];
+          const u = (ra * ra - rb * rb + d * d) / (2 * d);
+          const h2 = ra * ra - u * u;
+          const there = ra > 0 && rb > 0 && h2 > 0;
+          for (const sg of [1, -1])
+            svg.add(
+              `<circle cx="${fmt(A[0] + u)}" cy="${fmt(cy + sg * Math.sqrt(Math.max(h2, 0)))}" r="6" fill="#a01c38" opacity="${fmt(there ? Math.min(seen(ra), seen(rb)) : 0)}"/>`
+            );
+        }
+    };
+    svg.motionGroup(
+      morph(
+        Array.from({ length: 31 }, (_, k) => svg.capture(() => fronts((lam * k) / 30))),
+        { dur: '3s' }
+      )
+    );
     for (const S of [A, B])
       svg.rect(S[0] - 9, S[1] - 9, 18, 18, { fill: '#a9a9a9', stroke: '#555555', width: 1 });
     // Directions of constructive interference: d sin θ = 0 and ±λ, measured from the bisector.
@@ -316,6 +406,19 @@ export default {
     svg.line(222, 420, 222, 404, { color: '#3f5080', width: 3 });
     for (let x = 110; x < 300; x += 14)
       svg.line(x, 466, x + 7, 466, { color: '#3f5080', width: 1.5 });
+    // For readers who allow motion, pulses run down the wave's path to the submarine.
+    svg.motionGroup(
+      marching(
+        svg.capture(() =>
+          svg.path('M 490 0 C 470 40 430 60 330 92 C 230 130 180 200 172 300 L 170 440', {
+            color: '#bdf0f5',
+            width: 3,
+            dash: '14 40',
+          })
+        ),
+        { dur: '0.9s' }
+      )
+    );
     note(svg, 410, 246, 'ELF radio wave', { size: 26 });
     svg.squiggle(400, 222, 334, 98, { waves: 1.5, amp: 9 });
     return svg.render();
@@ -372,6 +475,38 @@ export default {
       panel(680, 280, t => -env(t), { mid: 140, amp: 110, axis: false }),
       { color: COLORS.black, width: 2 }
     );
+    // For readers who allow motion, cursors run across the three graphs
+    // together, so the modulated amplitude can be seen following the audio.
+    const DOT = COLORS.blue;
+    svg.animatedOnce(
+      (t, moving, shown) => {
+        svg.add(`<g opacity="${shown}">`);
+        for (const [x0, w, y1, y2] of [
+          [40, 240, 74, 206],
+          [350, 240, 80, 202],
+          [680, 280, 24, 256],
+        ])
+          svg.line(x0 + t * w, y1, x0 + t * w, y2, {
+            color: COLORS.black,
+            width: 1.5,
+            dash: '5 4',
+          });
+        svg.circle(350 + 240 * t, 200 - 120 * audio(t), 7, {
+          fill: DOT,
+          stroke: '#ffffff',
+          width: 1.5,
+        });
+        for (const sg of [1, -1])
+          svg.circle(680 + 280 * t, 140 - sg * 110 * env(t), 7, {
+            fill: DOT,
+            stroke: '#ffffff',
+            width: 1.5,
+          });
+        svg.add('</g>');
+      },
+      Array.from({ length: 121 }, (_, k) => k / 120),
+      { run: 6, still: null }
+    );
     caption(svg, 820, 270, 'Amplitude modulated');
     caption(svg, 820, 296, '(c)');
     svg.path('M 500 70 Q 560 0 680 30', { color: '#666666', width: 4 });
@@ -409,6 +544,26 @@ export default {
     graph(90, t => Math.sin(2 * Math.PI * fc * t), 55, 'Carrier wave', '(a)');
     graph(340, audio, 55, 'Audio signal', '(b)');
     graph(600, fm, 55, 'Frequency modulated', '(c)');
+    // For readers who allow motion, a cursor runs down through all three
+    // graphs: where the audio signal is high, the FM wave's crests crowd.
+    svg.animatedOnce(
+      (t, moving, shown) => {
+        svg.add(`<g opacity="${shown}">`);
+        svg.line(40 + 570 * t, 20, 40 + 570 * t, 670, {
+          color: COLORS.black,
+          width: 1.5,
+          dash: '5 4',
+        });
+        svg.circle(40 + 570 * t, 340 - 55 * audio(t), 7, {
+          fill: COLORS.blue,
+          stroke: '#ffffff',
+          width: 1.5,
+        });
+        svg.add('</g>');
+      },
+      Array.from({ length: 101 }, (_, k) => k / 100),
+      { run: 8, still: null }
+    );
     svg.path('M 560 380 Q 590 430 562 520', { color: '#555555', width: 2.5 });
     svg.arrow(568, 500, 560, 528, { color: '#555555', width: 2.5, head: 14 });
     return svg.render();
@@ -456,7 +611,7 @@ export default {
         stroke: g ? '#3c8f3a' : '#6f4c9a',
         width: 1.5,
       });
-    svg.circle(20, 255, 9, { fill: '#a01c38' });
+    svg.still(() => svg.circle(20, 255, 9, { fill: '#a01c38' }));
     lab(svg, 20, 226, 'e^−');
     svg.arrow(30, 257, 268, 310, { color: COLORS.black, width: 1.6, head: 14 });
     const wig = [];
@@ -465,8 +620,33 @@ export default {
       const [x, y] = [225 + s * 110, 330 + s * 90];
       wig.push([x + 9 * Math.sin(s * 14) * 0.6, y - 9 * Math.sin(s * 14) * 0.8]);
     }
-    svg.polyline(wig.slice(0, -4), { color: '#e0245e', width: 4 });
-    svg.arrow(...wig.at(-8), 345, 432, { color: '#e0245e', width: 4, head: 20 });
+    const ray = wig.slice(0, -4);
+    const head = () => svg.arrow(...wig.at(-8), 345, 432, { color: '#e0245e', width: 4, head: 20 });
+    svg.still(() => {
+      svg.polyline(ray, { color: '#e0245e', width: 4 });
+      head();
+    });
+    // For readers who allow motion, the electron flies in, is slowed sharply
+    // near an atom and drifts off, and at that moment the X ray leaves.
+    const T = 5.2;
+    const dur = `${T}s`;
+    const k = t => t / T;
+    const hit = [262, 309];
+    let rayLen = 0;
+    for (let i = 1; i < ray.length; i += 1)
+      rayLen += Math.hypot(ray[i][0] - ray[i - 1][0], ray[i][1] - ray[i - 1][1]);
+    const electron = `<g><animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" calcMode="spline" keyTimes="${smilList([0, k(0.5), k(1.9), k(3.6), 1])}" keySplines="0 0 1 1;0 0 1 1;0 0.6 0.4 1;0 0 1 1" values="20 255;20 255;${hit.join(' ')};248 262;248 262"/>${smilAnimate(
+      'opacity',
+      [1, 1, 1, 0, 0, 1],
+      { dur, keyTimes: [0, k(1.9), k(3), k(3.6), k(4.8), 1] }
+    )}<circle r="9" fill="#a01c38"/></g>`;
+    const fadeOut = [0, k(1.9), k(4.4), k(4.8), 1];
+    const xray = `<g>${smilAnimate('opacity', [1, 1, 1, 0, 0], { dur, keyTimes: fadeOut })}<polyline points="${ray.map(p => p.map(fmt).join(',')).join(' ')}" fill="none" stroke="#e0245e" stroke-width="4" stroke-linejoin="round" stroke-dasharray="${fmt(rayLen)} ${fmt(rayLen)}">${smilAnimate(
+      'stroke-dashoffset',
+      [rayLen, rayLen, 0, 0],
+      { dur, keyTimes: [0, k(1.9), k(2.9), 1] }
+    )}</polyline><g>${smilAnimate('opacity', [0, 0, 1, 1], { dur, keyTimes: [0, k(2.8), k(2.9), 1] })}${svg.capture(head)}</g></g>`;
+    svg.motionGroup(electron + xray);
     note(svg, 372, 448, 'x ray', { size: 24, anchor: 'start' });
     return svg.render();
   },
@@ -479,9 +659,21 @@ export default {
       title: 'Energy of an electromagnetic wave grows as the square of its amplitude',
       desc: 'Two stretches of an electromagnetic wave traveling in the direction c. The first has fields E and B and carries energy Eu. The second has fields 2E and 2B, twice as strong, and carries four times the energy, 4Eu.',
     });
-    const a = planeWave(svg, 90, 150, { len: 300, lambda: 300, A: 52, halfPlane: 1.6 });
+    const a = planeWave(svg, 90, 150, {
+      len: 300,
+      lambda: 300,
+      A: 52,
+      halfPlane: 1.6,
+      animate: true,
+    });
     // The second stretch lies farther along the same line of travel.
-    const b = planeWave(svg, ...a.P(490, 0, 0), { len: 300, lambda: 300, A: 104, halfPlane: 1.25 });
+    const b = planeWave(svg, ...a.P(490, 0, 0), {
+      len: 300,
+      lambda: 300,
+      A: 104,
+      halfPlane: 1.25,
+      animate: true,
+    });
     svg.line(...a.P(0, 0, 0), ...b.P(300, 0, 0), { color: COLORS.black, width: 2 });
     svg.arrow(...b.P(300, 0, 0), ...b.P(380, 0, 0), { color: '#4caf2a', width: 3, head: 16 });
     lab(svg, ...b.P(410, 0, 0), 'c');

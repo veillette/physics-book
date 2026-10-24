@@ -8,8 +8,14 @@
  * currents blue, forces red and field lines magenta, as in the text. Curved
  * paths in a uniform field are circular arcs, turning clockwise or
  * counterclockwise as the original shows.
+ *
+ * 22.5 Fig. 2 is redrawn from the raster: a negative charge circles
+ * clockwise in a field into the page, its velocity tangent to the circle and
+ * the magnetic force toward the center. For readers who allow motion the
+ * charge goes round carrying its v and F, and in the 22.5 questions each
+ * particle travels along its path.
  */
-import { COLORS, Svg, rad } from './svg.js';
+import { COLORS, Svg, morph, rad } from './svg.js';
 
 const FIELD = '#d81b60';
 const FORCE = '#e0245e';
@@ -179,7 +185,10 @@ function threeFields(kind) {
   return svg.render();
 }
 
-/** Circular arc from angle a1 to a2 (degrees, y down, so increasing is clockwise) with an arrowhead. */
+/**
+ * Circular arc from angle a1 to a2 (degrees, y down, so increasing is
+ * clockwise) with an arrowhead. Returns the points along it.
+ */
 function pathArc(svg, cx, cy, r, a1, a2, { color = COLORS.black, width = 1.8 } = {}) {
   const pts = [];
   for (let k = 0; k <= 60; k += 1) {
@@ -188,6 +197,46 @@ function pathArc(svg, cx, cy, r, a1, a2, { color = COLORS.black, width = 1.8 } =
   }
   svg.polyline(pts.slice(0, -2), { color, width });
   svg.arrow(...pts.at(-4), ...pts.at(-1), { color, width, head: 12 });
+  return pts;
+}
+
+/**
+ * For readers who allow motion: a gray particle (its charge is what the
+ * question asks) travels along each path at the same steady speed, stopping
+ * at the end of its arrow, then all fade and start again.
+ */
+function travel(svg, paths) {
+  const sums = paths.map(pts => {
+    const d = [0];
+    for (let i = 1; i < pts.length; i += 1)
+      d.push(d[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+    return d;
+  });
+  const longest = Math.max(...sums.map(d => d.at(-1)));
+  const at = (pts, d, s) => {
+    const k = Math.max(
+      1,
+      d.findIndex(x => x >= s)
+    );
+    if (s >= d.at(-1)) return pts.at(-1);
+    const f = (s - d[k - 1]) / (d[k] - d[k - 1]);
+    return [0, 1].map(i => pts[k - 1][i] + f * (pts[k][i] - pts[k - 1][i]));
+  };
+  svg.animatedOnce(
+    (s, moving, shown) => {
+      svg.add(`<g opacity="${shown}">`);
+      paths.forEach((pts, i) =>
+        svg.circle(...at(pts, sums[i], s * longest), 9, {
+          fill: '#666666',
+          stroke: '#ffffff',
+          width: 2,
+        })
+      );
+      svg.add('</g>');
+    },
+    Array.from({ length: 41 }, (_, k) => k / 40),
+    { run: 3.2, still: null }
+  );
 }
 
 export default {
@@ -199,6 +248,48 @@ export default {
 
   // 22.4 problem — the field that produces each force
   Figure_22_04_05: () => threeFields('v'),
+
+  // 22.5 Fig. 2 — a negative charge circling in a field into the page
+  Figure_22_05_02: () => {
+    const svg = new Svg({
+      width: 1000,
+      height: 740,
+      title: 'A negative charge moving in a circle in a magnetic field',
+      desc: 'A magnetic field B points into the page, shown by a grid of circled crosses. A negative charge −q moves clockwise around a circle. It is drawn at five points around the circle: at each, its velocity v is a green arrow tangent to the circle and the magnetic force F is a red arrow pointing toward the center, so the velocity changes direction but not magnitude.',
+    });
+    for (let i = 0; i < 8; i += 1)
+      for (let j = 0; j < 7; j += 1) mark(svg, 25 + i * 108, 75 + j * 98, false, { r: 20 });
+    const [cx, cy, r] = [405, 370, 245];
+    svg.circle(cx, cy, r, { fill: 'none', stroke: COLORS.black, width: 2 });
+    svg.circle(cx, cy, 5, { fill: COLORS.black });
+    mark(svg, 920, 630, false, { r: 20 });
+    lab(svg, 948, 630, '**B**_{in}', { anchor: 'start', size: 30 });
+    // The charge at angle θ (degrees, counterclockwise from +x with y up):
+    // velocity tangent and clockwise, force toward the center.
+    const charge = (th, top) => {
+      const [c, s] = [Math.cos(rad(th)), Math.sin(rad(th))];
+      const [x, y] = [cx + r * c, cy - r * s];
+      const [vx, vy] = [s, c];
+      svg.arrow(x, y, cx + 62 * c, cy - 62 * s, { color: FORCE, width: 4, head: 26 });
+      svg.arrow(x, y, x + 120 * vx, y + 120 * vy, { color: VEL, width: 5, head: 28 });
+      svg.circle(x, y, 10, { fill: '#f4a77e', stroke: '#c46a3c', width: 1.5 });
+      // Labels sit beside each arrow, on its clockwise side.
+      lab(svg, x + 135 * vx - 18 * c, y + 135 * vy + 18 * s, '**v**', { size: 30 });
+      lab(svg, cx + 150 * c + 28 * s, cy - 150 * s + 28 * c, '**F**', { size: 30 });
+      if (top) lab(svg, x + 34 * c, y - 34 * s, '−q', { size: 30 });
+    };
+    const spots = [90, 18, -54, -126, -198];
+    svg.still(() => spots.forEach((th, i) => charge(th, i === 0)));
+    // For readers who allow motion, one charge goes round, carrying its
+    // velocity and the force on it.
+    svg.motionGroup(
+      morph(
+        Array.from({ length: 73 }, (_, k) => svg.capture(() => charge(90 - 5 * k, true))),
+        { dur: '7s' }
+      )
+    );
+    return svg.render();
+  },
 
   // 22.5 question — signs of three charges in a field into the page
   Figure_22_05_09: () => {
@@ -212,12 +303,20 @@ export default {
     lab(svg, 484, 50, '**B**_{in}', { anchor: 'start', size: 26 });
     const R = 900;
     // a turns left (counterclockwise), c turns right (clockwise), b goes straight.
-    pathArc(svg, 130 - R, 470, R, 0, -16.5);
+    const a = pathArc(svg, 130 - R, 470, R, 0, -16.5);
     svg.arrow(233, 476, 233, 96, { color: COLORS.black, width: 1.8, head: 12 });
-    pathArc(svg, 336 + R, 470, R, 180, 196.5);
+    const c = pathArc(svg, 336 + R, 470, R, 180, 196.5);
     lab(svg, 112, 486, 'a', { size: 28 });
     lab(svg, 250, 488, 'b', { size: 28 });
     lab(svg, 356, 486, 'c', { size: 28 });
+    travel(svg, [
+      a,
+      [
+        [233, 476],
+        [233, 96],
+      ],
+      c,
+    ]);
     return svg.render();
   },
 
@@ -232,10 +331,11 @@ export default {
     grid(svg, 50, 50, 4, 4, true, { dx: 122, dy: 140, r: 26 });
     lab(svg, 470, 50, '**B**_{out}', { anchor: 'start', size: 26 });
     // Both turn clockwise; a's radius is much larger than b's.
-    pathArc(svg, 110 + 900, 400, 900, 180, 197);
-    pathArc(svg, 233, 260, 55, 80, 300);
+    const a = pathArc(svg, 110 + 900, 400, 900, 180, 197);
+    const b = pathArc(svg, 233, 260, 55, 80, 300);
     lab(svg, 112, 440, 'a', { size: 28 });
     lab(svg, 252, 338, 'b', { size: 28 });
+    travel(svg, [a, b]);
     return svg.render();
   },
 

@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400" role="img" aria-labelledby="title desc">
 <title id="title">The junction rule</title>
 <desc id="desc">Current I1 = 11 A flows into junction a from the right. Current I2 = 7 A leaves upward and I3 = 4 A leaves downward, so I1 = I2 + I3.</desc>
+<style>
+.motion{opacity:0}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}}
+</style>
 <rect width="480" height="400" fill="#ffffff"/>
 <line x1="200" y1="30" x2="200" y2="320" stroke="#1f77c8" stroke-width="4"/>
 <line x1="200" y1="190" x2="440" y2="190" stroke="#1f77c8" stroke-width="4"/>
@@ -16,4 +21,5 @@
 <text x="330" y="164.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 11 </tspan><tspan font-style="normal">A</tspan></text>
 <text x="222" y="298.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">3</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = 4 </tspan><tspan font-style="normal">A</tspan></text>
 <text x="40" y="371.1" font-family="'Times New Roman', Times, serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">1</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">I</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">2</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> + </tspan><tspan font-style="italic">I</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">3</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<g class="motion" opacity="0" aria-hidden="true"><line x1="440" y1="190" x2="200" y2="190" stroke="#ffd23f" stroke-width="9" stroke-dasharray="0 24" stroke-linecap="round"><animate attributeName="stroke-dashoffset" dur="0.55s" repeatCount="indefinite" values="0;-24"/></line><line x1="200" y1="190" x2="200" y2="30" stroke="#ffd23f" stroke-width="9" stroke-dasharray="0 24" stroke-linecap="round"><animate attributeName="stroke-dashoffset" dur="0.86s" repeatCount="indefinite" values="0;-24"/></line><line x1="200" y1="190" x2="200" y2="320" stroke="#ffd23f" stroke-width="9" stroke-dasharray="0 24" stroke-linecap="round"><animate attributeName="stroke-dashoffset" dur="1.5s" repeatCount="indefinite" values="0;-24"/></line><circle cx="200" cy="190" r="7" fill="#222222"/></g>
 </svg>

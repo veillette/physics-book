@@ -8,6 +8,12 @@
  * wire with `on`, which blanks the wire under the symbol so a resistor's
  * zigzag or the gap between cell plates is not crossed by the line beneath.
  * A cell's long (positive) plate faces the second point passed to it.
+ *
+ * For readers who allow motion, charges flow through the junction of 21.3
+ * Fig. 2 at rates set by the currents, a charge rides round the loop and up
+ * and down the potential walls of 21.3 Fig. 3, the RC capacitors charge and
+ * discharge as their current dies away, and the flashing lamp's sawtooth is
+ * traced as the circuit switches between charging and discharging.
  */
 import {
   CURRENT,
@@ -25,7 +31,7 @@ import {
   switchSymbol,
   wire,
 } from './circuit.js';
-import { COLORS, Plot, Svg, rad } from './svg.js';
+import { COLORS, Plot, Svg, fmt, marching, rad, smilAnimate, smilList, smilMotion } from './svg.js';
 
 const NODE = COLORS.maroon;
 const SHADE = '#dcecf7';
@@ -336,6 +342,11 @@ function rcCircuit(svg, { charging }) {
   lab(svg, R + 54, 170, 'V', { anchor: 'start' });
   on(svg, 'sw', [150, B], [230, B], { closed: true, size: 56 });
   note(svg, 190, B + 28, 'Switch');
+  caption(svg, 190, 346, '(a)');
+}
+
+/** The current arrows of `rcCircuit`. */
+function rcCurrent(svg, { charging }) {
   if (charging) {
     loopArrow(svg, 190, 175, 78, 150, 30);
     loopArrow(svg, 190, 165, 78, -30, -150);
@@ -345,7 +356,27 @@ function rcCircuit(svg, { charging }) {
     loopArrow(svg, 190, 190, 78, 30, 150);
     lab(svg, 190, 140, 'I');
   }
-  caption(svg, 190, 346, '(a)');
+}
+
+/**
+ * 21.6 Figs. 1 and 2 for readers who allow motion: just after the switch
+ * closes, a dot runs along the voltage curve g at one time constant a second
+ * while the current arrows fade as I ∝ e^{−t/RC}. The still keeps the arrows.
+ */
+function rcMotion(svg, g, { charging }) {
+  svg.still(() => rcCurrent(svg, { charging }));
+  const f = charging ? t => 1 - Math.exp(-t) : t => Math.exp(-t);
+  svg.animatedOnce(
+    (t, moving, shown) => {
+      svg.add(`<g opacity="${fmt(shown * Math.exp(-t))}">`);
+      rcCurrent(svg, { charging });
+      svg.add(`</g><g opacity="${shown}">`);
+      svg.circle(...g.P(t, f(t)), 7, { fill: COLORS.maroon, stroke: '#ffffff', width: 1.5 });
+      svg.add('</g>');
+    },
+    Array.from({ length: 45 }, (_, k) => k / 10),
+    { run: 4.4, still: null }
+  );
 }
 
 export default {
@@ -1181,6 +1212,22 @@ export default {
     lab(svg, 330, a[1] - 34, 'I_1 = 11 \\rm{A}', { anchor: 'start', size: 24 });
     lab(svg, a[0] + 22, 290, 'I_3 = 4 \\rm{A}', { anchor: 'start', size: 24 });
     lab(svg, 40, 362, 'I_1 = I_2 + I_3', { anchor: 'start', size: 26 });
+    // For readers who allow motion, charges drift along each wire at a speed
+    // in proportion to its current, so in each 6 s cycle 11 arrive at a and
+    // 7 + 4 leave it.
+    const flow = (x1, y1, x2, y2, amps) =>
+      marching(
+        svg.capture(() =>
+          svg.line(x1, y1, x2, y2, { color: '#ffd23f', width: 9, dash: '0 24', cap: 'round' })
+        ),
+        { dur: `${fmt(6 / amps)}s` }
+      );
+    svg.motionGroup(
+      flow(440, a[1], a[0], a[1], 11) +
+        flow(a[0], a[1], a[0], 30, 7) +
+        flow(...a, a[0], 320, 4) +
+        svg.capture(() => dot(svg, ...a, { r: 7, color: COLORS.black }))
+    );
     return svg.render();
   },
 
@@ -1295,6 +1342,43 @@ export default {
     svg.arrow(s1[0] - 22, s1[1] - 16, s1[0], s1[1], { color: CURRENT, width: 3.5, head: 15 });
     lab(svg, s1[0] + 14, s1[1] + 4, 'I = 2.0 \\rm{A}', { anchor: 'start' });
     caption(svg, 400, 1020, '(b)');
+    // For readers who allow motion, a positive charge goes round the loop at a
+    // steady pace in (a) while its twin in (b) rides the top of the walls:
+    // lifted 18 V by the emf, then let down 1, 12 and 5 V by r, R1 and R2.
+    // Each schematic point in `ends` is where the matching corner or element
+    // end of `loop` lies in (a).
+    const ends = [
+      [L, T],
+      [315, T],
+      [335, T],
+      [445, T],
+      [515, T],
+      [R, T],
+      [R, B],
+      [430, B],
+      [360, B],
+      [L, B],
+      [L, 295],
+      [L, 225],
+      [L, T],
+    ];
+    const along = pts => {
+      const d = [0];
+      for (let i = 1; i < pts.length; i += 1)
+        d.push(d[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+      return d.map(x => x / d.at(-1));
+    };
+    const tops = loop.map(([u, v, V]) => P(u, v, V));
+    const keyTimes = along(ends);
+    const path = pts => pts.map(([x, y], i) => `${i ? 'L' : 'M'} ${fmt(x)} ${fmt(y)}`).join(' ');
+    const charge = dy =>
+      svg.capture(() => {
+        svg.circle(0, dy, 11, { fill: '#f2a3ae', stroke: '#c0566a', width: 1.5 });
+        svg.text(0, dy, '+', { size: 18, math: false, halo: false });
+      });
+    const ride = (pts, keyPoints, dy) =>
+      `<g>${smilMotion(path(pts), { dur: '9s', keyPoints, keyTimes })}${charge(dy)}</g>`;
+    svg.motionGroup(ride(ends, keyTimes, 0) + ride(tops, along(tops), -11));
     return svg.render();
   },
 
@@ -2087,6 +2171,7 @@ export default {
     val(svg, g.X(0) - 8, g.Y(1), 'emf', { anchor: 'end' });
     val(svg, g.X(0) - 8, g.Y(1 - Math.exp(-1)), '0.632 emf', { anchor: 'end' });
     caption(svg, 680, 346, '(b)');
+    rcMotion(svg, g, { charging: true });
     return svg.render();
   },
 
@@ -2104,6 +2189,7 @@ export default {
     val(svg, g.X(0) - 8, g.Y(1), 'V_0', { anchor: 'end' });
     val(svg, g.X(0) - 8, g.Y(Math.exp(-1)), '0.368V_0', { anchor: 'end' });
     caption(svg, 680, 346, '(b)');
+    rcMotion(svg, g, { charging: false });
     return svg.render();
   },
 
@@ -2179,10 +2265,16 @@ export default {
     const g = new Plot(svg, { x: 360, y: 370, w: 330, h: 220, xRange: [0, 6.4], yRange: [0, 1.1] });
     g.axes({ arrows: true });
     const pts = [];
+    // `at` is when the animation reaches each point: a second per unit of
+    // time while charging, but FLASH seconds for each near-instant discharge.
+    const FLASH = 0.3;
+    const at = [];
+    const flashes = [];
     const tUp = -Math.log(1 - th);
     for (let k = 0; k <= 60; k += 1) {
       const t = (tUp * k) / 60;
       pts.push(g.P(t, 1 - Math.exp(-t)));
+      at.push(t);
     }
     // Fast discharge through the lit bulb (time constant 0.06), then recharge
     // through R from `low` back to the threshold.
@@ -2191,19 +2283,50 @@ export default {
     const tRe = Math.log((1 - low) / (1 - th));
     let t0 = tUp;
     for (let cycle = 0; cycle < 4; cycle += 1) {
+      const clock = at.at(-1);
+      flashes.push(clock);
       for (let k = 1; k <= 8; k += 1) {
         const s = (tDown * k) / 8;
         pts.push(g.P(t0 + s, th * Math.exp(-s / tauBulb)));
+        at.push(clock + (FLASH * k) / 8);
       }
       t0 += tDown;
       for (let k = 1; k <= 24; k += 1) {
         const s = (tRe * k) / 24;
         pts.push(g.P(t0 + s, 1 - (1 - low) * Math.exp(-s)));
+        at.push(clock + FLASH + s);
       }
       t0 += tRe;
     }
     svg.line(g.X(0), g.Y(th), g.X(6.4), g.Y(th), { color: COLORS.guide, width: 1.2, dash: '5 4' });
-    svg.polyline(pts, { color: COLORS.maroon, width: 3 });
+    svg.still(() => svg.polyline(pts, { color: COLORS.maroon, width: 3 }));
+    // For readers who allow motion, the trace is drawn as time passes. The
+    // circuit not in use is veiled: discharging is veiled while the capacitor
+    // charges, and charging while the bulb flashes and drains it.
+    const along = [0];
+    for (let i = 1; i < pts.length; i += 1)
+      along.push(along[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+    const total = along.at(-1);
+    const fade = 0.4;
+    const T = at.at(-1) + 1.2 + fade;
+    const dur = `${fmt(T)}s`;
+    const times = [...at.map(t => t / T), 1];
+    const lit = flashes.flatMap(t => [t / T, (t + FLASH) / T]);
+    const switching = on =>
+      `<animate attributeName="opacity" dur="${dur}" repeatCount="indefinite" calcMode="discrete" keyTimes="${smilList([0, ...lit])}" values="${smilList([0, ...lit].map((_, i) => ((i % 2 === 1) === on ? 1 : 0)))}"/>`;
+    const veil = (x, flashing) =>
+      `<g>${switching(flashing)}<rect x="${x}" y="20" width="470" height="280" fill="#ffffff" fill-opacity="0.75"/></g>`;
+    svg.add(
+      '<defs><radialGradient id="flash21"><stop offset="0" stop-color="#ffe14d" stop-opacity="0.9"/><stop offset="1" stop-color="#ffe14d" stop-opacity="0"/></radialGradient></defs>'
+    );
+    const path = pts.map(([x, y], i) => `${i ? 'L' : 'M'} ${fmt(x)} ${fmt(y)}`).join(' ');
+    svg.motionGroup(
+      `<g>${smilAnimate('opacity', [1, 1, 0], { dur, keyTimes: [0, (T - fade) / T, 1] })}${veil(15, true)}${veil(525, false)}<g>${switching(true)}<circle cx="910" cy="150" r="44" fill="url(#flash21)"/></g><path d="${path}" fill="none" stroke="${COLORS.maroon}" stroke-width="3" stroke-linejoin="round" stroke-dasharray="${fmt(total)} ${fmt(total)}">${smilAnimate(
+        'stroke-dashoffset',
+        [...along.map(d => total - d), 0],
+        { dur, keyTimes: times }
+      )}</path><g>${smilMotion(path, { dur, keyPoints: [...along.map(d => d / total), 1], keyTimes: times })}<circle r="7" fill="${COLORS.maroon}" stroke="#ffffff" stroke-width="1.5"/></g></g>`
+    );
     note(svg, g.X(0) - 10, g.Y(th) - 10, 'Bulb', { anchor: 'end' });
     note(svg, g.X(0) - 10, g.Y(th) + 10, 'threshold', { anchor: 'end' });
     lab(svg, g.X(0) - 14, g.Y(1.1) - 4, 'V', { anchor: 'end' });

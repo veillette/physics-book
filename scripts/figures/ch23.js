@@ -7,6 +7,11 @@
  * and lag in a capacitor (V = cos ωt with I = sin ωt or −sin ωt), and the
  * series-RLC resonance I_rms ∝ 1/√(R² + (X_L − X_C)²). Lettered points on
  * the AC graphs fall every quarter period, as the text describes them.
+ *
+ * For readers who allow motion, a cursor runs along the time axis of the
+ * transformer, AC and RLC graphs with a dot on each curve, charges slosh back
+ * and forth in the simple AC circuit, and the RL switch moves from 1 to 2 as
+ * the current grows and then decays.
  */
 import {
   CURRENT,
@@ -19,7 +24,7 @@ import {
   resistor,
   wire,
 } from './circuit.js';
-import { COLORS, Plot, Svg } from './svg.js';
+import { COLORS, Plot, Svg, smilAnimate } from './svg.js';
 
 const VOLT = '#6cc04a';
 const AMP = COLORS.maroon;
@@ -105,7 +110,43 @@ function acPair({ title, desc, element, label, vLabel, current, letters, axis })
   lab(svg, g.X(0) - 12, g.Y(0), '0', { anchor: 'end', size: 22 });
   lab(svg, g.X(1.8) + 22, g.Y(0), 't');
   caption(svg, g.X(0.9), 350, '(b)');
+  // The cursor takes 3 s per cycle, so the quarter-cycle shift is easy to follow.
+  sweep(
+    svg,
+    [[g, g.Y(1.15), g.Y(-1.15)]],
+    [
+      [g, t => 0.78 * Math.cos(w * t), VOLT],
+      [g, t => current(w * t), AMP],
+    ],
+    0,
+    1.72,
+    { run: 5.2, n: 86 }
+  );
   return svg.render();
+}
+
+/** A dot on a curve at (x, y), for the moving cursors. */
+function bead(svg, x, y, color) {
+  svg.circle(x, y, 7, { fill: color, stroke: '#ffffff', width: 1.5 });
+}
+
+/**
+ * For readers who allow motion: a dashed cursor at time t from y1 down to
+ * y2 on each plot of `cursors` ([plot, y1, y2]), with a dot on each curve of
+ * `curves` ([plot, f, color]), running from t0 to t1 in `run` seconds.
+ */
+function sweep(svg, cursors, curves, t0, t1, { run = 6, n = 100 } = {}) {
+  svg.animatedOnce(
+    (t, moving, shown) => {
+      svg.add(`<g opacity="${shown}">`);
+      for (const [g, y1, y2] of cursors)
+        svg.line(g.X(t), y1, g.X(t), y2, { color: COLORS.black, width: 1.5, dash: '5 4' });
+      for (const [g, f, color] of curves) bead(svg, ...g.P(t, f(t)), color);
+      svg.add('</g>');
+    },
+    Array.from({ length: n + 1 }, (_, k) => t0 + ((t1 - t0) * k) / n),
+    { run, still: null }
+  );
 }
 
 /** An RL growth or decay curve with τ to 4τ marked. */
@@ -217,6 +258,7 @@ export default {
       const h = 1e-4;
       return ((vp(t + h) - vp(t - h)) / (2 * h)) * 0.024;
     };
+    const gs = [];
     for (const [y, f, name] of [
       [40, vp, 'V_p'],
       [360, vs, 'V_s'],
@@ -231,10 +273,20 @@ export default {
       });
       g.axes({ arrows: true, xAxisAt: 0 });
       g.fn(f, 0, 1.02, { n: 1600, color: AMP, width: 3 });
+      gs.push([g, f]);
       lab(svg, g.X(0) - 12, g.Y(0), '0', { anchor: 'end', size: 22 });
       lab(svg, g.X(0) - 10, y - 4, name, { anchor: 'end' });
       lab(svg, g.X(1.05) + 22, g.Y(0), 't');
     }
+    // The cursor shows each spike in Vs lining up with a switching edge in Vp.
+    sweep(
+      svg,
+      [[gs[0][0], 40, 580]],
+      gs.map(([g, f]) => [g, f, AMP]),
+      0,
+      1.02,
+      { run: 6, n: 408 }
+    );
     return svg.render();
   },
 
@@ -252,6 +304,25 @@ export default {
     lab(svg, L - 40, 190, 'V', { anchor: 'end', size: 32 });
     on(svg, 90, [R, 145], [R, 235], (P, Q) => resistor(svg, P, Q, { size: 90, amp: 16 }));
     lab(svg, R + 24, 190, 'R', { anchor: 'start', size: 32 });
+    // For readers who allow motion, the charges in the wires surge one way
+    // round the loop and then the other, in step with the source.
+    const offsets = Array.from({ length: 25 }, (_, k) => 18 * Math.sin((2 * Math.PI * k) / 24));
+    const slosh = pts =>
+      `<polyline points="${pts.map(p => p.join(',')).join(' ')}" fill="none" stroke="${CURRENT}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 30">${smilAnimate('stroke-dashoffset', offsets, { dur: '2.4s' })}</polyline>`;
+    svg.motionGroup(
+      slosh([
+        [L, 162],
+        [L, T],
+        [R, T],
+        [R, 145],
+      ]) +
+        slosh([
+          [R, 235],
+          [R, B],
+          [L, B],
+          [L, 218],
+        ])
+    );
     return svg.render();
   },
 
@@ -344,15 +415,44 @@ export default {
     on(svg, 56, [L, 70], [L, 130], (P, Q) => resistor(svg, P, Q, { size: 56, amp: 9 }));
     lab(svg, L - 18, 100, 'R', { anchor: 'end' });
     on(svg, 20, [215, y1], [195, y1], (P, Q) => cell(svg, P, Q, { gap: 16, long: 60, short: 30 }));
-    svg.arrow(...pivot, L + 42, y1 - 2, { color: COLORS.black, width: 2, head: 12 });
-    svg.arrow(...pivot, L + 42, y2 + 2, { color: COLORS.black, width: 2, head: 12, dash: '6 4' });
+    svg.still(() => {
+      svg.arrow(...pivot, L + 42, y1 - 2, { color: COLORS.black, width: 2, head: 12 });
+      svg.arrow(...pivot, L + 42, y2 + 2, { color: COLORS.black, width: 2, head: 12, dash: '6 4' });
+    });
     note(svg, L + 30, y1 + 8, '1', { anchor: 'end', size: 18 });
     note(svg, L + 30, y2 - 10, '2', { anchor: 'end', size: 18 });
     caption(svg, 185, 302, '(a)');
-    rlGraph(svg, 440, 40, { rising: true });
+    const gb = rlGraph(svg, 440, 40, { rising: true });
     caption(svg, 570, 302, '(b)');
-    rlGraph(svg, 760, 40, { rising: false });
+    const gc = rlGraph(svg, 760, 40, { rising: false });
     caption(svg, 890, 302, '(c)');
+    // For readers who allow motion, the switch rests at 1 while a dot runs up
+    // the growth curve, swings to 2, and a dot runs down the decay curve.
+    const blade = u => {
+      const [a1, a2] = [y1 - 2, y2 + 2].map(y => Math.atan2(y - pivot[1], L + 42 - pivot[0]));
+      const [r1, r2] = [y1 - 2, y2 + 2].map(y => Math.hypot(L + 42 - pivot[0], y - pivot[1]));
+      const [a, r] = [a1 + (a2 - a1) * u, r1 + (r2 - r1) * u];
+      return [pivot[0] + r * Math.cos(a), pivot[1] + r * Math.sin(a)];
+    };
+    const steps = Array.from({ length: 23 }, (_, k) => k / 5);
+    const frames = [
+      ...steps.map(t => ({ u: 0, tb: t, tc: 0, on: 'b' })),
+      ...[1, 2, 3, 4].map(j => ({ u: j / 4, tb: 4.4, tc: 0, on: '' })),
+      ...steps.map(t => ({ u: 1, tb: 4.4, tc: t, on: 'c' })),
+    ];
+    svg.animatedOnce(
+      ({ u, tb, tc, on }, moving, shown) => {
+        svg.add(`<g opacity="${shown}">`);
+        svg.arrow(...pivot, ...blade(u), { color: COLORS.black, width: 2.5, head: 12 });
+        svg.add(`<g opacity="${on === 'b' ? 1 : 0.3}">`);
+        bead(svg, ...gb.P(tb, 1 - Math.exp(-tb)), AMP);
+        svg.add(`</g><g opacity="${on === 'c' ? 1 : 0.3}">`);
+        bead(svg, ...gc.P(tc, Math.exp(-tc)), AMP);
+        svg.add('</g></g>');
+      },
+      frames,
+      { run: 10, still: null }
+    );
     return svg.render();
   },
 
@@ -542,6 +642,21 @@ export default {
         dash: '5 4',
       });
     }
+    sweep(
+      svg,
+      [
+        [top, top.Y(1.1), gs[4].Y(-1.1)],
+        [gi, gi.Y(1.1), gv.Y(-1.1)],
+      ],
+      [
+        ...rows.map(([, f, color], i) => [gs[i], f, color]),
+        [gi, rows[0][1], VOLT],
+        [gv, rows[4][1], WAVE],
+      ],
+      0,
+      2.05,
+      { run: 6.2, n: 82 }
+    );
     svg.path('M 360 40 Q 470 40 500 170', { color: '#666666', width: 5 });
     svg.arrow(492, 150, 502, 178, { color: '#666666', width: 5, head: 20 });
     svg.path('M 360 560 Q 470 560 500 430', { color: '#666666', width: 5 });
