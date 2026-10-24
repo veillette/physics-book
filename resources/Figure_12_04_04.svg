@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<title id="title">Uniform and parabolic velocity profiles in a tube</title>
+<desc id="desc">Two vertical tube cross sections show upward flow. An ideal inviscid uniform-flow model has equal velocity arrows. Fully developed laminar flow of a Newtonian fluid in a circular tube has a parabolic profile with zero speed at both walls, maximum speed at the center, and mean speed equal to half the maximum. Both panels have the same mean speed.</desc>
+<rect width="1000" height="600" fill="#ffffff"/>
+<text x="500" y="37.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Viscosity</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">changes</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">velocity</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">profile</tspan></text>
+<text x="500" y="71.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#657382" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Upward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">flow</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">two</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">panels</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">have</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">mean</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">speed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">v̄</tspan><tspan font-style="normal">.</tspan></text>
+<text x="250" y="123.7" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Ideal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">uniform</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">flow</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">model</tspan></text>
+<rect x="90" y="160" width="320" height="260" fill="#edf4f8"/>
+<line x1="90" y1="160" x2="90" y2="420" stroke="#333333" stroke-width="4"/>
+<line x1="410" y1="160" x2="410" y2="420" stroke="#333333" stroke-width="4"/>
+<line x1="90" y1="390" x2="90" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="90,300 94,310 86,310" fill="#1f77c8"/>
+<line x1="130" y1="390" x2="130" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="130,300 134,310 126,310" fill="#1f77c8"/>
+<line x1="170" y1="390" x2="170" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="170,300 174,310 166,310" fill="#1f77c8"/>
+<line x1="210" y1="390" x2="210" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="210,300 214,310 206,310" fill="#1f77c8"/>
+<line x1="250" y1="390" x2="250" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="250,300 254,310 246,310" fill="#1f77c8"/>
+<line x1="290" y1="390" x2="290" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="290,300 294,310 286,310" fill="#1f77c8"/>
+<line x1="330" y1="390" x2="330" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="330,300 334,310 326,310" fill="#1f77c8"/>
+<line x1="370" y1="390" x2="370" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="370,300 374,310 366,310" fill="#1f77c8"/>
+<line x1="410" y1="390" x2="410" y2="309" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="410,300 414,310 406,310" fill="#1f77c8"/>
+<polyline points="90,300 110,300 130,300 150,300 170,300 190,300 210,300 230,300 250,300 270,300 290,300 310,300 330,300 350,300 370,300 390,300 410,300" fill="none" stroke="#1f77c8" stroke-width="2" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="50" y1="385" x2="50" y2="229.4" stroke="#333333" stroke-width="2"/>
+<polygon points="50,220 54.16,230.4 45.84,230.4" fill="#333333"/>
+<text x="50" y="196.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Flow</tspan></text>
+<text x="250" y="476.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">v</tspan><tspan font-style="normal">(</tspan><tspan font-style="normal">r</tspan><tspan font-style="normal">) = </tspan><tspan font-style="normal">v̄</tspan></text>
+<text x="250" y="517" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Uniform</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">here</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">is</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">an</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">idealized</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">assumption</tspan><tspan font-style="normal">.</tspan></text>
+<text x="750" y="123.7" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Fully</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">developed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">laminar</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">flow</tspan></text>
+<rect x="590" y="160" width="320" height="260" fill="#edf4f8"/>
+<line x1="590" y1="160" x2="590" y2="420" stroke="#333333" stroke-width="4"/>
+<line x1="910" y1="160" x2="910" y2="420" stroke="#333333" stroke-width="4"/>
+<circle cx="590" cy="390" r="4" fill="#1f77c8"/>
+<line x1="630" y1="390" x2="630" y2="320.25" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="630,311.25 634,321.25 626,321.25" fill="#1f77c8"/>
+<line x1="670" y1="390" x2="670" y2="264" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="670,255 674,265 666,265" fill="#1f77c8"/>
+<line x1="710" y1="390" x2="710" y2="230.25" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="710,221.25 714,231.25 706,231.25" fill="#1f77c8"/>
+<line x1="750" y1="390" x2="750" y2="219" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="750,210 754,220 746,220" fill="#1f77c8"/>
+<line x1="790" y1="390" x2="790" y2="230.25" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="790,221.25 794,231.25 786,231.25" fill="#1f77c8"/>
+<line x1="830" y1="390" x2="830" y2="264" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="830,255 834,265 826,265" fill="#1f77c8"/>
+<line x1="870" y1="390" x2="870" y2="320.25" stroke="#1f77c8" stroke-width="2.5"/>
+<polygon points="870,311.25 874,321.25 866,321.25" fill="#1f77c8"/>
+<circle cx="910" cy="390" r="4" fill="#1f77c8"/>
+<polyline points="590,390 610,347.81 630,311.25 650,280.31 670,255 690,235.31 710,221.25 730,212.81 750,210 770,212.81 790,221.25 810,235.31 830,255 850,280.31 870,311.25 890,347.81 910,390" fill="none" stroke="#1f77c8" stroke-width="2" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="550" y1="385" x2="550" y2="229.4" stroke="#333333" stroke-width="2"/>
+<polygon points="550,220 554.16,230.4 545.84,230.4" fill="#333333"/>
+<text x="550" y="196.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Flow</tspan></text>
+<text x="750" y="476.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">v</tspan><tspan font-style="normal">(</tspan><tspan font-style="normal">r</tspan><tspan font-style="normal">) = </tspan><tspan font-style="normal">v</tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">max</tspan></tspan><tspan dy="-7.28">​</tspan><tspan font-style="normal"> [1 − (</tspan><tspan font-style="normal">r</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">R</tspan><tspan font-style="normal">)²]</tspan></text>
+<text x="750" y="517" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">v</tspan><tspan font-style="normal">(±</tspan><tspan font-style="normal">R</tspan><tspan font-style="normal">) = 0;   </tspan><tspan font-style="normal">v̄</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">v</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">max</tspan></tspan><tspan dy="-5.6">​</tspan><tspan font-style="normal">/2</tspan></text>
+<text x="500" y="569.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Dashed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">curves</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">join</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">arrow</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">tips</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">r</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">is</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">signed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">distance</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">from</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">center</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">along</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diameter</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

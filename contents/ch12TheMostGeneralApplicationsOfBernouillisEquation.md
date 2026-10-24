@@ -54,8 +54,13 @@ fluids, this last equation is called _Torricelli’s theorem_. Note that the
 result is independent of the velocity’s direction, just as we found when
 applying conservation of energy to falling objects.
 
-![Part a of the figure shows a photograph of a dam with water gushing from a large tube at the base of a dam. Part b shows the schematic diagram for the flow of water in a reservoir. The reservoir is shown in the form of a triangular section with a horizontal opening along the base little near to the base. The water is shown to flow through the horizontal opening near the base. The height which it falls is shown as h two. The pressure and velocity of water at this point are P two and v two. The height to which the water can fall if it falls from a height h above the opening is given by h 2. The pressure and velocity of water at this point are P one and v one.](../resources/Figure_12_03_01.jpg '(a) Water gushes from the base of the Studen Kladenetz dam in Bulgaria. (credit: Kiril Kapustin; http://www.ImagesFromBulgaria.com) (b) In the absence of significant resistance, water flows from the reservoir with the same speed it would have if it fell the distance ( h ) without friction. This is an example of Torricelli’s theorem.')
+![An open reservoir drains through a small side opening. Both the free surface at h1 and the outlet at h2 have atmospheric pressure. The free-surface speed is negligible. The vertical drop h = h1 minus h2 sets outlet speed v2 = square root of 2gh.](/resources/Figure_12_03_01.svg 'Torricelli outflow: applying Bernoulli between the large free surface and the small outlet cancels atmospheric pressure. Neglecting losses and free-surface speed gives the same speed as a fall through height h.'){: .figure-full-width}
 {: #Figure1}
+
+<figure class="figure-companion">
+<img src="/resources/photo_12_03_dam.png" alt="Water discharges from the base of the Studen Kladenetz dam in Bulgaria.">
+<figcaption>Water discharges from the base of the Studen Kladenetz dam in Bulgaria. (credit: Kiril Kapustin; http://www.ImagesFromBulgaria.com)</figcaption>
+</figure>
 
 ![Figure shows a fire engine that is stationed next to a tall building. A floor of the building ten meters above the ground has caught fire. The flames are shown coming out. A fire man has reached close to the fire caught area using a ladder and is spraying water on the fire using a hose attached to the fire engine.](../resources/Figure_12_03_02.jpg 'Pressure in the nozzle of this fire hose is less than at ground level for two reasons: the water has to go uphill to get to the nozzle, and speed increases in the nozzle. In spite of its lowered pressure, the water can exert a large force on anything it strikes, by virtue of its kinetic energy. Pressure in the water stream becomes equal to atmospheric pressure once it emerges into the air.')
 {: #Figure2}

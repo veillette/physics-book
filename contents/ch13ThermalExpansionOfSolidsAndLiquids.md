@@ -26,6 +26,13 @@ systems. Solids also undergo thermal expansion. Railroad tracks and bridges, for
 example, have expansion joints to allow them to freely expand and contract with
 temperature changes.
 
+The schematic below shows how expansion of the sections changes the clearance at a joint.
+
+<figure class="figure-companion">
+<img src="/resources/companion_13_expansion_joint.svg" alt="Two identical bridge sections with fixed outer reference points expand toward a central gap as temperature rises. If each expands by alpha L delta T, the gap decreases by twice that amount. Cold endpoints are dashed in the warm panel." class="figure-full-width">
+<figcaption>An idealized expansion joint: each section can expand toward the gap while its outer reference point stays fixed. Changes are exaggerated. For equal sections, the remaining gap is the initial gap minus twice the expansion of one section.</figcaption>
+</figure>
+
 What are the basic properties of thermal expansion? First, thermal expansion is
 clearly related to temperature change. The greater the temperature change, the
 more a bimetallic strip will bend. Second, it depends on the material. In a

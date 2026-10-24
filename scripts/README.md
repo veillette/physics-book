@@ -547,6 +547,14 @@ npm run generate:fbd -- 05_01 # only names containing "05_01"
 
 ### generate-figures.js
 
+The remaining fluid diagrams and thermal companion figures in chapters 11–15 are
+defined in `scripts/figures/fluids-and-thermal-line-art.js`. Its blackbody spectra
+use Planck’s law, the wall profile uses series thermal resistances, and the coin
+diagram enumerates all 32 distinct outcomes. The numerical checks are in
+`tests/fluids-and-thermal-line-art.test.js`. Added companion drawings and
+separated photographs use `<figure class="figure-companion">` so existing
+numbered figures and their cross-references keep their numbering.
+
 Generates the line-art figures (graphs, vector diagrams, geometry) that replaced
 raster originals throughout the book. Each figure is a function in the chapter
 modules under `scripts/figures/`, keyed by its file name, and is written to

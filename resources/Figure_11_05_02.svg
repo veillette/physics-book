@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="700" viewBox="0 0 1080 700" role="img" aria-labelledby="title desc">
+<title id="title">Force multiplication in hydraulic brakes</title>
+<desc id="desc">A 100 N pedal force acts at 0.20 m from a pivot. The master-cylinder pushrod acts 0.040 m from the pivot, producing 500 N. Master diameter 0.500 cm and slave diameter 2.50 cm give an area ratio of 25. Each of four identical slave cylinders produces 12500 N under the ideal model.</desc>
+<rect width="1080" height="700" fill="#ffffff"/>
+<text x="540" y="37.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">The</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">lever</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">fluid</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">multiply</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">two</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">stages</tspan></text>
+<text x="540" y="71.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#657382" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Ideal</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">static</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">model</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">line</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">heights</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">areas</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">displacements</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">arrows</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">are</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">schematic</tspan><tspan font-style="normal">.</tspan></text>
+<line x1="230" y1="142" x2="230" y2="382" stroke="#333333" stroke-width="7"/>
+<circle cx="230" cy="142" r="8" fill="#222222"/>
+<text x="230" y="118.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Pivot</tspan></text>
+<line x1="65" y1="382" x2="203.4" y2="382" stroke="#c62828" stroke-width="3"/>
+<polygon points="215,382 202.4,387.04 202.4,376.96" fill="#c62828"/>
+<text x="119" y="354.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">100 </tspan><tspan font-style="normal">N</tspan></text>
+<line x1="290" y1="149" x2="290" y2="375" stroke="#333333" stroke-width="1.4"/>
+<polygon points="290,382 286.8,374 293.2,374" fill="#333333"/>
+<polygon points="290,142 293.2,150 286.8,150" fill="#333333"/>
+<line x1="284" y1="142" x2="296" y2="142" stroke="#333333" stroke-width="1.5"/>
+<line x1="284" y1="382" x2="296" y2="382" stroke="#333333" stroke-width="1.5"/>
+<text x="340" y="268.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.20 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="170" y1="149" x2="170" y2="183" stroke="#333333" stroke-width="1.4"/>
+<polygon points="170,190 166.8,182 173.2,182" fill="#333333"/>
+<polygon points="170,142 173.2,150 166.8,150" fill="#333333"/>
+<line x1="164" y1="142" x2="176" y2="142" stroke="#333333" stroke-width="1.5"/>
+<line x1="164" y1="190" x2="176" y2="190" stroke="#333333" stroke-width="1.5"/>
+<text x="110" y="172.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.040 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="238" y1="190" x2="420" y2="190" stroke="#657382" stroke-width="7"/>
+<text x="410" y="149.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Master</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cylinder</tspan></text>
+<rect x="420" y="167" width="145" height="46" fill="#dcecf5" stroke="#657382" stroke-width="2"/>
+<line x1="438" y1="168" x2="438" y2="212" stroke="#222222" stroke-width="7"/>
+<line x1="353" y1="236" x2="423.4" y2="236" stroke="#c62828" stroke-width="3"/>
+<polygon points="435,236 422.4,241.04 422.4,230.96" fill="#c62828"/>
+<text x="457" y="277.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan><tspan font-style="normal">₁ = 500 </tspan><tspan font-style="normal">N</tspan></text>
+<text x="489" y="316.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">d</tspan><tspan font-style="normal">₁ = 0.500 </tspan><tspan font-style="normal">cm</tspan></text>
+<polyline points="565,190 625,190 625,150 625,495" fill="none" stroke="#657382" stroke-width="21" stroke-linejoin="round"/>
+<polyline points="565,190 625,190 625,150 625,495" fill="none" stroke="#dcecf5" stroke-width="18" stroke-linejoin="round"/>
+<polyline points="625,150 750,150" fill="none" stroke="#657382" stroke-width="21" stroke-linejoin="round"/>
+<polyline points="625,150 750,150" fill="none" stroke="#dcecf5" stroke-width="18" stroke-linejoin="round"/>
+<rect x="750" y="124" width="115" height="52" fill="#dcecf5" stroke="#657382" stroke-width="2"/>
+<line x1="829" y1="125" x2="829" y2="175" stroke="#333333" stroke-width="7"/>
+<line x1="865" y1="150" x2="958.4" y2="150" stroke="#c62828" stroke-width="3"/>
+<polygon points="970,150 957.4,155.04 957.4,144.96" fill="#c62828"/>
+<text x="995" y="157" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<polyline points="625,265 750,265" fill="none" stroke="#657382" stroke-width="21" stroke-linejoin="round"/>
+<polyline points="625,265 750,265" fill="none" stroke="#dcecf5" stroke-width="18" stroke-linejoin="round"/>
+<rect x="750" y="239" width="115" height="52" fill="#dcecf5" stroke="#657382" stroke-width="2"/>
+<line x1="829" y1="240" x2="829" y2="290" stroke="#333333" stroke-width="7"/>
+<line x1="865" y1="265" x2="958.4" y2="265" stroke="#c62828" stroke-width="3"/>
+<polygon points="970,265 957.4,270.04 957.4,259.96" fill="#c62828"/>
+<text x="995" y="272" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<polyline points="625,380 750,380" fill="none" stroke="#657382" stroke-width="21" stroke-linejoin="round"/>
+<polyline points="625,380 750,380" fill="none" stroke="#dcecf5" stroke-width="18" stroke-linejoin="round"/>
+<rect x="750" y="354" width="115" height="52" fill="#dcecf5" stroke="#657382" stroke-width="2"/>
+<line x1="829" y1="355" x2="829" y2="405" stroke="#333333" stroke-width="7"/>
+<line x1="865" y1="380" x2="958.4" y2="380" stroke="#c62828" stroke-width="3"/>
+<polygon points="970,380 957.4,385.04 957.4,374.96" fill="#c62828"/>
+<text x="995" y="387" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<polyline points="625,495 750,495" fill="none" stroke="#657382" stroke-width="21" stroke-linejoin="round"/>
+<polyline points="625,495 750,495" fill="none" stroke="#dcecf5" stroke-width="18" stroke-linejoin="round"/>
+<rect x="750" y="469" width="115" height="52" fill="#dcecf5" stroke="#657382" stroke-width="2"/>
+<line x1="829" y1="470" x2="829" y2="520" stroke="#333333" stroke-width="7"/>
+<line x1="865" y1="495" x2="958.4" y2="495" stroke="#c62828" stroke-width="3"/>
+<polygon points="970,495 957.4,500.04 957.4,489.96" fill="#c62828"/>
+<text x="995" y="502" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<text x="823" y="109.35" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Four</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">identical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">slave</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cylinders</tspan></text>
+<text x="823" y="557" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Each</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">₂ = 2.50 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">each</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">F</tspan><tspan font-style="normal">₂ = 12,500 </tspan><tspan font-style="normal">N</tspan></text>
+<text x="438" y="449" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">transmitted</tspan></text>
+<text x="438" y="479" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">pressure</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">increment</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="normal">P</tspan></text>
+<text x="540" y="621.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">P</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">F</tspan><tspan font-style="normal">₁/</tspan><tspan font-style="normal">A</tspan><tspan font-style="normal">₁ = </tspan><tspan font-style="normal">F</tspan><tspan font-style="normal">₂/</tspan><tspan font-style="normal">A</tspan><tspan font-style="normal">₂       </tspan><tspan font-style="normal">A</tspan><tspan font-style="normal">₂/</tspan><tspan font-style="normal">A</tspan><tspan font-style="normal">₁ = (</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">₂/</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">₁)² = 25</tspan></text>
+<text x="540" y="667.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">The</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">gain</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">is</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">balanced</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">by</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">smaller</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">piston</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">travel</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">is</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">conserved</tspan><tspan font-style="normal">.</tspan></text>
+</svg>
