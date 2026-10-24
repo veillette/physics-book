@@ -697,7 +697,7 @@ In this case, halving the line density (10,000 → 5000 lines/cm) means doubling
 
 **Discussion**
 
-This scaling relationship is very useful in diffraction grating design. It shows that using a coarser grating with higher-order maxima can produce the same angular positions as using a finer grating with lower-order maxima. However, higher orders are generally dimmer and may suffer from overlapping spectra from different orders. The 5000 lines/cm grating produces more widely spaced orders, making them easier to observe separately, while the 10,000 lines/cm grating provides better resolution within each order.
+This scaling relationship is very useful in diffraction grating design. It shows that using a coarser grating with higher-order maxima can produce the same angular positions as using a finer grating with lower-order maxima. However, higher orders are generally dimmer and may suffer from overlapping spectra from different orders. The 10,000 lines/cm grating spreads each order over larger angles, which makes its spectra easier to separate; the coarser 5000 lines/cm grating produces more closely spaced orders, but more of them.
 
 :::
 

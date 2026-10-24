@@ -312,7 +312,7 @@ $$\Delta \theta_{c} = 24.5° - 24.0° = 0.5°$$
 
 **Discussion**
 
-Although this difference seems small, it's significant for diamond cutting. Since violet light has a slightly smaller critical angle than red light, it's slightly easier for violet light to escape the diamond. Skilled diamond cutters must account for this dispersion when creating facets, ensuring that all colors are properly reflected and create the diamond's characteristic brilliance and fire. The color separation also contributes to the rainbow-like flashes seen when a diamond moves.
+Although this difference seems small, it's significant for diamond cutting. Since violet light has a slightly smaller critical angle than red light, violet light is totally internally reflected over a slightly wider range of angles; red light, with the larger critical angle, escapes the diamond slightly more readily. Skilled diamond cutters must account for this dispersion when creating facets, ensuring that all colors are properly reflected and create the diamond's characteristic brilliance and fire. The color separation also contributes to the rainbow-like flashes seen when a diamond moves.
 
 :::
 

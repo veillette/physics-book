@@ -216,20 +216,21 @@ $$R=2f=80.0 \text{cm} $$.
 
 **Solution to (b)**
 
-The insolation is $$900 \text{W}{\text{/m}}^{2} $$ . We must find the
-cross-sectional area $$A $$ of the concave mirror, since the power delivered is
-$$900 \text{W}{\text{/m}}^{2}×\text{A} $$ . The mirror in this case is a
-quarter-section of a cylinder, so the area for a length $$L $$ of the mirror is
-$$A=\frac{1}{4}\left(2\pi R\right)L $$ . The area for a length of 1.00 m is then
+The insolation is $$900 \text{W}{\text{/m}}^{2} $$ . We must find the area $$A $$ through which sunlight reaches the mirror, since the power
+delivered is $$900 \text{W}{\text{/m}}^{2}×A $$ . Only light crossing the mirror's
+opening is collected, so $$A $$ is the area of that opening measured perpendicular
+to the sunlight, not the area of the curved surface. The mirror in this case is a
+quarter-section of a cylinder, so its opening is the chord across a quarter
+circle, of width $$2R\sin 45^\circ=\sqrt{2}R $$ . For a length of 1.00 m,
 
 <div class="equation" >
- $$A=\frac{\pi }{2}R\left(1.00 \text{m}\right)=\frac{\left(3.14\right)}{2}\left(0.800 \text{m}\right)\left(1.00 \text{m} \right)=1.26 \text{m}^{2}. $$
+ $$A=\sqrt{2}R\left(1.00 \text{m}\right)=\left(1.414\right)\left(0.800 \text{m}\right)\left(1.00 \text{m} \right)=1.13 \text{m}^{2}. $$
 </div>
 
 The insolation on the 1.00-m length of pipe is then
 
 <div class="equation" >
- $$\left(9.00 \times 10^{2} \frac{W}{ \text{m}^{2}}\right)\left(1.26 \text{m}^{2}\right)=1130 \text{W}. $$
+ $$\left(9.00 \times 10^{2} \frac{W}{ \text{m}^{2}}\right)\left(1.13 \text{m}^{2}\right)=1.02 \times 10^{3} \text{W}. $$
 </div>
 
 **Solution to (c)**
@@ -244,7 +245,7 @@ the mineral oil in the one-meter section of pipe is
 Therefore, the increase in temperature in one minute is
 
 <div class="equation" >
- $$\begin{array}{lll}\Delta T& =& Q/mc\\ \Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ \Delta T& =& 162\text{ºC} .\end{array} $$ 
+ $$\begin{array}{lll}\Delta T& =& Q/mc\\ \Delta T & =& \frac{\left(1.02 \times 10^{3} \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J/(kg·ºC)}\right)}\\ \Delta T& =& 146\text{ºC} .\end{array} $$ 
 </div>
 
 **Discussion for (c)**

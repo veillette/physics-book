@@ -1045,7 +1045,7 @@ If  $${\theta }_{\text{b}} $$
 
 **Strategy**
 
-Use Brewster's law for both directions and the trigonometric identity $$\tan \theta + \tan(90° - \theta) = \infty$$ or $$\tan \theta_{1} \cdot \tan \theta_{2} = 1$$ when $$\theta_{1} + \theta_{2} = 90°$$.
+Use Brewster's law for both directions and the trigonometric identity $$\tan(90° - \theta) = 1/\tan \theta$$, so $$\tan \theta_{1} \cdot \tan \theta_{2} = 1$$ when $$\theta_{1} + \theta_{2} = 90°$$.
 
 **Solution**
 

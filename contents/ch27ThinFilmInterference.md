@@ -738,13 +738,13 @@ Suppose you have a lens system that is to be used primarily for 700-nm red light
 
 **Strategy**
 
-For a non-reflective coating on glass, we need destructive interference. Fluorite (calcium fluoride, CaF₂) has an index of refraction n ≈ 1.38. With air (n = 1.00) on one side and glass (n ≈ 1.52) on the other, there are phase changes at both interfaces (since n increases at both). Two phase changes cancel out, giving no net phase change. For destructive interference: $$2tn = (m + \frac{1}{2})\lambda$$. The thinnest coating uses m = 0, and the second thinnest uses m = 1.
+For a non-reflective coating on glass, we need destructive interference. Fluorite (calcium fluoride, CaF₂) has an index of refraction n = 1.434 (Table 1 of The Law of Refraction). With air (n = 1.00) on one side and glass (n ≈ 1.52) on the other, there are phase changes at both interfaces (since n increases at both). Two phase changes cancel out, giving no net phase change. For destructive interference: $$2tn = (m + \frac{1}{2})\lambda$$. The thinnest coating uses m = 0, and the second thinnest uses m = 1.
 
 **Solution**
 
 Given:
 - Wavelength: $$\lambda = 700 \text{ nm}$$ (red)
-- Index of refraction of fluorite: $$n = 1.38$$
+- Index of refraction of fluorite: $$n = 1.434$$
 - For second thinnest coating: $$m = 1$$
 
 For destructive interference (non-reflective coating) with two phase changes (net = zero):
@@ -762,23 +762,23 @@ $$2tn = \left(1 + \frac{1}{2}\right)\lambda = \frac{3\lambda}{2}$$
 Solving for thickness:
 
 <div class="equation">
-$$t = \frac{3\lambda}{4n} = \frac{3(700 \text{ nm})}{4(1.38)} = \frac{2100 \text{ nm}}{5.52}$$
+$$t = \frac{3\lambda}{4n} = \frac{3(700 \text{ nm})}{4(1.434)} = \frac{2100 \text{ nm}}{5.736}$$
 </div>
 
 <div class="equation">
-$$t = 380 \text{ nm}$$
+$$t = 366 \text{ nm}$$
 </div>
 
 For comparison, the thinnest coating (m = 0) would be:
 <div class="equation">
-$$t_{\text{min}} = \frac{\lambda}{4n} = \frac{700 \text{ nm}}{4(1.38)} = 127 \text{ nm}$$
+$$t_{\text{min}} = \frac{\lambda}{4n} = \frac{700 \text{ nm}}{4(1.434)} = 122 \text{ nm}$$
 </div>
 
-**The second thinnest non-reflective coating of fluorite is 380 nm.**
+**The second thinnest non-reflective coating of fluorite is 366 nm.**
 
 **Discussion**
 
-The second thinnest coating (380 nm) is three times thicker than the minimum coating (127 nm). Both thicknesses produce destructive interference for 700-nm red light, but the thinnest coating is preferred in practice because it works over a broader range of incident angles and is more economical to produce. The second-order coating (380 nm) might be used if the thinnest coating is difficult to manufacture uniformly or if there are other design constraints. Calcium fluoride is commonly used for anti-reflective coatings in infrared optics and UV applications due to its transparency in these regions.
+The second thinnest coating (366 nm) is three times thicker than the minimum coating (122 nm). Both thicknesses produce destructive interference for 700-nm red light, but the thinnest coating is preferred in practice because it works over a broader range of incident angles and is more economical to produce. The second-order coating (366 nm) might be used if the thinnest coating is difficult to manufacture uniformly or if there are other design constraints. Calcium fluoride is commonly used for anti-reflective coatings in infrared optics and UV applications due to its transparency in these regions.
 
 :::
 

@@ -661,7 +661,7 @@ The front of the thermometer is a curved glass surface over a very thin column o
 
 **Solution**
 
-The liquid column in a clinical thermometer may be only about $$ 0.2 \text{ mm} $$ wide, too thin to read easily. The curved front surface of the glass refracts light from the column like a cylindrical magnifying glass. Rays from the column bend toward the perpendicular of the curved surface as they leave it, so they appear to come from a larger, virtual image of the column. With a magnification of about $$ 3 $$, the column appears $$ (3)(0.2 \text{ mm}) = 0.6 \text{ mm} $$ wide. The magnification is only along the width, because the surface is curved in only one direction; the length of the column, and thus the scale reading, is unchanged. The flat back of the thermometer (often with a white or reflective strip) makes the column stand out against a bright background.
+The liquid column in a clinical thermometer may be only about $$ 0.2 \text{ mm} $$ wide, too thin to read easily. The curved front surface of the glass refracts light from the column like a cylindrical magnifying glass. Rays from the column bend away from the perpendicular of the curved surface as they leave the glass into air, so they appear to come from a larger, virtual image of the column. With a magnification of about $$ 3 $$, the column appears $$ (3)(0.2 \text{ mm}) = 0.6 \text{ mm} $$ wide. The magnification is only along the width, because the surface is curved in only one direction; the length of the column, and thus the scale reading, is unchanged. The flat back of the thermometer (often with a white or reflective strip) makes the column stand out against a bright background.
 
 The front surface of the thermometer is curved so that it acts as a cylindrical magnifying lens, refracting light from the very thin liquid column so that it appears several times wider (for example, $$ 0.6 \text{ mm} $$ instead of $$ 0.2 \text{ mm} $$) and is easier to read.
 
@@ -1125,18 +1125,24 @@ $$\sin \theta_{2} = \frac{n_1}{n_2} \sin \theta_{1} = \frac{1.00}{1.52} \sin(40.
 $$\theta_{2} = \sin^{-1}(0.4229) = 25.0°$$
 </div>
 
-In [[Figure 6]](#Figure6), $$\Delta x$$ is the horizontal distance between the actual ray and the path it would have followed without the glass (the dashed line). While crossing the glass, the actual ray moves sideways by $$t \tan \theta_{2}$$, while the undeviated ray would have moved sideways by $$t \tan \theta_{1}$$. Below the glass both rays travel at the same angle $$\theta_{3}$$, so their horizontal separation stays the same:
+In [[Figure 6]](#Figure6), $$\Delta x$$ is the horizontal distance between the actual ray and the dashed line, the path the ray would have followed if the glass were not there. Without the glass, the ray would enter the water directly at the top surface, so the dashed line travels at the water angle $$\theta_{3}$$ from the start. Snell's law from air to water gives $$\theta_{3}$$ (the glass does not change it, as the next problem shows):
+
 <div class="equation">
-$$\Delta x = t(\tan \theta_{1} - \tan \theta_{2}) = (1.00 \text{ cm})(\tan 40.0° - \tan 25.0°)$$
+$$\sin \theta_{3} = \frac{n_1}{n_3} \sin \theta_{1} = \frac{1.00}{1.333} \sin(40.0°) = 0.4822, \qquad \theta_{3} = 28.8°$$
+</div>
+
+While crossing the 1.00-cm layer, the actual ray moves sideways by $$t \tan \theta_{2}$$ and the dashed ray by $$t \tan \theta_{3}$$. Below the glass both rays travel at the same angle $$\theta_{3}$$, so their horizontal separation stays the same:
+<div class="equation">
+$$\Delta x = t(\tan \theta_{3} - \tan \theta_{2}) = (1.00 \text{ cm})(\tan 28.8° - \tan 25.0°)$$
 </div>
 
 <div class="equation">
-$$\Delta x = (1.00 \text{ cm})(0.8391 - 0.4663) = 0.373 \text{ cm} = 3.73 \text{ mm}$$
+$$\Delta x = (1.00 \text{ cm})(0.5505 - 0.4668) = 0.0837 \text{ cm} = 0.837 \text{ mm}$$
 </div>
 
 **Discussion**
 
-The ray is displaced horizontally by about 3.73 mm as it passes through the 1 cm thick glass. This displacement is why objects viewed through a window appear slightly shifted from their actual positions. The displacement depends on both the thickness of the glass and the angle of incidence—the greater the angle and the thicker the glass, the larger the displacement.
+The ray is displaced horizontally by about 0.84 mm as it passes through the 1 cm thick glass. This displacement is why objects viewed through a window appear slightly shifted from their actual positions. The displacement depends on both the thickness of the glass and the angle of incidence—the greater the angle and the thicker the glass, the larger the displacement.
 
 :::
 

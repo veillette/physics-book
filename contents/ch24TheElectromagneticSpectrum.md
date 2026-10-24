@@ -1633,7 +1633,7 @@ Discussion
 
 This frequency of $$2.00 \times 10^{13}$$ Hz falls in the mid-infrared region of the electromagnetic spectrum. Infrared radiation spans from just beyond visible red light (around 760 nm or $$4 \times 10^{14}$$ Hz) down to microwave frequencies (around 1 mm or $$3 \times 10^{11}$$ Hz). This particular wavelength of 15.0 μm is significant because it's in the thermal infrared range—objects near room temperature (around 300 K) emit peak radiation at wavelengths around 10 μm according to Wien's displacement law. This is why thermal imaging cameras are sensitive to wavelengths in the 8-14 μm range.
 
-This wavelength is also important in astronomy and atmospheric science because it corresponds to a relatively transparent "atmospheric window"—wavelengths where Earth's atmosphere doesn't strongly absorb infrared radiation. Water vapor and carbon dioxide in the atmosphere absorb strongly at some infrared wavelengths but less so at others, creating these windows that allow astronomers to observe cool celestial objects and that affect Earth's energy balance and climate.
+This wavelength is also important in atmospheric science because it lies at the center of carbon dioxide's strong absorption band near 15 μm, just beyond the relatively transparent "atmospheric window" at about 8–14 μm. Absorption by CO₂ at these wavelengths, close to the peak of Earth's thermal emission, is a major part of the greenhouse effect.
 
 <div class="title">
 Final Answer
@@ -2550,7 +2550,7 @@ Percent accuracy:
 Discussion
 </div>
 
-The ability to measure the Earth-Moon distance to within 1.5 cm (about half an inch) out of 384,000 km is remarkable—a precision of about 4 parts per billion! This is achieved through lunar laser ranging (LLR) experiments that use retroreflector arrays left on the Moon by Apollo 11, 14, and 15 astronauts, and by Soviet Lunokhod rovers.
+The ability to measure the Earth-Moon distance to within 1.5 cm (about half an inch) out of 384,000 km is remarkable—a precision of about 4 parts in $$10^{11}$$ (0.04 parts per billion)! This is achieved through lunar laser ranging (LLR) experiments that use retroreflector arrays left on the Moon by Apollo 11, 14, and 15 astronauts, and by Soviet Lunokhod rovers.
 
 These measurements require extremely precise timing (measuring round-trip times of about 2.5 seconds to nanosecond precision) and sophisticated corrections for atmospheric effects, Earth's rotation, tectonic plate motion, and relativistic effects. The 0.100 ns timing precision mentioned in this problem corresponds to modern LLR capabilities.
 
@@ -2562,7 +2562,7 @@ The fact that we can measure such tiny distances (centimeters) over such vast sc
 Final Answer
 </div>
 
-(a) The distance to the Moon can be determined to an accuracy of 1.50 cm or $$1.50 \times 10^{-2}$$ m. (b) This represents a percent accuracy of $$3.91 \times 10^{-9}\%$$ or about 4 parts per billion.
+(a) The distance to the Moon can be determined to an accuracy of 1.50 cm or $$1.50 \times 10^{-2}$$ m. (b) This represents a percent accuracy of $$3.91 \times 10^{-9}\%$$, or about 4 parts in $$10^{11}$$.
 
 :::
 
@@ -2815,7 +2815,7 @@ The magnetic field strength of 1.7 μT in the thermal radiation is very weak—a
 Final Answer
 </div>
 
-(a) The rate of heat transfer through radiation is $$3.5 \times 10^{2}$$ W/m² or 350 W/m². (b) This is 88% of the absorbed solar radiation. (c) The maximum magnetic field strength is $$1.7 \text{ }\mu\text{T}$$.
+(a) The rate of heat transfer through radiation from 1.0 m² is $$3.5 \times 10^{2}$$ W, an intensity of 350 W/m². (b) This is 88% of the absorbed solar radiation. (c) The maximum magnetic field strength is $$1.7 \text{ }\mu\text{T}$$.
 
 :::
 

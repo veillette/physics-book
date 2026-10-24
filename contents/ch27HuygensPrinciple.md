@@ -126,7 +126,7 @@ In contrast, visible light has wavelengths in the range of 380-760 nm (about 10�
 
 **Discussion**
 
-This principle explains why we can hear someone talking around a corner but cannot see them. It also explains why larger obstacles are needed to observe diffraction effects with light - for example, narrow slits with widths on the order of micrometers are required to see significant diffraction patterns with visible light. The general rule is: diffraction effects are most noticeable when λ ≈ d, where d is the size of the obstacle or opening.
+This principle explains why we can hear someone talking around a corner but cannot see them. It also explains why much smaller obstacles and openings are needed to observe diffraction effects with light - for example, narrow slits with widths on the order of micrometers are required to see significant diffraction patterns with visible light. The general rule is: diffraction effects are most noticeable when λ ≈ d, where d is the size of the obstacle or opening.
 
 :::
 

@@ -950,9 +950,15 @@ $$\sin \theta = \frac{m\lambda}{D} = \frac{(1)(0.567 \text{ m})}{0.800 \text{ m}
 $$\theta = \sin^{-1}(0.709) = 45.1°$$
 </div>
 
+The problem asks for the angle with the door itself, which is the complement of this angle:
+
+<div class="equation">
+$$90.0° - 45.1° = 44.9°$$
+</div>
+
 **Discussion**
 
-The first minimum occurs at 45.1° from the perpendicular to the door. This relatively large angle demonstrates that sound diffracts significantly around the opening because the wavelength (0.567 m) is comparable to the door width (0.800 m). The ratio D/λ = 0.800/0.567 ≈ 1.41, which is small, so diffraction effects are pronounced.
+The first minimum occurs at 44.9° from the plane of the door (45.1° from the perpendicular to the door). This relatively large angle demonstrates that sound diffracts significantly around the opening because the wavelength (0.567 m) is comparable to the door width (0.800 m). The ratio D/λ = 0.800/0.567 ≈ 1.41, which is small, so diffraction effects are pronounced.
 
 This explains why the technician can hear the jet engine even when not directly in line with the door opening - sound bends around the edges of the door. In contrast, if this were light (λ ≈ 500 nm), the ratio D/λ would be about 1.6 million, producing an essentially sharp-edged shadow with the first minimum at an extremely small angle.
 
