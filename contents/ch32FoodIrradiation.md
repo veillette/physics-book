@@ -58,6 +58,26 @@ Does food irradiation leave the food radioactive? To what extent is the food alt
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish ionization and chemical changes from activation of nuclei.
+
+**Solution**
+
+Approved food-irradiation methods and energies do not make the food radioactive. They do create some ions and reactive molecules, changing a fraction of the food’s chemistry. Lower treatment doses generally cause smaller changes; higher doses can produce more changes in vitamins, flavor, color, or texture, depending on the food and conditions.
+
+**Discussion**
+
+The radiation source does not mix with the food. This statement concerns regulated treatment conditions, not every conceivable nuclear irradiation; see the [CDC food-irradiation explanation](https://www.cdc.gov/radiation-health/food-irradiation/index.html).
+
+**Answer**
+
+Proper food irradiation does not leave food radioactive; chemical changes depend on dose, food, and treatment conditions.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -65,6 +85,26 @@ Does food irradiation leave the food radioactive? To what extent is the food alt
 ::: problem
 
 Compare a low dose of radiation to a human with a low dose of radiation used in food treatment.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use absorbed-dose units consistently and compare their scales.
+
+**Solution**
+
+Food treatment commonly uses absorbed doses on the scale of $0.1$–$10\text{ kGy}$, or $100$–$10\,000\text{ J/kg}$. Even a “low” dose in that context can greatly exceed doses described as low for human radiation protection. For example, $0.1\text{ kGy}=100\text{ Gy}$, whereas a uniform $0.1\text{ Gy}$ photon exposure is a thousand times smaller.
+
+**Discussion**
+
+Food is treated to suppress organisms, not to preserve living human tissue. Sieverts describe weighted biological exposure and should not be substituted for grays in food-treatment specifications; see the [FDA food-irradiation overview](https://www.fda.gov/food/irradiation-food-packaging/overview-irradiation-food-and-packaging).
+
+**Answer**
+
+“Low dose” is context-dependent; a low food-treatment dose can be enormously greater than a low human exposure.
 
 :::
 
@@ -79,6 +119,26 @@ Suppose one food irradiation plant uses a  $${}^{137}\text{Cs} $$
  Assuming equal fractions of the  $$\gamma  $$
  rays from the sources are absorbed, why is more time needed to get the same dose using the  $${}^{137}\text{Cs} $$
  source?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare emitted gamma energy per decay at equal activity.
+
+**Solution**
+
+Cobalt-60 typically emits two gamma photons, about $1.17$ and $1.33\text{ MeV}$, totaling $2.50\text{ MeV}$ per decay. Cesium-137’s daughter produces an approximately $0.662\text{ MeV}$ gamma in roughly $85\%$ of parent decays, giving about $0.56\text{ MeV}$ per decay on average. Equal activities therefore give different gamma powers.
+
+**Discussion**
+
+For equal energy-absorption fractions and treated masses, dose rate follows emitted gamma power. The cesium source takes roughly $2.50/0.56\approx4.4$ times as long in this idealization.
+
+**Answer**
+
+Cesium-137 supplies less gamma energy per parent decay, so equal activity delivers the same absorbed dose more slowly.
 
 :::
 

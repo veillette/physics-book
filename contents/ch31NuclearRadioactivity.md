@@ -298,6 +298,26 @@ Suppose the range for  $$5.0\text{MeV}\alpha  $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Recognize energy loss as a sequence of individual interactions.
+
+**Solution**
+
+Nominally identical alpha particles undergo different sequences of collisions, ionizations, and scattering events. Their stopping distances therefore cluster around a characteristic range rather than all equaling exactly $2.0\text{ mm}$.
+
+**Discussion**
+
+The spread is called range straggling; projected penetration can also differ from total path length.
+
+**Answer**
+
+The stated range is characteristic of a distribution with statistical fluctuations.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -305,6 +325,26 @@ Suppose the range for  $$5.0\text{MeV}\alpha  $$
 ::: problem
 
 What is the difference between  $$\gamma  $$  rays and characteristic X-rays? Is either necessarily more energetic than the other? Which can be the most energetic?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish photon origin from photon energy.
+
+**Solution**
+
+Gamma rays originate from nuclear transitions, while characteristic X-rays arise from atomic electron transitions involving inner-shell vacancies. Their energy ranges overlap, so a gamma ray is not necessarily more energetic than an X-ray. Typical nuclear transitions can produce energies far above ordinary characteristic electronic lines.
+
+**Discussion**
+
+At equal energy and polarization, photons have no intrinsic label recording whether the source was atomic or nuclear.
+
+**Answer**
+
+They differ by origin, not a strict energy boundary; gamma rays can greatly exceed characteristic X-ray energies, but overlap occurs.
 
 :::
 
@@ -318,6 +358,26 @@ Ionizing radiation interacts with matter by scattering from electrons and nuclei
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare recoil kinetic energies for a given momentum transfer.
+
+**Solution**
+
+For a nonrelativistic recoiling target, $K=q^2/(2M)$. The same transferred momentum gives a much larger recoil energy to an electron than to a massive nucleus. A heavy projectile can therefore lose substantial energy through interactions with light electrons while imparting relatively little recoil energy to a heavy nucleus.
+
+**Discussion**
+
+This is a kinematic tendency, not a universal statement for all projectiles. Neutrons, for example, transfer energy efficiently to light nuclei, and the interaction probabilities also matter.
+
+**Answer**
+
+Electrons’ low mass allows them to absorb more kinetic energy for a comparable momentum transfer.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -328,6 +388,26 @@ What characteristics of radioactivity show it to be nuclear in origin and not at
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare nuclear energy scales and chemical sensitivity.
+
+**Solution**
+
+Radioactive emission energies are commonly keV to MeV, much larger than ordinary chemical electron energies. Most decay rates are nearly unaffected by temperature, pressure, or chemical bonding. Alpha emission also releases a helium nucleus and radioactive decay can change one element into another.
+
+**Discussion**
+
+Electron capture is a qualified exception: electron density at the nucleus can change its rate. Such effects do not make the underlying transformation nonnuclear.
+
+**Answer**
+
+Large emitted energies, weak chemical dependence, nuclear particles, and elemental transmutation identify a nuclear origin.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -335,6 +415,26 @@ What characteristics of radioactivity show it to be nuclear in origin and not at
 ::: problem
 
 What is the source of the energy emitted in radioactive decay? Identify an earlier conservation law, and describe how it was modified to take such processes into account.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare parent and product rest energies.
+
+**Solution**
+
+Decay energy comes from a reduction in the total rest energy of the nucleus and other participating particles. The difference appears as product kinetic energy, radiation, and recoil. Classical separate conservation of material mass must be replaced by conservation of total relativistic energy, including rest energy $mc^2$.
+
+**Discussion**
+
+An excited nucleus can also emit its stored excitation energy without changing its proton or neutron count.
+
+**Answer**
+
+Decay converts available rest or excitation energy into other forms; total energy remains conserved.
 
 :::
 
@@ -350,6 +450,26 @@ Consider [[Figure 2]](#Figure2). If an electric field is substituted for the mag
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use $\mathbf F=q\mathbf E$ instead of the magnetic-force rule.
+
+**Solution**
+
+In the figure the north pole is on the left and the south pole on the right. Replacing them by positive and negative plates makes the electric field point left to right. Positive alpha particles deflect right, toward the negative plate; negative beta particles deflect left, toward the positive plate; neutral gamma rays are not deflected.
+
+**Discussion**
+
+These directions follow the plate charges and do not require a cross product with the ray velocity.
+
+**Answer**
+
+Alpha: right; beta-minus: left; gamma: straight through.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -359,6 +479,26 @@ Consider [[Figure 2]](#Figure2). If an electric field is substituted for the mag
 Explain how an  $$\alpha  $$
  particle can have a larger range in air than a  $$\beta  $$
  particle with the same energy in lead.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare both the radiation type and the medium.
+
+**Solution**
+
+Air has a much lower density than lead, so a particle crosses far fewer target electrons per centimeter. An alpha can consequently travel farther in air than a same-energy beta travels in dense lead, even though alphas usually have the shorter range when both are compared in the same material.
+
+**Discussion**
+
+The usual alpha–beta range ranking requires holding the medium fixed.
+
+**Answer**
+
+Lead’s much greater stopping power per unit length can outweigh the radiation-type difference.
 
 :::
 
@@ -380,6 +520,26 @@ Arrange the following according to their ability to act as radiation shields, wi
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the interacting material per unit thickness under comparable physical conditions.
+
+**Solution**
+
+The intended qualitative ordering is (d), (a), (b), (c): a dense heavy-element solid, a low-density light-element solid, a heavy-atom gas, then a light-atom gas. Solids generally offer many more interactions per centimeter than gases, and high-$Z$ dense material strongly attenuates many photon energies.
+
+**Discussion**
+
+This is not universal without specifying thickness, gas pressure, and radiation type. Neutron shielding favors suitable light nuclei, and low-$Z$ materials can be preferable for beta shielding to reduce bremsstrahlung.
+
+**Answer**
+
+For the intended equal-thickness, ordinary-density photon-shielding comparison: (d), (a), (b), (c), with the stated qualifications.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -387,6 +547,26 @@ Arrange the following according to their ability to act as radiation shields, wi
 ::: problem
 
 Often, when people have to work around radioactive materials spills, we see them wearing white coveralls (usually a plastic material). What types of radiation (if any) do you think these suits protect the worker from, and how?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish contamination control from penetrating-radiation shielding.
+
+**Solution**
+
+Coveralls help keep radioactive dust and liquids off skin and ordinary clothes. Their material can stop alpha particles and some low-energy beta particles, but thin plastic provides little shielding against penetrating gamma rays or energetic neutrons.
+
+**Discussion**
+
+Coveralls alone do not ensure respiratory protection, and their white color is not the source of radiation attenuation. Required protection depends on the actual exposure route and source.
+
+**Answer**
+
+They mainly limit contamination and stop alpha or some low-energy beta radiation; they are not substantial gamma shielding.
 
 :::
 

@@ -405,6 +405,26 @@ How do the allowed orbits for electrons in atoms differ from the allowed orbits 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare discrete atomic states with the classical continuum of planetary orbits.
+
+**Solution**
+
+In the Bohr model, only selected electron energies and orbital radii are allowed. Classical planets may have a continuous range of orbital energies and radii. The correspondence principle says quantum predictions approach classical behavior when the relevant quantum numbers are large and neighboring levels are very close on the scale of observation.
+
+**Discussion**
+
+Modern atomic states are wavefunctions, not literal planetary paths. Even planetary motion is quantum in principle, but its enormous quantum numbers hide the discreteness.
+
+**Answer**
+
+Atomic states are quantized; planetary orbits are effectively continuous in the large-quantum-number limit.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -412,6 +432,26 @@ How do the allowed orbits for electrons in atoms differ from the allowed orbits 
 ::: problem
 
 Atomic and molecular spectra are discrete. What does discrete mean, and how are discrete spectra related to the quantization of energy and electron orbits in atoms and molecules?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Connect a spectral line with an energy difference.
+
+**Solution**
+
+“Discrete” means separated allowed values rather than every value in a continuous interval. Bound atomic or molecular states have selected energies, and transitions give photon energies $hf=|E_i-E_f|$. These produce separate spectral lines.
+
+**Discussion**
+
+Molecules also have rotational and vibrational states, often giving many closely spaced lines or bands. Ionization can produce a continuous spectrum as well.
+
+**Answer**
+
+Discrete spectral lines represent differences between quantized internal energy levels.
 
 :::
 
@@ -425,6 +465,26 @@ Hydrogen gas can only absorb EM radiation that has an energy corresponding to a 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify which lower levels are populated before absorption.
+
+**Solution**
+
+Room-temperature neutral hydrogen is overwhelmingly in its $n=1$ ground state, so its bound–bound absorption starts there and gives Lyman wavelengths. If excited levels are appreciably populated, absorption can also start from $n=2,3,\ldots$, giving Balmer and other series corresponding to the reverse emission transitions.
+
+**Discussion**
+
+The stated contrast is an idealized level-population argument. A real very hot corona contains strongly ionized gas, and not all neutral-hydrogen emission lines must appear in absorption. Absorption also includes a photoionization continuum above threshold.
+
+**Answer**
+
+Cold neutral hydrogen primarily absorbs from the ground state; populated excited levels allow additional absorption series.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -432,6 +492,26 @@ Hydrogen gas can only absorb EM radiation that has an energy corresponding to a 
 ::: problem
 
 Lasers are used to burn and read CDs. Explain why a laser that emits blue light would be capable of burning and reading more information than one that emits infrared.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare diffraction-limited spot sizes for the same optical geometry.
+
+**Solution**
+
+The minimum focused spot size scales with $\lambda/\mathrm{NA}$, where NA is numerical aperture. Blue light has a shorter wavelength than infrared, so it can address smaller marks and more closely spaced tracks on a recording surface.
+
+**Discussion**
+
+The recording material and optics must support the smaller features. For fixed numerical aperture, ideal areal storage density scales approximately as $1/\lambda^2$.
+
+**Answer**
+
+A blue laser can focus to a smaller spot and therefore write and resolve more information per unit area.
 
 :::
 
@@ -445,6 +525,26 @@ The coating on the inside of fluorescent light tubes absorbs ultraviolet light a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply energy conservation to the absorbed and emitted photons.
+
+**Solution**
+
+One visible photon cannot, by itself, supply the greater energy of a UV photon while leaving an initially unexcited material unchanged. UV emission after visible illumination is nevertheless possible through absorption of multiple photons, stored excitation energy, or additional energy from the material or a pump.
+
+**Discussion**
+
+The reverse of ordinary down-converting fluorescence needs an extra energy source or an upconversion mechanism; it cannot provide a free energy gain.
+
+**Answer**
+
+The claim is possible with additional energy or multiple-photon absorption, but not as simple one-visible-photon-to-one-UV-photon conversion without extra energy.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -455,6 +555,26 @@ What is the difference between fluorescence and phosphorescence?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the lifetimes of the excited states involved.
+
+**Solution**
+
+Fluorescence usually follows a relatively rapid allowed transition and fades promptly when excitation stops. Phosphorescence involves long-lived states, often with spin-forbidden transitions, so emission can continue much longer after excitation is removed.
+
+**Discussion**
+
+The distinction concerns transition mechanisms and characteristic lifetime, not simply the color emitted.
+
+**Answer**
+
+Fluorescence is prompt emission; phosphorescence is delayed emission from longer-lived states.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -462,6 +582,26 @@ What is the difference between fluorescence and phosphorescence?
 ::: problem
 
 How can you tell that a hologram is a true three-dimensional image and that those in 3-D movies are not?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the light arriving at different viewing positions.
+
+**Solution**
+
+A hologram reconstructs a wavefront, so moving one’s head changes the perspective and can reveal different sides of the recorded object within the hologram’s viewing range. A conventional stereoscopic 3-D movie presents two fixed camera views to the two eyes; moving sideways does not reveal a newly recorded viewpoint behind an object.
+
+**Discussion**
+
+Both can give binocular depth cues. The distinction is wavefront reconstruction and motion parallax, not the mere impression of depth.
+
+**Answer**
+
+Change your viewing position: a hologram offers corresponding parallax, whereas an ordinary two-view 3-D movie does not.
 
 :::
 

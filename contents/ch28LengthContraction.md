@@ -313,6 +313,26 @@ To whom does an object seem greater in length, an observer moving with the objec
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply $L=L_0/\gamma$ along the direction of relative motion.
+
+**Solution**
+
+The comoving observer measures the proper length $L_0$. An observer moving relative to the object measures a smaller component along the motion, because $\gamma\geq1$. Transverse dimensions are unchanged.
+
+**Discussion**
+
+Length measurements use simultaneous endpoint positions in the measuring observer’s frame; a photograph alone is not such a measurement.
+
+**Answer**
+
+The comoving observer measures the greater longitudinal length and measures the proper length.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -323,6 +343,26 @@ Relativistic effects such as time dilation and length contraction are present fo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Estimate the Lorentz factor for $v\ll c$.
+
+**Solution**
+
+For ordinary vehicle speeds, $\gamma\approx1+v^2/(2c^2)$. Since $v/c$ is extremely small, clock-rate and length changes are far below everyday perception. Our intuition develops in this low-speed regime.
+
+**Discussion**
+
+Sensitive clocks can detect such effects, but unaided daily experience does not reveal them.
+
+**Answer**
+
+They seem strange because ordinary speeds make relativistic corrections imperceptibly small.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -330,6 +370,26 @@ Relativistic effects such as time dilation and length contraction are present fo
 ::: problem
 
 Suppose an astronaut is moving relative to the Earth at a significant fraction of the speed of light. (a) Does he observe the rate of his clocks to have slowed? (b) What change in the rate of Earth-bound clocks does he see? (c) Does his ship seem to him to shorten? (d) What about the distance between stars that lie on lines parallel to his motion? (e) Do he and an Earth-bound observer agree on his velocity relative to the Earth?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use proper measurements in each inertial frame and compare coordinate measurements after correcting light-travel delays.
+
+**Solution**
+
+(a) His own clocks run normally. (b) He measures moving Earth clocks to run slower by $1/\gamma$. (c) His ship has its normal proper length in his frame. (d) Distances parallel to the motion between stars approximately at rest in Earth’s frame are contracted by $1/\gamma$. (e) They agree on relative speed; their assigned velocity vectors have opposite directions.
+
+**Discussion**
+
+These statements concern inertial coasting. Raw visual clock signals also contain Doppler and travel-time effects, and comparing different distant clocks requires a synchronization convention.
+
+**Answer**
+
+His clock and ship are normal locally; Earth clocks and longitudinal Earth-frame star separations are slowed and contracted in his frame; both frames agree on speed.
 
 :::
 

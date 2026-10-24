@@ -194,6 +194,26 @@ What are some of the reasons that plutonium rather than uranium is used in all f
 
 :::
 
+::: solution
+
+**Strategy**
+
+Separate the historical material choice from the question’s universal claim.
+
+**Solution**
+
+The word “all” is incorrect: uranium-based fission weapons have existed. Plutonium became widely used because fissile plutonium can be produced in reactors and separated chemically, providing an alternative to the demanding isotope separation needed for uranium enrichment.
+
+**Discussion**
+
+Both materials can supply fission energy. Historical availability and production infrastructure help explain their use; this does not imply a universal rule for every weapon.
+
+**Answer**
+
+Plutonium offers production and chemical-separation advantages, but the claim that all fission weapons use it is false.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -201,6 +221,26 @@ What are some of the reasons that plutonium rather than uranium is used in all f
 ::: problem
 
 Use the laws of conservation of momentum and energy to explain how a shape charge can direct most of the energy released in an explosion in a specific direction. (Note that this is similar to the situation in guns and cannons—most of the energy goes into the bullet.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use momentum balance without assuming equal kinetic energies.
+
+**Solution**
+
+If a relatively small mass acquires momentum $p$ in one direction, the remaining system can carry equal opposite momentum. For nonrelativistic recoil, the energies are $p^2/(2m)$ and $p^2/(2M)$, so the smaller mass can carry most of the kinetic energy while the much larger recoiling system carries little.
+
+**Discussion**
+
+The question’s directional release is compatible with conservation laws because momentum and energy are different quantities. The equations explain that compatibility without specifying an explosive configuration.
+
+**Answer**
+
+Opposite momenta balance, while the lighter moving part can receive most of the kinetic energy.
 
 :::
 
@@ -215,6 +255,30 @@ How does the lithium deuteride in the thermonuclear bomb shown in [[Figure 5]](#
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify deuterium in the compound and a neutron reaction producing tritium.
+
+**Solution**
+
+Lithium deuteride already contains deuterium. A lithium-6 nucleus can absorb a neutron and yield helium-4 plus tritium:
+
+$$^6_3\mathrm{Li}+{}^1_0n\to{}^4_2\mathrm{He}+{}^3_1\mathrm H.$$
+
+Charge and nucleon number balance: $3=2+1$ and $6+1=4+3$.
+
+**Discussion**
+
+This is the same basic nuclear breeding reaction discussed in fusion-energy contexts; actual yields depend on isotope composition and neutron conditions.
+
+**Answer**
+
+The deuteride supplies deuterium, while neutron reactions with lithium can produce tritium.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -224,6 +288,26 @@ How does the lithium deuteride in the thermonuclear bomb shown in [[Figure 5]](#
 Fallout from nuclear weapons tests in the atmosphere is mainly  $${}^{90}\text{Sr} $$
  and  $${}^{137}\text{Cs} $$ ,
  which have 28.6- and 32.2-y half-lives, respectively. Atmospheric tests were terminated in most countries in 1963, although China only did so in 1980. It has been found that environmental activities of these two isotopes are decreasing faster than their half-lives. Why might this be?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish decay from removal out of a measured environmental compartment.
+
+**Solution**
+
+Radioactive decay decreases the inventory, but weathering, runoff, leaching, burial, and transport can also remove strontium or cesium from the sampled air, soil surface, or food chain. With little new atmospheric input, measured local activity can therefore decline faster than physical decay alone predicts.
+
+**Discussion**
+
+Transport does not destroy nuclei; it moves them elsewhere. The quoted half-lives are approximate historical values, and a local ecological half-life is not the nuclear half-life.
+
+**Answer**
+
+Environmental redistribution and removal add to radioactive decay, shortening the apparent local persistence.
 
 :::
 

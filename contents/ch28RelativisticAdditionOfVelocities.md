@@ -346,6 +346,26 @@ Explain the meaning of the terms “red shift” and “blue shift” as they re
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate observed frequency and wavelength to approach or recession.
+
+**Solution**
+
+A red shift means a longer observed wavelength and lower frequency, as for longitudinal recession. A blue shift means a shorter wavelength and higher frequency, as for longitudinal approach.
+
+**Discussion**
+
+The names describe the direction of spectral change; radiation need not begin or end in the visible band. Transverse relativistic motion can also produce a red shift.
+
+**Answer**
+
+Red shift is toward longer wavelengths; blue shift is toward shorter wavelengths.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -353,6 +373,26 @@ Explain the meaning of the terms “red shift” and “blue shift” as they re
 ::: problem
 
 What happens to the relativistic Doppler effect when relative velocity is zero? Is this the expected result?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Set $\beta=v/c=0$ in the longitudinal Doppler factor.
+
+**Solution**
+
+For recession, $f_{\rm obs}=f_{\rm src}\sqrt{(1-\beta)/(1+\beta)}$. At zero relative velocity the square root is one, so frequency and wavelength are unchanged.
+
+**Discussion**
+
+This is expected for source and observer at rest relative to each other, with gravitational or medium effects excluded.
+
+**Answer**
+
+The Doppler shift vanishes.
 
 :::
 
@@ -367,6 +407,26 @@ Is the relativistic Doppler effect consistent with the classical Doppler effect 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Inspect the sign of the wavelength Doppler factor for recession.
+
+**Solution**
+
+For $0<\beta<1$, $\lambda_{\rm obs}=\lambda_{\rm src}\sqrt{(1+\beta)/(1-\beta)}>\lambda_{\rm src}$. Recession therefore increases wavelength in both relativistic and classical descriptions.
+
+**Discussion**
+
+The relativistic factor also includes time dilation and approaches the classical first-order result at low speeds.
+
+**Answer**
+
+Yes; both predict longer observed wavelengths for recession.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -375,6 +435,26 @@ Is the relativistic Doppler effect consistent with the classical Doppler effect 
 
 All galaxies farther away than about  $$50 \times 10^{6}  \text{ly} $$
  exhibit a red shift in their emitted light that is proportional to distance, with those farther and farther away having progressively greater red shifts. What does this imply, assuming that the only source of red shift is relative motion? (Hint: At these large distances, it is space itself that is expanding, but the effect on light is the same.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Interpret systematic red shifts under the stated recession assumption.
+
+**Solution**
+
+The galaxies are receding on average, with more distant galaxies receding faster. In the nearby approximately linear regime this gives the Hubble relation $v\approx H_0d$, indicating expansion rather than motion away from one special central galaxy.
+
+**Discussion**
+
+Cosmological redshift is described by expanding spacetime, $1+z=a_{\rm now}/a_{\rm emit}$. A special-relativistic Doppler velocity is not an exact global description of all cosmological distances, and the linear velocity-distance interpretation is a nearby approximation.
+
+**Answer**
+
+The observations imply a large-scale expanding universe under the question’s assumption.
 
 :::
 

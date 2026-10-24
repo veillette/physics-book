@@ -226,6 +226,26 @@ For experimental evidence, particularly of previously unobserved phenomena, to b
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish repeating an event from independently validating its measurements.
+
+**Solution**
+
+Supernova 1987A was recorded by independent instruments and observers, across multiple wavelengths and through neutrino detections, with consistent timing and later evolution. The event cannot be rerun, but the observations can be cross-checked. Historical fifth-force claims did not achieve sufficiently consistent independent confirmation and were constrained by later precision tests.
+
+**Discussion**
+
+Frontier experiments seek weak signals near sensitivity limits, where backgrounds, calibration errors, and selection effects can mimic discoveries. Repeated measurements, independent methods, and explicit uncertainty estimates are therefore especially important. “Fifth force” names many possible hypotheses, not one single settled experiment.
+
+**Answer**
+
+Independent corroboration validates unique astronomical events; a new force requires robust repeatable evidence beyond systematic errors and existing forces.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -233,6 +253,26 @@ For experimental evidence, particularly of previously unobserved phenomena, to b
 ::: problem
 
 Discuss whether you think there are limits to what humans can understand about the laws of physics. Support your arguments.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate demonstrated measurement limits from speculation about ultimate understanding.
+
+**Solution**
+
+One defensible view is that understanding can keep improving while some questions remain inaccessible. Finite signal speed limits observations beyond horizons, quantum theory limits simultaneous sharp values of certain observables, and finite computing resources restrict prediction of complex systems. These are specific constraints, not proof that a fundamental law is forever beyond human comprehension.
+
+**Discussion**
+
+Past progress cautions against declaring a question permanently unsolvable. Conversely, successful laws do not guarantee complete access to every fact about the universe. Other reasoned positions are acceptable if they distinguish evidence from assumption.
+
+**Answer**
+
+Specific observational and computational limits exist, but whether there is an ultimate limit to human understanding of physical laws remains open.
 
 :::
 

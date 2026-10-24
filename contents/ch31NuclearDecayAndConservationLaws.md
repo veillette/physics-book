@@ -530,6 +530,26 @@ Star Trek fans have often heard the term “antimatter drive.” Describe how yo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose charged antimatter and account for confinement and annihilation energy.
+
+**Solution**
+
+Positrons from beta-plus decay can be confined in a suitable electromagnetic trap: a magnetic field confines transverse motion, and electric fields can prevent escape along the field. A high vacuum minimizes encounters with ordinary matter. Releasing positrons to meet electrons allows annihilation, typically producing gamma rays. For a slowly moving matched pair, the rest energy released is $2m_ec^2=1.022\text{ MeV}$.
+
+**Discussion**
+
+Essentially all of that pair’s rest mass becomes radiation; this does not mean all the surrounding bulk material disappears. Producing antimatter already costs at least its rest energy, and storing neutral antihydrogen requires a different, magnetic-moment trap.
+
+**Answer**
+
+Store charged positrons in a vacuum electromagnetic trap, then annihilate them with electrons; both members’ rest masses convert to emitted energy.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -537,6 +557,26 @@ Star Trek fans have often heard the term “antimatter drive.” Describe how yo
 ::: problem
 
 What conservation law requires an electron’s neutrino to be produced in electron capture? Note that the electron no longer exists after it is captured by the nucleus.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Track the electron-family lepton number through $p+e^-\to n+\nu_e$.
+
+**Solution**
+
+The captured electron initially contributes electron-family lepton number $+1$. A neutron carries zero, so an electron neutrino with lepton number $+1$ appears in the elementary capture reaction.
+
+**Discussion**
+
+Energy, momentum, angular momentum, and charge must also be conserved. Neutrino flavor oscillations require care when extending separate family-number conservation beyond this elementary reaction description.
+
+**Answer**
+
+Electron-family lepton-number conservation requires the emitted electron neutrino in the usual capture reaction.
 
 :::
 
@@ -550,6 +590,26 @@ Neutrinos are experimentally determined to have an extremely small mass. Huge nu
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate a relativistic neutrino’s speed deficit to its mass and energy.
+
+**Solution**
+
+For total energy $E\gg mc^2$, $v/c\approx1-m^2c^4/(2E^2)$. Over distance $L$, the propagation delay relative to light is $\Delta t\approx(L/2c)(mc^2/E)^2$. An upper limit on that delay therefore gives $mc^2\lesssim E\sqrt{2c\Delta t/L}$.
+
+**Discussion**
+
+The source’s intrinsic emission timing must be modeled: neutrinos escape a collapsing star before visible light can emerge. The observed arrival difference cannot simply be assigned entirely to neutrino mass. The historical distance in the question is approximate and is not needed for the symbolic bound.
+
+**Answer**
+
+A small allowed propagation delay constrains neutrino mass relative to its measured energy, provided source timing and distance are accounted for.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -557,6 +617,26 @@ Neutrinos are experimentally determined to have an extremely small mass. Huge nu
 ::: problem
 
 What do the three types of beta decay have in common that is distinctly different from alpha decay?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the nucleon changes in beta-minus, beta-plus, electron capture, and alpha decay.
+
+**Solution**
+
+Each beta process converts a neutron into a proton or a proton into a neutron, keeping mass number $A$ unchanged while changing $Z$ by one and emitting a neutrino or antineutrino. Alpha decay emits a bound two-proton, two-neutron nucleus, reducing $A$ by four and $Z$ by two.
+
+**Discussion**
+
+Beta processes involve the weak interaction and lepton bookkeeping; alpha emission involves tunneling of a nuclear cluster.
+
+**Answer**
+
+All three beta processes preserve $A$ and interconvert neutrons and protons, unlike alpha decay, which removes four nucleons.
 
 :::
 
@@ -597,6 +677,28 @@ table for values of $$Z $$.
 
 :::
 
+::: solution
+
+**Strategy**
+
+For beta-minus decay, keep $A$ fixed and increase $Z$ by one.
+
+**Solution**
+
+$$^{40}_{19}\mathrm K\to{}^{40}_{20}\mathrm{Ca}+e^-+\bar\nu_e.$$
+
+The daughter has $40-20=20$ neutrons. Charge is conserved since $19=20-1$, and lepton number is $0=1-1$.
+
+**Discussion**
+
+This is the beta-minus branch; potassium-40 also has other decay modes.
+
+**Answer**
+
+The beta-minus daughter is calcium-40, with an electron and electron antineutrino emitted.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -626,6 +728,28 @@ table for values of $$Z $$.
 
 :::
 
+::: solution
+
+**Strategy**
+
+For beta-plus decay, keep $A$ fixed and decrease $Z$ by one.
+
+**Solution**
+
+$$^{52}_{26}\mathrm{Fe}\to{}^{52}_{25}\mathrm{Mn}+e^++\nu_e.$$
+
+Charge balances as $26=25+1$ and lepton number as $0=-1+1$.
+
+**Discussion**
+
+The daughter may initially be excited and subsequently emit gamma rays; the displayed equation specifies the nuclear transformation.
+
+**Answer**
+
+Iron-52 becomes manganese-52, emitting a positron and electron neutrino.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -650,6 +774,28 @@ Electron capture by  $${}^{7}\text{Be} $$.
 ::: problem
 
 Electron capture by  $${}^{106}\text{In} $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+An electron capture converts a proton into a neutron.
+
+**Solution**
+
+$$^{106}_{49}\mathrm{In}+e^-\to{}^{106}_{48}\mathrm{Cd}+\nu_e.$$
+
+The initial charge is $49-1=48$, matching cadmium; mass number remains 106 and electron-family lepton number remains $+1$.
+
+**Discussion**
+
+An atomic-shell vacancy can subsequently produce X-rays or Auger electrons.
+
+**Answer**
+
+The daughter is cadmium-106 and an electron neutrino is emitted.
 
 :::
 
@@ -683,6 +829,28 @@ Electron capture by  $${}^{106}\text{In} $$.
  decay of  $${}^{226}\text{Ra} $$ ,
  another isotope in the decay series of  $${}^{238}\text{U} $$ ,
  first recognized as a new element by the Curies. Poses special problems because its daughter is a radioactive noble gas.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Subtract two protons and two neutrons for alpha emission.
+
+**Solution**
+
+$$^{226}_{88}\mathrm{Ra}\to{}^{222}_{86}\mathrm{Rn}+{}^4_2\mathrm{He}.$$
+
+Both mass number, $226=222+4$, and charge, $88=86+2$, are conserved.
+
+**Discussion**
+
+The daughter is radon, a noble gas that can migrate out of the parent material.
+
+**Answer**
+
+Radium-226 alpha-decays into radon-222.
 
 :::
 
@@ -722,6 +890,28 @@ periodic table for values of $$Z $$.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Reverse the beta-minus rule to identify the parent of yttrium-90.
+
+**Solution**
+
+Yttrium has $Z=39$, so the parent has $Z=38$, strontium:
+
+$$^{90}_{38}\mathrm{Sr}\to{}^{90}_{39}\mathrm Y+e^-+\bar\nu_e.$$
+
+**Discussion**
+
+The electron and antineutrino balance the emitted charge and lepton number. Mass number is unchanged.
+
+**Answer**
+
+The parent is strontium-90.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -752,6 +942,28 @@ periodic table for values of $$Z $$.
  decay producing  $${}^{208}\text{Pb} $$ .
  The parent nuclide is in the decay series produced by  $${}^{232}\text{Th} $$ ,
  the only naturally occurring isotope of thorium.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Add the alpha particle’s mass number and atomic number to the daughter’s.
+
+**Solution**
+
+The parent has $A=208+4=212$ and $Z=82+2=84$, so
+
+$$^{212}_{84}\mathrm{Po}\to{}^{208}_{82}\mathrm{Pb}+{}^4_2\mathrm{He}.$$
+
+**Discussion**
+
+This identifies the specified decay-chain step. The claim that thorium-232 is the only naturally occurring thorium isotope is an introductory simplification; other thorium isotopes occur in natural decay chains.
+
+**Answer**
+
+Polonium-212 alpha-decays into lead-208.
 
 :::
 
@@ -791,6 +1003,26 @@ Confirm that charge, electron family number, and the total number of nucleons ar
 
 :::
 
+::: solution
+
+**Strategy**
+
+Add each conserved quantity over the products.
+
+**Solution**
+
+Before decay the charge is $Ze$, electron-family lepton number is zero, and nucleon number is $A$. After decay, charge is $(Z-2)e+2e=Ze$, lepton number is $0+0=0$, and nucleon number is $(A-4)+4=A$. The neutron count is also $(N-2)+2=N$.
+
+**Discussion**
+
+The alpha particle is a helium nucleus; atomic electrons are not included in this nuclear equation.
+
+**Answer**
+
+Charge, electron-family lepton number, and total nucleon number are conserved with values $Ze$, zero, and $A$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -819,6 +1051,30 @@ Confirm that charge, electron family number, and the total number of nucleons ar
 Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for  $${\beta }^{-} $$
  decay given in the equation  $${}_{Z}^{A}{X}_{N}\to {}_{Z-1}^{A}{\text{Y}}_{N-1}+{\beta }^{-}+{\nu }_{e} $$ .
  To do this, identify the values of each before and after the decay.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Test the printed equation before attempting to confirm its conservation laws.
+
+**Solution**
+
+The printed equation is incorrect: its final charge would be $(Z-1)e-e=(Z-2)e$, and its neutrino would give electron-family number $1+1=2$. The beta-minus rule is instead
+
+$$^A_ZX_N\to{}^A_{Z+1}Y_{N-1}+e^-+\bar\nu_e.$$
+
+Now charge is $Ze=(Z+1)e-e$, lepton number is $0=1-1$, and nucleon number is $A=A+0+0$.
+
+**Discussion**
+
+A neutron becomes a proton, so $N$ decreases by one while $Z$ increases by one. The emitted neutral lepton is an antineutrino.
+
+**Answer**
+
+The printed rule cannot be confirmed; the corrected beta-minus equation conserves all three quantities.
 
 :::
 
@@ -851,6 +1107,28 @@ A rare decay mode has been observed in which  $${}^{222}\text{Ra} $$
  Identify the nuclide  $${}^{A}\text{X} $$ .
  (b) Find the energy emitted in the decay. The mass of  $${}^{222}\text{Ra} $$
  is 222.015353 u.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Conserve charge and mass number, then use the neutral-atom mass difference.
+
+**Solution**
+
+(a) The daughter has $A=222-14=208$ and $Z=88-6=82$, so it is $^{208}\mathrm{Pb}$. (b) With the supplied parent mass and appendix product masses,
+
+$$Q=[222.015353-207.976627-14.003241]\times(931.5\text{ MeV})=33.05\text{ MeV}.$$
+
+**Discussion**
+
+Neutral electron counts balance, so atomic masses can be used. The energy is shared between product recoil and any subsequent excitation radiation.
+
+**Answer**
+
+(a) Lead-208; (b) approximately $33.1\text{ MeV}$.
 
 :::
 
@@ -887,6 +1165,26 @@ A rare decay mode has been observed in which  $${}^{222}\text{Ra} $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use alpha-decay bookkeeping and the appendix atomic masses.
+
+**Solution**
+
+(a) $^{249}_{98}\mathrm{Cf}\to{}^{245}_{96}\mathrm{Cm}+{}^4_2\mathrm{He}$. (b) $Q=[249.074844-245.065483-4.002603]\times(931.5\text{ MeV})=6.295\text{ MeV}$.
+
+**Discussion**
+
+This is the total ground-state mass-difference energy, not necessarily one alpha-line energy: daughter excitation and recoil may share it.
+
+**Answer**
+
+(a) Californium-249 becomes curium-245 plus an alpha particle; (b) $Q\approx6.30\text{ MeV}$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -914,6 +1212,26 @@ A rare decay mode has been observed in which  $${}^{222}\text{Ra} $$
 (a) Write the complete  $${\beta }^{-} $$
  decay equation for  $${}^{90}\text{Sr} $$ ,
  a major waste product of nuclear reactors. (b) Find the energy released in the decay.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Write beta-minus decay and subtract neutral-atom masses.
+
+**Solution**
+
+(a) $^{90}_{38}\mathrm{Sr}\to{}^{90}_{39}\mathrm Y+e^-+\bar\nu_e$. (b) The atomic-mass beta-minus formula is $Q=[M(^{90}\mathrm{Sr})-M(^{90}\mathrm Y)]c^2$. Thus $Q=(89.907738-89.907152)(931.5\text{ MeV})=0.5459\text{ MeV}$.
+
+**Discussion**
+
+Do not subtract an additional electron mass when using neutral atomic masses for beta-minus decay. The energy is shared by the electron, antineutrino, and recoil.
+
+**Answer**
+
+The daughter is yttrium-90 and the available decay energy is approximately $0.546\text{ MeV}$.
 
 :::
 
@@ -947,6 +1265,28 @@ Calculate the energy released in the  $${\beta }^{+} $$
  decay equation for  $${}^{11}\text{C} $$.
 
 (b) Calculate the energy released in the decay. The masses of $${}^{11}\text{C} $$ and $${}^{11}\text{B} $$ are 11.011433 and 11.009305 u, respectively.
+
+:::
+
+::: solution
+
+**Strategy**
+
+For beta-plus decay with neutral atomic masses, subtract two electron masses.
+
+**Solution**
+
+(a) $^{11}_6\mathrm C\to{}^{11}_5\mathrm B+e^++\nu_e$. (b) With $m_e=0.00054858\text{ u}$,
+
+$$Q=[11.011433-11.009305-2(0.00054858)]\times(931.5\text{ MeV})=0.960\text{ MeV}.$$
+
+**Discussion**
+
+The two-electron correction accounts for the emitted positron and the difference in neutral-atom electron counts. Later positron annihilation is a separate energy-transfer event.
+
+**Answer**
+
+Carbon-11 becomes boron-11, with approximately $0.960\text{ MeV}$ available to the beta-decay products.
 
 :::
 
@@ -987,6 +1327,26 @@ sample is not detectable for a macroscopic sample.
 
 (a) Write the complete reaction equation for electron capture by  $${}^{7}\text{Be} \text{.}  $$
 (b) Calculate the energy released.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Electron capture lowers $Z$ by one; use the neutral-atom mass difference for its total energy.
+
+**Solution**
+
+(a) $^{7}_4\mathrm{Be}+e^-\to{}^{7}_3\mathrm{Li}+\nu_e$. (b) From the appendix, $Q=(7.016928-7.016003)(931.5\text{ MeV})=0.8616\text{ MeV}$.
+
+**Discussion**
+
+Atomic masses already include the captured electron. Recoil, daughter excitation, and atomic relaxation affect the energy of an individual neutrino line.
+
+**Answer**
+
+The daughter is lithium-7 and the total available energy is approximately $0.862\text{ MeV}$.
 
 :::
 

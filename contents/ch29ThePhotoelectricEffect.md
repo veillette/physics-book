@@ -262,6 +262,26 @@ Is visible light the only type of EM radiation that can cause the photoelectric 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare photon energy with the material’s work function.
+
+**Solution**
+
+No. Any electromagnetic radiation with photons satisfying $hf\geq\phi$ can eject electrons by single-photon photoemission, where $\phi$ is the work function. UV and X-rays readily qualify for many materials; some low-work-function surfaces respond to visible or longer-wavelength radiation.
+
+**Discussion**
+
+The threshold is material-dependent, not fixed at the edge of the visible spectrum.
+
+**Answer**
+
+Photoemission can be caused by radiation outside the visible band if its photon energy is sufficient.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -269,6 +289,26 @@ Is visible light the only type of EM radiation that can cause the photoelectric 
 ::: problem
 
 Which aspects of the photoelectric effect cannot be explained without photons? Which can be explained without photons? Are the latter inconsistent with the existence of photons?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate the threshold and electron-energy observations from total current.
+
+**Solution**
+
+A classical continuous-wave energy-transfer model does not explain the frequency threshold, prompt emission at low intensity, or $K_{\max}=hf-\phi$ with electron energy independent of intensity. The increase of photoelectric current with intensity above threshold is compatible with classical expectations of more energy arriving, and also with more photons ejecting more electrons.
+
+**Discussion**
+
+These observations motivate the photon description in the introductory treatment. A full quantum calculation can also use a classical field with quantized matter for many photoelectric observations, so the experiment alone is not a proof that every field property requires quantization.
+
+**Answer**
+
+The threshold and frequency-dependent electron energy defeat the classical absorption model; intensity-dependent current is consistent with photons as well.
 
 :::
 
@@ -282,6 +322,26 @@ Is the photoelectric effect a direct consequence of the wave character of EM rad
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify how the incident energy is transferred to an emitted electron.
+
+**Solution**
+
+In the photon model, one photon transfers a discrete energy $hf$ to an electron. After paying the work function $\phi$, the electron can emerge with kinetic energy up to $hf-\phi$. This is the particle-like energy-transfer aspect of radiation.
+
+**Discussion**
+
+The photon energy still depends on the wave frequency, connecting the wave and particle descriptions.
+
+**Answer**
+
+The elementary photon explanation emphasizes radiation’s particle character.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -292,6 +352,26 @@ Insulators (nonmetals) have a higher BE than metals, and it is more difficult fo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish motion within a solid from escape into vacuum.
+
+**Solution**
+
+Metals have occupied electronic states and nearby available states that allow electrons to respond readily to an electric field, giving good conduction. In insulators, a band gap restricts such transport. Nevertheless, even a mobile metal electron needs energy to cross the surface barrier and escape, so conductivity does not mean zero work function.
+
+**Discussion**
+
+The question’s higher binding-energy comparison is qualitative; actual photoemission thresholds depend on band structure, electron affinity, and surface condition, not conductivity alone.
+
+**Answer**
+
+Metals have mobile internal charges, whereas insulators restrict charge transport; escape from either material still requires an appropriate energy input.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -299,6 +379,26 @@ Insulators (nonmetals) have a higher BE than metals, and it is more difficult fo
 ::: problem
 
 If you pick up and shake a piece of metal that has electrons in it free to move as a current, no electrons fall out. Yet if you heat the metal, electrons can be boiled off. Explain both of these facts as they relate to the amount and distribution of energy involved with shaking the object as compared with heating it.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare collective motion of the solid with random electron energy relative to its surface barrier.
+
+**Solution**
+
+Ordinary shaking moves the lattice and electrons mostly together and does not give individual electrons several electron volts of escape energy relative to the metal. Heating broadens the distribution of electron energies; at sufficiently high temperature, a small fraction can overcome the work function and leave by thermionic emission.
+
+**Discussion**
+
+The relevant energy is the electron’s energy relative to the material, not the total translational kinetic energy of the whole object.
+
+**Answer**
+
+Shaking does not normally overcome the surface barrier; heating can populate a high-energy tail that does.
 
 :::
 

@@ -121,6 +121,26 @@ What is the Zeeman effect, and what type of quantization was discovered because 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate magnetic-field energy shifts to angular-momentum projections.
+
+**Solution**
+
+The Zeeman effect is the splitting of atomic spectral lines in an applied magnetic field. The field distinguishes states with different allowed magnetic-moment projections, revealing quantization of angular-momentum orientation, represented by magnetic quantum numbers.
+
+**Discussion**
+
+Orbital angular momentum explains the normal Zeeman pattern; electron spin is also needed for more general patterns.
+
+**Answer**
+
+It is magnetic splitting of spectral lines, providing evidence for quantized angular-momentum projections.
+
+:::
+
 </div>
 
 ::: glossary

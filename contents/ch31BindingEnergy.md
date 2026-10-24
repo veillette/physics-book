@@ -322,6 +322,26 @@ Why is the number of neutrons greater than the number of protons in stable nucle
 
 :::
 
+::: solution
+
+**Strategy**
+
+Balance nuclear attraction against proton–proton electric repulsion.
+
+**Solution**
+
+Neutrons add short-range attractive nuclear interactions without adding electric repulsion. As the proton number grows, the accumulated Coulomb repulsion makes a neutron excess favorable. The nuclear symmetry-energy cost prevents an unlimited excess, so stability reflects a balance of both effects.
+
+**Discussion**
+
+For light stable nuclei, $N\approx Z$ is common; heavier stable nuclei generally require $N>Z$.
+
+**Answer**
+
+Heavy nuclei need extra neutrons to provide binding without increasing proton repulsion.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -355,6 +375,30 @@ Why is the number of neutrons greater than the number of protons in stable nucle
  has even numbers of both protons and neutrons. Calculate  $$BE/A $$ ,
  the binding energy per nucleon, for  $${}^{56}\text{Fe} $$
  and compare it with the approximate value obtained from the graph in [[Figure 3]](#Figure3).
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use neutral-atom masses so the electron masses cancel to the precision required.
+
+**Solution**
+
+From [Appendix A](/contents/appendixA.md#Atomic-Masses), $M(^{56}\mathrm{Fe})=55.934939\text{ u}$. Thus
+
+$$BE=[26(1.007825)+30(1.008665)-55.934939]\times(931.5\text{ MeV})=492.26\text{ MeV},$$
+
+and $BE/A=(492.26\text{ MeV})/56=8.790\text{ MeV}$ per nucleon.
+
+**Discussion**
+
+This agrees with the graph’s near-peak value of approximately $8.8\text{ MeV}$ per nucleon.
+
+**Answer**
+
+$BE/A\approx8.79\text{ MeV per nucleon}$.
 
 :::
 
@@ -392,6 +436,32 @@ Why is the number of neutrons greater than the number of protons in stable nucle
  Note that  $${}^{238}\text{U} $$
  has even numbers of both protons and neutrons. Is the  $$\text{BE}/A $$
  of  $${}^{238}\text{U} $$  significantly different from that of  $${}^{235}\text{U} $$ ?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply $BE=[ZM_H+(A-Z)m_n-M_A]c^2$ to both isotopes.
+
+**Solution**
+
+Using the neutral masses in [Appendix A](/contents/appendixA.md#Atomic-Masses),
+
+$$BE_{235}=[92(1.007825)+143(1.008665)-235.043924]\times(931.5\text{ MeV})=1783.89\text{ MeV},$$
+
+$$BE_{238}=[92(1.007825)+146(1.008665)-238.050784]\times(931.5\text{ MeV})=1801.71\text{ MeV}.$$
+
+Therefore (a) $BE_{235}/235=7.591\text{ MeV}$ and (b) $BE_{238}/238=7.570\text{ MeV}$.
+
+**Discussion**
+
+The difference is only about $0.27\%$. Even–even pairing does not override every other contribution to binding energy, so it does not require the larger isotope to have greater binding per nucleon.
+
+**Answer**
+
+(a) $7.59\text{ MeV per nucleon}$; (b) $7.57\text{ MeV per nucleon}$; they are very similar.
 
 :::
 
@@ -433,6 +503,26 @@ The fact that  $$\text{BE}/A $$  is greatest for  $$A $$
  for  $${}^{58}\text{Ni} $$
  and  $${}^{90}\text{Sr} $$ .
  The first is one of the most tightly bound nuclides, while the second is larger and less tightly bound.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Calculate the diameter from the radius law and compare neutral-atom mass defects.
+
+**Solution**
+
+(a) $D=2r_0A^{1/3}=2(1.2\text{ fm})60^{1/3}=9.40\text{ fm}$. (b) With the appendix masses, $BE(^{58}\mathrm{Ni})=[28(1.007825)+30(1.008665)-57.935346]\times(931.5\text{ MeV})=506.46\text{ MeV}$, giving $8.732\text{ MeV}$ per nucleon. For $^{90}\mathrm{Sr}$, $BE=[38(1.007825)+52(1.008665)-89.907738]\times(931.5\text{ MeV})=782.64\text{ MeV}$, giving $8.696\text{ MeV}$ per nucleon.
+
+**Discussion**
+
+The question’s force-range inference is not valid: the residual nuclear force acts over only a few femtometers, not the entire $9.4\text{ fm}$ diameter. Saturation, surface effects, neutron–proton balance, and Coulomb repulsion together shape the binding curve.
+
+**Answer**
+
+(a) $9.4\text{ fm}$; (b) $8.73\text{ MeV}$ for nickel and $8.70\text{ MeV}$ for strontium per nucleon; the diameter is not a measurement of force range.
 
 :::
 

@@ -173,6 +173,26 @@ If a GUT is proven, and the four forces are unified, it will still be correct to
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish a unified fundamental description from its low-energy limits.
+
+**Solution**
+
+A successful unified theory would reproduce gravity as an effective interaction at lunar-orbit scales. The Moon and Earth are nearly electrically neutral, and short-range nuclear interactions do not control their orbital motion, so gravity would remain the appropriate explanation.
+
+**Discussion**
+
+Conventionally, a grand unified theory joins strong and electroweak interactions; including gravity requires further unification. Neither kind would invalidate accurate low-energy gravitational predictions.
+
+**Answer**
+
+Unification would explain why the effective forces arise, while leaving gravity as the interaction governing the Moon’s orbit.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -180,6 +200,26 @@ If a GUT is proven, and the four forces are unified, it will still be correct to
 ::: problem
 
 If the Higgs boson is discovered and found to have mass, will it be considered the ultimate carrier of the weak force? Explain your response.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish the Higgs field’s role from weak gauge-boson exchange.
+
+**Solution**
+
+The Higgs boson was discovered in 2012; the question’s conditional wording is historical. The weak interaction is mediated by the $W^\pm$ and $Z^0$ bosons. The Higgs field’s nonzero vacuum value is involved in giving those bosons mass; the Higgs excitation does not replace them as weak-force carriers.
+
+**Discussion**
+
+The Higgs has its own interactions and is a spin-zero particle, unlike the spin-one weak gauge bosons. See [CERN’s Higgs explanation](https://home.web.cern.ch/science/physics/higgs-boson/what/).
+
+**Answer**
+
+No; a massive Higgs boson does not supersede the $W$ and $Z$ as the weak mediators.
 
 :::
 
@@ -193,6 +233,26 @@ Gluons and the photon are massless. Does this imply that the  $${W}^{+} $$ ,
   $${W}^{-} $$ ,
  and  $${Z}^{0} $$
  are the ultimate carriers of the weak force?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate mediator mass from evidence for elementary structure.
+
+**Solution**
+
+The photon and gluons are massless gauge bosons, whereas electroweak symmetry breaking gives the $W$ and $Z$ masses. This difference does not imply either compositeness or an additional hidden weak mediator. In the Standard Model the $W$ and $Z$ are elementary gauge bosons.
+
+**Discussion**
+
+Whether a description is ultimately complete is an experimental question; mass alone cannot answer it. [CERN’s electroweak overview](https://home.cern/science/physics/unified-forces/) describes the roles of these carriers.
+
+**Answer**
+
+Their mass does not prove an “ultimate” status or imply substructure; the Standard Model treats them as fundamental weak mediators.
 
 :::
 

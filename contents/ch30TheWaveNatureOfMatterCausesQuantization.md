@@ -172,4 +172,24 @@ How is the de Broglie wavelength of electrons related to the quantization of the
 
 :::
 
+::: solution
+
+**Strategy**
+
+Require a consistent electron wave after a complete circuit in the Bohr–de Broglie picture.
+
+**Solution**
+
+The orbital circumference must contain an integer number of wavelengths: $2\pi r=n\lambda$. Substituting $\lambda=h/p$ gives $pr=n\hbar$. Waves failing the boundary condition do not form an allowed stationary state.
+
+**Discussion**
+
+This illustrates quantization, but full atoms and molecules require three-dimensional wavefunctions with appropriate boundary conditions rather than literal circular waves alone.
+
+**Answer**
+
+Allowed stationary states satisfy wave boundary conditions; in the circular illustration, an integer number of de Broglie wavelengths fits around the orbit.
+
+:::
+
 </div>

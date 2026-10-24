@@ -312,6 +312,26 @@ Explain why characteristic X-rays are the most energetic in the EM emission spec
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare inner-shell and outer-shell energy differences.
+
+**Solution**
+
+Inner electrons are strongly bound, so transitions filling inner-shell vacancies can release much more energy than the outer-electron transitions responsible for visible and UV lines. These characteristic atomic lines therefore lie at the high-energy end of the element’s ordinary electronic line spectrum.
+
+**Discussion**
+
+The claim is limited to electronic characteristic lines. Nuclear gamma rays and sufficiently energetic bremsstrahlung can exceed them, and light elements’ characteristic lines need not fall in the usual X-ray range.
+
+**Answer**
+
+Large inner-shell energy gaps produce the highest-energy ordinary characteristic electronic lines, not an absolute upper bound on every emission process.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -319,6 +339,26 @@ Explain why characteristic X-rays are the most energetic in the EM emission spec
 ::: problem
 
 Why does the energy of characteristic X-rays become increasingly greater for heavier atoms?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Estimate inner-shell binding with an effective nuclear charge.
+
+**Solution**
+
+Higher nuclear charge binds inner electrons more strongly. A hydrogen-like estimate gives binding energies proportional to $Z_{\rm eff}^2$, so differences between inner-shell levels generally increase with atomic number, producing more energetic characteristic X-rays.
+
+**Discussion**
+
+Shielding and electron interactions modify the simple scaling, but it captures the trend behind Moseley’s law.
+
+**Answer**
+
+Heavier nuclei generally produce larger inner-shell transition energies because of their stronger electric attraction.
 
 :::
 
@@ -332,6 +372,26 @@ Observers at a safe distance from an atmospheric test of a nuclear bomb feel its
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare wavelength-dependent interactions with the atmospheric column.
+
+**Solution**
+
+X-rays can ionize atmospheric atoms and molecules and undergo substantial photoelectric absorption and scattering over a long air path. Some infrared bands lie in atmospheric transmission windows, so part of the thermal pulse can reach distant observers.
+
+**Discussion**
+
+Air is not transparent to every infrared wavelength: water vapor and carbon dioxide absorb strongly in selected bands. “None” of the X-rays means negligible transmitted fluence in the assumed setting.
+
+**Answer**
+
+The atmosphere strongly attenuates the prompt X-rays while transmitting enough of the thermal spectrum through its visible and infrared windows to be felt.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -339,6 +399,26 @@ Observers at a safe distance from an atmospheric test of a nuclear bomb feel its
 ::: problem
 
 Lasers are used to burn and read CDs. Explain why a laser that emits blue light would be capable of burning and reading more information than one that emits infrared.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare focused spot sizes at the same numerical aperture.
+
+**Solution**
+
+Diffraction-limited spot diameter scales with wavelength. Blue light has a shorter wavelength than infrared, permitting smaller recorded marks and more closely spaced tracks when the optics and storage material support them.
+
+**Discussion**
+
+Higher photon energy alone is not the storage-density explanation; the relevant advantage is the smaller addressable area.
+
+**Answer**
+
+A blue laser can write and resolve smaller features, increasing storage density.
 
 :::
 
@@ -352,6 +432,26 @@ Crystal lattices can be examined with X-rays but not UV. Why?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the wavelength with lattice-plane spacing using Bragg’s law.
+
+**Solution**
+
+Atomic plane spacings are commonly of order $0.1\text{ nm}$. X-rays have comparable wavelengths and can satisfy $2d\sin\theta=m\lambda$ at measurable angles. Typical UV wavelengths are far larger than $2d$, so no nonzero Bragg order exists for those spacings.
+
+**Discussion**
+
+UV can probe electronic properties, but it cannot resolve ordinary atomic lattice spacings by this diffraction method.
+
+**Answer**
+
+X-ray wavelengths match atomic lattice scales; UV wavelengths are too long for ordinary atomic-plane Bragg diffraction.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -359,6 +459,26 @@ Crystal lattices can be examined with X-rays but not UV. Why?
 ::: problem
 
 CT scanners do not detect details smaller than about 0.5 mm. Is this limitation due to the wavelength of X-rays? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the stated detail size with a typical diagnostic X-ray wavelength.
+
+**Solution**
+
+Typical X-ray wavelengths are around $10^{-11}$ to $10^{-10}\text{ m}$, enormously smaller than $0.5\text{ mm}=5\times10^{-4}\text{ m}$. The stated CT limit instead reflects detector sampling, focal-spot size, projection geometry, reconstruction, motion, and photon-count noise.
+
+**Discussion**
+
+Resolving power varies with scanner and protocol; the question’s number is an illustrative instrument limit, not a fundamental wavelength limit.
+
+**Answer**
+
+No; practical CT resolution is set by the imaging system and data quality rather than the X-ray wavelength.
 
 :::
 

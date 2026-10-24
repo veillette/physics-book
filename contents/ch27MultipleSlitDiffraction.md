@@ -224,6 +224,26 @@ What is the advantage of a diffraction grating over a double slit in dispersing 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare interference maxima as the number of illuminated slits increases.
+
+**Solution**
+
+Many equally spaced slits produce narrower principal maxima than two slits. Nearby wavelengths whose broad double-slit maxima overlap can therefore form distinguishable grating peaks.
+
+**Discussion**
+
+For an ideal grating the resolving power is $\lambda/\Delta\lambda=mN$, where $m$ is the order and $N$ is the number of illuminated slits. The slit spacing sets the peak directions; the number illuminated controls their sharpness.
+
+**Answer**
+
+A grating gives sharper spectral lines and better separation of nearby wavelengths.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -231,6 +251,26 @@ What is the advantage of a diffraction grating over a double slit in dispersing 
 ::: problem
 
 What are the advantages of a diffraction grating over a prism in dispersing light for spectral analysis?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare how a prism and a grating separate wavelengths.
+
+**Solution**
+
+A grating produces narrow maxima at angles satisfying $d\sin\theta=m\lambda$, so wavelength follows directly from the known spacing and measured angle. It can provide high resolving power without needing a material's wavelength-dependent refractive index. Prisms instead rely on material dispersion.
+
+**Discussion**
+
+Gratings have overlapping spectral orders and distribute power among them; they do not outperform prisms for every purpose. Their sharp lines and simple wavelength relation are the principal advantages here.
+
+**Answer**
+
+Gratings offer sharp, highly resolved lines and a direct geometric wavelength calibration.
 
 :::
 
@@ -244,6 +284,26 @@ Can the lines in a diffraction grating be too close together to be useful as a s
 
 :::
 
+::: solution
+
+**Strategy**
+
+Require a physically possible angle in the grating equation at normal incidence.
+
+**Solution**
+
+For the first nonzero order, $\sin\theta=\lambda/d\leq1$. If the spacing $d$ is smaller than every visible wavelength, no first or higher visible order can propagate; the central order does not disperse the colors. Such a grating can instead disperse shorter wavelengths satisfying $\lambda\leq d$, for example ultraviolet radiation for suitable spacing.
+
+**Discussion**
+
+The criterion assumes normal incidence, as in the section. A wavelength equal to $d$ gives a grazing first order, which is generally impractical to collect.
+
+**Answer**
+
+Yes. Excessively small spacing suppresses nonzero visible orders; shorter-wavelength radiation may still be dispersed.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -251,6 +311,26 @@ Can the lines in a diffraction grating be too close together to be useful as a s
 ::: problem
 
 If a beam of white light passes through a diffraction grating with vertical lines, the light is dispersed into rainbow colors on the right and left. If a glass prism disperses white light to the right into a rainbow, how does the sequence of colors compare with that produced on the right by a diffraction grating?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the wavelength dependence of deviation.
+
+**Solution**
+
+On the right of a grating's central maximum, $\sin\theta=m\lambda/d$ puts violet closer to the center and red farther away. In an ordinary glass prism under normal visible dispersion, violet is refracted more strongly than red. For a prism deviating light to the right, red is nearer the undeviated direction and violet is farther right.
+
+**Discussion**
+
+The comparison concerns the same side of the undeviated direction; the grating also produces a corresponding spectrum on the left.
+
+**Answer**
+
+The sequences are reversed: grating, violet to red outward; ordinary prism, red to violet outward.
 
 :::
 
@@ -264,6 +344,26 @@ Suppose pure-wavelength light falls on a diffraction grating. What happens to th
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use $\sin\theta_m=m\lambda/d$ for each surviving order.
+
+**Solution**
+
+More lines per centimeter means smaller spacing $d$, so each nonzero order moves farther from the central maximum. A longer wavelength on the original grating does the same. Either change can eliminate high orders when $m\lambda/d>1$; the central maximum remains at zero angle.
+
+**Discussion**
+
+Both changes increase $\lambda/d$, so their effects on maximum positions are consistent. Peak widths also depend on how many lines are illuminated.
+
+**Answer**
+
+The noncentral maxima move outward, and fewer orders may remain visible, in both cases.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -274,6 +374,26 @@ Suppose a feather appears green but has no green pigment. Explain in terms of di
 
 :::
 
+::: solution
+
+**Strategy**
+
+Treat regularly spaced microscopic feather structures as interfering scatterers.
+
+**Solution**
+
+Light scattered from neighboring structures can arrive in phase for green wavelengths in the viewing direction, while other wavelengths interfere less constructively. The feather can therefore reflect green preferentially without a green absorbing pigment.
+
+**Discussion**
+
+Such structural color often changes with illumination or viewing angle because the path differences change. The detailed structure may act as a multilayer reflector rather than a simple transmission grating.
+
+**Answer**
+
+Constructive interference from microscopic feather structures can select green light.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -281,6 +401,26 @@ Suppose a feather appears green but has no green pigment. Explain in terms of di
 ::: problem
 
 It is possible that there is no minimum in the interference pattern of a single slit. Explain why. Is the same true of double slits and diffraction gratings?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Check whether the first destructive-interference condition has an allowed angle.
+
+**Solution**
+
+A single slit of width $a$ has its first minimum at $a\sin\theta=\lambda$. For $a<\lambda$, no such angle exists. For two narrow slits separated by $d$, the first interference minimum needs $d\sin\theta=\lambda/2$, so it too can be absent if $d<\lambda/2$. For $N$ identical equally illuminated narrow slits, the first array minimum is at $d\sin\theta=\lambda/N$; sufficiently small spacing can also put this outside the physical angular range.
+
+**Discussion**
+
+At equality the first zero occurs at grazing incidence. Real patterns also contain each slit’s diffraction envelope. Absence of a first array minimum requires the more restrictive spacing criterion above, not merely absence of a first principal maximum.
+
+**Answer**
+
+Yes for all three arrangements, if their relevant dimensions are sufficiently small compared with the wavelength.
 
 :::
 
@@ -1520,6 +1660,28 @@ wavelengths you wish to be able to distinguish, the number of lines per meter on
 the diffraction grating, and the distance from the grating to the screen or
 detector. Discuss the practicality of the device in terms of being able to
 discern between wavelengths of interest.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Specify two wavelengths, solve the grating equation, and project the angles onto a screen.
+
+**Solution**
+
+One possible problem uses $500\text{ nm}$ and $510\text{ nm}$ light, a $600\text{ lines/mm}$ grating, and a screen $1.00\text{ m}$ away. The spacing is $d=1/(6.00\times10^5\text{ m}^{-1})=1.667\times10^{-6}\text{ m}$. In first order, $\sin\theta_1=0.300$ and $\sin\theta_2=0.306$. Since $x=L\tan\theta$,
+
+$$x_1=0.3145\text{ m},\qquad x_2=0.3214\text{ m},\qquad \Delta x=6.93\text{ mm}.$$
+
+**Discussion**
+
+A millimeter-scale separation is practical if the entrance slit, optical blur, and detector resolution give narrower lines. The grating itself needs at least $N\approx\lambda/\Delta\lambda\approx51$ illuminated lines in first order to meet the ideal resolving criterion.
+
+**Answer**
+
+This example separates the two first-order wavelengths by approximately $6.9\text{ mm}$.
 
 :::
 

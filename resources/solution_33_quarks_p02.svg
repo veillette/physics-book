@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="550" viewBox="0 0 1040 550" role="img" aria-labelledby="title desc">
+  <title id="title">Quark flow in pion–proton production and decay of Delta double-plus</title>
+  <desc id="desc">Time runs left to right. Three up-quark lines pass through the intermediate Delta. A down quark and anti-down quark annihilate into strong-interaction gluons on the left; a new down–anti-down pair is produced on the right. Antiquark arrows point opposite to the time direction. Gluon connections are schematic effective interactions.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0 0L9 3.5L0 7Z" fill="#222"/></marker>
+  </defs>
+  <rect width="1040" height="550" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#222" text-anchor="middle">
+    <text x="520" y="28" font-size="22">π⁺ + p → Δ⁺⁺ → π⁺ + p</text>
+    <text x="520" y="54" font-size="15">Constituent flow; gluon connections represent effective strong interactions</text>
+    <text x="520" y="235" font-size="23">Δ⁺⁺ (uuu)</text>
+    <text x="520" y="263" font-size="15">intermediate color-singlet resonance</text>
+    <text x="120" y="81" font-size="17">incoming π⁺</text>
+    <text x="120" y="304" font-size="17">incoming p</text>
+    <text x="920" y="81" font-size="17">outgoing π⁺</text>
+    <text x="920" y="304" font-size="17">outgoing p</text>
+    <text x="220" y="204" font-size="17">d̄</text>
+    <text x="220" y="256" font-size="17">d</text>
+    <text x="820" y="204" font-size="17">d̄</text>
+    <text x="820" y="256" font-size="17">d</text>
+    <text x="285" y="158" font-size="17">g</text>
+    <text x="755" y="158" font-size="17">g</text>
+    <text x="270" y="470" font-size="15">d + d̄ annihilation</text>
+    <text x="770" y="470" font-size="15">d + d̄ creation</text>
+    <text x="520" y="530" font-size="15">Arrows follow quark flow; antiquark arrows point opposite to time.</text>
+  </g>
+  <g fill="none" stroke="#222" stroke-width="2.2">
+    <path d="M60 110H980M60 350H980M60 420H980"/>
+    <path d="M60 180L270 225L60 270M980 180L770 225L980 270"/>
+    <path d="M270 225L276 214L272 202L287 198L281 185L297 181L290 169L305 164L299 152L315 147L309 135L324 130L320 119L330 110"/>
+    <path d="M710 110L720 119L716 130L731 135L725 147L741 152L735 164L750 169L743 181L759 185L753 198L768 202L764 214L770 225"/>
+    <path d="M175 110H205" marker-end="url(#arrow)"/>
+    <path d="M500 110H535" marker-end="url(#arrow)"/>
+    <path d="M840 110H870" marker-end="url(#arrow)"/>
+    <path d="M175 350H205" marker-end="url(#arrow)"/>
+    <path d="M500 350H535" marker-end="url(#arrow)"/>
+    <path d="M840 350H870" marker-end="url(#arrow)"/>
+    <path d="M175 420H205" marker-end="url(#arrow)"/>
+    <path d="M500 420H535" marker-end="url(#arrow)"/>
+    <path d="M840 420H870" marker-end="url(#arrow)"/>
+    <path d="M183 206L152 200" marker-end="url(#arrow)"/>
+    <path d="M152 250L183 244" marker-end="url(#arrow)"/>
+    <path d="M888 200L857 206" marker-end="url(#arrow)"/>
+    <path d="M857 244L888 250" marker-end="url(#arrow)"/>
+    <path d="M440 496H600" marker-end="url(#arrow)"/>
+  </g>
+  <g fill="#222"><circle cx="270" cy="225" r="4"/><circle cx="330" cy="110" r="4"/><circle cx="710" cy="110" r="4"/><circle cx="770" cy="225" r="4"/></g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#222"><text x="38" y="115">u</text><text x="38" y="355">u</text><text x="38" y="425">u</text><text x="990" y="115">u</text><text x="990" y="355">u</text><text x="990" y="425">u</text><text x="476" y="492" font-size="15">time</text></g>
+</svg>

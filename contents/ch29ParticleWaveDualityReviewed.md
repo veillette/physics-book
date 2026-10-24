@@ -197,6 +197,26 @@ In what ways are matter and energy related that were not known before the develo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Combine mass–energy equivalence with quantum relations for energy and momentum.
+
+**Solution**
+
+Relativity associates rest mass with energy, $E_0=mc^2$, and permits conversion between particle rest energy and other energy. Quantum theory gives radiation discrete energy transfers $E=hf$ and associates matter with wavelength $\lambda=h/p$. Matter exhibits interference, and light produces localized particle-like detections.
+
+**Discussion**
+
+Matter and radiation have different properties, but neither is fully described by the classical particle-versus-wave division.
+
+**Answer**
+
+Mass and energy are related, radiation exchanges energy in quanta, and both matter and radiation exhibit wave and particle behavior.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

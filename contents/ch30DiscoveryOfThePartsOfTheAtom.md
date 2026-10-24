@@ -424,6 +424,26 @@ Justify your response.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Determine which pair of measurements isolates the electron mass.
+
+**Solution**
+
+The measured charge-to-mass magnitude $e/m_e$, combined with the independent elementary charge $e$, gives $m_e=e/(e/m_e)$. Thomson’s deflection measurements supplied the ratio, and Millikan’s charge measurements supplied $e$.
+
+**Discussion**
+
+Two charge-to-mass ratios alone do not determine an absolute mass, and the stated binding energy does not supply the missing information.
+
+**Answer**
+
+Choice (c): the electron charge-to-mass ratio and the electron charge.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -431,6 +451,26 @@ Justify your response.
 ::: problem
 
 How do the allowed orbits for electrons in atoms differ from the allowed orbits for planets around the sun? Explain how the correspondence principle applies here.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Contrast quantized atomic states with the classical orbital limit.
+
+**Solution**
+
+In the Bohr picture, electron energies and radii take selected values. Classical planets can have a continuous range of radii and energies. For sufficiently large quantum numbers, adjacent allowed values become indistinguishable at ordinary resolution, and quantum predictions approach classical ones.
+
+**Discussion**
+
+This is the correspondence principle. Modern atomic states are wavefunctions rather than exact classical orbits.
+
+**Answer**
+
+Atomic states are quantized; planetary motion is effectively continuous because it lies deep in the classical correspondence regime.
 
 :::
 
