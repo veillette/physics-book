@@ -1,16 +1,16 @@
 {
   "chapter": 13,
-  "checked_at": "2026-10-23T19:53:59+00:00",
+  "checked_at": "2026-10-24T01:11:28+00:00",
   "summary": {
-    "total": 1383,
-    "checked": 147,
+    "total": 1396,
+    "checked": 150,
     "failed": 26,
-    "skipped": 1210,
+    "skipped": 1220,
     "by_kind": {
       "equation": {
-        "checked": 147,
+        "checked": 150,
         "failed": 26,
-        "skipped": 1210
+        "skipped": 1220
       },
       "case": {
         "checked": 0,
@@ -24,9 +24,9 @@
       "chapters": []
     },
     "skip_reasons": {
-      "no supported equality": 589,
-      "unbound variable": 418,
-      "unsupported symbol": 149,
+      "no supported equality": 590,
+      "unbound variable": 421,
+      "unsupported symbol": 155,
       "unit-only expression or text label needs a numeric value": 31,
       "unknown unit": 20,
       "unsupported operand": 3
@@ -42,7 +42,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "dc8d96d704d0b26391712c98ec6239ec24f655dd56b204db2f6101cfa524792d",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "::: example Calculating Density Using Vapor Pressure [[Table 1]](#Table1) gives the vapor pressure of water at $$ 20.0\\text{ºC} $$ as $$ 2.33 \\times 10^{3} \\text{Pa}\\text{.} $$ Us…",
       "has_solution": true,
       "missing_labels": [],
@@ -55,19 +55,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::worked-example:1",
+        "source_sha256": "dc8d96d704d0b26391712c98ec6239ec24f655dd56b204db2f6101cfa524792d",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "From PV=nRT and mass=nM, the vapor density is rho=PM/(RT). Using water's partial pressure rather than total atmospheric pressure is correct. The result agrees with the inspected table. The discussion correctly describes liquid-vapor equilibrium, provided its statements about a maximum density refer to stable equilibrium; supersaturated vapor can temporarily exceed this density.",
         "calculation_check": "2330/(8.31×293)=0.95695 mol/m³; multiplying by 18.0 g/mol gives 17.225 g/m³, or 17.2 g/m³. Pa/(J/mol)=mol/m³.",
         "assumptions": "Dilute ideal water vapor, uniform temperature, pure liquid water with an approximately flat interface, and stable phase equilibrium for the saturation interpretation.",
         "notes": "Correct derivation, arithmetic, and table comparison. The stated maximum is an equilibrium saturation value, not an absolute prohibition on supersaturation.",
-        "source_sha256": "dc8d96d704d0b26391712c98ec6239ec24f655dd56b204db2f6101cfa524792d",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::worked-example:2",
@@ -78,7 +78,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "6ff91ae6e6e0149a7a0482f3e7081cbc61e0e2528271c3739b4eb9f4b332897d",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "::: example Calculating Humidity and Dew Point (a) Calculate the percent relative humidity on a day when the temperature is $$ 25.0\\text{ºC} $$ and the air contains 9.40 g of wate…",
       "has_solution": true,
       "missing_labels": [],
@@ -91,19 +91,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::worked-example:2",
+        "source_sha256": "6ff91ae6e6e0149a7a0482f3e7081cbc61e0e2528271c3739b4eb9f4b332897d",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly compares densities at the same temperature. Parts (b) and (c) implicitly preserve vapor mass per unit volume while changing temperature, which requires a fixed-volume model. Ordinary atmospheric dew point instead refers to cooling at approximately constant pressure, preserving vapor partial pressure before condensation. This distinction is unstated. More seriously, condensation releases latent heat and slows cooling; it does not prevent further temperature decrease. The desert explanation also incorrectly says liquid droplets do not evaporate at high temperatures: available liquid evaporates readily in dry air, while limited water availability restricts evaporative cooling.",
         "calculation_check": "The supplied density ratios give 9.40/23.0×100=40.87% and 2.36/23.0×100=10.26%. Under the usual constant-pressure dew-point interpretation, the table's pressure column gives part (c) as 260/3170×100=8.20%. For part (b), the initial vapor pressure is (9.40/18.0)×8.31×298.15=1294 Pa, exceeding the table's 1190 Pa at 10°C. Additionally, the −10°C table entries are inconsistent: 260 Pa implies 2.14 g/m³ by the ideal gas law, rather than 2.36 g/m³.",
         "assumptions": "Ideal vapor, conserved water before condensation, and explicit distinction between fixed-volume cooling and approximately constant-pressure atmospheric cooling. Below freezing, the choice of saturation over water or ice also matters.",
         "notes": "Density-ratio arithmetic is correct, but the dew-point process is unspecified, the table has an internal inconsistency, and the discussion incorrectly treats latent heating as preventing cooling and denies evaporation of available liquid in hot, dry air.",
-        "source_sha256": "6ff91ae6e6e0149a7a0482f3e7081cbc61e0e2528271c3739b4eb9f4b332897d",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::check-understanding:1",
@@ -114,7 +114,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "83838f1f19f3aec43689334ed55796dc272f62d0ca1b0daac6b587401511395a",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Freeze drying is a process in which substances, such as foods, are dried by placing them in a vacuum chamber and lowering the atmospheric pressure around them. How does the lowere…",
       "has_solution": true,
       "missing_labels": [
@@ -128,19 +128,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::check-understanding:1",
+        "source_sha256": "83838f1f19f3aec43689334ed55796dc272f62d0ca1b0daac6b587401511395a",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Pumping removes water vapor, reducing its partial pressure and promoting net evaporation or sublimation. Evaporative energy loss can cool initially unfrozen food until it freezes, so the solution explains the initial cooling reasonably. It omits the central subsequent process: frozen water leaves by sublimation, which also consumes latent energy. Reduced total pressure alone is insufficient unless water-vapor removal maintains the driving pressure difference. The neighboring phase-change sections explicitly describe this sublimation stage.",
         "calculation_check": "For vapor mass dm removed without sufficient compensating heat, the material loses approximately L_v dm during evaporation or L_s dm during sublimation. This energy loss explains cooling; once freezing occurs, continued dehydration does not require liquid evaporation.",
         "assumptions": "Continued pumping maintains low water-vapor partial pressure, and incoming heat initially does not replace the latent energy removed. Drying can become limited by available heat.",
         "notes": "Correct initial evaporative-cooling explanation, but incomplete freeze-drying model: it omits sublimation and its energy requirement after freezing.",
-        "source_sha256": "83838f1f19f3aec43689334ed55796dc272f62d0ca1b0daac6b587401511395a",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::conceptual-questions:1",
@@ -151,7 +151,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "ad940fbc8cbea437501195c4c253d8d17c25c4086c2ae9c539ce95b82bc9a9d6",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Because humidity depends only on water's vapor pressure and temperature, are the saturation vapor densities listed in [[Table 1]](#Table1) valid in an atmosphere of helium at a pr…",
       "has_solution": true,
       "missing_labels": [],
@@ -163,19 +163,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::conceptual-questions:1",
+        "source_sha256": "ad940fbc8cbea437501195c4c253d8d17c25c4086c2ae9c539ce95b82bc9a9d6",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For an ideal, nonreactive gas mixture at a specified temperature, saturation is set approximately by water's equilibrium vapor pressure, independently of whether the carrier gas is air or helium. However, the solution's unconditional independence from total pressure misses an essential feasibility constraint: water's partial pressure cannot exceed total pressure. The inspected table extends above 100°C, where its saturation pressures exceed the specified helium-atmosphere pressure. Altitude can similarly prevent liquid-water saturation at temperatures above the local boiling point.",
         "calculation_check": "At 20°C, saturation requires 2330 Pa, leaving 101000−2330=98670 Pa for helium, so the listed density is feasible. At 120°C, the table requires 199000 Pa of water vapor alone, exceeding the specified 101000 Pa total pressure.",
         "assumptions": "Ideal, nonreactive carrier gas, pure water, negligible nonideal pressure corrections, and a temperature-pressure combination permitting the relevant equilibrium phase.",
         "notes": "The intended carrier-gas independence is correct, but 'regardless of total pressure' is false. Not every table entry can be realized at the specified pressure or at arbitrary altitude.",
-        "source_sha256": "ad940fbc8cbea437501195c4c253d8d17c25c4086c2ae9c539ce95b82bc9a9d6",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::conceptual-questions:2",
@@ -186,7 +186,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "b69650d8a660c552a3cb2703326d526c2c6f952adcfff5156583d9a4ddb1ae7c",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Why does a beaker of $$ 40.0\\text{ºC} $$ water placed in a vacuum chamber start to boil as the chamber is evacuated (air is pumped out of the chamber)? At what pressure does the b…",
       "has_solution": true,
       "missing_labels": [],
@@ -198,19 +198,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::conceptual-questions:2",
+        "source_sha256": "b69650d8a660c552a3cb2703326d526c2c6f952adcfff5156583d9a4ddb1ae7c",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The boiling criterion and 40°C pressure lookup are correct, and boiling at low pressure does not itself provide a higher cooking temperature. However, an initially 40°C beaker will cool as vaporization removes energy unless heat is supplied; it does not necessarily remain at 40°C. The discussion's assertion that liquid water can boil at any temperature merely by lowering pressure also exceeds the stable liquid domain: below the triple point, equilibrium involves ice and vapor.",
         "calculation_check": "The inspected table gives p_sat(40°C)=7340 Pa, approximately 0.0727 of the stated atmospheric pressure. Continued vaporization requires latent energy; without replacement heat, temperature falls. The neighboring chapter gives water's triple point as 273.16 K and approximately 0.006 atm.",
         "assumptions": "Bulk boiling with negligible hydrostatic, surface-tension, and nucleation corrections. Holding the liquid at 40°C requires compensating heat input.",
         "notes": "Correct boiling-onset pressure and cooking conclusion. The claims of a maintained 40°C temperature and boiling at any temperature require correction or qualification.",
-        "source_sha256": "b69650d8a660c552a3cb2703326d526c2c6f952adcfff5156583d9a4ddb1ae7c",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::conceptual-questions:3",
@@ -221,7 +221,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "95c5e2de31f06c0a0231c79b084619f66067b1013a7c43163600b46597a73dff",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Why does rubbing alcohol evaporate much more rapidly than water at STP (standard temperature and pressure)?",
       "has_solution": true,
       "missing_labels": [],
@@ -233,19 +233,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::conceptual-questions:3",
+        "source_sha256": "95c5e2de31f06c0a0231c79b084619f66067b1013a7c43163600b46597a73dff",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Higher equilibrium vapor pressure can explain faster evaporation under comparable temperature, ventilation, exposed area, and ambient vapor conditions. Evaporative skin cooling is also correctly attributed to latent energy transfer. The molecular explanation is misleading: isopropyl alcohol has an OH group and forms hydrogen bonds; describing its cohesion as primarily van der Waals forces in contrast to hydrogen-bonded water omits a major interaction. Its higher volatility reflects the overall molecular structure and liquid-vapor free-energy balance, not absence of hydrogen bonding.",
         "calculation_check": "A suitable qualitative cross-check is that both water and isopropanol can hydrogen-bond, while their equilibrium vapor pressures and boiling points differ. The supplied material contains no independent isopropanol property table verifying the vapor-pressure magnitude or quoted 82.6°C boiling point. The explanation also uses 20°C rather than directly evaluating the stated STP condition.",
         "assumptions": "Comparable evaporation conditions and an alcohol-rich rubbing-alcohol formulation. Commercial rubbing alcohol is a mixture, whose composition affects evaporation.",
         "notes": "The volatility and cooling conclusions are reasonable, but the intermolecular-force explanation is materially misleading. Alcohol property values and the precise STP comparison were not independently established from supplied sources.",
-        "source_sha256": "95c5e2de31f06c0a0231c79b084619f66067b1013a7c43163600b46597a73dff",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:1",
@@ -256,7 +256,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "9ebad00c0e4e22ad8892af2a278eefe0749424ae2ccd66c44ab45548e2810bed",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Dry air is 78.1% nitrogen. What is the partial pressure of nitrogen when the atmospheric pressure is $$ 1.01 \\times 10^{5} {\\text{N/m}}^{2} $$ ?",
       "has_solution": true,
       "missing_labels": [],
@@ -269,19 +269,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:1",
+        "source_sha256": "9ebad00c0e4e22ad8892af2a278eefe0749424ae2ccd66c44ab45548e2810bed",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For an ideal mixture, volume fraction equals mole fraction, so Dalton's law gives nitrogen partial pressure as 0.781 times total dry-air pressure. The discussion's direction of change for dissolved nitrogen follows equilibrium gas solubility: increasing nitrogen partial pressure increases its equilibrium dissolved concentration, and rapid decompression can produce supersaturation.",
         "calculation_check": "0.781×101000=78881 Pa, which rounds to 7.89×10^4 Pa. The multiplying fraction is dimensionless.",
         "assumptions": "The stated composition is a mole or volume percentage of dry air. The dissolution discussion assumes comparable temperature and gas-liquid equilibration; actual tissue uptake also depends on exposure time.",
         "notes": "Correct application of Dalton's law and arithmetic. The qualitative dissolution and decompression explanation is consistent with the model.",
-        "source_sha256": "9ebad00c0e4e22ad8892af2a278eefe0749424ae2ccd66c44ab45548e2810bed",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:2",
@@ -292,7 +292,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "dc4076be5046abe138c8b04731abf9568587f12a114504189b563acfe0e0f4f5",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "(a) What is the vapor pressure of water at $$ 20.0\\text{ºC} $$ ? (b) What percentage of atmospheric pressure does this correspond to? (c) What percent of $$ 20.0\\text{ºC} $$ air i…",
       "has_solution": true,
       "missing_labels": [],
@@ -305,19 +305,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:2",
+        "source_sha256": "dc4076be5046abe138c8b04731abf9568587f12a114504189b563acfe0e0f4f5",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Parts (a) and (b) correctly use the table and compare vapor pressure with atmospheric pressure. Part (c) explicitly computes a mass percentage, a reasonable interpretation given the supplied densities, but adding the full dry-air density assumes that dry-air amount remains in the same volume as vapor is added. At fixed total atmospheric pressure, water vapor instead displaces some dry air. This is a small numerical distinction. The substantive error is the discussion's statement that the pressure fraction is 'even smaller': 2.3% is larger than 1.4%, as expected because water molecules are lighter than average dry-air molecules.",
         "calculation_check": "2330/101000×100=2.3069%. The stated mass calculation gives 0.0172/(1.20+0.0172)×100=1.4131%. Holding total pressure fixed instead gives 0.0172/[1.20(1−2330/101000)+0.0172]×100=1.4460%. The small mass-percentage difference is not a substantive arithmetic error.",
         "assumptions": "Ideal gases at 20°C, standard total pressure for part (b), and an explicitly mass-based interpretation of part (c). Mass fraction and mole/pressure fraction are distinct.",
         "notes": "Numerical results are reasonable, but the discussion reverses the comparison between pressure and mass fractions. The pressure condition used in the mass-density addition should also be stated.",
-        "source_sha256": "dc4076be5046abe138c8b04731abf9568587f12a114504189b563acfe0e0f4f5",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:3",
@@ -328,7 +328,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "d22d7fea6bd41bd3710c1b05c7845b86824f9c90ffab1eda6f0f75c3356162e2",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Pressure cookers increase cooking speed by raising the boiling temperature of water above its value at atmospheric pressure. (a) What pressure is necessary to raise the boiling po…",
       "has_solution": true,
       "missing_labels": [
@@ -344,19 +344,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:3",
+        "source_sha256": "d22d7fea6bd41bd3710c1b05c7845b86824f9c90ffab1eda6f0f75c3356162e2",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "To sustain boiling at 120°C, the liquid's surrounding absolute pressure must equal its saturation vapor pressure at that temperature. Gauge pressure is that absolute pressure minus ambient atmospheric pressure. Both requested parts are answered correctly.",
         "calculation_check": "The inspected table gives 1.99×10^5 Pa at 120°C. Subtracting 1.01×10^5 Pa gives 9.80×10^4 Pa gauge; dividing by 1.01×10^5 Pa/atm gives 0.970 atm gauge.",
         "assumptions": "Pure water, equilibrium boiling, approximately one atmosphere outside the cooker, and negligible liquid-depth and interfacial pressure corrections.",
         "notes": "Correct absolute pressure and gauge pressure, consistent with the table.",
-        "source_sha256": "d22d7fea6bd41bd3710c1b05c7845b86824f9c90ffab1eda6f0f75c3356162e2",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:4",
@@ -367,7 +367,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "c21c4ece2c444228d5f22c6b56caa539fc01ab97cd774320d12515085a1cb28c",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "(a) At what temperature does water boil at an altitude of 1500 m (about 5000 ft) on a day when atmospheric pressure is $$ 8.59 \\times 10^{4} {\\text{N/m}}^{2} $$ ? (b) What about a…",
       "has_solution": true,
       "missing_labels": [],
@@ -379,19 +379,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:4",
+        "source_sha256": "c21c4ece2c444228d5f22c6b56caa539fc01ab97cd774320d12515085a1cb28c",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Both parts correctly determine boiling temperature by matching saturation vapor pressure to the specified local atmospheric pressure. The supplied pressures determine the answers directly; no independent altitude-pressure model is needed. Lower boiling temperature explains slower cooking in boiling water under otherwise comparable conditions.",
         "calculation_check": "The inspected table pairs 8.59×10^4 Pa with 95°C and 7.01×10^4 Pa with 90°C. The latter differs from the given 7.00×10^4 Pa by only 0.14%, supporting approximately 90°C.",
         "assumptions": "Pure water, approximately equilibrium boiling, and negligible hydrostatic, surface-tension, and superheating effects.",
         "notes": "Both temperatures and the direction of the cooking effect are correct.",
-        "source_sha256": "c21c4ece2c444228d5f22c6b56caa539fc01ab97cd774320d12515085a1cb28c",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:5",
@@ -402,7 +402,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "e52ac0bba6fdd7fab2fea0b8a246cbb352054b5ac1721c5ed038e97ca0f49a00",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "What is the atmospheric pressure on top of Mt. Everest on a day when water boils there at a temperature of $$ 70.0\\text{ºC}$$ ?",
       "has_solution": true,
       "missing_labels": [],
@@ -414,19 +414,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:5",
+        "source_sha256": "e52ac0bba6fdd7fab2fea0b8a246cbb352054b5ac1721c5ed038e97ca0f49a00",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "The requested atmospheric pressure follows correctly from the saturation pressure at 70°C. Lower atmospheric pressure also lowers oxygen partial pressure at unchanged oxygen fraction. However, that reasoning does not establish a universal requirement to use supplemental oxygen above 8000 m; the discussion presents an unsupported categorical physiological threshold. The quoted summit elevation and claim that this pressure is typical were not independently established from the permitted sources.",
         "calculation_check": "The inspected table gives p_sat(70°C)=3.12×10^4 Pa. Relative to 1.01×10^5 Pa, this is 0.3089 atm, or 30.9%. At unchanged composition and temperature, oxygen partial pressure and molecules inhaled per fixed gas volume decrease in the same proportion.",
         "assumptions": "Pure water boiling in equilibrium at local atmospheric pressure. The oxygen comparison assumes unchanged gas composition and comparable temperature and inhaled volume.",
         "notes": "The pressure answer is correct. The discussion overstates supplemental oxygen as universally required above a fixed altitude; its geographic and physiological ancillary claims were not independently verified.",
-        "source_sha256": "e52ac0bba6fdd7fab2fea0b8a246cbb352054b5ac1721c5ed038e97ca0f49a00",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:6",
@@ -437,7 +437,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "45a3f934f82f4567125fe64396a05319ee7cb84bf2987e4270eef806082e9e39",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "At a spot in the high Andes, water boils at $$ 80.0\\text{ºC} $$ , greatly reducing the cooking speed of potatoes, for example. What is atmospheric pressure at this location?",
       "has_solution": true,
       "missing_labels": [],
@@ -449,19 +449,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:6",
+        "source_sha256": "45a3f934f82f4567125fe64396a05319ee7cb84bf2987e4270eef806082e9e39",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The local atmospheric pressure equals water's equilibrium vapor pressure at the observed boiling temperature. The table lookup therefore answers the problem correctly. The discussion correctly links reduced pressure to lower boiling temperature and slower cooking in boiling water. Its altitude estimate requires an atmospheric model and is only approximate; pressure cookers are helpful rather than universally essential.",
         "calculation_check": "The inspected table gives p_sat(80°C)=4.73×10^4 Pa. This is 0.468 of the chapter's 1.01×10^5 Pa atmosphere, or approximately 0.467 conventional atmospheres. An illustrative standard-atmosphere relation, h=44330[1−(47300/101325)^(1/5.255)], gives about 5980 m, consistent with the rough altitude range.",
         "assumptions": "Pure water in equilibrium boiling with negligible depth and nucleation corrections. The illustrative altitude check assumes a standard tropospheric temperature profile; actual local altitude cannot be uniquely inferred without atmospheric conditions.",
         "notes": "Correct pressure and conversion. The altitude estimate is plausible under a standard-atmosphere model, and the cooking explanation is physically sound.",
-        "source_sha256": "45a3f934f82f4567125fe64396a05319ee7cb84bf2987e4270eef806082e9e39",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:45:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:7",
@@ -472,7 +472,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "dd97867d49cb9b522e1c8437556fa97f6021e573ea78ebf8cc9d1d94623ba8e0",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "What is the relative humidity on a $$ 25.0\\text{ºC} $$ day when the air contains $$ 18.0 {\\text{g/m}}^{3} $$ of water vapor?",
       "has_solution": true,
       "missing_labels": [],
@@ -485,19 +485,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:7",
+        "source_sha256": "dd97867d49cb9b522e1c8437556fa97f6021e573ea78ebf8cc9d1d94623ba8e0",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The strategy and humidity calculation correctly compare actual and saturation vapor densities at the same temperature. The discussion incorrectly concludes that sweat cannot evaporate at 100% ambient relative humidity. Saturation prevents net evaporation from water at the ambient temperature in equilibrium; warmer skin can still supply a positive vapor-pressure gradient.",
         "calculation_check": "RH = 100(18.0/23.0) = 78.2609%, agreeing with 78.3%. The chapter table gives saturation pressures of 3.17 kPa at 25°C and 6.31 kPa at 37°C. Thus even saturated 25°C air can receive vapor from a warmer wet surface.",
         "assumptions": "Ideal-vapor humidity relation and equilibrium saturation values. The skin example assumes a wet surface warmer than ambient air. The stated indoor comfort range is empirical and was not independently established.",
         "notes": "Correct numerical answer; substantive discussion error: 100% ambient humidity does not universally stop sweat evaporation.",
-        "source_sha256": "dd97867d49cb9b522e1c8437556fa97f6021e573ea78ebf8cc9d1d94623ba8e0",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:8",
@@ -508,7 +508,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "334e22a1b729acd04753e8dc0d0486f2fca2eb6a2e9a009c46cff0bf7142ef74",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "What is the density of water vapor in $${\\text{g/m}}^{3} $$ on a hot dry day in the desert when the temperature is $$ 40.0\\text{ºC} $$ and the relative humidity is 6.00%?",
       "has_solution": true,
       "missing_labels": [],
@@ -521,19 +521,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:8",
+        "source_sha256": "334e22a1b729acd04753e8dc0d0486f2fca2eb6a2e9a009c46cff0bf7142ef74",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Rearranging RH = 100 rho/rho_sat gives the required actual vapor density. The cited 40°C saturation density matches the chapter table. Low humidity favors evaporation from water at comparable temperature, although actual evaporation rates also depend on airflow and surface temperature.",
         "calculation_check": "rho = 0.0600(51.1) = 3.066 g/m³, rounding to 3.07 g/m³. Saturated vapor density is 1/0.0600 = 16.67 times the actual density, supporting the comparison.",
         "assumptions": "Water vapor is approximately ideal and the quoted relative humidity applies at 40°C. Geographic claims about typical desert conditions were not independently verified.",
         "notes": "Correct relation, table lookup, units, arithmetic, and saturation comparison.",
-        "source_sha256": "334e22a1b729acd04753e8dc0d0486f2fca2eb6a2e9a009c46cff0bf7142ef74",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:9",
@@ -544,7 +544,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "9d7c2b15acbf6595e7ba90163a056d646ebff3596c3c41f1c8b589b2795e3c3e",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "A deep-sea diver should breathe a gas mixture that has the same oxygen partial pressure as at sea level, where dry air contains 20.9% oxygen and has a total pressure of $$ 1.01 \\t…",
       "has_solution": true,
       "missing_labels": [
@@ -560,19 +560,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:9",
+        "source_sha256": "9d7c2b15acbf6595e7ba90163a056d646ebff3596c3c41f1c8b589b2795e3c3e",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Dalton's law gives oxygen partial pressure as oxygen mole fraction times absolute mixture pressure. Maintaining that partial pressure at the larger supplied pressure requires reducing the oxygen fraction inversely with total pressure. Both requested parts are answered.",
         "calculation_check": "p_O2 = 0.209(1.01 × 10^5) = 2.1109 × 10^4 Pa. Required oxygen percentage = 100(2.1109 × 10^4)/(2.00 × 10^6) = 1.05545%, or 1.06%. The listed 2.12 × 10^4 Pa differs insignificantly.",
         "assumptions": "Ideal gas mixture; percentages are mole or volume percentages; pressures are absolute. This checks the stipulated dry-gas calculation, not the physiological suitability of a diving mixture.",
         "notes": "Both answers agree with Dalton's law within ordinary numerical tolerance.",
-        "source_sha256": "9d7c2b15acbf6595e7ba90163a056d646ebff3596c3c41f1c8b589b2795e3c3e",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:10",
@@ -583,7 +583,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "0c8fde4a2365315b959da6ce0bd6d692292e2a00da59974a6556e682be036b64",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "The vapor pressure of water at $$ 40.0\\text{ºC} $$ is $$ 7.34 \\times 10^{3} {\\text{N/m}}^{2} $$ . Using the ideal gas law, calculate the density of water vapor in $${\\text{g/m}}^{…",
       "has_solution": true,
       "missing_labels": [],
@@ -609,19 +609,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:10",
+        "source_sha256": "0c8fde4a2365315b959da6ce0bd6d692292e2a00da59974a6556e682be036b64",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "From PV = nRT and m = nM, mass density is rho = PM/(RT). The solution correctly uses absolute temperature and converts molar density to mass density. Agreement with the table supports an approximate ideal-gas treatment. The evidence does not establish that rounding alone explains the small residual difference, or independently validate an experimental origin for the table.",
         "calculation_check": "T = 313.15 K; n/V = 7340/(8.31 × 313.15) = 2.8206 mol/m³; rho = 50.7709 g/m³, agreeing with 50.8 g/m³. This is 0.644% below 51.1 g/m³. Pa divided by J/mol gives mol/m³ after the temperature factors cancel.",
         "assumptions": "Approximately ideal water vapor, M = 18.0 g/mol, and the supplied vapor pressure. No external thermodynamic measurements were consulted.",
         "notes": "Correct ideal-gas derivation and numerical result. The small table discrepancy is immaterial; its attribution solely to rounding is unverified.",
-        "source_sha256": "0c8fde4a2365315b959da6ce0bd6d692292e2a00da59974a6556e682be036b64",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:11",
@@ -632,7 +632,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "e33c594334045afcc661b8b2815b1faeccb687504863e7990b335f7f2d66e0a5",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Air in human lungs has a temperature of $$ 37.0\\text{ºC} $$ and a saturation vapor density of $$44.0 {\\text{g/m}}^{3} $$ . (a) If 2.00 L of air is exhaled and very dry air inhaled…",
       "has_solution": true,
       "missing_labels": [],
@@ -645,19 +645,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:11",
+        "source_sha256": "e33c594334045afcc661b8b2815b1faeccb687504863e7990b335f7f2d66e0a5",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For maximally humidified exhaled air and negligible inhaled moisture, water loss is saturation density times exhaled volume. Substituting n/V = rho/M into the ideal gas law correctly gives the water partial pressure. Both parts and the conditional daily extrapolation are consistent.",
         "calculation_check": "m = 44.0(0.00200) = 0.0880 g. At 310.15 K, p = (44.0/18.0)(8.31)(310.15) = 6300.18 Pa, only 0.16% below 6310 Pa. The hypothetical daily total is 0.0880 × 20,000 = 1760 g, approximately 1.76 L of liquid water.",
         "assumptions": "The 2.00 L volume is measured at lung conditions; exhaled vapor is saturated at 37°C; inhaled moisture and recovery of moisture during exhalation are neglected for the maximum-loss estimate. The daily example assumes every breath has the specified volume.",
         "notes": "Both answers are correct. The large daily loss is explicitly conditional on sustained 2 L breaths and completely dry inhaled air.",
-        "source_sha256": "e33c594334045afcc661b8b2815b1faeccb687504863e7990b335f7f2d66e0a5",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:12",
@@ -668,7 +668,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "5b7660d4292d2442538dae7ec5dfd5eeec7745d56a183a6fb6ed80386c6a658f",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "If the relative humidity is 90.0% on a muggy summer morning when the temperature is $$ 20.0\\text{ºC} $$ , what will it be later in the day when the temperature is $$ 30.0\\text{ºC}…",
       "has_solution": true,
       "missing_labels": [],
@@ -681,19 +681,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:12",
+        "source_sha256": "5b7660d4292d2442538dae7ec5dfd5eeec7745d56a183a6fb6ed80386c6a658f",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The constant-density calculation correctly predicts falling relative humidity as saturation density increases. However, the discussion incorrectly treats that decrease as an explanation for improved comfort as the day heats up. With unchanged vapor density, warming does not remove moisture or necessarily improve evaporative cooling; vapor partial pressure actually increases, while warmer surroundings can also reduce sensible heat loss.",
         "calculation_check": "Initial rho = 0.900(17.2) = 15.48 g/m³. Final RH = 100(15.48/30.4) = 50.9211%, consistent with the reported 51.0% after intermediate rounding. At constant density, p_vapor increases by 303.15/293.15 = 1.0341, rather than decreasing.",
         "assumptions": "The problem explicitly holds vapor density constant. The comfort cross-check holds wet-skin temperature and other environmental factors fixed; perceived comfort cannot be determined from RH alone.",
         "notes": "Correct humidity answer; the claimed improvement in comfort from warming at unchanged moisture content is not supported by the physical process.",
-        "source_sha256": "5b7660d4292d2442538dae7ec5dfd5eeec7745d56a183a6fb6ed80386c6a658f",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:13",
@@ -704,7 +704,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "ee66ed9547846019d7eb8773abfe1f85fdc4b0c38f2e2cfca2d38b918a3e6725",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Late on an autumn day, the relative humidity is 45.0% and the temperature is $$ 20.0\\text{ºC} $$ . What will the relative humidity be that evening when the temperature has dropped…",
       "has_solution": true,
       "missing_labels": [],
@@ -717,19 +717,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:13",
+        "source_sha256": "ee66ed9547846019d7eb8773abfe1f85fdc4b0c38f2e2cfca2d38b918a3e6725",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The initial humidity fixes vapor density, which remains unchanged during the stipulated cooling. Dividing by the smaller saturation density gives increased relative humidity. Because the density remains below saturation at 10°C, no condensation is yet required. Continued cooling eventually produces dew.",
         "calculation_check": "rho = 0.450(17.2) = 7.74 g/m³; RH = 100(7.74/9.40) = 82.3404%. Linear interpolation between 5°C and 10°C gives saturation at about 6.81°C, so the discussion's rough 5–6°C estimate is somewhat low.",
         "assumptions": "Constant water-vapor density before condensation, with the chapter's tabulated saturation values. Interpolated dew temperatures are approximate.",
         "notes": "Correct requested answer and cooling explanation. The supplementary dew-temperature estimate is coarse; interpolation gives approximately 7°C.",
-        "source_sha256": "ee66ed9547846019d7eb8773abfe1f85fdc4b0c38f2e2cfca2d38b918a3e6725",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:14",
@@ -740,7 +740,7 @@
       "kind": "problems-exercises",
       "ordinal": 14,
       "source_sha256": "a80732ed1b73c44d669449f48986abc7f34cd8e28aca0b49f870f677a040b375",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "Atmospheric pressure atop Mt. Everest is $$ 3.30 \\times 10^{4} {\\text{N/m}}^{2} $$ . (a) What is the partial pressure of oxygen there if it is 20.9% of the air? (b) What percent o…",
       "has_solution": true,
       "missing_labels": [],
@@ -753,19 +753,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:14",
+        "source_sha256": "a80732ed1b73c44d669449f48986abc7f34cd8e28aca0b49f870f677a040b375",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Parts (a) and (b) correctly apply Dalton's law. Part (c) correctly identifies cold air's low absolute moisture content and increased ventilation as causes of respiratory water loss; low total pressure alone does not lower saturation density at fixed temperature. The discussion overreaches by claiming the calculation establishes that supplemental oxygen is essential for climbing Everest. Matching sea-level oxygen partial pressure is the specified comparison, not a demonstrated physiological requirement for climbing.",
         "calculation_check": "Everest p_O2 = 0.209(3.30 × 10^4) = 6897 Pa. Sea-level p_O2 = 21,109 Pa. Required dry supplied-gas fraction = 21,109/33,000 = 0.639667, or 64.0%. Humidifying dry air at body temperature requires adding water toward the chapter's 44.0 g/m³ lung saturation density.",
         "assumptions": "Ideal dry-gas fractions and absolute pressures; the oxygen calculation applies before airway humidification. Cold ambient conditions and increased ventilation support the qualitative drying explanation. Physiological necessity of supplemental oxygen was not independently established.",
         "notes": "All requested parts are physically sound. The discussion incorrectly presents matching sea-level oxygen pressure as a necessary condition for climbing.",
-        "source_sha256": "a80732ed1b73c44d669449f48986abc7f34cd8e28aca0b49f870f677a040b375",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:15",
@@ -776,7 +776,7 @@
       "kind": "problems-exercises",
       "ordinal": 15,
       "source_sha256": "dab4189b0d69d5c869592745a128ce76ed57c29cbe3ea5bd12e38073747c36be",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "What is the dew point (the temperature at which 100% relative humidity would occur) on a day when relative humidity is 39.0% at a temperature of $$ 20.0\\text{ºC} $$ ?",
       "has_solution": true,
       "missing_labels": [],
@@ -789,19 +789,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:15",
+        "source_sha256": "dab4189b0d69d5c869592745a128ce76ed57c29cbe3ea5bd12e38073747c36be",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Under the surrounding chapter's constant-vapor-density dew-point convention, the solution correctly computes actual density and finds the temperature where it equals saturation density. The interpolation brackets the answer correctly. The result is an approximate table-based temperature, so its hundredths-place presentation should not imply corresponding physical accuracy.",
         "calculation_check": "rho = 0.390(17.2) = 6.708 g/m³. Linear interpolation gives T = 0 + 5(6.708 − 4.84)/(6.80 − 4.84) = 4.7653°C, agreeing with 4.77°C.",
         "assumptions": "Vapor density remains constant during cooling until condensation, as in the chapter's neighboring example; no moisture exchange occurs. Constant-pressure atmospheric cooling would require tracking volume changes instead. The stated comfort thresholds are empirical and were not independently verified.",
         "notes": "Correct within the chapter's fixed-density model; approximately 5°C is an appropriate practical precision.",
-        "source_sha256": "dab4189b0d69d5c869592745a128ce76ed57c29cbe3ea5bd12e38073747c36be",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:16",
@@ -812,7 +812,7 @@
       "kind": "problems-exercises",
       "ordinal": 16,
       "source_sha256": "06a338c8df408926482ec6824503cabc8b8041a6a55ba2c432aba69bcc1a90d9",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "On a certain day, the temperature is $$ 25.0\\text{ºC} $$ and the relative humidity is 90.0%. How many grams of water must condense out of each cubic meter of air if the temperatur…",
       "has_solution": true,
       "missing_labels": [],
@@ -825,19 +825,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:16",
+        "source_sha256": "06a338c8df408926482ec6824503cabc8b8041a6a55ba2c432aba69bcc1a90d9",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Conservation of water mass in a fixed cubic meter gives initial vapor mass from the initial humidity. At the lower temperature, equilibrium permits only the lower saturation vapor mass to remain gaseous, so the difference condenses. The positive result and dew/fog explanation are consistent.",
         "calculation_check": "Initial vapor mass per cubic meter = 0.900(23.0) = 20.7 g. Final saturated vapor mass = 12.8 g. Condensed mass = 20.7 − 12.8 = 7.9 g per cubic meter.",
         "assumptions": "A fixed-volume parcel with no moisture exchange; sufficient cooling and condensation nuclei to reach equilibrium; latent heat is removed as needed to attain 15°C. Parcel contraction would require a different mass-per-volume accounting.",
         "notes": "Correct condensed mass and conservation argument under the intended fixed-volume approximation.",
-        "source_sha256": "06a338c8df408926482ec6824503cabc8b8041a6a55ba2c432aba69bcc1a90d9",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:17",
@@ -848,7 +848,7 @@
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "6631b74723269d57dfeb011668f0bd46734229e7cdbcec767c833599c609a110",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Integrated Concepts** The boiling point of water increases with depth because pressure increases with depth. At what depth will fresh water have a boiling point of $$150\\text{ºC…",
       "has_solution": true,
       "missing_labels": [],
@@ -861,19 +861,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:17",
+        "source_sha256": "6631b74723269d57dfeb011668f0bd46734229e7cdbcec767c833599c609a110",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Boiling onset requires saturation vapor pressure to equal local absolute pressure. Hydrostatic pressure includes both atmospheric pressure and the water-column contribution. The solution correctly subtracts atmospheric pressure before solving for depth. Its hydrothermal-vent and pressure-cooker comparisons use the same pressure-dependent boiling mechanism.",
         "calculation_check": "The table gives p_sat(150°C) = 4.76 × 10^5 Pa. Thus h = (476,000 − 101,000)/(1000 × 9.8) = 38.2653 m, agreeing with 38.3 m. Pressure divided by rho g has units of length. The absolute pressure is about 4.70 standard atmospheres; the discussion's 4.76 atm is a minor conversion approximation.",
         "assumptions": "Static fresh-water overburden of approximately constant density 1000 kg/m³, sea-level surface pressure, and negligible surface-tension effects on boiling onset. The heated water can be local; the entire overlying column need not be at 150°C.",
         "notes": "Correct absolute-pressure model and depth. The approximate atmosphere conversion does not materially affect the result.",
-        "source_sha256": "6631b74723269d57dfeb011668f0bd46734229e7cdbcec767c833599c609a110",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:18",
@@ -884,7 +884,7 @@
       "kind": "problems-exercises",
       "ordinal": 18,
       "source_sha256": "fc61d1c02a806a34fb0c8b805872d579d7695edd4222b88d9c1c94a7f83ccb11",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Integrated Concepts** (a) At what depth in fresh water is the critical pressure of water reached, given that the surface is at sea level? (b) At what temperature will this water…",
       "has_solution": true,
       "missing_labels": [],
@@ -897,69 +897,63 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:18",
+        "source_sha256": "fc61d1c02a806a34fb0c8b805872d579d7695edd4222b88d9c1c94a7f83ccb11",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly estimates the depth using critical absolute pressure minus atmospheric pressure. The critical temperature quoted in part (b) matches the source table, but describing it as ordinary boiling at the critical pressure obscures the disappearance of the liquid–vapor distinction at the endpoint. It is the limiting saturation temperature, rather than a conventional boiling transition. Part (c) correctly explains that no traditional boiling occurs above critical pressure; consequently, a higher boiling temperature is undefined, rather than merely unnecessary.",
         "calculation_check": "h = (22.12 × 10^6 − 1.01 × 10^5)/(1000 × 9.8) = 2246.84 m, consistent with approximately 2.25 km. The source table gives 374.3°C. The neighboring phase diagram's liquid–vapor boundary terminates at the critical point, supporting the absence of a boiling curve at greater pressure.",
         "assumptions": "Constant-density fresh-water overburden and sea-level surface pressure; local heating at approximately fixed pressure. Near-critical heated water itself cannot be modeled as incompressible water of density 1000 kg/m³. The ocean-depth comparison was not independently verified.",
         "notes": "Correct depth and tabulated critical temperature. Part (b) needs the distinction between a limiting saturation temperature and actual boiling; above critical pressure there is no boiling temperature.",
-        "source_sha256": "fc61d1c02a806a34fb0c8b805872d579d7695edd4222b88d9c1c94a7f83ccb11",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:50:04+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:19",
       "chapter": 13,
       "file": "contents/ch13HumidityEvaporationAndBoiling.md",
       "line": 1132,
-      "end_line": 1152,
+      "end_line": 1175,
       "kind": "problems-exercises",
       "ordinal": 19,
-      "source_sha256": "637f36dc7be0e629722238079702ab922f56dee074f2e6766939ac3923ed2ce2",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "source_sha256": "572718c4b66f0ac1dfebebba64c574f88ee942e804d82bf79ef48d11d45197d8",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Integrated Concepts** To get an idea of the small effect that temperature has on Archimedes’ principle, calculate the fraction of a copper block’s weight that is supported by th…",
       "has_solution": true,
-      "missing_labels": [
-        "strategy",
-        "solution",
-        "discussion"
-      ],
+      "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 3
+        "skipped": 13,
+        "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:19",
-        "verdict": "concern",
+        "source_sha256": "572718c4b66f0ac1dfebebba64c574f88ee942e804d82bf79ef48d11d45197d8",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "For a fully submerged block, F_B/w = rho_water V_Cu/m_Cu = rho_water/rho_Cu. Both water density and copper volume change with temperature. The reported comparison is compatible with the book's constant expansion coefficients, but the solution never calculates either requested fraction and does not define the primed quantity.",
-        "calculation_check": "Using the book's approximate densities, rho_water = 1000 kg/m^3 and rho_Cu = 8800 kg/m^3, gives f_0 approximately 0.1136. With beta_water = 210e-6/K and beta_Cu = 51e-6/K, f_95 = f_0(1 + beta_Cu*95)/(1 + beta_water*95) approximately 0.1120. Thus f_0/f_95 = 1.015, consistent with the reported 1.02.",
-        "assumptions": "Complete immersion, constant copper mass, thermal equilibrium with each bath, and negligible pressure effects. The tabulated expansion coefficients are specified at 20°C; treating them as constant over 0–95°C is approximate, particularly for water. Accurate liquid-water densities at both temperatures were not supplied in the inspected tables.",
-        "notes": "The comparison is reasonable within the textbook approximation, but both requested supported-weight fractions are missing: approximately 11.4% and 11.2% under that model.",
-        "source_sha256": "637f36dc7be0e629722238079702ab922f56dee074f2e6766939ac3923ed2ce2",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:54:32+00:00"
+        "notes": "Fixed: the solution now gives the requested fractions, 11.4% at 0 ºC and 11.2% at 95.0 ºC (ρ_Cu = 8.80×10³ kg/m³; β_water = 210×10⁻⁶ and β_Cu = 51×10⁻⁶ per ºC), with ratio 1.02. It notes that measured water densities give about a 3% difference, because water's expansion is not uniform.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24)",
+        "supersedes_verdict": "appropriate",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:20",
       "chapter": 13,
       "file": "contents/ch13HumidityEvaporationAndBoiling.md",
-      "line": 1154,
-      "end_line": 1198,
+      "line": 1177,
+      "end_line": 1221,
       "kind": "problems-exercises",
       "ordinal": 20,
       "source_sha256": "0b3e470d6c1364ab027ba8a2a86227af0a7b0b3fbe860763807f1b1dc548c652",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Integrated Concepts** If you want to cook in water at $$150\\text{ºC} $$ , you need a pressure cooker that can withstand the necessary pressure. (a) What pressure is required for…",
       "has_solution": true,
       "missing_labels": [],
@@ -972,30 +966,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:20",
+        "source_sha256": "0b3e470d6c1364ab027ba8a2a86227af0a7b0b3fbe860763807f1b1dc548c652",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Boiling at 150°C requires the surrounding absolute pressure to equal water's saturation vapor pressure. The inspected table gives 4.76e5 Pa. The lid's net outward pressure force depends on the difference between internal and external pressure, so using gauge pressure for part (b) is correct. The discussion's locking, sealing, and pressure-relief explanations agree with this force balance.",
         "calculation_check": "A = pi(0.250/2)^2 = 0.0490874 m^2. Delta P = 4.76e5 - 1.01e5 = 3.75e5 Pa, giving F = 18407.8 N. The absolute pressure is 4.70 atm or 69.0 psi; the force is approximately 4138 lbf or the weight of 1.88 metric tonnes.",
         "assumptions": "Atmospheric pressure acts outside the lid, internal pressure is approximately uniform, and water is at boiling equilibrium. The household-cooker operating-pressure comparison was not independently documented in the supplied sources; no particular device rating is given.",
         "notes": "Both answers and the distinction between absolute pressure and net lid force are correct. The quoted 70 psi is absolute pressure.",
-        "source_sha256": "0b3e470d6c1364ab027ba8a2a86227af0a7b0b3fbe860763807f1b1dc548c652",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:54:32+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:21",
       "chapter": 13,
       "file": "contents/ch13HumidityEvaporationAndBoiling.md",
-      "line": 1200,
-      "end_line": 1222,
+      "line": 1223,
+      "end_line": 1245,
       "kind": "problems-exercises",
       "ordinal": 21,
       "source_sha256": "e16512f74fef660c160301e2bca86393db1298f6ebc68d6d686ecd96079e7299",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Unreasonable Results** (a) How many moles per cubic meter of an ideal gas are there at a pressure of $$ 1.00 \\times 10^{14} {\\text{N/m}}^{2} $$ and at $$0\\text{ºC} $$ ? (b) What…",
       "has_solution": true,
       "missing_labels": [
@@ -1011,30 +1005,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:21",
+        "source_sha256": "e16512f74fef660c160301e2bca86393db1298f6ebc68d6d686ecd96079e7299",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The formal ideal-gas result follows from n/V = P/(RT). Its enormous concentration implies separations far below ordinary atomic dimensions, contradicting the dilute, negligible-particle-volume assumptions of the classical ideal-gas model. The solution correctly identifies the invalid model, although its explanation of why the concentration is unreasonable is terse.",
         "calculation_check": "Using T = 273.15 K and R = 8.31 J/(mol K), n/V = 1.00e14/(8.31*273.15) = 4.4055e10 mol/m^3. This corresponds to 2.65e34 particles/m^3 and a characteristic separation of approximately 3.35e-12 m.",
         "assumptions": "The ideal-gas law is used only to expose its failure. No actual high-pressure equation of state or gas composition is specified.",
         "notes": "The numerical result and diagnosis are correct; the implied approximately 3 pm particle spacing makes the breakdown concrete.",
-        "source_sha256": "e16512f74fef660c160301e2bca86393db1298f6ebc68d6d686ecd96079e7299",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:54:32+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:22",
       "chapter": 13,
       "file": "contents/ch13HumidityEvaporationAndBoiling.md",
-      "line": 1224,
-      "end_line": 1274,
+      "line": 1247,
+      "end_line": 1297,
       "kind": "problems-exercises",
       "ordinal": 22,
       "source_sha256": "722b04cf4d074a60a86b40e39cfaa9f4b88dcd439464b45f6b54f308e3016f9a",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Unreasonable Results** (a) An automobile mechanic claims that an aluminum rod fits loosely into its hole on an aluminum engine block because the engine is hot and the rod is col…",
       "has_solution": true,
       "missing_labels": [],
@@ -1046,7 +1040,7 @@
       "automatic_flags": [
         {
           "file": "contents/ch13HumidityEvaporationAndBoiling.md",
-          "line": 1262,
+          "line": 1285,
           "kind": "equation",
           "expression": "22.0\\text{ºC}+ 4000\\text{ºC} = 4022\\text{ºC}",
           "status": "failed",
@@ -1059,30 +1053,30 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:22",
+        "source_sha256": "722b04cf4d074a60a86b40e39cfaa9f4b88dcd439464b45f6b54f308e3016f9a",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Holding the existing hole diameter fixed at 1.100 times the rod's 22°C diameter, the rod must expand by 10%, formally requiring T_rod = 22°C + 0.100/alpha. The solution instead labels this as the engine-block temperature, which requires an additional assumption about the original fit. More seriously, it incorrectly rejects differential temperature as an explanation merely because both objects are aluminum. Equal expansion coefficients preserve a fit when both undergo the same temperature change; a hot block and cold rod can have different diameters.",
         "calculation_check": "With alpha = 25e-6/K, Delta T = 4000 K and the formal rod temperature is 4022°C. This is far above the inspected table's aluminum melting point of 660°C, so solid-rod expansion cannot produce the required fit. Even extrapolating the same coefficient only to melting gives an expansion of about 1.6%, far below 10%.",
         "assumptions": "The hole remains at its stated diameter while the rod is heated. Constant-alpha expansion is a deliberately invalid extrapolation used to reveal the unreasonable requirement. Inferring the block's temperature additionally requires an initially matching hole and rod.",
         "notes": "The formal temperature is correct, but it is assigned to the wrong object. The main conceptual error is claiming identical materials cannot develop a loose fit through different temperatures; the unreasonable feature is the 10% magnitude.",
-        "source_sha256": "722b04cf4d074a60a86b40e39cfaa9f4b88dcd439464b45f6b54f308e3016f9a",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:54:32+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:23",
       "chapter": 13,
       "file": "contents/ch13HumidityEvaporationAndBoiling.md",
-      "line": 1276,
-      "end_line": 1301,
+      "line": 1299,
+      "end_line": 1324,
       "kind": "problems-exercises",
       "ordinal": 23,
       "source_sha256": "85bf75d0bcc894a5b1b717abe5ed7c02670b485ed373117479dd8699a8ce49e0",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Unreasonable Results** The temperature inside a supernova explosion is said to be $$ 2.00 \\times 10^{13} \\text{K} $$ . (a) What would the average velocity $${v}_{\\text{rms}} $$…",
       "has_solution": true,
       "missing_labels": [
@@ -1098,30 +1092,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:23",
+        "source_sha256": "85bf75d0bcc894a5b1b717abe5ed7c02670b485ed373117479dd8699a8ce49e0",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Applying classical translational equipartition gives v_rms = sqrt(3k_B T/m_H), which exceeds c. The solution explicitly identifies the need for relativity, correctly explaining the decisive failure. More precisely, the invalid assumption is nonrelativistic kinetic energy and its equipartition speed formula; ideal-gas behavior by itself does not require nonrelativistic motion. Neutral hydrogen atoms also cannot remain intact at this temperature.",
         "calculation_check": "Using m_H = 1.008e-3/(6.02e23) kg gives v_rms = 7.032e8 m/s = 2.346c. Also, k_B T/(m_H c^2) approximately 1.83, directly demonstrating that the nonrelativistic regime is exceeded.",
         "assumptions": "Hydrogen atomic mass is retained solely for the requested formal calculation. No density is supplied, so the discussion's density-based explanation cannot be independently established. An actual speed distribution would require a relativistic model and appropriate particle composition.",
         "notes": "The result and explicit relativity diagnosis are correct. The reference to ideal-gas failure should be understood specifically as failure of the classical speed formula.",
-        "source_sha256": "85bf75d0bcc894a5b1b717abe5ed7c02670b485ed373117479dd8699a8ce49e0",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:54:32+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:24",
       "chapter": 13,
       "file": "contents/ch13HumidityEvaporationAndBoiling.md",
-      "line": 1303,
-      "end_line": 1347,
+      "line": 1326,
+      "end_line": 1370,
       "kind": "problems-exercises",
       "ordinal": 24,
       "source_sha256": "1f6ec68e5f380fcb2fd67938034ef6c510e2159357f8e9dfc5cce42648148784",
-      "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
+      "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
       "preview": "**Unreasonable Results** Suppose the relative humidity is 80% on a day when the temperature is $$ 30.0\\text{ºC} $$ . (a) What will the relative humidity be if the air cools to $$…",
       "has_solution": true,
       "missing_labels": [],
@@ -1134,19 +1128,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13HumidityEvaporationAndBoiling.md::problems-exercises:24",
+        "source_sha256": "1f6ec68e5f380fcb2fd67938034ef6c510e2159357f8e9dfc5cce42648148784",
+        "file_sha256": "12cc36e9b1029c4c3f060fcf7e70cd30fb1c7d0e793d23c84f63331c30f57a8d",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The density-ratio calculation correctly produces supersaturation. In ordinary air with condensation nuclei and enough time to equilibrate, condensation reduces the vapor density toward saturation during further cooling. However, the solution repeatedly claims humidity above 100% is impossible. Supersaturated vapor can exist away from equilibrium, so the stated constant-density cooling process is not categorically impossible; its persistence depends on condensation kinetics.",
         "calculation_check": "The inspected table gives 30.4 and 23.0 g/m^3. Initial vapor density = 0.800*30.4 = 24.32 g/m^3, giving RH = 100*24.32/23.0 = 105.74%, or 106%. Linear interpolation of these table entries places saturation near 25.9°C. Equilibration at 25°C in fixed volume would condense approximately 1.32 g/m^3.",
         "assumptions": "The calculation follows the problem's constant vapor-density condition. Capping humidity at saturation additionally assumes effective nucleation or existing liquid surfaces and sufficient equilibration time.",
         "notes": "The arithmetic is correct, but the discussion confuses equilibrium saturation with an absolute prohibition on supersaturation.",
-        "source_sha256": "1f6ec68e5f380fcb2fd67938034ef6c510e2159357f8e9dfc5cce42648148784",
-        "file_sha256": "c5c26e48dcf9bc92555dbf70d7760091a30cbd34e2ce9efe0e2cfa825d4fa975",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:54:32+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T01:09:57+00:00",
+        "reviewed_at": "2026-10-24T01:11:08+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch13KineticTheory.md::worked-example:1",
@@ -1682,7 +1676,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "78f8b3a8019c66bccec415c46406248a068474ec3494f8be35489a3fccc6797f",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "Explain why a cup of water (or soda) with ice cubes stays at $$0\\text{ºC} $$ , even on a hot summer day.",
       "has_solution": true,
       "missing_labels": [
@@ -1698,30 +1692,30 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13PhaseChanges.md::check-understanding:1",
+        "source_sha256": "78f8b3a8019c66bccec415c46406248a068474ec3494f8be35489a3fccc6797f",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For pure water and ice near atmospheric pressure in phase equilibrium, incoming heat melts ice rather than raising the equilibrium temperature, so the explanation is appropriate for that case. It does not correctly cover the explicitly included soda: dissolved substances lower the freezing temperature, and melting ice changes the solution concentration. Merely having some ice present also does not guarantee that an unstirred drink is everywhere in thermal equilibrium.",
         "calculation_check": "For pure water during equilibrium melting, Q = m_melted L_f with approximately zero temperature change. For a dilute solution, freezing-point depression follows ΔT_f = iK_f b > 0, so ice–soda coexistence need not occur at 0°C. No soda composition is supplied for a numerical correction.",
         "assumptions": "The pure-water result assumes approximately atmospheric pressure, negligible solutes, and effective thermal equilibration. The soda qualification follows from dissolved-solute effects.",
         "notes": "Correct for equilibrated pure ice water, but the blanket 0°C claim fails for soda and omits the relevant solute qualification.",
-        "source_sha256": "78f8b3a8019c66bccec415c46406248a068474ec3494f8be35489a3fccc6797f",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:58:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T18:58:16+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::check-understanding:2",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
       "line": 383,
-      "end_line": 400,
+      "end_line": 402,
       "kind": "check-understanding",
       "ordinal": 2,
-      "source_sha256": "78adc37fa5e27a1a91edf6ce54df674855296f716fedbf3995813ed9717b45fc",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "source_sha256": "907642eb2e557bcc93fbeb83dae02798ead05c0883b4cd664f9ae02eeb70910c",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "Is energy transfer involved in a phase change? If so, will energy have to be supplied to change phase from solid to liquid and liquid to gas? What about gas to liquid and liquid t…",
       "has_solution": true,
       "missing_labels": [
@@ -1732,33 +1726,30 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch13PhaseChanges.md::check-understanding:2",
-        "verdict": "concern",
+        "source_sha256": "907642eb2e557bcc93fbeb83dae02798ead05c0883b4cd664f9ae02eeb70910c",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The solution correctly identifies energy absorption during melting and vaporization and energy release during condensation and freezing. Its molecular explanation broadly reflects changes in intermolecular potential energy. However, it entirely omits the requested explanation of spraying orange trees: freezing applied water releases latent heat, helping keep wetted tissue near the freezing temperature while freezing continues.",
-        "calculation_check": "At approximately constant pressure, melting requires Q = +mL_f and vaporization Q = +mL_v; their reverse transitions release the same magnitudes. Freezing 1 kg of water releases approximately 3.34×10^5 J, providing the energy source for frost protection.",
-        "assumptions": "Ordinary water phase transitions near equilibrium. Frost protection requires adequate water application and freezing heat release to offset environmental and evaporative cooling; ice coating alone is not a continuing heat source.",
-        "notes": "The phase-change energy directions are correct, but the entire orange-tree application is unanswered.",
-        "source_sha256": "78adc37fa5e27a1a91edf6ce54df674855296f716fedbf3995813ed9717b45fc",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:58:16+00:00"
+        "notes": "Phase-change energy directions are correct. Fixed: the orange-tree part is now answered. Freezing spray releases 334 kJ/kg of latent heat and holds the coated fruit near 0 ºC while the juice, with its dissolved sugars, freezes only below 0 ºC.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::conceptual-questions:1",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
-      "line": 437,
-      "end_line": 460,
+      "line": 439,
+      "end_line": 462,
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "622224e73fa5e6ae5c9ddce5b3afd6a3a033ee186bb4c5c88d1e88595ed4ff76",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "A pressure cooker contains water and steam in equilibrium at a pressure greater than atmospheric pressure. How does this greater pressure increase cooking speed?",
       "has_solution": true,
       "missing_labels": [],
@@ -1768,30 +1759,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13PhaseChanges.md::conceptual-questions:1",
+        "source_sha256": "622224e73fa5e6ae5c9ddce5b3afd6a3a033ee186bb4c5c88d1e88595ed4ff76",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Increasing the equilibrium pressure raises water's saturation temperature, allowing water and steam to cook food at a higher temperature. Faster temperature-dependent reactions and structural changes then explain the increased cooking speed. The discussion correctly describes movement along the liquid–vapor coexistence boundary. The reaction-rate doubling rule is a rough empirical guide rather than a universal law or an exact cooking-time prediction.",
         "calculation_check": "The coexistence slope satisfies dP/dT = L/[T(v_g−v_l)] > 0 for vaporization. Approximately 120°C at 2 atm absolute is consistent with water's saturation behavior. If the stated doubling-per-10°C approximation applies, a 20°C rise gives roughly four times the reaction rate, consistent with a time reduction of half or more when reaction kinetics dominate.",
         "assumptions": "Pressure is absolute, water and steam remain near equilibrium, and the cooker contains liquid water. Actual cooking time can also be limited by heat transport and food-specific kinetics.",
         "notes": "Correct pressure–boiling-point mechanism and cooking explanation. The reaction-rate rule is appropriately treated as approximate.",
-        "source_sha256": "622224e73fa5e6ae5c9ddce5b3afd6a3a033ee186bb4c5c88d1e88595ed4ff76",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:58:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T18:58:16+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::conceptual-questions:2",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
-      "line": 462,
-      "end_line": 487,
+      "line": 464,
+      "end_line": 489,
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "3dc73b1a09fa2c5391d78d9ec726cef82a074a0df55907fdf432b10c514519b7",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "Why does condensation form most rapidly on the coldest object in a room—for example, on a glass of ice water?",
       "has_solution": true,
       "missing_labels": [],
@@ -1801,30 +1792,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13PhaseChanges.md::conceptual-questions:2",
+        "source_sha256": "3dc73b1a09fa2c5391d78d9ec726cef82a074a0df55907fdf432b10c514519b7",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A colder surface has a lower equilibrium water-vapor pressure. When ambient vapor pressure exceeds that value, net condensation occurs; lowering surface temperature generally increases the driving difference. This supports the dew-point explanation and the examples. The language about air's capacity is shorthand for temperature-dependent saturation vapor pressure, and comparable airflow and surface conditions are needed to infer a rate ordering from temperature alone.",
         "calculation_check": "At the dew point T_d, ambient vapor pressure equals p_sat(T_d). For a surface at T_s < T_d, p_sat(T_s) < p_ambient, producing a net vapor flux toward the surface. Further cooling increases this difference under otherwise comparable conditions.",
         "assumptions": "Comparable surface area, airflow, humidity, and transport conditions; surfaces are suitable for nucleation. The liquid-droplet explanation concerns temperatures where liquid condensation is relevant; sufficiently cold surfaces can instead accumulate frost.",
         "notes": "Correct dew-point and condensation mechanism, with ordinary transport and phase-state qualifications.",
-        "source_sha256": "3dc73b1a09fa2c5391d78d9ec726cef82a074a0df55907fdf432b10c514519b7",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T18:58:16+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T18:58:16+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::conceptual-questions:3",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
-      "line": 489,
-      "end_line": 515,
+      "line": 491,
+      "end_line": 517,
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "c1f05d4a962d91aa12eb17c1437d93c160fd126a568f06166f93f9289248117f",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "What is the vapor pressure of solid carbon dioxide (dry ice) at $$ - 78.5\\text{ºC} $$ ? ![The phase diagram (pressure versus temperature graph showing the three phases) for carbon…",
       "has_solution": true,
       "missing_labels": [],
@@ -1836,30 +1827,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13PhaseChanges.md::conceptual-questions:3",
+        "source_sha256": "c1f05d4a962d91aa12eb17c1437d93c160fd126a568f06166f93f9289248117f",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The equilibrium vapor pressure of a solid is the pressure on its solid–gas coexistence curve. Inspection of the referenced SVG confirms that this curve passes through −78.5°C and 1 atm. The explanation of sublimation and the absence of a stable liquid phase at atmospheric pressure follows from atmospheric pressure being below the triple-point pressure.",
         "calculation_check": "1 atm = 101325 Pa, consistent with 1.01 × 10^5 Pa. The diagram gives a triple-point pressure of 5.11 atm > 1 atm.",
         "assumptions": "Pure CO₂ in phase equilibrium; diagram values have their displayed precision. In air, equilibrium vapor pressure refers to the CO₂ partial pressure.",
         "notes": "Correct pressure and phase explanation. 'Exactly' should be understood within the rounded diagram data, not as additional precision.",
-        "source_sha256": "c1f05d4a962d91aa12eb17c1437d93c160fd126a568f06166f93f9289248117f",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:01:40+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:01:40+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::conceptual-questions:4",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
-      "line": 517,
-      "end_line": 540,
+      "line": 519,
+      "end_line": 542,
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "9c8e9f57ed177083b40bd37228fad4aaf44d202b0919199280dbc518e9785ee1",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "Can carbon dioxide be liquefied at room temperature ( $$20\\text{ºC} $$)? If so, how? If not, why not? (See [[Figure 5]](#Figure5).)",
       "has_solution": true,
       "missing_labels": [],
@@ -1871,30 +1862,30 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13PhaseChanges.md::conceptual-questions:4",
+        "source_sha256": "9c8e9f57ed177083b40bd37228fad4aaf44d202b0919199280dbc518e9785ee1",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "At 20°C, below the 31°C critical temperature, isothermal compression reaches the liquid–vapor boundary and can condense CO₂. The referenced SVG explicitly marks approximately 56 atm at 20°C. The main answer and decompression explanation are sound. However, the discussion incorrectly says CO₂ above 31°C would exist only as a supercritical fluid: above the critical temperature but below the critical pressure, it is a gas.",
         "calculation_check": "56–57 atm corresponds to 5.6742–5.7755 × 10^6 Pa, consistent with the stated approximate pressure. A state at 40°C and 1 atm provides a direct counterexample to the supercritical-only claim.",
         "assumptions": "Compression maintains 20°C by removing compression heat and latent heat. Conventional fluid-phase classification is used; extreme-pressure solid phases are outside the intended diagram.",
         "notes": "Liquefaction answer and pressure are correct. Discussion omits the critical-pressure requirement for a supercritical fluid.",
-        "source_sha256": "9c8e9f57ed177083b40bd37228fad4aaf44d202b0919199280dbc518e9785ee1",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:01:40+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:01:40+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::conceptual-questions:5",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
-      "line": 542,
-      "end_line": 565,
+      "line": 544,
+      "end_line": 567,
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "0734217e2c0034ae60c1b9496c3ec07b9f53fa46fef3a9ad59707d07ef71c3a0",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "Oxygen cannot be liquefied at room temperature by placing it under a large enough pressure to force its molecules together. Explain why this is.",
       "has_solution": true,
       "missing_labels": [],
@@ -1904,30 +1895,30 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13PhaseChanges.md::conceptual-questions:5",
+        "source_sha256": "0734217e2c0034ae60c1b9496c3ec07b9f53fa46fef3a9ad59707d07ef71c3a0",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Room temperature exceeds oxygen's critical temperature, so isothermal compression cannot produce a distinct liquid through gas–liquid coexistence. The conclusion is correct. The molecular explanation is misleading: compression can bring molecules close together above the critical temperature, producing a dense fluid. What disappears is the distinct liquid–gas phase transition, not the ability to achieve liquid-like molecular separations. Liquids also lack the long-range positional order implied by the explanation.",
         "calculation_check": "20–25°C = 293.15–298.15 K, well above the locally tabulated 154.8 K critical temperature. Molecular spacing scales approximately as (V/N)^(1/3), so compression decreases spacing even above the critical temperature.",
         "assumptions": "Fixed room temperature, equilibrium ordinary fluid behavior, and critical-temperature values supplied by the chapter's Table 1.",
         "notes": "Correct critical-temperature conclusion, but the explanation that pressure cannot bring molecules sufficiently close is physically incorrect.",
-        "source_sha256": "0734217e2c0034ae60c1b9496c3ec07b9f53fa46fef3a9ad59707d07ef71c3a0",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:01:40+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:01:40+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13PhaseChanges.md::conceptual-questions:6",
       "chapter": 13,
       "file": "contents/ch13PhaseChanges.md",
-      "line": 567,
-      "end_line": 583,
+      "line": 569,
+      "end_line": 585,
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "600d1e3aa244d2995436087cc9dcb97a7ff31e51352762b7ed3c206095aad3b2",
-      "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
+      "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
       "preview": "What is the distinction between gas and vapor?",
       "has_solution": true,
       "missing_labels": [
@@ -1941,19 +1932,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13PhaseChanges.md::conceptual-questions:6",
+        "source_sha256": "600d1e3aa244d2995436087cc9dcb97a7ff31e51352762b7ed3c206095aad3b2",
+        "file_sha256": "b7626602b62468e37fe4766768ef6ec612bc32451faecc4b45f2ab49db7f1e0b",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution gives a conventional distinction: vapor commonly denotes a gaseous phase below its critical temperature, whereas gas is also the general state name. It correctly explains that being above the normal boiling point does not prevent condensation under increased pressure.",
         "calculation_check": "The supplied CO₂ diagram provides a cross-check: CO₂ at 20°C is above its atmospheric sublimation temperature but below its critical temperature and can condense near 56 atm.",
         "assumptions": "Terminology is conventional rather than a separate thermodynamic phase classification. Condensation into stable liquid requires a temperature within the liquid's stability range; colder vapor can instead deposit as solid.",
         "notes": "Correct conventional distinction and pressure qualification, with the usual liquid-stability limitation.",
-        "source_sha256": "600d1e3aa244d2995436087cc9dcb97a7ff31e51352762b7ed3c206095aad3b2",
-        "file_sha256": "7e84013528b7bdc1a2866a7e15fb6e4263f5de9b5d59c031d71ae4a9b26234a2",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:01:40+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:01:40+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13Temperature.md::worked-example:1",
@@ -3744,7 +3735,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "0fd60649d371a33b52f5079c0ecf08775557f1a55622dbf197ae9df14526de7d",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "::: example {\"id\":\"Example1\",\"class\":\"example\"} Calculating Linear Thermal Expansion: The Golden Gate Bridge The main span of San Francisco’s Golden Gate Bridge is 1275 m long at…",
       "has_solution": true,
       "missing_labels": [],
@@ -3757,19 +3748,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md#Example1",
+        "source_sha256": "0fd60649d371a33b52f5079c0ecf08775557f1a55622dbf197ae9df14526de7d",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The coldest length is the reference length, and the temperature increase is 40-(-15)=55°C. Free linear expansion therefore gives ΔL=αL0ΔT. The inspected Table 1 supplies the steel coefficient used. The discussion appropriately explains why a small fractional expansion still requires accommodation by bridge joints.",
         "calculation_check": "ΔL=(12×10^-6 °C^-1)(1275 m)(55°C)=0.8415 m≈0.84 m. The strain is 6.60×10^-4, sufficiently small for first-order linear expansion.",
         "assumptions": "Uniform temperature; entirely steel structure as stipulated; approximately constant expansion coefficient; unrestricted thermal expansion rather than a calculation of restrained thermal stress.",
         "notes": "Correct coefficient, temperature interval, expansion model, and numerical result.",
-        "source_sha256": "0fd60649d371a33b52f5079c0ecf08775557f1a55622dbf197ae9df14526de7d",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:12:08+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:12:08+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md#Example2",
@@ -3780,7 +3771,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "17f09cd426358e78b773de681a504365fdcebfcca8c4a4cada4a5523e26b8bae",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "::: example {\"id\":\"Example2\",\"class\":\"example\"} Calculating Thermal Expansion: Gas vs. Gas Tank Suppose your 60.0-L (15.9-gal) steel gasoline tank is full of gas, so both the tank…",
       "has_solution": true,
       "missing_labels": [],
@@ -3792,19 +3783,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md#Example2",
+        "source_sha256": "17f09cd426358e78b773de681a504365fdcebfcca8c4a4cada4a5523e26b8bae",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "The strategy and calculation correctly subtract the tank cavity's expansion from the gasoline's expansion. Both coefficients agree with the inspected table. The discussion's explanation that the effect is striking because both gasoline and steel 'expand quickly' is misleading: the spill depends on their unequal expansion coefficients, and steel expansion reduces the spill. These equations also specify expansion per temperature interval, not a temporal rate. The categorical prediction of leakage or bursting would require container compliance, strength, and sealing information.",
         "calculation_check": "For a 20°C rise, gasoline expands by 950×10^-6×60.0×20.0=1.140 L, while tank capacity increases by 35×10^-6×60.0×20.0=0.0420 L. Their difference is 1.098 L≈1.10 L. Increasing the steel coefficient would decrease, rather than increase, overflow. A trapped liquid develops thermal pressure, but failure requires that the resulting stress exceed a relevant strength or seal limit.",
         "assumptions": "Initially brim-full tank; uniform common temperature; approximately constant coefficients; freely expanding steel cavity; negligible evaporation; first-order volume expansion. No tank strength or bulk-modulus data are supplied.",
         "notes": "The 1.10 L answer is correct. The discussion confuses expansion magnitude with rate and overstates inevitable container failure; differential expansion is the supported explanation.",
-        "source_sha256": "17f09cd426358e78b773de681a504365fdcebfcca8c4a4cada4a5523e26b8bae",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:12:08+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:12:08+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md#Example3",
@@ -3815,7 +3806,7 @@
       "kind": "worked-example",
       "ordinal": 3,
       "source_sha256": "6fea0395852838baec9f929d4114795e1c9992592ab2ce464be30a19c5ab6b43",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "::: example {\"id\":\"Example3\",\"class\":\"example\"} Calculating Thermal Stress: Gas Pressure What pressure would be created in the gasoline tank considered in [[Example 2]](#Example2)…",
       "has_solution": true,
       "missing_labels": [],
@@ -3828,19 +3819,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md#Example3",
+        "source_sha256": "6fea0395852838baec9f929d4114795e1c9992592ab2ce464be30a19c5ab6b43",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The pressure increase follows from ΔV/V = βΔT − ΔP/B. Literal prevention of gasoline expansion means ΔV = 0 and therefore ΔP = BβΔT. The solution instead subtracts the steel tank's thermal expansion, using the overflow from Example 2. That calculation is appropriate for a sealed tank allowed to expand thermally, but differs from the stated fixed-volume constraint. Pressure should also be identified as an increase over the initial pressure; the positive compression formula uses the magnitude of the suppressed expansion.",
         "calculation_check": "The chapter gives βgasoline = 950×10^-6/°C and βsteel = 35×10^-6/°C. Fixed volume gives ΔP = 1.00×10^9×950×10^-6×20 = 1.90×10^7 Pa. Allowing steel thermal expansion gives 1.83×10^7 Pa, matching the solution. The quoted pressure is about 2660 psi, reasonably described as roughly 2500 psi.",
         "assumptions": "Completely liquid-filled tank, uniform temperature, constant bulk modulus and expansion coefficients, no leakage or vapor space, and negligible tank deformation caused by pressure. The alternative calculation permits the tank's thermal expansion.",
         "notes": "The arithmetic is correct for a thermally expanding steel tank. The stated prohibition on gasoline expansion instead gives 19.0 MPa; the mechanical constraint needs clarification.",
-        "source_sha256": "6fea0395852838baec9f929d4114795e1c9992592ab2ce464be30a19c5ab6b43",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::check-understanding:1",
@@ -3851,7 +3842,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "256c46315b1a0049c458a452c1de12a6e2d8e1b26c1abf77a69b9b502b9e30f9",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Two blocks, A and B, are made of the same material. Block A has dimensions $$l×w×h=L×2L×L $$ and Block B has dimensions $$2L×2L×2L $$ . If the temperature changes, what is (a) the…",
       "has_solution": true,
       "missing_labels": [
@@ -3867,19 +3858,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::check-understanding:1",
+        "source_sha256": "256c46315b1a0049c458a452c1de12a6e2d8e1b26c1abf77a69b9b502b9e30f9",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For equal temperature changes and identical material, both blocks have the same fractional expansion in each corresponding direction. Consequently their volume changes scale with initial volume, their l×w area changes with initial area, and their height changes with initial height. The solution correctly obtains B-to-A ratios of 4, 2, and 2. The referenced SVG's labels and shaded faces agree with the stated dimensions.",
         "calculation_check": "Writing ε = αΔT, the first-order changes are ΔVA = 6εL^3 and ΔVB = 24εL^3; ΔAA = 4εL^2 and ΔAB = 8εL^2; ΔhA = εL and ΔhB = 2εL. These reproduce every stated ratio. Common finite expansion factors preserve the ratios as well.",
         "assumptions": "Both blocks undergo the same uniform temperature change and expand freely with the same material response. The explicit first-order formulas assume small strain and isotropic expansion.",
         "notes": "All three comparisons are correct, including for cooling when the signed changes are negative.",
-        "source_sha256": "256c46315b1a0049c458a452c1de12a6e2d8e1b26c1abf77a69b9b502b9e30f9",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:1",
@@ -3890,7 +3881,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "dfca569295017827d9e13cb330e95d986bd55471d895f8242e068554c5a78e89",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Thermal stresses caused by uneven cooling can easily break glass cookware. Explain why Pyrex®, a glass with a small coefficient of linear expansion, is less susceptible.",
       "has_solution": true,
       "missing_labels": [],
@@ -3902,19 +3893,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:1",
+        "source_sha256": "dfca569295017827d9e13cb330e95d986bd55471d895f8242e068554c5a78e89",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "Uneven cooling produces incompatible local free strains αΔT. Mechanical continuity then creates stress, including tensile stress that can initiate brittle fracture. A smaller expansion coefficient reduces that mismatch, correctly explaining the stated advantage. The precise claim of threefold smaller stress additionally assumes comparable elastic constants, geometry, and temperature distributions; it does not follow from α alone.",
         "calculation_check": "For comparable constraint, σ scales as EαΔT, with an additional Poisson-ratio factor in some geometries. The chapter's coefficients give αPyrex/αordinary = 3/9 = 1/3, so differential free contraction is one-third as large. Stress has that same ratio only when the other factors are held fixed.",
         "assumptions": "The problem's low-expansion glass is represented by the chapter table. Comparisons use the same temperature field, geometry, and comparable elastic properties and flaw conditions. Brand history and suitability for particular refrigerator/oven transfers are not established by the supplied evidence.",
         "notes": "The thermal-stress explanation is sound. The threefold stress reduction is conditional, and the practical cookware claims exceed what the coefficient comparison establishes.",
-        "source_sha256": "dfca569295017827d9e13cb330e95d986bd55471d895f8242e068554c5a78e89",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:2",
@@ -3925,7 +3916,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "9b6990a51a5af750cd62ef3539c690980f94ee00433a2fd9060e89b4c0ae65c1",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Water expands significantly when it freezes: a volume increase of about 9% occurs. As a result of this expansion and because of the formation and growth of crystals as water freez…",
       "has_solution": true,
       "missing_labels": [],
@@ -3935,19 +3926,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:2",
+        "source_sha256": "9b6990a51a5af750cd62ef3539c690980f94ee00433a2fd9060e89b4c0ae65c1",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Ice formation and the stipulated cell rupture plausibly damage membranes, tissue architecture, and neural connectivity, so curing the original disease would not by itself repair freezing injury. The solution correctly identifies that central obstacle. However, it escalates possible severe injury into categorical claims that circulation could not be restored and that preservation may be physically impossible with foreseeable technology. Neither conclusion follows from the supplied rupture fraction or thermal-expansion physics. The blanket statement that brain neurons cannot regenerate is also too broad.",
         "calculation_check": "A 9% volume increase corresponds to a free isotropic linear expansion of (1.09)^(1/3) − 1 ≈ 2.9%, a substantial mismatch in constrained tissue. Neither that strain nor a 10–30% cell-loss fraction specifies which cells or connections are lost, the resulting functional damage, or whether future repair is impossible.",
         "assumptions": "Accept the problem's expansion and cell-damage figures as stipulated for ordinary freezing. Outcomes depend on freezing protocol, ice location, tissue type, and preservation of structural information. Claims about current cryoprotectant performance and future technological limits are not established by the local evidence.",
         "notes": "The basic warning about freezing injury is justified, but categorical biological and future-impossibility claims go beyond the evidence.",
-        "source_sha256": "9b6990a51a5af750cd62ef3539c690980f94ee00433a2fd9060e89b4c0ae65c1",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:3",
@@ -3958,7 +3949,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "674eaa2e45ccf3883dd5043c37f9798d36781cee38d4e06b8780c8ead624eccc",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "One method of getting a tight fit, say of a metal peg in a hole in a metal block, is to manufacture the peg slightly larger than the hole. The peg is then inserted when at a diffe…",
       "has_solution": true,
       "missing_labels": [],
@@ -3968,19 +3959,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:3",
+        "source_sha256": "674eaa2e45ccf3883dd5043c37f9798d36781cee38d4e06b8780c8ead624eccc",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For ordinary positive expansion coefficients, heating a freely expanding block enlarges its hole, while cooling the peg reduces its diameter. Both proposed procedures therefore make the block hotter than the peg during insertion and can provide clearance. Returning the components to a common temperature restores the intended interference. Which procedure is preferable depends on the assembly rather than following universally from thermal expansion.",
         "calculation_check": "The clearance condition is Dh,0(1 + αbΔTb) > Dp,0(1 + αpΔTp), despite Dp,0 > Dh,0 initially. Increasing the block temperature or decreasing the peg temperature moves this inequality toward insertion. For equal coefficients and small initial interference δD, the required relative temperature difference is approximately δD/(αD).",
         "assumptions": "Positive expansion coefficients, sufficiently uniform temperatures, free expansion before contact, and temperature changes large enough to overcome the interference without damage. The manufacturing examples and preference ranking are illustrative rather than established by the givens.",
         "notes": "Both insertion methods are physically correct and imply a hotter block relative to the peg. The preferred method is application dependent.",
-        "source_sha256": "674eaa2e45ccf3883dd5043c37f9798d36781cee38d4e06b8780c8ead624eccc",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:4",
@@ -3991,7 +3982,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "a9003f419fb6cfb7e4858a59c4a7b7e38fee086cf69f5266d7fadb4ace7dd1a7",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Does it really help to run hot water over a tight metal lid on a glass jar before trying to open it? Explain your answer.",
       "has_solution": true,
       "missing_labels": [],
@@ -4003,19 +3994,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:4",
+        "source_sha256": "a9003f419fb6cfb7e4858a59c4a7b7e38fee086cf69f5266d7fadb4ace7dd1a7",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The relevant comparison is the fractional expansion of the lid diameter and jar-neck diameter. With the chapter's steel and ordinary-glass coefficients, equally heated steel expands more; selectively heating the lid increases that advantage. This can relieve contact and reduce opening torque. A literal open gap or broken vacuum seal is not guaranteed for every threaded, gasketed closure, but the stated loosening mechanism is valid.",
         "calculation_check": "For comparable initial diameters D, the increase in diametral clearance is approximately D(αlidΔTlid − αglassΔTglass). Equal temperature rises give a positive value D(3×10^-6/°C)ΔT using the tabulated coefficients. A larger lid temperature rise increases the clearance further.",
         "assumptions": "A typical steel lid and ordinary glass jar, positive expansion coefficients, and heating concentrated on the lid. Actual heating rates and seal response depend on geometry, materials, and closure construction.",
         "notes": "The differential-expansion explanation is correct. Gap formation and vacuum release are possible outcomes rather than necessary consequences.",
-        "source_sha256": "a9003f419fb6cfb7e4858a59c4a7b7e38fee086cf69f5266d7fadb4ace7dd1a7",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:5",
@@ -4026,7 +4017,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "670e68304b3c788df6b6d393b134be51596283455b140cf611ba4c69646d5274",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Liquids and solids expand with increasing temperature, because the kinetic energy of a body's atoms and molecules increases. Explain why some materials *shrink* with increasing te…",
       "has_solution": true,
       "missing_labels": [],
@@ -4036,19 +4027,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::conceptual-questions:5",
+        "source_sha256": "670e68304b3c788df6b6d393b134be51596283455b140cf611ba4c69646d5274",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The framework-vibration and structural-rearrangement explanations correctly show how increased thermal motion can reduce average dimensions. However, the water example incorrectly attributes expansion of liquid water between 4°C and 0°C to formation of an open hexagonal crystal structure. Water remains liquid over that interval at ordinary pressure; its changing, transient hydrogen-bond network must be distinguished from the crystalline lattice formed on freezing.",
         "calculation_check": "For fixed mass, V = m/ρ and β = −(1/ρ)(dρ/dT). Below the density maximum near 4°C, dρ/dT > 0, giving β < 0: heating toward 4°C contracts the liquid. This establishes the example without invoking crystallization. Flexible linkages can likewise shorten projected separations as transverse vibration grows.",
         "assumptions": "Ordinary-pressure liquid water between 0°C and 4°C, with no freezing transition. Framework and composite examples require suitable structural geometry; different component expansion coefficients alone do not guarantee contraction. Specific zirconium-tungstate properties were not independently established from local evidence.",
         "notes": "The general explanation of negative thermal expansion is sound, but the liquid-water mechanism incorrectly invokes a hexagonal crystal lattice.",
-        "source_sha256": "670e68304b3c788df6b6d393b134be51596283455b140cf611ba4c69646d5274",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:1",
@@ -4059,7 +4050,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "e541c2d5ca6c125f312a5c66799b789405920cdf706d633f16ca02f36aa0a762",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "The height of the Washington Monument is measured to be 170 m on a day when the temperature is $$ 35.0\\text{ºC} $$ . What will its height be on a day when the temperature falls to…",
       "has_solution": true,
       "missing_labels": [],
@@ -4072,19 +4063,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:1",
+        "source_sha256": "e541c2d5ca6c125f312a5c66799b789405920cdf706d633f16ca02f36aa0a762",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Using the stipulated marble coefficient, cooling by 45°C produces a negative height change through ΔL = αLΔT. Adding that signed change to the initial height correctly answers the question. The discussion appropriately treats this as an estimate; structural stresses would require additional information about constraints and temperature gradients.",
         "calculation_check": "ΔL = 7×10^-6×170×(−45) = −0.05355 m, giving Lfinal = 169.94645 m ≈ 169.95 m. The contraction is about 5.4 cm or 2.1 inches, consistent with the solution's rounding.",
         "assumptions": "Uniform monument temperature, free effective vertical expansion, constant average coefficient equal to marble's as explicitly instructed, and negligible structural complications.",
         "notes": "The sign, model, final height, and estimated contraction are correct.",
-        "source_sha256": "e541c2d5ca6c125f312a5c66799b789405920cdf706d633f16ca02f36aa0a762",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:2",
@@ -4094,8 +4085,8 @@
       "end_line": 846,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "75cc4f39de5b0781677d21fbcc15cc9a95a54906aeecf8068f51a782d71af1ca",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "source_sha256": "fd5e8cf1f33dc2ffcf488f3e1d5e00d63e7c28458b0bff6f9542088841f3d63f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "How much taller does the Eiffel Tower become at the end of a day when the temperature has increased by $$15\\text{ºC} $$ ? Its original height is 321 m and you can assume it is mad…",
       "has_solution": true,
       "missing_labels": [],
@@ -4105,22 +4096,19 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:2",
-        "verdict": "concern",
+        "source_sha256": "fd5e8cf1f33dc2ffcf488f3e1d5e00d63e7c28458b0bff6f9542088841f3d63f",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The uniform-temperature height increase is calculated correctly. The discussion reverses the direction of bending caused by asymmetric solar heating: the hotter, longer side lies on the outside of the bend, so the structure bends toward the cooler side, away from the sun. Thus a correct numerical answer is accompanied by an incorrect physical explanation.",
-        "calculation_check": "ΔL = 12×10^-6×321×15 = 0.05778 m = 5.778 cm, agreeing with 5.8 cm. For opposite sides separated by width d, differential strain produces curvature of magnitude approximately α(Tsun − Tshade)/d, with the sunlit side forming the longer outer arc.",
-        "assumptions": "The numerical answer assumes a uniform 15°C steel-temperature increase and free expansion. The bending comparison assumes the stated hotter sunlit side and ordinary positive expansion. The historical assertion about expansion joints was not established from the supplied evidence.",
-        "notes": "The 5.8 cm increase is correct. The discussion incorrectly says the tower leans toward the sun; the stated heating mechanism bends it away.",
-        "source_sha256": "75cc4f39de5b0781677d21fbcc15cc9a95a54906aeecf8068f51a782d71af1ca",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "notes": "The 5.8 cm increase is correct. Fixed: the sunlit side expands more, so the tower bends away from the sun (it previously said toward).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:3",
@@ -4131,7 +4119,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "89bb6765e6e735d51dc959758caea06a331b6a78aed048870943b9c881d6ce6c",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "What is the change in length of a 3.00-cm-long column of mercury if its temperature changes from $$ 37.0\\text{ºC} $$ to $$ 40.0\\text{ºC} $$ , assuming the mercury is unconstrained?",
       "has_solution": true,
       "missing_labels": [
@@ -4147,19 +4135,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:3",
+        "source_sha256": "89bb6765e6e735d51dc959758caea06a331b6a78aed048870943b9c881d6ce6c",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Under the stated idealization of unconstrained isotropic expansion, equal fractional changes in three dimensions give β ≈ 3α, so the solution correctly uses α = β/3. Its distinction from a fixed-area capillary is important: that constraint directs essentially the entire volume increase into column length.",
         "calculation_check": "ΔT = 3.0°C and β/3 = 60×10^-6/°C. Thus ΔL = 60×10^-6×0.0300×3.0 = 5.4×10^-6 m. In contrast, a fixed-area column would increase by βLΔT = 16.2 micrometers.",
         "assumptions": "Interpret the unconstrained column as undergoing isotropic, shape-preserving dilation. Ignore gravity-driven reshaping, surface tension, and container effects; an actual free liquid does not retain an arbitrary column shape without additional conditions.",
         "notes": "The 5.4 micrometer increase is correct for the explicitly identified unconstrained isotropic model.",
-        "source_sha256": "89bb6765e6e735d51dc959758caea06a331b6a78aed048870943b9c881d6ce6c",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:4",
@@ -4170,7 +4158,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "8d25011009c2f8da2a0806902be4082887ed2140611231ca358ec786f1b90dbe",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "How large an expansion gap should be left between steel railroad rails if they may reach a maximum temperature $$ 35.0\\text{ºC} $$ greater than when they were laid? Their original…",
       "has_solution": true,
       "missing_labels": [],
@@ -4183,19 +4171,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:4",
+        "source_sha256": "8d25011009c2f8da2a0806902be4082887ed2140611231ca358ec786f1b90dbe",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The required gap per repeating rail interval equals the thermal length increase of one rail. There is no extra factor of two: if adjacent identical rails expand symmetrically about their centers, each contributes half its expansion to the shared gap. Constraining that expansion instead produces compression and a possible buckling instability, as discussed.",
         "calculation_check": "ΔL = 12×10^-6×10.0×35.0 = 0.00420 m = 4.2 mm, or about 0.165 inches. Two neighboring half-expansions close the gap by 2×2.1 mm = 4.2 mm.",
         "assumptions": "Uniform warming, identical freely expanding rail segments with regularly spaced joints, constant steel coefficient, and no installation tolerances or additional engineering safety allowance. Continuous welded rail requires a different constraint analysis.",
         "notes": "The 4.2 mm theoretical minimum gap is correct; the solution also correctly identifies compression and buckling when expansion is restrained.",
-        "source_sha256": "8d25011009c2f8da2a0806902be4082887ed2140611231ca358ec786f1b90dbe",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:5",
@@ -4206,7 +4194,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "64a08d30ad98b461897f802935ee4c3643b678d69a3f99911d92f6b0b54def36",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "You are looking to purchase a small piece of land in Hong Kong. The price is \"only\" $$60 000 $$ per square meter! The land title says the dimensions are $$20 \\text{m} × 30 \\text{m…",
       "has_solution": true,
       "missing_labels": [],
@@ -4232,19 +4220,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:5",
+        "source_sha256": "64a08d30ad98b461897f802935ee4c3643b678d69a3f99911d92f6b0b54def36",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "An expanded tape has longer physical spacing between its markings, so a fixed parcel yields smaller numerical readings. Both dimensions must be divided by the tape's expansion factor, giving Ameasured = Atrue/(1 + αΔT)^2. The solution correctly obtains a negative first-order area and price change, rather than treating the land as expanding.",
         "calculation_check": "With αΔT = 12×10^-6×20 = 0.00024, the first-order area error is −2×0.00024×600 = −0.288 m^2 and the price error is −17,280 currency units. The unexpanded reciprocal expression gives −0.287896 m^2 and −17,273.78 currency units, confirming the approximation and stated roughly 17,000 decrease.",
         "assumptions": "The title dimensions represent true dimensions at normal tape calibration; the parcel remains fixed, the tape warms uniformly by 20°C, and hypothetical pricing uses the uncorrected measured area. Ignore tape tension, sag, and other surveying errors.",
         "notes": "The expanded-tape model, negative sign, area calculation, and approximate price decrease are all correct.",
-        "source_sha256": "64a08d30ad98b461897f802935ee4c3643b678d69a3f99911d92f6b0b54def36",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:15:44+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:15:44+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:6",
@@ -4255,7 +4243,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "7264df1d5b130b7a63ec7bc571574da6a32346cb06bb2ad3d2085e4b17a04c72",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Global warming will produce rising sea levels partly due to melting ice caps but also due to the expansion of water as average ocean temperatures rise. To get some idea of the siz…",
       "has_solution": true,
       "missing_labels": [],
@@ -4267,19 +4255,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:6",
+        "source_sha256": "7264df1d5b130b7a63ec7bc571574da6a32346cb06bb2ad3d2085e4b17a04c72",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a column with fixed horizontal area A, V=Ah gives Δh=ΔV/A=βhΔT. Using the volume coefficient directly is therefore correct; dividing it by three would describe a different geometric constraint. The solution explicitly states the needed area constraint and identifies the ocean calculation as a scale estimate.",
         "calculation_check": "Δh=(210×10^-6 K^-1)(1000 m)(1 K)=0.210 m=21.0 cm. For the discussion's assumed 3700 m column, the same calculation gives 0.777 m, approximately 78 cm. Units reduce to length and warming produces a positive rise.",
         "assumptions": "Fixed horizontal ocean area, uniform warming, conserved water mass, and a constant representative expansion coefficient. Temperature, salinity, pressure, and depth dependence are omitted. The 3.7 km depth is treated as the discussion's assumed illustrative depth.",
         "notes": "Correct confined-column model and arithmetic; the discussion appropriately limits the result to a scale estimate.",
-        "source_sha256": "7264df1d5b130b7a63ec7bc571574da6a32346cb06bb2ad3d2085e4b17a04c72",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:7",
@@ -4290,7 +4278,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "e5b4846138cb288ce0691abcf689e8f44d536969f842ba7f7ed05d1af448ea9f",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Show that 60.0 L of gasoline originally at $$ 15.0\\text{ºC} $$ will expand to 61.1 L when it warms to $$ 35.0\\text{ºC} \\text{,} $$ as claimed in [[Example 2]](#Example2).",
       "has_solution": true,
       "missing_labels": [
@@ -4306,19 +4294,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:7",
+        "source_sha256": "e5b4846138cb288ce0691abcf689e8f44d536969f842ba7f7ed05d1af448ea9f",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The requested quantity is the gasoline's expanded volume, so V=V0(1+βΔT) answers the problem directly. Container expansion need not be subtracted because this problem does not ask for overflow. The coefficient agrees with the chapter's table.",
         "calculation_check": "ΔT=20.0 °C and βΔT=0.0190. Thus ΔV=60.0×0.0190=1.14 L and V=61.14 L, rounding to 61.1 L.",
         "assumptions": "Constant representative gasoline expansion coefficient, uniform temperature, unchanged composition, and negligible evaporation or pressure effects.",
         "notes": "Correct relation and numerical verification of the claimed 61.1 L.",
-        "source_sha256": "e5b4846138cb288ce0691abcf689e8f44d536969f842ba7f7ed05d1af448ea9f",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:8",
@@ -4329,7 +4317,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "5eb08b91c1eb96c3fb17f4cc91875cc413283692f864a0882c6b691ed06b3392",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "(a) Suppose a meter stick made of steel and one made of invar (an alloy of iron and nickel) are the same length at $$0\\text{ºC} $$ . What is their difference in length at $$ 22.0\\…",
       "has_solution": true,
       "missing_labels": [],
@@ -4342,19 +4330,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:8",
+        "source_sha256": "5eb08b91c1eb96c3fb17f4cc91875cc413283692f864a0882c6b691ed06b3392",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Equal initial lengths imply a final length difference of L0(αsteel−αinvar)ΔT. Steel must be longer after warming because its coefficient is larger. Both subparts follow this relation, and the discussion correctly connects invar's smaller thermal expansion with improved dimensional stability.",
         "calculation_check": "For 1.00 m, the expansions are 0.000264 m and 0.0000198 m, giving a difference of 0.0002442 m=0.2442 mm. For 30.0 m, the difference is 0.007326 m=7.326 mm, consistent with 7.3 mm.",
         "assumptions": "Both objects have the stated initial lengths at 0 °C, warm uniformly, and expand freely with constant tabulated coefficients. Surveying significance depends on the required accuracy. The historical motivation and name etymology were not independently established from the available chapter evidence.",
         "notes": "Both length differences and their direction are correct. Ancillary historical claims were not independently verified.",
-        "source_sha256": "5eb08b91c1eb96c3fb17f4cc91875cc413283692f864a0882c6b691ed06b3392",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:9",
@@ -4365,7 +4353,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "2af4f88f4f23dfa06ac21a572075307c1cfcd58c06122a389bc221e79a20bafd",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "(a) If a 500-mL glass beaker is filled to the brim with ethyl alcohol at a temperature of $$ 5.00\\text{ºC} \\text{,} $$ how much will overflow when its temperature reaches $$ 22.0\\…",
       "has_solution": true,
       "missing_labels": [],
@@ -4378,19 +4366,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:9",
+        "source_sha256": "2af4f88f4f23dfa06ac21a572075307c1cfcd58c06122a389bc221e79a20bafd",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The beaker's internal capacity expands with the glass, so overflow is V0(βliquid−βglass)ΔT. Repeating this for water and subtracting gives the requested reduction in overflow; the glass contribution cancels from that difference. All requested quantities are supplied. The discussion's expansion-coefficient comparisons agree with the table.",
         "calculation_check": "At ΔT=17.0 °C, alcohol expansion is 9.350 mL and capacity expansion is 0.2295 mL, giving 9.1205 mL overflow. Water overflow is 500(210−27)×10^-6×17=1.5555 mL. The difference is 7.565 mL, consistent with the reported 7.56 mL after intermediate rounding.",
         "assumptions": "Ordinary glass, uniform heating, negligible evaporation, and the chapter's first-order constant-coefficient model. The table gives coefficients at 20 °C; using water's value throughout 5–22 °C is an approximation, particularly near its 4 °C density maximum. Actual temperature-dependent overflow was not verified.",
         "notes": "Correct overflow model and both answers within the chapter's tabulated-coefficient approximation.",
-        "source_sha256": "2af4f88f4f23dfa06ac21a572075307c1cfcd58c06122a389bc221e79a20bafd",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:10",
@@ -4401,7 +4389,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "f3d6933226c9f37f7eeeb54c974a47fcc0c8f9413311153d1e3a31d7bcfa2dd0",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Most automobiles have a coolant reservoir to catch radiator fluid that may overflow when the engine is hot. A radiator is made of copper and is filled to its 16.0-L capacity when…",
       "has_solution": true,
       "missing_labels": [],
@@ -4414,19 +4402,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:10",
+        "source_sha256": "f3d6933226c9f37f7eeeb54c974a47fcc0c8f9413311153d1e3a31d7bcfa2dd0",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The calculation correctly subtracts the copper radiator's capacity expansion from the fluid expansion. The explanation of reservoir storage and return is consistent with that model. However, the claim that coolant would be lost every time the engine heats without a reservoir is too strong: after the first spill and subsequent cooling, the remaining fluid leaves headspace. Repeating the same temperature cycle need not cause another spill unless the radiator is refilled or other conditions change.",
         "calculation_check": "Fluid expansion is 16.0×400×10^-6×85.0=0.544 L. Copper capacity expansion is 16.0×51×10^-6×85.0=0.06936 L. Net overflow is 0.47464 L, consistent with the approximate half-liter result. Repeated identical cycles with conserved remaining coolant do not recreate the original brim-full cold condition.",
         "assumptions": "Free copper expansion, constant coefficients, uniform temperature, negligible pressure-induced compression, boiling, evaporation, and leakage. The repeated-cycle counterexample assumes the same cold and hot temperatures and no refilling.",
         "notes": "Overflow calculation is sound. The discussion incorrectly implies inevitable coolant loss on every subsequent identical heating cycle.",
-        "source_sha256": "f3d6933226c9f37f7eeeb54c974a47fcc0c8f9413311153d1e3a31d7bcfa2dd0",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:11",
@@ -4437,7 +4425,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "6421fe0642e27bf30070f6d5b1924674cce76603c4d1de1873bca7f94a35c909",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "A physicist makes a cup of instant coffee and notices that, as the coffee cools, its level drops 3.00 mm in the glass cup. Show that this decrease cannot be due to thermal contrac…",
       "has_solution": true,
       "missing_labels": [],
@@ -4450,19 +4438,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:11",
+        "source_sha256": "6421fe0642e27bf30070f6d5b1924674cce76603c4d1de1873bca7f94a35c909",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The algebra correctly computes contraction using the selected constant coefficient, but the chapter labels that water coefficient as a 20 °C value. Applying it over 95–45 °C does not establish the actual contraction and cannot support the stated proof that most of the drop comes from bubbles. A temperature-dependent density calculation is needed. The discussion also reverses the usual air-solubility trend: cooling water generally increases its capacity to dissolve air, rather than causing dissolved air to emerge. Escape of previously entrained bubbles is a different process.",
         "calculation_check": "The cup area is π(3.50 cm)^2=38.4845 cm². With β=210×10^-6 K^-1, ΔV=−3.675 cm³ and Δh=−0.95493 mm, matching the solution. A 3.00 mm drop corresponds to 11.545 cm³ and an effective coefficient of approximately 6.60×10^-4 K^-1 over 50 K. The supplied 20 °C coefficient does not bound the relevant effective coefficient. Temperature-dependent liquid-water densities were unavailable in the inspected sources, so a corrected physical drop remains unverified.",
         "assumptions": "Cylindrical cup and coffee approximated as water. The displayed calculation neglects cup contraction and evaporation. Ordinary glass contraction would slightly reduce the predicted drop, but does not validate the extrapolated water coefficient or the bubble explanation.",
         "notes": "Arithmetic is correct for the chosen coefficient; the claimed proof uses that coefficient outside its established range. The cooling-induced dissolved-air explanation is also physically incorrect.",
-        "source_sha256": "6421fe0642e27bf30070f6d5b1924674cce76603c4d1de1873bca7f94a35c909",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:12",
@@ -4473,7 +4461,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "4f546c291440a85c7d0530968921c7ac6b022f009034d8b58d6628c58591fc7a",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "(a) The density of water at $$0\\text{ºC} $$ is very nearly $$1000 {\\text{kg/m}}^{3} $$ (it is actually $$999.84 {\\text{kg/m}}^{3} $$ ), whereas the density of ice at $$0\\text{ºC}…",
       "has_solution": true,
       "missing_labels": [],
@@ -4486,19 +4474,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:12",
+        "source_sha256": "4f546c291440a85c7d0530968921c7ac6b022f009034d8b58d6628c58591fc7a",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Mass conservation gives the stated roughly 9% freezing expansion. Multiplying that strain by the liquid-water bulk modulus reproduces the explicitly qualified rough pressure scale, rather than a prediction of actual constrained freezing pressure. The biological conclusion that freezing can damage cells is reasonable, but the discussion overinterprets this scale as a membrane-failure prediction. Membrane loading depends on pressure difference and cell geometry, not simply absolute pressure. Neither a universal few-atmosphere rupture threshold nor a 10–30% cell-burst fraction follows from the calculation or the supplied conditions.",
         "calculation_check": "For 1 kg, Vwater=0.001 m³ and Vice=1/917=0.0010905125 m³. Expansion relative to liquid volume is 0.0905125. Multiplication by 2.2×10^9 Pa gives 1.9913×10^8 Pa, approximately 1965 atm or 28,881 psi. These agree with the rounded pressure conversions. For a spherical membrane, pressure loading satisfies ΔP=2τ/R, illustrating why failure requires membrane tension and radius information.",
         "assumptions": "The pressure calculation is only the stated liquid-water-modulus scale estimate; it neglects freezing-point shifts, phase-dependent compressibility, containment deformation, and nonlinear response. Biological outcomes depend on cell type, ice location, cooling protocol, and osmotic effects. The quantitative biological claims were not independently established from an external source.",
         "notes": "The qualified 2000-atmosphere scale estimate is arithmetically sound. Universal membrane thresholds and cell-damage percentages are unsupported, and absolute pressure is insufficient to infer membrane rupture.",
-        "source_sha256": "4f546c291440a85c7d0530968921c7ac6b022f009034d8b58d6628c58591fc7a",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:13",
@@ -4509,7 +4497,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "aeb1b784455ce09cfce8edd29e366f752831fbc19bd08d98976a3a3cadc4ab1b",
-      "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
+      "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
       "preview": "Show that $$\\beta \\approx 3\\alpha , $$ by calculating the change in volume $$\\Delta V $$ of a cube with sides of length $$L\\text{.} $$",
       "has_solution": true,
       "missing_labels": [
@@ -4525,19 +4513,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch13ThermalExpansionOfSolidsAndLiquids.md::problems-exercises:13",
+        "source_sha256": "aeb1b784455ce09cfce8edd29e366f752831fbc19bd08d98976a3a3cadc4ab1b",
+        "file_sha256": "4b1396e649fee058ad3a2c5d86229379b8ca0e19307870fcd445d7b23bfe57c6",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For equal expansion along all three axes, Vfinal=L0³(1+αΔT)³. Keeping first-order terms gives ΔV≈3αV0ΔT. Comparison with ΔV≈βV0ΔT establishes the requested β≈3α. The solution explicitly identifies the small-strain approximation.",
         "calculation_check": "The full fractional expansion is 3x+3x²+x³ with x=αΔT. Neglecting terms of second and higher order leaves 3αΔT. Both coefficients have inverse-temperature units. The differential definitions also give β=(1/V)dV/dT=3(1/L)dL/dT=3α for isotropic expansion at a given temperature.",
         "assumptions": "Homogeneous isotropic expansion and |αΔT| much less than one for the finite-change approximation. For anisotropic material, the volume coefficient is the sum of the three directional linear coefficients.",
         "notes": "Correct derivation, dimensions, and small-expansion limit; isotropy is the implicit material assumption.",
-        "source_sha256": "aeb1b784455ce09cfce8edd29e366f752831fbc19bd08d98976a3a3cadc4ab1b",
-        "file_sha256": "fd82725dd0d5b05ca496eb39cebe3329090e43277aef001ccbc2e7feb07e153f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T19:18:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T19:18:56+00:00",
+        "reviewed_at": "2026-10-24T01:09:57+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     }
   ]
 }
