@@ -32,6 +32,8 @@ The table counts items with a new post-fix review. It excludes carried-over revi
 | 28–29 | 17 | `d96cf74b` | `30693092` |
 | 30–31 | 11 | `695eb7fc` | the commit that adds this page |
 
+The per-chapter reports (`chapter-NN.md`) show the post-fix review for every corrected item, except Ch 28 Relativistic Addition of Velocities p4, which Codex re-reviewed after the fix and still flags for its discussion. The [automatic-flag review](automatic-flag-review.md) was refreshed too: two flags disappeared with the corrections and none were added.
+
 Of the post-fix reviews, all but four are now `appropriate`. The four still marked `concern` had their error fixed, but a discussion claim remains that goes beyond the calculation:
 
 - Ch 6 Satellites p5: calls the given mass the "visible" mass, which the problem does not state.
