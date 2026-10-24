@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="900" viewBox="0 0 1000 900" role="img" aria-labelledby="title desc">
+<title id="title">Four examples of fluid entrainment</title>
+<desc id="desc">Four labeled line drawings show a gas jet drawing air into a Bunsen burner, an air jet drawing liquid into an atomizer, a fast water stream drawing air through an aspirator side branch, and rising chimney gases drawing room air into a draft hood. Blue arrows mark primary flow and orange arrows mark entrained secondary flow. Chimney draft includes a buoyancy contribution.</desc>
+<rect width="1000" height="900" fill="#ffffff"/>
+<text x="500" y="37.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">primary</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">stream</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">draws</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">a</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">secondary</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">fluid</tspan></text>
+<text x="500" y="71.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#657382" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Blue</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">primary</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">flow</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Orange</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">entrained</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">flow</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Device</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">geometries</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">are</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">schematic</tspan><tspan font-style="normal">.</tspan></text>
+<line x1="500" y1="100" x2="500" y2="800" stroke="#c7d0d9" stroke-width="1.5"/>
+<line x1="35" y1="452" x2="965" y2="452" stroke="#c7d0d9" stroke-width="1.5"/>
+<text x="250" y="128.05" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Bunsen</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">burner</tspan></text>
+<path d="M205 185V300H190V337H230V385H270V337H310V300H295V185" fill="none" stroke="#333333" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M220 185Q225 150 250 133Q275 154 280 185" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+<line x1="250" y1="408" x2="250" y2="331.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="250,320 255.04,332.6 244.96,332.6" fill="#1f77c8"/>
+<line x1="250" y1="288" x2="250" y2="207.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="250,196 255.04,208.6 244.96,208.6" fill="#1f77c8"/>
+<line x1="110" y1="318" x2="209.4" y2="318" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="221,318 208.4,323.04 208.4,312.96" fill="#ef7d22"/>
+<line x1="390" y1="318" x2="291.6" y2="318" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="280,318 292.6,312.96 292.6,323.04" fill="#ef7d22"/>
+<text x="250" y="437" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Gas</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">jet</tspan></text>
+<text x="135" y="292" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Air</tspan></text>
+<text x="365" y="292" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Air</tspan></text>
+<text x="750" y="128.05" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Atomizer</tspan></text>
+<ellipse cx="605" cy="240" rx="45" ry="32" fill="none" stroke="#222222" stroke-width="2"/>
+<polyline points="650,240 780,240" fill="none" stroke="#657382" stroke-width="17" stroke-linejoin="round"/>
+<polyline points="650,240 780,240" fill="none" stroke="white" stroke-width="14" stroke-linejoin="round"/>
+<line x1="665" y1="240" x2="926.4" y2="240" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="938,240 925.4,245.04 925.4,234.96" fill="#1f77c8"/>
+<rect x="771" y="331" width="120" height="85" rx="12" fill="#dcecf5" stroke="#222222" stroke-width="2"/>
+<polyline points="824,388 824,250" fill="none" stroke="#657382" stroke-width="14" stroke-linejoin="round"/>
+<polyline points="824,388 824,250" fill="none" stroke="#dcecf5" stroke-width="11" stroke-linejoin="round"/>
+<line x1="824" y1="359" x2="824" y2="273.6" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="824,262 829.04,274.6 818.96,274.6" fill="#ef7d22"/>
+<circle cx="858" cy="236" r="2.8" fill="#ef7d22"/>
+<circle cx="869" cy="238" r="2.8" fill="#ef7d22"/>
+<circle cx="880" cy="242" r="2.8" fill="#ef7d22"/>
+<circle cx="891" cy="233" r="2.8" fill="#ef7d22"/>
+<circle cx="902" cy="238" r="2.8" fill="#ef7d22"/>
+<circle cx="913" cy="245" r="2.8" fill="#ef7d22"/>
+<circle cx="924" cy="230" r="2.8" fill="#ef7d22"/>
+<text x="705" y="202" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Air</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">jet</tspan></text>
+<text x="750" y="301.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Liquid</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rises</tspan></text>
+<text x="829" y="439.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Perfume</tspan></text>
+<text x="250" y="499.05" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Aspirator</tspan></text>
+<path d="M196 530V596L230 640V736H270V640L304 596V530" fill="#edf4f8" stroke="#333333" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="270" y="645" width="125" height="25" fill="white"/>
+<line x1="270" y1="645" x2="395" y2="645" stroke="#333333" stroke-width="2"/>
+<line x1="270" y1="670" x2="395" y2="670" stroke="#333333" stroke-width="2"/>
+<line x1="250" y1="545" x2="250" y2="710.4" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="250,722 244.96,709.4 255.04,709.4" fill="#1f77c8"/>
+<line x1="405" y1="657" x2="281.6" y2="657" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="270,657 282.6,651.96 282.6,662.04" fill="#ef7d22"/>
+<text x="146" y="565" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Water</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan></text>
+<text x="365" y="622" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Air</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan></text>
+<text x="250" y="783.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Low</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pressure</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">throat</tspan></text>
+<text x="750" y="499.05" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Chimney</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">draft</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">hood</tspan></text>
+<path d="M700 530V605L663 659H837L800 605V530" fill="none" stroke="#333333" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="711" y="683" width="78" height="115" fill="#edf4f8" stroke="#222222" stroke-width="2"/>
+<line x1="750" y1="775" x2="750" y2="563.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="750,552 755.04,564.6 744.96,564.6" fill="#1f77c8"/>
+<line x1="583" y1="672" x2="704.4" y2="672" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="716,672 703.4,677.04 703.4,666.96" fill="#ef7d22"/>
+<line x1="916" y1="672" x2="795.6" y2="672" stroke="#ef7d22" stroke-width="3"/>
+<polygon points="784,672 796.6,666.96 796.6,677.04" fill="#ef7d22"/>
+<text x="750" y="832" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Hot</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">exhaust</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rises</tspan></text>
+<text x="615" y="717.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Room</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">air</tspan></text>
+<text x="886" y="717.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ef7d22" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Room</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">air</tspan></text>
+<text x="500" y="881.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Jet</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">mixing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">matters</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">chimney</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">draft</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">also</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">depends</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">on</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">buoyancy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">warm</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">gas</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">column</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

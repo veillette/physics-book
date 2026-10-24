@@ -154,6 +154,13 @@ undergoing this irreversible heat transfer. We will see that this means there is
 a loss of ability to do work with this transferred energy. Entropy has
 increased, and energy has become unavailable to do work.
 
+The signed bars below compare the two reservoir changes and their sum on one scale.
+
+<figure class="figure-companion">
+<img src="/resources/companion_15_entropy_budget.svg" alt="Four thousand joules transfer from a fixed 600 K reservoir to a fixed 250 K reservoir. Signed bars show entropy changes of minus 6.67 J/K, plus 16.00 J/K, and total plus 9.33 J/K on the same scale." class="figure-full-width">
+<figcaption>Entropy accounting for this example. The reservoirs exchange the same energy, but the colder reservoir gains more entropy than the hotter reservoir loses, so total entropy increases.</figcaption>
+</figure>
+
 ![Part a of the figure shows the irreversible heat transfer from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow from hot reservoir to cold reservoir as shown by a continuous bold arrow pointing downward. The heat is a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. Part b of the figure shows two reversible heat transfers from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow out of the hot reservoir, and an equal amount of heat Q is shown to flow into the cold reservoir as shown by two arrows representing two reversible processes and not a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. ](../resources/Figure_15_06_03.svg '(a) Heat transfer from a hot object to a cold one is an irreversible process that produces an overall increase in entropy. (b) The same final state and, thus, the same change in entropy is achieved for the objects if reversible heat transfer processes occur between the two objects whose temperatures are the same as the temperatures of the corresponding objects in the irreversible process. ')
 {: #Figure3}
 

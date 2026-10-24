@@ -110,7 +110,7 @@ atmospheric pressure by an amount $$h \rho g $$
 open to the atmosphere is an ideal device for measuring gauge pressures. The
 gauge pressure is $${P}_{\text{g}}=h \rho g $$ and is found by measuring $$h $$.
 
-![Open-tube manometers have U-shaped tubes and one end is always open. When open to atmosphere, fluid at both ends will be the same, as in the first figure. When pressure at one end is greater, the fluid level will go down on that end, as in the second figure. If the pressure at one end is less, then the height of the fluid column on that side will increase, as in the third figure.](../resources/Figure_11_06_02.jpg 'An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and there will be flow from the deeper side. (b) A positive gauge pressure ( P_g=h\\rho g ) transmitted to one side of the manometer can support a column of fluid of height ( h ) . (c) Similarly, atmospheric pressure is greater than a negative gauge pressure ( P_{g} ) by an amount ( h\\rho g ). The jar’s rigidity prevents atmospheric pressure from being transmitted to the peanuts.')
+![Three U-tube manometers compare gas pressure at the left with atmospheric pressure at the right. Equal pressure gives equal levels; positive gauge pressure depresses the left surface, and negative gauge pressure raises it. The height difference is h.](/resources/Figure_11_06_02.svg 'The same horizontal level in a connected liquid at rest has the same pressure. The gas gauge pressure is zero, plus rho g h, or minus rho g h in panels (a), (b), and (c), respectively.'){: .figure-full-width}
 {: #Figure2}
 
 Mercury manometers are often used to measure arterial blood pressure. An

@@ -93,6 +93,13 @@ fraction of $$V $$ . The ideal gas law describes the behavior of real gases
 under most conditions. (Note, for example, that $$N $$ is the total number of
 atoms and molecules, independent of the type of gas.)
 
+These three comparisons make explicit which quantities stay fixed when the ideal gas law is used.
+
+<figure class="figure-companion">
+<img src="/resources/companion_13_gas_laws.svg" alt="Three before-and-after gas comparisons keep particle number fixed. Boyle law doubles absolute pressure and halves volume at constant temperature. Charles law doubles Kelvin temperature and volume at constant pressure. A locked piston keeps volume constant while temperature and pressure both double." class="figure-full-width">
+<figcaption>Three controlled comparisons for a fixed amount of ideal gas. Always use absolute pressure and Kelvin temperature in these proportionalities. Piston positions show relative volumes schematically.</figcaption>
+</figure>
+
 Let us see how the ideal gas law is consistent with the behavior of filling the
 tire when it is pumped slowly and the temperature is constant. At first, the
 pressure $$P $$ is essentially equal to atmospheric pressure, and the volume $$V $$ increases in direct proportion to the number of atoms and molecules $$N $$

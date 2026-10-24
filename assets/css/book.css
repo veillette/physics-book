@@ -203,6 +203,15 @@ section.normal > .title {
   content: 'Figure ' counter(figure) ': ';
 }
 
+/* Companion drawings and photographs supplement numbered source figures. */
+.book .book-body .page-wrapper .page-inner figure.figure-companion {
+  counter-increment: none;
+}
+
+.book .book-body .page-wrapper .page-inner figure.figure-companion > figcaption::before {
+  content: none;
+}
+
 /* ==================== Abstract / Learning Outcomes ==================== */
 
 .abstract {

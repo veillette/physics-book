@@ -69,6 +69,13 @@ $$k $$ is the **thermal conductivity** of the material, $$A $$ and $$d $$ are
 its surface area and thickness, as shown in [[Figure 3]](#Figure3), and $$\left( {T}_{2}-{T}_{1}\right) $$ is the temperature difference across the
 slab. [[Table 1]](#Table1) gives representative values of thermal conductivity.
 
+For layers in series, thermal resistances add. The example below aligns the material thicknesses with the calculated temperature profile through the wall.
+
+<figure class="figure-companion">
+<img src="/resources/companion_14_composite_wall.svg" alt="A wall made of 1.25 cm gypsum, 9 cm insulation, and 10 cm brick has a computed steady temperature profile from 20 to 0 degrees Celsius. The largest temperature drop is across the insulation. The common heat flux is approximately 8.12 watts per square meter." class="figure-full-width">
+<figcaption>Illustrative steady one-dimensional conduction through three layers in series. The heat flux is the same in every layer and the temperature drop across a layer is proportional to its thickness divided by its conductivity. Studs, contact resistance, and surface air films are excluded.</figcaption>
+</figure>
+
 ::: example {"id":"Example1","class":"example"}
 
 <div class="title">

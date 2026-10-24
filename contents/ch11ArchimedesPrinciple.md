@@ -327,7 +327,7 @@ fluid characteristics.
 One of the most common techniques for determining density is shown
 in [[Figure 7]](#Figure7).
 
-![The density of a coin can be determined by measuring its weight in air and its weight submerged in a fluid of known density.](../resources/Figure_11_07_07.jpg '(a) A coin is weighed in air. (b) The apparent weight of the coin is determined while it is completely submerged in a fluid of known density. These two measurements are used to calculate the density of the coin.')
+![The same object hangs from a balance in air and fully submerged in water. Separate force diagrams show Tair = w and Tsub + FB = w. The smaller submerged tension differs from the air reading by the buoyant force.](/resources/Figure_11_07_07.svg 'A balance measures the supporting tension. With air buoyancy neglected, the loss of apparent weight upon complete immersion equals the weight of displaced fluid. The object does not touch the vessel.'){: .figure-full-width}
 {: #Figure7}
 
 An object, here a coin, is weighed in air and then weighed again while submerged

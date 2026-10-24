@@ -52,6 +52,13 @@ lists of all the ways in which 5 coins can be tossed, taking into account the
 order in which heads and tails occur. Each sequence is called a **microstate**—a
 detailed description of every element of a system.
 
+The diagram enumerates the microstates once each, so the multiplicities can be checked visually.
+
+<figure class="figure-companion">
+<img src="/resources/companion_15_coin_microstates.svg" alt="All 32 distinct outcomes of five independent fair coins, grouped by total heads. The six groups contain 1, 5, 10, 10, 5, and 1 microstates. Each sequence is shown exactly once and is equally likely." class="figure-full-width">
+<figcaption>Each row group is a macrostate; each five-coin sequence is a microstate. With independent fair coins, a macrostate has probability equal to its multiplicity divided by 32.</figcaption>
+</figure>
+
 <table id="Table1" aria-describedby="A table with combinations of five coins tossed together five times is shown. The first column shows different toss results. The second column represents individual microstates, and the third column represents the number of microstates."><caption><span class="title">5-Coin Toss</span></caption><thead><tr>
             <th></th>
             <th>Individual microstates</th>
@@ -66,7 +73,7 @@ detailed description of every element of a system.
             <td data-align="center">5</td>
           </tr><tr>
             <td>3 heads, 2 tails</td>
-            <td>HTHTH, THTHH, HTHHT, THHTH, THHHT HTHTH, THTHH, HTHHT, THHTH, THHHT</td>
+            <td>HHHTT, HHTHT, HHTTH, HTHHT, HTHTH, HTTHH, THHHT, THHTH, THTHH, TTHHH</td>
             <td data-align="center">10</td>
           </tr><tr>
             <td>2 heads, 3 tails</td>

@@ -47,6 +47,7 @@ import mechanicsLineArt from './figures/mechanics-line-art.js';
 import mechanicsSketches from './figures/mechanics-sketches.js';
 import ch11to12 from './figures/ch11to12.js';
 import ch13 from './figures/ch13.js';
+import fluidsAndThermalLineArt from './figures/fluids-and-thermal-line-art.js';
 import ch14 from './figures/ch14.js';
 import ch15 from './figures/ch15.js';
 import ch16 from './figures/ch16.js';
@@ -93,6 +94,7 @@ const modules = {
   mechanicsSketches,
   ch11to12,
   ch13,
+  fluidsAndThermalLineArt,
   ch14,
   ch15,
   ch16,

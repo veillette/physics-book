@@ -149,8 +149,13 @@ This equation is called **Poiseuille’s law for resistance** after the French
 scientist J. L. Poiseuille (1799–1869), who derived it in an attempt to
 understand the flow of blood, an often turbulent fluid.
 
-![Part a of the diagram shows a fluid flow across a rectangular non viscous medium. The speed of the fluid is shown to be same across the tube represented as same length of vertical rising arrows. Part b of the diagram shows a fluid flow across a rectangular viscous medium. The speed of the fluid speed at the walls is zero, increasing steadily to its maximum at the center of the tube represented as wave like variation for length of vertical rising arrows. Part c of the figure shows a burning Bunsen burner.](../resources/Figure_12_04_04.jpg '(a) If fluid flow in a tube has negligible resistance, the speed is the same all across the tube. (b) When a viscous fluid flows through a tube, its speed at the walls is zero, increasing steadily to its maximum at the center of the tube. (c) The shape of the Bunsen burner flame is due to the velocity profile across the tube. (credit: Jason Woodhead)')
+![Upward velocity arrows are uniform in an ideal inviscid tube model and parabolic in fully developed laminar circular-tube flow. The viscous profile has zero velocity at both walls and maximum velocity at the center. Both panels have equal mean velocity.](/resources/Figure_12_04_04.svg 'Panel (a) assumes uniform ideal flow. Panel (b) is fully developed laminar flow of a Newtonian fluid in a circular tube: the mean speed is half the maximum speed, and no slip makes the wall speed zero.'){: .figure-full-width}
 {: #Figure4}
+
+<figure class="figure-companion">
+<img src="/resources/photo_12_04_bunsen_profiles.png" alt="Two Bunsen burners with different flame shapes illustrate the effect of the flow emerging from their tubes.">
+<figcaption>The emerging flow profile influences flame shape; combustion and mixing also contribute. (credit: Jason Woodhead)</figcaption>
+</figure>
 
 Let us examine Poiseuille’s expression for $$R $$ to see if it makes good
 intuitive sense. We see that resistance is directly proportional to both fluid

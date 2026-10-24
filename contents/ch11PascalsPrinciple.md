@@ -96,7 +96,7 @@ Calculating Force of Slave Cylinders: Pascal Puts on the Brakes
 
 Consider the automobile hydraulic system shown in [[Figure 2]](#Figure2).
 
-![When the driver applies force on the brake pedal the master cylinder transmits the same pressure to the slave cylinders but results in a larger force due to the larger area of the slave cylinders.](../resources/Figure_11_05_02.jpg 'Hydraulic brakes use Pascal’s principle. The driver exerts a force of 100 N on the brake pedal. This force is increased by the simple lever and again by the hydraulic system. Each of the identical slave cylinders receives the same pressure and, therefore, creates the same force output ( F_{2} ) . The circular cross-sectional areas of the master and slave cylinders are represented by ( A_{1} ) and ( A_{2} ) , respectively ')
+![A 100 N pedal force acts 0.20 m from a pivot, producing 500 N at the master pushrod 0.040 m from the pivot. The master diameter is 0.500 cm and each of four slave diameters is 2.50 cm. Each slave produces 12,500 N.](/resources/Figure_11_05_02.svg 'The pedal lever multiplies force by five. The hydraulic area ratio then multiplies the master-cylinder force by 25 at each of four identical slave cylinders. The pressure increment is common to all; the drawing is schematic.'){: .figure-full-width}
 {: #Figure2}
 
 A force of 100 N is applied to the brake pedal, which acts on the
