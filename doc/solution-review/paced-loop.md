@@ -36,6 +36,7 @@ Temporary failures retry with a paced backoff. Six consecutive ordinary failures
 Artifacts:
 
 - [Review ledger](README.md): current chapter progress and per-item findings.
+- [Corrections](corrections.md): fixes made to the book from these findings, round by round.
 - [Live state](paced-state.json): PID, run deadline, recorded count, current batch, next request time, and errors.
 - [Review records](reviews.json): append-only judgments, including detailed reasoning and run IDs.
 - `doc/solution-review/paced-events.jsonl`: durable run/batch events.

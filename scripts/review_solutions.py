@@ -379,6 +379,11 @@ def write_markdown(ledger):
              'across a bounded run (16 hours by default). This is separate from the arithmetic '
              'screening loop below. [Live run state](paced-state.json) records its deadline, '
              'progress, errors, and next request time.', '',
+             '## Corrections', '',
+             'The reviewer never edits the book. Findings that survive an independent check are '
+             'fixed in a separate maintainer pass, and each edited item gets a new post-fix review. '
+             '[Corrections](corrections.md) logs each round: the fixes, the findings not acted on, '
+             'and how reviews of unchanged items in an edited file are carried over.', '',
              '## Repeat and resume', '',
              'Run from the repository root:', '', '```bash',
              '# Loop through chapters 1–34; refresh checks and ledger without editing content.',

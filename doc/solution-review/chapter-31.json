@@ -1,16 +1,16 @@
 {
   "chapter": 31,
-  "checked_at": "2026-10-24T13:25:50+00:00",
+  "checked_at": "2026-10-24T13:43:16+00:00",
   "summary": {
-    "total": 1052,
+    "total": 1060,
     "checked": 20,
     "failed": 0,
-    "skipped": 1032,
+    "skipped": 1040,
     "by_kind": {
       "equation": {
         "checked": 15,
         "failed": 0,
-        "skipped": 1032
+        "skipped": 1040
       },
       "case": {
         "checked": 5,
@@ -28,7 +28,7 @@
     "skip_reasons": {
       "unbound variable": 131,
       "unsupported symbol": 24,
-      "no supported equality": 853,
+      "no supported equality": 861,
       "unit-only expression or text label needs a numeric value": 17,
       "unknown unit": 7
     }
@@ -43,7 +43,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "fa31fcb8e02abc462f890a535d1722096f7d4d19badef302c569c01b7765af4e",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "::: example What Is $$\\text{BE}/A $$ for an Alpha Particle? Calculate the binding energy per nucleon of $${}^{4}\\text{He} $$ , the $$\\alpha $$ particle. **Strategy** To find $$\\te…",
       "has_solution": true,
       "missing_labels": [],
@@ -55,19 +55,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31BindingEnergy.md::worked-example:1",
+        "source_sha256": "fa31fcb8e02abc462f890a535d1722096f7d4d19badef302c569c01b7765af4e",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Using neutral-atom masses, BE = [2m(H) + 2m(n) - m(He)]c², with electron rest masses canceling. Dividing by four gives the requested binding energy per nucleon. The SVG graph source confirms the helium-4 spike. Its resistance to breakup and its contribution to favorable alpha-decay energetics are correctly described qualitatively; alpha emission additionally requires an energetically allowed daughter and barrier penetration.",
         "calculation_check": "The supplied masses give Δm = 0.030378 u, BE = 28.297107 MeV, and BE/A = 7.074277 MeV/nucleon. Breakup into two deuterons requires 23.848 MeV; breakup into hydrogen plus tritium requires 19.816 MeV. These checks support the discussion of tight binding.",
         "assumptions": "Ground-state nuclei; negligible electronic binding-energy corrections; the supplied rounded masses. The alpha-cluster description is qualitative rather than a calculation of the decay probability.",
         "notes": "The calculation, graph comparison, and qualitative stability explanation are appropriate. The appendix's slightly different helium mass does not materially change the answer.",
-        "source_sha256": "fa31fcb8e02abc462f890a535d1722096f7d4d19badef302c569c01b7765af4e",
-        "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T12:39:29+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T12:39:29+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31BindingEnergy.md::conceptual-questions:1",
@@ -78,7 +78,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "9f3a3760eb92489493780367e2b6c877478676804c05e3091eadc89bc3246447",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "Why is the number of neutrons greater than the number of protons in stable nuclei having $$A $$ greater than about 40, and why is this effect more pronounced for the heaviest nucl…",
       "has_solution": false,
       "missing_labels": [
@@ -104,7 +104,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "6b834707b2180300890744d8db0d62f287cb47007fc6fb7f837d674950216d81",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "$${}^{2}\\text{H} $$ is a loosely bound isotope of hydrogen. Called deuterium or heavy hydrogen, it is stable but relatively rare—it is 0.015% of natural hydrogen. Note that deuter…",
       "has_solution": true,
       "missing_labels": [
@@ -120,19 +120,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31BindingEnergy.md::problems-exercises:1",
+        "source_sha256": "6b834707b2180300890744d8db0d62f287cb47007fc6fb7f837d674950216d81",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Deuterium contains one proton and one neutron, so its binding energy follows from m(H) + m(n) - m(D). Dividing by two answers the question. The referenced SVG graph places deuterium near 1.1 MeV/nucleon, supporting the comparison.",
         "calculation_check": "BE/A = [(1.007825 + 1.008665 - 2.014102) × 931.5]/2 = 1.112211 MeV/nucleon, agreeing with 1.112.",
         "assumptions": "Neutral-atom masses from the appendix, ground-state deuterium, and negligible electronic binding corrections. The graph provides an approximate comparison.",
         "notes": "The binding energy per nucleon and comparison with the graph are correct.",
-        "source_sha256": "6b834707b2180300890744d8db0d62f287cb47007fc6fb7f837d674950216d81",
-        "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T12:39:29+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T12:39:29+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31BindingEnergy.md::problems-exercises:2",
@@ -143,7 +143,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "e9a07b636ddf3603890085741cd7560398a0eb67feaa08a3575bba8c7d338f8c",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "$${}^{56}\\text{Fe} $$ is among the most tightly bound of all nuclides. It is more than 90% of natural iron. Note that $${}^{56}\\text{Fe} $$ has even numbers of both protons and ne…",
       "has_solution": false,
       "missing_labels": [
@@ -168,9 +168,9 @@
       "end_line": 381,
       "kind": "problems-exercises",
       "ordinal": 3,
-      "source_sha256": "da672af996e65c74bb2be889164864cb66c878e58179673fb2dcae28fafe5c6a",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-      "preview": "$${}^{209}\\text{Bi} $$ is the heaviest stable nuclide, and its $$\\text{BE}/A $$ is low compared with medium-mass nuclides. Calculate $$BE/A $$ , the binding energy per nucleon, fo…",
+      "source_sha256": "1fd63c20e380d3fd66ac302080f793d4333d5e2bf4b68612882fd5354ca4b8d9",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "$${}^{209}\\text{Bi} $$ decays so slowly (half-life about $$2 \\times 10^{19}$$ y) that it is effectively the heaviest stable nuclide, and its $$\\text{BE}/A $$ is low compared with…",
       "has_solution": true,
       "missing_labels": [
         "strategy",
@@ -179,25 +179,22 @@
       ],
       "markup_flags": [],
       "automatic": {
-        "skipped": 4
+        "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch31BindingEnergy.md::problems-exercises:3",
-        "verdict": "concern",
-        "confidence": "medium",
-        "reasoning_check": "For bismuth-209, Z = 83 and N = 126. The mass-defect calculation and comparison with the graph near A = 209 are correct. However, the problem's statement that bismuth-209 is stable is outdated: it is an extremely long-lived alpha emitter. A positive binding energy does not establish stability against every possible decay.",
-        "calculation_check": "Δm = 83(1.007825) + 126(1.008665) - 208.980374 = 1.760891 u. Thus BE/A = 1.760891 × 931.5/209 = 7.848182 MeV/nucleon, matching the answer and the graph near 7.85.",
-        "assumptions": "The standard atomic-mass approximation neglects electronic binding corrections. No independent bismuth-209 decay measurement or daughter mass was available in the inspected local material; its empirical decay properties were not independently verified here.",
-        "notes": "The numerical answer is correct, but the premise calling bismuth-209 the heaviest stable nuclide needs correction. Local evidence confirms the calculation, not its empirical decay classification.",
-        "source_sha256": "da672af996e65c74bb2be889164864cb66c878e58179673fb2dcae28fafe5c6a",
-        "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T12:39:29+00:00"
+        "source_sha256": "1fd63c20e380d3fd66ac302080f793d4333d5e2bf4b68612882fd5354ca4b8d9",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 7.848 MeV. Fixed: the premise now notes that ²⁰⁹Bi decays with a half-life of about 2×10¹⁹ y and is effectively, rather than strictly, stable.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31BindingEnergy.md::problems-exercises:4",
@@ -208,7 +205,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "30b2755f0bd41f7af909c52aab8039f5bd61e245abdc1574c6b6cb4ebf7918f1",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "(a) Calculate $$\\text{BE}/A $$ for $${}^{235}\\text{U} $$ , the rarer of the two most common uranium isotopes. (b) Calculate $$\\text{BE}/A $$ for $${}^{238}\\text{U} $$ . (Most of u…",
       "has_solution": false,
       "missing_labels": [
@@ -230,11 +227,11 @@
       "chapter": 31,
       "file": "contents/ch31BindingEnergy.md",
       "line": 400,
-      "end_line": 425,
+      "end_line": 424,
       "kind": "problems-exercises",
       "ordinal": 5,
-      "source_sha256": "598b9b4806d431552702bbaf6350a74cf7e9f1605e1b552683402b279ff612d8",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "source_sha256": "fc22e4d7b8e7f34c6a85684fcc373de202c11d51a05deb895e97781d32242886",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "(a) Calculate $$\\text{BE}/A $$ for $${}^{12}\\text{C} $$ . Stable and relatively tightly bound, this nuclide is most of natural carbon. (b) Calculate $$\\text{BE}/A $$ for $${}^{14}…",
       "has_solution": true,
       "missing_labels": [
@@ -244,36 +241,33 @@
       ],
       "markup_flags": [],
       "automatic": {
-        "skipped": 8
+        "skipped": 13
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch31BindingEnergy.md::problems-exercises:5",
-        "verdict": "concern",
+        "source_sha256": "fc22e4d7b8e7f34c6a85684fcc373de202c11d51a05deb895e97781d32242886",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Both numerical binding energies are correct, and their difference is about 2.08%. The explanation of carbon-14 decay is incorrect: its nitrogen-14 daughter has a lower binding energy per nucleon. Beta-minus decay is allowed because the decrease in constituent rest mass exceeds the decrease in nuclear binding energy. Comparing carbon-14 with carbon-12 does not determine whether carbon-14 can decay.",
-        "calculation_check": "The appendix masses give BE/A(C-12) = 7.680217 MeV and BE/A(C-14) = 7.520465 MeV. They also give BE/A(N-14) = 7.475687 MeV, which is lower than carbon-14's. Nevertheless, Qβ = [14.003241 - 14.003074] × 931.5 = +0.155560 MeV. The graph supports the approximate carbon values but does not separately establish carbon-14's stability.",
-        "assumptions": "Ground-state neutral-atom masses; negligible neutrino mass and electronic binding corrections. Beta-decay energetics must include the neutron-to-proton conversion rather than binding energy alone.",
-        "notes": "Correct numerical answers, but the stated decay explanation is wrong: carbon-14 decays to less tightly bound nitrogen-14 while releasing approximately 0.156 MeV.",
-        "source_sha256": "598b9b4806d431552702bbaf6350a74cf7e9f1605e1b552683402b279ff612d8",
-        "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T12:39:29+00:00"
+        "notes": "Correct BE/A values. Fixed: ¹⁴N is slightly less tightly bound per nucleon (7.476 MeV), so the decay is explained by the ¹⁴C–¹⁴N atomic mass difference (Q ≈ 0.156 MeV), not by tighter binding of the product.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31BindingEnergy.md::problems-exercises:6",
       "chapter": 31,
       "file": "contents/ch31BindingEnergy.md",
-      "line": 427,
-      "end_line": 440,
+      "line": 426,
+      "end_line": 439,
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "8db8aa571804149d00223cf2db1449be14ae2385b11fc70d411255da423d1e31",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "The fact that $$\\text{BE}/A $$ is greatest for $$A $$ near 60 implies that the range of the nuclear force is about the diameter of such nuclides. (a) Calculate the diameter of an…",
       "has_solution": false,
       "missing_labels": [
@@ -294,12 +288,12 @@
       "id": "contents/ch31BindingEnergy.md::problems-exercises:7",
       "chapter": 31,
       "file": "contents/ch31BindingEnergy.md",
-      "line": 442,
+      "line": 441,
       "end_line": 469,
       "kind": "problems-exercises",
       "ordinal": 7,
-      "source_sha256": "f4586f6a786857b5a27d907251c918d243e964f687e483a98f2b1c906a4d04b4",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "source_sha256": "469820f66c03905d4ed8ec234f8bfa626c1813cc5d1c6434a7df899d8bb1539e",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is negligible compared with the masses of the proton and electron.…",
       "has_solution": true,
       "missing_labels": [
@@ -309,25 +303,22 @@
       ],
       "markup_flags": [],
       "automatic": {
-        "skipped": 3
+        "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch31BindingEnergy.md::problems-exercises:7",
-        "verdict": "concern",
+        "source_sha256": "469820f66c03905d4ed8ec234f8bfa626c1813cc5d1c6434a7df899d8bb1539e",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Parts (a)–(c) correctly compare the electronic binding energy with atomic and electron rest masses. The required discussion in part (d) is absent. It should explain that m(H) = mp + me - 13.6 eV/c², and that the binding correction is negligible compared with either constituent mass at the precision used.",
-        "calculation_check": "13.6/(931.5 × 10^6) = 1.46001 × 10^-8 u, only 1.44867 × 10^-8 of the hydrogen atom's mass. The tabulated subtraction is 1.007825 - 1.007276 = 0.000549 u, matching the electron's 0.00054858 u to three significant figures. Finally, 13.6/511000 = 2.66145 × 10^-5.",
-        "assumptions": "Ground-state hydrogen and the supplied rounded masses. Their precision is insufficient to recover the tiny binding correction by subtracting the tabulated masses.",
-        "notes": "Parts (a)–(c) are correct. Part (d), which explicitly requests a physical explanation connecting the comparisons, is unanswered.",
-        "source_sha256": "f4586f6a786857b5a27d907251c918d243e964f687e483a98f2b1c906a4d04b4",
-        "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T12:39:29+00:00"
+        "notes": "Parts (a)–(c) correct. Fixed: part (d) is now answered, tying the three comparisons to neglecting the electron binding energy when atomic masses are used.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31BindingEnergy.md::problems-exercises:8",
@@ -338,7 +329,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "71d40f9cb5ed104adea8d01954a9f203df7246a7ea81ae935385a8b59d337b4d",
-      "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
       "preview": "**Unreasonable Results** A particle physicist discovers a neutral particle with a mass of 2.02733 u that he assumes is two neutrons bound together. (a) Find the binding energy. (b…",
       "has_solution": true,
       "missing_labels": [
@@ -354,19 +345,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31BindingEnergy.md::problems-exercises:8",
+        "source_sha256": "71d40f9cb5ed104adea8d01954a9f203df7246a7ea81ae935385a8b59d337b4d",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A bound two-neutron ground state would have a rest mass below that of two separated neutrons. The proposed particle lies above that threshold, yielding negative binding energy and contradicting its identification as a bound dineutron. All three requested parts are answered.",
         "calculation_check": "BE = [2(1.008665) - 2.02733] × 931.5 = -9.315 MeV. The proposed state is therefore 9.315 MeV above the two-neutron threshold.",
         "assumptions": "The measured value is a rest mass and the proposed constituents are two ordinary neutrons. An above-threshold transient resonance would not be the bound system assumed in the question.",
         "notes": "The negative binding energy and rejection of the bound-dineutron assumption are correct.",
-        "source_sha256": "71d40f9cb5ed104adea8d01954a9f203df7246a7ea81ae935385a8b59d337b4d",
-        "file_sha256": "9d82a9486b9664fd036f740ffe9994ffd906b72ba3a5b6e2568e3dadf3e7af15",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T12:39:29+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T12:39:29+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31HalfLifeAndActivity.md#shroud-dating",
@@ -2878,8 +2869,8 @@
       "end_line": 261,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "b2c1cc7263335a5f707b94e0857ba9db90bf54de4a9211c7d1bc6e31b59c7a59",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "source_sha256": "bc735949e191056e317a5a5e7cc5a10dfcac51e76fe6e30e8ca0440af2d3cb74",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "::: example {\"class\":\"example\",\"id\":\"example1\"} How Small and Dense Is a Nucleus? (a) Find the radius of an iron-56 nucleus. (b) Find its approximate density in $$kg/{m}^{3} $$ ,…",
       "has_solution": true,
       "missing_labels": [],
@@ -2889,22 +2880,19 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md#example1",
-        "verdict": "concern",
+        "source_sha256": "bc735949e191056e317a5a5e7cc5a10dfcac51e76fe6e30e8ca0440af2d3cb74",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The radius model r=r0 A^(1/3) and spherical density calculation are appropriate for this approximate estimate. However, the displayed conversion from u/fm³ to kg/m³ contains only one power of the length conversion factor. It requires three powers; the printed expression is dimensionally inconsistent even though its final numerical density is correct. The diameter, water-density ratio, and equivalent water-cube discussion otherwise follow from the corrected calculation.",
-        "calculation_check": "r=1.2×56^(1/3)=4.591 fm. With m=56 u, rho=56(1.66054×10^-27)/[(4π/3)(4.591×10^-15)^3]=2.294×10^17 kg/m³. The conversion must use (1 fm/10^-15 m)^3. The density ratio to water is 2.294×10^14, and the equivalent water-cube side is 61.22 km.",
-        "assumptions": "Effective spherical nucleus with radius coefficient 1.2 fm, mass approximated as 56 u, and water density 1000 kg/m³. Nuclear surface structure is neglected. The neutron-star statement is treated as an order-of-magnitude density analogy; the categorical assertion about the actual nuclear shape was not independently established.",
-        "notes": "Correct radius, density, and water comparison, but the displayed density conversion omits the cube on the length factor and therefore fails dimensional consistency.",
-        "source_sha256": "b2c1cc7263335a5f707b94e0857ba9db90bf54de4a9211c7d1bc6e31b59c7a59",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "notes": "Correct 2.3×10¹⁷ kg/m³. Fixed: the fm-to-m conversion factor is now cubed, matching u/fm³.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::conceptual-questions:1",
@@ -2915,7 +2903,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "e89ced14ac074ed2ed2e7fb7a296b6c9d20469268028ef9655a967492b378699",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "The weak and strong nuclear forces are basic to the structure of matter. Why we do not experience them directly?",
       "has_solution": false,
       "missing_labels": [
@@ -2939,7 +2927,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "f8575e33701bf2e56d939fc002886ec2073070fe11ec59afe0f7cc0bf70bf820",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "Define and make clear distinctions between the terms neutron, nucleon, nucleus, nuclide, and neutrino.",
       "has_solution": false,
       "missing_labels": [
@@ -2963,7 +2951,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "f82502cbbec7bfa586f32692d3acd25047de2e89eda4b9c662ba989eece447fc",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "What are isotopes? Why do different isotopes of the same element have similar chemistries?",
       "has_solution": false,
       "missing_labels": [
@@ -2987,7 +2975,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "0eb2bef6d1d4ce95d4d1faafd46c2bdfd51ff642a7f16600e8b5c10739d4c492",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "Verify that a $$ 2.3 \\times 10^{17} \\text{kg} $$ mass of water at normal density would make a cube 60 km on a side, as claimed in [[Example 1]](#Example1). (This mass at nuclear d…",
       "has_solution": true,
       "missing_labels": [
@@ -3004,19 +2992,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:1",
+        "source_sha256": "0eb2bef6d1d4ce95d4d1faafd46c2bdfd51ff642a7f16600e8b5c10739d4c492",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a cube, m=rho L³, so L=(m/rho)^(1/3). The solution applies this relation correctly. Its 61 km result supports the problem's approximate 60 km claim.",
         "calculation_check": "L=[(2.3×10^17 kg)/(1000 kg/m³)]^(1/3)=61269 m=61.27 km. At density 2.3×10^17 kg/m³, the same mass occupies 1.0 m³.",
         "assumptions": "Uniform water density of 1000 kg/m³; compression and gravitational effects are excluded from this volume comparison.",
         "notes": "Correct cube-volume verification; 60 versus 61 km is ordinary approximation.",
-        "source_sha256": "0eb2bef6d1d4ce95d4d1faafd46c2bdfd51ff642a7f16600e8b5c10739d4c492",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:2",
@@ -3027,7 +3015,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "a3fced62b58d2d8c5f7189ee7a2abf778ba877f90150bf399ad10b6e61036ce4",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "Find the length of a side of a cube having a mass of 1.0 kg and the density of nuclear matter, taking this to be $$ 2.3 \\times 10^{17} {\\text{kg/m}}^{3} $$.",
       "has_solution": false,
       "missing_labels": [
@@ -3053,7 +3041,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "7d9ca28bae3dc72334811639c7aedc64134b18a057229daddbffe6b3a2b0ae13",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "What is the radius of an $$\\alpha $$ particle?",
       "has_solution": true,
       "missing_labels": [
@@ -3069,19 +3057,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:3",
+        "source_sha256": "7d9ca28bae3dc72334811639c7aedc64134b18a057229daddbffe6b3a2b0ae13",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "An alpha particle is a helium-4 nucleus, so its mass number is A=4. Applying the chapter's approximate nuclear-radius relation gives the stated radius.",
         "calculation_check": "r=(1.2 fm)4^(1/3)=1.90488 fm, rounding to 1.9 fm.",
         "assumptions": "Uses the chapter's empirical effective-radius model, not a separately measured rms charge radius; the model is approximate for such a light nucleus.",
         "notes": "Correct alpha-particle radius within the stated chapter model.",
-        "source_sha256": "7d9ca28bae3dc72334811639c7aedc64134b18a057229daddbffe6b3a2b0ae13",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:4",
@@ -3092,7 +3080,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "f4584e08667723dac21a84f0e59401644596851ec4bbff5bab17d68b6c9ee27e",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "Find the radius of a $${}^{238}\\text{Pu} $$ nucleus. $${}^{238}\\text{Pu} $$ is a manufactured nuclide that is used as a power source on some space probes.",
       "has_solution": false,
       "missing_labels": [
@@ -3118,7 +3106,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "15f9f5f354247a4807f7c72d5094671844c8c0bd5d47ede009b2decb265c8ab2",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "(a) Calculate the radius of $${}^{58}\\text{Ni} $$ , one of the most tightly bound stable nuclei. (b) What is the ratio of the radius of $${}^{58}\\text{Ni} $$ to that of $${}^{258}…",
       "has_solution": true,
       "missing_labels": [
@@ -3134,19 +3122,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:5",
+        "source_sha256": "15f9f5f354247a4807f7c72d5094671844c8c0bd5d47ede009b2decb265c8ab2",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Part (a) follows from r=r0 A^(1/3). In part (b), the common radius coefficient cancels, giving r58/r258=(58/258)^(1/3). Both requested parts are answered correctly.",
         "calculation_check": "r58=1.2×58^(1/3)=4.64505 fm, or 4.6 fm. The radius ratio is (58/258)^(1/3)=0.60805, or 0.61 to 1. The A=258 radius is approximately 7.64 fm, far below an atomic scale of roughly 10^-10 m.",
         "assumptions": "Both nuclei follow the same approximate effective-radius law. The historical nuclide naming and record-size wording do not enter the calculation.",
         "notes": "Both the nickel radius and radius ratio are correct.",
-        "source_sha256": "15f9f5f354247a4807f7c72d5094671844c8c0bd5d47ede009b2decb265c8ab2",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:6",
@@ -3157,7 +3145,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "3f14b5c63de33058deab9c1f274d73aeeaa4ab3cac518ff534000120df70cb70",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "The unified atomic mass unit is defined to be $$1 \\text{u}= 1.6605 \\times 10^{-27} \\text{kg} $$ . Verify that this amount of mass converted to energy yields 931.5 MeV. Note that y…",
       "has_solution": false,
       "missing_labels": [
@@ -3184,7 +3172,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "df1d146df1219346c8e113ae7aab447f8a2e227715f80f16dc123480517e0f83",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "What is the ratio of the velocity of a $$\\beta $$ particle to that of an $$\\alpha $$ particle, if they have the same nonrelativistic kinetic energy?",
       "has_solution": true,
       "missing_labels": [
@@ -3200,19 +3188,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md#Exercise11",
+        "source_sha256": "df1d146df1219346c8e113ae7aab447f8a2e227715f80f16dc123480517e0f83",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Equal nonrelativistic kinetic energies imply m_beta v_beta²=m_alpha v_alpha². Therefore v_beta/v_alpha=sqrt(m_alpha/m_e), with the lighter beta particle moving faster.",
         "calculation_check": "Using m_alpha approximately 6.64466×10^-27 kg and m_e approximately 9.10938×10^-31 kg gives sqrt(m_alpha/m_e)=85.4067, agreeing with 85.4 to 1.",
         "assumptions": "The beta particle is an electron or positron. Both kinetic energies must be much smaller than their rest energies; the restrictive condition is K much less than 0.511 MeV for the beta particle.",
         "notes": "Correct speed ratio with the explicitly required nonrelativistic restriction.",
-        "source_sha256": "df1d146df1219346c8e113ae7aab447f8a2e227715f80f16dc123480517e0f83",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:8",
@@ -3223,7 +3211,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "dc26cee9cbbf9594ba8f8a88496dfd976307a9cfc997fc6cf830b38f4cd3bfdf",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "If a 1.50-cm-thick piece of lead can absorb 90.0% of the $$\\gamma $$ rays from a radioactive source, how many centimeters of lead are needed to absorb all but 0.100% of the $$\\gam…",
       "has_solution": false,
       "missing_labels": [
@@ -3249,7 +3237,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "9db9d9eefd5d1b292ae0385f6f2b23b9b5106e1f5b4059ddc3161f30538677fa",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "The detail observable using a probe is limited by its wavelength. Calculate the energy of a $$\\gamma $$ -ray photon that has a wavelength of $$1 \\times 10^{-16} \\text{m} $$ , smal…",
       "has_solution": true,
       "missing_labels": [
@@ -3265,19 +3253,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:9",
+        "source_sha256": "9db9d9eefd5d1b292ae0385f6f2b23b9b5106e1f5b4059ddc3161f30538677fa",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A photon obeys E=hc/lambda. Using the supplied ordinary wavelength directly gives the quoted energy; there is no additional factor of 2π.",
         "calculation_check": "E=(6.62607015×10^-34 J s)(299792458 m/s)/(10^-16 m)=1.98645×10^-9 J=12.3984 GeV, agreeing with 12.4 GeV.",
         "assumptions": "Vacuum photon wavelength and the problem's wavelength-based resolution criterion. The qualitative production difficulty and nuclear-interaction efficiency were not independently quantified by the supplied evidence.",
         "notes": "Correct photon energy. The qualitative practicality statements remain unquantified.",
-        "source_sha256": "9db9d9eefd5d1b292ae0385f6f2b23b9b5106e1f5b4059ddc3161f30538677fa",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:10",
@@ -3288,7 +3276,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "f8e4a02cfd14741ec674c6484306ed7cabc201ee38d8fa5f4ba3088e944427d1",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "(a) Show that if you assume the average nucleus is spherical with a radius $$r={r}_{0}{A}^{1/3} $$ , and with a mass of $$A $$ u, then its density is independent of $$A $$. (b) Ca…",
       "has_solution": false,
       "missing_labels": [
@@ -3314,7 +3302,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "ca38de1ada6188d01b1bb9d7eff7d91b72651feddcacca8120f5e4f965a0e436",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "What is the ratio of the velocity of a 5.00-MeV $$\\beta $$ ray to that of an $$\\alpha $$ particle with the same kinetic energy? This should confirm that $$\\beta $$ s travel much f…",
       "has_solution": true,
       "missing_labels": [
@@ -3330,19 +3318,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:11",
+        "source_sha256": "ca38de1ada6188d01b1bb9d7eff7d91b72651feddcacca8120f5e4f965a0e436",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For each particle, gamma=1+K/(mc²) and v/c=sqrt(1-gamma^-2). At 5 MeV the electron is highly relativistic, whereas the alpha particle remains slow compared with c. Relativity therefore substantially reduces the ratio from its nonrelativistic value.",
         "calculation_check": "Using electron and alpha rest energies of 0.511 and 3727.38 MeV gives v_beta=0.995692c and v_alpha=0.0517442c, hence v_beta/v_alpha=19.2426. Using a nonrelativistic alpha speed gives 19.26; the stated 19.3 is consistent with the intended approximation.",
         "assumptions": "Both particles have 5.00 MeV kinetic energy in the same reference frame. The beta particle has electron or positron mass.",
         "notes": "Correct relativistic comparison at textbook precision; beta particles remain much faster.",
-        "source_sha256": "ca38de1ada6188d01b1bb9d7eff7d91b72651feddcacca8120f5e4f965a0e436",
-        "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T131133Z-e6aaa1",
-        "reviewed_at": "2026-10-24T13:21:11+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:12",
@@ -3353,7 +3341,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "80a55603808a324909c376fb93c0803a231e83cc9548a2510234795935840a2a",
-      "file_sha256": "9f42c0f2d2544fd0fe06185e3e9eee400239011b96cca804b1017b880fee13e3",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
       "preview": "(a) What is the kinetic energy in MeV of a $$\\beta $$ ray that is traveling at $$0.998c $$ ? This gives some idea of how energetic a $$\\beta $$ ray must be to travel at nearly the…",
       "has_solution": false,
       "missing_labels": [
@@ -3609,9 +3597,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch31Tunneling.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For an isolated proton, Q=(m_p-m_n-m_e-m_ν)c². The final particles have greater total rest energy, so energy and momentum conservation forbid this spontaneous decay. Parts (a) and (b) correctly identify a negative Q and the impossibility of spontaneous decay. Part (c) correctly rejects spontaneity but incorrectly repeats the unqualified claim that all conservation laws are obeyed. Charge, baryon number, and lepton number balance; energy conservation fails for the proposed isolated decay. An externally driven process would require including the energy source in the reaction.",
+        "calculation_check": "Using rest energies in MeV gives Q=938.27208816-939.56542052-0.51099895=-1.80433131 MeV, neglecting neutrino mass. The stated -1.805 MeV agrees within reasonable mass-table precision. In the proton rest frame, the final rest energies alone exceed the available energy; nonnegative final kinetic energies cannot remedy the deficit.",
+        "assumptions": "An isolated free proton, ordinary positive-energy final particles, and negligible neutrino rest mass at MeV precision. Nuclear beta-plus decay can occur because the complete parent–daughter nuclear mass difference supplies energy; that situation does not establish that a free proton can decay this way.",
+        "notes": "The energy calculation and rejection of spontaneous decay are correct. Part (c) needs to qualify its assertion that all conservation laws are obeyed: the proposed isolated decay is forbidden specifically by energy conservation.",
+        "source_sha256": "122d2d75714969d9770fc6bda13df16c8a046eb5634cbf91d2b7a5b7c689286e",
+        "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:30:07+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch31Tunneling.md::problems-exercises:7",

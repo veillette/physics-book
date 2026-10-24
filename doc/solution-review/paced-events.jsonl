@@ -585,3 +585,10 @@
 {"at": "2026-10-24T13:18:37+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 31, "items": 12, "attempt": 2, "target_interval_seconds": 423.5}
 {"at": "2026-10-24T13:21:11+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "recorded", "chapter": 31, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
 {"at": "2026-10-24T13:25:41+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 28, "items": 12, "attempt": 3, "target_interval_seconds": 226.8}
+{"at": "2026-10-24T13:28:04+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "recorded", "chapter": 28, "items": 12, "verdicts": {"appropriate": 10, "concern": 2}}
+{"at": "2026-10-24T13:29:29+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 31, "items": 1, "attempt": 4, "target_interval_seconds": 408.3}
+{"at": "2026-10-24T13:30:07+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "recorded", "chapter": 31, "items": 1, "verdicts": {"concern": 1}}
+{"at": "2026-10-24T13:36:17+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 32, "items": 12, "attempt": 5, "target_interval_seconds": 408.2}
+{"at": "2026-10-24T13:39:42+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "recorded", "chapter": 32, "items": 12, "verdicts": {"appropriate": 8, "concern": 4}}
+{"at": "2026-10-24T13:43:06+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 32, "items": 12, "attempt": 6, "target_interval_seconds": 408.2}
+{"at": "2026-10-24T13:43:08+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "waiting-for-quota", "error": "You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 10:06 AM.", "retry_at": "2026-10-24T14:13:08+00:00"}

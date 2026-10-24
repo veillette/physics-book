@@ -1,6 +1,6 @@
 {
   "chapter": 28,
-  "checked_at": "2026-10-24T13:25:50+00:00",
+  "checked_at": "2026-10-24T13:43:16+00:00",
   "summary": {
     "total": 1987,
     "checked": 242,
@@ -607,19 +607,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::worked-example:1",
-        "source_sha256": "391348140a334e2de3021874cd97eea4e23ce991d1f1774e3b9ba809fca8c364",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "With the positive direction toward Earth, both ship and emitted light have positive velocities. The collinear Lorentz velocity transformation gives c in the Earth frame. Inspection of the SVG geometry confirms that its top-panel ship and light arrows point toward Earth; the lower panel consistently depicts the reversed direction. The discussion correctly states vacuum light-speed invariance.",
-        "calculation_check": "u=(0.500c+c)/(1+(0.500c)c/c²)=1.500c/1.500=c. Reversing both velocities yields −c, preserving the speed. The denominator is dimensionless and the result has velocity units.",
-        "assumptions": "Vacuum propagation, locally inertial ship and Earth frames, collinear emission toward Earth, and negligible gravitational effects.",
-        "notes": "Correct velocity transformation, signs, figure directions, and invariant vacuum light speed.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:10:39+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "Taking motion toward Earth as positive, the Lorentz velocity transformation gives u=(v+u')/(1+vu'/c²). Substituting u'=c gives u=c for every subluminal ship velocity. The solution therefore answers the stated problem, and its discussion correctly states vacuum light-speed invariance. Inspection of the SVG's arrow coordinates and labels confirms that the upper ship and beam both point toward Earth.",
+        "calculation_check": "u/c=(0.500+1)/(1+0.500)=1. The denominator is dimensionless, so the result has units of velocity.",
+        "assumptions": "Vacuum propagation, collinear motion, and locally inertial Earth and ship frames; gravitational effects are neglected.",
+        "notes": "Correct transformation, arithmetic, direction, and explanation of vacuum light-speed invariance.",
+        "source_sha256": "391348140a334e2de3021874cd97eea4e23ce991d1f1774e3b9ba809fca8c364",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::worked-example:2",
@@ -642,19 +642,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::worked-example:2",
-        "source_sha256": "9f1b876ff69a347c591acd198164707a7f7c16a70763f4fbfadbe729ee793ed7",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Taking toward Earth as positive, the Lorentz transformation gives u=(v+u')/(1+vu'/c²). Substituting u'=+0.750c and -0.750c gives motion toward Earth in (a) and away in (b). The discussion correctly compares signed velocities and their unequal changes from the ship's velocity. Inspection of the SVG arrows confirms these directions.",
-        "calculation_check": "(0.500+0.750)/(1+0.375)=0.909091; (0.500-0.750)/(1-0.375)=-0.400000. Relative to the ship's Earth-frame velocity, the changes are +0.409091c and -0.900000c.",
-        "assumptions": "Collinear inertial motion; launch speeds measured in the ship's frame; negligible gravity and ship recoil. Velocity means an Earth-frame measurement rather than an uncorrected visual appearance.",
-        "notes": "Both answers and the discussion are correct. The supplied alt text contradicts the ship's direction in the actual SVG, which shows both ships moving toward Earth.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "With positive velocity toward Earth, the ship has v=0.500c and the launches have u'=±0.750c. Lorentz velocity addition gives a positive Earthward velocity for the forward launch and a negative velocity for the backward launch. The SVG's arrow coordinates confirm these launch directions and an Earthward ship velocity in both panels. The discussion correctly compares signed velocities and their unequal changes relative to the ship's Earth-frame velocity.",
+        "calculation_check": "Forward: u/c=1.250/1.375=0.9090909. Backward: u/c=−0.250/0.625=−0.400. Relative to the ship's 0.500c Earth-frame velocity, the changes are +0.4090909c and −0.900c. The backward speed magnitude exceeds the classical prediction of 0.250c.",
+        "assumptions": "Collinear inertial motion; launch velocities are measured in the ship frame, with positive direction toward Earth.",
+        "notes": "Both parts and all numerical discussion comparisons are correct. The unequal velocity changes reflect the nonlinear transformation.",
+        "source_sha256": "9f1b876ff69a347c591acd198164707a7f7c16a70763f4fbfadbe729ee793ed7",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::worked-example:3",
@@ -677,19 +677,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::worked-example:3",
-        "source_sha256": "15beb1f762d646499b9d1854f1bbd0cfa182bd625431e405af4714fa4f41fcf0",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "For radial recession, successive emitted wave crests arrive separated by Tobs=γ(1+β)Ts. Consequently λobs/λs=√((1+β)/(1-β)), the relation used in the solution. Recession increases wavelength, consistently with the discussion.",
-        "calculation_check": "0.525√(1.825/0.175)=1.695398 m, rounding to 1.70 m. The multiplier is dimensionless and greater than one.",
-        "assumptions": "The stated wavelength is measured in the galaxy's rest frame. Treat the recession as collinear special-relativistic motion, neglecting cosmological expansion and gravitational shifts.",
-        "notes": "Correct Doppler relation, numerical wavelength, and redshift interpretation under the stated kinematic model.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "For a radially receding source, successive emissions separated by proper period T_s arrive separated by γT_s(1+β). Consequently λ_obs/λ_s=γ(1+β)=sqrt((1+β)/(1−β)), which is the relation used. Its factor exceeds one for recession, so the redshift interpretation is correct.",
+        "calculation_check": "λ_obs=0.525 sqrt(1.825/0.175) m=1.695398 m, which rounds to 1.70 m. The multiplicative Doppler factor is dimensionless.",
+        "assumptions": "The emitted wavelength is measured in the galaxy's rest frame; 0.825c is radial recession relative to Earth. The example uses a special-relativistic kinematic model and neglects cosmological and gravitational propagation effects.",
+        "notes": "Correct longitudinal Doppler model, wavelength, and redshift explanation under the stated kinematic interpretation.",
+        "source_sha256": "15beb1f762d646499b9d1854f1bbd0cfa182bd625431e405af4714fa4f41fcf0",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::exercise:1",
@@ -716,19 +716,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::exercise:1",
-        "source_sha256": "8f0fa73ea30ed4204bea846f7324602cd5e6f0bef4cdd98049efc084ad194204",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "A receding transmitter produces an arrival period γ(1+β) times its rest-frame emission period. The received frequency therefore equals fs√((1-β)/(1+β)), as used in the answer.",
-        "calculation_check": "1.50√(0.650/1.350)=1.040833 GHz, giving 1.04 GHz. The frequency decreases, as required for recession.",
-        "assumptions": "The 1.50 GHz frequency is measured aboard the probe; motion is directly away from Earth, with inertial propagation in vacuum and negligible gravitational shifts.",
-        "notes": "The received frequency and recession sign are correct.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "A source receding along the line of sight has an arrival-period increase γ(1+β), so its observed frequency is f_s/[γ(1+β)]=f_s sqrt((1−β)/(1+β)). The supplied answer uses the correct recession sign and predicts a lower received frequency.",
+        "calculation_check": "f_obs=1.50 sqrt(0.650/1.350) GHz=1.040833 GHz, agreeing with 1.04 GHz.",
+        "assumptions": "The 1.50 GHz frequency is measured in the probe's rest frame; the probe recedes radially at constant speed, and propagation and gravitational corrections are neglected.",
+        "notes": "Correct frequency transformation and numerical answer.",
+        "source_sha256": "8f0fa73ea30ed4204bea846f7324602cd5e6f0bef4cdd98049efc084ad194204",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::conceptual-questions:1",
@@ -851,19 +851,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:1",
-        "source_sha256": "067f5eedebf8d99c88eb5c6fddb806417c5a2e164683ee9c7373384dbfce3b3e",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "With toward Earth positive, transform the launch velocities ±0.500c using the ship velocity +0.750c. Both Earth-frame results are positive: even backward firing cannot reverse the canister's motion toward Earth. The discussion correctly describes the changes from the ship's velocity and the nonlinear departure from classical addition.",
-        "calculation_check": "1.250/1.375=0.909091 and 0.250/0.625=0.400000. The changes from 0.750c are +0.159091c and -0.350000c. Both speeds remain below c.",
-        "assumptions": "Collinear inertial motion, negligible recoil and gravity, and subluminal launch speeds. Positive velocities in both answers mean toward Earth.",
-        "notes": "Both parts and the discussion are correct; the backward-fired canister still travels toward Earth.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "Choosing positive toward Earth gives v=0.750c and launch velocities u'=±0.500c. Relativistic addition makes both Earth-frame velocities positive: even the backward-launched canister continues toward Earth. The solution's equations establish that result, and its discussion correctly calculates the unequal increases and decreases from the ship's speed. For subluminal inputs, the identity 1−(u/c)²=[1−(v/c)²][1−(u'/c)²]/[1+vu'/c²]² confirms that the output remains subluminal.",
+        "calculation_check": "Forward: u/c=1.250/1.375=0.9090909. Backward: u/c=0.250/0.625=0.400. Changes from the ship's velocity are +0.1590909c and −0.350c, matching the discussion.",
+        "assumptions": "Collinear inertial motion, positive toward Earth; both launch speeds are relative to the ship. The light-speed bound concerns physically allowed subluminal material velocities.",
+        "notes": "Both answers are correct; the backward launch still moves toward Earth at 0.400c.",
+        "source_sha256": "067f5eedebf8d99c88eb5c6fddb806417c5a2e164683ee9c7373384dbfce3b3e",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:2",
@@ -886,19 +886,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:2",
-        "source_sha256": "d7f95d106b501da698d3cceecfc7dfd73eb7d78d8f73610e013743d134a4e100",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "concern",
         "confidence": "high",
-        "reasoning_check": "Choosing away from Earth as positive makes the current transformations correct: firing toward Earth gives u'=-0.500c and an Earth-frame recession velocity +0.400c; firing away gives +0.909c. However, the final discussion misreports the previous problem as yielding '0.400c away.' In that previous problem the ship approached Earth, and its backward-fired canister still moved toward Earth at 0.400c.",
-        "calculation_check": "(0.750-0.500)/(1-0.375)=0.400000 and (0.750+0.500)/(1+0.375)=0.909091. Reversing the ship's direction reverses the corresponding Earth-frame directions; it does not make the previous 0.400c result point away.",
-        "assumptions": "The previous problem supplies the same ship and launch speeds. Collinear inertial motion; away from Earth is positive in this solution.",
-        "notes": "Current answers are correct, but the final comparison incorrectly labels the previous problem's 0.400c result as away from Earth instead of toward Earth.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "With positive direction now away from Earth, v=0.750c. Launching toward Earth gives u'=−0.500c and an Earth-frame velocity of +0.400c away; launching away gives +0.909c away. The strategy, calculations, and initial discussion correctly explain these results. However, the final comparison incorrectly says the previous approaching-ship problem produced '0.400c away.' Its backward launch actually produced 0.400c toward Earth.",
+        "calculation_check": "Current problem: (0.750−0.500)/(1−0.375)=0.400 and (0.750+0.500)/(1+0.375)=0.9090909, both away. In the preceding problem, using positive toward Earth gives the same two positive values, both toward Earth.",
+        "assumptions": "Collinear inertial frames; positive is away from Earth in this solution. Directions must be compared physically because the preceding solution used the opposite positive axis.",
+        "notes": "Main answers are correct. The closing discussion reverses the preceding problem's backward-launch direction: it was 0.400c toward Earth, not away.",
+        "source_sha256": "d7f95d106b501da698d3cceecfc7dfd73eb7d78d8f73610e013743d134a4e100",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:3",
@@ -921,19 +921,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:3",
-        "source_sha256": "ec05e356d52868c12ffc413655d5384cf2e4b232a5f282ff21d9be7c93d0e4e0",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "In Earth's frame the capsule and ship have opposite velocities. Transforming the capsule velocity into the ship's frame requires u'=(u-v)/(1-uv/c²), producing the solution's denominator 1.0100. The ship-frame approach speed differs from the Earth-frame coordinate closing rate of 0.200c, consistently with the discussion.",
-        "calculation_check": "(0.100-(-0.100))/(1-0.100(-0.100))=0.1980198. This is 0.9901% below the classical relative-speed estimate.",
-        "assumptions": "The capsule travels from Earth directly toward the approaching ship; both velocities are specified in the Earth frame. Inertial motion and negligible gravitational effects.",
-        "notes": "Correct frame transformation, speed, and approximately 1% correction.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "In the Earth frame, the capsule travels outward at +0.100c while the incoming ship travels at −0.100c. Transforming the capsule velocity into the ship frame requires u'=(u−v)/(1−uv/c²), producing the solution's positive relative approach velocity. The discussion correctly distinguishes the ship-frame measured speed from the classical sum.",
+        "calculation_check": "u'/c=0.200/1.010=0.1980198. Its reduction from 0.200c is 0.9901%, consistent with 'about 1%.' As both speeds tend to zero, the denominator tends to one and the classical result is recovered.",
+        "assumptions": "The ship and capsule move along one line toward one another, with both stated speeds measured relative to Earth; acceleration and gravity are neglected.",
+        "notes": "Correct reference frames, transformation signs, speed, and estimate of the relativistic correction.",
+        "source_sha256": "ec05e356d52868c12ffc413655d5384cf2e4b232a5f282ff21d9be7c93d0e4e0",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:4",
@@ -954,19 +954,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "appropriate",
+      "review_status": "concern",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Part (a) correctly uses forward collinear relativistic addition with the hypothetical c. Part (b) is qualitatively right that relativistic effects would become accessible at familiar technological speeds, particularly bullet and aircraft speeds. However, it overstates their everyday prominence and asserts that even baseball throws would require relativistic calculations without specifying an accuracy requirement. At ordinary car and baseball speeds, the corrections would still be very small. The proposed earlier historical discovery is speculation, not a consequence established by the calculation.",
+        "calculation_check": "u=1800/[1+800000/9000000]=1653.061 m/s, an 8.163% reduction from 1800 m/s. With c=3000 m/s, γ−1 is 0.00500% at 30 m/s, 0.00889% at an illustrative baseball speed of 40 m/s, 0.0556% at 100 m/s, 0.349% at 250 m/s, and 6.066% at 1000 m/s. These quantify why the blanket claim about readily apparent everyday effects needs qualification.",
+        "assumptions": "Special relativity retains its usual form with c replaced by 3000 m/s; the bullet is fired directly forward, and muzzle velocity is measured relative to the jet. Comparisons hold the stated mechanical speeds fixed. No alternate-universe orbital or historical model is supplied.",
+        "notes": "Part (a) is correct. Part (b) exaggerates low-speed effects and the necessity of relativistic baseball calculations; observability depends on measurement precision. Historical and satellite speculation is not established.",
         "source_sha256": "65cdd141454362ae968e5bbf1fa5e50da85059f0bfb6587c1a21328f1e4be15f",
         "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
-        "verdict": "appropriate",
-        "confidence": "medium",
-        "notes": "Part (a) is correct. Fixed (b): relativistic momentum γmu exceeds the classical value, so impacts would deliver more momentum, not less. The broad everyday-effects discussion remains qualitative.",
-        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch28-29)",
-        "supersedes_verdict": "concern",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:5",
@@ -990,19 +993,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:5",
-        "source_sha256": "4ef76e18dc8d490b6e69e32874f64e5cffdd1e36e1179a0fa8fcdc8832ac9aee",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The radial recession Doppler factor increases the emitted wavelength to red visible light. Earth's orbital velocity contributes only its line-of-sight component, at most approximately 30 km/s. Its correction is small enough to neglect for the rounded answer here, although not for precision spectroscopy. The solution's estimate of the annual wavelength modulation supports that qualification.",
-        "calculation_check": "Using c=300000 km/s gives β=1/300 and λobs=656√((1+β)/(1-β))=658.1903 nm. The maximum orbital correction is approximately 658.19(30/300000)=0.06582 nm, about 3% of the galaxy-induced wavelength increase.",
-        "assumptions": "656 nm is the rest-frame wavelength; recession is radial and modeled kinematically. The 30 km/s orbital speed is an approximate contextual value, and its full magnitude supplies an upper bound on the radial correction.",
-        "notes": "All requested parts are correct at the stated precision. Orbital motion is negligible for this rounded result, not universally negligible. Ancillary historical claims were not independently verified.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "The radial recession Doppler factor increases the source wavelength slightly, leaving it in the visible red band. Earth's orbital contribution depends on its line-of-sight component and is at most about 3% of the galaxy's recession velocity. It is negligible for the requested roughly nanometer precision, although it matters for precise spectroscopy. The discussion appropriately acknowledges that the orbital shift can be accounted for and that the low-speed Doppler approximation is adequate here.",
+        "calculation_check": "Using c=300000 km/s gives β=1/300 and λ_obs=656 sqrt((1+1/300)/(1−1/300))=658.1903 nm, rounding to 658 nm. The maximum first-order orbital contribution is approximately 656(30/300000)=0.0656 nm. Its actual annual amplitude depends on the galaxy's sky direction.",
+        "assumptions": "The given recession is radial and treated kinematically; 656 nm is the rounded source-frame wavelength. Earth's orbital speed is approximately 30 km/s. Cosmological and gravitational corrections are omitted, and distance inference through Hubble's law would require expansion-dominated recession.",
+        "notes": "All three parts are correct at the stated precision. Earth's orbital motion is negligible for this rounded answer, rather than universally negligible in spectroscopy.",
+        "source_sha256": "4ef76e18dc8d490b6e69e32874f64e5cffdd1e36e1179a0fa8fcdc8832ac9aee",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:6",
@@ -1026,19 +1029,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:6",
-        "source_sha256": "b0151670ec93ddd5314a4899bb15e02d327eec9d1bd699a0452e8dc48ba02060",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "For a probe departing Earth toward another star, the Earth-directed signal is emitted backward relative to the probe's outward motion. The arrival interval is γ(1+β) times the onboard interval, giving the stated frequency reduction. Source-timed data pulses undergo the same arrival-rate reduction, so that discussion claim follows from the same calculation.",
-        "calculation_check": "1.00√(0.750/1.250)=0.7745967 GHz=774.5967 MHz. The fractional reduction is 0.225403, or 22.54%.",
-        "assumptions": "The probe departs Earth radially at 0.250c, and 1.00 GHz is its onboard broadcast frequency. The data-rate statement concerns events timed in the source frame; gravity and orbital motion are neglected.",
-        "notes": "Correct received frequency and source-timed pulse-rate interpretation. The statement about routine spacecraft observations was not independently verified and does not establish that shifts this large occur routinely.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "Under the intended outbound Earth-to-star trajectory, the probe recedes from Earth. The longitudinal relativistic Doppler factor therefore lowers the received frequency. A fixed sequence of emission events, including transmitted data symbols, has its received rate reduced by the same factor, so that discussion claim is physically consistent. The hypothetical 22.5% effect is established; the closing claim about routine spacecraft practice is not independently documented by the supplied evidence.",
+        "calculation_check": "f_obs/f_s=sqrt(0.750/1.250)=sqrt(0.600)=0.7745967. Thus f_obs=0.7745967 GHz≈0.775 GHz=775 MHz, a 22.5403% reduction.",
+        "assumptions": "The probe travels radially away from Earth toward the star, at constant Earth-relative speed. The broadcast frequency and any fixed transmitted symbol rate are measured in the probe frame. Receiver motion, gravity, and adaptive changes in transmission rate are neglected.",
+        "notes": "Correct received frequency, redshift, and received-rate scaling. The operational claim about routine spacecraft observations remains externally unverified.",
+        "source_sha256": "b0151670ec93ddd5314a4899bb15e02d327eec9d1bd699a0452e8dc48ba02060",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:7",
@@ -1061,19 +1064,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:7",
-        "source_sha256": "ad128ae977583c189ffca65d986fcc945db0e515cc223dd09075a5cb3c12e9a7",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Interpreting 0.800c as the ships' mutual relative speed, work in ship 2's frame and invert u=(v+u')/(1+vu'/c²). This gives u'=(u-v)/(1-uv/c²), exactly the solution's derivation. The discussion correctly explains why the resulting approach speed remains subluminal.",
-        "calculation_check": "(0.999-0.800)/(1-0.999×0.800)=0.9910359. Substitution into (0.800+u'/c)/(1+0.800u'/c) returns 0.999 exactly.",
-        "assumptions": "The stated 0.800c is the mutual relative speed, rather than each ship's speed in an unspecified third frame. Launch is collinear toward ship 2; both ships and canister are subluminal.",
-        "notes": "Correct launch speed and explanation under the explicitly used mutual-relative-speed interpretation.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "Taking 0.800c as the ships' mutual relative speed, choose the second ship's frame and positive toward it. The first ship then has v=0.800c and the desired canister velocity is u=0.999c. Inverting Lorentz velocity addition yields u'=(u−v)/(1−uv/c²), exactly as derived in the solution. Forward substitution recovers the requested approach speed, and the discussion correctly describes the subluminal result.",
+        "calculation_check": "u'/c=0.199/0.2008=0.9910359, rounding to 0.991. Substituting this unrounded value into (0.800+u'/c)/(1+0.800u'/c) gives 0.999. The classical sum would be 1.7910359c.",
+        "assumptions": "The stated 0.800c is the speed of either ship measured by the other, rather than two separate speeds in an unspecified third frame. The canister is fired directly toward the second ship; all frames are inertial.",
+        "notes": "Correct inverse transformation and launch speed under the natural mutual-relative-speed interpretation.",
+        "source_sha256": "ad128ae977583c189ffca65d986fcc945db0e515cc223dd09075a5cb3c12e9a7",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:8",
@@ -1096,19 +1099,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:8",
-        "source_sha256": "1f46fe938b02eaacaa8ef217cce38dc1ad8da1723c3d49059371d6d7d91f06bd",
-        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Taking 0.250c as the planets' mutual relative speed, inversion of the Lorentz velocity transformation gives the ship's launch velocity toward planet 2. The discussion correctly distinguishes the transformed speed measured by planet 2 from a classical prediction. The sum 0.865c can nevertheless be a valid coordinate closing rate in planet 1's frame; it is not the ship's speed in planet 2's frame.",
-        "calculation_check": "(0.750-0.250)/(1-0.750×0.250)=0.6153846. Transforming back gives 0.750000c. The difference from the classical sum is 13.333% of that classical prediction, consistent with the stated 13%.",
-        "assumptions": "The planets' mutual relative speed is 0.250c. Motion is collinear and inertial, ignoring gravitational interaction. Timing comparisons must use distances and velocities from the same frame.",
-        "notes": "Correct launch velocity and numerical comparison. The timing illustration requires consistent frame-specific distances; the classical sum remains a legitimate coordinate closing rate in planet 1's frame.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T11:14:42+00:00",
-        "reviewed_at": "2026-10-24T13:25:45+00:00"
+        "reasoning_check": "In planet 2's frame, planet 1 approaches at 0.250c and the ship at 0.750c. Transforming the ship velocity into planet 1's frame gives (0.750−0.250)c/(1−0.750·0.250). The solution correctly identifies its direction toward planet 2. Its discussion correctly rejects 0.865c as the ship velocity measured by planet 2. That sum can nevertheless describe the coordinate closing rate between ship and planet 2 in planet 1's frame; arrival-time calculations must consistently use one frame.",
+        "calculation_check": "u'/c=0.500/0.8125=0.6153846. Adding relativistically to 0.250 gives 0.750 exactly. The classical sum is 0.8653846, whose excess over 0.750 is 13.333% of that classical prediction, consistent with the stated 13% comparison.",
+        "assumptions": "The planets' stated 0.250c is their mutual relative speed. Motion is collinear and inertial over the interval considered, with gravitational interactions neglected. The speculative timing-error magnitude depends on distance and the chosen frame.",
+        "notes": "Correct launch velocity and relativistic comparison. The timing illustration requires consistent frames; 0.865c is a valid closing rate in planet 1's coordinates, not planet 2's measured ship speed.",
+        "source_sha256": "1f46fe938b02eaacaa8ef217cce38dc1ad8da1723c3d49059371d6d7d91f06bd",
+        "file_sha256": "7b9b0f19175e04e22060d5689c6afa0c55331a1db346edb4849f10133d0c4830",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:28:04+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch28RelativisticAdditionOfVelocities.md::problems-exercises:9",
