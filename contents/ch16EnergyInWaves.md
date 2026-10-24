@@ -176,7 +176,7 @@ of the resulting wave is four times as great as in the individual waves.
 1. Recall that intensity is proportional to amplitude squared.
 2. Calculate the new amplitude:
    <div class="equation" >
-   $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right) }^{2}={4X}^{2}. $$ 
+   $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right) }^{2}=4{X}^{2}. $$ 
    </div>
 
 3. Recall that the intensity of the old amplitude was:
@@ -205,7 +205,7 @@ area covered by the two waves before they interfered. There are other areas
 where the intensity is zero. The addition of waves is not as simple as our first
 look in [Superposition and Interference](../contents/ch16SuperpositionAndResonance)
 suggested. We actually get a pattern of both constructive interference and
-destructive interference whenever two waves are added. For example, if we have
+destructive interference whenever two coherent waves of the same frequency are added. For example, if we have
 two stereo speakers putting out $$ 1.00 {\text{W/m}}^{2} $$ each, there will be
 places in the room where the intensity is $$ 4.00 {\text{W/m}}^{2} $$ , other
 places where the intensity is zero, and others in

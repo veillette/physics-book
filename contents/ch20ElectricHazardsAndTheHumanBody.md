@@ -589,7 +589,7 @@ $$I = \frac{V}{R} = \frac{240 \text{ V}}{0.250 \text{ Ω}} = 960 \text{ A}$$
 
 **Discussion**
 
-The power dissipated in this short circuit (230 kW) is enormous—equivalent to about 150 typical household appliances running simultaneously. This massive power will rapidly heat the conductor to dangerous temperatures, potentially melting insulation, starting fires, or vaporizing the conductor itself. The current of 960 A is about 80 times the typical household circuit capacity (15 A), demonstrating why circuit breakers and fuses are absolutely essential safety devices. The combination of even moderate voltage (240 V) with very low resistance (0.250 Ω) creates an extremely hazardous situation that must be interrupted within milliseconds.
+The power dissipated in this short circuit (230 kW) is enormous—equivalent to about 150 typical household appliances running simultaneously. This massive power will rapidly heat the conductor to dangerous temperatures, potentially melting insulation, starting fires, or vaporizing the conductor itself. The current of 960 A is about 64 times the typical household circuit capacity (15 A), demonstrating why circuit breakers and fuses are absolutely essential safety devices. The combination of even moderate voltage (240 V) with very low resistance (0.250 Ω) creates an extremely hazardous situation that must be interrupted quickly.
 
 **Final Answer**
 
@@ -707,7 +707,7 @@ $$V = 400 \text{ V}$$
 
 **Discussion**
 
-A voltage of 400 V on the radio case could cause ventricular fibrillation. However, this analysis reveals an important safety consideration: standard household voltage (120 V in North America, 240 V in many other countries) would produce currents of $$I = 120 \text{ V}/4000 \text{ Ω} = 30 \text{ mA}$$ or $$I = 240 \text{ V}/4000 \text{ Ω} = 60 \text{ mA}$$. While these currents are below the fibrillation threshold, they are well above the "can't let go" threshold (10-20 mA) and the threshold for pain (50 mA). The person would experience sustained muscular contractions and might drown if unable to release the radio or exit the tub. This is why electrical devices should never be used near bathtubs, and modern bathrooms require ground-fault circuit interrupter (GFCI) outlets that trip at currents as low as 5 mA.
+A voltage of 400 V on the radio case could cause ventricular fibrillation. However, this analysis reveals an important safety consideration: standard household voltage (120 V in North America, 240 V in many other countries) would produce currents of $$I = 120 \text{ V}/4000 \text{ Ω} = 30 \text{ mA}$$ or $$I = 240 \text{ V}/4000 \text{ Ω} = 60 \text{ mA}$$. While these currents are below the fibrillation threshold, both are above the "can't let go" threshold (10–20 mA), and the 60-mA current also exceeds the 50-mA onset of pain. The person would experience sustained muscular contractions and might drown if unable to release the radio or exit the tub. This is why electrical devices should never be used near bathtubs, and modern bathrooms require ground-fault circuit interrupter (GFCI) outlets that trip at currents as low as 5 mA.
 
 The smallest voltage that could cause ventricular fibrillation is 400 V.
 

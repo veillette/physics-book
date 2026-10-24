@@ -1413,7 +1413,7 @@ The electric field at the location of $$q_a$$ is **412 N/C directed at 135° fro
 
 The field at $$q_a$$ results from four contributions. The three positive corner charges all repel, so their fields at $$q_a$$ point away from them, outward from the square. The negative central charge attracts, so its field points toward the center. By symmetry, $$q_b$$ and $$q_c$$ are at equal distances along perpendicular edges and $$q_d$$ and $$q$$ lie on the diagonal through $$q_a$$, so the net field must lie along that diagonal.
 
-The negative central charge significantly affects the result. Without it, the field would be $$(609 \text{ N/C})\sqrt{2} = 861\,\text{A}^{-1}\cdot\text{m}\cdot\text{kg}\cdot\text{s}^{-3}$$ N/C, pointing outward along the same diagonal. The central charge cancels about half of this, but not enough to reverse the direction. This demonstrates superposition: the total field is the vector sum of all individual contributions.
+The negative central charge significantly affects the result. Without it, the field would be $$(609 \text{ N/C})\sqrt{2} = 861 \text{ N/C}$$, pointing outward along the same diagonal. The central charge cancels about half of this, but not enough to reverse the direction. This demonstrates superposition: the total field is the vector sum of all individual contributions.
 
 :::
 

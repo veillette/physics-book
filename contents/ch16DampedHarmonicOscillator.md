@@ -127,70 +127,54 @@ Identify the known:
 - The motion is horizontal, so gravitational potential energy does not need to
   be considered.
 - Because the motion starts from rest, the energy in the system is initially
-  $${\text{PE}}_{\text{el,i}}=\left(1/2\right){\text{kX}}^{2} $$ . This energy
-  is removed by work done by friction $${W}_{\text{nc}}=-\text{fd} $$ , where
+  $${\text{PE}}_{\text{el,i}}=\left(1/2\right)k{X}^{2} $$ . This energy
+  is removed by work done by friction $${W}_{\text{nc}}=-fd $$ , where
   $$d $$ is the total distance traveled and $$f={\mu }_{\text{k}}mg $$ is the
-  force of friction. When the system stops moving, the friction force will
-  balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left( 1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
-
-<div class="equation" >
-$$\begin{array}{lll}{F}_{\text{el}}& =& f\\ kx& =& {\mu }_{\text{k}}mg\\ x& =& \frac{ {\mu }_{\text{k}}mg}{k}\end{array}. $$
-</div>
+  force of friction.
+- The object stops for good when, at a turning point, the spring force can no
+  longer overcome static friction. Taking the static coefficient equal to the
+  kinetic one, that happens within $${x}_{\text{s}}={\mu }_{\text{k}}mg/k=3.14 \text{ mm} $$
+  of $$x=0 $$, so the elastic energy left at the end is at most
+  $$\left(1/2\right)k{x}_{\text{s}}^{2}=2.5 \times 10^{-4} \text{ J} $$, less than
+  0.1% of the initial $$0.250 \text{ J} $$. We neglect it.
 
 1. By equating the work done to the energy removed, solve for the distance $$d $$.
 
-2. The work done by the non-conservative forces equals the initial, stored
-   elastic potential energy. Identify the correct equation to use:
+2. The work done by the non-conservative force equals the change in mechanical
+   energy, which (to within 0.1%) is the loss of all the initial elastic energy:
 
    <div class="equation" >
-    $${\text{W}}_{\text{nc}}=\Delta \left(\text{KE}+\text{PE}\right)={\text{PE}}_{\text{el,f}}-{\text{PE}}_{\text{el,i}}=\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right). $$
+    $${\text{W}}_{\text{nc}}=\Delta \left(\text{KE}+\text{PE}\right)\approx 0-{\text{PE}}_{\text{el,i}}=-\frac{1}{2}k{X}^{2}. $$
    </div>
 
-3. Recall that $${W}_{\text{nc}}=-fd $$ .
-4. Enter the friction as $$f={\mu }_{\text{k}}mg $$
-   into $${W}_{\text{nc}}=-fd $$ , thus
+3. Recall that $${W}_{\text{nc}}=-fd=-{\mu }_{\text{k}} mgd $$ .
+
+4. Combine these two equations and solve for $$d $$:
 
    <div class="equation" >
-    $${W}_{\text{nc}}={-\mu }_{\text{k}} mgd. $$
+    $$d=\frac{k{X}^{2}}{2{\mu }_{\text{k}}mg}. $$
    </div>
 
-5. Combine these two equations to find
+5. Enter the known values and calculate $$d $$:
 
    <div class="equation" >
-    $$\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right)=-{\mu }_{\text{k}} mgd. $$
-   </div>
-
-6. Solve the equation for $$d $$:
-
-   <div class="equation" >
-    $$d=\frac{\text{k}}{ {2\mu }_{\text{k}}mg}\left({X}^{2}-{\left(\frac{ {\mu }_{\text{k}}mg}{k}\right)}^{2}\right). $$
-   </div>
-
-7. Enter the known values into the resulting equation:
-
-   <div class="equation" >
-    $$d=\frac{ 50.0 \text{N/m} }{2\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}\left({\left( 0.100 \text{m}\right)}^{2}-{\left(\frac{\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}{ 50.0 \text{N/m}}\right)}^{2}\right). $$
-   </div>
-
-8. Calculate $$d $$
-   and convert units:
-
-   <div class="equation" >
-    $$d= 1.59 \text{m}. $$
+    $$d=\frac{\left( 50.0 \text{N/m}\right){\left( 0.100 \text{m}\right)}^{2}}{2\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}= 1.59 \text{m}. $$
    </div>
 
 **Discussion b**
 
 This is the total distance traveled back and forth across $$x=0 $$ , which is
-the undamped equilibrium position. The number of oscillations about the
-equilibrium position will be more than $$d/X=\left( 1.59 \text{m}\right)/\left( 0.100 \text{m}\right)= 15.9 $$ because the amplitude of the oscillations is
-decreasing with time. At the end of the motion, this system will not return to
-$$x=0 $$ for this type of damping force, because static friction will exceed the
-restoring force. This system is underdamped. In contrast, an overdamped system
+the undamped equilibrium position. With constant friction, each half-swing
+reduces the amplitude by the same amount, $$2f/k=6.27 \text{ mm} $$. Starting
+from 100 mm, the object makes 16 half-swings, about 8 oscillations, and stops
+about 0.35 mm from $$x=0 $$; adding up the 16 half-swings gives 1.594 m,
+confirming the energy result. The object generally does not stop exactly at
+$$x=0 $$ for this type of damping force, because static friction can hold it
+wherever the spring force is too weak to overcome it. This system is underdamped. In contrast, an overdamped system
 with a simple constant damping force would not cross the equilibrium position
-$$x=0 $$ a single time. For example, if this system had a damping force 20 times
-greater, it would only move 0.0484 m toward the equilibrium position from its
-original 0.100-m position.
+$$x=0 $$ a single time. For example, if this system had a friction force 20 times
+greater, it would move only 0.0746 m toward the equilibrium position and stop
+0.0254 m from $$x=0 $$, where static friction holds it.
 
 This worked example illustrates how to apply problem-solving strategies to
 situations that integrate the different concepts you have learned. The first

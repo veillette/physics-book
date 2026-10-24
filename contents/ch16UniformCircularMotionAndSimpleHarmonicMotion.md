@@ -207,7 +207,7 @@ Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relative
 
 (a) 0.266 m/s
 
-(b) 3.00 J
+(b) 3.00 J of oscillation energy, measured from equilibrium. Measured from the spring's unloaded length, the spring stores at most 4.90 J, at the bottom of the bounce.
 
 :::
 

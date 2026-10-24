@@ -151,20 +151,20 @@ conservation of energy to find $${v}_{\text{max}} $$ . We could use it directly,
 as was done in the example featured
 in [Hooke’s Law: Stress and Strain Revisited](../contents/ch16HookesLaw).
 
-The small vertical displacement $$y $$ of an oscillating simple pendulum,
+The small horizontal displacement $$x $$ of an oscillating simple pendulum,
 starting from its equilibrium position, is given as
 
 <div class="equation" >
- $$y\left(t\right)=a \sin \omega t, $$
+ $$x\left(t\right)=a \sin \omega t, $$
 </div>
 
 where $$a $$
-is the amplitude, $$\omega  $$ is the angular velocity and $$t $$
-is the time taken. Substituting $$\omega =\frac{2\pi }{T} $$ ,
+is the amplitude, $$\omega  $$ is the angular frequency, and $$t $$
+is the time. Substituting $$\omega =\frac{2\pi }{T} $$ ,
 we have
 
 <div class="equation" >
- $$y\left(t\right)=a \sin\left(\frac{2\pi t}{T}\right). $$
+ $$x\left(t\right)=a \sin\left(\frac{2\pi t}{T}\right). $$
 </div>
 
 Thus, the displacement of pendulum is a function of time as shown above.

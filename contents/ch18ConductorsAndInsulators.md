@@ -375,7 +375,7 @@ This problem illustrates several fundamental principles of charge and atomic str
 
 **Charge Quantization:** All charge exists in discrete multiples of the elementary charge e = 1.60 × 10⁻¹⁹ C. The net charge of −5.00 nC corresponds to an excess of 3.125 × 10¹⁰ electrons, demonstrating that charge is quantized—you cannot have a fraction of an electron.
 
-**Atomic Structure and Conservation:** The dust speck contains 1.0000 × 10¹² protons (positive charges in the nuclei) and 1.03125 × 10¹² electrons (negative charges surrounding the nuclei). The total charge is conserved: the net charge equals (1.0000 × 10¹² - 1.03125 × 10¹²)(−e) = −5.00 nC. The electrons must have come from somewhere else (transferred from another object), demonstrating charge conservation.
+**Atomic Structure and Conservation:** The dust speck contains 1.0000 × 10¹² protons (positive charges in the nuclei) and 1.03125 × 10¹² electrons (negative charges surrounding the nuclei). The total charge is conserved: the net charge equals (1.0000 × 10¹² − 1.03125 × 10¹²)e = −5.00 nC. The electrons must have come from somewhere else (transferred from another object), demonstrating charge conservation.
 
 **Practical Context:** The charge of −5.00 nC is actually quite large for a dust speck. For comparison, this is about 31 billion excess electrons. In electrostatic precipitators used to remove particles from industrial exhaust, such large charges create strong electric forces that pull the charged particles to collection plates.
 

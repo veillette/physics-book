@@ -216,7 +216,7 @@ Calculate the sound intensity level in decibels for a sound wave traveling in ai
 **Strategy**
 
 We are given $$\Delta p $$ , so we can calculate $$I $$ using the equation
-$$I={\left(\Delta p\right)}^{2}/{\left(2{\text{pv}}_{w}\right)}^{2} $$ . Using
+$$I={\left(\Delta p\right)}^{2}/\left(2\rho {v}_{w}\right) $$ . Using
 $$I $$ , we can calculate $$\beta $$ straight from its definition in $$\beta \left(\text{dB}\right)=10 {\text{log}}_{10}\left(I/{I}_{0}\right) $$.
 
 **Solution**

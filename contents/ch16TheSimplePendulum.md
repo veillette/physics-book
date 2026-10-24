@@ -115,12 +115,12 @@ that the angle of deflection is less than $$15 ^\circ $$.
 1. Square $$T=2\pi \sqrt{\frac{L}{g}} $$ and solve for $$g $$ \:
 
     <div class="equation" >
-     $$g={4\pi }^{2}\frac{L}{ {T}^{2}}. $$
+     $$g=4{\pi }^{2}\frac{L}{ {T}^{2}}. $$
     </div>
 
 2. Substitute known values into the new equation:
    <div class="equation" >
-   $$g={4\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}. $$
+   $$g=4{\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}. $$
 
    </div>
 

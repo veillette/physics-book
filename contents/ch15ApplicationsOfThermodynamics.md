@@ -682,7 +682,7 @@ Converting to kilocalories (1 kcal = 4186 J):
 
 Part (a): The COP of 4.61 is excellent, meaning the heat pump delivers 4.61 joules of heat for every joule of electrical work input. This good performance results from the moderate 70 K temperature difference.
 
-Part (b): With 10 kWh of electricity input, the heat pump delivers 166 MJ (46.1 kWh equivalent) of thermal energy to the warm space. The additional 126 MJ comes from the cold outdoor environment at no cost.
+Part (b): With 10 kWh of electricity input, the heat pump delivers 166 MJ (46.1 kWh equivalent) of thermal energy to the warm space. The additional 130 MJ comes from the cold outdoor environment at no cost.
 
 Part (c): Despite electricity typically being more expensive per joule than natural gas, the heat pump is still cheaper because it provides more than 4 times as much heat as it consumes in electrical energy. The heat pump saves \$0.34 (25%) compared to burning natural gas. This economic advantage exists in mild climates; in very cold climates where the COP drops significantly, natural gas heating might become more economical. Environmental considerations also favor heat pumps when electricity comes from renewable sources, whereas natural gas combustion always produces CO₂ emissions.
 

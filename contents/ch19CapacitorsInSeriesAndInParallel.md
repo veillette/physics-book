@@ -219,7 +219,7 @@ parallel with $${C}_{3} $$.
 **Solution**
 
 Since $${C}_{1} $$ and $${C}_{2} $$ are in series, their total capacitance is
-given by $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$ . Entering their values into the equation gives
+given by $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}} $$ . Entering their values into the equation gives
 
 <div class="equation" >
  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}=\frac{1}{ 1.000 \text{μF}}+\frac{1}{ 5.000 \text{μF}}=\frac{ 1.200}{\text{μF}}. $$
@@ -234,7 +234,7 @@ Inverting gives
 This equivalent series capacitance is in parallel with the third capacitor; thus, the total is the sum
 
 <div class="equation" >
- $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{\text{S}}\\ {C}_{\text{tot}}& =& 0.833 \text{μF}+ 8.000 \text{μF}\\ {C}_{\text{tot}}& =& 8.833 \text{μF}.\end{array} $$ 
+ $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{3}\\ {C}_{\text{tot}}& =& 0.833 \text{μF}+ 8.000 \text{μF}\\ {C}_{\text{tot}}& =& 8.833 \text{μF}.\end{array} $$ 
 </div>
 
 **Discussion**

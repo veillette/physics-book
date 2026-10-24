@@ -365,10 +365,10 @@ For part (a), examine Figure 8 and measure the time difference between the peak 
 
 **Solution**
 
-**(a)** From Figure 8, the QRS complex (specifically the R wave peak) occurs at approximately 0.20 s, and the systolic (maximum) blood pressure peak occurs at approximately 0.40 s. Therefore, the time lag is:
+**(a)** From Figure 8, the QRS complex (specifically the R wave peak) occurs at approximately 0.31 s, and the systolic (maximum) blood pressure peak occurs at approximately 0.61 s. The second beat gives the same lag (1.06 s and 1.36 s). Therefore, the time lag is:
 
 <div class="equation">
-$$\Delta t = 0.40 \text{ s} - 0.20 \text{ s} = 0.20 \text{ s} = 200 \text{ ms}$$
+$$\Delta t = 0.61 \text{ s} - 0.31 \text{ s} = 0.30 \text{ s} = 300 \text{ ms}$$
 </div>
 
 **(b)** The time lag between the QRS complex and systolic pressure exists for several physiological reasons:
@@ -383,9 +383,9 @@ $$\Delta t = 0.40 \text{ s} - 0.20 \text{ s} = 0.20 \text{ s} = 200 \text{ ms}$$
 
 **Discussion**
 
-The 200 ms lag is clinically significant. Changes in this interval can indicate cardiac problems. A longer lag might suggest weakened heart muscle (as in heart failure), while electrical conduction abnormalities can alter the timing relationship between the ECG and mechanical events. This electromechanical delay is why doctors use both ECGs (electrical) and blood pressure measurements (mechanical) to get a complete picture of cardiac function.
+The 300 ms lag is clinically significant. Changes in this interval can indicate cardiac problems. A longer lag might suggest weakened heart muscle (as in heart failure), while electrical conduction abnormalities can alter the timing relationship between the ECG and mechanical events. This electromechanical delay is why doctors use both ECGs (electrical) and blood pressure measurements (mechanical) to get a complete picture of cardiac function.
 
-(a) The systolic pressure lags approximately 0.20 s (200 ms) behind the QRS complex. (b) This lag is due to electromechanical coupling delay, contraction development time, the isovolumetric contraction phase, and pressure wave propagation time.
+(a) The systolic pressure lags approximately 0.30 s (300 ms) behind the QRS complex. (b) This lag is due to electromechanical coupling delay, contraction development time, the isovolumetric contraction phase, and pressure wave propagation time.
 
 :::
 

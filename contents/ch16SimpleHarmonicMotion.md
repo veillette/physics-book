@@ -337,7 +337,7 @@ Use a mass on a linear spring and compare different amplitudes at fixed mass and
 
 **Solution**
 
-An assumed $$0.50\text{ kg}$$ mass on a spring of $$k=200\text{ N/m}$$ has frequency $$f=(1/2\pi)\sqrt{k/m}=(1/2\pi)\sqrt{(200\text{ N/m})/(0.50\text{ kg})}=3.18\text{ Hz}$$. Within the spring’s linear range and with negligible damping, amplitudes of $$0.010\text{ m}$$ and $$0.030\text{ m}$$ give the same frequency.
+An assumed $$0.50\text{ kg}$$ mass on a spring of $$k=200\text{ N/m}$$ has frequency $$f=\frac{1}{2\pi}\sqrt{k/m}=\frac{1}{2\pi}\sqrt{(200\text{ N/m})/(0.50\text{ kg})}=3.18\text{ Hz}$$. Within the spring’s linear range and with negligible damping, amplitudes of $$0.010\text{ m}$$ and $$0.030\text{ m}$$ give the same frequency.
 
 **Discussion**
 

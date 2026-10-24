@@ -325,7 +325,7 @@ The monopole term falls as $$1/r^2$$, while the equal-and-opposite pair’s lead
 and $${q}_{2} $$ .
 What is the ratio of their magnitudes? (b) Sketch the electric field lines a long distance from the charges shown in the figure.
 
-![A small positive charge on the left and a larger negatively charged conducting sphere on the right. Field lines leave the positive charge in all directions. About half of them curve over and end on the sphere, meeting its surface at right angles; the rest go off to large distances. Twice as many lines leave the point charge as end on the sphere.](../resources/Figure_18_05_08.svg 'The electric field near two charges.')
+![A small positive charge on the left and a larger negatively charged conducting sphere on the right. Field lines leave the positive charge in all directions. Half of them (14 of 28) curve over and end on the sphere, meeting its surface at right angles; the rest go off to large distances. Twice as many lines leave the point charge as end on the sphere.](../resources/Figure_18_05_08.svg 'The electric field near two charges.')
 {: #Figure7}
 
 :::
@@ -344,7 +344,7 @@ Count the lines terminating on each charge using the same line-count convention,
 
 **Discussion**
 
-The near field is asymmetric, but its distant leading term is the field of the net negative charge. The positive charge has twice the negative charge’s magnitude, and the far-field arrows point outward.
+The near field is asymmetric, but its distant leading term is the field of the net positive charge, $$+Q$$. The positive charge has twice the negative charge’s magnitude, and the far-field arrows point outward.
 
 :::
 

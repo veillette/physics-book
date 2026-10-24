@@ -903,15 +903,17 @@ export default {
   Figure_18_05_08: () => {
     const svg = new Svg({
       width: 640,
-      height: 440,
+      height: 560,
       title: 'Field lines near a point charge and a charged conducting sphere',
-      desc: 'A small positive charge on the left and a larger negatively charged conducting sphere on the right. Field lines leave the positive charge in all directions. About half of them curve over and end on the sphere, meeting its surface at right angles; the rest go off to large distances. Twice as many lines leave the point charge as end on the sphere.',
+      desc: 'A small positive charge on the left and a larger negatively charged conducting sphere on the right. Field lines leave the positive charge in all directions. Half of them (14 of 28) curve over and end on the sphere, meeting its surface at right angles; the rest go off to large distances. Twice as many lines leave the point charge as end on the sphere.',
     });
     // Point charge +2Q at distance D from the center of a sphere of radius R
     // carrying −Q: image −2Q·R/D at R²/D from the center, plus the rest of the
     // sphere's charge at its center. Exact outside the sphere.
-    const q = { x: 190, y: 220, q: 2 };
-    const S = { x: 420, y: 220, R: 85 };
+    // The frame is tall enough that the two widest loops still reach the sphere,
+    // so 14 of the 28 lines from +2Q visibly end on the −Q sphere.
+    const q = { x: 190, y: 280, q: 2 };
+    const S = { x: 420, y: 280, R: 85 };
     const D = S.x - q.x;
     const qi = (-q.q * S.R) / D;
     const charges = [
@@ -920,7 +922,7 @@ export default {
       { x: S.x, y: S.y, q: -1 - qi, ghost: true },
     ];
     const inside = (x, y) => Math.hypot(x - S.x, y - S.y) < S.R;
-    pointLines(svg, charges, { x: 4, y: 4, w: 632, h: 432 }, { per: 14, at: 0.3, inside });
+    pointLines(svg, charges, { x: 4, y: 4, w: 632, h: 552 }, { per: 14, at: 0.3, inside });
     sphere(svg, S.x, S.y, S.R);
     arcMarks(svg, S.x, S.y, S.R - 14, [150, 170, 190, 210, 130, 230], '−', { size: 22 });
     signedCharge(svg, q.x, q.y, 1, { r: 11 });
