@@ -365,7 +365,7 @@ Why is the number of neutrons greater than the number of protons in stable nucle
 ::: problem
 
  $${}^{209}\text{Bi} $$
- is the heaviest stable nuclide, and its  $$\text{BE}/A $$
+ decays so slowly (half-life about $$2 \times 10^{19}$$ y) that it is effectively the heaviest stable nuclide, and its  $$\text{BE}/A $$
  is low compared with medium-mass nuclides. Calculate  $$BE/A $$ ,
  the binding energy per nucleon, for  $${}^{209}\text{Bi} $$
  and compare it with the approximate value obtained from the graph in [[Figure 3]](#Figure3).
@@ -416,9 +416,8 @@ Why is the number of neutrons greater than the number of protons in stable nucle
 
 (a) 7.680 MeV, consistent with graph
 
-(b) 7.520 MeV, consistent with graph. Not significantly different from value for
-$${}^{12}\text{C} $$ , but sufficiently lower to allow decay into another
-nuclide that is more tightly bound.
+(b) 7.520 MeV, consistent with graph. Not significantly different from the value for
+$${}^{12}\text{C} $$ . The difference in BE/A is not what makes $${}^{14}\text{C} $$ unstable: its decay product, $${}^{14}\text{N} $$ , is actually slightly less tightly bound per nucleon (7.476 MeV). The decay happens because a $${}^{14}\text{C} $$ atom is slightly more massive than a $${}^{14}\text{N} $$ atom, so its $$\beta^-$$ decay releases about 0.156 MeV.
 
 :::
 
@@ -463,6 +462,7 @@ to the energy equivalent of the electron’s mass (0.511 MeV).
 (b) 0.000549 u
 
 (c) $$ 2.66 \times 10^{-5} $$
+(d) Each comparison shows the binding energy is tiny: its mass equivalent is about $$10^{-8}$$ of the hydrogen atom's mass, the atom's mass minus the proton's mass equals the electron's mass to three digits, and the binding energy is about $$3 \times 10^{-5}$$ of the electron's rest energy. So the electron's binding energy can be neglected when atomic masses are used in nuclear calculations.
 
 :::
 

@@ -237,7 +237,7 @@ Converting to units of  $$kg/{m}^{3} $$ ,
  we find
 
 <div class="equation" >
- $$\begin{array}{lll}\rho & =& \left(0.138 \text{u}/\text{fm}^{3}\right)\left(1.66 \times 10^{-27}  \text{kg/u}\right)\left(\frac{1 \text{fm}}{ {10}^{-15} \text{m}}\right)\\ & =& 2.3 \times 10^{17}  {\text{kg/m}}^{3}.\end{array} $$
+ $$\begin{array}{lll}\rho & =& \left(0.138 \text{u}/\text{fm}^{3}\right)\left(1.66 \times 10^{-27}  \text{kg/u}\right){\left(\frac{1 \text{fm}}{ {10}^{-15} \text{m}}\right)}^{3}\\ & =& 2.3 \times 10^{17}  {\text{kg/m}}^{3}.\end{array} $$
 </div>
 
 **Discussion**
