@@ -138,7 +138,7 @@ balance the increasing force due to the increasing pressure.
 
 :::
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](/resources/Figure_11_04_02.svg 'The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.')
+![A two-dimensional view of a dam with dimensions L and h is shown. The resultant force F of the water is shown by a horizontal arrow at two-thirds of the depth, below the average depth h bar. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](/resources/Figure_11_04_02.svg 'The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.')
 {: #Figure2}
 
 _Atmospheric pressure_ is another example of pressure due to the weight of a
@@ -901,7 +901,7 @@ Show that the total force on a rectangular dam due to the water behind it increa
  is the density of water,  $$h $$  is its depth at the dam, and  $$L $$
  is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See [[Figure 5]](#Figure5).)
 
-![A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](/resources/Figure_11_04_02.svg ' ')
+![A two-dimensional view of a dam with dimensions L and h is shown. The resultant force F of the water is shown by a horizontal arrow at two-thirds of the depth, below the average depth h bar. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.](/resources/Figure_11_04_02.svg ' ')
 {: #Figure5}
 
 :::

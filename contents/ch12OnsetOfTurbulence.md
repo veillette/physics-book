@@ -634,7 +634,7 @@ In [Take-Home Experiment: Inhalation](#Take-Home1), we measured the average flow
 
 **Strategy**
 
-We use typical inhalation data to calculate the flow rate, then find the velocity and Reynolds number. A typical adult inhales about 1 L of air per breath in approximately 2 seconds during normal breathing.
+Your own result depends on the inhalation time you measured. We first write the speed and Reynolds number in terms of your flow rate $$Q$$, then evaluate them for typical data: an adult inhales about 1 L of air per breath, and a quiet inhalation lasts about 2 s.
 
 **Solution**
 
@@ -644,6 +644,12 @@ Given:
 - Inhalation time: $$t \approx 2 \text{ s}$$ (typical value)
 - Air density at body temperature: $$\rho \approx 1.1 \text{ kg/m}^3$$
 - Air viscosity at 37°C: $$\eta \approx 1.9 \times 10^{-5} \text{ Pa} \cdot \text{s}$$
+
+For any measured flow rate, $$ v = Q/(\pi r^{2}) $$ and
+
+$$ N_{\text{R}} = \frac{2\rho v r}{\eta} = \frac{2\rho Q}{\pi \eta r} = \frac{2(1.1 \text{ kg/m}^3)}{\pi (1.9 \times 10^{-5} \text{ Pa} \cdot \text{s})(10^{-2} \text{ m})}\,Q = (3.7 \times 10^{6} \text{ s/m}^3)\,Q $$
+
+Substitute your own $$Q$$ here. For the typical values:
 
 Step 1: Calculate the average flow rate:
 
@@ -663,7 +669,7 @@ $${N}_{\text{R}} = \frac{3.52 \times 10^{-2} \text{ Pa} \cdot \text{s}}{1.9 \tim
 
 The average air speed is approximately **1.6 m/s** and the Reynolds number is approximately **1850**.
 
-Since $${N}_{\text{R}} \approx 1850$$ is just below 2000, the flow is at the upper edge of the laminar regime. During normal quiet breathing, the flow should be **laminar but close to transitional**.
+Since $${N}_{\text{R}} \approx 1850$$ is just below 2000, the average flow is at the upper edge of the laminar regime. The flow rate is not steady during an inhalation, though: it peaks in the middle of the breath at well above the average, so for part of each breath the flow can become transitional or turbulent. A shorter measured inhalation time gives a larger $$Q$$ and moves the result above 2000.
 
 **Discussion**
 

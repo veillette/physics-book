@@ -364,7 +364,7 @@ export default {
       width: 920,
       height: 640,
       title: 'Force of water on a dam',
-      desc: 'A dam of length L holds back water of depth h. The average pressure on its face is the pressure at the average depth, P̄ = h̄ρg, with h̄ = h/2, and the total force of the water on the dam is F = P̄A, where A = hL is the area of the face in contact with the water.',
+      desc: 'A dam of length L holds back water of depth h. The average pressure on its face is the pressure at the average depth, P̄ = h̄ρg, with h̄ = h/2, and the total force of the water on the dam is F = P̄A, where A = hL is the area of the face in contact with the water. Because the pressure grows with depth, the resultant force F acts at two-thirds of the depth (2h/3 below the surface), below the average depth h̄.',
     });
     // Oblique view: the dam runs from the front face back along (−d, −d).
     const d = 290;
@@ -428,8 +428,11 @@ export default {
     const mid = (top + base) / 2;
     vdim(svg, 452, top, mid, '\\bar{h}', { side: -1, size: 28 });
     vdim(svg, 892, top, base, 'h', { side: -1, size: 28 });
-    svg.arrow(560, mid, x0 + 2, mid, { color: FORCE, width: 5, head: 20 });
-    lab(svg, 572, mid - 26, '**F**', { size: 28 });
+    // The resultant acts at 2h/3 depth (the centroid of the triangular pressure load), not at h̄.
+    const yF = top + (2 * (base - top)) / 3;
+    svg.arrow(560, yF, x0 + 2, yF, { color: FORCE, width: 5, head: 20 });
+    lab(svg, 572, yF - 26, '**F**', { size: 28 });
+    lab(svg, 572, yF + 34, 'acts at depth 2h/3', { size: 22, anchor: 'start', math: false });
     lab(svg, 600, 380, 'F = \\bar{P}A', { size: 28, anchor: 'start' });
     lab(svg, 740, 380, '\\bar{P} = \\bar{h}\\it{ρg}', { size: 28, anchor: 'start' });
     return svg.render();

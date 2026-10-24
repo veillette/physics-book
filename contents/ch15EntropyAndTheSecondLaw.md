@@ -818,17 +818,21 @@ and its entropy decreases by 950 J/K. How much heat transfer occurs from the roc
 
 **Strategy**
 
-Use $$\Delta S = \frac{Q}{T_{avg}}$$ and solve for Q. Average temperature: $$T_{avg} = \frac{1373 \text{ K} + 313 \text{ K}}{2} = 843 \text{ K}$$.
+The temperature falls by more than a factor of four, so the average-temperature approximation $$\Delta S \approx Q/T_{\text{avg}}$$, which the text recommends only for small temperature changes, is not reliable here. Instead, take the rock's heat capacity $$C$$ to be constant. Then $$\Delta S = C\ln(T_f/T_i)$$ and $$Q = C(T_f - T_i)$$: find $$C$$ from the entropy change, then find $$Q$$.
 
 **Solution**
 
-$$Q = \Delta S \times T_{avg} = (-950 \text{ J/K})(843 \text{ K}) = -8.01 \times 10^{5} \text{ J}$$
+With $$T_i = 1373 \text{ K}$$ and $$T_f = 313 \text{ K}$$,
+
+$$C = \frac{\Delta S}{\ln(T_f/T_i)} = \frac{-950 \text{ J/K}}{\ln(313/1373)} = \frac{-950 \text{ J/K}}{-1.479} = 642 \text{ J/K}$$
+
+$$Q = C(T_f - T_i) = (642 \text{ J/K})(313 \text{ K} - 1373 \text{ K}) = -6.81 \times 10^{5} \text{ J}$$
 
 The negative sign indicates heat leaves the rock.
 
 **Discussion**
 
-The rock releases about 801 kJ as it cools. This uses the average-temperature approximation $$\Delta S \approx Q/T_{\text{avg}}$$, which the text recommends only for small temperature changes; here the temperature falls by more than a factor of four. If the rock's heat capacity $$C$$ is constant, the exact relations are $$\Delta S = C\ln(T_f/T_i)$$ and $$Q = C(T_f - T_i)$$, so $$Q = \Delta S\,(T_f - T_i)/\ln(T_f/T_i) = (-950 \text{ J/K})(-1060 \text{ K})/\ln(313/1373) = -6.81 \times 10^{5} \text{ J}$$: the rock releases 681 kJ, about 15% less than the approximate value. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
+The rock releases about 681 kJ as it cools. The average-temperature approximation would give $$Q \approx \Delta S\,T_{\text{avg}} = (-950 \text{ J/K})(843 \text{ K}) = -8.01 \times 10^{5} \text{ J}$$, about 18% too large, because the rock spends its coldest stretch, where each joule removes the most entropy, below the average temperature. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
 
 :::
 

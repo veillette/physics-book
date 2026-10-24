@@ -1452,7 +1452,7 @@ and the original flow rate was 200 L/min. (c) How many more users are there, ass
 
 **Strategy**
 
-(a) Since resistance is constant, pressure is proportional to flow rate in the hose. (b) We use the pressure drop formula $$\Delta P = RQ$$ for the water main. (c) We calculate how many additional users would account for the increased flow.
+(a) Since resistance is constant, pressure is proportional to flow rate in the hose. (b) We use the pressure drop formula $$\Delta P = RQ$$ for the water main. (c) In the morning each user draws 20.0 L/min, so we count the morning users from the main's flow. In the afternoon the lower pressure gives each user only 8.00 L/min, so we divide the afternoon main flow by that rate.
 
 **Solution**
 
@@ -1494,15 +1494,19 @@ $$Q_{main,2} = 1.90 \times 200 \text{ L/min} = 380 \text{ L/min}$$
 
 **(c) Number of additional users:**
 
-Increase in total consumption:
-$$\Delta Q = 380 \text{ L/min} - 200 \text{ L/min} = 180 \text{ L/min}$$
+In the morning each user draws 20.0 L/min, so the main serves
 
-Each user consumes 20.0 L/min in the morning, so:
-$$\text{Number of additional users} = \frac{180 \text{ L/min}}{20.0 \text{ L/min per user}} = 9 \text{ users}$$
+$$N_1 = \frac{200 \text{ L/min}}{20.0 \text{ L/min per user}} = 10 \text{ users}$$
+
+In the afternoon every user receives the same lower pressure as the house in part (a), so each draws only 8.00 L/min. The 380 L/min in the main is shared by
+
+$$N_2 = \frac{380 \text{ L/min}}{8.00 \text{ L/min per user}} = 47.5 \text{ users}$$
+
+$$\text{Number of additional users} = N_2 - N_1 = 47.5 - 10 \approx 38 \text{ users}$$
 
 **Discussion**
 
-**(a)** The afternoon pressure at the house is **1.20 × 10⁵ Pa**, a 60% reduction from morning levels. **(b)** The water main flow increased by a factor of **1.90**, nearly doubling. **(c)** There are approximately **9 additional users**, each consuming water at the same rate. This problem demonstrates how shared water systems experience pressure drops during peak usage times. The pressure drop in the main is proportional to flow ($$\Delta P = RQ$$), so increased demand causes lower delivery pressure to all users. This is why many people experience reduced water pressure during peak hours (morning showers, evening watering). Water utilities must size mains to handle peak loads while maintaining adequate pressure.
+**(a)** The afternoon pressure at the house is **1.20 × 10⁵ Pa**, a 60% reduction from morning levels. **(b)** The water main flow increased by a factor of **1.90**, nearly doubling. **(c)** There are approximately **38 additional users**. Dividing the extra 180 L/min by the morning rate of 20.0 L/min would give only 9, but that undercounts them, because every user now receives only 8.00 L/min. This problem demonstrates how shared water systems experience pressure drops during peak usage times. The pressure drop in the main is proportional to flow ($$\Delta P = RQ$$), so increased demand causes lower delivery pressure to all users. This is why many people experience reduced water pressure during peak hours (morning showers, evening watering). Water utilities must size mains to handle peak loads while maintaining adequate pressure.
 
 :::
 

@@ -395,6 +395,8 @@ Is energy transfer involved in a phase change? If so, will energy have to be sup
 
 Yes, energy transfer is involved in a phase change. We know that atoms and molecules in solids and liquids are bound to each other because we know that force is required to separate them. So in a phase change from solid to liquid and liquid to gas, a force must be exerted, perhaps by collision, to separate atoms and molecules. Force exerted through a distance is work, and energy is needed to do work to go from solid to liquid and liquid to gas. This is intuitively consistent with the need for energy to melt ice or boil water. The converse is also true. Going from gas to liquid or liquid to solid involves atoms and molecules pushing together, doing work and releasing energy.
 
+That released energy is why growers spray orange trees with water on freezing nights. As the water on the fruit and leaves freezes, it releases its latent heat of fusion, 334 kJ for every kilogram. While liquid water is still freezing on them, the coated fruit stays at about 0 ºC instead of cooling further, and the juice in the fruit, with its dissolved sugars, freezes only below 0 ºC. Spraying must continue through the cold spell, so that freezing water keeps supplying heat.
+
 :::
 
 </div>

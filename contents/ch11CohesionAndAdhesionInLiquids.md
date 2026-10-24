@@ -672,7 +672,7 @@ We need to consider the role of surface tension in the alveoli and how it can dr
 
 **Solution**
 
-The pressure inside the lungs can become positive during exhalation without muscle action due to **surface tension** in the alveoli. The alveoli are small, spherical sacs lined with a thin layer of fluid. According to the pressure equation for a spherical bubble, $$ P = \frac{4\gamma}{r} $$, the pressure inside these fluid-lined sacs is greater than the pressure outside due to surface tension. This surface tension creates an inward force that tends to collapse the alveoli, generating positive pressure inside the lungs that pushes air out.
+The pressure inside the lungs can become positive during exhalation without muscle action due to **surface tension** in the alveoli. The alveoli are small, spherical sacs lined with a thin layer of fluid. Each sac has a single liquid–air surface, so surface tension makes the pressure inside greater than outside by $$ P = \frac{2\gamma}{r} $$. (A soap bubble, with two surfaces, has $$ 4\gamma/r $$.) This surface tension creates an inward force that tends to collapse the alveoli, generating positive pressure inside the lungs that pushes air out.
 
 When the diaphragm and chest muscles relax after inhalation, the elastic recoil of the stretched lung tissue combined with the surface tension in the alveoli creates sufficient pressure to drive exhalation passively. This is why patients on positive-pressure ventilators can exhale on their own even if their respiratory muscles are paralyzed—the surface tension provides the driving force.
 

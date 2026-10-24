@@ -1144,8 +1144,31 @@ fraction supported in $$ 95.0\text{ºC} $$ water.
 
 ::: solution
 
- $$\frac{\left({F}_{\text{B}}/{w}_{\text{Cu}}\right)}{ {\left({F}_{\text{B}}/{w}_{\text{Cu}}\right)}^{\prime }}= 1.02 $$ .
- The buoyant force supports nearly the exact same amount of force on the copper block in both circumstances.
+**Strategy**
+
+For a fully submerged block, the fraction of its weight supported by the buoyant force is $$ F_{\text{B}}/w_{\text{Cu}} = \rho_{\text{water}}/\rho_{\text{Cu}} $$. Heating from 0 ºC to 95.0 ºC divides each density by $$ 1 + \beta\Delta T $$, with $$ \beta_{\text{water}} = 210 \times 10^{-6}/\text{ºC} $$ and $$ \beta_{\text{Cu}} = 51 \times 10^{-6}/\text{ºC} $$ from [[Table 1]](../contents/ch13ThermalExpansionOfSolidsAndLiquids#Table1).
+
+**Solution**
+
+In 0 ºC water, with $$ \rho_{\text{water}} = 1.00 \times 10^{3}\ \text{kg/m}^{3} $$ and $$ \rho_{\text{Cu}} = 8.80 \times 10^{3}\ \text{kg/m}^{3} $$:
+
+$$ \frac{F_{\text{B}}}{w_{\text{Cu}}} = \frac{1.00 \times 10^{3}\ \text{kg/m}^{3}}{8.80 \times 10^{3}\ \text{kg/m}^{3}} = 0.114 $$
+
+In 95.0 ºC water, both densities fall. For the temperature change of 95.0 ºC, the copper's factor is $$ 1 + \beta_{\text{Cu}}\Delta T = 1.0048 $$ and the water's is $$ 1 + \beta_{\text{water}}\Delta T = 1.0200 $$, so
+
+$$ \left(\frac{F_{\text{B}}}{w_{\text{Cu}}}\right)^{\prime} = 0.1136 \times \frac{1.0048}{1.0200} = 0.112 $$
+
+Comparing the two:
+
+$$ \frac{\left(F_{\text{B}}/w_{\text{Cu}}\right)}{\left(F_{\text{B}}/w_{\text{Cu}}\right)^{\prime}} = \frac{0.1136}{0.1119} = 1.02 $$
+
+**Discussion**
+
+The buoyant force supports 11.4% of the block's weight in 0 ºC water and 11.2% in 95.0 ºC water, nearly the same fraction. Water expands more than copper, so the hot water supports slightly less. This uses the 20 ºC expansion coefficient of water for the whole range; water's expansion is not uniform (it is densest near 4 ºC), and measured densities, 999.8 kg/m³ at 0 ºC and 961.9 kg/m³ at 95 ºC, give a somewhat larger difference, about 3%.
+
+**Answer**
+
+11.4% at 0 ºC and 11.2% at 95.0 ºC, a ratio of about 1.02.
 
 :::
 

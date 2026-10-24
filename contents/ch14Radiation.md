@@ -1714,10 +1714,9 @@ For perspective:
 
 1. **Ice is impractical to carry**: The enormous mass makes it infeasible
 2. **Ice availability**: Finding ice in the Arctic might seem easy, but constantly harvesting, storing, and loading 314 kg per gallon is labor-intensive
-3. **Melting doesn't cool efficiently**: Ice at 0ºC melting to water at 0ºC removes heat, but the resulting water at 0ºC then heats up rapidly, reducing cooling effectiveness
-4. **Phase change only**: The calculation assumes ice only melts, not that the resulting water also heats up, which would require even more ice
-5. **Continuous supply needed**: Unlike a radiator that recirculates coolant, ice is consumed and must be constantly replenished
-6. **Storage problems**: 314 kg of ice takes significant space and would begin melting immediately
+3. **Phase change only**: The calculation counts only the latent heat of melting. In a hot engine the meltwater would also warm up, so each kilogram of ice would carry away more energy and somewhat less ice would be needed. Even warming all the meltwater to 100ºC, which adds 419 kJ/kg to the 334 kJ/kg of melting, only cuts the requirement to about 140 kg, still impractical.
+4. **Continuous supply needed**: Unlike a radiator that recirculates coolant, ice is consumed and must be constantly replenished
+5. **Storage problems**: 314 kg of ice takes significant space and would begin melting immediately
 
 **Discussion**
 

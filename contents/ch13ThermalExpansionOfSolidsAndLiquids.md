@@ -839,7 +839,7 @@ Given: $$L = 321 \text{ m}$$, $$\Delta T = 15\text{ºC}$$
 </div>
 
 **Discussion:**
-The Eiffel Tower grows by about 5.8 cm (nearly 2.3 inches) on a warm day. This is a significant amount and must be accounted for in the tower's design. The tower was built with expansion joints and the structure is designed to handle this thermal expansion without damage. Interestingly, the tower also leans slightly toward the sun on hot days because the side facing the sun heats up more and expands more than the shaded side, though this effect is small.
+The Eiffel Tower grows by about 5.8 cm (nearly 2.3 inches) on a warm day. This is a significant amount and must be accounted for in the tower's design. The tower was built with expansion joints and the structure is designed to handle this thermal expansion without damage. Interestingly, the tower also bends slightly away from the sun on sunny days: the side facing the sun heats up and expands more than the shaded side, so the top tilts toward the shade. This effect is small.
 
 :::
 
