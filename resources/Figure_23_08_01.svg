@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="380" viewBox="0 0 560 380" role="img" aria-labelledby="title desc">
 <title id="title">A simple AC circuit</title>
 <desc id="desc">An AC voltage source V connected across a single resistance R, with no safety features.</desc>
+<style>
+.motion{opacity:0}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}}
+</style>
 <rect width="560" height="380" fill="#ffffff"/>
 <polyline points="100,40 460,40 460,340 100,340 100,40" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
 <line x1="100" y1="162" x2="100" y2="218" stroke="#ffffff" stroke-width="8"/>
@@ -14,4 +19,5 @@
 <line x1="460" y1="235" x2="460" y2="235" stroke="#222222" stroke-width="2"/>
 <polyline points="460,145 444,152.5 476,167.5 444,182.5 476,197.5 444,212.5 476,227.5 460,235" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
 <text x="484" y="201.2" font-family="'Times New Roman', Times, serif" font-size="32" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan></text>
+<g class="motion" opacity="0" aria-hidden="true"><polyline points="100,162 100,40 460,40 460,145" fill="none" stroke="#1f77c8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 30"><animate attributeName="stroke-dashoffset" dur="2.4s" repeatCount="indefinite" calcMode="linear" values="0;4.6587;9;12.7279;15.5885;17.3867;18;17.3867;15.5885;12.7279;9;4.6587;0;-4.6587;-9;-12.7279;-15.5885;-17.3867;-18;-17.3867;-15.5885;-12.7279;-9;-4.6587;0"/></polyline><polyline points="460,235 460,340 100,340 100,218" fill="none" stroke="#1f77c8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 30"><animate attributeName="stroke-dashoffset" dur="2.4s" repeatCount="indefinite" calcMode="linear" values="0;4.6587;9;12.7279;15.5885;17.3867;18;17.3867;15.5885;12.7279;9;4.6587;0;-4.6587;-9;-12.7279;-15.5885;-17.3867;-18;-17.3867;-15.5885;-12.7279;-9;-4.6587;0"/></polyline></g>
 </svg>
