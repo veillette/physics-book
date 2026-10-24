@@ -10,9 +10,13 @@
  * dome under them agree.
  *
  * Molecules, beakers, gauges, and thermometers are exported for chapters 14
- * and 15.
+ * and 15, with `bouncing` molecules for animations.
+ *
+ * For readers who allow motion, the bimetallic strip bends, the plate, hole
+ * and box expand, a molecule bounces off a wall, the gas molecules of 13.4
+ * Fig. 3 fly about, and the speed distribution warms from T₁ to T₂.
  */
-import { COLORS, Plot, Svg, fmt, smoothPath } from './svg.js';
+import { COLORS, Plot, Svg, fmt, morph, smilList, smoothPath } from './svg.js';
 
 export const CURVE = '#c8102e';
 export const GLASS = '#7cc6ea';
@@ -80,6 +84,86 @@ export function movingMolecules(svg, list, { r = 7, color = ARROW } = {}) {
     if (vx || vy) svg.arrow(x, y, x + vx, y + vy, { color, width: 1.6, head: 9 });
   }
   for (const [x, y] of list) molecule(svg, x, y, r);
+}
+
+/**
+ * Markup for molecules that fly freely and bounce off the walls of the box
+ * [x0, y0, x1, y1], for a motion overlay. Each speed component is rounded to
+ * a whole number of wall-to-wall round trips in `period` seconds, so the
+ * motion repeats exactly; a molecule moves `rate` pixels per second for each
+ * pixel of its velocity arrow. Returns the molecules with the rounded
+ * velocities, for a still that matches the start of the motion.
+ */
+export function bouncing(list, [x0, y0, x1, y1], { period = 16, rate = 2.2, r = 7 } = {}) {
+  const span = [x1 - x0 - 2 * r, y1 - y0 - 2 * r];
+  const unit = span.map(w => (2 * w) / period);
+  const round = (v, u) => Math.sign(v || 1) * u * Math.max(1, Math.round(Math.abs(v * rate) / u));
+  return list.map(([x, y, vx, vy]) => {
+    const [ux, uy] = [round(vx, unit[0]), round(vy, unit[1])];
+    return [x, y, ux / rate, uy / rate];
+  });
+}
+
+/** SMIL for the molecules of `bouncing`, each with its velocity arrow. */
+export function bouncingMarkup(
+  svg,
+  list,
+  [x0, y0, x1, y1],
+  {
+    period = 16,
+    rate = 2.2,
+    r = 7,
+    hold = 0,
+    ball = () => molecule(svg, 0, 0, r),
+    arrow = { color: ARROW, width: 1.6, head: 9 },
+  } = {}
+) {
+  const lo = [x0 + r, y0 + r];
+  const hi = [x1 - r, y1 - r];
+  // Position along one axis after time t: a triangle wave between the walls.
+  const fold = (p, v, t, i) => {
+    const w = hi[i] - lo[i];
+    const u = (((p - lo[i] + v * t) % (2 * w)) + 2 * w) % (2 * w);
+    return lo[i] + (u <= w ? u : 2 * w - u);
+  };
+  const dir = (p, v, t, i) => {
+    const w = hi[i] - lo[i];
+    const u = (((p - lo[i] + v * t) % (2 * w)) + 2 * w) % (2 * w);
+    return (u < w ? 1 : -1) * Math.sign(v);
+  };
+  const out = [];
+  for (const [x, y, ax, ay] of list) {
+    const v = [ax * rate, ay * rate];
+    const p = [x, y];
+    // Times when either component hits a wall, after `hold` seconds at rest.
+    const run = period - hold;
+    const events = new Set([0, run]);
+    for (const i of [0, 1]) {
+      const w = hi[i] - lo[i];
+      const first = v[i] > 0 ? (hi[i] - p[i]) / v[i] : (p[i] - lo[i]) / -v[i];
+      for (let t = first; t < run - 1e-6; t += w / Math.abs(v[i])) events.add(t);
+    }
+    const times = [...events].sort((a, b) => a - b);
+    const move = times
+      .map(t => `${fmt(fold(x, v[0], t, 0) - x)} ${fmt(fold(y, v[1], t, 1) - y)}`)
+      .join(';');
+    // The arrow flips with each bounce; a discrete value holds until the next key time.
+    const mid = times.slice(0, -1).map((t, k) => (t + times[k + 1]) / 2);
+    const flips = mid.map(
+      t => `${dir(x, v[0], t, 0) * Math.sign(v[0])} ${dir(y, v[1], t, 1) * Math.sign(v[1])}`
+    );
+    const at = t => (hold + t) / period;
+    const keys = smilList([...(hold ? [0] : []), ...times.map(at)]);
+    const dkeys = smilList([...(hold ? [0] : []), ...times.slice(0, -1).map(at)]);
+    const still = hold ? ['0 0'] : [];
+    const level = hold ? ['1 1'] : [];
+    const shaft = svg.capture(() => svg.arrow(0, 0, ax, ay, arrow));
+    const body = svg.capture(ball);
+    out.push(
+      `<g transform="translate(${fmt(x)} ${fmt(y)})"><g><animateTransform attributeName="transform" type="translate" dur="${period}s" repeatCount="indefinite" calcMode="linear" keyTimes="${keys}" values="${[...still, move].join(';')}"/><g><animateTransform attributeName="transform" type="scale" dur="${period}s" repeatCount="indefinite" calcMode="discrete" keyTimes="${dkeys}" values="${[...level, ...flips].join(';')}"/>${shaft}</g>${body}</g></g>`
+    );
+  }
+  return out.join('');
 }
 
 /**
@@ -355,22 +439,33 @@ export default {
     svg.rect(60, base - L, 20, L, { fill: BLUE, stroke: '#4fb3df', width: 1 });
     svg.rect(80, base - L, 20, L, { fill: YELLOW, stroke: '#e0b42a', width: 1 });
     svg.text(110, base - L * 0.55, 'T_0', { size: 22, anchor: 'start' });
-    // (b) An arc about a center to the right; blue on the outside is longer.
+    // (b) The bond line bends into an arc of radius R about a center to the
+    // right; blue on the outside is longer. For readers who allow motion the
+    // strip warms from straight to bent and cools back.
     const R = 560;
-    const cx = 200 + R;
-    const th = L / R;
-    const P = (r, a) => [cx - r * Math.cos(a), base - r * Math.sin(a)];
-    const band = (r1, r2, fill, stroke) => {
-      const [a1, a2, b2, b1] = [P(r1, 0), P(r1, th), P(r2, th), P(r2, 0)];
-      svg.path(
-        `M ${fmt(a1[0])} ${fmt(a1[1])} A ${r1} ${r1} 0 0 1 ${fmt(a2[0])} ${fmt(a2[1])} L ${fmt(b2[0])} ${fmt(b2[1])} A ${r2} ${r2} 0 0 0 ${fmt(b1[0])} ${fmt(b1[1])} Z`,
-        { color: stroke, width: 1, fill }
-      );
+    // Point at distance s up the bond line and d outward (to the left), for
+    // curvature k = 1/radius.
+    const P = (k, s, d) => {
+      const a = s * k;
+      const [bx, by] = k ? [200 + (1 - Math.cos(a)) / k, base - Math.sin(a) / k] : [200, base - s];
+      return [bx - d * Math.cos(a), by - d * Math.sin(a)];
     };
-    band(R + 20, R, BLUE, '#4fb3df');
-    band(R, R - 20, YELLOW, '#e0b42a');
-    const [lx, ly] = P(R - 20, th * 0.55);
-    svg.text(lx + 14, ly, 'T > T_0', { size: 22, anchor: 'start' });
+    const band = (k, d1, d2, fill, stroke) => {
+      const side = d => Array.from({ length: 61 }, (_, i) => P(k, (L * i) / 60, d));
+      svg.polygon([...side(d1), ...side(d2).reverse()], { fill, stroke, width: 1 });
+    };
+    svg.animated(
+      (k, moving) => {
+        band(k, 20, 0, BLUE, '#4fb3df');
+        band(k, 0, -20, YELLOW, '#e0b42a');
+        const [lx, ly] = P(k, L * 0.55, -20);
+        svg.add(`<g opacity="${moving ? fmt(k * R) : 1}">`);
+        svg.text(lx + 14, ly, 'T > T_0', { size: 22, anchor: 'start' });
+        svg.add('</g>');
+      },
+      [1 / R, 1 / R, 1e-9, 1e-9, 1 / R],
+      { dur: '7s', keyTimes: [0, 0.2, 0.5, 0.7, 1] }
+    );
     caption(svg, 80, base + 34, '(a)');
     caption(svg, 210, base + 34, '(b)');
     return svg.render();
@@ -610,27 +705,44 @@ export default {
     // Every length grows by the same factor, the plug and the hole included.
     const s = 1.1;
     const dashed = { color: EXPAND, width: 2, dash: '6 4' };
-    const plate = (cx, hole) => {
-      const [h, c, r] = [210, 130, 46];
-      svg.rect(cx - h / 2, c - h / 2, h, h, { fill: WATER, stroke: GLASS, width: 2.5 });
-      svg.circle(cx, c, r, { fill: hole ? '#ffffff' : WATER, stroke: GLASS, width: 2.5 });
+    // For readers who allow motion, the solid outlines grow out to the dashed
+    // ones as the objects warm, and shrink back as they cool.
+    const [h, c, r] = [210, 130, 46];
+    const plate = (cx, hole, k) => {
+      svg.rect(cx - (h * k) / 2, c - (h * k) / 2, h * k, h * k, {
+        fill: WATER,
+        stroke: GLASS,
+        width: 2.5,
+      });
+      svg.circle(cx, c, r * k, { fill: hole ? '#ffffff' : WATER, stroke: GLASS, width: 2.5 });
+    };
+    const outline = cx => {
       svg.circle(cx, c, r * s, { fill: 'none', stroke: EXPAND, width: 2 });
       svg.items[svg.items.length - 1] = svg.items.at(-1).replace('/>', ' stroke-dasharray="6 4"/>');
       const H = (h * s) / 2;
       svg.path(`M ${cx - H} ${c - H} H ${cx + H} V ${c + H} H ${cx - H} Z`, dashed);
     };
-    plate(130, false);
-    plate(395, true);
     // (c) A box, solid, and the same box scaled about its center, dashed.
     const box = (k, opts) => {
-      const [w, h, d] = [140 * k, 140 * k, 110 * k];
+      const [w, hb, d] = [140 * k, 140 * k, 110 * k];
       const cx = 660;
       const cy = 140;
       const dx = d * Math.cos((40 * Math.PI) / 180);
       const dy = d * Math.sin((40 * Math.PI) / 180);
-      obliqueBox(svg, cx - (w + dx) / 2, cy + (h + dy) / 2, w, h, d, opts);
+      obliqueBox(svg, cx - (w + dx) / 2, cy + (hb + dy) / 2, w, hb, d, opts);
     };
-    box(1, { stroke: GLASS, width: 2.5 });
+    // The box grows by 1.12 while the plates grow by 1.1.
+    svg.animated(
+      f => {
+        plate(130, false, 1 + (s - 1) * f);
+        plate(395, true, 1 + (s - 1) * f);
+        box(1 + 0.12 * f, { stroke: GLASS, width: 2.5 });
+      },
+      [0, 0, 1, 1, 0],
+      { dur: '6s', keyTimes: [0, 0.15, 0.5, 0.65, 1] }
+    );
+    outline(130);
+    outline(395);
     box(1.12, { stroke: EXPAND, width: 2, dash: '6 4' });
     caption(svg, 130, 282, '(a)');
     caption(svg, 395, 282, '(b)');
@@ -894,6 +1006,23 @@ export default {
     svg.text(...add(P(add(I, vOut, 0.4)), [-6, -20]), '**v**′', { size: 22 });
     const fp = P(add(I, [-0.35, 0.42, 0.03]));
     svg.text(fp[0] + 6, fp[1] - 22, '**F**', { size: 22 });
+    // For readers who allow motion, a molecule arrives along v, bounces off
+    // the wall and leaves along v′, pushing on the wall while it is in contact.
+    const frames = [];
+    for (let k = -12; k <= 10; k += 1) frames.push(k / 10);
+    svg.animatedOnce(
+      (t, moving, shown) => {
+        const at = P(t < 0 ? add(I, vIn, t * 1.25) : add(I, vOut, t * 1.25));
+        svg.add(`<g opacity="${shown}">`);
+        svg.add(`<g opacity="${fmt(Math.max(0, 1 - Math.abs(t) / 0.25))}">`);
+        svg.circle(...P(I), 16, { fill: '#ffd54f' });
+        svg.add('</g>');
+        molecule(svg, ...at, 9);
+        svg.add('</g>');
+      },
+      frames,
+      { run: 2.4, hold: 0.3, still: null }
+    );
     return svg.render();
   },
 
@@ -1013,13 +1142,21 @@ export default {
     const GAS = '#cfe39a';
     const box = [10, 10, 310, 300];
     svg.rect(...box, { fill: GAS, stroke: '#3fa38a', width: 2 });
-    movingMolecules(
-      svg,
+    // (a) For readers who allow motion the molecules fly about and bounce
+    // off the walls; the still shows where they start.
+    const walls = [10, 10, 320, 310];
+    const gas = bouncing(
       within(
         scatter(34, [30, 30, 270, 260], { seed: 3, gap: 38, vmin: 22, vmax: 70 }),
         [18, 18, 312, 302]
-      )
+      ),
+      walls
     );
+    svg.still(() => movingMolecules(svg, gas));
+    svg.add(
+      '<defs><clipPath id="gas_13_04_03"><rect x="11" y="11" width="308" height="298"/></clipPath></defs>'
+    );
+    svg.motionGroup(`<g clip-path="url(#gas_13_04_03)">${bouncingMarkup(svg, gas, walls)}</g>`);
     const bx = 380;
     svg.rect(bx, 10, 310, 300, { fill: GAS, stroke: '#3fa38a', width: 2 });
     // The compression: a band along a circle centered far to the left.
@@ -1147,6 +1284,22 @@ export default {
     svg.text(g.X(v1) + 30, g.Y(maxwell(v1)(v1)) - 10, 'T_1', { size: 22, anchor: 'start' });
     svg.text(g.X(v2) + 40, g.Y(maxwell(v2)(v2)) - 10, 'T_2', { size: 22, anchor: 'start' });
     svg.text(g.X(1000), g.Y(3.2e-3), 'T_2 > T_1', { size: 22 });
+    // For readers who allow motion, a third curve warms from T₁ to T₂ and
+    // cools back, its peak sliding right and down as it spreads.
+    const frames = [];
+    for (let k = 0; k <= 32; k += 1)
+      frames.push(v1 + ((v2 - v1) * (1 - Math.cos((Math.PI * k) / 16))) / 2);
+    svg.motionGroup(
+      morph(
+        frames.map(vp =>
+          svg.capture(() => {
+            g.fn(maxwell(vp), 0, 1290, { color: PURPLE, width: 3, n: 80 });
+            svg.circle(g.X(vp), g.Y(maxwell(vp)(vp)), 6, { fill: PURPLE });
+          })
+        ),
+        { dur: '6s' }
+      )
+    );
     return svg.render();
   },
 

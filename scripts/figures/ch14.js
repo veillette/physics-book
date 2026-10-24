@@ -9,9 +9,11 @@
  *
  * The wavy heat arrow (`heatArrow`), the sofa, and the cylinder are exported
  * for chapter 15.
+ *
+ * For readers who allow motion, the convection loops of 14.6 circulate.
  */
 import { CURVE, GLASS, WATER, flame, molecule, rng, thermometer } from './ch13.js';
-import { COLORS, Plot, Svg, fmt } from './svg.js';
+import { COLORS, Plot, Svg, fmt, marching, spinning } from './svg.js';
 
 const ARROW = COLORS.black;
 const COLD = '#2f7fc1';
@@ -1253,20 +1255,25 @@ export default {
     flame(svg, 135, 640, 1.05, { burner: false });
     svg.rect(110, 640, 50, 5, { fill: '#fff7d6' });
     // The convection loop: red while hot, blue once cooled.
+    // For readers who allow motion, the dashes march around the loop.
     const red = { color: '#a3122a', width: 3.5, head: 15, dash: '22 12' };
     const blue = { color: '#5b84bd', width: 3.5, head: 15, dash: '22 12' };
-    bend(svg, [110, 510], [110, 260], [190, 255], red);
-    bend(svg, [140, 510], [140, 300], [200, 292], red);
-    svg.arrow(230, 255, 640, 255, red);
-    svg.arrow(240, 292, 560, 292, red);
-    bend(svg, [640, 255], [700, 255], [710, 310], red);
-    bend(svg, [560, 292], [620, 292], [640, 360], blue);
-    svg.arrow(710, 320, 710, 590, blue);
-    svg.arrow(640, 370, 640, 550, blue);
-    bend(svg, [710, 590], [710, 650], [620, 650], blue);
-    bend(svg, [640, 560], [640, 610], [560, 615], blue);
-    svg.arrow(610, 650, 200, 625, blue);
-    svg.arrow(545, 615, 230, 600, blue);
+    const loop = svg.capture(() => {
+      bend(svg, [110, 510], [110, 260], [190, 255], red);
+      bend(svg, [140, 510], [140, 300], [200, 292], red);
+      svg.arrow(230, 255, 640, 255, red);
+      svg.arrow(240, 292, 560, 292, red);
+      bend(svg, [640, 255], [700, 255], [710, 310], red);
+      bend(svg, [560, 292], [620, 292], [640, 360], blue);
+      svg.arrow(710, 320, 710, 590, blue);
+      svg.arrow(640, 370, 640, 550, blue);
+      bend(svg, [710, 590], [710, 650], [620, 650], blue);
+      bend(svg, [640, 560], [640, 610], [560, 615], blue);
+      svg.arrow(610, 650, 200, 625, blue);
+      svg.arrow(545, 615, 230, 600, blue);
+    });
+    svg.still(() => svg.add(loop));
+    svg.motionGroup(marching(loop, { dur: '0.8s' }));
     svg.rect(176, 330, 105, 66, { fill: '#e8d6a8' });
     notes(svg, 180, 345, ['Hot air', 'rises'], { anchor: 'start', size: 30, gap: 34 });
     notes(svg, 730, 420, ['Air cooled', 'by room', 'sinks'], {
@@ -1350,6 +1357,20 @@ export default {
     };
     loop(290, 420, 1);
     loop(540, 420, -1);
+    // For readers who allow motion, parcels of water ride the loops: up the
+    // hot middle, out under the surface, and down the cooler sides.
+    for (const [cx, ccw] of [
+      [290, true],
+      [540, false],
+    ]) {
+      const dots = svg.capture(() => {
+        for (let k = 0; k < 8; k += 1) {
+          const a = (2 * Math.PI * (k + 0.5)) / 8;
+          svg.circle(cx + 105 * Math.cos(a), 420 + 105 * Math.sin(a), 6, { fill: '#1f6fb5' });
+        }
+      });
+      svg.motionGroup(spinning(dots, cx, 420, { dur: '7s', ccw }));
+    }
     for (const [x, y] of [
       [240, 300],
       [180, 360],
@@ -1403,6 +1424,9 @@ export default {
         // Counterclockwise: leftward across the top, rightward across the bottom.
         svg.arrow(x + 5, y - 18, x - 7, y - 17, { color: ARROW, width: 1.6, head: 9 });
         svg.arrow(x - 5, y + 18, x + 7, y + 17, { color: ARROW, width: 1.6, head: 9 });
+        // For readers who allow motion, a parcel of air circles each loop.
+        const dot = svg.capture(() => svg.circle(x - 18, y, 4.5, { fill: '#fff4e0' }));
+        svg.motionGroup(spinning(dot, x, y, { dur: `${2.6 + 0.2 * ((i + j) % 3)}s`, ccw: true }));
       }
     }
     notes(svg, 75, 470, ['Air', '(cold)'], { size: 32, gap: 38 });

@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="660" viewBox="0 0 760 660" role="img" aria-labelledby="title desc">
 <title id="title">Cycle on a PV diagram with values</title>
 <desc id="desc">A PV diagram with pressure in units of 10⁶ N/m² and volume in 10⁻³ m³. A is at (1.0, 2.6), B at (4.0, 2.0), C at (4.0, 0.6), and D at (1.0, 1.0). Straight lines join A to B, B to C, C to D, and D to A; a green line joins D to B.</desc>
+<style>
+.motion{opacity:0}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}}
+</style>
 <rect width="760" height="660" fill="#ffffff"/>
 <line x1="190" y1="540" x2="703" y2="540" stroke="#222222" stroke-width="3"/>
 <polygon points="720,540 702,547.2 702,532.8" fill="#222222"/>
@@ -42,6 +47,7 @@
 <text x="672.17" y="469.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">C</tspan></text>
 <circle cx="303.04" cy="406.67" r="8" fill="#222222"/>
 <text x="273.04" y="389.77" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">D</tspan></text>
+<g class="motion" opacity="0" aria-hidden="true"><circle cx="303.04" cy="193.33" r="9" fill="#e0155d" stroke="#ffffff" stroke-width="2"><animate attributeName="cx" dur="5.6s" repeatCount="indefinite" calcMode="linear" values="303.0435;303.0435;642.1739;642.1739;303.0435;303.0435" keyTimes="0;0.1071;0.3921;0.5448;0.8255;1"/><animate attributeName="cy" dur="5.6s" repeatCount="indefinite" calcMode="linear" values="193.3333;193.3333;273.3333;460;406.6667;193.3333" keyTimes="0;0.1071;0.3921;0.5448;0.8255;1"/></circle></g>
 <text x="180" y="31.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
 <text x="120" y="68.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(10</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">6</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">N</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">m</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal">)</tspan></text>
 <text x="590" y="648.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> (10</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−3</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">3</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal">)</tspan></text>

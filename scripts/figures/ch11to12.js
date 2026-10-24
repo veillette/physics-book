@@ -9,8 +9,12 @@
  * flow rate Av fixed, the viscous velocity profile is parabolic, and the
  * flow around a slowly moving sphere uses a qualitative, symmetric
  * streamline sketch. The higher-speed panels show separation and a wake.
+ *
+ * For readers who allow motion, the fluid in 12.1 Fig. 2 flows at the speed
+ * continuity gives, dye lines shear across the layers of 12.4 Figs. 3 and 5,
+ * and the random walk of 12.7 Fig. 1 is taken step by step.
  */
-import { COLORS, Svg, fmt, rad } from './svg.js';
+import { COLORS, Svg, fmt, morph, rad, smilAnimate } from './svg.js';
 
 const WATER = '#c7e3f3';
 const WATER_EDGE = '#7fb6d6';
@@ -1202,32 +1206,116 @@ export default {
     const R1 = 70;
     const R2 = 40;
     const yc = 110;
+    const radius = x => {
+      const t = Math.max(0, Math.min(1, (x - 360) / 80));
+      return R1 + (R2 - R1) * (0.5 - 0.5 * Math.cos(Math.PI * t));
+    };
     // Tube outline.
     const top = [];
     const bot = [];
     for (let x = 30; x <= 800; x += 4) {
-      const t = Math.max(0, Math.min(1, (x - 360) / 80));
-      const r = R1 + (R2 - R1) * (0.5 - 0.5 * Math.cos(Math.PI * t));
-      top.push([x, yc - r]);
-      bot.push([x, yc + r]);
+      top.push([x, yc - radius(x)]);
+      bot.push([x, yc + radius(x)]);
     }
-    svg.polygon([...top, ...bot.reverse()], { fill: '#eee6f3', stroke: '#8d7ca0', width: 1.5 });
+    const outline = [...top, ...bot.reverse()];
+    svg.polygon(outline, { fill: '#eee6f3', stroke: '#8d7ca0', width: 1.5 });
+    svg.add(
+      `<defs><clipPath id="tube_12_01_02"><polygon points="${outline.map(p => p.map(fmt).join(',')).join(' ')}"/></clipPath></defs>`
+    );
+    // The fluid moves at dx/dt = v1(R1/r)², so the flow rate Av is the same
+    // at every x. tau(x) is the time to reach x, and X its inverse.
+    const v1 = 60;
+    const grid = [];
+    let tau = 0;
+    for (let x = -400; x <= 2400; x += 1) {
+      grid.push([x, tau]);
+      tau += 1 / (v1 * (R1 / radius(x + 0.5)) ** 2);
+    }
+    const tauAt = x => {
+      const k = Math.floor(x) + 400;
+      return grid[k][1] + (x - grid[k][0]) * (grid[k + 1][1] - grid[k][1]);
+    };
+    const X = t => {
+      let lo = 0;
+      let hi = grid.length - 1;
+      while (hi - lo > 1) {
+        const mid = (lo + hi) >> 1;
+        if (grid[mid][1] <= t) lo = mid;
+        else hi = mid;
+      }
+      return grid[lo][0] + (t - grid[lo][1]) / (grid[hi][1] - grid[lo][1]);
+    };
     const len1 = 90;
     // Equal volumes: A1·len1 = A2·len2.
     const len2 = len1 * (R1 / R2) ** 2;
-    svg.add(
-      `<rect x="110" y="${yc - R1}" width="${len1}" height="${2 * R1}" fill="#9b86b4" fill-opacity="0.5"/>`
+    // In one period the volume at point 1 moves to where the one at point 2
+    // was, so parcels a period apart make a seamless loop.
+    const period = tauAt(500) - tauAt(110);
+    const parcel = (xb, xf) => {
+      const m = 10;
+      const edge = [];
+      for (let i = 0; i <= m; i += 1) edge.push(xb + ((xf - xb) * i) / m);
+      return [
+        ...edge.map(x => [x, yc - radius(x)]),
+        ...edge.reverse().map(x => [x, yc + radius(x)]),
+      ];
+    };
+    const steps = 32;
+    const times = [];
+    for (let i = 0; i <= steps; i += 1) times.push((period * i) / steps);
+    svg.animated(
+      (t, moving) => {
+        if (!moving) {
+          // The still: equal volumes at points 1 and 2.
+          svg.add(
+            `<rect x="110" y="${yc - R1}" width="${len1}" height="${2 * R1}" fill="#9b86b4" fill-opacity="0.5"/>`
+          );
+          svg.add(
+            `<rect x="500" y="${yc - R2}" width="${len2}" height="${2 * R2}" fill="#9b86b4" fill-opacity="0.5"/>`
+          );
+          ring(svg, 110, yc, R1, { opacity: 0.5 });
+          ring(svg, 500, yc, R2, { opacity: 0.5 });
+          return;
+        }
+        svg.add('<g clip-path="url(#tube_12_01_02)">');
+        for (const k of [-1, 0, 1]) {
+          const t0 = k * period + t;
+          const xb = X(tauAt(110) + t0);
+          const xf = X(tauAt(110 + len1) + t0);
+          svg.polygon(parcel(xb, xf), { fill: '#9b86b4', opacity: 0.5 });
+          ring(svg, fmt(xb), yc, Number(fmt(radius(xb))), { opacity: 0.5 });
+        }
+        svg.add('</g>');
+      },
+      times,
+      { dur: `${fmt(period)}s` }
     );
-    svg.add(
-      `<rect x="500" y="${yc - R2}" width="${len2}" height="${2 * R2}" fill="#9b86b4" fill-opacity="0.5"/>`
-    );
-    ring(svg, 110, yc, R1, { opacity: 0.5 });
-    ring(svg, 500, yc, R2, { opacity: 0.5 });
     // Streamlines follow the tube's shape.
-    for (const f of [-0.6, 0, 0.6]) {
+    const lanes = [-0.6, 0, 0.6];
+    for (const f of lanes) {
       const pts = top.map(([x, y]) => [x, yc + f * (yc - y)]);
       streamline(svg, pts, { at: [0.22, 0.85] });
     }
+    // Tracer particles a fixed time apart ride the streamlines; each reaches
+    // the next one's place after one period.
+    const gap = period / 5;
+    const starts = [];
+    for (let j = -6; tauAt(30) + j * gap < tauAt(800); j += 1) starts.push(tauAt(30) + j * gap);
+    svg.motionGroup(
+      `<g clip-path="url(#tube_12_01_02)">${morph(
+        times.map(t =>
+          svg.capture(() => {
+            for (const f of lanes) {
+              starts.forEach(s => {
+                const x = X(s + t);
+                svg.circle(x, yc + f * radius(x), 4.5, { fill: '#0d5f69' });
+              });
+            }
+          })
+        ),
+        { dur: `${fmt(period)}s` }
+      )}</g>`
+    );
     svg.arrow(260, yc - 22, 320, yc - 22, { color: GREEN, width: 3.5, head: 14 });
     lab(svg, 330, yc - 22, 'v_1', { anchor: 'start', size: 21 });
     svg.arrow(510, yc - 14, 510 + 60 * (R1 / R2) ** 2, yc - 14, {
@@ -1571,6 +1659,26 @@ export default {
       ],
       { fill: '#9fb4a0', stroke: '#4f6a50', width: 1.5 }
     );
+    // A dye line drawn straight up through the fluid shears over: each layer
+    // moves at a speed proportional to its height above the fixed plate.
+    const dyeTop = yTop;
+    const dyeBot = yBot + 14;
+    const marks = [];
+    for (let k = 0; k <= n; k += 1) {
+      const y = k === 0 ? dyeTop : k === n ? dyeBot : yTop + ((k - 0.5) * (yBot - yTop)) / n;
+      marks.push([x0 + ts + 20, y, (dyeBot - y) / (dyeBot - dyeTop)]);
+    }
+    svg.animatedOnce(
+      (s, moving, shown) => {
+        const pts = marks.map(([x, y, f]) => [x + 230 * f * s, y]);
+        svg.add(`<g opacity="${shown}">`);
+        svg.polyline(pts, { color: COLORS.maroon, width: 3 });
+        for (const p of pts) svg.circle(...p, 4, { fill: COLORS.maroon });
+        svg.add('</g>');
+      },
+      [0, 1],
+      { run: 4, still: null }
+    );
     svg.arrow(x0 + ts - 90, yTop - 26, x0 + ts + 20, yTop - 26, {
       color: FORCE,
       width: 5,
@@ -1602,6 +1710,22 @@ export default {
       const v = 1 - (k / 4.6) ** 2;
       svg.arrow(330, y, 330 + 120 * v + 2, y, { color: FLOW, width: 2.5, head: 12 });
     }
+    // A dye line across the tube stretches into the parabola of the
+    // velocity profile as the flow carries it along.
+    svg.animatedOnce(
+      (s, moving, shown) => {
+        const pts = [];
+        for (let k = -20; k <= 20; k += 1) {
+          const y = yc + (k / 20) * (R - 3);
+          pts.push([150 + 380 * s * (1 - (k / 20) ** 2), y]);
+        }
+        svg.add(`<g opacity="${shown}">`);
+        svg.polyline(pts, { color: COLORS.maroon, width: 3.5 });
+        svg.add('</g>');
+      },
+      [0, 1],
+      { run: 4, still: null }
+    );
     svg.arrow(330, yc + 10, 470, yc + 10, { color: FORCE, width: 5, head: 20 });
     lab(svg, 390, yc - 10, 'Q');
     svg.circle(90, yc + 30, 5, { fill: COLORS.black });
@@ -1894,9 +2018,10 @@ export default {
       pts.push([nx, ny]);
     }
     pts.push([300, 440]);
-    for (let k = 0; k < pts.length - 1; k += 1) {
+    const [S, F] = [pts[0], pts.at(-1)];
+    const step = (k, line = true) => {
       const [a, b] = [pts[k], pts[k + 1]];
-      svg.line(...a, ...b, { color: COLORS.black, width: 2 });
+      if (line) svg.line(...a, ...b, { color: COLORS.black, width: 2 });
       const m = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
       const L = Math.hypot(b[0] - a[0], b[1] - a[1]);
       svg.arrow(
@@ -1910,14 +2035,61 @@ export default {
           head: 14,
         }
       );
-    }
-    const [S, F] = [pts[0], pts.at(-1)];
-    svg.line(...S, ...F, { color: COLORS.black, width: 1.6, dash: '6 4' });
+    };
+    svg.still(() => {
+      for (let k = 0; k < pts.length - 1; k += 1) step(k);
+      svg.line(...S, ...F, { color: COLORS.black, width: 1.6, dash: '6 4' });
+      svg.circle(...F, 8, { fill: COLORS.maroon });
+      note(svg, F[0] - 14, F[1] + 26, 'Finish', { anchor: 'end', size: 24 });
+      lab(svg, (S[0] + F[0]) / 2, (S[1] + F[1]) / 2 + 26, 'x');
+    });
+    // The molecule walks the path at a steady speed, each step appearing as
+    // it is taken, while the dashed net displacement x follows it from Start.
+    const along = [0];
+    for (let k = 1; k < pts.length; k += 1)
+      along.push(along[k - 1] + Math.hypot(pts[k][0] - pts[k - 1][0], pts[k][1] - pts[k - 1][1]));
+    const total = along.at(-1);
+    const [hold, run, rest, fade] = [0.6, 9, 2, 0.5];
+    const T = hold + run + rest + fade;
+    const at = d => (hold + (run * d) / total) / T;
+    const keyTimes = [0, ...along.map(at), (T - fade) / T, 1];
+    const hold3 = v => [v[0], ...v, v.at(-1), v.at(-1)];
+    const opt = { dur: `${fmt(T)}s`, keyTimes };
+    const xs = hold3(pts.map(p => p[0]));
+    const ys = hold3(pts.map(p => p[1]));
+    const fadeOut = smilAnimate('opacity', [1, 1, 0], {
+      dur: `${fmt(T)}s`,
+      keyTimes: [0, (T - fade) / T, 1],
+    });
+    const shown = d => {
+      const t = at(d);
+      return smilAnimate('opacity', [0, 0, 1, 1], {
+        dur: `${fmt(T)}s`,
+        keyTimes: [0, t, t + 0.0001, 1],
+      });
+    };
+    const steps = [];
+    for (let k = 0; k < pts.length - 1; k += 1)
+      steps.push(
+        `<g opacity="0">${shown((along[k] + along[k + 1]) / 2)}${svg.capture(() => step(k, false))}</g>`
+      );
+    const finish = `<g opacity="0">${shown(total)}${svg.capture(() => {
+      note(svg, F[0] - 14, F[1] + 26, 'Finish', { anchor: 'end', size: 24 });
+      lab(svg, (S[0] + F[0]) / 2, (S[1] + F[1]) / 2 + 26, 'x');
+    })}</g>`;
+    // Each line grows from its start to its end while the molecule is on it.
+    const grow = pts.slice(0, -1).map((a, k) => {
+      const b = pts[k + 1];
+      const t0 = at(along[k]);
+      const t1 = at(along[k + 1]);
+      const o = { dur: `${fmt(T)}s`, keyTimes: [0, t0, t1, 1] };
+      return `<line x1="${fmt(a[0])}" y1="${fmt(a[1])}" x2="${fmt(a[0])}" y2="${fmt(a[1])}" stroke="${COLORS.black}" stroke-width="2">${smilAnimate('x2', [a[0], a[0], b[0], b[0]], o)}${smilAnimate('y2', [a[1], a[1], b[1], b[1]], o)}</line>`;
+    });
+    svg.motionGroup(
+      `<g>${fadeOut}${grow.join('')}${steps.join('')}<line x1="${fmt(S[0])}" y1="${fmt(S[1])}" x2="${fmt(S[0])}" y2="${fmt(S[1])}" stroke="${COLORS.black}" stroke-width="1.6" stroke-dasharray="6 4">${smilAnimate('x2', xs, opt)}${smilAnimate('y2', ys, opt)}</line><circle cx="${fmt(S[0])}" cy="${fmt(S[1])}" r="8" fill="${COLORS.maroon}">${smilAnimate('cx', xs, opt)}${smilAnimate('cy', ys, opt)}</circle>${finish}</g>`
+    );
     svg.circle(...S, 8, { fill: COLORS.maroon });
-    svg.circle(...F, 8, { fill: COLORS.maroon });
     note(svg, S[0] + 14, S[1] + 4, 'Start', { anchor: 'start', size: 24 });
-    note(svg, F[0] - 14, F[1] + 26, 'Finish', { anchor: 'end', size: 24 });
-    lab(svg, (S[0] + F[0]) / 2, (S[1] + F[1]) / 2 + 26, 'x');
     return svg.render();
   },
 

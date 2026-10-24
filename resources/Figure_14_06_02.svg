@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="780" viewBox="0 0 820 780" role="img" aria-labelledby="title desc">
 <title id="title">Convection in a pot of water</title>
 <desc id="desc">A pot of water on a gas burner, its front cut away. Water heated at the bottom rises up the middle and sinks along the cooler sides, forming two circulating loops. A few bubbles are in the water.</desc>
+<style>
+.motion{opacity:0}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}}
+</style>
 <rect width="820" height="780" fill="#ffffff"/>
 <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a8c8f"/><stop offset="0.25" stop-color="#c7c8ca"/><stop offset="0.6" stop-color="#e6e7e8"/><stop offset="1" stop-color="#8a8c8f"/></linearGradient></defs>
 <ellipse cx="410" cy="690" rx="330" ry="50" fill="#9a9c9f" stroke="#555555" stroke-width="2"/>
@@ -52,6 +57,8 @@
 <polyline points="638.67,384.09 641.1,391.65 642.95,399.37 644.22,407.2 644.89,415.11 644.96,423.05 644.42,430.98 643.3,438.83 641.58,446.59 639.28,454.18 636.41,461.59 632.99,468.75 629.05,475.64 624.59,482.21 619.64,488.42 614.25,494.25 608.42,499.64 602.21,504.59 595.64,509.05 588.75,512.99 581.59,516.41 574.18,519.28 566.59,521.58 558.83,523.3 550.98,524.42 543.05,524.96 535.11,524.89 527.2,524.22 519.37,522.95" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
 <line x1="519.37" y1="522.95" x2="512.29" y2="520.97" stroke="#222222" stroke-width="2.5"/>
 <polygon points="504.09,518.67 514.28,517.57 512.23,524.91" fill="#222222"/>
+<g class="motion" opacity="0" aria-hidden="true"><g><circle cx="387.01" cy="460.18" r="6" fill="#1f6fb5"/><circle cx="330.18" cy="517.01" r="6" fill="#1f6fb5"/><circle cx="249.82" cy="517.01" r="6" fill="#1f6fb5"/><circle cx="192.99" cy="460.18" r="6" fill="#1f6fb5"/><circle cx="192.99" cy="379.82" r="6" fill="#1f6fb5"/><circle cx="249.82" cy="322.99" r="6" fill="#1f6fb5"/><circle cx="330.18" cy="322.99" r="6" fill="#1f6fb5"/><circle cx="387.01" cy="379.82" r="6" fill="#1f6fb5"/><animateTransform attributeName="transform" type="rotate" dur="7s" repeatCount="indefinite" values="0 290 420;-360 290 420"/></g></g>
+<g class="motion" opacity="0" aria-hidden="true"><g><circle cx="637.01" cy="460.18" r="6" fill="#1f6fb5"/><circle cx="580.18" cy="517.01" r="6" fill="#1f6fb5"/><circle cx="499.82" cy="517.01" r="6" fill="#1f6fb5"/><circle cx="442.99" cy="460.18" r="6" fill="#1f6fb5"/><circle cx="442.99" cy="379.82" r="6" fill="#1f6fb5"/><circle cx="499.82" cy="322.99" r="6" fill="#1f6fb5"/><circle cx="580.18" cy="322.99" r="6" fill="#1f6fb5"/><circle cx="637.01" cy="379.82" r="6" fill="#1f6fb5"/><animateTransform attributeName="transform" type="rotate" dur="7s" repeatCount="indefinite" values="0 540 420;360 540 420"/></g></g>
 <circle cx="240" cy="300" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
 <circle cx="180" cy="360" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
 <circle cx="400" cy="345" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
