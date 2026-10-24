@@ -1,16 +1,16 @@
 {
   "chapter": 15,
-  "checked_at": "2026-10-24T01:11:29+00:00",
+  "checked_at": "2026-10-24T02:00:58+00:00",
   "summary": {
-    "total": 1634,
+    "total": 1636,
     "checked": 271,
     "failed": 4,
-    "skipped": 1359,
+    "skipped": 1361,
     "by_kind": {
       "equation": {
         "checked": 271,
         "failed": 4,
-        "skipped": 1359
+        "skipped": 1361
       },
       "case": {
         "checked": 0,
@@ -24,7 +24,7 @@
       "chapters": []
     },
     "skip_reasons": {
-      "no supported equality": 507,
+      "no supported equality": 509,
       "unbound variable": 504,
       "unsupported symbol": 293,
       "unit-only expression or text label needs a numeric value": 47,
@@ -41,7 +41,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "1d24190668e82cbe54d0b635f1b6afdd6b9ffc7ff0ab861c9d494cc11d7b0dcc",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "::: example The Best COPhp of a Heat Pump for Home Use A heat pump used to warm a home must employ a cycle that produces a working fluid at temperatures greater than typical indoo…",
       "has_solution": true,
       "missing_labels": [],
@@ -54,19 +54,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::worked-example:1",
+        "source_sha256": "1d24190668e82cbe54d0b635f1b6afdd6b9ffc7ff0ab861c9d494cc11d7b0dcc",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a reversible cycle, Qc/Tc = Qh/Th and W = Qh - Qc, giving COPhp = Th/(Th - Tc). Taking the reciprocal of the corresponding Carnot engine efficiency is therefore valid. The heating and resistance-heater comparisons follow correctly. Inspection of the referenced SVG confirms that heat enters the −15 °C coil from −5 °C outdoor air and leaves the 45 °C coil for the 20 °C room.",
         "calculation_check": "Using absolute temperatures gives COPhp = 318.15/60 = 5.3025 and Qc/W = 4.3025. Thus 1 J of work plus 4.30 J extracted outdoors supplies 5.30 J indoors. The stated rounded efficiency and COP are consistent.",
         "assumptions": "Reversible operation between the specified cycle temperatures; negligible auxiliary losses; equal electricity prices and approximately complete conversion of resistance-heater electricity into room heat.",
         "notes": "The calculation, energy balance, and cost comparison are correct for the ideal device. The SVG labels Tc correctly as cold; the supplied alt text mistakenly calls it hot.",
-        "source_sha256": "1d24190668e82cbe54d0b635f1b6afdd6b9ffc7ff0ab861c9d494cc11d7b0dcc",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:1",
@@ -77,7 +77,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "443a5ee376d84e821da1fe57a9ace5fcf09bb3356935be5638cc83d12df43c02",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Explain why heat pumps do not work as well in very cold climates as they do in milder ones. Is the same true of refrigerators?",
       "has_solution": true,
       "missing_labels": [],
@@ -89,19 +89,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:1",
+        "source_sha256": "443a5ee376d84e821da1fe57a9ace5fcf09bb3356935be5638cc83d12df43c02",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "At fixed hot-side temperature, lowering the source temperature increases the heat pump's required temperature lift and lowers its maximum heating COP. A refrigerator maintaining a fixed cold compartment instead benefits when its surroundings become cooler, provided normal operation remains possible. The solution correctly distinguishes these cases and answers both questions.",
         "calculation_check": "For fixed Th, the derivative of Th/(Th - Tc) with respect to Tc is positive. For fixed Tc, the derivative of Tc/(Th - Tc) with respect to Th is negative. These confirm both stated trends.",
         "assumptions": "Absolute temperatures; comparable operating conditions; a refrigerator environment still suitable for its controls and refrigerant circuit. Defrosting concerns apply to outdoor air-source heat pumps under frosting conditions.",
         "notes": "Correctly explains why colder weather penalizes heating heat pumps without necessarily penalizing refrigerators.",
-        "source_sha256": "443a5ee376d84e821da1fe57a9ace5fcf09bb3356935be5638cc83d12df43c02",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:2",
@@ -112,7 +112,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "47d6733ce00b5d207ef3d431f7b0a18503db2d0966664f28492a829d0030c797",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "In some Northern European nations, homes are being built without heating systems of any type. They are very well insulated and are kept warm by the body heat of the residents. How…",
       "has_solution": true,
       "missing_labels": [],
@@ -125,19 +125,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:2",
+        "source_sha256": "47d6733ce00b5d207ef3d431f7b0a18503db2d0966664f28492a829d0030c797",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Stored internal energy can maintain a building's temperature during a temporary absence when heat loss is small. Additional gains can further reduce cooling. The solution supplies a possible explanation without implying that insulation creates energy or prevents eventual cooling.",
         "calculation_check": "The illustrative loss is 100 × 28,800 = 2.88 MJ. Dividing by the assumed thermal capacity of 10 MJ/K gives a temperature decrease of 0.288 K, agreeing with 0.29 K.",
         "assumptions": "The illustrative thermal capacity and net heat loss are assumed rather than measured. The building can be approximated by a single effective temperature over the eight-hour interval.",
         "notes": "The heat-storage explanation and illustrative arithmetic are sound; the discussion correctly acknowledges eventual cooling without continuing gains.",
-        "source_sha256": "47d6733ce00b5d207ef3d431f7b0a18503db2d0966664f28492a829d0030c797",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:3",
@@ -148,7 +148,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "3fbb897b8fad98fdcffcf2e4ef9c1c72e6c24992ac2adcdb29c480a131f84450",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Why do refrigerators, air conditioners, and heat pumps operate most cost-effectively for cycles with a small difference between $${T}_{\\text{h}} $$ and $${T}_{\\text{c}} $$ ? (Note…",
       "has_solution": true,
       "missing_labels": [],
@@ -160,19 +160,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:3",
+        "source_sha256": "3fbb897b8fad98fdcffcf2e4ef9c1c72e6c24992ac2adcdb29c480a131f84450",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The reversible entropy balance and cyclic energy conservation yield the two stated COP expressions. At comparable absolute operating temperatures, reducing the lift increases the ideal COP and decreases the work needed for a specified useful heat transfer. The solution appropriately treats these COPs as upper bounds.",
         "calculation_check": "For refrigeration at 280 K, COP = 280/(300 - 280) = 14; raising the hot side to 320 K gives 280/(320 - 280) = 7. Thus the work per joule removed doubles.",
         "assumptions": "Comparisons hold the cold-side temperature and useful refrigeration load fixed in the numerical example. Actual equipment losses, auxiliary consumption, and electricity prices are otherwise comparable.",
         "notes": "Correct formulas, example, and explanation of the operating-cost trend.",
-        "source_sha256": "3fbb897b8fad98fdcffcf2e4ef9c1c72e6c24992ac2adcdb29c480a131f84450",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:4",
@@ -183,7 +183,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "c556af081341cb298103b612a69929a8817f65d4dc0e6a8d81bff9edf2e40a51",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Grocery store managers contend that there is **less** total energy consumption in the summer if the store is kept at a **low** temperature. Make arguments to support or refute thi…",
       "has_solution": true,
       "missing_labels": [],
@@ -193,19 +193,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:4",
+        "source_sha256": "c556af081341cb298103b612a69929a8817f65d4dc0e6a8d81bff9edf2e40a51",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "The competing effects and conditional conclusion are sound: cooler room air can reduce case loads and condensing temperatures while increasing building cooling demand. However, the statement that air conditioning must remove the cases' 'rejected heat and compressor work' risks counting compressor work twice. Rejected heat already equals Qc + Wref. The distinction matters directly to the requested total-energy accounting.",
         "calculation_check": "For cases exchanging heat entirely with store air, their net room heating is Qh - Qc = Wref. The room balance is therefore QAC = Qexternal + Qother + Wref, after internal case heat transfers cancel. Adding compressor work again to Qh would overstate the load.",
         "assumptions": "Steady operation; indoor condenser and evaporator heat exchanges included within the same store boundary; product deliveries and other external heat inputs included separately. Outdoor condensers require a different balance.",
         "notes": "The conclusion is reasonable, but the indoor heat-rejection sentence is physically imprecise and can double-count compressor work.",
-        "source_sha256": "c556af081341cb298103b612a69929a8817f65d4dc0e6a8d81bff9edf2e40a51",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:5",
@@ -216,7 +216,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "637b666663b196a2bb9131646a9acd9c47b1af92f4d8a9c784a5df4920dc5b00",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Can you cool a kitchen by leaving the refrigerator door open?",
       "has_solution": true,
       "missing_labels": [],
@@ -228,19 +228,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::conceptual-questions:5",
+        "source_sha256": "637b666663b196a2bb9131646a9acd9c47b1af92f4d8a9c784a5df4920dc5b00",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With both heat exchangers exchanging energy with the kitchen, the extracted and returned room heat cancel except for the electrical input. The solution correctly distinguishes a local cold region from net cooling of the room and identifies external heat rejection as a different configuration.",
         "calculation_check": "Cyclic energy conservation gives Qh - Qc = W. Accordingly, a 150 W electrical input contributes approximately 150 J/s to the combined kitchen and refrigerator system during operation.",
         "assumptions": "Ordinary refrigerator with its condenser indoors; operation averaged over cycles; transient energy storage and unrelated room heat exchanges excluded.",
         "notes": "Correct system boundary, energy balance, and conclusion that an open refrigerator heats the kitchen overall.",
-        "source_sha256": "637b666663b196a2bb9131646a9acd9c47b1af92f4d8a9c784a5df4920dc5b00",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:1",
@@ -251,7 +251,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "6c7a222080b6318c383d5ddcf6209cf87d7565030178870ee529b0a2132db1e7",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "What is the coefficient of performance of an ideal heat pump that has heat transfer from a cold temperature of $$- 25.0\\text{ºC} $$ to a hot temperature of $$ 40.0\\text{ºC} $$ ?",
       "has_solution": true,
       "missing_labels": [],
@@ -264,19 +264,19 @@
       "review_status": "ambiguous",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:1",
+        "source_sha256": "6c7a222080b6318c383d5ddcf6209cf87d7565030178870ee529b0a2132db1e7",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "ambiguous",
         "confidence": "low",
         "reasoning_check": "The ideal calculation follows from Qc/Qh = Tc/Th and W = Qh - Qc, giving COPhp = Th/(Th - Tc). Its interpretation and colder-weather trend are correct. The discussion additionally asserts that real pumps would achieve COPs of 3–4 at these temperatures. Reservoir temperatures establish an upper bound, not an actual performance range; that equipment-dependent assertion remains unchecked.",
         "calculation_check": "COPhp,max = 313.15/(313.15 - 248.15) = 4.81769, agreeing with 4.82. Per joule of work, approximately 3.82 J comes from the cold reservoir and 4.82 J reaches the hot reservoir.",
         "assumptions": "Ideal means reversible operation between fixed reservoirs. Actual COP also depends on cycle design, heat exchangers, compressor losses, and auxiliary consumption.",
         "notes": "The requested ideal answer is correct. The asserted real-equipment COP range cannot be established from the supplied evidence, leaving the full discussion review incomplete.",
-        "source_sha256": "6c7a222080b6318c383d5ddcf6209cf87d7565030178870ee529b0a2132db1e7",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:2",
@@ -287,7 +287,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "fdfcd3996d56a7a1785347d2e6bfdbec27c2d9484b2e977abd85b2eaff52070d",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Suppose you have an ideal refrigerator that cools an environment at $$- 20.0\\text{ºC} $$ and has heat transfer to another environment at $$ 50.0\\text{ºC} $$ . What is its coeffici…",
       "has_solution": true,
       "missing_labels": [],
@@ -300,19 +300,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:2",
+        "source_sha256": "fdfcd3996d56a7a1785347d2e6bfdbec27c2d9484b2e977abd85b2eaff52070d",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Reversible entropy transfer gives Qh/Qc = Th/Tc. Combining this with W = Qh - Qc yields COPref = Tc/(Th - Tc), as used. The discussion correctly interprets useful cooling per work input and distinguishes the ideal bound from actual equipment performance.",
         "calculation_check": "Using full conversions gives COPref = 253.15/70 = 3.61643. Using the solution's rounded 253 K gives 3.61429, explaining its 3.61. This is ordinary rounding.",
         "assumptions": "Reversible refrigerator; fixed absolute reservoir temperatures; comparison with smaller lifts at comparable absolute temperatures and loads.",
         "notes": "Correct model and calculation. Calling the lift both modest and large is inconsistent wording, but does not alter the physics.",
-        "source_sha256": "fdfcd3996d56a7a1785347d2e6bfdbec27c2d9484b2e977abd85b2eaff52070d",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:3",
@@ -323,7 +323,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "f7c3e69ae2b15908dc3be485fe782cf53ae38b3e408d333d4caa3529f5775f85",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "What is the best coefficient of performance possible for a hypothetical refrigerator that could make liquid nitrogen at $$-200\\text{ºC} $$ and has heat transfer to the environment…",
       "has_solution": true,
       "missing_labels": [],
@@ -336,19 +336,19 @@
       "review_status": "ambiguous",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:3",
+        "source_sha256": "f7c3e69ae2b15908dc3be485fe782cf53ae38b3e408d333d4caa3529f5775f85",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "ambiguous",
         "confidence": "low",
         "reasoning_check": "For heat extracted isothermally at the specified cold temperature, the Carnot refrigerator expression correctly gives the maximum COP. The reciprocal correctly describes work per heat removed. This is a refrigeration bound at the final temperature, not a complete calculation of nitrogen liquefaction from an unspecified initial state. The proposed real cryogenic COP range of 0.15–0.25 and associated production-cost generalizations lack supporting equipment data in the supplied evidence.",
         "calculation_check": "COPmax = 73.15/(308.15 - 73.15) = 0.311277, and W/Qc = 3.21258. Both stated numerical results agree.",
         "assumptions": "Fixed cold reservoir at 73.15 K and hot reservoir at 308.15 K; reversible cycle. No overall liquefaction work is inferred without nitrogen inlet conditions, pressure, and heat-load information.",
         "notes": "The ideal refrigeration result is correct. The suggested real-system performance range and economic claims remain unverified; the rough estimate is not established as an error.",
-        "source_sha256": "f7c3e69ae2b15908dc3be485fe782cf53ae38b3e408d333d4caa3529f5775f85",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:4",
@@ -359,7 +359,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "f1b87038e1d0d82139d68d9d4184efe5e2a095f16c9661c991d6bf01a1b82323",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "In a very mild winter climate, a heat pump has heat transfer from an environment at $$ 5.00\\text{ºC} $$ to one at $$ 35.0\\text{ºC} $$ . What is the best possible coefficient of pe…",
       "has_solution": true,
       "missing_labels": [],
@@ -372,19 +372,19 @@
       "review_status": "ambiguous",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:4",
+        "source_sha256": "f1b87038e1d0d82139d68d9d4184efe5e2a095f16c9661c991d6bf01a1b82323",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "ambiguous",
         "confidence": "low",
         "reasoning_check": "The solution identifies the system, energy-flow directions, givens, unknown, reversible model, calculation, and reasonableness check. Its maximum heating COP and ideal resistance-heating cost comparison are correct. The linked checklist also requests a labeled diagram; only a verbal flow description is supplied. The additional real-equipment estimate of COP 6–8 is not established by the reservoir temperatures or supplied evidence.",
         "calculation_check": "COPhp,max = 308.15/(308.15 - 278.15) = 10.2717, rounding to 10.3. Under the ideal model, $1 of electricity delivers heat equivalent to approximately $10.27 of resistance heating at the same electricity price.",
         "assumptions": "Reversible operation between fixed reservoirs; cost comparison concerns operating electricity alone and equal tariffs. Actual equipment and auxiliary losses are unspecified.",
         "notes": "The requested ideal result and substantive problem-solving steps are correct. A flow drawing is absent, and the real-COP estimate remains unchecked, preventing a complete endorsement of the discussion.",
-        "source_sha256": "f1b87038e1d0d82139d68d9d4184efe5e2a095f16c9661c991d6bf01a1b82323",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:5",
@@ -394,8 +394,8 @@
       "end_line": 691,
       "kind": "problems-exercises",
       "ordinal": 5,
-      "source_sha256": "b3ab1ca41988feb65218d2822ec4e7a8734a0bd8d79103a828175720c0f11dfb",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "source_sha256": "23ea3a0f42304d7ea2aca351488347c0aa37a5d8cf37caf586b6927e75ce53b6",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "(a) What is the best coefficient of performance for a heat pump that has a hot reservoir temperature of $$ 50.0\\text{ºC} $$ and a cold reservoir temperature of $$-20.0\\text{ºC} $$…",
       "has_solution": true,
       "missing_labels": [],
@@ -405,22 +405,19 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:5",
-        "verdict": "concern",
+        "source_sha256": "23ea3a0f42304d7ea2aca351488347c0aa37a5d8cf37caf586b6927e75ce53b6",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "All three requested parts use the correct relations: maximum heating COP from absolute temperatures, Qh = COP × W, and comparison of costs for equal delivered heat. The discussion nevertheless violates its own energy balance by saying that the additional outdoor energy is 126 MJ. With approximately 166 MJ delivered and 36 MJ of work supplied, the outdoor contribution is approximately 130 MJ.",
-        "calculation_check": "Using full temperature conversions gives COP = 323.15/70 = 4.61643; Qh = 166.191 MJ = 39,701.7 kcal = 46.1643 kWh. Gas for this output costs $1.33898 versus $1.00 for electricity, a 25.32% saving. Qc = 166.191 - 36.000 = 130.191 MJ, not 126 MJ.",
-        "assumptions": "Carnot heat pump; given energy prices; natural-gas energy converted completely into useful delivered heat for the stated comparison; capital costs and auxiliary losses excluded. Renewable-electricity environmental remarks concern operating emissions.",
-        "notes": "Parts (a)–(c), including the cost comparison, are correct. The discussion's 126 MJ outdoor contribution is an energy-conservation error; it should be about 130 MJ.",
-        "source_sha256": "b3ab1ca41988feb65218d2822ec4e7a8734a0bd8d79103a828175720c0f11dfb",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "notes": "Parts (a)–(c) are correct. Fixed: the outdoor contribution is 166 MJ − 36 MJ = 130 MJ (was 126 MJ).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:6",
@@ -431,7 +428,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "46d625fe5b8e2bb417332862825104f34f81f45b65f34a7b5cb8e0182d1d136a",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "(a) What is the best coefficient of performance for a refrigerator that cools an environment at $$- 30.0\\text{ºC} $$ and has heat transfer to another environment at $$ 45.0\\text{º…",
       "has_solution": true,
       "missing_labels": [],
@@ -444,19 +441,19 @@
       "review_status": "ambiguous",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:6",
+        "source_sha256": "46d625fe5b8e2bb417332862825104f34f81f45b65f34a7b5cb8e0182d1d136a",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "ambiguous",
         "confidence": "low",
         "reasoning_check": "The solution correctly uses the refrigeration Carnot bound, obtains the corresponding minimum work, calculates electricity cost, and adds work to extracted heat for the warm-side transfer. The suggested deep-freezer applications are consistent with a −30 °C cold environment. The discussion's proposed actual COP range of 2–2.5 is equipment-dependent and unsupported by the supplied evidence; temperatures alone cannot establish it.",
         "calculation_check": "COPmax = 243.15/75 = 3.242. Wmin = 4.186 MJ/3.242 = 1.29118 MJ = 0.358661 kWh, costing $0.0358661. Qh = 4186 + 1291.18 = 5477.18 kJ. The solution's 5476 kJ follows its rounded work and is not a substantive discrepancy.",
         "assumptions": "Reversible refrigerator between fixed reservoirs; the stated heat is extracted at the cold-reservoir temperature; no auxiliary consumption. The application examples are possibilities rather than an exclusive classification.",
         "notes": "All requested numerical results and the energy balance are correct. The real-COP estimate remains unverified, and the categorical exclusion of household equipment is stronger than the temperature information alone supports.",
-        "source_sha256": "46d625fe5b8e2bb417332862825104f34f81f45b65f34a7b5cb8e0182d1d136a",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:08:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:08:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:7",
@@ -467,7 +464,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "63e0dc6b4dc5920dae3c401e26c0dfa0f1444011e5c7cdb3ba7d7ea06de646c0",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Suppose you want to operate an ideal refrigerator with a cold temperature of $$- 10.0\\text{ºC} $$ , and you would like it to have a coefficient of performance of 7.00. What is the…",
       "has_solution": true,
       "missing_labels": [],
@@ -480,19 +477,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:7",
+        "source_sha256": "63e0dc6b4dc5920dae3c401e26c0dfa0f1444011e5c7cdb3ba7d7ea06de646c0",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a reversible refrigerator, Qh/Qc = Th/Tc and W = Qh − Qc, giving COPref = Tc/(Th − Tc). Thus Th = Tc(1 + 1/COPref), as derived. The warmer-room comparison correctly predicts decreasing ideal COP at fixed cold temperature.",
         "calculation_check": "Using Tc = 263.15 K gives Th = 263.15(8/7) = 300.743 K = 27.593 °C and a temperature lift of 37.593 K. The reported 27.6 °C agrees; the intermediate kelvin difference reflects the use of 273 rather than 273.15.",
         "assumptions": "Reversible cyclic operation between fixed reservoirs, with no auxiliary energy consumption. The discussion of warmer rooms assumes the cold temperature and cooling load remain fixed. The stated real-refrigerator COP range of 4–6 was not independently established.",
         "notes": "The model, algebra, final temperature, and ideal performance trends are correct. The real-appliance COP range is an unverified empirical illustration.",
-        "source_sha256": "63e0dc6b4dc5920dae3c401e26c0dfa0f1444011e5c7cdb3ba7d7ea06de646c0",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:12:26+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:12:26+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:8",
@@ -503,7 +500,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "6baa36a7294b495af0da871fdf4a797213604076a4b3483a93c172cb1f9c6c40",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "An ideal heat pump is being considered for use in heating an environment with a temperature of $$ 22.0\\text{ºC} $$ . What is the cold reservoir temperature if the pump is to have…",
       "has_solution": true,
       "missing_labels": [],
@@ -529,19 +526,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:8",
+        "source_sha256": "6baa36a7294b495af0da871fdf4a797213604076a4b3483a93c172cb1f9c6c40",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Energy conservation and reversible heat transfer give COPhp = Th/(Th − Tc). Therefore Tc = Th(1 − 1/COPhp), matching the solution. At fixed indoor temperature, raising the outdoor temperature increases ideal heating COP while the outdoor reservoir remains colder than indoors.",
         "calculation_check": "With Th = 295.15 K, Tc = 295.15(11/12) = 270.554 K = −2.596 °C, and the temperature lift is 24.596 K. The reported −3.0 °C follows premature rounding of kelvins; this is a small rounding discrepancy rather than a substantive physics error.",
         "assumptions": "Ideal reversible heating operation with fixed reservoir temperatures and 0 < Tc < Th. The warmer-weather discussion applies within that domain and does not establish actual equipment COP.",
         "notes": "Correct Carnot relation, rearrangement, and qualitative dependence. Retaining guard digits would give approximately −2.6 °C.",
-        "source_sha256": "6baa36a7294b495af0da871fdf4a797213604076a4b3483a93c172cb1f9c6c40",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:12:26+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:12:26+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:9",
@@ -552,7 +549,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "149a7ab07ae5b7139a441c1fd9ec8ad3fff983e4cc30b448ce799c760c3308e6",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "A 4-ton air conditioner removes $$ 5.06 \\times 10^{7} \\text{J} $$ (48 000 British thermal units) from a cold environment in 1.00 h. (a) What energy input in joules is necessary to…",
       "has_solution": true,
       "missing_labels": [],
@@ -565,19 +562,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:9",
+        "source_sha256": "149a7ab07ae5b7139a441c1fd9ec8ad3fff983e4cc30b448ce799c760c3308e6",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The supplied EER definition directly gives electrical power from the cooling rate in BTU/h. Multiplying by the operating time gives input energy, and applying the supplied electricity tariff answers the cost question. The discussion correctly interprets EER 12 as 12 BTU removed per watt-hour consumed and treats continuous operation as a conditional cost estimate.",
         "calculation_check": "P = 48000/12 = 4000 W; input energy = 4000 × 3600 = 1.44×10^7 J = 4.00 kWh; cost = $0.400. Continuous operation costs $9.60/day and $288 per 30 days. Eight to twelve operating hours cost $3.20–$4.80/day. EER 15 gives $7.68/day, saving $1.92/day or $57.60 per 30 days. The implied dimensionless cooling COP is 5.06×10^7/(1.44×10^7) = 3.51.",
         "assumptions": "The stated cooling rate and EER hold throughout operation; all rated input power is included and electricity costs the stated amount. Cycling reduces cost only relative to the assumed continuous operation. Claims about typical usage, bills, and modern equipment EER ranges were not externally verified.",
         "notes": "All requested parts and cost comparisons are calculated correctly. Market and household-usage comparisons remain illustrative empirical claims.",
-        "source_sha256": "149a7ab07ae5b7139a441c1fd9ec8ad3fff983e4cc30b448ce799c760c3308e6",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:12:26+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:12:26+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:10",
@@ -588,7 +585,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "a0f850391eee0bb0bef1d39aa406592ded8125c968e31452c42fef386213833b",
-      "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
+      "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
       "preview": "Show that the coefficients of performance of refrigerators and heat pumps are related by $${\\text{COP}}_{\\text{ref}}={\\text{COP}}_{\\text{hp}}-1 $$. Start with the definitions of t…",
       "has_solution": true,
       "missing_labels": [],
@@ -600,19 +597,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch15ApplicationsOfThermodynamics.md::problems-exercises:10",
+        "source_sha256": "a0f850391eee0bb0bef1d39aa406592ded8125c968e31452c42fef386213833b",
+        "file_sha256": "9718dc07bb49349f39c998b2dee7761d490f93a1f2ef477b1272f1123f6cab59",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For one cyclic operating process, Qh = Qc + W immediately gives COPhp − COPref = (Qh − Qc)/W = 1. The derivation and the discussion's initial explanation using identical Qc and W are correct. However, the final discussion overgeneralizes this to operation in two modes based only on equal reservoir temperatures. Those temperatures do not guarantee identical cycle performance for real equipment.",
         "calculation_check": "As a conceptual countercheck, two real operating modes between 270 K and 300 K could have COPhp = 5 and COPref = 3, respectively, both below their Carnot limits of 10 and 9. They need not differ by one. Each mode separately satisfies the identity when its own heating and cooling COPs are calculated from the same transfers.",
         "assumptions": "Heat and work are positive magnitudes for a cyclic device with consistently defined system boundaries and no uncounted energy transfers. Applying the identity across separate modes requires the same operating process, or an additional condition ensuring equal performance.",
         "notes": "The requested proof is correct. The final universal claim needs qualification: identical reservoir temperatures alone do not connect the COPs of separate real operating modes.",
-        "source_sha256": "a0f850391eee0bb0bef1d39aa406592ded8125c968e31452c42fef386213833b",
-        "file_sha256": "dbeda9e4deba1af2e31488bc677e2ec7bcd0f1d3ac1c8421cae2ac83acb4f5f3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:12:26+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:12:26+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15CarnotsPerfectHeatEngine.md#Example1",
@@ -2374,32 +2371,29 @@
       "end_line": 354,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "7ef27f5ba026eb9cf3d725d388f210b77ae1200f0521278e878b269a6d1491f6",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "source_sha256": "f5675dd9414f2e0508415eed89260ebfa0054810129d1cb6ae34698b22871d5e",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "::: example Entropy Increases in a Coin Toss Suppose you toss 100 coins starting with 60 heads and 40 tails, and you get the most likely result, 50 heads and 50 tails. What is the…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 20
+        "skipped": 22
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::worked-example:1",
-        "verdict": "concern",
+        "source_sha256": "f5675dd9414f2e0508415eed89260ebfa0054810129d1cb6ae34698b22871d5e",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The requested coin entropy change correctly follows from Delta S = k_B ln[binom(100,50)/binom(100,60)]. The quoted return probability and all-aligned entropy change are also reasonable. However, the ice discussion confuses a subsystem entropy decrease with a total entropy decrease. Freezing water releases latent heat, increasing the environment's entropy. At the melting temperature, those entropy changes cancel in the reversible limit. Heat removal from already-solid ice does not itself specify the liquid-to-solid entropy change quoted. The unconditional claim that melted ice cannot spontaneously refreeze is therefore incorrect.",
-        "calculation_check": "The supplied rounded counts give 1.38e-23 ln(1.0e29/1.4e28) = 2.713e-23 J/K; exact binomial counts give 2.751e-23 J/K. P(60 heads) = 0.010844, about 1 in 92. The change from 50 heads to one specified all-aligned state is -9.216e-22 J/K. For freezing 1 kg of water at 273.15 K, Delta S_water = -334000/273.15 = -1222.8 J/K, while a reservoir at that temperature gains +1222.8 J/K.",
-        "assumptions": "Fair, independent coins; entropy refers to the specified coarse-grained coin macrostate. Phase-change comparison uses water at its ordinary melting point, latent heat 334 kJ/kg, and includes the heat-receiving environment.",
-        "notes": "Coin calculation passes. The ice analogy incorrectly omits environmental entropy and treats ordinary freezing as an impossible total-entropy decrease.",
-        "source_sha256": "7ef27f5ba026eb9cf3d725d388f210b77ae1200f0521278e878b269a6d1491f6",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "notes": "Coin calculation is correct. Fixed: the ice illustration now uses a 20 ºC room. Spontaneous freezing would lower total entropy by about 83 J/K (−1.22×10³ J/K for the water, +1.14×10³ J/K for the room), and the text notes that in a 0 ºC environment the total would not change.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::conceptual-questions:1",
@@ -2410,7 +2404,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "640c8389a51417ce50c2ae265c01c02624f23bcea41ae19624de48cd2f24c04a",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "Explain why a building made of bricks has smaller entropy than the same bricks in a disorganized pile. Do this by considering the number of ways that each could be formed (the num…",
       "has_solution": true,
       "missing_labels": [],
@@ -2422,19 +2416,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::conceptual-questions:1",
+        "source_sha256": "640c8389a51417ce50c2ae265c01c02624f23bcea41ae19624de48cd2f24c04a",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The specified building restricts brick positions and orientations, whereas the broadly described disorganized pile permits more configurations. Boltzmann's relation therefore gives a larger configurational entropy for the pile. The solution appropriately distinguishes this comparison from a calculation of total thermal entropy.",
         "calculation_check": "For Omega_pile > Omega_building, the dimensionless ratio exceeds one, so k_B ln(Omega_pile/Omega_building) is positive and has units J/K.",
         "assumptions": "Same bricks, comparable spatial resolution and thermal conditions, and comparable counting constraints. The building macrostate specifies structural restrictions more narrowly than the pile macrostate.",
         "notes": "Correct configurational argument with an explicit and useful limitation concerning thermal entropy.",
-        "source_sha256": "640c8389a51417ce50c2ae265c01c02624f23bcea41ae19624de48cd2f24c04a",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:1",
@@ -2445,7 +2439,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "bc181ad5b998b7fdddf91ad1e3a61d494bf5cf2320a37b18ba186e4b57a44a6c",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "Using [[Table 2]](#Table2), verify the contention that if you toss 100 coins each second, you can expect to get 100 heads or 100 tails once in $$2 \\times 10^{22} $$ years; calcula…",
       "has_solution": true,
       "missing_labels": [
@@ -2461,19 +2455,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:1",
+        "source_sha256": "bc181ad5b998b7fdddf91ad1e3a61d494bf5cf2320a37b18ba186e4b57a44a6c",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Among 2^100 equally likely outcomes, exactly two are all heads or all tails. The mean number of independent trials until either event is 1/p = 2^99. At one complete 100-coin trial per second, this is also the mean waiting time in seconds. The supplied solution correctly includes both extreme outcomes.",
         "calculation_check": "2^99 = 6.338253e29 s; dividing by 365.25(24)(3600) gives 2.008471e22 years, or 2.0e22 years to two significant digits. The solution's rounded intermediate times give the same answer.",
         "assumptions": "Fair, independent coins and independent successive trials; one complete trial each second. The result is a mean waiting time, not a guaranteed recurrence interval.",
         "notes": "Correct probability, factor of two, and time conversion.",
-        "source_sha256": "bc181ad5b998b7fdddf91ad1e3a61d494bf5cf2320a37b18ba186e4b57a44a6c",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:2",
@@ -2484,7 +2478,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "e7d6e70f10fb5969943055b3e3df2d997c424100249759aa50e6d30d28d5b8fc",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "What percent of the time will you get something in the range from 60 heads and 40 tails through 40 heads and 60 tails when tossing 100 coins? The total number of microstates in th…",
       "has_solution": true,
       "missing_labels": [],
@@ -2497,19 +2491,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:2",
+        "source_sha256": "e7d6e70f10fb5969943055b3e3df2d997c424100249759aa50e6d30d28d5b8fc",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The inclusive interval contains 21 head-count macrostates. Their probability is their combined multiplicity divided by 2^100. The solution correctly applies this counting rule using the explicitly supplied rounded multiplicity and table total. The discussion correctly distinguishes counting macrostates from weighting them by microstate multiplicity.",
         "calculation_check": "Using the stated data, 100(1.22e30/1.27e30) = 96.06299%, agreeing with 96.1%. Directly summing binom(100,h) for h = 40 through 60 gives 96.47998%; this difference comes from the rounded supplied counts and is not a substantive solution error.",
         "assumptions": "Fair, independent coins; inclusive endpoints; equally likely microscopic outcomes. The numerical answer is evaluated at the precision of the provided multiplicities.",
         "notes": "Correct calculation from the supplied data. Exact binomial counting gives about 96.48%, consistent with the coarse input precision.",
-        "source_sha256": "e7d6e70f10fb5969943055b3e3df2d997c424100249759aa50e6d30d28d5b8fc",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:3",
@@ -2520,7 +2514,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "9f9a2d2d9cddb7040c87aefbcce31f2eeb3bbfa2da41b60c4ef19d128d4fa877",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "(a) If tossing 100 coins, how many ways (microstates) are there to get the three most likely macrostates of 49 heads and 51 tails, 50 heads and 50 tails, and 51 heads and 49 tails…",
       "has_solution": true,
       "missing_labels": [
@@ -2536,19 +2530,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:3",
+        "source_sha256": "9f9a2d2d9cddb7040c87aefbcce31f2eeb3bbfa2da41b60c4ef19d128d4fa877",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Each specified macrostate contains binom(100,h) outcomes. Because the three macrostates are mutually exclusive, their multiplicities add; dividing that sum by 2^100 gives their total probability. Both concise answers agree with this independent derivation.",
         "calculation_check": "binom(100,49) + binom(100,50) + binom(100,51) = 2.9871751e29, rounding to 3.0e29. Dividing by 2^100 gives 23.56466%, rounding to 24%.",
         "assumptions": "Fair, independent coins with distinguishable individual outcomes; no overlap among the three head-count macrostates.",
         "notes": "Both multiplicity and percentage are correct at the reported precision.",
-        "source_sha256": "9f9a2d2d9cddb7040c87aefbcce31f2eeb3bbfa2da41b60c4ef19d128d4fa877",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:4",
@@ -2559,7 +2553,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "c3db85e7ac7be34ca7e4f84bcbb1cbdb98572f0a0bbb8d73c3ad3f02f8bff476",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "(a) What is the change in entropy if you start with 100 coins in the 45 heads and 55 tails macrostate, toss them, and get 51 heads and 49 tails? (b) What if you get 75 heads and 2…",
       "has_solution": true,
       "missing_labels": [],
@@ -2572,19 +2566,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:4",
+        "source_sha256": "c3db85e7ac7be34ca7e4f84bcbb1cbdb98572f0a0bbb8d73c3ad3f02f8bff476",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly calculates each entropy change from the final-to-initial multiplicity ratio and compares final-state probabilities using their multiplicity ratio. The more central final state has greater entropy, while 75 heads has lower entropy. Neither outcome invalidates the statistical interpretation of the second law. The coins provide a configurational analogy rather than an isolated thermodynamic system, and the tossing apparatus and environment are not included in their entropy.",
         "calculation_check": "Using the table gives Delta S_1 = 6.683e-24 J/K, Delta S_2 = -1.718e-22 J/K, and likelihood ratio 4.125e5. Exact binomial counts give 6.569e-24 J/K, -1.717e-22 J/K, and 4.079e5 respectively, consistent with the reported precision.",
         "assumptions": "Fair, independently randomized coins; equal microstate probabilities; Boltzmann entropy applies to the chosen head-count macrostate. Macroscopic impossibility language is interpreted as practical statistical suppression, not zero probability.",
         "notes": "All four parts are correct. Entropy signs, probability ratio, and finite-system statistical interpretation check out.",
-        "source_sha256": "c3db85e7ac7be34ca7e4f84bcbb1cbdb98572f0a0bbb8d73c3ad3f02f8bff476",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:5",
@@ -2595,7 +2589,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "2c1ff31f27909ffc0888a40942d8c1e20ffd28a05399d435664db8ade46cd580",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "(a) What is the change in entropy if you start with 10 coins in the 5 heads and 5 tails macrostate, toss them, and get 2 heads and 8 tails? (b) How much more likely is 5 heads and…",
       "has_solution": true,
       "missing_labels": [
@@ -2611,19 +2605,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:5",
+        "source_sha256": "2c1ff31f27909ffc0888a40942d8c1e20ffd28a05399d435664db8ade46cd580",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The initial and final multiplicities are binom(10,5) = 252 and binom(10,2) = 45. Their logarithmic ratio gives the entropy decrease, and their direct ratio gives the relative likelihood. For a bet that loses on every outcome other than exactly two heads, fair odds must compare 979 losing outcomes with 45 winning outcomes. The solution correctly avoids treating the five-head macrostate as the entire alternative.",
         "calculation_check": "Delta S = 1.38e-23 ln(45/252) = -2.3774e-23 J/K; 252/45 = 5.6. Fair net payout odds are 979/45 = 21.756 to 1. At offered net odds 252/45 to 1, the expected profit per unit stake is (45/1024)(252/45) - 979/1024 = -0.70996.",
         "assumptions": "Fair, independent coins. Standard betting odds denote net winnings relative to the stake; all non-two-head outcomes lose. Restricting the wager to only the two named macrostates would be a different bet.",
         "notes": "Entropy, likelihood, and rejection of the offered betting odds are correct under the stated full-outcome wager interpretation.",
-        "source_sha256": "2c1ff31f27909ffc0888a40942d8c1e20ffd28a05399d435664db8ade46cd580",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:6",
@@ -2634,7 +2628,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "c73889803ddcab1dbb5b7885dc574a18633da4b4aa1d7a643d2bc02474b377b9",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "(a) If you toss 10 coins, what percent of the time will you get the three most likely macrostates (6 heads and 4 tails, 5 heads and 5 tails, 4 heads and 6 tails)? (b) You can real…",
       "has_solution": true,
       "missing_labels": [],
@@ -2647,19 +2641,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:6",
+        "source_sha256": "c73889803ddcab1dbb5b7885dc574a18633da4b4aa1d7a643d2bc02474b377b9",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The three central multiplicities are 210, 252, and 210, as confirmed in Table 3. Their sum divided by 1024 answers part (a). Either extreme occupies two of the 1024 outcomes, so the geometric mean waiting time is 512 complete trials. Dividing by two trials per minute correctly answers part (b). The discussion's comparison with 100 coins is consistent with exponential growth of the waiting time.",
         "calculation_check": "(210+252+210)/1024 = 0.65625, or 65.625%. The mean waiting time is (1024/2)/2 = 256 minutes = 4.2667 hours. For 100 coins at the same trial rate, the mean wait would be about 6.03e23 years, supporting the qualitative astronomical-time comparison.",
         "assumptions": "Fair, independent coins and successive trials; each trial tosses all ten coins; sustained rate of two complete trials per minute. The waiting time is an average. 'Impossible' for macroscopic fluctuations is interpreted as effectively unobservable.",
         "notes": "Both answers and the waiting-time reasoning are correct; the result does not guarantee an extreme outcome within 4.3 hours.",
-        "source_sha256": "c73889803ddcab1dbb5b7885dc574a18633da4b4aa1d7a643d2bc02474b377b9",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:26:24+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:26:24+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:7",
@@ -2670,7 +2664,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "b83bb35ae494e681849c08d1d40e7d95305142e34f3423c4828819b95c6d853b",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "(a) Construct a table showing the macrostates and all of the individual microstates for tossing 6 coins. (Use [[Table 3]](#Table3) as a guide.) (b) How many macrostates are there?…",
       "has_solution": true,
       "missing_labels": [
@@ -2687,19 +2681,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:7",
+        "source_sha256": "b83bb35ae494e681849c08d1d40e7d95305142e34f3423c4828819b95c6d853b",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For six distinguishable coin outcomes, a macrostate specifies n_H=0 through 6, and its multiplicity is C(6,n_H). Independently checking every listed sequence confirms that each row contains exactly its required microstates, without omissions or duplicates. All five requested parts are answered.",
         "calculation_check": "The multiplicities are 1, 6, 15, 20, 15, 6, 1, summing to 64=2^6 across seven macrostates. P(5 heads)=6/64=9.375%, and P(3 heads)/P(5 heads)=20/6=3.3333.",
         "assumptions": "Independent fair coins; ordered outcomes are distinguishable and equally probable. Fairness is needed for probabilities, but not for counting possible sequences.",
         "notes": "Complete and correct enumeration of all 64 microstates; probabilities and likelihood ratio agree.",
-        "source_sha256": "b83bb35ae494e681849c08d1d40e7d95305142e34f3423c4828819b95c6d853b",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:8",
@@ -2710,7 +2704,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "933ad0024b95b1734b3a1e2e585c5122f3b9c6970058cf23ee48e2843ed3b34f",
-      "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
+      "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
       "preview": "In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment in 1.00 h. (a) What mass of ice melting would involve the same heat transfer? (b) How many hours of…",
       "has_solution": true,
       "missing_labels": [
@@ -2727,19 +2721,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15StatisticalInterpretationOfEntropy.md::problems-exercises:8",
+        "source_sha256": "933ad0024b95b1734b3a1e2e585c5122f3b9c6970058cf23ee48e2843ed3b34f",
+        "file_sha256": "ef28bb47dc8d41e8f4a1bf922cb32bb9ef056dabb969c616c1069cada405e2b9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Melting absorbs Q=mL_f, so dividing the hourly cooling energy by L_f gives equivalent ice mass. Dividing the energy absorbed by 900 kg of ice by the cooling rate gives operating time. The cost comparison correctly uses cooling COP, W=Q_c/COP, and explicitly identifies the assumed COP and electricity tariff. The discussion correctly distinguishes transferred heat from consumed work and accounts for warm-side rejection.",
         "calculation_check": "12650/334=37.874 kg; 900(334)/12650=23.7628 h. Ice costs $180. Electrical work is 300.6/3=100.2 MJ=27.8333 kWh, costing $3.34. Energy conservation gives Q_h=300.6+100.2=400.8 MJ.",
         "assumptions": "Ice starts at its melting temperature; only latent heat is counted. Cooling rate and COP remain constant. The comparison concerns operating costs, excluding equipment purchase and additional ice handling costs. Electricity price is illustrative.",
         "notes": "All parts are correct; the economic conclusion is appropriately conditional on stated assumptions.",
-        "source_sha256": "933ad0024b95b1734b3a1e2e585c5122f3b9c6970058cf23ee48e2843ed3b34f",
-        "file_sha256": "b70ca9685c43cee8a762861efa9e3ecc06ebd76b7b95883862aaf50548292b40",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::worked-example:1",
@@ -2750,7 +2744,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "c7d80a339c09b47d1f61058545d699009a4b61e6d48a7566bef0fa4b3f844c67",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "::: example Calculating Change in Internal Energy: The Same Change in $$U $$ is Produced by Two Different Processes (a) Suppose there is heat transfer of 40.00 J to a system, whil…",
       "has_solution": true,
       "missing_labels": [],
@@ -2763,19 +2757,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::worked-example:1",
+        "source_sha256": "c7d80a339c09b47d1f61058545d699009a4b61e6d48a7566bef0fa4b3f844c67",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Both first-law calculations and the additive treatment of successive steps are correct. However, Discussion (b) incorrectly concludes that equal changes in internal energy establish identical final thermodynamic states and common endpoints. Even for the same initial state, equal final U does not generally determine all other state variables. For an ideal gas, equal U fixes temperature for fixed amount and composition, while volume and pressure can differ. The referenced SVG confirms the energy transfers but supplies no additional state constraints.",
         "calculation_check": "Part (a): Q=40-25=15 J, W=10-4=6 J, so ΔU=9 J; separately, 30+(-21)=9 J. Part (b): ΔU=-150-(-159)=9 J. The numbers establish equal energy changes only.",
         "assumptions": "Closed systems with negligible changes in bulk kinetic and potential energies; work by the system is positive. No constraint reducing the thermodynamic state to a unique function of U is supplied.",
         "notes": "Correct numerical answers, but the discussion wrongly infers identical final states from equal ΔU.",
-        "source_sha256": "c7d80a339c09b47d1f61058545d699009a4b61e6d48a7566bef0fa4b3f844c67",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:1",
@@ -2786,7 +2780,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "e01147e479f6da393493195d48beab745f6a2c46195ecec56ae674cb2d326b95",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "Describe the photo of the tea kettle at the beginning of this section in terms of heat transfer, work done, and internal energy. How is heat being transferred? What is the work do…",
       "has_solution": true,
       "missing_labels": [],
@@ -2796,19 +2790,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:1",
+        "source_sha256": "e01147e479f6da393493195d48beab745f6a2c46195ecec56ae674cb2d326b95",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The inspected photograph shows a kettle on a hot stove with escaping vapor, consistent with the solution's heating and open-system description. Conduction supplies energy through the kettle base, convection redistributes it, and expanding escaping vapor can displace surrounding gas and produce whistle motion and sound. The discussion correctly distinguishes approximately constant boiling temperature from constant total internal energy as water mass decreases.",
         "calculation_check": "For a fixed control volume, neglecting bulk energy changes, dU/dt=Q_dot-W_dot_shaft-m_dot_out h_out when there is no inlet. Outgoing enthalpy includes flow work. Thus ongoing heat input can sustain boiling while the stored internal energy decreases with remaining water mass.",
         "assumptions": "An open vented kettle near atmospheric pressure, no replacement water, and ordinary stove heating. Whistle operation is a physical interpretation, not something independently established by a still photograph.",
         "notes": "Correctly accounts for heating, vapor-driven work, and energy carried away with escaping steam.",
-        "source_sha256": "e01147e479f6da393493195d48beab745f6a2c46195ecec56ae674cb2d326b95",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:2",
@@ -2819,7 +2813,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "b96c4642804435f692842adc47f9dd132dcd9cf4ff6d754040a23c6c5fd820ba",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "The first law of thermodynamics and the conservation of energy, as discussed in [Conservation of Energy](../contents/ch7ConservationOfEnergy), are clearly related. How do they dif…",
       "has_solution": true,
       "missing_labels": [],
@@ -2831,19 +2825,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:2",
+        "source_sha256": "b96c4642804435f692842adc47f9dd132dcd9cf4ff6d754040a23c6c5fd820ba",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly presents the first law as conservation of energy applied to thermodynamic systems, with microscopic energies grouped into U. It explicitly limits ΔU=Q-W to a closed system without relevant bulk kinetic or potential energy changes and explains that these terms must otherwise be retained.",
         "calculation_check": "The general closed-system balance is ΔU+ΔK_bulk+ΔE_potential=Q-W. Setting the two bulk energy changes to zero reproduces the stated equation; every term has energy units.",
         "assumptions": "Closed system, consistent system boundary and reference frame, and work positive outward. Open systems additionally require energy transported with matter.",
         "notes": "Correct relationship between general energy conservation and the thermodynamic first law, including its simplified equation's limits.",
-        "source_sha256": "b96c4642804435f692842adc47f9dd132dcd9cf4ff6d754040a23c6c5fd820ba",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:3",
@@ -2854,7 +2848,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "182fd2d9a19418d87da9192cdeb10df47680d623a61715a03e1e103eb4ab7d90",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "Heat transfer $$Q $$ and work done $$W $$ are always energy in transit, whereas internal energy $$U $$ is energy stored in a system. Give an example of each type of energy, and st…",
       "has_solution": true,
       "missing_labels": [],
@@ -2866,19 +2860,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:3",
+        "source_sha256": "182fd2d9a19418d87da9192cdeb10df47680d623a61715a03e1e103eb4ab7d90",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "All three examples correctly identify either a boundary transfer or a stored property. Stove-to-water heating is driven by a temperature difference; piston compression transfers energy mechanically; microscopic kinetic and interaction energies reside in the material. The insulated compression example uses the work sign correctly.",
         "calculation_check": "For the insulated gas, Q=0 and W_by=-100 J. Therefore ΔU=0-(-100)=+100 J when bulk kinetic and potential energy changes are negligible.",
         "assumptions": "Closed gas sample, adiabatic compression, and negligible changes in macroscopic kinetic and potential energies. Stored internal energy does not retain a separate identity as heat or work.",
         "notes": "Examples correctly distinguish heat and work transfers from stored internal energy.",
-        "source_sha256": "182fd2d9a19418d87da9192cdeb10df47680d623a61715a03e1e103eb4ab7d90",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:4",
@@ -2889,7 +2883,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "732c5439fdca9b0a0289fcc520e3789a8587684b6005344bfbba59368daf220f",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "How do heat transfer and internal energy differ? In particular, which can be stored as such in a system and which cannot?",
       "has_solution": true,
       "missing_labels": [],
@@ -2899,19 +2893,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:4",
+        "source_sha256": "732c5439fdca9b0a0289fcc520e3789a8587684b6005344bfbba59368daf220f",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly distinguishes heat, a transfer driven by temperature difference, from internal energy, a microscopic state property. Its statement that there are no separate stored quantities of heat and work directly answers the question.",
         "calculation_check": "For a stationary closed system, heating by E with no work gives ΔU=E; adiabatic work input E also gives ΔU=E. The energy balance identifies the same stored-energy change without assigning separate heat or work stores.",
         "assumptions": "The statement about incoming energy contributing to U concerns thermodynamic processes with negligible bulk energy changes; incoming energy can otherwise also increase bulk kinetic or potential energy.",
         "notes": "Correct distinction between a transfer mechanism and stored microscopic energy.",
-        "source_sha256": "732c5439fdca9b0a0289fcc520e3789a8587684b6005344bfbba59368daf220f",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:5",
@@ -2922,7 +2916,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "7efb9b1e202762468e5a95cee7370dcf1e7ab21a59312d9a366a194b12c2f5d1",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "If you run down some stairs and stop, what happens to your kinetic energy and your initial gravitational potential energy?",
       "has_solution": true,
       "missing_labels": [],
@@ -2935,19 +2929,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:5",
+        "source_sha256": "7efb9b1e202762468e5a95cee7370dcf1e7ab21a59312d9a366a194b12c2f5d1",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Including the person, Earth, stairs, and surroundings permits the decrease in gravitational potential energy and loss of bulk kinetic energy to be tracked into internal energy and sound. The solution correctly allows temporary kinetic energy during descent and recognizes additional chemical energy supplied by metabolism.",
         "calculation_check": "For the explicitly assumed example, mgh=60(9.8)(3.0)=1764 J≈1.8×10^3 J. With equal initial and final speeds of zero, the net kinetic-energy change is zero and gravitational energy released is mainly dissipated internally. Any initial kinetic energy must also be included if the person starts moving.",
         "assumptions": "The final state is at rest at a lower elevation; the enlarged system includes the main recipients of dissipated energy. The numerical mass and height are illustrative.",
         "notes": "Correct energy accounting for descent and stopping, including dissipation and metabolic input.",
-        "source_sha256": "7efb9b1e202762468e5a95cee7370dcf1e7ab21a59312d9a366a194b12c2f5d1",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:6",
@@ -2958,7 +2952,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "15741a538d80c618396c00f5ee7076e687d779a8b1d1073d07e7d8218ffae7de",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "Give an explanation of how food energy (calories) can be viewed as molecular potential energy (consistent with the atomic and molecular definition of internal energy).",
       "has_solution": true,
       "missing_labels": [],
@@ -2970,19 +2964,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:6",
+        "source_sha256": "15741a538d80c618396c00f5ee7076e687d779a8b1d1073d07e7d8218ffae7de",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution properly compares food plus oxygen with metabolic products, rather than claiming that breaking food bonds alone releases energy. Chemical energy differences arise from molecular and electronic configurations and therefore belong within microscopic internal energy. The discussion correctly treats the food Calorie as an energy unit rather than stored heat.",
         "calculation_check": "The thermochemical conversion is 1 dietary Calorie=1 kilocalorie=4184 J. An exothermic metabolic reaction has lower-energy products overall; energy needed to disrupt reactant bonds is outweighed by energy released in product formation and associated rearrangements.",
         "assumptions": "Ordinary oxidative metabolism, with carbon dioxide and water as principal products. The explanation concerns the overall chemical energy difference, without equating all released energy with useful cellular work.",
         "notes": "Correct molecular interpretation, including oxygen's role and the distinction between bond breaking and net reaction energy release.",
-        "source_sha256": "15741a538d80c618396c00f5ee7076e687d779a8b1d1073d07e7d8218ffae7de",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:7",
@@ -2993,7 +2987,7 @@
       "kind": "conceptual-questions",
       "ordinal": 7,
       "source_sha256": "349ff9f2d23d2ccf2f3dda957f82abd9dcb54dc7bc57edff353772bdd50500af",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "Identify the type of energy transferred to your body in each of the following as either internal energy, heat transfer, or doing work: (a) basking in sunlight; (b) eating food; (c…",
       "has_solution": true,
       "missing_labels": [],
@@ -3003,19 +2997,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::conceptual-questions:7",
+        "source_sha256": "349ff9f2d23d2ccf2f3dda957f82abd9dcb54dc7bc57edff353772bdd50500af",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The three classifications follow the actual transfer mechanisms: absorbed sunlight provides radiative heating; food transports chemical internal energy with matter across an open-system boundary; the elevator exerts an upward force through an upward displacement and performs mechanical work. Gravitational potential energy is correctly assigned to the body–Earth system.",
         "calculation_check": "For an elevator trip of height h starting and ending at the same speed, elevator work on the body is approximately mgh, balancing gravity's negative work on the body and increasing body–Earth potential energy. Food input requires a matter-energy transfer term rather than classification as heat.",
         "assumptions": "Ordinary basking in sunlight and food ingestion; equal endpoint elevator speeds and negligible dissipative losses for the simple mgh cross-check. System boundaries distinguish body energy from body–Earth potential energy.",
         "notes": "All classifications are physically consistent, including internal energy transported with food.",
-        "source_sha256": "349ff9f2d23d2ccf2f3dda957f82abd9dcb54dc7bc57edff353772bdd50500af",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:1",
@@ -3026,7 +3020,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "f0681c98c7422aa817d4e071dc46bf23a33932eee26feb845f97266b77ea2239",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "What is the change in internal energy of a car if you put 12.0 gal of gasoline into its tank? The energy content of gasoline is $$ 1.3 \\times 10^{8} \\text{J/gal} $$ . All other fa…",
       "has_solution": true,
       "missing_labels": [],
@@ -3038,19 +3032,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:1",
+        "source_sha256": "f0681c98c7422aa817d4e071dc46bf23a33932eee26feb845f97266b77ea2239",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Multiplying the supplied fuel energy content by added volume gives the intended increase in the car's chemical-energy inventory. However, the Strategy invokes ΔU=Q-W with Q=W=0 and then concludes a nonzero ΔU. That equation in this form requires a closed system; refueling transfers matter and associated energy into the car. An open-system balance must include that incoming energy. The discussion's description of energy stored in gasoline bonds is also incomplete: available combustion energy is a difference between fuel-plus-oxygen reactants and products, and breaking bonds alone requires energy.",
         "calculation_check": "12.0(1.3×10^8)=1.56×10^9 J≈1.6×10^9 J. Using the rounded value gives 444.4 kWh and h=1.6×10^9/(1000×9.8)=1.63×10^5 m, consistent with the stated comparisons. In contrast, the stated closed-system equation with Q=W=0 yields ΔU=0 and cannot support the result.",
         "assumptions": "Treat the supplied J/gal as the intended usable chemical-energy inventory per added volume; other energy changes are neglected as stipulated. The stated engine-efficiency range cannot be verified for a particular engine from the supplied evidence.",
         "notes": "Intended number and comparisons are correct, but the Strategy omits energy carried by incoming fuel and contradicts its own first-law equation.",
-        "source_sha256": "f0681c98c7422aa817d4e071dc46bf23a33932eee26feb845f97266b77ea2239",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:2",
@@ -3061,7 +3055,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "fd3ae9ce8fc8399219eb4044dced02d415e81f4ff834187a3ea79387aed34adc",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "How much heat transfer occurs from a system, if its internal energy decreased by 150 J while it was doing 30.0 J of work?",
       "has_solution": true,
       "missing_labels": [],
@@ -3073,19 +3067,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:2",
+        "source_sha256": "fd3ae9ce8fc8399219eb4044dced02d415e81f4ff834187a3ea79387aed34adc",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A 150 J internal-energy decrease and 30 J of outward work imply that the remaining 120 J leaves as heat. The solution consistently uses positive work by the system, interprets negative Q as outward heat transfer, and accounts for the full energy decrease in its discussion.",
         "calculation_check": "Q=ΔU+W=-150+30.0=-120 J. Equivalently, the outward energy transfers total 120+30=150 J, matching the decrease in U.",
         "assumptions": "Closed system with negligible changes in bulk kinetic and potential energies; the stated work and heat are the net transfers over the process.",
         "notes": "Correct sign convention, heat-loss magnitude, and conservation-of-energy explanation.",
-        "source_sha256": "fd3ae9ce8fc8399219eb4044dced02d415e81f4ff834187a3ea79387aed34adc",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:30:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:30:17+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:3",
@@ -3096,7 +3090,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "9927b135e93f4e5a006e735386759b15ff24c586284690e82993e98a0369bbc2",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "A system does $$ 1.80 \\times 10^{8} \\text{J} $$ of work while $$ 7.50 \\times 10^{8} \\text{J} $$ of heat transfer occurs to the environment. What is the change in internal energy o…",
       "has_solution": true,
       "missing_labels": [],
@@ -3108,19 +3102,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:3",
+        "source_sha256": "9927b135e93f4e5a006e735386759b15ff24c586284690e82993e98a0369bbc2",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Both specified transfers remove energy from the system. With work by the system positive, the first law gives ΔU = Q − W, with Q negative. Constant temperature does not require constant internal energy for a system with chemical or other internal energy stores. The discussion correctly identifies both outflows and the energy needed to replenish their combined loss. Its engine analogy is applicable to a finite process using previously stored fuel, rather than a steady operating cycle.",
         "calculation_check": "ΔU = −7.50×10^8 − 1.80×10^8 = −9.30×10^8 J = −930 MJ. Energy out is 750 + 180 = 930 MJ.",
         "assumptions": "No unlisted energy or matter transfers, and no changes in bulk kinetic or gravitational potential energy. Internal energy can change without a temperature change.",
         "notes": "Correct signs, arithmetic, and energy accounting. The industrial example requires a finite stored energy supply.",
-        "source_sha256": "9927b135e93f4e5a006e735386759b15ff24c586284690e82993e98a0369bbc2",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:33:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:4",
@@ -3131,7 +3125,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "1ba2baf36c5581926eb073c563f5c83a405883411e80e68f9c9e0fc5adef8587",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "What is the change in internal energy of a system which does $$ 4.50 \\times 10^{5} \\text{J} $$ of work while $$ 3.00 \\times 10^{6} \\text{J} $$ of heat transfer occurs into the sys…",
       "has_solution": true,
       "missing_labels": [],
@@ -3143,19 +3137,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:4",
+        "source_sha256": "1ba2baf36c5581926eb073c563f5c83a405883411e80e68f9c9e0fc5adef8587",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The net heat input is negative because the outward transfer exceeds the inward transfer. Positive work output removes additional energy, so the internal energy decrease exceeds the net heat loss. The solution answers the requested quantity correctly. The discussion's eventual cooling describes a thermal reservoir example; decreasing internal energy need not immediately lower temperature if chemical changes or phase changes occur.",
         "calculation_check": "Q = 3.00 − 8.00 = −5.00 MJ. W = 0.450 MJ, so ΔU = −5.00 − 0.450 = −5.45 MJ. Equivalently, input minus total output is 3.00 − (8.00 + 0.450) MJ.",
         "assumptions": "Only the specified heat and work transfers contribute to the energy balance. Continuing the same outputs requires an available internal energy store.",
         "notes": "Correct result and reasoning. Cooling is an illustrative consequence, not a universal implication of decreasing internal energy.",
-        "source_sha256": "1ba2baf36c5581926eb073c563f5c83a405883411e80e68f9c9e0fc5adef8587",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:33:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:5",
@@ -3166,7 +3160,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "e04a6d582e0adc96af0f09ba842ea7ab0402644afe2f833b68debe945d8e1717",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the environment in the process. (a) What is the decrease in her internal energy, assuming no change in t…",
       "has_solution": true,
       "missing_labels": [],
@@ -3179,19 +3173,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:5",
+        "source_sha256": "e04a6d582e0adc96af0f09ba842ea7ab0402644afe2f833b68debe945d8e1717",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "Both requested answers follow correctly from the givens: the chemical internal energy supplies work and rejected heat while temperature remains unchanged. However, the discussion identifies the resulting whole-body efficiency as typical 'human muscle performance' and associates 20–25% primarily with elite athletes. Whole-body gross efficiency includes background metabolism and task-dependent work definitions; it cannot be identified with muscular conversion efficiency without those distinctions. The stated typical ranges and athlete comparison are not established by the supplied evidence.",
         "calculation_check": "ΔU = −9500 − 500 = −10000 J, corresponding to 10000/4184 = 2.390 kcal. Efficiency = 500/10000 = 0.0500 = 5.00%; rejected heat accounts for 95%. For illustration, 500 J of work at 20% active conversion efficiency plus 7500 J of background expenditure would also give 5% gross efficiency.",
         "assumptions": "No additional energy transfers or thermal storage; useful work is the stated external work. Gross body efficiency and active muscular efficiency are distinct.",
         "notes": "Numerical answers are correct. Discussion conflates whole-body and muscular efficiency; empirical typical-efficiency claims remain unverified.",
-        "source_sha256": "e04a6d582e0adc96af0f09ba842ea7ab0402644afe2f833b68debe945d8e1717",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:33:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:6",
@@ -3202,7 +3196,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "f82ed9546b8c6f06802f8a9fb628e349ed4426ebc2f158619a4450dbed55e60f",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep hi…",
       "has_solution": true,
       "missing_labels": [],
@@ -3215,19 +3209,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:6",
+        "source_sha256": "f82ed9546b8c6f06802f8a9fb628e349ed4426ebc2f158619a4450dbed55e60f",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "Efficiency gives the chemical energy consumed as W/η. Constant temperature prevents thermal accumulation but does not prevent depletion of chemical internal energy. Consequently, ΔU = −E_metabolized and Q = ΔU + W are consistent with the stated model. Both requested parts are answered, and the solution explicitly identifies the system, transfers, equations, substitutions, and reasonableness check. Its abbreviated strategy omits the linked strategy's requested diagram, but that does not invalidate the physics.",
         "calculation_check": "E_metabolized = 35.0/0.0500 = 700 kJ. Heat rejected = 700 − 35.0 = 665 kJ, and 35.0 + 665 = 700 kJ. The dietary conversion is 700000/4184 = 167.3 kcal.",
         "assumptions": "Chemical energy is initially available within the modeled body system; no additional thermal storage or uncounted energy transfers. Physiological matter exchange is subsumed into the simplified metabolic energy model.",
         "notes": "Correct chemical-versus-thermal energy distinction and both results. The claim that this energy equals an apple, small banana, or bread slice lacks specified portions or supporting food data and was not verified.",
-        "source_sha256": "f82ed9546b8c6f06802f8a9fb628e349ed4426ebc2f158619a4450dbed55e60f",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:33:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:7",
@@ -3237,8 +3231,8 @@
       "end_line": 971,
       "kind": "problems-exercises",
       "ordinal": 7,
-      "source_sha256": "26c7d0737e918529bbbb95417a65e7c5b6473d8c21d7b955a3352d4dddc676b7",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "source_sha256": "7bed589387d1d386f50f45e81f8cf15f7166384ac47a504ab34ae9367526cfb6",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "(a) What is the average metabolic rate in watts of a man who metabolizes 10 500 kJ of food energy in one day? (b) What is the maximum amount of work in joules he can do without br…",
       "has_solution": true,
       "missing_labels": [],
@@ -3248,22 +3242,19 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:7",
-        "verdict": "concern",
-        "confidence": "high",
-        "reasoning_check": "All three requested calculations use the correct relations: average metabolic power E/t, maximum work ηE, and continuous motor output Pt. The discussion's equivalence between 2.10 MJ and about 2800 climbed steps is substantially inconsistent with gravitational work for an ordinary adult and ordinary stair height. No mass or step height is specified to support that comparison. The 20% efficiency is appropriately an imposed upper-bound model, not a prediction that all daily food energy is available exclusively for locomotion.",
-        "calculation_check": "E/t = 1.05×10^7/86400 = 121.53 W; ηE = 2.10×10^6 J. Motor output is 187×86400 = 1.61568×10^7 J, giving a ratio of 7.694; 7.67 is acceptable intermediate rounding. Lifting 10000 kg through 21.4 m is consistent. For a 70-kg person and 0.20-m steps, however, 2.10 MJ corresponds to approximately 15300 steps; 2800 steps require only 0.384 MJ. Matching the motor at 20% requires 80.784 MJ or approximately 19308 kcal.",
-        "assumptions": "A 24-hour day, continuous motor operation at rated mechanical output, and the stipulated gross efficiency ceiling. The illustrative stair check uses explicitly stated adult mass and stair height.",
-        "notes": "Requested answers are correct. Discussion substantially understates the equivalent stair count. Physiological efficiency ranges and claims about sustainable intake were not independently established.",
-        "source_sha256": "26c7d0737e918529bbbb95417a65e7c5b6473d8c21d7b955a3352d4dddc676b7",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "source_sha256": "7bed589387d1d386f50f45e81f8cf15f7166384ac47a504ab34ae9367526cfb6",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Requested answers are correct. Fixed: 2.10 MJ lifts a 75-kg person about 2,900 m, roughly 14,000 steps of 20 cm (was 'about 2,800 steps'). The typical-efficiency ranges in the discussion remain unchecked.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:8",
@@ -3274,7 +3265,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "bf4d00640bbf6c5c0dbad8991c669d710d15168bd98cf9d9e6f8a024cb209315",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "(a) How long will the energy in a 1470-kJ (350-kcal) cup of yogurt last in a woman doing work at the rate of 150 W with an efficiency of 20.0% (such as in leisurely climbing stair…",
       "has_solution": true,
       "missing_labels": [],
@@ -3287,19 +3278,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:8",
+        "source_sha256": "bf4d00640bbf6c5c0dbad8991c669d710d15168bd98cf9d9e6f8a024cb209315",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "The stated efficiency relates external mechanical power to total metabolic power, so dividing the food energy by 150/0.200 correctly gives its duration. The comparison with the short time needed to consume food supports the qualitative answer to part (b). The heat fraction and flight-count illustration are consistent. For weight-management interpretation, the calculated duration represents total energy expenditure during exercise; incremental expenditure above resting metabolism would require a separate subtraction. The solution identifies 750 W as total power, so its principal calculation is consistent.",
         "calculation_check": "Metabolic power = 750 W; t = 1.470×10^6/750 = 1960 s = 32.67 min. Useful work is 294 kJ, equivalent to 294000/(60×9.8×3) = 166.7 three-meter flights, reasonably rounded to 170. Heat production is 750 − 150 = 600 W. Meals of 2000–3000 kJ last 44.4–66.7 minutes at 750 W. If resting power were 60–80 W, the incremental exercise duration corresponding to 1470 kJ would instead be 35.5–36.6 minutes.",
         "assumptions": "Constant gross efficiency and work rate, with the stated food energy fully available for metabolism. Flight estimate neglects additional mechanical losses.",
         "notes": "Correct duration, energy partition, and flight estimate. Distinguish total from additional exercise expenditure; broader diet-effectiveness and exercise-capacity claims were not verified.",
-        "source_sha256": "bf4d00640bbf6c5c0dbad8991c669d710d15168bd98cf9d9e6f8a024cb209315",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:33:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:9",
@@ -3310,7 +3301,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "550ef0501e1c69aabf37f76ffd505859c9b018ac4fe8f13847fb7a2bea9370b0",
-      "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
+      "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
       "preview": "(a) A woman climbing the Washington Monument metabolizes $$ 6.00 \\times 10^{2} \\text{kJ} $$ of food energy. If her efficiency is 18.0%, how much heat transfer occurs to the enviro…",
       "has_solution": true,
       "missing_labels": [],
@@ -3323,19 +3314,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch15TheFirstLawOfThermodynamics.md::problems-exercises:9",
+        "source_sha256": "550ef0501e1c69aabf37f76ffd505859c9b018ac4fe8f13847fb7a2bea9370b0",
+        "file_sha256": "09245edc45447ed1934f6b7a757ce61aaf32c18922808a289f410c59961121b3",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "At constant body temperature, the metabolized chemical energy must supply mechanical output and outward heat transfer. Thus the fraction rejected is 1 − η = 0.820. A large required heat rejection is consistent with warming if rejection initially fails to match production; it does not imply that temperature rises in the stipulated constant-temperature process. The discussion correctly presents the temperature rise as a hypothetical failure to dissipate heat.",
         "calculation_check": "W = 0.180×600 = 108 kJ; Q_out = 600 − 108 = 492 kJ. For 10 kg of water, ΔT = 492/(10×4.184) = 11.76°C. Using the chapter 14 body specific heat of 3500 J/(kg·°C), a 60-kg body's hypothetical rise is 492000/(60×3500) = 2.34°C, consistent with the deliberately approximate 2°C. Conditional on the stated 169-m height, mgh = 60×9.8×169 = 99.37 kJ.",
         "assumptions": "No net thermal storage, stated efficiency applies to the total metabolized energy, and other energy changes are negligible. Temperature-rise comparisons use uniform-temperature lumped heat capacities.",
         "notes": "Correct heat rejection and supporting thermal estimates. Monument height, step count, physiological efficiency ranking, and health-risk characterization were not independently verified.",
-        "source_sha256": "550ef0501e1c69aabf37f76ffd505859c9b018ac4fe8f13847fb7a2bea9370b0",
-        "file_sha256": "caca566044afa407bd423f505872f365e67cba09a1547a65d3fa1ddabd7a2d77",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:33:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:33:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch15TheFirstLawOfThermodynamicsAndSomeSimpleProcesses.md::worked-example:1",

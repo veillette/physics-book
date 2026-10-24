@@ -1,6 +1,6 @@
 {
   "chapter": 17,
-  "checked_at": "2026-10-24T01:11:29+00:00",
+  "checked_at": "2026-10-24T02:00:58+00:00",
   "summary": {
     "total": 1675,
     "checked": 324,
@@ -550,7 +550,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "431ab6ad5e47f0352690ca1018225b1b759302e536ebb9f6d4e0569fbc467dbc",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "::: example Measuring Loudness: Loudness Versus Intensity Level and Frequency (a) What is the loudness in phons of a 100-Hz sound that has an intensity level of 80 dB? (b) What is…",
       "has_solution": true,
       "missing_labels": [],
@@ -560,19 +560,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::worked-example:1",
+        "source_sha256": "431ab6ad5e47f0352690ca1018225b1b759302e536ebb9f6d4e0569fbc467dbc",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "All three parts correctly use equal-loudness contours. For (a), the 100-Hz, 80-dB point lies between the 70- and 80-phon curves. For (b), the required level is the height of the 70-phon curve at 4000 Hz. For (c), determine the contour through 200 Hz at 60 dB and follow that same contour to 8000 Hz. Inspection of the actual Figure_17_06_02.svg geometry supports the reported approximate readings.",
         "calculation_check": "At 100 Hz, the 70- and 80-phon curves are approximately 77.0 and 82.8 dB, giving about 75.2 phons at 80 dB. At 4000 Hz, the 70-phon curve is approximately 66.5 dB. At 200 Hz, the 50- and 60-phon curves are approximately 59.8 and 65.2 dB; interpolation gives about 50.4 phons and a matching 8000-Hz level of 62.6 dB. These support 75 phons, 67 dB, and 63 dB within the stated graph uncertainty.",
         "assumptions": "Use the supplied population-average graph and interpolation between contours; several phons or decibels of uncertainty are explicitly allowed.",
         "notes": "All subparts and their methods agree with the referenced figure within appropriate graphical precision.",
-        "source_sha256": "431ab6ad5e47f0352690ca1018225b1b759302e536ebb9f6d4e0569fbc467dbc",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::check-understanding:1",
@@ -583,7 +583,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "93a5923f5638e3c64d3d238f4ba2ae266c015cec7215d11f8b433cefc1c82878",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "Are ultrasound and infrasound imperceptible to all hearing organisms? Explain your answer.",
       "has_solution": true,
       "missing_labels": [
@@ -597,19 +597,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::check-understanding:1",
+        "source_sha256": "93a5923f5638e3c64d3d238f4ba2ae266c015cec7215d11f8b433cefc1c82878",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Ultrasound and infrasound are defined relative to the conventional human hearing band, rather than every organism's hearing band. Consequently, sound outside that band can remain audible to another species. The surrounding chapter explicitly supplies examples: ultrasound perception by dogs, bats, and dolphins, and infrasonic responses by elephants.",
         "calculation_check": "Conceptual boundary check: a 30-kHz sound exceeds the conventional 20-kHz human upper limit while falling within the animal hearing ranges described in the chapter. The term ultrasound therefore does not imply universal inaudibility.",
         "assumptions": "Conventional human frequency boundaries of approximately 20 Hz and 20 kHz; species and individual hearing ranges differ.",
         "notes": "Correctly explains why human-defined ultrasound and infrasound need not be imperceptible to other organisms.",
-        "source_sha256": "93a5923f5638e3c64d3d238f4ba2ae266c015cec7215d11f8b433cefc1c82878",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::conceptual-questions:1",
@@ -620,7 +620,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "a8f9f9f12bde12b41693d9dfa08456596134471150a18381207be796068b5c3c",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "Why can a hearing test show that your threshold of hearing is 0 dB at 250 Hz, when [[Figure 2]](#Figure2) implies that no one can hear such a frequency at less than 20 dB?",
       "has_solution": true,
       "missing_labels": [
@@ -634,19 +634,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::conceptual-questions:1",
+        "source_sha256": "a8f9f9f12bde12b41693d9dfa08456596134471150a18381207be796068b5c3c",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "An audiogram's hearing level uses a frequency-dependent normal-hearing reference. The figure's physical intensity level uses a fixed intensity reference. Thus 0 dB hearing level at 250 Hz can correspond to approximately 20 dB on the plotted physical scale without contradiction. The surrounding chapter explicitly describes this audiogram normalization. The figure represents a population threshold, not a hard lower bound for every individual.",
         "calculation_check": "The actual 0-phon SVG curve at 250 Hz is approximately 18.4 dB, consistent with the stated approximate 20 dB. In the textbook's simplified convention, β_absolute=β_normal(250 Hz)+hearing_level, giving approximately 20+0=20 dB.",
         "assumptions": "Use the textbook's simplified audiometric calibration and approximate population-average curve. Exact clinical reference levels depend on calibration and transducer.",
         "notes": "Correctly distinguishes audiogram hearing level from physical sound level; the approximate conversion is supported by Figure 2.",
-        "source_sha256": "a8f9f9f12bde12b41693d9dfa08456596134471150a18381207be796068b5c3c",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:1",
@@ -657,7 +657,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "2a72e56cb8defec689155d5af46cd66bdff896582e29df1f80888c317790541b",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "The factor of $$ 10^{-12} $$ in the range of intensities to which the ear can respond, from threshold to that causing damage after brief exposure, is truly remarkable. If you coul…",
       "has_solution": true,
       "missing_labels": [],
@@ -670,19 +670,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:1",
+        "source_sha256": "2a72e56cb8defec689155d5af46cd66bdff896582e29df1f80888c317790541b",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The intended dynamic range is the maximum-to-minimum intensity ratio, 10^12. Applying that dimensionless ratio directly to the smallest measurable distance gives the largest distance. The problem's written 10^-12 describes the reciprocal ordering; the solution correctly resolves the intended meaning from the threshold-to-damaging intensity range. The Moon and equatorial-circumference comparisons are consistent. Calling logarithms necessary overstates their role: they are convenient, while scientific notation also represents the linear range.",
         "calculation_check": "(10^-3 m)(10^12)=10^9 m=10^6 km. Using the discussion's lunar distance gives 10^6/384000=2.604. Using approximately 40075 km for Earth's circumference gives 24.95 circuits.",
         "assumptions": "The analogy transfers a ratio of measurable magnitudes, not a sound amplitude ratio or an inverse-square distance relation. The intended intensity dynamic range is 10^12.",
         "notes": "The distance and both numerical comparisons are correct. The prompt's negative exponent reverses the ratio; the claim that logarithms are strictly necessary is an explanatory overstatement.",
-        "source_sha256": "2a72e56cb8defec689155d5af46cd66bdff896582e29df1f80888c317790541b",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:2",
@@ -692,8 +692,8 @@
       "end_line": 448,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "dad1bcc7b60b15335d7121e75a1ff9d52789f7c01df32dd68b07762f138f7792",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "source_sha256": "9c3bf53631849b89df11b5968006735cd530fb19e36abd487e996ad29abf22cc",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "The frequencies to which the ear responds vary by a factor of $$ 10^{3} $$ . Suppose the speedometer on your car measured speeds differing by the same factor of $$ 10^{3} $$ , and…",
       "has_solution": true,
       "missing_labels": [],
@@ -703,22 +703,19 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:2",
-        "verdict": "concern",
+        "source_sha256": "9c3bf53631849b89df11b5968006735cd530fb19e36abd487e996ad29abf22cc",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "A maximum-to-minimum speed ratio of 1000 requires v_min=v_max/1000, so the main answer is correct. However, the discussion converts this speed incorrectly into both feet per hour and feet per minute. These are substantial conversion errors, not ordinary rounding. The comparison with a 3-mi/h walking speed is correct.",
-        "calculation_check": "90.0/1000=0.0900 mi/h. Multiplying by 5280 ft/mi gives 475.2 ft/h, and dividing by 60 gives 7.92 ft/min. The discussion instead states 132 ft/h and 2.2 ft/min, each too small by a factor of 3.6. The walking-speed ratio is 3/0.09=33.3.",
-        "assumptions": "The stated range factor is maximum divided by minimum nonzero readable speed; standard mile and hour conversions.",
-        "notes": "Main answer 0.0900 mi/h is correct, but the discussion must read approximately 475 ft/h and 7.92 ft/min.",
-        "source_sha256": "dad1bcc7b60b15335d7121e75a1ff9d52789f7c01df32dd68b07762f138f7792",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "notes": "Correct 0.0900 mi/h. Fixed: the discussion's conversions are now 475 ft/h and 7.92 ft/min (were 132 ft/h and 2.2 ft/min).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:3",
@@ -729,7 +726,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "e78d2d7a3fb1f36d3b1e883cb4e45f408237c907536d44c61f0ec5bdf8ec21c6",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "What are the closest frequencies to 500 Hz that an average person can clearly distinguish as being different in frequency from 500 Hz? The sounds are not present simultaneously.",
       "has_solution": true,
       "missing_labels": [],
@@ -742,19 +739,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:3",
+        "source_sha256": "e78d2d7a3fb1f36d3b1e883cb4e45f408237c907536d44c61f0ec5bdf8ec21c6",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Using the chapter's sequential-tone discrimination threshold, the minimum frequency separation is 0.003 times the 500-Hz reference. Subtracting and adding that separation gives both requested nearest frequencies. The discussion appropriately treats discrimination as dependent on listening conditions and the listener. Its musical comparison is numerically sound for the conventional equal-tempered semitone, although calling that the smallest interval in all Western music is too broad.",
         "calculation_check": "Δf=0.003(500 Hz)=1.5 Hz, so the frequencies are 498.5 and 501.5 Hz. An equal-tempered semitone has fractional spacing 2^(1/12)-1=0.059463, or 5.946%, approximately 19.8 times the stipulated 0.3% threshold.",
         "assumptions": "Sequential, stable tones near 500 Hz; reference-based fractional discrimination of 0.300% under the chapter's typical listening model.",
         "notes": "Both requested frequencies and the semitone scale comparison are correct. Additional musician and aging claims were not independently established.",
-        "source_sha256": "e78d2d7a3fb1f36d3b1e883cb4e45f408237c907536d44c61f0ec5bdf8ec21c6",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:4",
@@ -765,7 +762,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "a1b9e63185f9c1ba3741d2ab14c39f1f2aefee97b518bae6da333f12642faa10",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "Can the average person tell that a 2002-Hz sound has a different frequency than a 1999-Hz sound without playing them simultaneously?",
       "has_solution": true,
       "missing_labels": [],
@@ -778,19 +775,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:4",
+        "source_sha256": "a1b9e63185f9c1ba3741d2ab14c39f1f2aefee97b518bae6da333f12642faa10",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The sequential-tone separation is approximately 0.15%, below the chapter's assumed 0.3% discrimination threshold, supporting the stated answer for an average listener under that model. Using either individual frequency instead of the mean gives the same conclusion. The simultaneous-tone comparison correctly invokes 3-Hz beats, provided the tones overlap with suitable amplitudes. The caveats acknowledge individual differences.",
         "calculation_check": "Δf=2002-1999=3 Hz and f_mean=2000.5 Hz, giving 100(3/2000.5)=0.1499625%. A 0.3% threshold near this frequency corresponds to approximately 6.00 Hz. The beat frequency would be |2002-1999|=3 Hz.",
         "assumptions": "Adopt the textbook's approximate 0.3% sequential-tone threshold; comparable presentation levels and stable tones. Beat detectability additionally requires sufficient audibility and modulation depth.",
         "notes": "The answer and beat-frequency explanation are correct within the stated discrimination model. The threshold is approximate rather than a universal perceptual boundary.",
-        "source_sha256": "a1b9e63185f9c1ba3741d2ab14c39f1f2aefee97b518bae6da333f12642faa10",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:5",
@@ -801,7 +798,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "4e5be084475d4c4d253dda310fc0920283ea2fe9a9bc34b7b3a97632d69e5be4",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "If your radio is producing an average sound intensity level of 85 dB, what is the next lowest sound intensity level that is clearly less intense?",
       "has_solution": true,
       "missing_labels": [],
@@ -813,19 +810,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:5",
+        "source_sha256": "4e5be084475d4c4d253dda310fc0920283ea2fe9a9bc34b7b3a97632d69e5be4",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "Interpreting 'clearly less intense' using the chapter's easily noticed 3-dB change gives 82 dB correctly. A 3-dB reduction approximately halves received intensity; it also halves acoustic power only when radiation pattern, propagation, and observation geometry remain fixed. The discussion's attribution of an 85-dB, eight-hour exposure limit specifically to OSHA appears to conflate an action or recommended level with a permissible exposure limit. That regulatory assertion cannot be verified from the supplied material, and external verification was prohibited. The claim about most volume controls using increments of at least 2–3 dB is also unsupported.",
         "calculation_check": "85-3=82 dB. I_82/I_85=10^(-3/10)=0.501187, supporting the approximately half-intensity statement. Neither this calculation nor the chapter's perceptibility rule establishes an occupational exposure limit.",
         "assumptions": "Unchanged sound spectrum and listening geometry; use 3 dB as the chapter's approximate easily noticed change rather than an exact individual threshold.",
         "notes": "The 82-dB answer and intensity ratio are correct. The specific OSHA claim needs authoritative verification; the volume-control generalization is unsubstantiated.",
-        "source_sha256": "4e5be084475d4c4d253dda310fc0920283ea2fe9a9bc34b7b3a97632d69e5be4",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:6",
@@ -836,7 +833,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "8c03daa580c3d1f1e09da2f0803fdd00c7420bb0061311987859cff6f28ebe96",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "Can you tell that your roommate turned up the sound on the TV if its average sound intensity level goes from 70 to 73 dB?",
       "has_solution": true,
       "missing_labels": [],
@@ -849,19 +846,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:6",
+        "source_sha256": "8c03daa580c3d1f1e09da2f0803fdd00c7420bb0061311987859cff6f28ebe96",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The level increases by 3 dB, which the chapter characterizes as easily noticed, so the main answer is correct. The corresponding intensity nearly doubles without requiring perceived loudness to double. However, the discussion turns an approximate perceptibility rule into an exact, universally obvious threshold. It also introduces an unsupported claim that exposure beyond eight hours at either 70 or 73 dB can cause gradual hearing loss. That exposure-duration conclusion does not follow from the decibel calculation, and the nearby intensity table supplies no such threshold for these levels.",
         "calculation_check": "Δβ=73-70=3 dB and I_2/I_1=10^0.3=1.99526. Relative to I_0=10^-12 W/m², the intensities are 1.00×10^-5 and 1.995×10^-5 W/m². These establish the energy-flux ratio, not an injury threshold or exact loudness ratio.",
         "assumptions": "Comparable TV content and spectrum, unchanged listener position, and the chapter's typical perceptibility approximation. No medical dose-response model is supplied.",
         "notes": "Main answer and intensity calculation are correct. The discussion overstates perceptual certainty and gives an unsupported eight-hour hearing-risk claim; external medical verification was not performed.",
-        "source_sha256": "8c03daa580c3d1f1e09da2f0803fdd00c7420bb0061311987859cff6f28ebe96",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:7",
@@ -872,7 +869,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "7c4ae748fc50a1f5c06b31b8ded096947e4bfe06ab73262ee3492d6310b51cf0",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "Based on the graph in [[Figure 2]](#Figure2), what is the threshold of hearing in decibels for frequencies of 60, 400, 1000, 4000, and 15 000 Hz? Note that many AC electrical appl…",
       "has_solution": true,
       "missing_labels": [],
@@ -885,19 +882,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:7",
+        "source_sha256": "7c4ae748fc50a1f5c06b31b8ded096947e4bfe06ab73262ee3492d6310b51cf0",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The threshold is read from the 0-phon contour at each requested frequency. Inspection of the actual Figure_17_06_02.svg supports the low-frequency rise, the 1000-Hz reference, and the negative threshold near maximum sensitivity. The 15000-Hz answer is a coarse reading, but remains within the chapter's stated several-decibel graph uncertainty. Negative decibels correctly indicate intensity below the chosen reference, not negative intensity.",
         "calculation_check": "Interpolating the SVG contour gives approximately 48.2, 9.2, -0.1, -7.3, and 16.2 dB at 60, 400, 1000, 4000, and 15000 Hz respectively. The nominal 1000-Hz value is 0 dB; the tiny SVG offset is graphical. The reported 48, 9, 0, -7, and approximately 20 dB are acceptable graph readings. Also, 10^(-7/10)=0.199526, confirming the one-fifth-intensity explanation.",
         "assumptions": "Population-average normal-hearing contour, approximate graphical readings, and fixed reference intensity 10^-12 W/m². Individual thresholds, especially at high frequencies, vary.",
         "notes": "All five threshold readings are acceptable at the figure's precision, and the negative-decibel interpretation is correct. Evolutionary and age-related explanatory claims were not independently verified.",
-        "source_sha256": "7c4ae748fc50a1f5c06b31b8ded096947e4bfe06ab73262ee3492d6310b51cf0",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:20:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:20:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:8",
@@ -908,7 +905,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "2e4a28635da12a88a101cbe0a76614b46022671b032bad163e4ebdf4652048ea",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "What sound intensity levels must sounds of frequencies 60, 3000, and 8000 Hz have in order to have the same loudness as a 40-dB sound of frequency 1000 Hz (that is, to have a loud…",
       "has_solution": true,
       "missing_labels": [],
@@ -920,19 +917,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:8",
+        "source_sha256": "2e4a28635da12a88a101cbe0a76614b46022671b032bad163e4ebdf4652048ea",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Following the 40-phon curve in the supplied SVG gives approximately 69.5, 36.6, and 51.8 dB at 60, 3000, and 8000 Hz. These support all three answers and the explanation of frequency-dependent loudness. However, the discussion overgeneralizes when it says sound systems must boost low frequencies to compensate for normal hearing. Equal-loudness contours describe perception; they do not by themselves prescribe playback equalization. Faithful reproduction and equal perceived loudness of separate tones are different requirements. Compensation for a change in listening level is a more specific application.",
         "calculation_check": "Relative to 40 dB, the stated levels imply intensity ratios 10^3 = 1000, 10^(-0.3) = 0.501, and 10^1.2 = 15.85. All stated conversions are correct.",
         "assumptions": "Average normal hearing, isolated tones, and approximate readings of Figure 2. Intensity comparisons refer to sound at the listener; translating them into loudspeaker power requires radiation and efficiency assumptions. Hearing injury cannot be inferred from perceived loudness alone.",
         "notes": "Graph answers and intensity ratios are correct. The discussion incorrectly presents bass equalization as a universal requirement of sound reproduction.",
-        "source_sha256": "2e4a28635da12a88a101cbe0a76614b46022671b032bad163e4ebdf4652048ea",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:9",
@@ -943,7 +940,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "6eb632b9f5b3b56f85062c6ab2d2afaba88b870e0448aed1a99315af22e0ba86",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "What is the approximate sound intensity level in decibels of a 600-Hz tone if it has a loudness of 20 phons? If it has a loudness of 70 phons?",
       "has_solution": true,
       "missing_labels": [],
@@ -955,19 +952,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:9",
+        "source_sha256": "6eb632b9f5b3b56f85062c6ab2d2afaba88b870e0448aed1a99315af22e0ba86",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Figure 2 gives approximately 22.7 dB at 20 phons and 69.8 dB at 70 phons for 600 Hz, agreeing with both answers. The shrinking difference from the 1000-Hz reference supports the explanation of flatter contours at higher levels. The final claim that this flattening means hearing-damage risk becomes more uniform across frequencies does not follow: equal-loudness contours measure perceived loudness, not injury susceptibility or exposure dose.",
         "calculation_check": "The approximate frequency penalties are 23 - 20 = 3 dB and 70 - 70 = 0 dB. The former corresponds to about twice the reference intensity. These are consistent with the graph.",
         "assumptions": "Average normal hearing and pure tones. Loudness compensation is understood as adjustment for playback level. No injury-versus-frequency data or exposure duration is supplied.",
         "notes": "Both numerical answers are correct. The discussion makes an unsupported connection between flatter loudness contours and uniform hearing-damage risk.",
-        "source_sha256": "6eb632b9f5b3b56f85062c6ab2d2afaba88b870e0448aed1a99315af22e0ba86",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:10",
@@ -978,7 +975,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "6ce50296a0d17a1d5ad820271ae325a6c8c82b646b30d1284930af2c53d27ced",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "(a) What are the loudnesses in phons of sounds having frequencies of 200, 1000, 5000, and 10 000 Hz, if they are all at the same 60.0-dB sound intensity level? (b) If they are all…",
       "has_solution": true,
       "missing_labels": [],
@@ -988,19 +985,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:10",
+        "source_sha256": "6ce50296a0d17a1d5ad820271ae325a6c8c82b646b30d1284930af2c53d27ced",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Inverting Figure 2 at each requested frequency and level reproduces all twelve results within normal graph-reading uncertainty. The below-threshold classification at 200 Hz and 20 dB is correct. At 1000 Hz, phon values equal the given decibel values by definition. The discussion correctly describes the reduced variation of loudness with frequency at high levels. Its hearing-conservation example supplies no basis for treating either 60-dB tone as hazardous; equal intensity and perceived loudness alone do not determine injury risk.",
         "calculation_check": "Interpolation of the SVG curves gives, in frequency order 200, 1000, 5000, and 10000 Hz: approximately (50.4, 60, 58.3, 47.8) phons at 60 dB; (108.8, 110, 116.8, 104.8) phons at 110 dB; and (inaudible, 20, 20.8, 10.1) phons at 20 dB. The 200-Hz threshold is approximately 22.6 dB.",
         "assumptions": "The supplied average-normal-hearing contours define the model; interpolation has uncertainty of several phons. Statements about reduced frequency dependence refer to loudness, not pitch discrimination. Hearing-aid and aging applications are qualitative.",
         "notes": "All requested graph readings are supported. The hearing-hazard illustration should not be interpreted as a risk calculation for 60-dB exposure.",
-        "source_sha256": "6ce50296a0d17a1d5ad820271ae325a6c8c82b646b30d1284930af2c53d27ced",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:11",
@@ -1011,7 +1008,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "9a03e24c015f3aceab85ff4613532b0b286e127e5c7b709cd7918b3629186d0d",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "Suppose a person has a 50-dB hearing loss at all frequencies. By how many factors of 10 will low-intensity sounds need to be amplified to seem normal to this person? Note that sma…",
       "has_solution": true,
       "missing_labels": [
@@ -1027,19 +1024,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:11",
+        "source_sha256": "9a03e24c015f3aceab85ff4613532b0b286e127e5c7b709cd7918b3629186d0d",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A threshold elevated by 50 dB requires an intensity increase satisfying 10 log10(G) = 50, hence five factors of ten. The solution answers the requested low-intensity gain and appropriately avoids applying that gain indiscriminately to loud sounds. It also correctly limits what this calculation can establish about treatment.",
         "calculation_check": "G = 10^(50/10) = 100000. This is an intensity gain; the corresponding pressure-amplitude gain in the same acoustic impedance would be sqrt(G), approximately 316.",
         "assumptions": "Hearing loss means a threshold elevation relative to normal at each frequency. The exercise approximates restoration of low-level audibility by shifting that threshold; it does not establish restoration of all normal loudness perception. The linked clinical source and classification were not independently verified under the no-web constraint.",
         "notes": "The required intensity amplification is correctly identified as five factors of ten. Clinical treatment is appropriately left undetermined.",
-        "source_sha256": "9a03e24c015f3aceab85ff4613532b0b286e127e5c7b709cd7918b3629186d0d",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:12",
@@ -1050,7 +1047,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "459fa8913abaeff144ff1e922d46e6c36cc9bd8f1debd488a3d1ae9210cb285a",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "If a woman needs an amplification of $$ 5.0 \\times 10^{12} $$ times the threshold intensity to enable her to hear at all frequencies, what is her overall hearing loss in dB? Note…",
       "has_solution": true,
       "missing_labels": [],
@@ -1063,19 +1060,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:12",
+        "source_sha256": "459fa8913abaeff144ff1e922d46e6c36cc9bd8f1debd488a3d1ae9210cb285a",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The logarithmic calculation correctly gives a threshold elevation of about 127 dB. The discussion then confuses this relative hearing loss with an absolute 127-dB sound level at every frequency. The normal threshold varies with frequency, so the actual threshold is the normal threshold plus 127 dB. Furthermore, the numerical loss alone does not establish that cochlear implants are essential, that this person is an ideal candidate, or that every conventional aid is useless. Those conclusions require information about the impairment and functional hearing that the problem does not provide. A pain threshold is also not a universal boundary for immediate injury.",
         "calculation_check": "10 log10(5.0 × 10^12) = 126.9897 dB. Using Figure 2, absolute thresholds would be approximately 164 dB at 100 Hz and 120 dB at 4000 Hz, rather than uniformly 127 dB. Formally, constant amplification would take a 60-dB input to about 187 dB, but that extrapolation does not establish a realizable hearing-aid output.",
         "assumptions": "The amplification factor compares the person's threshold intensity with the normal threshold intensity at each frequency. The gain calculation is a simplified audibility model, not a clinical evaluation. Implant prevalence, candidacy, device capability, and the claimed usual testing method were not externally verified.",
         "notes": "The 127-dB loss is correct. The discussion confuses relative loss with absolute sound level and makes unsupported treatment and immediate-injury claims.",
-        "source_sha256": "459fa8913abaeff144ff1e922d46e6c36cc9bd8f1debd488a3d1ae9210cb285a",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:13",
@@ -1086,7 +1083,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "0b9cace75508ee0b9c1f3a0f30559b718a08819712d80a351761dcbf97392cc6",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "(a) What is the intensity in watts per meter squared of a just barely audible 200-Hz sound? (b) What is the intensity in watts per meter squared of a barely audible 4000-Hz sound?",
       "has_solution": true,
       "missing_labels": [
@@ -1103,19 +1100,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:13",
+        "source_sha256": "0b9cace75508ee0b9c1f3a0f30559b718a08819712d80a351761dcbf97392cc6",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Barely audible tones lie on the threshold curve. Reading that curve and converting with I = I0 × 10^(beta/10) is the correct method for both parts. The SVG gives approximately 22.6 dB at 200 Hz and -7.25 dB at 4000 Hz; the solution's 20 and -7 dB are reasonable coarse graph estimates. The resulting large difference in sensitivity is physically consistent.",
         "calculation_check": "Using the stated readings gives I200 = 1.0 × 10^-10 W/m² and I4000 = 1.995 × 10^-13 W/m², with ratio 501. Using the more detailed SVG readings instead gives approximately 1.82 × 10^-10 and 1.88 × 10^-13 W/m². The difference reflects graph-reading precision.",
         "assumptions": "Average normal hearing, threshold defined by the supplied curve, and I0 = 10^-12 W/m². Intensities derived from coarse decibel readings are approximate.",
         "notes": "Both threshold-to-intensity conversions are correct for the stated graph estimates; differences from finer readings are not substantive errors.",
-        "source_sha256": "0b9cace75508ee0b9c1f3a0f30559b718a08819712d80a351761dcbf97392cc6",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:14",
@@ -1126,7 +1123,7 @@
       "kind": "problems-exercises",
       "ordinal": 14,
       "source_sha256": "4f25f2ce759b4844459a840be8aa03e61cfd77cb2d97f4f4e03dcf5bc5aae4f5",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "(a) Find the intensity in watts per meter squared of a 60.0-Hz sound having a loudness of 60 phons. (b) Find the intensity in watts per meter squared of a 10 000-Hz sound having a…",
       "has_solution": true,
       "missing_labels": [],
@@ -1139,19 +1136,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:14",
+        "source_sha256": "4f25f2ce759b4844459a840be8aa03e61cfd77cb2d97f4f4e03dcf5bc5aae4f5",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The correct procedure is to read the 60-phon contour and then invert the decibel definition. Figure 2 gives approximately 76.4 dB at 60 Hz and 71.7 dB at 10000 Hz, supporting the stated 77 and 72 dB. The comparison with the 1000-Hz reference and the larger low-frequency penalty at lower loudness are supported. The physiological explanations are qualitative; the subwoofer-power interpretation additionally requires comparable sound-delivery conditions.",
         "calculation_check": "For 77 dB, I = 10^-12 × 10^7.7 = 5.012 × 10^-5 W/m². For 72 dB, I = 1.585 × 10^-5 W/m². Their ratio is 10^0.5 = 3.162. At 1000 Hz and 60 phons, I = 10^-6 W/m². A 2-dB reading uncertainty produces an intensity factor of 1.585; 3 dB would produce about a factor of two.",
         "assumptions": "Average normal hearing, pure tones, approximate contour readings, and I0 = 10^-12 W/m². Power comparisons presume comparable geometry and radiation; loudness differences alone do not quantify hearing damage.",
         "notes": "Both intensities and their comparison are correct within graph-reading precision. The stated factor-of-1.5 uncertainty corresponds to roughly 2 dB.",
-        "source_sha256": "4f25f2ce759b4844459a840be8aa03e61cfd77cb2d97f4f4e03dcf5bc5aae4f5",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:15",
@@ -1162,7 +1159,7 @@
       "kind": "problems-exercises",
       "ordinal": 15,
       "source_sha256": "746065fdcdce5f34a2ced231793be34e05925c31b1bc86d8c67e3e0cd05610a0",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "A person has a hearing threshold 10 dB above normal at 100 Hz and 50 dB above normal at 4000 Hz. How much more intense must a 100-Hz tone be than a 4000-Hz tone if they are both b…",
       "has_solution": true,
       "missing_labels": [
@@ -1179,19 +1176,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:15",
+        "source_sha256": "746065fdcdce5f34a2ced231793be34e05925c31b1bc86d8c67e3e0cd05610a0",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Each hearing loss must be added to the normal threshold at that frequency before comparing absolute intensities. The solution does this correctly, rather than comparing the 10- and 50-dB losses alone. Figure 2 supports the estimated normal thresholds within graph-reading uncertainty.",
         "calculation_check": "Using the solution's readings, the thresholds are 38 + 10 = 48 dB and -7 + 50 = 43 dB. Thus I100/I4000 = 10^((48-43)/10) = 3.162. Finer SVG readings of approximately 37 and -7.25 dB give a ratio about 2.66, consistent with the coarse graphical estimate.",
         "assumptions": "The losses are frequency-specific threshold elevations relative to normal hearing. The normal thresholds are read approximately from Figure 2, and both sounds are at this person's detection thresholds.",
         "notes": "Correctly includes the different normal thresholds. The approximately 3.2 intensity ratio is supported by the stated graph readings.",
-        "source_sha256": "746065fdcdce5f34a2ced231793be34e05925c31b1bc86d8c67e3e0cd05610a0",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:16",
@@ -1202,7 +1199,7 @@
       "kind": "problems-exercises",
       "ordinal": 16,
       "source_sha256": "783495109c7c20356dd821ae7c2d02cf2cccd44dad22175a54da83531e75b211",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "A child has a hearing loss of 60 dB near 5000 Hz, due to noise exposure, and normal hearing elsewhere. How much more intense is a 5000-Hz tone than a 400-Hz tone if they are both…",
       "has_solution": true,
       "missing_labels": [],
@@ -1215,19 +1212,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:16",
+        "source_sha256": "783495109c7c20356dd821ae7c2d02cf2cccd44dad22175a54da83531e75b211",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The threshold comparison is correctly modeled: add 60 dB to the normal 5000-Hz threshold and compare it with the normal 400-Hz threshold. The discussion goes beyond the givens by treating the narrow loss near 5000 Hz as severe impairment throughout 4000–8000 Hz, despite the stipulated normal hearing elsewhere. Specific speech deficits, educational consequences, treatment needs, and the most likely exposure cannot be determined from these two threshold values. Figure 4 supplies a cap-gun example, not evidence that this hypothetical child necessarily has the same history or clinical consequences.",
         "calculation_check": "With the stated readings, the thresholds are 55 and 9 dB, giving 10^(46/10) = 39810.7, or 4.0 × 10^4. The SVG's approximately -3.65 and 9.21 dB readings would give about 5.2 × 10^4; this difference is within the stated coarse graph-reading precision.",
         "assumptions": "A 60-dB threshold elevation applies near 5000 Hz, with normal hearing elsewhere. No bandwidth, speech testing, exposure history, or clinical assessment is supplied. Claims about prevalence, cap-gun peak levels, organizational recommendations, and treatment efficacy were not externally verified.",
         "notes": "The intensity-ratio calculation is correct. The discussion extrapolates a localized threshold loss into unsupported broad speech, clinical, and causal conclusions.",
-        "source_sha256": "783495109c7c20356dd821ae7c2d02cf2cccd44dad22175a54da83531e75b211",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17Hearing.md::problems-exercises:17",
@@ -1238,7 +1235,7 @@
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "9df907eb95ed4c3a301f7e6fbf62bf341a24ef96fae6e8d1cea2e451b72ec605",
-      "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
+      "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
       "preview": "What is the ratio of intensities of two sounds of identical frequency if the first is just barely discernible as louder to a person than the second?",
       "has_solution": true,
       "missing_labels": [],
@@ -1251,19 +1248,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17Hearing.md::problems-exercises:17",
+        "source_sha256": "9df907eb95ed4c3a301f7e6fbf62bf341a24ef96fae6e8d1cea2e451b72ec605",
+        "file_sha256": "544364793acf9ab10915169aeca2155a88430b135b5681c5eb1ac9c59e76a01a",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Using the chapter's approximate 1-dB discernibility criterion gives the correct requested ratio. However, the discussion turns that approximation into a universal statement of constant perceptual discrimination regardless of absolute intensity. A logarithmic definition of physical sound level does not establish a universal psychophysical law; the solution itself acknowledges dependence on level and frequency. Claims about regulatory rounding, measurement limits, and whether acoustic treatments are worth their cost also do not follow from the JND calculation.",
         "calculation_check": "I1/I2 = 10^(1/10) = 1.258925, so the first sound is about 25.9% more intense. Changing logarithm base consistently leaves this physical ratio unchanged: Delta beta = (10/ln 10) ln(I1/I2).",
         "assumptions": "Identical frequency and an approximate 1-dB JND under the chapter's listening conditions. The ratio is conditional on that criterion, rather than universal across listeners, levels, and environments. External regulatory and engineering assertions were not verified.",
         "notes": "The 1.26 ratio is correct. The discussion overstates the universality of the JND and confuses decibel mathematics with proof of perceptual behavior.",
-        "source_sha256": "9df907eb95ed4c3a301f7e6fbf62bf341a24ef96fae6e8d1cea2e451b72ec605",
-        "file_sha256": "b0e1e78832c5ea7b31b03c47b0ab585daf2b3d1850510004c3453fbc5b923bc5",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::worked-example:1",
@@ -1273,8 +1270,8 @@
       "end_line": 252,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "8166c0f1b004518c1412971a7c1a966f352812289876aee5a18b02931efe7986",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "source_sha256": "a16807df58d17fe194031e3a07ff3210305736d096a4a14260144bec9c39a4bb",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "::: example Calculating Sound Intensity Levels: Sound Waves Calculate the sound intensity level in decibels for a sound wave traveling in air at $$0ºC $$ and having a pressure amp…",
       "has_solution": true,
       "missing_labels": [],
@@ -1283,22 +1280,19 @@
         "skipped": 19
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::worked-example:1",
-        "verdict": "concern",
+        "source_sha256": "a16807df58d17fe194031e3a07ff3210305736d096a4a14260144bec9c39a4bb",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "For a sinusoidal progressive sound wave, particle velocity and pressure obey u = p/(rho c), so the time-averaged intensity is p_peak²/(2 rho c). The Solution uses this correct relation and obtains the correct sound level. The Strategy instead explicitly squares the denominator, writing pressure amplitude squared divided by (2 rho c)², and even displays p where density is intended. This is a substantive formula error despite the correct subsequent calculation.",
-        "calculation_check": "I = 0.656²/(2 × 1.29 × 331) = 5.03918 × 10^-4 W/m²; beta = 10 log10(I/10^-12) = 87.0236 dB. Relative to 80 dB, the intensity ratio is 5.039, and 10 log10(5) = 6.9897 dB. The erroneous squared-impedance denominator has units of velocity squared, not intensity.",
-        "assumptions": "Linear sinusoidal progressive sound in air at atmospheric pressure and 0°C, with rho = 1.29 kg/m³ and c = 331 m/s. The given amplitude is peak pressure, not RMS pressure.",
-        "notes": "Numerical solution and discussion are correct. The Strategy states a dimensionally incorrect pressure–intensity formula with a squared denominator.",
-        "source_sha256": "8166c0f1b004518c1412971a7c1a966f352812289876aee5a18b02931efe7986",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "notes": "Numerical solution correct. Fixed: the Strategy formula is I = (Δp)²/(2ρv_w) (it had a squared denominator and 'pv').",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::worked-example:2",
@@ -1309,7 +1303,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "0b349fa1d1792ed78410289c1cc9485460c582b7a5a2e02e102ca79b4dd362a7",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "::: example Change Intensity Levels of a Sound: What Happens to the Decibel Level? Show that if one sound is twice as intense as another, it has a sound level about 3 dB higher. *…",
       "has_solution": true,
       "missing_labels": [],
@@ -1321,19 +1315,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::worked-example:2",
+        "source_sha256": "0b349fa1d1792ed78410289c1cc9485460c582b7a5a2e02e102ca79b4dd362a7",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Subtracting the two sound-level definitions cancels the common reference intensity and yields beta2 - beta1 = 10 log10(I2/I1). Substituting a ratio of two proves the requested approximately 3-dB increase. The discussion correctly explains why the result is independent of the absolute intensities.",
         "calculation_check": "10 log10(2) = 3.01030 dB. A 3.0-dB difference gives a ratio 10^0.3 = 1.9953, validating the rounded 56-versus-53 and 100-versus-97 dB examples.",
         "assumptions": "Both intensity levels use the same reference intensity, and both intensities are positive. The result concerns physical sound intensity level, not a doubling of perceived loudness.",
         "notes": "Correct logarithmic derivation, arithmetic, and examples; no substantive concern.",
-        "source_sha256": "0b349fa1d1792ed78410289c1cc9485460c582b7a5a2e02e102ca79b4dd362a7",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:24:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:24:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::check-understanding:1",
@@ -1344,7 +1338,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "74f799ec5b5a887ef7f53528bd7df4912fe880fb8100f1350092da3b7dd4c5a3",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Describe how amplitude is related to the loudness of a sound.",
       "has_solution": true,
       "missing_labels": [
@@ -1360,19 +1354,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::check-understanding:1",
+        "source_sha256": "74f799ec5b5a887ef7f53528bd7df4912fe880fb8100f1350092da3b7dd4c5a3",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a fixed frequency, medium, and waveform, intensity scales as the square of acoustic amplitude. Increasing amplitude therefore increases sound level, while perceived loudness also depends on frequency and listening level. The solution correctly distinguishes these quantities.",
         "calculation_check": "Δβ = 10 log10(A2²/A1²) = 20 log10(A2/A1). Doubling amplitude gives 20 log10(2) = 6.0206 dB.",
         "assumptions": "Linear acoustics; amplitudes measured consistently; the same frequency, medium, and waveform for the comparison.",
         "notes": "Correct amplitude–intensity relation and decibel change; appropriately qualifies perceived loudness.",
-        "source_sha256": "74f799ec5b5a887ef7f53528bd7df4912fe880fb8100f1350092da3b7dd4c5a3",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::check-understanding:2",
@@ -1383,7 +1377,7 @@
       "kind": "check-understanding",
       "ordinal": 2,
       "source_sha256": "dea41acb357d74d3a3dc955b0a0e824f2618246ad167eb13b3701ff64eccaec3",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Identify common sounds at the levels of 10 dB, 50 dB, and 100 dB.",
       "has_solution": true,
       "missing_labels": [
@@ -1397,19 +1391,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::check-understanding:2",
+        "source_sha256": "dea41acb357d74d3a3dc955b0a0e824f2618246ad167eb13b3701ff64eccaec3",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The requested examples should be consistent with the chapter's sound-level table and should specify listening conditions when needed. Table 1 assigns a quiet home 30 dB, an average home 40 dB, and an average office or soft music 50 dB. Thus the solution's quiet-home example conflicts with the instructional reference. Jet takeoff has no unique received level without distance; the table gives a jet airplane at 30 m as 140 dB. The hair-rustling example is not independently established by the supplied material.",
         "calculation_check": "The requested levels correspond to 10^-11, 10^-7, and 10^-2 W/m². The table's 30-dB quiet home is 100 times less intense than the requested 50-dB example.",
         "assumptions": "Examples are approximate received levels at a listener, rather than intrinsic properties of sound sources.",
         "notes": "The 50-dB example conflicts with Table 1; the jet example needs a listening distance. The 10-dB hair example remains unverified.",
-        "source_sha256": "dea41acb357d74d3a3dc955b0a0e824f2618246ad167eb13b3701ff64eccaec3",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::conceptual-questions:1",
@@ -1420,7 +1414,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "66a81c867b24afa9c0637dc9a1aadba22954a46b0eeee8f0f96db43e4dcaed88",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Six members of a synchronized swim team wear earplugs to protect themselves against water pressure at depths, but they can still hear the music and perform the combinations in the…",
       "has_solution": true,
       "missing_labels": [
@@ -1434,19 +1428,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::conceptual-questions:1",
+        "source_sha256": "66a81c867b24afa9c0637dc9a1aadba22954a46b0eeee8f0f96db43e4dcaed88",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "Bone-conducted stimulation provides a plausible explanation for hearing underwater despite plugged ear canals. Water couples acoustic motion into the head more effectively than air, so blocking the usual airborne ear-canal pathway can impair hearing more on land. This answers the question's request for a possible explanation. Underwater speakers are an added assumption, and the solution should not be interpreted as demonstrating that bone conduction is the exclusive underwater pathway.",
         "calculation_check": "Acoustic energy transmission improves when the impedances of adjoining materials are more closely matched. Water and bodily tissues are much better matched than air and bodily tissues, supporting the proposed qualitative coupling difference.",
         "assumptions": "The music produces an adequate underwater acoustic field; earplugs substantially attenuate airborne hearing; sufficient stimulation reaches the cochlea through head vibration.",
         "notes": "Plausible qualitative explanation. Speaker placement and the relative contributions of underwater hearing pathways are not established by the givens.",
-        "source_sha256": "66a81c867b24afa9c0637dc9a1aadba22954a46b0eeee8f0f96db43e4dcaed88",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::conceptual-questions:2",
@@ -1457,7 +1451,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "9ef1dc58b883d336c1ab92d79331da3df5fb339bbcc0f2041d188478276fba6f",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "A community is concerned about a plan to bring train service to their downtown from the town’s outskirts. The current sound intensity level, even though the rail yard is blocks aw…",
       "has_solution": true,
       "missing_labels": [
@@ -1473,19 +1467,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::conceptual-questions:2",
+        "source_sha256": "9ef1dc58b883d336c1ab92d79331da3df5fb339bbcc0f2041d188478276fba6f",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Interpreting the mayor's statement as a 30-dB increase, the new total level is 100 dB. A logarithmic level difference of 30 dB represents a thousandfold intensity increase, making concern reasonable. The examples and the statement that eight-hour daily exposure can cause damage agree with the chapter's Table 1. The solution appropriately describes potential harm rather than asserting that every brief train passage causes injury.",
         "calculation_check": "I70 = 10^-5 W/m² and I100 = 10^-2 W/m², giving I100/I70 = 1000.",
         "assumptions": "The stated difference is an increase in total received level at comparable downtown locations. Actual hearing risk depends on exposure duration and sound characteristics.",
         "notes": "Correct interpretation of a 30-dB increase and its potential significance; actual train exposure duration is unspecified.",
-        "source_sha256": "9ef1dc58b883d336c1ab92d79331da3df5fb339bbcc0f2041d188478276fba6f",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:1",
@@ -1496,7 +1490,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "6499b7353bfc0a6c703b7e2dcac98375dd7b48ac919ca44c9e78cb9454acf9dc",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "What is the intensity in watts per meter squared of 85.0-dB sound?",
       "has_solution": true,
       "missing_labels": [],
@@ -1509,19 +1503,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:1",
+        "source_sha256": "6499b7353bfc0a6c703b7e2dcac98375dd7b48ac919ca44c9e78cb9454acf9dc",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Inverting the intensity-level definition gives I = I0 × 10^(β/10), using β as its numerical value in decibels. The solution applies this relation correctly and reports the requested intensity. Its discussion of small absolute power and possible damage from prolonged exposure is physically reasonable. Everyday sound examples are approximate, and the occupational recommendation is not independently sourced here.",
         "calculation_check": "10^-12 × 10^8.50 = 3.16228 × 10^-4 W/m². Substitution into 10 log10(I/I0) returns 85.0 dB.",
         "assumptions": "Sound intensity level referenced to I0 = 10^-12 W/m². Hearing thresholds vary with frequency and listener; the exposure remarks are general context.",
         "notes": "Correct conversion and final answer. The precise hearing-protection recommendation was not independently verified.",
-        "source_sha256": "6499b7353bfc0a6c703b7e2dcac98375dd7b48ac919ca44c9e78cb9454acf9dc",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:2",
@@ -1532,7 +1526,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "e19f40365773b7d76397313782febfb9ecd58afcc11ddc08d1c695642bcaf7e4",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "The warning tag on a lawn mower states that it produces noise at a level of 91.0 dB. What is this in watts per meter squared?",
       "has_solution": true,
       "missing_labels": [],
@@ -1545,19 +1539,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:2",
+        "source_sha256": "e19f40365773b7d76397313782febfb9ecd58afcc11ddc08d1c695642bcaf7e4",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly converts the given sound intensity level to intensity. Its comparison with the preceding 85-dB result uses the difference in levels correctly. Regular prolonged exposure can pose a hearing risk; the discussion does not require an exact universal damage threshold.",
         "calculation_check": "I = 10^-12 × 10^9.10 = 1.25893 × 10^-3 W/m². Relative to 85 dB, the ratio is 10^0.6 = 3.98107, consistent with approximately four.",
         "assumptions": "The warning's 91.0 dB is treated as the problem's unweighted sound intensity level at its measurement position, rather than sound power level or another noise metric.",
         "notes": "Correct intensity, units, and fourfold comparison with 85 dB.",
-        "source_sha256": "e19f40365773b7d76397313782febfb9ecd58afcc11ddc08d1c695642bcaf7e4",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:3",
@@ -1568,7 +1562,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "a529c3205efc381532143e8ab9ddf5831757198ac443725255ccefcc8d2cf882",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "A sound wave traveling in $$20ºC $$ air has a pressure amplitude of 0.5 Pa. What is the intensity of the wave?",
       "has_solution": true,
       "missing_labels": [
@@ -1584,19 +1578,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:3",
+        "source_sha256": "a529c3205efc381532143e8ab9ddf5831757198ac443725255ccefcc8d2cf882",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a sinusoidal progressive sound wave, pressure and particle velocity are in phase and related by the acoustic impedance ρv. Averaging their product gives I = p_peak²/(2ρv). The solution correctly treats the given pressure amplitude as peak amplitude and uses reasonable air properties at 20 °C.",
         "calculation_check": "I = 0.25/[2(1.20)(343)] = 3.03693 × 10^-4 W/m². Pa² divided by kg/(m²·s) has units kg/s³ = W/m².",
         "assumptions": "Small-amplitude sinusoidal traveling wave, approximately atmospheric-pressure air, and peak rather than RMS pressure amplitude. The simple impedance relation excludes a general standing-wave field.",
         "notes": "Correct model, factor of two, arithmetic, and dimensions.",
-        "source_sha256": "a529c3205efc381532143e8ab9ddf5831757198ac443725255ccefcc8d2cf882",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:4",
@@ -1607,7 +1601,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "9031fea466fea8ca69bc5900fe4665b0a95ed7780f3f651f5e639a025bf04a12",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "What intensity level does the sound in the preceding problem correspond to?",
       "has_solution": true,
       "missing_labels": [],
@@ -1619,19 +1613,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:4",
+        "source_sha256": "9031fea466fea8ca69bc5900fe4665b0a95ed7780f3f651f5e639a025bf04a12",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Using the preceding wave's intensity in the logarithmic definition answers the same problem correctly. The stated intensity ratio of approximately 304 million is correct, and the discussion accurately explains the logarithmic compression. Prolonged-exposure risk is plausible, although the occupational-standard attribution is not independently verified here.",
         "calculation_check": "Using the unrounded preceding result gives β = 10 log10(3.036929 × 10^8) = 84.8243 dB. Using 3.04 × 10^-4 W/m² gives 84.8287 dB, agreeing with 84.8 dB or approximately 85 dB.",
         "assumptions": "The preceding problem's traveling-wave assumptions and I0 = 10^-12 W/m². The reference intensity is a conventional approximate hearing threshold, not a universal threshold.",
         "notes": "Correct level and intensity-ratio explanation. The specific occupational-standard statement remains externally unverified.",
-        "source_sha256": "9031fea466fea8ca69bc5900fe4665b0a95ed7780f3f651f5e639a025bf04a12",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:5",
@@ -1642,7 +1636,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "9d8b98a9c3bc18c277223c298e1dca050cedfdd5686adba148a0e1f62b75ad11",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "What sound intensity level in dB is produced by earphones that create an intensity of $$4.00 \\times 10^{\\text{−2}} {\\text{W/m}}^{2} $$ ?",
       "has_solution": true,
       "missing_labels": [],
@@ -1654,19 +1648,19 @@
       "review_status": "ambiguous",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:5",
+        "source_sha256": "9d8b98a9c3bc18c277223c298e1dca050cedfdd5686adba148a0e1f62b75ad11",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "ambiguous",
         "confidence": "low",
         "reasoning_check": "The strategy, logarithm, intensity ratio, and final 106-dB answer are correct. However, the discussion specifies an exposure limit of less than four minutes per day 'to prevent permanent hearing damage' without identifying a guideline or its assumptions. Such limits require an exposure criterion, frequency weighting, and cumulative-dose assumptions, and do not guarantee individual protection. The precise safety claim cannot be fully verified from the available chapter evidence.",
         "calculation_check": "β = 10 log10(0.0400/10^-12) = 106.0206 dB; I/I0 = 4.00 × 10^10. Conditionally assuming an 85-dB, eight-hour reference and equal-energy exposure gives 480 × 10^[(85−106.0206)/10] = 3.80 minutes, explaining the approximate four-minute figure.",
         "assumptions": "The supplied intensity defines an intensity level relative to 10^-12 W/m². The illustrative exposure calculation additionally assumes a particular reference dose and equal-energy model; these are not established by the problem.",
         "notes": "Numerical answer verified. Review remains incomplete for the precise hearing-safety guideline and its categorical prevention wording; no external verification was performed.",
-        "source_sha256": "9d8b98a9c3bc18c277223c298e1dca050cedfdd5686adba148a0e1f62b75ad11",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:6",
@@ -1677,7 +1671,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "674fac5f00338b153b8935f6a293bedc9c960c116edabf9d421750e1c00b2669",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Show that an intensity of $${10}^{-12} {W/m}^{2} $$ is the same as $${10}^{-16} {W/cm}^{2} $$.",
       "has_solution": true,
       "missing_labels": [],
@@ -1690,19 +1684,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:6",
+        "source_sha256": "674fac5f00338b153b8935f6a293bedc9c960c116edabf9d421750e1c00b2669",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Because a square meter contains 10^4 square centimeters, the numerical power per square centimeter is 10^-4 of the numerical power per square meter. The solution handles the denominator conversion correctly. Its eardrum-power estimate follows directly from intensity times area and agrees with the chapter's approximate area.",
         "calculation_check": "10^-12 W/m² × (1 m²/10^4 cm²) = 10^-16 W/cm². For a 1-cm² receiving area, P = IA = 10^-16 W = 10^-16 J/s.",
         "assumptions": "Approximately uniform incident intensity across a roughly 1-cm² eardrum area. Incident acoustic power is distinguished from the power actually absorbed. The stated everyday listening range is illustrative.",
         "notes": "Correct area conversion and incident-power estimate.",
-        "source_sha256": "674fac5f00338b153b8935f6a293bedc9c960c116edabf9d421750e1c00b2669",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:7",
@@ -1713,7 +1707,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "3cddbe08fa27c6d27140aca60833f650c1de91974abf83d661a0cc3a937c7f59",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "(a) What is the decibel level of a sound that is twice as intense as a 90.0-dB sound? (b) What is the decibel level of a sound that is one-fifth as intense as a 90.0-dB sound?",
       "has_solution": true,
       "missing_labels": [],
@@ -1726,19 +1720,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:7",
+        "source_sha256": "3cddbe08fa27c6d27140aca60833f650c1de91974abf83d661a0cc3a937c7f59",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Both requested parts are solved correctly using β2 = β1 + 10 log10(I2/I1). The doubling and halving rules are also correct. However, the discussion explicitly says the 'new decibel level depends only on the ratio of intensities, not on the original intensity value.' Only the change in level depends solely on that ratio; the final level also depends on the starting level. The following examples illustrate the correct rule but do not make the preceding claim true.",
         "calculation_check": "For part (a), 90.0 + 10 log10(2) = 93.0103 dB. For part (b), 90.0 + 10 log10(0.2) = 83.0103 dB. Doubling starting levels of 30 and 90 dB produces different final levels of 33.0103 and 93.0103 dB.",
         "assumptions": "Both levels use the same reference intensity; the specified ratios compare the new intensity with the original intensity.",
         "notes": "Both final answers are correct. Discussion incorrectly assigns the ratio-only dependence of a level change to the final level.",
-        "source_sha256": "3cddbe08fa27c6d27140aca60833f650c1de91974abf83d661a0cc3a937c7f59",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:8",
@@ -1749,7 +1743,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "cec06fb80b21c9ad036c3b3b66d04276cdb78851eeda17a8b4bc5cc0fa534a54",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "(a) What is the intensity of a sound that has a level 7.00 dB lower than a $$4.00 \\times 10^{-9} {W/m}^{2} $$ sound? (b) What is the intensity of a sound that is 3.00 dB higher th…",
       "has_solution": true,
       "missing_labels": [],
@@ -1762,19 +1756,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:8",
+        "source_sha256": "cec06fb80b21c9ad036c3b3b66d04276cdb78851eeda17a8b4bc5cc0fa534a54",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Both subparts correctly invert the level-difference relation, with negative change reducing intensity and positive change increasing it. Approximating the ratios as 0.200 and 2.00 causes only ordinary rounding differences. The discussion's assertion that the 29-dB result would be quieter than a whisper conflicts with Table 1's whisper at 1 m, listed as 20 dB. A whisper comparison needs listening conditions rather than an unconditional claim.",
         "calculation_check": "Part (a): 4.00 × 10^-9 × 10^-0.700 = 7.98105 × 10^-10 W/m². Part (b): 4.00 × 10^-9 × 10^0.300 = 7.98105 × 10^-9 W/m². The corresponding levels are 29.0206 and 39.0206 dB. The former is about 7.98 times the intensity of the table's 20-dB whisper.",
         "assumptions": "Common reference intensity for all comparisons. Everyday sound levels depend on distance and environment; Table 1 supplies the chapter's explicit whisper comparison.",
         "notes": "Both intensity answers are acceptable. The discussion's whisper comparison conflicts with the chapter's distance-qualified example.",
-        "source_sha256": "cec06fb80b21c9ad036c3b3b66d04276cdb78851eeda17a8b4bc5cc0fa534a54",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:27:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:27:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:9",
@@ -1785,7 +1779,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "d3c0d6476d6c24a3c675aacc7ca9fe9b5b904c05066b7c499252d655ae252bab",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "(a) How much more intense is a sound that has a level 17.0 dB higher than another? (b) If one sound has a level 23.0 dB less than another, what is the ratio of their intensities?",
       "has_solution": true,
       "missing_labels": [],
@@ -1798,19 +1792,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:9",
+        "source_sha256": "d3c0d6476d6c24a3c675aacc7ca9fe9b5b904c05066b7c499252d655ae252bab",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Subtracting the two intensity-level definitions cancels the common reference intensity and gives I2/I1 = 10^(Δβ/10). The solution correctly uses positive 17.0 dB for the louder sound and negative 23.0 dB for the quieter sound. Both requested ratios and the discussion's multiplicative interpretation are correct.",
         "calculation_check": "10^1.7 = 50.1187 and 10^(-2.3) = 0.00501187. The latter is approximately 1/200 and 0.501% of the original intensity. These are dimensionless ratios.",
         "assumptions": "Both levels describe sound intensity using the same reference and measurement convention. The fraction 1/200 is a rounded approximation.",
         "notes": "Both parts, signs, numerical ratios, and discussion are sound.",
-        "source_sha256": "d3c0d6476d6c24a3c675aacc7ca9fe9b5b904c05066b7c499252d655ae252bab",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:10",
@@ -1821,7 +1815,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "ea314649973fe5ad0737d66f0fd579f574390bc250cc6b3ef69493658df4b1a6",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "People with good hearing can perceive sounds as low in level as $$-8.00 \\text{dB} $$ at a frequency of 3000 Hz. What is the intensity of this sound in watts per meter squared?",
       "has_solution": true,
       "missing_labels": [],
@@ -1834,19 +1828,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:10",
+        "source_sha256": "ea314649973fe5ad0737d66f0fd579f574390bc250cc6b3ef69493658df4b1a6",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "The intensity follows directly from I = I0·10^(β/10), independently of frequency once the intensity level is specified. A negative level means positive intensity below the reference, not negative intensity. The frequency-dependent sensitivity explanation is consistent with the stated hearing threshold. However, the discussion's categorical claim that sensitivity damaged by loud sounds cannot recover needs to distinguish permanent injury from temporary threshold changes. The evolutionary explanation also is not established by this calculation.",
         "calculation_check": "I = 10^(-12)·10^(-0.8) = 1.58489×10^(-13) W/m², or 15.8489% of the reference intensity.",
         "assumptions": "The level is an unweighted sound intensity level referenced to 10^(-12) W/m². The stated ability to hear this sound is accepted as a given. No external medical or evolutionary sources were consulted.",
         "notes": "Intensity calculation is correct. The discussion overstates irreversibility of noise-related hearing changes; its medical and evolutionary claims remain externally unverified.",
-        "source_sha256": "ea314649973fe5ad0737d66f0fd579f574390bc250cc6b3ef69493658df4b1a6",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:11",
@@ -1857,7 +1851,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "a342c60fbb0e4351f0b2099625615924f85d6c6c2b884cdaa6a5baa107072747",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "If a large housefly 3.0 m away from you makes a noise of 40.0 dB, what is the noise level of 1000 flies at that distance, assuming interference has a negligible effect?",
       "has_solution": true,
       "missing_labels": [],
@@ -1870,19 +1864,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:11",
+        "source_sha256": "a342c60fbb0e4351f0b2099625615924f85d6c6c2b884cdaa6a5baa107072747",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With negligible interference, the received contributions add in intensity, so N identical flies increase the level by 10 log10(N). The common 3.0 m distance is already incorporated in the given single-fly level and requires no further spreading correction. The solution correctly distinguishes intensity addition from adding decibel values.",
         "calculation_check": "One fly produces 10^(-12)·10^4 = 10^(-8) W/m². Multiplying by 1000 gives 10^(-5) W/m² and a level of 10 log10(10^7) = 70.0 dB. Two such sources would give 43.0103 dB, consistent with the discussion.",
         "assumptions": "Each fly contributes the stated 40.0 dB at the listener, and time-averaged interference terms are negligible. Background noise is neglected. Everyday noise comparisons are illustrative and depend on circumstances.",
         "notes": "Correct incoherent-source addition, numerical result, and explanation.",
-        "source_sha256": "a342c60fbb0e4351f0b2099625615924f85d6c6c2b884cdaa6a5baa107072747",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:12",
@@ -1893,7 +1887,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "9d3e55b9cd069b4e463c15fa5bf29b5bb43d8c04d39306ca374aa835bfb07336",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Ten cars in a circle at a boom box competition produce a 120-dB sound intensity level at the center of the circle. What is the average sound intensity level produced there by each…",
       "has_solution": true,
       "missing_labels": [],
@@ -1906,19 +1900,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:12",
+        "source_sha256": "9d3e55b9cd069b4e463c15fa5bf29b5bb43d8c04d39306ca374aa835bfb07336",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Dividing the total intensity by ten correctly determines the mean intensity contribution. Converting that mean to decibels gives 110 dB. However, the givens do not establish that every stereo produces this level, or that the arithmetic mean of their individual decibel levels is 110 dB. The solution repeatedly asserts equal contributions and a definite result from removing any nine stereos without stating the additional assumption. Its categorical pain and immediate-damage claims also exceed the acoustic calculation.",
         "calculation_check": "120 dB corresponds to 1 W/m²; the mean contribution is 0.1 W/m², whose level is 110 dB. As a counterexample to equal individual levels, nine contributions of 0.01 W/m² and one of 0.91 W/m² also total 1 W/m². Their levels are nine at 100 dB and one at approximately 119.59 dB; their arithmetic mean is approximately 101.96 dB.",
         "assumptions": "Interference is negligible and received contributions add. The intended answer can be interpreted as the level corresponding to average intensity. Equal individual levels require equal received contributions. Medical exposure claims were not externally verified.",
         "notes": "110 dB correctly represents the mean intensity contribution. Claims about every stereo, removing nine sources, and definite hearing effects require qualification.",
-        "source_sha256": "9d3e55b9cd069b4e463c15fa5bf29b5bb43d8c04d39306ca374aa835bfb07336",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:13",
@@ -1929,7 +1923,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "29c1cc34d5176b7d758285b6523d245fb77a20d075045c33f1f8e03afa83e88a",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "The amplitude of a sound wave is measured in terms of its maximum gauge pressure. By what factor does the amplitude of a sound wave increase if the sound intensity level goes up b…",
       "has_solution": true,
       "missing_labels": [],
@@ -1942,19 +1936,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:13",
+        "source_sha256": "29c1cc34d5176b7d758285b6523d245fb77a20d075045c33f1f8e03afa83e88a",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a sinusoidal progressive sound wave in a fixed medium, mean intensity is proportional to the square of peak pressure amplitude. A 40.0 dB increase therefore multiplies intensity by 10^4 and pressure amplitude by 100. The discussion's examples follow the same relation. Its speaker-displacement comparison is reasonable for the same speaker operating linearly at fixed frequency and geometry.",
         "calculation_check": "Δp2/Δp1 = 10^(40/20) = 100. Doubling pressure gives 10 log10(4) = 6.0206 dB; multiplying pressure by ten gives 20 dB. A 10 dB increase requires a pressure factor of √10 = 3.1623.",
         "assumptions": "The medium's acoustic impedance is unchanged, the waves have the same waveform, and linear progressive-wave acoustics applies. The approximate perceived doubling of loudness is contextual rather than a universal perceptual law.",
         "notes": "Correct intensity-to-pressure conversion and final factor of 100 under the standard fixed-medium assumptions.",
-        "source_sha256": "29c1cc34d5176b7d758285b6523d245fb77a20d075045c33f1f8e03afa83e88a",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:14",
@@ -1965,7 +1959,7 @@
       "kind": "problems-exercises",
       "ordinal": 14,
       "source_sha256": "60ad24eb79240259b9659861b566e9319f54a238152369965661ebc3b0ffcec8",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "If a sound intensity level of 0 dB at 1000 Hz corresponds to a maximum gauge pressure (sound amplitude) of $${10}^{-9} \\text{atm} $$ , what is the maximum gauge pressure in a 60-d…",
       "has_solution": true,
       "missing_labels": [],
@@ -1978,19 +1972,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:14",
+        "source_sha256": "60ad24eb79240259b9659861b566e9319f54a238152369965661ebc3b0ffcec8",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "Using the supplied pressure calibration, peak pressure scales as 10^(β/20). Both requested pressures and all stated pressure and intensity ratios follow correctly. The discussion nevertheless turns a nominal pain-threshold comparison into a categorical statement that a 120-dB sound causes pain and immediate hearing damage. Those outcomes depend on exposure and listener characteristics and cannot be inferred from pressure scaling alone.",
         "calculation_check": "At 60 dB, Δp = 10^(-9)·10^3 = 10^(-6) atm. At 120 dB, Δp = 10^(-9)·10^6 = 10^(-3) atm. The latter is 0.001 atmospheric pressure, or 0.1%, as stated.",
         "assumptions": "The explicitly supplied 0-dB pressure is used as the calibration. Medium impedance and waveform remain unchanged, and linear acoustics applies. Medical consequences and a universal pain threshold were not externally verified.",
         "notes": "Both conditional pressure answers are correct. The discussion overstates certainty and immediacy of hearing injury.",
-        "source_sha256": "60ad24eb79240259b9659861b566e9319f54a238152369965661ebc3b0ffcec8",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:15",
@@ -2001,7 +1995,7 @@
       "kind": "problems-exercises",
       "ordinal": 15,
       "source_sha256": "a79820d7cd14b5635ab768cc0c5a88e99d77d57123ecb042bf0ddd83052d7419",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "An 8-hour exposure to a sound intensity level of 90.0 dB may cause hearing damage. What energy in joules falls on a 0.800-cm-diameter eardrum so exposed?",
       "has_solution": true,
       "missing_labels": [],
@@ -2014,19 +2008,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:15",
+        "source_sha256": "a79820d7cd14b5635ab768cc0c5a88e99d77d57123ecb042bf0ddd83052d7419",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The incident-energy calculation correctly uses E = IAt with a circular eardrum and the radius equal to half the specified diameter. However, the discussion conflates incident acoustic energy with energy delivered to inner-ear structures and says continuous exposure allows energy to accumulate in the cochlea. Integrated incident energy is an exposure measure; it is not energy stored there throughout eight hours. Cumulative biological injury can occur while absorbed energy is continually dissipated.",
         "calculation_check": "I = 10^(-3) W/m²; A = π(0.004 m)^2 = 5.02655×10^(-5) m²; P = 5.02655×10^(-8) W. Multiplication by 28,800 s gives E = 1.44765×10^(-3) J. Lifting 1 g through 15 cm requires approximately 0.00147 J, and 0.1 W/P is approximately 1.99 million, matching the comparisons.",
         "assumptions": "Uniform constant intensity is normally incident on the projected circular area. The requested energy is incident energy, not necessarily absorbed or transmitted energy. No external medical or occupational-regulation sources were consulted.",
         "notes": "Numerical answer and energy comparisons are correct. The discussion incorrectly describes physical energy accumulation and conflates incident energy with inner-ear delivery; regulatory claims remain unverified.",
-        "source_sha256": "a79820d7cd14b5635ab768cc0c5a88e99d77d57123ecb042bf0ddd83052d7419",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:16",
@@ -2037,7 +2031,7 @@
       "kind": "problems-exercises",
       "ordinal": 16,
       "source_sha256": "7cb10e9a992f8ad4a9263540f8263a465bd8a9b0017a558415aae478a3ecc9a0",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "(a) Ear trumpets were never very common, but they did aid people with hearing losses by gathering sound over a large area and concentrating it on the smaller area of the eardrum.…",
       "has_solution": true,
       "missing_labels": [],
@@ -2050,19 +2044,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:16",
+        "source_sha256": "7cb10e9a992f8ad4a9263540f8263a465bd8a9b0017a558415aae478a3ecc9a0",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The collected power is I times collecting area, and the delivered power is 5% of that. Dividing by eardrum area gives a 90-fold intensity increase without violating energy conservation. This supports a substantial benefit in part (b), although individual benefit depends on hearing loss and frequency. The claim that an ear trumpet has no frequency selectivity and amplifies all frequencies equally is incorrect: passive acoustic horns and cavities have frequency-dependent coupling, diffraction, and resonances. The specified single efficiency does not establish a flat frequency response.",
         "calculation_check": "Iear/Iincident = 0.0500·900/0.500 = 90. Thus Δβ = 10 log10(90) = 19.5424 dB. Only 5% of the power incident on the collecting area is delivered; the intensity increase comes from concentrating that power onto a smaller area.",
         "assumptions": "Incident intensity is uniform over the effective collecting aperture, and the supplied efficiency applies to the sound being considered. The unaided comparison intensity is the incident intensity. Clinical hearing-loss categories and modern hearing-aid specifications were not externally verified.",
         "notes": "Correct 19.5-dB gain and qualitative usefulness. The asserted frequency-independent amplification is a substantive error.",
-        "source_sha256": "7cb10e9a992f8ad4a9263540f8263a465bd8a9b0017a558415aae478a3ecc9a0",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:17",
@@ -2073,7 +2067,7 @@
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "6de2abafc27ed15564288022fa4a05b3dabb53961877f6dd81e738dae3625600",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Sound is more effectively transmitted into a stethoscope by direct contact than through the air, and it is further intensified by being concentrated on the smaller area of the ear…",
       "has_solution": true,
       "missing_labels": [],
@@ -2086,19 +2080,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:17",
+        "source_sha256": "6de2abafc27ed15564288022fa4a05b3dabb53961877f6dd81e738dae3625600",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Interpreting the stipulated 100-fold transmission advantage as a power factor, the solution correctly combines it with efficiency and collecting-to-receiving area ratio. Using the combined area of both eardrums avoids an extra erroneous factor of two. The discussion goes beyond this conditional model: sound transmission is not universally more efficient in solids, and an ordinary acoustic stethoscope carries pressure waves through air in its tubing rather than transmitting sound entirely through tissue and solid device materials. The assumed gain also does not establish a universal measured 28-dB gain for traditional stethoscopes.",
         "calculation_check": "The intensity ratio is 100·0.400·15.0/0.900 = 666.667, giving 28.2391 dB. Separately, contact contributes 20 dB, area concentration contributes 12.2185 dB, and efficiency contributes −3.9794 dB; their sum is 28.2391 dB.",
         "assumptions": "The 100-fold factor concerns transmitted power, the stated efficiency is an additional independent factor, and delivered power is distributed consistently across the combined receiving area. Device specifications and physiological frequency ranges were not externally verified.",
         "notes": "Correct conditional gain of 28.2 dB. The discussion mischaracterizes transmission and presents an assumed model gain as a general device property.",
-        "source_sha256": "6de2abafc27ed15564288022fa4a05b3dabb53961877f6dd81e738dae3625600",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:18",
@@ -2109,7 +2103,7 @@
       "kind": "problems-exercises",
       "ordinal": 18,
       "source_sha256": "d4e2bc8f035ebc0d630f1d84a0ca9028d886a71eef4aa426cef0a0a9e98925c3",
-      "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
+      "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
       "preview": "Loudspeakers can produce intense sounds with surprisingly small energy input in spite of their low efficiencies. Calculate the power input needed to produce a 90.0-dB sound intens…",
       "has_solution": true,
       "missing_labels": [],
@@ -2122,19 +2116,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch17SoundIntensityAndSoundLevel.md::problems-exercises:18",
+        "source_sha256": "d4e2bc8f035ebc0d630f1d84a0ca9028d886a71eef4aa426cef0a0a9e98925c3",
+        "file_sha256": "8bcaa92b109fd0cf8faa6ea43298d3213413c3f19b961a960af659e8505fe925",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Under the intended assumption that the stated intensity is the mean outward intensity across the speaker face, acoustic power is IA and electrical input is IA/η. The numerical solution is correct. The discussion incorrectly extends inverse-square spreading to the speaker surface; that law applies to suitable far-field spreading, not generally to an extended radiator's near field, and the surface need not be an intensity maximum. It also lists stored magnetic-field energy as an efficiency loss, although reversible field-energy storage is not itself dissipative power loss.",
         "calculation_check": "I = 10^(-3) W/m² and A = π(0.0600 m)^2 = 0.0113097 m². Hence Pacoustic = 1.13097×10^(-5) W and Pinput = 1.13097×10^(-3) W. Units are (W/m²)·m² divided by a dimensionless efficiency, yielding watts.",
         "assumptions": "The specified surface intensity is interpreted as an area-averaged normal energy flux, with acoustic output represented by that face. A single local intensity measurement alone would not determine total output. Practical smartphone power and listening claims were not externally verified.",
         "notes": "Correct 1.13-mW answer in the intended surface-flux model. The discussion misapplies inverse-square spreading and treats reversible magnetic-energy storage as dissipation.",
-        "source_sha256": "d4e2bc8f035ebc0d630f1d84a0ca9028d886a71eef4aa426cef0a0a9e98925c3",
-        "file_sha256": "c89871ba1096337621e82ee018f830eec9515b453eea0d1e4aef22a02c7853a1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:31:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:31:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch17SoundInterferenceAndResonance.md::worked-example:1",

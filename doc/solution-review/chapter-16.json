@@ -1,16 +1,16 @@
 {
   "chapter": 16,
-  "checked_at": "2026-10-24T01:11:29+00:00",
+  "checked_at": "2026-10-24T02:00:58+00:00",
   "summary": {
-    "total": 1456,
-    "checked": 226,
-    "failed": 2,
-    "skipped": 1228,
+    "total": 1454,
+    "checked": 227,
+    "failed": 1,
+    "skipped": 1226,
     "by_kind": {
       "equation": {
-        "checked": 226,
-        "failed": 2,
-        "skipped": 1228
+        "checked": 227,
+        "failed": 1,
+        "skipped": 1226
       },
       "case": {
         "checked": 0,
@@ -24,7 +24,7 @@
       "chapters": []
     },
     "skip_reasons": {
-      "unbound variable": 695,
+      "unbound variable": 693,
       "no supported equality": 416,
       "unsupported symbol": 82,
       "unit-only expression or text label needs a numeric value": 11,
@@ -37,47 +37,44 @@
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
       "line": 75,
-      "end_line": 205,
+      "end_line": 189,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "77dda9eb2337733fb349d78ca75c3c19a35a987cd2f47e0ed534972743d46ed4",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "source_sha256": "527cf0fe9b03c97145609a147b60eebe71382a7216cd70ef5417a8302be03fe4",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "::: example Damping an Oscillatory Motion: Friction on an Object Connected to a Spring Damping oscillatory motion is important in many systems, and the ability to control the damp…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 33,
+        "skipped": 31,
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::worked-example:1",
-        "verdict": "concern",
+        "source_sha256": "527cf0fe9b03c97145609a147b60eebe71382a7216cd70ef5417a8302be03fe4",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Part (a) correctly gives the sliding-friction magnitude as mu_k mg, opposite the velocity. Part (b) correctly starts from -fd = k(x_f^2-X^2)/2, but incorrectly sets the stopping position to x_f = mu_k mg/k. At rest, static friction adjusts to balance the spring subject to |kx_f| <= mu_s mg; it need not equal the kinetic-friction magnitude. The final turning point must follow from the sliding trajectory and the sticking condition. The unspecified static coefficient therefore prevents an exact stopping prediction without an added assumption. The discussion also incorrectly claims more than 15.9 complete oscillations and gives an incorrect distance for twentyfold friction. Critical/overdamping terminology from viscous damping does not directly classify this dry-friction system. Mechanical energy decreases, while total energy including thermal energy is conserved.",
-        "calculation_check": "Using g = 9.80 m/s^2 gives f = 0.1568 N and f/k = 0.003136 m. As a concrete counterexample, take mu_s = mu_k. Successive sliding legs satisfy x_next = 2 sign(x)f/k - x until sticking. Starting at 0.100 m gives 16 sliding legs, 15 equilibrium crossings, x_f = -0.000352 m, and d = 1.594368 m, corresponding to eight undamped periods rather than more than 15.9 complete oscillations. The textbook's unsupported endpoint yields 1.592820 m; both round to 1.59 m, so the numerical rounding is not the concern. With f increased twentyfold and assuming release initiates sliding, energy gives d = 2(X-20f/k) = 0.07456 m and x_f = 0.02544 m, rather than the stated 0.0484-m travel.",
-        "assumptions": "Horizontal spring and surface, constant kinetic friction, massless Hookean spring, and g = 9.80 m/s^2. The explicit trajectory counterexample assumes equal static and kinetic coefficients. The twentyfold-friction calculation assumes static friction allows initial motion and holds the object at its first subsequent stop. The referenced SVG source confirms horizontal geometry; its frictionless energy annotations describe the reference oscillator, not the dissipative motion.",
-        "notes": "Correct sliding-friction magnitude and approximately correct rounded total distance, but an invalid stopping-position model underlies part (b). The oscillation-count claim and twentyfold-friction distance are also incorrect; static friction is underspecified.",
-        "source_sha256": "77dda9eb2337733fb349d78ca75c3c19a35a987cd2f47e0ed534972743d46ed4",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "notes": "Fixed (b): it drops the invalid assumption that the object stops where kx = μmg. With static friction taken equal to kinetic, the object stops within 3.14 mm of x = 0, so the leftover energy (under 0.1%) is neglected and d = kX²/(2μmg) = 1.59 m. Fixed the discussion: 16 half-swings (about 8 oscillations), summing to 1.594 m; with 20× friction the object moves 0.0746 m and stops 0.0254 m from equilibrium.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16DampedHarmonicOscillator.md::check-understanding:1",
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
-      "line": 207,
-      "end_line": 224,
+      "line": 191,
+      "end_line": 208,
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "d69868491562d31a684b3559db5d36b89a0ae361ae80207bc11e8e0f2f51c3b8",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "Why are completely undamped harmonic oscillators so rare?",
       "has_solution": true,
       "missing_labels": [
@@ -91,30 +88,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::check-understanding:1",
+        "source_sha256": "d69868491562d31a684b3559db5d36b89a0ae361ae80207bc11e8e0f2f51c3b8",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Real oscillators generally couple to their surroundings through friction, drag, or internal losses. These mechanisms remove coherent mechanical energy, explaining why exactly undamped motion is rare. The solution supplies a sufficient mechanism without claiming friction is the only one.",
         "calculation_check": "For an opposing dissipative force, dE_mech/dt = F_diss v <= 0. For viscous drag specifically, this becomes -bv^2, so nonzero motion loses mechanical energy.",
         "assumptions": "An undriven macroscopic oscillator with ordinary dissipative coupling; ideal lossless models remain useful approximations.",
         "notes": "Correctly attributes the rarity of undamped oscillators to dissipative friction.",
-        "source_sha256": "d69868491562d31a684b3559db5d36b89a0ae361ae80207bc11e8e0f2f51c3b8",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16DampedHarmonicOscillator.md::check-understanding:2",
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
-      "line": 226,
-      "end_line": 243,
+      "line": 210,
+      "end_line": 227,
       "kind": "check-understanding",
       "ordinal": 2,
       "source_sha256": "641d1f90aa4148f26564a55e5f085110713d1049cb7e4f37becb428a89e8cbde",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "Describe the difference between overdamping, underdamping, and critical damping.",
       "has_solution": true,
       "missing_labels": [
@@ -128,30 +125,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::check-understanding:2",
+        "source_sha256": "641d1f90aa4148f26564a55e5f085110713d1049cb7e4f37becb428a89e8cbde",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For the standard linear viscous oscillator, underdamping produces decaying oscillations, overdamping produces a slower nonoscillatory response, and critical damping marks the fastest nonoscillatory return for the usual release-from-rest comparison. The solution captures these distinctions. 'Quickly to equilibrium' for underdamping describes its first crossing, not necessarily its settling time.",
         "calculation_check": "The characteristic roots of mx'' + bx' + kx = 0 are [-b +/- sqrt(b^2-4mk)]/(2m). Complex roots for b^2 < 4mk yield oscillations; repeated roots at b^2 = 4mk give critical damping; distinct real negative roots for b^2 > 4mk give overdamping.",
         "assumptions": "Positive m and k, linear drag b > 0, no driving, and comparison from the same displacement with zero initial velocity. Arbitrary initial velocity can permit a single equilibrium crossing in a critically damped or overdamped response.",
         "notes": "Correct standard classification, understood for the usual release conditions; underdamping need not give the fastest settling.",
-        "source_sha256": "641d1f90aa4148f26564a55e5f085110713d1049cb7e4f37becb428a89e8cbde",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16DampedHarmonicOscillator.md::conceptual-questions:1",
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
-      "line": 257,
-      "end_line": 281,
+      "line": 241,
+      "end_line": 265,
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "b8e6e1924e2576786fbc4b596ff17b8f762935780e37b53e68d360f7c9a494ca",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "Give an example of a damped harmonic oscillator. (They are more common than undamped or simple harmonic oscillators.)",
       "has_solution": true,
       "missing_labels": [],
@@ -161,30 +158,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::conceptual-questions:1",
+        "source_sha256": "b8e6e1924e2576786fbc4b596ff17b8f762935780e37b53e68d360f7c9a494ca",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A spring-supported car body has inertia and a restoring force, while shock absorbers dissipate energy. After a bump ends, the suspension therefore supplies an appropriate example of a damped oscillator. The discussion correctly allows either oscillatory or nonoscillatory return depending on damping strength.",
         "calculation_check": "A single suspension mode can be modeled by mx'' + bx' + kx = 0, with x measured from static equilibrium. Its mechanical energy satisfies d(mv^2/2+kx^2/2)/dt = -bv^2, supporting the stated decay.",
         "assumptions": "Small suspension displacements, approximately linear spring and damping forces, one dominant mode, and no continuing road forcing after the bump.",
         "notes": "Valid practical example with correct roles for inertia, restoring force, and dissipation.",
-        "source_sha256": "b8e6e1924e2576786fbc4b596ff17b8f762935780e37b53e68d360f7c9a494ca",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16DampedHarmonicOscillator.md::conceptual-questions:2",
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
-      "line": 283,
-      "end_line": 311,
+      "line": 267,
+      "end_line": 295,
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "4dceca2328dca60313752d3214d7b81cf4b51761b58ab522664a865c35d2fc76",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "How would a car bounce after a bump under each of these conditions? - overdamping - underdamping - critical damping",
       "has_solution": true,
       "missing_labels": [],
@@ -194,30 +191,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::conceptual-questions:2",
+        "source_sha256": "4dceca2328dca60313752d3214d7b81cf4b51761b58ab522664a865c35d2fc76",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "All three requested cases are addressed correctly for the standard suspension model: overdamping gives a sluggish nonoscillatory response, underdamping gives decaying bounces, and critical damping gives the fastest nonoscillatory return in the specified release-from-displacement comparison. The discussion appropriately acknowledges the influence of initial velocity.",
         "calculation_check": "Writing zeta = b/(2sqrt(mk)), zeta < 1 gives oscillations with angular frequency sqrt(k/m)sqrt(1-zeta^2). At zeta = 1 the response has the form (C+Dt)exp(-sqrt(k/m)t); zeta > 1 produces two decaying real exponentials.",
         "assumptions": "Linear single-mode suspension, positive damping, no continuing forcing, and matched initial conditions when comparing return speeds. 'Without repeated bouncing' permits an isolated crossing caused by initial velocity.",
         "notes": "Correct comparison of suspension responses, including the relevant initial-condition qualification.",
-        "source_sha256": "4dceca2328dca60313752d3214d7b81cf4b51761b58ab522664a865c35d2fc76",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16DampedHarmonicOscillator.md::conceptual-questions:3",
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
-      "line": 313,
-      "end_line": 337,
+      "line": 297,
+      "end_line": 321,
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "369f7cb8daeb376f4de70696ae6fbd8a9a25e7f5ab9a7370dfa3807003ade78d",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "Most harmonic oscillators are damped and, if undriven, eventually come to a stop. How is this observation related to the second law of thermodynamics?",
       "has_solution": true,
       "missing_labels": [],
@@ -227,30 +224,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::conceptual-questions:3",
+        "source_sha256": "369f7cb8daeb376f4de70696ae6fbd8a9a25e7f5ab9a7370dfa3807003ade78d",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly distinguishes conservation of total energy from decay of organized mechanical energy. Friction transfers oscillatory energy into microscopic degrees of freedom and generates entropy in the combined oscillator and surroundings. Its qualification about thermal fluctuations avoids implying that equilibrium requires complete microscopic rest.",
         "calculation_check": "For viscous damping, dissipated power is bv^2 >= 0. When this power thermalizes in a reservoir at temperature T, the associated entropy production is bv^2/T >= 0, consistent with irreversible macroscopic decay.",
         "assumptions": "An undriven macroscopic oscillator coupled dissipatively to its environment, with the oscillator and surroundings considered together for the entropy statement.",
         "notes": "Correct connection between damping, energy redistribution, entropy production, and thermal equilibrium.",
-        "source_sha256": "369f7cb8daeb376f4de70696ae6fbd8a9a25e7f5ab9a7370dfa3807003ade78d",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16DampedHarmonicOscillator.md::problems-exercises:1",
       "chapter": 16,
       "file": "contents/ch16DampedHarmonicOscillator.md",
-      "line": 341,
-      "end_line": 402,
+      "line": 325,
+      "end_line": 386,
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "c80f84f0ee8566aa05040893965c416b546b73f1f37a27f2c17db5c3dd208f8e",
-      "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
+      "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
       "preview": "The amplitude of a lightly damped oscillator decreases by $$ 3.0% $$ during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?",
       "has_solution": true,
       "missing_labels": [],
@@ -263,19 +260,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16DampedHarmonicOscillator.md::problems-exercises:1",
+        "source_sha256": "c80f84f0ee8566aa05040893965c416b546b73f1f37a27f2c17db5c3dd208f8e",
+        "file_sha256": "aab4661a601cbd1285fe11183b29e50952edbd712d20a7c0561cc3baf3b4f4c9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Comparing corresponding amplitude maxima, oscillator energy is proportional to amplitude squared. A retained amplitude fraction of 0.970 therefore retains an energy fraction of 0.970^2. The solution correctly finds the loss relative to the energy at the beginning of each cycle. Its discussion of roughly half the energy remaining after about twelve cycles is consistent with this decay.",
         "calculation_check": "E_1/E_0 = 0.970^2 = 0.9409, giving a loss of 5.91%, or 5.9%. After twelve cycles the retained fraction is 0.9409^12 = 0.4814; the half-energy time is ln(0.5)/ln(0.9409) = 11.38 cycles. The discussion's approximate 0.47 estimate does not change its conclusion.",
         "assumptions": "A linear, lightly damped oscillator with fixed stiffness; amplitudes are compared at corresponding cycle phases. Thermalization is the assumed eventual destination of dissipated energy, and 'comes to rest' means macroscopic settling.",
         "notes": "Correct quadratic amplitude-energy relation, percentage loss, and approximate multicycle interpretation.",
-        "source_sha256": "c80f84f0ee8566aa05040893965c416b546b73f1f37a27f2c17db5c3dd208f8e",
-        "file_sha256": "6240f8e910c92314d940e3dd563440c4df9ccd0796da9ba9ded34aaed5eef3c6",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::worked-example:1",
@@ -285,8 +282,8 @@
       "end_line": 180,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "5ee7b22653b5434a714ebe1241384012647f4a603bfeb873a2824cbc2db7806a",
-      "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
+      "source_sha256": "22f388477c2e431b492b307d4ec293c4d8c3c9a21c33649b43dc8d7c694ed9ed",
+      "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
       "preview": "::: example Determine the Maximum Speed of an Oscillating System: A Bumpy Road Suppose that a car is 900 kg and has a suspension system that has a force constant $$k= 6.53 \\times…",
       "has_solution": true,
       "missing_labels": [],
@@ -295,22 +292,19 @@
         "skipped": 18
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::worked-example:1",
-        "verdict": "concern",
+        "source_sha256": "22f388477c2e431b492b307d4ec293c4d8c3c9a21c33649b43dc8d7c694ed9ed",
+        "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The car calculation is correct: measuring displacement from its gravitationally shifted equilibrium, conservation of oscillation energy gives mv_max^2/2 = kX^2/2. However, the discussion incorrectly identifies the vertical displacement of a simple pendulum as a sin(omega t). Small-angle angular displacement, arc displacement, and approximately horizontal displacement are sinusoidal; vertical height above the lowest point is L(1-cos(theta)), approximately Ltheta^2/2. The displayed velocity is the derivative of a sinusoidal coordinate, but it is not the pendulum's vertical velocity as described.",
-        "calculation_check": "For the car, v_max = 0.100 sqrt(65300/900) = 0.851795 m/s, agreeing with 0.852 m/s. For a pendulum crossing equilibrium at t = 0, theta = theta_0 sin(omega t) gives y approximately (Ltheta_0^2/2)sin^2(omega t). This height is nonnegative, has period T/2, and has zero vertical velocity at equilibrium, contradicting the discussion's signed sinusoid and nonzero derivative there.",
-        "assumptions": "The car is a single undamped vertical mode with the stated effective total stiffness and oscillating mass. Gravity shifts equilibrium but does not change the linear oscillation frequency. The pendulum comparison assumes a fixed pivot, rigid length, small angles, and vertical height measured from its lowest position.",
-        "notes": "Correct car maximum speed, but the discussion gives physically incorrect pendulum vertical-displacement and vertical-velocity formulas.",
-        "source_sha256": "5ee7b22653b5434a714ebe1241384012647f4a603bfeb873a2824cbc2db7806a",
-        "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "notes": "Correct maximum car speed. Fixed: the sinusoidal pendulum displacement is now the small horizontal displacement x(t), not a vertical one, and ω is called the angular frequency.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::check-understanding:1",
@@ -321,7 +315,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "ee7d6e22435714e0812bd3dabf31bdeec0c8deb96a23ec6b412f09fc365e4b88",
-      "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
+      "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
       "preview": "Why does it hurt more if your hand is snapped with a ruler than with a loose spring, even if the displacement of each system is equal?",
       "has_solution": true,
       "missing_labels": [
@@ -335,19 +329,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::check-understanding:1",
+        "source_sha256": "ee7d6e22435714e0812bd3dabf31bdeec0c8deb96a23ec6b412f09fc365e4b88",
+        "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Under the intended comparison, the ruler has a greater effective stiffness than the loose spring. Equal initial deflections therefore produce a larger restoring force and greater stored elastic energy in the ruler, supporting a stronger impact. The solution gives the expected qualitative explanation, although actual contact force and pain also depend on the impact conditions.",
         "calculation_check": "For equal displacement x, F_ruler/F_spring = k_ruler/k_spring and E_ruler/E_spring = k_ruler/k_spring using F = kx and E = kx^2/2. Both increase with stiffness.",
         "assumptions": "Elastic deformation, a ruler stiffer than the specified loose spring, comparable contact conditions, and release toward the hand from equal deflections. Pain is treated qualitatively rather than as a quantity determined solely by stiffness.",
         "notes": "Sound qualitative stiffness explanation; equal deflection also stores more energy in the stiffer ruler.",
-        "source_sha256": "ee7d6e22435714e0812bd3dabf31bdeec0c8deb96a23ec6b412f09fc365e4b88",
-        "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::check-understanding:2",
@@ -358,7 +352,7 @@
       "kind": "check-understanding",
       "ordinal": 2,
       "source_sha256": "5ef7793e7e868b8f30fb839ae0bf0124ac15bcbd8de1d4573f6b1ff7e1fa110c",
-      "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
+      "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
       "preview": "You are observing a simple harmonic oscillator. Identify one way you could decrease the maximum velocity of the system.",
       "has_solution": true,
       "missing_labels": [
@@ -372,19 +366,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::check-understanding:2",
+        "source_sha256": "5ef7793e7e868b8f30fb839ae0bf0124ac15bcbd8de1d4573f6b1ff7e1fa110c",
+        "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For the spring-mass oscillator discussed in this section, increasing the oscillating mass while retaining the same stiffness and amplitude lowers the angular frequency and thus the maximum speed. This supplies one valid method as requested. It is not a universal mass dependence for every oscillator, such as a simple pendulum.",
         "calculation_check": "From kA^2/2 = mv_max^2/2, v_max = A sqrt(k/m). Multiplying the mass by four at fixed k and A halves the maximum speed.",
         "assumptions": "A linear spring-mass oscillator, unchanged spring stiffness, unchanged amplitude relative to equilibrium, and comparison of the resulting oscillations rather than an unspecified mass-addition transient.",
         "notes": "Correct method for the section's spring-mass model, with stiffness and amplitude held fixed.",
-        "source_sha256": "5ef7793e7e868b8f30fb839ae0bf0124ac15bcbd8de1d4573f6b1ff7e1fa110c",
-        "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::conceptual-questions:1",
@@ -395,7 +389,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "2139d7b0e72f6e2159071ebad4ee592235657a3cededf935218145c4ad07db4b",
-      "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
+      "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
       "preview": "Explain in terms of energy how dissipative forces such as friction reduce the amplitude of a harmonic oscillator. Also explain how a driving mechanism can compensate. (A pendulum…",
       "has_solution": true,
       "missing_labels": [],
@@ -407,19 +401,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::conceptual-questions:1",
+        "source_sha256": "2139d7b0e72f6e2159071ebad4ee592235657a3cededf935218145c4ad07db4b",
+        "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The solution correctly relates loss of mechanical energy to reduced amplitude through E = kA^2/2. It also explains compensation by a driver: timed impulses do positive work that replaces dissipative losses. The continuing energy-source requirement and equality of average supplied and lost energy correctly describe sustained oscillation.",
         "calculation_check": "A_new/A_old = sqrt(E_new/E_old), so reducing energy to one quarter halves amplitude. Over a steady cycle, Delta E = W_drive + W_diss = 0 requires W_drive = -W_diss, with W_diss negative.",
         "assumptions": "Approximately linear oscillations, a small-angle pendulum when applying the quadratic energy relation to a clock, and appropriately timed driving that supplies positive net work.",
         "notes": "Correct explanation of amplitude decay and its compensation by an externally powered driver.",
-        "source_sha256": "2139d7b0e72f6e2159071ebad4ee592235657a3cededf935218145c4ad07db4b",
-        "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::problems-exercises:1",
@@ -430,7 +424,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "186768a252732b411ecc0d31968e63860cbe273d65a2168f11a7cce58e7e419d",
-      "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
+      "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
       "preview": "The length of nylon rope from which a mountain climber is suspended has a force constant of $$ 1.40 \\times 10^{4} \\text{N/m} $$. (a) What is the frequency at which he bounces, giv…",
       "has_solution": true,
       "missing_labels": [
@@ -447,19 +441,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::problems-exercises:1",
+        "source_sha256": "186768a252732b411ecc0d31968e63860cbe273d65a2168f11a7cce58e7e419d",
+        "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly uses the frequency of small oscillations about suspended equilibrium. Part (b) correctly includes gravitational energy released during both the slack fall and the subsequent rope extension; setting the final kinetic energy to zero gives mg(h+x) = kx^2/2. Part (c) correctly halves stiffness when rope length doubles, recalculates both requested quantities, and explicitly retains the same initial free-fall distance. The reduced peak-force conclusion follows from the computed kx values.",
         "calculation_check": "With m = 90.0 kg, g = 9.80 m/s^2, and h = 2.00 m: k = 14000 N/m gives f = 1.98501 Hz and x = 0.568934 m; k = 7000 N/m gives f = 1.40361 Hz and x = 0.847024 m. These agree with 1.99 Hz, 0.569 m, 1.40 Hz, and 0.847 m. Peak rope tension decreases from 7965 N to 5929 N. The energy balances give 2265.80 J and 2511.08 J, respectively, on both sides.",
         "assumptions": "A massless, ideal Hookean rope with unchanged material and cross section, so stiffness is inversely proportional to length; negligible dissipative losses; fixed support; vertical motion; and the same 2.00-m slack fall in both cases. Frequencies describe small taut-rope oscillations. Real climbing-rope nonlinearities are outside this stated elastic model.",
         "notes": "All parts and numerical results are correct, including gravity during extension, doubled-length stiffness scaling, and reduced peak tension.",
-        "source_sha256": "186768a252732b411ecc0d31968e63860cbe273d65a2168f11a7cce58e7e419d",
-        "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:44:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:44:42+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::problems-exercises:2",
@@ -470,7 +464,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "fc64dce2bb36052acc3dfcd6147caca9f408daa2aec0233e887fbe20947324ec",
-      "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
+      "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
       "preview": "**Engineering Application** Near the top of the Citigroup Center building in New York City, there is an object with mass of $$ 4.00 \\times 10^{5} \\text{kg} $$ on springs that have…",
       "has_solution": true,
       "missing_labels": [],
@@ -483,19 +477,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyAndTheSimpleHarmonicOscillator.md::problems-exercises:2",
+        "source_sha256": "fc64dce2bb36052acc3dfcd6147caca9f408daa2aec0233e887fbe20947324ec",
+        "file_sha256": "aae39b3d3071bb3510e3c47e31109479bb7db041af86026d25063c259737e4f1",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a linear restoring force, m x'' = -kx gives angular frequency sqrt(k/m), so k = 4π²m/T². Integrating the restoring force gives displacement-dependent potential energy kx²/2. Both requested quantities follow correctly. The discussion reasonably describes tuned mass suppression, but the damper's stored energy cannot be equated quantitatively with the building's avoided oscillation energy from these givens; sustained energy removal also requires damping.",
         "calculation_check": "Independent calculation gives k = 3,947,841.76 N/m and U = 7,895,683.52 J, agreeing with 3.95 × 10^6 N/m and 7.90 MJ. At 30 m/s, 7.90 MJ is the kinetic energy of approximately 17,500 kg, supporting the rough truck comparison.",
         "assumptions": "Linear effective springs, negligible damping for the natural-period calculation, and energy measured relative to the oscillator's equilibrium configuration. The building's coupled response, actual installation details, and historical specifications are not established by the supplied evidence.",
         "notes": "Both answers are correct under the ideal oscillator model. The discussion is qualitative; actual building energy reduction and real tuning require additional system data.",
-        "source_sha256": "fc64dce2bb36052acc3dfcd6147caca9f408daa2aec0233e887fbe20947324ec",
-        "file_sha256": "1f9b4bcded079301da01a0138f4b87f281933664b712758f3c671f475811a677",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::worked-example:1",
@@ -506,7 +500,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "85426a40f70b3773addea19a4d37d47b0210f67be49f1a89d1aa841c5263a53f",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "::: example Calculating intensity and power: How much energy is in a ray of sunlight? The average intensity of sunlight on Earth’s surface is about $$700 {\\text{W/m}}^{2} $$. (a)…",
       "has_solution": true,
       "missing_labels": [],
@@ -518,19 +512,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::worked-example:1",
+        "source_sha256": "85426a40f70b3773addea19a4d37d47b0210f67be49f1a89d1aa841c5263a53f",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Integrating constant incident intensity over area and time gives E = IAt. A lossless concentrating lens transfers the collected power to the smaller illuminated area, giving I'/I = A/A' = 200. Both parts answer the stated questions. The water-heating comparison is physically reasonable, and starting a fire is possible rather than guaranteed.",
         "calculation_check": "The collector intercepts 700 × 0.500 = 350 W for 14,400 s, giving 5.04 × 10^6 J. Concentration gives 200 × 700 = 1.40 × 10^5 W/m². Ideally, the collected energy could raise approximately 24 kg of water by 50 K using c = 4180 J/(kg K).",
         "assumptions": "The stated intensity remains constant, the collecting area is perpendicular to the incident light, and concentration has negligible reflection, absorption, or spill losses. Collected energy is distinct from useful converted energy.",
         "notes": "Both numerical results and energy-conservation reasoning are correct for ideal collection and concentration.",
-        "source_sha256": "85426a40f70b3773addea19a4d37d47b0210f67be49f1a89d1aa841c5263a53f",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::worked-example:2",
@@ -540,8 +534,8 @@
       "end_line": 218,
       "kind": "worked-example",
       "ordinal": 2,
-      "source_sha256": "e1f6f95bc6da87cbb7e08d4143b2d196e90d7c788ef56e54f8dc5baadba4380a",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "source_sha256": "8df1bba25ce6182188d65d07aa3327afa7133762fe56de4059dd958e9894a571",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "::: example Determine the combined intensity of two waves: Perfect constructive interference If two identical waves, each having an intensity of $$ 1.00 {\\text{W/m}}^{2} $$ , inte…",
       "has_solution": true,
       "missing_labels": [],
@@ -550,22 +544,19 @@
         "skipped": 15
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::worked-example:2",
-        "verdict": "concern",
+        "source_sha256": "8df1bba25ce6182188d65d07aa3327afa7133762fe56de4059dd958e9894a571",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Equal coherent amplitudes in phase add to 2X, so the intended resultant intensity is 4I. However, the displayed algebra ends with {4X}², which means (4X)² rather than the required 4X². The discussion also incorrectly asserts that every superposition necessarily produces spatial regions of both constructive and destructive interference. Identical copropagating plane waves with equal phase remain constructive everywhere; source work or boundary conditions must then account for the energy. The two-speaker illustration represents a possible geometry, not a universal resolution.",
-        "calculation_check": "Writing I = CX² gives I' = C(2X)² = 4CX² = 4.00 W/m². The printed expression (4X)² instead equals 16X². More generally, two equal coherent waves give I_total = 2I(1 + cos φ); constant φ = 0 produces 4I everywhere without destructive regions.",
-        "assumptions": "Linear waves with compatible polarization or displacement direction and the same intensity-amplitude coefficient. The fourfold result uses the intended traveling-wave intensity comparison. The conceptual counterexample does not depend on detailed figure geometry.",
-        "notes": "Final intensity is correct, but an intermediate equality is wrong and the claimed inevitability of destructive regions is false.",
-        "source_sha256": "e1f6f95bc6da87cbb7e08d4143b2d196e90d7c788ef56e54f8dc5baadba4380a",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "notes": "Correct 4.00 W/m². Fixed: (2X)² = 4X² (was written {4X}², i.e. (4X)²), and the interference remark now applies to coherent waves of the same frequency.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::check-understanding:1",
@@ -576,7 +567,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "2cb9e365847d0e9ac661feafffea55210033cccfaf42dd344b2d05765d22e522",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "Which measurement of a wave is most important when determining the wave's intensity?",
       "has_solution": true,
       "missing_labels": [
@@ -590,19 +581,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::check-understanding:1",
+        "source_sha256": "2cb9e365847d0e9ac661feafffea55210033cccfaf42dd344b2d05765d22e522",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Amplitude is the intended measurement because wave energy and intensity depend quadratically on amplitude when other wave properties are fixed. The answer correctly identifies that dependence, although amplitude alone does not determine absolute intensity across different frequencies or media.",
         "calculation_check": "For a sinusoidal traveling string wave, average power is μvω²A²/2. Holding μ, v, and ω fixed confirms that doubling amplitude quadruples power and intensity.",
         "assumptions": "Linear traveling waves compared at fixed frequency, medium, and propagation conditions; consistent definition of amplitude.",
         "notes": "Correct conceptual answer within the chapter's fixed-parameter amplitude comparison.",
-        "source_sha256": "2cb9e365847d0e9ac661feafffea55210033cccfaf42dd344b2d05765d22e522",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::conceptual-questions:1",
@@ -613,7 +604,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "cbd1b831f4731e6d2d5737072879e8050ae7760ec312a8c6588fafd2c75fffd2",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "Two identical waves undergo pure constructive interference. Is the resultant intensity twice that of the individual waves? Explain your answer.",
       "has_solution": true,
       "missing_labels": [],
@@ -625,19 +616,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::conceptual-questions:1",
+        "source_sha256": "cbd1b831f4731e6d2d5737072879e8050ae7760ec312a8c6588fafd2c75fffd2",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Superposition adds the equal in-phase amplitudes before intensity is calculated: A + A = 2A, giving four times either individual intensity. The explanation correctly distinguishes this local coherent result from simply adding independent intensities. Its conservation discussion appropriately allows both spatial redistribution and source interactions rather than requiring destructive regions in every situation.",
         "calculation_check": "With I = CA², I_resultant/I = C(2A)²/(CA²) = 4. Thus two individual 1.0 W/m² waves give the stated local 4.0 W/m² under the intended conditions.",
         "assumptions": "Coherent linear traveling waves with matching frequency, compatible polarization or displacement direction, and a common intensity-amplitude coefficient.",
         "notes": "Correct fourfold local intensity and appropriately qualified energy-conservation explanation.",
-        "source_sha256": "cbd1b831f4731e6d2d5737072879e8050ae7760ec312a8c6588fafd2c75fffd2",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::conceptual-questions:2",
@@ -648,7 +639,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "af18f86232bd3f683469ec54f79ace37a6cd6842a7961417cb8e86ac1b6a6edd",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "Circular water waves decrease in amplitude as they move away from where a rock is dropped. Explain why.",
       "has_solution": true,
       "missing_labels": [],
@@ -660,19 +651,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::conceptual-questions:2",
+        "source_sha256": "af18f86232bd3f683469ec54f79ace37a6cd6842a7961417cb8e86ac1b6a6edd",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For outward circular waves in a uniform medium, conservation of outward energy transport requires 2πr times the power per unit crest length to remain constant. That transport therefore scales as 1/r. With unchanged wave properties and transport proportional to amplitude squared, amplitude scales as r^(-1/2). Dissipation causes additional attenuation, as stated.",
         "calculation_check": "At radius 4r, the circumference is four times larger, so power per crest length is one quarter and amplitude is sqrt(1/4) = 1/2 of its previous value.",
         "assumptions": "Small-amplitude waves sufficiently far from the source, constant depth and group speed, and negligible dissipation or dispersive packet spreading for the stated scaling. A rock produces a transient packet, so approximately conserved packet energy gives the same result when packet width remains fixed.",
         "notes": "Correct geometric-spreading explanation and amplitude scaling under the stated idealization.",
-        "source_sha256": "af18f86232bd3f683469ec54f79ace37a6cd6842a7961417cb8e86ac1b6a6edd",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:1",
@@ -683,7 +674,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "8373f02c28d0f6a063f027995fb3a7e549396c054ef243722201be200574400c",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "**Medical Application** Ultrasound of intensity $$ 1.50 \\times 10^{2} {\\text{W/m}}^{2} $$ is produced by the rectangular head of a medical imaging device measuring 3.00 by 5.00 cm…",
       "has_solution": true,
       "missing_labels": [],
@@ -696,19 +687,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:1",
+        "source_sha256": "8373f02c28d0f6a063f027995fb3a7e549396c054ef243722201be200574400c",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The emitted acoustic power is correctly obtained by integrating uniform intensity over the rectangular head. The discussion's claim that this relatively low total power prevents tissue heating and establishes safety for frequent use or pregnancy does not follow. Absorption can produce heating even at low power; exposure duration, duty cycle, focusing, tissue properties, and heat removal matter. The surrounding ultrasound chapter explicitly describes absorption and thermal effects. Whether 0.225 W is typical for imaging devices is not established by the supplied evidence.",
         "calculation_check": "Area = 0.0300 × 0.0500 = 1.50 × 10^-3 m², so P = 150 × 1.50 × 10^-3 = 0.225 W. As a thermal counter-check, absorbed energy is fPt, and an idealized temperature rise without cooling is fPt/(mc), which is not zero merely because P is small.",
         "assumptions": "Uniform outward acoustic intensity over the active head area, with intensity and power averaged consistently in time. No clinical safety conclusion can be calculated from the provided data.",
         "notes": "Power calculation is correct. The discussion makes unsupported claims that low total power prevents heating and guarantees diagnostic safety.",
-        "source_sha256": "8373f02c28d0f6a063f027995fb3a7e549396c054ef243722201be200574400c",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:2",
@@ -719,7 +710,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "c3ec2facc04602bd439998c52bcbb417bb36f93f35ba431931993a4a3ced1bd0",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "The low-frequency speaker of a stereo set has a surface area of $$ 0.05 {\\text{m}}^{2} $$ and produces 1W of acoustical power. What is the intensity at the speaker? If the speaker…",
       "has_solution": true,
       "missing_labels": [],
@@ -745,19 +736,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:2",
+        "source_sha256": "c3ec2facc04602bd439998c52bcbb417bb36f93f35ba431931993a4a3ced1bd0",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Both calculations follow the prescribed models: average surface intensity is P/A, and isotropic radiation gives I = P/(4πr²). The concluding claim that listeners must be relatively close to speakers to hear clearly is contradicted by the intensity scale. An intensity of 0.1 W/m² is extremely loud, not near inaudibility. Inverse-square spreading alone does not establish a short useful listening distance; background noise, frequency, and room acoustics also matter.",
         "calculation_check": "Surface intensity = 1/0.05 = 20 W/m². The specified intensity occurs at sqrt[1/(4π × 0.1)] = 0.892 m. Using the chapter's reference intensity, 0.1 W/m² corresponds to 10 log10(0.1/10^-12) = 110 dB, far above the hearing threshold.",
         "assumptions": "Uniform average flux through the emitting surface for the first part; an ideal isotropic point source, negligible absorption, and no reflections for the distance calculation. The two areas describe different surfaces.",
         "notes": "Both requested answers are correct. The discussion incorrectly interprets 0.1 W/m² as evidence that clear hearing requires proximity.",
-        "source_sha256": "c3ec2facc04602bd439998c52bcbb417bb36f93f35ba431931993a4a3ced1bd0",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:3",
@@ -768,7 +759,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "adf4d5e157da7d08267f4197459eff00b1379f9f33bcc1d85e0bc55fddf532d0",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "To increase intensity of a wave by a factor of 50, by what factor should the amplitude be increased?",
       "has_solution": true,
       "missing_labels": [],
@@ -781,19 +772,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:3",
+        "source_sha256": "adf4d5e157da7d08267f4197459eff00b1379f9f33bcc1d85e0bc55fddf532d0",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For unchanged wave parameters in the linear regime, I = CA² gives I2/I1 = (A2/A1)². Therefore a fiftyfold intensity increase requires an amplitude multiplier sqrt(50). The pressure-amplitude example is also correct at fixed acoustic impedance. The discussion's qualitative reference to perceived loudness should not be interpreted as a square-law perception relation; loudness also depends on frequency and auditory response.",
         "calculation_check": "sqrt(50) = 7.0710678, and 7.0710678² = 50. For sound, I = p_amplitude²/(2ρv) independently confirms the same pressure-amplitude multiplier.",
         "assumptions": "Frequency, medium, wave type, and intensity-amplitude coefficient remain fixed, and amplitudes remain within the linear regime. The stated relationship is not a universal law for nonlinear waves or perceived loudness.",
         "notes": "The requested multiplier 7.07 is correct. The square law describes physical intensity, not a quantified loudness response.",
-        "source_sha256": "adf4d5e157da7d08267f4197459eff00b1379f9f33bcc1d85e0bc55fddf532d0",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:4",
@@ -804,7 +795,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "078e762aaf26e190199f0d18bd6c6a1b22a4e835e75281a92266f31cd9e2dd9a",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "**Engineering Application** A device called an insolation meter is used to measure the intensity of sunlight has an area of 100 cm2 and registers 6.50 W. What is the intensity in…",
       "has_solution": true,
       "missing_labels": [],
@@ -817,19 +808,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:4",
+        "source_sha256": "078e762aaf26e190199f0d18bd6c6a1b22a4e835e75281a92266f31cd9e2dd9a",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The registered incident power divided by the collecting area gives the required intensity. The area conversion correctly squares the centimeter-to-meter factor. Atmospheric absorption and scattering can explain lower surface irradiance than incident irradiance above the atmosphere. The discussion's 600–1000 W/m² range is illustrative of daytime conditions, not a general bound across weather, orientation, and night.",
         "calculation_check": "100 cm² = 100 × (10^-2 m)² = 0.0100 m². Thus I = 6.50/0.0100 = 650 W/m², with dimensions power per area.",
         "assumptions": "The meter registers total incident power across its active area, with appropriate calibration and orientation. The empirical frequency of the stated sunlight range is not independently established by the supplied evidence.",
         "notes": "Correct conversion and intensity. The contextual sunlight range should be understood as illustrative rather than universal.",
-        "source_sha256": "078e762aaf26e190199f0d18bd6c6a1b22a4e835e75281a92266f31cd9e2dd9a",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:5",
@@ -840,7 +831,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "dbd9288c90e221bad39a7c4ebc1c01bfc240c380183917f0ccdd15852c720ec7",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "**Astronomy Application** Energy from the Sun arrives at the top of the Earth’s atmosphere with an intensity of $$1.30 {\\text{kW/m}}^{2}. $$ How long does it take for $$1.8 \\times…",
       "has_solution": true,
       "missing_labels": [],
@@ -853,19 +844,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:5",
+        "source_sha256": "dbd9288c90e221bad39a7c4ebc1c01bfc240c380183917f0ccdd15852c720ec7",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Constant incident power is IA, so accumulating energy E requires t = E/(IA). The solution correctly uses the supplied top-of-atmosphere intensity and explicitly distinguishes continuous exposure from ordinary ground exposure. Its gasoline comparison is a reasonable rough chemical-energy comparison, not a claim about equal useful conversion efficiency.",
         "calculation_check": "t = 1.8 × 10^9/(1300 × 1.00) = 1.384615 × 10^6 s = 16.0256 days, agreeing with 16.0 days. The textbook's conservation-of-energy table gives approximately 1.2 × 10^8 J per gallon of gasoline; 1.8 GJ is about 15 US gallons, or roughly 57 L, consistent with the deliberately rough 50 L comparison.",
         "assumptions": "Continuous illumination at the given intensity on a perpendicular collecting area, with no obstruction or losses. The supplied approximate intensity is used rather than independently verifying a modern solar-constant value.",
         "notes": "Correct accumulation time and appropriately stated continuous-exposure limitation; the fuel comparison is acceptable as a rough estimate.",
-        "source_sha256": "dbd9288c90e221bad39a7c4ebc1c01bfc240c380183917f0ccdd15852c720ec7",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:6",
@@ -876,7 +867,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "6d23fe3e99264becc268494da463d0c0e63a01d70c8c639d2be1b01018a5ff50",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "Suppose you have a device that extracts energy from ocean breakers in direct proportion to their intensity. If the device produces 10.0 kW of power on a day when the breakers are…",
       "has_solution": true,
       "missing_labels": [],
@@ -889,19 +880,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:6",
+        "source_sha256": "6d23fe3e99264becc268494da463d0c0e63a01d70c8c639d2be1b01018a5ff50",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Under a fixed wave-transport model, intensity is proportional to amplitude squared. Whether height denotes amplitude or crest-to-trough height, a consistent definition makes the conversion factor cancel in the ratio. With device power proportional to intensity, halving height quarters output. The discussion's height-only comparison requires unchanged other sea-state and device properties; actual breaking-wave output cannot generally be predicted from height alone.",
         "calculation_check": "P2/P1 = (0.600/1.20)² = 0.250, so P2 = 10.0 × 0.250 = 2.50 kW. More generally, wave energy flux scales as h² times group velocity, confirming why unchanged transport properties are required.",
         "assumptions": "The intended quadratic wave-energy approximation applies; group velocity, relevant frequency or spectrum, depth, capture geometry, and conversion proportionality remain unchanged. Nonlinear breaking and changing sea states can invalidate height-only scaling.",
         "notes": "Correct 2.50 kW under the intended fixed-parameter model. Real breakers require additional sea-state information.",
-        "source_sha256": "6d23fe3e99264becc268494da463d0c0e63a01d70c8c639d2be1b01018a5ff50",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:48:21+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:48:21+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:7",
@@ -912,7 +903,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "4e7729d8f4bc46c03537cbf901fb5a97c0d8c32936b908bf655c909d810234ec",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "**Engineering Application** (a) A photovoltaic array of (solar cells) is 10.0% efficient in gathering solar energy and converting it to electricity. If the average intensity of su…",
       "has_solution": true,
       "missing_labels": [],
@@ -925,19 +916,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:7",
+        "source_sha256": "4e7729d8f4bc46c03537cbf901fb5a97c0d8c32936b908bf655c909d810234ec",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "Both requested calculations are correct: electrical output is ηIA, and the purchase-price ceiling equals two years of electricity revenue under the stated operating conditions. The discussion overextends this result by treating an unusually short required payback as evidence that solar power generally required subsidies or higher rates to be economically viable. Economic viability over a system's lifetime does not follow from this two-year calculation.",
         "calculation_check": "A = 100/(0.100×700) = 1.42857 m². Revenue = (0.100 kW)(10.0 h/day)(730 days)($0.0900/kWh) = $65.70.",
         "assumptions": "Constant efficiency and 100 W output during the stated operating hours; 365 days per year; no maintenance, degradation, financing, or other costs.",
         "notes": "Answers are correct. The broader economic conclusion is unsupported by the two-year model; actual price and historical subsidy claims were not externally verified.",
-        "source_sha256": "4e7729d8f4bc46c03537cbf901fb5a97c0d8c32936b908bf655c909d810234ec",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:51:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:51:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:8",
@@ -948,7 +939,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "3036a25879ba29b56d030cff6f978d5eb662ede4af66bde83d274fae93b84282",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "A microphone receiving a pure sound tone feeds an oscilloscope, producing a wave on its screen. If the sound intensity is originally $$2.00 \\times 10^{-5} {\\text{W/m}}^{2}, $$ but…",
       "has_solution": true,
       "missing_labels": [],
@@ -961,19 +952,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:8",
+        "source_sha256": "3036a25879ba29b56d030cff6f978d5eb662ede4af66bde83d274fae93b84282",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For an unchanged pure-tone frequency and medium, intensity scales with acoustic amplitude squared. A linear microphone and unchanged oscilloscope gain therefore imply the stated intensity increase. However, the discussion incorrectly extends this scaling to audio equipment's total power consumption. Fixed electrical consumption and changing conversion efficiency prevent that conclusion without additional assumptions.",
         "calculation_check": "I₂/I₁ = 1.30² = 1.69, giving I₂ = 3.38×10⁻⁵ W/m². Relative to 10⁻¹² W/m², the levels are 73.01 and 75.29 dB, an increase of 2.28 dB.",
         "assumptions": "Linear acoustic propagation, unchanged frequency and medium, proportional microphone response, and unchanged measurement gain. No fixed-efficiency model for the audio equipment is supplied.",
         "notes": "Intensity and decibel calculations are correct. The claim that total equipment power consumption necessarily rises by 69% is unjustified.",
-        "source_sha256": "3036a25879ba29b56d030cff6f978d5eb662ede4af66bde83d274fae93b84282",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:51:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:51:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16EnergyInWaves.md::problems-exercises:9",
@@ -984,7 +975,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "bdfd618a798884a1bcba9fa73cf30dc2435b4b813667d8a381aee75e27884d21",
-      "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
+      "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
       "preview": "**Medical Application** (a) What is the intensity in $${\\text{W/m}}^{2} $$ of a laser beam used to burn away cancerous tissue that, when 90.0% absorbed, puts 500 J of energy into…",
       "has_solution": true,
       "missing_labels": [],
@@ -997,19 +988,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16EnergyInWaves.md::problems-exercises:9",
+        "source_sha256": "bdfd618a798884a1bcba9fa73cf30dc2435b4b813667d8a381aee75e27884d21",
+        "file_sha256": "553052fe77424eeb5dc1871068cb9753a0e5912014a7785587a83601877a0d6f",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly distinguishes incident energy from absorbed energy and divides incident power by the circular spot area. The sunlight comparison is also correct. Part (b) does not adequately explain the requested exposure-duration dependence: at fixed intensity, incident energy per area is It. Its unconditional prediction of immediate permanent retinal damage is stronger than the supplied information supports. Wavelength, ocular transmission, beam geometry, and exposure duration determine the location and extent of injury; retinal focusing cannot be assumed for every surgical laser.",
         "calculation_check": "P = 500/(0.900×4.00) = 138.889 W. A = π(0.00100 m)² = 3.14159×10⁻⁶ m². I = 4.42097×10⁷ W/m², consistent with the reported value within intermediate rounding. I/700 = 6.31567×10⁴. For exposure duration τ, incident beam energy is 138.889τ J.",
         "assumptions": "The given absorption fraction applies to the treated tissue; the quoted intensity is the spatial and temporal average over the stated spot and treatment interval. Eye absorption and focusing properties are unspecified.",
         "notes": "Numerical results are correct. The eye discussion needs explicit duration dependence and qualifications concerning wavelength and injury location; specific injury thresholds were not verified.",
-        "source_sha256": "bdfd618a798884a1bcba9fa73cf30dc2435b4b813667d8a381aee75e27884d21",
-        "file_sha256": "f5398cf670936ac1b4985481d34d1c35e35282bda63b00072d04bfcfa0e809f1",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:51:43+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:51:43+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16ForcedOscillationsAndResonance.md::check-understanding:1",
@@ -1964,7 +1955,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "d9a88b35f507553b8cae5f5e239fd9472a9984e49a04931db1eaa5c12326bab7",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "::: example Calculate the Frequency and Period of Oscillations: Bad Shock Absorbers in a Car If the shock absorbers in a car go bad, then the car will oscillate at the least provo…",
       "has_solution": true,
       "missing_labels": [],
@@ -1977,19 +1968,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::worked-example:1",
+        "source_sha256": "d9a88b35f507553b8cae5f5e239fd9472a9984e49a04931db1eaa5c12326bab7",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Measuring displacement from the loaded equilibrium makes gravity cancel the static spring force, leaving m x'' = -kx. Hence f = sqrt(k/m)/(2π) and T = 1/f. These relations correctly describe the intended weakly damped vertical bounce mode and answer both requests.",
         "calculation_check": "k/m = 72.5556 s^-2, giving f = 1.3556746 Hz ≈ 1.36 Hz and T = 0.7376401 s ≈ 0.738 s. The displayed intermediate 1.3656 s^-1 is a transcription error; the later 1.356 Hz and final results agree with the givens.",
         "assumptions": "The stated stiffness is the total effective suspension stiffness for a single vertical mode, 900 kg is its effective moving mass, springs are linear, and residual damping is negligible. Pitch and wheel-hop modes are omitted.",
         "notes": "Correct model and final results. Minor intermediate digit error, without a substantive physics error.",
-        "source_sha256": "d9a88b35f507553b8cae5f5e239fd9472a9984e49a04931db1eaa5c12326bab7",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::check-understanding:1",
@@ -2000,7 +1991,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "5bf1afefcf66c6378cdeb21117f1ff4d25ac7b0e89a4cf11ca93d46143b177eb",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "Suppose you pluck a banjo string. You hear a single note that starts out loud and slowly quiets over time. Describe what happens to the sound waves in terms of period, frequency a…",
       "has_solution": true,
       "missing_labels": [
@@ -2014,19 +2005,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::check-understanding:1",
+        "source_sha256": "5bf1afefcf66c6378cdeb21117f1ff4d25ac7b0e89a4cf11ca93d46143b177eb",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For a weakly damped linear string mode, energy loss reduces the oscillation envelope while its oscillation frequency remains approximately constant. Since period is the reciprocal of frequency, it also remains approximately constant. The radiated sound amplitude therefore decreases as the note fades.",
         "calculation_check": "A damped mode can be written x(t) = A0 exp(-βt) cos(ωd t + φ): its envelope decreases while T = 2π/ωd stays fixed. Acoustic intensity scales with pressure amplitude squared.",
         "assumptions": "Approximately linear vibration, fixed string tension and length, weak damping, and a dominant perceived pitch. Changes in harmonic balance and small amplitude-dependent pitch shifts are neglected.",
         "notes": "Correct qualitative account of decreasing loudness at essentially unchanged frequency and period.",
-        "source_sha256": "5bf1afefcf66c6378cdeb21117f1ff4d25ac7b0e89a4cf11ca93d46143b177eb",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::check-understanding:2",
@@ -2037,7 +2028,7 @@
       "kind": "check-understanding",
       "ordinal": 2,
       "source_sha256": "4c65a046cfa62e353d79236675ca460123ffc254a2f8e0f5c65c86f2c537cc1b",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "A babysitter is pushing a child on a swing. At the point where the swing reaches $$x $$ , where would the corresponding point on a wave of this motion be located?",
       "has_solution": true,
       "missing_labels": [
@@ -2053,19 +2044,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::check-understanding:2",
+        "source_sha256": "4c65a046cfa62e353d79236675ca460123ffc254a2f8e0f5c65c86f2c537cc1b",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The problem specifies that the swing reaches x but never states that x is a turning point or maximum displacement. The surrounding chapter explicitly distinguishes instantaneous displacement x from amplitude X. A displacement-time graph has ordinate x at that instant; it is at an extremum only when x = ±X. The solution therefore adds an unsupported condition.",
         "calculation_check": "For x(t) = X cos(ωt + φ), reaching an arbitrary x requires cos(ωt + φ) = x/X. For example, x = 0 corresponds to an equilibrium crossing, not a crest or trough. Extrema require |x| = X.",
         "assumptions": "The wave represents displacement versus time, using the chapter's stated distinction between lowercase x and uppercase X. No turning-point condition is supplied.",
         "notes": "The solution incorrectly identifies unspecified displacement x as the amplitude. Its crest/trough answer requires an explicit maximum-displacement condition.",
-        "source_sha256": "4c65a046cfa62e353d79236675ca460123ffc254a2f8e0f5c65c86f2c537cc1b",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:1",
@@ -2076,7 +2067,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "498325f7161dbc87b5a18f724e45c5ab4454e4a76887390ba597c8e36ec20052",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "What conditions must be met to produce simple harmonic motion?",
       "has_solution": true,
       "missing_labels": [],
@@ -2088,19 +2079,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:1",
+        "source_sha256": "498325f7161dbc87b5a18f724e45c5ab4454e4a76887390ba597c8e36ec20052",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A constant negative proportionality between acceleration and displacement from equilibrium gives x'' + ω²x = 0, whose nontrivial solutions are sinusoidal. For constant mass, the stated net force F = -kx with k > 0 supplies exactly this condition. The discussion correctly limits the result to the linear restoring-force regime.",
         "calculation_check": "Substituting x = A cos(ωt + φ) into m x'' = -kx gives ω² = k/m. The ratio k/m has units s^-2, and the negative restoring sign makes equilibrium stable.",
         "assumptions": "A fixed equilibrium, constant positive effective mass and stiffness, and negligible damping or additional forcing for the stated ideal free oscillation.",
         "notes": "Correct force, acceleration, stability, and linearity conditions for ideal SHM.",
-        "source_sha256": "498325f7161dbc87b5a18f724e45c5ab4454e4a76887390ba597c8e36ec20052",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:2",
@@ -2111,7 +2102,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "e72bb65396f3ff9452e8983c2129d8e24853df71dd57105d9c3d380f6e13be21",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "(a) If frequency is not constant for some oscillation, can the oscillation be simple harmonic motion? (b) Can you think of any examples of harmonic motion where the frequency may…",
       "has_solution": true,
       "missing_labels": [],
@@ -2121,19 +2112,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:2",
+        "source_sha256": "e72bb65396f3ff9452e8983c2129d8e24853df71dd57105d9c3d380f6e13be21",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Part (a) correctly states that one ideal SHM trajectory has constant frequency. Part (b) supplies a valid amplitude-dependent oscillator while explicitly distinguishing it from strict SHM. A pendulum obeys θ'' = -(g/L)sinθ; only its small-angle approximation has acceleration proportional to displacement.",
         "calculation_check": "For pendulum amplitude θ0 in radians, the small-amplitude expansion is T ≈ 2π sqrt(L/g)[1 + θ0²/16 + …], showing increasing period and decreasing frequency with increasing amplitude.",
         "assumptions": "A fixed-length ideal pendulum in uniform gravity, with amplitude below the rotation threshold. The expansion checks the initial amplitude dependence; it is not a precise large-angle formula.",
         "notes": "Both parts are correctly answered, with the necessary distinction between SHM and nonlinear periodic motion.",
-        "source_sha256": "e72bb65396f3ff9452e8983c2129d8e24853df71dd57105d9c3d380f6e13be21",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:3",
@@ -2143,41 +2134,30 @@
       "end_line": 348,
       "kind": "conceptual-questions",
       "ordinal": 3,
-      "source_sha256": "b28a4aea120f09fb3834503f2098d1880e4a5b7581b00afc40682bbf9561ec89",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "source_sha256": "7cae5c8cba73052021006a10638228f63c5ea29c287699b29cac91a8ff31dfe2",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "Give an example of a simple harmonic oscillator, specifically noting how its frequency is independent of amplitude.",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
         "skipped": 6,
-        "failed": 1
+        "checked": 1
       },
-      "automatic_flags": [
-        {
-          "file": "contents/ch16SimpleHarmonicMotion.md",
-          "line": 340,
-          "kind": "equation",
-          "expression": "(1/2\\pi)\\sqrt{(200\\text{ N/m})/(0.50\\text{ kg})} = 3.18\\text{ Hz}",
-          "status": "failed",
-          "reason": "numeric mismatch (SI values)",
-          "computed": 31.41592653589793,
-          "stated": 3.18,
-          "error_pct": 887.9222181099979
-        }
-      ],
-      "review_status": "ambiguous",
+      "automatic_flags": [],
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:3",
-        "source_sha256": "b28a4aea120f09fb3834503f2098d1880e4a5b7581b00afc40682bbf9561ec89",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "verdict": "ambiguous",
-        "confidence": "medium",
-        "notes": "Linear spring model, amplitude independence, and f≈3.18 Hz for k=200 N/m and m=0.50 kg are correct for negligible damping. The written (1/2π) is syntactically ambiguous: intended 1/(2π), whereas ordinary left-to-right parsing gives π/2. This is a notation issue, not an incorrect physical frequency.",
-        "reviewer": "Codex substantive source review",
-        "reviewed_at": "2026-10-22T19:07:10+00:00"
+        "source_sha256": "7cae5c8cba73052021006a10638228f63c5ea29c287699b29cac91a8ff31dfe2",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 3.18 Hz and amplitude independence. Fixed: the frequency is written with \\frac{1}{2\\pi}, removing the ambiguous (1/2π).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "ambiguous",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:4",
@@ -2188,7 +2168,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "63f8a61ee019f2108f82eb76409ce79944aa323eb4c9e1840c5b8ae2d9559e5b",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "Explain why you expect an object made of a stiff material to vibrate at a higher frequency than a similar object made of a spongy material.",
       "has_solution": true,
       "missing_labels": [],
@@ -2200,19 +2180,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:4",
+        "source_sha256": "63f8a61ee019f2108f82eb76409ce79944aa323eb4c9e1840c5b8ae2d9559e5b",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For comparable geometry and effective vibrating mass, greater stiffness produces a larger restoring acceleration per unit displacement and therefore a higher natural frequency. The solution appropriately qualifies the comparison because density, geometry, and damping can otherwise change the outcome.",
         "calculation_check": "From f = sqrt(k_eff/m_eff)/(2π), f2/f1 = sqrt(k2/k1) at fixed mass. Quadrupling stiffness gives a frequency ratio of 2, as stated.",
         "assumptions": "Comparable vibration modes and geometry, approximately equal effective masses, linear elasticity, and sufficiently weak damping for a natural oscillation frequency to be meaningful.",
         "notes": "Correct stiffness-frequency explanation with appropriate limits on comparing different materials.",
-        "source_sha256": "63f8a61ee019f2108f82eb76409ce79944aa323eb4c9e1840c5b8ae2d9559e5b",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:5",
@@ -2223,7 +2203,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "df36e90a51870c3ad7fe80ab64bc4e84dba8a0ccf0b6171224d501938d77ae9f",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "As you pass a freight truck with a trailer on a highway, you notice that its trailer is bouncing up and down slowly. Is it more likely that the trailer is heavily loaded or nearly…",
       "has_solution": true,
       "missing_labels": [],
@@ -2235,19 +2215,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:5",
+        "source_sha256": "df36e90a51870c3ad7fe80ab64bc4e84dba8a0ccf0b6171224d501938d77ae9f",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With approximately fixed suspension stiffness, increasing the supported mass reduces the natural bounce frequency, so slow bouncing supports the heavily loaded interpretation. The solution appropriately acknowledges that adaptive stiffness and other modes can alter this inference.",
         "calculation_check": "f_loaded/f_empty = sqrt(m_empty/m_loaded) at fixed k. A fourfold mass increase halves frequency and doubles period. The static gravitational deflection changes equilibrium but not this linearized frequency relation.",
         "assumptions": "The observed bounce primarily reflects the suspension's natural vertical mode, rather than a frequency imposed by road spacing. Effective stiffness and damping are sufficiently comparable between loading states.",
         "notes": "Correct conditional inference: slow natural bouncing favors a heavily loaded trailer under the fixed-stiffness model.",
-        "source_sha256": "df36e90a51870c3ad7fe80ab64bc4e84dba8a0ccf0b6171224d501938d77ae9f",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T20:57:33+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T20:57:33+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:6",
@@ -2258,7 +2238,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "ffc83571802a253ee2371e3ac99d72564789e6a010f83984053fb7cdbde26ead",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "Some people modify cars to be much closer to the ground than when manufactured. Should they install stiffer springs? Explain your answer.",
       "has_solution": true,
       "missing_labels": [],
@@ -2270,19 +2250,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::conceptual-questions:6",
+        "source_sha256": "ffc83571802a253ee2371e3ac99d72564789e6a010f83984053fb7cdbde26ead",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Reduced clearance permits less suspension compression before bottoming. Increasing effective spring stiffness reduces compression under an additional static load and generally reduces excursion for a given input energy. The solution correctly distinguishes stiffness from ride-height settings and recognizes the need for compatible damping.",
         "calculation_check": "For an additional load, Δx=ΔF/k has units of length and decreases as k increases. With fixed effective mass, the natural frequency scales as sqrt(k), consistent with the discussion.",
         "assumptions": "An approximately linear suspension with comparable geometry and effective mass. Actual bump response also depends on damping, road excitation, tire compliance, and available travel.",
         "notes": "Sound qualitative recommendation with appropriate qualifications about height, travel, geometry, and damping.",
-        "source_sha256": "ffc83571802a253ee2371e3ac99d72564789e6a010f83984053fb7cdbde26ead",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:1",
@@ -2293,7 +2273,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "6ab11430cd37143b3dc48ebc1bbde478b9e26a2059d63dffb817e0deb397602f",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "A type of cuckoo clock keeps time by having a mass bouncing on a spring, usually something cute like a cherub in a chair. What force constant is needed to produce a period of 0.50…",
       "has_solution": true,
       "missing_labels": [],
@@ -2306,19 +2286,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:1",
+        "source_sha256": "6ab11430cd37143b3dc48ebc1bbde478b9e26a2059d63dffb817e0deb397602f",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Measuring displacement from the vertical equilibrium position gives m x''=-kx, hence T=2πsqrt(m/k). Solving for k answers the question. Gravity shifts equilibrium without changing this ideal oscillator's period. The discussion correctly relates increased stiffness to a shorter period at fixed mass.",
         "calculation_check": "k=4π²(0.0150)/(0.500)²=2.368705 N/m. Static extension is mg/k=0.062059 m. The frequency is 2.00 Hz, or 120 complete cycles per minute.",
         "assumptions": "Linear, effectively massless spring; negligible damping and mechanism loading; 0.0150 kg is the effective oscillating mass.",
         "notes": "Spring constant, static extension, cycle count, and explanatory scaling are correct.",
-        "source_sha256": "6ab11430cd37143b3dc48ebc1bbde478b9e26a2059d63dffb817e0deb397602f",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:2",
@@ -2329,7 +2309,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "118c1cf65ce20bfbc1892d517ab41ed59771abb0aef9af625dfa0b6d267bb596",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "If the spring constant of a simple harmonic oscillator is doubled, by what factor will the mass of the system need to change in order for the frequency of the motion to remain the…",
       "has_solution": true,
       "missing_labels": [],
@@ -2341,19 +2321,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:2",
+        "source_sha256": "118c1cf65ce20bfbc1892d517ab41ed59771abb0aef9af625dfa0b6d267bb596",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The oscillator equation gives ω²=k/m. Maintaining frequency therefore requires maintaining k/m. Doubling k requires doubling m, exactly as derived and explained.",
         "calculation_check": "f₂/f₁=sqrt[(2k/m₂)/(k/m₁)]=sqrt(2m₁/m₂); setting this equal to one yields m₂/m₁=2.",
         "assumptions": "An ideal linear mass-spring oscillator with unchanged configuration and negligible damping.",
         "notes": "The factor of two and the compensating stiffness and inertia explanation are correct.",
-        "source_sha256": "118c1cf65ce20bfbc1892d517ab41ed59771abb0aef9af625dfa0b6d267bb596",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:3",
@@ -2364,7 +2344,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "18d8368b9985bbef556ea4ce8e8e09c4fee1fbfb697affbd6c1b6c1bbe0ea2a4",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "A 0.500-kg mass suspended from a spring oscillates with a period of 1.50 s. How much mass must be added to the object to change the period to 2.00 s?",
       "has_solution": true,
       "missing_labels": [],
@@ -2377,19 +2357,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:3",
+        "source_sha256": "18d8368b9985bbef556ea4ce8e8e09c4fee1fbfb697affbd6c1b6c1bbe0ea2a4",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For unchanged stiffness, T² is proportional to total oscillating mass. The required total mass is m₁(T₂/T₁)²; subtracting the initial mass gives the mass to add. The solution correctly makes this distinction and explains the square-root dependence.",
         "calculation_check": "k=8.772982 N/m; m₂=0.500(2.00/1.50)²=0.888889 kg; added mass=0.388889 kg. Mass increases by 77.78%, while period increases by 33.33%.",
         "assumptions": "The spring remains linear over the enlarged extension, added mass moves rigidly with the original object, and spring mass and damping are negligible.",
         "notes": "Correct added mass of 0.389 kg, with consistent intermediate values and discussion.",
-        "source_sha256": "18d8368b9985bbef556ea4ce8e8e09c4fee1fbfb697affbd6c1b6c1bbe0ea2a4",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:4",
@@ -2400,7 +2380,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "fc4862eb44974faaccc3d440a829700c63494ea000d886aaee6305a2cc1c23a7",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "By how much leeway (both percentage and mass) would you have in the selection of the mass of the object in the previous problem if you did not wish the new period to be greater th…",
       "has_solution": true,
       "missing_labels": [],
@@ -2413,19 +2393,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:4",
+        "source_sha256": "fc4862eb44974faaccc3d440a829700c63494ea000d886aaee6305a2cc1c23a7",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Because mass increases monotonically with T², the allowed period endpoints directly determine the mass endpoints. The solution correctly reports tolerances relative to both total and added mass. Its description of symmetry is only approximate: a quadratic relation produces slightly asymmetric mass tolerances about the nominal mass.",
         "calculation_check": "The nominal total mass is 0.888889 kg. Allowed totals are 0.880022–0.897800 kg, giving deviations of -8.8667/+8.9111 g. These are -0.9975/+1.0025% of total mass and -2.2800/+2.2914% of added mass, consistent with the reported rounded tolerances.",
         "assumptions": "The preceding problem's mass and period define the unchanged spring stiffness; input uncertainty is disregarded. Symmetric tolerances are rounded approximations.",
         "notes": "All tolerance results are correct to stated precision. Exact symmetry does not follow from the quadratic relation, but the asymmetry here is negligible.",
-        "source_sha256": "fc4862eb44974faaccc3d440a829700c63494ea000d886aaee6305a2cc1c23a7",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:5",
@@ -2436,7 +2416,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "12c7ccc369e0099f6ff30835df2825797678d8f08c6a3113a862976e3f87d2b2",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "Suppose you attach the object with mass $$m $$ to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring's original re…",
       "has_solution": true,
       "missing_labels": [],
@@ -2449,19 +2429,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:5",
+        "source_sha256": "12c7ccc369e0099f6ff30835df2825797678d8f08c6a3113a862976e3f87d2b2",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With downward extension x from natural length, conservation of energy between the two turning points gives kx²/2=mgx, so the nonzero turning point is x=2mg/k. Its spring force is upward with magnitude 2mg; the net force there is mg upward. Equilibrium lies at mg/k, making the amplitude mg/k. Maximum speed occurs at equilibrium and equals A sqrt(k/m). All three parts and the discussion follow.",
         "calculation_check": "A=(0.25)(9.80)/10.0=0.245 m; lowest extension=0.490 m; spring force there=4.90 N=2mg. Maximum speed=0.245sqrt(10.0/0.25)=1.54952 m/s.",
         "assumptions": "Release from rest at natural length, constant gravity, negligible spring mass and losses, and Hooke's law valid throughout the extension.",
         "notes": "Energy argument, force direction, amplitude, and maximum speed are correct under the ideal spring assumptions.",
-        "source_sha256": "12c7ccc369e0099f6ff30835df2825797678d8f08c6a3113a862976e3f87d2b2",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:6",
@@ -2472,7 +2452,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "ce708ad22097e145335ca500a0eef3f69544b8b00711eac90e94f2784f2e192b",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0 kg and the period of her motion is 0.800 s. The next diver is a male whose period of simple harmon…",
       "has_solution": true,
       "missing_labels": [
@@ -2489,19 +2469,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:6",
+        "source_sha256": "ce708ad22097e145335ca500a0eef3f69544b8b00711eac90e94f2784f2e192b",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For the same effective board stiffness and negligible board mass, the oscillation period squared is proportional to diver mass. Taking the period ratio therefore yields the male diver's mass directly. The longer period correctly implies greater inertia.",
         "calculation_check": "m₂=55.0(1.05/0.800)²=94.746094 kg, which rounds to 94.7 kg.",
         "assumptions": "Both divers load the same position on the board, giving the same effective stiffness; the board is linear, its mass is negligible, and each diver moves with it without losing contact.",
         "notes": "Correct mass and ratio method for the stipulated ideal board model.",
-        "source_sha256": "ce708ad22097e145335ca500a0eef3f69544b8b00711eac90e94f2784f2e192b",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:7",
@@ -2512,7 +2492,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "85a0ef0ba68cc6b81d36f55d7c7622c8258537581eaaccb16a8c3d5c36da1507",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "Suppose a diving board with no one on it bounces up and down in a simple harmonic motion with a frequency of 4.00 Hz. The board has an effective mass of 10.0 kg. What is the frequ…",
       "has_solution": true,
       "missing_labels": [],
@@ -2525,19 +2505,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:7",
+        "source_sha256": "85a0ef0ba68cc6b81d36f55d7c7622c8258537581eaaccb16a8c3d5c36da1507",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The unloaded frequency and effective board mass determine its modal stiffness. Adding the diver increases the effective oscillating mass to 85.0 kg while retaining that stiffness. The resulting decrease in frequency and its square-root scaling are correctly explained.",
         "calculation_check": "k=(2π·4.00)²(10.0)=6316.547 N/m. Directly, f₂=4.00sqrt(10.0/85.0)=1.371989 Hz, and f₂/f₁=0.342997.",
         "assumptions": "A single linear board mode with unchanged effective stiffness and board mass; diver mass adds directly at the effective displacement coordinate, remains in contact, and moves with the board.",
         "notes": "Correct inclusion of board mass and correct frequency of 1.37 Hz.",
-        "source_sha256": "85a0ef0ba68cc6b81d36f55d7c7622c8258537581eaaccb16a8c3d5c36da1507",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:8",
@@ -2548,7 +2528,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "0e64bdb0db6666927caa93a68d327c9ee3094ce9d773307e2edb2059c6c45308",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "![The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.](../resources/Figure_1…",
       "has_solution": true,
       "missing_labels": [],
@@ -2561,19 +2541,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:8",
+        "source_sha256": "0e64bdb0db6666927caa93a68d327c9ee3094ce9d773307e2edb2059c6c45308",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The equilibrium force balance gives k=mg/x. Oscillations about equilibrium then have T=2πsqrt(m/k) and maximum speed A sqrt(k/m), so all requested numerical results are correct. However, the discussion's assertion that this speed is safe for an infant toy does not follow from this model. Neither the givens nor the inspected photograph establishes safe harness loading, clearances, or equipment limits. Comfort and enjoyment claims are likewise unestablished.",
         "calculation_check": "k=313.6 N/m; T=2πsqrt(0.250/9.80)=1.003545 s; maximum speed=0.200sqrt(9.80/0.250)=1.252198 m/s. Peak acceleration is 7.84 m/s², and spring force ranges from 15.68 to 141.12 N; speed alone cannot establish safety.",
         "assumptions": "The stated extension is static equilibrium extension; the effective spring is linear, harness and spring masses are negligible, and motion is unforced vertical SHM without floor contact. The photograph supplies no quantitative safety evidence.",
         "notes": "All three calculations pass. The unconditional safety claim in the discussion is unsupported and should not be inferred from maximum speed.",
-        "source_sha256": "0e64bdb0db6666927caa93a68d327c9ee3094ce9d773307e2edb2059c6c45308",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:9",
@@ -2584,7 +2564,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "c520849fff4337b6c9b78601d0348ff8fe4a1911e616198ea4ecf500d8e72c9b",
-      "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
+      "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
       "preview": "A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs…",
       "has_solution": true,
       "missing_labels": [],
@@ -2597,19 +2577,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16SimpleHarmonicMotion.md::problems-exercises:9",
+        "source_sha256": "c520849fff4337b6c9b78601d0348ff8fe4a1911e616198ea4ecf500d8e72c9b",
+        "file_sha256": "726afd7ea8cb1b964aff8571f51a63eac2471a5eaf8838bfcbbfb6d2c6c06313",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Under the intended fixed-stiffness spring model, adding a fully coupled 60.0-kg load changes the oscillating mass from 90.0 to 150.0 kg, giving T₂/T₁=sqrt(150/90). The solution correctly computes and explains that idealized change. Its extension to actual formation skydiving is not established by the calculation. The inspected photograph shows two deployed canopies and does not verify a single unchanged suspension model.",
         "calculation_check": "T₂=1.50sqrt(150.0/90.0)=1.936492 s, rounding to 1.94 s. The mass increase is 66.67%, and the period increase is 29.10%.",
         "assumptions": "Both divers move as one mass on an unchanged effective spring; canopy and line inertia, changes in aerodynamic restoring forces, and damping effects are negligible. A second canopy supplies no additional dynamic restoring contribution in this idealization.",
         "notes": "The 1.94-s answer is correct for the intended ideal oscillator. Actual two-canopy dynamics and the empirical claim about formations remain unverified.",
-        "source_sha256": "c520849fff4337b6c9b78601d0348ff8fe4a1911e616198ea4ecf500d8e72c9b",
-        "file_sha256": "ae5d427bd294908deec6ae65a5bddd43223658459dfd9e132ec09bc0f31a3cb3",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:00:52+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:00:52+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16SuperpositionAndResonance.md::check-understanding:1",
@@ -2979,8 +2959,8 @@
       "end_line": 140,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "f8fc420fe0e18d2d4602ede7a11b90d58e68eb8cdb4a6f7d37219549ed8e8736",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "source_sha256": "1d91236123326be2f453afda581175f01e2b8f909d9e8e1ef784df64a1242a00",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "::: example Measuring Acceleration due to Gravity: The Period of a Pendulum What is the acceleration due to gravity in a region where a simple pendulum having a length 75.000 cm h…",
       "has_solution": true,
       "missing_labels": [],
@@ -2989,22 +2969,19 @@
         "skipped": 15
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::worked-example:1",
-        "verdict": "concern",
+        "source_sha256": "1d91236123326be2f453afda581175f01e2b8f909d9e8e1ef784df64a1242a00",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Squaring T = 2π√(L/g) gives g = 4π²L/T². Both displayed rearranged equations instead contain {4π}², which equals 16π². The final number uses the correct coefficient and therefore contradicts the printed equations. Also, an amplitude merely below 15° does not justify five-digit accuracy; the discussion appropriately calls for a much smaller amplitude.",
-        "calculation_check": "4π²(0.75000)/(1.7357²) = 9.8281477 m/s², agreeing with 9.8281. The printed (4π)² expression gives 39.3125907 m/s². At 0.5°, the leading period correction θ₀²/16 is 4.76×10⁻⁶; near 15° it is about 0.00428, far too large for five-digit inference.",
-        "assumptions": "An ideal simple pendulum with negligible damping, a pointlike bob, an inextensible massless suspension, and sufficiently small amplitude. The actual oscillation amplitude is not supplied.",
-        "notes": "Correct final value, but both rearranged equations have a factor-of-four error. Five-digit accuracy additionally requires the much smaller amplitude discussed.",
-        "source_sha256": "f8fc420fe0e18d2d4602ede7a11b90d58e68eb8cdb4a6f7d37219549ed8e8736",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:03:56+00:00"
+        "notes": "Correct 9.8281 m/s². Fixed: both rearranged equations had {4π}², which renders as (4π)²; they now read 4π²L/T². The discussion already limits amplitude for five-digit accuracy.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::check-understanding:1",
@@ -3015,7 +2992,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "b9a8ebec03316e347c3c3382c1f588f7f48c900a41e9a4fe8b2210cf0432a77a",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "An engineer builds two simple pendula. Both are suspended from small wires secured to the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob with a…",
       "has_solution": true,
       "missing_labels": [
@@ -3031,19 +3008,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::check-understanding:1",
+        "source_sha256": "b9a8ebec03316e347c3c3382c1f588f7f48c900a41e9a4fe8b2210cf0432a77a",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For ideal simple pendula of equal length, dividing the tangential equation by bob mass removes mass entirely. Equal initial angles and identical release conditions therefore produce identical angular and positional motion. This remains true beyond the small-angle approximation when the amplitudes are equal.",
         "calculation_check": "mLθ̈ = −mg sinθ gives θ̈ = −(g/L)sinθ for both masses. Their small-angle periods are equal: T₁/T₂ = √(L₁/L₂) = 1. Forces, energies, and momenta differ with mass, but their trajectories do not.",
         "assumptions": "Pointlike bobs at the same height imply equal pivot-to-bob lengths; both are released from rest at 12°. Suspension stretch, drag, bob dimensions, and other nonideal effects are neglected.",
         "notes": "Correct mass independence of the motion under the intended simple-pendulum assumptions.",
-        "source_sha256": "b9a8ebec03316e347c3c3382c1f588f7f48c900a41e9a4fe8b2210cf0432a77a",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:03:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:03:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::conceptual-questions:1",
@@ -3054,7 +3031,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "efc5a386aa23b136ccfb9d6bfce92abf016095702c0dbdd4b4c89f47f10b9e8b",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "Pendulum clocks are made to run at the correct rate by adjusting the pendulum’s length. Suppose you move from one city to another where the acceleration due to gravity is slightly…",
       "has_solution": true,
       "missing_labels": [],
@@ -3066,19 +3043,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::conceptual-questions:1",
+        "source_sha256": "efc5a386aa23b136ccfb9d6bfce92abf016095702c0dbdd4b4c89f47f10b9e8b",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Maintaining the same period requires L/g to remain fixed. Greater gravity therefore requires a proportionally greater length. Without adjustment, the shorter period produces more clock cycles per unit actual time, so the clock runs fast.",
         "calculation_check": "From T² = 4π²L/g, fixed T implies L_new/L_old = g_new/g_old. A gravity ratio of 1.001 requires the same length ratio, confirming the illustrative 0.10% increase.",
         "assumptions": "An ideal pendulum clock with unchanged amplitude and other operating conditions; the stated formula uses the small-angle approximation.",
         "notes": "Correct adjustment direction, proportionality, and explanation of the unadjusted clock's behavior.",
-        "source_sha256": "efc5a386aa23b136ccfb9d6bfce92abf016095702c0dbdd4b4c89f47f10b9e8b",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:03:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:03:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:1",
@@ -3089,7 +3066,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "915115b3eecba4ee87d8db5ec5bed43330868b3a17bbde5694a03c6940afbedf",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "What is the length of a pendulum that has a period of 0.500 s?",
       "has_solution": true,
       "missing_labels": [],
@@ -3102,19 +3079,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:1",
+        "source_sha256": "915115b3eecba4ee87d8db5ec5bed43330868b3a17bbde5694a03c6940afbedf",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The period equation is correctly rearranged and the numerical answer is correct. The discussion's explanation that a shorter arc causes the bob to accelerate more quickly is misleading: at the same angular displacement, tangential acceleration is g sinθ and is independent of length. A shorter pendulum has greater angular acceleration and a shorter distance to traverse, which explain its shorter period without a greater tangential acceleration at the same angle.",
         "calculation_check": "L = 9.80(0.500)²/(4π²) = 0.0620592 m = 6.21 cm. The frequency is 1/T = 2.00 Hz, or 120 complete cycles per minute. From s = Lθ, s̈ = −g sinθ, whereas θ̈ = −(g/L)sinθ.",
         "assumptions": "Small-amplitude motion, g = 9.80 m/s², and an ideal pointlike bob and suspension. The acceleration comparison uses equal angular displacement, matching the discussion's angle-based restoring-force explanation.",
         "notes": "Correct length and cycle rate. The discussion confuses increased angular acceleration with increased tangential acceleration for a shorter pendulum.",
-        "source_sha256": "915115b3eecba4ee87d8db5ec5bed43330868b3a17bbde5694a03c6940afbedf",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:03:56+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:03:56+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:2",
@@ -3125,7 +3102,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "d09e87ed50d5d6b598d54ba8365edace36c331ef54c6a83b5f7f4878d2cf65b4",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "Some people think a pendulum with a period of 1.00 s can be driven with \"mental energy\" or psycho kinetically, because its period is the same as an average heartbeat. True or not,…",
       "has_solution": true,
       "missing_labels": [],
@@ -3138,19 +3115,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:2",
+        "source_sha256": "d09e87ed50d5d6b598d54ba8365edace36c331ef54c6a83b5f7f4878d2cf65b4",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For a small-angle simple pendulum, the tangential equation is s'' = -(g/L)s, giving T = 2π√(L/g) and L = gT²/(4π²). The calculation answers the problem correctly. However, the discussion incorrectly concludes that identical-length pendulums necessarily swing in perfect synchrony. Equal natural frequencies do not establish equal phases; separately released pendulums can remain out of phase indefinitely.",
         "calculation_check": "Using g = 9.80 m/s² and T = 1.00 s gives L = 0.2482369 m, consistent with 0.248 m. A one-second full period corresponds to 60 oscillations per minute. The distinction between this pendulum and a seconds pendulum with a two-second full period is correct.",
         "assumptions": "A stationary pivot, pointlike bob, negligible string mass and damping, and small angular amplitude. Heartbeat statistics and historical anecdotes were not independently verified.",
         "notes": "Length and period calculation correct. Material discussion error: matching frequencies alone does not produce perfect synchrony.",
-        "source_sha256": "d09e87ed50d5d6b598d54ba8365edace36c331ef54c6a83b5f7f4878d2cf65b4",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:3",
@@ -3161,7 +3138,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "0e175214a67d492eb68d57e94da2104aa961620e071677903177099ef8da8ebf",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "What is the period of a 1.00-m-long pendulum?",
       "has_solution": true,
       "missing_labels": [],
@@ -3174,19 +3151,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:3",
+        "source_sha256": "0e175214a67d492eb68d57e94da2104aa961620e071677903177099ef8da8ebf",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The small-angle equation θ'' + (g/L)θ = 0 gives the stated period. The discussion correctly identifies the dependence on local gravity and the square-root scaling with length. The comparisons with approximately thirty oscillations per minute and a quarter-second-length scaling factor are consistent with the calculated period.",
         "calculation_check": "T = 2π√(1.00/9.80) = 2.0070899 s, giving 2.01 s. This corresponds to 29.894 oscillations per minute. Increasing length from 0.0621 m to 1.00 m increases the period by √(1/0.0621) = approximately 4.01, consistent with the rounded comparison.",
         "assumptions": "Small angular amplitude, constant g = 9.80 m/s², stationary support, negligible damping, and length measured to the bob's center of mass. Historical claims about proposed definitions of the meter were not independently verified.",
         "notes": "The period, dimensions, gravity dependence, and length-scaling explanation are consistent with the simple-pendulum approximation.",
-        "source_sha256": "0e175214a67d492eb68d57e94da2104aa961620e071677903177099ef8da8ebf",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:4",
@@ -3197,7 +3174,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "1222a4fc7fa0f0a0d5c18fdba404c4c0dc15679a4cffea3bfea422881b7f9f13",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "How long does it take a child on a swing to complete one swing if her center of gravity is 4.00 m below the pivot?",
       "has_solution": true,
       "missing_labels": [],
@@ -3210,19 +3187,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:4",
+        "source_sha256": "1222a4fc7fa0f0a0d5c18fdba404c4c0dc15679a4cffea3bfea422881b7f9f13",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Approximating the child and seat as a point mass 4.00 m below the pivot gives the stated full back-and-forth period. The discussion contradicts its small-angle qualification by claiming the same period when the child swings very high. Finite-amplitude pendulums have longer periods. Its final comparison also calls the change from 1 m to 4 m a doubling and says it does not double the period, although this is a quadrupling that does double the small-angle period.",
         "calculation_check": "T = 2π√(4.00/9.80) = 4.0141798 s, consistent with 4.01 s and approximately fifteen oscillations per minute. The finite-amplitude expansion T/T₀ = 1 + θ₀²/16 + higher terms already gives a 6.85% leading correction at a 60° amplitude, contradicting amplitude independence for high swings.",
         "assumptions": "One complete swing means a full oscillation. The child and swing have negligible size relative to the suspension length, the support is stationary, and the numerical answer assumes small amplitude.",
         "notes": "Numerical answer correct under the intended approximation. Discussion incorrectly extends isochronism to high swings and misstates the 1 m to 4 m comparison.",
-        "source_sha256": "1222a4fc7fa0f0a0d5c18fdba404c4c0dc15679a4cffea3bfea422881b7f9f13",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:5",
@@ -3233,7 +3210,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "817580d957ff6a9e8dd76820f7dff9bc236033faef9e5929b4677dc02c9701f8",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "The pendulum on a cuckoo clock is 5.00 cm long. What is its frequency?",
       "has_solution": true,
       "missing_labels": [],
@@ -3246,19 +3223,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:5",
+        "source_sha256": "817580d957ff6a9e8dd76820f7dff9bc236033faef9e5929b4677dc02c9701f8",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The conversion to meters and the relation f = (1/2π)√(g/L) correctly solve the problem. The discussion's general claim that shorter pendulums are more sensitive to friction and air resistance is not established by length alone. Damping effects depend on bob mass, geometry, pivot losses, and the drag law. For example, with a fixed bob and linear tangential drag, shortening the pendulum actually reduces the relative damping correction to its natural frequency.",
         "calculation_check": "For L = 0.0500 m, T = 0.44879895 s and f = 2.2281692 Hz, giving 2.23 Hz and 133.69 oscillations per minute. For linear drag F = -bv, the angular equation is θ'' + (b/m)θ' + (g/L)θ = 0. Its relative frequency correction depends on b²L/(4m²g), which decreases with decreasing length when b and m are fixed.",
         "assumptions": "Small amplitude, an effective simple-pendulum length of 5.00 cm, stationary support, and negligible escapement-induced changes. No clock-construction data were supplied to verify the claims about escapement advantage or typical manufacturing practice.",
         "notes": "Frequency calculation correct. The asserted greater damping sensitivity of short pendulums requires additional assumptions and is not a general consequence of their length.",
-        "source_sha256": "817580d957ff6a9e8dd76820f7dff9bc236033faef9e5929b4677dc02c9701f8",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:6",
@@ -3269,7 +3246,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "30a68c21f3970bc90fbb4aaba46a3e0b53ea0c214f16d15415351d709bccd815",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "Two parakeets sit on a swing with their combined center of mass 10.0 cm below the pivot. At what frequency do they swing?",
       "has_solution": true,
       "missing_labels": [],
@@ -3282,19 +3259,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:6",
+        "source_sha256": "30a68c21f3970bc90fbb4aaba46a3e0b53ea0c214f16d15415351d709bccd815",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The intended point-mass approximation gives f = (1/2π)√(g/L). However, the discussion overextends mass independence by claiming that one bird, two birds, or an empty swing must have the same frequency whenever the center of mass stays 10 cm below the pivot. For an extended swing-and-bird assembly, the period also depends on the moment of inertia, which need not remain proportional to mass times the squared center-of-mass distance.",
         "calculation_check": "For a point mass at L = 0.100 m, T = 0.63469756 s and f = 1.5755536 Hz, consistent with the supplied approximately 1.57 Hz within its intermediate rounding. For a physical pendulum, T = 2π√(Iₚ/(Mgd)); using Iₚ = Md² + Icm shows directly that specifying d alone does not fix the period.",
         "assumptions": "The numerical result treats the birds as concentrated at their combined center of mass and neglects the swing's mass and rotational inertia. Small amplitude and a fixed pivot are also required.",
         "notes": "The intended simple-pendulum estimate is sound. The discussion's equal-frequency claim for differently loaded swings ignores changes in mass distribution and rotational inertia.",
-        "source_sha256": "30a68c21f3970bc90fbb4aaba46a3e0b53ea0c214f16d15415351d709bccd815",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:7",
@@ -3305,7 +3282,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "e187a14b130eea11f6f5f715115ffb0a77a45b105931708a9d7fde5d41e28ce0",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "(a) A pendulum that has a period of 3.00000 s and that is located where the acceleration due to gravity is $$9.79 {\\text{m/s}}^{2} $$ is moved to a location where the acceleration…",
       "has_solution": true,
       "missing_labels": [],
@@ -3318,19 +3295,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:7",
+        "source_sha256": "e187a14b130eea11f6f5f715115ffb0a77a45b105931708a9d7fde5d41e28ce0",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "At unchanged length, T₂/T₁ = √(g₁/g₂), so stronger gravity correctly gives a shorter period. The fractional relation ΔT/T ≈ -(1/2)Δg/g is also correct. Part (b), however, incorrectly claims that detecting this change requires at least five significant figures or five decimal places. Those precision descriptions are not equivalent, and millisecond resolution already distinguishes the approximately 4.6 ms change. The discussion also describes atomic clocks as independent of gravity without distinguishing their local operating mechanism from gravitational effects on comparisons between clocks.",
         "calculation_check": "T₂ = 3.00000√(9.79/9.82) = 2.99541401 s, a decrease of 0.00458599 s or 0.152866%. The linear approximation predicts a decrease of 0.00459653 s. Values of 3.000 s and 2.995 s already resolve the effect; five decimal places are unnecessary. The stated gravity values also do not by themselves justify interpreting every displayed period digit as measured precision.",
         "assumptions": "Length and oscillation amplitude remain unchanged, damping is negligible, and the small-angle model applies. Displayed extra digits can be retained as calculation digits rather than asserted measurement accuracy.",
         "notes": "Part (a) and fractional sensitivity are correct. Part (b) materially overstates the precision required and confuses significant figures with decimal places.",
-        "source_sha256": "e187a14b130eea11f6f5f715115ffb0a77a45b105931708a9d7fde5d41e28ce0",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:8",
@@ -3341,7 +3318,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "ec96a747799f072aea193e8a114439089308b6057076b6cdb0b0a2363b680e50",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "A pendulum with a period of 2.00000 s in one location $$\\left(g=9.80 {\\text{m/s}}^{2}\\right) $$ is moved to a new location where the period is now 1.99796 s. What is the accelerat…",
       "has_solution": true,
       "missing_labels": [],
@@ -3354,19 +3331,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:8",
+        "source_sha256": "ec96a747799f072aea193e8a114439089308b6057076b6cdb0b0a2363b680e50",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Eliminating the unchanged length gives g₂ = g₁(T₁/T₂)². Both solution methods implement this relation, and the shorter measured period correctly implies stronger gravity. The discussion's approximately doubled fractional response of gravity relative to period follows from g proportional to T⁻². Precision gravimetry additionally requires controlling amplitude and effective length, which are implicit in the stated comparison.",
         "calculation_check": "g₂ = 9.80(2.00000/1.99796)² = 9.8200226 m/s², giving 9.82 m/s². The period decreases by 0.102%, while gravity increases by 0.204313%. The initial effective length is 0.9929476 m. Intermediate rounding in the separate-length method does not affect the reported answer.",
         "assumptions": "Unchanged effective length, stationary supports, negligible damping, and negligible or matched finite-amplitude effects. The historical surveying claims and detailed geographical examples were not independently source-verified.",
         "notes": "Both methods correctly give 9.82 m/s², with the correct direction and fractional scale of the change.",
-        "source_sha256": "ec96a747799f072aea193e8a114439089308b6057076b6cdb0b0a2363b680e50",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:9",
@@ -3377,7 +3354,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "578319e567659fc061bf16fc8afee4aeba3de1429b9c527d766364277707de8b",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "(a) What is the effect on the period of a pendulum if you double its length? (b) What is the effect on the period of a pendulum if you decrease its length by 5.00%?",
       "has_solution": true,
       "missing_labels": [],
@@ -3390,19 +3367,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:9",
+        "source_sha256": "578319e567659fc061bf16fc8afee4aeba3de1429b9c527d766364277707de8b",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "With constant gravity, the ratio of periods is √(Lnew/Lold). The solution correctly applies this to both requested changes. The discussion correctly distinguishes doubling length from doubling period and identifies the half-fractional-change rule as a small-change approximation.",
         "calculation_check": "Doubling length gives Tnew/Told = √2 = 1.4142136. Decreasing length by 5.00% gives √0.950 = 0.97467943, or a 2.53206% decrease. The stated 97.5% remaining period and approximately 2.5% decrease are acceptable rounded descriptions.",
         "assumptions": "Constant local gravity, simple-pendulum geometry, negligible damping, and small angular amplitudes. Thermal-expansion comparisons are first-order approximations.",
         "notes": "Both parts and the clock-adjustment explanation follow correctly from square-root length scaling.",
-        "source_sha256": "578319e567659fc061bf16fc8afee4aeba3de1429b9c527d766364277707de8b",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:10",
@@ -3413,7 +3390,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "dc4303ae67d91ea9ab86e8a0f2ca8c9d617148f3669f9b02eb56fd935a2723c6",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "Find the ratio of the new/old periods of a pendulum if the pendulum were transported from Earth to the Moon, where the acceleration due to gravity is $$1.63 {\\text{m/s}}^{2} $$.",
       "has_solution": true,
       "missing_labels": [],
@@ -3426,19 +3403,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:10",
+        "source_sha256": "dc4303ae67d91ea9ab86e8a0f2ca8c9d617148f3669f9b02eb56fd935a2723c6",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "For unchanged length, the new/old period ratio is √(gEarth/gMoon), as derived. The discussion correctly explains the weaker restoring force and the slowdown of an unchanged Earth-calibrated clock. It incorrectly concludes that pendulum clocks would be useless on the Moon or wherever gravity differs: they can be recalibrated for a different nonzero gravity, for example by shortening the pendulum. Its blanket description of modern oscillators as independent of gravity also overlooks gravitational effects on clock comparisons.",
         "calculation_check": "√(9.80/1.63) = 2.4519931, giving 2.45. An unchanged clock runs at 0.4078315 of its Earth rate and indicates 9.78796 hours in 24 actual hours, consistent with the discussion. Restoring its original period requires Lmoon/LEarth = gMoon/gEarth = 0.1663265.",
         "assumptions": "The requested comparison retains the same effective length and small amplitude in stationary surface laboratories. A freely falling spacecraft has no ordinary gravitational pendulum restoring force; that case differs from a lunar surface laboratory.",
         "notes": "Requested ratio and unchanged-clock slowdown are correct. The discussion incorrectly treats a recalibratable lunar pendulum clock as inherently unusable.",
-        "source_sha256": "dc4303ae67d91ea9ab86e8a0f2ca8c9d617148f3669f9b02eb56fd935a2723c6",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:11",
@@ -3449,7 +3426,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "7cd5c0b4acd0b0616b31dff2092f97d7f35539bf15fc77d3a15f6271f775e1f3",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "At what rate will a pendulum clock run on the Moon, where the acceleration due to gravity is $$1.63 {\\text{m/s}}^{2} $$ , if it keeps time accurately on Earth? That is, find the t…",
       "has_solution": true,
       "missing_labels": [],
@@ -3462,19 +3439,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:11",
+        "source_sha256": "7cd5c0b4acd0b0616b31dff2092f97d7f35539bf15fc77d3a15f6271f775e1f3",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "One hour-hand revolution requires the same number of pendulum cycles as on Earth. Each cycle takes √(gEarth/gMoon) times longer, so multiplying twelve hours by that factor correctly answers the question. The discussion overstates this result as making pendulum clocks completely impractical in any different gravity; a lunar clock could be recalibrated. Modern clocks do not require gravitational restoring forces, but the statement that they work identically everywhere needs qualification when comparing elapsed times across different gravitational potentials.",
         "calculation_check": "The period multiplier is √(9.80/1.63) = 2.4519931. Therefore one revolution takes 12 × 2.4519931 = 29.4239167 hours, giving 29.4 hours. The indicated-time rate is 0.4078315, and the clock falls behind by approximately 14.212 hours per 24 actual hours.",
         "assumptions": "An ordinary twelve-hour dial, unchanged gear ratios and effective pendulum length, continued escapement operation, small amplitude, and local elapsed hours on the Moon.",
         "notes": "The 29.4-hour answer is correct. Discussion incorrectly generalizes the slowdown of an unchanged clock into an inability to operate pendulum clocks in different nonzero gravity.",
-        "source_sha256": "7cd5c0b4acd0b0616b31dff2092f97d7f35539bf15fc77d3a15f6271f775e1f3",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:12",
@@ -3485,7 +3462,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "8dcea35eb810697870c5408dd651abec4cff7754f9f2ee7e5def8467470361d3",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "Suppose the length of a clock's pendulum is changed by 1.000%, exactly at noon one day. What time will it read 24.00 hours later, assuming it the pendulum has kept perfect time be…",
       "has_solution": true,
       "missing_labels": [
@@ -3502,19 +3479,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:12",
+        "source_sha256": "8dcea35eb810697870c5408dd651abec4cff7754f9f2ee7e5def8467470361d3",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A fixed gear train advances according to pendulum cycle count, so the indicated elapsed time is inversely proportional to the changed period: tclock = tactual/√(Lnew/Lold). The solution correctly handles both signs of the length change, keeps the clock's reading continuous at noon, and converts elapsed indicated time back to the appropriate next-day clock reading.",
         "calculation_check": "For a 1.000% increase, the clock indicates 23.880892565 hours after 24 actual hours, losing 428.7868 s and reading 11:52:51.213 AM, equivalent to 11:52.85355 AM in decimal minutes. For a 1.000% decrease, it indicates 24.120907566 hours, gaining 435.2672 s and reading 12:07:15.267 PM, equivalent to 12:07.25445 PM in decimal minutes. Both supplied readings agree.",
         "assumptions": "The length change does not reset the hands; gravity, gearing, and effective oscillation amplitude remain unchanged; any adjustment transient is negligible; and the small-angle period law applies.",
         "notes": "Both clock readings, the direction of each error, and the conversion precision are correct.",
-        "source_sha256": "8dcea35eb810697870c5408dd651abec4cff7754f9f2ee7e5def8467470361d3",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16TheSimplePendulum.md::problems-exercises:13",
@@ -3525,7 +3502,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "c8af00ea981079ac9a3a1a8ce67e1d3034f75aabedca5dafcbfcef5292642d51",
-      "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
+      "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
       "preview": "If a pendulum-driven clock gains 5.00 s/day, what fractional change in pendulum length must be made for it to keep perfect time?",
       "has_solution": true,
       "missing_labels": [],
@@ -3538,19 +3515,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16TheSimplePendulum.md::problems-exercises:13",
+        "source_sha256": "c8af00ea981079ac9a3a1a8ce67e1d3034f75aabedca5dafcbfcef5292642d51",
+        "file_sha256": "d663284b73fa80fb87d1e606d68451af6e2cd20d391a25cf1e4ffb86fce17930",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The required direction and reported fractional length increase are correct. However, the solution sets up the elapsed-time ratio incorrectly for a clock gaining 5.00 seconds per actual day. In 86400 actual seconds it indicates 86405 seconds, so the required period multiplier is 86405/86400, rather than 86400/(86400 - 5). These expressions agree to first order, explaining the correct final rounded answer, but the stated exact derivation uses the wrong clock-count relation.",
         "calculation_check": "The correct correction is ΔL/L = (86405/86400)² - 1 = 0.0001157440897 = 0.0115744090%, rounding to 0.0116%. The solution's expression gives 0.0115750788%, numerically indistinguishable at its reported precision. For a one-meter pendulum, the required increase is 0.115744 mm. Using the discussion's steel expansion coefficient, a 10 °C change gives approximately 0.11 mm, consistent with its comparison.",
         "assumptions": "The stated gain is measured per 86400 seconds of actual elapsed time. Gravity, amplitude, gearing, and environmental conditions otherwise remain fixed, and the simple-pendulum model applies. Specific historical accuracy and adjustment-hardware claims were not independently verified.",
         "notes": "Correct final increase of 0.0116%. The derivation uses an incorrect exact period ratio; its numerical effect is negligible here because the gain is small.",
-        "source_sha256": "c8af00ea981079ac9a3a1a8ce67e1d3034f75aabedca5dafcbfcef5292642d51",
-        "file_sha256": "6edaa6c33f6fc2faf28d70cae399087f0b575bd12732cefdbaed6bb4d366704f",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:07:57+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:07:57+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::check-understanding:1",
@@ -3561,7 +3538,7 @@
       "kind": "check-understanding",
       "ordinal": 1,
       "source_sha256": "1dd32585370e52f4279d236a1e9829e75d7484da645b3368607c0f3ad2a7716d",
-      "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
+      "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
       "preview": "Identify an object that undergoes uniform circular motion. Describe how you could trace the simple harmonic motion of this object as a wave.",
       "has_solution": true,
       "missing_labels": [
@@ -3575,19 +3552,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::check-understanding:1",
+        "source_sha256": "1dd32585370e52f4279d236a1e9829e75d7484da645b3368607c0f3ad2a7716d",
+        "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "A point on a uniformly rotating turntable is a valid example of uniform circular motion. However, its projection onto a fixed axis undergoes SHM; the point itself does not. The proposed dowel-and-pen arrangement does not specify a constraint or projection that removes one component of the circular motion. A pen rigidly carried around by the turntable generally traces a trochoidal curve on uniformly translated paper, rather than a sinusoidal displacement-versus-time graph.",
         "calculation_check": "For circular pen motion and paper moving at speed u, paper coordinates can be written x=r cos(omega t)-ut and y=r sin(omega t). Because x contains circular motion as well as the paper translation, this is generally not a sine graph. A constrained recording mechanism with x=ut and y=r sin(omega t) would produce the required sinusoid.",
         "assumptions": "Constant turntable angular speed and constant paper translation speed; the described dowel has no unstated slider, guide, or projection mechanism.",
         "notes": "Valid circular-motion example, but the proposed recording setup omits the projection or mechanical constraint needed to trace SHM as a sinusoid.",
-        "source_sha256": "1dd32585370e52f4279d236a1e9829e75d7484da645b3368607c0f3ad2a7716d",
-        "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:11:12+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:11:12+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:1",
@@ -3597,8 +3574,8 @@
       "end_line": 214,
       "kind": "problems-exercises",
       "ordinal": 1,
-      "source_sha256": "27dc778ba6745add562ee7e01891c8ed1e6e423951fbf24eeef352389dbf9e7a",
-      "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
+      "source_sha256": "3290cd3fcfdbead4901a171cf239c3a0edec1524e2df4a8290786f962cb757f3",
+      "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
       "preview": "(a)What is the maximum velocity of an 85.0-kg person bouncing on a bathroom scale having a force constant of $$ 1.50 \\times 10^{6} \\text{N/m} $$, if the amplitude of the bounce is…",
       "has_solution": true,
       "missing_labels": [],
@@ -3608,22 +3585,19 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:1",
-        "verdict": "concern",
+        "source_sha256": "3290cd3fcfdbead4901a171cf239c3a0edec1524e2df4a8290786f962cb757f3",
+        "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "For an attached ideal oscillator, displacement q from gravitational equilibrium obeys m q''=-kq, giving maximum speed X sqrt(k/m) and oscillation energy kX²/2. These support the stated 0.266 m/s and 3.00 J as oscillator quantities. However, part (b) asks for maximum energy stored in the spring, which depends on compression from its unloaded length and is 4.90 J. The discussion correctly calculates this but the final answer still substitutes oscillation energy for the requested spring energy. The discussion also correctly recognizes that an unattached person loses contact because X exceeds the static compression; consequently the stated bounce is not continuous SHM for an ordinary person standing on a scale.",
-        "calculation_check": "With X=0.00200 m, omega=sqrt(1.50e6/85.0)=132.842 s^-1 and vmax=0.265684 m/s. Static compression is mg/k=0.00055533 m using g=9.80 m/s². Oscillation energy is 3.00 J, whereas maximum spring energy is 0.5(1.50e6)(0.00055533+0.00200)²=4.8973 J. Maintaining contact throughout this SHM would require a negative supporting force during part of the cycle.",
-        "assumptions": "Linear, massless spring; negligible damping; constant gravity. Continuous SHM requires attachment capable of transmitting tension, which the problem does not specify.",
-        "notes": "Final part (b) answers oscillation energy instead of maximum spring energy; the discussion itself establishes 4.90 J. Part (a) additionally requires an attached-oscillator idealization.",
-        "source_sha256": "27dc778ba6745add562ee7e01891c8ed1e6e423951fbf24eeef352389dbf9e7a",
-        "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:11:12+00:00"
+        "notes": "Correct 0.266 m/s. Fixed: part (b)'s answer now gives both the 3.00 J oscillation energy and the 4.90 J maximum stored relative to the unloaded spring, matching the discussion.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch15-20)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:2",
@@ -3634,7 +3608,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "de216f484c25db2dd411a12dab3e99fed3338a3901255b64bf6dd5aba384d7f2",
-      "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
+      "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
       "preview": "A novelty clock has a 0.0100-kg mass object bouncing on a spring that has a force constant of 1.25 N/m. What is the maximum velocity of the object if the object bounces 3.00 cm ab…",
       "has_solution": true,
       "missing_labels": [],
@@ -3647,19 +3621,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:2",
+        "source_sha256": "de216f484c25db2dd411a12dab3e99fed3338a3901255b64bf6dd5aba384d7f2",
+        "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Both requested numerical answers follow correctly from SHM about gravitational equilibrium: vmax=X sqrt(k/m), and Kmax=kX²/2. The discussion's assertion that all elastic potential energy has converted to kinetic energy at equilibrium is physically incorrect for a vertical spring. The spring remains deformed there. It is the combined elastic and gravitational potential energy, measured relative to its minimum, that becomes entirely kinetic.",
         "calculation_check": "Using X=0.0300 m gives vmax=0.335410 m/s and Kmax=0.5(1.25)(0.0300)²=0.0005625 J. For a hanging vertical spring, equilibrium extension is mg/k=0.0784 m, so actual elastic energy at equilibrium is 0.5(1.25)(0.0784)²=0.0038416 J, not zero. The effective potential about equilibrium is 0.5kq².",
         "assumptions": "Ideal attached vertical spring oscillator with negligible damping and constant gravity; amplitude measured from loaded equilibrium.",
         "notes": "Both final numbers are correct. The discussion incorrectly describes complete conversion of elastic energy, omitting gravitational potential and the spring's equilibrium deformation.",
-        "source_sha256": "de216f484c25db2dd411a12dab3e99fed3338a3901255b64bf6dd5aba384d7f2",
-        "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:11:12+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:11:12+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:3",
@@ -3670,7 +3644,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "a2731cb53b68a6d2666e1d911d730816d28ec14852590a7cc1a85fd669d93de9",
-      "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
+      "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
       "preview": "At what positions is the speed of a simple harmonic oscillator half its maximum? That is, what values of $$x/X $$ give $$v=±{v}_{\\text{max}}/2 $$, where $$X $$ is the amplitude of…",
       "has_solution": true,
       "missing_labels": [],
@@ -3683,19 +3657,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:3",
+        "source_sha256": "a2731cb53b68a6d2666e1d911d730816d28ec14852590a7cc1a85fd669d93de9",
+        "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Energy conservation gives v²=omega²(X²-x²), with vmax=omega X. Setting v²=vmax²/4 yields x²/X²=3/4, hence both positions x/X=±sqrt(3)/2. Either velocity sign occurs at each position on different passages. The solution uses the positive square root as speed, which suffices for the requested positions despite calling it velocity.",
         "calculation_check": "sqrt(3)/2=0.866025. Substitution gives |v|/vmax=sqrt(1-3/4)=1/2. At x=0 the same relation gives maximum speed, and at x=±X it gives zero, matching the discussion.",
         "assumptions": "Nonzero-amplitude ideal SHM, with x measured from equilibrium and X positive.",
         "notes": "Correct positions and physical interpretation; the displayed positive-root expression represents speed.",
-        "source_sha256": "a2731cb53b68a6d2666e1d911d730816d28ec14852590a7cc1a85fd669d93de9",
-        "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:11:12+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:11:12+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:4",
@@ -3706,7 +3680,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "a272e27b2b838bab66b1d88b76f50f3e631d74bd31222f8092c223d976ac9460",
-      "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
+      "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
       "preview": "A ladybug sits 12.0 cm from the center of a Beatles music album spinning at 33.33 rpm. What is the maximum velocity of its shadow on the wall behind the turntable, if illuminated…",
       "has_solution": true,
       "missing_labels": [],
@@ -3719,19 +3693,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md::problems-exercises:4",
+        "source_sha256": "a272e27b2b838bab66b1d88b76f50f3e631d74bd31222f8092c223d976ac9460",
+        "file_sha256": "05aef88b0f71d9d2a18339cc28937a9590a2056d2d3dc5fb8c7121814ee49278",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Parallel illumination along the record plane projects the circular motion onto a line on the wall. With the usual wall orientation perpendicular to the incident rays, the shadow coordinate is x=r cos(omega t+phi), so its maximum speed is r omega and occurs at the midpoint. This matches the strategy, calculation, discussion, and final answer.",
         "calculation_check": "omega=33.33(2pi)/60=3.49031 rad/s. Thus vmax=(0.120)(3.49031)=0.418837 m/s, or 41.8837 cm/s, consistent with 0.419 m/s.",
         "assumptions": "Constant rotation rate; ladybug fixed at the stated radius; parallel rays; wall perpendicular to the rays so there is no oblique projection magnification.",
         "notes": "Correct SHM projection and maximum shadow speed under the intended wall geometry.",
-        "source_sha256": "a272e27b2b838bab66b1d88b76f50f3e631d74bd31222f8092c223d976ac9460",
-        "file_sha256": "7f9ae3af4ba8edb65dba3246ef13481eed30a1d9a9a759eeb55dce45b68cc1f0",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-23T21:11:12+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-23T21:11:12+00:00",
+        "reviewed_at": "2026-10-24T02:00:55+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch16Waves.md::worked-example:1",

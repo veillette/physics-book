@@ -1,6 +1,6 @@
 {
   "chapter": 21,
-  "checked_at": "2026-10-24T01:11:30+00:00",
+  "checked_at": "2026-10-24T02:00:59+00:00",
   "summary": {
     "total": 2393,
     "checked": 358,
@@ -1850,9 +1850,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:14",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Full-scale deflection requires V = I_G(R + r), so R = V/I_G - r. The requested voltage requires less total resistance than the galvanometer already has. The solution correctly answers all three parts and explains why adding passive series resistance cannot achieve the requested range.",
+        "calculation_check": "R = 0.000500/0.0000250 - 40.0 = -20.0 ohms. The galvanometer alone requires I_G r = 0.00100 V = 1.00 mV. A replacement with the same full-scale current and resistance below 20 ohms permits a positive series resistor.",
+        "assumptions": "Passive, nonnegative resistors and a galvanometer whose deflection depends on its current. Active negative-resistance circuits are outside the proposed meter construction.",
+        "notes": "All parts are correct within the passive meter model. The statements excluding negative resistance should be understood in that context.",
+        "source_sha256": "5d02f709e5a12ec977639600fb9144f4f3c0d441fe52c23907ad706e5869da2d",
+        "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:15",
@@ -1876,9 +1889,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21DCVoltmetersAndAmmeters.md::problems-exercises:15",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected Figure 5 SVG has parallel galvanometer and shunt branches. Kirchhoff's current law gives I_shunt = I_total - I_G, and their common voltage gives R_shunt = I_G r/(I_total - I_G). A passive shunt cannot make galvanometer current exceed the total input current, so the requested full-scale current is unattainable.",
+        "calculation_check": "I_shunt = 10.0 - 25.0 = -15.0 microamperes. The common full-scale voltage is 25.0 microamperes times 40.0 ohms = 1.00 mV, giving R_shunt = 0.00100/(-0.0000150) = -66.7 ohms.",
+        "assumptions": "Steady DC operation, passive shunt resistance, and unchanged galvanometer sensitivity. Active circuits supplying additional branch current are excluded.",
+        "notes": "The numerical answer and identification of the inconsistent current requirement are correct.",
+        "source_sha256": "fd28bf7f7eb15466d672135c4e2997345e0db16578329bcee51a3c1c87113d6a",
+        "file_sha256": "4b1553794414cef4e07419afe3118eb8797d8e20ac8d87afd566b117f9bca6ce",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::worked-example:1",
@@ -1899,9 +1925,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::worked-example:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The emf drives the series combination of internal and load resistance, so I = emf/(R_load + r), terminal voltage is I R_load = emf - Ir, and load power is I squared times R_load. Every requested part follows this model correctly. The discussions correctly associate smaller load resistance with heavier loading and explain the reductions caused by increased internal resistance.",
+        "calculation_check": "(a) I = 12/10.1 = 1.18812 A and V = 11.8812 V, rounding to 11.9 V. (b) I = 12/0.600 = 20.0 A and V = 10.0 V. (c) P_load = 20.0 squared times 0.500 = 200 W. (d) I = 12.0 A, V = 6.00 V, and P_load = 72.0 W. For (d), source power 144 W splits equally between internal and load heating.",
+        "assumptions": "Constant emf, ohmic internal and load resistances, negligible wire resistance, and steady discharge. Temperature and state-of-charge changes during measurement are neglected.",
+        "notes": "All calculations, power assignments, and explanatory comparisons are consistent.",
+        "source_sha256": "f012e7494e66c0f40d9c6bb29c5444929cf90c225c886a41de0ad492cf014f83",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:1",
@@ -1924,9 +1963,22 @@
         "skipped": 9
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For a quasistatic electrochemical source, emf equals its open-circuit terminal potential difference, and the resistor example correctly shows that a potential difference need not be an emf. However, the solution explicitly includes changing magnetic flux and then asserts that every emf is a potential difference. An induced emf is generally a circulation of nonconservative electric force per charge, not a difference of scalar electric potential between two points. The universal conclusion requires a restriction to the chapter's DC-source model.",
+        "calculation_check": "The resistor example gives IR = 2.0 times 6.0 = 12 V correctly. As a conceptual countercheck, a changing magnetic flux gives a nonzero closed-loop emf, -dPhi_B/dt, whereas a scalar potential difference around a closed loop is zero. Equal units of joules per coulomb do not establish equivalence.",
+        "assumptions": "Potential difference means a difference of scalar electric potential. Both quasistatic battery circuits and the changing-flux case explicitly mentioned by the solution are considered.",
+        "notes": "The resistor counterexample is correct, but the universal identification of emf with potential difference fails for electromagnetic induction.",
+        "source_sha256": "f22a9f3b439e6563f2e0cfd9a4c47deca51464282e2887006570d0f360292f0b",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:2",
@@ -1949,9 +2001,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected Figure 14 SVG confirms two sources with positive terminals connected together, emfs 12.0 and 18.0 V, and internal resistances 1.0 and 0.5 ohms respectively. Their opposing emfs drive current from the 18-V positive terminal into the 12-V positive terminal. Thus the 18-V battery supplies energy and the 12-V battery is charged. The charging and discharging terminal-voltage signs are correct.",
+        "calculation_check": "I = (18 - 12)/(1.0 + 0.5) = 4.0 A. Both terminal voltages are 16.0 V: 12 + 4(1) = 18 - 4(0.5). Energy balance also holds: 72 W released by the stronger source equals 48 W absorbed by the weaker source plus 24 W of total internal heating.",
+        "assumptions": "Ideal connecting wires, constant emfs and resistances, no external load, and a weaker battery capable of accepting charge.",
+        "notes": "Charging direction, figure interpretation, terminal voltages, and energy accounting are correct.",
+        "source_sha256": "9d4112724c64edfcc593f183259875d8d270a497a4b018d9c93d0a27ea7e5f64",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:3",
@@ -1974,9 +2039,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Open-circuit voltage estimates the emf; under load, its reduction is Ir, so paired voltage and current measurements determine r. Repeating measurements and fitting V = emf - Ir correctly produces intercept emf and slope -r. Measuring actual terminal voltage and current avoids needing to infer current from the nominal load resistance.",
+        "calculation_check": "r = (1.58 - 1.40)/0.700 = 0.25714 ohms, consistent with the stated 0.257 ohms. The sample load readings also satisfy V/I = 1.40/0.700 = 2.00 ohms. The fitted slope has units V/A = ohms.",
+        "assumptions": "Voltmeter current is negligible, the ammeter measures essentially all battery current, and emf and internal resistance remain approximately constant across measurements. The illustrative readings neglect ammeter burden.",
+        "notes": "The measurement procedure, example, and slope method correctly determine internal resistance within the linear battery model.",
+        "source_sha256": "599799e1d16506c8f8a83a11c3d34b15dfad25931d20f61417bcbaf407fa3db4",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:4",
@@ -1999,9 +2077,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:4",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "For batteries with the same emf and a common minimum terminal-voltage requirement, the allowable current is inversely proportional to effective internal resistance. The higher 850-A rating therefore indicates smaller internal resistance in the intended model. The numerical values are estimates based on treating nominal 12 V as the emf and the rating threshold as an equality.",
+        "calculation_check": "Using the solution's stated threshold, r_600 = (12.0 - 7.2)/600 = 0.00800 ohms and r_850 = 4.8/850 = 0.005647 ohms. Their ratio is 600/850, confirming the ordering.",
+        "assumptions": "Comparable temperature, charge state, rating procedure, and emf; an effective constant-resistance model during cranking. The external claim defining the cold-cranking rating at -18 degrees Celsius and 7.2 V was not independently verified from the supplied materials.",
+        "notes": "The intended comparison and conditional estimates are correct. The exact rating protocol remains externally unverified, and ratings alone do not give exact static resistances.",
+        "source_sha256": "364ac1fe93dc46893d95ec7564d7e7c01739179f997cadda4c80672ea2b63b8b",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:5",
@@ -2024,9 +2115,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Identical cells in series carry the same current, giving combined emf N times the cell emf and internal resistance N times the cell resistance. Identical parallel cells share current, giving unchanged emf and internal resistance r/N. The stated voltage, current-sharing, and weak-cell tradeoffs follow. Unequal parallel emfs cause circulating current even without an external load.",
+        "calculation_check": "Two cells give 3.0 V and 0.40 ohms in series, or 1.5 V and 0.10 ohms in parallel. For unequal parallel sources, the no-load circulating current is (emf_high - emf_low)/(r_high + r_low), confirming the described energy drain.",
+        "assumptions": "Matched polarity and approximately identical cells for the equivalent-source formulas. Longer parallel runtime refers to comparable output-current demand. Complete series failure refers to an open-circuit or sufficiently high-resistance failed cell; a merely reduced cell emf need not stop all current.",
+        "notes": "The main series/parallel formulas and tradeoffs are correct. The failure and runtime statements require the usual operating qualifications.",
+        "source_sha256": "f4a77f65c8800ecf8407bfc1f56ec37c16153f4fa4e76d1059ab250753b6d142",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:6",
@@ -2049,9 +2153,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::conceptual-questions:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Inspection of the SVG confirms the correct two-series-pairs-in-parallel arrangement for 24 V and four-in-parallel arrangement for 12 V. The advantage of higher operating voltage for reducing cable current at a given delivered power is correct. However, the final answer incorrectly extends the factor-of-four cable-loss reduction to battery losses, although the calculated 24-V bank resistance is four times the 12-V bank resistance. The numerical example also treats emf as loaded starter voltage despite substantial specified internal and cable drops.",
+        "calculation_check": "The bank resistances are correctly 0.0100 and 0.00250 ohms. At the quoted currents, cable losses are 500 and 2000 W, but battery losses are 500 squared times 0.0100 = 2500 W and 1000 squared times 0.00250 = 2500 W. Including all stated drops, starter power at 500 A is 500[24 - 500(0.0120)] = 9000 W; at 1000 A it is 1000[12 - 1000(0.00450)] = 7500 W, not 12000 W.",
+        "assumptions": "Four identical batteries with the stated constant resistance, equal branch-current sharing, and the same cable resistance in both arrangements. Delivered starter power must use voltage across the starter, rather than bank emf.",
+        "notes": "Connections are correct. Battery heating does not fall by four, and the 12-kW current example is inconsistent with the included voltage drops.",
+        "source_sha256": "da68897e37633267b5dae375e397684c3596947e03992f0327ab193352ae9fbe",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:1",
@@ -2073,9 +2190,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Six identical lead-acid cells connected in series with matching polarity have additive emfs. Dividing the total emf by six gives the individual cell emf, as stated.",
+        "calculation_check": "emf_cell = 12.0 V/6 = 2.00 V; six times 2.00 V recovers 12.0 V.",
+        "assumptions": "Identical cells connected in series with aiding polarity. The question concerns emf rather than loaded terminal voltage.",
+        "notes": "The stated 2.00-V cell emf is correct.",
+        "source_sha256": "b6981cab4d23757fc56de3e2023435a6b73fb1435a56b6a38f9d9315250e5b92",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:2",
@@ -2096,9 +2226,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Parts (a) and (b) correctly select six series cells and obtain 9.24 V. Part (c) correctly adds internal resistances and obtains V = 9.24 - 6Ir. However, the discussion attributes poor heavy-load performance to the sixfold resistance increase alone. Series connection also increases emf sixfold, so at a given current its fractional voltage sag and internal-loss fraction are unchanged from one constituent cell. Cell size and other battery characteristics are needed to establish the broader performance claim.",
+        "calculation_check": "9/1.54 = 5.844, so six cells give 6(1.54) = 9.24 V and total resistance 6r. Fractional sag is I(6r)/(6 times 1.54) = Ir/1.54, identical to one cell. For a fixed external load and fixed total emf, increasing internal resistance does reduce load power as the solution states.",
+        "assumptions": "Six identical cells with aiding polarity and constant ohmic internal resistance. Comparisons of series-cell count hold constituent cell properties and current fixed. Empirical claims about aging and typical device usage were not independently verified.",
+        "notes": "The requested numerical answers and terminal-voltage equation are correct, but the discussion's causal explanation of heavy-load weakness is incomplete and misleading.",
+        "source_sha256": "0a9214f58ed2502416c508d4cb0d632a0c3bbfe76fdbc009db18ca76312b7a40",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:3",
@@ -2122,9 +2265,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The cell supplies current to the watch, so its internal voltage drop subtracts from its emf: V = emf - Ir. The stated output voltage uses the correct discharge sign and current conversion.",
+        "calculation_check": "0.300 mA = 0.000300 A. The internal drop is 0.000300 times 2.00 = 0.000600 V, giving V = 3.0000 - 0.000600 = 2.9994 V.",
+        "assumptions": "Steady stated current, constant cell emf and internal resistance, and negligible additional connection resistance.",
+        "notes": "The 2.9994-V output voltage is correct.",
+        "source_sha256": "bb279aab34222f7b1991b38643bcf3d25070667c74d429654c8ebce78a0e5130",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:13:40+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:4",
@@ -2145,9 +2301,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For discharge, the emf supplies both the terminal voltage and the internal resistive drop: emf = V + Ir. Chemical-to-electrical conversion supplies I times emf, while the load receives IV. The solution correctly distinguishes these powers and answers all three parts.",
+        "calculation_check": "V = 1.54 - 2.00(0.100) = 1.34 V. Source power = 3.08 W; load power = 2.68 W; internal heating = 0.400 W. Their sum conserves energy. The load receives 87.0% of source power, and the voltage reduction is 13.0%.",
+        "assumptions": "Steady discharge with constant emf and internal resistance; all modeled internal loss is Joule heating.",
+        "notes": "All answers, the energy balance, and the efficiency discussion are consistent.",
+        "source_sha256": "a9c5f90f385cadbdcb4d97f273394b91feeddbbdafc465ddfceb6121abad2241",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:5",
@@ -2171,9 +2340,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Charging current enters the positive terminal, so the applied terminal voltage must overcome the emf and the internal resistive drop. Therefore V = emf + Ir and r = (V - emf)/I.",
+        "calculation_check": "r = (15.0 - 12.0)/8.00 = 0.375 ohm. The positive resistance and terminal voltage above the emf are consistent with charging.",
+        "assumptions": "A constant-emf battery with a linear series internal resistance and steady charging current.",
+        "notes": "The supplied resistance is correct, including the charging sign convention.",
+        "source_sha256": "f940ab1065aeb97fec0a90381d2939cf087a16ec9342a28c78b9f0297de31abe",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:6",
@@ -2194,9 +2376,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "During charging, the battery terminal voltage is emf + Ir. A charger connected directly across those terminals must have the same output voltage. The discussion correctly associates the extra voltage with driving current against the battery emf through its resistance.",
+        "calculation_check": "Ir = 10.0(0.600) = 6.00 V, giving 18.0 V for both requested voltages. Internal heating is 10.0 squared times 0.600 = 60.0 W. Charger power is 180 W, partitioned into 120 W of ideal chemical storage and 60 W of heat.",
+        "assumptions": "Negligible lead/contact resistance; charger output voltage means its loaded terminal voltage; constant battery parameters and the ideal charging model.",
+        "notes": "Both answers and the heating discussion follow consistently from the charging model.",
+        "source_sha256": "4484ca229acf47c7247d9d1389c925514dea5916f863349fdec1abab0f08472c",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:7",
@@ -2217,9 +2412,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Charging requires terminal voltage emf + Ir, whereas discharge gives emf - Ir. Joule heating depends on current magnitude squared and is unchanged by reversal. In the ideal battery model, charging stores chemical energy at I times emf. Every requested part is answered.",
+        "calculation_check": "Ir = 60(0.050) = 3.0 V. Charging voltage is 15 V, heating is 180 W, and chemical storage is 720 W. Input power is 900 W = 720 + 180 W. During discharge the voltage is 9.0 V and heating remains 180 W; the load receives 540 W.",
+        "assumptions": "The same constant emf and internal resistance apply in both directions; nonresistive electrochemical losses are excluded.",
+        "notes": "Charging/discharging signs, power accounting, and discussion are correct.",
+        "source_sha256": "69ae9eb8f9df0804fc48392b3db9800ef10b61e62a81a7246587e29ba61f9801",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:8",
@@ -2243,9 +2451,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The bulb and internal resistance carry the same current, so I = emf/(R_bulb + r). The equivalent power expressions agree when V denotes the voltage across the bulb, which is the loaded cell terminal voltage rather than its emf.",
+        "calculation_check": "I = 1.58/2.40 = 0.658333 A. Bulb power = I squared times 2.30 = 0.996826 W. The bulb voltage is 1.51417 V, and its square divided by 2.30 ohm gives the same 0.996826 W.",
+        "assumptions": "Steady operation at the stated hot resistance; V in part (c) is the bulb voltage.",
+        "notes": "All numerical answers are correct. Equality in part (c) requires using terminal voltage, not 1.58 V.",
+        "source_sha256": "3fb15329085f2e0f25895c7aedb6771b5e628598c93ecd39414459b0f7f01943",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:9",
@@ -2266,9 +2487,22 @@
         "checked": 10
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:9",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For two series-aiding cells, both emfs and internal resistances add, giving load power P = E_total squared times R/(R + r_total) squared. The two operating-point calculations are correct. However, the claimed crossover near 1.4 ohm is incorrect. Equating positive currents gives 2.50/(R + 0.0800) = 3.16/(R + 0.400), whose solution is approximately 1.13 ohm. Alkaline cells still deliver more power between 1.13 and 1.4 ohm. The circuit is described verbally rather than actually drawn.",
+        "calculation_check": "NiCad current and power are 0.762195 A and 1.85901 W; alkaline values are 0.877778 A and 2.46558 W, a 32.6% power advantage. The crossover is [2.50(0.400) - 3.16(0.0800)]/(3.16 - 2.50) = 1.13212 ohm. Each power curve peaks at R = r_total, supporting the statement that power cannot increase indefinitely as load resistance falls.",
+        "assumptions": "Identical, series-aiding cells with fixed parameters and a resistive radio model. Claims about discharge-voltage stability, recharge-cycle lifetime, and the manufacturer's recommendation were not independently established from the supplied evidence.",
+        "notes": "Operating powers and the qualitative high-current advantage of low internal resistance are correct, but the stated crossover resistance should be about 1.13 ohm, not 1.4 ohm.",
+        "source_sha256": "dce3de6ef6ce244d08015ee3beec1a7e49e99dcf6d427e87203923e5f67d84fa",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:10",
@@ -2292,9 +2526,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The motor, battery internal resistance, and any corrosion resistance are in series. Motor voltage is IR_motor, and motor power is I squared times R_motor. The listed answers correctly use motor voltage rather than battery emf for motor power.",
+        "calculation_check": "Initially R_total = 0.0600 ohm, giving I = 200 A, motor voltage = 10.0 V, and motor power = 2000 W. With corrosion, R_total = 0.1500 ohm, giving 80.0 A, 4.00 V, and 320 W. The extra listed 0.1000 ohm equals battery internal resistance plus corrosion resistance.",
+        "assumptions": "The stated equivalent motor resistance applies to both operating cases; changing motor back emf and mechanical operating conditions are outside this fixed-resistance model.",
+        "notes": "All requested numerical results are correct. The unlabeled 0.1000-ohm value is the combined nonmotor series resistance.",
+        "source_sha256": "2740db062b568e42fb2ee6e5782b2fa2df24cb5572ce94ee5698ada47215ffe0",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:11",
@@ -2315,9 +2562,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For four series-aiding cells, total emf is 6.27 V and initial internal resistance is 0.160 ohm. The load power determines the new current, after which Kirchhoff's voltage law determines total resistance. Subtracting the load and the three unchanged internal resistances isolates the failing cell's resistance. The verbal circuit description conveys the intended series arrangement.",
+        "calculation_check": "Initial current = 6.27/10.16 = 0.617126 A and load power = 3.80844 W. At 0.500 W, current = sqrt(0.500/10.0) = 0.223607 A. The failing resistance is 6.27/0.223607 - 10.0 - 0.0600 = 17.9803 ohm. The supplied 17.9 ohm follows from intermediate rounding and is not a substantive discrepancy.",
+        "assumptions": "All cells aid one another; the failing cell retains its 1.53-V emf and changes only its internal resistance; load resistance remains fixed. The empirical claim that such increases are typical of failing batteries was not independently verified.",
+        "notes": "The circuit model, current, load power, and inferred failing-cell resistance are consistent within ordinary intermediate rounding.",
+        "source_sha256": "3888f1ce4bd05a6ba090b897ac7f570b41337e85d949c5c3c5f9a304799cd3d0",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:12",
@@ -2341,9 +2601,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:12",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Subtracting two discharge relations V = emf - Ir eliminates the emf and gives delta V = -r delta I. Thus the voltage-current slope determines internal resistance, but without an absolute operating point or open-circuit voltage the emf remains undetermined.",
+        "calculation_check": "r = -delta V/delta I = -(-2.00 V)/(5.00 A) = 0.400 ohm. Any emf compatible with suitable absolute voltage/current values can produce this same slope.",
+        "assumptions": "The emf and internal resistance remain constant between the two measurements.",
+        "notes": "Both the resistance and the conclusion that emf cannot be determined are correct.",
+        "source_sha256": "05a9c4b74071500212993eeafb4a55c7715864c17836afe22ea9f322cd8131a7",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:13",
@@ -2364,9 +2637,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:13",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The series-circuit calculation, body heating, required current-limiting resistance, and reduced power available to low-resistance loads are correct under the stated model. However, the discussion recommends isolation transformers as a better safety approach for this scenario. Grasping both output terminals completes the secondary circuit even if it is isolated from ground; isolation does not remove the terminal-to-terminal voltage or limit this current. Fault-only current limiting also requires a specified detection scheme to distinguish bodily contact from an intended load. The categorical claim of immediate death is not established by a steady resistance calculation alone.",
+        "calculation_check": "Body current = 20000/(2000 + 10000) = 1.66667 A, and body heating = 27777.8 W, consistent with the rounded solution. Requiring I <= 0.00100 A gives r >= 19.990 M ohm; 20.0 M ohm is appropriate. For a 1-ohm load, power falls from 99.9001 W to approximately 1.00 microwatt, a factor of about 100 million.",
+        "assumptions": "A steady 20.0-kV Thevenin source and fixed 10.0-kilohm body resistance; transients, stored charge, breakdown, and physiological response are not modeled. No external safety or medical claims were independently verified.",
+        "notes": "The requested circuit results are correct, but the isolation-transformer recommendation does not protect against the specified two-terminal contact. The asserted timing of death and broader safety claims exceed the model.",
+        "source_sha256": "97224e51316a67703f34c7020fdfc459cbfff8b2f0d81b6c5a9497094c4d2b15",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:14",
@@ -2387,9 +2673,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:14",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "With 5000 aligned cells in series per row, each row has 750 V emf and 1250 ohm internal resistance. Connecting 140 identical rows in parallel preserves that emf and divides internal resistance by 140. The water completes the circuit as the external load, so its current is the equivalent emf divided by the sum of internal and water resistances.",
+        "calculation_check": "Equivalent internal resistance = 1250/140 = 8.92857 ohm. Water current = 750/(800 + 8.92857) = 0.927152 A. Water voltage is 741.722 V, or 98.9% of the emf, supporting the discussion of a small internal voltage drop.",
+        "assumptions": "All electroplaques act simultaneously with aligned polarity; rows are identical parallel branches; water is represented by the stated lumped resistance. The biological claim about stunning prey was not independently verified and depends on current path and pulse duration.",
+        "notes": "The series/parallel reduction, current, and voltage-drop explanation are correct. The biological outcome remains an unverified contextual claim.",
+        "source_sha256": "ab40b47800bf2f414a7d9cc11f13b988cd87c8621735aa5e890a3224aeddb4c7",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:15",
@@ -2410,9 +2709,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:15",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Charging gives r = (V - emf)/I. Internal Joule heating supplies the thermal energy used in mc dT/dt = I squared times r under the stated no-heat-loss assumption. These steps and all requested answers are correct. The discussion's conclusion that heat loss keeps the battery from overheating during normal charging does not follow: neither heat-transfer properties nor ambient temperature or charging duration are supplied.",
+        "calculation_check": "r = (16.0 - 12.0)/10.0 = 0.400 ohm and heating power = 40.0 W. Heat capacity is 20.0(0.300)(4186) = 25116 J/degree C. The adiabatic rise is 40.0(60)/25116 = 0.0955566 degree C/min, or 5.73340 degrees C/hour. Heating consumes 40/160 = 25% of charger input power.",
+        "assumptions": "Constant, uniform heat capacity and temperature; constant battery parameters; ideal chemical storage apart from Joule heating; no heat escapes for the requested rate. Actual thermal equilibrium cannot be determined without a heat-loss model.",
+        "notes": "All requested calculations are correct. The assurance that environmental heat loss prevents overheating is unsupported by the givens and should not be inferred from the calculated heating rate.",
+        "source_sha256": "eeece6e089d5e30f5e2453296f405733b469131ac08260cc09e449523dc46ed0",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:16:28+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:16",
@@ -2436,9 +2748,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:16",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a discharging cell, V = emf - Ir and R_load = V/I. The negative results demonstrate that the stated current cannot be supplied to a passive resistive load with these emf and internal-resistance values. All four parts are answered correctly.",
+        "calculation_check": "V = 1.58 - 8.50(0.200) = -0.120 V; R_load = -0.120/8.50 = -0.01412 ohm. The short-circuit current is 1.58/0.200 = 7.90 A, already below 8.50 A.",
+        "assumptions": "Constant emf and positive internal resistance; a passive load powered solely by this cell. An externally driven circuit could force a larger current, but would violate the stated supplying-load interpretation.",
+        "notes": "Correct arithmetic and identification of the inconsistency: the requested current exceeds the cell model's short-circuit current.",
+        "source_sha256": "a964b5895314124c3afcb90ffaa8792617740b68d4673e524dfc4f3f522d6eb5",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ElectromotiveForce.md::problems-exercises:17",
@@ -2459,9 +2784,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ElectromotiveForce.md::problems-exercises:17",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The bulb power fixes I = sqrt(P/R) and V = sqrt(PR). This required terminal voltage exceeds the cell emf, forcing a negative internal resistance in the passive-cell model. The zero-internal-resistance bound correctly establishes the inconsistency. Three identical cells are the minimum series count whose combined emf exceeds the required voltage; sufficient performance also depends on their internal resistance.",
+        "calculation_check": "I = sqrt(1/15) = 0.258199 A; V = sqrt(15) = 3.87298 V; r = (1.54 - 3.87298)/0.258199 = -9.03561 ohm. The single-cell power bound is 1.54^2/15 = 0.158107 W. Two cells give only 3.08 V, whereas three give 4.62 V before internal losses.",
+        "assumptions": "The bulb has the stated operating resistance, and the dry cell is modeled by a fixed emf and nonnegative series resistance. The negative-resistance impossibility is understood for this passive internal resistance. Three cells must have sufficiently small internal resistance.",
+        "notes": "All requested parts and the power-bound discussion are correct within the stated cell model.",
+        "source_sha256": "ef22f5a702242f961c23f839b357ef5240258679e3cdbbdfd137745144296ed0",
+        "file_sha256": "51ed3d3f704e0a4ae1c96ae0ec314f9c86f615db19fc97d12d9c27315088658c",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md#Example1",
@@ -2481,9 +2819,22 @@
         "skipped": 41
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md#Example1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of Figure 5's SVG geometry confirms both source polarities and the assumed branch directions. Taking V_a = 0 and V_e = U gives I1 = U/6, I2 = (18-U)/3, and I3 = (45-U)/2. Charge conservation requires I1 = I2 + I3. These independently reproduce the solution's equations, currents, and interpretation of negative I2. Both loop traversals and the discussion check are correct.",
+        "calculation_check": "Solving U/6 = (18-U)/3 + (45-U)/2 gives U = 28.5 V, I1 = 4.75 A, I2 = -3.50 A, and I3 = 8.25 A. Net source power is 18(-3.50) + 45(8.25) = 308.25 W, equal to resistor dissipation 6(4.75)^2 + 3(3.50)^2 + 2(8.25)^2.",
+        "assumptions": "Steady lumped DC circuit, ideal connecting wires, constant source emfs, and the internal resistances shown. Signed currents refer to the figure's arrows.",
+        "notes": "Figure geometry, loop signs, all three currents, and charge and energy conservation agree.",
+        "source_sha256": "a585ed0988a897c76dfb92da5c306b4bca7a4f5250bf93ec5f92bb924ef365b9",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::check-understanding:1",
@@ -2505,9 +2856,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::check-understanding:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Kirchhoff's rules apply to simple series and parallel networks within the same circuit-model assumptions as more complicated networks. At a series connection, charge conservation enforces equal current; the loop rule adds voltage drops. Parallel branches share the same node voltage, and their currents add. Capacitors can be included through their voltage-charge relation.",
+        "calculation_check": "For series resistors, V = IR1 + IR2 gives R_eq = R1 + R2. For parallel resistors, I = V/R1 + V/R2 gives 1/R_eq = 1/R1 + 1/R2. Thus the familiar reduction rules follow from Kirchhoff's rules and element relations.",
+        "assumptions": "Ordinary lumped circuits with negligible unmodeled charge storage at junctions and no unaccounted changing magnetic flux through loops. The phrase 'any circuit' is interpreted within this textbook circuit-model domain.",
+        "notes": "Correctly explains applicability to simple circuits and how series and parallel rules follow.",
+        "source_sha256": "732f070f8b43d31db748260368e894b8d79ec71f77f4e59e247fa4f82fe2648d",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:1",
@@ -2530,9 +2894,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 6's SVG arrows all point into the junction. Charge conservation gives dQ/dt = I1 + I2 + I3, which is zero for the steady junction model. Therefore all three currents cannot be strictly positive. For nonzero current flow, at least one signed current must be negative and thus leave the junction.",
+        "calculation_check": "The proposed positive currents sum to 6.0 A, implying charge accumulation of 6.0 C/s. The alternative 2.0 + 1.0 - 3.0 = 0 A satisfies the junction rule.",
+        "assumptions": "Steady circuit with negligible charge accumulation at the junction. The statement that at least one current is negative presumes some nonzero current; all three could instead be zero.",
+        "notes": "Correct sign interpretation and conservation argument for the illustrated steady junction.",
+        "source_sha256": "8e677b2c1d8bac6850b6055ecccc9f70eee1b1a6a8aebcb55ff363ede1844092",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:2",
@@ -2555,9 +2932,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 7's SVG confirms I1 directed into b, with I2 and I3 directed out. Their reference directions are reversed as entering or leaving at e, so both junctions yield I1 = I2 + I3. Only one of these junction equations is independent. Independent branch-potential equations also reproduce the currents used in the solution.",
+        "calculation_check": "With V_e = 0 and V_b = U, the branch relations are I1 = (18-U)/35.5, I2 = (U-12)/9.25, and I3 = (U+3)/6.25. Solving continuity gives U = 4.46994 V and currents 0.381129, -0.814061, and 1.195190 A, respectively; -0.814061 + 1.195190 = 0.381129 A.",
+        "assumptions": "Steady DC, ideal wires, and source polarities and component values inspected in Figure 7. Current labels are signed relative to their arrows.",
+        "notes": "Correct junction equations, independence claim, and supporting numerical example.",
+        "source_sha256": "6416e5bb41abd15384ad59736f4e6311ae7dc3c0ed5623d3ea1275495442f70f",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:3",
@@ -2580,9 +2970,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 7's SVG confirms the positive terminals of emf2 toward e and emf4 toward d. The four paths therefore give V_b-V_a = -I1R1, V_b-V_c = I2R3, V_g-V_e = I3r2-emf2, and V_d-V_e = emf4+I2r4. Every requested part has the correct elements and signs. References to I2's direction are understood as its assigned arrow; its negative value reverses the actual flow.",
+        "calculation_check": "Independently solved currents are I1 = 0.381129 A, I2 = -0.814061 A, and I3 = 1.195190 A. The four differences are -7.62257 V, -6.51249 V, -2.70120 V, and 23.38945 V, agreeing with all reported answers.",
+        "assumptions": "Potential difference from x to y means V_y-V_x; steady lumped DC circuit with ideal wires and the figure's source polarities.",
+        "notes": "All four voltage differences and their physical sign explanations are correct.",
+        "source_sha256": "e17396c9339c03f54724d46f2561489f3b4107628029e0f06b12fbc9b9387d17",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:4",
@@ -2605,9 +3008,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Following afedcba in the inspected Figure 7 traverses every outer resistor opposite its assigned current. The source changes are -18 V, +24 V, and -12 V. Thus the equation is 35.5I1 + 9.25I2 - 6 = 0, exactly as supplied. The individual path descriptions also match the figure.",
+        "calculation_check": "Using independently derived currents gives 35.5(0.381128585) + 9.25(-0.814061055) = 6.00000 V. Every resistance-current term has voltage dimensions.",
+        "assumptions": "Steady DC with ideal wires; signed currents follow the diagram's reference arrows, including the negative value of I2.",
+        "notes": "Correct outer-loop traversal, source polarities, equation, and numerical check.",
+        "source_sha256": "f093f4338f278c1ba354ae2f851ce530c69e35a2bc0b6aee13453cdeffd4ad5d",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:5",
@@ -2630,9 +3046,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::conceptual-questions:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "In Figure 7, abgefa crosses the left and middle resistors with their assigned currents and both included sources from negative to positive, giving 35.5I1 + 6.25I3 = 21 V. Loop cbgedc crosses the middle branch with I3 and the right branch against I2, giving 6.25I3 - 9.25I2 = 15 V. All element-by-element signs match the inspected SVG. Subtracting the second equation from the first correctly eliminates the middle branch and yields the outer-loop equation.",
+        "calculation_check": "The independently solved currents give 35.5(0.381128585) + 6.25(1.195189639) = 21.0000 V and 6.25(1.195189639) - 9.25(-0.814061055) = 15.0000 V. Their difference is 6.0000 V.",
+        "assumptions": "Steady lumped DC circuit with ideal wires, the shown source polarities, and signed reference currents.",
+        "notes": "Both requested loop equations, numerical checks, and the loop-dependence explanation are correct.",
+        "source_sha256": "8fab67871a6dd9bb9bbd0ba3f81a956f787bf0f329f2b38fafa56f694fcb7bb2",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:1",
@@ -2656,9 +3085,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "In the inspected Figure 5, abcdefgha follows the upper branch with I2 and returns through the lower branch against I3. The upper source is crossed from negative to positive, and the lower source from positive to negative. This produces exactly the supplied equation, with no middle-branch resistor term.",
+        "calculation_check": "Combining series resistances gives -3I2 + 18 + 2I3 - 45 = 0. Substitution gives -3(-3.50) + 18 + 2(8.25) - 45 = 0 V.",
+        "assumptions": "Steady DC, ideal wires, Figure 5's source polarities, and its assigned current directions.",
+        "notes": "Correct elements and signs for the requested outer loop.",
+        "source_sha256": "98f845e077e0e28e6881fbe56755bb64dc0dd5ac07cda643f7f006539e7ff233",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:2",
@@ -2678,9 +3120,22 @@
         "skipped": 20
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The solution does not follow aedcba in Figure 5. Segment e-to-d is a wire, d-to-c crosses r1 against the assigned I2, c-to-b crosses emf1 from positive to negative, and b-to-a crosses R2 against assigned I2. Neither r2 nor emf2 lies on this loop. The correct equation is I1R1 + I2r1 - emf1 + I2R2 = 0, the negative of the example's abcdea equation. The discussion's claimed derivation does not justify the printed equation; reversing the original loop alone gives the correct dependent equation.",
+        "calculation_check": "The correct equation reduces to 6I1 + 3I2 - 18 = 0 and gives 28.5 - 10.5 - 18 = 0 V. The printed equation instead gives 28.5 + 8.25(0.5) - 45 - (-3.50)(3) = -1.875 V, failing even with the example's currents.",
+        "assumptions": "The loop labels and current references are those in the directly inspected Figure_21_03_05.svg; steady DC and ideal wires.",
+        "notes": "Substantive wrong-loop solution: it introduces lower-branch components, omits emf1, and reverses the upper-resistor signs. Correct result: I1R1 + I2(R2+r1) - emf1 = 0.",
+        "source_sha256": "290396dd3595114f16d8b49a9076301cbda3809d183604b4c5c2a4b5ed7c8250",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:3",
@@ -2701,9 +3156,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The solution identifies the intended second equation from Example 1 and substitutes both signed currents correctly. This verifies the requested loop equation. The discussion's confirmation is valid as a check of this equation; verification of the entire circuit additionally requires the other independent equations, which the example satisfies.",
+        "calculation_check": "The upper-loop residual is -(3 ohm)(-3.50 A) + 18 V - (6 ohm)(4.75 A) = 10.5 + 18 - 28.5 = 0 V.",
+        "assumptions": "The numerical coefficients represent the resistances in ohms, and I2 retains its negative sign relative to the assigned arrow.",
+        "notes": "Correct substitution and zero residual for the requested equation.",
+        "source_sha256": "7c38fb96b8eabeeca6cc96f845dfc4b46e8e5d20fe1f983326abe6436f4b4db3",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:19:11+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:4",
@@ -2724,9 +3192,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Example 1's lower branch has resistance 1.5 + 0.5 = 2.0 ohms. Equating its terminal voltage to the middle branch voltage gives 45 - 2I3 = 6I1, which is the equation being verified. The supplied currents satisfy it. The discussion's additional verification claim is consistent with the other two independent equations.",
+        "calculation_check": "6(4.75) + 2(8.25) - 45 = 28.5 + 16.5 - 45 = 0 V. Also, -3.50 + 8.25 = 4.75 A and 18 - 3(-3.50) - 6(4.75) = 0 V.",
+        "assumptions": "Steady DC, ohmic resistors, ideal connecting wires, and the source polarities and signed currents shown in Example 1.",
+        "notes": "Correct substitution and physical loop equation; the other independent circuit checks also pass.",
+        "source_sha256": "73e7bfa0c8aafd35144413f8ca3c996d342344566d4e82a50b3cc6dfeefce688",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:5",
@@ -2750,9 +3231,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of Figure 8's SVG arrows shows I3 entering junction a from below, while I1 leaves upward and I2 leaves toward the middle branch. Conservation of charge therefore gives I3 = I1 + I2, exactly as stated.",
+        "calculation_check": "The signed outward current is I1 + I2 - I3 = 0. All terms have units of amperes.",
+        "assumptions": "Steady current with negligible charge accumulation at the junction; current symbols are signed relative to the illustrated arrows.",
+        "notes": "Junction equation correctly follows the figure's current directions.",
+        "source_sha256": "f276d8ef9a27be012e3ec3fb11a5cae1526be44ffa4bbc87c48650c946219fdb",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:6",
@@ -2776,9 +3270,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Traversing abcdefghija follows I1 along the top branch and I3 along the bottom branch from e back to a. Inspection of the SVG cell plates gives a rise across emf1, a drop across emf4, and a rise across emf3. Every traversed resistance therefore contributes the negative current-times-resistance term shown.",
+        "calculation_check": "Top resistance = 5.0 + 0.10 + 20 = 25.1 ohms; bottom resistance = 78 + 0.05 + 0.20 = 78.25 ohms. The emf sum is 24 - 36 + 6 = -6 V, giving -6 - 25.1I1 - 78.25I3 = 0.",
+        "assumptions": "Steady lumped DC circuit; ideal wires; internal resistances included; signed currents follow the figure's arrows.",
+        "notes": "Correct outer-loop traversal, source signs, and resistance sums. The figure contains r4, not R4.",
+        "source_sha256": "e58d2dcadb48b5a2b7e8a5ee076a032b928cb2f4e4dcadb4ac6ea8709fd73fd4",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:7",
@@ -2802,9 +3309,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The path a-k-l-e traverses the middle source from negative to positive and its resistances with I2. Returning e-d-c-b-a traverses the top resistances against I1 and its source from positive to negative. This yields precisely the supplied expression.",
+        "calculation_check": "Combining terms gives 48 - 40.5I2 + 25.1I1 - 24 = 0, or 24 - 40.5I2 + 25.1I1 = 0. Each term is a potential change in volts.",
+        "assumptions": "Figure 8's cell polarities and current arrows, as checked in the SVG; steady ohmic DC circuit.",
+        "notes": "All potential-change signs agree with the requested loop direction.",
+        "source_sha256": "7dba3ed7fcfdd21c477a86f0154243d932ae98352dd27c2d6f2b2bdafeb30c64",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:8",
@@ -2827,9 +3347,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Independently setting U = Ve - Va gives U = 24 - 25.1I1 = 48 - 40.5I2 = 30 + 78.25I3. Combining these relations with I1 + I2 = I3 reproduces both loop equations and all reported currents. The solution identifies the unknowns, combines series resistances within branches, solves independent equations, and checks signs and consistency.",
+        "calculation_check": "The node calculation gives U = 32.65679093 V, I1 = -0.34489207 A, I2 = 0.37884467 A, and I3 = 0.03395260 A. These satisfy the junction equation and all three stated loop equations to numerical precision.",
+        "assumptions": "Steady DC; ideal wires; specified internal resistances; constant emfs; cell polarities and current directions inspected in Figure 8's SVG.",
+        "notes": "Correct model, numerical currents, interpretation of negative I1, and independent loop check.",
+        "source_sha256": "232618ca25b9d7b31b1f802c61fce5d6c6c9bf401ce04a06646af5154e96b7ee",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:9",
@@ -2853,9 +3386,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:9",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The three currents are correct for Example 1, but listing them does not demonstrate the explicitly requested alternative loop or problem-solving steps. Traversing abcdefgha gives 18 - 3I2 - 45 + 2I3 = 0. Together with I1 = I2 + I3 and 18 - 3I2 - 6I1 = 0, this derives the stated results. There is also a reference defect: Example 1 uses aefgha, not akledcba; its Figure 5 has no k or l nodes.",
+        "calculation_check": "Substitution into the requested outer loop gives 18 - 3(-3.50) - 45 + 2(8.25) = 0 V. The junction and retained upper-loop equations also give zero residuals.",
+        "assumptions": "The intended circuit is Example 1's Figure 5, and the requested alternative loop is the explicitly named abcdefgha.",
+        "notes": "Correct currents, but the requested alternative-loop derivation and explicit steps are absent. The problem also misidentifies Example 1's original loop.",
+        "source_sha256": "912e09a9e23897048cbe169167e495637e1eb260219ddac77e625f588e88ae44",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:10",
@@ -2879,9 +3425,22 @@
         "skipped": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 7's SVG confirms the downward-positive 3-V and 12-V cells, right-positive 24-V cell, and upward-positive 18-V cell. Following each branch from e to b gives Vb = 18 - 35.5I1, Vb = -3 + 6.25I3, and Vb = 12 + 9.25I2. Conservation of charge at b gives I1 = I2 + I3. These independently reproduce the solution.",
+        "calculation_check": "With Ve = 0, Vb = 4.46993525 V. Thus I1 = 0.38112858 A, I2 = -0.81406105 A, and I3 = 1.19518964 A. The remaining-loop check gives 35.5I1 + 9.25I2 = 6.000000 V.",
+        "assumptions": "Steady ohmic DC circuit, ideal wires, listed internal resistances included, and signed currents relative to the figure's arrows.",
+        "notes": "Correct polarities, branch equations, current values, and interpretation of reversed I2.",
+        "source_sha256": "39d4ffcd3e0191a6e52ecbcb8d550d188caaa026f30056d70fc5fce87d7e32d6",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21KirchhoffsRules.md::problems-exercises:11",
@@ -2905,9 +3464,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21KirchhoffsRules.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 9 shows I1 entering a and I2 and I3 defined as leaving. The specified signed currents violate I1 = I2 + I3, independently of any emf values. Consequently no physically consistent pair of emfs can produce all three currents. Loop equations alone could yield formal emf values, but they cannot resolve the junction contradiction.",
+        "calculation_check": "I2 + I3 = 3.0 + (-2.00) = 1.0 A, whereas I1 = 5.00 A. The 4.00-A mismatch would imply charge accumulation at 4.00 C/s at a, contradicting steady operation.",
+        "assumptions": "Steady DC with no additional branch or charge-storage element at either junction; the negative I3 reverses its illustrated direction.",
+        "notes": "Correctly identifies violation of charge conservation and the impossibility of a complete consistent solution.",
+        "source_sha256": "b0e097f21ae828523a0bc391f859fd943b564eb9e79529342a8e2313d4a597cc",
+        "file_sha256": "3106f0e6c4658e684d5a9fedbe5820cf3f4bc98b52ae11d91e7e06ca57798953",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::exercise:1",
@@ -2929,9 +3501,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::exercise:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Lead and contact resistances can alter resistance ratios or introduce unwanted drops, and temperature drift can change those ratios. A detector with a smaller detectable current can locate balance more precisely because an imbalance voltage drives current through the detector circuit. The stated sensitivity benefit applies when imperfect null detection contributes to the uncertainty.",
+        "calculation_check": "Near balance, IG = deltaV/Rtotal, so the unresolved voltage interval is approximately Imin Rtotal. Reducing Imin reduces this contribution to uncertainty. A resistance-ratio error produces deltaEx/Ex approximately equal to deltaRx/Rx - deltaRs/Rs.",
+        "assumptions": "The more sensitive detector introduces no compensating noise, offset, or drift; finite balance sensitivity is a relevant uncertainty. Improved sensitivity does not remove standard or resistance-ratio errors.",
+        "notes": "Valid limiting factors and sensitivity explanation; the accuracy benefit is conditional on detector-limited balance resolution.",
+        "source_sha256": "1b5233a13b97bdde9792213975c8f37f80ad78fd59483f5ea61c602c4186bd64",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::conceptual-questions:1",
@@ -2954,9 +3539,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::conceptual-questions:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The potentiometer explanation, loading comparison, ratio relation, and listed uncertainty sources are sound. However, the Strategy generalizes that no current flows through 'the unknown at balance.' This holds for the unknown cell in the potentiometer, but not for the unknown resistor in the chapter's Wheatstone bridge. Only detector current must vanish in a general null measurement.",
+        "calculation_check": "The loaded-cell voltage is 1.500(1000/1000.5) = 1.49925037 V, a 0.749625-mV reduction. As a counterexample to the general claim, a balanced bridge with four equal resistors R and applied voltage V has detector current zero while the unknown resistor carries V/(2R), which is nonzero.",
+        "assumptions": "The question covers null measurements generally, including both potentiometers and Wheatstone bridges discussed in this section. The numerical example assumes an ideal calibrated voltmeter apart from finite input resistance.",
+        "notes": "Correct potentiometer example and error sources, but incorrectly extends zero current in the unknown to all null measurements.",
+        "source_sha256": "ff35b6562235c489017c2938e7511b044516fd7d02d699ba650d110ced871443",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::conceptual-questions:2",
@@ -2979,9 +3577,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::conceptual-questions:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "At fixed slide-wire current, similar emfs permit both balance lengths to be large, reducing relative length-reading errors. Smaller total detector-loop resistance increases the current caused by a given imbalance, supporting the stated sensitivity argument. However, the example incorrectly claims that an unknown balancing at 100 times 0.0100 m requires more than the 1.000-m wire: it requires exactly the full wire.",
+        "calculation_check": "A 1-mm uncertainty at 0.900 m is 0.111%, and at 0.0100 m it is 10%. The unknown balance length is (1.5/0.0150)(0.0100 m) = 1.000 m, not more than 1.000 m. The imbalance currents are correctly 0.001/5 = 2.0e-4 A and 0.001/5000 = 2.0e-7 A.",
+        "assumptions": "Uniform wire, unchanged excitation current, fixed absolute contact-position uncertainty, and a detector limited by current sensitivity. The illustrative total resistance includes detector and source resistance; heating and other errors can limit the benefit of reducing resistance.",
+        "notes": "Main ratio and sensitivity reasoning is valid, but the claimed inability to balance the numerical example exceeds what its givens establish: balance lies exactly at the wire endpoint.",
+        "source_sha256": "553be0abe4bf0a4c52fe5e18935687db8b6c2994e0b47c99b6b4a9d1cc60e2fe",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::problems-exercises:1",
@@ -3005,9 +3616,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At balance, Ex = I Rx and Es = I Rs. Dividing eliminates the unchanged wire current, yielding Ex = Es Rx/Rs. The unknown emf is twice the standard because its balancing resistance is twice as large.",
+        "calculation_check": "Ex = (12.0 V)(5.000 ohms)/(2.500 ohms) = 24.0 V. The resistance ratio is dimensionless, and the result has the standard emf's three significant figures.",
+        "assumptions": "Both balances use the same stable potentiometer current; detector current vanishes at balance; the excitation source provides sufficient voltage for both balances.",
+        "notes": "Correct potentiometer ratio and final emf.",
+        "source_sha256": "286b9a3bad30ff036ce650f11735b8ac981fd041e8417cad2c92b61ff4614f95",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:22:14+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::problems-exercises:2",
@@ -3028,9 +3652,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At null balance, each measured cell supplies zero current, so its terminal voltage equals its emf. With the same slide-wire current I for both measurements, emf_x = I R_x and emf_s = I R_s, giving the stated resistance ratio. The discussion correctly identifies elimination of the measured cell's internal-resistance drop; current still flows through the slide wire.",
+        "calculation_check": "emf_x = 1.600(1.200/1.247) = 1.539695 V, consistent with 1.54 V. The fractional decrease relative to the standard is (1.247 - 1.200)/1.247 = 0.0376905, or 3.77%, consistent with 3.8%. The resistance ratio is dimensionless.",
+        "assumptions": "The slide-wire current remains unchanged between measurements, the resistance ratio is accurate, and both cells reach null balance. Real measurement precision remains limited by calibration, stability, and detector sensitivity.",
+        "notes": "Correct emf, ratio reasoning, and internal-resistance explanation. The qualitative description of the cell voltage as typical is not established by the supplied data, but does not affect the result.",
+        "source_sha256": "cd5bfa07f593a14eb5347426e1a3215d82c51aeaaa49634216408a2094a5ad96",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::problems-exercises:3",
@@ -3054,9 +3691,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The chapter's bridge diagram places R3 and Rx in one branch and R1 and R2 in the other. At balance their intermediate nodes have equal potentials, so I_top R3 = I_bottom R1 and I_top Rx = I_bottom R2. Dividing gives Rx = R3 R2/R1, matching the answer.",
+        "calculation_check": "Rx = 2500 ohms × 0.625 = 1562.5 ohms = 1.5625 kilohms, which rounds to 1.56 kilohms.",
+        "assumptions": "The bridge uses the labeling shown in the chapter, the detector branch has zero current at balance, and the resistances are ohmic and stable.",
+        "notes": "The supplied numerical answer follows directly from the correctly labeled bridge balance condition.",
+        "source_sha256": "d822816f1ac1e170affe47a2c3f2682fdf04b9499ebe3b8ad9398a0ec73c9bfc",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::problems-exercises:4",
@@ -3077,9 +3727,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Equal midpoint potentials in the chapter's bridge require R3/Rx = R1/R2. Therefore R3 = Rx R1/R2, as used throughout the solution. The discussion correctly explains that the ratio arms permit measuring an unknown resistance larger than the balancing resistance; this is a scale factor rather than physical amplification.",
+        "calculation_check": "R3 = (100 ohms)(50.0/175) = 28.5714 ohms, consistent with 28.6 ohms. Substitution gives (28.5714 ohms)(3.5) = 100 ohms.",
+        "assumptions": "The bridge has the chapter's resistor arrangement and is balanced with no detector current. Resistance values remain stable during adjustment.",
+        "notes": "Correct balance equation, rearrangement, numerical result, and explanation of the ratio arms.",
+        "source_sha256": "c8eab4e9c124937415c2312839c20e234f6bce05f3c777735d02f4ea70eae857",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::problems-exercises:5",
@@ -3103,9 +3766,22 @@
         "skipped": 10
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For each calibration, null balance gives emf_x/emf_s = Rx/Rs. Part (a) determines the unknown emf. Keeping that emf fixed in part (b), the higher standard emf at the same standard balance resistance corresponds to a higher slide-wire current, so the unknown balances at a smaller resistance. Both supplied answers follow.",
+        "calculation_check": "(a) emf_x = 3.000 V × 10.0/15.0 = 2.00 V. (b) Rx = 15.0 ohms × 2.00/3.100 = 9.67742 ohms, consistent with 9.68 ohms.",
+        "assumptions": "The unknown emf is unchanged. The potentiometer is restandardized between parts, allowing its drive current to change; within each standard/unknown comparison, that current remains fixed.",
+        "notes": "Both parts are correct under the restandardization implied by the new standard balance.",
+        "source_sha256": "ec57c055975546d7db6133e45547e38d2ada24c7f3f88f10ea010e12245b5082",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21NullMeasurements.md::problems-exercises:6",
@@ -3129,9 +3805,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21NullMeasurements.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For the chapter's bridge arrangement, balance requires Rx = R3(R2/R1) = 2.000 R3. Thus R3 must span half the desired unknown-resistance range. The relationship is monotonic, so checking both endpoints establishes the full required range.",
+        "calculation_check": "R3_min = 10.0/2.000 = 5.00 ohms; R3_max = 10.0/2.000 = 5.00 kilohms. Both endpoints reproduce the requested unknown resistances.",
+        "assumptions": "The ratio arms remain fixed at R2/R1 = 2.000, and R3 can be adjusted throughout the stated interval with sufficient resolution.",
+        "notes": "Correct adjustable-resistance range and units.",
+        "source_sha256": "f0de51c407dca5ab3c2720836f8c41c5d1dcbeda08506913bd43c111bb4a8286",
+        "file_sha256": "9f4f02b6318b22e65e64a02f69616613b10b99129822da60abc9560458afd7df",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:1",
@@ -3152,9 +3841,22 @@
         "checked": 10
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected circuit has one current path, so all three resistors carry the same current. Kirchhoff's loop rule gives V = I(R1 + R2 + R3). The individual drops follow from Vi = I Ri, and powers from Pi = I squared Ri. All five requested parts are answered. Summing powers yields I squared times the total resistance, which equals VI by the loop equation. The word 'coincidentally' is misleading, but the following explanation explicitly and correctly states that energy conservation requires the equality.",
+        "calculation_check": "R_total = 20.0 ohms and I = 12.0/20.0 = 0.600 A. Drops are 0.600, 3.60, and 7.80 V, summing to 12.0 V. Powers are 0.360, 2.16, and 4.68 W, summing to 7.20 W = 12.0 V × 0.600 A.",
+        "assumptions": "Steady DC, fixed ohmic resistances, negligible connecting-wire resistance, and a source maintaining the stated terminal voltage. Source power means electrical power delivered to the external circuit.",
+        "notes": "All requested quantities and conservation checks are correct. Power equality is required, as the discussion ultimately explains.",
+        "source_sha256": "c05edb23de8279f854b9049599016551e451b84b255e64f994a7b3a6842b56b8",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:2",
@@ -3175,9 +3877,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected figure connects all three resistors across the same source terminals. Thus each has voltage V, each current is V/Ri, and charge conservation gives I_total = V times the sum of reciprocal resistances. The equivalent resistance and all powers follow consistently. Each branch current exceeds the previous series current because its full source voltage exceeds its previous series voltage drop. All five parts and the discussion are supported.",
+        "calculation_check": "R_parallel = 1/(1 + 1/6 + 1/13) = 0.8041237 ohms, below the smallest resistor. I_total = 14.92308 A; branch currents are 12.0, 2.00, and 0.923077 A. Powers are 144, 24.0, and 11.07692 W; their sum is 179.07692 W, equal to 12.0 × 14.92308 W.",
+        "assumptions": "The source maintains 12.0 V across the branches despite the larger current, wiring resistance is negligible, and resistor values remain fixed despite heating.",
+        "notes": "Correct parallel model, all numerical results, current conservation, and energy conservation. Displayed rounding differences are harmless.",
+        "source_sha256": "bf80410a7c5edfb1b7fd687c5509aa5265e73555299d7b9096d36e13fdf0609d",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:3",
@@ -3198,9 +3913,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::worked-example:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of the SVG connections confirms R1 is in series with the parallel pair R2 and R3. Consequently R_total = R1 + R2 R3/(R2 + R3). The total current produces the R1 voltage drop; subtracting this from the source voltage gives the shared branch voltage. Using that voltage to obtain I2 and P2 answers all four parts. The discussions correctly describe the voltage reduction and resulting decreases in branch current and power.",
+        "calculation_check": "R_parallel = 78/19 = 4.105263 ohms; R_total = 5.105263 ohms. I = 2.350515 A and V1 = 2.350515 V. V_parallel = 9.649485 V, giving I2 = 1.608247 A and P2 = 15.51876 W. These agree with 5.11 ohms, 2.35 V, 1.61 A, and 15.5 W.",
+        "assumptions": "Steady DC with a fixed 12.0-V source, ohmic resistors, and all relevant wire resistance represented by R1.",
+        "notes": "Circuit topology, voltage division, branch current, power, and all comparison claims are correct.",
+        "source_sha256": "cc1b6fa2f9b6941a1fe018af7ff3c52cdaec0d82515ec3f7696eff2029f5a66f",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::check-understanding:1",
@@ -3222,9 +3950,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::check-understanding:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The answer correctly says arbitrary resistor networks need not admit successive series and parallel reductions, and correctly identifies Kirchhoff's rules as a general method. However, it supplies neither the requested circuit drawing nor an equivalent description of a counterexample. Its reference to 'loops and junctions' does not establish nonreducibility, since ordinary parallel networks also contain loops and junctions.",
+        "calculation_check": "A concrete counterexample is an unbalanced Wheatstone bridge: source terminals A and C, resistor paths A-B-C and A-D-C, and a fifth resistor B-D. No resistor pair shares both endpoints, and both internal nodes B and D have three incident resistors, so there is no elementary parallel or series reduction. For unequal arm ratios, the bridge resistor carries current and cannot simply be discarded.",
+        "assumptions": "Series and parallel reduction means successive replacement of identifiable resistor pairs, preserving the network between the source terminals. The counterexample has finite positive resistances and unequal bridge-arm ratios.",
+        "notes": "Correct general conclusion, but the requested counterexample is missing. Loops and junctions alone do not distinguish irreducible networks.",
+        "source_sha256": "2529505000f54547f997390e0f7f465e8fe6fe4cffa2b022859cf78e62a5838e",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:1",
@@ -3247,9 +3988,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected switch diagram is a single loop containing the source, internal resistance, load, and switch. Hence I = emf/(r + R + R_switch). A negligible switch resistance leaves nearly the ordinary load current, while an extremely large switch resistance suppresses the current. The additional numerical values are clearly introduced as an illustrative example rather than attributed to the problem.",
+        "calculation_check": "Closed: I = 12.0/10.101 = 1.188001 A, consistent with 1.19 A. Open: I = 12.0/(10^12 + 10.1) = 1.19999999999 × 10^-11 A, consistent with 1.2 × 10^-11 A. As R_switch approaches infinity, I approaches zero.",
+        "assumptions": "Steady DC; a resistive switch model with no arcing or breakdown; fixed emf, internal resistance, and load resistance. The finite open resistance is illustrative.",
+        "notes": "Correct explanation and numerical illustration of both switch states.",
+        "source_sha256": "1c2596a0899db7cb11d024611964561085beebe0f0233c8e677ec99a19fdcce0",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:2",
@@ -3285,9 +4039,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Kirchhoff's loop rule gives V_switch = emf - I(r + R). An ideal open switch makes I zero, leaving the full emf across its contacts. With the previous question's finite leakage resistance, the equality is approximate by an extremely small amount, as indicated in the calculation. The final explanation correctly describes the ideal open-circuit limit.",
+        "calculation_check": "Using the illustrative values, I(r + R) = (1.2 × 10^-11)(10.1) = 1.212 × 10^-10 V. Thus V_switch is approximately 11.999999999879 V, indistinguishable from 12.0 V at the stated precision.",
+        "assumptions": "The same series circuit and illustrative parameters as the previous question; steady state, negligible leakage in the ideal limit, and no measuring instrument substantially loading the open contacts.",
+        "notes": "Correct full-emf result, with finite-leakage and ideal-open limits consistently represented.",
+        "source_sha256": "6921c67d108eb01658f128e60d3d1f15fde5c6ba24ee156aa05b50d9fa7f491d",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:3",
@@ -3310,9 +4077,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A voltage difference alone does not imply power dissipation: power transfer also requires current. In this series circuit, opening the switch leaves nearly the full emf across it while its enormous resistance makes the current tiny. Both P = IV and P = V squared/R_switch therefore give very small dissipation. An ideal open switch dissipates zero steady-state power.",
+        "calculation_check": "P is approximately (12.0 V)^2/(10^12 ohms) = 1.44 × 10^-10 W, consistent with 1.4 × 10^-10 W. More exactly, P_switch = emf squared R_switch/(r + R + R_switch)^2, which approaches zero as R_switch approaches infinity.",
+        "assumptions": "Steady DC, a resistive leakage model, and no arcing, breakdown, or switching transients. The numerical values are illustrative values carried over from the preceding questions.",
+        "notes": "Correct physical explanation, equivalent power formulas, numerical result, and open-circuit limit.",
+        "source_sha256": "6ab1f9470a0eeb36a1be39944be1b6fc6a8017936b50bb79a59a8cbf1487d93a",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:25:05+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:4",
@@ -3335,9 +4115,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected Figure 7 SVG places the switch, load, and battery internal resistance in series. Thus I = emf/(r + R + R_switch), and the switch dissipates I²R_switch. The load limits the current as the closed-switch resistance approaches zero, so both the switch voltage and its power approach zero. The solution correctly explains this mechanism.",
+        "calculation_check": "Using the surrounding example's values gives I = 12/10.101 = 1.1880 A, V_switch = 0.001188 V, P_switch = 0.001411 W, and P_load = 14.113 W. Using the solution's rounded 1.19 A gives 14.161 W for the load, consistent with its 14.2 W. P_switch/P_load = R_switch/R = 0.0001.",
+        "assumptions": "Steady resistive operation, a closed contact of 0.001 Ω, and a finite series load that limits current; switching transients and arcing are excluded.",
+        "notes": "Correct explanation and milliwatt estimate. The small contact resistance dissipates only one ten-thousandth of the load power.",
+        "source_sha256": "3f7571385129910cedbe470f7d9b4cd305012b0731530fdb0c54c5d6dc670f56",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:5",
@@ -3360,9 +4153,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected problem and solution SVGs show the bulb and switch connected across the same two nodes, with the battery internal resistance in series with their parallel combination. Opening the switch leaves the bulb as the sole external current path. Closing it makes the external equivalent resistance much smaller than the internal resistance, collapsing the terminal voltage and therefore the bulb power. The explanation correctly attributes the large internal heating to the battery current.",
+        "calculation_check": "Open: I = 12/10.1 = 1.18812 A and V_bulb = 11.8812 V. Closed: R_p = 10(0.001)/(10.001) = 0.000999900 Ω, I_total = 118.812 A, V_bulb = 0.118800 V, and I_bulb = 0.011880 A. Internal heating is 1411.63 W. These agree with the solution's rounded results; bulb power falls to about 0.00141 W in its constant-resistance model.",
+        "assumptions": "The numerical illustration treats emf, internal resistance, bulb resistance, and contact resistance as fixed. Real battery behavior and filament resistance change under these conditions, so the large-current estimate is illustrative. Finite battery internal resistance is essential to the terminal-voltage collapse.",
+        "notes": "Correct topology, explanation, and calculations. The numerical short-circuit current is conditional on the stated battery model.",
+        "source_sha256": "8210855a0423fb92de1c63dda73873c7b4d614caca54f4cbb720d5872e2b6bab",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:6",
@@ -3385,9 +4191,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At the same supply voltage, a positive resistance in series increases the resistance of the body's current path: I_series = V/(R_body + R_h). In parallel, the body remains directly across the supply and carries V/R_body. Their ratio is R_body/(R_body + R_h), which is below one. The solution correctly concludes that series connection reduces body current and correctly identifies the small benefit of a low-resistance toaster element.",
+        "calculation_check": "The toaster resistance is 120²/1200 = 12 Ω. The example currents are 120/1012 = 0.118577 A and 120/1000 = 0.120 A. With a 10000 Ω series resistor, the current is 120/11000 = 0.010909 A. All stated results agree.",
+        "assumptions": "The same effectively fixed supply voltage is used for both configurations; body and element are represented by positive resistances. For AC, the quoted values are RMS currents in the resistive approximation. Actual body resistance depends on contact conditions.",
+        "notes": "Correct comparison. A toaster element adds little resistance relative to the assumed body resistance, so the current reduction is small.",
+        "source_sha256": "648a877a6dc889c59e63645e382a2fce1efcadf4b8b63edd9cdbd4d891f079a1",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:7",
@@ -3410,9 +4229,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The headlights and starter share the battery terminal voltage. Increasing the total load current increases the drop across the battery's nonzero internal resistance, reducing terminal voltage even when the connecting wires have zero resistance. This correctly answers the question. The V² power estimate is an explicitly rough constant-filament-resistance approximation.",
+        "calculation_check": "For the illustrative currents, the terminal voltages are 12 − 10(0.0100) = 11.9 V and 12 − 210(0.0100) = 9.9 V. The constant-resistance power ratio is (9.9/11.9)² = 0.6921. Allowing the headlight current to decrease self-consistently while holding the starter current at 200 A gives approximately 9.917 V, leaving the quoted estimate unchanged at its intended precision.",
+        "assumptions": "Quasi-steady battery operation with fixed emf and positive internal resistance; approximate starter current and headlight resistance. Filament-temperature changes, motor transients, and wiring inductance are outside the example.",
+        "notes": "Correct: internal battery resistance still causes dimming with superconducting wires. The numerical power reduction is a reasonable illustrative approximation.",
+        "source_sha256": "ffb42dd79cba9bc14efacff499c81695e431151282542a6d63cb8422879b1f73",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:8",
@@ -3435,9 +4267,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "An open failure interrupts the only series current path, extinguishing every bulb. A shorted failure bypasses that bulb while preserving the current path through the others. Identical operating bulbs carry the same current and divide the supply voltage equally, giving the stated voltages. The increased voltage raises current, power, and filament temperature, supporting the brighter operation and shorter-life discussion.",
+        "calculation_check": "Initially each bulb receives 120/40 = 3.00 V. After one ideal shorted failure, each survivor receives 120/39 = 3.07692 V, or 3.08 V. With fixed bulb resistance, current increases by 40/39 and power per survivor by (40/39)² = 1.05194. Temperature-dependent resistance changes the power increase but not the equal voltage division.",
+        "assumptions": "Identical incandescent bulbs operating symmetrically, a fixed 120 V supply, negligible wiring resistance, and ideal open or shorted failure behavior. The lifetime statement is qualitative rather than a numerical lifetime prediction.",
+        "notes": "Correct for both failure modes and both requested voltages. The brighter-operation discussion follows from the increased voltage per surviving bulb.",
+        "source_sha256": "a3fdc2cf8708ccbe74d4604c0799de0514abe06a15ba600b4fbe96e48d541752",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:9",
@@ -3460,9 +4305,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For conventional incandescent bulbs rated at the same voltage, the lower-power bulb has the larger rated operating resistance, R = V²/P. Series connection forces equal current, so the larger resistance dissipates more power through I²R. This supports the 60 W bulb being brighter. The solution explicitly acknowledges that its numerical powers use constant operating resistances.",
+        "calculation_check": "At 120 V, the rated resistances are 240 Ω and 144 Ω. Their series current is 120/384 = 0.3125 A. The powers are 23.4375 W and 14.0625 W, and the voltage drops are 75 V and 45 V. The total power, 37.5 W, equals the source power 120(0.3125).",
+        "assumptions": "Conventional comparable incandescent bulbs with the same rated voltage; brightness follows filament heating. Rated hot resistances provide approximate numerical powers because actual filament resistance falls below rated temperature. Electronic LED or fluorescent lamps are outside this model.",
+        "notes": "Correct conventional incandescent-bulb conclusion and arithmetic. The constant-resistance limitation is expressly stated.",
+        "source_sha256": "e2ec4738d34a7d760f3f7b11b324fce218c85b77ad126f98443bb9d06cb3098e",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:10",
@@ -3485,9 +4343,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Parallel branches add conductances: 1/R_eq = Σ(1/R_i). With at least two finite positive resistors, this sum exceeds every individual conductance, so the equivalent resistance is below the smallest available resistance. Series connection alone cannot reduce resistance. The solution correctly recommends parallel connection and gives valid combination examples.",
+        "calculation_check": "Two 100 Ω resistors in parallel give 1/(0.01 + 0.01) = 50 Ω; three give 100/3 = 33.333 Ω. A parallel pair in series with another 100 Ω resistor gives 50 + 100 = 150 Ω, as stated.",
+        "assumptions": "Positive ohmic resistors and negligible connecting-wire resistance. Exact attainment of an arbitrary requested value depends on the available resistor values and quantities; the problem asks for an attempt, so approximation is permitted.",
+        "notes": "Correct method and examples. Available components need not permit every target resistance exactly.",
+        "source_sha256": "bc979ba4d482c88e2ba03f15cfcca4499905731f3845b3b7dbd70aa5f87be46d",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:11",
@@ -3510,9 +4381,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A series resistance carrying current develops a voltage drop and converts electrical energy into thermal energy at I²R. This accounts for the cord warming and for energy consumption that does not power the radio. The solution's numerical example correctly partitions the supply voltage and power between cord and load.",
+        "calculation_check": "The required drop is 120 − 50 = 70 V, giving R_cord = 70/0.300 = 233.333 Ω. Cord power is 0.300(70) = 21 W, radio power is 15 W, and supply power is 36 W. Thus 21/36 = 58.3% of the input heats the cord, confirming the example's 'more than half' claim.",
+        "assumptions": "The numerical illustration treats the radio load as resistive, or its relevant voltage and current as in phase; AC quantities are RMS. The greater-than-half waste fraction applies to the supplied example, not necessarily every resistance-cord radio.",
+        "notes": "Correct Joule-heating explanation and energy balance: 36 W input divides into 21 W cord heating and 15 W radio consumption.",
+        "source_sha256": "3eddd4fc89894ef5fd4c2fd2fb12e579ced58cff22b83a872c2c14a6d9d955d8",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:12",
@@ -3535,9 +4419,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::conceptual-questions:12",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "One independently switched filament provides only one nonzero state. Two filaments provide three nonempty switching combinations: the first alone, the second alone, or both. These yield three distinct powers when the individual filament powers differ, since parallel operation preserves the voltage across each filament and adds their powers. Equal filaments would produce only two distinct nonzero powers.",
+        "calculation_check": "The example yields 50 W, 100 W, and 150 W. At 120 V, the operating resistances are 14400/50 = 288 Ω and 14400/100 = 144 Ω. With both on, the equivalent resistance is 96 Ω, giving 14400/96 = 150 W.",
+        "assumptions": "Independent switching, fixed line voltage, parallel filaments, and negligible interaction between their individual operating powers. No dimmer or series reconfiguration is included.",
+        "notes": "Correct minimum of two unequal-power filaments, with valid switching combinations and resistance calculations.",
+        "source_sha256": "9901f2ed628d6b03d2596c3104ce26717fa3a1a064b425b3c34ad8e5023c8a8e",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:1",
@@ -3558,9 +4455,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Series resistors carry the same current, so their voltage drops add and R_eq = nR. Parallel resistors share the same voltage, so their currents add and R_eq = R/n for identical resistors. The solution applies both relations correctly and answers both parts; its discussion accurately explains the current paths.",
+        "calculation_check": "For ten 275 Ω resistors, R_series = 10(275) = 2750 Ω = 2.75 kΩ. Their total parallel conductance is 10/275 Ω⁻¹, whose reciprocal is 27.5 Ω. Both results have resistance units and satisfy the expected bounds.",
+        "assumptions": "All ten resistors are identical, ohmic, and connected in the specified pure series or parallel arrangement, with negligible wiring resistance.",
+        "notes": "Both parts and the explanatory discussion are correct: 2.75 kΩ in series and 27.5 Ω in parallel.",
+        "source_sha256": "a2103c161ca8efd24ba907009473a37e41a1a2409b4643f2a69d1dbcb7b9c1d4",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:2",
@@ -3581,9 +4491,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Converting the three resistances to a common unit gives 100 Ω, 2500 Ω, and 4000 Ω. Series voltage addition requires summing these resistances; parallel current addition requires summing their reciprocals. The solution uses the correct relations, answers both parts, and correctly compares the results with the individual resistances.",
+        "calculation_check": "R_series = 100 + 2500 + 4000 = 6600 Ω = 6.60 kΩ. Parallel conductance is 0.0100 + 0.000400 + 0.000250 = 0.01065 Ω⁻¹, so R_parallel = 93.8967 Ω ≈ 93.9 Ω. This is below the smallest resistor, 100 Ω.",
+        "assumptions": "Positive ohmic resistors, negligible wire resistance, and all three components connected in the stated configuration.",
+        "notes": "Correct unit conversion, calculations, and bounds: 6.60 kΩ in series and 93.9 Ω in parallel.",
+        "source_sha256": "8e74e889badef89e36b1e60df033826294bd8fdff832bf14d266755aa4d92039",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:3",
@@ -3604,9 +4527,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:3",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For ordinary connections using all three positive resistors without bypassing them, putting all in series maximizes the resistance, while putting all in parallel minimizes it. The solution correctly selects these arrangements and calculates both extrema. However, its Discussion says 786 Ω is 'slightly larger' than the sum from the two smaller resistors. Those two sum to only 86 Ω; adding 700 Ω increases that value by more than ninefold, so the explanatory comparison is materially incorrect. The remaining discussion about parallel conductance and the approximately 39:1 range is correct.",
+        "calculation_check": "R_max = 36 + 50 + 700 = 786 Ω. R_min = 1/(1/36 + 1/50 + 1/700) = 20.32258 Ω ≈ 20.3 Ω. Their ratio is 38.6762, consistent with about 39:1. But 786/(36 + 50) = 9.13953, contradicting the 'slightly larger' comparison.",
+        "assumptions": "All three finite positive resistors are used in a two-terminal network without intentional wire shorts or bypassed components; connecting wires have negligible resistance.",
+        "notes": "Numerical extrema are correct. Discussion incorrectly describes 786 Ω as only slightly above the two smaller resistors' 86 Ω sum; it is about 9.14 times that sum.",
+        "source_sha256": "feabd8000372d56b481a70773a5b2c3e4449c5fb22e1a91e33453553b9a8bc66",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:28:21+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:4",
@@ -3627,9 +4563,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Each parallel device receives 120 V, so its current is P/V, and charge conservation gives the sum as the supply current. Both requested answers are correct. The discussion's claim that the fuse blows immediately is unsupported: a fuse has a finite, device-dependent time-current response, which cannot be inferred from its 15-A rating alone.",
+        "calculation_check": "The currents are 1800/120 = 15.0 A, 1400/120 = 11.6667 A, and 75/120 = 0.625 A. Their sum is 27.2917 A, exceeding 15 A by 81.944%. These agree with the solution.",
+        "assumptions": "All devices operate simultaneously at their stated powers and voltage, with effectively resistive loads and negligible supply voltage drop. Sustained overload is assumed when predicting eventual fuse operation.",
+        "notes": "Currents and overload conclusion are correct. The statement that the fuse blows immediately requires fuse response data and should not follow from the current rating alone.",
+        "source_sha256": "92d99569075c166f6c0d1590110506d0c5d8244fc75764bf6120bc07e4842287",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:5",
@@ -3650,9 +4599,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The explicitly stipulated constant-resistance model permits finding each resistance from its normal operating power, adding them in series, and calculating total battery power. The larger headlight resistance limits the current and receives nearly all the voltage and power. The resulting small starter power supports the conclusion that it cannot perform its normal starting function.",
+        "calculation_check": "R_head = 144/30 = 4.80 ohms and R_starter = 144/2400 = 0.0600 ohm. Thus I = 12/4.86 = 2.46914 A and P_total = 144/4.86 = 29.6296 W. Individual powers are 29.2638 W and 0.365798 W; voltage drops are 11.8519 V and 0.148148 V.",
+        "assumptions": "Ideal 12.0-V battery, negligible wiring resistance, and unchanged effective device resistances, as the problem explicitly requests. Actual filament temperature changes and motor back emf are outside this model.",
+        "notes": "Total power, voltage division, and explanation agree with the specified constant-resistance model.",
+        "source_sha256": "394b1ec9630f8307cfac59a8887f831848fcbbad5610f6e329fa369aedc85791",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:6",
@@ -3673,9 +4635,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Series connection requires equal currents, making each resistor's power proportional to its resistance. Parallel connection requires equal voltages, making power inversely proportional to resistance. The solution correctly applies these relations to both resistors and answers every requested part. Its discussion correctly identifies the increased source loading in parallel.",
+        "calculation_check": "In series, R_total = 120 ohms and I = 48/120 = 0.400 A; powers are 0.400^2 times 24 = 3.84 W and times 96 = 15.36 W. Their sum is 19.2 W = 48 times 0.400. In parallel, currents are 2.00 A and 0.500 A, and powers are 96.0 W and 24.0 W. The total-power ratio is 120/19.2 = 6.25.",
+        "assumptions": "Ideal fixed-voltage battery, fixed positive ohmic resistances, and negligible connecting-wire resistance. An overload would depend on the source and wiring ratings.",
+        "notes": "All currents, powers, and series-versus-parallel comparisons are correct.",
+        "source_sha256": "cf898854e11f7cf8bef4266e4ca6854ecb400721c78b2ad7b5e30d00c77fb1b2",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:7",
@@ -3696,9 +4671,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of Figure 5's SVG source confirms R1 is upstream of the parallel R2 and R3 branches, with the stated current directions. Therefore I3 = I - I2. Independently, the voltage across R3 is the source voltage minus IR1, so I3 = (V - IR1)/R3. The solution identifies the circuit, knowns, unknown, applicable junction and voltage relations, and checks consistency; its step numbering does not affect the physics.",
+        "calculation_check": "Using the example's rounded currents gives 2.35 - 1.61 = 0.74 A. Using its rounded voltage gives 9.65/13 = 0.742308 A. Recomputing without intermediate rounding gives R_parallel = 78/19 ohms, I = 228/97 = 2.350515 A, I2 = 156/97 = 1.608247 A, and I3 = 72/97 = 0.742268 A. Both methods agree.",
+        "assumptions": "Steady ideal resistor network with a 12.0-V source and the resistor values verified in the neighboring example and Figure 5 source.",
+        "notes": "Both methods and current directions are correct; their numerical difference is ordinary intermediate rounding.",
+        "source_sha256": "bed824777489d982201a25e9198b568e9c10cbec533a379c1cb3c5f0b3aaaf8f",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:8",
@@ -3723,9 +4711,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 5's source confirms the stated series-parallel topology. Reducing R2 and R3 first gives the supply current and their common voltage. Applying V_p squared divided by R3 correctly gives P3. The neighboring examples establish the pure-series and pure-parallel comparison values. Source power equals the total resistor dissipation by energy conservation.",
+        "calculation_check": "R_eq = 1 + 78/19 = 5.105263 ohms, I = 2.350515 A, and V_p = 9.649485 V. Thus P3 = 7.162504 W, between 0.600^2 times 13 = 4.68 W and 144/13 = 11.0769 W. P1 = 5.524923 W and P2 = 15.518759 W; their sum with P3 is 28.206186 W = 12I. The displayed 15.6 W for P2 is a small intermediate-rounding discrepancy without substantive effect.",
+        "assumptions": "Ideal source, fixed ohmic resistances, and negligible losses outside the three resistors.",
+        "notes": "Both parts, comparison with earlier examples, and energy balance are correct within ordinary numerical precision.",
+        "source_sha256": "46f2e87f472f8cacc8a9f14cf2c63972a2bdef276895b2bc12e764713bca2aae",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:9",
@@ -3746,9 +4747,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:9",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Figure 6 shows wire resistance in series with parallel bulb and motor branches, supporting the electrical model used. The solution correctly subtracts the wire voltage drop, computes bulb power, and obtains motor current by subtraction. However, its discussion asserts that bulb brightness is proportional to electrical power. That proportionality is not established by the circuit model and generally fails for incandescent lamps because luminous efficiency and spectrum change with filament temperature. The qualitative dimming conclusion remains sound.",
+        "calculation_check": "R_bulb = 120^2/75 = 192 ohms. The wire drop is 15 times 0.400 = 6.00 V, leaving 114 V. P_bulb = 114^2/192 = 67.6875 W and I_bulb = 0.59375 A. P_motor = 114 times (15 - 0.59375) = 1642.3125 W. The loads consume exactly 1710 W, and the wires consume 90 W, totaling the source's 1800 W.",
+        "assumptions": "Constant bulb resistance as stipulated; 0.400 ohm is the total shared wire resistance. The motor is treated as the resistive load shown in the figure, or equivalently as having unity power factor; a general AC motor would require phase information.",
+        "notes": "Both numerical answers and electrical energy balance are correct. The claimed proportionality between brightness and electrical power is an unsupported optical generalization.",
+        "source_sha256": "89a6cc3c00678c0368a0ac98e262aa4b7b67823f908704771b0b2f160e285d48",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:10",
@@ -3769,9 +4783,22 @@
         "checked": 9
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Interpreting each specified insulator as a complete independent line-to-ground leakage path, the 100 paths share the same voltage and their conductances add. The solution correctly calculates equivalent resistance, leakage power, and its fraction of transmitted power, and explains the principal strategy steps. Inspection of Figure 9's SVG source shows a suspension string; the stated resistance must refer to the complete support path for the solution's parallel interpretation, rather than to each individual disc within that string.",
+        "calculation_check": "R_eq = 10^9/100 = 10^7 ohms. Total leakage current is 240000/10^7 = 0.0240 A, giving P_loss = 240000 times 0.0240 = 5760 W. P_line = 240000 times 500 = 1.20 times 10^8 W. The fraction is also I_leak/I_line = 0.0240/500 = 4.80 times 10^-5 = 0.00480%.",
+        "assumptions": "Each 1.00-Gohm unit is a complete line-to-ground support, all supports see the same 240-kV voltage to ground, and conductor voltage drop is negligible. The power convention is DC or unity-power-factor AC with RMS quantities, rather than an unspecified three-phase line-to-line rating. Individual discs within one suspension string would instead be in series. Manufacturing feasibility and overall engineering adequacy are not established by this calculation.",
+        "notes": "All requested results are correct under the intended independent leakage-path model. Insulator-unit and voltage conventions matter; the small loss alone does not establish overall design quality.",
+        "source_sha256": "f2717ba3abe1e7e691527579135aee6fa45bd1c422ba984b59f020c83a5e7e37",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:11",
@@ -3795,9 +4822,22 @@
         "skipped": 12
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Let epsilon = R2/R1, which is much less than one. The exact series resistance is R1(1 + epsilon), so its leading term is R1. The exact parallel resistance is R2/(1 + epsilon), so its leading term is R2. These are precisely the approximations made in both supplied derivations.",
+        "calculation_check": "The series approximation underestimates the exact resistance by R2, a relative error epsilon/(1 + epsilon). The parallel approximation overestimates the exact resistance by a relative error epsilon. Both errors vanish as R2/R1 approaches zero. Every expression has resistance units.",
+        "assumptions": "Positive finite ohmic resistances with R1 much larger than R2; ideal series or parallel connections.",
+        "notes": "Both limiting approximations follow correctly from the exact equivalent-resistance formulas.",
+        "source_sha256": "7859b4d7fb66ea09fdaace3a044de48cd8dd46bdfa9b2a85e7d816ce42a94082",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:12",
@@ -3818,9 +4858,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:12",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Solving the parallel conductance equation correctly produces a negative second resistance, showing that the givens are inconsistent for two ordinary passive resistors. The explanation overextends that result by repeatedly declaring negative resistance physically impossible and the parallel inequality universal. Negative effective resistance can be implemented by an active circuit that supplies energy; it is excluded by the passive-resistor model, rather than by a universal prohibition.",
+        "calculation_check": "1/R2 = 1/150 - 1/145 = -1/4350 per ohm, so R2 = -4350 ohms exactly for the stated numbers. For two positive resistances, 1/R_eq is greater than 1/R1, proving R_eq < 145 ohms. A hypothetical negative-resistance branch would have P2 = V^2/R2 < 0 under the passive sign convention, identifying energy delivery rather than ordinary dissipation.",
+        "assumptions": "The intended components are passive positive resistors. Negative effective resistance requires a different physical model, such as a powered active network; negative differential resistance is also distinct from assuming an ordinary constant passive resistance.",
+        "notes": "Algebra and the inconsistency diagnosis are correct for passive resistors. Claims that negative resistance is physically impossible need an explicit passive-component qualification.",
+        "source_sha256": "d838e34b29b2bdb61c66ebbb72e49b42a4245c6e26396b7754d871cbfb1b613f",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:13",
@@ -3844,9 +4897,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch21ResistorsInSeriesAndInParallel.md::problems-exercises:13",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Series resistances add, so the required second resistance is the total minus the known resistance. The supplied value is correct, and it establishes that two positive passive resistors cannot satisfy the givens. The statement that resistance cannot be negative is too broad: the restriction follows from the assumed passive-resistor model. Likewise, series resistance exceeds each component when the other component is positive.",
+        "calculation_check": "0.500 Mohm = 500 kohms, hence R2 = 500 - 900 = -400 kohms. Substitution gives 900 + (-400) = 500 kohms. For any positive R2, R_total = 900 kohms + R2 must exceed 900 kohms, contradicting the specified 500 kohms.",
+        "assumptions": "Ordinary passive positive ohmic resistors in series, without an active circuit implementing negative effective resistance.",
+        "notes": "The numerical result and intended contradiction are correct. The explanation should qualify its prohibition of negative resistance as applying to passive resistors.",
+        "source_sha256": "de284a8998d04a99a9aad38965fa3b205f4d0e1f6d6cc2f2c29e6a8474db3c4a",
+        "file_sha256": "c7df71e820a734797536bcb4923a7f44c094c023fd5e9ca566ecb382b015d860",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T01:31:17+00:00"
+      },
+      "previous_review_count": 1
     }
   ]
 }
