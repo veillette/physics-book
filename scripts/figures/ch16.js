@@ -5,11 +5,13 @@
  * Every curve is computed from its equation: x = X cos ωt and its
  * derivatives, the damped solutions, the driven-oscillator amplitude
  * X(f) ∝ 1/√((f0² − f²)² + (bf)²), and sums of sine waves for interference,
- * standing waves and beats. The reference circle and the standing waves on a
- * string animate for readers who allow motion; the still figure is the one
- * the text describes.
+ * standing waves and beats. For readers who allow motion, the oscillators,
+ * waves and wavefronts move: the reference circle, the block of 16.3 and
+ * 16.5 in its last stage, the strip-chart recorder, the pendulum, the gull on
+ * its wave, the waves of 16.10 and the two speakers of 16.11. The still
+ * figure is the one the text describes.
  */
-import { COLORS, Plot, Svg, rad } from './svg.js';
+import { COLORS, Plot, Svg, fmt, morph, rad, smilAnimate, smilList } from './svg.js';
 
 const WAVE = '#3f9a2b';
 const CURVE = COLORS.maroon;
@@ -48,6 +50,32 @@ function coil(svg, P, Q, { n = 9, r = 14, color = '#333333', width = 2.2, lead =
   }
   pts.push(Q);
   svg.polyline(pts, { color, width });
+}
+
+/**
+ * Arrow from (x1, y1) to (x2, y2) that is always a line and a head, however
+ * short, so that frames of an animation have the same elements.
+ */
+function vec(svg, x1, y1, x2, y2, { color, width = 3, head = 14 } = {}) {
+  const L = Math.hypot(x2 - x1, y2 - y1);
+  const h = Math.min(head, L);
+  const [ux, uy] = L > 1e-9 ? [(x2 - x1) / L, (y2 - y1) / L] : [1, 0];
+  const [bx, by] = [x2 - ux * h, y2 - uy * h];
+  const half = h * 0.42;
+  svg.line(x1, y1, bx, by, { color, width });
+  svg.polygon(
+    [
+      [x2, y2],
+      [bx - uy * half, by + ux * half],
+      [bx + uy * half, by - ux * half],
+    ],
+    { fill: color }
+  );
+}
+
+/** Times 0 to `period` in `n` equal steps, the last closing the loop. */
+function cycle(period, n) {
+  return Array.from({ length: n + 1 }, (_, k) => (period * k) / n);
 }
 
 /** Horizontal tick with a label below it. */
@@ -103,6 +131,24 @@ function springStages(svg, { energy }) {
     { x: 250, y: 530, d: X, v: 0, F: -1, cap: '(e)', E: '½kX^2' },
   ];
   for (const s of stages) {
+    if (s.cap === '(e)') {
+      // (e) The cycle repeats: for readers who allow motion, the block keeps
+      // oscillating, its force and velocity arrows changing as it goes.
+      const frames = Array.from({ length: 41 }, (_, k) => (2 * Math.PI * k) / 40);
+      svg.animated(
+        (ph, moving) => (moving ? liveStage(svg, s, X, ph, energy) : stage(svg, s, X, energy)),
+        frames,
+        { dur: '3.2s' }
+      );
+      continue;
+    }
+    stage(svg, s, X, energy);
+  }
+}
+
+/** One stage of `springStages`, at rest at its labeled position. */
+function stage(svg, s, X, energy) {
+  {
     const bx = massSpring(svg, s.x, s.y, s.d);
     const eq = s.x + 230;
     tick(svg, eq, s.y, 'x = 0');
@@ -125,6 +171,50 @@ function springStages(svg, { energy }) {
     if (energy) lab(svg, s.x + 400, s.y - 50, s.E, { anchor: 'start', size: 21 });
     else fbd(svg, s.x + 430, s.y - 50, s.F * 70);
     caption(svg, s.x + 230, s.y + 54, s.cap);
+  }
+}
+
+/**
+ * The stage `s` in motion at phase `ph` of x = X cos ph: the spring force,
+ * proportional to −x, and the velocity, with the free-body diagram, or with
+ * bars for the elastic potential and kinetic energy.
+ */
+function liveStage(svg, s, X, ph, energy) {
+  const d = X * Math.cos(ph);
+  const bx = massSpring(svg, s.x, s.y, d);
+  const eq = s.x + 230;
+  tick(svg, eq, s.y, 'x = 0');
+  tick(svg, eq + X, s.y, 'x = X');
+  tick(svg, eq - X, s.y, 'x = −X');
+  const c = bx + 28;
+  const F = -80 * Math.cos(ph);
+  const v = -80 * Math.sin(ph);
+  vec(svg, c, s.y - 86, c + F, s.y - 86, { color: FORCE, width: 5, head: 20 });
+  lab(svg, c + F, s.y - 104, '**F**', { size: 21 });
+  vec(svg, c, s.y - 124, c + v, s.y - 124, { color: VEL, width: 4, head: 17 });
+  lab(svg, c + v, s.y - 142, '**v**', { size: 21 });
+  caption(svg, eq, s.y + 54, s.cap);
+  if (energy) {
+    const [x0, base, top] = [s.x + 410, s.y - 4, s.y - 104];
+    svg.line(x0 - 8, top, x0 + 82, top, { color: COLORS.black, width: 1.2, dash: '5 4' });
+    svg.line(x0 - 8, base, x0 + 82, base, { color: COLORS.black, width: 1.4 });
+    const pe = (base - top) * Math.cos(ph) ** 2;
+    const ke = base - top - pe;
+    svg.rect(x0, base - pe, 30, pe, { fill: FORCE });
+    svg.rect(x0 + 44, base - ke, 30, ke, { fill: VEL });
+    lab(svg, x0 + 15, base + 18, 'PE_s', { size: 17 });
+    lab(svg, x0 + 59, base + 18, 'KE', { size: 17, italic: false });
+    lab(svg, x0 + 90, top, 'E', { size: 18, anchor: 'start' });
+  } else {
+    const [x, y] = [s.x + 430, s.y - 50];
+    svg.circle(x, y, 5, { fill: COLORS.maroon });
+    svg.arrow(x, y - 6, x, y - 46, { color: COLORS.black, width: 1.8, head: 11 });
+    svg.arrow(x, y + 6, x, y + 46, { color: COLORS.black, width: 1.8, head: 11 });
+    lab(svg, x + 10, y - 32, '**N**', { anchor: 'start', size: 19 });
+    lab(svg, x + 10, y + 34, '**w**', { anchor: 'start', size: 19 });
+    const f = -70 * Math.cos(ph);
+    vec(svg, x, y, x + f, y, { color: COLORS.black, width: 1.8, head: 12 });
+    lab(svg, x + f, y - 18, '**F**', { size: 19 });
   }
 }
 
@@ -428,10 +518,23 @@ export default {
     }
     const px = 240;
     const T = 200;
-    const pts = [];
-    for (let x = px; x <= 600; x += 2)
-      pts.push([x, y0 - X * Math.cos((2 * Math.PI * (x - px)) / T)]);
-    svg.polyline(pts, { color: '#2a9fae', width: 3 });
+    const trace = from => {
+      const pts = [];
+      for (let x = from; x <= 600; x += 2)
+        pts.push([x, y0 - X * Math.cos((2 * Math.PI * (x - px)) / T)]);
+      return pts;
+    };
+    svg.still(() => svg.polyline(trace(px), { color: '#2a9fae', width: 3 }));
+    // For readers who allow motion, the paper carries the trace to the right
+    // at one period's length per period while the pen bobs at x = px.
+    svg.add(
+      `<defs><clipPath id="paper_16_03_03"><rect x="${px}" y="${y0 - 130}" width="${600 - px}" height="260"/></clipPath></defs>`
+    );
+    svg.motionGroup(
+      `<g clip-path="url(#paper_16_03_03)"><g>${svg.capture(() =>
+        svg.polyline(trace(px - T), { color: '#2a9fae', width: 3 })
+      )}<animateTransform attributeName="transform" type="translate" dur="2s" repeatCount="indefinite" values="0 0;${T} 0"/></g></g>`
+    );
     svg.arrow(px, y0, 640, y0, { color: COLORS.black, width: 1.6, head: 13 });
     lab(svg, 652, y0, 't', { anchor: 'start' });
     svg.line(px + T, y0 - 8, px + T, y0 + 8, { color: COLORS.black, width: 1.6 });
@@ -443,14 +546,22 @@ export default {
     for (const y of [y0 - X, y0 + X])
       svg.line(px - 8, y, px + 8, y, { color: COLORS.black, width: 1.4 });
     svg.rect(200, 10, 90, 20, { fill: '#9a9a9a' });
-    coil(svg, [px, 30], [px, y0 - X - 40], { n: 8, r: 16, lead: 8 });
-    svg.rect(px - 22, y0 - X - 40, 44, 40, {
-      fill: '#c9ccd2',
-      stroke: '#555555',
-      width: 1.5,
-      rx: 4,
-    });
-    lab(svg, px, y0 - X - 20, 'm', { halo: false });
+    // The mass, with its pen at the bottom center, at height y0 − X cos ωt.
+    svg.animated(
+      t => {
+        const yp = y0 - X * Math.cos((2 * Math.PI * t) / 2);
+        coil(svg, [px, 30], [px, yp - 40], { n: 8, r: 16, lead: 8 });
+        svg.rect(px - 22, yp - 40, 44, 40, {
+          fill: '#c9ccd2',
+          stroke: '#555555',
+          width: 1.5,
+          rx: 4,
+        });
+        lab(svg, px, yp - 20, 'm', { halo: false });
+      },
+      cycle(2, 32),
+      { dur: '2s' }
+    );
     svg.arrow(px + 46, y0 - X - 60, px + 46, y0 - X + 10, {
       color: COLORS.black,
       width: 1.6,
@@ -610,44 +721,98 @@ export default {
     const B = [P[0] + L * Math.sin(rad(th)), P[1] + L * Math.cos(rad(th))];
     svg.rect(20, 18, 520, 22, { fill: '#b9bcc2' });
     svg.line(P[0], P[1], P[0], P[1] + L + 40, { color: COLORS.maroon, width: 1.8, dash: '7 5' });
-    svg.line(...P, ...B, { color: COLORS.black, width: 2.2 });
-    svg.arc(...P, 60, -90, -90 + th, { color: COLORS.black, width: 1.8 });
-    lab(svg, P[0] + 12, P[1] + 84, 'θ', { anchor: 'start' });
-    lab(svg, (P[0] + B[0]) / 2 + 14, (P[1] + B[1]) / 2 - 10, 'L', { anchor: 'start' });
-    // Arc length s from equilibrium to the bob.
-    svg.arc(...P, L, -90, -90 + th, { color: COLORS.maroon, width: 1.8, dash: '6 4' });
-    lab(svg, P[0] + (L + 22) * Math.sin(rad(th / 2)), P[1] + (L + 22) * Math.cos(rad(th / 2)), 's');
-    const u = [Math.sin(rad(th)), Math.cos(rad(th))];
-    svg.arrow(B[0] - u[0] * 16, B[1] - u[1] * 16, B[0] - u[0] * 100, B[1] - u[1] * 100, {
-      color: FORCE,
-      width: 4,
-      head: 18,
+    // The pendulum at angle θ, which motion replaces.
+    svg.still(() => {
+      svg.line(...P, ...B, { color: COLORS.black, width: 2.2 });
+      svg.arc(...P, 60, -90, -90 + th, { color: COLORS.black, width: 1.8 });
+      lab(svg, P[0] + 12, P[1] + 84, 'θ', { anchor: 'start' });
+      lab(svg, (P[0] + B[0]) / 2 + 14, (P[1] + B[1]) / 2 - 10, 'L', { anchor: 'start' });
+      // Arc length s from equilibrium to the bob.
+      svg.arc(...P, L, -90, -90 + th, { color: COLORS.maroon, width: 1.8, dash: '6 4' });
+      lab(
+        svg,
+        P[0] + (L + 22) * Math.sin(rad(th / 2)),
+        P[1] + (L + 22) * Math.cos(rad(th / 2)),
+        's'
+      );
+      const u = [Math.sin(rad(th)), Math.cos(rad(th))];
+      svg.arrow(B[0] - u[0] * 16, B[1] - u[1] * 16, B[0] - u[0] * 100, B[1] - u[1] * 100, {
+        color: FORCE,
+        width: 4,
+        head: 18,
+      });
+      lab(svg, B[0] - u[0] * 70 + 22, B[1] - u[1] * 70, '**T**', { anchor: 'start' });
+      svg.arrow(B[0], B[1] + 16, B[0], B[1] + 150, { color: FORCE, width: 4, head: 18 });
+      lab(svg, B[0] + 14, B[1] + 140, 'w = mg', { anchor: 'start' });
+      // Restoring component, perpendicular to the string, toward equilibrium.
+      const t = [-Math.cos(rad(th)), Math.sin(rad(th))];
+      const len = 150 * Math.sin(rad(th));
+      svg.arrow(
+        B[0] + t[0] * 16,
+        B[1] + t[1] * 16,
+        B[0] + t[0] * (16 + len),
+        B[1] + t[1] * (16 + len),
+        { color: FORCE, width: 3, head: 15 }
+      );
+      lab(svg, B[0] + t[0] * (16 + len) - 4, B[1] + t[1] * (16 + len) + 44, '−mg \\rm{sin} θ', {
+        anchor: 'end',
+      });
+      svg.line(B[0], B[1], B[0] - u[0] * -110, B[1] + u[1] * 110, {
+        color: COLORS.black,
+        width: 1.4,
+        dash: '6 4',
+      });
+      svg.arc(...B, 54, -90, -90 + th, { color: COLORS.black, width: 1.6 });
+      lab(svg, B[0] + 10, B[1] + 74, 'θ', { anchor: 'start', size: 20 });
+      svg.circle(...B, 16, { fill: '#3d7fc0', stroke: '#1d4f80', width: 1.5 });
+      lab(svg, B[0] + 22, B[1] - 6, 'm', { anchor: 'start' });
     });
-    lab(svg, B[0] - u[0] * 70 + 22, B[1] - u[1] * 70, '**T**', { anchor: 'start' });
-    svg.arrow(B[0], B[1] + 16, B[0], B[1] + 150, { color: FORCE, width: 4, head: 18 });
-    lab(svg, B[0] + 14, B[1] + 140, 'w = mg', { anchor: 'start' });
-    // Restoring component, perpendicular to the string, toward equilibrium.
-    const t = [-Math.cos(rad(th)), Math.sin(rad(th))];
-    const len = 150 * Math.sin(rad(th));
-    svg.arrow(
-      B[0] + t[0] * 16,
-      B[1] + t[1] * 16,
-      B[0] + t[0] * (16 + len),
-      B[1] + t[1] * (16 + len),
-      { color: FORCE, width: 3, head: 15 }
+    // For readers who allow motion, the pendulum swings between ±θ. The
+    // weight stays the same; its restoring component −mg sin θ shrinks to zero
+    // at the bottom and reverses, always pointing back toward equilibrium.
+    const swing = a => {
+      const bob = [P[0] + L * Math.sin(rad(a)), P[1] + L * Math.cos(rad(a))];
+      const along = [Math.sin(rad(a)), Math.cos(rad(a))];
+      const across = [-Math.cos(rad(a)), Math.sin(rad(a))];
+      svg.line(...P, ...bob, { color: COLORS.black, width: 2.2 });
+      vec(
+        svg,
+        bob[0] - along[0] * 16,
+        bob[1] - along[1] * 16,
+        bob[0] - along[0] * 100,
+        bob[1] - along[1] * 100,
+        {
+          color: FORCE,
+          width: 4,
+          head: 18,
+        }
+      );
+      lab(svg, bob[0] - along[0] * 70 + 22, bob[1] - along[1] * 70, '**T**', { anchor: 'start' });
+      vec(svg, bob[0], bob[1] + 16, bob[0], bob[1] + 150, { color: FORCE, width: 4, head: 18 });
+      lab(svg, bob[0] + 14, bob[1] + 140, 'w = mg', { anchor: 'start' });
+      const r = 150 * Math.sin(rad(a));
+      vec(
+        svg,
+        bob[0] + across[0] * 16 * Math.sign(r || 1),
+        bob[1] + across[1] * 16 * Math.sign(r || 1),
+        bob[0] + across[0] * (16 * Math.sign(r || 1) + r),
+        bob[1] + across[1] * (16 * Math.sign(r || 1) + r),
+        {
+          color: FORCE,
+          width: 3,
+          head: 15,
+        }
+      );
+      svg.circle(...bob, 16, { fill: '#3d7fc0', stroke: '#1d4f80', width: 1.5 });
+      lab(svg, bob[0] + 22, bob[1] - 6, 'm', { anchor: 'start' });
+    };
+    const frames = cycle(2.4, 40).map(t => th * Math.cos((2 * Math.PI * t) / 2.4));
+    svg.motionGroup(
+      morph(
+        frames.map(a => svg.capture(() => swing(a))),
+        { dur: '2.4s' }
+      )
     );
-    lab(svg, B[0] + t[0] * (16 + len) - 4, B[1] + t[1] * (16 + len) + 44, '−mg \\rm{sin} θ', {
-      anchor: 'end',
-    });
-    svg.line(B[0], B[1], B[0] - u[0] * -110, B[1] + u[1] * 110, {
-      color: COLORS.black,
-      width: 1.4,
-      dash: '6 4',
-    });
-    svg.arc(...B, 54, -90, -90 + th, { color: COLORS.black, width: 1.6 });
-    lab(svg, B[0] + 10, B[1] + 74, 'θ', { anchor: 'start', size: 20 });
-    svg.circle(...B, 16, { fill: '#3d7fc0', stroke: '#1d4f80', width: 1.5 });
-    lab(svg, B[0] + 22, B[1] - 6, 'm', { anchor: 'start' });
     return svg.render();
   },
 
@@ -909,33 +1074,70 @@ export default {
       desc: 'A sinusoidal water wave with two crests and two troughs moves right at speed vw. A dashed line marks the undisturbed water level. Crests rise a height X above it and troughs dip X below it, labeled −X, so a sea gull floating in a trough sits 2X below where it was on the crest; its earlier position is shown faded above. The wavelength λ is the distance between adjacent crests.',
     });
     const [y0, X, lam, x0] = [150, 72, 420, 120];
-    const Y = x => y0 - X * Math.cos((2 * Math.PI * (x - x0)) / lam);
-    const pts = Array.from({ length: 177 }, (_, k) => [5 * k, Y(5 * k)]);
+    // The wave moves right at one wavelength per period P.
+    const P = 2.4;
+    const Y = (x, t = 0) => y0 - X * Math.cos(2 * Math.PI * ((x - x0) / lam - t / P));
     svg.add(
       '<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fcbee"/><stop offset="0.5" stop-color="#d2eaf8"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>'
     );
-    svg.polygon([...pts, [880, 400], [0, 400]], { fill: 'url(#sea)' });
-    svg.polyline(pts, { color: '#1aa6b7', width: 2.5 });
-    svg.line(0, y0, 880, y0, { color: COLORS.black, width: 1.5, dash: '7 5' });
-    for (const x of [x0, x0 + lam])
-      svg.line(x, 22, x, y0 - X - 6, { color: COLORS.guide, width: 1, dash: '3 4' });
-    svg.arrow(x0 + 1, 22, x0 + lam - 1, 22, {
-      color: COLORS.black,
-      width: 1.5,
-      head: 12,
-      start: true,
-    });
-    for (const x of [x0, x0 + lam]) svg.line(x, 12, x, 32, { color: COLORS.black, width: 1.4 });
-    lab(svg, x0 + lam / 2, 22, 'λ');
-    vdim(svg, x0, y0 - X, y0, 'X');
-    vdim(svg, x0 + 1.5 * lam, y0, y0 + X, '−X', { side: -1 });
-    // The gull rides the surface: a full 2X from crest to trough.
     const xg = 352;
-    svg.add(
-      `<g opacity="0.5">${svg.capture(() => gull(svg, xg, Y(xg) - 2 * X, { dash: '4 3' }))}</g>`
+    const sea = (from = 0) => {
+      const pts = [];
+      for (let x = from; x <= 880; x += 5) pts.push([x, Y(x)]);
+      svg.polygon([...pts, [880, 400], [from, 400]], { fill: 'url(#sea)' });
+      svg.polyline(pts, { color: '#1aa6b7', width: 2.5 });
+    };
+    const marks = () => {
+      for (const x of [x0, x0 + lam])
+        svg.line(x, 22, x, y0 - X - 6, { color: COLORS.guide, width: 1, dash: '3 4' });
+      svg.arrow(x0 + 1, 22, x0 + lam - 1, 22, {
+        color: COLORS.black,
+        width: 1.5,
+        head: 12,
+        start: true,
+      });
+      for (const x of [x0, x0 + lam]) svg.line(x, 12, x, 32, { color: COLORS.black, width: 1.4 });
+      lab(svg, x0 + lam / 2, 22, 'λ');
+      vdim(svg, x0, y0 - X, y0, 'X');
+      vdim(svg, x0 + 1.5 * lam, y0, y0 + X, '−X', { side: -1 });
+      vdim(svg, 314, y0 - X, y0 + X, '2X', { side: -1 });
+    };
+    svg.still(() => {
+      sea();
+      svg.line(0, y0, 880, y0, { color: COLORS.black, width: 1.5, dash: '7 5' });
+      marks();
+      // The gull rides the surface: a full 2X from crest to trough.
+      svg.add(
+        `<g opacity="0.5">${svg.capture(() => gull(svg, xg, Y(xg) - 2 * X, { dash: '4 3' }))}</g>`
+      );
+      gull(svg, xg, Y(xg));
+    });
+    // For readers who allow motion, the wave runs right through two periods
+    // while the gull only bobs up and down; the measurements show while the
+    // wave pauses where the still figure has it.
+    const [hold, run, fade] = [1.6, 2 * P, 0.3];
+    const T = hold + run + fade;
+    const dur = `${fmt(T)}s`;
+    const k1 = [0, hold / T, (hold + run) / T, 1];
+    const wave = `<g>${svg.capture(() => sea(-2 * lam))}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" keyTimes="${k1.map(fmt).join(';')}" values="0 0;0 0;${2 * lam} 0;${2 * lam} 0"/></g>`;
+    const bob = [0];
+    const bobTimes = [0];
+    for (let k = 0; k <= 48; k += 1) {
+      bob.push(Y(xg, (run * k) / 48) - Y(xg));
+      bobTimes.push((hold + (run * k) / 48) / T);
+    }
+    bob.push(0);
+    bobTimes.push(1);
+    const rider = `<g>${svg.capture(() => gull(svg, xg, Y(xg)))}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" keyTimes="${smilList(bobTimes)}" values="${bob.map(d => `0 ${fmt(d)}`).join(';')}"/></g>`;
+    const shown = smilAnimate('opacity', [1, 1, 0, 0, 1], {
+      dur,
+      keyTimes: [0, (hold - fade) / T, hold / T, (hold + run) / T, 1],
+    });
+    svg.motionGroup(
+      `${wave}${svg.capture(() =>
+        svg.line(0, y0, 880, y0, { color: COLORS.black, width: 1.5, dash: '7 5' })
+      )}<g>${shown}${svg.capture(marks)}</g>${rider}`
     );
-    gull(svg, xg, Y(xg));
-    vdim(svg, 314, y0 - X, y0 + X, '2X', { side: -1 });
     svg.arrow(610, 92, 710, 92, { color: COLORS.green, width: 3, head: 16 });
     lab(svg, 652, 70, 'v_w');
     return svg.render();
@@ -1014,31 +1216,33 @@ export default {
       desc: 'Five snapshots at t = 0, T/4, T/2, 3T/4 and T. In each, wave 1 moves left and wave 2 moves right, and the resultant below them is their sum. The resultant oscillates in place: its nodes, marked by vertical lines, never move, and its amplitude swings from twice that of each wave (constructive interference) through zero (destructive interference) and back.',
     });
     const times = ['0', 'T/4', 'T/2', '3T/4', 'T'];
-    times.forEach((tl, i) => {
-      const t = i / 4;
-      const x0 = 90 + i * 160;
-      const w = 140;
-      const w1 = x => Math.sin(2 * Math.PI * (x + t));
-      const w2 = x => Math.sin(2 * Math.PI * (x - t));
-      const rows = [w1, w2, x => w1(x) + w2(x)];
-      rows.forEach((f, j) => {
-        const g = new Plot(svg, {
-          x: x0,
-          y: 40 + j * 100,
-          w,
-          h: j === 2 ? 110 : 60,
-          xRange: [0, 1],
-          yRange: j === 2 ? [-2.2, 2.2] : [-1.2, 1.2],
+    svg.still(() =>
+      times.forEach((tl, i) => {
+        const t = i / 4;
+        const x0 = 90 + i * 160;
+        const w = 140;
+        const w1 = x => Math.sin(2 * Math.PI * (x + t));
+        const w2 = x => Math.sin(2 * Math.PI * (x - t));
+        const rows = [w1, w2, x => w1(x) + w2(x)];
+        rows.forEach((f, j) => {
+          const g = new Plot(svg, {
+            x: x0,
+            y: 40 + j * 100,
+            w,
+            h: j === 2 ? 110 : 60,
+            xRange: [0, 1],
+            yRange: j === 2 ? [-2.2, 2.2] : [-1.2, 1.2],
+          });
+          svg.line(x0, g.Y(0), x0 + w, g.Y(0), { color: COLORS.black, width: 1.2 });
+          g.fn(f, 0, 1, { color: WAVE, width: 2.5 });
         });
-        svg.line(x0, g.Y(0), x0 + w, g.Y(0), { color: COLORS.black, width: 1.2 });
-        g.fn(f, 0, 1, { color: WAVE, width: 2.5 });
-      });
-      for (const xn of [0, 0.5, 1])
-        svg.line(x0 + w * xn, 30, x0 + w * xn, 360, { color: '#7bb26b', width: 1.2 });
-      svg.arrow(x0 + 90, 30, x0 + 50, 30, { color: '#2a9fae', width: 2.5, head: 11 });
-      svg.arrow(x0 + 50, 130, x0 + 90, 130, { color: '#2a9fae', width: 2.5, head: 11 });
-      lab(svg, x0 + w / 2, 384, `t = ${tl}`, { size: 19 });
-    });
+        for (const xn of [0, 0.5, 1])
+          svg.line(x0 + w * xn, 30, x0 + w * xn, 360, { color: '#7bb26b', width: 1.2 });
+        svg.arrow(x0 + 90, 30, x0 + 50, 30, { color: '#2a9fae', width: 2.5, head: 11 });
+        svg.arrow(x0 + 50, 130, x0 + 90, 130, { color: '#2a9fae', width: 2.5, head: 11 });
+        lab(svg, x0 + w / 2, 384, `t = ${tl}`, { size: 19 });
+      })
+    );
     for (const [y, l] of [
       [70, 'Wave 1'],
       [170, 'Wave 2'],
@@ -1046,6 +1250,57 @@ export default {
     ]) {
       note(svg, 82, y, l, { anchor: 'end', size: 15 });
     }
+    // For readers who allow motion, one wide panel replaces the snapshots:
+    // the two waves run through each other and the resultant oscillates in
+    // place between its fixed nodes, while a marker runs along a time line
+    // through the five snapshot times.
+    const [x0, w, span, P] = [90, 790, 2.5, 3.2];
+    const ruler = [180, 820];
+    const dur = `${P}s`;
+    const row = (j, f, from, to) => {
+      const g = new Plot(svg, {
+        x: x0,
+        y: 40 + j * 100,
+        w,
+        h: j === 2 ? 110 : 60,
+        xRange: [0, span],
+        yRange: j === 2 ? [-2.2, 2.2] : [-1.2, 1.2],
+      });
+      const axis = svg.capture(() =>
+        svg.line(x0, g.Y(0), x0 + w, g.Y(0), { color: COLORS.black, width: 1.2 })
+      );
+      const curve = svg.capture(() => g.fn(f, from, to, { color: WAVE, width: 2.5, n: 300 }));
+      return { y: g.Y(0), axis, curve };
+    };
+    const sine = x => Math.sin(2 * Math.PI * x);
+    const lambda = w / span;
+    // Wave 1 slides left and wave 2 right, one wavelength per period.
+    const travel = (j, dx, from, to) => {
+      const { axis, curve } = row(j, sine, from, to);
+      return `${axis}<g clip-path="url(#panel_16_10_05)"><g>${curve}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" values="0 0;${fmt(dx)} 0"/></g></g>`;
+    };
+    // Their sum, 2 sin kx cos ωt, stays in place and swells and shrinks.
+    const sum = row(2, x => 2 * sine(x), 0, span);
+    const scales = cycle(P, 48).map(t => `1 ${fmt(Math.cos((2 * Math.PI * t) / P))}`);
+    const standing = `${sum.axis}<g transform="translate(0 ${fmt(sum.y)})"><g><animateTransform attributeName="transform" type="scale" dur="${dur}" repeatCount="indefinite" values="${scales.join(';')}"/><g transform="translate(0 ${fmt(-sum.y)})">${sum.curve.replace('<polyline', '<polyline vector-effect="non-scaling-stroke"')}</g></g></g>`;
+    const fixed = svg.capture(() => {
+      for (let k = 0; k <= 2 * span; k += 1) {
+        const x = x0 + (w * k) / (2 * span);
+        svg.line(x, 30, x, 360, { color: '#7bb26b', width: 1.2 });
+      }
+      const mid = x0 + w / 2;
+      svg.arrow(mid + 20, 30, mid - 20, 30, { color: '#2a9fae', width: 2.5, head: 11 });
+      svg.arrow(mid - 20, 130, mid + 20, 130, { color: '#2a9fae', width: 2.5, head: 11 });
+      svg.line(ruler[0], 380, ruler[1], 380, { color: COLORS.black, width: 1.4 });
+      times.forEach((tl, i) => {
+        const x = ruler[0] + ((ruler[1] - ruler[0]) * i) / 4;
+        svg.line(x, 372, x, 388, { color: COLORS.black, width: 1.4 });
+        lab(svg, x, 360, `t = ${tl}`, { size: 17 });
+      });
+    });
+    svg.motionGroup(
+      `<defs><clipPath id="panel_16_10_05"><rect x="${x0}" y="0" width="${w}" height="400"/></clipPath></defs><rect x="${x0 - 2}" y="0" width="${900 - x0 + 2}" height="400" fill="#ffffff"/>${fixed}${travel(0, -lambda, 0, span + 1)}${travel(1, lambda, -1, span)}${standing}<circle cx="${ruler[0]}" cy="380" r="7" fill="#2a9fae">${smilAnimate('cx', ruler, { dur })}</circle>`
+    );
     return svg.render();
   },
 
@@ -1161,6 +1416,26 @@ export default {
     note(svg, x0 + (w * 0.5) / 1.5, 246, 'Destructive', { size: 17 });
     note(svg, x0 + w / 1.5, 246, 'Constructive', { size: 17 });
     note(svg, x0 + w / 2, 280, 'Time', { size: 18 });
+    // For readers who allow motion, a time cursor sweeps along, riding each
+    // wave: the two ride in step at the constructive line and opposite at the
+    // destructive one.
+    const fs = rows.map(([f]) => f);
+    const ys = rows.map(([, name, , y]) => [y, name === 'Resultant' ? 35 / 2 : 17]);
+    svg.motionGroup(
+      morph(
+        cycle(1.5, 300).map(t =>
+          svg.capture(() => {
+            const x = x0 + (w * t) / 1.5;
+            svg.line(x, 30, x, 220, { color: '#2a9fae', width: 2, dash: '5 4' });
+            fs.forEach((f, i) => {
+              const [y, a] = ys[i];
+              svg.circle(x, y - a * f(t), 5.5, { fill: '#c62828', stroke: '#ffffff', width: 1.5 });
+            });
+          })
+        ),
+        { dur: '9s' }
+      )
+    );
     return svg.render();
   },
 
@@ -1188,6 +1463,8 @@ export default {
         fill: `url(#beam${i})`,
       });
     });
+    // The wavefronts and the constructive spots, which motion replaces.
+    const drawnAt = svg.items.length;
     sources.forEach(([x, y, a]) => {
       for (let r = r0; r <= R; r += lam) {
         svg.polyline(arcPts([x, y], r, a), { color: '#4d5ea8', width: 1.8 });
@@ -1221,6 +1498,61 @@ export default {
         const P = [x1 + u, y1 + Math.sqrt(h2)];
         if (inside(P, sources[0]) && inside(P, sources[1]) && P[1] < 450) spot(...P);
       }
+    const fronts = svg.items.splice(drawnAt).join('');
+    svg.still(() => svg.add(fronts));
+    // For readers who allow motion, each front moves out one wavelength per
+    // period, and the places where compressions meet travel outward along
+    // the fixed lines of constructive interference.
+    const P = 1.4;
+    const dur = `${P}s`;
+    const arcD = ([x, y, a], r) => {
+      const [p, q] = [at([x, y], r, a - half), at([x, y], r, a + half)];
+      return `M ${fmt(p[0])} ${fmt(p[1])} A ${fmt(r)} ${fmt(r)} 0 0 1 ${fmt(q[0])} ${fmt(q[1])}`;
+    };
+    let moving = '<defs>';
+    sources.forEach(([x, y, a], i) => {
+      const beam = [...arcPts([x, y], r0 - 20, a), ...arcPts([x, y], R, a).reverse()];
+      moving += `<clipPath id="beam_16_11_02_${i}"><polygon points="${beam.map(p => p.map(fmt).join(',')).join(' ')}"/></clipPath>`;
+    });
+    moving += '</defs>';
+    sources.forEach((S, i) => {
+      let arcs = '';
+      for (let k = 0, r = r0 - lam; r <= R; k += 1, r += lam / 2) {
+        const dash = k % 2 ? ' stroke-dasharray="7 5"' : '';
+        const color = k % 2 ? '#6a3d9a' : '#4d5ea8';
+        arcs += `<path d="${arcD(S, r)}" fill="none" stroke="${color}" stroke-width="1.8"${dash}><animate attributeName="d" dur="${dur}" repeatCount="indefinite" values="${arcD(S, r)};${arcD(S, r + lam)}"/></path>`;
+      }
+      moving += `<g clip-path="url(#beam_16_11_02_${i})">${arcs}</g>`;
+    });
+    const phases = cycle(lam, 12);
+    const meets = [];
+    for (let ra = r0 - lam; ra <= R; ra += lam)
+      for (let rb = r0 - lam; rb <= R; rb += lam) {
+        const path = phases.map(sh => {
+          const [A, B] = [ra + sh, rb + sh];
+          const u = (A * A - B * B + d * d) / (2 * d);
+          const h2 = A * A - u * u;
+          return h2 > 0 ? [x1 + u, y1 + Math.sqrt(h2)] : null;
+        });
+        if (path.every(Boolean)) meets.push(path);
+      }
+    // A spot shows only while it is inside both beams.
+    const spots = morph(
+      phases.map((_, f) =>
+        svg.capture(() =>
+          meets.forEach(path => {
+            const P = path[f];
+            const shown = inside(P, sources[0]) && inside(P, sources[1]) && P[1] < 450;
+            svg.add(`<g opacity="${shown ? 1 : 0}">`);
+            spot(...P);
+            svg.add('</g>');
+          })
+        )
+      ),
+      { dur }
+    );
+    moving += spots;
+    svg.motionGroup(moving);
     for (const [x, y, a] of sources)
       svg.add(
         `<g transform="translate(${x} ${y}) rotate(${a})"><rect x="-46" y="-28" width="44" height="56" rx="4" fill="#3b3b3d" stroke="#1e1e20" stroke-width="1.5"/><rect x="-6" y="-24" width="8" height="48" rx="2" fill="#8a8c90"/></g>`

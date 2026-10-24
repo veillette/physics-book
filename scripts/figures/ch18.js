@@ -9,6 +9,10 @@
  * other shapes are solved numerically with the Laplace solver in
  * fields18to19.js, and their surface charge marks are spaced by the normal
  * field there, so they crowd where the charge density is greatest.
+ *
+ * For readers who allow motion, the steps of charging by induction play in
+ * turn, an electron is deflected between plates, and an oil drop floats,
+ * falls and rises as the field is switched.
  */
 import {
   ROD_18,
@@ -25,7 +29,7 @@ import {
   trace,
   walkOutline,
 } from './fields18to19.js';
-import { COLORS, Svg, rad } from './svg.js';
+import { COLORS, Svg, fmt, morph, rad } from './svg.js';
 
 const FIELD = COLORS.blue;
 const FORCE = '#e0245e';
@@ -463,23 +467,76 @@ export default {
       { y: 480, gap: 2 * r + 50, rod: true, cap: '(c)' },
       { y: 680, gap: 2 * r + 50, rod: false, cap: '(d)', after: true },
     ];
-    for (const row of rows) {
-      const x1 = 270;
+    const x1 = 270;
+    const near = [150, 172, 194, 216];
+    const far = [-36, -12, 12, 36];
+    const facing = [144, 168, 192, 216];
+    // Charge marks at angles `from` moving toward `to` on spheres centered at
+    // cx1 and cx2, a fraction f of the way, as straight-line slides.
+    const slide = (cxA, cxB, y, from, to, f, s, shown = 1) => {
+      svg.add(`<g opacity="${fmt(shown)}">`);
+      from.forEach((a, k) => {
+        const P = (cx, b) => [cx + (r - 10) * Math.cos(rad(b)), y - (r - 10) * Math.sin(rad(b))];
+        const [p, q] = [P(cxA, a), P(cxB, to[k])];
+        sign(svg, p[0] + (q[0] - p[0]) * f, p[1] + (q[1] - p[1]) * f, s, {
+          size: 26,
+          color: s === '+' ? COLORS.red : COLORS.blue,
+        });
+      });
+      svg.add('</g>');
+    };
+    const ease = (f, a, b) => Math.max(0, Math.min(1, (f - a) / (b - a)));
+    rows.forEach((row, i) => {
       const x2 = x1 + row.gap;
-      for (const x of [x1, x2]) {
+      // (c) moves the right sphere, so it is drawn with the moving parts.
+      for (const x of i === 2 ? [x1] : [x1, x2]) {
         stand(svg, x, row.y + r, { h: 46, base: 70 });
         sphere(svg, x, row.y, r);
       }
-      if (row.rod) {
-        rod(svg, 40, x1 - r - 26, row.y - 4, '+');
-        arcMarks(svg, x1, row.y, r - 10, [150, 172, 194, 216], '−');
-        arcMarks(svg, x2, row.y, r - 10, [-36, -12, 12, 36], '+');
-      } else if (row.after) {
-        arcMarks(svg, x1, row.y, r - 10, [-36, -12, 12, 36], '−');
-        arcMarks(svg, x2, row.y, r - 10, [144, 168, 192, 216], '+');
-      }
+      if (i === 2) rod(svg, 40, x1 - r - 26, row.y - 4, '+');
       caption(svg, (x1 + x2) / 2, row.y + r + 70, row.cap);
-    }
+    });
+    // For readers who allow motion, the steps happen in turn: (b) the rod
+    // arrives and electrons move to the near side, (c) the spheres part,
+    // (d) the rod leaves and the charges gather on the facing sides.
+    const yb = rows[1].y;
+    const yc = rows[2].y;
+    const yd = rows[3].y;
+    const xc = x1 + rows[2].gap;
+    svg.inTurn(
+      [
+        (f, shown) => {
+          svg.add(`<g opacity="${shown}">`);
+          const dx = -260 * (1 - ease(f, 0, 0.45));
+          rod(svg, 40 + dx, x1 - r - 26 + dx, yb - 4, '+');
+          // Electrons appear as they leave the far side, where the positive
+          // charge they leave behind shows.
+          const g = ease(f, 0.4, 1);
+          slide(x1 + 2 * r, x1, yb, far, near, g, '−', Math.min(1, 4 * g));
+          slide(x1 + 2 * r, x1 + 2 * r, yb, far, far, 0, '+', g);
+          svg.add('</g>');
+        },
+        (f, shown) => {
+          svg.add(`<g opacity="${shown}">`);
+          const x2 = x1 + 2 * r + 50 * f;
+          stand(svg, x2, yc + r, { h: 46, base: 70 });
+          sphere(svg, x2, yc, r);
+          slide(x1, x1, yc, near, near, 0, '−');
+          slide(x2, x2, yc, far, far, 0, '+');
+          svg.add('</g>');
+        },
+        (f, shown) => {
+          svg.add(`<g opacity="${shown}">`);
+          const dx = -300 * ease(f, 0, 0.45);
+          rod(svg, 40 + dx, x1 - r - 26 + dx, yd - 4, '+');
+          const g = ease(f, 0.3, 1);
+          slide(x1, x1, yd, near, far, g, '−');
+          slide(xc, xc, yd, far, facing, g, '+');
+          svg.add('</g>');
+        },
+      ],
+      { slot: 2, rest: 1.6 }
+    );
     return svg.render();
   },
 
@@ -498,40 +555,112 @@ export default {
       { x: 0, y: 300, cap: '(c)', rodOn: true, neg: [150, 180, 210], pos: [] },
       { x: 400, y: 300, cap: '(d)', rodOn: false, neg: [100, 220, 340] },
     ];
+    const ground = (cx, cy) => {
+      const gx = cx + 120;
+      svg.polyline(
+        [
+          [cx + r, cy],
+          [gx, cy],
+          [gx, cy + 110],
+        ],
+        { color: COLORS.black, width: 2 }
+      );
+      for (const [k, half] of [
+        [0, 18],
+        [7, 12],
+        [14, 6],
+      ]) {
+        svg.line(gx - half, cy + 110 + k, gx + half, cy + 110 + k, {
+          color: COLORS.black,
+          width: 2,
+        });
+      }
+      note(svg, gx, cy + 152, 'Ground');
+    };
     for (const p of panels) {
       const cx = p.x + 230;
       const cy = p.y + 100;
       stand(svg, cx, cy + r, { h: 60, base: 90 });
       sphere(svg, cx, cy, r);
-      if (p.rodOn) rod(svg, p.x + 20, p.x + 140, cy - 28, '+', { h: 34 });
-      arcMarks(svg, cx, cy, r - 14, p.neg, '−', { size: 24 });
-      if (p.pos) arcMarks(svg, cx, cy, r - 14, p.pos, '+', { size: 24 });
       if (p.ground) {
-        const gx = cx + 120;
-        svg.polyline(
-          [
-            [cx + r, cy],
-            [gx, cy],
-            [gx, cy + 110],
-          ],
-          { color: COLORS.black, width: 2 }
-        );
-        for (const [k, half] of [
-          [0, 18],
-          [7, 12],
-          [14, 6],
-        ]) {
-          svg.line(gx - half, cy + 110 + k, gx + half, cy + 110 + k, {
-            color: COLORS.black,
-            width: 2,
-          });
-        }
-        note(svg, gx, cy + 152, 'Ground');
-        svg.arrow(gx + 18, cy + 80, gx + 18, cy + 20, { color: COLORS.blue, width: 2.5, head: 13 });
-        lab(svg, gx + 26, cy + 56, 'e^−', { anchor: 'start', color: COLORS.blue });
+        ground(cx, cy);
+        svg.arrow(cx + 138, cy + 80, cx + 138, cy + 20, {
+          color: COLORS.blue,
+          width: 2.5,
+          head: 13,
+        });
+        lab(svg, cx + 146, cy + 56, 'e^−', { anchor: 'start', color: COLORS.blue });
       }
       caption(svg, cx, cy + r + 96, p.cap);
     }
+    // Charge marks at angles `from` moving toward angles `to` around the
+    // sphere centered at (cx, cy), a fraction f of the way.
+    const turn = (cx, cy, from, to, f, s, shown = 1) => {
+      svg.add(`<g opacity="${fmt(shown)}">`);
+      arcMarks(
+        svg,
+        cx,
+        cy,
+        r - 14,
+        from.map((a, k) => a + (to[k] - a) * f),
+        s,
+        { size: 24 }
+      );
+      svg.add('</g>');
+    };
+    const ease = (f, a, b) => Math.max(0, Math.min(1, (f - a) / (b - a)));
+    const near = [150, 180, 210];
+    const far = [-30, 0, 30];
+    // For readers who allow motion, the steps happen in turn: (a) the rod
+    // arrives and electrons move to the near side, (b) electrons come up from
+    // the ground and cancel the far side's positive charge, (c) the ground
+    // wire is removed, (d) the rod leaves and the negative charge spreads out.
+    svg.inTurn(
+      panels.map((p, i) => (f, shown) => {
+        const cx = p.x + 230;
+        const cy = p.y + 100;
+        svg.add(`<g opacity="${shown}">`);
+        // The rod slides in from off the figure in (a), and in (d) backs away
+        // and fades, since panel (c) is to its left.
+        const dx = i === 0 ? -200 * (1 - ease(f, 0, 0.45)) : i === 3 ? -90 * ease(f, 0, 0.45) : 0;
+        svg.add(`<g opacity="${fmt(i === 3 ? 1 - ease(f, 0.1, 0.45) : 1)}">`);
+        rod(svg, p.x + 20 + dx, p.x + 140 + dx, cy - 28, '+', { h: 34 });
+        svg.add('</g>');
+        if (i === 0) {
+          const g = ease(f, 0.4, 1);
+          turn(cx, cy, far, near, g, '−', Math.min(1, 4 * g));
+          turn(cx, cy, far, far, 0, '+', g);
+        } else if (i === 1) {
+          // Three electrons ride up the ground wire into the sphere.
+          const path = [
+            [cx + 120, cy + 110],
+            [cx + 120, cy],
+            [cx + r, cy],
+          ];
+          for (let k = 0; k < 3; k += 1) {
+            const g = ease(f, 0.1 + 0.2 * k, 0.6 + 0.2 * k);
+            const L1 = 110;
+            const L2 = 120 - r;
+            const s = g * (L1 + L2);
+            const [x, y] = s < L1 ? [path[0][0], path[0][1] - s] : [path[1][0] - (s - L1), cy];
+            svg.add(`<g opacity="${fmt(1 - ease(g, 0.9, 1))}">`);
+            svg.circle(x, y, 6, { fill: COLORS.blue });
+            svg.add('</g>');
+          }
+          turn(cx, cy, near, near, 0, '−');
+          turn(cx, cy, far, far, 0, '+', 1 - ease(f, 0.55, 1));
+        } else if (i === 2) {
+          svg.add(`<g opacity="${fmt(1 - ease(f, 0, 0.7))}">`);
+          ground(cx, cy);
+          svg.add('</g>');
+          turn(cx, cy, near, near, 0, '−');
+        } else {
+          turn(cx, cy, near, p.neg, ease(f, 0.3, 1), '−');
+        }
+        svg.add('</g>');
+      }),
+      { slot: 2, rest: 1.6 }
+    );
     return svg.render();
   },
 
@@ -1525,6 +1654,25 @@ export default {
     svg.arc(R, y0 - rise, 70, 0, th, { color: COLORS.black, width: 1.5 });
     lab(svg, R + 80, y0 - rise - 8, 'θ', { anchor: 'start', size: 20 });
     svg.xyIndicator(30, 60, { len: 40 });
+    // For readers who allow motion, an electron rides the path at a steady
+    // horizontal speed, pushed upward only while it is between the plates.
+    const yAt = x => (x < L ? y0 : x <= R ? y0 - k * (x - L) ** 2 : y0 - rise - slope * (x - R));
+    const xs = [];
+    for (let x = 40; x <= 550; x += 10) xs.push(x);
+    svg.animatedOnce(
+      (x, moving, shown) => {
+        const y = yAt(x);
+        const inside = x >= L && x <= R ? 1 : 0;
+        svg.add(`<g opacity="${shown}"><g opacity="${inside}">`);
+        svg.arrow(x, y - 9, x, y - 44, { color: FORCE, width: 3, head: 12 });
+        svg.text(x + 8, y - 36, '**F**', { size: 18, anchor: 'start' });
+        svg.add('</g>');
+        svg.circle(x, y, 7, { fill: COLORS.blue, stroke: '#ffffff', width: 1.5 });
+        svg.add('</g>');
+      },
+      xs,
+      { run: 3.4, hold: 0.4, still: null }
+    );
     return svg.render();
   },
 
@@ -1542,13 +1690,60 @@ export default {
     const B = 250;
     svg.rect(L, T - 22, R - L, 22, { fill: METAL, stroke: METAL_EDGE, width: 1.5 });
     svg.rect(L, B, R - L, 22, { fill: METAL, stroke: METAL_EDGE, width: 1.5 });
-    for (let x = L + 20; x < R; x += 54) {
-      sign(svg, x, T - 11, '+', { size: 18 });
-      sign(svg, x, B + 11, '−', { size: 18 });
-      vArrowLine(svg, x + 6, T, B);
+    const field = () => {
+      for (let x = L + 20; x < R; x += 54) {
+        sign(svg, x, T - 11, '+', { size: 18 });
+        sign(svg, x, B + 11, '−', { size: 18 });
+        vArrowLine(svg, x + 6, T, B);
+      }
+    };
+    const drop = y => {
+      svg.circle(382, y, 16, { fill: '#f0a040', stroke: '#a0611c', width: 1.5 });
+      lab(svg, 382, y + 2, 'q_0', { size: 18, halo: false });
+    };
+    svg.still(() => {
+      field();
+      drop(150);
+    });
+    // For readers who allow motion, the field is switched: balanced, the drop
+    // floats, jostled a little by air molecules; with the field off it falls;
+    // with the field doubled it rises. In air it drifts at a speed in
+    // proportion to the net force F − w.
+    const rand = (n => () => {
+      n = (n * 16807) % 2147483647;
+      return n / 2147483647 - 0.5;
+    })(7);
+    const phases = [1, 0, 2];
+    const [dt, per] = [0.25, 8];
+    const frames = [];
+    let y = 150;
+    for (const F of phases) {
+      for (let i = 0; i < per; i += 1) {
+        frames.push([F, y + 3 * rand()]);
+        y += (5 * (1 - F)) / 1;
+      }
     }
-    svg.circle(382, 150, 16, { fill: '#f0a040', stroke: '#a0611c', width: 1.5 });
-    lab(svg, 382, 152, 'q_0', { size: 18, halo: false });
+    frames.push([1, 150]);
+    svg.motionGroup(
+      morph(
+        frames.map(([F, yd]) =>
+          svg.capture(() => {
+            svg.add(`<g opacity="${fmt(Math.min(1, F))}">`);
+            field();
+            svg.add('</g>');
+            drop(yd);
+            const up = 30 * Math.max(F, 0.01);
+            svg.add(`<g opacity="${fmt(Math.min(1, F))}">`);
+            svg.arrow(406, yd, 406, yd - up, { color: FORCE, width: 3, head: 11 });
+            svg.text(414, yd - up + 8, '**F**', { size: 17, anchor: 'start' });
+            svg.add('</g>');
+            svg.arrow(406, yd, 406, yd + 30, { color: COLORS.black, width: 3, head: 11 });
+            svg.text(414, yd + 26, '**w**', { size: 17, anchor: 'start' });
+          })
+        ),
+        { dur: `${fmt(dt * phases.length * per)}s` }
+      )
+    );
     svg.rect(100, 128, 80, 44, { fill: '#e8d36a', stroke: '#9a8a2a', width: 1.2, rx: 6 });
     svg.ellipse(180, 150, 6, 22, { fill: '#cfe8ef', stroke: '#6a8a96', width: 1.2 });
     svg.ellipse(62, 150, 26, 16, { fill: '#ffffff', stroke: '#444444', width: 1.5 });

@@ -83,6 +83,27 @@ export function smilMotion(path, { dur = '8s', rotate = '0', keyPoints, keyTimes
   return `<animateMotion dur="${dur}" repeatCount="indefinite" rotate="${rotate}"${timing} path="${path}"/>`;
 }
 
+/**
+ * `markup` with its dashed lines marching: every element with a
+ * stroke-dasharray gets a dash offset that runs through one dash period, so
+ * the dashes travel in the direction each line was drawn.
+ */
+export function marching(markup, { dur = '1s' } = {}) {
+  return markup.replace(
+    /<(line|polyline|path)([^>]*?stroke-dasharray="([^"]+)"[^>]*?)\/>/g,
+    (m, tag, rest, dash) => {
+      const period = dash.split(/[ ,]+/).reduce((a, b) => a + Number(b), 0);
+      return `<${tag}${rest}><animate attributeName="stroke-dashoffset" dur="${dur}" repeatCount="indefinite" values="0;${-period}"/></${tag}>`;
+    }
+  );
+}
+
+/** Markup turning round (cx, cy) once every `dur`, counterclockwise on screen if `ccw`. */
+export function spinning(markup, cx, cy, { dur = '4s', ccw = false } = {}) {
+  const end = ccw ? -360 : 360;
+  return `<g>${markup}<animateTransform attributeName="transform" type="rotate" dur="${dur}" repeatCount="indefinite" values="0 ${fmt(cx)} ${fmt(cy)};${end} ${fmt(cx)} ${fmt(cy)}"/></g>`;
+}
+
 /** SVG path through pixel points. */
 export function pathThrough(points) {
   return points.map(([x, y], i) => `${i ? 'L' : 'M'} ${fmt(x)} ${fmt(y)}`).join(' ');
@@ -461,6 +482,56 @@ export class Svg {
         { dur, keyTimes }
       )
     );
+  }
+
+  /**
+   * A motion that cannot loop seamlessly (a dye line that keeps stretching, a
+   * walk that ends far from its start): hold at `frames[0]`, run through the
+   * frames in `run` seconds, hold at the last, then fade out and fade back in
+   * at the start. `draw(frame, moving, shown)` wraps its moving marks in a
+   * group of opacity `shown`; the still figure shows `frames[still]`, or
+   * nothing extra when `still` is null.
+   */
+  animatedOnce(draw, frames, { run = 4, hold = 0.8, fade = 0.4, still = 0 } = {}) {
+    const n = frames.length - 1;
+    const end = hold + run + hold;
+    const T = end + 2 * fade;
+    const seq = [[0, 1, 0]];
+    frames.forEach((_, i) => seq.push([i, 1, hold + (run * i) / n]));
+    seq.push([n, 1, end], [n, 0, end + fade], [0, 0, end + fade + 0.001], [0, 1, T]);
+    if (still !== null) this.still(() => draw(frames[still], false, 1));
+    return this.motionGroup(
+      morph(
+        seq.map(([i, shown]) => this.capture(() => draw(frames[i], true, shown))),
+        { dur: `${fmt(T)}s`, keyTimes: seq.map(s => s[2] / T) }
+      )
+    );
+  }
+
+  /**
+   * Panels of a sequence that move in turn: `draws[k](f, shown)` draws panel
+   * k's moving parts at progress f (0 … 1), wrapped in opacity `shown`. Panel
+   * k runs during the kth `slot` seconds and then holds; once every panel has
+   * run and `rest` seconds have passed, they all fade out and back in at
+   * f = 0. The still figure shows every panel at f = 1.
+   */
+  inTurn(draws, { slot = 1.6, rest = 1.6, fade = 0.4, steps = 12 } = {}) {
+    this.still(() => draws.forEach(d => d(1, 1)));
+    const T = draws.length * slot + rest + 2 * fade;
+    draws.forEach((draw, k) => {
+      // [time, progress, opacity]
+      const keys = [[0, 0, 1]];
+      if (k) keys.push([k * slot, 0, 1]);
+      for (let i = 1; i <= steps; i += 1) keys.push([(k + i / steps) * slot, i / steps, 1]);
+      keys.push([T - 2 * fade, 1, 1], [T - fade, 1, 0], [T - fade + 0.001, 0, 0], [T, 0, 1]);
+      this.motionGroup(
+        morph(
+          keys.map(([, f, shown]) => this.capture(() => draw(f, shown))),
+          { dur: `${fmt(T)}s`, keyTimes: keys.map(([t]) => t / T) }
+        )
+      );
+    });
+    return this;
   }
 
   /**

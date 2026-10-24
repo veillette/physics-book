@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="380" viewBox="0 0 680 380" role="img" aria-labelledby="title desc">
 <title id="title">The path of a free electron in a conductor</title>
 <desc id="desc">A free electron e⁻ in a wire moves along a random zigzag path, changing direction at each collision with other electrons and atoms. Its average velocity, the drift velocity v_d, is to the right, opposite the electric field E, which points left. The conventional current I is in the direction of E.</desc>
+<style>
+.motion{opacity:0}
+@media (prefers-reduced-motion:no-preference){.motion{opacity:1}.still{opacity:0}}
+@media (prefers-reduced-motion:reduce), print{.motion{display:none !important}.still{opacity:1 !important}}
+</style>
 <rect width="680" height="380" fill="#ffffff"/>
 <defs><linearGradient id="cyl20_40_640_170_110" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb8c4"/><stop offset="0.35" stop-color="#f2f1f4"/><stop offset="0.7" stop-color="#f2f1f4"/><stop offset="1" stop-color="#bdb8c4"/></linearGradient></defs>
 <path d="M 40 60 L 640 60 A 38.5 110 0 0 1 640 280 L 40 280 Z" fill="url(#cyl20_40_640_170_110)" stroke="#9a94a3" stroke-width="1.5"/>
@@ -35,8 +40,8 @@
 <polygon points="490,180 500.73,180.89 497.16,188.05" fill="#222222"/>
 <line x1="490" y1="180" x2="591.81" y2="133.72" stroke="#222222" stroke-width="1.6"/>
 <polygon points="600,130 592.55,137.78 589.24,130.5" fill="#222222"/>
-<circle cx="95" cy="210" r="17" fill="#a98bd0" stroke="#3a5a8a" stroke-width="1"/>
-<text x="95" y="217.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text>
+<g class="still"><circle cx="95" cy="210" r="17" fill="#a98bd0" stroke="#3a5a8a" stroke-width="1"/><text x="95" y="217.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text></g>
+<g class="motion" opacity="0" aria-hidden="true"><g><animate attributeName="opacity" dur="7.9s" repeatCount="indefinite" calcMode="linear" values="1;1;1;1;0" keyTimes="0;0.0633;0.8228;0.9494;1"/><line x1="95" y1="66" x2="95" y2="284" stroke="#5aa832" stroke-width="2" stroke-dasharray="6 5"><animate attributeName="x1" dur="7.9s" repeatCount="indefinite" calcMode="linear" values="95;95;600;600;600" keyTimes="0;0.0633;0.8228;0.9494;1"/><animate attributeName="x2" dur="7.9s" repeatCount="indefinite" calcMode="linear" values="95;95;600;600;600" keyTimes="0;0.0633;0.8228;0.9494;1"/></line></g><g><animateTransform attributeName="transform" type="translate" dur="7.9s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.0633;0.1122;0.1721;0.2186;0.2705;0.3199;0.349;0.4158;0.473;0.508;0.5593;0.608;0.6872;0.7411;0.7732;0.8228;0.9494;1" values="95 210;95 210;160 110;215 245;140 160;265 140;300 255;245 210;360 95;395 230;330 175;450 140;420 255;520 90;560 215;490 180;600 130;600 130;600 130"/><animate attributeName="opacity" dur="7.9s" repeatCount="indefinite" calcMode="linear" values="1;1;0" keyTimes="0;0.9494;1"/><circle cx="0" cy="0" r="17" fill="#a98bd0" stroke="#3a5a8a" stroke-width="1"/><text x="0" y="7.44" font-family="'Times New Roman', Times, serif" font-size="21.25" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">e</tspan><tspan font-size="14.87" dy="-8.5"><tspan font-style="normal">−</tspan></tspan><tspan dy="8.5">​</tspan></text></g></g>
 <line x1="300" y1="30" x2="366" y2="30" stroke="#5aa832" stroke-width="3.5"/>
 <polygon points="380,30 365,36 365,24" fill="#5aa832"/>
 <text x="340" y="20.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="15.5" font-weight="normal" dx="-14" dy="-13">→</tspan><tspan dx="-1.5" dy="13">​</tspan></tspan><tspan font-size="17.5" dy="7"><tspan font-style="normal">d</tspan></tspan><tspan dy="-7">​</tspan></text>

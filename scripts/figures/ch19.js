@@ -8,6 +8,10 @@
  * charge, spaced evenly in angle where they leave it, so the line density
  * shows the field strength. Field lines are blue and equipotentials green, as
  * the captions describe.
+ *
+ * For readers who allow motion, a charge and a rolling mass speed up in
+ * 19.1 Fig. 1, and the molecules of a dielectric line up as a capacitor
+ * charges.
  */
 import { CAPACITOR, cable, carBattery, cell, headlight, wire } from './circuit.js';
 import {
@@ -25,7 +29,7 @@ import {
   solveLaplace,
   trace,
 } from './fields18to19.js';
-import { COLORS, Svg, rad } from './svg.js';
+import { COLORS, Svg, fmt, rad, smilAnimate } from './svg.js';
 
 const FIELD = COLORS.blue;
 const EQUIP = '#2e9a5e';
@@ -232,8 +236,6 @@ export default {
       sign(svg, 33, y, '+');
       sign(svg, xr + 25, y, '−');
     }
-    svg.circle(200, 324, 26, { fill: '#f2a3ae', stroke: '#c0566a', width: 1.5 });
-    lab(svg, 200, 324, '+q', { size: 24, halo: false });
     svg.arrow(228, 324, xr, 324, { color: COLORS.black, width: 1.8, head: 14 });
     note(svg, 200, 282, 'A', { size: 26 });
     note(svg, xr - 18, 286, 'B', { size: 26 });
@@ -256,10 +258,73 @@ export default {
           width: 2,
         }
       );
-    svg.circle(205, 664 - 24, 23, { fill: '#f4a77e', stroke: '#c46a3c', width: 1.5 });
-    lab(svg, 205, 640, 'm', { size: 24, halo: false });
     svg.arrow(232, 652, 318, 690, { color: COLORS.black, width: 1.8, head: 14 });
     note(svg, 565, 668, 'ΔPE_{grav} = ΔKE', { size: 26 });
+    // For readers who allow motion, the charge speeds up steadily from A, out
+    // through the hole at B, while the ball speeds up as it rolls downhill:
+    // each gains the kinetic energy that its potential energy loses.
+    const bez = (p0, p1, p2, p3, u) =>
+      [0, 1].map(
+        i =>
+          (1 - u) ** 3 * p0[i] +
+          3 * (1 - u) ** 2 * u * p1[i] +
+          3 * (1 - u) * u * u * p2[i] +
+          u ** 3 * p3[i]
+      );
+    const ground = [];
+    for (const seg of [
+      [
+        [0, 638],
+        [60, 620],
+        [140, 615],
+        [200, 640],
+      ],
+      [
+        [200, 640],
+        [270, 668],
+        [300, 715],
+        [360, 735],
+      ],
+      [
+        [360, 735],
+        [450, 742],
+        [600, 738],
+        [700, 742],
+      ],
+    ])
+      for (let k = 0; k < 60; k += 1) ground.push(bez(...seg, k / 60));
+    // As in the still figure, the ball is drawn centered on the ground line.
+    const centers = ground;
+    // Speed from energy: v² = v0² + 2g(y − y0), stepping along the ground.
+    const start = centers.findIndex(([x]) => x >= 205);
+    const [y0, g, v0] = [centers[start][1], 900, 40];
+    const times = [0];
+    for (let k = start + 1; k < centers.length; k += 1) {
+      const d = Math.hypot(centers[k][0] - centers[k - 1][0], centers[k][1] - centers[k - 1][1]);
+      const v = Math.sqrt(v0 * v0 + 2 * g * Math.max(0, centers[k][1] - y0));
+      times.push(times.at(-1) + d / v);
+    }
+    const run = 2.4;
+    const scale = run / times.at(-1);
+    const ballAt = t => {
+      const k = times.findIndex(u => u * scale >= t);
+      return centers[start + Math.max(0, k)];
+    };
+    const frames = Array.from({ length: 31 }, (_, k) => (run * k) / 30);
+    svg.animatedOnce(
+      (t, moving, shown) => {
+        svg.add(`<g opacity="${shown}">`);
+        const x = 200 + 500 * (t / run) ** 2;
+        svg.circle(x, 324, 26, { fill: '#f2a3ae', stroke: '#c0566a', width: 1.5 });
+        lab(svg, x, 324, '+q', { size: 24, halo: false });
+        const [bx, by] = t ? ballAt(t) : [205, 640];
+        svg.circle(bx, by, 23, { fill: '#f4a77e', stroke: '#c46a3c', width: 1.5 });
+        lab(svg, bx, by, 'm', { size: 24, halo: false });
+        svg.add('</g>');
+      },
+      frames,
+      { run, hold: 0.8 }
+    );
     return svg.render();
   },
 
@@ -759,25 +824,43 @@ export default {
       const B = 500;
       metalPlate(svg, 30, T, B, { w: 30 });
       metalPlate(svg, 620, T, B, { w: 30 });
-      for (let y = T + 25; y < B; y += 38) {
-        sign(svg, 45, y, '+');
-        sign(svg, 635, y, '−');
-      }
-      lab(svg, 45, T - 26, '+Q');
-      lab(svg, 635, T - 26, '−Q');
-      const rows = 11;
-      for (let j = 0; j < rows; j += 1) {
-        const y = 110 + j * 34;
-        const odd = j % 2 === 1;
-        const n = odd ? 4 : 5;
-        const x0 = odd ? 216 : 176;
-        for (let i = 0; i < n; i += 1) {
-          const x = x0 + i * 80;
-          svg.ellipse(x, y, 40, 16, { fill: MOLECULE, stroke: MOLECULE_EDGE, width: 1.5 });
-          sign(svg, x - 20, y, '−', { size: 17 });
-          sign(svg, x + 20, y, '+', { size: 17 });
+      const plateSigns = () => {
+        for (let y = T + 25; y < B; y += 38) {
+          sign(svg, 45, y, '+');
+          sign(svg, 635, y, '−');
         }
+        lab(svg, 45, T - 26, '+Q');
+        lab(svg, 635, T - 26, '−Q');
+      };
+      const molecule = (x, y) => {
+        svg.ellipse(x, y, 40, 16, { fill: MOLECULE, stroke: MOLECULE_EDGE, width: 1.5 });
+        sign(svg, x - 20, y, '−', { size: 17 });
+        sign(svg, x + 20, y, '+', { size: 17 });
+      };
+      const sites = [];
+      for (let j = 0; j < 11; j += 1) {
+        const odd = j % 2 === 1;
+        for (let i = 0; i < (odd ? 4 : 5); i += 1)
+          sites.push([(odd ? 216 : 176) + i * 80, 110 + j * 34]);
       }
+      svg.still(() => {
+        plateSigns();
+        for (const [x, y] of sites) molecule(x, y);
+      });
+      // For readers who allow motion, the plates charge up and the molecules,
+      // pointing every which way at first, turn to line up with the field;
+      // then the plates discharge and the molecules are jostled back.
+      const rand = rng(17);
+      const [Tc, k1, k2, k3, k4] = [8, 1.2, 3.2, 5.6, 7.4].map((t, i) => (i ? t / 8 : t));
+      const dur = `${Tc}s`;
+      const keyTimes = `0;${fmt(k1)};${fmt(k2)};${fmt(k3)};${fmt(k4)};1`;
+      let moving = `<g opacity="0">${smilAnimate('opacity', [0, 0, 1, 1, 0, 0], { dur, keyTimes: [0, k1, k2, k3, k4, 1] })}${svg.capture(plateSigns)}</g>`;
+      for (const [x, y] of sites) {
+        const a = Math.round(360 * rand() - 180);
+        const body = svg.capture(() => molecule(0, 0));
+        moving += `<g transform="translate(${x} ${y})"><g><animateTransform attributeName="transform" type="rotate" dur="${dur}" repeatCount="indefinite" keyTimes="${keyTimes}" values="${a};${a};0;0;${a};${a}"/>${body}</g></g>`;
+      }
+      svg.motionGroup(moving);
       svg.leader(370, 46, 342, 92, { bend: 0.4, width: 1.4 });
       note(svg, 380, 46, 'Polarized molecule', { anchor: 'start' });
       svg.leader(110, 560, 150, 452, { bend: 0.4, width: 1.4 });

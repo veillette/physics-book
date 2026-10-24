@@ -11,10 +11,15 @@
  * one, inside the ± envelope. The equal-loudness curves are digitized from
  * the original figure (scripts/figures/data/equal-loudness.json) so that the
  * section's worked readings still hold.
+ *
+ * For readers who allow motion, the sound waves move out from the string and
+ * the tuning fork, the moving and supersonic sources send out their waves as
+ * they go, the pulse of 17.5 runs along the tube, and the air in the
+ * resonating tubes swings back and forth.
  */
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import { COLORS, Plot, Svg, fmt, rad } from './svg.js';
+import { COLORS, Plot, Svg, fmt, morph, rad, smilAnimate, smilList } from './svg.js';
 
 const LOUDNESS = JSON.parse(
   fs.readFileSync(fileURLToPath(new URL('./data/equal-loudness.json', import.meta.url)), 'utf8')
@@ -40,6 +45,9 @@ function lab(svg, x, y, s, o = {}) {
 function note(svg, x, y, s, o = {}) {
   svg.text(x, y, s, { size: 18, math: false, ...o });
 }
+
+/** Times 0 to `period` in `n` equal steps, the last closing the loop. */
+const cycle = (period, n) => Array.from({ length: n + 1 }, (_, k) => (period * k) / n);
 
 const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
 const rgb = c => `rgb(${c.join(',')})`;
@@ -130,9 +138,14 @@ function stringField(svg, xs, yTop, yBot, x0, x1, p, { lineAt = [] } = {}) {
     `M ${x0} ${yTop - bow} Q ${xs} ${yTop + bow} ${x1} ${yTop - bow} L ${x1} ${yBot + bow} Q ${xs} ${yBot - bow} ${x0} ${yBot + bow} Z`,
     { color: 'none', width: 0, fill }
   );
+  bandLines(svg, xs, yTop, yBot, lineAt);
+}
+
+/** Solid lines at compression centers ('c') and dashed ones at rarefactions ('r'). */
+function bandLines(svg, xs, yTop, yBot, lineAt) {
   for (const [x, kind] of lineAt) {
     svg.path(
-      `M ${x} ${yTop - 6} Q ${x + (x > xs ? 1 : -1) * 18} ${(yTop + yBot) / 2} ${x} ${yBot + 6}`,
+      `M ${fmt(x)} ${yTop - 6} Q ${fmt(x + (x > xs ? 1 : -1) * 18)} ${(yTop + yBot) / 2} ${fmt(x)} ${yBot + 6}`,
       {
         color: kind === 'c' ? '#5d6fb3' : '#6a3d9a',
         width: kind === 'c' ? 2.4 : 2.2,
@@ -165,6 +178,93 @@ function bands(xs, t, lam, x0, x1) {
     }
   }
   return out;
+}
+
+/**
+ * For readers who allow motion: the sound from a string at xs, as two strips
+ * of shaded air that slide outward from it. In the strips' own frame the
+ * pressure is p(d′, side) at a distance d′ from the string, drawn for d′ from
+ * `a` to `b`; `shift` lists their outward offsets (px) at `keyTimes`, and
+ * `shown` their opacities. Clipped to the bowed region of `stringField`.
+ */
+function soundStrips(svg, xs, yTop, yBot, x0, x1, t, lam, a, b, { dur, keyTimes, shift, shown }) {
+  const p = fromString(t, lam);
+  const bow = 26;
+  const id = `air_${xs}_${x1}_${yTop}`;
+  svg.add(
+    `<defs><clipPath id="${id}"><path d="M ${x0} ${yTop - bow} Q ${xs} ${yTop + bow} ${x1} ${yTop - bow} L ${x1} ${yBot + bow} Q ${xs} ${yBot - bow} ${x0} ${yBot + bow} Z"/></clipPath><clipPath id="${id}_r"><rect x="${xs}" y="0" width="${x1 - xs}" height="${yBot + 2 * bow}"/></clipPath><clipPath id="${id}_l"><rect x="${x0}" y="0" width="${xs - x0}" height="${yBot + 2 * bow}"/></clipPath></defs>`
+  );
+  const level = v => (v === null ? 0.22 : v > 0 ? 0.22 + 0.68 * v : 0.22 + 0.22 * v);
+  let out = '';
+  for (const side of [1, -1]) {
+    const fill = gradient(svg, u => level(p(side > 0 ? a + u * (b - a) : b - u * (b - a), side)), {
+      n: 260,
+    });
+    const strip = svg.capture(() => {
+      const [l, r] = side > 0 ? [xs + a, xs + b] : [xs - b, xs - a];
+      svg.rect(l, yTop - bow - 4, r - l, yBot - yTop + 2 * bow + 8, { fill });
+      // Compression and rarefaction centers, where side·sin 2π(t − d/λ) = ±1,
+      // as in `bands`.
+      const lines = [];
+      for (let k = 0; k < 40; k += 1) {
+        const tau = 0.25 + k / 2;
+        const d = (t - tau) * lam;
+        if (d >= a && d <= b)
+          lines.push([xs + side * d, side * Math.sin(2 * Math.PI * tau) > 0 ? 'c' : 'r']);
+      }
+      bandLines(svg, xs, yTop, yBot, lines);
+    });
+    const move = shift.map(v => `${fmt(side * v)} 0`).join(';');
+    out += `<g clip-path="url(#${id}_${side > 0 ? 'r' : 'l'})"><g>${strip}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" keyTimes="${smilList(keyTimes)}" values="${move}"/>${shown ? smilAnimate('opacity', shown, { dur, keyTimes }) : ''}</g></g>`;
+  }
+  // Undisturbed air under the strips, for when they fade.
+  const calm = svg.capture(() =>
+    svg.path(
+      `M ${x0} ${yTop - bow} Q ${xs} ${yTop + bow} ${x1} ${yTop - bow} L ${x1} ${yBot + bow} Q ${xs} ${yBot - bow} ${x0} ${yBot + bow} Z`,
+      { color: 'none', width: 0, fill: rgb(mix(AIR_LO, AIR_HI, 0.22)) }
+    )
+  );
+  return `${calm}<g clip-path="url(#${id})">${out}</g>`;
+}
+
+/**
+ * The first moments of 17.1 Figs. 2 and 3: the string starts from rest,
+ * swings for `t1` periods while its sound spreads, holds, and relaxes as the
+ * sound fades. `bend` is the string's largest bow.
+ */
+function stringStart(svg, xs, yTop, yBot, x0, x1, lam, t1, bend, { run, marks = [] }) {
+  const [hold, rest, fade] = [0.6, 1.8, 0.6];
+  const T = hold + run + rest + fade;
+  const dur = `${fmt(T)}s`;
+  const D = Math.max(x1 - xs, xs - x0);
+  const keyTimes = [0, hold / T, (hold + run) / T, (hold + run + rest) / T, 1];
+  const strips = soundStrips(svg, xs, yTop, yBot, x0, x1, t1, lam, 0, D + t1 * lam, {
+    dur,
+    keyTimes,
+    shift: [-t1 * lam, -t1 * lam, 0, 0, 0],
+    shown: [1, 1, 1, 1, 0],
+  });
+  const steps = 16;
+  const frames = [
+    [0, 0],
+    [hold, 0],
+  ];
+  for (let k = 1; k <= steps; k += 1) {
+    const t = (t1 * k) / steps;
+    frames.push([hold + (run * k) / steps, bend * Math.sin(2 * Math.PI * t)]);
+  }
+  frames.push([hold + run + rest, bend * Math.sin(2 * Math.PI * t1)], [T, 0]);
+  const string = morph(
+    frames.map(([, b]) => svg.capture(() => bowedString(svg, xs, yTop + 2, yBot - 2, b))),
+    { dur, keyTimes: frames.map(([t]) => t / T) }
+  );
+  // Lines the still figure marks by hand appear while the motion holds.
+  const lines = marks.length
+    ? `<g opacity="0">${smilAnimate('opacity', [0, 0, 1, 1, 0], { dur, keyTimes: [0, (hold + run) / T, (hold + run + 0.3) / T, (hold + run + rest) / T, 1] })}${svg.capture(
+        () => bandLines(svg, xs, yTop, yBot, marks)
+      )}</g>`
+    : '';
+  return `${strips}${lines}${string}`;
 }
 
 /** The vibrating string, bowed by `bend` pixels at its middle. */
@@ -200,6 +300,23 @@ function tubeMode(svg, x0, x1, yc, h, amp, { closedLeft = true } = {}) {
   svg.polyline(top, { color: ENVELOPE, width: 2.2 });
   svg.polyline(bot, { color: ENVELOPE, width: 2.2 });
   if (closedLeft) svg.line(x0, yc - h / 2, x0, yc + h / 2, { color: TUBE_EDGE, width: 4 });
+}
+
+/**
+ * For readers who allow motion: parcels of air in the tube of `tubeMode`
+ * swinging back and forth along it, by `shape(u)` (signed, −1 … 1) at
+ * fraction u along the tube, once every `period` seconds.
+ */
+function airParcels(svg, x0, x1, yc, h, shape, period) {
+  const spline = 'calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"';
+  let out = '';
+  for (const dy of [-0.27, 0, 0.27]) {
+    for (let x = x0 + 9; x < x1 - 4; x += 13) {
+      const a = 7 * shape((x - x0) / (x1 - x0));
+      out += `<circle cx="${fmt(x)}" cy="${fmt(yc + dy * h)}" r="2.6" fill="#24473a"><animateTransform attributeName="transform" type="translate" dur="${period}s" repeatCount="indefinite" ${spline} values="${fmt(-a)} 0;${fmt(a)} 0;${fmt(-a)} 0"/></circle>`;
+    }
+  }
+  svg.motionGroup(out);
 }
 
 /** Frequency axis position for the log scale of the loudness graphs. */
@@ -289,13 +406,26 @@ export default {
     });
     const xs = 300;
     const p = fromString(0.25, 300);
-    stringField(svg, xs, 50, 350, 20, 600, p, {
-      lineAt: [
-        [xs + 70, 'c'],
-        [xs - 70, 'r'],
-      ],
+    svg.still(() => {
+      stringField(svg, xs, 50, 350, 20, 600, p, {
+        lineAt: [
+          [xs + 70, 'c'],
+          [xs - 70, 'r'],
+        ],
+      });
+      bowedString(svg, xs, 52, 348, 18);
     });
-    bowedString(svg, xs, 52, 348, 18);
+    // For readers who allow motion, the string starts from rest and swings
+    // right, pushing out the first compression.
+    svg.motionGroup(
+      stringStart(svg, xs, 50, 350, 20, 600, 300, 0.25, 18, {
+        run: 1.4,
+        marks: [
+          [xs + 70, 'c'],
+          [xs - 70, 'r'],
+        ],
+      })
+    );
     svg.arrow(xs + 22, 200, xs + 90, 200, { color: COLORS.black, width: 2, head: 14 });
     clamp(svg, xs, 40);
     clamp(svg, xs, 360);
@@ -319,10 +449,15 @@ export default {
     const xs = 300;
     const t = 0.75;
     const lam = 300;
-    stringField(svg, xs, 50, 350, 20, 600, fromString(t, lam), {
-      lineAt: bands(xs, t, lam, 20, 600),
+    svg.still(() => {
+      stringField(svg, xs, 50, 350, 20, 600, fromString(t, lam), {
+        lineAt: bands(xs, t, lam, 20, 600),
+      });
+      bowedString(svg, xs, 52, 348, -18);
     });
-    bowedString(svg, xs, 52, 348, -18);
+    // For readers who allow motion, the string starts from rest and swings
+    // right and then left, sending the first compression and rarefaction out.
+    svg.motionGroup(stringStart(svg, xs, 50, 350, 20, 600, lam, t, 18, { run: 3 }));
     svg.arrow(xs - 22, 200, xs - 90, 200, { color: COLORS.black, width: 2, head: 14 });
     clamp(svg, xs, 40);
     clamp(svg, xs, 360);
@@ -340,10 +475,30 @@ export default {
     const xs = 330;
     const t = 2.15;
     const lam = 180;
-    stringField(svg, xs, 50, 330, 20, 640, fromString(t, lam), {
-      lineAt: bands(xs, t, lam, 20, 640),
+    svg.still(() => {
+      stringField(svg, xs, 50, 330, 20, 640, fromString(t, lam), {
+        lineAt: bands(xs, t, lam, 20, 640),
+      });
+      for (const b of [-22, -12, 0, 12, 22]) bowedString(svg, xs, 52, 328, b, { width: 1.8 });
     });
-    for (const b of [-22, -12, 0, 12, 22]) bowedString(svg, xs, 52, 328, b, { width: 1.8 });
+    // For readers who allow motion, the string keeps swinging and the
+    // compressions and rarefactions keep moving out, one wavelength per period.
+    const P = 1.6;
+    const dur = `${P}s`;
+    svg.motionGroup(
+      `${soundStrips(svg, xs, 50, 330, 20, 640, t, lam, -lam, 330, {
+        dur,
+        keyTimes: [0, 1],
+        shift: [0, lam],
+      })}${morph(
+        Array.from({ length: 25 }, (_, k) =>
+          svg.capture(() =>
+            bowedString(svg, xs, 52, 328, 22 * Math.sin(2 * Math.PI * (t + k / 24)))
+          )
+        ),
+        { dur }
+      )}`
+    );
     svg.arrow(xs - 4, 190, xs - 40, 190, { color: COLORS.black, width: 1.8, head: 11 });
     svg.arrow(xs + 4, 190, xs + 40, 190, { color: COLORS.black, width: 1.8, head: 11 });
     clamp(svg, xs, 40);
@@ -358,7 +513,21 @@ export default {
     });
     g.axes({ arrows: true, xAxisAt: 0 });
     const p = fromString(t, lam);
-    g.fn(x => p(x, 1) ?? 0, 0, Math.min(300, t * lam), { color: COLORS.black, width: 2.5, n: 300 });
+    svg.still(() =>
+      g.fn(x => p(x, 1) ?? 0, 0, Math.min(300, t * lam), {
+        color: COLORS.black,
+        width: 2.5,
+        n: 300,
+      })
+    );
+    svg.add(
+      `<defs><clipPath id="graph_17_01_04"><rect x="${g.X(0)}" y="${g.y - 10}" width="300" height="${g.h + 20}"/></clipPath></defs>`
+    );
+    svg.motionGroup(
+      `<g clip-path="url(#graph_17_01_04)"><g>${svg.capture(() =>
+        g.fn(x => p(x, 1), -lam, 300, { color: COLORS.black, width: 2.5, n: 360 })
+      )}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" values="0 0;${lam} 0"/></g></g>`
+    );
     lab(svg, g.X(0) - 8, g.Y(1), '+', { anchor: 'end' });
     lab(svg, g.X(0) - 8, g.Y(0), '0', { anchor: 'end' });
     lab(svg, g.X(0) - 8, g.Y(-1), '−', { anchor: 'end' });
@@ -378,31 +547,73 @@ export default {
     const c = [380, 200];
     const lam = 52;
     const R = 270;
-    const fill = radial(svg, ...c, R, u => {
-      const d = u * R;
-      return d < 20 ? 0.4 : 0.42 + 0.45 * Math.cos((2 * Math.PI * (d - 20)) / lam);
-    });
-    for (const s of [-1, 1]) {
+    // Shade at distance d, a fraction t of a period after the still.
+    const shade = (d, t = 0) =>
+      d < 20 ? 0.4 : 0.42 + 0.45 * Math.cos(2 * Math.PI * ((d - 20) / lam - t));
+    const fill = radial(svg, ...c, R, u => shade(u * R));
+    const wedge = (s, r0 = 0) => {
       const a = rad(36);
-      const pts = [
-        c,
-        [c[0] + s * R * Math.cos(a), c[1] - R * Math.sin(a)],
-        [c[0] + s * R * Math.cos(a), c[1] + R * Math.sin(a)],
-      ];
-      svg.add(
-        `<path d="M ${c[0]} ${c[1]} L ${pts[1][0]} ${pts[1][1]} A ${R} ${R} 0 0 ${s > 0 ? 1 : 0} ${pts[2][0]} ${pts[2][1]} Z" fill="${fill}"/>`
+      const [cs, sn] = [s * Math.cos(a), Math.sin(a)];
+      const sweep = s > 0 ? 1 : 0;
+      return `M ${fmt(c[0] + r0 * cs)} ${fmt(c[1] - r0 * sn)} L ${fmt(c[0] + R * cs)} ${fmt(c[1] - R * sn)} A ${R} ${R} 0 0 ${sweep} ${fmt(c[0] + R * cs)} ${fmt(c[1] + R * sn)} L ${fmt(c[0] + r0 * cs)} ${fmt(c[1] + r0 * sn)} A ${r0} ${r0} 0 0 ${1 - sweep} ${fmt(c[0] + r0 * cs)} ${fmt(c[1] - r0 * sn)} Z`;
+    };
+    const front = (s, r) => {
+      const t0 = rad(s > 0 ? -36 : 144);
+      const t1 = t0 + rad(72);
+      const P = a => `${fmt(c[0] + r * Math.cos(a))} ${fmt(c[1] - r * Math.sin(a))}`;
+      return `M ${P(t0)} A ${fmt(Math.abs(r))} ${fmt(Math.abs(r))} 0 0 ${r > 0 ? 0 : 1} ${P(t1)}`;
+    };
+    svg.still(() => {
+      for (const s of [-1, 1]) {
+        svg.add(`<path d="${wedge(s)}" fill="${fill}"/>`);
+        for (let k = 0; k < 5; k += 1) {
+          for (const [off, dash] of [
+            [0, undefined],
+            [0.5, '6 5'],
+          ]) {
+            const r = 20 + (k + off) * lam + 6;
+            if (r > R - 4) continue;
+            const t0 = s > 0 ? -36 : 144;
+            svg.arc(...c, r, t0, t0 + 72, { color: dash ? '#6a3d9a' : '#5d6fb3', width: 2, dash });
+          }
+        }
+      }
+    });
+    // For readers who allow motion, the bands move out from the fork at v_w,
+    // one wavelength per period: the shading's stops cycle through their
+    // colors, and each front grows by λ before the next takes its place.
+    const P = 1.2;
+    const dur = `${P}s`;
+    const n = 120;
+    let stops = '';
+    for (let k = 0; k <= n; k += 1) {
+      const u = k / n;
+      const colors = cycle(1, 12).map(t =>
+        rgb(mix(AIR_LO, AIR_HI, Math.max(0, Math.min(1, shade(u * R, t)))))
       );
-      for (let k = 0; k < 5; k += 1) {
+      stops += `<stop offset="${(u * 100).toFixed(2)}%" stop-color="${colors[0]}"><animate attributeName="stop-color" dur="${dur}" repeatCount="indefinite" values="${colors.join(';')}"/></stop>`;
+    }
+    let moving = `<defs><radialGradient id="air_17_02_02" gradientUnits="userSpaceOnUse" cx="${c[0]}" cy="${c[1]}" r="${R}">${stops}</radialGradient>`;
+    for (const s of [-1, 1])
+      moving += `<clipPath id="ring_17_02_02_${s > 0 ? 'r' : 'l'}"><path d="${wedge(s, 20)}"/></clipPath>`;
+    moving += '</defs>';
+    for (const s of [-1, 1]) {
+      moving += `<path d="${wedge(s)}" fill="url(#air_17_02_02)"/>`;
+      let fronts = '';
+      for (let k = -1; k < 5; k += 1) {
         for (const [off, dash] of [
-          [0, undefined],
-          [0.5, '6 5'],
+          [0, ''],
+          [0.5, ' stroke-dasharray="6 5"'],
         ]) {
           const r = 20 + (k + off) * lam + 6;
           if (r > R - 4) continue;
-          const t0 = s > 0 ? -36 : 144;
-          svg.arc(...c, r, t0, t0 + 72, { color: dash ? '#6a3d9a' : '#5d6fb3', width: 2, dash });
+          fronts += `<path d="${front(s, r)}" fill="none" stroke="${dash ? '#6a3d9a' : '#5d6fb3'}" stroke-width="2"${dash}><animate attributeName="d" dur="${dur}" repeatCount="indefinite" values="${front(s, r)};${front(s, r + lam)}"/></path>`;
         }
       }
+      moving += `<g clip-path="url(#ring_17_02_02_${s > 0 ? 'r' : 'l'})">${fronts}</g>`;
+    }
+    svg.motionGroup(moving);
+    for (const s of [-1, 1]) {
       svg.arrow(c[0] + s * (R + 10), c[1], c[0] + s * (R + 80), c[1], {
         color: COLORS.green,
         width: 4,
@@ -473,6 +684,77 @@ export default {
     return svg.render();
   },
 
+  // 17.4 Fig. 2 — a moving source crowds its waves ahead of it
+  Figure_17_04_03: () => {
+    const svg = new Svg({
+      width: 700,
+      height: 450,
+      title: 'Sound waves from a moving source',
+      desc: 'A car drives to the right between two observers, X on the left and Y on the right. Its horn emitted a sound wave at each of the numbered points 1 to 5, and each wave spreads out as a circle centered on the point where it was emitted. The car has since moved on, so the circles are crowded together ahead of it, toward Y, and spread apart behind it, toward X. Y hears a shorter wavelength and a higher frequency, X a longer wavelength and a lower frequency. Faded copies of the car show where it was earlier.',
+    });
+    const G = 385;
+    const hy = G - 97;
+    // v_s = 0.6 v_w: the points are 27 px apart, the circles 45 px.
+    const [step, ratio] = [27, 0.6];
+    const xi = i => 312 + step * (i - 1);
+    const now = 450;
+    const Ri = i => (now - xi(i)) / ratio;
+    svg.rect(0, G, 700, 14, { fill: '#d9c9a8' });
+    svg.line(0, G, 700, G, { color: '#b8a47c', width: 2 });
+    person(svg, 50, G, { hair: '#f2c94c', legs: '#7fa98c' });
+    person(svg, 650, G, { hair: '#7a4a2a', legs: '#7fa98c', skirt: true });
+    note(svg, 50, G + 40, 'X', { size: 26 });
+    note(svg, 650, G + 40, 'Y', { size: 26 });
+    svg.add(
+      `<defs><clipPath id="air_17_04_03"><rect x="0" y="0" width="700" height="${G}"/></clipPath></defs>`
+    );
+    const wave = (i, r) =>
+      svg.circle(xi(i), hy, r, { fill: 'none', stroke: '#9aa9c9', width: 2.2 });
+    const mark = i => {
+      svg.circle(xi(i), hy, 6, { fill: '#5b7fb8', stroke: '#2f4f86', width: 1.5 });
+      note(svg, xi(i), hy - 20, String(i), { size: 17 });
+    };
+    const ringLabel = (i, r) =>
+      note(svg, xi(i) + r * 0.34, hy - r * 0.94 + 14, String(i), { size: 18 });
+    svg.still(() => {
+      for (const x of [xi(1), xi(3)])
+        svg.add(`<g opacity="0.3">${svg.capture(() => car(svg, x, G))}</g>`);
+      svg.add(`<g clip-path="url(#air_17_04_03)">`);
+      for (let i = 1; i <= 5; i += 1) wave(i, Ri(i));
+      svg.add('</g>');
+      car(svg, now, G);
+      for (let i = 1; i <= 5; i += 1) {
+        mark(i);
+        ringLabel(i, Ri(i));
+      }
+    });
+    // For readers who allow motion, the car drives in from the left, sending
+    // out a wave at each numbered point; each wave spreads from where it was
+    // sent, so the fronts bunch up ahead of the car and spread out behind it.
+    const [hold, run, rest, fade] = [0.5, 4.4, 2.2, 0.4];
+    const T = hold + run + rest + fade;
+    const dur = `${fmt(T)}s`;
+    const x0 = xi(1) - 60;
+    const at = x => (hold + (run * (x - x0)) / (now - x0)) / T;
+    const end = (hold + run) / T;
+    let waves = '';
+    for (let i = 1; i <= 5; i += 1) {
+      const t = at(xi(i));
+      waves += `<circle cx="${fmt(xi(i))}" cy="${hy}" r="0" fill="none" stroke="#9aa9c9" stroke-width="2.2">${smilAnimate('r', [0, 0, Ri(i), Ri(i)], { dur, keyTimes: [0, t, end, 1] })}</circle>`;
+    }
+    let marks = '';
+    for (let i = 1; i <= 5; i += 1) {
+      const t = at(xi(i));
+      marks += `<g opacity="0">${smilAnimate('opacity', [0, 0, 1, 1], { dur, keyTimes: [0, t, t + 0.0001, 1] })}${svg.capture(() => mark(i))}</g>`;
+      marks += `<g opacity="0">${smilAnimate('opacity', [0, 0, 1, 1], { dur, keyTimes: [0, end, end + 0.06, 1] })}${svg.capture(() => ringLabel(i, Ri(i)))}</g>`;
+    }
+    const drive = `<g>${svg.capture(() => car(svg, now, G))}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" keyTimes="0;${fmt(hold / T)};${fmt(end)};1" values="${x0 - now} 0;${x0 - now} 0;0 0;0 0"/></g>`;
+    svg.motionGroup(
+      `<g>${smilAnimate('opacity', [0, 1, 1, 0], { dur, keyTimes: [0, 0.3 / T, (T - fade) / T, 1] })}<g clip-path="url(#air_17_04_03)">${waves}</g>${drive}${marks}</g>`
+    );
+    return svg.render();
+  },
+
   // 17.4 Fig. 5 — the Mach cone of a supersonic source
   Figure_17_04_05: () => {
     const svg = new Svg({
@@ -487,39 +769,78 @@ export default {
     const S = [640, y];
     const step = 52;
     const half = Math.asin(1 / ratio);
-    for (let i = 1; i <= 6; i += 1) {
-      const x = S[0] - (7 - i) * step;
-      // Emitted (S − x)/v_s ago, so its radius is v_w times that.
-      const R = (S[0] - x) / ratio;
-      svg.circle(x, y, R, { fill: 'none', stroke: '#7b4fa6', width: 2 });
-      svg.circle(x, y, 6, { fill: COLORS.black });
-      lab(svg, x, y + 24, String(i), { size: 20, math: false });
+    const xi = i => S[0] - (7 - i) * step;
+    const ar = 450;
+    const cone = () => {
+      // The cone's edges stop at the top and bottom of the figure, past the
+      // points where they touch the circles.
+      const len = (y - 12) / Math.sin(half);
+      for (const s of [1, -1]) {
+        svg.line(S[0], y, S[0] - len * Math.cos(half), y - s * len * Math.sin(half), {
+          color: COLORS.maroon,
+          width: 3,
+        });
+      }
+      // The arc marking θ meets both edges of the cone inside the figure.
+      svg.arc(...S, ar, 180 - (half * 180) / Math.PI, 180 + (half * 180) / Math.PI, {
+        color: COLORS.black,
+        width: 1.8,
+      });
+      lab(svg, S[0] - ar - 10, y - 40, 'θ', { anchor: 'end', size: 24 });
+    };
+    // Emitted (S − x)/v_s ago, so its radius is v_w times that.
+    const Ri = i => (S[0] - xi(i)) / ratio;
+    const ring = i => {
       const a = Math.PI / 2 + half;
-      lab(svg, x + (R + 14) * Math.cos(a), y - (R + 14) * Math.sin(a), String(i), {
+      lab(svg, xi(i) + (Ri(i) + 14) * Math.cos(a), y - (Ri(i) + 14) * Math.sin(a), String(i), {
         size: 18,
         math: false,
       });
-    }
-    // The cone's edges stop at the top and bottom of the figure, past the points
-    // where they touch the circles.
-    const len = (y - 12) / Math.sin(half);
-    for (const s of [1, -1]) {
-      svg.line(S[0], y, S[0] - len * Math.cos(half), y - s * len * Math.sin(half), {
-        color: COLORS.maroon,
-        width: 3,
-      });
-    }
-    svg.line(30, y, S[0], y, { color: COLORS.black, width: 1.2 });
-    svg.arrow(S[0] - 4, y, S[0] + 30, y, { color: COLORS.green, width: 5, head: 18 });
-    lab(svg, S[0] - 6, y + 44, 'v_s > v_w', { anchor: 'start' });
-    // The arc marking θ meets both edges of the cone inside the figure.
-    const ar = 450;
-    svg.arc(...S, ar, 180 - (half * 180) / Math.PI, 180 + (half * 180) / Math.PI, {
-      color: COLORS.black,
-      width: 1.8,
+    };
+    const mark = i => {
+      svg.circle(xi(i), y, 6, { fill: COLORS.black });
+      lab(svg, xi(i), y + 24, String(i), { size: 20, math: false });
+    };
+    const source = (x = S[0]) => {
+      svg.arrow(x - 4, y, x + 30, y, { color: COLORS.green, width: 5, head: 18 });
+      lab(svg, x - 6, y + 44, 'v_s > v_w', { anchor: 'start' });
+      svg.circle(x, y, 6, { fill: COLORS.black });
+    };
+    const axis = () => svg.line(30, y, S[0], y, { color: COLORS.black, width: 1.2 });
+    svg.still(() => {
+      for (let i = 1; i <= 6; i += 1) {
+        svg.circle(xi(i), y, Ri(i), { fill: 'none', stroke: '#7b4fa6', width: 2 });
+        mark(i);
+        ring(i);
+      }
+      cone();
+      axis();
+      source();
     });
-    lab(svg, S[0] - ar - 10, y - 40, 'θ', { anchor: 'end', size: 24 });
-    svg.circle(...S, 6, { fill: COLORS.black });
+    // For readers who allow motion, the source flies in from the left. Each
+    // wave starts as it passes a numbered point and spreads at v_w, slower
+    // than the source; once the source arrives, the cone along which they
+    // pile up is drawn.
+    const [hold, run, rest, fade] = [0.5, 3.6, 2.6, 0.4];
+    const T = hold + run + rest + fade;
+    const dur = `${fmt(T)}s`;
+    const x0 = xi(1) - step / 2;
+    const at = x => (hold + (run * (x - x0)) / (S[0] - x0)) / T;
+    const end = (hold + run) / T;
+    const appear = (t, o = 0.0001) =>
+      smilAnimate('opacity', [0, 0, 1, 1], { dur, keyTimes: [0, t, t + o, 1] });
+    let waves = '';
+    for (let i = 1; i <= 6; i += 1) {
+      const t = at(xi(i));
+      waves += `<circle cx="${fmt(xi(i))}" cy="${y}" r="0" fill="none" stroke="#7b4fa6" stroke-width="2">${smilAnimate('r', [0, 0, Ri(i), Ri(i)], { dur, keyTimes: [0, t, end, 1] })}</circle>`;
+      waves += `<g opacity="0">${appear(t)}${svg.capture(() => mark(i))}</g>`;
+      waves += `<g opacity="0">${appear(end, 0.06)}${svg.capture(() => ring(i))}</g>`;
+    }
+    waves += `<g opacity="0">${appear(end, 0.06)}${svg.capture(cone)}</g>`;
+    waves += `<g>${svg.capture(() => source())}<animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" keyTimes="0;${fmt(hold / T)};${fmt(end)};1" values="${fmt(x0 - S[0])} 0;${fmt(x0 - S[0])} 0;0 0;0 0"/></g>`;
+    svg.motionGroup(
+      `${svg.capture(axis)}<g>${smilAnimate('opacity', [0, 1, 1, 0], { dur, keyTimes: [0, 0.3 / T, (T - fade) / T, 1] })}${waves}</g>`
+    );
     return svg.render();
   },
 
@@ -768,6 +1089,7 @@ export default {
       tubeMode(svg, x0, x0 + W, 110, 70, u => Math.abs(Math.cos(n * Math.PI * u)), {
         closedLeft: false,
       });
+      airParcels(svg, x0, x0 + W, 110, 70, u => Math.cos(n * Math.PI * u), fmt(3.2 / n));
       dim(svg, x0, x0 + W, 50, 'L');
       const one = W / (n === 1 ? 1 : n / 2);
       dim(svg, x0, x0 + Math.min(W, one), 170, seg, { below: true });
@@ -979,6 +1301,63 @@ export default {
 };
 
 /** 17.5 Figs. 3–5: a tuning fork at the open end of a closed tube, with its pulse. */
+/**
+ * A red sports car seen from its left side, driving right, with its horn at
+ * (x, ground − 97): the point the waves of 17.4 Fig. 2 come from.
+ */
+function car(svg, x, ground) {
+  const k = 0.8;
+  const P = (dx, dy) => `${fmt(x + k * dx)} ${fmt(ground + dy)}`;
+  svg.path(
+    `M ${P(-200, -26)} L ${P(-204, -78)} L ${P(-150, -88)} L ${P(-70, -96)} Q ${P(-20, -122)} ${P(40, -98)} L ${P(120, -72)} L ${P(178, -62)} Q ${P(196, -50)} ${P(190, -30)} L ${P(184, -24)} Z`,
+    { color: '#6d1018', width: 2, fill: '#b5232f' }
+  );
+  svg.path(`M ${P(-60, -94)} Q ${P(-18, -116)} ${P(30, -97)} L ${P(66, -84)} L ${P(-60, -84)} Z`, {
+    color: '#6d1018',
+    width: 1.5,
+    fill: '#dfe9f2',
+  });
+  svg.line(x - k * 196, ground - 58, x + k * 176, ground - 50, { color: '#ffffff', width: 3 });
+  for (const dx of [-120, 124]) {
+    svg.circle(x + k * dx, ground - 22, 24, { fill: '#2b2b2e' });
+    svg.circle(x + k * dx, ground - 22, 12, { fill: '#c9cbd0', stroke: '#6f7278', width: 1.5 });
+  }
+}
+
+/** A standing observer with feet at (x, ground). */
+function person(svg, x, ground, { hair, legs, skirt = false }) {
+  const skin = '#f2c9a0';
+  if (skirt) {
+    svg.polygon(
+      [
+        [x - 12, ground - 70],
+        [x + 12, ground - 70],
+        [x + 20, ground - 44],
+        [x - 20, ground - 44],
+      ],
+      { fill: legs }
+    );
+    for (const dx of [-7, 7])
+      svg.line(x + dx, ground - 44, x + dx, ground - 4, { color: skin, width: 6 });
+  } else {
+    for (const dx of [-7, 7])
+      svg.line(x + dx, ground - 70, x + dx, ground - 4, { color: legs, width: 11 });
+  }
+  for (const dx of [-8, 8]) svg.rect(x + dx - 7, ground - 6, 14, 6, { fill: '#555555', rx: 2 });
+  svg.rect(x - 16, ground - 116, 32, 48, { fill: '#ffffff', stroke: '#9a9a9a', width: 1.2, rx: 6 });
+  for (const dx of [-21, 21])
+    svg.line(x + dx, ground - 110, x + dx, ground - 74, { color: skin, width: 7 });
+  svg.circle(x, ground - 132, 14, { fill: skin });
+  svg.path(
+    `M ${x - 15} ${ground - 132} Q ${x} ${ground - 158} ${x + 15} ${ground - 132} Q ${x} ${ground - 142} ${x - 15} ${ground - 132} Z`,
+    {
+      color: hair,
+      width: 1,
+      fill: hair,
+    }
+  );
+}
+
 function pulseInTube({ direction, tip, reach = 0.55, spread, title, desc }) {
   const svg = new Svg({ width: 760, height: 360, title, desc });
   const x0 = 30;
@@ -995,9 +1374,51 @@ function pulseInTube({ direction, tip, reach = 0.55, spread, title, desc }) {
     hi: [126, 146, 205],
     n: 60,
   });
-  const wedge = `M ${tipX} ${yc} Q ${(tipX + frontX) / 2} ${yc - h * 0.4} ${frontX} ${yc - h * 0.42} Q ${frontX - direction * 10} ${yc} ${frontX} ${yc + h * 0.42} Q ${(tipX + frontX) / 2} ${yc + h * 0.4} ${tipX} ${yc} Z`;
-  gradientId += 0;
-  svg.add(`<path d="${wedge}" fill="${fill}" stroke="#7d8cc4" stroke-width="1.2"/>`);
+  const wedge = (a, b) =>
+    `<path d="M ${fmt(a)} ${yc} Q ${fmt((a + b) / 2)} ${yc - h * 0.4} ${fmt(b)} ${yc - h * 0.42} Q ${fmt(b - direction * 10)} ${yc} ${fmt(b)} ${yc + h * 0.42} Q ${fmt((a + b) / 2)} ${yc + h * 0.4} ${fmt(a)} ${yc} Z" fill="${fill}" stroke="#7d8cc4" stroke-width="1.2"/>`;
+  const fx = 640;
+  const fy = 210;
+  const tines = { gap: 30, tine: 170, w: 22, stem: 120 };
+  // For readers who allow motion, the pulse runs along the tube to where the
+  // still figure has it: in from the open end (spread > 0), back from the
+  // closed end (spread 0), or on to the open end (spread < 0), while the
+  // fork's tines move apart or together.
+  const [from, to] =
+    spread > 0
+      ? [
+          [tipX + (x1 - frontX), x1],
+          [tipX, frontX],
+        ]
+      : spread === 0
+        ? [
+            [tipX - (frontX - x0), x0],
+            [tipX, frontX],
+          ]
+        : [
+            [tipX, x0 + 0.55 * L],
+            [tipX, frontX],
+          ];
+  svg.add(
+    `<defs><clipPath id="tube_${title.length}_${spread}"><rect x="${x0}" y="${yc - h / 2}" width="${L}" height="${h}"/></clipPath></defs>`
+  );
+  const open = 8;
+  svg.animatedOnce(
+    (f, moving, shown) => {
+      if (!moving) {
+        svg.add(wedge(tipX, frontX));
+        fork(svg, fx, fy, tines);
+        return;
+      }
+      const at = k => from[k] + (to[k] - from[k]) * f;
+      svg.add(`<g opacity="${shown}"><g clip-path="url(#tube_${title.length}_${spread})">`);
+      svg.add(wedge(at(0), at(1)));
+      svg.add('</g></g>');
+      const sp = spread > 0 ? open * f : spread < 0 ? open * (1 - f) : 0;
+      fork(svg, fx, fy, { ...tines, spread: sp });
+    },
+    Array.from({ length: 25 }, (_, k) => k / 24),
+    { run: 2.2, hold: 0.6 }
+  );
   if (direction < 0)
     svg.arrow(x0 + 0.9 * L, yc, x0 + 0.62 * L, yc, { color: COLORS.black, width: 2, head: 15 });
   else
@@ -1006,9 +1427,6 @@ function pulseInTube({ direction, tip, reach = 0.55, spread, title, desc }) {
       width: 2,
       head: 15,
     });
-  const fx = 640;
-  const fy = 210;
-  fork(svg, fx, fy, { gap: 30, tine: 170, w: 22, stem: 120 });
   if (spread > 0) {
     svg.arrow(fx - 34, 70, fx - 140, 70, { color: COLORS.black, width: 2, head: 15 });
     svg.arrow(fx + 34, 70, fx + 110, 70, { color: COLORS.black, width: 2, head: 15 });
@@ -1039,6 +1457,9 @@ function closedTubeSeries() {
     const m = 2 * i + 1;
     const x0 = 20 + i * (W + 40);
     tubeMode(svg, x0, x0 + W, 110, 70, u => Math.abs(Math.sin(((m * Math.PI) / 2) * u)));
+    // The air swings most at the open end and not at all at the closed one,
+    // m times as often as in the fundamental.
+    airParcels(svg, x0, x0 + W, 110, 70, u => Math.sin(((m * Math.PI) / 2) * u), fmt(3.2 / m));
     dim(svg, x0, x0 + W, 170, 'L', { below: true });
     const span = i === 0 || i === 1 ? W : (4 * W) / m;
     dim(svg, x0, x0 + span, 50, seg);

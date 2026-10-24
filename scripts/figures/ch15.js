@@ -10,11 +10,15 @@
  * In the engine and heat-pump diagrams the widths of the heat and work arrows
  * are proportional to the energies they carry, so Q_h = W + Q_c can be read
  * from the drawing; the numbered Carnot engines of 15.6 use their numbers.
+ *
+ * For readers who allow motion, a state point goes round the PV cycles, the
+ * four strokes of the gasoline engine play in turn, the working fluid of the
+ * heat pump circulates, and the gas of 15.7 moves and spreads out.
  */
-import { rng, scatter, within } from './ch13.js';
+import { bouncing, bouncingMarkup, rng, scatter, within } from './ch13.js';
 import { curve, gradient, heatArrow, heatPolygon } from './ch14.js';
 import { earth } from './ch28.js';
-import { COLORS, Plot, Svg, fmt } from './svg.js';
+import { COLORS, Plot, Svg, fmt, morph, smilAnimate } from './svg.js';
 
 const ARROW = COLORS.black;
 const SALMON = '#ef8a68';
@@ -354,12 +358,79 @@ function pistonPanel(svg, top, { px, ghost, pinAngle, extras }) {
   extras({ cyl, h, x0, wx, wy });
 }
 
-/** A four-stroke engine cylinder (15.3) with crank angle θ (degrees clockwise from top). */
+/**
+ * For readers who allow motion, a state point that goes round a cycle on a PV
+ * diagram. `legs` are lists of pixel points, each taking `times[k]` seconds at
+ * a steady speed along it; `rest` seconds are spent at the start. With
+ * `glow`, each leg is redrawn in that color, thick and translucent, while the
+ * point is on it.
+ */
+function traceCycle(svg, legs, times, { rest = 0.6, glow, r = 8 } = {}) {
+  const T = rest + times.reduce((a, b) => a + b, 0);
+  const pts = [legs[0][0]];
+  const at = [0];
+  let t = rest;
+  const spans = [];
+  legs.forEach((leg, k) => {
+    spans.push([t, t + times[k]]);
+    const len = [0];
+    for (let i = 1; i < leg.length; i += 1)
+      len.push(len[i - 1] + Math.hypot(leg[i][0] - leg[i - 1][0], leg[i][1] - leg[i - 1][1]));
+    for (let i = 1; i < leg.length; i += 1) {
+      pts.push(leg[i]);
+      at.push(t + (times[k] * len[i]) / len.at(-1));
+    }
+    t += times[k];
+  });
+  // Hold at the start, then follow the legs.
+  const xs = [pts[0][0], ...pts.map(p => p[0])];
+  const ys = [pts[0][1], ...pts.map(p => p[1])];
+  const opt = { dur: `${fmt(T)}s`, keyTimes: [0, rest / T, ...at.slice(1).map(a => a / T)] };
+  let marks = '';
+  if (glow) {
+    legs.forEach((leg, k) => {
+      const [a, b] = spans[k].map(x => x / T);
+      // The last leg ends with the loop, so it needs no switch-off.
+      const off = b < 1 - 1e-6;
+      const show = smilAnimate('opacity', off ? [0, 0, 1, 1, 0, 0] : [0, 0, 1, 1], {
+        dur: `${fmt(T)}s`,
+        keyTimes: off ? [0, a, a + 0.0001, b, b + 0.0001, 1] : [0, a, a + 0.0001, 1],
+      });
+      marks += `<g opacity="0">${show}${svg.capture(() =>
+        svg.polyline(leg, { color: glow, width: 12, join: 'round' })
+      )}</g>`;
+    });
+    marks = `<g opacity="0.45">${marks}</g>`;
+  }
+  svg.motionGroup(
+    `${marks}<circle cx="${fmt(xs[0])}" cy="${fmt(ys[0])}" r="${r}" fill="${RED}" stroke="#ffffff" stroke-width="2">${smilAnimate('cx', xs, opt)}${smilAnimate('cy', ys, opt)}</circle>`
+  );
+}
+
+/**
+ * A four-stroke engine cylinder (15.3) with crank angle θ (degrees clockwise
+ * from top). `part` draws only the fixed block ('static') or only what moves
+ * ('moving'); `sparkOpacity` dims the spark, and `metal` reuses a piston
+ * gradient so that frames of an animation match.
+ */
 function strokePanel(
   svg,
   x0,
-  { theta, gas, intake = false, exhaust = false, spark = false, arrow, arrowColor = ARROW }
+  {
+    theta,
+    gas,
+    intake = false,
+    exhaust = false,
+    spark = false,
+    arrow,
+    arrowColor = ARROW,
+    part = 'all',
+    sparkOpacity = 1,
+    metal,
+  }
 ) {
+  const fixed = part !== 'moving';
+  const moving = part !== 'static';
   const cx = x0 + 125;
   const wall = '#4a7fc0';
   // Block: the cylinder above a wider crankcase with chamfered corners.
@@ -375,18 +446,22 @@ function strokePanel(
     [x0 + 205, 300],
     [x0 + 205, 100],
   ];
-  svg.polygon(outline, { fill: '#dfe8f3' });
-  svg.polyline(outline, { color: wall, width: 7 });
+  if (fixed) {
+    svg.polygon(outline, { fill: '#dfe8f3' });
+    svg.polyline(outline, { color: wall, width: 7 });
+  }
   // Piston motion from the crank: pin at radius R, rod length Lr.
   const [R, Lr, crankY] = [48, 175, 405];
   const t = (theta * Math.PI) / 180;
   const pin = [cx + R * Math.sin(t), crankY - R * Math.cos(t)];
   const pistonPinY = crankY - R * Math.cos(t) - Math.sqrt(Lr * Lr - (R * Math.sin(t)) ** 2);
   const pTop = pistonPinY - 45;
-  if (gas) svg.rect(x0 + 49, 100, 152, pTop - 100, { fill: gas });
+  if (gas && moving) svg.rect(x0 + 49, 100, 152, pTop - 100, { fill: gas });
   // Head with valves and plug.
-  svg.rect(x0 + 10, 72, 230, 14, { fill: '#9a9c9f', stroke: '#6d6e71', width: 1 });
-  svg.rect(x0 + 49, 86, 152, 14, { fill: '#c7c8ca' });
+  if (fixed) {
+    svg.rect(x0 + 10, 72, 230, 14, { fill: '#9a9c9f', stroke: '#6d6e71', width: 1 });
+    svg.rect(x0 + 49, 86, 152, 14, { fill: '#c7c8ca' });
+  }
   const valve = (vx, open, dir) => {
     const drop = open ? 18 : 0;
     svg.line(vx - dir * 18, 50, vx, 92 + drop, { color: '#c62828', width: 7, cap: 'round' });
@@ -400,18 +475,25 @@ function strokePanel(
       { fill: '#c62828' }
     );
   };
-  valve(x0 + 85, intake, -1);
-  valve(x0 + 165, exhaust, 1);
-  svg.polygon(
-    [
-      [cx - 16, 86],
-      [cx + 16, 86],
-      [cx, 112],
-    ],
-    { fill: '#bcbec0', stroke: '#6d6e71', width: 1 }
-  );
-  svg.rect(cx - 7, 30, 14, 56, { fill: '#555555' });
-  if (spark) {
+  if (moving) {
+    valve(x0 + 85, intake, -1);
+    valve(x0 + 165, exhaust, 1);
+  }
+  // The plug's tip reaches below the head, into the gas, so it is drawn with
+  // the moving parts, over the gas.
+  if (moving) {
+    svg.polygon(
+      [
+        [cx - 16, 86],
+        [cx + 16, 86],
+        [cx, 112],
+      ],
+      { fill: '#bcbec0', stroke: '#6d6e71', width: 1 }
+    );
+    svg.rect(cx - 7, 30, 14, 56, { fill: '#555555' });
+  }
+  if (spark && moving) {
+    svg.add(`<g opacity="${fmt(sparkOpacity)}">`);
     for (let k = 0; k < 10; k += 1) {
       const a = Math.PI * (0.1 + (0.8 * k) / 9);
       svg.line(
@@ -422,20 +504,20 @@ function strokePanel(
         { color: '#f4b400', width: 2.5 }
       );
     }
+    svg.add('</g>');
   }
   // Crank path, rod, pin, piston.
-  svg.add(
-    `<circle cx="${cx}" cy="${crankY}" r="${R + 18}" fill="none" stroke="${ARROW}" stroke-width="1.4" stroke-dasharray="6 6"/>`
-  );
-  svg.circle(cx, crankY, 24, { fill: '#f3dcb0', stroke: '#b98f50', width: 2 });
-  svg.circle(cx, crankY, 11, { fill: '#a7a9ac' });
+  if (fixed) {
+    svg.add(
+      `<circle cx="${cx}" cy="${crankY}" r="${R + 18}" fill="none" stroke="${ARROW}" stroke-width="1.4" stroke-dasharray="6 6"/>`
+    );
+    svg.circle(cx, crankY, 24, { fill: '#f3dcb0', stroke: '#b98f50', width: 2 });
+    svg.circle(cx, crankY, 11, { fill: '#a7a9ac' });
+  }
+  if (!moving) return;
   svg.line(cx, pistonPinY, ...pin, { color: '#8a8c8f', width: 16, cap: 'round' });
   svg.circle(...pin, 14, { fill: '#8a8c8f', stroke: '#555555', width: 1.2 });
-  const metal = gradient(svg, [
-    [0, '#555555'],
-    [0.45, '#e6e7e8'],
-    [1, '#555555'],
-  ]);
+  metal ??= pistonMetal(svg);
   svg.rect(cx - 74, pTop, 148, 85, { fill: metal, stroke: '#333333', width: 1.2, rx: 4 });
   if (arrow)
     svg.arrow(cx, arrow > 0 ? pTop + 15 : pTop + 70, cx, arrow > 0 ? pTop + 70 : pTop + 15, {
@@ -453,6 +535,14 @@ function strokePanel(
   }
   svg.polyline(pts, { color: ARROW, width: 2 });
   svg.arrow(...pts.at(-2), ...pts.at(-1), { color: ARROW, width: 2, head: 11 });
+}
+
+function pistonMetal(svg) {
+  return gradient(svg, [
+    [0, '#555555'],
+    [0.45, '#e6e7e8'],
+    [1, '#555555'],
+  ]);
 }
 
 /** The Otto cycle (15.3): adiabats through C–D and A–B between volumes vB and vA. */
@@ -1250,6 +1340,25 @@ export default {
     ]) {
       lab(svg, x + (a === 'end' ? -14 : 14), y, s, { italic: false, anchor: a, size: 26 });
     }
+    // For readers who allow motion, a state point goes round ABCFA and then
+    // round ABDEA.
+    const [A, B, C, D, E, F] = [
+      [x0, yA],
+      [x1, yA],
+      [x1, yF],
+      [x1, yE],
+      [x0, yE],
+      [x0, yF],
+    ];
+    traceCycle(
+      svg,
+      [
+        [A, B, C, F, A],
+        [A, B, D, E, A],
+      ],
+      [4, 4.6],
+      { glow: RED }
+    );
     return svg.render();
   },
 
@@ -1289,6 +1398,7 @@ export default {
       dot(svg, px(k), 8);
       svg.text(px(k)[0] + dx, px(k)[1] + dy, k, { size: 26, math: false });
     }
+    traceCycle(svg, [[px('A'), px('B'), px('C'), px('D'), px('A')]], [5], { r: 9 });
     lab(svg, g.x - 10, 22, 'P', { size: 26 });
     svg.text(g.x - 70, 60, '(10^6 N/m^2)', { size: 24, math: false });
     svg.text(g.x + 400, g.Y(0) + 100, '\\it{V} (10^{−3} m^3)', { size: 24, math: false });
@@ -1427,10 +1537,58 @@ export default {
       title: 'Four-stroke gasoline engine',
       desc: '(a) Intake: the piston moves down and the intake valve opens, drawing in an air–fuel mixture. (b) Compression: with both valves closed, the piston moves up and compresses the mixture. (c) Power: a spark ignites the mixture, and the hot gas pushes the piston down with force F = PA. (d) Exhaust: the exhaust valve opens and the piston moves up, pushing out the burned gas. The crankshaft turns clockwise throughout.',
     });
-    strokePanel(svg, 0, { theta: 110, gas: '#cbeef1', intake: true, arrow: 1 });
-    strokePanel(svg, 250, { theta: 320, gas: '#a8dfe6', arrow: -1 });
-    strokePanel(svg, 500, { theta: 30, gas: '#fde3cf', spark: true, arrow: 1, arrowColor: RED });
-    strokePanel(svg, 750, { theta: 230, gas: '#f8b8a0', exhaust: true, arrow: -1 });
+    // For readers who allow motion, the strokes play in turn, panel by panel,
+    // as the crank makes two turns; the pistons then fade back to their starts.
+    const panels = [
+      [0, 110, { gas: '#cbeef1', intake: true, arrow: 1 }],
+      [250, 320, { gas: '#a8dfe6', arrow: -1 }],
+      [500, 30, { gas: '#fde3cf', spark: true, arrow: 1, arrowColor: RED }],
+      [750, 230, { gas: '#f8b8a0', exhaust: true, arrow: -1 }],
+    ];
+    const metal = pistonMetal(svg);
+    for (const [x0, theta, o] of panels) strokePanel(svg, x0, { theta, ...o, part: 'static' });
+    svg.still(() => {
+      for (const [x0, theta, o] of panels)
+        strokePanel(svg, x0, { theta, ...o, metal, part: 'moving' });
+    });
+    const [slot, fade] = [1.6, 0.35];
+    const T = 4 * slot + 2 * fade + 0.4;
+    panels.forEach(([x0, , o], k) => {
+      const start = 180 * k;
+      // [time, crank angle, opacity]
+      // [time, crank angle, opacity, spark]. The spark fires as the power
+      // stroke begins, then dies away.
+      const sparkAt = d => (o.spark ? Math.max(0, 1 - d / 50) : 1);
+      const keys = k
+        ? [
+            [0, start, 1, sparkAt(180)],
+            [k * slot - 0.001, start, 1, sparkAt(180)],
+          ]
+        : [];
+      for (let d = 0; d <= 180; d += 10)
+        keys.push([k * slot + (slot * d) / 180, start + d, 1, sparkAt(d)]);
+      const end = sparkAt(180);
+      keys.push([T - 2 * fade, start + 180, 1, end], [T - fade, start + 180, 0, end]);
+      keys.push([T - fade + 0.001, start, 0, end], [T, start, 1, end]);
+      svg.motionGroup(
+        morph(
+          keys.map(([, th, shown, spark]) =>
+            svg.capture(() => {
+              svg.add(`<g opacity="${shown}">`);
+              strokePanel(svg, x0, {
+                theta: th,
+                ...o,
+                metal,
+                part: 'moving',
+                sparkOpacity: spark,
+              });
+              svg.add('</g>');
+            })
+          ),
+          { dur: `${fmt(T)}s`, keyTimes: keys.map(([t]) => t / T) }
+        )
+      );
+    });
     svg.arrow(0, 92, 45, 92, { color: ARROW, width: 2, head: 11 });
     labs(svg, 20, 128, ['Air', 'fuel'], { italic: false, size: 20, gap: 22 });
     lab(svg, 225, 140, 'Piston', { italic: false, size: 20, anchor: 'start' });
@@ -1461,6 +1619,8 @@ export default {
       pA: 0.03,
       labels: true,
     });
+    // Compression A→B, ignition B→C, power stroke C→D, exhaust D→A.
+    traceCycle(svg, [bottom, [B, C], top, [D, A]], [1.6, 0.4, 1.6, 0.4], { glow: RED });
     heatArrow(
       svg,
       [
@@ -1585,6 +1745,7 @@ export default {
     lab(svg, BC[0][0] + 12, BC[0][1] - 16, 'B', { italic: false, anchor: 'start' });
     lab(svg, CD[0][0] + 6, CD[0][1] + 22, 'C', { italic: false, anchor: 'start' });
     lab(svg, DA[0][0] - 4, DA[0][1] + 24, 'D', { italic: false });
+    traceCycle(svg, [AB, BC, CD, DA], [1.5, 1.5, 1.5, 1.5], { glow: RED });
     carnotLabels(svg, g, cyc, false);
     engine(svg, 760, 25, { qc: 24, w: 22, reach: 130 });
     return svg.render();
@@ -1865,6 +2026,29 @@ export default {
       ],
       Rd
     );
+    // For readers who allow motion, parcels of working fluid go round the
+    // circuit: hot (red) from the compressor through the condenser, cold
+    // (blue) from the expansion valve through the evaporator.
+    const circuit = [
+      [298, yBot],
+      [x1 - 10, yBot],
+      [x1, yBot - 10],
+      [x1, yTop + 10],
+      [x1 - 10, yTop],
+      [298, yTop],
+      [x3 + 10, yTop],
+      [x3, yTop + 10],
+      [x3, yBot - 10],
+      [x3 + 10, yBot],
+      [298, yBot],
+    ];
+    const route = circuit.map(([x, y], k) => `${k ? 'L' : 'M'} ${x} ${y}`).join(' ');
+    const loopDur = 8;
+    let parcels = '';
+    for (let k = 0; k < 14; k += 1) {
+      parcels += `<circle r="7" fill="${Rd}" stroke="#ffffff" stroke-width="1.5"><animateMotion dur="${loopDur}s" begin="${fmt((-loopDur * k) / 14)}s" repeatCount="indefinite" path="${route}"/><animate attributeName="fill" dur="${loopDur}s" begin="${fmt((-loopDur * k) / 14)}s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5" values="${Rd};${B}"/></circle>`;
+    }
+    svg.motionGroup(parcels);
     for (const [x, y, dy, c] of [
       [x3, 215, 1, B],
       [x3, 455, 1, B],
@@ -2294,21 +2478,46 @@ export default {
         svg.arrow(x, y, x + vx, y + vy, { color: ARROW, width: 1.8, head: 12 });
       for (const [x, y] of list) dotm(x, y);
     };
+    // For readers who allow motion, (a) the spread-out molecules keep moving
+    // and stay spread out, and (b) the crowded ones fly apart and fill the box.
+    const styled = {
+      r: 7,
+      ball: () => dotm(0, 0),
+      arrow: { color: ARROW, width: 1.8, head: 12 },
+    };
     svg.rect(10, 10, 600, 395, { stroke: ARROW, width: 2 });
-    draw(
+    const boxA = [10, 10, 610, 405];
+    const likely = bouncing(
       within(
         scatter(20, [30, 30, 560, 355], { seed: 31, gap: 70, vmin: 40, vmax: 150 }),
         [12, 12, 608, 403]
-      )
+      ),
+      boxA,
+      { period: 24, rate: 1.2 }
+    );
+    svg.still(() => draw(likely));
+    svg.add(
+      '<defs><clipPath id="box_15_07_02a"><rect x="11" y="11" width="598" height="393"/></clipPath><clipPath id="box_15_07_02b"><rect x="11" y="536" width="598" height="393"/></clipPath></defs>'
+    );
+    svg.motionGroup(
+      `<g clip-path="url(#box_15_07_02a)">${bouncingMarkup(svg, likely, boxA, { period: 24, rate: 1.2, ...styled })}</g>`
     );
     caption(svg, 40, 445, '(a)');
     lab(svg, 310, 445, 'Likely', { italic: false, size: 26 });
     svg.rect(10, 535, 600, 395, { stroke: ARROW, width: 2 });
-    draw(
-      within(
-        scatter(24, [22, 760, 170, 160], { seed: 13, gap: 22, vmin: 25, vmax: 60 }),
-        [12, 537, 608, 928]
-      )
+    const crowd = within(
+      scatter(24, [22, 760, 170, 160], { seed: 13, gap: 22, vmin: 25, vmax: 60 }),
+      [12, 537, 608, 928]
+    );
+    svg.still(() => draw(crowd));
+    // They are never seen to crowd back: the loop fades out and starts again.
+    const spreadT = 9;
+    const fadeB = smilAnimate('opacity', [0, 1, 1, 0], {
+      dur: `${spreadT}s`,
+      keyTimes: [0, 0.04, 0.9, 1],
+    });
+    svg.motionGroup(
+      `<g clip-path="url(#box_15_07_02b)"><g>${fadeB}${bouncingMarkup(svg, crowd, [10, 535, 610, 930], { period: spreadT, rate: 3.2, hold: 1, ...styled })}</g></g>`
     );
     caption(svg, 40, 970, '(b)');
     lab(svg, 310, 970, 'Highly unlikely', { italic: false, size: 26 });

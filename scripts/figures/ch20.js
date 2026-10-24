@@ -8,6 +8,9 @@
  * figures, which the text quotes (Tc ≈ 4.2 K; sensation near 1 mA and "can’t
  * let go" near 15 mA at 60 Hz). The ECG is a sum of smooth P, Q, R, S and T
  * pulses repeating at 80 beats per minute, the pace of the original trace.
+ *
+ * For readers who allow motion, a free electron zigzags along its slow drift,
+ * and a cursor runs along the AC voltage curve.
  */
 import {
   CELL,
@@ -21,7 +24,7 @@ import {
   resistor,
   wire,
 } from './circuit.js';
-import { COLORS, Plot, Svg, rad } from './svg.js';
+import { COLORS, Plot, Svg, fmt, rad, smilAnimate, smilList } from './svg.js';
 
 const POS = '#2a9fae';
 const NEG = '#e0245e';
@@ -313,7 +316,33 @@ export default {
     for (let k = 0; k < pts.length - 1; k += 1) {
       svg.arrow(...pts[k], ...pts[k + 1], { color: WIRE, width: 1.6, head: 10 });
     }
-    charge(svg, ...pts[0], 'e^−', { fill: '#a98bd0', r: 17 });
+    svg.still(() => charge(svg, ...pts[0], 'e^−', { fill: '#a98bd0', r: 17 }));
+    // For readers who allow motion, the electron races along its zigzag at a
+    // steady speed while a marker on the wire advances at the drift velocity,
+    // the electron's average progress: far slower than the electron itself.
+    const along = [0];
+    for (let k = 1; k < pts.length; k += 1)
+      along.push(along[k - 1] + Math.hypot(pts[k][0] - pts[k - 1][0], pts[k][1] - pts[k - 1][1]));
+    const [hold, run, rest, fade] = [0.5, 6, 1, 0.4];
+    const T = hold + run + rest + fade;
+    const dur = `${fmt(T)}s`;
+    const keyTimes = [
+      0,
+      ...along.map(d => (hold + (run * d) / along.at(-1)) / T),
+      (T - fade) / T,
+      1,
+    ];
+    const hold3 = v => [v[0], ...v, v.at(-1), v.at(-1)];
+    const xs = hold3(pts.map(p => p[0]));
+    const ys = hold3(pts.map(p => p[1]));
+    const electron = svg.capture(() => charge(svg, 0, 0, 'e^−', { fill: '#a98bd0', r: 17 }));
+    const moves = xs.map((x, k) => `${fmt(x)} ${fmt(ys[k])}`).join(';');
+    const ends = [0, hold / T, (hold + run) / T, (T - fade) / T, 1];
+    const [d0, d1] = [pts[0][0], pts.at(-1)[0]];
+    const drift = `<g>${smilAnimate('opacity', [1, 1, 1, 1, 0], { dur, keyTimes: ends })}<line x1="${d0}" y1="66" x2="${d0}" y2="284" stroke="${GREEN}" stroke-width="2" stroke-dasharray="6 5">${smilAnimate('x1', [d0, d0, d1, d1, d1], { dur, keyTimes: ends })}${smilAnimate('x2', [d0, d0, d1, d1, d1], { dur, keyTimes: ends })}</line></g>`;
+    svg.motionGroup(
+      `${drift}<g><animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" calcMode="linear" keyTimes="${smilList(keyTimes)}" values="${moves}"/>${smilAnimate('opacity', [1, 1, 0], { dur, keyTimes: [0, (T - fade) / T, 1] })}${electron}</g>`
+    );
     svg.arrow(300, 30, 380, 30, { color: GREEN, width: 3.5, head: 15 });
     lab(svg, 340, 12, '**v**_d');
     svg.arrow(420, 315, 260, 315, { color: FIELD, width: 3.5, head: 15 });
@@ -818,10 +847,42 @@ export default {
       lab(svg, cx - 34, cy + 22, plusLeft ? '+' : '−', { size: 22 });
       lab(svg, cx + 34, cy + 22, plusLeft ? '−' : '+', { size: 22 });
     };
-    inset(220, 80, true);
+    svg.still(() => {
+      inset(220, 80, true);
+      inset(320, 520, false);
+    });
+    // For readers who allow motion, a cursor runs along the curve, and the
+    // circuit whose polarity matches the sign of V at that moment stands out.
+    const span = 2.85;
+    const dur = `${fmt(2.4 * span)}s`;
+    const ts = Array.from({ length: 161 }, (_, k) => (span * k) / 160);
+    const lit = positive => {
+      const keys = [0];
+      const vals = [positive ? 1 : 0.3];
+      for (let t = 0.5; t < span; t += 0.5) {
+        keys.push(t / span);
+        vals.push((Math.round(2 * t) % 2 === 0) === positive ? 1 : 0.3);
+      }
+      return `<animate attributeName="opacity" dur="${dur}" repeatCount="indefinite" calcMode="discrete" keyTimes="${smilList(keys)}" values="${smilList(vals)}"/>`;
+    };
+    const cursor = svg.capture(() =>
+      svg.line(g.X(0), g.Y(1.25), g.X(0), g.Y(-1.25), { color: '#2a9fae', width: 2, dash: '5 4' })
+    );
+    svg.motionGroup(
+      `<g>${lit(true)}${svg.capture(() => inset(220, 80, true))}</g><g>${lit(false)}${svg.capture(
+        () => inset(320, 520, false)
+      )}</g><g><animateTransform attributeName="transform" type="translate" dur="${dur}" repeatCount="indefinite" values="0 0;${fmt(g.X(span) - g.X(0))} 0"/>${cursor}</g><circle cx="${g.X(0)}" cy="${g.Y(0)}" r="7" fill="#2a9fae" stroke="#ffffff" stroke-width="1.5">${smilAnimate(
+        'cx',
+        ts.map(t => g.X(t)),
+        { dur }
+      )}${smilAnimate(
+        'cy',
+        ts.map(t => g.Y(Math.sin(2 * Math.PI * t))),
+        { dur }
+      )}</circle>`
+    );
     for (const t of [1.25, 2.25])
       svg.arrow(220, 126, g.X(t), g.Y(1) - 10, { color: COLORS.black, width: 1.6, head: 12 });
-    inset(320, 520, false);
     for (const t of [1.75, 2.75])
       svg.arrow(320, 476, g.X(t), g.Y(-1) + 10, { color: COLORS.black, width: 1.6, head: 12 });
     return svg.render();
