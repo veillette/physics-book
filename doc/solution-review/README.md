@@ -1,8 +1,8 @@
 # Solution review ledger: chapters 1–34
 
-Last refresh: 2026-10-24T13:43:17+00:00. Source digest: `0b2da1933df068484f8b2bfa2c9ee44041d92de635b518638d0a81a27dda4bec`.
+Last refresh: 2026-10-24T14:47:21+00:00. Source digest: `378fb01ff90a87259479393ff70872e64cbe8437e0acd0830ee138321b4459e2`.
 
-**3561 inventoried items; 3153 current substantive reviews; 269 items without solution text.**
+**3561 inventoried items; 3230 current substantive reviews; 269 items without solution text.**
 
 **Status: automated screening covers all 34 chapters. The substantive reasoning review is in progress; pending entries have no correctness verdict.**
 
@@ -49,14 +49,14 @@ Automatic counts below cover the entire source block, sometimes including the pr
 | 29 | 122 | 94 | 94 | 0 | 8 | [Chapter 29](chapter-29.md) |
 | 30 | 105 | 78 | 78 | 0 | 0 | [Chapter 30](chapter-30.md) |
 | 31 | 117 | 49 | 49 | 0 | 0 | [Chapter 31](chapter-31.md) |
-| 32 | 94 | 65 | 12 | 53 | 10 | [Chapter 32](chapter-32.md) |
-| 33 | 88 | 55 | 0 | 55 | 1 | [Chapter 33](chapter-33.md) |
+| 32 | 94 | 65 | 65 | 0 | 10 | [Chapter 32](chapter-32.md) |
+| 33 | 88 | 55 | 24 | 31 | 1 | [Chapter 33](chapter-33.md) |
 | 34 | 59 | 31 | 0 | 31 | 0 | [Chapter 34](chapter-34.md) |
 
 ## Checks and evidence
 
 - Math delimiters: exit 0; [full output](math-delimiters.txt).
-- Physics/arithmetic scan: 8877 checked, 109 flagged, 48527 skipped across the chapter source files.
+- Physics/arithmetic scan: 8892 checked, 109 flagged, 48557 skipped across the chapter source files.
 - Existing source-bound cases provide only selected coverage; their per-chapter counts are in ledger.json. They do not cover every exercise.
 - [Contextual review of automatic flags](automatic-flag-review.md).
 - [Machine-readable ledger](ledger.json), append-only substantive judgments in [reviews.json](reviews.json), and [run history](runs.jsonl).

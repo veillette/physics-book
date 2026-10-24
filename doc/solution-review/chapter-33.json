@@ -1,6 +1,6 @@
 {
   "chapter": 33,
-  "checked_at": "2026-10-24T13:43:17+00:00",
+  "checked_at": "2026-10-24T14:47:21+00:00",
   "summary": {
     "total": 1120,
     "checked": 119,
@@ -51,9 +51,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::worked-example:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a singly charged proton, the kinetic-energy gain is e times the sum of the accelerating potential drops. Thus an 800-MeV kinetic-energy gain requires an effective 800-MV accelerating voltage, distributed among approximately 2000 gaps. The alternating fields must accelerate the proton at each crossing, consistent with the polarities and field directions in the referenced SVG source. Repeated passages through accelerating regions explain the synchrotron comparison.",
+        "calculation_check": "Vgap = (800 × 10^6 eV)/(2000e) = 400,000 V = 400 kV. Strictly, 2000 tubes have 1999 internal gaps; using that count gives 400.2 kV, an immaterial difference here.",
+        "assumptions": "The quoted beam energy is kinetic energy; injection energy and losses are negligible. Voltage means the effective accelerating drop encountered by the proton, with suitable RF timing. Statements about larger required gap voltages assume a comparable number of acceleration events.",
+        "notes": "The energy-per-charge calculation and repeated-acceleration explanation are sound. Actual vacuum voltage capability also depends on gap geometry and fields, which are unspecified.",
+        "source_sha256": "4e497b7375469f1a102533f671308fd35c6e7d57cc8a720f61b665321526e0a9",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::conceptual-questions:1",
@@ -173,9 +186,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The orbit length is π times the stated diameter. At an energy about 1000 times the proton rest energy, the speed differs negligibly from c for the requested precision. The period is circumference divided by speed, and the passage frequency through one fixed target area is its reciprocal. Both requested parts are answered.",
+        "calculation_check": "T = π(2000 m)/(3.00 × 10^8 m/s) = 2.0944 × 10^-5 s. f = 1/T = 4.7746 × 10^4 Hz. For gamma approximately 1000, replacing the exact speed with c introduces only about 5 × 10^-7 relative error.",
+        "assumptions": "A circular 2.00-km-diameter orbit, approximately constant speed, and one passage through the specified area per revolution. Passage frequency concerns a circulating proton before removal or destruction.",
+        "notes": "Both answers follow correctly from the circumference and ultrarelativistic speed.",
+        "source_sha256": "7c0e66ba9e302906f125068060d5991d0689cbd8ddb466c0fc6924f9feee54fc",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:2",
@@ -196,9 +222,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The distance calculation correctly uses the given elapsed laboratory time without applying an additional time-dilation factor. The discussion needs qualification: time dilation transforms a mean lifetime, whereas an individual decay time fluctuates. At the specified speed it does not transform the table's stated mean directly into 5.00 × 10^-25 s; statistical variation remains relevant, as the problem itself acknowledges. Also, high speed depends on production kinematics and reference frame, rather than being an intrinsic characteristic of weak-force mediators.",
+        "calculation_check": "d = (0.900)(3.00 × 10^8)(5.00 × 10^-25) = 1.35 × 10^-16 m = 0.135 fm. gamma = 2.294; using the local table's mean lifetime gives gamma tau0 = 3.67 × 10^-25 s. The specified individual event has proper duration 2.18 × 10^-25 s, entirely compatible with statistical decay.",
+        "assumptions": "The supplied time is measured in the bubble-chamber frame and the speed remains constant. The local table's 1.6 × 10^-25 s value is accepted as supplied; its empirical accuracy and the quoted detector resolution were not independently established.",
+        "notes": "Distance is correct. The discussion should distinguish individual decay times from mean lifetimes and should not characterize high speed as a property of weak-force mediation.",
+        "source_sha256": "4219576e8381e9ac9fee010b5242f72905120ba51dcd784857d60bf70264694c",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:3",
@@ -222,9 +261,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The problem supplies a speed and the time the pion actually survives in the chamber frame, so its track length is vt. No extra time-dilation factor belongs in this calculation. The answer addresses the requested length.",
+        "calculation_check": "d = (0.100)(3.00 × 10^8 m/s)(2.60 × 10^-8 s) = 0.780 m = 78.0 cm.",
+        "assumptions": "The stated survival time is in the chamber frame, the speed is approximately constant, and the detector contains the full trajectory. If the path bends, vt remains its track length rather than its displacement.",
+        "notes": "The 78.0-cm track length is correct for the supplied speed and elapsed time.",
+        "source_sha256": "03680335118838644fc7748a8535ec884019308134a2e0b3b9ca001f4460b5b3",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:4",
@@ -258,9 +310,22 @@
           "error_pct": null
         }
       ],
-      "review_status": "stale-review",
-      "review": null,
-      "previous_review_count": 1
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Summing the energy gains across the gaps gives the correct numerical voltage, but the displayed derivation equates voltage with energy: Vgap = total energy/number of gaps is missing division by the charge magnitude e. The subsequent equality between 3.33 × 10^6 eV and 3.33 MV is also dimensionally invalid. For electrons, the accelerating field polarity must account for their negative charge. The general discussion of accumulating energy through many structures is sound, but the specific historical claim that SLAC's length was chosen to reach 50 GeV is not established by the supplied evidence.",
+        "calculation_check": "The dimensionally correct relation is Vgap = ΔK/(Ne). Thus (50.0 × 10^9 eV)/(15,000e) = 3.33 × 10^6 V. Using 14,999 internal gaps changes the result only to 3.33356 MV. The implied average energy gradient is 50,000 MeV/3200 m = 15.625 MeV/m.",
+        "assumptions": "The 50.0 GeV is the kinetic-energy gain, injection energy and losses are negligible, and the stated gaps represent effective accelerating crossings. Voltage is reported as a magnitude with the correct electron-accelerating polarity.",
+        "notes": "Final voltage is correct, but the derivation omits charge and explicitly equates energy units with voltage units. The specific historical design claim remains unverified.",
+        "source_sha256": "4838c081f348ecfe8535f4c0cd15bb8676cc2455d58e95f194ea15e689870e91",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:5",
@@ -284,9 +349,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The required accumulated energy is the final energy minus the injection energy. Dividing this difference by the prescribed net gain per revolution gives the number of revolutions. Because 5.00 MeV is already the net addition, radiation losses must not be subtracted again.",
+        "calculation_check": "N = (7000 GeV - 8.00 GeV)/(0.00500 GeV/revolution) = 1,398,400 revolutions = 1.40 × 10^6 revolutions to three significant figures.",
+        "assumptions": "The net gain is constant throughout acceleration and initial and final energies use the same convention. The stated LHC injection energy and attribution of the gain to synchrotron losses are treated as stipulated machine parameters, not independently verified operational facts.",
+        "notes": "The revolution count is correct for the given net energy gain. The actual LHC operating parameters and radiation-loss attribution remain unverified.",
+        "source_sha256": "ca52d13e4073bc4980e5e0b4eb199f2ffa3dfd3de8847660aedb0697634a93e6",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:6",
@@ -307,9 +385,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Equal-mass particles with equal kinetic energies colliding head-on have opposite momenta, so their laboratory frame is the center-of-momentum frame. The total available collision energy is therefore twice the single-particle total energy, including both rest energies. The fixed-target comparison correctly identifies the energy tied up in overall motion. For composite protons, this is the energy of the entire collision; an individual parton interaction generally accesses only a fraction, as the surrounding chapter explains.",
+        "calculation_check": "Ecm = 2(7000 + 0.9383) GeV = 14,001.8766 GeV ≈ 14.0 TeV. The rest-energy fraction is 1.8766/14,001.8766 = 0.01340%. A 7-TeV proton on a stationary proton instead gives sqrt(s) approximately 115 GeV, confirming the collider advantage.",
+        "assumptions": "Equal opposing beam momenta, proton and antiproton rest masses equal, and negligible crossing angle. Available energy refers to the complete final state subject to conservation laws, not guaranteed energy in one hard parton collision.",
+        "notes": "The total collision energy, small rest-energy correction, and fixed-target comparison are correct.",
+        "source_sha256": "450600e695171bad5ce1de35afdb2e2daa1da9b37a1279d6039d07e9d8be119f",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:7",
@@ -331,9 +422,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33AcceleratorsCreateMatterFromEnergy.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For equal-energy head-on electron and positron beams, the incoming momenta cancel. The available center-of-momentum energy is the sum of both kinetic energies and both rest energies. Including the rest-energy correction leaves the reported answer unchanged at the precision of the givens.",
+        "calculation_check": "Ecm = 2(50.0 GeV + 0.000511 GeV) = 100.001022 GeV, which rounds to 100 GeV. The rest-energy contribution is only about 0.00102% of the total.",
+        "assumptions": "The collider context implies head-on beams with equal opposing momenta and negligible radiation before the collision. The stated 50.0 GeV per particle is kinetic energy.",
+        "notes": "The 100-GeV answer correctly includes an insignificant rest-energy contribution at the requested precision.",
+        "source_sha256": "a790bfde39d64e49c08b1aac0b20e04bad5139257534b9ac44ed0506a70366d2",
+        "file_sha256": "b264f403fb41d771565c567e3eac60146b59a2b4a78b5fb28a08ac3fd757f6a7",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::conceptual-questions:1",
@@ -431,9 +535,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Under the intended idealized conversion of the primary energy into particle rest energy, the count is the initial energy divided by the average rest energy per particle. Dividing by the stated footprint gives the mean surface density. These are rest-energy-budget estimates, not a detailed prediction of a real shower, which also carries kinetic energy and loses particles through decay and absorption. The schematic figure supplies no additional numerical geometry needed for either part.",
+        "calculation_check": "Each average rest energy is 200 MeV = 0.200 GeV. N = 10^10/0.200 = 5 × 10^10 particles. Since 1.00 km² = 10^6 m², N/A = 5 × 10^4 particles/m².",
+        "assumptions": "Complete conversion into rest energy of the counted particles, with negligible other energy expenditures; all counted particles reach the specified area. The density is an area average, not a claim of local uniformity.",
+        "notes": "Both answers are correct within the intended rest-energy conversion estimate; actual shower multiplicity and ground density require additional physics.",
+        "source_sha256": "b2d6878c4d9c917a162ec9ea1d9d978da42559448ce00ff6ceca3797593868a6",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:2",
@@ -454,9 +571,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The rest-frame derivation correctly combines zero initial momentum, opposite photon momenta, E = pc, and energy conservation to obtain equal 67.5-MeV energies. However, the discussion incorrectly states that a moving pion necessarily gives different laboratory photon energies. The energies depend on the rest-frame emission angle: photons emitted perpendicular to the boost have equal laboratory energies even when the pion moves. Their back-to-back pattern likewise applies specifically in the pion rest frame.",
+        "calculation_check": "Egamma = mπc²/2 = 135.0/2 = 67.5 MeV. Under a boost, E1,2 = gamma(67.5 MeV)(1 ± beta cos(theta*)). For beta = 0.600 and theta* = 90 degrees, both laboratory energies are 84.375 MeV, directly disproving the unconditional unequal-energy claim.",
+        "assumptions": "An isolated pion at rest decays into exactly two photons. The local table supports the mass and quoted lifetime. The nearly 99% branching fraction was not independently established by the inspected local evidence.",
+        "notes": "The requested answer is correct. The moving-pion discussion overlooks equal-energy transverse emission and needs explicit frame qualifications.",
+        "source_sha256": "abc1a1b4c2cd7d6872d28d493527a4b2279288fe2abb6e4450dd2676a7a18c67",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:3",
@@ -480,9 +610,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The electron's de Broglie wavelength is h/p. At 50 GeV its energy greatly exceeds its rest energy, so pc is essentially E and lambda is approximately hc/E. Using nonrelativistic momentum would be inappropriate. The answer gives the correct wavelength scale for probing small structure.",
+        "calculation_check": "Using hc = 1.23984 × 10^-6 eV m gives lambda = (1.23984 × 10^-6)/(50 × 10^9) m = 2.47968 × 10^-17 m ≈ 2.5 × 10^-17 m. The exact relativistic momentum gives the same rounded result.",
+        "assumptions": "A free incident electron and relativistic momentum. Interpreting 50 GeV as kinetic rather than total energy changes the wavelength by only about 10^-5 relative. Actual spatial resolution also depends on momentum transfer and scattering geometry.",
+        "notes": "The wavelength is correct using relativistic de Broglie momentum.",
+        "source_sha256": "a67b2d51f258761ab38bc4b114ef06095c42820cfb5e3e134ac90d128af55e50",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:4",
@@ -503,9 +646,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Interpreting the quoted proton energy as kinetic energy gives gamma = 1 + K/(mpc²). A pion with the same speed has the same gamma despite its different mass. Its laboratory mean lifetime is gamma times its proper mean lifetime, and its mean decay distance is beta c gamma tau0. All three requested parts follow correctly. The discussion's lifetime and travel distance should be understood statistically rather than as fixed decay times or maximum ranges.",
+        "calculation_check": "With mpc² = 0.938 GeV, gamma = 1067.098 and beta = 0.9999995609. Then tau_lab = 2.77446 × 10^-5 s and L = 8.32336 × 10^3 m using c = 3.00 × 10^8 m/s. The supplied 8.31 km results from intermediate rounding and is acceptable. Without dilation, c tau0 = 7.80 m.",
+        "assumptions": "The 1.00 TeV is kinetic energy; interpreting it as total energy produces no material change at the quoted precision. The pion retains its initial speed and avoids interactions or significant energy loss. Lifetimes and distances are mean values; the cosmic-muon comparison concerns substantial survival from high-altitude production.",
+        "notes": "All three parts and the time-dilation comparison are correct. The quoted lifetime and distance represent statistical means.",
+        "source_sha256": "1310143818ee9e8ece6e729425baaa162a4264e6357e4b7f13077f924c9399d5",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:39:53+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:5",
@@ -529,9 +685,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The released energy is Q=(m_pi-m_mu)c^2. In the pion rest frame, momentum conservation gives equal and opposite product momenta. Writing E_nu=pc and E_mu=sqrt((pc)^2+(m_mu*c^2)^2), energy conservation yields E_nu=(m_pi^2-m_mu^2)c^2/(2m_pi). The remaining released energy is the muon's kinetic energy. Both requested parts are answered correctly.",
+        "calculation_check": "Using rest energies 139.6 and 105.7 MeV gives Q=33.9 MeV, E_nu=29.7839 MeV, and K_mu=4.1161 MeV. Their sum is 33.9 MeV; the muon's total energy is 109.8161 MeV.",
+        "assumptions": "An isolated pion initially at rest, a massless antineutrino, and relativistic energy-momentum conservation.",
+        "notes": "Correct energy release and two-body energy partition; the muon answer explicitly denotes kinetic energy.",
+        "source_sha256": "db8d352be15c2dd1029e8867fe21e9b78a71491c6e96cb143059e5c5e23c6f44",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:6",
@@ -552,9 +721,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For the explicitly selected charged kaon, K=(gamma-1)mc^2 determines gamma, time dilation gives the laboratory mean lifetime gamma*tau_0, and the mean decay distance is beta*c*gamma*tau_0. These relations answer all three parts correctly. The distance describes an ensemble mean, rather than a fixed distance traveled by every kaon.",
+        "calculation_check": "The chapter table supports mc^2=493.7 MeV and tau_0=1.24e-8 s. Independently, gamma=2.01276, beta=0.867848, tau_lab=2.49582e-8 s, and mean distance=6.49349 m. The displayed values agree within ordinary rounding.",
+        "assumptions": "Charged kaons moving without significant energy loss or scattering before decay; exponential decay with the tabulated proper mean lifetime. The problem's unspecified kaon species is resolved explicitly in the strategy.",
+        "notes": "All requested results are correct for charged kaons. The discussion's quark description is understood as strange valence flavor: K+ contains an antistrange quark. Historical claims about scattering experiments and the practical choice of 500 MeV were not independently established from the supplied sources.",
+        "source_sha256": "de1405f92686c9b0b6fbf6ab9faa0b14f51ba956265aff9eff9c13cf2cbd2d52",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:7",
@@ -578,9 +760,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For proton mean lifetime tau, the detected rate is epsilon*N_p/tau. One detected event per month with epsilon=0.5 therefore requires N_p=2.4e32. Each water molecule contains ten protons. At fixed detector size and efficiency, increasing the lifetime by a factor of 100 increases the mean waiting time by the same factor.",
+        "calculation_check": "The water mass is (2.4e32)/(10*6.02214e23)*0.018=7.1735e5 kg. At 1000 kg/m^3 this occupies 717.35 m^3. The new mean waiting time is 100 months. All three answers agree.",
+        "assumptions": "Lifetime means mean lifetime, not half-life; all ten protons per water molecule are eligible; efficiency is uniform; negligible depletion and background; water density approximately 1000 kg/m^3. Event counts are statistical expectations.",
+        "notes": "Correct proton count, detector mass and volume, and lifetime scaling.",
+        "source_sha256": "cc164fbba0e073c7535d933668ef3cd7a936d1fc274a3d656b927949746082ae",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:8",
@@ -601,9 +796,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:8",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The derivation correctly gives gamma=1+K/(mc^2) and a photon lead of (d/c)(1/beta-1), approximately d/(2*c*gamma^2). Both requested answers are correct. However, the discussion's speed percentage contradicts its own beta expression: beta approximately 1-5e-11 corresponds to 99.999999995%, not 99.99999999995%. The latter understates the fractional speed deficit by a factor of 100.",
+        "calculation_check": "Gamma=100001. Using the stated 120000-light-year distance gives a delay of approximately 189.34 s, or 3.16 minutes. The printed percentage would instead imply approximately 1.89 s over this distance. The electron-to-neutrino mass ratio is 511000/7=73000, consistent with the rough 70000 comparison.",
+        "assumptions": "The hypothetical mass and distance are accepted as givens; simultaneous emission, constant energy and speed, and negligible differential propagation effects. An observational mass bound additionally requires assumptions about source emission times.",
+        "notes": "Correct gamma and approximately 190-s delay, but the discussion misstates the speed deficit by a factor of 100. The historical distance and observational claims were not independently verified.",
+        "source_sha256": "48cd3c92d49f14aefa1dd24db30cd8f4b0c7c96f9b7f7cccfcc3791856cfa0ae",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:9",
@@ -624,9 +832,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:9",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The area and particle-count calculation is valid under the constructed uniform-density assumption. The inferred primary energy is not established: summing secondary rest energies omits their kinetic energies, atmospheric energy deposition, and undetected components. No argument supports the assumption that most primary energy remains in the rest masses of particles detected at ground. Moreover, 200 MeV/c^2 exceeds every mass in the listed pion-muon-electron mixture; those constituents alone cannot have that average. A heavier component could change the average but is neither specified nor quantified.",
+        "calculation_check": "A=pi*500^2=7.85398e5 m^2 and N=1.96350e11. The assumed rest-energy sum is N*200 MeV=3.92699e19 eV=6.29173 J, so the conversions are correct. This arithmetic does not determine the primary energy. For a mixture restricted to the listed species, its mean mass cannot exceed approximately 140 MeV/c^2.",
+        "assumptions": "Uniform particle density over the stated disk. Relating a measured shower to primary energy requires a specified energy distribution and accounting for energy transferred to the atmosphere and missing particles.",
+        "notes": "Correct arithmetic, but an unsupported rest-mass approximation and inconsistent particle-mixture justification undermine the primary-energy estimate. Empirical shower-density ranges and astrophysical claims remain unverified.",
+        "source_sha256": "1091cf4b68e74b4c1606b0f8a89d43a5710570444fc4c3b01dcd28c5a7546b66",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33GUTS.md::problems-exercises:10",
@@ -647,9 +868,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33GUTS.md::problems-exercises:10",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The detector calculation correctly uses lambda=ln(2)/t_half and detected rate epsilon*lambda*N_e, with ten electrons per water molecule. The discussion incorrectly asserts that electron decay necessarily violates both charge and lepton number. For example, hypothetical e- -> nu_e+gamma violates charge conservation while conserving total lepton number. No decay channel was specified that would justify the categorical claim. The comparison with 'the proton decay lifetime' also assumes a value for an unobserved process.",
+        "calculation_check": "Working directly in years gives N_e=1e35/(0.8*ln(2))=1.80337e35 and water mass=N_e*0.018/(10*N_A)=5.39022e8 kg, consistent with 5.42e8 kg using the solution's intermediate rounding. An expected detected count of one per year gives probability 1-exp(-1)=0.632 of at least one detection in a year, not a guarantee.",
+        "assumptions": "The hypothetical half-life is stipulated, all water electrons share it, efficiency is 80%, depletion is negligible, and backgrounds are distinguishable. 'One per year' is interpreted as an expected rate.",
+        "notes": "Detector sizing is correct. The claim that electron decay must violate lepton number is false without specifying a channel. Claimed theoretical lifetime ranges, experimental bounds, efficiencies, and detector specifications were not independently verified.",
+        "source_sha256": "7a50abe790448f3dd6d2691b0317bc556c9a2e2b0187c9cc90ecca205f624fda",
+        "file_sha256": "4fb0b6bd74fad9e7ca0968f97ee269ed1e6d14922e610f5619854949ec831066",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::worked-example:1",
@@ -670,9 +904,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::worked-example:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Part (a) correctly finds Delta S=+1, unchanged baryon number +1, charge -1, and zero lepton numbers. A strangeness-changing decay is consistent with the weak interaction. Part (b) correctly concludes that K+ -> mu++nu_mu passes the listed conservation and energy tests. However, 'Charge is conserved as s -> d' describes neither this decay nor its charge bookkeeping. K+ has valence content u anti-s; its leptonic decay proceeds through annihilation into a virtual W+, which produces mu++nu_mu.",
+        "calculation_check": "For Xi- decay, final (S,B,Q)=(-1,1,-1), compared with initial (-2,1,-1); the tabulated masses give Q_release=1321.7-1115.7-139.6=66.4 MeV. For kaon decay, charge is +1=+1+0, baryon number is 0=0+0, L_mu is 0=-1+1, and available energy is approximately 493.7-105.7=388.0 MeV. Strangeness changes from +1 to 0.",
+        "assumptions": "The chapter's particle quantum numbers and masses, negligible neutrino mass, and weak-interaction flavor bookkeeping at the decay vertex. Passing these tests establishes no conservation-law obstruction, rather than a branching fraction.",
+        "notes": "Both decay conclusions and quantum-number sums are correct. The inserted s -> d explanation is an incorrect mechanism for the charged-kaon leptonic decay. Quoted lifetimes match the chapter table; the branching-frequency claim was not independently verified.",
+        "source_sha256": "2a10c7d5db4e1750d6fec6afa90dc6b859d5739aa574db05a52fa1edf490382c",
+        "file_sha256": "bf26ca6ad6afc17c0e7f13532f5db15310c04714776e3471dc440a4fa9c4a513",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::conceptual-questions:1",
@@ -914,9 +1161,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A stationary pion has zero initial momentum. Two photons must therefore have opposite momenta of equal magnitude, and hence equal energies. Energy conservation assigns each half the pion rest energy.",
+        "calculation_check": "The chapter table gives m_pi0*c^2=135.0 MeV, so E_gamma=135.0/2=67.5 MeV. The photon momenta cancel and their energies sum to the parent rest energy.",
+        "assumptions": "An isolated neutral pion at rest undergoing the stated two-photon decay.",
+        "notes": "Correct photon energy from simultaneous energy and momentum conservation.",
+        "source_sha256": "cd9f50ad85ce594f90c9994dbe2b0f2de10ff0796315a9eb1268cc5218e17895",
+        "file_sha256": "bf26ca6ad6afc17c0e7f13532f5db15310c04714776e3471dc440a4fa9c4a513",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:2",
@@ -937,9 +1197,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The decay energy release is the parent rest energy minus the products' rest energies. Neglecting neutrino mass gives the stated 33.9 MeV. The discussion correctly distinguishes muon kinetic energy from neutrino energy and explains their unequal shares through equal and opposite momenta in the pion rest frame. Its subsequent muon-decay channel conserves charge and the relevant lepton numbers.",
+        "calculation_check": "Q=139.6-105.7=33.9 MeV, or 24.28% of the pion rest energy. Two-body kinematics independently gives E_nu=(139.6^2-105.7^2)/(2*139.6)=29.7839 MeV and K_mu=4.1161 MeV. The quoted lifetimes agree with the chapter table.",
+        "assumptions": "Negligible neutrino mass; the energy partition is evaluated in the pion rest frame. Positive Q establishes energetic permission; the known weak channel supplies the interaction.",
+        "notes": "Correct energy release and explanatory energy partition. The precise approximately 99.99% branching fraction was not independently established from the supplied sources.",
+        "source_sha256": "a0c1f5524ec2cfed45cf1baec48dfb87ff86a5146238638988c57f2719c1852e",
+        "file_sha256": "bf26ca6ad6afc17c0e7f13532f5db15310c04714776e3471dc440a4fa9c4a513",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:3",
@@ -963,9 +1236,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Each requested quantity is a dimensionless mass ratio. Dividing the hypothetical mass by the proton and electron masses expressed in GeV/c^2 gives the supplied one-significant-figure answers. These ratios also indicate the scale of beam gamma needed to carry comparable total energy, although an actual production threshold depends on collision geometry and other products.",
+        "calculation_check": "Using the chapter masses, 1e14/0.9383=1.06576e14 proton masses and 1e14/0.000511=1.95695e17 electron masses. These round to 1e14 and 2e17.",
+        "assumptions": "The hypothetical mass is stipulated; both numerator and denominator use identical mass units. No particular accelerator production configuration is inferred.",
+        "notes": "Both mass ratios are correct at the stated precision.",
+        "source_sha256": "cc2699f4a64223294efd5e811d6e2479a5c6dc61e90fe3ffd3e8e3cc0673961f",
+        "file_sha256": "bf26ca6ad6afc17c0e7f13532f5db15310c04714776e3471dc440a4fa9c4a513",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:4",
@@ -986,9 +1272,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Subtracting the electron rest energy from the muon rest energy gives the available kinetic and neutrino energy. Charge and all three requested family-number sums are correct: the electron and electron antineutrino cancel in L_e, while nu_mu carries the initial L_mu. The three-body final state permits a continuous energy partition, consistent with the discussion.",
+        "calculation_check": "Q=105.7-0.511=105.189 MeV, rounding to 105.2 MeV; Q/105.7=0.995166, or 99.5%. Charge remains -1, and (L_e,L_mu,L_tau) remains (0,1,0). The quoted muon lifetime matches the chapter table.",
+        "assumptions": "Neutrino masses are negligible. Family-number conservation is used for this weak-decay vertex; it is not an exact universal rule for subsequent neutrino propagation, as the surrounding chapter's oscillation discussion recognizes.",
+        "notes": "Correct released energy and all requested conservation checks. The discussion's family-number principle needs the usual decay-vertex scope.",
+        "source_sha256": "4f42ba0008fa6a2cf5fde5d5e092a125eabf7b710ee66c433a457c681e281d00",
+        "file_sha256": "bf26ca6ad6afc17c0e7f13532f5db15310c04714776e3471dc440a4fa9c4a513",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:5",
@@ -1013,9 +1312,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The available energy is the tau rest energy minus the muon rest energy, neglecting neutrino masses. The stated charge and family-number sums are correct. Charge conjugation replaces mu+ by mu-, nu_mu by anti-nu_mu, and anti-nu_tau by nu_tau, reproducing the negative-tau decay explicitly given in the surrounding text.",
+        "calculation_check": "Q=1777-105.7=1671.3 MeV, consistent with approximately 1671 MeV. Charge remains +1; (L_e,L_mu,L_tau) is initially (0,0,-1) and finally (0,-1+1,-1)=(0,0,-1).",
+        "assumptions": "Negligible neutrino masses, the chapter's rounded charged-lepton masses, and flavor bookkeeping at the decay vertex.",
+        "notes": "All three parts are correct, including the explicit antiparticle comparison with the chapter's negative-tau decay.",
+        "source_sha256": "0d059c4e7c54cb18f4080a65b2f736272441b568a2b34484f679ab7ccead4c01",
+        "file_sha256": "bf26ca6ad6afc17c0e7f13532f5db15310c04714776e3471dc440a4fa9c4a513",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:44:10+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch33ParticlesPatternsAndConservationLaws.md::problems-exercises:6",

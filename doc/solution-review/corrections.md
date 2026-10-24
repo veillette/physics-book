@@ -30,7 +30,8 @@ The table counts items with a new post-fix review. It excludes carried-over revi
 | 21–23 | 19 | `e636f406` | `cef332e8` |
 | 24–27 | 21 | `726c12f6` | `41a4bc80` |
 | 28–29 | 17 | `d96cf74b` | `30693092` |
-| 30–31 | 11 | `695eb7fc` | the commit that adds this page |
+| 30–31 | 11 | `695eb7fc` | `77a49b39` |
+| 32 | 19 | `da07bdca` | the commit after it |
 
 The per-chapter reports (`chapter-NN.md`) show the post-fix review for every corrected item, except Ch 28 Relativistic Addition of Velocities p4, which Codex re-reviewed after the fix and still flags for its discussion. The [automatic-flag review](automatic-flag-review.md) was refreshed too: two flags disappeared with the corrections and none were added.
 
@@ -138,6 +139,25 @@ Of the post-fix reviews, all but four are now `appropriate`. The four still mark
 - Binding Energy p7: answered part (d).
 - Substructure of the Nucleus example 1: the fm-to-m conversion is now cubed.
 
+### Chapter 32
+
+All 19 `concern` and `ambiguous` items were corrected. Only Fusion p17's final answer changed, but several worked numbers, explanations, and discussions were wrong, some contradicting the book's own values.
+
+- Wrong numbers and statements:
+  - Fusion example 1: the mass sum is 5.030151 u. The energy is about five Hiroshima yields (15 kT), not eight. About 28 times the output, not 32, gives 100 MW of electricity. The section's own 80 000-L pool holds 2.7 kg of deuterium, not 6 kg.
+  - Fusion p4: the two annihilations give four photons, and the two proton–deuteron captures give the other two.
+  - Fusion p17: a full solution now replaces the bare answer. With the abundance applied by number, the oceans last about 6 × 10⁹ y. The old 3 × 10⁹ y applied the abundance by mass.
+  - Fission p1(b): the extra 6 MeV is the binding energy of the last neutron in ⁹⁶Sr (5.87 MeV), not the average BE/A.
+  - Therapeutic p6: the cumulative dose is the one-day dose × T_eff/ln 2, about 15 mSv, not 11 mSv.
+  - Nuclear Weapons p2: fission converts about 0.09% of the reacting mass and D–T fusion about 0.4%, not 1%.
+- Missing data: ⁹Be and ²³Na are added to Appendix A, and Medical Imaging p1 and p7 now show their work.
+- Overstated discussions, now qualified:
+  - Biological Effects p6 (latency, occupational limits) and p8 (plutonium toxicity).
+  - Fission example 2 (tritium supply), p6 (odd-N rule, waste), and p8 (cooling, releases).
+  - Medical Imaging p2 (cross section) and p6 (carriers, dose).
+  - Nuclear Weapons p6 (fallout from fission products), p8 (shock in water), and p10 (no vaporized skin).
+  - Therapeutic p9: ¹⁴C betas are absorbed in the body. The problem's parenthetical about energy escaping is left as written, with a note in the solution.
+
 ## Findings not acted on
 
 These Codex findings were checked and the source was left as written:
@@ -148,4 +168,4 @@ These Codex findings were checked and the source was left as written:
 - Ch 17: the trombone remark, and the notation for ultrasound units.
 - The jet field premise, the RC flash-lamp averaging, and the length-contraction wording.
 
-Most remaining `concern` rows in later chapters are discussion overstatements, not wrong answers. Chapters 32–34 had not yet been reviewed by Codex when this page was written.
+Most remaining `concern` rows in later chapters are discussion overstatements, not wrong answers. Chapters 33–34 had not been fully reviewed by Codex when this page was last updated.
