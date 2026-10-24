@@ -1,6 +1,6 @@
 {
   "chapter": 29,
-  "checked_at": "2026-10-24T09:00:33+00:00",
+  "checked_at": "2026-10-24T11:39:27+00:00",
   "summary": {
     "total": 1027,
     "checked": 172,
@@ -50,9 +50,22 @@
         "skipped": 20
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md#Example1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For absorption by initially stationary dust, conservation of the isolated photon–dust system's momentum gives dust momentum h/lambda in the incident photon's direction. The resulting speed is sufficiently small that p = mv is valid. Absorbed energy mostly increases internal energy; it need not become recoil kinetic energy. Repeated directed photon absorption can produce radiation pressure, consistent with the dust-tail discussion.",
+        "calculation_check": "p = (6.62607e-34)/(550e-9) = 1.20474e-27 kg m/s. With 1.00 microgram = 1.00e-9 kg, v = 1.20474e-18 m/s. Both reported values agree. The absorbed-energy mass increment is only about 4e-27 of the original dust mass.",
+        "assumptions": "Negligible external impulse during absorption, complete absorption without simultaneous outgoing radiation, and the frame in which the dust initially rests. Merely being in outer space does not guarantee zero external force.",
+        "notes": "Correct momentum and recoil calculation. The zero-external-force statement should be understood as an isolation approximation, rather than a consequence of location alone.",
+        "source_sha256": "c342457bc9bfc724ad6eb9c4f61ca92a2854cafb4f6de4bb6df6bd75fef8fc65",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::conceptual-questions:1",
@@ -97,9 +110,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Equal-phase electron waves from the two slits interfere constructively when their path difference d sin(theta) is an integer wavelength. The first off-axis maximum therefore has d = lambda/sin(theta), as used. Atomic-scale spacing is consistent with the relevance of electron diffraction by crystals.",
+        "calculation_check": "d = 0.167 nm/sin(25.0 degrees) = 0.395156 nm; d/lambda = 2.366. Independently, h/sqrt(2m_e K) for 54.0-eV electrons is approximately 0.167 nm.",
+        "assumptions": "Coherent electrons, far-field observation, negligible interactions and external fields, and sufficiently narrow slits that the interference maximum is not suppressed by the diffraction envelope.",
+        "notes": "Correct first-maximum relation and result. A substantial angle helps separate features but does not alone guarantee experimental visibility. The historical attribution was not independently verified.",
+        "source_sha256": "270193973c1a445359115062d1f495cd09d0c9dfd19e9fd036b5f9466a012063",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:2",
@@ -120,9 +146,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a uniformly illuminated single slit, the first far-field minimum occurs when the path difference across the full width is one wavelength. Thus sin(theta) = lambda/D. The wavelength is supplied directly, so no nonrelativistic electron-speed approximation is required.",
+        "calculation_check": "lambda/D = 2.00e-12/1.00e-9 = 0.00200. Therefore theta = 0.00200000133 rad = 0.1145916 degrees = 6.87550 arcminutes, agreeing with all reported forms.",
+        "assumptions": "Coherent illumination, ideal single-slit transmission, far-field diffraction, and negligible electron interactions with the aperture beyond the assumed boundary.",
+        "notes": "Correct diffraction model, unit conversions, and numerical answer.",
+        "source_sha256": "72d65ecd1e9115a4ccd24649fb62e521c3b789734fe4f21ffc5eeec22727d584",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:3",
@@ -146,9 +185,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Taking 1500 nm as the representative photon wavelength gives E = hc/lambda. Heating requires Q = mc Delta T, so the required photon count is Q/E and the duration is Q/P. These relations reproduce all three answers.",
+        "calculation_check": "E = 1.32430e-19 J. Q = (4.0)(0.83)(4186)(2.0) = 2.77950e4 J. Thus N = 2.09885e23 photons and t = 138.975 s, consistent with the stated two-significant-figure results.",
+        "assumptions": "All 200 W is intercepted and absorbed by the affected shoulder mass; constant specific heat and no significant losses. The stated average wavelength represents the spectrum approximately, since an exact mean photon energy requires the spectral distribution.",
+        "notes": "All answers are correct under the intended representative-wavelength and complete-absorption assumptions. Partial interception would increase the heating time.",
+        "source_sha256": "9e7cd82b68f3fbbd43c3699140ce15aa3b545ba0262124c75080c1f786cd9b96",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:4",
@@ -169,9 +221,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The strategy and calculations correctly use photon energy hf, photon rate P/(hf), thermal energy mc Delta T, and duration Q/P. The discussion's explanation that heating takes nearly 100 seconds because individual photons have little energy is misleading: at fixed absorbed power, lowering photon energy increases photon rate proportionally, leaving heating time unchanged. Large photon numbers support a classical heating description here, but do not establish that quantum effects are universally unobservable in microwave radiation.",
+        "calculation_check": "E = 1.69627e-24 J, photon rate = 5.30575e26/s, Q = 84766.5 J, N = 4.99722e28, and t = 94.185 s. Differences from the solution are ordinary rounding. Algebraically, t = [Q/(hf)]/[P/(hf)] = Q/P, independent of photon energy.",
+        "assumptions": "All stated microwave power is absorbed by the pasta, specific heat is constant, and heating entails no phase change or other energy transfer.",
+        "notes": "Numerical answers are correct. The discussion incorrectly attributes heating duration to small photon energy and overstates the disappearance of quantum effects.",
+        "source_sha256": "dc5e0baf8085c57d5e8793e60cbc41ce48155c278a5d18711e48735b85899ea2",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:5",
@@ -195,9 +260,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The answers follow by treating soup as water, calculating Q = mc Delta T, then using p = Q/c, v = p/M, and K = p squared/(2M). However, Q/c is the sum of photon momentum magnitudes, or the net momentum only when all photons propagate in the same direction. The problem does not specify directions. Oppositely directed photons can deliver the same heating energy with zero net momentum, so interpreting 'total momentum' as vector momentum leaves parts (b)–(d) underdetermined.",
+        "calculation_check": "Using c_water = 4186 J/(kg K), Q = 334880 J. For parallel photons, p = 1.11704e-3 kg m/s, v = 1.11704e-3 m/s, and K = 6.23889e-7 J, agreeing with the answers. Equal counterpropagating photon energies instead give net p = 0.",
+        "assumptions": "Water-like soup specific heat, no heat loss, no vaporization, and complete conversion of absorbed radiation into heat. The reported momentum and corresponding mechanical quantities additionally require parallel photon momenta or an explicitly scalar interpretation.",
+        "notes": "Arithmetic is correct for water-like soup and parallel photons. The unstated direction assumption matters because energy alone does not determine net photon momentum.",
+        "source_sha256": "d0ebb61b201b7b4d8afbb69c33474b8f37927478e5ddd956f9d01faca81ed895",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:6",
@@ -218,9 +296,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Total energy gives gamma = E/(m_e c squared), and the exact momentum is sqrt(E squared minus m_e squared c to the fourth)/c. Here gamma is nearly 100000, so p approximately E/c is exceptionally accurate. The wavelength and speed claims are correct. The discussion's claim that 0.0248 fm is about 1/200 of a proton's size is inconsistent with a proton dimension of order 1–2 fm: the ratio is approximately 1/40 to 1/80.",
+        "calculation_check": "gamma = 97847.6, p = 2.67214e-17 kg m/s, and lambda = 2.47968e-17 m = 0.0247968 fm. The speed is 99.99999999478 percent of c. A size ratio of 200 would imply a proton dimension of 4.96 fm; the neighboring probability section itself describes a proton radius of approximately 1 fm.",
+        "assumptions": "50.0 GeV is total electron energy in the accelerator frame. Relativistic free-particle energy and de Broglie relations apply.",
+        "notes": "Parts (a)–(c) and the stated speed are correct. The proton-size comparison is wrong by severalfold. The accelerator-history claim was not independently verified.",
+        "source_sha256": "b00cb91e8f16fd0dedbec9fc44da50e9ac807323d3d83bc81a6e24f3636f8cc5",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:7",
@@ -244,9 +335,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a proton with total energy E, gamma = E/(m_p c squared), p = sqrt(E squared minus m_p squared c to the fourth)/c, and lambda = h/p. Since 1 TeV greatly exceeds the proton rest energy of approximately 0.938 GeV, p approximately E/c is justified. All three answers follow.",
+        "calculation_check": "Using modern constants gives gamma = 1065.79, p = 5.34428e-16 kg m/s, and lambda = 1.23984e-18 m. These agree with the supplied values within reasonable textbook constants and rounding.",
+        "assumptions": "The quoted accelerator energy is interpreted as total energy. Interpreting it as kinetic energy changes these results by only about 0.094 percent, immaterial at the stated precision.",
+        "notes": "Correct relativistic relations and numerical results. The accelerator-production attribution was not independently verified.",
+        "source_sha256": "80fb3b45337fe811c0907b3c3ff656035b577d0fa9306faa6c0e82898fad62f8",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:8",
@@ -267,9 +371,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:8",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The Rayleigh criterion for an ideal circular aperture gives theta approximately 1.22 lambda/D, and the calculation is correct. However, the discussion explicitly says resolution is not limited by the electrons' wave nature. The calculated diffraction limit is precisely a consequence of that wave nature. Saying resolution is limited only by wavelength and aperture also requires the ideal diffraction-limited model; an actual microscope may have aberrations and other limitations.",
+        "calculation_check": "theta = 1.22(1.00e-12)/(2.00e-6) = 6.10e-7 rad = 3.49504e-5 degrees = 0.125821 arcseconds. For a representative 3-mm eye pupil and 550-nm light, the corresponding diffraction angle is about 367 times larger, supporting the rough '400 times' comparison.",
+        "assumptions": "An ideal circular aperture, diffraction-limited electron optics, small angles, and the usual Rayleigh resolution convention. Angular resolution alone does not specify an object-space distance without imaging geometry.",
+        "notes": "Correct answer and conversions. The final discussion sentence contradicts the physical origin of the Rayleigh limit and overgeneralizes ideal microscope performance.",
+        "source_sha256": "2311413ccbb4617d956a9cbfaaec44fd4a01b41f3911fad8f1fd6d2d08553dae",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:9",
@@ -293,9 +410,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:9",
+        "verdict": "concern",
+        "confidence": "medium",
+        "reasoning_check": "Matching interference patterns with the same slits requires equal wavelengths. The electron therefore has momentum h/lambda and nonrelativistic speed h/(m_e lambda); its kinetic energy is p squared/(2m_e), while the photon energy is hc/lambda. Parts (a) and (b) are correct. Blue light is plausibly easier to generate, but the assertion that producing the required electrons would not be difficult understates the extremely small energy scale and the beam-energy control needed for the specified pattern.",
+        "calculation_check": "v = 1616.42 m/s, photon energy = 4.41432e-19 J, electron kinetic energy = 1.19006e-24 J = 7.42776 micro-eV, and energy ratio = 3.70934e5. This electron energy corresponds to only 7.43 microvolts of accelerating potential and K/k_B = 0.0862 K, far below room-temperature thermal energy scales.",
+        "assumptions": "Same double-slit geometry, coherent beams with sufficiently narrow wavelength distributions, negligible electron interactions, and nonrelativistic electrons. Practical generation difficulty depends on the source and energy-selection apparatus.",
+        "notes": "Correct numerical answers and energy comparison. Part (c) understates the challenge of generating a controlled micro-eV electron beam; vacuum alone does not address its energy spread or sensitivity to stray potentials.",
+        "source_sha256": "248749cbbef5423108f8094cdc06bed48798db986e7bcb19ce27cf5c7b609511",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:10",
@@ -319,9 +449,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The second double-slit minimum counted outward from the central maximum has path difference 3lambda/2. Keeping the same angular interference pattern requires preserving d/lambda. For 1.00-keV protons, K is negligible compared with the rest energy, so lambda = h/sqrt(2m_p K) is valid. Both parts use these relations correctly.",
+        "calculation_check": "For light, d = 1.5(650e-9)/sin(45 degrees) = 1.37886e-6 m. For protons, lambda = 9.05080e-13 m and d = 1.91996e-12 m, agreeing with the solution. K/(m_p c squared) is approximately 1.07e-6.",
+        "assumptions": "Far-field coherent interference, the second off-axis minimum, and negligible slit-width-envelope effects. 'Same pattern' means the same angular interference locations.",
+        "notes": "Correct minimum indexing, nonrelativistic proton wavelength, and slit separations.",
+        "source_sha256": "5082216be775a6eac0cf320f51c6dbb56107bcf37e2d5bb6ed3ac69db49f0687",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:11",
@@ -342,9 +485,22 @@
         "checked": 9
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:11",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The strategy explicitly assumes one emitted electron per incident photon, which yields the stated ideal emission rate and current. The stopping voltage follows correctly from K_max = hc/lambda minus the work function. However, the solution additionally treats K_max as every electron's kinetic energy when calculating power and assumes constant escaping current throughout charging. A metal generally emits an energy distribution; its work function determines maximum energy, not mean energy. As the positive potential rises, lower-energy electrons return, so determining charging time generally requires the escaping-current function I(V).",
+        "calculation_check": "Photon energy = 3.09960 eV, ideal emission rate = 4.02729e15/s, K_max = 0.389605 eV, maximum-energy electron-power estimate = 0.251390 mW, and ideal current = 0.645244 mA. V_stop = 0.389605 V and C V_stop/I_initial = 1.20762 ns. The latter is the constant-current idealization; generally t = integral of C dV/I(V).",
+        "assumptions": "Complete illumination and unit emission yield are explicitly assumed. Reproducing all answers additionally requires monoenergetic maximum-energy electrons, constant escape rate until cutoff, initially uncharged constant capacitance, and negligible leakage and transit effects.",
+        "notes": "All arithmetic is correct for the additional idealizations. The electron power and definite 1.21-ns stopping time are presented without qualifying the maximum-energy and constant-current assumptions needed to obtain them.",
+        "source_sha256": "e319b19dd5a4139361ff0c25ad2e587c6684a17be6d3805cff2c9d3030c45c97",
+        "file_sha256": "3701abad50f1f52574e2b1326d076e6dc9d6d788453611666e1a69a02a4039cd",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T11:39:13+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch29ParticleWaveDualityReviewed.md::problems-exercises:12",

@@ -1,16 +1,16 @@
 {
   "chapter": 24,
-  "checked_at": "2026-10-24T09:00:32+00:00",
+  "checked_at": "2026-10-24T11:39:27+00:00",
   "summary": {
-    "total": 1419,
+    "total": 1424,
     "checked": 230,
     "failed": 0,
-    "skipped": 1189,
+    "skipped": 1194,
     "by_kind": {
       "equation": {
         "checked": 230,
         "failed": 0,
-        "skipped": 1189
+        "skipped": 1194
       },
       "case": {
         "checked": 0,
@@ -24,8 +24,8 @@
       "chapters": []
     },
     "skip_reasons": {
-      "no supported equality": 503,
-      "unbound variable": 527,
+      "no supported equality": 507,
+      "unbound variable": 528,
       "unsupported symbol": 115,
       "unit-only expression or text label needs a numeric value": 40,
       "unknown unit": 4
@@ -41,7 +41,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "a11f9e4a94523f3fd3db6754b9d8d2bd05c717ccd3bc902306cf548bf0983a59",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "::: example Calculate Microwave Intensities and Fields On its highest power setting, a certain microwave oven projects 1.00 kW of microwaves onto a 30.0 by 40.0 cm area. (a) What…",
       "has_solution": true,
       "missing_labels": [],
@@ -54,19 +54,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::worked-example:1",
+        "source_sha256": "a11f9e4a94523f3fd3db6754b9d8d2bd05c717ccd3bc902306cf548bf0983a59",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For uniform illumination, average intensity is P/A. A sinusoidal traveling wave has average intensity cε₀E₀²/2 and B₀=E₀/c. The solution applies these relations correctly and answers all three parts. The discussion's comparison of electric and magnetic strengths is meaningful as a numerical comparison in SI units; their energy contributions are equal.",
         "calculation_check": "A=0.120 m² gives I=8333.33 W/m², peak intensity 16666.7 W/m², E₀=2505.49 V/m, and B₀=8.35162×10⁻⁶ T, agreeing with the solution.",
         "assumptions": "Uniform illumination, sinusoidal traveling microwaves, and vacuum-like propagation in air. Actual standing-wave patterns inside an oven are outside this idealization.",
         "notes": "All requested results and the peak-to-average conversion are correct under the stated traveling-wave idealization.",
-        "source_sha256": "a11f9e4a94523f3fd3db6754b9d8d2bd05c717ccd3bc902306cf548bf0983a59",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:1",
@@ -77,7 +77,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "9c0010a0ed5bf17e77ff25bb3228cdf21f8817fa032a654509b928e824556619",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "What is the intensity of an electromagnetic wave with a peak electric field strength of 125 V/m?",
       "has_solution": true,
       "missing_labels": [],
@@ -90,19 +90,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:1",
+        "source_sha256": "9c0010a0ed5bf17e77ff25bb3228cdf21f8817fa032a654509b928e824556619",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "A traveling sinusoidal wave has instantaneous energy flux cε₀E², so averaging the squared sinusoid gives I=cε₀E₀²/2. The solution correctly uses the peak rather than rms field. Doubling the amplitude therefore quadruples the intensity.",
         "calculation_check": "(3.00×10⁸)(8.85×10⁻¹²)(125)²/2=20.7422 W/m², agreeing with 20.7 W/m².",
         "assumptions": "Sinusoidal radiation in vacuum or approximately air; intensity means cycle average. The 1000 W/m² sunlight comparison is an approximate clear-sky reference, not a global or daily average.",
         "notes": "The calculation and square-law explanation are correct. The claim that this exposure is typical near particular transmitters is not established without power, distance, and antenna geometry.",
-        "source_sha256": "9c0010a0ed5bf17e77ff25bb3228cdf21f8817fa032a654509b928e824556619",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:2",
@@ -112,8 +112,8 @@
       "end_line": 301,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "70421455a64c2537fcc566f9199afdb6b4e9a21084e50fafa42e1803ad24d878",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "source_sha256": "453937011fcfd952750c975c1915ef63cb30d01f59443b8e3d0142caff0eddf2",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "Find the intensity of an electromagnetic wave having a peak magnetic field strength of $$ 4.00 \\times 10^{-9} \\text{T} $$.",
       "has_solution": true,
       "missing_labels": [],
@@ -123,22 +123,19 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:2",
-        "verdict": "concern",
-        "confidence": "high",
-        "reasoning_check": "Using E₀=cB₀ in the Poynting flux gives I=cB₀²/(2μ₀), as used correctly. However, the discussion's claim that 4 nT is about 100,000 times weaker than Earth's field substantially overstates the ratio.",
-        "calculation_check": "I=(3.00×10⁸)(4.00×10⁻⁹)²/[2(4π×10⁻⁷)]=1.90986×10⁻³ W/m². A representative terrestrial field of 50 μT is 12,500 times 4 nT; even a broad 25–65 μT reference range gives only 6250–16,250. The sunlight ratio 1000/I≈524,000 is correct.",
-        "assumptions": "Sinusoidal traveling radiation in vacuum-like air. Earth's field is location dependent; the comparison concerns SI magnetic amplitudes, not radiation intensity.",
-        "notes": "The final intensity is correct, but the Earth's-field comparison is wrong by roughly an order of magnitude. Claims about typical received signals and telescope sensitivity are not independently established here.",
-        "source_sha256": "70421455a64c2537fcc566f9199afdb6b4e9a21084e50fafa42e1803ad24d878",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "source_sha256": "453937011fcfd952750c975c1915ef63cb30d01f59443b8e3d0142caff0eddf2",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct intensity. Fixed: 4 nT is about 10,000 times weaker than Earth's roughly 50-μT field (was '100,000 times'). The remarks on typical received signals remain unchecked.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch24-27)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:3",
@@ -149,7 +146,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "63f447997c52a50987d0bb321e2886a977be91d70a65923a3880e9927f6da1be",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "Assume the helium-neon lasers commonly used in student physics laboratories have power outputs of 0.250 mW. (a) If such a laser beam is projected onto a circular spot 1.00 mm in d…",
       "has_solution": true,
       "missing_labels": [],
@@ -162,19 +159,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:3",
+        "source_sha256": "63f447997c52a50987d0bb321e2886a977be91d70a65923a3880e9927f6da1be",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The radius is correctly obtained from the diameter, and dividing power by the circular area gives the spatially averaged intensity. Inverting the magnetic-field intensity relation and then using E₀=cB₀ correctly answers the remaining parts. Retinal focusing supports the qualitative eye-hazard explanation, although this calculation alone does not establish a damage threshold.",
         "calculation_check": "A=7.85398×10⁻⁷ m², I=318.310 W/m², B₀=1.63299×10⁻⁶ T, and E₀=489.898 V/m. A 50 μT reference terrestrial field is about 30.6 times this magnetic amplitude.",
         "assumptions": "Uniform intensity over the specified spot and sinusoidal propagation in air. A real Gaussian beam would have a different central peak intensity. Static air-breakdown fields are only a rough comparison, not a quantitative optical-breakdown criterion.",
         "notes": "All three numerical answers are correct under uniform illumination. The discussion's breakdown comparison is qualitative; listed laser applications were not externally verified.",
-        "source_sha256": "63f447997c52a50987d0bb321e2886a977be91d70a65923a3880e9927f6da1be",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:4",
@@ -185,7 +182,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "ce9cffc8ddcaf8b15e3913d2b8933ef73db74bbc16a58f4b663761bec7eeca8f",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions. (a) Assuming all of the radio waves that strike the ground are completely absorbed, and that there…",
       "has_solution": true,
       "missing_labels": [
@@ -202,19 +199,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:4",
+        "source_sha256": "ce9cffc8ddcaf8b15e3913d2b8933ef73db74bbc16a58f4b663761bec7eeca8f",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "An isotropic source sends half its total power into the upper hemisphere. Absorbing the downward radiation leaves upper-hemisphere intensity (P/2)/(2πr²)=P/(4πr²). The solution correctly avoids redirecting the absorbed power upward and correctly converts average intensity to peak electric field.",
         "calculation_check": "With r=3.00×10⁴ m, I=5.00×10⁴/[4π(3.00×10⁴)²]=4.42097×10⁻⁶ W/m². E₀=√[2I/(cε₀)]=0.0577087 V/m.",
         "assumptions": "Ideal isotropic emission, complete ground absorption without reflection, no other attenuation, and radiation-zone sinusoidal fields.",
         "notes": "Both answers and the explanation of the hemisphere power budget are correct.",
-        "source_sha256": "ce9cffc8ddcaf8b15e3913d2b8933ef73db74bbc16a58f4b663761bec7eeca8f",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:5",
@@ -225,7 +222,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "bd882dc37a039b088bec9ad3fd3e0558c0a1950ec6cdc14e7896afec1c6e4561",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "Suppose the maximum safe intensity of microwaves for human exposure is taken to be $$1.00 \\text{W}{\\text{/m}}^{2} $$ . (a) If a radar unit leaks 10.0 W of microwaves (other than t…",
       "has_solution": true,
       "missing_labels": [],
@@ -238,19 +235,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:5",
+        "source_sha256": "bd882dc37a039b088bec9ad3fd3e0558c0a1950ec6cdc14e7896afec1c6e4561",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Conservation of radiated power gives I=P/(4πr²), so the stipulated exposure condition requires r≥√[P/(4πI_limit)]. The field calculation is also correct. The discussion goes beyond this hypothetical model by presenting the stipulated limit as an established thermal safety boundary and attributing injury at typical working distances to the calculated leakage. Neither actual biological risk nor historical causation follows from these givens.",
         "calculation_check": "The boundary radius is √[10.0/(4π×1.00)]=0.892062 m and E₀=√[2/(3.00×10⁸×8.85×10⁻¹²)]=27.4462 V/m. Doubling the boundary distance gives 0.250 W/m².",
         "assumptions": "Ideal isotropic radiation with no absorption or reflection; sinusoidal radiation-zone fields. The 1.00 W/m² threshold is accepted solely as the problem's stipulation. Actual heating and injury require exposure duration, frequency, absorption, and tissue information.",
         "notes": "Both requested answers are correct. The discussion makes unsupported biological and historical inferences; those external claims could not be established from the supplied evidence.",
-        "source_sha256": "bd882dc37a039b088bec9ad3fd3e0558c0a1950ec6cdc14e7896afec1c6e4561",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:6",
@@ -260,33 +257,30 @@
       "end_line": 522,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "90b28a9b0b24f0ead6d1699f817960fd4255e27d17c6813c0cd3195a7594b395",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "source_sha256": "a9ef07be376e7ee9a2bf172f905c63c89c665f7902664a1441f38daceb275912",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "A 2.50-m-diameter university communications satellite dish receives TV signals that have a maximum electric field strength (for one channel) of $$ 7.50 \\mu V/m $$ . (See [[Figure…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 25,
+        "skipped": 26,
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:6",
-        "verdict": "concern",
-        "confidence": "high",
-        "reasoning_check": "The field-to-intensity conversion, circular aperture area, and multiplication by broadcast area correctly answer all parts for an ideal receiver. The referenced figure was inspected and is schematic; it adds no numerical angle or efficiency. The discussion misstates the sunlight ratio and claims adequate reception and zero noise margin without the receiver bandwidth, noise, or modulation information needed to establish either.",
-        "calculation_check": "I=7.46719×10⁻¹⁴ W/m², aperture area=4.90874 m², received power=3.66545×10⁻¹³ W=366.545 fW, and transmitted power=1.12008 W. Relative to 1000 W/m² sunlight, the ratio is 1.33919×10¹⁶, not about 10¹³ as stated.",
-        "assumptions": "Sinusoidal radiation, dish aimed at the source, effective collecting area equal to geometric aperture, uniform broadcast footprint, and no propagation losses. Part (c) concerns the specified channel and footprint.",
-        "notes": "All numerical answers are correct. The discussion's sunlight comparison is low by about a factor of 1000, and reception/noise-margin claims are unsupported by the givens. External transponder specifications were not verified.",
-        "source_sha256": "90b28a9b0b24f0ead6d1699f817960fd4255e27d17c6813c0cd3195a7594b395",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "source_sha256": "a9ef07be376e7ee9a2bf172f905c63c89c665f7902664a1441f38daceb275912",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "All numerical answers are correct. Fixed: 7.47×10⁻¹⁴ W/m² is about 10¹⁶ times weaker than sunlight (was '10 trillion'). The receiver and noise remarks remain qualitative.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch24-27)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:7",
@@ -297,7 +291,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "a86fe82247dd0163dd9b4eb71a57964d3d5fa63fca50f70cb87ec7c3f4590aa6",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to ignite nuclear fusion, for example.…",
       "has_solution": true,
       "missing_labels": [],
@@ -310,19 +304,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:7",
+        "source_sha256": "a86fe82247dd0163dd9b4eb71a57964d3d5fa63fca50f70cb87ec7c3f4590aa6",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The relations B₀=E₀/c, I=cε₀E₀²/2, and delivered energy=IAt correctly answer the problem for a constant pulse envelope. The discussion's claim of near-relativistic electron motion within a wavelength does not follow from field amplitude alone: electron response also depends on frequency and interaction conditions. For ordinary optical wavelengths, this field has a nonrelativistic free-electron quiver amplitude.",
         "calculation_check": "B₀=333.333 T, I=1.32750×10¹⁹ W/m², power through 1 mm²=1.32750×10¹³ W, and energy over 1 ns=13275 J. As a conditional optical example, at λ=1 μm the normalized amplitude a₀=eE₀λ/(2πm_ec²)=0.0311, giving quiver speed about 0.031c, well below relativistic motion.",
         "assumptions": "A sinusoidal carrier with approximately constant amplitude throughout the 1 ns pulse, uniform illumination, and vacuum propagation before interaction with matter. The illustrative 1 μm wavelength is not supplied by the problem and is used only to test the discussion's general claim.",
         "notes": "All requested results are correct. The relativistic-electron claim is unjustified and fails for a conventional optical example. Laboratory-record, generating-capacity, and facility comparisons were not externally verified.",
-        "source_sha256": "a86fe82247dd0163dd9b4eb71a57964d3d5fa63fca50f70cb87ec7c3f4590aa6",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:8",
@@ -333,7 +327,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "d2d998a4d33abff384e311413673c048890ad9fa042cc1b6101662d7e8b0b04e",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "Show that for a continuous sinusoidal electromagnetic wave, the peak intensity is twice the average intensity ( $${I}_{0}={2I}_{\\text{ave}} $$ ), using either the fact that $${E}_…",
       "has_solution": true,
       "missing_labels": [],
@@ -345,19 +339,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:8",
+        "source_sha256": "d2d998a4d33abff384e311413673c048890ad9fa042cc1b6101662d7e8b0b04e",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The requested proof is correct: for a linearly polarized sinusoidal traveling wave, I(t)=cε₀E₀²sin²(ωt), whose mean is half its maximum. However, the discussion incorrectly extends this result to any sinusoidal quantity and AC electrical power generally. It also risks conflating optical-cycle peaks with pulse-envelope peaks and averages.",
         "calculation_check": "Since ⟨sin²⟩=1/2, I₀/I_average=2. For AC voltage and current separated by phase φ, p(t)=V₀I₀[cosφ+cos(2ωt−φ)]/2. At φ=60°, maximum power divided by average power is 3, not 2; for a purely reactive load average power is zero.",
         "assumptions": "A continuous, linearly polarized sinusoidal traveling wave with fixed envelope, averaged over complete carrier cycles. Pulse duty cycle and envelope shape require separate averaging.",
         "notes": "The proof and final answer are correct, but the discussion's universal AC-power extension is false. Pulsed-laser peak-to-average ratios are not generally two.",
-        "source_sha256": "d2d998a4d33abff384e311413673c048890ad9fa042cc1b6101662d7e8b0b04e",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:9",
@@ -368,7 +362,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "df85d2698e37519f9e2e5f7f165875e6652e502196daf87ff8c0e1b1590d9c3a",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is…",
       "has_solution": true,
       "missing_labels": [],
@@ -381,19 +375,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:9",
+        "source_sha256": "df85d2698e37519f9e2e5f7f165875e6652e502196daf87ff8c0e1b1590d9c3a",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Conservation of power across concentric spheres gives I=P/(4πr²). In the radiation zone, intensity is proportional to either field amplitude squared, so E₀ and B₀ each scale as 1/r. The solution derives both requested dependencies correctly. Its discussion of decreasing received power applies to a fixed collecting area; total emitted power remains constant.",
         "calculation_check": "Doubling r multiplies sphere area by four, reducing intensity to one quarter and field amplitudes to one half. At 1.5 times the distance, the intensity ratio is 1/1.5²=0.4444, matching the Mars illustration.",
         "assumptions": "An ideal isotropic source, conserved outward radiated power, no absorption or interference, and radiation-zone fields. The field scaling concerns amplitudes or rms values, not equal-time instantaneous fields at different propagation phases; near fields need not scale as 1/r.",
         "notes": "Both derivations are correct with the radiation-zone interpretation. The spacecraft example is illustrative and was not externally verified.",
-        "source_sha256": "df85d2698e37519f9e2e5f7f165875e6652e502196daf87ff8c0e1b1590d9c3a",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:10",
@@ -404,7 +398,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "c6c2c3d26c0bb53eb0a725e2657bc89d1345fd00a79b5e143521ca345c632edb",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** An $$\\text{LC} $$ circuit with a 5.00-pF capacitor oscillates in such a manner as to radiate at a wavelength of 3.30 m. (a) What is the resonant frequency?…",
       "has_solution": true,
       "missing_labels": [],
@@ -417,19 +411,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:10",
+        "source_sha256": "c6c2c3d26c0bb53eb0a725e2657bc89d1345fd00a79b5e143521ca345c632edb",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The emitted wave frequency is c/λ. For an ideal LC oscillator, charge obeys d²q/dt²+q/(LC)=0, giving f=1/(2π√LC); solving this for L gives the expression used. The energy-exchange explanation and inverse dependence on L and C are correct.",
         "calculation_check": "f=(3.00×10⁸)/3.30=9.09091×10⁷ Hz. L=1/[4π²f²(5.00×10⁻¹²)]=6.12993×10⁻⁷ H=612.993 nH. Since HF has units s², the resonance expression is dimensionally consistent.",
         "assumptions": "Vacuum-like wave speed, a lumped LC circuit, and sufficiently weak damping and loading that the ideal resonant frequency applies. Actual radiated power depends on antenna coupling.",
         "notes": "Both requested answers and the resonance reasoning are correct. Practical component and broadcasting examples are illustrative rather than independently verified specifications.",
-        "source_sha256": "c6c2c3d26c0bb53eb0a725e2657bc89d1345fd00a79b5e143521ca345c632edb",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:11",
@@ -440,7 +434,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "a7664c92e0863bb49ed5a23a2a75ee1dafb2b1a33e8eed642a5ffff265b01256",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** What capacitance is needed in series with an $$800-\\mu \\text{H} $$ inductor to form a circuit that radiates a wavelength of 196 m?",
       "has_solution": true,
       "missing_labels": [
@@ -456,19 +450,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:11",
+        "source_sha256": "a7664c92e0863bb49ed5a23a2a75ee1dafb2b1a33e8eed642a5ffff265b01256",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Combining f=c/λ with f=1/(2π√LC) gives C=λ²/(4π²Lc²). Applying this to the given inductance and wavelength independently reproduces the supplied answer.",
         "calculation_check": "L=800×10⁻⁶ H and f=(3.00×10⁸)/196=1.53061×10⁶ Hz give C=1/[4π²(1.53061×10⁶)²(800×10⁻⁶)]=1.35151×10⁻¹¹ F=13.5151 pF.",
         "assumptions": "Ideal lumped LC resonance, vacuum-like wave speed, and negligible frequency shifts from damping, antenna loading, or parasitic components.",
         "notes": "The supplied 13.5 pF answer is correct; the absence of worked reasoning is not a physics error.",
-        "source_sha256": "a7664c92e0863bb49ed5a23a2a75ee1dafb2b1a33e8eed642a5ffff265b01256",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:49:37+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:49:37+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:12",
@@ -479,7 +473,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "278f5b76b679c452127036fad00cf57f6250a24d4566a319857de9f3ea1e2acc",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** Police radar determines the speed of motor vehicles using the same Doppler-shift technique employed for ultrasound in medical diagnostics. Beats are produc…",
       "has_solution": true,
       "missing_labels": [],
@@ -492,19 +486,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:12",
+        "source_sha256": "278f5b76b679c452127036fad00cf57f6250a24d4566a319857de9f3ea1e2acc",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For an approaching reflector moving along the radar beam, the stipulated double Doppler formula gives f_echo/f0=(c+v)/(c-v). Consequently, the beat frequency is approximately 2f0v/c when v is small compared with c. The solution correctly obtains the speed magnitude; the beat magnitude alone does not distinguish approach from recession. The discussion correctly explains the two shifts, although measurement accuracy cannot be established from the beat frequency alone.",
         "calculation_check": "v=(3.00e8)(150)/(2×1.50e9)=15.0 m/s=54.0 km/h=33.56 mph. Solving the approaching-reflector expression exactly gives 14.99999925 m/s, confirming that the approximation is adequate. The intermediate numerator has units m/s², and division by Hz restores m/s.",
         "assumptions": "Stationary radar, motion directly along its line of sight, a single reflected signal, and v much smaller than c. Otherwise the measurement gives the radial velocity component. The operational radar-band statement was not independently sourced.",
         "notes": "The double Doppler calculation and conversions are correct. Full vehicle speed requires the assumed line-of-sight alignment; precision also depends on measurement uncertainties.",
-        "source_sha256": "278f5b76b679c452127036fad00cf57f6250a24d4566a319857de9f3ea1e2acc",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:13",
@@ -515,7 +509,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "4c5385985d4abcacf61cd71781b927dd6b0d9f7bf637aa4a1588b7fd4264856b",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** Assume the mostly infrared radiation from a heat lamp acts like a continuous wave with wavelength $$1.50 \\mu \\text{m} $$ . (a) If the lamp’s 200-W output i…",
       "has_solution": true,
       "missing_labels": [
@@ -531,19 +525,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:13",
+        "source_sha256": "4c5385985d4abcacf61cd71781b927dd6b0d9f7bf637aa4a1588b7fd4264856b",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "All four answers follow from I=P/A, the sinusoidal-wave relations E0=sqrt(2I/(c epsilon0)) and B0=E0/c, and the thermal balance Pt=mc_specific ΔT. The wavelength is unnecessary once the average power and illuminated area are specified.",
         "calculation_check": "A=π(0.125 m)²=0.0490874 m² and I=4074.37 W/m². This gives E0=1751.91 V/m and B0=5.84e-6 T. Heating requires Q=(4.00)(3470)(2.00)=27760 J, so t=27760/200=138.8 s, or approximately 2 min 19 s.",
         "assumptions": "Uniform illumination, a sinusoidal traveling wave in approximately free space, complete absorption of the 200 W, constant specific heat, and the stipulated absence of other heat transfer. The shoulder is treated as a single thermal mass.",
         "notes": "All four numerical answers are correct under the stated idealized heating and wave assumptions.",
-        "source_sha256": "4c5385985d4abcacf61cd71781b927dd6b0d9f7bf637aa4a1588b7fd4264856b",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:14",
@@ -553,33 +547,30 @@
       "end_line": 1078,
       "kind": "problems-exercises",
       "ordinal": 14,
-      "source_sha256": "fac75cfe4e87c162b873eb6d8dbbda96c6d206039b1ea3a51a3c15b0ed6b3a56",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "source_sha256": "d79f60c96500c375d995e0d7ff408788e285bf130088c6bb9730df59a741c384",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** On its highest power setting, a microwave oven increases the temperature of 0.400 kg of spaghetti by $$ 45.0\\text{ºC} $$ in 120 s. (a) What was the rate of…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 28,
+        "skipped": 30,
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:14",
-        "verdict": "concern",
+        "source_sha256": "d79f60c96500c375d995e0d7ff408788e285bf130088c6bb9730df59a741c384",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The thermal calculation and all four final answers are correct under the intended traveling-wave model. However, the discussion incorrectly concludes that electromagnetic waves carry most of their energy in the electric field because the magnetic field is numerically small. Electric and magnetic field strengths use different units, so their numerical magnitudes cannot establish an energy imbalance. For a free-space traveling wave, uE=epsilon0 E²/2 and uB=B²/(2mu0) are equal, including instantaneously. The discussion's subsequent acknowledgment of equal energy densities contradicts its preceding claim.",
-        "calculation_check": "Q=(0.400)(3760)(45.0)=67680 J; P=564 W. A=π(0.100)²=0.0314159 m², giving I=17952.7 W/m², E0=3677.45 V/m, and B0=1.226e-5 T. Each field contributes the same average energy density, I/(2c)=2.99e-5 J/m³.",
-        "assumptions": "The temperature rise accounts for the absorbed energy, with negligible thermal losses or phase changes. Inferring incident intensity from absorbed power assumes complete absorption over the specified area. The field calculations describe an equivalent traveling wave, rather than the detailed standing-wave pattern in an oven. The quoted 56% efficiency assumes an illustrative 1000-W output not supplied by the problem.",
-        "notes": "All numerical answers check out. The discussion's assertion that the electric field carries most of the wave energy is physically incorrect.",
-        "source_sha256": "fac75cfe4e87c162b873eb6d8dbbda96c6d206039b1ea3a51a3c15b0ed6b3a56",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "notes": "All answers are correct. Fixed: the discussion no longer says the electric field carries most of the energy; the electric and magnetic energy densities are equal, and B0 is small only because B0 = E0/c.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch24-27)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:15",
@@ -590,7 +581,7 @@
       "kind": "problems-exercises",
       "ordinal": 15,
       "source_sha256": "582a2dc6e3dbadb930d49a37aafbba4353a9bf7f1ab00ea3e23dac74faf57ac5",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** Electromagnetic radiation from a 5.00-mW laser is concentrated on a $$1.00{\\text{-mm}}^{2}$$ area. (a) What is the intensity in $${\\text{W/m}}^{2}$$? (b) S…",
       "has_solution": true,
       "missing_labels": [
@@ -606,19 +597,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:15",
+        "source_sha256": "582a2dc6e3dbadb930d49a37aafbba4353a9bf7f1ab00ea3e23dac74faf57ac5",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The intensity is power divided by beam area. The maximum electric force is |q|E0. For the moving charge, the maximum magnetic-force magnitude is |q|vB0, attained when the velocity is perpendicular to the magnetic field at its peak. These relations reproduce all supplied answers.",
         "calculation_check": "1.00 mm²=1.00e-6 m², so I=0.00500/1.00e-6=5000 W/m². E0=1940.74 V/m and B0=6.47e-6 T. Therefore FE,max=(2.00e-9)(1940.74)=3.88e-6 N and FB,max=(2.00e-9)(400)(6.47e-6)=5.18e-12 N. Their ratio is v/c=1.33e-6, as expected.",
         "assumptions": "Uniform sinusoidal traveling-wave illumination in free space, negligible disturbance of the beam by the test charge, and a velocity orientation perpendicular to B for the requested maximum magnetic force. The charge is stationary for part (b) and moving in part (c).",
         "notes": "All three answers are correct, including the peak-field and maximum-force factors.",
-        "source_sha256": "582a2dc6e3dbadb930d49a37aafbba4353a9bf7f1ab00ea3e23dac74faf57ac5",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:16",
@@ -629,7 +620,7 @@
       "kind": "problems-exercises",
       "ordinal": 16,
       "source_sha256": "607c8f5452d224980c7c0df9792c145cd74211b600bf58a6ce9f9972219b5d37",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** A 200-turn flat coil of wire 30.0 cm in diameter acts as an antenna for FM radio at a frequency of 100 MHz. The magnetic field of the incoming electromagne…",
       "has_solution": true,
       "missing_labels": [],
@@ -642,19 +633,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:16",
+        "source_sha256": "607c8f5452d224980c7c0df9792c145cd74211b600bf58a6ce9f9972219b5d37",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Parts (b) and (c) correctly apply Faraday's law and ideal LC resonance. Part (a) conflicts with the stated geometry: B perpendicular to the coil plane makes B parallel to its area normal, while a transverse wave's propagation direction and Poynting vector are perpendicular to B. The incident energy therefore travels parallel to the coil plane, and its normal flux through the geometrical disk is zero. Multiplying intensity by the disk area assumes normal incidence, which would instead give zero magnetic flux through the coil. An antenna can still receive energy in the stated orientation, but its received power requires an effective aperture and loading model, not simply IA.",
         "calculation_check": "The wave intensity is 1.19366e-10 W/m², and its product with the disk area 0.0706858 m² is 8.4375e-12 W; this arithmetic does not resolve the orientation error. For a quarter-cycle from maximum flux to zero, |average emf|=4NAB0f=5.65487 mV. C=1/[(2π×1.00e8)²(2.50e-6)]=1.01321 pF.",
         "assumptions": "A transverse free-space incident wave, approximately uniform magnetic flux across the coil, and an ideal lumped LC receiver. The quarter-cycle average assumes an interval between a field extremum and its adjacent zero; arbitrary quarter-cycle intervals need not give the same signed average. Maximum current at resonance additionally presumes an appropriate series-circuit model.",
         "notes": "The induced emf and resonance capacitance are correct. The incident-power calculation uses an aperture orientation incompatible with the stated magnetic-field direction.",
-        "source_sha256": "607c8f5452d224980c7c0df9792c145cd74211b600bf58a6ce9f9972219b5d37",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:17",
@@ -665,7 +656,7 @@
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "99736dfa8f42951bf997ac42595c25aea30deb83fdb9b602c1f117ee2d082a7e",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Integrated Concepts** If electric and magnetic field strengths vary sinusoidally in time, being zero at $$t=0 $$ , then $$E={E}_{0} \\sin 2\\pi \\text{ft} $$ and $$B={B}_{0} \\sin 2…",
       "has_solution": true,
       "missing_labels": [
@@ -681,19 +672,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:17",
+        "source_sha256": "99736dfa8f42951bf997ac42595c25aea30deb83fdb9b602c1f117ee2d082a7e",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For positive amplitudes multiplying sin(2πft), the earliest zero at or after the stated origin is t=0. The first negative minimum occurs at phase 3π/2, or t=3/(4f), and a complete cycle takes T=1/f. The supplied answers consistently use that interpretation.",
         "calculation_check": "At f=1.00e9 Hz, T=1.00e-9 s and 3T/4=7.50e-10 s. Zeros occur at t=nT/2, so the first subsequent zero strictly after t=0 would instead be 5.00e-10 s.",
         "assumptions": "Time is considered from t=0 onward, the amplitudes E0 and B0 are positive, and 'first zero' includes the initial instant explicitly given in the problem.",
         "notes": "All answers are correct when the initial zero is included. The next zero after the initial instant is 0.500 ns.",
-        "source_sha256": "99736dfa8f42951bf997ac42595c25aea30deb83fdb9b602c1f117ee2d082a7e",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:18",
@@ -704,7 +695,7 @@
       "kind": "problems-exercises",
       "ordinal": 18,
       "source_sha256": "098bd9d23c803cbc06306010d623a3a7aac6d6e029fba7ff95cc5dd9f1d871bc",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Unreasonable Results** A researcher measures the wavelength of a 1.20-GHz electromagnetic wave to be 0.500 m. (a) Calculate the speed at which this wave propagates. (b) What is…",
       "has_solution": true,
       "missing_labels": [],
@@ -717,19 +708,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:18",
+        "source_sha256": "098bd9d23c803cbc06306010d623a3a7aac6d6e029fba7ff95cc5dd9f1d871bc",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The multiplication and the proposed vacuum-consistent alternatives are correct. However, fλ measures phase velocity, and the solution incorrectly claims that electromagnetic phase velocities in every material must be below c and that no material can have refractive index below one. For example, the ideal collisionless-plasma dispersion relation omega²=omega_p²+c²k² permits phase velocity above c while group velocity remains below c. Thus the measurements are inconsistent for a vacuum wave, but are not universally inconsistent without specifying the propagation medium or mode. Special relativity constrains causal signal propagation, not every phase velocity. There is also no evidence that a wavelength error is more likely than a frequency error.",
         "calculation_check": "fλ=(1.20e9)(0.500)=6.00e8 m/s=2c. In vacuum, the alternatives are λ=c/f=0.250 m or f=c/λ=600 MHz. As a counterexample to the universal prohibition, n=0.5 gives phase velocity 2c; the plasma model then gives group velocity 0.5c.",
         "assumptions": "The intended unreasonable result requires vacuum, approximately vacuum-like air, or another explicitly stipulated medium with the relevant phase speed at most c. The plasma counterexample distinguishes phase propagation from information transport.",
         "notes": "The intended vacuum calculation is correct. The material-medium and relativity explanations are overgeneralized, and the problem needs a propagation-medium assumption.",
-        "source_sha256": "098bd9d23c803cbc06306010d623a3a7aac6d6e029fba7ff95cc5dd9f1d871bc",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:19",
@@ -740,7 +731,7 @@
       "kind": "problems-exercises",
       "ordinal": 19,
       "source_sha256": "9a1d06906a9812ce4ae06497e1e6ac01584105ee73d3faeb6ed10f84375a2b8d",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Unreasonable Results** The peak magnetic field strength in a residential microwave oven is $$ 9.20 \\times 10^{-5} \\text{T} $$ . (a) What is the intensity of the microwave? (b) W…",
       "has_solution": true,
       "missing_labels": [
@@ -756,19 +747,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:19",
+        "source_sha256": "9a1d06906a9812ce4ae06497e1e6ac01584105ee73d3faeb6ed10f84375a2b8d",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The stated intensity follows correctly if B0 is the peak magnetic field of a sinusoidal traveling wave. However, neither that intensity nor the field magnitude alone proves the premise unreasonable. A residential oven is a resonant cavity containing standing-wave fields; local magnetic amplitude does not uniquely determine local time-averaged energy flux or the oven's total power. Even under a traveling-wave approximation, an illuminated area and power comparison are needed to justify 'much too great.' The solution's categorical rejection of the magnetic-field value is therefore unsupported by the supplied information.",
         "calculation_check": "I=cB0²/(2mu0)=(3.00e8)(9.20e-5)²/[2(4πe-7)]=1.01032e6 W/m². This would correspond to 10.1 kW across 0.0100 m², but that area is illustrative and is not given. A standing-wave magnetic antinode can have nonzero B while the time-averaged net Poynting flux vanishes.",
         "assumptions": "The numerical result assumes a free-space traveling wave and a peak, rather than rms, magnetic field. Determining whether the actual oven field is unreasonable requires cavity geometry, loading, losses, and spatial field information that are not supplied.",
         "notes": "The equivalent traveling-wave intensity is correct. The conclusions that this necessarily exceeds oven capabilities and that the magnetic field must be wrong are not established.",
-        "source_sha256": "9a1d06906a9812ce4ae06497e1e6ac01584105ee73d3faeb6ed10f84375a2b8d",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:20",
@@ -779,7 +770,7 @@
       "kind": "problems-exercises",
       "ordinal": 20,
       "source_sha256": "cebcde94611e36d291c22c14b44c9d8b19c356bc3b958cc2cbc6397362f1b4bc",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Unreasonable Results** An $$\\text{LC} $$ circuit containing a 2.00-H inductor oscillates at such a frequency that it radiates at a 1.00-m wavelength. (a) What is the capacitance…",
       "has_solution": true,
       "missing_labels": [],
@@ -792,19 +783,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:20",
+        "source_sha256": "cebcde94611e36d291c22c14b44c9d8b19c356bc3b958cc2cbc6397362f1b4bc",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The resonance calculation and central practical diagnosis are sound: an ordinary 2-H inductor cannot behave as an ideal lumped inductance at 300 MHz with a total capacitance of only 1.41e-19 F. Parasitic capacitance, distributed behavior, and losses invalidate that model. However, the discussion incorrectly elevates 'both L and C must decrease' to a fundamental principle. Only their product fixes the ideal resonance frequency; one can remain fixed while the other decreases. Likewise, efficient radiation is determined by antenna coupling, geometry, and losses, rather than simply requiring both L and C to be small. The stated universal minimum practical capacitance is not established.",
         "calculation_check": "f=c/λ=3.00e8 Hz. C=1/[(2π×3.00e8)²(2.00)]=1.40724e-19 F=0.140724 aF. At fixed C=1.00 pF, the required L is 2.81448e-7 H=281 nH. The quoted reactance is also correct: XL=2πfL=3.76991e9 ohms.",
         "assumptions": "Vacuum radiation, ideal LC resonance for the initial calculation, and ordinary macroscopic discrete components for the practical assessment. Numerical component-size thresholds are engineering examples rather than universal physical limits.",
         "notes": "The capacitance and rejection of a practical 2-H lumped inductor at 300 MHz are correct. The discussion's requirements on both components and on radiation efficiency are too strong.",
-        "source_sha256": "cebcde94611e36d291c22c14b44c9d8b19c356bc3b958cc2cbc6397362f1b4bc",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:21",
@@ -815,7 +806,7 @@
       "kind": "problems-exercises",
       "ordinal": 21,
       "source_sha256": "48c23a573ad28ee2eb69dc79f032cbcec569ef4aec9d2c730b23f46ab6a4ecc0",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Unreasonable Results** An $$\\text{LC} $$ circuit containing a 1.00-pF capacitor oscillates at such a frequency that it radiates at a 300-nm wavelength. (a) What is the inductanc…",
       "has_solution": true,
       "missing_labels": [
@@ -831,19 +822,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:21",
+        "source_sha256": "48c23a573ad28ee2eb69dc79f032cbcec569ef4aec9d2c730b23f46ab6a4ecc0",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Combining f=c/λ with f=1/(2πsqrt(LC)) gives L=λ²/(4π²c²C), reproducing the answer. For an ordinary discrete circuit containing a 1-pF capacitor, the implied inductance is far below unavoidable connection and component inductances, and the ideal lumped-element description fails at the implied optical frequency. The terse statements in parts (b) and (c) are reasonable in that circuit context. A 300-nm electromagnetic wavelength is itself physically possible; the incompatibility concerns producing it with the stipulated conventional LC circuit.",
         "calculation_check": "λ=300e-9 m gives f=1.00e15 Hz. L=1/[(2π×1.00e15)²(1.00e-12)]=2.53303e-20 H, matching the supplied value.",
         "assumptions": "Free-space wavelength and a conventional macroscopic lumped LC circuit. The conclusion does not exclude ultraviolet radiation or specialized optical resonant systems described by different physical models.",
         "notes": "The inductance and intended practical inconsistency are correct. 'Unreasonably small wavelength' must be understood relative to the specified conventional LC circuit.",
-        "source_sha256": "48c23a573ad28ee2eb69dc79f032cbcec569ef4aec9d2c730b23f46ab6a4ecc0",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:22",
@@ -854,7 +845,7 @@
       "kind": "problems-exercises",
       "ordinal": 22,
       "source_sha256": "70bc5c42af96d9353797d7c74eeef8a713f4efbd6c12aa770e4e295124995aa7",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Create Your Own Problem** Consider electromagnetic fields produced by high voltage power lines. Construct a problem in which you calculate the intensity of this electromagnetic…",
       "has_solution": true,
       "missing_labels": [
@@ -869,19 +860,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:22",
+        "source_sha256": "70bc5c42af96d9353797d7c74eeef8a713f4efbd6c12aa770e4e295124995aa7",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The solution correctly recognizes that the requested radiation intensity cannot be inferred from the measured near magnetic field using the traveling-wave formula. At 60 Hz and 50 m, the field is deeply in the near-field regime, and B alone does not determine the time-averaged Poynting vector. Its labeled naive calculation is arithmetically sound, but the subsequent transmission-power comparison mixes peak and rms current: the chosen B0 yields a peak current of 125 A, whereas the three-phase real-power formula requires rms current. Moreover, a single-wire field estimate cannot directly determine per-phase current in a three-phase line because the phase fields superpose and partially cancel. Assertions about typical radiation in watts and biological evidence are not established by the supplied model or evidence.",
         "calculation_check": "The naive quantities are I=29.8416 W/m², cylindrical area=1.57080e5 m², and apparent radiated power=4.68750 MW. The single-wire estimate is I_peak=125 A. Consistently using I_rms=125/sqrt(2)=88.39 A gives transmitted power sqrt(3)(500 kV)(88.39 A)(0.95)=72.72 MW, rather than 103 MW. Also, λ=5.00e6 m and kr=2πr/λ=6.28e-5, confirming the near-field limitation.",
         "assumptions": "The selected 0.50-μT field is treated as peak because the solution explicitly calls it B0. The 500-kV value is assumed to be rms line-to-line voltage. The current estimate additionally assumes an isolated long straight conductor, an approximation insufficient to specify an actual three-phase line. Actual radiation and biological effects require additional evidence.",
         "notes": "The final rejection of the naive radiation estimate is correct. The example nevertheless mixes peak and rms values, neglects phase cancellation, and makes unsupported radiation and health claims.",
-        "source_sha256": "70bc5c42af96d9353797d7c74eeef8a713f4efbd6c12aa770e4e295124995aa7",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:23",
@@ -892,7 +883,7 @@
       "kind": "problems-exercises",
       "ordinal": 23,
       "source_sha256": "963ae6a1ad21938ba4fbf61254c9739794f60cd6632d829ef87bc25808536def",
-      "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+      "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
       "preview": "**Create Your Own Problem** Consider the most recent generation of residential satellite dishes that are a little less than half a meter in diameter. Construct a problem in which…",
       "has_solution": true,
       "missing_labels": [
@@ -907,19 +898,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:23",
+        "source_sha256": "963ae6a1ad21938ba4fbf61254c9739794f60cd6632d829ef87bc25808536def",
+        "file_sha256": "2fb2ab1fdcf82d530edca94b68193ddbd321d2dbd2d6caead6fbfa41e1e033d9",
         "verdict": "concern",
         "confidence": "medium",
         "reasoning_check": "The constructed problem and its principal calculations are physically consistent for uniform illumination and an ideal collecting aperture. However, the discussion needs qualifications: a fixed ground dish requires a geostationary satellite, not merely a geosynchronous one; inverse-square altitude scaling assumes a fixed angular beam pattern rather than a fixed ground footprint. Its quoted round-trip delay also requires a defined path: one ground-satellite-ground traversal is approximately 0.24 s, whereas a request and response between two ground terminals through the satellite takes approximately 0.48 s. Receiver sensitivity and reliable reception cannot be assessed from received power alone without bandwidth, noise temperature, and required signal-to-noise ratio. The equipment and historical specifications were not independently verified.",
         "calculation_check": "I=200/(2.0e13)=1.00e-11 W/m². A=π(0.225)²=0.159043 m², giving incident power 1.59043e-12 W. E0=sqrt[2I/(c epsilon0)]=8.67926e-5 V/m and B0=E0/c=2.89e-13 T. At 36000 km altitude, 2h/c=0.240 s and 4h/c=0.480 s.",
         "assumptions": "All 200 W is distributed uniformly over the stated footprint, treated as an area perpendicular to propagation. The dish points toward the source and collects through its full geometric area with unit efficiency; practical delivered receiver power includes aperture efficiency and losses. The wave is sinusoidal and approximately in free space. Orbital and receiver-performance claims require the qualifications above.",
         "notes": "The intensity, ideal received power, and fields are correct. Discussion concerns include geosynchronous versus geostationary motion, delay-path ambiguity, and reception claims lacking noise and bandwidth specifications.",
-        "source_sha256": "963ae6a1ad21938ba4fbf61254c9739794f60cd6632d829ef87bc25808536def",
-        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261024T084348Z-437db7",
-        "reviewed_at": "2026-10-24T08:54:48+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:54:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24MaxwellsEquations.md::problems-exercises:1",
@@ -1391,9 +1382,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A receiving conductor can develop an induced voltage without being geometrically resonant. For an ordinary straight dipole, the fundamental resonance occurs near half a wavelength; a monopole above a conducting ground plane uses the image conductor to obtain the corresponding resonance near a quarter wavelength. The solution correctly distinguishes possible reception from favorable resonant operation. Its efficiency statements describe conventional practical antennas, rather than a universal prohibition on efficient electrically small antennas.",
+        "calculation_check": "Using wavelength = c/f gives 3.00 m at 100 MHz and 300 m at 1.00 MHz. The corresponding FM half- and quarter-wave lengths are 1.50 m and 0.750 m; the AM quarter-wave length is 75.0 m. All supplied numbers agree.",
+        "assumptions": "Conventional straight antennas, suitable polarization and orientation, approximately free-space wavelength, and an adequate ground plane for the monopole. Loading, matching, conductor losses, bandwidth, and end corrections can alter practical designs; resonance alone does not determine radiation efficiency.",
+        "notes": "Correct conceptual answer and wavelength examples for conventional dipoles and monopoles. Electrically small, loaded, or matched antennas require qualifications to the broad efficiency language.",
+        "source_sha256": "accf63814f7d49fe91a3bc2739eed0d8a900d36e29f7f1a2362d201461a781f9",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T09:05:01+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:1",
@@ -1413,9 +1417,22 @@
         "skipped": 18
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a traveling transverse electromagnetic wave in vacuum or approximately in air, Faraday's law gives E0/B0 = c. The electric and magnetic maxima therefore correspond directly, with no root-mean-square conversion. The solution answers the requested maximum field correctly. Its comparison with air breakdown is consistent with the stated approximate breakdown value.",
+        "calculation_check": "E0 = (5.00e-4 T)(3.00e8 m/s) = 1.50e5 V/m = 150 kV/m. Dividing by 3.00e6 V/m gives 0.0500, or one-twentieth. T·m/s = N/C = V/m.",
+        "assumptions": "A freely propagating wave in vacuum or air, rather than an arbitrary electromagnetic field or a transmitter's reactive near field. The breakdown comparison is approximate and does not establish breakdown behavior for every pulse duration or frequency. The suggested transmitter and lightning examples are qualitative possibilities, not independently verified field measurements.",
+        "notes": "Correct field relation, maximum amplitude, units, and breakdown comparison under the traveling-wave assumption.",
+        "source_sha256": "a539145dd7a526e35ab1f187e4010b4f85dca0e62fabb8680cc63f0b0a7477c7",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T09:05:01+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:2",
@@ -1436,9 +1453,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a transverse plane wave in an ordinary lossless medium, Faraday's law gives B0 = kE0/omega, so E0/B0 equals the phase speed omega/k. Substituting 0.75c is therefore appropriate. The discussion correctly compares waves having the same magnetic amplitude; this is not a calculation of transmitted amplitude at an interface. Its reference to a 'denser' medium should be understood as an ordinary higher-index dielectric, since mass density alone does not determine wave speed.",
+        "calculation_check": "v = 2.25e8 m/s and E0 = (5e-6 T)(2.25e8 m/s) = 1125 V/m, consistent with 1.1e3 V/m. The corresponding vacuum value is 1500 V/m, and n = c/v = 1.333. The field ratio is reduced by exactly 0.75 before rounding.",
+        "assumptions": "Homogeneous, isotropic, effectively lossless medium supporting a transverse traveling wave; the supplied speed is its phase speed. Absorbing media, evanescent fields, and general near fields require additional qualifications.",
+        "notes": "Correct relation and numerical result for the intended transparent-medium model. Density is not itself the controlling optical property.",
+        "source_sha256": "ceefc40b03066f2fa1eb2c70a926aaf1de4d5f9de1ddb10fd26652795742d3b7",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T09:05:01+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:3",
@@ -1458,9 +1488,22 @@
         "skipped": 36
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::problems-exercises:3",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The dimensional derivation fully answers the problem and is correct. However, the discussion incorrectly characterizes c as relative motion between observer and source. The wave relation E/B = c holds for a vacuum plane wave even when source and observer are mutually at rest. Relativity does mix electric and magnetic fields between frames, but dimensional consistency does not establish that result, and c is not their relative velocity.",
+        "calculation_check": "(V/m)/(m/s) = V·s/m² = kg/(C·s) = kg/(A·s²) = T. Independently, the magnetic Lorentz force gives T = N/(C·m/s) = kg/(C·s), confirming the same dimensions.",
+        "assumptions": "SI units; E/B = c refers to a traveling vacuum wave. Dimensional verification establishes compatible units, not the physical validity of a relation in arbitrary circumstances.",
+        "notes": "Unit verification and final answer are correct. Discussion materially misidentifies c with source-observer relative motion and overinterprets dimensional analysis.",
+        "source_sha256": "397420ea4343811dc06c060a0c60fd8cc11234bec9bac2622b4f424e708d73a1",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T09:05:01+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::worked-example:1",
@@ -1471,7 +1514,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "3340f9d69a5221922b12d18bce85c23732e2fe6a79ed07d956dbf5cf8969a5e9",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "::: example Calculating Wavelengths of Radio Waves Calculate the wavelengths of a 1530-kHz AM radio signal, a 105.1-MHz FM radio signal, and a 1.90-GHz cell phone signal. **Strate…",
       "has_solution": true,
       "missing_labels": [],
@@ -1480,9 +1523,22 @@
         "skipped": 12
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::worked-example:1",
+        "source_sha256": "3340f9d69a5221922b12d18bce85c23732e2fe6a79ed07d956dbf5cf8969a5e9",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A periodic wave travels one wavelength during one period, giving wavelength = speed/frequency. Using c for propagation in air is appropriate at the stated precision. All three frequency conversions and requested wavelengths are handled correctly. Inspection of the referenced Figure 1 SVG source confirms that these frequencies occupy the indicated AM, FM, and microwave/radio regions.",
+        "calculation_check": "3.00e8/1.530e6 = 196.078 m; 3.00e8/105.1e6 = 2.85442 m; 3.00e8/1.90e9 = 0.157895 m. These round to 196 m, 2.85 m, and 0.158 m. The dimensions are (m/s)/(1/s) = m.",
+        "assumptions": "Propagation in air with speed approximated by c; frequency is measured in the same frame as wavelength. The spectrum figure was inspected through its SVG labels and coordinates.",
+        "notes": "All three wavelengths, unit conversions, and spectrum comparisons are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::worked-example:2",
@@ -1493,7 +1549,7 @@
       "kind": "worked-example",
       "ordinal": 2,
       "source_sha256": "41c33127e7c543aef3dc4dbdd3f345027dc5e8207abbb72666e694bdbcc3cd21",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "::: example Integrated Concept Problem: Correcting Vision with Lasers During laser vision correction, a brief burst of 193-nm ultraviolet light is projected onto the cornea of a p…",
       "has_solution": true,
       "missing_labels": [],
@@ -1503,9 +1559,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::worked-example:2",
+        "source_sha256": "41c33127e7c543aef3dc4dbdd3f345027dc5e8207abbb72666e694bdbcc3cd21",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "medium",
+        "reasoning_check": "For the expressly stipulated water-like tissue heated from 34°C to vapor at 100°C, the correct energy balance is Q = rho·pi·d²·t/4·[c(100−34)+Lv]. The solution correctly includes both sensible and latent heat and uses the diameter correctly. The concern is the discussion's presentation of thermal evaporation as the mechanism of actual excimer surgery without distinguishing the stipulated model. The same chapter's later 193-nm exercise explicitly describes photochemical bond-breaking ablation rather than thermal boiling. That discrepancy affects the real-world explanation, not the requested idealized calculation.",
+        "calculation_check": "Volume = 1.50796e-13 m³ and mass = 1.50796e-10 kg. The specific energy is 4186(66)+2.256e6 = 2.532276e6 J/kg, yielding Q = 3.81858e-4 J = 382e-9 kJ. At 400 pulses/s, absorbed average power is 0.152743 W, consistent with 150 mW. A 10-ns pulse implies about 3.82e4 W during the pulse; duration is unnecessary for average power.",
+        "assumptions": "Uniform cylindrical removal, water density and thermal properties, complete vaporization at approximately atmospheric pressure, and negligible energy deposited outside the removed layer. Calculated average power is absorbed power; equating it with emitted laser power requires complete absorption. The claim about typical clinical laser ratings was not independently established.",
+        "notes": "Energy and average-power calculations are correct. Discussion should distinguish the prescribed water-boiling model from actual 193-nm photochemical ablation; typical laser-rating claim remains unverified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:1",
@@ -1516,7 +1585,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "b59c7a5dcd5a71861194e48ca610aee438082df5e0057f356b88f9a596c5c463",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "If you live in a region that has a particular TV station, you can sometimes pick up some of its audio portion on your FM radio receiver. Explain how this is possible. Does it impl…",
       "has_solution": true,
       "missing_labels": [
@@ -1528,9 +1597,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:1",
+        "source_sha256": "b59c7a5dcd5a71861194e48ca610aee438082df5e0057f356b88f9a596c5c463",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For the analog television system specified in the solution, a frequency-modulated audio carrier near the receiver's FM tuning band can pass through its tuner and be demodulated into sound. Thus the explanation addresses both frequency overlap and modulation compatibility. The analog-versus-digital qualification appropriately limits the conclusion: it does not describe all television systems.",
+        "calculation_check": "Taking the stated channel-6 audio carrier, wavelength = 3.00e8/87.75e6 = 3.41880 m, agreeing with 3.42 m. Its frequency is only 0.25 MHz below 88 MHz, so reception is consistent with a receiver whose tuning or passband extends sufficiently below the nominal FM band.",
+        "assumptions": "Analog NTSC transmission, adequate signal strength, and a receiver that actually accepts 87.75 MHz. The chapter independently identifies analog television audio as FM; exact historical channel allocations and the prevalence of radios with sufficient tuning extension were not independently checked against an external standard.",
+        "notes": "Correct mechanism for analog channel-6 audio reception on a suitably tunable FM receiver; numerical wavelength is correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:2",
@@ -1541,7 +1623,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "9a8c4fd9ec99e26d0334d78f13816ccb735ef2e5b34b4dbd046aee9849fb10f8",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Explain why people who have the lens of their eye removed because of cataracts are able to see low-frequency ultraviolet.",
       "has_solution": true,
       "missing_labels": [
@@ -1553,9 +1635,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:2",
+        "source_sha256": "9a8c4fd9ec99e26d0334d78f13816ccb735ef2e5b34b4dbd046aee9849fb10f8",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "Retinal response depends on both ocular transmission and photoreceptor absorption. Removing an absorbing lens can therefore expose an existing near-ultraviolet retinal sensitivity that was previously screened, answering the question correctly. The implant qualification is necessary and is included. The statements about complete UV exclusion and an exclusively blue-cone response are simplified biological descriptions rather than sharp universal spectral boundaries.",
+        "calculation_check": "At 350 nm, f = 3.00e8/3.50e-7 = 8.57143e14 Hz. At 400 nm, f = 7.50e14 Hz. Their ratio is 1.14286, confirming that the example lies just above the violet frequency range.",
+        "assumptions": "Lens removal without a UV-blocking replacement and sufficient remaining ocular transmission in the near UV. The surrounding chapter supports retinal near-UV sensitivity and absorption by ocular tissues, but quantitative transmission curves, cone-specific sensitivity, and exact perceived color were not independently established.",
+        "notes": "Correct filtering explanation and frequency calculation. Exact biological cutoffs and color attribution remain approximate and unverified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:3",
@@ -1566,7 +1661,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "b100f16752642e2de68a8bc9eb43a7e077deb91e429ec556c7bbb80bbf00d649",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "How do fluorescent soap residues make clothing look “brighter and whiter” in outdoor light? Would this be effective in candlelight?",
       "has_solution": true,
       "missing_labels": [
@@ -1578,9 +1673,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:3",
+        "source_sha256": "b100f16752642e2de68a8bc9eb43a7e077deb91e429ec556c7bbb80bbf00d649",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The central mechanism is correct: brighteners absorb UV and emit visible blue light, increasing visible output relative to the same fabric without fluorescence and offsetting yellowing. Candlelight supplies very little UV, so the effect is weak. However, the solution unconditionally claims that total outgoing visible light exceeds incoming visible light. Fluorescence permits that outcome but does not guarantee it; visible reflection losses, UV irradiance, absorption, and fluorescence yield determine the balance.",
+        "calculation_check": "Photon energies are 1240/350 = 3.54286 eV and 1240/440 = 2.81818 eV, leaving 0.72468 eV per successful one-photon fluorescence event. Even with unit quantum yield, converted visible energy is only 350/440 = 0.79545 of absorbed UV energy. For example, 90% visible reflectance and incident UV energy equal to 5% of incident visible energy give at most 0.90+0.79545(0.05) = 0.93977 times the incoming visible energy, despite brightening. At 1500 K, hc/(350 nm·kT) is about 27.4, confirming strong thermal UV suppression.",
+        "assumptions": "Ordinary Stokes fluorescence with quantum yield no greater than one for the described single-photon process. The candle temperature is treated as a rough thermal illustration, not an independently verified flame measurement.",
+        "notes": "Correct fluorescence and candlelight explanations, but the categorical claim that outgoing visible energy exceeds incoming visible energy is unsupported and need not hold.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:4",
@@ -1591,7 +1699,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "ee606432d31d4a31bc4cd1791cd534875e678d33100b9abf13616638f64ed692",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Give an example of resonance in the reception of electromagnetic waves.",
       "has_solution": true,
       "missing_labels": [
@@ -1603,9 +1711,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:4",
+        "source_sha256": "ee606432d31d4a31bc4cd1791cd534875e678d33100b9abf13616638f64ed692",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "In an ideal LC oscillator, exchange between electric and magnetic stored energy gives angular resonance frequency 1/sqrt(LC). A receiver tuned near a station's carrier consequently responds more strongly to that station than to sufficiently separated frequencies. The numerical tuning example and the half-wave antenna example both answer the request. A real receiver has a finite passband rather than responding to exactly one frequency.",
+        "calculation_check": "C = 1/[4pi²(1.00e8)²(1.00e-6)] = 2.53303e-12 F = 2.53 pF. Since H·F has units s², 1/(f²L) has units F, as required.",
+        "assumptions": "A lumped LC model with manageable parasitic effects and damping; sufficient bandwidth to pass the desired modulation. The statement about a large current is understood as a suitable resonant receiver circuit, since series and parallel circuits exhibit different input-current behavior.",
+        "notes": "Valid examples of reception resonance and correct capacitance calculation, with ordinary finite-bandwidth and circuit-topology qualifications.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:5",
@@ -1616,7 +1737,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "bc35245501f1626a5f44ed3a7bfeddbfe9e598f9fd765ded1bfdb2e6f59a8d77",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Illustrate that the size of details of an object that can be detected with electromagnetic waves is related to their wavelength, by comparing details observable with two different…",
       "has_solution": true,
       "missing_labels": [
@@ -1628,9 +1749,22 @@
         "skipped": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:5",
+        "source_sha256": "bc35245501f1626a5f44ed3a7bfeddbfe9e598f9fd765ded1bfdb2e6f59a8d77",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Shorter wavelengths generally enable finer spatial resolution in comparable far-field imaging systems, so the intended comparison is sound. The solution nevertheless conflates resolving detail with detecting an object. Subwavelength objects can scatter measurable radiation; raindrops smaller than a 3-cm radar wavelength are an immediate example. Radar resolution also depends on aperture, range, and bandwidth, so its smallest observable feature cannot be assigned simply as a few centimeters. The infrared exclusion of individual cells is likewise unjustified when many cells exceed the stated 10-micrometer scale.",
+        "calculation_check": "The wavelength ratio 0.03/(5e-7) = 60000 is correct, but it is not a universal ratio of instrument resolution. Far-field angular resolution scales approximately as 1.22lambda/D, image-plane resolution as roughly 0.61lambda/NA, and radar range resolution as c/(2·bandwidth). A nonzero induced dipole in a small dielectric particle produces scattering even when particle size is much less than wavelength.",
+        "assumptions": "Conventional far-field imaging and scattering, with adequate signal and contrast. Near-field and specialized super-resolution techniques are unnecessary to demonstrate the detection-versus-resolution error.",
+        "notes": "Correct wavelength arithmetic and qualitative trend. Material errors are the one-wavelength detection cutoff, instrument-independent radar resolution, and blanket exclusion of cells from infrared imaging.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:6",
@@ -1641,7 +1775,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "9647f0a3ff760f56d1a05d0c467f3c4db94dfe2417338ae1e5fa18fecd9573ca",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Why don’t buildings block radio waves as completely as they do visible light?",
       "has_solution": true,
       "missing_labels": [
@@ -1653,9 +1787,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:6",
+        "source_sha256": "9647f0a3ff760f56d1a05d0c467f3c4db94dfe2417338ae1e5fa18fecd9573ca",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Longer radio wavelengths generally produce more substantial diffraction around building edges than visible light, and many dry building materials transmit radio waves better than visible light. Those mechanisms answer the question. However, the absorption paragraph incorrectly includes glass among materials that absorb visible light in a thin surface layer; the surrounding chapter explicitly identifies ordinary glass as visibly transparent. Optical opacity can also result substantially from scattering or reflection. Poor electrical conductivity alone does not guarantee radio transparency, and conductors are not the only materials capable of strong attenuation.",
+        "calculation_check": "At 100 MHz, wavelength = 3.00 m. Relative to 500 nm light, the wavelength ratio is 6.00e6. For an illustrative 3-m opening, the diffraction angular scale lambda/a is of order one for FM but only 1.67e-7 for visible light, supporting the diffraction contrast. This calculation does not establish any material's absorption coefficient.",
+        "assumptions": "Representative radio frequencies, ordinary building dimensions, and dry nonmetallic materials. Transmission depends on frequency, moisture, material thickness, dielectric loss, reflection, and the arrangement of conductive components; electrically small openings can also transmit weakly.",
+        "notes": "Diffraction explanation and wavelengths are sound. Material claims are overgeneralized: glass transmits visible light, opacity need not mean absorption, and nonconductors can strongly attenuate radio waves.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:05:01+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:7",
@@ -1666,7 +1813,7 @@
       "kind": "conceptual-questions",
       "ordinal": 7,
       "source_sha256": "4aaca9110c0e3b50c6ea72e44b5181552abc13748e8570c6e03487de420d3b4c",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Make a list of some everyday objects and decide whether they are transparent or opaque to each of the types of electromagnetic waves.",
       "has_solution": true,
       "missing_labels": [
@@ -1677,9 +1824,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:7",
+        "source_sha256": "4aaca9110c0e3b50c6ea72e44b5181552abc13748e8570c6e03487de420d3b4c",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The examples correctly illustrate frequency-dependent transmission, reflection, and absorption, and the microwave-door explanation is sound. However, the problem requests every electromagnetic-wave type, and gamma rays, explicitly included in the chapter's Table 1, are omitted. Several concluding classifications are also too categorical: transmission depends on wavelength, composition, and thickness, rather than simply membership in a broad band. The final claim that cloth blocks visible and UV radiation contradicts the shirt's partial-transmission entries.",
+        "calculation_check": "For absorption alone, transmitted intensity obeys I/I0 = exp(-μd), with dimensionless optical thickness μd. The same material transmits about 90% at μd = 0.1 but only 0.005% at μd = 10. Thus broad X-ray and UV classifications need specified conditions; no attenuation data were supplied for quantitative verification.",
+        "assumptions": "Ordinary uncoated objects of typical everyday thickness; qualitative transmission categories rather than measured spectra. Reflection and scattering can additionally reduce transmission.",
+        "notes": "Incomplete spectrum coverage: gamma rays are missing. Broad transmission claims need wavelength/thickness qualifications, and the concluding cloth statement conflicts with the table.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:8",
@@ -1690,7 +1850,7 @@
       "kind": "conceptual-questions",
       "ordinal": 8,
       "source_sha256": "0d3f973f108812d846f37554b439645a3656c457d326dfc3992d3d7d04e5fb50",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Your friend says that more patterns and colors can be seen on the wings of birds if viewed in ultraviolet light. Would you agree with your friend? Explain your answer.",
       "has_solution": true,
       "missing_labels": [
@@ -1702,9 +1862,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:8",
+        "source_sha256": "0d3f973f108812d846f37554b439645a3656c457d326dfc3992d3d7d04e5fb50",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "UV-sensitive detection can reveal feather-reflectance patterns absent from visible images, so the central qualified agreement is reasonable. The solution correctly specifies a UV camera and false-color display rather than implying unaided human UV vision. However, its assertion that human cones have no sensitivity below approximately 400 nm is incorrect: normal ocular filtering, especially by the lens, is important. The neighboring solution at lines 960–968 explicitly explains near-UV sensitivity after lens removal, contradicting this strategy.",
+        "calculation_check": "At 370 nm, f = 3.00×10^8/(370×10^-9) = 8.11×10^14 Hz, agreeing with the solution. A UV-only image can reveal spatial contrast; its displayed colors are assigned representations rather than directly visible UV colors.",
+        "assumptions": "A bird species with UV-reflecting feather features and suitable UV-sensitive vision, or a UV-capable imaging system. Species-specific claims about mating and recognition were not independently established from the supplied material.",
+        "notes": "The main answer and frequency are sound, but the explanation incorrectly attributes normal human UV invisibility entirely to absent cone sensitivity.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:9",
@@ -1715,7 +1888,7 @@
       "kind": "conceptual-questions",
       "ordinal": 9,
       "source_sha256": "f72790b632ac3df26fe258dd8f863f3d7efd2e7fddd7addfb778fcb49e5ef6eb",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "The rate at which information can be transmitted on an electromagnetic wave is proportional to the frequency of the wave. Is this consistent with the fact that laser telephone tra…",
       "has_solution": true,
       "missing_labels": [
@@ -1727,9 +1900,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:9",
+        "source_sha256": "f72790b632ac3df26fe258dd8f863f3d7efd2e7fddd7addfb778fcb49e5ef6eb",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Under the problem's stipulated information-rate scaling, the much higher optical carrier frequency is consistent with greater transmission capacity, while ELF implies very slow communication. The 1550-nm example is near-infrared rather than visible, but it remains a valid optical-fiber comparison and the conclusion includes near-infrared. Lower frequency also increases electromagnetic penetration depth in conducting seawater. Carrier frequency alone does not generally determine capacity: bandwidth and signal-to-noise ratio matter.",
+        "calculation_check": "For 1550 nm, f = 1.9355×10^14 Hz, giving a ratio of 1.94×10^5 to the illustrative 1-GHz signal. The ELF ratio is 76/10^9 = 7.6×10^-8. Its free-space wavelength is 3.00×10^8/76 = 3.95×10^6 m, or 3950 km. The stated characters-per-minute rate cannot be calculated from these ratios alone and was not independently verified.",
+        "assumptions": "The supplied proportionality is a comparison rule, such as comparable fractional bandwidth and signal quality, rather than a universal capacity law. One gigahertz is illustrative, not a fundamental upper limit for wires; the quoted ELF wavelength is a free-space wavelength.",
+        "notes": "The numerical comparisons and qualitative conclusions are correct under the stated scaling; exact data rates require additional communication-system parameters.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:10",
@@ -1740,7 +1926,7 @@
       "kind": "conceptual-questions",
       "ordinal": 10,
       "source_sha256": "a867a18d3e201349e8d7de6cffce0b1ebc1d0de8e85691c6aedfd1b4b989edc9",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Give an example of energy carried by an electromagnetic wave.",
       "has_solution": true,
       "missing_labels": [
@@ -1752,9 +1938,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:10",
+        "source_sha256": "a867a18d3e201349e8d7de6cffce0b1ebc1d0de8e85691c6aedfd1b4b989edc9",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Absorbed microwave radiation transfers energy to water, providing a direct example of energy carried by electromagnetic waves. Equating absorbed radiant energy with sensible heat correctly produces the temperature-rise estimate. Sunlight and infrared heating are also valid examples.",
+        "calculation_check": "E = Pt = 1000×60.0 = 60000 J. With constant specific heat, ΔT = 60000/(0.250×4186) = 57.334°C, agreeing with 57.3°C. Watts multiplied by seconds give joules, and Q/(mc) has temperature-interval units.",
+        "assumptions": "The 1000 W represents microwave output available to the load, rather than electrical input power. The ideal temperature estimate assumes complete absorption, negligible container heating and losses, constant water specific heat, and no boiling. The sunlight value represents strong daytime illumination rather than a global average.",
+        "notes": "Valid energy-transfer example with correct arithmetic; the water-heating result is appropriately understood as an ideal estimate.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:11",
@@ -1765,7 +1964,7 @@
       "kind": "conceptual-questions",
       "ordinal": 11,
       "source_sha256": "94457863cdd5f64cfb4ab7dfd0c693e7aad8fb882b6ff62241855d12092acc54",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "In an MRI scan, a higher magnetic field requires higher frequency radio waves to resonate with the nuclear type whose density and location is being imaged. What effect does going…",
       "has_solution": true,
       "missing_labels": [
@@ -1777,9 +1976,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:11",
+        "source_sha256": "94457863cdd5f64cfb4ab7dfd0c693e7aad8fb882b6ff62241855d12092acc54",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a fixed nuclear species, Larmor frequency increases in proportion to magnetic field. Since wavelength decreases inversely with frequency, a geometrically similar resonant antenna becomes smaller at larger field. Both the comparison and the final direction of change are correct.",
+        "calculation_check": "The frequencies are 63.9 MHz and 127.8 MHz. Their free-space wavelengths are 4.6948 m and 2.3474 m, giving half-wave lengths of 2.3474 m and 1.1737 m. Doubling B therefore halves the illustrative antenna length.",
+        "assumptions": "Hydrogen nuclei and an ideal antenna whose resonant dimensions scale with free-space wavelength. Actual MRI coils are tuned, loaded near-field structures constrained by anatomy; their dimensions need not literally equal half a free-space wavelength.",
+        "notes": "Correct inverse scaling and numerical illustration within the intended ideal antenna model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:12",
@@ -1790,7 +2002,7 @@
       "kind": "conceptual-questions",
       "ordinal": 12,
       "source_sha256": "6ad03197b6970e3f2ad139197504b92d7588c1bdb00efbf830a576e3b3aa551f",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Laser vision correction often uses an excimer laser that produces 193-nm electromagnetic radiation. This wavelength is extremely strongly absorbed by the cornea and ablates it in…",
       "has_solution": true,
       "missing_labels": [
@@ -1801,9 +2013,22 @@
         "skipped": 15
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::conceptual-questions:12",
+        "source_sha256": "6ad03197b6970e3f2ad139197504b92d7588c1bdb00efbf830a576e3b3aa551f",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Short absorption depth correctly localizes energy deposition and suppresses direct radiation reaching the lens and retina. However, the solution presents ablation as rapid heating to vaporization, without accounting for the important photochemical bond-breaking mechanism at 193 nm. The chapter itself describes this mechanism at lines 2373–2375. Strong absorption alone also does not establish negligible warming immediately below the removed layer; pulse duration, fluence, and heat transport matter. A quoted removal increment does not by itself establish achieved surgical accuracy.",
+        "calculation_check": "Using the assumed δ = 0.5 μm, absorption within 1 μm is 1-e^-2 = 86.47%, and transmission through 20 μm is e^-40 = 4.25×10^-18, agreeing with the calculations. A 193-nm photon has energy about 6.43 eV, consistent with molecular photochemistry. The particular absorption depth and 0.25-μm removal per pulse were not independently verified.",
+        "assumptions": "Homogeneous exponential attenuation, intact remaining cornea, and the stated illustrative absorption depth. Direct optical shielding is distinguished from possible thermal or mechanical effects.",
+        "notes": "Localization and shielding calculations are correct, but the thermal-vaporization explanation and inferred negligible warming/accuracy are insufficiently justified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:1",
@@ -1814,7 +2039,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "4171f374de7dc06e98f44cd3f4813a1324a05d05c7dd18158f9e62fc4e4d41f7",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "(a) Two microwave frequencies are authorized for use in microwave ovens: 900 and 2560 MHz. Calculate the wavelength of each. (b) Which frequency would produce closer together hot…",
       "has_solution": true,
       "missing_labels": [],
@@ -1824,9 +2049,22 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:1",
+        "source_sha256": "4171f374de7dc06e98f44cd3f4813a1324a05d05c7dd18158f9e62fc4e4d41f7",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Both supplied frequencies are correctly converted to wavelengths. Standing-wave intensity maxima have spacing proportional to wavelength, so the higher frequency produces the smaller characteristic hot-spot spacing in otherwise comparable conditions. The discussion correctly connects cavity reflections, antinodes, and movement of food with uneven heating, without claiming that finer spacing guarantees uniform heating.",
+        "calculation_check": "λ900 = 3.00×10^8/(900×10^6) = 0.333333 m, and λ2560 = 0.1171875 m. For a simple one-dimensional standing wave, adjacent intensity maxima are λ/2 apart: 16.67 cm and 5.86 cm respectively.",
+        "assumptions": "Wavelengths are evaluated in air, approximately at c. Actual loaded-cavity patterns and wavelengths within food depend on geometry and dielectric properties. The stated frequencies are accepted as givens; their regulatory authorization was not checked.",
+        "notes": "Both parts and the interference explanation are correct for the supplied frequencies and intended cavity model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:2",
@@ -1837,7 +2075,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "37e0d3b7273a755de84bc427ffe20daa8c06c361f0bc0944c8441a1c6afc234e",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "(a) Calculate the range of wavelengths for AM radio given its frequency range is 540 to 1600 kHz. (b) Do the same for the FM frequency range of 88.0 to 108 MHz.",
       "has_solution": true,
       "missing_labels": [],
@@ -1847,9 +2085,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:2",
+        "source_sha256": "37e0d3b7273a755de84bc427ffe20daa8c06c361f0bc0944c8441a1c6afc234e",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The solution correctly reverses the frequency endpoints when expressing each wavelength interval. Its propagation discussion is consistent with stronger diffraction at longer wavelengths and typical AM ionospheric propagation versus predominantly line-of-sight FM coverage. Wider allocated FM bandwidth supports higher-fidelity broadcasting; higher carrier frequency alone does not guarantee that bandwidth. The antenna comparison is reasonable for conventional resonant broadcast antennas.",
+        "calculation_check": "The AM endpoints are 555.556 m at 540 kHz and 187.5 m at 1600 kHz. The FM endpoints are 3.40909 m at 88.0 MHz and 2.77778 m at 108 MHz. These reproduce both reported ranges. Corresponding half-wave lengths are about 94–278 m for AM and 1.39–1.70 m for FM.",
+        "assumptions": "Propagation speed approximately c in air; the supplied band limits. Propagation descriptions are typical rather than universal, and antenna dimensions refer to wavelength-scaled structures rather than compact loaded receiving antennas.",
+        "notes": "Correct ranges, endpoint ordering, and broadly sound propagation and antenna discussion.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:3",
@@ -1860,7 +2111,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "f1cc5dab595c2e407aa03ad856f17305d2ab5eda1ace114a34eaece22332b192",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "A radio station utilizes frequencies between commercial AM and FM. What is the frequency of a 11.12-m-wavelength channel?",
       "has_solution": true,
       "missing_labels": [],
@@ -1870,9 +2121,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:3",
+        "source_sha256": "f1cc5dab595c2e407aa03ad856f17305d2ab5eda1ace114a34eaece22332b192",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Solving c = fλ for frequency answers the stated question directly. The result lies between the given commercial AM and FM bands and within the conventional HF/shortwave range. The discussion appropriately makes long-distance ionospheric propagation conditional on environmental and solar conditions, and its quarter-wave antenna estimate is consistent.",
+        "calculation_check": "f = 3.00×10^8/11.12 = 2.6978417×10^7 Hz = 26.9784 MHz, rounding to 27.0 MHz. A quarter wavelength is 11.12/4 = 2.78 m. Units reduce from (m/s)/m to s^-1.",
+        "assumptions": "The wavelength is specified in air or vacuum, and a quarter-wave antenna has a suitable return path or ground plane. Practical antenna tuning and actual ionospheric conditions are outside the calculation.",
+        "notes": "Correct frequency, rounding, band placement, and illustrative antenna length.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:4",
@@ -1883,7 +2147,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "e041d573eb0e71bfd00222ed65a2eb7bc3aa2813168ad13f5ee38a8865a69784",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Find the frequency range of visible light, given that it encompasses wavelengths from 380 to 760 nm.",
       "has_solution": true,
       "missing_labels": [],
@@ -1893,9 +2157,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:4",
+        "source_sha256": "e041d573eb0e71bfd00222ed65a2eb7bc3aa2813168ad13f5ee38a8865a69784",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The requested frequency range is derived correctly, including the reversal of wavelength endpoints. However, the discussion incorrectly locates the long-wavelength cone sensitivity peak at about 4.5×10^14 Hz, equivalent to 667 nm. Human L-cone sensitivity peaks around 560–565 nm, in the yellow-green region, despite its customary association with red perception. Also, the supplied wavelength endpoints span exactly one octave, not less than one octave as subsequently stated.",
+        "calculation_check": "The endpoints are 3.94737×10^14 Hz at 760 nm and 7.89474×10^14 Hz at 380 nm. Their ratio is exactly 2. The claimed cone frequency corresponds to c/f = 666.7 nm, whereas 560–565 nm corresponds to approximately 5.31–5.36×10^14 Hz.",
+        "assumptions": "Vacuum/air wavelengths and the problem's specified visible limits. Cone peaks denote photoreceptor spectral sensitivity, not the wavelength of a color named after the cone. Exact individual sensitivity curves were not supplied.",
+        "notes": "The numerical answer is correct; the discussion gives a materially incorrect L-cone peak and an inconsistent octave description.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:5",
@@ -1906,7 +2183,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "7bf3d33c98c1eae3d1a26ebc4eacc3a5e0484af0ab75bbd16e93bac68f1c44a4",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Combing your hair leads to excess electrons on the comb. How fast would you have to move the comb up and down to produce red light?",
       "has_solution": true,
       "missing_labels": [],
@@ -1916,9 +2193,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:5",
+        "source_sha256": "7bf3d33c98c1eae3d1a26ebc4eacc3a5e0484af0ab75bbd16e93bac68f1c44a4",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For a harmonically oscillating charged comb, the principal radiation frequency matches its oscillation frequency, so the required red-light frequency is correctly calculated and mechanically unattainable for a handheld comb. The discussion nevertheless misrepresents incandescent emission as essentially the same discrete atomic-transition mechanism as LEDs and lasers; a hot filament produces predominantly continuous thermal radiation. Its transition-timescale explanation also fails to distinguish optical frequency, determined by energy separation, from excited-state lifetime. The asserted universal mechanical-frequency ceiling is unsupported.",
+        "calculation_check": "For 650 nm, f = 4.61538×10^14 Hz and T = 2.17×10^-15 s. For sinusoidal motion, vmax = 2πfA; even the bound vmax < c requires A < 1.03×10^-7 m, excluding ordinary comb-sized strokes. A nanosecond lifetime has reciprocal scale 10^9 s^-1, which is not the optical carrier frequency.",
+        "assumptions": "Approximately sinusoidal, nonrelativistic dipole motion and a representative red wavelength of 650 nm. No amplitude is given, so the requested result is an oscillation rate rather than a unique linear speed. Optical emission mechanisms require distinction between thermal radiation and particular electronic transitions.",
+        "notes": "The required oscillation frequency is correct, but the discussion conflates emission mechanisms and optical frequency with transition timescales.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:14:24+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:6",
@@ -1928,8 +2218,8 @@
       "end_line": 1646,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "ca369936ccfee626a6e3cf2df8c3f60ad27f32ac46d9b92c388945684e228a5b",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "source_sha256": "47646d518db685b42e07efb0d216c84d5f04d9b696ff721578795772bdc3a434",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Electromagnetic radiation having a $$ 15.0-\\mu \\text{m} $$ wavelength is classified as infrared radiation. What is its frequency?",
       "has_solution": true,
       "missing_labels": [],
@@ -1939,9 +2229,19 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:6",
+        "source_sha256": "47646d518db685b42e07efb0d216c84d5f04d9b696ff721578795772bdc3a434",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 2.00×10¹³ Hz. Fixed: 15 μm is the center of the strong CO2 absorption band, just beyond the 8–14 μm atmospheric window; it is not itself a window.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch24-27)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:7",
@@ -1952,7 +2252,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "b632b184a1445fa762da9ae01e49b0663a8cf8a277948d5f901a98426a227a77",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Approximately what is the smallest detail observable with a microscope that uses ultraviolet light of frequency $$ 1.20 \\times 10^{15} \\text{Hz} $$ ?",
       "has_solution": true,
       "missing_labels": [],
@@ -1962,9 +2262,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:7",
+        "source_sha256": "b632b184a1445fa762da9ae01e49b0663a8cf8a277948d5f901a98426a227a77",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The wavelength gives an appropriate order-of-magnitude resolution estimate for this introductory problem. Actual diffraction-limited resolution also depends on numerical aperture: approximately d=0.61λ/NA. The discussion contradicts itself by describing visible resolution as both 400–500 nm and roughly 200–250 nm. It also overstates the ability to image protein complexes and viruses: many are smaller than even an optimized conventional 250-nm microscope can resolve. Detecting an unresolved object is different from resolving its structure.",
+        "calculation_check": "λ=(3.00×10^8)/(1.20×10^15)=2.50×10^-7 m=250 nm. With NA=1, the illustrative Rayleigh resolution is approximately 153 nm, showing why wavelength alone supplies an approximate scale.",
+        "assumptions": "Conventional far-field microscopy, vacuum/air wavelength, and no super-resolution techniques. Numerical aperture is unspecified.",
+        "notes": "The 250-nm estimate is appropriate, but the discussion gives inconsistent visible-light resolution limits and overstates which biological structures can be resolved.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:8",
@@ -1975,7 +2288,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "5ccc1081b385d1f6df75f3bdb5e49ee73a0542d0e1c956132b141fe87dd91a92",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "A radar used to detect the presence of aircraft receives a pulse that has reflected off an object $$6 \\times 10^{-5} \\text{s} $$ after it was transmitted. What is the distance fro…",
       "has_solution": true,
       "missing_labels": [],
@@ -1985,9 +2298,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:8",
+        "source_sha256": "5ccc1081b385d1f6df75f3bdb5e49ee73a0542d0e1c956132b141fe87dd91a92",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The measured delay includes outward and return propagation, so the reflecting range is ct/2. The solution correctly includes this factor. At reception, the reflection event occurred one one-way travel time earlier, consistent with the discussion's 30-microsecond statement. Doppler measurements supply radial velocity; complete velocity requires additional information.",
+        "calculation_check": "d=(3.00×10^8)(6×10^-5)/2=9.00×10^3 m. The round-trip delay difference between 8 and 10 km is 2(2000)/c=13.3 microseconds. Motion during 30 microseconds at 55–250 m/s is 1.65–7.50 mm.",
+        "assumptions": "Propagation through air approximated by c, negligible equipment delay, direct reflection, and negligible target movement during propagation. The claim that 9 km is a typical air-traffic-control detection range was not independently established.",
+        "notes": "The range, timing comparison, and target-motion estimate are consistent. The Doppler claim should be understood as radial velocity.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:9",
@@ -1998,7 +2324,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "a496f709515efeecd6b9aefce07448d640466e9253703ef51fa4d819a1916938",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Some radar systems detect the size and shape of objects such as aircraft and geological terrain. Approximately what is the smallest observable detail utilizing 500-MHz radar?",
       "has_solution": true,
       "missing_labels": [],
@@ -2008,9 +2334,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:9",
+        "source_sha256": "a496f709515efeecd6b9aefce07448d640466e9253703ef51fa4d819a1916938",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The wavelength is correctly calculated and provides the textbook's intended approximate feature-size scale. However, carrier frequency alone does not establish radar imaging resolution. Range resolution depends on bandwidth, approximately c/(2Δf), while ordinary angular resolution depends on aperture, approximately λ/D. Thus the discussion cannot conclude that this unspecified system distinguishes features separated by 0.600 m. Higher carrier frequency does not automatically improve every resolution measure or determine operating range.",
+        "calculation_check": "λ=(3.00×10^8)/(500×10^6)=0.600 m. Achieving 0.600-m range resolution would require approximately Δf=c/(2×0.600)=250 MHz of bandwidth, which is not supplied.",
+        "assumptions": "Conventional far-field radar. Antenna aperture, target range, waveform bandwidth, and synthetic-aperture processing are unspecified.",
+        "notes": "The wavelength estimate is correct; the discussion incorrectly treats it as sufficient to establish actual radar resolution.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:10",
@@ -2021,7 +2360,7 @@
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "60003482ffe31e92246cd6a58089ec2c35ca235463cca6419f0823ce24689d5a",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Determine the amount of time it takes for X-rays of frequency $$3 \\times 10^{18} \\text{Hz} $$ to travel (a) 1 mm and (b) 1 cm.",
       "has_solution": true,
       "missing_labels": [],
@@ -2031,9 +2370,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:10",
+        "source_sha256": "60003482ffe31e92246cd6a58089ec2c35ca235463cca6419f0823ce24689d5a",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For vacuum propagation, t=d/c independently of frequency. Both distances are converted correctly, and increasing distance tenfold increases travel time tenfold. The wavelength and picosecond comparisons in the discussion are consistent. Actual on-chip signal speeds depend on the electromagnetic properties and geometry of the interconnect, but the qualitative propagation-delay point remains valid.",
+        "calculation_check": "For 1 mm, t=10^-3/(3.00×10^8)=3.33×10^-12 s. For 1 cm, t=3.33×10^-11 s. Also c(1 ps)=0.300 mm, 10^12 s≈31,688 years, and λ=c/(3×10^18)=0.100 nm.",
+        "assumptions": "Vacuum propagation, or an approximation neglecting material dispersion. Application examples are qualitative rather than calculations of transmission through tissue or electronics.",
+        "notes": "Both travel times and the supporting scale comparisons are correct under the explicitly stated vacuum model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:11",
@@ -2044,7 +2396,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "03d166110a2348737b3a8c329547bd4a0a8a23c37cb7fd302e16da7cab782184",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "If you wish to detect details of the size of atoms (about $$1 \\times 10^{-10} \\text{m} $$ ) with electromagnetic radiation, it must have a wavelength of about this size. (a) What…",
       "has_solution": true,
       "missing_labels": [],
@@ -2054,9 +2406,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:11",
+        "source_sha256": "03d166110a2348737b3a8c329547bd4a0a8a23c37cb7fd302e16da7cab782184",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Taking the stipulated probing wavelength comparable to atomic dimensions gives f=c/λ. A 0.1-nm wavelength lies in the X-ray region, conventionally the hard-X-ray range. The discussion correctly connects crystal diffraction to interference from periodic atomic structure; this does not require forming a direct optical image of individual atoms.",
+        "calculation_check": "f=(3.00×10^8)/(1×10^-10)=3×10^18 Hz=3 EHz=3000 PHz. The wavelength is comparable to the stated 0.1–0.5-nm atomic-spacing scale.",
+        "assumptions": "Vacuum wavelength and the problem's approximate wavelength-based resolution criterion. Probe interactions and instrumentation also constrain attainable resolution. Historical attribution concerning DNA was not independently documented in this review.",
+        "notes": "Both requested parts are correct, and the diffraction explanation is physically consistent.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:12",
@@ -2067,7 +2432,7 @@
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "672fd871a11ff72d69433d3d5a5061057f6b1c40ec0da957a418044f7efd202b",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "If the Sun suddenly turned off, we would not know it until its light stopped coming. How long would that be, given that the Sun is $$ 1.50 \\times 10^{11} \\text{m} $$ away?",
       "has_solution": true,
       "missing_labels": [],
@@ -2077,9 +2442,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:12",
+        "source_sha256": "672fd871a11ff72d69433d3d5a5061057f6b1c40ec0da957a418044f7efd202b",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The last emitted light reaches Earth after one Sun–Earth light-travel time, so t=d/c. The gravitational discussion correctly illustrates finite propagation of changes, although literal disappearance of the Sun is not a physically specified, energy-conserving process. The quoted solar distance is approximately one AU; treating the rounded value as an exact definition is imprecise but does not affect the physics calculation.",
+        "calculation_check": "t=(1.50×10^11)/(3.00×10^8)=500 s=8 minutes 20 seconds=8.33 minutes. Units reduce from metres divided by metres per second to seconds.",
+        "assumptions": "An idealized sudden cessation of emitted light, fixed supplied separation, and vacuum propagation. Distant-object distances and the exact astronomical-unit definition were not independently verified.",
+        "notes": "The 500-second delay is correct. The disappearance example is a causality illustration, and the AU statement should be read approximately.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:13",
@@ -2090,7 +2468,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "836a4e17f93c46efc1035bea48a3adf72c4f420a1a66b2e744eb8bf61d2bf6be",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Distances in space are often quoted in units of light years, the distance light travels in one year. (a) How many meters is a light year? (b) How many meters is it to Andromeda, t…",
       "has_solution": true,
       "missing_labels": [],
@@ -2100,9 +2478,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:13",
+        "source_sha256": "836a4e17f93c46efc1035bea48a3adf72c4f420a1a66b2e744eb8bf61d2bf6be",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "All three requested unit conversions are correct using the supplied distances. The discussion, however, equates a cosmological distance of 12 billion light years with a 12-billion-year lookback time without specifying the distance definition. Cosmic expansion prevents this identification for general present-day, luminosity, or angular-diameter distances. It is valid only if the quoted distance specifically means light-travel distance. Acknowledging expansion later does not resolve that missing distinction.",
+        "calculation_check": "A year contains 31,557,600 s, giving 1 ly=9.46728×10^15 m with c=3.00×10^8 m/s. Thus parts (b) and (c) give 1.893456×10^22 m and 1.1360736×10^26 m. The highway and spacecraft comparisons give approximately 10.8 million years and 1579 years per light year.",
+        "assumptions": "A 365.25-day year and the problem's supplied light-year values. No current observational distance or discovery record is assumed. The discussion's historical and current-record claims were not independently established.",
+        "notes": "Conversions are correct. The cosmological discussion improperly infers lookback time from an unspecified distance measure.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:14",
@@ -2113,7 +2504,7 @@
       "kind": "problems-exercises",
       "ordinal": 14,
       "source_sha256": "9839fe3fa9a9bd8a3472af42427172bd47216d67bce22a896d321d76bfc9a280",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "A certain 50.0-Hz AC power line radiates an electromagnetic wave having a maximum electric field strength of 13.0 kV/m. (a) What is the wavelength of this very low frequency elect…",
       "has_solution": true,
       "missing_labels": [],
@@ -2123,9 +2514,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:14",
+        "source_sha256": "9839fe3fa9a9bd8a3472af42427172bd47216d67bce22a896d321d76bfc9a280",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For a freely propagating wave in vacuum or approximately air, λ=c/f and Bmax=Emax/c give the stated answers. The discussion incorrectly says 6000 km exceeds Earth's radius, which is approximately 6370 km. It also associates the calculated wave field with actual power-line exposure without distinguishing radiation fields from the predominantly quasistatic fields near a power line; those fields do not generally satisfy E=cB.",
+        "calculation_check": "λ=(3.00×10^8)/50.0=6.00×10^6 m=6000 km. Bmax=(13.0×10^3)/(3.00×10^8)=4.33×10^-5 T=0.433 gauss. The wavelength is approximately 0.942 Earth radii, not larger than the radius.",
+        "assumptions": "The stipulated electric amplitude belongs to a propagating wave. It is not sufficient to infer a nearby power line's magnetic field. The discussion's health-consensus claim was not externally verified.",
+        "notes": "Formal wave calculations are correct. The Earth-radius comparison is false, and the exposure discussion conflates radiative and near fields.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:15",
@@ -2136,7 +2540,7 @@
       "kind": "problems-exercises",
       "ordinal": 15,
       "source_sha256": "b8dff96506ebfda214067de46336b054aad213ca66f2ac21f6f871280132373b",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "During normal beating, the heart creates a maximum 4.00-mV potential across 0.300 m of a person's chest, creating a 1.00-Hz electromagnetic wave. (a) What is the maximum electric…",
       "has_solution": true,
       "missing_labels": [],
@@ -2146,9 +2550,22 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:15",
+        "source_sha256": "b8dff96506ebfda214067de46336b054aad213ca66f2ac21f6f871280132373b",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Dividing voltage by chest separation gives an average electric-field component under a uniform-field approximation. The stated magnetic result follows algebraically only if that electric amplitude belongs to a freely propagating vacuum wave. Chest-scale cardiac fields at 1 Hz are deep in the near field, where electric and magnetic fields are not linked by E=cB. The discussion recognizes this near-field regime but nevertheless presents the computed B as the corresponding measurable cardiac field. A cardiac magnetic-field prediction requires source-current and geometry information.",
+        "calculation_check": "E=0.00400/0.300=0.01333 V/m; formally E/c=4.44×10^-11 T and c/f=3.00×10^8 m. At r=0.300 m, 2πr/λ≈6.28×10^-9, confirming that the chest is nowhere near the radiation zone.",
+        "assumptions": "Uniform potential gradient for part (a); vacuum wavelength for the formal part (c). No equality between local cardiac E and cB is assumed. Detector and physiological claims were not independently verified.",
+        "notes": "Arithmetic is correct under the imposed wave model, but using the chest potential to predict the cardiac magnetic field is physically unjustified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:16",
@@ -2159,7 +2576,7 @@
       "kind": "problems-exercises",
       "ordinal": 16,
       "source_sha256": "700c36adfa57d18dcf91b4b2581778baf617214e3726abcca20b2d483e5b0cec",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ( $$\\lambda /4 $$ ) of the electromagnetic radiation being sent…",
       "has_solution": true,
       "missing_labels": [
@@ -2171,9 +2588,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:16",
+        "source_sha256": "700c36adfa57d18dcf91b4b2581778baf617214e3726abcca20b2d483e5b0cec",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The stipulated quarter-wave condition gives λ=4h and f=c/(4h), placing the station in the stated AM band. The analogy is correctly developed using pressure versus antenna current: pressure and current have antinodes at the closed/base ends and nodes at the open/free ends. Acoustic displacement has the opposite pattern, as the solution explicitly states. Real antenna loading and radiation losses modify the idealized distributions.",
+        "calculation_check": "λ=4(50.0)=200 m and f=(3.00×10^8)/200=1.50×10^6 Hz=1500 kHz. A sinusoidal standing-wave pattern traverses one node-to-antinode separation in λ/4.",
+        "assumptions": "Ideal thin quarter-wave monopole over a conducting ground plane, neglecting end corrections, loading, and finite ground conductivity. The comparison concerns pressure/current, not displacement/current.",
+        "notes": "The frequency and AM classification are correct, and the pressure/current standing-wave analogy answers part (b).",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:17",
@@ -2184,7 +2614,7 @@
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "98e75c23663d7dd08b65256119f6559bd5c7506fa0174633d7a3a536b8bcc555",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "(a) What is the wavelength of 100-MHz radio waves used in an MRI unit? (b) If the frequencies are swept over a $$± 1.00\\ \\text{MHz} $$ range centered on 100 MHz, what is the range…",
       "has_solution": true,
       "missing_labels": [],
@@ -2194,9 +2624,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:17",
+        "source_sha256": "98e75c23663d7dd08b65256119f6559bd5c7506fa0174633d7a3a536b8bcc555",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Both wavelength calculations correctly use the inverse frequency relation, including reversal of the interval endpoints. The discussion's quasistatic conclusion is unjustified: a wavelength comparable to the apparatus size does not imply a quasistatic field. That approximation requires dimensions much smaller than wavelength. Wavelengths inside tissue also differ from the free-space value, so the calculated 3 m cannot establish field uniformity or propagation behavior in the patient.",
+        "calculation_check": "At 100 MHz, λ=3.00 m. At 99.0 MHz, λ=3.0303 m; at 101 MHz, λ=2.9703 m. The full wavelength span is approximately 2.00% of 3 m. For a representative 1-m dimension, 2πL/λ≈2.09, which is not much less than one.",
+        "assumptions": "The requested wavelengths are free-space/air values. No tissue electromagnetic properties, coil geometry, or gradient strengths are supplied.",
+        "notes": "Both numerical answers are correct. The discussion incorrectly infers quasistatic MRI behavior from comparable system and wavelength scales.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:18",
@@ -2207,7 +2650,7 @@
       "kind": "problems-exercises",
       "ordinal": 18,
       "source_sha256": "0e077675bd5404161e4de4d901557a6bd2e937f3dfffd2e4b3e83357e964cb68",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "(a) What is the frequency of the 193-nm ultraviolet radiation used in laser eye surgery? (b) Assuming the accuracy with which this EM radiation can ablate the cornea is directly p…",
       "has_solution": true,
       "missing_labels": [],
@@ -2217,9 +2660,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:18",
+        "source_sha256": "0e077675bd5404161e4de4d901557a6bd2e937f3dfffd2e4b3e83357e964cb68",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "medium",
+        "reasoning_check": "The frequency and wavelength ratio are correct. Part (b) has an unresolved proportionality ambiguity: smaller wavelength improves accuracy if the spatial error or minimum feature size is proportional to wavelength, while an accuracy measure that increases with performance is inversely proportional to wavelength. The solution repeats 'directly proportional' while using the inverse-performance interpretation. Its factor of 1.97 is valid for reciprocal spatial error; it corresponds to about a 49% reduction in spatial error, not a 97% error reduction. The discussion's categorical claims about exclusively photochemical ablation and prevention of deeper damage are not established by this calculation.",
+        "calculation_check": "f=(3.00×10^8)/(193×10^-9)=1.5544×10^15 Hz. Using the reasonable 380-nm visible cutoff, 380/193=1.9689. The UV-to-visible error ratio would be 193/380=0.5079, a 49.2% reduction.",
+        "assumptions": "Free-space wavelength; 380 nm as the visible cutoff; intended spatial-error scale proportional to wavelength. Detailed corneal absorption, ablation mechanisms, and clinical safety claims remain unverified without external evidence.",
+        "notes": "The intended improvement factor is correct, but proportionality and percentage language need a defined accuracy measure. Clinical mechanism and safety claims remain unchecked.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:17:48+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:19",
@@ -2230,7 +2686,7 @@
       "kind": "problems-exercises",
       "ordinal": 19,
       "source_sha256": "5ede83f967dcd2caeebd7e8a5e379db5099df028e10be25e4e328deb5865455a",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "TV-reception antennas for VHF are constructed with cross wires supported at their centers, as shown in [[Figure 14]](#Figure14). The ideal length for the cross wires is one-half t…",
       "has_solution": true,
       "missing_labels": [],
@@ -2240,9 +2696,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:19",
+        "source_sha256": "5ede83f967dcd2caeebd7e8a5e379db5099df028e10be25e4e328deb5865455a",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The stated idealization gives a full wire length L = lambda/2, so f = c/(2L). The solution correctly uses the full cross-wire length rather than either half measured from its support. Both requested frequencies are answered. Figure 14 was inspected and supports this interpretation. For an ideal center-fed half-wave dipole, current nodes at the ends and a current antinode at the center give the stated analogy with the displacement of a string fixed at both ends. The discussion's general antenna-design statements should be understood within the simplified model supplied by the problem.",
+        "calculation_check": "For L = 1.94 m, lambda = 3.88 m and f = 77.3196 MHz. For L = 0.753 m, lambda = 1.506 m and f = 199.203 MHz. These round to 77.3 MHz and 199 MHz. The units of c/(2L) are inverse seconds, and the shorter wire correctly corresponds to the higher frequency.",
+        "assumptions": "Propagation in air is approximated by vacuum propagation. Wire thickness, end effects, loading, and coupling between elements are neglected, as required by the stipulated half-wavelength model.",
+        "notes": "Both answers and the ideal dipole reasoning are correct. Specific channel-number guesses and broad claims about antenna cost and design were not independently verified against allocation tables or engineering specifications.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:21:25+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:20",
@@ -2253,7 +2722,7 @@
       "kind": "problems-exercises",
       "ordinal": 20,
       "source_sha256": "19d0077e5ff909cd3753058b8c1f46094fb829fa321b0e38daa6639d0abadeee",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Conversations with astronauts on lunar walks had an echo that was used to estimate the distance to the Moon. The sound spoken by the person on Earth was transformed into a radio s…",
       "has_solution": true,
       "missing_labels": [],
@@ -2263,9 +2732,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:20",
+        "source_sha256": "19d0077e5ff909cd3753058b8c1f46094fb829fa321b0e38daa6639d0abadeee",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The measured echo includes two radio propagation legs. For approximately equal outbound and return distances, t = 2d/c, giving d = ct/2. The solution correctly distinguishes the total propagation distance from the one-way distance. Its conversation explanation also correctly includes 1.3 seconds outbound, the astronaut's response time, and 1.3 seconds inbound; 2.6 seconds is the propagation contribution rather than the entire response interval. Laser ranging uses the same round-trip principle.",
+        "calculation_check": "The total path is (3.00e8 m/s)(2.60 s) = 7.80e8 m, so the one-way distance is 3.90e8 m = 390,000 km. Conversely, 2(3.90e8)/(3.00e8) = 2.60 s.",
+        "assumptions": "Electronic delays are neglected as directed. Acoustic travel inside the suit, atmospheric propagation corrections, and motion during the measurement are negligible at the requested approximate precision. The direct measurement is between transmitting and reflecting locations, not automatically between planetary centers.",
+        "notes": "The distance and propagation-delay explanation are correct. The supplemental orbital extrema, achieved laser-ranging precision, and measured lunar recession rate were not independently established from the supplied evidence.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:21:25+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:21",
@@ -2275,20 +2757,30 @@
       "end_line": 2569,
       "kind": "problems-exercises",
       "ordinal": 21,
-      "source_sha256": "60ad9676da9b1487427d1730ede94201f75a440e9878807022e74b0579801e39",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "source_sha256": "ca1431903c7f6f266fc7de584eb3d44cf3fbe14c8e4ed0bfafdecfa35ef6b369",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Lunar astronauts placed a reflector on the Moon's surface, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. (a) T…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 14,
+        "skipped": 16,
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:21",
+        "source_sha256": "ca1431903c7f6f266fc7de584eb3d44cf3fbe14c8e4ed0bfafdecfa35ef6b369",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct 1.50 cm and 3.91×10⁻⁹ %. Fixed: that is about 4 parts in 10¹¹ (0.04 ppb), not '4 parts per billion'. The historical lunar-ranging remarks remain unchecked.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch24-27)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:22",
@@ -2299,7 +2791,7 @@
       "kind": "problems-exercises",
       "ordinal": 22,
       "source_sha256": "7db70a424cdc6164bff00162c7c0af324242600ab8ffcf6e637536ee2e1f1395",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "Radar is used to determine distances to various objects by measuring the round-trip time for an echo from the object. (a) How far away is the planet Venus if the echo time is 1000…",
       "has_solution": true,
       "missing_labels": [],
@@ -2309,9 +2801,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:22",
+        "source_sha256": "7db70a424cdc6164bff00162c7c0af324242600ab8ffcf6e637536ee2e1f1395",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "All three calculations correctly follow from d = ct/2, and the absolute range of 12.0 km appropriately drops out of the required absolute timing accuracy. The discussion nevertheless conflates radar capabilities: ordinary unmodulated continuous-wave Doppler speed radar does not obtain an unambiguous distance from echo timing; a ranging waveform or additional information is required. It also turns 10 m range accuracy into 10 m position accuracy. Timing constrains radial distance, while angular measurements independently constrain transverse position.",
+        "calculation_check": "For Venus, d = (3.00e8)(1000)/2 = 1.50e11 m. For the car, t = 2(75.0)/(3.00e8) = 5.00e-7 s = 0.500 microseconds. For the airplane, delta t = 2(10.0)/(3.00e8) = 66.7 ns; its nominal echo time is 80.0 microseconds. At 12 km, even an angular uncertainty of 0.001 rad produces approximately 12 m transverse uncertainty, independently of the timing accuracy.",
+        "assumptions": "The radar measures a distinguishable transmitted feature and its echo. Propagation speed is c, other delays are negligible, and target motion during the terrestrial echo interval is negligible. The inferred planetary distance is an effective range during the measurement.",
+        "notes": "All requested numerical answers are correct. The discussion incorrectly generalizes time-delay ranging to typical Doppler speed guns and equates range accuracy with full position accuracy. Historical dates and particular equipment specifications were not independently verified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:21:25+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:23",
@@ -2322,7 +2827,7 @@
       "kind": "problems-exercises",
       "ordinal": 23,
       "source_sha256": "dba42e1972907804072eeb9cb468b66b71c5e1790f1b5b1f187db6daee9d91a6",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "**Integrated Concepts** (a) Calculate the ratio of the highest to lowest frequencies of electromagnetic waves the eye can see, given the wavelength range of visible light is from…",
       "has_solution": true,
       "missing_labels": [],
@@ -2332,9 +2837,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:23",
+        "source_sha256": "dba42e1972907804072eeb9cb468b66b71c5e1790f1b5b1f187db6daee9d91a6",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Because f = c/lambda, the visible frequency ratio equals the inverse wavelength ratio, 760/380. The assumed hearing limits of 20 Hz and 20,000 Hz agree with the surrounding hearing chapter. Both requested ratios and their comparison are correct. The discussion's final paragraph, however, incorrectly extends the logarithmic musical-frequency analogy to color perception. Color depends on the combined responses of different cone types, as described in ch26ColorAndColorVision.md; equal frequency ratios do not generally define equal perceived color intervals. Smooth spectral color changes do not establish a logarithmic perceptual law.",
+        "calculation_check": "The endpoint frequencies are 7.89474e14 Hz and 3.94737e14 Hz, giving a ratio of exactly 2 for the stipulated endpoints. Hearing gives 20,000/20 = 1000, and 1000/2 = 500. The octave spans are log2(2) = 1 and log2(1000) = 9.966. Thus 500 compares the frequency ratios, not the numbers of octaves.",
+        "assumptions": "The stipulated visible endpoints and conventional nominal hearing limits are used; individual sensitivity and age-dependent hearing changes are outside the calculation. Optical wavelengths are treated as vacuum or approximately air wavelengths.",
+        "notes": "The numerical comparison is correct. The claim that equal frequency ratios produce equal perceptual intervals in vision is unsupported and misleading. The specific 23 kHz hearing claim was not independently verified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T09:21:25+00:00",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:24",
@@ -2344,8 +2862,8 @@
       "end_line": 2822,
       "kind": "problems-exercises",
       "ordinal": 24,
-      "source_sha256": "304cc198aeb519d6e3b377a490b72e2e06736d05e578477f9bbcbbb73f2a7213",
-      "file_sha256": "7e90d15279d0b0152de786d777ed95101ac6746a39dd60effdcb9c0ed4bc5a3a",
+      "source_sha256": "17f9beab5cf2675d424201e369497ede13aac78b4e7e9a327ea86399205d42c4",
+      "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
       "preview": "**Integrated Concepts** (a) Calculate the rate in watts at which heat transfer through radiation occurs (almost entirely in the infrared) from $$ 1.0 {\\text{m}}^{2} $$ of the Eart…",
       "has_solution": true,
       "missing_labels": [],
@@ -2355,9 +2873,19 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24TheElectromagneticSpectrum.md::problems-exercises:24",
+        "source_sha256": "17f9beab5cf2675d424201e369497ede13aac78b4e7e9a327ea86399205d42c4",
+        "file_sha256": "65d958c84e191504b199d5dc7080dfb544b8f15065be17d333fac60ed7ab8cbe",
+        "verdict": "concern",
+        "confidence": "medium",
+        "notes": "Calculated values are correct. Fixed: (a) is now a power, 350 W from 1.0 m² (an intensity of 350 W/m²). Unchanged: the discussion still draws an equilibrium/warming inference that the comparison does not establish.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch24-27)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T11:38:46+00:00"
+      },
+      "previous_review_count": 2
     }
   ]
 }

@@ -1,8 +1,8 @@
 # Solution review ledger: chapters 1–34
 
-Last refresh: 2026-10-24T09:00:34+00:00. Source digest: `3a18d42e89fea64b6d2f92a0c11b29cf71b44346c9bce123ba6a92ed7bc8149e`.
+Last refresh: 2026-10-24T11:39:28+00:00. Source digest: `4a2532453a56b5037e3b7f14116ea48f7269483a83afe94478b03e7d4beea0ae`.
 
-**3561 inventoried items; 2510 current substantive reviews; 269 items without solution text.**
+**3561 inventoried items; 2932 current substantive reviews; 269 items without solution text.**
 
 **Status: automated screening covers all 34 chapters. The substantive reasoning review is in progress; pending entries have no correctness verdict.**
 
@@ -41,12 +41,12 @@ Automatic counts below cover the entire source block, sometimes including the pr
 | 21 | 130 | 130 | 130 | 0 | 1 | [Chapter 21](chapter-21.md) |
 | 22 | 130 | 130 | 130 | 0 | 1 | [Chapter 22](chapter-22.md) |
 | 23 | 150 | 150 | 150 | 0 | 5 | [Chapter 23](chapter-23.md) |
-| 24 | 78 | 78 | 36 | 42 | 0 | [Chapter 24](chapter-24.md) |
-| 25 | 105 | 105 | 0 | 105 | 0 | [Chapter 25](chapter-25.md) |
-| 26 | 64 | 64 | 0 | 64 | 0 | [Chapter 26](chapter-26.md) |
-| 27 | 147 | 115 | 0 | 115 | 1 | [Chapter 27](chapter-27.md) |
-| 28 | 108 | 84 | 0 | 84 | 1 | [Chapter 28](chapter-28.md) |
-| 29 | 122 | 94 | 0 | 94 | 8 | [Chapter 29](chapter-29.md) |
+| 24 | 78 | 78 | 78 | 0 | 0 | [Chapter 24](chapter-24.md) |
+| 25 | 105 | 105 | 105 | 0 | 0 | [Chapter 25](chapter-25.md) |
+| 26 | 64 | 64 | 64 | 0 | 0 | [Chapter 26](chapter-26.md) |
+| 27 | 147 | 115 | 115 | 0 | 1 | [Chapter 27](chapter-27.md) |
+| 28 | 108 | 84 | 84 | 0 | 1 | [Chapter 28](chapter-28.md) |
+| 29 | 122 | 94 | 12 | 82 | 8 | [Chapter 29](chapter-29.md) |
 | 30 | 105 | 78 | 0 | 78 | 1 | [Chapter 30](chapter-30.md) |
 | 31 | 117 | 49 | 0 | 49 | 0 | [Chapter 31](chapter-31.md) |
 | 32 | 94 | 65 | 0 | 65 | 10 | [Chapter 32](chapter-32.md) |
@@ -56,7 +56,7 @@ Automatic counts below cover the entire source block, sometimes including the pr
 ## Checks and evidence
 
 - Math delimiters: exit 0; [full output](math-delimiters.txt).
-- Physics/arithmetic scan: 8873 checked, 110 flagged, 48511 skipped across the chapter source files.
+- Physics/arithmetic scan: 8877 checked, 110 flagged, 48513 skipped across the chapter source files.
 - Existing source-bound cases provide only selected coverage; their per-chapter counts are in ledger.json. They do not cover every exercise.
 - [Contextual review of automatic flags](automatic-flag-review.md).
 - [Machine-readable ledger](ledger.json), append-only substantive judgments in [reviews.json](reviews.json), and [run history](runs.jsonl).
