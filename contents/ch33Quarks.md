@@ -979,7 +979,7 @@ The weak force is responsible because strangeness changes by 1, indicating a qua
 
 **Discussion**
 
-This decay clearly demonstrates the weak force at work. The change in strangeness ($$\Delta S = +1$$) is a signature of the weak interaction—neither the strong nor electromagnetic forces can change strangeness. At the quark level, one of the three strange quarks in the $${\Omega}^{-}$$ transforms into an up quark (creating the $${\Xi}^{0}$$), while simultaneously creating an up-antiup quark-antiquark pair along with a down quark (forming the $${\pi}^{-}$$). The relatively long lifetime of the $${\Omega}^{-}$$ ($$0.82 \times 10^{-10}$$ s) is also consistent with weak decay, being many orders of magnitude longer than strong force decays (typically $$10^{-23}$$ to $$10^{-16}$$ s). This decay mode occurs about 68% of the time, making it one of the dominant decay channels for the omega minus.
+This decay clearly demonstrates the weak force at work. The change in strangeness ($$\Delta S = +1$$) is a signature of the weak interaction—neither the strong nor electromagnetic forces can change strangeness. At the quark level, one of the three strange quarks emits a virtual $$W^{-}$$ and becomes an up quark ($$s \to u + W^{-}$$), forming the $${\Xi}^{0}$$ with the two remaining strange quarks. The $$W^{-}$$ then becomes a down quark and an anti-up quark ($$W^{-} \to d + \overline{u}$$), which form the $${\pi}^{-}$$. The relatively long lifetime of the $${\Omega}^{-}$$ ($$0.82 \times 10^{-10}$$ s) is also consistent with weak decay, being many orders of magnitude longer than strong force decays (typically $$10^{-23}$$ to $$10^{-16}$$ s). This decay mode occurs about 24% of the time; the most common mode, about 68% of the time, is $${\Omega}^{-} \to {\Lambda}^{0} + K^{-}$$.
 
 :::
 
@@ -1052,7 +1052,7 @@ Converting to eV:
 $$\Delta E = \frac{2.09 \times 10^{-16} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.31 \times 10^{3} \text{ eV} = 1.31 \text{ keV}$$
 </div>
 
-(c) From [[Table 2]](#Table2), the $${\eta}^{0}$$ is a mixture of $$u\overline{u}$$ and $$d\overline{d}$$. The decay in terms of quarks is:
+(c) From [[Table 2]](#Table2), the $${\eta}^{0}$$ is a mixture of $$u\overline{u}$$ and $$d\overline{d}$$. (This is a simplified description: the physical $${\eta}^{0}$$ also contains some $$s\overline{s}$$.) The decay in terms of quarks is:
 
 <div class="equation">
 $$(u\overline{u} + d\overline{d}) \to \gamma + \gamma$$
@@ -1077,7 +1077,7 @@ This two-photon decay is characteristic of the $${\eta}^{0}$$ being its own anti
 
 ::: problem
 
-One decay mode for the eta-zero meson is  $${\eta }^{0}\to {\pi }^{0}+{\pi }^{0} $$.
+Consider the conceivable decay of the eta-zero meson  $${\eta }^{0}\to {\pi }^{0}+{\pi }^{0} $$.
 
 (a) Write the decay in terms of the quark constituents.
 
@@ -1090,10 +1090,15 @@ is $${\pi }^{0}\to \gamma +\gamma $$ ?
 
 ::: solution
 
-(a)  $$\left(u\stackrel{-}{u}+d\overline{d}\right)\to \left(u\stackrel{-}{u}+d\overline{d}\right)+\left(u\stackrel{-}{u}+d\overline{d}\right) $$
+(a)  $$\left(u\overline{u},d\overline{d}\right)\to \left(u\overline{u},d\overline{d}\right)+\left(u\overline{u},d\overline{d}\right) $$, where each meson is a mixture of these pairs (in different combinations for the $${\eta }^{0}$$ and the $${\pi }^{0}$$).
+
 (b) 277.9 MeV
 
 (c) 547.9 MeV
+
+**Discussion**
+
+Energy and the conservation laws of this chapter allow this decay, but it is not observed. The $${\eta }^{0}$$ and $${\pi }^{0}$$ both have spin 0 and negative parity, and two such pions with no orbital angular momentum have positive parity. The strong and electromagnetic interactions conserve parity, so they forbid the decay. The $${\eta }^{0}$$ instead decays to two photons or to three pions.
 
 :::
 
@@ -1135,9 +1140,9 @@ We need to check all relevant conservation laws: charge, baryon number, lepton f
 
 **Discussion**
 
-This decay violates baryon number conservation, which is one of the most fundamental conservation laws in particle physics. **Baryon number has never been observed to be violated in any experiment.** The neutron is a baryon ($$B = +1$$), and this quantum number must be preserved in any decay. Electrons and positrons are leptons ($$B = 0$$), so the final state has zero baryon number. This means a baryon would simply disappear, which is forbidden.
+This decay violates baryon number conservation, which is one of the most fundamental conservation laws in particle physics. **Baryon number has never been observed to be violated in any experiment.** The neutron is a baryon ($$B = +1$$), and every decay observed so far preserves this quantum number. Electrons and positrons are leptons ($$B = 0$$), so the final state has zero baryon number. This means a baryon would simply disappear. The decay is also forbidden by angular momentum: a spin-1/2 neutron cannot become just two spin-1/2 particles, whose total angular momentum must be a whole number.
 
-The actual decay mode of a free neutron is $$n \to p + e^{-} + \overline{\nu}_e$$, which conserves baryon number (both neutron and proton have $$B = +1$$). Grand Unified Theories (GUTs) do predict extremely rare baryon number violation in processes like proton decay ($$p \to \pi^{0} + e^{+}$$), but with lifetimes exceeding $$10^{31}$$ years—far longer than the age of the universe. No such violation has ever been observed experimentally. The conservation of baryon number is why the total number of nucleons (protons plus neutrons) remains constant in nuclear reactions, a fact that was discovered long before the concept of baryon number was formulated.
+The actual decay mode of a free neutron is $$n \to p + e^{-} + \overline{\nu}_e$$, which conserves baryon number (both neutron and proton have $$B = +1$$). Grand Unified Theories (GUTs) do predict extremely rare baryon number violation in processes like proton decay ($$p \to \pi^{0} + e^{+}$$), with predicted lifetimes that depend on the model but are far longer than the age of the universe. No such violation has ever been observed experimentally. The conservation of baryon number is why the total number of nucleons (protons plus neutrons) remains constant in nuclear reactions, a fact that was discovered long before the concept of baryon number was formulated.
 
 :::
 
@@ -1268,11 +1273,11 @@ The color combinations that produce a white meson are:
 
 **Discussion**
 
-In quantum chromodynamics (QCD), color charge works differently than regular electric charge. While baryons require all three colors (RGB) to be colorless (white), mesons achieve color neutrality through color-anticolor pairs. This is similar to how a particle and its antiparticle have opposite charges that cancel. The three combinations listed above are the only ways to make a colorless meson.
+In quantum chromodynamics (QCD), color charge works differently than regular electric charge. While baryons require all three colors (RGB) to be colorless (white), mesons achieve color neutrality through color-anticolor pairs. This is similar to how a particle and its antiparticle have opposite charges that cancel. The three combinations listed above are the only color–anticolor matches.
 
 It's important to note that "color" in QCD is just a label for a type of charge—quarks don't actually have visible color. The terminology comes from the mathematical similarity to how red, green, and blue light combine to make white light. Just as RGB combine to white, the three color charges in a baryon combine to be colorless. And just as red light plus "anti-red" (cyan) makes white, a red quark plus an antired antiquark makes a colorless meson.
 
-This color neutrality requirement is fundamental to quark confinement—all observable hadrons must be color neutral ("white"). Individual colored quarks or gluons cannot exist in isolation, which is why we never observe free quarks despite their being the fundamental constituents of matter. Any meson in nature will be in one of these three color states (though quantum mechanically, it's actually a superposition of all three), ensuring it remains colorless and observable.
+This color neutrality requirement is fundamental to quark confinement—all observable hadrons must be color neutral ("white"). Individual colored quarks or gluons cannot exist in isolation, which is why we never observe free quarks despite their being the fundamental constituents of matter. A real meson is not in any one of these three states. It is in an equal superposition of all three, $$(R\overline{R}+G\overline{G}+B\overline{B})/\sqrt{3}$$, which is the only truly colorless quark–antiquark color state.
 
 :::
 
@@ -1290,10 +1295,11 @@ This color neutrality requirement is fundamental to quark confinement—all obse
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
-(a) 216
+(a) 216, counting the three positions separately ($$6\times6\times6$$). If the order of the quarks does not matter, there are 56 different compositions.
 
-(b) There are more baryons observed because we have the 6 antiquarks and various
-mixtures of quarks (as for the π-meson) as well.
+(b) The same quark content can form several baryons with different spins and
+internal motions. For example, the proton and the $$\Delta^{+}$$ are both
+uud, and each composition also has many excited states.
 
 :::
 
@@ -1343,11 +1349,11 @@ In this case:
 
 **Discussion**
 
-This hypothetical proton decay is forbidden by the conservation laws that have been observed to hold in all experiments to date. However, **Grand Unified Theories predict that baryon and lepton number conservation are not absolute** at extremely high energies where the forces unify. GUTs predict proton lifetimes of about $$10^{31}$$ years or longer—far exceeding the age of the universe ($$\sim 10^{10}$$ years).
+This hypothetical proton decay is forbidden by the conservation laws that have been observed to hold in all experiments to date. However, **Grand Unified Theories predict that baryon and lepton number conservation are not absolute**: even at low energies they could be violated, very rarely, through the virtual exchange of the extremely massive particles of the unified theory. GUTs predict proton lifetimes of about $$10^{31}$$ years or longer—far exceeding the age of the universe ($$\sim 10^{10}$$ years).
 
 Extensive experiments have searched for proton decay using huge tanks of water instrumented with detectors. Despite monitoring trillions of protons for years, no confirmed proton decay has been observed, placing the experimental lower limit on the proton lifetime at greater than $$5 \times 10^{32}$$ years. This doesn't disprove GUTs but does constrain their parameters.
 
-If protons could decay rapidly, all matter would be unstable—atoms would disintegrate, and the universe as we know it couldn't exist. The extraordinary stability of the proton (and hence all atomic nuclei) is one of the most important facts about our universe. The search for proton decay continues, as observing it would be revolutionary evidence for grand unification and would fundamentally change our understanding of matter's ultimate fate.
+If protons could decay rapidly, all matter would be unstable—atoms would disintegrate, and the universe as we know it couldn't exist. The extraordinary stability of the proton is one of the most important facts about our universe. (Many nuclei are still radioactive, but their decays conserve baryon number.) The search for proton decay continues, as observing it would be revolutionary evidence for grand unification and would fundamentally change our understanding of matter's ultimate fate.
 
 :::
 
@@ -1434,7 +1440,7 @@ These match the values in the particle tables: $$Q = 0$$, $$B = +1$$, $$S = 0$$ 
 
 This verification demonstrates the power of the quark model. The quantum numbers of composite particles (hadrons) are simply the sums of their constituent quark quantum numbers. The fractional charges of quarks ($$\pm\frac{2}{3}q_e$$ and $$\mp\frac{1}{3}q_e$$) combine to give integral charges for all observable particles—this was initially a radical proposal by Gell-Mann and Zweig, but it has been completely vindicated by experiment.
 
-The difference between a proton and neutron is simply one quark: swapping one up quark for a down quark changes the charge from +1 to 0, converting a proton into a neutron. This is exactly what happens in beta-minus decay at the quark level: $$d \to u + e^{-} + \overline{\nu}_e$$. The fact that both have $$B = +1$$ explains why baryon number is conserved in nuclear reactions—at the quark level, the number of quarks minus antiquarks remains constant. This beautifully explains the empirical observation that the total number of nucleons is conserved in nuclear reactions and decays.
+The difference between a proton and neutron is simply one quark: changing one down quark into an up quark changes the charge from 0 to +1, converting a neutron into a proton. This is exactly what happens in beta-minus decay at the quark level: $$d \to u + e^{-} + \overline{\nu}_e$$. (The reverse change, $$u \to d$$, occurs in beta-plus decay and electron capture.) The fact that both have $$B = +1$$ explains why baryon number is conserved in nuclear reactions—at the quark level, the number of quarks minus antiquarks remains constant. This beautifully explains the empirical observation that the total number of nucleons is conserved in nuclear reactions and decays.
 
 :::
 
@@ -1519,7 +1525,7 @@ Both the $$J/\Psi$$ and $$\Upsilon$$ are examples of **hidden flavor mesons**—
 
 These particles are particularly important in particle physics history. The $$J/\Psi$$ (discovered independently by two teams in 1974, hence the double name) was the first particle containing charm quarks to be discovered, providing crucial evidence for the quark model and specifically for the existence of the charm quark. Its discovery is known as the "November Revolution" in particle physics and led to Nobel Prizes for Burton Richter and Samuel Ting in 1976.
 
-The $$\Upsilon$$ (discovered in 1977) similarly provided the first evidence for the existence of the bottom quark. Both particles are relatively long-lived for their masses because their decay requires the annihilation of the heavy quark-antiquark pair or a flavor-changing weak interaction. These particles and their excited states have been extensively studied and provide a testing ground for quantum chromodynamics (QCD), analogous to how hydrogen atom spectroscopy tested quantum electrodynamics (QED).
+The $$\Upsilon$$ (discovered in 1977) similarly provided the first evidence for the existence of the bottom quark. Both particles are relatively long-lived for their masses. They are too light to decay through the strong force into two mesons that each carry one heavy quark (such as two D mesons for the $$J/\Psi$$). Instead they decay mainly by annihilation of the heavy quark–antiquark pair, which is suppressed, or by emitting a photon and dropping to a lower state. These particles and their excited states have been extensively studied and provide a testing ground for quantum chromodynamics (QCD), analogous to how hydrogen atom spectroscopy tested quantum electrodynamics (QED).
 
 :::
 
@@ -1565,7 +1571,7 @@ Since the $${B}^{-}$$ has bottomness $$b = -1$$, it must contain one bottom quar
 - $$Q = -\frac{1}{3}q_e$$
 - $$b = -1$$
 
-To make a meson with total charge $$Q = -1$$, we need an antiquark with charge $$-\frac{2}{3}q_e$$. The only antiquark with this charge is the anti-up quark ($$\overline{u}$$), which has:
+To make a meson with total charge $$Q = -1$$, we need an antiquark with charge $$-\frac{2}{3}q_e$$. Three antiquarks have this charge: $$\overline{u}$$, $$\overline{c}$$, and $$\overline{t}$$. Since the $${B}^{-}$$ has zero charm and zero topness, it must be the anti-up quark ($$\overline{u}$$), which has:
 - $$Q = -\frac{2}{3}q_e$$
 - $$S = 0$$, $$c = 0$$, $$b = 0$$, $$t = 0$$
 
@@ -1715,10 +1721,10 @@ Example: $$\pi^{0} = d\overline{d}$$ (partial composition) has charge 0 ✓
 This elegant result shows that despite quarks having fractional electric charges ($$\pm\frac{1}{3}q_e$$ and $$\pm\frac{2}{3}q_e$$), all observable composite particles—baryons and mesons—must have integral charges. This is a consequence of:
 
 1. **Color confinement:** Only color-neutral ("white") combinations can exist as free particles
-2. **Baryons must have three quarks** (to combine RGB colors)
-3. **Mesons must have quark-antiquark pairs** (color-anticolor)
+2. **Three quarks** (one of each color) make a colorless baryon
+3. **A quark and an antiquark** (color and anticolor) make a colorless meson
 
-The fact that we only observe integral charges in nature was originally one of the objections to the quark model when it was first proposed. How could particles with fractional charges combine to make only integral charges? The answer is that fractional charges are confined—free quarks cannot exist in isolation. The combinations that CAN exist (three quarks or quark-antiquark) automatically produce integral charges.
+The fact that we only observe integral charges in nature was originally one of the objections to the quark model when it was first proposed. How could particles with fractional charges combine to make only integral charges? The answer is that fractional charges are confined—free quarks cannot exist in isolation. Every colorless combination—three quarks, a quark and an antiquark, or the rarer multiquark states such as tetraquarks and pentaquarks—has a number of quarks minus antiquarks divisible by three, and therefore an integral charge.
 
 This also explains why we've never observed a particle with charge $$+\frac{1}{3}q_e$$ or $$+\frac{2}{3}q_e$$—such charges would require an isolated quark, which is forbidden by confinement. The elementary charge $$q_e$$ remains the smallest observed unit of charge, even though quarks have smaller fractional charges. This beautiful consistency of the quark model with observed phenomena is one of many pieces of evidence supporting it.
 

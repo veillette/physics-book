@@ -125,13 +125,25 @@ relations to forces that have led to profound insights into nature’s secrets.
 ::: problem
 
 A virtual particle having an approximate mass of  $$ 10^{14} \text{GeV/}{c}^{2} $$
- may be associated with the unification of the strong and electroweak forces. For what length of time could this virtual particle exist (in temporary violation of the conservation of mass-energy as allowed by the Heisenberg uncertainty principle)?
+ may be associated with the unification of the strong and electroweak forces. What characteristic time does the energy–time uncertainty estimate $$\Delta E\,\Delta t\approx h/(4\pi)$$ associate with this mass energy?
 
 :::
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
- $$3 \times 10^{-39} \text{s} $$
+**Strategy**
+
+Convert the mass energy to joules and solve $$\Delta E\,\Delta t\approx h/(4\pi)$$ for $$\Delta t$$.
+
+**Solution**
+
+$$\Delta E=(10^{14}\text{ GeV})(1.602\times10^{-10}\text{ J/GeV})=1.60\times10^{4}\text{ J},$$
+
+$$\Delta t\approx\frac{6.626\times10^{-34}\text{ J·s}}{4\pi(1.60\times10^{4}\text{ J})}=3\times10^{-39}\text{ s}.$$
+
+**Discussion**
+
+This is a time scale for interactions that involve such a heavy particle, not a literal lifetime. As this section explains, virtual-particle exchange does not violate energy conservation.
 
 :::
 
