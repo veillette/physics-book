@@ -90,7 +90,7 @@ $${\tau }_{\text{max}}=NIAB$$
 Entering known values yields
 
 <div class="equation">
-$$\begin{array}{lll}{\tau }_{\text{max}}& =& \left(100\right)\left(15.0 \text{A}\right)\left(0.100 {\text{m}}^{2}\right)\left(2.00 \text{T}\right)\\ & =& 30.0 \text{N}\cdot \text{m}\end{array}$$
+$$\begin{array}{lll}{\tau }_{\text{max}}& =& \left(100\right)\left(15.0 \text{A}\right)\left(0.0100 {\text{m}}^{2}\right)\left(2.00 \text{T}\right)\\ & =& 30.0 \text{N}\cdot \text{m}\end{array}$$
 </div>
 
 **Discussion**

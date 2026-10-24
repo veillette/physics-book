@@ -326,7 +326,7 @@ This small value indicates the voltage and current are significantly out of phas
 **Discussion for (a)**
 
 The phase angle is close to $$90 ^\circ $$ , consistent with the fact that the
-capacitor dominates the circuit at this low frequency (a pure *RC* circuit has
+capacitor dominates the circuit at this low frequency (a circuit containing only a capacitor has
 its voltage and current $$90 ^\circ $$ out of phase).
 
 **Strategy and Solution for (b)**
@@ -1085,7 +1085,7 @@ $$f_0=\frac1{2\pi\sqrt{LC}}=82.2\ \text{kHz}.$$
 ::: problem
 
 An *RLC* series circuit has a  $$2.50 \Omega $$ resistor, a $$100 \mu\text{H} $$
- inductor, and an  $$80.0 \mu\text{F} $$ capacitor.
+ inductor, and an  $$80.0 \mu\text{F} $$ capacitor, driven by the same $$V_{\text{rms}} = 5.60 \text{ V}$$ source as in the preceding problem.
 (a) Find the power factor at  $$f=120 \text{Hz} $$ .
 (b) What is the phase angle at 120 Hz?
 (c) What is the average power at 120 Hz?
@@ -1143,7 +1143,7 @@ At 120 Hz, the large phase angle (81.4°) indicates voltage and current are near
 
 An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
  resistor, a  $$150 \mu\text{H} $$
- inductor, and a 25.0 nF capacitor. (a) Find the power factor at  $$f=7.50 \text{kHz} $$ .
+ inductor, and a 25.0 nF capacitor, driven by the same $$V_{\text{rms}} = 408 \text{ V}$$ source as in the preceding problem. (a) Find the power factor at  $$f=7.50 \text{kHz} $$ .
  (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit's resonant frequency.
 
 :::

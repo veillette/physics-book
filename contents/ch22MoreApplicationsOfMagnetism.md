@@ -645,7 +645,7 @@ Nonnuclear submarines use batteries for power when submerged. (a) Find the magne
 
 **Strategy**
 
-For part (a), we use the formula for the magnetic field around a long straight wire: $B = \mu_0 I / (2\pi r)$. For part (b), when two wires carrying equal currents in opposite directions are placed side by side, their magnetic fields cancel at points equidistant from both wires. Part (c) requires comparing the calculated field to Earth's field.
+For part (a), we use the formula for the magnetic field around a long straight wire: $B = \mu_0 I / (2\pi r)$. For part (b), when two wires carrying equal currents in opposite directions are placed side by side, their fields nearly cancel at distances much larger than the wires' separation. Part (c) requires comparing the calculated field to Earth's field.
 
 **Solution**
 
@@ -661,20 +661,22 @@ $$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T·m/A})(1200
 
 $$B = \frac{(4 \times 10^{-7} \text{ T·m/A})(1200 \text{ A})}{1.00 \text{ m}} = 4.80 \times 10^{-4} \text{ T}$$
 
-**(b)** When the outgoing and return wires are side by side, they carry equal currents in opposite directions. At any point equidistant from both wires, the magnetic fields point in opposite directions and **cancel completely**:
+**(b)** When the outgoing and return wires are side by side, they carry equal currents in opposite directions, so at 50.0 cm their fields **nearly cancel**. The cancellation is not exact: for wires a distance $$d$$ apart, with $$d \ll r$$, the remaining field is about
 
-$$B_{\text{net}} = 0$$
+$$B_{\text{net}} \approx \frac{\mu_0 I d}{2\pi r^2}$$
+
+For wires 1.0 cm apart (an assumed separation), $$B_{\text{net}} \approx (2 \times 10^{-7}\ \text{T·m/A})(1200\ \text{A})(0.010\ \text{m})/(0.500\ \text{m})^2 = 9.6 \times 10^{-6}\ \text{T}$$, about 1/50 of the single-wire field and falling off as $$1/r^2$$ rather than $$1/r$$.
 
 **(c)** The single-wire field of $4.80 \times 10^{-4}$ T is nearly **10 times stronger** than Earth's magnetic field (~$5 \times 10^{-5}$ T). If the wires are not paired:
-- A compass near the wire would point toward the wire rather than north
+- A compass near the wire would line up with the wire's circular field lines, perpendicular to the line from the wire, rather than pointing north
 - Navigation would be severely compromised
-- This is why power cables in submarines (and buildings) are always run as paired conductors—the fields cancel and don't interfere with sensitive equipment
+- Running the cables as a closely spaced pair reduces the field to a small fraction of Earth's field at this distance
 
 **Discussion**
 
-This problem illustrates why electrical wiring is almost always run as paired conductors (or twisted pairs). The cancellation effect is exact only for ideal parallel wires; in practice, some residual field remains due to wire separation, but it's much smaller than from a single conductor. Modern submarines use extensive magnetic shielding for navigation equipment.
+This problem illustrates why electrical wiring is almost always run as paired conductors (or twisted pairs). The cancellation is never exact, because the two wires are a finite distance apart, but the residual field is much smaller than that of a single conductor and falls off faster with distance. Modern submarines use extensive magnetic shielding for navigation equipment.
 
-**(a) $4.80 \times 10^{-4}$ T. (b) Zero (fields cancel). (c) The unpaired wire creates a field about 10 times Earth's field, severely disrupting compass navigation.**
+**(a) $4.80 \times 10^{-4}$ T. (b) Nearly zero: about $$1 \times 10^{-5}$$ T for wires 1 cm apart. (c) The unpaired wire creates a field about 10 times Earth's field, severely disrupting compass navigation.**
 
 :::
 
@@ -731,7 +733,7 @@ What current is needed in the solenoid of the preceding problem, with 10 000 tur
 
 The preceding solenoid has $$n=10\,000\ \text{turns/m}$$. The desired field is
 
-$$B=(10^4\ \text{A/m})(5.00\times10^{-5}\ \text{T}\cdot\text{m/A})=0.500\ \text{T}.$$
+$$B=10^4\,(5.00\times10^{-5}\ \text{T})=0.500\ \text{T}.$$
 
 From $$B=\mu_0nI$$,
 
@@ -848,7 +850,7 @@ This problem illustrates an important principle in measurement science: the meas
 
 ::: solution
 
-**(a)** The counterclockwise loop current produces a field out of the page at its center. The straight wire must produce a field into the page there, so $$I_2$$ flows **from upper right to lower left**, opposite to the loop current at the tangent point.
+**(a)** In Figure 6 the loop current $$I_1$$ circulates clockwise, so it produces a field into the page at the loop's center. The straight wire must produce a field out of the page there. The center lies above and to the left of the wire, so by the right-hand rule $$I_2$$ flows **from lower left to upper right**, opposite to the loop current at the tangent point.
 
 **(b)** At the center, the field magnitudes are
 
@@ -856,7 +858,7 @@ $$B_{\text{loop}}=\frac{\mu_0I_1}{2R},\qquad B_{\text{wire}}=\frac{\mu_0I_2}{2\p
 
 Equality gives $$I_1/I_2=1/\pi\approx0.318$$.
 
-**(c)** Interpreting “directly above” as on the loop axis outside its plane, the net field is tilted: it has a component parallel to the plane, away from the straight wire, and a component into the page. The wire's field there has both components, while the loop's field remains axial. Cancellation at the center does not persist above it.
+**(c)** Interpreting “directly above” as on the loop axis outside its plane, the net field is tilted: it has a component parallel to the plane, toward the straight wire, and a component out of the page (above the loop, the wire's field is no longer fully cancelled by the loop's into-the-page axial field). The wire's field there has both components, while the loop's field remains axial. Cancellation at the center does not persist above it.
 
 :::
 </div>
@@ -1026,15 +1028,17 @@ $$F = 9.08 \times 10^{-7} \text{ N} \approx 9.09 \times 10^{-7} \text{ N}$$
 - Tension: $T$ (upward along the string, but the bob is at the bottom of its swing)
 - Magnetic force: $F_B = 9.09 \times 10^{-7} \text{ N}$ (upward)
 
-The magnetic force causes a slight additional upward acceleration:
+At the bottom of the swing the bob moves on a circle of radius $$L$$, the string length, so its acceleration is centripetal and set by the motion, whatever forces act:
 
-$$a = \frac{F_B}{m} = \frac{9.09 \times 10^{-7} \text{ N}}{0.0300 \text{ kg}} = 3.03 \times 10^{-5} \text{ m/s}^2$$
+$$a = \frac{v^2}{L} = \frac{5.88 \text{ m}^2/\text{s}^2}{L} \quad \text{(upward)}$$
+
+The string tension adjusts to supply it: $$T = mg + \frac{mv^2}{L} - F_B$$. The magnetic force only lowers the tension, by $$9.09 \times 10^{-7}$$ N (a fraction $$F_B/mg = 3 \times 10^{-6}$$ of the weight); it does not change the acceleration. The problem does not give $$L$$, so the acceleration can only be stated in terms of it; for example, $$L = 1.00$$ m gives $$a = 5.88$$ m/s².
 
 **Discussion**
 
-The magnetic force is incredibly small compared to gravity. The weight is about 0.29 N, while the magnetic force is less than 1 μN—a ratio of nearly 1 million to 1! The resulting acceleration due to the magnetic force is about 3 millionths of g. This illustrates why magnetic forces on everyday charged objects are rarely noticeable; you would need much larger charges or speeds to produce significant effects.
+The magnetic force is incredibly small compared to gravity. The weight is about 0.29 N, while the magnetic force is less than 1 μN—a ratio of nearly 1 million to 1! The magnetic force changes the string tension by only about 3 millionths of the weight. This illustrates why magnetic forces on everyday charged objects are rarely noticeable; you would need much larger charges or speeds to produce significant effects.
 
-**(a) The magnetic force is $9.09 \times 10^{-7}$ N directed upward. (b) The acceleration due to this force is $3.03 \times 10^{-5}$ m/s².**
+**(a) The magnetic force is $9.09 \times 10^{-7}$ N directed upward. (b) The acceleration is centripetal, $a = v^2/L = (5.88\ \text{m}^2/\text{s}^2)/L$ upward; the magnetic force only reduces the string tension slightly.**
 
 :::
 

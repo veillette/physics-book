@@ -562,28 +562,30 @@ Traverse loop aedcba, summing potential changes. Use sign conventions: $$-IR$$ w
 
 **Solution**
 
-Loop aedcba (clockwise):
-- a to e: through $$R_1$$ opposite to $$I_1$$: $$+I_1 R_1$$
-- e to d: through $$r_2$$ opposite to $$I_3$$: $$+I_3 r_2$$
-- d to c: through emf₂ from + to -: $$-\text{emf}_2$$
-- c to b: through $$r_1$$ in direction of $$I_2$$: $$-I_2 r_1$$
-- b to a: through $$R_2$$ in direction of $$I_2$$: $$-I_2 R_2$$
+Loop aedcba runs from a through $$R_1$$ to e, along the wire to d, and back along the top branch through $$r_1$$, emf$$_1$$, and $$R_2$$ to a. Reading the components from Figure 5:
+- a to e: through $$R_1$$ opposite to $$I_1$$ (which flows from e to a): $$+I_1 R_1$$
+- e to d: wire, no change
+- d to c: through $$r_1$$ opposite to $$I_2$$ (which flows from a toward e along the top): $$+I_2 r_1$$
+- c to b: through emf$$_1$$ from its + terminal to its − terminal: $$-\text{emf}_1$$
+- b to a: through $$R_2$$ opposite to $$I_2$$: $$+I_2 R_2$$
 
 Sum equals zero:
 <div class="equation">
-$$+I_1 R_1 + I_3 r_2 - \text{emf}_2 - I_2 r_1 - I_2 R_2 = 0$$
+$$+I_1 R_1 + I_2 r_1 - \text{emf}_1 + I_2 R_2 = 0$$
 </div>
 
 Rearranged:
 <div class="equation">
-$$I_1 R_1 - I_2(R_2 + r_1) + I_3 r_2 = \text{emf}_2$$
+$$I_1 R_1 + I_2(R_2 + r_1) - \text{emf}_1 = 0$$
 </div>
+
+With the values in Figure 5, this is $$6I_1 + 3I_2 - 18 = 0$$.
 
 **Discussion**
 
-This is the same equation that would be obtained by combining the loop abcdea equation with the junction rule, demonstrating that not all loop equations are independent.
+Loop aedcba is loop abcdea of Example 1 traversed in the opposite direction, so every term changes sign: the equation is Example 1's $$-3I_2 + 18 - 6I_1 = 0$$ multiplied by $$-1$$. Going around a loop in either direction gives the same information. The currents from Example 1, $$I_1 = 4.75$$ A and $$I_2 = -3.50$$ A, satisfy it: $$6(4.75) + 3(-3.50) - 18 = 0$$.
 
-The loop equation is: $$I_1 R_1 + I_3 r_2 - \text{emf}_2 - I_2 r_1 - I_2 R_2 = 0$$.
+The loop equation is: $$I_1 R_1 + I_2(R_2 + r_1) - \text{emf}_1 = 0$$.
 
 :::
 
@@ -754,16 +756,46 @@ The negative $$I_1$$ means flow opposite its arrow. The third loop gives $$48.0-
 
 ::: problem
 
-Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the
+Solve [[Example 1]](#Example1), but use loop abcdefgha instead of loop aefgha. Explicitly show how you follow the
 steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#Note1).
 
 :::
 
 ::: solution
 
-(a)  $$I_{1}=4.75 \text{A} $$
-(b)  $$I_{2}=-3.5 \text{A} $$
-(c)  $$I_{3}=8.25 \text{A} $$
+**Strategy**
+
+Follow the Problem-Solving Strategies for Kirchhoff's Rules: label the currents, apply the junction rule, apply the loop rule to two independent loops, and solve.
+
+**Solution**
+
+*Step 1: Label the currents.* Use the directions in [[Figure 5]](#Figure5): $$I_2$$ along the top branch from a toward e, $$I_1$$ through $$R_1$$ from e to a, and $$I_3$$ along the bottom branch from a toward e.
+
+*Step 2: Junction rule.* At junction a, $$I_1$$ flows in and $$I_2$$ and $$I_3$$ flow out:
+
+$$I_1 = I_2 + I_3$$
+
+*Step 3: Loop rule.* Loop abcdea is the same as in Example 1:
+
+$$-I_2(R_2 + r_1) + \text{emf}_1 - I_1R_1 = 0 \quad\Rightarrow\quad -3I_2 + 18 - 6I_1 = 0$$
+
+For loop abcdefgha (the outer loop), go from a through $$R_2$$, emf$$_1$$, and $$r_1$$ to e (along $$I_2$$), then back along the bottom branch through $$R_3$$, $$r_2$$, and emf$$_2$$ to a (against $$I_3$$):
+
+$$-I_2R_2 + \text{emf}_1 - I_2r_1 + I_3R_3 + I_3r_2 - \text{emf}_2 = 0 \quad\Rightarrow\quad -3I_2 + 2I_3 - 27 = 0$$
+
+*Step 4: Solve.* From the first loop equation, $$I_1 = 3 - 0.5I_2$$. The junction rule then gives $$I_3 = I_1 - I_2 = 3 - 1.5I_2$$. Substituting into the outer-loop equation:
+
+$$-3I_2 + 2(3 - 1.5I_2) - 27 = 0 \quad\Rightarrow\quad -6I_2 = 21 \quad\Rightarrow\quad I_2 = -3.50 \text{ A}$$
+
+so $$I_1 = 3 - 0.5(-3.50) = 4.75$$ A and $$I_3 = 3 - 1.5(-3.50) = 8.25$$ A.
+
+**Discussion**
+
+These are the currents found in Example 1, as they must be: the outer loop's equation is the sum of the equations for loops abcdea and aefgha, so using it instead of aefgha gives the same solution. The negative $$I_2$$ means that current flows opposite to the direction assumed in Figure 5. As a check, the junction rule holds: $$4.75 = -3.50 + 8.25$$.
+
+**Answer**
+
+(a) $$I_1 = 4.75$$ A (b) $$I_2 = -3.50$$ A (c) $$I_3 = 8.25$$ A
 
 :::
 

@@ -752,7 +752,7 @@ A 75-turn, 10.0 cm diameter coil rotates at an angular velocity of 8.00 rad/s in
 
 **Strategy**
 
-We use $$\text{emf}_0 = NAB\omega$$ for peak emf. The emf varies as $$\text{emf} = \text{emf}_0 \sin(\omega t)$$ when starting with the plane parallel to the field (maximum flux change rate at t = 0). The period is $$T = 2\pi/\omega$$.
+We use $$\text{emf}_0 = NAB\omega$$ for peak emf. Starting with the plane parallel to the field, the flux is zero but changing fastest at $$t = 0$$, so the emf varies as $$\text{emf} = \text{emf}_0 \cos(\omega t)$$. The period is $$T = 2\pi/\omega$$.
 
 **Solution for (a)**
 

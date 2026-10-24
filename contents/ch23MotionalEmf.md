@@ -747,77 +747,40 @@ assessing the magnitude of the effect.
 
 **Strategy**
 
-(a) The magnetic drag force on a current-carrying conductor in a magnetic field is $$ F=I\ell B $$, using the 20.0 km tether and $$ B = 5.00 \times 10^{-5} \text{ T} $$ from Example 1.
-(b) The kinetic energy removed equals the work done against the drag force, $$ E = Fvt $$.
-(c) Use the work-energy theorem: the energy removed equals the change in kinetic energy.
-(d) Extrapolate the velocity change over a week and discuss orbital mechanics implications.
+The tether's motional emf is $$\text{emf} = B\ell v$$, and the magnetic drag force on its current is $$F = I\ell B$$. Both depend on the product $$B\ell$$, which the stated 5.00 kV fixes: $$B\ell = \text{emf}/v$$. (Example 1's field and length would give a larger emf, 7.80 kV; this problem states that 5.00 kV is produced.) Then $$F = I\,\text{emf}/v$$, which is the same as $$P = Fv = (\text{emf})I$$: the electrical power comes from the orbital kinetic energy.
 
 **Solution**
 
-**(a)** Given:
-- $$\text{emf} = 5.00 \text{ kV} = 5000 \text{ V}$$
-- $$ I = 10.0 \text{ A}$$
--$$ v = 7.80 \text{ km/s} = 7.80 \times 10^3 \text{ m/s}$$
-- From Example 1, $$ B = 5.00 \times 10^{-5} \text{ T}$$ and $$ \ell = 20.0 \text{ km} = 2.00 \times 10^4 \text{ m}$$
-
-The magnetic drag force is:
+**(a)** With $$\text{emf} = 5.00 \times 10^3 \text{ V}$$, $$I = 10.0 \text{ A}$$, and $$v = 7.80 \times 10^3 \text{ m/s}$$:
 
 <div class="equation">
-$$ F = I\ell B = (10.0 \text{ A})(2.00 \times 10^4 \text{ m})(5.00 \times 10^{-5} \text{ T}) = 10.0 \text{ N}$$
+$$ F = \frac{(\text{emf})I}{v} = \frac{(5.00 \times 10^3 \text{ V})(10.0 \text{ A})}{7.80 \times 10^3 \text{ m/s}} = 6.41 \text{ N}$$
 </div>
 
-**(b)** The work done by the drag force equals the kinetic energy removed. In 1.00 h the system travels a distance $$ d = vt $$, so:
+**(b)** The energy removed in 1.00 h equals the electrical energy generated:
 
 <div class="equation">
-$$ E = F \cdot d = F \cdot v \cdot t = (10.0 \text{ N})(7.80 \times 10^3 \text{ m/s})(3600 \text{ s}) = 2.81 \times 10^8 \text{ J}$$
+$$ E = (\text{emf})It = (5.00 \times 10^3 \text{ V})(10.0 \text{ A})(3600 \text{ s}) = 1.80 \times 10^8 \text{ J}$$
 </div>
 
-This is more than the electrical energy delivered, $$ (\text{emf})It = (5000 \text{ V})(10.0 \text{ A})(3600 \text{ s}) = 1.80 \times 10^8 \text{ J}$$. The full motional emf of the tether is $$ B\ell v = 7.80 \text{ kV}$$, but only 5.00 kV is available at the output; the rest of the energy is dissipated in the resistance of the tether and the ionosphere.
-
-**(c)** Using the work-energy theorem, the energy removed equals the change in kinetic energy:
+**(c)** For a small change, $$E = \frac{1}{2}m(v_i^2 - v_f^2) \approx mv\,\Delta v$$, so
 
 <div class="equation">
-$$ E = \frac{1}{2}m(v_i^2 - v_f^2) \approx m v \Delta v $$
+$$\Delta v = \frac{E}{mv} = \frac{1.80 \times 10^8 \text{ J}}{(1.00 \times 10^5 \text{ kg})(7.80 \times 10^3 \text{ m/s})} = 0.231 \text{ m/s}$$
 </div>
 
-For small changes where $$\Delta v \ll v $$:
-
-<div class="equation">
-$$\Delta v = \frac{E}{mv} = \frac{2.81 \times 10^8 \text{ J}}{(1.00 \times 10^5 \text{ kg})(7.80 \times 10^3 \text{ m/s})} = \frac{2.81 \times 10^8 \text{ J}}{7.80 \times 10^8 \text{ kg·m/s}} = 0.360 \text{ m/s}$$
-</div>
-
-**(d)** For a week-long mission (168 hours):
-
-<div class="equation">
-$$\Delta v_{\text{week}} = (0.360 \text{ m/s/h})(168 \text{ h}) = 60.5 \text{ m/s}$$
-</div>
-
-This represents:
-<div class="equation">
-$$\frac{\Delta v}{v} = \frac{60.5}{7800} = 0.00776 = 0.776\%$$
-</div>
+**(d)** Over a week (168 h), the drag removes about $$168 \times 0.231 = 38.8$$ m/s worth of orbital speed, about 0.5% of 7.80 km/s, or $$3.0 \times 10^{10}$$ J. In orbit, removing energy does not simply slow the craft down: the orbit decays to a lower altitude, where the craft actually moves faster but has less total energy. A week of operation would lower the orbit noticeably, so the shuttle would have to fire its thrusters to restore it.
 
 **Discussion**
 
-Part (a): The magnetic drag force of 10.0 N may seem small, but it acts continuously on the satellite system. This force results from the interaction between the 10.0 A current in the 20.0 km tether and Earth's magnetic field. The force opposes the satellite's motion, extracting orbital energy.
-
-Part (b): The energy removal of $$2.81 \times 10^8$$ J (281 megajoules) in just one hour is substantial—equivalent to about 78 kWh of electrical energy. This demonstrates the potential of the tethered satellite as a power source, though the "fuel" being consumed is the orbital kinetic energy of the shuttle itself. The 50 kW of electrical power delivered (from $$ P = VI $$) could run several households.
-
-Part (c): The velocity decrease of 0.36 m/s per hour seems modest, but it's significant in orbital mechanics. This confirms that the energy accounting is consistent: the mechanical energy lost (from slowing down) equals the electrical energy generated plus any dissipated heat.
-
-Part (d): Over a week-long mission, the cumulative velocity loss of approximately 60 m/s (about 0.8% of orbital velocity) would have measurable effects on the orbit. A decrease in orbital velocity causes the orbit to decay—the satellite drops to a lower altitude where it moves faster, but with less total energy. The shuttle would need to fire thrusters periodically to maintain the desired orbit, effectively using rocket fuel to replace the energy extracted by the tether.
-
-This illustrates a fundamental trade-off: the tethered satellite can generate substantial electrical power, but only by "stealing" kinetic energy from the orbit. For short experiments this is acceptable, but continuous operation would require either accepting orbital decay or using additional propulsion. The concept demonstrates electromagnetic energy harvesting but highlights why perpetual orbital power generation faces practical limitations.
+The 6.41-N drag force is small, but it acts continuously. The 50.0 kW generated comes entirely from the orbit's energy, so the tether trades altitude for electricity. Running the tether "in reverse", by driving current through it with onboard power, would instead produce thrust, a way to raise the orbit without propellant.
 
 **Final Answer**
 
-(a) 10.0 N
-
-(b) $$2.81 \times 10^{8} \text{ J}$$
-
-(c) 0.360 m/s
-
-(d) For a week-long mission, $$\Delta v \approx 60$$ m/s (about 0.8% of orbital velocity). This velocity decrease would cause orbital decay, requiring the shuttle to use additional fuel to maintain altitude. The long-term consequence is that the electrical energy generated comes at the cost of orbital energy, making sustained operation impractical without continuous propulsion to compensate.
+(a) 6.41 N
+(b) $$1.80 \times 10^{8} \text{ J}$$
+(c) 0.231 m/s
+(d) About 39 m/s of orbital speed is removed in a week, lowering the orbit; thrusters are needed to restore it.
 
 :::
 
