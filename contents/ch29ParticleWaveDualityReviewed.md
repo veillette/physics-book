@@ -444,7 +444,7 @@ For a highly relativistic particle, $$E \approx pc$$, so:
 
 **Discussion**
 
-This electron has a Lorentz factor of nearly 100,000, meaning it's traveling at about 99.999999995% of the speed of light. Its wavelength (0.0248 fm) is about 1/200 the size of a proton, making it suitable for probing quark structure inside nucleons. The Stanford Linear Accelerator produced such high-energy electrons to study the fundamental structure of matter at the smallest accessible scales.
+This electron has a Lorentz factor of nearly 100,000, meaning it's traveling at about 99.999999995% of the speed of light. Its wavelength (0.0248 fm) is about 1/70 the diameter of a proton (roughly 1.7 fm), making it suitable for probing quark structure inside nucleons. The Stanford Linear Accelerator produced such high-energy electrons to study the fundamental structure of matter at the smallest accessible scales.
 
 (a) $$ 9.78 \times 10^{4}$$
 

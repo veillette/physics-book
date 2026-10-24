@@ -131,7 +131,7 @@ relativistic, and so we can comfortably use the classical formula to find the
 electron’s kinetic energy and convert it to eV as requested.
 
 <div class="equation" >
- $$\begin{array}{lll}\text{KE}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right) {\left( 4.36 \times 10^{6}  \text{m/s}\right)}^{2}\\ & =& \left( 86.4 \times 10^{-18} \text{J} \right) \left(\frac{1 \text{eV}}{1.602 \times 10^{-19} \text{J}}\right)\\ & =& 54.0 \text{eV}\end{array} $$
+ $$\begin{array}{lll}\text{KE}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right) {\left( 4.36 \times 10^{6}  \text{m/s}\right)}^{2}\\ & =& \left( 8.66 \times 10^{-18} \text{J} \right) \left(\frac{1 \text{eV}}{1.602 \times 10^{-19} \text{J}}\right)\\ & =& 54.0 \text{eV}\end{array} $$
 </div>
 
 **Discussion**
@@ -287,7 +287,7 @@ At what velocity will an electron have a wavelength of 1.00 m?
 
 ::: solution
 
- $$7.28 \times 10^{-4} \text{m} $$
+ $$7.28 \times 10^{-4} \text{m/s} $$
 
 :::
 
@@ -427,7 +427,7 @@ Converting to eV:
 
 **Discussion**
 
-Ultracold neutrons have a remarkable wavelength of 396 nm—in the visible light range! Despite their extremely low velocity (1 m/s), their relatively large mass gives them a macroscopic wavelength. The kinetic energy is only about 5 nanoelectron volts, extraordinarily small. Such neutrons are useful for studying fundamental physics and materials science because their long wavelength allows them to interact gently with matter.
+Ultracold neutrons have a remarkable wavelength of 396 nm—in the visible light range! Their wavelength is long because they move so slowly (1 m/s); their relatively large mass actually shortens it, since $$\lambda = h/mv$$, which is why an electron at the same speed would have a wavelength nearly 2000 times longer. The kinetic energy is only about 5 nanoelectron volts, extraordinarily small. Such neutrons are useful for studying fundamental physics and materials science because their long wavelength allows them to interact gently with matter.
 
 (a) 396 nm or $$ 3.96 \times 10^{-7} \text{ m}$$
 

@@ -708,7 +708,7 @@ $$v = c\sqrt{0.6400} = 0.800c$$
 
 **Discussion**
 
-The neutral pion must be traveling at 80% the speed of light for its lifetime to be extended from 0.840 to 1.40 × 10⁻¹⁶ s—a factor of $$\gamma = 1.667$$. At this velocity, time dilation effects are substantial. Even though the pion's rest lifetime is incredibly short (less than a trillionth of a microsecond), time dilation allows it to travel a measurable distance: $$d = v\Delta t = (0.800)(3.00 \times 10^8)(1.40 \times 10^{-16}) \approx 3.4 \times 10^{-8}$$ m or 34 nanometers in the lab frame. Without relativistic time dilation, we could not explain how such short-lived particles travel detectable distances in accelerator experiments.
+The neutral pion must be traveling at 80% the speed of light for its lifetime to be extended from 0.840 to 1.40 × 10⁻¹⁶ s—a factor of $$\gamma = 1.667$$. At this velocity, time dilation effects are substantial. Even though the pion's rest lifetime is incredibly short (less than a ten-billionth of a microsecond), time dilation allows it to travel a measurable distance: $$d = v\Delta t = (0.800)(3.00 \times 10^8)(1.40 \times 10^{-16}) \approx 3.4 \times 10^{-8}$$ m or 34 nanometers in the lab frame. Without relativistic time dilation, we could not explain how such short-lived particles travel detectable distances in accelerator experiments.
 
 :::
 

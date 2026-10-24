@@ -528,7 +528,7 @@ Difference: $$1800 - 1653 = 147$$ m/s (about 8.2% less than classical prediction
 - A commercial jet at 250 m/s would be at 8.3% of $$c$$
 - A rifle bullet at 1000 m/s would be at 33% of $$c$$
 
-At these speeds, relativistic effects would be readily observable. Time dilation and length contraction would affect everyday activities. For example, GPS satellites (if they could exist) would have massive time dilation effects. High-speed trains would arrive noticeably "younger" than expected classically. Bullet impacts would deliver much less momentum than classical physics predicts, affecting ballistics and engineering. Even throwing a baseball would require relativistic calculations for accurate predictions!
+At these speeds, relativistic effects would be readily observable. Time dilation and length contraction would affect everyday activities. For example, GPS satellites (if they could exist) would have massive time dilation effects. High-speed trains would arrive noticeably "younger" than expected classically. Bullet impacts would deliver much more momentum than classical physics predicts, affecting ballistics and engineering. Even throwing a baseball would require relativistic calculations for accurate predictions!
 
 **Discussion**
 

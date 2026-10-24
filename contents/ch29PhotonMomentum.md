@@ -315,7 +315,7 @@ The momentum is very small because the wavelength is large (4.00 cm = 0.04 m). S
 
 **Discussion**
 
-A microwave photon has momentum $$1.66\times10^{-32}\text{ kg·m/s}$$. A 1-kW beam at the stated frequency emits about $$5.9\times10^{26}$$ photons per second and exerts a force $$P/c\approx3.3\times10^{-6}\text{ N}$$ if fully absorbed. The collective force is small despite the large photon rate.
+A microwave photon has momentum $$1.66\times10^{-32}\text{ kg·m/s}$$. A 1-kW beam at the stated frequency emits about $$2.0\times10^{26}$$ photons per second and exerts a force $$P/c\approx3.3\times10^{-6}\text{ N}$$ if fully absorbed. The collective force is small despite the large photon rate.
 (a)  $$ 1.66 \times 10^{-32}  \text{kg}\cdot \text{m/s} $$
 (b) The wavelength of microwave photons is large, so the momentum they carry is very small.
 
@@ -538,7 +538,7 @@ Ratio:
 
 **Discussion**
 
-This 10-nm X-ray photon has momentum 250 times greater than the 2.50-μm IR photon from the previous problem. The electron with this momentum moves at 72.8 km/s (0.024% of light speed), which is still nonrelativistic. The photon energy exceeds the electron's kinetic energy by over 8000 times, demonstrating again that photons are far more energy-efficient momentum carriers than massive particles.
+This 10-nm X-ray photon has momentum 250 times greater than the 2.50-μm IR photon from the previous problem. The electron with this momentum moves at 72.8 km/s (0.024% of light speed), which is still nonrelativistic. The photon energy exceeds the electron's kinetic energy by over 8000 times: for the same momentum, a photon carries far more energy than a slow massive particle.
 
 (a)  $$ 6.63 \times 10^{-26} \text{ kg·m/s}$$
 
@@ -615,7 +615,7 @@ Converting to keV:
 
 **Discussion**
 
-A 100-keV X-ray photon has the same momentum as a neutron moving at only 31.8 km/s, which is well below 1% of the speed of light (nonrelativistic). However, the neutron's kinetic energy is only about 5.3 eV—nearly 20,000 times less than the photon's energy! This dramatic difference illustrates that photons are extraordinarily efficient momentum carriers: they carry the same momentum as massive particles but with much more energy. This is because photon energy $$E = pc$$, while massive particle energy $$\text{KE} = \frac{p^2}{2m}$$.
+A 100-keV X-ray photon has the same momentum as a neutron moving at only 31.8 km/s, which is well below 1% of the speed of light (nonrelativistic). However, the neutron's kinetic energy is only about 5.3 eV—nearly 20,000 times less than the photon's energy! This dramatic difference shows that, for the same momentum, a photon carries far more energy than a slow massive particle; photons are energy-expensive momentum carriers. This is because photon energy $$E = pc$$, while massive particle energy $$\text{KE} = \frac{p^2}{2m}$$.
 
 (a)  $$ 5.33 \times 10^{-23} \text{ kg·m/s}$$
 
