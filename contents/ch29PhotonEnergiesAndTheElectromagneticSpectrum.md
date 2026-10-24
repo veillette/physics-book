@@ -432,6 +432,26 @@ Why are UV, X-rays, and  $$\gamma  $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare photon energy $hf$ with electron binding energies.
+
+**Solution**
+
+Sufficiently energetic photons can remove electrons from atoms or molecules, producing ions. X-rays and gamma rays commonly have enough energy; the higher-energy part of ultraviolet can also ionize many substances.
+
+**Discussion**
+
+Not every UV photon can ionize every target. The threshold depends on the atom or molecule, and lower-energy UV can still cause photochemical damage without direct single-photon ionization.
+
+**Answer**
+
+They are called ionizing when their photons can transfer enough energy to remove bound electrons.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -439,6 +459,26 @@ Why are UV, X-rays, and  $$\gamma  $$
 ::: problem
 
 How can treating food with ionizing radiation help keep it from spoiling? UV is not very penetrating. What else could be used?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Relate radiation-induced molecular damage to the reproduction of spoilage organisms.
+
+**Solution**
+
+Ionizing radiation can damage microbial genetic material and reduce the organisms’ ability to reproduce, slowing spoilage. More penetrating gamma rays or X-rays can treat food beyond its surface; accelerated electron beams are another method, with a penetration depth dependent on their energy and the food.
+
+**Discussion**
+
+Appropriate treatment reduces microorganisms but does not replace hygienic handling. The [CDC food-irradiation explanation](https://www.cdc.gov/radiation-health/food-irradiation/index.html) describes the process.
+
+**Answer**
+
+Radiation suppresses spoilage organisms; gamma rays, X-rays, or suitable electron beams can be used instead of poorly penetrating UV.
 
 :::
 
@@ -452,6 +492,26 @@ Some television tubes are CRTs. They use an approximately 30-kV accelerating pot
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the electron kinetic energy with X-ray photon energies.
+
+**Solution**
+
+An electron accelerated through $30\text{ kV}$ gains approximately $30\text{ keV}$. Deceleration in the screen or other target material can produce bremsstrahlung photons up to approximately $30\text{ keV}$, within the X-ray range. Characteristic X-rays may also occur if suitable atomic shells are excited.
+
+**Discussion**
+
+Production does not imply the photons escape the tube; absorption and shielding determine the external radiation.
+
+**Answer**
+
+Yes; the accelerated electrons have enough energy to generate X-rays on impact.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -462,6 +522,26 @@ Tanning salons use “safe” UV with a longer wavelength than some of the UV in
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish lower photon energy from absence of biological effects.
+
+**Solution**
+
+Yes. Longer-wavelength UV, including UVA used in tanning devices, can damage cells through photochemical processes, including indirect damage involving reactive molecules. Being less energetic than shorter-wavelength UV does not make it harmless, and tanning is not evidence of safety.
+
+**Discussion**
+
+The [WHO ultraviolet-radiation fact sheet](https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation) identifies artificial tanning exposure as a skin-cancer risk. A quantitative risk cannot be inferred from photon energy alone.
+
+**Answer**
+
+Yes; the claim that longer-wavelength tanning UV is “safe” is unjustified.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -469,6 +549,26 @@ Tanning salons use “safe” UV with a longer wavelength than some of the UV in
 ::: problem
 
 Your pupils dilate when visible light intensity is reduced. Does wearing sunglasses that lack UV blockers increase or decrease the UV hazard to your eyes? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate visible-light attenuation from UV attenuation.
+
+**Solution**
+
+In the stated model, dark lenses reduce visible light and dilate the pupils while admitting UV. A larger pupil can admit more UV into the eye, increasing exposure to internal structures compared with the same UV intensity and a smaller pupil.
+
+**Discussion**
+
+Actual exposure also depends on lens UV transmission, frame coverage, and illumination. Dark tint alone is not UV protection; see the [American Academy of Ophthalmology’s explanation](https://www.aao.org/eye-health/glasses-contacts/sunglasses-3).
+
+**Answer**
+
+UV-transparent dark lenses can increase the hazard through pupil dilation; their darkness does not establish protection.
 
 :::
 
@@ -483,6 +583,26 @@ One could feel heat transfer in the form of infrared radiation from a large nucl
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare atmospheric attenuation over the full path, rather than photon energy alone.
+
+**Solution**
+
+Many kilometers of dense lower atmosphere provide a large absorbing and scattering column. Prompt X-rays are absorbed strongly, while gamma rays are attenuated by interactions such as Compton scattering and pair production. Atmospheric transmission windows allow a substantial part of thermal visible and infrared radiation to propagate farther.
+
+**Discussion**
+
+“None” here means negligible direct high-energy flux in the assumed setting, not mathematically zero transmission. Actual fluence depends on altitude, spectrum, geometry, and atmospheric conditions.
+
+**Answer**
+
+The long atmospheric path suppresses direct X-rays and gamma rays much more effectively than radiation in thermal transmission windows.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -490,6 +610,26 @@ One could feel heat transfer in the form of infrared radiation from a large nucl
 ::: problem
 
 Can a single microwave photon cause cell damage? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Calculate a typical microwave photon energy and compare it with chemical energies.
+
+**Solution**
+
+At $f=2.45\text{ GHz}$, $E=hf\approx1.01\times10^{-5}\text{ eV}$, far below the several electron volts typically needed to ionize a molecule or break a chemical bond directly. One such photon cannot cause that kind of damage.
+
+**Discussion**
+
+Large numbers of absorbed photons can heat tissue and cause thermal injury. The [EPA explanation of microwave radiation](https://www.epa.gov/radtown/non-ionizing-radiation-used-microwave-ovens) distinguishes nonionizing radiation from ionizing radiation.
+
+**Answer**
+
+A single ordinary microwave photon cannot directly ionize biological molecules; sufficiently intense microwave exposure can damage tissue by heating.
 
 :::
 
@@ -502,6 +642,26 @@ Can a single microwave photon cause cell damage? Explain.
 In an x-ray tube, the maximum photon energy is given by  $$ hf=qV. $$
  Would it be technically more correct to say  $$ hf=qV+\text{BE} \text{,}  $$
  where BE is the binding energy of electrons in the target anode? Why isn’t the energy stated the latter way?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Specify the final electronic state before adding binding energy to an energy budget.
+
+**Solution**
+
+The standard bremsstrahlung endpoint uses an incident electron of kinetic energy $eV$ coming nearly to rest, giving $hf_{\max}\approx eV$. It is not a transition in which an arbitrary target electron’s binding energy is added. If an incident electron is instead captured into an available bound state, radiative recombination can release its kinetic energy plus the binding energy of that final state; this is a distinct process.
+
+**Discussion**
+
+An ordinary metal’s conduction-electron binding scale is only a few electron volts, usually negligible beside a kiloelectron-volt tube voltage. Deep-shell binding energies cannot simply be added without accounting for creation of a vacancy and the full initial and final states.
+
+**Answer**
+
+$hf\approx eV$ is the conventional bremsstrahlung limit; adding a binding energy is appropriate only for a specified capture transition, not as a general X-ray endpoint rule.
 
 :::
 
@@ -847,6 +1007,26 @@ photons per square centimeter the pen can project at some large distance. In
 this latter case, you will also need to consider the output size of the laser
 beam, the distance to the object being illuminated, and any absorption or
 scattering along the way.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose wavelength and power, then divide emitted energy per second by photon energy.
+
+**Solution**
+
+One possible problem uses a $1.00\text{ mW}$, $650\text{ nm}$ laser. Its photon energy is $E=hc/\lambda=3.06\times10^{-19}\text{ J}$, so $\dot N=P/E=3.27\times10^{15}\text{ s}^{-1}$. For the optional extension, model a uniformly illuminated circular $2.00\text{ mm}$ aperture. Its first diffraction zero is at $\theta=1.22\lambda/D=3.97\times10^{-4}\text{ rad}$. At $L=1.00\text{ km}$, the far-field first-zero radius is $r=L\theta=0.397\text{ m}$.
+
+**Discussion**
+
+Ignoring atmospheric losses, about $83.8\%$ of an ideal Airy pattern’s power lies in this disk. Its mean photon flux is therefore $0.838\dot N/(\pi r^2)\approx5.54\times10^{11}\text{ cm}^{-2}\text{ s}^{-1}$. A real laser pen’s Gaussian profile changes this aperture model.
+
+**Answer**
+
+The example emits $3.27\times10^{15}$ photons per second; the optional ideal-aperture mean flux is about $5.5\times10^{11}\text{ cm}^{-2}\text{ s}^{-1}$ within the first diffraction zero.
 
 :::
 

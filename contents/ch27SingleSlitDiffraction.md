@@ -146,6 +146,26 @@ As the width of the slit producing a single-slit diffraction pattern is reduced,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use $a\sin\theta_m=m\lambda$ for the minima.
+
+**Solution**
+
+Reducing slit width $a$ moves the minima farther from the center, broadening the central maximum and the angular pattern. If the incident illumination is unchanged, less total light passes through the narrower opening.
+
+**Discussion**
+
+When $a<\lambda$, even the first minimum lies outside the allowed angular range. The common small-angle width $2L\lambda/a$ applies only when the diffraction angles are small.
+
+**Answer**
+
+The pattern spreads out as the slit narrows, and its transmitted power decreases for fixed incident illumination.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -823,6 +843,26 @@ The fact that the slit width D ≈ 4λ means this pattern has exactly three obse
 ::: problem
 
 A double slit produces a diffraction pattern that is a combination of single and double slit interference. Find the ratio of the width of the slits to the separation between them, if the first minimum of the single slit pattern falls on the fifth maximum of the double slit pattern. (This will greatly reduce the intensity of the fifth maximum.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Set the angle of the first single-slit minimum equal to that of the fifth double-slit maximum.
+
+**Solution**
+
+With slit width $a$ and center-to-center separation $d$, $a\sin\theta=\lambda$ and $d\sin\theta=5\lambda$. Dividing the equations gives $a/d=1/5$.
+
+**Discussion**
+
+The fifth-order interference maximum falls at a zero of the diffraction envelope and is therefore a missing order in the ideal pattern.
+
+**Answer**
+
+The width-to-separation ratio is $a/d=0.200$.
 
 :::
 

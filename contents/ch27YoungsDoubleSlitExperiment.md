@@ -246,6 +246,26 @@ Young’s double slit experiment breaks a single light beam into two sources. Wo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Ask whether the two sources maintain a fixed relative phase.
+
+**Solution**
+
+Two slits illuminated coherently by one beam have correlated phases. Independent ordinary headlights have rapidly fluctuating relative phases and many wavelengths, so their interference averages away during observation.
+
+**Discussion**
+
+Special independent sources can be phase-locked, but ordinary headlights are not coherent in that sense.
+
+**Answer**
+
+No stable Young interference pattern is expected from two independent ordinary headlights.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -253,6 +273,26 @@ Young’s double slit experiment breaks a single light beam into two sources. Wo
 ::: problem
 
 Suppose you use the same double slit to perform Young’s double slit experiment in air and then repeat the experiment in water. Do the angles to the same parts of the interference pattern get larger or smaller? Does the color of the light change? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Track wavelength and frequency as light enters water.
+
+**Solution**
+
+Frequency remains unchanged, while speed and wavelength decrease to $v=c/n$ and $\lambda_{\rm water}=\lambda_{\rm air}/n$ approximately. Since $d\sin\theta=m\lambda$, the angles to corresponding fringes become smaller.
+
+**Discussion**
+
+Color is associated with frequency, or equivalently vacuum wavelength, so entering water does not itself change the light’s color.
+
+**Answer**
+
+The fringes move closer to the center; the light’s frequency and perceived color remain the same.
 
 :::
 
@@ -266,6 +306,26 @@ Is it possible to create a situation in which there is only destructive interfer
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish cancellation in a region from destruction of total energy.
+
+**Solution**
+
+Two coherent, equal-amplitude fields with a $\pi$ phase difference can cancel at a chosen location or output port. In a complete optical arrangement, however, energy is redirected to other locations or ports, reflected back, or exchanged with the sources. Two independent incoming beams cannot simply lose all their energy everywhere through interference.
+
+**Discussion**
+
+Local destructive interference is possible; global disappearance of energy is not. In a double-slit pattern, dark fringes are accompanied by brighter regions.
+
+**Answer**
+
+Destructive interference alone can occur at a selected location, but it cannot eliminate all energy from the complete physical system.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -276,6 +336,26 @@ Is it possible to create a situation in which there is only destructive interfer
 
 ![The figure shows a photo of a horizontal line of equally spaced red dots of light on a black background. The central dot is the brightest and the dots on either side of center are dimmer. The dot intensity decreases to almost zero after moving six dots to the left or right of center. If you continue to move away from the center, the dot brightness increases slightly, although it does not reach the brightness of the central dot. After moving another six dots, or twelve dots in all, to the left or right of center, there is another nearly invisible dot. If you move even farther from the center, the dot intensity again increases, but it does not reach the level of the previous local maximum. At eighteen dots from the center, there is another nearly invisible dot.](../resources/Figure_27_03_07.jpg "This double slit interference pattern also shows signs of single slit interference. (credit: PASCO)")
 {: #Figure7}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate the rapid two-slit fringes from their broad single-slit envelope.
+
+**Solution**
+
+The nearly uniform spacing of adjacent bright spots is characteristic of double-slit interference. Their fading and reappearance in groups is set by the single-slit diffraction envelope. The two-slit spacing scales as $\lambda/d$, whereas the envelope width scales as $\lambda/a$, with $a$ the slit width and $d$ the center separation. Several interference peaks fit inside one broad envelope, so $a<d$.
+
+**Discussion**
+
+Uniform spacing is a small-angle approximation on a flat screen; the exact interference relation is uniform in $\sin\theta$.
+
+**Answer**
+
+Equal spot spacing comes from the two slits; brightness modulation comes from each slit’s finite width; slit width is smaller than slit separation.
 
 :::
 

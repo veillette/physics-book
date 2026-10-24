@@ -117,6 +117,26 @@ Radiotherapy is more likely to be used to treat cancer in elderly patients than 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare immediate treatment benefit with normal-tissue injury and possible delayed effects.
+
+**Solution**
+
+Children can have developing tissues especially vulnerable to treatment, and they have more remaining years in which late effects, including second cancers, can appear. Those factors can motivate avoiding or modifying radiation when another treatment is equally effective. Nevertheless, radiotherapy may offer essential disease control or cure at any age, making its expected benefit greater than its risks.
+
+**Discussion**
+
+The question’s claimed age pattern is not a universal treatment rule. Decisions depend on cancer type, stage, alternatives, and patient factors. See the [NCI childhood-treatment late-effects summary](https://www.cancer.gov/types/childhood-cancers/late-effects-pdq).
+
+**Answer**
+
+Age changes the benefit–risk balance, but radiotherapy is used in young patients when its expected therapeutic benefit justifies the exposure.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

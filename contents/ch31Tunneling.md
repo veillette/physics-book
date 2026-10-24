@@ -114,6 +114,26 @@ A physics student caught breaking conservation laws is imprisoned. She leans aga
 
 :::
 
+::: solution
+
+**Strategy**
+
+Inspect the exponential dependence of a barrier-transmission probability on mass and width.
+
+**Solution**
+
+For a simple barrier, transmission scales approximately as $\exp[-2a\sqrt{2m(V-E)}/\hbar]$. A person’s macroscopic mass and a wall’s macroscopic thickness make the exponent overwhelmingly large and negative. Maintaining the required coherent many-particle state is an additional obstacle.
+
+**Discussion**
+
+Tunneling does not permit violation of energy conservation; it permits amplitude in a classically forbidden region.
+
+**Answer**
+
+The transmission probability is negligibly small on any practical timescale.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -123,6 +143,26 @@ A physics student caught breaking conservation laws is imprisoned. She leans aga
 When a nucleus  $$\alpha  $$
  decays, does the  $$\alpha  $$
  particle move continuously from inside the nucleus to outside? That is, does it travel each point along an imaginary line from inside to out? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish a continuous wavefunction from a measured classical trajectory.
+
+**Solution**
+
+Quantum mechanics describes a wavefunction extending through the barrier and connecting inside and outside regions. It does not assign an observed alpha particle a definite classical path with a known position and velocity at every intervening point. The transmitted wave produces an outgoing particle detection.
+
+**Discussion**
+
+This is not disappearance at one surface and instantaneous reappearance at another. Tunneling preserves energy and cannot be used for faster-than-light signaling.
+
+**Answer**
+
+The wavefunction evolves continuously, but an unmeasured tunneling event is not a definite classical trajectory through every point.
 
 :::
 
@@ -198,6 +238,30 @@ Derive an approximate relationship between the energy of  $$\alpha  $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Convert all half-lives to seconds and fit their base-ten logarithms against alpha energy.
+
+**Solution**
+
+For the tabulated energies $9.5,7.0,6.4,4.91,4.1\text{ MeV}$, the values of $\log_{10}(t_{1/2}/\text{s})$ are approximately $-6.745,-0.155,6.368,10.703,17.645$. A least-squares straight-line fit gives
+
+$$\log_{10}(t_{1/2}/\text{s})\approx33.69-4.407\,[E_\alpha/\text{MeV}],$$
+
+or $t_{1/2}\approx10^{33.69-4.407(E_\alpha/\text{MeV})}\text{ s}$.
+
+**Discussion**
+
+This is only a rough trend: residuals reach about three decades because different nuclei have different charges and structures. A tunneling-based Geiger–Nuttall relation more naturally involves $1/\sqrt{E_\alpha}$ and daughter charge; the five mixed nuclides do not establish one precise universal law.
+
+**Answer**
+
+Higher alpha energy strongly correlates with shorter half-life; the displayed empirical fit summarizes these particular data approximately.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -253,6 +317,26 @@ has a half-life of about $$2 \times 10^{16} \text{y} $$ .
 (a) A small sample of this isotope is labeled as having an activity of 1.0 Ci.
 What is the mass of the $${}^{48}\text{Ca} $$ in the sample? (b) What is
 unreasonable about this result? (c) What assumption is responsible?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Infer the number of nuclei from $R=\lambda N$ and convert to mass.
+
+**Solution**
+
+(a) With $R=3.70\times10^{10}\text{ s}^{-1}$ and the stated half-life, $N=R(2\times10^{16}\times3.15576\times10^7)/\ln2=3.37\times10^{34}$. Thus $m=N(48\text{ g/mol})/N_A\approx2.7\times10^9\text{ kg}$. (b) Billions of kilograms cannot be a small sample. (c) The claimed $1.0\text{ Ci}$ activity from such a small amount of a very long-lived isotope is inconsistent.
+
+**Discussion**
+
+The exercise’s half-life is used as given; an updated value is unnecessary for identifying the many-orders-of-magnitude contradiction.
+
+**Answer**
+
+(a) Approximately $3\times10^9\text{ kg}$; (b) far too massive for a small sample; (c) the activity attribution is unreasonable.
 
 :::
 
@@ -324,6 +408,26 @@ generated. Calculate how much power must cross each square meter of the Earth’
 surface if the power is dissipated at the same rate as it is generated. Among
 the things to consider are the activity per cubic meter, the energy per decay,
 and the size of the Earth.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Specify a volume activity and decay energy, then distribute the resulting interior power over a spherical surface.
+
+**Solution**
+
+One possible estimate assumes uniform activity density $a=1.0\times10^3\text{ Bq/m}^3$, deposited energy $Q=5.0\text{ MeV}=8.01\times10^{-13}\text{ J}$ per decay, and Earth radius $R=6.37\times10^6\text{ m}$. A cubic meter has activity $10^3\text{ Bq}$ and power $aQ=8.01\times10^{-10}\text{ W/m}^3$. Total power is $(aQ)(4\pi R^3/3)=8.67\times10^{11}\text{ W}$. The surface flux is $F=P/(4\pi R^2)=aQR/3=1.70\times10^{-3}\text{ W/m}^2$.
+
+**Discussion**
+
+This is a constructed uniform-source model, not a measured geothermal prediction. Real abundance varies with depth, and some decay energy escapes in neutrinos rather than becoming local heat.
+
+**Answer**
+
+The example gives $10^3\text{ decays/s}$ and $8.0\times10^{-10}\text{ W}$ per cubic meter, corresponding to $1.7\text{ mW/m}^2$ at the surface.
 
 :::
 

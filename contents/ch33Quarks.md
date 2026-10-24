@@ -679,6 +679,26 @@ The quark flavor change  $$d\to u $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Replace one up quark in a proton with a down quark and track the emitted leptons.
+
+**Solution**
+
+Yes. Within a suitable nucleus, $u\to d+W^{+*}$ followed by $W^{+*}\to e^++\nu_e$ changes $p(uud)$ into $n(udd)$. At the quark vertex, $+2/3=-1/3+1$, so charge is conserved.
+
+**Discussion**
+
+The star denotes a virtual mediator. A free proton cannot undergo this decay spontaneously because its mass is too small; the nuclear energy balance must make beta-plus decay possible.
+
+**Answer**
+
+Beta-plus decay involves $u\to d$, with a positron and electron neutrino emitted when the complete process is energetically allowed.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -689,6 +709,26 @@ Explain how the weak force can change strangeness by changing quark flavor.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Count strange quarks before and after a charged-current weak transition.
+
+**Solution**
+
+A strange quark has strangeness $S=-1$, while an up quark has $S=0$. A weak transition such as $s\to u+W^{-*}$ therefore raises the hadron’s strangeness by one. The virtual $W$ then produces allowed leptons or quarks.
+
+**Discussion**
+
+Strong and electromagnetic interactions can produce an $s\bar s$ pair but preserve net strangeness; changing net strangeness is different from merely creating strange particles.
+
+**Answer**
+
+Weak flavor conversion of strange quarks can change a system’s net strangeness.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -696,6 +736,26 @@ Explain how the weak force can change strangeness by changing quark flavor.
 ::: problem
 
 Beta decay is caused by the weak force, as are all reactions in which strangeness changes. Does this imply that the weak force can change quark flavor? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Translate beta decay and strangeness-changing decay into quark transitions.
+
+**Solution**
+
+Yes: beta-minus decay contains $d\to u+W^{-*}$, and strangeness-changing decays can contain $s\to u+W^{-*}$. These change quark flavor, unlike gluon or photon interactions at their elementary vertices.
+
+**Discussion**
+
+Not every weak interaction changes flavor: neutral-current processes mediated by the $Z$ also occur.
+
+**Answer**
+
+The charged-current weak interaction can change quark flavor; beta decay is one example.
 
 :::
 
@@ -711,6 +771,26 @@ Why is it easier to see the properties of the *c*, *b*, and *t* quarks in mesons
 
 :::
 
+::: solution
+
+**Strategy**
+
+Correct the malformed composition and distinguish bound quarkonium from top-quark production.
+
+**Solution**
+
+States such as $c\bar c$ and $b\bar b$ contain one heavy flavor and its antiflavor, giving comparatively clean spectra for studying that flavor without the additional unlike valence quarks of a baryon such as $udb$. The printed $W^-$ is not a meson composition: it is an elementary weak boson. Top quarks decay so rapidly that ordinary long-lived $t\bar t$ mesons do not form.
+
+**Discussion**
+
+Top-pair threshold correlations can still be studied, but they are not the same as familiar charmonium and bottomonium spectroscopy; see the [ATLAS explanation of top-pair threshold states](https://atlas.cern/Updates/Briefing/Quasi-Bound-Tops).
+
+**Answer**
+
+Heavy quark–antiquark systems can simplify flavor spectroscopy; the question’s $W^-$ notation and ordinary top-meson implication require correction.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -721,6 +801,26 @@ How can quarks, which are fermions, combine to form bosons? Why must an even num
 
 :::
 
+::: solution
+
+**Strategy**
+
+Add constituent half-integer spins and integer orbital angular momentum.
+
+**Solution**
+
+A quark and antiquark each have spin $1/2$, combining to total spin zero or one. Adding integer orbital angular momentum leaves integer total spin, giving a boson. For example, $\pi^+=u\bar d$ has total spin zero.
+
+**Discussion**
+
+For ordinary composites, an even number of fermionic constituents gives bosonic statistics, whereas an odd number gives fermionic statistics. Antiquarks count as fermions too.
+
+**Answer**
+
+Even numbers of quarks and antiquarks can combine to integer spin; the spin-zero $u\bar d$ pion is an example.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -728,6 +828,26 @@ How can quarks, which are fermions, combine to form bosons? Why must an even num
 ::: problem
 
 What evidence is cited to support the contention that the gluon force between quarks is greater than the strong nuclear force between hadrons? How is this related to color? Is it also related to quark confinement?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare internal hadron binding with residual binding between color-neutral hadrons.
+
+**Solution**
+
+Nuclear binding energies are typically several MeV per nucleon, much smaller than the hundreds-of-MeV energy scales associated with a hadron’s internal quark and gluon dynamics. Quarks carry color and couple directly to gluons, whereas ordinary hadrons are color singlets and their interhadron nuclear force is a residual interaction.
+
+**Discussion**
+
+Confinement means isolated colored quarks are not observed; attempting separation produces additional hadrons rather than free quarks. The comparison is scale-dependent: QCD becomes weaker at very short distances, so one should not claim one fixed force magnitude at every distance.
+
+**Answer**
+
+The large internal hadronic energy scale compared with nuclear binding supports the distinction between direct color interactions and weaker residual nuclear binding, with confinement tied to color dynamics.
 
 :::
 
@@ -743,6 +863,26 @@ are not fundamental particles and are not the basic carriers of the strong force
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify pion constituents and the fundamental QCD mediator.
+
+**Solution**
+
+Charged pions have valence content $u\bar d$ and $d\bar u$; the neutral pion is primarily a superposition of $u\bar u$ and $d\bar d$. Their hadronic structure is supported by scattering and spectroscopy. Gluons, not pions, are the gauge mediators coupling directly to quark color.
+
+**Discussion**
+
+Pion exchange is still a useful description of the long-range part of the residual force between nucleons. An effective mediator need not be a fundamental particle.
+
+**Answer**
+
+Pions are composite quark–antiquark hadrons; they describe part of the residual nuclear force, while gluons mediate fundamental QCD interactions.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -751,6 +891,26 @@ are not fundamental particles and are not the basic carriers of the strong force
 
 An antibaryon has three antiquarks with colors  $$\stackrel{-}{R}\stackrel{-}{G}\stackrel{-}{B} $$ .
  What is its color?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Combine all three anticolors into the physical antibaryon’s singlet state.
+
+**Solution**
+
+An ordinary antibaryon is a color singlet, often called colorless or white. Its color wavefunction is the appropriate superposition of three-antiquark anticolor combinations, rather than three permanently distinguishable classical colors.
+
+**Discussion**
+
+The singlet has no net color charge and can exist as an isolated hadron, unlike a single colored antiquark.
+
+**Answer**
+
+The antibaryon is colorless: a QCD color singlet.
 
 :::
 
@@ -765,6 +925,26 @@ Suppose leptons are created in a reaction. Does this imply the weak force is act
 
 :::
 
+::: solution
+
+**Strategy**
+
+Look for a nonweak process producing a lepton–antilepton pair.
+
+**Solution**
+
+No. An energetic photon can convert into an electron–positron pair in a nuclear field by an electromagnetic process. Pair production conserves net lepton number because the electron and positron contribute opposite values.
+
+**Discussion**
+
+Beta decay is weak, but observing leptons alone does not identify the interaction. Charges, flavors, other products, and reaction kinematics matter.
+
+**Answer**
+
+Lepton creation does not by itself prove a weak interaction; electromagnetic pair production is a counterexample.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -772,6 +952,26 @@ Suppose leptons are created in a reaction. Does this imply the weak force is act
 ::: problem
 
 How can the lifetime of a particle indicate that its decay is caused by the strong nuclear force? How can a change in strangeness imply which force is responsible for a reaction? What does a change in quark flavor imply about the force that is responsible?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use both timescale and conserved quantum numbers.
+
+**Solution**
+
+An allowed strong decay often has a very short lifetime, of order $10^{-23}\text{ s}$ for a broad hadronic resonance. A change in net strangeness excludes a purely strong or electromagnetic process and points to the weak interaction. Changing a quark into a different flavor likewise requires weak interaction in the Standard Model.
+
+**Discussion**
+
+Lifetime alone is not conclusive: available phase space and selection rules can suppress decays. Creating a flavor–antiflavor pair preserves net flavor and is possible through strong or electromagnetic interactions.
+
+**Answer**
+
+Very short lifetimes suggest strong decay; net strangeness change or elementary quark flavor conversion identifies weak involvement.
 
 :::
 
@@ -787,6 +987,26 @@ How can the lifetime of a particle indicate that its decay is caused by the stro
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use $S=N_{\bar s}-N_s$ for valence strangeness.
+
+**Solution**
+
+(a) Nonzero strangeness requires an excess of strange quarks or strange antiquarks; a particle can contain only an antistrange constituent, as in $K^+=u\bar s$, so it need not contain an $s$ specifically. (b) No: an $s\bar s$ meson contains a strange quark but has net $S=0$.
+
+**Discussion**
+
+Strange sea pairs can occur in a hadron without changing its net strangeness. Net quantum numbers, rather than the mere presence of a pair, are decisive.
+
+**Answer**
+
+(a) At least a strange or antistrange imbalance, not necessarily an $s$; (b) no, because strange and antistrange contributions can cancel.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -796,6 +1016,26 @@ How can the lifetime of a particle indicate that its decay is caused by the stro
 The sigma-zero particle decays mostly via the reaction  $${\text{Σ}}^{0}\to {\text{Λ}}^{0}+\gamma  $$ .
  Explain how this decay and the respective quark compositions imply that the  $${\text{Σ}}^{0} $$
  is an excited state of the  $${\text{Λ}}^{0} $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare valence flavor, mass, and internal quantum numbers.
+
+**Solution**
+
+Both $\Sigma^0$ and $\Lambda^0$ have valence quarks $uds$, but different internal spin–isospin configurations. The heavier $\Sigma^0$ can convert to $\Lambda^0$ by photon emission without changing flavor. This resembles de-excitation between states with the same constituents.
+
+**Discussion**
+
+They are conventionally classified as distinct baryons, with $I=1$ for $\Sigma^0$ and $I=0$ for $\Lambda^0$, rather than identical states differing only by orbital excitation. “Excited state” is an analogy requiring that qualification.
+
+**Answer**
+
+The decay connects different internal configurations of the same $uds$ content, releasing the mass difference electromagnetically.
 
 :::
 
@@ -811,6 +1051,26 @@ What do the quark compositions and other quantum numbers imply about the relatio
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare flavor content and spin–isospin assignments.
+
+**Solution**
+
+$\Delta^+$ and the proton both have $uud$ content, while $\Delta^0$ and the neutron both have $udd$. The deltas have spin $3/2$ and isospin $3/2$, compared with spin $1/2$ and isospin $1/2$ for nucleons. They are heavier resonant configurations of the same valence flavors.
+
+**Discussion**
+
+Deltas decay strongly to a nucleon plus pion when allowed. They are not merely the same nucleon with unchanged internal quantum numbers.
+
+**Answer**
+
+The delta states are higher-energy spin–isospin configurations sharing the corresponding nucleon’s valence quark flavors.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -819,6 +1079,26 @@ What do the quark compositions and other quantum numbers imply about the relatio
 
 Discuss the similarities and differences between the photon and the  $${Z}^{0} $$
  in terms of particle properties, including forces felt.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare spin, charges, mass, and interaction couplings.
+
+**Solution**
+
+Both are electrically neutral, colorless spin-one gauge bosons associated with electroweak theory. The photon is massless and mediates electromagnetism; the $Z$ is massive, about $91\text{ GeV}/c^2$, and mediates weak neutral currents. The photon has two physical polarization states; a massive $Z$ has three.
+
+**Discussion**
+
+The $Z$ couples to weak charges and can decay; the photon is stable in vacuum. Electrical neutrality does not mean absence of interactions, and a neutral photon is not itself an electrically charged source.
+
+**Answer**
+
+They share neutral spin-one gauge-boson character but differ in mass, polarization states, stability, and electromagnetic versus weak couplings.
 
 :::
 
@@ -832,6 +1112,26 @@ Identify evidence for electroweak unification.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify observations predicted by the unified electroweak theory.
+
+**Solution**
+
+Evidence includes weak neutral currents, discovery of the $W$ and $Z$ bosons with the predicted relations among their masses and couplings, and precision scattering and decay measurements. Discovery of a Higgs boson with the expected properties further supports the electroweak symmetry-breaking mechanism.
+
+**Discussion**
+
+Agreement across several measurements is stronger evidence than the existence of any one particle. [CERN’s unified-forces overview](https://home.cern/science/physics/unified-forces/) describes the neutral-current and gauge-boson discoveries.
+
+**Answer**
+
+Neutral currents, the $W$ and $Z$ discoveries, and precision electroweak measurements support unification; Higgs measurements support its symmetry-breaking mechanism.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -839,6 +1139,26 @@ Identify evidence for electroweak unification.
 ::: problem
 
 The quarks in a particle are confined, meaning individual quarks cannot be directly observed. Are gluons confined as well? Explain
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply confinement to color-carrying degrees of freedom.
+
+**Solution**
+
+Yes. Gluons carry color charge and are not observed as isolated free particles. Their energy becomes color-singlet hadrons during hadronization, and gluon radiation can be inferred through jet patterns in high-energy collisions.
+
+**Discussion**
+
+Gluons can contribute to color-singlet bound states, including proposed or observed glue-rich hadrons. Masslessness does not imply freedom from confinement.
+
+**Answer**
+
+Gluons are confined as colored objects, though their effects are observable in hadrons and jets.
 
 :::
 
@@ -890,6 +1210,32 @@ by writing the reaction and decay in terms of quarks.
 
 ![The figure shows a graph of number of interactions on the y axis versus kinetic energy of pion on the x axis. The number of interactions reaches a peak at two hundred mega electron volts where the short lived particle delta plus plus is generated. The width of this peak is approximately hundred mega electron volts.](../resources/Figure_33_05_07.svg "This graph shows the probability of an interaction between a \( \pi^{+} \) and a proton as a function of energy. The bump is interpreted as a very short lived particle called a \( \Delta^{++} \). The approximately 100-MeV width of the bump is due to the short lifetime of the \( \Delta^{++} \).;     ")
 {: #Figure7}
+
+:::
+
+::: solution
+
+**Strategy**
+
+Estimate the resonance lifetime from its energy width and track valence quarks through the intermediate state.
+
+**Solution**
+
+(a) The graph referred to in the question is the displayed resonance plot labeled Figure 7. A quoted width of roughly $100\text{ MeV}$ gives a lifetime scale $\tau\sim\hbar/\Gamma\sim6.6\times10^{-24}\text{ s}$ if interpreted as an invariant resonance width. More carefully, its horizontal axis is the pion’s laboratory kinetic energy. For a proton at rest, $W^2=m_p^2c^4+m_\pi^2c^4+2m_pc^2(m_\pi c^2+T_\pi)$, so near $W\approx1.24\text{ GeV}$ the invariant width is $\Gamma\approx(m_pc^2/W)\Delta T_\pi\approx76\text{ MeV}$, giving $\tau\sim8.7\times10^{-24}\text{ s}$.
+
+(b) The valence bookkeeping is $(u\bar d)+(uud)\to(uuu)\to(u\bar d)+(uud)$. An initial $d\bar d$ pair annihilates through strong interactions, and a new pair is created during decay.
+
+(c) The schematic below shows forward-time quark arrows, reverse-time antiquark arrows, and effective gluon connections; the three intermediate up-quark lines form the $\Delta^{++}$.
+
+![Quark-level schematic with time left to right: an incoming up quark and anti-down quark form the pion, and two up quarks and a down quark form the proton. The down and anti-down annihilate through gluon interactions, leaving three intermediate up quarks. Gluon-mediated down–anti-down creation restores an outgoing pion and proton.](/resources/solution_33_quarks_p02.svg)
+
+**Discussion**
+
+The rough plot supports a lifetime of order $10^{-23}\text{ s}$, not a precise measured value. The mean-lifetime relation uses $\Gamma\tau=\hbar$; an uncertainty bound with $\hbar/2$ is not the same width convention. The drawing represents quark flow with effective strong-interaction vertices, not a complete perturbative QCD calculation of a bound resonance.
+
+**Answer**
+
+(a) A lifetime of order $10^{-23}\text{ s}$; (b) $u\bar d+uud\to uuu\to u\bar d+uud$; (c) the diagram shows the annihilation and recreation of $d\bar d$.
 
 :::
 

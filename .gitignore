@@ -36,3 +36,6 @@ __pycache__/
 
 # Generated search index (built into _site/search_index.json on every build)
 search_index.json
+
+# flock file created by scripts/review_solutions.py --record
+/doc/solution-review/reviews.lock

@@ -282,6 +282,26 @@ What is the Heisenberg uncertainty principle? Does it place limits on what can b
 
 :::
 
+::: solution
+
+**Strategy**
+
+Interpret the uncertainties as spreads in measurement outcomes for one quantum state.
+
+**Solution**
+
+Position and momentum along the same axis satisfy $\Delta x\,\Delta p_x\geq\hbar/2$. A state with a narrower position distribution must have a sufficiently broad momentum distribution. This is an intrinsic property of quantum states, not merely a limitation of imperfect instruments.
+
+**Discussion**
+
+It limits simultaneous sharp values of these noncommuting observables, not knowledge of all physical quantities. Energy–time uncertainty requires a separate interpretation because time is not a position-like observable in ordinary quantum mechanics.
+
+**Answer**
+
+Yes; quantum states cannot have arbitrarily sharp position and corresponding momentum simultaneously.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

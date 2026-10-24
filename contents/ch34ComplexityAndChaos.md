@@ -153,6 +153,26 @@ Must a complex system be adaptive to be of interest in the field of complexity? 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish complex collective dynamics from adaptation.
+
+**Solution**
+
+No. A system can show intricate interacting or emergent behavior without modifying itself to improve performance. Turbulent fluid flow, for example, has interacting structures over many scales but does not need to learn or adapt biologically.
+
+**Discussion**
+
+Adaptive systems are an important subset of complex systems, not the entire field.
+
+**Answer**
+
+Adaptation is not required; turbulent flow is one nonadaptive example of interest.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -160,6 +180,26 @@ Must a complex system be adaptive to be of interest in the field of complexity? 
 ::: problem
 
 State a necessary condition for a system to be chaotic.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify the defining sensitivity of deterministic chaotic dynamics.
+
+**Solution**
+
+Nearby initial states must be able to separate strongly over time, giving sensitive dependence on initial conditions. In familiar smooth chaotic systems this is characterized by a positive Lyapunov exponent over the relevant dynamics, so initially tiny errors can grow exponentially before saturating.
+
+**Discussion**
+
+Sensitivity alone is not a sufficient test: simple unbounded instability is not necessarily chaos. The irregular behavior must arise from deterministic dynamics rather than merely external random noise.
+
+**Answer**
+
+Sensitive dependence on initial conditions is a necessary characteristic in the usual textbook description of chaos.
 
 :::
 

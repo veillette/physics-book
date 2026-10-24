@@ -150,6 +150,26 @@ How does modern relativity modify the law of conservation of momentum?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Replace the classical particle momentum with its relativistic expression.
+
+**Solution**
+
+An isolated system still conserves momentum, but a massive particle contributes $\mathbf p=\gamma m\mathbf v$ rather than $m\mathbf v$. Radiation also contributes momentum, with photon magnitude $p=E/c$. All material and field contributions must be included.
+
+**Discussion**
+
+For $v\ll c$, $\gamma\approx1$, recovering the classical approximation.
+
+**Answer**
+
+Conservation remains valid when total momentum is calculated relativistically.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -157,6 +177,26 @@ How does modern relativity modify the law of conservation of momentum?
 ::: problem
 
 Is it possible for an external force to be acting on a system and relativistic momentum to be conserved? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the net external force, not the presence of a single force.
+
+**Solution**
+
+The total momentum obeys $d\mathbf P/dt=\mathbf F_{\rm ext,net}$. External forces can act while canceling one another, leaving momentum constant. A nonzero net external force changes momentum; a zero net impulse can instead leave initial and final momenta equal even if momentum varied in between.
+
+**Discussion**
+
+The system boundary must include any relevant radiation or fields carrying momentum.
+
+**Answer**
+
+Yes, if the net external force is zero; not continuously if the net external force is nonzero.
 
 :::
 

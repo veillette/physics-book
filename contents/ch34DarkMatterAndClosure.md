@@ -112,6 +112,26 @@ Discuss the possibility that star velocities at the edges of galaxies being grea
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the acceleration required by a circular orbit with that predicted from visible matter.
+
+**Solution**
+
+Observed orbital speed requires acceleration $v^2/r$. If visible mass alone supplies too little Newtonian attraction, an alternative gravity theory would need a larger effective inward acceleration on those scales. Tests include neighboring-galaxy motions, satellite dynamics, gravitational lensing, galaxy clusters, and cosmological structure.
+
+**Discussion**
+
+A viable model must account for all these observations consistently, not just fit one rotation curve. Additional unseen matter and modified gravity make different joint predictions.
+
+**Answer**
+
+Stronger effective attraction than the visible-matter Newtonian prediction could explain faster rotation, but must pass independent large-scale tests.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -119,6 +139,26 @@ Discuss the possibility that star velocities at the edges of galaxies being grea
 ::: problem
 
 How does relativistic time dilation prohibit neutrino oscillations if they are massless?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the relative propagation phases of neutrino mass states rather than a photon rest-frame argument.
+
+**Solution**
+
+For relativistic neutrinos, the relative phase is proportional to $\Delta m^2c^3L/(2E\hbar)$. If all neutrino masses were zero, every $\Delta m^2$ would vanish and ordinary vacuum flavor oscillations would not develop. Observed oscillations therefore require nonzero mass-squared differences.
+
+**Discussion**
+
+Saying a massless neutrino’s “clock stops” is a heuristic, not a valid rest-frame derivation: a massless particle has no inertial rest frame. Oscillations do not determine every absolute neutrino mass.
+
+**Answer**
+
+Exactly massless neutrinos lack the mass-dependent relative phases needed for ordinary vacuum oscillation; time dilation alone is not the rigorous argument.
 
 :::
 
@@ -133,6 +173,26 @@ If neutrino oscillations do occur, will they violate conservation of the various
 
 :::
 
+::: solution
+
+**Strategy**
+
+Track flavor and total lepton number separately.
+
+**Solution**
+
+An electron neutrino can later be detected as a muon or tau neutrino, so separate electron-, muon-, and tau-family numbers are not conserved in propagation. An ordinary flavor oscillation still turns one neutrino into one neutrino, preserving total lepton number in that process.
+
+**Discussion**
+
+Whether neutrinos permit other total-lepton-number-violating processes, as in some Majorana scenarios, is a separate question not answered by flavor oscillations alone.
+
+**Answer**
+
+Individual lepton-family numbers change; ordinary flavor oscillations do not violate total lepton number.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -140,6 +200,26 @@ If neutrino oscillations do occur, will they violate conservation of the various
 ::: problem
 
 Lacking direct evidence of WIMPs as dark matter, why must we eliminate all other possible explanations based on the known forms of matter before we invoke their existence?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare competing explanations with their independent evidence and uncertainties.
+
+**Solution**
+
+Before attributing missing gravity to a new particle, one must quantify ordinary stars, gas, remnants, measurement errors, and alternative dynamics. A WIMP hypothesis should make additional testable predictions rather than serve only as a name for unexplained mass.
+
+**Discussion**
+
+Science does not require logically disproving every imaginable alternative, nor does dark-matter evidence establish WIMPs specifically. It requires comparing plausible models against multiple observations and direct-search constraints.
+
+**Answer**
+
+Known contributions and credible alternatives must be tested to justify a new-particle explanation, while WIMPs remain one candidate rather than a necessary conclusion.
 
 :::
 

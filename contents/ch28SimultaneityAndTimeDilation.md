@@ -482,6 +482,26 @@ Does motion affect the rate of a clock as measured by an observer moving with it
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the clock’s rest frame with another inertial frame.
+
+**Solution**
+
+A comoving observer measures the clock’s ordinary proper-time rate. An inertial observer relative to whom the clock moves assigns a longer coordinate interval $\Delta t=\gamma\Delta\tau$ between its ticks, so the moving clock runs slower in that frame.
+
+**Discussion**
+
+This concerns measured frame times after allowing for light travel, rather than the uncorrected visual tick rate.
+
+**Answer**
+
+Motion does not slow a clock in its own frame; it does affect its rate measured in a relatively moving frame.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -492,6 +512,26 @@ To whom does the elapsed time for a process seem to be longer, an observer movin
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify the frame in which the two events occur at the same place.
+
+**Solution**
+
+An observer at rest with a localized process measures proper time $\Delta\tau$. A relatively moving inertial observer measures $\Delta t=\gamma\Delta\tau\geq\Delta\tau$.
+
+**Discussion**
+
+The proper-time statement requires that the beginning and end occur at the same location in the process’s rest frame, as for ticks of one clock.
+
+**Answer**
+
+The relatively moving observer measures the longer interval; the observer comoving with the process measures proper time.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -499,6 +539,26 @@ To whom does the elapsed time for a process seem to be longer, an observer movin
 ::: problem
 
 How could you travel far into the future without aging significantly? Could this method also allow you to travel into the past?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use a journey with a large Lorentz factor and compare elapsed times on reunion.
+
+**Solution**
+
+Travel out and back at speeds close to $c$. During the coasting portions, much more time can pass on Earth than on the traveler’s clock. After returning, the traveler can meet people living far into Earth’s future while having aged relatively little.
+
+**Discussion**
+
+Turnaround makes the travel histories different and permits a direct clock comparison. Every clock still advances along its own history; this method does not reverse time.
+
+**Answer**
+
+A near-light-speed round trip permits travel into Earth’s future with little aging, but not into the past.
 
 :::
 

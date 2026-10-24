@@ -617,6 +617,26 @@ Isotopes that emit  $$\alpha  $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare penetration depth with the location of living tissue.
+
+**Solution**
+
+Alpha particles usually stop in the outer dead skin layer, but an alpha-emitting material inhaled or ingested can deposit concentrated ionization directly in living tissue. Gamma photons penetrate much farther, so an external source can irradiate internal organs, while an internal source can also irradiate surrounding tissue.
+
+**Discussion**
+
+“Relatively safe outside” is conditional: eyes, wounds, contamination, and accompanying emissions matter. Risk depends on activity, energy, location, and exposure duration, not the radiation label alone.
+
+**Answer**
+
+Alpha radiation is mainly an internal-contamination hazard, whereas penetrating gamma radiation can expose tissue from either outside or inside.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -624,6 +644,26 @@ Isotopes that emit  $$\alpha  $$
 ::: problem
 
 Why is radon more closely associated with inducing lung cancer than other types of cancer?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify the inhalation pathway and where radioactive daughters deposit energy.
+
+**Solution**
+
+Radon is a gas that can be inhaled. Its short-lived solid daughters attach to airborne particles and can deposit in the respiratory tract, where subsequent alpha decays irradiate nearby lung cells.
+
+**Discussion**
+
+This localized exposure explains the strong association with lung cancer; it does not imply uniform irradiation of every organ. See the [NCI radon fact sheet](https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/radon/radon-fact-sheet).
+
+**Answer**
+
+Inhaled radon progeny concentrate radiation exposure in the respiratory tract.
 
 :::
 
@@ -636,6 +676,26 @@ Why is radon more closely associated with inducing lung cancer than other types 
 The RBE for low-energy  $$\beta  $$
 s is 1.7, whereas that for higher-energy  $$\beta  $$
 s is only 1. Explain why, considering how the range of radiation depends on its energy.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the concentration of deposited energy along electron tracks.
+
+**Solution**
+
+Low-energy beta particles have shorter ranges and can deposit energy more densely near the ends of their tracks. For some biological endpoints, this denser microscopic ionization gives greater damage per unit absorbed energy than higher-energy beta tracks.
+
+**Discussion**
+
+The quoted RBE values are illustrative and endpoint-dependent; RBE is not a universal constant determined by range alone. Radiation-protection weighting factors for electrons are generally treated separately from such measured RBE values.
+
+**Answer**
+
+Shorter, denser low-energy tracks can have greater biological effectiveness for the specified comparison.
 
 :::
 
@@ -654,6 +714,26 @@ Which methods of radiation protection were used in the device shown in the first
 
 :::
 
+::: solution
+
+**Strategy**
+
+Look for time limitation, distance, shielding, and contamination barriers in each image.
+
+**Solution**
+
+In (a), the shoe-fitting device places the exposed feet near an X-ray source, with no evident adequate shielding or useful exposure-time control in the caption’s description. It illustrates inadequate protection rather than a model protective arrangement. In (b), coveralls, gloves, and covered footwear help prevent contamination; the warning sign marks a controlled area.
+
+**Discussion**
+
+The photograph alone cannot establish dose, elapsed time, or whether respiratory protection is adequate. Thin coveralls are not substantial shielding against penetrating gamma radiation; see [HHS radiation PPE guidance](https://remm.hhs.gov/radiation_ppe.htm).
+
+**Answer**
+
+(a) Little adequate protection is evident; (b) contamination barriers and area control are visible, without proof of effective penetrating-radiation shielding.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -661,6 +741,26 @@ Which methods of radiation protection were used in the device shown in the first
 ::: problem
 
 What radioisotope could be a problem in homes built of cinder blocks made from uranium mine tailings? (This is true of homes and schools in certain regions near uranium mines.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Follow uranium’s decay products and identify a gas that can leave construction material.
+
+**Solution**
+
+Uranium-series material can contain radium-226, which produces radon-222. The radon gas can escape the blocks and accumulate indoors; its radioactive progeny contribute an inhalation exposure.
+
+**Discussion**
+
+Actual indoor levels depend on radionuclide content, material permeability, ventilation, and other radon entry routes. The [NCI radon explanation](https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/radon/radon-fact-sheet) describes the decay source and lung exposure pathway.
+
+**Answer**
+
+Radon-222, generated by radium-226 in the tailings, is the principal gaseous concern.
 
 :::
 
@@ -674,6 +774,26 @@ Are some types of cancer more sensitive to radiation than others? If so, what ma
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate response to DNA damage, repair, oxygenation, and cell-cycle behavior.
+
+**Solution**
+
+Yes. Tumors differ in how readily radiation damage prevents continued cell division. Repair capacity, cell-cycle distribution, oxygen supply, and tumor biology all affect response. Rapid proliferation can matter, but it alone does not determine sensitivity.
+
+**Discussion**
+
+Surrounding normal tissue also limits treatment. Radiation response cannot be inferred from a tumor’s growth rate alone; see the [NCI radiation-therapy overview](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy).
+
+**Answer**
+
+Cancer types vary in radiosensitivity because their biological response to radiation damage differs.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -681,6 +801,26 @@ Are some types of cancer more sensitive to radiation than others? If so, what ma
 ::: problem
 
 Suppose a person swallows some radioactive material by accident. What information is needed to be able to assess possible damage?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Determine the time-dependent energy deposition in each organ.
+
+**Solution**
+
+Needed information includes the isotope and chemical form, ingested amount or activity, radiation types and energies, physical half-life, absorption into the body, organ uptake, biological elimination, and time since ingestion. These determine retained activity and absorbed dose in the exposed tissues; radiation quality and tissue sensitivity then affect biological risk.
+
+**Discussion**
+
+Activity alone is not a dose: a rapidly excreted substance and one retained in a sensitive organ can produce very different exposures. The [CDC contamination explanation](https://www.cdc.gov/radiation-emergencies/causes/) distinguishes internal contamination from external exposure.
+
+**Answer**
+
+Both the radionuclide’s emissions and its distribution and retention in the body are needed, together with the amount and exposure timing.
 
 :::
 

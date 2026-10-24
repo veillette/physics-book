@@ -265,6 +265,26 @@ Which formula may be used for the momentum of all particles, with or without mas
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use a relation applying to both matter waves and photons.
+
+**Solution**
+
+The de Broglie relation $p=h/\lambda$ applies to both. More generally, $E^2=p^2c^2+m^2c^4$ also applies, reducing to $p=E/c$ for zero rest mass.
+
+**Discussion**
+
+$p=mv$ is only a low-speed massive-particle approximation; $p=E/c$ is not valid for a massive particle with total energy $E$.
+
+**Answer**
+
+$p=h/\lambda$ applies to particles with or without rest mass.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -275,6 +295,26 @@ Is there any measurable difference between the momentum of a photon and the mome
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare measurable momentum-transfer effects and the energy–momentum relations.
+
+**Solution**
+
+Both photon and matter momentum produce recoil and obey momentum conservation. Photon momentum is not a different physical kind of momentum. What differs is the relation to energy and speed: photons have $p=E/c$ and speed $c$, whereas massive particles obey $E^2=p^2c^2+m^2c^4$ and move below $c$.
+
+**Discussion**
+
+Equal momenta can give equal impulses on absorption, though the transferred energy and interaction mechanism need not match.
+
+**Answer**
+
+Momentum has the same observable mechanical role, but its relation to energy and velocity distinguishes photons from massive particles.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -282,6 +322,26 @@ Is there any measurable difference between the momentum of a photon and the mome
 ::: problem
 
 Why don’t we feel the momentum of sunlight when we are on the beach?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Estimate radiation pressure $I/c$.
+
+**Solution**
+
+Even for sunlight intensity $I\approx10^3\text{ W/m}^2$, the pressure on an absorbing surface is only $I/c\approx3.3\times10^{-6}\text{ Pa}$. Reflection can at most double the normal-incidence pressure for the same intensity.
+
+**Discussion**
+
+Such forces are tiny compared with gravity, contact forces, and ordinary air motion. Sunlight’s heating is much easier to perceive.
+
+**Answer**
+
+Sunlight transfers momentum, but its pressure is far below ordinary touch sensitivity.
 
 :::
 
@@ -673,6 +733,26 @@ that could be produced and how much effect that would have on a spacecraft.
 Among the things to be considered are the intensity of sunlight, its average
 wavelength, the number of photons per square meter this implies, the area of the
 space sail, and the mass of the system being accelerated.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Specify an ideal reflective sail and use momentum change $2E/c$ per reflected photon.
+
+**Solution**
+
+One possible problem takes normal sunlight intensity $I=1.36\times10^3\text{ W/m}^2$, representative wavelength $550\text{ nm}$, sail area $100\text{ m}^2$, and total spacecraft mass $100\text{ kg}$. Photon energy is $3.61\times10^{-19}\text{ J}$, so flux is $3.77\times10^{21}\text{ m}^{-2}\text{ s}^{-1}$. The pressure is $p_{\rm rad}=2I/c=9.07\times10^{-6}\text{ N/m}^2$. Thus $F=p_{\rm rad}A=9.07\times10^{-4}\text{ N}$ and $a=F/M=9.07\times10^{-6}\text{ m/s}^2$.
+
+**Discussion**
+
+If intensity and orientation stay constant, this acceleration adds $0.784\text{ m/s}$ to the velocity in one day. This is the radiation contribution only; orbital gravity must be included in a trajectory. Sunlight is broadband, so the representative photon count is an approximation, but pressure depends on total intensity.
+
+**Answer**
+
+For this example: $9.07\times10^{-6}\text{ Pa}$, $9.07\times10^{-4}\text{ N}$, and $9.07\times10^{-6}\text{ m/s}^2$.
 
 :::
 

@@ -287,6 +287,26 @@ Explain why it only *appears* that we are at the center of expansion of the univ
 
 :::
 
+::: solution
+
+**Strategy**
+
+Subtract the expansion velocities at two locations.
+
+**Solution**
+
+In a homogeneous expansion, $\mathbf v=H\mathbf r$ relative to any chosen origin. An observer at $\mathbf r_0$ measures $\mathbf v-\mathbf v_0=H(\mathbf r-\mathbf r_0)$. Thus the same outward velocity–distance pattern is obtained about every comoving observer.
+
+**Discussion**
+
+Nearby gravitationally bound systems can have motions that dominate the expansion. No privileged center in space is implied by the large-scale recession pattern.
+
+**Answer**
+
+Every comoving observer sees the same expansion pattern, so our apparent central position is a consequence of perspective.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -294,6 +314,26 @@ Explain why it only *appears* that we are at the center of expansion of the univ
 ::: problem
 
 If there is no observable edge to the universe, can we determine where its center of expansion is? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish an observable horizon from a physical edge or center.
+
+**Solution**
+
+In the standard homogeneous cosmological model, expansion occurs throughout space and has no distinguished spatial center. Our observable region is centered on us because light has had a finite time to arrive, not because we occupy the center of all space.
+
+**Discussion**
+
+Absence of a visible edge alone does not prove every possible global geometry, but recession observations do not locate a special expansion center.
+
+**Answer**
+
+There is no spatial center of expansion to determine in the standard model; the observable horizon is observer-dependent.
 
 :::
 
@@ -307,6 +347,26 @@ If the universe is infinite, does it have a center? Discuss.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Separate infinitude from homogeneity.
+
+**Solution**
+
+An infinite homogeneous universe has no preferred center: translating the origin leaves its large-scale description unchanged. Infinitude by itself does not logically forbid a special point in a hypothetical nonuniform universe, but no such point is required by homogeneous expansion.
+
+**Discussion**
+
+A finite universe can also lack an edge or preferred intrinsic center, as a closed spatial geometry illustrates.
+
+**Answer**
+
+The standard infinite homogeneous universe has no center; infinity alone is not the complete argument.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -314,6 +374,26 @@ If the universe is infinite, does it have a center? Discuss.
 ::: problem
 
 Another known cause of red shift in light is the source being in a high gravitational field. Discuss how this can be eliminated as the source of galactic red shifts, given that the shifts are proportional to distance and not to the size of the galaxy.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the variables controlling gravitational and cosmological redshift.
+
+**Solution**
+
+Gravitational redshift depends on the gravitational potentials at emission and observation, not simply on source distance. A distance-dependent redshift shared by many galaxies of different masses and sizes therefore cannot be explained as light merely climbing out of each galaxy’s local potential well.
+
+**Discussion**
+
+Gravitational and peculiar-velocity contributions do exist and must be included in precise measurements. The systematic distance trend, combined with other evidence, supports cosmic expansion rather than proving every redshift has only one cause.
+
+**Answer**
+
+Local gravitational redshift does not reproduce the common distance scaling across galaxies with differing potentials.
 
 :::
 
@@ -327,6 +407,26 @@ If some unknown cause of red shift—such as light becoming “tired” from tra
 
 :::
 
+::: solution
+
+**Strategy**
+
+Determine which cosmological inferences rely on the redshift–expansion relation.
+
+**Solution**
+
+A genuine additional redshift mechanism would require separating its contribution from expansion before inferring distances, expansion rates, and cosmic history. A complete replacement theory would also need to explain the microwave background, light-element abundances, structure, and time stretching in distant transient events.
+
+**Discussion**
+
+An alternative cannot be accepted merely because it produces a redshift. Ordinary “tired light” proposals do not match the full body of cosmological observations.
+
+**Answer**
+
+Cosmological models and parameter estimates would need reassessment, but a new redshift effect alone would not overturn all evidence for the hot expanding universe.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -337,6 +437,26 @@ Olbers’s paradox poses an interesting question: If the universe is infinite, t
 
 :::
 
+::: solution
+
+**Strategy**
+
+Examine the assumptions of an eternal, static universe with permanently shining stars.
+
+**Solution**
+
+The hot Big Bang model gives stars and the observable universe a finite history. Light from arbitrarily distant stars has not had unlimited time to reach us, and stars did not shine forever. Expansion additionally redshifts radiation and lowers its observed energy and arrival rate.
+
+**Discussion**
+
+Dust absorption alone cannot solve the eternal static-universe paradox, because the dust would eventually heat and radiate. Finite age and cosmic evolution are essential.
+
+**Answer**
+
+The sky is dark because the stellar universe is not eternal and static; finite light-travel time and expansion prevent every sightline from delivering a star-bright surface.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -344,6 +464,26 @@ Olbers’s paradox poses an interesting question: If the universe is infinite, t
 ::: problem
 
 If the cosmic microwave background radiation (CMBR) is the remnant of the Big Bang’s fireball, we expect to see hot and cold regions in it. What are two causes of these wrinkles in the CMBR? Are the observed temperature variations greater or less than originally expected?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify physical contributions to the temperature observed from the last-scattering plasma.
+
+**Solution**
+
+Two contributions are intrinsic density–temperature perturbations in the early plasma and Doppler shifts from its motions. Gravitational potential differences also shift photon energies. Small primordial perturbations were amplified into the later structure of galaxies.
+
+**Discussion**
+
+The observed primordial anisotropies are typically of order parts in $10^5$, with scale-dependent amplitudes. Historically they were smaller than some early galaxy-formation estimates, motivating the section’s “too smooth” discussion; “originally expected” is model-dependent, not a universal numerical prediction.
+
+**Answer**
+
+Temperature–density variations and plasma velocities produce wrinkles, with gravitational shifts also contributing; the fluctuations are extremely small compared with some early expectations.
 
 :::
 
@@ -358,6 +498,26 @@ The decay of one type of  $$K $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish quark content from transformation under charge conjugation and parity.
+
+**Solution**
+
+A quark–antiquark meson need not decay with exactly the same probabilities as the corresponding antimatter process. Neutral-kaon mixing and decay show CP violation, a genuine asymmetry of weak interactions. The cosmic excess of matter over antimatter is likewise an observed asymmetry.
+
+**Discussion**
+
+Having one quark and one antiquark does not guarantee CP-symmetric amplitudes. Known Standard Model CP violation is insufficient by itself to explain the observed cosmic matter abundance.
+
+**Answer**
+
+Yes, such decay asymmetries reveal genuine CP violation; the universe’s matter dominance is also asymmetric, but is not fully explained by kaon results.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -365,6 +525,26 @@ The decay of one type of  $$K $$
 ::: problem
 
 Distances to local galaxies are determined by measuring the brightness of stars, called Cepheid variables, that can be observed individually and that have absolute brightnesses at a standard distance that are well known. Explain how the measured brightness would vary with distance as compared with the absolute brightness.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply the inverse-square law to the flux from a calibrated star.
+
+**Solution**
+
+For luminosity $L$, observed flux is $F=L/(4\pi d^2)$. Relative to its flux $F_0$ at standard distance $d_0$, $F/F_0=(d_0/d)^2$, so $d=d_0\sqrt{F_0/F}$. In magnitudes, the corresponding distance modulus is $m-M=5\log_{10}(d/10\text{ pc})$.
+
+**Discussion**
+
+Cepheid luminosity is calibrated from its pulsation period, with composition and extinction corrections; all Cepheids are not equally luminous.
+
+**Answer**
+
+Measured brightness decreases as the inverse square of distance after the appropriate calibration and extinction corrections.
 
 :::
 
@@ -378,6 +558,26 @@ Distances to very remote galaxies are estimated based on their apparent type, wh
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use luminosity distance and account for redshift and uncertain intrinsic luminosity.
+
+**Solution**
+
+The bolometric flux obeys $F=L/(4\pi d_L^2)$, where luminosity distance $d_L$ includes cosmological photon-energy redshift and arrival-time dilation. A fixed observed wavelength band samples a different rest-frame band as redshift increases, requiring a spectral or K correction. Galaxy type gives only an approximate intrinsic luminosity.
+
+**Discussion**
+
+Uncertainties include luminosity evolution, stellar populations, dust, lensing, calibration, and the assumed cosmology. One must not apply redshift factors a second time after already using $d_L$.
+
+**Answer**
+
+Flux follows an inverse square in luminosity distance, with redshift-band corrections and substantial intrinsic-luminosity and propagation uncertainties.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -385,6 +585,26 @@ Distances to very remote galaxies are estimated based on their apparent type, wh
 ::: problem
 
 If the smallest meaningful time interval is greater than zero, will the lines in [[Figure 9]](#Figure9) ever meet?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Separate extrapolation of a diagram from established knowledge of the earliest universe.
+
+**Solution**
+
+If the diagram is defined only for times $t\geq t_{\min}>0$, extrapolating its lines to $t=0$ lies outside that model’s domain; their apparent meeting need not represent a physically meaningful event. A logarithmic time axis also places $t=0$ outside the plotted range.
+
+**Discussion**
+
+The Planck time is a scale where current theories need quantum gravity, not an experimentally established smallest possible tick. It does not by itself prove that the universe must or must not have a singular beginning. The section’s nearby evolution figure is labeled Figure 8, so the question’s Figure 9 reference is also imprecise.
+
+**Answer**
+
+Under the stipulated positive time cutoff, a meeting at zero is outside the model; present physics does not establish the actual earliest behavior from this diagram.
 
 :::
 

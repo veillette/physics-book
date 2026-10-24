@@ -393,6 +393,26 @@ Define the quantum numbers  $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ ,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Associate each quantum number with its atomic observable.
+
+**Solution**
+
+$n=1,2,\ldots$ is the principal quantum number labeling shells and, in simple hydrogen, energy. $l=0,\ldots,n-1$ gives orbital angular-momentum magnitude $\sqrt{l(l+1)}\hbar$. $m_l=-l,\ldots,l$ gives its projection $m_l\hbar$. The spin number $s$ gives intrinsic angular-momentum magnitude $\sqrt{s(s+1)}\hbar$, and $m_s$ gives its projection $m_s\hbar$.
+
+**Discussion**
+
+For an electron, $s=1/2$ and $m_s=\pm1/2$. Spin is intrinsic, not literal rotation of a small sphere.
+
+**Answer**
+
+The five numbers specify principal state, orbital magnitude, orbital projection, spin magnitude, and spin projection, respectively.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -401,6 +421,26 @@ Define the quantum numbers  $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ ,
 
 For a given value of  $$n $$ ,
  what are the allowed values of  $$l $$ ?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply the bound-state angular-momentum selection rule.
+
+**Solution**
+
+For a given positive integer $n$, $l$ can be every integer from zero through $n-1$. For example, $n=3$ permits $l=0,1,2$, corresponding to $s,p,d$ subshells.
+
+**Discussion**
+
+There are $n$ possible $l$ values, not $n+1$.
+
+**Answer**
+
+$l=0,1,2,\ldots,n-1$.
 
 :::
 
@@ -418,6 +458,26 @@ For a given value of  $$l $$ ,
 
 :::
 
+::: solution
+
+**Strategy**
+
+First fix $l$, then take the union over the $l$ values permitted by $n$.
+
+**Solution**
+
+For fixed $l$, $m_l=-l,-l+1,\ldots,l$, giving $2l+1$ values. For example, $l=2$ permits $-2,-1,0,1,2$. For fixed $n$, possible values across all subshells are $m_l=-(n-1),\ldots,n-1$; for $n=2$, these are $-1,0,1$.
+
+**Discussion**
+
+A particular $(n,l,m_l)$ combination must still satisfy $|m_l|\leq l$; the union does not allow every $m_l$ with every subshell.
+
+**Answer**
+
+At fixed $l$, $-l\leq m_l\leq l$ in integer steps; at fixed $n$, the union runs from $-(n-1)$ to $n-1$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -427,6 +487,26 @@ For a given value of  $$l $$ ,
 List all the possible values of  $$s $$
  and  $${m}_{s} $$
  for an electron. Are there particles for which these values are different? The same?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the electron’s intrinsic spin and compare other species.
+
+**Solution**
+
+Every electron has $s=1/2$ and can have $m_s=+1/2$ or $-1/2$ along a selected axis. Protons, neutrons, and muons also have spin $1/2$. Spin-zero particles, such as a pion, have only $m_s=0$; a massive spin-one particle has projections $-1,0,1$.
+
+**Discussion**
+
+Photons have spin one but, being massless, only two physical helicities, so they are not an example of three freely available spin projections.
+
+**Answer**
+
+For electrons, $s=1/2$, $m_s=\pm1/2$; other particles can have the same or different spin values.
 
 :::
 

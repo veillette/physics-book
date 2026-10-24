@@ -289,6 +289,26 @@ In terms of radiation dose, what is the major difference between medical diagnos
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the purpose of each exposure.
+
+**Solution**
+
+Diagnostic imaging aims to obtain adequate information while keeping exposure as low as reasonably achievable for that task. Radiotherapy intentionally delivers a much larger dose to a selected target to damage diseased cells, while limiting exposure of normal tissues.
+
+**Discussion**
+
+Dose distribution, fractionation, and biological response matter as well as total dose. Therapy prescription uses absorbed dose in Gy; it should not be compared with a diagnostic effective-dose value as though the quantities were identical.
+
+**Answer**
+
+Diagnosis uses enough radiation to form an image; therapy uses substantially greater targeted doses to achieve a biological treatment effect.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -296,6 +316,26 @@ In terms of radiation dose, what is the major difference between medical diagnos
 ::: problem
 
 One of the methods used to limit radiation dose to the patient in medical imaging is to employ isotopes with short half-lives. How would this limit the dose?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Integrate the activity retained after the imaging period.
+
+**Solution**
+
+Once the diagnostic information has been acquired, continued decay gives dose without further benefit. A short physical half-life reduces this later activity. If biological removal also occurs, the effective decay constant is $\lambda_{\rm eff}=\lambda_{\rm physical}+\lambda_{\rm biological}$, and the total future decays for fixed initial activity are $R_0/\lambda_{\rm eff}$.
+
+**Discussion**
+
+The isotope must still live long enough for preparation, uptake, and imaging. Dose comparisons require specifying administered activity and image quality; half-life alone is insufficient.
+
+**Answer**
+
+A suitably short half-life reduces unnecessary retained activity after imaging, for an appropriately chosen administered activity.
 
 :::
 

@@ -326,6 +326,26 @@ What effect does increasing the wedge angle have on the spacing of interference 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate thickness change to distance along the wedge.
+
+**Solution**
+
+For wedge angle $\alpha$, thickness is approximately $t=x\alpha$. Adjacent reflected fringes of the same type differ in optical round-trip path by $\lambda$, so $\Delta x\approx\lambda/(2n\alpha)$ near normal incidence. Increasing $\alpha$ reduces the fringe spacing.
+
+**Discussion**
+
+If fringes become finer than the eye or detector can resolve, bright and dark contributions are averaged. Imperfect beam overlap and illumination coherence can further reduce visibility; interference does not abruptly cease at a universal wedge angle.
+
+**Answer**
+
+Larger wedge angles give closer fringes, which eventually become unresolved under the observing conditions.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -333,6 +353,26 @@ What effect does increasing the wedge angle have on the spacing of interference 
 ::: problem
 
 How is the difference in paths taken by two originally in-phase light waves related to whether they interfere constructively or destructively? How can this be affected by reflection? By refraction?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Include both optical path and reflection phase in the relative phase.
+
+**Solution**
+
+Without an additional phase reversal, an optical path difference $m\lambda$ is constructive and $(m+1/2)\lambda$ is destructive, where $m$ is an integer. A single $\pi$ reflection reversal interchanges these conditions. Refraction changes wavelength and direction in each material, so optical path is $\sum n_i\ell_i$, rather than just geometric distance.
+
+**Discussion**
+
+Here $\lambda$ in the optical-path comparison is the vacuum wavelength. One may equivalently use the wavelength within a single medium for paths entirely inside it.
+
+**Answer**
+
+Interference depends on total phase difference, including optical path differences and any reflection phase changes.
 
 :::
 
@@ -346,6 +386,26 @@ Is there a phase change in the light reflected from either surface of a contact 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare refractive indices across each reflecting boundary.
+
+**Solution**
+
+At the dry upper surface, light reflects from air into the higher-index lens, so the reflected field has a $\pi$ phase reversal. At the lower surface, light inside the lens reflects from the lower-index tear layer, approximately $n=1.33$, so there is no phase reversal under the near-normal-incidence model.
+
+**Discussion**
+
+Thus the two reflected rays acquire one relative reversal in addition to their path difference through the lens.
+
+**Answer**
+
+There is a phase reversal at the air–lens reflection, but not at the lens–tear reflection.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -353,6 +413,26 @@ Is there a phase change in the light reflected from either surface of a contact 
 ::: problem
 
 In placing a sample on a microscope slide, a glass cover is placed over a water drop on the glass slide. Light incident from above can reflect from the top and bottom of the glass cover and from the glass slide below the water drop. At which surfaces will there be a phase change in the reflected light?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Follow downward incident light and identify reflections toward a higher index.
+
+**Solution**
+
+Using $n_{\rm air}<n_{\rm water}<n_{\rm glass}$, reflection from air at the top of the glass cover has a $\pi$ reversal. Reflection inside the cover from its glass–water lower surface has none. Reflection from water at the glass slide beneath it has a $\pi$ reversal.
+
+**Discussion**
+
+These are reflection phase changes in the ordinary near-normal-incidence approximation; propagation through each layer contributes additional phase.
+
+**Answer**
+
+Phase reversals occur at air-to-cover-glass and water-to-slide-glass reflections, but not at the cover-glass-to-water reflection.
 
 :::
 
@@ -366,6 +446,26 @@ Answer the above question if the fluid between the two pieces of crown glass is 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Replace the water index with that of carbon disulfide.
+
+**Solution**
+
+Carbon disulfide has a higher visible refractive index than crown glass. Reflection at the air-to-glass top surface still reverses phase. Reflection from the cover glass toward carbon disulfide now also reverses phase. Reflection from carbon disulfide toward the lower-index slide glass does not.
+
+**Discussion**
+
+The reversal rule concerns the direction from which each ray encounters the boundary, not simply the names of the two materials.
+
+**Answer**
+
+The top air–glass and upper glass–carbon-disulfide reflections reverse phase; the carbon-disulfide–lower-glass reflection does not.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -373,6 +473,26 @@ Answer the above question if the fluid between the two pieces of crown glass is 
 ::: problem
 
 While contemplating the food value of a slice of ham, you notice a rainbow of color reflected from its moist surface. Explain its origin.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Consider wavelength selection by a thin transparent surface layer.
+
+**Solution**
+
+Reflections from the top and bottom of a thin moisture or fat layer have a thickness-dependent optical path difference. Different visible wavelengths reinforce at different thicknesses and viewing angles, producing rainbow colors.
+
+**Discussion**
+
+This is a thin-film explanation consistent with the section. Real sliced meat can also show structural color from ordered muscle fibers, so a rainbow alone does not identify a unique microscopic mechanism.
+
+**Answer**
+
+Interference between reflections from a thin surface layer can produce the observed colors.
 
 :::
 
@@ -386,6 +506,26 @@ An inventor notices that a soap bubble is dark at its thinnest and realizes that
 
 :::
 
+::: solution
+
+**Strategy**
+
+Check both phase cancellation and reflected-wave amplitudes.
+
+**Solution**
+
+A very thin soap film in air has one reflection phase reversal and nearly equal opposing reflected amplitudes. For a film on glass, obtaining opposite reflection phases in the same way would require its index to be below both air and glass, or above both. Even then, as thickness tends to zero, the two reflections combine into the ordinary air–glass reflection; their amplitudes do not generally cancel. A single conventional dielectric coating therefore cannot reproduce a bubble’s broadband blackness on a glass substrate. The usual ideal single-wavelength coating instead has $n_f=\sqrt{n_{\rm air}n_{\rm glass}}$ and thickness $\lambda_0/(4n_f)$.
+
+**Discussion**
+
+Negligible thickness removes propagation phase but not substrate reflection. Broadband antireflection requires a more elaborate design, such as multiple layers or a graded index.
+
+**Answer**
+
+An ultrathin soap-like layer is insufficient: opposite phases and matching amplitudes are both necessary, and an ordinary single coating cannot cancel glass reflection at all wavelengths.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -396,6 +536,26 @@ A non-reflective coating like the one described in [[Example 1]](#Example1) work
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the round-trip optical path $2n_ft\cos\theta_f$.
+
+**Solution**
+
+For the usual intermediate-index quarter-wave coating, both reflected rays reverse phase; destructive interference at normal incidence requires $2n_ft=\lambda_0/2$. Other wavelengths do not generally satisfy this condition and are partly reflected. At oblique incidence the optical path becomes $2n_ft\cos\theta_f$, shifting the primary reflection minimum toward $\lambda=\lambda_0\cos\theta_f$ if dispersion is neglected.
+
+**Discussion**
+
+Reflection amplitudes also become polarization-dependent at oblique incidence, so the normal-incidence amplitude match no longer guarantees complete cancellation.
+
+**Answer**
+
+Other wavelengths and angles generally have greater residual reflection; the principal cancellation wavelength shifts shorter at oblique incidence.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -403,6 +563,26 @@ A non-reflective coating like the one described in [[Example 1]](#Example1) work
 ::: problem
 
 Why is it much more difficult to see interference fringes for light reflected from a thick piece of glass than from a thin film? Would it be easier if monochromatic light were used?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare optical path difference with the illumination’s coherence length.
+
+**Solution**
+
+A thick plate produces a large path difference between front- and back-surface reflections. With broadband light, different wavelengths then give many overlapping bright and dark patterns that average out. Narrow-band monochromatic illumination has a longer coherence length and makes interference easier to observe.
+
+**Discussion**
+
+The reflected beams must also overlap, and surface thickness variations or limited spatial resolution can still wash out fringes.
+
+**Answer**
+
+Large path differences reduce broadband fringe visibility; sufficiently monochromatic light helps.
 
 :::
 

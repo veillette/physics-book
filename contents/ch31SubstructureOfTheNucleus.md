@@ -365,6 +365,26 @@ The weak and strong nuclear forces are basic to the structure of matter. Why we 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare nuclear-force ranges with everyday distances.
+
+**Solution**
+
+The residual strong force binding nuclei acts over femtometer scales, and the weak force has an even shorter effective range for ordinary low-energy processes. Objects separated by everyday distances therefore do not exert appreciable direct nuclear forces on one another.
+
+**Discussion**
+
+We do observe their consequences, including nuclear binding, radioactive decay, and stellar energy production. Ordinary touch is mainly electromagnetic.
+
+**Answer**
+
+Their very short ranges hide direct macroscopic forces, although their physical effects are essential.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -375,6 +395,26 @@ Define and make clear distinctions between the terms neutron, nucleon, nucleus, 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish a particle, a group of particles, and an isotope specification.
+
+**Solution**
+
+A neutron is an electrically neutral baryon found in most nuclei. A nucleon is either a proton or a neutron. A nucleus is an atom’s central bound assembly of nucleons, or a lone proton for ordinary hydrogen. A nuclide is a nuclear species specified by proton and neutron numbers, and sometimes its nuclear energy state. A neutrino is a very light neutral lepton, not a nucleon.
+
+**Discussion**
+
+The similarity of the words neutron and neutrino does not imply similar structure or interactions.
+
+**Answer**
+
+Neutrons are one kind of nucleon; nucleons form nuclei; nuclides identify nuclear species; neutrinos are a separate particle family.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -382,6 +422,26 @@ Define and make clear distinctions between the terms neutron, nucleon, nucleus, 
 ::: problem
 
 What are isotopes? Why do different isotopes of the same element have similar chemistries?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare nuclear composition with the electron structure governing chemistry.
+
+**Solution**
+
+Isotopes have the same proton number $Z$ but different neutron numbers. Neutral isotopes therefore have the same electron count and nearly the same electronic structure, giving similar chemical behavior.
+
+**Discussion**
+
+Different nuclear masses produce isotope effects in vibration frequencies, diffusion, and reaction rates, so their chemistry is not exactly identical.
+
+**Answer**
+
+Isotopes differ in neutrons while retaining nearly the same chemistry because their electron structures are nearly the same.
 
 :::
 
@@ -415,6 +475,26 @@ Find the length of a side of a cube having a mass of 1.0 kg and the density of n
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use $m=\rho a^3$ for a cube.
+
+**Solution**
+
+$a=(m/\rho)^{1/3}=[(1.0\text{ kg})/(2.3\times10^{17}\text{ kg/m}^3)]^{1/3}=1.63\times10^{-6}\text{ m}$.
+
+**Discussion**
+
+This is a density illustration, not a claim that ordinary matter can be assembled into a stable isolated cube of nuclear-density material.
+
+**Answer**
+
+The side would be about $1.6\,\mu\text{m}$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -441,6 +521,26 @@ What is the radius of an  $$\alpha  $$
 Find the radius of a  $${}^{238}\text{Pu} $$
  nucleus.  $${}^{238}\text{Pu} $$
  is a manufactured nuclide that is used as a power source on some space probes.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply the empirical nuclear-radius law.
+
+**Solution**
+
+$r=r_0A^{1/3}=(1.2\text{ fm})238^{1/3}=7.44\text{ fm}=7.44\times10^{-15}\text{ m}$.
+
+**Discussion**
+
+This is an approximate effective radius; actual nuclear shapes and density profiles are not perfectly sharp spheres.
+
+**Answer**
+
+$r\approx7.4\text{ fm}$.
 
 :::
 
@@ -478,6 +578,26 @@ The unified atomic mass unit is defined to be  $$1 \text{u}= 1.6605 \times 10^{-
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compute $mc^2$ in joules, then convert to MeV.
+
+**Solution**
+
+With the supplied $m=1.6605\times10^{-27}\text{ kg}$, $c=2.99792458\times10^8\text{ m/s}$, and $1\text{ eV}=1.602176634\times10^{-19}\text{ J}$, $E=1.49238\times10^{-10}\text{ J}$. Dividing by $1.602176634\times10^{-13}\text{ J/MeV}$ gives $931.47\text{ MeV}$.
+
+**Discussion**
+
+The rounding of the supplied atomic mass unit limits the last digits.
+
+**Answer**
+
+$1\text{ u}\,c^2\approx931.5\text{ MeV}$.
+
+:::
+
 </div>
 
 <div id="Exercise11" class="exercise" data-element-type="problems-exercises">
@@ -505,6 +625,26 @@ What is the ratio of the velocity of a  $$\beta  $$
 If a 1.50-cm-thick piece of lead can absorb 90.0% of the  $$\gamma  $$
  rays from a radioactive source, how many centimeters of lead are needed to absorb all but 0.100% of the  $$\gamma  $$
  rays?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use exponential attenuation for successive equal thicknesses.
+
+**Solution**
+
+A thickness of $1.50\text{ cm}$ transmits $0.100$ of the original beam. After $n$ such layers the fraction is $(0.100)^n$. To transmit $0.100\%=0.00100$, set $(0.100)^n=0.00100$, giving $n=3$ and $x=4.50\text{ cm}$.
+
+**Discussion**
+
+This assumes the same photon energy and attenuation coefficient and neglects scattered-photon buildup in the detected beam.
+
+**Answer**
+
+$4.50\text{ cm}$ of lead under the exponential narrow-beam model.
 
 :::
 
@@ -541,6 +681,26 @@ $${}^{56}\text{Fe} $$.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Substitute the radius law into the spherical density formula.
+
+**Solution**
+
+(a) $\rho=Au/[(4\pi/3)r_0^3A]=3u/(4\pi r_0^3)$, so $A$ cancels. (b) With $r_0=1.2\text{ fm}$, $\rho=(3\text{ u})/[4\pi(1.2\text{ fm})^3]=0.138\text{ u/fm}^3$. Since $1\text{ fm}^3=10^{-45}\text{ m}^3$, this is $2.29\times10^{17}\text{ kg/m}^3$.
+
+**Discussion**
+
+These match the iron-56 example’s approximately $0.138\text{ u/fm}^3$ and $2.3\times10^{17}\text{ kg/m}^3$ because both use the same uniform-density radius model.
+
+**Answer**
+
+Density is independent of $A$ in this model and is approximately $0.138\text{ u/fm}^3=2.3\times10^{17}\text{ kg/m}^3$.
+
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -574,6 +734,26 @@ s even when relativity is taken into consideration. (See also [[Exercise 11]](#E
  ray. (b) What is the velocity of the  $$\gamma  $$
  ray relative to the  $$\beta  $$
  ray?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use relativistic electron kinetic energy and the invariance of light speed.
+
+**Solution**
+
+(a) $\gamma=1/\sqrt{1-0.998^2}=15.82$, so $K=(\gamma-1)(0.511\text{ MeV})=7.57\text{ MeV}$. (b) Every inertial observer, including one comoving with the beta particle, measures the gamma ray’s vacuum speed as $c$.
+
+**Discussion**
+
+For collinear motion this also follows from $(c-v)/(1-vc/c^2)=c$; ordinary subtraction would give an incorrect result.
+
+**Answer**
+
+(a) $7.57\text{ MeV}$; (b) $c\approx3.00\times10^8\text{ m/s}$.
 
 :::
 

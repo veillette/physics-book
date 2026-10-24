@@ -335,6 +335,26 @@ Explain why the fission of heavy nuclei releases energy. Similarly, why is it th
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the binding-energy-per-nucleon curve.
+
+**Solution**
+
+Splitting a very heavy nucleus into medium-mass products generally increases total binding and decreases total rest mass, releasing the difference as energy. Splitting a light tightly bound nucleus into still lighter products generally decreases binding and requires energy instead.
+
+**Discussion**
+
+The exact reaction must be checked with all product masses; the curve supplies the broad trend rather than a rule for every exotic isotope.
+
+**Answer**
+
+Heavy-nucleus fission commonly moves toward greater binding per nucleon; light-nucleus breakup commonly moves away from it.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -342,6 +362,26 @@ Explain why the fission of heavy nuclei releases energy. Similarly, why is it th
 ::: problem
 
 Explain, in terms of conservation of momentum and energy, why collisions of neutrons with protons will thermalize neutrons better than collisions with oxygen.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the maximum energy-transfer fraction in an elastic collision.
+
+**Solution**
+
+For an incident neutron of mass $m$ and stationary target mass $M$, the maximum transferred fraction is $4mM/(m+M)^2$. For a proton, $M\approx m$, allowing nearly all the neutron’s kinetic energy to transfer in a head-on collision. For oxygen, $M\approx16m$, giving a maximum fraction $64/289\approx0.22$.
+
+**Discussion**
+
+Average losses depend on scattering angles, but similar masses are kinematically favorable for rapid slowing.
+
+**Answer**
+
+Protons can take a much larger fraction of a neutron’s energy per collision and therefore thermalize it more efficiently.
 
 :::
 
@@ -355,6 +395,26 @@ The ruins of the Chernobyl reactor are enclosed in a huge concrete structure bui
 
 :::
 
+::: solution
+
+**Strategy**
+
+Ask what water does to the neutrons released by spontaneous and induced fission in the remaining fuel.
+
+**Solution**
+
+The debris still contains uranium fuel, but without a moderator most fission neutrons stay fast and rarely cause further fission. Water is a good moderator: its hydrogen nuclei slow neutrons to thermal energies, where the fission cross section of uranium-235 is much larger. Rain soaking into fuel-containing masses therefore raises the neutron multiplication, so more fissions occur and the neutron and gamma output increases. This is the behavior reported at Chernobyl, where neutron counts in some fuel-containing rooms rose after water entered.
+
+**Discussion**
+
+In the observed episodes the debris stayed subcritical: water increased the rate of induced fission without starting a self-sustaining chain reaction. Too much water can instead absorb neutrons, and rain can also move contamination or change shielding, so neutron measurements are needed to distinguish renewed fission from those effects.
+
+**Answer**
+
+Water entering the fuel debris moderates neutrons and increases the fission rate in the subcritical fuel, raising the emitted radiation.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -362,6 +422,26 @@ The ruins of the Chernobyl reactor are enclosed in a huge concrete structure bui
 ::: problem
 
 Since the uranium or plutonium nucleus fissions into several fission fragments whose mass distribution covers a wide range of pieces, would you expect more residual radioactivity from fission than fusion? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare product nuclides and secondary neutron activation.
+
+**Solution**
+
+Fission produces many neutron-rich fragments that undergo radioactive decay, creating a substantial residual inventory. Common light-nucleus fusion reactions can yield stable helium, but their energetic neutrons can activate surrounding structures and tritium fuel is itself radioactive.
+
+**Discussion**
+
+The comparison depends on fuel, materials, and operation. Fusion is not automatically free of radioactive waste, even when its direct products are stable.
+
+**Answer**
+
+Fission generally produces more direct radioactive reaction products; fusion can still generate residual activity through fuel and neutron activation.
 
 :::
 
@@ -375,6 +455,26 @@ The core of a nuclear reactor generates a large amount of thermal energy from th
 
 :::
 
+::: solution
+
+**Strategy**
+
+Track the buildup and later decay of fission products.
+
+**Solution**
+
+At comparable operating power, longer operation allows more medium- and long-lived fission products to accumulate, generally increasing shutdown decay heat until relevant inventories approach equilibrium. Immediately after shutdown, short-lived products contribute strongly. After months, many have decayed, so heat output is much lower but not zero.
+
+**Discussion**
+
+The exact residual power depends on the prior power history and the mixture of isotope half-lives; it is not one exponential with one half-life.
+
+**Answer**
+
+Long operation generally gives greater decay heat; it decreases after shutdown and is substantially reduced after months.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -382,6 +482,26 @@ The core of a nuclear reactor generates a large amount of thermal energy from th
 ::: problem
 
 How can a nuclear reactor contain many critical masses and not go supercritical? What methods are used to control the fission in the reactor?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish total fuel inventory from neutron multiplication in its actual arrangement.
+
+**Solution**
+
+A quoted critical mass applies to particular composition, geometry, surroundings, and neutron conditions. A reactor’s distributed fuel, moderator, absorbers, and neutron leakage collectively determine whether each generation replaces itself. Control rods and other neutron absorbers adjust that balance; temperature and moderator feedback also affect it.
+
+**Discussion**
+
+Ordinary steady operation is critical, meaning a sustained chain reaction at roughly constant power, not an explosive condition. The [DOE reactor overview](https://www.energy.gov/ne/articles/nuclear-101-how-does-nuclear-reactor-work) describes the control role of absorbers.
+
+**Answer**
+
+Actual neutron balance, rather than adding isolated “critical masses,” determines reactor behavior; absorbers and reactor feedback regulate the chain reaction.
 
 :::
 
@@ -395,6 +515,26 @@ Why can heavy nuclei with odd numbers of neutrons be induced to fission with the
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider the excitation energy gained when a neutron is captured.
+
+**Solution**
+
+Capturing a neutron in an odd-neutron nucleus can create an even-neutron compound nucleus, gaining extra pairing binding. In suitable fissile nuclides this capture energy can be sufficient to cross the fission barrier even for a thermal incident neutron. Capturing into an odd-neutron state may provide less pairing energy and require a faster neutron.
+
+**Discussion**
+
+This is a useful explanation for familiar uranium and plutonium examples, not a universal classification by neutron parity. Actual fission depends on separation energies, barriers, and cross sections.
+
+**Answer**
+
+Pairing can make neutron capture supply enough excitation energy for thermal fission in certain odd-neutron nuclides; parity alone is not sufficient.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -402,6 +542,26 @@ Why can heavy nuclei with odd numbers of neutrons be induced to fission with the
 ::: problem
 
 Why is a conventional fission nuclear reactor not able to explode as a bomb?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare a reactor’s fuel and neutron kinetics with an explosive release.
+
+**Solution**
+
+A conventional power reactor’s fuel composition and distributed arrangement are intended for controlled chain reactions and do not form the rapidly assembled, highly supercritical configuration required for a nuclear weapon. Heating and disruption change the reactor’s geometry and neutron conditions before a weapon-like release can develop.
+
+**Discussion**
+
+This does not rule out severe reactor accidents, power excursions, steam explosions, or chemical explosions. Those have different mechanisms from a nuclear-bomb detonation.
+
+**Answer**
+
+A conventional power reactor cannot produce a nuclear-weapon detonation, although dangerous nonweapon accidents remain possible.
 
 :::
 

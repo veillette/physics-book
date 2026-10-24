@@ -788,6 +788,26 @@ Large quantities of antimatter isolated from normal matter should behave exactly
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify the photon’s antiparticle.
+
+**Solution**
+
+The photon is its own antiparticle. Corresponding matter and antimatter atomic transitions therefore emit the same kind of photon, with matching spectra to the extent required by the relevant symmetries. There is no distinct “antiphoton” signature.
+
+**Discussion**
+
+One could instead identify antimatter by its constituents’ opposite charges or annihilation reactions; an ordinary matching spectral line alone does not establish which it is.
+
+**Answer**
+
+No; photons and antiphotons are the same particle.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -795,6 +815,26 @@ Large quantities of antimatter isolated from normal matter should behave exactly
 ::: problem
 
 Massless particles are not only neutral, they are chargeless (unlike the neutron). Why is this so?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish zero net electric charge, internal constituents, and other gauge charges.
+
+**Solution**
+
+A neutron has zero net electric charge but contains electrically charged quarks and has an electromagnetic structure. The photon has zero electric charge and is not such a neutral composite. However, masslessness alone is not a general proof of having no kind of charge: gluons are massless in the Standard Model and carry color charge.
+
+**Discussion**
+
+“Neutral” and “chargeless” must specify the charge involved. Known massless gauge bosons do not carry electric charge, but the question’s universal inference requires more than the special-relativistic mass relation.
+
+**Answer**
+
+The neutron is a neutral charged-constituent composite; photons are electrically uncharged, but masslessness by itself does not imply absence of every gauge charge.
 
 :::
 
@@ -808,6 +848,26 @@ Massless particles must travel at the speed of light, while others cannot reach 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the invariant mass of an initial massless particle with that of its possible products.
+
+**Solution**
+
+For a massless parent, $E^2-p^2c^2=0$. A final state containing massive particles has positive total invariant mass and is forbidden for an isolated vacuum decay. Massless products would need exactly collinear momenta, with no ordinary decay phase space; known freely propagating massless particles have no allowed spontaneous vacuum decay channel. A genuine neutrino decay into lighter particles under ordinary Lorentz-invariant vacuum kinematics would imply a nonzero parent mass.
+
+**Discussion**
+
+Scattering or conversion in a medium is different because the medium can exchange momentum. Neutrino oscillation experiments already establish nonzero neutrino mass differences.
+
+**Answer**
+
+Ordinary isolated decay channels are unavailable to known massless particles; spontaneous neutrino decay would require an appropriate nonzero parent invariant mass.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -815,6 +875,26 @@ Massless particles must travel at the speed of light, while others cannot reach 
 ::: problem
 
 When a star erupts in a supernova explosion, huge numbers of electron neutrinos are formed in nuclear reactions. Such neutrinos from the 1987A supernova in the relatively nearby Magellanic Cloud were observed within hours of the initial brightening, indicating they traveled to earth at approximately the speed of light. Explain how this data can be used to set an upper limit on the mass of the neutrino, noting that if the mass is small the neutrinos could travel very close to the speed of light and have a reasonable energy (on the order of MeV).
+
+:::
+
+::: solution
+
+**Strategy**
+
+Translate a maximum propagation delay into a bound on $mc^2/E$.
+
+**Solution**
+
+For $E\gg mc^2$, $v\approx c[1-(mc^2/E)^2/2]$. Thus $\Delta t_{\rm propagation}\approx(L/2c)(mc^2/E)^2$, giving $mc^2\lesssim E\sqrt{2c\Delta t_{\max}/L}$. A long travel distance with a small allowed delay forces $mc^2$ to be small compared with the MeV-scale neutrino energy.
+
+**Discussion**
+
+Visible light and neutrinos need not leave the star simultaneously. Source emission timing, neutrino energy spread, and detector timing must be included rather than identifying the entire observed hours-scale difference with propagation delay.
+
+**Answer**
+
+The arrival data constrain $mc^2/E$ through the displayed delay relation, once the source’s emission history is accounted for.
 
 :::
 
@@ -828,6 +908,26 @@ Theorists have had spectacular success in predicting previously unknown particle
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish a mathematical prediction from a test of nature.
+
+**Solution**
+
+Several internally consistent theories can fit existing observations yet disagree about new phenomena. Experiments test their predictions, determine parameters, identify where approximations fail, and can reveal effects no theory anticipated.
+
+**Discussion**
+
+Past success increases confidence but does not guarantee that a theory remains valid at every energy or length scale.
+
+**Answer**
+
+Experiments decide which theoretical descriptions match nature and expose their limits.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -835,6 +935,26 @@ Theorists have had spectacular success in predicting previously unknown particle
 ::: problem
 
 What lifetime do you expect for an antineutron isolated from normal matter?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply CPT symmetry to the free neutron and antineutron.
+
+**Solution**
+
+An isolated antineutron is expected to have the same mean lifetime as a free neutron, approximately $880\text{ s}$ or $15\text{ min}$. Its conjugate beta decay is $\bar n\to\bar p+e^++\nu_e$.
+
+**Discussion**
+
+Mean lifetime is not half-life; the corresponding half-life is approximately $(880\text{ s})\ln2\approx610\text{ s}$. Contact with ordinary matter can cause much faster annihilation.
+
+**Answer**
+
+Approximately $15\text{ min}$ mean lifetime in isolation, equal to the neutron’s under CPT symmetry.
 
 :::
 
@@ -846,6 +966,26 @@ What lifetime do you expect for an antineutron isolated from normal matter?
 
 Why does the  $${\eta }^{0} $$
  meson have such a short lifetime compared to most other mesons?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare allowed decay channels rather than ranking all mesons by name.
+
+**Solution**
+
+The eta meson can decay electromagnetically, including into two photons, and through symmetry-suppressed hadronic channels. Those processes are much faster than the weak decays of charged pions and many kaons. Its width of about $1.31\text{ keV}$ gives $\tau=\hbar/\Gamma\approx5.0\times10^{-19}\text{ s}$.
+
+**Discussion**
+
+The premise is not universal: eta lives much longer than mesons with unsuppressed strong decays, whose lifetimes can be around $10^{-23}\text{ s}$. See the [Particle Data Group eta listing](https://pdgprod.lbl.gov/pdgprod/pdgLiveJson/Particle.action?node=S014).
+
+**Answer**
+
+Eta’s allowed electromagnetic and suppressed hadronic decays are faster than weak meson decays, but eta is not shorter-lived than all or necessarily most mesons.
 
 :::
 
@@ -863,6 +1003,26 @@ Why does the  $${\eta }^{0} $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the hadron classification and baryon-number conservation.
+
+**Solution**
+
+(a) No: mesons are hadrons with baryon number zero. (b) Yes: baryons are a class of hadrons, with baryon number $+1$. (c) Under baryon-number-conserving interactions, a baryon cannot decay into only mesons and other zero-baryon-number products; some product must retain the initial net baryon number.
+
+**Discussion**
+
+Hypothetical baryon-number-violating decays are searched for, but are not established ordinary decay modes.
+
+**Answer**
+
+(a) No; (b) yes; (c) no under the conservation law assumed here.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -870,6 +1030,26 @@ Why does the  $${\eta }^{0} $$
 ::: problem
 
 Explain how conservation of baryon number is responsible for conservation of total atomic mass (total number of nucleons) in nuclear decay and reactions.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Count each proton or neutron as baryon number $+1$.
+
+**Solution**
+
+In ordinary low-energy nuclear reactions without baryon–antibaryon production, baryon-number conservation means the total number of nucleons remains unchanged when all fragments and emitted nucleons are included. The total mass number $A$ is consequently conserved.
+
+**Discussion**
+
+This is not conservation of exact mass in kilograms: binding-energy changes produce mass defects. At high energy, the more general conserved quantity is baryons minus antibaryons rather than a simple nucleon count.
+
+**Answer**
+
+Baryon-number conservation explains conservation of total nucleon number in ordinary nuclear reactions, while actual rest mass can change.
 
 :::
 

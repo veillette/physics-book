@@ -186,6 +186,26 @@ The total energy in the beam of an accelerator is far greater than the energy of
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify the energy participating in a single microscopic interaction.
+
+**Solution**
+
+Ordinary beam collisions involve one particle from each beam, or individual constituents of those particles. Most particles in the bunch do not participate in that same interaction, so their energies cannot simply be pooled into one final particle. The relevant production limit is the invariant center-of-mass energy of the interacting system.
+
+**Discussion**
+
+Even that energy must satisfy charge, momentum, and other conservation laws. For proton beams, one parton collision generally uses only a fraction of the proton–proton energy.
+
+**Answer**
+
+Only energy concentrated in the same interaction is available; the entire bunch is not one collision.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -193,6 +213,26 @@ The total energy in the beam of an accelerator is far greater than the energy of
 ::: problem
 
 Synchrotron radiation takes energy from an accelerator beam and is related to acceleration. Why would you expect the problem to be more severe for electron accelerators than proton accelerators?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare particles at equal total beam energy and bending radius.
+
+**Solution**
+
+An electron has much smaller rest mass, so at the same high energy it has a much larger Lorentz factor. For an ultrarelativistic particle on a circular path, radiation power scales as $\gamma^4/R^2$ for fixed charge. Equivalently, at fixed energy and radius it scales approximately as $1/m^4$.
+
+**Discussion**
+
+The comparison must specify equal energy and radius. At equal speed, the simple mass-based conclusion is different.
+
+**Answer**
+
+Electrons radiate much more strongly than protons at the same accelerator energy and curvature because their Lorentz factor is much larger.
 
 :::
 
@@ -206,6 +246,26 @@ What two major limitations prevent us from building high-energy accelerators tha
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider the forces needed to accelerate and bend a high-energy beam.
+
+**Solution**
+
+Finite sustainable electric-field gradients limit energy gain per unit length in a linear accelerator. In a circular accelerator, available magnetic-field strength limits curvature through $p=|q|BR$, so larger momentum requires a larger radius for a fixed maximum field. Synchrotron radiation further penalizes tight bends, especially for electrons.
+
+**Discussion**
+
+Materials, breakdown, magnet technology, and radiation losses constrain compactness; there is no unlimited accelerating or bending field.
+
+**Answer**
+
+Limited accelerating gradients and limited bending fields set major size constraints, with radiation losses especially important in circular electron machines.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -213,6 +273,26 @@ What two major limitations prevent us from building high-energy accelerators tha
 ::: problem
 
 What are the advantages of colliding-beam accelerators? What are the disadvantages?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare center-of-mass energy and collision probability.
+
+**Solution**
+
+Equal opposite beams have nearly zero net momentum, so much more beam energy is available in their center-of-mass frame than in a beam striking a stationary massive target. Disadvantages include producing, storing, focusing, and synchronizing two beams and obtaining enough collisions from their low-density overlap.
+
+**Discussion**
+
+High usable collision energy does not by itself guarantee high event rates; luminosity is crucial.
+
+**Answer**
+
+Colliders use energy efficiently for particle production but demand difficult beam control and high luminosity.
 
 :::
 

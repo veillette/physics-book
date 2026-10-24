@@ -253,6 +253,26 @@ How does the interference of water waves differ from the interference of electro
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify what quantity interferes and what is detected.
+
+**Solution**
+
+Water-wave displacements add to create enhanced and reduced surface motion. Electron probability amplitudes add, and their squared magnitude determines the detection probability. Individual electrons arrive in localized events, but many events build interference fringes, even when electrons are sent one at a time.
+
+**Discussion**
+
+Both obey superposition and show phase-dependent maxima and minima. Electron interference does not mean a visible material ripple travels on the detector.
+
+**Answer**
+
+The mathematics of superposition is analogous; water displacement interferes classically, while electron amplitudes determine probabilities of discrete detections.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -263,6 +283,26 @@ Describe one type of evidence for the wave nature of matter.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a matter experiment requiring superposition.
+
+**Solution**
+
+Electrons transmitted through a crystal form diffraction peaks, with wavelengths consistent with $\lambda=h/p$. Likewise, coherent electrons passing through two slits can build alternating bright and dark detection fringes.
+
+**Discussion**
+
+A classical stream of independent point particles without wave amplitudes does not produce those phase-dependent minima.
+
+**Answer**
+
+Electron diffraction by a crystal is direct evidence for matter-wave behavior.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -270,6 +310,26 @@ Describe one type of evidence for the wave nature of matter.
 ::: problem
 
 Describe one type of evidence for the particle nature of EM radiation.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify an experiment involving localized energy and momentum exchange.
+
+**Solution**
+
+In Compton scattering, X-rays scattered from electrons show a wavelength shift dependent on scattering angle. Treating the event as a photon–electron collision with photon energy $hf$ and momentum $h/\lambda$ gives $\Delta\lambda=h(1-\cos\theta)/(m_ec)$, matching the observed shift.
+
+**Discussion**
+
+Radiation still exhibits wave interference; particle-like scattering is a complementary behavior.
+
+**Answer**
+
+Compton scattering provides evidence for radiation’s particle-like energy and momentum transfers.
 
 :::
 

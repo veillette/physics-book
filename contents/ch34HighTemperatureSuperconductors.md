@@ -107,6 +107,26 @@ What is critical temperature  $${T}_{c} $$ ?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Define the transition at specified magnetic field, pressure, and current conditions.
+
+**Solution**
+
+The superconducting critical temperature $T_c$ is the transition temperature below which a material can enter a superconducting state under suitable conditions. Many materials have no observed superconducting transition in the accessible conditions, so one cannot assign every material a known nonzero $T_c$.
+
+**Discussion**
+
+Magnetic field, current, and pressure can alter or suppress superconductivity; temperature alone does not guarantee the state.
+
+**Answer**
+
+$T_c$ marks the superconducting transition for a material under stated conditions; not all materials have a known superconducting critical temperature.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -117,6 +137,26 @@ Explain how good thermal contact with liquid nitrogen can keep objects at a temp
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use latent heat during boiling at fixed pressure.
+
+**Solution**
+
+At atmospheric pressure, boiling liquid nitrogen stays near $77\text{ K}$ while added heat converts liquid to vapor. An object in good thermal contact transfers heat to the liquid and approaches the bath temperature. Continuing heat leaks are removed by further evaporation.
+
+**Discussion**
+
+The liquid must remain present and vapor must escape safely; once the liquid is exhausted, the object warms. Poor contact or excessive heat input can leave the object warmer than the bath.
+
+**Answer**
+
+Boiling absorbs incoming energy as latent heat, maintaining a bath near $77\text{ K}$ while liquid remains.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -124,6 +164,26 @@ Explain how good thermal contact with liquid nitrogen can keep objects at a temp
 ::: problem
 
 Not only is liquid nitrogen a cheaper coolant than liquid helium, its boiling point is higher (77 K vs. 4.2 K). How does higher temperature help lower the cost of cooling a material? Explain in terms of the rate of heat transfer being related to the temperature difference between the sample and its surroundings.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare heat leakage and the thermodynamic cost of refrigeration.
+
+**Solution**
+
+For the same surroundings and thermal conductance, conductive heat leakage scales approximately with $T_{\rm room}-T_{\rm cold}$, which is smaller at $77\text{ K}$ than at $4.2\text{ K}$. More importantly, the ideal refrigeration coefficient of performance $T_{\rm cold}/(T_{\rm hot}-T_{\rm cold})$ is much greater at the higher cold temperature, so less work is required per joule removed.
+
+**Discussion**
+
+Radiative leakage depends on fourth powers and is not simply linear in temperature difference. Nitrogen’s availability and easier liquefaction also contribute to cost.
+
+**Answer**
+
+Cooling to $77\text{ K}$ reduces some heat leaks and greatly reduces the refrigeration work needed compared with $4.2\text{ K}$.
 
 :::
 

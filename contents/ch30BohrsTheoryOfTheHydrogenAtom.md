@@ -481,6 +481,26 @@ How do the allowed orbits for electrons in atoms differ from the allowed orbits 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare discrete electron states with classical planetary orbits.
+
+**Solution**
+
+Bohr’s model allows only selected electron energies and radii; classical orbital mechanics permits a continuous range for planets. At large quantum numbers the relative spacing of adjacent levels becomes small, and quantum predictions approach classical behavior, as required by the correspondence principle.
+
+**Discussion**
+
+Modern electrons occupy wavefunction states rather than miniature planetary trajectories. Planetary quantization is imperceptible because the relevant quantum numbers are enormous.
+
+**Answer**
+
+Electron states are discrete; planetary orbital parameters appear continuous in the classical correspondence limit.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -491,6 +511,26 @@ Explain how Bohr’s rule for the quantization of electron orbital angular momen
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the Bohr angular-momentum rule with quantum orbital angular momentum.
+
+**Solution**
+
+Bohr used $L=n\hbar$, with $n=1,2,\ldots$. Quantum mechanics instead gives $L=\sqrt{l(l+1)}\hbar$, with $l=0,1,\ldots,n-1$, and $L_z=m_l\hbar$, with $m_l=-l,\ldots,l$.
+
+**Discussion**
+
+The hydrogen ground state has $l=0$ and zero orbital angular momentum, unlike Bohr’s $L=\hbar$ ground orbit. Electron spin is a separate angular momentum.
+
+**Answer**
+
+Actual orbital angular momentum depends on $l$ as $\sqrt{l(l+1)}\hbar$, not on $n$ as $n\hbar$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -498,6 +538,26 @@ Explain how Bohr’s rule for the quantization of electron orbital angular momen
 ::: problem
 
 What is a hydrogen-like atom, and how are the energies and radii of its electron orbits related to those in hydrogen?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Replace the proton charge by nuclear charge $Ze$ in a one-electron atom.
+
+**Solution**
+
+A hydrogen-like species has exactly one electron, such as $\mathrm{He}^+$ or $\mathrm{Li}^{2+}$. Neglecting reduced-mass and other corrections, its Bohr energies are $E_n=-13.6Z^2/n^2\text{ eV}$ and radii are $r_n=a_0n^2/Z$.
+
+**Discussion**
+
+Compared with hydrogen at the same $n$, binding-energy magnitudes grow by $Z^2$ and radii shrink by $Z$.
+
+**Answer**
+
+It is a one-electron atom or ion, with $E_n=Z^2E_{n,\rm H}$ and $r_n=r_{n,\rm H}/Z$ in the simple model.
 
 :::
 

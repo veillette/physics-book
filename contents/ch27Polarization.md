@@ -463,6 +463,26 @@ Under what circumstances is the phase of light changed by reflection? Is the pha
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish phase reversal on reflection from the electric-field direction defining polarization.
+
+**Solution**
+
+At normal incidence on a transparent nonmagnetic dielectric, reflection from lower to higher refractive index reverses the reflected electric field, a phase change of $\pi$. Reflection from higher to lower index does not. At oblique incidence, the reflection coefficients depend on whether the electric field is parallel or perpendicular to the plane of incidence; total internal reflection can introduce different phase shifts for those components.
+
+**Discussion**
+
+Polarization describes field orientation, while phase describes position in an oscillation. They are distinct, but polarization-dependent reflection phases can change the polarization state.
+
+**Answer**
+
+Reflection can change phase; the change depends on the media, incidence angle, and polarization.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -470,6 +490,26 @@ Under what circumstances is the phase of light changed by reflection? Is the pha
 ::: problem
 
 Can a sound wave in air be polarized? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify the direction of air motion in a sound wave.
+
+**Solution**
+
+Sound in air is longitudinal: air displacement is along the direction of propagation. Polarization requires independently selectable transverse oscillation directions, which this wave does not have.
+
+**Discussion**
+
+This conclusion applies to ordinary sound in air. Transverse elastic waves in solids can be polarized.
+
+**Answer**
+
+No; ordinary sound in air is longitudinal.
 
 :::
 
@@ -483,6 +523,26 @@ No light passes through two perfect polarizing filters with perpendicular axes. 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply Malus’s law successively to the middle and final filters.
+
+**Solution**
+
+Let the first and last axes be $0^\circ$ and $90^\circ$, and the middle axis be $\theta$. If $I_1$ emerges from the first filter, then $I=I_1\cos^2\theta\sin^2\theta=(I_1/4)\sin^2(2\theta)$. The middle filter transmits a component along its own axis; that component has a nonzero projection onto the last axis.
+
+**Discussion**
+
+Transmission is largest at $\theta=45^\circ$, giving $I_1/4$, or $I_0/8$ for initially unpolarized light of intensity $I_0$ and ideal filters.
+
+**Answer**
+
+An intermediate axis permits successive nonzero projections; maximum transmission occurs with that axis halfway between the crossed axes.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -490,6 +550,26 @@ No light passes through two perfect polarizing filters with perpendicular axes. 
 ::: problem
 
 Explain what happens to the energy carried by light that it is dimmed by passing it through two crossed polarizing filters.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Account for energy removed from the transmitted beam.
+
+**Solution**
+
+In ordinary absorbing polarizers, the rejected electric-field component transfers energy to the filter, ultimately warming it. The first filter absorbs one component; the crossed second filter absorbs the component transmitted by the first. Reflective polarizers redirect rejected light instead.
+
+**Discussion**
+
+Zero transmission does not mean energy is destroyed. Energy is absorbed, reflected, or scattered according to the filter construction.
+
+**Answer**
+
+The missing transmitted energy goes mainly into heat for absorbing filters, or into redirected light for reflective filters.
 
 :::
 
@@ -506,6 +586,26 @@ When particles scattering light are much smaller than its wavelength, the amount
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare inverse fourth powers of wavelengths.
+
+**Solution**
+
+Yes: decreasing $\lambda$ increases $1/\lambda^4$. Air molecules therefore scatter shorter visible wavelengths more strongly than red wavelengths. Scattered sunlight reaching us from directions away from the Sun is enriched in blue.
+
+**Discussion**
+
+The perceived sky color also depends on the solar spectrum, atmospheric transmission, and human visual sensitivity, so the strongest mathematical scattering need not correspond to the perceived color.
+
+**Answer**
+
+Short wavelengths scatter more strongly; this preferential scattering makes the daytime sky appear blue.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -513,6 +613,26 @@ When particles scattering light are much smaller than its wavelength, the amount
 ::: problem
 
 Using the information given in the preceding question, explain why sunsets are red.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Follow direct sunlight along its longer atmospheric path near sunset.
+
+**Solution**
+
+Near the horizon, sunlight travels through more atmosphere. Shorter wavelengths are preferentially scattered out of the direct beam, leaving it relatively rich in red and orange light.
+
+**Discussion**
+
+This explains the color of the Sun and nearby directly illuminated clouds. Dust, droplets, and aerosols can modify the colors.
+
+**Answer**
+
+Sunsets are red because the long atmospheric path removes much of the blue light from the direct beam.
 
 :::
 
@@ -524,6 +644,26 @@ Using the information given in the preceding question, explain why sunsets are r
 
 When light is reflected at Brewster’s angle from a smooth surface, it is  $$100 \%  $$
  polarized parallel to the surface. Part of the light will be refracted into the surface. Describe how you would do an experiment to determine the polarization of the refracted light. What direction would you expect the polarization to have and would you expect it to be  $$100 \%  $$ ?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Analyze the transmitted beam with a rotatable polarizer.
+
+**Solution**
+
+Direct the refracted beam onto a detector through an analyzer and rotate the analyzer about that beam. Compare the maximum and minimum transmitted intensities. For initially unpolarized light, the reflected beam at Brewster’s angle contains only polarization perpendicular to the plane of incidence. Consequently the refracted beam is enriched in polarization parallel to that plane.
+
+**Discussion**
+
+Some perpendicular polarization is also transmitted, so the refracted beam is generally only partially polarized. An analyzer minimum above zero demonstrates this. The experiment must isolate refraction at the chosen interface from later reflections.
+
+**Answer**
+
+Use a rotating analyzer; expect partial polarization favoring the plane of incidence, rather than $100\%$ polarization.
 
 :::
 

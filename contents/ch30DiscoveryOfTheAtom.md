@@ -162,6 +162,26 @@ Name three different types of evidence for the existence of atoms.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose independent chemical, mechanical, and imaging evidence.
+
+**Solution**
+
+(1) Elements combine in fixed small-number ratios in compounds. (2) Brownian particles undergo random motion quantitatively explained by collisions with molecules. (3) Scanning-probe instruments can resolve recurring individual atomic sites on suitable surfaces.
+
+**Discussion**
+
+No single observation needs to carry the whole argument; agreement across independent experiments supports the atomic model.
+
+**Answer**
+
+Fixed chemical proportions, Brownian motion, and atomic-scale imaging are three distinct forms of evidence.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -172,6 +192,26 @@ Explain why patterns observed in the periodic table of the elements are evidence
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare indirect patterns with a measurable consequence of molecular impacts.
+
+**Solution**
+
+Periodic chemical similarities imply repeatable internal building blocks whose properties change systematically with atomic structure. Brownian motion more directly probes molecular agitation: a suspended particle’s irregular displacement is predicted from thermal collisions, with a measurable dependence on temperature, viscosity, and particle size.
+
+**Discussion**
+
+Brownian motion does not visually resolve individual atoms, but quantitatively connects their motion to observable particle trajectories.
+
+**Answer**
+
+The periodic table gives indirect structural evidence; Brownian motion supplies dynamical evidence for molecular collisions.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -179,6 +219,26 @@ Explain why patterns observed in the periodic table of the elements are evidence
 ::: problem
 
 If atoms exist, why can’t we see them with visible light?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare atomic dimensions with visible wavelengths.
+
+**Solution**
+
+Atomic diameters are of order $10^{-10}\text{ m}$, while visible wavelengths are of order $10^{-7}\text{ m}$. A conventional visible-light microscope cannot resolve such tiny features because its diffraction limit is much larger than an atom.
+
+**Discussion**
+
+An isolated atom can sometimes produce a detectable fluorescent spot, but detecting its light is not the same as resolving its internal spatial structure.
+
+**Answer**
+
+Atoms are much smaller than visible-light diffraction limits, so their dimensions cannot be directly resolved with ordinary optical imaging.
 
 :::
 

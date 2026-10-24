@@ -213,6 +213,26 @@ Which of Einstein’s postulates of special relativity includes a concept that d
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the light-speed postulate with classical velocity addition.
+
+**Solution**
+
+The second postulate states that every inertial observer measures the same vacuum light speed $c$, regardless of source motion. Classical velocity addition would predict different light speeds for observers moving relative to each other. The first postulate extends the principle of relativity to all physical laws; its mechanical version was already familiar classically.
+
+**Discussion**
+
+Invariant light speed requires changing classical ideas of absolute time and simultaneity.
+
+**Answer**
+
+The invariant-speed-of-light postulate directly conflicts with classical velocity addition.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -223,6 +243,26 @@ Is Earth an inertial frame of reference? Is the Sun? Justify your response.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Identify rotation and orbital acceleration.
+
+**Solution**
+
+Earth rotates and accelerates in its orbit, so an Earth-fixed frame is not exactly inertial. The Sun also accelerates, including in its orbit about the Galactic center, so a Sun-fixed frame is not exactly inertial either. Either can approximate an inertial frame when the relevant acceleration effects are negligible over the experiment’s scale and duration.
+
+**Discussion**
+
+An approximation adequate for a laboratory mechanics problem may fail for precise navigation or long observations.
+
+**Answer**
+
+Neither is exactly inertial; both can provide useful approximate inertial frames.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -230,6 +270,26 @@ Is Earth an inertial frame of reference? Is the Sun? Justify your response.
 ::: problem
 
 When you are flying in a commercial jet, it may appear to you that the airplane is stationary and the Earth is moving beneath you. Is this point of view valid? Discuss briefly.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Distinguish a valid reference frame from an inertial approximation.
+
+**Solution**
+
+Yes. Relative to a frame attached to the aircraft, the aircraft is stationary and Earth moves. During approximately straight, steady flight, this frame can be treated locally as approximately inertial. During turns or acceleration, its equations of motion require the appropriate inertial-force terms.
+
+**Discussion**
+
+Neither the aircraft nor Earth has an absolute state of rest.
+
+**Answer**
+
+The viewpoint is valid; its treatment as inertial depends on the aircraft’s acceleration and the precision required.
 
 :::
 

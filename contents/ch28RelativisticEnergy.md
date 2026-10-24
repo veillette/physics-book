@@ -537,6 +537,26 @@ How are the classical laws of conservation of energy and conservation of mass mo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Treat rest energy as part of total energy.
+
+**Solution**
+
+Energy remains conserved for an isolated system, but it includes rest energy $mc^2$ as well as kinetic and other energy. The sum of the separate particles’ rest masses need not be conserved: reactions can change it while conserving total energy and momentum.
+
+**Discussion**
+
+The invariant mass of a complete isolated system includes its internal energy. Separately conserving only material rest masses and classical energy misses this connection.
+
+**Answer**
+
+Total relativistic energy and momentum are conserved; separate particle rest masses are not generally conserved.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -544,6 +564,26 @@ How are the classical laws of conservation of energy and conservation of mass mo
 ::: problem
 
 What happens to the mass of water in a pot when it cools, assuming no molecules escape or are added? Is this observable in practice? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Relate energy lost during cooling to mass change.
+
+**Solution**
+
+If water loses energy $Q$ with no material exchange, its mass decreases by $Q/c^2$. For example, losing $10^5\text{ J}$ reduces mass by about $1.1\times10^{-12}\text{ kg}$.
+
+**Discussion**
+
+This is far below ordinary weighing sensitivity; evaporation, convection, and buoyancy changes would obscure it in a kitchen experiment.
+
+**Answer**
+
+The mass decreases, but the effect is not observable with ordinary practical weighing.
 
 :::
 
@@ -557,6 +597,26 @@ Consider a thought experiment. You place an expanded balloon of air on weighing 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Separate changes of internal energy from changes in apparent weight.
+
+**Solution**
+
+If sealed air and the balloon gain net energy, their combined rest mass increases by $\Delta E/c^2$. Sunlight and warmer surroundings can supply energy, but expansion also transfers energy as work. Thus the mass change follows the net energy retained, rather than time of day alone.
+
+**Discussion**
+
+The scale measures supporting force, affected by displaced-air buoyancy, balloon volume, winds, and atmospheric conditions. Leakage and evaporation also change material mass. These effects greatly exceed the relativistic mass change.
+
+**Answer**
+
+Net retained energy changes the mass, but ordinary outdoor scale readings cannot isolate that tiny effect.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -564,6 +624,26 @@ Consider a thought experiment. You place an expanded balloon of air on weighing 
 ::: problem
 
 The mass of the fuel in a nuclear reactor decreases by an observable amount as it puts out energy. Is the same true for the coal and oxygen combined in a conventional power plant? If so, is this observable in practice for the coal and oxygen? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply mass–energy equivalence to the complete chemical reaction.
+
+**Solution**
+
+Yes. After the products have cooled and the released energy has left the material system, their combined rest mass is smaller than the original coal and consumed oxygen by $E_{\rm released}/c^2$. Chemical energy per unit reacting mass is much smaller than nuclear energy, so the fractional mass decrease is correspondingly smaller.
+
+**Discussion**
+
+All reaction products, including exhaust gases, must be accounted for. Ordinary fuel loss or gas exchange is vastly larger than this mass defect; it is not measurable with routine plant weighing.
+
+**Answer**
+
+Chemical energy release also reduces the combined material mass, but by an extremely small amount.
 
 :::
 
@@ -578,6 +658,26 @@ We know that the velocity of an object with mass has an upper limit of  $$c$$ .
 
 :::
 
+::: solution
+
+**Strategy**
+
+Examine $p=\gamma mv$ and $E=\gamma mc^2$ as $v$ approaches $c$.
+
+**Solution**
+
+For fixed nonzero rest mass, $\gamma=1/\sqrt{1-v^2/c^2}$ increases without bound as $v\to c$. Thus momentum, total energy, and kinetic energy have no finite upper limit, even though speed remains less than $c$.
+
+**Discussion**
+
+Increasing energy produces progressively smaller speed increments near $c$.
+
+**Answer**
+
+There is no finite upper bound on a massive particle’s momentum or energy in special relativity.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -589,6 +689,26 @@ Given the fact that light travels at  $$c$$ ,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use $E^2=p^2c^2+m^2c^4$ for a photon.
+
+**Solution**
+
+A photon has $E=pc$ and therefore zero invariant or rest mass. A particle with nonzero rest mass cannot reach $c$ with finite energy. Light nevertheless carries energy and momentum.
+
+**Discussion**
+
+The quantity $E/c^2$ is sometimes called relativistic mass, but it is not a photon’s rest mass.
+
+**Answer**
+
+Light traveling at $c$ has zero rest mass, while carrying energy and momentum.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -596,6 +716,26 @@ Given the fact that light travels at  $$c$$ ,
 ::: problem
 
 If you use an Earth-based telescope to project a laser beam onto the Moon, you can move the spot across the Moon’s surface at a velocity greater than the speed of light. Does this violate modern relativity? (Note that light is being sent from the Earth to the Moon, not across the surface of the Moon.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify whether anything travels between successive illuminated lunar points.
+
+**Solution**
+
+Each point receives different photons traveling from Earth at $c$. The spot is a sequence of illumination events, not an object or signal propagating along the lunar surface from one point to the next. A lunar observer cannot use the spot’s sweep to send information directly between those points faster than light.
+
+**Discussion**
+
+The beam-direction change itself reaches the Moon only after the Earth–Moon light-travel delay.
+
+**Answer**
+
+No; a superluminal spot sweep transports no matter or causal signal across the surface.
 
 :::
 
@@ -1848,6 +1988,30 @@ energy.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a massive particle with total energy much greater than its rest energy and compare $h/p$ with $hc/E$.
+
+**Solution**
+
+For one possible problem, take an electron with total energy $E=100\text{ MeV}$ and rest energy $mc^2=0.511\text{ MeV}$. Then
+
+$$pc=\sqrt{E^2-m^2c^4}=99.9987\text{ MeV},\qquad \lambda_e=\frac{hc}{pc}\approx1.23986\times10^{-14}\text{ m}.$$
+
+A $100\text{ MeV}$ photon has $\lambda_\gamma=hc/E\approx1.23984\times10^{-14}\text{ m}$. Their wavelength ratio is $1/\sqrt{1-(0.511/100)^2}\approx1.0000131$.
+
+**Discussion**
+
+Here “highly relativistic” means $\gamma=E/(mc^2)\gg1$ for a massive particle. The wavelengths differ by only about $0.00131\%$.
+
+**Answer**
+
+Both wavelengths are approximately $1.24\times10^{-14}\text{ m}$; the electron wavelength is slightly larger.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1864,6 +2028,28 @@ traveled. Among the things to be considered are the distance to the star, the
 velocity, and the mass of the astronaut and ship. Unless your instructor directs
 you otherwise, do not include any energy given to other masses, such as rocket
 propellants.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Specify the Earth-frame distance, coasting speed, and vehicle rest mass; neglect acceleration time as requested.
+
+**Solution**
+
+One possible problem uses a star $4.0\text{ ly}$ away, speed $0.80c$, and combined astronaut–ship rest mass $1000\text{ kg}$. With $\gamma=5/3$, Earth measures $t=L/v=5.0\text{ y}$, while the astronaut measures $\tau=t/\gamma=3.0\text{ y}$. The kinetic energy is
+
+$$K=(\gamma-1)mc^2=5.99\times10^{19}\text{ J},\qquad \Delta m=K/c^2\approx667\text{ kg}.$$
+
+**Discussion**
+
+This is the ideal energy delivered to the vehicle. It excludes propellant energy, inefficiency, and braking at the destination. It is not a complete fuel budget for a rocket.
+
+**Answer**
+
+For this example: $5.0\text{ y}$ on Earth, $3.0\text{ y}$ on board, and the energy equivalent of about $6.7\times10^2\text{ kg}$ for acceleration.
 
 :::
 

@@ -15,6 +15,7 @@ import hashlib
 import fcntl
 import json
 from pathlib import Path
+import posixpath
 import re
 import subprocess
 import sys
@@ -227,6 +228,18 @@ def cell(value):
     return str(value).replace('|', '\\|').replace('\n', ' ').replace('<', '&lt;')
 
 
+def preview_links(value, source_file):
+    """Keep copied relative links pointing at their original textbook targets."""
+    def rebase(match):
+        target, separator, fragment = match[1].partition('#')
+        target = posixpath.normpath(posixpath.join(posixpath.dirname(source_file), target))
+        if not Path(target).suffix and (ROOT / (target + '.md')).is_file():
+            target += '.md'
+        return '/' + target + separator + fragment
+
+    return re.sub(r'(?<=\]\()(\.\.?/[^)\s]+)(?=\))', rebase, value)
+
+
 def refresh():
     OUTPUT.mkdir(parents=True, exist_ok=True)
     if not (OUTPUT / 'reviews.json').exists():
@@ -358,7 +371,7 @@ def write_markdown(ledger):
                 note += ' Earlier review retained in reviews.json; source/context changed.'
             link = f'[{cell(item["kind"])} {item["ordinal"]}](/' + item['file'] + f'#L{item["line"]})'
             details.append('| ' + ' | '.join(map(cell, [
-                link, item['preview'], item['review_status'], review['confidence'] if review else '—',
+                link, preview_links(item['preview'], item['file']), item['review_status'], review['confidence'] if review else '—',
                 f'{counts.get("checked", 0)} / {counts.get("failed", 0)} / {counts.get("skipped", 0)}', note])) + ' |')
         (OUTPUT / f'chapter-{chapter:02}.md').write_text('\n'.join(details) + '\n')
     totals = Counter()

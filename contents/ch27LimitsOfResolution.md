@@ -274,6 +274,26 @@ A beam of light always spreads out. Why can a beam not be created with parallel 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Relate transverse confinement to diffraction.
+
+**Solution**
+
+A beam of finite width contains a range of propagation directions. Its angular spread is of order $\lambda/D$, where $D$ is its width. A lens or mirror can change its convergence and place a narrow waist at a chosen location, but the beam spreads beyond that waist. An aperture further confines the wave and therefore introduces diffraction.
+
+**Discussion**
+
+Perfectly parallel propagation corresponds to an ideal plane wave extending without limit across the transverse plane. Increasing beam width reduces divergence but cannot eliminate it for a finite beam.
+
+**Answer**
+
+Finite beams diffract; optical elements can reduce or redirect their spreading, but cannot make a finite beam perfectly parallel everywhere.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -851,6 +871,30 @@ such as the size of features observable on the Moon) for observations at a
 specific distance from the device. Among the things to be considered are the
 wavelength of electromagnetic radiation used, the size of the circular object,
 and the distance to the system or phenomenon being observed.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Choose a circular aperture and apply the Rayleigh criterion, then convert angular separation to distance.
+
+**Solution**
+
+One possible problem is: What separation on the Moon can an ideal $0.20\text{ m}$ telescope resolve at $550\text{ nm}$, with the Moon $3.84\times10^8\text{ m}$ away? For a uniformly illuminated circular aperture,
+
+$$\theta=1.22\frac{\lambda}{D}=1.22\frac{550\times10^{-9}\text{ m}}{0.20\text{ m}}=3.36\times10^{-6}\text{ rad}.$$
+
+The minimum separation is $s\approx L\theta=(3.84\times10^8\text{ m})(3.36\times10^{-6})=1.29\times10^3\text{ m}$.
+
+**Discussion**
+
+This is an ideal diffraction limit. Atmospheric turbulence, optical imperfections, and detector sampling can make the actual resolution worse.
+
+**Answer**
+
+For this example, $\theta\approx3.4\times10^{-6}\text{ rad}$ and $s\approx1.3\text{ km}$.
 
 :::
 

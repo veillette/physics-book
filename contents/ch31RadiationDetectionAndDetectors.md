@@ -130,6 +130,26 @@ Is it possible for light emitted by a scintillator to be too low in frequency to
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare scintillation-photon energy with the photocathode’s emission threshold.
+
+**Solution**
+
+A photomultiplier starts by ejecting photoelectrons from its photocathode. If the scintillation frequency is too low, $hf$ is below the effective emission threshold and cannot trigger ordinary single-photon photoemission.
+
+**Discussion**
+
+The photocathode must be chosen to match the scintillator’s emission spectrum; increasing photon number does not remove the single-photon threshold in normal operation.
+
+**Answer**
+
+Yes; photons below the photocathode’s response threshold will not be detected efficiently.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -159,6 +179,26 @@ A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geig
 
 :::
 
+::: solution
+
+**Strategy**
+
+Multiply the number of ion pairs by the energy required per pair.
+
+**Solution**
+
+$E_{\min}=4000(30.0\text{ eV})=1.20\times10^5\text{ eV}=0.120\text{ MeV}$.
+
+**Discussion**
+
+This is the energy accounted for by the stated ion-pair requirement. Additional losses to excitation or other channels could increase the actual deposited energy.
+
+**Answer**
+
+$E_{\min}=120\text{ keV}$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -170,6 +210,26 @@ A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geig
 
 :::
 
+::: solution
+
+**Strategy**
+
+Convert the preceding energy and use the gas’s constant-volume heat capacity.
+
+**Solution**
+
+(a) $E=1.20\times10^5\text{ eV}=1.92\times10^{-14}\text{ J}=4.59\times10^{-15}\text{ cal}$. (b) If the gas has $f$ active quadratic degrees of freedom, its heat capacity is $C_V=(f/2)nR=(f/2)PV/T$, so $\Delta T=2ET/(fPV)$. With $P=0.250\text{ atm}$ and $V=50.0\text{ cm}^3$, $PV=1.267\text{ J}$. For a monatomic ideal gas ($f=3$), $\Delta T/T=1.01\times10^{-14}$; at an assumed $T=293\text{ K}$, $\Delta T=2.97\times10^{-12}\text{ K}$.
+
+**Discussion**
+
+The question supplies neither the initial temperature nor the gas heat capacity, so a unique absolute temperature rise is underdetermined. The formula and the explicitly assumed example make those missing inputs clear.
+
+**Answer**
+
+(a) $1.92\times10^{-14}\text{ J}$; (b) $\Delta T=2ET/(fPV)$, about $3.0\times10^{-12}\text{ K}$ for monatomic gas at $293\text{ K}$.
+
+:::
+
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -178,6 +238,26 @@ A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geig
 
 Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger tube, all of which goes to creating ion pairs. Each ion pair requires 30.0 eV of energy. (a) The applied voltage sweeps the ions out of the gas in  $$1.00 \mu \text{s} $$ .
  What is the current? (b) This current is smaller than the actual current since the applied voltage in the Geiger tube accelerates the separated ions, which then create other ion pairs in subsequent collisions. What is the current if this last effect multiplies the number of ion pairs by 900?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Find the ion-pair count and divide collected charge by collection time.
+
+**Solution**
+
+The count is $N=(1.0\times10^6\text{ eV})/(30.0\text{ eV})=3.33\times10^4$. One elementary charge per pair is transferred through the external circuit, so $Q=Ne=5.34\times10^{-15}\text{ C}$. (a) $I=Q/(1.00\,\mu\text{s})=5.34\times10^{-9}\text{ A}$. (b) With gain 900, $I'=900I=4.81\times10^{-6}\text{ A}$.
+
+**Discussion**
+
+Do not double the charge by counting the positive and negative carriers as independent full-circuit transfers. Avalanche energy comes from the applied voltage supply.
+
+**Answer**
+
+(a) About $5.3\text{ nA}$; (b) $4.8\,\mu\text{A}$.
 
 :::
 

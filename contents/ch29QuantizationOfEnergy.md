@@ -181,6 +181,26 @@ Give an example of a physical entity that is quantized. State specifically what 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose an observable with a discrete spectrum.
+
+**Solution**
+
+An ideal harmonic oscillator has allowed energies $E_n=(n+1/2)hf$, where $n=0,1,2,\ldots$. Its energy cannot take intermediate eigenvalues and has a lowest value $hf/2$.
+
+**Discussion**
+
+The excitation energies above the ground state are integer multiples of $hf$.
+
+**Answer**
+
+Harmonic-oscillator energy is quantized into equally spaced levels with $n$ a nonnegative integer.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -191,6 +211,26 @@ Give an example of a physical entity that is not quantized, in that it is contin
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a quantum system without confining boundaries.
+
+**Solution**
+
+The momentum of an ideal free particle in unbounded space can take any real value along an axis. Its kinetic energy likewise has a continuous range from zero upward in the nonrelativistic model.
+
+**Discussion**
+
+Confinement or imposed boundary conditions can turn a continuous spectrum into discrete allowed values.
+
+**Answer**
+
+An unconfined free particle’s momentum is a continuous observable.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -198,6 +238,26 @@ Give an example of a physical entity that is not quantized, in that it is contin
 ::: problem
 
 What aspect of the blackbody spectrum forced Planck to propose quantization of energy levels in its atoms and molecules?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the measured high-frequency spectrum with the classical prediction.
+
+**Solution**
+
+Classical equipartition predicted ever-increasing radiation intensity at high frequency, giving an infinite total emitted energy—the ultraviolet catastrophe. Measured spectra instead peak and then decrease at high frequencies. Planck reproduced that suppression by allowing oscillator energy exchange in quanta of size $hf$.
+
+**Discussion**
+
+High-frequency quanta require large energies, so they are less readily excited at a fixed temperature.
+
+**Answer**
+
+The observed high-frequency decline, contradicting the classical ultraviolet divergence, motivated quantized energy exchange.
 
 :::
 
@@ -212,6 +272,26 @@ If Planck’s constant were large, say  $$ 10^{34} $$
 
 :::
 
+::: solution
+
+**Strategy**
+
+Model a small-amplitude swing as a harmonic oscillator and increase its level spacing.
+
+**Solution**
+
+Its allowed energies would be $E_n=(n+1/2)h'f$, with $h'=10^{34}h$. For a $0.5\text{ Hz}$ swing, adjacent levels would differ by about $3.3\text{ J}$, which is macroscopic. A child’s swing would therefore no longer have an effectively continuous range of energy eigenvalues; energy transfers could reveal discrete steps.
+
+**Discussion**
+
+This does not imply a classical trajectory that literally jerks between allowed positions. Position remains distributed, and a quantum energy eigenstate does not describe an ordinary oscillating child. The hypothetical change would also alter matter and the child, so this is an oscillator-model illustration.
+
+**Answer**
+
+Macroscopic discrete energy changes would become observable; a classical continuous-energy swing model would fail.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -219,6 +299,26 @@ If Planck’s constant were large, say  $$ 10^{34} $$
 ::: problem
 
 Why don’t we notice quantization in everyday events?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare quantum level spacings with typical macroscopic energies and measurement resolution.
+
+**Solution**
+
+Planck’s constant is very small. For ordinary low-frequency macroscopic oscillators, $hf$ is tiny compared with the energies involved, and enormous numbers of closely spaced levels participate. The resulting behavior appears continuous at everyday resolution.
+
+**Discussion**
+
+Environmental interactions also suppress observable coherent interference between distinct macroscopic states. Quantum effects remain present even when a classical approximation is excellent.
+
+**Answer**
+
+Everyday energy scales and resolution usually hide extremely small quantum spacings.
 
 :::
 

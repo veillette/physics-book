@@ -340,6 +340,26 @@ Why does the fusion of light nuclei into heavier nuclei release energy?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare reactant and product binding energies.
+
+**Solution**
+
+For suitable light-nucleus fusion reactions, the products have greater total nuclear binding and therefore lower total rest mass than the reactants. The mass difference appears as kinetic energy and radiation: $Q=(M_i-M_f)c^2>0$.
+
+**Discussion**
+
+Energy must still be supplied to bring charged nuclei close enough to react; that barrier is distinct from the net energy released by a successful reaction.
+
+**Answer**
+
+Fusion releases energy when its products are more tightly bound overall than the initial light nuclei.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -347,6 +367,26 @@ Why does the fusion of light nuclei into heavier nuclei release energy?
 ::: problem
 
 Energy input is required to fuse medium-mass nuclei, such as iron or cobalt, into more massive nuclei. Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Locate iron and cobalt near the binding-energy maximum.
+
+**Solution**
+
+Combining such medium-mass nuclei into substantially heavier products generally lowers binding energy per nucleon. The product mass then exceeds the sum of the reactant masses, so the reaction absorbs net energy instead of releasing it.
+
+**Discussion**
+
+This net energy requirement is additional to overcoming the electric repulsion during approach; a specific reaction still requires its own mass balance.
+
+**Answer**
+
+Beyond the binding-energy peak, fusion generally produces less tightly bound material and requires net energy input.
 
 :::
 
@@ -361,6 +401,26 @@ In considering potential fusion reactions, what is the advantage of the reaction
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare energy yields and reaction probabilities at fusion temperatures.
+
+**Solution**
+
+The deuterium–tritium reaction releases about $17.6\text{ MeV}$, compared with about $3.27\text{ MeV}$ for the specified deuterium–deuterium branch. D–T also has a larger useful reaction probability at lower plasma temperatures, making it easier to obtain substantial fusion power.
+
+**Discussion**
+
+Tritium must be supplied or bred, and the energetic neutron creates shielding and activation challenges; the favorable reaction rate does not remove those constraints.
+
+**Answer**
+
+D–T gives more energy per reaction and reacts more readily at attainable fusion temperatures.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -369,6 +429,26 @@ In considering potential fusion reactions, what is the advantage of the reaction
 
 Give reasons justifying the contention made in the text that energy from the fusion reaction  $${}^{2}\text{H}+{}^{2}\text{H}\to {}^{4}\text{He}+\gamma  $$
  is relatively difficult to capture and utilize.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify the energy carrier and distinguish direct electromagnetic collection from heat collection.
+
+**Solution**
+
+The specified D–D radiative-capture reaction puts nearly all its approximately $23.8\text{ MeV}$ release into a highly energetic gamma photon, apart from recoil. A gamma photon cannot be confined by ordinary magnetic fields, and useful absorption requires surrounding material that converts its energy into heat or secondary particles.
+
+**Discussion**
+
+Energy can be recovered in an absorber, but not by simply steering the photon as one might a charged product. The radiative branch is also much rarer than the usual D–D reaction channels.
+
+**Answer**
+
+The energy appears mainly as penetrating gamma radiation, requiring absorptive energy collection rather than direct charged-particle control; the reaction is also rare.
 
 :::
 
