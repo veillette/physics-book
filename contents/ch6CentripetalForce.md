@@ -431,7 +431,7 @@ Take $$ +x $$ horizontally toward the center of the curve. Friction supplies the
 $$ \mu_{s} mg = m\frac{v^{2}}{r} \quad \Rightarrow \quad v_{\text{max}} = \sqrt{\mu_{s} r g} $$
 </div>
 
-The mass cancels, and $$ v_{\text{max}} $$ grows with the radius of the path. Path 1 hugs the inside edge, so it bends sharply, with a small radius. Path 2, cutting the corner, enters the turn on the outside, cuts across to the inside edge at the middle of the turn, and exits toward the outside. It is a gentler arc with a **larger radius** than the curve of the road itself. With $$ \mu_{s} = 1.0 $$:
+The mass cancels, and $$ v_{\text{max}} $$ grows with the radius of the path. Path 2 follows the middle of the road around the bend, so it turns as sharply as the road itself, with a small radius. Path 1, cutting the corner, enters the turn on the outside, cuts across to the inside edge at the middle of the turn, and exits toward the outside. It is a gentler arc with a **larger radius** than the curve of the road itself. With $$ \mu_{s} = 1.0 $$:
 
 - path radius $$ 50 \m $$: $$ v_{\text{max}} = \sqrt{(1.0)(50 \m)(9.80 \mss)} = 22 \ms $$
 - path radius $$ 80 \m $$: $$ v_{\text{max}} = \sqrt{(1.0)(80 \m)(9.80 \mss)} = 28 \ms $$
@@ -834,7 +834,7 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\tex
 
 <div class="equation">
 <!-- physics: eq-17 -->
-$$\theta = \tan^{-1}\left(\frac{853 \N}{11{,}760 \N}\right) = \tan^{-1}(0.0725) = 4.14°$$
+$$\theta = \tan^{-1}\left(\frac{853 \mmss}{11{,}760 \mmss}\right) = \tan^{-1}(0.0725) = 4.14°$$
 </div>
 
 **Discussion**
@@ -1052,7 +1052,7 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(12.0\tex
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{144 \N}{294 \N}\right) = \tan^{-1}(0.490) = 26.1°$$
+$$\theta = \tan^{-1}\left(\frac{144 \mmss}{294 \mmss}\right) = \tan^{-1}(0.490) = 26.1°$$
 </div>
 
 **Discussion**

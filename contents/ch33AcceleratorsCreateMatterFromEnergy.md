@@ -273,7 +273,7 @@ $$d = 1.35 \times 10^{-16} \text{ m} = 0.135 \text{ fm}$$
 
 **Discussion**
 
-This distance is incredibly small—only 0.135 femtometers, which is about one-seventh the diameter of a proton (approximately 1 fm). This is far too short to produce a visible track in a bubble chamber, which typically requires distances of micrometers or more. Therefore, the existence of the $${W}^{-}$$ particle must be inferred indirectly from its decay products rather than from direct observation of its track. The short lifetime and high speed of the $${W}^{-}$$ are characteristic of particles that mediate the weak nuclear force. The fact that the particle lives for $$5.00 \times 10^{-25}$$ s (longer than its rest lifetime of $$1.6 \times 10^{-25}$$ s from the particle tables) can be explained by time dilation—at $$0.900c$$, the relativistic $$\gamma$$ factor extends the observed lifetime in the laboratory frame.
+This distance is incredibly small—only 0.135 femtometers, which is about one-seventh the diameter of a proton (approximately 1 fm). This is far too short to produce a visible track in a bubble chamber, which typically requires distances of micrometers or more. Therefore, the existence of the $${W}^{-}$$ particle must be inferred indirectly from its decay products rather than from direct observation of its track. This particular $${W}^{-}$$ lives longer than the mean lifetime of $$1.6 \times 10^{-25}$$ s in the particle tables for two reasons. At $$0.900c$$, $$\gamma = 2.29$$, so time dilation stretches the mean lifetime to about $$3.7 \times 10^{-25}$$ s in the laboratory. Decay is also random, so an individual particle can easily live somewhat longer than the mean.
 
 :::
 
@@ -316,16 +316,16 @@ This problem is analogous to the worked example in this section. Each gap provid
 The total energy is 50.0 GeV, which must equal the sum of energies gained across all gaps. There are 15,000 gaps (between 15,000 tubes), so:
 
 <div class="equation">
-$$V_{\text{gap}} = \frac{\text{Total Energy}}{\text{Number of gaps}} = \frac{50.0 \text{ GeV}}{15,000}$$
+$$V_{\text{gap}} = \frac{\text{Total energy}}{(\text{Number of gaps})e} = \frac{50.0 \text{ GeV}}{(15{,}000)e}$$
 </div>
 
 <div class="equation">
-$$V_{\text{gap}} = \frac{50.0 \times 10^9 \text{ eV}}{15,000} = 3.33 \times 10^6 \text{ eV} = 3.33 \text{ MV}$$
+$$V_{\text{gap}} = \frac{50.0 \times 10^9 \text{ eV}}{(15{,}000)e} = 3.33 \times 10^6 \text{ V} = 3.33 \text{ MV}$$
 </div>
 
 **Discussion**
 
-An average voltage of 3.33 million volts per gap is required. This is a substantial voltage but achievable in a vacuum environment. The advantage of using many accelerating tubes is that the voltage per gap can be kept at a manageable level while still achieving very high total energies. In SLAC's linear design, particles make a single pass through all the gaps, unlike in circular accelerators where particles can orbit many times. The 3.20-km length of SLAC was specifically chosen to accommodate the number of accelerating structures needed to reach 50 GeV with practically achievable gap voltages. Modern linear accelerators continue to use this principle, balancing the length of the machine against the voltage gradients that can be sustained in each accelerating structure.
+An average voltage of 3.33 million volts per gap is required. This is a substantial voltage but achievable in a vacuum environment. The advantage of using many accelerating tubes is that the voltage per gap can be kept at a manageable level while still achieving very high total energies. In SLAC's linear design, particles make a single pass through all the gaps, unlike in circular accelerators where particles can orbit many times. Spread over the 3.20-km length, the energy gain averages about 16 MeV per meter. Modern linear accelerators continue to use this principle, balancing the length of the machine against the voltage gradients that can be sustained in each accelerating structure.
 
 :::
 

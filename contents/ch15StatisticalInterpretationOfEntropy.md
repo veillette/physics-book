@@ -344,10 +344,10 @@ state, we get $$\Delta S= -92 \times 10^{-23} \text{J/K} $$ . There is about a
 $$1 $$ in $$10^{30} $$ chance of this change occurring. So while very small
 decreases in entropy are unlikely, slightly greater decreases are impossibly
 unlikely. These probabilities imply, again, that for a macroscopic system, a
-decrease in entropy is impossible. For example, for heat transfer to occur
-spontaneously from 1.00 kg of $$0\text{ºC} $$ ice to its $$0\text{ºC} $$
-environment, there would be a decrease in entropy of $$ 1.22 \times 10^{3} \text{J/K} $$ . Given that a $$\Delta S $$ of $$10^{-21} \text{J/K} $$ corresponds to about a $$1 $$ in $$10^{30} $$ chance, a decrease of this size (
-$$10^{3} \text{J/K} $$ )
+decrease in entropy is impossible. For example, suppose 1.00 kg of $$0\text{ºC} $$ water in a
+$$20\text{ºC} $$ room spontaneously froze, giving its heat of fusion to the room. The water's entropy would
+decrease by $$ 1.22 \times 10^{3} \text{J/K} $$ , while the warmer room would gain only $$ 1.14 \times 10^{3} \text{J/K} $$ , so the total entropy would decrease by about 83 J/K. (If the room were also at $$0\text{ºC} $$, the room would gain exactly what the water loses, and the total would not change.) Given that a $$\Delta S $$ of $$10^{-21} \text{J/K} $$ corresponds to about a $$1 $$ in $$10^{30} $$ chance, a decrease of this size (
+$$10^{2} \text{J/K} $$ )
 is an _utter_ impossibility. Even for a milligram of melted ice to spontaneously
 refreeze is impossible.
 

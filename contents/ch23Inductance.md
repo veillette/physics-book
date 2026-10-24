@@ -234,7 +234,7 @@ the <strong class="term" >energy stored in an
 inductor </strong> $${E}_{\text{ind}} $$ is given by
 
 <div class="equation" >
- $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}\text{.} $$
+ $${E}_{\text{ind}}=\frac{1}{2}L{I}^{2}\text{.} $$
 </div>
 
 This expression is similar to that for the energy stored in a capacitor.
@@ -249,15 +249,15 @@ How much energy is stored in the 0.632 mH inductor of the preceding example when
 
 **Strategy**
 
-The energy is given by the equation $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_{\text{ind}} $$ are known.
+The energy is given by the equation $${E}_{\text{ind}}=\frac{1}{2}L{I}^{2} $$ , and all quantities except $${E}_{\text{ind}} $$ are known.
 
 **Solution**
 
 Substituting the value for $$L $$ found in the previous example and the given
-current into $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ gives
+current into $${E}_{\text{ind}}=\frac{1}{2}L{I}^{2} $$ gives
 
 <div class="equation" >
- $$\begin{array}{lll}{E}_{\text{ind}}& =& \frac{1}{2}{\text{LI}}^{2}\\ & =& 0.5\left( 0.632 \times 10^{-3}  \text{H}\right) { \left(30.0 \text{A}\right)}^{2}=0.284 \text{J}\text{.}\end{array} $$
+ $$\begin{array}{lll}{E}_{\text{ind}}& =& \frac{1}{2}L{I}^{2}\\ & =& 0.5\left( 0.632 \times 10^{-3}  \text{H}\right) { \left(30.0 \text{A}\right)}^{2}=0.284 \text{J}\text{.}\end{array} $$
 </div>
 
 **Discussion**
@@ -324,7 +324,7 @@ $$N $$
 
 - The energy stored in an inductor $${E}_{\text{ind}} $$ is
   <div class="equation" >
-   $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}\text{.} $$
+   $${E}_{\text{ind}}=\frac{1}{2}L{I}^{2}\text{.} $$
   </div>
 
 ### Conceptual Questions
@@ -1214,6 +1214,6 @@ inductor
 : a device that exhibits significant self-inductance
 
 energy stored in an inductor
-: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
+: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}L{I}^{2} $$
 
 :::

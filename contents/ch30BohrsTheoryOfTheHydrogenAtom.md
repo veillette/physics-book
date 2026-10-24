@@ -652,7 +652,7 @@ The Bohr radius represents the most probable distance of the electron from the n
 ::: problem
 
 Verify that the ground state energy  $${E}_{0} $$
- is 13.6 eV by using  $${E}_{0}=\frac{ {2\pi }^{2}{q}_{e}^{4}{m}_{e}{k}^{2}}{ {h}^{2}}\text{.} $$
+ is 13.6 eV by using  $${E}_{0}=\frac{2{\pi }^{2}{q}_{e}^{4}{m}_{e}{k}^{2}}{ {h}^{2}}\text{.} $$
 
 :::
 
@@ -681,24 +681,24 @@ $$ E_0 = \frac{2\pi^{2} (1.602 \times 10^{-19} \text{ C})^4 (9.109 \times 10^{-3
 Working through the calculation step by step:
 
 <div class="equation">
-$$ E_0 = \frac{2(9.870)(6.595 \times 10^{-76})(9.109 \times 10^{-31})(8.079 \times 10^{19})}{4.390 \times 10^{-67}} $$
+$$ E_0 = \frac{2(9.870)(6.586 \times 10^{-76})(9.109 \times 10^{-31})(8.078 \times 10^{19})}{4.390 \times 10^{-67}} $$
 </div>
 
 <div class="equation">
-$$ E_0 = \frac{9.521 \times 10^{-85}}{4.390 \times 10^{-67}} = 2.169 \times 10^{-18} \text{ J} $$
+$$ E_0 = \frac{9.567 \times 10^{-85}}{4.390 \times 10^{-67}} \text{ J} = 2.179 \times 10^{-18} \text{ J} $$
 </div>
 
 Converting to electron volts (dividing by $$ q_e = 1.602 \times 10^{-19} \text{ J/eV} $$ ):
 
 <div class="equation">
-$$ E_0 = \frac{2.169 \times 10^{-18} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}} = 13.6 \text{ eV} $$
+$$ E_0 = \frac{2.179 \times 10^{-18} \text{ J}}{1.602 \times 10^{-19} \text{ J/eV}} = 13.6 \text{ eV} $$
 </div>
 
 This verifies that the ground state energy of hydrogen is indeed **13.6 eV**.
 
 **Discussion**
 
-This result is fundamental to atomic physics. The ground state energy of –13.6 eV (negative because it represents a bound state) means that 13.6 eV of energy is required to ionize a hydrogen atom from its ground state. This value emerges directly from the fundamental constants of nature—the electron's charge and mass, Planck's constant, and Coulomb's constant. The fact that Bohr could derive this experimentally known value from first principles was a major triumph of his theory and provided strong support for the quantum model of the atom. The energy levels for excited states are given by $$ E_n = E_0/n^2 $$ , so all hydrogen energy levels can be calculated from this single fundamental value.
+This result is fundamental to atomic physics. The ground state energy of –13.6 eV (negative because it represents a bound state) means that 13.6 eV of energy is required to ionize a hydrogen atom from its ground state. This value emerges directly from the fundamental constants of nature—the electron's charge and mass, Planck's constant, and Coulomb's constant. The fact that Bohr could derive this experimentally known value from first principles was a major triumph of his theory and provided strong support for the quantum model of the atom. The energy levels for excited states are given by $$ E_n = -E_0/n^2 $$ , so all hydrogen energy levels can be calculated from this single fundamental value.
 
 :::
 
@@ -993,7 +993,7 @@ Since **365 nm > 122 nm**, the Balmer and Lyman series **do not overlap**.
 
 **Discussion**
 
-The Balmer series spans from 365 nm (series limit) to 656 nm (H-alpha line), while the Lyman series spans from 91.2 nm (series limit) to 122 nm (Lyman-alpha). There's a clear gap of 243 nm (from 122 nm to 365 nm) between these two series. This gap is significant—it's about eight times the width of the Lyman series itself. This separation makes sense because the Balmer series involves transitions to $$ n = 2 $$ while Lyman involves transitions to $$ n = 1 $$ , and the energy difference between these final states is substantial (10.2 eV). The non-overlapping nature of hydrogen's spectral series made it easier for early spectroscopists to identify and categorize the different series. In contrast, for heavier hydrogen-like ions with larger $$ Z $$ values, the energy levels scale as $$ Z^2 $$ , which can cause different series to overlap in wavelength even though they correspond to different transitions.
+The Balmer series spans from 365 nm (series limit) to 656 nm (H-alpha line), while the Lyman series spans from 91.2 nm (series limit) to 122 nm (Lyman-alpha). There's a clear gap of 243 nm (from 122 nm to 365 nm) between these two series. This gap is significant—it's about eight times the width of the Lyman series itself. This separation makes sense because the Balmer series involves transitions to $$ n = 2 $$ while Lyman involves transitions to $$ n = 1 $$ , and the energy difference between these final states is substantial (10.2 eV). The non-overlapping nature of hydrogen's spectral series made it easier for early spectroscopists to identify and categorize the different series. For hydrogen-like ions with larger $$ Z $$ , every energy level scales by $$ Z^2 $$ , so all wavelengths shrink by the same factor $$ 1/Z^2 $$ : an ion's Balmer and Lyman series move to shorter wavelengths together but still do not overlap. Higher series can overlap, though; even in hydrogen, the Brackett series (limit 1458 nm) overlaps the Paschen series (longest line 1875 nm).
 
 :::
 

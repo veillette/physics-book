@@ -340,7 +340,7 @@ $$ \text{Dose in Sv} = 7.52 \times 10^{-5} \text{ Sv} = 0.0752 \text{ mSv} $$
 
 **Discussion**
 
-The dose of 0.075 mSv in one day is relatively small but not negligible. To put this in perspective, the average annual background radiation dose is about 3 mSv, so this one-day dose from ingested $${}^{65}\text{Zn}$$ represents about 2.5% of the annual background dose. However, this calculation only accounts for one day's exposure. The actual total dose depends on how long the zinc-65 remains in the body. With a radiological half-life of 244 days, $${}^{65}\text{Zn}$$ decays relatively slowly, but biological elimination removes zinc from the body with a biological half-life of about 300-500 days. The effective half-life (combining radioactive decay and biological elimination) is approximately 140 days. Over this longer period, the cumulative dose would be significantly higher—roughly 150 times the one-day dose, or about 11 mSv total. This cumulative dose is still well below occupational limits (20-50 mSv/y) but represents a serious contamination incident that would require medical follow-up and investigation. This problem underscores the importance of proper safety protocols when machining or handling materials that have been exposed to radiation. Even if the copper appears "cold" (low external radiation), internal contamination from ingested or inhaled particulates can deliver significant doses. The 40% absorption fraction is realistic for gamma rays from an internally distributed source, as some gammas escape the body without interacting.
+The dose of 0.075 mSv in one day is relatively small but not negligible. To put this in perspective, the average annual background radiation dose is about 3 mSv, so this one-day dose from ingested $${}^{65}\text{Zn}$$ represents about 2.5% of the annual background dose. However, this calculation only accounts for one day's exposure. The actual total dose depends on how long the zinc-65 remains in the body. With a radiological half-life of 244 days, $${}^{65}\text{Zn}$$ decays relatively slowly, but biological elimination removes zinc from the body with a biological half-life of about 300-500 days. The effective half-life (combining radioactive decay and biological elimination) is approximately 140 days. Because the activity decays exponentially, the total dose is the one-day dose times $$T_{\text{eff}}/\ln 2\approx(140\text{ d})/0.693=202\text{ d}$$, about 200 times the one-day dose, or about 15 mSv in all. This is below occupational limits (20-50 mSv/y) but large enough to call for investigation and follow-up. This problem underscores the importance of proper safety protocols when machining or handling materials that have been exposed to radiation. Even if the copper appears "cold" (low external radiation), internal contamination from ingested or inhaled particulates can deliver significant doses. The 40% absorption fraction is the problem's assumption: some gammas from an internal source escape the body without interacting.
 
 :::
 
@@ -426,6 +426,10 @@ Using $$t_{1/2}=5730\text{ y}$$ gives an activity of 32.5 Bq/kg. The emitted ene
 $$E_{\text{emitted}}=(32.5\text{ s}^{-1})(3.156\times10^7\text{ s})(0.0750\text{ MeV})(1.602\times10^{-13}\text{ J/MeV})=1.23\times10^{-5}\text{ J}.$$
 
 For beta particles, $$w_R=1$$, so the stated equivalent dose corresponds to $$D=1.0\times10^{-5}\text{ Gy/y}$$. The absorbed fraction is therefore $$f=(1.0\times10^{-5})/(1.23\times10^{-5})\approx0.81$$, or **81%**.
+
+**Discussion**
+
+Take the problem's closing remark with care. A $${}^{14}\text{C}$$ beta has at most 0.156 MeV and travels less than a millimetre in tissue, so almost all of its energy is absorbed inside the body. The 19% gap mostly reflects the one-digit dose of 0.01 mSv/y, not energy escaping to the people around you. (The antineutrinos do escape, but their energy is not part of the 0.0750-MeV average beta energy.)
 
 :::
 

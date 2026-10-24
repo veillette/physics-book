@@ -967,9 +967,33 @@ A simple compass can be made by placing a small bar magnet on a cork floating in
 
 ::: solution
 
-(a)  $$ 0.24 $$
-(b)  $$ 0.68 $$
-(c) Yes, the cork will float because  $${\rho }_{\text{obj}}<{\rho }_{\text{ethyl alcohol}}\left( 0.678 {\text{g/cm}}^{3}< 0.79 {\text{g/cm}}^{3}\right) $$
+**Strategy**
+
+A floating object displaces its own weight of liquid. For (a), the submerged fraction is the ratio of the cork's density to the water's. For (b), the magnet sits on top of the cork, so only the cork is in the water, and it must displace a mass of water equal to the cork's mass plus the magnet's. For (c), the pair floats if the cork, fully submerged in alcohol, would displace more than their combined mass.
+
+**Solution**
+
+(a) With $$ \rho_{\text{cork}} = 0.24\ \text{g/cm}^{3} $$ and $$ \rho_{\text{water}} = 1.00\ \text{g/cm}^{3} $$ from [Table 1](./ch11Density#Table1):
+
+$$ \frac{V_{\text{sub}}}{V} = \frac{\rho_{\text{cork}}}{\rho_{\text{water}}} = \frac{0.24\ \text{g/cm}^{3}}{1.00\ \text{g/cm}^{3}} = 0.24 $$
+
+(b) The cork's volume is
+
+$$ V = \frac{m_{\text{cork}}}{\rho_{\text{cork}}} = \frac{10.0\ \text{g}}{0.24\ \text{g/cm}^{3}} = 41.7\ \text{cm}^{3} $$
+
+To support the cork and magnet, the cork must displace $$ 10.0\ \text{g} + 20.0\ \text{g} = 30.0\ \text{g} $$ of water, a volume of $$ 30.0\ \text{cm}^{3} $$:
+
+$$ \frac{V_{\text{sub}}}{V} = \frac{30.0\ \text{cm}^{3}}{41.7\ \text{cm}^{3}} = 0.72 $$
+
+(c) Fully submerged in ethyl alcohol ($$ \rho = 0.79\ \text{g/cm}^{3} $$), the cork would displace $$ (0.79\ \text{g/cm}^{3})(41.7\ \text{cm}^{3}) = 32.9\ \text{g} $$ of alcohol, more than the 30.0 g to be supported. The cork and magnet float, with $$ 30.0/32.9 = 0.91 $$ of the cork submerged.
+
+**Discussion**
+
+The magnet triples the load on the cork, so the submerged fraction triples, from 0.24 to 0.72. In alcohol the compass floats only barely, with 91% of the cork submerged; a magnet just a few grams heavier would sink it.
+
+**Answer**
+
+(a) 0.24 (b) 0.72 (c) Yes; about 91% of the cork is submerged.
 
 :::
 

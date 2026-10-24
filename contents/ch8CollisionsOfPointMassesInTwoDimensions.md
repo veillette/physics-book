@@ -962,7 +962,7 @@ and assuming that one object is originally stationary, prove that
 for an elastic collision of two objects of equal masses,
 
 <div class="equation">
- $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m{v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime}}_{2}}^{2}+mv^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
+ $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}m{v^{\prime}_{1}}^{2}+\frac{1}{2}m{v^{\prime}_{2}}^{2}+mv^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
 
 as discussed in the text.
@@ -1020,14 +1020,14 @@ This is the desired result, showing that for elastic collisions between equal ma
 
 **Discussion**
 
-This result is crucial for understanding elastic collisions between equal masses. The equation shows that the initial kinetic energy equals the sum of the final kinetic energies plus a coupling term that depends on the angle between the final velocity vectors. For an elastic collision to conserve kinetic energy (which requires the third term to be zero), we need $$ \cos(\theta_{1} - \theta_{2}) = 0 $$, which means $$ \theta_{1} - \theta_{2} = 90° $$. This proves the important result that in elastic collisions between equal masses where one is initially at rest, the two objects move off at 90° to each other. This is commonly observed in billiards and pool.
+This result is crucial for understanding elastic collisions between equal masses. Momentum conservation alone makes the initial kinetic energy equal the sum of the final kinetic energies plus a coupling term that depends on the angle between the final velocity vectors. In an elastic collision kinetic energy is also conserved, so the coupling term must be zero: $$ mv^{\prime}_{1}v^{\prime}_{2}\cos(\theta_{1} - \theta_{2}) = 0 $$. Either one final speed is zero (a head-on collision, in which the incoming object stops and the target moves off with its velocity), or $$ \cos(\theta_{1} - \theta_{2}) = 0 $$, which means $$ \theta_{1} - \theta_{2} = 90° $$. This proves the important result that in elastic collisions between equal masses where one is initially at rest, the two objects move off at 90° to each other whenever both are moving afterward. This is commonly observed in billiards and pool.
 
 **Answer**
 
 Starting from momentum conservation and assuming equal masses with one initially at rest, we have proven that:
 $$ \frac{1}{2} mv_{1}^{2}=\frac{1}{2}m{ v^{\prime}_{1}}^{2}+\frac{1}{2}m{ {v^{\prime} }_{2}}^{2}+m{v^{\prime} }_{1}{v^{\prime} }_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 
-This result demonstrates that elastic collisions between equal masses require the objects to separate at 90° to conserve both momentum and kinetic energy.
+This result demonstrates that, in an elastic collision between equal masses with one initially at rest, the objects separate at 90° unless one of them is left at rest.
 
 :::
 

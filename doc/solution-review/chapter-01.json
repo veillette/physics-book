@@ -1,0 +1,1961 @@
+{
+  "chapter": 1,
+  "checked_at": "2026-10-24T17:03:56+00:00",
+  "summary": {
+    "total": 573,
+    "checked": 133,
+    "failed": 1,
+    "skipped": 439,
+    "by_kind": {
+      "equation": {
+        "checked": 133,
+        "failed": 1,
+        "skipped": 439
+      },
+      "case": {
+        "checked": 0,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 0,
+      "assertions": 0,
+      "chapters": []
+    },
+    "skip_reasons": {
+      "no supported equality": 265,
+      "unit-only expression or text label needs a numeric value": 46,
+      "unknown unit": 32,
+      "unbound variable": 54,
+      "unsupported symbol": 41,
+      "unbalanced parentheses": 1
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::worked-example:1",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 123,
+      "end_line": 170,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "b654b14c68d89e183bca4de37a9e7e5fe9f966888995096d3647bcf3b394f4a1",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": ":::: example Calculating Percent Uncertainty: A Bag of Apples A grocery store sells $$ 5\\text{-lb} $$ bags of apples. You purchase four bags over the course of a month and weigh t…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::worked-example:1",
+        "source_sha256": "b654b14c68d89e183bca4de37a9e7e5fe9f966888995096d3647bcf3b394f4a1",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Uses the supplied 0.4 lb uncertainty relative to the nominal 5 lb value: 8%. Correct formula and interpretation for the stated estimate.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::check-understanding:1",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 192,
+      "end_line": 212,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "e67c15e9b52223129a53c9aee4cdd2387cd6f46c8dc764f2780f8b7d0e72e3da",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "A high school track coach has just purchased a new stopwatch. The stopwatch manual states that the stopwatch has an uncertainty of $$ \\pm 0.05 \\s $$. Runners on the track coach’s…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::check-understanding:1",
+        "source_sha256": "e67c15e9b52223129a53c9aee4cdd2387cd6f46c8dc764f2780f8b7d0e72e3da",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly distinguishes useful training measurements from a 0.03 s close finish; overlapping ±0.05 s intervals cannot resolve the finish.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::check-understanding:2",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 255,
+      "end_line": 290,
+      "kind": "check-understanding",
+      "ordinal": 2,
+      "source_sha256": "ec73ce7049fc851955af7cbf178fcfb210be72de60d143ddd3184acc8dc5bd40",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "Determine the number of significant figures in the following measurements: (a) 0.0009 (b) 15 450.0 (c) $$ 6 \\times 10^{3} $$ (d) 87.990 (e) 30.42",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::check-understanding:2",
+        "source_sha256": "ec73ce7049fc851955af7cbf178fcfb210be72de60d143ddd3184acc8dc5bd40",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "All five significant-figure counts follow the placement of leading, interior, and measured trailing zeros: 1, 6, 1, 5, 4.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::check-understanding:3",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 359,
+      "end_line": 402,
+      "kind": "check-understanding",
+      "ordinal": 3,
+      "source_sha256": "b137d4c617df5e60ca361a53a37f813e3460f62aa0cb6173969d1a802009788d",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "Perform the following calculations and express your answer using the correct number of significant digits. (a) A woman has two bags, each weighing 13.5 pounds and one bag with a w…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::check-understanding:3",
+        "source_sha256": "b137d4c617df5e60ca361a53a37f813e3460f62aa0cb6173969d1a802009788d",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Exact bag count gives 37.2 lb; F=ma gives 1.4025 N and hence 1.4 N. Correct rules for addition and multiplication.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::conceptual-questions:1",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 441,
+      "end_line": 472,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "8cdeb0b2181594264706b9eef497cc2d724f3ad0fb9193b60ef791690730e669",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "What is the relationship between the accuracy and uncertainty of a measurement?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::conceptual-questions:1",
+        "source_sha256": "8cdeb0b2181594264706b9eef497cc2d724f3ad0fb9193b60ef791690730e669",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly separates agreement with a reference from uncertainty, and explicitly handles an omitted calibration bias. Numerical example supports the explanation.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::conceptual-questions:2",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 474,
+      "end_line": 503,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "710fbe11e22eaa494c71f13442fcf1456a6aea27685f4df191e511be70ec533c",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "Prescriptions for vision correction are given in units called **diopters** (D). Determine the meaning of that unit. Obtain information (perhaps by calling an optometrist or perfor…",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10
+      },
+      "automatic_flags": [],
+      "review_status": "ambiguous",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::conceptual-questions:2",
+        "source_sha256": "710fbe11e22eaa494c71f13442fcf1456a6aea27685f4df191e511be70ec533c",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "ambiguous",
+        "confidence": "medium",
+        "notes": "Inverse-focal-length definition is correct, and the solution distinguishes prescription reproducibility from manufacturing tolerance. The study percentages and ANSI Z80.1-2015 range need independent source verification; no universal minimum uncertainty can be inferred from them.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:1",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 510,
+      "end_line": 538,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "5b03426d501eab9c829747fb68fe0a640ba72aa59bba1352117d236ab5404db5",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "Suppose that your bathroom scale reads your mass as 65 kg with a 3% uncertainty. What is the uncertainty in your mass (in kilograms)?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:1",
+        "source_sha256": "5b03426d501eab9c829747fb68fe0a640ba72aa59bba1352117d236ab5404db5",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct relative-to-absolute uncertainty conversion: 65×0.03=1.95 kg, approximately 2 kg. Core answer is appropriate; illustrative claims about typical instruments are not separately established.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:2",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 540,
+      "end_line": 574,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "a2eadde3af4034caf2a99cce90943aa36c5d528e8db2822a04f77c56bdc36458",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. What is its percent uncertainty?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 2,
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:2",
+        "source_sha256": "a2eadde3af4034caf2a99cce90943aa36c5d528e8db2822a04f77c56bdc36458",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Converts 20 m to 2000 cm before taking the ratio: 0.50/2000×100%=0.025%. Units and process correct.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:3",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 576,
+      "end_line": 639,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "9fbb86afd870bb6b644593992d695a8cc80a00eb0506d7c9e3ed6412356b4183",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "(a) A car speedometer has a $$ 5.0 \\% $$ uncertainty. What is the range of possible speeds when it reads $$ 90\\text{km/h} $$ ? (b) Convert this range to miles per hour. $$ \\left(1…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:3",
+        "source_sha256": "9fbb86afd870bb6b644593992d695a8cc80a00eb0506d7c9e3ed6412356b4183",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct uncertainty interval 90±4.5 km/h and conversion of both endpoints to 53.1–58.7 mph. Outward rounding convention is explicitly explained.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:4",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 641,
+      "end_line": 670,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "66efc9de6a2942282e6a074e227a030808d3a4d89390dc845c9608d295b093a8",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "An infant's pulse rate is measured to be $$ 130 \\pm 5 $$ beats/min. What is the percent uncertainty in this measurement?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:4",
+        "source_sha256": "66efc9de6a2942282e6a074e227a030808d3a4d89390dc845c9608d295b093a8",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct fractional uncertainty 5/130, approximately 4%. The pulse-measurement model is the one supplied by the exercise.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:5",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 672,
+      "end_line": 729,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "5153d95f0c4889e3b3139f746af2065a8e5424d7c9ca5ebd5328404841d4c48c",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "(a) Suppose that a person has an average heart rate of 72.0 beats/min. How many beats do they have in 2.0 y? (b) In 2.00 y? (c) In 2.000 y?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 2,
+        "skipped": 10
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:5",
+        "source_sha256": "5153d95f0c4889e3b3139f746af2065a8e5424d7c9ca5ebd5328404841d4c48c",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Multiplies a rate by elapsed minutes and applies the limiting input precision. 7.6×10^7, 7.57×10^7, and 7.57×10^7 beats are consistent with the data.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:6",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 731,
+      "end_line": 759,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "5ad01854ec84be53b4303f76a033953918fd3d2256bd9d1642e69d62e6b5b0e3",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "A can contains 375 mL of soda. How much is left after 308 mL is removed?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:6",
+        "source_sha256": "5ad01854ec84be53b4303f76a033953918fd3d2256bd9d1642e69d62e6b5b0e3",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct subtraction and decimal-place rule: 375−308=67 mL.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:7",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 761,
+      "end_line": 812,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "9ce661564c277362931f5631273c685d10afd27d4b568b7574dfcbb7993239e8",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "State how many significant figures are proper in the results of the following calculations: a. $$ \\left(106.7\\right)\\left(98.2\\right)/\\left(46.210\\right)\\left(1.01\\right) $$ b. $$…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:7",
+        "source_sha256": "9ce661564c277362931f5631273c685d10afd27d4b568b7574dfcbb7993239e8",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "All three calculations are limited to three significant figures; squaring a measured value does not create additional precision.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:8",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 814,
+      "end_line": 859,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "b3fdf9a51ec86f8bfa10a861d23b75089db3021d2f5b2b0d2a39eaa6ef80e933",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "(a) How many significant figures are in the numbers 99 and 100? (b) If the uncertainty in each number is 1, what is the percent uncertainty in each? (c) Which is a more meaningful…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:8",
+        "source_sha256": "b3fdf9a51ec86f8bfa10a861d23b75089db3021d2f5b2b0d2a39eaa6ef80e933",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly identifies the ambiguity of trailing zeros in 100. Explicit ±1 uncertainties make both relative uncertainties about 1%, so the comparison is meaningful.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:9",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 861,
+      "end_line": 913,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "3816ec8eb8f22bd5f304294d32a8038bb87179eb1377df56a3ca95481efa5fde",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "(a) If your speedometer has an uncertainty of $$ 2.0\\text{km/h} $$ at a speed of $$ 90\\text{km/h} $$, what is the percent uncertainty? (b) If it has the same percent uncertainty w…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 10,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:9",
+        "source_sha256": "3816ec8eb8f22bd5f304294d32a8038bb87179eb1377df56a3ca95481efa5fde",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct constant-percent-uncertainty method: 2/90≈2.2%, giving about ±1.3 km/h at 60 km/h. Accept the final approximately 59–61 interval as the text’s coarse uncertainty reporting, rather than flagging last-digit rounding.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:10",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 915,
+      "end_line": 958,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "7b2aed0f33b6d6a7c4849b88c93e6fc30c8f7b04331b8f0acb469fe8e5e25968",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "(a) A person's blood pressure is measured to be $$ 120 \\pm 2\\text{mm Hg} $$. What is its percent uncertainty? (b) Assuming the same percent uncertainty, what is the uncertainty in…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:10",
+        "source_sha256": "7b2aed0f33b6d6a7c4849b88c93e6fc30c8f7b04331b8f0acb469fe8e5e25968",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 2/120≈1.67% and transfer to 80 mm Hg giving about 1.3 mm Hg. Rounding accepted. Clinical generalizations in the discussion are outside this calculation review.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:11",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 960,
+      "end_line": 1012,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "deb04c8c0256e46d0dc01686d516e69ccd43d4f502c254ea8ac6d5a1e2891c82",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "A person measures their heart rate by counting the number of beats in $$30 \\s $$. If $$ 40 \\pm 1 $$ beats are counted in $$ (30.0 \\pm 0.5) \\s $$, what is the heart rate and its un…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:11",
+        "source_sha256": "deb04c8c0256e46d0dc01686d516e69ccd43d4f502c254ea8ac6d5a1e2891c82",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 80 beats/min and the chapter’s first-order worst-case rule adding relative uncertainties, yielding about ±3 beats/min. A quadrature answer would require a different uncertainty model.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:12",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1014,
+      "end_line": 1050,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "19a2c025665d56729c3ccce0f18b6a19934f9a3a201c6c7692cfe99efbe90948",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "What is the area of a circle $$ 3.102\\text{cm} $$ in diameter?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:12",
+        "source_sha256": "19a2c025665d56729c3ccce0f18b6a19934f9a3a201c6c7692cfe99efbe90948",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly halves the diameter and applies πr², giving about 7.557 cm². Minor intermediate rounding does not change the method.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:13",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1052,
+      "end_line": 1084,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "ca2397d5b2e08dc837513bc20041abfe4b27b2d5e0d3e7232655a64c59af2357",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "If a marathon runner averages 9.5 mi/h, how long does it take them to run a 26.22-mi marathon?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:13",
+        "source_sha256": "ca2397d5b2e08dc837513bc20041abfe4b27b2d5e0d3e7232655a64c59af2357",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct t=d/v and appropriate final precision: 26.22/9.5≈2.8 h.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:14",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1086,
+      "end_line": 1162,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "127b93d120f386c860ca44061630866b6ec8b5e3cb2effe62aab6cb75842bc99",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "A marathon runner completes a $$ 42.188\\text{-km} $$ course in $$ 2\\text{h} $$, 30 min, and $$12 \\s $$. There is an uncertainty of $$25 \\m $$ in the distance traveled and an uncer…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 15,
+        "checked": 12
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:14",
+        "source_sha256": "127b93d120f386c860ca44061630866b6ec8b5e3cb2effe62aab6cb75842bc99",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "All four parts use consistent distance/time units and additive relative uncertainty. About 4.681±0.003 m/s is supported by the stated bounds; ordinary rounding accepted.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:15",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1164,
+      "end_line": 1223,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "09f2a2944ca23ddf69df42f61c73f5f3c834e51b786406639af8b22022550c6f",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "The sides of a small rectangular box are measured to be $$ (1.80 \\pm 0.01) \\text{cm} $$, $$ (2.05 \\pm 0.02) \\text{cm} $$,and $$(3.0 \\pm 0.1) \\text{cm} $$ long. Calculate its volum…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 11,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:15",
+        "source_sha256": "09f2a2944ca23ddf69df42f61c73f5f3c834e51b786406639af8b22022550c6f",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct rectangular volume and first-order worst-case propagation of all three relative uncertainties: about 11.1±0.5 cm³.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:16",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1225,
+      "end_line": 1281,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "2ca681d974e2c1256d4ba776760f524f6b37a1650e197bbf3bd456b29288a9f0",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "When non-metric units were used in the United Kingdom, a unit of mass called the **pound-mass** (lbm) was employed, where $$ 1\\text{lbm}=0.4539\\kg $$. (a) If there is an uncertain…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:16",
+        "source_sha256": "2ca681d974e2c1256d4ba776760f524f6b37a1650e197bbf3bd456b29288a9f0",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct under the exercise’s stipulated uncertain conversion: 0.0001/0.4539≈0.022%, and 10,000 lbm accumulates about 1 kg of uncertainty. This is a hypothetical uncertainty, not a claim that today’s pound definition is uncertain.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:17",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1283,
+      "end_line": 1338,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "3f566a0ff989b1ec1e2dd60903dc9d249b239ba9d0d95ac9f6a1e677358e23e2",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "The length and width of a rectangular room are measured to be $$ (3.955 \\pm 0.005) \\m $$ and $$ (3.050 \\pm 0.005) \\m $$. Calculate the area of the room and its uncertainty in squa…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 7
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:17",
+        "source_sha256": "3f566a0ff989b1ec1e2dd60903dc9d249b239ba9d0d95ac9f6a1e677358e23e2",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct area and additive relative uncertainty: about 12.06±0.04 m². The custom \\mm macro denotes square meters here; see math-config.js.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:18",
+      "chapter": 1,
+      "file": "contents/ch1AccuracyPrecisionAndSignificantFigures.md",
+      "line": 1340,
+      "end_line": 1413,
+      "kind": "problems-exercises",
+      "ordinal": 18,
+      "source_sha256": "36639b84a6866e61f360bc939fa73a91222da6ab8f02d09c032292a5e2012324",
+      "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+      "preview": "A car engine moves a piston with a circular cross-section of $$ (7.500 \\pm 0.002) \\text{cm} $$ diameter a distance of $$ (3.250 \\pm 0.001) \\text{cm} $$ to compress the gas in the…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13,
+        "checked": 8
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1AccuracyPrecisionAndSignificantFigures.md::problems-exercises:18",
+        "source_sha256": "36639b84a6866e61f360bc939fa73a91222da6ab8f02d09c032292a5e2012324",
+        "file_sha256": "47a98aa7c078d974fc64708fcda5487ab5942b37c129b517a14a05e9c604cfec",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Uses the swept cylinder volume and doubles the diameter’s relative uncertainty in d². Gives about 143.6±0.1 cm³; all requested parts answered.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::worked-example:1",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 27,
+      "end_line": 57,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "1cf5d28df274e49508c7e9ca1890a41167314f09e58e7cdb6ca2cf42c5895c6f",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "::: example Approximate the Height of a Building Can you approximate the height of one of the buildings on your campus, or in your neighborhood? Let us make an approximation based…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::worked-example:1",
+        "source_sha256": "1cf5d28df274e49508c7e9ca1890a41167314f09e58e7cdb6ca2cf42c5895c6f",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Appropriate explicit scale estimate: 39 stories×2 people/story×2 m/person=156 m. Assumed story height is clearly stated.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::worked-example:2",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 59,
+      "end_line": 153,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "79baa0672c36cb66d021023b235dbe42ecfc0d9daad28c6811dca1736ec54a08",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "::: example Approximating Vast Numbers: a Trillion Dollars ![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg \"A bank stack contains one…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 18,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::worked-example:2",
+        "source_sha256": "79baa0672c36cb66d021023b235dbe42ecfc0d9daad28c6811dca1736ec54a08",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Uses stack value to count stacks, then volume/area to estimate height. The 100×50 yard field and bill dimensions are intentionally rough; about 10–12 ft is supported at this estimation level.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::check-understanding:1",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 155,
+      "end_line": 173,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "818642cadb25d5dbc609c5ce785d27946fa3aaa8f993d725d8ce74f468afb759",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "Using mental math and your understanding of fundamental units, approximate the area of a regulation basketball court. Describe the process you used to arrive at your final approxi…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::check-understanding:1",
+        "source_sha256": "818642cadb25d5dbc609c5ce785d27946fa3aaa8f993d725d8ce74f468afb759",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Appropriate length×width estimate: (15×2 m)(7×2 m)=420 m². The problem requests an approximation, not regulation-dimension precision.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:1",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 182,
+      "end_line": 220,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "8c0e2b09583262e39b1fd024ebb53f563aef504cf7694ac202c5db641f0360d1",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "How many heartbeats are there in a lifetime?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 1,
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:1",
+        "source_sha256": "8c0e2b09583262e39b1fd024ebb53f563aef504cf7694ac202c5db641f0360d1",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct rate×lifetime estimate with explicit 70 beats/min and 80-year assumptions: approximately 3×10^9 beats.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:2",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 222,
+      "end_line": 263,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "68cb48c4aa09cb32b34e7f6ffe96dad80d2a66a6144f3432f7f435753a0d3940",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0 AD?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1,
+        "failed": 1
+      },
+      "automatic_flags": [
+        {
+          "file": "contents/ch1Approximation.md",
+          "line": 245,
+          "kind": "equation",
+          "expression": "\\frac{70 \\text{ years}}{3} ≈ 25 \\text{ years}",
+          "status": "failed",
+          "reason": "numeric mismatch (SI values)",
+          "computed": 736344000.0,
+          "stated": 788940000.0,
+          "error_pct": 6.666666666666667
+        }
+      ],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:2",
+        "source_sha256": "68cb48c4aa09cb32b34e7f6ffe96dad80d2a66a6144f3432f7f435753a0d3940",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct estimate based on about 2000 years divided by about 25 years/generation: approximately 80 generations. The 70/3≈25 step is acceptable coarse estimation; the 2025 date has negligible effect at this scale.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:3",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 265,
+      "end_line": 302,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "08f8c2122b0a11175916b999bb6869782bf999b1c0abd63a5dae117f896ee010",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "How many times longer than the mean life of an extremely unstable atomic nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nucleus is on the order of $…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:3",
+        "source_sha256": "08f8c2122b0a11175916b999bb6869782bf999b1c0abd63a5dae117f896ee010",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct common-unit ratio of about 2.2×10^9 s to 10^-22 s, giving about 2×10^31. The discussion’s unspecified “fraction of a second” analogy adds little but does not affect the calculation.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:4",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 304,
+      "end_line": 346,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "7d6507d4769142283eb70ddf10fbf7e66b57cbcb4b3d4daa2f911e8fbfb23746",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "Calculate the approximate number of atoms in a bacterium. Assume that the average mass of an atom in the bacterium is ten times the mass of a hydrogen atom. (Hint: The mass of a h…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:4",
+        "source_sha256": "7d6507d4769142283eb70ddf10fbf7e66b57cbcb4b3d4daa2f911e8fbfb23746",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly incorporates the factor of ten in average atomic mass: 10^-15 kg / 10^-26 kg=10^11 atoms.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:5",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 351,
+      "end_line": 389,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "e8effb3b692d6a3adbfa43e6ad3c7a580a8dbbf9355ffeeb443f48fbb48c4d25",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "Approximately how many atoms thick is a cell membrane, assuming all atoms there average about twice the size of a hydrogen atom?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:5",
+        "source_sha256": "e8effb3b692d6a3adbfa43e6ad3c7a580a8dbbf9355ffeeb443f48fbb48c4d25",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct thickness/diameter estimate with explicitly assumed membrane thickness 10^-8 m and atom diameter 2×10^-10 m: about 50 atoms. Biological inputs are illustrative estimates.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:6",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 391,
+      "end_line": 440,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "f5dcb275a87747a06bd3606ff1e7ef182219b4728c7c4a491cae6cc203097760",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "(a) What fraction of Earth's diameter is the greatest ocean depth? (b) The greatest mountain height?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:6",
+        "source_sha256": "f5dcb275a87747a06bd3606ff1e7ef182219b4728c7c4a491cae6cc203097760",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Both ratios correctly use Earth’s diameter, not radius: 10^4/10^7≈10^-3. The billiard-ball comparison is appropriately qualified.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:7",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 442,
+      "end_line": 494,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "f3b8190ad44dfa09592f1503ae898eb2a796cc323ee78e426f386869a73da9ae",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "(a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is ten times the mass of a bacterium. (b) Making the same assumption, how many cells are th…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 12,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:7",
+        "source_sha256": "f3b8190ad44dfa09592f1503ae898eb2a796cc323ee78e426f386869a73da9ae",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correct use of the stipulated average-cell mass 10^-14 kg: estimated hummingbird/human masses give 10^12/10^16 cells. These are outcomes of the stated model, not validated biological cell counts.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1Approximation.md::problems-exercises:8",
+      "chapter": 1,
+      "file": "contents/ch1Approximation.md",
+      "line": 496,
+      "end_line": 531,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "c702c048cb987cbdc30f9a542ae7ac4ff4a741a8c688c80c79131af9029c7c61",
+      "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+      "preview": "Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch1Approximation.md::problems-exercises:8",
+        "source_sha256": "c702c048cb987cbdc30f9a542ae7ac4ff4a741a8c688c80c79131af9029c7c61",
+        "file_sha256": "7578281a7d6a83e7b1e37ee54cbed0c08010083f4a6e4e163f26c802dbd245e1",
+        "verdict": "concern",
+        "confidence": "medium",
+        "notes": "Correct reciprocal-duration estimate under the explicit nonoverlap assumption: 1/(10^-3 s)=10^3 impulses/s. Discussion conflates impulse duration with refractory time; real firing limits need additional physiology, so retain the result as this idealized bound.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::worked-example:1",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 297,
+      "end_line": 401,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "f3083363e6f68632bc146ad0fdcc927d2381b81fe624d49a55e7fa685ef9f70a",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "::: example Unit Conversions: A Short Drive Home Suppose that you drive the 10.0 km from your university to home in 20.0 min. Calculate your average speed (a) in kilometers per ho…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::worked-example:1",
+        "source_sha256": "f3083363e6f68632bc146ad0fdcc927d2381b81fe624d49a55e7fa685ef9f70a",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct distance/time and unit-ratio conversions: 10.0 km/20.0 min=30.0 km/h=8.33 m/s. The intentionally wrong conversion example is clearly labeled as a diagnostic.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::check-understanding:1",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 419,
+      "end_line": 441,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "07eff831bee829f1bb11d3285e32f92e257e1caae6943dd1d77c6b8e8a765a5d",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "Some hummingbirds beat their wings more than 50 times per second. A scientist is measuring the time it takes for a hummingbird to beat its wings once. Which fundamental unit shoul…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::check-understanding:1",
+        "source_sha256": "07eff831bee829f1bb11d3285e32f92e257e1caae6943dd1d77c6b8e8a765a5d",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct fundamental unit (seconds) and suitable millisecond scale: 50 s^-1 corresponds to a 20 ms period.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::check-understanding:2",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 443,
+      "end_line": 460,
+      "kind": "check-understanding",
+      "ordinal": 2,
+      "source_sha256": "d1f9b87ba3a6389c72e28e10756d58eb23fc50ae375120a1580701857aca8592",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "One cubic centimeter is equal to one milliliter. What does this tell you about the different units in the SI metric system?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::check-understanding:2",
+        "source_sha256": "d1f9b87ba3a6389c72e28e10756d58eb23fc50ae375120a1580701857aca8592",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly links cubic length and volume units: 1 cm³=1 mL and 1 L=10^-3 m³; identifies the liter as accepted for use with SI.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::conceptual-questions:1",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 482,
+      "end_line": 510,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "5510f28e49c13930c5f1b6bfd8723382e96b0ae7f86eeaa324a964900842cdae",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "Identify some advantages of metric units.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 4,
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::conceptual-questions:1",
+        "source_sha256": "5510f28e49c13930c5f1b6bfd8723382e96b0ae7f86eeaa324a964900842cdae",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Power-of-ten unit conversions and coherent derived SI units are demonstrated correctly; examples cancel the unwanted units.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:1",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 514,
+      "end_line": 556,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "db332c0ac85dcb29880fafed834d1a4c4c6bc5e98d6bb09acb0174aabb42506a",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "The speed limit on some interstate highways is roughly 100 km/h. (a) What is this in meters per second? (b) How many miles per hour is this?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 3,
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:1",
+        "source_sha256": "db332c0ac85dcb29880fafed834d1a4c4c6bc5e98d6bb09acb0174aabb42506a",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct conversions 100 km/h≈27.8 m/s≈62.1 mph. Precision ambiguity in “roughly 100” is explicitly acknowledged.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:2",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 558,
+      "end_line": 605,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "2b34145c3159fc5620ce849e12ea1079f9d46cebdd8cd47a2dbd6095c0237db9",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "A car is traveling at a speed of $$ 33 \\ms $$. (a) What is its speed in kilometers per hour? (b) Is it exceeding the $$ 90 \\text{km/h} $$ speed limit?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2,
+        "checked": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:2",
+        "source_sha256": "2b34145c3159fc5620ce849e12ea1079f9d46cebdd8cd47a2dbd6095c0237db9",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly converts 33 m/s to about 119–120 km/h, then compares with 90 km/h. The excess-speed conclusion follows.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:3",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 607,
+      "end_line": 635,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "419999eadae81f308566b72570a045488082054edbf4c7a2ec8e17f0489d5ae4",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "Show that $$ 1.0 \\ms =3.6 \\text{km/h} $$. Hint: Show the explicit steps involved in converting $$ 1.0 \\ms =3.6 \\text{km/h.} $$",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 3,
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:3",
+        "source_sha256": "419999eadae81f308566b72570a045488082054edbf4c7a2ec8e17f0489d5ae4",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Explicit unit cancellation gives the 3600/1000=3.6 speed-conversion factor correctly.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:4",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 637,
+      "end_line": 673,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "b46bb0d580561f95b5a63f36d160ea81aaa195d28928041eb09dd4fb09d6b7a1",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 meter equals 3.281 feet.)",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1,
+        "checked": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:4",
+        "source_sha256": "b46bb0d580561f95b5a63f36d160ea81aaa195d28928041eb09dd4fb09d6b7a1",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 100 yd→300 ft→about 91.44 m using the supplied conversion factor. The field length is treated as defined.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:5",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 675,
+      "end_line": 724,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "284457e47fbc3cba74ff77a74dcf5c590105293a51717bd8f631c2fa8420d2c8",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. What are its dimensions in feet and inches? (Assume that 1 meter equals 3.281 feet.)",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 7,
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:5",
+        "source_sha256": "284457e47fbc3cba74ff77a74dcf5c590105293a51717bd8f631c2fa8420d2c8",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Both dimensions are converted using the supplied factor and guard digits retained before conversion to inches. The rounded answers are consistent with input precision.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:6",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 726,
+      "end_line": 762,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "ab316e482e133a4426ab5f00f9b0f8ed7e1b31eec1522bb38313db3a0f1ee3a5",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "What is the height in meters of a person who is 6 ft 1.0 in. tall? (Assume that 1 meter equals 39.37 in.)",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:6",
+        "source_sha256": "ab316e482e133a4426ab5f00f9b0f8ed7e1b31eec1522bb38313db3a0f1ee3a5",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct mixed-unit handling: 6 ft+1.0 in=73.0 in, then division by 39.37 in/m gives about 1.85 m.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:7",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 764,
+      "end_line": 795,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "f586e138d82a5e83a8b0710c15e21022e44415e2d6094f5ef80f216e1c59dd33",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "Mount Everest, at 29 028 feet, is the tallest mountain on the Earth. What is its height in kilometers? (Assume that 1 kilometer equals 3 281 feet.)",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 1,
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:7",
+        "source_sha256": "f586e138d82a5e83a8b0710c15e21022e44415e2d6094f5ef80f216e1c59dd33",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct conversion using the problem’s supplied height and 3281 ft/km: about 8.847 km. This verdict is about that conversion, not a verification of the current surveyed height.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:8",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 797,
+      "end_line": 834,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "2258e4c659b7b830d72f376b9f4b9f62ae151a73200ecbe6cdb7d7b608d1dff1",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "The speed of sound is measured to be $$ 342 \\ms $$ on a certain day. What is this in km/h?",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:8",
+        "source_sha256": "2258e4c659b7b830d72f376b9f4b9f62ae151a73200ecbe6cdb7d7b608d1dff1",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct two-factor speed conversion: 342 m/s×3.6≈1.23×10^3 km/h. Intermediate/final rounding accepted.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:9",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 836,
+      "end_line": 891,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "3a03262f62169eb05e656591dceeeb58f223e0d504727c52553bdc6b88c33d34",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "Tectonic plates are large segments of the Earth’s crust that move slowly. Suppose that one such plate has an average speed of 4.0 cm/year. (a) What distance does it move in 1 s at…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:9",
+        "source_sha256": "3a03262f62169eb05e656591dceeeb58f223e0d504727c52553bdc6b88c33d34",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Both requested parts follow from 4.0 cm/year: about 1.3×10^-9 m in one second and 40 km per million years.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:10",
+      "chapter": 1,
+      "file": "contents/ch1PhysicalQuantitiesAndUnits.md",
+      "line": 893,
+      "end_line": 949,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "3dde18375c7dc1bcd951ded6804b657e6ac30c56ddf0a9a379ee0dcef77fe00e",
+      "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+      "preview": "(a) Refer to [Table 3](#Table3) to determine the average distance between the Earth and the Sun. Then calculate the average speed of the Earth in its orbit in kilometers per secon…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9,
+        "checked": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicalQuantitiesAndUnits.md::problems-exercises:10",
+        "source_sha256": "3dde18375c7dc1bcd951ded6804b657e6ac30c56ddf0a9a379ee0dcef77fe00e",
+        "file_sha256": "fb04cb488e1b22432330e3753adc7b6d00f65ad1ebe126fb9d08288d784c9bea",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Circular-orbit approximation is explicit: 2πr/T≈30 km/s=3×10^4 m/s. Rechecked Table 3: it does supply 1.50×10^11 m and 3.16×10^7 s in parentheses. This supersedes the earlier mistaken note about the table lacking the precise values.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:07:10+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::check-understanding:1",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 342,
+      "end_line": 360,
+      "kind": "check-understanding",
+      "ordinal": 1,
+      "source_sha256": "5cb11af89952c82e6f608387786ceed5c87cc1416c26b24e5fa00fc04552f081",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "A friend tells you he has learned about a new law of nature. What can you know about the information even before your friend describes the law? How would the information be differ…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::check-understanding:1",
+        "source_sha256": "5cb11af89952c82e6f608387786ceed5c87cc1416c26b24e5fa00fc04552f081",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Appropriate introductory distinction: a law concisely describes a recurring physical relationship; a theory explains a broad group of phenomena. Laws also have domains of applicability.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:1",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 395,
+      "end_line": 417,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "d94195e004df828d3365187c3a783fe74d4e49d2189d700ad5810667c5e975e1",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "Models are particularly useful in relativity and quantum mechanics, where conditions are outside those normally encountered by humans. What is a model?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:1",
+        "source_sha256": "d94195e004df828d3365187c3a783fe74d4e49d2189d700ad5810667c5e975e1",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Appropriate introductory representation/model explanation. The definition is narrower than general scientific usage: models can also represent directly observable systems.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:2",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 419,
+      "end_line": 441,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "976be526466d48660ec6e95da9a04fcf9ee77dff77b1b70fd7d0ca58b744a40b",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "How does a model differ from a theory?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:2",
+        "source_sha256": "976be526466d48660ec6e95da9a04fcf9ee77dff77b1b70fd7d0ca58b744a40b",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "concern",
+        "confidence": "medium",
+        "notes": "Gives the expected introductory distinction between representation and explanatory theory. The claim that theories are always tested more thoroughly than models is too categorical; testing history is not the defining distinction.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:3",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 443,
+      "end_line": 465,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "9061577801bd04f6a0430ecc63936d55ed9bffe44995a4b04946a37384162833",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "If two different theories describe experimental observations equally well, can one be said to be more valid than the other (assuming both use accepted rules of logic)?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:3",
+        "source_sha256": "9061577801bd04f6a0430ecc63936d55ed9bffe44995a4b04946a37384162833",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correctly treats agreement with presently available observations as insufficient to distinguish empirically equivalent theories, while allowing simplicity as a preference and new tests as discriminators.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:4",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 467,
+      "end_line": 489,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "bb51f00753c414ed301a49aa3e8b5b3abaa58e6f9111810e14bca83ef4afec11",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "What determines the validity of a theory?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:4",
+        "source_sha256": "bb51f00753c414ed301a49aa3e8b5b3abaa58e6f9111810e14bca83ef4afec11",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Testability, reproducibility, and agreement with observation are appropriate criteria; the Newtonian example correctly illustrates a limited domain of applicability.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:5",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 491,
+      "end_line": 513,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "4aec02b7c35918859ec3fc183d770d0d020b3ecc478f3263231798898db9fadc",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "Certain criteria must be satisfied if a measurement or observation is to be believed. Will the criteria necessarily be as strict for an expected result as for an unexpected result?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:5",
+        "source_sha256": "4aec02b7c35918859ec3fc183d770d0d020b3ecc478f3263231798898db9fadc",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Answers the expected-versus-unexpected evidence question and correctly emphasizes independent replication/systematic-error checks. Basic methodological standards still apply equally to expected results; the stated “stricter” threshold refers to overturning established evidence.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:6",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 515,
+      "end_line": 537,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "6920c9f6805e07580e9e77a2843275670c8b0215b838b57162e3fa3567ff034b",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "Can the validity of a model be limited, or must it be universally valid? How does this compare to the required validity of a theory or a law?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:6",
+        "source_sha256": "6920c9f6805e07580e9e77a2843275670c8b0215b838b57162e3fa3567ff034b",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Correctly allows limited validity for models and also for theories/laws. Broad applicability is a useful introductory generalization rather than an intrinsic model-versus-theory hierarchy.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:7",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 539,
+      "end_line": 567,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "54a76db908529ca08948b44286017d9a9c91e3f092c050a245a625dfe70fd1b4",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "Classical physics is a good approximation to modern physics under certain circumstances. What are they?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:7",
+        "source_sha256": "54a76db908529ca08948b44286017d9a9c91e3f092c050a245a625dfe70fd1b4",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Appropriate sufficient everyday regime: slow, macroscopic objects with weak gravity. Size alone is not a universal quantum/classical boundary, but these are suitable introductory conditions.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:8",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 569,
+      "end_line": 591,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "cef5185e4c67fb210998156556042561051b176b4d71dc24c93fa7365b44c898",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "When is it **necessary** to use relativistic quantum mechanics?",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:8",
+        "source_sha256": "cef5185e4c67fb210998156556042561051b176b4d71dc24c93fa7365b44c898",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Appropriate sufficient condition for relativistic quantum mechanics: quantum systems at relativistic energies, with suitable examples. Atomic size is a heuristic, not a necessary fixed size threshold.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:9",
+      "chapter": 1,
+      "file": "contents/ch1PhysicsAnIntroduction.md",
+      "line": 593,
+      "end_line": 621,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "93599ef679e882c73f258959aef134e9d12603ea9f7e7a6ef626125c31121029",
+      "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+      "preview": "Can classical physics be used to accurately describe a satellite moving at a speed of 7500 m/s? Explain why or why not.",
+      "has_solution": true,
+      "missing_labels": [
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch1PhysicsAnIntroduction.md::conceptual-questions:9",
+        "source_sha256": "93599ef679e882c73f258959aef134e9d12603ea9f7e7a6ef626125c31121029",
+        "file_sha256": "5851f974e6a578643494f10681bdfff58a9b4c94cc1b01a8689fb052bbd076b9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct v/c=2.5×10^-5 and small relativistic scale ≈3×10^-10. Explicitly notes that precision satellite clock applications can need relativity; classical orbital mechanics is appropriate at ordinary precision.",
+        "reviewer": "Codex substantive source review",
+        "reviewed_at": "2026-10-22T19:04:19+00:00"
+      },
+      "previous_review_count": 1
+    }
+  ]
+}

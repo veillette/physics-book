@@ -1252,7 +1252,7 @@ $$R_{\text{min}} = \frac{1}{0.04921 \text{ Ω}^{-1}} = 20.3 \text{ Ω}$$
 
 **Discussion**
 
-The largest resistance (786 Ω) is slightly larger than the sum would suggest from just the two smaller resistors, because the 700-Ω resistor dominates. The smallest resistance (20.3 Ω) is smaller than the smallest individual resistor (36.0 Ω), as it must be for parallel resistors. The parallel combination is most strongly influenced by the smaller resistors since they provide lower-resistance paths for current. The ratio of maximum to minimum is about 39:1, showing the dramatic range achievable with series versus parallel connections.
+The largest resistance (786 Ω) is dominated by the 700-Ω resistor; the two smaller resistors add only 86 Ω. The smallest resistance (20.3 Ω) is smaller than the smallest individual resistor (36.0 Ω), as it must be for parallel resistors. The parallel combination is most strongly influenced by the smaller resistors since they provide lower-resistance paths for current. The ratio of maximum to minimum is about 39:1, showing the dramatic range achievable with series versus parallel connections.
 
 (a) Maximum: 786 Ω (all in series). (b) Minimum: 20.3 Ω (all in parallel).
 

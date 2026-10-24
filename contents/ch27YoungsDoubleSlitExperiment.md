@@ -965,7 +965,7 @@ The results show logical progression: the first minimum at 5.0° falls between t
 
 ::: solution
 
-For small angles  $$\sin \theta -\tan \theta \approx \theta  \left(\text{in radians}\right) $$.
+For small angles  $$\sin \theta \approx \tan \theta \approx \theta  \left(\text{in radians}\right) $$.
 
 For two adjacent fringes we have,
 

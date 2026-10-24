@@ -81,9 +81,9 @@ export default {
       width: 680,
       height: 420,
       title: 'Heating ice to steam: temperature versus time',
-      desc: 'Temperature in degrees Celsius versus time in seconds for 0.200 kg of ice heated at a constant 20.0 kJ/s. The ice warms from −20 °C to 0 °C in 0.418 s; the temperature stays at 0 °C while the ice melts, until 3.76 s; the water warms from 0 °C to 100 °C, reaching it at 7.95 s; the temperature stays at 100 °C while the water boils, until 30.5 s; finally the steam warms from 100 °C to 130 °C, reaching it at 31.0 s. The two flat plateaus are the phase changes; the boiling plateau is by far the longest because the latent heat of vaporization is largest.',
+      desc: 'Temperature in degrees Celsius versus time in seconds for 0.200 kg of ice heated at a constant 20.0 kJ/s. The ice warms from −20 °C to 0 °C in 0.418 s; the temperature stays at 0 °C while the ice melts, until 3.76 s; the water warms from 0 °C to 100 °C, reaching it at 7.95 s; the temperature stays at 100 °C while the water boils, until 30.5 s; finally the steam warms from 100 °C to 130 °C, reaching it at 31.1 s. The two flat plateaus are the phase changes; the boiling plateau is by far the longest because the latent heat of vaporization is largest.',
     });
-    const t = [0, 0.418, 3.758, 7.944, 30.504, 30.96];
+    const t = [0, 0.418, 3.758, 7.944, 30.504, 31.11];
     const T = [-20, 0, 0, 100, 100, 130];
     const g = new Plot(svg, {
       x: 90,

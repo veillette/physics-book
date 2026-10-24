@@ -1756,6 +1756,8 @@ Third Balmer line ( $$n=5 $$ to $$n=2 $$ ): $${\lambda }_{0}=434 \text{ nm} $$
  $${\lambda }_{\text{obs}}=434 \text{ nm}\times 1.050=456 \text{ nm} $$
 </div>
 
+The corresponding photon energies, from $$E = hc/\lambda$$ with $$hc = 1240 \text{ eV·nm}$$, are 1.80 eV, 2.43 eV, and 2.72 eV, each smaller than the unshifted energies (1.89 eV, 2.55 eV, and 2.86 eV) by the same factor, 1/1.050.
+
 **Part (b):** Determine if these wavelengths follow $$\frac{1}{\lambda }=R\text{'}\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ with a modified Rydberg constant $$R\text{'} $$ .
 
 Since $${\lambda }_{\text{obs}}={\lambda }_{0}\left(1+\frac{v}{c}\right) $$ , we have:

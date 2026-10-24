@@ -180,7 +180,7 @@ The angles are consistent with the figure. Only the angle relative to the $$z $$
 proper angle with the $$z $$ -axis. Thus the angular momentum vectors lie on
 cones as illustrated. This behavior is not observed on the large scale. To see
 how the correspondence principle holds here, consider that the smallest angle (
-$${\theta }_{1} $$ in the example) is for the maximum value of $${m}_{l}=0 $$ ,
+$${\theta }_{1} $$ in the example) is for the maximum value of $${m}_{l} $$ ,
 namely $${m}_{l}=l $$ . For that smallest angle,
 
 <div class="equation" >
@@ -608,7 +608,7 @@ In summary:
 
 **Discussion**
 
-This problem demonstrates the interconnected nature of quantum numbers in atoms. The value of $$ m_l = 1 $$ tells us about the orientation of the electron's orbital angular momentum but doesn't uniquely specify the state of the electron. For example, the electron could be in a 2p orbital ( $$ n = 2, l = 1 $$ ), a 3p orbital ( $$ n = 3, l = 1 $$ ), a 3d orbital ( $$ n = 3, l = 2 $$ ), or many other possibilities. Each of these states would have different energies and different probability distributions for the electron's position. The fact that $$ m_l = 1 $$ excludes only s-orbitals ( $$ l = 0 $$ ) but allows all others shows that $$ m_l $$ specifies orientation rather than the magnitude of angular momentum. The independence of $$ m_s $$ reflects the fact that electron spin is an intrinsic property not related to orbital motion. Understanding these constraints is essential for writing electron configurations and predicting the chemical and spectroscopic properties of atoms.
+This problem demonstrates the interconnected nature of quantum numbers in atoms. The value of $$ m_l = 1 $$ tells us about the orientation of the electron's orbital angular momentum but doesn't uniquely specify the state of the electron. For example, the electron could be in a 2p orbital ( $$ n = 2, l = 1 $$ ), a 3p orbital ( $$ n = 3, l = 1 $$ ), a 3d orbital ( $$ n = 3, l = 2 $$ ), or many other possibilities. These states have different probability distributions for the electron's position, and they can differ in energy (2p versus 3p); in hydrogen's simple model, however, 3p and 3d have the same energy, because the energy depends only on $$ n $$ . The fact that $$ m_l = 1 $$ excludes only s-orbitals ( $$ l = 0 $$ ) but allows all others shows that $$ m_l $$ specifies orientation rather than the magnitude of angular momentum. The independence of $$ m_s $$ reflects the fact that electron spin is an intrinsic property not related to orbital motion. Understanding these constraints is essential for writing electron configurations and predicting the chemical and spectroscopic properties of atoms.
 
 :::
 

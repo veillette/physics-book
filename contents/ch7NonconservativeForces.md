@@ -487,11 +487,11 @@ The distance along the slope is:
  $$ d = \frac{h}{\sin{\theta}} = \frac{22.0\m}{\sin{2.5^\circ}} = \frac{22.0\m}{0.0436} = 504\m $$
 </div>
 
-The work done by friction equals the thermal energy:
+Friction points opposite the displacement, so the work it does on the car is negative, $$ W_{f} = -fd $$. The thermal energy generated equals the size of that work:
 
 <div class="equation">
 $$ \begin{array}{lll}
-W_{f} &=& fd\\
+E_{\text{thermal}} &=& -W_{f} = fd\\
 f &=& \frac{E_{\text{thermal}}}{d} = \frac{1.884 \times 10^{5}\J}{504\m}\\
 f &=& 374\N \approx 3.7 \times 10^{2}\N
 \end{array} $$
@@ -499,11 +499,11 @@ f &=& 374\N \approx 3.7 \times 10^{2}\N
 
 **Discussion**
 
-Part (a) reveals that without friction, the car could coast up to 47.6 m—roughly the height of a 15-story building. This is a surprisingly large height, demonstrating the significant amount of energy contained in a moving car. At 110 km/h (about 68 mph), typical highway speed, the car possesses $$ 3.51 \times 10^5 $$ J of kinetic energy.
+Part (a) reveals that without friction, the car could coast up to 47.6 m—roughly the height of a 15-story building. This is a surprisingly large height, demonstrating the significant amount of energy contained in a moving car. At 110 km/h (about 68 mph), typical highway speed, the car possesses $$ 3.50 \times 10^5 $$ J of kinetic energy.
 
-In part (b), we see that friction dissipates $$ 1.9 \times 10^5 $$ J, which is 54% of the car's initial kinetic energy. This means friction removes more than half the car's energy, reducing the maximum coasting height from 47.8 m to only 22.0 m—less than half the frictionless height. This substantial energy loss illustrates why cars cannot coast very far uphill with the engine off, and why fuel efficiency is so important in hilly terrain.
+In part (b), we see that friction dissipates $$ 1.9 \times 10^5 $$ J, which is 54% of the car's initial kinetic energy. This means friction removes more than half the car's energy, reducing the maximum coasting height from 47.6 m to only 22.0 m—less than half the frictionless height. This substantial energy loss illustrates why cars cannot coast very far uphill with the engine off, and why fuel efficiency is so important in hilly terrain.
 
-Part (c) shows the friction force is about 370 N (approximately 84 pounds). This might seem modest for a 750-kg car, but it acts over a long distance of 504 m. The shallow $$ 2.5\text{ °} $$ slope means the car travels a horizontal distance of nearly 500 m while climbing 22 m vertically. The work done by friction, $$ W_f = fd = (380\text{ N})(504\text{ m}) = 1.9 \times 10^5\text{ J} $$, accumulates to a substantial amount over this distance.
+Part (c) shows the friction force is about 370 N (approximately 84 pounds). This might seem modest for a 750-kg car, but it acts over a long distance of 504 m. The shallow $$ 2.5\text{ °} $$ slope means the car travels a horizontal distance of nearly 500 m while climbing 22 m vertically. The work done by friction, $$ W_f = -fd = -(374\text{ N})(504\text{ m}) = -1.9 \times 10^5\text{ J} $$, accumulates to a substantial amount over this distance.
 
 Comparing parts (a) and (b) demonstrates that friction is a major factor in real-world motion. Engineers must account for these losses when designing vehicles, which is why modern cars use low-friction tires, aerodynamic shapes, and efficient drivetrains to minimize energy waste.
 

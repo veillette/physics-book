@@ -208,10 +208,10 @@ directly—humans are more attuned to energies on the order of joules. But looki
 at the energy in electron volts, we can see that this photon has enough energy
 to affect atoms and molecules. A DNA molecule can be broken with about 1 eV of
 energy, for example, and typical atomic and molecular energies are on the order
-of eV, so that the UV photon in this example could have biological effects. The
+of eV, so that the violet photon in this example could have biological effects. The
 ejected electron (called a _photoelectron_) has a rather low energy, and it
 would not travel far, except in a vacuum. The electron would be stopped by a
-retarding potential of but 0.26 eV. In fact, if the photon wavelength were
+retarding potential of but 0.26 V. In fact, if the photon wavelength were
 longer and its energy less than 2.71 eV, then the formula would give a negative
 kinetic energy, an impossibility. This simply means that the 420-nm photons with
 their 2.96-eV energy are not much above the frequency threshold. You can show

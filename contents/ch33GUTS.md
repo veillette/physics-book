@@ -265,9 +265,9 @@ $$E_{\gamma} = \frac{E_{\text{total}}}{2} = \frac{135.0 \text{ MeV}}{2} = 67.5 \
 
 This symmetric two-photon decay is characteristic of neutral particles that are their own antiparticles, like the $${\pi}^{0}$$. The decay proceeds via the electromagnetic force—the quark-antiquark pair in the pion ($$u\overline{u}$$ or $$d\overline{d}$$) annihilates to produce two photons. The extremely short lifetime of the $${\pi}^{0}$$ ($$8.4 \times 10^{-17}$$ s) is consistent with electromagnetic decay.
 
-The equal energy sharing between the two photons is a direct consequence of momentum conservation and the symmetry of the decay. In the pion's rest frame, there is no preferred direction, so the photons must emerge back-to-back with equal energies. If the pion were moving, the photon energies would be different in the lab frame due to Doppler shifting, but in the pion's rest frame they would still be equal.
+The equal energy sharing between the two photons is a direct consequence of momentum conservation and the symmetry of the decay. In the pion's rest frame, there is no preferred direction, so the photons must emerge back-to-back with equal energies. If the pion were moving, the laboratory photon energies would generally differ because of the Doppler shift (they are equal only for photons emitted at right angles to the motion in the pion's frame), but in the pion's rest frame they are always equal.
 
-This decay mode occurs nearly 99% of the time for the $${\pi}^{0}$$. The photons produced have energies in the gamma-ray range (67.5 MeV is much higher than typical atomic transition energies). These high-energy photons can be detected in particle detectors, and their back-to-back emission pattern is a signature of $${\pi}^{0}$$ decay. This process is important in high-energy physics experiments and also occurs in cosmic ray showers when high-energy protons strike atmospheric nuclei, producing pions that quickly decay into photons.
+This decay mode occurs nearly 99% of the time for the $${\pi}^{0}$$. The photons produced have energies in the gamma-ray range (67.5 MeV is much higher than typical atomic transition energies). These high-energy photons can be detected in particle detectors, and their back-to-back emission in the pion's rest frame is a signature of $${\pi}^{0}$$ decay. This process is important in high-energy physics experiments and also occurs in cosmic ray showers when high-energy protons strike atmospheric nuclei, producing pions that quickly decay into photons.
 
 :::
 
@@ -540,7 +540,7 @@ $$\Delta t = 6.0 \times 10^{-6} \text{ years} \times 3.16 \times 10^7 \text{ s/y
 
 **Discussion**
 
-The enormous $$\gamma$$ factor of $$10^5$$ shows that despite having a tiny mass (7 eV/$$c^2$$, about 70,000 times smaller than an electron), the neutrino with 700 keV kinetic energy travels at 99.99999999995% the speed of light—extraordinarily close to $$c$$.
+The enormous $$\gamma$$ factor of $$10^5$$ shows that despite having a tiny mass (7 eV/$$c^2$$, about 70,000 times smaller than an electron), the neutrino with 700 keV kinetic energy travels at 99.999999995% the speed of light—extraordinarily close to $$c$$.
 
 The photon arrives only about 3 minutes sooner after a journey of 120,000 years! This tiny difference is completely negligible compared to the uncertainties in when specific neutrinos and photons were emitted and the detection efficiency. The fact that neutrinos from SN 1987A were detected within hours of the optical brightening places strong constraints on the neutrino mass but cannot determine it precisely.
 
@@ -573,7 +573,7 @@ To construct a problem about ultrahigh-energy cosmic rays, we need to specify re
 
 **Sample Problem Construction**
 
-**Problem:** A cosmic ray proton strikes Earth's atmosphere and creates an extensive air shower. Ground detectors observe approximately $$2.5 \times 10^{5}$$ particles per square meter over a circular area of radius 500 meters. If the average particle mass is 200 MeV/$$c^2$$ (mostly pions, muons, and electrons/positrons), estimate the energy of the primary cosmic ray.
+**Problem:** A cosmic ray proton strikes Earth's atmosphere and creates an extensive air shower. Ground detectors observe approximately $$2.5 \times 10^{5}$$ particles per square meter over a circular area of radius 500 meters. If each shower particle (mostly pions, muons, and electrons/positrons) carries an average total energy of about 200 MeV, rest energy plus kinetic energy, and these particles carry most of the primary's energy, estimate the energy of the primary cosmic ray.
 
 **Solution Approach:**
 
@@ -589,10 +589,10 @@ $$A = \pi r^2 = \pi (500 \text{ m})^2 = 7.85 \times 10^5 \text{ m}^2$$
 $$N = (2.5 \times 10^5 \text{ particles/m}^2)(7.85 \times 10^5 \text{ m}^2) = 1.96 \times 10^{11} \text{ particles}$$
 </div>
 
-3. **Calculate total energy (assuming most energy goes into particle rest masses):**
+3. **Calculate total energy (assuming the shower particles carry most of the energy):**
 
 <div class="equation">
-$$E \approx N \times m_{\text{avg}}c^2 = (1.96 \times 10^{11})(200 \text{ MeV}) = 3.92 \times 10^{13} \text{ MeV}$$
+$$E \approx N E_{\text{avg}} = (1.96 \times 10^{11})(200 \text{ MeV}) = 3.92 \times 10^{13} \text{ MeV}$$
 </div>
 
 4. **Convert to eV and joules:**
@@ -613,7 +613,7 @@ This constructed problem illustrates the extraordinary energies of ultrahigh-ene
 
 1. **Particle density:** Realistic values range from $$10^4$$ to $$10^6$$ particles/m$$^2$$ depending on primary energy
 2. **Shower extent:** Can range from hundreds of meters ($$10^{18}$$ eV) to several kilometers ($$10^{20}$$ eV)
-3. **Average particle mass:** Most shower particles are pions (140 MeV), muons (106 MeV), and electrons (0.5 MeV); 200 MeV/$$c^2$$ is reasonable
+3. **Average particle energy:** Most shower particles are pions (140 MeV/$$c^2$$), muons (106 MeV/$$c^2$$), and electrons (0.5 MeV/$$c^2$$). Their rest energies average less than 140 MeV, so an average of 200 MeV per particle must include their kinetic energy
 4. **Energy distribution:** Most energy goes into particle production, though some is lost to neutrinos and undetected particles
 
 Such cosmic rays pose fundamental questions: What accelerates particles to these energies? Candidates include supermassive black holes, active galactic nuclei, or exotic physics. The GZK cutoff (Greisen-Zatsepin-Kuzmin limit) predicts cosmic rays above $$\sim 5 \times 10^{19}$$ eV should be rare due to interactions with cosmic microwave background radiation, yet some ultra-high-energy events above this limit have been observed, making them among the most mysterious phenomena in astrophysics.
@@ -642,11 +642,11 @@ detector substance.
 
 **Strategy**
 
-Electron decay is not observed in nature and would violate charge conservation (unless it decays into something with the same charge). However, some extensions of the Standard Model predict extremely rare processes. We'll construct a problem based on detecting such hypothetical decays using realistic detector parameters.
+Electron decay is not observed in nature. The electron is the lightest charged particle, so any decay of it would violate charge conservation. However, some extensions of the Standard Model predict extremely rare processes. We'll construct a problem based on detecting such hypothetical decays using realistic detector parameters.
 
 **Sample Problem Construction**
 
-**Problem:** Suppose a theoretical extension of the Standard Model predicts that electrons might decay via a process with a half-life of $$10^{35}$$ years (far longer than the proton decay lifetime). You want to design a detector to observe at least one electron decay per year. Assuming your detector uses water (H₂O) and has 80% detection efficiency, how many kilograms of water are needed?
+**Problem:** Suppose a theoretical extension of the Standard Model predicts that electrons might decay via a process with a half-life of $$10^{35}$$ years (far longer than current lower limits on the proton lifetime). You want to design a detector that records an average of one electron decay per year. Assuming your detector uses water (H₂O) and has 80% detection efficiency, how many kilograms of water are needed?
 
 **Solution Approach:**
 
@@ -722,7 +722,7 @@ This constructed problem demonstrates the enormous challenge of detecting extrem
 4. **Background noise:** Real detectors must distinguish signal from cosmic rays, radioactivity, and other backgrounds
 5. **Observation time:** Longer observation times allow smaller detectors
 
-**Fundamental implications:** Electron decay would violate both charge conservation and lepton number conservation, fundamental principles never observed to be violated. Its observation would revolutionize physics, suggesting new physics beyond the Standard Model. The fact that no electron decay has been observed despite sensitive searches places experimental lower limits on the electron lifetime exceeding $$10^{28}$$ years, making the electron one of the most stable particles known—possibly absolutely stable. This stability is deeply connected to charge conservation, one of the most fundamental symmetries in nature.
+**Fundamental implications:** Electron decay would violate charge conservation, a principle never observed to be violated. Whether it would also violate lepton number depends on the products; $$e^{-} \to \nu_e + \gamma$$, for example, would conserve lepton number. With an average of one detected decay per year, the chance of seeing at least one in a given year is about 63%. Its observation would revolutionize physics, suggesting new physics beyond the Standard Model. The fact that no electron decay has been observed despite sensitive searches places experimental lower limits on the electron lifetime exceeding $$10^{28}$$ years, making the electron one of the most stable particles known—possibly absolutely stable. This stability is deeply connected to charge conservation, one of the most fundamental symmetries in nature.
 
 :::
 

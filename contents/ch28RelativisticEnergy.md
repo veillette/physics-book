@@ -487,7 +487,7 @@ Check Your Understanding
 
 ::: problem
 
-A photon decays into an electron-positron pair. What is the kinetic energy of the electron if its speed is  $$0.992c $$ ?
+A photon passing near a nucleus produces an electron-positron pair. (A photon cannot do this in empty space, because energy and momentum could not both be conserved.) What is the kinetic energy of the electron if its speed is  $$0.992c $$ ?
 
 :::
 
@@ -630,7 +630,7 @@ $$E_0 = \frac{8.20 \times 10^{-14} \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV
 
 **Discussion**
 
-The electron's rest energy of 0.512 MeV (or 511 keV) is one of the most important constants in physics. This value represents the minimum energy required to create an electron-positron pair from pure energy, and it's the energy released when an electron and positron annihilate. The 0.512 MeV value is so fundamental that particle physicists often use it as a unit comparison—energies much greater than 0.512 MeV indicate relativistic electrons. This rest energy is also why beta decay can occur: when a neutron decays to a proton, the 1.29 MeV mass-energy difference is more than enough to create the electron (0.512 MeV) plus kinetic energy.
+The electron's rest energy of 0.512 MeV (or 511 keV) is one of the most important constants in physics. Twice this value, 1.02 MeV, is the minimum energy needed to create an electron–positron pair, and the energy released when an electron and positron annihilate at rest. The 0.512 MeV value is so fundamental that particle physicists often use it as a unit comparison—energies much greater than 0.512 MeV indicate relativistic electrons. This rest energy is also why beta decay can occur: when a neutron decays to a proton, the 1.29 MeV mass-energy difference is more than enough to create the electron (0.512 MeV) plus kinetic energy.
 
 :::
 
@@ -662,7 +662,7 @@ $$E_0 = \frac{1.503 \times 10^{-10} \text{ J}}{1.602 \times 10^{-13} \text{ J/Me
 
 **Discussion**
 
-The proton's rest mass energy is approximately 938 MeV, a fundamental constant in particle physics. This is the minimum energy required to create a proton-antiproton pair from pure energy, and it represents the energy that would be released if a proton could be completely annihilated. The value 938 MeV is used so frequently in nuclear and particle physics that it's worth memorizing. It's about 1836 times larger than the electron's rest energy (0.511 MeV), reflecting the proton's greater mass.
+The proton's rest mass energy is approximately 938 MeV, a fundamental constant in particle physics. Twice this value, about 1.88 GeV, is the minimum energy needed to create a proton–antiproton pair, and 938 MeV is the energy released from the proton's own mass when it annihilates with an antiproton. The value 938 MeV is used so frequently in nuclear and particle physics that it's worth memorizing. It's about 1836 times larger than the electron's rest energy (0.511 MeV), reflecting the proton's greater mass.
 
 :::
 
@@ -1480,19 +1480,18 @@ At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v =
 
 **Strategy**
 
-Find the oil mass and use the table's specific energy, $$4.2\times10^7\text{ J/kg}$$, consistently throughout.
+Find the oil mass, and take the energy released by one barrel of crude oil, $$5.9\times10^9\text{ J}$$, from the linked table.
 
 **Solution**
 
-**(a)** $$m=\rho V=(750\text{ kg/m}^3)(0.200\text{ m}^3)=150\text{ kg}$$. The released energy is $$E=(150\text{ kg})(4.2\times10^7\text{ J/kg})=6.3\times10^9\text{ J}$$, so
+**(a)** The table gives $$E=5.9\times10^9\text{ J}$$ per barrel, so
+$$\Delta m=\frac{E}{c^2}=\frac{5.9\times10^9\text{ J}}{9.00\times10^{16}\text{ m}^2/\text{s}^2}=6.6\times10^{-8}\text{ kg}.$$
 
-$$\Delta m=\frac{E}{c^2}=\frac{6.3\times10^9}{9.00\times10^{16}}\text{ kg}=7.0\times10^{-8}\text{ kg}.$$
-
-**(b)** $$\Delta m/m=(7.0\times10^{-8})/150=4.7\times10^{-10}$$.
+**(b)** The oil's mass is $$m=\rho V=(750\text{ kg/m}^3)(0.200\text{ m}^3)=150\text{ kg}$$, so $$\Delta m/m=(6.6\times10^{-8}\text{ kg})/(150\text{ kg})=4.4\times10^{-10}$$.
 
 **Discussion**
 
-This is about 70 μg of mass equivalent, an extremely small fraction of the original oil mass. Chemical reactions obey mass–energy equivalence, but their fractional mass changes are much smaller than those of nuclear reactions.
+This is about 66 μg of mass equivalent, an extremely small fraction of the original oil mass. Chemical reactions obey mass–energy equivalence, but their fractional mass changes are much smaller than those of nuclear reactions.
 
 :::
 
@@ -1727,7 +1726,7 @@ This is why nuclear rockets were seriously considered in the 1960s (Project Orio
 - Preventing radioactive contamination
 - Political and safety concerns about launching nuclear materials
 
-Chemical rockets burn thousands of tons of fuel to reach orbit because chemical reactions convert only $$~10^{-10}$$ of fuel mass to energy, while nuclear reactions could theoretically convert $$~10^{-3}$$ (10,000 times more efficient). Modern nuclear rocket research focuses on nuclear thermal (heating propellant) rather than direct mass conversion.
+Chemical rockets burn thousands of tons of fuel to reach orbit because chemical reactions convert only $$~10^{-10}$$ of fuel mass to energy, while nuclear reactions could theoretically convert $$~10^{-3}$$ (about 10 million times more efficient). Modern nuclear rocket research focuses on nuclear thermal (heating propellant) rather than direct mass conversion.
 
 :::
 

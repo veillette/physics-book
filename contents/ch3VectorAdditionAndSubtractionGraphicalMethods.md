@@ -165,7 +165,7 @@ order in which the vectors are added. Therefore, we could add the vectors in any
 order as illustrated in [Figure 12](#Figure12) and we will still get the same
 solution.
 
-![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.svg)
+![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B, also with positive slope (pointing north of east), from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.svg)
 {: #Figure12}
 
 Here, we see that when the same vectors are added in a different order, the

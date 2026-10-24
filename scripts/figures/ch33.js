@@ -1318,7 +1318,8 @@ export default {
     up(365, 335);
     up(430, 415);
     svg.path('M 150 427 Q 150 300 217 300 Q 285 300 285 427', { color: COLORS.black, width: 2 });
-    midArrow(svg, [150, 427], [150, 380], { color: COLORS.black, size: 16 });
+    // The incoming anti-d arrow points against its motion (fermion-number flow).
+    midArrow(svg, [150, 380], [150, 427], { color: COLORS.black, size: 16 });
     midArrow(svg, [285, 427], [285, 380], { color: COLORS.black, size: 16 });
     gluon(svg, [75, 270], [168, 322], { n: 6, a: 6 });
     gluon(svg, [267, 322], [362, 270], { n: 6, a: 6 });

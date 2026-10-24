@@ -1260,7 +1260,7 @@ This is 4 times the original area ($$4 \times 3.310 \times 10^{-6} \text{ m}^2 =
 Using the electron density from Example 3 ($$n = 8.342 \times 10^{28}$$ electrons/m³ for copper):
 
 <div class="equation">
-$$v_d = \frac{I}{nqA} = \frac{20.0 \text{ A}}{(8.342 \times 10^{28} \text{ /m}^3)(1.60 \times 10^{-19} \text{ C})(1.324 \times 10^{-5} \text{ m}^2)}$$
+$$v_d = \frac{I}{nqA} = \frac{20.0 \text{ A}}{(8.342 \times 10^{28} \text{ /m}^3)(-1.60 \times 10^{-19} \text{ C})(1.324 \times 10^{-5} \text{ m}^2)}$$
 </div>
 
 <div class="equation">
@@ -1269,7 +1269,7 @@ $$v_d = -1.13 \times 10^{-4} \text{ m/s}$$
 
 **Discussion**
 
-The drift velocity is exactly 1/4 of the original value ($$-4.53 \times 10^{-4}$$ m/s ÷ 4 = $$-1.13 \times 10^{-4}$$ m/s), as expected since quadrupling the area while keeping current constant reduces drift velocity proportionally. This demonstrates why larger wires can safely carry higher currents—the electrons move more slowly, reducing collisions and heat generation per unit volume.
+The drift velocity is exactly 1/4 of the original value ($$-4.53 \times 10^{-4}$$ m/s ÷ 4 = $$-1.13 \times 10^{-4}$$ m/s), as expected since quadrupling the area while keeping current constant reduces drift velocity proportionally. This demonstrates why larger wires can safely carry higher currents: the same current is spread over a larger area, so the current density is lower and less power is dissipated in each unit volume of wire.
 
 The drift velocity in the larger copper wire is $$-1.13 \times 10^{-4}$$ m/s (about 0.113 mm/s).
 

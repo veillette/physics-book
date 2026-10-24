@@ -229,7 +229,7 @@ Now the electricity cost is
  $$\text{cost}=\left(60.0 \text{kW}\cdot \text{h}\right)\left(\text{ \$0.12}\text{/kW}\cdot \text{h}\right)=\text{ \$}7.20. $$
 </div>
 
-The total cost will be \$7.20 for 1000 hours (about one-half year at 5 hours per day).
+Adding the 25-cent cost of the bulb, the total cost will be \$7.20 + \$0.25 = \$7.45 for 1000 hours (about one-half year at 5 hours per day).
 
 **Solution for (b)**
 

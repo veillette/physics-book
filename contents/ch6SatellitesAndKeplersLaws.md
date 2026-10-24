@@ -611,12 +611,12 @@ From Table 1, we can read the $$r^3/T^2$$ values directly:
 - Io: $$r^3/T^2 = 3.19 \times 10^{21} \text{ km}^3/\text{y}^2$$
 
 <div class="equation">
-$$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21} \text{m}^3/\text{s}^2}{1.01 \times 10^{19} \text{m}^3/\text{s}^2} = 316$$
+$$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21} \text{ km}^3/\text{y}^2}{1.01 \times 10^{19} \text{ km}^3/\text{y}^2} = 316$$
 </div>
 
 **Discussion**
 
-Jupiter's mass is approximately 316 times Earth's mass. This enormous mass difference reflects Jupiter's status as a gas giant - it contains more than twice the mass of all other planets in our solar system combined. The fact that we can calculate this mass ratio simply from observational data in Table 1 demonstrates the elegance and power of Kepler's laws. Remarkably, Jupiter is so massive that the Sun-Jupiter center of mass actually lies slightly outside the Sun's surface, making it almost a binary star system rather than a simple planet-star system.
+Jupiter's mass is approximately 316 times Earth's mass. This enormous mass difference reflects Jupiter's status as a gas giant - it contains more than twice the mass of all other planets in our solar system combined. The fact that we can calculate this mass ratio simply from observational data in Table 1 demonstrates the elegance and power of Kepler's laws. Remarkably, Jupiter is massive enough that the Sun–Jupiter center of mass lies just outside the Sun's surface, so the Sun itself moves in a small orbit about that point.
 
 ::::
 
@@ -648,8 +648,8 @@ very massive black holes at the centers of some galaxies.
 
 (a) Convert the given values to SI units:
 
-- Galaxy mass: $$M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} \kg = 1.59 \times 10^{42} \kg$$ kg
-- Orbital radius: $$r = 6.0 \times 10^4 \text{ly} \times 9.46 \times 10^{15} \text{m/ly} = 5.68 \times 10^{20} \m$$ m
+- Galaxy mass: $$M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} \kg = 1.59 \times 10^{42} \kg$$
+- Orbital radius: $$r = 6.0 \times 10^4 \text{ly} \times 9.46 \times 10^{15} \text{m/ly} = 5.68 \times 10^{20} \m$$
 
 Calculate the orbital period:
 
@@ -667,7 +667,7 @@ $$T = 8.24 \times 10^{15}\text{ s} = 8.24 \times 10^{15}\text{ s} \times \frac{1
 
 (b) If the actual period is $$6.0 \times 10^7$$ years, calculate the implied mass:
 
-Convert period to seconds: $$T = 6.0 \times 10^7 \text{y} \times 3.156 \times 10^7 \text{s/y} = 1.89 \times 10^{15} \s$$ s
+Convert period to seconds: $$T = 6.0 \times 10^7 \text{y} \times 3.156 \times 10^7 \text{s/y} = 1.89 \times 10^{15} \s$$
 
 <div class="equation">
 $$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (5.68 \times 10^{20} \m)^3}{(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(1.89 \times 10^{15} \s)^2}$$
@@ -741,6 +741,14 @@ $$v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3 \ms)\sqrt{2}
 The next steps keep a guard digit, $$v_{\text{rel}} = 1.046 \times 10^4\text{ m/s}$$, so that rounding does not shift the third figure of later results.
 </div>
 
+For the direction, take the satellite's velocity along $$+x$$ and the rivet's along $$+y$$, both with speed $$v$$. The rivet's velocity relative to the satellite is
+
+<div class="equation">
+$$\vb{v}_{\text{rel}} = \vb{v}_{\text{rivet}} - \vb{v}_{\text{sat}} = (-v,\ +v),$$
+</div>
+
+so it points $$45^\circ$$ from the rivet's direction of motion, toward the direction opposite the satellite's motion ($$135^\circ$$ from the satellite's velocity).
+
 (c) Collision duration (time for rivet to pass through):
 
 <div class="equation">
@@ -765,7 +773,7 @@ $$E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3} \kg)(1.04
 
 **Discussion**
 
-This problem illustrates the serious hazard posed by space debris. Even though the rivet is tiny (3 mm, 0.5 g), the relative velocity of 10.5 km/s creates enormous forces and energy. The estimated average force of 18.4 million newtons during the sub-microsecond collision is equivalent to the weight of about 1,880 tons! The 27.6 kJ of energy released is comparable to a small explosive. This is why even paint flecks in orbit can damage spacecraft windows, and why tracking and avoiding space debris is critical for satellite and space station safety. The problem also demonstrates why the International Space Station has shielding and why astronauts performing spacewalks face real danger from hypervelocity impacts.
+This problem illustrates the serious hazard posed by space debris. Even though the rivet is tiny (3 mm, 0.5 g), the relative velocity of 10.5 km/s creates enormous forces and energy. The estimated average force of 18.2 million newtons during the sub-microsecond collision is equivalent to the weight of about 1,860 metric tons! The 27.4 kJ of energy released is comparable to a small explosive. This is why even paint flecks in orbit can damage spacecraft windows, and why tracking and avoiding space debris is critical for satellite and space station safety. The problem also demonstrates why the International Space Station has shielding and why astronauts performing spacewalks face real danger from hypervelocity impacts.
 
 ::::
 

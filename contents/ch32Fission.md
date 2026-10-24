@@ -248,9 +248,10 @@ the energy produced by the fusion of a kilogram mixture of deuterium and tritium
 as seen in [[Example 1]](../contents/ch32Fusion#Example1). Even though each fission reaction
 yields about ten times the energy of a fusion reaction, the energy per kilogram
 of fission fuel is less, because there are far fewer moles per kilogram of the
-heavy nuclides. Fission fuel is also much more scarce than fusion fuel, and less
-than 1% of uranium $$ \left( \text{the} {}^{235}\text{U} \right) $$ is readily
-usable.
+heavy nuclides. Fission fuel is also limited: less than 1% of uranium
+$$ \left( \text{the} {}^{235}\text{U} \right) $$ is readily usable. Deuterium
+for fusion is plentiful, but the tritium in a D–T mixture is rare and must be
+bred from lithium.
 
 :::
 
@@ -428,8 +429,10 @@ given  $$m\left({}^{96}\text{Sr}\right)=95.921750 \text{u} $$
 
 (a) 177.1 MeV
 
-(b) Because the gain of an external neutron yields about 6 MeV, which is the
-average $$BE/A $$ for heavy nuclei.
+(b) The two reactions differ only by the extra neutron, which ends up bound in
+$${}^{96}\text{Sr}$$ instead of being free beside $${}^{95}\text{Sr}$$. The
+extra energy is the binding energy of that last neutron in $${}^{96}\text{Sr}$$:
+$$[m({}^{95}\text{Sr})+m_n-m({}^{96}\text{Sr})]c^2=(0.006303\text{ u})(931.5\text{ MeV/u})=5.87\text{ MeV}$$.
 
 (c)  $$A=1+238=96+140+1+1+1, Z=92=38+54, \text{efn}=0=0 $$
 
@@ -621,13 +624,13 @@ The final nucleus is $${}^{233}\text{U}$$.
 
 (d) For $${}^{233}\text{U}$$: $$Z = 92$$, $$N = 233 - 92 = 141$$ (odd) ✓
 
-Having an odd number of neutrons makes $${}^{233}\text{U}$$ fissile with thermal neutrons.
+With an odd number of neutrons, $${}^{233}\text{U}$$ gains extra pairing energy when it captures a neutron, enough to exceed its fission barrier, so it fissions with thermal neutrons.
 
 (e) The half-life of $${}^{233}\text{U}$$ is 159,000 years—long enough to be extracted, processed, fabricated into fuel, and used in reactors, making it an excellent fission fuel.
 
 **Discussion**
 
-This thorium fuel cycle is an important alternative to the uranium-plutonium cycle. Thorium is 3-4 times more abundant than uranium, and $${}^{233}\text{U}$$ produces less long-lived radioactive waste than $${}^{239}\text{Pu}$$. The breeding process parallels plutonium breeding: fertile material captures a neutron, then undergoes two beta decays to reach the fissile isotope. India and China are developing thorium reactors because of abundant thorium reserves. The odd-N criterion is critical: fissile isotopes ($${}^{233}\text{U}$$, $${}^{235}\text{U}$$, $${}^{239}\text{Pu}$$) all have odd N, while fertile isotopes ($${}^{232}\text{Th}$$, $${}^{238}\text{U}$$) have even N.
+This thorium fuel cycle is an important alternative to the uranium-plutonium cycle. Thorium is 3-4 times more abundant than uranium, and depending on how the reactor and fuel cycle are run, the thorium cycle can produce less long-lived transuranic waste than the uranium–plutonium cycle. The breeding process parallels plutonium breeding: fertile material captures a neutron, then undergoes two beta decays to reach the fissile isotope. India and China are developing thorium reactors because of abundant thorium reserves. Odd N is a useful rule of thumb, not a complete criterion: the main fissile isotopes ($${}^{233}\text{U}$$, $${}^{235}\text{U}$$, $${}^{239}\text{Pu}$$) all have odd N, while the fertile isotopes ($${}^{232}\text{Th}$$, $${}^{238}\text{U}$$) have even N.
 
 :::
 
@@ -701,7 +704,7 @@ $$ R = \frac{9.36 \times 10^{20} \text{ Bq}}{3.70 \times 10^{10} \text{ Bq/Ci}} 
 
 **Discussion**
 
-This enormous activity of 25.3 billion curies demonstrates why reactor cores remain extremely radioactive after shutdown. This "decay heat" comes from fission products with half-lives ranging from seconds to years. Even though the chain reaction has stopped, the accumulated fission products continue decaying, releasing 150 MW—enough to overheat the core if cooling fails. This is why reactors need active cooling systems for months or years after shutdown. The Fukushima disaster occurred when tsunami damage prevented decay heat removal, causing meltdowns. The activity decreases with time as short-lived isotopes decay, but significant radioactivity persists for decades. This huge inventory of radioactive material is also why reactor containment buildings must be robust—a release of even a small fraction would be catastrophic.
+This enormous activity of 25.3 billion curies demonstrates why reactor cores remain extremely radioactive after shutdown. This "decay heat" comes from fission products with half-lives ranging from seconds to years. Even though the chain reaction has stopped, the accumulated fission products continue decaying, releasing 150 MW—enough to overheat the core if cooling fails. This is why reactors need reliable cooling, active or passive, for months or years after shutdown. The Fukushima disaster occurred when tsunami damage prevented decay heat removal, causing meltdowns. The activity decreases with time as short-lived isotopes decay, but significant radioactivity persists for decades. This huge inventory of radioactive material is also why reactor containment buildings must be robust: a release of even a small fraction could be serious, depending on which isotopes escape and where they go.
 
 :::
 

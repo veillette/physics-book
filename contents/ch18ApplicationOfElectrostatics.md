@@ -424,7 +424,7 @@ To determine the direction: The weight of the electron points downward, so we ne
 **Direction: Downward (toward Earth's surface)**
 **Magnitude: $$5.58 \times 10^{-11} \text{ N/C}$$**
 
-**(b)** This electric field strength is extraordinarily small—about one trillion times weaker than typical electric fields encountered in laboratories (which are often on the order of $$10^3$$ to $$10^6$$ N/C). Even Earth's own atmospheric electric field of about 150 N/C is over 2 trillion times stronger than the field needed to support an electron.
+**(b)** This electric field strength is extraordinarily small—about $$10^{13}$$ to $$10^{16}$$ times weaker than typical electric fields encountered in laboratories (which are often on the order of $$10^3$$ to $$10^6$$ N/C). Even Earth's own atmospheric electric field of about 150 N/C is over 2 trillion times stronger than the field needed to support an electron.
 
 This demonstrates that the electrostatic force is extraordinarily stronger than the gravitational force at the atomic scale. It takes only a minuscule electric field to balance gravity for an electron, showing that electrostatic forces dominate completely over gravitational forces in atomic and molecular interactions.
 
@@ -758,7 +758,7 @@ For the electric field to be zero at a point one-fourth of the way from $$q_1$$ 
 
 This makes physical sense: the point is three times farther from $$q_2$$ than from $$q_1$$. Since the field decreases as $$1/r^2$$, being three times farther reduces the field by a factor of $$(3)^2 = 9$$. Therefore, $$q_2$$ must be 9 times larger to produce the same field strength at that point.
 
-This problem illustrates an important principle: when looking for zero-field points between like charges, the point is always closer to the smaller charge. The ratio of distances from the zero-field point to each charge is inversely proportional to the square root of the charge ratio. Here, the distance ratio is $$1:3$$, so the charge ratio must be $$1^2:3^2 = 1:9$$.
+This problem illustrates an important principle: when looking for zero-field points between like charges, the point is always closer to the smaller charge. The distance from the zero-field point to each charge is proportional to the square root of that charge's magnitude: $$r_1/r_2 = \sqrt{|q_1|/|q_2|}$$. Here, the distance ratio is $$1:3$$, so the charge ratio must be $$1^2:3^2 = 1:9$$.
 
 ::::
 
@@ -1259,7 +1259,7 @@ Solving for $$E$$:
 
 **Discussion**
 
-Part (a): The weight of the oil drop is $$3.77 \times 10^{-14}$$ N, which is extremely small. This tiny weight corresponds to a mass of about 3.85 femtograms ($$10^{-15}$$ kg). Despite being microscopic, such drops are large enough to observe under a microscope, making them ideal for Millikan's experiment.
+Part (a): The weight of the oil drop is $$3.77 \times 10^{-14}$$ N, which is extremely small. This tiny weight corresponds to a mass of about 3.85 picograms ($$3.85 \times 10^{-15}$$ kg). Despite being microscopic, such drops are large enough to observe under a microscope, making them ideal for Millikan's experiment.
 
 Part (b): The electric field needed is $$2.36 \times 10^5$$ N/C or 236 kN/C. This is a strong but achievable laboratory field—much less than air's breakdown threshold ($$3 \times 10^6$$ N/C). The field can be created by applying a modest voltage across closely spaced parallel plates.
 

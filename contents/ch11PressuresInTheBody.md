@@ -1294,27 +1294,27 @@ In healthy lungs, alveoli have an average radius of 0.10 mm and are lined with f
 
 **Strategy**
 
-We use the gauge pressure equation for a spherical bubble: $$ P = \frac{4\gamma}{r} $$. By comparing pressures for normal and enlarged alveoli, we can quantify the loss of expiratory pressure.
+An alveolus is a sac lined with liquid, so it has a single liquid–air surface, and the excess pressure inside it is $$ P = \frac{2\gamma}{r} $$. (A soap bubble has two surfaces, inside and outside, which is why its pressure is $$ 4\gamma/r $$.) By comparing pressures for normal and enlarged alveoli, we can quantify the loss of expiratory pressure.
 
 **Solution**
 
 For normal alveoli with $$ r_{\text{normal}} = 0.10 \text{ mm} = 1.0 \times 10^{-4} \text{ m} $$:
 
-$$ P_{\text{normal}} = \frac{4\gamma}{r} = \frac{4(0.050 \text{ N/m})}{1.0 \times 10^{-4} \text{ m}} = 2000 \text{ Pa} $$
+$$ P_{\text{normal}} = \frac{2\gamma}{r} = \frac{2(0.050 \text{ N/m})}{1.0 \times 10^{-4} \text{ m}} = 1000 \text{ Pa} $$
 
-Converting to mm Hg: $$ P_{\text{normal}} = \frac{2000 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 15.0 \text{ mm Hg} $$
+Converting to mm Hg: $$ P_{\text{normal}} = \frac{1000 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 7.52 \text{ mm Hg} $$
 
 For emphysematous alveoli with $$ r_{\text{emphysema}} = 0.50 \text{ mm} = 5.0 \times 10^{-4} \text{ m} $$:
 
-$$ P_{\text{emphysema}} = \frac{4\gamma}{r} = \frac{4(0.050 \text{ N/m})}{5.0 \times 10^{-4} \text{ m}} = 400 \text{ Pa} $$
+$$ P_{\text{emphysema}} = \frac{2\gamma}{r} = \frac{2(0.050 \text{ N/m})}{5.0 \times 10^{-4} \text{ m}} = 200 \text{ Pa} $$
 
-Converting to mm Hg: $$ P_{\text{emphysema}} = \frac{400 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 3.0 \text{ mm Hg} $$
+Converting to mm Hg: $$ P_{\text{emphysema}} = \frac{200 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 1.50 \text{ mm Hg} $$
 
 The percent reduction in pressure:
 
-$$ \text{Percent reduction} = \frac{P_{\text{normal}} - P_{\text{emphysema}}}{P_{\text{normal}}} \times 100\% = \frac{2000 \text{ Pa} - 400 \text{ Pa}}{2000 \text{ Pa}} \times 100\% = 80\% $$
+$$ \text{Percent reduction} = \frac{P_{\text{normal}} - P_{\text{emphysema}}}{P_{\text{normal}}} \times 100\% = \frac{1000 \text{ Pa} - 200 \text{ Pa}}{1000 \text{ Pa}} \times 100\% = 80\% $$
 
-Normal alveoli produce approximately **15.0 mm Hg** (2000 Pa) of pressure for exhalation, while emphysematous alveoli produce only **3.0 mm Hg** (400 Pa)—an **80% reduction** in surface-tension-driven exhalation pressure.
+Normal alveoli produce approximately **7.52 mm Hg** (1000 Pa) of pressure for exhalation, while emphysematous alveoli produce only **1.50 mm Hg** (200 Pa)—an **80% reduction** in surface-tension-driven exhalation pressure.
 
 **Discussion**
 

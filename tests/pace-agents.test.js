@@ -7,6 +7,7 @@ import {
   rasterNamesIn,
   reconcileState,
   solutionsPrompt,
+  improvePrompt,
   svgPrompt,
   textbookChapters,
   unexpectedPaths,
@@ -120,6 +121,7 @@ describe('pace-agents', () => {
     expect(svgPrompt(2, 'Kinematics', chapterFiles(summary, 2), ['Figure_02_01_01.jpg'])).toContain(
       'PACE_RESULT: done'
     );
+    expect(improvePrompt(2)).toContain('Do not reject this work');
     expect(solutionsPrompt(2, 'Kinematics', chapterFiles(summary, 2))).toContain('**Discussion**');
   });
 });

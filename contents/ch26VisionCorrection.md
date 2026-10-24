@@ -1217,33 +1217,29 @@ Repeat the previous problem for glasses that are 1.75 cm from the eyes.
 
 **Strategy**
 
-The previous problem involved a myopic person with a -4.00 D contact lens prescription and a far point of 25.0 cm. For eyeglasses held 1.75 cm from the eyes, the spectacle lens must create an image at the far point (25.0 cm from the eye, or 23.25 cm from the lens) when viewing distant objects. We use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ with $$d_o = \infty$$ and $$d_i = -23.25$$ cm.
+In the previous problem, the −4.00 D contact lens gave a far point of 25.0 cm. Now the same −4.00 D prescription is in glasses 1.75 cm in front of the eyes. For a distant object, the lens forms a virtual image at its focal point, 25.0 cm in front of the lens. The far point is where that image lies, measured from the eye.
 
 **Solution**
 
-Given values:
-- Far point from eye: 25.0 cm
-- Spectacle distance from eye: 1.75 cm
-- Image distance from spectacle: $$d_i = -(25.0 \text{ cm} - 1.75 \text{ cm}) = -23.25 \text{ cm} = -0.2325 \text{ m}$$
-- Object distance: $$d_o = \infty$$ (distant objects)
-
-Using the power equation:
+With $$P = -4.00$$ D and $$d_o = \infty$$:
 
 <div class="equation">
- $$P = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{\infty} + \frac{1}{-0.2325 \text{ m}}$$
+ $$\frac{1}{d_i} = P - \frac{1}{d_o} = -4.00 \text{ m}^{-1} \quad\Rightarrow\quad d_i = -0.250 \text{ m} = -25.0 \text{ cm}$$
 </div>
 
+The image is 25.0 cm in front of the lens, and the lens is 1.75 cm in front of the eye, so the far point is
+
 <div class="equation">
- $$P = 0 - 4.30 \text{ m}^{-1} = -4.30 \text{ D}$$
+ $$\text{far point} = 25.0 \text{ cm} + 1.75 \text{ cm} = 26.8 \text{ cm}$$
 </div>
 
 **Discussion**
 
-The required spectacle lens power is -4.30 D, compared to the -4.00 D contact lens. The spectacle lens must be 0.30 D stronger (more negative) because it sits 1.75 cm from the eye. This vertex distance effect is important for accurate vision correction.
+The same −4.00 D prescription corresponds to a far point 1.75 cm farther from the eye when it is worn in glasses rather than as contact lenses. Equivalently, a person whose far point is 25.0 cm would need slightly stronger glasses, $$1/(-0.2325 \text{ m}) = -4.30 \text{ m}^{-1}$$, that is, −4.30 D, because the lens sits 1.75 cm closer to the far point. This vertex-distance effect grows with the strength of the prescription.
 
-For this moderate myopia prescription, the vertex distance correction is about 7.5% of the contact lens power. This difference becomes more pronounced with stronger prescriptions. An optometrist typically uses the formula $$P_{\text{spectacle}} = \frac{P_{\text{contact}}}{1 + d \cdot P_{\text{contact}}}$$ where $$d$$ is the vertex distance, to accurately convert between contact and spectacle prescriptions.
+**Answer**
 
-The fact that spectacle lenses need to be stronger than contact lenses for myopia correction is one reason why some people prefer contacts—they provide correction with less optical power, which can reduce optical distortions and weight of the lenses. However, for mild to moderate myopia like this case, the difference is small enough that either option provides excellent vision correction.
+The far point is 26.8 cm from the eye.
 
 :::
 
@@ -1443,38 +1439,34 @@ Repeat the previous problem for glasses that are 2.20 cm from the eyes.
 
 **Strategy**
 
-The previous problem involved a child with a +0.750 D contact lens prescription and a near point of 30.8 cm. For eyeglasses held 2.20 cm from the eyes, we need to find what prescription will provide the same correction. The spectacle lens must create an image at the child's near point (30.8 cm from the eye, or 28.6 cm from the lens) when viewing an object at the normal near point of 25.0 cm. We use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$.
+In the previous problem, the +0.750 D contact lens gave a near point of 30.8 cm. Now the same +0.750 D prescription is in glasses 2.20 cm in front of the eyes. The near point is where the lens forms its virtual image of an object held at the normal reading distance, 25.0 cm from the eye, which is 22.8 cm from the lens.
 
 **Solution**
 
-Given values:
-- Normal near point (object distance from spectacle): $$d_o = 25.0 \text{ cm} - 2.20 \text{ cm} = 22.8 \text{ cm} = 0.228 \text{ m}$$
-- Child's near point from eye: 30.8 cm
-- Image distance from spectacle: $$d_i = -(30.8 \text{ cm} - 2.20 \text{ cm}) = -28.6 \text{ cm} = -0.286 \text{ m}$$
-
-The negative image distance indicates a virtual image on the same side as the object.
-
-Using the power equation:
+With $$P = +0.750$$ D and $$d_o = 25.0 \text{ cm} - 2.20 \text{ cm} = 0.228 \text{ m}$$:
 
 <div class="equation">
- $$P = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.228 \text{ m}} + \frac{1}{-0.286 \text{ m}}$$
+ $$\frac{1}{d_i} = P - \frac{1}{d_o} = 0.750 \text{ m}^{-1} - \frac{1}{0.228 \text{ m}} = 0.750 \text{ m}^{-1} - 4.386 \text{ m}^{-1} = -3.636 \text{ m}^{-1}$$
 </div>
 
 <div class="equation">
- $$P = 4.39 \text{ D} - 3.50 \text{ D} = 0.89 \text{ D}$$
+ $$d_i = -0.275 \text{ m} = -27.5 \text{ cm}$$
 </div>
 
-Rounding to two significant figures:
+The image is 27.5 cm in front of the lens, so measured from the eye the near point is
 
 <div class="equation">
- $$P = 0.89 \text{ D}$$
+ $$\text{near point} = 27.5 \text{ cm} + 2.20 \text{ cm} = 29.7 \text{ cm}$$
 </div>
 
 **Discussion**
 
-The required spectacle power is +0.89 D for this near-point task. It follows from the finite object and image distances measured from the spectacle lens.
+With the same +0.750 D prescription worn in glasses, the near point works out to 29.7 cm rather than 30.8 cm, because the object and image distances are measured from a lens that sits 2.20 cm in front of the eye. For a child whose near point really is 30.8 cm, glasses at this distance would need about +0.89 D to bring the near point to 25.0 cm.
 
-The distance-vision conversion $$P_{\text{spectacle}}=P_{\text{contact}}/(1+dP_{\text{contact}})$$ would give $$0.750/(1+0.0220\times0.750)=0.738\text{ D}$$. That formula concerns a distant object and does not apply to this near-point calculation. For distance correction, a positive spectacle lens has less plus power than the corresponding contact lens.
+**Answer**
+
+The near point is 29.7 cm from the eye.
+
 :::
 
 </div>

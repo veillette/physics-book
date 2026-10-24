@@ -593,9 +593,9 @@ Calculate minimum lifetime:
 
 **Discussion**
 
-A nuclear excited state with a 2.0-eV energy width must have a lifetime of at least $$1.65 \times 10^{-16}$$ seconds (165 femtoseconds). This is a very short time but much longer than the $$10^{-20}$$ s lifetimes of the most unstable nuclei. Such relatively long-lived excited states typically have forbidden transitions (transitions that violate selection rules), which slow down the decay process.
+A nuclear excited state with a 2.0-eV energy width must have a lifetime of at least $$1.65 \times 10^{-16}$$ seconds (0.165 femtoseconds). This is a very short time but much longer than the $$10^{-20}$$ s lifetimes of the most unstable nuclei. Such relatively long-lived excited states typically have forbidden transitions (transitions that violate selection rules), which slow down the decay process.
 
-$$ 1.65 \times 10^{-16} \text{ s}$$ or 165 fs
+$$ 1.65 \times 10^{-16} \text{ s}$$ or 0.165 fs
 
 :::
 

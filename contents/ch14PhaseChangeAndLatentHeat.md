@@ -1163,13 +1163,13 @@ of heat transfer?
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
-(a) 148 kcal
+(a) $$ 6.22 \times 10^{5} $$ J = 149 kcal
 
-(b) 0.418 s, 3.34 s, 4.19 s, 22.6 s, 0.456 s
+(b) 0.418 s, 3.34 s, 4.19 s, 22.6 s, 0.606 s. The steam is heated at atmospheric pressure, so the last stage uses the constant-pressure specific heat of steam, 2020 J/(kg·ºC), from [[Table 1]](../contents/ch14TemperatureChangeAndHeatCapacity#Table1).
 
-(c) Adding the stage times gives the breakpoints of the graph: 0.418 s, 3.76 s, 7.95 s, 30.5 s, and 31.0 s. The temperature rises while a single phase is heated and stays constant during melting (0 °C) and boiling (100 °C).
+(c) Adding the stage times gives the breakpoints of the graph: 0.418 s, 3.76 s, 7.95 s, 30.5 s, and 31.1 s. The temperature rises while a single phase is heated and stays constant during melting (0 °C) and boiling (100 °C).
 
-![Temperature in degrees Celsius versus time in seconds for 0.200 kg of ice heated at a constant 20.0 kJ/s. The ice warms from −20 °C to 0 °C in 0.418 s; the temperature stays at 0 °C while the ice melts, until 3.76 s; the water warms from 0 °C to 100 °C, reaching it at 7.95 s; the temperature stays at 100 °C while the water boils, until 30.5 s; finally the steam warms from 100 °C to 130 °C, reaching it at 31.0 s. The two flat plateaus are the phase changes; the boiling plateau is by far the longest because the latent heat of vaporization is largest.](../resources/concept_14_03_p07.svg)
+![Temperature in degrees Celsius versus time in seconds for 0.200 kg of ice heated at a constant 20.0 kJ/s. The ice warms from −20 °C to 0 °C in 0.418 s; the temperature stays at 0 °C while the ice melts, until 3.76 s; the water warms from 0 °C to 100 °C, reaching it at 7.95 s; the temperature stays at 100 °C while the water boils, until 30.5 s; finally the steam warms from 100 °C to 130 °C, reaching it at 31.1 s. The two flat plateaus are the phase changes; the boiling plateau is by far the longest because the latent heat of vaporization is largest.](../resources/concept_14_03_p07.svg)
 
 :::
 
@@ -1286,7 +1286,7 @@ it boils, and the resulting steam is raised to $$300\text{ºC} $$ .
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
-(a) 9.67 L
+(a) Each kilogram of water absorbs $$ (4186\ \text{J/kg·ºC})(80.0\text{ºC}) + 2.256 \times 10^{6}\ \text{J/kg} + (2020\ \text{J/kg·ºC})(200\text{ºC}) = 2.995 \times 10^{6} $$ J, using the constant-pressure specific heat of steam because the steam is heated at atmospheric pressure. The water needed is $$ (2.80 \times 10^{7}\ \text{J})/(2.995 \times 10^{6}\ \text{J/kg}) = 9.35\ \text{kg} $$, or **9.35 L**.
 
 (b) Crude oil is less dense than water, so it floats on top of the water,
 thereby exposing it to the oxygen in the air, which it uses to burn. Also, if

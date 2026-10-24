@@ -2,8 +2,9 @@
 /**
  * Pace Claude and Codex through the textbook, one chapter per hour.
  *
- * Phase 1 (svg): Claude redraws one chapter's line-art JPEGs as generated
- * SVGs. Codex reviews the diff. This script commits on that review's accept.
+ * Phase 1 (svg): Claude redraws one chapter's simple line-art JPEGs as
+ * generated SVGs. Codex then fixes those drawings instead of rejecting them.
+ * This script commits after that improvement.
  * Phase 2 (solutions) starts only after every chapter has settled its SVG
  * pass. Claude rewrites incomplete end-of-section solutions into the book's
  * Strategy / Solution / Discussion / Answer layout. Codex reviews again.
@@ -36,7 +37,7 @@ const SETTLED = new Set(['committed', 'skipped', 'rejected']);
 
 const REVIEW_SCHEMA = {
   type: 'object',
-  additionalProperties: true,
+  additionalProperties: false,
   properties: {
     verdict: { type: 'string', enum: ['accept', 'reject'] },
     summary: { type: 'string' },
@@ -173,9 +174,9 @@ export function svgPrompt(chapter, title, files, rasters) {
   const figureList = rasters.length
     ? rasters.map(name => `- resources/${name}`).join('\n')
     : '- (none found; confirm, then stop)';
-  return `Redraw the line-art figures in chapter ${chapter} (${title}) as generated SVGs.
+  return `Redraw only the simple line-art figures in chapter ${chapter} (${title}) as generated SVGs.
 
-This is one chapter only. Do not edit other chapters. Do not commit. Do not push.
+This is one chapter only. Do not edit other chapters. Do not commit. Do not push. Do not convert every image.
 
 Raster images still referenced from this chapter:
 ${figureList}
@@ -184,12 +185,13 @@ Chapter files:
 ${files.map(file => `- ${file}`).join('\n')}
 
 Do this:
-1. Read each raster and the markdown around it. Photographs of real scenes, people, apparatus, or astronomical objects stay JPEG or PNG. Diagrams, graphs, maps drawn as line art, circuit schematics, free-body sketches, and geometry become SVG.
-2. If every remaining raster is a photograph, change nothing.
-3. Otherwise add one function per diagram to a chapter module under scripts/figures/ (create scripts/figures/ch${String(chapter).padStart(2, '0')}.js or extend the module that already owns this chapter). Use the helpers in scripts/figures/svg.js. Follow the label markup documented at the top of that file. Register new modules in scripts/generate-figures.js.
-4. Take magnitudes, angles, and axis labels from the caption and the surrounding text so the picture agrees with the section. Run \`node scripts/generate-figures.js\` and commit the generated resources/*.svg files by leaving them in the worktree. Do not hand-edit SVG XML.
-5. Point the markdown image at the new .svg. Keep the alt text and the caption. Leave the original JPEG in resources/.
-6. Do not restyle unrelated prose, solutions, or navigation.
+1. Read each raster and the markdown around it. Redraw a figure only when it is simple line art: a few straight lines, arrows, circles, or rectangles, and a handful of labels. A number line, a single vector, a right triangle, a free-body sketch with a few arrows, or a two-axis sketch with one straight line qualifies.
+2. Leave the JPEG or PNG in place for everything else. That includes photographs, data graphs, curves with many ticks or shaded regions, maps, apparatus, biological structures, multi-panel figures, and circuits with more than a few components. If you cannot place every label inside the frame, leave that figure as a raster too.
+3. If the chapter has no simple line-art figures, change nothing.
+4. Otherwise add one function per redrawn diagram to a chapter module under scripts/figures/ (create scripts/figures/ch${String(chapter).padStart(2, '0')}.js or extend the module that already owns this chapter). Use the helpers in scripts/figures/svg.js. Follow the label markup documented at the top of that file. Register new modules in scripts/generate-figures.js.
+5. Take magnitudes, angles, and axis labels from the caption and the surrounding text so the picture agrees with the section. Run \`node scripts/generate-figures.js\` and commit the generated resources/*.svg files by leaving them in the worktree. Do not hand-edit SVG XML.
+6. Point the markdown image at the new .svg. Keep the alt text and the caption. Leave the original JPEG in resources/.
+7. Do not restyle unrelated prose, solutions, or navigation.
 
 End your final message with a line that is exactly one of:
 PACE_RESULT: done
@@ -233,16 +235,53 @@ PACE_RESULT: skipped
 `;
 }
 
+function priorFindings(record, phase) {
+  const file = record[`${phase}Review`];
+  if (!file || !fs.existsSync(file)) {
+    return '';
+  }
+  const text = fs.readFileSync(file, 'utf8');
+  const start = text.indexOf('## Findings');
+  if (start < 0) {
+    return '';
+  }
+  return text
+    .slice(start)
+    .replace(/\nLog:[\s\S]*$/, '')
+    .trim();
+}
+
+export function improvePrompt(chapter, priorFindings = '') {
+  const prior = priorFindings
+    ? `\nA previous review rejected these drawings:\n${priorFindings}\n`
+    : '';
+  return `Improve the uncommitted figure redraws for chapter ${chapter}. Do not reject this work. Fix it in the worktree.
+${prior}
+These drawings were rejected earlier. Repair them so each figure agrees with its caption and the section. Do not discard a diagram because it is detailed. A photograph that was converted to SVG should go back to its original JPEG or PNG.
+
+Do this:
+1. Read the diff, the captions, and the surrounding section text.
+2. Fix the generator under scripts/figures/: swapped figures, clipped labels, labels that point at the wrong object, angles and lengths that contradict the caption or the physics, missing generator functions, and image titles whose apostrophes break the markdown.
+3. Keep each redrawn diagram unless it is a photograph. If a photograph was converted, point the markdown back at the original raster and remove that generated figure.
+4. Revert any file that does not belong to chapter ${chapter}, its figure module, scripts/generate-figures.js, or a test for this chapter. Regenerating must not change figures from other chapters.
+5. Edit the generator, then run \`node scripts/generate-figures.js\`. Do not hand-edit SVG XML. Do not commit. Do not push.
+
+Return only a JSON object with verdict "accept", summary (a short paragraph of what you fixed), and findings (an array of strings, one per fix, or empty if nothing needed a fix).
+Use verdict "reject" only when a problem cannot be repaired.
+`;
+}
+
 export function reviewPrompt(chapter, phase) {
   const scope =
     phase === 'svg'
-      ? `redrawing chapter ${chapter} line-art rasters as generated SVGs`
+      ? `redrawing only the simple line-art figures in chapter ${chapter} as generated SVGs. Photographs, data graphs, maps, apparatus, biological structures, multi-panel figures, and busy circuits should stay rasters`
       : `updating chapter ${chapter} end-of-section solutions into Strategy, Solution, Discussion, and Answer`;
   return `Review the uncommitted changes in this worktree. They are supposed to be only ${scope}.
 
 Accept only when all of these hold:
 - Every changed file belongs to chapter ${chapter}, plus a figure module, scripts/generate-figures.js, or a test that covers that chapter.
 - SVG figures are produced by scripts/figures and registered with the generator. Hand-written SVG XML with no generator function is a reject.
+- Only simple line art was redrawn. Leaving a photograph or a complicated figure as a JPEG or PNG is correct.
 - Diagram labels and any numbers read off a figure agree with the caption and the section. Photographs are still raster images.
 - Solutions keep the problem text, keep any numerical result that was already correct, put a unit on every value, and include Strategy, Solution, Discussion, and Answer.
 - No unrelated rewrite, no deleted chapter content, no secrets, no generated site output.
@@ -550,20 +589,14 @@ function claudeArgs(prompt, interactive, model) {
   return args;
 }
 
-function codexArgs(prompt, worktree, schemaFile, lastMessage, model) {
-  const args = [
-    'exec',
-    '-s',
-    'read-only',
-    '-C',
-    worktree,
-    '-o',
-    lastMessage,
-    '--output-schema',
-    schemaFile,
-    '--color',
-    'never',
-  ];
+function codexArgs(prompt, worktree, schemaFile, lastMessage, model, write) {
+  const args = ['exec'];
+  if (write) {
+    args.push('--approve-for-me');
+  } else {
+    args.push('-s', 'read-only');
+  }
+  args.push('-C', worktree, '-o', lastMessage, '--output-schema', schemaFile, '--color', 'never');
   if (model) {
     args.push('-m', model);
   }
@@ -660,15 +693,20 @@ async function reviewAndMaybeCommit(state, job, meta, options) {
     'logs',
     `ch${job.chapter}-${job.phase}-review-${stamp()}.log`
   );
-  console.log(`\nCodex review: chapter ${job.chapter} ${job.phase}`);
+  const improve = job.phase === 'svg';
+  const record = state.chapters[String(job.chapter)];
+  console.log(`\nCodex ${improve ? 'improve' : 'review'}: chapter ${job.chapter} ${job.phase}`);
   const code = await runCommand(
     process.env.CODEX_BIN || 'codex',
     codexArgs(
-      reviewPrompt(job.chapter, job.phase),
+      improve
+        ? improvePrompt(job.chapter, priorFindings(record, job.phase))
+        : reviewPrompt(job.chapter, job.phase),
       worktree,
       schemaFile,
       lastMessage,
-      options.codexModel
+      options.codexModel,
+      improve
     ),
     { cwd: worktree, logPath }
   );
@@ -677,7 +715,6 @@ async function reviewAndMaybeCommit(state, job, meta, options) {
     const failure = parseVerdict(raw);
     failure.summary = `Codex exited ${code}. ${failure.summary}`;
     const reviewFile = writeReview(job.chapter, job.phase, failure, `Log: ${logPath}`);
-    const record = state.chapters[String(job.chapter)];
     record[job.phase] = 'in-progress';
     record[`${job.phase}Review`] = reviewFile;
     saveState(state);
@@ -692,7 +729,6 @@ async function reviewAndMaybeCommit(state, job, meta, options) {
   }
   const reviewFile = writeReview(job.chapter, job.phase, verdict, `Log: ${logPath}`);
   console.log(`\nVerdict: ${verdict.verdict}\n${verdict.summary}\nReview: ${reviewFile}`);
-  const record = state.chapters[String(job.chapter)];
   record[`${job.phase}Review`] = reviewFile;
   if (verdict.verdict !== 'accept') {
     const patch = savePatch(worktree, job.chapter, job.phase);
@@ -844,8 +880,8 @@ function helpText() {
   node scripts/pace-agents.js --skip-current   Mark the next chapter settled
 
 The loop uses its own worktree and never checks out that branch here.
-A rejected solution review stops the loop. A rejected figure review is logged
-and the loop continues an hour later. Nothing is pushed.
+Codex improves figure problems instead of rejecting them. A rejected solution
+review stops the loop. Nothing is pushed.
 `;
 }
 

@@ -727,7 +727,7 @@ strangeness changes, and it is consistent with the relatively long $$ 1.64 \time
 
 The decay $${K}^{+}\to {\mu }^{+}+{\nu }_{\mu } $$ is allowed if charge, baryon
 number, mass-energy, and lepton numbers are conserved. Strangeness can change
-due to the weak interaction. Charge is conserved as $$s\to d $$ . Baryon number
+due to the weak interaction. Charge is conserved: +1 before and +1 + 0 = +1 after. Baryon number
 is conserved, since all particles have $$B=0 $$
 <em>. </em> Mass-energy is conserved in the sense that the $${K}^{+} $$ has a
 greater mass than the products, so that the decay can be spontaneous. Lepton
@@ -739,7 +739,9 @@ allowed change of 1. The decay is allowed by all these measures.
 
 This decay is not only allowed by our reckoning, it is, in fact, the primary
 decay mode of the $${K}^{+} $$ meson and is caused by the weak force, consistent
-with the long $$ 1.24 \times 10^{-8} \text{-s} $$ lifetime.
+with the long $$ 1.24 \times 10^{-8} \text{-s} $$ lifetime. At the quark level,
+the $$u$$ and $$\overline{s}$$ in the $${K}^{+}$$ annihilate into a virtual
+$${W}^{+}$$, which produces the $${\mu }^{+}$$ and $${\nu }_{\mu }$$.
 
 :::
 

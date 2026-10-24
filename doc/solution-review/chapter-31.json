@@ -1,0 +1,3642 @@
+{
+  "chapter": 31,
+  "checked_at": "2026-10-24T17:04:02+00:00",
+  "summary": {
+    "total": 1060,
+    "checked": 20,
+    "failed": 0,
+    "skipped": 1040,
+    "by_kind": {
+      "equation": {
+        "checked": 15,
+        "failed": 0,
+        "skipped": 1040
+      },
+      "case": {
+        "checked": 5,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "case_coverage": {
+      "cases": 2,
+      "assertions": 5,
+      "chapters": [
+        31
+      ]
+    },
+    "skip_reasons": {
+      "unbound variable": 131,
+      "unsupported symbol": 24,
+      "no supported equality": 861,
+      "unit-only expression or text label needs a numeric value": 17,
+      "unknown unit": 7
+    }
+  },
+  "items": [
+    {
+      "id": "contents/ch31BindingEnergy.md::worked-example:1",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 176,
+      "end_line": 248,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "fa31fcb8e02abc462f890a535d1722096f7d4d19badef302c569c01b7765af4e",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "::: example What Is $$\\text{BE}/A $$ for an Alpha Particle? Calculate the binding energy per nucleon of $${}^{4}\\text{He} $$ , the $$\\alpha $$ particle. **Strategy** To find $$\\te…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 32
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31BindingEnergy.md::worked-example:1",
+        "source_sha256": "fa31fcb8e02abc462f890a535d1722096f7d4d19badef302c569c01b7765af4e",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Using neutral-atom masses, BE = [2m(H) + 2m(n) - m(He)]c², with electron rest masses canceling. Dividing by four gives the requested binding energy per nucleon. The SVG graph source confirms the helium-4 spike. Its resistance to breakup and its contribution to favorable alpha-decay energetics are correctly described qualitatively; alpha emission additionally requires an energetically allowed daughter and barrier penetration.",
+        "calculation_check": "The supplied masses give Δm = 0.030378 u, BE = 28.297107 MeV, and BE/A = 7.074277 MeV/nucleon. Breakup into two deuterons requires 23.848 MeV; breakup into hydrogen plus tritium requires 19.816 MeV. These checks support the discussion of tight binding.",
+        "assumptions": "Ground-state nuclei; negligible electronic binding-energy corrections; the supplied rounded masses. The alpha-cluster description is qualitative rather than a calculation of the decay probability.",
+        "notes": "The calculation, graph comparison, and qualitative stability explanation are appropriate. The appendix's slightly different helium mass does not materially change the answer.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T12:39:29+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 316,
+      "end_line": 325,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "9f3a3760eb92489493780367e2b6c877478676804c05e3091eadc89bc3246447",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "Why is the number of neutrons greater than the number of protons in stable nuclei having $$A $$ greater than about 40, and why is this effect more pronounced for the heaviest nucl…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:1",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 329,
+      "end_line": 347,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "6b834707b2180300890744d8db0d62f287cb47007fc6fb7f837d674950216d81",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "$${}^{2}\\text{H} $$ is a loosely bound isotope of hydrogen. Called deuterium or heavy hydrogen, it is stable but relatively rare—it is 0.015% of natural hydrogen. Note that deuter…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31BindingEnergy.md::problems-exercises:1",
+        "source_sha256": "6b834707b2180300890744d8db0d62f287cb47007fc6fb7f837d674950216d81",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Deuterium contains one proton and one neutron, so its binding energy follows from m(H) + m(n) - m(D). Dividing by two answers the question. The referenced SVG graph places deuterium near 1.1 MeV/nucleon, supporting the comparison.",
+        "calculation_check": "BE/A = [(1.007825 + 1.008665 - 2.014102) × 931.5]/2 = 1.112211 MeV/nucleon, agreeing with 1.112.",
+        "assumptions": "Neutral-atom masses from the appendix, ground-state deuterium, and negligible electronic binding corrections. The graph provides an approximate comparison.",
+        "notes": "The binding energy per nucleon and comparison with the graph are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T12:39:29+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:2",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 349,
+      "end_line": 361,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "e9a07b636ddf3603890085741cd7560398a0eb67feaa08a3575bba8c7d338f8c",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "$${}^{56}\\text{Fe} $$ is among the most tightly bound of all nuclides. It is more than 90% of natural iron. Note that $${}^{56}\\text{Fe} $$ has even numbers of both protons and ne…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:3",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 363,
+      "end_line": 381,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "1fd63c20e380d3fd66ac302080f793d4333d5e2bf4b68612882fd5354ca4b8d9",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "$${}^{209}\\text{Bi} $$ decays so slowly (half-life about $$2 \\times 10^{19}$$ y) that it is effectively the heaviest stable nuclide, and its $$\\text{BE}/A $$ is low compared with…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31BindingEnergy.md::problems-exercises:3",
+        "source_sha256": "1fd63c20e380d3fd66ac302080f793d4333d5e2bf4b68612882fd5354ca4b8d9",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 7.848 MeV. Fixed: the premise now notes that ²⁰⁹Bi decays with a half-life of about 2×10¹⁹ y and is effectively, rather than strictly, stable.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:4",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 383,
+      "end_line": 398,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "30b2755f0bd41f7af909c52aab8039f5bd61e245abdc1574c6b6cb4ebf7918f1",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "(a) Calculate $$\\text{BE}/A $$ for $${}^{235}\\text{U} $$ , the rarer of the two most common uranium isotopes. (b) Calculate $$\\text{BE}/A $$ for $${}^{238}\\text{U} $$ . (Most of u…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 9
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:5",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 400,
+      "end_line": 424,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "fc22e4d7b8e7f34c6a85684fcc373de202c11d51a05deb895e97781d32242886",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "(a) Calculate $$\\text{BE}/A $$ for $${}^{12}\\text{C} $$ . Stable and relatively tightly bound, this nuclide is most of natural carbon. (b) Calculate $$\\text{BE}/A $$ for $${}^{14}…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 13
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31BindingEnergy.md::problems-exercises:5",
+        "source_sha256": "fc22e4d7b8e7f34c6a85684fcc373de202c11d51a05deb895e97781d32242886",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct BE/A values. Fixed: ¹⁴N is slightly less tightly bound per nucleon (7.476 MeV), so the decay is explained by the ¹⁴C–¹⁴N atomic mass difference (Q ≈ 0.156 MeV), not by tighter binding of the product.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:6",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 426,
+      "end_line": 439,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "8db8aa571804149d00223cf2db1449be14ae2385b11fc70d411255da423d1e31",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "The fact that $$\\text{BE}/A $$ is greatest for $$A $$ near 60 implies that the range of the nuclear force is about the diameter of such nuclides. (a) Calculate the diameter of an…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:7",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 441,
+      "end_line": 469,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "469820f66c03905d4ed8ec234f8bfa626c1813cc5d1c6434a7df899d8bb1539e",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is negligible compared with the masses of the proton and electron.…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31BindingEnergy.md::problems-exercises:7",
+        "source_sha256": "469820f66c03905d4ed8ec234f8bfa626c1813cc5d1c6434a7df899d8bb1539e",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Parts (a)–(c) correct. Fixed: part (d) is now answered, tying the three comparisons to neglecting the electron binding energy when atomic masses are used.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31BindingEnergy.md::problems-exercises:8",
+      "chapter": 31,
+      "file": "contents/ch31BindingEnergy.md",
+      "line": 471,
+      "end_line": 493,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "71d40f9cb5ed104adea8d01954a9f203df7246a7ea81ae935385a8b59d337b4d",
+      "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+      "preview": "**Unreasonable Results** A particle physicist discovers a neutral particle with a mass of 2.02733 u that he assumes is two neutrons bound together. (a) Find the binding energy. (b…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31BindingEnergy.md::problems-exercises:8",
+        "source_sha256": "71d40f9cb5ed104adea8d01954a9f203df7246a7ea81ae935385a8b59d337b4d",
+        "file_sha256": "72daddf332eacf6e4588a1e6ef7e2935164465b72e9083e86db5af1191ce2aa8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A bound two-neutron ground state would have a rest mass below that of two separated neutrons. The proposed particle lies above that threshold, yielding negative binding energy and contradicting its identification as a bound dineutron. All three requested parts are answered.",
+        "calculation_check": "BE = [2(1.008665) - 2.02733] × 931.5 = -9.315 MeV. The proposed state is therefore 9.315 MeV above the two-neutron threshold.",
+        "assumptions": "The measured value is a rest mass and the proposed constituents are two ordinary neutrons. An above-threshold transient resonance would not be the bound system assumed in the question.",
+        "notes": "The negative binding energy and rejection of the bound-dineutron assumption are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T12:39:29+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md#shroud-dating",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 118,
+      "end_line": 197,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "f98c770a1bb5bcaaf64c52218ab7ecc2e7f9102c66f8e853efe757dc316aaeaa",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "::: example {\"class\":\"example\",\"id\":\"shroud-dating\"} How Old Is the Shroud of Turin? Calculate the age of the Shroud of Turin given that the amount of $${}^{14}\\text{C} $$ found i…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 29,
+        "checked": 3
+      },
+      "automatic_flags": [],
+      "review_status": "ambiguous",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md#shroud-dating",
+        "verdict": "ambiguous",
+        "confidence": "low",
+        "reasoning_check": "The idealized decay calculation is correct: a remaining fraction of 0.92 gives t = -t1/2 ln(0.92)/ln(2). Subtracting this elapsed time from an assumed 1988 measurement year gives approximately AD 1300. However, the inspected material supplies no independent laboratory report establishing the quoted weighted date, uncertainty, or historical comparison. Real calendar dating also requires consideration of initial carbon-14 variation and calibration.",
+        "calculation_check": "λ = ln(2)/5730 = approximately 1.2097 × 10^-4 y^-1; t = 689.286 y. Thus 1988 - t = 1298.714, consistent with the rounded AD 1300 result.",
+        "assumptions": "The 92% refers to an abundance normalized to the same amount of carbon; the initial abundance equals the chosen living reference; radioactive decay is the only subsequent change. The calendar subtraction additionally assumes measurement in 1988.",
+        "notes": "The conditional 690-year calculation passes. The reported laboratory date, historical interpretation, and treatment of calibration remain unchecked, so the complete discussion cannot be validated from the supplied local evidence.",
+        "source_sha256": "f98c770a1bb5bcaaf64c52218ab7ecc2e7f9102c66f8e853efe757dc316aaeaa",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:39:29+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md#carbon-activity",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 260,
+      "end_line": 344,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "800cf19f0acc0c5c9cb29bf447b55849646a1c105c468b45991b021e8706036c",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "::: example {\"class\":\"example\",\"id\":\"carbon-activity\"} How Great Is the $${}^{14}\\text{C} $$ Activity in Living Tissue? Calculate the activity due to $${}^{14}\\text{C} $$ in 1.00…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 30,
+        "checked": 6
+      },
+      "automatic_flags": [],
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md#carbon-activity",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The solution correctly converts carbon mass to nuclei, applies the carbon-14 abundance, and uses R = λN to obtain Bq and Ci. The discussion correctly explains why small and old samples are harder to measure. Its categorical assertion that measurement becomes impossible beyond 50,000 years is unsupported: the decay law has no such cutoff, and the surrounding chapter explicitly describes dating samples 50,000–60,000 years old.",
+        "calculation_check": "N14 = (1000/12.0)(6.02 × 10^23)(1.3 × 10^-12) = 6.52167 × 10^13. R = 0.693N14/(5730 × 3.16 × 10^7) = 249.603 Bq = 6.74603 nCi, consistent with the rounded solution. At 50,000 years, the remaining fraction is 0.0023616; one gram still produces approximately 51 decays per day under this model.",
+        "assumptions": "The stated living-carbon abundance, approximately 12 g/mol carbon, and parent carbon-14 activity only. Practical dating limits depend on sample size, background, contamination, and measurement technique.",
+        "notes": "The activity calculation is correct. The discussion incorrectly presents 50,000 years as an absolute detection limit, contradicting both its model and the surrounding chapter.",
+        "source_sha256": "800cf19f0acc0c5c9cb29bf447b55849646a1c105c468b45991b021e8706036c",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:39:29+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::worked-example:3",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 366,
+      "end_line": 426,
+      "kind": "worked-example",
+      "ordinal": 3,
+      "source_sha256": "e88b34dc7494ff99f08f3f9831736da99dd8a51ed086c38a283846dc4e98b0ed",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "::: example What Mass of $${}^{137}\\text{Cs} $$ Escaped Chernobyl? It is estimated that the Chernobyl disaster released 6.0 MCi of $${}^{137}\\text{Cs} $$ into the environment. Cal…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "ambiguous",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::worked-example:3",
+        "verdict": "ambiguous",
+        "confidence": "low",
+        "reasoning_check": "The requested mass follows correctly from N = Rt1/2/ln(2), followed by conversion from nuclei to moles and mass. The high activity of a relatively small mass is consistent with its specific activity. The additional claims about comparable releases of other isotopes and the blanket superiority of Western reactor designs cannot be established from the inspected local material. The neighboring chapter establishes a design difference, but does not substantiate that broad safety comparison.",
+        "calculation_check": "R = 6.0 × 10^6 × 3.7 × 10^10 = 2.22 × 10^17 s^-1. Using 30.2 years and the solution's conversion gives N = 3.05713 × 10^26 and m = N(137 g)/(6.02 × 10^23) = 69.573 kg, agreeing with 70 kg. Bq multiplied by seconds gives the required nucleus count.",
+        "assumptions": "The quoted activity is attributable to cesium-137 at the release epoch; its half-life is 30.2 years; 137 g/mol is an adequate molar-mass approximation. The release estimate is accepted as a problem given rather than independently measured here.",
+        "notes": "The inferred mass of 70 kg is correct. The discussion's additional release and reactor-safety claims remain unverified, preventing a complete assessment of the example.",
+        "source_sha256": "e88b34dc7494ff99f08f3f9831736da99dd8a51ed086c38a283846dc4e98b0ed",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:39:29+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 516,
+      "end_line": 531,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "c92ab42e01aaa04f772b6bf8faf89a93df58f7ab69d63eabd379fc444af20aef",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "In a $$3 \\times 10^{9} $$ -year-old rock that originally contained some $${}^{238}\\text{U} $$ , which has a half-life of $$ 4.5 \\times 10^{9} $$ years, we expect to find some $${}…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:2",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 533,
+      "end_line": 541,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "6b1cb4037c70f41ba78f04f1a1b3538a5f593d2988af0b9622a07b4dcbed8678",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Does the number of radioactive nuclei in a sample decrease to *exactly* half its original value in one half-life? Explain in terms of the statistical nature of radioactive decay.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:3",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 543,
+      "end_line": 551,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "f81e9a41e1ad866a9c9f6e6454fa377d563584b4beb48bc7d107d0d847479c6c",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Radioactivity depends on the nucleus and not the atom or its chemical state. Why, then, is one kilogram of uranium more radioactive than one kilogram of uranium hexafluoride?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:4",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 553,
+      "end_line": 561,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "be6bc502dcdb285437046ef3a486c76735278f0d2d2f0e51021cd44fcb5c5e93",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Explain how a bound system can have less mass than its components. Why is this not observed classically, say for a building made of bricks?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:5",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 563,
+      "end_line": 571,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "6959533abee4f6fa008c9fdd29b81aed09dcc11eb4ee5baf5f305b6423ed4238",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Spontaneous radioactive decay occurs only when the decay products have less mass than the parent, and it tends to produce a daughter that is more stable than the parent. Explain h…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:6",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 573,
+      "end_line": 582,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "87d170f690f77c7c5d54daca9eeb311bd40f8fad40a3c848f0ef1153e2a2a4a2",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "To obtain the most precise value of BE from the equation $$\\text{BE=}\\left[ \\text{ZM}\\left({}^{1}\\text{H}\\right)+N m_{n}\\right] {c}^{2}-m\\left({}^{A}X\\right){c}^{2} $$ , we should…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::conceptual-questions:7",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 584,
+      "end_line": 594,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "1d322e3901af273ced594ba274870fbd6bde64cee3aaaf7e7d505b5afca57261",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "How does the finite range of the nuclear force relate to the fact that $$\\text{BE}/A $$ is greatest for $$A $$ near 60?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:1",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 600,
+      "end_line": 615,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "a9d281ff570818a5760cc473deffd5ac409c4b281867213d7e3e9a74095d1254",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "An old campfire is uncovered during an archaeological dig. Its charcoal is found to contain less than 1/1000 the normal amount of $${}^{14}\\text{C} $$ . Estimate the minimum age o…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Each half-life halves the remaining carbon-14. A fraction near 1/1000 corresponds to approximately ten half-lives because 2^10 = 1024. The answer is an appropriate estimate of the minimum age rather than an exact inequality threshold.",
+        "calculation_check": "Ten half-lives give 10 × 5730 = 57,300 years and a fraction 1/1024. Solving the exact threshold gives t > 5730 log2(1000) = 57,103.94 years, consistent with the requested estimate.",
+        "assumptions": "Initially normal carbon-14 abundance, no subsequent carbon exchange or contamination, and a 5730-year half-life. The age refers to when the source organism stopped exchanging carbon.",
+        "notes": "The approximately 57,300-year minimum-age estimate is appropriate; the small difference from the exact threshold is deliberate approximation.",
+        "source_sha256": "a9d281ff570818a5760cc473deffd5ac409c4b281867213d7e3e9a74095d1254",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:39:29+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:2",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 617,
+      "end_line": 627,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "01dd6ebdf6907ab6f5fa98a86b20bd55a11e83384612dedb2e2b3ba58116bd20",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "A $${}^{60}\\text{Co} $$ source is labeled 4.00 mCi, but its present activity is found to be $$ 1.85 \\times 10^{7} $$ Bq. (a) What is the present activity in mCi? (b) How long ago…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:3",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 629,
+      "end_line": 647,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "177bffacdb66ad8b661b84ce4542c4bda02ee032bf9957532e5287eaff17a9e0",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "(a) Calculate the activity $$R $$ in curies of 1.00 g of $${}^{226}\\text{Ra} $$ . (b) Discuss why your answer is not exactly 1.00 Ci, given that the curie was originally supposed…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The activity of pure radium-226 follows from R = (ln(2)/t1/2)(m/M)NA. Its calculated activity need not equal the fixed curie definition exactly. Improved knowledge of radium's half-life is an appropriate explanation for the difference from the historical intended correspondence.",
+        "calculation_check": "Using M = 226.025402 g/mol, NA = 6.02214076 × 10^23 mol^-1, and 1600 years of 365.25 days gives R = 3.65759 × 10^10 Bq = 0.98854 Ci, consistent with the reported 0.988 Ci at the precision of the constants.",
+        "assumptions": "A pure 1.00 g radium-226 sample; only parent decays are counted, excluding daughter activity. One curie is fixed at 3.70 × 10^10 Bq.",
+        "notes": "Both the calculated activity near 0.99 Ci and the explanation of its difference from exactly one curie are appropriate.",
+        "source_sha256": "177bffacdb66ad8b661b84ce4542c4bda02ee032bf9957532e5287eaff17a9e0",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:39:29+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:4",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 649,
+      "end_line": 659,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "7a173a11ad4938a15c6cddbe9544734affe77d297d8cc35e26e10c198d8779d3",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Show that the activity of the $${}^{14}\\text{C} $$ in 1.00 g of $${}^{12}\\text{C} $$ found in living tissue is 0.250 Bq.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:5",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 661,
+      "end_line": 677,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "31320221259570caee5f769272261856e9346b48b7eac651ef157af8e9444464",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Mantles for gas lanterns contain thorium, because it forms an oxide that can survive being heated to incandescence for long periods of time. Natural thorium is almost 100% $${}^{2…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Treating the thorium as thorium-232, the number of parent nuclei is (m/M)NA and the activity is ln(2)N/t1/2. This correctly accounts for both the small mass and the exceptionally long half-life.",
+        "calculation_check": "N = (0.300/232)(6.02 × 10^23) = 7.78448 × 10^20 nuclei. R = 0.693N/[(1.405 × 10^10)(3.16 × 10^7)] = 1.21507 × 10^3 s^-1, agreeing with 1.22 × 10^3 Bq.",
+        "assumptions": "The 300 mg is the mass of thorium itself, essentially all thorium-232. The requested activity is that of the parent isotope; accumulated radioactive daughters could increase the total mantle activity.",
+        "notes": "The thorium-232 activity is correctly calculated as approximately 1.22 kBq under the intended parent-only model.",
+        "source_sha256": "31320221259570caee5f769272261856e9346b48b7eac651ef157af8e9444464",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:39:29+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:6",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 679,
+      "end_line": 689,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "d0e2ee8b70c8f409ddc1e3759bfafd4814013d9b433aa2d00127b60b67ba28a0",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Cow’s milk produced near nuclear reactors can be tested for as little as 1.00 pCi of $${}^{131}\\text{I} $$ per liter, to check for possible reactor leakage. What mass of $${}^{131…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:7",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 691,
+      "end_line": 711,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "13968e35994996639bd2106e78278179184bb4569813662904f27ab80b6ece44",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "(a) Natural potassium contains $${}^{40}\\text{K} $$ , which has a half-life of $$ 1.277 \\times 10^{9} $$ y. What mass of $${}^{40}\\text{K} $$ in a person would have a decay rate o…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Activity satisfies A = (ln 2)N/T, so the required isotope mass is m = AT M/[(ln 2)N_A]. Dividing this mass by the body's 140 g of potassium gives the requested mass fraction. Both supplied answers follow from these relations.",
+        "calculation_check": "Using T = 1.277e9 y and M approximately 40 g/mol gives m = 15.987 mg. The percentage is 100(0.015987 g)/(140 g) = 0.011420%, agreeing with 16.0 mg and 0.0114%.",
+        "assumptions": "The 4140 Bq is the total K-40 decay rate. The requested fraction is a mass fraction, and 140 g denotes total potassium.",
+        "notes": "Both parts are correct; the reported percentage is the K-40 mass percentage.",
+        "source_sha256": "13968e35994996639bd2106e78278179184bb4569813662904f27ab80b6ece44",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:8",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 713,
+      "end_line": 722,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "7cdc7923a5178d0fb9dac8db0421a5f0fad2229ec1d41c5d9b82faffe3b49e4c",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "There is more than one isotope of natural uranium. If a researcher isolates 1.00 mg of the relatively scarce $${}^{235}\\text{U} $$ and finds this mass to have an activity of 80.0…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:9",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 724,
+      "end_line": 740,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "da9cf350add1237bb84e8f1d1d8462fa429cc1a82d2c2796e89565fe0886c89d",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "$${}^{50}\\text{V} $$ has one of the longest known radioactive half-lives. In a difficult experiment, a researcher found that the activity of 1.00 kg of $${}^{50}\\text{V} $$ is 1.7…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a pure isotope sample, N = mN_A/M and T = (ln 2)N/A. The very small activity despite the large number of nuclei correctly implies an extremely long half-life.",
+        "calculation_check": "N = (1000 g)/(50 g/mol) times N_A = 1.20443e25 nuclei. T = (ln 2)(1.20443e25)/(1.75 s^-1) = 4.7705e24 s = 1.5117e17 y, matching the answer.",
+        "assumptions": "The sample is 1.00 kg of V-50, and 1.75 Bq represents its total activity rather than an uncorrected detector count rate.",
+        "notes": "The stated half-life follows correctly from the measured activity and isotope mass.",
+        "source_sha256": "da9cf350add1237bb84e8f1d1d8462fa429cc1a82d2c2796e89565fe0886c89d",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:10",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 742,
+      "end_line": 750,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "0bfc4fdcb6c38c199c8a9bb73608f3f4952fdf797ec34c140e99853f77310920",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "You can sometimes find deep red crystal vases in antique stores, called uranium glass because their color was produced by doping the glass with uranium. Look up the natural isotop…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:11",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 752,
+      "end_line": 767,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "0a732c027e03d4122a7147887fd040ec9df494105df7b87af09c2051df7b0361",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "A tree falls in a forest. How many years must pass before the $${}^{14}\\text{C} $$ activity in 1.00 g of the tree’s carbon drops to 1.00 decay per hour?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The chapter supplies a living-carbon C-14 number fraction of 1.3e-12 and a 5730 y half-life. These determine the initial activity of 1.00 g of carbon. Solving A = A0 exp[-(ln 2)t/T] for a final activity of 1/3600 Bq gives the stated time.",
+        "calculation_check": "N0 = (1/12)N_A(1.3e-12) = 6.52399e10 C-14 nuclei, giving A0 = 0.25008 Bq, or 900.29 decays/h. Thus t = (5730/ln 2)ln(900.29) = 56236 y, agreeing with 5.6e4 y.",
+        "assumptions": "The tree dies when it falls, initially has the chapter's living-carbon abundance, and subsequently exchanges no carbon with its surroundings. Activity means an expected decay rate.",
+        "notes": "Correct under the chapter's closed-sample radiocarbon model; the needed initial abundance is supplied in the surrounding text.",
+        "source_sha256": "0a732c027e03d4122a7147887fd040ec9df494105df7b87af09c2051df7b0361",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:12",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 769,
+      "end_line": 779,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "b04ce9bd46ff62a9c875f9427f8c12462093d5406d491275967793e3d17a5a9b",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "What fraction of the $${}^{40}\\text{K} $$ that was on Earth when it formed $$ 4.5 \\times 10^{9} $$ years ago is left today?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:13",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 781,
+      "end_line": 796,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "ada50331a8d27ef56b738969911a9a23a50aaf4706352692c33f28046b586a55",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "A 5000-Ci $${}^{60}\\text{Co} $$ source used for cancer therapy is considered too weak to be useful when its activity falls to 3500 Ci. How long after its manufacture does this hap…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:13",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The activity ratio is 3500/5000 = 0.700. Exponential decay gives t = T ln(5000/3500)/ln 2. The appendix supplies the Co-60 half-life of 5.271 y.",
+        "calculation_check": "t = (5.271 y)ln(5000/3500)/ln 2 = 2.7123 y, matching 2.71 y. This is less than one half-life, as required for a 30% activity decrease.",
+        "assumptions": "The source has 5000 Ci at manufacture, remains intact, and loses activity through Co-60 decay alone.",
+        "notes": "The stated useful lifetime is correct.",
+        "source_sha256": "ada50331a8d27ef56b738969911a9a23a50aaf4706352692c33f28046b586a55",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md#Exercise14",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 798,
+      "end_line": 811,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "c74b9b2dc92ea825dc065448a561ac9c77bed579bd37ad46cf41375fa2fd6399",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Natural uranium is 0.7200% $${}^{235}\\text{U} $$ and 99.27% $${}^{238}\\text{U} $$ . What were the percentages of $${}^{235}\\text{U} $$ and $${}^{238}\\text{U} $$ in natural uranium…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:15",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 813,
+      "end_line": 832,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "94fa4e49f4460f9f589ee47141f77e13315fa5274f0b6ff8714be6a5e7a1372f",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "The $${\\beta }^{-} $$ particles emitted in the decay of $${}^{3}\\text{H} $$ (tritium) interact with matter to create light in a glow-in-the-dark exit sign. At the time of manufact…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:15",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The initial activity determines the number of tritium nuclei through N = AT/ln 2, and their mass follows from the molar mass. Subsequent activity follows A(t) = A0 2^(-t/T). Both parts use the appendix half-life of 12.33 y consistently.",
+        "calculation_check": "15.0 Ci = 5.55e11 Bq. Using a tritium molar mass of 3.01605 g/mol gives m = 1.56035 mg. After 5.00 y, A = 15.0 times 2^(-5/12.33) = 11.3245 Ci, matching both answers.",
+        "assumptions": "The tritium remains in the sign; only radioactive decay changes its inventory. The question concerns activity, not changes in light output or phosphor efficiency.",
+        "notes": "Both the initial mass and remaining activity are correct.",
+        "source_sha256": "94fa4e49f4460f9f589ee47141f77e13315fa5274f0b6ff8714be6a5e7a1372f",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:16",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 834,
+      "end_line": 845,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "d142a4b7c7d778586a7bb1a876c210a04c8bd770e1711b54240c30a9bd817f96",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "World War II aircraft had instruments with glowing radium-painted dials (see [[Figure 2]](../contents/ch31NuclearRadioactivity#Figure2)). The activity of one such instrument was $…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:17",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 847,
+      "end_line": 866,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "4b3aec5f585ab75ec4ce26335ef39ce11d073c3137928651d9d955e51f99e7c7",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "(a) The $${}^{210}\\text{Po} $$ source used in a physics laboratory is labeled as having an activity of $$1.0 \\mu \\text{Ci} $$ on the date it was prepared. A student measures the r…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:17",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Part (a) correctly compares the measured count rate with the source's activity after 120 days of decay. Part (b) correctly identifies limited detector solid angle and imperfect response, but its absorption explanation is misleading: absorption in the detector's sensitive volume ordinarily produces the signal, whereas absorption in the source, intervening material, or inactive detector window can prevent detection. Radiation being 'observed within the source' is also not an explanation of missed counts.",
+        "calculation_check": "Using the chapter's approximately 138 d Po-210 half-life, A = 37000 times 2^(-120/138) = 20250.5 Bq. The measured rate is 1500/60 = 25 s^-1, giving an observed fraction of 25/20250.5 = 1.2345e-3, matching part (a).",
+        "assumptions": "Counts are attributable to the source after any background correction. The quoted activity is the preparation-date activity, and counting losses are incorporated in the inferred observed fraction.",
+        "notes": "Part (a) is correct. Part (b) needs a distinction between signal-producing absorption and absorption in inactive material; 'observed within the source' appears to be a wording error.",
+        "source_sha256": "4b3aec5f585ab75ec4ce26335ef39ce11d073c3137928651d9d955e51f99e7c7",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:18",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 868,
+      "end_line": 880,
+      "kind": "problems-exercises",
+      "ordinal": 18,
+      "source_sha256": "4257bff10f91a60e0ef38c3d4a8055d21861f4a9885b5b3ec7c15e057a7547fb",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Armor-piercing shells with depleted uranium cores are fired by aircraft at tanks. (The high density of the uranium makes them effective.) The uranium is called depleted because it…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:19",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 882,
+      "end_line": 902,
+      "kind": "problems-exercises",
+      "ordinal": 19,
+      "source_sha256": "47230cb88f6b2a7d2ce0d665950ed1f5e5d49ad00c605865995e7b57665c8344",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "The ceramic glaze on a red-orange Fiestaware plate is $${\\text{U}}_{2}{\\text{O}}_{3} $$ and contains 50.0 grams of $${}^{238}\\text{U} $$ , but very little $${}^{235}\\text{U} $$ .…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 8
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:19",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For the stated U-238 inventory, A = (ln 2)mN_A/(MT). Interpreting part (b) as one U-238 alpha decay per original nucleus, the total energy is NQ. The nearby nuclear-decay exercise supplies enough mass data to derive Q = 4.274 MeV. Converting the resulting energy to kWh and multiplying by the price reproduces part (c).",
+        "calculation_check": "With M = 238.050784 g/mol and T = 4.47e9 y, A = 1.6798e-5 Ci. The atomic-mass difference 238.050784 - 234.043593 - 4.002603 u gives Q = 4.27372 MeV. Hence E = 8.6610e10 J and value = (E/3.60e6)(0.120 dollars) = 2887 dollars, consistent with the supplied values.",
+        "assumptions": "The activity and energy refer to U-238 itself; daughter-chain contributions and other isotopes are excluded. Total energy means eventual release over decay of the original inventory, not energy emitted in a specified short interval.",
+        "notes": "All three values are correct for parent U-238 decays alone. Part (c)'s number represents approximately $2900; daughter-chain energy is outside this interpretation.",
+        "source_sha256": "47230cb88f6b2a7d2ce0d665950ed1f5e5d49ad00c605865995e7b57665c8344",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:20",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 904,
+      "end_line": 914,
+      "kind": "problems-exercises",
+      "ordinal": 20,
+      "source_sha256": "0516f15c7f8aef64bd4a9b41cde67ce7f0d3ecd048668f4f280fe2909ecc8bcb",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "Large amounts of depleted uranium ( $${}^{238}\\text{U} $$ ) are available as a by-product of uranium processing for reactor fuel and weapons. Uranium is very dense and makes good…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md#exercise",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 916,
+      "end_line": 938,
+      "kind": "problems-exercises",
+      "ordinal": 21,
+      "source_sha256": "0324ea40c5082177b7c115ca06c26b066f4489a55fb30b137f22de1837e34a5c",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "The *Galileo* space probe was launched on its long journey past several planets in 1989, with an ultimate goal of Jupiter. Its power source is 11.0 kg of $${}^{238}\\text{Pu} $$ ,…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md#exercise",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The original activity follows from the Pu-238 inventory and half-life. Multiplying activity by the stated energy per decay gives thermal power, and that power decreases with the same exponential factor as the activity. These calculations answer the emitted-power questions; electrical output would additionally require a thermoelectric efficiency.",
+        "calculation_check": "N = (11000/238)N_A = 2.78334e25 nuclei and A0 = 6.97089e15 Bq. P0 = A0(5.59 MeV)(1.602176634e-13 J/MeV) = 6.24325 kW. After 12.0 y, P = P0 2^(-12/87.7) = 5.67833 kW. The reported 5.67 kW differs only by rounding.",
+        "assumptions": "The inventory is Pu-238, remains contained, and releases the stipulated 5.59 MeV per decay as usable heat. Daughter contributions and escaping gamma-ray losses are neglected as instructed.",
+        "notes": "All parts agree with the stated model. The powers are emitted thermal powers, not electrical outputs.",
+        "source_sha256": "0324ea40c5082177b7c115ca06c26b066f4489a55fb30b137f22de1837e34a5c",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:22",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 940,
+      "end_line": 955,
+      "kind": "problems-exercises",
+      "ordinal": 22,
+      "source_sha256": "5c1e64c9c04c6bfe574a21ec3c8f395e38c0d605fb525dc9bb16f36562f77fd9",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "**Construct Your Own Problem** Consider the generation of electricity by a radioactive isotope in a space probe, such as described in [[Example 1]](#Example1). Construct a problem…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:23",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 957,
+      "end_line": 972,
+      "kind": "problems-exercises",
+      "ordinal": 23,
+      "source_sha256": "cc459e8d21b4bfbe454c4adbb2df5588c02331210754862562e3136e4f60662c",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "**Unreasonable Results** A nuclear physicist finds $$1.0 \\mu \\text{g} $$ of $${}^{236}\\text{U} $$ in a piece of uranium ore and assumes it is primordial since its half-life is $$2…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:24",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 974,
+      "end_line": 987,
+      "kind": "problems-exercises",
+      "ordinal": 24,
+      "source_sha256": "af17313e6c626063ea44252ee6fb1c5cc8dd1cbfc240d82c73570a0ed0549a85",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "**Unreasonable Results** (a) Repeat [[Exercise 14]](#Exercise14) $${}^{234}\\text{U} $$ with its $$2.45 \\times 10^{5} \\text{y} $$ half-life. (b) What is unreasonable about this res…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:25",
+      "chapter": 31,
+      "file": "contents/ch31HalfLifeAndActivity.md",
+      "line": 989,
+      "end_line": 1015,
+      "kind": "problems-exercises",
+      "ordinal": 25,
+      "source_sha256": "d1c6a602b1a0e3a9d19723cdbe68379d333b4ff08b3eacadd3effebad8f844ed",
+      "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+      "preview": "**Unreasonable Results** The manufacturer of a smoke alarm decides that the smallest current of $$\\text{α} $$ radiation he can detect is $$1.00 \\mu \\text{A} $$ . (a) Find the acti…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31HalfLifeAndActivity.md::problems-exercises:25",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "An alpha particle carries charge +2e, so a collected alpha-particle current I requires a decay rate A = I/(2e) when each decay supplies one collected alpha. The solution correctly identifies the assumed minimum detectable current as the source of the excessive required activity. The calculation concerns direct alpha charge collection; a gas-ionization current can include many secondary charges per alpha.",
+        "calculation_check": "A = 1.00e-6/(2 times 1.602176634e-19) = 3.12075e12 Bq = 84.3447 Ci. Using rounded elementary charge gives approximately 84.5 Ci, consistent with the answer.",
+        "assumptions": "Each decay emits one alpha and every alpha's charge is collected, with no ionization multiplication. The assertion about permitted home-use activities was not independently established from the supplied internal sources.",
+        "notes": "The current-to-activity calculation and identified unreasonable sensitivity assumption are correct. The specific regulatory comparison remains unverified.",
+        "source_sha256": "d1c6a602b1a0e3a9d19723cdbe68379d333b4ff08b3eacadd3effebad8f844ed",
+        "file_sha256": "0e95a9d78145cf31b47c9399e2ec9ed82abb8a6856156009f2061f82de5141ea",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::worked-example:1",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 122,
+      "end_line": 190,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "c9efee26e99b9bf8efec63ade7ef71e1b427083eb25ea83e435d926fb74028c4",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "::: example Alpha Decay Energy Found from Nuclear Masses Find the energy emitted in the $$\\alpha $$ decay of $${}^{239}\\text{Pu} $$. **Strategy** Nuclear reaction energy, such as…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 32,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::worked-example:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Alpha emission conserves nucleon number and charge: Pu-239 becomes U-235 plus He-4. Neutral atomic masses can be subtracted because the daughter and helium together account for the parent's 94 electrons. The positive mass defect gives the total available decay energy. Momentum conservation gives equal and opposite product momenta, so the heavier daughter receives much less kinetic energy. Any daughter excitation subsequently appears in emitted photons.",
+        "calculation_check": "The supplied masses give final mass 235.043924 + 4.002602 = 239.046526 u, mass defect 0.005631 u, and Q = 0.005631 times 931.5 = 5.24528 MeV, rounding to 5.25 MeV. For a ground-state two-body decay, the alpha receives approximately 235/239 = 98.33% of Q and the daughter 1.67%, supporting the recoil discussion.",
+        "assumptions": "The parent is initially at rest; neutrino emission is absent in alpha decay. Atomic-electron binding and rearrangement corrections are negligible at the quoted precision. Excitation energy reduces immediate kinetic energy but not the total release to the final ground state.",
+        "notes": "The reaction, mass subtraction, energy calculation, and recoil discussion are correct. The appendix's slightly different final helium-mass digit is immaterial.",
+        "source_sha256": "c9efee26e99b9bf8efec63ade7ef71e1b427083eb25ea83e435d926fb74028c4",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::worked-example:2",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 291,
+      "end_line": 361,
+      "kind": "worked-example",
+      "ordinal": 2,
+      "source_sha256": "47c5770ac948f7e03bd45594307bd26540c66f03c1d913ee9e8e22b0a812cd80",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "::: example $${\\beta }^{-} $$ Decay Energy from Masses Find the energy emitted in the $${\\beta }^{-} $$ decay of $${}^{60}\\text{Co} $$. **Strategy and Concept** As in the precedin…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 23,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::worked-example:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Beta-minus decay converts a neutron into a proton, electron, and electron antineutrino, preserving nucleon number, electric charge, and lepton number. For neutral atomic masses, Q = [M(Co-60) - M(Ni-60)]c^2 because the extra electron included in the daughter atom accounts for the emitted electron's rest mass. The discussion correctly allocates the total energy among daughter excitation and subsequent photons, electron and antineutrino energies, and small recoil.",
+        "calculation_check": "The explicitly supplied masses give mass defect 59.933820 - 59.930789 = 0.003031 u and Q = 0.003031 times 931.5 = 2.82338 MeV, agreeing with 2.82 MeV. Charge conservation is 27 = 28 - 1, and nucleon number remains 60.",
+        "assumptions": "Neutrino rest mass and electronic binding corrections are negligible on the MeV scale. The answer is total decay energy, not a fixed beta-electron kinetic energy. The stated Co and Ni masses were used directly; their entries are absent from the local appendix table.",
+        "notes": "The calculation and energy-sharing discussion are correct. The extra bound electron belongs to the daughter atom; the strategy's reference to a nucleus having that electron is imprecise terminology.",
+        "source_sha256": "47c5770ac948f7e03bd45594307bd26540c66f03c1d913ee9e8e22b0a812cd80",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 525,
+      "end_line": 533,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "7cc5f80a4f19fc73ffd3e6068afda69deaa0e37ef3b6b02dbf1e522ccfa42107",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Star Trek fans have often heard the term “antimatter drive.” Describe how you could use a magnetic field to trap antimatter, such as produced by nuclear decay, and later combine i…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::conceptual-questions:2",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 535,
+      "end_line": 543,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "34b63c0cc813a55f9c3870f76353a29bd9a0f2a4e13be8423560925ab899292c",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "What conservation law requires an electron’s neutrino to be produced in electron capture? Note that the electron no longer exists after it is captured by the nucleus.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::conceptual-questions:3",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 545,
+      "end_line": 553,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "9fc235180d3e4c395bd101cc7df08031475d6172d516e8a368c7023ab3d2ced4",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Neutrinos are experimentally determined to have an extremely small mass. Huge numbers of neutrinos are created in a supernova at the same time as massive amounts of light are firs…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::conceptual-questions:4",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 555,
+      "end_line": 563,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "7da51b110f9c911b601e455b9930ba040de1c9c19149e19a3c011b06253a0911",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "What do the three types of beta decay have in common that is distinctly different from alpha decay?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:1",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 571,
+      "end_line": 588,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "231b94103174716490f6516521d59b28969a30a48482d28a3cee606f375888cd",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$${\\beta }^{-} $$ decay of $${}^{3}\\text{H} $$ (tritium), a manufactured isotope of hydrogen used in some digital watch displays, and manufactured primarily for use in hydrogen bo…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The surrounding instructions request a complete decay equation. In tritium beta-minus decay, one of its two neutrons becomes a proton, producing He-3 with two protons and one neutron, together with an electron and electron antineutrino. The supplied equation gives precisely these products and nuclear indices.",
+        "calculation_check": "Nucleon number balances as 3 = 3 + 0 + 0, electric charge as 1 = 2 - 1 + 0, and emitted lepton number as 0 = 1 - 1. The appendix masses also give positive available energy: (3.016050 - 3.016030) times 931.5 = 0.01863 MeV.",
+        "assumptions": "The beta symbol denotes an emitted electron, and the electron antineutrino carries the compensating lepton number. The displayed mass and neutron indices apply to the nuclei.",
+        "notes": "The complete tritium decay equation is correct and satisfies the requested notation and conservation laws.",
+        "source_sha256": "231b94103174716490f6516521d59b28969a30a48482d28a3cee606f375888cd",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T12:43:31+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:2",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 590,
+      "end_line": 600,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "051be5620efc5cacc8ba91901d9be534ff9d033ea0c3f23e3117fe2494955e3a",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$${\\beta }^{-} $$ decay of $${}^{40}K $$ , a naturally occurring rare isotope of potassium responsible for some of our exposure to background radiation.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:3",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 602,
+      "end_line": 618,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "e1d0f39ba3b9e364ab41d1b8980e9e5f9a6b273a10171f73fb9ba2579b298e05",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$${\\beta }^{+} $$ decay of $${}^{50}\\text{Mn} $$.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Positron decay converts a proton into a neutron, emitting a positron and electron neutrino. Thus Mn-50, with Z=25 and N=25, becomes Cr-50 with Z=24 and N=26, as given.",
+        "calculation_check": "Charge: 25=24+1. Nucleons: 50=50. Electron family number: 0=-1+1. Both neutron counts satisfy N=A-Z.",
+        "assumptions": "Nuclear notation is used, with spectator atomic electrons omitted. The stated decay mode is taken as given.",
+        "notes": "Correct daughter and emitted particles. The parent symbol M should read Mn; this is a notation typo, not a decay-model error.",
+        "source_sha256": "e1d0f39ba3b9e364ab41d1b8980e9e5f9a6b273a10171f73fb9ba2579b298e05",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:4",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 620,
+      "end_line": 629,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "bd7ec2307ead6df9986f67753b2168b6a91e81eaf1e94e4f4e3ff6645160ddfd",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$${\\beta }^{+} $$ decay of $${}^{52}\\text{Fe} $$.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:5",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 631,
+      "end_line": 646,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "ec113e4af6b07933b64ce598c98c453ae9b8fb62057398d6f23c8230867d1465",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Electron capture by $${}^{7}\\text{Be} $$.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Electron capture implements p+e−→n+νe. Be-7 therefore retains seven nucleons while changing from four protons and three neutrons to Li-7 with three protons and four neutrons. The solution includes the correct neutrino.",
+        "calculation_check": "Charge: 4−1=3. Electron family number: 1=1. Nucleons: 7=7. Appendix A atomic masses additionally give a positive ground-state energy release, (7.016928−7.016003)×931.5=0.8616 MeV.",
+        "assumptions": "The captured electron is included explicitly; remaining atomic electrons are spectators. Excitation and subsequent atomic relaxation need not be specified for this nuclide-identification exercise.",
+        "notes": "Correct electron-capture equation and conservation balances.",
+        "source_sha256": "ec113e4af6b07933b64ce598c98c453ae9b8fb62057398d6f23c8230867d1465",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:6",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 648,
+      "end_line": 656,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "c77b4e0d1ad487e8ff620d31b4be3ed549086949d65c1989b4fa59036b3bd104",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Electron capture by $${}^{106}\\text{In} $$.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:7",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 658,
+      "end_line": 676,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "200e9cb504d6c5346cdf13b86128bf9c4a24bfe67f9f2b29288eab3eee418044",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$$\\alpha $$ decay of $${}^{210}\\text{Po} $$ , the isotope of polonium in the decay series of $${}^{238}\\text{U} $$ that was discovered by the Curies. A favorite isotope in physics…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "An alpha particle removes two protons and two neutrons. Po-210 therefore produces Pb-206 with Z=82 and N=124. This agrees with the solution and the surrounding chapter's identification of Pb-206 as the stable endpoint of the U-238 series.",
+        "calculation_check": "Mass numbers: 210=206+4. Charges: 84=82+2. Neutron counts: 126=124+2.",
+        "assumptions": "The helium product denotes an alpha nucleus. Historical attribution and laboratory popularity are contextual claims, not independently established by this conservation check.",
+        "notes": "Correct alpha-decay equation and stable daughter. Historical and laboratory-use claims were not independently verified.",
+        "source_sha256": "200e9cb504d6c5346cdf13b86128bf9c4a24bfe67f9f2b29288eab3eee418044",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:8",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 678,
+      "end_line": 689,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "8478b969079e60d29920ce14a26d05a8c6f52f7b0c4b11b9bcfe9118974d128f",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$$\\alpha $$ decay of $${}^{226}\\text{Ra} $$ , another isotope in the decay series of $${}^{238}\\text{U} $$ , first recognized as a new element by the Curies. Poses special problem…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:9",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 695,
+      "end_line": 712,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "35b6c51e8a4de16272e6e2c963c8651edf977563dcba12abc0a79dc36a9eba7b",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$${\\beta }^{-} $$ decay producing $${}^{137}\\text{Ba} $$ . The parent nuclide is a major waste product of reactors and has chemistry similar to potassium and sodium, resulting in…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Beta-minus decay raises the daughter's atomic number by one without changing its mass number. A Ba-137 daughter therefore requires a Cs-137 parent, with an electron and electron antineutrino emitted. The neutron counts in the solution are correct.",
+        "calculation_check": "Charge: 55=56−1. Nucleons: 137=137. Electron family number: 0=1−1. Parent N=137−55=82; daughter N=137−56=81.",
+        "assumptions": "The equation identifies nuclides rather than resolving branching into excited or metastable Ba states and subsequent gamma emission.",
+        "notes": "Correct parent and beta-minus equation. Alkali-metal similarity supports the chemical clue; reactor-waste prominence and biological concentration were not independently verified.",
+        "source_sha256": "35b6c51e8a4de16272e6e2c963c8651edf977563dcba12abc0a79dc36a9eba7b",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:10",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 714,
+      "end_line": 725,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "74132a66732654e1dafafe316483dbf67febd375e70a6cc537d05de4ee33ee51",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$${\\beta }^{-} $$ decay producing $${}^{90}\\text{Y} $$ . The parent nuclide is a major waste product of reactors and has chemistry similar to calcium, so that it is concentrated i…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:11",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 727,
+      "end_line": 745,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "095ca99d6a0c3b21009dcfe9a6f7ec3d60889f8f9becfd4fac61ed96de139ea6",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$$\\alpha $$ decay producing $${}^{228}\\text{Ra} $$ . The parent nuclide is nearly 100% of the natural element and is found in gas lantern mantles and in metal alloys used in jets…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Working backward from Ra-228, alpha emission requires a parent with A=232 and Z=90, namely Th-232. Its neutron count is 142, and the Ra daughter has 140 neutrons, exactly as shown.",
+        "calculation_check": "232=228+4; 90=88+2; 142=140+2. All products have zero electron family number.",
+        "assumptions": "The supplied alpha-decay mode is accepted. The surrounding half-life section also identifies natural thorium as almost entirely Th-232 and discusses lantern mantles.",
+        "notes": "Correct parent identification and complete nuclear equation. The jet-alloy application was not independently verified from the local evidence.",
+        "source_sha256": "095ca99d6a0c3b21009dcfe9a6f7ec3d60889f8f9becfd4fac61ed96de139ea6",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:12",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 747,
+      "end_line": 758,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "c5270f63f2d6e5902723929c904d66d196114bfadc0d91511cafad887899e415",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "$$\\alpha $$ decay producing $${}^{208}\\text{Pb} $$ . The parent nuclide is in the decay series produced by $${}^{232}\\text{Th} $$ , the only naturally occurring isotope of thorium.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:13",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 760,
+      "end_line": 782,
+      "kind": "problems-exercises",
+      "ordinal": 13,
+      "source_sha256": "f21522fd05a014bfb36aa355353823c62be47bd135eba79d6562919aba8539f3",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "When an electron and positron annihilate, both their masses are destroyed, creating two equal energy photons to preserve momentum. (a) Confirm that the annihilation equation $${e}…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 7
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:13",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Initially the positron and electron have charges +e and −e, electron family numbers −1 and +1, and zero nucleons. Each final photon has zero of all three quantities. With zero initial total momentum, two final photon momenta must be equal and opposite; since E=pc, their energies are equal. Nearly stationary initial particles provide total energy 2mec², so each photon receives mec².",
+        "calculation_check": "Using me=0.00054858 u and uc²=931.5 MeV gives Eγ=0.51100227 MeV, agreeing with 0.511 MeV. Momentum conservation gives p1+p2=0.",
+        "assumptions": "The specified two-photon channel is considered in the center-of-momentum frame, with negligible initial kinetic and binding energies.",
+        "notes": "All parts are correct. The electron-family-number sum has the correct total; its individual signs belong to the electron and positron respectively, unlike the displayed charge ordering.",
+        "source_sha256": "f21522fd05a014bfb36aa355353823c62be47bd135eba79d6562919aba8539f3",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:14",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 784,
+      "end_line": 794,
+      "kind": "problems-exercises",
+      "ordinal": 14,
+      "source_sha256": "9874d508a85e4ce4eb715069974ae5086db843d0592e7d59ff2b239a0eceb226",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for $$\\alpha $$ decay given in the equation $${}_{Z}^{A}{X}_{N}\\to {}_{…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:15",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 796,
+      "end_line": 813,
+      "kind": "problems-exercises",
+      "ordinal": 15,
+      "source_sha256": "45f883088b6b470804a95666db870e133288aca36c3adbaf4b96f33d3b6caa75",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for $${\\beta }^{-} $$ decay given in the equation $${}_{Z}^{A}{X}_{N}\\t…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:15",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A neutron converts into a proton, electron, and electron antineutrino. The daughter charge increases by one, balanced by the electron's negative charge. The emitted leptons have opposite electron family numbers and no nucleons, so the solution correctly establishes all three requested conservation laws.",
+        "calculation_check": "Before and after: charge Z=(Z+1)−1+0; nucleon number A=A+0+0; electron family number 0=0+1−1. The daughter also satisfies (Z+1)+(N−1)=A.",
+        "assumptions": "X and Y denote nuclei, with spectator atomic electrons omitted. Electron family number is counted at the decay vertex.",
+        "notes": "Correct charge, nucleon-number, and electron-family-number accounting.",
+        "source_sha256": "45f883088b6b470804a95666db870e133288aca36c3adbaf4b96f33d3b6caa75",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:16",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 815,
+      "end_line": 825,
+      "kind": "problems-exercises",
+      "ordinal": 16,
+      "source_sha256": "6f0dd1b280a7a247c2021157a29655e09f3f2ee3aba8549004ef7a80000f76a6",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for $${\\beta }^{-} $$ decay given in the equation $${}_{Z}^{A}{X}_{N}\\t…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:17",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 827,
+      "end_line": 843,
+      "kind": "problems-exercises",
+      "ordinal": 17,
+      "source_sha256": "233c3501548493393de92cc945a512cbd87e2e99177e7a92b16d5183518b4bd1",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Confirm that charge, electron family number, and the total number of nucleons are all conserved by the rule for electron capture given in the equation $${}_{Z}^{A}{X}_{N}+{e}^{-}\\…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:17",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The captured electron supplies charge −e and electron family number +1. Conversion of a proton into a neutron lowers nuclear charge to Z−1 while preserving A; the emitted electron neutrino carries the initial electron family number. The solution's balances are correct.",
+        "calculation_check": "Charge: Z+(−1)=(Z−1)+0. Nucleon number: A+0=A+0. Electron family number: 0+1=0+1. Daughter consistency: (Z−1)+(N+1)=A.",
+        "assumptions": "The nuclear species exclude spectator electrons, while the captured electron is explicit. Atomic relaxation radiation does not affect these balances.",
+        "notes": "All requested conservation laws are correctly verified.",
+        "source_sha256": "233c3501548493393de92cc945a512cbd87e2e99177e7a92b16d5183518b4bd1",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:18",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 845,
+      "end_line": 857,
+      "kind": "problems-exercises",
+      "ordinal": 18,
+      "source_sha256": "a2b5ef12f15e37fb34eaa09736935397dec3da0ada4cd97b9a7cc37d924893ba",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "A rare decay mode has been observed in which $${}^{222}\\text{Ra} $$ emits a $${}^{14}\\text{C}$$ nucleus. (a) The decay equation is $${}^{222}\\text{Ra}{\\to }^{A}{\\text{X+}}^{14}\\te…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:19",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 859,
+      "end_line": 877,
+      "kind": "problems-exercises",
+      "ordinal": 19,
+      "source_sha256": "1381fddc640deceb1540796bcfe0edfb20b6a31f2a63a59b365a38f9ca88fa27",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete $$\\alpha $$ decay equation for $${}^{226}\\text{Ra} $$. (b) Find the energy released in the decay.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:19",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Alpha emission from Ra-226 gives Rn-222 and He-4, conserving charge and nucleon number. The total released energy is the parent-minus-products rest-mass difference, including daughter recoil rather than only alpha kinetic energy.",
+        "calculation_check": "Appendix A gives Δm=226.025402−222.017570−4.002603=0.005229 u. Therefore Q=0.005229×931.5=4.8708135 MeV, agreeing with 4.87 MeV. Charges balance as 88=86+2 and neutron counts as 138=136+2.",
+        "assumptions": "Neutral-atom masses are used consistently, so electron rest masses cancel. Electronic binding corrections are negligible at the quoted precision; Q is the total energy available through decay and any de-excitation.",
+        "notes": "Both the complete decay equation and 4.87 MeV energy release are correct.",
+        "source_sha256": "1381fddc640deceb1540796bcfe0edfb20b6a31f2a63a59b365a38f9ca88fa27",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:20",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 879,
+      "end_line": 890,
+      "kind": "problems-exercises",
+      "ordinal": 20,
+      "source_sha256": "5295188f3f602702fc5ec1f4a96a2507a6f6249de5d9e39a53ad8d15af0e6fcd",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete $$\\alpha $$ decay equation for $${}^{249}\\text{Cf} $$. (b) Find the energy released in the decay.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:21",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 892,
+      "end_line": 908,
+      "kind": "problems-exercises",
+      "ordinal": 21,
+      "source_sha256": "061e07f5ff253e6527883857fe80ec5ed7fa5c755ab9d105eed951cdeeb795f3",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete $${\\beta }^{-} $$ decay equation for the neutron. (b) Find the energy released in the decay.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:21",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Free-neutron beta-minus decay produces a proton, electron, and electron antineutrino. These products conserve charge, nucleon number, and electron family number. The released energy is the neutron rest energy minus the proton and electron rest energies.",
+        "calculation_check": "Using the local particle table, Q=(1.008665−1.007276−0.00054858)×931.5=0.78285123 MeV, agreeing with 0.783 MeV. Charge balances as 0=1−1 and electron family number as 0=1−1.",
+        "assumptions": "An isolated free neutron is considered. Neutrino rest mass is negligible; Q is shared among the three products rather than assigned entirely to the electron.",
+        "notes": "Correct decay products and energy release; the extra parenthesis is editorial only.",
+        "source_sha256": "061e07f5ff253e6527883857fe80ec5ed7fa5c755ab9d105eed951cdeeb795f3",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:22",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 910,
+      "end_line": 920,
+      "kind": "problems-exercises",
+      "ordinal": 22,
+      "source_sha256": "08582589e067797264d4870a9e77cb11a499cbd553fbcb11764826563a287ce9",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete $${\\beta }^{-} $$ decay equation for $${}^{90}\\text{Sr} $$ , a major waste product of nuclear reactors. (b) Find the energy released in the decay.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:23",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 922,
+      "end_line": 940,
+      "kind": "problems-exercises",
+      "ordinal": 23,
+      "source_sha256": "2212b1e7b350fdce8a8903ddc6a3b50f216e6b00c3208f579468e19161461590",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "Calculate the energy released in the $${\\beta }^{+} $$ decay of $${}^{22}\\text{Na} $$ , the equation for which is given in the text. The masses of $${}^{22}\\text{Na} $$ and $${}^{…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:23",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The text's reaction is Na-22→Ne-22+e++νe. With neutral-atom masses, the available energy requires subtracting two electron masses: one for the emitted positron and one for the differing atomic electron counts. Applying this correction reproduces the solution.",
+        "calculation_check": "Q=[21.994434−21.991383−2(0.00054858)]×931.5=1.82000196 MeV, agreeing with 1.82 MeV.",
+        "assumptions": "The supplied masses are neutral-atom masses. Neutrino mass and electronic binding corrections are negligible. This is the total ground-state mass-difference energy, including subsequent daughter de-excitation if an excited state is populated.",
+        "notes": "Correct total energy release, including the required two-electron-mass correction. It is not the positron's energy alone.",
+        "source_sha256": "2212b1e7b350fdce8a8903ddc6a3b50f216e6b00c3208f579468e19161461590",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:24",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 942,
+      "end_line": 953,
+      "kind": "problems-exercises",
+      "ordinal": 24,
+      "source_sha256": "a1f4aac05db91578bfc2e3208349317c94bf5cd66ce3341f774cc408b79d51c2",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete $${\\beta }^{+} $$ decay equation for $${}^{11}\\text{C} $$. (b) Calculate the energy released in the decay. The masses of $${}^{11}\\text{C} $$ and $${}^{11}\\…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:25",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 955,
+      "end_line": 982,
+      "kind": "problems-exercises",
+      "ordinal": 25,
+      "source_sha256": "4e7f77b8bb8bf41a6fd8e56b7d382898ea1a1e9882659a454aae3ff0513caca8",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Calculate the energy released in the $$\\alpha $$ decay of $${}^{238}\\text{U} $$. (b) What fraction of the mass of a single $${}^{238}\\text{U} $$ is destroyed in the decay? The…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:25",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For U-238→Th-234+He-4, Q=[M(U)−M(Th)−M(He)]c² and the fractional rest-mass deficit is Δm/M(U). Parts (a) and (b) are correct. Part (c) identifies the relevant long half-life, but confuses a small fraction of nuclei with a small absolute number and makes an unqualified claim about the sample's total mass. Released energy retained inside a closed sample still contributes to its mass; a sample's measured mass loss depends on energy and particles crossing its boundary.",
+        "calculation_check": "Using Appendix A, Δm=238.050784−234.043593−4.002603=0.004588 u, Q=4.273722 MeV, and Δm/M=1.92732×10^−5, agreeing with the answers. With T½=4.47×10^9 y, only 1.55×10^−10 of the nuclei decay annually. Nevertheless, a 1 kg sample undergoes about 3.9×10^14 primary decays per year. The corresponding first-decay mass deficit is about 3×10^−15 kg annually if products remain and released energy escapes.",
+        "assumptions": "Neutral-atom masses and negligible electronic binding corrections are used. The annual estimate considers primary U-238 decays over times much shorter than its half-life, excluding subsequent daughter decays.",
+        "notes": "Numerical answers are correct. Part (c) needs a small-fraction explanation and a stated sample boundary; its claims of a small absolute decay count and unconditional non-detectability are overstated.",
+        "source_sha256": "4e7f77b8bb8bf41a6fd8e56b7d382898ea1a1e9882659a454aae3ff0513caca8",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:14:10+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:26",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 984,
+      "end_line": 993,
+      "kind": "problems-exercises",
+      "ordinal": 26,
+      "source_sha256": "8981404d57460bfc11c67e58b1a2beccc1a91e4b41da34f675d1b7daed9b1ff2",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete reaction equation for electron capture by $${}^{7}\\text{Be} \\text{.} $$ (b) Calculate the energy released.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:27",
+      "chapter": 31,
+      "file": "contents/ch31NuclearDecayAndConservationLaws.md",
+      "line": 995,
+      "end_line": 1012,
+      "kind": "problems-exercises",
+      "ordinal": 27,
+      "source_sha256": "dcd027e709f52a61aa820ce077b4babc6c702473a5d9ba49fc24057c6703c3a0",
+      "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+      "preview": "(a) Write the complete reaction equation for electron capture by $${}^{15}\\text{O} $$. (b) Calculate the energy released.",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31NuclearDecayAndConservationLaws.md::problems-exercises:27",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Electron capture converts a proton into a neutron, leaving A=15 while changing Z from 8 to 7 and N from 7 to 8. The stated reaction conserves charge, nucleon number, and electron lepton number. Using neutral atomic masses, the total energy release is Q=[M(O-15)-M(N-15)]c²; no additional electron rest mass should be added.",
+        "calculation_check": "The local Appendix A gives M(O-15)=15.003065 u and M(N-15)=15.000108 u. Their difference gives Q=0.002957×931.5=2.75445 MeV, agreeing with 2.754 MeV.",
+        "assumptions": "Total energy release for capture in a neutral atom, with negligible neutrino rest mass. The quoted Q includes energy ultimately appearing in recoil and atomic relaxation, rather than specifying the neutrino energy alone.",
+        "notes": "Reaction and energy release are correct; neutral-atom mass bookkeeping supports the answer.",
+        "source_sha256": "dcd027e709f52a61aa820ce077b4babc6c702473a5d9ba49fc24057c6703c3a0",
+        "file_sha256": "ce961c9ff052b105f61cee4db7890724071325e5c6ad3b0636c6097bf3ad2daf",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:21:11+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 291,
+      "end_line": 301,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "09bf665c82bba176ffe5fb00f7e5eafd4f155818e4b497037c43c2ba4abeb0ee",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "Suppose the range for $$5.0\\text{MeV}\\alpha $$ ray is known to be 2.0 mm in a certain material. Does this mean that every $$5.0\\text{MeV}\\alpha $$ a ray that strikes this material…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:2",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 303,
+      "end_line": 311,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "33d98db837c97b065277ced3aa554e79e05c4afa6dea777cb88ac1d6768fc99a",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "What is the difference between $$\\gamma $$ rays and characteristic X-rays? Is either necessarily more energetic than the other? Which can be the most energetic?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:3",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 313,
+      "end_line": 321,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "112ad81446467e96877597ad32db5f892a8173d66eab3043571b9870ee9e7e66",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "Ionizing radiation interacts with matter by scattering from electrons and nuclei in the substance. Based on the law of conservation of momentum and energy, explain why electrons t…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:4",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 323,
+      "end_line": 331,
+      "kind": "conceptual-questions",
+      "ordinal": 4,
+      "source_sha256": "58cc76f1d48ef18f4ee6aec25c4400969f90edbb91d003b343370c91f544f3bf",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "What characteristics of radioactivity show it to be nuclear in origin and not atomic?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:5",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 333,
+      "end_line": 341,
+      "kind": "conceptual-questions",
+      "ordinal": 5,
+      "source_sha256": "f0b3e31a13a729e6138723a422c0e4c813782d3b66093d0a939a484e5f249268",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "What is the source of the energy emitted in radioactive decay? Identify an earlier conservation law, and describe how it was modified to take such processes into account.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:6",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 343,
+      "end_line": 353,
+      "kind": "conceptual-questions",
+      "ordinal": 6,
+      "source_sha256": "a764965417b50082c979d126ce1e2ca2d4019f5608ff6500478533d566c76934",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "Consider [[Figure 2]](#Figure2). If an electric field is substituted for the magnetic field with positive charge instead of the north pole and negative charge instead of the south…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:7",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 355,
+      "end_line": 365,
+      "kind": "conceptual-questions",
+      "ordinal": 7,
+      "source_sha256": "4acae5f6fd79dbaaf782bed291c5db3fc9dd5143beab0eb00ed28658f49969e9",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "Explain how an $$\\alpha $$ particle can have a larger range in air than a $$\\beta $$ particle with the same energy in lead.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:8",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 367,
+      "end_line": 383,
+      "kind": "conceptual-questions",
+      "ordinal": 8,
+      "source_sha256": "83cc9bc6d47acaf98fdbd36d408793fcea3cac0d34e2de703c4e936262633d1e",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "Arrange the following according to their ability to act as radiation shields, with the best first and worst last. Explain your ordering in terms of how radiation loses its energy…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31NuclearRadioactivity.md::conceptual-questions:9",
+      "chapter": 31,
+      "file": "contents/ch31NuclearRadioactivity.md",
+      "line": 385,
+      "end_line": 393,
+      "kind": "conceptual-questions",
+      "ordinal": 9,
+      "source_sha256": "df5ecd3d8f3adafef1587c46ecb1c936a63fa7506ea1e44fb0e962dfc2573af2",
+      "file_sha256": "f0794cdc2b6625d70f85367e4c88eb75b03065f5a65bd2795345b3def8c0e564",
+      "preview": "Often, when people have to work around radioactive materials spills, we see them wearing white coveralls (usually a plastic material). What types of radiation (if any) do you thin…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31RadiationDetectionAndDetectors.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31RadiationDetectionAndDetectors.md",
+      "line": 125,
+      "end_line": 133,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "e6704c6968c6b91da4878284b217cf1363b9e5adb809844b9347319c44c197f9",
+      "file_sha256": "3af61d6c7961abeb6ca0354c6e4787c3a448da5925e516ab9d7922d58c45af7f",
+      "preview": "Is it possible for light emitted by a scintillator to be too low in frequency to be used in a photomultiplier tube? Explain.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31RadiationDetectionAndDetectors.md::problems-exercises:1",
+      "chapter": 31,
+      "file": "contents/ch31RadiationDetectionAndDetectors.md",
+      "line": 137,
+      "end_line": 152,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "47940b91d2ebc4ba144e10b0288ab16cc7b4e499cd72736edcef8f01b42918f0",
+      "file_sha256": "3af61d6c7961abeb6ca0354c6e4787c3a448da5925e516ab9d7922d58c45af7f",
+      "preview": "The energy of 30.0 $$\\text{eV} $$ is required to ionize a molecule of the gas inside a Geiger tube, thereby producing an ion pair. Suppose a particle of ionizing radiation deposit…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31RadiationDetectionAndDetectors.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The maximum primary ion-pair yield follows by dividing deposited energy by the energy required per pair. Energy diverted into other processes would reduce the yield.",
+        "calculation_check": "Nmax=(0.500×10^6 eV)/(30.0 eV)=16666.7, or 1.67×10^4 pairs at the supplied precision. The literal integer maximum is 16666, which is consistent with the rounded answer.",
+        "assumptions": "All deposited radiation energy is available for primary ionization at the stated cost per pair. Additional avalanche ionization powered by the tube's electric field is excluded.",
+        "notes": "Correct energy-budget calculation for the maximum primary ion-pair count.",
+        "source_sha256": "47940b91d2ebc4ba144e10b0288ab16cc7b4e499cd72736edcef8f01b42918f0",
+        "file_sha256": "3af61d6c7961abeb6ca0354c6e4787c3a448da5925e516ab9d7922d58c45af7f",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:21:11+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31RadiationDetectionAndDetectors.md#exercise2",
+      "chapter": 31,
+      "file": "contents/ch31RadiationDetectionAndDetectors.md",
+      "line": 154,
+      "end_line": 162,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "89a40d5b313c4bfc7607c8b75b44b8dc29954331f3595b9d8f8f34fb6900c0f3",
+      "file_sha256": "3af61d6c7961abeb6ca0354c6e4787c3a448da5925e516ab9d7922d58c45af7f",
+      "preview": "A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geiger tube as it passes through. What minimum energy was deposited, if 30.0 $$\\text{eV} $$ is required…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31RadiationDetectionAndDetectors.md::problems-exercises:3",
+      "chapter": 31,
+      "file": "contents/ch31RadiationDetectionAndDetectors.md",
+      "line": 164,
+      "end_line": 173,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "123af9a78663b604566c0b88a15ad078b41680c825200ddb6e40b47936cea40d",
+      "file_sha256": "3af61d6c7961abeb6ca0354c6e4787c3a448da5925e516ab9d7922d58c45af7f",
+      "preview": "(a) Repeat [[the previous exercise]](#exercise2), and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its te…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31RadiationDetectionAndDetectors.md::problems-exercises:4",
+      "chapter": 31,
+      "file": "contents/ch31RadiationDetectionAndDetectors.md",
+      "line": 175,
+      "end_line": 184,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "a4f031ba71c3db324fb37af209aa07d2ea3169b9d2ba51269cbb1b21fe6edda3",
+      "file_sha256": "3af61d6c7961abeb6ca0354c6e4787c3a448da5925e516ab9d7922d58c45af7f",
+      "preview": "Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger tube, all of which goes to creating ion pairs. Each ion pair requires 30.0 eV of energy. (a) The a…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md#example1",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 190,
+      "end_line": 261,
+      "kind": "worked-example",
+      "ordinal": 1,
+      "source_sha256": "bc735949e191056e317a5a5e7cc5a10dfcac51e76fe6e30e8ca0440af2d3cb74",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "::: example {\"class\":\"example\",\"id\":\"example1\"} How Small and Dense Is a Nucleus? (a) Find the radius of an iron-56 nucleus. (b) Find its approximate density in $$kg/{m}^{3} $$ ,…",
+      "has_solution": true,
+      "missing_labels": [],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 27,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md#example1",
+        "source_sha256": "bc735949e191056e317a5a5e7cc5a10dfcac51e76fe6e30e8ca0440af2d3cb74",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 2.3×10¹⁷ kg/m³. Fixed: the fm-to-m conversion factor is now cubed, matching u/fm³.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch30-31)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 360,
+      "end_line": 368,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "e89ced14ac074ed2ed2e7fb7a296b6c9d20469268028ef9655a967492b378699",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "The weak and strong nuclear forces are basic to the structure of matter. Why we do not experience them directly?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::conceptual-questions:2",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 370,
+      "end_line": 378,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "f8575e33701bf2e56d939fc002886ec2073070fe11ec59afe0f7cc0bf70bf820",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "Define and make clear distinctions between the terms neutron, nucleon, nucleus, nuclide, and neutrino.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::conceptual-questions:3",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 380,
+      "end_line": 388,
+      "kind": "conceptual-questions",
+      "ordinal": 3,
+      "source_sha256": "f82502cbbec7bfa586f32692d3acd25047de2e89eda4b9c662ba989eece447fc",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "What are isotopes? Why do different isotopes of the same element have similar chemistries?",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:1",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 392,
+      "end_line": 408,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "0eb2bef6d1d4ce95d4d1faafd46c2bdfd51ff642a7f16600e8b5c10739d4c492",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "Verify that a $$ 2.3 \\times 10^{17} \\text{kg} $$ mass of water at normal density would make a cube 60 km on a side, as claimed in [[Example 1]](#Example1). (This mass at nuclear d…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6,
+        "checked": 1
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:1",
+        "source_sha256": "0eb2bef6d1d4ce95d4d1faafd46c2bdfd51ff642a7f16600e8b5c10739d4c492",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a cube, m=rho L³, so L=(m/rho)^(1/3). The solution applies this relation correctly. Its 61 km result supports the problem's approximate 60 km claim.",
+        "calculation_check": "L=[(2.3×10^17 kg)/(1000 kg/m³)]^(1/3)=61269 m=61.27 km. At density 2.3×10^17 kg/m³, the same mass occupies 1.0 m³.",
+        "assumptions": "Uniform water density of 1000 kg/m³; compression and gravitational effects are excluded from this volume comparison.",
+        "notes": "Correct cube-volume verification; 60 versus 61 km is ordinary approximation.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:2",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 410,
+      "end_line": 418,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "a3fced62b58d2d8c5f7189ee7a2abf778ba877f90150bf399ad10b6e61036ce4",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "Find the length of a side of a cube having a mass of 1.0 kg and the density of nuclear matter, taking this to be $$ 2.3 \\times 10^{17} {\\text{kg/m}}^{3} $$.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 1
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:3",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 420,
+      "end_line": 435,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "7d9ca28bae3dc72334811639c7aedc64134b18a057229daddbffe6b3a2b0ae13",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "What is the radius of an $$\\alpha $$ particle?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:3",
+        "source_sha256": "7d9ca28bae3dc72334811639c7aedc64134b18a057229daddbffe6b3a2b0ae13",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "An alpha particle is a helium-4 nucleus, so its mass number is A=4. Applying the chapter's approximate nuclear-radius relation gives the stated radius.",
+        "calculation_check": "r=(1.2 fm)4^(1/3)=1.90488 fm, rounding to 1.9 fm.",
+        "assumptions": "Uses the chapter's empirical effective-radius model, not a separately measured rms charge radius; the model is approximate for such a light nucleus.",
+        "notes": "Correct alpha-particle radius within the stated chapter model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:4",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 437,
+      "end_line": 447,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "f4584e08667723dac21a84f0e59401644596851ec4bbff5bab17d68b6c9ee27e",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "Find the radius of a $${}^{238}\\text{Pu} $$ nucleus. $${}^{238}\\text{Pu} $$ is a manufactured nuclide that is used as a power source on some space probes.",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:5",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 449,
+      "end_line": 469,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "15f9f5f354247a4807f7c72d5094671844c8c0bd5d47ede009b2decb265c8ab2",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "(a) Calculate the radius of $${}^{58}\\text{Ni} $$ , one of the most tightly bound stable nuclei. (b) What is the ratio of the radius of $${}^{58}\\text{Ni} $$ to that of $${}^{258}…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 5
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:5",
+        "source_sha256": "15f9f5f354247a4807f7c72d5094671844c8c0bd5d47ede009b2decb265c8ab2",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Part (a) follows from r=r0 A^(1/3). In part (b), the common radius coefficient cancels, giving r58/r258=(58/258)^(1/3). Both requested parts are answered correctly.",
+        "calculation_check": "r58=1.2×58^(1/3)=4.64505 fm, or 4.6 fm. The radius ratio is (58/258)^(1/3)=0.60805, or 0.61 to 1. The A=258 radius is approximately 7.64 fm, far below an atomic scale of roughly 10^-10 m.",
+        "assumptions": "Both nuclei follow the same approximate effective-radius law. The historical nuclide naming and record-size wording do not enter the calculation.",
+        "notes": "Both the nickel radius and radius ratio are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:6",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 471,
+      "end_line": 481,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "3f14b5c63de33058deab9c1f274d73aeeaa4ab3cac518ff534000120df70cb70",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "The unified atomic mass unit is defined to be $$1 \\text{u}= 1.6605 \\times 10^{-27} \\text{kg} $$ . Verify that this amount of mass converted to energy yields 931.5 MeV. Note that y…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "checked": 1,
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md#Exercise11",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 483,
+      "end_line": 499,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "df1d146df1219346c8e113ae7aab447f8a2e227715f80f16dc123480517e0f83",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "What is the ratio of the velocity of a $$\\beta $$ particle to that of an $$\\alpha $$ particle, if they have the same nonrelativistic kinetic energy?",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md#Exercise11",
+        "source_sha256": "df1d146df1219346c8e113ae7aab447f8a2e227715f80f16dc123480517e0f83",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Equal nonrelativistic kinetic energies imply m_beta v_beta²=m_alpha v_alpha². Therefore v_beta/v_alpha=sqrt(m_alpha/m_e), with the lighter beta particle moving faster.",
+        "calculation_check": "Using m_alpha approximately 6.64466×10^-27 kg and m_e approximately 9.10938×10^-31 kg gives sqrt(m_alpha/m_e)=85.4067, agreeing with 85.4 to 1.",
+        "assumptions": "The beta particle is an electron or positron. Both kinetic energies must be much smaller than their rest energies; the restrictive condition is K much less than 0.511 MeV for the beta particle.",
+        "notes": "Correct speed ratio with the explicitly required nonrelativistic restriction.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:8",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 501,
+      "end_line": 511,
+      "kind": "problems-exercises",
+      "ordinal": 8,
+      "source_sha256": "dc26cee9cbbf9594ba8f8a88496dfd976307a9cfc997fc6cf830b38f4cd3bfdf",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "If a 1.50-cm-thick piece of lead can absorb 90.0% of the $$\\gamma $$ rays from a radioactive source, how many centimeters of lead are needed to absorb all but 0.100% of the $$\\gam…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:9",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 513,
+      "end_line": 529,
+      "kind": "problems-exercises",
+      "ordinal": 9,
+      "source_sha256": "9db9d9eefd5d1b292ae0385f6f2b23b9b5106e1f5b4059ddc3161f30538677fa",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "The detail observable using a probe is limited by its wavelength. Calculate the energy of a $$\\gamma $$ -ray photon that has a wavelength of $$1 \\times 10^{-16} \\text{m} $$ , smal…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:9",
+        "source_sha256": "9db9d9eefd5d1b292ae0385f6f2b23b9b5106e1f5b4059ddc3161f30538677fa",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A photon obeys E=hc/lambda. Using the supplied ordinary wavelength directly gives the quoted energy; there is no additional factor of 2π.",
+        "calculation_check": "E=(6.62607015×10^-34 J s)(299792458 m/s)/(10^-16 m)=1.98645×10^-9 J=12.3984 GeV, agreeing with 12.4 GeV.",
+        "assumptions": "Vacuum photon wavelength and the problem's wavelength-based resolution criterion. The qualitative production difficulty and nuclear-interaction efficiency were not independently quantified by the supplied evidence.",
+        "notes": "Correct photon energy. The qualitative practicality statements remain unquantified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:10",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 531,
+      "end_line": 544,
+      "kind": "problems-exercises",
+      "ordinal": 10,
+      "source_sha256": "f8e4a02cfd14741ec674c6484306ed7cabc201ee38d8fa5f4ba3088e944427d1",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "(a) Show that if you assume the average nucleus is spherical with a radius $$r={r}_{0}{A}^{1/3} $$ , and with a mass of $$A $$ u, then its density is independent of $$A $$. (b) Ca…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:11",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 546,
+      "end_line": 564,
+      "kind": "problems-exercises",
+      "ordinal": 11,
+      "source_sha256": "ca38de1ada6188d01b1bb9d7eff7d91b72651feddcacca8120f5e4f965a0e436",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "What is the ratio of the velocity of a 5.00-MeV $$\\beta $$ ray to that of an $$\\alpha $$ particle with the same kinetic energy? This should confirm that $$\\beta $$ s travel much f…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:11",
+        "source_sha256": "ca38de1ada6188d01b1bb9d7eff7d91b72651feddcacca8120f5e4f965a0e436",
+        "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For each particle, gamma=1+K/(mc²) and v/c=sqrt(1-gamma^-2). At 5 MeV the electron is highly relativistic, whereas the alpha particle remains slow compared with c. Relativity therefore substantially reduces the ratio from its nonrelativistic value.",
+        "calculation_check": "Using electron and alpha rest energies of 0.511 and 3727.38 MeV gives v_beta=0.995692c and v_alpha=0.0517442c, hence v_beta/v_alpha=19.2426. Using a nonrelativistic alpha speed gives 19.26; the stated 19.3 is consistent with the intended approximation.",
+        "assumptions": "Both particles have 5.00 MeV kinetic energy in the same reference frame. The beta particle has electron or positron mass.",
+        "notes": "Correct relativistic comparison at textbook precision; beta particles remain much faster.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T13:21:11+00:00",
+        "reviewed_at": "2026-10-24T13:35:05+00:00"
+      },
+      "previous_review_count": 2
+    },
+    {
+      "id": "contents/ch31SubstructureOfTheNucleus.md::problems-exercises:12",
+      "chapter": 31,
+      "file": "contents/ch31SubstructureOfTheNucleus.md",
+      "line": 566,
+      "end_line": 580,
+      "kind": "problems-exercises",
+      "ordinal": 12,
+      "source_sha256": "80a55603808a324909c376fb93c0803a231e83cc9548a2510234795935840a2a",
+      "file_sha256": "a860a81feb0cd0401bb8d2c6d6e0d646225b505f9987b3ad0287891e266ef30f",
+      "preview": "(a) What is the kinetic energy in MeV of a $$\\beta $$ ray that is traveling at $$0.998c $$ ? This gives some idea of how energetic a $$\\beta $$ ray must be to travel at nearly the…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 6
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31Tunneling.md::conceptual-questions:1",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 109,
+      "end_line": 117,
+      "kind": "conceptual-questions",
+      "ordinal": 1,
+      "source_sha256": "becdeaed3a5d91a641126808d150404b2ff4044ab7ba8626d151840d28ec9d8c",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "A physics student caught breaking conservation laws is imprisoned. She leans against the cell wall hoping to tunnel out quantum mechanically. Explain why her chances are negligibl…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31Tunneling.md::conceptual-questions:2",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 119,
+      "end_line": 129,
+      "kind": "conceptual-questions",
+      "ordinal": 2,
+      "source_sha256": "04d666960a725b6197648b86309cb4cd26534d806f0a3ac1956c220e70bb4d19",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "When a nucleus $$\\alpha $$ decays, does the $$\\alpha $$ particle move continuously from inside the nucleus to outside? That is, does it travel each point along an imaginary line f…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:1",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 133,
+      "end_line": 201,
+      "kind": "problems-exercises",
+      "ordinal": 1,
+      "source_sha256": "10a30fdd0cf1db38acc0c46bbad939f2e4c8a830b9ae05f48c40fb926d47aa91",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "Derive an approximate relationship between the energy of $$\\alpha $$ decay and half-life using the following data. It may be useful to graph the log of $${t}_{1/2} $$ against $${E…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 21
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:2",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 203,
+      "end_line": 221,
+      "kind": "problems-exercises",
+      "ordinal": 2,
+      "source_sha256": "1d8055584f657b07e6c4a1f39a688d9abec2e445d33949ad50a195c06bd51bb0",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "**Integrated Concepts** A 2.00-T magnetic field is applied perpendicular to the path of charged particles in a bubble chamber. What is the radius of curvature of the path of a 10…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31Tunneling.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For perpendicular motion in a uniform magnetic field, the curvature radius is r=p/(qB). With K much smaller than the proton rest energy, p=sqrt(2mK) is an appropriate approximation and yields the stated result.",
+        "calculation_check": "K=10 MeV=1.60218×10^-12 J gives r=sqrt(2m_p K)/(e×2.00 T)=0.22847 m=22.85 cm. Relativistic momentum gives 22.91 cm, only 0.27% larger.",
+        "assumptions": "The quoted proton energy is kinetic energy; the field is uniform and perpendicular to the velocity. Energy loss is neglected as directed, and the solution uses nonrelativistic momentum.",
+        "notes": "Correct magnetic curvature radius within a justified nonrelativistic approximation.",
+        "source_sha256": "1d8055584f657b07e6c4a1f39a688d9abec2e445d33949ad50a195c06bd51bb0",
+        "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:21:11+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:3",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 223,
+      "end_line": 243,
+      "kind": "problems-exercises",
+      "ordinal": 3,
+      "source_sha256": "761ea556e78919ae0f9b5a43ffac33e2a2a19b422ad2d235132cbf648064c829",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "(a) Write the decay equation for the $$\\alpha $$ decay of $${}^{235}\\text{U} $$ . (b) What energy is released in this decay? The mass of the daughter nuclide is 231.036298 u. (c)…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 4
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31Tunneling.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Alpha emission lowers A by four and Z by two, producing thorium-231 with 141 neutrons; the equation conserves charge and nucleon number. Atomic masses can be subtracted because electron counts balance. For a parent initially at rest, the two products have equal and opposite momenta, so the alpha receives the fraction M_d/(M_d+m_alpha) of the available kinetic energy.",
+        "calculation_check": "Using Appendix A masses, Q=(235.043924-231.036298-4.002603)×931.5=4.67892 MeV. Then K_alpha=Q×231.036298/(231.036298+4.002603)=4.59924 MeV, leaving approximately 0.07968 MeV in daughter recoil. Both energies agree with the solution.",
+        "assumptions": "Parent initially at rest, daughter in its ground state for part (c), and two-body nonrelativistic recoil. Electron binding and redistribution corrections are negligible at the quoted precision.",
+        "notes": "Decay equation, total release, and recoil-corrected alpha energy are all correct.",
+        "source_sha256": "761ea556e78919ae0f9b5a43ffac33e2a2a19b422ad2d235132cbf648064c829",
+        "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:21:11+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:4",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 245,
+      "end_line": 259,
+      "kind": "problems-exercises",
+      "ordinal": 4,
+      "source_sha256": "60044b606ef01c5f6ed86666172f566c617767b3a8735c4d36a521d65665600f",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "**Unreasonable Results** The relatively scarce naturally occurring calcium isotope $${}^{48}\\text{Ca} $$ has a half-life of about $$2 \\times 10^{16} \\text{y} $$ . (a) A small samp…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:5",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 261,
+      "end_line": 285,
+      "kind": "problems-exercises",
+      "ordinal": 5,
+      "source_sha256": "5f272186cab22d5042a46597c1be9b9b5b2c49d9521bca12588b09a8802138b8",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "**Unreasonable Results** A physicist scatters $$\\gamma $$ rays from a substance and sees evidence of a nucleus $$7.5 \\times 10^{-13} \\text{m} $$ in radius. (a) Find the atomic mas…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 3
+      },
+      "automatic_flags": [],
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch31Tunneling.md::problems-exercises:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inverting r=r0 A^(1/3) gives A=(r/r0)^3, and the approximate atomic mass is A u. A radius of 750 fm implies hundreds of millions of nucleons, vastly beyond the mass scale of ordinary nuclei. Thus the inferred radius is unreasonable for an ordinary nucleus, as the solution states.",
+        "calculation_check": "A=[(7.5×10^-13 m)/(1.2×10^-15 m)]^3=625^3=2.44141×10^8, giving approximately 2.4×10^8 u. This exceeds a mass-number scale of a few hundred by about six orders of magnitude.",
+        "assumptions": "Uses the ordinary-nucleus radius law as an intentionally extreme extrapolation and approximates atomic mass by A u. The precise historical maximum-mass claim of 'about 260' was not independently verified; the unreasonable-result diagnosis does not depend on that exact benchmark.",
+        "notes": "Correct inferred mass and unreasonable-radius diagnosis. The precise record-mass wording remains unverified.",
+        "source_sha256": "5f272186cab22d5042a46597c1be9b9b5b2c49d9521bca12588b09a8802138b8",
+        "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:21:11+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:6",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 287,
+      "end_line": 311,
+      "kind": "problems-exercises",
+      "ordinal": 6,
+      "source_sha256": "122d2d75714969d9770fc6bda13df16c8a046eb5634cbf91d2b7a5b7c689286e",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "**Unreasonable Results** A frazzled theoretical physicist reckons that all conservation laws are obeyed in the decay of a proton into a neutron, positron, and neutrino (as in $${\\…",
+      "has_solution": true,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {
+        "skipped": 2
+      },
+      "automatic_flags": [],
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch31Tunneling.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For an isolated proton, Q=(m_p-m_n-m_e-m_ν)c². The final particles have greater total rest energy, so energy and momentum conservation forbid this spontaneous decay. Parts (a) and (b) correctly identify a negative Q and the impossibility of spontaneous decay. Part (c) correctly rejects spontaneity but incorrectly repeats the unqualified claim that all conservation laws are obeyed. Charge, baryon number, and lepton number balance; energy conservation fails for the proposed isolated decay. An externally driven process would require including the energy source in the reaction.",
+        "calculation_check": "Using rest energies in MeV gives Q=938.27208816-939.56542052-0.51099895=-1.80433131 MeV, neglecting neutrino mass. The stated -1.805 MeV agrees within reasonable mass-table precision. In the proton rest frame, the final rest energies alone exceed the available energy; nonnegative final kinetic energies cannot remedy the deficit.",
+        "assumptions": "An isolated free proton, ordinary positive-energy final particles, and negligible neutrino rest mass at MeV precision. Nuclear beta-plus decay can occur because the complete parent–daughter nuclear mass difference supplies energy; that situation does not establish that a free proton can decay this way.",
+        "notes": "The energy calculation and rejection of spontaneous decay are correct. Part (c) needs to qualify its assertion that all conservation laws are obeyed: the proposed isolated decay is forbidden specifically by energy conservation.",
+        "source_sha256": "122d2d75714969d9770fc6bda13df16c8a046eb5634cbf91d2b7a5b7c689286e",
+        "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T13:30:07+00:00"
+      },
+      "previous_review_count": 1
+    },
+    {
+      "id": "contents/ch31Tunneling.md::problems-exercises:7",
+      "chapter": 31,
+      "file": "contents/ch31Tunneling.md",
+      "line": 313,
+      "end_line": 330,
+      "kind": "problems-exercises",
+      "ordinal": 7,
+      "source_sha256": "b3e1839fb18e8fc8806535dd92515341a04df3e8abeb5a45bb93991475352d29",
+      "file_sha256": "f50e6e956ab49be5ac8602beedc01debc30f911126eef7b5d72562053a5f0f05",
+      "preview": "**Construct Your Own Problem** Consider the decay of radioactive substances in the Earth’s interior. The energy emitted is converted to thermal energy that reaches the earth’s sur…",
+      "has_solution": false,
+      "missing_labels": [
+        "strategy",
+        "solution",
+        "discussion"
+      ],
+      "markup_flags": [],
+      "automatic": {},
+      "automatic_flags": [],
+      "review_status": "missing",
+      "review": null,
+      "previous_review_count": 0
+    }
+  ]
+}

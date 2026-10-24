@@ -406,15 +406,15 @@ Substituting values:
 
 $$u = \frac{(4.48 \times 10^{-19})(3.00 \times 10^8)}{\sqrt{(1.67 \times 10^{-27})^2(3.00 \times 10^8)^2 + (4.48 \times 10^{-19})^2}}$$
 
-$$u = \frac{1.344 \times 10^{-10}}{\sqrt{(2.511 \times 10^{-54})(9.00 \times 10^{16}) + 2.007 \times 10^{-37}}}$$
+$$u = \frac{1.344 \times 10^{-10}}{\sqrt{(2.789 \times 10^{-54})(9.00 \times 10^{16}) + 2.007 \times 10^{-37}}}$$
 
-$$u = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{\sqrt{2.260 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2 + 2.007 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2}} = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{\sqrt{4.267 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2}}$$
+$$u = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{\sqrt{2.510 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2 + 2.007 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2}} = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{\sqrt{4.517 \times 10^{-37} \text{ kg}^2\text{·m}^2/\text{s}^2}}$$
 
-$$u = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{6.532 \times 10^{-19} \text{ kg·m/s}} = 2.058 \times 10^8 \text{ m/s} = 0.686c$$
+$$u = \frac{1.344 \times 10^{-10} \text{ kg·m}^2/\text{s}^2}{6.721 \times 10^{-19} \text{ kg·m/s}} = 2.00 \times 10^8 \text{ m/s} = 0.667c$$
 
 **Discussion**
 
-The proton is traveling at about 69% the speed of light. At this velocity, $$\gamma = \frac{1}{\sqrt{1-0.686^2}} = \frac{1}{\sqrt{0.529}} = 1.37$$, so the relativistic momentum is 37% greater than the classical prediction. Such high-energy protons are produced in particle accelerators and cosmic ray showers. The formula used here—expressing velocity in terms of momentum—is particularly useful in particle physics where momentum is often the directly measured quantity (through particle tracks in detectors), and velocity must be inferred.
+The proton is traveling at about 67% the speed of light. At this velocity, $$\gamma = \frac{1}{\sqrt{1-0.667^2}} = \frac{1}{\sqrt{0.556}} = 1.34$$, so the relativistic momentum is 34% greater than the classical prediction. Such high-energy protons are produced in particle accelerators and cosmic ray showers. The formula used here—expressing velocity in terms of momentum—is particularly useful in particle physics where momentum is often the directly measured quantity (through particle tracks in detectors), and velocity must be inferred.
 
 :::
 

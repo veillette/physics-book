@@ -672,9 +672,17 @@ Repeat the seesaw problem in [Example 1](#example1) with the center of mass of t
 
 **Strategy**
 
-Balance torques about the pivot, including the seesaw’s offset weight, then balance vertical forces to find the pivot reaction.
+Follow the four steps of the Problem-Solving Strategy for static equilibrium: confirm that the system is in static equilibrium, draw a free-body diagram, apply the conditions for equilibrium with a convenient pivot, and check that the answers are reasonable.
 
-**Solution**
+**Step 1: Static equilibrium.** The children balance the seesaw, so it stays at rest with no linear or angular acceleration. Both conditions for equilibrium apply.
+
+**Step 2: Free-body diagram**
+
+![The seesaw and both children form the system, with torques taken about the pivot (the origin). +x points from the pivot toward the heavier child and +y up, and counterclockwise torques are positive. The lighter child’s weight w_1 = 255 N acts down 1.60 m left of the pivot and the seesaw’s weight w_s = 118 N acts down 0.160 m left of the pivot (both counterclockwise torques); the heavier child’s weight w_2 = 314 N acts down at the unknown distance r_2 right of the pivot (clockwise torque); the pivot pushes up on the seesaw with F_p.](../resources/sketch_09_02_p05.svg){: .sketch}
+
+Take the seesaw and both children as the system, with $$ +x $$ from the pivot toward the heavier child, $$ +y $$ upward, and counterclockwise torques positive. Four external forces act: the lighter child’s weight $$ w_{1} = m_{1}g = 255 \N $$ at $$ 1.60 \m $$ to the left of the pivot, the seesaw’s weight $$ w_{\s} = m_{\s}g = 118 \N $$ at $$ 0.160 \m $$ to the left, the heavier child’s weight $$ w_{2} = m_{2}g = 314 \N $$ at the unknown distance $$ r_{2} $$ to the right, and the upward force $$ F_{\text{p}} $$ of the pivot.
+
+**Step 3: Apply the conditions for equilibrium.** Choose the pivot as the point about which to take torques, so the unknown force $$ F_{\text{p}} $$ exerts no torque and the second condition gives $$ r_{2} $$ directly.
 
 Given:
 
@@ -687,7 +695,7 @@ r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p
 
 </div>
 
-a) Since children are balancing:
+a) Second condition, $$ \text{net}\tau = 0 $$ about the pivot. The weights $$ w_{1} $$ and $$ w_{\s} $$ turn the seesaw counterclockwise and $$ w_{2} $$ turns it clockwise:
 
 <div class="equation">
 $$ \begin{array}{l}
@@ -707,7 +715,7 @@ r_{2}&=& 1.36 \m
 \end{array} $$
 </div>
 
-b) Since the children are not moving:
+b) First condition, $$ \text{net}F = 0 $$ along $$ y $$:
 
 <div class="equation">
 $$ \begin{array}{l}
@@ -726,6 +734,8 @@ F_{\text{p}}&=& 686 \N
 \end{array} $$
 </div>
 
+
+**Step 4: Check.** In [Example 1](#example1), with the seesaw’s weight acting at the pivot, the heavier child sat $$ 1.30 \m $$ from the pivot. Here the seesaw’s weight adds counterclockwise torque on the lighter child’s side, so the heavier child must sit farther out, and $$ 1.36 \m $$ is slightly larger, as expected. The pivot force is upward, in newtons, and equals the total weight of the system.
 
 **Discussion**
 

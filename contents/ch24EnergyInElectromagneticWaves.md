@@ -288,7 +288,7 @@ Calculate the intensity:
 Discussion
 </div>
 
-This intensity of 1.91 mW/m² is extremely weak—about 500,000 times weaker than sunlight. Such weak electromagnetic radiation is typical of what might be received from distant radio sources or weak broadcast signals. The very small magnetic field strength of 4 nanotesla (about 100,000 times weaker than Earth's magnetic field) corresponds to this low intensity. This demonstrates an important point: electromagnetic waves can have very weak field strengths yet still be detectable with sensitive instruments. Radio telescopes, for example, routinely detect signals with intensities millions of times weaker than this.
+This intensity of 1.91 mW/m² is extremely weak—about 500,000 times weaker than sunlight. Such weak electromagnetic radiation is typical of what might be received from distant radio sources or weak broadcast signals. The very small magnetic field strength of 4 nanotesla (about 10,000 times weaker than Earth's magnetic field of roughly 50 μT) corresponds to this low intensity. This demonstrates an important point: electromagnetic waves can have very weak field strengths yet still be detectable with sensitive instruments. Radio telescopes, for example, routinely detect signals with intensities millions of times weaker than this.
 
 <div class="title">
 Final Answer
@@ -505,7 +505,7 @@ From $$I=\frac{P_{\text{satellite}}}{A_{\text{broadcast}}}$$:
 Discussion
 </div>
 
-The intensity of $$7.47 \times 10^{-14}$$ W/m² is incredibly weak—about 10 trillion times weaker than sunlight! Yet satellite dishes can receive clear TV signals at this intensity because: (1) the large dish area (4.91 m²) collects enough power (367 femtowatts) for detection, (2) the receiver is tuned to resonate at the specific broadcast frequency, amplifying the signal, and (3) modern low-noise amplifiers can detect extraordinarily weak signals.
+The intensity of $$7.47 \times 10^{-14}$$ W/m² is incredibly weak—about $$10^{16}$$ times weaker than sunlight! Yet satellite dishes can receive clear TV signals at this intensity because: (1) the large dish area (4.91 m²) collects enough power (367 femtowatts) for detection, (2) the receiver is tuned to resonate at the specific broadcast frequency, amplifying the signal, and (3) modern low-noise amplifiers can detect extraordinarily weak signals.
 
 The satellite's transmitted power of only 1.12 W is remarkably small for broadcasting over such a large area ($$1.50 \times 10^{13}$$ m², roughly the area of North America). Real satellite transponders radiate tens to hundreds of watts per channel, because a signal received at exactly this intensity would leave no margin for noise, rain fade, or smaller home dishes. That so little power suffices in principle is possible because: (1) satellites use directional antennas that focus power toward Earth rather than radiating uniformly in all directions, (2) the signal is digital and error-correcting codes allow recovery of information even from weak, noisy signals, and (3) geosynchronous satellites at 36,000 km altitude have a clear line-of-sight to ground receivers with minimal atmospheric absorption.
 
@@ -1065,7 +1065,7 @@ Microwave ovens operate at 2.45 GHz because this frequency is: (1) efficiently a
 
 The specific heat of the spaghetti (3.76 kJ/(kg·°C)) is close to that of water (4.18 kJ/(kg·°C)), which makes sense since cooked spaghetti is mostly water. The temperature rise of 45 °C (from perhaps 20 °C to 65 °C) is typical for reheating food to a comfortable eating temperature.
 
-The magnetic field of 12.3 μT is weak—about one-quarter the strength of Earth's magnetic field—showing again that electromagnetic waves carry most of their energy in the electric field component from a practical standpoint, though both components carry equal energy densities in the wave.
+The magnetic field of 12.3 μT is weak—about one-quarter the strength of Earth's magnetic field. That does not mean the magnetic field carries little of the wave's energy: in an electromagnetic wave the electric and magnetic energy densities are equal. $$B_0$$ is numerically small only because $$B_0 = E_0/c$$ and teslas are a large unit.
 
 <div class="title">
 Final Answer

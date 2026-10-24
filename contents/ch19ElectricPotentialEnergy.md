@@ -197,8 +197,10 @@ While voltage and energy are related, they are not the same thing. The voltages
 of the batteries are identical, but the energy supplied by each is quite
 different. Note also that as a battery is discharged, some of its energy is used
 internally and its terminal voltage drops, such as when headlights dim because
-of a low car battery. The energy supplied by the battery is still calculated as
-in this example, but not all of the energy is available for external use.
+of a low car battery. The energy delivered to the circuit is still $$qV$$ with
+$$V$$ the terminal voltage, as in this example; the energy used inside the
+battery is in addition to that, so the battery must convert more chemical
+energy than it delivers.
 
 :::
 

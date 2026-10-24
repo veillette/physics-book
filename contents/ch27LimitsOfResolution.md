@@ -766,7 +766,7 @@ $$\text{dpi} = \frac{1 \text{ inch}}{s} = \frac{0.0254 \text{ m}}{7.84 \times 10
 
 **Discussion**
 
-A resolution of about 300-324 dpi is sufficient to make individual dots unresolvable at normal reading distance (35 cm). This is why 300 dpi became the standard for laser printers - it exceeds the eye's diffraction-limited resolution. Higher dpi (600, 1200) improves quality for closer viewing or finer details but isn't necessary for normal reading.
+By this criterion the dots must be closer together than about 0.078 mm, which takes about 325 dots per inch or more to make individual dots unresolvable at normal reading distance (35 cm). The common 300 dpi laser-printer standard is just below this idealized threshold. Higher dpi (600, 1200) improves quality for closer viewing or finer details but isn't necessary for normal reading.
 
 :::
 

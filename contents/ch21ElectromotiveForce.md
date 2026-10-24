@@ -951,7 +951,7 @@ Assume the radio uses two cells in series. Calculate total resistance, current, 
 - Current: $$I = (3.16 \text{ V})/(3.60 \text{ Ω}) = 0.878 \text{ A}$$
 - Power to radio: $$P = I^2 R = (0.878 \text{ A})^2(3.20 \text{ Ω}) = 2.47 \text{ W}$$
 
-**(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a larger fraction of the total. As the load resistance decreases from 3.20 Ω, the alkaline advantage shrinks; below about 1.4 Ω, the two NiCad cells deliver more load power. Load power does not increase indefinitely as load resistance decreases. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
+**(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a larger fraction of the total. As the load resistance decreases from 3.20 Ω, the alkaline advantage shrinks; below about 1.13 Ω, where $$2.50/(R + 0.0800) = 3.16/(R + 0.400)$$, the two NiCad cells deliver more load power. Load power does not increase indefinitely as load resistance decreases. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
 
 **Discussion**
 

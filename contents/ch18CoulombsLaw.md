@@ -1473,7 +1473,7 @@ The magnitudes are **35 μC** and **15 μC**.
 
 **Discussion**
 
-Part (a): For a repulsive force of 0.075 N, the charges are 15 μC and 5 μC (both positive or both negative). These add to 20 μC total charge and produce the specified force at 3.00 m separation.
+Part (a): For a repulsive force of 0.075 N, the charges are 15 μC and 5 μC, both positive, since they must add to +20 μC. These add to 20 μC total charge and produce the specified force at 3.00 m separation.
 
 Part (b): For an attractive force of 0.525 N (7 times stronger), the charges must be opposite in sign with magnitudes 35 μC and 15 μC. The net charge is still 20 μC (the algebraic sum: +35 − 15 = +20 μC).
 
