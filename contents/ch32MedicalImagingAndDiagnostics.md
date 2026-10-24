@@ -316,7 +316,19 @@ A neutron generator uses an  $$\alpha  $$
 
 ::: solution
 
-5.701 MeV
+**Strategy**
+
+The energy output is $$E=(\Delta m)c^2$$ with $$\Delta m=m({}^{4}\text{He})+m({}^{9}\text{Be})-m({}^{12}\text{C})-m_n$$. Neutral-atom masses from [Appendix A](../contents/appendixA#Atomic-Masses) can be used because the electrons balance: 2 + 4 = 6.
+
+**Solution**
+
+$$\Delta m=4.002603\text{ u}+9.012182\text{ u}-12.000000\text{ u}-1.008665\text{ u}=0.006120\text{ u}$$
+
+$$E=(0.006120\text{ u})(931.5\text{ MeV/u})=5.701\text{ MeV}$$
+
+**Discussion**
+
+This is the energy released by the reaction itself. The kinetic energy of the incoming alpha particle adds to it, so the neutrons leave with several MeV.
 
 :::
 
@@ -367,7 +379,7 @@ $$ E = (\Delta m)c^{2} = (0.006360 \text{ u})\left(\frac{931.5 \text{ MeV}}{1 \t
 
 **Discussion**
 
-This 5.93 MeV of energy is released as a gamma ray (or possibly multiple gamma rays that sum to this energy). Neutron capture reactions like this are exothermic because the product nucleus has greater binding energy than the sum of the reactants. This particular reaction is extremely important in nuclear medicine because it is the first step in producing $${}^{99\text{m}}\text{Tc}$$, the most widely used radiopharmaceutical. The $${}^{99}\text{Mo}$$ produced undergoes beta decay with a half-life of 66 hours to form $${}^{99\text{m}}\text{Tc}$$, which has ideal properties for medical imaging: a 6-hour half-life that limits patient dose, and emission of a single easily-detected 0.142-MeV gamma ray. The fact that natural molybdenum is 24% $${}^{98}\text{Mo}$$ means that natural molybdenum can be used directly as a target material in reactors without expensive isotopic enrichment. The relatively large energy release of nearly 6 MeV helps ensure a reasonable reaction probability (cross-section) when thermal neutrons are used, making this a practical production method. This reaction is performed continuously in nuclear reactors around the world to supply $${}^{99}\text{Mo}$$/$${}^{99\text{m}}\text{Tc}$$ generators to hospitals and clinics.
+This 5.93 MeV of energy is released as a gamma ray (or possibly multiple gamma rays that sum to this energy). Neutron capture reactions like this are exothermic because the product nucleus has greater binding energy than the sum of the reactants. This particular reaction is extremely important in nuclear medicine because it is the first step in producing $${}^{99\text{m}}\text{Tc}$$, the most widely used radiopharmaceutical. The $${}^{99}\text{Mo}$$ produced undergoes beta decay with a half-life of 66 hours to form $${}^{99\text{m}}\text{Tc}$$, which has ideal properties for medical imaging: a 6-hour half-life that limits patient dose, and emission of a single easily-detected 0.142-MeV gamma ray. The fact that natural molybdenum is 24% $${}^{98}\text{Mo}$$ means that natural molybdenum can be used directly as a target material in reactors without expensive isotopic enrichment. A positive energy output shows only that the reaction can occur with slow neutrons; how likely it is (its cross section) depends on the nuclear structure of $${}^{99}\text{Mo}$$ and must be measured. Neutron capture is one way reactors supply $${}^{99}\text{Mo}$$/$${}^{99\text{m}}\text{Tc}$$ generators to hospitals and clinics.
 
 :::
 
@@ -516,7 +528,7 @@ The $${}^{131}\text{I}$$ mass is about **11 times larger** than the $${}^{123}\t
 
 **Discussion**
 
-Despite $${}^{123}\text{I}$$ having higher activity (70 μCi vs 50 μCi), it requires much less mass (only 0.036 ng compared to 0.405 ng for $${}^{131}\text{I}$$). This factor of 11 difference is primarily due to the vastly different half-lives: $${}^{131}\text{I}$$ has a half-life of 8.04 days while $${}^{123}\text{I}$$ has a much shorter half-life of only 13.2 hours. Shorter half-life means more decays per second for a given number of nuclei, so less mass is needed to achieve a given activity. This illustrates an important principle: to achieve high activity with less mass (and therefore potentially less total radiation dose), isotopes with shorter half-lives are preferred. Both masses are incredibly small—in the nanogram range—which is why carrier-free radiopharmaceuticals cannot be used directly. Without adding stable iodine as a carrier, these tiny amounts would stick to container walls, fail to dissolve properly, and not distribute normally in the body. The carrier ensures that the radioiodine behaves chemically like normal iodine and concentrates in the thyroid as expected. The shorter half-life of $${}^{123}\text{I}$$ (13.2 h vs 8.04 d) also means the patient's radiation dose decays away much faster, making $${}^{123}\text{I}$$ preferable when available, despite being more expensive and difficult to produce.
+Despite $${}^{123}\text{I}$$ having higher activity (70 μCi vs 50 μCi), it requires much less mass (only 0.036 ng compared to 0.405 ng for $${}^{131}\text{I}$$). This factor of 11 difference is primarily due to the vastly different half-lives: $${}^{131}\text{I}$$ has a half-life of 8.04 days while $${}^{123}\text{I}$$ has a much shorter half-life of only 13.2 hours. Shorter half-life means more decays per second for a given number of nuclei, so less mass is needed to achieve a given activity. Both masses are incredibly small—in the nanogram range—so a dose contains very few atoms of the radioactive element. The patient's radiation dose depends on the total number of decays and the energy each deposits, not on the radioactive mass: a source of activity $$A$$ that stays in the body undergoes about $$A t_{1/2}/\ln 2$$ decays in all. The shorter half-life of $${}^{123}\text{I}$$ (13.2 h vs 8.04 d) also means the patient's radiation dose decays away much faster, making $${}^{123}\text{I}$$ preferable when available, despite being more expensive and difficult to produce.
 
 :::
 
@@ -539,9 +551,25 @@ given its half-life is 15.0 h?
 
 ::: solution
 
-(a) 6.958 MeV
+**Strategy**
 
-(b) $$ 5.7 \times 10^{-10} \text{g} $$
+(a) Use $$E=[m({}^{23}\text{Na})+m_n-m({}^{24}\text{Na})]c^2$$ with the mass of $${}^{23}\text{Na}$$ from [Appendix A](../contents/appendixA#Atomic-Masses). (b) Find the number of nuclei from $$N=At_{1/2}/\ln 2$$, then convert to a mass.
+
+**Solution**
+
+(a) $$\Delta m=22.989767\text{ u}+1.008665\text{ u}-23.990962\text{ u}=0.007470\text{ u}$$, so
+
+$$E=(0.007470\text{ u})(931.5\text{ MeV/u})=6.958\text{ MeV}.$$
+
+(b) The activity is $$A=(5.0\times10^{-3}\text{ Ci})(3.70\times10^{10}\text{ Bq/Ci})=1.85\times10^{8}\text{ Bq}$$ and $$t_{1/2}=15.0\text{ h}=5.40\times10^{4}\text{ s}$$, so
+
+$$N=\frac{(1.85\times10^{8}\text{ s}^{-1})(5.40\times10^{4}\text{ s})}{0.693}=1.44\times10^{13}$$
+
+$$m=\frac{1.44\times10^{13}}{6.02\times10^{23}\text{ mol}^{-1}}(24.0\text{ g/mol})=5.7\times10^{-10}\text{ g}.$$
+
+**Discussion**
+
+Like the other radiopharmaceuticals in this chapter, the active mass is far below a microgram.
 
 :::
 

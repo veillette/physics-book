@@ -251,7 +251,7 @@ joules and then divided by the number of seconds in a year.
 
 The atomic mass of deuterium ( $${}^{2}\text{H} $$ )
 is 2.014102 u, while that of tritium ( $${}^{3}\text{H} $$ )
-is 3.016049 u, for a total of 5.032151 u per reaction. So a mole of reactants
+is 3.016049 u, for a total of 5.030151 u per reaction. So a mole of reactants
 has a mass of 5.03 g, and in 1.00 kg there are $$\left(1000 \text{g}\right) /\left(5.03 \text{g/mol}\right) =198.8 \text{mol of reactants} $$ . The number
 of reactions that take place is therefore
 
@@ -279,11 +279,12 @@ so
 By now we expect nuclear processes to yield large amounts of energy, and we are
 not disappointed here. The energy output of $$ 3.37 \times 10^{14} \text{J} $$
 from fusing 1.00 kg of deuterium and tritium is equivalent to 2.6 million
-gallons of gasoline and about eight times the energy output of the bomb that
-destroyed Hiroshima. Yet the average backyard swimming pool has about 6 kg of
-deuterium in it, so that fuel is plentiful if it can be utilized in a controlled
-manner. The average power output over a year is more than 10 MW, impressive but
-a bit small for a commercial power plant. About 32 times this power output would
+gallons of gasoline and about five times the 15-kT energy output of the bomb
+that destroyed Hiroshima. An 80 000-L swimming pool holds about 2.7 kg of
+deuterium (see the problems at the end of this section), so deuterium is
+plentiful if it can be utilized in a controlled manner. Tritium is not: it is
+rare in nature and must be produced from lithium. The average power output over a year is more than 10 MW, impressive but
+a bit small for a commercial power plant. About 28 times this power output would
 allow generation of 100 MW of electricity, assuming an efficiency of one-third
 in converting the fusion energy to electrical energy.
 
@@ -523,7 +524,7 @@ All conserved quantities match, verifying conservation laws are satisfied.
 
 **Discussion**
 
-This overall reaction represents the net effect after the proton-proton cycle runs through completely: two electrons from the surrounding medium annihilate with the two positrons produced in the cycle (reactions 1 occurs twice), four protons fuse to form one helium-4 nucleus, two electron neutrinos carry away some energy, and six gamma rays are produced (two from positron-electron annihilation plus those from the reactions). The conservation of nucleon number reflects baryon number conservation—4 protons in, 4 nucleons in helium out. Charge conservation is maintained throughout. Electron family number conservation accounts for the two electrons consumed and two neutrinos produced, balancing the two positrons created and annihilated in intermediate steps.
+This overall reaction represents the net effect after the proton-proton cycle runs through completely: two electrons from the surrounding medium annihilate with the two positrons produced in the cycle (reaction 1 occurs twice), four protons fuse to form one helium-4 nucleus, two electron neutrinos carry away some energy, and six gamma rays are produced. Each of the two positron–electron annihilations produces two photons, four in all, and each of the two proton–deuteron captures $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$ produces one more. The conservation of nucleon number reflects baryon number conservation—4 protons in, 4 nucleons in helium out. Charge conservation is maintained throughout. Electron family number conservation accounts for the two electrons consumed and two neutrinos produced, balancing the two positrons created and annihilated in intermediate steps.
 
 :::
 
@@ -930,8 +931,33 @@ unreasonable result, only an impressive one.)
 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
-(a)  $$3 \times 10^{9}  \text{y} $$
-(b) This is approximately half the lifetime of the Earth.
+**Strategy**
+
+Take the mass of the oceans to be about $$1.4\times10^{21}\text{ kg}$$. Convert this mass to moles of hydrogen atoms, apply the deuterium abundance by number (as in the swimming-pool problem above), and convert to a mass of deuterium. Multiply by the energy yield and the 32% efficiency, then divide by the world's annual consumption, $$10(8\times10^{19}\text{ J/y})=8\times10^{20}\text{ J/y}$$.
+
+**Solution**
+
+(a) The oceans contain
+
+$$n_H=2\frac{1.4\times10^{24}\text{ g}}{18.0\text{ g/mol}}=1.56\times10^{23}\text{ mol}$$
+
+of hydrogen atoms, so $$n_D=(0.000150)n_H=2.33\times10^{19}\text{ mol}$$ and
+
+$$m_D=(2.33\times10^{19}\text{ mol})(2.014\text{ g/mol})=4.70\times10^{19}\text{ g}=4.70\times10^{16}\text{ kg}.$$
+
+The useful energy is
+
+$$E=(0.32)(4.70\times10^{16}\text{ kg})(3.37\times10^{14}\text{ J/kg})=5.07\times10^{30}\text{ J},$$
+
+which lasts
+
+$$t=\frac{5.07\times10^{30}\text{ J}}{8\times10^{20}\text{ J/y}}=6\times10^{9}\text{ y}.$$
+
+(b) This is longer than the age of the Earth (about $$4.5\times10^{9}\text{ y}$$) and comparable to the time the Sun has left as a normal star. By any human measure the supply is inexhaustible.
+
+**Discussion**
+
+Deuterium's abundance is a fraction of hydrogen atoms. If the 0.015% is instead applied to the mass of hydrogen, the result is half as large, about $$3\times10^{9}\text{ y}$$, because a deuterium atom has twice the mass of a protium atom. Either way the answer is billions of years.
 
 :::
 
