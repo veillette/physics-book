@@ -187,3 +187,13 @@ These Codex findings were checked and the source was left as written:
 - The jet field premise, the RC flash-lamp averaging, and the length-contraction wording.
 
 Codex has now reviewed all 34 chapters. Most of the remaining `concern` rows are discussion overstatements, not wrong answers.
+
+## Missing solutions added, 2026-10-24
+
+Added 269 previously absent solutions in chapters 27–34, each with Strategy,
+Solution, Discussion, and Answer. The original questions and existing solutions
+were preserved. The [addition record](missing-solutions-added.md) identifies
+question-premise qualifications and validation limits. The refreshed ledger has
+zero items without solution text. The 269 additions remain pending independent
+substantive review; older judgments in changed files are conservatively marked
+stale under the existing file-hash rule, without discarding the saved reviews.
