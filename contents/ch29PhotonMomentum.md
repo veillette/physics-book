@@ -335,6 +335,10 @@ Estimate radiation pressure $I/c$.
 
 Even for sunlight intensity $I\approx10^3\text{ W/m}^2$, the pressure on an absorbing surface is only $I/c\approx3.3\times10^{-6}\text{ Pa}$. Reflection can at most double the normal-incidence pressure for the same intensity.
 
+![An absorbed photon transfers p = E/c to a surface; a photon reflected backward transfers 2p, yielding pressures I/c and 2I/c at normal incidence.](/resources/solution_29_sunlight_momentum.svg){: .figure-full-width}
+
+Reversing the photon’s momentum doubles the transfer to a perfect mirror. Even that pressure is very small for sunlight.
+
 **Discussion**
 
 Such forces are tiny compared with gravity, contact forces, and ordinary air motion. Sunlight’s heating is much easier to perceive.

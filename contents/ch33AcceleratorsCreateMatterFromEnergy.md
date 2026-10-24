@@ -286,6 +286,10 @@ Compare center-of-mass energy and collision probability.
 
 Equal opposite beams have nearly zero net momentum, so much more beam energy is available in their center-of-mass frame than in a beam striking a stationary massive target. Disadvantages include producing, storing, focusing, and synchronizing two beams and obtaining enough collisions from their low-density overlap.
 
+![Equal opposite particle momenta give Ecm = 2E; the same projectile hitting a stationary particle has Ecm = √(2mc²E + 2m²c⁴) because total lab momentum is nonzero.](/resources/solution_33_collider_center_of_mass.svg){: .figure-full-width}
+
+For the same projectile energy, opposing beams provide more center-of-mass energy. This kinematic gain does not remove the need for a high collision rate.
+
 **Discussion**
 
 High usable collision energy does not by itself guarantee high event rates; luminosity is crucial.

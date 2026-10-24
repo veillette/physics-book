@@ -124,6 +124,10 @@ Inspect the exponential dependence of a barrier-transmission probability on mass
 
 For a simple barrier, transmission scales approximately as $\exp[-2a\sqrt{2m(V-E)}/\hbar]$. A person’s macroscopic mass and a wall’s macroscopic thickness make the exponent overwhelmingly large and negative. Maintaining the required coherent many-particle state is an additional obstacle.
 
+![A constant particle energy E lies below a rectangular potential barrier V of width a. Transmission scales as exp(−2κa), with κ growing with mass.](/resources/solution_31_tunneling_barrier.svg){: .figure-full-width}
+
+The dashed energy line stays level through the barrier. Exponential suppression through the barrier makes the chance of escape negligible.
+
 **Discussion**
 
 Tunneling does not permit violation of energy conservation; it permits amplitude in a classically forbidden region.

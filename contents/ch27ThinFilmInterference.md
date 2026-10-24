@@ -426,6 +426,10 @@ Follow downward incident light and identify reflections toward a higher index.
 
 Using $n_{\rm air}<n_{\rm water}<n_{\rm glass}$, reflection from air at the top of the glass cover has a $\pi$ reversal. Reflection inside the cover from its glass–water lower surface has none. Reflection from water at the glass slide beneath it has a $\pi$ reversal.
 
+![Water between glass gives phase reversals at air-to-glass and water-to-glass reflections; carbon disulfide gives reversals at air-to-glass and glass-to-fluid reflections.](/resources/solution_27_thin_film_reflection_phases.svg){: .figure-full-width}
+
+Compare the index on the incident side with the index beyond each boundary. The second panel also applies to the next question.
+
 **Discussion**
 
 These are reflection phase changes in the ordinary near-normal-incidence approximation; propagation through each layer contributes additional phase.
@@ -455,6 +459,10 @@ Replace the water index with that of carbon disulfide.
 **Solution**
 
 Carbon disulfide has a higher visible refractive index than crown glass. Reflection at the air-to-glass top surface still reverses phase. Reflection from the cover glass toward carbon disulfide now also reverses phase. Reflection from carbon disulfide toward the lower-index slide glass does not.
+
+![Comparison of water and carbon disulfide between glass: replacing water shifts the lower phase reversal from the fluid-to-slide boundary to the cover-to-fluid boundary.](/resources/solution_27_thin_film_reflection_phases.svg){: .figure-full-width}
+
+In the right panel, the fluid has a higher index than the glass, reversing which of the two fluid boundaries gives a phase reversal.
 
 **Discussion**
 

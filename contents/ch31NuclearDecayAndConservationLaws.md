@@ -630,6 +630,10 @@ Compare the nucleon changes in beta-minus, beta-plus, electron capture, and alph
 
 Each beta process converts a neutron into a proton or a proton into a neutron, keeping mass number $A$ unchanged while changing $Z$ by one and emitting a neutrino or antineutrino. Alpha decay emits a bound two-proton, two-neutron nucleus, reducing $A$ by four and $Z$ by two.
 
+![Beta-minus, beta-plus, and electron capture interconvert neutrons and protons while preserving A; alpha decay removes a helium-4 nucleus, lowering A by four and Z by two.](/resources/solution_31_beta_alpha_bookkeeping.svg){: .figure-full-width}
+
+The first three rows keep the same number of nucleons. Neutrinos or antineutrinos complete the lepton bookkeeping.
+
 **Discussion**
 
 Beta processes involve the weak interaction and lepton bookkeeping; alpha emission involves tunneling of a nuclear cluster.

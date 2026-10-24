@@ -538,6 +538,10 @@ Apply the inverse-square law to the flux from a calibrated star.
 
 For luminosity $L$, observed flux is $F=L/(4\pi d^2)$. Relative to its flux $F_0$ at standard distance $d_0$, $F/F_0=(d_0/d)^2$, so $d=d_0\sqrt{F_0/F}$. In magnitudes, the corresponding distance modulus is $m-M=5\log_{10}(d/10\text{ pc})$.
 
+![Light from the same calibrated star crosses spheres of radii d and 2d; the second sphere has four times the area and one quarter the observed flux.](/resources/solution_34_cepheid_inverse_square.svg){: .figure-full-width}
+
+For a fixed calibrated luminosity, doubling the distance reduces flux to one quarter. Extinction and calibration must be accounted for before applying this relation.
+
 **Discussion**
 
 Cepheid luminosity is calibrated from its pulsation period, with composition and extinction corrections; all Cepheids are not equally luminous.

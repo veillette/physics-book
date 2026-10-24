@@ -375,6 +375,10 @@ Compare the maximum energy-transfer fraction in an elastic collision.
 
 For an incident neutron of mass $m$ and stationary target mass $M$, the maximum transferred fraction is $4mM/(m+M)^2$. For a proton, $M\approx m$, allowing nearly all the neutron’s kinetic energy to transfer in a head-on collision. For oxygen, $M\approx16m$, giving a maximum fraction $64/289\approx0.22$.
 
+![Head-on elastic collisions: a proton can take nearly all neutron kinetic energy, while oxygen takes at most 64/289, about 22 percent, and the neutron rebounds.](/resources/solution_32_neutron_moderation.svg){: .figure-full-width}
+
+For equal masses the neutron nearly stops. Against oxygen it retains about 78% of its kinetic energy, so more collisions are needed to slow it.
+
 **Discussion**
 
 Average losses depend on scattering angles, but similar masses are kinematically favorable for rapid slowing.

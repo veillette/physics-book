@@ -445,6 +445,10 @@ Connect a spectral line with an energy difference.
 
 “Discrete” means separated allowed values rather than every value in a continuous interval. Bound atomic or molecular states have selected energies, and transitions give photon energies $hf=|E_i-E_f|$. These produce separate spectral lines.
 
+![Selected hydrogen transitions n = 3 to 2 and n = 2 to 1 emit photons of 1.89 and 10.20 eV, giving separate spectral lines.](/resources/solution_30_discrete_spectral_lines.svg){: .figure-full-width}
+
+Each line records an allowed energy difference, rather than an arbitrary photon energy. Only two selected emission transitions are shown.
+
 **Discussion**
 
 Molecules also have rotational and vibrational states, often giving many closely spaced lines or bands. Ionization can produce a continuous spectrum as well.

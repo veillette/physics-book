@@ -533,6 +533,10 @@ Apply Malus’s law successively to the middle and final filters.
 
 Let the first and last axes be $0^\circ$ and $90^\circ$, and the middle axis be $\theta$. If $I_1$ emerges from the first filter, then $I=I_1\cos^2\theta\sin^2\theta=(I_1/4)\sin^2(2\theta)$. The middle filter transmits a component along its own axis; that component has a nonzero projection onto the last axis.
 
+![Three polarizers with axes at 0, 45, and 90 degrees transmit successive intensities I₀/2, I₀/4, and I₀/8.](/resources/solution_27_polarization_crossed_filters.svg){: .figure-full-width}
+
+The middle axis gives two nonzero projections. Each 45° step halves the intensity that reaches it.
+
 **Discussion**
 
 Transmission is largest at $\theta=45^\circ$, giving $I_1/4$, or $I_0/8$ for initially unpolarized light of intensity $I_0$ and ideal filters.

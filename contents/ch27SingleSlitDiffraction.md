@@ -856,6 +856,10 @@ Set the angle of the first single-slit minimum equal to that of the fifth double
 
 With slit width $a$ and center-to-center separation $d$, $a\sin\theta=\lambda$ and $d\sin\theta=5\lambda$. Dividing the equations gives $a/d=1/5$.
 
+![Calculated double-slit intensity for d = 5a, with a dashed single-slit envelope whose first zeros remove the interference orders at u = ±5.](/resources/solution_27_diffraction_missing_order.svg){: .figure-full-width}
+
+The dashed envelope multiplies the interference pattern. Its zeros at the nominal fifth-order maxima remove those orders completely in the ideal model.
+
 **Discussion**
 
 The fifth-order interference maximum falls at a zero of the diffraction envelope and is therefore a missing order in the ideal pattern.

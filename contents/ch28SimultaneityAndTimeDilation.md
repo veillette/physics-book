@@ -522,6 +522,10 @@ Identify the frame in which the two events occur at the same place.
 
 An observer at rest with a localized process measures proper time $\Delta\tau$. A relatively moving inertial observer measures $\Delta t=\gamma\Delta\tau\geq\Delta\tau$.
 
+![A light clock has a vertical round trip in its rest frame and a longer diagonal round trip in a frame where it moves sideways, giving Δt = γ Δτ.](/resources/solution_28_time_dilation_light_clock.svg){: .figure-full-width}
+
+Emission and return occur at one place in the clock’s rest frame, so that clock measures proper time. The moving-frame observer assigns a longer interval.
+
 **Discussion**
 
 The proper-time statement requires that the beginning and end occur at the same location in the process’s rest frame, as for ticks of one clock.
