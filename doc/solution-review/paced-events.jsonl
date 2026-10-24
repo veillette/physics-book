@@ -420,3 +420,52 @@
 {"at": "2026-10-24T01:54:49+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 163, "target_interval_seconds": 123.6}
 {"at": "2026-10-24T01:58:17+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 22, "items": 12, "verdicts": {"appropriate": 8, "concern": 4}}
 {"at": "2026-10-24T01:59:25+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 164, "target_interval_seconds": 121.9}
+{"at": "2026-10-24T02:03:20+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 22, "items": 12, "verdicts": {"concern": 5, "appropriate": 7}}
+{"at": "2026-10-24T02:04:27+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 165, "target_interval_seconds": 119.9}
+{"at": "2026-10-24T02:05:37+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "waiting-for-quota", "error": "You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at Oct 24th, 2026 12:03 AM.", "retry_at": "2026-10-24T02:35:37+00:00"}
+{"at": "2026-10-24T02:35:38+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 166, "target_interval_seconds": 98.8}
+{"at": "2026-10-24T02:35:41+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "waiting-for-quota", "error": "You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at Oct 24th, 2026 12:03 AM.", "retry_at": "2026-10-24T03:05:41+00:00"}
+{"at": "2026-10-24T03:05:42+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 167, "target_interval_seconds": 78.6}
+{"at": "2026-10-24T03:05:45+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "waiting-for-quota", "error": "You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at Oct 24th, 2026 12:03 AM.", "retry_at": "2026-10-24T03:35:45+00:00"}
+{"at": "2026-10-24T03:35:46+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 168, "target_interval_seconds": 60}
+{"at": "2026-10-24T03:35:49+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "waiting-for-quota", "error": "You\u2019ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at Oct 24th, 2026 12:03 AM.", "retry_at": "2026-10-24T04:05:49+00:00"}
+{"at": "2026-10-24T04:05:50+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 169, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:09:42+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 22, "items": 12, "verdicts": {"appropriate": 6, "concern": 6}}
+{"at": "2026-10-24T04:10:49+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 12, "attempt": 170, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:13:18+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 22, "items": 12, "verdicts": {"appropriate": 7, "concern": 4, "ambiguous": 1}}
+{"at": "2026-10-24T04:14:26+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 22, "items": 10, "attempt": 171, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:16:18+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 22, "items": 10, "verdicts": {"appropriate": 6, "concern": 4}}
+{"at": "2026-10-24T04:17:26+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 172, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:20:41+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 10, "concern": 2}}
+{"at": "2026-10-24T04:21:48+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 173, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:24:04+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 10, "concern": 2}}
+{"at": "2026-10-24T04:25:12+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 174, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:28:53+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"concern": 4, "appropriate": 7, "ambiguous": 1}}
+{"at": "2026-10-24T04:30:00+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 175, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:32:22+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-24T04:33:29+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 176, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:36:06+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"concern": 4, "appropriate": 8}}
+{"at": "2026-10-24T04:37:13+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 177, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:40:36+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 7, "concern": 4, "ambiguous": 1}}
+{"at": "2026-10-24T04:41:44+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 178, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:44:36+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 7, "concern": 5}}
+{"at": "2026-10-24T04:45:43+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 179, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:48:13+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"concern": 3, "appropriate": 9}}
+{"at": "2026-10-24T04:49:20+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 180, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:51:25+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 8, "concern": 4}}
+{"at": "2026-10-24T04:52:32+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 181, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:54:12+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 9, "concern": 3}}
+{"at": "2026-10-24T04:55:20+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 182, "target_interval_seconds": 60}
+{"at": "2026-10-24T04:57:05+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"appropriate": 12}}
+{"at": "2026-10-24T04:58:13+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "reviewing", "chapter": 23, "items": 12, "attempt": 183, "target_interval_seconds": 60}
+{"at": "2026-10-24T05:01:22+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "recorded", "chapter": 23, "items": 12, "verdicts": {"concern": 5, "appropriate": 7}}
+{"at": "2026-10-24T05:02:15+00:00", "run_id": "20261023T130214Z-f8eb11", "event": "finished", "status": "deadline-reached", "recorded_reviews": 1989, "pending": 824}
+{"at": "2026-10-24T08:43:48+00:00", "run_id": "20261024T084348Z-437db7", "event": "started", "deadline": "2026-10-24T12:43:48+00:00"}
+{"at": "2026-10-24T08:43:48+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 23, "items": 6, "attempt": 1, "target_interval_seconds": 194.6}
+{"at": "2026-10-24T08:45:50+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 23, "items": 6, "verdicts": {"appropriate": 3, "concern": 3}}
+{"at": "2026-10-24T08:47:04+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 24, "items": 12, "attempt": 2, "target_interval_seconds": 194.6}
+{"at": "2026-10-24T08:49:37+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 24, "items": 12, "verdicts": {"appropriate": 7, "concern": 5}}
+{"at": "2026-10-24T08:50:45+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 24, "items": 12, "attempt": 3, "target_interval_seconds": 194.2}
+{"at": "2026-10-24T08:54:48+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 24, "items": 12, "verdicts": {"appropriate": 5, "concern": 7}}
+{"at": "2026-10-24T08:55:55+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 24, "items": 12, "attempt": 4, "target_interval_seconds": 192.6}
+{"at": "2026-10-24T08:59:59+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 24, "items": 12, "verdicts": {"appropriate": 10, "concern": 2}}

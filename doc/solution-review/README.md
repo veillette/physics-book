@@ -1,8 +1,8 @@
 # Solution review ledger: chapters 1–34
 
-Last refresh: 2026-10-24T02:01:01+00:00. Source digest: `2b6db77207bb74bed7950c913d0fad0827451127013a1d895d6969a630bbaba0`.
+Last refresh: 2026-10-24T09:00:34+00:00. Source digest: `3a18d42e89fea64b6d2f92a0c11b29cf71b44346c9bce123ba6a92ed7bc8149e`.
 
-**3561 inventoried items; 2278 current substantive reviews; 269 items without solution text.**
+**3561 inventoried items; 2510 current substantive reviews; 269 items without solution text.**
 
 **Status: automated screening covers all 34 chapters. The substantive reasoning review is in progress; pending entries have no correctness verdict.**
 
@@ -39,9 +39,9 @@ Automatic counts below cover the entire source block, sometimes including the pr
 | 19 | 104 | 104 | 104 | 0 | 1 | [Chapter 19](chapter-19.md) |
 | 20 | 138 | 138 | 138 | 0 | 9 | [Chapter 20](chapter-20.md) |
 | 21 | 130 | 130 | 130 | 0 | 1 | [Chapter 21](chapter-21.md) |
-| 22 | 130 | 130 | 84 | 46 | 1 | [Chapter 22](chapter-22.md) |
-| 23 | 150 | 150 | 0 | 150 | 5 | [Chapter 23](chapter-23.md) |
-| 24 | 78 | 78 | 0 | 78 | 0 | [Chapter 24](chapter-24.md) |
+| 22 | 130 | 130 | 130 | 0 | 1 | [Chapter 22](chapter-22.md) |
+| 23 | 150 | 150 | 150 | 0 | 5 | [Chapter 23](chapter-23.md) |
+| 24 | 78 | 78 | 36 | 42 | 0 | [Chapter 24](chapter-24.md) |
 | 25 | 105 | 105 | 0 | 105 | 0 | [Chapter 25](chapter-25.md) |
 | 26 | 64 | 64 | 0 | 64 | 0 | [Chapter 26](chapter-26.md) |
 | 27 | 147 | 115 | 0 | 115 | 1 | [Chapter 27](chapter-27.md) |
@@ -56,7 +56,7 @@ Automatic counts below cover the entire source block, sometimes including the pr
 ## Checks and evidence
 
 - Math delimiters: exit 0; [full output](math-delimiters.txt).
-- Physics/arithmetic scan: 8876 checked, 110 flagged, 48463 skipped across the chapter source files.
+- Physics/arithmetic scan: 8873 checked, 110 flagged, 48511 skipped across the chapter source files.
 - Existing source-bound cases provide only selected coverage; their per-chapter counts are in ledger.json. They do not cover every exercise.
 - [Contextual review of automatic flags](automatic-flag-review.md).
 - [Machine-readable ledger](ledger.json), append-only substantive judgments in [reviews.json](reviews.json), and [run history](runs.jsonl).

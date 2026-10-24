@@ -1,6 +1,6 @@
 {
   "chapter": 24,
-  "checked_at": "2026-10-24T02:00:59+00:00",
+  "checked_at": "2026-10-24T09:00:32+00:00",
   "summary": {
     "total": 1419,
     "checked": 230,
@@ -51,9 +51,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::worked-example:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For uniform illumination, average intensity is P/A. A sinusoidal traveling wave has average intensity cε₀E₀²/2 and B₀=E₀/c. The solution applies these relations correctly and answers all three parts. The discussion's comparison of electric and magnetic strengths is meaningful as a numerical comparison in SI units; their energy contributions are equal.",
+        "calculation_check": "A=0.120 m² gives I=8333.33 W/m², peak intensity 16666.7 W/m², E₀=2505.49 V/m, and B₀=8.35162×10⁻⁶ T, agreeing with the solution.",
+        "assumptions": "Uniform illumination, sinusoidal traveling microwaves, and vacuum-like propagation in air. Actual standing-wave patterns inside an oven are outside this idealization.",
+        "notes": "All requested results and the peak-to-average conversion are correct under the stated traveling-wave idealization.",
+        "source_sha256": "a11f9e4a94523f3fd3db6754b9d8d2bd05c717ccd3bc902306cf548bf0983a59",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:1",
@@ -74,9 +87,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A traveling sinusoidal wave has instantaneous energy flux cε₀E², so averaging the squared sinusoid gives I=cε₀E₀²/2. The solution correctly uses the peak rather than rms field. Doubling the amplitude therefore quadruples the intensity.",
+        "calculation_check": "(3.00×10⁸)(8.85×10⁻¹²)(125)²/2=20.7422 W/m², agreeing with 20.7 W/m².",
+        "assumptions": "Sinusoidal radiation in vacuum or approximately air; intensity means cycle average. The 1000 W/m² sunlight comparison is an approximate clear-sky reference, not a global or daily average.",
+        "notes": "The calculation and square-law explanation are correct. The claim that this exposure is typical near particular transmitters is not established without power, distance, and antenna geometry.",
+        "source_sha256": "9c0010a0ed5bf17e77ff25bb3228cdf21f8817fa032a654509b928e824556619",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:2",
@@ -97,9 +123,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:2",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Using E₀=cB₀ in the Poynting flux gives I=cB₀²/(2μ₀), as used correctly. However, the discussion's claim that 4 nT is about 100,000 times weaker than Earth's field substantially overstates the ratio.",
+        "calculation_check": "I=(3.00×10⁸)(4.00×10⁻⁹)²/[2(4π×10⁻⁷)]=1.90986×10⁻³ W/m². A representative terrestrial field of 50 μT is 12,500 times 4 nT; even a broad 25–65 μT reference range gives only 6250–16,250. The sunlight ratio 1000/I≈524,000 is correct.",
+        "assumptions": "Sinusoidal traveling radiation in vacuum-like air. Earth's field is location dependent; the comparison concerns SI magnetic amplitudes, not radiation intensity.",
+        "notes": "The final intensity is correct, but the Earth's-field comparison is wrong by roughly an order of magnitude. Claims about typical received signals and telescope sensitivity are not independently established here.",
+        "source_sha256": "70421455a64c2537fcc566f9199afdb6b4e9a21084e50fafa42e1803ad24d878",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:3",
@@ -120,9 +159,22 @@
         "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The radius is correctly obtained from the diameter, and dividing power by the circular area gives the spatially averaged intensity. Inverting the magnetic-field intensity relation and then using E₀=cB₀ correctly answers the remaining parts. Retinal focusing supports the qualitative eye-hazard explanation, although this calculation alone does not establish a damage threshold.",
+        "calculation_check": "A=7.85398×10⁻⁷ m², I=318.310 W/m², B₀=1.63299×10⁻⁶ T, and E₀=489.898 V/m. A 50 μT reference terrestrial field is about 30.6 times this magnetic amplitude.",
+        "assumptions": "Uniform intensity over the specified spot and sinusoidal propagation in air. A real Gaussian beam would have a different central peak intensity. Static air-breakdown fields are only a rough comparison, not a quantitative optical-breakdown criterion.",
+        "notes": "All three numerical answers are correct under uniform illumination. The discussion's breakdown comparison is qualitative; listed laser applications were not externally verified.",
+        "source_sha256": "63f447997c52a50987d0bb321e2886a977be91d70a65923a3880e9927f6da1be",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:4",
@@ -147,9 +199,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "An isotropic source sends half its total power into the upper hemisphere. Absorbing the downward radiation leaves upper-hemisphere intensity (P/2)/(2πr²)=P/(4πr²). The solution correctly avoids redirecting the absorbed power upward and correctly converts average intensity to peak electric field.",
+        "calculation_check": "With r=3.00×10⁴ m, I=5.00×10⁴/[4π(3.00×10⁴)²]=4.42097×10⁻⁶ W/m². E₀=√[2I/(cε₀)]=0.0577087 V/m.",
+        "assumptions": "Ideal isotropic emission, complete ground absorption without reflection, no other attenuation, and radiation-zone sinusoidal fields.",
+        "notes": "Both answers and the explanation of the hemisphere power budget are correct.",
+        "source_sha256": "ce9cffc8ddcaf8b15e3913d2b8933ef73db74bbc16a58f4b663761bec7eeca8f",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:5",
@@ -170,9 +235,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Conservation of radiated power gives I=P/(4πr²), so the stipulated exposure condition requires r≥√[P/(4πI_limit)]. The field calculation is also correct. The discussion goes beyond this hypothetical model by presenting the stipulated limit as an established thermal safety boundary and attributing injury at typical working distances to the calculated leakage. Neither actual biological risk nor historical causation follows from these givens.",
+        "calculation_check": "The boundary radius is √[10.0/(4π×1.00)]=0.892062 m and E₀=√[2/(3.00×10⁸×8.85×10⁻¹²)]=27.4462 V/m. Doubling the boundary distance gives 0.250 W/m².",
+        "assumptions": "Ideal isotropic radiation with no absorption or reflection; sinusoidal radiation-zone fields. The 1.00 W/m² threshold is accepted solely as the problem's stipulation. Actual heating and injury require exposure duration, frequency, absorption, and tissue information.",
+        "notes": "Both requested answers are correct. The discussion makes unsupported biological and historical inferences; those external claims could not be established from the supplied evidence.",
+        "source_sha256": "bd882dc37a039b088bec9ad3fd3e0558c0a1950ec6cdc14e7896afec1c6e4561",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:6",
@@ -193,9 +271,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:6",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The field-to-intensity conversion, circular aperture area, and multiplication by broadcast area correctly answer all parts for an ideal receiver. The referenced figure was inspected and is schematic; it adds no numerical angle or efficiency. The discussion misstates the sunlight ratio and claims adequate reception and zero noise margin without the receiver bandwidth, noise, or modulation information needed to establish either.",
+        "calculation_check": "I=7.46719×10⁻¹⁴ W/m², aperture area=4.90874 m², received power=3.66545×10⁻¹³ W=366.545 fW, and transmitted power=1.12008 W. Relative to 1000 W/m² sunlight, the ratio is 1.33919×10¹⁶, not about 10¹³ as stated.",
+        "assumptions": "Sinusoidal radiation, dish aimed at the source, effective collecting area equal to geometric aperture, uniform broadcast footprint, and no propagation losses. Part (c) concerns the specified channel and footprint.",
+        "notes": "All numerical answers are correct. The discussion's sunlight comparison is low by about a factor of 1000, and reception/noise-margin claims are unsupported by the givens. External transponder specifications were not verified.",
+        "source_sha256": "90b28a9b0b24f0ead6d1699f817960fd4255e27d17c6813c0cd3195a7594b395",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:7",
@@ -216,9 +307,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:7",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The relations B₀=E₀/c, I=cε₀E₀²/2, and delivered energy=IAt correctly answer the problem for a constant pulse envelope. The discussion's claim of near-relativistic electron motion within a wavelength does not follow from field amplitude alone: electron response also depends on frequency and interaction conditions. For ordinary optical wavelengths, this field has a nonrelativistic free-electron quiver amplitude.",
+        "calculation_check": "B₀=333.333 T, I=1.32750×10¹⁹ W/m², power through 1 mm²=1.32750×10¹³ W, and energy over 1 ns=13275 J. As a conditional optical example, at λ=1 μm the normalized amplitude a₀=eE₀λ/(2πm_ec²)=0.0311, giving quiver speed about 0.031c, well below relativistic motion.",
+        "assumptions": "A sinusoidal carrier with approximately constant amplitude throughout the 1 ns pulse, uniform illumination, and vacuum propagation before interaction with matter. The illustrative 1 μm wavelength is not supplied by the problem and is used only to test the discussion's general claim.",
+        "notes": "All requested results are correct. The relativistic-electron claim is unjustified and fails for a conventional optical example. Laboratory-record, generating-capacity, and facility comparisons were not externally verified.",
+        "source_sha256": "a86fe82247dd0163dd9b4eb71a57964d3d5fa63fca50f70cb87ec7c3f4590aa6",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:8",
@@ -238,9 +342,22 @@
         "skipped": 20
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:8",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The requested proof is correct: for a linearly polarized sinusoidal traveling wave, I(t)=cε₀E₀²sin²(ωt), whose mean is half its maximum. However, the discussion incorrectly extends this result to any sinusoidal quantity and AC electrical power generally. It also risks conflating optical-cycle peaks with pulse-envelope peaks and averages.",
+        "calculation_check": "Since ⟨sin²⟩=1/2, I₀/I_average=2. For AC voltage and current separated by phase φ, p(t)=V₀I₀[cosφ+cos(2ωt−φ)]/2. At φ=60°, maximum power divided by average power is 3, not 2; for a purely reactive load average power is zero.",
+        "assumptions": "A continuous, linearly polarized sinusoidal traveling wave with fixed envelope, averaged over complete carrier cycles. Pulse duty cycle and envelope shape require separate averaging.",
+        "notes": "The proof and final answer are correct, but the discussion's universal AC-power extension is false. Pulsed-laser peak-to-average ratios are not generally two.",
+        "source_sha256": "d2d998a4d33abff384e311413673c048890ad9fa042cc1b6101662d7e8b0b04e",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:9",
@@ -261,9 +378,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Conservation of power across concentric spheres gives I=P/(4πr²). In the radiation zone, intensity is proportional to either field amplitude squared, so E₀ and B₀ each scale as 1/r. The solution derives both requested dependencies correctly. Its discussion of decreasing received power applies to a fixed collecting area; total emitted power remains constant.",
+        "calculation_check": "Doubling r multiplies sphere area by four, reducing intensity to one quarter and field amplitudes to one half. At 1.5 times the distance, the intensity ratio is 1/1.5²=0.4444, matching the Mars illustration.",
+        "assumptions": "An ideal isotropic source, conserved outward radiated power, no absorption or interference, and radiation-zone fields. The field scaling concerns amplitudes or rms values, not equal-time instantaneous fields at different propagation phases; near fields need not scale as 1/r.",
+        "notes": "Both derivations are correct with the radiation-zone interpretation. The spacecraft example is illustrative and was not externally verified.",
+        "source_sha256": "df85d2698e37519f9e2e5f7f165875e6652e502196daf87ff8c0e1b1590d9c3a",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:10",
@@ -284,9 +414,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:10",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The emitted wave frequency is c/λ. For an ideal LC oscillator, charge obeys d²q/dt²+q/(LC)=0, giving f=1/(2π√LC); solving this for L gives the expression used. The energy-exchange explanation and inverse dependence on L and C are correct.",
+        "calculation_check": "f=(3.00×10⁸)/3.30=9.09091×10⁷ Hz. L=1/[4π²f²(5.00×10⁻¹²)]=6.12993×10⁻⁷ H=612.993 nH. Since HF has units s², the resonance expression is dimensionally consistent.",
+        "assumptions": "Vacuum-like wave speed, a lumped LC circuit, and sufficiently weak damping and loading that the ideal resonant frequency applies. Actual radiated power depends on antenna coupling.",
+        "notes": "Both requested answers and the resonance reasoning are correct. Practical component and broadcasting examples are illustrative rather than independently verified specifications.",
+        "source_sha256": "c6c2c3d26c0bb53eb0a725e2657bc89d1345fd00a79b5e143521ca345c632edb",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:11",
@@ -310,9 +453,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:11",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Combining f=c/λ with f=1/(2π√LC) gives C=λ²/(4π²Lc²). Applying this to the given inductance and wavelength independently reproduces the supplied answer.",
+        "calculation_check": "L=800×10⁻⁶ H and f=(3.00×10⁸)/196=1.53061×10⁶ Hz give C=1/[4π²(1.53061×10⁶)²(800×10⁻⁶)]=1.35151×10⁻¹¹ F=13.5151 pF.",
+        "assumptions": "Ideal lumped LC resonance, vacuum-like wave speed, and negligible frequency shifts from damping, antenna loading, or parasitic components.",
+        "notes": "The supplied 13.5 pF answer is correct; the absence of worked reasoning is not a physics error.",
+        "source_sha256": "a7664c92e0863bb49ed5a23a2a75ee1dafb2b1a33e8eed642a5ffff265b01256",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:49:37+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:12",
@@ -333,9 +489,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:12",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For an approaching reflector moving along the radar beam, the stipulated double Doppler formula gives f_echo/f0=(c+v)/(c-v). Consequently, the beat frequency is approximately 2f0v/c when v is small compared with c. The solution correctly obtains the speed magnitude; the beat magnitude alone does not distinguish approach from recession. The discussion correctly explains the two shifts, although measurement accuracy cannot be established from the beat frequency alone.",
+        "calculation_check": "v=(3.00e8)(150)/(2×1.50e9)=15.0 m/s=54.0 km/h=33.56 mph. Solving the approaching-reflector expression exactly gives 14.99999925 m/s, confirming that the approximation is adequate. The intermediate numerator has units m/s², and division by Hz restores m/s.",
+        "assumptions": "Stationary radar, motion directly along its line of sight, a single reflected signal, and v much smaller than c. Otherwise the measurement gives the radial velocity component. The operational radar-band statement was not independently sourced.",
+        "notes": "The double Doppler calculation and conversions are correct. Full vehicle speed requires the assumed line-of-sight alignment; precision also depends on measurement uncertainties.",
+        "source_sha256": "278f5b76b679c452127036fad00cf57f6250a24d4566a319857de9f3ea1e2acc",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:13",
@@ -359,9 +528,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:13",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "All four answers follow from I=P/A, the sinusoidal-wave relations E0=sqrt(2I/(c epsilon0)) and B0=E0/c, and the thermal balance Pt=mc_specific ΔT. The wavelength is unnecessary once the average power and illuminated area are specified.",
+        "calculation_check": "A=π(0.125 m)²=0.0490874 m² and I=4074.37 W/m². This gives E0=1751.91 V/m and B0=5.84e-6 T. Heating requires Q=(4.00)(3470)(2.00)=27760 J, so t=27760/200=138.8 s, or approximately 2 min 19 s.",
+        "assumptions": "Uniform illumination, a sinusoidal traveling wave in approximately free space, complete absorption of the 200 W, constant specific heat, and the stipulated absence of other heat transfer. The shoulder is treated as a single thermal mass.",
+        "notes": "All four numerical answers are correct under the stated idealized heating and wave assumptions.",
+        "source_sha256": "4c5385985d4abcacf61cd71781b927dd6b0d9f7bf637aa4a1588b7fd4264856b",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:14",
@@ -382,9 +564,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:14",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The thermal calculation and all four final answers are correct under the intended traveling-wave model. However, the discussion incorrectly concludes that electromagnetic waves carry most of their energy in the electric field because the magnetic field is numerically small. Electric and magnetic field strengths use different units, so their numerical magnitudes cannot establish an energy imbalance. For a free-space traveling wave, uE=epsilon0 E²/2 and uB=B²/(2mu0) are equal, including instantaneously. The discussion's subsequent acknowledgment of equal energy densities contradicts its preceding claim.",
+        "calculation_check": "Q=(0.400)(3760)(45.0)=67680 J; P=564 W. A=π(0.100)²=0.0314159 m², giving I=17952.7 W/m², E0=3677.45 V/m, and B0=1.226e-5 T. Each field contributes the same average energy density, I/(2c)=2.99e-5 J/m³.",
+        "assumptions": "The temperature rise accounts for the absorbed energy, with negligible thermal losses or phase changes. Inferring incident intensity from absorbed power assumes complete absorption over the specified area. The field calculations describe an equivalent traveling wave, rather than the detailed standing-wave pattern in an oven. The quoted 56% efficiency assumes an illustrative 1000-W output not supplied by the problem.",
+        "notes": "All numerical answers check out. The discussion's assertion that the electric field carries most of the wave energy is physically incorrect.",
+        "source_sha256": "fac75cfe4e87c162b873eb6d8dbbda96c6d206039b1ea3a51a3c15b0ed6b3a56",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:15",
@@ -408,9 +603,22 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:15",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The intensity is power divided by beam area. The maximum electric force is |q|E0. For the moving charge, the maximum magnetic-force magnitude is |q|vB0, attained when the velocity is perpendicular to the magnetic field at its peak. These relations reproduce all supplied answers.",
+        "calculation_check": "1.00 mm²=1.00e-6 m², so I=0.00500/1.00e-6=5000 W/m². E0=1940.74 V/m and B0=6.47e-6 T. Therefore FE,max=(2.00e-9)(1940.74)=3.88e-6 N and FB,max=(2.00e-9)(400)(6.47e-6)=5.18e-12 N. Their ratio is v/c=1.33e-6, as expected.",
+        "assumptions": "Uniform sinusoidal traveling-wave illumination in free space, negligible disturbance of the beam by the test charge, and a velocity orientation perpendicular to B for the requested maximum magnetic force. The charge is stationary for part (b) and moving in part (c).",
+        "notes": "All three answers are correct, including the peak-field and maximum-force factors.",
+        "source_sha256": "582a2dc6e3dbadb930d49a37aafbba4353a9bf7f1ab00ea3e23dac74faf57ac5",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:16",
@@ -431,9 +639,22 @@
         "checked": 13
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:16",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Parts (b) and (c) correctly apply Faraday's law and ideal LC resonance. Part (a) conflicts with the stated geometry: B perpendicular to the coil plane makes B parallel to its area normal, while a transverse wave's propagation direction and Poynting vector are perpendicular to B. The incident energy therefore travels parallel to the coil plane, and its normal flux through the geometrical disk is zero. Multiplying intensity by the disk area assumes normal incidence, which would instead give zero magnetic flux through the coil. An antenna can still receive energy in the stated orientation, but its received power requires an effective aperture and loading model, not simply IA.",
+        "calculation_check": "The wave intensity is 1.19366e-10 W/m², and its product with the disk area 0.0706858 m² is 8.4375e-12 W; this arithmetic does not resolve the orientation error. For a quarter-cycle from maximum flux to zero, |average emf|=4NAB0f=5.65487 mV. C=1/[(2π×1.00e8)²(2.50e-6)]=1.01321 pF.",
+        "assumptions": "A transverse free-space incident wave, approximately uniform magnetic flux across the coil, and an ideal lumped LC receiver. The quarter-cycle average assumes an interval between a field extremum and its adjacent zero; arbitrary quarter-cycle intervals need not give the same signed average. Maximum current at resonance additionally presumes an appropriate series-circuit model.",
+        "notes": "The induced emf and resonance capacitance are correct. The incident-power calculation uses an aperture orientation incompatible with the stated magnetic-field direction.",
+        "source_sha256": "607c8f5452d224980c7c0df9792c145cd74211b600bf58a6ce9f9972219b5d37",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:17",
@@ -457,9 +678,22 @@
         "skipped": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:17",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For positive amplitudes multiplying sin(2πft), the earliest zero at or after the stated origin is t=0. The first negative minimum occurs at phase 3π/2, or t=3/(4f), and a complete cycle takes T=1/f. The supplied answers consistently use that interpretation.",
+        "calculation_check": "At f=1.00e9 Hz, T=1.00e-9 s and 3T/4=7.50e-10 s. Zeros occur at t=nT/2, so the first subsequent zero strictly after t=0 would instead be 5.00e-10 s.",
+        "assumptions": "Time is considered from t=0 onward, the amplitudes E0 and B0 are positive, and 'first zero' includes the initial instant explicitly given in the problem.",
+        "notes": "All answers are correct when the initial zero is included. The next zero after the initial instant is 0.500 ns.",
+        "source_sha256": "99736dfa8f42951bf997ac42595c25aea30deb83fdb9b602c1f117ee2d082a7e",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:18",
@@ -480,9 +714,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:18",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The multiplication and the proposed vacuum-consistent alternatives are correct. However, fλ measures phase velocity, and the solution incorrectly claims that electromagnetic phase velocities in every material must be below c and that no material can have refractive index below one. For example, the ideal collisionless-plasma dispersion relation omega²=omega_p²+c²k² permits phase velocity above c while group velocity remains below c. Thus the measurements are inconsistent for a vacuum wave, but are not universally inconsistent without specifying the propagation medium or mode. Special relativity constrains causal signal propagation, not every phase velocity. There is also no evidence that a wavelength error is more likely than a frequency error.",
+        "calculation_check": "fλ=(1.20e9)(0.500)=6.00e8 m/s=2c. In vacuum, the alternatives are λ=c/f=0.250 m or f=c/λ=600 MHz. As a counterexample to the universal prohibition, n=0.5 gives phase velocity 2c; the plasma model then gives group velocity 0.5c.",
+        "assumptions": "The intended unreasonable result requires vacuum, approximately vacuum-like air, or another explicitly stipulated medium with the relevant phase speed at most c. The plasma counterexample distinguishes phase propagation from information transport.",
+        "notes": "The intended vacuum calculation is correct. The material-medium and relativity explanations are overgeneralized, and the problem needs a propagation-medium assumption.",
+        "source_sha256": "098bd9d23c803cbc06306010d623a3a7aac6d6e029fba7ff95cc5dd9f1d871bc",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:19",
@@ -506,9 +753,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:19",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The stated intensity follows correctly if B0 is the peak magnetic field of a sinusoidal traveling wave. However, neither that intensity nor the field magnitude alone proves the premise unreasonable. A residential oven is a resonant cavity containing standing-wave fields; local magnetic amplitude does not uniquely determine local time-averaged energy flux or the oven's total power. Even under a traveling-wave approximation, an illuminated area and power comparison are needed to justify 'much too great.' The solution's categorical rejection of the magnetic-field value is therefore unsupported by the supplied information.",
+        "calculation_check": "I=cB0²/(2mu0)=(3.00e8)(9.20e-5)²/[2(4πe-7)]=1.01032e6 W/m². This would correspond to 10.1 kW across 0.0100 m², but that area is illustrative and is not given. A standing-wave magnetic antinode can have nonzero B while the time-averaged net Poynting flux vanishes.",
+        "assumptions": "The numerical result assumes a free-space traveling wave and a peak, rather than rms, magnetic field. Determining whether the actual oven field is unreasonable requires cavity geometry, loading, losses, and spatial field information that are not supplied.",
+        "notes": "The equivalent traveling-wave intensity is correct. The conclusions that this necessarily exceeds oven capabilities and that the magnetic field must be wrong are not established.",
+        "source_sha256": "9a1d06906a9812ce4ae06497e1e6ac01584105ee73d3faeb6ed10f84375a2b8d",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:20",
@@ -529,9 +789,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:20",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The resonance calculation and central practical diagnosis are sound: an ordinary 2-H inductor cannot behave as an ideal lumped inductance at 300 MHz with a total capacitance of only 1.41e-19 F. Parasitic capacitance, distributed behavior, and losses invalidate that model. However, the discussion incorrectly elevates 'both L and C must decrease' to a fundamental principle. Only their product fixes the ideal resonance frequency; one can remain fixed while the other decreases. Likewise, efficient radiation is determined by antenna coupling, geometry, and losses, rather than simply requiring both L and C to be small. The stated universal minimum practical capacitance is not established.",
+        "calculation_check": "f=c/λ=3.00e8 Hz. C=1/[(2π×3.00e8)²(2.00)]=1.40724e-19 F=0.140724 aF. At fixed C=1.00 pF, the required L is 2.81448e-7 H=281 nH. The quoted reactance is also correct: XL=2πfL=3.76991e9 ohms.",
+        "assumptions": "Vacuum radiation, ideal LC resonance for the initial calculation, and ordinary macroscopic discrete components for the practical assessment. Numerical component-size thresholds are engineering examples rather than universal physical limits.",
+        "notes": "The capacitance and rejection of a practical 2-H lumped inductor at 300 MHz are correct. The discussion's requirements on both components and on radiation efficiency are too strong.",
+        "source_sha256": "cebcde94611e36d291c22c14b44c9d8b19c356bc3b958cc2cbc6397362f1b4bc",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:21",
@@ -555,9 +828,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:21",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Combining f=c/λ with f=1/(2πsqrt(LC)) gives L=λ²/(4π²c²C), reproducing the answer. For an ordinary discrete circuit containing a 1-pF capacitor, the implied inductance is far below unavoidable connection and component inductances, and the ideal lumped-element description fails at the implied optical frequency. The terse statements in parts (b) and (c) are reasonable in that circuit context. A 300-nm electromagnetic wavelength is itself physically possible; the incompatibility concerns producing it with the stipulated conventional LC circuit.",
+        "calculation_check": "λ=300e-9 m gives f=1.00e15 Hz. L=1/[(2π×1.00e15)²(1.00e-12)]=2.53303e-20 H, matching the supplied value.",
+        "assumptions": "Free-space wavelength and a conventional macroscopic lumped LC circuit. The conclusion does not exclude ultraviolet radiation or specialized optical resonant systems described by different physical models.",
+        "notes": "The inductance and intended practical inconsistency are correct. 'Unreasonably small wavelength' must be understood relative to the specified conventional LC circuit.",
+        "source_sha256": "48c23a573ad28ee2eb69dc79f032cbcec569ef4aec9d2c730b23f46ab6a4ecc0",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:22",
@@ -580,9 +866,22 @@
         "checked": 10
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:22",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The solution correctly recognizes that the requested radiation intensity cannot be inferred from the measured near magnetic field using the traveling-wave formula. At 60 Hz and 50 m, the field is deeply in the near-field regime, and B alone does not determine the time-averaged Poynting vector. Its labeled naive calculation is arithmetically sound, but the subsequent transmission-power comparison mixes peak and rms current: the chosen B0 yields a peak current of 125 A, whereas the three-phase real-power formula requires rms current. Moreover, a single-wire field estimate cannot directly determine per-phase current in a three-phase line because the phase fields superpose and partially cancel. Assertions about typical radiation in watts and biological evidence are not established by the supplied model or evidence.",
+        "calculation_check": "The naive quantities are I=29.8416 W/m², cylindrical area=1.57080e5 m², and apparent radiated power=4.68750 MW. The single-wire estimate is I_peak=125 A. Consistently using I_rms=125/sqrt(2)=88.39 A gives transmitted power sqrt(3)(500 kV)(88.39 A)(0.95)=72.72 MW, rather than 103 MW. Also, λ=5.00e6 m and kr=2πr/λ=6.28e-5, confirming the near-field limitation.",
+        "assumptions": "The selected 0.50-μT field is treated as peak because the solution explicitly calls it B0. The 500-kV value is assumed to be rms line-to-line voltage. The current estimate additionally assumes an isolated long straight conductor, an approximation insufficient to specify an actual three-phase line. Actual radiation and biological effects require additional evidence.",
+        "notes": "The final rejection of the naive radiation estimate is correct. The example nevertheless mixes peak and rms values, neglects phase cancellation, and makes unsupported radiation and health claims.",
+        "source_sha256": "70bc5c42af96d9353797d7c74eeef8a713f4efbd6c12aa770e4e295124995aa7",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:23",
@@ -605,9 +904,22 @@
         "checked": 11
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24EnergyInElectromagneticWaves.md::problems-exercises:23",
+        "verdict": "concern",
+        "confidence": "medium",
+        "reasoning_check": "The constructed problem and its principal calculations are physically consistent for uniform illumination and an ideal collecting aperture. However, the discussion needs qualifications: a fixed ground dish requires a geostationary satellite, not merely a geosynchronous one; inverse-square altitude scaling assumes a fixed angular beam pattern rather than a fixed ground footprint. Its quoted round-trip delay also requires a defined path: one ground-satellite-ground traversal is approximately 0.24 s, whereas a request and response between two ground terminals through the satellite takes approximately 0.48 s. Receiver sensitivity and reliable reception cannot be assessed from received power alone without bandwidth, noise temperature, and required signal-to-noise ratio. The equipment and historical specifications were not independently verified.",
+        "calculation_check": "I=200/(2.0e13)=1.00e-11 W/m². A=π(0.225)²=0.159043 m², giving incident power 1.59043e-12 W. E0=sqrt[2I/(c epsilon0)]=8.67926e-5 V/m and B0=E0/c=2.89e-13 T. At 36000 km altitude, 2h/c=0.240 s and 4h/c=0.480 s.",
+        "assumptions": "All 200 W is distributed uniformly over the stated footprint, treated as an area perpendicular to propagation. The dish points toward the source and collects through its full geometric area with unit efficiency; practical delivered receiver power includes aperture efficiency and losses. The wave is sinusoidal and approximately in free space. Orbital and receiver-performance claims require the qualifications above.",
+        "notes": "The intensity, ideal received power, and fields are correct. Discussion concerns include geosynchronous versus geostationary motion, delay-path ambiguity, and reception claims lacking noise and bandwidth specifications.",
+        "source_sha256": "963ae6a1ad21938ba4fbf61254c9739794f60cd6632d829ef87bc25808536def",
+        "file_sha256": "7fda876f50b86d6b8145c1692fbde561f20079fabad937f03a559ae70bc8857d",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:54:48+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24MaxwellsEquations.md::problems-exercises:1",
@@ -628,9 +940,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24MaxwellsEquations.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For electromagnetic propagation in vacuum, Maxwell's equations give c² = 1/(μ₀ε₀). Substitution of the supplied constants therefore performs the requested verification. The discussion correctly connects this propagation speed with the electromagnetic nature of light.",
+        "calculation_check": "Independently calculated μ₀ε₀ = 1.1121238 × 10⁻¹⁷ s²/m² and c = 2.9986338 × 10⁸ m/s, which rounds to 3.00 × 10⁸ m/s. The displayed intermediate square-root discrepancy is immaterial rounding.",
+        "assumptions": "Vacuum propagation using the stated rounded SI constants; the displayed permeability is sufficiently accurate for this calculation.",
+        "notes": "Correct relation, units, and numerical verification of the vacuum speed of light.",
+        "source_sha256": "cf2b680e9cb0a15f2b54ad26a7a21942ba4c3181bbfa38eaf937d260c813af55",
+        "file_sha256": "fcc5ac9c4b77a8cb02b579678a1407788c5d01714fc4124b98d0de0893577437",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24MaxwellsEquations.md::problems-exercises:2",
@@ -651,9 +976,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24MaxwellsEquations.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The solution correctly expands tesla, newton, and coulomb into base units and cancels the mass and current dimensions. This establishes dimensional consistency, although dimensional consistency alone cannot establish a physical law or its numerical coefficient.",
+        "calculation_check": "[μ₀] = kg·m·A⁻²·s⁻² and [ε₀] = A²·s⁴·kg⁻¹·m⁻³. Their product is s²/m², so its inverse square root has units m/s.",
+        "assumptions": "Standard SI unit definitions. The historical assertion about dimensional consistency giving Maxwell personal confidence was not independently established by the supplied evidence.",
+        "notes": "The requested dimensional derivation is correct; the historical confidence claim remains unverified.",
+        "source_sha256": "1ec50185d7ca030adcf0adbf1c3051fc39e0f969036e14fd2135abfbaaf9c9be",
+        "file_sha256": "fcc5ac9c4b77a8cb02b579678a1407788c5d01714fc4124b98d0de0893577437",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md#Example1",
@@ -674,9 +1012,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md#Example1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A freely propagating vacuum wave has E₀ = cB₀, so the maximum magnetic field follows directly from the maximum electric field. Geometric spreading reduces both amplitudes. The Earth-field comparison is reasonable using the textbook's representative terrestrial field of approximately 50 μT.",
+        "calculation_check": "B₀ = 1000/(3.00 × 10⁸) = 3.333 × 10⁻⁶ T. Also, (V/m)/(m/s) = V·s/m² = T. Relative to 50 μT, this is 0.0667, less than one tenth.",
+        "assumptions": "A traveling wave in vacuum or approximately in air, rather than a standing wave or antenna near field. The Earth-field comparison uses a representative value and is not universal at every location.",
+        "notes": "Correct field amplitude and spreading discussion within the traveling-wave model.",
+        "source_sha256": "43489b27286987404970d70edbbcc3866440cb60b93ad1be367cfb24ea4d5cc8",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:1",
@@ -699,9 +1050,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of Figure 1 confirms the stated charge signs and arrows. Beside the symmetric antenna midpoint, repulsion from the positive lower end and attraction toward the negative upper end both contribute upward force in (a) and (d). Reversing the charges reverses that force in (c). In the figure's prescribed charge-separation model, the Coulomb contribution vanishes in (b). The outward-moving arrows represent earlier phases rather than the instantaneous local charge distribution.",
+        "calculation_check": "For endpoint charges ±Q a distance a above and below the midpoint, the transverse components cancel and the axial field magnitude is 2kQa/(r² + a²)^(3/2), with the stated directions. At 100 MHz, T = 10⁻⁸ s and cT = 3.00 m.",
+        "assumptions": "The simplified Coulomb-field schematic explicitly used by the problem. Instantaneous neutrality does not generally imply zero total electric field around a real time-dependent antenna, whose induction and radiation fields require retarded electrodynamics.",
+        "notes": "All four panels are explained correctly within the supplied schematic; the neutrality argument applies to its charge-separation contribution.",
+        "source_sha256": "ee06f8b2fa665d210b169fb4cb36eefc0278cfb792c3cf7219b9439e9dad5a7b",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:2",
@@ -724,9 +1088,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 2(a) shows upward conventional current and magnetic arrows pointing right on the near side. For upward current, the right-hand rule gives counterclockwise circulation viewed from above. With the stated right-handed coordinates, ŷ × ẑ = x̂ independently confirms the near-side direction.",
+        "calculation_check": "The illustrative long-wire calculation gives B = (4π × 10⁻⁷)(1.00)/(2π × 0.100) = 2.00 × 10⁻⁶ T, as stated.",
+        "assumptions": "The numerical illustration additionally assumes a sufficiently long straight wire and a quasistatic observation region. These assumptions are unnecessary for the basic right-hand-rule direction check.",
+        "notes": "The inspected magnetic arrows agree with the current direction and right-hand rule.",
+        "source_sha256": "0c7cb269da23ce5652539ace6e72068ff676c68aed86e242a10b0341c9e8feff",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:3",
@@ -749,9 +1126,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:3",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The directional explanation matches Figure 2: upward conventional current builds positive charge at the top, while the resulting charge-separation field points downward. However, the added example incorrectly identifies qV with generator work per AC cycle. Charging transfers energy into stored fields, some of which can return to the generator; net cycle work depends on the voltage-current history and dissipative or radiative losses.",
+        "calculation_check": "The multiplication qV = 10⁻⁸ J is correct for moving 1 nC through a fixed opposing 10 V potential difference. It does not determine cycle energy. For comparison, charging an ideal capacitor from zero to Q = 1 nC at final voltage 10 V stores QV/2 = 5 × 10⁻⁹ J, and its reversible net cycle work is zero. Generally, cycle work is ∮V dq.",
+        "assumptions": "Conventional current and the charge-building instant depicted. No waveform, capacitance, radiation resistance, or charge transferred per complete cycle is supplied.",
+        "notes": "Correct explanation of the pictured directions, but the asserted 10⁻⁸ J of generator work per cycle is unsupported and confuses charge-transfer work with net cycle energy.",
+        "source_sha256": "324206c94e096320df397256ce4fe9ef8e2b09958c6e4142ec8811ff9419f6ef",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:4",
@@ -774,9 +1164,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:4",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Figure 4 confirms that the electric field is parallel to the vertical wire in (a) and perpendicular in (b). The longitudinal electric force drives the desired antenna current in (a). In (b), transverse polarization produces little longitudinal response, and a magnetic field parallel to the wire cannot exert a force component along it.",
+        "calculation_check": "The incident longitudinal driving voltage is ∫E·dl ≈ E₀l = (0.100 V/m)(1.00 m) = 0.100 V in (a), versus zero in the ideal orientation of (b).",
+        "assumptions": "A thin straight receiving wire, negligible cross-polarization coupling, and a transverse incident wave whose field is approximately uniform along the wire. The actual current also depends on antenna impedance and loading.",
+        "notes": "Correct polarization comparison and illustrative incident driving voltage.",
+        "source_sha256": "b90757af95024736820268943f44453d9f9ec2bf2590de5df92dcfb635e24374",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:5",
@@ -799,9 +1202,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of Figure 5 supports the intended vertical loop plane containing the propagation direction. In (a), the horizontal magnetic field crosses that plane and produces changing flux. In (b), the vertical magnetic field lies in the loop plane, so its flux is zero. Faraday's law therefore selects (a). The solution uses emf magnitudes, so omitting the orientation-dependent minus sign does not affect this comparison.",
+        "calculation_check": "For Φ = B₀A cos(2πft), the peak emf magnitude is 2πfB₀A = 2.0923 × 10⁻⁵ V. The illustrative wavelength is 300 m, much larger than the approximately 0.1 m loop dimension, validating approximately uniform flux.",
+        "assumptions": "A stationary single-turn loop small compared with the wavelength, the depicted alignment, and negligible pickup from leads or unintended electric-dipole coupling.",
+        "notes": "Correct flux geometry, preferred orientation, and peak-emf calculation.",
+        "source_sha256": "778742527c5d65d2971ad44da7dbe603467465d4d9f6756489224300e694c796",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:6",
@@ -823,9 +1239,22 @@
         "skipped": 10
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For reception approximately horizontally from a vertical transmitter, E is vertical and B is horizontal and transverse to the source bearing. A vertical straight wire maximizes its electric response. A vertical loop whose plane contains that bearing has its normal parallel to B, maximizing magnetic flux. Rotating the loop until its normal points toward the source gives a null and the stated two-direction ambiguity.",
+        "calculation_check": "For horizontal rotation through angle θ from the maximum-response orientation, the signed flux and emf scale as cos θ. At 60°, the amplitude is 0.500 of maximum; at 90°, it vanishes.",
+        "assumptions": "A small ideal loop, far-field reception approximately at the transmitter's elevation, preserved vertical polarization, and negligible reflections or parasitic electric pickup.",
+        "notes": "Correct straight-wire alignment, loop maximum and null directions, and angular response.",
+        "source_sha256": "2fd2c49c0bfca3518dbe4bb37b629d343423e2be689a6846a25c3a74afe7a713",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:7",
@@ -848,9 +1277,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Switching, sparking, commutation, and fluctuating loads create time-dependent charge and current distributions that can radiate despite a DC power supply. A settled macroscopic DC distribution instead produces stationary fields. The inverse switching-time example is acceptable as a rough frequency-scale estimate, rather than a determination of a particular spectral peak or radiation strength.",
+        "calculation_check": "For τ = 1.00 μs, 1/τ = 1.00 MHz, and radiation at that frequency has λ = c/f = 300 m. A transient generally has a broad spectrum; its actual spectrum and coupling cannot be calculated from τ alone.",
+        "assumptions": "Ordinary unshielded circuitry without exact cancellation of radiation. The frequency example is an order-of-magnitude bandwidth estimate; waveform, geometry, return paths, and resonances determine the emitted spectrum and power.",
+        "notes": "Correct transient-radiation conditions. The 1 MHz example is useful only as a rough inverse-timescale estimate.",
+        "source_sha256": "8ee458f9652f0f5f33f5450ebe36c315640f712edb02ad1fbe08a4a11206322d",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:8",
@@ -873,9 +1315,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:8",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Microwave cavity patterns, multipath radio fading, and thin-film colors are valid interference examples. However, the solution presents oven hot spots as necessarily spaced λ/2 apart. That spacing follows for a single one-dimensional standing wave formed by counterpropagating waves, whereas a three-dimensional oven cavity can contain several modes with different spatial patterns. Its hot spots need not have the asserted uniform spacing.",
+        "calculation_check": "At 2.45 GHz, λ = 0.122449 m and λ/2 = 6.12245 cm, correctly calculated for the one-dimensional model. As a counterexample, a standing mode with equal orthogonal wave-number components kx = ky = k/√2 has adjacent antinodes along either coordinate separated by π/kx = λ/√2 = 8.66 cm.",
+        "assumptions": "Stable interference requires sufficient coherence and compatible polarization. The λ/2 result assumes a dominant one-dimensional standing wave; no cavity geometry or mode information establishes that assumption for the stated oven.",
+        "notes": "Valid interference examples, but the specific universal oven hot-spot spacing is an unjustified extension of a one-dimensional model.",
+        "source_sha256": "41d79fbff8e8ecec4759ff9bf0342a8e50deb173b367996f2e94a70c04bab9b6",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:9",
@@ -898,9 +1353,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:9",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Coherent antenna fields superpose with phase differences set by propagation paths and source phases, just as coherent sound pressures do. For the added in-phase half-wavelength-spacing example, broadside paths are equal and endfire paths differ by half a wavelength, producing enhancement and suppression respectively. Adjusting spacing and phase therefore provides directionality. Inspection of the SVG confirms that the supplied figure itself illustrates multiple constructive directions; the added half-wavelength example is a separate configuration.",
+        "calculation_check": "At 1.00 MHz, λ = 300 m and d = 150 m. The far-field relative phase is 2πΔr/λ: broadside gives zero and endfire gives π. The sound comparison gives 343/1000 = 0.343 m. The SVG has spacing/wavelength = 100/60, consistent with additional constructive directions at sin θ = ±0.6 from broadside.",
+        "assumptions": "Coherent sources with matching polarization and, for exact cancellation, equal received amplitudes. The directional example uses the far field; finite-distance amplitude differences prevent exact cancellation in general.",
+        "notes": "Correct sound analogy and directional-array explanation; the numerical example and inspected figure represent different valid spacings.",
+        "source_sha256": "c45c1ece752453ea06138bbc2eb6c242140bfd0f0b4432ed3e34f6b603a887c3",
+        "file_sha256": "52850958b66d4b5f055956f4e2ebd7d56de0e482ce3e83d4241a1ae931a63804",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T084348Z-437db7",
+        "reviewed_at": "2026-10-24T08:59:59+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch24ProductionOfElectromagneticWaves.md::conceptual-questions:10",

@@ -1,16 +1,16 @@
 {
   "chapter": 22,
-  "checked_at": "2026-10-24T02:00:59+00:00",
+  "checked_at": "2026-10-24T09:00:32+00:00",
   "summary": {
-    "total": 2251,
+    "total": 2266,
     "checked": 255,
     "failed": 1,
-    "skipped": 1995,
+    "skipped": 2010,
     "by_kind": {
       "equation": {
         "checked": 255,
         "failed": 1,
-        "skipped": 1995
+        "skipped": 2010
       },
       "case": {
         "checked": 0,
@@ -24,8 +24,8 @@
       "chapters": []
     },
     "skip_reasons": {
-      "no supported equality": 805,
-      "unbound variable": 906,
+      "no supported equality": 813,
+      "unbound variable": 913,
       "unsupported symbol": 254,
       "unit-only expression or text label needs a numeric value": 24,
       "unknown unit": 6
@@ -2543,7 +2543,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "201f84b5933f755c3a2ffc22b609fe5ca5cc2f0a9655e51c0f1fa9a1e3b227ac",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Measurements of the weak and fluctuating magnetic fields associated with brain activity are called magnetoencephalograms (MEGs). Do the brain’s magnetic fields imply coordinated o…",
       "has_solution": true,
       "missing_labels": [
@@ -2558,19 +2558,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:1",
+        "source_sha256": "201f84b5933f755c3a2ffc22b609fe5ca5cc2f0a9655e51c0f1fa9a1e3b227ac",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Coherent, similarly oriented contributions add proportionally to N, while independent zero-mean contributions have an rms sum proportional to square root of N. This supports coordinated activity as an explanation for a substantial aggregate MEG signal. However, a measurable field alone does not prove coordination, and the categorical claim that the random example is undetectable requires detector noise, bandwidth, and averaging information absent here.",
         "calculation_check": "For the illustrative equal contributions, coherent addition gives 1.0e-13 T = 100 fT; independent random addition gives rms 1.0e-16 T = 0.1 fT. Their ratio is 1000. These calculations establish relative amplitudes, not a detection threshold.",
         "assumptions": "Equal detector-level contributions; temporal and spatial coherence for the N scaling; independent, zero-mean contributions for the square-root scaling. Actual neuronal geometry and signal correlations can change the result.",
         "notes": "The scaling argument and arithmetic are sound, and coordination is the intended qualitative conclusion. The exclusive inference and absolute detectability claim exceed what the example establishes; the empirical field and instrument claims were not independently verified.",
-        "source_sha256": "201f84b5933f755c3a2ffc22b609fe5ca5cc2f0a9655e51c0f1fa9a1e3b227ac",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:53:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:2",
@@ -2581,7 +2581,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "b427f898352160c96d0009996d1cad2fc7fbe562bc91c29f7a242bb8f46a85f7",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Discuss the possibility that a Hall voltage would be generated on the moving heart of a patient during MRI imaging. Also discuss the same effect on the wires of a pacemaker. (The…",
       "has_solution": true,
       "missing_labels": [
@@ -2596,19 +2596,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:2",
+        "source_sha256": "b427f898352160c96d0009996d1cad2fc7fbe562bc91c29f7a242bb8f46a85f7",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Moving conducting fluid can develop transverse charge separation from q v cross B. For a suitable measurement direction, the voltage is the integral of v cross B across the fluid. Bvw applies when velocity and field are perpendicular; motion parallel to B produces no such voltage. Thus the stated estimate is conditional, and 'any conductor moving through a magnetic field' is overbroad. The discussion appropriately distinguishes additional gradient and RF coupling to leads, but voltage magnitude alone cannot establish cardiac stimulation or safety.",
         "calculation_check": "(1.50)(0.50)(0.025) = 0.01875 V, approximately 19 mV, for perpendicular geometry. A velocity-field angle alpha introduces sin(alpha), including zero at parallel alignment.",
         "assumptions": "The example treats blood as conducting fluid with approximately uniform transverse speed and field. Voltage orientation, tissue conduction paths, and lead geometry matter; biological response requires information beyond this voltage estimate.",
         "notes": "The conditional voltage calculation is correct. Missing orientation and unsupported categorical statements that the voltage is harmless or too small to stimulate require qualification. Pacemaker hazards and MRI eligibility claims were not independently established from local evidence.",
-        "source_sha256": "b427f898352160c96d0009996d1cad2fc7fbe562bc91c29f7a242bb8f46a85f7",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:53:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:3",
@@ -2619,7 +2619,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "d36503139aeed03dfd384ebd2e6e1567ee45dd76924c0322be0ba9a2bfffca04",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "A patient in an MRI unit turns his head quickly to one side and experiences momentary dizziness and a strange taste in his mouth. Discuss the possible causes.",
       "has_solution": true,
       "missing_labels": [
@@ -2634,19 +2634,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:3",
+        "source_sha256": "d36503139aeed03dfd384ebd2e6e1567ee45dd76924c0322be0ba9a2bfffca04",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "A conducting loop rotating so its normal changes from parallel to perpendicular to B has a flux change BA, making the proposed induction mechanism physically possible. But no anatomical loop, orientation, or tissue impedance is established, so this estimate does not determine voltages at vestibular or taste nerves. Furthermore, the solution also invokes magnetic forces on ionic currents: J cross B can persist in a static field with the head stationary. Its claim that the effects exist only while flux changes therefore does not follow.",
         "calculation_check": "For the assumed loop, average emf magnitude = (3.00 T)(0.010 m^2)/(0.50 s) = 0.060 V. This is a whole-loop circulation estimate, not a demonstrated voltage across a sensory organ; an appropriately oriented rotation could instead leave the flux unchanged.",
         "assumptions": "The numerical model assumes a conducting loop with the stated area and a full BA-to-zero flux change. Actual sensory mechanisms and physiological responses are not derived from these assumptions.",
         "notes": "The hypothetical Faraday calculation is correct. The anatomical application, asserted taste mechanism, and exclusively motion-dependent explanation are insufficiently supported; the included static ionic-current force need not vanish when head motion stops.",
-        "source_sha256": "d36503139aeed03dfd384ebd2e6e1567ee45dd76924c0322be0ba9a2bfffca04",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:53:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:4",
@@ -2657,7 +2657,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "834ac4d5e8d86ef393a89386568dea23a3fa7d2d0dc9eff5f5f10dee678bd46d",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "You are told that in a certain region there is either a uniform electric or magnetic field. What measurement or observation could you make to determine the type? (Ignore the Earth…",
       "has_solution": true,
       "missing_labels": [
@@ -2672,19 +2672,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:4",
+        "source_sha256": "834ac4d5e8d86ef393a89386568dea23a3fa7d2d0dc9eff5f5f10dee678bd46d",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The resting-charge test correctly distinguishes nonzero electric and magnetic fields in the chosen laboratory frame: electric force is qE, whereas magnetic force vanishes at rest. Testing multiple velocities also works. However, the compass alternative incorrectly says an uncharged needle cannot be affected by an electric field. A neutral conducting needle can polarize, and its induced electric dipole can experience an aligning torque.",
         "calculation_check": "(1.0e-8 C)(1.0e4 N/C) = 1.0e-4 N. Magnetic force reverses with velocity and vanishes for both parallel and antiparallel motion. For an anisotropically polarizable needle, electric orientation energy is -E dot alpha dot E/2 and can depend on angle despite zero net charge.",
         "assumptions": "The fields are nonzero and uniform in the laboratory frame; the test charge's mechanical background forces are controlled, and its magnetic moment is negligible. The charge's effect on the imposed field is negligible.",
         "notes": "The two charged-particle tests correctly answer the problem. The supplementary compass test is not generally conclusive: electrical neutrality does not prevent polarization torque in a uniform electric field.",
-        "source_sha256": "834ac4d5e8d86ef393a89386568dea23a3fa7d2d0dc9eff5f5f10dee678bd46d",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:53:42+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:5",
@@ -2695,7 +2695,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "72c22b0614a475e0a031b44be94c6557938510dcf77bac1c66ee08717d80a7dc",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "An example of magnetohydrodynamics (MHD) comes from the flow of a river (salty water). This fluid interacts with the Earth’s magnetic field to produce a potential difference betwe…",
       "has_solution": true,
       "missing_labels": [
@@ -2710,19 +2710,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:5",
+        "source_sha256": "72c22b0614a475e0a031b44be94c6557938510dcf77bac1c66ee08717d80a7dc",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "In an open-circuit conducting fluid, charge separation produces E = −v × B under the uniform-flow approximation. Integrating across the river gives a bank-to-bank voltage magnitude B_perp v w. For horizontal flow and horizontal bank separation, only the vertical magnetic-field component contributes. The solution correctly identifies the required measurements and supplies explicitly illustrative numerical values.",
         "calculation_check": "B_perp = (5.00 × 10^−5)sin(53°) = 3.993 × 10^−5 T, giving V = B_perp(2.00)(100) = 0.007986 V, consistent with 8.00 mV. T·m²/s has units of volts.",
         "assumptions": "Steady, approximately uniform conducting flow; negligible external electrical loading and magnetic back reaction. A suitable average speed gives an estimate for nonuniform flow; detailed depth dependence and conductive boundaries can require solving the current distribution.",
         "notes": "Correct motional-voltage model, field component, measurements, and illustrative arithmetic. The average-speed treatment is an approximation.",
-        "source_sha256": "72c22b0614a475e0a031b44be94c6557938510dcf77bac1c66ee08717d80a7dc",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:6",
@@ -2733,7 +2733,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "631c2daa58bf18f2ea1312adb5b670d03acf17d63d59ba517cb46b6c0a804085",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Draw gravitational field lines between 2 masses, electric field lines between a positive and a negative charge, electric field lines between 2 positive charges and magnetic field…",
       "has_solution": true,
       "missing_labels": [
@@ -2747,19 +2747,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::conceptual-questions:6",
+        "source_sha256": "631c2daa58bf18f2ea1312adb5b670d03acf17d63d59ba517cb46b6c0a804085",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Superposition gives inward gravitational fields for two positive masses, electric lines directed from positive to negative charge, and outward electric lines for two positive charges. Equal like sources have a midpoint null; unequal like sources have a null displaced toward the weaker source. The bar-magnet field runs N to S outside and returns S to N inside. The explanation distinguishes gravitational attraction, electric charge signs, and magnetic dipoles correctly. The supplied SVG coordinates and arrow directions support these qualitative patterns.",
         "calculation_check": "The gravitational example gives G(1 kg)²/(1 m)² = 6.67 × 10^−11 N. The electric example gives k(10^−6 C)²/(1 m)² = 8.99 × 10^−3 N. Their ratio is 1.35 × 10^8, consistent with the stated approximate comparison.",
         "assumptions": "Newtonian gravity, electrostatics, equal source strengths in the symmetric drawings, and an ordinary bar magnet without magnetic monopoles. Electron spin supplies an intrinsic magnetic moment rather than requiring literal classical rotation.",
         "notes": "All four requested patterns and the force comparison are physically consistent. SVG geometry was inspected directly; raster preview was unavailable.",
-        "source_sha256": "631c2daa58bf18f2ea1312adb5b670d03acf17d63d59ba517cb46b6c0a804085",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md#Exercise1",
@@ -2770,7 +2770,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "b84f26674665c9b3e67391b1ef15f3ae23964229a91c0783e0b47bac8990c899",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Indicate whether the magnetic field created in each of the three situations shown in [[Figure 3]](#Figure3) is into or out of the page on the left and right of the current. ![Figu…",
       "has_solution": true,
       "missing_labels": [],
@@ -2780,19 +2780,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md#Exercise1",
+        "source_sha256": "b84f26674665c9b3e67391b1ef15f3ae23964229a91c0783e0b47bac8990c899",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Taking right as +x, up as +y, and out of the page as +z, an upward conventional current produces a field proportional to y × x = −z on its right and +z on its left. Reversing current reverses both directions. An upward-moving electron reverses the positive-charge result, matching downward conventional current. All three answers and the discussion follow correctly. The SVG source confirms the indicated motions.",
         "calculation_check": "The cross-product check yields (a) left out/right in; (b) left in/right out; (c) left in/right out. Reversing charge or current changes the sign without changing the circular field geometry.",
         "assumptions": "The requested points lie in the page on either side of the indicated wire or moving charge. Conventional current follows positive-charge motion.",
         "notes": "Correct directions for every subpart, including the electron’s negative charge.",
-        "source_sha256": "b84f26674665c9b3e67391b1ef15f3ae23964229a91c0783e0b47bac8990c899",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md#Exercise2",
@@ -2803,7 +2803,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "fd23922107ccfb60936c9d3051ae932a24d976c5447c8fcf9bf2ddf77aa11b55",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "What are the directions of the fields in the center of the loop and coils shown in [[Figure 4]](#Figure4)? ![Figure a shows current in a loop, running counterclockwise. Figure b s…",
       "has_solution": true,
       "missing_labels": [],
@@ -2813,19 +2813,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md#Exercise2",
+        "source_sha256": "fd23922107ccfb60936c9d3051ae932a24d976c5447c8fcf9bf2ddf77aa11b55",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The inspected figure shows counterclockwise current in the single loop, giving an outward area normal and an out-of-page center field. Applying the same circulation rule to the depicted winding gives a leftward axial field in (b). The reversed current in (c) gives a rightward field. The solution answers all three cases consistently.",
         "calculation_check": "For a loop, each Biot–Savart contribution at the center has the same axial sign. Counterclockwise circulation viewed from an end makes the field point toward that observer, confirming the stated viewing conventions and directions.",
         "assumptions": "Conventional current and the winding perspective shown in the figure. The discussion’s uniform-field statement applies approximately to a long, closely wound solenoid away from its ends; a finite coil is not uniformly magnetized throughout its interior.",
         "notes": "All center-field directions agree with the figure. Uniformity requires the usual long-solenoid approximation.",
-        "source_sha256": "fd23922107ccfb60936c9d3051ae932a24d976c5447c8fcf9bf2ddf77aa11b55",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:3",
@@ -2836,7 +2836,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "abec50c4877579d6e5b0c75c1ca86a00db8e31501015c8cba7487a9473ec6a32",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "What are the directions of the currents in the loop and coils shown in [[Figure 5]](#Figure5)? ![Figure a shows the magnetic field into the page in the middle of a loop. Figure b…",
       "has_solution": true,
       "missing_labels": [
@@ -2850,19 +2850,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:3",
+        "source_sha256": "abec50c4877579d6e5b0c75c1ca86a00db8e31501015c8cba7487a9473ec6a32",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "The inspected figure specifies an into-page loop field, a rightward coil field, and a leftward coil field. A clockwise loop produces an into-page field. Viewed from the left, a rightward axial field points away from the observer and therefore requires clockwise circulation. Viewed from the right, a leftward field similarly requires clockwise circulation. The opposite-end descriptions correctly reverse clockwise and counterclockwise.",
         "calculation_check": "The oriented-area rule gives clockwise circulation for a field directed away from the observer and counterclockwise circulation for a field directed toward the observer. This independently reproduces every answer.",
         "assumptions": "Conventional currents; each viewing direction means looking into the coil from the named end.",
         "notes": "Correct current circulation in all three cases, with explicit and consistent viewing directions.",
-        "source_sha256": "abec50c4877579d6e5b0c75c1ca86a00db8e31501015c8cba7487a9473ec6a32",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:4",
@@ -2873,7 +2873,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "fae32026feb1b34359735e9fa52341fe1e7e4413c2d3f02b5c88000d7d016708",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "To see why an MRI utilizes iron to increase the magnetic field created by a coil, calculate the current needed in a 400-loop-per-meter circular coil 0.660 m in radius to create a…",
       "has_solution": true,
       "missing_labels": [],
@@ -2886,19 +2886,19 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:4",
+        "source_sha256": "fae32026feb1b34359735e9fa52341fe1e7e4413c2d3f02b5c88000d7d016708",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "Both calculations use the intended textbook models correctly: I = B/(mu_0 n) for an ideal long solenoid and B = mu_0 I/(2r) for the proton’s stipulated equivalent loop. However, the claim that iron cores and superconductors are essential does not follow. The air-core calculation itself produces the specified field without iron. Superconductivity reduces resistive heating; necessity cannot be inferred from current alone without conductor and cooling constraints. Also, the first calculation requires a long-solenoid assumption that is not established by the supplied radius and turn density.",
         "calculation_check": "I = 1.20/[(4π × 10^−7)(400)] = 2387 A. The equivalent-loop center field is (4π × 10^−7)(1.05 × 10^4)/(2 × 0.650 × 10^−15) = 1.015 × 10^13 T. Both reported numbers are correct. For a finite solenoid, the center field includes the factor L/sqrt(L² + 4r²), so its radius cannot generally be discarded.",
         "assumptions": "Air or vacuum permeability; a long solenoid for the first result; an explicitly classical equivalent-loop model for the second. That model does not independently establish the actual proton’s internal field distribution.",
         "notes": "Correct numerical results under the intended approximations. The assertion that iron cores and superconductors are essential is unsupported; finite-coil geometry also needs an explicit approximation.",
-        "source_sha256": "fae32026feb1b34359735e9fa52341fe1e7e4413c2d3f02b5c88000d7d016708",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:5",
@@ -2909,7 +2909,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "c9a95f369aa302670942b038fb9d80eebc8078a46d05af934752560696ced0d0",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Inside a motor, 30.0 A passes through a 250-turn circular loop that is 10.0 cm in radius. What is the magnetic field strength created at its center?",
       "has_solution": true,
       "missing_labels": [],
@@ -2922,66 +2922,63 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:5",
+        "source_sha256": "c9a95f369aa302670942b038fb9d80eebc8078a46d05af934752560696ced0d0",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "Each coplanar circular turn contributes mu_0 I/(2r) in the same axial direction, so superposition gives N mu_0 I/(2r). The solution uses the radius correctly and answers the requested field strength. A ferromagnetic core can enhance the field. The discussion’s efficiency comparison is design dependent: additional turns reduce the current required for a given field, while electrical power also depends on winding resistance and available copper.",
         "calculation_check": "B = 250(4π × 10^−7)(30.0)/(2 × 0.100) = 0.0471239 T = 47.1 mT. Relative to an illustrative 5 × 10^−5 T Earth field, the ratio is 942, consistent with approximately 1000.",
         "assumptions": "Closely grouped, approximately coplanar turns of equal radius; air-core field requested; negligible field from leads and other motor components. Any efficiency advantage assumes suitable winding and conductor choices.",
         "notes": "Correct multi-turn loop model and arithmetic. The qualitative efficiency comment requires winding-design assumptions.",
-        "source_sha256": "c9a95f369aa302670942b038fb9d80eebc8078a46d05af934752560696ced0d0",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:6",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
       "line": 636,
-      "end_line": 681,
+      "end_line": 683,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "a28dde4dc4a13fd6c0779d1a1ab8aebf820a20e51dc0432661ac46f4aacc54a6",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "source_sha256": "f177834a69a974f8b38b1ecb08b50d2ea4fff71ea8590093774fa19f5ccfcb57",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Nonnuclear submarines use batteries for power when submerged. (a) Find the magnetic field 50.0 cm from a straight wire carrying 1200 A from the batteries to the drive mechanism of…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 12,
-        "checked": 2
+        "skipped": 18,
+        "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:6",
-        "verdict": "concern",
-        "confidence": "high",
-        "reasoning_check": "Part (a) correctly uses the long-wire field. Part (b) incorrectly asserts exact cancellation at every equidistant point. For separated parallel wires with opposite currents, the fields reinforce between the wires, including at their midpoint. Far from a closely spaced pair, cancellation is approximate and leaves a separation-dependent residual. Part (c) also incorrectly says a compass points toward the wire: it aligns with the horizontal component of the resultant magnetic field, whose wire contribution circles the conductor. The discussion’s claim that ideal parallel wires cancel exactly does not fix these errors.",
-        "calculation_check": "The single-wire field is (4π × 10^−7)(1200)/(2π × 0.500) = 4.80 × 10^−4 T, or 9.6 times the stated Earth field. For wire separation d, the midpoint field is 2mu_0 I/(πd), not zero. At an exterior collinear point, the residual is mu_0 I[1/r − 1/(r+d)]/(2π), approximately mu_0 I d/(2πr²) when d is much smaller than r.",
-        "assumptions": "Long straight parallel wires carrying equal opposite currents. Negligible separation compared with observation distance permits an approximately zero answer, but no separation is supplied. Compass deflection depends on wire orientation and the horizontal Earth field.",
-        "notes": "Part (a) is correct. Exact paired-wire cancellation and the compass direction are physically wrong. Specific submarine shielding and universal wiring claims are not established by the supplied evidence.",
-        "source_sha256": "a28dde4dc4a13fd6c0779d1a1ab8aebf820a20e51dc0432661ac46f4aacc54a6",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "source_sha256": "f177834a69a974f8b38b1ecb08b50d2ea4fff71ea8590093774fa19f5ccfcb57",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Part (a) is correct. Fixed (b): antiparallel paired wires nearly but not exactly cancel; the residual field ≈ μ0Id/(2πr²) ≈ 1×10⁻⁵ T for an assumed 1-cm spacing. Fixed (c): a compass aligns with the circular field lines rather than pointing toward the wire, and the 'always paired' claim is softened. The submarine-shielding remark remains unchecked.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch21-23)",
+        "supersedes_verdict": "appropriate",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:7",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 683,
-      "end_line": 720,
+      "line": 685,
+      "end_line": 722,
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "684d53565841b916e4a4bbd3b7d5a00c269b1aad4fa5707763eef68e6700ad36",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "How strong is the magnetic field inside a solenoid with 10 000 turns per meter that carries 20.0 A?",
       "has_solution": true,
       "missing_labels": [],
@@ -2993,30 +2990,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:7",
+        "source_sha256": "684d53565841b916e4a4bbd3b7d5a00c269b1aad4fa5707763eef68e6700ad36",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "high",
         "reasoning_check": "For an ideal long air-core solenoid, Ampere’s law gives B = mu_0 n I in its interior. The solution explicitly adopts that model and correctly substitutes the turn density and current. The discussion’s uniform-interior and weak-exterior descriptions are appropriate within this approximation, away from the ends.",
         "calculation_check": "B = (4π × 10^−7)(10,000)(20.0) = 0.251327 T, agreeing with 0.251 T. Units are (T·m/A)(1/m)(A) = T. Relative to 5 × 10^−5 T, the ratio is approximately 5027.",
         "assumptions": "Long, closely wound solenoid; air or vacuum core; observation well inside and away from end effects. Finite solenoids have nonuniform end fields and external return fields.",
         "notes": "Correct ideal-solenoid calculation and field comparison; stated field properties require the ideal approximation.",
-        "source_sha256": "684d53565841b916e4a4bbd3b7d5a00c269b1aad4fa5707763eef68e6700ad36",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:8",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 722,
-      "end_line": 743,
+      "line": 724,
+      "end_line": 745,
       "kind": "problems-exercises",
       "ordinal": 8,
-      "source_sha256": "9b8962af8c2111fdbd3e845fc17e31edaba714882d0d605441bf9243d9f7acb0",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "source_sha256": "d72842e97b370da71cab7634d80bb534077f47e1228e3a76cb98a77fbb7b0bb3",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "What current is needed in the solenoid of the preceding problem, with 10 000 turns per meter, to produce a magnetic field $$10^4$$ times Earth's field of $$5.00\\times10^{-5}\\ \\tex…",
       "has_solution": true,
       "missing_labels": [
@@ -3030,33 +3027,30 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "concern",
+      "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:8",
-        "verdict": "concern",
+        "source_sha256": "d72842e97b370da71cab7634d80bb534077f47e1228e3a76cb98a77fbb7b0bb3",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The target field is a dimensionless factor of 10^4 times Earth’s magnetic field, and solving B = mu_0 n I gives the correct current. However, the target-field equation incorrectly assigns units A/m to the multiplier and T·m/A to Earth’s field. Those are not the physical quantities specified in the problem, even though their artificially complementary units multiply to teslas.",
-        "calculation_check": "The physically correct target is B = (10^4)(5.00 × 10^−5 T) = 0.500 T. Consequently I = 0.500/[(4π × 10^−7)(10^4)] = 39.7887 A, consistent with 39.8 A.",
-        "assumptions": "The preceding ideal long air-core solenoid, with n = 10,000 m^−1. The requested field-strength ratio is dimensionless.",
-        "notes": "Correct numerical current, but the displayed target-field derivation assigns incorrect physical units to both factors.",
-        "source_sha256": "9b8962af8c2111fdbd3e845fc17e31edaba714882d0d605441bf9243d9f7acb0",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "notes": "Correct 39.8 A. Fixed: the target field is written as 10⁴ × (5.00×10⁻⁵ T); the factors previously carried spurious A/m and T·m/A units.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch21-23)",
+        "supersedes_verdict": "appropriate",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:9",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 745,
-      "end_line": 787,
+      "line": 747,
+      "end_line": 789,
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "02fcb776c4733cf95817cff5a3f5a12370677867ac350b09abb30ba875736cae",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "How far from the starter cable of a car, carrying 150 A, must you be to experience a field less than the Earth's $$\\left( 5.00 \\times 10^{-5} \\text{T}\\right)$$ ? Assume a long str…",
       "has_solution": true,
       "missing_labels": [],
@@ -3069,30 +3063,30 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:9",
+        "source_sha256": "02fcb776c4733cf95817cff5a3f5a12370677867ac350b09abb30ba875736cae",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "appropriate",
         "confidence": "medium",
         "reasoning_check": "The wire field decreases as 1/r, so solving equality with Earth’s field establishes the distance threshold, and greater distances give a smaller cable field. The strategy states this correctly. The final wording ‘at least’ includes the equality boundary; strictly the requested inequality requires r greater than the threshold. This does not materially change the rounded distance estimate. Ferromagnetic steel can redirect static magnetic flux, but the specific claims about typical dashboard distances and aluminum-bodied cars are not established here.",
         "calculation_check": "r_threshold = (4π × 10^−7)(150)/(2π × 5.00 × 10^−5) = 0.600 m. At exactly that distance the two field magnitudes are equal; at 1.20 m the cable field is half Earth’s field, confirming the inequality direction.",
         "assumptions": "The stipulated isolated long straight wire model, with distance measured perpendicular to it. This compares the cable’s field magnitude with Earth’s, rather than requiring the total vector field to be smaller than Earth’s.",
         "notes": "Correct 0.600 m threshold; strictly require r > 0.600 m. Automotive placement and shielding generalizations remain unverified.",
-        "source_sha256": "02fcb776c4733cf95817cff5a3f5a12370677867ac350b09abb30ba875736cae",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:10",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 789,
-      "end_line": 833,
+      "line": 791,
+      "end_line": 835,
       "kind": "problems-exercises",
       "ordinal": 10,
       "source_sha256": "9ecfdff0c640362d1ddd3e57785b1c9045fbb923988735a20affd6e25fae1b62",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Measurements affect the system being measured, such as the current loop in [[Figure 8]](/contents/ch22MagneticForceOnACurrentCarryingConductor.md#Figure8). (a) Estimate the field…",
       "has_solution": true,
       "missing_labels": [],
@@ -3105,30 +3099,30 @@
       "review_status": "concern",
       "review": {
         "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:10",
+        "source_sha256": "9ecfdff0c640362d1ddd3e57785b1c9045fbb923988735a20affd6e25fae1b62",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
         "verdict": "concern",
         "confidence": "high",
         "reasoning_check": "The solution correctly treats the explicitly requested circular-loop estimate and requires its field to be less than 10^−4 of the external field. Both requested calculations are correct. The discussion’s prescription of a smaller loop carrying less current is incomplete and misleading: the center field scales as I/r, so shrinking the radius increases the perturbing field at fixed current. Reducing perturbation requires reducing I/r; if the loop is made smaller, current must decrease by a greater fractional amount. A smaller loop is not itself required. The linked rectangular-loop figure was inspected; the problem explicitly authorizes the circular approximation.",
         "calculation_check": "With r = 0.100 m, B_loop = (4π × 10^−7)(5.00)/(0.200) = 3.14159 × 10^−5 T. Since 0.0100% = 10^−4, the external field must exceed 0.314159 T. Halving r at unchanged current doubles B_loop, directly checking the discussion’s design advice.",
         "assumptions": "Single circular air-core loop; its center field represents the perturbation magnitude; the allowed fractional change refers to the added field vector relative to the external field. The quoted minimum is a rounded threshold for a strict inequality.",
         "notes": "Both numerical answers are correct. The discussion must use the ratio I/r when explaining how loop size and current affect perturbation.",
-        "source_sha256": "9ecfdff0c640362d1ddd3e57785b1c9045fbb923988735a20affd6e25fae1b62",
-        "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
-        "reviewer": "Codex CLI paced physics reasoning review",
-        "run_id": "20261023T130214Z-f8eb11",
-        "reviewed_at": "2026-10-24T01:58:17+00:00"
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
       },
-      "previous_review_count": 1
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:11",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 835,
-      "end_line": 862,
+      "line": 837,
+      "end_line": 864,
       "kind": "problems-exercises",
       "ordinal": 11,
-      "source_sha256": "2d46d59c21c0ea55ab07ff3f54c84c2407949640c3ace87fd756201cb041f37b",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "source_sha256": "cd640db1f415fe1d6a68bbdee64734afd2441d77d74979097b28b725daacaedf",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "[[Figure 6]](#Figure6) shows a long straight wire just touching a loop carrying a current $${I}_{1} $$ . Both lie in the same plane. (a) What direction must the current $${I}_{2}…",
       "has_solution": true,
       "missing_labels": [
@@ -3138,24 +3132,34 @@
       ],
       "markup_flags": [],
       "automatic": {
-        "skipped": 7,
+        "skipped": 8,
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:11",
+        "source_sha256": "cd640db1f415fe1d6a68bbdee64734afd2441d77d74979097b28b725daacaedf",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct ratio I1/I2 = 1/π. Fixed to match Figure 6, where I1 is clockwise: the loop's central field is into the page, so I2 must run from lower left to upper right. Above the loop the net field tilts toward the wire with an out-of-page component. Both directions were reversed before.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch21-23)",
+        "supersedes_verdict": "appropriate",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:12",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 864,
-      "end_line": 891,
+      "line": 866,
+      "end_line": 893,
       "kind": "problems-exercises",
       "ordinal": 12,
       "source_sha256": "687c7941ca9007bc34b5a55688c1caea23c1d00ef1166948f91292bb91794dd6",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[Figure 5]](../contents/ch22MagneticForceBetweenTwoParallelConductors#Figure5)(a…",
       "has_solution": true,
       "missing_labels": [
@@ -3169,20 +3173,33 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:12",
+        "source_sha256": "687c7941ca9007bc34b5a55688c1caea23c1d00ef1166948f91292bb91794dd6",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The referenced SVG confirms an equilateral triangle of side 0.100 m, with 5.00 A out of the page at the top and 10.0 A and 20.0 A into the page at the bottom left and right. Applying the right-hand rule independently gives the three component vectors stated in the solution. Their horizontal components reinforce, while the unequal bottom currents leave a net upward component.",
+        "calculation_check": "With r = 0.100/√3 = 0.057735 m, the component pairs are (1.73205, 0), (1.73205, −3.00000), and (3.46410, 6.00000), each in units of 10^−5 T. Their sum is (6.92820, 3.00000) × 10^−5 T, with magnitude 7.54983 × 10^−5 T and angle 23.413° above rightward horizontal.",
+        "assumptions": "Long straight parallel wires perpendicular to the figure, negligible wire radii and end effects, and magnetic-field superposition in air/vacuum.",
+        "notes": "All figure givens, vector directions, component sums, magnitude, and angle are verified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:13",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 893,
-      "end_line": 912,
+      "line": 895,
+      "end_line": 914,
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "da85099e3818cc3f819d1e041e8831d84a14a5fbb1037392d746114995738ca5",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Find the magnitude and direction of the magnetic field at the point equidistant from the wires in [[Figure 5]](../contents/ch22MagneticForceBetweenTwoParallelConductors#Figure5)(b…",
       "has_solution": true,
       "missing_labels": [
@@ -3196,20 +3213,33 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:13",
+        "source_sha256": "da85099e3818cc3f819d1e041e8831d84a14a5fbb1037392d746114995738ca5",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The referenced SVG confirms the 0.200-m square, two upper 10.0-A out-of-page currents, and two lower 5.00-A into-page currents. At the center, reflection symmetry cancels the vertical components within each pair. The right-hand rule makes all four horizontal components point rightward, as stated.",
+        "calculation_check": "Each wire is r = 0.200/√2 m from the center. Its horizontal contribution is [μ0 I/(2πr)]/√2 = μ0 I/(2πs). This gives 1.00 × 10^−5 T for each upper wire and 5.00 × 10^−6 T for each lower wire, totaling 3.00 × 10^−5 T rightward.",
+        "assumptions": "Long straight wires normal to the square, negligible end effects, uniform surrounding permeability, and exact square symmetry.",
+        "notes": "The stated field magnitude and rightward direction follow from the verified figure and vector addition.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:14",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 914,
-      "end_line": 929,
+      "line": 916,
+      "end_line": 931,
       "kind": "problems-exercises",
       "ordinal": 14,
       "source_sha256": "851d18b2bd1b67d72404a623928bbe3875abd33bcf4bec6cd39e61a9fa76d3cf",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "What current is needed in the top wire in [[Figure5]](../contents/ch22MagneticForceBetweenTwoParallelConductors#Figure5)(a) to produce a field of zero at the point equidistant fro…",
       "has_solution": true,
       "missing_labels": [
@@ -3220,20 +3250,33 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:14",
+        "source_sha256": "851d18b2bd1b67d72404a623928bbe3875abd33bcf4bec6cd39e61a9fa76d3cf",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At the equilateral triangle's centroid, the two equal bottom into-page currents produce equal and opposite vertical components and reinforcing rightward components. An into-page top current produces a leftward field. Because each bottom field contributes half its magnitude horizontally, their sum equals the field from one equal current at the top. Thus 10.0 A into the page cancels the bottom pair.",
+        "calculation_check": "The common distance is 0.100/√3 m. Each 10.0-A wire produces 3.4641 × 10^−5 T. The bottom pair contributes 2(3.4641 × 10^−5)(1/2) = 3.4641 × 10^−5 T rightward, exactly canceled by the top wire's leftward field.",
+        "assumptions": "Equilateral geometry verified in the referenced SVG; long straight parallel wires and negligible end effects.",
+        "notes": "Both the equal-vector symmetry argument and the explicit cancellation give 10.0 A into the page.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:15",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 931,
-      "end_line": 972,
+      "line": 933,
+      "end_line": 974,
       "kind": "problems-exercises",
       "ordinal": 15,
       "source_sha256": "1c689bf39e3d3da4e45e67b282bf0ad833162615ab03b898943232c92769e20f",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "Calculate the size of the magnetic field 20 m below a high voltage power line. The line carries 450 MW at a voltage of 300 000 V.",
       "has_solution": true,
       "missing_labels": [],
@@ -3243,43 +3286,66 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:15",
+        "source_sha256": "1c689bf39e3d3da4e45e67b282bf0ad833162615ab03b898943232c92769e20f",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The strategy and numerical field are correct for a single long conductor under P = IV. The discussion incorrectly identifies the calculated value as the peak field for an AC transmission line. If power is average real power and voltage is RMS, unity power factor gives RMS current and therefore RMS magnetic field. The problem does not specify AC waveform, phase arrangement, power factor, or frequency, so a real line's peak field and a 60-Hz frequency cannot be established from the givens.",
+        "calculation_check": "I = 450 × 10^6/(300 × 10^3) = 1500 A, and B = (2 × 10^−7)(1500)/20 = 1.50 × 10^−5 T. For sinusoidal single-phase AC with unity power factor and RMS voltage, this is 15.0 μT RMS; the peak is √2 times larger, 21.2 μT. The comparison 15/50 = 0.30 is consistent with the stated representative Earth-field magnitude.",
+        "assumptions": "Single isolated straight conductor much longer than its distance from the observation point; return-conductor fields neglected. P = IV requires DC quantities or suitable AC conventions and unity power factor.",
+        "notes": "The ideal-wire calculation is correct. The discussion's AC peak claim confuses RMS and peak values and assumes unspecified operating details.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:16",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 974,
-      "end_line": 1041,
+      "line": 976,
+      "end_line": 1045,
       "kind": "problems-exercises",
       "ordinal": 16,
-      "source_sha256": "8983b464e9abc63bb374285f563baf5fe6f137c3576b0b150628cb7e29c7ed14",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "source_sha256": "39d976e1b9d60679d158cf0d68b477874ae880193ac0c7ebbee4fd8299f36f6f",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) A pendulum is set up so that its bob (a thin copper disk) swings between the poles of a permanent magnet as shown in [[Figure 7]](#Figure7). What is th…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 25,
-        "checked": 8
+        "skipped": 33,
+        "checked": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:16",
+        "source_sha256": "39d976e1b9d60679d158cf0d68b477874ae880193ac0c7ebbee4fd8299f36f6f",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "notes": "Part (a) magnitude (9.09×10⁻⁷ N) is correct; its upward direction depends on the photo's orientation and was not rechecked. Fixed (b): the bob's acceleration at the bottom is centripetal, v²/L = (5.88 m²/s²)/L, with tension T = mg + mv²/L − F_B. It is not F_B/m; the string length is not given.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch21-23)",
+        "supersedes_verdict": "appropriate",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:17",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1043,
-      "end_line": 1102,
+      "line": 1047,
+      "end_line": 1106,
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "da83c0f2138cbe8111cfa7a8138ade4d86c9c17b3d07b43a0495fb8c2e184e53",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) What voltage will accelerate electrons to a speed of $$ 6.00 \\times 10^{7} \\text{m/s} $$ ? (b) Find the radius of curvature of the path of a _proton_ a…",
       "has_solution": true,
       "missing_labels": [],
@@ -3289,20 +3355,33 @@
         "checked": 10
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:17",
+        "source_sha256": "da83c0f2138cbe8111cfa7a8138ade4d86c9c17b3d07b43a0495fb8c2e184e53",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Within the chapter's nonrelativistic model, acceleration from rest gives kinetic energy e|ΔV|, and perpendicular magnetic motion gives r = p/(eB). Equal accelerating-voltage magnitudes give equal kinetic energies, so the proton is slower but has greater momentum, with radius ratio √(mp/me). All requested quantities and the mass-dependence explanation are correctly addressed. The electron speed is about 0.20c, so these results should be understood as classical approximations.",
+        "calculation_check": "Using the stated constants gives V = 10248.75 V, vp = 1.40137 × 10^6 m/s, rp = 0.0292536 m, re = 6.8325 × 10^−4 m, and rp/re = 42.8153. These agree with the solution. Relativistic electron energy instead gives approximately 10567 V, a 3.1% voltage correction; this is a model limitation rather than an arithmetic discrepancy.",
+        "assumptions": "Particles start essentially at rest, encounter accelerating potential differences of equal magnitude with the appropriate opposite polarities, and enter the magnetic field perpendicularly. Nonrelativistic energy and momentum are used.",
+        "notes": "Correct classical derivation, calculations, and radius comparison. Relativity would increase the required electron voltage by about 3%.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:18",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1104,
-      "end_line": 1151,
+      "line": 1108,
+      "end_line": 1155,
       "kind": "problems-exercises",
       "ordinal": 18,
       "source_sha256": "a58f0c99bbfbcdecef5a68967d7175fc0a105362cc2fb99a6812c8c8b6259b27",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** Find the radius of curvature of the path of a 25.0-MeV proton moving perpendicularly to the 1.20-T field of a cyclotron.",
       "has_solution": true,
       "missing_labels": [],
@@ -3312,20 +3391,33 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:18",
+        "source_sha256": "a58f0c99bbfbcdecef5a68967d7175fc0a105362cc2fb99a6812c8c8b6259b27",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The classical relation r = √(2mK)/(qB) correctly yields approximately 60 cm. Relativistic corrections to this radius are small, consistent with treating the calculation as approximate. However, the discussion misidentifies the frequency involved in cyclotron synchronism. An ordinary cyclotron has a static magnetic field; increasing relativistic momentum lowers the orbital angular frequency qB/(γm). It is the accelerating electric-field frequency that must track this change in a synchrocyclotron, not a 'magnetic field frequency.'",
+        "calculation_check": "K = 25.0 × 10^6(1.60 × 10^−19) = 4.00 × 10^−12 J. The classical speed is 6.92 × 10^7 m/s and radius is 0.60201 m. Using p = √(2mK + K²/c²) gives r = 0.60601 m, only about 0.66% larger. γ ≈ 1.02665, so the orbital frequency is about 2.6% below its nonrelativistic value.",
+        "assumptions": "25.0 MeV denotes kinetic energy; the proton moves perpendicular to a uniform field with negligible energy loss. No external benchmark for what cyclotron sizes are 'typical' was independently checked.",
+        "notes": "The approximate radius is sound. The discussion incorrectly refers to varying magnetic-field frequency instead of the accelerating RF frequency.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:19",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1153,
-      "end_line": 1209,
+      "line": 1157,
+      "end_line": 1213,
       "kind": "problems-exercises",
       "ordinal": 19,
       "source_sha256": "772af0e2ff8c3786d24a2acdee4e93e8049b6f112fc8263f9da87c378b1c4842",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** To construct a nonmechanical water meter, a 0.500-T magnetic field is placed across the supply water pipe to a home and the Hall voltage is recorded. (a) F…",
       "has_solution": true,
       "missing_labels": [],
@@ -3335,20 +3427,33 @@
         "checked": 12
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:19",
+        "source_sha256": "772af0e2ff8c3786d24a2acdee4e93e8049b6f112fc8263f9da87c378b1c4842",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Transverse charge separation establishes an electric field balancing the magnetic force, giving ε = Bvd for the stated perpendicular geometry. Combining this with Q = πd²v/4 gives Q = πεd/(4B). At fixed Q and B, ε = 4BQ/(πd), so voltage decreases inversely with diameter, correctly explaining part (b). Conducting-fluid operation without moving mechanical parts is consistent with this mechanism.",
+        "calculation_check": "v1 = 0.0600/(0.500 × 0.0300) = 4.00 m/s. Q = π(0.0300)²(4.00)/4 = 0.00282743 m³/s = 2.82743 L/s. At d2 = 0.100 m, v2 = 0.360 m/s and ε2 = 0.500 × 0.360 × 0.100 = 0.0180 V. Equivalently, ε2/ε1 = d1/d2 = 0.300.",
+        "assumptions": "Full conducting pipe, uniform transverse magnetic field, electrodes across a perpendicular diameter, negligible measurement loading, and a flow profile for which the measured voltage represents the mean speed. Practical conductivity and electrode limitations are neglected.",
+        "notes": "Both numerical answers and the inverse-diameter explanation are correct for the ideal electromagnetic flow-meter model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:20",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1211,
-      "end_line": 1264,
+      "line": 1215,
+      "end_line": 1268,
       "kind": "problems-exercises",
       "ordinal": 20,
       "source_sha256": "7690dbffbbb21fd031e9400e55ad701fce68db86e81a94f4e49849c49cac52d8",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) Using the values given for an MHD drive in the problems for [Magnetic Force on a Current-Carrying Conductor](../contents/ch22MagneticForceOnACurrentCar…",
       "has_solution": true,
       "missing_labels": [],
@@ -3358,20 +3463,33 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:20",
+        "source_sha256": "7690dbffbbb21fd031e9400e55ad701fce68db86e81a94f4e49849c49cac52d8",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The linked MHD exercise confirms I = 100 A, B = 2.00 T, and effective transverse current-path length 0.250 m. Its ideal force is 50.0 N. Balancing that axial force against pressure forces gives ΔP = F/A, so both requested answers are correct. The discussion overgeneralizes this particular example into a fundamental low-pressure/low-thrust limitation relative to propellers. The calculation establishes no such general bound or comparison without specifying current, field, geometry, available power, and losses.",
+        "calculation_check": "F = 2.00 × 100 × 0.250 = 50.0 N. A = π(0.125)² = 0.0490874 m², giving ΔP = 1018.59 Pa and ΔP/(1.01 × 10^5 Pa) = 0.0100851, about 1.01%. In the same model, ΔP = 4BI/(πD), explicitly showing that the result depends on design parameters.",
+        "assumptions": "The linked exercise's effective current path equals the diameter, the resulting force acts along the duct, and force is uniformly distributed. F/A represents an ideal static pressure rise; acceleration and hydraulic losses are neglected. The Yamato 1 history and broad practical-efficiency claims were not independently verified.",
+        "notes": "Parts (a) and (b) are correct. The discussion's claimed fundamental comparison with propellers is unsupported by the example; historical claims remain unchecked.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:21",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1266,
-      "end_line": 1320,
+      "line": 1270,
+      "end_line": 1324,
       "kind": "problems-exercises",
       "ordinal": 21,
       "source_sha256": "0e3e8380e5e6e530ed388334ad448e294a4c841a84933949809ef43c2eb1f44b",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) Calculate the maximum torque on a 50-turn, 1.50 cm radius circular current loop carrying $$50 \\text{μA} $$ in a 0.500-T field. (b) If this coil is to b…",
       "has_solution": true,
       "missing_labels": [],
@@ -3381,20 +3499,33 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:21",
+        "source_sha256": "0e3e8380e5e6e530ed388334ad448e294a4c841a84933949809ef43c2eb1f44b",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The maximum magnetic torque is NIπr²B. For a tangential spring stretched through the specified arc, extension is rsφ and restoring torque is krs²φ. Equating this to magnetic torque gives the stated force constant. Using maximum torque at full-scale deflection requires meter geometry maintaining that torque as the coil turns, consistent with the intended constant-torque galvanometer model described in the surrounding section.",
+        "calculation_check": "A = π(0.0150)² = 7.06858 × 10^−4 m² and τmax = 50(50 × 10^−6)A(0.500) = 8.83573 × 10^−7 N·m. With φ = π/3 and rs = 0.0100 m, k = τmax/[rs²φ] = 8.4375 × 10^−3 N/m, consistent with 8.42 × 10^−3 N/m after intermediate rounding. Torque divided by extension times moment arm has units N/m.",
+        "assumptions": "Negligible initial spring preload, Hooke-law response, tangential force with constant moment arm, extension equal to arc length, and magnetic geometry maintaining maximum torque over the deflection. A fixed uniform-field orientation would require an additional angular factor.",
+        "notes": "Torque and spring constant are correct for the intended constant-torque galvanometer and arc-extension model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:22",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1322,
-      "end_line": 1370,
+      "line": 1326,
+      "end_line": 1374,
       "kind": "problems-exercises",
       "ordinal": 22,
       "source_sha256": "8653aedb6fdb1715a4455b159aa4846125b3a13eb94a4397ed31d8045057543e",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** A current balance used to define the ampere is designed so that the current through it is constant, as is the distance between wires. Even so, if the wires…",
       "has_solution": true,
       "missing_labels": [],
@@ -3403,20 +3534,33 @@
         "skipped": 17
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:22",
+        "source_sha256": "8653aedb6fdb1715a4455b159aa4846125b3a13eb94a4397ed31d8045057543e",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "With currents and spacing fixed, the long-wire force per unit length remains constant, so total force is proportional to the interacting length. Copper expansion therefore gives ΔF/F = αΔT. The solution correctly calculates total force rather than incorrectly changing force per unit length. Warming increases the force magnitude. The definition commentary should be read narrowly: changing the SI definition does not remove thermal sensitivity from this physical balance.",
+        "calculation_check": "The local thermal-expansion table gives copper α = 17 × 10^−6 per °C. For a 1°C increase, F'/F = 1.000017, so the percentage increase is 100(17 × 10^−6) = 0.0017% per °C = 17 × 10^−4% per °C. F/L is unchanged.",
+        "assumptions": "Long straight parallel wires with negligible end effects, freely expanding interacting lengths, fixed separation and currents, and small temperature changes over which α is approximately constant. Historical and modern SI-definition details were not independently checked against external standards.",
+        "notes": "The thermal-force relation and 0.0017% per °C result are correct. A modern current definition does not make an actual wire balance thermally immune.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:23",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1372,
-      "end_line": 1432,
+      "line": 1376,
+      "end_line": 1436,
       "kind": "problems-exercises",
       "ordinal": 23,
       "source_sha256": "c0a1d76aee276e09b84e3af8c4087ee58456b6d0d7ee5fe905e719444fe87009",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) Show that the period of the circular orbit of a charged particle moving perpendicularly to a uniform magnetic field is $$T=2\\pi m/\\left(qB\\right) $$ .…",
       "has_solution": true,
       "missing_labels": [],
@@ -3425,20 +3569,33 @@
         "skipped": 21
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:23",
+        "source_sha256": "c0a1d76aee276e09b84e3af8c4087ee58456b6d0d7ee5fe905e719444fe87009",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For perpendicular motion, |q|vB = mv²/r, so T = 2πr/v = 2πm/(|q|B), f = |q|B/(2πm), and angular speed = |q|B/m. These reproduce all three answers when q denotes charge magnitude. The inspected cyclotron figure supports acceleration twice per revolution. Energy independence holds in the stated classical model; relativistically, momentum is γmv and T = 2πγm/(|q|B), explaining loss of synchronization.",
+        "calculation_check": "qB/m has units (C·T)/kg = s⁻¹. Doubling speed doubles radius and circumference, leaving the classical period unchanged. Doubling B halves the period.",
+        "assumptions": "Uniform, static field; perpendicular velocity; nonzero charge; nonrelativistic motion; negligible losses. The displayed ω is angular speed. For signed charge, the angular-velocity vector is −qB_vector/m. The discussion's increasing mass refers to the older relativistic-mass convention, rather than changing invariant mass.",
+        "notes": "All requested results and the cyclotron explanation are correct under the nonrelativistic charge-magnitude convention. Relativistic energy dependence is appropriately acknowledged.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:24",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1434,
-      "end_line": 1473,
+      "line": 1438,
+      "end_line": 1477,
       "kind": "problems-exercises",
       "ordinal": 24,
       "source_sha256": "cef1839ab05a5bb3b0e659510c0d561dd90bb1451c19a33cf2d4828180748483",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** A cyclotron accelerates charged particles as shown in [[Figure 8]](#Figure8). Using the results of the previous problem, calculate the frequency of the acc…",
       "has_solution": true,
       "missing_labels": [],
@@ -3448,20 +3605,33 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:24",
+        "source_sha256": "cef1839ab05a5bb3b0e659510c0d561dd90bb1451c19a33cf2d4828180748483",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A proton returns to the gap after each half-orbit, requiring the accelerating voltage to reverse polarity after that interval. Thus the voltage completes one full cycle per orbit, rather than two, and its fundamental frequency is qB/(2πm). The solution uses the correct synchronization condition and explicitly limits energy independence to nonrelativistic motion.",
+        "calculation_check": "Using the stated constants gives f = (1.60×10⁻¹⁹)(1.20)/(2π×1.67×10⁻²⁷) = 1.8298×10⁷ Hz = 18.3 MHz. The corresponding period is approximately 54.7 ns, with gap crossings approximately 27.3 ns apart.",
+        "assumptions": "Fundamental-frequency operation, positive protons, uniform field, and nonrelativistic acceleration. In a synchrotron, RF synchronization follows revolution frequency v/circumference while the bending field follows momentum; actual frequency changes depend on the operating regime.",
+        "notes": "The 18.3-MHz answer and twice-per-orbit acceleration explanation are correct. The synchrotron remark is a simplified description of synchronization.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:25",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1475,
-      "end_line": 1530,
+      "line": 1479,
+      "end_line": 1534,
       "kind": "problems-exercises",
       "ordinal": 25,
       "source_sha256": "4fee75bad325e36e82bf95b85c5947be57e3ace5c1ec649835acb42c94ee0f8e",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) A 0.140-kg baseball, pitched at 40.0 m/s horizontally and perpendicular to the Earth's horizontal $$ 5.00 \\times 10^{-5} \\text{T} $$ field, has a 100-n…",
       "has_solution": true,
       "missing_labels": [],
@@ -3471,20 +3641,33 @@
         "checked": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:25",
+        "source_sha256": "4fee75bad325e36e82bf95b85c5947be57e3ace5c1ec649835acb42c94ee0f8e",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The initial magnetic force is perpendicular to both horizontal velocity and horizontal field, hence vertical. Its extremely small magnitude permits treating the speed and magnetic acceleration as constant over the flight. The magnetic contribution to the displacement is therefore approximately (qvB/2m)(x/v)². Both the numerical result and rejection of a useful pitching technique follow. The Magnus-effect explanation and order-of-magnitude comparison are consistent.",
+        "calculation_check": "F = 2.00×10⁻¹⁰ N, a = 1.4286×10⁻⁹ m/s², and t = 0.750 s give displacement 4.0179×10⁻¹⁰ m = 0.402 nm. A 5-cm break is approximately 1.24×10⁸ times larger.",
+        "assumptions": "The requested displacement is the additional displacement caused by magnetism. Gravity and aerodynamics are omitted from the flight approximation. Charge remains approximately constant; the exact charge-leakage timescale depends on conditions and is not established here.",
+        "notes": "The magnetic deflection and practical conclusion are correct. The claim of rapid charge dissipation is condition dependent, but the negligibility conclusion does not require it.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:26",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1532,
-      "end_line": 1566,
+      "line": 1536,
+      "end_line": 1570,
       "kind": "problems-exercises",
       "ordinal": 26,
       "source_sha256": "926ed166e7d76c4a3e7a1204f6d618b11f5827e1596115cde448ff57379f38c3",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** (a) What is the direction of the force on a wire carrying a current due east in a location where the Earth’s field is due north? Both are parallel to the g…",
       "has_solution": true,
       "missing_labels": [
@@ -3498,20 +3681,33 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:26",
+        "source_sha256": "926ed166e7d76c4a3e7a1204f6d618b11f5827e1596115cde448ff57379f38c3",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "With east, north, and up forming right-handed axes, eastward current crossed with northward field produces upward force. Setting IB equal to copper weight per length, ρ_mAg, gives the required cross section. The resistance and voltage gradients then follow from R/L = ρ_e/A and V/L = Iρ_e/A. All four parts are answered consistently.",
+        "calculation_check": "Using g = 9.80 m/s² gives F/L = 6.00×10⁻⁴ N/m, A = 6.8331×10⁻⁹ m², d = 93.2747 μm, R/L = 2.5172 Ω/m, and V/L = 50.3433 V/m. Heating is I²R/L = 1006.9 W/m, agreeing with the discussion.",
+        "assumptions": "Straight horizontal wire perpendicular to a uniform field, circular cross section, stated copper density and resistivity, and fixed 20.0-A current. Resistivity is treated at its reference temperature; sustained heating would invalidate that temperature assumption.",
+        "notes": "Directions, support condition, diameter, resistance, voltage, and heating estimate all check. The impracticality conclusion is supported by approximately 1 kW/m of heating.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:27",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1568,
-      "end_line": 1605,
+      "line": 1572,
+      "end_line": 1609,
       "kind": "problems-exercises",
       "ordinal": 27,
       "source_sha256": "8067025f62913f58754bf763f7d41858b3f03c9739945f2a7f056b9d2f87938d",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Integrated Concepts** One long straight wire is to be held directly above another by repulsion between their currents. The lower wire carries 100 A and the wire 7.50 cm above it…",
       "has_solution": true,
       "missing_labels": [
@@ -3525,20 +3721,33 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:27",
+        "source_sha256": "8067025f62913f58754bf763f7d41858b3f03c9739945f2a7f056b9d2f87938d",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Opposite currents repel, so the upper wire requires current opposite to the lower wire. Its weight per length divided by the lower wire's field gives the supporting current. The minimum current with Earth's field occurs when the wires are oriented so that Earth's field adds to the supporting magnetic field. Vertically, repulsion decreases with increasing separation and supplies a restoring response. A sideways displacement produces repulsion farther sideways, giving instability.",
+        "calculation_check": "The cross section gives weight per length 0.461905 N/m. The lower-wire field is 2.6667×10⁻⁴ T. Required currents are 1732.1 A without Earth's field and 1557.0 A with optimally aligned Earth's field, a 10.1% reduction. For sideways displacement x and height h, horizontal force per length is proportional to x/(x²+h²), confirming its destabilizing sign.",
+        "assumptions": "Long parallel wires, fixed currents, fixed lower wire, rigid transverse displacements, and negligible sag. Part (b) allows choosing wire orientation. Earth's field is uniform and contributes no displacement-dependent restoring gradient.",
+        "notes": "Both currents and the stable-vertical/unstable-horizontal classification are correct. The minimum-current result requires the stated favorable orientation.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:28",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1607,
-      "end_line": 1657,
+      "line": 1611,
+      "end_line": 1661,
       "kind": "problems-exercises",
       "ordinal": 28,
       "source_sha256": "40b4960555cbc1dda353eed84377510c95e7d84d27d1b3a1ffe1cc890f8e352d",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Unreasonable Results** (a) Find the charge on a baseball, thrown at 35.0 m/s perpendicular to the Earth’s $$ 5.00 \\times 10^{-5} \\text{T} $$ field, that experiences a 1.00-N mag…",
       "has_solution": true,
       "missing_labels": [],
@@ -3548,20 +3757,33 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:28",
+        "source_sha256": "40b4960555cbc1dda353eed84377510c95e7d84d27d1b3a1ffe1cc890f8e352d",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The required charge magnitude is F/(vB), and the conclusion that a baseball cannot retain that separated charge is sound. The discussion then incorrectly generalizes the baseball result to charged particles: strong fields or high-energy particles are not prerequisites for substantial magnetic deflection. Small-mass particles can be strongly deflected in Earth's field at modest kinetic energies, and increasing momentum generally increases their curvature radius.",
+        "calculation_check": "q = 1/(35.0×5.00×10⁻⁵) = 571.43 C, equivalent in magnitude to 3.57×10²¹ elementary charges. As a counterexample to the discussion, an electron at 1.00×10⁶ m/s in the stated field has radius 0.114 m and acceleration 8.78×10¹² m/s², despite kinetic energy of only about 2.84 eV.",
+        "assumptions": "Perpendicular motion and charge magnitude. The counterexample concerns magnetic dynamical effects, rather than a macroscopic 1-N force on one particle. Numerical lightning and typical-capacitor comparisons are illustrative external claims and were not independently verified.",
+        "notes": "The 571-C result and baseball impracticality are correct. The discussion misleadingly claims that significant magnetic effects on charged particles require strong fields or high energies.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:29",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1659,
-      "end_line": 1718,
+      "line": 1663,
+      "end_line": 1722,
       "kind": "problems-exercises",
       "ordinal": 29,
       "source_sha256": "d6481140c6fe8bbb65f621ab249e72f5308d5c296eee85121c974d04be97d35d",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Unreasonable Results** A charged particle having mass $$ 6.64 \\times 10^{-27} \\text{kg} $$ (that of a helium atom) moving at $$ 8.70 \\times 10^{5} \\text{m/s} $$ perpendicular to…",
       "has_solution": true,
       "missing_labels": [],
@@ -3571,20 +3793,33 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:29",
+        "source_sha256": "d6481140c6fe8bbb65f621ab249e72f5308d5c296eee85121c974d04be97d35d",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Magnetic centripetal balance determines charge magnitude mv/(rB). The resulting approximately 1.50 elementary charges is inconsistent with an ordinary isolated helium ion. The solution correctly compares the singly and doubly ionized helium radii. It is reasonable to identify the supplied radius as inconsistent while holding the other givens fixed; the calculation alone cannot establish which measured quantity would actually be wrong.",
+        "calculation_check": "|q| = (6.64×10⁻²⁷)(8.70×10⁵)/(0.0160×1.50) = 2.407×10⁻¹⁹ C = 1.5044e using the stated e. Expected radii are 24.07 mm for |q| = e and 12.035 mm for |q| = 2e. The speed is only about 0.00290c, so relativity cannot explain the discrepancy.",
+        "assumptions": "Ordinary isolated helium species, uniform field, perpendicular velocity, negligible other forces, and classical momentum. Orbit radius alone determines charge magnitude, not sign. Integer-charge statements are interpreted in the ordinary-ion context.",
+        "notes": "The calculation and quantization diagnosis are correct. The inconsistency concerns the combination of givens; radius is not uniquely identifiable as the erroneous measurement.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:30",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1720,
-      "end_line": 1771,
+      "line": 1724,
+      "end_line": 1775,
       "kind": "problems-exercises",
       "ordinal": 30,
       "source_sha256": "7bfcaf9cf4a8dcdb94bb8816579152d4ce7b37bd933eb27d6b7d79d199f3d4b1",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Unreasonable Results** An inventor wants to generate 120-V power by moving a 1.00-m-long wire perpendicular to the Earth’s $$ 5.00 \\times 10^{-5} \\text{T} $$ field. (a) Find the…",
       "has_solution": true,
       "missing_labels": [],
@@ -3594,20 +3829,33 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:30",
+        "source_sha256": "7bfcaf9cf4a8dcdb94bb8816579152d4ce7b37bd933eb27d6b7d79d199f3d4b1",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The motional-emf calculation is correct for a wire aligned with v×B. Moving a one-meter generator wire at the resulting speed is an impractical engineering proposal. However, 0.008c does not violate any physical speed limit for macroscopic matter, so 'no macroscopic object can move this fast' is an incorrect physical explanation. The discussion also overgeneralizes: Earth's weak field does not fundamentally prohibit useful emf when conductor length and geometry differ.",
+        "calculation_check": "v = 120/(5.00×10⁻⁵×1.00) = 2.40×10⁶ m/s = 0.00800c. Classical kinetic energy per unit moving mass is approximately 2.88×10¹² J/kg, supporting the engineering objection without asserting physical impossibility.",
+        "assumptions": "Uniform field and mutually perpendicular wire, velocity, and field, giving maximum emf. The calculation establishes emf; delivered power additionally requires a circuit and load. The quoted spacecraft speed limit was not independently verified and has no specified reference frame.",
+        "notes": "The required speed is correct. The discussion confuses impracticality with physical impossibility and supplies an unverified universal spacecraft-speed comparison.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:31",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1773,
-      "end_line": 1825,
+      "line": 1777,
+      "end_line": 1829,
       "kind": "problems-exercises",
       "ordinal": 31,
       "source_sha256": "d3b16384cacba83c789a6deef975029f08330ff65a62f7519564643738a291a4",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Unreasonable Results** Frustrated by the small Hall voltage obtained in blood flow measurements, a medical physicist decides to increase the applied magnetic field strength to g…",
       "has_solution": true,
       "missing_labels": [],
@@ -3617,20 +3865,33 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:31",
+        "source_sha256": "d3b16384cacba83c789a6deef975029f08330ff65a62f7519564643738a291a4",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Transverse charge equilibrium gives E = vB and voltage Bvd, so the field calculation is correct. Requiring 0.500 V directly from this small vessel is an unreasonable medical design target. However, a continuous-field record cannot establish the claimed upper limit on every human-produced field: pulsed fields are a separate category. The final answer incorrectly expands the continuous-field comparison into an unrestricted record claim.",
+        "calculation_check": "B = 0.500/(0.300×0.0150) = 111.11 T. A 1-T field gives 4.50 mV, demonstrating why amplification is useful. The surrounding repository's contents/ch23MotionalEmf.md discusses 198-T fields using specialized pulsed techniques, conflicting with the unrestricted assertion here.",
+        "assumptions": "Ideal electromagnetic flowmeter, transverse field, representative flow speed, and electrodes spanning the diameter along v×B. Practical sustained medical operation is distinguished from short laboratory pulses. External field records and quoted MRI ranges were not independently verified.",
+        "notes": "The 111-T result and medical impracticality are sound. Claims that this exceeds every human-produced field or any achievable field improperly conflate continuous and pulsed operation.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:32",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1827,
-      "end_line": 1882,
+      "line": 1831,
+      "end_line": 1886,
       "kind": "problems-exercises",
       "ordinal": 32,
       "source_sha256": "e465356a019d163a3d9cc3527c0e1ae7d76221401b404fba562286b2fb858358",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Unreasonable Results** A surveyor 100 m from a long straight 200-kV DC power line suspects that its magnetic field may equal that of the Earth and affect compass readings. (a) C…",
       "has_solution": true,
       "missing_labels": [],
@@ -3640,20 +3901,33 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:32",
+        "source_sha256": "e465356a019d163a3d9cc3527c0e1ae7d76221401b404fba562286b2fb858358",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The isolated long-wire model correctly requires 25.0 kA to equal the specified Earth-field magnitude. The subsequent reassurance about compasses does not follow: a much smaller transverse field can produce a meaningful angular error. Cancellation depends on return-path geometry, separation, and currents, none of which are specified. Neither the field equation nor P = IV establishes a universal maximum transmission capacity.",
+        "calculation_check": "I = Br/(2×10⁻⁷) = 25,000 A and nominal P = VI = 5.00 GW. For comparison within the same single-wire model, 1000 A produces 2.00 μT at 100 m. If transverse to a 50.0-μT horizontal Earth field, it changes heading by arctan(2/50) = 2.29°, despite being only 4% as strong.",
+        "assumptions": "Long isolated straight conductor for part (a); interpreting 200 kV as the relevant circuit voltage for the nominal power estimate. The compass counterexample uses a permitted transverse horizontal field orientation. Actual return-conductor geometry is unavailable; transmission-capacity and configuration claims were not externally verified.",
+        "notes": "The 25-kA and nominal 5-GW calculations check. The categorical claims of negligible compass error at 100 m and impossible transmission capacity are unsupported.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:33",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1884,
-      "end_line": 1941,
+      "line": 1888,
+      "end_line": 1945,
       "kind": "problems-exercises",
       "ordinal": 33,
       "source_sha256": "36565584f9347b6afa38b6ce91f842b2480415fe12ea22899db78c572e5873dd",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Construct Your Own Problem** Consider a mass separator that applies a magnetic field perpendicular to the velocity of ions and separates the ions based on the radius of curvatur…",
       "has_solution": true,
       "missing_labels": [
@@ -3665,20 +3939,33 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:33",
+        "source_sha256": "36565584f9347b6afa38b6ce91f842b2480415fe12ea22899db78c572e5873dd",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "For genuinely equal entrance speeds, r = mv/(qB) makes radius proportional to mass, and semicircular trajectories from a common entrance have detector separation 2Δr. Those calculations are correct. The constructed preparation is incomplete: equal-charge ions accelerated from rest through the same potential receive equal kinetic energies, not equal speeds. Equal entrance speeds require a velocity selector, different accelerating potentials, or specifically chosen unequal initial conditions, none of which is supplied.",
+        "calculation_check": "Using unrounded masses gives B = 0.49385 T, r235 = 0.500×235/238 = 0.493697 m, and separation 0.012605 m. The reported 1.2 cm is consistent with rounding intermediate radii. With common-potential acceleration from rest instead, r235/r238 = sqrt(235/238), yielding separation 0.006323 m when r238 = 0.500 m.",
+        "assumptions": "Singly positive ions, nonrelativistic motion, uniform perpendicular field, common entrance point, and semicircular detection geometry. The preparation concern uses ordinary acceleration from rest; specially tuned initial velocities could reconcile the wording but are unspecified. Purity and staging claims cannot be determined without beam-width and collection information.",
+        "notes": "The equal-speed separation calculation is correct. The common-potential preparation does not produce equal speeds from rest; the example needs an explicit selection or preparation condition.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:34",
       "chapter": 22,
       "file": "contents/ch22MoreApplicationsOfMagnetism.md",
-      "line": 1943,
-      "end_line": 2011,
+      "line": 1947,
+      "end_line": 2015,
       "kind": "problems-exercises",
       "ordinal": 34,
       "source_sha256": "bb1198df49a38b77ccde1504458673b9e1604a22cbb88e5c3550a9225a7c13f5",
-      "file_sha256": "0e6a84e542e8babe1492432f502f782ce8e4a57cb9e1c729547f5285823c76a8",
+      "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
       "preview": "**Construct Your Own Problem** Consider using the torque on a current-carrying coil in a magnetic field to detect relatively small magnetic fields (less than the field of the Eart…",
       "has_solution": true,
       "missing_labels": [
@@ -3690,9 +3977,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22MoreApplicationsOfMagnetism.md::problems-exercises:34",
+        "source_sha256": "bb1198df49a38b77ccde1504458673b9e1604a22cbb88e5c3550a9225a7c13f5",
+        "file_sha256": "768daff36db7ded7f7b6032b91a0ab7e3408d26d5d189bb168fe354b7e51a7b5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The maximum external torque is NIAB, and the center field of coincident circular turns is Nμ₀I/(2r); both calculations are correct. The measurement discussion omits essential distinctions. An isolated coil has no net self-torque, so its center field exceeding the target does not itself imply a torque error; interactions with responsive surroundings matter. Changing only coil current to obtain zero torque is not a useful magnitude-null method: zero current gives zero torque for every field. Fiber length alone also cannot establish a measurable twist.",
+        "calculation_check": "τmax = 100×0.0100×π×0.0500²×10⁻⁶ = 7.854×10⁻⁹ N·m. Bcenter = 100×4π×10⁻⁷×0.0100/(2×0.0500) = 12.566 μT. Angular response is θ = τ/κ; for a circular fiber κ = Gπa⁴/(2L), requiring material and radius as well as length. At fixed orientation, τ = NIAB sinθ vanishes at I = 0 independently of B.",
+        "assumptions": "Closely grouped circular turns, uniform external field, maximum-torque orientation, and prescribed current. Instrument stiffness, noise, ambient-field rejection, and surrounding magnetic susceptibility are unspecified. The quoted torque sensitivity and claim that SQUIDs avoid the perturbation problem entirely were not independently established.",
+        "notes": "Torque and center-field numbers check. The proposed current-only null method is ineffective, and the self-field and torsion-fiber discussion does not adequately establish measurement performance.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T08:59:51+00:00",
+        "reviewed_at": "2026-10-24T09:00:27+00:00"
+      },
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch22TheHallEffect.md::worked-example:1",
@@ -3712,9 +4012,22 @@
         "skipped": 12
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::worked-example:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Transverse charge separation establishes E = vB, giving a diameter voltage V = Bdv. The inspected Figure 3 supplies the required mutually perpendicular geometry. The solution correctly uses the average velocity. Pulsating flow produces a varying voltage; alternating B modulates the signal and permits frequency-selective detection, although noise within the detection band remains.",
+        "calculation_check": "V = (0.100)(0.00400)(0.200) = 8.00 × 10^-5 V = 80.0 μV. T·m·m/s has units of volts.",
+        "assumptions": "Conducting blood, approximately uniform transverse field, appropriate electrode placement, negligible electrical loading, and the chapter's idealized relationship between voltage and average flow speed.",
+        "notes": "Correct model, geometry, conversions, and result. The discussion reasonably explains pulsation and selective detection.",
+        "source_sha256": "e91b422df98e2992dd53b9b990eb5d9545b6af88469e7f5f8ed7b7f5d6c9c640",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::conceptual-questions:1",
@@ -3737,9 +4050,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::conceptual-questions:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Combining I = n|q|wt v_d with |V_H| = Bw v_d eliminates width and gives n = IB/(|q|t|V_H|). This answers how measured electrical and geometric quantities determine carrier number density. Hall polarity identifies carrier sign in the assumed single-carrier model.",
+        "calculation_check": "n = 10.0/[(1.60 × 10^-19)(1.00 × 10^-4)(7.4 × 10^-6)] = 8.45 × 10^28 m^-3, consistent with the stated 8.4 × 10^28. The neighboring current chapter derives approximately 8.34 × 10^28 copper atoms/m^3 using its supplied density and molar mass.",
+        "assumptions": "Uniform rectangular conductor, perpendicular field, one dominant carrier population, known carrier charge magnitude, and the classical Hall coefficient R_H = 1/(nq). Multiple carrier populations and band-structure corrections can prevent a direct density interpretation.",
+        "notes": "Correct derivation and numerical illustration within the classical single-carrier model; voltage and charge magnitudes must be used consistently.",
+        "source_sha256": "7b70cc543d42c24f6a4590a2237418b9ce78a0b9f1bf5b6d695b49aa7255bc7b",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:1",
@@ -3760,9 +4086,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:1",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The transverse fluid voltage follows from balancing electric and magnetic forces, giving V = Bdv for the stated perpendicular flow and field. The calculation answers the problem. However, the discussion incorrectly identifies this voltage measurement as the mechanism used for MRI blood-flow measurements. MRI measures nuclear magnetic resonance signals; velocity can be encoded through motion-dependent spin phase in magnetic-field gradients, rather than by measuring the transverse Hall voltage.",
+        "calculation_check": "V = (5.00 × 10^-5)(2.50)(6.00) = 7.50 × 10^-4 V = 0.750 mV.",
+        "assumptions": "Conductive water, electrically isolated transverse voltage measurement, approximately uniform field, and the idealized average-flow calibration. Pipe-wall conductivity is unspecified.",
+        "notes": "Numerical answer is correct. The discussion conflates electromagnetic flow meters with MRI flow measurement.",
+        "source_sha256": "a5c9e7265192af66c184e454e51e0a01ee9795558e22e8940e394c9327ddfea1",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:2",
@@ -3783,9 +4122,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:2",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For transverse blood flow, the equilibrium electric field has magnitude vB, so the voltage across the diameter is Bdv. The conversions and substitution are correct. Electrodes contacting the vessel exterior can couple through conducting tissue without contacting blood directly; that arrangement still requires suitable tissue contact and does not imply a wholly noninvasive measurement.",
+        "calculation_check": "V = (0.200)(0.0260)(0.600) = 0.00312 V = 3.12 mV.",
+        "assumptions": "The field is perpendicular to flow, voltage is measured along v × B, tissue permits adequate electrode coupling, and electrical loading is negligible. The stated clotting benefit is qualitative rather than quantified.",
+        "notes": "Correct transverse-flow model and 3.12 mV result. The exterior-electrode explanation is physically compatible with a perivascular probe.",
+        "source_sha256": "d0ec7a9e606fc8254ba2f8d05698d3352e00f714085cb727868b7e167fff9872",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:3",
@@ -3805,9 +4157,22 @@
         "skipped": 15
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:3",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "At the magnetic pole the field is approximately vertical. Level forward motion and the horizontal wingspan therefore supply the perpendicular geometry for V = Bdv. Solving gives the stated speed. In an electrically isolated aircraft, transient charge separation establishes E = -v × B, removing the transverse force that would sustain conduction relative to the wing. Both requested parts are answered.",
+        "calculation_check": "v = 1.60/[(8.00 × 10^-5)(17.0)] = 1176.47 m/s. Using a sound speed of 340 m/s gives Mach 3.46, consistent with approximately Mach 3.5.",
+        "assumptions": "Uniform vertical field, wings perpendicular to forward velocity, steady motion, and no external conducting return path. Mach number depends on atmospheric temperature.",
+        "notes": "Both physics answers are correct. The historical claim about early supersonic airspeed research is not established by the supplied or inspected local evidence.",
+        "source_sha256": "55b4ffb29249909d65ed2d2f018ebd429d1f36432c019c5988ddb4db85f30fc1",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:4",
@@ -3828,9 +4193,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:4",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The algebra correctly inverts the ideal open-circuit flow-meter relation. However, the problem explicitly specifies a metal pipe without specifying an insulating liner or electrical isolation. A conducting wall provides a shunt between transverse fluid potentials, invalidating the unqualified assumption V = Bdv. The stated speed is therefore conditional on an essential omitted construction detail.",
+        "calculation_check": "Under insulated-wall conditions, v = 0.0600/[(0.500)(0.0300)] = 4.00 m/s. Q = vπd^2/4 = 0.002827 m^3/s = 2.83 L/s = 170 L/min, so the discussion's flow conversion is correct.",
+        "assumptions": "Conductive fluid, uniform transverse field, insulated pipe interior and isolated electrodes, and negligible meter loading are required for the quoted result. An unlined conducting pipe needs a wall-conductivity model.",
+        "notes": "Arithmetic is correct, but the stated metal-pipe setup omits insulation needed to prevent voltage shunting. The unconditional maintenance-free claim also exceeds what the model establishes.",
+        "source_sha256": "80f41498539ecd57e99e238914ae7d8280e2f64d775a5bf8e231bc79fd305632",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:5",
@@ -3851,9 +4229,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:5",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The general motional contribution is the integral of (v × B)·dl. The solution obtains the correct value if the entire modeled wire lies along v × B; motion perpendicular to B alone does not specify that wire orientation. The comparison with a 1-mV ECG signal is numerically consistent. However, the discussion asserts that metallic implants generally enhance this effect. At fixed length, velocity, and field, the modeled open-circuit voltage has no conductivity or implant-dependent enhancement. Other implant interactions require separate mechanisms and geometry.",
+        "calculation_check": "The fully transverse value is (1.50)(0.0750)(0.100) = 0.01125 V ≈ 11.3 mV, or 11.25 times the stipulated 1-mV reference. For a straight wire at angle α to v × B, the magnitude is 11.25|cos α| mV.",
+        "assumptions": "Uniform field and velocity, a straight conducting path aligned with v × B, and negligible electrical loading. Actual ECG artifact depends on tissue geometry and electrode placement.",
+        "notes": "The intended 11.3 mV calculation is correct under an implicit orientation assumption. The claimed general enhancement by metallic implants is unsupported by this model; clinical screening and equipment claims were not independently verified.",
+        "source_sha256": "c87ad9457f0ddffa40b548a53c9fd957d47169840360e80eb69f1e2f2762453b",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:6",
@@ -3874,9 +4265,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:6",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For fixed probe current, geometry, carrier density, and orientation, Hall voltage is proportional to the measured magnetic-field component. Taking the ratio of the two fields therefore gives the new voltage directly. The sensitivity discussion correctly restricts use to the probe's operating range.",
+        "calculation_check": "V_2 = (1.00 μV)(0.150/2.00) = 0.0750 μV = 75.0 nV. The calibration sensitivity is 0.500 μV/T.",
+        "assumptions": "Linear calibrated response, constant excitation current and temperature, unchanged field orientation, and negligible offset or its removal.",
+        "notes": "Correct proportional scaling, sensitivity, and unit conversion.",
+        "source_sha256": "43ca525eab2471a7aaf299a6bf49e9d38412b675a893432f47b35a8eb2204164",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:7",
@@ -3901,9 +4305,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:7",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a circular wire, A = πd^2/4 and v_d = I/(neA). The transverse Hall field is Bv_d, and integrating across the diameter gives V_H = BdI/(neA). The solution correctly recalculates drift speed for the specified 10-gauge diameter. The stated copper density is supported by the drift-velocity example located in ch20Current.md, although the supplied cross-reference points elsewhere.",
+        "calculation_check": "A = 5.26040 × 10^-6 m^2; v_d = 20.0/[(8.34 × 10^28)(1.60 × 10^-19)A] = 2.84922 × 10^-4 m/s. V_H = (2.00)(0.002588)v_d = 1.47475 × 10^-6 V ≈ 1.47 μV.",
+        "assumptions": "Classical one-electron-per-atom copper model, uniform axial current density, transverse uniform field, and voltage measured across the diameter perpendicular to both current and field.",
+        "notes": "Correct physics and 1.47 μV result. The inaccurate example reference does not prevent independent verification from the local current chapter.",
+        "source_sha256": "d6fad9deef759b686562a3343bf75131cc7c8af70d9b60db39f841d0b9395d47",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:8",
@@ -3923,9 +4340,22 @@
         "skipped": 19
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:8",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At fixed current and carrier density, the drift speed scales as 1/A ∝ d^-2. The voltage spans a distance d, so V_H = Bd v_d ∝ d^-1. The solution derives the full coefficient and correctly explains the competing diameter dependences.",
+        "calculation_check": "Substitution gives |V_H| = 4BI/(n|q|πd). Doubling d quadruples area, quarters drift speed, and halves Hall voltage, providing a direct scaling check.",
+        "assumptions": "Circular wires of the same homogeneous material and carrier density, equal currents, equal transverse field components and measurement orientations, and classical Hall behavior. Charge magnitude is used for voltage magnitude.",
+        "notes": "Correct derivation, dimensions, and limiting comparison; all requested reasoning is supplied.",
+        "source_sha256": "3e3967ee19e177c6eb6e7026277a531df922e17bd4f5011e4f76508f9d0fa322",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TheHallEffect.md::problems-exercises:9",
@@ -3946,9 +4376,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "ambiguous",
+      "review": {
+        "id": "contents/ch22TheHallEffect.md::problems-exercises:9",
+        "verdict": "ambiguous",
+        "confidence": "low",
+        "reasoning_check": "The intended inversion B = V/(lv) is correct if the moving lead segment lies along v × B. The problem states only that velocity is perpendicular to B; it does not explicitly establish the lead orientation. Without that assumption, the measured voltage determines B times an orientation factor. The discussion's claims about device damage and MRI eligibility cannot be established from a segment voltage alone, and their clinical applicability was not independently verified.",
+        "calculation_check": "For full transverse alignment, B = 0.0200/[(0.100)(0.100)] = 2.00 T. More generally, V = Blv cos α, so the givens determine B|cos α| = 2.00 T. Device current or deposited energy cannot be computed without circuit and motion information.",
+        "assumptions": "The quoted 2.00 T requires a uniform field, uniform segment motion, and lead alignment with v × B. No device impedance, return-path geometry, or clinical protocol is supplied.",
+        "notes": "Conditional arithmetic is correct. Lead orientation is implicit, and the clinical safety and eligibility discussion remains unchecked; a complete endorsement is therefore unavailable.",
+        "source_sha256": "117ce4c8db2bcd2d1b37ece590be2fd6704e98dc51b77ba52afd902d4bd18093",
+        "file_sha256": "f25103736dba2fc272bd4d9e373756765ad68c658af4a7bf7aa56dcb0ade29cb",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261023T130214Z-f8eb11",
+        "reviewed_at": "2026-10-24T04:13:18+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::worked-example:1",
@@ -3958,8 +4401,8 @@
       "end_line": 100,
       "kind": "worked-example",
       "ordinal": 1,
-      "source_sha256": "1f107ab0366c6c38344ebbad07c88120805590a507296a6726bb1f139315d534",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "source_sha256": "8f7415c419364ff9df99706b637d4e70dac03759c352270388d656ff28c61076",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "::: example Calculating Torque on a Current-Carrying Loop in a Strong Magnetic Field Find the maximum torque on a 100-turn square loop of a wire of 10.0 cm on a side that carries…",
       "has_solution": true,
       "missing_labels": [],
@@ -3968,9 +4411,19 @@
         "skipped": 7
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::worked-example:1",
+        "source_sha256": "8f7415c419364ff9df99706b637d4e70dac03759c352270388d656ff28c61076",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 30.0 N·m. Fixed: a 10.0-cm square loop has A = 0.0100 m² (the substitution showed 0.100 m², which would give 300 N·m).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch21-23)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::conceptual-questions:1",
@@ -3981,7 +4434,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "f8cbb47aeefc215c758af0310ae39caf81fb37e776fa5191db9eb180d14525a9",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "Draw a diagram and use RHR-1 to show that the forces on the top and bottom segments of the motor’s current loop in [[Figure 1]](#Figure1) are vertical and produce no torque about…",
       "has_solution": true,
       "missing_labels": [
@@ -3993,9 +4446,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::conceptual-questions:1",
+        "source_sha256": "f8cbb47aeefc215c758af0310ae39caf81fb37e776fa5191db9eb180d14525a9",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inspection of Figure 1 and the solution SVG supports the stated current directions. With the field along +x and the top current having a +y component, y cross x equals -z, giving downward force; reversing the current gives upward force on the bottom. For any vertical force, the axial torque is (r cross F)_z = xF_y - yF_x = 0. The centered segments have equal, opposite resultant forces along a common vertical line, consistent with compression.",
+        "calculation_check": "IwB sin(phi) = 2.00(0.100)(0.500)sin(30 degrees) = 0.0500 N. The illustrative values are introduced by the solution rather than supplied by the problem, but the general proof does not depend on them.",
+        "assumptions": "Uniform horizontal field, horizontal top and bottom segments, vertical rotation axis, and the ideal rectangular-loop geometry. The statement about zero horizontal lever arm is best understood as zero effective moment arm for axial rotation; parallelism alone does not make a force's line of action intersect the axis.",
+        "notes": "The diagram, force directions, and zero axial torque are supported. The cross-product argument establishes the result despite imprecise lever-arm wording.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md#Exercise1",
@@ -4006,7 +4472,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "811b444fbf9e3ae54feb66be981bbefdffb59c8170087f25a634029b9774c597",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "(a) By how many percent is the torque of a motor decreased if its permanent magnets lose 5.0% of their strength? (b) How many percent would the current need to be increased to ret…",
       "has_solution": true,
       "missing_labels": [],
@@ -4016,9 +4482,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md#Exercise1",
+        "source_sha256": "811b444fbf9e3ae54feb66be981bbefdffb59c8170087f25a634029b9774c597",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At fixed geometry, orientation, and current, torque is proportional to field strength, so reducing B to 0.95B0 reduces torque to 0.95tau0. Restoring the original torque requires I'B' = I0B0, hence I'/I0 = 1/0.95. Both requested percentages and the inverse-proportionality explanation are correct.",
+        "calculation_check": "The torque decrease is 100(1 - 0.95) = 5.0%. The required current increase is 100(1/0.95 - 1) = 5.26316%, consistent with 5.26%.",
+        "assumptions": "The magnet weakening reduces the relevant field uniformly by 5%; turn count, loop area, orientation, and other motor conditions remain fixed. Comparison concerns electromagnetic torque at corresponding orientations or its consistently averaged value.",
+        "notes": "Both parts are correct under the stated proportional-torque model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:2",
@@ -4029,7 +4508,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "4f60beb7e7bdc57bf22a184b1bb65fe131e76c69113fe05c0a40b08cb5bcd52a",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "(a) What is the maximum torque on a 150-turn square loop of wire 18.0 cm on a side that carries a 50.0-A current in a 1.60-T field? (b) What is the torque when $$\\theta$$ is $$ 10…",
       "has_solution": true,
       "missing_labels": [],
@@ -4039,9 +4518,22 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:2",
+        "source_sha256": "4f60beb7e7bdc57bf22a184b1bb65fe131e76c69113fe05c0a40b08cb5bcd52a",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Using the chapter's definition of theta as the angle between the loop normal and field, the maximum occurs at 90 degrees and the specified-angle torque follows from sin(theta). Both answers are correct. However, the discussion incorrectly treats operation near the maximum-torque angle as establishing maximum efficiency. Torque maximization at fixed current does not determine efficiency, which also depends on speed, electrical input, and losses; a rotating single loop also traverses varying angles.",
+        "calculation_check": "A = 0.180^2 = 0.0324 m^2. NIAB = 150(50.0)(0.0324)(1.60) = 388.8 N m. Multiplying by sin(10.9 degrees) gives 73.5203 N m, agreeing with 389 and 73.5 N m.",
+        "assumptions": "Identical coplanar turns, uniform applied field, fixed current, and negligible deformation. No speed or loss data are supplied from which to infer efficiency.",
+        "notes": "Both numerical answers are correct; the discussion conflates maximum torque with maximum motor efficiency.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:3",
@@ -4052,7 +4544,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "58bdf3964efd744cf6548a8a703fd75f91ea0b12ceddd363f4d93f87e8e59a3b",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "Find the current through a loop needed to create a maximum torque of $$9.00 \\text{N}\\cdot \\text{m} \\text{.}$$ The loop has 50 square turns that are 15.0 cm on a side and is in a u…",
       "has_solution": true,
       "missing_labels": [],
@@ -4062,9 +4554,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:3",
+        "source_sha256": "58bdf3964efd744cf6548a8a703fd75f91ea0b12ceddd363f4d93f87e8e59a3b",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For maximum torque, the magnetic moment is perpendicular to the field and tau_max = NIAB. Solving for current with the square's area gives the stated answer. The discussion appropriately recognizes that safe operation requires adequate wire sizing; no unsupported thermal calculation is presented.",
+        "calculation_check": "A = 0.150^2 = 0.0225 m^2 and NAB = 50(0.0225)(0.800) = 0.900 T m^2. Thus I = 9.00/0.900 = 10.0 A. Since T = N/(A m), the quotient has units of amperes.",
+        "assumptions": "Uniform field, 50 identical turns carrying the same current, and orientation permitting maximum torque. Heating depends on wire resistance and cooling, which are unspecified.",
+        "notes": "The relation, area conversion, current, and qualitative heating discussion are appropriate.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:4",
@@ -4075,7 +4580,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "6d724582fe08adffa38f66704aca3f22e16309170c3476a4a2f970f0b6bcf2b6",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "Calculate the magnetic field strength needed on a 200-turn square loop 20.0 cm on a side to create a maximum torque of $$300 \\text{N}\\cdot \\text{m}$$ if the loop is carrying 25.0…",
       "has_solution": true,
       "missing_labels": [],
@@ -4085,9 +4590,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:4",
+        "source_sha256": "6d724582fe08adffa38f66704aca3f22e16309170c3476a4a2f970f0b6bcf2b6",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "At maximum torque, sin(theta) = 1, so B = tau_max/(NIA). The solution uses the area of each square turn and includes the turn count exactly once. It answers the requested field strength.",
+        "calculation_check": "A = 0.200^2 = 0.0400 m^2. NIA = 200(25.0)(0.0400) = 200 A m^2, giving B = 300/200 = 1.50 T. N m/(A m^2) has units of tesla.",
+        "assumptions": "Uniform applied field, equal-area coplanar turns, fixed current, and maximum-torque orientation. The discussion's engineering comparisons are qualitative rather than specifications for a particular magnet or engine.",
+        "notes": "The field calculation and physical model are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:5",
@@ -4098,7 +4616,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "ea2689d335ef3e8b8c3b03c268c98a249f51992125ff0de68ba44c3ff62a1aa6",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "Since the equation for torque on a current-carrying loop is $$\\tau =NIAB \\sin \\theta$$ , the units of $$ \\text{N} \\cdot \\text{m}$$ must equal units of $$\\text{A}\\cdot {m}^{2} \\tex…",
       "has_solution": true,
       "missing_labels": [],
@@ -4108,9 +4626,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:5",
+        "source_sha256": "ea2689d335ef3e8b8c3b03c268c98a249f51992125ff0de68ba44c3ff62a1aa6",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "From the magnetic force relation F = IlB for perpendicular current and field, tesla has units N/(A m). Substitution into A m^2 T cancels amperes and one length factor, leaving N m. Turn count and sine are dimensionless, as stated. The discussion correctly treats this as a consistency check rather than a derivation of the torque law.",
+        "calculation_check": "Using base units, T = kg/(A s^2), so A m^2 T = kg m^2/s^2 = N m.",
+        "assumptions": "Coherent SI units; A denotes amperes in the unit expression, while the loop area contributes m^2.",
+        "notes": "The requested dimensional identity is verified correctly.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:6",
@@ -4121,7 +4652,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "60e4f58bae6f0df31a8427ec20d0c5922b99c2df34e13f4dced6b8ebdbee5edf",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "(a) At what angle $$\\theta$$ is the torque on a current loop 90.0% of maximum? (b) 50.0% of maximum? (c) 10.0% of maximum?",
       "has_solution": true,
       "missing_labels": [],
@@ -4131,9 +4662,22 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:6",
+        "source_sha256": "60e4f58bae6f0df31a8427ec20d0c5922b99c2df34e13f4dced6b8ebdbee5edf",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The inverse-sine method correctly finds the acute angles, and the explanation of the sine slope is consistent with moving from 90 degrees toward zero. If theta spans the full angle between magnetic moment and field, supplementary angles give the same torque magnitude and are omitted. More substantially, the discussion incorrectly says commutators keep the coil near 90 degrees. A commutator reverses current at suitable positions to maintain the driving torque's rotational sense; it does not hold a rotating coil near its maximum-torque orientation.",
+        "calculation_check": "arcsin(0.900) = 64.1581 degrees, arcsin(0.500) = 30.0000 degrees, and arcsin(0.100) = 5.73917 degrees. The supplementary solutions are 115.8419, 150.0000, and 174.2608 degrees, respectively.",
+        "assumptions": "Nonzero NIAB and the chapter's loop-normal definition of theta. The reported acute answers are sufficient only if attention is restricted to 0 through 90 degrees; that restriction is not explicit in the problem.",
+        "notes": "The acute numerical answers are correct. The commutator explanation is physically incorrect, and supplementary angles require a stated domain restriction.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:7",
@@ -4144,7 +4688,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "5e049db2d8d963a94333c690390b1bdc282b43ad432b40cf686098e721fda6db",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "A proton has a magnetic field due to its spin on its axis. The field is similar to that created by a circular current loop $$ 0.650 \\times 10^{-15} m$$ in radius with a current of…",
       "has_solution": true,
       "missing_labels": [
@@ -4158,9 +4702,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:7",
+        "source_sha256": "5e049db2d8d963a94333c690390b1bdc282b43ad432b40cf686098e721fda6db",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The supplied equivalent current loop has magnetic moment mu = I pi r^2. Its maximum torque magnitude in an applied field is mu B, so the solution uses the correct single-turn relation. Its clarification that this represents an intrinsic magnetic moment rather than literal classical rotation properly limits the model.",
+        "calculation_check": "pi(0.650e-15)^2 = 1.32732e-30 m^2, giving mu = 1.39369e-26 A m^2 and tau_max = 3.48422e-26 N m in 2.50 T. This agrees with 3.48e-26 N m.",
+        "assumptions": "Use the equivalent magnetic moment specified by the problem and a locally uniform external field. Maximum refers to the dipole-torque magnitude for perpendicular moment and field, not a classical description of proton spin.",
+        "notes": "The equivalent-dipole calculation and its model limitation are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:8",
@@ -4171,7 +4728,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "6c1e21c08c6be26188f2c6075cd01e133502044dfe9d54ff3609f989e49ad3f1",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "(a) A 200-turn circular loop of radius 50.0 cm is vertical, with its axis on an east-west line. A current of 100 A circulates clockwise in the loop when viewed from the east. The…",
       "has_solution": true,
       "missing_labels": [],
@@ -4181,9 +4738,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:8",
+        "source_sha256": "6c1e21c08c6be26188f2c6075cd01e133502044dfe9d54ff3609f989e49ad3f1",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "Clockwise current viewed from the east gives a westward magnetic moment. In east-north-up coordinates, (-east) cross north points down, so the torque produces clockwise rotation viewed from above, turning the moment from west toward north. The magnitude and final direction are correct, and the large coil and current make poor practical torque production a reasonable conclusion. However, the assertion that efficiency would be extremely low is not established by the supplied data: weak field and small torque per ampere do not alone determine conversion efficiency.",
+        "calculation_check": "A = pi(0.500)^2 = 0.785398 m^2 and tau = 200(100)(0.785398)(3.00e-5) = 0.471239 N m. Even a simplified efficiency estimate would require mechanical power tau times angular speed and losses such as I^2R; neither speed nor resistance is given.",
+        "assumptions": "Uniform northward horizontal field, identical turns, maintained current, and a mounting permitting rotation about the vertical torque axis. The actual winding resistance, load, speed, and losses remain unspecified.",
+        "notes": "Torque magnitude and direction are correct. Practical weakness is supported, but the claimed extremely low efficiency is underdetermined.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:9",
@@ -4194,7 +4764,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "8f4aac13e116a813163d96e6a9ba1f14bcc32920040fd9469f857923952d8d3d",
-      "file_sha256": "b61b5ea781b8db7913d1d2a00870d244160159baa5715c7eb6f10e51f573de1d",
+      "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
       "preview": "Repeat [[Exercise 1]](#Exercise1), but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth'…",
       "has_solution": true,
       "missing_labels": [],
@@ -4203,9 +4773,22 @@
         "skipped": 21
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "concern",
+      "review": {
+        "id": "contents/ch22TorqueOnACurrentLoop.md::problems-exercises:9",
+        "source_sha256": "8f4aac13e116a813163d96e6a9ba1f14bcc32920040fd9469f857923952d8d3d",
+        "file_sha256": "a99a2b8845a64cbc020cdf3bd7e62d333967d1702dddd141fc11064816e97947",
+        "verdict": "concern",
+        "confidence": "high",
+        "reasoning_check": "The problem explicitly links to Exercise 1, which concerns a 5% weakening of permanent magnets and compensating current, whereas this solution repeats the preceding Earth's-field loop problem. It imports N = 200, r = 0.500 m, and I = 100 A from that preceding problem; those are absent from the linked Exercise 1. Conditional on that intended reference, the physics is correct: counterclockwise current viewed above gives an upward moment, the field makes 135 degrees with it, and up cross north gives westward torque. The vertical field component is antiparallel to the moment and produces zero torque.",
+        "calculation_check": "Using the preceding problem's loop data, tau = 200(100)pi(0.500)^2(6.00e-5)cos(45 degrees) = 0.666432 N m, consistent with 0.666 N m. Those loop data cannot be recovered from the problem's actual linked exercise.",
+        "assumptions": "The numerical answer requires interpreting the reference as the immediately preceding Earth's-field exercise. A loop initially flat on the ground must be free to tilt to act as a motor; oscillation about alignment assumes appropriate support, initial conditions, and negligible damping.",
+        "notes": "The conditional torque calculation is correct, but the exercise reference supplies the wrong problem and leaves the required loop parameters unspecified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T04:16:18+00:00",
+        "reviewed_at": "2026-10-24T08:59:51+00:00"
+      },
+      "previous_review_count": 2
     }
   ]
 }
