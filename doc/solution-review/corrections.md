@@ -31,7 +31,8 @@ The table counts items with a new post-fix review. It excludes carried-over revi
 | 24–27 | 21 | `726c12f6` | `41a4bc80` |
 | 28–29 | 17 | `d96cf74b` | `30693092` |
 | 30–31 | 11 | `695eb7fc` | `77a49b39` |
-| 32 | 19 | `da07bdca` | the commit after it |
+| 32 | 19 | `da07bdca` | `fc05639e` |
+| 33–34 | 36 | `f7cc9e00` | the commit after it |
 
 The per-chapter reports (`chapter-NN.md`) show the post-fix review for every corrected item, except Ch 28 Relativistic Addition of Velocities p4, which Codex re-reviewed after the fix and still flags for its discussion. The [automatic-flag review](automatic-flag-review.md) was refreshed too: two flags disappeared with the corrections and none were added.
 
@@ -158,6 +159,23 @@ All 19 `concern` and `ambiguous` items were corrected. Only Fusion p17's final a
   - Nuclear Weapons p6 (fallout from fission products), p8 (shock in water), and p10 (no vaporized skin).
   - Therapeutic p9: ¹⁴C betas are absorbed in the body. The problem's parenthetical about energy escaping is left as written, with a note in the solution.
 
+### Chapters 33–34
+
+All 35 `concern` and `ambiguous` items in chapters 33–34 were corrected, plus a second-pass Codex concern on chapter 32 Biological Effects p6 (the lifetime genetic risk, 0.03%). No final answer was wrong. The errors were in derivations, explanations, units, and one figure.
+
+- Wrong statements and equations:
+  - Accelerators p4: the gap voltage is ΔK/(Ne), in volts; the derivation equated 3.33 × 10⁶ eV with 3.33 MV.
+  - GUTS p8: the neutrino moves at 99.999999995% of c, not 99.99999999995%.
+  - Quarks p16: beta-minus decay turns d into u (a neutron into a proton); the prose had the direction reversed.
+  - Quarks p4: the quark mechanism is s → u + W⁻, W⁻ → d + ū (the discussion added an extra up quark), and Ω⁻ → Ξ⁰π⁻ happens about 24% of the time, not 68%.
+  - Quarks p20: ū, c̄, and t̄ all have charge −2/3; zero charm and topness pick ū.
+  - Particles and Patterns example 1: "charge is conserved as s → d" did not describe the kaon decay.
+  - Dark Matter p2: the critical density is about 11,000 electron masses per m³, not a tiny fraction of one.
+- Figure: in `Figure_33_05_08` (Quarks p3) the incoming anti-d arrow now points against its motion, so the fermion line is continuous.
+- Units: H₀ is written as (km/s)/Mly in Cosmology p4, p8, and p15; it was printed as km/s·Mly.
+- Premises: Quarks p7 now calls η⁰ → π⁰π⁰ a conceivable decay and explains that parity forbids it. The Yukawa p1 problem no longer says virtual particles violate energy conservation, matching its section. Cosmology p7 no longer puts 10 Gly at the edge of the known universe, and p16 states that the enclosed mass must be the same for the orbits compared.
+- Overstated discussions, now qualified: Accelerators p2 (time dilation plus random decay), GUTS p2, p9, and p10, Quarks p6, p8, p12, p13, p14, p18, and p22, Four Forces p2, Cosmology p2, p10, p12, p14, p18, and p21, Dark Matter p4, and General Relativity p2.
+
 ## Findings not acted on
 
 These Codex findings were checked and the source was left as written:
@@ -168,4 +186,4 @@ These Codex findings were checked and the source was left as written:
 - Ch 17: the trombone remark, and the notation for ultrasound units.
 - The jet field premise, the RC flash-lamp averaging, and the length-contraction wording.
 
-Most remaining `concern` rows in later chapters are discussion overstatements, not wrong answers. Chapters 33–34 had not been fully reviewed by Codex when this page was last updated.
+Codex has now reviewed all 34 chapters. Most of the remaining `concern` rows are discussion overstatements, not wrong answers.

@@ -1,16 +1,16 @@
 {
   "chapter": 34,
-  "checked_at": "2026-10-24T14:47:21+00:00",
+  "checked_at": "2026-10-24T17:04:02+00:00",
   "summary": {
-    "total": 384,
+    "total": 388,
     "checked": 60,
     "failed": 0,
-    "skipped": 324,
+    "skipped": 328,
     "by_kind": {
       "equation": {
         "checked": 60,
         "failed": 0,
-        "skipped": 324
+        "skipped": 328
       },
       "case": {
         "checked": 0,
@@ -24,9 +24,9 @@
       "chapters": []
     },
     "skip_reasons": {
-      "no supported equality": 143,
+      "no supported equality": 146,
       "unit-only expression or text label needs a numeric value": 1,
-      "unbound variable": 153,
+      "unbound variable": 154,
       "unknown unit": 14,
       "unsupported operand": 1,
       "unsupported symbol": 12
@@ -90,7 +90,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "9040437b06fd55603348b2569958c5501a15fc4c753dc25797aae0d67ebcc8ca",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Explain why it only *appears* that we are at the center of expansion of the universe and why an observer in another galaxy would see the same relative motion of all but the closes…",
       "has_solution": false,
       "missing_labels": [
@@ -114,7 +114,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "1162e42b341d5b7bf0333d4a22f8b1a81109e647dd92e29cc3872228f8bff3fc",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "If there is no observable edge to the universe, can we determine where its center of expansion is? Explain.",
       "has_solution": false,
       "missing_labels": [
@@ -138,7 +138,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "b9736ccc68b0b4db3993750ce119c07868b7c56da6c9944ed685be23c2565222",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "If the universe is infinite, does it have a center? Discuss.",
       "has_solution": false,
       "missing_labels": [
@@ -162,7 +162,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "ade2d5c06a66818e47025b6bafeb310783e6a5a3c0a754d292a3c8a7f0ba120c",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Another known cause of red shift in light is the source being in a high gravitational field. Discuss how this can be eliminated as the source of galactic red shifts, given that th…",
       "has_solution": false,
       "missing_labels": [
@@ -186,7 +186,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "1ec9b4ca4284c437fb421f91248b94a11be9f8a2fa88bb2af9df012dfecf019d",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "If some unknown cause of red shift—such as light becoming “tired” from traveling long distances through empty space—is discovered, what effect would there be on cosmology?",
       "has_solution": false,
       "missing_labels": [
@@ -210,7 +210,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "164c18c21c9d9b5954d3dff9185062f69236f9f5b9658801c3c51726f613ca15",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Olbers’s paradox poses an interesting question: If the universe is infinite, then any line of sight should eventually fall on a star’s surface. Why then is the sky dark at night?…",
       "has_solution": false,
       "missing_labels": [
@@ -234,7 +234,7 @@
       "kind": "conceptual-questions",
       "ordinal": 7,
       "source_sha256": "6efcc0dede38b177cf5e0d41109ccae1211b0a81dd48dc0a0da030283618cdd3",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "If the cosmic microwave background radiation (CMBR) is the remnant of the Big Bang’s fireball, we expect to see hot and cold regions in it. What are two causes of these wrinkles i…",
       "has_solution": false,
       "missing_labels": [
@@ -258,7 +258,7 @@
       "kind": "conceptual-questions",
       "ordinal": 8,
       "source_sha256": "8c00315a9d83df316a626412baeac5e926a1352c47b92f5bd6cf2b072dc72ab9",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "The decay of one type of $$K $$ -meson is cited as evidence that nature favors matter over antimatter. Since mesons are composed of a quark and an antiquark, is it surprising that…",
       "has_solution": false,
       "missing_labels": [
@@ -284,7 +284,7 @@
       "kind": "conceptual-questions",
       "ordinal": 9,
       "source_sha256": "24341b72ac31de93daae2d0310d7469ba1f6e8242e28c9f002334d475cf352e2",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Distances to local galaxies are determined by measuring the brightness of stars, called Cepheid variables, that can be observed individually and that have absolute brightnesses at…",
       "has_solution": false,
       "missing_labels": [
@@ -308,7 +308,7 @@
       "kind": "conceptual-questions",
       "ordinal": 10,
       "source_sha256": "f2ad83bbb2a466b96b8133a3ba9011ae88ccf0b189f9abaa652af341d469194a",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Distances to very remote galaxies are estimated based on their apparent type, which indicate the number of stars in the galaxy, and their measured brightness. Explain how the meas…",
       "has_solution": false,
       "missing_labels": [
@@ -332,7 +332,7 @@
       "kind": "conceptual-questions",
       "ordinal": 11,
       "source_sha256": "292d3d7d567985b52529184d26d8a127449a8650f5a2c99ef1ca9cd65d086c58",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "If the smallest meaningful time interval is greater than zero, will the lines in [[Figure 9]](#Figure9) ever meet?",
       "has_solution": false,
       "missing_labels": [
@@ -356,7 +356,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "1fff5e7a4e6de1301d0fa2b3ae1ff981242e23f5489e76229db32256ab4e8cc0",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Find the approximate mass of the luminous matter in the Milky Way galaxy, given it has approximately $$ 10^{11} $$ stars of average mass 1.5 times that of our Sun.",
       "has_solution": true,
       "missing_labels": [
@@ -369,9 +369,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:1",
+        "source_sha256": "1fff5e7a4e6de1301d0fa2b3ae1ff981242e23f5489e76229db32256ab4e8cc0",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The stellar mass is the number of stars multiplied by their average mass: M = 10^11 × 1.5 M_sun. This directly answers the requested approximate luminous mass.",
+        "calculation_check": "Using M_sun = 1.9885 × 10^30 kg gives M = 2.983 × 10^41 kg, agreeing with 3 × 10^41 kg.",
+        "assumptions": "The stipulated stellar population represents the luminous mass; additional gas and dust are neglected in this estimate.",
+        "notes": "The mass estimate is correct under the stated stellar-population approximation.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:05:32+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:2",
@@ -381,8 +394,8 @@
       "end_line": 454,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "641e7771e243b19af6bc12f56667f0445d5c1ccc3ccf9e978ef2e815fbd1e7d3",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "e0a7ebe0f38c4039693c6b61ad324cb57d98a1b7bbece2d33c874ec7e8c57e1b",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Find the approximate mass of the dark and luminous matter in the Milky Way galaxy. Assume the luminous matter is due to approximately $$ 10^{11} $$ stars of average mass 1.5 times…",
       "has_solution": true,
       "missing_labels": [],
@@ -392,9 +405,19 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:2",
+        "source_sha256": "e0a7ebe0f38c4039693c6b61ad324cb57d98a1b7bbece2d33c874ec7e8c57e1b",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct masses and fractions. Fixed: dark matter supplies the centripetal force for fast circular orbits; the 'flying off' escape claim is removed.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:3",
@@ -405,7 +428,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "d9af0f4f8ddfcc89b3db5281a05bfb70401813f48c1ee21cc010e060da0ffe8a",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "(a) Estimate the mass of the luminous matter in the known universe, given there are $$ 10^{11} $$ galaxies, each containing $$ 10^{11} $$ stars of average mass 1.5 times that of o…",
       "has_solution": true,
       "missing_labels": [
@@ -418,9 +441,22 @@
         "skipped": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:3",
+        "source_sha256": "d9af0f4f8ddfcc89b3db5281a05bfb70401813f48c1ee21cc010e060da0ffe8a",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Part (a) multiplies the galaxy count, stars per galaxy, and average stellar mass. Part (b) divides this mass by the proton mass under a hydrogen approximation. Part (c) applies the explicitly requested electron and background-particle factors. All three requested parts are answered.",
+        "calculation_check": "M = 10^11 × 10^11 × 1.5 × 1.9885 × 10^30 = 2.983 × 10^52 kg. Dividing by 1.67262 × 10^-27 kg gives 1.783 × 10^79 protons. Multiplying by 2 × 10^9 gives 3.567 × 10^88 particles. The reported 3 × 10^52, 2 × 10^79, and 4 × 10^88 are appropriate rough estimates.",
+        "assumptions": "Stellar material is approximated as hydrogen, neglecting helium, heavier nuclei, and binding-energy corrections. The factor of 10^9 is a supplied estimation rule, not independently established particle-abundance data.",
+        "notes": "All parts follow the specified estimation model; differences are ordinary rounding.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:05:32+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:4",
@@ -430,8 +466,8 @@
       "end_line": 515,
       "kind": "problems-exercises",
       "ordinal": 4,
-      "source_sha256": "5abddcaf899031d0e9c7ec5304e491fed5a8a9996f0c251bce33c3c7ca19712d",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "75f65322eda7254d8be371629ef540fb12e30c9d1a1132a91e859df1c90455a1",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "If a galaxy is 500 Mly away from us, how fast do we expect it to be moving and in what direction?",
       "has_solution": true,
       "missing_labels": [],
@@ -441,9 +477,19 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:4",
+        "source_sha256": "75f65322eda7254d8be371629ef540fb12e30c9d1a1132a91e859df1c90455a1",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 1.0×10⁴ km/s. Fixed: H₀ is written as (km/s)/Mly; the discussion now attributes large-distance departures to measured redshift and distance, not a breakdown of the proper-distance relation.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:5",
@@ -454,7 +500,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "e55da186447a7e046899aed60a13b499383c3da256036472670b952fdcaed656",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "On average, how far away are galaxies that are moving away from us at 2.0% of the speed of light?",
       "has_solution": true,
       "missing_labels": [
@@ -465,9 +511,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:5",
+        "source_sha256": "e55da186447a7e046899aed60a13b499383c3da256036472670b952fdcaed656",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Inverting the chapter's Hubble relation gives d = v/H_0. This answers the requested average distance, allowing for individual peculiar motions.",
+        "calculation_check": "v = 0.020 × 299,792.458 = 5,995.85 km/s. Thus d = 5,995.85/20 = 299.79 Mly = 0.29979 Gly, agreeing with 0.30 Gly.",
+        "assumptions": "H_0 = 20 (km/s)/Mly; the given speed represents cosmological recession and peculiar velocities average out.",
+        "notes": "The stated distance correctly follows from Hubble's law.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:05:32+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:6",
@@ -478,7 +537,7 @@
       "kind": "problems-exercises",
       "ordinal": 6,
       "source_sha256": "2e3c0810626e66b647a10195e60bd304d594f8fc36c2facca817ab06b5820eff",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Our solar system orbits the center of the Milky Way galaxy. Assuming a circular orbit 30 000 ly in radius and an orbital speed of 250 km/s, how many years does it take for one rev…",
       "has_solution": true,
       "missing_labels": [],
@@ -488,9 +547,22 @@
         "checked": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:6",
+        "source_sha256": "2e3c0810626e66b647a10195e60bd304d594f8fc36c2facca817ab06b5820eff",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For uniform circular motion, one revolution covers 2πr, so T = 2πr/v. Expressing v/c as light-years per year is valid because c is one light-year per year. The discussion's roughly twenty lifetime orbits follows if the present orbit is extrapolated backward. The proposed environmental effects are explicitly presented as possibilities rather than deductions.",
+        "calculation_check": "C = 2π(30,000) = 188,496 ly. Using v = (250/299,792.458) ly/year gives T = 2.2604 × 10^8 years. A stipulated solar age of 4.6 × 10^9 years would imply 20.35 such periods.",
+        "assumptions": "The orbit is circular with fixed radius and speed. The lifetime orbit count additionally neglects Galactic evolution and solar migration. The dinosaur chronology and proposed biological or environmental consequences were not independently verified.",
+        "notes": "The orbital calculation and approximate lifetime count are correct within the stated idealization; the historical dinosaur comparison remains unchecked.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:05:32+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:7",
@@ -500,9 +572,9 @@
       "end_line": 595,
       "kind": "problems-exercises",
       "ordinal": 7,
-      "source_sha256": "bab0f3ff3f41164d7e80f3c23f114f9abea311dbcab23121e48332568ff4175e",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
-      "preview": "(a) What is the approximate speed relative to us of a galaxy near the edge of the known universe, some 10 Gly away? (b) What fraction of the speed of light is this? Note that we h…",
+      "source_sha256": "3e9add97d609cae95cfb6c75718dfeb3b3898ec47971f2e268a9a7d1e418f2a1",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+      "preview": "(a) What is the approximate speed relative to us of a very distant galaxy, some 10 Gly away? (b) What fraction of the speed of light is this? Note that we have observed galaxies m…",
       "has_solution": true,
       "missing_labels": [
         "strategy",
@@ -514,9 +586,19 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:7",
+        "source_sha256": "3e9add97d609cae95cfb6c75718dfeb3b3898ec47971f2e268a9a7d1e418f2a1",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Both answers correct. Fixed: the problem calls 10 Gly 'a very distant galaxy' rather than the edge of the known universe.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:8",
@@ -526,9 +608,9 @@
       "end_line": 646,
       "kind": "problems-exercises",
       "ordinal": 8,
-      "source_sha256": "46248f226a02cffceeeb4334428664a179f9494583e463f8461ba83cdc31dad1",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
-      "preview": "(a) Calculate the approximate age of the universe from the average value of the Hubble constant, $${H}_{0}=20\\text{km/s}\\cdot \\text{Mly} $$ . To do this, calculate the time it wou…",
+      "source_sha256": "d5be0230dae842e48e0263b346441d75ee07434fbb3c9597e63758e5381df422",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+      "preview": "(a) Calculate the approximate age of the universe from the average value of the Hubble constant, $${H}_{0}=20\\text{ (km/s)/Mly} $$ . To do this, calculate the time it would take t…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
@@ -537,9 +619,19 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:8",
+        "source_sha256": "d5be0230dae842e48e0263b346441d75ee07434fbb3c9597e63758e5381df422",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct age and deceleration reasoning. Fixed: the problem's H₀ units are now (km/s)/Mly.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:9",
@@ -550,7 +642,7 @@
       "kind": "problems-exercises",
       "ordinal": 9,
       "source_sha256": "b81a2d17076bd9503091e9d0f0ed62a1173b68bbea5b7831e75430586cd54199",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Assuming a circular orbit for the Sun about the center of the Milky Way galaxy, calculate its orbital speed using the following information: The mass of the galaxy is equivalent t…",
       "has_solution": true,
       "missing_labels": [
@@ -563,9 +655,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:9",
+        "source_sha256": "b81a2d17076bd9503091e9d0f0ed62a1173b68bbea5b7831e75430586cd54199",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Equating gravitational force to the required centripetal force gives GMm/r² = mv²/r, hence v = sqrt(GM/r). This uses precisely the effective central mass stipulated in the problem.",
+        "calculation_check": "r = 30,000 × 9.4607 × 10^15 = 2.83821 × 10^20 m. Then v = sqrt[(6.6743 × 10^-11)(3 × 10^41)/(2.83821 × 10^20)] = 2.6561 × 10^5 m/s, consistent with 2.7 × 10^5 m/s. GM/r has units m²/s².",
+        "assumptions": "Newtonian gravity, a circular orbit, and the stated point-mass equivalent are used. Applying the entire real Galactic mass at the center would require additional justification, but that model is explicitly supplied here.",
+        "notes": "The orbital speed is correct for the stipulated effective central mass.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:05:32+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:10",
@@ -575,8 +680,8 @@
       "end_line": 726,
       "kind": "problems-exercises",
       "ordinal": 10,
-      "source_sha256": "6bca5b532acbc1f6745b0fe589a44e503dcc8abb7061e6fa4b59735b0f413041",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "741b03c2e858c3c83030dccb35b95aa3f0bc31ca67fca06ad093b71b364d35f9",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "(a) What is the approximate force of gravity on a 70-kg person due to the Andromeda galaxy, assuming its total mass is $$ 10^{13} $$ that of our Sun and acts like a single mass 2…",
       "has_solution": true,
       "missing_labels": [],
@@ -586,9 +691,19 @@
         "checked": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:10",
+        "source_sha256": "741b03c2e858c3c83030dccb35b95aa3f0bc31ca67fca06ad093b71b364d35f9",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct force and ratio. Fixed: the unsupported link to cosmic expansion is removed, and the discussion notes that Earth and the person are pulled almost equally.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:11",
@@ -599,7 +714,7 @@
       "kind": "problems-exercises",
       "ordinal": 11,
       "source_sha256": "5f95209bee5e588c9edda8d2547996e87d99a3dae2f93a6f04c2d4273c17bfdd",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Andromeda galaxy is the closest large galaxy and is visible to the naked eye. Estimate its brightness relative to the Sun, assuming it has luminosity $$ 10^{12} $$ times that of t…",
       "has_solution": true,
       "missing_labels": [
@@ -612,9 +727,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:11",
+        "source_sha256": "5f95209bee5e588c9edda8d2547996e87d99a3dae2f93a6f04c2d4273c17bfdd",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Apparent brightness is received flux, so inverse-square dilution gives F_Andromeda/F_sun = (L_Andromeda/L_sun)(1 AU/d_Andromeda)². The supplied result agrees. Neglecting attenuation gives an upper estimate for direct light in an affected observing band.",
+        "calculation_check": "The ratio is 10^12[1.49598 × 10^11/(2 × 10^6 × 9.4607 × 10^15)]² = 6.251 × 10^-11, consistent with 6 × 10^-11.",
+        "assumptions": "The Sun is viewed from Earth at approximately 1 AU. Luminosities refer to comparable bands or bolometric quantities, emission is treated as isotropic, and attenuation is neglected in the calculation. The dust caveat concerns direct transmitted light; absorbed energy can be reradiated.",
+        "notes": "The apparent-brightness ratio correctly includes both luminosity and inverse-square distance factors.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:05:32+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:12",
@@ -624,8 +752,8 @@
       "end_line": 796,
       "kind": "problems-exercises",
       "ordinal": 12,
-      "source_sha256": "92d58e67401e2bd61e31f6fc3adf6a254ab055649fb50f4c84b70297a6c4bbbb",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "7de0bf1e25de5dc0264860fe60b1c5d51c122671176e4e0b9bd12d36dfa4af7a",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "(a) A particle and its antiparticle are at rest relative to an observer and annihilate (completely destroying both masses), creating two $$\\gamma $$ rays of equal energy. What is…",
       "has_solution": true,
       "missing_labels": [],
@@ -635,9 +763,19 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:12",
+        "source_sha256": "7de0bf1e25de5dc0264860fe60b1c5d51c122671176e4e0b9bd12d36dfa4af7a",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct conditional energies. Fixed: the two-photon channel is the problem's stated assumption; the discussion notes real p p̄ annihilation mostly gives pions and gamma rays peaking near 70 MeV, and drops 'equally detectable'.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:13",
@@ -648,7 +786,7 @@
       "kind": "problems-exercises",
       "ordinal": 13,
       "source_sha256": "d03bfafc4499ad5d3bb1c50995eec0d5028c57d71e6089a5349598a6362cef19",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "The average particle energy needed to observe unification of forces is estimated to be $$ 10^{19} \\text{GeV} $$ . (a) What is the rest mass in kilograms of a particle that has a r…",
       "has_solution": true,
       "missing_labels": [
@@ -661,9 +799,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:13",
+        "source_sha256": "d03bfafc4499ad5d3bb1c50995eec0d5028c57d71e6089a5349598a6362cef19",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Using mass–energy equivalence, the specified mass is m = (10^19 GeV)/c². Dividing this mass by the hydrogen-atom mass answers part (b). Both supplied answers agree with these independent calculations at the precision of the givens.",
+        "calculation_check": "Since 1 GeV/c² = 1.78266 × 10^-27 kg, m = 1.78266 × 10^-8 kg. Dividing by 1.67356 × 10^-27 kg gives 1.065 × 10^19 hydrogen-atom masses, consistent with 2 × 10^-8 kg and 1 × 10^19.",
+        "assumptions": "The stated quantity is rest mass expressed in energy-equivalent units. Hydrogen means an ordinary hydrogen atom; its small binding-energy correction is immaterial.",
+        "notes": "Both conversions are correct at the stated precision.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:10:52+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:14",
@@ -673,8 +824,8 @@
       "end_line": 886,
       "kind": "problems-exercises",
       "ordinal": 14,
-      "source_sha256": "0f17c6ed563efec08c18426626a015527502fec98396f6594ddcf28644e359ba",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "8ba5b8031bb9d12b1804a16336a8489632db19be29fe26944e8b3eab1d3377ba",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "The peak intensity of the CMBR occurs at a wavelength of 1.1 mm. (a) What is the energy in eV of a 1.1-mm photon? (b) There are approximately $$10^{9} $$ photons for each massive…",
       "has_solution": true,
       "missing_labels": [],
@@ -684,9 +835,19 @@
         "checked": 9
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:14",
+        "source_sha256": "8ba5b8031bb9d12b1804a16336a8489632db19be29fe26944e8b3eab1d3377ba",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Numerical answers correct. Fixed: (d) and the discussion say matter outweighs radiation, while dark energy (about 68%) now outweighs matter, so the present era is dark-energy dominated.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:15",
@@ -696,8 +857,8 @@
       "end_line": 906,
       "kind": "problems-exercises",
       "ordinal": 15,
-      "source_sha256": "c72ba18498f68d302cdbae6b13774d2796e8c71a07ca6513d0a43d12e89f4cd0",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "800786fed628bfca647ec37b4d0e68c8456d82209d2ca3b15ab4997b9f5a8982",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "(a) What Hubble constant corresponds to an approximate age of the universe of $$ 10^{10} $$ y? To get an approximate value, assume the expansion rate is constant and calculate the…",
       "has_solution": true,
       "missing_labels": [
@@ -710,9 +871,19 @@
         "skipped": 5
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:15",
+        "source_sha256": "800786fed628bfca647ec37b4d0e68c8456d82209d2ca3b15ab4997b9f5a8982",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct values. Fixed: units are (km/s)/Mly.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:16",
@@ -722,8 +893,8 @@
       "end_line": 972,
       "kind": "problems-exercises",
       "ordinal": 16,
-      "source_sha256": "2aba53587b3efed333d8f47585655b65890afa7c10538f44542e9405dbd48df7",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "22e33d09d8c2adca056b74ba80d198950299253b3d25bbbe2a2a57daa647098b",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Show that the velocity of a star orbiting its galaxy in a circular orbit is inversely proportional to the square root of its orbital radius, assuming the mass of the stars inside…",
       "has_solution": true,
       "missing_labels": [],
@@ -732,9 +903,19 @@
         "skipped": 27
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:16",
+        "source_sha256": "22e33d09d8c2adca056b74ba80d198950299253b3d25bbbe2a2a57daa647098b",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct derivation. Fixed: the problem and discussion now state the condition that the enclosed mass is the same for the orbits compared.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:17",
@@ -745,7 +926,7 @@
       "kind": "problems-exercises",
       "ordinal": 17,
       "source_sha256": "6e3c270fb0ba69c73374157ff16845af47fdc3cb852f58ac8e1acae560a40b4d",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "The core of a star collapses during a supernova, forming a neutron star. Angular momentum of the core is conserved, and so the neutron star spins rapidly. If the initial core radi…",
       "has_solution": true,
       "missing_labels": [
@@ -758,9 +939,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:17",
+        "source_sha256": "6e3c270fb0ba69c73374157ff16845af47fdc3cb852f58ac8e1acae560a40b4d",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "With conserved angular momentum and unchanged mass and dimensionless moment-of-inertia coefficient, I is proportional to R². Thus the rotation frequency increases by (Ri/Rf)². This produces the supplied frequency at the precision of the initial radius.",
+        "calculation_check": "Ri/Rf = 5.0 × 10^5 km / 10.0 km = 50,000. Therefore ff = (50,000)²/(30.0 × 86,400 s) = 964.506 rev/s, which rounds to 960 rev/s.",
+        "assumptions": "Negligible external torque and angular-momentum loss; unchanged mass; similar internal mass distributions before and after collapse; rigid rotation and a Newtonian moment-of-inertia estimate. A realistic neutron-star model would require additional structure and relativistic information.",
+        "notes": "The frequency is correct under the intended conserved-angular-momentum, similar-structure approximation.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:10:52+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:18",
@@ -770,20 +964,30 @@
       "end_line": 1053,
       "kind": "problems-exercises",
       "ordinal": 18,
-      "source_sha256": "e1739ea65ffc6331cbe6171659d2ff5b9eeaa86c61115654553f076b55ef9209",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "4b5db25d2320eac428956058550a3cfe138ac1c9beff0580e1bf3e830286edad",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Using data from the previous problem, find the increase in rotational kinetic energy, given the core's mass is 1.3 times that of our Sun. Where does this increase in kinetic energ…",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 23,
+        "skipped": 24,
         "checked": 12
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:18",
+        "source_sha256": "4b5db25d2320eac428956058550a3cfe138ac1c9beff0580e1bf3e830286edad",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct energy increase and source. Fixed: the 99% neutrino share is described as typical, and a uniform-sphere estimate (2.7×10⁴⁶ J released) shows this fast rotation takes about 7%.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:19",
@@ -794,7 +998,7 @@
       "kind": "problems-exercises",
       "ordinal": 19,
       "source_sha256": "b864d8aa2e0487c47e67afc84e97bfa9011b061c023b2b04996d247aea17df3a",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "Distances to the nearest stars (up to 500 ly away) can be measured by a technique called parallax, as shown in [[Figure 2]](#Figure2). What are the angles $${\\theta }_{1} $$ and $…",
       "has_solution": true,
       "missing_labels": [
@@ -807,9 +1011,22 @@
         "skipped": 4
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:19",
+        "source_sha256": "b864d8aa2e0487c47e67afc84e97bfa9011b061c023b2b04996d247aea17df3a",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The inspected parallax SVG places the star above the Sun and the two Earth positions at opposite ends of an orbital diameter. Each Earth–Sun–star triangle has horizontal leg 1 AU and perpendicular leg 4 ly. Symmetry therefore gives θ₁ = θ₂ = arctan(4 ly/1 AU), agreeing with the supplied value for both angles.",
+        "calculation_check": "Using 1 AU = 1.495978707 × 10^11 m and 1 ly = 9.460730473 × 10^15 m gives θ₁ = θ₂ = 89.9997735025°. The complementary annual parallax angle is approximately 0.8154 arcsec.",
+        "assumptions": "Circular Earth orbit of radius 1 AU; the star lies on the normal through the Sun; angles are measured upward from the orbital plane toward the star.",
+        "notes": "The answer correctly applies to both angles. The Figure 2 reference points to a Milky Way image; the matching parallax geometry is in Figure_34_01_09.svg, labeled Figure 9.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:10:52+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:20",
@@ -820,7 +1037,7 @@
       "kind": "problems-exercises",
       "ordinal": 20,
       "source_sha256": "ca80959fcf84082a263370708730e3b5c522e68b0d150bf29ba2f52473451434",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "(a) Use the Heisenberg uncertainty principle to calculate the uncertainty in energy for a corresponding time interval of $$ 10^{-43} \\text{s} $$ . (b) Compare this energy with the…",
       "has_solution": true,
       "missing_labels": [
@@ -832,9 +1049,22 @@
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:20",
+        "source_sha256": "ca80959fcf84082a263370708730e3b5c522e68b0d150bf29ba2f52473451434",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Using the stipulated energy–time uncertainty estimate gives the stated energy scale. The Discussion correctly explains the similarity through E_P t_P = ħ and appropriately distinguishes an expected quantum-gravity scale from established unification of all forces.",
+        "calculation_check": "ħ/(2 × 10^-43 s) = 5.27286 × 10^8 J = 3.29106 × 10^18 GeV. This is 0.329 times the problem's approximate 10^19 GeV. Independently calculated Planck values are t_P = 5.391 × 10^-44 s and E_P = 1.2209 × 10^19 GeV, whose product is ħ.",
+        "assumptions": "The uncertainty relation supplies an order-of-magnitude characteristic energy, using approximate saturation. Energy–time uncertainty is not a universal assertion that an arbitrary time interval uniquely fixes an energy uncertainty.",
+        "notes": "Both parts and the Planck-scale explanation are correct, with appropriate qualification of the estimate and unification hypothesis.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:10:52+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:21",
@@ -844,8 +1074,8 @@
       "end_line": 1174,
       "kind": "problems-exercises",
       "ordinal": 21,
-      "source_sha256": "763576edb4020f51971412d7ca9944f6d60f1ae1c2a68bb8958cd0d870558425",
-      "file_sha256": "b030d0402e53339e7338d4b5ca36f76288244e6d7e022799f92881e826bc637d",
+      "source_sha256": "f29fae3203945128d00902e90ebf85e27d8b2b48132b5e829e0e3c49a93eccb8",
+      "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
       "preview": "**Construct Your Own Problem** Consider a star moving in a circular orbit at the edge of a galaxy. Construct a problem in which you calculate the mass of that galaxy in kg and in…",
       "has_solution": true,
       "missing_labels": [],
@@ -855,9 +1085,19 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34CosmologyAndParticlePhysics.md::problems-exercises:21",
+        "source_sha256": "f29fae3203945128d00902e90ebf85e27d8b2b48132b5e829e0e3c49a93eccb8",
+        "file_sha256": "e641ecbdd37cb14b5807d9e4968fbdd10585ece385ed19b16963f92baa2fc606",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct construction and mass. Fixed: the history now says flat rotation curves were established in the 1970s by Vera Rubin, Kent Ford, and others.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "ambiguous",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34DarkMatterAndClosure.md::conceptual-questions:1",
@@ -868,7 +1108,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "44533ae4d5c51a6da0e6c43590d0adf56bd3f25659f56cb2f10a053962bae02f",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "Discuss the possibility that star velocities at the edges of galaxies being greater than expected is due to unknown properties of gravity rather than to the existence of dark matt…",
       "has_solution": false,
       "missing_labels": [
@@ -892,7 +1132,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "091c91935406f817aeade6dccd7514ad3ae772c23ffd74abf105be1bc620cd9b",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "How does relativistic time dilation prohibit neutrino oscillations if they are massless?",
       "has_solution": false,
       "missing_labels": [
@@ -916,7 +1156,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "b22c70c5c1caea1b14698210c99c180c8bd6468251f760117c02455b31393512",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "If neutrino oscillations do occur, will they violate conservation of the various lepton family numbers ( $${L}_{e} $$ , $${L}_{\\mu } $$ , and $${L}_{\\tau } $$ ) ? Will neutrino os…",
       "has_solution": false,
       "missing_labels": [
@@ -942,7 +1182,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "1df4e17df04f2c6b1700699999fe9db1372ce10c5f640a39926ce8d5d8ade0dc",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "Lacking direct evidence of WIMPs as dark matter, why must we eliminate all other possible explanations based on the known forms of matter before we invoke their existence?",
       "has_solution": false,
       "missing_labels": [
@@ -966,7 +1206,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "347d525fdced4fb31675efff1d27691ff2adfe2967273ac0ed523d3833ffc8c9",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "If the dark matter in the Milky Way were composed entirely of MACHOs (evidence shows it is not), approximately how many would there have to be? Assume the average mass of a MACHO…",
       "has_solution": true,
       "missing_labels": [
@@ -979,9 +1219,22 @@
         "skipped": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:1",
+        "source_sha256": "347d525fdced4fb31675efff1d27691ff2adfe2967273ac0ed523d3833ffc8c9",
+        "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The stipulated luminous mass is the star count times the average stellar mass. Multiplying by ten gives the assumed dark mass, and dividing by the average MACHO mass gives its required count. Solar-mass units cancel.",
+        "calculation_check": "Luminous mass = 10^11 × 1.5 solar masses = 1.5 × 10^11 solar masses. Dark mass = 1.5 × 10^12 solar masses. Required count = (1.5 × 10^12)/(10^-3) = 1.5 × 10^15.",
+        "assumptions": "The stated stellar population represents the luminous mass for this estimate, and every hypothetical MACHO contributes the given average mass. The problem explicitly identifies the all-MACHO scenario as counterfactual.",
+        "notes": "The required MACHO count is correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:10:52+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:2",
@@ -991,8 +1244,8 @@
       "end_line": 226,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "2ce75c827cac4596693005863b191c43dc045b2d3bed11608216dac76e55038a",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "source_sha256": "a6dfb075f14a3f6503fae533b8e3248a5303723058a47450997225a6a09cc438",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "The critical mass density needed to just halt the expansion of the universe is approximately $$ 10^{-26} \\text{kg}/{\\text{m}}^{3} $$. (a) Convert this to $$\\text{eV}/{c}^{2}\\cdot…",
       "has_solution": true,
       "missing_labels": [],
@@ -1002,9 +1255,19 @@
         "checked": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:2",
+        "source_sha256": "a6dfb075f14a3f6503fae533b8e3248a5303723058a47450997225a6a09cc438",
+        "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Both answers correct. Fixed: the critical density is about 11,000 electron masses (6 proton masses) per m³, not a tiny fraction of one; the halting-expansion meaning is limited to a matter-only universe.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:3",
@@ -1015,7 +1278,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "136f047af4f950ac30eca7f8588c0977d7956d0724085bbc072a80677c8290a0",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "Assume the average density of the universe is 0.1 of the critical density needed for closure. What is the average number of protons per cubic meter, assuming the universe is compo…",
       "has_solution": true,
       "missing_labels": [
@@ -1028,9 +1291,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:3",
+        "source_sha256": "136f047af4f950ac30eca7f8588c0977d7956d0724085bbc072a80677c8290a0",
+        "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Using the preceding critical-density value, the assumed average hydrogen density is 10^-27 kg/m³. Each ordinary hydrogen atom supplies one proton, so dividing by approximately one proton mass gives the requested proton number density.",
+        "calculation_check": "n = (0.1 × 10^-26 kg/m³)/(1.67262 × 10^-27 kg) = 0.59786 m^-3, agreeing with 0.6 m^-3. Including the electron in the hydrogen-atom mass changes this by much less than the warranted precision.",
+        "assumptions": "The stipulated average mass density is attributed to hydrogen, with helium and other components neglected. The calculation uses critical density only as a numerical density scale and does not require a conclusion about future expansion.",
+        "notes": "The proton number density is correct under the stated hydrogen approximation.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:10:52+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:4",
@@ -1040,8 +1316,8 @@
       "end_line": 341,
       "kind": "problems-exercises",
       "ordinal": 4,
-      "source_sha256": "4d35b9b09101be1df0dd3339bc4f05805aaa575bfe377bad39c1e6c1755a99aa",
-      "file_sha256": "bcdd025e627300c48eee3daf840d790c9bd9a545fb2698ea3ab58881c1c42172",
+      "source_sha256": "062ef5a30b75624198478210de2c721d02a93005936a44f60c4d0b44bde8dbcf",
+      "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
       "preview": "To get an idea of how empty deep space is on the average, perform the following calculations: (a) Find the volume our Sun would occupy if it had an average density equal to the cr…",
       "has_solution": true,
       "missing_labels": [],
@@ -1051,9 +1327,19 @@
         "checked": 8
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34DarkMatterAndClosure.md::problems-exercises:4",
+        "source_sha256": "062ef5a30b75624198478210de2c721d02a93005936a44f60c4d0b44bde8dbcf",
+        "file_sha256": "28665b79860c603323a32454a9b10a9b96d8a4a1415c42bcefa25433db12abde",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "All parts correct. Fixed: critical density is tied to halting expansion only in a matter-only universe (flatness with dark energy); the 'matter dominated' remark is removed; dark matter is supported by separate gravitational evidence, not by the luminous deficit alone.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::conceptual-questions:1",
@@ -1064,7 +1350,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "89625af25978929429b0ef55d60caa5f9eaab93f1cb4b6ad9d9460e90f6162b0",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Quantum gravity, if developed, would be an improvement on both general relativity and quantum mechanics, but more mathematically difficult. Under what circumstances would it be ne…",
       "has_solution": false,
       "missing_labels": [
@@ -1088,7 +1374,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "038e508530f8e44c279ad4944df9e4543032103ba78e7f2ac78a5fde7588f5ca",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Does observed gravitational lensing correspond to a converging or diverging lens? Explain briefly.",
       "has_solution": false,
       "missing_labels": [
@@ -1112,7 +1398,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "aede5326d0f8e2e6a0eb25a5872c5182b5848218ebb393ad62a390a6d29e44ce",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Suppose you measure the red shifts of all the images produced by gravitational lensing, such as in [[Figure 3]](#Figure3). You find that the central image has a red shift less tha…",
       "has_solution": false,
       "missing_labels": [
@@ -1136,7 +1422,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "bbb36b60f8fe01b817e2c48b90a076eeaa4e7f007e42c43f68916bd2dd038488",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "What are gravitational waves, and have they yet been observed either directly or indirectly?",
       "has_solution": false,
       "missing_labels": [
@@ -1160,7 +1446,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "463e0d8d70eeaa15fcbe9993a27c6d5d5947ac2085dae9de5e33c7929d31441e",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Is the event horizon of a black hole the actual physical surface of the object?",
       "has_solution": false,
       "missing_labels": [
@@ -1184,7 +1470,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "d3a41aa766eb9b718d0fa9d2c2b57b6c4f09864fad024772da4d62a31a05ad5f",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Suppose black holes radiate their mass away and the lifetime of a black hole created by a supernova is about $$ 10^{67} $$ years. How does this lifetime compare with the accepted…",
       "has_solution": false,
       "missing_labels": [
@@ -1210,7 +1496,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "441beb0afca09df94ce3b29dc6ab65dc8d6682c312771227064ec5f0148414cf",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "What is the Schwarzschild radius of a black hole that has a mass eight times that of our Sun? Note that stars must be more massive than the Sun to form black holes as a result of…",
       "has_solution": true,
       "missing_labels": [
@@ -1221,9 +1507,22 @@
       "markup_flags": [],
       "automatic": {},
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:1",
+        "source_sha256": "441beb0afca09df94ce3b29dc6ab65dc8d6682c312771227064ec5f0148414cf",
+        "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "For a nonrotating, uncharged black hole, the Schwarzschild horizon radius is R_S=2GM/c^2 and scales linearly with mass. Substituting eight solar masses gives the supplied radius. The supernova qualification is consistent with the need for a sufficiently massive stellar progenitor.",
+        "calculation_check": "With G=6.67430e-11 m^3/(kg s^2), M_sun=1.98847e30 kg, and c=299792458 m/s, R_S=2G(8M_sun)/c^2=2.36267e4 m=23.63 km. The units reduce to length.",
+        "assumptions": "Schwarzschild geometry, negligible charge and angular momentum, and mass equal to eight solar masses. The requested radius is the horizon radius, not its diameter.",
+        "notes": "The answer 23.6 km is correct under the intended Schwarzschild model.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:14:31+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:2",
@@ -1233,20 +1532,30 @@
       "end_line": 377,
       "kind": "problems-exercises",
       "ordinal": 2,
-      "source_sha256": "d6ed7c061260e8fafae1eb6bc3a635680113495804945c404e26ae940bdf709f",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "source_sha256": "4f4ded867ba3565f9148189e80973c8ebfc96ac167a44dc3c5a1497f4596afc2",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Black holes with masses smaller than those formed in supernovas may have been created in the Big Bang. Calculate the radius of one that has a mass equal to the Earth's.",
       "has_solution": true,
       "missing_labels": [],
       "markup_flags": [],
       "automatic": {
-        "skipped": 14,
+        "skipped": 17,
         "checked": 2
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:2",
+        "source_sha256": "4f4ded867ba3565f9148189e80973c8ebfc96ac167a44dc3c5a1497f4596afc2",
+        "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "notes": "Correct 8.8 mm. Fixed: the 2×10³⁰ kg/m³ value is an average over the horizon, not a core density, and falls as 1/M² (a billion-solar-mass hole is less dense than water on average).",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
+        "supersedes_verdict": "concern",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:3",
@@ -1257,7 +1566,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "207f30f588dc0f1b7c5c8db5aea46a1adc611191cdfcf9a9ddf82db602e16306",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "Supermassive black holes are thought to exist at the center of many galaxies. (a) What is the radius of such an object if it has a mass of $$10^{9} $$ Suns? (b) What is this radiu…",
       "has_solution": true,
       "missing_labels": [
@@ -1270,9 +1579,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:3",
+        "source_sha256": "207f30f588dc0f1b7c5c8db5aea46a1adc611191cdfcf9a9ddf82db602e16306",
+        "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "Applying R_S=2GM/c^2 to one billion solar masses gives the requested horizon radius. Dividing that length by the number of meters per light year correctly answers part (b). Both requested parts are supplied.",
+        "calculation_check": "Using standard constants gives R_S=2.95334e12 m. Dividing by 9.46e15 m/ly gives 3.12192e-4 ly, agreeing with both supplied answers.",
+        "assumptions": "The black hole is modeled as nonrotating and uncharged, and 'radius' denotes the Schwarzschild horizon radius.",
+        "notes": "Both the meter value and light-year conversion are correct.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:14:31+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:4",
@@ -1283,7 +1605,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "cb4c8c9b916b5b8de87ca02f23b361d501fa513f631ce344602fae1bdf029a3d",
-      "file_sha256": "ea6a85eeda9f0f35685df1070150e067945e4971aaca37c353cc91bf0ab31ed4",
+      "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
       "preview": "**Construct Your Own Problem** Consider a supermassive black hole near the center of a galaxy. Calculate the radius of such an object based on its mass. You must consider how much…",
       "has_solution": true,
       "missing_labels": [],
@@ -1293,9 +1615,22 @@
         "checked": 6
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34GeneralRelativityAndQuantumTheory.md::problems-exercises:4",
+        "source_sha256": "cb4c8c9b916b5b8de87ca02f23b361d501fa513f631ce344602fae1bdf029a3d",
+        "file_sha256": "8aa335a775c164fa827af4fe2b815e6dc2bcd1b1bcd9380effc766f8748a8957",
+        "verdict": "appropriate",
+        "confidence": "medium",
+        "reasoning_check": "The sample constructs a suitable mass-based problem and answers all three chosen subparts. Its adopted four-million-solar-mass estimate is also consistent with the value stated elsewhere in the textbook. The Schwarzschild calculation, astronomical comparisons, and M^-2 density scaling are correct. The explicit warning that the Euclidean density scale is not a uniform local interior density is physically valuable. The stated mass range gives the stated approximate radius range. The Neptune comparison is loose: the upper radius is approximately 6.6 Neptune orbital radii rather than five, but this does not materially change the deliberately approximate scale comparison.",
+        "calculation_check": "With the solution's constants, M=8.0e36 kg and R_S=1.18578e10 m=1.18578e7 km=0.07905 AU. This is 17.0 solar radii and lies well inside Mercury's stated 0.39 AU orbit. M/(4*pi*R_S^3/3)=1.1455e6 kg/m^3, approximately 1100 times water density. Masses of 1e5 and 1e10 solar masses give radii of 2.964e5 and 2.964e10 km. The chapter 6 orbital table gives Neptune's orbital radius as 4.497e9 km, yielding an upper-radius ratio of 6.59.",
+        "assumptions": "The adopted observational mass is treated as an input, with negligible charge and a Schwarzschild approximation to a potentially rotating object. The stellar-orbit observational attribution and the specific M87/EHT mass, date, and observational-confirmation claims were not independently verified against observational sources; no external access was used.",
+        "notes": "The constructed problem, answers, and qualified density discussion are sound. The Neptune comparison is approximate; specific observational claims remain independently unverified.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T15:14:31+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
+      },
+      "previous_review_count": 2
     },
     {
       "id": "contents/ch34HighTemperatureSuperconductors.md::conceptual-questions:1",
@@ -1393,9 +1728,22 @@
         "skipped": 1
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34HighTemperatureSuperconductors.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "The nitrogen consumption costs $0.30 per hour. At $0.10 per kW·h, equal electrical waste costs correspond to 3.0 kW of resistive heating. Using P=I^2R at the stated 100 A gives the supplied resistance.",
+        "calculation_check": "In one hour, equal cost purchases 0.30/0.10=3.0 kW·h, so P=3000 W. Thus R=3000/(100^2)=0.30 ohm. W/A^2 has units of ohms.",
+        "assumptions": "Steady current, constant normal-wire resistance, and comparison restricted to the stated nitrogen expense and electrical heating expense. Other cooling, installation, and operating costs are excluded by the exercise.",
+        "notes": "The equal-cost resistance of 0.30 ohm is correct.",
+        "source_sha256": "aed3b9eb90fcf13d076d30dae86eb64f2efe69f3e600e1bccecf3a0c11806af7",
+        "file_sha256": "7e02b59e38fb7e7aaa2a3d6c2048d78d0b5543fae7e68ce2071c27971f8f8f05",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T151151Z-bea2ee",
+        "reviewed_at": "2026-10-24T15:14:31+00:00"
+      },
+      "previous_review_count": 1
     },
     {
       "id": "contents/ch34SomeQuestionsWeKnowToAsk.md::conceptual-questions:1",
@@ -1467,9 +1815,22 @@
         "skipped": 3
       },
       "automatic_flags": [],
-      "review_status": "pending",
-      "review": null,
-      "previous_review_count": 0
+      "review_status": "appropriate",
+      "review": {
+        "id": "contents/ch34Superstrings.md::problems-exercises:1",
+        "verdict": "appropriate",
+        "confidence": "high",
+        "reasoning_check": "A photon of the specified wavelength has energy E=hc/lambda. Conversion to GeV and division by the supplied unification energy give the requested results. The answers are appropriate one-significant-figure estimates for the approximate length scale. The exercise does not establish that strings or the stipulated unification scale have been experimentally verified.",
+        "calculation_check": "E=(6.62607015e-34 J s)(299792458 m/s)/(1e-35 m)=1.98645e10 J. Dividing by 1.602176634e-10 J/GeV gives 1.23984e20 GeV. Its ratio to 1e19 GeV is 12.4, which rounds to approximately 10 at the precision used.",
+        "assumptions": "The stated characteristic length is used as a photon wavelength, and the stated unification energy is adopted as a hypothetical comparison scale. The bare numerical answer in part (a) is understood to carry the requested GeV units.",
+        "notes": "Both answers are correct at the intended approximate precision.",
+        "source_sha256": "8748aa35a8c2b8bd59f1e68c7b9a8aea21c5a00432bbd2ec0ba3d1408534f492",
+        "file_sha256": "d1d409428bc34be488b9fbc7d7f084d499e1b971bee9e94d707b2ae13806b460",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T151151Z-bea2ee",
+        "reviewed_at": "2026-10-24T15:14:31+00:00"
+      },
+      "previous_review_count": 1
     }
   ]
 }

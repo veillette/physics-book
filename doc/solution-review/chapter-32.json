@@ -1,6 +1,6 @@
 {
   "chapter": 32,
-  "checked_at": "2026-10-24T14:47:20+00:00",
+  "checked_at": "2026-10-24T17:04:02+00:00",
   "summary": {
     "total": 950,
     "checked": 177,
@@ -41,7 +41,7 @@
       "kind": "worked-example",
       "ordinal": 1,
       "source_sha256": "828fde83adb1b70d1694c651d0daa401699c2b886804b7ed2dc3b34d34c67f09",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "::: example Dose from Inhaled Plutonium Calculate the dose in rem/y for the lungs of a weapons plant employee who inhales and retains an activity of $$1.00 \\text{μCi of} {}^{239}\\…",
       "has_solution": true,
       "missing_labels": [],
@@ -68,18 +68,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::worked-example:1",
         "source_sha256": "828fde83adb1b70d1694c651d0daa401699c2b886804b7ed2dc3b34d34c67f09",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The deposited energy is activity times elapsed time times alpha energy. Dividing by the affected lung mass gives absorbed dose; multiplying by the stipulated radiation weighting factor gives lung equivalent dose. The solution follows this sequence and correctly distinguishes organ equivalent dose from whole-body effective dose and a prediction of tissue injury.",
-        "calculation_check": "Using the supplied constants gives 1.1692×10^12 decays/y, 0.978387 J/y, 0.489193 Gy/y, and 9.78387 Sv/y = 978.387 rem/y, consistent with 980 rem/y.",
-        "assumptions": "The activity remains in the lungs, biological clearance is neglected, all stated alpha energy is absorbed in 2.00 kg, and radioactive depletion over one year is negligible compared with the approximately 24,120-year half-life. The dose is averaged over the specified tissue mass.",
-        "notes": "Correct annual lung-dose calculation and appropriate explanation of the limits of equivalent dose.",
+        "reasoning_check": "The deposited energy is activity times elapsed time times alpha energy. Dividing by the affected lung mass gives absorbed dose; multiplying by the stated radiation weighting factor gives lung equivalent dose. The solution follows this sequence correctly. The discussion properly distinguishes organ equivalent dose from whole-body effective dose and from a prediction of tissue injury.",
+        "calculation_check": "Using the stated constants gives 1.1692×10^12 decays/y, 0.97838656 J/y, and 0.48919328 Gy/y. Multiplication by 20 and then 100 rem/Sv gives 9.7838656 Sv/y = 978.38656 rem/y, consistent with 980 rem/y.",
+        "assumptions": "The activity remains retained in the lungs, all stated alpha energy is absorbed in 2.00 kg of tissue, and the calculation represents the mean dose to that mass. Radioactive activity changes negligibly over one year given the approximately 24,120-year half-life.",
+        "notes": "Correct annual lung-dose calculation and appropriate distinctions among absorbed, equivalent, and effective dose.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::conceptual-questions:1",
@@ -90,7 +90,7 @@
       "kind": "conceptual-questions",
       "ordinal": 1,
       "source_sha256": "5240a3ebd8fa18268c474732fe49a16db61872ff9b942c1e95bea59aab430d1b",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Isotopes that emit $$\\alpha $$ radiation are relatively safe outside the body and exceptionally hazardous inside. Yet those that emit $$\\gamma $$ radiation are hazardous outside a…",
       "has_solution": false,
       "missing_labels": [
@@ -116,7 +116,7 @@
       "kind": "conceptual-questions",
       "ordinal": 2,
       "source_sha256": "363c3754effedef3cdd564cbd5b0eb30bc9bc39e1581f66bc8141e3d641cc973",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Why is radon more closely associated with inducing lung cancer than other types of cancer?",
       "has_solution": false,
       "missing_labels": [
@@ -140,7 +140,7 @@
       "kind": "conceptual-questions",
       "ordinal": 3,
       "source_sha256": "91f4543d88c4f8500abbe1e9045bae19ce56521f5bd0c55693428a8365f73429",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "The RBE for low-energy $$\\beta $$ s is 1.7, whereas that for higher-energy $$\\beta $$ s is only 1. Explain why, considering how the range of radiation depends on its energy.",
       "has_solution": false,
       "missing_labels": [
@@ -166,7 +166,7 @@
       "kind": "conceptual-questions",
       "ordinal": 4,
       "source_sha256": "b6f01a0c5504b0d44f14304b3946f0a4ed3e05c992d44868ec540fd5ca14525f",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Which methods of radiation protection were used in the device shown in the first photo in [[Figure 3]](#Figure3)? Which were used in the situation shown in the second photo? (a) !…",
       "has_solution": false,
       "missing_labels": [
@@ -190,7 +190,7 @@
       "kind": "conceptual-questions",
       "ordinal": 5,
       "source_sha256": "f5b564d15b3d001ddbbefa77982f9cbbf3cca1c043830e39ee38a95abe5daf76",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "What radioisotope could be a problem in homes built of cinder blocks made from uranium mine tailings? (This is true of homes and schools in certain regions near uranium mines.)",
       "has_solution": false,
       "missing_labels": [
@@ -214,7 +214,7 @@
       "kind": "conceptual-questions",
       "ordinal": 6,
       "source_sha256": "0789a967631d5f1d30fa199aef3e1a78ac34c540954e6e786505d8371872a220",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Are some types of cancer more sensitive to radiation than others? If so, what makes them more sensitive?",
       "has_solution": false,
       "missing_labels": [
@@ -238,7 +238,7 @@
       "kind": "conceptual-questions",
       "ordinal": 7,
       "source_sha256": "bec3ff9ae557e9bb6c5b7acbb9bc9a1a75ed2483d197013dcadb26c4a35f3813",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Suppose a person swallows some radioactive material by accident. What information is needed to be able to assess possible damage?",
       "has_solution": false,
       "missing_labels": [
@@ -262,7 +262,7 @@
       "kind": "problems-exercises",
       "ordinal": 1,
       "source_sha256": "4188b84768d65e03f79494f048e9ca1511b5fe6a2954cb8cd5a6fe1e9ceb747c",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "What is the equivalent dose in mSv for: (a) 0.1 Gy of x-rays? (b) 2.5 mGy of neutrons, assuming $$w_R=10$$ at the neutron energy used? (c) 1.5 mGy of $$\\alpha $$ exposure?",
       "has_solution": true,
       "missing_labels": [
@@ -280,18 +280,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:1",
         "source_sha256": "4188b84768d65e03f79494f048e9ca1511b5fe6a2954cb8cd5a6fe1e9ceb747c",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "For each radiation type, equivalent dose is H=w_R D. The inspected Table 1 supplies factors 1 for x-rays and 20 for alpha particles; the problem supplies 10 for neutrons. All three parts use the appropriate factor.",
-        "calculation_check": "(a) 1×0.1 Gy corresponds to 0.1 Sv = 100 mSv. (b) 10×2.5 mGy corresponds to 25 mSv. (c) 20×1.5 mGy corresponds to 30 mSv.",
-        "assumptions": "Each absorbed dose refers to the tissue whose equivalent dose is requested, and the stipulated neutron weighting factor applies at the stated neutron energy.",
-        "notes": "All three equivalent-dose conversions are correct.",
+        "reasoning_check": "For each radiation type, equivalent dose is H=w_R D. The chapter's Table 1 directly confirms factors of 1 for x-rays and 20 for alpha particles; the neutron factor of 10 is explicitly supplied. All three requested parts are answered.",
+        "calculation_check": "(a) 1×0.1 Gy = 0.1 Sv = 100 mSv. (b) 10×2.5 mGy = 25 mSv. (c) 20×1.5 mGy = 30 mSv.",
+        "assumptions": "Each absorbed dose refers to the tissue whose equivalent dose is requested. The supplied neutron weighting factor applies at the stated neutron energy.",
+        "notes": "All three weighting-factor calculations and unit conversions are correct.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:2",
@@ -302,7 +302,7 @@
       "kind": "problems-exercises",
       "ordinal": 2,
       "source_sha256": "d0762425704cb91573a9884402bb0dfebdef5237c23b0ae151e9663d3eec4a19",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Find the radiation dose in Gy for: (a) A 10-mSv fluoroscopic x-ray series. (b) 50 mSv of skin exposure by an $$\\alpha $$ emitter. (c) 160 mSv of $${\\beta }^{-} $$ and $$\\gamma $$…",
       "has_solution": true,
       "missing_labels": [],
@@ -316,18 +316,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:2",
         "source_sha256": "d0762425704cb91573a9884402bb0dfebdef5237c23b0ae151e9663d3eec4a19",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Inverting H=w_R D gives D=H/w_R. Photons and beta electrons have weighting factor 1, so the combined beta/gamma contribution in part (c) requires no knowledge of their relative contributions. Alpha radiation requires division by 20. The discussion correctly distinguishes radiation weighting factors from measured RBE and absorbed dose from equivalent dose.",
-        "calculation_check": "(a) 0.010 Sv/1 gives 0.010 Gy. (b) 0.050 Sv/20 gives 0.0025 Gy. (c) 0.160 Sv/1 gives 0.160 Gy.",
-        "assumptions": "The supplied mSv values are equivalent doses to the relevant tissue, rather than effective doses assembled from different organ doses. Part (b) concerns energy actually absorbed in skin; it does not assume that external alpha particles penetrate deeply.",
-        "notes": "All conversions and the discussion are correct under the intended equivalent-dose interpretation.",
+        "reasoning_check": "Interpreting the supplied sievert values as equivalent doses, inversion of H=w_R D gives D=H/w_R. X-rays, beta particles, and gamma rays all have factor 1 in the inspected table. Because both components in part (c) have the same factor, their relative contributions need not be specified. The discussion correctly distinguishes protection weighting factors from endpoint-dependent RBE.",
+        "calculation_check": "(a) 0.010 Sv/1 = 0.010 Gy. (b) 0.050 Sv/20 = 0.0025 Gy. (c) 0.160 Sv/1 = 0.160 Gy.",
+        "assumptions": "The mSv values represent equivalent dose to the relevant tissue, rather than effective dose combining differently exposed organs. The skin exposure in part (b) specifies dose actually deposited, irrespective of alpha penetration.",
+        "notes": "Correct conversions under the solution's explicit equivalent-dose interpretation.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:3",
@@ -338,7 +338,7 @@
       "kind": "problems-exercises",
       "ordinal": 3,
       "source_sha256": "56eb6e5a85b2d510633ba5826f9c2383d0d399f9ed53bc813aa2c85b982cdeb5",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "What absorbed dose in Gy corresponds to an equivalent dose of 40 mSv from alpha particles? Use the radiation weighting factor in Table 1.",
       "has_solution": true,
       "missing_labels": [
@@ -356,18 +356,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:3",
         "source_sha256": "56eb6e5a85b2d510633ba5826f9c2383d0d399f9ed53bc813aa2c85b982cdeb5",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The inspected Table 1 gives w_R=20 for alpha particles. Solving H=w_R D for absorbed dose therefore requires dividing the equivalent dose by 20.",
-        "calculation_check": "D=0.040/20=0.0020 Gy=2.0 mGy. Multiplying this absorbed dose by 20 recovers 40 mSv.",
-        "assumptions": "The equivalent and absorbed doses describe the same tissue and exclusively alpha radiation.",
-        "notes": "Correct relation, conversion, and result.",
+        "reasoning_check": "The inspected Table 1 gives w_R=20 for alpha particles. Therefore the absorbed dose is the specified equivalent dose divided by 20, exactly as in the solution.",
+        "calculation_check": "40 mSv = 0.040 Sv; 0.040/20 = 0.0020 Gy = 2.0 mGy. Multiplying this absorbed dose by 20 recovers 40 mSv.",
+        "assumptions": "The equivalent dose arises entirely from alpha particles and refers to the same tissue as the requested absorbed dose.",
+        "notes": "Correct inverse weighting-factor calculation.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:4",
@@ -378,7 +378,7 @@
       "kind": "problems-exercises",
       "ordinal": 4,
       "source_sha256": "4df9059f4068411549566776d9e44496539d0e8fca6bfa3b4cab92305c246488",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "A localized gamma-ray treatment delivers an absorbed dose of 2.00 Gy per fraction to a tumor. How many fractions deliver 60.0 Gy? Explain why absorbed dose in Gy is used for this…",
       "has_solution": true,
       "missing_labels": [
@@ -395,18 +395,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:4",
         "source_sha256": "4df9059f4068411549566776d9e44496539d0e8fca6bfa3b4cab92305c246488",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Absorbed doses delivered to the same tumor region add, giving the number of fractions as total prescribed dose divided by dose per fraction. Gy measures deposited energy per mass and is the appropriate treatment quantity. The solution correctly explains why radiation-protection quantities in Sv do not prescribe tumor treatment and acknowledges biological and geometric considerations.",
-        "calculation_check": "60.0 Gy/(2.00 Gy/fraction)=30 fractions. The referenced therapy Table 1 was inspected and explicitly lists 60 Gy in 30 fractions.",
-        "assumptions": "Each fraction delivers the stated absorbed dose to the relevant tumor region. Adding physical doses does not imply that all fractionation schedules have identical biological effects.",
-        "notes": "Correct fraction count and explanation; the referenced table agrees.",
+        "reasoning_check": "Equal absorbed-dose increments to the tumor add, giving the required number of fractions as total dose divided by dose per fraction. The explanation correctly uses Gy for deposited energy per unit mass and identifies Sv quantities as radiation-protection quantities. It also appropriately acknowledges that equal total absorbed doses need not have equal biological effects under different fractionation schedules.",
+        "calculation_check": "60.0 Gy/(2.00 Gy/fraction) = 30 fractions. The inspected therapy Table 1 explicitly lists an illustrative 60-Gy course in 30 fractions.",
+        "assumptions": "Every fraction delivers the stated dose to the same tumor target. The calculation concerns accumulated physical absorbed dose, without asserting biological equivalence to other schedules.",
+        "notes": "Correct fraction count and sound explanation of the use of absorbed dose.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:5",
@@ -417,7 +417,7 @@
       "kind": "problems-exercises",
       "ordinal": 5,
       "source_sha256": "824635f1bee62d40474c69a567b4851d0ca7991ebe215ac38ff1769f8a1c0168",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "One half the $$\\gamma $$ rays from $${}^{99 \\text{m}}\\text{Tc} $$ are absorbed by a 0.170-mm-thick lead shielding. Half of the $$\\gamma $$ rays that pass through the first layer o…",
       "has_solution": true,
       "missing_labels": [
@@ -434,18 +434,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:5",
         "source_sha256": "824635f1bee62d40474c69a567b4851d0ca7991ebe215ac38ff1769f8a1c0168",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The stipulated repeated halving gives transmission T=2^(-x/h), where h=0.170 mm. Setting T=1/1000 gives x=h log2(1000). The stated answer solves this attenuation model.",
-        "calculation_check": "x=0.170×9.965784=1.69418 mm, consistent with 1.69 mm. Ten complete half-value layers would give 1.70 mm and transmission 1/1024.",
-        "assumptions": "The half-value thickness remains constant for the stated radiation. The model excludes scattering buildup and other departures from the stipulated exponential attenuation.",
+        "reasoning_check": "The stated repeated halving implies exponential transmission T=2^(-x/0.170 mm). Requiring T=1/1000 gives x=(0.170 mm)log2(1000), consistent with the supplied answer.",
+        "calculation_check": "log2(1000)=9.965784 half-value layers, so x=1.694183 mm, which rounds to 1.69 mm. Ten complete layers would give 1.70 mm and transmission 1/1024.",
+        "assumptions": "The same half-value thickness applies throughout homogeneous lead; the problem's idealized absorption model excludes scattered-photon buildup and spectral changes.",
         "notes": "Correct shielding thickness under the supplied repeated-halving model.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:6",
@@ -455,8 +455,8 @@
       "end_line": 846,
       "kind": "problems-exercises",
       "ordinal": 6,
-      "source_sha256": "44c097647278e2485192458461e21681e2159f5feb66b87344e423f67e9f3bc1",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "source_sha256": "2090b18449c3635a12b75f1230c800f6bb0c8999232650bfe1688951709782d3",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "A plumber at a nuclear power plant receives a whole-body dose of 30 mSv in 15 minutes while repairing a crucial valve. Find the radiation-induced yearly risk of death from cancer…",
       "has_solution": true,
       "missing_labels": [],
@@ -469,16 +469,16 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:6",
-        "source_sha256": "44c097647278e2485192458461e21681e2159f5feb66b87344e423f67e9f3bc1",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "source_sha256": "2090b18449c3635a12b75f1230c800f6bb0c8999232650bfe1688951709782d3",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "notes": "Correct annual risks. Fixed: the 30-year risk period now follows the latency period (2 y leukemia, 15 y other cancers); the genetic risk is labelled as the same simple model; 30 mSv is compared with the text's country-dependent 20–50 mSv/y limits rather than called the universal maximum.",
-        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch32)",
+        "notes": "Correct annual risks. Fixed (second pass): the genetic-defect chance now uses the text's lifetime estimate, about 100 per million per rem, giving about 300 in a million (0.03%) for offspring; latency and occupational-limit wording were fixed earlier.",
+        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch33-34)",
         "supersedes_verdict": "concern",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:7",
@@ -489,7 +489,7 @@
       "kind": "problems-exercises",
       "ordinal": 7,
       "source_sha256": "85671baaa0b4af8d4cec009f2f636dc8c5ec6be551ecfd719ac9118d7302202f",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "In the 1980s, the term picowave was used to describe food irradiation in order to overcome public resistance by playing on the well-known safety of microwave radiation. Find the e…",
       "has_solution": true,
       "missing_labels": [
@@ -504,18 +504,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:7",
         "source_sha256": "85671baaa0b4af8d4cec009f2f636dc8c5ec6be551ecfd719ac9118d7302202f",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "Photon energy follows E=hc/λ regardless of the marketing name assigned to the radiation. A wavelength of one picometer gives an ionizing photon energy in the MeV range, matching the solution.",
-        "calculation_check": "E=(6.62607015×10^-34 J·s)(299792458 m/s)/(10^-12 m)=1.98645×10^-13 J=1.23984 MeV, consistent with 1.24 MeV.",
-        "assumptions": "The specified picometer is a wavelength, with the usual vacuum photon relation. The historical marketing claim was not independently verified.",
-        "notes": "Correct photon-energy calculation; the historical premise was not externally checked.",
+        "reasoning_check": "Photon energy follows E=hc/λ. A wavelength of one picometer corresponds to a MeV-scale photon, so the supplied answer has the correct magnitude and answers the requested calculation.",
+        "calculation_check": "With λ=10^-12 m, E=(6.62607015×10^-34 J·s)(299792458 m/s)/(10^-12 m)=1.98644586×10^-13 J=1.23984198 MeV, agreeing with 1.24 MeV.",
+        "assumptions": "The specified wavelength is the vacuum wavelength. The historical claim about the marketing term 'picowave' is not needed for the calculation and was not independently established.",
+        "notes": "Correct photon-energy calculation; historical marketing preamble remains unverified.",
         "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:8",
@@ -526,7 +526,7 @@
       "kind": "problems-exercises",
       "ordinal": 8,
       "source_sha256": "85a3af7f3e921e80b68e183eb16edbb0f3961ea06261f1a0c946790b001e6c50",
-      "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+      "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
       "preview": "Find the mass of $${}^{239}\\text{Pu} $$ that has an activity of $$1.00 \\text{μCi} $$.",
       "has_solution": true,
       "missing_labels": [],
@@ -540,15 +540,18 @@
       "review": {
         "id": "contents/ch32BiologicalEffectsAndIonizingRadiation.md::problems-exercises:8",
         "source_sha256": "85a3af7f3e921e80b68e183eb16edbb0f3961ea06261f1a0c946790b001e6c50",
-        "file_sha256": "bdc614d2457435fbfe3a9e1d55488a2f8acd74403ca26a22588a71cb4a37db8c",
+        "file_sha256": "b6c6f93696429e3cdeed426cd78d5eceb3b040da4c68f7e639dd6b51cd198fb8",
         "verdict": "appropriate",
         "confidence": "high",
-        "notes": "Correct 16.1 μg. Fixed: the discussion drops the 'most toxic substance' and 'devastating' inferences, notes that a long half-life lowers activity per gram, and says equivalent dose measures risk rather than predicting a particular injury.",
-        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch32)",
-        "supersedes_verdict": "concern",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "reasoning_check": "Radioactive decay gives R=(ln 2/t_half)N, so N=Rt_half/ln 2 and m=NM/N_A. The solution applies these relations correctly. Its inverse relationship between half-life and activity per gram is sound. The approximately 10-Sv annual lung equivalent dose follows from the preceding example's absorption and tissue-mass assumptions. The lifetime irradiation claim is valid conditionally on continued retention; physical half-life alone does not establish biological retention.",
+        "calculation_check": "Using 24,120 y and 3.156×10^7 s/y gives t_half=7.612272×10^11 s, N=4.06341×10^16 nuclei, and m=1.61264×10^-5 g=16.1264 μg. The printed intermediate 7.614×10^11 s has an immaterial numerical discrepancy. Physical decay reduces activity by only about 0.23% over 80 years.",
+        "assumptions": "The activity is attributable to Pu-239 alone, its molar mass is approximately 239 g/mol, and the stated half-life applies. Continued annual lung dose additionally requires persistent retention, approximately fixed affected mass, and absorption of the alpha energy.",
+        "notes": "Correct mass of approximately 16.1 μg. Lifetime dose discussion requires the stated retained-particle condition and the worked example's lung-dose assumptions.",
+        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
+        "carried_from_reviewed_at": "2026-10-24T14:48:30+00:00",
+        "reviewed_at": "2026-10-24T17:02:33+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 4
     },
     {
       "id": "contents/ch32Fission.md#Example1",
@@ -571,19 +574,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch32Fission.md#Example1",
-        "source_sha256": "008323fec767db70209a864a36942e12166418fc601ed8b902af9a4b8297c520",
-        "file_sha256": "640a30288ca1f817434b7b9ba6091c98bc3cfb57b90a986183662851162ed8f4",
         "verdict": "appropriate",
         "confidence": "high",
-        "reasoning_check": "The reaction conserves nucleon number, 95+140+3=238, and charge, 38+54=92. Equal total electron numbers permit use of atomic masses. The initial-minus-final rest-mass difference is positive and gives the released energy. Neutron emission and product dependence support the qualitative discussion; the earlier 240 MeV estimate is a rough binding-energy-curve estimate rather than an exact prediction.",
-        "calculation_check": "The product mass is 94.919388+139.921610+3(1.008665)=237.866993 u. Thus Δm=0.183791 u and Q=0.183791×931.5=171.2013 MeV, agreeing with 171.2 MeV.",
-        "assumptions": "The supplied atomic masses describe the specified products. Q is the rest-mass energy release for this channel, excluding additional energy from later daughter decays; energy can be distributed among product kinetic energy and prompt radiation.",
-        "notes": "Correct conservation checks, atomic-mass accounting, and 171.2 MeV result. The 240 MeV comparison is appropriately treated as a rough estimate.",
-        "reviewer": "Codex CLI paced physics reasoning review (carried over by Claude Opus 5.5: block unchanged, file edited elsewhere)",
-        "carried_from_reviewed_at": "2026-10-24T13:39:41+00:00",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "reasoning_check": "Conservation of energy gives Q=(m_initial-m_final)c^2. Nucleon number is conserved, 238=95+140+3, and nuclear charge is conserved, 92=38+54. Atomic masses can be used because the electron counts balance. The solution correctly includes all three free neutron masses. Its discussion appropriately treats the preceding 240-MeV value as a rough binding-energy estimate and explains the relevance of emitted neutrons to chain reactions.",
+        "calculation_check": "Product mass is 94.919388+139.921610+3(1.008665)=237.866993 u. The mass difference is 0.183791 u, yielding Q=171.2013165 MeV. An independent binding-energy calculation gives the same difference. The extra digit in the displayed subtraction has no material effect.",
+        "assumptions": "The supplied atomic masses describe the specified final nuclides; the calculated Q is for this channel and excludes energy from their subsequent radioactive decays. The comparison with 240 MeV is qualitative because actual isotope binding energies determine the precise release.",
+        "notes": "Correct reaction bookkeeping and 171.2-MeV release; the earlier 240-MeV estimate is only approximate.",
+        "source_sha256": "008323fec767db70209a864a36942e12166418fc601ed8b902af9a4b8297c520",
+        "file_sha256": "640a30288ca1f817434b7b9ba6091c98bc3cfb57b90a986183662851162ed8f4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:48:30+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch32Fission.md#Example2",
@@ -607,16 +610,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch32Fission.md#Example2",
-        "source_sha256": "4df0e0d3e9a1746224f0b3ec5349d353f929b05f3dd099daabb577f2a7e769b2",
-        "file_sha256": "640a30288ca1f817434b7b9ba6091c98bc3cfb57b90a986183662851162ed8f4",
         "verdict": "appropriate",
         "confidence": "high",
-        "notes": "Correct 8.21×10¹³ J and fusion comparison. Fixed: the unqualified scarcity claim now notes that deuterium is plentiful but tritium must be bred from lithium.",
-        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch32)",
-        "supersedes_verdict": "concern",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "reasoning_check": "The number of fissions equals the number of U-235 atoms if the entire kilogram undergoes fission. Multiplying by the given average energy per fission gives total released energy. The discussion correctly explains why fewer reactions per kilogram outweigh the larger energy per individual fission. The linked D–T example specifies equal numbers of deuterium and tritium nuclei and gives approximately four times this energy per kilogram.",
+        "calculation_check": "1000/235.04=4.254595 mol, containing 2.562177×10^24 atoms. At 200 MeV per atom, E=8.21012×10^13 J. The linked fusion result divided by this is 4.10. The local energy table's 5.9×10^9 J/barrel gives approximately 13,915 barrels; the book's gasoline estimates give roughly 0.6–0.7 million gallons, consistent with a rough comparison.",
+        "assumptions": "The kilogram is pure U-235 and all of it fissions at the stated average yield. Released nuclear energy is distinguished from useful electrical output. The natural-uranium remark concerns readily usable U-235, not an inability to exploit U-238 through other fuel cycles.",
+        "notes": "Correct approximately 8.21×10^13-J result and per-kilogram comparison with D–T fusion; fuel comparisons are appropriately approximate.",
+        "source_sha256": "4df0e0d3e9a1746224f0b3ec5349d353f929b05f3dd099daabb577f2a7e769b2",
+        "file_sha256": "640a30288ca1f817434b7b9ba6091c98bc3cfb57b90a986183662851162ed8f4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:48:30+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch32Fission.md::conceptual-questions:1",
@@ -836,16 +842,19 @@
       "review_status": "appropriate",
       "review": {
         "id": "contents/ch32Fission.md::problems-exercises:1",
-        "source_sha256": "6315aac35556b9ff84a7609ce839f7f481213fa157217aade55a54a53513d106",
-        "file_sha256": "640a30288ca1f817434b7b9ba6091c98bc3cfb57b90a986183662851162ed8f4",
         "verdict": "appropriate",
         "confidence": "high",
-        "notes": "Parts (a) and (c) correct. Fixed (b): the extra energy is the binding energy of the last neutron in ⁹⁶Sr, [m(⁹⁵Sr)+m_n−m(⁹⁶Sr)]c² = 5.87 MeV, not the average BE/A of heavy nuclei.",
-        "reviewer": "Claude Opus 5.5 (post-fix review, 2026-10-24, ch32)",
-        "supersedes_verdict": "concern",
-        "reviewed_at": "2026-10-24T14:45:56+00:00"
+        "reasoning_check": "For part (a), the incoming neutron must be included in the initial mass. Comparing this channel with spontaneous fission leaves the neutron-separation energy of Sr-96, correctly explaining part (b); neutron rest energy is not simply released wholesale. Part (c) correctly verifies both nucleon number and charge. Balanced electron counts permit the use of atomic masses.",
+        "calculation_check": "Q=[238.050784+1.008665-95.921750-139.921640-3(1.008665)]×931.5=177.044616 MeV, consistent with 177.1 MeV within ordinary rounding and source-mass precision. The separation energy is (94.919388+1.008665-95.921750)×931.5=5.8712445 MeV. Using the slightly different Xe-140 masses printed in the two problems makes their Q-value difference 5.8433 MeV, an immaterial 0.028-MeV discrepancy. Nucleons total 239 on each side, and charge totals 92 on each side.",
+        "assumptions": "The requested energy is the reaction Q-value; incident-neutron kinetic energy would additionally contribute to available final kinetic energy. The same Xe-140 mass should ideally be used when comparing channels.",
+        "notes": "All parts are substantively correct, including the neutron-binding explanation. Small numerical differences arise from rounding and inconsistent final digits in the supplied Xe mass.",
+        "source_sha256": "6315aac35556b9ff84a7609ce839f7f481213fa157217aade55a54a53513d106",
+        "file_sha256": "640a30288ca1f817434b7b9ba6091c98bc3cfb57b90a986183662851162ed8f4",
+        "reviewer": "Codex CLI paced physics reasoning review",
+        "run_id": "20261024T131133Z-e6aaa1",
+        "reviewed_at": "2026-10-24T14:48:30+00:00"
       },
-      "previous_review_count": 2
+      "previous_review_count": 3
     },
     {
       "id": "contents/ch32Fission.md::problems-exercises:2",
