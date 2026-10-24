@@ -546,3 +546,42 @@
 {"at": "2026-10-24T11:36:10+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 42, "target_interval_seconds": 119.4}
 {"at": "2026-10-24T11:39:13+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"appropriate": 6, "concern": 6}}
 {"at": "2026-10-24T11:39:20+00:00", "run_id": "20261024T084348Z-437db7", "event": "batch-failed", "error": "Textbook sources changed during the scan; rerun to obtain a consistent ledger", "failures": 1}
+{"at": "2026-10-24T11:41:20+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 43, "target_interval_seconds": 113.6}
+{"at": "2026-10-24T11:43:27+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-24T11:44:34+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 44, "target_interval_seconds": 111.0}
+{"at": "2026-10-24T11:46:11+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"appropriate": 12}}
+{"at": "2026-10-24T11:47:18+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 45, "target_interval_seconds": 109.4}
+{"at": "2026-10-24T11:49:47+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"concern": 5, "appropriate": 7}}
+{"at": "2026-10-24T11:50:54+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 46, "target_interval_seconds": 105.8}
+{"at": "2026-10-24T11:54:24+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"concern": 6, "appropriate": 5, "ambiguous": 1}}
+{"at": "2026-10-24T11:55:32+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 47, "target_interval_seconds": 99.9}
+{"at": "2026-10-24T11:57:57+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"appropriate": 10, "concern": 2}}
+{"at": "2026-10-24T11:59:04+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 12, "attempt": 48, "target_interval_seconds": 95.8}
+{"at": "2026-10-24T12:01:11+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 12, "verdicts": {"appropriate": 9, "concern": 3}}
+{"at": "2026-10-24T12:02:18+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 29, "items": 10, "attempt": 49, "target_interval_seconds": 92.2}
+{"at": "2026-10-24T12:04:23+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 29, "items": 10, "verdicts": {"concern": 4, "appropriate": 6}}
+{"at": "2026-10-24T12:05:30+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 12, "attempt": 50, "target_interval_seconds": 88.4}
+{"at": "2026-10-24T12:09:29+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 12, "verdicts": {"concern": 4, "appropriate": 7, "ambiguous": 1}}
+{"at": "2026-10-24T12:10:36+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 12, "attempt": 51, "target_interval_seconds": 79.6}
+{"at": "2026-10-24T12:14:33+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 12, "verdicts": {"concern": 4, "appropriate": 8}}
+{"at": "2026-10-24T12:15:41+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 12, "attempt": 52, "target_interval_seconds": 70.3}
+{"at": "2026-10-24T12:18:09+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 12, "verdicts": {"appropriate": 6, "concern": 6}}
+{"at": "2026-10-24T12:19:16+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 12, "attempt": 53, "target_interval_seconds": 64.0}
+{"at": "2026-10-24T12:21:50+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-24T12:22:57+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 12, "attempt": 54, "target_interval_seconds": 60}
+{"at": "2026-10-24T12:25:47+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 12, "verdicts": {"appropriate": 9, "concern": 3}}
+{"at": "2026-10-24T12:26:55+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 12, "attempt": 55, "target_interval_seconds": 60}
+{"at": "2026-10-24T12:30:54+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 12, "verdicts": {"concern": 4, "appropriate": 7, "ambiguous": 1}}
+{"at": "2026-10-24T12:32:01+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 30, "items": 6, "attempt": 56, "target_interval_seconds": 60}
+{"at": "2026-10-24T12:33:44+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 30, "items": 6, "verdicts": {"concern": 3, "appropriate": 3}}
+{"at": "2026-10-24T12:34:51+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 31, "items": 12, "attempt": 57, "target_interval_seconds": 60}
+{"at": "2026-10-24T12:39:29+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 31, "items": 12, "verdicts": {"appropriate": 6, "concern": 4, "ambiguous": 2}}
+{"at": "2026-10-24T12:40:37+00:00", "run_id": "20261024T084348Z-437db7", "event": "reviewing", "chapter": 31, "items": 12, "attempt": 58, "target_interval_seconds": 60}
+{"at": "2026-10-24T12:43:31+00:00", "run_id": "20261024T084348Z-437db7", "event": "recorded", "chapter": 31, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-24T12:43:48+00:00", "run_id": "20261024T084348Z-437db7", "event": "finished", "status": "deadline-reached", "recorded_reviews": 648, "pending": 176}
+{"at": "2026-10-24T13:11:33+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "started", "deadline": "2026-10-24T15:11:33+00:00"}
+{"at": "2026-10-24T13:11:33+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 31, "items": 12, "attempt": 1, "target_interval_seconds": 423.5}
+{"at": "2026-10-24T13:14:10+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "recorded", "chapter": 31, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-24T13:18:37+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 31, "items": 12, "attempt": 2, "target_interval_seconds": 423.5}
+{"at": "2026-10-24T13:21:11+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "recorded", "chapter": 31, "items": 12, "verdicts": {"appropriate": 11, "concern": 1}}
+{"at": "2026-10-24T13:25:41+00:00", "run_id": "20261024T131133Z-e6aaa1", "event": "reviewing", "chapter": 28, "items": 12, "attempt": 3, "target_interval_seconds": 226.8}
