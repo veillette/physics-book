@@ -321,7 +321,7 @@ function parser() {
       figure.setAttribute('id', id);
     });
 
-    addFigureAnimationControls(els);
+    addFigureAnimationControls(els, href);
 
     els.querySelectorAll('.example, .exercise, .note').forEach(el => {
       const contents = Array.from(el.childNodes).filter(node => {

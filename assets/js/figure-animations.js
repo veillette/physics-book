@@ -1,10 +1,12 @@
 import { animatedFigureNames } from './animated-figure-names.js';
 
 /** Offer the complete static view without running scripts inside SVG images. */
-export function addFigureAnimationControls(root) {
+export function addFigureAnimationControls(root, pageUrl = window.location.href) {
   root.querySelectorAll('img[src]').forEach(img => {
-    const source = img.getAttribute('src').split('#')[0];
-    if (!animatedFigureNames.has(source.split('/').pop())) return;
+    const rawSource = img.getAttribute('src').split('#')[0];
+    if (!animatedFigureNames.has(rawSource.split('/').pop())) return;
+    // The viewer changes <base>; resolve relative figure URLs against their page.
+    const source = new URL(rawSource, new URL(pageUrl, window.location.href)).href;
     img.classList.add('figure-animated');
     const button = document.createElement('button');
     button.type = 'button';

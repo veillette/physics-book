@@ -1,9 +1,13 @@
-# Animated figures in chapters 1–13
+# Animated figures in chapters 1–25
 
 The chapter 1–13 review is implemented as 39 animation ideas in 40 SVG assets.
 The accuracy/precision comparison uses two target images. In multi-image
 constructions, the last image carries the animated companion and the preceding
 stages remain available as static reference drawings.
+
+The chapter 14–25 review adds eleven selected ideas in thirteen SVG assets.
+Equipotentials and carrier current each use two figures. All original artwork is
+retained above the new companions.
 
 Most source diagrams remain intact above an animated companion. The Chapter 1
 targets and meter diagram are redrawn as accessible SVGs. The elevator, swimmer,
@@ -21,6 +25,10 @@ The animation control is hidden for reduced motion and print.
 - [Drawing and animation definitions](../scripts/figures/animations01to13.js)
 - [Analytic motion models](../scripts/figures/animation-models.js)
 - [Physics and SVG checks](../tests/animation-models.test.js)
+- [Chapter 14–25 animations](../scripts/figures/animations14to25.js)
+- [Chapter 14–25 physics models](../scripts/figures/animation-models14to25.js)
+- [Chapter 14–25 physics and SVG checks](../tests/animation-models14to25.test.js)
+- [Shared SVG animation rendering](../scripts/figures/animation-svg.js)
 - [Viewer controls](../assets/js/figure-animations.js)
 
 Run `npm run generate:figures` to regenerate the images and viewer registry.
@@ -114,3 +122,17 @@ forces refer to ideal pressure increments, neglecting piston weight and head.
 - Evaporation and condensation: [Figure_13_06_01.svg](../resources/Figure_13_06_01.svg).
 - Bubble growth as water heats: [Figure_13_06_02.svg](../resources/Figure_13_06_02.svg).
 - Reading a phase diagram: [Figure_13_05_05.svg](../resources/Figure_13_05_05.svg).
+
+### Chapters 14–25: eleven selected ideas
+
+- Chapter 14, conduction through a layered wall: [companion_14_composite_wall.svg](../resources/companion_14_composite_wall.svg). A moving probe follows temperature through gypsum, insulation, and brick with constant steady heat flux.
+- Chapter 15, heat-pump energy accounting: [Figure_15_05_01.svg](../resources/Figure_15_05_01.svg). Cumulative heat and work obey Q hot = Q cold + W, including when heating COP exceeds one.
+- Chapter 15, entropy budget: [companion_15_entropy_budget.svg](../resources/companion_15_entropy_budget.svg). The two reservoir changes sum to a positive total as heat passes from 600 K to 250 K.
+- Chapter 16, interference versus relative phase: [Figure_16_10_03.svg](../resources/Figure_16_10_03.svg). Fixed-instant snapshots vary the phase parameter between equal-frequency waves and display their pointwise sum. Figure 16.10.2 remains a static reference.
+- Chapter 18, Coulomb force versus separation: [Figure_18_03_02.svg](../resources/Figure_18_03_02.svg). Like and unlike charges have equal and opposite forces that fall by a factor of four when separation doubles.
+- Chapter 19, work along and across equipotentials: [Figure_19_04_01.svg](../resources/Figure_19_04_01.svg), [Figure_19_04_04.svg](../resources/Figure_19_04_04.svg). Imposed probe paths distinguish zero work along an equipotential from electric work −qΔV across it.
+- Chapter 20, electron drift and conventional current: [Figure_20_01_03.svg](../resources/Figure_20_01_03.svg), [Figure_20_01_06.svg](../resources/Figure_20_01_06.svg). Signed charge and drift direction determine current; accumulated charge obeys Q = It. Dots represent many carriers and drift is enlarged.
+- Chapter 20, resistance versus geometry: [Figure_20_03_01.svg](../resources/Figure_20_03_01.svg). Length and area change independently with material, temperature, and voltage fixed.
+- Chapter 20, instantaneous and average AC power: [Figure_20_05_03.svg](../resources/Figure_20_05_03.svg). A pure resistor has in-phase voltage and current, nonnegative twice-frequency power, and the correct mean.
+- Chapter 21, real battery with a changing load: [Figure_21_02_05.svg](../resources/Figure_21_02_05.svg). Current and internal loss decrease as load resistance increases; terminal voltage approaches the emf.
+- Chapter 24, wavelength and frequency: [Figure_24_03_01.svg](../resources/Figure_24_03_01.svg). A logarithmic selector spans sixteen frequency decades with fλ = c in vacuum. Each state rescales space and time; the wave is a local schematic, not a fixed-scale propagation model.

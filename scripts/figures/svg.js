@@ -51,9 +51,13 @@ export function smilList(values) {
 }
 
 /** Looping SMIL attribute animation. `values` are numbers or raw tokens. */
-export function smilAnimate(attributeName, values, { dur = '8s', keyTimes } = {}) {
+export function smilAnimate(
+  attributeName,
+  values,
+  { dur = '8s', keyTimes, calcMode = 'linear' } = {}
+) {
   const kt = keyTimes ? ` keyTimes="${smilList(keyTimes)}"` : '';
-  return `<animate attributeName="${attributeName}" dur="${dur}" repeatCount="indefinite" calcMode="linear" values="${smilList(values)}"${kt}/>`;
+  return `<animate attributeName="${attributeName}" dur="${dur}" repeatCount="indefinite" calcMode="${calcMode}" values="${smilList(values)}"${kt}/>`;
 }
 
 /** `translate` animation through pixel points. */
@@ -190,7 +194,7 @@ export function localArrow(
  * elements and text, differing only in attribute values. Each attribute that
  * changes gets an <animate> through its values, in step with `dur`.
  */
-export function morph(frames, { dur = '8s', keyTimes } = {}) {
+export function morph(frames, { dur = '8s', keyTimes, discreteAttributes = [] } = {}) {
   const TAG = /<[^>]+>/g;
   const ATTR = /([\w:-]+)="([^"]*)"/g;
   const parts = frames.map(f => ({ tags: f.match(TAG) || [], texts: f.split(TAG) }));
@@ -209,7 +213,11 @@ export function morph(frames, { dur = '8s', keyTimes } = {}) {
         const values = lists.map(l => l[k]);
         if (values.every(v => v === values[0])) return '';
         if (name === 'transform') throw new Error('morph: transform cannot be animated');
-        return smilAnimate(name, values, { dur, keyTimes });
+        return smilAnimate(name, values, {
+          dur,
+          keyTimes,
+          calcMode: discreteAttributes.includes(name) ? 'discrete' : 'linear',
+        });
       })
       .join('');
     if (!anims) out += tag;
