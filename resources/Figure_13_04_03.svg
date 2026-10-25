@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="360" viewBox="0 0 700 360" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Molecules in a gas and a sound wave</title>
 <desc id="desc">(a) Molecules in a gas move in random directions with a wide range of speeds. (b) A sound wave, shown as a curved band, passes through the gas: the molecules in the band move roughly along the direction the wave travels, to the right, while the others move at random.</desc>
 <style>
@@ -149,4 +150,10 @@
 <path d="M 512.3 10 A 420 420 0 0 1 512.3 310" fill="none" stroke="#1f6fb5" stroke-width="1.8" stroke-dasharray="6 5" stroke-linejoin="round"/>
 <text x="165" y="349" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
 <text x="535" y="349" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

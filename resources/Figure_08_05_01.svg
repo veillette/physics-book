@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">A perfectly inelastic one-dimensional collision</title>
 <desc id="desc">(a) Before: two blocks of equal mass m on a frictionless surface move toward each other with velocities v and −v. Net F = 0, p1 + p2 = 0, and the internal kinetic energy is KEint = mv². (b) After: the blocks are stuck together and at rest, v = 0, so p1′ + p2′ = 0 and KE′int = 0. Each panel is circled as the system of interest.</desc>
 <style>
@@ -41,4 +42,10 @@
 <text x="925" y="234.75" font-family="'Times New Roman', Times, serif" font-size="25" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = 0</tspan></text>
 <text x="790" y="307.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Frictionless</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">surface</tspan></text>
 <text x="790" y="359.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

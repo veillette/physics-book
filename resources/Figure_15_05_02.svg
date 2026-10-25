@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Components of a heat pump</title>
 <desc id="desc">A heat pump circuit. The working fluid leaves the compressor (4) hot, gives off heat Q_h inside at the condenser (1), passes through the expansion valve (2), and, now cold, absorbs heat Q_c from the outside air at the evaporator (3), outside the wall, before returning to the compressor.</desc>
 <style>
@@ -39,4 +40,10 @@
 <defs><linearGradient id="g2" x1="325" y1="350" x2="512" y2="350" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ef7a3a"/></linearGradient></defs>
 <polygon points="325,361 327.71,361 330.43,361 333.14,361 335.85,361 338.57,361 341.28,361 343.99,361 346.71,361 349.42,361 352.13,361 354.85,361 357.56,361 360.27,361 362.99,361 365.7,361 368.41,361 371.13,361 373.84,361 376.55,361 379.27,361 381.98,361 384.69,361 387.41,361 390.12,361 392.83,361 395.55,361 398.26,361 400.97,361 403.69,361 406.4,361 409.11,361 411.83,361 414.54,361 417.25,361 419.97,361 422.68,361 425.39,361 428.11,361 430.82,361 433.53,361 436.25,361 438.96,361 441.67,361 444.39,361 447.1,361 449.81,361 452.53,361 455.24,361 457.95,361 460.67,361 463.38,361 466.09,361 468.81,361 471.52,361 474.23,361 476.95,361 479.66,361 482.37,361 485.09,361 487.8,361 487.8,369.8 512,350 487.8,330.2 487.8,339 485.09,339 482.37,339 479.66,339 476.95,339 474.23,339 471.52,339 468.81,339 466.09,339 463.38,339 460.67,339 457.95,339 455.24,339 452.53,339 449.81,339 447.1,339 444.39,339 441.67,339 438.96,339 436.25,339 433.53,339 430.82,339 428.11,339 425.39,339 422.68,339 419.97,339 417.25,339 414.54,339 411.83,339 409.11,339 406.4,339 403.69,339 400.97,339 398.26,339 395.55,339 392.83,339 390.12,339 387.41,339 384.69,339 381.98,339 379.27,339 376.55,339 373.84,339 371.13,339 368.41,339 365.7,339 362.99,339 360.27,339 357.56,339 354.85,339 352.13,339 349.42,339 346.71,339 343.99,339 341.28,339 338.57,339 335.85,339 333.14,339 330.43,339 327.71,339 325,339" fill="url(#g2)"/>
 <text x="520" y="359.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">h</tspan></tspan><tspan dy="-6.16">​</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="775" viewBox="0 0 960 775" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Torque on a door seen from above</title>
 <desc id="desc">Six overhead views of a door hinged on the left and opened 25° from the wall. (a) A force F pushes perpendicular to the door at distance r from the hinge, so r = r⊥ and the torque is counterclockwise. (b) A smaller force F′ at the same point gives a smaller counterclockwise torque. (c) The same force at a smaller distance r′ = r′⊥ gives a smaller counterclockwise torque. (d) The force −F, opposite to (a), gives a clockwise torque. (e) A horizontal force of the same magnitude at the same point makes angle θ with the door; the perpendicular distance from the hinge to its line of action is r⊥ = r sin θ, so the counterclockwise torque is smaller. (f) A force pulling straight along the door away from the hinge has θ = 0° and r⊥ = 0, so it produces no torque.</desc>
 <style>
@@ -40,4 +41,10 @@
 <text x="633" y="671.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan><tspan font-style="normal"> = 0°</tspan></text>
 <text x="795" y="719.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">r</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-6.16">​</tspan><tspan font-style="normal"> = 0</tspan></text>
 <text x="745" y="759" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">f</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

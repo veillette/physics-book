@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Projectile to satellite</title>
 <desc id="desc">Four projectiles launch horizontally to the right from the same high tower. Increasing launch speed produces three progressively longer paths ending at Earth’s surface. At circular-orbit speed, the fourth projectile circles Earth at constant altitude. All launch together on a shared clock; impacted projectiles stop while the satellite completes its orbit. A dashed level-ground comparison shows why neglecting Earth’s curvature underestimates the range. Tower height is exaggerated; air resistance and Earth’s rotation are neglected.</desc>
 <style>
@@ -73,4 +74,10 @@
 <line x1="30" y1="576" x2="970" y2="576" stroke="#dce3e9" stroke-width="1"/>
 <text x="30" y="606.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#526173" text-anchor="start" xml:space="preserve"><tspan font-style="normal">All</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">four</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">launch</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">together</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">animation</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">repeats</tspan><tspan font-style="normal">.</tspan></text>
 <text x="30" y="630.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#526173" text-anchor="start" xml:space="preserve"><tspan font-style="normal">Tower</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">height</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">exaggerated</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">No</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">air</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">resistance</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">or</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Earth</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">rotation</tspan><tspan font-style="normal">.</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="660" viewBox="0 0 760 660" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Cycle on a PV diagram with values</title>
 <desc id="desc">A PV diagram with pressure in units of 10⁶ N/m² and volume in 10⁻³ m³. A is at (1.0, 2.6), B at (4.0, 2.0), C at (4.0, 0.6), and D at (1.0, 1.0). Straight lines join A to B, B to C, C to D, and D to A; a green line joins D to B.</desc>
 <style>
@@ -51,4 +52,10 @@
 <text x="180" y="31.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan></text>
 <text x="120" y="68.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(10</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">6</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">N</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">m</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal">)</tspan></text>
 <text x="590" y="648.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> (10</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">−3</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">m</tspan><tspan font-size="16.8" dy="-9.6"><tspan font-style="normal">3</tspan></tspan><tspan dy="9.6">​</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

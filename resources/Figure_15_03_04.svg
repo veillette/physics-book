@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Four-stroke gasoline engine</title>
 <desc id="desc">(a) Intake: the piston moves down and the intake valve opens, drawing in an air–fuel mixture. (b) Compression: with both valves closed, the piston moves up and compresses the mixture. (c) Power: a spark ignites the mixture, and the hot gas pushes the piston down with force F = PA. (d) Exhaust: the exhaust valve opens and the piston moves up, pushing out the burned gas. The crankshaft turns clockwise throughout.</desc>
 <style>
@@ -62,4 +63,10 @@
 <text x="625" y="579" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
 <text x="875" y="545" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Exhaust</tspan></text>
 <text x="875" y="579" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">d</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

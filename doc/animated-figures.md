@@ -350,3 +350,72 @@ and [RF cavity description](https://home.web.cern.ch/science/engineering/acceler
 The astronomy illustrations follow the explanations of
 [gravitational light deflection](https://www.einstein-online.info/en/spotlight/light_deflection/)
 and [cosmological wavelength stretching](https://www.jpl.nasa.gov/edu/resources/lesson-plan/math-of-the-expanding-universe/).
+
+## Seven additional mechanics simulations
+
+Defined in [animations-mechanics-extra.js](../scripts/figures/animations-mechanics-extra.js),
+with states in [animation-models-mechanics-extra.js](../scripts/figures/animation-models-mechanics-extra.js)
+and checks in [animation-models-mechanics-extra.test.js](../tests/animation-models-mechanics-extra.test.js).
+All seven retain the complete original figure above the companion and use the
+existing static/play, full-size, reduced-motion and print behavior. Figure
+numbers remain unchanged.
+
+- Incline components: [Figure_04_05_03.svg](../resources/Figure_04_05_03.svg). The angle sweeps from 10° to 60° at fixed 100 N weight. The two components close a vector triangle on one scale. This is a parameter sweep, not a sliding-block trajectory.
+- Sliding skier: [Figure_05_01_03.svg](../resources/Figure_05_01_03.svg). The book's 62 kg mass, 25° slope and 45 N kinetic friction determine normal force and acceleration. An illustrative initial speed of 1 m/s avoids implying a static-friction threshold. Equal model times give the calculated displacement and velocity; air drag is excluded. All force arrows share one scale, so friction is small.
+- Turning radius: [Figure_06_03_04.svg](../resources/Figure_06_03_04.svg). Two 1000 kg cars travel at 12 m/s over the same 12 seconds, at radii 30 and 60 m. Required forces are 4800 and 2400 N. Distance and force scales are common; the larger circle advances through fewer radians. These are required forces, not an assertion about available tire grip.
+- Teardrop loop: [Figure_06_03_10.svg](../resources/Figure_06_03_10.svg). The original clothoid geometry is shared through [mechanics-loop.js](../scripts/figures/mechanics-loop.js). Its rendering is unchanged. A frictionless point car enters at 22 m/s with 0.05 m per original drawing unit. Energy sets speed; integrating ds/v sets time. Local curvature and gravity set the track normal, which remains positive. Normal and weight vectors share one force-per-mass scale.
+- Nail-puller lever: [Figure_09_05_01.svg](../resources/Figure_09_05_01.svg). An ideal rigid lever has 0.60 and 0.10 m arms, a 300 N output and 50 N input. Vertical endpoint forces balance torque throughout the small rotation. Vertical travel has the inverse ratio to force, so input and output work agree. Nail motion is schematic; red forces act on the lever, green on the nail, and blue at the pivot.
+- Unwinding reel: [Figure_10_02_01.svg](../resources/Figure_10_02_01.svg). The book's 4.5 cm radius is paired with illustrative inertia 0.002 kg m² and constant line tension 0.040 N. Starting at rest, τ = Tr = Iα and x = rθ, v = rω, a = rα. Reel and line share one geometric scale, and pulling work equals rotational kinetic energy. The model neglects slipping, drag, line mass and changing winding radius.
+- Disk–stick impact: [Figure_10_06_02.svg](../resources/Figure_10_06_02.svg). The book example uses a 0.050 kg disk at 30 m/s and a 2.00 kg uniform rod 1.20 m long. The point-disk approximation gives I = 1.032 kg m², L = 1.80 kg m²/s and final ω ≈ 1.744 rad/s. Kinetic energy drops from 22.50 to about 1.57 J. The fixed pivot can change linear momentum while exerting zero torque about itself. Approach playback is slowed more than post-impact rotation; velocities are consistent with each phase's physical time.
+
+## Static controls for seventeen original animations
+
+The seventeen original animations below now use the same **Show static figure**,
+**Play animation** and **Open full-size figure** controls as the later companions.
+[native-animation-controls.js](../scripts/figures/native-animation-controls.js)
+adds the fragment target that selects each original static drawing, hiding all
+motion overlays and restoring any static replacement groups. Original artwork,
+animation timelines, reduced-motion behavior and print views are retained.
+
+- Chapter 2: [round-trip graphs](../resources/Figure_02_03_04.svg), [upward throw](../resources/Figure_02_07_03.svg), [graph slopes](../resources/Figure_02_08_05.svg).
+- Chapter 3: [dropped and thrown balls](../resources/Figure_03_01_05.svg), [projectile components](../resources/Figure_03_04_02.svg), [projectile ranges](../resources/Figure_03_04_05.svg), [projectile to satellite](../resources/Figure_03_04_06.svg).
+- Chapter 6: [circular-motion velocity change](../resources/Figure_06_02_01.svg), [Kepler's second law](../resources/Figure_06_06_02.svg).
+- Chapter 7: [roller-coaster drop](../resources/Figure_07_03_04.svg), [spring energy](../resources/Figure_07_04_01.svg).
+- Chapter 8: [elastic collision](../resources/Figure_08_04_01.svg), [inelastic collision](../resources/Figure_08_05_01.svg), [spring-separated gliders](../resources/Figure_08_05_03.svg), [two-dimensional collision](../resources/Figure_08_06_01.svg).
+- Chapter 9: [door torque](../resources/Figure_09_02_01.svg), [pulley systems](../resources/Figure_09_05_04.svg).
+
+[Regression checks](../tests/native-animation-controls.test.js) verify the adapter
+preserves the drawings and that every animated textbook SVG in chapters 1–10 is
+registered for viewer controls, including the seven additional simulations.
+
+## Priority simulations in chapters 12, 14 and 16
+
+[animations-thermal-waves.js](../scripts/figures/animations-thermal-waves.js)
+adds three companions while preserving the complete original diagrams above
+them. States are defined in
+[animation-models-thermal-waves.js](../scripts/figures/animation-models-thermal-waves.js),
+with independent conservation and differential-equation checks in
+[animation-models-thermal-waves.test.js](../tests/animation-models-thermal-waves.test.js).
+Each uses play/static, full-size, reduced-motion and print behavior.
+
+- Draining tank: [Figure_12_03_01.svg](../resources/Figure_12_03_01.svg). A 0.50 m² open reservoir drains through an ideal 0.0020 m² outlet, initially 2 m below the surface and 0.50 m above ground. Torricelli's speed and volume conservation give h(t) = h0(1 − t/t drain)², until the level reaches the outlet. The outlet's quasi-steady ballistic jet shortens as the head falls. The model omits contraction, losses and air drag, assumes the surface speed is negligible, and retains the water below the outlet. Animation progress follows elapsed model time.
+- Heating curve: [Figure_14_03_03.svg](../resources/Figure_14_03_03.svg). Book heat capacities 0.500, 1.000 and 0.482 cal/(g °C), with latent heats 79.8 and 539 cal/g, take ice from −20 °C to steam at 120 °C at about one atmosphere. Heat changes phase fractions while temperature stays at 0 or 100 °C. Bars represent mass fractions, not occupied volumes. Each of the five stages receives equal playback time, so the movie does not imply constant heating power or equal physical stage durations.
+- Resonance: [Figure_16_08_03.svg](../resources/Figure_16_08_03.svg). Five separately settled states use driving-frequency ratios 0.5, 0.8, 1, 1.2 and 1.5 for x″ + b x′ + x = cos(rt), with b = 0.1, 0.2 and 0.4. All curves share the same amplitude scale. Response amplitude and phase lag satisfy the driven-oscillator equation; each example advances through 2π/ω0 model seconds before the clock resets for the next frequency. The display omits settling transients and is not a continuous chirp experiment. Finite-damping amplitude peaks lie slightly below the undamped natural frequency.
+
+## Static controls for 31 original animations in chapters 11–16
+
+The same [native adapter](../scripts/figures/native-animation-controls.js) now
+connects another 31 original animations to **Show static figure**, **Play
+animation** and **Open full-size figure**. Their artwork, timing, original static
+views, reduced-motion behavior and print views remain intact. Chapter 11 already
+had controls on all its animated SVGs; these additions are in chapters 12–16.
+
+- Chapter 12: narrowing-pipe flow, shear between plates, Poiseuille flow and random walk.
+- Chapter 13: bimetallic strip, two- and three-dimensional expansion, wall collisions, sound propagation and molecular speed distributions.
+- Chapter 14: gravity-furnace convection, water convection and fur insulation.
+- Chapter 15: two PV cycles, the numerical PV cycle, four-stroke engine, Otto cycle, Carnot cycle, heat-pump components and gas microstates.
+- Chapter 16: spring oscillation, moving-paper trace, pendulum, two energy illustrations, circular-motion projection, ocean wave, standing-wave construction, fundamental string mode, overtones, beats and two-speaker interference.
+
+The [native-control regression checks](../tests/native-animation-controls.test.js)
+now verify unchanged source drawings for all 48 adapted originals and require
+viewer controls on every animated textbook SVG in chapters 1–16.

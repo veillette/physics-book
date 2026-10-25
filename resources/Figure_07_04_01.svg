@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Potential energy stored in a stretched spring</title>
 <desc id="desc">(a) An undeformed spring attached to a wall stores no potential energy. (b) The spring stretched a distance x from its unstretched position 0 by a force F = kx; the work done is W = ½kx², stored as PEs = ½kx². (c) A graph of F versus x is a straight line through the origin with slope k. The area under it from 0 to x is a triangle with base x and height kx, so Area = ½kx².</desc>
 <style>
@@ -73,4 +74,10 @@
 <text x="850" y="212.98" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
 <text x="859" y="204.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">kx</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.6">​</tspan></text>
 <text x="870" y="277" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

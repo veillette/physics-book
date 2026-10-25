@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Carnot cycle</title>
 <desc id="desc">A PV diagram of a Carnot cycle: isothermal expansion A to B at T_h (heat Q_h in), adiabatic expansion B to C, isothermal compression C to D at T_c (heat Q_c out), and adiabatic compression D to A. The dashed extensions are the two isotherms. Beside it, the Carnot engine: Q_h in, W out, Q_c to the cold reservoir.</desc>
 <style>
@@ -75,4 +76,10 @@
 <text x="760" y="116.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="15.4" dy="6.16"><tspan font-style="normal">h</tspan></tspan><tspan dy="-6.16">​</tspan></text>
 <text x="749" y="426" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">c</tspan></tspan><tspan dy="-5.6">​</tspan></text>
 <text x="856" y="260.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">W</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

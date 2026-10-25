@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">A string vibrating at its fundamental frequency</title>
 <desc id="desc">A string of length L fixed at both ends vibrates in a single loop: nodes at the ends and an antinode in the middle. Its wavelength is λ1 = 2L, twice the string length, shown by the dashed continuation of the wave beyond the right end, and its frequency is f1 = v_w/2L.</desc>
 <style>
@@ -38,4 +39,10 @@
 <line x1="398.88" y1="150.5" x2="402.52" y2="153.31" stroke="#333333" stroke-width="1.3"/>
 <polygon points="406,156 400.41,154.41 403.05,150.99" fill="#333333"/>
 <text x="370" y="61.95" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Node</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

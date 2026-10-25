@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1030" height="625" viewBox="0 0 1030 625" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Pulley systems with mechanical advantage 2, 3 and 4</title>
 <desc id="desc">Three pulley systems lifting a weight, each with its free-body diagram. (a) A rope tied to the fixed upper pulley runs down under a movable pulley carrying the load and back up over the fixed pulley to the free end, pulled with tension T. Two rope segments pull up on the load, so the free-body diagram shows 2T up and w down: MA ≈ 2. (b) With a second small pulley hung from the fixed one, three rope segments support the movable pulley: 3T up, MA ≈ 3. (c) With a small pulley mounted on the movable block and the free end pulled upward, four segments support the load: 4T up, MA ≈ 4.</desc>
 <style>
@@ -80,4 +81,10 @@
 <text x="1013.5" y="291.7" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">T</tspan></text>
 <circle cx="988" cy="410" r="6" fill="#9b1b1b"/>
 <text x="865" y="617" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">c</tspan><tspan font-style="normal">)</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

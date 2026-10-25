@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1020" height="400" viewBox="0 0 1020 400" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">A roller coaster drop</title>
 <desc id="desc">A roller coaster car starts from rest (v0 = 0) at the top of a hill. The track drops h = 25 m to its lowest point, then rises to a level finish h = 20 m below the start, where the speed v is unknown. Heights are drawn to scale.</desc>
 <style>
@@ -101,4 +102,10 @@
 <text x="815" y="178.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-style="normal"> = 20 </tspan><tspan font-style="normal">m</tspan></text>
 <text x="962" y="221.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Finish</tspan></text>
 <text x="962" y="251.7" font-family="'Times New Roman', Times, serif" font-size="22" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = ?</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

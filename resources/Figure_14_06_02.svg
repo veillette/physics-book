@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="780" viewBox="0 0 820 780" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Convection in a pot of water</title>
 <desc id="desc">A pot of water on a gas burner, its front cut away. Water heated at the bottom rises up the middle and sinks along the cooler sides, forming two circulating loops. A few bubbles are in the water.</desc>
 <style>
@@ -66,4 +67,10 @@
 <circle cx="240" cy="490" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
 <circle cx="470" cy="465" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
 <circle cx="560" cy="455" r="9" fill="#e9f6fd" stroke="#8cc9e8" stroke-width="1.5"/>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

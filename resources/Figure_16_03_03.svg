@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="440" viewBox="0 0 700 440" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Recording simple harmonic motion on a moving strip of paper</title>
 <desc id="desc">An object of mass m hangs from a spring and bounces up and down between X and −X. A pen on the object draws on a strip of paper that moves steadily to the right between two rollers, leaving a sine wave with period T along the time axis t.</desc>
 <style>
@@ -33,4 +34,10 @@
 <line x1="380" y1="420" x2="458" y2="420" stroke="#222222" stroke-width="1.8"/>
 <polygon points="470,420 457,425.2 457,414.8" fill="#222222"/>
 <text x="374" y="426.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Motion</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">paper</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

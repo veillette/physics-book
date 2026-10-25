@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="740" height="470" viewBox="0 0 740 470" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Interference of sound from two speakers</title>
 <desc id="desc">Two speakers high in the left and right corners aim beams of sound down and toward each other. In each beam, solid arcs centered on its speaker are compressions and dashed arcs halfway between them are rarefactions. The shading of each beam is strongest near its speaker. Where the beams overlap, the points where a compression from one speaker meets a compression from the other are marked with glowing dots: there the waves interfere constructively.</desc>
 <style>
@@ -26,4 +27,10 @@
 <circle cx="545" cy="425" r="17" fill="url(#glow)"/>
 <circle cx="545" cy="425" r="4.5" fill="#9b0d3a"/>
 <text x="568" y="432" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">= </tspan><tspan font-style="normal">Constructive</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

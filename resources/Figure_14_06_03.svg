@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="750" height="750" viewBox="0 0 750 750" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Fur as insulation</title>
 <desc id="desc">A cross-section of a warm body covered by a thick layer of fur, with cold air outside. The air trapped in the fur forms many small convection loops, which transfer heat only slowly.</desc>
 <style>
@@ -742,4 +743,10 @@
 <polyline points="265,230 267.81,231.75 270.63,233.47 273.46,235.15 276.31,236.76 279.18,238.29 282.08,239.72 285,241.04 287.97,242.22 290.97,243.27 294.01,244.19 297.09,244.95 300.21,245.58 303.36,246.08 306.56,246.44 309.78,246.69 313.03,246.84 316.3,246.91 319.59,246.91 322.89,246.87 326.2,246.8 329.51,246.73 332.81,246.69 336.1,246.69 339.37,246.76 342.62,246.91 345.84,247.16 349.04,247.52 352.19,248.02 355.31,248.65 358.39,249.41 361.43,250.33 364.43,251.38 367.4,252.56 370.32,253.88 373.22,255.31 376.09,256.84 378.94,258.45 381.77,260.13 384.59,261.85 387.4,263.6" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
 <line x1="387.4" y1="263.6" x2="409.32" y2="269.62" stroke="#222222" stroke-width="1.4"/>
 <polygon points="418,272 407.3,273.21 409.42,265.5" fill="#222222"/>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="240" viewBox="0 0 820 240" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Flow speeds up where a tube narrows</title>
 <desc id="desc">Fluid flows to the right through a tube that narrows from area A1 at point 1 to area A2 at point 2. Shaded volumes of the same size are shown at each point; the one in the narrow part is longer. For the same volume to pass both points in the same time, A1v1 = A2v2, so the speed v2 in the narrow part is greater than v1.</desc>
 <style>
@@ -39,4 +40,10 @@
 <text x="200" y="209.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
 <circle cx="775.63" cy="150" r="5" fill="#222222"/>
 <text x="775.63" y="179.35" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

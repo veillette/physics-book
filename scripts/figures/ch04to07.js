@@ -15,6 +15,7 @@ import {
   smoothPath,
   timedPath,
 } from './svg.js';
+import { teardropLoop } from './mechanics-loop.js';
 
 const FORCE = '#b03a2e';
 const FORCE_LIGHT = '#d98b84';
@@ -2089,16 +2090,7 @@ export default {
       title: 'Teardrop roller-coaster loop',
       desc: 'A teardrop loop runs leftward from entrance A at the lower right, up the left side past B, over the crown, down the right side past C, and out at D at the lower left. Curvature grows smoothly from zero at entry to its maximum at the crown; the radius is smallest at the top and larger near the base.',
     });
-    const length = 1100;
-    const steps = 1000;
-    const heading = u =>
-      u <= 0.5 ? Math.PI - 4 * Math.PI * u * u : -Math.PI + 4 * Math.PI * (1 - u) ** 2;
-    const points = [[610, 480]];
-    for (let k = 0; k < steps; k++) {
-      const a = heading((k + 0.5) / steps);
-      const p = points.at(-1);
-      points.push([p[0] + (length / steps) * Math.cos(a), p[1] - (length / steps) * Math.sin(a)]);
-    }
+    const { length, steps, heading, points } = teardropLoop();
     // Trestle and bracing attach to the track, behind the two rails.
     for (let x = 175; x <= 625; x += 50) {
       svg.line(x, 486, x, 615, { color: '#c9a962', width: 5 });

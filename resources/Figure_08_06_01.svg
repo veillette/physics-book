@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">A two-dimensional collision</title>
 <desc id="desc">Before: mass m1 moves along the x axis with velocity v1 toward m2, which is at rest (v2 = 0), so p1 = ptot; net F = 0. After: m1 moves off with velocity v1′ at angle θ1 above the x axis and m2 moves off with velocity v2′ at angle θ2 below it, so p1′ + p2′ = ptot. The system of interest is circled before and after the collision. An x–y axis indicator shows x to the right and y up.</desc>
 <style>
@@ -40,4 +41,10 @@
 <polyline points="850,442 848.85,440 847.69,438.02 846.51,436.08 845.28,434.19 844,432.37 842.66,430.64 841.25,429 839.76,427.47 838.19,426.05 836.54,424.75 834.79,423.57 832.96,422.51 831.05,421.56 829.06,420.72 827,419.97 824.88,419.31 822.71,418.72 820.49,418.18 818.25,417.68 816,417.2 813.75,416.72 811.51,416.22 809.29,415.68 807.12,415.09 805,414.43 802.94,413.68 800.95,412.84 799.04,411.89 797.21,410.83 795.46,409.65 793.81,408.35 792.24,406.93 790.75,405.4 789.34,403.76 788,402.03 786.72,400.21 785.49,398.32 784.31,396.38 783.15,394.4 782,392.4" fill="none" stroke="#222222" stroke-width="1.4" stroke-linejoin="round"/>
 <line x1="782" y1="392.4" x2="772.27" y2="385.3" stroke="#222222" stroke-width="1.4"/>
 <polygon points="765,380 775.44,382.66 770.72,389.12" fill="#222222"/>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

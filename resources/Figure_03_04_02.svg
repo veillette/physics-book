@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1270" viewBox="0 0 900 1270" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Velocity components of a projectile</title>
 <desc id="desc">(a) A projectile launched at θ0 above the horizontal: at each instant its velocity v has a constant horizontal component vx and a vertical component vy that shrinks to zero at the top and then grows downward; it returns to launch height with vy = −v0y and θ = −θ0. (b) The horizontal motion alone: the same vx at every step. (c) The vertical motion alone: vy decreases on the way up and increases on the way down. (d) Adding vx and vy gives v at angle θ below the horizontal.</desc>
 <style>
@@ -209,4 +210,10 @@
 <g class="motion" opacity="0" aria-hidden="true"><g><animateTransform attributeName="transform" type="translate" dur="10s" repeatCount="indefinite" calcMode="linear" values="50 790;92 790;134 790;176 790;218 790;260 790;302 790;344 790;386 790;428 790;470 790;512 790;554 790;596 790;638 790;680 790;722 790"/><circle r="11" fill="#c0392b" stroke="#ffffff" stroke-width="2"/><line x1="0" y1="0" x2="26.5" y2="0" stroke="#1f77c8" stroke-width="3" stroke-linecap="round"></line><polygon points="38.5,0 26.5,5.04 26.5,-5.04" fill="#1f77c8"></polygon></g></g>
 <g class="motion" opacity="0" aria-hidden="true"><g><animateTransform attributeName="transform" type="translate" dur="10s" repeatCount="indefinite" calcMode="linear" values="90 1178;90 1110.5;90 1052;90 1002.5;90 962;90 930.5;90 908;90 894.5;90 890;190 890;190 894.5;190 908;190 930.5;190 962;190 1002.5;190 1052;190 1110.5;190 1178" keyTimes="0;0.0625;0.125;0.1875;0.25;0.3125;0.375;0.4375;0.5;0.508;0.5625;0.625;0.6875;0.75;0.8125;0.875;0.9375;1"/><circle r="11" fill="#c0392b" stroke="#ffffff" stroke-width="2"/><g><animateTransform attributeName="transform" type="scale" dur="10s" repeatCount="indefinite" calcMode="linear" values="1 1;1 -1"/><line x1="0" y1="0" x2="0" y2="-67.2" stroke="#ef7d22" stroke-width="3" stroke-linecap="round"></line><polygon points="0,-79.2 5.04,-67.2 -5.04,-67.2" fill="#ef7d22"></polygon></g></g></g>
 <g class="motion" opacity="0" aria-hidden="true"><circle cx="480" cy="960" r="18" fill="none" stroke="#9b5fa0" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" calcMode="linear" values="0;0;1;0" keyTimes="0;0.78;0.92;1"/></circle></g>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>

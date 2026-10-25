@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="510" viewBox="0 0 900 510" role="img" aria-labelledby="title desc">
+<g id="animation-paused"/>
 <title id="title">Otto cycle</title>
 <desc id="desc">A PV diagram of a simplified Otto cycle: adiabatic compression A to B, heating at constant volume B to C (heat Q_h, from the internal energy ΔU of burning fuel), adiabatic expansion C to D, and cooling at constant volume D to A (heat Q_c out). Beside it, the equivalent heat engine: ΔU creates Q_h; W, proportional to the shaded area of the PV diagram, is done; and Q_c goes to the cold reservoir.</desc>
 <style>
@@ -65,4 +66,10 @@
 <text x="890" y="341.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">proportional</tspan></text>
 <text x="890" y="364.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">to</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">shaded</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">area</tspan></text>
 <text x="890" y="387.65" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">PV</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diagram</tspan></text>
+<style data-native-animation-controls="">
+#animation-paused:target ~ .motion,
+#animation-paused:target ~ * .motion {display:none!important;opacity:0!important}
+#animation-paused:target ~ .still,
+#animation-paused:target ~ * .still {opacity:1!important}
+</style>
 </svg>
