@@ -46,6 +46,11 @@ simultaneous.
 ![A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps toward observer A are shown with arrows. A velocity vector arrow for the rail car is shown toward the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car as the rail car moves toward the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.](../resources/Figure_28_02_02.jpg 'Observer B measures the elapsed time between the arrival of light flashes as described in the text. Observer A moves with the lamps on a rail car. Observer B perceives that the light flashes occurred simultaneously. Observer A perceives that the light on the right flashes before the light on the left.')
 {: #Figure2}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_28_02_simultaneity.svg" alt="Two emissions have equal train-frame times but different Lorentz-transformed ground-frame coordinate times." class="figure-full-width">
+<figcaption>The same emission events are compared using synchronized clocks in each frame. Coordinate simultaneity is distinct from the time at which an observer receives a light signal.</figcaption>
+</figure>
+
 Now consider what observer B sees happen to observer A. Observer B perceives
 light from the right reaching observer A before light from the left, because she
 has moved toward that flash lamp, lessening the distance the light must travel
@@ -111,6 +116,11 @@ take longer to travel the greater distance in the Earth-bound frame.
 
 ![For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is traveling a distance of s and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event until the end portion is given as L equals to velocity v into delta t upon two.](../resources/Figure_28_02_03.jpg '(a) An astronaut measures the time ( \\Delta t_0 ) for light to cross her ship using an electronic timer. Light travels a distance 2D in the astronaut’s frame. (b) A person on the Earth sees the light follow the longer path 2s and take a longer time ( \\Delta t ) . (c) These triangles are used to find the relationship between the two distances 2D and 2s.')
 {: #Figure3}
+
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_28_02_light_clock.svg" alt="A photon follows a vertical round trip in its clock frame and a diagonal round trip between moving mirrors in the ground frame." class="figure-full-width">
+<figcaption>Both frames measure light speed c. At v = 0.60c the ground-frame interval is 1.25 times the proper interval between emission and return.</figcaption>
+</figure>
 
 To quantitatively verify that time depends on the observer, consider the paths
 followed by light as seen by each observer. (See [[Figure 3]](#Figure3)(c).) The

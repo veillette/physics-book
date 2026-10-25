@@ -1,4 +1,4 @@
-# Animated figures in chapters 1–27
+# Animated figures in chapters 1–34
 
 The chapter 1–13 review is implemented as 39 animation ideas in 40 SVG assets.
 The accuracy/precision comparison uses two target images. In multi-image
@@ -265,3 +265,88 @@ and static print view. The original JPEGs and hand-authored solution SVG remain.
 - Thin-film phase: [Figure_27_07_02.svg](../resources/Figure_27_07_02.svg). At normal incidence in an air–film–air stack, a two-beam Fresnel model includes unequal amplitudes and the top-surface phase reversal. It omits further internal reflections and labels its geometric thickness schematic.
 - Malus’s law: [Figure_27_08_07.svg](../resources/Figure_27_08_07.svg). The analyzer rotates through 180°; signed field projection and its nonnegative squared intensity stay distinct. Input light is already linearly polarized.
 - Crossed polarizers: [companion_27_08_crossed_polarizers.svg](../resources/companion_27_08_crossed_polarizers.svg). A rotating middle axis gives sequential projections of unpolarized input, with maximum output I0/8 at 45°. The original solution diagram stays above it.
+
+## Chapters 28–30: sixteen relativity and quantum animations
+
+Definitions are in [animations28to30.js](../scripts/figures/animations28to30.js),
+with physical states in [animation-models28to30.js](../scripts/figures/animation-models28to30.js)
+and checks in [animation-models28to30.test.js](../tests/animation-models28to30.test.js).
+Thirteen original SVGs retain their artwork above an animated inset. Three
+standalone companions follow the original relativity JPEGs without incrementing
+figure counters. All use static/play controls, full-size links, and independent
+reduced-motion and print drawings. Motion is illustrative unless a clock or
+elapsed model time is explicitly defined.
+
+### Chapter 28
+
+- Light clock: [companion_28_02_light_clock.svg](../resources/companion_28_02_light_clock.svg). At v = 0.60c, the moving mirrors and photon share their longitudinal coordinate, the photon moves at c in either frame, and the elapsed ground time is 1.25 times the proper interval.
+- Simultaneity: [companion_28_02_simultaneity.svg](../resources/companion_28_02_simultaneity.svg). The same two emission events have equal rest-frame times but different Lorentz-transformed ground times. These are synchronized-clock event coordinates, not signal-arrival times.
+- Length contraction: [companion_28_03_length.svg](../resources/companion_28_03_length.svg). Longitudinal length is L0/γ; transverse size stays fixed. Each observer uses simultaneous endpoint positions in their measuring frame; the drawing is not an apparent photographic shape.
+- Velocity addition: [Figure_28_04_05.svg](../resources/Figure_28_04_05.svg). A forward launch at u′ = 0.75c is compared with the classical sum while ship speed changes. The latter is explicitly a comparison; light still transforms to c.
+- Momentum: [Figure_28_05_02.svg](../resources/Figure_28_05_02.svg). A cursor compares p/(mc) = γv/c with its classical limit on a fixed scale, stopping at 0.97c.
+- Kinetic energy: [Figure_28_06_03.svg](../resources/Figure_28_06_03.svg). K/(mc²) = γ − 1 is compared with the classical limit. Rest energy is excluded from K.
+
+### Chapter 29
+
+- Blackbody spectrum: [Figure_29_01_01.svg](../resources/Figure_29_01_01.svg). Temperature rises from 3000 to 6000 K. The Planck curves share one vertical scale; the peak follows Wien’s law and the displayed bolometric power ratio follows T⁴.
+- Photoelectric threshold: [Figure_29_02_03.svg](../resources/Figure_29_02_03.svg). Photon energy crosses a 2 eV work function. Below threshold the animation says no emission; above it K max = hf − work. This is the one-photon regime.
+- Compton scattering: [Figure_29_04_02.svg](../resources/Figure_29_04_02.svg). A 100 keV photon’s scattering angle controls its energy loss, wavelength shift, and a closed momentum triangle. The recoiling electron obeys the relativistic energy-momentum relation.
+- Diffraction buildup: [Figure_29_07_01.svg](../resources/Figure_29_07_01.svg). A seeded sample of 240 independent detections is revealed in small groups. Its histogram approaches the expectation for the normalized density 2 sin²(5πx). The spots are not a particle trajectory.
+- Matter wavelength: [Figure_29_08_01.svg](../resources/Figure_29_08_01.svg). Electron kinetic energy changes from 50 to 800 eV. Relativistic momentum sets λ = h/p; an equal-wavelength photon has equal momentum but different energy and speed. Both profiles are schematic instantaneous phase drawings on a fixed spatial span.
+
+### Chapter 30
+
+- Rutherford scattering: [Figure_30_02_08.svg](../resources/Figure_30_02_08.svg). Repulsive Coulomb hyperbolas use four impact parameters. Dots follow equal elapsed dimensionless time obtained from angular momentum conservation; the energy and impact-angle relation are checked. The nucleus is drawn enlarged and electrons are omitted.
+- Hydrogen transitions: [Figure_30_03_07.svg](../resources/Figure_30_03_07.svg). Selected Balmer transitions n = 3, 4, 5, 6 to n = 2 emit photons with energies from the rounded book levels −13.6 eV/n². Atomic states change discretely; transition arrows indicate energy gaps, not spatial electron motion.
+- Ring waves: [Figure_30_06_01.svg](../resources/Figure_30_06_01.svg). The historical Bohr–de Broglie boundary-condition illustration fits three or four wavelengths around a ring. Radial displacement is a drawing aid for amplitude; no electron orbit or calibrated atomic phase clock is implied.
+- Ruby laser: [Figure_30_05_16.svg](../resources/Figure_30_05_16.svg). A 2.30 eV pump leads to 0.51 eV nonradiative loss and 1.79 eV stored excitation. A 1.79 eV seed produces two matched outgoing photons. Pump plus seed balances stored energy, heat, and output throughout the illustrated cycle.
+- Pauli exclusion: [Figure_30_09_02.svg](../resources/Figure_30_09_02.svg). Trials show why a 1s orbital accepts opposite spin projections but rejects duplicate quantum numbers and a third electron. A subsequent electron can occupy 2s. Arrows denote spin projection rather than literal rotation.
+
+## Chapters 31–34: twenty nuclear, particle and cosmology animations
+
+Definitions are in [animations31to34.js](../scripts/figures/animations31to34.js),
+with states in [animation-models31to34.js](../scripts/figures/animation-models31to34.js)
+and checks in [animation-models31to34.test.js](../tests/animation-models31to34.test.js).
+All twenty original SVGs retain their artwork above an animated inset. They use
+the existing static/play and full-size controls, independent reduced-motion and
+print drawings, and unchanged figure numbers. Progress sweeps a parameter or
+illustrates a sequence unless a model clock is explicitly stated.
+
+### Chapter 31
+
+- Alpha recoil: [Figure_31_04_02.svg](../resources/Figure_31_04_02.svg). U-238 becomes Th-234 plus He-4, conserving A and Z. Opposite recoil uses masses proportional to A. Nuclear sizes and absolute speeds are schematic.
+- Beta-minus bookkeeping: [Figure_31_04_04.svg](../resources/Figure_31_04_04.svg). A neutron becomes a proton, electron and electron antineutrino. Charge, baryon number and lepton number balance. Separating labels does not specify three-body kinematics.
+- Half-life: [Figure_31_05_01.svg](../resources/Figure_31_05_01.svg). Eighty seeded independent exponential lifetimes are compared with the ensemble curve over four half-lives. A finite sample need not halve exactly.
+- Mass defect: [Figure_31_06_03.svg](../resources/Figure_31_06_03.svg). Free proton and neutron mass energies exceed the deuteron mass energy by about 2.225 MeV. The capture sequence illustrates energy release; photon recoil and the small input kinetic energy are not drawn quantitatively.
+- Force range: [Figure_31_06_04.svg](../resources/Figure_31_06_04.svg). Independently normalized exponential and inverse-square magnitudes compare short-range nuclear attraction with Coulomb repulsion. The exponential is qualitative, not a fitted nuclear potential.
+- Tunneling: [Figure_31_07_03.svg](../resources/Figure_31_07_03.svg). Increasing rectangular-barrier width lowers the exact stationary transmission at E/V0 = 0.4. Probability-current fractions sum to one; no under-barrier trajectory or traversal time is assigned.
+
+### Chapter 32
+
+- Fusion energy: [Figure_32_05_02.svg](../resources/Figure_32_05_02.svg). D + T becomes He-4 + n with Q approximately 17.6 MeV. With negligible input kinetic energy and masses approximated by A, the products receive about 3.5 and 14.1 MeV. Positions are schematic.
+- Coulomb turning point: [Figure_32_05_03.svg](../resources/Figure_32_05_03.svg). A radial classical approach converts K into U until K vanishes, then reverses. The cursor sweeps separation rather than uniform time; this model does not describe tunneling or nuclear contact.
+- Fission sequence: [Figure_32_06_02.svg](../resources/Figure_32_06_02.svg). Neutron capture produces excited U-236, followed by one possible Ba-141 + Kr-92 + 3n channel. A and Z balance; schematic positions do not claim exact recoil geometry. Other channels, photons and subsequent beta decay are omitted.
+- Multiplication factor: [Figure_32_06_03.svg](../resources/Figure_32_06_03.svg). Discrete generations compare expected populations for k = 0.7, 1 and 1.5. Leakage and capture are included in effective k; fluctuations, delayed neutrons and feedback are excluded.
+
+### Chapter 33
+
+- Cyclotron: [Figure_33_03_02.svg](../resources/Figure_33_03_02.svg). Eight equal-duration semicircles use a nonrelativistic thin-gap model with m = qB = qΔV = 1. Energy increases only at gap crossings, the accelerating field reverses each half-turn, and r = mv/qB increases while f stays constant.
+- Synchrotron: [Figure_33_03_03.svg](../resources/Figure_33_03_03.svg). A fixed-radius orbit uses relativistic p and a magnetic field proportional to p. Integrated phase makes angular speed proportional to v. A continuous ramp approximates many RF kicks; the gold marker locates a cavity.
+- Annihilation: [Figure_33_04_02.svg](../resources/Figure_33_04_02.svg). An electron and positron each have 100 keV kinetic energy in their center-of-momentum frame, producing opposite photons of about 611 keV each. Rest and kinetic energy both contribute.
+- Quark charges: [Figure_33_05_01.svg](../resources/Figure_33_05_01.svg). Separate proton, neutron and charged-pion examples add valence electric charges, including opposite antiquark charges. Transitions between examples are discrete; circle positions and purple fill imply no orbit, spin or color-charge state.
+- Electron probe: [Figure_33_05_03.svg](../resources/Figure_33_05_03.svg). K rises logarithmically from 100 MeV to 100 GeV. Relativistic p sets the de Broglie wavelength; the displayed wave has explicit upper and lower drawing limits. Actual scattering resolution also depends on momentum transfer.
+
+### Chapter 34
+
+- Expansion: [Figure_34_01_05.svg](../resources/Figure_34_01_05.svg). A scale-factor sweep doubles fixed-comoving separations while galaxy symbols keep their sizes. Recession arrows grow with distance and 1 + z follows the scale-factor ratio. The highlighted observer is not a physical center; this is not an age model.
+- Parallax: [Figure_34_01_09.svg](../resources/Figure_34_01_09.svg). A projected annual orbit changes the line of sight to a star 2 pc away. Readouts use the geometric angle; p is about 0.5 arcsec and opposite extrema differ by 2p. The drawing greatly enlarges angular changes and compresses distance.
+- Accelerating elevator: [Figure_34_02_01.svg](../resources/Figure_34_02_01.svg). The same pulse is straight in an initial inertial frame and drops by at²/2 in room coordinates. This is a local, low-velocity approximation with vertical displacement enlarged relative to horizontal distance.
+- Solar deflection: [Figure_34_02_02.svg](../resources/Figure_34_02_02.svg). The weak-field formula 4GM/(bc²) gives about 1.75 arcsec at the limb and decreases as impact parameter grows. The broken-ray drawing exaggerates the angle and is not a numerical geodesic.
+- Superconductivity: [Figure_34_06_01.svg](../resources/Figure_34_06_01.svg). Cooling mercury through about 4.2 K switches an idealized normalized resistance from one to zero. The step is not a fit to measured transition width or normal-state resistance; critical current and field limits are assumed satisfied.
+
+The accelerator conventions were cross-checked against CERN’s
+[accelerator overview](https://home.cern/how-accelerator-works/)
+and [RF cavity description](https://home.web.cern.ch/science/engineering/accelerating-radiofrequency-cavities/).
+The astronomy illustrations follow the explanations of
+[gravitational light deflection](https://www.einstein-online.info/en/spotlight/light_deflection/)
+and [cosmological wavelength stretching](https://www.jpl.nasa.gov/edu/resources/lesson-plan/math-of-the-expanding-universe/).

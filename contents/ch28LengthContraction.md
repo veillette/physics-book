@@ -140,6 +140,11 @@ Suppose an astronaut, such as the twin discussed in [Simultaneity and Time Dilat
 ![In part a the distance between the earth and the alpha centauri is measured as L-zero. A clock given in this figure is showing a time delta-t. A spaceship flying with velocity of v equals L-zero over delta-t from the earth to the star is shown. Part b shows the spaceship frame of reference from which the distance L between the earth and star is contracted as they seem to move with same velocity in opposite direction. In part b the clock shows less time elapsed than the clock in part a.](../resources/Figure_28_03_03.jpg '(a) The Earth-bound observer measures the proper distance between the Earth and the Alpha Centauri. (b) The astronaut observes a length contraction, since the Earth and the Alpha Centauri move relative to her ship. She can travel this shorter distance in a smaller time (her proper time) without exceeding the speed of light.')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_28_03_length.svg" alt="A moving rod has length L0 divided by gamma along its motion, while its transverse size stays fixed." class="figure-full-width">
+<figcaption>Each length measurement uses endpoint positions at the same coordinate time in the measuring frame. The animation compares measured lengths rather than photographic appearances.</figcaption>
+</figure>
+
 **Strategy**
 
 First note that a light year (ly) is a convenient unit of distance on an
