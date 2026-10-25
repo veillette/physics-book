@@ -12,6 +12,7 @@ import ch08 from '../scripts/figures/ch08.js';
 import ch09 from '../scripts/figures/ch09.js';
 import ch11to12 from '../scripts/figures/ch11to12.js';
 import { animateFigure } from '../scripts/figures/animations01to13.js';
+import { animateFigure01to13extra } from '../scripts/figures/animations01to13extra.js';
 
 // Measure the rendered arrow from the shaft's start to the triangular head's tip.
 // SVG y points down; return vectors in math coordinates so force sums use +y up.
@@ -213,6 +214,6 @@ it('keeps the checked-in SVGs identical to their generator output', () => {
   };
   for (const [name, build] of Object.entries(figures)) {
     const svg = readFileSync(new URL(`../resources/${name}.svg`, import.meta.url), 'utf8');
-    expect(svg, name).toBe(animateFigure(name, build()));
+    expect(svg, name).toBe(animateFigure01to13extra(name, animateFigure(name, build())));
   }
 });

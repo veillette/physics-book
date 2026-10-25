@@ -104,6 +104,11 @@ linearly proportional to the net external force.
 (c) The free-body diagrams are identical, permitting direct comparison of the two situations. A series of patterns for the free-body diagram will emerge as you do more problems.')
 {: #Figure2}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_04_03_same_force.svg" alt="The same 30-newton push moves a basketball several meters but moves an SUV only about 1.7 millimeters." class="figure-full-width">
+<figcaption>The animated companion applies one force to two very different masses. Acceleration is inversely proportional to mass; the SUV’s tiny displacement is also shown magnified 1000 times.</figcaption>
+</figure>
+
 It has been found that the acceleration of an object depends _only_ on the net
 external force and the mass of the object. Combining the two proportionalities
 just given yields Newton\'s second law of motion.

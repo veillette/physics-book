@@ -236,6 +236,11 @@ from the equation, leaving
 ![Two cargo ships. One is floating higher in the water than the other.](../resources/Figure_11_07_04.jpg 'An unloaded ship (a) floats higher in the water than a loaded ship (b).')
 {: #Figure4}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_11_07_ship.svg" alt="Four cargo loads are lowered onto a flat-sided ship, which settles deeper until the buoyant force equals its total weight." class="figure-full-width">
+<figcaption>For a flat-sided hull, each added load increases the draft by the same amount: the ship sinks until it displaces water whose weight equals its own total weight.</figcaption>
+</figure>
+
 We use this last relationship to measure densities. This is done by measuring
 the fraction of a floating object that is submerged—for example, with a
 hydrometer. It is useful to define the ratio of the density of an object to a

@@ -177,6 +177,11 @@ v&=& 350 \text{km/h}.
 
 </div>
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_05_02_terminal.svg" alt="A skydiver falls from rest while drag grows with speed until it equals the weight; the velocity graph levels off at 98 meters per second." class="figure-full-width">
+<figcaption>Using the values above, the companion integrates the motion from rest. Net force and acceleration shrink as drag grows, and the speed approaches the terminal velocity.</figcaption>
+</figure>
+
 This means a skydiver with a mass of 75 kg achieves a maximum terminal velocity
 of about 350 km/h while traveling in a feet-first position, minimizing
 the area and his drag. In a spread-eagle position, that terminal velocity may

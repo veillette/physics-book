@@ -559,6 +559,11 @@ Twin skaters approach one another as shown in [Figure 4](#Figure4) and lock hand
 
 Angular momentum is conserved about the point where the skaters lock hands. Each skater has initial angular momentum L = mvr relative to this point. After locking hands, they rotate together with combined moment of inertia I = 2mr².
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_10_06_twins.svg" alt="Two skaters glide on parallel paths, link hands, and spin about their center of mass with the same angular momentum." class="figure-full-width">
+<figcaption>The skaters’ straight-line motion already carries angular momentum about the point where they meet. With no external torque, that angular momentum is unchanged when they link hands and spin.</figcaption>
+</figure>
+
 **Solution**
 
 **(a)** Each skater has initial linear momentum approaching at speed v = 2.50 m/s. Their velocities are perpendicular to the line connecting them to the pivot point (where hands will lock), so each contributes angular momentum:

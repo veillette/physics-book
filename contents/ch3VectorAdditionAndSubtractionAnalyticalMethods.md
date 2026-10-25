@@ -32,6 +32,11 @@ it.
 ![In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_01.svg 'The vector \( A \) , with its tail at the origin of an x, y-coordinate system, is shown together with its x- and y-components, \( A_x \) and \( A_y \) . These vectors form a right triangle. The analytical relationships among these vectors are summarized below.')
 {: #Figure1 height="200"}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_03_03_components.svg" alt="Vector A rotates through a full turn while its x and y components change size and sign; a graph traces cos theta and sin theta." class="figure-full-width">
+<figcaption>As the vector turns, its components follow A cos θ and A sin θ. Each component is negative in two quadrants, while the magnitude stays the same.</figcaption>
+</figure>
+
 $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$ \vb{A} $$ along the **x**- and **y**-axes. The three vectors $$ \vb{A} $$, $$ \vb{A}_{x} $$, and $$ \vb{A}_{y} $$ form a right triangle:
 
 <div class="equation">

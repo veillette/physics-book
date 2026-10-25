@@ -81,6 +81,11 @@ nonspherical shape.
 ![In figure a, the gyroscope is rotating in counterclockwise direction. The weight of the gyroscope is acting downward. The supportive force is acting at the base. The line of action of the weight and supportive force are different. The torque is acting along the radius of the horizontal circular part of gyroscope. In figure b, the two vectors L and L plus delta L are shown. The vectors start from a point at the bottom of the figure and terminate at two points on a horizontal dotted circle, directed in counterclockwise direction, at the top of the figure. Another vector delta L starts from the head of vector L and terminates at the head of vector L plus delta L.](../resources/Figure_10_07_04.jpg 'As seen in figure (a), the forces on a spinning gyroscope are its weight and the supporting force from the stand. These forces create a horizontal torque on the gyroscope, which create a change in angular momentum \( \Delta  L \) that is also horizontal. In figure (b), \( \Delta L \) and \( L \) add to produce a new angular momentum with the same magnitude, but different direction, so that the gyroscope precesses in the direction shown instead of falling over.')
 {: #Figure4}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_10_07_gyroscope.svg" alt="A gyroscope supported at one end of its axle precesses about the vertical; a top view shows the change in angular momentum along the torque." class="figure-full-width">
+<figcaption>Gravity exerts a horizontal torque perpendicular to the angular momentum, so the angular momentum changes direction rather than magnitude and the gyroscope precesses.</figcaption>
+</figure>
+
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">
 Check Your Understanding

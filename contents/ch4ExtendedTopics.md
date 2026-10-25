@@ -171,6 +171,11 @@ one another. (See [Figure 2](#Figure2).)
 (c) The analogous exchange of a meson between a proton and a neutron carries the strong nuclear forces \( \vb{F}_\text{exch} \) and \( \vb{F}^\prime_\text{exch} \) between them. An attractive force can also be exerted by the exchange of a mass—if person 2 pulled the basketball away from the first person as he tried to retain it, then the force between them would be attractive.')
 {: #Figure2 height="450"}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_04_08_exchange.svg" alt="One skater throws a ball and recoils; the other catches it and moves away. Momentum bars show the total remains zero." class="figure-full-width">
+<figcaption>The exchange model in motion. Throwing and catching the ball pushes the skaters apart, while the total momentum of the skaters and ball stays zero.</figcaption>
+</figure>
+
 This idea of particle exchange deepens rather than contradicts field concepts.
 It is more satisfying philosophically to think of something physical actually
 moving between objects acting at a distance. [Table 1](#Table1)

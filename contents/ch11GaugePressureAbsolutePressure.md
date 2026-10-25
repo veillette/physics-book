@@ -157,6 +157,11 @@ Diastolic pressure is the minimum blood pressure.
 ![U.S. Army Spc. Monica Brown takes a soldier's blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.](../resources/Figure_11_06_03.jpg 'In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\\4TH BCT)')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_11_06_cuff.svg" alt="As cuff pressure falls from 160 to 60 millimeters of mercury, the artery is closed above 120, sounds occur between 120 and 80, and flow is smooth below 80." class="figure-full-width">
+<figcaption>The companion shows why the first and last sounds mark the systolic and diastolic pressures. The pressure trace is a schematic 120/80 pulse.</figcaption>
+</figure>
+
 ::: example
 
 <div class="title">

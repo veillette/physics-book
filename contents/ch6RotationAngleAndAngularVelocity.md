@@ -43,6 +43,11 @@ radius of curvature:
 ![A circle of radius r and center O is shown. A radius O-A of the circle is rotated through angle delta theta about the center O to terminate as radius O-B. The arc length A-B is marked as delta s.](../resources/Figure_06_01_02.svg 'The radius of a circle is rotated through an angle \( \Delta \theta \). The arc length \( \Delta s \) is described on the circumference. ')
 {: #Figure2}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_06_01_radian.svg" alt="A radius sweeps a full circle while its arc is laid out straight and measured in radius lengths." class="figure-full-width">
+<figcaption>An angle in radians is the arc length divided by the radius. A full circle contains 2π radius lengths of arc, so 360° equals 2π rad.</figcaption>
+</figure>
+
 The **arc length** $$ \Delta s $$ is the distance traveled along a circular path
 as shown in [Figure 2](#Figure2) Note that $$ r $$ is the
 **radius of curvature** of the circular path.

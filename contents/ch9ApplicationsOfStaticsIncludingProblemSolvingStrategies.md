@@ -76,6 +76,11 @@ along its length.
 ![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The center of gravity of the pole is to the right of both of the pole vaulter's hands in the image (on the vaulter's own left side, since he faces the viewer). The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man’s right hand and F sub L is shown with a vector in upward direction at the location of the man’s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_03.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_09_04_pole.svg" alt="A pole’s center of gravity moves from midway between the hands, toward the right hand, then outside the left hand; the hand forces change and the right hand ends up pushing down." class="figure-full-width">
+<figcaption>The companion connects Figures 1–3. The hand forces always add up to the pole’s 49.0-N weight, and their torques about the cg balance.</figcaption>
+</figure>
+
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
 is not as simple. The total force he exerts is still equal to the weight of the
 pole, but it is not evenly divided between his hands. (If $$ F_{L}=F_{R} $$, then the torques about the cg would not be equal since the lever

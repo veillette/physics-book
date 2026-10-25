@@ -45,6 +45,11 @@ person holding a book. The biceps exert a force \( F_B \) to support the
 weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in <a href="#example1">Example 1</a>.')
 {: #Figure1}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_09_06_forearm.svg" alt="A book slides along the forearm from 10 to 38 centimeters from the elbow; the required biceps force grows from 196 to 470 newtons." class="figure-full-width">
+<figcaption>Using the data of Example 1, the companion moves the book outward. Because the biceps acts only 4.00 cm from the elbow, its force is several times the weight it supports.</figcaption>
+</figure>
+
 ::: example {"class":"example","id":"example1"}
 
 <div class="title">

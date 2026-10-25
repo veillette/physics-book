@@ -103,6 +103,11 @@ themselves.
 ![A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.](../resources/Figure_01_02_03.jpg 'An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)')
 {: #Figure3 height="225"}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_01_02_cesium.svg" alt="A slowed wave represents cesium radiation while a bar fills as cycles are counted; 9 192 631 770 cycles make one second." class="figure-full-width">
+<figcaption>An atomic clock measures time by counting oscillations. The displayed wave is slowed by about a billion times; the count that defines one second is exact.</figcaption>
+</figure>
+
 #### The Meter
 
 The SI unit for length is the **meter** (abbreviated m); its definition has also
@@ -234,6 +239,11 @@ See [Figure 5](#Figure5) and [Figure 6](#Figure6).)
 
 ![A view of Abell Galaxy with some bright stars and some hot gases.](../resources/Figure_01_02_06.jpg 'Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)')
 {: #Figure6 height="250"}
+
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_01_02_scales.svg" alt="A marker sweeps a logarithmic length axis from 10 to the minus 15 meters to 10 to the 26 meters, passing objects from a proton to the observable universe." class="figure-full-width">
+<figcaption>The animated companion places familiar objects on one logarithmic axis. Each tick is a factor of ten, so equal spacing means equal ratios, not equal differences.</figcaption>
+</figure>
 
 ### Unit Conversion and Dimensional Analysis
 

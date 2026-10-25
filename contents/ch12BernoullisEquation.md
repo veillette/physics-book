@@ -46,6 +46,11 @@ tipped precariously toward one another.
 ![An overhead view of a car passing by a truck on a highway toward left is shown. The air passing through the vehicles is shown using lines along the length of both the vehicles. The lines representing the air movement has a velocity v one outside the area between the vehicles and velocity v two between the vehicles. v two is shown to be greater than v one with the help of a longer arrow toward right. The pressure between the car and the truck is represented by P i and the pressure at the other ends of both the vehicles is represented as P zero. The pressure P i is shown to be less than P zero by shorter length of the arrow. The direction of P i is shown as pushing the car and truck apart, and the direction of P zero is shown as pushing the car and truck toward each other.](../resources/Figure_12_02_01.jpg 'An overhead view of a car passing a truck on a highway. Air passing between the vehicles flows in a narrower channel and must increase its speed (( v_{2} ) is greater than ( v_{1} ) ), causing the pressure between them to drop (( P_{i} ) is less than ( P_{o} )). Greater pressure on the outside pushes the car and truck together.')
 {: #Figure1}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_12_02_passing.svg" alt="Seen from above, air tracers move faster in the narrow gap between a car and a truck, where the pressure is lower." class="figure-full-width">
+<figcaption>In the vehicles’ frame, air speeds up through the narrow gap to carry the same flow. By Bernoulli’s principle its pressure is lower there, so the vehicles are pushed toward each other.</figcaption>
+</figure>
+
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
 <div class="title">

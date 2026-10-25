@@ -2045,6 +2045,11 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{29.49 \N}{45.0 \kg} = 0.655 \mss$$
 
 When pulling, the minimum force required is $$46.5 \N$$, and the acceleration once moving is $$0.655 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_05_01_push_pull.svg" alt="As the force angle grows, the force needed to start the block rises steeply for pushing and stays lower for pulling; at 25 degrees the values are 51.0 and 46.5 newtons." class="figure-full-width">
+<figcaption>Pushing at an angle adds to the normal force and so to friction; pulling at the same angle reduces both. The companion sweeps the angle and marks this exercise’s answers.</figcaption>
+</figure>
+
 ::::
 
 </div>

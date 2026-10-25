@@ -46,6 +46,11 @@ systems as in [Figure 2](#Figure2)(b).
 (b) A system with nonconservative forces. When the same rock is dropped onto the ground, it is stopped by nonconservative forces that dissipate its mechanical energy as thermal energy, sound, and surface distortion. The rock has lost mechanical energy. ')
 {: #Figure2}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_07_05_rocks.svg" alt="Two identical rocks fall 1.00 meter: one onto a spring that returns it to its starting height, one onto soil that stops it. Energy bars show the transfers." class="figure-full-width">
+<figcaption>With only conservative forces, mechanical energy is shared among kinetic, gravitational, and spring potential energy, and the rock returns to its height. Soil exerts nonconservative forces that turn the energy into thermal energy and sound.</figcaption>
+</figure>
+
 ### How the Work-Energy Theorem Applies
 
 Now let us consider what form the work-energy theorem takes when both

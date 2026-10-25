@@ -186,6 +186,11 @@ Consider the merry-go-round itself to be a uniform disk with negligible retardin
 ![The given figure shows a man pushing a merry-go-round by a force F, indicated by a red arrow which is perpendicular to the radius r, of the merry-go-round, such that it moves in counter-clockwise direction.](../resources/Figure_10_03_03.jpg 'A father pushes a playground merry-go-round at its edge and perpendicular to its radius to achieve maximum torque.')
 {: #Figure4}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_10_03_merry.svg" alt="The same 250-newton push is applied to a merry-go-round at the edge, at half the radius, and at the edge but angled toward the center; the first gives twice the angular acceleration of the other two." class="figure-full-width">
+<figcaption>Angular acceleration depends on torque, τ = rF sin θ, not on force alone. The disk data match Example 1.</figcaption>
+</figure>
+
 **Strategy**
 
 Angular acceleration is given directly by the expression $$ \alpha =\frac{ \text{net τ}}{I} $$:
