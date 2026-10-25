@@ -106,6 +106,11 @@ farther for the farsighted person to be able to see it clearly.
 ![Two illustrations of a cross-sectional view of an eye are shown. In the upper part of the figure, a converging lens is placed in front of the eye structure and a close object before it. A ray diagram showing the rays from the object are striking the lens; converging a bit and entering the eyes; converging again through the eye lens and forming an image at the retina, and another set of rays converge behind the retina. The lower part of the figure shows a virtual image, an object, a converging lens, and the internal structure of an eye. Parallel rays from the object are entering the eyes and converging at a point on the retina. An image larger than the object image is formed behind the object on the same side of the lens.](../resources/Figure_26_02_03.jpg 'Correction of farsightedness uses a converging lens that compensates for the under convergence by the eye. The converging lens produces an image farther from the eye than the object, so that the farsighted person can see it clearly.')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_26_02_vision_correction.svg" alt="A negative correction for a myopic eye and a positive correction for a hyperopic eye move their focal points onto the retina." class="figure-full-width">
+<figcaption>Opposite correction powers compensate for excessive and insufficient convergence. The eye power stays fixed; this schematic uses the lenses-in-contact approximation.</figcaption>
+</figure>
+
 ::: example
 
 <div class="title">

@@ -89,6 +89,11 @@ fully accommodated_.
 ![Two cross-sectional views of eye anatomy are shown. In part a of the figure, parallel rays from distant object are entering the eye and are converging on the retina to produce an inverted image of the tree shown above the principle axis. The interior lens of the eye is relaxed and least rounded, given as P small. Distance of image d i is equal to two centimeters, which is the measure of the distance from lens to retina. Distance of object d o is given as very large. In part b of the figure, rays from a button, which is a nearby object, are shown to diverge as they enter the eye. The interior lens of the eye, P large, converges the rays to form an image at retina, below the principle axis. Distance of image d i is equal to two centimeters, which is the measure of distance from lens to retina. Distance of object d o is given as very small.](../resources/Figure_26_01_03.jpg 'Relaxed and accommodated vision for distant and close objects. (a) Light rays from the same point on a distant object must be nearly parallel while entering the eye and more easily converge to produce an image on the retina. (b) Light rays from a nearby object can diverge more and still enter the eye. A more powerful lens is needed to converge them on the retina than if they were parallel.')
 {: #Figure3}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_26_01_accommodation.svg" alt="An equivalent eye lens increases its power while keeping the inverted retinal image at a fixed image distance of 2 centimeters." class="figure-full-width">
+<figcaption>Accommodation in an equivalent thin-lens model. The object moves from far away toward 25 cm; the retina stays fixed while the lens power rises.</figcaption>
+</figure>
+
 We will use the thin lens equations to examine image formation by the eye
 quantitatively. First, note the power of a lens is given as $$P=1/f $$ , so we
 rewrite the thin lens equations as

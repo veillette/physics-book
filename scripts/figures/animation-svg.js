@@ -44,6 +44,33 @@ const arrow = (x, y, dx, dy, color = C.blue, width = 3) => {
   );
 };
 const visible = (show, markup) => `<g opacity="${show ? 1 : 0}">${markup}</g>`;
+// Fixed glyph structure permits script-free numerical readouts. Animate opacity
+// discretely so two digits never overlap during a transition.
+function number(x, y, value, integers = 2, decimals = 1, signed = false) {
+  const digits = Math.round(Math.abs(value) * 10 ** decimals)
+    .toString()
+    .padStart(integers + decimals, '0');
+  let result = '',
+    offset = 0;
+  if (signed) {
+    result += visible(value >= 0, text(x, y, '+', 19));
+    result += visible(value < 0, text(x, y, '−', 19));
+    offset += 13;
+  }
+  for (let i = 0; i < integers + decimals; i += 1) {
+    if (i === integers && decimals) {
+      result += text(x + offset, y, '.', 19);
+      offset += 7;
+    }
+    for (let digit = 0; digit < 10; digit += 1) {
+      result += visible(Number(digits[i]) === digit, text(x + offset, y, digit, 19));
+    }
+    offset += 12;
+  }
+  return result;
+}
+const readout = (x, y, label, value, integers = 2, decimals = 1, signed = false) =>
+  text(x, y, label, 17, C.guide, 'start') + number(x + 115, y, value, integers, decimals, signed);
 const series = (fn, count = 60) => Array.from({ length: count + 1 }, (_, i) => fn(i / count));
 const axes = (x, y, w, h, xLabel, yLabel) =>
   arrow(x, y, w, 0, C.ink, 1.5) +
@@ -71,8 +98,8 @@ function animatedBody(draw, { discreteAttributes = [] } = {}) {
   return `<defs><clipPath id="animation-diagram-clip"><rect x="20" y="42" width="860" height="282"/></clipPath></defs><g id="animation-paused"/><g class="anim-still">${draw(0.75)}</g><g class="anim-movie" aria-hidden="true">${morph(samples, { dur: '10s', discreteAttributes, keyTimes: discreteAttributes.length ? series(q => q) : undefined })}</g>`;
 }
 const style = `<style>.anim-movie{display:none}@media (prefers-reduced-motion:no-preference){.anim-movie{display:inline}.anim-still{display:none}}#animation-paused:target~.anim-movie{display:none!important}#animation-paused:target~.anim-still{display:inline!important}@media (prefers-reduced-motion:reduce),print{.anim-movie{display:none!important}.anim-still{display:inline!important}}</style>`;
-function standalone(title, desc, draw) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-labelledby="title desc"><title id="title">${escapeXml(title)}</title><desc id="desc">${escapeXml(desc)} Animated motion has a static alternative for reduced motion and print.</desc>${style}<rect width="900" height="380" fill="white"/>${animatedBody(draw)}</svg>\n`;
+function standalone(title, desc, draw, options) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-labelledby="title desc"><title id="title">${escapeXml(title)}</title><desc id="desc">${escapeXml(desc)} Animated motion has a static alternative for reduced motion and print.</desc>${style}<rect width="900" height="380" fill="white"/>${animatedBody(draw, options)}</svg>\n`;
 }
 
 function appendAnimation(svg, draw, options) {
@@ -104,6 +131,8 @@ export {
   polygon,
   arrow,
   visible,
+  number,
+  readout,
   series,
   axes,
   panel,

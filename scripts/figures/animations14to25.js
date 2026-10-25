@@ -10,6 +10,8 @@ import {
   visible,
   panel,
   appendAnimation,
+  number,
+  readout,
 } from './animation-svg.js';
 import {
   wallProbe,
@@ -27,34 +29,7 @@ import {
   spectrumState,
 } from './animation-models14to25.js';
 
-// Fixed glyph structure lets SMIL animate numerical readouts without scripts.
-// Leading zeroes keep the display width constant; digits switch without overlap.
-function number(x, y, value, integers = 2, decimals = 1, signed = false) {
-  const digits = Math.round(Math.abs(value) * 10 ** decimals)
-    .toString()
-    .padStart(integers + decimals, '0');
-  let result = '',
-    offset = 0;
-  if (signed) {
-    result += visible(value >= 0, text(x, y, '+', 19));
-    result += visible(value < 0, text(x, y, '−', 19));
-    offset += 13;
-  }
-  for (let i = 0; i < integers + decimals; i += 1) {
-    if (i === integers && decimals) {
-      result += text(x + offset, y, '.', 19);
-      offset += 7;
-    }
-    for (let digit = 0; digit < 10; digit += 1) {
-      result += visible(Number(digits[i]) === digit, text(x + offset, y, digit, 19));
-    }
-    offset += 12;
-  }
-  return result;
-}
 const points = fn => Array.from({ length: 121 }, (_, i) => fn(i / 120));
-const readout = (x, y, label, value, integers = 2, decimals = 1, signed = false) =>
-  text(x, y, label, 17, C.guide, 'start') + number(x + 115, y, value, integers, decimals, signed);
 
 function wallScene(t) {
   const s = wallProbe(t),

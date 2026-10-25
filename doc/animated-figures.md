@@ -1,4 +1,4 @@
-# Animated figures in chapters 1–25
+# Animated figures in chapters 1–27
 
 The chapter 1–13 review is implemented as 39 animation ideas in 40 SVG assets.
 The accuracy/precision comparison uses two target images. In multi-image
@@ -232,3 +232,36 @@ their notes.
 - Cooling toward absolute zero: [Figure_13_05_01.svg](../resources/Figure_13_05_01.svg).
 - Why lakes freeze from the top: [Figure_13_02_03.svg](../resources/Figure_13_02_03.svg).
 - Three ways to change tire pressure: [Figure_13_03_03.svg](../resources/Figure_13_03_03.svg).
+
+## Chapters 26 and 27: sixteen optics animations
+
+Defined in [animations26to27.js](../scripts/figures/animations26to27.js), with
+analytic states in [animation-models26to27.js](../scripts/figures/animation-models26to27.js)
+and checks in [animation-models26to27.test.js](../tests/animation-models26to27.test.js).
+Twelve generated SVGs retain their original artwork above an animated inset.
+Four standalone companions are placed beside the original eye, resolution, and
+three-polarizer illustrations without incrementing figure counters. Every image
+uses the existing static/play and full-size controls, reduced-motion fallback,
+and static print view. The original JPEGs and hand-authored solution SVG remain.
+
+### Chapter 26
+
+- Accommodation: [companion_26_01_accommodation.svg](../resources/companion_26_01_accommodation.svg). An equivalent thin eye lens changes from 50 to 54 D while the retina remains 2 cm away; the inverted image stays on it.
+- Vision correction: [companion_26_02_vision_correction.svg](../resources/companion_26_02_vision_correction.svg). Fixed-power myopic and hyperopic examples use negative and positive corrections, respectively, in an explicitly stated lenses-in-contact approximation.
+- Numerical aperture and immersion: [Figure_26_04_05.svg](../resources/Figure_26_04_05.svg). A 35° ray in cover glass refracts into air, water, or oil; the same objective aperture collects different rays. NA uses the half-angle in the immersion medium.
+- Fiber acceptance: [Figure_26_04_04.svg](../resources/Figure_26_04_04.svg). Snell refraction and the critical angle determine guidance. Outside the acceptance cone, Fresnel power splits between reflection and leakage rather than disappearing.
+- Reflecting telescope: [Figure_26_05_03.svg](../resources/Figure_26_05_03.svg). Equal-distance tracers follow the original spherical primary and flat diagonal ray geometry through the eyepiece. Tracers illustrate paths, not delayed image formation.
+- Chromatic aberration: [Figure_26_06_01.svg](../resources/Figure_26_06_01.svg). A detector scans the fixed color foci. The illustrative doublet matches two wavelengths while retaining secondary spectrum; spots describe geometric blur.
+- Spherical aberration: [Figure_26_06_03.svg](../resources/Figure_26_06_03.svg). The original two-spherical-surface trace is shared by the animation. An iris blocks marginal rays; the detector stays near the paraxial focus. Diffraction is deliberately excluded from this geometric comparison.
+
+### Chapter 27
+
+- Huygens wavelets: [Figure_27_02_02.svg](../resources/Figure_27_02_02.svg). Simultaneously emitted semicircular wavelets grow with radius vt and construct the advancing tangent wavefront.
+- Double-slit probe: [Figure_27_03_05.svg](../resources/Figure_27_03_05.svg). Exact path lengths drive relative phase and normalized intensity as an observation point scans the screen. Figure 27.3.4 remains a reference.
+- Fringe spacing: [Figure_27_03_08.svg](../resources/Figure_27_03_08.svg). Wavelength, slit separation, and screen distance change in separate stages within the far-field, small-angle approximation. The identical base drawing in Figure 27.4.6 stays static.
+- Single-slit diffraction: [Figure_27_05_03.svg](../resources/Figure_27_05_03.svg). Width falls from 6λ to 2λ at fixed wavelength, widening the central band. Intensity curves use the sinc-squared law and are normalized to their central peak.
+- Grating sharpness: [Figure_27_04_03.svg](../resources/Figure_27_04_03.svg). Integer slit counts 2, 4, 8, and 16 sharpen the principal maxima at fixed spacing. Each curve is normalized to its own peak; no absolute-power comparison is implied.
+- Rayleigh resolution: [companion_27_06_rayleigh.svg](../resources/companion_27_06_rayleigh.svg). Two mutually incoherent Airy intensities add. Separation changes first, then aperture changes at fixed separation. Angular axes retain their initial scale; profiles normalize to one source’s peak at each aperture.
+- Thin-film phase: [Figure_27_07_02.svg](../resources/Figure_27_07_02.svg). At normal incidence in an air–film–air stack, a two-beam Fresnel model includes unequal amplitudes and the top-surface phase reversal. It omits further internal reflections and labels its geometric thickness schematic.
+- Malus’s law: [Figure_27_08_07.svg](../resources/Figure_27_08_07.svg). The analyzer rotates through 180°; signed field projection and its nonnegative squared intensity stay distinct. Input light is already linearly polarized.
+- Crossed polarizers: [companion_27_08_crossed_polarizers.svg](../resources/companion_27_08_crossed_polarizers.svg). A rotating middle axis gives sequential projections of unpolarized input, with maximum output I0/8 at 45°. The original solution diagram stays above it.

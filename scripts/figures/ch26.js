@@ -72,6 +72,29 @@ function ray(svg, P, Q, { arrow = 0.5, color = LIGHT, width = 2.2, dash } = {}) 
   }
 }
 
+/** Exact two-surface trace, also shared by the spherical-aberration companion. */
+export function traceSphericalRay(x1, x2, cy, R, h, P, d) {
+  const C1 = [x1 + R, cy],
+    C2 = [x2 - R, cy];
+  const H1 = circleHit(P, d, C1, R, true);
+  if (!H1 || Math.abs(H1[1] - cy) > h) return null;
+  const d1 = refract(d, unit(sub(H1, C1)), 1, 1.5);
+  const H2 = d1 && circleHit(H1, d1, C2, R, false);
+  const d2 = H2 && refract(d1, unit(sub(H2, C2)), 1.5, 1);
+  return d2 ? { H1, H2, d2 } : null;
+}
+
+/** Existing reflecting-telescope geometry: primary, diagonal, eyepiece. */
+export function telescopeRayPath(y) {
+  const H = circleHit([40, y], [1, 0], [-160, 240], 800, false);
+  const d1 = reflect([1, 0], unit(sub([-160, 240], H)));
+  const t = (600 - H[0] - H[1]) / (d1[0] + d1[1]);
+  const F = add(H, mul(d1, t));
+  const d2 = reflect(d1, unit([1, 1]));
+  const L = add(F, mul(d2, (430 - F[1]) / d2[1]));
+  return [[40, y], H, F, L, [L[0], 540]];
+}
+
 /**
  * A biconvex lens with spherical faces of radius R, vertices at x1 and x2 on
  * the axis y = cy, and half-height h. `trace` sends a ray through it exactly.
@@ -95,14 +118,7 @@ function sphericalLens(svg, x1, x2, cy, R, h) {
   );
   svg.polygon([...left, ...right], { fill: `url(#${id})`, stroke: GLASS[2], width: 1.5 });
   // Returns null for a ray that misses the lens or is totally reflected inside it.
-  return (P, d) => {
-    const H1 = circleHit(P, d, C1, R, true);
-    if (!H1 || Math.abs(H1[1] - cy) > h) return null;
-    const d1 = refract(d, unit(sub(H1, C1)), 1, 1.5);
-    const H2 = d1 && circleHit(H1, d1, C2, R, false);
-    const d2 = H2 && refract(d1, unit(sub(H2, C2)), 1.5, 1);
-    return d2 ? { H1, H2, d2 } : null;
-  };
+  return (P, d) => traceSphericalRay(x1, x2, cy, R, h, P, d);
 }
 
 /** Thin lens outline (biconvex), centered at (cx, cy), half-height h; `horizontal` lays it on its side. */
@@ -520,19 +536,12 @@ export default {
       width: 1.2,
     });
     svg.line(...M1, ...M2, { color: LIGHT, width: 2.4 });
-    const nFlat = unit([1, 1]);
     const lensY = 430;
     thinLens(svg, 360, lensY, 90, { horizontal: true, w: 10 });
     for (const y of [110, 370]) {
-      const H = circleHit([40, y], [1, 0], C, R, false);
+      const [, H, F, L] = telescopeRayPath(y);
       ray(svg, [40, y], H, { arrow: 0.55 });
-      const d1 = reflect([1, 0], unit(sub(C, H)));
-      // From the mirror to the flat, then down to the eyepiece, then parallel to the axis of the lens.
-      const t = (600 - H[0] - H[1]) / (d1[0] + d1[1]);
-      const F = add(H, mul(d1, t));
       ray(svg, H, F, { arrow: 0.5 });
-      const d2 = reflect(d1, nFlat);
-      const L = add(F, mul(d2, (lensY - F[1]) / d2[1]));
       ray(svg, F, L, { arrow: 0.35 });
       ray(svg, L, [L[0], 540], { arrow: 0.6 });
     }

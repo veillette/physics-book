@@ -82,6 +82,11 @@ radians.
 ![Part a of the figure shows a graph of intensity versus theta. The curve has a central maximum at theta equals zero and its first minima occur at plus one point two two lambda over D and minus one point two two lambda over D. Farther from the central peak, several small peaks occur, but they are much much smaller than the central maximum. Part b of the figure shows a drawing in which two light bulbs, labeled object one and object two, appear in the foreground positioned next to each other. Two rays of light, one from each light bulb, pass through a pinhole aperture and continue on to strike a screen that is farther back in the drawing. On the screen is an x y plot of the two resulting intensity patterns. Because the rays cross in the pinhole, the ray from the left light bulb makes the right-hand intensity pattern, and vice versa. The angle between the rays coming from the light bulbs is labeled theta min. Each ray hits the screen at the central maximum of the intensity pattern that corresponds to the object from which the ray came. The central maximum of object one is at the same position as the first minimum of object two, and vice versa.](../resources/Figure_27_06_02.jpg '(a) Graph of intensity of the diffraction pattern for a circular aperture. Note that, similar to a single slit, the central maximum is wider and brighter than those to the sides. (b) Two point objects produce overlapping diffraction patterns. Shown here is the Rayleigh criterion for being just resolvable. The central maximum of one pattern lies on the first minimum of the other.')
 {: #Figure2}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_27_06_rayleigh.svg" alt="Two Airy intensity profiles first move closer together; then a larger aperture narrows them at fixed separation, changing their separation relative to the Rayleigh criterion." class="figure-full-width">
+<figcaption>Two mutually incoherent point sources contribute intensities that add. First their angular separation shrinks; then the aperture grows at fixed separation. The circular-aperture Rayleigh angle is approximately 1.22λ/D.</figcaption>
+</figure>
+
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
 <div class="title">

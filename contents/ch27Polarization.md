@@ -535,6 +535,11 @@ Let the first and last axes be $0^\circ$ and $90^\circ$, and the middle axis be 
 
 ![Three polarizers with axes at 0, 45, and 90 degrees transmit successive intensities I₀/2, I₀/4, and I₀/8.](/resources/solution_27_polarization_crossed_filters.svg){: .figure-full-width}
 
+<figure class="figure-companion animation-companion">
+<img src="/resources/companion_27_08_crossed_polarizers.svg" alt="The middle of three polarizers rotates while the outer axes remain crossed. Transmitted intensity reaches one eighth of the unpolarized incident intensity at 45 degrees." class="figure-full-width">
+<figcaption>The rotating middle filter applies two successive projections. The intensity after each filter is shown as a percentage of the unpolarized incident intensity.</figcaption>
+</figure>
+
 The middle axis gives two nonzero projections. Each 45° step halves the intensity that reaches it.
 
 **Discussion**
